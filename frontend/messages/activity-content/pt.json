@@ -1083,25 +1083,26 @@
     },
     "ten-frame.teen-numbers.make-n": {
       "about": [
-        "O comando mostra um número de 11 a 19, como 16, e a criança preenche o primeiro quadro de dez até completar uma dezena e depois coloca as unidades que sobram num segundo quadro — então o 16 aparece como uma dezena e mais seis. Montar assim deixa visível a estrutura escondida do número. É uma atividade interativa de valor posicional para a educação infantil, que roda no navegador sem cadastro.",
-        "Os números de 11 a 19 são traiçoeiros porque o nome esconde a estrutura — “dezesseis” não diz claramente “uma dezena e seis”. Montar cada um em dois quadros mostra essa estrutura escondida: há sempre uma dezena completa e mais algumas unidades. A criança compõe o número a partir de uma dezena e dos extras, em vez de contar tudo de um em um — e é exatamente nessa ideia que o valor posicional se apoia.",
-        "A atividade está alinhada à BNCC, na unidade temática Números, compondo e decompondo os números de 11 a 19 em uma dezena e algumas unidades. Sem cronômetro, sem pontuação: só prática calma e brincante para crianças da pré-escola."
+        "Aparece um número de 11 a 19 com o seu nome, por exemplo 14, quatorze. A criança segura um pequeno bico e as fichas caem, cerca de quatro por segundo, cada uma rolando para a próxima casa de uma bandeja de dez; um toque despeja exatamente uma. Nada chega à segunda bandeja antes que a primeira esteja cheia: na décima ficha, a bandeja de cima treme, sua borda brilha, uma rampa se abre e a décima primeira rola para a bandeja de baixo. É uma atividade interativa de matemática para a pré-escola, que funciona no navegador, sem instalar nada.",
+        "A novidade é que a gravidade coloca a dezena primeiro, então 14 é de verdade uma dezena cheia que transbordou, mais quatro. Enquanto a criança despeja, nenhuma quantidade aparece: ela para onde acha que está o número e toca em Conferir. Se faltar ou sobrar, a forma do número aparece como casas pontilhadas sobre as bandejas e o buraco ou a ficha a mais ficam bem visíveis; depois do segundo erro, as casas pontilhadas se numeram na ordem do despejo. Tocar numa ficha tira de volta a última despejada (uma ficha da bandeja de cima, cheia, fica enquanto a de baixo tiver fichas). No acerto, o 1 do número flutua até a bandeja cheia e o 4 até as quatro fichas de baixo. O nível “Número do dia” vai além: cada bandeja cheia se fecha e desliza para uma prateleira das dezenas, uma pilha coloca uma dezena fechada com um toque, e um cartão do dia se completa passo a passo: formar 37, colocar mais dez (47), tirar dez de 37 (27); em três rodadas também um a mais ou um a menos, quando 49 + 1 fecha uma nova dezena e 30 − 1 abre uma.",
+        "A atividade está alinhada à BNCC, na unidade temática Números: compor e decompor os números de 11 a 19 em dez unidades e mais algumas. O nível “Número do dia” segue a rotina do número do dia do 1º ano: dezenas e unidades, o nome do número, risquinhos até 20, dez a mais e dez a menos. Os nomes dos números vêm das mesmas tabelas revisadas das folhas de atividades para imprimir. O professor pode mostrar a forma pontilhada desde o começo. “Só despejar” é brincadeira aberta, com um cartão do dia que vai contando. Sem cronômetro, sem pontuação."
       ],
       "practices": [
-        "Preencher um quadro de dez completo para formar uma dezena.",
-        "Acrescentar as unidades que sobram no segundo quadro.",
-        "Montar cada número de 11 a 19 como uma dezena e mais alguns.",
-        "Enxergar a dezena escondida dentro de números como 14 e 18."
+        "Formar de 11 a 19 como uma dezena cheia e mais algumas",
+        "Ver o 1 de um número de 11 a 19 como uma dezena inteira",
+        "Mostrar um número até 99 em dezenas cheias e unidades",
+        "Encontrar dez a mais, dez a menos, um a mais e um a menos"
       ],
       "howToPlay": [
-        "Leia o comando para ver qual número de 11 a 19 montar.",
-        "Preencha o primeiro quadro de dez até dez, coloque as unidades que sobram no segundo quadro e toque em Verificar.",
-        "Não acertou? Ajuste as fichas e tente de novo — não tem cronômetro nem pontuação."
+        "Olhe o número no cartão.",
+        "Segure o bico para despejar ou toque nele para uma ficha. Toque numa ficha para tirar a última de volta.",
+        "Pare onde achar que está o número e toque em Conferir.",
+        "Ainda não? Os lugares pontilhados mostram a forma do número. Sem cronômetro, sem pontuação."
       ],
       "learningGoals": [
-        "Compor os números de 11 a 19 como uma dezena e algumas unidades.",
-        "Entender que todo número de 11 a 19 contém uma dezena completa.",
-        "Construir a base de valor posicional para somar e agrupar no 1º ano."
+        "Compor e decompor os números de 11 a 19 em uma dezena e algumas unidades",
+        "Ler um número de dois algarismos em dezenas e unidades",
+        "Encontrar dez a mais e dez a menos sem contar de um em um"
       ]
     },
     "choice-board.sort-count.k-md-b-3": {

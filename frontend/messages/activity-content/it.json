@@ -1579,25 +1579,26 @@
     },
     "ten-frame.teen-numbers.make-n": {
       "about": [
-        "La consegna indica un numero tra 11 e 19, per esempio 16, e il bambino riempie la prima tabella del dieci fino a una decina completa e poi aggiunge le unità in più su una seconda tabella — così 16 appare come dieci e altri sei. Costruirlo in questo modo rende visibile la struttura nascosta. È un'attività sul valore posizionale per la scuola dell'infanzia, interattiva, che si gioca nel browser senza registrazione.",
-        "I numeri tra 11 e 19 sono insidiosi perché il loro nome nasconde la struttura: «sedici» non dice «dieci e sei». Costruire ognuno su due tabelle rende visibile quella struttura nascosta: c'è sempre un dieci pieno e poi alcune unità. Il bambino compone il numero a partire da un dieci e da qualche unità invece di contare tutto a uno a uno: è proprio l'idea su cui si fonda il valore posizionale.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: comporre e scomporre i numeri da 11 a 19 in un dieci e alcune unità. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
+        "Compare un numero da 11 a 19 con il suo nome, per esempio 14, quattordici. Il bambino tiene premuto un piccolo beccuccio e i gettoni scendono, circa quattro al secondo, ognuno rotolando nella casella successiva di un vassoio da dieci; un tocco ne versa esattamente uno. Niente può arrivare al secondo vassoio prima che il primo sia pieno: al decimo gettone il vassoio di sopra trema, il suo bordo si illumina, uno scivolo si apre e l’undicesimo rotola nel vassoio di sotto. È un’attività interattiva di matematica per la scuola dell’infanzia che funziona nel browser, senza installare nulla.",
+        "La novità è che la gravità mette prima la decina, così 14 è davvero una decina piena che è traboccata, più quattro. Mentre il bambino versa non compare nessun numero: si ferma dove pensa che sia il numero e tocca Controlla. Se sono troppo pochi o troppi, la forma del numero appare come caselle tratteggiate sui vassoi, e il vuoto o il gettone in più si vedono subito; dopo un secondo errore le caselle tratteggiate si numerano nell’ordine del versamento. Toccare un gettone riprende l’ultimo versato (un gettone del vassoio di sopra, pieno, resta finché quello di sotto ne contiene). In caso di riuscita, l’1 del numero vola sul vassoio pieno e il 4 sui quattro gettoni di sotto. Il livello «Numero del giorno» va oltre: ogni vassoio pieno si chiude e scivola su una mensola delle decine, una pila aggiunge una decina chiusa con un tocco e una scheda del giorno si completa passo dopo passo: formare 37, aggiungere dieci in più (47), togliere dieci da 37 (27); in tre turni anche uno in più o uno in meno, dove 49 + 1 chiude una nuova decina e 30 − 1 ne apre una.",
+        "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: comporre e scomporre i numeri da 11 a 19 in dieci unità e qualche unità in più. Il livello «Numero del giorno» segue la routine del numero del giorno della classe prima: decine e unità, il nome del numero, le tacche fino a 20, dieci in più e dieci in meno. I nomi dei numeri vengono dalle stesse tabelle verificate delle schede da stampare. L’insegnante può mostrare la forma tratteggiata fin dall’inizio. «Versa e basta» è gioco aperto, con una scheda del giorno che conta insieme. Nessun timer, nessun punteggio."
       ],
       "practices": [
-        "Riempire una tabella del dieci intera per formare una decina.",
-        "Aggiungere le unità in più sulla seconda tabella.",
-        "Costruire ogni numero da 11 a 19 come un dieci e qualche unità in più.",
-        "Vedere il dieci nascosto dentro numeri come 14 e 18."
+        "Formare da 11 a 19 come una decina piena e qualcosa in più",
+        "Vedere l’1 di un numero da 11 a 19 come una decina intera",
+        "Mostrare un numero fino a 99 in decine piene e unità",
+        "Trovare dieci in più, dieci in meno, uno in più e uno in meno"
       ],
       "howToPlay": [
-        "Il bambino legge la consegna per sapere quale numero tra 11 e 19 formare.",
-        "Riempie la prima tabella del dieci fino a dieci, poi mette le unità in più sulla seconda tabella e preme Conferma.",
-        "Non è giusto? Aggiusta i gettoni e riprova, senza timer e senza punteggio."
+        "Guarda il numero sulla scheda.",
+        "Tieni premuto il beccuccio per versare o toccalo per un gettone. Tocca un gettone per riprendere l’ultimo.",
+        "Fermati dove pensi che sia il numero e tocca Controlla.",
+        "Non ancora? I posti tratteggiati mostrano la forma del numero. Nessun timer, nessun punteggio."
       ],
       "learningGoals": [
-        "Comporre i numeri da 11 a 19 come un dieci e alcune unità.",
-        "Capire che ogni numero tra 11 e 19 contiene un dieci completo.",
-        "Costruire le basi del valore posizionale per addizionare e raggruppare in prima elementare."
+        "Comporre e scomporre i numeri da 11 a 19 in una decina e alcune unità",
+        "Leggere un numero di due cifre come decine e unità",
+        "Trovare dieci in più e dieci in meno senza contare uno per uno"
       ]
     },
     "choice-board.sort-count.k-md-b-3": {

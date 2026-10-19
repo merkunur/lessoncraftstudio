@@ -335,25 +335,26 @@
     },
     "ten-frame.teen-numbers.make-n": {
       "about": [
-        "Opgaven nævner et tal mellem 11 og 19 som fx 16, og barnet fylder den første tierramme helt op til en tier og lægger derefter de ekstra enere på den anden ramme — så 16 viser sig som ti og seks mere. Når det bygges på den måde, bliver den skjulte struktur synlig. Det er en interaktiv aktivitet til titalssystemet i børnehaveklassen, der spilles i browseren uden oprettelse.",
-        "Tallene fra 11 til 19 er drilske, fordi deres navne skjuler deres bygning — \"seksten\" siger ikke \"ti og seks\". Når hvert tal bygges på to rammer, bliver den skjulte struktur synlig: der er altid én fuld tier og så nogle enere. Barnet sætter tallet sammen af en tier og lidt mere i stedet for at tælle hele vejen op én for én, og det er præcis den idé, hele titalssystemet bygger på.",
-        "Aktiviteten følger Fælles Mål inden for tal i titalssystemet: at sætte sammen og dele tal fra 11 til 19 i en tier og nogle enere. Der er ingen timer og ingen point — bare rolig, legende træning i børnehaveklassen."
+        "Et tal fra 11 til 19 vises med sit talord, for eksempel 14, fjorten. Barnet holder en lille tud nede, og brikker triller ud, cirka fire i sekundet, hver ind i næste felt i en bakke med ti felter; et tryk hælder præcis én. Intet kan nå den anden bakke, før den første er fuld: ved den tiende brik ryster den øverste bakke, kanten lyser op, en rutsjebane åbner sig, og den ellevte triller ned i bakken nedenunder. Det er en interaktiv matematikaktivitet til børnehaveklassen, der kører i browseren uden installation.",
+        "Det særlige er, at tyngdekraften lægger tieren først, så 14 er bogstaveligt talt en fuld tier, der løb over, og fire til. Mens barnet hælder, vises intet antal – barnet stopper, hvor det tror, tallet er, og trykker på Tjek. Er der for få eller for mange, vises tallets form som prikkede felter over bakkerne, så hullet eller den ekstra brik ses med det samme; efter anden fejl nummererer de prikkede felter sig selv i den rækkefølge, der hældes. Et tryk på en brik tager den senest hældte tilbage (en brik i den fulde øverste bakke bliver, så længe den nederste har nogen). Når det lykkes, svæver tallets 1 hen på den fulde bakke og 4 hen på de fire brikker nedenunder. Niveauet »Dagens tal« går videre: hver fuld bakke lukkes og glider op på en tierhylde, en stabel lægger en hel lukket tier til med ét tryk, og et dagskort fyldes trin for trin – byg 37, læg ti mere til (47), tag ti væk fra 37 (27); i tre runder også en mere eller en mindre, hvor 49 + 1 lukker en ny tier og 30 − 1 åbner en.",
+        "Aktiviteten følger Fælles Mål inden for tal i titalssystemet: at sætte sammen og dele tallene 11 til 19 i ti enere og nogle enere mere. Niveauet »Dagens tal« følger rutinen med dagens tal fra 1. klasse: tiere og enere, talordet, tællestreger op til 20, ti mere og ti mindre. Talordene kommer fra de samme gennemsete tabeller som arbejdsarkene til udskrift. Læreren kan vise den prikkede form fra start. »Bare hælde« er åben leg med et dagskort, der tæller med. Ingen tidtagning, ingen point."
       ],
       "practices": [
-        "Fylde én hel tierramme, så den bliver til en tier",
-        "Lægge de ekstra enere på den anden ramme",
-        "Bygge hvert tal fra 11 til 19 som en tier og lidt mere",
-        "Få øje på den skjulte tier inde i tal som 14 og 18"
+        "At bygge 11-19 som en fuld tier og nogle til",
+        "At se 1-tallet i et tal fra 11 til 19 som en hel tier",
+        "At vise et tal op til 99 som fulde tiere og enere",
+        "At finde ti mere, ti mindre, en mere og en mindre"
       ],
       "howToPlay": [
-        "Barnet læser opgaven for at se, hvilket tal mellem 11 og 19 det skal lave.",
-        "Barnet fylder den første tierramme op til ti, lægger så de ekstra enere på den anden ramme og trykker på Tjek.",
-        "Passer det ikke? Barnet kan flytte tællebrikkerne og prøve igen — der er ingen timer og ingen point."
+        "Se på tallet på kortet.",
+        "Hold tuden nede for at hælde, eller tryk for én brik. Tryk på en brik for at tage den sidste tilbage.",
+        "Stop, hvor du tror, tallet er, og tryk på Tjek.",
+        "Ikke endnu? De prikkede pladser viser tallets form. Ingen tidtagning, ingen point."
       ],
       "learningGoals": [
-        "Barnet kan sætte tal fra 11 til 19 sammen som en tier og nogle enere",
-        "Barnet kan forstå, at hvert tal mellem 11 og 19 indeholder én fuld tier",
-        "Barnet kan opbygge det fundament i titalssystemet, der bruges til at lægge sammen og gruppere i 1. klasse"
+        "Barnet kan sætte sammen og dele tallene 11-19 i en tier og nogle enere",
+        "Barnet kan læse et tocifret tal som tiere og enere",
+        "Barnet kan finde ti mere og ti mindre uden at tælle én ad gangen"
       ]
     },
     "choice-board.sort-count.k-md-b-3": {

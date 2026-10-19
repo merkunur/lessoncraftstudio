@@ -179,6 +179,10 @@ function seedScript(row) {
     // Frère Jacques: five holes already punched along the strip, the next fact in the window, the bars standing as tall as their numbers — the invention at rest
     return `(function(){var t=window['${g}'];if(!t||!t._pool)return;t.FAST=true;var i=t._pool.findIndex(function(r){return r.songId==='frere1';});if(i<0)return;var order=[i];for(var k=0;k<t._pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.MusicBoxCore,s=t.st;for(var j=0;j<5;j++)C.tap(s,C.answerOf(C.fact(s)));t._flash=null;t._paint();})();`;
   }
+  if (row.tool === 'overflow-trays-activity') {
+    // make 14 mid-pour: the top tray full, its chute open, three counters already overflowed below — the invention at rest
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.n===14;});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.OverflowTraysCore,s=t._cur();for(var j=0;j<13;j++)C.pour(s);t._paint();})();`;
+  }
   if (row.tool === 'place-value-activity') {
     // Add a hundred (no-op if no hundreds place) + a couple tens + a few ones
     // so the columns show blocks and the BUILD readout is non-zero.

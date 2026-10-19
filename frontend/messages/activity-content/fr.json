@@ -2441,24 +2441,26 @@
     },
     "ten-frame.teen-numbers.make-n": {
       "about": [
-        "La consigne nomme un nombre entre 11 et 19, comme 16, et l'enfant remplit le premier cadre de dix jusqu'à une dizaine complète, puis ajoute les unités en plus sur un second cadre — ainsi 16 apparaît comme « dix et six de plus ». Construire le nombre de cette façon rend sa structure cachée visible. C'est une activité de numération de maternelle, interactive, qui se joue dans le navigateur sans inscription.",
-        "Les nombres de 11 à 19 sont délicats parce que leur nom cache leur structure : « seize » ne dit pas « dix et six ». Les construire sur deux cadres rend cette structure cachée visible : il y a toujours une dizaine complète, puis quelques unités. L'enfant compose le nombre à partir d'une dizaine et d'un reste, au lieu de compter tout depuis le début un par un — c'est précisément l'idée sur laquelle repose la valeur de position. L'activité est conforme aux programmes officiels : ni minuteur, ni score, juste un entraînement calme et ludique."
+        "Un nombre de 11 à 19 apparaît avec son nom — par exemple 14, quatorze. L’enfant appuie longtemps sur un petit bec verseur et des jetons coulent, environ quatre par seconde, chacun roulant dans la case suivante d’un bac de dix ; une touche en verse exactement un. Rien ne peut atteindre le second bac avant que le premier soit plein : au dixième jeton, le bac du haut frissonne, son bord s’illumine, une goulotte s’ouvre et le onzième roule dans le bac du dessous. C’est une activité de maths interactive pour la grande section, qui fonctionne dans le navigateur, sans rien installer.",
+        "L’idée : la gravité place la dizaine en premier, si bien que 14 est vraiment une dizaine pleine qui a débordé, et encore quatre. Aucun nombre n’est affiché pendant que l’enfant verse — il s’arrête là où il pense que le nombre se trouve et touche Vérifier. S’il en manque ou s’il y en a trop, la forme du nombre apparaît en cases pointillées sur les bacs, et l’écart ou le jeton en trop se voit tout de suite ; après une deuxième erreur, les cases pointillées se numérotent dans l’ordre du versement. Toucher un jeton reprend le dernier versé (un jeton du bac du haut, plein, reste tant que le bac du bas en contient). En cas de réussite, le 1 du nombre se pose sur le bac plein et le 4 sur les quatre jetons du dessous. Le niveau « Nombre du jour » va plus loin : chaque bac plein se ferme et glisse sur une étagère des dizaines, une pile ajoute une dizaine fermée d’une seule touche, et une carte du jour se remplit étape par étape — construire 37, ajouter dix de plus (47), enlever dix à 37 (27) ; dans trois manches aussi un de plus ou un de moins, où 49 + 1 ferme une nouvelle dizaine et 30 − 1 en ouvre une.",
+        "L’activité suit les programmes officiels du cycle 1 : composer et décomposer les nombres de 11 à 19 en dix unités et encore quelques unités. Le niveau « Nombre du jour » suit le rituel du nombre du jour du CP : dizaines et unités, le nom du nombre, des bâtons jusqu’à 20, dix de plus et dix de moins. Les noms des nombres viennent des mêmes tables vérifiées que les fiches à imprimer. L’enseignant peut afficher la forme en pointillés dès le départ. « Verser librement » est un jeu libre, avec une carte du jour qui compte en même temps. Ni minuteur ni score."
       ],
       "practices": [
-        "Remplir un premier cadre de dix complet pour faire une dizaine.",
-        "Ajouter les unités en plus sur le second cadre.",
-        "Construire chaque nombre de 11 à 19 comme une dizaine et quelques unités.",
-        "Voir la dizaine cachée dans des nombres comme 14 et 18."
+        "Construire 11 à 19 comme une dizaine pleine et encore quelques jetons",
+        "Voir le 1 d’un nombre de 11 à 19 comme une dizaine entière",
+        "Montrer un nombre jusqu’à 99 en dizaines pleines et unités",
+        "Trouver dix de plus, dix de moins, un de plus et un de moins"
       ],
       "howToPlay": [
-        "Lis la consigne pour savoir quel nombre entre 11 et 19 construire.",
-        "Remplis le premier cadre de dix jusqu'à dix, place les unités en plus sur le second cadre, puis appuie sur Vérifier.",
-        "Pas tout à fait ? Ajuste les jetons et réessaie : il n'y a ni minuteur, ni score."
+        "Regarde le nombre sur la carte.",
+        "Appuie longtemps sur le bec verseur pour verser, ou touche-le pour un jeton. Touche un jeton pour reprendre le dernier.",
+        "Arrête-toi là où tu penses que le nombre se trouve et touche Vérifier.",
+        "Pas encore ? Les cases pointillées montrent la forme du nombre. Ni minuteur ni score."
       ],
       "learningGoals": [
-        "Composer les nombres de 11 à 19 comme une dizaine et quelques unités.",
-        "Comprendre que chaque nombre de 11 à 19 contient une dizaine complète.",
-        "Construire la base de la valeur de position pour additionner et grouper au CP."
+        "Composer et décomposer les nombres de 11 à 19 en une dizaine et des unités",
+        "Lire un nombre à deux chiffres en dizaines et unités",
+        "Trouver dix de plus et dix de moins sans compter un par un"
       ]
     },
     "choice-board.sort-count.k-md-b-3": {

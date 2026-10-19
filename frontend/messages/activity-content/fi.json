@@ -335,25 +335,26 @@
     },
     "ten-frame.teen-numbers.make-n": {
       "about": [
-        "Tehtävä nimeää luvun väliltä 11–19, kuten 16, ja lapsi täyttää ensimmäisen kymmenruudukon täyteen kymmeneen asti ja lisää sitten ylimääräiset ykköset toiseen ruudukkoon — niin että 16 näkyy muodossa kymmenen ja kuusi lisää. Näin rakennettuna luvun piilossa oleva rakenne tulee näkyviin. Harjoitus on vuorovaikutteinen esiopetuksen paikka-arvon tehtävä, joka toimii selaimessa ilman rekisteröitymistä.",
-        "Luvut 11–19 ovat hankalia, koska niiden nimet kätkevät rakenteen — \"kuusitoista\" ei sano \"kymmenen ja kuusi\". Kun jokainen luku rakennetaan kahdelle ruudukolle, tuo piilossa oleva rakenne tulee näkyviin: aina on yksi täysi kymmen ja sitten muutama ykkönen. Lapsi kokoaa luvun kymmenestä ja lisistä sen sijaan, että laskisi koko matkan ykkösissä — ja juuri tämä ajatus on paikka-arvon perusta.",
-        "Harjoitus on OPS 2014:n mukainen lukujen ja laskutoimitusten osa-alueella — lapsi kokoaa ja hajottaa lukuja väliltä 11–19 kymmeneksi ja muutamaksi ykköseksi. Lapsi saa edetä rauhassa omaan tahtiinsa: ei ajastinta eikä pisteitä."
+        "Näkyviin tulee luku 11–19 ja sen lukusana, esimerkiksi 14, neljätoista. Lapsi painaa pientä nokkaa, ja nappuloita valuu ulos, noin neljä sekunnissa, jokainen kymmenen ruudun tarjottimen seuraavaan ruutuun; napautus kaataa tasan yhden. Mitään ei pääse toiselle tarjottimelle ennen kuin ensimmäinen on täynnä: kymmenennen nappulan kohdalla ylempi tarjotin värähtää, sen reuna välähtää, liukumäki aukeaa ja yhdestoista vierii alempaan tarjottimeen. Tämä on vuorovaikutteinen esiopetuksen matematiikkatehtävä, joka toimii selaimessa ilman asennusta.",
+        "Erikoista on, että painovoima laittaa kympin ensin, joten 14 on kirjaimellisesti täysi kymppi, joka valui yli, ja neljä lisää. Kaatamisen aikana lukumäärää ei näytetä – lapsi lopettaa siihen, missä luulee luvun olevan, ja napauttaa Tarkista. Jos nappuloita on liian vähän tai liikaa, luvun muoto näkyy pisteviivaruutuina tarjottimien päällä, joten aukko tai ylimääräinen nappula näkyy heti; toisen virheen jälkeen pisteviivaruudut numeroivat itsensä kaatojärjestyksessä. Nappulan napautus ottaa takaisin viimeksi kaadetun (täyden ylemmän tarjottimen nappula pysyy, niin kauan kuin alemmalla on nappuloita). Kun luku on oikein, luvun 1 leijuu täyden tarjottimen päälle ja 4 alempien neljän nappulan päälle. Taso ”Päivän luku” menee pidemmälle: jokainen täysi tarjotin suljetaan ja liukuu kymppihyllylle, pino lisää kokonaisen suljetun kympin yhdellä napautuksella, ja päiväkortti täyttyy vaihe vaiheelta – rakenna 37, lisää kymmenen (47), ota kymmenen pois luvusta 37 (27); kolmella kierroksella myös yksi enemmän tai yksi vähemmän, jolloin 49 + 1 sulkee uuden kympin ja 30 − 1 avaa yhden.",
+        "Harjoitus on OPS 2014:n mukainen lukujen ja laskutoimitusten osa-alueella: lapsi kokoaa ja hajottaa luvut 11–19 kymmeneksi ykköseksi ja muutamaksi ykköseksi lisää. Taso ”Päivän luku” seuraa 1. luokan päivän luku -rutiinia: kympit ja ykköset, lukusana, tukkimiehen kirjanpito 20:een asti, kymmenen enemmän ja kymmenen vähemmän. Lukusanat tulevat samoista tarkistetuista taulukoista kuin tulostettavat tehtävämonisteet. Opettaja voi näyttää pisteviivamuodon alusta asti. ”Kaada vain” on vapaata leikkiä, ja päiväkortti laskee mukana. Ei ajastinta eikä pisteitä."
       ],
       "practices": [
-        "Täyttää yhden kymmenruudukon täyteen kymmeneen asti.",
-        "Lisää ylimääräiset ykköset toiseen ruudukkoon.",
-        "Rakentaa jokaisen luvun 11–19 muodossa kymmenen ja muutama lisää.",
-        "Näkee piilossa olevan kymmenen lukujen kuten 14 ja 18 sisällä."
+        "Lukujen 11–19 rakentaminen täytenä kymppinä ja muutamana lisänä",
+        "Luvun 11–19 ykkösen näkeminen kokonaisena kymppinä",
+        "Luvun näyttäminen 99:ään asti täysinä kymppeinä ja ykkösinä",
+        "Kymmenen enemmän, kymmenen vähemmän, yksi enemmän ja yksi vähemmän"
       ],
       "howToPlay": [
-        "Lue tehtävä ja katso, mikä luku väliltä 11–19 pitää muodostaa.",
-        "Täytä ensimmäinen kymmenruudukko kymmeneen asti, aseta sitten ylimääräiset ykköset toiseen ruudukkoon ja paina tarkistuspainiketta.",
-        "Eikö osunut oikeaan? Säädä laskumerkkejä ja yritä uudelleen — ei ajastinta eikä pisteitä."
+        "Katso kortissa olevaa lukua.",
+        "Pidä nokkaa painettuna, niin nappulat valuvat, tai napauta yhden nappulan verran. Napauta nappulaa, niin viimeinen palaa takaisin.",
+        "Lopeta siihen, missä luulet luvun olevan, ja napauta Tarkista.",
+        "Ei vielä? Pisteviivapaikat näyttävät luvun muodon. Ei ajastinta eikä pisteitä."
       ],
       "learningGoals": [
-        "Lapsi osaa koota luvut 11–19 muodossa kymmenen ja muutama ykkönen.",
-        "Lapsi ymmärtää, että jokainen luku väliltä 11–19 sisältää yhden täyden kymmenen.",
-        "Lapsi rakentaa paikka-arvon perustan ensimmäisen luokan yhteenlaskulle ja ryhmittelylle."
+        "Lapsi kokoaa ja hajottaa luvut 11–19 kympiksi ja muutamaksi ykköseksi",
+        "Lapsi lukee kaksinumeroisen luvun kymppeinä ja ykkösinä",
+        "Lapsi löytää kymmenen enemmän ja kymmenen vähemmän laskematta yksi kerrallaan"
       ]
     },
     "choice-board.sort-count.k-md-b-3": {

@@ -335,25 +335,26 @@
     },
     "ten-frame.teen-numbers.make-n": {
       "about": [
-        "Oppgaven sier et tall mellom 11 og 19, som 16, og barnet fyller den første tierrammen til en hel tier og legger så de ekstra enerne på en andre ramme — slik at 16 viser seg som ti og seks til. Å bygge det på denne måten gjør den skjulte strukturen synlig. Det er en interaktiv plassverdiaktivitet for skolestart og 1. trinn som kjører i nettleseren uten konto.",
-        "Tallene mellom 11 og 19 er lure fordi navnene skjuler strukturen — «seksten» sier ikke «ti og seks». Når hvert tall bygges på to rammer, blir den skjulte strukturen synlig: det er alltid én hel tier og så noen enere. Barnet setter sammen tallet av en tier og noen til i stedet for å telle hele veien opp ett og ett, og det er nettopp ideen som plassverdi bygger på.",
-        "Aktiviteten følger LK20 innenfor tall — å sette sammen og dele opp tall fra 11 til 19 i en tier og noen enere. Den passer for skolestart og 1. trinn. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "Et tall fra 11 til 19 vises med tallordet sitt, for eksempel 14, fjorten. Barnet holder inne en liten tut, og brikker triller ut, omtrent fire i sekundet, hver til neste rute på et brett med ti ruter; et trykk heller nøyaktig én. Ingenting kan nå det andre brettet før det første er fullt: ved den tiende brikken skjelver det øverste brettet, kanten lyser opp, en sklie åpner seg, og den ellevte triller ned på brettet under. Det er en interaktiv matteaktivitet for skolestart og 1. trinn som kjører i nettleseren uten installasjon.",
+        "Det nye er at tyngdekraften legger tieren først, så 14 er bokstavelig talt en full tier som rant over, og fire til. Mens barnet heller, vises ikke noe antall – barnet stopper der det tror tallet er, og trykker på Sjekk. Er det for få eller for mange, vises tallets form som prikkete ruter over brettene, så hullet eller den ekstra brikken synes med en gang; etter andre feil nummererer de prikkete rutene seg selv i den rekkefølgen det helles. Et trykk på en brikke tar tilbake den sist helte (en brikke på det fulle øverste brettet blir liggende så lenge det nederste har noen). Når det stemmer, svever tallets 1 til det fulle brettet og 4 til de fire brikkene under. Nivået «Dagens tall» går videre: hvert fullt brett lukkes og glir opp på en tierhylle, en stabel legger til en hel lukket tier med ett trykk, og et dagskort fylles trinn for trinn – bygg 37, legg til ti til (47), ta bort ti fra 37 (27); i tre runder også én mer eller én mindre, der 49 + 1 lukker en ny tier og 30 − 1 åpner en.",
+        "Aktiviteten følger LK20 innenfor tall: å sette sammen og dele opp tallene 11 til 19 i ti enere og noen enere til. Nivået «Dagens tall» følger rutinen med dagens tall fra 1. trinn: tiere og enere, tallordet, tellestreker opp til 20, ti mer og ti mindre. Tallordene kommer fra de samme gjennomgåtte tabellene som arbeidsarkene for utskrift. Læreren kan vise den prikkete formen fra start. «Bare helle» er åpen lek, med et dagskort som teller med. Ingen tidtaker, ingen poeng."
       ],
       "practices": [
-        "Fylle én hel tierramme for å lage en tier.",
-        "Legge de ekstra enerne på den andre rammen.",
-        "Bygge hvert tall fra 11 til 19 som en tier og noen til.",
-        "Se den skjulte tieren inni tall som 14 og 18."
+        "Bygge 11–19 som en full tier og noen til",
+        "Se ettallet i et tall fra 11 til 19 som en hel tier",
+        "Vise et tall opp til 99 som fulle tiere og enere",
+        "Finne ti mer, ti mindre, én mer og én mindre"
       ],
       "howToPlay": [
-        "Les oppgaven for å se hvilket tall mellom 11 og 19 du skal lage.",
-        "Fyll den første tierrammen til ti, legg de ekstra enerne på den andre rammen, og trykk på Sjekk.",
-        "Ikke helt riktig? Juster brikkene og prøv igjen — det er ingen tidtaker og ingen poeng."
+        "Se på tallet på kortet.",
+        "Hold inne tuten for å helle, eller trykk for én brikke. Trykk på en brikke for å ta den siste tilbake.",
+        "Stopp der du tror tallet er, og trykk på Sjekk.",
+        "Ikke ennå? De prikkete plassene viser tallets form. Ingen tidtaker, ingen poeng."
       ],
       "learningGoals": [
-        "Barnet kan sette sammen tall fra 11 til 19 som en tier og noen enere.",
-        "Barnet forstår at hvert tall mellom 11 og 19 inneholder én hel tier.",
-        "Barnet bygger plassverdigrunnlaget for å legge sammen og gruppere på 1. trinn."
+        "Barnet kan sette sammen og dele opp tallene 11–19 i en tier og noen enere",
+        "Barnet kan lese et tosifret tall som tiere og enere",
+        "Barnet kan finne ti mer og ti mindre uten å telle én og én"
       ]
     },
     "choice-board.sort-count.k-md-b-3": {

@@ -381,25 +381,26 @@
     },
     "ten-frame.teen-numbers.make-n": {
       "about": [
-        "The prompt names a teen number like 16, and the child fills the first ten-frame to a complete ten and then adds the extra ones onto a second frame — so 16 shows up as ten and six more. Building it this way makes the hidden structure visible. It's an interactive Kindergarten place-value activity that plays in the browser with no sign-up.",
-        "Teen numbers are tricky because their names hide their structure — \"sixteen\" does not say \"ten and six.\" Building each one on two frames makes that hidden structure visible: there is always one full ten and then some ones. The child is composing the number from a ten and extras rather than counting all the way up by ones, which is the very idea that place value is built on.",
-        "It is aligned to Common Core K.NBT.A.1 — composing and decomposing numbers from 11 to 19 into a ten and some ones. No timer, no score — just calm, playful practice."
+        "A number from 11 to 19 appears with its word — say 14, fourteen. The child holds a little spout and counters pour out, about four a second, each rolling into the next cell of a ten-frame tray; a tap pours exactly one. Nothing can reach the second tray until the first is full: on the tenth counter the top tray shivers, its rim flashes and a chute opens, and the eleventh rolls down into the tray below. It's an interactive Kindergarten math activity that runs in the browser with nothing to install.",
+        "The invention is that gravity puts the ten first, so 14 is literally a full ten that overflowed plus four. No count is shown while the child pours — they stop where they think the number is and press Check. Too few or too many, and the target's shape appears as dotted cells over the trays, so the gap or the extra counter is plain to see; after a second miss the dotted cells count themselves along the pour. A tap on a counter takes the last one back (a counter in the full top tray stays while the bottom tray has any). On success the 1 of the numeral floats onto the full tray and the 4 onto the four counters below. The \"Number of the day\" level goes further: every full tray seals and slides onto a tens shelf, a tray stack adds a whole sealed ten with one tap, and a day card fills step by step — build 37, add ten more (47), take ten away from 37 (27); in three rounds one more or one less as well, where 49 + 1 seals a new ten and 30 − 1 opens one.",
+        "It is aligned to Common Core K.NBT.A.1 — composing and decomposing the numbers 11 to 19 as ten ones and some more ones — and the Number of the day level follows the grade 1 number-of-the-day routine: tens and ones, the number word, a tally up to 20, ten more and ten less. The number words come from the same reviewed tables as the printable worksheets. Teachers can choose to show the dotted shape from the start. \"Just pour\" is open play, with a day card that counts along. No timer, no score."
       ],
       "practices": [
-        "Filling one full ten-frame to make a ten",
-        "Adding the extra ones onto the second frame",
-        "Building each teen number 11 to 19 as a ten and some more",
-        "Seeing the hidden ten inside numbers like 14 and 18"
+        "Building 11–19 as a full ten and some more",
+        "Seeing the 1 in a teen number as a whole ten",
+        "Showing a number up to 99 as full tens and ones",
+        "Finding ten more, ten less, one more and one less"
       ],
       "howToPlay": [
-        "Read the prompt to see which teen number to make.",
-        "Fill the first ten-frame to ten, then place the extra ones on the second frame, and press Check.",
-        "Not quite? Adjust the counters and try again — there is no timer and no score."
+        "Look at the number on the card.",
+        "Hold the spout to pour, or tap it for one counter. Tap a counter to take the last one back.",
+        "Stop where you think the number is and press Check.",
+        "Not yet? The dotted places show the number's shape. No timer, no score."
       ],
       "learningGoals": [
-        "Compose teen numbers 11 to 19 as a ten and some ones — the focus of Common Core K.NBT.A.1",
-        "Understand that every teen number contains one complete ten",
-        "Build the place-value foundation for adding and grouping in first grade"
+        "Compose and decompose numbers 11–19 into a ten and some ones — the focus of Common Core K.NBT.A.1",
+        "Read a two-digit number as tens and ones",
+        "Find ten more and ten less without counting by ones"
       ]
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {

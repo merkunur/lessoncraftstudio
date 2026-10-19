@@ -1079,25 +1079,26 @@
     },
     "choice-board.shape-id.k-g-a-2": {
       "about": [
-        "A prompt names a shape — circle, square, triangle, rectangle, hexagon, oval, star, diamond, heart, or pentagon — and the child finds it by sight, tapping it from four pictured choices. It's an interactive Kindergarten geometry activity that runs right in the browser on a tablet, phone, or classroom computer, with nothing to install and no sign-up.",
-        "The big idea is that a shape is the same shape no matter how it is turned or how big it is drawn. A triangle tipped on its point or a tiny square is still a triangle and still a square, so the child has to recognize the form itself, not a single 'textbook' picture of it. The three wrong choices are other real shapes from the set, so a child cannot win by picking the only shape on the board — they have to know which name belongs to which figure.",
-        "It is aligned to Common Core K.G.A.2 — correctly naming shapes regardless of their orientation or overall size. No timer, no score — just calm, playful practice."
+        "A picture made only of shapes — a house, a rocket, a train, a robot, a lighthouse — waits in plain cream, with two paint tins beside it. The child picks a tin and taps every piece that is the tin's shape. The brush runs round the edge of each piece it touches and leaves a bead on every corner and little ticks on sides of equal length, so the corners and sides are drawn right on the piece. It is an interactive Kindergarten geometry activity that runs in the browser with nothing to install.",
+        "The invention is that the paint stays wet until Check. Nothing is judged at the tap, so the child has to decide; then the paint sets one piece after another, and it only stays in a piece that truly is the tin's shape, however it is turned and however small it is. A piece that is not the shape sheds its paint into a puddle, and a figure with a gap leaks through it. The hint names what really differs: count the corners, look at the ticks to see whether the sides match, check for square corners, or notice a bent side. If a piece is still missing, the tin drips on the quarter of the picture where it hides; a second miss makes the missing pieces glow. A finished picture comes alive for a moment.",
+        "It is aligned to Common Core K.G.A.2: correctly naming shapes regardless of their orientation or overall size. Every shape a tin asks for comes in more than one size, and the ones with corners also come turned, and the diamond is always a leaning rhombus, never a square on its point. Teachers choose shape pictures, a real-or-not quilt (open, rounded and curved fakes beside real shapes) or count pictures (paint the triangles and squares, then say how many), and whether the tins show the shape, only its name or only a clue. No library pictures, no timer, no score."
       ],
       "practices": [
-        "Matching a shape name to its picture among four choices",
-        "Recognizing a shape even when it is rotated or drawn larger or smaller",
-        "Telling close shapes apart — a square from a rectangle, an oval from a circle, a hexagon from a pentagon",
-        "Building the shape vocabulary for circle, square, triangle, rectangle, hexagon, oval, star, diamond, heart, and pentagon"
+        "Naming shapes that are turned, tiny or stretched",
+        "Seeing what makes a shape: corners, equal sides, square corners, closed",
+        "Telling real shapes from open, rounded and curved look-alikes",
+        "Counting the triangles and squares in a figure"
       ],
       "howToPlay": [
-        "Read or listen to the prompt naming one shape to find.",
-        "Look at the four shapes and tap the one that matches the name, then check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Tap a paint tin to open it.",
+        "Tap every piece that is the tin's shape; tap a painted piece again to take the paint back.",
+        "In count pictures, set how many with the − and + buttons.",
+        "Press Check and watch which paint stays."
       ],
       "learningGoals": [
-        "Name circles, squares, triangles, rectangles, hexagons, and more on sight — the focus of Common Core K.G.A.2.",
-        "Understand that a shape keeps its name no matter how it is turned or sized.",
-        "Build the shape vocabulary that later geometry, sorting, and drawing work depend on."
+        "Name shapes whatever their turn or size, the focus of Common Core K.G.A.2",
+        "Use corners and sides to decide what a shape is",
+        "Tell a closed shape from an open figure"
       ]
     },
     "choice-board.tell-words-apart.rf-k-3-c": {

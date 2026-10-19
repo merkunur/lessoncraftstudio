@@ -2092,25 +2092,26 @@
     },
     "choice-board.shape-id.k-g-a-2": {
       "about": [
-        "Ad ogni richiesta compare il nome di una forma — cerchio, quadrato, triangolo, rettangolo, esagono, ovale, stella, rombo, cuore o pentagono — e il bambino la cerca con lo sguardo, toccandola tra quattro figure proposte. È un'attività di geometria per la scuola dell'infanzia, interattiva, che funziona nel browser su tablet, telefono o computer di classe, senza installare nulla e senza registrazione.",
-        "L'idea importante è che una forma resta la stessa forma, comunque sia girata o grande sia disegnata. Un triangolo appoggiato sulla punta o un quadrato piccolissimo sono pur sempre un triangolo e un quadrato: il bambino deve riconoscere la figura in sé, non una sola immagine «da libro». Le tre scelte sbagliate sono altre forme vere dell'insieme, così non si può vincere scegliendo l'unica forma presente: bisogna sapere quale nome appartiene a quale figura.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dello spazio e delle figure: nominare correttamente le forme indipendentemente dall'orientamento e dalle dimensioni. Nessun timer e nessun punteggio: il bambino osserva con calma e gioca."
+        "Un disegno fatto solo di forme — una casa, un razzo, un treno, un robot, un faro — aspetta color crema, con due barattoli di colore accanto. Il bambino sceglie un barattolo e tocca ogni pezzo che ha la forma del barattolo. Il pennello percorre il bordo di ogni pezzo toccato e lascia una perlina su ogni angolo e piccoli trattini sui lati lunghi uguali, così angoli e lati si vedono proprio sul pezzo. È un’attività interattiva di geometria per la scuola dell’infanzia che funziona nel browser senza installare nulla.",
+        "L’idea è che il colore resta fresco fino a Controlla. Al tocco non si giudica niente, quindi il bambino deve decidere; poi il colore si asciuga un pezzo dopo l’altro e resta solo in un pezzo che ha davvero la forma del barattolo, comunque sia girato e per quanto sia piccolo. Un pezzo che non ha la forma perde il colore in una pozzanghera, e una figura aperta cola dalla sua apertura. Il suggerimento dice cosa cambia davvero: contare gli angoli, guardare i trattini per vedere se i lati sono uguali, controllare gli angoli retti oppure notare un lato curvo. Se manca ancora un pezzo, il barattolo gocciola sulla parte del disegno dove si nasconde; al secondo errore i pezzi mancanti si illuminano. Un disegno finito si anima per un attimo.",
+        "L’attività segue le Indicazioni nazionali: riconoscere e denominare le figure indipendentemente dalla posizione e dalla grandezza. Ogni forma richiesta da un barattolo compare in più grandezze, e girata quando ha degli angoli, e il rombo è sempre un rombo inclinato, mai un quadrato messo sulla punta. L’insegnante sceglie disegni di forme, una coperta «vera o no» (forme false aperte, arrotondate o curve accanto a forme vere) o disegni da contare (colorare i triangoli e i quadrati, poi dire quanti sono), e se i barattoli mostrano la forma, solo il nome o solo un indizio. Niente immagini di repertorio, niente cronometro, niente punteggio."
       ],
       "practices": [
-        "Associare il nome di una forma alla sua immagine tra quattro scelte.",
-        "Riconoscere una forma anche quando è ruotata o disegnata più grande o più piccola.",
-        "Distinguere forme simili — un quadrato da un rettangolo, un ovale da un cerchio, un esagono da un pentagono.",
-        "Costruire il vocabolario delle forme: cerchio, quadrato, triangolo, rettangolo, esagono, ovale, stella, rombo, cuore e pentagono."
+        "Nominare forme girate, piccolissime o allungate",
+        "Vedere cosa fa una forma: angoli, lati uguali, angoli retti, contorno chiuso",
+        "Distinguere le forme vere dalle imitazioni aperte, arrotondate o curve",
+        "Contare i triangoli e i quadrati di una figura"
       ],
       "howToPlay": [
-        "Il bambino legge o ascolta la richiesta che nomina una forma da trovare.",
-        "Guarda le quattro forme e tocca quella che corrisponde al nome, poi conferma.",
-        "Non è giusta? Si può riprovare quante volte si vuole, senza timer e senza punteggio."
+        "Tocca un barattolo di colore per aprirlo.",
+        "Tocca ogni pezzo che ha la forma del barattolo; tocca di nuovo un pezzo colorato per togliere il colore.",
+        "Nei disegni da contare, imposta quanti sono con − e +.",
+        "Tocca Controlla e guarda quale colore resta."
       ],
       "learningGoals": [
-        "Nominare a colpo d'occhio cerchi, quadrati, triangoli, rettangoli, esagoni e altre forme.",
-        "Capire che una forma conserva il suo nome comunque sia girata o ridimensionata.",
-        "Costruire il vocabolario delle forme su cui si appoggeranno la geometria, la classificazione e il disegno più avanti."
+        "Denominare le forme comunque siano girate e grandi",
+        "Usare angoli e lati per decidere che forma ha un pezzo",
+        "Distinguere una forma chiusa da una figura aperta"
       ]
     },
     "choice-board.flat-solid.k-g-a-3": {

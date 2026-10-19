@@ -848,25 +848,26 @@
     },
     "choice-board.shape-id.k-g-a-2": {
       "about": [
-        "Tehtävässä lapsi näkee yhden muodon nimen ja etsii sen neljän kuvan joukosta napauttamalla oikeaa. Muotoja ovat ympyrä, neliö, kolmio, suorakulmio, kuusikulmio, soikio, tähti, vinoneliö, sydän ja viisikulmio. Tämä on vuorovaikutteinen esiopetuksen geometriaharjoitus, joka toimii suoraan selaimessa tabletilla, puhelimella tai luokan tietokoneella — mitään ei tarvitse asentaa eikä tiliä tarvita.",
-        "Tärkein ajatus on, että muoto on sama muoto riippumatta siitä, miten päin se on tai kuinka suureksi se on piirretty. Kärjelleen käännetty kolmio on yhä kolmio ja pieni neliö on yhä neliö, joten lapsi oppii tunnistamaan itse muodon eikä vain yhtä tuttua kuvaa siitä. Kolme väärää vaihtoehtoa ovat muita oikeita muotoja, joten lapsi ei voi voittaa valitsemalla ainoaa muotoa ruudulla — hänen on tiedettävä, mikä nimi kuuluu millekin kuviolle.",
-        "Harjoitus on OPS 2014:n mukainen geometrian osa-alueella: lapsi nimeää muotoja oikein riippumatta niiden suunnasta tai koosta. Lapsi saa edetä rauhassa omaan tahtiinsa — ei ajastinta eikä pisteitä."
+        "Pelkistä muodoista tehty kuva – talo, raketti, juna, robotti, majakka – odottaa kermanvalkoisena, ja vieressä on kaksi maalipurkkia. Lapsi valitsee purkin ja napauttaa jokaista palaa, jolla on purkin muoto. Sivellin kiertää jokaisen napautetun palan reunan ja jättää helmen jokaiseen kulmaan sekä pienet viivat yhtä pitkille sivuille, joten kulmat ja sivut näkyvät suoraan palassa. Vuorovaikutteinen geometrian harjoitus esiopetukseen, joka toimii selaimessa ilman asennusta.",
+        "Oivallus on se, että maali pysyy märkänä, kunnes lapsi painaa Tarkista. Napautuksessa mitään ei arvioida, joten lapsen on päätettävä itse; sitten maali kuivuu pala palalta ja jää vain palaan, jolla todella on purkin muoto, olipa se käännetty mihin asentoon tahansa ja miten pieni tahansa. Pala, jolla muotoa ei ole, valuttaa maalinsa lätäkköön, ja aukollinen kuvio vuotaa aukostaan. Vihje kertoo, mikä oikeasti on toisin: laske kulmat, katso viivoista, ovatko sivut yhtä pitkät, tarkista suorat kulmat tai huomaa kaareva sivu. Jos pala vielä puuttuu, purkki tiputtaa maalia siihen kuvan neljännekseen, jossa pala on; toisella virheellä puuttuvat palat hehkuvat. Valmis kuva herää hetkeksi eloon.",
+        "Harjoitus seuraa esiopetuksen opetussuunnitelman tavoitetta tunnistaa ja nimetä muotoja niiden asennosta ja koosta riippumatta. Jokainen purkin pyytämä muoto on kuvissa useampana kokona, ja kulmikkaat muodot myös käännettyinä, ja vinoneliö on aina kallistuva vinoneliö, ei koskaan kärjelleen käännetty neliö. Opettaja valitsee muotokuvat, aito vai ei -peiton (avoimia, pyöristettyjä ja kaarevia jäljitelmiä aitojen muotojen vieressä) tai laskukuvat (maalaa kolmiot ja neliöt ja kerro, montako niitä on) sekä sen, näyttävätkö purkit muodon, pelkän nimen vai pelkän vihjeen. Ei kuvapankkikuvia, ei ajastinta eikä pisteitä."
       ],
       "practices": [
-        "Yhdistää muodon nimen sitä vastaavaan kuvaan neljän vaihtoehdon joukosta.",
-        "Tunnistaa muodon, vaikka se olisi käännetty tai piirretty suuremmaksi tai pienemmäksi.",
-        "Erottaa lähekkäiset muodot toisistaan — neliön suorakulmiosta, soikion ympyrästä, kuusikulmion viisikulmiosta.",
-        "Kartuttaa muotosanastoa: ympyrä, neliö, kolmio, suorakulmio, kuusikulmio, soikio, tähti, vinoneliö, sydän ja viisikulmio."
+        "Käännettyjen, pikkuruisten tai venytettyjen muotojen nimeäminen",
+        "Sen näkeminen, mikä tekee muodon: kulmat, yhtä pitkät sivut, suorat kulmat, suljettu reuna",
+        "Aitojen muotojen erottaminen avoimista, pyöristetyistä ja kaarevista jäljitelmistä",
+        "Kuvion kolmioiden ja neliöiden laskeminen"
       ],
       "howToPlay": [
-        "Lue tai kuuntele tehtävä, jossa mainitaan yksi etsittävä muoto.",
-        "Katso neljää muotoa ja napauta sitä, joka vastaa nimeä, ja tarkista sitten valintasi.",
-        "Eikö osunut oikeaan? Yritä uudelleen niin monta kertaa kuin haluat — ei ajastinta eikä pisteitä."
+        "Avaa maalipurkki napauttamalla sitä.",
+        "Napauta jokaista palaa, jolla on purkin muoto; napauta maalattua palaa uudelleen, niin maali lähtee pois.",
+        "Laskukuvissa asetat määrän painikkeilla − ja +.",
+        "Paina Tarkista ja katso, mikä maali jää."
       ],
       "learningGoals": [
-        "Lapsi nimeää ympyrät, neliöt, kolmiot, suorakulmiot, kuusikulmiot ja muut muodot näkemältä.",
-        "Lapsi ymmärtää, että muoto säilyttää nimensä, vaikka se käännetään tai sen kokoa muutetaan.",
-        "Lapsi kartuttaa muotosanastoa, johon myöhempi geometria, lajittelu ja piirtäminen rakentuvat."
+        "Lapsi nimeää muodot niiden asennosta ja koosta riippumatta",
+        "Lapsi päättelee kulmien ja sivujen avulla, mikä muoto palalla on",
+        "Lapsi erottaa suljetun muodon avoimesta kuviosta"
       ]
     },
     "choice-board.flat-solid.k-g-a-3": {

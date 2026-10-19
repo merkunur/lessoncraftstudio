@@ -165,6 +165,7 @@ const MANIFEST_FILES = [
   'tipping-pour-activities.json',
   'drop-stands-activities.json',
   'sorting-chutes-activities.json',
+  'paint-pots-activities.json',
   'graph-it-activities.json',
   'field-guide-activities.json',
   'rhyme-shop-activities.json',

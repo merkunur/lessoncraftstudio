@@ -3139,25 +3139,26 @@
     },
     "choice-board.shape-id.k-g-a-2": {
       "about": [
-        "Una indicación nombra una figura —círculo, cuadrado, triángulo, rectángulo, hexágono, óvalo, estrella, rombo, corazón o pentágono— y el niño o la niña la encuentra con la vista y la toca entre cuatro dibujos. Es una actividad de geometría para preescolar, interactiva, que funciona directo en el navegador de una tableta, un celular o la computadora del salón, sin instalar nada y sin crear cuenta.",
-        "La idea central es que una figura sigue siendo la misma sin importar cómo esté girada ni de qué tamaño esté dibujada. Un triángulo apoyado en su punta o un cuadrado chiquito siguen siendo triángulo y cuadrado, así que el niño o la niña tiene que reconocer la forma en sí, no una sola imagen 'de libro'. Las tres opciones equivocadas son otras figuras reales del grupo, por lo que no se puede acertar eligiendo la única figura del tablero: hay que saber qué nombre corresponde a cada una.",
-        "Está pensada para el nivel de preescolar o kínder, dentro del eje de geometría de los planes y programas de estudio (SEP): nombrar figuras sin importar su orientación ni su tamaño. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+        "Un dibujo hecho solo de figuras —una casa, un cohete, un tren, un robot, un faro— espera en color crema, con dos latas de pintura al lado. El niño elige una lata y toca cada pieza que tenga la forma de la lata. El pincel recorre la orilla de cada pieza que toca y deja una cuenta en cada esquina y rayitas en los lados del mismo largo, así las esquinas y los lados se ven sobre la pieza misma. Es una actividad interactiva de geometría para preescolar que funciona en el navegador sin instalar nada.",
+        "Lo especial es que la pintura sigue fresca hasta tocar Revisar. Al tocar no se califica nada, así que el niño tiene que decidir; luego la pintura se seca pieza por pieza y solo se queda en la pieza que de verdad tiene la forma de la lata, aunque esté girada o sea pequeña. Una pieza que no tiene la forma suelta su pintura en un charco, y una figura con un hueco se escurre por ahí. La pista dice lo que de verdad cambia: contar las esquinas, mirar las rayitas para ver si los lados miden lo mismo, revisar si las esquinas son rectas o notar un lado curvo. Si todavía falta una pieza, la lata gotea sobre la parte del dibujo donde está; al segundo error, las piezas que faltan brillan. Un dibujo terminado cobra vida un momento.",
+        "La actividad se alinea con el plan de estudios de la SEP para preescolar: reconocer y nombrar figuras sin importar su posición ni su tamaño. Cada figura que pide una lata aparece en más de un tamaño, y girada si tiene esquinas, y el rombo siempre es un rombo inclinado, nunca un cuadrado de punta. El maestro elige dibujos de figuras, una colcha de “¿de verdad o no?” (figuras falsas abiertas, redondeadas o curvas junto a figuras de verdad) o dibujos para contar (pintar los triángulos y los cuadrados y decir cuántos hay), y si las latas muestran la figura, solo el nombre o solo una pista. Sin imágenes de banco, sin cronómetro ni puntos."
       ],
       "practices": [
-        "Relacionar el nombre de una figura con su dibujo entre cuatro opciones.",
-        "Reconocer una figura aunque esté girada o dibujada más grande o más chica.",
-        "Distinguir figuras parecidas: un cuadrado de un rectángulo, un óvalo de un círculo, un hexágono de un pentágono.",
-        "Ampliar el vocabulario de figuras: círculo, cuadrado, triángulo, rectángulo, hexágono, óvalo, estrella, rombo, corazón y pentágono."
+        "Nombrar figuras giradas, pequeñitas o alargadas",
+        "Ver qué hace a una figura: esquinas, lados iguales, esquinas rectas, contorno cerrado",
+        "Distinguir figuras de verdad de imitaciones abiertas, redondeadas o curvas",
+        "Contar los triángulos y los cuadrados de una figura"
       ],
       "howToPlay": [
-        "Lee o escucha la indicación que nombra una figura para buscarla.",
-        "Mira las cuatro figuras y toca la que corresponde al nombre; después pulsa Comprobar.",
-        "¿No salió a la primera? Vuelve a intentarlo las veces que quieras: no hay temporizador ni puntuación."
+        "Toca una lata de pintura para abrirla.",
+        "Toca cada pieza que tenga la forma de la lata; vuelve a tocar una pieza pintada para quitarle la pintura.",
+        "En los dibujos para contar, marca cuántos hay con − y +.",
+        "Toca Revisar y mira qué pintura se queda."
       ],
       "learningGoals": [
-        "Nombrar círculos, cuadrados, triángulos, rectángulos, hexágonos y más con solo verlos.",
-        "Entender que una figura conserva su nombre sin importar cómo se gire ni de qué tamaño sea.",
-        "Construir el vocabulario de figuras en el que después se apoyan la geometría, la clasificación y el dibujo."
+        "Nombrar figuras sin importar su giro ni su tamaño",
+        "Usar esquinas y lados para decidir qué figura es una pieza",
+        "Distinguir una figura cerrada de una figura abierta"
       ]
     },
     "choice-board.flat-solid.k-g-a-3": {

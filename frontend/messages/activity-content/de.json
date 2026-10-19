@@ -3581,25 +3581,26 @@
     },
     "choice-board.shape-id.k-g-a-2": {
       "about": [
-        "Eine Aufforderung nennt eine Form — Kreis, Quadrat, Dreieck, Rechteck, Sechseck, Oval, Stern, Raute, Herz oder Fünfeck — und das Kind sucht sie aus vier abgebildeten Formen heraus und tippt sie an. Die Übung läuft direkt im Browser auf Tablet, Handy oder Klassenzimmer-Computer — interaktiv, ohne Installation und ohne Anmeldung.",
-        "Der Kern dieser Übung: Eine Form bleibt dieselbe Form, ganz gleich, wie sie gedreht ist oder wie groß sie gezeichnet wurde. Ein Dreieck, das auf der Spitze steht, oder ein winziges Quadrat ist immer noch ein Dreieck und immer noch ein Quadrat. Das Kind muss also die Form selbst erkennen und nicht ein einziges „Schulbuch-Bild“ davon. Die drei falschen Antworten sind andere echte Formen aus der Reihe, sodass man nicht durch Raten gewinnen kann — man muss wissen, welcher Name zu welcher Figur gehört.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Geometrie für den Kindergarten ausgerichtet — Formen unabhängig von ihrer Ausrichtung oder Größe richtig benennen. Es gibt keinen Timer und keine Punktewertung, nur ruhiges, spielerisches Üben."
+        "Ein Bild nur aus Formen – ein Haus, eine Rakete, ein Zug, ein Roboter, ein Leuchtturm – wartet in hellem Creme, daneben stehen zwei Farbdosen. Das Kind wählt eine Dose und tippt jedes Teil an, das die Form der Dose hat. Der Pinsel fährt um den Rand jedes angetippten Teils und setzt auf jede Ecke einen Punkt und kleine Striche auf gleich lange Seiten, so werden Ecken und Seiten direkt sichtbar. Eine interaktive Geometrie-Übung für den Anfangsunterricht, die im Browser läuft, ohne Installation.",
+        "Das Besondere: Die Farbe bleibt nass, bis das Kind auf Prüfen tippt. Beim Antippen wird nichts bewertet, das Kind muss selbst entscheiden; dann trocknet die Farbe Teil für Teil und bleibt nur dort, wo das Teil wirklich die Form der Dose hat, egal wie es gedreht ist und wie klein es ist. Ein falsches Teil verliert seine Farbe in eine Pfütze, und eine Figur mit Lücke läuft aus. Der Hinweis nennt, was wirklich anders ist: die Ecken zählen, an den Strichen sehen, ob die Seiten gleich lang sind, auf rechte Winkel achten oder eine gebogene Seite bemerken. Fehlt noch ein Teil, tropft die Dose auf das Viertel des Bildes, in dem es steckt; beim zweiten Fehlversuch leuchten die fehlenden Teile. Ein fertiges Bild wird kurz lebendig.",
+        "Die Übung folgt dem Lehrplan im Bereich Raum und Form: ebene Figuren erkennen und benennen, unabhängig von Lage und Größe. Jede Form, die eine Dose verlangt, kommt in mehr als einer Größe vor, Formen mit Ecken auch gedreht, und die Raute ist immer eine schiefe Raute, nie ein auf die Spitze gestelltes Quadrat. Die Lehrkraft wählt Formenbilder, eine Echt-oder-nicht-Decke (offene, abgerundete und gebogene Fälschungen neben echten Formen) oder Zählbilder (Dreiecke und Quadrate anmalen und sagen, wie viele es sind) und ob die Dosen die Form, nur den Namen oder nur einen Hinweis zeigen. Ohne Bildbibliothek, ohne Zeitdruck, ohne Punkte."
       ],
       "practices": [
-        "Einen Formnamen unter vier Abbildungen der passenden Form zuordnen.",
-        "Eine Form auch dann erkennen, wenn sie gedreht oder größer bzw. kleiner gezeichnet ist.",
-        "Ähnliche Formen auseinanderhalten — ein Quadrat von einem Rechteck, ein Oval von einem Kreis, ein Sechseck von einem Fünfeck.",
-        "Den Formwortschatz für Kreis, Quadrat, Dreieck, Rechteck, Sechseck, Oval, Stern, Raute, Herz und Fünfeck aufbauen."
+        "Gedrehte, winzige und lang gezogene Formen benennen",
+        "Erkennen, was eine Form ausmacht: Ecken, gleich lange Seiten, rechte Winkel, geschlossen",
+        "Echte Formen von offenen, abgerundeten und gebogenen Doppelgängern unterscheiden",
+        "Die Dreiecke und Quadrate in einer Figur zählen"
       ],
       "howToPlay": [
-        "Lies die Aufforderung oder hör sie dir an — sie nennt eine Form, die du finden sollst.",
-        "Schau dir die vier Formen an und tippe auf die, die zum Namen passt. Tippe dann auf Prüfen.",
-        "Noch nicht ganz? Probiere es so oft, wie du möchtest — es gibt keinen Timer und keine Punkte."
+        "Tippe auf eine Farbdose, um sie zu öffnen.",
+        "Tippe jedes Teil an, das die Form der Dose hat; tippst du ein angemaltes Teil noch einmal an, nimmst du die Farbe zurück.",
+        "In den Zählbildern stellst du mit − und + ein, wie viele es sind.",
+        "Tippe auf Prüfen und schau, welche Farbe bleibt."
       ],
       "learningGoals": [
-        "Kreise, Quadrate, Dreiecke, Rechtecke, Sechsecke und weitere Formen auf einen Blick benennen.",
-        "Verstehen, dass eine Form ihren Namen behält, egal wie sie gedreht oder wie groß sie ist.",
-        "Den Formwortschatz aufbauen, auf dem spätere Geometrie, das Sortieren und das Zeichnen aufbauen."
+        "Formen benennen, egal wie sie gedreht sind und wie groß sie sind",
+        "Mit Ecken und Seiten entscheiden, welche Form ein Teil hat",
+        "Eine geschlossene Form von einer offenen Figur unterscheiden"
       ]
     },
     "choice-board.flat-solid.k-g-a-3": {

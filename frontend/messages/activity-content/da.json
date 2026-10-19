@@ -849,25 +849,26 @@
     },
     "choice-board.shape-id.k-g-a-2": {
       "about": [
-        "Genkend formen er en rolig geometriaktivitet, som barnet kan spille direkte i browseren på tablet, telefon eller klassens computer. Der skal ikke installeres noget, og man behøver ikke en konto. En opgave nævner en form — cirkel, kvadrat, trekant, rektangel, sekskant, oval, stjerne, rude, hjerte eller femkant — og barnet finder den ved at se efter og trykke på den blandt fire billeder.",
-        "Den store idé er, at en form er den samme form, uanset hvordan den er vendt, eller hvor stor den er tegnet. En trekant, der står på spidsen, eller et lillebitte kvadrat er stadig en trekant og stadig et kvadrat, så barnet skal genkende selve formen og ikke kun ét bestemt skolebogsbillede af den. De tre forkerte muligheder er andre rigtige former fra sættet, så barnet ikke kan vinde ved bare at vælge den eneste form på pladen — det skal vide, hvilket navn der hører til hvilken figur.",
-        "Aktiviteten følger Fælles Mål inden for området geometri: at navngive former uanset orientering eller størrelse. Den passer til børnehaveklassen. Der er ingen timer og ingen point — bare rolig, legende øvelse i barnets eget tempo."
+        "Et billede, der kun består af former – et hus, en raket, et tog, en robot, et fyrtårn – venter i lys cremefarve med to malerbøtter ved siden af. Barnet vælger en bøtte og trykker på hver brik, der har bøttens form. Penslen kører rundt langs kanten af hver brik, den rører, og sætter en perle i hvert hjørne og små streger på lige lange sider, så hjørner og sider kan ses på selve brikken. En interaktiv geometriøvelse til børnehaveklassen, der virker i browseren uden installation.",
+        "Det smarte er, at malingen er våd, indtil barnet trykker på Tjek. Intet bedømmes ved tryk, så barnet må selv beslutte; derefter tørrer malingen brik for brik og bliver kun i en brik, der virkelig har bøttens form, uanset hvordan den er drejet, og hvor lille den er. En brik, der ikke har formen, taber malingen i en pyt, og en figur med et hul løber ud gennem det. Ledetråden siger, hvad der virkelig er anderledes: tæl hjørnerne, se på stregerne for at se, om siderne er lige lange, tjek for rette vinkler, eller læg mærke til en bøjet side. Mangler der stadig en brik, drypper bøtten på den fjerdedel af billedet, hvor den er; ved anden fejl lyser de manglende brikker. Et færdigt billede bliver levende et øjeblik.",
+        "Øvelsen følger Fælles Mål i matematik, geometri: at genkende og navngive figurer uanset placering og størrelse. Hver form, som en bøtte beder om, findes i mere end én størrelse og drejet, hvis den har hjørner, og romben er altid en hældende rombe, aldrig et kvadrat på spidsen. Læreren vælger formbilleder, et ægte-eller-ej-tæppe (åbne, afrundede og bøjede falske former ved siden af rigtige former) eller tællebilleder (mal trekanterne og kvadraterne, og sig hvor mange), og om bøtterne viser formen, kun navnet eller kun en ledetråd. Ingen billedbank, intet ur, ingen point."
       ],
       "practices": [
-        "Forbinde et formnavn med det rigtige billede blandt fire muligheder",
-        "Genkende en form, også når den er drejet eller tegnet større eller mindre",
-        "Kende nært beslægtede former fra hinanden — et kvadrat fra et rektangel, en oval fra en cirkel, en sekskant fra en femkant",
-        "Opbygge ordforrådet for cirkel, kvadrat, trekant, rektangel, sekskant, oval, stjerne, rude, hjerte og femkant"
+        "At navngive former, der er drejet, bittesmå eller strakt ud",
+        "At se, hvad der gør en form: hjørner, lige lange sider, rette vinkler, lukket",
+        "At skelne rigtige former fra åbne, afrundede og bøjede kopier",
+        "At tælle trekanterne og kvadraterne i en figur"
       ],
       "howToPlay": [
-        "Barnet læser eller lytter til opgaven, der nævner én form, det skal finde.",
-        "Barnet ser på de fire former og trykker på den, der passer til navnet, og trykker derefter på Tjek.",
-        "Er det ikke helt rigtigt, kan barnet roligt prøve igen, så mange gange det vil — der er ingen timer og ingen point."
+        "Tryk på en malerbøtte for at åbne den.",
+        "Tryk på hver brik, der har bøttens form; tryk på en malet brik igen for at tage malingen tilbage.",
+        "I tællebillederne indstiller du antallet med − og +.",
+        "Tryk på Tjek, og se hvilken maling der bliver."
       ],
       "learningGoals": [
-        "Barnet kan navngive cirkler, kvadrater, trekanter, rektangler, sekskanter og flere på et øjeblik",
-        "Barnet forstår, at en form beholder sit navn, uanset hvordan den vendes eller skaleres",
-        "Barnet opbygger det formordforråd, som senere geometri, sortering og tegning bygger videre på"
+        "Navngive former uanset hvordan de er drejet, og hvor store de er",
+        "Bruge hjørner og sider til at afgøre, hvilken form en brik har",
+        "Skelne en lukket form fra en åben figur"
       ]
     },
     "choice-board.flat-solid.k-g-a-3": {

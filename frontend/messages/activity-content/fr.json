@@ -2953,24 +2953,26 @@
     },
     "choice-board.shape-id.k-g-a-2": {
       "about": [
-        "Une consigne nomme une forme — cercle, carré, triangle, rectangle, hexagone, ovale, étoile, losange, cœur ou pentagone — et l'enfant la repère du regard, puis la touche parmi quatre images proposées. C'est une activité de géométrie interactive pour la maternelle, qui fonctionne directement dans le navigateur sur tablette, téléphone ou ordinateur de classe : rien à installer, aucune inscription.",
-        "L'idée importante, c'est qu'une forme reste la même quelle que soit sa position ou sa taille. Un triangle posé sur sa pointe ou un tout petit carré restent un triangle et un carré : l'enfant doit reconnaître la forme elle-même, pas une seule image « modèle ». Les trois mauvaises réponses sont d'autres vraies formes de la collection, si bien que l'enfant ne peut pas gagner en choisissant la seule forme de l'écran — il doit savoir quel nom va avec quelle figure. Une belle façon d'installer le vocabulaire des formes en grande section."
+        "Une image faite uniquement de formes – une maison, une fusée, un train, un robot, un phare – attend en blanc crème, avec deux pots de peinture à côté. L’enfant choisit un pot et touche chaque pièce qui a la forme du pot. Le pinceau fait le tour de chaque pièce touchée, pose une perle sur chaque sommet et de petits traits sur les côtés de même longueur : les sommets et les côtés se voient directement sur la pièce. Une activité interactive de géométrie pour la grande section, qui fonctionne dans le navigateur sans rien installer.",
+        "L’idée de l’outil : la peinture reste fraîche jusqu’à Vérifier. Rien n’est jugé au moment où l’on touche, l’enfant doit donc décider ; puis la peinture sèche pièce après pièce et ne reste que dans une pièce qui a vraiment la forme du pot, quelle que soit son orientation et sa taille. Une pièce qui n’a pas la forme perd sa peinture dans une flaque, et une figure ouverte fuit par son ouverture. L’indice nomme ce qui diffère vraiment : compter les sommets, regarder les petits traits pour voir si les côtés sont égaux, vérifier les angles droits, ou remarquer un côté courbé. S’il manque encore une pièce, le pot goutte sur le quart de l’image où elle se cache ; à la deuxième erreur, les pièces manquantes s’illuminent. Une image terminée s’anime un instant.",
+        "L’activité accompagne les programmes de l’école maternelle : reconnaître et nommer les formes, quelles que soient leur position et leur taille. Chaque forme demandée par un pot apparaît en plusieurs tailles, et tournée quand elle a des sommets, et le losange est toujours un losange penché, jamais un carré posé sur la pointe. L’enseignant choisit des images de formes, une couverture « vraie ou pas » (des fausses formes ouvertes, arrondies ou courbes à côté de vraies formes) ou des images à compter (peindre les triangles et les carrés, puis dire combien il y en a), et ce que montrent les pots : la forme, seulement son nom ou seulement un indice. Sans images de banque, sans chronomètre, sans score."
       ],
       "practices": [
-        "Associer le nom d'une forme à son image parmi quatre propositions.",
-        "Reconnaître une forme même lorsqu'elle est tournée ou dessinée plus grande ou plus petite.",
-        "Distinguer des formes proches : un carré d'un rectangle, un ovale d'un cercle, un hexagone d'un pentagone.",
-        "Construire le vocabulaire des formes : cercle, carré, triangle, rectangle, hexagone, ovale, étoile, losange, cœur et pentagone."
+        "Nommer des formes tournées, minuscules ou étirées",
+        "Voir ce qui fait une forme : sommets, côtés égaux, angles droits, contour fermé",
+        "Distinguer les vraies formes des fausses formes ouvertes, arrondies ou courbes",
+        "Compter les triangles et les carrés d’une figure"
       ],
       "howToPlay": [
-        "Lis ou écoute la consigne qui nomme la forme à trouver.",
-        "Regarde les quatre formes et touche celle qui correspond au nom, puis vérifie.",
-        "Pas tout à fait ? Recommence autant de fois que tu veux — il n'y a ni chrono ni score."
+        "Touche un pot de peinture pour l’ouvrir.",
+        "Touche chaque pièce qui a la forme du pot ; touche à nouveau une pièce peinte pour reprendre la peinture.",
+        "Dans les images à compter, règle le nombre avec − et +.",
+        "Touche Vérifier et regarde quelle peinture reste."
       ],
       "learningGoals": [
-        "Nommer cercles, carrés, triangles, rectangles, hexagones et bien d'autres d'un seul coup d'œil.",
-        "Comprendre qu'une forme garde son nom quelle que soit sa position ou sa taille.",
-        "Construire le vocabulaire des formes sur lequel s'appuieront plus tard la géométrie, le tri et le dessin."
+        "Nommer les formes quelles que soient leur orientation et leur taille",
+        "Utiliser les sommets et les côtés pour reconnaître une forme",
+        "Distinguer une forme fermée d’une figure ouverte"
       ]
     },
     "choice-board.flat-solid.k-g-a-3": {

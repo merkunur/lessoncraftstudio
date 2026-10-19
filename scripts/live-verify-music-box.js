@@ -62,6 +62,8 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
       await frame.waitForFunction(() => document.querySelector('.lcs-activity-prompt').classList.contains('celebrate'), { timeout: 15000 }).catch(() => {});
       is((await state()).done && (await bubble()) === interp(STR.celebrateSong[loc], { song: STR.songFrere[loc], n: 8 }), `[${loc} @${w}] "${await bubble()}"`);
       is(await frame.evaluate(() => { const i = document.querySelector('.mb-lidpic'); return !i.hidden && i.complete && i.naturalWidth > 0; }), `[${loc} @${w}] the bell on the lid`);
+      /* the parent page resizes the iframe a moment after the card grows (the bubble, the lid) */
+      await wait(1500);
       const fit = await page.evaluate(f => { const fr = f.getBoundingClientRect(); const card = f.contentDocument.querySelector('.lcs-app').getBoundingClientRect(); return { frameH: fr.height, cardH: card.height }; }, frameEl);
       is(fit.frameH >= fit.cardH - 8, `[${loc} @${w}] iframe grows with the card (iframe ${fit.frameH.toFixed(0)}, card ${fit.cardH.toFixed(0)})`);
       await page.screenshot({ path: path.join(OUT, `live-${loc}-${w}-song.png`), fullPage: w < 500 });

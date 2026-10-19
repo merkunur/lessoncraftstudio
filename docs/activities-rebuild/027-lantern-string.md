@@ -57,3 +57,6 @@ ORDER row 27 · id `match-pairs.make-the-number.k-oa-a-3` (kept) · own files `l
   - sv title "Gör talet" ≠ UI "Bilda talet".
   - fi intro grammar.
   - fr intro typography and "compléments à 6".
+
+## Live (2026-10-19)
+Commit 8a89f411, wrapper 9.761, deploy exit 0. `live-verify-lantern-string.js` 80/80 on production (en/sv/fi/de × 1366/390): 1 + 2 short, 3 + 1 meet, 2 + 2 completes the board; missing 3: the 4 runs one bulb past the end, the 1 lights it; whole 1 + 3: key 4 lights it. All eleven locale pages 200.

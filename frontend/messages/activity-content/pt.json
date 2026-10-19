@@ -1245,25 +1245,26 @@
     },
     "match-pairs.make-the-number.k-oa-a-3": {
       "about": [
-        "Surge um número-alvo — digamos, 5 — e a criança encontra os pares de números que somados dão esse total, como 1 e 4 ou 2 e 3, tocando em um número e depois no seu parceiro para ligar a dupla. É um jogo interativo de combinar números para a educação infantil, que roda direto no navegador, sem instalar e sem conta.",
-        "A grande ideia é que um mesmo número pode ser formado de mais de um jeito. Com o alvo 7, a criança pode ligar 0 e 7 e depois 3 e 4, descobrindo que o mesmo total tem várias duplas de parceiros. Como a atividade pede os pares que formam o alvo, e não uma única resposta certa, ela vai construindo com calma a noção de parte-parte-todo, em que toda a adição mais tarde se apoia.",
-        "A atividade está alinhada à BNCC, na unidade temática Números, decompondo números até 10 em pares de várias maneiras. Sem cronômetro, sem pontuação: só prática calma e brincante para crianças da pré-escola."
+        "O número-alvo é um pisca-pisca com exatamente essa quantidade de lampadinhas e um pequeno espaço depois da quinta. Ao tocar num número, uma luz coral corre pelo pisca-pisca a partir da esquerda; ao tocar no seu par, uma luz turquesa entra pela direita. Se as duas luzes se encontram certinho, o pisca-pisca inteiro brilha dourado e o par fica pendurado na guirlanda como duas lanternas de papel. É uma atividade interativa de matemática para a pré-escola, que funciona no navegador, sem instalar nada.",
+        "A novidade é que as duas luzes se medem uma à outra, então um par errado mostra o próprio erro. No pisca-pisca de 8, o 4 e o 5 deixam uma lampadinha acesa duas vezes, e ela pisca; o 2 e o 5 deixam uma apagada. Uma luz maior que o pisca-pisca continua para além da outra ponta. As lampadinhas a mais ou a menos se numeram sozinhas, e a criança vê quanto errou, não só que errou. Cada tabuleiro tem todos os pares do seu número uma única vez, e a guirlanda guarda um gancho tracejado para cada par que ainda falta. Em outras rodadas, uma parte já está ligada e a criança procura o par (7 e 3 formam 10), ou as duas partes estão ligadas sem pisca-pisca: a criança escolhe o tamanho dele e depois acende — 4 e 3 formam 7.",
+        "A atividade está alinhada à BNCC, na unidade temática Números: decompor números até 10 em duas partes de mais de uma maneira. O professor escolhe Até 5 (padrão), De 6 a 9 ou Formar 10 e pode ligar as bolinhas nas cartas, para que cada carta mostre seu número também em bolinhas. A “Oficina de luzes” é brincadeira aberta: qualquer pisca-pisca de 2 a 10 e dois números quaisquer de 1 a 9. Sem cronômetro, sem pontuação."
       ],
       "practices": [
-        "Encontrar dois números que somados dão um alvo até 10.",
-        "Descobrir mais de uma dupla que forma o mesmo número.",
-        "Construir a compreensão de parte-parte-todo dos números pequenos.",
-        "Combinar um número com o parceiro que completa o total."
+        "Formar um número até 10 com duas partes de mais de uma maneira",
+        "Ver quanto duas partes passam ou faltam",
+        "Encontrar a parte que falta e o todo",
+        "Ler cada par como uma igualdade, por exemplo 3 + 7 = 10"
       ],
       "howToPlay": [
-        "Olhe o número-alvo da rodada, como 6.",
-        "Toque em um número e depois no parceiro que somado com ele dá o alvo, e veja a dupla se ligar.",
-        "Encontre todos os pares que formam o alvo — não tem cronômetro nem pontuação, então vá com calma."
+        "Olhe o número na etiqueta do pisca-pisca e conte as lampadinhas, se quiser.",
+        "Toque num número e depois no seu par. O primeiro acende o pisca-pisca pela esquerda; o segundo, pela direita.",
+        "Quando as luzes se encontram certinho, o par fica pendurado na guirlanda. Encontre todos os pares do tabuleiro.",
+        "Em algumas rodadas, escolha o par entre quatro cartas ou escolha o tamanho do pisca-pisca e toque em “Acender”. Sem cronômetro, sem pontuação."
       ],
       "learningGoals": [
-        "Decompor números até 10 em pares de mais de uma maneira.",
-        "Entender que um número é formado por partes menores.",
-        "Preparar a base de parte-parte-todo para a adição e a subtração."
+        "Decompor números até 10 em duas partes de mais de uma maneira",
+        "Ler cada par como uma igualdade, por exemplo 3 + 7 = 10",
+        "Aprender os pares que formam 10"
       ]
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {

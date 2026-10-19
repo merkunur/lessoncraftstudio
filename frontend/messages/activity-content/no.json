@@ -497,25 +497,26 @@
     },
     "match-pairs.make-the-number.k-oa-a-3": {
       "about": [
-        "Et måltall dukker opp — for eksempel 5 — og barnet finner tallparene som til sammen blir tallet, som 1 og 4 eller 2 og 3. Barnet trykker på ett tall og deretter på makkeren, og paret kobles sammen. Det er et interaktivt tallspill for skolestart og 1. trinn som kjører rett i nettleseren — ingen nedlasting, ingen konto.",
-        "Den store ideen er at ett tall kan lages på mer enn én måte. Med målet 7 kan barnet koble 0 og 7, så 3 og 4, og oppdage at den samme summen har flere makkerpar. Fordi aktiviteten ber om parene som blir målet i stedet for ett enkelt riktig svar, bygger den stille forståelsen av del–del–hel som all senere addisjon hviler på.",
-        "Aktiviteten følger LK20 innenfor tall — å dele opp tall opp til 10 i par på flere ulike måter. Den passer for skolestart og 1. trinn. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "Måltallet er en lysslynge med akkurat så mange lyspærer, med et lite mellomrom etter den femte. Når barnet trykker på et tall, løper korallrødt lys langs slyngen fra venstre; når det trykker på makkeren, kommer turkist lys inn fra høyre. Møtes de to lysene akkurat, lyser hele slyngen i gull, og paret henger seg på girlanderen over som to papirlykter. Det er en interaktiv matteaktivitet for skolestart som kjører i nettleseren uten installasjon.",
+        "Det nye er at de to lysene måler hverandre, så et feil par viser sin egen feil. På slyngen med 8 får 4 og 5 én lyspære til å lyse dobbelt, og den blinker; 2 og 5 lar én lyspære være mørk. Et lys som er lengre enn slyngen, fortsetter forbi den andre enden. Lyspærene som er for mange eller for få, nummererer seg selv, så barnet ser hvor mye et forsøk bommer, og ikke bare at det er feil. På et brett ligger hvert par av tallet én gang, og girlanderen har en stiplet krok for hvert par som gjenstår. I andre runder er den ene delen allerede koblet til, og barnet finner makkeren (7 og 3 gir 10), eller begge delene er koblet til, men slyngen mangler: Barnet velger hvor lang slyngen er, og tenner den så — 4 og 3 gir 7.",
+        "Aktiviteten følger LK20 innenfor tall: å dele opp tall opp til 10 i to deler på flere ulike måter. Den passer for skolestart og 1. trinn. Læreren velger Opp til 5 (forhåndsvalgt), 6 til 9 eller Lag 10 og kan slå på prikker på kortene, slik at hvert kort også viser tallet sitt som prikker. Lysverkstedet er åpen lek: en hvilken som helst slynge fra 2 til 10 og to tall du velger selv fra 1 til 9. Ingen tidtaker, ingen poeng."
       ],
       "practices": [
-        "Finne to tall som til sammen blir et måltall opp til 10.",
-        "Oppdage mer enn ett par som lager det samme tallet.",
-        "Bygge forståelse av del–del–hel for små tall.",
-        "Koble et tall til makkeren som fullfører summen."
+        "Lage et tall opp til 10 av to deler på flere måter",
+        "Se hvor mye to deler er for mange eller for få",
+        "Finne den manglende delen og helheten",
+        "Lese hvert par som en likning, for eksempel 3 + 7 = 10"
       ],
       "howToPlay": [
-        "Se på måltallet for runden, for eksempel 6.",
-        "Trykk på et tall, og trykk så på makkeren som til sammen blir målet, og se paret kobles.",
-        "Finn alle parene som blir målet — det er ingen tidtaker og ingen poeng, så ta deg god tid."
+        "Se på tallet på slyngens lapp, og tell lyspærene hvis du vil.",
+        "Trykk på et tall og så på makkeren. Det første tenner slyngen fra venstre, det andre fra høyre.",
+        "Når lysene møtes akkurat, henger paret på girlanderen. Finn alle parene på brettet.",
+        "I noen runder velger du makkeren blant fire kort eller velger hvor lang slyngen er, og trykker så på «Tenn». Ingen tidtaker, ingen poeng."
       ],
       "learningGoals": [
-        "Barnet kan dele opp tall opp til 10 i par på flere ulike måter.",
-        "Barnet forstår at et tall er satt sammen av mindre deler.",
-        "Barnet legger grunnlaget for del–del–hel som addisjon og subtraksjon bygger på."
+        "Barnet kan dele opp tall opp til 10 i to deler på flere ulike måter",
+        "Barnet leser hvert par som en likning, for eksempel 3 + 7 = 10",
+        "Barnet lærer tiervennene"
       ]
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {

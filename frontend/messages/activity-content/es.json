@@ -2785,25 +2785,26 @@
     },
     "match-pairs.make-the-number.k-oa-a-3": {
       "about": [
-        "Aparece un número objetivo —digamos 5— y el niño o la niña busca las parejas de números que suman ese total, como 1 y 4 o 2 y 3, tocando un número y luego su pareja para enlazarlos. Es un juego de relacionar números interactivo para preescolar que corre directo en el navegador, sin instalar nada y sin crear cuenta.",
-        "La idea importante es que un mismo número se puede formar de más de una manera. Con un objetivo de 7, tu hijo o hija puede enlazar 0 y 7 y luego 3 y 4, y descubrir que el mismo total tiene varias parejas. Como la actividad pide todas las parejas que forman el objetivo, en lugar de una sola respuesta correcta, va construyendo poco a poco el sentido de parte-parte-todo en el que se apoya toda la suma posterior.",
-        "Está alineada con los planes y programas de estudio (SEP): descomponer números hasta el 10 en parejas de más de una manera. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+        "El número objetivo es una serie de foquitos con exactamente esa cantidad de foquitos y un pequeño espacio después del quinto. Al tocar un número, una luz coral recorre la serie desde la izquierda; al tocar su pareja, una luz turquesa entra desde la derecha. Si las dos luces se juntan exactamente, toda la serie brilla dorada y la pareja se cuelga arriba como dos farolitos de papel. Es una actividad interactiva de matemáticas para preescolar que funciona en el navegador, sin instalar nada.",
+        "Lo especial es que las dos luces se miden entre sí, así que una pareja equivocada muestra su propio error. En la serie de 8, el 4 y el 5 dejan un foquito encendido dos veces, y parpadea; el 2 y el 5 dejan un foquito apagado. Una luz más larga que la serie sigue de largo por el otro extremo. Los foquitos de más o de menos se numeran solos, para que la niña o el niño vea por cuánto se equivocó y no solo que se equivocó. Cada tablero tiene todas las parejas de su número una sola vez, y la guirnalda guarda un gancho punteado para cada pareja que falta. En otras rondas ya hay una parte conectada y se busca su pareja (7 y 3 forman 10), o están conectadas las dos partes sin serie: se elige qué tan larga es la serie y luego se enciende — 4 y 3 forman 7.",
+        "Está alineada con los planes y programas de estudio (SEP): descomponer números hasta el 10 en dos partes de más de una manera. La maestra o el maestro elige Hasta 5 (predeterminado), Del 6 al 9 o Formar 10, y puede activar los puntos en las tarjetas para que cada una muestre su número también con puntos. El «Taller de foquitos» es juego abierto: cualquier serie del 2 al 10 y dos números cualesquiera del 1 al 9. Sin temporizador y sin puntuación."
       ],
       "practices": [
-        "Encontrar dos números que suman un objetivo hasta el 10.",
-        "Descubrir más de una pareja que forma el mismo número.",
-        "Construir la comprensión de parte-parte-todo de los números pequeños.",
-        "Relacionar un número con la pareja que completa el total."
+        "Formar un número hasta el 10 con dos partes de más de una manera",
+        "Ver por cuánto dos partes son de más o de menos",
+        "Encontrar la parte que falta y el total",
+        "Leer cada pareja como una igualdad, por ejemplo 3 + 7 = 10"
       ],
       "howToPlay": [
-        "Mira el número objetivo de la ronda, por ejemplo 6.",
-        "Toca un número y luego toca su pareja que suma el objetivo, y observa cómo se enlazan.",
-        "Encuentra todas las parejas que forman el objetivo: no hay temporizador ni puntuación, tómate tu tiempo."
+        "Mira el número en la etiqueta de la serie y cuenta sus foquitos si quieres.",
+        "Toca un número y luego su pareja. El primero enciende la serie desde la izquierda; el segundo, desde la derecha.",
+        "Cuando las luces se juntan exactamente, la pareja se cuelga en la guirnalda. Encuentra todas las parejas del tablero.",
+        "En algunas rondas eliges la pareja entre cuatro tarjetas o eliges qué tan larga es la serie, y luego tocas «Encender». Sin temporizador y sin puntuación."
       ],
       "learningGoals": [
-        "Tu hijo o hija puede descomponer números hasta el 10 en parejas de más de una manera.",
-        "El niño o la niña aprende a entender que un número está formado por partes más pequeñas.",
-        "Asienta la base de parte-parte-todo para la suma y la resta."
+        "Descomponer números hasta el 10 en dos partes de más de una manera",
+        "Leer cada pareja como una igualdad, por ejemplo 3 + 7 = 10",
+        "Aprender las parejas que forman 10"
       ]
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {

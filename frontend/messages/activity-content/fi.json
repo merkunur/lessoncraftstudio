@@ -1143,25 +1143,26 @@
     },
     "match-pairs.make-the-number.k-oa-a-3": {
       "about": [
-        "Tehtävässä näytetään tavoiteluku — vaikkapa 5 — ja lapsi etsii lukuparit, jotka yhdessä muodostavat sen, kuten 1 ja 4 tai 2 ja 3, napauttamalla ensin yhtä lukua ja sitten sen paria, jolloin pari yhdistyy. Harjoitus on vuorovaikutteinen esiopetuksen lukujen yhdistämispeli, joka toimii suoraan selaimessa — ei asennusta, ei tiliä.",
-        "Tärkein ajatus on, että yhden luvun voi muodostaa useammalla kuin yhdellä tavalla. Kun tavoite on 7, lapsi voi yhdistää 0 ja 7 ja sitten 3 ja 4 ja huomata, että samalla summalla on useita pareja. Koska tehtävä pyytää etsimään kaikki tavoitteen muodostavat parit eikä vain yhtä oikeaa vastausta, se rakentaa huomaamatta osa-osa-kokonaisuus-ajattelua, jonka varaan kaikki myöhempi yhteenlasku perustuu.",
-        "Harjoitus on OPS 2014:n mukainen lukujen ja laskutoimitusten osa-alueella — lapsi jakaa enintään kymmenen suuruiset luvut pareihin useilla eri tavoilla. Lapsi saa edetä rauhassa omaan tahtiinsa: ei ajastinta eikä pisteitä."
+        "Tavoiteluku on valosarja, jossa on juuri niin monta lamppua, ja viidennen lampun jälkeen on pieni väli. Kun lapsi napauttaa lukua, korallinpunainen valo kulkee sarjaa pitkin vasemmalta; kun hän napauttaa sen paria, turkoosi valo tulee oikealta. Jos valot kohtaavat tarkalleen, koko sarja välähtää kultaisena, ja pari jää roikkumaan köynnökseen kahtena paperilyhtynä. Tämä on vuorovaikutteinen esiopetuksen matematiikkatehtävä, joka toimii selaimessa ilman asennusta.",
+        "Keksintö on, että valot mittaavat toisiaan, joten väärä pari näyttää oman virheensä. Kahdeksan lampun sarjassa luvut 4 ja 5 sytyttävät yhden lampun kahdesti, ja se välkkyy; luvut 2 ja 5 jättävät yhden lampun pimeäksi. Sarjaa pidempi valo jatkuu toisen pään yli. Liian monet tai puuttuvat lamput numeroivat itsensä, joten lapsi näkee, kuinka paljon yritys menee ohi, eikä vain sitä, että se on väärin. Laudalla on jokainen luvun pari kerran, ja köynnöksessä on katkoviivakoukku jokaiselle parille, joka vielä puuttuu. Toisissa kierroksissa yksi osa on jo kytketty ja lapsi etsii sen parin (7 ja 3 tekevät 10), tai molemmat osat on kytketty mutta sarjaa ei ole: lapsi valitsee sarjan pituuden ja sytyttää sen — 4 ja 3 tekevät 7.",
+        "Harjoitus on OPS 2014:n mukainen lukujen ja laskutoimitusten osa-alueella: lapsi jakaa enintään kymmenen suuruiset luvut kahteen osaan useilla eri tavoilla. Opettaja valitsee 5:een asti (oletus), 6–9 tai Tee 10 ja voi kytkeä korttien pisteet päälle, jolloin jokainen kortti näyttää lukunsa myös pisteinä. Valopaja on vapaata leikkiä: mikä tahansa sarja 2–10 ja kaksi lukua 1–9. Ei ajastinta eikä pisteitä."
       ],
       "practices": [
-        "Etsii kaksi lukua, jotka yhdessä muodostavat enintään kymmenen suuruisen tavoitteen.",
-        "Löytää useamman kuin yhden parin, joka muodostaa saman luvun.",
-        "Rakentaa pienten lukujen osa-osa-kokonaisuus-ymmärrystä.",
-        "Yhdistää luvun sen pariin, joka täydentää summan."
+        "Luvun muodostaminen 10:een asti kahdesta osasta monella tavalla",
+        "Sen näkeminen, kuinka paljon kahta osaa on liikaa tai liian vähän",
+        "Puuttuvan osan ja kokonaisuuden löytäminen",
+        "Jokaisen parin lukeminen yhtälönä, kuten 3 + 7 = 10"
       ],
       "howToPlay": [
-        "Katso kierroksen tavoiteluku, esimerkiksi 6.",
-        "Napauta yhtä lukua ja sitten sen paria, joka yhdessä muodostaa tavoitteen, ja katso, kuinka pari yhdistyy.",
-        "Etsi kaikki tavoitteen muodostavat parit — ei ajastinta eikä pisteitä, joten ota aikasi."
+        "Katso sarjan lapussa olevaa lukua ja laske lamput, jos haluat.",
+        "Napauta lukua ja sitten sen paria. Ensimmäinen sytyttää sarjan vasemmalta, toinen oikealta.",
+        "Kun valot kohtaavat tarkalleen, pari jää köynnökseen. Etsi kaikki laudan parit.",
+        "Joissakin kierroksissa valitset parin neljästä kortista tai valitset, kuinka pitkä sarja on, ja napautat sitten ”Sytytä”. Ei ajastinta eikä pisteitä."
       ],
       "learningGoals": [
-        "Lapsi osaa jakaa enintään kymmenen suuruiset luvut pareihin useilla eri tavoilla.",
-        "Lapsi ymmärtää, että luku koostuu pienemmistä osista.",
-        "Lapsi luo osa-osa-kokonaisuus-perustan yhteen- ja vähennyslaskulle."
+        "Lapsi osaa jakaa enintään kymmenen suuruiset luvut kahteen osaan useilla eri tavoilla",
+        "Lapsi lukee jokaisen parin yhtälönä, kuten 3 + 7 = 10",
+        "Lapsi oppii kymppikaverit"
       ]
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {

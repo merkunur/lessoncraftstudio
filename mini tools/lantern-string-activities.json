@@ -1,0 +1,66 @@
+[
+ {
+  "id": "match-pairs.make-the-number.k-oa-a-3",
+  "tool": "lantern-string-activity",
+  "task_template": "lantern-string",
+  "alignment": {
+   "framework": "CCSS",
+   "code": "K.OA.A.3",
+   "grade": "K",
+   "strand": "Operations & Algebraic Thinking"
+  },
+  "params": {
+   "levels": [
+    "upto5",
+    "six9",
+    "ten"
+   ],
+   "default_level": "upto5",
+   "dots": [
+    "off",
+    "on"
+   ]
+  },
+  "theme": null,
+  "slug": {
+   "en": "make-the-number",
+   "de": "bilde-die-zahl",
+   "es": "forma-el-numero",
+   "it": "forma-il-numero",
+   "fr": "compose-le-nombre",
+   "pt": "forme-o-numero",
+   "nl": "maak-het-getal",
+   "sv": "gor-talet",
+   "da": "lav-tallet",
+   "no": "lag-tallet",
+   "fi": "tee-luku"
+  },
+  "page_title": {
+   "en": "Make the Number",
+   "de": "Zahlen zerlegen – Paare finden, die eine Zahl bilden (online)",
+   "es": "Forma el número",
+   "it": "Forma il numero",
+   "fr": "Compléments à 6 et jusqu'à 10 – composer le nombre en ligne (GS)",
+   "pt": "Forme o número",
+   "nl": "Maak het getal",
+   "sv": "Gör talet",
+   "da": "Lav tallet",
+   "no": "Lag tallet",
+   "fi": "Tee luku"
+  },
+  "page_intro": {
+   "en": "Find pairs of numbers that add up to the target. Tap a number, then tap its partner — and watch the pairs link. Aligned to Common Core K.OA.A.3 — decompose numbers less than or equal to 10 into pairs in more than one way.",
+   "de": "Zahlen zerlegen im Kindergarten: Paare finden, die zusammen die Zielzahl ergeben – Mengen spielerisch verstehen. Online, ohne Anmeldung.",
+   "es": "Encuentra parejas de números que sumen el objetivo. Toca un número, luego toca su pareja — y mira cómo se enlazan las parejas. Alineado con el currículo oficial — descomponer números hasta 10 en parejas de diferentes maneras.",
+   "it": "Trova coppie di numeri che fanno l'obiettivo. Tocca un numero, poi tocca il suo compagno — e guarda come le coppie si collegano. Allineato alle Indicazioni nazionali — scomporre numeri fino a 10 in coppie in più di un modo.",
+   "fr": "Les compléments à 6 et aux autres nombres jusqu'à 10 : associer les paires qui composent le nombre. En ligne, sans inscription.",
+   "pt": "Encontre pares de números que formam o objetivo. Toque em um número, depois toque no par dele — e veja os pares se conectarem. Alinhado à BNCC — decompor números até 10 em pares de várias maneiras.",
+   "nl": "Zoek getallenparen die samen het doel maken. Tik op een getal, dan op zijn partner — en kijk hoe de paren verbinden. Afgestemd op de kerndoelen — getallen tot 10 op meerdere manieren ontleden in paren.",
+   "sv": "Hitta talpar som tillsammans blir målet. Tryck på ett tal, sedan på dess kompis — och se hur paren kopplas ihop. Anpassat till Lgr22 — dela upp tal upp till 10 i par på flera olika sätt.",
+   "da": "Find talpar, der tilsammen bliver målet. Tryk på et tal, derefter på dets makker — og se hvordan parrene forbindes. Tilpasset Fælles Mål — opdel tal op til 10 i par på flere forskellige måder.",
+   "no": "Finn tallpar som til sammen blir målet. Trykk på et tall, deretter på makkeren — og se hvordan parene kobles. Tilpasset LK20 — del opp tall opp til 10 i par på flere ulike måter.",
+   "fi": "Etsi lukupareja, jotka yhdessä tekevät tavoitteen. Paina numeroa, sitten paina sen paria — ja katso, miten parit yhdistyvät. Yhteensopiva OPS 2014:n kanssa — jaa luvut enintään kymmeneen pareihin useilla eri tavoilla."
+  },
+  "kid_prompt_template": "make-the-number"
+ }
+]

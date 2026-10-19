@@ -2506,25 +2506,26 @@
     },
     "match-pairs.make-the-number.k-oa-a-3": {
       "about": [
-        "A target appears — say 5 — and children find the number pairs that add up to it, like 1 and 4 or 2 and 3, tapping one number, then its partner, to link the pair. It's an interactive Kindergarten number-matching game that plays right in the browser — no install, no account.",
-        "The big idea is that one number can be made in more than one way. With a target of 7, children might link 0 and 7, then 3 and 4, discovering that the same total has several partner pairs. Because the activity asks for the pairs that make the target rather than a single right answer, it quietly builds the part-part-whole sense that all later addition rests on.",
-        "It is aligned to Common Core K.OA.A.3 — decomposing numbers less than or equal to 10 into pairs in more than one way. No timer, no score — just calm, playful practice."
+        "The target number is a string of lantern bulbs — exactly that many, with a small gap after the fifth. Tap a number and coral light runs along the string from the left; tap its partner and teal light runs in from the right. If the two lights meet exactly, the whole string flashes gold and the pair hangs on the garland above as two paper lanterns. It's an interactive Kindergarten math activity that runs in the browser with nothing to install.",
+        "The invention is that the two lights measure each other, so a wrong pair shows its own error. On the string of 8, 4 and 5 leave one bulb lit twice, and it flickers; 2 and 5 leave one bulb dark. A light longer than its string runs on past the far end. The extra or missing bulbs then number themselves, so the child sees by how much a guess is off, not just that it is wrong. A board holds every pair of its number once, and the garland keeps a dashed hook for each pair still to find. Other rounds plug one part in and ask for its partner (7 and 3 make 10), or plug in both parts with no string at all: the child chooses how long the string is, then lights it — 4 and 3 make 7.",
+        "It is aligned to Common Core K.OA.A.3 — breaking numbers up to 10 into pairs in more than one way. Teachers choose Up to 5 (the default), 6 to 9 or Make 10, and can switch on Card dots so each card shows its number as dots. \"Lantern maker\" is open play: any string from 2 to 10 and any two numbers from 1 to 9. No timer, no score."
       ],
       "practices": [
-        "Find two numbers that add up to a target up to 10",
-        "Discover more than one pair that makes the same number",
-        "Build part-part-whole understanding of small numbers",
-        "Match a number to its partner that completes the total"
+        "Making a number up to 10 from two parts in more than one way",
+        "Seeing by how much two parts are too many or too few",
+        "Finding the missing part and the whole",
+        "Reading each pair as an equation such as 3 + 7 = 10"
       ],
       "howToPlay": [
-        "Look at the target number for the round, such as 6.",
-        "Tap a number, then tap its partner that adds up to the target, and watch the pair link.",
-        "Find all the pairs that make the target — there is no timer and no score, so take your time."
+        "Look at the number on the string's tag and count its bulbs if you like.",
+        "Tap a number, then its partner. The first lights the string from the left, the second from the right.",
+        "When the lights meet exactly, the pair hangs on the garland. Find every pair on the board.",
+        "In some rounds, choose the partner from four cards or choose how long the string is, then press \"Light it\". No timer, no score."
       ],
       "learningGoals": [
         "Decompose numbers up to 10 into pairs in more than one way — the focus of Common Core K.OA.A.3",
-        "Understand that a number is made of smaller parts",
-        "Lay the part-part-whole foundation for addition and subtraction"
+        "Read each pair as an equation such as 3 + 7 = 10",
+        "Learn the pairs that make 10"
       ]
     },
     "match-pairs.match-facts-to-20.2-oa-b-2": {

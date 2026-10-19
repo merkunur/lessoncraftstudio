@@ -2598,24 +2598,26 @@
     },
     "match-pairs.make-the-number.k-oa-a-3": {
       "about": [
-        "Un nombre cible apparaît — disons 5 — et l'enfant cherche les paires de nombres qui l'atteignent, comme 1 et 4 ou 2 et 3 : il touche un nombre, puis son partenaire, et la paire se relie. C'est un jeu d'association de nombres de maternelle, interactif, qui se joue directement dans le navigateur, sans installation et sans compte.",
-        "La grande idée, c'est qu'un même nombre peut se composer de plusieurs façons. Avec une cible de 7, l'enfant peut relier 0 et 7, puis 3 et 4, et découvrir que le même total a plusieurs paires possibles. Comme l'activité demande toutes les paires qui font la cible plutôt qu'une seule bonne réponse, elle construit en douceur le sens du « partie-partie-tout » sur lequel reposera toute l'addition. L'activité suit les programmes officiels : ni minuteur, ni score, juste un entraînement calme et ludique."
+        "Le nombre cible est une guirlande lumineuse qui compte exactement autant d’ampoules, avec un petit espace après la cinquième. L’enfant touche un nombre : une lumière corail court le long de la guirlande depuis la gauche. Il touche le nombre qui va avec : une lumière turquoise arrive depuis la droite. Si les deux lumières se rejoignent pile, toute la guirlande brille en doré et la paire s’accroche en haut comme deux lanternes en papier. C’est une activité de maths interactive pour la grande section, qui fonctionne dans le navigateur, sans rien installer.",
+        "L’idée : les deux lumières se mesurent l’une l’autre, si bien qu’une mauvaise paire montre sa propre erreur. Sur la guirlande de 8, 4 et 5 allument une ampoule deux fois, et elle clignote ; 2 et 5 laissent une ampoule éteinte. Une lumière plus longue que la guirlande continue au-delà de l’autre bout. Les ampoules en trop ou en moins se numérotent alors toutes seules : l’enfant voit de combien il s’est trompé, et pas seulement qu’il s’est trompé. Un plateau contient chaque paire de son nombre une seule fois, et la guirlande garde un crochet en pointillés pour chaque paire encore à trouver. Dans d’autres manches, une partie est déjà branchée et l’enfant cherche le nombre qui va avec (7 et 3 font 10), ou bien les deux parties sont branchées sans guirlande : l’enfant choisit sa longueur, puis l’allume — 4 et 3 font 7.",
+        "L’activité suit les programmes officiels du cycle 1 : décomposer les nombres jusqu’à 10 en deux parties de plusieurs façons. L’enseignant choisit Jusqu’à 5 (par défaut), De 6 à 9 ou Faire 10, et peut afficher des points sur les cartes pour que chaque carte montre aussi son nombre en points. L’« Atelier des lumières » est un jeu libre : n’importe quelle guirlande de 2 à 10 et deux nombres au choix de 1 à 9. Pas de chronomètre, pas de score."
       ],
       "practices": [
-        "Trouver deux nombres qui font une cible jusqu'à 10.",
-        "Découvrir plusieurs paires qui composent le même nombre.",
-        "Construire la compréhension « partie-partie-tout » des petits nombres.",
-        "Associer un nombre à son partenaire qui complète le total."
+        "Former un nombre jusqu’à 10 avec deux parties, de plusieurs façons",
+        "Voir de combien deux parties sont trop ou pas assez",
+        "Trouver la partie manquante et le tout",
+        "Lire chaque paire sous forme d’égalité, comme 3 + 7 = 10"
       ],
       "howToPlay": [
-        "Regarde le nombre cible de la manche, par exemple 6.",
-        "Touche un nombre, puis son partenaire qui fait la cible, et regarde la paire se relier.",
-        "Trouve toutes les paires qui font la cible : il n'y a ni minuteur, ni score, alors prends ton temps."
+        "Regarde le nombre sur l’étiquette de la guirlande et compte ses ampoules si tu veux.",
+        "Touche un nombre, puis le nombre qui va avec. Le premier allume la guirlande par la gauche, le second par la droite.",
+        "Quand les lumières se rejoignent pile, la paire s’accroche à la guirlande. Trouve toutes les paires du plateau.",
+        "Dans certaines manches, choisis le nombre qui va avec parmi quatre cartes ou choisis la longueur de la guirlande, puis touche « Allumer ». Pas de chronomètre, pas de score."
       ],
       "learningGoals": [
-        "Décomposer les nombres jusqu'à 10 en paires de plusieurs façons.",
-        "Comprendre qu'un nombre est fait de parties plus petites.",
-        "Poser la base « partie-partie-tout » de l'addition et de la soustraction."
+        "Décomposer les nombres jusqu’à 10 en deux parties de plusieurs façons",
+        "Lire chaque paire comme une égalité, comme 3 + 7 = 10",
+        "Apprendre les compléments à 10"
       ]
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {

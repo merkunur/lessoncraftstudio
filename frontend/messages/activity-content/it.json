@@ -1741,25 +1741,26 @@
     },
     "match-pairs.make-the-number.k-oa-a-3": {
       "about": [
-        "Appare un numero obiettivo — per esempio 5 — e il bambino trova le coppie di numeri che lo formano, come 1 e 4 oppure 2 e 3, toccando un numero e poi il suo compagno per collegare la coppia. È un gioco di abbinamento dei numeri per la scuola dell'infanzia, interattivo, che si gioca direttamente nel browser, senza installazione e senza account.",
-        "L'idea importante è che uno stesso numero si può formare in più di un modo. Con un obiettivo di 7, il bambino può collegare 0 e 7, poi 3 e 4, scoprendo che lo stesso totale ha diverse coppie di compagni. Poiché l'attività chiede le coppie che formano l'obiettivo e non una sola risposta giusta, costruisce con calma il senso di parte-parte-tutto su cui poggerà ogni addizione successiva.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: scomporre numeri fino a 10 in coppie in più di un modo. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
+        "Il numero obiettivo è un filo di lucine con esattamente quel numero di lucine e un piccolo spazio dopo la quinta. Il bambino tocca un numero e una luce corallo corre lungo il filo da sinistra; tocca il numero compagno e una luce turchese arriva da destra. Se le due luci si incontrano esattamente, tutto il filo si accende d’oro e la coppia si appende alla ghirlanda come due lanterne di carta. È un’attività interattiva di matematica per la scuola dell’infanzia che funziona nel browser, senza installare nulla.",
+        "La novità è che le due luci si misurano a vicenda, così una coppia sbagliata mostra il proprio errore. Sul filo di 8, il 4 e il 5 accendono una lucina due volte, e lampeggia; il 2 e il 5 ne lasciano una spenta. Una luce più lunga del filo prosegue oltre l’altro capo. Le lucine in più o in meno si numerano da sole, così il bambino vede di quanto ha sbagliato e non solo che ha sbagliato. Ogni tabellone contiene tutte le coppie del suo numero una volta sola, e la ghirlanda tiene un gancio tratteggiato per ogni coppia ancora da trovare. In altri turni una parte è già collegata e si cerca il numero compagno (7 e 3 fanno 10), oppure sono collegate entrambe le parti ma il filo non c’è: il bambino sceglie quanto è lungo e poi lo accende — 4 e 3 fanno 7.",
+        "L’attività è allineata alle Indicazioni nazionali, nell’ambito dei numeri: scomporre i numeri fino a 10 in due parti in più di un modo. L’insegnante sceglie Fino a 5 (predefinito), Da 6 a 9 o Fare 10 e può attivare i pallini sulle carte, così ogni carta mostra il suo numero anche a pallini. Il «Laboratorio delle lucine» è gioco aperto: qualsiasi filo da 2 a 10 e due numeri qualsiasi da 1 a 9. Nessun timer, nessun punteggio."
       ],
       "practices": [
-        "Trovare due numeri che insieme formano un obiettivo fino a 10.",
-        "Scoprire più di una coppia che forma lo stesso numero.",
-        "Costruire la comprensione di parte-parte-tutto dei numeri piccoli.",
-        "Abbinare un numero al compagno che completa il totale."
+        "Formare un numero fino a 10 con due parti in più di un modo",
+        "Vedere di quanto due parti sono troppe o troppo poche",
+        "Trovare la parte mancante e il tutto",
+        "Leggere ogni coppia come uguaglianza, per esempio 3 + 7 = 10"
       ],
       "howToPlay": [
-        "Il bambino guarda il numero obiettivo del turno, per esempio 6.",
-        "Tocca un numero, poi tocca il compagno che insieme forma l'obiettivo, e osserva la coppia collegarsi.",
-        "Trova tutte le coppie che formano l'obiettivo: non ci sono timer né punteggio, quindi con calma."
+        "Guarda il numero sull’etichetta del filo e conta le lucine, se vuoi.",
+        "Tocca un numero, poi il suo compagno. Il primo accende il filo da sinistra, il secondo da destra.",
+        "Quando le luci si incontrano esattamente, la coppia si appende alla ghirlanda. Trova tutte le coppie del tabellone.",
+        "In alcuni turni scegli il compagno tra quattro carte oppure scegli quanto è lungo il filo, poi tocca «Accendi». Nessun timer, nessun punteggio."
       ],
       "learningGoals": [
-        "Scomporre numeri fino a 10 in coppie in più di un modo.",
-        "Capire che un numero è fatto di parti più piccole.",
-        "Gettare le basi di parte-parte-tutto per l'addizione e la sottrazione."
+        "Scomporre i numeri fino a 10 in due parti in più di un modo",
+        "Leggere ogni coppia come uguaglianza, per esempio 3 + 7 = 10",
+        "Imparare le coppie che fanno 10"
       ]
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {

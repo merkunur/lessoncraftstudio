@@ -3058,26 +3058,26 @@
     },
     "ten-frame.teen-numbers.make-n": {
       "about": [
-        "Die Aufforderung nennt eine Zahl zwischen 11 und 19, etwa 16, und das Kind füllt das erste Zehnerfeld zu einer vollen Zehn und legt dann die zusätzlichen Einer auf ein zweites Feld – so erscheint 16 als zehn und sechs mehr. Auf diese Weise gebaut, wird die verborgene Struktur sichtbar. Diese interaktive Stellenwert-Aktivität für den Kindergarten läuft im Browser, ganz ohne Anmeldung.",
-        "Zahlen zwischen 11 und 19 sind knifflig, weil ihre Namen ihre Struktur verstecken – „sechzehn\" sagt nicht „zehn und sechs\". Jede auf zwei Feldern zu bauen, macht diese verborgene Struktur sichtbar: Es gibt immer eine volle Zehn und dann einige Einer. Das Kind setzt die Zahl aus einer Zehn und den zusätzlichen Einern zusammen, statt einzeln bis hinauf zu zählen – und genau darauf baut der Stellenwert auf.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Stellenwert ausgerichtet – Zahlen von 11 bis 19 in eine Zehn und einige Einer zerlegen und wieder zusammensetzen. Es gibt keinen Timer und keine Punktewertung – nur ruhiges, spielerisches Üben."
+        "Eine Zahl von 11 bis 19 erscheint mit ihrem Zahlwort – zum Beispiel 14, vierzehn. Das Kind hält einen kleinen Ausguss gedrückt, und Plättchen rollen heraus, etwa vier pro Sekunde, jedes in das nächste Feld einer Zehnerfeld-Schale; ein Tipp gießt genau eins. Nichts kommt in die zweite Schale, bevor die erste voll ist: Beim zehnten Plättchen zittert die obere Schale, ihr Rand leuchtet auf, eine Rutsche öffnet sich, und das elfte rollt in die Schale darunter. Eine interaktive Mathe-Aktivität für Vorschule und Klasse 1, die direkt im Browser läuft, ohne Installation.",
+        "Das Besondere: Die Schwerkraft legt den Zehner zuerst, 14 ist also wirklich ein voller Zehner, der übergelaufen ist, und noch vier. Beim Gießen wird keine Anzahl angezeigt – das Kind hört dort auf, wo es die Zahl vermutet, und tippt auf Prüfen. Ist es zu wenig oder zu viel, erscheint die Form der Zahl als gepunktete Felder über den Schalen, sodass die Lücke oder das überzählige Plättchen sofort zu sehen ist; nach dem zweiten Fehler zählen sich die gepunkteten Felder entlang des Gießens selbst. Ein Tipp auf ein Plättchen nimmt das zuletzt gegossene zurück (ein Plättchen in der vollen oberen Schale bleibt, solange die untere welche hat). Bei Erfolg schwebt die 1 der Zahl auf die volle Schale und die 4 auf die vier Plättchen darunter. Die Stufe „Zahl des Tages“ geht weiter: Jede volle Schale wird verschlossen und rutscht in ein Zehner-Regal, ein Stapel legt mit einem Tipp einen ganzen verschlossenen Zehner dazu, und eine Tageskarte füllt sich Schritt für Schritt – 37 legen, zehn mehr (47), zehn von 37 weg (27); in drei Runden auch eins mehr oder eins weniger, wobei 49 + 1 einen neuen Zehner verschließt und 30 − 1 einen öffnet.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Stellenwert ausgerichtet: die Zahlen von 11 bis 19 als zehn Einer und noch einige Einer zusammensetzen und zerlegen. Die Stufe „Zahl des Tages“ folgt der Zahl-des-Tages-Routine aus Klasse 1: Zehner und Einer, das Zahlwort, eine Strichliste bis 20, zehn mehr und zehn weniger. Die Zahlwörter stammen aus denselben geprüften Tabellen wie die Arbeitsblätter zum Ausdrucken. Lehrkräfte können die gepunktete Form von Anfang an zeigen lassen. „Einfach gießen“ ist offenes Spiel mit einer Tageskarte, die mitzählt. Kein Timer, keine Punkte."
       ],
       "practices": [
-        "Ein volles Zehnerfeld füllen, um eine Zehn zu bilden.",
-        "Die zusätzlichen Einer auf das zweite Feld legen.",
-        "Jede Zahl von 11 bis 19 als eine Zehn und einige mehr bauen.",
-        "Die verborgene Zehn in Zahlen wie 14 und 18 erkennen.",
-        "Aus einer Zehn und Einern zusammensetzen, statt einzeln zu zählen."
+        "Die Zahlen 11–19 als vollen Zehner und noch einige legen",
+        "Die 1 in einer Zahl von 11 bis 19 als ganzen Zehner sehen",
+        "Eine Zahl bis 99 als volle Zehner und Einer zeigen",
+        "Zehn mehr, zehn weniger, eins mehr und eins weniger finden"
       ],
       "howToPlay": [
-        "Lies die Aufforderung, um zu sehen, welche Zahl von 11 bis 19 du bauen sollst.",
-        "Fülle das erste Zehnerfeld bis zehn, lege dann die zusätzlichen Einer auf das zweite Feld und tippe auf Prüfen.",
-        "Noch nicht ganz richtig? Verschiebe die Plättchen und probiere es erneut – es gibt keinen Timer und keine Punktewertung."
+        "Schau dir die Zahl auf der Karte an.",
+        "Halt den Ausguss gedrückt zum Gießen oder tipp für ein Plättchen. Tipp auf ein Plättchen, um das letzte zurückzunehmen.",
+        "Hör dort auf, wo du die Zahl vermutest, und tipp auf Prüfen.",
+        "Noch nicht? Die gepunkteten Plätze zeigen die Form der Zahl. Kein Timer, keine Punkte."
       ],
       "learningGoals": [
-        "Zahlen von 11 bis 19 als eine Zehn und einige Einer zusammensetzen.",
-        "Verstehen, dass jede dieser Zahlen eine vollständige Zehn enthält.",
-        "Die Stellenwert-Grundlage für das Addieren und Bündeln in der 1. Klasse aufbauen."
+        "Die Zahlen 11–19 in einen Zehner und einige Einer zerlegen und zusammensetzen",
+        "Eine zweistellige Zahl als Zehner und Einer lesen",
+        "Zehn mehr und zehn weniger finden, ohne in Einerschritten zu zählen"
       ]
     },
     "choice-board.sort-count.k-md-b-3": {

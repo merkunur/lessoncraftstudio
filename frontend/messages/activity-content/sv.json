@@ -447,25 +447,26 @@
     },
     "ten-frame.teen-numbers.make-n": {
       "about": [
-        "Frågan säger ett tal mellan 11 och 19, som 16, och barnet fyller den första tioramen till en hel tia och lägger sedan de extra ettorna i en andra ram — så att 16 visar sig som tio och sex till. Att bygga talet så här gör den dolda strukturen synlig. Det är en interaktiv övning i positionssystemet för förskoleklass som spelas i webbläsaren utan registrering.",
-        "Tonåringstalen är knepiga eftersom deras namn döljer hur de är byggda — sexton säger inte tio och sex. Att bygga varje tal på två ramar gör den dolda strukturen synlig: det finns alltid en hel tia och sedan några ettor. Barnet sätter ihop talet av en tia och några till i stället för att räkna hela vägen upp ett och ett, och det är just den idé som positionssystemet bygger på.",
-        "Aktiviteten är anpassad till Lgr22 inom positionssystemet: att sätta ihop och dela upp tal från 11 till 19 i en tia och några ettor. Den här interaktiva övningen passar förskoleklass. Ingen timer, inga poäng — bara lugn, lekfull träning."
+        "Ett tal från 11 till 19 visas med sitt räkneord, till exempel 14, fjorton. Barnet håller in en liten pip och brickor rinner ut, ungefär fyra i sekunden, var och en till nästa ruta i en låda med tio rutor; ett tryck häller exakt en. Ingenting kan nå den andra lådan förrän den första är full: vid den tionde brickan darrar den övre lådan, kanten blinkar, en ränna öppnas och den elfte rullar ner i lådan under. Det är en interaktiv matteaktivitet för förskoleklass som körs i webbläsaren utan installation.",
+        "Det nya är att tyngdkraften lägger tiotalet först, så 14 är bokstavligen ett fullt tiotal som svämmade över, och fyra till. Medan barnet häller visas inget antal – barnet slutar där det tror att talet är och trycker på Kontrollera. Är det för få eller för många visas talets form som prickade rutor över lådorna, så luckan eller den extra brickan syns direkt; efter ett andra fel numrerar de prickade rutorna sig själva i hällordning. Ett tryck på en bricka tar tillbaka den senast hällda (en bricka i den fulla övre lådan stannar så länge den nedre har några). När det stämmer svävar talets 1 till den fulla lådan och 4 till de fyra brickorna under. Nivån ”Dagens tal” går längre: varje full låda stängs och glider upp på en tiotalshylla, en stapel lägger till ett helt stängt tiotal med ett tryck, och ett dagkort fylls steg för steg – bygg 37, lägg till tio till (47), ta bort tio från 37 (27); i tre omgångar även en mer eller en mindre, där 49 + 1 stänger ett nytt tiotal och 30 − 1 öppnar ett.",
+        "Aktiviteten är anpassad till Lgr22 inom positionssystemet: att sätta ihop och dela upp talen 11 till 19 i tio ental och några ental till. Nivån ”Dagens tal” följer rutinen med dagens tal i årskurs 1: tiotal och ental, räkneordet, streck upp till 20, tio mer och tio mindre. Räkneorden kommer från samma granskade tabeller som arbetsbladen för utskrift. Läraren kan visa den prickade formen från början. ”Bara hälla” är öppen lek, med ett dagkort som räknar med. Ingen timer, inga poäng."
       ],
       "practices": [
-        "Fylla en hel tioram för att göra en tia",
-        "Lägga till de extra ettorna i den andra ramen",
-        "Bygga varje tal 11 till 19 som en tia och några till",
-        "Se den dolda tian inuti tal som 14 och 18"
+        "Bygga 11–19 som ett fullt tiotal och några till",
+        "Se ettan i ett tal från 11 till 19 som ett helt tiotal",
+        "Visa ett tal upp till 99 som fulla tiotal och ental",
+        "Hitta tio mer, tio mindre, en mer och en mindre"
       ],
       "howToPlay": [
-        "Läs frågan för att se vilket tal mellan 11 och 19 du ska göra.",
-        "Fyll den första tioramen till tio, lägg sedan de extra ettorna i den andra ramen och tryck på Kontrollera.",
-        "Blev det inte rätt? Justera markörerna och försök igen — det finns ingen timer och inga poäng."
+        "Titta på talet på kortet.",
+        "Håll in pipen för att hälla eller tryck för en bricka. Tryck på en bricka för att ta tillbaka den sista.",
+        "Sluta där du tror att talet är och tryck på Kontrollera.",
+        "Inte än? De prickade platserna visar talets form. Ingen timer, inga poäng."
       ],
       "learningGoals": [
-        "Barnet kan sätta ihop tal 11 till 19 som en tia och några ettor",
-        "Barnet förstår att varje tal mellan 11 och 19 innehåller en hel tia",
-        "Barnet bygger den grund i positionssystemet som addition och gruppering i årskurs 1 behöver"
+        "Barnet sätter ihop och delar upp talen 11–19 i ett tiotal och några ental",
+        "Barnet läser ett tvåsiffrigt tal som tiotal och ental",
+        "Barnet hittar tio mer och tio mindre utan att räkna ett i taget"
       ]
     },
     "choice-board.sort-count.k-md-b-3": {

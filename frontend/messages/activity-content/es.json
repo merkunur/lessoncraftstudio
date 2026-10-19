@@ -2623,25 +2623,26 @@
     },
     "ten-frame.teen-numbers.make-n": {
       "about": [
-        "La instrucción nombra un número del 11 al 19 —como el 16— y el niño o la niña llena el primer marco de diez hasta completarlo y luego pone las unidades adicionales en un segundo marco, de modo que el 16 aparece como un diez y seis más. Armarlo así hace visible la estructura escondida del número. Es una actividad de valor posicional interactiva para preescolar que corre en el navegador, sin crear cuenta.",
-        "Los números del 11 al 19 son tramposos porque su nombre esconde su estructura: «dieciséis» no dice claramente «diez y seis». Construir cada uno en dos marcos vuelve visible esa estructura escondida: siempre hay un diez completo y luego algunas unidades. Tu hijo o hija compone el número a partir de un diez y unos extras, en lugar de contar todo de uno en uno, que es justo la idea sobre la que se construye el valor posicional.",
-        "Está alineada con los planes y programas de estudio (SEP): componer y descomponer los números del 11 al 19 en un diez y algunas unidades. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+        "Aparece un número del 11 al 19 con su nombre, por ejemplo 14, catorce. La niña o el niño mantiene presionado un pequeño pico y caen fichas, unas cuatro por segundo, cada una rodando a la siguiente casilla de una charola de diez; un toque vierte exactamente una. Nada puede llegar a la segunda charola hasta que la primera esté llena: con la décima ficha, la charola de arriba tiembla, su borde brilla, se abre un tobogán y la undécima rueda a la charola de abajo. Es una actividad interactiva de matemáticas para preescolar que funciona en el navegador, sin instalar nada.",
+        "Lo especial es que la gravedad pone primero la decena, así que 14 es de verdad una decena completa que se desbordó, y cuatro más. Mientras se vierte no se muestra ninguna cantidad: hay que detenerse donde se cree que está el número y tocar Revisar. Si faltan o sobran, la forma del número aparece como casillas punteadas sobre las charolas y el hueco o la ficha de más se ven enseguida; después de un segundo error, las casillas punteadas se numeran en el orden en que se vierten. Tocar una ficha regresa la última vertida (una ficha de la charola de arriba, llena, se queda mientras la de abajo tenga fichas). Al acertar, el 1 del número flota hasta la charola llena y el 4 hasta las cuatro fichas de abajo. El nivel «Número del día» va más lejos: cada charola llena se cierra y se desliza a una repisa de decenas, una pila agrega una decena cerrada con un solo toque, y una tarjeta del día se llena paso a paso: formar 37, agregar diez más (47), quitar diez a 37 (27); en tres rondas también uno más o uno menos, donde 49 + 1 cierra una decena nueva y 30 − 1 abre una.",
+        "Está alineada con los planes y programas de estudio (SEP): componer y descomponer los números del 11 al 19 en diez unidades y algunas más. El nivel «Número del día» sigue la rutina del número del día de primer grado: decenas y unidades, el nombre del número, palitos de conteo hasta 20, diez más y diez menos. Los nombres de los números vienen de las mismas tablas revisadas que las hojas de trabajo para imprimir. La maestra o el maestro puede mostrar la forma punteada desde el principio. «Solo verter» es juego abierto, con una tarjeta del día que va contando. Sin temporizador y sin puntuación."
       ],
       "practices": [
-        "Llenar un marco de diez completo para formar una decena.",
-        "Agregar las unidades adicionales en el segundo marco.",
-        "Construir cada número del 11 al 19 como un diez y algunas más.",
-        "Ver la decena escondida dentro de números como 14 y 18."
+        "Formar del 11 al 19 como una decena completa y algunas más",
+        "Ver el 1 de un número del 11 al 19 como una decena entera",
+        "Mostrar un número hasta el 99 en decenas completas y unidades",
+        "Encontrar diez más, diez menos, uno más y uno menos"
       ],
       "howToPlay": [
-        "Lee la instrucción para saber qué número del 11 al 19 hay que formar.",
-        "Llena el primer marco de diez hasta el diez, pon las unidades adicionales en el segundo marco y pulsa Comprobar.",
-        "¿No salió a la primera? Ajusta las fichas e inténtalo de nuevo: no hay temporizador ni puntuación."
+        "Mira el número en la tarjeta.",
+        "Mantén presionado el pico para verter o tócalo para una ficha. Toca una ficha para regresar la última.",
+        "Detente donde creas que está el número y toca Revisar.",
+        "¿Todavía no? Los lugares punteados muestran la forma del número. Sin temporizador y sin puntuación."
       ],
       "learningGoals": [
-        "Tu hijo o hija puede componer los números del 11 al 19 como un diez y algunas unidades.",
-        "El niño o la niña aprende a entender que todo número del 11 al 19 contiene un diez completo.",
-        "Construye la base de valor posicional para sumar y agrupar en primero de primaria."
+        "Componer y descomponer los números del 11 al 19 en una decena y algunas unidades",
+        "Leer un número de dos cifras en decenas y unidades",
+        "Encontrar diez más y diez menos sin contar de uno en uno"
       ]
     },
     "choice-board.sort-count.k-md-b-3": {

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Teen Numbers — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- ACTIVITY #30 of the one-by-one rebuild — THE OVERFLOW TRAYS (K.NBT.A.1,
+       a full top tray overflows into the next: a teen number is a ten and some more).
+       Shell → the number words → own core → this activity. Bump ?v=N on EVERY change to
+       overflow-trays-activity.js / overflow-trays-core.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  <script src="/mini-tools/overflow-trays-words.js?v=1"></script>
+  <script src="/mini-tools/overflow-trays-core.js?v=1"></script>
+  <script src="/mini-tools/overflow-trays-activity.js?v=1"></script>
+  <script>
+    LCS.mount(OverflowTraysActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

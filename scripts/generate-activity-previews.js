@@ -155,6 +155,10 @@ function seedScript(row) {
     // 4 + 3 printed: four orange and three green counters, the equation's two brackets dropped over them — the invention at rest
     return `(function(){var t=window['${g}'];if(!t||!t._pool)return;var i=t._pool.findIndex(function(r){return r.a===4&&r.b===3&&r.op==='+';});if(i<0)return;var order=[i];for(var k=0;k<t._pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.StampFrameCore,s=t.st;for(var j=0;j<4;j++)C.stamp(s,j);C.select(s,'t');for(j=4;j<7;j++)C.stamp(s,j);C.checkStep1(s);t._show1=true;t._paint();})();`;
   }
+  if (row.tool === 'story-stage-activity') {
+    // 7 balloons, 3 pop: the narrator's seven on the ten-frame stage, three tapped away as crossed outlines, the question lit — the invention at rest
+    return `(function(){var t=window['${g}'];if(!t||!t._pool)return;var i=t._pool.findIndex(function(r){return r.kind==='balloon';});if(i<0)return;var order=[i];for(var k=0;k<t._pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();t._clearTimers();t._acting=false;var C=window.StoryStageCore,s=t.st;C.actAll(s);C.tap(s,2);C.tap(s,5);C.tap(s,6);C.ask(s);t._fresh={};t._paint();})();`;
+  }
   if (row.tool === 'place-value-activity') {
     // Add a hundred (no-op if no hundreds place) + a couple tens + a few ones
     // so the columns show blocks and the BUILD readout is non-zero.

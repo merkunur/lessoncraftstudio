@@ -3138,24 +3138,26 @@
     },
     "ten-frame.solve-the-story.k-oa-a-2": {
       "about": [
-        "« 3 oiseaux sont posés sur une branche, 2 autres arrivent — combien y en a-t-il maintenant ? » Une petite histoire apparaît, l'enfant la modélise avec des jetons sur un cadre de dix pour décider s'il faut réunir ou enlever, puis tape la réponse sur le clavier. Cette activité de mathématiques interactive pour la maternelle porte sur les problèmes jusqu'à 10 et se joue dans le navigateur, sans compte.",
-        "Les problèmes sont le moment où les nombres rencontrent le sens. L'enfant doit décider si l'histoire réunit des groupes ou en enlève, ce qui est plus difficile que de recevoir un signe plus ou moins tout fait. Le cadre de dix est une aide pour jouer l'histoire avec des jetons, mais c'est sur le clavier que va la réponse — le travail consiste donc à lire, à choisir l'opération, puis à compter pour être sûr. Une activité idéale en grande section de maternelle."
+        "La scène des histoires transforme un problème en petite pièce de théâtre. « 3 oiseaux sont sur la branche. 2 autres oiseaux arrivent. Combien d’oiseaux y a-t-il maintenant ? » La première ligne se joue toute seule : trois oiseaux arrivent un par un sur une scène qui est un cadre de dix. Puis c’est au tour de l’enfant : il amène lui-même les 2 autres oiseaux depuis la pile. Ce n’est qu’ensuite que la question réveille les touches des nombres. Une activité de mathématiques interactive qui fonctionne dans le navigateur, sans installation.",
+        "L’idée : chaque phrase est une indication de mise en scène, et l’opération vient de ce qui se passe, pas d’un signe. Une histoire où l’on enlève n’a pas de pile : « Il y a 7 ballons dans le ciel. 3 ballons éclatent. » L’enfant touche 3 ballons ; chacun éclate et reste à sa place sous forme de contour pâle barré – ce qu’il y avait et ce qui reste, côte à côte. Dans les histoires où l’on réunit, deux sortes arrivent sur la même scène : 4 oiseaux et 3 lapins, combien d’animaux ? La ligne suivante attend que l’enfant ait fait un geste sur la scène : l’histoire est jouée, pas seulement lue. Un nombre faux rejoue l’histoire avec ses vrais nombres, chaque image numérotée quand elle arrive ou s’en va, et la scène raconte ensuite l’histoire juste – si l’enfant a amené un oiseau de trop, le message le dit. Après une deuxième réponse fausse, les images encore là sont numérotées jusqu’à un point d’interrogation sur la dernière : c’est l’enfant qui dit le nombre.",
+        "Cette activité de grande section est alignée sur les programmes officiels : résoudre des problèmes d’ajout, de retrait et de réunion jusqu’à 10 en les jouant avec des objets. L’enseignant choisit des histoires jusqu’à 5, jusqu’à 10 (par défaut) ou jusqu’à 20, où deux cadres de dix portent des jetons et une image montre ce qu’ils représentent, et active ou non la lecture à voix haute ; sans lecture, chaque ligne attend un instant avant de se jouer. « Invente ton histoire » est le jeu ouvert : une pile, la scène et une histoire qui s’écrit toute seule pendant que l’enfant joue. Ni minuteur, ni score."
       ],
       "practices": [
-        "Lire une petite histoire et décider s'il faut additionner ou soustraire.",
-        "Modéliser un problème avec des jetons sur un cadre de dix.",
-        "Résoudre des situations d'addition et de soustraction jusqu'à 10.",
-        "Taper la réponse à une question concrète portant sur des quantités."
+        "Jouer un problème phrase par phrase",
+        "Ajouter, retirer et réunir jusqu’à 10",
+        "Distinguer ce qui est parti de ce qui est encore là",
+        "Compter le résultat et taper le nombre"
       ],
       "howToPlay": [
-        "Lis le problème, par exemple 3 oiseaux posés et 2 autres qui arrivent.",
-        "Utilise les jetons du cadre de dix pour jouer l'histoire, puis tape combien il y en a sur le clavier et appuie sur Vérifier.",
-        "Pas tout à fait ? Relis l'histoire et réessaie — il n'y a ni chrono ni score."
+        "Lis l’histoire. Sa première ligne se joue toute seule sur la scène.",
+        "Joue ta ligne : touche la pile (ou fais glisser depuis la pile) pour en amener d’autres, ou touche des images pour qu’elles s’en aillent. Puis appuie sur Suivant.",
+        "Compte les images encore sur la scène, tape le nombre sur les touches et appuie sur Vérifier.",
+        "Pas tout à fait ? L’histoire se rejoue avec ses vrais nombres – compte encore. Ni minuteur, ni score."
       ],
       "learningGoals": [
-        "Résoudre des problèmes d'addition et de soustraction jusqu'à 10.",
-        "Choisir la bonne opération à partir du sens de l'histoire.",
-        "Construire les habitudes de résolution de problèmes sur lesquelles s'appuieront les maths plus tard."
+        "Résoudre des problèmes d’ajout, de retrait et de réunion jusqu’à 10",
+        "Comprendre ce qu’une histoire fait à une quantité en la jouant",
+        "Ne compter que ce qui reste quand certains s’en vont"
       ]
     },
     "choice-board.count-sides.k-g-b-4": {

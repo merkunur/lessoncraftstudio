@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Solve the Story — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- ACTIVITY #24 of the one-by-one rebuild — THE STORY STAGE (K.OA.A.2, act out
+       an add-to / take-from / put-together story on a ten-frame stage, then type
+       how many). Shell → library pictures → own core → this activity. Bump ?v=N on
+       EVERY change to story-stage-activity.js / story-stage-core.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  <script src="/mini-tools/lcs-pictures.js?v=1"></script>
+  <script src="/mini-tools/story-stage-core.js?v=1"></script>
+  <script src="/mini-tools/story-stage-activity.js?v=1"></script>
+  <script>
+    LCS.mount(StoryStageActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

@@ -3781,25 +3781,26 @@
     },
     "ten-frame.solve-the-story.k-oa-a-2": {
       "about": [
-        "„3 Vögel sitzen auf einem Ast, 2 weitere landen — wie viele sind es jetzt?“ Eine kleine Geschichte erscheint, das Kind stellt sie mit Plättchen auf dem Zehnerfeld nach, um zu entscheiden, ob es zusammenlegt oder wegnimmt, und tippt dann die Antwort auf dem Zahlenfeld ein. Die interaktive Mathe-Übung für den Kindergarten behandelt Textaufgaben im Zahlenraum bis 10 und läuft im Browser, ohne Konto.",
-        "Bei Textaufgaben treffen Zahlen auf Bedeutung. Das Kind muss entscheiden, ob die Geschichte Gruppen zusammenlegt oder etwas wegnimmt — das ist schwerer, als ein fertiges Plus- oder Minuszeichen vorgesetzt zu bekommen. Das Zehnerfeld ist eine Hilfe, mit der das Kind die Geschichte nachstellen kann, doch die Antwort kommt auf das Zahlenfeld. Die eigentliche Arbeit ist also: lesen, die Rechenart erkennen und dann zur Sicherheit zählen.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Rechenoperationen für den frühen Mathematikunterricht ausgerichtet — Plus- und Minus-Textaufgaben im Zahlenraum bis 10 mit Hilfe von Gegenständen oder Zeichnungen lösen. Es gibt keinen Timer und keine Punktewertung, nur ruhiges, spielerisches Üben."
+        "Bei der Geschichtenbühne wird eine Textaufgabe zu einem kleinen Theaterstück. „3 Vögel sitzen auf einem Ast. 2 weitere Vögel landen dazu. Wie viele Vögel sind es jetzt?“ Die erste Zeile spielt sich selbst: Drei Vögel landen nacheinander auf einer Bühne, die ein Zehnerfeld ist. Dann ist das Kind dran und holt die 2 weiteren Vögel selbst vom Stapel. Erst danach weckt die Frage die Zahlentasten. Eine interaktive Mathe-Aktivität, die im Browser läuft, ohne Installation.",
+        "Das Besondere: Jeder Satz ist eine Regieanweisung, und die Rechenart ergibt sich aus dem, was passiert – nicht aus einem Zeichen. In einer Geschichte zum Wegnehmen gibt es gar keinen Stapel: „7 Luftballons schweben in der Luft. 3 Luftballons platzen.“ Das Kind tippt 3 Ballons an; jeder platzt und bleibt als blasser, durchgestrichener Umriss an seinem Platz – was da war und was übrig ist, nebeneinander. Bei Geschichten zum Zusammenfassen kommen zwei Sorten auf eine Bühne: 4 Vögel und 3 Hasen – wie viele Tiere? Die nächste Zeile wartet, bis das Kind auf der Bühne etwas getan hat – die Geschichte wird also gespielt, nicht nur gelesen. Bei einer falschen Zahl spielt sich die Geschichte noch einmal mit ihren richtigen Zahlen ab, jedes Bild bekommt beim Kommen oder Gehen eine Nummer, und danach erzählt die Bühne die Geschichte richtig – hat das Kind einen Vogel zu viel geholt, sagt der Hinweis das. Nach einer zweiten falschen Antwort werden die Bilder, die noch da sind, bis zu einem Fragezeichen auf dem letzten nummeriert; die Zahl sagt das Kind selbst.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Zahlen und Operationen ausgerichtet – Plus- und Minus-Sachaufgaben bis 10 lösen, indem man sie mit Gegenständen nachspielt. Lehrkräfte wählen Geschichten bis 5, bis 10 (voreingestellt) oder bis 20, wo zwei Zehnerfelder Plättchen tragen und ein Bild zeigt, wofür sie stehen, und schalten das Vorlesen ein oder aus; ohne Vorlesen wartet jede Zeile kurz, bevor sie spielt. „Erzähl deine eigene“ ist das offene Spiel: ein Stapel, die Bühne und eine Geschichte, die sich beim Spielen selbst schreibt. Kein Timer, keine Punkte."
       ],
       "practices": [
-        "Eine kurze Geschichte lesen und entscheiden, ob man addiert oder subtrahiert.",
-        "Eine Textaufgabe mit Plättchen auf dem Zehnerfeld nachstellen.",
-        "Plus- und Minus-Situationen im Zahlenraum bis 10 lösen.",
-        "Die Antwort auf eine alltagsnahe Frage nach Mengen eintippen."
+        "Eine Sachaufgabe Satz für Satz nachspielen",
+        "Dazukommen, Wegnehmen und Zusammenfassen bis 10",
+        "Unterscheiden, was weggegangen ist und was noch da ist",
+        "Das Ergebnis zählen und die Zahl eintippen"
       ],
       "howToPlay": [
-        "Lies die Textaufgabe, zum Beispiel: 3 Vögel sitzen und 2 weitere landen.",
-        "Stelle sie mit Plättchen auf dem Zehnerfeld nach, tippe dann auf dem Zahlenfeld ein, wie viele es sind, und tippe auf Prüfen.",
-        "Noch nicht ganz? Lies die Geschichte noch einmal und probiere es erneut — es gibt keinen Timer und keine Punkte."
+        "Lies die Geschichte. Die erste Zeile spielt sich auf der Bühne von selbst.",
+        "Spiel deine Zeile: Tipp auf den Stapel (oder zieh vom Stapel), um mehr zu holen, oder tipp Dinge an, damit sie weggehen. Dann drück auf Weiter.",
+        "Zähl die Bilder, die noch auf der Bühne sind, tipp die Zahl auf den Tasten ein und drück auf Prüfen.",
+        "Nicht ganz? Die Geschichte spielt noch einmal mit ihren richtigen Zahlen – zähl noch einmal. Kein Timer, keine Punkte."
       ],
       "learningGoals": [
-        "Plus- und Minus-Textaufgaben im Zahlenraum bis 10 lösen.",
-        "Aus der Bedeutung einer Geschichte die richtige Rechenart wählen.",
-        "Die Fähigkeit zum Problemlösen aufbauen, auf der spätere Mathematik beruht."
+        "Plus- und Minus-Sachaufgaben bis 10 lösen: dazukommen, wegnehmen, zusammenfassen",
+        "Durch Nachspielen erkennen, was eine Geschichte mit einer Menge macht",
+        "Nur zählen, was übrig bleibt, nachdem etwas weggegangen ist"
       ]
     },
     "choice-board.count-sides.k-g-b-4": {

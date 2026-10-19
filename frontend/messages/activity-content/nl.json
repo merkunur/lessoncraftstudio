@@ -3979,25 +3979,26 @@
     },
     "ten-frame.solve-the-story.k-oa-a-2": {
       "about": [
-        "'3 vogels zitten op een tak, er landen er 2 bij — hoeveel zijn het er nu?' Er verschijnt een klein verhaaltje, je kind legt het na met fiches op een tienraam om te beslissen of het erbij doen of weghalen is, en typt dan het antwoord op het toetsenblok. Deze interactieve rekenactiviteit voor de kleuterklas behandelt verhaaltjessommen tot 10 en draait zonder account in de browser.",
-        "Bij verhaaltjessommen ontmoeten getallen hun betekenis. Je kind moet beslissen of het verhaal groepen samenvoegt of er iets weghaalt, en dat is lastiger dan een plus- of minteken krijgen aangereikt. Het tienraam is een hulpmiddel om het verhaal mee na te spelen, maar het antwoord gaat naar het toetsenblok — dus het werk is lezen, de bewerking kiezen en dan tellen om zeker te zijn.",
-        "De activiteit sluit aan bij de SLO-kerndoelen voor het jonge kind: optel- en aftrekverhaaltjes tot 10 oplossen met voorwerpen of tekeningen om de som voor te stellen. Ze past bij kinderen in de kleuterklas (groep 1-2). Geen timer, geen score — gewoon rustig lezen en uitzoeken."
+        "Het verhalenpodium maakt van een verhaaltjessom een klein toneelstuk. ‘Er zitten 3 vogels op een tak. Er komen 2 vogels bij. Hoeveel vogels zijn er nu?’ De eerste zin speelt zichzelf: drie vogels landen een voor een op een podium dat een tienraam is. Dan is het kind aan de beurt en haalt de 2 vogels zelf van de stapel. Pas daarna maakt de vraag de cijfertoetsen wakker. Het is een interactieve rekenactiviteit die in de browser werkt, zonder installatie.",
+        "Het idee: elke zin is een regieaanwijzing, dus de bewerking komt uit wat er gebeurt, niet uit een teken. Een verhaal over eraf heeft geen stapel: ‘Je hebt 7 ballonnen. Er knappen 3 ballonnen.’ Het kind tikt op 3 ballonnen; elke ballon knapt en blijft op zijn plek als een bleke, doorgestreepte omtrek – wat er was en wat er over is, naast elkaar. In verhalen over samenvoegen komen twee soorten op één podium: 4 vogels en 3 konijntjes, hoeveel dieren? De volgende zin wacht tot het kind iets op het podium heeft gedaan: het verhaal wordt gespeeld, niet alleen gelezen. Een verkeerd getal speelt het verhaal opnieuw af met de echte getallen, elk plaatje genummerd terwijl het komt of gaat, en daarna vertelt het podium het verhaal goed; heeft het kind een vogel te veel gehaald, dan zegt de aanwijzing dat. Na een tweede verkeerd antwoord worden de plaatjes die er nog zijn genummerd tot een vraagteken op het laatste: het getal zegt het kind zelf.",
+        "De activiteit sluit aan bij de SLO-kerndoelen binnen het domein Getallen en bewerkingen: optel- en aftreksituaties tot 10 oplossen door ze met voorwerpen na te spelen. De leerkracht kiest verhalen tot en met 5, tot en met 10 (standaard) of tot en met 20, waar twee tienramen fiches dragen en een plaatje laat zien waar ze voor staan, en zet het voorlezen aan of uit; zonder voorlezen wacht elke zin even voordat hij speelt. ‘Verzin je eigen verhaal’ is het open spel: een stapel, het podium en een verhaal dat zichzelf schrijft terwijl het kind speelt. Geen timer, geen score."
       ],
       "practices": [
-        "Een kort verhaaltje lezen en beslissen of je optelt of aftrekt",
-        "Een verhaaltjessom naleggen met fiches op een tienraam",
-        "Optel- en aftreksituaties tot 10 oplossen",
-        "Het antwoord typen op een echte vraag over hoeveelheden"
+        "Een verhaaltjessom zin voor zin naspelen",
+        "Erbij, eraf en samenvoegen tot 10",
+        "Onderscheiden wat weg is en wat er nog is",
+        "De uitkomst tellen en het getal typen"
       ],
       "howToPlay": [
-        "Lees het verhaaltje, bijvoorbeeld 3 vogels zitten en er landen er 2 bij.",
-        "Gebruik fiches op het tienraam om het na te spelen, typ dan op het toetsenblok hoeveel het er zijn en druk op Controleer.",
-        "Niet goed? Lees het verhaaltje nog eens en probeer opnieuw — er is geen timer en geen score."
+        "Lees het verhaal. De eerste zin speelt zichzelf op het podium.",
+        "Speel jouw zin: tik op de stapel (of sleep ervan) om er meer te halen, of tik op plaatjes zodat ze weggaan. Druk dan op Verder.",
+        "Tel de plaatjes die nog op het podium staan, typ het getal op de toetsen en druk op Controleer.",
+        "Nog niet goed? Het verhaal speelt opnieuw met de echte getallen – tel nog eens. Geen timer, geen score."
       ],
       "learningGoals": [
-        "Je kind lost optel- en aftrekverhaaltjes tot 10 op.",
-        "Je kind kiest de juiste bewerking op basis van de betekenis van het verhaal.",
-        "Je kind bouwt de probleemoplossende gewoontes op waar latere rekenkunde op steunt."
+        "Verhaaltjessommen over erbij, eraf en samenvoegen tot 10 oplossen",
+        "Door naspelen begrijpen wat een verhaal met een hoeveelheid doet",
+        "Alleen tellen wat er over is als er een paar weggaan"
       ]
     },
     "choice-board.pick-bigger.k-c-c-7": {

@@ -1,0 +1,65 @@
+[
+ {
+  "id": "ten-frame.solve-the-story.k-oa-a-2",
+  "tool": "story-stage-activity",
+  "task_template": "story-stage",
+  "alignment": {
+   "framework": "CCSS",
+   "code": "K.OA.A.2",
+   "grade": "K",
+   "strand": "Operations & Algebraic Thinking"
+  },
+  "params": {
+   "levels": [
+    "within5",
+    "within10",
+    "within20"
+   ],
+   "default_level": "within10",
+   "reads": [
+    "on",
+    "off"
+   ]
+  },
+  "theme": null,
+  "slug": {
+   "en": "solve-the-story",
+   "de": "textaufgaben-bis-10",
+   "es": "problemas-de-sumar-y-restar-hasta-10",
+   "it": "problemi-addizione-sottrazione-entro-10",
+   "pt": "problemas-de-adicao-e-subtracao-ate-10",
+   "fr": "problemes-additions-soustractions-jusqu-a-10",
+   "nl": "verhaaltjessommen-tot-10",
+   "sv": "rakna-ut-textuppgifter-inom-10",
+   "da": "regnehistorier-inden-for-10",
+   "no": "tekstoppgaver-innenfor-10",
+   "fi": "sanalliset-tehtavat-kymppiin"
+  },
+  "page_title": {
+   "en": "Solve the Story — Add & Subtract Word Problems on a Ten Frame",
+   "de": "Rechnen in der Vorschule – Aufgaben bis 10 online üben",
+   "es": "Problemas de Sumar y Restar Hasta 10",
+   "it": "Problemi di Addizione e Sottrazione Entro il 10",
+   "pt": "Problemas de Adição e Subtração até 10 no Quadro de Dez",
+   "fr": "Problèmes de maths CP – exercice en ligne (jusqu'à 10)",
+   "nl": "Verhaaltjessommen Tot 10 Op Het Tienraam",
+   "sv": "Räkna ut textuppgifter inom 10",
+   "da": "Regnehistorier Inden For 10",
+   "no": "Tekstoppgaver Innenfor 10",
+   "fi": "Sanalliset Tehtävät Kymppiin"
+  },
+  "page_intro": {
+   "en": "Solve addition and subtraction word problems within 10 using a ten-frame. Read each short story — like \"3 birds sit, 2 more land, how many now?\" — place counters on the frame to model it, then type how many there are. Aligned to Common Core K.OA.A.2 — solve word problems with objects and drawings.",
+   "de": "Rechnen für die Vorschule: kleine Textaufgaben bis 10 mit dem Zehnerfeld lösen – Plus und Minus anschaulich. Online, ohne Anmeldung.",
+   "es": "Resuelve problemas verbales de sumar y restar hasta el número 10 usando un marco de diez. Los niños leen una situación cercana y amable, mueven las fichas y descubren cuántos hay en total o cuántos quedan. Una práctica de cálculo mental temprano alineada a los planes y programas de estudio de la SEP.",
+   "it": "Risolvi semplici problemi di addizione e sottrazione entro il 10 usando la tabella del dieci. Ogni storia accompagna i bambini a contare, aggiungere e togliere con immagini chiare e un tono sereno. Attività allineata alle Indicazioni nazionali.",
+   "pt": "Nesta atividade, as crianças resolvem problemas de palavras de adição e subtração até 10 usando um quadro de dez para representar e contar as quantidades. Cada história convida a criança a ler a situação, montar os números no quadro e descobrir quantos sobraram ou quantos há ao todo. Atividade alinhada à BNCC para a Educação Infantil.",
+   "fr": "Petits problèmes de maths CP en ligne : additions et soustractions jusqu'à 10 en images. En ligne, sans inscription.",
+   "nl": "Op deze pagina oefenen kleuters met eenvoudige verhaaltjessommen: optellen en aftrekken tot 10 met behulp van een tienraam. De kinderen lezen een herkenbaar verhaaltje, leggen de hoeveelheden op het tienraam en zoeken samen het antwoord. Deze oefening is afgestemd op de SLO-kerndoelen voor het jonge kind.",
+   "sv": "Lös addition och subtraktion i textuppgifter inom 10 med hjälp av en tioram. Barnet läser en kort vardagshändelse, fyller i tioramen och räknar ut svaret steg för steg. Övningen är anpassad till Lgr22.",
+   "da": "Øv dig i at løse regnehistorier med plus og minus inden for 10 ved hjælp af en tierramme. Børnene læser en lille historie, lægger tællebrikker på tierrammen og finder svaret ved at tælle med og tælle væk. Aktiviteten er tilpasset Fælles Mål for matematik i børnehaveklassen.",
+   "no": "Øv på å løse tekstoppgaver med addisjon og subtraksjon innenfor 10 ved hjelp av en tierramme. Barnet leser en liten fortelling, finner tallene og regner ut svaret med tierrammen som støtte. Aktiviteten er tilpasset kompetansemålene i matematikk i Læreplanverket LK20.",
+   "fi": "Ratkaise yhteen- ja vähennyslaskujen sanallisia tehtäviä kymppiin asti kymmenruudukon ja laskupalikoiden avulla. Lapsi lukee lyhyen tarinan, asettaa laskupalikat kymmenruudukkoon ja löytää vastauksen konkreettisesti laskemalla. Tehtävät ovat OPS 2014 -opetussuunnitelman mukaisia."
+  }
+ }
+]

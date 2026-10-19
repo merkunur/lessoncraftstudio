@@ -1052,25 +1052,26 @@
     },
     "ten-frame.solve-the-story.k-oa-a-2": {
       "about": [
-        "«3 fugler sitter på en gren, 2 til lander — hvor mange er det nå?» En liten fortelling dukker opp, barnet viser den med brikker på en tierramme for å avgjøre om noe skal legges til eller tas bort, og taster så svaret på tastaturet. Denne interaktive matteaktiviteten for barnehage og skolestart dekker tekstoppgaver innenfor 10 og kjører i nettleseren — uten konto.",
-        "Tekstoppgaver er der tallene møter mening. Barnet må avgjøre om fortellingen legger grupper sammen eller tar noe bort, og det er vanskeligere enn å få utdelt et pluss- eller minustegn. Tierrammen er en hjelp barnet kan bruke til å spille fortellingen ut, men svaret skrives på tastaturet — så arbeidet er å lese, velge regnearten og deretter telle for å være sikker.",
-        "Aktiviteten følger LK20 innenfor addisjon og subtraksjon — å løse tekstoppgaver innenfor 10 ved å bruke ting eller tegninger til å vise oppgaven. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "Fortellingsscenen gjør en tekstoppgave om til et lite teaterstykke. «Det sitter 3 fugler på grenen. 2 fugler til lander. Hvor mange fugler er det nå?» Den første linjen spiller seg selv: tre fugler lander én etter én på en scene som er en tierramme. Så er det barnets tur – barnet henter selv de 2 fuglene fra bunken. Først da vekker spørsmålet talltastene. Det er en interaktiv matteaktivitet som går i nettleseren uten installasjon.",
+        "Ideen er at hver setning er en sceneanvisning, så regneoperasjonen kommer av det som skjer, ikke av et tegn. En fortelling om å ta bort har ingen bunke: «Du har 7 ballonger. 3 ballonger sprekker.» Barnet trykker på 3 ballonger; hver ballong sprekker og blir stående på plassen sin som et blekt, overstreket omriss – det som var der og det som er igjen, side om side. I fortellinger om å legge sammen kommer to slag opp på samme scene: 4 fugler og 3 kaniner, hvor mange dyr? Neste linje venter til barnet har gjort noe på scenen – fortellingen blir spilt, ikke bare lest. Et feil tall spiller fortellingen på nytt med de riktige tallene, hvert bilde nummerert mens det kommer eller går, og etterpå forteller scenen historien riktig; har barnet hentet én fugl for mye, sier hintet det. Etter et nytt feil svar blir bildene som fortsatt er der, nummerert fram til et spørsmålstegn på det siste – tallet sier barnet selv.",
+        "Aktiviteten følger LK20 i matematikk – å løse tekstoppgaver med addisjon og subtraksjon innenfor 10 ved å spille dem med gjenstander. Læreren velger fortellinger opp til 5, opp til 10 (standard) eller opp til 20, der to tierrammer har brikker og et bilde viser hva de står for, og slår opplesing av eller på; uten opplesing venter hver linje litt før den spilles. «Lag din egen» er den åpne leken: en bunke, scenen og en fortelling som skriver seg selv mens barnet leker. Ingen tidtaker og ingen poeng."
       ],
       "practices": [
-        "Lese en kort fortelling og avgjøre om man skal legge til eller trekke fra.",
-        "Vise en tekstoppgave med brikker på en tierramme.",
-        "Løse addisjons- og subtraksjonssituasjoner innenfor 10.",
-        "Taste svaret på et virkelig spørsmål om antall."
+        "Spille en tekstoppgave setning for setning",
+        "Legge til, ta bort og legge sammen innenfor 10",
+        "Skille mellom det som gikk bort og det som er igjen",
+        "Telle resultatet og skrive tallet"
       ],
       "howToPlay": [
-        "Les tekstoppgaven, som at 3 fugler sitter og 2 til lander.",
-        "Bruk brikker på tierrammen til å spille den ut, tast så inn hvor mange det er på tastaturet, og trykk på Sjekk.",
-        "Ikke helt riktig? Les fortellingen på nytt og prøv igjen — det er ingen tidtaker og ingen poeng."
+        "Les fortellingen. Den første linjen spiller seg selv på scenen.",
+        "Spill linjen din: trykk på bunken (eller dra fra den) for å hente flere, eller trykk på ting så de forsvinner. Trykk så på Neste.",
+        "Tell bildene som fortsatt er på scenen, skriv tallet med tastene og trykk på Sjekk.",
+        "Ikke helt? Fortellingen spilles på nytt med de riktige tallene – tell en gang til. Ingen tidtaker og ingen poeng."
       ],
       "learningGoals": [
-        "Barnet kan løse tekstoppgaver med addisjon og subtraksjon innenfor 10.",
-        "Barnet kan velge riktig regneart ut fra meningen i en fortelling.",
-        "Barnet bygger problemløsningsvanene som senere matematikk hviler på."
+        "Løse tekstoppgaver om å legge til, ta bort og legge sammen innenfor 10",
+        "Forstå ved å spille hva en fortelling gjør med en mengde",
+        "Bare telle det som er igjen når noen går bort"
       ]
     },
     "choice-board.count-sides.k-g-b-4": {

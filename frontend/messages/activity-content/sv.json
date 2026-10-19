@@ -1153,25 +1153,26 @@
     },
     "ten-frame.solve-the-story.k-oa-a-2": {
       "about": [
-        "\"3 fåglar sitter på en gren, 2 till landar — hur många är de nu?\" En liten berättelse visas, barnet gestaltar den med markörer på en tioram för att avgöra om något ska läggas till eller tas bort, och skriver sedan svaret på knappsatsen. Det är en interaktiv matteövning för förskoleklass med textuppgifter inom 10, som körs i webbläsaren utan konto.",
-        "Textuppgifter är där talen möter mening. Barnet måste avgöra om berättelsen lägger ihop grupper eller tar bort några, vilket är svårare än att få ett färdigt plus- eller minustecken. Tioramen är ett stöd som barnet kan använda för att spela upp berättelsen, men svaret skrivs på knappsatsen — så arbetet handlar om att läsa, välja räknesätt och sedan räkna för att vara säker.",
-        "Aktiviteten följer Lgr22 inom området räknesätt: att lösa textuppgifter med addition och subtraktion inom 10 med hjälp av föremål eller bilder. Ingen timer och inga poäng — bara lugn och lekfull övning."
+        "Berättelsescenen gör en textuppgift till en liten teaterpjäs. ”3 fåglar sitter på en gren. 2 fåglar till landar. Hur många fåglar är det nu?” Den första raden spelar sig själv: tre fåglar landar en i taget på en scen som är en tioram. Sedan är det barnets tur – barnet hämtar själv de 2 fåglarna från högen. Först därefter väcker frågan siffertangenterna. Det är en interaktiv matteaktivitet som fungerar i webbläsaren utan installation.",
+        "Idén är att varje mening är en scenanvisning, så räknesättet kommer ur det som händer, inte ur ett tecken. En berättelse om att ta bort har ingen hög: ”Du har 7 ballonger. 3 ballonger spricker.” Barnet trycker på 3 ballonger; varje ballong spricker och blir kvar på sin plats som en blek, överstruken kontur – det som fanns och det som är kvar, sida vid sida. I berättelser om att lägga ihop kommer två sorter till samma scen: 4 fåglar och 3 kaniner, hur många djur? Nästa rad väntar tills barnet har gjort något på scenen – berättelsen spelas, den läses inte bara. Ett fel tal spelar upp berättelsen igen med de riktiga talen, varje bild numrerad när den kommer eller går, och sedan berättar scenen historien rätt; har barnet hämtat en fågel för mycket säger tipset det. Efter ett andra fel svar numreras bilderna som är kvar fram till ett frågetecken på den sista – talet säger barnet själv.",
+        "Aktiviteten följer Lgr22 – att lösa problem med addition och subtraktion inom 10 genom att spela upp dem med föremål. Läraren väljer berättelser upp till 5, upp till 10 (förval) eller upp till 20, där två tioramar har brickor och en bild visar vad de står för, och slår på eller av uppläsningen; utan uppläsning väntar varje rad en stund innan den spelas. ”Hitta på en egen” är den öppna leken: en hög, scenen och en berättelse som skriver sig själv medan barnet leker. Ingen timer och inga poäng."
       ],
       "practices": [
-        "Läsa en kort berättelse och avgöra om man ska addera eller subtrahera",
-        "Gestalta en textuppgift med markörer på en tioram",
-        "Lösa additions- och subtraktionssituationer inom 10",
-        "Skriva svaret på en vardagsfråga om antal"
+        "Spela upp en textuppgift mening för mening",
+        "Lägga till, ta bort och lägga ihop inom 10",
+        "Skilja på det som gick bort och det som är kvar",
+        "Räkna resultatet och skriva talet"
       ],
       "howToPlay": [
-        "Barnet läser textuppgiften, till exempel att 3 fåglar sitter och 2 till landar.",
-        "Det använder markörer på tioramen för att spela upp händelsen, skriver sedan hur många de är på knappsatsen och trycker på Kontrollera.",
-        "Blev det inte rätt? Läs berättelsen igen och försök på nytt — det finns ingen timer och inga poäng."
+        "Läs berättelsen. Den första raden spelar sig själv på scenen.",
+        "Spela din rad: tryck på högen (eller dra från den) för att hämta fler, eller tryck på saker så att de försvinner. Tryck sedan på Nästa.",
+        "Räkna bilderna som är kvar på scenen, skriv talet med tangenterna och tryck på Kontrollera.",
+        "Inte riktigt? Berättelsen spelas igen med de riktiga talen – räkna en gång till. Ingen timer och inga poäng."
       ],
       "learningGoals": [
-        "Barnet kan lösa textuppgifter med addition och subtraktion inom 10",
-        "Barnet kan välja rätt räknesätt utifrån vad berättelsen betyder",
-        "Barnet bygger de problemlösningsvanor som senare matematik vilar på"
+        "Lösa textuppgifter om att lägga till, ta bort och lägga ihop inom 10",
+        "Förstå genom att spela vad en berättelse gör med en mängd",
+        "Bara räkna det som är kvar när några går bort"
       ]
     },
     "choice-board.count-sides.k-g-b-4": {

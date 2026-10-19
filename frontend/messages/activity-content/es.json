@@ -3336,25 +3336,26 @@
     },
     "ten-frame.solve-the-story.k-oa-a-2": {
       "about": [
-        "«3 pájaros están en una rama y llegan 2 más, ¿cuántos hay ahora?» Aparece un cuento corto, el niño o la niña lo representa con fichas en un marco de diez para decidir si junta o quita, y luego escribe la respuesta en el teclado. Esta actividad de matemáticas para preescolar, interactiva, trabaja problemas verbales hasta 10 y se juega en el navegador, sin crear cuenta.",
-        "Los problemas verbales son donde los números cobran sentido. El niño o la niña tiene que decidir si el cuento junta grupos o quita algunos, lo cual es más difícil que recibir un signo de más o de menos. El marco de diez es un apoyo para representar y actuar la situación, pero la respuesta se escribe en el teclado, así que el trabajo está en leer, decidir la operación y luego contar para estar seguro.",
-        "Está pensada para el nivel de preescolar o kínder, en el eje de operaciones de los planes y programas de estudio (SEP): resolver problemas verbales de suma y resta hasta 10 usando objetos o dibujos para representar el problema. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+        "El escenario de los cuentos convierte un problema en una pequeña obra de teatro. «3 pájaros están en el árbol. Llegan 2 pájaros más. ¿Cuántos pájaros hay ahora?» La primera línea se actúa sola: tres pájaros llegan uno por uno a un escenario que es un marco de diez. Luego le toca al niño: él mismo trae los 2 pájaros más desde la pila. Solo entonces la pregunta despierta las teclas de números. Es una actividad interactiva de matemáticas que funciona en el navegador, sin instalar nada.",
+        "La idea es que cada oración es una indicación de escena, así que la operación sale de lo que pasa, no de un signo. Un cuento de quitar no tiene pila: «Tienes 7 globos. Se revientan 3 globos.» El niño toca 3 globos; cada uno se revienta y se queda en su lugar como un contorno pálido tachado: lo que había y lo que queda, uno junto al otro. En los cuentos de juntar llegan dos tipos al mismo escenario: 4 pájaros y 3 conejos, ¿cuántos animales hay? La línea siguiente espera a que el niño haga algo en el escenario: el cuento se actúa, no solo se lee. Un número equivocado repite el cuento con sus números verdaderos, cada dibujo numerado cuando llega o se va, y después el escenario cuenta bien la historia; si el niño trajo un pájaro de más, el aviso lo dice. Tras una segunda respuesta equivocada, los dibujos que siguen ahí se numeran hasta un signo de interrogación en el último: el número lo dice el niño.",
+        "Está alineada con los planes y programas de estudio (SEP): resolver problemas de agregar, quitar y juntar hasta 10 actuándolos con objetos. El maestro elige cuentos hasta 5, hasta 10 (por defecto) o hasta 20, donde dos marcos de diez llevan fichas y un dibujo muestra qué representan, y activa o desactiva la lectura en voz alta; sin ella, cada línea espera un momento antes de actuarse. «Inventa tu cuento» es el juego abierto: una pila, el escenario y un cuento que se escribe solo mientras el niño juega. Sin temporizador y sin puntuación."
       ],
       "practices": [
-        "Leer un cuento corto y decidir si hay que sumar o restar.",
-        "Representar un problema verbal con fichas en un marco de diez.",
-        "Resolver situaciones de suma y resta hasta 10.",
-        "Escribir la respuesta a una pregunta real sobre cantidades."
+        "Actuar un problema oración por oración",
+        "Agregar, quitar y juntar hasta 10",
+        "Distinguir lo que se fue de lo que sigue ahí",
+        "Contar el resultado y escribir el número"
       ],
       "howToPlay": [
-        "Lee el problema, por ejemplo: 3 pájaros están en la rama y llegan 2 más.",
-        "Usa las fichas del marco de diez para representarlo, luego escribe cuántos hay en el teclado y pulsa Comprobar.",
-        "¿No salió a la primera? Vuelve a leer el cuento e inténtalo de nuevo: no hay temporizador ni puntuación."
+        "Lee el cuento. Su primera línea se actúa sola en el escenario.",
+        "Actúa tu línea: toca la pila (o arrastra desde ella) para traer más, o toca dibujos para que se vayan. Luego presiona Siguiente.",
+        "Cuenta los dibujos que siguen en el escenario, escribe el número con las teclas y presiona Comprobar.",
+        "¿Todavía no? El cuento se repite con sus números verdaderos: cuenta otra vez. Sin temporizador y sin puntuación."
       ],
       "learningGoals": [
-        "Resolver problemas verbales de suma y resta hasta 10.",
-        "Elegir la operación correcta a partir del sentido del cuento.",
-        "Construir los hábitos de resolución de problemas en los que se apoyan las matemáticas posteriores."
+        "Resolver problemas de agregar, quitar y juntar hasta 10",
+        "Entender, actuándolo, qué le hace un cuento a una cantidad",
+        "Contar solo lo que queda cuando algunos se van"
       ]
     },
     "choice-board.count-sides.k-g-b-4": {

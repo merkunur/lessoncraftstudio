@@ -17,6 +17,12 @@
    ===================================================================== */
 'use strict';
 const fs = require('fs');
+/* RETIRED 2026-10-19: the K.OA.A.2 row left ten-frame-activities.json for its own instrument (rebuild #24, the
+   Story Stage). Its gates are scripts/verify-story-stage-core.js + mutate-story-stage.js + local-test-story-stage.js. */
+if (!JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'ten-frame-activities.json'), 'utf8')).some((r) => r.id === 'ten-frame.solve-the-story.k-oa-a-2')) {
+  console.log('verify-ten-frame-storyproblem: retired — the row is now the Story Stage (node scripts/verify-story-stage-core.js)');
+  process.exit(0);
+}
 const path = require('path');
 
 const VARIETY_MIN = 7;

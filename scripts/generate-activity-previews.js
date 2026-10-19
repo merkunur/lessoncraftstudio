@@ -167,6 +167,10 @@ function seedScript(row) {
     // any way 10: the 6 snaked in round the bend and the 4 on its way — two strands, both threads, nine cups filled and the lid about to shut
     return `(function(){var t=window['${g}'];if(!t||!t._pool)return;t.FAST=true;var i=t._pool.findIndex(function(r){return r.kind==='any'&&r.n===10;});if(i<0)return;var order=[i];for(var k=0;k<t._pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.SnakeLunchCore,s=t.st;C.drop(s,s.strands.find(function(x){return x.k===6;}).id);C.drop(s,s.strands.find(function(x){return x.k===3;}).id);t._paint();})();`;
   }
+  if (row.tool === 'lantern-string-activity') {
+    // make 5: 1 + 4 already hanging on the garland as two lanterns, the 3 plugged in and lighting three bulbs from the left — the invention at rest
+    return `(function(){var t=window['${g}'];if(!t||!t._pool)return;t.FAST=true;var i=t._pool.findIndex(function(r){return r.kind==='pair'&&r.n===5;});if(i<0)return;var order=[i];for(var k=0;k<t._pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.LanternStringCore,s=t.st,id=function(v){return s.cards.find(function(c){return c.v===v&&!c.found;}).id;};C.plug(s,id(1));C.plug(s,id(4));C.plug(s,id(3));t._show=null;t._showNote=null;t._paint();})();`;
+  }
   if (row.tool === 'place-value-activity') {
     // Add a hundred (no-op if no hundreds place) + a couple tens + a few ones
     // so the columns show blocks and the BUILD readout is non-zero.

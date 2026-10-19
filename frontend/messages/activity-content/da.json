@@ -727,25 +727,26 @@
     },
     "match-pairs.make-the-number.k-oa-a-3": {
       "about": [
-        "Et måltal dukker op — fx 5 — og barnet finder de talpar, der tilsammen bliver netop det tal, som 1 og 4 eller 2 og 3, ved at trykke på ét tal og derefter på dets makker, så parret bliver forbundet. Det er et interaktivt talspil til børnehaveklassen, der spilles direkte i browseren — uden at installere noget og uden konto.",
-        "Den store idé er, at ét tal kan laves på mere end én måde. Med måltallet 7 kan barnet forbinde 0 og 7 og derefter 3 og 4 og opdage, at det samme i alt har flere forskellige par. Fordi aktiviteten beder om de par, der laver måltallet, og ikke om ét enkelt rigtigt svar, opbygger den stille og roligt den del-helhed-forståelse, som al senere addition hviler på.",
-        "Aktiviteten følger Fælles Mål inden for tal og algebra: at opdele tal op til 10 i par på flere forskellige måder. Der er ingen timer og ingen point — bare rolig, legende træning i børnehaveklassen."
+        "Måltallet er en lyskæde med præcis så mange pærer, med et lille mellemrum efter den femte. Når barnet trykker på et tal, løber koralrødt lys hen ad kæden fra venstre; når det trykker på makkeren, kommer turkist lys ind fra højre. Mødes de to lys præcis, lyser hele kæden op i guld, og parret hænger på guirlanden ovenover som to papirlygter. Det er en interaktiv matematikaktivitet til børnehaveklassen, der kører i browseren uden installation.",
+        "Det særlige er, at de to lys måler hinanden, så et forkert par viser sin egen fejl. På kæden med 8 får 4 og 5 én pære til at lyse dobbelt, og den blinker; 2 og 5 efterlader én pære mørk. Et lys, der er længere end kæden, fortsætter forbi den anden ende. Pærerne, der er for mange eller for få, nummererer sig selv, så barnet ser, hvor meget et forsøg rammer ved siden af, og ikke kun at det er forkert. På et bræt ligger hvert par af tallet én gang, og guirlanden har en stiplet krog til hvert par, der mangler. I andre runder er den ene del allerede sat i, og barnet finder makkeren (7 og 3 giver 10), eller begge dele er sat i, men kæden mangler: Barnet vælger, hvor lang kæden er, og tænder den så — 4 og 3 giver 7.",
+        "Aktiviteten følger Fælles Mål inden for tal og algebra: at opdele tal op til 10 i to dele på flere forskellige måder. Læreren vælger Op til 5 (forvalgt), 6 til 9 eller Lav 10 og kan slå prikker på kortene til, så hvert kort også viser sit tal som prikker. Lysværkstedet er åben leg: en hvilken som helst kæde fra 2 til 10 og to tal efter eget valg fra 1 til 9. Ingen timer, ingen point."
       ],
       "practices": [
-        "Finde to tal, der tilsammen bliver et måltal op til 10",
-        "Opdage mere end ét par, der laver det samme tal",
-        "Opbygge del-helhed-forståelse af små tal",
-        "Forbinde et tal med den makker, der gør det samlede antal færdigt"
+        "At lave et tal op til 10 af to dele på flere måder",
+        "At se, hvor meget to dele er for mange eller for få",
+        "At finde den manglende del og helheden",
+        "At læse hvert par som en ligning, fx 3 + 7 = 10"
       ],
       "howToPlay": [
-        "Barnet kigger på rundens måltal, fx 6.",
-        "Barnet trykker på et tal og derefter på dets makker, der tilsammen bliver måltallet, og ser parret blive forbundet.",
-        "Find alle de par, der laver måltallet — der er ingen timer og ingen point, så tag dig god tid."
+        "Se på tallet på kædens mærkat, og tæl pærerne, hvis du vil.",
+        "Tryk på et tal og så på makkeren. Det første tænder kæden fra venstre, det andet fra højre.",
+        "Når lysene mødes præcis, hænger parret på guirlanden. Find alle par på brættet.",
+        "I nogle runder vælger du makkeren blandt fire kort eller vælger, hvor lang kæden er, og trykker så på »Tænd«. Ingen timer, ingen point."
       ],
       "learningGoals": [
-        "Barnet kan opdele tal op til 10 i par på flere forskellige måder",
-        "Barnet kan forstå, at et tal er bygget af mindre dele",
-        "Barnet kan lægge det del-helhed-fundament, der bruges til addition og subtraktion"
+        "Barnet kan opdele tal op til 10 i to dele på flere forskellige måder",
+        "Barnet læser hvert par som en ligning, fx 3 + 7 = 10",
+        "Barnet lærer tier-vennerne"
       ]
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {

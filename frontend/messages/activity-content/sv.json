@@ -609,25 +609,26 @@
     },
     "match-pairs.make-the-number.k-oa-a-3": {
       "about": [
-        "Ett måltal visas — säg 5 — och barnet hittar de talpar som tillsammans blir det, som 1 och 4 eller 2 och 3, genom att trycka på ett tal och sedan på dess kompis så att paret kopplas ihop. Det är ett interaktivt parspel med tal för förskoleklass som spelas direkt i webbläsaren — utan installation och utan konto.",
-        "Den stora idén är att ett tal kan göras på mer än ett sätt. Med måltalet 7 kan barnet koppla ihop 0 och 7, sedan 3 och 4, och upptäcka att samma summa har flera par. Eftersom aktiviteten frågar efter de par som blir måltalet och inte efter ett enda rätt svar, byggs den känsla för del–del–helhet som all senare addition vilar på.",
-        "Aktiviteten är anpassad till Lgr22 inom taluppfattning: att dela upp tal upp till 10 i par på flera olika sätt. Den här interaktiva övningen passar förskoleklass. Ingen timer, inga poäng — bara lugn, lekfull träning."
+        "Måltalet är en ljusslinga med precis så många lampor, med ett litet mellanrum efter den femte. När barnet trycker på ett tal löper korallrött ljus längs slingan från vänster; när det trycker på kompisen kommer turkost ljus in från höger. Möts de två ljusen precis lyser hela slingan i guld, och paret hamnar på girlangen ovanför som två papperslyktor. Det är en interaktiv matteaktivitet för förskoleklass som körs i webbläsaren utan installation.",
+        "Det nya är att de två ljusen mäter varandra, så ett felaktigt par visar sitt eget fel. På slingan med 8 får 4 och 5 en lampa att lysa dubbelt, och den flimrar; 2 och 5 lämnar en lampa mörk. Ett ljus som är längre än slingan fortsätter förbi den andra änden. Lamporna som är för många eller för få numrerar sig själva, så barnet ser hur många det skiljer och inte bara att det är fel. På ett bräde finns varje par av talet en enda gång, och girlangen har en streckad krok för varje par som återstår. I andra omgångar är en del redan inkopplad och barnet letar efter kompisen (7 och 3 blir 10), eller så är båda delarna inkopplade men slingan saknas: barnet väljer hur lång slingan är och tänder den sedan — 4 och 3 blir 7.",
+        "Aktiviteten är anpassad till Lgr22 inom taluppfattning: att dela upp tal upp till 10 i två delar på flera olika sätt. Läraren väljer Upp till 5 (förvalt), 6 till 9 eller Bilda 10 och kan slå på prickar på korten, så att varje kort också visar sitt tal som prickar. Lampverkstaden är öppen lek: vilken slinga som helst från 2 till 10 och två valfria tal från 1 till 9. Ingen timer, inga poäng."
       ],
       "practices": [
-        "Hitta två tal som tillsammans blir ett måltal upp till 10",
-        "Upptäcka mer än ett par som blir samma tal",
-        "Bygga förståelse för del–del–helhet hos små tal",
-        "Para ihop ett tal med den kompis som fyller upp till summan"
+        "Bilda ett tal upp till 10 av två delar på flera sätt",
+        "Se hur mycket två delar är för många eller för få",
+        "Hitta den saknade delen och helheten",
+        "Läsa varje par som en likhet, till exempel 3 + 7 = 10"
       ],
       "howToPlay": [
-        "Titta på rundans måltal, till exempel 6.",
-        "Tryck på ett tal, sedan på den kompis som tillsammans blir måltalet, och se hur paret kopplas ihop.",
-        "Hitta alla par som blir måltalet — det finns ingen timer och inga poäng, så ta den tid du behöver."
+        "Titta på talet på slingans lapp och räkna lamporna om du vill.",
+        "Tryck på ett tal och sedan på kompisen. Det första tänder slingan från vänster, det andra från höger.",
+        "När ljusen möts precis hänger paret på girlangen. Hitta alla par på brädet.",
+        "I vissa omgångar väljer du kompisen bland fyra kort eller väljer hur lång slingan är, och trycker sedan på ”Tänd”. Ingen timer, inga poäng."
       ],
       "learningGoals": [
-        "Barnet kan dela upp tal upp till 10 i par på flera olika sätt",
-        "Barnet förstår att ett tal är uppbyggt av mindre delar",
-        "Barnet lägger den grund för del–del–helhet som addition och subtraktion bygger på"
+        "Barnet kan dela upp tal upp till 10 i två delar på flera olika sätt",
+        "Barnet läser varje par som en likhet, till exempel 3 + 7 = 10",
+        "Barnet lär sig tiokompisarna"
       ]
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {

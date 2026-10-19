@@ -3225,26 +3225,26 @@
     },
     "match-pairs.make-the-number.k-oa-a-3": {
       "about": [
-        "Eine Zielzahl erscheint – sagen wir 5 – und das Kind sucht die Zahlenpaare, die zusammen diese Zahl ergeben, etwa 1 und 4 oder 2 und 3. Es tippt auf eine Zahl, dann auf ihren Partner, und die beiden verbinden sich. Dieses interaktive Zahlen-Zuordnungsspiel für den Kindergarten läuft direkt im Browser – ohne Installation und ohne Konto.",
-        "Die wichtige Idee: Eine Zahl lässt sich auf mehr als eine Weise zusammensetzen. Bei der Zielzahl 7 kann ein Kind 0 und 7 verbinden und dann 3 und 4 – und entdeckt, dass dieselbe Gesamtzahl mehrere Partnerpaare hat. Weil die Aktivität nach allen Paaren fragt, die das Ziel ergeben, und nicht nach einer einzigen richtigen Antwort, baut sie ganz nebenbei das Teil-Teil-Ganzes-Verständnis auf, auf dem jede spätere Addition ruht.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Operationen ausgerichtet – Zahlen bis 10 auf verschiedene Weise in Paare zerlegen. Es gibt keinen Timer und keine Punktewertung – nur ruhiges, spielerisches Üben."
+        "Die Zielzahl ist eine Lichterkette mit genau so vielen Lämpchen, mit einer kleinen Lücke nach dem fünften. Tippt das Kind auf eine Zahl, läuft korallenrotes Licht von links die Kette entlang; tippt es auf die Partnerzahl, läuft türkises Licht von rechts herein. Treffen sich die beiden Lichter genau, leuchtet die ganze Kette golden auf, und das Paar hängt als zwei Papierlaternen an der Girlande darüber. Eine interaktive Mathe-Aktivität für die Vorschule, die direkt im Browser läuft, ohne Installation.",
+        "Das Besondere: Die beiden Lichter messen sich gegenseitig, also zeigt ein falsches Paar seinen eigenen Fehler. Auf der Kette mit 8 leuchtet bei 4 und 5 ein Lämpchen doppelt und flackert; bei 2 und 5 bleibt eines dunkel. Ein Licht, das länger ist als die Kette, läuft über das andere Ende hinaus. Die überzähligen oder fehlenden Lämpchen nummerieren sich dann selbst, sodass das Kind sieht, um wie viel ein Versuch daneben liegt, und nicht nur, dass er falsch ist. Auf einem Spielfeld liegt jedes Paar seiner Zahl genau einmal, und die Girlande hält für jedes noch fehlende Paar einen gestrichelten Haken bereit. In anderen Runden steckt schon ein Teil, und das Kind sucht die Partnerzahl (7 und 3 ergeben 10), oder beide Teile stecken, aber es gibt noch keine Kette: Das Kind wählt, wie lang die Kette ist, und lässt sie leuchten – 4 und 3 ergeben 7.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Operationen ausgerichtet: Zahlen bis 10 auf verschiedene Weise in zwei Teile zerlegen. Lehrkräfte wählen Bis 5 (voreingestellt), 6 bis 9 oder 10 bilden und können Punkte auf den Karten einschalten, sodass jede Karte ihre Zahl auch als Punkte zeigt. Die „Lichterwerkstatt“ ist offenes Spiel: jede Kette von 2 bis 10 und zwei beliebige Zahlen von 1 bis 9. Kein Timer, keine Punkte."
       ],
       "practices": [
-        "Zwei Zahlen finden, die zusammen eine Zielzahl bis 10 ergeben.",
-        "Mehr als ein Paar entdecken, das dieselbe Zahl bildet.",
-        "Das Teil-Teil-Ganzes-Verständnis kleiner Zahlen aufbauen.",
-        "Eine Zahl mit ihrem Partner verbinden, der die Gesamtzahl vervollständigt.",
-        "Verschiedene Zerlegungen derselben Zielzahl nebeneinander erkennen."
+        "Eine Zahl bis 10 auf verschiedene Weise aus zwei Teilen bilden",
+        "Sehen, um wie viel zwei Teile zu viel oder zu wenig sind",
+        "Den fehlenden Teil und das Ganze finden",
+        "Jedes Paar als Gleichung lesen, zum Beispiel 3 + 7 = 10"
       ],
       "howToPlay": [
-        "Schau dir die Zielzahl der Runde an, zum Beispiel 6.",
-        "Tippe auf eine Zahl und dann auf ihren Partner, der zusammen das Ziel ergibt – und sieh zu, wie sich das Paar verbindet.",
-        "Finde alle Paare, die das Ziel ergeben – es gibt keinen Timer und keine Punktewertung, lass dir also Zeit."
+        "Schau auf die Zahl am Schild der Kette und zähle die Lämpchen, wenn du magst.",
+        "Tipp auf eine Zahl und dann auf ihre Partnerzahl. Die erste lässt die Kette von links leuchten, die zweite von rechts.",
+        "Treffen sich die Lichter genau, hängt das Paar an der Girlande. Finde alle Paare auf dem Spielfeld.",
+        "In manchen Runden wählst du die Partnerzahl aus vier Karten oder wählst, wie lang die Kette ist, und tippst dann auf „Leuchten lassen“. Kein Timer, keine Punkte."
       ],
       "learningGoals": [
-        "Zahlen bis 10 auf verschiedene Weise in Paare zerlegen.",
-        "Verstehen, dass eine Zahl aus kleineren Teilen besteht.",
-        "Die Teil-Teil-Ganzes-Grundlage für Addition und Subtraktion legen."
+        "Zahlen bis 10 auf verschiedene Weise in zwei Teile zerlegen",
+        "Jedes Paar als Gleichung lesen, zum Beispiel 3 + 7 = 10",
+        "Die Zahlenpaare zur 10 lernen"
       ]
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {

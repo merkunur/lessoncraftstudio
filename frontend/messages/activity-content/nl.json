@@ -3427,25 +3427,26 @@
     },
     "match-pairs.make-the-number.k-oa-a-3": {
       "about": [
-        "Er verschijnt een doelgetal, bijvoorbeeld 5, en je kind zoekt de getallenparen die samen dat getal maken, zoals 1 en 4 of 2 en 3, door eerst op een getal te tikken en daarna op zijn partner. Het is een interactief getallenspel dat zonder installeren of account direct in de browser speelt.",
-        "Het grote idee is dat je één getal op meer dan één manier kunt maken. Bij een doel van 7 verbindt je kind misschien eerst 0 en 7, en dan 3 en 4, en ontdekt zo dat hetzelfde totaal meerdere paren heeft. Doordat de activiteit vraagt om alle paren die het doel maken en niet om één goed antwoord, groeit rustig het deel-deel-geheel-besef waar al het latere optellen op rust.",
-        "De activiteit sluit aan bij de kerndoelen en is bedoeld voor de kleuterklas (groep 1-2): getallen tot en met 10 op meerdere manieren in paren splitsen. Geen timer, geen score; neem rustig de tijd."
+        "Het doelgetal is een lichtsnoer met precies zoveel lampjes, met een kleine opening na het vijfde. Tikt je kind op een getal, dan loopt er koraalrood licht van links over het snoer; tikt het op het getal dat erbij hoort, dan komt er turquoise licht van rechts. Komen de twee lichtjes precies bij elkaar, dan straalt het hele snoer goud en hangt het paar als twee papieren lampionnen aan de slinger erboven. Het is een interactieve rekenactiviteit voor de kleuterklas die in de browser werkt, zonder iets te installeren.",
+        "Het bijzondere is dat de twee lichtjes elkaar meten, zodat een verkeerd paar zijn eigen fout laat zien. Op het snoer van 8 laten 4 en 5 één lampje dubbel branden, en dat flikkert; 2 en 5 laten één lampje donker. Een licht dat langer is dan het snoer, loopt aan het andere eind door. De lampjes te veel of te weinig nummeren zichzelf, zodat je kind ziet hoeveel het ernaast zit en niet alleen dát het fout is. Op een bord ligt elk paar van het getal precies één keer, en de slinger houdt voor elk paar dat nog ontbreekt een gestippeld haakje vrij. In andere rondes zit één deel er al in en zoekt je kind het getal dat erbij hoort (7 en 3 maken 10), of zitten beide delen erin maar is er nog geen snoer: je kind kiest hoe lang het snoer is en laat het dan branden — 4 en 3 maken 7.",
+        "De activiteit sluit aan bij de kerndoelen en is bedoeld voor de kleuterklas (groep 1-2): getallen tot en met 10 op meerdere manieren in twee delen splitsen. De leerkracht kiest Tot en met 5 (standaard), 6 tot en met 9 of 10 maken en kan stippen op de kaarten aanzetten, zodat elke kaart haar getal ook als stippen laat zien. De ‘Lampjesmaker’ is open spel: elk snoer van 2 tot 10 en twee getallen naar keuze van 1 tot 9. Geen timer, geen score."
       ],
       "practices": [
-        "Twee getallen vinden die samen een doel tot 10 maken",
-        "Meer dan één paar ontdekken dat hetzelfde getal maakt",
-        "Het deel-deel-geheel-besef van kleine getallen opbouwen",
-        "Een getal koppelen aan de partner die het totaal compleet maakt"
+        "Een getal tot 10 op meerdere manieren uit twee delen maken",
+        "Zien hoeveel twee delen te veel of te weinig zijn",
+        "Het ontbrekende deel en het geheel vinden",
+        "Elk paar als som lezen, zoals 3 + 7 = 10"
       ],
       "howToPlay": [
-        "Kijk naar het doelgetal van de ronde, bijvoorbeeld 6.",
-        "Tik op een getal en daarna op zijn partner die samen het doel maakt, en kijk hoe het paar verbindt.",
-        "Zoek alle paren die het doel maken; er is geen timer en geen score, dus neem rustig de tijd."
+        "Kijk naar het getal op het labeltje van het snoer en tel de lampjes als je wilt.",
+        "Tik op een getal en dan op het getal dat erbij hoort. Het eerste laat het snoer van links branden, het tweede van rechts.",
+        "Komen de lichtjes precies bij elkaar, dan hangt het paar aan de slinger. Zoek alle paren op het bord.",
+        "In sommige rondes kies je het getal dat erbij hoort uit vier kaarten, of kies je hoe lang het snoer is, en tik je op ‘Laat branden’. Geen timer, geen score."
       ],
       "learningGoals": [
-        "Je kind splitst getallen tot 10 op meerdere manieren in paren.",
-        "Het kind begrijpt dat een getal is opgebouwd uit kleinere delen.",
-        "Het kind legt de deel-deel-geheel-basis voor optellen en aftrekken."
+        "Getallen tot 10 op meerdere manieren in twee delen splitsen",
+        "Elk paar als som lezen, zoals 3 + 7 = 10",
+        "De verliefde harten leren: de paren die samen 10 maken"
       ]
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {

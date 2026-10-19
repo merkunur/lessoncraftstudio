@@ -151,7 +151,8 @@ if (!scope.length) {
         await fr.waitForFunction(() => {
           for (const k of Object.keys(window)) {
             const o = window[k];
-            if (o && typeof o === 'object' && typeof o.nextTask === 'function' && o._activityRow) return true;
+            /* manifest-driven tools carry _activityRow; the rebuilt instruments (rows 1+ of docs/activities-rebuild) own their pool in a core behind _ensurePool */
+            if (o && typeof o === 'object' && typeof o.nextTask === 'function' && (o._activityRow || typeof o._ensurePool === 'function')) return true;
           }
           return false;
         }, { timeout: 20000 });
@@ -162,11 +163,14 @@ if (!scope.length) {
             const o = window[k];
             if (o && typeof o === 'object' && typeof o.nextTask === 'function') { tool = o; break; }
           }
+          /* a pool that lives in the tool's core (no manifest count): ask the tool */
+          if (!(count > 0) && typeof tool._ensurePool === 'function') count = 2 * tool._ensurePool().length;
           const out = [];
           for (let i = 0; i < count; i++) { const t = tool.nextTask({ index: i, completed: i }); out.push(t ? t.id : null); }
           return out;
         }, 2 * N);
-        const pass1 = ids.slice(0, N), pass2 = ids.slice(N, 2 * N);
+        const Np = N > 0 ? N : ids.length / 2;
+        const pass1 = ids.slice(0, Np), pass2 = ids.slice(Np, 2 * Np);
         const distinct = new Set(pass1).size;
         const sameSet = pass1.slice().sort().join('|') === pass2.slice().sort().join('|');
         const orderDiffers = pass1.join('|') !== pass2.join('|');

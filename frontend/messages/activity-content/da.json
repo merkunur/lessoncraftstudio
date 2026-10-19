@@ -1082,24 +1082,26 @@
     },
     "choice-board.count-sides.k-g-b-4": {
       "about": [
-        "Tæl siderne er en rolig geometriaktivitet til børnehaveklassen, som barnet kan spille direkte i browseren — på tablet, telefon eller klassens computer, uden at installere noget og uden konto. Der vises én form ad gangen, og barnet tæller dens lige sider og trykker så på det tal, der passer: en trekant med 3 sider, et kvadrat med 4, en femkant med 5 eller en sekskant med 6. Talmulighederne kommer fra rækken 3 til 8.",
-        "Den store idé er, at en form er mere end sit navn — den er bygget af dele, man kan tælle. Barnet kan ikke vinde ved bare at genkende \"en trekant\"; det skal følge hver kant med øjnene og tælle siderne én ad gangen. Fordi talkortene også har nære naboer som 5 ved siden af 6, kommer det til syne, hvis man tæller én forkert, og det inviterer til omhyggelig tælling med fingeren på hver side i stedet for et hurtigt gæt. Aktiviteten følger Fælles Mål inden for geometri: at beskrive og sammenligne former ud fra deres dele, som antallet af sider. Der er ingen timer og ingen point."
+        "Under en legemåtte står en rød postkasse, og dens døre bærer tal fra 3 til 6 (til 8 med flere former), med lige så mange pinde og hjørneprikker nedenunder. Formerne på måtten er drejet, strakt og skæve, aldrig kun de pæne, der står lige. Barnet trækker en form hen til en dør, eller trykker først på formen og så på døren. Det er en interaktiv geometriøvelse, der kører i browseren uden at installere noget.",
+        "Opfindelsen er døren. Når den får en form, lægger den sine pinde ned, én på hver side. Passer de, falder formen ned i skuffen. Har døren for mange pinde, bliver én til overs og triller ned; har den for få, står en side tom og lyser; og en kort linje under kassen fortæller, hvad der skete, for eksempel \"4 pinde til 3 sider\". Det er altid tilladt at prøve en dør, for hver gang formen preller af, ser man forskellen pind for pind. Trykker barnet på en side, sættes et nummereret flag dér, og kun det sidste kan tages af igen, så hver side tælles én gang. Efter to afvisninger får hver side en streg og hvert hjørne en prik; efter fire sætter flagene sig selv, og den rigtige dør ånder.",
+        "Øvelsen følger Fælles Mål i geometri: at kende figurer på deres dele, som antallet af sider og hjørner, uanset størrelse og placering. Tre andre spil udvider den. Sortér efter sider giver en bakke med former og tre eller fire nummererede døre. Rigtig eller ej har én stor dør til en trekant, et kvadrat eller et rektangel: en åben figur falder fra hinanden der, en lige pind glider af en buet side, et langt rektangel efterlader huller mod kvadratdørens lige lange pinde, og en rombe kan ikke holde mærkerne for rette vinkler; det sværere niveau spørger efter egenskaber i stedet for navne. Døre med navne sætter figurnavne på dørene til at læse. Et kvadrat passer gennem rektangeldøren (og gennem rombedøren), fordi det er et; derfor stiller ingen runde det spørgsmål, og samtalen bliver hos læreren. Til sidst viser skuffen hver form, der er puttet ind, med sit navn. Læreren vælger spil og former. Uden tidtagning og uden point."
       ],
       "practices": [
-        "Tælle de lige sider på en trekant, et kvadrat, en femkant og en sekskant",
-        "Forbinde en form med et tal — hvor mange sider den har, ikke kun dens navn",
-        "Tælle omhyggeligt én side ad gangen i stedet for at gætte antallet i et hurtigt blik",
-        "Kende former fra hinanden ud fra deres dele, som fem sider over for seks"
+        "At tælle siderne og hjørnerne på en form, hver én gang",
+        "At genkende former, der er drejet, strakt eller skæve",
+        "At sortere former efter antallet af sider",
+        "At skelne rigtige trekanter, kvadrater og rektangler fra åbne, buede og skæve dobbeltgængere"
       ],
       "howToPlay": [
-        "Barnet ser formen på pladen og tæller dens lige sider, én for én.",
-        "Barnet trykker på det tal, der passer med antallet af sider, og trykker så på Tjek.",
-        "Passer det ikke? Så kan barnet roligt prøve igen, så mange gange det vil — der er ingen timer og ingen point."
+        "Træk en form hen til en dør, eller tryk på formen og så på døren.",
+        "Tryk på siderne for at sætte flag, hvis du vil tælle dem.",
+        "I spillene med bakke putter du hver form, der passer, ind ad sin dør og trykker så på Tjek.",
+        "Dobbelttryk på en form for at dreje den."
       ],
       "learningGoals": [
-        "Barnet kan tælle antallet af sider på almindelige former",
-        "Barnet kan beskrive en form ud fra dens dele i stedet for kun at navngive den",
-        "Barnet bygger den omhyggelige tælle- og undersøgelsesvane, som senere geometri bygger videre på"
+        "Barnet beskriver figurer ud fra deres dele",
+        "Barnet tæller sider én for én, uanset placering og størrelse",
+        "Barnet forklarer, hvorfor en åben eller buet figur ikke er en polygon"
       ]
     },
     "choice-board.pick-smaller.k-c-c-7": {

@@ -3373,25 +3373,26 @@
     },
     "choice-board.count-sides.k-g-b-4": {
       "about": [
-        "Aparece una sola figura y el niño o la niña cuenta sus lados rectos, luego toca el número que coincide: un triángulo con 3 lados, un cuadrado con 4, un pentágono con 5 o un hexágono con 6, y las opciones de números van del 3 al 8. Es una actividad de geometría para preescolar (kínder), interactiva, que funciona directo en el navegador de una tableta, un celular o la computadora del salón, sin instalar nada y sin crear cuenta.",
-        "La idea importante es que una figura es mucho más que su nombre: está hecha de partes que se pueden contar. Aquí no basta con reconocer «un triángulo»; hay que seguir cada lado con la mirada y contarlos de uno en uno. Como las opciones incluyen números muy parecidos, como el 5 junto al 6, cualquier error de conteo de uno se nota enseguida, y eso anima a contar con cuidado, lado por lado, en lugar de adivinar de un vistazo.",
-        "Está alineada con los planes y programas de estudio (SEP): analizar y comparar figuras describiendo sus partes, como el número de lados. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+        "Bajo un tapete de juego hay un buzón rojo, y sus puertas llevan números del 3 al 6 (hasta el 8 con más figuras), cada uno con esa cantidad de palitos y puntos de esquina debajo. Las figuras del tapete vienen giradas, estiradas y disparejas, nunca solo las derechas y ordenadas. El niño arrastra una figura a una puerta, o toca la figura y luego la puerta. Es una actividad interactiva de geometría que funciona en el navegador, sin instalar nada.",
+        "La invención es la puerta. Cuando recibe una figura, acomoda sus palitos, uno en cada lado. Si quedan bien, la figura cae al cajón. Si la puerta tiene palitos de más, sobra uno y se cae; si tiene de menos, un lado queda sin palito y brilla; y una línea corta debajo del buzón dice qué pasó, por ejemplo «4 palitos para 3 lados». Probar una puerta siempre se vale, porque cada rebote muestra la diferencia palito por palito. Al tocar un lado se clava una banderita numerada, y solo la última se puede quitar, así cada lado se cuenta una vez. Después de dos rebotes, cada lado recibe una rayita y cada esquina un punto; después de cuatro, las banderitas se clavan solas y la puerta correcta respira.",
+        "La actividad sigue los planes y programas de estudio de la SEP en forma, espacio y medida: reconocer las figuras por sus partes, como el número de lados y de esquinas, sin importar su tamaño ni cómo estén giradas. Tres modos más la amplían. Clasificar por lados ofrece una charola de figuras y tres o cuatro puertas con número. De verdad o no tiene una puerta grande para un triángulo, un cuadrado o un rectángulo: una figura abierta se desarma ahí, un palito recto se resbala de un lado curvo, un rectángulo largo deja huecos contra los palitos iguales de la puerta del cuadrado y un rombo no puede sostener las marcas de esquina recta; el nivel más difícil pregunta por las propiedades en vez de los nombres. Puertas con nombre pone nombres de figuras para leer. Un cuadrado entra por la puerta del rectángulo (y por la del rombo), porque lo es; por eso ninguna ronda hace esa pregunta y la conversación queda en manos del docente. Al final, el cajón muestra cada figura con su nombre. El docente elige el modo y las figuras. Sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Contar los lados rectos de un triángulo, un cuadrado, un pentágono y un hexágono.",
-        "Relacionar una figura con un número: cuántos lados tiene, no solo cómo se llama.",
-        "Contar con cuidado un lado a la vez en lugar de adivinar el total de golpe.",
-        "Distinguir figuras por sus partes, como cinco lados frente a seis."
+        "Contar los lados y las esquinas de una figura, cada uno una vez",
+        "Reconocer figuras giradas, estiradas o disparejas",
+        "Clasificar figuras por su número de lados",
+        "Distinguir triángulos, cuadrados y rectángulos de verdad de sus parecidos abiertos, curvos o chuecos"
       ],
       "howToPlay": [
-        "Mira la figura del tablero y cuenta sus lados rectos, uno por uno.",
-        "Toca el número que coincide con la cantidad de lados que contaste y pulsa Comprobar.",
-        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntuación."
+        "Arrastra una figura a una puerta, o toca la figura y luego la puerta.",
+        "Toca los lados para clavar banderitas si quieres contarlos.",
+        "En los modos con charola, echa cada figura que quepa y luego toca Revisar.",
+        "Toca dos veces una figura para girarla."
       ],
       "learningGoals": [
-        "Contar el número de lados de las figuras más comunes.",
-        "Describir una figura por sus partes y no solo nombrarla.",
-        "Formar el hábito de contar con cuidado y analizar figuras, base de la geometría que viene después."
+        "Describir las figuras por sus partes",
+        "Contar los lados uno a uno, sin importar el giro o el tamaño",
+        "Explicar por qué una figura abierta o curva no es un polígono"
       ]
     },
     "choice-board.pick-smaller.k-c-c-7": {

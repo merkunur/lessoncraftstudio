@@ -1058,25 +1058,26 @@
     },
     "choice-board.count-sides.k-g-b-4": {
       "about": [
-        "Ruudulle ilmestyy yksi muoto kerrallaan, ja lapsi laskee sen suorat sivut ja napauttaa sopivaa lukua: kolmiossa on kolme sivua, neliössä neljä, viisikulmiossa viisi ja kuusikulmiossa kuusi. Lukuvaihtoehdot ovat väliltä 3–8. Harjoitus on vuorovaikutteinen esiopetuksen geometriatehtävä, joka toimii suoraan selaimessa tabletilla, puhelimella tai luokan tietokoneella — mitään ei tarvitse asentaa eikä tiliä tarvita.",
-        "Tärkein ajatus on, että muoto on enemmän kuin pelkkä nimi — se koostuu osista, jotka voi laskea. Lapsi ei pärjää pelkästään tunnistamalla \"kolmion\", vaan hänen täytyy seurata jokaista sivua katseellaan ja laskea sivut yksi kerrallaan. Koska lukuvaihtoehdoissa on lähekkäisiä lukuja, kuten 5 ja 6, yhdenkin sivun laskuvirhe tulee näkyviin, mikä ohjaa lasta laskemaan huolellisesti sormi sivulla pelkän nopean arvauksen sijaan.",
-        "Harjoitus on OPS 2014:n mukainen geometrian osa-alueella — lapsi tutkii ja vertailee muotoja kuvailemalla niiden osia, kuten sivujen lukumäärää. Lapsi saa edetä rauhassa omaan tahtiinsa: ei ajastinta eikä pisteitä."
+        "Leikkimaton alla seisoo punainen postilaatikko, ja sen luukuissa on luvut 3–6 (lisää muotoja valittaessa 8 asti), ja jokaisen alla on yhtä monta tikkua ja kulmapistettä. Maton muodot ovat käännettyjä, venytettyjä ja epäsäännöllisiä, eivät koskaan pelkkiä siistejä pystyssä olevia. Lapsi vetää muodon luukulle tai napauttaa ensin muotoa ja sitten luukkua. Tämä on interaktiivinen geometriatehtävä, joka toimii selaimessa ilman asennuksia.",
+        "Keksintö on luukku. Kun se saa muodon, se laskee tikkunsa, yhden jokaiselle sivulle. Jos ne sopivat, muoto putoaa vetolaatikkoon. Jos luukulla on liikaa tikkuja, yksi jää yli ja vierii pois; jos tikkuja on liian vähän, yksi sivu jää paljaaksi ja hehkuu; ja lyhyt rivi postilaatikon alla kertoo, mitä tapahtui, esimerkiksi ”4 tikkua 3 sivulle”. Luukkua saa aina kokeilla, sillä jokainen kimpoaminen näyttää eron tikku tikulta. Kun lapsi napauttaa sivua, siihen tulee numeroitu lippu, ja vain viimeisen voi ottaa pois, joten jokainen sivu lasketaan kerran. Kahden kimpoamisen jälkeen jokainen sivu saa viivan ja jokainen kulma pisteen; neljän jälkeen liput asettuvat itse ja oikea luukku hengittää.",
+        "Tehtävä noudattaa OPS 2014:ää geometrian osalta: muotojen tunnistaminen niiden osista, kuten sivujen ja kulmien määrästä, koosta ja asennosta riippumatta. Kolme muuta tilaa laajentaa sitä. Lajittelu sivujen mukaan antaa tarjottimellisen muotoja ja kolme tai neljä numeroitua luukkua. Oikea vai ei -tilassa on yksi iso luukku kolmiolle, neliölle tai suorakulmiolle: avoin kuvio hajoaa siinä, suora tikku liukuu pois kaarevalta sivulta, pitkä suorakulmio jättää rakoja neliöluukun yhtä pitkiä tikkuja vasten, eikä neljäkäs pysty pitämään suoran kulman merkkejä; vaikeampi taso kysyy ominaisuuksia nimien sijaan. Nimiluukuissa luukuilla on luettavat muotojen nimet. Neliö mahtuu suorakulmioluukusta (ja neljäkäsluukusta), koska se on suorakulmio ja neljäkäs; siksi mikään kierros ei esitä sitä kysymystä, ja keskustelu jää opettajalle. Lopuksi vetolaatikko näyttää jokaisen postitetun muodon nimineen. Opettaja valitsee tilan ja muodot. Ei ajanottoa eikä pisteitä."
       ],
       "practices": [
-        "Laskee kolmion, neliön, viisikulmion ja kuusikulmion suorat sivut.",
-        "Yhdistää muodon lukuun — siihen, montako sivua siinä on, eikä vain sen nimeen.",
-        "Laskee huolellisesti yhden sivun kerrallaan sen sijaan, että arvaisi määrän yhdellä vilkaisulla.",
-        "Erottaa muodot toisistaan niiden osien perusteella, esimerkiksi viisi sivua kuudesta."
+        "Muodon sivujen ja kulmien laskeminen, jokainen kerran",
+        "Käännettyjen, venytettyjen ja epäsäännöllisten muotojen tunnistaminen",
+        "Muotojen lajittelu sivujen määrän mukaan",
+        "Oikeiden kolmioiden, neliöiden ja suorakulmioiden erottaminen avoimista, kaarevista ja vinoista kaksoisolennoista"
       ],
       "howToPlay": [
-        "Katso ruudulla olevaa muotoa ja laske sen suorat sivut yksi kerrallaan.",
-        "Napauta lukua, joka vastaa laskemaasi sivujen määrää, ja paina sitten tarkistuspainiketta.",
-        "Eikö osunut oikeaan? Voit yrittää uudelleen niin monta kertaa kuin haluat — ei ajastinta eikä pisteitä."
+        "Vedä muoto luukulle tai napauta ensin muotoa ja sitten luukkua.",
+        "Napauta sivuja asettaaksesi lippuja, jos haluat laskea ne.",
+        "Tarjotintiloissa postitat jokaisen sopivan muodon ja painat sitten Tarkista.",
+        "Napauta muotoa kahdesti kääntääksesi sitä."
       ],
       "learningGoals": [
-        "Lapsi osaa laskea tavallisten muotojen sivujen lukumäärän.",
-        "Lapsi kuvailee muotoa sen osien perusteella eikä vain nimeä sitä.",
-        "Lapsi harjaannuttaa huolellisen laskemisen ja muotojen tutkimisen taitoja, joiden varaan myöhempi geometria rakentuu."
+        "Lapsi kuvailee muotoja niiden osien avulla",
+        "Lapsi laskee sivut yksi kerrallaan asennosta ja koosta riippumatta",
+        "Lapsi selittää, miksi avoin tai kaareva kuvio ei ole monikulmio"
       ]
     },
     "choice-board.pick-smaller.k-c-c-7": {

@@ -800,25 +800,26 @@
     },
     "choice-board.count-sides.k-g-b-4": {
       "about": [
-        "A single shape appears and the child counts its straight sides, then taps the number that matches — a triangle with 3 sides, a square with 4, a pentagon with 5, or a hexagon with 6, with number choices drawn from a pool of 3 through 8. It's an interactive Kindergarten geometry activity that runs right in the browser on a tablet, phone, or classroom computer, with nothing to install and no sign-up.",
-        "The big idea is that a shape is more than its name — it is made of parts you can count. A child cannot win by recognizing 'a triangle'; they have to trace each edge with their eyes and count the sides one at a time. Because the number tiles include near-misses like 5 next to 6, miscounting by one shows up, which nudges careful, finger-on-each-side counting rather than a quick guess.",
-        "It is aligned to Common Core K.G.B.4 — analyzing and comparing shapes by describing their parts, such as the number of sides. No timer, no score — just calm, playful practice."
+        "A red post box stands under a play mat, and its doors carry numbers from 3 to 6 (to 8 with more shapes), each with that many sticks and corner dots underneath. The shapes on the mat come turned, stretched and uneven, never just the tidy upright ones. The child drags a shape to a door, or taps the shape and then the door. It is an interactive geometry activity that runs in the browser with nothing to install.",
+        "The invention is the door. Offered a shape, it lays its sticks down one on each side. When they fit, the shape drops through into the drawer. When the door has too many sticks, one is left over and tumbles off; when it has too few, a side stays bare and glows; and a short line under the box says what happened, such as \"4 sticks for 3 sides\". Trying a door is always allowed, because every bounce shows the difference stick by stick. Tapping a side plants a numbered peg on it, and only the last peg lifts off, so each side is counted once. After two bounces every side gets a tick and every corner a dot; after four the pegs plant themselves and the right door breathes.",
+        "It is aligned to Common Core K.G.B.4: analysing shapes by their parts, such as the number of sides and corners, whatever their size or turn. Three more modes widen it. Sort by sides gives a tray of shapes and three or four numbered doors. Real or not has one big door for a triangle, a square or a rectangle: an open figure falls apart at it, a straight stick slides off a curved side, a long rectangle leaves gaps against the square door's equal sticks, and a rhombus cannot hold the square-corner marks; the harder level asks by properties instead of names. Name the doors puts shape names on the doors to read. A square fits the rectangle door (and the rhombus door), because it is one, so no round asks that question and the conversation stays with the teacher. At the end the drawer shows each posted shape with its name. Teachers choose the mode and the shapes. No timer, no score."
       ],
       "practices": [
-        "Count the straight sides of a triangle, square, pentagon, and hexagon",
-        "Connect a shape to a number — how many sides it has, not just its name",
-        "Count carefully one side at a time instead of guessing the total at a glance",
-        "Tell shapes apart by their parts, like five sides versus six"
+        "Counting the sides and corners of a shape, each one once",
+        "Recognising shapes that are turned, stretched or uneven",
+        "Sorting shapes by their number of sides",
+        "Telling real triangles, squares and rectangles from open, curved and lopsided look-alikes"
       ],
       "howToPlay": [
-        "Look at the shape on the board and count its straight sides, one by one.",
-        "Tap the number that matches how many sides you counted, then press Check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Drag a shape to a door, or tap the shape and then the door.",
+        "Tap the sides to plant pegs if you want to count them.",
+        "In the tray modes, post every shape that fits and then press Check.",
+        "Double-tap a shape to turn it."
       ],
       "learningGoals": [
-        "Count the number of sides on common shapes — the focus of Common Core K.G.B.4",
-        "Describe a shape by its parts rather than only naming it",
-        "Build the careful-counting and shape-analysis habits that later geometry depends on"
+        "Describe shapes by their parts, the focus of Common Core K.G.B.4",
+        "Count sides one to one, whatever the turn or size",
+        "Explain why an open or curved figure is not a polygon"
       ]
     },
     "choice-board.even-odd.2-oa-c-3": {

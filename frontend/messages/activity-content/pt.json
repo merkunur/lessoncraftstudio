@@ -1829,25 +1829,26 @@
     },
     "choice-board.count-sides.k-g-b-4": {
       "about": [
-        "Aparece uma única forma na tela e a criança conta os lados retos dela, depois toca no número que corresponde: um triângulo com 3 lados, um quadrado com 4, um pentágono com 5 ou um hexágono com 6, escolhendo entre números que vão de 3 a 8. É uma atividade de geometria interativa para a educação infantil, que roda direto no navegador no tablet, no celular ou no computador da sala, sem instalar nada e sem precisar de conta.",
-        "A ideia central é que uma forma é mais do que o seu nome: ela é feita de partes que dá para contar. A criança não ganha só por reconhecer “um triângulo” — ela precisa percorrer cada lado com o olhar e contar um de cada vez. Como as opções de número trazem valores parecidos, como o 5 ao lado do 6, contar errado por um aparece logo, e isso convida a contar com calma, apontando cada lado, em vez de chutar de primeira.",
-        "A atividade está alinhada à BNCC, na unidade temática Geometria, na ideia de analisar e comparar formas pelas suas partes, como o número de lados. Sem cronômetro e sem pontuação — só formas para observar com tranquilidade, no ritmo de cada criança."
+        "Embaixo de um tapete de jogo fica uma caixa de correio vermelha, e as portas dela trazem números de 3 a 6 (até 8 com mais formas), cada um com essa quantidade de palitos e pontos de canto embaixo. As formas no tapete vêm giradas, esticadas e irregulares, nunca só as certinhas em pé. A criança arrasta uma forma até uma porta, ou toca na forma e depois na porta. É uma atividade interativa de geometria que funciona no navegador, sem instalar nada.",
+        "A invenção é a porta. Quando recebe uma forma, ela deita os seus palitos, um em cada lado. Se eles servem, a forma cai na gaveta. Se a porta tem palitos demais, sobra um, que cai; se tem de menos, um lado fica sem palito e brilha; e uma linha curta embaixo da caixa diz o que aconteceu, por exemplo \"4 palitos para 3 lados\". Experimentar uma porta é sempre permitido, porque cada volta mostra a diferença palito por palito. Ao tocar num lado, uma bandeirinha numerada é fincada nele, e só a última pode ser tirada, assim cada lado é contado uma vez. Depois de duas voltas, cada lado ganha um risquinho e cada canto um ponto; depois de quatro, as bandeirinhas se fincam sozinhas e a porta certa respira.",
+        "A atividade está alinhada à BNCC na unidade de geometria: reconhecer figuras pelas suas partes, como o número de lados e de vértices, em qualquer tamanho ou posição. Mais três modos a ampliam. Separar por lados traz uma bandeja de formas e três ou quatro portas numeradas. De verdade ou não tem uma porta grande para um triângulo, um quadrado ou um retângulo: uma figura aberta se desmonta ali, um palito reto escorrega de um lado curvo, um retângulo comprido deixa vãos nos palitos iguais da porta do quadrado e um losango não segura as marcas de canto reto; o nível mais difícil pergunta pelas propriedades em vez dos nomes. Portas com nome traz nomes de formas para ler. Um quadrado passa pela porta do retângulo (e pela do losango), porque é um; por isso nenhuma rodada faz essa pergunta, e a conversa fica com o professor. No fim, a gaveta mostra cada forma com o nome dela. O professor escolhe o modo e as formas. Sem cronômetro e sem pontos."
       ],
       "practices": [
-        "Contar os lados retos de um triângulo, um quadrado, um pentágono e um hexágono.",
-        "Ligar uma forma a um número — quantos lados ela tem, e não apenas o seu nome.",
-        "Contar com cuidado, um lado de cada vez, em vez de adivinhar o total de relance.",
-        "Diferenciar as formas pelas suas partes, como cinco lados em comparação com seis."
+        "Contar os lados e os cantos de uma forma, cada um uma vez",
+        "Reconhecer formas giradas, esticadas ou irregulares",
+        "Separar formas pelo número de lados",
+        "Diferenciar triângulos, quadrados e retângulos de verdade das parecidas abertas, curvas ou tortas"
       ],
       "howToPlay": [
-        "Olhe a forma que aparece e conte os lados retos dela, um por um.",
-        "Toque no número que corresponde à quantidade de lados que você contou e depois toque em Verificar.",
-        "Não acertou? Pode tentar de novo quantas vezes quiser — não há cronômetro nem pontuação."
+        "Arraste uma forma até uma porta, ou toque na forma e depois na porta.",
+        "Toque nos lados para fincar bandeirinhas, se quiser contá-los.",
+        "Nos modos com bandeja, coloque cada forma que passa e depois toque em Conferir.",
+        "Toque duas vezes numa forma para girá-la."
       ],
       "learningGoals": [
-        "Contar o número de lados das formas mais comuns.",
-        "Descrever uma forma pelas suas partes, em vez de só dizer o nome.",
-        "Construir o hábito de contar com atenção e analisar as formas, base da geometria que vem mais adiante."
+        "Descrever as formas pelas suas partes",
+        "Contar os lados um a um, em qualquer posição ou tamanho",
+        "Explicar por que uma figura aberta ou curva não é um polígono"
       ]
     },
     "choice-board.pick-smaller.k-c-c-7": {

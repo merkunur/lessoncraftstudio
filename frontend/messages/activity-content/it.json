@@ -2325,25 +2325,26 @@
     },
     "choice-board.count-sides.k-g-b-4": {
       "about": [
-        "Compare una sola forma alla volta e il bambino conta i suoi lati dritti, poi tocca il numero giusto: un triangolo con 3 lati, un quadrato con 4, un pentagono con 5 o un esagono con 6, scegliendo tra numeri che vanno dal 3 all'8. È un'attività di geometria interattiva per la scuola dell'infanzia, che funziona direttamente nel browser su tablet, telefono o computer di classe, senza installare nulla e senza registrazione.",
-        "L'idea importante è che una forma non è soltanto il suo nome: è fatta di parti che si possono contare. Il bambino non può rispondere riconoscendo «un triangolo», ma deve seguire ogni lato con gli occhi e contarlo uno per uno. Poiché tra i numeri proposti ci sono valori vicini, come il 5 accanto al 6, un conteggio sbagliato di un'unità viene subito alla luce: così il bambino impara a contare con calma, lato per lato, invece di tirare a indovinare.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dello spazio e delle figure: analizzare e confrontare le forme descrivendone le parti, come il numero di lati. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
+        "Sotto un tappeto da gioco c’è una cassetta delle lettere rossa, e le sue porte portano i numeri da 3 a 6 (fino a 8 con più forme), ognuno con sotto altrettanti bastoncini e punti d’angolo. Le forme sul tappeto arrivano girate, allungate e irregolari, mai solo quelle ordinate e diritte. Il bambino trascina una forma su una porta, oppure tocca la forma e poi la porta. È un’attività interattiva di geometria che funziona nel browser senza installare nulla.",
+        "L’invenzione è la porta. Quando riceve una forma, appoggia i suoi bastoncini, uno su ogni lato. Se vanno bene, la forma cade nel cassetto. Se la porta ha troppi bastoncini, ne avanza uno che rotola via; se ne ha troppo pochi, un lato resta scoperto e si illumina; e una breve riga sotto la cassetta dice cosa è successo, per esempio «4 bastoncini per 3 lati». Provare una porta è sempre permesso, perché ogni rimbalzo mostra la differenza bastoncino per bastoncino. Toccando un lato ci si pianta una bandierina numerata, e si può togliere solo l’ultima, così ogni lato viene contato una volta. Dopo due rimbalzi ogni lato riceve un trattino e ogni angolo un punto; dopo quattro le bandierine si piantano da sole e la porta giusta respira.",
+        "L’attività segue le Indicazioni nazionali per spazio e figure: riconoscere le figure dalle loro parti, come il numero di lati e di angoli, qualunque siano la grandezza e la posizione. Altre tre modalità la ampliano. Smistare per lati offre un vassoio di forme e tre o quattro porte con il numero. Vero o no ha una porta grande per un triangolo, un quadrato o un rettangolo: una figura aperta lì si smonta, un bastoncino dritto scivola via da un lato curvo, un rettangolo lungo lascia dei vuoti contro i bastoncini uguali della porta del quadrato e un rombo non può reggere i segni di angolo retto; il livello più difficile chiede le proprietà invece dei nomi. Porte con il nome mette sulle porte i nomi delle forme da leggere. Un quadrato passa dalla porta del rettangolo (e da quella del rombo), perché lo è; per questo nessun turno pone quella domanda, e la discussione resta all’insegnante. Alla fine il cassetto mostra ogni forma imbucata con il suo nome. L’insegnante sceglie la modalità e le forme. Senza cronometro e senza punteggi."
       ],
       "practices": [
-        "Contare i lati dritti di triangolo, quadrato, pentagono ed esagono.",
-        "Collegare una forma a un numero: quanti lati ha, non solo come si chiama.",
-        "Contare con attenzione un lato alla volta invece di indovinare a colpo d'occhio.",
-        "Distinguere le forme dalle loro parti, ad esempio cinque lati rispetto a sei."
+        "Contare i lati e gli angoli di una forma, ognuno una volta",
+        "Riconoscere forme girate, allungate o irregolari",
+        "Smistare le forme secondo il numero di lati",
+        "Distinguere veri triangoli, quadrati e rettangoli dai sosia aperti, curvi o storti"
       ],
       "howToPlay": [
-        "Il bambino guarda la forma sul tabellone e conta i suoi lati dritti, uno alla volta.",
-        "Tocca il numero che corrisponde a quanti lati ha contato, poi preme «Controlla».",
-        "Se non è corretto, può riprovare quante volte vuole: non c'è timer né punteggio."
+        "Trascina una forma su una porta, oppure tocca la forma e poi la porta.",
+        "Tocca i lati per piantare bandierine, se vuoi contarli.",
+        "Nelle modalità con il vassoio, imbuca ogni forma che passa e poi tocca Controlla.",
+        "Tocca due volte una forma per girarla."
       ],
       "learningGoals": [
-        "Contare il numero di lati delle forme più comuni.",
-        "Descrivere una forma attraverso le sue parti e non solo con il nome.",
-        "Costruire l'abitudine al conteggio attento e all'analisi delle figure su cui poggia la geometria successiva."
+        "Descrivere le figure attraverso le loro parti",
+        "Contare i lati uno a uno, qualunque sia la posizione o la grandezza",
+        "Spiegare perché una figura aperta o curva non è un poligono"
       ]
     },
     "choice-board.pick-smaller.k-c-c-7": {

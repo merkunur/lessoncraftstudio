@@ -1167,25 +1167,26 @@
     },
     "chuffer.rail-decompose.k-oa-a-3": {
       "about": [
-        "A load of crates, passengers, or coal rolls into the switchyard on numbers like 4, 5, 6, 7, and 10, and the track forks into two cars. The child splits the load between the cars, reads how many landed in each, says the split out loud — 5 is 2 and 3 — and pulls the coupler to record it, in this interactive Kindergarten math game that plays in the browser with nothing to install and no account.",
-        "The heart of the activity is that one number can be broken apart in more than one way. After recording a split, the child is asked to find another, and another, hunting for every different way to share the same load — so 5 becomes 4 and 1, 3 and 2, 5 and 0. Later rounds add twists: build a split to match a given equation, make ten with one car already sealed, or judge whether proposed routes are real different ways or just the same split flipped around. The child does the splitting; the game keeps track of which ways have been found.",
-        "It is aligned to Common Core K.OA.A.3 — decomposing numbers up to 10 into pairs in more than one way and recording each with a drawing or equation. No timer, no score — just calm, playful practice."
+        "In Chuffer's Switchyard the child splits a number by throwing a railway switch. A load of crates waits in a wagon on top of a hill. Hold the release lever and the crates roll down one at a time; each one goes into whichever car the switch points to as it crosses the fork. Flick the switch halfway and the load splits — 2 crates to the left, 3 to the right. It's an interactive Kindergarten math activity that runs in the browser with nothing to install.",
+        "The child never moves a crate by hand, so every split is a moment of throwing the switch. The two cars are ten-frames, so 3 crates look like 3. The child reads each car and sets the number bond — a whole circle over two part circles, the same diagram as on the worksheets — then pulls the coupler. The coupler only takes a split whose numbers match the cars and that is new; each one lands as a row of a staircase in the route book (1 + 4, 2 + 3, 3 + 2, 4 + 1), so the empty rows show which ways are still missing. The equation, such as 5 = 2 + 3, appears only after the child has set the bond. The back-up button rolls every crate home into the same wagon — the whole never changes — and the turntable turns a banked pair round, so 2 + 3 becomes 3 + 2. A wrong number lights that car's crates; a second one numbers them up to a question mark on the last, so the child still says the number.",
+        "It is aligned to Common Core K.OA.A.3 — breaking numbers up to 10 into pairs in more than one way and recording each split. Besides \"find every way\" rounds there are sealed-car rounds (one car hides its crates under a tarp with its number, such as 5 = 2 + ☐, and the child sends the missing part) and back-up rounds (the crates of two loaded cars roll back into one wagon and the child sets the whole). Teachers can choose up to 5, 6 to 9, or Make ten — nine sealed rounds that fill one staircase with every way to make 10 — and show or hide the turntable. \"Shunting yard\" is open play with any load from 2 to 10. No timer, no score."
       ],
       "practices": [
-        "Splitting a number up to 10 into two parts",
-        "Finding more than one way to break the same number apart",
-        "Saying and recording each split as two parts that make the whole (5 = 2 + 3)",
-        "Noticing that a flipped split, like 2 and 3 versus 3 and 2, is the same parts in a new order"
+        "Splitting a number up to 10 into two parts in more than one way",
+        "Reading each part on a number bond: 5 = 2 + 3",
+        "Finding the missing part and the whole",
+        "Seeing that 2 + 3 and 3 + 2 are two ways to make the same whole"
       ],
       "howToPlay": [
-        "Read how big the incoming load is, then split it between the two cars on the track.",
-        "Read each car, say the split aloud, and pull the coupler to record it.",
-        "Keep going to find every different way to share the load — try again freely, with no timer and no score."
+        "Hold the release lever: the crates roll down one at a time. Flick the switch to send them to the left or the right car.",
+        "Tap a circle of the number bond and choose the number each car holds.",
+        "Pull the coupler (or press Check). A new way goes into the route book; find them all.",
+        "Not quite? The car to count again lights up. No timer, no score."
       ],
       "learningGoals": [
-        "Break numbers up to 10 into two parts in more than one way — the focus of Common Core K.OA.A.3.",
-        "Record each pair as two parts that make the whole.",
-        "Build the part-part-whole sense that addition, subtraction, and making ten depend on."
+        "Decompose numbers up to 10 into pairs in more than one way — the focus of Common Core K.OA.A.3",
+        "Record each split with a number bond and an equation such as 5 = 2 + 3",
+        "Know the pairs that make 10"
       ]
     },
     "clock-ampm.morning-or-night.2-md-c-7": {

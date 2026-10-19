@@ -1189,25 +1189,26 @@
     },
     "chuffer.rail-decompose.k-oa-a-3": {
       "about": [
-        "En el patio de maniobras de Chuffer el tren, las vías se cruzan y suena el silbato: acaba de llegar una carga de cajas que hay que repartir entre dos vagones, uno azul y uno rojo. El niño desliza las cajas de un vagón al otro, dice en voz alta cuántas quedan en cada uno —«5 es 2 y 3»— y engancha para registrar cada reparto en la bitácora del tren. Cada vez que mueve una caja, aparece una manera nueva de repartir la misma carga.",
-        "Aquí vive una de las ideas más importantes al inicio de las matemáticas: un mismo número se puede descomponer en dos partes de muchas maneras. El 5 es 1 y 4, es 2 y 3, es 0 y 5 —y sigue siendo el mismo 5. Así el niño descubre el todo y sus partes, y arma poco a poco su «casa de números», donde caben todos los repartos posibles. Quien encuentra todos los caminos empieza a entender cómo se forman los números, que es la base para sumar y restar más adelante.",
-        "Es una actividad sin cronómetro, sin puntaje y sin competencia: solo deslizar, decir y descubrir. Si el niño se equivoca, no pasa nada: el tren vuelve a pasar y puede intentar otro reparto con calma. Está alineada al programa mexicano (Planes y programas de estudio de la Nueva Escuela Mexicana, SEP) para educación preescolar, dentro del eje de Sentido numérico."
+        "En el patio de maniobras de Chuffer, el niño descompone un número moviendo un cambio de vía. Arriba de una colina espera un vagón lleno de cajas. Mientras el niño mantiene presionada la palanca, las cajas bajan rodando una por una; cada una entra al vagón hacia el que apunta el cambio de vía cuando llega a la bifurcación. Si mueve el cambio a la mitad, la carga se reparte: 2 cajas a la izquierda y 3 a la derecha. Es una actividad interactiva de matemáticas que funciona en el navegador, sin instalar nada.",
+        "El niño nunca mueve una caja con la mano: cada descomposición es el momento en que mueve el cambio de vía. Los dos vagones son marcos de diez, así que 3 cajas se ven como 3. El niño lee cada vagón, pone los números en el esquema del todo y sus partes —un círculo para el todo sobre dos círculos para las partes, como en las hojas de trabajo— y jala el enganche. El enganche solo acepta una descomposición cuyos números coinciden con los vagones y que es nueva; cada una queda como un escalón de una escalera en el libro de rutas (1 + 4, 2 + 3, 3 + 2, 4 + 1), y los escalones vacíos muestran las formas que faltan. La igualdad, por ejemplo 5 = 2 + 3, aparece solo cuando el niño ya puso los números. El botón para retroceder regresa todas las cajas al mismo vagón —el todo no cambia— y la plataforma giratoria da vuelta a una pareja encontrada: 2 + 3 se convierte en 3 + 2. Un número equivocado ilumina las cajas de ese vagón; la segunda vez se numeran hasta un signo de interrogación en la última: el número lo dice el niño.",
+        "Está alineada con los planes y programas de estudio (SEP): descomponer números hasta 10 de varias formas y registrar cada descomposición. Además de las rondas de «todas las formas» hay rondas con un vagón tapado (solo muestra su número, por ejemplo 5 = 2 + ☐, y el niño manda la parte que falta) y rondas para retroceder (dos vagones cargados se vacían en uno y el niño pone el todo). El maestro elige hasta 5, del 6 al 9 o «Formar 10» —nueve rondas que llenan una escalera con todas las formas de hacer 10— y muestra u oculta la plataforma giratoria. «Maniobras» es el juego abierto, con una carga de 2 a 10. Sin temporizador y sin puntuación."
       ],
       "practices": [
-        "Descompone un número en dos partes, repartiendo las cajas entre el vagón azul y el rojo.",
-        "Encuentra todas las maneras posibles de repartir un mismo número.",
-        "Nombra cada reparto en voz alta: «5 es 2 y 3».",
-        "Reconoce que 2 y 3 son las mismas partes que 3 y 2, solo cambiadas de vagón."
+        "Descomponer un número hasta 10 en dos partes de varias formas",
+        "Leer cada parte en el esquema del todo y sus partes: 5 = 2 + 3",
+        "Encontrar la parte que falta y el todo",
+        "Ver que 2 + 3 y 3 + 2 son dos formas de formar el mismo todo"
       ],
       "howToPlay": [
-        "Desliza las cajas entre los dos vagones, el azul y el rojo.",
-        "Di cuántas cajas quedan en cada vagón.",
-        "Busca todas las demás maneras de repartir la carga."
+        "Mantén presionada la palanca: las cajas bajan rodando una por una. Mueve el cambio de vía para mandarlas al vagón de la izquierda o de la derecha.",
+        "Toca un círculo del esquema y elige el número que hay en cada vagón.",
+        "Jala el enganche (o presiona Comprobar). Una forma nueva entra al libro de rutas; encuéntralas todas.",
+        "¿Todavía no? Se ilumina el vagón que hay que contar otra vez. Sin temporizador y sin puntuación."
       ],
       "learningGoals": [
-        "Descomponer números hasta el 10 en dos partes y comprender el todo y sus partes.",
-        "Encontrar y nombrar poco a poco todos los repartos de un número.",
-        "Descubrir las parejas del diez y los primeros pares cambiados (2 y 3 / 3 y 2)."
+        "Descomponer números hasta 10 en dos partes de varias formas",
+        "Registrar cada descomposición con el esquema del todo y sus partes y una igualdad como 5 = 2 + 3",
+        "Conocer las parejas que forman 10"
       ]
     },
     "pip-museum.curate-wing.k-g-a-2": {

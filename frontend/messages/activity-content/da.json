@@ -1833,6 +1833,30 @@
         "Ordne tre eller fire tal fra det største til det mindste",
         "Se, at et større tal betyder flere"
       ]
+    },
+    "chuffer.rail-decompose.k-oa-a-3": {
+      "about": [
+        "På Puffs rangerbanegård deler barnet et tal ved at stille et sporskifte. Oppe på en bakke står en vogn fuld af kasser. Så længe barnet holder håndtaget nede, ruller kasserne ned én ad gangen; hver kasse kører ind i den vogn, sporskiftet peger mod, når den når forgreningen. Stiller barnet sporskiftet om undervejs, deles lasten – 2 kasser til venstre, 3 til højre. Det er en interaktiv matematikaktivitet, der kører i browseren uden installation.",
+        "Barnet flytter aldrig en kasse med hånden – hver deling er et øjeblik, hvor barnet stiller sporskiftet. De to vogne er tierrammer, så 3 kasser ligner 3. Barnet aflæser hver vogn, indstiller talhuset – en cirkel for helheden over to cirkler for delene, som på opgavearkene – og trækker i koblingen. Koblingen tager kun imod en deling, hvis tal passer med vognene, og som er ny; hver deling bliver et trin på en trappe i rutebogen (1 + 4, 2 + 3, 3 + 2, 4 + 1), og de tomme trin viser, hvilke måder der stadig mangler. Ligningen, fx 5 = 2 + 3, kommer først frem, når barnet har indstillet tallene. Med bak-knappen ruller alle kasser hjem i den samme vogn – helheden ændrer sig ikke – og drejeskiven vender et fundet par, så 2 + 3 bliver til 3 + 2. Et forkert tal tænder kasserne i den vogn; anden gang bliver de nummereret frem til et spørgsmålstegn på den sidste – tallet siger barnet selv.",
+        "Aktiviteten følger Fælles Mål inden for området tal og algebra: at dele tal op til 10 på flere måder og skrive hver deling ned. Den passer til børnehaveklassen og 1. klasse. Ud over runder med »alle måder« er der runder med en overdækket vogn (den viser kun sit tal, fx 5 = 2 + ☐, og barnet sender den del, der mangler) og bak-runder (kasserne fra to læssede vogne ruller tilbage i én vogn, og barnet indstiller helheden). Læreren vælger op til 5, 6 til 9 eller »Tiervenner« – ni runder, der fylder én trappe med alle måder at lave 10 på – og viser eller skjuler drejeskiven. »Rangér selv« er den åbne leg med en last fra 2 til 10. Ingen timer og ingen point."
+      ],
+      "practices": [
+        "At dele et tal op til 10 i to dele på flere måder",
+        "At aflæse hver del i talhuset: 5 = 2 + 3",
+        "At finde den manglende del og helheden",
+        "At se, at 2 + 3 og 3 + 2 er to delinger af den samme helhed"
+      ],
+      "howToPlay": [
+        "Hold håndtaget nede: kasserne ruller ned én ad gangen. Stil sporskiftet for at sende dem til den venstre eller den højre vogn.",
+        "Tryk på en cirkel i talhuset, og vælg tallet i hver vogn.",
+        "Træk i koblingen (eller tryk på Tjek). En ny måde kommer i rutebogen; find dem alle.",
+        "Ikke helt? Den vogn, du skal tælle igen, lyser op. Ingen timer og ingen point."
+      ],
+      "learningGoals": [
+        "At dele tal op til 10 i to dele på flere måder",
+        "At skrive hver deling ned med et talhus og en ligning som 5 = 2 + 3",
+        "At kende tiervennerne"
+      ]
     }
   }
 }

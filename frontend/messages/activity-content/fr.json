@@ -3813,23 +3813,26 @@
     },
     "chuffer.rail-decompose.k-oa-a-3": {
       "about": [
-        "Tu es l'aiguilleur de la gare de triage de Chuffer ! Une cargaison de caisses arrive et la voie se sépare en deux wagons. Ton enfant répartit les caisses entre les deux wagons, lit chaque wagon, DIT la décomposition — l'équation ne s'écrit jamais toute seule, il faut la dire — puis tire l'attelage. Ensuite, il cherche TOUTES les façons différentes de partager la cargaison.",
-        "Décomposer un nombre jusqu'à 10 en deux parties de plusieurs façons, connaître les compléments à 10, et dire chaque décomposition sous la forme 5 = 2 + 3 sont des attendus du CP. Le jeu se joue sans minuteur et sans points : l'enfant travaille le sens de l'addition, dans le domaine « Nombres et calcul » des programmes officiels de l'école."
+        "À la gare de triage de Chuffer, l’enfant décompose un nombre en manœuvrant un aiguillage. En haut d’une colline, un wagon plein de caisses attend. Tant que l’enfant garde le levier appuyé, les caisses descendent une par une ; chacune entre dans le wagon vers lequel l’aiguillage est tourné quand elle arrive à la bifurcation. Si l’enfant change l’aiguillage en cours de route, la charge se partage – 2 caisses à gauche, 3 à droite. Une activité de mathématiques interactive qui fonctionne dans le navigateur, sans installation.",
+        "L’enfant ne déplace jamais une caisse à la main : chaque décomposition est un moment où il manœuvre l’aiguillage. Les deux wagons sont des cadres de dix, donc 3 caisses ressemblent bien à 3. L’enfant lit chaque wagon, règle la maison des nombres – un cercle pour le tout au-dessus de deux cercles pour les parties, comme sur les fiches – puis tire l’attelage. L’attelage n’accepte qu’une décomposition dont les nombres correspondent aux wagons et qui est nouvelle ; chacune devient une marche d’un escalier dans le carnet de route (1 + 4, 2 + 3, 3 + 2, 4 + 1), et les marches vides montrent les façons qui manquent encore. L’égalité, par exemple 5 = 2 + 3, n’apparaît qu’une fois que l’enfant a réglé la maison des nombres. Le bouton pour reculer ramène toutes les caisses dans le même wagon – le tout ne change pas – et la plaque tournante retourne une paire trouvée : 2 + 3 devient 3 + 2. Un nombre faux allume les caisses de ce wagon ; la deuxième fois, elles sont numérotées jusqu’à un point d’interrogation sur la dernière : c’est l’enfant qui dit le nombre.",
+        "Cette activité est alignée sur les programmes officiels : décomposer les nombres jusqu’à 10 de plusieurs façons et noter chaque décomposition. En plus des manches « toutes les façons », il y a des manches avec un wagon bâché (il ne montre que son nombre, par exemple 5 = 2 + ☐, et l’enfant envoie la partie qui manque) et des manches pour reculer (deux wagons chargés se vident dans un seul wagon et l’enfant règle le tout). L’enseignant choisit jusqu’à 5, de 6 à 9 ou « Faire 10 » – neuf manches qui remplissent un escalier avec toutes les façons de faire 10 – et affiche ou masque la plaque tournante. « Manœuvres libres » est le jeu ouvert, avec une charge de 2 à 10. Ni minuteur, ni score."
       ],
       "practices": [
-        "Décomposer un nombre en deux parties",
-        "Trouver toutes les décompositions d'un nombre jusqu'à 10",
-        "Connaître les compléments à 10",
-        "Dire une décomposition sous la forme 5 = 2 + 3"
+        "Décomposer un nombre jusqu’à 10 en deux parties de plusieurs façons",
+        "Lire chaque partie dans la maison des nombres : 5 = 2 + 3",
+        "Trouver la partie qui manque et le tout",
+        "Voir que 2 + 3 et 3 + 2 sont deux façons de faire le même tout"
       ],
       "howToPlay": [
-        "Déplace les caisses entre les deux wagons, puis dis combien dans chaque wagon.",
-        "Tire l'attelage pour enregistrer chaque nouvelle façon."
+        "Garde le levier appuyé : les caisses descendent une par une. Change l’aiguillage pour les envoyer dans le wagon de gauche ou de droite.",
+        "Touche un cercle de la maison des nombres et choisis le nombre de chaque wagon.",
+        "Tire l’attelage (ou appuie sur Vérifier). Une nouvelle façon entre dans le carnet de route ; trouve-les toutes.",
+        "Pas tout à fait ? Le wagon à recompter s’allume. Ni minuteur, ni score."
       ],
       "learningGoals": [
-        "Décomposer et recomposer les nombres jusqu'à 10",
-        "Connaître les compléments à 10",
-        "Comprendre qu'un nombre a plusieurs décompositions"
+        "Décomposer les nombres jusqu’à 10 en deux parties de plusieurs façons",
+        "Noter chaque décomposition avec une maison des nombres et une égalité comme 5 = 2 + 3",
+        "Connaître les compléments à 10"
       ]
     },
     "vet-diagnosis.word-problems.1-oa-a-1": {

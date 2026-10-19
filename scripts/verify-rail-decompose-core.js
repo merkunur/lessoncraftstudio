@@ -21,6 +21,12 @@
          N-value re-skin of one act collapses + FAILS); distinct ids.
    ===================================================================== */
 'use strict';
+/* RETIRED 2026-10-19: the K.OA.A.3 row left chuffer-activities.json for its own instrument (rebuild #25, the
+   Spring Switch). Its gates are scripts/verify-spring-switch-core.js + mutate-spring-switch.js + local-test-spring-switch.js. */
+if (!JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'chuffer-activities.json'), 'utf8')).some((r) => r.id === 'chuffer.rail-decompose.k-oa-a-3')) {
+  console.log('verify-rail-decompose-core: retired — the row is now the Spring Switch (node scripts/verify-spring-switch-core.js)');
+  process.exit(0);
+}
 const fs = require('fs');
 const path = require('path');
 

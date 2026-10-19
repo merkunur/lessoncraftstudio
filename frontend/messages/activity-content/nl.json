@@ -1603,25 +1603,26 @@
     },
     "chuffer.rail-decompose.k-oa-a-3": {
       "about": [
-        "Op het rangeerstation van Tuf rolt een volle wagon met kisten het spoor op, en die lading moet verdeeld worden over twee treinwagons: een blauwe en een rode. Schuif de kisten heen en weer, kijk hoeveel er in elke wagon staan, en trek dan aan de koppeling om de trein te laten rijden. Elke verdeling die je vindt, komt netjes in het ritboek te staan.",
-        "Het grote idee is dat je één getal op heel veel manieren in twee delen kunt splitsen: 5 is 1 en 4, of 2 en 3, of 0 en 5 — en toch blijft het steeds dezelfde 5. Dat je een geheel uit twee delen kunt opbouwen — ook wel deel-deel-geheel genoemd — is de basis voor later hoofdrekenen. Onderweg vind je alle splitsingen van een getal, ontdek je de vriendjes van tien, en zie je dat 2 en 3 dezelfde delen zijn als 3 en 2, alleen met de wagons omgewisseld. Deze activiteit sluit aan bij de SLO-kerndoelen voor rekenen-wiskunde voor groep 3.",
-        "Geen klok, geen score, geen wedstrijd: gewoon rustig schuiven, hardop zeggen en zelf ontdekken. Zit je ernaast? Dan rijdt de trein gewoon nog een keertje voor, zodat je het opnieuw kunt proberen. Te spelen."
+        "Op het rangeerterrein van Tuf splitst het kind een getal door een wissel om te zetten. Boven op een heuvel staat een wagon vol kisten. Zolang het kind de hendel ingedrukt houdt, rollen de kisten een voor een naar beneden; elke kist rijdt de wagon in waar de wissel naartoe wijst als ze bij de splitsing komt. Zet het kind de wissel halverwege om, dan wordt de lading verdeeld – 2 kisten naar links, 3 naar rechts. Het is een interactieve rekenactiviteit die in de browser werkt, zonder installatie.",
+        "Het kind verplaatst nooit een kist met de hand: elke splitsing is een moment waarop het de wissel omzet. De twee wagons zijn tienrammen, dus 3 kisten zien er ook uit als 3. Het kind leest elke wagon af, vult het splitsschema in – een cirkel voor het geheel boven twee cirkels voor de delen, net als op de werkbladen – en trekt aan de koppeling. De koppeling neemt alleen een splitsing aan waarvan de getallen bij de wagons passen en die nieuw is; elke splitsing wordt een tree van een trap in het routeboek (1 + 4, 2 + 3, 3 + 2, 4 + 1), en de lege treden laten zien welke manieren nog ontbreken. De som, zoals 5 = 2 + 3, verschijnt pas als het kind het schema heeft ingevuld. Met de knop om terug te rijden gaan alle kisten terug in dezelfde wagon – het geheel blijft hetzelfde – en de draaischijf draait een gevonden paar om, zodat 2 + 3 verandert in 3 + 2. Bij een verkeerd getal lichten de kisten van die wagon op; de tweede keer worden ze genummerd tot een vraagteken op de laatste: het getal zegt het kind zelf.",
+        "De activiteit sluit aan bij de SLO-kerndoelen binnen het domein Getallen: getallen tot 10 op meerdere manieren splitsen en elke splitsing noteren. Naast ‘alle manieren’-rondes zijn er rondes met een afgedekte wagon (die laat alleen zijn getal zien, zoals 5 = 2 + ☐, en het kind stuurt het ontbrekende deel) en rondes om terug te rijden (de kisten uit twee volle wagons rollen terug in één wagon en het kind vult het geheel in). De leerkracht kiest tot en met 5, 6 tot en met 9 of ‘Verliefde harten’ – negen rondes die één trap vullen met alle splitsingen van 10 – en toont of verbergt de draaischijf. ‘Rangeren’ is het open spel, met een lading van 2 tot 10. Geen timer, geen score."
       ],
       "practices": [
-        "Een getal in twee delen splitsen",
-        "Alle splitsingen van een getal vinden",
-        "Elke splitsing hardop benoemen (\"5 is 2 en 3\")",
-        "Herkennen dat 2 en 3 dezelfde delen zijn als 3 en 2 (de wisselsom)"
+        "Een getal tot 10 op meerdere manieren in twee delen splitsen",
+        "Elk deel aflezen in het splitsschema: 5 = 2 + 3",
+        "Het ontbrekende deel en het geheel vinden",
+        "Zien dat 2 + 3 en 3 + 2 twee splitsingen van hetzelfde geheel zijn"
       ],
       "howToPlay": [
-        "Schuif de kisten heen en weer tussen de twee wagons",
-        "Zeg hoeveel kisten er in elke wagon staan",
-        "Vind elke andere manier om de lading te verdelen"
+        "Houd de hendel ingedrukt: de kisten rollen een voor een naar beneden. Zet de wissel om ze naar de linker of rechter wagon te sturen.",
+        "Tik op een cirkel van het splitsschema en kies het getal van elke wagon.",
+        "Trek aan de koppeling (of druk op Controleer). Een nieuwe manier gaat in het routeboek; vind ze allemaal.",
+        "Nog niet goed? De wagon die je opnieuw moet tellen, licht op. Geen timer, geen score."
       ],
       "learningGoals": [
-        "Getallen tot 10 splitsen in twee delen en zo deel-deel-geheel begrijpen",
-        "Systematisch alle mogelijke splitsingen van een getal ontdekken",
-        "De vriendjes van tien en de wisselsom (2 en 3 = 3 en 2) herkennen"
+        "Getallen tot 10 op meerdere manieren in twee delen splitsen",
+        "Elke splitsing noteren met een splitsschema en een som als 5 = 2 + 3",
+        "De splitsingen van 10 kennen"
       ]
     },
     "pip-museum.curate-wing.k-g-a-2": {

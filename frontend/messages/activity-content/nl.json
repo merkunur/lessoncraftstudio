@@ -1137,25 +1137,26 @@
     },
     "parking-tower.place-by-relation.k-g-a-1": {
       "about": [
-        "Hoog boven de stad staat een glazen parkeertoren, en Bram de bever draagt de rode pet van de parkeerwachter. Van opzij kun je in elke verdieping kijken — en op elke verdieping staat al een voertuig te wachten. Bram fluistert je een woord toe: boven, onder, naast of tussen. Luister goed! Dan parkeer je het nieuwe voertuig precies waar het woord zegt — één verdieping boven de bus, vlak onder de vrachtwagen, of naast de auto.",
-        "Het bijzondere is de stevige vloer tussen de verdiepingen. \"Boven de bus\" betekent hier echt één verdieping hoger — niet zomaar het dichtstbijzijnde vrije plekje. Je kunt dus niet raden; je moet op het woord vertrouwen: het woord wijst de plek aan. Bij \"tussen\" zoek je de verdieping precies in het midden tussen twee voertuigen, en in de omgekeerde ronde noemt Bram een positie en tik jij op het voertuig dat daar al geparkeerd staat. Zo leer je posities van twee kanten kennen — zelf maken en herkennen.",
-        "Geen klok, geen punten, geen haast. Neem zoveel tijd als je wilt om na te denken en te proberen. Parkeer je op de verkeerde plek, dan legt Bram de bever het woord nog een keer vriendelijk uit, en probeer je het rustig opnieuw. Deze activiteit volgt de SLO-kerndoelen voor rekenen voor groep 3, domein meetkunde, en oefent het beschrijven en herkennen van ruimtelijke posities."
+        "Bram de bever beheert een parkeertoren, en het kind parkeert elk voertuig waar de zin het zegt: naast de bus, boven het busje, onder de auto, tussen de bus en het busje, links van de bulldozer. Tik op een lege plek en het voertuig rijdt naar de glazen lift, gaat omhoog of omlaag en rolt over zijn verdieping de plek in. Een interactieve oefening met positiewoorden voor groep 3, die in de browser werkt zonder iets te installeren.",
+        "Het bijzondere: een voertuig kan alleen met de lift omhoog en omlaag en over een verdieping rijden, dus elk positiewoord wordt een route die het kind ziet. Boven is altijd één rit omhoog met de lift in dezelfde kolom, nooit opzij, en de gestippelde route die na het parkeren blijft staan is een kleine tekening van het gekozen woord. Een verkeerde plek geeft hulp die laat zien in plaats van uitlegt: een turquoise pijl groeit vanaf het referentievoertuig naar de gevraagde plek en een koraalrode pijl wijst naar waar het voertuig echt staat; bij boven en onder knippert de vloer tussen de verdiepingen; bij een tweede fout licht de goede plek op met een schaduw van het voertuig. Sommige rondes draaien het om: Bram heeft al geparkeerd en het kind tikt op zijn vrachtwagen.",
+        "De oefening sluit aan bij de SLO-kerndoelen voor meetkunde: de plaats van voorwerpen ten opzichte van elkaar beschrijven. De leerkracht kiest de woorden boven, onder, naast, tussen, links en rechts, de torenwoorden (boven op, onder, naast, in en buiten de toren; de bovenste, middelste en onderste verdieping) of de plattegrond van het dak, die verder gaat en het kaartlezen van groep 4 oefent: kolommen met letters en rijen met getallen op een rooster van 6 × 6 of 10 × 10, vakjes zoals B2 om te parkeren of D3 om op twee wieltjes af te lezen, en een kompas waarvan het noorden niet altijd boven is. De voertuigen en Bram komen uit de beeldbibliotheek. Geen klok, geen score."
       ],
       "practices": [
-        "posities herkennen en aanwijzen met boven, onder, naast en tussen",
-        "goed luisteren en het positiewoord omzetten naar een plek in de ruimte",
-        "het midden vinden tussen twee voertuigen (\"tussen\")",
-        "een genoemde positie herkennen en het passende voertuig vinden"
+        "Boven, onder, naast en tussen, altijd gezien vanuit wie kijkt",
+        "Links en rechts van een ander voorwerp",
+        "Boven op, onder, naast, in en buiten de toren; bovenste, middelste en onderste verdieping",
+        "Vakjes in een rooster lezen en instellen (letter bovenaan, getal aan de zijkant) en de vier windrichtingen"
       ],
       "howToPlay": [
-        "luister naar het woord van Bram: boven, onder, naast of tussen",
-        "parkeer het voertuig op de verdieping die past bij het woord en het andere voertuig",
-        "in de omgekeerde ronde tik je op het voertuig dat al op de genoemde plek staat"
+        "Lees de zin: het turquoise onderstreepte woord is het voertuig dat je parkeert, het koraalrode het voertuig waarnaast of waarboven het moet.",
+        "Tik op een lege plek; het voertuig rijdt er met de lift heen en de route blijft staan.",
+        "Op de plattegrond van het dak tik je op een vakje of draai je aan de wieltjes voor letter en getal.",
+        "Tik op Controleren."
       ],
       "learningGoals": [
-        "Ik gebruik de posities boven, onder, naast en tussen met vertrouwen",
-        "Ik parkeer een voertuig op de juiste plek ten opzichte van een ander voertuig",
-        "Ik herken een genoemde positie en vind de juiste plek"
+        "De plaats van een voorwerp ten opzichte van een ander beschrijven",
+        "Boven onderscheiden van naast, en tussen van naast één van de twee",
+        "Een vakje vinden met letter en getal en noord, oost, zuid en west op een kaart gebruiken"
       ]
     },
     "mamas-roll-call.numeral-trace.k-cc-b-5": {

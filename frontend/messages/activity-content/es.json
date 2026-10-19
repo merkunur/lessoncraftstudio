@@ -723,25 +723,26 @@
     },
     "parking-tower.place-by-relation.k-g-a-1": {
       "about": [
-        "En lo alto de la ciudad hay un estacionamiento de vidrio con muchos pisos, y Beto el castor es el encargado que recibe cada vehículo. En cada piso ya hay algo estacionado —el camión, el carro, el tráiler, la camioneta o el barco—, y Beto le dice al niño dónde acomodar el que llega: «estaciona el carro encima del camión», «pon la camioneta junto al tráiler», «deja el barco debajo del carro». El niño escucha la palabra de ubicación y coloca el vehículo en el lugar correcto respecto a ese punto de referencia. Así, jugando, va usando y entendiendo las relaciones espaciales: encima, debajo, junto a y entre.",
-        "Lo especial de esta torre es que hay un piso sólido entre un nivel y otro, así que «encima del camión» significa de verdad un piso más arriba, no el hueco más cercano ni el que parece más fácil. Por eso el niño no puede adivinar: tiene que confiar en la palabra y ubicar el lugar exacto. También aparece la ronda de «entre», donde busca el piso que queda en medio de dos vehículos —«entre tus dos carros»—, y una ronda al revés en la que Beto nombra una posición y el niño toca el vehículo que ya está estacionado ahí. De este modo practica las dos caras de la habilidad: producir la relación (colocar según la palabra) y reconocerla (identificar la posición que se nombra).",
-        "No hay reloj, ni puntaje, ni ganar o perder: es una actividad tranquila para explorar el espacio a su propio ritmo. Si el niño estaciona en el lugar equivocado, Beto el castor le vuelve a explicar la palabra con cariño —«encima es un piso más arriba»— y lo intenta de nuevo, sin prisa y sin regaños. Cada partida mezcla los vehículos y las posiciones para que siempre haya algo nuevo que descubrir. Es interactiva, en línea, sin registro, pensada para acompañar a los más pequeños en casa o en el salón. (Alineada a los Planes y programas de estudio de la SEP, en el eje de Forma, espacio y medida.)"
+        "Beto el castor atiende un estacionamiento de varios pisos, y el niño estaciona cada vehículo donde lo dice la oración: junto al camión, arriba de la camioneta, abajo del carro, entre el camión y la camioneta, a la izquierda del bulldozer. Al tocar un lugar vacío, el vehículo va hasta el elevador de vidrio, sube o baja y rueda por su piso hasta el lugar. Es una actividad interactiva sobre palabras de ubicación para preescolar que funciona en el navegador sin instalar nada.",
+        "Lo especial es que un vehículo solo puede subir o bajar en el elevador y avanzar por un piso, así que cada palabra de ubicación se vuelve un recorrido que el niño ve. Arriba de siempre es un viaje de un piso hacia arriba en la misma columna, nunca hacia un lado, y el recorrido punteado que queda al estacionar es un pequeño dibujo de la palabra elegida. Un lugar equivocado trae una ayuda que muestra en vez de explicar: una flecha turquesa sale del vehículo de referencia hacia la posición pedida y una flecha coral señala dónde quedó el vehículo; para arriba y abajo parpadea el piso entre los niveles; al segundo error, el lugar correcto brilla con la sombra del vehículo. Algunas rondas lo invierten: Beto ya se estacionó y el niño toca su tráiler.",
+        "La actividad se alinea con el plan de estudios de la SEP para preescolar, que pide ubicar objetos en relación con otros usando palabras como arriba, abajo, junto a y entre. El maestro elige las palabras arriba, abajo, junto a, entre, izquierda y derecha, las palabras de la torre (encima, debajo, junto a, dentro y fuera de la torre; el piso de arriba, el de en medio y el de abajo) o el plano del techo, que va más allá y practica la lectura de mapas de segundo grado: columnas con letras y filas con números en una cuadrícula de 6 × 6 o de 10 × 10, casillas como B2 para estacionar o D3 para leer en dos ruedas, y una brújula cuyo norte no siempre apunta hacia arriba. Los vehículos y Beto vienen de la biblioteca de ilustraciones. Sin cronómetro ni puntos."
       ],
       "practices": [
-        "Reconocer y usar las palabras encima, debajo, junto a y entre.",
-        "Escuchar la palabra de ubicación y ubicar el lugar correcto.",
-        "Encontrar el piso que queda en medio de dos vehículos («entre»).",
-        "Reconocer una posición nombrada y hallar el vehículo que está ahí."
+        "Arriba, abajo, junto a y entre, siempre desde el punto de vista de quien mira",
+        "A la izquierda y a la derecha de otro objeto",
+        "Encima, debajo, junto a, dentro y fuera de la torre; piso de arriba, de en medio y de abajo",
+        "Leer y marcar casillas de una cuadrícula (letra arriba, número al lado) y los cuatro puntos cardinales"
       ],
       "howToPlay": [
-        "Escucha la palabra de Beto el castor: encima, debajo, junto a o entre.",
-        "Estaciona el vehículo en el piso que corresponde según el punto de referencia.",
-        "En la ronda al revés, toca el vehículo que ya está en la posición que se nombra."
+        "Lee la oración: la palabra subrayada en turquesa es el vehículo que vas a estacionar, la de color coral el vehículo de referencia.",
+        "Toca un lugar vacío: el vehículo llega por el elevador y el recorrido se queda.",
+        "En el plano del techo, toca una casilla o gira las ruedas de la letra y el número.",
+        "Toca Revisar."
       ],
       "learningGoals": [
-        "Uso las palabras encima, debajo, junto a y entre para decir dónde está algo.",
-        "Ubico un vehículo respecto a otro dentro de la torre.",
-        "Reconozco una posición que se nombra y encuentro el lugar correcto."
+        "Describir la ubicación de un objeto en relación con otro",
+        "Distinguir arriba de junto a, y entre de junto a uno de los dos",
+        "Encontrar una casilla por su letra y su número y usar norte, este, sur y oeste en un mapa"
       ]
     },
     "mamas-roll-call.numeral-trace.k-cc-b-5": {

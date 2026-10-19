@@ -2689,25 +2689,26 @@
     },
     "parking-tower.place-by-relation.k-g-a-1": {
       "about": [
-        "Hoch über der Stadt steht ein gläsernes Parkhaus, und Benno der Biber trägt die rote Mütze des Parkwächters. Von der Seite kannst du in jede Etage hineinsehen — und in jeder Etage wartet schon ein Fahrzeug. Benno flüstert dir ein Wort zu: über, unter, neben oder zwischen. Hörst du genau hin? Dann parkst du das neue Fahrzeug genau dort, wo das Wort es verlangt — eine Etage über dem Bus, gleich unter dem Lastwagen oder neben dem Auto.",
-        "Das Besondere ist die durchgehende Decke zwischen den Etagen. „Über dem Bus“ bedeutet hier wirklich eine Etage höher — nicht einfach die nächste freie Lücke. So kannst du nicht raten, sondern musst dem Wort vertrauen: Das Wort sagt dir den Platz. Bei „zwischen“ suchst du die Etage genau in der Mitte zwischen zwei Fahrzeugen, und in der Umkehrrunde nennt Benno dir eine Lage, und du tippst das Fahrzeug an, das schon dort steht. So lernst du die Lagebeziehungen von beiden Seiten kennen — sie selbst herstellen und sie wiedererkennen.",
-        "Hier gibt es keine Uhr, keine Punkte und keine Eile. Du darfst so lange überlegen und ausprobieren, wie du magst. Parkst du einmal daneben, erklärt dir Benno der Biber das Wort freundlich noch einmal, und du versuchst es in Ruhe erneut. Diese Aktivität folgt der Leitidee „Raum und Form“ aus dem Lehrplan der Grundschule und übt das genaue Beschreiben und Zuordnen räumlicher Lagebeziehungen."
+        "Benno der Biber betreibt einen Parkturm, und das Kind parkt jedes Fahrzeug dort, wo der Satz es sagt: neben dem Bus, über dem Lieferwagen, unter dem Auto, zwischen dem Bus und dem Lieferwagen, links neben dem Bulldozer. Tippt man auf einen leeren Platz, fährt das Fahrzeug zum gläsernen Aufzug, fährt hinauf oder hinunter und rollt auf seiner Etage in die Lücke. Eine interaktive Übung zu Lagebeziehungen für den Anfangsunterricht, die im Browser läuft, ohne Installation.",
+        "Das Besondere: Ein Fahrzeug kann nur mit dem Aufzug hoch und runter fahren und auf einer Etage entlang, darum wird jedes Lagewort zu einem Weg, den das Kind sieht. Über heißt immer: eine Fahrt mit dem Aufzug in derselben Spalte nach oben, nie seitwärts, und die gepunktete Spur, die nach dem Parken bleibt, ist ein kleines Bild des gewählten Wortes. Ein falscher Platz bringt Hilfe, die zeigt statt erklärt: Ein türkisfarbener Pfeil wächst vom Bezugsfahrzeug zur gesuchten Stelle, ein korallenroter zeigt, wo das Fahrzeug wirklich steht; bei über und unter pulsiert die Decke zwischen den Etagen; beim zweiten Fehlversuch leuchtet der richtige Platz mit einem Schatten des Fahrzeugs. Manche Runden drehen die Aufgabe um: Benno hat schon geparkt, und das Kind tippt auf seinen Lastwagen.",
+        "Die Übung folgt dem Lehrplan im Bereich Raum und Form: Lagebeziehungen zwischen Gegenständen beschreiben. Die Lehrkraft wählt die Wörter über, unter, neben, zwischen, links und rechts, die Turmwörter (oben auf, unter, neben, im und draußen vor dem Turm; oberste, mittlere und unterste Etage) oder den Dachplan, der darüber hinaus Kartenkenntnisse der zweiten Klasse übt: Spalten mit Buchstaben und Zeilen mit Zahlen auf einem 6 × 6- oder 10 × 10-Gitter, Felder wie B2 zum Parken oder D3 zum Ablesen an zwei Rädern und ein Kompass, dessen Norden nicht immer oben ist. Die Fahrzeuge und Benno stammen aus der Bildbibliothek. Ohne Zeitdruck, ohne Punkte."
       ],
       "practices": [
-        "Lagebeziehungen mit über, unter, neben und zwischen erkennen und zuordnen",
-        "genau zuhören und das Positionswort in eine räumliche Lage übersetzen",
-        "die Mitte zwischen zwei Bezugsfahrzeugen bestimmen („zwischen“)",
-        "eine genannte Lage wiedererkennen und das passende Fahrzeug finden"
+        "Über, unter, neben und zwischen – immer vom Betrachter aus gesehen",
+        "Links und rechts neben einem anderen Gegenstand",
+        "Oben auf, unter, neben, im und draußen vor dem Turm; oberste, mittlere und unterste Etage",
+        "Felder im Gitter lesen und einstellen (Buchstabe oben, Zahl an der Seite) und die vier Himmelsrichtungen"
       ],
       "howToPlay": [
-        "Höre auf Bennos Wort: über, unter, neben oder zwischen.",
-        "Parke das Fahrzeug in der Etage, die zum Wort und zum Bezugsfahrzeug passt.",
-        "In der Umkehrrunde tippst du das Fahrzeug an, das schon an der genannten Stelle steht."
+        "Lies den Satz: Das türkis unterstrichene Wort ist das Fahrzeug zum Parken, das korallenrote das Fahrzeug, an dem es sich ausrichtet.",
+        "Tippe auf einen leeren Platz; das Fahrzeug fährt mit dem Aufzug hin, und die Spur bleibt.",
+        "Auf dem Dachplan tippst du auf ein Feld oder stellst mit den Rädern Buchstabe und Zahl ein.",
+        "Tippe auf Prüfen."
       ],
       "learningGoals": [
-        "Das Kind beschreibt und nutzt die Lagebeziehungen über, unter, neben und zwischen sicher.",
-        "Das Kind ordnet ein Fahrzeug einer Lage relativ zu einem Bezugsobjekt korrekt zu.",
-        "Das Kind erkennt eine genannte räumliche Lage wieder und findet den passenden Platz."
+        "Die Lage eines Gegenstands im Verhältnis zu einem anderen beschreiben",
+        "Über von neben unterscheiden und zwischen von neben einem der beiden",
+        "Ein Feld nach seinem Buchstaben und seiner Zahl finden und Norden, Osten, Süden und Westen auf einer Karte nutzen"
       ]
     },
     "clock-read.tell-time.1-md-b-3": {

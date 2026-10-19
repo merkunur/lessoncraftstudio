@@ -1560,24 +1560,26 @@
     },
     "parking-tower.place-by-relation.k-g-a-1": {
       "about": [
-        "Le castor Bramble gare ses véhicules dans un grand parking à étages ! À chaque tour, un mot de position — au-dessus, en dessous, à côté ou entre — dit où garer le véhicule par rapport à un autre. Le parking est vu en coupe, avec un sol bien visible entre les niveaux : ainsi, « au-dessus du bus » veut dire un étage plus haut, sans aucune ambiguïté. Le secret, c'est d'écouter le mot, pas de viser la place la plus proche. D'autres défis viennent enrichir le jeu : garer un véhicule entre deux autres, ou retrouver l'endroit où Bramble s'est garé.",
-        "Décrire des positions relatives avec les mots de l'espace — au-dessus, en dessous, à côté, entre — c'est « se repérer dans l'espace », un attendu de la Grande section. Ce vocabulaire spatial structure la pensée de l'enfant et prépare la géométrie. Le jeu fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Se repérer dans l'espace »)."
+        "Bramble le castor tient un parking à étages, et l’enfant gare chaque véhicule là où la phrase le dit : à côté du bus, au-dessus de la camionnette, en dessous de la voiture, entre le bus et la camionnette, à gauche du bulldozer. Il touche une place vide, et le véhicule roule jusqu’à l’ascenseur vitré, monte ou descend, puis roule sur son étage jusqu’à la place. Une activité interactive sur les mots de position pour la grande section, qui fonctionne dans le navigateur sans rien installer.",
+        "L’idée de l’outil : un véhicule ne peut que monter ou descendre avec l’ascenseur et rouler le long d’un étage, si bien que chaque mot de position devient un trajet que l’enfant voit. Au-dessus, c’est toujours un étage plus haut dans la même colonne, jamais un déplacement sur le côté, et le trajet en pointillés qui reste après le stationnement est un petit schéma du mot choisi. Une mauvaise place déclenche une aide qui montre au lieu d’expliquer : une flèche turquoise part du véhicule repère vers la position demandée, une flèche corail montre où se trouve vraiment le véhicule ; pour au-dessus et en dessous, le plancher entre les étages clignote ; à la deuxième erreur, la bonne place s’illumine avec l’ombre du véhicule. Certaines manches inversent la question : Bramble s’est déjà garé, et l’enfant touche son camion.",
+        "L’activité accompagne l’attendu de maternelle « se repérer dans l’espace » : situer des objets les uns par rapport aux autres avec le vocabulaire adapté. L’enseignant choisit les mots au-dessus, en dessous, à côté, entre, à gauche et à droite, les mots de la tour (en haut, sous, à côté, dans et en dehors de la tour ; dernier étage, étage du milieu, étage du bas) ou le plan du toit, qui va au-delà et prépare le repérage sur quadrillage du cycle 2 : des colonnes repérées par des lettres et des lignes par des nombres sur un quadrillage de 6 × 6 ou de 10 × 10, des cases comme B2 où se garer ou D3 à lire sur deux roues, et une boussole dont le nord n’est pas toujours en haut. Les véhicules et Bramble viennent de la bibliothèque d’illustrations. Sans chronomètre, sans score."
       ],
       "practices": [
-        "Comprendre les mots de position : au-dessus, en dessous, à côté, entre",
-        "Placer un objet par rapport à un autre",
-        "Écouter le mot plutôt que viser la place la plus proche",
-        "Se repérer entre plusieurs niveaux",
-        "Décrire une position relative"
+        "Au-dessus, en dessous, à côté et entre, toujours du point de vue de celui qui regarde",
+        "À gauche et à droite d’un autre objet",
+        "En haut, sous, à côté, dans et en dehors de la tour ; dernier étage, étage du milieu, étage du bas",
+        "Lire et coder une case d’un quadrillage (lettre en haut, nombre sur le côté) et les quatre points cardinaux"
       ],
       "howToPlay": [
-        "Écoute le mot de position, puis touche la place qui correspond.",
-        "Gare le véhicule au bon endroit, puis touche Vérifier."
+        "Lis la phrase : le mot souligné en turquoise est le véhicule à garer, celui en corail le véhicule repère.",
+        "Touche une place vide : le véhicule y va par l’ascenseur et le trajet reste.",
+        "Sur le plan du toit, touche une case ou tourne les roues de la lettre et du nombre.",
+        "Touche Vérifier."
       ],
       "learningGoals": [
-        "Utiliser les mots de position",
-        "Se repérer dans l'espace",
-        "Décrire des positions relatives"
+        "Situer un objet par rapport à un autre avec le bon mot de position",
+        "Distinguer au-dessus de à côté, et entre de à côté de l’un des deux",
+        "Retrouver une case d’après son codage et utiliser le nord, l’est, le sud et l’ouest sur un plan"
       ]
     },
     "pip-museum.curate-wing.k-g-a-2": {

@@ -1922,6 +1922,30 @@
         "Kjenne igjen når to beholdere rommer like mye",
         "Bruke det å helle som bevis, ikke utseendet"
       ]
+    },
+    "parking-tower.place-by-relation.k-g-a-1": {
+      "about": [
+        "Beveren Bjarne passer et parkeringshus, og barnet parkerer hvert kjøretøy der setningen sier: ved siden av bussen, over varebilen, under bilen, mellom bussen og varebilen, til venstre for bulldoseren. Trykk på en tom plass, så kjører kjøretøyet til glassheisen, kjører opp eller ned og ruller langs etasjen sin inn på plassen. En interaktiv øvelse i plasseringsord for 1. trinn som virker i nettleseren uten installasjon.",
+        "Det lure er at et kjøretøy bare kan kjøre heisen opp og ned og kjøre langs en etasje, så hvert plasseringsord blir en rute barnet ser. Over er alltid én tur opp med heisen i samme kolonne, aldri en kjøretur til siden, og det prikkete sporet som blir liggende etter parkeringen, er en liten tegning av ordet barnet valgte. En feil plass gir hjelp som viser i stedet for å forklare: en turkis pil vokser fra referansekjøretøyet mot plassen det spørres om, og en korallrød pil peker dit kjøretøyet faktisk står; ved over og under blinker gulvet mellom etasjene; ved den andre feilen lyser riktig plass med en skygge av kjøretøyet. Noen runder snur på spørsmålet: Bjarne har allerede parkert, og barnet trykker på lastebilen hans.",
+        "Øvelsen følger LK20 i matematikk, geometri: å beskrive plasseringen til gjenstander i forhold til hverandre med plasseringsord. Læreren velger ordene over, under, ved siden av, mellom, venstre og høyre, tårnordene (oppå, under, ved siden av, inne i og utenfor tårnet; øverste, midterste og nederste etasje) eller takplanen, som går lenger og øver kartlesing for 2. trinn: kolonner med bokstaver og rader med tall på et rutenett med 6 × 6 eller 10 × 10 ruter, ruter som B2 å parkere på eller D3 å lese av på to hjul, og et kompass der nord ikke alltid peker oppover. Kjøretøyene og Bjarne kommer fra bildebiblioteket. Ingen klokke, ingen poeng."
+      ],
+      "practices": [
+        "Over, under, ved siden av og mellom, alltid sett fra den som ser",
+        "Til venstre og til høyre for en annen gjenstand",
+        "Oppå, under, ved siden av, inne i og utenfor tårnet; øverste, midterste og nederste etasje",
+        "Å lese og stille inn ruter i et rutenett (bokstav øverst, tall på siden) og de fire himmelretningene"
+      ],
+      "howToPlay": [
+        "Les setningen: det turkise ordet er kjøretøyet du skal parkere, det korallrøde er kjøretøyet det skal stå i forhold til.",
+        "Trykk på en tom plass; kjøretøyet kjører dit med heisen, og sporet blir liggende.",
+        "På takplanen trykker du på en rute eller dreier bokstav- og tallhjulet.",
+        "Trykk på Sjekk."
+      ],
+      "learningGoals": [
+        "Beskrive plasseringen til en gjenstand i forhold til en annen med plasseringsord",
+        "Skille over fra ved siden av, og mellom fra ved siden av den ene",
+        "Finne en rute med bokstav og tall og bruke nord, øst, sør og vest på et kart"
+      ]
     }
   }
 }

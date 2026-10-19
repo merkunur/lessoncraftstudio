@@ -3281,25 +3281,26 @@
     },
     "parking-tower.place-by-relation.k-g-a-1": {
       "about": [
-        "Bruno il castoro gestisce una torre-parcheggio vista di lato, con tanti piani, e a ogni turno consegna a tuo figlio un veicolo da sistemare al posto giusto: sopra, sotto, accanto o tra le altre automobili.",
-        "L’attività allena a imparare e usare le parole di posizione — sopra, sotto, accanto e tra — ascoltando la parola e collocando il veicolo nel punto corretto rispetto a un altro mezzo, per imparare a orientarsi nello spazio.",
-        "È pensata per la classe prima e allineata alle Indicazioni nazionali, ed è senza registrazione, senza timer e senza punteggio."
+        "Bruno il castoro gestisce una torre-parcheggio, e il bambino parcheggia ogni veicolo dove dice la frase: accanto all’autobus, sopra il furgone, sotto la macchina, tra l’autobus e il furgone, a sinistra del bulldozer. Toccando un posto vuoto, il veicolo raggiunge l’ascensore di vetro, sale o scende e scorre lungo il suo piano fino al posto. È un’attività interattiva sulle parole di posizione per la classe prima, che funziona nel browser senza installare nulla.",
+        "L’idea è che un veicolo può soltanto salire e scendere con l’ascensore e muoversi lungo un piano, così ogni parola di posizione diventa un percorso che il bambino vede. Sopra è sempre una corsa di un piano verso l’alto nella stessa colonna, mai uno spostamento di lato, e il percorso tratteggiato che resta dopo il parcheggio è un piccolo disegno della parola scelta. Un posto sbagliato porta un aiuto che mostra invece di spiegare: una freccia turchese parte dal veicolo di riferimento verso la posizione richiesta e una freccia corallo indica dove si trova davvero il veicolo; per sopra e sotto lampeggia il solaio tra i piani; al secondo errore il posto giusto si illumina con l’ombra del veicolo. Alcuni turni capovolgono la domanda: Bruno ha già parcheggiato e il bambino tocca il suo camion.",
+        "L’attività segue le Indicazioni nazionali per la classe prima: comunicare la posizione di oggetti rispetto ad altri oggetti usando termini adeguati come sopra, sotto, accanto e tra. L’insegnante sceglie le parole sopra, sotto, accanto, tra, sinistra e destra, le parole della torre (in cima, sotto, accanto, dentro e fuori dalla torre; il piano più alto, quello di mezzo e quello più basso) oppure la pianta del tetto, che va oltre e allena la lettura delle mappe della classe seconda: colonne con lettere e righe con numeri su una griglia di 6 × 6 o di 10 × 10, caselle come B2 dove parcheggiare o D3 da leggere su due rotelle, e una bussola il cui nord non sempre punta in alto. I veicoli e Bruno vengono dalla biblioteca di illustrazioni. Niente cronometro, niente punteggio."
       ],
       "practices": [
-        "Usare le parole sopra e sotto",
-        "Usare la parola accanto",
-        "Usare la parola tra",
-        "Ascoltare la parola di posizione e scegliere il posto giusto"
+        "Sopra, sotto, accanto e tra, sempre dal punto di vista di chi guarda",
+        "A sinistra e a destra di un altro oggetto",
+        "In cima, sotto, accanto, dentro e fuori dalla torre; piano più alto, di mezzo e più basso",
+        "Leggere e impostare le caselle di una griglia (lettera in alto, numero sul lato) e i quattro punti cardinali"
       ],
       "howToPlay": [
-        "Ascolta dove va parcheggiato il veicolo",
-        "Tocca il posto giusto: sopra, sotto, accanto o tra",
-        "Tocca Verifica"
+        "Leggi la frase: la parola sottolineata in turchese è il veicolo da parcheggiare, quella in corallo il veicolo di riferimento.",
+        "Tocca un posto vuoto: il veicolo ci arriva con l’ascensore e il percorso resta.",
+        "Sulla pianta del tetto tocca una casella oppure gira le rotelle della lettera e del numero.",
+        "Tocca Controlla."
       ],
       "learningGoals": [
-        "Tuo figlio impara a usare le parole di posizione sopra, sotto, accanto e tra",
-        "Tuo figlio impara a collocare un oggetto rispetto a un altro",
-        "Tuo figlio impara a orientarsi nello spazio"
+        "Comunicare la posizione di un oggetto rispetto a un altro",
+        "Distinguere sopra da accanto, e tra da accanto a uno dei due",
+        "Trovare una casella dalla lettera e dal numero e usare nord, est, sud e ovest su una mappa"
       ]
     },
     "clock-read.tell-time.1-md-b-3": {

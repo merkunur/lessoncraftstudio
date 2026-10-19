@@ -1936,6 +1936,30 @@
         "Genkende, når to beholdere kan rumme lige meget",
         "Bruge det at hælde som bevis, ikke udseendet"
       ]
+    },
+    "parking-tower.place-by-relation.k-g-a-1": {
+      "about": [
+        "Bæveren Bent passer et parkeringshus, og barnet parkerer hvert køretøj, hvor sætningen siger: ved siden af bussen, over varevognen, under bilen, mellem bussen og varevognen, til venstre for bulldozeren. Tryk på en tom plads, så kører køretøjet hen til glaselevatoren, kører op eller ned og ruller hen ad sin etage ind på pladsen. En interaktiv øvelse i positionsord til 1. klasse, der virker i browseren uden installation.",
+        "Det smarte er, at et køretøj kun kan køre op og ned med elevatoren og hen ad en etage, så hvert positionsord bliver en rute, barnet kan se. Over er altid én tur op med elevatoren i samme kolonne, aldrig en kørsel til siden, og den prikkede rute, der bliver liggende efter parkeringen, er en lille tegning af det ord, barnet valgte. En forkert plads giver hjælp, der viser i stedet for at forklare: en turkis pil vokser fra referencekøretøjet mod den ønskede plads, og en koralrød pil peger på, hvor køretøjet faktisk holder; ved over og under blinker gulvet mellem etagerne; ved anden fejl lyser den rigtige plads med en skygge af køretøjet. Nogle runder vender spørgsmålet om: Bent har allerede parkeret, og barnet trykker på hans lastbil.",
+        "Øvelsen følger Fælles Mål i matematik, geometri: at beskrive tings placering i forhold til hinanden med positionsord. Læreren vælger ordene over, under, ved siden af, mellem, venstre og højre, tårnordene (oven på, under, ved siden af, inde i og uden for tårnet; øverste, midterste og nederste etage) eller tagplanen, som går videre og øver kortlæsning til 2. klasse: kolonner med bogstaver og rækker med tal på et gitter med 6 × 6 eller 10 × 10 felter, felter som B2 at parkere på eller D3 at aflæse på to hjul, og et kompas, hvor nord ikke altid peger opad. Køretøjerne og Bent kommer fra billedbiblioteket. Intet ur, ingen point."
+      ],
+      "practices": [
+        "Over, under, ved siden af og mellem, altid set fra den, der kigger",
+        "Til venstre og til højre for en anden ting",
+        "Oven på, under, ved siden af, inde i og uden for tårnet; øverste, midterste og nederste etage",
+        "At aflæse og indstille felter i et gitter (bogstav øverst, tal i siden) og de fire verdenshjørner"
+      ],
+      "howToPlay": [
+        "Læs sætningen: det turkise ord er køretøjet, du skal parkere, det koralrøde er køretøjet, det skal holde i forhold til.",
+        "Tryk på en tom plads; køretøjet kører derhen med elevatoren, og ruten bliver liggende.",
+        "På tagplanen trykker du på et felt eller drejer bogstav- og talhjulet.",
+        "Tryk på Tjek."
+      ],
+      "learningGoals": [
+        "Beskrive en tings placering i forhold til en anden med positionsord",
+        "Skelne over fra ved siden af, og mellem fra ved siden af den ene",
+        "Finde et felt ud fra bogstav og tal og bruge nord, øst, syd og vest på et kort"
+      ]
     }
   }
 }

@@ -3044,25 +3044,26 @@
     },
     "parking-tower.place-by-relation.k-g-a-1": {
       "about": [
-        "Beaver Bramble needs a truck parked in his side-on parking tower — above the van, below the car, next to the bus, or between the bus and the van — and children listen to the position word to find the right bay. It's an interactive Kindergarten activity for position words that plays right in the browser with no account and no sign-up.",
-        "The tower has a floor between its levels, so 'above' means one level straight up, not just the nearest open spot — the child has to listen to the position word and read the scene rather than grabbing the closest bay. Later rounds park between two trucks or work backward, keeping the focus on the relationship between things, not on guessing.",
-        "It is aligned to Common Core K.G.A.1 — describing the relative positions of objects using words like above, below, beside, and between. No timer, no score — just calm, playful practice."
+        "Bramble the beaver runs a parking tower, and the child parks each vehicle where the sentence says: next to the bus, above the van, below the car, between the bus and the van, to the left of the bulldozer. Tap an empty space and the vehicle drives to the glass lift, rides it up or down, and rolls along its floor into the space. It is an interactive Kindergarten activity about position words that runs in the browser with nothing to install.",
+        "The invention is that a vehicle can only ride the lift up and down and drive along a floor, so every position word becomes a route the child can see. Above is always one ride up the lift in the same column, never a drive sideways, and the dotted route that stays after parking is a small diagram of the word the child chose. A wrong space brings help that shows instead of tells: a teal arrow grows from the landmark towards the asked position and a coral arrow points to where the vehicle actually is; the floor between the levels pulses for above and below; a second miss makes the right space glow with a ghost of the vehicle. Some rounds turn it round: Bramble has already parked, and the child taps his truck.",
+        "It is aligned to Common Core K.G.A.1: describing the relative positions of objects with words such as above, below, beside, in front of, behind and next to. Teachers choose the near words (above, below, next to, between, left, right), the tower words (on top of, under, beside, inside and outside the tower; the top, middle and bottom level), or the roof plan, which reaches beyond K.G.A.1 to the map skills of second grade: lettered columns and numbered rows on a 6 × 6 or a 10 × 10 grid, codes such as B2 to park in or D3 to read on two dials, and a compass whose north does not always point up. The vehicles and Bramble come from the illustrated library. No timer, no score."
       ],
       "practices": [
-        "Listen to a position word — above, below, next to, between",
-        "Read where things sit in a scene and park by the relationship",
-        "Tell 'above' (one level up) apart from the nearest open spot",
-        "Place something between two landmarks"
+        "Above, below, next to and between, always from the viewer's side",
+        "Left and right of another object",
+        "On top of, under, beside, inside and outside; top, middle and bottom level",
+        "Reading and writing grid codes (letter across, number down) and the four compass directions"
       ],
       "howToPlay": [
-        "Read or listen to where the truck should park, like 'above the van.'",
-        "Tap the parking spot that matches that position word, then press Check.",
-        "Not quite? Listen again and try another spot; there is no timer and no score."
+        "Read the sentence: the teal word is the vehicle to park, the coral word the vehicle it is parked next to.",
+        "Tap an empty space; the vehicle drives there by the lift and the route stays.",
+        "On the roof plan, tap a square, or turn the letter and number wheels to set a code.",
+        "Press Check."
       ],
       "learningGoals": [
-        "Describe and use the position words above, below, beside, and between — the focus of Common Core K.G.A.1",
-        "Place an object by its relationship to others, not by the nearest space",
-        "Read where things sit in a simple scene"
+        "Describe the position of an object relative to another, the focus of Common Core K.G.A.1",
+        "Tell above from next to, and between from beside one of them",
+        "Find a square from its grid code and use north, east, south and west on a map"
       ]
     },
     "patchwork-meadow.tile.3-md-c-6": {

@@ -76,3 +76,14 @@ ORDER row 41 · id `choice-board.letter-case.rf-k-1-d` (kept).
 - **nl page_intro** describes the old activity (a big letter in the middle, four small letters below) and says "groep 3" for kleuter content.
 - **English-style title case** in nl, da, no, fi, es, it and pt page_title. The da/nl slugs "match-…" are anglicisms.
 - **The intros** (except the generic de and fr ones) describe only the pairs level.
+
+## Deploy (2026-10-20)
+- **Commit 2ec44bf3.** deploy.sh returned EXIT 0, with 0 payment-canary failures. All eleven locale pages return 200.
+- **Production play:** 96 / 96 (en / sv / fi / de at 1366 and 390).
+  - Pairs: a wrong sort dragged in bounces (one miss, the slot empty), the right sort is dragged in, and the press prints the pair.
+  - Look-alikes: a look-alike is marked and unmarked, every target is tapped, and the press prints.
+  - In words: every copy is tapped, the count key is set, and the press prints.
+  - The wrapper version matches, and the iframe grows with the card.
+  - The script first targeted `.is-empty`, which no longer exists after a bounce shows the tipped sort. It now targets the lit compartment without the given sort.
+- **Live variety probe:** 8 distinct rounds, and pass 2 is reshuffled, in all 11 locales. Finnish timed out as the 11th page and passes on its own.
+- **Server disk after the deploy:** 134 GB available of 436 GB (68 % used).

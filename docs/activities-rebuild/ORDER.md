@@ -38,7 +38,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 28 | LIVE 2026-10-19 → `ten-seat-wheel-activity` (the Ten-Seat Wheel), 11 locales; operator review pending | K | K.OA.A.4 | `numberbond.make-ten.k-oa-a-4` | number-bond-activity | Make 10 — Number Bonds to Ten (Kindergarten) |
 | 29 | LIVE 2026-10-19 → `music-box-activity` (the Music-Box Strip), 11 locales; operator review pending | K | K.OA.A.5 | `ten-frame.quick-facts-to-5.k-oa-a-5` | ten-frame-activity | Quick Facts to 5 — Add & Subtract Fluently |
 | 30 | LIVE 2026-10-19 → `overflow-trays-activity` (the Overflow Trays), 11 locales; operator review pending | K | K.NBT.A.1 | `ten-frame.teen-numbers.make-n` | ten-frame-activity | Teen Numbers 11 to 19 — Double Ten Frame Activity |
-| 31 |  | K | K.NBT.A.1 | `ten-tank.ten-frame-tank.k-nbt-a-1` | ten-tank-activity | Dewey's Ten-Tank — Make a Ten and Some Ones (Kindergarten) |
+| 31 | LIVE 2026-10-19 → `ghost-rafts-activity` (the Ghost Rafts), 11 locales; operator review pending | K | K.NBT.A.1 | `ten-tank.ten-frame-tank.k-nbt-a-1` | ten-tank-activity | Dewey's Ten-Tank — Make a Ten and Some Ones (Kindergarten) |
 | 32 |  | K | K.MD.A.1 | `choice-board.describe-attribute.k-md-a-1` | choice-board-activity | Describe Measurable Attributes — Long, Tall, Heavy / Kindergarten Measurement |
 | 33 |  | K | K.MD.A.2 | `bramble.holds-more.k-md-a-2` | bramble-activity | Which Holds More? — Bramble's Berry-Juice Stand |
 | 34 |  | K | K.MD.A.2 | `choice-board.compare-length.k-md-2` | choice-board-activity | Comparing Length — Taller, Shorter, Longer / Kindergarten Measurement |

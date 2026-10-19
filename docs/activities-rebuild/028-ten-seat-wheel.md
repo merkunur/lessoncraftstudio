@@ -64,3 +64,6 @@ ORDER row 28 · id `numberbond.make-ten.k-oa-a-4` (kept) · own files `ten-seat-
 - **A layout sweep at even widths only let "the queue shows the answer" survive** (the mutant keyed on W % 2). Sweep odd widths too.
 - **Every locale has to fit, not only English:** fr/fi's longer Fairground note ran 18 px past a 360 fold that en cleared. `tw-playfit` checks all 11 at 320/360/412.
 - **Reviewer claims are reproduced before acting:** two of twenty-six were wrong about the apparatus.
+
+## Live (2026-10-19)
+Commit be024983, wrapper 9.762, deploy exit 0. `live-verify-ten-seat-wheel.js` 72/72 on production (en/sv/fi/de × 1366/390): 7 aboard, dial 2 lurches ("There are still empty seats."), dial 6 leaves three on the edge and the brake holds, dial 3 spins; whole 2 + 2 set on the hub. All eleven locale pages 200.

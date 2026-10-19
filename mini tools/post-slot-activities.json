@@ -10,7 +10,7 @@
       "strand": "Geometry"
     },
     "params": {
-      "tasks": [
+      "taskOptions": [
         "sort",
         "faces",
         "things"

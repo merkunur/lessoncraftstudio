@@ -89,3 +89,13 @@ ORDER row 39 · id `choice-board.flat-solid.k-g-a-3` (kept).
 - **no title:** "i barnehagen" is preschool in Norway.
 - **de title:** "Kindergarten" is not a school level in Germany.
 - **es title:** "¿Plana o sólida?", while the screen uses the SEP term "cuerpo geométrico".
+
+## Deploy (2026-10-19)
+- **Commit 17b5ca67.** deploy.sh returned EXIT 0, with 0 payment-canary failures. All eleven locale pages return 200.
+- **Production play:** 96 / 96 (en / sv / fi / de at 1366 and 390).
+  - The sort: one shape dragged, the rest tapped, one flat shape on the parcel tray bounces back as a line, then the bag is posted.
+  - The count: the cube is opened, six postmarks and 6, and the net is posted.
+  - The dice picture loads with its outline; the wrapper version matches and the iframe grows with the card.
+  - One run failed sv@1366 three times after a Check tap. It reproduced 0 times in 2 reruns: the harness clicked before the iframe finished resizing as the trays filled. The harness now settles for 350 ms after each scroll.
+- ⚠ **Live variety probe, first run:** "pool 3, only 3 distinct". The manifest listed the three settings as `params.tasks`, and by the probe's convention `params.tasks` is the round list (match-pairs). The manifest misdescribed the pool; the gate was right. The key was renamed `taskOptions`, and the probe now asks the core: 8 distinct rounds, and pass 2 is reshuffled, in all 11 locales. Finnish timed out as the 11th page and passes on its own. **Never name a manifest param `rounds` / `targets` / `items` / `tasks` / `problems` / `pairs` / `words` unless it IS the round pool.**
+- **Server disk after the deploy:** 134 GB available of 436 GB (68 % used).

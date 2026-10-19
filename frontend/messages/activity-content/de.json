@@ -3392,25 +3392,26 @@
     },
     "choice-board.describe-attribute.k-md-a-1": {
       "about": [
-        "Ein Alltagsgegenstand erscheint, und das Kind tippt auf das Wort, das ihn am besten beschreibt — lang, hoch oder schwer. Die Gegenstände sind so gewählt, dass eine Eigenschaft deutlich hervorsticht: Ein Stift und eine Karotte sind lang, eine Giraffe ist hoch, ein Stein und ein Kürbis sind schwer. Diese interaktive Übung zum Größen-Beschreiben im Kindergarten läuft direkt im Browser, ganz ohne Konto.",
-        "Es geht darum, den Arten, wie wir Dinge messen, Worte zu geben — noch bevor Zahlen oder Lineale ins Spiel kommen. Das Kind zählt und misst hier nicht, sondern schaut sich einen echten Gegenstand an und entscheidet, welche messbare Eigenschaft passt: Länge, Höhe oder Gewicht. Weil jeder abgebildete Gegenstand eine klar stärkste Eigenschaft hat, übt das Kind zu erkennen, welche Art von Messung ein Ding einlädt — die sprachliche Grundlage allen späteren Messens.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Größen und Messen ausgerichtet — messbare Eigenschaften eines Gegenstands wie Länge, Höhe und Gewicht beschreiben. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+        "Lang, hoch und schwer sind drei verschiedene Arten zu messen, deshalb antwortet das Kind hier, indem es eine Mess-Station wählt. Eine Zeichenkarte stellt die Frage ohne Worte: ein waagrechter Pfeil für „wie lang“, ein senkrechter Pfeil für „wie hoch“, ein Gewicht für „wie schwer“. Das Bild kann auf die Schiene gelegt werden (ein Schieber fährt bis zu seinem Ende und hinterlässt einen Balken), an die Messlatte gestellt werden (eine Kappe senkt sich auf seine Spitze) oder an die Federwaage gehängt werden (die Schale sinkt und wippt, weit bei etwas Schwerem, kaum bei etwas Leichtem). Eine interaktive Mess-Übung für Klasse 1, die im Browser läuft, ohne Installation.",
+        "Das Besondere: Eine falsche Station misst trotzdem, und zwar ehrlich das Falsche. Legt das Kind die Giraffe auf die Schiene, wenn gefragt ist, wie hoch sie ist, kippt sie um und liegt: Die Schiene zeigt, wie lang sie im Liegen ist, und das Zeichen der Schiene erscheint neben dem der Frage, zwei verschiedene Zeichen nebeneinander. Nach einem zweiten Fehlversuch leuchtet die richtige Station. Der Bleistift liegt an der Messlatte lang und flach, der Stein zieht die Federwaage weit nach unten. In der schwereren Stufe wird ein Bild auf zwei Arten gemessen, und eine Messkarte fällt in ein Album: Die Sonnenblume ist an der Federwaage leicht und an der Messlatte hoch: Hoch heißt nicht schwer. „Groß oder klein“ ist ein zweites Instrument: Ein quadratisches Größenfenster gleitet nach dem Prüfen über die Bilder, ein großes ragt heraus, ein kleines passt mit Platz hinein, so wird „groß“ gezeigt und nicht nur gesagt.",
+        "Die Übung folgt den Lehrplänen im Bereich Größen und Messen: messbare Eigenschaften eines Gegenstands wie Länge, Höhe und Gewicht beschreiben, auch mehrere an einem Gegenstand. Die Bilder stammen aus der illustrierten Bibliothek, und jedes wird entlang seiner eigenen gezeichneten Form hingelegt oder aufgestellt. Lehrkräfte wählen „Lang, hoch, schwer“ oder „Groß oder klein“ und eine leichtere oder schwerere Stufe. „Alles ausprobieren“ ist offenes Spiel: 17 Bilder auf jede Station legen und schauen, was sie misst. Kein Timer, keine Punkte."
       ],
       "practices": [
-        "Einen Gegenstand dem passenden Größen-Wort zuordnen — lang, hoch oder schwer.",
-        "Länge, Höhe und Gewicht als unterschiedliche Arten des Messens auseinanderhalten.",
-        "Einen echten Gegenstand betrachten und entscheiden, welche Art von Messung er einlädt.",
-        "Den Größenwortschatz aufbauen, der vor dem Zählen und vor dem Lineal kommt."
+        "Lang, hoch und schwer unterscheiden",
+        "Die passende Art zu messen wählen",
+        "Einen Gegenstand auf zwei Arten beschreiben (lang und leicht)",
+        "Groß und klein mit einem Größenfenster unterscheiden"
       ],
       "howToPlay": [
-        "Schau dir den Gegenstand auf dem Feld an — einen Stift, eine Giraffe oder einen Stein.",
-        "Tippe auf das Wort, das ihn am besten beschreibt — lang, hoch oder schwer — und drücke dann auf Prüfen.",
-        "Probiere es jederzeit erneut; es gibt keinen Timer und keine Punkte."
+        "Schau auf das Zeichen der Fragekarte.",
+        "Zieh das Bild auf eine Station, oder tipp auf das Bild und dann auf eine Station.",
+        "Eine falsche Station misst trotzdem: Vergleich ihr Zeichen mit der Frage.",
+        "Kein Timer, keine Punkte: Probier eine andere Station."
       ],
       "learningGoals": [
-        "Die messbaren Eigenschaften eines Gegenstands beschreiben — Länge, Höhe, Gewicht.",
-        "Die Wörter lang, hoch und schwer richtig für echte Gegenstände verwenden.",
-        "Die Größensprache aufbauen, auf die späteres Messen und Vergleichen angewiesen ist."
+        "Messbare Eigenschaften wie Länge, Höhe und Gewicht beschreiben",
+        "Mehrere messbare Eigenschaften eines Gegenstands beschreiben",
+        "Groß und klein durch Vergleich mit einem Fenster unterscheiden"
       ]
     },
     "choice-board.ten-more-less.1-nbt-c-5": {

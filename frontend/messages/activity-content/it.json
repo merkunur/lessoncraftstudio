@@ -1904,25 +1904,26 @@
     },
     "choice-board.describe-attribute.k-md-a-1": {
       "about": [
-        "Sullo schermo appare un oggetto di tutti i giorni e il bambino tocca la parola che lo descrive meglio — lungo, alto o pesante. Gli oggetti sono scelti perché una caratteristica spicca con chiarezza: una matita e una carota sono lunghe, una giraffa è alta, un sasso e una zucca sono pesanti. È un'attività interattiva di misura per la scuola dell'infanzia, che si gioca direttamente nel browser, senza account.",
-        "Lo scopo è dare un nome ai modi in cui misuriamo le cose, prima ancora di numeri e righelli. Qui il bambino non conta e non misura: osserva un oggetto reale e decide quale caratteristica misurabile gli si addice — lunghezza, altezza o peso. Poiché ogni oggetto ha una caratteristica nettamente prevalente, il bambino si esercita a notare che tipo di misura invita ciascuna cosa, e questo è il fondamento linguistico di ogni misurazione futura.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito della misura: descrivere le caratteristiche misurabili di un oggetto, come lunghezza, altezza e peso. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
+        "Lungo, alto e pesante sono tre modi diversi di misurare, così qui il bambino risponde scegliendo una stazione di misura. Una scheda con un segno fa la domanda senza parole: una freccia sdraiata per la lunghezza, una freccia in piedi per l’altezza, un peso per il peso. L’immagine si può sdraiare sul binario (un cursore corre fino alla punta e lascia una barra), mettere in piedi contro l’asta (un cappello scende sulla sua cima) o appendere alla molla (il piatto scende e oscilla, molto con una cosa pesante, quasi niente con una leggera). È un’attività interattiva di misura per la scuola dell’infanzia che funziona nel browser, senza installare nulla.",
+        "La novità è che una stazione sbagliata misura comunque, e misura davvero la cosa sbagliata. Se il bambino mette la giraffa sul binario quando la domanda riguarda l’altezza, la giraffa si ribalta e si sdraia: il binario mostra quanto è lunga sdraiata, e il segno del binario compare accanto a quello della domanda, due segni diversi fianco a fianco. Al secondo tentativo sbagliato la stazione giusta si illumina. La matita resta lunga e bassa contro l’asta; la roccia tira la molla molto giù. Nel livello più difficile un’immagine si misura in due modi e una scheda di misura cade in un album: il girasole è leggero sulla molla e alto contro l’asta: alto non vuol dire pesante. «Grande o piccolo» è un secondo strumento: dopo Controlla, una finestra quadrata scorre sulle immagini, una grande esce fuori e una piccola ci sta dentro con spazio, così «grande» si vede invece di dirsi.",
+        "L’attività è allineata alle Indicazioni nazionali, nell’ambito della misura: descrivere le caratteristiche misurabili di un oggetto, come lunghezza, altezza e peso, e descriverne più di una per lo stesso oggetto. Le immagini vengono dalla biblioteca illustrata, e ognuna viene sdraiata o messa in piedi secondo la propria forma disegnata. L’insegnante sceglie «Lungo, alto, pesante» o «Grande o piccolo», e un livello più facile o più difficile. «Prova tutto» è gioco aperto: mettere una qualsiasi delle 17 immagini su qualsiasi stazione e guardare che cosa misura. Nessun timer, nessun punteggio."
       ],
       "practices": [
-        "Abbinare un oggetto alla parola di misura che gli si addice — lungo, alto o pesante.",
-        "Distinguere lunghezza, altezza e peso come modi diversi di misurare.",
-        "Osservare un oggetto reale e decidere che tipo di misura invita.",
-        "Costruire il vocabolario della misura che precede il contare e l'uso del righello."
+        "Distinguere lunghezza, altezza e peso",
+        "Scegliere il modo giusto di misurare una cosa",
+        "Descrivere un oggetto in due modi (lungo e leggero)",
+        "Distinguere grande e piccolo con una finestra della grandezza"
       ],
       "howToPlay": [
-        "Guarda l'oggetto sulla lavagna — una matita, una giraffa o un sasso.",
-        "Tocca la parola che lo descrive meglio — lungo, alto o pesante — poi premi «Controlla».",
-        "Riprova quando vuoi: non c'è timer e non c'è punteggio."
+        "Guarda il segno sulla scheda della domanda.",
+        "Trascina l’immagine su una stazione, oppure tocca l’immagine e poi una stazione.",
+        "Una stazione sbagliata misura comunque: confronta il suo segno con la domanda.",
+        "Nessun timer, nessun punteggio: prova un’altra stazione."
       ],
       "learningGoals": [
-        "Descrivere le caratteristiche misurabili di un oggetto — lunghezza, altezza, peso.",
-        "Usare correttamente le parole lungo, alto e pesante per oggetti reali.",
-        "Costruire il linguaggio della misura su cui poggiano il misurare e il confrontare futuri."
+        "Descrivere caratteristiche misurabili come lunghezza, altezza e peso",
+        "Descrivere più caratteristiche misurabili dello stesso oggetto",
+        "Distinguere grande e piccolo confrontando con una finestra"
       ]
     },
     "choice-board.ten-more-less.1-nbt-c-5": {

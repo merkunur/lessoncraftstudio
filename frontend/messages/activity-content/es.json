@@ -2949,25 +2949,26 @@
     },
     "choice-board.describe-attribute.k-md-a-1": {
       "about": [
-        "Se muestra un objeto de todos los días y tu hijo o hija toca la palabra que mejor lo describe: largo, alto o pesado. Los objetos están elegidos para que una sola característica salte a la vista: un lápiz y una zanahoria son largos, una jirafa es alta, y una roca y una calabaza son pesadas. Es una actividad de medición interactiva para preescolar que se juega directamente en el navegador, sin crear cuenta.",
-        "La meta es ponerles palabras a las formas en que medimos las cosas, antes de que aparezcan números o reglas. Aquí el niño o la niña no cuenta ni mide: observa un objeto real y decide qué característica medible le queda mejor —largo, alto o pesado—. Como cada objeto que se muestra tiene una característica claramente más fuerte, practica notar qué tipo de medición pide cada cosa, que es la base de lenguaje sobre la que descansa toda la medición posterior. Es una actividad para preescolar (kínder).",
-        "Está alineada con los planes y programas de estudio (SEP): describir las características medibles de un objeto, como su largo, su alto y su peso. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+        "Largo, alto y pesado son tres maneras distintas de medir, así que aquí la niña o el niño responde eligiendo una estación de medir. Una tarjeta con un signo hace la pregunta sin palabras: una flecha acostada para el largo, una flecha parada para el alto, una pesa para el peso. La imagen se puede acostar en el riel (un cursor corre hasta su punta y deja una barra), parar junto al poste (una tapa baja hasta su punta) o colgar del resorte (el plato baja y rebota, mucho con algo pesado, casi nada con algo ligero). Es una actividad interactiva de medida para preescolar que funciona en el navegador, sin instalar nada.",
+        "Lo especial es que una estación equivocada también mide, y mide de verdad lo que no es. Si se pone la jirafa en el riel cuando la pregunta es por el alto, se cae y se acuesta: el riel muestra cuánto mide de largo acostada, y el signo del riel aparece junto al de la pregunta, dos signos distintos lado a lado. Con un segundo intento equivocado, la estación correcta brilla. El lápiz queda largo y bajito junto al poste; la roca estira mucho el resorte. En el nivel más difícil una imagen se mide de dos maneras y una tarjeta de medidas cae en un álbum: el girasol es ligero en el resorte y alto junto al poste: alto no quiere decir pesado. «Grande o pequeño» es un segundo instrumento: después de Revisar, una ventana cuadrada pasa sobre las imágenes, una grande se sale y una pequeña cabe con espacio de sobra, así «grande» se demuestra en vez de decirse.",
+        "Está alineada a los planes y programas de estudio (SEP): describir características medibles de un objeto, como su largo, su alto y su peso, y describir varias de un mismo objeto. Las imágenes vienen de la biblioteca ilustrada, y cada una se acuesta o se para según su propia forma dibujada. La maestra o el maestro elige «Largo, alto, pesado» o «Grande o pequeño», y un nivel más fácil o más difícil. «Probar de todo» es juego abierto: poner cualquiera de 17 imágenes en cualquier estación y ver qué mide. Sin temporizador y sin puntuación."
       ],
       "practices": [
-        "Relacionar un objeto con la palabra de medición que le queda: largo, alto o pesado.",
-        "Distinguir largo, alto y peso como maneras diferentes de medir.",
-        "Observar un objeto real y decidir qué tipo de medición pide.",
-        "Construir el vocabulario de medición que va antes de contar y de usar la regla."
+        "Distinguir el largo, el alto y el peso",
+        "Elegir la manera correcta de medir algo",
+        "Describir un objeto de dos maneras (largo y ligero)",
+        "Distinguir grande y pequeño con una ventana de tamaños"
       ],
       "howToPlay": [
-        "Mira el objeto que aparece en el tablero: un lápiz, una jirafa o una roca.",
-        "Toca la palabra que mejor lo describe —largo, alto o pesado— y pulsa Comprobar.",
-        "Inténtalo cuando quieras: no hay temporizador ni puntuación."
+        "Mira el signo en la tarjeta de la pregunta.",
+        "Arrastra la imagen a una estación, o toca la imagen y luego una estación.",
+        "Una estación equivocada también mide: compara su signo con la pregunta.",
+        "Sin temporizador y sin puntuación: prueba otra estación."
       ],
       "learningGoals": [
-        "Tu hijo o hija puede describir las características medibles de un objeto: largo, alto y peso.",
-        "El niño o la niña aprende a usar correctamente las palabras largo, alto y pesado con objetos reales.",
-        "Desarrolla el lenguaje de medición del que dependerá medir y comparar más adelante."
+        "Describir características medibles como el largo, el alto y el peso",
+        "Describir varias características medibles de un mismo objeto",
+        "Distinguir grande y pequeño comparando con una ventana"
       ]
     },
     "choice-board.ten-more-less.1-nbt-c-5": {

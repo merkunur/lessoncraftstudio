@@ -1408,25 +1408,26 @@
     },
     "choice-board.describe-attribute.k-md-a-1": {
       "about": [
-        "Dar nome às formas de medir as coisas, antes de qualquer número ou régua, é o que a criança faz nesta atividade interativa de grandezas e medidas para a educação infantil. Aparece um objeto do dia a dia e ela toca na palavra que melhor o descreve — comprido, alto ou pesado. Os objetos são escolhidos para que uma característica se destaque com clareza: um lápis e uma cenoura são compridos, uma girafa é alta, uma pedra e uma abóbora são pesadas. Tudo roda no navegador, sem precisar de conta.",
-        "O objetivo é construir o vocabulário das medidas. A criança não conta nem mede aqui; ela observa um objeto de verdade e decide qual característica mensurável combina com ele — comprimento, altura ou peso. Como cada objeto da imagem tem uma característica bem mais evidente, a criança pratica perceber que tipo de medida cada coisa pede, e essa linguagem é a base de toda medição que vem depois.",
-        "A atividade está alinhada à BNCC, no trabalho de descrever atributos mensuráveis de um objeto, como comprimento, altura e peso. Sem cronômetro e sem pontuação — é uma prática calma e divertida."
+        "Comprido, alto e pesado são três jeitos diferentes de medir, então aqui a criança responde escolhendo uma estação de medida. Um cartão com um sinal faz a pergunta sem palavras: uma seta deitada para o comprimento, uma seta em pé para a altura, um peso para o peso. A figura pode ser deitada no trilho (um cursor corre até a ponta e deixa uma barra), colocada em pé junto ao poste (uma tampa desce até o topo) ou pendurada na mola (o prato desce e balança, muito com uma coisa pesada, quase nada com uma coisa leve). É uma atividade interativa de medidas para a Educação Infantil, que funciona no navegador, sem instalar nada.",
+        "A novidade é que uma estação errada também mede, e mede de verdade a coisa errada. Se a criança coloca a girafa no trilho quando a pergunta é a altura, ela tomba e fica deitada: o trilho mostra o comprimento dela deitada, e o sinal do trilho aparece ao lado do sinal da pergunta, dois sinais diferentes lado a lado. Na segunda tentativa errada, a estação certa brilha. O lápis fica comprido e baixinho junto ao poste; a pedra estica muito a mola. No nível mais difícil, uma figura é medida de dois jeitos e um cartão de medida cai num álbum: o girassol é leve na mola e alto junto ao poste: alto não quer dizer pesado. “Grande ou pequeno” é um segundo instrumento: depois de Conferir, uma janela quadrada passa sobre as figuras, uma grande fica para fora e uma pequena cabe com folga, e assim “grande” é mostrado, não só dito.",
+        "A atividade está alinhada à BNCC: descrever atributos mensuráveis de um objeto, como comprimento, altura e peso, e descrever vários deles para um mesmo objeto. As figuras vêm da biblioteca ilustrada, e cada uma é deitada ou posta em pé seguindo a própria forma desenhada. O professor escolhe “Comprido, alto, pesado” ou “Grande ou pequeno”, e um nível mais fácil ou mais difícil. “Testar tudo” é brincadeira aberta: colocar qualquer uma das 17 figuras em qualquer estação e ver o que ela mede. Sem cronômetro, sem pontuação."
       ],
       "practices": [
-        "Relacionar um objeto à palavra de medida que combina com ele — comprido, alto ou pesado.",
-        "Distinguir comprimento, altura e peso como formas diferentes de medir.",
-        "Observar um objeto de verdade e decidir que tipo de medida ele pede.",
-        "Construir o vocabulário de medidas que vem antes da contagem e da régua."
+        "Diferenciar comprimento, altura e peso",
+        "Escolher o jeito certo de medir uma coisa",
+        "Descrever um objeto de dois jeitos (comprido e leve)",
+        "Diferenciar grande e pequeno com uma janela do tamanho"
       ],
       "howToPlay": [
-        "Olhe o objeto no quadro — um lápis, uma girafa ou uma pedra.",
-        "Toque na palavra que melhor o descreve — comprido, alto ou pesado — e depois toque em Verificar.",
-        "Tente de novo quando quiser; não há cronômetro nem pontuação."
+        "Olhe o sinal no cartão da pergunta.",
+        "Arraste a figura para uma estação, ou toque na figura e depois numa estação.",
+        "Uma estação errada também mede: compare o sinal dela com a pergunta.",
+        "Sem cronômetro, sem pontuação: tente outra estação."
       ],
       "learningGoals": [
-        "A criança aprende a descrever os atributos mensuráveis de um objeto — comprimento, altura e peso.",
-        "A criança usa as palavras comprido, alto e pesado corretamente para objetos de verdade.",
-        "A criança constrói a linguagem de medidas de que o medir e o comparar vão depender mais tarde."
+        "Descrever atributos mensuráveis como comprimento, altura e peso",
+        "Descrever vários atributos mensuráveis de um mesmo objeto",
+        "Diferenciar grande e pequeno comparando com uma janela"
       ]
     },
     "choice-board.ten-more-less.1-nbt-c-5": {

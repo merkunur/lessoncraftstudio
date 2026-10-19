@@ -3361,25 +3361,26 @@
     },
     "choice-board.describe-attribute.k-md-a-1": {
       "about": [
-        "Er verschijnt één alledaags voorwerp en je kind tikt op het woord dat er het best bij past: lang, hoog of zwaar. De voorwerpen zijn zo gekozen dat één eigenschap duidelijk opvalt: een potlood en een wortel zijn lang, een giraf is hoog, en een steen en een pompoen zijn zwaar. Het is een interactieve meetactiviteit die zonder account direct in de browser speelt.",
-        "Het draait er hier om dat we woorden geven aan de manieren waarop we dingen meten, nog voordat er getallen of een liniaal aan te pas komen. Je kind telt of meet niet, maar kijkt naar een echt voorwerp en kiest welke meetbare eigenschap erbij hoort: lengte, hoogte of gewicht. Omdat elk voorwerp één duidelijk sterkste eigenschap heeft, oefent het kind het opmerken van het soort meting dat een voorwerp uitnodigt.",
-        "De activiteit hoort bij het domein Meten en is bedoeld voor de kleuterklas (groep 1-2): meetbare eigenschappen van een voorwerp beschrijven, zoals lengte, hoogte en gewicht. Past bij de kerndoelen. Geen timer, geen score; gewoon rustig kijken en kiezen."
+        "Lang, hoog en zwaar zijn drie verschillende manieren van meten, dus hier antwoordt het kind door een meetstation te kiezen. Een tekenkaart stelt de vraag zonder woorden: een liggende pijl voor hoe lang, een staande pijl voor hoe hoog, een gewicht voor hoe zwaar. Het plaatje kan op de rails gelegd worden (een schuifje rijdt tot het uiteinde en laat een balk achter), tegen de paal gezet worden (een kapje zakt op de bovenkant) of aan de veer gehangen worden (het schaaltje zakt en veert na, ver bij iets zwaars, nauwelijks bij iets lichts). Een interactieve meetactiviteit voor de kleuterklas die in de browser werkt, zonder iets te installeren.",
+        "Het bijzondere: een verkeerd station meet toch, en meet eerlijk het verkeerde. Zet het kind de giraf op de rails terwijl de vraag is hoe hoog hij is, dan valt hij om en ligt hij: de rails laat zien hoe lang hij liggend is, en het teken van de rails verschijnt naast dat van de vraag, twee verschillende tekens naast elkaar. Na een tweede verkeerde poging licht het goede station op. Het potlood ligt lang en laag tegen de paal; de steen trekt de veer ver naar beneden. Op het moeilijkere niveau wordt één plaatje op twee manieren gemeten en valt er een meetkaart in een album: de zonnebloem is licht aan de veer en hoog tegen de paal: hoog betekent niet zwaar. ‘Groot of klein’ is een tweede instrument: na Controleren glijdt een vierkant groottevenster over de plaatjes, een groot plaatje steekt uit en een klein past er met ruimte in, zo wordt ‘groot’ getoond en niet alleen gezegd.",
+        "De activiteit hoort bij het domein Meten en is bedoeld voor de kleuterklas (groep 1-2): meetbare eigenschappen van een voorwerp beschrijven, zoals lengte, hoogte en gewicht, ook meerdere van één voorwerp. Past bij de kerndoelen. De plaatjes komen uit de geïllustreerde bibliotheek, en elk wordt neergelegd of rechtop gezet langs zijn eigen getekende vorm. De leerkracht kiest ‘Lang, hoog, zwaar’ of ‘Groot of klein’, en een makkelijker of moeilijker niveau. ‘Alles proberen’ is open spel: een van de 17 plaatjes op elk station zetten en kijken wat het meet. Geen timer, geen score."
       ],
       "practices": [
-        "Een voorwerp koppelen aan het meetwoord dat erbij past: lang, hoog of zwaar",
-        "Lengte, hoogte en gewicht uit elkaar houden als verschillende manieren van meten",
-        "Naar een echt voorwerp kijken en bepalen welk soort meting erbij hoort",
-        "De meetwoorden opbouwen die vóór tellen en de liniaal komen"
+        "Lang, hoog en zwaar uit elkaar houden",
+        "De goede manier van meten kiezen",
+        "Eén voorwerp op twee manieren beschrijven (lang en licht)",
+        "Groot en klein onderscheiden met een groottevenster"
       ],
       "howToPlay": [
-        "Kijk naar het voorwerp op het bord, bijvoorbeeld een potlood, een giraf of een steen.",
-        "Tik op het woord dat er het best bij past, lang, hoog of zwaar, en druk op Controleer.",
-        "Probeer het wanneer je maar wilt; er is geen timer en geen score."
+        "Kijk naar het teken op de vraagkaart.",
+        "Sleep het plaatje naar een station, of tik op het plaatje en dan op een station.",
+        "Een verkeerd station meet toch: vergelijk zijn teken met de vraag.",
+        "Geen timer, geen score: probeer een ander station."
       ],
       "learningGoals": [
-        "Je kind beschrijft de meetbare eigenschappen van een voorwerp: lengte, hoogte en gewicht.",
-        "Het kind gebruikt de woorden lang, hoog en zwaar op de juiste manier voor echte voorwerpen.",
-        "Het kind bouwt de meettaal op waar later meten en vergelijken op verder gaan."
+        "Meetbare eigenschappen beschrijven zoals lengte, hoogte en gewicht",
+        "Meerdere meetbare eigenschappen van één voorwerp beschrijven",
+        "Groot en klein onderscheiden door te vergelijken met een venster"
       ]
     },
     "choice-board.ten-more-less.1-nbt-c-5": {

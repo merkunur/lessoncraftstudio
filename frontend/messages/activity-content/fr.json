@@ -3182,25 +3182,26 @@
     },
     "choice-board.count-sides.k-g-b-4": {
       "about": [
-        "Une forme apparaît à l'écran et l'enfant compte ses côtés droits, puis touche le nombre qui correspond : un triangle a 3 côtés, un carré 4, un pentagone 5, un hexagone 6. Les nombres proposés vont de 3 à 8. C'est une activité de géométrie interactive pour la maternelle, qui se joue directement dans le navigateur, sur tablette, téléphone ou ordinateur de la classe, sans rien installer et sans inscription.",
-        "La grande idée, c'est qu'une forme est bien plus que son nom : elle est faite de parties que l'on peut compter. L'enfant ne peut pas réussir en reconnaissant simplement « un triangle » ; il doit suivre chaque côté du regard et les compter un par un. Comme les nombres proposés contiennent des pièges très proches, comme 5 à côté de 6, une erreur d'un côté se remarque tout de suite, ce qui encourage à compter posément, le doigt sur chaque côté, plutôt qu'à deviner.",
-        "Cette activité est alignée sur les programmes officiels, dans le domaine Espace et géométrie : analyser et comparer les formes en décrivant leurs parties, comme le nombre de côtés. Les enfants avancent à leur rythme, avec un retour doux et immédiat — ni minuteur, ni score."
+        "Sous un tapis de jeu se trouve une boîte aux lettres rouge, et ses portes portent des nombres de 3 à 6 (jusqu’à 8 avec plus de formes), avec en dessous autant de bâtons et de points de sommet. Les formes du tapis sont tournées, étirées et irrégulières, jamais seulement les formes droites et sages. L’enfant fait glisser une forme jusqu’à une porte, ou touche la forme puis la porte. C’est une activité interactive de géométrie qui fonctionne dans le navigateur sans rien installer.",
+        "L’invention, c’est la porte. Quand on lui présente une forme, elle pose ses bâtons, un sur chaque côté. S’ils vont, la forme tombe dans le tiroir. Si la porte a trop de bâtons, il en reste un qui dégringole ; si elle n’en a pas assez, un côté reste nu et s’allume ; et une petite ligne sous la boîte dit ce qui s’est passé, par exemple « 4 bâtons pour 3 côtés ». Essayer une porte est toujours permis, car chaque refus montre la différence bâton par bâton. Toucher un côté y plante un fanion numéroté, et seul le dernier s’enlève, ainsi chaque côté est compté une fois. Après deux refus, chaque côté reçoit un trait et chaque sommet un point ; après quatre, les fanions se plantent tout seuls et la bonne porte respire.",
+        "L’activité suit les programmes officiels en « espace et géométrie » : reconnaître les figures par leurs éléments, le nombre de côtés et de sommets, quelles que soient leur taille et leur position. Trois autres modes l’élargissent. Le tri par côtés propose un plateau de formes et trois ou quatre portes numérotées. Vrai ou pas offre une grande porte pour un triangle, un carré ou un rectangle : une figure ouverte s’y défait, un bâton droit glisse sur un côté courbe, un long rectangle laisse des vides contre les bâtons égaux de la porte du carré, et un losange ne peut pas recevoir les marques d’angle droit ; le niveau plus difficile demande les propriétés au lieu des noms. Les portes à noms affichent des noms de formes à lire. Un carré passe par la porte du rectangle (et par celle du losange), puisqu’il en est un ; aucune manche ne pose donc cette question, et la discussion reste avec l’enseignant. À la fin, le tiroir montre chaque forme glissée avec son nom. L’enseignant choisit le mode et les formes. Sans chronomètre, sans score."
       ],
       "practices": [
-        "Compter les côtés droits d'un triangle, d'un carré, d'un pentagone et d'un hexagone.",
-        "Relier une forme à un nombre — le nombre de côtés qu'elle a, et pas seulement son nom.",
-        "Compter posément un côté à la fois, au lieu de deviner le total d'un coup d'œil.",
-        "Distinguer les formes par leurs parties, par exemple cinq côtés plutôt que six."
+        "Compter les côtés et les sommets d’une forme, chacun une fois",
+        "Reconnaître des formes tournées, étirées ou irrégulières",
+        "Trier des formes selon leur nombre de côtés",
+        "Distinguer de vrais triangles, carrés et rectangles des sosies ouverts, courbes ou bancals"
       ],
       "howToPlay": [
-        "Regarde la forme affichée et compte ses côtés droits, un par un.",
-        "Touche le nombre qui correspond à ce que tu as compté, puis appuie sur Vérifier.",
-        "Pas tout à fait ? Recommence autant de fois que tu veux — il n'y a ni minuteur, ni score."
+        "Fais glisser une forme jusqu’à une porte, ou touche la forme puis la porte.",
+        "Touche les côtés pour planter des fanions si tu veux les compter.",
+        "Dans les modes avec plateau, glisse chaque forme qui passe par sa porte, puis touche Vérifier.",
+        "Touche deux fois une forme pour la tourner."
       ],
       "learningGoals": [
-        "Compter le nombre de côtés des formes courantes.",
-        "Décrire une forme par ses parties plutôt que de seulement la nommer.",
-        "Installer les habitudes de comptage soigneux et d'analyse des formes sur lesquelles s'appuie la géométrie plus tard."
+        "Décrire les formes par leurs éléments",
+        "Compter les côtés un à un, quelle que soit la position ou la taille",
+        "Expliquer pourquoi une figure ouverte ou courbe n’est pas un polygone"
       ]
     },
     "choice-board.pick-smaller.k-c-c-7": {

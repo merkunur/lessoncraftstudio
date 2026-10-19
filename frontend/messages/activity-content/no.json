@@ -1083,25 +1083,26 @@
     },
     "choice-board.count-sides.k-g-b-4": {
       "about": [
-        "Én mangekant dukker opp om gangen, og barnet teller de rette sidene og trykker på tallet som passer — en trekant med 3 sider, et kvadrat med 4, en femkant med 5 eller en sekskant med 6. Tallene barnet kan velge mellom hentes fra et utvalg fra 3 til 8. Dette er en interaktiv geometriaktivitet for skolestart som spilles rett i nettleseren på nettbrett, telefon eller skolens datamaskin — ingenting å laste ned og ingen konto.",
-        "Den store ideen er at en form er mer enn navnet sitt — den er satt sammen av deler du kan telle. Barnet kan ikke vinne ved bare å kjenne igjen «en trekant»; det må følge hver kant med øynene og telle sidene én etter én. Fordi tallene ligger tett — som 5 ved siden av 6 — kommer en telling som bommer med én tydelig fram, og det lokker fram rolig telling med fingeren på hver side i stedet for et raskt gjett.",
-        "Aktiviteten følger LK20 innenfor geometri — å undersøke former ut fra delene deres, som antall sider. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving for skolestart og 1. trinn."
+        "Under en lekematte står en rød postkasse, og dørene dens bærer tall fra 3 til 6 (til 8 med flere former), med like mange pinner og hjørneprikker under. Formene på matta er dreid, strukket og skjeve, aldri bare de pene som står rett. Barnet drar en form til en dør, eller trykker først på formen og så på døra. Det er en interaktiv geometrioppgave som virker i nettleseren uten at noe må installeres.",
+        "Oppfinnelsen er døra. Når den får en form, legger den ut pinnene sine, én på hver side. Passer de, faller formen ned i skuffen. Har døra for mange pinner, blir én til overs og triller ned; har den for få, blir en side tom og lyser; og en kort linje under kassen forteller hva som skjedde, for eksempel «4 pinner til 3 sider». Det er alltid lov å prøve en dør, for hvert sprett viser forskjellen pinne for pinne. Trykker barnet på en side, settes et nummerert flagg der, og bare det siste kan tas av, slik telles hver side én gang. Etter to sprett får hver side en strek og hvert hjørne en prikk; etter fire setter flaggene seg selv og den riktige døra puster.",
+        "Oppgaven følger LK20 i geometri: å kjenne igjen figurer på delene deres, som antallet sider og hjørner, uansett størrelse og plassering. Tre andre spill utvider den. Sorter etter sider gir et brett med former og tre eller fire nummererte dører. Ekte eller ikke har én stor dør for en trekant, et kvadrat eller et rektangel: en åpen figur faller fra hverandre der, en rett pinne glir av en buet side, et langt rektangel etterlater hull mot kvadratdørens like lange pinner, og en rombe kan ikke holde merkene for rette vinkler; det vanskeligere nivået spør etter egenskaper i stedet for navn. Dører med navn setter figurnavn på dørene til å lese. Et kvadrat passer gjennom rektangeldøra (og gjennom rombedøra), fordi det er et; derfor stiller ingen runde det spørsmålet, og samtalen blir hos læreren. Til slutt viser skuffen hver postet form med navnet sitt. Læreren velger spill og former. Uten tidtaking og uten poeng."
       ],
       "practices": [
-        "Telle de rette sidene på en trekant, et kvadrat, en femkant og en sekskant.",
-        "Koble en form til et tall — hvor mange sider den har, ikke bare hva den heter.",
-        "Telle nøye én side om gangen i stedet for å gjette antallet med en gang.",
-        "Skille former fra hverandre ut fra delene, som fem sider mot seks."
+        "Å telle sidene og hjørnene på en form, hver én gang",
+        "Å kjenne igjen former som er dreid, strukket eller skjeve",
+        "Å sortere former etter antallet sider",
+        "Å skille ekte trekanter, kvadrater og rektangler fra åpne, buede og skjeve dobbeltgjengere"
       ],
       "howToPlay": [
-        "Se på formen på brettet og tell de rette sidene, én etter én.",
-        "Trykk på tallet som passer med hvor mange sider du telte, og trykk så på Sjekk.",
-        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+        "Dra en form til en dør, eller trykk på formen og så på døra.",
+        "Trykk på sidene for å sette flagg hvis du vil telle dem.",
+        "I spillene med brett poster du hver form som passer, og trykker så på Sjekk.",
+        "Dobbelttrykk på en form for å dreie den."
       ],
       "learningGoals": [
-        "Barnet kan telle antall sider på vanlige former.",
-        "Barnet kan beskrive en form ut fra delene, ikke bare navngi den.",
-        "Barnet bygger den nøyaktige tellevanen og formforståelsen som senere geometri hviler på."
+        "Barnet beskriver figurer ut fra delene deres",
+        "Barnet teller sider én og én, uansett plassering og størrelse",
+        "Barnet forklarer hvorfor en åpen eller buet figur ikke er en mangekant"
       ]
     },
     "choice-board.pick-smaller.k-c-c-7": {

@@ -1185,25 +1185,26 @@
     },
     "choice-board.count-sides.k-g-b-4": {
       "about": [
-        "Här dyker en form upp i taget, och barnet räknar dess raka sidor och trycker sedan på siffran som stämmer — en triangel med 3 sidor, en kvadrat med 4, en femhörning med 5 eller en sexhörning med 6. Sifferknapparna kommer ur ett urval mellan 3 och 8. Det är en interaktiv geometriövning för förskoleklass som körs direkt i webbläsaren på surfplatta, telefon eller klassrumsdator, utan att något behöver installeras och utan konto.",
-        "Den stora idén är att en form är mer än sitt namn — den är uppbyggd av delar som man kan räkna. Barnet kan inte vinna genom att bara känna igen \"en triangel\", utan måste följa varje kant med blicken och räkna sidorna en i taget. Eftersom sifferknapparna har närliggande tal, som 5 bredvid 6, märks det om man räknar fel med ett enda steg, och det lockar fram noggrann räkning med fingret på varje sida i stället för en snabb gissning.",
-        "Aktiviteten följer Lgr22 inom geometri: att beskriva och jämföra former utifrån deras delar, till exempel antalet sidor. Ingen tid, inga poäng — bara lugn och lekfull träning i barnets egen takt."
+        "Under en lekmatta står en röd brevlåda, och dess dörrar bär tal från 3 till 6 (till 8 med fler former), med lika många pinnar och hörnprickar under. Formerna på mattan är vridna, utdragna och ojämna, aldrig bara de prydliga som står rakt. Barnet drar en form till en dörr, eller trycker först på formen och sedan på dörren. Det är en interaktiv geometriövning som fungerar i webbläsaren utan att något behöver installeras.",
+        "Uppfinningen är dörren. När den får en form lägger den ut sina pinnar, en på varje sida. Passar de, faller formen ner i lådan. Har dörren för många pinnar blir en över och trillar ner; har den för få blir en sida tom och lyser; och en kort rad under brevlådan berättar vad som hände, till exempel ”4 pinnar för 3 sidor”. Det är alltid tillåtet att pröva en dörr, för varje studs visar skillnaden pinne för pinne. Trycker barnet på en sida sätts en numrerad flagga där, och bara den sista går att ta bort, så räknas varje sida en gång. Efter två studsar får varje sida ett streck och varje hörn en prick; efter fyra sätter flaggorna sig själva och den rätta dörren andas.",
+        "Övningen följer Lgr22 i geometri: att känna igen former på deras delar, som antalet sidor och hörn, oavsett storlek och läge. Tre lägen till breddar den. Sortera efter sidor ger en bricka med former och tre eller fyra numrerade dörrar. Riktig eller inte har en stor dörr för en triangel, en kvadrat eller en rektangel: en öppen figur faller isär där, en rak pinne glider av en böjd sida, en lång rektangel lämnar luckor mot kvadratdörrens lika långa pinnar, och en romb kan inte hålla märkena för räta hörn; den svårare nivån frågar efter egenskaper i stället för namn. Dörrar med namn sätter formnamn på dörrarna att läsa. En kvadrat passar genom rektangeldörren (och genom rombdörren), eftersom den är en; därför ställer ingen runda den frågan, och samtalet stannar hos läraren. Till sist visar lådan varje postad form med sitt namn. Läraren väljer läge och former. Ingen tidtagning, inga poäng."
       ],
       "practices": [
-        "Räkna de raka sidorna på en triangel, kvadrat, femhörning och sexhörning",
-        "Koppla en form till ett tal — hur många sidor den har, inte bara vad den heter",
-        "Räkna noga en sida i taget i stället för att gissa hela antalet på en gång",
-        "Skilja former åt utifrån deras delar, som fem sidor mot sex"
+        "Att räkna sidorna och hörnen på en form, var och en en gång",
+        "Att känna igen former som är vridna, utdragna eller ojämna",
+        "Att sortera former efter antalet sidor",
+        "Att skilja riktiga trianglar, kvadrater och rektanglar från öppna, böjda och sneda dubbelgångare"
       ],
       "howToPlay": [
-        "Titta på formen på spelplanen och räkna dess raka sidor, en i taget.",
-        "Tryck på siffran som stämmer med hur många sidor du räknade, och tryck sedan på Kontrollera.",
-        "Inte riktigt rätt? Försök igen så många gånger du vill — det finns ingen tid och inga poäng."
+        "Dra en form till en dörr, eller tryck på formen och sedan på dörren.",
+        "Tryck på sidorna för att sätta flaggor om du vill räkna dem.",
+        "I lägena med bricka postar du varje form som passar och trycker sedan på Kontrollera.",
+        "Dubbeltryck på en form för att vrida den."
       ],
       "learningGoals": [
-        "Barnet kan räkna antalet sidor på vanliga former",
-        "Barnet kan beskriva en form utifrån dess delar i stället för att bara namnge den",
-        "Barnet bygger de noggranna räkne- och formvanorna som senare geometri vilar på"
+        "Barnet beskriver former utifrån deras delar",
+        "Barnet räknar sidor en och en, oavsett läge och storlek",
+        "Barnet förklarar varför en öppen eller böjd figur inte är en månghörning"
       ]
     },
     "choice-board.pick-smaller.k-c-c-7": {

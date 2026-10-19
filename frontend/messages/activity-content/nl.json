@@ -3785,25 +3785,26 @@
     },
     "choice-board.count-sides.k-g-b-4": {
       "about": [
-        "Eén vorm verschijnt op het scherm en je kind telt de rechte zijden: een driehoek met 3 zijden, een vierkant met 4, een vijfhoek met 5 of een zeshoek met 6. Daarna tikt het op het getal dat klopt, gekozen uit cijfers van 3 tot en met 8. Het is een interactieve meetkunde-activiteit voor de kleuterklas die direct in de browser draait op een tablet, telefoon of klassikale computer — niets installeren, zonder account.",
-        "Het grote idee is dat een vorm meer is dan zijn naam: hij bestaat uit onderdelen die je kunt tellen. Je kind wint niet door 'een driehoek' te herkennen, maar moet met de ogen elke zijde langsgaan en die één voor één tellen. Doordat de getalkaartjes ook buurgetallen bevatten, zoals 5 naast 6, valt een telfoutje van één meteen op — dat nodigt uit tot zorgvuldig tellen met de vinger langs elke zijde in plaats van snel gokken.",
-        "Deze activiteit hoort bij het domein Meetkunde van de kerndoelen: vormen bekijken en vergelijken aan de hand van hun onderdelen, zoals het aantal zijden. Ze past bij kinderen in de kleuterklas (groep 1-2). Geen timer, geen score, geen druk — gewoon rustig kijken en tellen."
+        "Onder een speelmat staat een rode brievenbus, en de deuren dragen getallen van 3 tot en met 6 (tot 8 met meer vormen), met eronder evenveel stokjes en hoekpuntjes. De vormen op de mat zijn gedraaid, uitgerekt en ongelijk, nooit alleen de nette rechtopstaande. Het kind sleept een vorm naar een deur, of tikt eerst de vorm en dan de deur aan. Het is een interactieve meetkundeoefening die in de browser werkt, zonder iets te installeren.",
+        "De vondst is de deur. Krijgt ze een vorm, dan legt ze haar stokjes neer, op elke zijde één. Passen ze, dan valt de vorm in de la. Heeft de deur te veel stokjes, dan blijft er een over die eraf tuimelt; heeft ze er te weinig, dan blijft een zijde kaal en licht op; en een korte regel onder de bus zegt wat er gebeurde, bijvoorbeeld \"4 stokjes voor 3 zijden\". Een deur proberen mag altijd, want elke terugkaatsing laat het verschil stokje voor stokje zien. Wie een zijde aantikt, zet daar een genummerd vlaggetje, en alleen het laatste kan eraf, zo wordt elke zijde één keer geteld. Na twee keer terugkaatsen krijgt elke zijde een streepje en elke hoek een stip; na vier keer zetten de vlaggetjes zichzelf en ademt de juiste deur.",
+        "De oefening sluit aan bij de SLO-kerndoelen voor meetkunde: vormen herkennen aan hun onderdelen, zoals het aantal zijden en hoeken, hoe groot ze ook zijn en hoe ze ook liggen. Drie andere spellen breiden haar uit. Sorteren op zijden geeft een dienblad met vormen en drie of vier genummerde deuren. Echt of niet heeft één grote deur voor een driehoek, een vierkant of een rechthoek: een open figuur valt daar uit elkaar, een recht stokje glijdt van een gebogen zijde, een lange rechthoek laat gaten tegen de even lange stokjes van de vierkantdeur, en een ruit kan de tekens voor rechte hoeken niet houden; het moeilijkere niveau vraagt naar eigenschappen in plaats van namen. Deuren met namen zet vormnamen op de deuren om te lezen. Een vierkant past door de rechthoekdeur (en door de ruitdeur), omdat het er een is; daarom stelt geen ronde die vraag en blijft het gesprek bij de leerkracht. Aan het eind laat de la elke vorm die erin zit met zijn naam zien. De leerkracht kiest het spel en de vormen. Zonder klok, zonder punten."
       ],
       "practices": [
-        "Het aantal rechte zijden tellen van een driehoek, vierkant, vijfhoek en zeshoek",
-        "Een vorm koppelen aan een getal: hoeveel zijden hij heeft, niet alleen hoe hij heet",
-        "Zorgvuldig één zijde tegelijk tellen in plaats van het totaal in één oogopslag te gokken",
-        "Vormen uit elkaar houden aan de hand van hun onderdelen, zoals vijf zijden tegenover zes"
+        "De zijden en hoeken van een vorm tellen, elk één keer",
+        "Gedraaide, uitgerekte en ongelijke vormen herkennen",
+        "Vormen sorteren op hun aantal zijden",
+        "Echte driehoeken, vierkanten en rechthoeken onderscheiden van open, gebogen en scheve dubbelgangers"
       ],
       "howToPlay": [
-        "Bekijk de vorm op het bord en tel de rechte zijden, één voor één.",
-        "Tik op het getal dat past bij het aantal zijden dat je hebt geteld en druk op Controleer.",
-        "Niet goed? Probeer het zo vaak je wilt opnieuw — er is geen timer en geen score."
+        "Sleep een vorm naar een deur, of tik eerst de vorm en dan de deur aan.",
+        "Tik de zijden aan om vlaggetjes te zetten als je ze wilt tellen.",
+        "Bij de spellen met een dienblad stop je elke vorm die past door zijn deur en tik je dan op Controleren.",
+        "Tik een vorm twee keer snel aan om hem te draaien."
       ],
       "learningGoals": [
-        "Je kind telt het aantal zijden van bekende vormen.",
-        "Je kind beschrijft een vorm aan de hand van zijn onderdelen in plaats van alleen de naam te noemen.",
-        "Je kind oefent het zorgvuldige tellen en vormen analyseren waar latere meetkunde op voortbouwt."
+        "Vormen beschrijven aan de hand van hun onderdelen",
+        "Zijden één voor één tellen, hoe de vorm ook ligt of hoe groot hij ook is",
+        "Uitleggen waarom een open of gebogen figuur geen veelhoek is"
       ]
     },
     "choice-board.pick-smaller.k-c-c-7": {

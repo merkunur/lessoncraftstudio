@@ -203,6 +203,10 @@ function seedScript(row) {
     // mid-sort at the letterbox: two flat shapes on the letter tray, a cube on the parcel tray, the rest of the bag still to sort — the apparatus at rest
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='B1';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.PostSlotCore,s=t.st,r=s.r;['p2','p0','p3'].forEach(function(id){C.move(s,id,C.byId(r,id).flat?'letter':'parcel');});t._paint();})();`;
   }
+  if (row.tool === 'post-box-activity') {
+    // the long rectangle offered to door 3: three sticks lie on three sides, the fourth side glows bare, three pegs already counted — the invention at rest
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='C2';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.PostBoxCore,s=t.st;C.plantPeg(s,0);C.plantPeg(s,1);C.plantPeg(s,2);C.post(s,s.tiles[0].id,3);t._paint();})();`;
+  }
   if (row.tool === 'parking-tower-activity') {
     // between the bus and the van: the truck has ridden the lift up and parked in the middle bay; its dotted route stays — the invention at rest
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='N4';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.ParkingTowerCore,s=t.st;C.park(s,{c:2,l:2});t._route=t._routeOf(s.parked);t._paint();})();`;

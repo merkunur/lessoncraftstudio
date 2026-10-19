@@ -3815,25 +3815,26 @@
     },
     "choice-board.count-sides.k-g-b-4": {
       "about": [
-        "Eine einzelne Form erscheint auf dem Spielfeld, und das Kind zählt ihre geraden Seiten: ein Dreieck mit 3 Seiten, ein Quadrat mit 4, ein Fünfeck mit 5 oder ein Sechseck mit 6. Anschließend tippt es die passende Zahl an, die aus Vorschlägen zwischen 3 und 8 ausgewählt wird. Diese interaktive Geometrie-Übung für den Kindergarten läuft direkt im Browser auf Tablet, Handy oder Klassenraum-Computer — ohne Installation und ohne Anmeldung.",
-        "Die eigentliche Idee: Eine Form ist mehr als ihr Name — sie besteht aus Teilen, die man zählen kann. Es reicht nicht, „ein Dreieck“ zu erkennen; das Kind muss mit den Augen jede Kante einzeln nachfahren und die Seiten Stück für Stück zählen. Weil unter den Zahlen auch knappe Nachbarn wie 5 neben 6 stehen, fällt ein Verzählen um eins sofort auf — das lädt zum sorgfältigen Zählen ein, statt schnell zu raten.",
-        "Die Aktivität ist am Lehrplan im Bereich Geometrie ausgerichtet — Formen anhand ihrer Teile beschreiben und vergleichen, etwa nach der Anzahl der Seiten. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+        "Unter einer Spielmatte steht ein roter Briefkasten, und seine Türen tragen Zahlen von 3 bis 6 (mit mehr Formen bis 8), darunter jeweils so viele Stäbe und Eckpunkte. Die Formen auf der Matte sind gedreht, gestreckt und ungleichmäßig, nie nur die ordentlichen aufrechten. Das Kind zieht eine Form zu einer Tür oder tippt erst die Form und dann die Tür an. Eine interaktive Geometrie-Übung, die im Browser läuft, ohne Installation.",
+        "Das Besondere ist die Tür. Bekommt sie eine Form, legt sie ihre Stäbe hin, auf jede Seite einen. Passen sie, fällt die Form in die Schublade. Hat die Tür zu viele Stäbe, bleibt einer übrig und purzelt herunter; hat sie zu wenige, bleibt eine Seite leer und leuchtet; und eine kurze Zeile unter dem Kasten sagt, was passiert ist, etwa „4 Stäbe für 3 Seiten“. Eine Tür ausprobieren ist immer erlaubt, denn jeder Rückprall zeigt den Unterschied Stab für Stab. Tippt das Kind eine Seite an, steckt dort ein nummeriertes Fähnchen, und nur das letzte lässt sich wieder abnehmen, so wird jede Seite einmal gezählt. Nach zwei Rückprallern bekommt jede Seite einen Strich und jede Ecke einen Punkt; nach vier stecken sich die Fähnchen selbst und die richtige Tür atmet.",
+        "Die Übung folgt dem Lehrplan im Bereich Raum und Form: Formen an ihren Teilen erkennen, an der Anzahl der Seiten und Ecken, egal wie groß oder wie gedreht sie sind. Drei weitere Spiele erweitern sie. Beim Sortieren nach Seiten liegt ein Tablett mit Formen vor drei oder vier nummerierten Türen. Bei „echt oder nicht“ gibt es eine große Tür für ein Dreieck, ein Quadrat oder ein Rechteck: Eine offene Figur fällt dort auseinander, ein gerader Stab rutscht von einer gebogenen Seite, ein langes Rechteck lässt an den gleich langen Stäben der Quadrattür Lücken, und eine Raute kann die Zeichen für rechte Ecken nicht halten; die schwierigere Stufe fragt nach Eigenschaften statt nach Namen. Bei den Türen mit Namen stehen Formnamen zum Lesen auf den Türen. Ein Quadrat passt durch die Rechtecktür (und durch die Rautentür), weil es eines ist; darum stellt keine Runde diese Frage, und das Gespräch bleibt bei der Lehrkraft. Am Ende zeigt die Schublade jede eingeworfene Form mit ihrem Namen. Die Lehrkraft wählt das Spiel und die Formen. Ohne Zeitdruck, ohne Punkte."
       ],
       "practices": [
-        "Die geraden Seiten von Dreieck, Quadrat, Fünfeck und Sechseck zählen.",
-        "Eine Form mit einer Zahl verbinden — wie viele Seiten sie hat, nicht nur ihren Namen.",
-        "Sorgfältig Seite für Seite zählen, statt die Anzahl auf einen Blick zu raten.",
-        "Formen an ihren Teilen unterscheiden, etwa fünf Seiten gegenüber sechs."
+        "Die Seiten und Ecken einer Form zählen, jede einmal",
+        "Gedrehte, gestreckte und ungleichmäßige Formen erkennen",
+        "Formen nach der Anzahl ihrer Seiten sortieren",
+        "Echte Dreiecke, Quadrate und Rechtecke von offenen, gebogenen und schiefen Doppelgängern unterscheiden"
       ],
       "howToPlay": [
-        "Schau dir die Form auf dem Spielfeld an und zähle ihre geraden Seiten, eine nach der anderen.",
-        "Tippe die Zahl an, die zu deiner gezählten Seitenanzahl passt, und tippe dann auf Prüfen.",
-        "Stimmt es noch nicht? Probiere es so oft du möchtest — es gibt keinen Timer und keine Punkte."
+        "Zieh eine Form zu einer Tür oder tippe erst die Form und dann die Tür an.",
+        "Tippe die Seiten an, um beim Zählen Fähnchen zu setzen.",
+        "Bei den Tablett-Spielen steckst du jede passende Form durch ihre Tür und tippst dann auf Prüfen.",
+        "Tippe eine Form zweimal schnell an, um sie zu drehen."
       ],
       "learningGoals": [
-        "Die Anzahl der Seiten gängiger Formen zählen.",
-        "Eine Form über ihre Teile beschreiben, statt sie nur zu benennen.",
-        "Die Gewohnheiten des genauen Zählens und Form-Betrachtens aufbauen, auf denen spätere Geometrie aufbaut."
+        "Formen an ihren Teilen beschreiben",
+        "Seiten eins zu eins zählen, egal wie die Form gedreht oder wie groß sie ist",
+        "Erklären, warum eine offene oder gebogene Figur kein Vieleck ist"
       ]
     },
     "choice-board.pick-smaller.k-c-c-7": {

@@ -78,6 +78,7 @@ ORDER row 26 · id `clunks-lost-lunch.make-total.k-oa-a-3` (kept) · own files `
   - fi intro wording.
 
 ## Traps
+- ⭐ **A shut lid covered the cups, so a REFUSED full box (a repeat, or 6 + 4 in exactly-3) could not be emptied by a child** — the local test removed strands through the model and never saw it; the production play test (real taps) caught it after the first deploy. The shut lid now passes taps through (`pointer-events:none`), and the local test empties refused boxes with real cup taps (poisoned: it fails without the fix). Wrapper 9.760, activity ?v=2.
 - **A rule that can never bite is a pedagogy defect, not just a weak test.** The design's critic caught it for EXACTLY K, but the same hole sat in FINISH WITH TWO until the mutation "FINISH ignores the two" survived. Every constraint round needs a gate that a full box breaking it exists.
 - **Second time this trap has appeared:** an entry animation that scales a picture fails the picture floor mid-animation (#8). The plip is now a slide.
 - A rotated hinged lid measured 9 px tall: tap targets are measured on the transformed box.

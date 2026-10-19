@@ -2682,6 +2682,30 @@
         "Skriva varje uppdelning med en talkamratsbild och en likhet som 5 = 2 + 3",
         "Kunna talkamraterna till 10"
       ]
+    },
+    "clunks-lost-lunch.make-total.k-oa-a-3": {
+      "about": [
+        "Mellanmålsroboten Clunk är hungrig på ett exakt tal, och hans matlåda har en ormformad fåra med precis så många gropar. Mellanmålen hänger på en vägg som band med likadana godsaker – varje band visar en godsak, en sifferlapp och en rad prickar för längden. När ett band läggs i lådan rullar det upp sig och slingrar sig in i nästa gropar, runt kurvan. Locket går bara igen när fåran är precis full. Det är en interaktiv matteaktivitet som fungerar i webbläsaren utan installation.",
+        "Idén är att lådan själv kontrollerar lunchen. Är det för lite stannar locket ovanför de tomma groparna; är det för mycket hänger en svans med godsaker över kanten och locket studsar tillbaka. Bara en stängd låda kan ges till Clunk: spaken är låst tills dess, så en låda som inte är precis full serveras aldrig och barnet får aldrig skäll. När Clunk äter skriver hans lunchbok ut lunchen med den största delen först, till exempel 10 = 6 + 4, och ber om ett nytt sätt – 4 + 6 är samma lunch, så det behövs andra mellanmål. Om barnet trycker tre gånger på locket när något fortfarande fattas, räknar de tomma groparna vidare från de fulla (7, 8, 9, 10). Det finns rundor där ett mellanmål redan ligger i lådan, rundor med exakt tre mellanmål (6 + 4 stänger locket men godkänns inte), lådor som kommer för fulla och en runda ”Vad åt Clunk?” där barnet räknar groparna och ställer in Clunks tal, till exempel 6 och 3 blir 9.",
+        "Aktiviteten följer Lgr22 – att dela upp tal upp till 10 i två (och tre) delar på flera sätt och skriva varje uppdelning. Läraren väljer upp till 5, 6 till 10 (förval) eller ”Stor lunch” upp till 14, och kan dölja sifferlapparna så att delarna räknas på prickarna. ”Mellanmålsbaren” är den öppna leken: vilken låda som helst från 2 till 10 och alla band från 1 till 9. Ingen timer och inga poäng."
+      ],
+      "practices": [
+        "Göra ett tal upp till 10 på flera sätt",
+        "Se när delarna är för många eller för få för helheten",
+        "Hitta delen som fattas och helheten",
+        "Skriva varje lunch som en likhet, till exempel 10 = 6 + 4"
+      ],
+      "howToPlay": [
+        "Titta på Clunks tal och groparna i hans matlåda.",
+        "Tryck på ett band med mellanmål eller dra det till lådan; tryck på en godsak i lådan för att ta ut bandet igen.",
+        "När locket går igen drar du i spaken och matar Clunk. Packa sedan samma tal på ett nytt sätt.",
+        "Inte riktigt? Locket visar vad som är fel – tomma gropar eller ett mellanmål över kanten. Ingen timer och inga poäng."
+      ],
+      "learningGoals": [
+        "Dela upp tal upp till 10 på flera sätt",
+        "Skriva varje uppdelning med en likhet som 10 = 6 + 4",
+        "Lära sig tiokamraterna"
+      ]
     }
   }
 }

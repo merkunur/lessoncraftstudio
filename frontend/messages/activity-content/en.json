@@ -1490,25 +1490,26 @@
     },
     "clunks-lost-lunch.make-total.k-oa-a-3": {
       "about": [
-        "Clunk the snack-robot needs an exact number of crunch-units — 8, 10, 12, or 14 — but his adding chip is cracked, so the child fills his lunchbox by tapping number-snacks off a wall (tiles like 2, 3, 4, 6, 7, 8) until they add up, then feeds him to check. The twist is the whole point: after one way works, the child makes the same total a brand-new way, in this Kindergarten math game that plays in the browser with no sign-up.",
-        "Decomposing a number is a different skill from adding to a single answer, and the game is built so a child meets it from many sides. Some rounds are wide open — make 10 any way you like — while others add a rule: Clunk already holds 6, so add just enough to reach 10; use exactly three snacks; only certain tiles are allowed; or the box is too full, so take some away. Because there is no single right pile, children discover that 6 and 4, 7 and 3, and 8 and 2 are all ten, which is exactly the flexible number sense the activity is after.",
-        "It is aligned to Common Core K.OA.A.3 — decomposing numbers up to ten into pairs in more than one way and recording each. No timer, no score — just calm, playful practice."
+        "Clunk the snack-robot is hungry for an exact number, and his lunchbox has a snake-shaped groove with exactly that many cups. Snacks hang on a wall as strands of identical treats — each strand shows one treat, a number tag and a row of dots for its length. Drop a strand in the box and it uncoils and snakes into the next cups, round the bend. The lid only shuts when the groove is exactly full. It's an interactive Kindergarten math activity that runs in the browser with nothing to install.",
+        "The invention is that the box checks the lunch by itself. Too little and the lid stops above the empty cups; too much and a tail of treats hangs over the rim, so the lid bonks and springs back. Only a box whose lid has shut can be fed: the lever is padlocked until then, so a box that is not exactly full is never fed and the child is never told off. When Clunk eats, his lunch log prints the lunch biggest part first, such as 10 = 6 + 4, and asks for a new way — 4 + 6 is the same lunch, so it needs different snacks. If the child taps the lid three times over a gap, the empty cups count on from the full ones (7, 8, 9, 10). There are rounds with one snack already packed, rounds that allow exactly three snacks (6 + 4 shuts the lid but is refused), boxes that arrive too full, and a \"What did Clunk eat?\" round where the child counts the cups and sets Clunk's number, such as 6 and 3 making 9.",
+        "It is aligned to Common Core K.OA.A.3 — breaking numbers up to 10 into pairs (and into three parts) in more than one way, and recording each one. Teachers choose up to 5, 6 to 10 (the default) or Big lunch up to 14, and can hide the number tags so the parts are counted from the dots. \"Snack bar\" is open play: any box from 2 to 10 and every strand from 1 to 9. No timer, no score."
       ],
       "practices": [
-        "Combine smaller numbers to make an exact target like 8 or 10",
-        "Find more than one way to make the same total",
-        "Add just enough to a starting amount to reach the goal",
-        "Work within a rule — use exactly three snacks, or only certain numbers"
+        "Making a number up to 10 in more than one way",
+        "Seeing when parts are too many or too few for the whole",
+        "Finding the missing part and the whole",
+        "Writing each lunch as an equation such as 10 = 6 + 4"
       ],
       "howToPlay": [
-        "Read Clunk's number, then tap snacks off the wall into his lunchbox until they make it.",
-        "Feed Clunk to see if the amount is exactly right.",
-        "Make the same number again a whole new way — there is no timer and no score, so explore freely."
+        "Look at Clunk's number and the cups in his lunchbox.",
+        "Tap a snack strand, or drag it onto the box; tap a treat in the box to take its strand out again.",
+        "When the lid shuts, pull the lever to feed Clunk. Then pack the same number a new way.",
+        "Not quite? The lid shows what is wrong — empty cups or a snack over the edge. No timer, no score."
       ],
       "learningGoals": [
-        "Break a number up to ten into two or more parts — the focus of Common Core K.OA.A.3.",
-        "See that a number like 10 can be made several different ways.",
-        "Build the flexible part-whole sense that addition and subtraction grow from."
+        "Decompose numbers up to 10 in more than one way — the focus of Common Core K.OA.A.3",
+        "Record each decomposition with an equation such as 10 = 6 + 4",
+        "Learn the pairs that make 10"
       ]
     },
     "coin-stall.money.2-md-c-8": {

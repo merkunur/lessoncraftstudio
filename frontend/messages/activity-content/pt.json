@@ -3146,25 +3146,26 @@
     },
     "clunks-lost-lunch.make-total.k-oa-a-3": {
       "about": [
-        "O Clunk é um robozinho comilão que adora lanches — só que o chip de somar dele trincou e agora ele não consegue mais contar sozinho. Para o Clunk ficar feliz, ele precisa de um número exato de lanchinhos na lancheira, nem mais nem menos. Você toca nos lanches numerados na parede para colocá-los na lancheira até formar o número que o Clunk pediu e, quando achar que acertou, é só alimentar o Clunk para conferir.",
-        "A grande ideia por trás da brincadeira é que um mesmo número pode ser feito de partes diferentes. Depois de montar o total de um jeito, a criança monta o mesmo número de novo, de uma forma totalmente diferente — e aí descobre, com as próprias mãos, que 5 pode ser 4 e 1, mas também 3 e 2. É esse \"faça de um jeito novo\" que está no coração da atividade: ao compor e decompor, a criança percebe que os números são flexíveis e que existe mais de um caminho para chegar ao mesmo lugar.",
-        "A atividade não pede cadastro nem login e não tem cronômetro, pontuação nem competição — o ritmo é calmo e sem pressão, do jeito que uma criança pequena aprende melhor. Ela é alinhada à BNCC, na unidade temática \"Números\"."
+        "O Clunk, o robô comilão, tem fome de um número exato, e a lancheira dele tem um sulco em forma de cobra com exatamente essa quantidade de buraquinhos. Os petiscos ficam pendurados numa parede em fileiras de guloseimas iguais; cada fileira mostra uma guloseima, uma etiqueta com um número e uma linha de pontinhos que diz o tamanho dela. Quando uma fileira entra na lancheira, ela se desenrola e vai serpenteando pelos buraquinhos seguintes, fazendo a curva. A tampa só fecha quando o sulco está exatamente cheio. É uma atividade interativa de matemática que funciona no navegador, sem instalar nada.",
+        "A ideia é que a lancheira confere o lanche sozinha. Se falta, a tampa fica parada em cima dos buraquinhos vazios; se sobra, um pedaço da fileira fica pendurado para fora e a tampa bate e volta. Só uma lancheira fechada pode ser dada ao Clunk: a alavanca fica trancada até lá, então nunca é servida uma lancheira que não esteja exatamente cheia e ninguém dá bronca na criança. Quando o Clunk come, o caderno de lanches imprime o lanche com a parte maior primeiro, por exemplo 10 = 6 + 4, e pede um jeito novo; 4 + 6 é o mesmo lanche, então precisa de outros petiscos. Se a criança toca três vezes na tampa e ainda falta, os buraquinhos vazios continuam a contagem a partir dos cheios (7, 8, 9, 10). Há rodadas com um petisco já guardado, rodadas com exatamente três petiscos (6 + 4 fecha a tampa mas não vale), lancheiras cheias demais e uma rodada \"O que o Clunk comeu?\" em que a criança conta os buraquinhos e coloca o número do Clunk, por exemplo 6 e 3 fazem 9.",
+        "A atividade está alinhada à BNCC, na composição e decomposição de números até 10 em duas (e três) partes de vários jeitos, registrando cada uma. O professor escolhe até 5, de 6 a 10 (padrão) ou \"Lanche grande\" até 14, e pode esconder as etiquetas para que as partes sejam contadas pelos pontinhos. A \"Lanchonete\" é o jogo aberto: qualquer lancheira de 2 a 10 e todas as fileiras de 1 a 9. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Compor um número juntando lanches até chegar ao total pedido",
-        "Descobrir várias formas diferentes de fazer o mesmo número",
-        "Completar a parte que falta para chegar ao número do Clunk",
-        "Perceber que um número é feito de partes que se juntam"
+        "Formar um número até 10 de vários jeitos",
+        "Perceber quando as partes são demais ou de menos para o todo",
+        "Encontrar a parte que falta e o todo",
+        "Escrever cada lanche como uma igualdade, por exemplo 10 = 6 + 4"
       ],
       "howToPlay": [
-        "Toque nos lanches para colocá-los na lancheira até formar o número do Clunk",
-        "Alimente o Clunk para conferir se o total está certinho",
-        "Agora faça o mesmo número de um jeito novo, com outras partes"
+        "Veja o número do Clunk e os buraquinhos da lancheira.",
+        "Toque numa fileira de petiscos ou arraste-a para a lancheira; toque numa guloseima dentro dela para tirar a fileira de novo.",
+        "Quando a tampa fechar, puxe a alavanca para alimentar o Clunk. Depois monte o mesmo número de um jeito novo.",
+        "Não deu certo? A tampa mostra o que está errado: buraquinhos vazios ou um petisco para fora. Sem cronômetro e sem pontuação."
       ],
       "learningGoals": [
-        "Eu consigo montar um número juntando lanches de valores diferentes",
-        "Eu consigo fazer o mesmo número de mais de um jeito",
-        "Eu descubro qual parte falta para completar o número"
+        "Decompor números até 10 de vários jeitos",
+        "Registrar cada decomposição com uma igualdade como 10 = 6 + 4",
+        "Aprender os pares que formam 10"
       ]
     },
     "fix-it-corner.missing-part.1-oa-d-8": {

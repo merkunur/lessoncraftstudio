@@ -1254,25 +1254,26 @@
     },
     "clunks-lost-lunch.make-total.k-oa-a-3": {
       "about": [
-        "Clunk de snack-robot rammelt van de honger, en hij is kieskeurig: hij wil precies een bepaald aantal knapperts, geen hapje meer of minder. Tegen de muur hangt een hele wand vol hapjes met getallen erop, maar Clunks optelchip is gebarsten — dus jouw kind springt bij en helpt hem aan zijn maaltijd.",
-        "Clunk wil precies een bepaald getal aan knapperts. Je kind kiest hapjes met getallen erop en legt ze in de lunchbox tot ze samen dat getal maken. De lunchbox laat het totaal niet zien, dus je telt zelf op. Klopt het? Dan voer je Clunk. En daarna maak je hetzelfde getal op een hele nieuwe manier — bijvoorbeeld 10 = 6 en 4, of 10 = 7 en 3. Zo ontdekt je kind dat één getal uit veel verschillende delen kan bestaan (deel-deel-geheel), het fundament onder het hoofdrekenen tot 20. Dit sluit aan bij de SLO-kerndoelen voor rekenen voor groep 3.",
-        "Er is geen klok en geen score. Je kind mag rustig kijken, tellen en uitproberen. Zit er een hap te veel of te weinig in de lunchbox? Dan zegt Clunk gewoon vriendelijk \"niet mijn maat, maak een nieuwe\", en je begint opnieuw — zonder streng rood kruis. Alles is te spelen."
+        "Snackrobot Clunk heeft trek in een precies getal, en zijn lunchbox heeft een slangvormige gleuf met precies zoveel kuiltjes. Aan een wand hangen hapjes als snoeren van gelijke lekkernijen – elk snoer laat één lekkernij zien, een kaartje met een getal en een rij stippen voor de lengte. Als een snoer in de box komt, rolt het af en kronkelt het als een slang de volgende kuiltjes in, de bocht om. Het deksel gaat alleen dicht als de gleuf precies vol is. Het is een interactieve rekenactiviteit die in de browser werkt, zonder installatie.",
+        "Het idee: de box controleert de lunch zelf. Is het te weinig, dan blijft het deksel boven de lege kuiltjes hangen; is het te veel, dan hangt er een staart over de rand en stuitert het deksel terug. Alleen een gesloten box kan aan Clunk worden gevoerd: de hendel zit tot dan op slot, dus een box die niet precies vol is, wordt nooit gevoerd en het kind krijgt nooit op zijn kop. Als Clunk eet, drukt zijn lunchboekje de lunch af met het grootste deel eerst, zoals 10 = 6 + 4, en vraagt om een nieuwe manier – 4 + 6 is dezelfde lunch, dus er zijn andere hapjes nodig. Tikt het kind drie keer op het deksel terwijl er nog iets ontbreekt, dan tellen de lege kuiltjes verder vanaf de volle (7, 8, 9, 10). Er zijn rondes waarin al een hapje in de box zit, rondes met precies drie hapjes (6 + 4 sluit het deksel maar telt niet), boxen die te vol binnenkomen en een ronde ‘Wat heeft Clunk gegeten?’ waarin het kind de kuiltjes telt en Clunks getal goed zet, zoals 6 en 3 is 9.",
+        "De activiteit sluit aan bij de SLO-kerndoelen binnen het domein Getallen: getallen tot 10 op meerdere manieren in twee (en drie) delen splitsen en elke splitsing noteren. De leerkracht kiest tot en met 5, 6 tot en met 10 (standaard) of ‘Grote lunch’ tot 14, en kan de getalkaartjes verbergen zodat de delen aan de stippen worden geteld. De ‘Hapjesbar’ is het open spel: elke box van 2 tot 10 en alle snoeren van 1 tot 9. Geen timer, geen score."
       ],
       "practices": [
-        "Getallen samenstellen tot 14",
-        "Een getal op verschillende manieren maken",
-        "Zelf optellen zonder tussentotaal",
-        "Deel-deel-geheel ontdekken"
+        "Een getal tot 10 op meerdere manieren samenstellen",
+        "Zien wanneer de delen te veel of te weinig zijn voor het geheel",
+        "Het ontbrekende deel en het geheel vinden",
+        "Elke lunch noteren als een som, zoals 10 = 6 + 4"
       ],
       "howToPlay": [
-        "Kijk hoeveel knapperts Clunk wil",
-        "Tik hapjes in de lunchbox en tel ze zelf bij elkaar op",
-        "Denk je dat het klopt? Voer Clunk — en maak het getal daarna op een nieuwe manier"
+        "Kijk naar Clunks getal en de kuiltjes in zijn lunchbox.",
+        "Tik op een snoer met hapjes of sleep het naar de box; tik op een lekkernij in de box om het snoer er weer uit te halen.",
+        "Als het deksel dichtgaat, trek je aan de hendel om Clunk te voeren. Pak daarna hetzelfde getal op een nieuwe manier in.",
+        "Nog niet goed? Het deksel laat zien wat er mis is: lege kuiltjes of een hapje over de rand. Geen timer, geen score."
       ],
       "learningGoals": [
-        "Getallen tot 14 op verschillende manieren samenstellen",
-        "Vlot zelf optellen, ook over het tiental heen",
-        "Deel-deel-geheel begrijpen als basis voor hoofdrekenen tot 20"
+        "Getallen tot 10 op meerdere manieren splitsen",
+        "Elke splitsing noteren met een som zoals 10 = 6 + 4",
+        "De splitsingen van 10 leren"
       ]
     },
     "nesting-pots.seriate.k-cc-c-7": {

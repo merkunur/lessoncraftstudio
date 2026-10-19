@@ -1789,6 +1789,30 @@
         "Jokaisen jaon kirjaaminen lukukaaviolla ja yhtälöllä, kuten 5 = 2 + 3",
         "Kymppiparien tunteminen"
       ]
+    },
+    "clunks-lost-lunch.make-total.k-oa-a-3": {
+      "about": [
+        "Välipalarobotti Clunk haluaa syödä juuri tietyn luvun verran, ja hänen eväsrasiassaan on käärmeenmuotoinen ura, jossa on juuri niin monta kuoppaa. Välipalat roikkuvat seinällä samanlaisten herkkujen nauhoina – jokaisessa nauhassa näkyy yksi herkku, numerolappu ja pisterivi, joka kertoo nauhan pituuden. Kun nauha laitetaan rasiaan, se aukeaa ja kiemurtelee seuraaviin kuoppiin mutkan ympäri. Kansi menee kiinni vain, kun ura on täsmälleen täynnä. Tämä on vuorovaikutteinen matematiikkaharjoitus, joka toimii selaimessa ilman asennusta.",
+        "Ideana on, että rasia tarkistaa eväät itse. Jos jotain puuttuu, kansi jää tyhjien kuoppien yläpuolelle; jos on liikaa, herkkujen häntä roikkuu reunan yli ja kansi pomppaa takaisin. Vain suljetun rasian voi antaa Clunkille: vipu on siihen asti lukossa, joten rasiaa, joka ei ole täsmälleen täynnä, ei koskaan syötetä eikä lasta moitita. Kun Clunk syö, hänen eväskirjansa tulostaa eväät suurin osa ensin, esimerkiksi 10 = 6 + 4, ja pyytää uutta tapaa – 4 + 6 ovat samat eväät, joten tarvitaan toiset välipalat. Jos lapsi napauttaa kantta kolme kertaa, vaikka jotain vielä puuttuu, tyhjät kuopat jatkavat laskemista täysistä eteenpäin (7, 8, 9, 10). On kierroksia, joissa yksi välipala on jo rasiassa, kierroksia täsmälleen kolmella välipalalla (6 + 4 sulkee kannen, mutta ei kelpaa), liian täysinä tulevia rasioita ja kierros ”Mitä Clunk söi?”, jossa lapsi laskee kuopat ja asettaa Clunkin luvun, esimerkiksi 6 ja 3 on 9.",
+        "Harjoitus on OPS 2014:n mukainen: lukujen jakaminen 10:een asti kahteen (ja kolmeen) osaan monella tavalla ja jokaisen jaon kirjaaminen. Opettaja valitsee 5:een asti, 6–10 (oletus) tai ”Isot eväät” 14:ään asti, ja voi piilottaa numerolaput, jolloin osat lasketaan pisteistä. ”Välipalabaari” on avoin leikki: mikä tahansa rasia 2–10 ja kaikki nauhat 1–9. Ei ajastinta eikä pisteitä."
+      ],
+      "practices": [
+        "Luvun muodostaminen 10:een asti monella tavalla",
+        "Sen huomaaminen, milloin osia on liikaa tai liian vähän kokonaisuuteen",
+        "Puuttuvan osan ja kokonaisuuden löytäminen",
+        "Jokaisten eväiden kirjoittaminen yhtälönä, kuten 10 = 6 + 4"
+      ],
+      "howToPlay": [
+        "Katso Clunkin lukua ja eväsrasian kuoppia.",
+        "Napauta välipalanauhaa tai vedä se rasiaan; napauta rasiassa olevaa herkkua, niin nauha tulee taas pois.",
+        "Kun kansi menee kiinni, vedä vivusta ja syötä Clunk. Pakkaa sitten sama luku uudella tavalla.",
+        "Ei ihan? Kansi näyttää, mikä on vialla – tyhjiä kuoppia tai välipala reunan yli. Ei ajastinta eikä pisteitä."
+      ],
+      "learningGoals": [
+        "Lukujen jakaminen 10:een asti monella tavalla",
+        "Jokaisen jaon kirjaaminen yhtälöllä, kuten 10 = 6 + 4",
+        "Kymppiparien oppiminen"
+      ]
     }
   }
 }

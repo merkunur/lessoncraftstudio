@@ -1,0 +1,66 @@
+[
+ {
+  "id": "clunks-lost-lunch.make-total.k-oa-a-3",
+  "tool": "snake-lunch-activity",
+  "task_template": "snake-lunch",
+  "alignment": {
+   "framework": "CCSS",
+   "code": "K.OA.A.3",
+   "grade": "K",
+   "strand": "Operations & Algebraic Thinking"
+  },
+  "params": {
+   "levels": [
+    "upto5",
+    "six10",
+    "big"
+   ],
+   "default_level": "six10",
+   "tags": [
+    "show",
+    "hide"
+   ]
+  },
+  "theme": null,
+  "slug": {
+   "en": "clunks-lost-lunch",
+   "de": "zahlen-zusammensetzen-auf-verschiedene-arten-klasse-1",
+   "fr": "composer-un-nombre-de-plusieurs-facons-cp",
+   "es": "componer-numeros-de-varias-maneras-primer-grado",
+   "pt": "compor-um-numero-de-varias-formas-com-clunk-1-ano",
+   "it": "comporre-un-numero-in-piu-modi-classe-prima",
+   "nl": "getallen-samenstellen-op-verschillende-manieren-groep-3",
+   "sv": "clunks-matlada-gor-talet-pa-manga-satt",
+   "da": "clunks-madpakke-lav-tallet-paa-mange-maader",
+   "no": "clunks-matpakke-lag-tallet-pa-mange-mater",
+   "fi": "clunkin-evaat-tee-luku-monella-tavalla"
+  },
+  "page_title": {
+   "en": "Clunk's Lost Lunch — Make the Number Many Ways",
+   "de": "Zahlen zusammensetzen – viele Wege | Klasse 1 mit Clunk",
+   "fr": "Décomposer un nombre de plusieurs façons – en ligne (CP)",
+   "es": "Componer números de varias maneras (1.º de primaria)",
+   "pt": "Compor um número de várias formas com o Clunk — 1º ano",
+   "it": "Comporre un numero in più modi (classe prima)",
+   "nl": "Getallen samenstellen op verschillende manieren – groep 3",
+   "sv": "Clunks borttappade matlåda – gör talet på många sätt",
+   "da": "Clunks forsvundne madpakke – lav tallet på mange måder",
+   "no": "Clunks forsvunne matpakke – lag tallet på mange måter",
+   "fi": "Clunkin kadonneet eväät – tee luku monella tavalla"
+  },
+  "page_intro": {
+   "en": "Clunk the snack-robot is hungry for an exact number of crunch-units, but his adding chip cracked — so you're his helper! Pick snacks off the wall into his lunchbox to make his number any way you like, then feed him to find out. Then make it again a whole new way! A warm Kindergarten decompose-a-number game aligned to Common Core K.OA.A.3.",
+   "de": "Setze eine Zahl mit Clunks Snacks auf viele verschiedene Arten zusammen – Zahlzerlegung interaktiv üben. Perfekt für Klasse 1. Jetzt loslegen!",
+   "fr": "Décomposer un même nombre de plusieurs façons jusqu'à 10 avec Clunk, étape par étape. En ligne, sans inscription.",
+   "es": "Forma un número de varias maneras y suma botanas para alimentar a Clunk: actividad interactiva, sin registro, alineada a los planes de la SEP.",
+   "pt": "Ajude o robô Clunk a montar o número dele escolhendo lanches e depois faça o mesmo número de um jeito novo. Componha números de várias formas. BNCC, 1º ano.",
+   "it": "Con Clunk, il robot affamato, il bambino compone lo stesso numero in più modi scegliendo gli snack giusti (10 = 6+4 = 7+3…): un’attività senza registrazione, allineata alle Indicazioni nazionali per la classe prima.",
+   "nl": "Clunk de snack-robot heeft honger in precies zoveel knapperts. Je kind legt hapjes met getallen in de lunchbox tot ze samen dat getal maken — de lunchbox toont geen totaal, dus je telt zelf op — en voert Clunk. Daarna maak je hetzelfde getal op een hele nieuwe manier. Zo oefent je kind getallen samenstellen tot 14. Interactief.",
+   "sv": "Roboten Clunk är hungrig på ett exakt tal. Barnet lägger band med mellanmål i en matlåda vars ormformade fåra har precis så många gropar – locket går bara igen när lådan är exakt full. Sedan packar barnet samma tal på ett nytt sätt, och lunchboken skriver 10 = 6 + 4. Övningen är anpassad till Lgr22.",
+   "da": "Robotten Clunk er sulten efter et bestemt tal. Barnet lægger snore med snacks ned i en madkasse, hvis slangeformede rille har præcis så mange fordybninger – låget lukker kun, når kassen er præcis fuld. Så pakker barnet det samme tal på en ny måde, og madbogen skriver 10 = 6 + 4. Aktiviteten er tilpasset Fælles Mål.",
+   "no": "Roboten Clunk er sulten på et bestemt tall. Barnet legger snorer med matbiter i en matboks der den slangeformede rillen har akkurat så mange groper – lokket går bare igjen når boksen er helt full. Så pakker barnet det samme tallet på en ny måte, og matboka skriver 10 = 6 + 4. Aktiviteten er tilpasset LK20.",
+   "fi": "Robotti Clunk haluaa syödä juuri tietyn luvun verran. Lapsi asettaa välipalanauhoja eväsrasiaan, jonka käärmeenmuotoisessa urassa on juuri niin monta kuoppaa – kansi menee kiinni vain, kun rasia on täsmälleen täynnä. Sitten lapsi pakkaa saman luvun uudella tavalla, ja eväskirja kirjoittaa 10 = 6 + 4. Harjoitus on OPS 2014:n mukainen."
+  },
+  "kid_prompt_template": "make-total"
+ }
+]

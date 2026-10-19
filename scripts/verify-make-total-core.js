@@ -26,6 +26,12 @@
         monotonic targets, a within-20 round, within-10 base.
    ===================================================================== */
 'use strict';
+/* RETIRED 2026-10-19: the K.OA.A.3 make-total row left clunks-lost-lunch-activities.json for its own instrument
+   (rebuild #26, the Snake-Groove Lunchbox). Its gates are scripts/verify-snake-lunch-core.js + mutate-snake-lunch.js + local-test-snake-lunch.js. */
+if (!JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'clunks-lost-lunch-activities.json'), 'utf8')).some((r) => r.id === 'clunks-lost-lunch.make-total.k-oa-a-3')) {
+  console.log('verify-make-total-core: retired — the row is now the Snake-Groove Lunchbox (node scripts/verify-snake-lunch-core.js)');
+  process.exit(0);
+}
 const fs = require('fs');
 const path = require('path');
 

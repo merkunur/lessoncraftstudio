@@ -3886,25 +3886,26 @@
     },
     "choice-board.letter-case.rf-k-1-d": {
       "about": [
-        "Ein Buchstabe erscheint, und das Kind tippt denselben Buchstaben in seiner anderen Form an — vom großen zum kleinen oder vom kleinen zum großen. Ein großes B sucht das kleine b, ein großes R findet r, ein großes E findet e. Diese interaktive Leseübung für den Kindergarten läuft direkt im Browser, ganz ohne Anmeldung.",
-        "Der Kern: Jeder Buchstabe hat zwei Gestalten, die denselben Buchstaben benennen. Die falschen Antworten liegen bewusst nah beieinander — zum B werden als kleine Buchstaben b, d, p und h angeboten — sodass das Kind die echte Form des Buchstabens kennen muss und nicht einfach etwas Rundes wählt. Gerade die Buchstaben auseinanderzuhalten, die sich spiegeln und drehen, wie b und d, ist genau das genaue Hinsehen, das sichere Buchstabenkenntnis aufbaut.",
-        "Die Aktivität ist am Lehrplan der Grundschule ausgerichtet — alle großen und kleinen Buchstaben des Alphabets erkennen und benennen. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+        "Jeder Buchstabe hat zwei Formen, und hier wohnen sie in einem echten Setzkasten: Die großen Buchstaben liegen in der oberen Schublade, die kleinen in der unteren, so wie Drucker sie früher aufbewahrten. Eine Form steht in ihrer Schublade, und das Kind zieht die andere Form vom Tablett in das leere Fach oder tippt sie einfach an. Die Buchstaben stehen in einer Fibelschrift mit dem a und dem g, die Kinder lesen lernen, und mit einem großen I, einem kleinen l und einer 1, die sich nie gleichen. Eine interaktive Leseübung, die im Browser läuft, ohne Installation.",
+        "Das Besondere ist die Rückseite jedes Metallbuchstabens: Dort steht seine andere Form. Ein falscher Buchstabe im Fach kippt um und zeigt seine eigene andere Form, so liegt ein D unter dem B, und man sieht sofort zwei verschiedene Buchstaben. Nach diesem ersten Fehler darf das Kind jeden Buchstaben mit langem Drücken umdrehen und nachsehen; nach einem zweiten dreht sich auch der vorgegebene Buchstabe und zeigt genau die Form, die gesucht wird. Ein richtiges Paar wird mit einer kleinen Presse auf ein Alphabet-Plakat in der eigenen Sprache gedruckt, mit Ä, Ö und Ü an ihrem Platz.",
+        "Die Übung folgt dem Lehrplan im Fach Deutsch: alle großen und kleinen Buchstaben erkennen und benennen. Zwei weitere Stufen gehen weiter. Bei den Doppelgängern liegen acht Buchstaben auf einem Winkelhaken, etwa b, d, p und q, n, u, m und h oder Ü, U, Ä und Ö, und das Kind tippt jedes Exemplar eines Buchstabens an; ein falsch markierter dreht sich um und zeigt, wem er gehört. In Wörtern stehen drei kurze Wörter unter ihren Bildern, und das Kind tippt jeden gesuchten Buchstaben an und tippt an, wie viele es sind. Die Lehrkraft wählt die Stufe und welche Form zuerst vorgegeben wird. Ohne Zeitdruck, ohne Punkte."
       ],
       "practices": [
-        "Einen großen Buchstaben seiner kleinen Form zuordnen — und umgekehrt.",
-        "Denselben Buchstaben in seiner großen und seiner kleinen Gestalt wiedererkennen.",
-        "Ähnlich aussehende Buchstaben wie b, d und p unterscheiden.",
-        "Die sichere Buchstabenkenntnis aufbauen, die flüssiges Lesen braucht."
+        "Zu jedem großen Buchstaben den kleinen finden, in beide Richtungen",
+        "Ähnliche Buchstaben wie b, d, p und q unterscheiden",
+        "Einen Buchstaben in Wörtern finden, groß und klein geschrieben",
+        "Zählen, wie oft ein Buchstabe vorkommt"
       ],
       "howToPlay": [
-        "Schau dir den Buchstaben auf dem Spielfeld an.",
-        "Tippe seinen passenden Buchstaben in der anderen Form an — groß oder klein — und tippe dann auf Prüfen.",
-        "Du kannst es jederzeit erneut versuchen — es gibt keinen Timer und keine Punkte."
+        "Zieh die andere Form des Buchstabens vom Tablett in das leere Fach oder tippe sie an.",
+        "Zieh an der Presse, wenn das Paar stimmt.",
+        "Bei den Doppelgängern und in Wörtern tippst du jeden gesuchten Buchstaben an; in Wörtern tippst du auch an, wie viele es sind. Dann ziehst du an der Presse.",
+        "Nach einem Fehler drückst du lange auf einen Buchstaben, um seine Rückseite zu sehen."
       ],
       "learningGoals": [
-        "Große und kleine Buchstaben erkennen und benennen.",
-        "Die zwei Formen jedes Buchstabens als einen Buchstaben verbinden.",
-        "Die leicht zu verwechselnden Buchstaben festigen, die junge Leser oft durcheinanderbringen."
+        "Große und kleine Buchstaben erkennen und benennen",
+        "Wissen, dass ein großer und ein kleiner Buchstabe derselbe Buchstabe sind",
+        "Einen Buchstaben unter Doppelgängern und in Wörtern finden"
       ]
     },
     "fractions.partition-thirds.2-g-a-3": {

@@ -686,25 +686,26 @@
     },
     "choice-board.letter-case.rf-k-1-d": {
       "about": [
-        "Ruudulle ilmestyy yksi kirjain, ja lapsi napauttaa saman kirjaimen toista muotoa — ison kirjaimen pienen tai pienen kirjaimen ison. Näytöllä on iso B, ja lapsi etsii pienen b:n; iso R etsii r:n; iso E etsii e:n. Tämä on vuorovaikutteinen lukutaidon tehtävä, joka toimii suoraan selaimessa ilman rekisteröitymistä.",
-        "Tärkein ajatus on, että jokaisella kirjaimella on kaksi ulkoasua, jotka tarkoittavat samaa kirjainta. Väärät vaihtoehdot ovat tahallaan lähellä toisiaan — B:n kohdalla tarjolla olevat pienet kirjaimet ovat b, d, p ja h — joten lapsen on tunnettava kirjaimen todellinen muoto eikä vain valittava jotain pyöreää. Kääntyvien ja peilautuvien kirjainten, kuten b:n ja d:n, erottelu on juuri sitä tarkkaa katsomista, joka rakentaa varman kirjaintuntemuksen.",
-        "Tehtävä tukee lapsen kirjaintuntemusta OPS 2014:n mukaisesti: lapsi tunnistaa ja nimeää aakkosten isoja ja pieniä kirjaimia. Esiopetukseen — ei ajastinta eikä pisteitä, vaan rauhassa omaan tahtiin etenevää harjoittelua."
+        "Jokaisella kirjaimella on kaksi muotoa, ja täällä ne asuvat oikeassa kirjasinlaatikossa: isot kirjaimet ylälaatikossa ja pienet alalaatikossa, niin kuin kirjapainajat niitä säilyttivät. Toinen muoto on laatikossaan, ja lapsi vetää toisen muodon tarjottimelta tyhjään lokeroon tai vain napauttaa sitä. Kirjaimet on kirjoitettu koulufontilla, jossa on lasten lukemaan oppimat a ja g, ja iso I, pieni l ja numero 1 eivät koskaan näytä samalta. Tämä on interaktiivinen lukutehtävä, joka toimii selaimessa ilman asennuksia.",
+        "Keksintö on jokaisen metallikirjaimen kääntöpuoli: siinä on kirjaimen toinen muoto. Väärä kirjain lokerossa kaatuu ja näyttää oman toisen muotonsa; niin B:n alle tulee D, ja heti näkyy kaksi eri kirjainta. Ensimmäisen virheen jälkeen lapsi saa kääntää minkä tahansa kirjaimen pitkällä painalluksella ja tarkistaa sen; toisen virheen jälkeen myös annettu kirjain kääntyy ja näyttää juuri sen muodon, jota etsitään. Oikea pari painetaan pienellä painokoneella sivun oman kielen aakkosjulisteeseen, jossa Å, Ä ja Ö ovat paikoillaan.",
+        "Tehtävä noudattaa OPS 2014:ää äidinkielen ja kirjallisuuden osalta: kaikkien isojen ja pienten kirjainten tunnistaminen ja nimeäminen. Kaksi muuta tasoa vie pidemmälle. Samannäköiset-tasolla latomahaassa on kahdeksan kirjainta, esimerkiksi b, d, p ja q, n, u, m ja h tai ä, a ja ö, ja lapsi napauttaa jokaista saman kirjaimen kappaletta; väärä merkintä kääntyy ja näyttää, kenen kirjain se on. Sanoissa-tasolla on kolme lyhyttä sanaa kuviensa alla, ja lapsi napauttaa jokaista etsittyä kirjainta ja napauttaa, montako niitä on. Opettaja valitsee tason ja sen, kumpi muoto annetaan ensin. Ei ajanottoa eikä pisteitä."
       ],
       "practices": [
-        "Yhdistää ison kirjaimen sen pieneen muotoon ja toisin päin.",
-        "Tunnistaa saman kirjaimen sekä isona että pienenä.",
-        "Erottaa toisistaan toisiaan muistuttavat kirjaimet, kuten b, d ja p.",
-        "Kehittää varmaa kirjaintuntemusta, jota sujuva lukeminen tarvitsee."
+        "Jokaisen ison kirjaimen yhdistäminen pieneen, kumpaankin suuntaan",
+        "Samannäköisten kirjainten, kuten b, d, p ja q, erottaminen",
+        "Kirjaimen löytäminen sanoista, isoin ja pienin kirjaimin",
+        "Sen laskeminen, montako kertaa kirjain esiintyy"
       ],
       "howToPlay": [
-        "Katso ruudulla näkyvää kirjainta.",
-        "Napauta sille paria toisesta muodosta — isoa tai pientä — ja paina sitten Tarkista.",
-        "Voit yrittää uudelleen milloin haluat — ei ajastinta eikä pisteitä."
+        "Vedä kirjaimen toinen muoto tarjottimelta tyhjään lokeroon tai napauta sitä.",
+        "Vedä painokoneen vipua, kun pari on oikea.",
+        "Samannäköiset- ja Sanoissa-tasoilla napautat jokaista etsittyä kirjainta; Sanoissa-tasolla napautat myös, montako niitä on. Vedä sitten vipua.",
+        "Virheen jälkeen pidä sormea kirjaimen päällä, niin näet sen kääntöpuolen."
       ],
       "learningGoals": [
-        "Lapsi tunnistaa ja nimeää isoja ja pieniä kirjaimia.",
-        "Lapsi yhdistää jokaisen kirjaimen kaksi muotoa yhdeksi kirjaimeksi.",
-        "Lapsi varmentaa toisiaan muistuttavat kirjaimet, jotka aloittelevat lukijat usein sekoittavat."
+        "Lapsi tunnistaa ja nimeää isot ja pienet kirjaimet",
+        "Lapsi tietää, että iso ja pieni kirjain ovat sama kirjain",
+        "Lapsi löytää kirjaimen samannäköisten joukosta ja sanoista"
       ]
     },
     "fractions.partition-thirds.2-g-a-3": {

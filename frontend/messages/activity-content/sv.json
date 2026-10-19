@@ -1256,25 +1256,26 @@
     },
     "choice-board.letter-case.rf-k-1-d": {
       "about": [
-        "En bokstav visas, och barnet trycker på samma bokstav i dess andra form — stor bokstav till liten, eller liten till stor. Ett stort B visas och barnet hittar det lilla b; ett stort R hittar r; ett stort Ä hittar ä. Hela alfabetet är med, även å, ä och ö. Det är en interaktiv läsövning för förskoleklass som spelas direkt i webbläsaren utan konto.",
-        "Den stora idén är att varje bokstav har två utseenden som betyder samma bokstav. De felaktiga alternativen är medvetet lika — för B kan de små bokstäverna vara b, d, p och h — så barnet måste känna igen bokstavens riktiga form, inte bara välja något runt. Att reda ut bokstäver som vänder och vrider sig, som b och d, är precis det noggranna tittande som bygger en trygg bokstavskännedom.",
-        "Aktiviteten följer Lgr22: att känna igen och namnge alfabetets stora och små bokstäver. Ingen tid, inga poäng — bara lugn och lekfull träning i er egen takt."
+        "Varje bokstav har två former, och här bor de i en riktig sättlåda: de stora bokstäverna i den övre lådan och de små i den nedre, så som tryckare förvarade dem. En form står i sin låda, och barnet drar den andra formen från brickan till det tomma facket, eller trycker bara på den. Bokstäverna är satta med ett skolteckensnitt med det a och g som barn lär sig läsa, och med ett stort I, ett litet l och en etta som aldrig liknar varandra. Det är en interaktiv läsövning som fungerar i webbläsaren utan att något behöver installeras.",
+        "Uppfinningen är baksidan på varje metallbokstav: där står dess andra form. En fel bokstav i facket tippar över och visar sin egen andra form; så ligger ett D under B:et, och man ser direkt två olika bokstäver. Efter det första misstaget får barnet vända vilken bokstav som helst med ett långt tryck för att kontrollera; efter ett andra vänder sig också den givna bokstaven och visar precis den form man letar efter. Ett rätt par trycks i en liten press på en alfabetsaffisch på sidans eget språk, med Å, Ä och Ö på sina platser.",
+        "Övningen följer Lgr22 i svenska: att känna igen och benämna alla stora och små bokstäver. Två nivåer till går längre. Liknande bokstäver lägger åtta bokstäver på en sättkrok, till exempel b, d, p och q, n, u, m och h eller ä, a och å, och barnet trycker på varje exemplar av en bokstav; en fel markering vänder sig och visar vems bokstav den är. I ord ställer tre korta ord under sina bilder, och barnet trycker på varje exemplar av en bokstav och trycker på hur många det är. Läraren väljer nivå och vilken form som ges först. Ingen tidtagning, inga poäng."
       ],
       "practices": [
-        "Para ihop en stor bokstav med dess lilla form, och tvärtom",
-        "Känna igen samma bokstav i både stor och liten form",
-        "Skilja på bokstäver som ser lika ut, som b, d och p",
-        "Bygga den trygga bokstavskännedom som flytande läsning behöver"
+        "Att para ihop varje stor bokstav med sin lilla, åt båda hållen",
+        "Att skilja bokstäver som liknar varandra, som b, d, p och q",
+        "Att hitta en bokstav i ord, med stora och små bokstäver",
+        "Att räkna hur många gånger en bokstav finns"
       ],
       "howToPlay": [
-        "Titta på bokstaven som visas på spelplanen.",
-        "Tryck på samma bokstav i den andra formen — stor eller liten — och tryck sedan på Kontrollera.",
-        "Försök igen när du vill — det finns ingen tid och inga poäng."
+        "Dra bokstavens andra form från brickan till det tomma facket, eller tryck på den.",
+        "Dra i pressen när paret stämmer.",
+        "I liknande bokstäver och i ord trycker du på varje exemplar av bokstaven; i ord trycker du också på hur många det är. Dra sedan i pressen.",
+        "Efter ett misstag håller du fingret på en bokstav för att se dess baksida."
       ],
       "learningGoals": [
-        "Barnet kan känna igen och namnge stora och små bokstäver",
-        "Barnet kopplar ihop bokstavens två former till en och samma bokstav",
-        "Barnet får ordning på de bokstäver som lika gärna blandas ihop, som b och d"
+        "Barnet känner igen och benämner stora och små bokstäver",
+        "Barnet vet att en stor och en liten bokstav är samma bokstav",
+        "Barnet hittar en bokstav bland liknande bokstäver och i ord"
       ]
     },
     "fractions.partition-thirds.2-g-a-3": {

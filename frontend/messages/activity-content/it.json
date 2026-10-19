@@ -2396,25 +2396,26 @@
     },
     "choice-board.letter-case.rf-k-1-d": {
       "about": [
-        "Appare una lettera e il bambino tocca la stessa lettera nell'altra forma: dalla maiuscola alla minuscola, oppure dalla minuscola alla maiuscola. Compare una grande B e il bambino trova la piccola b; una grande R trova la r; una grande E trova la e. È un'attività di lettura interattiva per la scuola dell'infanzia, che si gioca direttamente nel browser, senza registrazione.",
-        "L'idea importante è che ogni lettera ha due aspetti che indicano la stessa lettera. Le scelte sbagliate sono volutamente vicine: per la B le minuscole proposte sono b, d, p e h, così il bambino deve riconoscere la vera forma della lettera e non scegliere semplicemente qualcosa di tondeggiante. Distinguere le lettere che si girano e si specchiano, come b e d, è proprio quell'osservazione attenta che costruisce un riconoscimento sicuro delle lettere.",
-        "L'attività è allineata alle Indicazioni nazionali: riconoscere e nominare tutte le lettere dell'alfabeto, maiuscole e minuscole. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
+        "Ogni lettera ha due forme, e qui abitano in una vera cassa tipografica: le maiuscole nel cassetto di sopra e le minuscole in quello di sotto, come le tenevano i tipografi. Una forma sta nel suo cassetto, e il bambino trascina l’altra forma dal vassoio fino allo scomparto vuoto, oppure la tocca. Le lettere sono in un carattere scolastico con la a e la g che i bambini imparano a leggere, e con una I maiuscola, una l minuscola e un 1 che non si somigliano mai. È un’attività interattiva di lettura che funziona nel browser senza installare nulla.",
+        "L’invenzione è il retro di ogni lettera di metallo: lì c’è la sua altra forma. Una lettera sbagliata nello scomparto si ribalta e mostra la propria altra forma; così una D finisce sotto la B, e si vede che sono due lettere diverse. Dopo questo primo errore il bambino può girare qualsiasi lettera tenendoci sopra il dito per controllarla; dopo un secondo, anche la lettera data si gira e mostra proprio la forma da cercare. Una coppia giusta passa sotto una piccola pressa e si stampa su un cartellone dell’alfabeto della lingua della pagina.",
+        "L’attività segue le Indicazioni nazionali per l’italiano: riconoscere e nominare tutte le lettere maiuscole e minuscole. Altri due livelli vanno oltre. Lettere simili mette otto lettere su un compositoio, come b, d, p e q, n, u, m e h o E, F e L, e il bambino tocca ogni copia di una lettera; un segno sbagliato si gira e mostra di chi è la lettera. Nelle parole mette tre parole brevi sotto le loro figure, e il bambino tocca ogni copia di una lettera e tocca quante sono. L’insegnante sceglie il livello e quale forma viene data per prima. Senza cronometro e senza punteggi."
       ],
       "practices": [
-        "Abbinare una lettera maiuscola alla sua minuscola, e viceversa.",
-        "Riconoscere la stessa lettera nelle sue due forme, grande e piccola.",
-        "Distinguere lettere simili come b, d e p.",
-        "Costruire il riconoscimento sicuro delle lettere di cui la lettura fluente ha bisogno."
+        "Abbinare ogni maiuscola alla sua minuscola, nei due sensi",
+        "Distinguere lettere che si somigliano, come b, d, p e q",
+        "Trovare una lettera dentro le parole, in maiuscolo e in minuscolo",
+        "Contare quante volte compare una lettera"
       ],
       "howToPlay": [
-        "Il bambino guarda la lettera mostrata sul tabellone.",
-        "Tocca la lettera corrispondente nell'altra forma, maiuscola o minuscola, poi preme «Controlla».",
-        "Può riprovare quando vuole: non c'è timer né punteggio."
+        "Trascina l’altra forma della lettera dal vassoio allo scomparto vuoto, oppure toccala.",
+        "Tira la pressa quando la coppia è giusta.",
+        "In lettere simili e nelle parole, tocca ogni copia della lettera; nelle parole tocca anche quante sono. Poi tira la pressa.",
+        "Dopo un errore, tieni il dito su una lettera per vederne il retro."
       ],
       "learningGoals": [
-        "Riconoscere e nominare le lettere maiuscole e minuscole.",
-        "Collegare le due forme di ogni lettera come una sola lettera.",
-        "Rendere stabili le lettere simili che i piccoli lettori confondono spesso."
+        "Riconoscere e nominare le lettere maiuscole e minuscole",
+        "Sapere che una maiuscola e la sua minuscola sono la stessa lettera",
+        "Trovare una lettera tra lettere simili e dentro le parole"
       ]
     },
     "fractions.partition-thirds.2-g-a-3": {

@@ -3856,25 +3856,26 @@
     },
     "choice-board.letter-case.rf-k-1-d": {
       "about": [
-        "Er verschijnt steeds één letter en je kind tikt op dezelfde letter in de andere vorm — een hoofdletter bij een kleine letter, of een kleine letter bij een hoofdletter. Bij een grote B zoekt je kind de kleine b, bij een grote R de r, bij een grote E de e. Het is een interactieve leesactiviteit voor groep 3 die zonder account meteen in de browser speelt.",
-        "Het grote idee is dat elke letter twee gedaanten heeft die dezelfde letter benoemen. De verkeerde keuzes lijken er met opzet op — bij de B krijg je bijvoorbeeld b, d, p en h te zien — zodat je kind de echte vorm van de letter moet kennen en niet zomaar iets ronds aanwijst. Letters die draaien en spiegelen uit elkaar halen, zoals b en d, is precies het zorgvuldige kijken dat stevige letterherkenning opbouwt.",
-        "De activiteit sluit aan bij de SLO-kerndoelen voor beginnende geletterdheid en bij kinderen in groep 3: alle hoofdletters en kleine letters herkennen en benoemen. Geen timer, geen score — gewoon rustig kijken en koppelen."
+        "Elke letter heeft twee vormen, en hier wonen ze in een echte letterkast: de hoofdletters in de bovenste lade en de kleine letters in de onderste, waar de drukkerswoorden bovenkast en onderkast vandaan komen. Eén vorm staat in zijn lade, en het kind sleept de andere vorm van het plankje naar het lege vakje, of tikt hem gewoon aan. De letters staan in een schoolletter met de a en de g die kinderen leren lezen, en met een hoofdletter I, een kleine l en een 1 die nooit op elkaar lijken. Het is een interactieve leesoefening die in de browser werkt, zonder iets te installeren.",
+        "De vondst is de achterkant van elke metalen letter: daar staat zijn andere vorm. Een verkeerde letter in het vakje kantelt om en laat zijn eigen andere vorm zien; zo ligt er een D onder de B, en zie je meteen twee verschillende letters. Na die eerste vergissing mag het kind elke letter met lang drukken omdraaien om te kijken; na een tweede draait ook de gegeven letter om en laat precies de vorm zien die je zoekt. Een goed paar gaat onder een kleine pers en wordt gedrukt op een alfabetposter in de taal van de pagina.",
+        "De oefening sluit aan bij de SLO-kerndoelen voor Nederlands: alle hoofdletters en kleine letters herkennen en benoemen. Twee andere niveaus gaan verder. Lijken op elkaar legt acht letters op een zethaak, zoals b, d, p en q, n, u, m en h of E, F en L, en het kind tikt elk exemplaar van een letter aan; een verkeerd gemarkeerde letter draait om en laat zien van wie hij is. In woorden zet drie korte woorden onder hun plaatjes, en het kind tikt elk exemplaar van een letter aan en tikt aan hoeveel het er zijn. De leerkracht kiest het niveau en welke vorm eerst gegeven wordt. Zonder klok, zonder punten."
       ],
       "practices": [
-        "Een hoofdletter koppelen aan de bijbehorende kleine letter, en andersom",
-        "Dezelfde letter herkennen in zowel de grote als de kleine vorm",
-        "Letters die op elkaar lijken uit elkaar houden, zoals b, d en p",
-        "De stevige letterherkenning opbouwen die vlot lezen nodig heeft"
+        "Elke hoofdletter aan zijn kleine letter koppelen, in beide richtingen",
+        "Letters die op elkaar lijken uit elkaar houden, zoals b, d, p en q",
+        "Een letter in woorden vinden, in hoofdletters en in kleine letters",
+        "Tellen hoe vaak een letter voorkomt"
       ],
       "howToPlay": [
-        "Bekijk de letter die op het bord staat.",
-        "Tik op de bijpassende letter in de andere vorm — groot of klein — en druk op Controleer.",
-        "Probeer het gerust opnieuw — er is geen timer en geen score."
+        "Sleep de andere vorm van de letter van het plankje naar het lege vakje, of tik hem aan.",
+        "Trek aan de pers als het paar klopt.",
+        "Bij lijken op elkaar en in woorden tik je elk exemplaar van de letter aan; in woorden tik je ook aan hoeveel het er zijn. Trek dan aan de pers.",
+        "Druk na een vergissing lang op een letter om de achterkant te zien."
       ],
       "learningGoals": [
-        "Je kind herkent en benoemt hoofdletters en kleine letters.",
-        "Je kind verbindt de twee vormen van elke letter tot één letter.",
-        "Je kind krijgt meer grip op de lijkende letters die jonge lezers vaak verwisselen."
+        "Hoofdletters en kleine letters herkennen en benoemen",
+        "Weten dat een hoofdletter en zijn kleine letter dezelfde letter zijn",
+        "Een letter vinden tussen letters die erop lijken en in woorden"
       ]
     },
     "fractions.partition-equal-shares.1-g-a-3": {

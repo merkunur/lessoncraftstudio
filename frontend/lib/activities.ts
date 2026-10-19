@@ -168,6 +168,7 @@ const MANIFEST_FILES = [
   'paint-pots-activities.json',
   'post-slot-activities.json',
   'post-box-activities.json',
+  'type-case-activities.json',
   'graph-it-activities.json',
   'field-guide-activities.json',
   'rhyme-shop-activities.json',

@@ -3444,25 +3444,26 @@
     },
     "choice-board.letter-case.rf-k-1-d": {
       "about": [
-        "Se muestra una letra y el niño o la niña toca la misma letra en su otra forma: de mayúscula a minúscula o de minúscula a mayúscula. Aparece una B grande y hay que encontrar la b chica; una R grande lleva a la r; una E grande lleva a la e, incluida la ñ del abecedario en español. Es una actividad de lectura para preescolar (kínder), interactiva, que se juega directo en el navegador, sin crear cuenta.",
-        "La idea importante es que cada letra tiene dos formas que nombran a la misma letra. Las opciones equivocadas se eligen a propósito para que se parezcan: para la B, las minúsculas que aparecen son b, d, p y h, así que hay que reconocer la forma real de la letra y no solo elegir algo redondeado. Separar las letras que se voltean o giran, como la b y la d, es exactamente el tipo de observación cuidadosa que forma un reconocimiento seguro de las letras.",
-        "Está alineada con los planes y programas de estudio (SEP): reconocer y nombrar todas las letras del abecedario en mayúscula y en minúscula. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+        "Cada letra tiene dos formas, y aquí viven en una verdadera caja de imprenta: las mayúsculas en el cajón de arriba y las minúsculas en el de abajo, como las guardaban los impresores. Una forma está en su cajón, y el niño arrastra la otra forma desde la charola hasta el hueco vacío, o simplemente la toca. Las letras están en un tipo de letra escolar con la a y la g que los niños aprenden a leer, y con una I mayúscula, una l minúscula y un 1 que nunca se parecen. Es una actividad interactiva de lectura que funciona en el navegador, sin instalar nada.",
+        "La invención es la parte de atrás de cada letra de metal: ahí está su otra forma. Una letra equivocada en el hueco se voltea y muestra su propia otra forma; así una D queda debajo de la B, y se ve que son dos letras distintas. Después de ese primer error, el niño puede voltear cualquier letra dejando el dedo presionado para revisarla; después de un segundo, la letra dada también se voltea y muestra justo la forma que hay que buscar. Un par correcto pasa por una pequeña prensa y se imprime en un cartel del abecedario del idioma de la página, con la Ñ en su lugar.",
+        "La actividad sigue los planes y programas de estudio de la SEP, campo formativo Lenguajes: reconocer y nombrar todas las letras mayúsculas y minúsculas. Dos niveles más van más lejos. Letras parecidas pone ocho letras en un componedor, como b, d, p y q, n, u, m y h o ñ, n, m y h, y el niño toca cada copia de una letra; una marca equivocada se voltea y muestra de quién es. En palabras pone tres palabras cortas bajo sus imágenes, y el niño toca cada copia de una letra y toca cuántas hay. El docente elige el nivel y qué forma se da primero. Sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Relacionar una letra mayúscula con su minúscula, y al revés.",
-        "Reconocer la misma letra en su forma grande y en su forma chica.",
-        "Distinguir letras parecidas como la b, la d y la p.",
-        "Afianzar el reconocimiento seguro de letras que necesita la lectura fluida."
+        "Relacionar cada mayúscula con su minúscula, en los dos sentidos",
+        "Distinguir letras que se parecen, como b, d, p y q",
+        "Encontrar una letra dentro de palabras, en mayúsculas y en minúsculas",
+        "Contar cuántas veces aparece una letra"
       ],
       "howToPlay": [
-        "Mira la letra que aparece en el tablero.",
-        "Toca la misma letra en su otra forma, grande o chica, y pulsa Comprobar.",
-        "Inténtalo cuando quieras: no hay temporizador ni puntuación."
+        "Arrastra la otra forma de la letra desde la charola hasta el hueco vacío, o tócala.",
+        "Jala la prensa cuando el par esté bien.",
+        "En letras parecidas y en palabras, toca cada copia de la letra; en palabras, toca también cuántas hay. Luego jala la prensa.",
+        "Después de un error, deja el dedo sobre una letra para ver su parte de atrás."
       ],
       "learningGoals": [
-        "Reconocer y nombrar letras en mayúscula y en minúscula.",
-        "Entender que las dos formas de una letra son la misma letra.",
-        "Afianzar las letras parecidas que los primeros lectores suelen confundir."
+        "Reconocer y nombrar las letras mayúsculas y minúsculas",
+        "Saber que una mayúscula y su minúscula son la misma letra",
+        "Encontrar una letra entre letras parecidas y dentro de palabras"
       ]
     },
     "fractions.partition-thirds.2-g-a-3": {

@@ -359,25 +359,26 @@
     },
     "choice-board.sort-count.k-md-b-3": {
       "about": [
-        "Kauan ennen kuin lapset tekevät kaavioita, he oppivat jäsentämään maailmaa lajittelemalla asioita ryhmiin. Tässä maksuttomassa harjoituksessa ruudulle ilmestyy sekalainen joukko ystävällisiä kuvia — osa on eläimiä, osa hedelmiä, joskus mukana on kulkuneuvoja, kaikki sekaisin. Ohje nimeää yhden ryhmän, kuten eläimet, ja lapsi päättää, kuinka moni kuvista kuuluu siihen ryhmään, ja napauttaa sitten oikean lukumäärän.",
-        "Kuvat ovat tarkoituksella sekaisin. Vastatakseen, kuinka monta eläintä joukossa on, lapsi ei voi vain laskea kaikkea — hänen on katsottava jokaista kuvaa, päätettävä mikä se on, jätettävä syrjään ne jotka eivät kuulu ryhmään ja laskettava vain kysytty ryhmä.",
-        "Harjoitus on OPS 2014:n mukainen mittaamisen ja tiedon osa-alueella. Lapset työskentelevät omaan tahtiinsa lempeän ja välittömän palautteen kanssa — ei ajastinta, ei pisteitä, vain rauhallista lajittelua ja laskemista."
+        "Sekainen kasa eläimiä, hedelmiä ja kulkuneuvoja tulee kuljetinhihnalla kuva kerrallaan, ja lapsi pudottaa jokaisen oikeaan suppiloon. Kunkin suppilon pienet kuvat näyttävät, mitä siihen kuuluu; väärään suppiloon pudotettu kuva pomppaa takaisin hihnalle, joten jokainen asia lajitellaan, ja vain kerran. Interaktiivinen lajittelu- ja laskemistehtävä esiopetukseen, joka toimii selaimessa ilman asennusta.",
+        "Keksintö on se, että lasiputket muuttuvat kuvadiagrammiksi lapsen työskennellessä. Jokainen kuva vie yhtä korkean lokeron, iso norsu yhtä paljon kuin pieni kiivi, joten putken korkeus ON se, kuinka monta siinä on. Kun hihna on tyhjä, tulee kysymys: kuinka monta yhdessä ryhmässä on, missä ryhmässä on eniten tai vähiten, kuinka monta enemmän yhdessä ryhmässä on kuin toisessa, tai putket pitää vetää järjestykseen eniten sisältävästä vähiten sisältävään. Väärän vastauksen jälkeen apu näyttää selittämisen sijaan: kysytty putki syttyy lokero kerrallaan, katkoviiva näyttää, kuinka korkealle kukin putki ulottuu, väärin päin olevat putket kallistuvat toisiaan kohti, tai viivat muodostavat pareja kahden putken välille, jolloin ylimääräiset erottuvat. Kahden ominaisuuden tasolla putket kysyvät myös, lentääkö asia, ja pingviini, lintu joka ei lennä, kuuluu niiden joukkoon, jotka eivät lennä.",
+        "Tehtävä noudattaa esiopetuksen opetussuunnitelman perusteita: lapsi lajittelee esineitä annettuihin ryhmiin, laskee, kuinka monta kussakin ryhmässä on, ja järjestää ryhmät määrän mukaan. Opettaja valitsee kaksi ryhmää, kolme ryhmää tai kahden ominaisuuden taulukon ja sen, näkyvätkö lokeroiden vieressä numerot (diagrammin lukeminen) vai ovatko ne piilossa (laskeminen). Kuvat tulevat kuvitetusta kirjastosta. Ei ajastinta eikä pisteitä."
       ],
       "practices": [
-        "Katsoo sekalaista joukkoa ja päättää, mihin ryhmään kukin kuva kuuluu",
-        "Laskee vain nimetyn ryhmän ja jättää muut huomiotta",
-        "Erottaa yhden ryhmän lukumäärän koko joukon määrästä",
-        "Harjoittelee lajittele ensin, laske sitten -tapaa tulevaa tiedon käsittelyä ja kaavioita varten"
+        "Sekaisen joukon lajitteleminen ryhmiin",
+        "Jokaisen ryhmän laskeminen ohittamatta tai laskematta kahdesti",
+        "Ryhmien vertaileminen: eniten, vähiten, kuinka monta enemmän",
+        "Ryhmien järjestäminen määrän mukaan"
       ],
       "howToPlay": [
-        "Katso sekalaista kuvajoukkoa ja kuuntele tai lue ohje, joka nimeää yhden ryhmän",
-        "Päätä kuinka moni kuva kuuluu siihen ryhmään ja napauta oikeaa lukumäärää",
-        "Saat lämpimän tarkistuksen — ja voit yrittää helposti uudelleen"
+        "Pudota hihnalla oleva kuva oikeaan suppiloon (napauta suppiloa tai vedä kuva).",
+        "Väärästä suppilosta kuva pomppaa takaisin: katso kunkin suppilon pieniä kuvia.",
+        "Kun hihna on tyhjä, vastaa kysymykseen: napauta lukua, napauta putkea tai vedä putket järjestykseen.",
+        "Paina Tarkista."
       ],
       "learningGoals": [
-        "Lajitella kuvat ryhmiin ja laskea kunkin ryhmän määrä",
-        "Erottaa nimetyn ryhmän lukumäärä koko joukon määrästä",
-        "Vahvistaa lajittelu- ja jäsentämistaitoja mittaamisen ja tiedon myöhempää työskentelyä varten"
+        "Lapsi lajittelee esineitä annettuihin ryhmiin ja laskee jokaisen ryhmän",
+        "Lapsi järjestää ryhmät määrän mukaan ja löytää suurimman ja pienimmän",
+        "Lapsi lukee yksinkertaista kuvadiagrammia ja vertailee kahta ryhmää"
       ]
     },
     "array.build-array.2-oa-c-4": {

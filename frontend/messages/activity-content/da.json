@@ -359,25 +359,26 @@
     },
     "choice-board.sort-count.k-md-b-3": {
       "about": [
-        "En blandet bunke venlige billeder dukker op — dyr, frugter og af og til køretøjer, rodet ind mellem hinanden — og opgaven nævner én gruppe, som barnet skal tælle. Barnet afgør, hvor mange der hører til netop den gruppe, og trykker på tallet. Det er en interaktiv tælleøvelse til børnehaveklassen, der kører direkte i browseren, uden at man skal installere noget, og uden konto.",
-        "Bunken er blandet med vilje. For at svare på \"hvor mange dyr?\" kan barnet ikke bare tælle det hele — det skal se godt efter på hvert billede, afgøre hvad det er, lægge dem til side, der ikke hører til, og kun tælle den gruppe, der blev nævnt. Talmulighederne tæller både det rigtige antal og hele bunken, så barnet bliver nødt til at sortere først og tælle bagefter.",
-        "Aktiviteten følger Fælles Mål inden for området statistik og data: at sortere ting i kategorier og tælle, hvor mange der hører til hver gruppe. Der er ingen timer og ingen point — kun rolig og legende træning i børnehaveklassen."
+        "En blandet bunke dyr, frugter og køretøjer kommer billede for billede på et transportbånd, og barnet smider hvert billede i den rigtige tragt. De små billeder ved hver tragt viser, hvad der hører til der; et billede i den forkerte tragt hopper tilbage på båndet, så alt bliver sorteret, og kun én gang. En interaktiv aktivitet om at sortere og tælle til børnehaveklassen, der kører i browseren uden installation.",
+        "Det nye er, at glasrørene bliver til et billeddiagram, mens barnet arbejder. Hvert billede fylder et rum med samme højde, en stor elefant lige så meget som en lille kiwi, så rørets højde ER, hvor mange der er i det. Når båndet er tomt, kommer et spørgsmål: hvor mange er der i én gruppe, hvilken gruppe har flest eller færrest, hvor mange flere har én gruppe end en anden, eller rørene skal trækkes i rækkefølge fra flest til færrest. Efter et forkert svar viser hjælpen i stedet for at forklare: det spurgte rør lyser op rum for rum, en stiplet linje viser, hvor højt hvert rør når, rør i forkert rækkefølge læner sig mod hinanden, eller linjer danner par mellem to rør, så de overskydende står frem. På niveauet med to egenskaber spørger rørene også, om tingen flyver, og pingvinen, en fugl der ikke flyver, hører til det, der ikke flyver.",
+        "Aktiviteten følger Fælles Mål for børnehaveklassen (kompetenceområdet Matematisk opmærksomhed): sortere ting i givne grupper, tælle, hvor mange der er i hver gruppe, og ordne grupperne efter antal. Læreren vælger to grupper, tre grupper eller tabellen med to egenskaber, og om tallene ved rummene vises (læse et diagram) eller skjules (tælle). Billederne kommer fra det illustrerede bibliotek. Ingen tidtagning, ingen point."
       ],
       "practices": [
-        "Genkende, hvilken gruppe hvert billede hører til",
-        "Tælle kun den nævnte gruppe og se bort fra resten",
-        "Kende én gruppes antal fra det samlede antal",
-        "Få den vane at sortere først og tælle bagefter, som senere arbejde med data bygger på"
+        "Sortere en blandet bunke i grupper",
+        "Tælle hver gruppe uden at springe over eller tælle dobbelt",
+        "Sammenligne grupper: flest, færrest, hvor mange flere",
+        "Ordne grupperne efter antal"
       ],
       "howToPlay": [
-        "Se godt efter på den blandede bunke, og hør eller læs, hvilken gruppe der bliver nævnt.",
-        "Afgør, hvor mange der hører til den nævnte gruppe, og tryk på tallet.",
-        "En varm tilbagemelding viser svaret, og barnet kan nemt prøve igen — der er ingen timer og ingen point."
+        "Smid billedet på båndet i den rigtige tragt (tryk på tragten, eller træk billedet).",
+        "I den forkerte tragt hopper det tilbage: se på de små billeder ved hver tragt.",
+        "Når båndet er tomt, så svar på spørgsmålet: tryk på et tal, tryk på et rør, eller træk rørene i rækkefølge.",
+        "Tryk på Tjek."
       ],
       "learningGoals": [
-        "Barnet kan sortere billeder i grupper og tælle hver gruppe",
-        "Barnet kan kende en nævnt gruppes antal fra det samlede antal",
-        "Barnet kan opbygge den sortere-og-tælle-vane, som senere arbejde med data bygger på"
+        "Sortere ting i givne grupper og tælle hver gruppe",
+        "Ordne grupperne efter antal og finde den største og den mindste",
+        "Læse et enkelt billeddiagram og sammenligne to grupper"
       ]
     },
     "array.build-array.2-oa-c-4": {

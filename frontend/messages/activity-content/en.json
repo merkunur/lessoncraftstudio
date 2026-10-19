@@ -429,25 +429,26 @@
     },
     "choice-board.sort-count.k-md-b-3": {
       "about": [
-        "A mixed pile of friendly pictures appears — some animals like a cat, dog, duck, or fish, and some fruit like an apple, banana, orange, or strawberry, all jumbled together — and when the prompt names one group, such as animals, the child decides how many pictures belong to it and taps the matching number. It's a Kindergarten activity that plays in the browser with no account needed.",
-        "The pictures are mixed on purpose. To answer how many animals there are, a child cannot simply count everything on the screen — they have to look at each picture, decide what it is, set aside the fruit that does not belong, and count only the group that was asked for. That quiet two-step of sorting first and counting second is the whole heart of the activity, and it is a genuinely different skill from counting a row of identical objects.",
-        "It is aligned to Common Core K.MD.B.3 — classifying objects into given categories and counting how many are in each. No timer, no score — just calm, playful practice."
+        "A mixed pile of animals, fruits and vehicles rides a conveyor belt one picture at a time, and the child drops each one down the right chute. The little pictures on each chute show what belongs there; a picture dropped down the wrong chute bounces back to the belt, so every thing is sorted, and sorted only once. It is an interactive Kindergarten activity about sorting and counting that runs in the browser with nothing to install.",
+        "The invention is that the glass tubes turn into a picture graph while the child works. Every picture takes one slot of the same height, a big elephant as much as a small kiwi, so the height of a tube IS how many are in it. When the belt is empty a question follows: how many are in one group, which group has the most or the fewest, how many more one group has than another, or the tubes must be dragged into order from most to fewest. A wrong answer brings help that shows instead of tells: the asked tube lights up slot by slot, a dashed line shows how high each tube reaches, the tubes that are the wrong way round lean together, or lines pair up two tubes so the extras stand out. In the two-way level the tubes also ask whether a thing flies, and the penguin, a bird that does not fly, belongs with the things that do not fly.",
+        "It is aligned to Common Core K.MD.B.3: classifying objects into given categories, counting the number in each category and sorting the categories by count; the \"how many more\" and two-way questions reach towards first-grade comparisons. Teachers choose two groups, three groups, or the two-way table, and whether the numbers beside the tube slots are shown (reading a graph) or hidden (counting). The pictures come from the illustrated library. No timer, no score."
       ],
       "practices": [
-        "Looking at a mixed set of animals and fruit and deciding which group each picture belongs to",
-        "Counting only the pictures in the named group and ignoring the rest",
-        "Telling the count of one group apart from the total number of pictures",
-        "Building the sort-first, count-second habit that early data and graphing work rely on"
+        "Sorting a mixed set into groups",
+        "Counting each group without skipping or counting twice",
+        "Comparing groups: most, fewest, how many more",
+        "Putting the groups in order by how many"
       ],
       "howToPlay": [
-        "Look at the mixed pile of pictures and read or listen to the prompt, which names one group to find.",
-        "Decide how many pictures belong to that group, then tap the number that matches.",
-        "A warm check confirms a correct count and offers an easy retry whenever you need it."
+        "Drop the picture on the belt down the right chute (tap the chute or drag the picture).",
+        "A wrong chute bounces it back: look at the little pictures on each chute.",
+        "When the belt is empty, answer the question: tap a number, tap a tube, or drag the tubes into order.",
+        "Press Check."
       ],
       "learningGoals": [
-        "Classify pictures into given categories and count how many are in each — the focus of Common Core K.MD.B.3.",
-        "Tell the count of a named group apart from the total, instead of counting everything.",
-        "Build the sorting and organizing skills that later measurement, data, and graphing work depend on."
+        "Classify objects into given categories and count each, the focus of Common Core K.MD.B.3",
+        "Sort the categories by count and find the most and the fewest",
+        "Read a simple picture graph and compare two groups"
       ]
     },
     "choice-board.describe-attribute.k-md-a-1": {

@@ -2649,25 +2649,26 @@
     },
     "choice-board.sort-count.k-md-b-3": {
       "about": [
-        "Aparece una pila desordenada de imágenes amigables —animales, frutas y a veces vehículos, todos mezclados— y el juego nombra un solo grupo: «¿Cuántos animales hay?». El niño o la niña decide cuántas imágenes pertenecen a ese grupo y toca el número. Es una actividad de clasificación y conteo interactiva para preescolar (kínder) que funciona en el navegador, sin instalar nada y sin crear cuenta.",
-        "Las imágenes están mezcladas a propósito: para responder «¿cuántos animales?», el niño o la niña no puede simplemente contar todo lo que ve. Tiene que mirar cada imagen, decidir qué es, apartar lo que no pertenece al grupo y contar solo las imágenes nombradas. Así practica la observación cuidadosa y el pensamiento clasificatorio que le servirán toda la vida.",
-        "Está alineada con los planes y programas de estudio (SEP), en el eje de análisis de datos: clasificar objetos en categorías y contar cuántos hay en cada una. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+        "Un montón revuelto de animales, frutas y vehículos llega por una banda transportadora, una imagen a la vez, y el niño echa cada una en el embudo correcto. Los dibujitos de cada embudo muestran lo que va ahí; una imagen echada en el embudo equivocado rebota a la banda, así que cada cosa se clasifica, y solo una vez. Es una actividad interactiva de clasificar y contar para preescolar que funciona en el navegador, sin instalar nada.",
+        "La invención es que los tubos de vidrio se convierten en una gráfica de dibujos mientras el niño trabaja. Cada imagen ocupa un lugar de la misma altura, un elefante grande lo mismo que un kiwi pequeño, así que la altura de un tubo ES cuántos hay en él. Cuando la banda queda vacía viene una pregunta: cuántos hay en un grupo, de qué hay más o menos, cuántos más tiene un grupo que otro, o hay que ordenar los tubos de más a menos. Tras una respuesta equivocada, la ayuda muestra en lugar de explicar: el tubo de la pregunta se ilumina lugar por lugar, una línea punteada muestra hasta dónde llega cada tubo, los tubos que están al revés se inclinan uno hacia el otro, o unas líneas forman parejas entre dos tubos para que se vean los que sobran. En el nivel de dos criterios, los tubos también preguntan si la cosa vuela, y el pingüino, un ave que no vuela, va con lo que no vuela.",
+        "Está alineada con los planes y programas de estudio de la SEP para preescolar: clasificar objetos en categorías dadas, contar cuántos hay en cada una y ordenar las categorías según su cantidad. El docente elige dos grupos, tres grupos o la tabla de dos criterios, y si los números junto a los lugares se muestran (leer una gráfica) o se ocultan (contar). Las imágenes vienen de la biblioteca ilustrada. Sin cronómetro y sin puntaje."
       ],
       "practices": [
-        "Reconocer cada imagen y su categoría —animal, fruta, vehículo u otra— con atención sostenida.",
-        "Contar solo el grupo nombrado, dejando a un lado lo que no pertenece.",
-        "Separar mentalmente una categoría del total para decir su cantidad.",
-        "Practicar el hábito de clasificar primero y contar después, una destreza que sostiene todo el trabajo con datos."
+        "Clasificar un conjunto revuelto en grupos",
+        "Contar cada grupo sin saltarse ninguno ni contar dos veces",
+        "Comparar grupos: más, menos, cuántos más",
+        "Ordenar los grupos según cuántos tienen"
       ],
       "howToPlay": [
-        "Observa la pila mezclada de imágenes y escucha o lee el nombre del grupo que buscas: por ejemplo, frutas, animales o vehículos.",
-        "Decide cuántas imágenes pertenecen a ese grupo y toca el número que coincide con tu respuesta.",
-        "Recibe una respuesta cálida —sin presión y sin puntuación— y prueba otra ronda si quieres."
+        "Echa la imagen de la banda en el embudo correcto (toca el embudo o arrastra la imagen).",
+        "En el embudo equivocado rebota: mira los dibujitos de cada embudo.",
+        "Cuando la banda quede vacía, contesta la pregunta: toca un número, toca un tubo o arrastra los tubos para ordenarlos.",
+        "Oprime Revisar."
       ],
       "learningGoals": [
-        "Clasificar imágenes en categorías y contar cada grupo con precisión.",
-        "Decir cuántos hay en un grupo nombrado dentro de una colección mezclada.",
-        "Construir la destreza de ordenar y clasificar que sostiene todo el trabajo posterior con datos."
+        "Clasificar objetos en categorías dadas y contar cada una",
+        "Ordenar las categorías según su cantidad y encontrar la que tiene más y la que tiene menos",
+        "Leer una gráfica de dibujos sencilla y comparar dos grupos"
       ]
     },
     "array.build-array.2-oa-c-4": {

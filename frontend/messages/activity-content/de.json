@@ -3084,25 +3084,26 @@
     },
     "choice-board.sort-count.k-md-b-3": {
       "about": [
-        "Ein bunter Haufen freundlicher Bilder erscheint – Tiere, Früchte und manchmal Fahrzeuge, alle durcheinander –, der Text nennt eine Gruppe, und das Kind überlegt, wie viele Bilder dazugehören, und tippt die passende Zahl an. Diese interaktive Übung zum Sortieren und Zählen für den Kindergarten läuft direkt im Browser auf Tablet, Handy und Computer, ganz ohne Anmeldung.",
-        "Die Bilder sind absichtlich gemischt: Um „Wie viele Tiere?“ zu beantworten, kann das Kind nicht einfach alles zählen. Es schaut sich jedes Bild genau an, entscheidet, was es ist, lässt weg, was nicht dazugehört, und zählt nur die gefragte Gruppe. So wird das Klassifizieren zur eigentlichen Aufgabe, nicht nur das Zählen.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Daten und Häufigkeiten ausgerichtet – Gegenstände nach Gruppen sortieren und zählen, wie viele zu jeder Gruppe gehören. Es gibt keinen Timer und keine Punktewertung – nur ruhiges, spielerisches Üben."
+        "Ein bunter Haufen aus Tieren, Früchten und Fahrzeugen fährt auf einem Förderband Bild für Bild heran, und das Kind wirft jedes in den richtigen Trichter. Die kleinen Bilder an jedem Trichter zeigen, was dort hineingehört; ein Bild im falschen Trichter springt aufs Band zurück, so wird jedes Ding sortiert, und zwar nur einmal. Eine interaktive Übung zum Sortieren und Zählen für den Kindergarten, die im Browser läuft, ohne Installation.",
+        "Das Besondere: Die Glasröhren werden beim Sortieren zu einem Bilddiagramm. Jedes Bild belegt ein gleich hohes Fach, ein großer Elefant genauso viel wie eine kleine Kiwi, deshalb IST die Höhe einer Röhre ihre Anzahl. Ist das Band leer, folgt eine Frage: Wie viele sind in einer Gruppe, wovon gibt es am meisten oder am wenigsten, wie viele sind es mehr als in einer anderen Gruppe, oder die Röhren sollen von den meisten zu den wenigsten geordnet werden. Nach einer falschen Antwort zeigt die Hilfe statt zu erklären: Die gefragte Röhre leuchtet Fach für Fach auf, eine gestrichelte Linie zeigt, wie hoch jede Röhre reicht, falsch herum stehende Röhren neigen sich zueinander, oder Linien bilden Paare zwischen zwei Röhren, sodass die übrigen auffallen. In der Stufe mit zwei Merkmalen fragen die Röhren außerdem, ob etwas fliegt, und der Pinguin, ein Vogel, der nicht fliegt, gehört zu den Dingen, die nicht fliegen.",
+        "Die Übung folgt den Lehrplänen im Bereich Daten und Häufigkeiten: Gegenstände in vorgegebene Gruppen sortieren, zählen, wie viele in jeder Gruppe sind, und die Gruppen nach ihrer Anzahl ordnen. Lehrkräfte wählen zwei Gruppen, drei Gruppen oder die Tabelle mit zwei Merkmalen und ob die Zahlen neben den Fächern angezeigt werden (Diagramm lesen) oder versteckt sind (zählen). Die Bilder stammen aus der illustrierten Bibliothek. Kein Timer, keine Punkte."
       ],
       "practices": [
-        "Einen gemischten Haufen anschauen und bei jedem Bild überlegen, zu welcher Gruppe es gehört.",
-        "Nur die genannte Gruppe zählen und den Rest weglassen.",
-        "Die Anzahl einer Gruppe von der Gesamtmenge unterscheiden.",
-        "Die Gewohnheit „erst sortieren, dann zählen“ für späteres Arbeiten mit Daten und Diagrammen aufbauen."
+        "Einen gemischten Haufen in Gruppen sortieren",
+        "Jede Gruppe zählen, ohne etwas auszulassen oder doppelt zu zählen",
+        "Gruppen vergleichen: am meisten, am wenigsten, wie viele mehr",
+        "Die Gruppen nach ihrer Anzahl ordnen"
       ],
       "howToPlay": [
-        "Schau dir den gemischten Bilderhaufen an und höre oder lies, welche Gruppe gesucht ist.",
-        "Überlege, wie viele Bilder dazugehören, und tippe die passende Zahl an.",
-        "Eine warme Rückmeldung erscheint — und ein neuer Versuch ist jederzeit ganz leicht."
+        "Wirf das Bild auf dem Band in den richtigen Trichter (tippe auf den Trichter oder zieh das Bild hin).",
+        "Im falschen Trichter springt es zurück: Schau auf die kleinen Bilder an jedem Trichter.",
+        "Ist das Band leer, beantworte die Frage: Tippe auf eine Zahl, auf eine Röhre oder zieh die Röhren in die richtige Reihenfolge.",
+        "Drück Prüfen."
       ],
       "learningGoals": [
-        "Bilder in Gruppen einteilen und jede Gruppe zählen.",
-        "Die Anzahl einer genannten Gruppe von der Gesamtmenge unterscheiden.",
-        "Sortier- und Ordnungsfähigkeiten für späteres Arbeiten im Bereich Daten und Häufigkeiten aufbauen."
+        "Gegenstände in vorgegebene Gruppen sortieren und jede Gruppe zählen",
+        "Die Gruppen nach ihrer Anzahl ordnen, die größte und die kleinste finden",
+        "Ein einfaches Bilddiagramm lesen und zwei Gruppen vergleichen"
       ]
     },
     "array.build-array.2-oa-c-4": {

@@ -263,25 +263,26 @@
     },
     "choice-board.compare-length.k-md-2": {
       "about": [
-        "Two everyday objects sit side by side and the child taps the taller, the longer, or the shorter one — comparing real, familiar pictures like a pine or palm tree, a pencil, crayon, marker or ruler, a carrot or cucumber, a giraffe, a sunflower, or a candle. It's a Kindergarten measurement activity that plays in any browser with no download and no account.",
-        "There is no counting and no numbers; the child simply looks and compares one measurable attribute at a time. The prompt names the word — taller, longer, or shorter — and the child decides which of the two objects fits. Lining up height for taller (a giraffe) and length for longer (a cucumber) builds the vocabulary of measurement before any ruler or number is introduced.",
-        "It is aligned to Common Core K.MD.A.2 — directly comparing two objects by a measurable attribute and describing which is taller, longer, or shorter. No timer, no score — just calm, playful practice."
+        "Which one is taller, longer or shorter? Here the things stand on folding stands of different heights, or lie on rails a little way from a start wall, so their tops and ends can trick the eye: the shorter palm tree may stand on the higher stand. The child can drag a picture down and its stand folds under it, or drag a lying pencil left until it touches the wall, then taps the one they choose and presses Check. It is an interactive Kindergarten measurement activity that runs in the browser with nothing to install.",
+        "The invention is the honest stand and the level beam. On Check every stand folds and every lying thing slides to the wall, so all of them share one floor or one start line, and a golden beam comes to rest on the true tallest top or longest end; every shorter one shows the gap between its top and the beam. In most rounds the stands make the wrong answer look right, so children soon bring everything down to the floor first: that is the measuring move, lining up the ends. A wrong choice is answered by the beam itself, and a second wrong choice makes the right picture glow. The same object appears at two or more sizes, so the child compares a thing with itself, not two different things.",
+        "It is aligned to Common Core K.MD.A.2: directly comparing two objects with a measurable attribute in common, to see which has more of it and which has less. \"A whole row\" asks for the tallest, longest, shortest or biggest of three or four. \"On the floor\" starts with everything already lined up, for the youngest. The pictures come from the illustrated library and stand or lie along their own drawn shapes. No timer, no score."
       ],
       "practices": [
-        "Comparing two objects by height or length",
-        "Understanding the words taller, longer, and shorter",
-        "Choosing the object that fits the word in the prompt",
-        "Measuring by looking, with no counting or numbers"
+        "Comparing two things by height or by length",
+        "Lining up the bottoms or the ends before comparing",
+        "Finding the tallest, longest, shortest or biggest in a row",
+        "Telling taller from longer and the two kinds of shorter"
       ],
       "howToPlay": [
-        "Look at the two objects and read or listen to the word — taller, longer, or shorter.",
-        "Tap the object that fits that word.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Look at the question: taller, longer, shorter, or the tallest, longest, shortest or biggest in a row.",
+        "Drag a picture down to fold its stand, or drag a lying thing left to the wall.",
+        "Tap the one you choose, then press Check.",
+        "Watch the beam: it rests on the true tallest top or longest end."
       ],
       "learningGoals": [
-        "Directly compare two objects and describe which is taller, longer, or shorter — the focus of Common Core K.MD.A.2.",
-        "Use measurement words to describe length and height.",
-        "Build the compare-by-an-attribute foundation that measuring with units grows from."
+        "Directly compare two objects by height or length, the focus of Common Core K.MD.A.2",
+        "Line up a common starting point before comparing",
+        "Find the tallest, longest or shortest in a small set"
       ]
     },
     "ten-frame.count-to-10.make-n.animals": {

@@ -1177,25 +1177,26 @@
     },
     "choice-board.compare-length.k-md-2": {
       "about": [
-        "Dois objetos do dia a dia ficam lado a lado e a criança toca no mais alto, no mais comprido ou no mais curto — comparando figuras reais e familiares, como um pinheiro e uma palmeira, um lápis, um giz de cera, uma caneta ou uma régua, uma cenoura ou um pepino, uma girafa, um girassol ou uma vela. É uma atividade de medidas para a educação infantil, que roda em qualquer navegador, sem baixar nada e sem cadastro.",
-        "Não tem contagem nem números: a criança simplesmente observa e compara um atributo de cada vez. O comando diz a palavra — mais alto, mais comprido ou mais curto — e a criança decide qual dos dois objetos combina com ela. Comparar a altura para «mais alto» (a girafa) e o comprimento para «mais comprido» (o pepino) constrói o vocabulário das medidas antes de qualquer régua ou número aparecer.",
-        "A atividade está alinhada à BNCC, na unidade temática Grandezas e medidas, comparando diretamente dois objetos por um atributo e dizendo qual é o mais alto, o mais comprido ou o mais curto. Sem cronômetro, sem pontuação: só observação tranquila no tempo de cada criança."
+        "Qual é mais alto, mais comprido ou mais curto? Aqui as coisas ficam em suportes dobráveis de alturas diferentes, ou deitadas em trilhos um pouco longe de uma parede de início, e por isso as pontas podem enganar os olhos: o coqueiro mais baixo pode estar no suporte mais alto. A criança pode arrastar uma imagem para baixo, e o suporte dela se dobra embaixo, ou arrastar um lápis deitado para a esquerda até encostar na parede; depois toca na imagem escolhida e aperta Conferir. É uma atividade interativa de medidas para a Educação Infantil, que funciona no navegador, sem instalar nada.",
+        "A invenção são os suportes honestos e a barra de nível. Ao conferir, todos os suportes se dobram e tudo o que está deitado desliza até a parede, então todos ficam no mesmo chão ou na mesma linha de início, e uma barra dourada pousa na ponta de verdade mais alta ou na ponta de verdade mais comprida; cada um mais curto mostra o espaço entre a sua ponta e a barra. Na maioria das rodadas os suportes fazem a resposta errada parecer certa, e logo as crianças trazem tudo para o chão primeiro: esse é o gesto de medir, alinhar as pontas. Uma escolha errada é respondida pela própria barra, e uma segunda escolha errada faz a imagem certa brilhar. O mesmo objeto aparece em dois ou mais tamanhos, então a criança compara uma coisa com ela mesma.",
+        "A atividade está alinhada à BNCC (comparar comprimentos e alturas): comparar diretamente dois objetos por uma grandeza em comum e dizer qual tem mais e qual tem menos. \"Uma fileira inteira\" pede o mais alto, o mais comprido, o mais curto ou o maior entre três ou quatro. \"No chão\" começa com tudo já alinhado, para os menores. As imagens vêm da biblioteca ilustrada e ficam em pé ou deitadas pela sua própria forma desenhada. Sem cronômetro, sem pontuação."
       ],
       "practices": [
-        "Comparar dois objetos pela altura ou pelo comprimento.",
-        "Entender as palavras mais alto, mais comprido e mais curto.",
-        "Escolher o objeto que combina com a palavra do comando.",
-        "Medir só olhando, sem contar e sem números."
+        "Comparar duas coisas pela altura ou pelo comprimento",
+        "Alinhar as bases ou as pontas antes de comparar",
+        "Achar o mais alto, o mais comprido, o mais curto ou o maior de uma fileira",
+        "Distinguir mais alto de mais comprido, e mais baixo de mais curto"
       ],
       "howToPlay": [
-        "Olhe os dois objetos e leia ou ouça a palavra — mais alto, mais comprido ou mais curto.",
-        "Toque no objeto que combina com essa palavra.",
-        "Não acertou? Tente de novo quantas vezes quiser — não tem cronômetro nem pontuação."
+        "Olhe a pergunta: mais alta, mais baixa, mais comprida, mais curta, ou a mais alta, a mais comprida, a mais curta ou a maior de uma fileira.",
+        "Arraste uma imagem para baixo para dobrar o suporte, ou arraste uma coisa deitada para a esquerda até a parede.",
+        "Toque na imagem escolhida e aperte Conferir.",
+        "Olhe a barra: ela pousa na ponta mais alta ou na ponta mais comprida."
       ],
       "learningGoals": [
-        "Comparar diretamente dois objetos e dizer qual é o mais alto, o mais comprido ou o mais curto.",
-        "Usar palavras de medida para descrever comprimento e altura.",
-        "Construir a base de comparar por um atributo, de onde nasce depois a medição com unidades."
+        "Comparar diretamente dois objetos pela altura ou pelo comprimento",
+        "Alinhar um ponto de início comum antes de comparar",
+        "Achar o mais alto, o mais comprido ou o mais curto de um grupo pequeno"
       ]
     },
     "choice-board.compare-two-digit.1-nbt-b-3": {

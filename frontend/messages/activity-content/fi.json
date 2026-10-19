@@ -429,25 +429,26 @@
     },
     "choice-board.compare-length.k-md-2": {
       "about": [
-        "Kaksi arkista esinettä on vierekkäin, ja lapsi napauttaa pidemmän, korkeamman tai lyhyemmän — vertailtavana on tuttuja kuvia, kuten mänty tai palmu, kynä, värikynä, tussi tai viivain, porkkana tai kurkku, kirahvi, auringonkukka tai kynttilä. Tämä esiopetuksen mittausharjoitus toimii missä tahansa selaimessa ilman lataamista ja ilman tiliä.",
-        "Tehtävässä ei lasketa eikä käytetä lukuja, vaan lapsi vain katsoo ja vertailee yhtä mitattavaa ominaisuutta kerrallaan. Ohje nimeää sanan — pidempi, korkeampi tai lyhyempi — ja lapsi päättää, kumpi esineistä siihen sopii. Kun korkeutta verrataan korkeammalle (kirahvi) ja pituutta pidemmälle (kurkku), lapselle karttuu mittaamisen sanasto jo ennen kuin mukaan tulee viivain tai mikään luku.",
-        "Tehtävä on OPS 2014:n mukainen esiopetuksen mittaamista — lapsi vertaa kahta esinettä suoraan yhden mitattavan ominaisuuden mukaan ja kuvailee, kumpi on pidempi, korkeampi tai lyhyempi. Ei ajastinta, ei pisteitä."
+        "Kumpi on korkeampi, pidempi vai lyhyempi? Tässä esineet seisovat eri korkuisilla taittojakkaroilla tai makaavat kiskoilla vähän matkan päässä lähtöseinästä, joten niiden huiput ja päät voivat hämätä silmää: matalampi palmu voi seistä korkeammalla jakkaralla. Lapsi voi vetää kuvan alas, jolloin sen jakkara taittuu kokoon, tai vetää makaavan kynän vasemmalle, kunnes se koskettaa seinää; sitten lapsi napauttaa valitsemaansa kuvaa ja painaa Tarkista. Interaktiivinen mittaamisen tehtävä esiopetukseen, joka toimii selaimessa ilman asennusta.",
+        "Keksintönä ovat rehelliset jakkarat ja mittapalkki. Tarkistuksessa kaikki jakkarat taittuvat ja kaikki makaavat liukuvat seinään asti, joten kaikki ovat samalla lattialla tai samalla lähtöviivalla, ja kultainen palkki asettuu todella korkeimman huipun tai todella pisimmän pään kohdalle; jokaisen lyhyemmän kohdalla näkyy rako huipun tai pään ja palkin välillä. Useimmissa kierroksissa jakkarat saavat väärän vastauksen näyttämään oikealta, ja pian lapset tuovat kaiken ensin lattialle: se on juuri mittaamisen askel, päiden asettaminen samaan linjaan. Väärään valintaan vastaa palkki itse, ja toisen väärän valinnan jälkeen oikea kuva hehkuu. Sama esine näkyy kahdessa tai useammassa koossa, joten lapsi vertaa esinettä itseensä.",
+        "Tehtävä noudattaa esiopetuksen opetussuunnitelman perusteita: lapsi vertailee kahta esinettä suoraan saman mitattavan ominaisuuden mukaan ja kertoo, kummassa sitä on enemmän ja kummassa vähemmän. ”Koko rivi” kysyy kolmesta tai neljästä korkeinta, pisintä, lyhyintä tai suurinta. ”Lattialla” alkaa niin, että kaikki ovat jo samassa linjassa, nuorimmille. Kuvat tulevat kuvitetusta kirjastosta ja seisovat tai makaavat oman piirretyn muotonsa mukaan. Ei ajastinta eikä pisteitä."
       ],
       "practices": [
-        "Vertaa kahta esinettä pituuden tai korkeuden mukaan.",
-        "Ymmärtää sanat pidempi, korkeampi ja lyhyempi.",
-        "Valitsee esineen, joka sopii ohjeen sanaan.",
-        "Mittaa katsomalla, ilman laskemista ja ilman lukuja."
+        "Kahden esineen vertaileminen korkeuden tai pituuden mukaan",
+        "Alareunojen tai päiden asettaminen samaan linjaan ennen vertailua",
+        "Rivin korkeimman, pisimmän, lyhyimmän tai suurimman löytäminen",
+        "Korkeamman ja pidemmän sekä matalamman ja lyhyemmän erottaminen"
       ],
       "howToPlay": [
-        "Katso kahta esinettä ja lue tai kuuntele sana — pidempi, korkeampi tai lyhyempi.",
-        "Napauta sitä esinettä, joka sopii tähän sanaan.",
-        "Menikö pieleen? Voit yrittää uudelleen niin monta kertaa kuin haluat — ei ajastinta eikä pisteitä."
+        "Katso kysymystä: korkeampi, matalampi, pidempi, lyhyempi, tai rivin korkein, pisin, lyhyin tai suurin.",
+        "Vedä kuva alas, niin sen jakkara taittuu, tai vedä makaava esine vasemmalle seinään asti.",
+        "Napauta valitsemaasi kuvaa ja paina sitten Tarkista.",
+        "Katso palkkia: se asettuu korkeimman huipun tai pisimmän pään kohdalle."
       ],
       "learningGoals": [
-        "Lapsi osaa verrata kahta esinettä suoraan ja kertoa, kumpi on pidempi, korkeampi tai lyhyempi.",
-        "Lapsi käyttää mittaamisen sanoja kuvaillakseen pituutta ja korkeutta.",
-        "Lapsi rakentaa ominaisuuden mukaan vertaamisen pohjan, jolle yksiköillä mittaaminen myöhemmin rakentuu."
+        "Lapsi vertailee kahta esinettä suoraan korkeuden tai pituuden mukaan",
+        "Lapsi asettaa yhteisen lähtökohdan ennen vertailua",
+        "Lapsi löytää pienestä joukosta korkeimman, pisimmän tai lyhyimmän"
       ]
     },
     "choice-board.read-ruler.2-md-a-1": {

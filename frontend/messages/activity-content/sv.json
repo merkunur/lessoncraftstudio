@@ -541,25 +541,26 @@
     },
     "choice-board.compare-length.k-md-2": {
       "about": [
-        "Två vardagliga föremål står bredvid varandra och barnet trycker på det som är högre, längre eller kortare — och jämför riktiga, bekanta bilder som en gran eller palm, en penna, krita, tuschpenna eller linjal, en morot eller gurka, en giraff, en solros eller ett ljus. Det är en mätövning för förskoleklass som spelas i vilken webbläsare som helst, utan nedladdning och utan konto.",
-        "Här finns ingen räkning och inga tal; barnet tittar bara och jämför en mätbar egenskap i taget. Frågan säger ordet — högre, längre eller kortare — och barnet bestämmer vilket av de två föremålen som passar. Att ställa höjd mot höjd för högre (en giraff) och längd mot längd för längre (en gurka) bygger upp mätningens ord innan någon linjal eller något tal kommer in.",
-        "Aktiviteten följer Lgr22 inom området mätning: att direkt jämföra två föremål utifrån en mätbar egenskap och beskriva vilket som är högre, längre eller kortare. Den här interaktiva övningen passar förskoleklass. Ingen timer, inga poäng — bara lugn, lekfull träning."
+        "Vilken är högre, längre eller kortare? Här står sakerna på fällpallar av olika höjd, eller ligger på skenor en bit från en startvägg, och därför kan topparna och ändarna lura ögat: den lägre palmen kanske står på den högre pallen. Barnet kan dra en bild nedåt så att pallen fälls ihop under den, eller dra en liggande penna åt vänster tills den nuddar väggen; sedan trycker barnet på bilden det väljer och på Kontrollera. En interaktiv mätaktivitet för förskoleklass som fungerar i webbläsaren utan installation.",
+        "Det nya är de ärliga pallarna och mätbjälken. Vid kontrollen fälls alla pallar ihop och allt som ligger glider fram till väggen, så att alla står på samma golv eller vid samma startlinje, och en gyllene bjälke lägger sig på den verkligt högsta toppen eller den verkligt längsta änden; vid varje kortare syns glappet mellan toppen och bjälken. I de flesta omgångarna får pallarna fel svar att se rätt ut, och snart ställer barnen allt på golvet först: det är just mätningens steg, att ställa ändarna i linje. På ett felaktigt val svarar bjälken själv, och efter ett andra felaktigt val lyser rätt bild. Samma föremål visas i två eller fler storlekar, så jämför barnet en sak med sig själv.",
+        "Aktiviteten följer Lgr22, matematik i förskoleklass: jämföra två föremål direkt utifrån en mätbar egenskap och säga vilket som har mer och vilket som har mindre av den. \"En hel rad\" frågar efter det högsta, längsta, kortaste eller största av tre eller fyra. \"På golvet\" börjar med allt redan i linje, för de yngsta. Bilderna kommer från det illustrerade biblioteket och står eller ligger efter sin egen ritade form. Ingen tidtagning, inga poäng."
       ],
       "practices": [
-        "Jämföra två föremål utifrån höjd eller längd",
-        "Förstå orden högre, längre och kortare",
-        "Välja det föremål som passar ordet i frågan",
-        "Mäta med ögat, utan att räkna eller använda tal"
+        "Jämföra två saker efter höjd eller längd",
+        "Ställa underkanterna eller ändarna i linje före jämförelsen",
+        "Hitta den högsta, längsta, kortaste eller största i en rad",
+        "Skilja på högre och längre, och på lägre och kortare"
       ],
       "howToPlay": [
-        "Titta på de två föremålen och läs eller lyssna på ordet — högre, längre eller kortare.",
-        "Tryck på det föremål som passar ordet.",
-        "Blev det inte rätt? Försök igen så många gånger du vill — det finns ingen timer och inga poäng."
+        "Titta på frågan: högre, lägre, längre, kortare, eller högst, längst, kortast eller störst i en rad.",
+        "Dra en bild nedåt så att pallen fälls ihop, eller dra en liggande sak åt vänster mot väggen.",
+        "Tryck på bilden du väljer och sedan på Kontrollera.",
+        "Titta på bjälken: den lägger sig på den högsta toppen eller vid den längsta änden."
       ],
       "learningGoals": [
-        "Barnet kan direkt jämföra två föremål och beskriva vilket som är högre, längre eller kortare",
-        "Barnet kan använda mätord för att beskriva längd och höjd",
-        "Barnet bygger den grund med jämförelse utifrån en egenskap som mätning med enheter växer ur"
+        "Jämföra två föremål direkt efter höjd eller längd",
+        "Ordna en gemensam startpunkt före jämförelsen",
+        "Hitta den högsta, längsta eller kortaste i en liten grupp"
       ]
     },
     "choice-board.compare-two-digit.1-nbt-b-3": {

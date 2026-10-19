@@ -191,6 +191,10 @@ function seedScript(row) {
     // how tall? the giraffe put on the TRACK: it has tipped over and lies along the rail with its length bar, and the track's ↔ sign stands beside the question's ↕ — the invention at rest
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='one.giraffe';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.MeasureStationsCore,s=t._cur();C.drop(s,'track');t._paint();})();`;
   }
+  if (row.tool === 'parking-tower-activity') {
+    // between the bus and the van: the truck has ridden the lift up and parked in the middle bay; its dotted route stays — the invention at rest
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='N4';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.ParkingTowerCore,s=t.st;C.park(s,{c:2,l:2});t._route=t._routeOf(s.parked);t._paint();})();`;
+  }
   if (row.tool === 'sorting-chutes-activity') {
     // three groups mid-sort: the tubes half grown into a picture graph, the next picture waiting on the belt
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.api.settings.groups='three';t._pool=null;t._poolKey=null;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='B6';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.SortingChutesCore,s=t.st,g=0;while(s.belt.length>4&&g++<40)C.drop(s,C.keyOf(C.current(s),s.fly));t._paint();})();`;

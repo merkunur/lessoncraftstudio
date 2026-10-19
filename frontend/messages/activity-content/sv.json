@@ -2763,6 +2763,30 @@
         "Känna igen när två kärl rymmer lika mycket",
         "Använda hällandet som bevis, inte utseendet"
       ]
+    },
+    "parking-tower.place-by-relation.k-g-a-1": {
+      "about": [
+        "Bävern Bosse sköter ett parkeringshus, och barnet parkerar varje fordon där meningen säger: bredvid bussen, ovanför skåpbilen, under bilen, mellan bussen och skåpbilen, till vänster om bulldozern. Tryck på en tom plats så kör fordonet till glashissen, åker upp eller ner och rullar längs sin våning in på platsen. En interaktiv övning i lägesord för åk 1 som fungerar i webbläsaren utan installation.",
+        "Det fiffiga är att ett fordon bara kan åka hiss upp och ner och köra längs en våning, så varje lägesord blir en väg som barnet ser. Ovanför är alltid en hissresa en våning upp i samma kolumn, aldrig en körning åt sidan, och den prickade vägen som ligger kvar efter parkeringen är en liten bild av ordet barnet valde. En fel plats ger hjälp som visar i stället för att förklara: en turkos pil växer från referensfordonet mot den efterfrågade platsen och en korallröd pil pekar dit fordonet faktiskt står; vid ovanför och under blinkar golvet mellan våningarna; vid andra felet lyser rätt plats med en skugga av fordonet. Några omgångar vänder på frågan: Bosse har redan parkerat, och barnet trycker på hans lastbil.",
+        "Övningen följer Lgr22 i matematik, området geometri: att beskriva föremåls läge i förhållande till varandra med lägesord. Läraren väljer orden ovanför, under, bredvid, mellan, vänster och höger, tornorden (uppe på, under, bredvid, inne i och utanför tornet; översta, mittersta och nedersta våningen) eller takplanen, som går längre och övar kartläsning för åk 2: kolumner med bokstäver och rader med tal på ett rutnät med 6 × 6 eller 10 × 10 rutor, rutor som B2 att parkera på eller D3 att läsa av på två hjul, och en kompass där norr inte alltid pekar uppåt. Fordonen och Bosse kommer från bildbiblioteket. Ingen klocka, inga poäng."
+      ],
+      "practices": [
+        "Ovanför, under, bredvid och mellan, alltid sett från den som tittar",
+        "Till vänster och till höger om ett annat föremål",
+        "Uppe på, under, bredvid, inne i och utanför tornet; översta, mittersta och nedersta våningen",
+        "Att läsa och ställa in rutor i ett rutnät (bokstav överst, tal på sidan) och de fyra väderstrecken"
+      ],
+      "howToPlay": [
+        "Läs meningen: det turkosa ordet är fordonet du ska parkera, det korallröda är fordonet det ska stå i förhållande till.",
+        "Tryck på en tom plats; fordonet åker dit med hissen och vägen ligger kvar.",
+        "På takplanen trycker du på en ruta eller vrider bokstavs- och talhjulen.",
+        "Tryck på Kontrollera."
+      ],
+      "learningGoals": [
+        "Beskriva ett föremåls läge i förhållande till ett annat med lägesord",
+        "Skilja ovanför från bredvid, och mellan från bredvid det ena",
+        "Hitta en ruta med bokstav och tal och använda norr, öster, söder och väster på en karta"
+      ]
     }
   }
 }

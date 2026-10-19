@@ -2,7 +2,7 @@
   {
     "id": "parking-tower.place-by-relation.k-g-a-1",
     "tool": "parking-tower-activity",
-    "task_template": "place-by-relation",
+    "task_template": "parking-tower",
     "alignment": {
       "framework": "CCSS",
       "code": "K.G.A.1",
@@ -10,390 +10,13 @@
       "strand": "Geometry"
     },
     "params": {
-      "rounds": [
-        {
-          "id": "next-to-bus",
-          "band": 1,
-          "relation": "next-to",
-          "experience": "adjacency",
-          "termRef": [
-            "bus"
-          ],
-          "scene": {
-            "cols": 3,
-            "levels": 2,
-            "mover": {
-              "vehicle": "truck",
-              "label": "truck"
-            },
-            "landmarks": [
-              {
-                "id": "bus",
-                "vehicle": "bus",
-                "col": 1,
-                "level": 1,
-                "label": "bus"
-              }
-            ],
-            "candidates": [
-              {
-                "id": "L1C2",
-                "col": 2,
-                "level": 1,
-                "kind": "bay"
-              },
-              {
-                "id": "L2C1",
-                "col": 1,
-                "level": 2,
-                "kind": "bay"
-              },
-              {
-                "id": "L1C3",
-                "col": 3,
-                "level": 1,
-                "kind": "bay"
-              }
-            ]
-          },
-          "targetSpotIds": [
-            "L1C2"
-          ],
-          "nearMiss": {
-            "L2C1": "above"
-          }
-        },
-        {
-          "id": "above-van",
-          "band": 1,
-          "relation": "above",
-          "experience": "vertical",
-          "termRef": [
-            "van"
-          ],
-          "scene": {
-            "cols": 3,
-            "levels": 2,
-            "mover": {
-              "vehicle": "truck",
-              "label": "truck"
-            },
-            "landmarks": [
-              {
-                "id": "van",
-                "vehicle": "van",
-                "col": 2,
-                "level": 1,
-                "label": "van"
-              }
-            ],
-            "candidates": [
-              {
-                "id": "L2C2",
-                "col": 2,
-                "level": 2,
-                "kind": "bay"
-              },
-              {
-                "id": "L1C1",
-                "col": 1,
-                "level": 1,
-                "kind": "bay"
-              },
-              {
-                "id": "L1C3",
-                "col": 3,
-                "level": 1,
-                "kind": "bay"
-              }
-            ]
-          },
-          "targetSpotIds": [
-            "L2C2"
-          ],
-          "nearMiss": {
-            "L1C1": "next-to"
-          }
-        },
-        {
-          "id": "below-car",
-          "band": 1,
-          "relation": "below",
-          "experience": "vertical",
-          "termRef": [
-            "car"
-          ],
-          "scene": {
-            "cols": 3,
-            "levels": 2,
-            "mover": {
-              "vehicle": "truck",
-              "label": "truck"
-            },
-            "landmarks": [
-              {
-                "id": "car",
-                "vehicle": "car",
-                "col": 2,
-                "level": 2,
-                "label": "car"
-              }
-            ],
-            "candidates": [
-              {
-                "id": "L1C2",
-                "col": 2,
-                "level": 1,
-                "kind": "bay"
-              },
-              {
-                "id": "L2C1",
-                "col": 1,
-                "level": 2,
-                "kind": "bay"
-              },
-              {
-                "id": "L2C3",
-                "col": 3,
-                "level": 2,
-                "kind": "bay"
-              }
-            ]
-          },
-          "targetSpotIds": [
-            "L1C2"
-          ],
-          "nearMiss": {
-            "L2C1": "next-to"
-          }
-        },
-        {
-          "id": "between-bus-van",
-          "band": 2,
-          "relation": "between",
-          "experience": "between",
-          "termRef": [
-            "bus",
-            "van"
-          ],
-          "scene": {
-            "cols": 3,
-            "levels": 2,
-            "mover": {
-              "vehicle": "truck",
-              "label": "truck"
-            },
-            "landmarks": [
-              {
-                "id": "bus",
-                "vehicle": "bus",
-                "col": 1,
-                "level": 1,
-                "label": "bus"
-              },
-              {
-                "id": "van",
-                "vehicle": "van",
-                "col": 3,
-                "level": 1,
-                "label": "van"
-              }
-            ],
-            "candidates": [
-              {
-                "id": "L1C2",
-                "col": 2,
-                "level": 1,
-                "kind": "bay"
-              },
-              {
-                "id": "L2C2",
-                "col": 2,
-                "level": 2,
-                "kind": "bay"
-              },
-              {
-                "id": "L2C1",
-                "col": 1,
-                "level": 2,
-                "kind": "bay"
-              }
-            ]
-          },
-          "targetSpotIds": [
-            "L1C2"
-          ],
-          "nearMiss": {
-            "L2C2": "above"
-          }
-        },
-        {
-          "id": "transfer-boat",
-          "band": 2,
-          "relation": "next-to",
-          "experience": "transfer",
-          "termRef": [
-            "boat"
-          ],
-          "scene": {
-            "cols": 3,
-            "levels": 2,
-            "mover": {
-              "vehicle": "truck",
-              "label": "truck"
-            },
-            "theme": "dock",
-            "landmarks": [
-              {
-                "id": "boat",
-                "vehicle": "boat",
-                "col": 2,
-                "level": 1,
-                "label": "boat"
-              }
-            ],
-            "candidates": [
-              {
-                "id": "L1C1",
-                "col": 1,
-                "level": 1,
-                "kind": "bay"
-              },
-              {
-                "id": "L1C3",
-                "col": 3,
-                "level": 1,
-                "kind": "bay"
-              },
-              {
-                "id": "L2C2",
-                "col": 2,
-                "level": 2,
-                "kind": "bay"
-              }
-            ]
-          },
-          "targetSpotIds": [
-            "L1C1",
-            "L1C3"
-          ],
-          "nearMiss": {
-            "L2C2": "above"
-          }
-        },
-        {
-          "id": "reverse-above",
-          "band": 3,
-          "relation": "above",
-          "experience": "reverse",
-          "termRef": [
-            "bus"
-          ],
-          "reverse": true,
-          "scene": {
-            "cols": 3,
-            "levels": 2,
-            "landmarks": [
-              {
-                "id": "bus",
-                "vehicle": "bus",
-                "col": 1,
-                "level": 1,
-                "label": "bus"
-              }
-            ],
-            "candidates": [
-              {
-                "id": "L2C1",
-                "col": 1,
-                "level": 2,
-                "kind": "truck",
-                "vehicle": "truck"
-              },
-              {
-                "id": "L1C2",
-                "col": 2,
-                "level": 1,
-                "kind": "truck",
-                "vehicle": "truck"
-              },
-              {
-                "id": "L2C3",
-                "col": 3,
-                "level": 2,
-                "kind": "truck",
-                "vehicle": "truck"
-              }
-            ]
-          },
-          "targetSpotIds": [
-            "L2C1"
-          ],
-          "nearMiss": {
-            "L1C2": "next-to"
-          }
-        },
-        {
-          "id": "two-truck-between",
-          "band": 3,
-          "relation": "between",
-          "experience": "two-truck",
-          "termRef": [
-            "tk1",
-            "tk2"
-          ],
-          "scene": {
-            "cols": 3,
-            "levels": 2,
-            "mover": {
-              "vehicle": "car",
-              "label": "car"
-            },
-            "landmarks": [
-              {
-                "id": "tk1",
-                "vehicle": "truck",
-                "col": 1,
-                "level": 1,
-                "label": "truck"
-              },
-              {
-                "id": "tk2",
-                "vehicle": "truck",
-                "col": 3,
-                "level": 1,
-                "label": "truck"
-              }
-            ],
-            "candidates": [
-              {
-                "id": "L1C2",
-                "col": 2,
-                "level": 1,
-                "kind": "bay"
-              },
-              {
-                "id": "L2C2",
-                "col": 2,
-                "level": 2,
-                "kind": "bay"
-              },
-              {
-                "id": "L2C3",
-                "col": 3,
-                "level": 2,
-                "kind": "bay"
-              }
-            ]
-          },
-          "targetSpotIds": [
-            "L1C2"
-          ],
-          "nearMiss": {
-            "L2C2": "above"
-          }
-        }
-      ]
+      "boards": [
+        "near",
+        "tower",
+        "plan6",
+        "plan10"
+      ],
+      "default_board": "near"
     },
     "theme": null,
     "slug": {
@@ -403,7 +26,11 @@
       "es": "palabras-de-ubicacion-encima-debajo-junto-entre-preescolar",
       "pt": "palavras-de-posicao-em-cima-embaixo-ao-lado-entre-1-ano",
       "it": "parole-di-posizione-sopra-sotto-accanto-tra-classe-prima",
-      "nl": "positiewoorden-boven-onder-naast-tussen-parkeertoren-groep-3"
+      "nl": "positiewoorden-boven-onder-naast-tussen-parkeertoren-groep-3",
+      "sv": "lagesord-ovanfor-under-bredvid-mellan",
+      "da": "positionsord-over-under-ved-siden-af-mellem",
+      "no": "plasseringsord-over-under-ved-siden-av-mellom",
+      "fi": "sijaintisanat-ylla-alla-vieressa-valissa"
     },
     "page_title": {
       "en": "Bramble's Parking Tower — Position Words: Above, Below, Between (Kindergarten)",
@@ -412,7 +39,11 @@
       "es": "Palabras de ubicación: encima, debajo, junto a y entre",
       "pt": "Palavras de posição: em cima, embaixo, ao lado e entre · 1º ano",
       "it": "Parole di posizione: sopra, sotto, accanto, tra – classe prima",
-      "nl": "Positiewoorden oefenen: boven, onder, naast | groep 3"
+      "nl": "Positiewoorden oefenen: boven, onder, naast | groep 3",
+      "sv": "Lägesord: ovanför, under, bredvid, mellan – Bosses parkeringshus | Åk 1",
+      "da": "Positionsord: over, under, ved siden af, mellem – Bents parkeringshus | 1. klasse",
+      "no": "Plasseringsord: over, under, ved siden av, mellom – Bjarnes parkeringshus | 1. trinn",
+      "fi": "Sijaintisanat: yläpuolella, alapuolella, vieressä, välissä – Paavon pysäköintitalo | 1. luokka"
     },
     "page_intro": {
       "en": "An interactive Kindergarten activity for position words: help Beaver Bramble park each vehicle above, below, next to, or between the others in his side-on parking tower. The floor between levels makes \"above\" mean one level up, so children must listen to the word — not just guess the nearest spot. Describing relative positions is the heart of Common Core K.G.A.1.",
@@ -421,8 +52,12 @@
       "es": "El niño escucha a Beto el castor y estaciona cada vehículo en el piso correcto —encima, debajo, junto a o entre—; sin registro y alineada al plan de la SEP.",
       "pt": "Ajude o castor Beto a estacionar cada veículo no lugar certo — em cima, embaixo, ao lado ou entre os outros. A criança escuta a palavra de posição e escolhe a vaga certa em relação ao veículo de referência. Sem cadastro. BNCC, 1º ano.",
       "it": "Con Bruno il castoro tuo figlio parcheggia i veicoli sopra, sotto, accanto e tra gli altri mezzi e impara così le parole di posizione e i rapporti spaziali, in un’attività senza registrazione, allineata alle Indicazioni nazionali per la classe prima.",
-      "nl": "Oefen de positiewoorden boven, onder, naast en tussen met Bram de bever! In zijn parkeertoren luister je goed naar het woord en parkeer je de auto op de juiste verdieping – niet raden, maar luisteren. Interactief, zonder registratie. Volgt de SLO-kerndoelen voor groep 3. Speel nu!"
+      "nl": "Oefen de positiewoorden boven, onder, naast en tussen met Bram de bever! In zijn parkeertoren luister je goed naar het woord en parkeer je de auto op de juiste verdieping – niet raden, maar luisteren. Interactief, zonder registratie. Volgt de SLO-kerndoelen voor groep 3. Speel nu!",
+      "sv": "Hjälp bävern Bosse att parkera varje fordon på rätt plats i hans parkeringshus. Fordonen kan bara åka hiss upp och ner och köra längs en våning, så ”ovanför” blir alltid en våning upp med hissen – och den prickade vägen visar vilket lägesord barnet valde. En övning i lägesord för åk 1 enligt Lgr22.",
+      "da": "Hjælp bæveren Bent med at parkere hvert køretøj på den rigtige plads i hans parkeringshus. Køretøjerne kan kun køre op og ned med elevatoren og hen ad en etage, så »over« altid er én etage op – og den prikkede rute viser, hvilket positionsord barnet valgte. En øvelse i positionsord til 1. klasse efter Fælles Mål.",
+      "no": "Hjelp beveren Bjarne å parkere hvert kjøretøy på riktig plass i parkeringshuset hans. Kjøretøyene kan bare kjøre heisen opp og ned og kjøre langs en etasje, så «over» alltid er én etasje opp – og den prikkete ruta viser hvilket plasseringsord barnet valgte. En øvelse i plasseringsord for 1. trinn etter LK20.",
+      "fi": "Auta majava Paavoa pysäköimään jokainen kulkuneuvo oikealle paikalle hänen pysäköintitalossaan. Kulkuneuvot pääsevät vain hissillä ylös ja alas ja ajamaan kerrosta pitkin, joten ”yläpuolella” on aina yksi kerros ylempänä – ja pisteviiva näyttää, minkä sijaintisanan lapsi valitsi. Sijaintisanojen harjoitus 1. luokalle perusopetuksen opetussuunnitelman mukaisesti."
     },
-    "kid_prompt_template": "place-by-relation"
+    "kid_prompt_template": "parking-tower"
   }
 ]

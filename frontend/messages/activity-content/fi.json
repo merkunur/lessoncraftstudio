@@ -1868,6 +1868,30 @@
         "Lapsi tunnistaa, milloin kahteen astiaan mahtuu yhtä paljon",
         "Lapsi käyttää kaatamista todisteena eikä ulkonäköä"
       ]
+    },
+    "parking-tower.place-by-relation.k-g-a-1": {
+      "about": [
+        "Majava Paavo hoitaa pysäköintitaloa, ja lapsi pysäköi jokaisen kulkuneuvon sinne, minne lause käskee: bussin viereen, pakettiauton yläpuolelle, auton alapuolelle, bussin ja pakettiauton väliin, puskutraktorin vasemmalle puolelle. Kun lapsi napauttaa tyhjää paikkaa, kulkuneuvo ajaa lasiseen hissiin, nousee tai laskee ja rullaa kerrostaan pitkin paikalleen. Vuorovaikutteinen sijaintisanojen harjoitus 1. luokalle, joka toimii selaimessa ilman asennusta.",
+        "Oivallus on se, että kulkuneuvo pääsee vain hissillä ylös ja alas ja ajamaan kerrosta pitkin, joten jokaisesta sijaintisanasta tulee reitti, jonka lapsi näkee. Yläpuolella on aina yhden kerroksen hissimatka ylöspäin samassa sarakkeessa, ei koskaan siirtymä sivulle, ja pysäköinnin jälkeen jäävä pisteviiva on pieni kuva lapsen valitsemasta sanasta. Väärä paikka tuo apua, joka näyttää eikä selitä: turkoosi nuoli kasvaa vertailukulkuneuvosta kysyttyä paikkaa kohti ja korallinpunainen nuoli osoittaa, missä kulkuneuvo oikeasti on; yläpuolella- ja alapuolella-sanoissa kerrosten välinen lattia vilkkuu; toisella virheellä oikea paikka hehkuu ja siinä näkyy kulkuneuvon varjo. Joissakin kierroksissa kysymys käännetään: Paavo on jo pysäköinyt, ja lapsi napauttaa hänen kuorma-autoaan.",
+        "Harjoitus seuraa perusopetuksen opetussuunnitelman matematiikan geometriaa: esineiden sijainnin kuvaamista suhteessa toisiinsa sijaintisanoilla. Opettaja valitsee sanat yläpuolella, alapuolella, vieressä, välissä, vasen ja oikea, tornisanat (päällä, alla, vieressä, sisällä ja ulkopuolella; ylin, keskimmäinen ja alin kerros) tai kattokartan, joka menee pidemmälle ja harjoittaa 2. luokan kartanlukua: kirjaimilla merkityt sarakkeet ja numeroilla merkityt rivit 6 × 6- tai 10 × 10-ruudukossa, ruudut kuten B2, johon pysäköidään, tai D3, joka luetaan kahdelta rullalta, sekä kompassi, jonka pohjoinen ei aina osoita ylöspäin. Kulkuneuvot ja Paavo ovat kuvituskirjastosta. Ei ajastinta eikä pisteitä."
+      ],
+      "practices": [
+        "Yläpuolella, alapuolella, vieressä ja välissä aina katsojan näkökulmasta",
+        "Toisen esineen vasemmalla ja oikealla puolella",
+        "Tornin päällä, alla, vieressä, sisällä ja ulkopuolella; ylin, keskimmäinen ja alin kerros",
+        "Ruudukon ruutujen lukeminen ja asettaminen (kirjain ylhäällä, numero sivussa) sekä neljä ilmansuuntaa"
+      ],
+      "howToPlay": [
+        "Lue lause: turkoosilla alleviivattu sana on pysäköitävä kulkuneuvo, korallinpunainen se kulkuneuvo, johon sijainti verrataan.",
+        "Napauta tyhjää paikkaa; kulkuneuvo ajaa sinne hissillä, ja reitti jää näkyviin.",
+        "Kattokartalla napautat ruutua tai pyörität kirjain- ja numerorullaa.",
+        "Paina Tarkista."
+      ],
+      "learningGoals": [
+        "Lapsi kuvaa esineen sijainnin suhteessa toiseen sijaintisanoilla",
+        "Lapsi erottaa yläpuolen vierestä ja välin toisen vierestä",
+        "Lapsi löytää ruudun kirjaimen ja numeron avulla ja käyttää pohjoista, itää, etelää ja länttä kartalla"
+      ]
     }
   }
 }

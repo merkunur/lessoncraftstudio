@@ -1620,25 +1620,26 @@
     },
     "choice-board.flat-solid.k-g-a-3": {
       "about": [
-        "Aparece uma forma de cada vez, e a criança toca para dizer se ela é plana ou sólida — formas planas (2D) como círculo, triângulo, quadrado e hexágono, e formas sólidas (3D) como cubo, esfera, cilindro e cone. É uma atividade de geometria interativa para a educação infantil, que roda direto no navegador, no tablet, no celular ou no computador, sem instalar nada e sem precisar de conta.",
-        "A grande ideia é a diferença entre uma forma que dá para desenhar no papel e uma forma que dá para pegar e segurar na mão. Aqui a criança não está nomeando as formas; ela está separando entre bidimensionais e tridimensionais. Misturar formas planas conhecidas com suas 'primas' sólidas — um círculo perto de uma esfera, um quadrado perto de um cubo — faz a criança reparar se a forma tem profundidade, que é o primeiro passo para entender os sólidos.",
-        "A atividade está alinhada à BNCC, na unidade temática Geometria, no trabalho de identificar formas como bidimensionais (planas) ou tridimensionais (sólidas). Sem cronômetro e sem pontuação — só uma prática calma e tranquila."
+        "No fim de um balcão de correio há uma caixa de correio vermelha, e o saco de cartas está cheio de formas: círculos, quadrados, triângulos e estrelas, e também esferas, cubos, cilindros, cones e pirâmides, algumas giradas e outras pequeninas. A criança arrasta cada uma para a bandeja de cartas ou para a bandeja de pacotes, ou toca nela e depois na bandeja. Enquanto separa, nada é avaliado, e nada vira para entregar a resposta. É uma atividade interativa de geometria que funciona no navegador, sem instalar nada.",
+        "A invenção é a fenda. Ao tocar em Conferir, cada carta é virada de lado diante da fenda: uma figura plana vira uma linha fina e passa, enquanto um sólido continua grosso, fica preso e volta para o saco. Cada pacote vai para a prateleira, onde uma janelinha o mostra de lado; uma figura plana colocada ali tomba em uma linha e escorrega. Uma forma que volta mostra sua vista de lado, uma linha ao lado de um bloco grosso, e a dica diz por quê: de lado, uma figura plana vira uma linha fina e um sólido continua grosso. No segundo erro, uma seta em cada forma aponta para a bandeja dela. Os gêmeos são de propósito: um círculo e uma esfera, um quadrado e um cubo, um triângulo e uma pirâmide dividem o saco.",
+        "A atividade está alinhada à BNCC na unidade de geometria: diferenciar figuras planas de sólidos geométricos. Duas tarefas de contagem levam a ideia adiante. Um sólido transparente fica numa base giratória, com as arestas escondidas tracejadas; a criança pode girá-lo, depois puxa a aba e ele se abre em sua planificação. Cada face plana precisa de um carimbo antes que a planificação possa passar pela fenda, e a criança toca quantas são nos números de 1 a 9: um cubo tem seis, não só as três que se veem. A superfície curva de um cilindro se desenrola numa folha listrada que não leva carimbo. Na tarefa dos objetos do dia a dia, um dado, um livro, uma borracha, um presente, uma lata e um tambor do banco de imagens trazem o contorno do seu sólido. O professor escolhe a tarefa. Sem cronômetro e sem pontos."
       ],
       "practices": [
-        "Diferenciar formas planas (2D) de formas sólidas (3D).",
-        "Reconhecer círculo, quadrado e triângulo como planos, e cubo, esfera e cone como sólidos.",
-        "Reparar se uma forma tem profundidade — algo que dá para segurar e não só para desenhar.",
-        "Separar as formas em dois grupos, em vez de apenas nomeá-las."
+        "Diferenciar figuras planas de sólidos",
+        "Perceber que uma figura plana não tem espessura e que um sólido sempre tem",
+        "Diferenciar gêmeos: um círculo e uma esfera, um quadrado e um cubo",
+        "Contar as faces planas de cubos, blocos retangulares, pirâmides, prismas e cilindros"
       ],
       "howToPlay": [
-        "Olhe a forma que aparece no quadro.",
-        "Decida se ela é plana ou sólida e toque na opção certa, depois toque em Verificar.",
-        "Pode tentar de novo a hora que quiser — não há cronômetro nem pontuação."
+        "Arraste cada forma para a bandeja de cartas ou para a bandeja de pacotes, ou toque nela e depois na bandeja.",
+        "Toque em Conferir e olhe a fenda e a prateleira.",
+        "Nas tarefas de contagem, puxe a aba, carimbe cada face plana e toque quantas são.",
+        "Toque em Conferir para mandar a planificação pela fenda."
       ],
       "learningGoals": [
-        "Identificar formas como planas (bidimensionais) ou sólidas (tridimensionais).",
-        "Relacionar uma forma plana à sua 'prima' sólida, como o quadrado e o cubo.",
-        "Construir a base para nomear e descrever formas 3D mais adiante."
+        "Diferenciar figuras planas de sólidos geométricos",
+        "Explicar que uma figura plana não tem espessura",
+        "Contar as faces planas de um sólido abrindo-o"
       ]
     },
     "choice-board.next-number.k-cc-a-2": {

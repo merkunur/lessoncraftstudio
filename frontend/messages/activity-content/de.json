@@ -3606,25 +3606,26 @@
     },
     "choice-board.flat-solid.k-g-a-3": {
       "about": [
-        "Es erscheint immer nur eine Form, und das Kind tippt an, ob sie flach oder ein Körper ist — flache (2D-)Formen wie Kreis, Dreieck, Quadrat und Sechseck und Körper (3D) wie Würfel, Kugel, Zylinder und Kegel. Die interaktive Geometrie-Übung für den Kindergarten läuft direkt im Browser auf Tablet, Handy und Computer, ohne Installation und ohne Konto.",
-        "Der Kern dieser Übung ist der Unterschied zwischen einer Form, die man auf Papier zeichnen kann, und einer Form, die man in die Hand nehmen kann. Das Kind benennt die Formen hier nicht, sondern sortiert sie in zweidimensional und dreidimensional. Weil vertraute flache Formen mit ihren räumlichen Verwandten gemischt werden — ein Kreis neben einer Kugel, ein Quadrat neben einem Würfel — schaut das Kind genau darauf, ob eine Form Tiefe hat. Das ist der erste Schritt zum Verständnis von Körpern.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Geometrie für den Kindergarten ausgerichtet — Formen als zweidimensional (flach) oder dreidimensional (Körper) erkennen. Es gibt keinen Timer und keine Punktewertung, nur ruhiges, spielerisches Üben."
+        "Am Ende eines Postschalters steht ein roter Briefkasten, und der Postsack ist voller Formen: Kreise, Quadrate, Dreiecke und Sterne, dazu Kugeln, Würfel, Zylinder, Kegel und Pyramiden, manche gedreht, manche winzig. Das Kind zieht jede Form in die Briefablage oder in die Paketablage oder tippt sie an und dann die Ablage. Beim Sortieren wird nichts bewertet, und nichts dreht sich vorher um und verrät die Lösung. Eine interaktive Geometrie-Übung, die im Browser läuft, ohne Installation.",
+        "Das Besondere ist der Schlitz. Beim Prüfen wird jeder Brief vor dem Schlitz auf die Kante gedreht: Eine flache Form wird zu einem dünnen Strich und rutscht hindurch, ein Körper bleibt dick, klemmt und fällt zurück in den Sack. Jedes Paket kommt auf das Regal, wo ein kleines Fenster es von der Seite zeigt; eine flache Form kippt dort zu einem Strich um und rutscht herunter. Eine Form, die zurückkommt, zeigt ihre Kantenansicht, einen Strich neben einem dicken Block, und der Hinweis sagt warum: Auf der Kante werden flache Formen zu einem dünnen Strich, Körper bleiben dick. Beim zweiten Fehlversuch zeigt ein Pfeil an jeder Form auf ihre Ablage. Die Zwillinge sind gewollt: Kreis und Kugel, Quadrat und Würfel, Dreieck und Pyramide liegen im selben Sack.",
+        "Die Übung folgt dem Lehrplan im Bereich Raum und Form: ebene Figuren und geometrische Körper unterscheiden. Zwei Zählaufgaben führen den Gedanken weiter. Ein Körper steht durchsichtig auf einem Drehteller, seine verdeckten Kanten gestrichelt; das Kind kann ihn drehen, zieht dann an der Lasche, und er klappt zu seinem flachen Netz auf. Jede ebene Fläche braucht einen Poststempel, bevor das Netz durch den Schlitz darf, und das Kind tippt mit den Zahlen von 1 bis 9 an, wie viele es sind: Ein Würfel hat sechs, nicht die drei, die man sieht. Die gewölbte Fläche eines Zylinders rollt sich zu einem gestreiften Blatt ab, das keinen Stempel bekommt. Bei den Dingen aus dem Alltag tragen ein Spielwürfel, ein Buch, ein Radiergummi, ein Geschenk, eine Dose und eine Trommel aus der Bildersammlung den Umriss ihres Körpers. Die Lehrkraft wählt die Aufgabe. Ohne Zeitdruck, ohne Punkte."
       ],
       "practices": [
-        "Flache (2D-)Formen von Körpern (3D) unterscheiden.",
-        "Kreis, Quadrat und Dreieck als flach und Würfel, Kugel und Kegel als Körper erkennen.",
-        "Darauf achten, ob eine Form Tiefe hat — etwas zum Festhalten oder zum Zeichnen.",
-        "Formen in zwei Gruppen einsortieren, statt sie nur zu benennen."
+        "Flache Formen von Körpern unterscheiden",
+        "Sehen, dass eine flache Form keine Dicke hat und ein Körper immer eine",
+        "Zwillinge auseinanderhalten: Kreis und Kugel, Quadrat und Würfel",
+        "Die ebenen Flächen von Würfeln, Quadern, Pyramiden, Prismen und Zylindern zählen"
       ],
       "howToPlay": [
-        "Schau dir die Form auf dem Feld an.",
-        "Entscheide, ob sie flach oder ein Körper ist, und tippe auf das passende Feld. Tippe dann auf Prüfen.",
-        "Probiere es jederzeit erneut — es gibt keinen Timer und keine Punkte."
+        "Zieh jede Form in die Briefablage oder in die Paketablage oder tippe sie an und dann die Ablage.",
+        "Tippe auf Prüfen und schau dem Schlitz und dem Regal zu.",
+        "Bei den Zählaufgaben ziehst du an der Lasche, stempelst jede ebene Fläche und tippst an, wie viele es sind.",
+        "Tippe auf Prüfen, dann wird das Netz durch den Schlitz geschickt."
       ],
       "learningGoals": [
-        "Formen als flach (zweidimensional) oder als Körper (dreidimensional) erkennen.",
-        "Eine flache Form mit ihrem räumlichen Verwandten verbinden, etwa ein Quadrat und einen Würfel.",
-        "Die Grundlage dafür legen, später 3D-Formen zu benennen und zu beschreiben."
+        "Ebene Figuren und Körper unterscheiden",
+        "Erklären, dass eine flache Form keine Dicke hat",
+        "Die ebenen Flächen eines Körpers zählen, indem man ihn aufklappt"
       ]
     },
     "choice-board.next-number.k-cc-a-2": {

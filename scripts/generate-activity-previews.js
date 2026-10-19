@@ -199,6 +199,10 @@ function seedScript(row) {
     // after Check in the square-or-not wing: the clasps closed round the turned square and the circles, the oval in the Mystery Gallery, and the rhombus back on the belt wearing its ghost clasp — the invention at rest
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='S3';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.PipMuseumCore,s=t.st,r=s.r;s.belt.slice().forEach(function(id){var tr=C.byId(r,id);C.route(s,id,tr.k==='rhombus'?'square':C.rightOf(r,tr));});t._check();})();`;
   }
+  if (row.tool === 'post-slot-activity') {
+    // mid-sort at the letterbox: two flat shapes on the letter tray, a cube on the parcel tray, the rest of the bag still to sort — the apparatus at rest
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='B1';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.PostSlotCore,s=t.st,r=s.r;['p2','p0','p3'].forEach(function(id){C.move(s,id,C.byId(r,id).flat?'letter':'parcel');});t._paint();})();`;
+  }
   if (row.tool === 'parking-tower-activity') {
     // between the bus and the van: the truck has ridden the lift up and parked in the middle bay; its dotted route stays — the invention at rest
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='N4';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.ParkingTowerCore,s=t.st;C.park(s,{c:2,l:2});t._route=t._routeOf(s.parked);t._paint();})();`;

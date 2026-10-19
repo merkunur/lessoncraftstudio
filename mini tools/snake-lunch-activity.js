@@ -593,7 +593,7 @@ function injectSnakeLunchCSS() {
   + '.sl-lid.is-open{opacity:.9;}'
   + '.sl-lid.is-gap{animation:sl-gapk .52s ease-in-out 1;} @keyframes sl-gapk{50%{transform:translateY(22px);}}'
   + '.sl-lid.is-bonk{animation:sl-bonkk .52s ease-in-out 1;} @keyframes sl-bonkk{40%{transform:translateY(30px) rotate(-3deg);}60%{transform:translateY(6px) rotate(2deg);}}'
-  + '.sl-lid.is-shut{left:0;right:0;top:50px;height:calc(100% - 50px);clip-path:none;border-radius:16px;background:linear-gradient(180deg,rgba(46,140,124,.82),rgba(20,107,94,.86));box-shadow:0 0 0 3px #0E4E44;cursor:default;}'
+  + '.sl-lid.is-shut{left:0;right:0;top:50px;height:calc(100% - 50px);clip-path:none;border-radius:16px;background:linear-gradient(180deg,rgba(46,140,124,.82),rgba(20,107,94,.86));box-shadow:0 0 0 3px #0E4E44;cursor:default;pointer-events:none;}'
   + '.sl-lid.is-shut::after{content:"";position:absolute;left:50%;bottom:-6px;width:30px;height:14px;margin-left:-15px;border-radius:4px;background:#C9A24A;}'
   + '.sl-lid.sl-clack{animation:sl-clackk .3s ease-out 1;} @keyframes sl-clackk{40%{transform:scale(1.02);}}'
   + '.sl-boxwrap.sl-roll{animation:sl-rollk 1.2s ease-in-out 1;} @keyframes sl-rollk{40%{transform:translateX(40px) scale(.96);opacity:.6;}60%{transform:translateX(40px) scale(.96);opacity:0;}61%{transform:translateX(-30px);opacity:0;}100%{transform:none;opacity:1;}}'

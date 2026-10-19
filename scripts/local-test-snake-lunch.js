@@ -74,6 +74,15 @@ function serve() {
     await page.evaluate((kind, n) => { const t = window.SnakeLunchActivity; t._playing = false; const pool = t._ensurePool(); const i = pool.findIndex(r => r.kind === kind && (n == null || r.n === n)); const order = [i]; for (let k = 0; k < pool.length; k++) if (k !== i) order.push(k); t._order = order; t._curPass = 0; window.LCS_reloadFirstTask(); }, kind, n);
     await wait(80);
   }
+  /* a real tap on the first filled cup, until the box is empty — through a shut lid too */
+  async function emptyBoxByTaps(page) {
+    for (let g = 0; g < 6; g++) {
+      const left = await page.evaluate(() => window.SnakeLunchCore.inBox(window.SnakeLunchActivity.st).filter(x => !x.locked).length);
+      if (!left) break;
+      await clickSel(page, '.sl-cup.is-full', 80);
+    }
+    is((await page.evaluate(() => window.SnakeLunchCore.inBox(window.SnakeLunchActivity.st).filter(x => !x.locked).length)) === 0, 'real taps on the cups empty a shut, refused box');
+  }
   const celebrated = (page) => page.waitForFunction(() => document.querySelector('.lcs-activity-prompt').classList.contains('celebrate'), { timeout: 4000 }).catch(() => {});
 
   for (const loc of LOCALES) {
@@ -113,7 +122,7 @@ function serve() {
     await tapStrand(page, 4); await tapStrand(page, 6); await clickSel(page, '.sl-lever', 120);
     s = await state(page);
     is(s.misses === 1 && (await note(page)) === STR.hintRepeat[loc], `${tag} 4 + 6 is the same lunch → "${await note(page)}"`);
-    await page.evaluate(() => { const C = window.SnakeLunchCore, st = window.SnakeLunchActivity.st; C.inBox(st).forEach(x => C.takeOut(st, x.id)); window.SnakeLunchActivity._paint(); });
+    await emptyBoxByTaps(page);
     await tapStrand(page, 7); await tapStrand(page, 3); await clickSel(page, '.sl-lever', 200);
     await celebrated(page);
     s = await state(page);
@@ -124,7 +133,7 @@ function serve() {
     await tapStrand(page, 6); await tapStrand(page, 4); await clickSel(page, '.sl-lever', 100);
     s = await state(page);
     is(s.lid === 'shut' && s.misses === 1 && (await note(page)) === interp(STR.hintExactly[loc], { k: 3 }), `${tag} exactly 3: 6 + 4 refused → "${await note(page)}"`);
-    await page.evaluate(() => { const C = window.SnakeLunchCore, st = window.SnakeLunchActivity.st; C.inBox(st).forEach(x => C.takeOut(st, x.id)); window.SnakeLunchActivity._paint(); });
+    await emptyBoxByTaps(page);
     await tapStrand(page, 4); await tapStrand(page, 4); await tapStrand(page, 2); await clickSel(page, '.sl-lever', 200);
     await celebrated(page);
     is((await state(page)).done && (await bubble(page)) === interp(STR.celebrateFed[loc], { n: 10 }), `${tag} exactly 3: 4 + 4 + 2 → "${await bubble(page)}"`);

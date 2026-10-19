@@ -57,14 +57,23 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
       is(await frame.evaluate(() => window.TippingPourActivity.st.vol.L > 0), `[${loc} @${w}] the tap fills the cup`);
       o = await off(); const v = await box('.tp-vessel-L'); await page.mouse.click(o.x + v.x, o.y + v.y); await wait(400);
       is((await frame.evaluate(() => window.TippingPourActivity._pose.docked)) === 'L', `[${loc} @${w}] the cup docks over the jug`);
-      if (loc === LOCALES[0] || w === 390) await page.screenshot({ path: path.join(OUT, `live-${loc}-${w}-docked.png`), fullPage: w < 500 });
-      o = await off(); const t = await box('.tp-tip');
+      if (loc === LOCALES[0] || w === 390) await page.screenshot({ path: path.join(OUT, `live-${loc}-${w}-docked.png`) });   /* not fullPage: it resizes the viewport and the next press misses */
+      /* bring the tip button into the page's viewport (the iframe does not scroll; the page does) */
+      let t = await box('.tp-tip'); o = await off();
+      await page.evaluate((y) => window.scrollTo({ top: window.scrollY + y - innerHeight / 2, behavior: 'instant' }), o.y + t.y); await wait(300);   /* instant: the site scrolls smoothly, and a mid-glide offset misses the button */
+      o = await off(); t = await box('.tp-tip');
+      const hit = await page.evaluate((x, y) => { const e = document.elementFromPoint(x, y); return e ? e.tagName + '.' + String(e.className).slice(0, 40) : 'none'; }, o.x + t.x, o.y + t.y);
+      const hitIn = await frame.evaluate((x, y) => { const e = document.elementFromPoint(x, y); return e ? e.tagName + '.' + String(e.className.baseVal != null ? e.className.baseVal : e.className).slice(0, 40) : 'none'; }, t.x, t.y);
+      if (w < 500) console.log('   probe', loc, w, 'page:', hit, 'frame:', hitIn, 'scrollY', await page.evaluate(() => scrollY), 'off', JSON.stringify(o), 'vh', await page.evaluate(() => innerHeight));
       await page.mouse.move(o.x + t.x, o.y + t.y); await page.mouse.down(); await wait(2600); await page.mouse.up();
-      await frame.waitForFunction(() => document.querySelector('.lcs-activity-prompt').classList.contains('celebrate') || window.TippingPourActivity.st.done, { timeout: 15000 }).catch(() => {});
-      await frame.evaluate(() => { const t = window.TippingPourActivity; t._clearTimers(); t._busy = false; t._afterOk = true; t._paint(); const c = document.querySelector('.lcs-activity-check'); if (c && !c.disabled) c.click(); });
+      await frame.waitForFunction(() => window.TippingPourActivity.st.outcome, { timeout: 15000 }).catch(() => {});
+      /* the cup goes back (BACK_MS), the win shows; the shell's Check is pressed here because OK_MS was held off */
+      await frame.waitForFunction(() => !window.TippingPourActivity._pose.docked, { timeout: 8000 }).catch(() => {});
+      await wait(200);
+      await frame.evaluate(() => { const c = document.querySelector('.lcs-activity-check'); if (window.TippingPourActivity.st.done && c && !c.disabled) c.click(); });
       await wait(600);
-      const st = await frame.evaluate(() => { const s = window.TippingPourActivity.st; return { done: s.done, outcome: s.outcome, gap: !!document.querySelector('.tp-gap'), bubble: document.querySelector('.lcs-activity-bubble').textContent }; });
-      is(st.done && st.outcome === 'gap' && st.gap, `[${loc} @${w}] the juice leaves a gap and the call wins (${st.outcome})`);
+      const st = await frame.evaluate(() => { const s = window.TippingPourActivity.st; return { tilt: s.tilt, vol: JSON.stringify(s.vol), docked: window.TippingPourActivity._pose.docked, done: s.done, outcome: s.outcome, gap: !!document.querySelector('.tp-gap'), bubble: document.querySelector('.lcs-activity-bubble').textContent }; });
+      is(st.done && st.outcome === 'gap' && st.gap, `[${loc} @${w}] the juice leaves a gap and the call wins (${st.outcome} tilt ${st.tilt} docked ${st.docked} ${st.vol} tip@${o.x + t.x},${o.y + t.y})`);
       is(st.bubble.includes(STR.okMoreGap[loc]), `[${loc} @${w}] the win: "${st.bubble}"`);
       await wait(1500);
       const fit = await page.evaluate(f => { const fr = f.getBoundingClientRect(); const card = f.contentDocument.querySelector('.lcs-app').getBoundingClientRect(); return { frameH: fr.height, cardH: card.height }; }, frameEl);

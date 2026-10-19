@@ -244,7 +244,7 @@ function serve() {
   /* the width sweep: at rest, mid-pour and won — nothing overflows, every control in reach and big enough */
   for (const w of WIDTHS) {
     const { page, errs } = await open('fi', w);
-    for (const [cups, id] of [['tricky', 'T8'], ['tricky', 'T4'], ['easy', 'E5'], ['tricky', 'T9']]) {
+    for (const [cups, id] of [['tricky', 'T8'], ['tricky', 'T4'], ['easy', 'E5'], ['easy', 'E1'], ['tricky', 'T9']]) {
       await force(page, cups, 'more', id);
       const check = async (phase) => {
         const m = await page.evaluate(() => {
@@ -260,12 +260,13 @@ function serve() {
           if (c.b > m.vh + 1) is(false, `${w} ${id} ${phase}: ${c.c} below the fold (${Math.round(c.b)} > ${m.vh})`);
         });
         m.ink.forEach(r => { if (r.l < m.sc.l - 2 || r.r > m.sc.r + 2 || r.t < m.sc.t - 2 || r.b > m.sc.b + 2) is(false, `${w} ${id} ${phase}: a vessel drawn outside the stage (${Math.round(r.l)}..${Math.round(r.r)} / ${Math.round(r.t)}..${Math.round(r.b)} vs ${Math.round(m.sc.l)}..${Math.round(m.sc.r)} / ${Math.round(m.sc.t)}..${Math.round(m.sc.b)})`); });
-        /* the berry at home never sits on a coaster or a vessel button */
-        PASS++;
+        /* every control can be pressed: its centre hit-tests to itself (the 390 berry once covered the tip button) */
+        const blocked = await page.evaluate(() => [...document.querySelectorAll('.tp-berry, .tp-coaster, .tp-knob, .tp-tip')].filter(e => !e.hidden && e.offsetParent !== null).map(e => { const r = e.getBoundingClientRect(); const x = r.left + r.width / 2, y = r.top + r.height / 2; if (y < 0 || y > innerHeight) return null; const h = document.elementFromPoint(x, y); return h && (h === e || e.contains(h)) ? null : e.className.split(' ')[0] + ' under ' + (h ? String(h.className.baseVal != null ? h.className.baseVal : h.className).split(' ')[0] : 'none'); }).filter(Boolean));
+        is(blocked.length === 0, `${w} ${id} ${phase}: every control can be pressed (${blocked.join(', ')})`);
       };
       await check('rest');
       if (id !== 'T9') {
-        await page.evaluate(() => { const t = window.TippingPourActivity, C = TippingPourCore; C.place(t.st, 'A'); C.fill(t.st); t._dock('L'); t.st.tilt = 60; t._paint(); });
+        await page.evaluate(() => { const t = window.TippingPourActivity, C = TippingPourCore; C.place(t.st, 'B'); C.fill(t.st); t._dock('L'); t.st.tilt = 60; t._paint(); });
         await wait(80); await check('mid-pour');
         await page.evaluate(() => { const t = window.TippingPourActivity; t.st.tilt = TippingPourCore.MAX_TILT; t._paint(); });
         await wait(60); await check('full tilt');

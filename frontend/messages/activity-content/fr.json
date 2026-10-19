@@ -3253,25 +3253,26 @@
     },
     "choice-board.letter-case.rf-k-1-d": {
       "about": [
-        "Une lettre apparaît et l'enfant touche la même lettre dans son autre forme — la majuscule vers la minuscule, ou la minuscule vers la majuscule. Un grand B s'affiche et l'enfant trouve le petit b ; un grand R mène au r ; un grand E mène au e. C'est une activité de lecture interactive pour la maternelle, qui se joue directement dans le navigateur, sans inscription.",
-        "La grande idée, c'est que chaque lettre a deux écritures qui désignent la même lettre. Les mauvaises réponses sont volontairement proches — pour le B, les minuscules proposées sont b, d, p et h — afin que l'enfant connaisse la vraie forme de la lettre, et ne choisisse pas n'importe quoi d'arrondi. Démêler les lettres qui se retournent et se ressemblent, comme b et d, c'est exactement l'observation soigneuse qui construit une reconnaissance des lettres sûre.",
-        "Cette activité est alignée sur les programmes officiels : reconnaître et nommer toutes les lettres de l'alphabet, en majuscule comme en minuscule. Les enfants avancent à leur rythme, avec un retour doux et immédiat — ni minuteur, ni score."
+        "Chaque lettre a deux formes, et elles vivent ici dans une vraie casse d’imprimeur : les majuscules dans le tiroir du haut, les minuscules dans celui du bas, d’où les mots haut de casse et bas de casse. Une forme est dans son tiroir, et l’enfant fait glisser l’autre forme du plateau jusqu’à la case vide, ou la touche simplement. Les lettres sont écrites dans une police d’école avec le a et le g que les enfants apprennent à lire, et un I majuscule, un l minuscule et un 1 qui ne se ressemblent jamais. C’est une activité interactive de lecture qui fonctionne dans le navigateur sans rien installer.",
+        "L’invention, c’est le dos de chaque lettre en métal : on y trouve son autre forme. Une mauvaise lettre posée dans la case bascule et montre sa propre autre forme ; un D se retrouve sous le B, et la colonne montre clairement deux lettres différentes. Après cette première erreur, l’enfant peut retourner n’importe quelle lettre d’un appui long pour vérifier ; après une deuxième, la lettre donnée se retourne aussi et montre exactement la forme à chercher. Une paire juste passe sous une petite presse et s’imprime sur une affiche de l’alphabet de la langue de la page, avec le É à sa place.",
+        "L’activité suit les programmes officiels : reconnaître et nommer toutes les lettres, en capitales et en minuscules. Deux autres niveaux vont plus loin. Les lettres jumelles placent huit lettres sur un composteur, comme b, d, p et q, n, u, m et h ou é, e, è et c, et l’enfant touche chaque exemplaire d’une lettre ; une mauvaise marque se retourne et montre à qui elle appartient. Dans les mots, trois mots courts sous leurs images : l’enfant touche chaque exemplaire d’une lettre et touche le nombre. L’enseignant choisit le niveau et la forme donnée en premier. Sans chronomètre, sans score."
       ],
       "practices": [
-        "Associer une lettre majuscule à sa forme minuscule, et inversement.",
-        "Reconnaître la même lettre dans sa grande et sa petite écriture.",
-        "Distinguer des lettres qui se ressemblent, comme b, d et p.",
-        "Développer la reconnaissance solide des lettres dont la lecture fluide a besoin."
+        "Associer chaque majuscule à sa minuscule, dans les deux sens",
+        "Distinguer des lettres qui se ressemblent, comme b, d, p et q",
+        "Trouver une lettre dans des mots, en capitales et en minuscules",
+        "Compter combien de fois une lettre apparaît"
       ],
       "howToPlay": [
-        "Regarde la lettre affichée.",
-        "Touche la lettre qui lui correspond dans l'autre écriture — majuscule ou minuscule — puis appuie sur Vérifier.",
-        "Recommence quand tu veux ; il n'y a ni minuteur, ni score."
+        "Fais glisser l’autre forme de la lettre du plateau jusqu’à la case vide, ou touche-la.",
+        "Tire la presse quand la paire est juste.",
+        "Dans les lettres jumelles et dans les mots, touche chaque exemplaire de la lettre ; dans les mots, touche aussi le nombre. Puis tire la presse.",
+        "Après une erreur, appuie longtemps sur une lettre pour voir son dos."
       ],
       "learningGoals": [
-        "Reconnaître et nommer les lettres en majuscule et en minuscule.",
-        "Relier les deux écritures d'une même lettre comme une seule et même lettre.",
-        "Stabiliser les lettres qui se ressemblent et que les jeunes lecteurs confondent souvent."
+        "Reconnaître et nommer les lettres capitales et minuscules",
+        "Savoir qu’une majuscule et sa minuscule sont la même lettre",
+        "Trouver une lettre parmi des jumelles et dans des mots"
       ]
     },
     "fractions.partition-thirds.2-g-a-3": {

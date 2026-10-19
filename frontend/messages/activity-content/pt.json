@@ -1900,25 +1900,26 @@
     },
     "choice-board.letter-case.rf-k-1-d": {
       "about": [
-        "Uma letra aparece na tela e a criança toca na mesma letra na outra forma — da maiúscula para a minúscula, ou da minúscula para a maiúscula. Aparece um B grande e a criança encontra o b pequeno; um R grande encontra o r; um E grande encontra o e. É uma atividade de leitura interativa para a educação infantil, que abre direto no navegador, sem precisar de conta.",
-        "A ideia central é que cada letra tem duas aparências que nomeiam a mesma letra. As opções erradas são propositalmente próximas — para o B, as letrinhas oferecidas podem ser b, d, p e h — então a criança precisa conhecer o traçado de verdade da letra, e não só escolher algo arredondado. Resolver as letras que viram e espelham, como o b e o d, é exatamente o olhar atento que constrói um reconhecimento seguro do alfabeto.",
-        "A atividade está alinhada à BNCC, no eixo da apropriação do sistema de escrita, na ideia de reconhecer e nomear as letras maiúsculas e minúsculas do alfabeto. Sem cronômetro e sem pontuação — só prática calma e divertida."
+        "Toda letra tem duas formas, e aqui elas moram numa caixa de tipos de verdade: as maiúsculas na gaveta de cima e as minúsculas na de baixo, como os tipógrafos as guardavam. Uma forma fica na sua gaveta, e a criança arrasta a outra forma da bandeja até o espaço vazio, ou só toca nela. As letras estão numa fonte escolar com o a e o g que as crianças aprendem a ler, e com um I maiúsculo, um l minúsculo e um 1 que nunca se confundem. É uma atividade interativa de leitura que funciona no navegador, sem instalar nada.",
+        "A invenção é o verso de cada letra de metal: lá está a outra forma dela. Uma letra errada no espaço tomba e mostra a própria outra forma; assim um D fica embaixo do B, e dá para ver que são duas letras diferentes. Depois desse primeiro erro, a criança pode virar qualquer letra segurando o dedo nela para conferir; depois de um segundo, a letra dada também vira e mostra exatamente a forma que se procura. Um par certo passa por uma pequena prensa e é impresso num cartaz do alfabeto da língua da página, com o Ç no seu lugar.",
+        "A atividade está alinhada à BNCC, no componente Língua Portuguesa: reconhecer e nomear todas as letras maiúsculas e minúsculas. Mais dois níveis vão além. Letras parecidas coloca oito letras num componedor, como b, d, p e q, n, u, m e h ou ç, c, o e e, e a criança toca em cada cópia de uma letra; uma marcação errada vira e mostra de quem é a letra. Nas palavras traz três palavras curtas embaixo das figuras, e a criança toca em cada cópia de uma letra e toca em quantas são. O professor escolhe o nível e qual forma vem primeiro. Sem cronômetro e sem pontos."
       ],
       "practices": [
-        "Combinar uma letra maiúscula com a sua forma minúscula, e o contrário também.",
-        "Reconhecer a mesma letra nas suas formas grande e pequena.",
-        "Diferenciar letras parecidas, como b, d e p.",
-        "Construir o reconhecimento seguro das letras de que a leitura fluente precisa."
+        "Ligar cada maiúscula à sua minúscula, nos dois sentidos",
+        "Diferenciar letras parecidas, como b, d, p e q",
+        "Achar uma letra dentro de palavras, em maiúsculas e em minúsculas",
+        "Contar quantas vezes uma letra aparece"
       ],
       "howToPlay": [
-        "Olhe a letra que aparece na tela.",
-        "Toque na letra correspondente na outra forma — maiúscula ou minúscula — e depois toque em Verificar.",
-        "Tente de novo quando quiser; não há cronômetro nem pontuação."
+        "Arraste a outra forma da letra da bandeja até o espaço vazio, ou toque nela.",
+        "Puxe a prensa quando o par estiver certo.",
+        "Em letras parecidas e nas palavras, toque em cada cópia da letra; nas palavras, toque também em quantas são. Depois puxe a prensa.",
+        "Depois de um erro, segure o dedo numa letra para ver o verso."
       ],
       "learningGoals": [
-        "Reconhecer e nomear as letras maiúsculas e minúsculas do alfabeto.",
-        "Ligar as duas formas de cada letra como sendo uma só letra.",
-        "Firmar as letras parecidas que as crianças costumam confundir no começo da leitura."
+        "Reconhecer e nomear as letras maiúsculas e minúsculas",
+        "Saber que uma maiúscula e a sua minúscula são a mesma letra",
+        "Achar uma letra entre letras parecidas e dentro de palavras"
       ]
     },
     "fractions.partition-thirds.2-g-a-3": {

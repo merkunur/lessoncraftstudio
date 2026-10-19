@@ -1154,25 +1154,26 @@
     },
     "choice-board.letter-case.rf-k-1-d": {
       "about": [
-        "Én bokstav vises, og barnet trykker på den samme bokstaven i den andre formen — fra stor til liten, eller fra liten til stor. En stor B vises, og barnet finner den lille b; en stor R finner r; en stor E finner e. Hele det norske alfabetet er med, også æ, ø og å. Dette er en interaktiv leseaktivitet for skolestart som spilles rett i nettleseren, uten konto.",
-        "Den store ideen er at hver bokstav har to utseender som navngir den samme bokstaven. De gale valgene er bevisst nære — for B er de små bokstavene barnet kan velge mellom b, d, p og h — så barnet må kjenne den ekte formen på bokstaven, ikke bare velge noe rundt. Å sortere ut bokstavene som vender og snur seg, som b og d, er nettopp den nøyaktige kikkingen som bygger trygg bokstavkjennskap.",
-        "Aktiviteten følger LK20 innenfor bokstavkjennskap — å kjenne igjen og navngi store og små bokstaver i alfabetet. Det er ingen tidtaker og ingen poeng, bare rolig og trygg lek med bokstaver for skolestart og 1. trinn."
+        "Hver bokstav har to former, og her bor de i en ekte settekasse: de store bokstavene i den øverste skuffen og de små i den nederste, slik boktrykkere oppbevarte dem. Den ene formen står i skuffen sin, og barnet drar den andre formen fra brettet til det tomme rommet, eller trykker bare på den. Bokstavene står i en skrifttype fra skolebøkene, med den a-en og g-en som barn lærer å lese, og med en stor I, en liten l og et 1-tall som aldri ligner hverandre. Det er en interaktiv leseoppgave som virker i nettleseren uten at noe må installeres.",
+        "Oppfinnelsen er baksiden av hver metallbokstav: der står den andre formen. En feil bokstav i rommet velter og viser sin egen andre form; slik ligger det en D under B-en, og man ser straks to forskjellige bokstaver. Etter den første feilen kan barnet snu hvilken som helst bokstav med et langt trykk for å sjekke; etter en feil til snur også den gitte bokstaven seg og viser akkurat formen man leter etter. Et riktig par trykkes i en liten presse på en alfabetplakat på sidens eget språk, med Æ, Ø og Å på plassene sine.",
+        "Oppgaven følger LK20 i norsk: å kjenne igjen og navngi alle store og små bokstaver. To nivåer til går lenger. Bokstaver som ligner legger åtte bokstaver på en vinkelhake, for eksempel b, d, p og q, n, u, m og h eller ø, o og æ, og barnet trykker på hvert eksemplar av en bokstav; en feil markering snur seg og viser hvem bokstaven tilhører. I ord setter tre korte ord under bildene sine, og barnet trykker på hvert eksemplar av en bokstav og trykker på hvor mange det er. Læreren velger nivå og hvilken form som gis først. Uten tidtaking og uten poeng."
       ],
       "practices": [
-        "Koble en stor bokstav til den lille formen, og motsatt.",
-        "Kjenne igjen den samme bokstaven i både stor og liten form.",
-        "Skille bokstaver som ligner fra hverandre, som b, d og p.",
-        "Bygge den trygge bokstavkjennskapen som flytende lesing trenger."
+        "Å koble hver stor bokstav til den lille, begge veier",
+        "Å skille bokstaver som ligner hverandre, som b, d, p og q",
+        "Å finne en bokstav i ord, med store og små bokstaver",
+        "Å telle hvor mange ganger en bokstav er der"
       ],
       "howToPlay": [
-        "Se på bokstaven som vises på brettet.",
-        "Trykk på den bokstaven som passer i den andre formen — stor eller liten — og trykk så på Sjekk.",
-        "Prøv igjen når som helst — det er ingen tidtaker og ingen poeng."
+        "Dra bokstavens andre form fra brettet til det tomme rommet, eller trykk på den.",
+        "Trekk i pressen når paret stemmer.",
+        "På nivåene Bokstaver som ligner og I ord trykker du på hvert eksemplar av bokstaven; i ord trykker du også på hvor mange det er. Trekk så i pressen.",
+        "Etter en feil holder du fingeren på en bokstav for å se baksiden."
       ],
       "learningGoals": [
-        "Barnet kan kjenne igjen og navngi store og små bokstaver.",
-        "Barnet kan koble bokstavens to former sammen som én bokstav.",
-        "Barnet får ro på bokstavene som ligner og som unge lesere ofte blander."
+        "Barnet kjenner igjen og navngir store og små bokstaver",
+        "Barnet vet at en stor og en liten bokstav er samme bokstav",
+        "Barnet finner en bokstav blant like bokstaver og i ord"
       ]
     },
     "fractions.partition-thirds.2-g-a-3": {

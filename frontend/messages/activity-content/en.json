@@ -895,25 +895,26 @@
     },
     "choice-board.letter-case.rf-k-1-d": {
       "about": [
-        "One letter appears and the child taps the matching letter in its other form — uppercase to lowercase, or lowercase to uppercase. A big B is shown and the child finds the small b; a big R finds r; a big E finds e. It's an interactive Kindergarten reading activity that plays right in the browser with no sign-up.",
-        "The big idea is that every letter has two looks that name the same letter. The wrong choices are deliberately close — for B the small letters offered are b, d, p, and h — so a child has to know the real shape of the letter, not just pick something rounded. Sorting out the letters that flip and turn, like b and d, is exactly the careful looking that builds confident letter recognition.",
-        "It is aligned to Common Core RF.K.1.d — recognizing and naming all upper- and lowercase letters of the alphabet. No timer, no score — just calm, playful practice."
+        "Every letter has two forms, and this activity keeps them in a real printer's type case: the capitals live in the upper drawer and the small letters in the lower one, which is where the words uppercase and lowercase come from. One form stands in its drawer, and the child drags its other form from the composing tray into the empty compartment, or simply taps it. The letters are set in a school typeface with the a and g that children learn to read, and a capital I, a small l and a 1 that never look alike. It is an interactive reading activity that runs in the browser with nothing to install.",
+        "The invention is the back of each metal letter: every sort carries its other form there. A wrong letter dropped in the slot tips over and shows its own other form, so a D lies under the B and the column plainly holds two different letters. After that first slip the child may turn any sort over with a long press to check it; after a second, the given letter turns too and shows exactly the shape to look for. A right pair is pulled on a little press and printed onto an alphabet poster in the page's own language.",
+        "It is aligned to Common Core RF.K.1.d: recognising and naming all upper- and lowercase letters. Two more levels go further. Look-alikes lays eight sorts on a composing stick, such as b, d, p and q, n, u, m and h, or M, W, N and H, and the child taps every copy of one letter; a wrong mark turns over to show whose letter it really is. In words sets three short words under their pictures, and the child taps every copy of a letter and taps how many. Teachers choose the level and which form is given first. No timer, no score."
       ],
       "practices": [
-        "Match an uppercase letter to its lowercase form, and the other way around",
-        "Recognize the same letter in both its big and small shapes",
-        "Tell apart look-alike letters like b, d, and p",
-        "Build the secure letter recognition that fluent reading needs"
+        "Matching each capital with its small letter, both ways",
+        "Telling apart letters that look alike, such as b, d, p and q",
+        "Finding a letter inside words, in capitals and in small letters",
+        "Counting how many times a letter appears"
       ],
       "howToPlay": [
-        "Look at the letter shown on the board.",
-        "Tap its matching letter in the other case — big or small — then press Check.",
-        "Try again any time; there is no timer and no score."
+        "Drag the letter's other form from the tray into the empty slot, or tap it.",
+        "Pull the press when the pair is right.",
+        "In Look-alikes and In words, tap every copy of the letter; in words, also tap how many. Then pull the press.",
+        "After a miss, press and hold a letter to see its back."
       ],
       "learningGoals": [
-        "Recognize and name upper- and lowercase letters — the focus of Common Core RF.K.1.d",
-        "Connect each letter's two forms as one letter",
-        "Steady the look-alike letters that young readers often mix up"
+        "Recognise and name upper- and lowercase letters, the focus of Common Core RF.K.1.d",
+        "Know that a capital and its small letter are the same letter",
+        "Find a letter among look-alikes and inside words"
       ]
     },
     "choice-board.next-number.k-cc-a-2": {

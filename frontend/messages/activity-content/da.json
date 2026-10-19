@@ -1152,24 +1152,26 @@
     },
     "choice-board.letter-case.rf-k-1-d": {
       "about": [
-        "Match store og små bogstaver viser ét bogstav, og barnet trykker på det samme bogstav i dets anden form — stort til lille eller lille til stort. Et stort B vises, og barnet finder det lille b; et stort R finder r; et stort E finder e. Vi leger med både store og små bogstaver, også de danske æ, ø og å. Det er en interaktiv læseaktivitet til børnehaveklassen, der spilles direkte i browseren uden konto.",
-        "Den store idé er, at hvert bogstav har to udseender, som er det samme bogstav. De forkerte valg ligger med vilje tæt på — til B kan de små bogstaver være b, d, p og h — så barnet skal kende bogstavets rigtige form og ikke bare vælge noget, der er rundt. At få styr på de bogstaver, der vender og drejer, som b og d, er netop det at kigge godt efter, der bygger sikker bogstavgenkendelse. Aktiviteten følger Fælles Mål inden for de tidlige læsefærdigheder: at genkende og navngive alle store og små bogstaver. Tag jer god tid og hav det sjovt sammen, helt uden ur og point."
+        "Hvert bogstav har to former, og her bor de i en rigtig sættekasse: de store bogstaver i den øverste skuffe og de små i den nederste, sådan som bogtrykkere gemte dem. Den ene form står i sin skuffe, og barnet trækker den anden form fra bakken over i det tomme rum, eller trykker bare på den. Bogstaverne er sat med en skrifttype fra skolebøgerne med det a og g, som børn lærer at læse, og med et stort I, et lille l og et 1-tal, der aldrig ligner hinanden. Det er en interaktiv læseøvelse, der kører i browseren uden at installere noget.",
+        "Opfindelsen er bagsiden af hvert metalbogstav: dér står dets anden form. Et forkert bogstav i rummet vælter og viser sin egen anden form; så ligger der et D under B'et, og man ser straks to forskellige bogstaver. Efter den første fejl må barnet vende et hvilket som helst bogstav med et langt tryk for at tjekke det; efter en anden fejl vender det givne bogstav sig også og viser præcis den form, man skal lede efter. Et rigtigt par trykkes i en lille presse på en alfabetplakat på sidens eget sprog, med Æ, Ø og Å på deres pladser.",
+        "Øvelsen følger Fælles Mål i dansk: at genkende og benævne alle store og små bogstaver. To niveauer mere går videre. Ligner hinanden lægger otte bogstaver på en vinkelhage, for eksempel b, d, p og q, n, u, m og h eller ø, o og æ, og barnet trykker på hvert eksemplar af et bogstav; en forkert markering vender sig og viser, hvis bogstav det er. I ord sætter tre korte ord under deres billeder, og barnet trykker på hvert eksemplar af et bogstav og trykker på, hvor mange der er. Læreren vælger niveauet, og hvilken form der gives først. Uden tidtagning og uden point."
       ],
       "practices": [
-        "Matche et stort bogstav med dets lille form — og omvendt",
-        "Genkende det samme bogstav i både dets store og lille udseende",
-        "Kende bogstaver, der ligner hinanden, som b, d og p, fra hinanden",
-        "Bygge den sikre bogstavgenkendelse, som flydende læsning har brug for"
+        "At parre hvert stort bogstav med sit lille, begge veje",
+        "At skelne bogstaver, der ligner hinanden, som b, d, p og q",
+        "At finde et bogstav inde i ord, med store og små bogstaver",
+        "At tælle, hvor mange gange et bogstav er der"
       ],
       "howToPlay": [
-        "Barnet kigger på det bogstav, der vises på pladen.",
-        "Barnet trykker på bogstavet i den anden form — stort eller lille — og trykker så på Tjek.",
-        "Man kan prøve igen når som helst — der er ingen timer og ingen point."
+        "Træk bogstavets anden form fra bakken over i det tomme rum, eller tryk på den.",
+        "Træk i pressen, når parret passer.",
+        "På niveauerne Ligner hinanden og I ord trykker du på hvert eksemplar af bogstavet; i ord trykker du også på, hvor mange der er. Træk så i pressen.",
+        "Efter en fejl holder du fingeren på et bogstav for at se bagsiden."
       ],
       "learningGoals": [
-        "Barnet kan genkende og navngive store og små bogstaver",
-        "Barnet kan forbinde et bogstavs to former som ét bogstav",
-        "Barnet får styr på de bogstaver, der ligner hinanden, og som tidlige læsere ofte blander sammen"
+        "Barnet genkender og benævner store og små bogstaver",
+        "Barnet ved, at et stort og et lille bogstav er det samme bogstav",
+        "Barnet finder et bogstav blandt bogstaver, der ligner, og inde i ord"
       ]
     },
     "fractions.partition-equal-shares.1-g-a-3": {

@@ -74,3 +74,10 @@ ORDER row 33 · id `bramble.holds-more.k-md-a-2` (kept).
   - **it:** the intro says "succo di more" (blackberries) and calls every container a "bicchiere".
   - **de:** the intro says "Becher".
   - **en:** the intro says "which cup".
+
+## Found on production (live-verify), fixed the same day
+- **At 390, the berry hid the tip button.** On a phone, while the left cup was docked, the raspberry on the right vessel's rim sat over the tip button (it is z-index 3), so a press hit the berry.
+  - Every local gate was green, because the sweep checked size and containment, never occlusion.
+  - **Fix:** while a pour is docked, the berry sits on the front of its glass, and the tip button is stacked on top.
+  - **New gate:** every control's centre must hit-test to itself, in each sweep state. It was poison-tested against the old code and fired at 360 E1 full tilt.
+- **live-verify harness:** the site scrolls smoothly, so the harness now scrolls instantly. A full-page screenshot is not taken before the press.

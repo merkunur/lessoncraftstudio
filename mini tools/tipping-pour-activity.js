@@ -278,6 +278,8 @@ var TippingPourActivity = {
       var s = where === 'A' ? 'L' : 'R', p = this._pose[s], o = C.outer(C.V[st[s]]);
       var half = this._L.PIC / 2 / this._L.u;
       if (this._pose.docked === s) return this._px(this._L.X[s], half);
+      /* while a pour is docked the berry sits on the front of its glass, clear of the stream and the tip button */
+      if (this._pose.docked) return this._px(p.x, Math.max(half, o.h / 2));
       return this._px(p.x, p.y + o.h + half - 6);
     }
     var b = this._coasters[where]; if (!b) return this._berryHome();
@@ -697,7 +699,7 @@ function injectTippingPourCSS() {
   + '.tp-coaster svg{width:100%;height:100%;display:block;} .tp-co{fill:#E8DCC2;} .tp-eq{fill:var(--tp-teal);} .tp-cupi{fill:#EAF6F8;stroke:var(--tp-ink);stroke-width:2.4;stroke-linejoin:round;} .tp-jl{fill:var(--tp-juice);} .tp-rim{stroke:var(--tp-teal);stroke-width:2.4;stroke-dasharray:4 3;}'
   + '.tp-coaster.is-glow{box-shadow:inset 0 0 0 3px var(--tp-teal),0 0 0 5px rgba(20,107,94,.25);animation:tp-cpulse .7s ease-in-out 2;} .tp-coaster.is-ring{box-shadow:inset 0 0 0 3px var(--tp-coral);}'
   + '@keyframes tp-cpulse{50%{transform:scale(1.06);}}'
-  + '.tp-knob,.tp-tip{position:absolute;padding:0;border:0;border-radius:50%;background:#FFFBF2;box-shadow:0 2px 0 #C9B897,inset 0 0 0 2px #8C9894;cursor:pointer;}'
+  + '.tp-tip{z-index:5;} .tp-knob,.tp-tip{position:absolute;padding:0;border:0;border-radius:50%;background:#FFFBF2;box-shadow:0 2px 0 #C9B897,inset 0 0 0 2px #8C9894;cursor:pointer;}'
   + '.tp-knob svg,.tp-tip svg{width:100%;height:100%;display:block;} .tp-knob-c{fill:#E3F1EC;stroke:var(--tp-teal);stroke-width:2.5;} .tp-knob-b{fill:var(--tp-teal);}'
   + '.tp-knob.is-ready{animation:tp-cpulse .9s ease-in-out infinite;box-shadow:0 2px 0 #C9B897,inset 0 0 0 3px var(--tp-coral);}'
   + '.tp-tip-a{fill:none;stroke:var(--tp-teal);stroke-width:3.4;stroke-linecap:round;stroke-linejoin:round;} .tp-knob[hidden],.tp-tip[hidden]{display:none;}'

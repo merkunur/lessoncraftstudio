@@ -81,3 +81,15 @@ ORDER row 36 · id `parking-tower.place-by-relation.k-g-a-1` (kept).
   - de title: drops "zwischen".
   - es intro: lists "encima, debajo", while the rounds teach "arriba de / abajo de".
   - nl intro: "op de juiste verdieping" undersells the same-floor words.
+
+## Deploy (2026-10-19)
+- **Commit 91348e3e.** deploy.sh returned EXIT 0, with 0 payment-canary failures.
+- **Production play:** 96 / 96 (en / sv / fi / de at 1366 and 390).
+  - N1: a miss, the arrows, then the win.
+  - T3: the basement, reached down the lift.
+  - P3: A6.
+  - The wrapper version matches, and the iframe grows with the card.
+- **All eleven locale pages return 200.**
+- **The live variety probe had never been able to run on a rebuilt instrument.** It waited for `_activityRow`, which only manifest-driven tools set. With no manifest pool count, it also asked for 2 × null rounds.
+  - It now also recognises a tool with `_ensurePool` and asks that tool for its pool size. No threshold moved.
+  - Result: 9 distinct rounds, and pass 2 is reshuffled, in all 11 locales.

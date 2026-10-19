@@ -451,25 +451,26 @@
     },
     "choice-board.describe-attribute.k-md-a-1": {
       "about": [
-        "One everyday object appears and the child taps the word that best describes it — long, tall, or heavy. The objects are chosen so one attribute clearly stands out: a pencil and a carrot are long, a giraffe is tall, and a rock and a pumpkin are heavy. It's an interactive Kindergarten measurement activity that plays right in the browser, with no account needed.",
-        "The whole point is to put words to the ways we measure things before any numbers or rulers appear. A child does not count or measure here; they look at a real object and decide which measurable attribute fits — length, height, or weight. Because each pictured object has one obviously strongest attribute, the child practices noticing what kind of measurement a thing invites, which is the language foundation under all later measuring.",
-        "It is aligned to Common Core K.MD.A.1 — describing measurable attributes of an object such as length, height, and weight. No timer, no score — just calm, playful practice."
+        "Long, tall and heavy are three different ways to measure, so here the child answers by choosing a measuring station. A sign card asks the question with no words: a sideways arrow for how long, an upright arrow for how tall, a weight for how heavy. The picture can be laid on the track (a slider runs to its far end and leaves a bar), stood at the post (a cap clunks down onto its top) or hung on the spring (the pan drops and bobs, far for a heavy thing, hardly at all for a light one). It is an interactive Kindergarten measurement activity that runs in the browser with nothing to install.",
+        "The invention is that a wrong station still measures, honestly, the wrong thing. Put the giraffe on the track when the question is how tall and it tips over and lies down: the track shows how long it is lying down, and the track’s sign pops up next to the question’s, two different signs side by side. A second wrong try makes the right station glow. The pencil lies long and low at the post; the rock stretches the spring far. On the harder level one picture is measured two ways and a measure card drops into an album: the sunflower is light on the spring and tall at the post, so tall does not mean heavy. \"Big or small\" is a second instrument: a square size window glides over the pictures after Check, a big one pokes out of it and a small one fits inside with room to spare, so \"big\" is proved, not told.",
+        "It is aligned to Common Core K.MD.A.1: describing measurable attributes of objects, such as length, height and weight, and describing several of them for one object. The pictures come from the illustrated library, and each one is laid flat or stood up along its own drawn shape. Teachers choose \"Long, tall, heavy\" or \"Big or small\", and an easier or harder level. \"Try anything\" is open play: put any of 17 pictures on any station and watch what it measures. No timer, no score."
       ],
       "practices": [
-        "Match an object to the measurement word that fits it — long, tall, or heavy",
-        "Tell length, height, and weight apart as different ways to measure",
-        "Look at a real object and decide what kind of measurement it invites",
-        "Build the measurement vocabulary that comes before counting and rulers"
+        "Telling how long, how tall and how heavy apart",
+        "Choosing the right way to measure a thing",
+        "Describing one object two ways (long and light)",
+        "Telling big from small with a size window"
       ],
       "howToPlay": [
-        "Look at the object on the board — a pencil, a giraffe, or a rock.",
-        "Tap the word that describes it best — long, tall, or heavy — then press Check.",
-        "Try again any time you like; there is no timer and no score."
+        "Look at the sign on the question card.",
+        "Drag the picture onto a station, or tap the picture and then a station.",
+        "A wrong station still measures: compare its sign with the question.",
+        "No timer, no score: try another station."
       ],
       "learningGoals": [
-        "Describe an object's measurable attributes — length, height, weight — the focus of Common Core K.MD.A.1",
-        "Use the words long, tall, and heavy correctly for real objects",
-        "Build the measurement language that later measuring and comparing work depend on"
+        "Describe measurable attributes such as length, height and weight, the focus of Common Core K.MD.A.1",
+        "Describe several measurable attributes of one object",
+        "Tell big from small by comparing with a window"
       ]
     },
     "affix.apply.l-2-4-b": {

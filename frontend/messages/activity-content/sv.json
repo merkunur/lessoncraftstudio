@@ -770,24 +770,26 @@
     },
     "choice-board.describe-attribute.k-md-a-1": {
       "about": [
-        "Ett vardagligt föremål visas och barnet trycker på det ord som beskriver det bäst — långt, högt eller tungt. Föremålen är valda så att en egenskap tydligt sticker ut: en penna och en morot är långa, en giraff är hög, och en sten och en pumpa är tunga. Det är en interaktiv aktivitet i mätning för förskoleklass som körs direkt i webbläsaren utan konto.",
-        "Hela poängen är att sätta ord på de sätt vi mäter saker på innan några tal eller linjaler kommer in. Barnet räknar inte och mäter inte här, utan tittar på ett verkligt föremål och bestämmer vilken mätbar egenskap som passar — längd, höjd eller vikt. Eftersom varje föremål på bilden har en egenskap som tydligt är starkast, övar barnet på att lägga märke till vilken sorts mätning en sak bjuder in till, och det är själva språkgrunden under all senare mätning. Aktiviteten passar förskoleklass och följer Lgr22."
+        "Lång, hög och tung är tre olika sätt att mäta, så här svarar barnet genom att välja en mätstation. Ett tecken på ett kort ställer frågan utan ord: en liggande pil för hur lång, en stående pil för hur hög, en vikt för hur tung. Bilden kan läggas på skenan (en löpare åker till dess ände och lämnar en stapel), ställas vid stolpen (ett lock sänks ner på dess topp) eller hängas på fjädern (skålen sjunker och gungar, långt för något tungt, knappt alls för något lätt). En interaktiv mätövning för förskoleklass som körs i webbläsaren utan installation.",
+        "Det nya är att en fel station ändå mäter, och mäter ärligt fel sak. Lägger barnet giraffen på skenan när frågan är hur hög den är, välter den och ligger ner: skenan visar hur lång den är liggande, och skenans tecken dyker upp bredvid frågans, två olika tecken sida vid sida. Efter ett andra fel lyser rätt station. Pennan ligger lång och låg vid stolpen, och stenen drar fjädern långt ner. På den svårare nivån mäts en bild på två sätt och ett mätkort faller ner i ett album: solrosen är lätt på fjädern och hög vid stolpen: hög betyder inte tung. ”Stor eller liten” är ett andra instrument: efter Kontrollera glider ett kvadratiskt storleksfönster över bilderna, en stor bild sticker ut och en liten får plats med marginal, så att ”stor” visas i stället för att sägas.",
+        "Övningen är i linje med Lgr22 inom mätning: att beskriva mätbara egenskaper hos ett föremål, som längd, höjd och vikt, och flera av dem hos samma föremål. Bilderna kommer från det illustrerade biblioteket, och varje bild läggs ner eller ställs upp efter sin egen tecknade form. Läraren väljer ”Lång, hög, tung” eller ”Stor eller liten” och en lättare eller svårare nivå. ”Prova allt” är öppen lek: lägg vilken som helst av 17 bilder på vilken station som helst och se vad den mäter. Ingen timer, inga poäng."
       ],
       "practices": [
-        "Koppla ett föremål till det mätord som passar — långt, högt eller tungt",
-        "Skilja längd, höjd och vikt åt som olika sätt att mäta",
-        "Titta på ett verkligt föremål och avgöra vilken sorts mätning det bjuder in till",
-        "Bygga det mätord-ordförråd som kommer före räknande och linjaler"
+        "Att skilja på lång, hög och tung",
+        "Att välja rätt sätt att mäta något",
+        "Att beskriva ett föremål på två sätt (lång och lätt)",
+        "Att skilja stor från liten med ett storleksfönster"
       ],
       "howToPlay": [
-        "Titta på föremålet på tavlan — en penna, en giraff eller en sten.",
-        "Tryck på det ord som beskriver det bäst — långt, högt eller tungt — och tryck sedan på Kontrollera.",
-        "Försök igen när du vill; det finns ingen tid och inga poäng."
+        "Titta på tecknet på frågekortet.",
+        "Dra bilden till en station, eller tryck på bilden och sedan på en station.",
+        "En fel station mäter ändå: jämför dess tecken med frågan.",
+        "Ingen timer, inga poäng: prova en annan station."
       ],
       "learningGoals": [
-        "Barnet kan beskriva ett föremåls mätbara egenskaper — längd, höjd och vikt",
-        "Barnet kan använda orden lång, hög och tung rätt om verkliga föremål",
-        "Barnet bygger det mätspråk som senare mätning och jämförelse bygger på"
+        "Barnet beskriver mätbara egenskaper som längd, höjd och vikt",
+        "Barnet beskriver flera mätbara egenskaper hos samma föremål",
+        "Barnet skiljer stor från liten genom att jämföra med ett fönster"
       ]
     },
     "choice-board.ten-more-less.1-nbt-c-5": {

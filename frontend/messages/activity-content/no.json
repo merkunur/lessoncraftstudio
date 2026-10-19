@@ -661,25 +661,26 @@
     },
     "choice-board.describe-attribute.k-md-a-1": {
       "about": [
-        "En hverdagsgjenstand vises om gangen, og barnet trykker på ordet som passer best — lang, høy eller tung. Gjenstandene er valgt slik at én egenskap tydelig skiller seg ut: en blyant og en gulrot er lange, en sjiraff er høy, og en stein og et gresskar er tunge. Det er en interaktiv måleaktivitet for barnehage og skolestart som spilles rett i nettleseren, uten konto.",
-        "Hele poenget er å sette ord på måtene vi måler ting på, før det dukker opp tall og linjaler. Barnet teller eller måler ikke her; det ser på en virkelig gjenstand og avgjør hvilken målbar egenskap som passer — lengde, høyde eller vekt. Fordi hver gjenstand på bildet har én tydeligst egenskap, øver barnet på å legge merke til hva slags måling en ting innbyr til, og det er språkgrunnlaget under all senere måling.",
-        "Aktiviteten følger LK20 innenfor måling og data — å beskrive målbare egenskaper ved en gjenstand, som lengde, høyde og vekt. Ingen tidtaker, ingen poeng, bare rolig og lekende øving."
+        "Lang, høy og tung er tre forskjellige måter å måle på, så her svarer barnet ved å velge en målestasjon. Et tegn på et kort stiller spørsmålet uten ord: en liggende pil for hvor lang, en stående pil for hvor høy, et lodd for hvor tung. Bildet kan legges på skinnen (en løper kjører til enden og legger igjen en strek), stilles ved stolpen (en hette senker seg ned på toppen) eller henges på fjæra (skålen synker og gynger, langt for noe tungt, nesten ikke for noe lett). En interaktiv måleoppgave for barnehagen og skolestart som kjører i nettleseren uten installasjon.",
+        "Det nye er at en feil stasjon måler likevel, og den måler ærlig det gale. Legger barnet sjiraffen på skinnen når spørsmålet er hvor høy den er, velter den og ligger ned: skinnen viser hvor lang den er liggende, og skinnens tegn dukker opp ved siden av spørsmålets, to forskjellige tegn side om side. Etter et nytt feil forsøk lyser den riktige stasjonen. Blyanten ligger lang og lav ved stolpen, og steinen drar fjæra langt ned. På det vanskeligere nivået måles ett bilde på to måter, og et målekort faller ned i et album: solsikken er lett på fjæra og høy ved stolpen: høy betyr ikke tung. «Stor eller liten» er et annet instrument: etter Sjekk glir et kvadratisk størrelsesvindu over bildene, et stort bilde stikker ut og et lite får plass med god margin, så «stor» blir vist i stedet for sagt.",
+        "Oppgaven følger LK20 innenfor måling: å beskrive målbare egenskaper ved en gjenstand, som lengde, høyde og vekt, og flere av dem ved den samme gjenstanden. Bildene kommer fra det illustrerte biblioteket, og hvert bilde legges ned eller stilles opp etter sin egen tegnede form. Læreren velger «Lang, høy, tung» eller «Stor eller liten» og et lettere eller vanskeligere nivå. «Prøv alt» er åpen lek: legg hvilket som helst av 17 bilder på hvilken som helst stasjon og se hva den måler. Ingen tidtaker, ingen poeng."
       ],
       "practices": [
-        "Koble en gjenstand til måleordet som passer — lang, høy eller tung.",
-        "Skille lengde, høyde og vekt som ulike måter å måle på.",
-        "Se på en virkelig gjenstand og avgjøre hva slags måling den innbyr til.",
-        "Bygge målespråket som kommer før telling og linjaler."
+        "Å skille mellom lang, høy og tung",
+        "Å velge riktig måte å måle noe på",
+        "Å beskrive en gjenstand på to måter (lang og lett)",
+        "Å skille stor fra liten med et størrelsesvindu"
       ],
       "howToPlay": [
-        "Se på gjenstanden på tavla — en blyant, en sjiraff eller en stein.",
-        "Trykk på ordet som beskriver den best — lang, høy eller tung — og trykk så på Sjekk.",
-        "Prøv igjen når du vil; det er ingen tidtaker og ingen poeng."
+        "Se på tegnet på spørsmålskortet.",
+        "Dra bildet til en stasjon, eller trykk på bildet og så på en stasjon.",
+        "En feil stasjon måler likevel: sammenlign tegnet med spørsmålet.",
+        "Ingen tidtaker, ingen poeng: prøv en annen stasjon."
       ],
       "learningGoals": [
-        "Barnet kan beskrive en gjenstands målbare egenskaper — lengde, høyde og vekt.",
-        "Barnet kan bruke ordene lang, høy og tung riktig om virkelige gjenstander.",
-        "Barnet bygger målespråket som senere måling og sammenligning bygger på."
+        "Barnet kan beskrive målbare egenskaper som lengde, høyde og vekt",
+        "Barnet kan beskrive flere målbare egenskaper ved den samme gjenstanden",
+        "Barnet kan skille stor fra liten ved å sammenligne med et vindu"
       ]
     },
     "choice-board.ten-more-less.1-nbt-c-5": {

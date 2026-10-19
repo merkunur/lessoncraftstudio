@@ -660,25 +660,26 @@
     },
     "choice-board.describe-attribute.k-md-a-1": {
       "about": [
-        "Én hverdagsting vises ad gangen, og barnet trykker på det ord, der passer bedst — lang, høj eller tung. Tingene er valgt, så én egenskab tydeligt springer i øjnene: en blyant og en gulerod er lange, en giraf er høj, og en sten og et græskar er tunge. Det er en interaktiv måleaktivitet til børnehaveklassen, der spilles direkte i browseren uden konto.",
-        "Hele pointen er at sætte ord på de måder, vi måler ting på, før der overhovedet kommer tal og linealer ind i billedet. Barnet tæller ikke og måler ikke her; det kigger på en virkelig ting og afgør, hvilken målbar egenskab der passer — længde, højde eller vægt. Fordi hver ting på billedet har én helt tydelig stærkeste egenskab, øver barnet at lægge mærke til, hvilken slags måling en ting lægger op til, og det er sprogfundamentet under al senere måling.",
-        "Aktiviteten følger Fælles Mål inden for måling og data: at beskrive målbare egenskaber ved en genstand, fx længde, højde og vægt. Der er ingen timer og ingen point — bare rolig, legende træning i børnehaveklassen."
+        "Lang, høj og tung er tre forskellige måder at måle på, så her svarer barnet ved at vælge en målestation. Et tegn på et kort stiller spørgsmålet uden ord: en liggende pil for hvor lang, en stående pil for hvor høj, et lod for hvor tung. Billedet kan lægges på skinnen (en løber kører hen til dens ende og efterlader en bjælke), stilles op ad stangen (en hætte sænker sig ned på dens top) eller hænges på fjederen (skålen synker og vipper, langt for noget tungt, næsten ikke for noget let). En interaktiv måleopgave til børnehaveklassen, der kører i browseren uden installation.",
+        "Det særlige er, at en forkert station alligevel måler, og den måler ærligt det forkerte. Lægger barnet giraffen på skinnen, når spørgsmålet er, hvor høj den er, vælter den og ligger ned: skinnen viser, hvor lang den er liggende, og skinnens tegn dukker op ved siden af spørgsmålets, to forskellige tegn side om side. Efter endnu et forkert forsøg lyser den rigtige station op. Blyanten ligger lang og lav ved stangen, og stenen trækker fjederen langt ned. På det sværere niveau bliver et billede målt på to måder, og et målekort falder ned i et album: solsikken er let på fjederen og høj ved stangen: høj betyder ikke tung. »Stor eller lille« er et andet instrument: efter Tjek glider et kvadratisk størrelsesvindue hen over billederne, et stort billede stikker ud, og et lille kan være indeni med plads til overs, så »stor« bliver vist i stedet for sagt.",
+        "Opgaven følger Fælles Mål inden for måling og data: at beskrive målbare egenskaber ved en genstand, fx længde, højde og vægt, og at beskrive flere af dem ved den samme genstand. Billederne kommer fra det illustrerede bibliotek, og hvert billede lægges ned eller stilles op efter sin egen tegnede form. Læreren vælger »Lang, høj, tung« eller »Stor eller lille« og et lettere eller sværere niveau. »Prøv alt« er åben leg: læg et hvilket som helst af 17 billeder på en hvilken som helst station, og se, hvad den måler. Ingen tidtagning, ingen point."
       ],
       "practices": [
-        "Finde det måleord, der passer til en ting — lang, høj eller tung",
-        "Kende forskel på længde, højde og vægt som forskellige måder at måle på",
-        "Kigge på en virkelig ting og afgøre, hvilken slags måling den lægger op til",
-        "Opbygge det måleordforråd, der kommer før tælling og linealer"
+        "At kende forskel på lang, høj og tung",
+        "At vælge den rigtige måde at måle noget på",
+        "At beskrive en genstand på to måder (lang og let)",
+        "At kende forskel på stor og lille med et størrelsesvindue"
       ],
       "howToPlay": [
-        "Barnet kigger på tingen på tavlen — fx en blyant, en giraf eller en sten.",
-        "Barnet trykker på det ord, der beskriver den bedst — lang, høj eller tung — og trykker derefter på Tjek.",
-        "Barnet kan prøve igen, når det vil; der er ingen timer og ingen point."
+        "Se på tegnet på spørgsmålskortet.",
+        "Træk billedet over på en station, eller tryk på billedet og så på en station.",
+        "En forkert station måler alligevel: sammenlign dens tegn med spørgsmålet.",
+        "Ingen tidtagning, ingen point: prøv en anden station."
       ],
       "learningGoals": [
-        "Barnet kan beskrive en tings målbare egenskaber — længde, højde og vægt",
-        "Barnet kan bruge ordene lang, høj og tung rigtigt om virkelige ting",
-        "Barnet kan opbygge det målesprog, som senere måling og sammenligning bygger på"
+        "Barnet kan beskrive målbare egenskaber som længde, højde og vægt",
+        "Barnet kan beskrive flere målbare egenskaber ved den samme genstand",
+        "Barnet kan kende forskel på stor og lille ved at sammenligne med et vindue"
       ]
     },
     "choice-board.ten-more-less.1-nbt-c-5": {

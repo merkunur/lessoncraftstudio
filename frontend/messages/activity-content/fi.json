@@ -660,25 +660,26 @@
     },
     "choice-board.describe-attribute.k-md-a-1": {
       "about": [
-        "Ruudulle ilmestyy yksi arkinen esine, ja lapsi napauttaa sanaa, joka kuvaa sitä parhaiten — pitkä, korkea vai painava. Esineet on valittu niin, että yksi ominaisuus erottuu selvästi: kynä ja porkkana ovat pitkiä, kirahvi on korkea, ja kivi ja kurpitsa ovat painavia. Tämä on vuorovaikutteinen mittaamisen tehtävä, joka toimii suoraan selaimessa ilman tiliä.",
-        "Tehtävän ydin on antaa sanoja niille tavoille, joilla mittaamme asioita, jo ennen kuin lukuja tai mittanauhoja tulee mukaan. Lapsi ei laske eikä mittaa, vaan katsoo todellista esinettä ja päättää, mikä mitattava ominaisuus siihen sopii — pituus, korkeus vai paino. Koska jokaisella kuvan esineellä on yksi selvästi vahvin ominaisuus, lapsi harjoittelee huomaamaan, millaista mittaamista esine vaatii, ja juuri se on kaiken myöhemmän mittaamisen kielellinen perusta.",
-        "Tehtävä on OPS 2014:n mukainen esiopetuksen mittaamisen osa-alueella: lapsi kuvailee esineen mitattavia ominaisuuksia, kuten pituutta, korkeutta ja painoa. Ei ajastinta eikä pisteitä, vaan rauhassa omaan tahtiin etenevää harjoittelua."
+        "Pitkä, korkea ja painava ovat kolme eri tapaa mitata, joten tässä lapsi vastaa valitsemalla mittausaseman. Merkkikortti kysyy ilman sanoja: makaava nuoli kysyy, kuinka pitkä, pystyssä oleva nuoli, kuinka korkea, ja punnus, kuinka painava. Kuvan voi laskea kiskolle (liukuri kulkee sen päähän ja jättää palkin), nostaa pylvään viereen (hattu laskeutuu sen huipulle) tai ripustaa jouseen (kuppi painuu ja keinahtaa, paljon painavan kohdalla, tuskin lainkaan kevyen). Tämä on vuorovaikutteinen esiopetuksen mittaamistehtävä, joka toimii selaimessa ilman asennusta.",
+        "Erikoista on, että väärä asema mittaa silti, ja se mittaa rehellisesti väärää asiaa. Jos lapsi laittaa kirahvin kiskolle, kun kysytään, kuinka korkea se on, kirahvi kaatuu makuulleen: kisko näyttää, kuinka pitkä se on maatessaan, ja kiskon merkki ilmestyy kysymyksen merkin viereen, kaksi eri merkkiä rinnakkain. Toisen väärän yrityksen jälkeen oikea asema hehkuu. Kynä on pylvään vieressä pitkä ja matala, ja kivi venyttää jousta pitkälle. Vaikeammalla tasolla yksi kuva mitataan kahdella tavalla, ja mittakortti putoaa albumiin: auringonkukka on jousessa kevyt ja pylvään vieressä korkea: korkea ei tarkoita painavaa. ”Iso vai pieni” on toinen väline: Tarkista-napin jälkeen neliön muotoinen kokoikkuna liukuu kuvien yli, iso kuva ulottuu reunan yli ja pieni mahtuu sisään väljästi, joten ”iso” näytetään eikä vain sanota.",
+        "Harjoitus on OPS 2014:n mukainen esiopetuksen mittaamisen osa-alueella: lapsi kuvailee esineen mitattavia ominaisuuksia, kuten pituutta, korkeutta ja painoa, ja useita niistä samasta esineestä. Kuvat tulevat kuvitetusta kirjastosta, ja jokainen lasketaan makuulle tai nostetaan pystyyn oman piirretyn muotonsa mukaan. Opettaja valitsee ”Pitkä, korkea, painava” tai ”Iso vai pieni” sekä helpomman tai vaikeamman tason. ”Kokeile mitä vain” on vapaata leikkiä: mikä tahansa 17 kuvasta mille tahansa asemalle ja katso, mitä se mittaa. Ei ajastinta eikä pisteitä."
       ],
       "practices": [
-        "Yhdistää esineen siihen mittaussanaan, joka siihen sopii — pitkä, korkea tai painava.",
-        "Erottaa pituuden, korkeuden ja painon eri tapoina mitata.",
-        "Katsoo todellista esinettä ja päättää, millaista mittaamista se vaatii.",
-        "Kehittää mittaamisen sanavarastoa, joka edeltää laskemista ja mittanauhoja."
+        "Pituuden, korkeuden ja painon erottaminen",
+        "Oikean mittaustavan valitseminen",
+        "Esineen kuvaaminen kahdella tavalla (pitkä ja kevyt)",
+        "Ison ja pienen erottaminen kokoikkunalla"
       ],
       "howToPlay": [
-        "Katso ruudulla olevaa esinettä — kynää, kirahvia tai kiveä.",
-        "Napauta sanaa, joka kuvaa sitä parhaiten — pitkä, korkea tai painava — ja paina sitten Tarkista.",
-        "Voit yrittää uudelleen milloin haluat — ei ajastinta eikä pisteitä."
+        "Katso kysymyskortin merkkiä.",
+        "Vedä kuva asemalle tai napauta kuvaa ja sitten asemaa.",
+        "Väärä asema mittaa silti: vertaa sen merkkiä kysymykseen.",
+        "Ei ajastinta eikä pisteitä: kokeile toista asemaa."
       ],
       "learningGoals": [
-        "Lapsi osaa kuvailla esineen mitattavia ominaisuuksia — pituutta, korkeutta ja painoa.",
-        "Lapsi käyttää sanoja pitkä, korkea ja painava oikein todellisista esineistä.",
-        "Lapsi kehittää mittaamisen kieltä, johon myöhempi mittaaminen ja vertaileminen nojaavat."
+        "Lapsi kuvailee mitattavia ominaisuuksia, kuten pituutta, korkeutta ja painoa",
+        "Lapsi kuvailee saman esineen useita mitattavia ominaisuuksia",
+        "Lapsi erottaa ison ja pienen vertaamalla ikkunaan"
       ]
     },
     "choice-board.letter-case.rf-k-1-d": {

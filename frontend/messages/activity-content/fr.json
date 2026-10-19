@@ -2760,25 +2760,26 @@
     },
     "choice-board.describe-attribute.k-md-a-1": {
       "about": [
-        "Un objet du quotidien apparaît et l'enfant touche le mot qui le décrit le mieux : long, haut ou lourd. Les objets sont choisis pour qu'une seule grandeur saute aux yeux : un crayon et une carotte sont longs, une girafe est haute, un caillou et une citrouille sont lourds. C'est une activité de grandeurs et mesures interactive pour la maternelle, qui se joue directement dans le navigateur, sans compte à créer.",
-        "Tout l'intérêt est de mettre des mots sur les façons dont on mesure les choses, bien avant les nombres et les règles graduées. L'enfant ne compte ni ne mesure : il observe un objet réel et décide quelle grandeur lui convient — la longueur, la hauteur ou la masse. Comme chaque objet illustré possède une grandeur nettement dominante, l'enfant s'entraîne à repérer quel type de mesure un objet appelle, ce qui pose le vocabulaire de toutes les mesures à venir.",
-        "Cette activité de grande section est alignée sur les programmes officiels : décrire des grandeurs mesurables d'un objet, comme la longueur, la hauteur et la masse. Ni minuteur, ni score — juste une découverte calme et ludique."
+        "Long, haut et lourd sont trois façons différentes de mesurer : ici, l’enfant répond en choisissant une station de mesure. Une carte à signe pose la question sans mots : une flèche couchée pour la longueur, une flèche debout pour la hauteur, un poids suspendu pour la masse. L’image peut être posée sur le rail (un curseur file jusqu’à son bout et laisse une barre), dressée contre la toise (un chapeau descend sur son sommet) ou accrochée au peson (le plateau descend et rebondit, loin pour une chose lourde, à peine pour une chose légère). Une activité de mesure interactive pour la grande section, qui fonctionne dans le navigateur, sans rien installer.",
+        "L’idée : une mauvaise station mesure quand même, honnêtement, la mauvaise chose. Si l’enfant pose la girafe sur le rail alors que la question porte sur la hauteur, elle bascule et se couche : le rail montre sa longueur couchée, et le signe du rail apparaît à côté de celui de la question, deux signes différents côte à côte. Après une deuxième erreur, la bonne station s’illumine. Le crayon reste long et bas contre la toise ; le rocher fait descendre le peson très bas. Au niveau plus difficile, une image est mesurée de deux façons et une carte de mesure tombe dans un album : le tournesol est léger sur le peson et haut contre la toise : haut ne veut pas dire lourd. « Grand ou petit » est un deuxième instrument : après Vérifier, une fenêtre carrée glisse sur les images, une grande dépasse et une petite tient dedans avec de la place, si bien que « grand » se voit au lieu de se dire.",
+        "L’activité suit les programmes officiels de la grande section : décrire des grandeurs mesurables d’un objet, comme la longueur, la hauteur et la masse, et en décrire plusieurs pour un même objet. Les images viennent de la bibliothèque illustrée, et chacune est couchée ou dressée selon sa propre forme dessinée. L’enseignant choisit « Long, haut, lourd » ou « Grand ou petit », et un niveau plus facile ou plus difficile. « Tout essayer » est un jeu libre : poser l’une des 17 images sur n’importe quelle station et regarder ce qu’elle mesure. Ni minuteur ni score."
       ],
       "practices": [
-        "Associer un objet au mot de mesure qui lui convient — long, haut ou lourd.",
-        "Distinguer la longueur, la hauteur et la masse comme des façons différentes de mesurer.",
-        "Observer un objet réel et décider quel type de mesure il appelle.",
-        "Construire le vocabulaire des grandeurs qui précède le comptage et l'usage de la règle."
+        "Distinguer la longueur, la hauteur et le poids",
+        "Choisir la bonne façon de mesurer un objet",
+        "Décrire un objet de deux façons (long et léger)",
+        "Distinguer grand et petit avec une fenêtre de taille"
       ],
       "howToPlay": [
-        "Regarde l'objet sur le plateau — un crayon, une girafe ou un caillou.",
-        "Touche le mot qui le décrit le mieux — long, haut ou lourd — puis appuie sur « Vérifier ».",
-        "Recommence quand tu veux ; il n'y a ni minuteur, ni score."
+        "Regarde le signe sur la carte de la question.",
+        "Fais glisser l’image sur une station, ou touche l’image puis une station.",
+        "Une mauvaise station mesure quand même : compare son signe avec la question.",
+        "Ni minuteur ni score : essaie une autre station."
       ],
       "learningGoals": [
-        "Décrire les grandeurs mesurables d'un objet — longueur, hauteur, masse.",
-        "Utiliser correctement les mots long, haut et lourd pour des objets réels.",
-        "Construire le langage des mesures dont dépendront les comparaisons et les mesures futures."
+        "Décrire des grandeurs mesurables comme la longueur, la hauteur et la masse",
+        "Décrire plusieurs grandeurs mesurables d’un même objet",
+        "Distinguer grand et petit en comparant avec une fenêtre"
       ]
     },
     "choice-board.ten-more-less.1-nbt-c-5": {

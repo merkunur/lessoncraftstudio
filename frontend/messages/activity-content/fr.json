@@ -2469,25 +2469,26 @@
     },
     "choice-board.sort-count.k-md-b-3": {
       "about": [
-        "Un tas d'images est tout mélangé à l'écran — des animaux, des fruits et parfois des véhicules — et l'enfant regroupe celles qui se ressemblent pour ne compter qu'une seule sorte à la fois. C'est une activité de numération interactive pour la maternelle, qui se joue directement dans le navigateur, sans rien à installer et sans inscription.",
-        "La consigne nomme un seul groupe, et l'enfant décide combien d'images en font partie, puis touche le bon nombre. Le tas est mélangé exprès : pour répondre à « Combien d'animaux ? », il ne suffit pas de tout compter — il faut regarder chaque image, décider ce que c'est, mettre de côté ce qui n'appartient pas au groupe, et ne compter que les images demandées.",
-        "Elle est alignée sur les programmes officiels, dans le domaine de l'organisation et de la gestion de données. Les enfants classent et comptent à leur rythme, avec un retour doux et immédiat — sans minuteur, sans score, juste le plaisir de bien observer."
+        "Un tas mélangé d’animaux, de fruits et de véhicules arrive sur un tapis roulant, une image à la fois, et l’enfant fait tomber chacune dans le bon entonnoir. Les petites images sur chaque entonnoir montrent ce qui y va ; une image mise dans le mauvais entonnoir rebondit sur le tapis, donc chaque chose est triée, et une seule fois. C’est une activité de tri et de dénombrement interactive pour la maternelle, qui fonctionne dans le navigateur, sans rien installer.",
+        "L’invention : les tubes de verre deviennent un graphique en images pendant que l’enfant trie. Chaque image occupe une case de même hauteur, un gros éléphant autant qu’un petit kiwi, donc la hauteur d’un tube EST le nombre d’objets qu’il contient. Quand le tapis est vide, une question arrive : combien y en a-t-il dans un groupe, de quoi y en a-t-il le plus ou le moins, combien y en a-t-il de plus dans un groupe que dans un autre, ou bien il faut ranger les tubes du plus rempli au moins rempli. Après une erreur, l’aide montre au lieu d’expliquer : le tube demandé s’allume case par case, une ligne en pointillés montre jusqu’où monte chaque tube, les tubes dans le mauvais ordre se penchent l’un vers l’autre, ou des traits forment des paires entre deux tubes pour faire ressortir ceux qui restent. Au niveau à deux critères, les tubes demandent aussi si la chose vole, et le manchot, un oiseau qui ne vole pas, va avec ce qui ne vole pas.",
+        "L’activité suit les programmes de l’école maternelle (organiser des données, dénombrer) : classer des objets dans des catégories données, dénombrer chaque catégorie et ranger les catégories selon leur nombre. L’enseignant choisit deux groupes, trois groupes ou le tableau à deux critères, et si les nombres à côté des cases sont affichés (lire un graphique) ou cachés (dénombrer). Les images viennent de la bibliothèque illustrée. Pas de chrono, pas de score."
       ],
       "practices": [
-        "Regarder un ensemble mélangé et reconnaître la catégorie de chaque image.",
-        "Ne compter que la catégorie nommée, sans tenir compte du reste.",
-        "Distinguer le nombre d'un seul groupe du nombre total d'images.",
-        "Prendre l'habitude de classer d'abord, puis de compter — une base pour le travail sur les données plus tard."
+        "Trier un ensemble mélangé en groupes",
+        "Dénombrer chaque groupe sans oubli ni double compte",
+        "Comparer des groupes : le plus, le moins, combien de plus",
+        "Ranger les groupes selon leur nombre"
       ],
       "howToPlay": [
-        "Regarde bien le tas d'images mélangées et écoute la consigne qui nomme un groupe.",
-        "Décide combien d'images font partie de ce groupe, puis touche le bon nombre.",
-        "Un petit retour tout doux confirme — et on peut réessayer tranquillement."
+        "Fais tomber l’image du tapis dans le bon entonnoir (touche l’entonnoir ou fais glisser l’image).",
+        "Dans le mauvais entonnoir, elle rebondit : regarde les petites images de chaque entonnoir.",
+        "Quand le tapis est vide, réponds à la question : touche un nombre, touche un tube ou range les tubes en les faisant glisser.",
+        "Appuie sur Vérifier."
       ],
       "learningGoals": [
-        "Classer les images en catégories et compter chaque groupe.",
-        "Distinguer le nombre d'un groupe nommé du nombre total.",
-        "Développer le sens du tri et de l'organisation des données dont on se servira plus tard."
+        "Classer des objets dans des catégories données et dénombrer chacune",
+        "Ranger les catégories selon leur nombre et trouver la plus et la moins nombreuse",
+        "Lire un graphique en images simple et comparer deux groupes"
       ]
     },
     "array.build-array.2-oa-c-4": {

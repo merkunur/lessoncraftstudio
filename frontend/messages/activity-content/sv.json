@@ -471,25 +471,26 @@
     },
     "choice-board.sort-count.k-md-b-3": {
       "about": [
-        "På skärmen dyker en blandad hög med vänliga bilder upp — djur, frukter och ibland fordon om vartannat. Uppgiften nämner en grupp, och barnet bestämmer hur många bilder som hör dit och trycker sedan på antalet. Det är en interaktiv sorterings- och räkneövning för förskoleklass som körs direkt i webbläsaren, utan installation och utan konto.",
-        "Bilderna ligger blandade med flit. För att svara på \"hur många djur?\" går det inte att bara räkna allt — barnet måste titta noga på varje bild, bestämma vad det är, lägga undan det som inte hör dit och räkna bara den grupp som nämnts.",
-        "Aktiviteten följer Lgr22 inom området sannolikhet och statistik: att sortera föremål i kategorier och räkna antalet i varje grupp. Ingen tid, inga poäng — bara lugnt sorterande och räknande i barnets egen takt."
+        "En blandad hög med djur, frukter och fordon kommer bild för bild på ett transportband, och barnet släpper varje bild i rätt tratt. De små bilderna vid varje tratt visar vad som hör hemma där; en bild i fel tratt studsar tillbaka till bandet, så att allt blir sorterat, och bara en gång. En interaktiv aktivitet om att sortera och räkna för förskoleklass som fungerar i webbläsaren utan installation.",
+        "Det nya är att glasrören blir ett bilddiagram medan barnet arbetar. Varje bild tar ett fack av samma höjd, en stor elefant lika mycket som en liten kiwi, så rörets höjd ÄR hur många som finns i det. När bandet är tomt kommer en fråga: hur många finns i en grupp, vilken grupp har flest eller färst, hur många fler har en grupp än en annan, eller så ska rören dras i ordning från flest till färst. Efter ett fel svar visar hjälpen i stället för att förklara: det efterfrågade röret lyser upp fack för fack, en streckad linje visar hur högt varje rör når, rör som står i fel ordning lutar sig mot varandra, eller linjer bildar par mellan två rör så att de som blir över syns. På nivån med två egenskaper frågar rören också om saken flyger, och pingvinen, en fågel som inte flyger, hör till det som inte flyger.",
+        "Aktiviteten följer Lgr22, matematik i förskoleklass: sortera föremål i givna grupper, räkna antalet i varje grupp och ordna grupperna efter antal. Läraren väljer två grupper, tre grupper eller tabellen med två egenskaper, och om talen vid facken visas (läsa ett diagram) eller döljs (räkna). Bilderna kommer från det illustrerade biblioteket. Ingen tidtagning, inga poäng."
       ],
       "practices": [
-        "Känna igen vilken grupp varje bild hör till",
-        "Räkna bara den grupp som nämnts och bortse från resten",
-        "Skilja en grupps antal från hela högen",
-        "Bygga vanan att sortera först och räkna sedan inför senare arbete med data"
+        "Sortera en blandad hög i grupper",
+        "Räkna varje grupp utan att hoppa över eller räkna dubbelt",
+        "Jämföra grupper: flest, färst, hur många fler",
+        "Ordna grupperna efter antal"
       ],
       "howToPlay": [
-        "Titta på den blandade högen och lyssna på eller läs vilken grupp som ska räknas.",
-        "Bestäm hur många bilder som hör till gruppen och tryck på antalet.",
-        "En varm kontroll visar svaret, och det är lätt att försöka igen."
+        "Släpp bilden på bandet i rätt tratt (tryck på tratten eller dra bilden).",
+        "I fel tratt studsar den tillbaka: titta på de små bilderna vid varje tratt.",
+        "När bandet är tomt, svara på frågan: tryck på ett tal, tryck på ett rör eller dra rören i ordning.",
+        "Tryck på Kontrollera."
       ],
       "learningGoals": [
-        "Sortera bilder i kategorier och räkna hur många det finns i varje",
-        "Skilja en namngiven grupps antal från hela högen",
-        "Bygga den sorteringsförmåga som förbereder för senare arbete med data och statistik"
+        "Sortera föremål i givna grupper och räkna varje grupp",
+        "Ordna grupperna efter antal och hitta den största och den minsta",
+        "Läsa ett enkelt bilddiagram och jämföra två grupper"
       ]
     },
     "array.build-array.2-oa-c-4": {

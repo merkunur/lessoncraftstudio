@@ -2508,25 +2508,26 @@
     },
     "choice-board.sort-count.k-md-b-3": {
       "about": [
-        "Kinderen leren de wereld om zich heen ordenen door dingen in groepen te sorteren. Op het scherm verschijnt een bonte stapel vriendelijke plaatjes — dieren, fruit, soms voertuigen, allemaal lekker door elkaar. De opdracht noemt één groep, en het kind bepaalt zelf hoeveel plaatjes erbij horen en tikt dan het juiste getal aan.",
-        "De plaatjes staan expres door elkaar. Om de vraag \"hoeveel dieren?\" te beantwoorden kan het kind niet zomaar alles tellen. Het moet goed naar elk plaatje kijken, beslissen wat het is, opzij leggen wat er niet bij hoort, en alleen de genoemde groep tellen. Sorteren komt eerst, tellen komt daarna.",
-        "De activiteit sluit aan bij de kerndoelen rond het ordenen en tellen van gegevens: plaatjes in categorieën sorteren en tellen hoeveel er in elke groep zitten. Kinderen sorteren en tellen op hun eigen tempo, met rustige, directe feedback — geen timer, geen score, gewoon rustig sorteren en tellen."
+        "Een gemengde stapel dieren, vruchten en voertuigen komt plaatje voor plaatje over een lopende band aan, en het kind gooit elk plaatje in de goede trechter. De plaatjes bij elke trechter laten zien wat erin hoort; een plaatje in de verkeerde trechter stuitert terug op de band, dus alles wordt gesorteerd, en maar één keer. Een interactieve activiteit voor sorteren en tellen in de kleuterklas die in de browser werkt, zonder iets te installeren.",
+        "Het bijzondere: de glazen buizen worden tijdens het sorteren een beelddiagram. Elk plaatje neemt een vakje van dezelfde hoogte in, een grote olifant evenveel als een kleine kiwi, dus de hoogte van een buis IS hoeveel erin zitten. Is de band leeg, dan volgt een vraag: hoeveel zitten er in één groep, van welke groep zijn er de meeste of de minste, hoeveel zijn er meer in de ene groep dan in de andere, of de buizen moeten op volgorde worden gesleept van de meeste naar de minste. Na een fout antwoord laat de hulp zien in plaats van uit te leggen: de gevraagde buis licht vakje voor vakje op, een stippellijn laat zien hoe hoog elke buis komt, buizen die verkeerd om staan leunen naar elkaar toe, of lijnen maken paartjes tussen twee buizen zodat de overgebleven opvallen. Op het niveau met twee kenmerken vragen de buizen ook of iets vliegt, en de pinguïn, een vogel die niet vliegt, hoort bij wat niet vliegt.",
+        "De activiteit sluit aan bij de kerndoelen voor ordenen en tellen: voorwerpen sorteren in gegeven groepen, tellen hoeveel er in elke groep zitten en de groepen ordenen naar hoeveel. De leerkracht kiest twee groepen, drie groepen of de tabel met twee kenmerken, en of de getallen naast de vakjes zichtbaar zijn (een diagram lezen) of verborgen (tellen). De plaatjes komen uit de geïllustreerde bibliotheek. Geen timer, geen score."
       ],
       "practices": [
-        "Herken de categorie van elk plaatje: is dit een dier, een stuk fruit of een voertuig?",
-        "Tel alleen de genoemde groep en negeer rustig de plaatjes die er niet bij horen.",
-        "Onderscheid het aantal van één groep van het totaal aantal plaatjes op het scherm.",
-        "Bouw de gewoonte op om eerst te sorteren en dan pas te tellen — een handige stap voor later werk met gegevens."
+        "Een gemengde stapel in groepen sorteren",
+        "Elke groep tellen zonder iets over te slaan of dubbel te tellen",
+        "Groepen vergelijken: de meeste, de minste, hoeveel meer",
+        "De groepen ordenen naar hoeveel"
       ],
       "howToPlay": [
-        "Kijk goed naar de gemengde stapel plaatjes en hoor of lees welke groep wordt genoemd.",
-        "Bepaal hoeveel plaatjes bij die groep horen en tik het juiste getal aan.",
-        "Een warme controle laat zien of het klopt, en opnieuw proberen gaat heel makkelijk."
+        "Gooi het plaatje van de band in de goede trechter (tik op de trechter of sleep het plaatje).",
+        "In de verkeerde trechter stuitert het terug: kijk naar de plaatjes bij elke trechter.",
+        "Is de band leeg, beantwoord dan de vraag: tik op een getal, tik op een buis of sleep de buizen op volgorde.",
+        "Druk op Controleren."
       ],
       "learningGoals": [
-        "Plaatjes indelen in categorieën en elke groep apart tellen.",
-        "Het aantal van een genoemde groep onderscheiden van het totaal.",
-        "Sorteervaardigheden opbouwen voor later werk met gegevens en grafieken."
+        "Voorwerpen sorteren in gegeven groepen en elke groep tellen",
+        "De groepen ordenen naar hoeveel en de grootste en kleinste vinden",
+        "Een eenvoudig beelddiagram lezen en twee groepen vergelijken"
       ]
     },
     "array.build-array.2-oa-c-4": {

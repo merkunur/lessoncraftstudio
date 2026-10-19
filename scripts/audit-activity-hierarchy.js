@@ -122,7 +122,7 @@ const MEASURE = (globalName) => {
   const widthFill = b ? (b.right - b.left) / (inner.right - inner.left) : 0;
   const promptEl = document.querySelector('.lcs-activity-prompt-text');
   const promptPx = promptEl ? parseFloat(getComputedStyle(promptEl).fontSize) : 0;
-  const imgs = [...document.querySelectorAll('.lcs-app img')].filter(vis).map(i => ({ src: i.getAttribute('src') || '', short: Math.min(R(i).width, R(i).height) }));
+  const imgs = [...document.querySelectorAll('.lcs-app img')].filter(vis).map(i => ({ src: i.getAttribute('src') || '', short: Math.min(R(i).width, R(i).height), mark: i.hasAttribute('data-mark') }));
   const tool = window[globalName];
   const prefixes = (tool && tool.apparatusClasses) || [];
   const svgs = [...document.querySelectorAll('.lcs-stage svg')].filter(vis).map(s => { const r = R(s); const owner = s.closest('[class]'); const cls = (owner && owner.getAttribute('class')) || ''; return { w: r.width, role: s.getAttribute('role'), cls, declared: prefixes.some(p => cls.split(/\s+/).some(c => c.startsWith(p))) }; });
@@ -183,8 +183,10 @@ const MEASURE = (globalName) => {
       if (!empty) is(m.widthFill >= WIDTH_FILL_FLOOR, `${tag} WIDTH fill ${m.widthFill} < ${WIDTH_FILL_FLOOR}`);
       is(m.promptPx <= TEXT_MAX, `${tag} task line ${m.promptPx}px > ${TEXT_MAX}`);
       if (!empty) is(m.tallest >= MATERIAL_RATIO * m.promptPx, `${tag} MATERIAL tallest ${m.tallest.toFixed(0)} < ${MATERIAL_RATIO}× text ${m.promptPx}`);
-      const floor = w >= 700 ? 96 : 64;
-      m.imgs.forEach(im => { is(/^\/image-library-webp\/themes\//.test(im.src), `${tag} LIBRARY ${im.src}`); is(im.short >= floor - 0.5, `${tag} PICTURE ${im.short.toFixed(0)}px < ${floor} (${im.src})`); });
+      /* RULINGS (data marks): inside a graph, a library picture used as a DATA MARK — tagged data-mark — may be
+         smaller, but never below 40 px at 704 / 30 px at 360. Every other picture keeps the 96 / 64 floor. */
+      const floor = w >= 700 ? 96 : 64, markFloor = w >= 700 ? 40 : 30;
+      m.imgs.forEach(im => { const f = im.mark ? markFloor : floor; is(/^\/image-library-webp\/themes\//.test(im.src), `${tag} LIBRARY ${im.src}`); is(im.short >= f - 0.5, `${tag} ${im.mark ? 'DATA MARK' : 'PICTURE'} ${im.short.toFixed(0)}px < ${f} (${im.src})`); });
       m.svgs.forEach(s => { is(s.role !== 'img', `${tag} DRAWN svg role=img in .${s.cls}`); is(s.w <= 40 || s.declared, `${tag} DRAWN undeclared svg ${s.w.toFixed(0)}px wide in .${s.cls}`); });
       is(m.band <= BAND_MAX, `${tag} BAND ${m.band} > ${BAND_MAX}`);
       if (i === 0) console.log(`${tag} share=${m.share} hero=${m.hero} widthFill=${m.widthFill} tallest=${m.tallest.toFixed(0)} text=${m.promptPx} imgs=${m.imgs.length} svgs=${m.svgs.length} band=${m.band}`);

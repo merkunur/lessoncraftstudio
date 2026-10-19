@@ -359,25 +359,26 @@
     },
     "choice-board.sort-count.k-md-b-3": {
       "about": [
-        "Barn lærer å ordne verden rundt seg ved å samle ting i grupper. På skjermen dukker det opp en blandet haug med vennlige bilder — dyr, frukter, noen ganger kjøretøy, alt sammen blandet. Oppgaven nevner én gruppe, barnet bestemmer hvor mange som hører med, og trykker så på tallet. Det er en interaktiv telleaktivitet for barnehage og skolestart som kjører rett i nettleseren, uten konto.",
-        "Haugen er blandet med vilje. For å svare på «hvor mange dyr?» kan barnet ikke bare telle alt sammen. Det må se nøye på hvert bilde, bestemme hva det er, legge til side det som ikke hører med, og bare telle den gruppen som ble nevnt.",
-        "Aktiviteten følger LK20 innenfor området statistikk og data — å sortere ting i grupper og telle hvor mange som hører til hver gruppe. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "En blandet haug med dyr, frukter og kjøretøy kommer bilde for bilde på et transportbånd, og barnet slipper hvert bilde i riktig trakt. De små bildene ved hver trakt viser hva som hører til der; et bilde i feil trakt spretter tilbake til båndet, så alt blir sortert, og bare én gang. En interaktiv aktivitet om å sortere og telle for 1. trinn som virker i nettleseren uten installasjon.",
+        "Det nye er at glassrørene blir et bildediagram mens barnet arbeider. Hvert bilde tar en rute med samme høyde, en stor elefant like mye som en liten kiwi, så høyden på et rør ER hvor mange som er i det. Når båndet er tomt, kommer et spørsmål: hvor mange er det i én gruppe, hvilken gruppe har flest eller færrest, hvor mange flere har én gruppe enn en annen, eller rørene skal dras i rekkefølge fra flest til færrest. Etter et feil svar viser hjelpen i stedet for å forklare: røret det spørres om, lyser opp rute for rute, en stiplet linje viser hvor høyt hvert rør når, rør i feil rekkefølge lener seg mot hverandre, eller linjer danner par mellom to rør så de som blir til overs, synes. På nivået med to egenskaper spør rørene også om tingen flyr, og pingvinen, en fugl som ikke flyr, hører til det som ikke flyr.",
+        "Aktiviteten følger LK20 for matematikk på 1. trinn: sortere ting i gitte grupper, telle hvor mange som er i hver gruppe, og ordne gruppene etter antall. Læreren velger to grupper, tre grupper eller tabellen med to egenskaper, og om tallene ved rutene vises (lese et diagram) eller skjules (telle). Bildene kommer fra det illustrerte biblioteket. Ingen tidtaking, ingen poeng."
       ],
       "practices": [
-        "Kjenne igjen hvilken gruppe hvert bilde hører til.",
-        "Telle bare den gruppen som blir nevnt, og se bort fra resten.",
-        "Skille tallet for én gruppe fra antallet i hele haugen.",
-        "Øve på vanen med å sortere først og telle etterpå til senere arbeid med data."
+        "Sortere en blandet haug i grupper",
+        "Telle hver gruppe uten å hoppe over eller telle dobbelt",
+        "Sammenligne grupper: flest, færrest, hvor mange flere",
+        "Ordne gruppene etter antall"
       ],
       "howToPlay": [
-        "Se på den blandede haugen og hør eller les hvilken gruppe som blir nevnt.",
-        "Bestem hvor mange som hører med, og trykk på tallet.",
-        "En varm sjekk forteller hvordan det gikk, og det er lett å prøve igjen."
+        "Slipp bildet på båndet i riktig trakt (trykk på trakten eller dra bildet).",
+        "I feil trakt spretter det tilbake: se på de små bildene ved hver trakt.",
+        "Når båndet er tomt, svar på spørsmålet: trykk på et tall, trykk på et rør eller dra rørene i rekkefølge.",
+        "Trykk på Sjekk."
       ],
       "learningGoals": [
-        "Sortere bilder i grupper og telle hver gruppe for seg.",
-        "Skille tallet for en nevnt gruppe fra antallet i hele haugen.",
-        "Bygge sorteringsferdigheter for senere arbeid med data og statistikk."
+        "Sortere ting i gitte grupper og telle hver gruppe",
+        "Ordne gruppene etter antall og finne den største og den minste",
+        "Lese et enkelt bildediagram og sammenligne to grupper"
       ]
     },
     "array.build-array.2-oa-c-4": {

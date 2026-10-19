@@ -1107,25 +1107,26 @@
     },
     "choice-board.sort-count.k-md-b-3": {
       "about": [
-        "Uma pilha de figuras misturadas aparece na tela — animais, frutas e, às vezes, veículos, tudo embaralhado — e o comando nomeia um único grupo: a criança decide quantas figuras pertencem a ele e toca no número. É uma atividade interativa de classificação e contagem para a educação infantil, que roda direto no navegador, no tablet, no celular ou no computador da escola, sem instalar nada e sem precisar de conta.",
-        "A mistura é de propósito. Para responder “quantos animais?”, a criança não pode simplesmente contar tudo: ela precisa olhar cada figura, decidir o que é, separar mentalmente o que não pertence e contar só o grupo que foi pedido. Classificar primeiro e contar depois é uma habilidade diferente de só contar um montinho pronto, e é a base do trabalho com dados que vem mais adiante.",
-        "A atividade está alinhada à BNCC, no trabalho de classificar objetos em categorias e contar quantos há em cada grupo — os primeiros passos da organização de dados. Sem cronômetro e sem pontuação: só uma prática calma e divertida para crianças da pré-escola."
+        "Uma pilha misturada de animais, frutas e veículos chega por uma esteira, uma figura de cada vez, e a criança coloca cada uma no funil certo. As figurinhas de cada funil mostram o que vai ali; uma figura colocada no funil errado volta para a esteira, então cada coisa é separada, e só uma vez. É uma atividade interativa de classificar e contar para a Educação Infantil, que funciona no navegador, sem instalar nada.",
+        "A invenção é que os tubos de vidro viram um gráfico de figuras enquanto a criança trabalha. Cada figura ocupa um espaço da mesma altura, um elefante grande tanto quanto um kiwi pequeno, então a altura de um tubo É quantos há nele. Quando a esteira fica vazia vem uma pergunta: quantos há em um grupo, qual grupo tem mais ou menos, quantos um grupo tem a mais do que outro, ou é preciso arrastar os tubos para a ordem do que tem mais para o que tem menos. Depois de uma resposta errada, a ajuda mostra em vez de explicar: o tubo da pergunta se acende espaço por espaço, uma linha tracejada mostra até onde cada tubo chega, os tubos que estão trocados se inclinam um para o outro, ou linhas formam pares entre dois tubos para destacar os que sobram. No nível com dois critérios, os tubos também perguntam se a coisa voa, e o pinguim, uma ave que não voa, fica com o que não voa.",
+        "A atividade está alinhada à BNCC (classificar, contar e organizar dados): classificar objetos em categorias dadas, contar quantos há em cada uma e ordenar as categorias pela quantidade. O professor escolhe dois grupos, três grupos ou a tabela com dois critérios, e se os números ao lado dos espaços ficam visíveis (ler um gráfico) ou ocultos (contar). As figuras vêm da biblioteca ilustrada. Sem cronômetro, sem pontuação."
       ],
       "practices": [
-        "Reconhecer a categoria de cada figura — é animal, fruta ou veículo?",
-        "Contar só o grupo que foi pedido e ignorar o resto com segurança.",
-        "Dizer a quantidade de um grupo separado da pilha inteira.",
-        "Cultivar o hábito de organizar primeiro e contar depois, base do trabalho futuro com dados."
+        "Separar um conjunto misturado em grupos",
+        "Contar cada grupo sem pular nem contar duas vezes",
+        "Comparar grupos: mais, menos, quantos a mais",
+        "Ordenar os grupos pela quantidade"
       ],
       "howToPlay": [
-        "Olhe a pilha misturada e ouça ou leia o grupo que foi pedido — por exemplo, “quantas frutas?”.",
-        "Decida quantas figuras pertencem àquele grupo e toque no número na tela.",
-        "Não acertou? Tente de novo quantas vezes quiser — não há cronômetro nem pontuação."
+        "Coloque a figura da esteira no funil certo (toque no funil ou arraste a figura).",
+        "No funil errado ela volta: veja as figurinhas de cada funil.",
+        "Quando a esteira ficar vazia, responda à pergunta: toque em um número, toque em um tubo ou arraste os tubos para colocá-los em ordem.",
+        "Aperte Conferir."
       ],
       "learningGoals": [
-        "Classificar figuras em categorias e contar cada grupo.",
-        "Dizer a quantidade de um grupo nomeado dentro de uma mistura.",
-        "Construir as habilidades de organizar e classificar que preparam o trabalho com dados mais adiante."
+        "Classificar objetos em categorias dadas e contar cada uma",
+        "Ordenar as categorias pela quantidade e achar a que tem mais e a que tem menos",
+        "Ler um gráfico de figuras simples e comparar dois grupos"
       ]
     },
     "array.build-array.2-oa-c-4": {

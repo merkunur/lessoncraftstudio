@@ -1603,25 +1603,26 @@
     },
     "choice-board.sort-count.k-md-b-3": {
       "about": [
-        "Compare una pila di disegni simpatici tutti mescolati — animali, frutti e a volte veicoli — e la consegna nomina un solo gruppo: il bambino decide quanti disegni appartengono a quel gruppo e poi tocca il numero giusto. È un'attività di conteggio per la scuola dell'infanzia, interattiva, che si gioca direttamente nel browser su tablet, telefono e computer di classe, senza installare nulla e senza account.",
-        "L'idea importante è che bisogna prima classificare e poi contare. Poiché la pila è mista apposta, per rispondere a «quanti animali?» il bambino non può contare tutto: deve guardare ogni disegno, decidere a quale categoria appartiene, mettere da parte ciò che non c'entra e contare solo il gruppo nominato. È proprio questo lavoro di smistamento a rendere il conteggio significativo.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei dati: classificare gli oggetti in categorie e contare quanti elementi ci sono in ciascun gruppo. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
+        "Un mucchio misto di animali, frutti e veicoli arriva su un nastro trasportatore, un’immagine alla volta, e il bambino fa cadere ognuna nell’imbuto giusto. Le figurine su ogni imbuto mostrano che cosa ci va; un’immagine messa nell’imbuto sbagliato rimbalza sul nastro, così ogni cosa viene smistata, e una volta sola. È un’attività interattiva per smistare e contare per la scuola dell’infanzia, che funziona nel browser senza installare nulla.",
+        "L’invenzione è che i tubi di vetro diventano un ideogramma mentre il bambino lavora. Ogni immagine occupa una casella della stessa altezza, un grande elefante quanto un piccolo kiwi, quindi l’altezza di un tubo È quanti oggetti contiene. Quando il nastro è vuoto arriva una domanda: quanti sono in un gruppo, di quale gruppo ce ne sono di più o di meno, quanti ne ha in più un gruppo rispetto a un altro, oppure bisogna trascinare i tubi in ordine dal più pieno al meno pieno. Dopo una risposta sbagliata l’aiuto mostra invece di spiegare: il tubo della domanda si illumina casella per casella, una linea tratteggiata mostra fin dove arriva ogni tubo, i tubi al contrario si inclinano l’uno verso l’altro, oppure delle linee formano coppie tra due tubi così che quelli in più risaltano. Nel livello con due criteri i tubi chiedono anche se la cosa vola, e il pinguino, un uccello che non vola, va con ciò che non vola.",
+        "L’attività segue le Indicazioni nazionali per la scuola dell’infanzia: raggruppare oggetti in categorie date, contare quanti sono in ciascuna e ordinare le categorie in base al numero. L’insegnante sceglie due gruppi, tre gruppi o la tabella a due criteri, e se i numeri accanto alle caselle sono visibili (leggere un grafico) o nascosti (contare). Le immagini vengono dalla biblioteca illustrata. Niente cronometro, niente punteggio."
       ],
       "practices": [
-        "Riconoscere a quale categoria appartiene ogni disegno della pila mista.",
-        "Contare solo il gruppo nominato, ignorando tutti gli altri disegni.",
-        "Dire quanti elementi ci sono in un gruppo a partire da una pila mescolata.",
-        "Prendere l'abitudine a classificare prima e contare poi, utile per il lavoro con i dati più avanti."
+        "Smistare un insieme misto in gruppi",
+        "Contare ogni gruppo senza saltare né contare due volte",
+        "Confrontare gruppi: di più, di meno, quanti in più",
+        "Ordinare i gruppi in base al numero"
       ],
       "howToPlay": [
-        "Il bambino guarda la pila mista di disegni e legge o ascolta il nome del gruppo da contare.",
-        "Decide quanti disegni appartengono a quel gruppo e tocca il numero corrispondente, poi preme «Controlla».",
-        "Non è giusto? Si può ricontare e riprovare quante volte si vuole, senza timer e senza punteggio."
+        "Fai cadere l’immagine del nastro nell’imbuto giusto (tocca l’imbuto o trascina l’immagine).",
+        "Nell’imbuto sbagliato rimbalza: guarda le figurine su ogni imbuto.",
+        "Quando il nastro è vuoto, rispondi alla domanda: tocca un numero, tocca un tubo o trascina i tubi in ordine.",
+        "Premi Controlla."
       ],
       "learningGoals": [
-        "Classificare i disegni in categorie e contare quanti elementi ci sono in ciascun gruppo.",
-        "Dire il numero di un gruppo nominato a partire da una pila mista.",
-        "Costruire le basi dello smistamento e del conteggio su cui poggerà il lavoro con i dati negli anni successivi."
+        "Raggruppare oggetti in categorie date e contare ciascuna",
+        "Ordinare le categorie in base al numero e trovare quella con più e con meno elementi",
+        "Leggere un semplice ideogramma e confrontare due gruppi"
       ]
     },
     "array.build-array.2-oa-c-4": {

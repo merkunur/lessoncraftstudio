@@ -191,6 +191,10 @@ function seedScript(row) {
     // how tall? the giraffe put on the TRACK: it has tipped over and lies along the rail with its length bar, and the track's ↔ sign stands beside the question's ↕ — the invention at rest
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='one.giraffe';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.MeasureStationsCore,s=t._cur();C.drop(s,'track');t._paint();})();`;
   }
+  if (row.tool === 'sorting-chutes-activity') {
+    // three groups mid-sort: the tubes half grown into a picture graph, the next picture waiting on the belt
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.api.settings.groups='three';t._pool=null;t._poolKey=null;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='B6';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.SortingChutesCore,s=t.st,g=0;while(s.belt.length>4&&g++<40)C.drop(s,C.keyOf(C.current(s),s.fly));t._paint();})();`;
+  }
   if (row.tool === 'drop-stands-activity') {
     // the palms after Check: the stand folded, the golden beam resting on the truly taller palm, the coral gap over the one that stood on the high stand
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='P1';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.DropStandsCore,s=t.st;C.choose(s,0);C.check(s);t._beamIn=true;t._paint();})();`;

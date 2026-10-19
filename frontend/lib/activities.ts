@@ -164,6 +164,7 @@ const MANIFEST_FILES = [
   'bramble-activities.json',
   'tipping-pour-activities.json',
   'drop-stands-activities.json',
+  'sorting-chutes-activities.json',
   'graph-it-activities.json',
   'field-guide-activities.json',
   'rhyme-shop-activities.json',

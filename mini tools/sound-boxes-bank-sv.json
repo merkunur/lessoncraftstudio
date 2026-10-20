@@ -26,6 +26,27 @@
     { "id": "lapp", "noun": "lip",      "themeDir": "body parts",         "display": "läpp", "boxes": ["l","ä","pp"], "syllables": ["läpp"], "stage": "s2", "note": "pp är ett ljud — kort ä" },
     { "id": "agg",  "noun": "egg",      "themeDir": "At the Supermarket", "display": "ägg",  "boxes": ["ä","gg"],     "syllables": ["ägg"],  "stage": "s2", "note": "gg är ett ljud — bara 2 rutor" },
     { "id": "mugg", "noun": "mug",      "themeDir": "kitchen tools",      "display": "mugg", "boxes": ["m","u","gg"], "syllables": ["mugg"], "stage": "s2", "note": "gg är ett ljud — kort u" },
-    { "id": "dorr", "noun": "door",     "themeDir": "around the house",   "display": "dörr", "boxes": ["d","ö","rr"], "syllables": ["dörr"], "stage": "s2", "note": "rr är ett ljud — kort ö" }
+    { "id": "dorr", "noun": "door",     "themeDir": "around the house",   "display": "dörr", "boxes": ["d","ö","rr"], "syllables": ["dörr"], "stage": "s2", "note": "rr är ett ljud — kort ö" },
+    { "id": "bil", "noun": "car", "themeDir": "toys", "display": "bil", "boxes": ["b","i","l"], "syllables": ["bil"], "stage": "s1" },
+    { "id": "bok", "noun": "book", "themeDir": "classroom", "display": "bok", "boxes": ["b","o","k"], "syllables": ["bok"], "stage": "s1" },
+    { "id": "bat", "noun": "boat", "themeDir": "toys", "display": "båt", "boxes": ["b","å","t"], "syllables": ["båt"], "stage": "s1" },
+    { "id": "fot", "noun": "foot", "themeDir": "body parts", "display": "fot", "boxes": ["f","o","t"], "syllables": ["fot"], "stage": "s1" },
+    { "id": "gas", "noun": "goose", "themeDir": "birds 2", "display": "gås", "boxes": ["g","å","s"], "syllables": ["gås"], "stage": "s1" },
+    { "id": "kal", "noun": "cabbage", "themeDir": "vegetables", "display": "kål", "boxes": ["k","å","l"], "syllables": ["kål"], "stage": "s1" },
+    { "id": "las", "noun": "lock", "themeDir": "around the house", "display": "lås", "boxes": ["l","å","s"], "syllables": ["lås"], "stage": "s1" },
+    { "id": "nat", "noun": "net", "themeDir": "beach", "display": "nät", "boxes": ["n","ä","t"], "syllables": ["nät"], "stage": "s1" },
+    { "id": "ros", "noun": "rose", "themeDir": "flowers", "display": "ros", "boxes": ["r","o","s"], "syllables": ["ros"], "stage": "s1" },
+    { "id": "sal", "noun": "seal", "themeDir": "ocean life", "display": "säl", "boxes": ["s","ä","l"], "syllables": ["säl"], "stage": "s1" },
+    { "id": "vas", "noun": "vase", "themeDir": "around the house", "display": "vas", "boxes": ["v","a","s"], "syllables": ["vas"], "stage": "s1" },
+    { "id": "boll", "noun": "ball", "themeDir": "toys", "display": "boll", "boxes": ["b","o","ll"], "syllables": ["boll"], "stage": "s2" },
+    { "id": "kopp", "noun": "cup", "themeDir": "around the house", "display": "kopp", "boxes": ["k","o","pp"], "syllables": ["kopp"], "stage": "s2" },
+    { "id": "mopp", "noun": "mop", "themeDir": "around the house", "display": "mopp", "boxes": ["m","o","pp"], "syllables": ["mopp"], "stage": "s2" },
+    { "id": "buss", "noun": "bus", "themeDir": "vehicles", "display": "buss", "boxes": ["b","u","ss"], "syllables": ["buss"], "stage": "s2" },
+    { "id": "ring", "noun": "ring", "themeDir": "accessories", "display": "ring", "boxes": ["r","i","ng"], "syllables": ["ring"], "stage": "s2" },
+    { "id": "sang", "noun": "bed", "themeDir": "around the house", "display": "säng", "boxes": ["s","ä","ng"], "syllables": ["säng"], "stage": "s2" },
+    { "id": "lim", "noun": "glue", "themeDir": "classroom", "display": "lim", "boxes": ["l","i","m"], "syllables": ["lim"], "stage": "s1" },
+    { "id": "kam", "noun": "comb", "themeDir": "around the house", "display": "kam", "boxes": ["k","a","m"], "syllables": ["kam"], "stage": "s1" },
+    { "id": "kub", "noun": "cube", "themeDir": "shapes", "display": "kub", "boxes": ["k","u","b"], "syllables": ["kub"], "stage": "s1" },
+    { "id": "kon", "noun": "cone", "themeDir": "shapes", "display": "kon", "boxes": ["k","o","n"], "syllables": ["kon"], "stage": "s1" }
   ]
 }

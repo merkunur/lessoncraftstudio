@@ -2013,6 +2013,29 @@
         "Skelne rim fra ord, der kun begynder ens",
         "Sige et nyt ord, der rimer"
       ]
+    },
+    "sound-boxes.phoneme-position.rf-k-2-d": {
+      "about": [
+        "Et kort ord står i lydkasser, en kasse for hver lyd: k · a · t. Barnet lægger et billede på kasserne, og lågene springer op, hvor lydene er de samme som i målordet, og samme sted. Lægger man hesten på kat, springer t’et op, men den første kasse forbliver lukket: Der er en ens lyd, bare ikke i starten. En interaktiv øvelse i at høre lyde, som kører i browseren.",
+        "Kasserne lytter, de læser ikke. Lange og korte vokaler er forskellige lyde. Tre opgaver bruger kasserne: find billedet med samme lyd i starten, i midten eller i slutningen; tryk på kassen, hvor en lyd bor; og sortér billeder efter, om ordet overhovedet har lyden.",
+        "Øvelsen følger Fælles Mål for dansk: at høre forlyd, mellemlyd og slutlyd i korte ord. Ingen tid og ingen point."
+      ],
+      "practices": [
+        "At høre forlyd, mellemlyd og slutlyd i et kort ord",
+        "At sammenligne to ord ud fra lyden samme sted",
+        "At skelne en lyd på den rigtige plads fra samme lyd et andet sted",
+        "At finde, hvor en lyd er i et ord, og om den er der"
+      ],
+      "howToPlay": [
+        "Se målordet i sine kasser; pilen viser, hvilken kasse du skal lytte efter.",
+        "Træk et billede op på kasserne, og tryk på Tjek.",
+        "Se, hvilke låg der springer op: Ved det rigtige billede springer den efterspurgte kasse op."
+      ],
+      "learningGoals": [
+        "Barnet hører forlyd, mellemlyd og slutlyd i et kort ord",
+        "Barnet sammenligner ord ud fra lyden samme sted",
+        "Barnet kender en lyd på dens klang, ikke på bogstavet"
+      ]
     }
   }
 }

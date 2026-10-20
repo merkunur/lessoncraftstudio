@@ -1967,6 +1967,29 @@
         "Lapsi erottaa rimmaavan sanan oikeasta sanasta ensimmäisen äänteen avulla",
         "Lapsi yhdistää yksittäisiä äänteitä sanaksi"
       ]
+    },
+    "sound-boxes.phoneme-position.rf-k-2-d": {
+      "about": [
+        "Sana on äännelaatikoissa, yksi laatikko jokaista äännettä kohti: p · i · p · o. Lapsi laittaa kuvan laatikoiden päälle, ja kannet ponnahtavat auki siellä, missä äänteet ovat samat kuin sanassa, samassa kohdassa. Kun talon kuva laitetaan sanan pipo päälle, viimeinen o ponnahtaa auki, mutta ensimmäinen laatikko pysyy kiinni: yksi äänne on sama, mutta ei alussa. Tämä on vuorovaikutteinen äännetietoisuuden harjoitus, joka toimii selaimessa.",
+        "Laatikot kuuntelevat, ne eivät lue. Jokainen kirjain on oma laatikkonsa, kuten suomen kielessä äänne ja kirjain yleensäkin. Kolme tehtävää käyttää laatikoita: etsi kuva, jossa on sama äänne alussa tai lopussa; napauta laatikkoa, jossa äänne on; ja lajittele kuvat sen mukaan, onko sanassa äänne vai ei.",
+        "Harjoitus tukee OPS 2014:n kielellisen tietoisuuden tavoitteita: sanan alku- ja loppuäänteen kuulemista. Ei ajastinta eikä pisteitä."
+      ],
+      "practices": [
+        "Sanan alku- ja loppuäänteen kuuleminen",
+        "Kahden sanan vertaaminen saman kohdan äänteen perusteella",
+        "Oikeassa kohdassa olevan äänteen erottaminen samasta äänteestä toisessa kohdassa",
+        "Sen löytäminen, missä äänne sanassa on ja onko se siellä"
+      ],
+      "howToPlay": [
+        "Katso sanaa laatikoissaan; nuoli näyttää laatikon, jota kuunnellaan.",
+        "Vedä kuva laatikoiden päälle ja paina Tarkista.",
+        "Katso, mitkä kannet ponnahtavat auki: oikeassa kuvassa kysytty laatikko aukeaa."
+      ],
+      "learningGoals": [
+        "Lapsi kuulee sanan alku- ja loppuäänteen",
+        "Lapsi vertaa sanoja saman kohdan äänteen perusteella",
+        "Lapsi tunnistaa äänteen sen kuulosta, ei kirjaimesta"
+      ]
     }
   }
 }

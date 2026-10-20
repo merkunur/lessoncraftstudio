@@ -4206,6 +4206,29 @@
         "L’enfant utilise le premier son pour distinguer un mot qui rime",
         "L’enfant fusionne des sons un par un pour former un mot"
       ]
+    },
+    "sound-boxes.phoneme-position.rf-k-2-d": {
+      "about": [
+        "Un mot est rangé dans des boîtes à sons, une boîte par son : b · ou · ch. L’enfant pose une image sur les boîtes, et les couvercles s’ouvrent là où les sons sont pareils à ceux du mot, à la même place. Si l’on pose la vache sur bouche, le ch s’ouvre, mais la première boîte reste fermée : un son est pareil, mais pas au début. C’est une activité interactive de conscience phonologique pour la grande section, qui se joue dans le navigateur.",
+        "Les boîtes écoutent, elles ne lisent pas. Un son écrit avec deux lettres, comme ou ou ch, tient dans une seule boîte, et le e muet reste en gris, hors des boîtes. Trois activités utilisent les boîtes : trouver l’image avec le même son au début, au milieu ou à la fin ; toucher la boîte où se trouve un son ; et ranger des images selon que le mot contient le son ou non.",
+        "L’activité suit les programmes officiels : repérer le son du début, du milieu et de la fin d’un mot court. Ni minuteur ni score."
+      ],
+      "practices": [
+        "Repérer le son du début, du milieu et de la fin d’un mot court",
+        "Comparer deux mots par le son à la même place",
+        "Distinguer un son à la bonne place du même son à une autre place",
+        "Trouver où se trouve un son dans un mot, et s’il y est"
+      ],
+      "howToPlay": [
+        "Regarde le mot dans ses boîtes ; la flèche montre la boîte à écouter.",
+        "Fais glisser une image sur les boîtes, puis appuie sur Vérifier.",
+        "Regarde quels couvercles s’ouvrent : avec la bonne image, la boîte demandée s’ouvre."
+      ],
+      "learningGoals": [
+        "L’enfant repère le son du début, du milieu et de la fin d’un mot court",
+        "L’enfant compare des mots par le son à la même place",
+        "L’enfant reconnaît un son à ce qu’il entend, pas à la lettre"
+      ]
     }
   }
 }

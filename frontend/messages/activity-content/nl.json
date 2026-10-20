@@ -355,25 +355,25 @@
     },
     "sound-boxes.phoneme-position.rf-k-2-d": {
       "about": [
-        "Koos de koala zegt een woord, bijvoorbeeld 'vis'. Meteen licht het eerste klankvakje op: je kind moet dus goed luisteren naar de eerste klank, de /v/. Daarna zoekt je kind tussen de plaatjes een woord dat óók met /v/ begint, zoals 'voet'. De ene keer licht het eerste vakje op, de andere keer het middelste of het laatste – zo oefent je kind om de eerste klank, de middenklank én de laatste klank uit een woord te vissen.",
-        "Losse klanken uit een woord horen – de eerste, de middenklank en de laatste – is een van de belangrijkste bouwstenen voor leren lezen en schrijven. Het gaat hier puur om de klánk, niet om de letter: de vakjes blijven expres leeg, er is geen enkele letter die helpt. Je kind moet het woord echt met de oren uit elkaar halen, oftewel 'hakken'. Juist die auditieve analyse maakt straks het lezen makkelijker.",
-        "Deze oefening past bij fonemisch bewustzijn in groep 3, de brug naar het aanvankelijk lezen. Koos zegt nooit dat iets fout is: als het even niet lukt, luistert hij rustig nog een keer met je kind mee. Alles wordt voorgelezen, dus een koptelefoon is aangeraden zodat je kind de klanken goed en zonder afleiding kan horen. Geen tijd, geen score – gewoon rustig samen luisteren."
+        "Een kort woord staat in klankdoosjes, één doosje per klank: r · o · k. Je kind legt een plaatje op de doosjes en de dekseltjes springen open waar de klanken hetzelfde zijn als in het doelwoord, op dezelfde plek. Leg de zak op rok en de k springt open, maar het eerste doosje blijft dicht: er is een gelijke klank, alleen niet vooraan. Een interactieve oefening in klanken horen, gewoon in de browser.",
+        "De doosjes luisteren, ze lezen niet. Een klank als oe of ui staat in één doosje, omdat het één klank is. Drie opdrachten gebruiken de doosjes: het plaatje zoeken met dezelfde eerste, middelste of laatste klank; tikken op het doosje waar een klank zit; en plaatjes sorteren op de vraag of de klank in het woord zit.",
+        "De oefening sluit aan bij de SLO-kerndoelen voor beginnende geletterdheid: de eerste, middelste en laatste klank van een kort woord horen. Geen klok en geen punten."
       ],
       "practices": [
-        "de eerste klank horen",
-        "de middenklank (klinker) horen",
-        "de laatste klank horen",
-        "goed op losse klanken letten"
+        "De eerste, middelste en laatste klank van een kort woord horen",
+        "Twee woorden vergelijken op de klank op dezelfde plek",
+        "Een klank op de goede plek onderscheiden van dezelfde klank op een andere plek",
+        "Vinden waar een klank in een woord zit, en of hij er wel in zit"
       ],
       "howToPlay": [
-        "Luister goed naar het woord dat Koos voorleest.",
-        "Kijk welk vakje oplicht – de eerste, de midden- of de laatste klank.",
-        "Tik op het plaatje dat op die plek dezelfde klank heeft."
+        "Bekijk het doelwoord in zijn doosjes; de pijl wijst het doosje aan waar je op moet letten.",
+        "Sleep een plaatje op de doosjes en druk op Controleer.",
+        "Kijk welke dekseltjes openspringen: bij het goede plaatje springt het gevraagde doosje open."
       ],
       "learningGoals": [
-        "de eerste-, midden- en laatste klank goed horen",
-        "klanken met je oren herkennen in plaats van met letters",
-        "het fonemisch bewustzijn voor lezen en schrijven versterken"
+        "Het kind hoort de eerste, middelste en laatste klank van een kort woord",
+        "Het kind vergelijkt woorden op de klank op dezelfde plek",
+        "Het kind herkent een klank aan hoe hij klinkt, niet aan de letter"
       ]
     },
     "clock-convert.12-24.2-md-c-7": {

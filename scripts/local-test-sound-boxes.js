@@ -12,6 +12,12 @@
        reshuffle; no overflow 280→768.
    ===================================================================== */
 'use strict';
+/* RETIRED 2026-10-20: the RF.K.2.d sound-boxes row now runs its own instrument (rebuild #55, the Pop-Up Sound
+   Boxes). Its gates are scripts/verify-lid-boxes-core.js + mutate-lid-boxes.js + local-test-lid-boxes.js. */
+if (JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'sound-boxes-activities.json'), 'utf8')).every((r) => r.tool !== 'sound-boxes-activity')) {
+  console.log('local-test-sound-boxes: retired — the row is now the Pop-Up Sound Boxes (node scripts/verify-lid-boxes-core.js)');
+  process.exit(0);
+}
 const http = require('http');
 const fs = require('fs');
 const path = require('path');

@@ -3926,25 +3926,25 @@
     },
     "sound-boxes.phoneme-position.rf-k-2-d": {
       "about": [
-        "Coco the koala shows a three-sound word like cat or dog broken into little boxes, with one box lit to mark the first, middle, or last sound, and the child hears the word and taps another picture that shares that same sound in that same spot. It's an interactive Kindergarten listening game that runs in the browser with no account.",
-        "This is phonemic awareness, the ear-only skill that comes before spelling: the child is not reading letters but pulling apart the beginning, middle-vowel, and ending sounds of a spoken word. Because one round asks for the first sound, another the middle, and another the last, the child learns that a word is a string of distinct sounds — that cat and cap share a beginning, while cat and bat share a middle and an end. The picture choices keep the focus on listening, not letters.",
-        "It is aligned to Common Core RF.K.2.d — isolating and pronouncing the initial, medial vowel, and final sounds in three-phoneme words. No timer, no score — just calm, playful practice."
+        "A short word sits in sound boxes, one box for each sound: c · a · t. The child drops a picture on the boxes, and the lids pop open wherever its sounds are the same as the target’s, in the same place. Drop the hat on cat and the a and the t pop open together, but the first box stays shut: the sounds match, just not at the start. It is an interactive Kindergarten phonemic awareness activity that plays in the browser.",
+        "The boxes listen; they do not read. Cat and kite pop open together at the first box although one says c and the other k, and a team of letters such as sh sits in one box because it is one sound. Three tasks share the boxes: find the picture with the same first, middle or last sound; tap the box where a sound lives; and sort pictures by whether the word has the sound at all.",
+        "It is aligned to Common Core RF.K.2.d, isolating the first, middle and last sounds in three-sound words. No timer and no score."
       ],
       "practices": [
-        "Isolate the first, middle, or last sound in a short three-sound word",
-        "Match two pictures that share a sound in the same position",
-        "Hear that a word is made of separate sounds, not one block",
-        "Tell apart words that share a beginning from words that share an ending"
+        "Hearing the first, middle and last sound of a short word",
+        "Matching two words by the sound in the same place",
+        "Telling a sound in the right place from the same sound in another place",
+        "Finding where a sound sits in a word, and whether it is there at all"
       ],
       "howToPlay": [
-        "Listen to Coco's word and notice which sound box is lit — first, middle, or last.",
-        "Tap the other picture whose name has the same sound in that same spot, then press Check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Look at the target word in its boxes; the arrow shows the box to listen for.",
+        "Drag a picture onto the boxes, then press Check.",
+        "Watch which lids pop open: the asked box must pop for the right picture."
       ],
       "learningGoals": [
-        "Isolate the beginning, middle, and ending sounds of CVC words — the focus of Common Core RF.K.2.d.",
-        "Understand that a spoken word is built from separate sounds in order.",
-        "Build the sound-awareness foundation that decoding and spelling depend on."
+        "The child isolates the first, middle and last sound in a short word",
+        "The child matches words by a sound in the same place, not just any shared sound",
+        "The child knows a sound by how it sounds, not by its letter"
       ]
     },
     "span-length-gap.how-much-longer.2-md-a-4": {

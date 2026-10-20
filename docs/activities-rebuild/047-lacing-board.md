@@ -84,3 +84,13 @@ ORDER row 47 · id `syllable-builder.bygg-ordet-av-stavelser.no.rf-k-2-b` (kept)
 ## FROZEN-NOTEs (not changed — metadata is frozen)
 - **The title** says «Fonetikk», the academic science of phonetics; a teacher would say «språklig bevissthet».
 - **The intro** says «blande … stavelser», a calque of "blend" («sette sammen»); «Tilpasset LK20» does not cover the barnehage (rammeplanen); «bygg ordet / legge stavelsene» no longer matches the threading.
+
+## Deploy (2026-10-20)
+- **Commit 6a3edefc.** deploy.sh returned EXIT 0, with 0 payment-canary failures. The no page returns 200. The preview webp was copied to the server before the build.
+- **Production play: 22 / 22** (no at 1366 and 390).
+  - Solsikke: the tip dragged onto «sik» → it slips out (a miss); sol + sik + ke → right, the word on the rail.
+  - Paraply: the trick button slips off (a miss); pa + ra + ply → right.
+  - Hund on two buttons → a blank button (a miss); one taken off → right.
+  - The wrapper version matches, and the iframe grows with the card.
+- **Live variety probe (no):** 10 distinct rounds, and pass 2 is reshuffled.
+- **Server disk after the deploy:** 134 GB available of 436 GB (68 % used).

@@ -3530,25 +3530,26 @@
     },
     "syllable-builder.bouw-het-woord-met-klankgroepen.rf-k-2-b": {
       "about": [
-        "Je kind ziet een plaatje en bouwt het bijbehorende woord door de klankgroepen in de juiste volgorde te leggen, bijvoorbeeld vlin-der of ba-naan. Het is een interactieve activiteit voor klankbewustzijn die zonder installeren of account direct in de browser speelt.",
-        "Het draait erom dat een woord is opgebouwd uit klankgroepen die je kunt horen en hardop kunt klappen. Je kind hakt het woord niet in losse letters, maar in grotere stukjes klank, en zet die stukjes daarna in de goede volgorde achter elkaar tot het hele woord. Doordat het kind de klankgroepen eerst hoort en daarna pas legt, koppelt het de gesproken klank aan het geschreven woord.",
-        "De activiteit sluit aan bij de kerndoelen voor beginnende geletterdheid en is bedoeld voor de kleuterklas (groep 1-2): klankgroepen in gesproken woorden tellen, uitspreken, samenvoegen en opdelen. Geen timer, geen score; gewoon rustig luisteren en bouwen."
+        "Hakken en plakken met een kleislang op het scherm. Op een houten plank ligt een dikke kleislang, en die is voor elk woord even lang. Het kind tikt op het plaatje en hoort het woord, en hakt de slang dan met het kleimes in stukjes: één stukje voor elke klankgroep die het hoort. Tik op een naad en twee stukjes kneden weer aan elkaar. Een interactieve oefening die in de browser werkt, zonder installatie.",
+        "Het bijzondere: omdat de slang altijd even lang is, zegt de lengte niets. De stukjes bestaan alleen waar het kind hakt. Bij Klaar! rolt de stempel de klankgroepen op de stukjes: staan er twee klankgroepen op één stukje, dan moet er nog een keer gehakt worden; blijft een stukje leeg, dan is er een stukje te veel. Bij plakken drukt het kind de klankgroepen op de plank, en alleen echte buren plakken aan elkaar; een verkeerde naad blijft open. Is het woord af, dan sluit de slang zich tot één gladde slang met het hele woord en rolt hij zich op tot een rolletje op de plank.",
+        "De oefening sluit aan bij de SLO-kerndoelen voor Nederlands, fonologisch bewustzijn bij kleuters: klankgroepen in gesproken woorden horen, tellen, samenvoegen en opdelen. Drie niveaus: hakken zonder letters (tellen op het gehoor), plakken in de goede volgorde, en hakken met letters, waarbij een snee midden in een klankgroep weer dichtgaat. Alle klankgroepen komen uit een lijst die met meerdere bronnen is gecontroleerd, zoals ze-bra, re-gen-boog en he-li-kop-ter. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Een woord in klankgroepen hakken en die hardop uitspreken",
-        "De klankgroepen in de juiste volgorde leggen tot het hele woord",
-        "De gesproken klank koppelen aan het geschreven woord",
-        "Het plaatje gebruiken als steun bij het bouwen van het woord"
+        "Klankgroepen in een gesproken woord horen en tellen",
+        "Een woord in klankgroepen hakken",
+        "Klankgroepen in de goede volgorde aan elkaar plakken",
+        "In een geschreven woord de naad tussen klankgroepen vinden"
       ],
       "howToPlay": [
-        "Kijk naar het plaatje en luister naar de klankgroepen.",
-        "Tik of sleep de klankgroepen in de juiste volgorde tot het hele woord klaar is.",
-        "Niet goed? Probeer het zo vaak je wilt; er is geen timer en geen score."
+        "Tik op het plaatje en luister naar het woord.",
+        "Tik op de kleislang om te hakken: één stukje voor elke klankgroep. Tik op een naad om twee stukjes weer aan elkaar te plakken.",
+        "Bij plakken sleep je de stukjes uit de bak naar de plank, of tik je erop.",
+        "Tik op Klaar! en kijk wat de stempel op de stukjes zet."
       ],
       "learningGoals": [
-        "Je kind hoort en telt de klankgroepen in een gesproken woord.",
-        "Het kind voegt klankgroepen samen tot een heel woord en deelt een woord op in klankgroepen.",
-        "Het kind bouwt de basis voor het lezen en spellen in groep 3 op."
+        "Klankgroepen in gesproken woorden horen en tellen",
+        "Klankgroepen in de goede volgorde samenvoegen tot een woord",
+        "Zien waar een geschreven woord in klankgroepen uiteenvalt"
       ]
     },
     "choice-board.shape-id.k-g-a-2": {

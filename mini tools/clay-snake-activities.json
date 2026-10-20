@@ -1,0 +1,237 @@
+[
+  {
+    "id": "syllable-builder.bouw-het-woord-met-klankgroepen.rf-k-2-b",
+    "tool": "clay-snake-activity",
+    "task_template": "clay-snake",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.2.B",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "note": "The words and their gated splits live in clay-snake-core.js (LEVELS); the gate re-reads approved-words-nl.json. This list mirrors the core so the gates can size each level.",
+      "rounds": [
+        {
+          "id": "hak-cat",
+          "word": "kat",
+          "split": "kat"
+        },
+        {
+          "id": "hak-zebra",
+          "word": "zebra",
+          "split": "ze-bra"
+        },
+        {
+          "id": "hak-rainbow",
+          "word": "regenboog",
+          "split": "re-gen-boog"
+        },
+        {
+          "id": "hak-bicycle",
+          "word": "fiets",
+          "split": "fiets"
+        },
+        {
+          "id": "hak-butterfly",
+          "word": "vlinder",
+          "split": "vlin-der"
+        },
+        {
+          "id": "hak-sunflower",
+          "word": "zonnebloem",
+          "split": "zon-ne-bloem"
+        },
+        {
+          "id": "hak-helicopter",
+          "word": "helikopter",
+          "split": "he-li-kop-ter"
+        },
+        {
+          "id": "hak-snowman",
+          "word": "sneeuwpop",
+          "split": "sneeuw-pop"
+        },
+        {
+          "id": "hak-lighthouse",
+          "word": "vuurtoren",
+          "split": "vuur-to-ren"
+        },
+        {
+          "id": "hak-binoculars",
+          "word": "verrekijker",
+          "split": "ver-re-kij-ker"
+        }
+      ],
+      "levels": {
+        "hak": [
+          {
+            "id": "hak-cat",
+            "word": "kat",
+            "split": "kat"
+          },
+          {
+            "id": "hak-zebra",
+            "word": "zebra",
+            "split": "ze-bra"
+          },
+          {
+            "id": "hak-rainbow",
+            "word": "regenboog",
+            "split": "re-gen-boog"
+          },
+          {
+            "id": "hak-bicycle",
+            "word": "fiets",
+            "split": "fiets"
+          },
+          {
+            "id": "hak-butterfly",
+            "word": "vlinder",
+            "split": "vlin-der"
+          },
+          {
+            "id": "hak-sunflower",
+            "word": "zonnebloem",
+            "split": "zon-ne-bloem"
+          },
+          {
+            "id": "hak-helicopter",
+            "word": "helikopter",
+            "split": "he-li-kop-ter"
+          },
+          {
+            "id": "hak-snowman",
+            "word": "sneeuwpop",
+            "split": "sneeuw-pop"
+          },
+          {
+            "id": "hak-lighthouse",
+            "word": "vuurtoren",
+            "split": "vuur-to-ren"
+          },
+          {
+            "id": "hak-binoculars",
+            "word": "verrekijker",
+            "split": "ver-re-kij-ker"
+          }
+        ],
+        "plak": [
+          {
+            "id": "plak-panda",
+            "word": "panda",
+            "split": "pan-da",
+            "decoy": "ster"
+          },
+          {
+            "id": "plak-rabbit",
+            "word": "konijn",
+            "split": "ko-nijn",
+            "decoy": "pan"
+          },
+          {
+            "id": "plak-starfish",
+            "word": "zeester",
+            "split": "zee-ster",
+            "decoy": "da"
+          },
+          {
+            "id": "plak-strawberry",
+            "word": "aardbei",
+            "split": "aard-bei",
+            "decoy": "koek"
+          },
+          {
+            "id": "plak-bookcase",
+            "word": "boekenkast",
+            "split": "boe-ken-kast",
+            "decoy": "muis"
+          },
+          {
+            "id": "plak-pancake",
+            "word": "pannenkoek",
+            "split": "pan-nen-koek",
+            "decoy": "bei"
+          },
+          {
+            "id": "plak-umbrella",
+            "word": "paraplu",
+            "split": "pa-ra-plu",
+            "decoy": "ken"
+          },
+          {
+            "id": "plak-watermelon",
+            "word": "watermeloen",
+            "split": "wa-ter-me-loen",
+            "decoy": "plu"
+          },
+          {
+            "id": "plak-bat",
+            "word": "vleermuis",
+            "split": "vleer-muis",
+            "decoy": "zee"
+          },
+          {
+            "id": "plak-dolphin",
+            "word": "dolfijn",
+            "split": "dol-fijn",
+            "decoy": "ra"
+          }
+        ],
+        "letters": [
+          {
+            "id": "letters-airplane",
+            "word": "vliegtuig",
+            "split": "vlieg-tuig"
+          },
+          {
+            "id": "letters-tiger",
+            "word": "tijger",
+            "split": "tij-ger"
+          },
+          {
+            "id": "letters-balloon",
+            "word": "ballon",
+            "split": "bal-lon"
+          },
+          {
+            "id": "letters-angel",
+            "word": "engel",
+            "split": "en-gel"
+          },
+          {
+            "id": "letters-glove",
+            "word": "handschoen",
+            "split": "hand-schoen"
+          },
+          {
+            "id": "letters-biscuit",
+            "word": "koekje",
+            "split": "koek-je"
+          },
+          {
+            "id": "letters-tractor",
+            "word": "tractor",
+            "split": "trac-tor"
+          },
+          {
+            "id": "letters-bee",
+            "word": "bij",
+            "split": "bij"
+          }
+        ]
+      }
+    },
+    "theme": null,
+    "slug": {
+      "nl": "bouw-het-woord-met-klankgroepen"
+    },
+    "page_title": {
+      "nl": "Bouw het woord met klankgroepen — Fonetiek in de kleuterklas"
+    },
+    "page_intro": {
+      "nl": "Kijk naar het plaatje en bouw het woord door de klankgroepen in de juiste volgorde te leggen. Afgestemd op de kerndoelen — klankgroepen in gesproken woorden tellen, uitspreken, samenvoegen en opdelen."
+    },
+    "kid_prompt_template": "promptBuildSyllables"
+  }
+]

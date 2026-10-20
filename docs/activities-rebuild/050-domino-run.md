@@ -78,3 +78,14 @@ ORDER row 50 · id `syllable-builder.forma-las-silabas.rf-k-2-b` (kept).
 ## FROZEN-NOTEs (not changed — metadata is frozen)
 - **The title** says «Fonética», which is the wrong term; this activity is conciencia fonológica (the new strand chip).
 - **The intro** «mezclar y segmentar sílabas» is a calque of blend/segment («unir y separar»), and it describes only the build task.
+
+## Deploy (2026-10-20)
+- **Commit 1f013efa.** deploy.sh returned EXIT 0, with 0 payment-canary failures. The es page returns 200. The preview webp was copied to the server before the build.
+- **Production play: 20 / 20** (es at 1366 and 390).
+  - Mariposa: «ma» on the gap falls into the row and bounces back (a miss); «po» → the tiles close up into mariposa.
+  - Paraguas: «ra» alone → the run stops (no miss); pa + ra + guas → right.
+  - Tigre: one blank carries ti·gre (a miss); two → right.
+  - The wrapper version matches, and the iframe grows with the card.
+- **The live phone shot (390)** is clean.
+- **Live variety probe (es):** 10 distinct rounds, and pass 2 is reshuffled.
+- **Server disk after the deploy:** 134 GB available of 436 GB (68 % used).

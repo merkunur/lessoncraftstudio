@@ -1,0 +1,331 @@
+[
+  {
+    "id": "syllable-builder.build-words-from-syllables.rf-k-2-b",
+    "tool": "kite-tail-activity",
+    "task_template": "kite-tail",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.2.B",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "note": "The words and their gated splits live in kite-tail-core.js (LEVELS); the gate re-reads approved-words-en.json. This list mirrors the core so the gates can size each level.",
+      "rounds": [
+        {
+          "id": "count-fish",
+          "word": "fish",
+          "split": "fish"
+        },
+        {
+          "id": "count-rabbit",
+          "word": "rabbit",
+          "split": "rab-bit"
+        },
+        {
+          "id": "count-butterfly",
+          "word": "butterfly",
+          "split": "but-ter-fly"
+        },
+        {
+          "id": "count-drum",
+          "word": "drum",
+          "split": "drum"
+        },
+        {
+          "id": "count-penguin",
+          "word": "penguin",
+          "split": "pen-guin"
+        },
+        {
+          "id": "count-umbrella",
+          "word": "umbrella",
+          "split": "um-brel-la"
+        },
+        {
+          "id": "count-snowman",
+          "word": "snowman",
+          "split": "snow-man"
+        },
+        {
+          "id": "count-strawberry",
+          "word": "strawberry",
+          "split": "straw-ber-ry"
+        },
+        {
+          "id": "count-bus",
+          "word": "bus",
+          "split": "bus"
+        },
+        {
+          "id": "count-dolphin",
+          "word": "dolphin",
+          "split": "dol-phin"
+        }
+      ],
+      "levels": {
+        "count": [
+          {
+            "id": "count-fish",
+            "word": "fish",
+            "split": "fish"
+          },
+          {
+            "id": "count-rabbit",
+            "word": "rabbit",
+            "split": "rab-bit"
+          },
+          {
+            "id": "count-butterfly",
+            "word": "butterfly",
+            "split": "but-ter-fly"
+          },
+          {
+            "id": "count-drum",
+            "word": "drum",
+            "split": "drum"
+          },
+          {
+            "id": "count-penguin",
+            "word": "penguin",
+            "split": "pen-guin"
+          },
+          {
+            "id": "count-umbrella",
+            "word": "umbrella",
+            "split": "um-brel-la"
+          },
+          {
+            "id": "count-snowman",
+            "word": "snowman",
+            "split": "snow-man"
+          },
+          {
+            "id": "count-strawberry",
+            "word": "strawberry",
+            "split": "straw-ber-ry"
+          },
+          {
+            "id": "count-bus",
+            "word": "bus",
+            "split": "bus"
+          },
+          {
+            "id": "count-dolphin",
+            "word": "dolphin",
+            "split": "dol-phin"
+          }
+        ],
+        "tie": [
+          {
+            "id": "tie-muffin",
+            "word": "muffin",
+            "split": "muf-fin"
+          },
+          {
+            "id": "tie-carrot",
+            "word": "carrot",
+            "split": "car-rot"
+          },
+          {
+            "id": "tie-balloon",
+            "word": "balloon",
+            "split": "bal-loon"
+          },
+          {
+            "id": "tie-pencil",
+            "word": "pencil",
+            "split": "pen-cil"
+          },
+          {
+            "id": "tie-tractor",
+            "word": "tractor",
+            "split": "trac-tor"
+          },
+          {
+            "id": "tie-rainbow",
+            "word": "rainbow",
+            "split": "rain-bow"
+          },
+          {
+            "id": "tie-cupcake",
+            "word": "cupcake",
+            "split": "cup-cake"
+          },
+          {
+            "id": "tie-airplane",
+            "word": "airplane",
+            "split": "air-plane"
+          },
+          {
+            "id": "tie-gingerbread",
+            "word": "gingerbread",
+            "split": "gin-ger-bread"
+          },
+          {
+            "id": "tie-dragonfly",
+            "word": "dragonfly",
+            "split": "drag-on-fly"
+          }
+        ],
+        "fix": [
+          {
+            "id": "fix-ladder",
+            "word": "ladder",
+            "split": "lad-der"
+          },
+          {
+            "id": "fix-hammer",
+            "word": "hammer",
+            "split": "ham-mer"
+          },
+          {
+            "id": "fix-mitten",
+            "word": "mitten",
+            "split": "mit-ten"
+          },
+          {
+            "id": "fix-popcorn",
+            "word": "popcorn",
+            "split": "pop-corn"
+          },
+          {
+            "id": "fix-basket",
+            "word": "basket",
+            "split": "bas-ket"
+          },
+          {
+            "id": "fix-umbrella",
+            "word": "umbrella",
+            "split": "um-brel-la"
+          },
+          {
+            "id": "fix-sailboat",
+            "word": "sailboat",
+            "split": "sail-boat"
+          },
+          {
+            "id": "fix-basketball",
+            "word": "basketball",
+            "split": "bas-ket-ball"
+          },
+          {
+            "id": "fix-strawberry",
+            "word": "strawberry",
+            "split": "straw-ber-ry"
+          },
+          {
+            "id": "fix-butterfly",
+            "word": "butterfly",
+            "split": "but-ter-fly"
+          }
+        ],
+        "fence": [
+          {
+            "id": "fence-bus",
+            "word": "bus",
+            "split": "bus"
+          },
+          {
+            "id": "fence-frog",
+            "word": "frog",
+            "split": "frog"
+          },
+          {
+            "id": "fence-train",
+            "word": "train",
+            "split": "train"
+          },
+          {
+            "id": "fence-panda",
+            "word": "panda",
+            "split": "pan-da"
+          },
+          {
+            "id": "fence-raccoon",
+            "word": "raccoon",
+            "split": "rac-coon"
+          },
+          {
+            "id": "fence-pizza",
+            "word": "pizza",
+            "split": "piz-za"
+          },
+          {
+            "id": "fence-butterfly",
+            "word": "butterfly",
+            "split": "but-ter-fly"
+          },
+          {
+            "id": "fence-dragonfly",
+            "word": "dragonfly",
+            "split": "drag-on-fly"
+          },
+          {
+            "id": "fence-strawberry",
+            "word": "strawberry",
+            "split": "straw-ber-ry"
+          }
+        ],
+        "tassels": [
+          {
+            "id": "tassels-drum",
+            "word": "drum",
+            "split": "drum"
+          },
+          {
+            "id": "tassels-panda",
+            "word": "panda",
+            "split": "pan-da"
+          },
+          {
+            "id": "tassels-tractor",
+            "word": "tractor",
+            "split": "trac-tor"
+          },
+          {
+            "id": "tassels-frog",
+            "word": "frog",
+            "split": "frog"
+          },
+          {
+            "id": "tassels-rainbow",
+            "word": "rainbow",
+            "split": "rain-bow"
+          },
+          {
+            "id": "tassels-dragonfly",
+            "word": "dragonfly",
+            "split": "drag-on-fly"
+          },
+          {
+            "id": "tassels-fish",
+            "word": "fish",
+            "split": "fish"
+          },
+          {
+            "id": "tassels-dolphin",
+            "word": "dolphin",
+            "split": "dol-phin"
+          },
+          {
+            "id": "tassels-monkey",
+            "word": "monkey",
+            "split": "mon-key"
+          }
+        ]
+      }
+    },
+    "theme": null,
+    "slug": {
+      "en": "build-words-from-syllables"
+    },
+    "page_title": {
+      "en": "Build Words from Syllables — Kindergarten Phonics"
+    },
+    "page_intro": {
+      "en": "Look at the picture and build the word by tapping the syllables in the right order. Aligned to Common Core RF.K.2.B — count, pronounce, blend, and segment syllables in spoken words."
+    },
+    "kid_prompt_template": "promptBuildSyllables"
+  }
+]

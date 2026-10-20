@@ -240,25 +240,26 @@
     },
     "syllable-builder.build-words-from-syllables.rf-k-2-b": {
       "about": [
-        "Longer words break into beats the ear can catch: looking at a picture, the child taps the syllables in the right order to build it — rab-bit, muf-fin, car-rot, pop-corn — working through familiar words like balloon, pencil, and penguin. It's an interactive Kindergarten reading activity that runs in the browser with no account.",
-        "The skill is blending and segmenting syllables — hearing that a word like rabbit is made of two beats and putting them back together in order. Because the syllables arrive jumbled and must be placed correctly, the child practices both pulling a word apart and snapping it back together, the ear-and-order work that makes longer words feel manageable instead of overwhelming.",
-        "It is aligned to Common Core RF.K.2.b — counting, pronouncing, blending, and segmenting syllables in spoken words. No timer, no score — just calm, playful practice."
+        "Every picture rides a kite, and the kite needs a tail with one bow for every beat of its word. The child taps the picture to hear the word, ties bows onto the tail, and presses Check for a gust of wind. It is an interactive phonics activity for Kindergarten and first grade that runs in the browser with nothing to install.",
+        "The kite gives the verdict. With the right number of bows in the right order it climbs and flies steady, lighting each syllable in turn: rab … bit, rabbit. With too few bows the last bow carries two beats and the kite spins; with too many, a blank bow drags it down into the grass; with the syllables out of order the tail knots at the first bow that is out of place. The tail always starts with one bow, and every bow is the same size, so nothing on the screen gives the count away.",
+        "It is aligned to Common Core RF.K.2.B: count, pronounce, blend and segment the syllables of spoken words. Five levels use the same kite: count the beats, tie the syllables to spell the word (or write each syllable on its own bow), find a missing syllable or put scrambled ones in order, sort picture cards onto kites with one, two, or three bows, and hang one tassel for each sound inside a syllable. Every syllable split shown is one a child says aloud and one that several dictionary sources agree on. No timer, no score."
       ],
       "practices": [
-        "Blend syllables in order to build a whole word like rab + bit",
-        "Hear how many beats, or syllables, a word has",
-        "Put jumbled syllables back together in the right order",
-        "Match each spoken word to its picture"
+        "Counting the syllables in a spoken word",
+        "Blending syllables into a word",
+        "Finding a missing syllable and putting syllables in order",
+        "Sorting words by how many syllables they have"
       ],
       "howToPlay": [
-        "Look at the picture and say its word in your head.",
-        "Tap the syllables in the right order to build the word, then press Check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Tap the picture to hear the word.",
+        "Tie one bow on the tail for every beat you hear, or drag the syllable bows into place.",
+        "Press Check and watch the kite: steady means right, a spin or a sag tells you what to change.",
+        "On the kite fence, drag the picture card onto the kite with the right number of bows."
       ],
       "learningGoals": [
-        "Blend and segment syllables in spoken words — the focus of Common Core RF.K.2.b.",
-        "Understand that longer words are built from smaller syllable beats.",
-        "Build the syllable-awareness skill that reading longer words depends on."
+        "Count, pronounce, blend and segment syllables in spoken words, the focus of Common Core RF.K.2.B",
+        "Put the syllables of a word in the right order",
+        "Hear how many sounds are in each syllable"
       ]
     },
     "choice-board.compare-length.k-md-2": {

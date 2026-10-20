@@ -1,0 +1,232 @@
+[
+  {
+    "id": "syllable-builder.byg-ordet-af-stavelser.da.rf-k-2-b",
+    "tool": "telescope-activity",
+    "task_template": "telescope",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.2.B",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "note": "The words and their gated splits live in telescope-core.js (LEVELS); the gate re-reads approved-words-da.json. This list mirrors the core so the gates can size each level.",
+      "rounds": [
+        {
+          "id": "pull-fisk",
+          "word": "fisk",
+          "split": "fisk"
+        },
+        {
+          "id": "pull-banan",
+          "word": "banan",
+          "split": "ba-nan"
+        },
+        {
+          "id": "pull-lænestol",
+          "word": "lænestol",
+          "split": "læ-ne-stol"
+        },
+        {
+          "id": "pull-hus",
+          "word": "hus",
+          "split": "hus"
+        },
+        {
+          "id": "pull-kanin",
+          "word": "kanin",
+          "split": "ka-nin"
+        },
+        {
+          "id": "pull-telefon",
+          "word": "telefon",
+          "split": "te-le-fon"
+        },
+        {
+          "id": "pull-ambulance",
+          "word": "ambulance",
+          "split": "am-bu-lan-ce"
+        },
+        {
+          "id": "pull-pingvin",
+          "word": "pingvin",
+          "split": "ping-vin"
+        },
+        {
+          "id": "pull-gorilla",
+          "word": "gorilla",
+          "split": "go-ril-la"
+        },
+        {
+          "id": "pull-motorcykel",
+          "word": "motorcykel",
+          "split": "mo-tor-cy-kel"
+        }
+      ],
+      "levels": {
+        "pull": [
+          {
+            "id": "pull-fisk",
+            "word": "fisk",
+            "split": "fisk"
+          },
+          {
+            "id": "pull-banan",
+            "word": "banan",
+            "split": "ba-nan"
+          },
+          {
+            "id": "pull-lænestol",
+            "word": "lænestol",
+            "split": "læ-ne-stol"
+          },
+          {
+            "id": "pull-hus",
+            "word": "hus",
+            "split": "hus"
+          },
+          {
+            "id": "pull-kanin",
+            "word": "kanin",
+            "split": "ka-nin"
+          },
+          {
+            "id": "pull-telefon",
+            "word": "telefon",
+            "split": "te-le-fon"
+          },
+          {
+            "id": "pull-ambulance",
+            "word": "ambulance",
+            "split": "am-bu-lan-ce"
+          },
+          {
+            "id": "pull-pingvin",
+            "word": "pingvin",
+            "split": "ping-vin"
+          },
+          {
+            "id": "pull-gorilla",
+            "word": "gorilla",
+            "split": "go-ril-la"
+          },
+          {
+            "id": "pull-motorcykel",
+            "word": "motorcykel",
+            "split": "mo-tor-cy-kel"
+          }
+        ],
+        "build": [
+          {
+            "id": "build-engel",
+            "word": "engel",
+            "split": "en-gel"
+          },
+          {
+            "id": "build-ballon",
+            "word": "ballon",
+            "split": "bal-lon"
+          },
+          {
+            "id": "build-klokke",
+            "word": "klokke",
+            "split": "klok-ke"
+          },
+          {
+            "id": "build-cykel",
+            "word": "cykel",
+            "split": "cy-kel"
+          },
+          {
+            "id": "build-kjole",
+            "word": "kjole",
+            "split": "kjo-le"
+          },
+          {
+            "id": "build-zebra",
+            "word": "zebra",
+            "split": "ze-bra"
+          },
+          {
+            "id": "build-delfin",
+            "word": "delfin",
+            "split": "del-fin"
+          },
+          {
+            "id": "build-spøgelse",
+            "word": "spøgelse",
+            "split": "spø-gel-se"
+          },
+          {
+            "id": "build-xylofon",
+            "word": "xylofon",
+            "split": "xy-lo-fon"
+          },
+          {
+            "id": "build-ballerina",
+            "word": "ballerina",
+            "split": "bal-le-ri-na"
+          }
+        ],
+        "gap": [
+          {
+            "id": "gap-traktor",
+            "word": "traktor",
+            "split": "trak-tor"
+          },
+          {
+            "id": "gap-panda",
+            "word": "panda",
+            "split": "pan-da"
+          },
+          {
+            "id": "gap-bælte",
+            "word": "bælte",
+            "split": "bæl-te"
+          },
+          {
+            "id": "gap-lampe",
+            "word": "lampe",
+            "split": "lam-pe"
+          },
+          {
+            "id": "gap-tromme",
+            "word": "tromme",
+            "split": "trom-me"
+          },
+          {
+            "id": "gap-radise",
+            "word": "radise",
+            "split": "ra-di-se"
+          },
+          {
+            "id": "gap-medalje",
+            "word": "medalje",
+            "split": "me-dal-je"
+          },
+          {
+            "id": "gap-køleskab",
+            "word": "køleskab",
+            "split": "kø-le-skab"
+          },
+          {
+            "id": "gap-græshoppe",
+            "word": "græshoppe",
+            "split": "græs-hop-pe"
+          }
+        ]
+      }
+    },
+    "theme": null,
+    "slug": {
+      "da": "byg-ordet-af-stavelser"
+    },
+    "page_title": {
+      "da": "Byg ordet af stavelser — Fonetik i børnehaveklassen"
+    },
+    "page_intro": {
+      "da": "Se på billedet og byg ordet ved at lægge stavelserne i den rigtige rækkefølge. Tilpasset Fælles Mål — tælle, udtale, blande og dele stavelser i talte ord."
+    },
+    "kid_prompt_template": "promptBuildSyllables"
+  }
+]

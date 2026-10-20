@@ -129,3 +129,13 @@ ORDER row 42 · id `rhyme-shop.rhyme.rf-k-2-a` (kept).
   - "toccando il 🔊", although the child taps the picture.
 - **en intro:** "feed Rosa's wagon the words"; the child hangs them on the chain.
 - **es intro:** the example "ratón y limón" uses limón, which is no longer in the rounds (the rhyme is true).
+
+## Deploy (2026-10-20)
+- **Commit 1b098702.** deploy.sh returned EXIT 0, with 0 payment-canary failures. All eleven locale pages return 200. The preview webp was copied to the server before the build.
+- **Production play:** 64 / 64 (en / sv / fi / de at 1366 and 390).
+  - Pick: a wrong picture dragged on falls back (one miss), and the rhyme dragged on closes.
+  - Judge: the right ring button ends the round.
+  - Sort: every picture is dragged to its own chain and the wagon is pulled.
+  - The wrapper version matches, and the iframe grows with the card.
+- **Live variety probe:** the rounds reshuffle on pass 2 in all 11 locales (en 13 distinct, the rest 11). The probe had sized every locale from the smallest pool (11), so en's 13-round pass was read in windows that straddled the pass boundary ("pass-2 is not the same item set"). `audit-activity-variety.js` now takes the pass length from the tool's own pool for that locale.
+- **Server disk after the deploy:** 134 GB available of 436 GB (68 % used).

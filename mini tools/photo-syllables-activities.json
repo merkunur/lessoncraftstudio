@@ -1,0 +1,222 @@
+[
+  {
+    "id": "syllable-builder.forme-le-mot-en-syllabes.rf-k-2-b",
+    "tool": "photo-syllables-activity",
+    "task_template": "photo-syllables",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.2.B",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "note": "The words and their gated splits live in photo-syllables-core.js ; the gate re-reads approved-words-fr.json. This list mirrors the core so the gates can size each level.",
+      "rounds": [
+        {
+          "id": "short-chat",
+          "word": "chat",
+          "split": "chat"
+        },
+        {
+          "id": "short-chien",
+          "word": "chien",
+          "split": "chien"
+        },
+        {
+          "id": "short-fleur",
+          "word": "fleur",
+          "split": "fleur"
+        },
+        {
+          "id": "short-lit",
+          "word": "lit",
+          "split": "lit"
+        },
+        {
+          "id": "short-ours",
+          "word": "ours",
+          "split": "ours"
+        },
+        {
+          "id": "short-avion",
+          "word": "avion",
+          "split": "a-vion"
+        },
+        {
+          "id": "short-lapin",
+          "word": "lapin",
+          "split": "la-pin"
+        },
+        {
+          "id": "short-ballon",
+          "word": "ballon",
+          "split": "bal-lon"
+        },
+        {
+          "id": "short-soleil",
+          "word": "soleil",
+          "split": "so-leil"
+        }
+      ],
+      "levels": {
+        "short": [
+          {
+            "id": "short-chat",
+            "word": "chat",
+            "split": "chat"
+          },
+          {
+            "id": "short-chien",
+            "word": "chien",
+            "split": "chien"
+          },
+          {
+            "id": "short-fleur",
+            "word": "fleur",
+            "split": "fleur"
+          },
+          {
+            "id": "short-lit",
+            "word": "lit",
+            "split": "lit"
+          },
+          {
+            "id": "short-ours",
+            "word": "ours",
+            "split": "ours"
+          },
+          {
+            "id": "short-avion",
+            "word": "avion",
+            "split": "a-vion"
+          },
+          {
+            "id": "short-lapin",
+            "word": "lapin",
+            "split": "la-pin"
+          },
+          {
+            "id": "short-ballon",
+            "word": "ballon",
+            "split": "bal-lon"
+          },
+          {
+            "id": "short-soleil",
+            "word": "soleil",
+            "split": "so-leil"
+          }
+        ],
+        "mute": [
+          {
+            "id": "mute-lune",
+            "word": "lune",
+            "split": "lu-ne"
+          },
+          {
+            "id": "mute-table",
+            "word": "table",
+            "split": "ta-ble"
+          },
+          {
+            "id": "mute-ange",
+            "word": "ange",
+            "split": "an-ge"
+          },
+          {
+            "id": "mute-cloche",
+            "word": "cloche",
+            "split": "clo-che"
+          },
+          {
+            "id": "mute-livre",
+            "word": "livre",
+            "split": "li-vre"
+          },
+          {
+            "id": "mute-tigre",
+            "word": "tigre",
+            "split": "ti-gre"
+          },
+          {
+            "id": "mute-zèbre",
+            "word": "zèbre",
+            "split": "zè-bre"
+          },
+          {
+            "id": "mute-pomme",
+            "word": "pomme",
+            "split": "pom-me"
+          },
+          {
+            "id": "mute-tortue",
+            "word": "tortue",
+            "split": "tor-tue"
+          }
+        ],
+        "long": [
+          {
+            "id": "long-banane",
+            "word": "banane",
+            "split": "ba-na-ne"
+          },
+          {
+            "id": "long-voiture",
+            "word": "voiture",
+            "split": "voi-tu-re"
+          },
+          {
+            "id": "long-papillon",
+            "word": "papillon",
+            "split": "pa-pil-lon"
+          },
+          {
+            "id": "long-parapluie",
+            "word": "parapluie",
+            "split": "pa-ra-pluie"
+          },
+          {
+            "id": "long-chocolat",
+            "word": "chocolat",
+            "split": "cho-co-lat"
+          },
+          {
+            "id": "long-éléphant",
+            "word": "éléphant",
+            "split": "é-lé-phant"
+          },
+          {
+            "id": "long-girafe",
+            "word": "girafe",
+            "split": "gi-ra-fe"
+          },
+          {
+            "id": "long-tournesol",
+            "word": "tournesol",
+            "split": "tour-ne-sol"
+          },
+          {
+            "id": "long-escargot",
+            "word": "escargot",
+            "split": "es-car-got"
+          },
+          {
+            "id": "long-ambulance",
+            "word": "ambulance",
+            "split": "am-bu-lan-ce"
+          }
+        ]
+      }
+    },
+    "theme": null,
+    "slug": {
+      "fr": "forme-le-mot-en-syllabes"
+    },
+    "page_title": {
+      "fr": "Phonologie GS – former des mots en syllabes en ligne"
+    },
+    "page_intro": {
+      "fr": "Phonologie en grande section : écouter chaque syllabe puis former le mot entier, avec des images. En ligne, sans inscription."
+    },
+    "kid_prompt_template": "promptBuildSyllables"
+  }
+]

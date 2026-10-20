@@ -179,6 +179,7 @@ const MANIFEST_FILES = [
   'syllable-chain-activities.json',
   'domino-run-activities.json',
   'family-lock-activities.json',
+  'photo-syllables-activities.json',
   'graph-it-activities.json',
   'field-guide-activities.json',
   'rhyme-shop-activities.json',

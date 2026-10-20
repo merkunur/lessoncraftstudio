@@ -2701,24 +2701,25 @@
     },
     "syllable-builder.forme-le-mot-en-syllabes.rf-k-2-b": {
       "about": [
-        "Une image apparaît et l'enfant forme le mot correspondant en plaçant ses syllabes dans le bon ordre. Pour un mot comme « ba-na-ne » ou « to-ma-te », les étiquettes-syllabes sont mélangées et l'enfant les remet en place une à une, en écoutant chaque syllabe puis le mot entier une fois la réponse correcte. C'est une activité de conscience phonologique de grande section, interactive, qui se joue directement dans le navigateur, sans rien installer et sans inscription.",
-        "La grande idée, c'est qu'un mot parlé se découpe en morceaux que l'on peut compter, prononcer et recombiner. En glissant les syllabes dans l'ordre, l'enfant entend comment elles s'enchaînent pour reconstruire le mot : il segmente d'abord, puis fusionne. Ce va-et-vient entre l'image, le son de chaque syllabe et le mot complet prépare en douceur l'entrée dans la lecture. L'activité suit les programmes officiels : ni minuteur, ni score, juste un entraînement calme et ludique."
+        "Chaque carte-syllabe porte sa propre bande de la photo du mot. L’enfant pose les cartes sur le rail, appuie sur Développer, et sous la lumière rouge la photo apparaît bande par bande, de gauche à droite. Elle ne sort entière que si les syllabes sont les bonnes et dans le bon ordre : la-pin donne le lapin, pin-la donne un lapin coupé en deux et remis à l’envers. C’est une activité interactive de conscience phonologique pour la grande section et le début du CP, qui se joue dans le navigateur.",
+        "La photo répond d’elle-même : une carte à la bonne place se développe nette, une carte mal placée se développe floue, une carte piège fait apparaître un morceau d’une autre photo, et une carte oubliée laisse une bande blanche. Après deux essais manqués, la bonne photo apparaît en transparence avec un trait à chaque frontière de syllabe. Quand tout est juste, les bandes se fondent en une seule photo, qui rejoint l’album.",
+        "L’activité suit les programmes officiels de maternelle et de CP : manipuler et combiner des syllabes pour former un mot. Les mots sont découpés en syllabes écrites ; le e muet final est grisé sur la carte, comme en classe, car il s’écrit, mais on ne l’entend pas. Trois niveaux utilisent la même chambre noire : des mots d’un ou deux morceaux, des mots qui finissent par un e muet, et des mots de trois syllabes et plus. Ni minuteur ni score."
       ],
       "practices": [
-        "Repérer la bonne place de chaque syllabe pour reconstruire le mot.",
-        "Écouter chaque syllabe, puis le mot entier une fois la réponse correcte.",
-        "Segmenter un mot en syllabes, puis les fusionner pour le reformer.",
-        "Associer l'image au mot parlé découpé en syllabes."
+        "Remettre les syllabes d’un mot dans le bon ordre",
+        "Reconnaître une syllabe qui n’appartient pas au mot",
+        "Compter les syllabes écrites d’un mot",
+        "Repérer le e muet qui s’écrit mais qu’on n’entend pas"
       ],
       "howToPlay": [
-        "Regarde l'image et écoute les syllabes proposées.",
-        "Touche ou glisse chaque syllabe pour la placer dans l'ordre et former le mot.",
-        "Pas tout à fait ? Réessaie autant de fois que tu veux : il n'y a ni minuteur, ni score."
+        "Regarde la photo encore blanche et touche le haut-parleur pour entendre les cartes posées sur le rail.",
+        "Pose les cartes-syllabes sur le rail dans l’ordre : touche-les ou fais-les glisser.",
+        "Appuie sur Développer et regarde la photo apparaître : elle est nette quand tout est juste."
       ],
       "learningGoals": [
-        "Compter, prononcer, fusionner et segmenter les syllabes des mots parlés.",
-        "Comprendre qu'un mot est fait de syllabes que l'on peut remettre dans l'ordre.",
-        "Construire la conscience des syllabes qui prépare l'apprentissage de la lecture."
+        "L’enfant forme un mot en assemblant ses syllabes dans l’ordre",
+        "L’enfant repère la syllabe qui vient d’un autre mot",
+        "L’enfant sait que le e muet final s’écrit mais ne s’entend pas"
       ]
     },
     "array.equal-groups.2-oa-c-4": {

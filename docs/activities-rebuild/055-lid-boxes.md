@@ -71,3 +71,12 @@ ORDER row 55 · id `sound-boxes.phoneme-position.rf-k-2-d` (kept).
 - `local-test-lid-boxes.js`: 4737 / 0. A real pointer plays every round of all three tasks in 11 locales at 704. The 320–1366 sweep checks rest and miss states.
 - `visual-qa-activity.js` (en / de / fi / fr) PASS · `audit-activity-hierarchy.js` 434 / 0 · `audit-settings-efficacy` 2 live · the static gates are green.
 - The retired gates exit 0. verify-sound-boxes-bank errors are the HEAD set minus two. blending-decks, dictation-desk, heart-words and letter-tiles are unchanged.
+
+## Deploy (2026-10-20)
+- **Commit:** `8db12b21`.
+- **Server:** cp `lid-boxes-*`, `sound-boxes-activities.json`, the 11 `sound-boxes-bank-*.json` files and the preview webp, then `deploy.sh`: EXIT 0, payment canary clean, 133 GB free.
+- **`live-verify-lid-boxes.js`: 91/91.**
+  - All 11 pages return 200.
+  - en/de/sv/fi were played with a real pointer at 1366 and 390. Task 1: the distractor's lids pop, the first box stays shut, then right with the pair on the shelf. Task 2: a wrong box opens every lid, then the right box. Task 3: all eight sorted.
+  - The first run raced the fresh deploy, and the re-run was clean.
+- **Variety:** 9 distinct rounds live in en, reshuffled on pass 2.

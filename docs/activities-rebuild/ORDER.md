@@ -51,7 +51,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 41 | LIVE 2026-10-20 → `type-case-activity` (the printer's type case, own core) | K | RF.K.1.d | `choice-board.letter-case.rf-k-1-d` | choice-board-activity | Match Uppercase and Lowercase Letters |
 | 42 | LIVE 2026-10-20 → `rhyme-chain-activity` (the rhyme chain, own core) | K | RF.K.2.a | `rhyme-shop.rhyme.rf-k-2-a` | rhyme-shop-activity | Rosa Raccoon's Rhyme Wagon — Hear & Match Rhymes |
 | 43 | LIVE 2026-10-20 → `silbenbogen-activity` (die Schwungbahn, own core, de only) | K | RF.K.2.B | `syllable-builder.bau-das-wort-aus-silben.rf-k-2-b` | syllable-builder-activity |  |
-| 44 |  | K | RF.K.2.B | `syllable-builder.bouw-het-woord-met-klankgroepen.rf-k-2-b` | syllable-builder-activity |  |
+| 44 | LIVE 2026-10-20 → `clay-snake-activity` (de kleislang, own core, nl only) | K | RF.K.2.B | `syllable-builder.bouw-het-woord-met-klankgroepen.rf-k-2-b` | syllable-builder-activity |  |
 | 45 |  | K | RF.K.2.B | `syllable-builder.build-words-from-syllables.rf-k-2-b` | syllable-builder-activity | Build Words from Syllables — Kindergarten Phonics |
 | 46 |  | K | RF.K.2.B | `syllable-builder.byg-ordet-af-stavelser.da.rf-k-2-b` | syllable-builder-activity |  |
 | 47 |  | K | RF.K.2.B | `syllable-builder.bygg-ordet-av-stavelser.no.rf-k-2-b` | syllable-builder-activity |  |

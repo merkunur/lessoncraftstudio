@@ -99,3 +99,12 @@ ORDER row 43 · id `syllable-builder.bau-das-wort-aus-silben.rf-k-2-b` (kept).
 - **The intro** describes the old tap-and-build mechanic and does not mention swinging or counting.
 - **The title and slug** name only the building half.
 - **The live page's previous prose** taught wrong splits ("So-nne", "A-pfel"). It is replaced by this rebuild's prose.
+
+## Deploy (2026-10-20)
+- **Commit 1e27c0df.** deploy.sh returned EXIT 0, with 0 payment-canary failures. The de page returns 200. The new preview webp was copied to the server before the build.
+- **Production play:** 18 / 18 (de at 1366 and 390).
+  - Schmetterling: four swings make one bow too many, which is a miss; tapping the empty bow removes it, and Fahren! builds Schmetterling.
+  - Bär: one swing and one card.
+  - The wrapper version matches, and the iframe grows with the card.
+- **Live variety probe (de):** 10 distinct rounds in Kurz, and pass 2 is reshuffled.
+- **Server disk after the deploy:** 134 GB available of 436 GB (68 % used).

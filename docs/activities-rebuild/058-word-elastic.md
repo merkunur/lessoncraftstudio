@@ -108,3 +108,9 @@ ORDER row 58 · id `cvc-builder.build-cvc-word.rf-k-3` (kept).
   - `audit-activity-hierarchy.js` 266 / 0;
   - `audit-settings-efficacy`: both settings change the board;
   - `preflight-activity-routes`, `preflight-indexable-routes` and the 11 `verify-activity-content-*` gates are green.
+
+## Deploy (2026-10-21)
+- Commit `20328616`. Copied the files, the preview and `cvc-builder-activities.json` to `/var/www/lcs-media/mini-tools/`, then ran `deploy.sh`: EXIT 0, payment canary clean, server 133 GB free.
+- `live-verify-word-elastic.js`: 75 / 0 on production (en, de, sv, fi at 1366 + 390). The first run raced the page cache; the re-run was clean.
+- Variety probe (en): 17 distinct, pass 2 reshuffled.
+- All 11 locale pages return 200.

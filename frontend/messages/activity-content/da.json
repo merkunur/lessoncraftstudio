@@ -2082,6 +2082,29 @@
         "Barnet ser, ved hvilket bogstav to ord er forskellige",
         "Barnet læser rimord og længere ord i stavelser"
       ]
+    },
+    "cvc-builder.build-cvc-word.rf-k-3": {
+      "about": [
+        "Billedet viser en sol; ordet står ingen steder. Barnet trækker i knoppen på en elastik, og for hver lyd springer en perle frem: tre perler til s · o · l. På hver perle kommer et bogstav, og når barnet slipper, smækker perlerne sammen til ordet. En interaktiv staveøvelse til 1. klasse, som virker i browseren.",
+        "Ligger der et u på den midterste perle, slynger elastikken netop den perle ud af rækken, så barnet ser, hvilken lyd det skal lytte efter igen. Andre indstillinger giver den første lyd, lader én lyd mangle, tilbyder en ordliste eller et tastatur, lader barnet selv bestemme, hvor mange perler det trækker frem, eller vender opgaven om: Elastikken kommer med bogstaver, og barnet læser ordet og finder billedet.",
+        "Øvelsen følger Fælles Mål for dansk: at skrive ord lyd for lyd. Intet ur og ingen point."
+      ],
+      "practices": [
+        "At sige et ord langsomt og høre hver lyd i rækkefølge",
+        "At skrive ét bogstav for hver lyd",
+        "At lytte ekstra godt efter vokalen i midten",
+        "At samle lydene til ordet igen"
+      ],
+      "howToPlay": [
+        "Se på billedet, og sig navnet langsomt.",
+        "Træk i knoppen: én perle for hver lyd. Læg et bogstav på hver perle.",
+        "Tryk på Tjek, og se om perlerne smækker sammen, eller hvilken perle der ryger ud."
+      ],
+      "learningGoals": [
+        "Barnet deler et kort ord op i lyde",
+        "Barnet skriver bogstavet for hver lyd i rækkefølge",
+        "Barnet trækker lydene sammen til ordet igen"
+      ]
     }
   }
 }

@@ -2090,6 +2090,29 @@
         "Barnet ser ved hvilken bokstav to ord er forskjellige",
         "Barnet leser rimord og lengre ord i stavelser"
       ]
+    },
+    "cvc-builder.build-cvc-word.rf-k-3": {
+      "about": [
+        "Bildet viser en sol; ordet står ingen steder. Barnet drar i knotten på en strikk, og for hver lyd spretter en perle fram: tre perler for s · o · l. På hver perle legges en bokstav, og når barnet slipper, smekker perlene sammen til ordet. En interaktiv staveøvelse for 1. trinn som virker i nettleseren.",
+        "Ligger det en u på den midterste perlen, slynger strikken akkurat den perlen ut av rekka, så barnet ser hvilken lyd det må lytte etter igjen. Andre innstillinger gir den første lyden, lar én lyd mangle, gir en ordliste eller et tastatur, lar barnet selv bestemme hvor mange perler det trekker ut, eller snur oppgaven: Strikken kommer med bokstaver, og barnet leser ordet og finner bildet. Med dobbel konsonant og lydgrupper deler to bokstaver én perle, slik au gjør i sau.",
+        "Øvelsen følger LK20: å skrive ord lyd for lyd. Ingen tidtaking og ingen poeng."
+      ],
+      "practices": [
+        "Å si et ord sakte og høre hver lyd i rekkefølge",
+        "Å skrive én bokstav for hver lyd",
+        "Å lytte ekstra godt etter vokalen i midten",
+        "Å skrive en lyd med to bokstaver, som au eller tt"
+      ],
+      "howToPlay": [
+        "Se på bildet og si navnet sakte.",
+        "Dra i knotten: én perle for hver lyd. Legg en bokstav på hver perle.",
+        "Trykk på Sjekk og se om perlene smekker sammen, eller hvilken perle som blir sparket ut."
+      ],
+      "learningGoals": [
+        "Barnet deler et kort ord opp i lyder",
+        "Barnet skriver bokstaven for hver lyd i riktig rekkefølge",
+        "Barnet trekker lydene sammen til ordet igjen"
+      ]
     }
   }
 }

@@ -4183,6 +4183,29 @@
         "Recuerda qué sonido cambió y en qué lugar",
         "Cambia un sonido a la vez en una cadena de palabras"
       ]
+    },
+    "cvc-builder.build-cvc-word.rf-k-3": {
+      "about": [
+        "El dibujo muestra un mapa; la palabra no está escrita en ninguna parte. El niño o la niña jala la perilla de una liga y por cada sonido sale una cuenta: cuatro cuentas para m · a · p · a. En cada cuenta va una letra; al soltar, las cuentas se juntan de golpe y forman la palabra. Es una actividad interactiva de escritura para 1.º de primaria que funciona en el navegador.",
+        "Si en la segunda cuenta hay una e, la liga lanza justo esa cuenta fuera de la fila, y así se ve qué sonido hay que volver a escuchar. Otros ajustes dan el primer sonido, dejan un sonido sin poner, ofrecen una lista de palabras o un teclado, dejan que el niño decida cuántas cuentas saca, o lo invierten: la liga llega con letras y hay que leer la palabra y encontrar el dibujo. Con los dígrafos, dos letras comparten una cuenta, como qu en queso.",
+        "La actividad se basa en los programas de estudio de la SEP: escribir palabras sonido por sonido. Sin cronómetro y sin puntuación."
+      ],
+      "practices": [
+        "Decir una palabra despacio y oír cada sonido en orden",
+        "Escribir una letra por cada sonido",
+        "Escuchar con atención las vocales",
+        "Escribir un sonido con dos letras, como qu, ll o rr"
+      ],
+      "howToPlay": [
+        "Mira el dibujo y di su nombre despacio.",
+        "Jala la perilla: una cuenta por cada sonido. Pon una letra en cada cuenta.",
+        "Toca Revisar y mira si las cuentas se juntan o cuál sale disparada."
+      ],
+      "learningGoals": [
+        "Separa una palabra corta en sus sonidos",
+        "Escribe la letra de cada sonido en orden",
+        "Vuelve a juntar los sonidos para formar la palabra"
+      ]
     }
   }
 }

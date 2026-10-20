@@ -2036,6 +2036,29 @@
         "Lapsi huomaa, missä kirjaimessa kaksi sanaa eroavat",
         "Lapsi lukee riimisanoja ja pidempiä sanoja tavuittain"
       ]
+    },
+    "cvc-builder.build-cvc-word.rf-k-3": {
+      "about": [
+        "Kuvassa on susi; sanaa ei ole kirjoitettu mihinkään. Lapsi vetää kuminauhan nupista, ja jokaista äännettä kohti esiin tulee helmi: neljä helmeä sanalle s · u · s · i. Jokaiseen helmeen tulee kirjain, ja kun lapsi päästää irti, helmet napsahtavat yhteen sanaksi. Tämä on vuorovaikutteinen kirjoittamisen harjoitus 1. luokalle, ja se toimii selaimessa.",
+        "Jos toisessa helmessä on o, kuminauha heittää juuri sen helmen pois rivistä, ja lapsi näkee, mitä äännettä pitää kuunnella uudelleen. Muut asetukset antavat ensimmäisen äänteen, jättävät yhden äänteen pois, tarjoavat sanalistan tai näppäimistön, antavat lapsen itse päättää, montako helmeä hän vetää esiin, tai kääntävät tehtävän: kuminauha tulee kirjaimineen, ja lapsi lukee sanan ja etsii kuvan. Pitkät äänteet kirjoitetaan kahdella kirjaimella, kahteen helmeen, kuten kuu.",
+        "Harjoitus tukee OPS 2014:n tavoitteita: sanojen kirjoittamista äänne kerrallaan. Ei ajastinta eikä pisteitä."
+      ],
+      "practices": [
+        "Sanan sanominen hitaasti ja jokaisen äänteen kuuleminen järjestyksessä",
+        "Yhden kirjaimen kirjoittaminen jokaista äännettä kohti",
+        "Vokaalien tarkka kuunteleminen",
+        "Pitkän äänteen kirjoittaminen kahdella kirjaimella"
+      ],
+      "howToPlay": [
+        "Katso kuvaa ja sano sen nimi hitaasti.",
+        "Vedä nupista: yksi helmi jokaista äännettä kohti. Laita jokaiseen helmeen kirjain.",
+        "Paina Tarkista ja katso, napsahtavatko helmet yhteen vai lentääkö jokin helmi pois."
+      ],
+      "learningGoals": [
+        "Lapsi jakaa lyhyen sanan äänteisiin",
+        "Lapsi kirjoittaa jokaisen äänteen kirjaimen oikeassa järjestyksessä",
+        "Lapsi yhdistää äänteet takaisin sanaksi"
+      ]
     }
   }
 }

@@ -2931,6 +2931,29 @@
         "Barnet ser vid vilken bokstav två ord skiljer sig",
         "Barnet läser rimord och längre ord i stavelser"
       ]
+    },
+    "cvc-builder.build-cvc-word.rf-k-3": {
+      "about": [
+        "Bilden visar en sol; ordet står ingenstans. Barnet drar i knoppen på ett gummiband, och för varje ljud hoppar en pärla fram: tre pärlor för s · o · l. På varje pärla läggs en bokstav, och när barnet släpper smäller pärlorna ihop till ordet. En interaktiv stavningsövning för åk 1 som fungerar i webbläsaren.",
+        "Ligger det ett u på den mittersta pärlan slungar gummit ut just den pärlan ur raden, så att barnet ser vilket ljud det ska lyssna efter igen. Andra inställningar ger det första ljudet, låter ett ljud saknas, ger en ordlista eller ett tangentbord, låter barnet själv bestämma hur många pärlor det drar ut, eller vänder på uppgiften: gummit kommer med bokstäver och barnet läser ordet och hittar bilden. Med dubbelteckning delar två bokstäver på en pärla, som tt i katt.",
+        "Övningen följer Lgr22: att skriva ord ljud för ljud. Ingen tidtagning och inga poäng."
+      ],
+      "practices": [
+        "Att säga ett ord långsamt och höra varje ljud i ordning",
+        "Att skriva en bokstav för varje ljud",
+        "Att lyssna extra noga efter vokalen i mitten",
+        "Att skriva en lång konsonant med två bokstäver, som tt"
+      ],
+      "howToPlay": [
+        "Titta på bilden och säg namnet långsamt.",
+        "Dra i knoppen: en pärla för varje ljud. Lägg en bokstav på varje pärla.",
+        "Tryck på Kolla och se om pärlorna smäller ihop eller vilken pärla som åker ut."
+      ],
+      "learningGoals": [
+        "Barnet delar upp ett kort ord i ljud",
+        "Barnet skriver bokstaven för varje ljud i rätt ordning",
+        "Barnet drar ihop ljuden till ordet igen"
+      ]
     }
   }
 }

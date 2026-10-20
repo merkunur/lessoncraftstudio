@@ -163,13 +163,16 @@ if (!scope.length) {
             const o = window[k];
             if (o && typeof o === 'object' && typeof o.nextTask === 'function') { tool = o; break; }
           }
-          /* a pool that lives in the tool's core (no manifest count): ask the tool */
-          if (!(count > 0) && typeof tool._ensurePool === 'function') count = 2 * tool._ensurePool().length;
+          /* a pool that lives in the tool's core: the tool's OWN pool for THIS locale is the pass length.
+             ⚠ the manifest count is the SMALLEST locale pool (poolSize), so a locale with a longer pool
+             (row 42: en 13 rounds, the rest 11) was probed in 11-round windows that straddle its pass
+             boundary and read as "pass-2 is not the same item set" — a measurement artifact. */
+          if (typeof tool._ensurePool === 'function') count = 2 * tool._ensurePool().length;
           const out = [];
           for (let i = 0; i < count; i++) { const t = tool.nextTask({ index: i, completed: i }); out.push(t ? t.id : null); }
           return out;
         }, 2 * N);
-        const Np = N > 0 ? N : ids.length / 2;
+        const Np = ids.length / 2;
         const pass1 = ids.slice(0, Np), pass2 = ids.slice(Np, 2 * Np);
         const distinct = new Set(pass1).size;
         const sameSet = pass1.slice().sort().join('|') === pass2.slice().sort().join('|');

@@ -4025,25 +4025,25 @@
     },
     "choice-board.read-cvc-word.rf-k-3": {
       "about": [
-        "Lola la lechuza mira cada palabra con mucha atención. Su hijo/a ve una palabra escrita —por ejemplo, «gato»— y toca el dibujo que le corresponde. Uno de los dibujos empieza igual (el gallo), así que hay que leer toda la palabra, no solo la primera letra.",
-        "La actividad practica unir las letras para leer palabras cortas: gato, sol, casa, pez… Leer la palabra completa y relacionarla con su dibujo es el corazón de aprender a leer.",
-        "Corresponde al eje «Lectura». Sin presiones: sin cronómetro, sin puntaje, sin perder; su hijo/a lee con calma con Lola la lechuza."
+        "La palabra impresa es una etiqueta con un cordón: gato. En un tablero de corcho cuelgan cuatro dibujos cuyos nombres empiezan igual: un gato, un gallo, un globo y una gorra. El niño o la niña cuelga la etiqueta en un dibujo y toca Revisar. Entonces la etiqueta se pega desde la izquierda, letra por letra. Es una actividad interactiva de lectura para 1.º de primaria que funciona en el navegador.",
+        "En el gallo se pegan la g y la a; en la t la esquina se levanta y la etiqueta se despega y vuelve a la charola, con la t marcada. Así, adivinar por la primera letra falla al final, y se ve exactamente hasta dónde coincidía la palabra. Otros niveles: colgar palabras que riman (boca, foca, roca), unir sílabas en una etiqueta (tor·tu·ga junto a un tor·ni·llo) y un memorama de dibujos y etiquetas.",
+        "La actividad se basa en los programas de estudio de la SEP: leer palabras completas, letra por letra, hasta el final. Sin cronómetro y sin puntuación."
       ],
       "practices": [
-        "Leer palabras cortas letra por letra",
-        "Unir las letras para formar la palabra",
-        "Fijarse en toda la palabra, no solo en la primera letra",
-        "Relacionar la palabra escrita con su dibujo"
+        "Leer una palabra corta hasta la última letra",
+        "Distinguir palabras que empiezan igual",
+        "Leer palabras que riman, donde solo cambia el principio",
+        "Unir sílabas y leer una palabra más larga"
       ],
       "howToPlay": [
-        "Lee la palabra que aparece",
-        "Piénsala letra por letra",
-        "Toca el dibujo que le corresponde"
+        "Lee la palabra de la etiqueta.",
+        "Arrastra la etiqueta a su dibujo, o toca primero la etiqueta y luego el dibujo.",
+        "Toca Revisar y mira si la etiqueta se queda pegada o se despega en la primera letra diferente."
       ],
       "learningGoals": [
-        "Su hijo/a lee sus primeras palabras",
-        "Decodifica palabras cortas con seguridad",
-        "Une lo que lee con su significado"
+        "Lee una palabra corta de izquierda a derecha, hasta el final",
+        "Nota en qué letra se diferencian dos palabras",
+        "Lee palabras que riman y palabras más largas por sílabas"
       ]
     },
     "fraction-equiv.same-amount.3-nf-a-3": {

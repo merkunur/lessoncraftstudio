@@ -4061,25 +4061,25 @@
     },
     "choice-board.read-cvc-word.rf-k-3": {
       "about": [
-        "Quem acompanha essa leitura é Cora, a coruja — uma leitora sábia e tranquila que fica ao lado da criança em cada palavra. Ela mostra a palavra escrita e convida seu filho ou sua filha a ler com calma, no próprio ritmo.",
-        "Uma palavra curta aparece na tela, como “gato”, e embaixo surgem quatro figuras. A criança lê as letras em silêncio, sozinha, e toca na figura que a palavra nomeia. O detalhe importante é este: uma das figuras começa com as mesmas primeiras letras, então não dá para adivinhar pelo comecinho — é preciso ler até o fim para descobrir a palavra certa.",
-        "Ler a palavra inteira, letra por letra, é um passo essencial da alfabetização: é assim que a criança aprende a decodificar de verdade. E aqui ninguém tem pressa. Cora nunca diz “errado” — se a criança se confunde, ela dá uma dica gentil para ler de novo, com calma. Não há relógio, cronômetro nem placar, só o prazer de ler. Tudo alinhado à BNCC."
+        "A palavra impressa é uma etiqueta com um cordão: gato. Num quadro de cortiça estão penduradas quatro figuras: um gato, um galo, um globo e um anel. A criança pendura a etiqueta numa figura e toca em Verificar. Então a etiqueta gruda da esquerda para a direita, letra por letra. É uma atividade interativa de leitura para o 1º ano que funciona no navegador.",
+        "No galo grudam o g e o a; no t a ponta levanta, e a etiqueta descola e volta para a bandeja, com o t marcado. Assim, chutar pela primeira letra falha no final, e a criança vê exatamente até onde a palavra combinava. Outros níveis: pendurar palavras que rimam (gato, pato, rato), juntar sílabas numa etiqueta (ca·va·lo ao lado de um ca·ra·col) e um jogo da memória com figuras e etiquetas.",
+        "A atividade se apoia na BNCC: ler palavras com precisão, letra por letra, até o fim. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Ler palavras curtas sozinho",
-        "Decodificar a palavra inteira, letra por letra",
-        "Ligar a palavra escrita à figura certa",
-        "Ler até o fim, sem adivinhar pela primeira letra"
+        "Ler uma palavra curta até a última letra",
+        "Diferenciar palavras que começam igual",
+        "Ler palavras que rimam, em que só muda o começo",
+        "Juntar sílabas e ler uma palavra mais comprida"
       ],
       "howToPlay": [
-        "Leia a palavra que aparece.",
-        "Leia até o fim — uma figura começa igual!",
-        "Toque na figura que combina com a palavra."
+        "Leia a palavra da etiqueta.",
+        "Arraste a etiqueta até a figura, ou toque primeiro na etiqueta e depois na figura.",
+        "Toque em Verificar e veja se a etiqueta fica grudada ou descola na primeira letra diferente."
       ],
       "learningGoals": [
-        "Ler palavras curtas de forma independente, no próprio ritmo.",
-        "Decodificar a palavra inteira, sem adivinhar pela primeira letra.",
-        "Ligar a palavra escrita ao seu significado e à figura — habilidades de leitura alinhadas à BNCC."
+        "A criança lê uma palavra curta da esquerda para a direita, até o fim",
+        "A criança percebe em qual letra duas palavras são diferentes",
+        "A criança lê palavras que rimam e palavras mais compridas por sílabas"
       ]
     },
     "fraction-equiv.same-amount.3-nf-a-3": {

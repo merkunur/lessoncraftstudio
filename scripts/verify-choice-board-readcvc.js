@@ -21,6 +21,11 @@
    Exit 0 = pass; 1 = fail.
    ===================================================================== */
 'use strict';
+/* RETIRED 2026-10-20 (rebuild #57): the row left choice-board for The Sticky Name Tag (name-tag-activities.json). */
+if (!require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'choice-board-activities.json'), 'utf8').includes('read-cvc-word.rf-k-3')) {
+  console.log('verify-choice-board-readcvc: retired — the row is now The Sticky Name Tag (node scripts/verify-name-tag-core.js)');
+  process.exit(0);
+}
 const fs = require('fs');
 const path = require('path');
 

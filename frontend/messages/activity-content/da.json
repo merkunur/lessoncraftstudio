@@ -2059,6 +2059,29 @@
         "Barnet holder styr på, hvilken lyd der blev skiftet",
         "Barnet ser, at hver ny lyd giver et nyt ord"
       ]
+    },
+    "choice-board.read-cvc-word.rf-k-3": {
+      "about": [
+        "Det trykte ord er et navneskilt i en snor: kop. På en opslagstavle hænger fire billeder, hvis navne begynder ens: en kop, en kok, en kost og en kam. Barnet hænger skiltet på et billede og trykker på Tjek. Så sætter skiltet sig fast fra venstre, bogstav for bogstav. En interaktiv læseøvelse til 1. klasse, som virker i browseren.",
+        "På kokken sidder k og o fast, ved p bøjer hjørnet op, og skiltet falder tilbage i bakken med p’et markeret. Gætteri ud fra første bogstav holder altså ikke helt til ende, og barnet ser præcis, hvor langt ordet passede. Andre niveauer: hæng rimord op (hus, mus, krus), sæt stavelser sammen til ét skilt (ka·nin ved siden af en ka·mel) og vendespil med billeder og skilte.",
+        "Øvelsen følger Fælles Mål for dansk: at afkode ord helt til sidste bogstav. Intet ur og ingen point."
+      ],
+      "practices": [
+        "At læse et kort ord helt til sidste bogstav",
+        "At skelne ord, der begynder ens",
+        "At læse rimord, hvor kun begyndelsen skifter",
+        "At sætte stavelser sammen og læse et længere ord"
+      ],
+      "howToPlay": [
+        "Læs ordet på skiltet.",
+        "Træk skiltet hen på dets billede, eller tryk først på skiltet og så på billedet.",
+        "Tryk på Tjek, og se om skiltet sidder fast eller slipper ved det første bogstav, der er anderledes."
+      ],
+      "learningGoals": [
+        "Barnet afkoder et kort ord fra venstre mod højre helt til ende",
+        "Barnet ser, ved hvilket bogstav to ord er forskellige",
+        "Barnet læser rimord og længere ord i stavelser"
+      ]
     }
   }
 }

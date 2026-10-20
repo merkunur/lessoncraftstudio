@@ -21,6 +21,11 @@
    Usage: node scripts/local-test-choice-board-readcvc.js [--shot]
    ===================================================================== */
 'use strict';
+/* RETIRED 2026-10-20 (rebuild #57): the row left choice-board for The Sticky Name Tag (name-tag-activities.json). */
+if (!require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'choice-board-activities.json'), 'utf8').includes('read-cvc-word.rf-k-3')) {
+  console.log('local-test-choice-board-readcvc: retired — the row is now The Sticky Name Tag (node scripts/local-test-name-tag.js)');
+  process.exit(0);
+}
 const http = require('http');
 const fs = require('fs');
 const path = require('path');

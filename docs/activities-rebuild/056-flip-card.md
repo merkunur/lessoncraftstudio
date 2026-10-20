@@ -73,3 +73,9 @@ ORDER row 56 · id `pepper-sound-swap.substitute.rf-k-2-e` (kept).
 - `mutate-flip-card.js`: 20 / 20 killed.
 - `local-test-flip-card.js`: 2764 / 0. A real pointer plays every round of every shown level in 11 locales at 704. The 320–1366 sweep checks rest and miss states.
 - `visual-qa-activity.js` (en / de / fi / fr / no) PASS · `audit-activity-hierarchy.js` 422 / 0 · `audit-settings-efficacy` live · the static gates are green.
+
+## Deploy (2026-10-20)
+- Commit `c77303cf`. Copied the files and the preview to `/var/www/lcs-media/mini-tools/`, then ran `deploy.sh`: EXIT 0, payment canary clean, server 133 GB free.
+- `live-verify-flip-card.js`: 75 / 0 on production. The first run raced the page cache (19 / 7 "page embeds"); the re-run was clean.
+- Variety probe (en): 10 distinct, pass 2 reshuffled.
+- All 11 locale pages return 200.

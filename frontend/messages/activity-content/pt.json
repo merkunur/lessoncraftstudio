@@ -1341,25 +1341,25 @@
     },
     "syllable-builder.forme-as-silabas.rf-k-2-b": {
       "about": [
-        "A criança vê uma imagem e forma a palavra colocando as sílabas na ordem certa — toca em cada pedacinho, ouve o som dele e, ao montar a palavra completa, escuta a palavra inteira pronunciada. É uma atividade interativa de fonética para a educação infantil, que roda direto no navegador, sem baixar nada e sem precisar de conta.",
-        "A grande ideia é que as palavras faladas são feitas de partes menores: as sílabas. Ao arrastar e encaixar cada sílaba na ordem, a criança conta, pronuncia e junta os pedaços até a palavra fazer sentido — um trabalho de consciência fonológica que é a base da alfabetização. Ouvir cada sílaba e depois a palavra inteira liga o som à escrita de um jeito concreto.",
-        "A atividade está alinhada à BNCC, no trabalho de contar, pronunciar, juntar e separar as sílabas das palavras faladas. Sem cronômetro, sem pontuação: só prática calma e brincante para crianças da pré-escola."
+        "A palavra é um cadeado de segredo: cada rodinha é uma família silábica — ga, ge, gi, go, gu — e o cadeado só abre quando cada rodinha mostra a sílaba que o nome da figura pede. A criança gira as rodinhas, e uma plaquinha embaixo delas sempre mostra o que elas dizem naquele momento: gi·to, gu·to, ga·to. É uma atividade interativa de consciência fonológica para a educação infantil e o 1º ano, que funciona no navegador.",
+        "O cadeado responde: ao apertar Verificar, as rodinhas certas recebem um pino e ficam paradas, a rodinha errada balança e o cadeado continua fechado. Na segunda tentativa, uma marquinha dourada mostra para que lado girar e a palavra aparece clarinha embaixo da plaquinha. Quando todas as sílabas estão certas, o cadeado abre, a figura gira e uma chave com a palavra vai para o chaveiro.",
+        "A atividade se apoia na BNCC: juntar e separar as sílabas das palavras faladas, lendo cada sílaba dentro da sua família silábica, do jeito que as famílias silábicas aparecem na parede da sala. Três níveis usam o mesmo cadeado: palavras de duas sílabas, palavras maiores com três ou quatro rodinhas, e montar o cadeado colocando as rodinhas soltas na ordem, com uma rodinha que sobra. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Reconhecer a imagem e dizer a palavra correspondente.",
-        "Colocar as sílabas na ordem certa para formar a palavra.",
-        "Ouvir o som de cada sílaba e juntá-los para ler a palavra inteira.",
-        "Contar e separar as sílabas das palavras faladas."
+        "Trocar a vogal de uma sílaba dentro da família silábica",
+        "Juntar as sílabas na ordem para formar a palavra",
+        "Separar uma palavra falada em sílabas",
+        "Perceber qual sílaba não pertence à palavra"
       ],
       "howToPlay": [
-        "Olhe a imagem e pense na palavra que ela mostra.",
-        "Toque ou arraste as sílabas para colocá-las na ordem certa e formar a palavra.",
-        "Ouça a palavra completa e tente de novo quantas vezes quiser — não tem cronômetro nem pontuação."
+        "Toque na figura para ouvir a palavra.",
+        "Gire cada rodinha até a sílaba certa: arraste para cima ou para baixo, ou toque nas setinhas.",
+        "Quando a plaquinha disser o nome da figura, aperte Verificar e veja o cadeado abrir."
       ],
       "learningGoals": [
-        "Juntar e separar sílabas para formar palavras faladas.",
-        "Entender que as palavras são feitas de partes menores que se encaixam na ordem.",
-        "Fortalecer a consciência fonológica que prepara a leitura e a escrita."
+        "A criança troca a vogal e ouve a sílaba mudar dentro da família silábica",
+        "A criança junta as sílabas na ordem para formar a palavra",
+        "A criança separa a palavra falada em sílabas e encontra a que sobra"
       ]
     },
     "array.equal-groups.2-oa-c-4": {

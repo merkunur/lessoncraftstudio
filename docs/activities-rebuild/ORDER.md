@@ -65,7 +65,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 55 | LIVE 2026-10-20 · The Pop-Up Sound Boxes | K | RF.K.2.d | `sound-boxes.phoneme-position.rf-k-2-d` | sound-boxes-activity | Coco's Sound Boxes — First, Middle & Last Sounds (Kindergarten) |
 | 56 | LIVE 2026-10-20 · Pepper's Flip Card | K | RF.K.2.e | `pepper-sound-swap.substitute.rf-k-2-e` | pepper-sound-swap-activity | Pepper's Sound Swap — Change a Sound, Make a New Word (Kindergarten) |
 | 57 | LIVE 2026-10-20 · The Sticky Name Tag | K | RF.K.3 | `choice-board.read-cvc-word.rf-k-3` | choice-board-activity | Read the Word, Tap the Picture — Decoding CVC Words |
-| 58 |  | K | RF.K.3 | `cvc-builder.build-cvc-word.rf-k-3` | cvc-builder-activity | Build the CVC Word — Kindergarten Phonics |
+| 58 | LIVE 2026-10-21 · The Word Elastic | K | RF.K.3 | `cvc-builder.build-cvc-word.rf-k-3` | cvc-builder-activity | Build the CVC Word — Kindergarten Phonics |
 | 59 |  | K | RF.K.3.a | `choice-board.beginning-sound.rf-k-3-a` | choice-board-activity | Beginning Sounds — Match the First Letter Sound |
 | 60 |  | K | RF.K.3.c | `choice-board.read-sight-word.rf-k-3-c` | choice-board-activity | Read Common Sight Words — Hear It, Tap It (Kindergarten) |
 | 61 |  | K | RF.K.3.c | `choice-board.tell-words-apart.rf-k-3-c` | choice-board-activity | Tell the Words Apart — Hear It, Spot the Right One (Kindergarten) |

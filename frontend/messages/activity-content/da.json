@@ -825,26 +825,25 @@
     },
     "syllable-builder.byg-ordet-af-stavelser.da.rf-k-2-b": {
       "about": [
-        "Byg ordet af stavelser er en interaktiv fonetikaktivitet til børnehaveklassen, der spilles direkte i browseren uden konto. Barnet ser et billede af en ting og bygger ordet ved at lægge stavelsesbrikkerne i den rigtige rækkefølge — fx bliver brikkerne ba og nan og en til ba-nan-en, eller so og len til so-len.",
-        "Pointen er at høre, hvordan et talt ord er bygget af stavelser, og sætte dem sammen til hele ordet. Barnet lægger ikke bogstaver, men hele stavelser, og opdager på den måde, at lange ord kan deles op i mindre, overskuelige lyddele. At kunne dele ord i stavelser og blande dem sammen igen er et vigtigt skridt på vejen til at læse og stave.",
-        "Aktiviteten følger Fælles Mål inden for tidlig læsning: at tælle, udtale, blande og dele stavelser i talte ord. Der er ingen timer og ingen point — bare rolig, legende træning i børnehaveklassen."
+        "Billedet ligger langt ude på en ø, og barnet ser det gennem en kikkert af messing. Kikkerten skal trækkes ud ét klik for hver stavelse i ordet. Barnet trykker på billedet for at høre ordet, trækker kikkerten ud og trykker på Kig! for at se igennem den. Det er en interaktiv aktivitet i fonologisk opmærksomhed til børnehaveklassen, som kører i browseren uden installation.",
+        "Opfindelsen er billedets skarphed: billedet er kun skarpt, når kikkerten har præcis lige så mange ringe, som ordet har stavelser, og i den rigtige rækkefølge. Er kikkerten for kort, bærer den sidste ring to stavelser, og billedet er sløret og forskudt; er den for lang, står en ring tom, og billedet er sløret og for lille. Når det passer, står hver stavelse på sin ring: ka … nin, kanin. Alle ringene er lige store, så kikkerten afslører ikke, hvor mange stavelser ordet har.",
+        "Øvelsen understøtter Fælles Mål for børnehaveklassen: at tælle, udtale, sætte sammen og dele stavelser i talte ord. Tre niveauer bruger den samme kikkert: træk kikkerten ud og tæl stavelserne, byg kikkerten af stavelsesringe i den rigtige rækkefølge, og find den ring, der mangler. Alle ord er valgt, så de klappes med lige så mange stavelser, som de skrives med, når man siger dem tydeligt. Uden tidtagning og uden point."
       ],
       "practices": [
-        "Genkende den ting, billedet viser, og finde dens navn",
-        "Dele et talt ord op i stavelser",
-        "Lægge stavelserne i den rigtige rækkefølge, så ordet bliver helt",
-        "Blande stavelser sammen til ét ord — fx so-len bliver solen",
-        "Lytte til, hvordan stavelserne lyder hver for sig og sammen"
+        "Tælle stavelserne i et talt ord",
+        "Sætte stavelser sammen til et helt ord",
+        "Sætte stavelserne i den rigtige rækkefølge",
+        "Finde den stavelse, der mangler i et ord"
       ],
       "howToPlay": [
-        "Barnet kigger på billedet og finder ud af, hvilket ord det skal bygge.",
-        "Barnet trykker på eller trækker stavelsesbrikkerne og lægger dem i den rigtige rækkefølge.",
-        "Tryk på Tjek for at høre og se, om ordet passer — er det ikke rigtigt, kan barnet roligt prøve igen."
+        "Tryk på billedet for at høre ordet.",
+        "Træk kikkerten ud ét klik for hver stavelse, eller træk stavelsesringene op på kikkerten.",
+        "Tryk på Kig! Et skarpt billede betyder, at det passer; et sløret billede viser, hvad der skal rettes."
       ],
       "learningGoals": [
-        "Barnet kan dele et talt ord op i stavelser",
-        "Barnet kan blande stavelser sammen til hele ord",
-        "Barnet kan opbygge den fonologiske opmærksomhed, der er grundlaget for at lære at læse"
+        "Barnet kan tælle stavelserne i et talt ord",
+        "Barnet kan sætte stavelser sammen til hele ord i den rigtige rækkefølge",
+        "Barnet kan høre, hvilken stavelse der mangler i et ord"
       ]
     },
     "choice-board.shape-id.k-g-a-2": {

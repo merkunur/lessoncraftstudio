@@ -89,7 +89,7 @@ function serve() { return http.createServer((req, res) => { const p = decodeURIC
     const s = await state(page);
     is(s.done && (await page.evaluate(() => (document.querySelector('.sst-word') || {}).textContent)) === w, `${r.id}: right — the stones close up into "${w}"`);
     is((await page.evaluate(() => [...document.querySelectorAll('.sst-lily span')].map(e => e.textContent))).includes(w), `${r.id}: a lily with "${w}" in the pond`);
-    is(await page.evaluate(() => { const f = document.querySelector('.sst-frog').getBoundingClientRect(), b = document.querySelector('.sst-far').getBoundingClientRect(); return Math.hypot(f.left + f.width / 2 - (b.left + b.width / 2), f.top + f.height / 2 - (b.top + b.height / 2)) < b.width; }), `${r.id}: the frog reached the far bank`);
+    is(await page.evaluate(() => { const f = document.querySelector('.sst-frog').getBoundingClientRect(), b = document.querySelector('.sst-far').getBoundingClientRect(); const gx = Math.max(0, b.left - f.right, f.left - b.right), gy = Math.max(0, b.top - f.bottom, f.top - b.bottom); return gx <= 16 && gy <= 16; }), `${r.id}: the frog reached the far bank (beside its frame)`);
     is(await celebrated(page), `${r.id}: celebrates`);
   }
 
@@ -223,7 +223,11 @@ function serve() { return http.createServer((req, res) => { const p = decodeURIC
           const pics = [...document.querySelectorAll('.sst-sign img,.sst-far img,.sst-frog img')].map(e => e.getBoundingClientRect().width);
           let hit = 0; for (let i = 0; i < stones.length; i++) for (let j = i + 1; j < stones.length; j++) { const a = stones[i], b = stones[j]; if (a.offsetLeft < b.offsetLeft + b.offsetWidth - 1 && b.offsetLeft < a.offsetLeft + a.offsetWidth - 1) hit++; }
           const chalk = [...document.querySelectorAll('.sst-chalk,.sst-banner b,.sst-word,.sst-card')].filter(e => e.textContent).map(e => parseFloat(getComputedStyle(e).fontSize));
+          /* the frog never stands in the far bank's frame (it may sit beside it) */
+          const fr = document.querySelector('.sst-frog').getBoundingClientRect(), fb = document.querySelector('.sst-far').getBoundingClientRect();
+          const ov = Math.max(0, Math.min(fr.right, fb.right) - Math.max(fr.left, fb.left)) * Math.max(0, Math.min(fr.bottom, fb.bottom) - Math.max(fr.top, fb.top));
           return {
+            frogFar: Math.round(ov),
             side: de.scrollWidth - de.clientWidth,
             small: ctl.filter(e => { const b = e.getBoundingClientRect(); return b.width < 44 - 0.5 || b.height < 44 - 0.5; }).map(e => e.className).slice(0, 3),
             out: ctl.filter(e => { const b = e.getBoundingClientRect(); return b.left < app.left - 1 || b.right > app.right + 1; }).length,
@@ -235,6 +239,7 @@ function serve() { return http.createServer((req, res) => { const p = decodeURIC
         const minPic = w >= 704 ? 96 : 64;
         is(m.side <= 0 && !m.small.length && m.out === 0 && m.inScene && m.pic >= minPic - 0.5, `${tag} ${phase}: no sideways scroll, controls ≥ 44 inside the card, stones in the scene, pictures ≥ ${minPic} (side ${m.side}, small ${m.small.join('/')}, out ${m.out}, scene ${m.inScene}, pic ${Math.round(m.pic)})`);
         is(m.hit === 0 && m.chalk >= 14, `${tag} ${phase}: no two stones overlap, syllables ≥ 14 px (hit ${m.hit}, syl ${m.chalk})`);
+        is(m.frogFar <= 16, `${tag} ${phase}: the frog stays out of the far bank's frame (${m.frogFar} px²)`);
         is(m.low <= m.H, `${tag} ${phase}: every control above the fold (${Math.round(m.low)} ≤ ${m.H})`);
         if (SHOT && (w === 360 || w === 704 || w === 1024) && ['count-motorcykel', 'build-paraply', 'hidden-vattenmelon'].includes(id)) await o.page.screenshot({ path: path.join(SHOT, `sv-${w}-${id}-${phase}.png`), fullPage: true });
       }

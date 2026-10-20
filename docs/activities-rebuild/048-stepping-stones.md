@@ -64,13 +64,14 @@ ORDER row 48 · id `syllable-builder.bygg-ordet-av-stavelser.rf-k-2-b` (kept).
   - **Hidden:** EVERY subset of lifted stones — made = the kept syllables; right iff made = the target; picture / written word / no word exactly per the table; no "no word" leftover is a Swedish word.
   - **Also:** the hint ladder, the order rule, the strings (no price word, never «grupp», Gömda ord never asks for one stone), and the frozen manifest.
 - **`mutate-stepping-stones.js`:** 27 of 27 mutations killed (incl. te / hop / fladder shown as no word, the teddy bear, the maning trick stone, the orange fish).
-- **`local-test-stepping-stones.js`:** 2,256 checks, 0 failures — a real pointer at 704 for every round of every level — water and pile taps, drags to the end and to gap 0, the tip-back, the trick stone, the miss-2 glow, every wrong lift watched in real time on the far bank, settings and keyboard. The sweep 320–1366 at rest, miss and done asserts:
+- **`local-test-stepping-stones.js`:** 2,886 checks, 0 failures — a real pointer at 704 for every round of every level — water and pile taps, drags to the end and to gap 0, the tip-back, the trick stone, the miss-2 glow, every wrong lift watched in real time on the far bank, settings and keyboard. The sweep 320–1366 at rest, miss and done asserts:
   - no sideways scroll;
   - controls ≥ 44 px inside the card;
   - water stones in the scene and never overlapping;
   - syllables ≥ 14 px;
   - pictures ≥ 64 / 96 px;
-  - every control above the fold.
+  - every control above the fold;
+  - the frog never stands in the far bank's frame.
 - **Other gates:**
   - `visual-qa-activity.js --locale=sv`: 60 renders pass;
   - `audit-activity-hierarchy.js`: 362 / 0;
@@ -78,6 +79,7 @@ ORDER row 48 · id `syllable-builder.bygg-ordet-av-stavelser.rf-k-2-b` (kept).
   - the sv content gate, prose claims, SERP copy, content tells, answer rank, route preflight and font shorthand are green.
 - **Read by me:** the five contact sheets; rest, miss and done at 360, 704 and 1024; the preview.
 - **Fixes from the sweep:** at 320 × 640 Hoppa! sat 19 px below the fold (the sign is 72 px there, the pile and gaps tighter); over a pass the lily pads grew the pond taller than the sign (now capped, newest first); four fixed-width pile stones wrapped to two rows (pile stones now size to their syllable).
+- **Found on the first live shot (390 px), fixed in the follow-up commit:** a frog standing on the rightmost stone poked into the far bank's frame. No gate measured it. The top bank is now taller on phones (the 360 viewport has a 328 px stage, which falls in the < 340 branch), the success frog stands beside the frame, the phone pond shows only whole rows of lily pads, and the sweep asserts the frog never stands in the frame — poisoned on the old layout (15 failures).
 
 ## Review (one agent, Swedish native + förskoleklass pedagogy): applied
 - **Required:**

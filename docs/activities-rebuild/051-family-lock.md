@@ -101,3 +101,13 @@ ORDER row 51 · id `syllable-builder.forme-as-silabas.rf-k-2-b` (kept).
   - «mesclar» is a calque of "blend" (the native wording is juntar / unir);
   - «contar … sílabas» is not done here;
   - «colocando as sílabas em ordem» describes only Level 3.
+
+## Deploy (2026-10-20)
+- **Commit 63c2924c.** deploy.sh returned EXIT 0, with 0 payment-canary failures. The preview webp was copied to the server before the build.
+- **Production play: 16 / 16** (pt at 1366 and 390).
+  - Gato: Check untouched asks; a nub click and Check → miss 1 with pins on the right wheels; the gold nubs finish it → the plate reads gato, and a key lands on the keyring.
+  - Tigre: ti + gre tapped into the sockets → the lock opens.
+  - The wrapper version matches, and the iframe grows with the card.
+- **The live phone shot (390)** is clean.
+- **Live variety probe (pt):** 10 distinct rounds, and pass 2 is reshuffled.
+- **Server disk after the deploy:** 134 GB available of 436 GB (68 % used).

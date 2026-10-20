@@ -87,3 +87,13 @@ ORDER row 45 · id `syllable-builder.build-words-from-syllables.rf-k-2-b` (kept)
 
 ## FROZEN-NOTEs (not changed — metadata is frozen)
 - **The intro** describes only the Tie level, and says "tapping" where the main hand is dragging.
+
+## Deploy (2026-10-20)
+- **Commit 60f62503.** deploy.sh returned EXIT 0, with 0 payment-canary failures. The en page returns 200. The preview webp was copied to the server before the build.
+- **Production play: 20 / 20** (en at 1366 and 390).
+  - Butterfly: on two bows the kite spins (a miss); on three it flies steady.
+  - Carrot: dragged on in reverse, the tail knots (a miss); in order it flies steady.
+  - Panda: on the one-bow kite it misses; on the two-bow kite it fits.
+  - The wrapper version matches, and the iframe grows with the card.
+- **Live variety probe (en):** 10 distinct rounds, and pass 2 is reshuffled.
+- **Server disk after the deploy:** 134 GB available of 436 GB (68 % used).

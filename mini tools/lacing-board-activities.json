@@ -1,0 +1,237 @@
+[
+  {
+    "id": "syllable-builder.bygg-ordet-av-stavelser.no.rf-k-2-b",
+    "tool": "lacing-board-activity",
+    "task_template": "lacing-board",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.2.B",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "note": "The words and their gated splits live in lacing-board-core.js (LEVELS); the gate re-reads approved-words-no.json. This list mirrors the core so the gates can size each level.",
+      "rounds": [
+        {
+          "id": "thread-klokke",
+          "word": "klokke",
+          "split": "klok-ke"
+        },
+        {
+          "id": "thread-banan",
+          "word": "banan",
+          "split": "ba-nan"
+        },
+        {
+          "id": "thread-kjole",
+          "word": "kjole",
+          "split": "kjo-le"
+        },
+        {
+          "id": "thread-kanin",
+          "word": "kanin",
+          "split": "ka-nin"
+        },
+        {
+          "id": "thread-panda",
+          "word": "panda",
+          "split": "pan-da"
+        },
+        {
+          "id": "thread-tiger",
+          "word": "tiger",
+          "split": "ti-ger"
+        },
+        {
+          "id": "thread-delfin",
+          "word": "delfin",
+          "split": "del-fin"
+        },
+        {
+          "id": "thread-snømann",
+          "word": "snømann",
+          "split": "snø-mann"
+        },
+        {
+          "id": "thread-traktor",
+          "word": "traktor",
+          "split": "trak-tor"
+        },
+        {
+          "id": "thread-solsikke",
+          "word": "solsikke",
+          "split": "sol-sik-ke"
+        }
+      ],
+      "levels": {
+        "thread": [
+          {
+            "id": "thread-klokke",
+            "word": "klokke",
+            "split": "klok-ke"
+          },
+          {
+            "id": "thread-banan",
+            "word": "banan",
+            "split": "ba-nan"
+          },
+          {
+            "id": "thread-kjole",
+            "word": "kjole",
+            "split": "kjo-le"
+          },
+          {
+            "id": "thread-kanin",
+            "word": "kanin",
+            "split": "ka-nin"
+          },
+          {
+            "id": "thread-panda",
+            "word": "panda",
+            "split": "pan-da"
+          },
+          {
+            "id": "thread-tiger",
+            "word": "tiger",
+            "split": "ti-ger"
+          },
+          {
+            "id": "thread-delfin",
+            "word": "delfin",
+            "split": "del-fin"
+          },
+          {
+            "id": "thread-snømann",
+            "word": "snømann",
+            "split": "snø-mann"
+          },
+          {
+            "id": "thread-traktor",
+            "word": "traktor",
+            "split": "trak-tor"
+          },
+          {
+            "id": "thread-solsikke",
+            "word": "solsikke",
+            "split": "sol-sik-ke"
+          }
+        ],
+        "decoy": [
+          {
+            "id": "decoy-sommerfugl",
+            "word": "sommerfugl",
+            "split": "som-mer-fugl"
+          },
+          {
+            "id": "decoy-pingvin",
+            "word": "pingvin",
+            "split": "ping-vin"
+          },
+          {
+            "id": "decoy-flaggermus",
+            "word": "flaggermus",
+            "split": "flag-ger-mus"
+          },
+          {
+            "id": "decoy-sjøstjerne",
+            "word": "sjøstjerne",
+            "split": "sjø-stjer-ne"
+          },
+          {
+            "id": "decoy-paraply",
+            "word": "paraply",
+            "split": "pa-ra-ply"
+          },
+          {
+            "id": "decoy-vannmelon",
+            "word": "vannmelon",
+            "split": "vann-me-lon"
+          },
+          {
+            "id": "decoy-helikopter",
+            "word": "helikopter",
+            "split": "he-li-kop-ter"
+          },
+          {
+            "id": "decoy-sjokolade",
+            "word": "sjokolade",
+            "split": "sjo-ko-la-de"
+          },
+          {
+            "id": "decoy-gresskar",
+            "word": "gresskar",
+            "split": "gress-kar"
+          },
+          {
+            "id": "decoy-jordbær",
+            "word": "jordbær",
+            "split": "jord-bær"
+          }
+        ],
+        "count": [
+          {
+            "id": "count-gris",
+            "word": "gris",
+            "split": "gris"
+          },
+          {
+            "id": "count-skjorte",
+            "word": "skjorte",
+            "split": "skjor-te"
+          },
+          {
+            "id": "count-bokhylle",
+            "word": "bokhylle",
+            "split": "bok-hyl-le"
+          },
+          {
+            "id": "count-hund",
+            "word": "hund",
+            "split": "hund"
+          },
+          {
+            "id": "count-sykkel",
+            "word": "sykkel",
+            "split": "syk-kel"
+          },
+          {
+            "id": "count-edderkopp",
+            "word": "edderkopp",
+            "split": "ed-der-kopp"
+          },
+          {
+            "id": "count-alligator",
+            "word": "alligator",
+            "split": "al-li-ga-tor"
+          },
+          {
+            "id": "count-fyrtårn",
+            "word": "fyrtårn",
+            "split": "fyr-tårn"
+          },
+          {
+            "id": "count-kenguru",
+            "word": "kenguru",
+            "split": "ken-gu-ru"
+          },
+          {
+            "id": "count-motorsykkel",
+            "word": "motorsykkel",
+            "split": "mo-tor-syk-kel"
+          }
+        ]
+      }
+    },
+    "theme": null,
+    "slug": {
+      "no": "bygg-ordet-av-stavelser"
+    },
+    "page_title": {
+      "no": "Bygg ordet av stavelser — Fonetikk i barnehagen"
+    },
+    "page_intro": {
+      "no": "Se på bildet og bygg ordet ved å legge stavelsene i riktig rekkefølge. Tilpasset LK20 — telle, uttale, blande og dele stavelser i talte ord."
+    },
+    "kid_prompt_template": "promptBuildSyllables"
+  }
+]

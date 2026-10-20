@@ -176,6 +176,7 @@ const MANIFEST_FILES = [
   'telescope-activities.json',
   'lacing-board-activities.json',
   'stepping-stones-activities.json',
+  'syllable-chain-activities.json',
   'graph-it-activities.json',
   'field-guide-activities.json',
   'rhyme-shop-activities.json',

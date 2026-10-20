@@ -1837,25 +1837,25 @@
     },
     "syllable-builder.forma-la-parola-con-le-sillabe.rf-k-2-b": {
       "about": [
-        "Il bambino guarda un'immagine — per esempio un gatto, una mela o una farfalla — e forma la parola mettendo le sillabe in ordine. Tocca le tessere delle sillabe come GA e TTO, oppure FAR, FAL e LA, e le sistema nei posti giusti per comporre la parola intera. È un'attività di fonetica per la scuola dell'infanzia, interattiva, che si gioca direttamente nel browser, senza download e senza account.",
-        "L'idea importante è che le parole sono fatte di pezzi più piccoli, le sillabe, che si possono separare e unire. Mettendo le sillabe nel giusto ordine il bambino fonde i suoni in una parola che corrisponde all'immagine, e a ogni tessera può ascoltarne il suono per ritrovare l'ordine. Questo lavoro di conteggio, fusione e segmentazione delle sillabe è il primo passo verso la lettura.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito della consapevolezza fonologica: contare, pronunciare, fondere e segmentare le sillabe nelle parole parlate. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
+        "Le immagini si agganciano una all'altra come gli anelli di una catena, e ogni gancio è una sillaba: l'ultima sillaba di una parola è la prima della parola dopo. Da pal·la si passa a la·ma, da la·ma a ma·no. Il bambino tocca o trascina l'immagine giusta e il gancio si chiude con la sillaba incisa sopra. È un'attività interattiva di consapevolezza fonologica per la scuola dell'infanzia, che si gioca direttamente nel browser.",
+        "Il gancio fa da verifica: un'immagine la cui parola non comincia con la sillaba giusta non si chiude, e le due metà del gancio mostrano le due sillabe una accanto all'altra. In quasi ogni cesto c'è un trabocchetto, una parola che finisce con quella sillaba (sca·la quando il gancio dice «la»): così il bambino scopre che la sillaba deve stare all'inizio. Le altre immagini cominciano con lo stesso suono ma con un'altra sillaba (lu·na), quindi non basta guardare la prima lettera.",
+        "L'attività fa riferimento alle Indicazioni nazionali, campo «I discorsi e le parole»: ascoltare, separare e unire le sillabe delle parole parlate. Tre livelli usano la stessa catena: catene corte, catene lunghe e Conta e forma, dove il bambino prepara una casella per ogni battito e poi mette in ordine le sillabe di parole lunghe come far·fal·la e ar·co·ba·le·no. Tutte le divisioni in sillabe sono controllate su più fonti. Nessun timer e nessun punteggio."
       ],
       "practices": [
-        "Riconoscere le sillabe che compongono una parola.",
-        "Mettere le sillabe nel giusto ordine per formare la parola dell'immagine.",
-        "Fondere le sillabe in una parola intera e pronunciarla.",
-        "Collegare la parola formata all'immagine mostrata."
+        "Riconoscere l'ultima sillaba di una parola e la prima di un'altra",
+        "Distinguere una parola che comincia con una sillaba da una che finisce con la stessa sillaba",
+        "Contare le sillabe di una parola battendo le mani",
+        "Mettere in ordine le sillabe per formare parole lunghe"
       ],
       "howToPlay": [
-        "Il bambino guarda l'immagine e ascolta o pronuncia la parola.",
-        "Tocca le tessere delle sillabe e le sistema in ordine nei posti giusti per formare la parola.",
-        "Non è giusto? Si può riprovare quante volte si vuole, senza timer e senza punteggio."
+        "Guarda la sillaba sul gancio aperto e di' il nome delle immagini nel cesto.",
+        "Tocca due volte l'immagine giusta, oppure trascinala sul gancio: se la parola comincia con quella sillaba, il gancio si chiude.",
+        "In Conta e forma tocca + o − per avere una casella per ogni sillaba, premi Conta e poi metti le sillabe in ordine."
       ],
       "learningGoals": [
-        "Contare, fondere e segmentare le sillabe nelle parole parlate.",
-        "Capire che una parola è formata da sillabe che si mettono in ordine.",
-        "Costruire la consapevolezza fonologica che prepara alla lettura."
+        "Il bambino isola la prima e l'ultima sillaba delle parole parlate",
+        "Il bambino conta le sillabe di una parola",
+        "Il bambino unisce le sillabe in ordine per formare parole lunghe"
       ]
     },
     "array.equal-groups.2-oa-c-4": {

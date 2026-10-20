@@ -1,0 +1,205 @@
+[
+  {
+    "id": "syllable-builder.forma-la-parola-con-le-sillabe.rf-k-2-b",
+    "tool": "syllable-chain-activity",
+    "task_template": "syllable-chain",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.2.B",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "note": "The words and their gated splits live in syllable-chain-core.js ; the gate re-reads approved-words-it.json. This list mirrors the core so the gates can size each level.",
+      "rounds": [
+        {
+          "id": "build-cane",
+          "word": "cane",
+          "split": "ca-ne"
+        },
+        {
+          "id": "build-zebra",
+          "word": "zebra",
+          "split": "ze-bra"
+        },
+        {
+          "id": "build-farfalla",
+          "word": "farfalla",
+          "split": "far-fal-la"
+        },
+        {
+          "id": "build-fragola",
+          "word": "fragola",
+          "split": "fra-go-la"
+        },
+        {
+          "id": "build-ombrello",
+          "word": "ombrello",
+          "split": "om-brel-lo"
+        },
+        {
+          "id": "build-tartaruga",
+          "word": "tartaruga",
+          "split": "tar-ta-ru-ga"
+        },
+        {
+          "id": "build-girasole",
+          "word": "girasole",
+          "split": "gi-ra-so-le"
+        },
+        {
+          "id": "build-bicicletta",
+          "word": "bicicletta",
+          "split": "bi-ci-clet-ta"
+        },
+        {
+          "id": "build-arcobaleno",
+          "word": "arcobaleno",
+          "split": "ar-co-ba-le-no"
+        },
+        {
+          "id": "build-elicottero",
+          "word": "elicottero",
+          "split": "e-li-cot-te-ro"
+        }
+      ],
+      "levels": {
+        "short": [
+          {
+            "id": "short-palla-0",
+            "chain": "palla > lama > mano"
+          },
+          {
+            "id": "short-ape-1",
+            "chain": "ape > pera > rana"
+          },
+          {
+            "id": "short-chiave-2",
+            "chain": "chiave > vestito > topo"
+          },
+          {
+            "id": "short-luna-3",
+            "chain": "luna > naso > sole"
+          },
+          {
+            "id": "short-gufo-4",
+            "chain": "gufo > foca > cane"
+          },
+          {
+            "id": "short-lumaca-5",
+            "chain": "lumaca > carota > tavolo"
+          },
+          {
+            "id": "short-scopa-6",
+            "chain": "scopa > pala > lama"
+          },
+          {
+            "id": "short-penna-7",
+            "chain": "penna > nave > vestito"
+          }
+        ],
+        "long": [
+          {
+            "id": "long-ape-0",
+            "chain": "ape > pecora > rana > nave"
+          },
+          {
+            "id": "long-chitarra-1",
+            "chain": "chitarra > rana > naso > sole"
+          },
+          {
+            "id": "long-gallina-2",
+            "chain": "gallina > nave > vestito > topo"
+          },
+          {
+            "id": "long-pera-3",
+            "chain": "pera > rana > nave > vestito"
+          },
+          {
+            "id": "long-bruco-4",
+            "chain": "bruco > corona > naso > sole"
+          },
+          {
+            "id": "long-colomba-5",
+            "chain": "colomba > banana > naso > sole"
+          },
+          {
+            "id": "long-volpe-6",
+            "chain": "volpe > pecora > rana > naso"
+          },
+          {
+            "id": "long-stella-7",
+            "chain": "stella > lama > matita > tavolo"
+          },
+          {
+            "id": "long-scopa-8",
+            "chain": "scopa > pala > lama > mano"
+          }
+        ],
+        "build": [
+          {
+            "id": "build-cane",
+            "word": "cane",
+            "split": "ca-ne"
+          },
+          {
+            "id": "build-zebra",
+            "word": "zebra",
+            "split": "ze-bra"
+          },
+          {
+            "id": "build-farfalla",
+            "word": "farfalla",
+            "split": "far-fal-la"
+          },
+          {
+            "id": "build-fragola",
+            "word": "fragola",
+            "split": "fra-go-la"
+          },
+          {
+            "id": "build-ombrello",
+            "word": "ombrello",
+            "split": "om-brel-lo"
+          },
+          {
+            "id": "build-tartaruga",
+            "word": "tartaruga",
+            "split": "tar-ta-ru-ga"
+          },
+          {
+            "id": "build-girasole",
+            "word": "girasole",
+            "split": "gi-ra-so-le"
+          },
+          {
+            "id": "build-bicicletta",
+            "word": "bicicletta",
+            "split": "bi-ci-clet-ta"
+          },
+          {
+            "id": "build-arcobaleno",
+            "word": "arcobaleno",
+            "split": "ar-co-ba-le-no"
+          },
+          {
+            "id": "build-elicottero",
+            "word": "elicottero",
+            "split": "e-li-cot-te-ro"
+          }
+        ]
+      }
+    },
+    "theme": null,
+    "slug": {
+      "it": "forma-la-parola-con-le-sillabe"
+    },
+    "page_title": {
+      "it": "Forma la parola con le sillabe — Fonetica nella scuola dell'infanzia"
+    },
+    "page_intro": {
+      "it": "Guarda l'immagine e forma la parola posizionando le sillabe in ordine. Allineato alle Indicazioni nazionali — contare, pronunciare, fondere e segmentare le sillabe nelle parole parlate."
+    },
+    "kid_prompt_template": "promptBuildSyllables"
+  }
+]

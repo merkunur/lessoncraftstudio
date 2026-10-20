@@ -221,8 +221,9 @@
       L.x0 = 104; L.x1 = W - 126; L.farX = W - 62; L.farY = 98; L.homeX = 54; L.homeY = 98;
       L.stoneMax = 96; L.stoneH = 58; L.syl = 26;
     } else {
-      L.frog = 64; L.far = W < 340 ? 76 : 80; L.waterTop = L.far + (W < 340 ? 8 : 18); L.waterH = W < 340 ? 92 : 104; L.sceneH = L.waterTop + L.waterH + 10;
-      L.x0 = 0; L.x1 = W; L.farX = W - L.far / 2 - 8; L.farY = L.far / 2 + 8; L.homeX = L.frog / 2 + 6; L.homeY = L.waterTop - L.frog / 2 + 4;
+      /* the top bank is tall enough that a frog on the rightmost stone stays clear of the far bank's frame */
+      L.frog = 64; L.far = W < 340 ? 76 : 80; L.waterTop = L.far + (W < 340 ? 32 : 26); L.waterH = W < 340 ? 80 : 104; L.sceneH = L.waterTop + L.waterH + (W < 340 ? 0 : 6);
+      L.x0 = 0; L.x1 = W; L.farX = W - L.far / 2 - 8; L.farY = L.far / 2 + 4; L.homeX = L.frog / 2 + 6; L.homeY = L.waterTop - L.frog / 2 + 4;
       L.stoneMax = 72; L.stoneH = W < 340 ? 44 : 48; L.syl = W < 340 ? 18 : 20;
     }
     L.waterY = L.waterTop + L.waterH / 2;

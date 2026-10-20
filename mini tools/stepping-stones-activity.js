@@ -214,7 +214,9 @@ var SteppingStonesActivity = {
     }
     if (!this._lilies.length) el.insertAdjacentHTML('beforeend', '<span class="sst-pad" aria-hidden="true"></span><span class="sst-pad is-b" aria-hidden="true"></span><span class="sst-pad is-c" aria-hidden="true"></span>');
     /* newest first: the pond holds what fits beside the sign, the oldest pads drift out of view */
-    this._lilies.slice().reverse().forEach(function (w, i) {
+    /* a phone shows only the newest pads that fit beside the sign — never a row cut in half */
+    var cap = this._L && this._L.mode === 'narrow' ? (el.querySelector('.sst-banner') ? 2 : 4) : 10;
+    this._lilies.slice().reverse().slice(0, cap).forEach(function (w, i) {
       var c = self.api.el('span', 'sst-lily' + (i === 0 && st.done ? ' is-new' : ''));
       c.innerHTML = '<i></i><span>' + w + '</span>';
       el.appendChild(c);
@@ -234,7 +236,7 @@ var SteppingStonesActivity = {
   _frogSpot: function (x) { var L = this._L; return { x: x, y: L.waterY - L.stoneH * 0.32 - L.frog * 0.32 }; },
   _home: function () { var L = this._L; return { x: L.homeX, y: L.homeY }; },
   /* the frog at full size beside the far bank's frame: at the water's far end (wide), on the top bank (narrow) */
-  _farSpot: function () { var L = this._L; return L.mode === 'wide' ? { x: L.x1 - 30, y: L.waterY - L.frog * 0.1 } : { x: L.farX - L.far / 2 - L.frog / 2 - 4, y: L.farY }; },
+  _farSpot: function () { var L = this._L; return L.mode === 'wide' ? { x: L.x1 - L.frog / 2, y: L.waterY - L.frog * 0.1 } : { x: L.farX - L.far / 2 - L.frog / 2 - 4, y: L.farY }; },
   /* where the frog sits once the paint settles */
   _frogRest: function (ws) {
     var st = this.st, last = st.last || {}, xs = this._stoneXs(ws.length), show = st.show && !st.done, n = st.r.w.syl.length;

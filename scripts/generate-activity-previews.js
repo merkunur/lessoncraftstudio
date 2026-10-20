@@ -211,6 +211,10 @@ function seedScript(row) {
     // a wrong sort tipped over beside the empty slot, its other form showing on its back — the invention at rest
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='P1';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.TypeCaseCore,s=t.st,w=s.tray.find(function(x){return x.face!==s.r.answer;});C.drop(s,w.id);t._paint();})();`;
   }
+  if (row.tool === 'syllable-chain-activity') {
+    // pal·la → la·ma hooked, the open clasp «ma»: the trick picture piuma held against it — the two half-rings show «ma | piu» and it will not close — the invention at work
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.api.settings.level='short';t.api.settings.lure='yes';t._pool=null;t._poolKey=null;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='short-palla-0';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.SyllableChainCore,s=t.st;C.hook(s,'lama');C.hook(s,'piuma');t._clash={syl:'ma',first:'piu',word:'piuma'};t._paint();})();`;
+  }
   if (row.tool === 'stepping-stones-activity') {
     // helikopter on three stones after Hoppa!: he and li written, the last stone carrying kop·ter and sinking half under, the frog teetering on it, a ghost stone beside — the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.api.settings.level='count';t._pool=null;t._poolKey=null;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='count-helikopter';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.SteppingStonesCore,s=t.st;C.lay(s);C.lay(s);C.lay(s);C.hop(s);t._paint();})();`;

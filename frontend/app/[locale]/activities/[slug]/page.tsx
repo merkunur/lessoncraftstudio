@@ -203,6 +203,7 @@ const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'syllable-builder.forma-las-silabas.rf-k-2-b': { es: 'Conciencia fonológica' }, // es-only row (la fila de fichas, 2026-10-20): completar, ordenar y contar sílabas en preescolar = conciencia fonológica; el default RF «Comprensión lectora» es un eje de lectura
   'syllable-builder.forme-as-silabas.rf-k-2-b': { pt: 'Consciência fonológica' }, // pt-only row (o cadeado das famílias, 2026-10-20): formar palavras com as famílias silábicas na educação infantil / 1º ano = consciência fonológica (BNCC, alfabetização); o default RF «Leitura/escuta» é um eixo de leitura
   'syllable-builder.forme-le-mot-en-syllabes.rf-k-2-b': { fr: 'Conscience phonologique' }, // fr-only row (la photo qui se révèle, 2026-10-20): former un mot avec ses syllabes en grande section / CP = conscience phonologique (« manipuler des syllabes »); le défaut RF est un domaine de lecture
+  'syllable-builder.muodosta-sana-tavuista.rf-k-2-b': { fi: 'Fonologinen tietoisuus' }, // fi-only row (tavukuularata, 2026-10-20): sanan rakentaminen tavuista ja tavutussääntö esiopetuksessa / 1. luokalla = fonologinen tietoisuus (OPS 2014 kielellinen tietoisuus); RF-oletus on lukemisen alue
   'syllable-builder.forma-la-parola-con-le-sillabe.rf-k-2-b': { it: 'Consapevolezza fonologica' }, // it-only row (la catena delle sillabe, 2026-10-20): la catena di parole e il conteggio delle sillabe sono giochi orali della scuola dell'infanzia = consapevolezza fonologica; il default RF «Lettura» è un'area di lettura
   'syllable-builder.bygg-ordet-av-stavelser.rf-k-2-b': { sv: 'Fonologisk medvetenhet' }, // sv-only row (stenarna i bäcken, 2026-10-20): stavelser klappas, räknas och tas bort muntligt i förskoleklass = fonologisk medvetenhet; RF-default är en lässtrand
   'syllable-builder.bygg-ordet-av-stavelser.no.rf-k-2-b': { no: 'Fonologisk bevissthet' }, // no-only row (snørebrettet, 2026-10-20): stavelser klappes og telles muntlig i barnehagen/1. trinn = fonologisk bevissthet (som rhyme-shop no); RF-default «Lesing» er en lesestrand
@@ -576,7 +577,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.790';
+  const ACTIVITY_WRAPPER_VERSION = '9.791';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

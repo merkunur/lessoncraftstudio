@@ -1663,25 +1663,25 @@
     },
     "cvc-builder.build-cvc-word.rf-k-3": {
       "about": [
-        "A picture appears — cat, dog, pig, sun, bus, hat, pot, bun, and more — and the child taps the correct letters to build the consonant-vowel-consonant word that names it, choosing from the right letters mixed with a few distractors. Build the CVC Word is a Kindergarten phonics activity that runs in the browser with no account needed.",
-        "Spelling a word, rather than just reading one, makes a child slow down and account for every sound. To build 'cat' a child has to hear and choose c, then a, then t, and the distractor letters are close enough that a careless tap leads somewhere else — so each of the three sounds has to be matched to a letter on purpose. Working through twenty familiar words turns letter-sound knowledge into the act of producing a word from its sounds.",
-        "It is aligned to Common Core RF.K.3 — applying phonics and word-analysis skills to decode common CVC words. No timer, no score — just calm, playful practice."
+        "The picture shows a cat; the word is not printed anywhere. The child pulls the knob of a coral elastic, and one bead pops out for each sound: three beads for c · a · t. One letter goes on each bead, then the child lets go, and the beads snap together into the word. It is an interactive Kindergarten phonics activity that plays in the browser.",
+        "If the middle bead holds e, the snap kicks that one bead up out of the line, so the child sees exactly which sound to listen for again. Other settings give the first sound, leave one sound missing, add a word bank or a keyboard, let the child decide how many beads to pull out, or turn it round: the elastic arrives lettered and the child reads it and finds the picture. With letter teams, two letters share one bead, as sh does in fish.",
+        "It is aligned to Common Core RF.K.3, knowing and applying grade-level phonics. No timer and no score."
       ],
       "practices": [
-        "Hear the three sounds in a short CVC word",
-        "Match each sound to the right letter",
-        "Build a word in the correct order from beginning to end",
-        "Choose the right letters from a set that includes look-alikes"
+        "Saying a word slowly and hearing each sound in order",
+        "Writing one letter for each sound",
+        "Listening hardest for the middle vowel",
+        "Spelling a sound with two letters, like sh or ck"
       ],
       "howToPlay": [
-        "Look at the picture to know the word you need to build.",
-        "Tap the letters in order to spell the three-letter word.",
-        "Fix your spelling as often as you like — there is no timer and no score."
+        "Look at the picture and say its name slowly.",
+        "Pull the knob: one bead for each sound. Put a letter on each bead.",
+        "Press Check and watch the beads snap together, or see which bead is kicked out."
       ],
       "learningGoals": [
-        "Spell and decode common CVC words — the focus of Common Core RF.K.3.",
-        "Connect each sound in a word to a letter.",
-        "Build the phonics foundation that early reading and writing depend on."
+        "The child segments a short word into its sounds",
+        "The child writes the letter for each sound in order",
+        "The child blends the sounds back into the word"
       ]
     },
     "cvc-builder.build-magic-e.rf-1-3-silent-e": {

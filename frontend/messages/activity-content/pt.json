@@ -4242,6 +4242,29 @@
         "Lembra qual som mudou e onde",
         "Percebe que cada som novo dá uma palavra nova"
       ]
+    },
+    "cvc-builder.build-cvc-word.rf-k-3": {
+      "about": [
+        "A figura mostra um rato; a palavra não está escrita em lugar nenhum. A criança puxa o pegador de um elástico e, para cada som, aparece uma conta: quatro contas para r · a · t · o. Em cada conta vai uma letra; ao soltar, as contas se juntam de uma vez e formam a palavra. É uma atividade interativa de escrita para o 1º ano que funciona no navegador.",
+        "Se na segunda conta houver um e, o elástico joga só essa conta para fora da fila, e a criança vê qual som precisa escutar de novo. Outras opções dão o primeiro som, deixam um som faltando, oferecem uma lista de palavras ou um teclado, deixam a criança decidir quantas contas puxar, ou invertem tudo: o elástico chega com letras e a criança lê a palavra e encontra a figura. Nos dígrafos, duas letras dividem uma conta, como ch em chave.",
+        "A atividade se apoia na BNCC: escrever palavras som por som. Sem cronômetro e sem pontuação."
+      ],
+      "practices": [
+        "Falar uma palavra devagar e ouvir cada som em ordem",
+        "Escrever uma letra para cada som",
+        "Prestar atenção nas vogais",
+        "Escrever um som com duas letras, como ch, nh ou lh"
+      ],
+      "howToPlay": [
+        "Olhe a figura e diga o nome dela devagar.",
+        "Puxe o pegador: uma conta para cada som. Coloque uma letra em cada conta.",
+        "Toque em Verificar e veja se as contas se juntam ou qual pula para fora."
+      ],
+      "learningGoals": [
+        "A criança separa uma palavra curta em sons",
+        "A criança escreve em ordem a letra de cada som",
+        "A criança junta os sons de novo para formar a palavra"
+      ]
     }
   }
 }

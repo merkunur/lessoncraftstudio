@@ -4280,6 +4280,29 @@
         "Das Kind merkt sich, welcher Laut sich wo geändert hat",
         "Das Kind ändert in einer Wortkette Schritt für Schritt einen Laut"
       ]
+    },
+    "cvc-builder.build-cvc-word.rf-k-3": {
+      "about": [
+        "Das Bild zeigt einen Hut; das Wort steht nirgends. Das Kind zieht am Knopf eines Gummibands, und für jeden Laut springt eine Perle heraus: drei Perlen für H · u · t. Auf jede Perle kommt ein Buchstabe, dann lässt das Kind los, und die Perlen schnappen zum Wort zusammen. Eine interaktive Übung zum lautgetreuen Schreiben für Klasse 1, die im Browser läuft.",
+        "Liegt auf der mittleren Perle ein o, schleudert das Gummi genau diese Perle aus der Reihe – so sieht das Kind, auf welchen Laut es noch einmal hören muss. Weitere Einstellungen geben den ersten Laut vor, lassen einen Laut fehlen, bieten eine Wörterliste oder eine Tastatur, lassen das Kind selbst entscheiden, wie viele Perlen es herauszieht, oder drehen die Aufgabe um: Das Gummi kommt mit Buchstaben, und das Kind liest das Wort und findet das Bild. Bei Buchstabengruppen teilen sich mehrere Buchstaben eine Perle, so wie sch in Fisch.",
+        "Die Übung orientiert sich am Lehrplan: Wörter Laut für Laut aufschreiben. Ohne Zeitdruck und ohne Punkte."
+      ],
+      "practices": [
+        "Ein Wort langsam sprechen und jeden Laut der Reihe nach hören",
+        "Für jeden Laut einen Buchstaben schreiben",
+        "Besonders genau auf den Selbstlaut in der Mitte hören",
+        "Einen Laut mit mehreren Buchstaben schreiben, wie sch oder ck"
+      ],
+      "howToPlay": [
+        "Schau dir das Bild an und sprich seinen Namen langsam.",
+        "Zieh am Knopf: eine Perle für jeden Laut. Leg auf jede Perle einen Buchstaben.",
+        "Tippe auf Prüfen und schau, ob die Perlen zusammenschnappen oder welche Perle herausspringt."
+      ],
+      "learningGoals": [
+        "Das Kind zerlegt ein kurzes Wort in seine Laute",
+        "Das Kind schreibt für jeden Laut den passenden Buchstaben in der richtigen Reihenfolge",
+        "Das Kind verbindet die Laute wieder zum Wort"
+      ]
     }
   }
 }

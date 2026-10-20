@@ -4274,6 +4274,29 @@
         "Het kind houdt bij welke klank waar veranderde",
         "Het kind verandert in een woordketen stap voor stap één klank"
       ]
+    },
+    "cvc-builder.build-cvc-word.rf-k-3": {
+      "about": [
+        "Het plaatje laat een vis zien; het woord staat er nergens. Je kind trekt aan de knop van een elastiek en voor elke klank springt er een kraal uit: drie kralen voor v · i · s. Op elke kraal komt een letter, dan laat je kind los en klikken de kralen samen tot het woord. Een interactieve spellingoefening voor groep 3 die in de browser werkt.",
+        "Ligt er op de middelste kraal een e, dan schiet precies die kraal uit de rij, zodat je kind ziet naar welke klank het nog eens moet luisteren. Andere instellingen geven de eerste klank, laten één klank weg, bieden een woordenlijst of een toetsenbord, laten je kind zelf bepalen hoeveel kralen het uittrekt, of draaien het om: het elastiek komt met letters en je kind leest het woord en zoekt het plaatje. Bij tweetekenklanken delen twee letters één kraal, zoals aa in maan.",
+        "De oefening sluit aan bij de SLO-kerndoelen voor spelling: woorden klank voor klank opschrijven. Geen klok en geen punten."
+      ],
+      "practices": [
+        "Een woord langzaam zeggen en elke klank op volgorde horen",
+        "Voor elke klank een letter schrijven",
+        "Extra goed luisteren naar de klinker in het midden",
+        "Een klank met twee letters schrijven, zoals aa of ui"
+      ],
+      "howToPlay": [
+        "Kijk naar het plaatje en zeg de naam langzaam.",
+        "Trek aan de knop: één kraal voor elke klank. Leg op elke kraal een letter.",
+        "Tik op Controleer en kijk of de kralen samenklikken of welke kraal eruit springt."
+      ],
+      "learningGoals": [
+        "Het kind hakt een kort woord in klanken",
+        "Het kind schrijft voor elke klank de goede letter op volgorde",
+        "Het kind plakt de klanken weer aan elkaar tot het woord"
+      ]
     }
   }
 }

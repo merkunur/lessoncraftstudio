@@ -4275,6 +4275,29 @@
         "L’enfant repère la lettre où deux mots diffèrent",
         "L’enfant lit des mots qui riment et des mots plus longs en syllabes"
       ]
+    },
+    "cvc-builder.build-cvc-word.rf-k-3": {
+      "about": [
+        "L’image montre un bol ; le mot n’est écrit nulle part. L’enfant tire le bouton d’un élastique et, pour chaque son, une perle apparaît : trois perles pour b · o · l. Sur chaque perle, une lettre ; quand l’enfant lâche, les perles claquent ensemble et forment le mot. C’est une activité interactive d’écriture pour le CP, qui fonctionne dans le navigateur.",
+        "Si la perle du milieu porte un u, l’élastique éjecte justement cette perle de la file, et l’enfant voit quel son réécouter. D’autres réglages donnent le premier son, laissent un son manquant, proposent une liste de mots ou un clavier, laissent l’enfant décider combien de perles sortir, ou renversent la tâche : l’élastique arrive avec ses lettres, et l’enfant lit le mot et trouve l’image. Dans les sons complexes, deux lettres partagent une perle, comme ch dans chat, et le t muet reste dans une petite perle silencieuse.",
+        "L’activité suit les programmes officiels : écrire des mots son par son. Ni minuteur ni score."
+      ],
+      "practices": [
+        "Dire un mot lentement et entendre chaque son dans l’ordre",
+        "Écrire une lettre pour chaque son",
+        "Écouter attentivement la voyelle",
+        "Écrire un son avec deux lettres, comme ch ou ou, et garder la lettre muette"
+      ],
+      "howToPlay": [
+        "Regarde l’image et dis son nom lentement.",
+        "Tire le bouton : une perle pour chaque son. Mets une lettre sur chaque perle.",
+        "Touche Vérifier et regarde si les perles claquent ensemble ou laquelle saute."
+      ],
+      "learningGoals": [
+        "L’enfant découpe un mot court en sons",
+        "L’enfant écrit dans l’ordre la lettre de chaque son",
+        "L’enfant fusionne les sons pour retrouver le mot"
+      ]
     }
   }
 }

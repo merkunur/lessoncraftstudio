@@ -4205,6 +4205,29 @@
         "Ricorda quale suono è cambiato e dove",
         "Vede che ogni suono nuovo dà una parola nuova"
       ]
+    },
+    "cvc-builder.build-cvc-word.rf-k-3": {
+      "about": [
+        "Il disegno mostra una mano; la parola non è scritta da nessuna parte. Il bambino tira il pomello di un elastico e per ogni suono spunta una perlina: quattro perline per m · a · n · o. Su ogni perlina va una lettera; quando lascia andare, le perline si richiudono di scatto e formano la parola. È un’attività interattiva di scrittura per la classe prima che funziona nel browser.",
+        "Se sulla seconda perlina c’è una e, l’elastico fa saltare fuori proprio quella perlina, così il bambino vede quale suono deve riascoltare. Altre impostazioni danno il primo suono, lasciano un suono mancante, offrono un elenco di parole o una tastiera, lasciano decidere al bambino quante perline tirare fuori, oppure capovolgono il gioco: l’elastico arriva con le lettere e il bambino legge la parola e trova il disegno. Con doppie e digrammi, due lettere stanno su una sola perlina, come tt in gatto.",
+        "L’attività segue le Indicazioni nazionali: scrivere le parole suono per suono. Senza cronometro e senza punteggio."
+      ],
+      "practices": [
+        "Dire una parola piano e sentire ogni suono in ordine",
+        "Scrivere una lettera per ogni suono",
+        "Ascoltare con attenzione le vocali",
+        "Scrivere un suono con due lettere, come tt, gn o sc"
+      ],
+      "howToPlay": [
+        "Guarda il disegno e di’ piano il suo nome.",
+        "Tira il pomello: una perlina per ogni suono. Metti una lettera su ogni perlina.",
+        "Tocca Controlla e guarda se le perline si richiudono o quale salta fuori."
+      ],
+      "learningGoals": [
+        "Il bambino divide una parola breve nei suoi suoni",
+        "Il bambino scrive in ordine la lettera di ogni suono",
+        "Il bambino riunisce i suoni nella parola"
+      ]
     }
   }
 }

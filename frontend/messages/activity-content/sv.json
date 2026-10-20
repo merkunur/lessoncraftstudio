@@ -705,25 +705,25 @@
     },
     "syllable-builder.bygg-ordet-av-stavelser.rf-k-2-b": {
       "about": [
-        "Barnet ser en bild — till exempel en sol, en banan eller en gädda — och bygger ordet genom att lägga stavelsebrickorna i rätt ordning. Varje bricka kan tryckas på för att höras högt, och när ordet är rätt läses hela ordet upp ihopljudat. Det är en interaktiv fonetikövning för förskoleklass som spelas direkt i webbläsaren, utan nedladdning och utan konto.",
-        "Den stora idén är att talade ord är uppbyggda av stavelser som kan delas upp och sättas ihop igen. När barnet flyttar brickan ba framför nan och hör ba–nan bli banan, blir den ljudstruktur som annars är osynlig något barnet kan höra och känna. Att lyssna, dela upp och blanda stavelser på det här sättet är just den fonologiska medvetenhet som tidig läsning vilar på.",
-        "Aktiviteten följer Lgr22 inom språk och tidig läsning: att räkna, uttala, blanda och dela upp stavelser i talade ord. Den här övningen passar förskoleklass. Ingen timer, inga poäng — bara lugn, lekfull träning."
+        "Bilden står på en skylt vid en bäck, och över bäcken ska grodan hoppa på stenar. Barnet lägger en sten för varje stavelse, lägger stavelsestenarna i rätt ordning eller lyfter bort en del av ordet. Sedan trycker barnet på Hoppa, och grodan hoppar från sten till sten och säger ordet. Det är en interaktiv övning i fonologisk medvetenhet för förskoleklass som spelas direkt i webbläsaren.",
+        "Det speciella är att stenarna svarar: en sten med två stavelser sjunker till hälften, en sten utan stavelse glider ner under vattnet, och en sten i fel ordning tippar så att grodan hoppar tillbaka. Stenarna fördelas alltid jämnt över bäcken, så barnet måste själv höra hur många stavelser ordet har. I Gömda ord lyfter barnet bort en del av ordet och ser vilket ord som blir kvar: solros utan sol blir ros, och på andra stranden syns en ros.",
+        "Övningen följer Lgr22 och arbetet med språklig medvetenhet i förskoleklass: att räkna, sätta ihop och ta bort stavelser i talade ord. Tre nivåer använder samma bäck: räkna stavelser med tomma stenar, bygg ordet med stavelsestenar och en lursten, och hitta gömda ord i sammansatta ord. Alla stavelsedelningar är kontrollerade mot flera källor. Utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Dela upp ett talat ord i stavelser",
-        "Lägga stavelserna i rätt ordning för att bygga ordet",
-        "Lyssna på varje stavelse för sig och ljuda ihop dem till ett helt ord",
-        "Koppla ihop bilden med ordets ljud"
+        "Räkna stavelserna i ett talat ord",
+        "Sätta ihop stavelser till ett helt ord i rätt ordning",
+        "Ta bort en del av ett sammansatt ord och höra vilket ord som blir kvar",
+        "Känna igen vilken stavelse som inte hör till ordet"
       ],
       "howToPlay": [
-        "Titta på bilden och fundera på vilket ord den visar.",
-        "Tryck på stavelsebrickorna och lägg dem i rätt ordning — tryck på en bricka för att höra den.",
-        "Kontrollera ordet och lyssna när det läses upp ihopljudat. Det går alltid att försöka igen i lugn takt."
+        "Tryck på bilden för att höra ordet.",
+        "Lägg en sten för varje stavelse, lägg stavelsestenarna i ordning över bäcken eller lyft bort en del av ordet.",
+        "Tryck på Hoppa! och se hur långt grodan kommer."
       ],
       "learningGoals": [
-        "Barnet kan dela upp talade ord i stavelser",
-        "Barnet kan blanda och sätta ihop stavelser till hela ord",
-        "Barnet bygger den fonologiska medvetenhet som tidig läsning bygger på"
+        "Barnet kan räkna stavelserna i ett talat ord",
+        "Barnet kan sätta ihop stavelser till hela ord i rätt ordning",
+        "Barnet kan ta bort en del ur ett sammansatt ord och säga vad som blir kvar"
       ]
     },
     "array.equal-groups.2-oa-c-4": {

@@ -211,6 +211,10 @@ function seedScript(row) {
     // a wrong sort tipped over beside the empty slot, its other form showing on its back — the invention at rest
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='P1';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.TypeCaseCore,s=t.st,w=s.tray.find(function(x){return x.face!==s.r.answer;});C.drop(s,w.id);t._paint();})();`;
   }
+  if (row.tool === 'stepping-stones-activity') {
+    // helikopter on three stones after Hoppa!: he and li written, the last stone carrying kop·ter and sinking half under, the frog teetering on it, a ghost stone beside — the invention at work
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.api.settings.level='count';t._pool=null;t._poolKey=null;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='count-helikopter';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.SteppingStonesCore,s=t.st;C.lay(s);C.lay(s);C.lay(s);C.hop(s);t._paint();})();`;
+  }
   if (row.tool === 'lacing-board-activity') {
     // helikopter after Stram!: the lace holds he·li (glowing), ter has slipped back out onto the board, the trick button ra still waiting — the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.api.settings.level='decoy';t.api.settings.decoys='one';t._pool=null;t._poolKey=null;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='decoy-helikopter';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.LacingBoardCore,s=t.st,b=function(n){return s.buttons.find(function(x){return x.s===n;}).id;};C.thread(s,b(0));C.thread(s,b(1));C.thread(s,b(3));C.tighten(s);t._popKey=s.r.id+'/'+s.misses;t._paint();})();`;

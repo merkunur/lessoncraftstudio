@@ -4257,6 +4257,29 @@
         "Verstehen, dass ein Dreieck ein Dreieck bleibt, auch wenn sich Farbe, Größe oder Lage ändern.",
         "Das merkmalsgestützte Denken aufbauen, auf dem das Einordnen und Benennen von Formen beruht."
       ]
+    },
+    "pepper-sound-swap.substitute.rf-k-2-e": {
+      "about": [
+        "Ein Wort liegt auf einer Wendekarte, seine Laute auf Plättchen am unteren Rand: K · o · pf. Der Papagei Pepper bringt ein neues Plättchen, t, für den ersten Laut. Das Kind sagt voraus, welches Bild die Karte gleich zeigt, dann spielt Prüfen den Tausch: Das alte Plättchen springt heraus, das t rutscht hinein, und die Karte dreht sich zum Topf. Eine interaktive Übung zum Lautehören, die im Browser läuft.",
+        "Die Karte zeigt immer das Wort, das die Plättchen wirklich ergeben. Auf der Stufe „Selbst tauschen“ schiebt das Kind Plättchen aus einer Reihe auf die Karte: Ergibt sich ein Wort ohne Bild, wird die Karte grau und zeigt nur die Buchstaben. Weitere Stufen tauschen den Laut in der Mitte oder am Ende und führen durch Wortketten, Schritt für Schritt.",
+        "Die Übung orientiert sich am Lehrplan: Laute austauschen und so neue Wörter bilden. Ohne Zeitdruck und ohne Punkte."
+      ],
+      "practices": [
+        "Einen Laut in einem kurzen Wort austauschen und so ein neues Wort bilden",
+        "Hören, dass die Stelle eines Lautes zählt: Anfang, Mitte oder Ende",
+        "Das richtige neue Wort von einem ähnlichen Wort unterscheiden",
+        "In einer Wortkette immer nur einen Laut ändern"
+      ],
+      "howToPlay": [
+        "Schau dir das Wort auf der Karte und Peppers neues Plättchen an.",
+        "Tipp auf das Bild, das die Karte gleich zeigt, oder tausche selbst ein Plättchen.",
+        "Drück auf Prüfen und schau, wie sich die Karte zum richtigen Wort dreht."
+      ],
+      "learningGoals": [
+        "Das Kind tauscht einen Laut aus und bildet so ein neues Wort",
+        "Das Kind merkt sich, welcher Laut sich wo geändert hat",
+        "Das Kind ändert in einer Wortkette Schritt für Schritt einen Laut"
+      ]
     }
   }
 }

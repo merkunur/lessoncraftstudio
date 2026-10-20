@@ -211,6 +211,10 @@ function seedScript(row) {
     // a wrong sort tipped over beside the empty slot, its other form showing on its back — the invention at rest
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='P1';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.TypeCaseCore,s=t.st,w=s.tray.find(function(x){return x.face!==s.r.answer;});C.drop(s,w.id);t._paint();})();`;
   }
+  if (row.tool === 'flip-card-activity') {
+    // cat with Pepper's h guessed as a bat: the card flipped to the hat, the bat shows its b — the invention at work
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.api.settings.level='first';t._pool=null;t._poolKey=null;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='first-cat-h';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.FlipCardCore,s=t.st;C.guess(s,s.layout.indexOf(1));C.check(s);t._busy=false;t._view={reveal:true};t._paint();})();`;
+  }
   if (row.tool === 'lid-boxes-activity') {
     // hat dropped on cat's boxes: the a and t lids pop with their bars, the asked first box stays shut — the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.api.settings.task='same';t.api.settings.pos='first';t._pool=null;t._poolKey=null;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='same-first-cat';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.LidBoxesCore,s=t.st;t._shelf=[{a:'s',b:'s',c:'#0072B2',wa:'sun',wb:'sock'},{a:'d',b:'d',c:'#009E73',wa:'dog',wb:'duck'}];C.drop(s,s.layout.indexOf(1));C.check(s);t._busy=false;t._view={};t._paint();})();`;

@@ -4160,6 +4160,29 @@
         "El niño o la niña usa el primer sonido para distinguir una palabra que rima",
         "El niño o la niña une sonidos sueltos para formar una palabra"
       ]
+    },
+    "pepper-sound-swap.substitute.rf-k-2-e": {
+      "about": [
+        "Una palabra está en una tarjeta que se voltea, con sus sonidos en fichas abajo: c · o · l. Pepper, la cotorra, trae una ficha nueva, s, para el primer sonido. El niño o la niña adivina qué dibujo va a mostrar la tarjeta, y al presionar Revisar se hace el cambio: la ficha vieja salta, entra la s y la tarjeta se voltea hacia el sol. Es una actividad interactiva de conciencia fonémica que se juega en el navegador.",
+        "La tarjeta siempre muestra la palabra que de verdad forman las fichas. En el nivel Cambia tú, el niño o la niña empuja fichas de una fila hacia la tarjeta; si las fichas forman una palabra sin dibujo, la tarjeta se pone gris y muestra solo las letras. Otros niveles cambian el sonido de en medio o el final y siguen cadenas de palabras, paso a paso.",
+        "La actividad se basa en los programas de estudio de la SEP: cambiar sonidos para formar palabras nuevas. Sin cronómetro y sin puntuación."
+      ],
+      "practices": [
+        "Cambiar un sonido de una palabra para formar otra",
+        "Escuchar que el lugar del sonido importa: al principio, en medio o al final",
+        "Distinguir la palabra nueva correcta de una que se le parece",
+        "Cambiar un sonido a la vez en una cadena de palabras"
+      ],
+      "howToPlay": [
+        "Mira la palabra en la tarjeta y la ficha nueva de Pepper.",
+        "Toca el dibujo que crees que va a salir, o cambia tú una ficha.",
+        "Presiona Revisar y mira cómo la tarjeta se voltea hacia la palabra que forman las fichas."
+      ],
+      "learningGoals": [
+        "El niño o la niña cambia un sonido y forma una palabra nueva",
+        "Recuerda qué sonido cambió y en qué lugar",
+        "Cambia un sonido a la vez en una cadena de palabras"
+      ]
     }
   }
 }

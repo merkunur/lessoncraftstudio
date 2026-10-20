@@ -13,6 +13,12 @@
    image library (the exact URL the activity requests) — no broken pictures.
    ===================================================================== */
 'use strict';
+/* RETIRED 2026-10-20: the RF.K.2.e sound-swap row now runs its own instrument (rebuild #56, Pepper’s Flip
+   Card). Its gates are scripts/verify-flip-card-core.js + mutate-flip-card.js + local-test-flip-card.js. */
+if (JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'pepper-sound-swap-activities.json'), 'utf8')).every((r) => r.tool !== 'pepper-sound-swap-activity')) {
+  console.log('verify-phoneme-swap-core: retired — the row is now Pepper’s Flip Card (node scripts/verify-flip-card-core.js)');
+  process.exit(0);
+}
 const fs = require('fs');
 const path = require('path');
 

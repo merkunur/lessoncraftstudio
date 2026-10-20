@@ -4251,6 +4251,29 @@
         "Sommen als 3 + 2 en 5 − 2 weten zonder te tellen",
         "Optellen en aftrekken zien als lengtes die passen"
       ]
+    },
+    "pepper-sound-swap.substitute.rf-k-2-e": {
+      "about": [
+        "Een woord ligt op een draaikaart, de klanken op tegels onderaan: k · a · n. Pepper de papegaai brengt een nieuwe tegel, p, voor de eerste klank. Je kind voorspelt welk plaatje de kaart zo laat zien, en bij Controleer gebeurt de wissel: de oude tegel springt eruit, de p schuift erin en de kaart draait om naar een pan. Een interactieve oefening in klanken horen, gewoon in de browser.",
+        "De kaart laat altijd het woord zien dat de tegels echt maken. Op het niveau Zelf wisselen schuift je kind tegels uit een rij op de kaart; maken de tegels een woord zonder plaatje, dan wordt de kaart grijs en toont alleen de letters. Andere niveaus wisselen de middelste of laatste klank en volgen woordketens, stap voor stap.",
+        "De oefening sluit aan bij de SLO-kerndoelen voor beginnende geletterdheid: klanken vervangen en zo nieuwe woorden maken. Geen klok en geen punten."
+      ],
+      "practices": [
+        "Eén klank in een kort woord vervangen en zo een nieuw woord maken",
+        "Horen dat de plek van een klank telt: begin, midden of eind",
+        "Het goede nieuwe woord onderscheiden van een woord dat erop lijkt",
+        "In een woordketen steeds één klank veranderen"
+      ],
+      "howToPlay": [
+        "Bekijk het woord op de kaart en de nieuwe tegel van Pepper.",
+        "Tik op het plaatje dat de kaart volgens jou laat zien, of wissel zelf een tegel.",
+        "Druk op Controleer en kijk hoe de kaart omdraait naar het echte woord."
+      ],
+      "learningGoals": [
+        "Het kind vervangt één klank en maakt zo een nieuw woord",
+        "Het kind houdt bij welke klank waar veranderde",
+        "Het kind verandert in een woordketen stap voor stap één klank"
+      ]
     }
   }
 }

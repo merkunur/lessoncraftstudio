@@ -2885,6 +2885,29 @@
         "Barnet jämför ord utifrån ljudet på samma plats",
         "Barnet känner igen ett ljud på hur det låter, inte på bokstaven"
       ]
+    },
+    "pepper-sound-swap.substitute.rf-k-2-e": {
+      "about": [
+        "Ett ord ligger på ett vändkort med ljuden på brickor längst ner: h · u · s. Papegojan Pepper kommer med en ny bricka, m, för det första ljudet. Barnet gissar vilken bild kortet kommer att visa, och när man trycker på Kolla sker bytet: den gamla brickan hoppar ut, m:et glider in och kortet vänder sig till en mus. En interaktiv övning i att höra ljud, som körs i webbläsaren.",
+        "Kortet visar alltid det ord som brickorna verkligen bildar. På nivån Byt själv skjuter barnet in brickor från en rad; blir det ett ord utan bild blir kortet grått och visar bara bokstäverna. Andra nivåer byter ljudet i mitten eller sist och följer ordkedjor, steg för steg.",
+        "Övningen följer Lgr22: att byta ut ljud och bilda nya ord. Ingen tidtagning och inga poäng."
+      ],
+      "practices": [
+        "Att byta ett ljud i ett kort ord och bilda ett nytt ord",
+        "Att höra att platsen för ett ljud spelar roll: först, i mitten eller sist",
+        "Att skilja det rätta nya ordet från ett ord som liknar det",
+        "Att i en ordkedja ändra ett ljud i taget"
+      ],
+      "howToPlay": [
+        "Titta på ordet på kortet och på Peppers nya bricka.",
+        "Tryck på bilden du tror att kortet blir, eller byt själv en bricka.",
+        "Tryck på Kolla och se kortet vända sig till det ord som brickorna verkligen bildar."
+      ],
+      "learningGoals": [
+        "Barnet byter ett ljud och bildar ett nytt ord",
+        "Barnet håller reda på vilket ljud som ändrades och var",
+        "Barnet ändrar ett ljud i taget i en ordkedja"
+      ]
     }
   }
 }

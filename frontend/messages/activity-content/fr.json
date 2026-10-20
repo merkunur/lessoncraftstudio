@@ -4229,6 +4229,29 @@
         "L’enfant compare des mots par le son à la même place",
         "L’enfant reconnaît un son à ce qu’il entend, pas à la lettre"
       ]
+    },
+    "pepper-sound-swap.substitute.rf-k-2-e": {
+      "about": [
+        "Un mot est posé sur une carte qui tourne, ses sons sur des tuiles en bas : f · i · l · et. Pepper le perroquet apporte une nouvelle tuile, g, pour le premier son. L’enfant devine quelle image la carte va montrer, puis Vérifier fait l’échange : l’ancienne tuile saute, le g se glisse à sa place et la carte se retourne sur un gilet. C’est une activité interactive de conscience phonologique pour la grande section, qui se joue dans le navigateur.",
+        "La carte montre toujours le mot que forment vraiment les tuiles. Au niveau « À toi de changer », l’enfant pousse des tuiles d’une rangée vers la carte ; si les tuiles forment un mot sans image, la carte devient grise et ne montre que les lettres. Un autre niveau change le son du milieu ou de la fin.",
+        "L’activité suit les programmes officiels : remplacer un son pour former un nouveau mot. Ni minuteur ni score."
+      ],
+      "practices": [
+        "Remplacer un son dans un mot pour en former un autre",
+        "Entendre que la place du son compte : au début, au milieu ou à la fin",
+        "Distinguer le bon nouveau mot d’un mot qui lui ressemble",
+        "Changer soi-même une tuile et voir quel mot apparaît"
+      ],
+      "howToPlay": [
+        "Regarde le mot sur la carte et la nouvelle tuile de Pepper.",
+        "Touche l’image que tu crois voir apparaître, ou change toi-même une tuile.",
+        "Appuie sur Vérifier et regarde la carte se retourner sur le mot que forment les tuiles."
+      ],
+      "learningGoals": [
+        "L’enfant remplace un son et forme un nouveau mot",
+        "L’enfant retient quel son a changé et où",
+        "L’enfant voit que chaque son nouveau donne un mot nouveau"
+      ]
     }
   }
 }

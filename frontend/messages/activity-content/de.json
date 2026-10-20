@@ -3327,26 +3327,26 @@
     },
     "syllable-builder.bau-das-wort-aus-silben.rf-k-2-b": {
       "about": [
-        "Das Kind sieht ein Bild und baut das passende Wort, indem es die einzelnen Silben in die richtige Reihenfolge bringt – etwa „So-nne\", „Ba-na-ne\" oder „A-pfel\". So wird aus durcheinandergewürfelten Silben Schritt für Schritt ein ganzes Wort. Diese Aktivität zur Lautschulung für den Kindergarten läuft interaktiv im Browser auf Handy, Tablet und Klassenrechner, ganz ohne Anmeldung.",
-        "Die wichtige Idee: Gesprochene Wörter bestehen aus Silben, und wer sie hört und ordnet, liest und schreibt später leichter. Das Kind muss nicht zählen oder rechnen, sondern hinhören, wie das Wort klingt, und die Silben in die Reihenfolge legen, die das Bild zeigt. Jede gesetzte Silbe lässt sich antippen und hören, und ist das Wort vollständig, wird es als Ganzes vorgelesen – so verbinden sich Klang und Schriftbild.",
-        "Die Aktivität ist an den Lehrplänen im Bereich der phonologischen Bewusstheit ausgerichtet – Silben in gesprochenen Wörtern zählen, aussprechen, verbinden und trennen. Es gibt keinen Timer und keine Punktewertung – nur ruhiges, spielerisches Üben."
+        "Silben schwingen kennen Kinder aus dem Morgenkreis: Mit jedem Schwung des Arms kommt eine Silbe. Genau das tun sie hier. Das Kind tippt das Bild an und hört das Wort, dann schwingt es das Wort auf der Schwungbahn: Jeder Schwung lässt die Kugel einen Bogen fliegen und zeichnet einen Silbenbogen unter die Schiene. Danach legt es die Silbenkarten in die Bögen. Eine interaktive Übung, die im Browser läuft, ohne Installation.",
+        "Das Besondere: Es gibt keine vorgegebenen Felder. Die Bögen, die das Kind schwingt, sind die Plätze für die Silben, und in jeden Bogen passt genau eine Karte. Schwingt es zu wenige Bögen, bleibt eine Karte ohne Platz; schwingt es zu viele, bleibt ein Bogen leer. Liegen die Silben in der falschen Reihenfolge, hält die Kugel an diesem Bogen an, und man liest, was wirklich gebaut wurde. Stimmt alles, fährt die Kugel die Bögen ab und spricht Silbe für Silbe – Schmet – ter – ling – und dann das ganze Wort, das mit großem Anfangsbuchstaben erscheint.",
+        "Die Übung folgt den Bildungsplänen für Kindergarten und Vorschule und dem Lehrplan Deutsch im Anfangsunterricht: Silben hören, zählen, getrennt sprechen und wieder zu einem Wort zusammenziehen. Alle 29 Wörter und ihre Silbentrennung sind mehrfach geprüft, etwa Ba-na-ne, Bä-cker und Schnee-mann. Drei Stufen von kurzen Wörtern mit ein oder zwei Silben bis zu Was-ser-me-lo-ne mit fünf Silben; die Bögen lassen sich in den Farben der Silbenmethode einfärben, Blau und Rot im Wechsel. Ohne Zeitdruck, ohne Punkte."
       ],
       "practices": [
-        "Ein gesprochenes Wort in seine Silben gliedern.",
-        "Die Silben in die richtige Reihenfolge bringen, die das Bild zeigt.",
-        "Einzelne Silben anhören und zu einem ganzen Wort verbinden.",
-        "Klang und Schriftbild eines Wortes miteinander verknüpfen.",
-        "Vertraute Wörter wie „Banane\" oder „Sonne\" silbenweise aufbauen."
+        "Silben hören und zählen",
+        "Für jede Silbe einen Bogen schwingen",
+        "Silben in die richtige Reihenfolge bringen",
+        "Silben zu einem ganzen Wort zusammenziehen"
       ],
       "howToPlay": [
-        "Schau dir das Bild an und überlege, wie das Wort klingt.",
-        "Tippe die Silben in der richtigen Reihenfolge an und lege sie so zum ganzen Wort zusammen.",
-        "Höre dir die Silben an und prüfe dein Wort – probiere es so oft, wie du möchtest, ganz ohne Timer und ohne Punktewertung."
+        "Tippe das Bild an und hör dir das Wort an.",
+        "Tippe für jede Silbe einmal auf den Schwung-Knopf oder wische über die Bahn.",
+        "Zieh die Silbenkarten in die Bögen oder tippe erst eine Karte und dann einen Bogen an.",
+        "Tippe auf „Fahren!“, dann liest die Kugel dein Wort vor."
       ],
       "learningGoals": [
-        "Gesprochene Wörter in Silben zerlegen und aus Silben wieder zusammensetzen.",
-        "Silben hören, ordnen und zu einem ganzen Wort verbinden.",
-        "Die phonologische Grundlage für das Lesen- und Schreibenlernen aufbauen."
+        "Silben in gesprochenen Wörtern hören und zählen",
+        "Silben in der richtigen Reihenfolge zu einem Wort zusammenziehen",
+        "Erkennen, dass Namenwörter mit einem großen Buchstaben beginnen"
       ]
     },
     "array.equal-groups.2-oa-c-4": {

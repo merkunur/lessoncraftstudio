@@ -170,6 +170,7 @@ const MANIFEST_FILES = [
   'post-box-activities.json',
   'type-case-activities.json',
   'rhyme-chain-activities.json',
+  'silbenbogen-activities.json',
   'graph-it-activities.json',
   'field-guide-activities.json',
   'rhyme-shop-activities.json',

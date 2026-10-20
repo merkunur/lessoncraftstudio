@@ -90,3 +90,9 @@ ORDER row 57 · id `choice-board.read-cvc-word.rf-k-3` (kept).
   - `audit-activity-hierarchy.js` 398 / 0;
   - `audit-settings-efficacy --tool=name-tag-activity`: both settings change the board;
   - `preflight-activity-routes`, `preflight-indexable-routes` and the 11 `verify-activity-content-*` gates are green.
+
+## Deploy (2026-10-20)
+- Commit `21150cd1`. Copied the files, the preview and the trimmed `choice-board-activities.json` to `/var/www/lcs-media/mini-tools/`, then ran `deploy.sh`: EXIT 0, payment canary clean, server 133 GB free.
+- `live-verify-name-tag.js`: 75 / 0 on production (en, de, sv, fi at 1366 + 390). The first run raced the page cache (35 / 5 "page embeds"); the re-run was clean.
+- Variety probe (en): 12 distinct, pass 2 reshuffled.
+- All 11 locale pages return 200.

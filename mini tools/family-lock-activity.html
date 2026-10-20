@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>O cadeado das famílias — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- Shell, then the family-lock core, then this activity.
+       NOTE: bump ?v=N on EVERY change to family-lock-*.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  <script src="/mini-tools/family-lock-core.js?v=1"></script>
+  <script src="/mini-tools/family-lock-activity.js?v=1"></script>
+  <script>
+    LCS.mount(FamilyLockActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

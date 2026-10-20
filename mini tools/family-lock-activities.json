@@ -1,0 +1,262 @@
+[
+  {
+    "id": "syllable-builder.forme-as-silabas.rf-k-2-b",
+    "tool": "family-lock-activity",
+    "task_template": "family-lock",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.2.B",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "note": "The words and their gated splits live in family-lock-core.js ; the gate re-reads approved-words-pt.json. This list mirrors the core so the gates can size each level.",
+      "rounds": [
+        {
+          "id": "two-gato",
+          "word": "gato",
+          "split": "ga-to"
+        },
+        {
+          "id": "two-bola",
+          "word": "bola",
+          "split": "bo-la"
+        },
+        {
+          "id": "two-casa",
+          "word": "casa",
+          "split": "ca-sa"
+        },
+        {
+          "id": "two-foca",
+          "word": "foca",
+          "split": "fo-ca"
+        },
+        {
+          "id": "two-mesa",
+          "word": "mesa",
+          "split": "me-sa"
+        },
+        {
+          "id": "two-luva",
+          "word": "luva",
+          "split": "lu-va"
+        },
+        {
+          "id": "two-pipa",
+          "word": "pipa",
+          "split": "pi-pa"
+        },
+        {
+          "id": "two-vela",
+          "word": "vela",
+          "split": "ve-la"
+        },
+        {
+          "id": "two-cama",
+          "word": "cama",
+          "split": "ca-ma"
+        },
+        {
+          "id": "two-vaca",
+          "word": "vaca",
+          "split": "va-ca"
+        }
+      ],
+      "levels": {
+        "two": [
+          {
+            "id": "two-gato",
+            "word": "gato",
+            "split": "ga-to"
+          },
+          {
+            "id": "two-bola",
+            "word": "bola",
+            "split": "bo-la"
+          },
+          {
+            "id": "two-casa",
+            "word": "casa",
+            "split": "ca-sa"
+          },
+          {
+            "id": "two-foca",
+            "word": "foca",
+            "split": "fo-ca"
+          },
+          {
+            "id": "two-mesa",
+            "word": "mesa",
+            "split": "me-sa"
+          },
+          {
+            "id": "two-luva",
+            "word": "luva",
+            "split": "lu-va"
+          },
+          {
+            "id": "two-pipa",
+            "word": "pipa",
+            "split": "pi-pa"
+          },
+          {
+            "id": "two-vela",
+            "word": "vela",
+            "split": "ve-la"
+          },
+          {
+            "id": "two-cama",
+            "word": "cama",
+            "split": "ca-ma"
+          },
+          {
+            "id": "two-vaca",
+            "word": "vaca",
+            "split": "va-ca"
+          }
+        ],
+        "long": [
+          {
+            "id": "long-girafa",
+            "word": "girafa",
+            "split": "gi-ra-fa"
+          },
+          {
+            "id": "long-borboleta",
+            "word": "borboleta",
+            "split": "bor-bo-le-ta"
+          },
+          {
+            "id": "long-girassol",
+            "word": "girassol",
+            "split": "gi-ras-sol"
+          },
+          {
+            "id": "long-morango",
+            "word": "morango",
+            "split": "mo-ran-go"
+          },
+          {
+            "id": "long-bicicleta",
+            "word": "bicicleta",
+            "split": "bi-ci-cle-ta"
+          },
+          {
+            "id": "long-elefante",
+            "word": "elefante",
+            "split": "e-le-fan-te"
+          },
+          {
+            "id": "long-tartaruga",
+            "word": "tartaruga",
+            "split": "tar-ta-ru-ga"
+          },
+          {
+            "id": "long-sapato",
+            "word": "sapato",
+            "split": "sa-pa-to"
+          },
+          {
+            "id": "long-macaco",
+            "word": "macaco",
+            "split": "ma-ca-co"
+          },
+          {
+            "id": "long-janela",
+            "word": "janela",
+            "split": "ja-ne-la"
+          },
+          {
+            "id": "long-panela",
+            "word": "panela",
+            "split": "pa-ne-la"
+          },
+          {
+            "id": "long-formiga",
+            "word": "formiga",
+            "split": "for-mi-ga"
+          }
+        ],
+        "build": [
+          {
+            "id": "build-maçã",
+            "word": "maçã",
+            "split": "ma-çã"
+          },
+          {
+            "id": "build-cenoura",
+            "word": "cenoura",
+            "split": "ce-nou-ra"
+          },
+          {
+            "id": "build-abóbora",
+            "word": "abóbora",
+            "split": "a-bó-bo-ra"
+          },
+          {
+            "id": "build-jacaré",
+            "word": "jacaré",
+            "split": "ja-ca-ré"
+          },
+          {
+            "id": "build-helicóptero",
+            "word": "helicóptero",
+            "split": "he-li-cóp-te-ro"
+          },
+          {
+            "id": "build-pinguim",
+            "word": "pinguim",
+            "split": "pin-guim"
+          },
+          {
+            "id": "build-balão",
+            "word": "balão",
+            "split": "ba-lão"
+          },
+          {
+            "id": "build-golfinho",
+            "word": "golfinho",
+            "split": "gol-fi-nho"
+          },
+          {
+            "id": "build-trator",
+            "word": "trator",
+            "split": "tra-tor"
+          },
+          {
+            "id": "build-tigre",
+            "word": "tigre",
+            "split": "ti-gre"
+          },
+          {
+            "id": "build-zebra",
+            "word": "zebra",
+            "split": "ze-bra"
+          },
+          {
+            "id": "build-panda",
+            "word": "panda",
+            "split": "pan-da"
+          },
+          {
+            "id": "build-farol",
+            "word": "farol",
+            "split": "fa-rol"
+          }
+        ]
+      }
+    },
+    "theme": null,
+    "slug": {
+      "pt": "forme-as-silabas"
+    },
+    "page_title": {
+      "pt": "Forme as sílabas — Fonética no pré-escola"
+    },
+    "page_intro": {
+      "pt": "Olhe a imagem e forme a palavra colocando as sílabas em ordem. Alinhado à BNCC — contar, pronunciar, mesclar e segmentar sílabas em palavras faladas."
+    },
+    "kid_prompt_template": "promptBuildSyllables"
+  }
+]

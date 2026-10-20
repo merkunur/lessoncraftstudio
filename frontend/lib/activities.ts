@@ -178,6 +178,7 @@ const MANIFEST_FILES = [
   'stepping-stones-activities.json',
   'syllable-chain-activities.json',
   'domino-run-activities.json',
+  'family-lock-activities.json',
   'graph-it-activities.json',
   'field-guide-activities.json',
   'rhyme-shop-activities.json',

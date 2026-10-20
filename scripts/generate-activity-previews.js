@@ -211,6 +211,10 @@ function seedScript(row) {
     // a wrong sort tipped over beside the empty slot, its other form showing on its back — the invention at rest
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='P1';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.TypeCaseCore,s=t.st,w=s.tray.find(function(x){return x.face!==s.r.answer;});C.drop(s,w.id);t._paint();})();`;
   }
+  if (row.tool === 'clay-snake-activity') {
+    // regenboog chopped one piece short: the stamp prints re | gen·boog with the dotted seam on the last piece and the knife pulsing above it — the invention at work
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='hak-rainbow';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.ClaySnakeCore,s=t.st;C.chop(s,0.42);C.check(s);t._paint();})();`;
+  }
   if (row.tool === 'silbenbogen-activity') {
     // Schmetterling mid-build: three bows swung, schmet and ter lying in their blue/red bows, ling still in the tray — the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.api.settings.level='lang';t._pool=null;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='lang-butterfly';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.SilbenbogenCore,s=t.st;C.swing(s);C.swing(s);C.swing(s);[0,1].forEach(function(n){var c=s.cards.find(function(x){return x.s===n;});C.place(s,c.id,n);});t._paint();})();`;

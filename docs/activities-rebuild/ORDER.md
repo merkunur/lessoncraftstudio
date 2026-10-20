@@ -59,7 +59,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 49 | LIVE 2026-10-20 · La catena delle sillabe | K | RF.K.2.B | `syllable-builder.forma-la-parola-con-le-sillabe.rf-k-2-b` | syllable-builder-activity |  |
 | 50 | LIVE 2026-10-20 · La fila de fichas | K | RF.K.2.B | `syllable-builder.forma-las-silabas.rf-k-2-b` | syllable-builder-activity |  |
 | 51 | LIVE 2026-10-20 · O cadeado das famílias | K | RF.K.2.B | `syllable-builder.forme-as-silabas.rf-k-2-b` | syllable-builder-activity |  |
-| 52 |  | K | RF.K.2.B | `syllable-builder.forme-le-mot-en-syllabes.rf-k-2-b` | syllable-builder-activity |  |
+| 52 | LIVE 2026-10-20 · La photo qui se révèle | K | RF.K.2.B | `syllable-builder.forme-le-mot-en-syllabes.rf-k-2-b` | syllable-builder-activity |  |
 | 53 |  | K | RF.K.2.B | `syllable-builder.muodosta-sana-tavuista.rf-k-2-b` | syllable-builder-activity |  |
 | 54 |  | K | RF.K.2.c | `choice-board.onset-rime-blend.rf-k-2-c` | choice-board-activity | Blend Onset and Rime — Listen and Find the Word |
 | 55 |  | K | RF.K.2.d | `sound-boxes.phoneme-position.rf-k-2-d` | sound-boxes-activity | Coco's Sound Boxes — First, Middle & Last Sounds (Kindergarten) |

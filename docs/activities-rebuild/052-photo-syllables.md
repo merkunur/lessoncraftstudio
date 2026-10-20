@@ -92,3 +92,14 @@ ORDER row 52 · id `syllable-builder.forme-le-mot-en-syllabes.rf-k-2-b` (kept).
 - **The title** «… former des mots en syllabes en ligne» has a clumsy double «en».
 - **«GS»:** the title and the intro both say it, but Levels 2–3 read written syllables (CP territory).
 - **The intro:** «écouter chaque syllabe» undersells the reading. «sans inscription» needs checking against the tier truth.
+
+## Deploy (2026-10-20)
+- **Commit 8bc33fef.** deploy.sh returned EXIT 0, with 0 payment-canary failures. The preview webp was copied to the server before the build.
+- **Production play: 18 / 18** (fr at 1366 and 390).
+  - Lapin: an empty rail asks; pin + la → mixed up, both strips fogged; la + pin → whole, and lapin goes into the album.
+  - Papillon: the decoy develops a foreign strip; the right order → whole.
+  - The wrapper version matches, and the iframe grows with the card.
+  - The first live run failed its first three steps at 1366: the click landed before the freshly deployed page settled. A hand check and the immediate re-run were both clean.
+- **The live phone shot (390)** is clean.
+- **Live variety probe (fr):** 9 distinct rounds, and pass 2 is reshuffled.
+- **Server disk after the deploy:** 134 GB available of 436 GB (68 % used).

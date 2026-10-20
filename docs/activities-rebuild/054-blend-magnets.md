@@ -61,3 +61,12 @@ ORDER row 54 · id `choice-board.onset-rime-blend.rf-k-2-c` (kept).
 - `audit-activity-hierarchy.js`: 398 / 0.
 - `audit-settings-efficacy`: 2 live.
 - The static gates are green.
+
+## Deploy (2026-10-20)
+- **Commit:** `e1e845c6`.
+- **Server:** cp `blend-magnets-*` and `choice-board-activities.json`, then the preview webp, then `deploy.sh`: EXIT 0, payment canary clean, 133 GB free.
+- **`live-verify-blend-magnets.js`: 67/67.**
+  - All 11 locale pages return 200.
+  - en/de/sv/fi were played with a real pointer at 1366 and 390: snap, the rhyme miss with its end sticking, then right on the fridge.
+  - The first run raced the fresh deploy (no iframe yet), and the re-run was clean.
+- **Variety:** 15 distinct rounds live in en, reshuffled on pass 2.

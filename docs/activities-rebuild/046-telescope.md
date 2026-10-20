@@ -96,3 +96,13 @@ ORDER row 46 · id `syllable-builder.byg-ordet-af-stavelser.da.rf-k-2-b` (kept).
 ## FROZEN-NOTEs (not changed — metadata is frozen)
 - **The title** says "Fonetik"; in Danish schools that is the science of phonetics, and the right term is "fonologisk opmærksomhed".
 - **The intro** says "blande … stavelser", a calque of "blend" (Danish: "sætte sammen"), and it describes only the build level.
+
+## Deploy (2026-10-20)
+- **Commit 7b8e7339.** deploy.sh returned EXIT 0, with 0 payment-canary failures. The da page returns 200. The preview webp was copied to the server before the build.
+- **Production play: 20 / 20** (da at 1366 and 390).
+  - Banan on one ring is blurred, with two syllables on the ring (a miss); on two rings it is sharp.
+  - Kjole: le + kjo pops back (a miss); kjo + le is sharp.
+  - Panda: "da" in the hollow is sent back (a miss); "pan" is sharp.
+  - The wrapper version matches, and the iframe grows with the card.
+- **Live variety probe (da):** 10 distinct rounds, and pass 2 is reshuffled.
+- **Server disk after the deploy:** 134 GB available of 436 GB (68 % used).

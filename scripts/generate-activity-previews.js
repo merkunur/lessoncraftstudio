@@ -211,6 +211,10 @@ function seedScript(row) {
     // a wrong sort tipped over beside the empty slot, its other form showing on its back — the invention at rest
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='P1';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.TypeCaseCore,s=t.st,w=s.tray.find(function(x){return x.face!==s.r.answer;});C.drop(s,w.id);t._paint();})();`;
   }
+  if (row.tool === 'domino-run-activity') {
+    // ma·ri·_·sa with the wrong "ma" stood on the gap and pushed: the fallen row lies face-up, the trap tile wobbling coral — the invention at work
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.api.settings.level='complete';t._pool=null;t._poolKey=null;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='complete-mariposa';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.DominoRunCore,s=t.st;C.stand(s,'b');C.push(s);t._view={fallen:s.last.fallen.map(function(x,q){return {text:x,cls:q===2?'is-wrong':''};}),closed:false,onTable:['b']};t._paint();})();`;
+  }
   if (row.tool === 'syllable-chain-activity') {
     // pal·la → la·ma hooked, the open clasp «ma»: the trick picture piuma held against it — the two half-rings show «ma | piu» and it will not close — the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.api.settings.level='short';t.api.settings.lure='yes';t._pool=null;t._poolKey=null;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='short-palla-0';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.SyllableChainCore,s=t.st;C.hook(s,'lama');C.hook(s,'piuma');t._clash={syl:'ma',first:'piu',word:'piuma'};t._paint();})();`;

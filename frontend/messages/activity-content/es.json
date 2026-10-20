@@ -2885,25 +2885,25 @@
     },
     "syllable-builder.forma-las-silabas.rf-k-2-b": {
       "about": [
-        "El niño o la niña mira una imagen —por ejemplo un gato, una mariposa o una pelota— y forma la palabra colocando sus sílabas en el orden correcto. Toca cada sílaba, la acomoda en su lugar y la escucha en voz alta; cuando la palabra queda completa y comprueba, la oye pronunciada entera. Es una actividad de conciencia fonológica interactiva para preescolar que corre en el navegador, sin descargar nada y sin crear cuenta.",
-        "La idea clave es que las palabras se arman a partir de pedacitos de sonido: las sílabas. Al unir ga-to o ma-ri-po-sa en orden, tu hijo o hija aprende a contar, pronunciar, separar y juntar las sílabas de una palabra hablada, que es el cimiento de la lectura. Como cada sílaba se escucha al tocarla y la palabra completa suena al final, el sonido y la forma escrita se conectan de manera natural.",
-        "Está alineada con los planes y programas de estudio (SEP): contar, pronunciar, mezclar y segmentar las sílabas de palabras habladas. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+        "Las sílabas son fichas de dominó de pie sobre una mesa. El niño o la niña pone cada ficha en su marca y toca «¡Empuja!»: las fichas caen una tras otra, cada vez más rápido, y quedan boca arriba con su sílaba a la vista. Al final las fichas caídas se juntan y forman la palabra: ma … ri … po … sa, mariposa. Es una actividad interactiva de conciencia fonológica para preescolar que se juega en el navegador.",
+        "Lo especial es que la fila de fichas responde: si falta una ficha, la fila se detiene en el hueco y las demás se quedan de pie. Una sílaba equivocada cae en la fila, la palabra no suena bien y la ficha regresa a la caja. Por eso el niño necesita oír cada sílaba en su lugar. Las marcas siempre están repartidas igual sobre la mesa, así que el largo de la fila no delata cuántas sílabas tiene la palabra.",
+        "La actividad se basa en los programas de estudio de la SEP: contar, unir y separar las sílabas de palabras habladas. Tres niveles usan la misma mesa: completar la palabra con la sílaba que falta, ordenar las fichas para formar la palabra y contar las sílabas con fichas en blanco. Todas las divisiones en sílabas están comprobadas en varias fuentes. Sin temporizador y sin puntuación."
       ],
       "practices": [
-        "Separar una palabra en sus sílabas y reconocer cuántas tiene.",
-        "Colocar las sílabas en el orden correcto para formar la palabra.",
-        "Escuchar cada sílaba al tocarla y la palabra completa al unirla.",
-        "Relacionar la imagen con la palabra que se está armando."
+        "Encontrar la sílaba que falta en una palabra",
+        "Ordenar las sílabas para formar una palabra",
+        "Contar las sílabas de una palabra hablada",
+        "Distinguir una sílaba de la palabra de una que no le pertenece"
       ],
       "howToPlay": [
-        "Mira la imagen y di en voz alta el nombre de lo que ves.",
-        "Toca y arrastra cada sílaba para acomodarla en su lugar y formar la palabra.",
-        "Cuando la palabra esté completa, comprueba y escúchala pronunciada entera: no hay temporizador ni puntuación."
+        "Toca la imagen para oír la palabra.",
+        "Pon cada ficha en su marca: tócala o arrástrala a la mesa.",
+        "Toca «¡Empuja!» y mira si las fichas caen hasta el final y forman la palabra."
       ],
       "learningGoals": [
-        "Tu hijo o hija puede separar una palabra hablada en sus sílabas y volver a juntarlas.",
-        "El niño o la niña aprende a contar y a ordenar las sílabas para formar una palabra.",
-        "Construye la conciencia fonológica que es la base para aprender a leer."
+        "El niño o la niña encuentra la sílaba que falta en una palabra",
+        "El niño o la niña une las sílabas en orden para formar la palabra",
+        "El niño o la niña cuenta las sílabas de una palabra hablada"
       ]
     },
     "array.equal-groups.2-oa-c-4": {

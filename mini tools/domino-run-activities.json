@@ -1,0 +1,237 @@
+[
+  {
+    "id": "syllable-builder.forma-las-silabas.rf-k-2-b",
+    "tool": "domino-run-activity",
+    "task_template": "domino-run",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.2.B",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "note": "The words and their gated splits live in domino-run-core.js ; the gate re-reads approved-words-es.json. This list mirrors the core so the gates can size each level.",
+      "rounds": [
+        {
+          "id": "complete-mesa",
+          "word": "mesa",
+          "split": "me-sa"
+        },
+        {
+          "id": "complete-luna",
+          "word": "luna",
+          "split": "lu-na"
+        },
+        {
+          "id": "complete-pelota",
+          "word": "pelota",
+          "split": "pe-lo-ta"
+        },
+        {
+          "id": "complete-jirafa",
+          "word": "jirafa",
+          "split": "ji-ra-fa"
+        },
+        {
+          "id": "complete-mariposa",
+          "word": "mariposa",
+          "split": "ma-ri-po-sa"
+        },
+        {
+          "id": "complete-girasol",
+          "word": "girasol",
+          "split": "gi-ra-sol"
+        },
+        {
+          "id": "complete-bicicleta",
+          "word": "bicicleta",
+          "split": "bi-ci-cle-ta"
+        },
+        {
+          "id": "complete-elefante",
+          "word": "elefante",
+          "split": "e-le-fan-te"
+        },
+        {
+          "id": "complete-helicóptero",
+          "word": "helicóptero",
+          "split": "he-li-cóp-te-ro"
+        },
+        {
+          "id": "complete-conejo",
+          "word": "conejo",
+          "split": "co-ne-jo"
+        }
+      ],
+      "levels": {
+        "complete": [
+          {
+            "id": "complete-mesa",
+            "word": "mesa",
+            "split": "me-sa"
+          },
+          {
+            "id": "complete-luna",
+            "word": "luna",
+            "split": "lu-na"
+          },
+          {
+            "id": "complete-pelota",
+            "word": "pelota",
+            "split": "pe-lo-ta"
+          },
+          {
+            "id": "complete-jirafa",
+            "word": "jirafa",
+            "split": "ji-ra-fa"
+          },
+          {
+            "id": "complete-mariposa",
+            "word": "mariposa",
+            "split": "ma-ri-po-sa"
+          },
+          {
+            "id": "complete-girasol",
+            "word": "girasol",
+            "split": "gi-ra-sol"
+          },
+          {
+            "id": "complete-bicicleta",
+            "word": "bicicleta",
+            "split": "bi-ci-cle-ta"
+          },
+          {
+            "id": "complete-elefante",
+            "word": "elefante",
+            "split": "e-le-fan-te"
+          },
+          {
+            "id": "complete-helicóptero",
+            "word": "helicóptero",
+            "split": "he-li-cóp-te-ro"
+          },
+          {
+            "id": "complete-conejo",
+            "word": "conejo",
+            "split": "co-ne-jo"
+          }
+        ],
+        "order": [
+          {
+            "id": "order-gato",
+            "word": "gato",
+            "split": "ga-to"
+          },
+          {
+            "id": "order-casa",
+            "word": "casa",
+            "split": "ca-sa"
+          },
+          {
+            "id": "order-faro",
+            "word": "faro",
+            "split": "fa-ro"
+          },
+          {
+            "id": "order-avión",
+            "word": "avión",
+            "split": "a-vión"
+          },
+          {
+            "id": "order-guante",
+            "word": "guante",
+            "split": "guan-te"
+          },
+          {
+            "id": "order-tortuga",
+            "word": "tortuga",
+            "split": "tor-tu-ga"
+          },
+          {
+            "id": "order-paraguas",
+            "word": "paraguas",
+            "split": "pa-ra-guas"
+          },
+          {
+            "id": "order-manzana",
+            "word": "manzana",
+            "split": "man-za-na"
+          },
+          {
+            "id": "order-calabaza",
+            "word": "calabaza",
+            "split": "ca-la-ba-za"
+          },
+          {
+            "id": "order-zanahoria",
+            "word": "zanahoria",
+            "split": "za-na-ho-ria"
+          }
+        ],
+        "count": [
+          {
+            "id": "count-sol",
+            "word": "sol",
+            "split": "sol"
+          },
+          {
+            "id": "count-tigre",
+            "word": "tigre",
+            "split": "ti-gre"
+          },
+          {
+            "id": "count-caracol",
+            "word": "caracol",
+            "split": "ca-ra-col"
+          },
+          {
+            "id": "count-flor",
+            "word": "flor",
+            "split": "flor"
+          },
+          {
+            "id": "count-delfín",
+            "word": "delfín",
+            "split": "del-fín"
+          },
+          {
+            "id": "count-caballo",
+            "word": "caballo",
+            "split": "ca-ba-llo"
+          },
+          {
+            "id": "count-murciélago",
+            "word": "murciélago",
+            "split": "mur-cié-la-go"
+          },
+          {
+            "id": "count-tractor",
+            "word": "tractor",
+            "split": "trac-tor"
+          },
+          {
+            "id": "count-pingüino",
+            "word": "pingüino",
+            "split": "pin-güi-no"
+          },
+          {
+            "id": "count-hipopótamo",
+            "word": "hipopótamo",
+            "split": "hi-po-pó-ta-mo"
+          }
+        ]
+      }
+    },
+    "theme": null,
+    "slug": {
+      "es": "forma-las-silabas"
+    },
+    "page_title": {
+      "es": "Forma las sílabas — Fonética en preescolar"
+    },
+    "page_intro": {
+      "es": "Mira la imagen y forma la palabra colocando las sílabas en orden. Alineado con el currículo oficial — contar, pronunciar, mezclar y segmentar sílabas en palabras habladas."
+    },
+    "kid_prompt_template": "promptBuildSyllables"
+  }
+]

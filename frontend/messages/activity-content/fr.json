@@ -4183,6 +4183,29 @@
         "Distinguer une rime de mots qui commencent seulement pareil",
         "Produire un nouveau mot qui rime"
       ]
+    },
+    "choice-board.onset-rime-blend.rf-k-2-c": {
+      "about": [
+        "Le premier son et le reste du mot sont deux aimants sur un rail : m et ain. L’écart entre eux, c’est la pause, dessinée par une ligne pointillée et une rangée de points. L’enfant pousse le premier aimant jusqu’à ce qu’il se colle au reste — m … ain devient main — puis touche l’image du mot. C’est une activité interactive de conscience phonologique pour la grande section et le CP, qui se joue dans le navigateur.",
+        "Trois images attendent : le mot, un mot qui rime et un mot qui commence par le même son. Avec Vérifier, les aimants sont testés sur le nom de l’image choisie, morceau par morceau. Si l’on choisit le pain pour main, les aimants « ain » se collent et le « p » saute : la fin est juste, le début non. Après deux essais, chaque image montre sa première lettre. Au deuxième niveau, chaque son a son aimant : m · ain.",
+        "L’activité suit les programmes officiels : fusionner des sons pour former des mots et bien entendre le premier son. Ni minuteur ni score."
+      ],
+      "practices": [
+        "Fusionner le premier son et le reste d’un mot",
+        "Distinguer par le premier son un mot qui rime du bon mot",
+        "Distinguer par la fin un mot qui commence pareil",
+        "Fusionner des sons un par un pour former un mot"
+      ],
+      "howToPlay": [
+        "Pousse l’aimant rouge le long du rail jusqu’à ce qu’il se colle au bleu.",
+        "Touche l’image du mot que tu as formé.",
+        "Appuie sur Vérifier et regarde quels morceaux se collent et lesquels se repoussent."
+      ],
+      "learningGoals": [
+        "L’enfant fusionne le premier son et le reste d’un mot",
+        "L’enfant utilise le premier son pour distinguer un mot qui rime",
+        "L’enfant fusionne des sons un par un pour former un mot"
+      ]
     }
   }
 }

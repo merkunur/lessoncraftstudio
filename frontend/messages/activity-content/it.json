@@ -4159,6 +4159,29 @@
         "Fondere le sillabe per leggere parole di due sillabe",
         "Rafforzare la sicurezza nella lettura e avvicinarsi alla lettura fluente"
       ]
+    },
+    "choice-board.onset-rime-blend.rf-k-2-c": {
+      "about": [
+        "Il primo suono e il resto della parola sono due calamite su un binario: c e ane. Lo spazio tra loro è la pausa, disegnata come una linea tratteggiata e una fila di puntini. Il bambino spinge la prima calamita finché si attacca al resto – c … ane diventa cane – e poi tocca il disegno della parola. È un’attività interattiva di consapevolezza fonologica per la scuola dell’infanzia e la classe prima, che si gioca nel browser.",
+        "Ci sono tre disegni: la parola, una parola in rima e una che comincia con lo stesso suono. Con Controlla le calamite si confrontano con il nome del disegno scelto, pezzo per pezzo. Se per cane si sceglie il pane, le calamite «ane» si attaccano e la «p» salta via: la fine è giusta, l’inizio no. Dopo due tentativi ogni disegno mostra la sua prima lettera. Nel secondo livello ogni suono ha la sua calamita: c · a · n · e.",
+        "L’attività segue le Indicazioni nazionali: unire i suoni per formare parole e ascoltare bene il primo suono. Senza cronometro e senza punteggio."
+      ],
+      "practices": [
+        "Unire il primo suono e il resto di una parola",
+        "Distinguere dal primo suono una parola in rima da quella giusta",
+        "Distinguere dalla fine una parola che comincia allo stesso modo",
+        "Unire quattro o cinque suoni singoli per formare una parola"
+      ],
+      "howToPlay": [
+        "Spingi la calamita rossa lungo il binario finché si attacca a quella blu.",
+        "Tocca il disegno della parola che hai formato.",
+        "Premi Controlla e guarda quali pezzi si attaccano e quali si respingono."
+      ],
+      "learningGoals": [
+        "Il bambino unisce il primo suono e il resto di una parola",
+        "Il bambino usa il primo suono per distinguere una parola in rima",
+        "Il bambino unisce suoni singoli per formare una parola"
+      ]
     }
   }
 }

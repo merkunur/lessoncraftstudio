@@ -477,25 +477,25 @@
     },
     "choice-board.onset-rime-blend.rf-k-2-c": {
       "about": [
-        "Barnet hører slutningen af et ord og ser den første bogstavlyd, smelter de to dele sammen til ét ord og trykker så på det billede, ordet hedder — for k og \"at\" smelter barnet sammen til \"kat\" og finder katten. Det er en interaktiv læseaktivitet til børnehaveklassen, der spiller direkte i browseren uden oprettelse.",
-        "Den store idé er at smelte lyde sammen — at trække en første lyd og en ordslutning sammen til et helt ord. Et af billederne rimer på svaret (en hat står ved siden af katten), så rimet alene er ikke nok; det er den første lyd, der afgør, hvilket ord det er. Barnet lytter, smelter lydene sammen og læser billedet i stedet for at sætte bogstaver sammen på papiret.",
-        "Aktiviteten er tilpasset Fælles Mål for dansk i børnehaveklassen: at smelte forlyd og rim sammen til korte, enstavelsesord og dele dem op igen. Der er ingen tid og ingen point — bare ro til at lytte, prøve og opdage, hvordan lyde bliver til ord."
+        "Den første lyd og resten af ordet er to magneter på en skinne: k og at. Afstanden imellem dem er pausen, tegnet som en prikket linje og en række pauseprikker. Barnet skubber den første magnet hen, til den klikker fast på resten – k … at bliver til kat – og trykker så på billedet af ordet. En interaktiv øvelse i at trække lyde sammen, lige i browseren.",
+        "Tre billeder venter: ordet, et rimord og et ord med den samme første lyd. Når barnet trykker på Tjek, kører en magnettest med navnet på det valgte billede, del for del. Vælger man hatten ved kat, hænger „at“-magneterne sammen, mens „h“ hopper væk: slutningen passer, begyndelsen gør ikke. Efter to forsøg viser hvert billede sit første bogstav. På andet niveau har hver lyd sin egen magnet, k · a · t.",
+        "Øvelsen følger Fælles Mål for dansk: at trække lyde sammen til ord og høre forlyden tydeligt. Ingen tid og ingen point."
       ],
       "practices": [
-        "Smelte en første lyd og en ordslutning sammen til et helt ord",
-        "Bruge den første lyd som spor, når to billeder rimer",
-        "Høre, at ord som kat og hat har samme slutning, men begynder forskelligt",
-        "Forbinde et sammensmeltet ord med det billede, det hedder"
+        "At trække den første lyd og resten af et ord sammen",
+        "At skelne et rimord fra det rigtige ord ved hjælp af forlyden",
+        "At skelne et ord med samme forlyd fra det rigtige ord ved hjælp af slutningen",
+        "At trække tre eller fire enkelte lyde sammen til et ord"
       ],
       "howToPlay": [
-        "Se den første bogstavlyd, og lyt til ordets slutning.",
-        "Smelt dem sammen inde i hovedet, tryk så på det billede, de bliver til, og tryk på Tjek.",
-        "Prøv igen når som helst — der er ingen tid og ingen point."
+        "Skub den røde magnet hen ad skinnen, til den klikker fast på den blå.",
+        "Tryk på billedet af det ord, du har lavet.",
+        "Tryk på Tjek, og se, hvilke dele der hænger sammen, og hvilke der skubber væk."
       ],
       "learningGoals": [
-        "Barnet kan smelte forlyd og rim sammen til enstavelsesord",
-        "Barnet kan kende rimende ord fra hinanden på deres første lyd",
-        "Barnet bygger den sammensmeltning af lyde, der gør bogstaver til læsning"
+        "Barnet trækker den første lyd og resten af et ord sammen til et helt ord",
+        "Barnet skelner ved hjælp af forlyden et rimord fra det rigtige ord",
+        "Barnet trækker tre eller fire enkelte lyde sammen til et ord"
       ]
     },
     "fractions.make-and-count-squares.2-g-a-2": {

@@ -1944,6 +1944,29 @@
         "Lapsi erottaa riimin sanoista, jotka vain alkavat samalla tavalla",
         "Lapsi keksii uuden sanan, joka rimmaa"
       ]
+    },
+    "choice-board.onset-rime-blend.rf-k-2-c": {
+      "about": [
+        "Sanan ensimmäinen äänne ja loppuosa ovat kaksi magneettia kiskolla: k ja ukka. Niiden välinen rako on tauko, joka näkyy pisteviivana ja taukopisteiden rivinä. Lapsi työntää ensimmäistä magneettia, kunnes se napsahtaa kiinni loppuosaan – k … ukka on kukka – ja napauttaa sitten sanan kuvaa. Tämä on vuorovaikutteinen äännetietoisuuden harjoitus esiopetukseen ja 1. luokalle, ja se toimii selaimessa.",
+        "Tarjolla on kolme kuvaa: sana, siihen rimmaava sana ja sana, joka alkaa samalla äänteellä. Tarkistus kokeilee magneetteja valitun kuvan nimellä osa kerrallaan. Jos kukan sijaan valitsee sukan, ”ukka”-magneetit tarttuvat toisiinsa ja ”s” hyppää pois: loppu on oikein, alku ei. Kahden yrityksen jälkeen jokainen kuva näyttää ensimmäisen kirjaimensa. Toisella tasolla jokaisella äänteellä on oma magneettinsa: k · u · kk · a.",
+        "Harjoitus tukee OPS 2014:n kielellisen tietoisuuden tavoitteita: äänteiden yhdistämistä sanaksi ja ensimmäisen äänteen tarkkaa kuulemista. Ei ajastinta eikä pisteitä."
+      ],
+      "practices": [
+        "Ensimmäisen äänteen ja sanan loppuosan yhdistäminen",
+        "Rimmaavan sanan erottaminen oikeasta sanasta ensimmäisen äänteen avulla",
+        "Samalla äänteellä alkavan sanan erottaminen oikeasta sanasta lopun avulla",
+        "Yksittäisten äänteiden yhdistäminen sanaksi"
+      ],
+      "howToPlay": [
+        "Työnnä punaista magneettia kiskoa pitkin, kunnes se napsahtaa kiinni siniseen.",
+        "Napauta muodostamasi sanan kuvaa.",
+        "Paina Tarkista ja katso, mitkä osat tarttuvat ja mitkä hylkivät toisiaan."
+      ],
+      "learningGoals": [
+        "Lapsi yhdistää ensimmäisen äänteen ja sanan loppuosan kokonaiseksi sanaksi",
+        "Lapsi erottaa rimmaavan sanan oikeasta sanasta ensimmäisen äänteen avulla",
+        "Lapsi yhdistää yksittäisiä äänteitä sanaksi"
+      ]
     }
   }
 }

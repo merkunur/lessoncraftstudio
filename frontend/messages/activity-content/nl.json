@@ -3182,25 +3182,25 @@
     },
     "choice-board.onset-rime-blend.rf-k-2-c": {
       "about": [
-        "Je kind hoort het laatste stukje van een woord en ziet de eerste letter, plakt die twee aan elkaar tot een woord en tikt daarna op het plaatje dat erbij hoort — bij k + 'at' plakt je kind tot 'kat' en zoekt de kat. Het is een interactieve lees- en luisteroefening voor beginnende lezers die direct in de browser speelt, zonder registratie.",
-        "Het grote idee is samenvoegen — een beginklank en een woordstukje aan elkaar plakken tot een heel woord. Eén van de plaatjes rijmt op het antwoord (een rat staat naast de kat), dus het laatste stukje alleen is niet genoeg; de eerste letter is de aanwijzing die beslist welk woord het is. Je kind luistert, plakt en leest het plaatje, in plaats van losse letters te zoeken.",
-        "De activiteit sluit aan bij de SLO-kerndoelen voor groep 3: de begin- en eindklanken van eenlettergrepige woorden samenvoegen en in stukjes hakken — net als hakken en plakken in de klas. Geen timer, geen score — gewoon rustig en speels oefenen."
+        "De eerste klank en de rest van het woord zijn twee magneten op een rail: h en ond. De ruimte ertussen is de pauze, getekend als een stippellijn en een rij pauzestippen. Je kind duwt de eerste magneet op tot hij aan de rest vastklikt – h … ond wordt hond – en tikt dan op het plaatje van het woord. Een interactieve oefening in klanken samenvoegen, gewoon in de browser.",
+        "Er staan drie plaatjes klaar: het woord, een rijmwoord en een woord met dezelfde eerste klank. Bij Controleer loopt een magneettest met de naam van het gekozen plaatje, stukje voor stukje. Kies je bij hond de mond, dan plakken de “ond”-magneten en springt de “m” weg: het eind klopt, het begin niet. Na twee pogingen toont elk plaatje zijn eerste letter. Op het tweede niveau heeft elke klank een eigen magneet, h · o · n · d.",
+        "De oefening sluit aan bij de SLO-kerndoelen voor beginnende geletterdheid: klanken samenvoegen tot een woord. Geen klok en geen punten."
       ],
       "practices": [
-        "Een beginklank en een woordstukje samenvoegen tot een heel woord",
-        "De eerste letter als aanwijzing gebruiken wanneer twee plaatjes rijmen",
-        "Horen dat woorden als kat en rat hetzelfde eindstukje hebben maar anders beginnen",
-        "Een samengevoegd woord koppelen aan het plaatje dat het benoemt"
+        "De eerste klank en de rest van een woord samenvoegen",
+        "Een rijmwoord aan de eerste klank onderscheiden van het goede woord",
+        "Een woord met dezelfde eerste klank aan het eind onderscheiden",
+        "Drie of vier losse klanken samenvoegen tot een woord"
       ],
       "howToPlay": [
-        "Kijk naar de eerste letter en luister naar het eindstukje van het woord.",
-        "Plak ze in je hoofd aan elkaar, tik op het plaatje dat ze samen maken en druk op Controleer.",
-        "Probeer het zo vaak als je wilt — er is geen timer en geen score."
+        "Duw de rode magneet over de rail tot hij aan de blauwe vastklikt.",
+        "Tik op het plaatje van het woord dat je hebt gemaakt.",
+        "Druk op Controleer en kijk welke stukjes plakken en welke elkaar wegduwen."
       ],
       "learningGoals": [
-        "Het kind voegt begin- en eindklanken samen tot eenlettergrepige woorden.",
-        "Het kind onderscheidt rijmwoorden aan hun beginklank.",
-        "Het kind bouwt de samenvoegvaardigheid die van letters echt lezen maakt."
+        "Het kind voegt de eerste klank en de rest van een woord samen tot een heel woord",
+        "Het kind onderscheidt aan de eerste klank een rijmwoord van het goede woord",
+        "Het kind voegt drie of vier losse klanken samen tot een woord"
       ]
     },
     "fractions.make-and-count-squares.2-g-a-2": {

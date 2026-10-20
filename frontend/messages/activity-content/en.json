@@ -943,25 +943,25 @@
     },
     "choice-board.onset-rime-blend.rf-k-2-c": {
       "about": [
-        "The child hears the ending chunk of a word and sees its first letter, blends the two together into a word, then taps the picture it names — for c + 'at', the child blends to 'cat' and finds the cat. It's an interactive Kindergarten reading activity that plays right in the browser with no sign-up.",
-        "The big idea is blending — pulling a first sound and a word-ending together to make a whole word. One of the picture choices rhymes with the answer (a bat sits next to the cat), so the rime alone is not enough; the first letter is the clue that decides which word it is. The child listens, blends, and reads the picture rather than matching letters on the page.",
-        "It is aligned to Common Core RF.K.2.c — blending and segmenting the onsets and rimes of single-syllable spoken words. No timer, no score — just calm, playful practice."
+        "The first sound and the rest of the word are two magnets on a rail: c and at. The gap between them is the pause, drawn as a stretchy dotted line and a row of pause dots. The child pushes the first magnet along until it snaps onto the rest — c … at becomes cat — and then taps the picture of the word. It is an interactive Kindergarten blending activity that plays in the browser.",
+        "Three pictures wait: the word, one that rhymes and one that starts with the same sound. Check runs a magnet test on the chosen picture’s own name, part by part. Pick the bat for cat, and the “at” magnets click together while the “b” jumps away: the end is right, the start is not. After two tries every picture shows its first letter. A second level gives one magnet per sound, c · a · t, for blending three or four sounds.",
+        "It is aligned to Common Core RF.K.2.c, blending onsets and rimes of single-syllable spoken words. No timer and no score."
       ],
       "practices": [
-        "Blend a first sound and a word-ending into a whole word",
-        "Use the first letter as the clue when two pictures rhyme",
-        "Hear that words like cat and bat share an ending but start differently",
-        "Connect a blended spoken word to the picture it names"
+        "Blending a first sound and the rest of a word",
+        "Telling a rhyming word from the right word by its first sound",
+        "Telling a word with the same first sound from the right word by its ending",
+        "Blending three or four single sounds into a word"
       ],
       "howToPlay": [
-        "See the first letter and listen to the word's ending sound.",
-        "Blend them together in your head, then tap the picture they make and press Check.",
-        "Try again any time; there is no timer and no score."
+        "Push the red magnet along the rail until it snaps onto the blue one.",
+        "Tap the picture of the word you made.",
+        "Press Check and watch which parts stick together and which push apart."
       ],
       "learningGoals": [
-        "Blend onsets and rimes into single-syllable words — the focus of Common Core RF.K.2.c",
-        "Tell rhyming words apart by their beginning sound",
-        "Build the blending skill that turns letters into reading"
+        "The child blends a first sound and the rest of a word into a whole word",
+        "The child uses the first sound to tell a rhyming word from the right one",
+        "The child blends three or four single sounds into a word"
       ]
     },
     "choice-board.pick-bigger.k-c-c-7": {

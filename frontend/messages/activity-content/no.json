@@ -1998,6 +1998,29 @@
         "Skille rim fra ord som bare begynner likt",
         "Si et nytt ord som rimer"
       ]
+    },
+    "choice-board.onset-rime-blend.rf-k-2-c": {
+      "about": [
+        "Den første lyden og resten av ordet er to magneter på en skinne: k og att. Avstanden mellom dem er pausen, tegnet som en prikkete linje og en rad med pauseprikker. Barnet skyver den første magneten fram til den klikker fast i resten – k … att blir katt – og trykker så på bildet av ordet. En interaktiv øvelse i å trekke sammen lyder, rett i nettleseren.",
+        "Tre bilder venter: ordet, et rimord og et ord som begynner med samme lyd. Når barnet trykker på Sjekk, kjøres en magnettest med navnet på det valgte bildet, del for del. Velger man hatten ved katt, henger «att»-magnetene sammen mens «h» hopper bort: slutten stemmer, begynnelsen gjør det ikke. Etter to forsøk viser hvert bilde sin første bokstav. På det andre nivået har hver lyd sin egen magnet, k · a · tt.",
+        "Øvelsen følger LK20: å trekke sammen lyder til ord og høre den første lyden tydelig. Ingen tidtaking og ingen poeng."
+      ],
+      "practices": [
+        "Å trekke sammen den første lyden og resten av et ord",
+        "Å skille et rimord fra riktig ord ved hjelp av den første lyden",
+        "Å skille et ord med samme første lyd fra riktig ord ved hjelp av slutten",
+        "Å trekke sammen tre eller fire enkeltlyder til et ord"
+      ],
+      "howToPlay": [
+        "Skyv den røde magneten langs skinnen til den klikker fast i den blå.",
+        "Trykk på bildet av ordet du har laget.",
+        "Trykk på Sjekk og se hvilke deler som henger sammen, og hvilke som skyver hverandre bort."
+      ],
+      "learningGoals": [
+        "Barnet trekker sammen den første lyden og resten av et ord til et helt ord",
+        "Barnet skiller et rimord fra riktig ord ved hjelp av den første lyden",
+        "Barnet trekker sammen tre eller fire enkeltlyder til et ord"
+      ]
     }
   }
 }

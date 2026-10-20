@@ -1,0 +1,1205 @@
+[
+  {
+    "id": "choice-board.onset-rime-blend.rf-k-2-c",
+    "tool": "blend-magnets-activity",
+    "task_template": "blend-magnets",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.2.c",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "note": "The rounds, their pictures and parts live in blend-magnets-core.js (measured from the picture library); this list mirrors the core so the gates can size each level per locale.",
+      "byLocale": {
+        "en": {
+          "onset": [
+            {
+              "id": "onset-cat",
+              "word": "cat",
+              "parts": "c·at"
+            },
+            {
+              "id": "onset-hat",
+              "word": "hat",
+              "parts": "h·at"
+            },
+            {
+              "id": "onset-bag",
+              "word": "bag",
+              "parts": "b·ag"
+            },
+            {
+              "id": "onset-bed",
+              "word": "bed",
+              "parts": "b·ed"
+            },
+            {
+              "id": "onset-pig",
+              "word": "pig",
+              "parts": "p·ig"
+            },
+            {
+              "id": "onset-car",
+              "word": "car",
+              "parts": "c·ar"
+            },
+            {
+              "id": "onset-jar",
+              "word": "jar",
+              "parts": "j·ar"
+            },
+            {
+              "id": "onset-fan",
+              "word": "fan",
+              "parts": "f·an"
+            },
+            {
+              "id": "onset-hen",
+              "word": "hen",
+              "parts": "h·en"
+            },
+            {
+              "id": "onset-bun",
+              "word": "bun",
+              "parts": "b·un"
+            },
+            {
+              "id": "onset-mug",
+              "word": "mug",
+              "parts": "m·ug"
+            },
+            {
+              "id": "onset-sun",
+              "word": "sun",
+              "parts": "s·un"
+            },
+            {
+              "id": "onset-flag",
+              "word": "flag",
+              "parts": "fl·ag"
+            },
+            {
+              "id": "onset-sled",
+              "word": "sled",
+              "parts": "sl·ed"
+            },
+            {
+              "id": "onset-star",
+              "word": "star",
+              "parts": "st·ar"
+            }
+          ],
+          "sounds": [
+            {
+              "id": "sounds-cat",
+              "word": "cat",
+              "parts": "c·a·t"
+            },
+            {
+              "id": "sounds-pig",
+              "word": "pig",
+              "parts": "p·i·g"
+            },
+            {
+              "id": "sounds-sun",
+              "word": "sun",
+              "parts": "s·u·n"
+            },
+            {
+              "id": "sounds-dog",
+              "word": "dog",
+              "parts": "d·o·g"
+            },
+            {
+              "id": "sounds-bus",
+              "word": "bus",
+              "parts": "b·u·s"
+            },
+            {
+              "id": "sounds-hen",
+              "word": "hen",
+              "parts": "h·e·n"
+            },
+            {
+              "id": "sounds-mop",
+              "word": "mop",
+              "parts": "m·o·p"
+            },
+            {
+              "id": "sounds-frog",
+              "word": "frog",
+              "parts": "f·r·o·g"
+            },
+            {
+              "id": "sounds-crab",
+              "word": "crab",
+              "parts": "c·r·a·b"
+            },
+            {
+              "id": "sounds-drum",
+              "word": "drum",
+              "parts": "d·r·u·m"
+            },
+            {
+              "id": "sounds-flag",
+              "word": "flag",
+              "parts": "f·l·a·g"
+            }
+          ]
+        },
+        "de": {
+          "onset": [
+            {
+              "id": "onset-maus",
+              "word": "maus",
+              "parts": "m·aus"
+            },
+            {
+              "id": "onset-haus",
+              "word": "haus",
+              "parts": "h·aus"
+            },
+            {
+              "id": "onset-hund",
+              "word": "hund",
+              "parts": "h·und"
+            },
+            {
+              "id": "onset-fisch",
+              "word": "fisch",
+              "parts": "f·isch"
+            },
+            {
+              "id": "onset-topf",
+              "word": "topf",
+              "parts": "t·opf"
+            },
+            {
+              "id": "onset-nase",
+              "word": "nase",
+              "parts": "n·ase"
+            },
+            {
+              "id": "onset-kamm",
+              "word": "kamm",
+              "parts": "k·amm"
+            },
+            {
+              "id": "onset-kuh",
+              "word": "kuh",
+              "parts": "k·uh"
+            },
+            {
+              "id": "onset-rose",
+              "word": "rose",
+              "parts": "r·ose"
+            },
+            {
+              "id": "onset-zahn",
+              "word": "zahn",
+              "parts": "z·ahn"
+            },
+            {
+              "id": "onset-bein",
+              "word": "bein",
+              "parts": "b·ein"
+            },
+            {
+              "id": "onset-glocke",
+              "word": "glocke",
+              "parts": "gl·ocke"
+            }
+          ],
+          "sounds": [
+            {
+              "id": "sounds-maus",
+              "word": "maus",
+              "parts": "m·au·s"
+            },
+            {
+              "id": "sounds-hund",
+              "word": "hund",
+              "parts": "h·u·n·d"
+            },
+            {
+              "id": "sounds-fisch",
+              "word": "fisch",
+              "parts": "f·i·sch"
+            },
+            {
+              "id": "sounds-kamm",
+              "word": "kamm",
+              "parts": "k·a·mm"
+            },
+            {
+              "id": "sounds-topf",
+              "word": "topf",
+              "parts": "t·o·pf"
+            },
+            {
+              "id": "sounds-rose",
+              "word": "rose",
+              "parts": "r·o·s·e"
+            },
+            {
+              "id": "sounds-nase",
+              "word": "nase",
+              "parts": "n·a·s·e"
+            },
+            {
+              "id": "sounds-bein",
+              "word": "bein",
+              "parts": "b·ei·n"
+            }
+          ]
+        },
+        "nl": {
+          "onset": [
+            {
+              "id": "onset-hond",
+              "word": "hond",
+              "parts": "h·ond"
+            },
+            {
+              "id": "onset-muis",
+              "word": "muis",
+              "parts": "m·uis"
+            },
+            {
+              "id": "onset-sok",
+              "word": "sok",
+              "parts": "s·ok"
+            },
+            {
+              "id": "onset-kam",
+              "word": "kam",
+              "parts": "k·am"
+            },
+            {
+              "id": "onset-pan",
+              "word": "pan",
+              "parts": "p·an"
+            },
+            {
+              "id": "onset-pen",
+              "word": "pen",
+              "parts": "p·en"
+            },
+            {
+              "id": "onset-jas",
+              "word": "jas",
+              "parts": "j·as"
+            },
+            {
+              "id": "onset-vaas",
+              "word": "vaas",
+              "parts": "v·aas"
+            },
+            {
+              "id": "onset-peer",
+              "word": "peer",
+              "parts": "p·eer"
+            },
+            {
+              "id": "onset-boek",
+              "word": "boek",
+              "parts": "b·oek"
+            },
+            {
+              "id": "onset-kip",
+              "word": "kip",
+              "parts": "k·ip"
+            },
+            {
+              "id": "onset-bus",
+              "word": "bus",
+              "parts": "b·us"
+            },
+            {
+              "id": "onset-pot",
+              "word": "pot",
+              "parts": "p·ot"
+            },
+            {
+              "id": "onset-maan",
+              "word": "maan",
+              "parts": "m·aan"
+            }
+          ],
+          "sounds": [
+            {
+              "id": "sounds-kip",
+              "word": "kip",
+              "parts": "k·i·p"
+            },
+            {
+              "id": "sounds-pen",
+              "word": "pen",
+              "parts": "p·e·n"
+            },
+            {
+              "id": "sounds-sok",
+              "word": "sok",
+              "parts": "s·o·k"
+            },
+            {
+              "id": "sounds-kam",
+              "word": "kam",
+              "parts": "k·a·m"
+            },
+            {
+              "id": "sounds-bus",
+              "word": "bus",
+              "parts": "b·u·s"
+            },
+            {
+              "id": "sounds-vos",
+              "word": "vos",
+              "parts": "v·o·s"
+            },
+            {
+              "id": "sounds-jas",
+              "word": "jas",
+              "parts": "j·a·s"
+            },
+            {
+              "id": "sounds-hond",
+              "word": "hond",
+              "parts": "h·o·n·d"
+            }
+          ]
+        },
+        "da": {
+          "onset": [
+            {
+              "id": "onset-hat",
+              "word": "hat",
+              "parts": "h·at"
+            },
+            {
+              "id": "onset-mus",
+              "word": "mus",
+              "parts": "m·us"
+            },
+            {
+              "id": "onset-kat",
+              "word": "kat",
+              "parts": "k·at"
+            },
+            {
+              "id": "onset-sok",
+              "word": "sok",
+              "parts": "s·ok"
+            },
+            {
+              "id": "onset-hest",
+              "word": "hest",
+              "parts": "h·est"
+            },
+            {
+              "id": "onset-gås",
+              "word": "gås",
+              "parts": "g·ås"
+            },
+            {
+              "id": "onset-lam",
+              "word": "lam",
+              "parts": "l·am"
+            },
+            {
+              "id": "onset-gris",
+              "word": "gris",
+              "parts": "gr·is"
+            },
+            {
+              "id": "onset-sol",
+              "word": "sol",
+              "parts": "s·ol"
+            },
+            {
+              "id": "onset-ko",
+              "word": "ko",
+              "parts": "k·o"
+            },
+            {
+              "id": "onset-kop",
+              "word": "kop",
+              "parts": "k·op"
+            },
+            {
+              "id": "onset-tand",
+              "word": "tand",
+              "parts": "t·and"
+            }
+          ],
+          "sounds": [
+            {
+              "id": "sounds-kat",
+              "word": "kat",
+              "parts": "k·a·t"
+            },
+            {
+              "id": "sounds-lam",
+              "word": "lam",
+              "parts": "l·a·m"
+            },
+            {
+              "id": "sounds-gris",
+              "word": "gris",
+              "parts": "g·r·i·s"
+            },
+            {
+              "id": "sounds-hus",
+              "word": "hus",
+              "parts": "h·u·s"
+            },
+            {
+              "id": "sounds-sok",
+              "word": "sok",
+              "parts": "s·o·k"
+            },
+            {
+              "id": "sounds-ben",
+              "word": "ben",
+              "parts": "b·e·n"
+            },
+            {
+              "id": "sounds-sol",
+              "word": "sol",
+              "parts": "s·o·l"
+            },
+            {
+              "id": "sounds-mus",
+              "word": "mus",
+              "parts": "m·u·s"
+            }
+          ]
+        },
+        "sv": {
+          "onset": [
+            {
+              "id": "onset-katt",
+              "word": "katt",
+              "parts": "k·att"
+            },
+            {
+              "id": "onset-gris",
+              "word": "gris",
+              "parts": "gr·is"
+            },
+            {
+              "id": "onset-sol",
+              "word": "sol",
+              "parts": "s·ol"
+            },
+            {
+              "id": "onset-kopp",
+              "word": "kopp",
+              "parts": "k·opp"
+            },
+            {
+              "id": "onset-gås",
+              "word": "gås",
+              "parts": "g·ås"
+            },
+            {
+              "id": "onset-hus",
+              "word": "hus",
+              "parts": "h·us"
+            },
+            {
+              "id": "onset-häst",
+              "word": "häst",
+              "parts": "h·äst"
+            },
+            {
+              "id": "onset-kål",
+              "word": "kål",
+              "parts": "k·ål"
+            },
+            {
+              "id": "onset-tand",
+              "word": "tand",
+              "parts": "t·and"
+            },
+            {
+              "id": "onset-ko",
+              "word": "ko",
+              "parts": "k·o"
+            },
+            {
+              "id": "onset-mus",
+              "word": "mus",
+              "parts": "m·us"
+            }
+          ],
+          "sounds": [
+            {
+              "id": "sounds-katt",
+              "word": "katt",
+              "parts": "k·a·tt"
+            },
+            {
+              "id": "sounds-gris",
+              "word": "gris",
+              "parts": "g·r·i·s"
+            },
+            {
+              "id": "sounds-sol",
+              "word": "sol",
+              "parts": "s·o·l"
+            },
+            {
+              "id": "sounds-kopp",
+              "word": "kopp",
+              "parts": "k·o·pp"
+            },
+            {
+              "id": "sounds-mus",
+              "word": "mus",
+              "parts": "m·u·s"
+            },
+            {
+              "id": "sounds-ko",
+              "word": "ko",
+              "parts": "k·o"
+            },
+            {
+              "id": "sounds-häst",
+              "word": "häst",
+              "parts": "h·ä·s·t"
+            },
+            {
+              "id": "sounds-ben",
+              "word": "ben",
+              "parts": "b·e·n"
+            }
+          ]
+        },
+        "no": {
+          "onset": [
+            {
+              "id": "onset-katt",
+              "word": "katt",
+              "parts": "k·att"
+            },
+            {
+              "id": "onset-sokk",
+              "word": "sokk",
+              "parts": "s·okk"
+            },
+            {
+              "id": "onset-hest",
+              "word": "hest",
+              "parts": "h·est"
+            },
+            {
+              "id": "onset-gås",
+              "word": "gås",
+              "parts": "g·ås"
+            },
+            {
+              "id": "onset-kopp",
+              "word": "kopp",
+              "parts": "k·opp"
+            },
+            {
+              "id": "onset-mus",
+              "word": "mus",
+              "parts": "m·us"
+            },
+            {
+              "id": "onset-lam",
+              "word": "lam",
+              "parts": "l·am"
+            },
+            {
+              "id": "onset-gris",
+              "word": "gris",
+              "parts": "gr·is"
+            },
+            {
+              "id": "onset-sol",
+              "word": "sol",
+              "parts": "s·ol"
+            },
+            {
+              "id": "onset-hatt",
+              "word": "hatt",
+              "parts": "h·att"
+            },
+            {
+              "id": "onset-bein",
+              "word": "bein",
+              "parts": "b·ein"
+            }
+          ],
+          "sounds": [
+            {
+              "id": "sounds-katt",
+              "word": "katt",
+              "parts": "k·a·tt"
+            },
+            {
+              "id": "sounds-gris",
+              "word": "gris",
+              "parts": "g·r·i·s"
+            },
+            {
+              "id": "sounds-sol",
+              "word": "sol",
+              "parts": "s·o·l"
+            },
+            {
+              "id": "sounds-kopp",
+              "word": "kopp",
+              "parts": "k·o·pp"
+            },
+            {
+              "id": "sounds-mus",
+              "word": "mus",
+              "parts": "m·u·s"
+            },
+            {
+              "id": "sounds-hest",
+              "word": "hest",
+              "parts": "h·e·s·t"
+            },
+            {
+              "id": "sounds-lam",
+              "word": "lam",
+              "parts": "l·a·m"
+            },
+            {
+              "id": "sounds-bil",
+              "word": "bil",
+              "parts": "b·i·l"
+            }
+          ]
+        },
+        "es": {
+          "onset": [
+            {
+              "id": "onset-gato",
+              "word": "gato",
+              "parts": "g·ato"
+            },
+            {
+              "id": "onset-luna",
+              "word": "luna",
+              "parts": "l·una"
+            },
+            {
+              "id": "onset-foca",
+              "word": "foca",
+              "parts": "f·oca"
+            },
+            {
+              "id": "onset-mono",
+              "word": "mono",
+              "parts": "m·ono"
+            },
+            {
+              "id": "onset-toro",
+              "word": "toro",
+              "parts": "t·oro"
+            },
+            {
+              "id": "onset-zorro",
+              "word": "zorro",
+              "parts": "z·orro"
+            },
+            {
+              "id": "onset-mesa",
+              "word": "mesa",
+              "parts": "m·esa"
+            },
+            {
+              "id": "onset-cama",
+              "word": "cama",
+              "parts": "c·ama"
+            },
+            {
+              "id": "onset-papa",
+              "word": "papa",
+              "parts": "p·apa"
+            },
+            {
+              "id": "onset-sol",
+              "word": "sol",
+              "parts": "s·ol"
+            },
+            {
+              "id": "onset-lobo",
+              "word": "lobo",
+              "parts": "l·obo"
+            }
+          ],
+          "sounds": [
+            {
+              "id": "sounds-gato",
+              "word": "gato",
+              "parts": "g·a·t·o"
+            },
+            {
+              "id": "sounds-luna",
+              "word": "luna",
+              "parts": "l·u·n·a"
+            },
+            {
+              "id": "sounds-foca",
+              "word": "foca",
+              "parts": "f·o·c·a"
+            },
+            {
+              "id": "sounds-mono",
+              "word": "mono",
+              "parts": "m·o·n·o"
+            },
+            {
+              "id": "sounds-toro",
+              "word": "toro",
+              "parts": "t·o·r·o"
+            },
+            {
+              "id": "sounds-mapa",
+              "word": "mapa",
+              "parts": "m·a·p·a"
+            },
+            {
+              "id": "sounds-cama",
+              "word": "cama",
+              "parts": "c·a·m·a"
+            },
+            {
+              "id": "sounds-sol",
+              "word": "sol",
+              "parts": "s·o·l"
+            }
+          ]
+        },
+        "it": {
+          "onset": [
+            {
+              "id": "onset-cane",
+              "word": "cane",
+              "parts": "c·ane"
+            },
+            {
+              "id": "onset-torta",
+              "word": "torta",
+              "parts": "t·orta"
+            },
+            {
+              "id": "onset-vaso",
+              "word": "vaso",
+              "parts": "v·aso"
+            },
+            {
+              "id": "onset-mucca",
+              "word": "mucca",
+              "parts": "m·ucca"
+            },
+            {
+              "id": "onset-sacco",
+              "word": "sacco",
+              "parts": "s·acco"
+            },
+            {
+              "id": "onset-tavolo",
+              "word": "tavolo",
+              "parts": "t·avolo"
+            },
+            {
+              "id": "onset-cubo",
+              "word": "cubo",
+              "parts": "c·ubo"
+            },
+            {
+              "id": "onset-bocca",
+              "word": "bocca",
+              "parts": "b·occa"
+            },
+            {
+              "id": "onset-naso",
+              "word": "naso",
+              "parts": "n·aso"
+            }
+          ],
+          "sounds": [
+            {
+              "id": "sounds-cane",
+              "word": "cane",
+              "parts": "c·a·n·e"
+            },
+            {
+              "id": "sounds-vaso",
+              "word": "vaso",
+              "parts": "v·a·s·o"
+            },
+            {
+              "id": "sounds-mucca",
+              "word": "mucca",
+              "parts": "m·u·cc·a"
+            },
+            {
+              "id": "sounds-torta",
+              "word": "torta",
+              "parts": "t·o·r·t·a"
+            },
+            {
+              "id": "sounds-cubo",
+              "word": "cubo",
+              "parts": "c·u·b·o"
+            },
+            {
+              "id": "sounds-luna",
+              "word": "luna",
+              "parts": "l·u·n·a"
+            },
+            {
+              "id": "sounds-pera",
+              "word": "pera",
+              "parts": "p·e·r·a"
+            },
+            {
+              "id": "sounds-nave",
+              "word": "nave",
+              "parts": "n·a·v·e"
+            }
+          ]
+        },
+        "pt": {
+          "onset": [
+            {
+              "id": "onset-gato",
+              "word": "gato",
+              "parts": "g·ato"
+            },
+            {
+              "id": "onset-vaca",
+              "word": "vaca",
+              "parts": "v·aca"
+            },
+            {
+              "id": "onset-dente",
+              "word": "dente",
+              "parts": "d·ente"
+            },
+            {
+              "id": "onset-porta",
+              "word": "porta",
+              "parts": "p·orta"
+            },
+            {
+              "id": "onset-foca",
+              "word": "foca",
+              "parts": "f·oca"
+            },
+            {
+              "id": "onset-bola",
+              "word": "bola",
+              "parts": "b·ola"
+            },
+            {
+              "id": "onset-janela",
+              "word": "janela",
+              "parts": "j·anela"
+            },
+            {
+              "id": "onset-mão",
+              "word": "mão",
+              "parts": "m·ão"
+            },
+            {
+              "id": "onset-mapa",
+              "word": "mapa",
+              "parts": "m·apa"
+            },
+            {
+              "id": "onset-pato",
+              "word": "pato",
+              "parts": "p·ato"
+            }
+          ],
+          "sounds": [
+            {
+              "id": "sounds-gato",
+              "word": "gato",
+              "parts": "g·a·t·o"
+            },
+            {
+              "id": "sounds-vaca",
+              "word": "vaca",
+              "parts": "v·a·c·a"
+            },
+            {
+              "id": "sounds-bola",
+              "word": "bola",
+              "parts": "b·o·l·a"
+            },
+            {
+              "id": "sounds-dente",
+              "word": "dente",
+              "parts": "d·en·t·e"
+            },
+            {
+              "id": "sounds-mapa",
+              "word": "mapa",
+              "parts": "m·a·p·a"
+            },
+            {
+              "id": "sounds-foca",
+              "word": "foca",
+              "parts": "f·o·c·a"
+            },
+            {
+              "id": "sounds-rato",
+              "word": "rato",
+              "parts": "r·a·t·o"
+            },
+            {
+              "id": "sounds-lobo",
+              "word": "lobo",
+              "parts": "l·o·b·o"
+            }
+          ]
+        },
+        "fr": {
+          "onset": [
+            {
+              "id": "onset-main",
+              "word": "main",
+              "parts": "m·ain"
+            },
+            {
+              "id": "onset-gilet",
+              "word": "gilet",
+              "parts": "g·ilet"
+            },
+            {
+              "id": "onset-bouche",
+              "word": "bouche",
+              "parts": "b·ouche"
+            },
+            {
+              "id": "onset-gâteau",
+              "word": "gâteau",
+              "parts": "g·âteau"
+            },
+            {
+              "id": "onset-chaise",
+              "word": "chaise",
+              "parts": "ch·aise"
+            },
+            {
+              "id": "onset-poussin",
+              "word": "poussin",
+              "parts": "p·oussin"
+            },
+            {
+              "id": "onset-robe",
+              "word": "robe",
+              "parts": "r·obe"
+            },
+            {
+              "id": "onset-pain",
+              "word": "pain",
+              "parts": "p·ain"
+            },
+            {
+              "id": "onset-clou",
+              "word": "clou",
+              "parts": "cl·ou"
+            }
+          ],
+          "sounds": [
+            {
+              "id": "sounds-main",
+              "word": "main",
+              "parts": "m·ain"
+            },
+            {
+              "id": "sounds-pain",
+              "word": "pain",
+              "parts": "p·ain"
+            },
+            {
+              "id": "sounds-train",
+              "word": "train",
+              "parts": "t·r·ain"
+            },
+            {
+              "id": "sounds-bus",
+              "word": "bus",
+              "parts": "b·u·s"
+            },
+            {
+              "id": "sounds-bol",
+              "word": "bol",
+              "parts": "b·o·l"
+            },
+            {
+              "id": "sounds-chou",
+              "word": "chou",
+              "parts": "ch·ou"
+            },
+            {
+              "id": "sounds-clou",
+              "word": "clou",
+              "parts": "c·l·ou"
+            },
+            {
+              "id": "sounds-sac",
+              "word": "sac",
+              "parts": "s·a·c"
+            }
+          ]
+        },
+        "fi": {
+          "onset": [
+            {
+              "id": "onset-kukka",
+              "word": "kukka",
+              "parts": "k·ukka"
+            },
+            {
+              "id": "onset-lammas",
+              "word": "lammas",
+              "parts": "l·ammas"
+            },
+            {
+              "id": "onset-kukko",
+              "word": "kukko",
+              "parts": "k·ukko"
+            },
+            {
+              "id": "onset-kuu",
+              "word": "kuu",
+              "parts": "k·uu"
+            },
+            {
+              "id": "onset-kana",
+              "word": "kana",
+              "parts": "k·ana"
+            },
+            {
+              "id": "onset-kannu",
+              "word": "kannu",
+              "parts": "k·annu"
+            },
+            {
+              "id": "onset-bussi",
+              "word": "bussi",
+              "parts": "b·ussi"
+            },
+            {
+              "id": "onset-juna",
+              "word": "juna",
+              "parts": "j·una"
+            },
+            {
+              "id": "onset-raketti",
+              "word": "raketti",
+              "parts": "r·aketti"
+            },
+            {
+              "id": "onset-kolmio",
+              "word": "kolmio",
+              "parts": "k·olmio"
+            },
+            {
+              "id": "onset-makkara",
+              "word": "makkara",
+              "parts": "m·akkara"
+            }
+          ],
+          "sounds": [
+            {
+              "id": "sounds-kuu",
+              "word": "kuu",
+              "parts": "k·uu"
+            },
+            {
+              "id": "sounds-kana",
+              "word": "kana",
+              "parts": "k·a·n·a"
+            },
+            {
+              "id": "sounds-muna",
+              "word": "muna",
+              "parts": "m·u·n·a"
+            },
+            {
+              "id": "sounds-kala",
+              "word": "kala",
+              "parts": "k·a·l·a"
+            },
+            {
+              "id": "sounds-kukka",
+              "word": "kukka",
+              "parts": "k·u·kk·a"
+            },
+            {
+              "id": "sounds-lukko",
+              "word": "lukko",
+              "parts": "l·u·kk·o"
+            },
+            {
+              "id": "sounds-kannu",
+              "word": "kannu",
+              "parts": "k·a·nn·u"
+            },
+            {
+              "id": "sounds-kissa",
+              "word": "kissa",
+              "parts": "k·i·ss·a"
+            }
+          ]
+        }
+      }
+    },
+    "theme": null,
+    "slug": {
+      "en": "blend-onset-and-rime",
+      "nl": "plak-de-klanken-samen",
+      "da": "saet-lydene-sammen",
+      "de": "laute-zusammenschleifen-klasse-1",
+      "es": "imanes-de-sonidos-primer-sonido-y-resto-preescolar",
+      "fr": "aimants-des-sons-premier-son-et-reste-du-mot-gs",
+      "it": "calamite-dei-suoni-primo-suono-e-resto-della-parola",
+      "pt": "imas-dos-sons-primeiro-som-e-resto-da-palavra",
+      "sv": "ljudmagneter-satt-ihop-forsta-ljudet-och-resten",
+      "no": "lydmagneter-sett-sammen-forste-lyd-og-resten",
+      "fi": "aannemagneetit-yhdista-ensimmainen-aanne-ja-loppu"
+    },
+    "page_title": {
+      "en": "Blend Onset and Rime — Listen and Find the Word",
+      "nl": "Plak de klanken samen",
+      "da": "Sæt Lydene Sammen",
+      "de": "Lautschulung – Laute zusammenschleifen und üben (Klasse 1)",
+      "es": "Une el primer sonido y el resto de la palabra (preescolar)",
+      "fr": "Fusionner le premier son et le reste du mot (GS)",
+      "it": "Unire il primo suono e il resto della parola",
+      "pt": "Junte o primeiro som e o resto da palavra (1º ano)",
+      "sv": "Sätt ihop första ljudet och resten av ordet (förskoleklass)",
+      "no": "Sett sammen første lyd og resten av ordet",
+      "fi": "Yhdistä ensimmäinen äänne ja sanan loppu"
+    },
+    "page_intro": {
+      "en": "Hear the ending sound, see the first letter, and blend them into a word — then tap its picture. One of the pictures rhymes, so the first letter is the clue that finds the right word. Take your time; there is no timer and no score. Aligned to Common Core RF.K.2.c — blending and segmenting onsets and rimes of single-syllable spoken words.",
+      "de": "Lautschulung mit Suse der Schnecke: Laute langsam verbinden und ganze Wörter erhören. Online üben, ohne Anmeldung – für Klasse 1.",
+      "nl": "Welkom bij deze rustige luister- en kijkoefening voor jonge lezers. Je kind ziet de eerste letter en hoort het laatste stukje van het woord. Door die delen samen te plakken — net als hakken en plakken in de klas — ontdekt je kind welk plaatje erbij hoort. Een woordje met dezelfde klank zit er telkens tussen, zodat de eerste letter er echt toe doet. Geen klok, geen punten: gewoon ontdekken en oefenen, in lijn met de SLO-kerndoelen voor groep 3.",
+      "da": "Her hører dit barn slutningen af et ord og ser den første lyd. Sammen smelter I lydene til ét ord og finder det rigtige billede. Der er ingen tid og ingen point – kun roen til at lytte, prøve og opdage, hvordan lyde bliver til ord. En blid og legende start på at læse, helt i tråd med Fælles Mål for dansk i 0.-1. klasse.",
+      "es": "El niño o la niña empuja el primer sonido hacia el resto de la palabra hasta que los imanes se pegan, y luego toca el dibujo correcto. Un dibujo rima y otro empieza igual, así que hay que escuchar la palabra completa. Sin cronómetro y sin puntuación.",
+      "fr": "L’enfant pousse le premier son vers le reste du mot jusqu’à ce que les aimants se collent, puis touche la bonne image. Une image rime et une autre commence pareil : il faut écouter tout le mot. Sans chrono ni score.",
+      "it": "Il bambino spinge il primo suono verso il resto della parola finché le calamite si attaccano, poi tocca il disegno giusto. Un disegno fa rima e un altro comincia allo stesso modo: bisogna ascoltare tutta la parola. Senza cronometro e senza punteggio.",
+      "pt": "A criança empurra o primeiro som em direção ao resto da palavra até os ímãs grudarem e depois toca na figura certa. Uma figura rima e outra começa igual, então é preciso escutar a palavra inteira. Sem cronômetro e sem pontuação.",
+      "sv": "Barnet skjuter det första ljudet mot resten av ordet tills magneterna klickar ihop och trycker sedan på rätt bild. En bild rimmar och en annan börjar likadant, så barnet behöver lyssna på hela ordet. Ingen tidtagning och inga poäng.",
+      "no": "Barnet skyver den første lyden inntil resten av ordet til magnetene klikker sammen, og trykker så på riktig bilde. Ett bilde rimer og et annet begynner likt, så barnet må lytte til hele ordet. Ingen tidtaking og ingen poeng.",
+      "fi": "Lapsi työntää ensimmäisen äänteen sanan loppuosaa vasten, kunnes magneetit napsahtavat yhteen, ja napauttaa sitten oikeaa kuvaa. Yksi kuva rimmaa ja toinen alkaa samalla äänteellä, joten koko sana pitää kuunnella. Ei ajastinta eikä pisteitä."
+    },
+    "kid_prompt_template": "promptBlend"
+  }
+]

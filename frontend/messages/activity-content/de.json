@@ -263,25 +263,25 @@
     },
     "choice-board.onset-rime-blend.rf-k-2-c": {
       "about": [
-        "Suse die Schnecke zeigt deinem Kind einen Anlaut und einen Wortrest, zum Beispiel „H · aus“, und spricht den Reim „aus“ laut vor. Dein Kind schleift beide Teile zusammen: „H“ und „aus“ ergeben „Haus“. Unter den vier Bildern ist auch eine „Maus“ versteckt, die sich fast genauso anhört — deshalb hört dein Kind genau auf den ersten Laut und tippt das Haus an.",
-        "Das Zusammenschleifen einzelner Laute zu einem ganzen Wort nennt man Lautsynthese, und es ist ein wichtiger Schritt auf dem Weg zum Lesen. Wenn dein Kind lernt, den Anlaut mit dem Reim zu verbinden, statt Buchstabe für Buchstabe zu stocken, entstehen aus einzelnen Lauten flüssige Wörter. Genau diese Fähigkeit braucht es später, um neue Wörter selbst zu erlesen.",
-        "Das Spiel ist für die erste Klasse gedacht und läuft ganz ohne Zeitdruck und ohne Punkte. Tippt dein Kind einmal daneben, sagt Suse nie „falsch“ — sie lädt einfach ein, es noch einmal zu versuchen. Weil der Reim vorgelesen wird, sind Kopfhörer zu empfehlen, damit dein Kind jeden Laut in Ruhe hören kann."
+        "Der erste Laut und der Rest des Wortes sind zwei Magnete auf einer Schiene: m und aus. Der Abstand dazwischen ist die Pause, gezeichnet als gestrichelte Linie und als Reihe von Pausenpunkten. Das Kind schiebt den ersten Magneten heran, bis er am Rest einrastet – m … aus wird Maus – und tippt dann auf das Bild zum Wort. Eine interaktive Übung zum Lautzusammenschleifen für den Anfangsunterricht, direkt im Browser.",
+        "Drei Bilder stehen bereit: das Wort, ein Reimwort und ein Wort mit demselben Anfangslaut. Beim Prüfen läuft ein Magnettest mit dem Namen des gewählten Bildes, Teil für Teil. Wer bei Maus das Haus wählt, sieht, wie die „aus“-Magnete zusammenhalten und das „h“ wegspringt: Das Ende stimmt, der Anfang nicht. Nach zwei Versuchen zeigt jedes Bild seinen ersten Buchstaben. Auf der zweiten Stufe gibt es für jeden Laut einen Magneten, m · au · s.",
+        "Die Übung orientiert sich am Lehrplan: Laute zu Wörtern zusammenschleifen und den Anlaut genau hören. Ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "den Anlaut mit dem Wortrest verbinden",
-        "aus einzelnen Lauten ein Wort bilden",
-        "genau auf den ersten Laut achten",
-        "gehörten Laut und passendes Bild verbinden"
+        "Den ersten Laut und den Rest eines Wortes zusammenschleifen",
+        "Ein Reimwort am Anlaut vom richtigen Wort unterscheiden",
+        "Ein Wort mit gleichem Anlaut am Ende vom richtigen Wort unterscheiden",
+        "Drei oder vier einzelne Laute zu einem Wort verbinden"
       ],
       "howToPlay": [
-        "Höre dir den Reim an, den Suse laut vorliest.",
-        "Schleife den ersten Laut mit dem Rest zu einem Wort zusammen.",
-        "Tippe das Bild an, das zu deinem Wort passt."
+        "Schieb den roten Magneten auf der Schiene heran, bis er am blauen einrastet.",
+        "Tipp auf das Bild zu dem Wort, das entstanden ist.",
+        "Drück auf Prüfen und schau, welche Teile zusammenhalten und welche sich abstoßen."
       ],
       "learningGoals": [
-        "Laute flüssig zu einem Wort zusammenschleifen",
-        "den Anlaut sicher heraushören",
-        "erste Wörter selbstständig erlesen"
+        "Das Kind schleift den ersten Laut und den Rest eines Wortes zu einem ganzen Wort zusammen",
+        "Das Kind unterscheidet am Anlaut ein Reimwort vom richtigen Wort",
+        "Das Kind verbindet drei oder vier einzelne Laute zu einem Wort"
       ]
     },
     "fraction-equiv.same-amount.3-nf-a-3": {

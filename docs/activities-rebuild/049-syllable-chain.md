@@ -85,3 +85,14 @@ ORDER row 49 · id `syllable-builder.forma-la-parola-con-le-sillabe.rf-k-2-b` (k
 ## FROZEN-NOTEs (not changed — metadata is frozen)
 - **The title** says «Fonetica», the science of phonetics; the right term is «consapevolezza fonologica».
 - **The intro** describes only the old build task, not the chain. «fondere … le sillabe» is a calque of "blend"; Italian teachers say «unire» or «fusione sillabica».
+
+## Deploy (2026-10-20)
+- **Commit c858534a.** deploy.sh returned EXIT 0, with 0 payment-canary failures. The it page returns 200. The preview webp was copied to the server before the build.
+- **Production play: 22 / 22** (it at 1366 and 390).
+  - Palla: sca·la tapped twice will not close (a miss); la·ma dragged onto the clasp closes; ma·no → the chain is closed.
+  - Stel·la → la·ma → ma·ti·ta → ta·vo·lo by tap-tap.
+  - Cane on one box → ca·ne crammed (a miss); two boxes → ca + ne = cane.
+  - The wrapper version matches, and the iframe grows with the card.
+- **The live phone shot (390)** is clean.
+- **Live variety probe (it):** 8 distinct rounds, and pass 2 is reshuffled.
+- **Server disk after the deploy:** 134 GB available of 436 GB (68 % used).

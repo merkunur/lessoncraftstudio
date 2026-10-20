@@ -56,7 +56,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 46 | LIVE 2026-10-20 · Kikkerten | K | RF.K.2.B | `syllable-builder.byg-ordet-af-stavelser.da.rf-k-2-b` | syllable-builder-activity |  |
 | 47 | LIVE 2026-10-20 · Snørebrettet | K | RF.K.2.B | `syllable-builder.bygg-ordet-av-stavelser.no.rf-k-2-b` | syllable-builder-activity |  |
 | 48 | LIVE 2026-10-20 · Stenarna i bäcken | K | RF.K.2.B | `syllable-builder.bygg-ordet-av-stavelser.rf-k-2-b` | syllable-builder-activity |  |
-| 49 |  | K | RF.K.2.B | `syllable-builder.forma-la-parola-con-le-sillabe.rf-k-2-b` | syllable-builder-activity |  |
+| 49 | LIVE 2026-10-20 · La catena delle sillabe | K | RF.K.2.B | `syllable-builder.forma-la-parola-con-le-sillabe.rf-k-2-b` | syllable-builder-activity |  |
 | 50 |  | K | RF.K.2.B | `syllable-builder.forma-las-silabas.rf-k-2-b` | syllable-builder-activity |  |
 | 51 |  | K | RF.K.2.B | `syllable-builder.forme-as-silabas.rf-k-2-b` | syllable-builder-activity |  |
 | 52 |  | K | RF.K.2.B | `syllable-builder.forme-le-mot-en-syllabes.rf-k-2-b` | syllable-builder-activity |  |

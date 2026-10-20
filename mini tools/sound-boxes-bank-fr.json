@@ -26,6 +26,26 @@
     { "id": "poire",  "noun": "pear",    "themeDir": "fruits",             "display": "poire",  "boxes": ["p","oi","r"],         "syllables": ["poi","re"],     "stage": "s2", "silentTail": "e", "note": "oi = un seul son /wa/" },
     { "id": "etoile", "noun": "star",    "themeDir": "christmas",          "display": "étoile", "boxes": ["é","t","oi","l"],     "syllables": ["é","toi","le"], "stage": "s2", "silentTail": "e" },
     { "id": "lune",   "noun": "moon",    "themeDir": "space",              "display": "lune",   "boxes": ["l","u","n"],          "syllables": ["lu","ne"],      "stage": "s2", "silentTail": "e" },
-    { "id": "tomate", "noun": "tomato",  "themeDir": "vegetables",         "display": "tomate", "boxes": ["t","o","m","a","t"],  "syllables": ["to","ma","te"], "stage": "s2", "silentTail": "e" }
+    { "id": "tomate", "noun": "tomato",  "themeDir": "vegetables",         "display": "tomate", "boxes": ["t","o","m","a","t"],  "syllables": ["to","ma","te"], "stage": "s2", "silentTail": "e" },
+    { "id": "coq", "noun": "rooster", "themeDir": "farm animals", "display": "coq", "boxes": ["c","o","q"], "syllables": ["coq"], "stage": "s1" },
+    { "id": "pull", "noun": "sweater", "themeDir": "clothing", "display": "pull", "boxes": ["p","u","ll"], "syllables": ["pull"], "stage": "s2" },
+    { "id": "robe", "noun": "dress", "themeDir": "clothing", "display": "robe", "boxes": ["r","o","b"], "silentTail": "e", "syllables": ["ro","be"], "stage": "s2" },
+    { "id": "vase", "noun": "vase", "themeDir": "around the house", "display": "vase", "boxes": ["v","a","s"], "silentTail": "e", "syllables": ["va","se"], "stage": "s2" },
+    { "id": "rose", "noun": "rose", "themeDir": "flowers", "display": "rose", "boxes": ["r","o","s"], "silentTail": "e", "syllables": ["ro","se"], "stage": "s2" },
+    { "id": "jupe", "noun": "skirt", "themeDir": "clothing", "display": "jupe", "boxes": ["j","u","p"], "silentTail": "e", "syllables": ["ju","pe"], "stage": "s2" },
+    { "id": "tasse", "noun": "cup", "themeDir": "around the house", "display": "tasse", "boxes": ["t","a","ss"], "silentTail": "e", "syllables": ["tas","se"], "stage": "s2" },
+    { "id": "four", "noun": "oven", "themeDir": "around the house", "display": "four", "boxes": ["f","ou","r"], "syllables": ["four"], "stage": "s2" },
+    { "id": "pomme", "noun": "apple", "themeDir": "At the Supermarket", "display": "pomme", "boxes": ["p","o","mm"], "silentTail": "e", "syllables": ["pom","me"], "stage": "s2" },
+    { "id": "cube", "noun": "cube", "themeDir": "shapes", "display": "cube", "boxes": ["c","u","b"], "silentTail": "e", "syllables": ["cu","be"], "stage": "s2" },
+    { "id": "cape", "noun": "cape", "themeDir": "accessories", "display": "cape", "boxes": ["c","a","p"], "silentTail": "e", "syllables": ["ca","pe"], "stage": "s2" },
+    { "id": "rame", "noun": "oar", "themeDir": "camping", "display": "rame", "boxes": ["r","a","m"], "silentTail": "e", "syllables": ["ra","me"], "stage": "s2" },
+    { "id": "rape", "noun": "grater", "themeDir": "kitchen tools", "display": "râpe", "boxes": ["r","â","p"], "silentTail": "e", "syllables": ["râ","pe"], "stage": "s2" },
+    { "id": "bague", "noun": "ring", "themeDir": "accessories", "display": "bague", "boxes": ["b","a","g"], "silentTail": "ue", "syllables": ["ba","gue"], "stage": "s2" },
+    { "id": "tete", "noun": "head", "themeDir": "body parts", "display": "tête", "boxes": ["t","ê","t"], "silentTail": "e", "syllables": ["tê","te"], "stage": "s2" },
+    { "id": "luge", "noun": "sled", "themeDir": "winter", "display": "luge", "boxes": ["l","u","g"], "silentTail": "e", "syllables": ["lu","ge"], "stage": "s2" },
+    { "id": "sel", "noun": "salt", "themeDir": "At the Supermarket", "display": "sel", "boxes": ["s","e","l"], "syllables": ["sel"], "stage": "s1" },
+    { "id": "ours", "noun": "bear", "themeDir": "camping", "display": "ours", "boxes": ["ou","r","s"], "syllables": ["ours"], "stage": "s2" },
+    { "id": "mure", "noun": "blackberry", "themeDir": "fruits", "display": "mûre", "boxes": ["m","û","r"], "silentTail": "e", "syllables": ["mû","re"], "stage": "s2" },
+    { "id": "vache", "noun": "cow", "themeDir": "farm animals", "display": "vache", "boxes": ["v","a","ch"], "silentTail": "e", "syllables": ["va","che"], "stage": "s2" }
   ]
 }

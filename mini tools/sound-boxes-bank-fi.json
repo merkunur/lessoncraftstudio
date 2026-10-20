@@ -32,6 +32,26 @@
     { "id": "pallo", "noun": "ball",     "themeDir": "toys",              "display": "pallo", "boxes": ["p","a","l","l","o"],  "syllables": ["pal","lo"],  "stage": "s3", "note": "kaksoiskonsonantti: kirjoita kirjain kahdesti" },
     { "id": "kettu", "noun": "fox",      "themeDir": "animals",           "display": "kettu", "boxes": ["k","e","t","t","u"],  "syllables": ["ket","tu"],  "stage": "s3", "note": "kaksoiskonsonantti: kirjoita kirjain kahdesti" },
     { "id": "sukka", "noun": "sock",     "themeDir": "accessories",       "display": "sukka", "boxes": ["s","u","k","k","a"],  "syllables": ["suk","ka"],  "stage": "s3", "note": "kaksoiskonsonantti: kirjoita kirjain kahdesti" },
-    { "id": "lippu", "noun": "flag",     "themeDir": "4th of July",       "display": "lippu", "boxes": ["l","i","p","p","u"],  "syllables": ["lip","pu"],  "stage": "s3", "note": "kaksoiskonsonantti: kirjoita kirjain kahdesti" }
+    { "id": "lippu", "noun": "flag",     "themeDir": "4th of July",       "display": "lippu", "boxes": ["l","i","p","p","u"],  "syllables": ["lip","pu"],  "stage": "s3", "note": "kaksoiskonsonantti: kirjoita kirjain kahdesti" },
+    { "id": "kala-f", "noun": "fish", "themeDir": "animals", "display": "kala", "boxes": ["k","a","l","a"], "syllables": ["ka","la"], "stage": "s2" },
+    { "id": "talo-f", "noun": "house", "themeDir": "miscellaneous", "display": "talo", "boxes": ["t","a","l","o"], "syllables": ["ta","lo"], "stage": "s2" },
+    { "id": "juna-f", "noun": "train", "themeDir": "toys", "display": "juna", "boxes": ["j","u","n","a"], "syllables": ["ju","na"], "stage": "s2" },
+    { "id": "kana", "noun": "chicken", "themeDir": "farm animals", "display": "kana", "boxes": ["k","a","n","a"], "syllables": ["ka","na"], "stage": "s2" },
+    { "id": "kani", "noun": "rabbit", "themeDir": "animals", "display": "kani", "boxes": ["k","a","n","i"], "syllables": ["ka","ni"], "stage": "s2" },
+    { "id": "kori", "noun": "basket", "themeDir": "At the Supermarket", "display": "kori", "boxes": ["k","o","r","i"], "syllables": ["ko","ri"], "stage": "s2" },
+    { "id": "kyna", "noun": "pen", "themeDir": "around the house", "display": "kynä", "boxes": ["k","y","n","ä"], "syllables": ["ky","nä"], "stage": "s2" },
+    { "id": "mato", "noun": "worm", "themeDir": "spring", "display": "mato", "boxes": ["m","a","t","o"], "syllables": ["ma","to"], "stage": "s2" },
+    { "id": "mehu", "noun": "juice", "themeDir": "At the Supermarket", "display": "mehu", "boxes": ["m","e","h","u"], "syllables": ["me","hu"], "stage": "s2" },
+    { "id": "nena", "noun": "nose", "themeDir": "body parts", "display": "nenä", "boxes": ["n","e","n","ä"], "syllables": ["ne","nä"], "stage": "s2" },
+    { "id": "pesa", "noun": "nest", "themeDir": "spring", "display": "pesä", "boxes": ["p","e","s","ä"], "syllables": ["pe","sä"], "stage": "s2" },
+    { "id": "rapu-f", "noun": "crab", "themeDir": "beach", "display": "rapu", "boxes": ["r","a","p","u"], "syllables": ["ra","pu"], "stage": "s2" },
+    { "id": "reki", "noun": "sleigh", "themeDir": "christmas", "display": "reki", "boxes": ["r","e","k","i"], "syllables": ["re","ki"], "stage": "s2" },
+    { "id": "sika-f", "noun": "pig", "themeDir": "animals", "display": "sika", "boxes": ["s","i","k","a"], "syllables": ["si","ka"], "stage": "s2" },
+    { "id": "tipu", "noun": "chick", "themeDir": "farm animals", "display": "tipu", "boxes": ["t","i","p","u"], "syllables": ["ti","pu"], "stage": "s2" },
+    { "id": "hame", "noun": "skirt", "themeDir": "clothing", "display": "hame", "boxes": ["h","a","m","e"], "syllables": ["ha","me"], "stage": "s2" },
+    { "id": "hana", "noun": "faucet", "themeDir": "around the house", "display": "hana", "boxes": ["h","a","n","a"], "syllables": ["ha","na"], "stage": "s2" },
+    { "id": "joki", "noun": "river", "themeDir": "camping", "display": "joki", "boxes": ["j","o","k","i"], "syllables": ["jo","ki"], "stage": "s2" },
+    { "id": "lava", "noun": "stage", "themeDir": "music", "display": "lava", "boxes": ["l","a","v","a"], "syllables": ["la","va"], "stage": "s2" },
+    { "id": "pipo", "noun": "beanie", "themeDir": "accessories", "display": "pipo", "boxes": ["p","i","p","o"], "syllables": ["pi","po"], "stage": "s2" }
   ]
 }

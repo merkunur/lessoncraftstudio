@@ -2862,6 +2862,29 @@
         "Barnet skiljer ett rimord från rätt ord med hjälp av det första ljudet",
         "Barnet ljudar ihop tre eller fyra enskilda ljud till ett ord"
       ]
+    },
+    "sound-boxes.phoneme-position.rf-k-2-d": {
+      "about": [
+        "Ett kort ord står i ljudlådor, en låda för varje ljud: s · o · l. Barnet lägger en bild på lådorna, och locken hoppar upp där ljuden är desamma som i målordet och sitter på samma plats. Lägger man foten på sol hoppar o-ljudet upp, men den första lådan förblir stängd: ett ljud är likadant, bara inte i början. En interaktiv övning i att höra ljud, som körs i webbläsaren.",
+        "Lådorna lyssnar, de läser inte. Långa och korta vokaler är olika ljud, och ett ng sitter i en enda låda eftersom det är ett ljud. Tre uppgifter använder lådorna: hitta bilden med samma ljud i början, i mitten eller i slutet; tryck på lådan där ett ljud bor; och sortera bilder efter om ordet över huvud taget har ljudet.",
+        "Övningen följer Lgr22: att höra det första, mittersta och sista ljudet i korta ord. Ingen tidtagning och inga poäng."
+      ],
+      "practices": [
+        "Att höra första, mittersta och sista ljudet i ett kort ord",
+        "Att jämföra två ord utifrån ljudet på samma plats",
+        "Att skilja ett ljud på rätt plats från samma ljud på en annan plats",
+        "Att hitta var ett ljud finns i ett ord, och om det finns där alls"
+      ],
+      "howToPlay": [
+        "Titta på målordet i sina lådor; pilen visar vilken låda du ska lyssna efter.",
+        "Dra en bild till lådorna och tryck på Kolla.",
+        "Se vilka lock som hoppar upp: vid rätt bild hoppar den efterfrågade lådan upp."
+      ],
+      "learningGoals": [
+        "Barnet hör första, mittersta och sista ljudet i ett kort ord",
+        "Barnet jämför ord utifrån ljudet på samma plats",
+        "Barnet känner igen ett ljud på hur det låter, inte på bokstaven"
+      ]
     }
   }
 }

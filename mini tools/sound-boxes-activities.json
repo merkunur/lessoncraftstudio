@@ -1,1737 +1,1209 @@
 [
   {
     "id": "sound-boxes.phoneme-position.rf-k-2-d",
-    "tool": "sound-boxes-activity",
-    "task_template": "phoneme-position",
+    "tool": "lid-boxes-activity",
+    "task_template": "lid-boxes",
     "alignment": {
       "framework": "CCSS",
       "code": "RF.K.2.d",
       "grade": "K",
       "strand": "Reading: Foundational Skills"
     },
-    "theme": null,
     "params": {
-      "rounds": [
-        {
-          "id": "sb-cat-first",
-          "position": "b",
-          "target": {
-            "noun": "cat",
-            "themeDir": "animals",
-            "b": "k",
-            "m": "a",
-            "e": "t"
+      "note": "The rounds, their pictures and sound boxes live in lid-boxes-core.js (box letters = the sound-boxes bank split); this mirrors the core so the gates can size each task per locale.",
+      "byLocale": {
+        "en": {
+          "positions": [
+            "first",
+            "middle",
+            "last"
+          ],
+          "same": {
+            "first": [
+              "same-first-cat",
+              "same-first-bat",
+              "same-first-pig",
+              "same-first-sun",
+              "same-first-dog",
+              "same-first-hen",
+              "same-first-mug",
+              "same-first-fan",
+              "same-first-cup"
+            ],
+            "middle": [
+              "same-middle-hat",
+              "same-middle-sun",
+              "same-middle-dog",
+              "same-middle-pig",
+              "same-middle-bed",
+              "same-middle-cup",
+              "same-middle-fan",
+              "same-middle-mop",
+              "same-middle-net"
+            ],
+            "last": [
+              "same-last-cat",
+              "same-last-dog",
+              "same-last-sun",
+              "same-last-van",
+              "same-last-mop",
+              "same-last-hat",
+              "same-last-pig",
+              "same-last-hen",
+              "same-last-cup"
+            ],
+            "mixed": [
+              "mixed-first-cat",
+              "mixed-middle-hat",
+              "mixed-first-bat",
+              "mixed-middle-sun",
+              "mixed-last-dog",
+              "mixed-first-pig",
+              "mixed-last-van",
+              "mixed-middle-bed",
+              "mixed-last-mop"
+            ]
           },
-          "options": [
-            {
-              "noun": "cap",
-              "themeDir": "accessories",
-              "b": "k",
-              "m": "a",
-              "e": "p"
-            },
-            {
-              "noun": "dog",
-              "themeDir": "animals",
-              "b": "d",
-              "m": "o",
-              "e": "g"
-            },
-            {
-              "noun": "sun",
-              "themeDir": "beach",
-              "b": "s",
-              "m": "u",
-              "e": "n"
-            }
+          "where": [
+            "where-bus",
+            "where-sun",
+            "where-map",
+            "where-ship",
+            "where-fish",
+            "where-chick",
+            "where-bench",
+            "where-bag",
+            "where-tooth",
+            "where-sheep",
+            "where-jug",
+            "where-hen"
+          ],
+          "sort": [
+            "sort-u",
+            "sort-a",
+            "sort-sh",
+            "sort-t",
+            "sort-m",
+            "sort-s",
+            "sort-e"
           ]
         },
-        {
-          "id": "sb-bat-first",
-          "position": "b",
-          "target": {
-            "noun": "bat",
-            "themeDir": "animals",
-            "b": "b",
-            "m": "a",
-            "e": "t"
+        "de": {
+          "positions": [
+            "first",
+            "middle",
+            "last"
+          ],
+          "same": {
+            "first": [
+              "same-first-wal",
+              "same-first-hahn",
+              "same-first-nest",
+              "same-first-schiff",
+              "same-first-bus",
+              "same-first-zelt",
+              "same-first-bein",
+              "same-first-koch",
+              "same-first-buch"
+            ],
+            "middle": [
+              "same-middle-ring",
+              "same-middle-ball",
+              "same-middle-hahn",
+              "same-middle-bett",
+              "same-middle-zahn",
+              "same-middle-maus",
+              "same-middle-sack",
+              "same-middle-rock",
+              "same-middle-hut"
+            ],
+            "last": [
+              "same-last-bein",
+              "same-last-wal",
+              "same-last-schaf",
+              "same-last-buch",
+              "same-last-zahn",
+              "same-last-hut",
+              "same-last-wolf",
+              "same-last-maus",
+              "same-last-haus"
+            ],
+            "mixed": [
+              "mixed-first-wal",
+              "mixed-middle-ring",
+              "mixed-last-bein",
+              "mixed-first-hahn",
+              "mixed-middle-ball",
+              "mixed-first-nest",
+              "mixed-last-schaf",
+              "mixed-first-schiff",
+              "mixed-middle-bett"
+            ]
           },
-          "options": [
-            {
-              "noun": "bag",
-              "themeDir": "At the Supermarket",
-              "b": "b",
-              "m": "a",
-              "e": "g"
-            },
-            {
-              "noun": "hat",
-              "themeDir": "accessories",
-              "b": "h",
-              "m": "a",
-              "e": "t"
-            },
-            {
-              "noun": "pig",
-              "themeDir": "animals",
-              "b": "p",
-              "m": "i",
-              "e": "g"
-            }
+          "where": [
+            "where-schaf",
+            "where-schiff",
+            "where-kamm",
+            "where-netz",
+            "where-zaun",
+            "where-reis",
+            "where-koch",
+            "where-hut",
+            "where-ring",
+            "where-buch",
+            "where-elf",
+            "where-zelt"
+          ],
+          "sort": [
+            "sort-t",
+            "sort-l",
+            "sort-f",
+            "sort-n",
+            "sort-e",
+            "sort-s",
+            "sort-sch"
           ]
         },
-        {
-          "id": "sb-pig-first",
-          "position": "b",
-          "target": {
-            "noun": "pig",
-            "themeDir": "animals",
-            "b": "p",
-            "m": "i",
-            "e": "g"
+        "nl": {
+          "positions": [
+            "first",
+            "middle",
+            "last"
+          ],
+          "same": {
+            "first": [
+              "same-first-rok",
+              "same-first-bus",
+              "same-first-boek",
+              "same-first-pot",
+              "same-first-kam",
+              "same-first-ring",
+              "same-first-voet",
+              "same-first-boot",
+              "same-first-kaas"
+            ],
+            "middle": [
+              "same-middle-ham",
+              "same-middle-voet",
+              "same-middle-ring",
+              "same-middle-zak",
+              "same-middle-kat",
+              "same-middle-mok",
+              "same-middle-vaas",
+              "same-middle-pot",
+              "same-middle-sok"
+            ],
+            "last": [
+              "same-last-hek",
+              "same-last-vos",
+              "same-last-pot",
+              "same-last-pan",
+              "same-last-bel",
+              "same-last-kan",
+              "same-last-kaas",
+              "same-last-net",
+              "same-last-vaas"
+            ],
+            "mixed": [
+              "mixed-first-rok",
+              "mixed-middle-ham",
+              "mixed-last-hek",
+              "mixed-first-bus",
+              "mixed-middle-voet",
+              "mixed-last-vos",
+              "mixed-first-boek",
+              "mixed-middle-ring",
+              "mixed-last-pot"
+            ]
           },
-          "options": [
-            {
-              "noun": "pot",
-              "themeDir": "around the house",
-              "b": "p",
-              "m": "o",
-              "e": "t"
-            },
-            {
-              "noun": "dog",
-              "themeDir": "animals",
-              "b": "d",
-              "m": "o",
-              "e": "g"
-            },
-            {
-              "noun": "sun",
-              "themeDir": "beach",
-              "b": "s",
-              "m": "u",
-              "e": "n"
-            }
+          "where": [
+            "where-bus",
+            "where-lam",
+            "where-kam",
+            "where-tas",
+            "where-duif",
+            "where-huis",
+            "where-sok",
+            "where-jas",
+            "where-ring",
+            "where-roos",
+            "where-muis",
+            "where-bol"
+          ],
+          "sort": [
+            "sort-s",
+            "sort-t",
+            "sort-l",
+            "sort-p",
+            "sort-n",
+            "sort-k",
+            "sort-m"
           ]
         },
-        {
-          "id": "sb-hat-mid",
-          "position": "m",
-          "target": {
-            "noun": "hat",
-            "themeDir": "accessories",
-            "b": "h",
-            "m": "a",
-            "e": "t"
+        "sv": {
+          "positions": [
+            "first",
+            "middle",
+            "last"
+          ],
+          "same": {
+            "first": [
+              "same-first-sol",
+              "same-first-mopp",
+              "same-first-lim",
+              "same-first-räv",
+              "same-first-ris",
+              "same-first-säl",
+              "same-first-kopp",
+              "same-first-lök",
+              "same-first-katt"
+            ],
+            "middle": [
+              "same-middle-hatt",
+              "same-middle-mugg",
+              "same-middle-bil",
+              "same-middle-kub",
+              "same-middle-nät",
+              "same-middle-kopp",
+              "same-middle-tupp",
+              "same-middle-gås",
+              "same-middle-sol"
+            ],
+            "last": [
+              "same-last-gås",
+              "same-last-kål",
+              "same-last-lim",
+              "same-last-boll",
+              "same-last-säl",
+              "same-last-ris",
+              "same-last-båt",
+              "same-last-ben",
+              "same-last-mus"
+            ],
+            "mixed": [
+              "mixed-first-sol",
+              "mixed-middle-hatt",
+              "mixed-last-gås",
+              "mixed-first-mopp",
+              "mixed-middle-mugg",
+              "mixed-last-kål",
+              "mixed-first-lim",
+              "mixed-middle-bil",
+              "mixed-first-räv"
+            ]
           },
-          "options": [
-            {
-              "noun": "van",
-              "themeDir": "vehicles",
-              "b": "v",
-              "m": "a",
-              "e": "n"
-            },
-            {
-              "noun": "dog",
-              "themeDir": "animals",
-              "b": "d",
-              "m": "o",
-              "e": "g"
-            },
-            {
-              "noun": "pig",
-              "themeDir": "animals",
-              "b": "p",
-              "m": "i",
-              "e": "g"
-            }
+          "where": [
+            "where-katt",
+            "where-mus",
+            "where-boll",
+            "where-lamm",
+            "where-vas",
+            "where-ris",
+            "where-lim",
+            "where-bok",
+            "where-ring",
+            "where-säng",
+            "where-kam",
+            "where-lås"
+          ],
+          "sort": [
+            "sort-k",
+            "sort-t",
+            "sort-l",
+            "sort-b",
+            "sort-s",
+            "sort-m",
+            "sort-a"
           ]
         },
-        {
-          "id": "sb-sun-mid",
-          "position": "m",
-          "target": {
-            "noun": "sun",
-            "themeDir": "beach",
-            "b": "s",
-            "m": "u",
-            "e": "n"
+        "da": {
+          "positions": [
+            "first",
+            "middle",
+            "last"
+          ],
+          "same": {
+            "first": [
+              "same-first-bus",
+              "same-first-sæl",
+              "same-first-kat",
+              "same-first-gris",
+              "same-first-salt",
+              "same-first-lam",
+              "same-first-hat",
+              "same-first-kam",
+              "same-first-lim"
+            ],
+            "middle": [
+              "same-middle-sæk",
+              "same-middle-gås",
+              "same-middle-lås",
+              "same-middle-kat",
+              "same-middle-hat",
+              "same-middle-net",
+              "same-middle-mus",
+              "same-middle-lam"
+            ],
+            "last": [
+              "same-last-bus",
+              "same-last-sæl",
+              "same-last-sol",
+              "same-last-pen",
+              "same-last-hus",
+              "same-last-salt",
+              "same-last-kam",
+              "same-last-lås",
+              "same-last-hat"
+            ],
+            "mixed": [
+              "mixed-first-bus",
+              "mixed-middle-sæk",
+              "mixed-first-sæl",
+              "mixed-middle-gås",
+              "mixed-first-kat",
+              "mixed-middle-lås",
+              "mixed-last-sol",
+              "mixed-first-gris",
+              "mixed-last-pen"
+            ]
           },
-          "options": [
-            {
-              "noun": "jug",
-              "themeDir": "kitchen tools",
-              "b": "j",
-              "m": "u",
-              "e": "g"
-            },
-            {
-              "noun": "bed",
-              "themeDir": "around the house",
-              "b": "b",
-              "m": "e",
-              "e": "d"
-            },
-            {
-              "noun": "dog",
-              "themeDir": "animals",
-              "b": "d",
-              "m": "o",
-              "e": "g"
-            }
+          "where": [
+            "where-lim",
+            "where-net",
+            "where-lås",
+            "where-kop",
+            "where-sol",
+            "where-lam",
+            "where-kål",
+            "where-sæl",
+            "where-bus",
+            "where-ost",
+            "where-gris",
+            "where-kat"
+          ],
+          "sort": [
+            "sort-m",
+            "sort-s",
+            "sort-l",
+            "sort-k",
+            "sort-a",
+            "sort-e",
+            "sort-t"
           ]
         },
-        {
-          "id": "sb-dog-mid",
-          "position": "m",
-          "target": {
-            "noun": "dog",
-            "themeDir": "animals",
-            "b": "d",
-            "m": "o",
-            "e": "g"
+        "no": {
+          "positions": [
+            "first",
+            "middle",
+            "last"
+          ],
+          "same": {
+            "first": [
+              "same-first-bok",
+              "same-first-sol",
+              "same-first-lam",
+              "same-first-mopp",
+              "same-first-lås",
+              "same-first-båt",
+              "same-first-tog",
+              "same-first-hus",
+              "same-first-ring"
+            ],
+            "middle": [
+              "same-middle-fot",
+              "same-middle-lim",
+              "same-middle-vott",
+              "same-middle-hatt",
+              "same-middle-kokk",
+              "same-middle-rev",
+              "same-middle-sekk",
+              "same-middle-tann",
+              "same-middle-bil"
+            ],
+            "last": [
+              "same-last-ris",
+              "same-last-lim",
+              "same-last-sokk",
+              "same-last-mopp",
+              "same-last-buss",
+              "same-last-penn",
+              "same-last-mus",
+              "same-last-båt",
+              "same-last-gås"
+            ],
+            "mixed": [
+              "mixed-first-bok",
+              "mixed-middle-fot",
+              "mixed-last-ris",
+              "mixed-first-sol",
+              "mixed-middle-lim",
+              "mixed-first-lam",
+              "mixed-middle-vott",
+              "mixed-last-sokk",
+              "mixed-first-mopp"
+            ]
           },
-          "options": [
-            {
-              "noun": "pot",
-              "themeDir": "around the house",
-              "b": "p",
-              "m": "o",
-              "e": "t"
-            },
-            {
-              "noun": "cat",
-              "themeDir": "animals",
-              "b": "k",
-              "m": "a",
-              "e": "t"
-            },
-            {
-              "noun": "sun",
-              "themeDir": "beach",
-              "b": "s",
-              "m": "u",
-              "e": "n"
-            }
+          "where": [
+            "where-øre",
+            "where-fot",
+            "where-kål",
+            "where-hus",
+            "where-sel",
+            "where-sol",
+            "where-penn",
+            "where-kam",
+            "where-ring",
+            "where-seng",
+            "where-rev",
+            "where-løk"
+          ],
+          "sort": [
+            "sort-l",
+            "sort-r",
+            "sort-k",
+            "sort-t",
+            "sort-m",
+            "sort-s",
+            "sort-b"
           ]
         },
-        {
-          "id": "sb-cat-last",
-          "position": "e",
-          "target": {
-            "noun": "cat",
-            "themeDir": "animals",
-            "b": "k",
-            "m": "a",
-            "e": "t"
+        "es": {
+          "positions": [
+            "first",
+            "last"
+          ],
+          "same": {
+            "first": [
+              "same-first-remo",
+              "same-first-cubo",
+              "same-first-ojo",
+              "same-first-pollo",
+              "same-first-mono",
+              "same-first-col",
+              "same-first-pan",
+              "same-first-pera",
+              "same-first-vela"
+            ],
+            "last": [
+              "same-last-cubo",
+              "same-last-sal",
+              "same-last-vaca",
+              "same-last-lata",
+              "same-last-vaso",
+              "same-last-toro",
+              "same-last-mapa",
+              "same-last-mesa",
+              "same-last-pato"
+            ],
+            "mixed": [
+              "mixed-first-remo",
+              "mixed-last-cubo",
+              "mixed-last-sal",
+              "mixed-first-ojo",
+              "mixed-last-vaca",
+              "mixed-first-pollo",
+              "mixed-last-lata",
+              "mixed-first-mono",
+              "mixed-last-vaso"
+            ]
           },
-          "options": [
-            {
-              "noun": "bat",
-              "themeDir": "animals",
-              "b": "b",
-              "m": "a",
-              "e": "t"
-            },
-            {
-              "noun": "dog",
-              "themeDir": "animals",
-              "b": "d",
-              "m": "o",
-              "e": "g"
-            },
-            {
-              "noun": "sun",
-              "themeDir": "beach",
-              "b": "s",
-              "m": "u",
-              "e": "n"
-            }
+          "where": [
+            "where-boca",
+            "where-foca",
+            "where-mapa",
+            "where-mano",
+            "where-leche",
+            "where-mesa",
+            "where-pera",
+            "where-sol",
+            "where-perro",
+            "where-gato",
+            "where-remo",
+            "where-uña"
+          ],
+          "sort": [
+            "sort-o",
+            "sort-u",
+            "sort-p",
+            "sort-m",
+            "sort-c",
+            "sort-a",
+            "sort-t"
           ]
         },
-        {
-          "id": "sb-dog-last",
-          "position": "e",
-          "target": {
-            "noun": "dog",
-            "themeDir": "animals",
-            "b": "d",
-            "m": "o",
-            "e": "g"
+        "it": {
+          "positions": [
+            "first",
+            "last"
+          ],
+          "same": {
+            "first": [
+              "same-first-rana",
+              "same-first-ragno",
+              "same-first-lama",
+              "same-first-faro",
+              "same-first-cubo",
+              "same-first-riso",
+              "same-first-pera",
+              "same-first-pigna",
+              "same-first-casa"
+            ],
+            "last": [
+              "same-last-ragno",
+              "same-last-faro",
+              "same-last-pesce",
+              "same-last-riso",
+              "same-last-pigna",
+              "same-last-cubo",
+              "same-last-mela",
+              "same-last-cane",
+              "same-last-cono"
+            ],
+            "mixed": [
+              "mixed-first-rana",
+              "mixed-last-ragno",
+              "mixed-last-faro",
+              "mixed-first-lama",
+              "mixed-last-pesce",
+              "mixed-last-riso",
+              "mixed-first-cubo",
+              "mixed-last-pigna",
+              "mixed-first-pera"
+            ]
           },
-          "options": [
-            {
-              "noun": "pig",
-              "themeDir": "animals",
-              "b": "p",
-              "m": "i",
-              "e": "g"
-            },
-            {
-              "noun": "cap",
-              "themeDir": "accessories",
-              "b": "k",
-              "m": "a",
-              "e": "p"
-            },
-            {
-              "noun": "sun",
-              "themeDir": "beach",
-              "b": "s",
-              "m": "u",
-              "e": "n"
-            }
+          "where": [
+            "where-nido",
+            "where-topo",
+            "where-sale",
+            "where-toro",
+            "where-ragno",
+            "where-pesce",
+            "where-cane",
+            "where-sole",
+            "where-remo",
+            "where-faro",
+            "where-luna",
+            "where-mano"
+          ],
+          "sort": [
+            "sort-s",
+            "sort-e",
+            "sort-n",
+            "sort-t",
+            "sort-a",
+            "sort-r",
+            "sort-m"
           ]
         },
-        {
-          "id": "sb-van-last",
-          "position": "e",
-          "target": {
-            "noun": "van",
-            "themeDir": "vehicles",
-            "b": "v",
-            "m": "a",
-            "e": "n"
+        "pt": {
+          "positions": [
+            "first",
+            "last"
+          ],
+          "same": {
+            "first": [
+              "same-first-copo",
+              "same-first-cola",
+              "same-first-pera",
+              "same-first-cubo",
+              "same-first-pato",
+              "same-first-sino",
+              "same-first-galo",
+              "same-first-lata",
+              "same-first-vela"
+            ],
+            "last": [
+              "same-last-bolo",
+              "same-last-faca",
+              "same-last-casa",
+              "same-last-pia",
+              "same-last-pipa",
+              "same-last-folha",
+              "same-last-lua",
+              "same-last-lata",
+              "same-last-pato"
+            ],
+            "mixed": [
+              "mixed-first-copo",
+              "mixed-last-bolo",
+              "mixed-first-cola",
+              "mixed-last-faca",
+              "mixed-first-pera",
+              "mixed-last-casa",
+              "mixed-first-cubo",
+              "mixed-last-pia",
+              "mixed-first-pato"
+            ]
           },
-          "options": [
-            {
-              "noun": "can",
-              "themeDir": "At the Supermarket",
-              "b": "k",
-              "m": "a",
-              "e": "n"
-            },
-            {
-              "noun": "bed",
-              "themeDir": "around the house",
-              "b": "b",
-              "m": "e",
-              "e": "d"
-            },
-            {
-              "noun": "cap",
-              "themeDir": "accessories",
-              "b": "k",
-              "m": "a",
-              "e": "p"
-            }
+          "where": [
+            "where-chave",
+            "where-faca",
+            "where-boca",
+            "where-luva",
+            "where-olho",
+            "where-folha",
+            "where-saco",
+            "where-sino",
+            "where-pia",
+            "where-lua",
+            "where-pera",
+            "where-pipa"
+          ],
+          "sort": [
+            "sort-v",
+            "sort-b",
+            "sort-l",
+            "sort-o",
+            "sort-a",
+            "sort-c",
+            "sort-p"
+          ]
+        },
+        "fr": {
+          "positions": [
+            "first",
+            "middle",
+            "last"
+          ],
+          "same": {
+            "first": [
+              "same-first-bouche",
+              "same-first-vase",
+              "same-first-poule",
+              "same-first-lune",
+              "same-first-bague",
+              "same-first-coq",
+              "same-first-tasse",
+              "same-first-cube",
+              "same-first-pomme"
+            ],
+            "middle": [
+              "same-middle-bus",
+              "same-middle-robe",
+              "same-middle-bouche",
+              "same-middle-jupe",
+              "same-middle-tasse",
+              "same-middle-tête",
+              "same-middle-pull",
+              "same-middle-pomme",
+              "same-middle-vache"
+            ],
+            "last": [
+              "same-last-vache",
+              "same-last-sac",
+              "same-last-tasse",
+              "same-last-râpe",
+              "same-last-sel",
+              "same-last-four",
+              "same-last-rose",
+              "same-last-rame",
+              "same-last-jupe"
+            ],
+            "mixed": [
+              "mixed-first-bouche",
+              "mixed-middle-bus",
+              "mixed-last-vache",
+              "mixed-first-vase",
+              "mixed-middle-robe",
+              "mixed-last-sac",
+              "mixed-first-poule",
+              "mixed-last-tasse",
+              "mixed-first-lune"
+            ]
+          },
+          "where": [
+            "where-ours",
+            "where-rose",
+            "where-lune",
+            "where-poule",
+            "where-bouche",
+            "where-four",
+            "where-cube",
+            "where-vache",
+            "where-rame",
+            "where-bol",
+            "where-bague",
+            "where-bus"
+          ],
+          "sort": [
+            "sort-ou",
+            "sort-p",
+            "sort-s",
+            "sort-r",
+            "sort-l",
+            "sort-b",
+            "sort-u"
+          ]
+        },
+        "fi": {
+          "positions": [
+            "first",
+            "last"
+          ],
+          "same": {
+            "first": [
+              "same-first-tipu",
+              "same-first-kana",
+              "same-first-kani",
+              "same-first-käsi",
+              "same-first-pesä",
+              "same-first-kala",
+              "same-first-muki",
+              "same-first-susi",
+              "same-first-lasi"
+            ],
+            "last": [
+              "same-last-joki",
+              "same-last-mehu",
+              "same-last-kana",
+              "same-last-muki",
+              "same-last-kynä",
+              "same-last-lasi",
+              "same-last-reki",
+              "same-last-kala",
+              "same-last-lava"
+            ],
+            "mixed": [
+              "mixed-first-tipu",
+              "mixed-last-joki",
+              "mixed-first-kana",
+              "mixed-last-mehu",
+              "mixed-first-kani",
+              "mixed-first-käsi",
+              "mixed-last-muki",
+              "mixed-first-pesä",
+              "mixed-last-kynä"
+            ]
+          },
+          "where": [
+            "where-kori",
+            "where-kynä",
+            "where-rapu",
+            "where-kala",
+            "where-pesä",
+            "where-lasi",
+            "where-muki",
+            "where-kani",
+            "where-käsi",
+            "where-sika",
+            "where-mehu",
+            "where-reki"
+          ],
+          "sort": [
+            "sort-a",
+            "sort-o",
+            "sort-k",
+            "sort-l",
+            "sort-m",
+            "sort-i",
+            "sort-u"
           ]
         }
-      ],
-      "roundsL10n": {
+      },
+      "pictures": {
+        "en": [
+          { "noun": "cat", "themeDir": "animals", "word": "cat" },
+          { "noun": "kite", "themeDir": "toys", "word": "kite" },
+          { "noun": "hat", "themeDir": "accessories", "word": "hat" },
+          { "noun": "bag", "themeDir": "At the Supermarket", "word": "bag" },
+          { "noun": "bat", "themeDir": "animals", "word": "bat" },
+          { "noun": "bun", "themeDir": "bakery", "word": "bun" },
+          { "noun": "pig", "themeDir": "animals", "word": "pig" },
+          { "noun": "pen", "themeDir": "classroom", "word": "pen" },
+          { "noun": "fig", "themeDir": "fruits", "word": "fig" },
+          { "noun": "dog", "themeDir": "animals", "word": "dog" },
+          { "noun": "sun", "themeDir": "beach", "word": "sun" },
+          { "noun": "sock", "themeDir": "accessories", "word": "sock" },
+          { "noun": "hen", "themeDir": "birds 2", "word": "hen" },
+          { "noun": "duck", "themeDir": "animals", "word": "duck" },
+          { "noun": "log", "themeDir": "camping", "word": "log" },
+          { "noun": "mug", "themeDir": "kitchen tools", "word": "mug" },
+          { "noun": "mop", "themeDir": "around the house", "word": "mop" },
+          { "noun": "jug", "themeDir": "kitchen tools", "word": "jug" },
+          { "noun": "fan", "themeDir": "around the house", "word": "fan" },
+          { "noun": "van", "themeDir": "vehicles", "word": "van" },
+          { "noun": "cup", "themeDir": "around the house", "word": "cup" },
+          { "noun": "can", "themeDir": "At the Supermarket", "word": "can" },
+          { "noun": "bus", "themeDir": "vehicles", "word": "bus" },
+          { "noun": "map", "themeDir": "camping", "word": "map" },
+          { "noun": "net", "themeDir": "beach", "word": "net" },
+          { "noun": "cap", "themeDir": "accessories", "word": "cap" },
+          { "noun": "pot", "themeDir": "around the house", "word": "pot" },
+          { "noun": "ham", "themeDir": "At the Supermarket", "word": "ham" },
+          { "noun": "fish", "themeDir": "animals", "word": "fish" },
+          { "noun": "bed", "themeDir": "around the house", "word": "bed" },
+          { "noun": "jam", "themeDir": "At the Supermarket", "word": "jam" },
+          { "noun": "leg", "themeDir": "body parts", "word": "leg" },
+          { "noun": "ship", "themeDir": "vehicles", "word": "ship" },
+          { "noun": "chick", "themeDir": "farm animals", "word": "chick" },
+          { "noun": "bench", "themeDir": "furniture", "word": "bench" },
+          { "noun": "tooth", "themeDir": "body parts", "word": "tooth" },
+          { "noun": "sheep", "themeDir": "farm animals", "word": "sheep" },
+          { "noun": "brush", "themeDir": "around the house", "word": "brush" },
+          { "noun": "tie", "themeDir": "accessories", "word": "tie" },
+          { "noun": "tent", "themeDir": "camping", "word": "tent" },
+          { "noun": "drum", "themeDir": "music", "word": "drum" },
+          { "noun": "nest", "themeDir": "spring", "word": "nest" }
+        ],
         "de": [
-          {
-            "id": "sb-de-fisch-first",
-            "position": "b",
-            "target": {
-              "noun": "fish",
-              "themeDir": "ocean life",
-              "word": "Fisch",
-              "b": "f",
-              "m": "i-kurz",
-              "e": "sch"
-            },
-            "options": [
-              {
-                "noun": "foot",
-                "themeDir": "body parts",
-                "word": "Fuß",
-                "b": "f",
-                "m": "u-lang",
-                "e": "s"
-              },
-              {
-                "noun": "ball",
-                "themeDir": "toys",
-                "word": "Ball",
-                "b": "b",
-                "m": "a-kurz",
-                "e": "l"
-              },
-              {
-                "noun": "mouse",
-                "themeDir": "pets",
-                "word": "Maus",
-                "b": "m",
-                "m": "au",
-                "e": "s"
-              }
-            ]
-          },
-          {
-            "id": "sb-de-haus-first",
-            "position": "b",
-            "target": {
-              "noun": "house",
-              "themeDir": "miscellaneous",
-              "word": "Haus",
-              "b": "h",
-              "m": "au",
-              "e": "s"
-            },
-            "options": [
-              {
-                "noun": "hat",
-                "themeDir": "accessories",
-                "word": "Hut",
-                "b": "h",
-                "m": "u-lang",
-                "e": "t"
-              },
-              {
-                "noun": "boat",
-                "themeDir": "vehicles",
-                "word": "Boot",
-                "b": "b",
-                "m": "o-lang",
-                "e": "t"
-              },
-              {
-                "noun": "tooth",
-                "themeDir": "body parts",
-                "word": "Zahn",
-                "b": "ts",
-                "m": "a-lang",
-                "e": "n"
-              }
-            ]
-          },
-          {
-            "id": "sb-de-ball-first",
-            "position": "b",
-            "target": {
-              "noun": "ball",
-              "themeDir": "toys",
-              "word": "Ball",
-              "b": "b",
-              "m": "a-kurz",
-              "e": "l"
-            },
-            "options": [
-              {
-                "noun": "boat",
-                "themeDir": "vehicles",
-                "word": "Boot",
-                "b": "b",
-                "m": "o-lang",
-                "e": "t"
-              },
-              {
-                "noun": "fish",
-                "themeDir": "ocean life",
-                "word": "Fisch",
-                "b": "f",
-                "m": "i-kurz",
-                "e": "sch"
-              },
-              {
-                "noun": "house",
-                "themeDir": "miscellaneous",
-                "word": "Haus",
-                "b": "h",
-                "m": "au",
-                "e": "s"
-              }
-            ]
-          },
-          {
-            "id": "sb-de-bein-first",
-            "position": "b",
-            "target": {
-              "noun": "leg",
-              "themeDir": "body parts",
-              "word": "Bein",
-              "b": "b",
-              "m": "ei",
-              "e": "n"
-            },
-            "options": [
-              {
-                "noun": "ball",
-                "themeDir": "toys",
-                "word": "Ball",
-                "b": "b",
-                "m": "a-kurz",
-                "e": "l"
-              },
-              {
-                "noun": "mouse",
-                "themeDir": "pets",
-                "word": "Maus",
-                "b": "m",
-                "m": "au",
-                "e": "s"
-              },
-              {
-                "noun": "fish",
-                "themeDir": "ocean life",
-                "word": "Fisch",
-                "b": "f",
-                "m": "i-kurz",
-                "e": "sch"
-              }
-            ]
-          },
-          {
-            "id": "sb-de-hut-last",
-            "position": "e",
-            "target": {
-              "noun": "hat",
-              "themeDir": "accessories",
-              "word": "Hut",
-              "b": "h",
-              "m": "u-lang",
-              "e": "t"
-            },
-            "options": [
-              {
-                "noun": "boat",
-                "themeDir": "vehicles",
-                "word": "Boot",
-                "b": "b",
-                "m": "o-lang",
-                "e": "t"
-              },
-              {
-                "noun": "ball",
-                "themeDir": "toys",
-                "word": "Ball",
-                "b": "b",
-                "m": "a-kurz",
-                "e": "l"
-              },
-              {
-                "noun": "fish",
-                "themeDir": "ocean life",
-                "word": "Fisch",
-                "b": "f",
-                "m": "i-kurz",
-                "e": "sch"
-              }
-            ]
-          },
-          {
-            "id": "sb-de-maus-last",
-            "position": "e",
-            "target": {
-              "noun": "mouse",
-              "themeDir": "pets",
-              "word": "Maus",
-              "b": "m",
-              "m": "au",
-              "e": "s"
-            },
-            "options": [
-              {
-                "noun": "foot",
-                "themeDir": "body parts",
-                "word": "Fuß",
-                "b": "f",
-                "m": "u-lang",
-                "e": "s"
-              },
-              {
-                "noun": "tooth",
-                "themeDir": "body parts",
-                "word": "Zahn",
-                "b": "ts",
-                "m": "a-lang",
-                "e": "n"
-              },
-              {
-                "noun": "ball",
-                "themeDir": "toys",
-                "word": "Ball",
-                "b": "b",
-                "m": "a-kurz",
-                "e": "l"
-              }
-            ]
-          },
-          {
-            "id": "sb-de-bein-last",
-            "position": "e",
-            "target": {
-              "noun": "leg",
-              "themeDir": "body parts",
-              "word": "Bein",
-              "b": "b",
-              "m": "ei",
-              "e": "n"
-            },
-            "options": [
-              {
-                "noun": "tooth",
-                "themeDir": "body parts",
-                "word": "Zahn",
-                "b": "ts",
-                "m": "a-lang",
-                "e": "n"
-              },
-              {
-                "noun": "hat",
-                "themeDir": "accessories",
-                "word": "Hut",
-                "b": "h",
-                "m": "u-lang",
-                "e": "t"
-              },
-              {
-                "noun": "ball",
-                "themeDir": "toys",
-                "word": "Ball",
-                "b": "b",
-                "m": "a-kurz",
-                "e": "l"
-              }
-            ]
-          },
-          {
-            "id": "sb-de-maus-mid",
-            "position": "m",
-            "target": {
-              "noun": "mouse",
-              "themeDir": "pets",
-              "word": "Maus",
-              "b": "m",
-              "m": "au",
-              "e": "s"
-            },
-            "options": [
-              {
-                "noun": "house",
-                "themeDir": "miscellaneous",
-                "word": "Haus",
-                "b": "h",
-                "m": "au",
-                "e": "s"
-              },
-              {
-                "noun": "hat",
-                "themeDir": "accessories",
-                "word": "Hut",
-                "b": "h",
-                "m": "u-lang",
-                "e": "t"
-              },
-              {
-                "noun": "fish",
-                "themeDir": "ocean life",
-                "word": "Fisch",
-                "b": "f",
-                "m": "i-kurz",
-                "e": "sch"
-              }
-            ]
-          },
-          {
-            "id": "sb-de-hut-mid",
-            "position": "m",
-            "target": {
-              "noun": "hat",
-              "themeDir": "accessories",
-              "word": "Hut",
-              "b": "h",
-              "m": "u-lang",
-              "e": "t"
-            },
-            "options": [
-              {
-                "noun": "foot",
-                "themeDir": "body parts",
-                "word": "Fuß",
-                "b": "f",
-                "m": "u-lang",
-                "e": "s"
-              },
-              {
-                "noun": "ball",
-                "themeDir": "toys",
-                "word": "Ball",
-                "b": "b",
-                "m": "a-kurz",
-                "e": "l"
-              },
-              {
-                "noun": "boat",
-                "themeDir": "vehicles",
-                "word": "Boot",
-                "b": "b",
-                "m": "o-lang",
-                "e": "t"
-              }
-            ]
-          }
-        ],
-        "es": [
-          {
-            "id": "sb-es-sol-first",
-            "position": "b",
-            "target": {
-              "noun": "sun",
-              "themeDir": "weather",
-              "word": "sol",
-              "b": "s",
-              "m": "o",
-              "e": "l"
-            },
-            "options": [
-              {
-                "noun": "salt",
-                "themeDir": "At the Supermarket",
-                "word": "sal",
-                "b": "s",
-                "m": "a",
-                "e": "l"
-              },
-              {
-                "noun": "bread",
-                "themeDir": "At the Supermarket",
-                "word": "pan",
-                "b": "p",
-                "m": "a",
-                "e": "n"
-              },
-              {
-                "noun": "cabbage",
-                "themeDir": "vegetables",
-                "word": "col",
-                "b": "k",
-                "m": "o",
-                "e": "l"
-              }
-            ]
-          },
-          {
-            "id": "sb-es-pan-first",
-            "position": "b",
-            "target": {
-              "noun": "bread",
-              "themeDir": "At the Supermarket",
-              "word": "pan",
-              "b": "p",
-              "m": "a",
-              "e": "n"
-            },
-            "options": [
-              {
-                "noun": "fish",
-                "themeDir": "ocean life",
-                "word": "pez",
-                "b": "p",
-                "m": "e",
-                "e": "s"
-              },
-              {
-                "noun": "bus",
-                "themeDir": "vehicles",
-                "word": "bus",
-                "b": "b",
-                "m": "u",
-                "e": "s"
-              },
-              {
-                "noun": "bear",
-                "themeDir": "zoo animals",
-                "word": "oso",
-                "b": "o",
-                "m": "s",
-                "e": "o"
-              }
-            ]
-          },
-          {
-            "id": "sb-es-oso-first",
-            "position": "b",
-            "target": {
-              "noun": "bear",
-              "themeDir": "zoo animals",
-              "word": "oso",
-              "b": "o",
-              "m": "s",
-              "e": "o"
-            },
-            "options": [
-              {
-                "noun": "eye",
-                "themeDir": "body parts",
-                "word": "ojo",
-                "b": "o",
-                "m": "j",
-                "e": "o"
-              },
-              {
-                "noun": "sun",
-                "themeDir": "weather",
-                "word": "sol",
-                "b": "s",
-                "m": "o",
-                "e": "l"
-              },
-              {
-                "noun": "bus",
-                "themeDir": "vehicles",
-                "word": "bus",
-                "b": "b",
-                "m": "u",
-                "e": "s"
-              }
-            ]
-          },
-          {
-            "id": "sb-es-ojo-first",
-            "position": "b",
-            "target": {
-              "noun": "eye",
-              "themeDir": "body parts",
-              "word": "ojo",
-              "b": "o",
-              "m": "j",
-              "e": "o"
-            },
-            "options": [
-              {
-                "noun": "bear",
-                "themeDir": "zoo animals",
-                "word": "oso",
-                "b": "o",
-                "m": "s",
-                "e": "o"
-              },
-              {
-                "noun": "bread",
-                "themeDir": "At the Supermarket",
-                "word": "pan",
-                "b": "p",
-                "m": "a",
-                "e": "n"
-              },
-              {
-                "noun": "salt",
-                "themeDir": "At the Supermarket",
-                "word": "sal",
-                "b": "s",
-                "m": "a",
-                "e": "l"
-              }
-            ]
-          },
-          {
-            "id": "sb-es-sol-last",
-            "position": "e",
-            "target": {
-              "noun": "sun",
-              "themeDir": "weather",
-              "word": "sol",
-              "b": "s",
-              "m": "o",
-              "e": "l"
-            },
-            "options": [
-              {
-                "noun": "cabbage",
-                "themeDir": "vegetables",
-                "word": "col",
-                "b": "k",
-                "m": "o",
-                "e": "l"
-              },
-              {
-                "noun": "fish",
-                "themeDir": "ocean life",
-                "word": "pez",
-                "b": "p",
-                "m": "e",
-                "e": "s"
-              },
-              {
-                "noun": "bread",
-                "themeDir": "At the Supermarket",
-                "word": "pan",
-                "b": "p",
-                "m": "a",
-                "e": "n"
-              }
-            ]
-          },
-          {
-            "id": "sb-es-pez-last",
-            "position": "e",
-            "target": {
-              "noun": "fish",
-              "themeDir": "ocean life",
-              "word": "pez",
-              "b": "p",
-              "m": "e",
-              "e": "s"
-            },
-            "options": [
-              {
-                "noun": "bus",
-                "themeDir": "vehicles",
-                "word": "bus",
-                "b": "b",
-                "m": "u",
-                "e": "s"
-              },
-              {
-                "noun": "sun",
-                "themeDir": "weather",
-                "word": "sol",
-                "b": "s",
-                "m": "o",
-                "e": "l"
-              },
-              {
-                "noun": "bread",
-                "themeDir": "At the Supermarket",
-                "word": "pan",
-                "b": "p",
-                "m": "a",
-                "e": "n"
-              }
-            ]
-          },
-          {
-            "id": "sb-es-oso-last",
-            "position": "e",
-            "target": {
-              "noun": "bear",
-              "themeDir": "zoo animals",
-              "word": "oso",
-              "b": "o",
-              "m": "s",
-              "e": "o"
-            },
-            "options": [
-              {
-                "noun": "eye",
-                "themeDir": "body parts",
-                "word": "ojo",
-                "b": "o",
-                "m": "j",
-                "e": "o"
-              },
-              {
-                "noun": "salt",
-                "themeDir": "At the Supermarket",
-                "word": "sal",
-                "b": "s",
-                "m": "a",
-                "e": "l"
-              },
-              {
-                "noun": "bread",
-                "themeDir": "At the Supermarket",
-                "word": "pan",
-                "b": "p",
-                "m": "a",
-                "e": "n"
-              }
-            ]
-          },
-          {
-            "id": "sb-es-sol-mid",
-            "position": "m",
-            "target": {
-              "noun": "sun",
-              "themeDir": "weather",
-              "word": "sol",
-              "b": "s",
-              "m": "o",
-              "e": "l"
-            },
-            "options": [
-              {
-                "noun": "cabbage",
-                "themeDir": "vegetables",
-                "word": "col",
-                "b": "k",
-                "m": "o",
-                "e": "l"
-              },
-              {
-                "noun": "bread",
-                "themeDir": "At the Supermarket",
-                "word": "pan",
-                "b": "p",
-                "m": "a",
-                "e": "n"
-              },
-              {
-                "noun": "bus",
-                "themeDir": "vehicles",
-                "word": "bus",
-                "b": "b",
-                "m": "u",
-                "e": "s"
-              }
-            ]
-          },
-          {
-            "id": "sb-es-pan-mid",
-            "position": "m",
-            "target": {
-              "noun": "bread",
-              "themeDir": "At the Supermarket",
-              "word": "pan",
-              "b": "p",
-              "m": "a",
-              "e": "n"
-            },
-            "options": [
-              {
-                "noun": "salt",
-                "themeDir": "At the Supermarket",
-                "word": "sal",
-                "b": "s",
-                "m": "a",
-                "e": "l"
-              },
-              {
-                "noun": "sun",
-                "themeDir": "weather",
-                "word": "sol",
-                "b": "s",
-                "m": "o",
-                "e": "l"
-              },
-              {
-                "noun": "bus",
-                "themeDir": "vehicles",
-                "word": "bus",
-                "b": "b",
-                "m": "u",
-                "e": "s"
-              }
-            ]
-          }
-        ],
-        "pt": [
-          {
-            "id": "sb-pt-sol-b",
-            "position": "b",
-            "target": {
-              "noun": "sun",
-              "themeDir": "weather",
-              "word": "sol",
-              "b": "s",
-              "m": "ó",
-              "e": "l"
-            },
-            "options": [
-              {
-                "noun": "salt",
-                "themeDir": "At the Supermarket",
-                "word": "sal",
-                "b": "s",
-                "m": "a",
-                "e": "l"
-              },
-              {
-                "noun": "moon",
-                "themeDir": "space",
-                "word": "lua",
-                "b": "l",
-                "m": "u",
-                "e": "a"
-              },
-              {
-                "noun": "sink",
-                "themeDir": "around the house",
-                "word": "pia",
-                "b": "p",
-                "m": "i",
-                "e": "a"
-              }
-            ]
-          },
-          {
-            "id": "sb-pt-sal-b",
-            "position": "b",
-            "target": {
-              "noun": "salt",
-              "themeDir": "At the Supermarket",
-              "word": "sal",
-              "b": "s",
-              "m": "a",
-              "e": "l"
-            },
-            "options": [
-              {
-                "noun": "sun",
-                "themeDir": "weather",
-                "word": "sol",
-                "b": "s",
-                "m": "ó",
-                "e": "l"
-              },
-              {
-                "noun": "grapes",
-                "themeDir": "At the Supermarket",
-                "word": "uva",
-                "b": "u",
-                "m": "v",
-                "e": "a"
-              },
-              {
-                "noun": "river",
-                "themeDir": "camping",
-                "word": "rio",
-                "b": "r",
-                "m": "i",
-                "e": "u"
-              }
-            ]
-          },
-          {
-            "id": "sb-pt-ovo-m",
-            "position": "m",
-            "target": {
-              "noun": "egg",
-              "themeDir": "At the Supermarket",
-              "word": "ovo",
-              "b": "o",
-              "m": "v",
-              "e": "u"
-            },
-            "options": [
-              {
-                "noun": "grapes",
-                "themeDir": "At the Supermarket",
-                "word": "uva",
-                "b": "u",
-                "m": "v",
-                "e": "a"
-              },
-              {
-                "noun": "sun",
-                "themeDir": "weather",
-                "word": "sol",
-                "b": "s",
-                "m": "ó",
-                "e": "l"
-              },
-              {
-                "noun": "sink",
-                "themeDir": "around the house",
-                "word": "pia",
-                "b": "p",
-                "m": "i",
-                "e": "a"
-              }
-            ]
-          },
-          {
-            "id": "sb-pt-uva-m",
-            "position": "m",
-            "target": {
-              "noun": "grapes",
-              "themeDir": "At the Supermarket",
-              "word": "uva",
-              "b": "u",
-              "m": "v",
-              "e": "a"
-            },
-            "options": [
-              {
-                "noun": "bird",
-                "themeDir": "spring",
-                "word": "ave",
-                "b": "a",
-                "m": "v",
-                "e": "i"
-              },
-              {
-                "noun": "salt",
-                "themeDir": "At the Supermarket",
-                "word": "sal",
-                "b": "s",
-                "m": "a",
-                "e": "l"
-              },
-              {
-                "noun": "moon",
-                "themeDir": "space",
-                "word": "lua",
-                "b": "l",
-                "m": "u",
-                "e": "a"
-              }
-            ]
-          },
-          {
-            "id": "sb-pt-ave-m",
-            "position": "m",
-            "target": {
-              "noun": "bird",
-              "themeDir": "spring",
-              "word": "ave",
-              "b": "a",
-              "m": "v",
-              "e": "i"
-            },
-            "options": [
-              {
-                "noun": "egg",
-                "themeDir": "At the Supermarket",
-                "word": "ovo",
-                "b": "o",
-                "m": "v",
-                "e": "u"
-              },
-              {
-                "noun": "river",
-                "themeDir": "camping",
-                "word": "rio",
-                "b": "r",
-                "m": "i",
-                "e": "u"
-              },
-              {
-                "noun": "salt",
-                "themeDir": "At the Supermarket",
-                "word": "sal",
-                "b": "s",
-                "m": "a",
-                "e": "l"
-              }
-            ]
-          },
-          {
-            "id": "sb-pt-pia-m",
-            "position": "m",
-            "target": {
-              "noun": "sink",
-              "themeDir": "around the house",
-              "word": "pia",
-              "b": "p",
-              "m": "i",
-              "e": "a"
-            },
-            "options": [
-              {
-                "noun": "river",
-                "themeDir": "camping",
-                "word": "rio",
-                "b": "r",
-                "m": "i",
-                "e": "u"
-              },
-              {
-                "noun": "salt",
-                "themeDir": "At the Supermarket",
-                "word": "sal",
-                "b": "s",
-                "m": "a",
-                "e": "l"
-              },
-              {
-                "noun": "moon",
-                "themeDir": "space",
-                "word": "lua",
-                "b": "l",
-                "m": "u",
-                "e": "a"
-              }
-            ]
-          },
-          {
-            "id": "sb-pt-lua-e",
-            "position": "e",
-            "target": {
-              "noun": "moon",
-              "themeDir": "space",
-              "word": "lua",
-              "b": "l",
-              "m": "u",
-              "e": "a"
-            },
-            "options": [
-              {
-                "noun": "grapes",
-                "themeDir": "At the Supermarket",
-                "word": "uva",
-                "b": "u",
-                "m": "v",
-                "e": "a"
-              },
-              {
-                "noun": "eye",
-                "themeDir": "body parts",
-                "word": "olho",
-                "b": "o",
-                "m": "lh",
-                "e": "u"
-              },
-              {
-                "noun": "bird",
-                "themeDir": "spring",
-                "word": "ave",
-                "b": "a",
-                "m": "v",
-                "e": "i"
-              }
-            ]
-          },
-          {
-            "id": "sb-pt-pia-e",
-            "position": "e",
-            "target": {
-              "noun": "sink",
-              "themeDir": "around the house",
-              "word": "pia",
-              "b": "p",
-              "m": "i",
-              "e": "a"
-            },
-            "options": [
-              {
-                "noun": "moon",
-                "themeDir": "space",
-                "word": "lua",
-                "b": "l",
-                "m": "u",
-                "e": "a"
-              },
-              {
-                "noun": "egg",
-                "themeDir": "At the Supermarket",
-                "word": "ovo",
-                "b": "o",
-                "m": "v",
-                "e": "u"
-              },
-              {
-                "noun": "bird",
-                "themeDir": "spring",
-                "word": "ave",
-                "b": "a",
-                "m": "v",
-                "e": "i"
-              }
-            ]
-          },
-          {
-            "id": "sb-pt-olho-e",
-            "position": "e",
-            "target": {
-              "noun": "eye",
-              "themeDir": "body parts",
-              "word": "olho",
-              "b": "o",
-              "m": "lh",
-              "e": "u"
-            },
-            "options": [
-              {
-                "noun": "egg",
-                "themeDir": "At the Supermarket",
-                "word": "ovo",
-                "b": "o",
-                "m": "v",
-                "e": "u"
-              },
-              {
-                "noun": "moon",
-                "themeDir": "space",
-                "word": "lua",
-                "b": "l",
-                "m": "u",
-                "e": "a"
-              },
-              {
-                "noun": "bird",
-                "themeDir": "spring",
-                "word": "ave",
-                "b": "a",
-                "m": "v",
-                "e": "i"
-              }
-            ]
-          },
-          {
-            "id": "sb-pt-rio-e",
-            "position": "e",
-            "target": {
-              "noun": "river",
-              "themeDir": "camping",
-              "word": "rio",
-              "b": "r",
-              "m": "i",
-              "e": "u"
-            },
-            "options": [
-              {
-                "noun": "eye",
-                "themeDir": "body parts",
-                "word": "olho",
-                "b": "o",
-                "m": "lh",
-                "e": "u"
-              },
-              {
-                "noun": "grapes",
-                "themeDir": "At the Supermarket",
-                "word": "uva",
-                "b": "u",
-                "m": "v",
-                "e": "a"
-              },
-              {
-                "noun": "bird",
-                "themeDir": "spring",
-                "word": "ave",
-                "b": "a",
-                "m": "v",
-                "e": "i"
-              }
-            ]
-          }
-        ],
-        "it": [
-          {
-            "id": "sb-it-ape-first",
-            "position": "b",
-            "target": {
-              "noun": "bee",
-              "themeDir": "farm animals",
-              "word": "Ape",
-              "b": "a",
-              "m": "p",
-              "e": "e"
-            },
-            "options": [
-              {
-                "noun": "duck",
-                "themeDir": "farm animals",
-                "word": "Anatra",
-                "b": "a",
-                "m": "n",
-                "e": "a"
-              },
-              {
-                "noun": "apple",
-                "themeDir": "At the Supermarket",
-                "word": "Mela",
-                "b": "m",
-                "m": "l",
-                "e": "a"
-              },
-              {
-                "noun": "sun",
-                "themeDir": "beach",
-                "word": "Sole",
-                "b": "s",
-                "m": "l",
-                "e": "e"
-              }
-            ]
-          },
-          {
-            "id": "sb-it-uva-first",
-            "position": "b",
-            "target": {
-              "noun": "grapes",
-              "themeDir": "At the Supermarket",
-              "word": "Uva",
-              "b": "u",
-              "m": "v",
-              "e": "a"
-            },
-            "options": [
-              {
-                "noun": "bird",
-                "themeDir": "spring",
-                "word": "Uccello",
-                "b": "u",
-                "m": "tʃ",
-                "e": "o"
-              },
-              {
-                "noun": "cat",
-                "themeDir": "animals",
-                "word": "Gatto",
-                "b": "g",
-                "m": "t",
-                "e": "o"
-              },
-              {
-                "noun": "hand",
-                "themeDir": "body parts",
-                "word": "Mano",
-                "b": "m",
-                "m": "n",
-                "e": "o"
-              }
-            ]
-          },
-          {
-            "id": "sb-it-oca-first",
-            "position": "b",
-            "target": {
-              "noun": "goose",
-              "themeDir": "farm animals",
-              "word": "Oca",
-              "b": "o",
-              "m": "k",
-              "e": "a"
-            },
-            "options": [
-              {
-                "noun": "bear",
-                "themeDir": "forest creatures",
-                "word": "Orso",
-                "b": "o",
-                "m": "r",
-                "e": "o"
-              },
-              {
-                "noun": "pear",
-                "themeDir": "fruits",
-                "word": "Pera",
-                "b": "p",
-                "m": "r",
-                "e": "a"
-              },
-              {
-                "noun": "nose",
-                "themeDir": "body parts",
-                "word": "Naso",
-                "b": "n",
-                "m": "s",
-                "e": "o"
-              }
-            ]
-          },
-          {
-            "id": "sb-it-ape-first-2",
-            "position": "b",
-            "target": {
-              "noun": "bee",
-              "themeDir": "farm animals",
-              "word": "Ape",
-              "b": "a",
-              "m": "p",
-              "e": "e"
-            },
-            "options": [
-              {
-                "noun": "pineapple",
-                "themeDir": "fruits",
-                "word": "Ananas",
-                "b": "a",
-                "m": "n",
-                "e": "s"
-              },
-              {
-                "noun": "mouse",
-                "themeDir": "forest creatures",
-                "word": "Topo",
-                "b": "t",
-                "m": "p",
-                "e": "o"
-              },
-              {
-                "noun": "frog",
-                "themeDir": "camping",
-                "word": "Rana",
-                "b": "r",
-                "m": "n",
-                "e": "a"
-              }
-            ]
-          },
-          {
-            "id": "sb-it-ape-last",
-            "position": "e",
-            "target": {
-              "noun": "bee",
-              "themeDir": "farm animals",
-              "word": "Ape",
-              "b": "a",
-              "m": "p",
-              "e": "e"
-            },
-            "options": [
-              {
-                "noun": "dog",
-                "themeDir": "animals",
-                "word": "Cane",
-                "b": "k",
-                "m": "n",
-                "e": "e"
-              },
-              {
-                "noun": "moon",
-                "themeDir": "camping",
-                "word": "Luna",
-                "b": "l",
-                "m": "n",
-                "e": "a"
-              },
-              {
-                "noun": "mouse",
-                "themeDir": "forest creatures",
-                "word": "Topo",
-                "b": "t",
-                "m": "p",
-                "e": "o"
-              }
-            ]
-          },
-          {
-            "id": "sb-it-uva-last",
-            "position": "e",
-            "target": {
-              "noun": "grapes",
-              "themeDir": "At the Supermarket",
-              "word": "Uva",
-              "b": "u",
-              "m": "v",
-              "e": "a"
-            },
-            "options": [
-              {
-                "noun": "moon",
-                "themeDir": "camping",
-                "word": "Luna",
-                "b": "l",
-                "m": "n",
-                "e": "a"
-              },
-              {
-                "noun": "sun",
-                "themeDir": "beach",
-                "word": "Sole",
-                "b": "s",
-                "m": "l",
-                "e": "e"
-              },
-              {
-                "noun": "mouse",
-                "themeDir": "forest creatures",
-                "word": "Topo",
-                "b": "t",
-                "m": "p",
-                "e": "o"
-              }
-            ]
-          },
-          {
-            "id": "sb-it-oca-last",
-            "position": "e",
-            "target": {
-              "noun": "goose",
-              "themeDir": "farm animals",
-              "word": "Oca",
-              "b": "o",
-              "m": "k",
-              "e": "a"
-            },
-            "options": [
-              {
-                "noun": "frog",
-                "themeDir": "camping",
-                "word": "Rana",
-                "b": "r",
-                "m": "n",
-                "e": "a"
-              },
-              {
-                "noun": "bread",
-                "themeDir": "At the Supermarket",
-                "word": "Pane",
-                "b": "p",
-                "m": "n",
-                "e": "e"
-              },
-              {
-                "noun": "nose",
-                "themeDir": "body parts",
-                "word": "Naso",
-                "b": "n",
-                "m": "s",
-                "e": "o"
-              }
-            ]
-          }
+          { "noun": "hat", "themeDir": "accessories", "word": "Hut" },
+          { "noun": "bus", "themeDir": "vehicles", "word": "Bus" },
+          { "noun": "foot", "themeDir": "body parts", "word": "Fuß" },
+          { "noun": "whale", "themeDir": "ocean life", "word": "Wal" },
+          { "noun": "elf", "themeDir": "christmas", "word": "Elf" },
+          { "noun": "bed", "themeDir": "around the house", "word": "Bett" },
+          { "noun": "boat", "themeDir": "beach", "word": "Boot" },
+          { "noun": "book", "themeDir": "classroom", "word": "Buch" },
+          { "noun": "fish", "themeDir": "animals", "word": "Fisch" },
+          { "noun": "sheep", "themeDir": "farm animals", "word": "Schaf" },
+          { "noun": "scarf", "themeDir": "accessories", "word": "Schal" },
+          { "noun": "ship", "themeDir": "vehicles", "word": "Schiff" },
+          { "noun": "comb", "themeDir": "around the house", "word": "Kamm" },
+          { "noun": "mop", "themeDir": "around the house", "word": "Mopp" },
+          { "noun": "net", "themeDir": "beach", "word": "Netz" },
+          { "noun": "skirt", "themeDir": "clothing", "word": "Rock" },
+          { "noun": "sack", "themeDir": "christmas", "word": "Sack" },
+          { "noun": "cook", "themeDir": "occupations", "word": "Koch" },
+          { "noun": "table", "themeDir": "around the house", "word": "Tisch" },
+          { "noun": "ball", "themeDir": "toys", "word": "Ball" },
+          { "noun": "rooster", "themeDir": "farm animals", "word": "Hahn" },
+          { "noun": "chicken", "themeDir": "farm animals", "word": "Huhn" },
+          { "noun": "tooth", "themeDir": "body parts", "word": "Zahn" },
+          { "noun": "mouse", "themeDir": "pets", "word": "Maus" },
+          { "noun": "house", "themeDir": "miscellaneous", "word": "Haus" },
+          { "noun": "fence", "themeDir": "around the house", "word": "Zaun" },
+          { "noun": "leg", "themeDir": "body parts", "word": "Bein" },
+          { "noun": "rice", "themeDir": "At the Supermarket", "word": "Reis" },
+          { "noun": "ring", "themeDir": "accessories", "word": "Ring" },
+          { "noun": "nest", "themeDir": "spring", "word": "Nest" },
+          { "noun": "tent", "themeDir": "camping", "word": "Zelt" },
+          { "noun": "wolf", "themeDir": "animals", "word": "Wolf" }
         ],
         "nl": [
-          { "id": "sb-nl-bal-first", "position": "b",
-            "target": { "noun": "ball", "themeDir": "toys", "word": "bal", "b": "b", "m": "a", "e": "l" },
-            "options": [
-              { "noun": "boat", "themeDir": "vehicles", "word": "boot", "b": "b", "m": "oo", "e": "t" },
-              { "noun": "moon", "themeDir": "camping", "word": "maan", "b": "m", "m": "aa", "e": "n" },
-              { "noun": "fish", "themeDir": "ocean life", "word": "vis", "b": "v", "m": "i", "e": "s" }
-            ] },
-          { "id": "sb-nl-pet-first", "position": "b",
-            "target": { "noun": "cap", "themeDir": "accessories", "word": "pet", "b": "p", "m": "e", "e": "t" },
-            "options": [
-              { "noun": "pot", "themeDir": "around the house", "word": "pot", "b": "p", "m": "o", "e": "t" },
-              { "noun": "cat", "themeDir": "animals", "word": "kat", "b": "k", "m": "a", "e": "t" },
-              { "noun": "sun", "themeDir": "beach", "word": "zon", "b": "z", "m": "o", "e": "n" }
-            ] },
-          { "id": "sb-nl-maan-first", "position": "b",
-            "target": { "noun": "moon", "themeDir": "camping", "word": "maan", "b": "m", "m": "aa", "e": "n" },
-            "options": [
-              { "noun": "mouse", "themeDir": "pets", "word": "muis", "b": "m", "m": "ui", "e": "s" },
-              { "noun": "ball", "themeDir": "toys", "word": "bal", "b": "b", "m": "a", "e": "l" },
-              { "noun": "nose", "themeDir": "body parts", "word": "neus", "b": "n", "m": "eu", "e": "s" }
-            ] },
-          { "id": "sb-nl-vis-first", "position": "b",
-            "target": { "noun": "fish", "themeDir": "ocean life", "word": "vis", "b": "v", "m": "i", "e": "s" },
-            "options": [
-              { "noun": "foot", "themeDir": "body parts", "word": "voet", "b": "v", "m": "oe", "e": "t" },
-              { "noun": "ball", "themeDir": "toys", "word": "bal", "b": "b", "m": "a", "e": "l" },
-              { "noun": "sun", "themeDir": "beach", "word": "zon", "b": "z", "m": "o", "e": "n" }
-            ] },
-          { "id": "sb-nl-vis-last", "position": "e",
-            "target": { "noun": "fish", "themeDir": "ocean life", "word": "vis", "b": "v", "m": "i", "e": "s" },
-            "options": [
-              { "noun": "coat", "themeDir": "clothing", "word": "jas", "b": "j", "m": "a", "e": "s" },
-              { "noun": "ball", "themeDir": "toys", "word": "bal", "b": "b", "m": "a", "e": "l" },
-              { "noun": "pen", "themeDir": "around the house", "word": "pen", "b": "p", "m": "e", "e": "n" }
-            ] },
-          { "id": "sb-nl-maan-last", "position": "e",
-            "target": { "noun": "moon", "themeDir": "camping", "word": "maan", "b": "m", "m": "aa", "e": "n" },
-            "options": [
-              { "noun": "pen", "themeDir": "around the house", "word": "pen", "b": "p", "m": "e", "e": "n" },
-              { "noun": "pot", "themeDir": "around the house", "word": "pot", "b": "p", "m": "o", "e": "t" },
-              { "noun": "coat", "themeDir": "clothing", "word": "jas", "b": "j", "m": "a", "e": "s" }
-            ] },
-          { "id": "sb-nl-kat-last", "position": "e",
-            "target": { "noun": "cat", "themeDir": "animals", "word": "kat", "b": "k", "m": "a", "e": "t" },
-            "options": [
-              { "noun": "pot", "themeDir": "around the house", "word": "pot", "b": "p", "m": "o", "e": "t" },
-              { "noun": "fish", "themeDir": "ocean life", "word": "vis", "b": "v", "m": "i", "e": "s" },
-              { "noun": "ball", "themeDir": "toys", "word": "bal", "b": "b", "m": "a", "e": "l" }
-            ] },
-          { "id": "sb-nl-bal-mid", "position": "m",
-            "target": { "noun": "ball", "themeDir": "toys", "word": "bal", "b": "b", "m": "a", "e": "l" },
-            "options": [
-              { "noun": "cat", "themeDir": "animals", "word": "kat", "b": "k", "m": "a", "e": "t" },
-              { "noun": "sun", "themeDir": "beach", "word": "zon", "b": "z", "m": "o", "e": "n" },
-              { "noun": "cap", "themeDir": "accessories", "word": "pet", "b": "p", "m": "e", "e": "t" }
-            ] },
-          { "id": "sb-nl-zon-mid", "position": "m",
-            "target": { "noun": "sun", "themeDir": "beach", "word": "zon", "b": "z", "m": "o", "e": "n" },
-            "options": [
-              { "noun": "pot", "themeDir": "around the house", "word": "pot", "b": "p", "m": "o", "e": "t" },
-              { "noun": "ball", "themeDir": "toys", "word": "bal", "b": "b", "m": "a", "e": "l" },
-              { "noun": "cap", "themeDir": "accessories", "word": "pet", "b": "p", "m": "e", "e": "t" }
-            ] }
+          { "noun": "fish", "themeDir": "animals", "word": "vis" },
+          { "noun": "sun", "themeDir": "beach", "word": "zon" },
+          { "noun": "cat", "themeDir": "animals", "word": "kat" },
+          { "noun": "pen", "themeDir": "around the house", "word": "pen" },
+          { "noun": "sock", "themeDir": "accessories", "word": "sok" },
+          { "noun": "bus", "themeDir": "vehicles", "word": "bus" },
+          { "noun": "mug", "themeDir": "kitchen tools", "word": "mok" },
+          { "noun": "chicken", "themeDir": "farm animals", "word": "kip" },
+          { "noun": "ball", "themeDir": "toys", "word": "bal" },
+          { "noun": "bell", "themeDir": "christmas", "word": "bel" },
+          { "noun": "sphere", "themeDir": "shapes", "word": "bol" },
+          { "noun": "ham", "themeDir": "At the Supermarket", "word": "ham" },
+          { "noun": "fence", "themeDir": "around the house", "word": "hek" },
+          { "noun": "coat", "themeDir": "clothing", "word": "jas" },
+          { "noun": "comb", "themeDir": "around the house", "word": "kam" },
+          { "noun": "jug", "themeDir": "kitchen tools", "word": "kan" },
+          { "noun": "cook", "themeDir": "occupations", "word": "kok" },
+          { "noun": "lamb", "themeDir": "farm animals", "word": "lam" },
+          { "noun": "knife", "themeDir": "around the house", "word": "mes" },
+          { "noun": "net", "themeDir": "beach", "word": "net" },
+          { "noun": "pan", "themeDir": "around the house", "word": "pan" },
+          { "noun": "cap", "themeDir": "accessories", "word": "pet" },
+          { "noun": "pot", "themeDir": "around the house", "word": "pot" },
+          { "noun": "skirt", "themeDir": "clothing", "word": "rok" },
+          { "noun": "bag", "themeDir": "At the Supermarket", "word": "tas" },
+          { "noun": "fox", "themeDir": "animals", "word": "vos" },
+          { "noun": "sack", "themeDir": "christmas", "word": "zak" },
+          { "noun": "book", "themeDir": "classroom", "word": "boek" },
+          { "noun": "boat", "themeDir": "beach", "word": "boot" },
+          { "noun": "mouse", "themeDir": "pets", "word": "muis" },
+          { "noun": "house", "themeDir": "miscellaneous", "word": "huis" },
+          { "noun": "moon", "themeDir": "space", "word": "maan" },
+          { "noun": "cheese", "themeDir": "At the Supermarket", "word": "kaas" },
+          { "noun": "vase", "themeDir": "around the house", "word": "vaas" },
+          { "noun": "rose", "themeDir": "flowers", "word": "roos" },
+          { "noun": "nose", "themeDir": "body parts", "word": "neus" },
+          { "noun": "foot", "themeDir": "body parts", "word": "voet" },
+          { "noun": "dove", "themeDir": "birds 2", "word": "duif" },
+          { "noun": "cabbage", "themeDir": "vegetables", "word": "kool" },
+          { "noun": "ring", "themeDir": "accessories", "word": "ring" }
+        ],
+        "sv": [
+          { "noun": "sun", "themeDir": "beach", "word": "sol" },
+          { "noun": "mouse", "themeDir": "pets", "word": "mus" },
+          { "noun": "house", "themeDir": "miscellaneous", "word": "hus" },
+          { "noun": "rice", "themeDir": "At the Supermarket", "word": "ris" },
+          { "noun": "leg", "themeDir": "body parts", "word": "ben" },
+          { "noun": "fox", "themeDir": "animals", "word": "räv" },
+          { "noun": "onion", "themeDir": "vegetables", "word": "lök" },
+          { "noun": "whale", "themeDir": "ocean life", "word": "val" },
+          { "noun": "car", "themeDir": "toys", "word": "bil" },
+          { "noun": "book", "themeDir": "classroom", "word": "bok" },
+          { "noun": "boat", "themeDir": "toys", "word": "båt" },
+          { "noun": "foot", "themeDir": "body parts", "word": "fot" },
+          { "noun": "goose", "themeDir": "birds 2", "word": "gås" },
+          { "noun": "cabbage", "themeDir": "vegetables", "word": "kål" },
+          { "noun": "lock", "themeDir": "around the house", "word": "lås" },
+          { "noun": "net", "themeDir": "beach", "word": "nät" },
+          { "noun": "rose", "themeDir": "flowers", "word": "ros" },
+          { "noun": "seal", "themeDir": "ocean life", "word": "säl" },
+          { "noun": "vase", "themeDir": "around the house", "word": "vas" },
+          { "noun": "cat", "themeDir": "animals", "word": "katt" },
+          { "noun": "hat", "themeDir": "accessories", "word": "hatt" },
+          { "noun": "lamb", "themeDir": "easter", "word": "lamm" },
+          { "noun": "rooster", "themeDir": "farm animals", "word": "tupp" },
+          { "noun": "mug", "themeDir": "kitchen tools", "word": "mugg" },
+          { "noun": "ball", "themeDir": "toys", "word": "boll" },
+          { "noun": "cup", "themeDir": "around the house", "word": "kopp" },
+          { "noun": "mop", "themeDir": "around the house", "word": "mopp" },
+          { "noun": "bus", "themeDir": "vehicles", "word": "buss" },
+          { "noun": "ring", "themeDir": "accessories", "word": "ring" },
+          { "noun": "bed", "themeDir": "around the house", "word": "säng" },
+          { "noun": "glue", "themeDir": "classroom", "word": "lim" },
+          { "noun": "comb", "themeDir": "around the house", "word": "kam" },
+          { "noun": "cube", "themeDir": "shapes", "word": "kub" },
+          { "noun": "cone", "themeDir": "shapes", "word": "kon" }
+        ],
+        "da": [
+          { "noun": "sun", "themeDir": "beach", "word": "sol" },
+          { "noun": "house", "themeDir": "miscellaneous", "word": "hus" },
+          { "noun": "mouse", "themeDir": "pets", "word": "mus" },
+          { "noun": "bus", "themeDir": "vehicles", "word": "bus" },
+          { "noun": "cat", "themeDir": "animals", "word": "kat" },
+          { "noun": "hat", "themeDir": "accessories", "word": "hat" },
+          { "noun": "rice", "themeDir": "At the Supermarket", "word": "ris" },
+          { "noun": "leg", "themeDir": "body parts", "word": "ben" },
+          { "noun": "comb", "themeDir": "around the house", "word": "kam" },
+          { "noun": "lamb", "themeDir": "farm animals", "word": "lam" },
+          { "noun": "goose", "themeDir": "birds 2", "word": "gås" },
+          { "noun": "cabbage", "themeDir": "vegetables", "word": "kål" },
+          { "noun": "lock", "themeDir": "around the house", "word": "lås" },
+          { "noun": "net", "themeDir": "beach", "word": "net" },
+          { "noun": "pen", "themeDir": "around the house", "word": "pen" },
+          { "noun": "glue", "themeDir": "classroom", "word": "lim" },
+          { "noun": "seal", "themeDir": "ocean life", "word": "sæl" },
+          { "noun": "sack", "themeDir": "christmas", "word": "sæk" },
+          { "noun": "cup", "themeDir": "around the house", "word": "kop" },
+          { "noun": "cheese", "themeDir": "At the Supermarket", "word": "ost" },
+          { "noun": "horse", "themeDir": "animals", "word": "hest" },
+          { "noun": "pig", "themeDir": "animals", "word": "gris" },
+          { "noun": "vest", "themeDir": "accessories", "word": "vest" },
+          { "noun": "tent", "themeDir": "camping", "word": "telt" },
+          { "noun": "salt", "themeDir": "At the Supermarket", "word": "salt" }
+        ],
+        "no": [
+          { "noun": "sun", "themeDir": "beach", "word": "sol" },
+          { "noun": "car", "themeDir": "toys", "word": "bil" },
+          { "noun": "house", "themeDir": "miscellaneous", "word": "hus" },
+          { "noun": "mouse", "themeDir": "pets", "word": "mus" },
+          { "noun": "lamb", "themeDir": "easter", "word": "lam" },
+          { "noun": "goose", "themeDir": "birds 2", "word": "gås" },
+          { "noun": "cabbage", "themeDir": "vegetables", "word": "kål" },
+          { "noun": "lock", "themeDir": "around the house", "word": "lås" },
+          { "noun": "glue", "themeDir": "classroom", "word": "lim" },
+          { "noun": "onion", "themeDir": "At the Supermarket", "word": "løk" },
+          { "noun": "rice", "themeDir": "At the Supermarket", "word": "ris" },
+          { "noun": "seal", "themeDir": "ocean life", "word": "sel" },
+          { "noun": "book", "themeDir": "classroom", "word": "bok" },
+          { "noun": "boat", "themeDir": "toys", "word": "båt" },
+          { "noun": "foot", "themeDir": "body parts", "word": "fot" },
+          { "noun": "fox", "themeDir": "animals", "word": "rev" },
+          { "noun": "cat", "themeDir": "animals", "word": "katt" },
+          { "noun": "hat", "themeDir": "accessories", "word": "hatt" },
+          { "noun": "pen", "themeDir": "classroom", "word": "penn" },
+          { "noun": "bus", "themeDir": "vehicles", "word": "buss" },
+          { "noun": "mop", "themeDir": "around the house", "word": "mopp" },
+          { "noun": "cup", "themeDir": "around the house", "word": "kopp" },
+          { "noun": "sock", "themeDir": "accessories", "word": "sokk" },
+          { "noun": "net", "themeDir": "beach", "word": "nett" },
+          { "noun": "tooth", "themeDir": "body parts", "word": "tann" },
+          { "noun": "chef", "themeDir": "occupations", "word": "kokk" },
+          { "noun": "sack", "themeDir": "christmas", "word": "sekk" },
+          { "noun": "mitten", "themeDir": "accessories", "word": "vott" },
+          { "noun": "ring", "themeDir": "accessories", "word": "ring" },
+          { "noun": "bed", "themeDir": "around the house", "word": "seng" },
+          { "noun": "comb", "themeDir": "around the house", "word": "kam" },
+          { "noun": "train", "themeDir": "toys", "word": "tog" },
+          { "noun": "ear", "themeDir": "body parts", "word": "øre" }
+        ],
+        "es": [
+          { "noun": "sun", "themeDir": "beach", "word": "sol" },
+          { "noun": "bread", "themeDir": "At the Supermarket", "word": "pan" },
+          { "noun": "fish", "themeDir": "animals", "word": "pez" },
+          { "noun": "salt", "themeDir": "At the Supermarket", "word": "sal" },
+          { "noun": "cabbage", "themeDir": "vegetables", "word": "col" },
+          { "noun": "net", "themeDir": "beach", "word": "red" },
+          { "noun": "bear", "themeDir": "camping", "word": "oso" },
+          { "noun": "eye", "themeDir": "body parts", "word": "ojo" },
+          { "noun": "garlic", "themeDir": "At the Supermarket", "word": "ajo" },
+          { "noun": "nail", "themeDir": "body parts", "word": "uña" },
+          { "noun": "cat", "themeDir": "animals", "word": "gato" },
+          { "noun": "duck", "themeDir": "animals", "word": "pato" },
+          { "noun": "house", "themeDir": "miscellaneous", "word": "casa" },
+          { "noun": "moon", "themeDir": "camping", "word": "luna" },
+          { "noun": "table", "themeDir": "around the house", "word": "mesa" },
+          { "noun": "cow", "themeDir": "farm animals", "word": "vaca" },
+          { "noun": "cup", "themeDir": "around the house", "word": "taza" },
+          { "noun": "mouth", "themeDir": "body parts", "word": "boca" },
+          { "noun": "hand", "themeDir": "body parts", "word": "mano" },
+          { "noun": "monkey", "themeDir": "zoo animals", "word": "mono" },
+          { "noun": "map", "themeDir": "camping", "word": "mapa" },
+          { "noun": "nest", "themeDir": "spring", "word": "nido" },
+          { "noun": "pear", "themeDir": "fruits", "word": "pera" },
+          { "noun": "seal", "themeDir": "ocean life", "word": "foca" },
+          { "noun": "cloud", "themeDir": "beach", "word": "nube" },
+          { "noun": "glass", "themeDir": "kitchen tools", "word": "vaso" },
+          { "noun": "wolf", "themeDir": "animals", "word": "lobo" },
+          { "noun": "frog", "themeDir": "reptiles and Amphibians", "word": "rana" },
+          { "noun": "bed", "themeDir": "around the house", "word": "cama" },
+          { "noun": "finger", "themeDir": "body parts", "word": "dedo" },
+          { "noun": "bull", "themeDir": "farm animals", "word": "toro" },
+          { "noun": "parrot", "themeDir": "birds 2", "word": "loro" },
+          { "noun": "cube", "themeDir": "shapes", "word": "cubo" },
+          { "noun": "cone", "themeDir": "shapes", "word": "cono" },
+          { "noun": "can", "themeDir": "At the Supermarket", "word": "lata" },
+          { "noun": "candle", "themeDir": "christmas", "word": "vela" },
+          { "noun": "oar", "themeDir": "camping", "word": "remo" },
+          { "noun": "chair", "themeDir": "around the house", "word": "silla" },
+          { "noun": "chicken", "themeDir": "farm animals", "word": "pollo" },
+          { "noun": "dog", "themeDir": "animals", "word": "perro" },
+          { "noun": "beanie", "themeDir": "accessories", "word": "gorro" },
+          { "noun": "milk", "themeDir": "At the Supermarket", "word": "leche" }
+        ],
+        "it": [
+          { "noun": "dog", "themeDir": "animals", "word": "cane" },
+          { "noun": "house", "themeDir": "miscellaneous", "word": "casa" },
+          { "noun": "cone", "themeDir": "shapes", "word": "cono" },
+          { "noun": "cube", "themeDir": "shapes", "word": "cubo" },
+          { "noun": "seal", "themeDir": "ocean life", "word": "foca" },
+          { "noun": "owl", "themeDir": "animals", "word": "gufo" },
+          { "noun": "moon", "themeDir": "camping", "word": "luna" },
+          { "noun": "wolf", "themeDir": "animals", "word": "lupo" },
+          { "noun": "hand", "themeDir": "body parts", "word": "mano" },
+          { "noun": "apple", "themeDir": "At the Supermarket", "word": "mela" },
+          { "noun": "nose", "themeDir": "body parts", "word": "naso" },
+          { "noun": "ship", "themeDir": "vehicles", "word": "nave" },
+          { "noun": "nest", "themeDir": "spring", "word": "nido" },
+          { "noun": "shovel", "themeDir": "toys", "word": "pala" },
+          { "noun": "bread", "themeDir": "At the Supermarket", "word": "pane" },
+          { "noun": "pear", "themeDir": "At the Supermarket", "word": "pera" },
+          { "noun": "frog", "themeDir": "camping", "word": "rana" },
+          { "noun": "oar", "themeDir": "camping", "word": "remo" },
+          { "noun": "net", "themeDir": "beach", "word": "rete" },
+          { "noun": "rice", "themeDir": "At the Supermarket", "word": "riso" },
+          { "noun": "rose", "themeDir": "flowers", "word": "rosa" },
+          { "noun": "salt", "themeDir": "At the Supermarket", "word": "sale" },
+          { "noun": "sun", "themeDir": "beach", "word": "sole" },
+          { "noun": "mouse", "themeDir": "forest creatures", "word": "topo" },
+          { "noun": "bull", "themeDir": "farm animals", "word": "toro" },
+          { "noun": "hose", "themeDir": "around the house", "word": "tubo" },
+          { "noun": "vase", "themeDir": "around the house", "word": "vaso" },
+          { "noun": "finger", "themeDir": "body parts", "word": "dito" },
+          { "noun": "llama", "themeDir": "farm animals", "word": "lama" },
+          { "noun": "lighthouse", "themeDir": "beach", "word": "faro" },
+          { "noun": "fig", "themeDir": "fruits", "word": "fico" },
+          { "noun": "fish", "themeDir": "animals", "word": "pesce" },
+          { "noun": "spider", "themeDir": "forest creatures", "word": "ragno" },
+          { "noun": "pinecone", "themeDir": "camping", "word": "pigna" }
+        ],
+        "pt": [
+          { "noun": "moon", "themeDir": "camping", "word": "lua" },
+          { "noun": "sink", "themeDir": "around the house", "word": "pia" },
+          { "noun": "cat", "themeDir": "animals", "word": "gato" },
+          { "noun": "duck", "themeDir": "animals", "word": "pato" },
+          { "noun": "house", "themeDir": "miscellaneous", "word": "casa" },
+          { "noun": "ball", "themeDir": "toys", "word": "bola" },
+          { "noun": "cake", "themeDir": "4th of July", "word": "bolo" },
+          { "noun": "mouth", "themeDir": "body parts", "word": "boca" },
+          { "noun": "cow", "themeDir": "farm animals", "word": "vaca" },
+          { "noun": "knife", "themeDir": "around the house", "word": "faca" },
+          { "noun": "seal", "themeDir": "ocean life", "word": "foca" },
+          { "noun": "map", "themeDir": "camping", "word": "mapa" },
+          { "noun": "cape", "themeDir": "accessories", "word": "capa" },
+          { "noun": "can", "themeDir": "At the Supermarket", "word": "lata" },
+          { "noun": "pear", "themeDir": "At the Supermarket", "word": "pera" },
+          { "noun": "candle", "themeDir": "christmas", "word": "vela" },
+          { "noun": "bed", "themeDir": "around the house", "word": "cama" },
+          { "noun": "finger", "themeDir": "body parts", "word": "dedo" },
+          { "noun": "fig", "themeDir": "fruits", "word": "figo" },
+          { "noun": "rooster", "themeDir": "farm animals", "word": "galo" },
+          { "noun": "wolf", "themeDir": "animals", "word": "lobo" },
+          { "noun": "glove", "themeDir": "accessories", "word": "luva" },
+          { "noun": "sack", "themeDir": "christmas", "word": "saco" },
+          { "noun": "bell", "themeDir": "christmas", "word": "sino" },
+          { "noun": "juice", "themeDir": "At the Supermarket", "word": "suco" },
+          { "noun": "glass", "themeDir": "kitchen tools", "word": "copo" },
+          { "noun": "table", "themeDir": "around the house", "word": "mesa" },
+          { "noun": "kite", "themeDir": "toys", "word": "pipa" },
+          { "noun": "cube", "themeDir": "shapes", "word": "cubo" },
+          { "noun": "glue", "themeDir": "classroom", "word": "cola" },
+          { "noun": "nest", "themeDir": "spring", "word": "ninho" },
+          { "noun": "eye", "themeDir": "body parts", "word": "olho" },
+          { "noun": "leaf", "themeDir": "miscellaneous", "word": "folha" },
+          { "noun": "key", "themeDir": "around the house", "word": "chave" }
+        ],
+        "fr": [
+          { "noun": "bowl", "themeDir": "around the house", "word": "bol" },
+          { "noun": "bag", "themeDir": "At the Supermarket", "word": "sac" },
+          { "noun": "bus", "themeDir": "vehicles", "word": "bus" },
+          { "noun": "rooster", "themeDir": "farm animals", "word": "coq" },
+          { "noun": "moon", "themeDir": "space", "word": "lune" },
+          { "noun": "hen", "themeDir": "birds 2", "word": "poule" },
+          { "noun": "sweater", "themeDir": "clothing", "word": "pull" },
+          { "noun": "dress", "themeDir": "clothing", "word": "robe" },
+          { "noun": "vase", "themeDir": "around the house", "word": "vase" },
+          { "noun": "rose", "themeDir": "flowers", "word": "rose" },
+          { "noun": "skirt", "themeDir": "clothing", "word": "jupe" },
+          { "noun": "cup", "themeDir": "around the house", "word": "tasse" },
+          { "noun": "oven", "themeDir": "around the house", "word": "four" },
+          { "noun": "apple", "themeDir": "At the Supermarket", "word": "pomme" },
+          { "noun": "cube", "themeDir": "shapes", "word": "cube" },
+          { "noun": "cape", "themeDir": "accessories", "word": "cape" },
+          { "noun": "oar", "themeDir": "camping", "word": "rame" },
+          { "noun": "grater", "themeDir": "kitchen tools", "word": "râpe" },
+          { "noun": "ring", "themeDir": "accessories", "word": "bague" },
+          { "noun": "head", "themeDir": "body parts", "word": "tête" },
+          { "noun": "sled", "themeDir": "winter", "word": "luge" },
+          { "noun": "salt", "themeDir": "At the Supermarket", "word": "sel" },
+          { "noun": "bear", "themeDir": "camping", "word": "ours" },
+          { "noun": "blackberry", "themeDir": "fruits", "word": "mûre" },
+          { "noun": "mouth", "themeDir": "body parts", "word": "bouche" },
+          { "noun": "cow", "themeDir": "farm animals", "word": "vache" }
+        ],
+        "fi": [
+          { "noun": "fish", "themeDir": "animals", "word": "kala" },
+          { "noun": "house", "themeDir": "miscellaneous", "word": "talo" },
+          { "noun": "train", "themeDir": "toys", "word": "juna" },
+          { "noun": "mug", "themeDir": "kitchen tools", "word": "muki" },
+          { "noun": "chicken", "themeDir": "farm animals", "word": "kana" },
+          { "noun": "rabbit", "themeDir": "animals", "word": "kani" },
+          { "noun": "hand", "themeDir": "body parts", "word": "käsi" },
+          { "noun": "basket", "themeDir": "At the Supermarket", "word": "kori" },
+          { "noun": "pen", "themeDir": "around the house", "word": "kynä" },
+          { "noun": "glass", "themeDir": "kitchen tools", "word": "lasi" },
+          { "noun": "worm", "themeDir": "spring", "word": "mato" },
+          { "noun": "juice", "themeDir": "At the Supermarket", "word": "mehu" },
+          { "noun": "nose", "themeDir": "body parts", "word": "nenä" },
+          { "noun": "nest", "themeDir": "spring", "word": "pesä" },
+          { "noun": "crab", "themeDir": "beach", "word": "rapu" },
+          { "noun": "sleigh", "themeDir": "christmas", "word": "reki" },
+          { "noun": "pig", "themeDir": "animals", "word": "sika" },
+          { "noun": "wolf", "themeDir": "animals", "word": "susi" },
+          { "noun": "chick", "themeDir": "farm animals", "word": "tipu" },
+          { "noun": "skirt", "themeDir": "clothing", "word": "hame" },
+          { "noun": "faucet", "themeDir": "around the house", "word": "hana" },
+          { "noun": "river", "themeDir": "camping", "word": "joki" },
+          { "noun": "stage", "themeDir": "music", "word": "lava" },
+          { "noun": "beanie", "themeDir": "accessories", "word": "pipo" }
         ]
       }
     },
+    "theme": null,
     "slug": {
       "en": "sound-boxes-first-middle-last",
       "de": "anlaut-inlaut-auslaut-laute-hoeren-klasse-1",
       "es": "sonido-inicial-medio-y-final-conciencia-fonemica-primer-grado",
       "pt": "som-inicial-do-meio-e-final-consciencia-fonemica-1-ano",
       "it": "suono-iniziale-centrale-e-finale-consapevolezza-fonologica-classe-prima",
-      "nl": "eerste-midden-laatste-klank-horen-groep-3"
+      "nl": "eerste-midden-laatste-klank-horen-groep-3",
+      "fr": "boites-a-sons-son-du-debut-du-milieu-et-de-la-fin",
+      "sv": "ljudladorna-forsta-mittersta-och-sista-ljudet",
+      "da": "lydkasserne-forste-midterste-og-sidste-lyd",
+      "no": "lydboksene-forste-midterste-og-siste-lyd",
+      "fi": "aannelaatikot-aanne-sanan-alussa-keskella-ja-lopussa"
     },
     "page_title": {
       "en": "Coco's Sound Boxes — First, Middle & Last Sounds (Kindergarten)",
@@ -1739,7 +1211,12 @@
       "es": "Los sonidos de las palabras: inicial, de en medio y final – 1.º grado",
       "pt": "Os sons das palavras: inicial, do meio e final – 1º ano",
       "it": "Nino il koala: suono iniziale, centrale e finale — classe prima",
-      "nl": "Koos de koala – eerste, midden & laatste klank (groep 3)"
+      "nl": "Koos de koala – eerste, midden & laatste klank (groep 3)",
+      "fr": "Les boîtes à sons : le son du début, du milieu et de la fin (GS)",
+      "sv": "Ljudlådorna – första, mittersta och sista ljudet (förskoleklass)",
+      "da": "Lydkasserne – første, midterste og sidste lyd (0. klasse)",
+      "no": "Lydboksene – første, midterste og siste lyd (1. trinn)",
+      "fi": "Äännelaatikot – äänne sanan alussa, keskellä ja lopussa (esiopetus)"
     },
     "page_intro": {
       "en": "An interactive Kindergarten phonics activity: hear a short word in its sound boxes, then find another picture with the same first, middle, or last sound. Coco the koala helps children listen for the beginning, middle-vowel, and ending sounds in three-sound (CVC) words. A friendly first step in phonemic awareness. Common Core RF.K.2.d.",
@@ -1747,7 +1224,12 @@
       "es": "Actividad interactiva de conciencia fonémica: tu hijo/a escucha una palabra corta y encuentra otra con el mismo sonido inicial, de en medio o final. Con Coco el koala. Ideal para 1.º grado.",
       "pt": "Com Téo, o coala que ouve com muita atenção, sua criança escuta uma palavra curtinha e procura outra que tenha o mesmo som — no começo, no meio ou no fim. Tudo é falado em voz alta, então os fones de ouvido são recomendados. Sem pressa e sem pontos, alinhado à BNCC para o início da alfabetização.",
       "it": "Con Nino il koala, tuo figlio impara ad ascoltare i suoni nascosti dentro le parole: il suono iniziale, quello centrale e quello finale. Nino pronuncia una parola, si illumina la casella del suono da cercare e il bambino tocca la figura che ha lo stesso suono in quella posizione. Un gioco caldo e senza fretta per la classe prima, senza registrazione, senza timer né punteggio, allineato alle «Indicazioni nazionali».",
-      "nl": "Speel mee met Koos de koala en oefen samen met je kind het horen van de eerste, midden- en laatste klank in een woord. Koos zegt een woord voor, één klankvakje licht op, en je kind zoekt het plaatje met dezelfde klank op die plek – helemaal op je gehoor, zonder letters. Een warme, interactieve luisteroefening, afgestemd op de SLO-kerndoelen voor auditieve analyse (fonemisch bewustzijn) voor groep 3."
+      "nl": "Speel mee met Koos de koala en oefen samen met je kind het horen van de eerste, midden- en laatste klank in een woord. Koos zegt een woord voor, één klankvakje licht op, en je kind zoekt het plaatje met dezelfde klank op die plek – helemaal op je gehoor, zonder letters. Een warme, interactieve luisteroefening, afgestemd op de SLO-kerndoelen voor auditieve analyse (fonemisch bewustzijn) voor groep 3.",
+      "fr": "L’enfant pose une image sur les boîtes à sons : les couvercles s’ouvrent là où les sons des deux mots sont pareils et à la même place. On voit ainsi si un son est au début, au milieu ou à la fin du mot. Trois activités : le même son, où est le son, entendre le son partout. Sans chrono ni score.",
+      "sv": "Barnet lägger en bild på ljudlådorna, och locken hoppar upp där ljuden i de två orden är likadana och sitter på samma plats. Då syns det om ljudet finns i början, i mitten eller i slutet av ordet. Tre uppgifter: samma ljud, var är ljudet och höra ljudet var som helst. Ingen tidtagning och inga poäng.",
+      "da": "Barnet lægger et billede på lydkasserne, og lågene springer op, hvor lydene i de to ord er ens og står samme sted. Så kan man se, om lyden er i starten, i midten eller i slutningen af ordet. Tre opgaver: samme lyd, hvor er lyden og hør lyden alle steder. Intet ur og ingen point.",
+      "no": "Barnet legger et bilde på lydboksene, og lokkene spretter opp der lydene i de to ordene er like og står på samme plass. Da ser man om lyden er i starten, i midten eller på slutten av ordet. Tre oppgaver: samme lyd, hvor er lyden og hør lyden hvor som helst. Ingen tidtaking og ingen poeng.",
+      "fi": "Lapsi laittaa kuvan äännelaatikoiden päälle, ja kannet ponnahtavat auki siellä, missä kahden sanan äänteet ovat samat ja samassa kohdassa. Näin näkee, onko äänne sanan alussa, keskellä vai lopussa. Kolme tehtävää: sama äänne, missä äänne on ja kuule äänne missä vain. Ei ajastinta eikä pisteitä."
     },
     "kid_prompt_template": "sound-boxes"
   }

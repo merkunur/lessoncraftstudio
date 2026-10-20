@@ -4002,25 +4002,25 @@
     },
     "sound-boxes.phoneme-position.rf-k-2-d": {
       "about": [
-        "Coco el koala tiene orejas enormes para escuchar cada sonido. Su hijo/a oye una palabra como «sol», ve las tres cajitas de sonidos con una marcada, y toca el dibujo que tiene el mismo sonido en ese lugar: «sal» empieza igual que «sol».",
-        "La actividad practica los tres lugares del sonido: el inicial (sol y sal), el de en medio (la vocal) y el final (sol y col). Oír y separar los sonidos de las palabras cortas es la base para leer y escribir.",
-        "Es parte de la conciencia fonémica, un paso más analítico que la rima. Corresponde al eje «Conciencia fonémica». Sin presiones: sin cronómetro, sin puntaje, sin perder; su hijo/a aprende con calma con Coco el koala."
+        "Una palabra está en cajitas de sonidos, una cajita por cada sonido: r · e · m · o. El niño o la niña pone un dibujo sobre las cajitas y las tapas se abren donde sus sonidos son iguales a los de la palabra, en el mismo lugar. Si pone el vaso sobre remo, se abre la o del final, pero la primera cajita sigue cerrada: un sonido es igual, solo que no al principio. Es una actividad interactiva de conciencia fonémica que se juega en el navegador.",
+        "Las cajitas escuchan, no leen. La ll y la rr van en una sola cajita porque son un solo sonido. Tres actividades usan las cajitas: buscar el dibujo con el mismo sonido al principio o al final; tocar la cajita donde está un sonido; y ordenar dibujos según si la palabra tiene el sonido o no.",
+        "La actividad se basa en los programas de estudio de la SEP: escuchar el primer y el último sonido de una palabra. Sin cronómetro y sin puntuación."
       ],
       "practices": [
-        "Escuchar el primer sonido, el de en medio y el último de una palabra",
-        "Reconocer palabras que comparten un sonido",
-        "Separar los sonidos de palabras cortas (sol, pan, pez)",
-        "Dar el paso de los sonidos a las letras"
+        "Escuchar el primer y el último sonido de una palabra",
+        "Comparar dos palabras por el sonido en el mismo lugar",
+        "Distinguir un sonido en el lugar correcto del mismo sonido en otro lugar",
+        "Encontrar dónde está un sonido en una palabra y si está o no"
       ],
       "howToPlay": [
-        "Escucha la palabra y mira qué cajita está marcada",
-        "Piensa qué sonido va en ese lugar",
-        "Toca el dibujo que tenga el mismo sonido"
+        "Mira la palabra en sus cajitas; la flecha señala la cajita que hay que escuchar.",
+        "Arrastra un dibujo sobre las cajitas y presiona Revisar.",
+        "Mira qué tapas se abren: con el dibujo correcto se abre la cajita que se pide."
       ],
       "learningGoals": [
-        "Su hijo/a aísla el sonido inicial, el de en medio y el final",
-        "Reconoce sonidos iguales en palabras distintas",
-        "Se prepara para leer y escribir"
+        "El niño o la niña escucha el primer y el último sonido de una palabra",
+        "Compara palabras por el sonido en el mismo lugar",
+        "Reconoce un sonido por cómo suena, no por la letra"
       ]
     },
     "choice-board.read-cvc-word.rf-k-3": {

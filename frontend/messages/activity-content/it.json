@@ -4024,25 +4024,25 @@
     },
     "sound-boxes.phoneme-position.rf-k-2-d": {
       "about": [
-        "Quanti suoni si nascondono dentro una parola? «Sole» comincia con /s/, «gatto» finisce con /o/: imparare a sentirli è il primo passo verso la lettura.",
-        "Nino il koala pronuncia una parola, poi si illumina una casella — il suono iniziale, centrale o finale — e il bambino tocca la figura che ha lo stesso suono in quella posizione.",
-        "Allineato alle «Indicazioni nazionali», è senza registrazione, senza timer e senza punteggio: ogni bambino gioca al proprio ritmo."
+        "Una parola sta nelle scatoline dei suoni, una scatolina per ogni suono: r · a · n · a. Il bambino mette un disegno sulle scatoline e i coperchi si aprono dove i suoni sono uguali a quelli della parola, nello stesso posto. Se mette la lama su rana, si aprono le a, ma la prima scatolina resta chiusa: ci sono suoni uguali, ma non all’inizio. È un’attività interattiva di consapevolezza fonologica che si gioca nel browser.",
+        "Le scatoline ascoltano, non leggono. Un gruppo come gn o sc sta in una sola scatolina perché è un solo suono. Tre attività usano le scatoline: trovare il disegno con lo stesso suono all’inizio o alla fine; toccare la scatolina dove si trova un suono; e dividere i disegni secondo se la parola ha quel suono oppure no.",
+        "L’attività segue le Indicazioni nazionali: sentire il primo e l’ultimo suono di una parola. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Riconoscere il suono iniziale delle parole",
-        "Isolare il suono centrale e quello finale",
-        "Sviluppare la consapevolezza fonologica e fonemica",
-        "Prepararsi alla letto-scrittura"
+        "Sentire il primo e l’ultimo suono di una parola",
+        "Confrontare due parole dal suono nello stesso posto",
+        "Distinguere un suono nel posto giusto dallo stesso suono in un altro posto",
+        "Trovare dove si trova un suono in una parola, e se c’è oppure no"
       ],
       "howToPlay": [
-        "Ascolta la parola che dice Nino",
-        "Guarda quale casella del suono si accende",
-        "Tocca la figura che ha lo stesso suono"
+        "Guarda la parola nelle sue scatoline; la freccia indica la scatolina da ascoltare.",
+        "Trascina un disegno sulle scatoline e premi Controlla.",
+        "Guarda quali coperchi si aprono: con il disegno giusto si apre la scatolina richiesta."
       ],
       "learningGoals": [
-        "Ascoltare e isolare i singoli suoni di una parola",
-        "Distinguere il suono iniziale, centrale e finale",
-        "Costruire le basi fonologiche per leggere e scrivere"
+        "Il bambino sente il primo e l’ultimo suono di una parola",
+        "Confronta le parole dal suono nello stesso posto",
+        "Riconosce un suono da come suona, non dalla lettera"
       ]
     },
     "choice-board.read-cvc-word.rf-k-3": {

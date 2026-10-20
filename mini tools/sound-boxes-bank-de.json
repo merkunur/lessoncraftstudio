@@ -70,6 +70,14 @@
     { "id": "goat",    "noun": "goat",    "themeDir": "farm animals",     "display": "Ziege",    "boxes": ["Z","ie","g","e"],       "syllables": ["Zie","ge"],    "stage": "s4", "note": "ie ist ein langer /i:/-Laut; Z klingt wie /ts/" },
     { "id": "tooth",   "noun": "tooth",   "themeDir": "body parts",       "display": "Zahn",     "boxes": ["Z","ah","n"],           "syllables": ["Zahn"],        "stage": "s4", "note": "Dehnungs-h: das h macht das a lang und gehört mit in die Box" },
     { "id": "chicken", "noun": "chicken", "themeDir": "farm animals",     "display": "Huhn",     "boxes": ["H","uh","n"],           "syllables": ["Huhn"],        "stage": "s4", "note": "Dehnungs-h: das h macht das u lang und gehört mit in die Box" },
-    { "id": "boat",    "noun": "boat",    "themeDir": "beach",            "display": "Boot",     "boxes": ["B","oo","t"],           "syllables": ["Boot"],        "stage": "s4", "note": "Doppel-o = ein langes /o:/ – eine Box" }
+    { "id": "boat",    "noun": "boat",    "themeDir": "beach",            "display": "Boot",     "boxes": ["B","oo","t"],           "syllables": ["Boot"],        "stage": "s4", "note": "Doppel-o = ein langes /o:/ – eine Box" },
+    { "id": "elf", "noun": "elf", "themeDir": "christmas", "display": "Elf", "boxes": ["E","l","f"], "syllables": ["Elf"], "stage": "s1" },
+    { "id": "mopp", "noun": "mop", "themeDir": "around the house", "display": "Mopp", "boxes": ["M","o","pp"], "syllables": ["Mopp"], "stage": "s4" },
+    { "id": "sack", "noun": "sack", "themeDir": "christmas", "display": "Sack", "boxes": ["S","a","ck"], "syllables": ["Sack"], "stage": "s4" },
+    { "id": "koch", "noun": "cook", "themeDir": "occupations", "display": "Koch", "boxes": ["K","o","ch"], "syllables": ["Koch"], "stage": "s2" },
+    { "id": "tisch", "noun": "table", "themeDir": "around the house", "display": "Tisch", "boxes": ["T","i","sch"], "syllables": ["Tisch"], "stage": "s2" },
+    { "id": "hahn", "noun": "rooster", "themeDir": "farm animals", "display": "Hahn", "boxes": ["H","ah","n"], "syllables": ["Hahn"], "stage": "s4" },
+    { "id": "ring", "noun": "ring", "themeDir": "accessories", "display": "Ring", "boxes": ["R","i","ng"], "syllables": ["Ring"], "stage": "s2" },
+    { "id": "zelt", "noun": "tent", "themeDir": "camping", "display": "Zelt", "boxes": ["Z","e","l","t"], "syllables": ["Zelt"], "stage": "s3" }
   ]
 }

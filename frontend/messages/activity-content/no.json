@@ -2021,6 +2021,29 @@
         "Barnet skiller et rimord fra riktig ord ved hjelp av den første lyden",
         "Barnet trekker sammen tre eller fire enkeltlyder til et ord"
       ]
+    },
+    "sound-boxes.phoneme-position.rf-k-2-d": {
+      "about": [
+        "Et kort ord står i lydbokser, én boks for hver lyd: b · o · k. Barnet legger et bilde på boksene, og lokkene spretter opp der lydene er de samme som i målordet, og på samme plass. Legger man foten på bok, spretter o-en opp, men den første boksen forblir lukket: Én lyd er lik, bare ikke i starten. En interaktiv øvelse i å høre lyder, som kjører i nettleseren.",
+        "Boksene lytter, de leser ikke. Lange og korte vokaler er ulike lyder, og en ng står i én boks fordi den er én lyd. Tre oppgaver bruker boksene: finn bildet med samme lyd i starten, i midten eller på slutten; trykk på boksen der en lyd bor; og sorter bilder etter om ordet i det hele tatt har lyden.",
+        "Øvelsen følger LK20: å høre første, midterste og siste lyd i korte ord. Ingen tidtaking og ingen poeng."
+      ],
+      "practices": [
+        "Å høre første, midterste og siste lyd i et kort ord",
+        "Å sammenligne to ord ut fra lyden på samme plass",
+        "Å skille en lyd på riktig plass fra samme lyd et annet sted",
+        "Å finne hvor en lyd er i et ord, og om den er der i det hele tatt"
+      ],
+      "howToPlay": [
+        "Se på målordet i boksene sine; pilen viser hvilken boks du skal lytte etter.",
+        "Dra et bilde opp på boksene, og trykk på Sjekk.",
+        "Se hvilke lokk som spretter opp: Ved riktig bilde spretter den riktige boksen opp."
+      ],
+      "learningGoals": [
+        "Barnet hører første, midterste og siste lyd i et kort ord",
+        "Barnet sammenligner ord ut fra lyden på samme plass",
+        "Barnet kjenner igjen en lyd på hvordan den høres, ikke på bokstaven"
+      ]
     }
   }
 }

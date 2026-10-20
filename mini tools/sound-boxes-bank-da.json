@@ -22,6 +22,22 @@
     { "id": "gris", "noun": "pig",   "themeDir": "animals",            "display": "gris", "boxes": ["g","r","i","s"], "syllables": ["gris"], "stage": "s2", "note": "g og r er to lyde — to bokse" },
     { "id": "fisk", "noun": "fish",  "themeDir": "animals",            "display": "fisk", "boxes": ["f","i","s","k"], "syllables": ["fisk"], "stage": "s2", "note": "4 bogstaver, 4 lyde" },
     { "id": "glas", "noun": "glass", "themeDir": "kitchen tools",      "display": "glas", "boxes": ["g","l","a","s"], "syllables": ["glas"], "stage": "s2" },
-    { "id": "krus", "noun": "mug",   "themeDir": "kitchen tools",      "display": "krus", "boxes": ["k","r","u","s"], "syllables": ["krus"], "stage": "s2" }
+    { "id": "krus", "noun": "mug",   "themeDir": "kitchen tools",      "display": "krus", "boxes": ["k","r","u","s"], "syllables": ["krus"], "stage": "s2" },
+    { "id": "kam", "noun": "comb", "themeDir": "around the house", "display": "kam", "boxes": ["k","a","m"], "syllables": ["kam"], "stage": "s1" },
+    { "id": "lam", "noun": "lamb", "themeDir": "farm animals", "display": "lam", "boxes": ["l","a","m"], "syllables": ["lam"], "stage": "s1" },
+    { "id": "gas", "noun": "goose", "themeDir": "birds 2", "display": "gås", "boxes": ["g","å","s"], "syllables": ["gås"], "stage": "s1" },
+    { "id": "kal", "noun": "cabbage", "themeDir": "vegetables", "display": "kål", "boxes": ["k","å","l"], "syllables": ["kål"], "stage": "s1" },
+    { "id": "las", "noun": "lock", "themeDir": "around the house", "display": "lås", "boxes": ["l","å","s"], "syllables": ["lås"], "stage": "s1" },
+    { "id": "net", "noun": "net", "themeDir": "beach", "display": "net", "boxes": ["n","e","t"], "syllables": ["net"], "stage": "s1" },
+    { "id": "pen", "noun": "pen", "themeDir": "around the house", "display": "pen", "boxes": ["p","e","n"], "syllables": ["pen"], "stage": "s1" },
+    { "id": "lim", "noun": "glue", "themeDir": "classroom", "display": "lim", "boxes": ["l","i","m"], "syllables": ["lim"], "stage": "s1" },
+    { "id": "sael", "noun": "seal", "themeDir": "ocean life", "display": "sæl", "boxes": ["s","æ","l"], "syllables": ["sæl"], "stage": "s1" },
+    { "id": "saek", "noun": "sack", "themeDir": "christmas", "display": "sæk", "boxes": ["s","æ","k"], "syllables": ["sæk"], "stage": "s1" },
+    { "id": "kop", "noun": "cup", "themeDir": "around the house", "display": "kop", "boxes": ["k","o","p"], "syllables": ["kop"], "stage": "s1" },
+    { "id": "ost", "noun": "cheese", "themeDir": "At the Supermarket", "display": "ost", "boxes": ["o","s","t"], "syllables": ["ost"], "stage": "s1" },
+    { "id": "hest", "noun": "horse", "themeDir": "animals", "display": "hest", "boxes": ["h","e","s","t"], "syllables": ["hest"], "stage": "s2" },
+    { "id": "vest", "noun": "vest", "themeDir": "accessories", "display": "vest", "boxes": ["v","e","s","t"], "syllables": ["vest"], "stage": "s2" },
+    { "id": "telt", "noun": "tent", "themeDir": "camping", "display": "telt", "boxes": ["t","e","l","t"], "syllables": ["telt"], "stage": "s2" },
+    { "id": "salt", "noun": "salt", "themeDir": "At the Supermarket", "display": "salt", "boxes": ["s","a","l","t"], "syllables": ["salt"], "stage": "s2" }
   ]
 }

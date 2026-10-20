@@ -70,6 +70,21 @@
     { "id": "bee",   "noun": "bee",   "themeDir": "farm animals",       "display": "bee",   "boxes": ["b","ee"],         "syllables": ["bee"],   "stage": "s4", "note": "just 2 sounds" },
     { "id": "mouse", "noun": "mouse", "themeDir": "pets",               "display": "mouse", "boxes": ["m","ou","s"],     "syllables": ["mouse"], "stage": "s4", "silentTail": "e", "note": "the final e is silent" },
     { "id": "cloud", "noun": "cloud", "themeDir": "beach",              "display": "cloud", "boxes": ["c","l","ou","d"], "syllables": ["cloud"], "stage": "s4" },
-    { "id": "goat",  "noun": "goat",  "themeDir": "farm animals",       "display": "goat",  "boxes": ["g","oa","t"],     "syllables": ["goat"],  "stage": "s4" }
+    { "id": "goat",  "noun": "goat",  "themeDir": "farm animals",       "display": "goat",  "boxes": ["g","oa","t"],     "syllables": ["goat"],  "stage": "s4" },
+    { "id": "bun", "noun": "bun", "themeDir": "bakery", "display": "bun", "boxes": ["b","u","n"], "syllables": ["bun"], "stage": "s1" },
+    { "id": "fig", "noun": "fig", "themeDir": "fruits", "display": "fig", "boxes": ["f","i","g"], "syllables": ["fig"], "stage": "s1" },
+    { "id": "fan", "noun": "fan", "themeDir": "around the house", "display": "fan", "boxes": ["f","a","n"], "syllables": ["fan"], "stage": "s1" },
+    { "id": "can", "noun": "can", "themeDir": "At the Supermarket", "display": "can", "boxes": ["c","a","n"], "syllables": ["can"], "stage": "s1" },
+    { "id": "bus", "noun": "bus", "themeDir": "vehicles", "display": "bus", "boxes": ["b","u","s"], "syllables": ["bus"], "stage": "s1" },
+    { "id": "map", "noun": "map", "themeDir": "camping", "display": "map", "boxes": ["m","a","p"], "syllables": ["map"], "stage": "s1" },
+    { "id": "cap", "noun": "cap", "themeDir": "accessories", "display": "cap", "boxes": ["c","a","p"], "syllables": ["cap"], "stage": "s1" },
+    { "id": "ham", "noun": "ham", "themeDir": "At the Supermarket", "display": "ham", "boxes": ["h","a","m"], "syllables": ["ham"], "stage": "s1" },
+    { "id": "jam", "noun": "jam", "themeDir": "At the Supermarket", "display": "jam", "boxes": ["j","a","m"], "syllables": ["jam"], "stage": "s1" },
+    { "id": "leg", "noun": "leg", "themeDir": "body parts", "display": "leg", "boxes": ["l","e","g"], "syllables": ["leg"], "stage": "s1" },
+    { "id": "chick", "noun": "chick", "themeDir": "farm animals", "display": "chick", "boxes": ["ch","i","ck"], "syllables": ["chick"], "stage": "s2" },
+    { "id": "bench", "noun": "bench", "themeDir": "furniture", "display": "bench", "boxes": ["b","e","n","ch"], "syllables": ["bench"], "stage": "s3" },
+    { "id": "tooth", "noun": "tooth", "themeDir": "body parts", "display": "tooth", "boxes": ["t","oo","th"], "syllables": ["tooth"], "stage": "s4" },
+    { "id": "tie", "noun": "tie", "themeDir": "accessories", "display": "tie", "boxes": ["t","ie"], "syllables": ["tie"], "stage": "s4" },
+    { "id": "tent", "noun": "tent", "themeDir": "camping", "display": "tent", "boxes": ["t","e","n","t"], "syllables": ["tent"], "stage": "s3" }
   ]
 }

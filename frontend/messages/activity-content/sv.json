@@ -2815,6 +2815,30 @@
         "Barnet skiljer en form från en dubbelgångare med hjälp av sidor och hörn",
         "Barnet känner igen samma kropp i vardagsföremål"
       ]
+    },
+    "rhyme-shop.rhyme.rf-k-2-a": {
+      "about": [
+        "Rim hör man, och här kan barnet också hålla i dem. Tvättbjörnen Rosa drar en vagn med en kedja av ringar efter sig. Barnet trycker på en bild för att höra vad den heter och drar den sedan till slutet av kedjan, eller trycker först på bilden och sedan på den tomma ringen. Det är en interaktiv lyssnarövning som fungerar i webbläsaren utan installation; hörlurar hjälper.",
+        "Det nya är själva ringen: den stängs bara runt en ring vars ord slutar med samma ljud. Hatt stängs runt katt, och båda ringarna lyser i samma mönster; ett ord som inte rimmar öppnar sin ring och ramlar tillbaka ner i gräset. Kedjan dömer efter ljudet: hus och hund börjar likadant, men hakar inte i varandra. Efter ett andra misstag visar varje ring sitt mönster, så att barnet ser vilka ljud som hör ihop.",
+        "Övningen följer Lgr22, kapitlet om förskoleklassen (Språk och kommunikation): att känna igen och själv hitta på rim. Omgångarna blandar sju sorters rimarbete: avgöra om två ord rimmar, välja rimordet bland tre bilder, hitta ordet som inte rimmar, sortera bilder på två kedjor, göra klart Rosas ramsa, hitta alla rimord i en grupp och bygga en rimkedja. Efter varje kedja bjuder en öppen ring in barnet att själv säga ett nytt rimord högt. Läraren kan visa bildernas namn och visa mönstren från början; i den svenska versionen syns namnen från start. Utan tidtagning och utan poäng."
+      ],
+      "practices": [
+        "Höra om två ord rimmar",
+        "Välja rimordet bland tre bilder",
+        "Hitta ordet som inte rimmar",
+        "Säga ett nytt ord som rimmar"
+      ],
+      "howToPlay": [
+        "Tryck på en bild för att höra vad den heter.",
+        "Dra den till slutet av Rosas kedja, eller tryck på bilden och sedan på den tomma ringen.",
+        "En ring som rimmar stängs; en som inte rimmar ramlar tillbaka ner i gräset.",
+        "När kedjan är klar drar du vagnen."
+      ],
+      "learningGoals": [
+        "Känna igen rimord på ljudet i slutet",
+        "Skilja rim från ord som bara börjar likadant",
+        "Säga ett nytt ord som rimmar"
+      ]
     }
   }
 }

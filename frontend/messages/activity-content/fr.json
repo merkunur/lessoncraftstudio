@@ -4158,6 +4158,30 @@
         "Se situer dans le temps (avant, pendant, après)",
         "Compléter une phrase avec le bon indicateur de temps"
       ]
+    },
+    "rhyme-shop.rhyme.rf-k-2-a": {
+      "about": [
+        "La rime s’entend, et ici l’enfant peut aussi la tenir. Rosa le raton laveur tire un chariot suivi d’une chaîne d’anneaux. L’enfant touche une image pour entendre son nom, puis la fait glisser au bout de la chaîne, ou touche l’image puis l’anneau vide. C’est une activité d’écoute interactive qui fonctionne dans le navigateur, sans rien installer ; un casque est conseillé.",
+        "L’invention, c’est l’anneau : il ne se ferme que sur un anneau dont le mot finit par le même son. Gâteau se ferme sur bateau, et les deux anneaux brillent du même motif ; un mot qui ne rime pas ouvre son anneau et retombe dans l’herbe. La chaîne juge au son : chat et chapeau commencent pareil, mais ne s’accrochent pas. Après une deuxième erreur, chaque anneau montre son motif, et l’enfant voit quels sons vont ensemble.",
+        "L’activité suit les programmes officiels de l’école maternelle, qui travaillent la conscience phonologique : reconnaître et produire des rimes. Les manches mêlent sept sortes de travail sur la rime : dire si deux mots riment, trouver la rime parmi trois images, trouver l’intrus, ranger des images sur deux chaînes, terminer la comptine de Rosa, trouver toutes les rimes d’un groupe et construire une chaîne de rimes. Après chaque chaîne, un anneau ouvert invite l’enfant à dire lui-même un nouveau mot qui rime. L’enseignant peut afficher le nom des images et montrer les motifs dès le départ. Sans chronomètre, sans score."
+      ],
+      "practices": [
+        "Entendre si deux mots riment",
+        "Trouver le mot qui rime parmi trois images",
+        "Repérer le mot qui ne rime pas",
+        "Dire un nouveau mot qui rime"
+      ],
+      "howToPlay": [
+        "Touche une image pour entendre son nom.",
+        "Fais-la glisser au bout de la chaîne de Rosa, ou touche-la puis l’anneau vide.",
+        "Un anneau qui rime se ferme ; un anneau qui ne rime pas retombe dans l’herbe.",
+        "Quand la chaîne est finie, tire le chariot."
+      ],
+      "learningGoals": [
+        "Reconnaître les mots qui riment au son de leur fin",
+        "Distinguer une rime de mots qui commencent seulement pareil",
+        "Produire un nouveau mot qui rime"
+      ]
     }
   }
 }

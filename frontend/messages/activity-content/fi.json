@@ -2013,6 +2013,29 @@
         "Lapsi muistaa, mikä äänne vaihtui ja missä",
         "Lapsi huomaa, että uusi äänne tekee uuden sanan"
       ]
+    },
+    "choice-board.read-cvc-word.rf-k-3": {
+      "about": [
+        "Painettu sana on nimilappu narun päässä: kala. Ilmoitustaululla roikkuu neljä kuvaa, joiden nimet alkavat samalla tavalla: kala, kakku, kana ja kettu. Lapsi ripustaa lapun johonkin kuvaan ja napauttaa Tarkista. Silloin lappu tarttuu vasemmalta kirjain kirjaimelta. Tämä on vuorovaikutteinen lukemisen harjoitus 1. luokalle, ja se toimii selaimessa.",
+        "Kakkuun tarttuvat k ja a, l-kirjaimen kohdalla kulma nousee ja lappu irtoaa takaisin tarjottimelle, ja l on merkitty. Arvaaminen ensimmäisen kirjaimen perusteella ei siis kanna loppuun asti, ja lapsi näkee tarkalleen, kuinka pitkälle sana täsmäsi. Muilla tasoilla ripustetaan riimisanoja (kuu, suu), kootaan tavuista yksi lappu (ki·rah·vi ki·ta·ran vieressä) ja pelataan muistipeliä kuvilla ja lapuilla.",
+        "Harjoitus tukee OPS 2014:n lukutaidon tavoitteita: sanan lukemista viimeiseen kirjaimeen asti. Ei ajastinta eikä pisteitä."
+      ],
+      "practices": [
+        "Lyhyen sanan lukeminen viimeiseen kirjaimeen asti",
+        "Samalla tavalla alkavien sanojen erottaminen",
+        "Riimisanojen lukeminen, kun vain alku vaihtuu",
+        "Tavujen yhdistäminen ja pidemmän sanan lukeminen"
+      ],
+      "howToPlay": [
+        "Lue lapun sana.",
+        "Vedä lappu kuvaansa tai napauta ensin lappua ja sitten kuvaa.",
+        "Napauta Tarkista ja katso, jääkö lappu kiinni vai irtoaako se ensimmäisen erilaisen kirjaimen kohdalla."
+      ],
+      "learningGoals": [
+        "Lapsi lukee lyhyen sanan vasemmalta oikealle loppuun asti",
+        "Lapsi huomaa, missä kirjaimessa kaksi sanaa eroavat",
+        "Lapsi lukee riimisanoja ja pidempiä sanoja tavuittain"
+      ]
     }
   }
 }

@@ -4047,25 +4047,25 @@
     },
     "choice-board.read-cvc-word.rf-k-3": {
       "about": [
-        "Leggere la prima parola da soli è un traguardo emozionante: qui il bambino guarda una parola stampata e scopre, lettera dopo lettera, che cosa dice.",
-        "Si legge la parola breve e si tocca la figura che le corrisponde. Tra le quattro immagini ce n’è una che inizia con le stesse lettere: per non sbagliare bisogna leggere la parola intera, non indovinare dalla prima lettera.",
-        "Un’attività allineata alle «Indicazioni nazionali», senza registrazione, senza timer e senza punteggio, così ogni bambino può leggere con calma, al proprio ritmo."
+        "La parola stampata è un’etichetta con un cordino: gatto. Su una bacheca di sughero sono appesi quattro disegni i cui nomi cominciano allo stesso modo: un gatto, un gallo, una gazza e una giacca. Il bambino appende l’etichetta a un disegno e tocca Controlla. Allora l’etichetta si attacca da sinistra, lettera per lettera. È un’attività interattiva di lettura per la classe prima che funziona nel browser.",
+        "Sul gallo si attaccano la g e la a; alla t l’angolo si solleva e l’etichetta si stacca e torna nel vassoio, con la t cerchiata. Così indovinare dalla prima lettera fallisce alla fine, e il bambino vede esattamente fin dove la parola corrispondeva. Altri livelli: appendere parole in rima (naso, vaso), unire le sillabe in un’etichetta (pe·sce accanto alla pe·co·ra) e un memory di disegni ed etichette.",
+        "L’attività segue le Indicazioni nazionali: leggere le parole fino all’ultima lettera. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Leggere le prime parole",
-        "Decodificare parole corte",
-        "Associare la parola alla figura",
-        "Leggere tutta la parola, non solo l’inizio"
+        "Leggere una parola breve fino all’ultima lettera",
+        "Distinguere parole che cominciano allo stesso modo",
+        "Leggere parole in rima in cui cambia solo l’inizio",
+        "Unire le sillabe e leggere una parola più lunga"
       ],
       "howToPlay": [
-        "Leggi la parola stampata.",
-        "Guarda bene tutte le lettere.",
-        "Tocca la figura giusta."
+        "Leggi la parola sull’etichetta.",
+        "Trascina l’etichetta sul suo disegno, oppure tocca prima l’etichetta e poi il disegno.",
+        "Tocca Controlla e guarda se l’etichetta resta attaccata o si stacca alla prima lettera diversa."
       ],
       "learningGoals": [
-        "Riconoscere e leggere parole brevi in autonomia.",
-        "Collegare la parola scritta alla sua immagine.",
-        "Leggere l’intera parola per distinguerla da una molto simile."
+        "Il bambino legge una parola breve da sinistra a destra fino alla fine",
+        "Il bambino nota la lettera in cui due parole sono diverse",
+        "Il bambino legge parole in rima e parole più lunghe per sillabe"
       ]
     },
     "fraction-equiv.same-amount.3-nf-a-3": {

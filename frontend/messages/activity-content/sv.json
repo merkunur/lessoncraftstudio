@@ -2908,6 +2908,29 @@
         "Barnet håller reda på vilket ljud som ändrades och var",
         "Barnet ändrar ett ljud i taget i en ordkedja"
       ]
+    },
+    "choice-board.read-cvc-word.rf-k-3": {
+      "about": [
+        "Det tryckta ordet är en namnlapp i ett snöre: skål. På en anslagstavla hänger fyra bilder vars namn börjar likadant: en skål, ett skåp, en sko och sand. Barnet hänger lappen på en bild och trycker på Kolla. Då fastnar lappen från vänster, bokstav för bokstav. En interaktiv läsövning för åk 1 som fungerar i webbläsaren.",
+        "På skåpet fastnar s, k och å, vid l viker sig hörnet upp och lappen ramlar tillbaka i lådan med l:et markerat. Att gissa på första bokstaven håller alltså inte ända till slutet, och barnet ser exakt hur långt ordet stämde. Andra nivåer: häng upp rimord (ko, bo, sko), sätt ihop stavelser till en lapp (pa·pe·go·ja bredvid ett pa·ra·ply) och memory med bilder och lappar.",
+        "Övningen följer Lgr22: att avkoda ord ända till sista bokstaven. Ingen tidtagning och inga poäng."
+      ],
+      "practices": [
+        "Att läsa ett kort ord ända till sista bokstaven",
+        "Att skilja på ord som börjar likadant",
+        "Att läsa rimord där bara början ändras",
+        "Att sätta ihop stavelser och läsa ett längre ord"
+      ],
+      "howToPlay": [
+        "Läs ordet på lappen.",
+        "Dra lappen till dess bild, eller tryck först på lappen och sedan på bilden.",
+        "Tryck på Kolla och se om lappen fastnar eller släpper vid den första bokstaven som skiljer sig."
+      ],
+      "learningGoals": [
+        "Barnet avkodar ett kort ord från vänster till höger ända till slutet",
+        "Barnet ser vid vilken bokstav två ord skiljer sig",
+        "Barnet läser rimord och längre ord i stavelser"
+      ]
     }
   }
 }

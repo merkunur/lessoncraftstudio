@@ -240,25 +240,25 @@
     },
     "choice-board.read-cvc-word.rf-k-3": {
       "about": [
-        "Emil die Eule zeigt deinem Kind ein Wort: „Hut“. Darunter warten vier Bilder – ein Hut, ein Hund und ein Huhn sind dabei. Weil alle drei mit „Hu“ beginnen, reicht der erste Buchstabe nicht: Dein Kind liest das ganze Wort zu Ende – H-u-t – und tippt dann auf den Hut. Emil nickt zufrieden mit dem Kopf.",
-        "Genau darum geht es beim ersten Lesen: nicht nur den Anfang erkennen, sondern jedes Wort Buchstabe für Buchstabe erlesen. Die ähnlichen Bilder sind mit Absicht so gewählt, damit dein Kind lernt, wirklich hinzuschauen und bis zum letzten Buchstaben zu lesen. So wird aus Raten echtes Lesen – die wichtigste Grundlage für Klasse 1.",
-        "Dabei bleibt alles ruhig und freundlich. Es gibt keine Uhr, keine Punkte und keinen Wettbewerb – dein Kind darf sich so viel Zeit nehmen, wie es braucht. Emil die Eule sagt nie „falsch“: Passt das Bild noch nicht, darf dein Kind das Wort einfach noch einmal in Ruhe lesen und es erneut versuchen."
+        "Das gedruckte Wort ist ein Namensschild an einer Schnur: Ball. An einer Pinnwand hängen vier Bilder, deren Namen ähnlich anfangen: ein Ball, ein Bagger, eine Banane und ein Bein. Das Kind hängt das Schild an ein Bild und tippt auf Prüfen. Dann klebt das Schild von links Buchstabe für Buchstabe fest. Eine interaktive Leseübung für Klasse 1, die im Browser läuft.",
+        "Am Bagger kleben B und a, beim l biegt sich die Ecke hoch, und das Schild fällt zurück in die Ablage – das l ist markiert. So scheitert Raten nach dem ersten Buchstaben am Ende, und das Kind sieht genau, wie weit das Wort gepasst hat. Weitere Stufen: Reimwörter aufhängen (Nase, Vase, Hase), Silben zu einem Schild zusammensetzen (Gi·raf·fe neben der Gi·tar·re) und Memory mit Bildern und Schildern.",
+        "Die Übung orientiert sich am Lehrplan: Wörter erlesen, Buchstabe für Buchstabe bis zum Ende. Ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "Wörter Buchstabe für Buchstabe lesen",
-        "das ganze Wort genau lesen",
-        "Wort und Bild verbinden",
-        "erste Wörter selbst erlesen"
+        "Ein kurzes Wort bis zum letzten Buchstaben erlesen",
+        "Wörter unterscheiden, die gleich anfangen",
+        "Reimwörter lesen, bei denen sich nur der Anfang ändert",
+        "Silben zusammensetzen und ein längeres Wort lesen"
       ],
       "howToPlay": [
-        "Lies das Wort oben laut vor – Buchstabe für Buchstabe.",
-        "Schau dir alle vier Bilder genau an.",
-        "Tippe das Bild an, das zum ganzen Wort passt."
+        "Lies das Wort auf dem Schild.",
+        "Zieh das Schild auf sein Bild oder tippe erst auf das Schild und dann auf das Bild.",
+        "Tippe auf Prüfen und schau, ob das Schild klebt oder sich beim ersten anderen Buchstaben löst."
       ],
       "learningGoals": [
-        "einzelne Wörter sicher erlesen statt raten",
-        "auf jeden Buchstaben im Wort achten",
-        "Freude am ersten eigenen Lesen entwickeln"
+        "Das Kind erliest ein kurzes Wort von links nach rechts bis zum Ende",
+        "Das Kind erkennt den ersten Buchstaben, an dem sich zwei Wörter unterscheiden",
+        "Das Kind liest Reimwörter und längere Wörter in Silben"
       ]
     },
     "choice-board.onset-rime-blend.rf-k-2-c": {

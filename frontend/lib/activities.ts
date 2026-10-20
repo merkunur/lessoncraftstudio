@@ -231,6 +231,7 @@ const MANIFEST_FILES = [
   'cleo-packing-list-activities.json',
   'penny-alphabet-trace-activities.json',
   'digby-number-trace-activities.json',
+  'name-tag-activities.json', // rebuild #57 (2026-10-20): Read the Word → The Sticky Name Tag, moved out of choice-board-activities.json
   // 'storybook-activities.json' REMOVED 2026-07-11 — storybook project abandoned
   // (operator); the pips-picnic activity page 410s via middleware.
   // future: 'number-line-activities.json', 'ruler-activities.json', …

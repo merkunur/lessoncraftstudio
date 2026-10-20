@@ -1014,25 +1014,25 @@
     },
     "choice-board.read-cvc-word.rf-k-3": {
       "about": [
-        "The child reads a short printed word — like cat, can, cap, bus, bun, or hat — sounding out each letter and blending the sounds into a whole word, then taps the picture it names. It's an interactive Kindergarten phonics activity that runs right in the browser on tablets, phones, and classroom computers, with nothing to install and no sign-up.",
-        "The big idea is that you have to read the whole word, all the way to the last sound. The picture choices share beginnings on purpose — cat sits beside cap, can, and car — so a child cannot win by glancing at the first letter; the only way to find the right picture is to decode every sound. The child reads the printed word and matches it to meaning, which is exactly what real reading asks.",
-        "It is aligned to Common Core RF.K.3 — knowing and applying grade-level phonics to decode simple consonant-vowel-consonant words. No timer, no score — just calm, playful practice."
+        "The printed word is a name tag on a string: cat. Four pictures hang on a cork board, and their names start alike: a cat, a cap, a can and a car. The child hangs the tag on a picture and presses Check, and the tag presses down letter by letter from the left. It is an interactive Kindergarten reading activity that plays in the browser.",
+        "On the cap it sticks c and a, then the corner curls up at t and the tag peels off, back to the tray, with the t ringed. A guess from the first letter fails at the end, and the child sees exactly how far the word matched. Further levels hang rhyming words (cat, hat, bat), join syllable pieces into one tag (pen·cil, beside a pen·guin) and play memory with pictures and tags.",
+        "It is aligned to Common Core RF.K.3, knowing and applying grade-level phonics in decoding words. No timer and no score."
       ],
       "practices": [
-        "Sound out and blend the letters in a short CVC word like cat or bus",
-        "Read the whole word through to the last sound, not just the first letter",
-        "Tell look-alike words apart, like cat, cap, and can",
-        "Match a decoded word to the picture it names"
+        "Reading a short printed word all the way to the last letter",
+        "Telling apart words that start the same way",
+        "Reading rhyming words where only the first letter changes",
+        "Joining syllables and reading a longer word"
       ],
       "howToPlay": [
-        "Read the short word on the board, sounding out each letter.",
-        "Blend the sounds into a word, then tap the picture it names and press Check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Read the word on the tag.",
+        "Drag the tag onto its picture, or tap the tag and then the picture.",
+        "Press Check and watch the tag stick, or peel off at the first letter that is different."
       ],
       "learningGoals": [
-        "Decode simple CVC words using letter sounds — the focus of Common Core RF.K.3",
-        "Read all the way to the final sound to tell similar words apart",
-        "Connect decoded words to meaning, the heart of early reading"
+        "The child decodes a short word left to right, to the end",
+        "The child notices the first letter where two words differ",
+        "The child reads rhyming words and longer words in syllables"
       ]
     },
     "choice-board.read-ruler.2-md-a-1": {

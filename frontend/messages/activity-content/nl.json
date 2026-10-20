@@ -309,25 +309,25 @@
     },
     "choice-board.read-cvc-word.rf-k-3": {
       "about": [
-        "Oscar de uil laat een woord zien, bijvoorbeeld \"kat\". Je kind leest het woord en tikt uit vier plaatjes het juiste aan: de kat, en niet de kaas of de kam. De grote ogen van Oscar lezen elk woord goed mee, letter voor letter, zodat je kind rustig de tijd heeft om te kijken en te lezen.",
-        "Lezen begint met verklanken en decoderen: elke letter is een klank, en die klanken plak je aan elkaar tot een woord — hakken en plakken, k-a-t, kat. Omdat sommige plaatjes hetzelfde beginnen, zoals kat, kaas en kam, moet je kind het hele woord lezen tot de laatste letter, en niet raden bij de eerste letter. Juist dat nauwkeurige lezen maakt van je kind een sterke, zelfstandige lezer.",
-        "Dit past bij technisch lezen (aanvankelijk lezen) in groep 3. Oscar zegt nooit dat iets fout is: klopt het plaatje nog niet, lees dan samen rustig het woord nog een keer, letter voor letter. Er is geen tijd en geen score, dus je kind kan zonder druk oefenen. Er is ook geen geluid nodig — je kind leest zelf."
+        "Het gedrukte woord is een naamkaartje aan een touwtje: kat. Op een prikbord hangen vier plaatjes waarvan de namen hetzelfde beginnen: een kat, een kaart, kaas en een kikker. Het kind hangt het kaartje bij een plaatje en tikt op Controleer. Dan plakt het kaartje van links letter voor letter vast. Een interactieve leesoefening voor groep 3 die in de browser werkt.",
+        "Bij de kaart plakken de k en de a, bij de t krult de hoek omhoog en valt het kaartje terug in het bakje, met de t omcirkeld. Zo loopt raden op de eerste letter vast aan het eind, en ziet het kind precies hoe ver het woord klopte. Andere niveaus: rijmwoorden ophangen (sok, mok, klok), stukjes samenvoegen tot één kaartje (trom·mel naast de trom·pet) en memory met plaatjes en kaartjes.",
+        "De oefening sluit aan bij de SLO-kerndoelen voor technisch lezen: woorden verklanken tot de laatste letter. Geen klok en geen punten."
       ],
       "practices": [
-        "Een woord verklanken (hakken en plakken)",
-        "Het hele woord lezen tot de laatste letter",
-        "Een gelezen woord aan een plaatje koppelen",
-        "Niet raden bij de eerste letter"
+        "Een kort woord lezen tot en met de laatste letter",
+        "Woorden uit elkaar houden die hetzelfde beginnen",
+        "Rijmwoorden lezen waarbij alleen het begin verandert",
+        "Stukjes samenvoegen en een langer woord lezen"
       ],
       "howToPlay": [
-        "Lees het woord dat Oscar laat zien",
-        "Zoek uit de vier plaatjes het juiste",
-        "Tik het plaatje aan dat bij het woord past"
+        "Lees het woord op het kaartje.",
+        "Sleep het kaartje naar zijn plaatje, of tik eerst op het kaartje en dan op het plaatje.",
+        "Tik op Controleer en kijk of het kaartje blijft plakken of loslaat bij de eerste letter die anders is."
       ],
       "learningGoals": [
-        "Losse letters tot een woord verklanken",
-        "Hele woorden nauwkeurig lezen tot de laatste letter",
-        "Gelezen woorden aan betekenis (een plaatje) koppelen"
+        "Het kind leest een kort woord van links naar rechts tot het eind",
+        "Het kind ziet bij welke letter twee woorden verschillen",
+        "Het kind leest rijmwoorden en langere woorden in stukjes"
       ]
     },
     "stretch-giraffe.long-short-vowel.rf-1-2-a": {

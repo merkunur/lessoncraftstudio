@@ -21,6 +21,11 @@
    setupTask only sets state (no DOM) → headless-safe. Exit 0 = pass; 1 = fail.
    ===================================================================== */
 'use strict';
+/* RETIRED (rebuild #41): the letter-case row left choice-board for the Type Case (type-case-activities.json). */
+if (!require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'choice-board-activities.json'), 'utf8').includes('letter-case.rf-k-1-d')) {
+  console.log('verify-choice-board-lettercase: retired — the row is now the Type Case (type-case-activities.json)');
+  process.exit(0);
+}
 const fs = require('fs');
 const path = require('path');
 

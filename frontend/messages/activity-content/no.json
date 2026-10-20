@@ -2067,6 +2067,29 @@
         "Barnet holder styr på hvilken lyd som endret seg, og hvor",
         "Barnet ser at hver ny lyd gir et nytt ord"
       ]
+    },
+    "choice-board.read-cvc-word.rf-k-3": {
+      "about": [
+        "Det trykte ordet er en navnelapp i en snor: sol. På en oppslagstavle henger fire bilder der navnene begynner likt: en sol, en sokk, en sopp og en sau. Barnet henger lappen på et bilde og trykker på Sjekk. Da setter lappen seg fast fra venstre, bokstav for bokstav. En interaktiv leseøvelse for 1. trinn som virker i nettleseren.",
+        "På sokken blir s og o sittende, ved l bøyer hjørnet seg opp, og lappen faller tilbake i skuffen med l-en markert. Å gjette ut fra første bokstav holder altså ikke helt til slutten, og barnet ser nøyaktig hvor langt ordet stemte. Andre nivåer: heng opp rimord (mopp, kopp, sopp), sett sammen stavelser til én lapp (trom·me ved siden av en trom·pet) og memory med bilder og lapper.",
+        "Øvelsen følger LK20: å avkode ord helt til siste bokstav. Ingen tidtaking og ingen poeng."
+      ],
+      "practices": [
+        "Å lese et kort ord helt til siste bokstav",
+        "Å skille ord som begynner likt",
+        "Å lese rimord der bare begynnelsen endres",
+        "Å sette sammen stavelser og lese et lengre ord"
+      ],
+      "howToPlay": [
+        "Les ordet på lappen.",
+        "Dra lappen til bildet sitt, eller trykk først på lappen og så på bildet.",
+        "Trykk på Sjekk og se om lappen blir sittende eller slipper ved den første bokstaven som er annerledes."
+      ],
+      "learningGoals": [
+        "Barnet avkoder et kort ord fra venstre mot høyre helt til slutten",
+        "Barnet ser ved hvilken bokstav to ord er forskjellige",
+        "Barnet leser rimord og lengre ord i stavelser"
+      ]
     }
   }
 }

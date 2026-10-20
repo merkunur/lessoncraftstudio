@@ -4252,6 +4252,29 @@
         "L’enfant retient quel son a changé et où",
         "L’enfant voit que chaque son nouveau donne un mot nouveau"
       ]
+    },
+    "choice-board.read-cvc-word.rf-k-3": {
+      "about": [
+        "Le mot imprimé est une étiquette au bout d’une ficelle : tapis. Sur un panneau de liège sont accrochées quatre images dont les noms commencent pareil : un tapis, une table, une tarte et la Terre. L’enfant accroche l’étiquette à une image et touche Vérifier. L’étiquette se colle alors de gauche à droite, lettre après lettre. C’est une activité interactive de lecture pour le CP, qui fonctionne dans le navigateur.",
+        "Sur la table, le t et le a collent ; au p, le coin se soulève et l’étiquette se décolle et retombe sur le plateau, avec le p entouré. Deviner d’après la première lettre échoue donc à la fin, et l’enfant voit exactement jusqu’où le mot correspondait. Autres niveaux : accrocher des mots qui riment (pain, main, train), assembler des syllabes en une étiquette (cha·peau à côté d’un cha·meau) et un memory d’images et d’étiquettes.",
+        "L’activité suit les programmes officiels : décoder un mot jusqu’à la dernière lettre. Ni minuteur ni score."
+      ],
+      "practices": [
+        "Lire un mot court jusqu’à la dernière lettre",
+        "Distinguer des mots qui commencent pareil",
+        "Lire des mots qui riment, où seul le début change",
+        "Assembler des syllabes et lire un mot plus long"
+      ],
+      "howToPlay": [
+        "Lis le mot sur l’étiquette.",
+        "Fais glisser l’étiquette sur son image, ou touche d’abord l’étiquette puis l’image.",
+        "Touche Vérifier et regarde si l’étiquette reste collée ou se décolle à la première lettre différente."
+      ],
+      "learningGoals": [
+        "L’enfant décode un mot court de gauche à droite, jusqu’au bout",
+        "L’enfant repère la lettre où deux mots diffèrent",
+        "L’enfant lit des mots qui riment et des mots plus longs en syllabes"
+      ]
     }
   }
 }

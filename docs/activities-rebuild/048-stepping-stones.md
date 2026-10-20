@@ -99,3 +99,13 @@ ORDER row 48 · id `syllable-builder.bygg-ordet-av-stavelser.rf-k-2-b` (kept).
 ## FROZEN-NOTEs (not changed — metadata is frozen)
 - **The title** says «Fonetik», the academic science of phonetics; the right term is «fonologisk medvetenhet» / «språklig medvetenhet».
 - **The intro** says «blanda … stavelser», a calque of "blend" («sätta ihop»). The title and intro describe only Bygg ordet, not counting or Gömda ord.
+
+## Deploy (2026-10-20)
+- **Commit 9c524689**, then the phone fix **0c0288e9**. Both deploys: deploy.sh EXIT 0, 0 payment-canary failures. The sv page returns 200. The preview webp was copied to the server before each build.
+- **Production play: 24 / 24** (sv at 1366 and 390).
+  - Helikopter: three stones (water and pile taps) → the last carries kop·ter and sinks (a miss); a fourth → right.
+  - Paraply: «ra» first → it tips back (a miss); pa + ra + ply → right, the word over the water.
+  - Solros: «ros» lifted → the far bank shows the sun (a miss), the stones splash back; «sol» lifted → right.
+  - The wrapper version matches, and the iframe grows with the card.
+- **Live variety probe (sv):** 10 distinct rounds, and pass 2 is reshuffled.
+- **Server disk after the deploy:** 134 GB available of 436 GB (68 % used).

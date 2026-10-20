@@ -447,25 +447,26 @@
     },
     "rhyme-shop.rhyme.rf-k-2-a": {
       "about": [
-        "Rudi Reimbär schiebt seinen Reimwagen über den Bildschirm und sammelt Wörter, die am Ende gleich klingen. Dein Kind tippt auf ein Bild und hört das Wort – zum Beispiel die Maus. Dann sucht es das passende Reimwort und füttert damit den Wagen: Die Maus reimt sich auf das Haus, also wandern beide zu Rudi in den Reimwagen. Tippen, hören, den Reim finden – so rollt Rudi von Paar zu Paar.",
-        "Auf Reime zu hören ist mehr als ein Spiel: Es ist ein wichtiger Schritt der phonologischen Bewusstheit und eine echte Vorstufe zum Lesen und Schreiben. Wer heraushört, dass Fisch und Tisch gleich enden, achtet auf die Laute in Wörtern – und genau diese Fähigkeit brauchen Kinder später beim Lesenlernen. Wichtig dabei: Die Reime werden gehört, nicht gelesen. Dein Kind muss noch kein einziges Wort selbst lesen können, um mitzumachen.",
-        "Rudi Reimbär passt in die erste Klasse und in den Kompetenzbereich „Sprechen und Zuhören“. Liegt ein Kind einmal daneben, sagt Rudi nie „falsch“: Er spielt einfach beide Endungen noch einmal vor – Hund … Mund? – und lädt freundlich zu einem neuen Versuch ein. So bleibt das Zuhören entspannt und macht Mut. Ein Tipp: Mit Kopfhörern hört dein Kind die feinen Endungen am deutlichsten."
+        "Reime hört man, und hier kann ein Kind sie auch festhalten. Rosa, die Waschbärin, zieht einen Wagen mit einer Kette aus Ringen. Das Kind tippt ein Bild an und hört seinen Namen, dann zieht es das Bild ans Ende der Kette oder tippt erst das Bild und dann den leeren Ring an. Eine interaktive Hörübung, die im Browser läuft, ohne Installation; Kopfhörer helfen.",
+        "Das Besondere ist der Ring: Er schließt sich nur an einem Ring, dessen Wort am Ende gleich klingt. Haus schließt sich an Maus, und beide Ringe leuchten im selben Muster; Fisch springt auf und fällt zurück ins Gras. Die Kette urteilt nach dem Klang, und Haus und Hahn, die gleich anfangen, halten nicht zusammen. Nach dem zweiten Fehler zeigt jeder Ring sein Muster, so sieht das Kind, welche Klänge zusammengehören.",
+        "Die Übung folgt dem Lehrplan im Fach Deutsch, Bereich Sprechen und Zuhören: Reime erkennen und selbst bilden. Die Runden mischen sieben Arten von Reimarbeit: entscheiden, ob sich zwei Wörter reimen, das Reimwort unter drei Bildern finden, das Bild finden, das sich nicht reimt, Bilder auf zwei Ketten verteilen, Rosas Reimzeile zu Ende bringen, alle Reimwörter einer Gruppe finden und eine Reimkette bauen. Nach jeder Kette lädt ein offener Ring das Kind ein, selbst ein neues Reimwort zu sagen. Lehrkräfte können die Namen der Bilder einblenden und die Muster von Anfang an zeigen. Ohne Zeitdruck, ohne Punkte."
       ],
       "practices": [
-        "auf Reime und Endreime hören",
-        "Reimwörter erkennen",
-        "genau zuhören",
-        "selbst Reimwörter finden"
+        "Hören, ob sich zwei Wörter reimen",
+        "Das Reimwort unter drei Bildern finden",
+        "Das Wort finden, das sich nicht reimt",
+        "Selbst ein neues Reimwort sagen"
       ],
       "howToPlay": [
-        "Tippe auf ein Bild und höre das Wort.",
-        "Finde die Wörter, die sich reimen.",
-        "Füttere sie Rudis Reimwagen."
+        "Tippe ein Bild an, dann hörst du seinen Namen.",
+        "Zieh es ans Ende von Rosas Kette oder tippe erst das Bild und dann den leeren Ring an.",
+        "Ein Ring, der sich reimt, schließt sich; einer, der sich nicht reimt, fällt zurück ins Gras.",
+        "Wenn die Kette fertig ist, zieh den Wagen."
       ],
       "learningGoals": [
-        "Reime im Klang erkennen und heraushören",
-        "die phonologische Bewusstheit als Vorstufe zum Lesen stärken",
-        "aufmerksam und mit Freude zuhören"
+        "Reimwörter am gleichen Klang am Ende erkennen",
+        "Reime von Wörtern unterscheiden, die nur gleich anfangen",
+        "Selbst ein neues Reimwort bilden"
       ]
     },
     "sock-and-shadow.puppet-speak.sl-k-6": {

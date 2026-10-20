@@ -1990,6 +1990,30 @@
         "Barnet skelner en form fra en dobbeltgænger ved hjælp af sider og hjørner",
         "Barnet genkender den samme rumfigur i ting fra hverdagen"
       ]
+    },
+    "rhyme-shop.rhyme.rf-k-2-a": {
+      "about": [
+        "Rim hører man, og her kan barnet også holde dem i hånden. Vaskebjørnen Rosa trækker en vogn med en kæde af ringe efter sig. Barnet trykker på et billede for at høre, hvad det hedder, og trækker det så hen til enden af kæden, eller trykker først på billedet og så på den tomme ring. Det er en interaktiv lytteøvelse, der virker i browseren uden installation; høretelefoner hjælper.",
+        "Opfindelsen er selve ringen: den lukker sig kun om en ring, hvis ord ender med den samme lyd. Hat lukker sig om kat, og begge ringe lyser i samme mønster; et ord, der ikke rimer, åbner sin ring og falder tilbage i græsset. Kæden dømmer efter lyden: hus og hund begynder ens, men hager sig ikke fast i hinanden. Efter en anden fejl viser hver ring sit mønster, så barnet kan se, hvilke lyde der hører sammen.",
+        "Øvelsen følger Fælles Mål for børnehaveklassen, kompetenceområdet Sprog: at genkende og selv finde på rim. Runderne blander syv slags rimarbejde: afgøre, om to ord rimer, vælge rimordet blandt tre billeder, finde det ord, der ikke rimer, sortere billeder på to kæder, gøre Rosas rim færdigt, finde alle rimord i en gruppe og bygge en rimkæde. Efter hver kæde inviterer en åben ring barnet til selv at sige et nyt rimord højt. Læreren kan vise billedernes navne og vise mønstrene fra start; i den danske version står navnene fremme fra begyndelsen. Uden tidtagning og uden point."
+      ],
+      "practices": [
+        "Høre, om to ord rimer",
+        "Vælge rimordet blandt tre billeder",
+        "Finde det ord, der ikke rimer",
+        "Sige et nyt ord, der rimer"
+      ],
+      "howToPlay": [
+        "Tryk på et billede for at høre, hvad det hedder.",
+        "Træk det hen til enden af Rosas kæde, eller tryk på billedet og så på den tomme ring.",
+        "En ring, der rimer, lukker sig; en, der ikke rimer, falder tilbage i græsset.",
+        "Når kæden er færdig, trækker du vognen."
+      ],
+      "learningGoals": [
+        "Genkende rimord på lyden til sidst",
+        "Skelne rim fra ord, der kun begynder ens",
+        "Sige et nyt ord, der rimer"
+      ]
     }
   }
 }

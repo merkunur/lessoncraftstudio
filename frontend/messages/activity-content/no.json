@@ -1974,6 +1974,30 @@
         "Barnet skiller en form fra en dobbeltgjenger ved hjelp av sider og hjørner",
         "Barnet kjenner igjen den samme romfiguren i ting fra hverdagen"
       ]
+    },
+    "rhyme-shop.rhyme.rf-k-2-a": {
+      "about": [
+        "Rim hører man, og her kan barnet også holde dem i hånda. Vaskebjørnen Rosa trekker ei vogn med en kjede av ringer etter seg. Barnet trykker på et bilde for å høre hva det heter, og drar det så til enden av kjeden, eller trykker først på bildet og så på den tomme ringen. Det er en interaktiv lytteøvelse som virker i nettleseren uten installasjon; hodetelefoner hjelper.",
+        "Oppfinnelsen er selve ringen: den lukker seg bare rundt en ring der ordet slutter med den samme lyden. Hatt lukker seg rundt katt, og begge ringene lyser i samme mønster; et ord som ikke rimer, åpner ringen sin og faller tilbake i gresset. Kjeden dømmer etter lyden: hus og hund begynner likt, men hekter seg ikke sammen. Etter en andre feil viser hver ring mønsteret sitt, så barnet ser hvilke lyder som hører sammen.",
+        "Oppgaven følger LK20 i norsk, kompetansemål etter 2. trinn: å kjenne igjen og selv finne på rim. Rundene blander sju slags rimarbeid: avgjøre om to ord rimer, velge rimordet blant tre bilder, finne ordet som ikke rimer, sortere bilder på to kjeder, gjøre ferdig Rosas regle, finne alle rimordene i en gruppe og bygge en rimkjede. Etter hver kjede inviterer en åpen ring barnet til selv å si et nytt rimord høyt. Læreren kan vise navnene på bildene og vise mønstrene fra start; i den norske versjonen står navnene fremme fra begynnelsen. Uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Høre om to ord rimer",
+        "Velge rimordet blant tre bilder",
+        "Finne ordet som ikke rimer",
+        "Si et nytt ord som rimer"
+      ],
+      "howToPlay": [
+        "Trykk på et bilde for å høre hva det heter.",
+        "Dra det til enden av Rosas kjede, eller trykk på bildet og så på den tomme ringen.",
+        "En ring som rimer, lukker seg; en som ikke rimer, faller tilbake i gresset.",
+        "Når kjeden er ferdig, trekker du vogna."
+      ],
+      "learningGoals": [
+        "Kjenne igjen rimord på lyden til slutt",
+        "Skille rim fra ord som bare begynner likt",
+        "Si et nytt ord som rimer"
+      ]
     }
   }
 }

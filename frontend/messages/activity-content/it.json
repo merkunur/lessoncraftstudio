@@ -3931,25 +3931,26 @@
     },
     "rhyme-shop.rhyme.rf-k-2-a": {
       "about": [
-        "Le parole possono giocare tra loro: alcune finiscono con lo stesso suono e fanno rima, come gatto e piatto o limone e melone. In questa attività un simpatico animaletto guida il suo vagone delle rime e invita i bambini a scoprire, ascoltando, quali parole «suonano» allo stesso modo.",
-        "I bambini ascoltano le parole illustrate e giocano con tanti mini-giochi diversi: queste due parole fanno rima? quale delle immagini rima con la parola data? quale invece non rima? Poi imparano a raggruppare le parole che rimano e a completare la rima. Il pulsante 🔊 legge ad alta voce ogni parola, così i più piccoli possono affidarsi soprattutto all’orecchio, ancora prima di saper leggere.",
-        "Pensata per i primi passi nell’ascolto delle parole, questa attività è allineata alle Indicazioni nazionali e sostiene lo sviluppo della consapevolezza fonologica, un’abilità che prepara alla lettura. Senza registrazione, senza timer e senza punteggio: solo tempo sereno per giocare con i suoni della lingua, al ritmo di ogni bambino."
+        "La rima si sente, e qui il bambino può anche tenerla in mano. Il procione Rosa tira un carretto con una catena di anelli. Il bambino tocca un’immagine per sentirne il nome, poi la trascina in fondo alla catena, oppure tocca l’immagine e poi l’anello vuoto. È un’attività interattiva di ascolto che funziona nel browser, senza installare nulla; le cuffie aiutano.",
+        "L’invenzione è l’anello: si chiude solo su un anello la cui parola finisce con lo stesso suono. Piatto si chiude su gatto e i due anelli brillano con lo stesso disegno; una parola che non fa rima apre l’anello e ricade sull’erba. La catena giudica dal suono: panino e padella cominciano allo stesso modo, ma non si agganciano. Dopo un secondo errore ogni anello mostra il suo disegno, e il bambino vede quali suoni stanno insieme.",
+        "L’attività segue le Indicazioni nazionali per la scuola dell’infanzia, campo «I discorsi e le parole»: riconoscere e inventare rime. I turni mescolano sette tipi di lavoro sulla rima: dire se due parole fanno rima, trovare la rima fra tre immagini, trovare quella che non fa rima, smistare le immagini su due catene, completare la filastrocca di Rosa, trovare tutte le rime di un gruppo e costruire una catena di rime. Dopo ogni catena un anello aperto invita il bambino a dire ad alta voce una nuova parola in rima. L’insegnante può mostrare il nome di ogni immagine e i disegni fin dall’inizio. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Riconoscere le rime",
-        "Ascoltare i suoni delle parole",
-        "Giocare con le parole",
-        "Sviluppare la consapevolezza fonologica"
+        "Sentire se due parole fanno rima",
+        "Trovare la parola in rima fra tre immagini",
+        "Scoprire la parola che non fa rima",
+        "Dire una nuova parola in rima"
       ],
       "howToPlay": [
-        "Ascolta le parole illustrate, toccando il 🔊 per sentirle ad alta voce.",
-        "Trova le parole che finiscono con lo stesso suono e fanno rima.",
-        "Porta le parole che rimano sul vagone delle rime dell’animaletto."
+        "Tocca un’immagine per sentirne il nome.",
+        "Trascinala in fondo alla catena di Rosa, oppure toccala e poi tocca l’anello vuoto.",
+        "Un anello che fa rima si chiude; uno che non fa rima ricade sull’erba.",
+        "Quando la catena è finita, tira il carretto."
       ],
       "learningGoals": [
-        "Sentire e riconoscere quando due parole fanno rima.",
-        "Prestare attenzione ai suoni finali delle parole, non solo al loro significato.",
-        "Rafforzare la consapevolezza fonologica come base per imparare a leggere."
+        "Riconoscere le parole in rima dal suono finale",
+        "Distinguere una rima da parole che cominciano soltanto allo stesso modo",
+        "Dire una nuova parola in rima"
       ]
     },
     "mango-animal-groups.collective-nouns.l-2-1-a": {

@@ -447,25 +447,26 @@
     },
     "rhyme-shop.rhyme.rf-k-2-a": {
       "about": [
-        "In dit spel voor kleuters laat Rijmbeer Rob steeds een paar plaatjes zien en spreekt hij de woorden hardop uit, zodat kleuters goed naar de klanken kunnen luisteren.",
-        "Kleuters zoeken welke woorden op elkaar rijmen, vinden het woord dat er niet bij hoort of maken samen een rijmrijtje.",
-        "Zo oefenen kleuters spelenderwijs hun fonologisch bewustzijn, helemaal afgestemd op de SLO-kerndoelen voor beginnende geletterdheid."
+        "Rijm hoor je, en hier kan een kind het ook vasthouden. Rosa de wasbeer trekt een kar met een ketting van ringen. Het kind tikt op een plaatje om de naam te horen en sleept het dan naar het einde van de ketting, of tikt eerst op het plaatje en dan op de lege ring. Het is een interactieve luisteroefening die in de browser werkt, zonder iets te installeren; een koptelefoon helpt.",
+        "De uitvinding is de ring: hij gaat alleen dicht aan een ring waarvan het woord op dezelfde klank eindigt. Huis gaat dicht aan muis, en beide ringen gloeien in hetzelfde patroon; een woord dat niet rijmt springt open en valt terug in het gras. De ketting oordeelt op de klank: beer en bel beginnen hetzelfde, maar haken niet in elkaar. Na een tweede fout laat elke ring zijn patroon zien, zodat het kind ziet welke klanken bij elkaar horen.",
+        "De oefening sluit aan bij de SLO-kerndoelen voor Nederlands, fonologisch bewustzijn bij kleuters: rijmwoorden herkennen en zelf maken. De rondes mengen zeven soorten rijmwerk: zeggen of twee woorden rijmen, het rijmwoord kiezen uit drie plaatjes, het woord vinden dat niet rijmt, plaatjes over twee kettingen verdelen, Rosa’s rijmpje afmaken, alle rijmwoorden in een groep vinden en een rijmketting bouwen. Na elke ketting nodigt een open ring het kind uit om zelf een nieuw rijmwoord hardop te zeggen. De leerkracht kan de namen van de plaatjes tonen en de patronen meteen laten zien. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Rijmwoorden horen en herkennen",
-        "Luisteren naar de klank aan het eind van een woord",
-        "Woorden die rijmen bij elkaar zoeken",
-        "Fonologisch bewustzijn en voorbereidend lezen"
+        "Horen of twee woorden rijmen",
+        "Het rijmwoord kiezen uit drie plaatjes",
+        "Het woord vinden dat niet rijmt",
+        "Zelf een nieuw rijmwoord zeggen"
       ],
       "howToPlay": [
-        "Tik op een plaatje om het woord van Rijmbeer Rob te horen.",
-        "Luister goed en zoek welke woorden op elkaar rijmen.",
-        "Geef de rijmwoorden aan Rijmbeer Rob of voeg ze toe aan het rijmrijtje."
+        "Tik op een plaatje om de naam te horen.",
+        "Sleep het naar het einde van Rosa’s ketting, of tik op het plaatje en dan op de lege ring.",
+        "Een ring die rijmt gaat dicht; een ring die niet rijmt valt terug in het gras.",
+        "Is de ketting klaar? Trek dan de kar."
       ],
       "learningGoals": [
-        "Rijmwoorden herkennen en zelf horen",
-        "Letten op de klank aan het eind van een woord",
-        "Fonologisch bewustzijn bij kleuters versterken"
+        "Rijmwoorden herkennen aan de klank aan het eind",
+        "Rijm onderscheiden van woorden die alleen hetzelfde beginnen",
+        "Zelf een nieuw rijmwoord maken"
       ]
     },
     "sock-and-shadow.puppet-speak.sl-k-6": {

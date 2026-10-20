@@ -3533,25 +3533,26 @@
     },
     "rhyme-shop.rhyme.rf-k-2-a": {
       "about": [
-        "Rosa Raccoon's rhyme wagon fills up when the child taps pictures to hear their names — snail, whale, bee, key, bear, pear — and matches the words whose endings ring the same. Headphones are recommended for this interactive Kindergarten listening activity, which plays right in the browser with no sign-up and nothing to install.",
-        "Because rhyme is about sound, not spelling, the pictures are the clue and the words are heard, not read — snail and whale rhyme even though one ends in -ail and the other in -ale, while bear and ear do not rhyme even though they share the letters 'ear.' Across the rounds children judge whether two words rhyme, pick the picture that rhymes with a target, spot the odd one that does not belong, sort words into rhyme bins, and finish a little chant — so the same listening skill gets practiced many ways.",
-        "It is aligned to Common Core RF.K.2.a — recognizing and producing rhyming words. No timer, no score — just calm, playful practice."
+        "Rhyme lives in the ear, so this activity turns it into something a child can hold. Rosa the raccoon pulls a wagon with a chain of rings behind it. The child taps a picture to hear its name, then drags it to the end of the chain, or taps it and then the empty ring. It is an interactive listening activity that runs in the browser with nothing to install; headphones help.",
+        "The invention is the ring itself: a ring only closes on a ring whose word ends with the same sound. Whale closes on snail, and both rings glow the same pattern; bee springs its ring open and drops back onto the grass. The chain judges by sound, never by spelling, so bear and ear, which look alike in print, do not link, while snail and whale do. After a second slip every ring shows its pattern, so the child can see which sounds belong together.",
+        "It is aligned to Common Core RF.K.2.a: recognizing and producing rhyming words. The rounds mix seven kinds of rhyme work: deciding whether two words rhyme, picking the rhyme from three pictures, finding the one that does not rhyme, sorting pictures onto two chains, finishing Rosa's rhyming line, finding every rhyme in a group, and building a rhyme chain. After each chain an open ring invites the child to say a new rhyming word aloud. Teachers can show each picture's name and the patterns from the start. No timer, no score."
       ],
       "practices": [
-        "Hearing whether two words end with the same sound — like bee and key",
-        "Matching a picture to the word that rhymes with it",
-        "Spotting the word that does not rhyme with the rest",
-        "Listening for sound, not spelling, so bear and ear are heard as different"
+        "Hearing whether two words rhyme",
+        "Picking the rhyming word from three pictures",
+        "Spotting the word that does not rhyme",
+        "Saying a new word that rhymes"
       ],
       "howToPlay": [
-        "Tap a picture to hear its name said aloud.",
-        "Match the words whose endings ring the same — or spot the one that does not belong.",
-        "A warm check confirms a correct match, with no timer and no score."
+        "Tap a picture to hear its name.",
+        "Drag it to the end of Rosa's chain, or tap it and then the empty ring.",
+        "A ring that rhymes closes; one that does not falls back onto the grass.",
+        "When the chain is finished, pull the wagon."
       ],
       "learningGoals": [
-        "Recognize and produce rhyming words — the focus of Common Core RF.K.2.a",
-        "Hear the ending sounds in spoken words apart from how they are spelled",
-        "Build the phonological awareness that early reading and decoding depend on"
+        "Recognize rhyming words by their ending sound, the focus of Common Core RF.K.2.a",
+        "Tell a rhyme from words that are only spelled alike or only start alike",
+        "Say a new word that rhymes"
       ]
     },
     "rivets-number-forge.numeral-album.k-cc-a-3": {

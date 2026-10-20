@@ -1920,6 +1920,30 @@
         "Lapsi erottaa kuvion kaksoisolennosta sivujen ja kulmien avulla",
         "Lapsi tunnistaa saman kappaleen arkisista esineistä"
       ]
+    },
+    "rhyme-shop.rhyme.rf-k-2-a": {
+      "about": [
+        "Riimin kuulee, ja tässä lapsi voi myös pitää sitä kädessään. Pesukarhu Rosa vetää kärryjä, joiden perässä on renkaista tehty ketju. Lapsi napauttaa kuvaa, kuulee sen nimen ja vetää kuvan sitten ketjun päähän, tai napauttaa ensin kuvaa ja sitten tyhjää rengasta. Tämä on vuorovaikutteinen kuunteluharjoitus, joka toimii selaimessa ilman asennusta; kuulokkeet auttavat.",
+        "Keksintö on itse rengas: se sulkeutuu vain renkaaseen, jonka sana loppuu samoihin äänteisiin. Suu sulkeutuu kuun renkaaseen, ja molemmat renkaat hehkuvat samalla kuviolla; sana, joka ei rimmaa, avaa renkaansa ja putoaa takaisin nurmelle. Ketju ratkaisee äänen perusteella: kukka ja kukko alkavat samalla tavalla, mutta eivät tartu toisiinsa. Toisen virheen jälkeen jokainen rengas näyttää kuvionsa, ja lapsi näkee, mitkä äänteet kuuluvat yhteen.",
+        "Harjoitus noudattaa esiopetuksen opetussuunnitelman perusteita (oppimiskokonaisuus Kielten rikas maailma): riimien tunnistaminen ja keksiminen. Kierroksilla on seitsemää erilaista riimitehtävää: päätetään, rimmaavatko kaksi sanaa, valitaan riimisana kolmesta kuvasta, etsitään sana, joka ei rimmaa, lajitellaan kuvia kahteen ketjuun, täydennetään Rosan loru, etsitään ryhmästä kaikki riimisanat ja rakennetaan riimiketju. Jokaisen ketjun jälkeen avoin rengas kutsuu lasta sanomaan ääneen uuden riimisanan. Opettaja voi näyttää kuvien nimet ja kuviot alusta alkaen; suomenkielisessä versiossa nimet näkyvät heti. Ei ajanottoa eikä pisteitä."
+      ],
+      "practices": [
+        "Kuunnellaan, rimmaavatko kaksi sanaa",
+        "Valitaan riimisana kolmesta kuvasta",
+        "Etsitään sana, joka ei rimmaa",
+        "Keksitään uusi sana, joka rimmaa"
+      ],
+      "howToPlay": [
+        "Napauta kuvaa, niin kuulet sen nimen.",
+        "Vedä kuva Rosan ketjun päähän tai napauta kuvaa ja sitten tyhjää rengasta.",
+        "Rimmaava rengas sulkeutuu; rengas, joka ei rimmaa, putoaa takaisin nurmelle.",
+        "Kun ketju on valmis, vedä kärryjä."
+      ],
+      "learningGoals": [
+        "Lapsi tunnistaa riimisanat sanan lopun äänteistä",
+        "Lapsi erottaa riimin sanoista, jotka vain alkavat samalla tavalla",
+        "Lapsi keksii uuden sanan, joka rimmaa"
+      ]
     }
   }
 }

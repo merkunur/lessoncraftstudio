@@ -1,0 +1,573 @@
+[
+  {
+    "id": "rhyme-shop.rhyme.rf-k-2-a",
+    "tool": "rhyme-chain-activity",
+    "task_template": "rhyme-chain",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.2.a",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "theme": null,
+    "params": {
+      "note": "The rounds and words live in rhyme-chain-core.js (ROUNDS / WORDS); this list mirrors them per locale so the gates can size each pool.",
+      "roundsL10n": {
+        "en": [
+          {
+            "id": "judge-snail-whale",
+            "kind": "judge"
+          },
+          {
+            "id": "judge-bear-ear",
+            "kind": "judge"
+          },
+          {
+            "id": "judge-bear-bus",
+            "kind": "judge"
+          },
+          {
+            "id": "pick-snail",
+            "kind": "pick"
+          },
+          {
+            "id": "pick-pear",
+            "kind": "pick"
+          },
+          {
+            "id": "pick-cat",
+            "kind": "pick"
+          },
+          {
+            "id": "odd-snail",
+            "kind": "odd"
+          },
+          {
+            "id": "odd-bear",
+            "kind": "odd"
+          },
+          {
+            "id": "sort-whale-cat",
+            "kind": "sort"
+          },
+          {
+            "id": "finish-whale-9",
+            "kind": "finish"
+          },
+          {
+            "id": "finish-key-10",
+            "kind": "finish"
+          },
+          {
+            "id": "field-dog",
+            "kind": "field"
+          },
+          {
+            "id": "chain-boat",
+            "kind": "chain"
+          }
+        ],
+        "de": [
+          {
+            "id": "judge-maus-haus",
+            "kind": "judge"
+          },
+          {
+            "id": "judge-fisch-hund",
+            "kind": "judge"
+          },
+          {
+            "id": "judge-haus-hahn",
+            "kind": "judge"
+          },
+          {
+            "id": "pick-fisch",
+            "kind": "pick"
+          },
+          {
+            "id": "pick-hose",
+            "kind": "pick"
+          },
+          {
+            "id": "pick-hahn",
+            "kind": "pick"
+          },
+          {
+            "id": "odd-pfanne",
+            "kind": "odd"
+          },
+          {
+            "id": "sort-maus-pfanne",
+            "kind": "sort"
+          },
+          {
+            "id": "finish-maus-8",
+            "kind": "finish"
+          },
+          {
+            "id": "field-pfanne",
+            "kind": "field"
+          },
+          {
+            "id": "chain-pfanne",
+            "kind": "chain"
+          }
+        ],
+        "fr": [
+          {
+            "id": "judge-bateau-gâteau",
+            "kind": "judge"
+          },
+          {
+            "id": "judge-chat-chapeau",
+            "kind": "judge"
+          },
+          {
+            "id": "pick-poisson",
+            "kind": "pick"
+          },
+          {
+            "id": "pick-lapin",
+            "kind": "pick"
+          },
+          {
+            "id": "pick-seau",
+            "kind": "pick"
+          },
+          {
+            "id": "odd-ballon",
+            "kind": "odd"
+          },
+          {
+            "id": "odd-bateau",
+            "kind": "odd"
+          },
+          {
+            "id": "sort-gâteau-trompette",
+            "kind": "sort"
+          },
+          {
+            "id": "finish-cochon-8",
+            "kind": "finish"
+          },
+          {
+            "id": "field-camion",
+            "kind": "field"
+          },
+          {
+            "id": "chain-main",
+            "kind": "chain"
+          }
+        ],
+        "es": [
+          {
+            "id": "judge-gato-pato",
+            "kind": "judge"
+          },
+          {
+            "id": "judge-oveja-camión",
+            "kind": "judge"
+          },
+          {
+            "id": "judge-pato-paleta",
+            "kind": "judge"
+          },
+          {
+            "id": "pick-gato",
+            "kind": "pick"
+          },
+          {
+            "id": "pick-manzana",
+            "kind": "pick"
+          },
+          {
+            "id": "pick-galleta",
+            "kind": "pick"
+          },
+          {
+            "id": "odd-ratón",
+            "kind": "odd"
+          },
+          {
+            "id": "sort-gato-ratón",
+            "kind": "sort"
+          },
+          {
+            "id": "finish-gato-8",
+            "kind": "finish"
+          },
+          {
+            "id": "field-ratón",
+            "kind": "field"
+          },
+          {
+            "id": "chain-ratón",
+            "kind": "chain"
+          }
+        ],
+        "pt": [
+          {
+            "id": "judge-baleia-meia",
+            "kind": "judge"
+          },
+          {
+            "id": "judge-gato-rosa",
+            "kind": "judge"
+          },
+          {
+            "id": "judge-gato-galo",
+            "kind": "judge"
+          },
+          {
+            "id": "pick-abelha",
+            "kind": "pick"
+          },
+          {
+            "id": "pick-panela",
+            "kind": "pick"
+          },
+          {
+            "id": "pick-limão",
+            "kind": "pick"
+          },
+          {
+            "id": "odd-gato",
+            "kind": "odd"
+          },
+          {
+            "id": "sort-gato-abelha",
+            "kind": "sort"
+          },
+          {
+            "id": "finish-gato-8",
+            "kind": "finish"
+          },
+          {
+            "id": "field-sapato",
+            "kind": "field"
+          },
+          {
+            "id": "chain-balão",
+            "kind": "chain"
+          }
+        ],
+        "it": [
+          {
+            "id": "judge-gatto-piatto",
+            "kind": "judge"
+          },
+          {
+            "id": "judge-limone-banana",
+            "kind": "judge"
+          },
+          {
+            "id": "judge-panino-padella",
+            "kind": "judge"
+          },
+          {
+            "id": "pick-delfino",
+            "kind": "pick"
+          },
+          {
+            "id": "pick-cappello",
+            "kind": "pick"
+          },
+          {
+            "id": "pick-melone",
+            "kind": "pick"
+          },
+          {
+            "id": "odd-calzino",
+            "kind": "odd"
+          },
+          {
+            "id": "sort-delfino-limone",
+            "kind": "sort"
+          },
+          {
+            "id": "finish-gatto-8",
+            "kind": "finish"
+          },
+          {
+            "id": "field-cappello",
+            "kind": "field"
+          },
+          {
+            "id": "chain-bambino",
+            "kind": "chain"
+          }
+        ],
+        "nl": [
+          {
+            "id": "judge-muis-huis",
+            "kind": "judge"
+          },
+          {
+            "id": "judge-beer-hond",
+            "kind": "judge"
+          },
+          {
+            "id": "judge-beer-bel",
+            "kind": "judge"
+          },
+          {
+            "id": "pick-beer",
+            "kind": "pick"
+          },
+          {
+            "id": "pick-schoen",
+            "kind": "pick"
+          },
+          {
+            "id": "pick-haan",
+            "kind": "pick"
+          },
+          {
+            "id": "odd-schoen",
+            "kind": "odd"
+          },
+          {
+            "id": "sort-muis-schoen",
+            "kind": "sort"
+          },
+          {
+            "id": "finish-haan-8",
+            "kind": "finish"
+          },
+          {
+            "id": "field-schoen",
+            "kind": "field"
+          },
+          {
+            "id": "chain-schoen",
+            "kind": "chain"
+          }
+        ],
+        "sv": [
+          {
+            "id": "judge-katt-hatt",
+            "kind": "judge"
+          },
+          {
+            "id": "judge-hus-hund",
+            "kind": "judge"
+          },
+          {
+            "id": "pick-sol",
+            "kind": "pick"
+          },
+          {
+            "id": "pick-ko",
+            "kind": "pick"
+          },
+          {
+            "id": "pick-mus",
+            "kind": "pick"
+          },
+          {
+            "id": "odd-hand",
+            "kind": "odd"
+          },
+          {
+            "id": "odd-kopp",
+            "kind": "odd"
+          },
+          {
+            "id": "sort-sand-kopp",
+            "kind": "sort"
+          },
+          {
+            "id": "finish-katt-8",
+            "kind": "finish"
+          },
+          {
+            "id": "field-hand",
+            "kind": "field"
+          },
+          {
+            "id": "chain-kopp",
+            "kind": "chain"
+          }
+        ],
+        "da": [
+          {
+            "id": "judge-kat-hat",
+            "kind": "judge"
+          },
+          {
+            "id": "judge-hus-hund",
+            "kind": "judge"
+          },
+          {
+            "id": "pick-sol",
+            "kind": "pick"
+          },
+          {
+            "id": "pick-ko",
+            "kind": "pick"
+          },
+          {
+            "id": "pick-mus",
+            "kind": "pick"
+          },
+          {
+            "id": "odd-and",
+            "kind": "odd"
+          },
+          {
+            "id": "judge-negl-snegl",
+            "kind": "judge"
+          },
+          {
+            "id": "sort-and-kat",
+            "kind": "sort"
+          },
+          {
+            "id": "finish-kat-8",
+            "kind": "finish"
+          },
+          {
+            "id": "field-and",
+            "kind": "field"
+          },
+          {
+            "id": "chain-and",
+            "kind": "chain"
+          }
+        ],
+        "no": [
+          {
+            "id": "judge-katt-hatt",
+            "kind": "judge"
+          },
+          {
+            "id": "judge-hus-hund",
+            "kind": "judge"
+          },
+          {
+            "id": "pick-sol",
+            "kind": "pick"
+          },
+          {
+            "id": "pick-kake",
+            "kind": "pick"
+          },
+          {
+            "id": "pick-mus",
+            "kind": "pick"
+          },
+          {
+            "id": "odd-and",
+            "kind": "odd"
+          },
+          {
+            "id": "judge-måke-kråke",
+            "kind": "judge"
+          },
+          {
+            "id": "sort-sand-kake",
+            "kind": "sort"
+          },
+          {
+            "id": "finish-katt-8",
+            "kind": "finish"
+          },
+          {
+            "id": "field-and",
+            "kind": "field"
+          },
+          {
+            "id": "chain-and",
+            "kind": "chain"
+          }
+        ],
+        "fi": [
+          {
+            "id": "judge-kuu-suu",
+            "kind": "judge"
+          },
+          {
+            "id": "judge-kukka-kukko",
+            "kind": "judge"
+          },
+          {
+            "id": "pick-kukka",
+            "kind": "pick"
+          },
+          {
+            "id": "pick-juna",
+            "kind": "pick"
+          },
+          {
+            "id": "pick-orava",
+            "kind": "pick"
+          },
+          {
+            "id": "odd-juna",
+            "kind": "odd"
+          },
+          {
+            "id": "judge-kukko-lukko",
+            "kind": "judge"
+          },
+          {
+            "id": "sort-kukka-juna",
+            "kind": "sort"
+          },
+          {
+            "id": "finish-suu-8",
+            "kind": "finish"
+          },
+          {
+            "id": "field-juna",
+            "kind": "field"
+          },
+          {
+            "id": "chain-orava",
+            "kind": "chain"
+          }
+        ]
+      }
+    },
+    "slug": {
+      "en": "rosa-raccoons-rhyme-wagon",
+      "de": "reime-hoeren-und-finden-klasse-1",
+      "es": "rimas-palabras-que-riman-conciencia-fonologica-preescolar",
+      "pt": "rimas-palavras-que-rimam",
+      "it": "giocare-con-le-rime-scuola-infanzia",
+      "nl": "rijmen-rijmwoorden-horen-kleuters",
+      "fr": "rimes-trouver-les-mots-qui-riment-gs",
+      "sv": "rim-hitta-ord-som-rimmar",
+      "da": "rim-find-ord-der-rimer",
+      "no": "rim-finn-ord-som-rimer",
+      "fi": "riimit-loyda-sanat-jotka-rimmaavat"
+    },
+    "page_title": {
+      "en": "Rosa Raccoon's Rhyme Wagon — Hear & Match Rhymes",
+      "de": "Reime üben – Reimwörter hören und finden (Klasse 1)",
+      "es": "Rimas y palabras que riman para preescolar – Juego",
+      "pt": "Rimas: palavras que rimam para o 1º ano — atividade alinhada à BNCC",
+      "it": "Le rime: giocare con le parole alla scuola dell’infanzia",
+      "nl": "Rijmen met Rijmbeer Rob – rijmwoorden horen (kleuters)",
+      "fr": "Les rimes en maternelle – trouver les mots qui riment (GS)",
+      "sv": "Rim i förskoleklass – hitta ord som rimmar",
+      "da": "Rim i børnehaveklassen – find ord, der rimer",
+      "no": "Rim – finn ord som rimer",
+      "fi": "Riimit esiopetuksessa – löydä sanat, jotka rimmaavat"
+    },
+    "page_intro": {
+      "en": "Headphones recommended! Tap a picture to HEAR its name, then feed Rosa's wagon the words whose endings RING the same — bee and key, snail and whale. A listening game for Kindergarten rhyme, aligned to Common Core RF.K.2.a: recognize and produce rhyming words.",
+      "de": "Reime üben mit Rudi Reimbär: Wörter anhören und das passende Reimwort finden. Online, ohne Anmeldung – für Vorschule und Klasse 1.",
+      "es": "Actividad interactiva: los niños escuchan y encuentran palabras que riman —gato y pato, ratón y limón— y desarrollan su conciencia fonológica. Ideal para preescolar.",
+      "pt": "O Gui, um guaxinim animado, conduz o vagão de rimas por trilhos cheios de figuras. Seu filho escuta cada palavra e descobre quais têm o mesmo som no fim, ou seja, quais rimam. É uma atividade lúdica de escuta, alinhada à BNCC, para brincar com os sons das palavras.",
+      "it": "Sali sul vagone delle rime insieme a un simpatico animaletto! I bambini ascoltano le parole illustrate e scoprono quelle che fanno rima, come gatto e piatto, con tanti giochi divertenti. Ogni parola si può ascoltare toccando il 🔊. Senza registrazione, senza timer e senza punteggio — un’attività allineata alle Indicazioni nazionali.",
+      "nl": "Rijmbeer Rob laat kleuters plaatjes zien en spreekt de woorden hardop uit. Je kind luistert naar de woorden en zoekt welke rijmen, zoals schoen en meloen of muis en huis. Een interactief luisterspel, afgestemd op de SLO-kerndoelen voor beginnende geletterdheid voor kleuters.",
+      "fr": "Écoute le nom de chaque image, puis accroche à la chaîne de Rosa les mots qui finissent par le même son : bateau et gâteau, cochon et ballon. Un anneau ne se ferme que si les mots riment. Un jeu d’écoute pour la grande section, aligné sur les programmes officiels.",
+      "sv": "Tryck på en bild för att höra vad den heter, och häng sedan orden som slutar likadant på Rosas kedja: katt och hatt, sol och stol. En ring stängs bara när orden rimmar. En lyssnarövning för förskoleklassen, anpassad till Lgr22.",
+      "da": "Tryk på et billede for at høre, hvad det hedder, og hæng så de ord, der lyder ens til sidst, på Rosas kæde: kat og hat, negl og snegl. En ring lukker sig kun, når ordene rimer. En lytteøvelse til børnehaveklassen, tilpasset Fælles Mål.",
+      "no": "Trykk på et bilde for å høre hva det heter, og heng så ordene som slutter likt, på Rosas kjede: katt og hatt, måke og kråke. En ring lukker seg bare når ordene rimer. En lytteøvelse for de yngste skolebarna, tilpasset LK20.",
+      "fi": "Napauta kuvaa, niin kuulet sen nimen, ja ripusta sitten samalla tavalla loppuvat sanat Rosan ketjuun: kuu ja suu, kukko ja lukko. Rengas sulkeutuu vain, kun sanat rimmaavat. Kuunteluharjoitus esiopetukseen, esiopetussuunnitelman perusteiden mukainen."
+    },
+    "kid_prompt_template": "Tap to hear — then feed the rhyme!"
+  }
+]

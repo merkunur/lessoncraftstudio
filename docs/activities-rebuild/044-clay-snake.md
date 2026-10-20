@@ -63,7 +63,7 @@ ORDER row 44 · id `syllable-builder.bouw-het-woord-met-klankgroepen.rf-k-2-b` (
 - **`verify-clay-snake-core.js`: 787 checks, 0 failures.** It carries its own typed copy of the 28 splits, the letter seams and the decoys. It checks:
   - **Data:** splits match `approved-words-nl.json` (≥ 3 sources); every nl label equals its word; every picture exists; meisje, schoorsteen and tapijt are never used; the Hakken counts are 1×2 / 2×3 / 3×3 / 4×2.
   - **The stamp:** exact for every word × 1–6 pieces, plus the 36 px refuse rule and the 6-piece limit.
-  - **Plakken arrangements:** every one (2,872, with the decoy in every place) gives exact joints, decoy handling and verdict, and miss 2 locks the FIRST lump.
+  - **Plakken arrangements:** every one (564, with the decoy in every place) gives exact joints, decoy handling and verdict, and miss 2 locks the FIRST lump.
   - **Letter seams:** ij is one cell, every inner cut heals, and *bij* is right with zero cuts.
   - **Tub and decoys:** the tub balance holds, and no decoy plus lumps spells a library word.
   - **Also:** the hint ladder, the order rule (sampled and deterministic), strings, and the frozen manifest.
@@ -99,3 +99,13 @@ ORDER row 44 · id `syllable-builder.bouw-het-woord-met-klankgroepen.rf-k-2-b` (
 ## FROZEN-NOTEs (not changed — metadata is frozen)
 - **The title** says "Fonetiek in de kleuterklas". Fonetiek is the linguistic science; the right term is "Fonologisch bewustzijn" or "Klankgroepen".
 - **The intro** describes only the Plakken level and does not mention hakken.
+
+## Deploy (2026-10-20)
+- **Commit 0a65a1c4.** deploy.sh returned EXIT 0, with 0 payment-canary failures. The nl page returns 200. The preview webp was copied to the server before the build.
+- **Production play: 18 / 18** (nl at 1366 and 390).
+  - Regenboog: in two pieces, the last piece carries two klankgroepen (a miss); in three pieces it closes into one smooth snake.
+  - Panda: da + pan cracks (a miss); in order, pan + da makes panda.
+  - Bij: no cut is right.
+  - The wrapper version matches, and the iframe grows with the card.
+- **Live variety probe (nl):** 10 distinct rounds, and pass 2 is reshuffled.
+- **Server disk after the deploy:** 134 GB available of 436 GB (68 % used).

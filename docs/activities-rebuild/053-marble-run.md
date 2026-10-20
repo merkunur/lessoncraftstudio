@@ -89,3 +89,13 @@ ORDER row 53 · id `syllable-builder.muodosta-sana-tavuista.rf-k-2-b` (kept).
   - esiopetus has its own plan (EOPS 2014), not the basic-education OPS 2014;
   - «Yhteensopiva … kanssa» is a calque;
   - «tavujen … ääntäminen» is translationese.
+
+## Deploy (2026-10-20)
+- **Commit 2d938468.** deploy.sh returned EXIT 0, with 0 payment-canary failures. The preview webp was copied to the server before the build.
+- **Production play: 18 / 18** (fi at 1366 and 390).
+  - Koira: nothing asks; ra + koi → the marble reads «rakoi» (a miss); koi + ra → it lands, and the strip says koira.
+  - Kissa: ki + ssa → it stops at the two-consonant step; kis + sa → it lands.
+  - The wrapper version matches, and the iframe grows with the card.
+- **The live phone shot (390)** is clean.
+- **Live variety probe (fi):** 11 distinct rounds, and pass 2 is reshuffled.
+- **Server disk after the deploy:** 134 GB available of 436 GB (68 % used).

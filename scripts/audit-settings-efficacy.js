@@ -378,7 +378,22 @@ function offeredLocales(toolKey) {
       if (Object.prototype.hasOwnProperty.call(j, toolKey)) out.push(loc);
     } catch (_) { /* a broken content file is another gate's business */ }
   }
-  return out.length ? out : LOCALES;   /* not a tool landing (an activity engine) — expect all */
+  return out.length ? out : offeredActivityLocales(toolKey);   /* not a tool landing: the locales its activity rows ship in (all eleven when none is found) */
+}
+
+/* the same rule for an ACTIVITY: the locales its manifest rows give a slug. A one-language row
+   (row 43, die Schwungbahn, German only by design) is never reached from a French page, so
+   demanding French drawer labels from it condemns a correct decision. An activity with no row
+   found falls back to all eleven, exactly as before. */
+function offeredActivityLocales(toolName) {
+  const out = new Set();
+  for (const f of fs.readdirSync(MINI)) {
+    if (!/-activities\.json$/.test(f)) continue;
+    let rows; try { rows = JSON.parse(fs.readFileSync(path.join(MINI, f), 'utf8')); } catch (_) { continue; }
+    if (!Array.isArray(rows)) continue;
+    for (const r of rows) if (r && (r.tool === toolName || r.id === toolName) && r.slug) for (const l of Object.keys(r.slug)) if (r.slug[l] && LOCALES.includes(l)) out.add(l);
+  }
+  return out.size ? LOCALES.filter(l => out.has(l)) : LOCALES;
 }
 
 function mountGlobal(htmlFile) {
@@ -1078,7 +1093,7 @@ async function auditSurface(browser, surface, state, PORT) {
     for (const lk of [f.labelKey].concat(f.optionLabelKeys.filter(Boolean))) {
       const entry = schema.strings[lk];
       if (!entry) { bad(`${tag}: labelKey "${lk}" is missing from the merged tool.strings — the drawer renders the raw key`); continue; }
-      const want = surface.kind === 'tool' ? offeredLocales(surface.id) : LOCALES;
+      const want = surface.kind === 'tool' ? offeredLocales(surface.id) : offeredActivityLocales(surface.id);
       const missing = want.filter(l => !entry[l]);
       if (missing.length) bad(`${tag}: labelKey "${lk}" has no ${missing.join(',')} — and the tool IS offered in ${missing.length === 1 ? 'that locale' : 'those locales'}, so a teacher there sees English or the raw key`);
     }

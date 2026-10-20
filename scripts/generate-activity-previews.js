@@ -211,6 +211,10 @@ function seedScript(row) {
     // a wrong sort tipped over beside the empty slot, its other form showing on its back — the invention at rest
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='P1';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.TypeCaseCore,s=t.st,w=s.tray.find(function(x){return x.face!==s.r.answer;});C.drop(s,w.id);t._paint();})();`;
   }
+  if (row.tool === 'silbenbogen-activity') {
+    // Schmetterling mid-build: three bows swung, schmet and ter lying in their blue/red bows, ling still in the tray — the invention at work
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.api.settings.level='lang';t._pool=null;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='lang-butterfly';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.SilbenbogenCore,s=t.st;C.swing(s);C.swing(s);C.swing(s);[0,1].forEach(function(n){var c=s.cards.find(function(x){return x.s===n;});C.place(s,c.id,n);});t._paint();})();`;
+  }
   if (row.tool === 'rhyme-chain-activity') {
     // Rosa's chain mid-build: boat and goat linked, both rings glowing the same pattern, step 2 on the grass — the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.id==='chain-boat';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.RhymeChainCore,s=t.st,g2=s.grass.find(function(x){return x.key==='goat';});C.hang(s,g2.id,0);t._paint();})();`;
@@ -245,7 +249,8 @@ function loadRows() {
   for (const f of files) {
     try {
       const rows = JSON.parse(fs.readFileSync(path.join(MINI, f), 'utf8'));
-      for (const r of rows) if (r.slug && r.slug.en) all.push(r);
+      /* a one-language row (the syllable decks, rows 43–53) has no en slug: it is drawn in its own language, never skipped */
+      for (const r of rows) if (r.slug && Object.keys(r.slug).some((l) => r.slug[l])) all.push(r);
     } catch (e) { console.warn('skip', f, e.message); }
   }
   return all;
@@ -266,7 +271,8 @@ function loadRows() {
   for (const row of rows) {
     const page = await browser.newPage();
     await page.setViewport({ width: 720, height: 640, deviceScaleFactor: 2 });
-    const url = `${BASE}/mini-tools/${row.tool}.html?activity=${encodeURIComponent(row.id)}&lang=en&embed=compact`;
+    const lang = row.slug.en ? 'en' : Object.keys(row.slug).find((l) => row.slug[l]);
+    const url = `${BASE}/mini-tools/${row.tool}.html?activity=${encodeURIComponent(row.id)}&lang=${lang}&embed=compact`;
     try {
       await page.goto(url, { waitUntil: 'networkidle2', timeout: 45000 });
       await page.waitForSelector('.lcs-stage', { timeout: 15000 });

@@ -1,0 +1,232 @@
+[
+  {
+    "id": "syllable-builder.bau-das-wort-aus-silben.rf-k-2-b",
+    "tool": "silbenbogen-activity",
+    "task_template": "silbenbogen",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.2.B",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "note": "The words and their gated splits live in silbenbogen-core.js (LEVELS); the gate re-reads approved-words-de.json. This list mirrors the core so the gates can size each level.",
+      "rounds": [
+        {
+          "id": "kurz-bear",
+          "word": "Bär",
+          "split": "bär"
+        },
+        {
+          "id": "kurz-cat",
+          "word": "Katze",
+          "split": "kat-ze"
+        },
+        {
+          "id": "kurz-fish",
+          "word": "Fisch",
+          "split": "fisch"
+        },
+        {
+          "id": "kurz-apple",
+          "word": "Apfel",
+          "split": "ap-fel"
+        },
+        {
+          "id": "kurz-fox",
+          "word": "Fuchs",
+          "split": "fuchs"
+        },
+        {
+          "id": "kurz-sock",
+          "word": "Socke",
+          "split": "so-cke"
+        },
+        {
+          "id": "kurz-book",
+          "word": "Buch",
+          "split": "buch"
+        },
+        {
+          "id": "kurz-bell",
+          "word": "Glocke",
+          "split": "glo-cke"
+        },
+        {
+          "id": "kurz-scarf",
+          "word": "Schal",
+          "split": "schal"
+        },
+        {
+          "id": "kurz-kite",
+          "word": "Drachen",
+          "split": "dra-chen"
+        }
+      ],
+      "levels": {
+        "kurz": [
+          {
+            "id": "kurz-bear",
+            "word": "Bär",
+            "split": "bär"
+          },
+          {
+            "id": "kurz-cat",
+            "word": "Katze",
+            "split": "kat-ze"
+          },
+          {
+            "id": "kurz-fish",
+            "word": "Fisch",
+            "split": "fisch"
+          },
+          {
+            "id": "kurz-apple",
+            "word": "Apfel",
+            "split": "ap-fel"
+          },
+          {
+            "id": "kurz-fox",
+            "word": "Fuchs",
+            "split": "fuchs"
+          },
+          {
+            "id": "kurz-sock",
+            "word": "Socke",
+            "split": "so-cke"
+          },
+          {
+            "id": "kurz-book",
+            "word": "Buch",
+            "split": "buch"
+          },
+          {
+            "id": "kurz-bell",
+            "word": "Glocke",
+            "split": "glo-cke"
+          },
+          {
+            "id": "kurz-scarf",
+            "word": "Schal",
+            "split": "schal"
+          },
+          {
+            "id": "kurz-kite",
+            "word": "Drachen",
+            "split": "dra-chen"
+          }
+        ],
+        "mittel": [
+          {
+            "id": "mittel-baker",
+            "word": "Bäcker",
+            "split": "bä-cker"
+          },
+          {
+            "id": "mittel-acorn",
+            "word": "Eichel",
+            "split": "ei-chel"
+          },
+          {
+            "id": "mittel-pear",
+            "word": "Birne",
+            "split": "bir-ne"
+          },
+          {
+            "id": "mittel-cake",
+            "word": "Kuchen",
+            "split": "ku-chen"
+          },
+          {
+            "id": "mittel-snowman",
+            "word": "Schneemann",
+            "split": "schnee-mann"
+          },
+          {
+            "id": "mittel-lighthouse",
+            "word": "Leuchtturm",
+            "split": "leucht-turm"
+          },
+          {
+            "id": "mittel-glove",
+            "word": "Handschuh",
+            "split": "hand-schuh"
+          },
+          {
+            "id": "mittel-starfish",
+            "word": "Seestern",
+            "split": "see-stern"
+          },
+          {
+            "id": "mittel-airplane",
+            "word": "Flugzeug",
+            "split": "flug-zeug"
+          },
+          {
+            "id": "mittel-strawberry",
+            "word": "Erdbeere",
+            "split": "erd-bee-re"
+          },
+          {
+            "id": "mittel-necklace",
+            "word": "Halskette",
+            "split": "hals-ket-te"
+          },
+          {
+            "id": "mittel-banana",
+            "word": "Banane",
+            "split": "ba-na-ne"
+          }
+        ],
+        "lang": [
+          {
+            "id": "lang-butterfly",
+            "word": "Schmetterling",
+            "split": "schmet-ter-ling"
+          },
+          {
+            "id": "lang-pancake",
+            "word": "Pfannkuchen",
+            "split": "pfann-ku-chen"
+          },
+          {
+            "id": "lang-umbrella",
+            "word": "Regenschirm",
+            "split": "re-gen-schirm"
+          },
+          {
+            "id": "lang-ambulance",
+            "word": "Krankenwagen",
+            "split": "kran-ken-wa-gen"
+          },
+          {
+            "id": "lang-rainbow",
+            "word": "Regenbogen",
+            "split": "re-gen-bo-gen"
+          },
+          {
+            "id": "lang-sunflower",
+            "word": "Sonnenblume",
+            "split": "son-nen-blu-me"
+          },
+          {
+            "id": "lang-watermelon",
+            "word": "Wassermelone",
+            "split": "was-ser-me-lo-ne"
+          }
+        ]
+      }
+    },
+    "theme": null,
+    "slug": {
+      "de": "bau-das-wort-aus-silben"
+    },
+    "page_title": {
+      "de": "Silben üben im Kindergarten – Wörter aus Silben bauen"
+    },
+    "page_intro": {
+      "de": "Silben üben: Kinder tippen Silben an, hören sie und bauen daraus ganze Wörter. Online, ohne Anmeldung – für Kindergarten und Vorschule."
+    },
+    "kid_prompt_template": "promptBuildSyllables"
+  }
+]

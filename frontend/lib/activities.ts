@@ -174,6 +174,7 @@ const MANIFEST_FILES = [
   'clay-snake-activities.json',
   'kite-tail-activities.json',
   'telescope-activities.json',
+  'lacing-board-activities.json',
   'graph-it-activities.json',
   'field-guide-activities.json',
   'rhyme-shop-activities.json',

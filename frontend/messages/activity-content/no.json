@@ -593,25 +593,25 @@
     },
     "syllable-builder.bygg-ordet-av-stavelser.no.rf-k-2-b": {
       "about": [
-        "Barnet ser et bilde og bygger ordet ved å legge stavelsene i riktig rekkefølge. Ordet til bildet er delt opp i stavelsesbrikker som ligger stokket om hverandre — for eksempel ka-nin eller ele-fant — og barnet setter dem på plass én etter én til hele ordet står ferdig. Det er en interaktiv fonetikkaktivitet for barnehagen og skolestart som kjører rett i nettleseren, uten konto.",
-        "Den store ideen er at talte ord kan deles opp i mindre lydbiter og settes sammen igjen. Barnet hører hver stavelse når brikken trykkes på, og hele ordet blandes sammen og leses opp når svaret er riktig — så bro mellom lyd og skrift bygges samtidig som barnet leker. Å høre stavelsene og kjenne igjen rekkefølgen styrker språklydbevisstheten som tidlig lesing hviler på.",
-        "Aktiviteten er tilpasset LK20 innenfor tidlig lesing — å telle, uttale, blande og dele stavelser i talte ord. Den passer i barnehagen og ved skolestart. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "Bildet står ved siden av et snørebrett av tre, og på brettet ligger stavelsene som knapper, spredt hulter til bulter. Barnet trykker på bildet for å høre ordet, trer snøret gjennom knappene i den rekkefølgen ordet sies, og trykker på Stram! for å stramme snøret. Det er en interaktiv aktivitet i fonologisk bevissthet for barnehagen og 1. trinn, som kjører i nettleseren uten installasjon.",
+        "Det spesielle er at snøret strammes: Det holder den riktige begynnelsen, og fra den første gale knappen glipper det ut. Knappene ligger aldri i ordets rekkefølge, så barnet må si ordet og lete etter hver del. Når hele ordet er riktig, glir knappene ned på lista og blir til ett ord: sol … sik … ke, solsikke. En lureknapp fra et annet ord glipper alltid av snøret.",
+        "Øvelsen støtter rammeplanen for barnehagen og LK20 og arbeidet med språklig bevissthet: å telle, si, sette sammen og dele stavelser i talte ord. Tre nivåer bruker det samme brettet: tre ordet stavelse for stavelse, tre ordet når én eller to knapper ikke hører med, og tell stavelsene ved å tre én tom knapp for hver stavelse du hører. Alle stavelsesdelingene er kontrollert mot flere kilder. Uten tidtaking og uten poeng."
       ],
       "practices": [
-        "Dele et talt ord opp i stavelser.",
-        "Legge stavelsesbrikkene i riktig rekkefølge for å lage ordet til bildet.",
-        "Høre hver stavelse for seg og blande dem sammen til et helt ord.",
-        "Knytte lydene i ordet til bokstavene barnet ser."
+        "Telle stavelsene i et talt ord",
+        "Sette sammen stavelser til et helt ord",
+        "Sette stavelsene i riktig rekkefølge",
+        "Skille ut en stavelse som ikke hører til ordet"
       ],
       "howToPlay": [
-        "Se på bildet og lytt til ordet.",
-        "Trykk på stavelsene i riktig rekkefølge og legg en stavelse i hver rute.",
-        "Trykk på Sjekk for å høre om rekkefølgen stemmer — prøv igjen så mange ganger du vil, det er ingen tidtaker og ingen poeng."
+        "Trykk på bildet for å høre ordet.",
+        "Tre snøret gjennom knappene i den rekkefølgen du sier ordet: dra spissen til en knapp, eller trykk på knappen.",
+        "Trykk på Stram! Snøret holder det som er riktig, og resten glipper ut."
       ],
       "learningGoals": [
-        "Barnet kan dele et talt ord opp i stavelser og sette dem sammen igjen.",
-        "Barnet kan blande stavelser til et helt ord i riktig rekkefølge.",
-        "Barnet bygger språklydbevisstheten som tidlig lesing og staving vokser ut av."
+        "Barnet kan telle stavelsene i et talt ord",
+        "Barnet kan sette sammen stavelser til hele ord i riktig rekkefølge",
+        "Barnet kan høre hvilken stavelse som ikke hører til et ord"
       ]
     },
     "array.equal-groups.2-oa-c-4": {

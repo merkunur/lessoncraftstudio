@@ -180,6 +180,7 @@ const MANIFEST_FILES = [
   'domino-run-activities.json',
   'family-lock-activities.json',
   'photo-syllables-activities.json',
+  'marble-run-activities.json',
   'graph-it-activities.json',
   'field-guide-activities.json',
   'rhyme-shop-activities.json',

@@ -1,0 +1,262 @@
+[
+  {
+    "id": "syllable-builder.muodosta-sana-tavuista.rf-k-2-b",
+    "tool": "marble-run-activity",
+    "task_template": "marble-run",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.2.B",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "note": "The words and their gated splits live in marble-run-core.js ; the gate re-reads approved-words-fi.json. This list mirrors the core so the gates can size each level.",
+      "rounds": [
+        {
+          "id": "short-kuu",
+          "word": "kuu",
+          "split": "kuu"
+        },
+        {
+          "id": "short-vyö",
+          "word": "vyö",
+          "split": "vyö"
+        },
+        {
+          "id": "short-talo",
+          "word": "talo",
+          "split": "ta-lo"
+        },
+        {
+          "id": "short-auto",
+          "word": "auto",
+          "split": "au-to"
+        },
+        {
+          "id": "short-koira",
+          "word": "koira",
+          "split": "koi-ra"
+        },
+        {
+          "id": "short-karhu",
+          "word": "karhu",
+          "split": "kar-hu"
+        },
+        {
+          "id": "short-kala",
+          "word": "kala",
+          "split": "ka-la"
+        },
+        {
+          "id": "short-juna",
+          "word": "juna",
+          "split": "ju-na"
+        },
+        {
+          "id": "short-siili",
+          "word": "siili",
+          "split": "sii-li"
+        },
+        {
+          "id": "short-laiva",
+          "word": "laiva",
+          "split": "lai-va"
+        },
+        {
+          "id": "short-seepra",
+          "word": "seepra",
+          "split": "seep-ra"
+        }
+      ],
+      "levels": {
+        "short": [
+          {
+            "id": "short-kuu",
+            "word": "kuu",
+            "split": "kuu"
+          },
+          {
+            "id": "short-vyö",
+            "word": "vyö",
+            "split": "vyö"
+          },
+          {
+            "id": "short-talo",
+            "word": "talo",
+            "split": "ta-lo"
+          },
+          {
+            "id": "short-auto",
+            "word": "auto",
+            "split": "au-to"
+          },
+          {
+            "id": "short-koira",
+            "word": "koira",
+            "split": "koi-ra"
+          },
+          {
+            "id": "short-karhu",
+            "word": "karhu",
+            "split": "kar-hu"
+          },
+          {
+            "id": "short-kala",
+            "word": "kala",
+            "split": "ka-la"
+          },
+          {
+            "id": "short-juna",
+            "word": "juna",
+            "split": "ju-na"
+          },
+          {
+            "id": "short-siili",
+            "word": "siili",
+            "split": "sii-li"
+          },
+          {
+            "id": "short-laiva",
+            "word": "laiva",
+            "split": "lai-va"
+          },
+          {
+            "id": "short-seepra",
+            "word": "seepra",
+            "split": "seep-ra"
+          }
+        ],
+        "long": [
+          {
+            "id": "long-aurinko",
+            "word": "aurinko",
+            "split": "au-rin-ko"
+          },
+          {
+            "id": "long-hevonen",
+            "word": "hevonen",
+            "split": "he-vo-nen"
+          },
+          {
+            "id": "long-omena",
+            "word": "omena",
+            "split": "o-me-na"
+          },
+          {
+            "id": "long-banaani",
+            "word": "banaani",
+            "split": "ba-naa-ni"
+          },
+          {
+            "id": "long-enkeli",
+            "word": "enkeli",
+            "split": "en-ke-li"
+          },
+          {
+            "id": "long-perhonen",
+            "word": "perhonen",
+            "split": "per-ho-nen"
+          },
+          {
+            "id": "long-tiikeri",
+            "word": "tiikeri",
+            "split": "tii-ke-ri"
+          },
+          {
+            "id": "long-sateenvarjo",
+            "word": "sateenvarjo",
+            "split": "sa-teen-var-jo"
+          },
+          {
+            "id": "long-lumiukko",
+            "word": "lumiukko",
+            "split": "lu-mi-uk-ko"
+          },
+          {
+            "id": "long-mansikka",
+            "word": "mansikka",
+            "split": "man-sik-ka"
+          },
+          {
+            "id": "long-linnunpönttö",
+            "word": "linnunpönttö",
+            "split": "lin-nun-pönt-tö"
+          },
+          {
+            "id": "long-sateenkaari",
+            "word": "sateenkaari",
+            "split": "sa-teen-kaa-ri"
+          },
+          {
+            "id": "long-auringonkukka",
+            "word": "auringonkukka",
+            "split": "au-rin-gon-kuk-ka"
+          }
+        ],
+        "guard": [
+          {
+            "id": "guard-kissa",
+            "word": "kissa",
+            "split": "kis-sa"
+          },
+          {
+            "id": "guard-kukka",
+            "word": "kukka",
+            "split": "kuk-ka"
+          },
+          {
+            "id": "guard-pallo",
+            "word": "pallo",
+            "split": "pal-lo"
+          },
+          {
+            "id": "guard-kakku",
+            "word": "kakku",
+            "split": "kak-ku"
+          },
+          {
+            "id": "guard-kello",
+            "word": "kello",
+            "split": "kel-lo"
+          },
+          {
+            "id": "guard-porkkana",
+            "word": "porkkana",
+            "split": "pork-ka-na"
+          },
+          {
+            "id": "guard-kynttilä",
+            "word": "kynttilä",
+            "split": "kynt-ti-lä"
+          },
+          {
+            "id": "guard-kilpikonna",
+            "word": "kilpikonna",
+            "split": "kil-pi-kon-na"
+          },
+          {
+            "id": "guard-kettu",
+            "word": "kettu",
+            "split": "ket-tu"
+          },
+          {
+            "id": "guard-sukka",
+            "word": "sukka",
+            "split": "suk-ka"
+          }
+        ]
+      }
+    },
+    "theme": null,
+    "slug": {
+      "fi": "muodosta-sana-tavuista"
+    },
+    "page_title": {
+      "fi": "Muodosta sana tavuista — Esiopetuksen fonologia"
+    },
+    "page_intro": {
+      "fi": "Katso kuvaa ja muodosta sana asettamalla tavut järjestykseen. Yhteensopiva OPS 2014:n kanssa — tavujen laskeminen, ääntäminen, yhdistäminen ja erottelu puhutuissa sanoissa."
+    },
+    "kid_prompt_template": "promptBuildSyllables"
+  }
+]

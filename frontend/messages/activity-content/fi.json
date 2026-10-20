@@ -1246,25 +1246,25 @@
     },
     "syllable-builder.muodosta-sana-tavuista.rf-k-2-b": {
       "about": [
-        "Lapsi näkee kuvan ja muodostaa sitä vastaavan sanan asettamalla tavut oikeaan järjestykseen — esimerkiksi kuvasta kala lapsi yhdistää tavut \"ka\" ja \"la\", ja sanasta omena tavut \"o\", \"me\" ja \"na\". Tavut näkyvät erillisinä paloina, ja lapsi rakentaa niistä kokonaisen sanan. Harjoitus on vuorovaikutteinen esiopetuksen fonologian tehtävä, joka toimii suoraan selaimessa ilman tiliä.",
-        "Tärkein ajatus on, että puhuttu sana koostuu pienemmistä äännekokonaisuuksista eli tavuista, jotka voi tunnistaa ja yhdistää sanaksi. Lapsi kuulee ja näkee, miten tavut liittyvät yhteen, ja huomaa, että tavujen järjestyksellä on merkitystä — vasta oikeassa järjestyksessä paloista syntyy tunnistettava sana. Tämä tavutietoisuus on suomen kielen lukutaidon kulmakivi.",
-        "Harjoitus on OPS 2014:n mukainen kielellisen tietoisuuden osa-alueella — lapsi laskee, ääntää, yhdistää ja erottelee tavuja puhutuissa sanoissa. Lapsi saa edetä rauhassa omaan tahtiinsa: ei ajastinta eikä pisteitä."
+        "Jokainen tavu on kuularadan pala. Lapsi rakentaa radan suppilosta alkaen ja päästää kuulan liikkeelle. Kuula lukee radan vieriessään: jokaisen palan tavu siirtyy sanaliuskaan, ja kuula putoaa kuvan kuppiin vain, jos liuska sanoo kuvan nimen. Kis… sa – kissa. Tämä on vuorovaikutteinen fonologisen tietoisuuden harjoitus esiopetukseen ja 1. luokalle, ja se toimii selaimessa.",
+        "Rata näyttää itse, mikä meni vikaan. Jos radassa on aukko, kuula putoaa siitä. Väärässä järjestyksessä kuula lukee jotain muuta ja vierii kupin ohi. Jokaisen palan alussa on askelma: sitä korkeampi, mitä enemmän konsonantteja on ennen ensimmäistä vokaalia. Kahden konsonantin askelman yli kuula ei pääse ensimmäisen palan jälkeen, joten ki-ssa pysähtyy ja kis-sa rullaa perille. Kahden yrityksen jälkeen laudalle ilmestyvät oikean radan varjopalat, ja sana näkyy liuskassa harmaana tavurajoineen.",
+        "Harjoitus tukee OPS 2014:n kielellisen tietoisuuden tavoitteita: sanan rakentamista tavuista oikeassa järjestyksessä ja tavutusta. Kolme tasoa käyttää samaa rataa: lyhyet sanat, pitkät sanat ja Tavuvahti, jossa tavutussääntö ratkaisee. Ylimääräinen pala muistuttaa usein oikeaa palaa, kuten ku ja kuu. Ei ajastinta eikä pisteitä."
       ],
       "practices": [
-        "Tunnistaa sanan tavut ja yhdistää ne kokonaiseksi sanaksi.",
-        "Asettaa tavut oikeaan järjestykseen niin, että syntyy tunnistettava sana.",
-        "Yhdistää kuvan sanaan ja sanan sen tavuihin.",
-        "Kuuntelee jokaisen tavun äänteen ja koko sanan äännettynä."
+        "Sanan rakentaminen tavuista oikeaan järjestykseen",
+        "Lyhyen ja pitkän äänteen erottaminen tavussa",
+        "Tavutussäännön soveltaminen kaksoiskonsonantin ja konsonanttiyhtymän kohdalla",
+        "Tavujen yhdistäminen kokonaiseksi sanaksi"
       ],
       "howToPlay": [
-        "Katso kuvaa ja mieti, mikä sana siihen kuuluu.",
-        "Napauta tavuja järjestyksessä ja aseta ne paikoilleen niin, että niistä muodostuu sana.",
-        "Tarkista sanasi — jos haluat, voit järjestää tavut uudelleen ja yrittää toisin. Ei ajastinta eikä pisteitä."
+        "Napauta kuvaa, niin kuulet sanan.",
+        "Vedä tai napauta tavupalat radalle suppilosta alkaen oikeaan järjestykseen.",
+        "Paina Päästä kuula ja katso, putoaako kuula kuvan kuppiin."
       ],
       "learningGoals": [
-        "Lapsi oppii jakamaan puhutun sanan tavuihin ja yhdistämään tavut sanaksi.",
-        "Lapsi ymmärtää, että tavujen järjestys ratkaisee, mikä sana syntyy.",
-        "Lapsi vahvistaa tavutietoisuutta, joka on lukemaan ja kirjoittamaan oppimisen perusta."
+        "Lapsi rakentaa sanan tavuista oikeassa järjestyksessä",
+        "Lapsi erottaa lyhyen ja pitkän äänteen tavussa",
+        "Lapsi tietää, että ensimmäisen tavun jälkeen uusi tavu alkaa enintään yhdellä konsonantilla"
       ]
     },
     "choice-board.pick-bigger.k-c-c-7": {

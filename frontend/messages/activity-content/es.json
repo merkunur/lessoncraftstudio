@@ -4137,6 +4137,29 @@
         "Distingue la idea de los detalles",
         "Da sus primeros pasos en la comprensión"
       ]
+    },
+    "choice-board.onset-rime-blend.rf-k-2-c": {
+      "about": [
+        "El primer sonido y el resto de la palabra son dos imanes sobre un riel: g y ato. El espacio entre ellos es la pausa, dibujada como una línea punteada y una fila de puntos. El niño o la niña empuja el primer imán hasta que se pega al resto —g … ato se vuelve gato— y luego toca el dibujo de la palabra. Es una actividad interactiva de conciencia fonológica para preescolar que se juega en el navegador.",
+        "Esperan tres dibujos: la palabra, una que rima y otra que empieza con el mismo sonido. Al revisar, los imanes se prueban con el nombre del dibujo elegido, parte por parte. Si se elige el pato para gato, los imanes «ato» se pegan y la «p» salta: el final está bien, el principio no. Después de dos intentos, cada dibujo muestra su primera letra. En el segundo nivel cada sonido tiene su propio imán: g · a · t · o.",
+        "La actividad se basa en los programas de estudio de la SEP: unir sonidos para formar palabras y escuchar con atención el primer sonido. Sin cronómetro y sin puntuación."
+      ],
+      "practices": [
+        "Unir el primer sonido y el resto de una palabra",
+        "Distinguir por el primer sonido una palabra que rima de la palabra correcta",
+        "Distinguir por el final una palabra que empieza igual de la palabra correcta",
+        "Unir sonidos sueltos para formar una palabra"
+      ],
+      "howToPlay": [
+        "Empuja el imán rojo por el riel hasta que se pegue al azul.",
+        "Toca el dibujo de la palabra que formaste.",
+        "Toca Revisar y mira qué partes se pegan y cuáles se empujan."
+      ],
+      "learningGoals": [
+        "El niño o la niña une el primer sonido y el resto de una palabra",
+        "El niño o la niña usa el primer sonido para distinguir una palabra que rima",
+        "El niño o la niña une sonidos sueltos para formar una palabra"
+      ]
     }
   }
 }

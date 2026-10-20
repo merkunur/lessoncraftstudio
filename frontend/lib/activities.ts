@@ -181,6 +181,7 @@ const MANIFEST_FILES = [
   'family-lock-activities.json',
   'photo-syllables-activities.json',
   'marble-run-activities.json',
+  'blend-magnets-activities.json',
   'graph-it-activities.json',
   'field-guide-activities.json',
   'rhyme-shop-activities.json',

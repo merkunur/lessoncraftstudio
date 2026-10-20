@@ -4196,6 +4196,29 @@
         "Diferenciar a ideia principal de um detalhe da história",
         "Escutar com atenção e compreender o que o texto conta, alinhados à BNCC"
       ]
+    },
+    "choice-board.onset-rime-blend.rf-k-2-c": {
+      "about": [
+        "O primeiro som e o resto da palavra são dois ímãs sobre um trilho: g e ato. O espaço entre eles é a pausa, desenhada como uma linha pontilhada e uma fileira de pontinhos. A criança empurra o primeiro ímã até ele grudar no resto — g … ato vira gato — e depois toca na figura da palavra. É uma atividade interativa de consciência fonológica para o 1º ano, que funciona no navegador.",
+        "Três figuras esperam: a palavra, uma que rima e outra que começa com o mesmo som. Ao verificar, os ímãs são testados com o nome da figura escolhida, parte por parte. Quem escolhe o rato para gato vê os ímãs “ato” grudarem e o “r” pular longe: o final está certo, o começo não. Depois de duas tentativas, cada figura mostra a sua primeira letra. No segundo nível, cada som tem o seu ímã: g · a · t · o.",
+        "A atividade se apoia na BNCC: juntar sons para formar palavras e escutar com atenção o primeiro som. Sem cronômetro e sem pontuação."
+      ],
+      "practices": [
+        "Juntar o primeiro som e o resto de uma palavra",
+        "Distinguir pelo primeiro som uma palavra que rima da palavra certa",
+        "Distinguir pelo final uma palavra que começa igual",
+        "Juntar sons separados para formar uma palavra"
+      ],
+      "howToPlay": [
+        "Empurre o ímã vermelho pelo trilho até ele grudar no azul.",
+        "Toque na figura da palavra que você formou.",
+        "Toque em Verificar e veja quais partes grudam e quais se empurram."
+      ],
+      "learningGoals": [
+        "A criança junta o primeiro som e o resto de uma palavra",
+        "A criança usa o primeiro som para distinguir uma palavra que rima",
+        "A criança junta sons separados para formar uma palavra"
+      ]
     }
   }
 }

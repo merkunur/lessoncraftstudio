@@ -2839,6 +2839,29 @@
         "Skilja rim från ord som bara börjar likadant",
         "Säga ett nytt ord som rimmar"
       ]
+    },
+    "choice-board.onset-rime-blend.rf-k-2-c": {
+      "about": [
+        "Det första ljudet och resten av ordet är två magneter på en skena: k och att. Avståndet mellan dem är pausen, ritad som en prickad linje och en rad pausprickar. Barnet skjuter den första magneten framåt tills den klickar fast i resten – k … att blir katt – och trycker sedan på bilden av ordet. En interaktiv övning i att ljuda ihop, direkt i webbläsaren.",
+        "Tre bilder väntar: ordet, ett rimord och ett ord som börjar med samma ljud. När barnet trycker på Kolla görs ett magnettest med den valda bildens namn, del för del. Väljer man hatten vid katt fastnar ”att”-magneterna medan ”h” hoppar bort: slutet stämmer, början gör det inte. Efter två försök visar varje bild sin första bokstav. På den andra nivån har varje ljud en egen magnet, k · a · tt.",
+        "Övningen följer Lgr22: att ljuda ihop ord och höra det första ljudet tydligt. Ingen tidtagning och inga poäng."
+      ],
+      "practices": [
+        "Att ljuda ihop det första ljudet och resten av ett ord",
+        "Att skilja ett rimord från rätt ord med hjälp av det första ljudet",
+        "Att skilja ett ord med samma första ljud från rätt ord med hjälp av slutet",
+        "Att ljuda ihop tre eller fyra enskilda ljud till ett ord"
+      ],
+      "howToPlay": [
+        "Skjut den röda magneten längs skenan tills den klickar fast i den blå.",
+        "Tryck på bilden av ordet du har gjort.",
+        "Tryck på Kolla och se vilka delar som fastnar och vilka som stöter bort varandra."
+      ],
+      "learningGoals": [
+        "Barnet ljudar ihop det första ljudet och resten av ett ord till ett helt ord",
+        "Barnet skiljer ett rimord från rätt ord med hjälp av det första ljudet",
+        "Barnet ljudar ihop tre eller fyra enskilda ljud till ett ord"
+      ]
     }
   }
 }

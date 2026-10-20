@@ -15,6 +15,12 @@
    Usage: node scripts/local-test-choice-board-onsetrime.js [--locales=en,nl,da] [--shot]
    ===================================================================== */
 'use strict';
+/* RETIRED 2026-10-20: the RF.K.2.c onset-rime row left choice-board-activities.json for its own instrument (rebuild #54, the
+   Blending Magnets). Its gates are scripts/verify-blend-magnets-core.js + mutate-blend-magnets.js + local-test-blend-magnets.js. */
+if (!JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'choice-board-activities.json'), 'utf8')).some((r) => r.id === 'choice-board.onset-rime-blend.rf-k-2-c')) {
+  console.log('local-test-choice-board-onsetrime: retired — the row is now the Blending Magnets (node scripts/verify-blend-magnets-core.js)');
+  process.exit(0);
+}
 const http = require('http');
 const fs = require('fs');
 const path = require('path');

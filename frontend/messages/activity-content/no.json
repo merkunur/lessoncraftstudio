@@ -2044,6 +2044,29 @@
         "Barnet sammenligner ord ut fra lyden på samme plass",
         "Barnet kjenner igjen en lyd på hvordan den høres, ikke på bokstaven"
       ]
+    },
+    "pepper-sound-swap.substitute.rf-k-2-e": {
+      "about": [
+        "Et ord ligger på et vendekort med lydene på brikker nederst: s · o · pp. Papegøyen Pepper kommer med en ny brikke, m, til den første lyden. Barnet gjetter hvilket bilde kortet kommer til å vise, og når man trykker på Sjekk, skjer byttet: Den gamle brikken spretter ut, m-en glir inn, og kortet snur seg til en mopp. En interaktiv øvelse i å høre lyder, som kjører i nettleseren.",
+        "Kortet viser alltid ordet brikkene faktisk danner. På nivået Bytt selv skyver barnet brikker fra en rad opp på kortet; danner brikkene et ord uten bilde, blir kortet grått og viser bare bokstavene. Et annet nivå bytter lyden i midten eller til slutt.",
+        "Øvelsen følger LK20: å bytte ut lyder og lage nye ord. Ingen tidtaking og ingen poeng."
+      ],
+      "practices": [
+        "Å bytte én lyd i et kort ord og lage et nytt ord",
+        "Å høre at plassen til en lyd betyr noe: først, i midten eller til slutt",
+        "Å skille det riktige nye ordet fra et ord som ligner",
+        "Å bytte en brikke selv og se hvilket ord det blir"
+      ],
+      "howToPlay": [
+        "Se på ordet på kortet og på Peppers nye brikke.",
+        "Trykk på bildet du tror kortet blir til, eller bytt selv en brikke.",
+        "Trykk på Sjekk og se kortet snu seg til ordet brikkene faktisk danner."
+      ],
+      "learningGoals": [
+        "Barnet bytter én lyd og lager et nytt ord",
+        "Barnet holder styr på hvilken lyd som endret seg, og hvor",
+        "Barnet ser at hver ny lyd gir et nytt ord"
+      ]
     }
   }
 }

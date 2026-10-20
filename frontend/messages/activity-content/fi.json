@@ -1990,6 +1990,29 @@
         "Lapsi vertaa sanoja saman kohdan äänteen perusteella",
         "Lapsi tunnistaa äänteen sen kuulosta, ei kirjaimesta"
       ]
+    },
+    "pepper-sound-swap.substitute.rf-k-2-e": {
+      "about": [
+        "Sana on kääntökortilla, ja sen äänteet ovat laatoilla kortin alareunassa: t · u · s · s · i. Papukaija Pepper tuo uuden laatan, b, ensimmäisen äänteen tilalle. Lapsi arvaa, minkä kuvan kortti kohta näyttää, ja kun painetaan Tarkista, vaihto tapahtuu: vanha laatta hyppää pois, b liukuu tilalle ja kortti kääntyy bussiksi. Tämä on vuorovaikutteinen äännetietoisuuden harjoitus, joka toimii selaimessa.",
+        "Kortti näyttää aina sen sanan, jonka laatat oikeasti muodostavat. Tasolla Vaihda itse lapsi työntää laattoja rivistä kortille; jos laatoista tulee sana, jolle ei ole kuvaa, kortti muuttuu harmaaksi ja näyttää vain kirjaimet. Toinen taso vaihtaa sanan keskimmäisen tai viimeisen äänteen.",
+        "Harjoitus tukee OPS 2014:n kielellisen tietoisuuden tavoitteita: äänteen vaihtamista niin, että syntyy uusi sana. Ei ajastinta eikä pisteitä."
+      ],
+      "practices": [
+        "Yhden äänteen vaihtaminen niin, että syntyy uusi sana",
+        "Sen kuuleminen, että äänteen paikalla on väliä: alussa, keskellä tai lopussa",
+        "Oikean uuden sanan erottaminen samankaltaisesta sanasta",
+        "Laatan vaihtaminen itse ja sen katsominen, mikä sana syntyy"
+      ],
+      "howToPlay": [
+        "Katso kortin sanaa ja Pepperin uutta laattaa.",
+        "Napauta kuvaa, jonka uskot kortin näyttävän, tai vaihda laatta itse.",
+        "Paina Tarkista ja katso, kuinka kortti kääntyy siihen sanaan, jonka laatat muodostavat."
+      ],
+      "learningGoals": [
+        "Lapsi vaihtaa äänteen ja muodostaa uuden sanan",
+        "Lapsi muistaa, mikä äänne vaihtui ja missä",
+        "Lapsi huomaa, että uusi äänne tekee uuden sanan"
+      ]
     }
   }
 }

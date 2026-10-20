@@ -3142,25 +3142,25 @@
     },
     "pepper-sound-swap.substitute.rf-k-2-e": {
       "about": [
-        "Pepper the parrot swaps one sound to make a brand-new word — children hear 'cat,' change the first sound to /h/ so it becomes 'hat,' then tap the picture of the new word, working through swaps like pan to fan and cat to cap. Headphones help in this interactive Kindergarten listening activity, which runs right in the browser with no account.",
-        "The big idea is that a single sound can be the whole difference between two words. The child taps any picture to hear its name, holds the starting word in mind, makes the swap in their head, then finds the result. The choices are picked to be close: for 'cat' to 'hat,' the options are hat, bat, and dog, so a child has to track the exact sound that changed instead of just grabbing a word that sounds similar. Because there are no letters to read, this is pure phonemic awareness — playing with the sounds inside spoken words.",
-        "It is aligned to Common Core RF.K.2.e — adding and substituting individual sounds in simple words to make new words. No timer, no score — just calm, playful practice."
+        "A word sits on a flip card, its sounds on tiles along the bottom: c · a · t. Pepper the parrot brings a new tile, h, for the first sound. The child guesses which picture the card will turn into, then Check plays the swap: the old tile pops out, the h drops in, and the card flips over to a hat. It is an interactive Kindergarten phonemic awareness activity that plays in the browser.",
+        "The card always shows the word the tiles really make. Guess the bat and the card still turns into a hat, and the bat shows its own tiles with the one that differs marked. In the swap level the child pushes tiles in from a tray: put b into cat and the card flips to a bat, a real word but not the goal; tiles that make a word with no picture turn the card grey and show only its letters. Further levels change the middle or last sound, follow word chains, and add a sound at the start or the end.",
+        "It is aligned to Common Core RF.K.2.e, adding or substituting sounds in simple words to make new words. No timer and no score."
       ],
       "practices": [
-        "Hear the separate sounds inside a spoken word",
-        "Swap one sound — at the beginning or the end — to make a new word",
-        "Tell apart words that differ by only a single sound, like cat, bat, and hat",
-        "Build the sound-swapping skill that decoding and spelling grow from"
+        "Changing one sound in a short word to make a new word",
+        "Hearing that the place of a sound matters: first, middle or last",
+        "Telling the right new word from one that shares the other sounds",
+        "Adding a sound at the start or the end of a word"
       ],
       "howToPlay": [
-        "Tap a picture to hear its name, like 'cat.'",
-        "Listen to the sound Pepper wants you to swap in, then tap the picture of the new word — cat with an /h/ becomes hat.",
-        "Take your time and try again if needed — there is no timer and no score."
+        "Look at the word on the card and at Pepper’s new tile.",
+        "Tap the picture you think the card will turn into, or swap a tile yourself.",
+        "Press Check and watch the card flip to the word the tiles really make."
       ],
       "learningGoals": [
-        "Add and substitute sounds to make new words — the focus of Common Core RF.K.2.e",
-        "Understand that changing one sound changes the whole word",
-        "Build the phonemic awareness that reading and spelling depend on"
+        "The child changes one sound to make a new word",
+        "The child keeps track of which sound changed and where",
+        "The child adds a sound to a word and hears the new word"
       ]
     },
     "picture-story.read.rl-k-1": {

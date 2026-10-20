@@ -4219,6 +4219,29 @@
         "A criança usa o primeiro som para distinguir uma palavra que rima",
         "A criança junta sons separados para formar uma palavra"
       ]
+    },
+    "pepper-sound-swap.substitute.rf-k-2-e": {
+      "about": [
+        "Uma palavra fica num cartão-surpresa que vira, com os sons em peças embaixo: m · ão. A Pepper, a papagaia, traz uma peça nova, p, para o primeiro som. A criança adivinha que figura o cartão vai mostrar e, ao tocar em Verificar, a troca acontece: a peça velha pula fora, entra o p e o cartão vira para o pão. É uma atividade interativa de consciência fonêmica que funciona no navegador.",
+        "O cartão sempre mostra a palavra que as peças realmente formam. No nível Você troca, a criança empurra peças de uma fileira para o cartão; se as peças formam uma palavra sem figura, o cartão fica cinza e mostra só as letras. Outro nível troca o som do meio ou o do final.",
+        "A atividade se apoia na BNCC: trocar sons para formar palavras novas. Sem cronômetro e sem pontuação."
+      ],
+      "practices": [
+        "Trocar um som de uma palavra para formar outra",
+        "Perceber que o lugar do som importa: no começo, no meio ou no final",
+        "Diferenciar a palavra nova certa de uma parecida",
+        "Trocar uma peça sozinho e ver que palavra se forma"
+      ],
+      "howToPlay": [
+        "Olhe a palavra no cartão e a peça nova da Pepper.",
+        "Toque na figura que você acha que vai aparecer, ou troque você mesmo uma peça.",
+        "Toque em Verificar e veja o cartão virar para a palavra que as peças formam."
+      ],
+      "learningGoals": [
+        "A criança troca um som e forma uma palavra nova",
+        "Lembra qual som mudou e onde",
+        "Percebe que cada som novo dá uma palavra nova"
+      ]
     }
   }
 }

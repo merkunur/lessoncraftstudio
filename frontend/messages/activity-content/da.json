@@ -2036,6 +2036,29 @@
         "Barnet sammenligner ord ud fra lyden samme sted",
         "Barnet kender en lyd på dens klang, ikke på bogstavet"
       ]
+    },
+    "pepper-sound-swap.substitute.rf-k-2-e": {
+      "about": [
+        "Et ord ligger på et vendekort med lydene på brikker forneden: s · o · k. Papegøjen Pepper kommer med en ny brik, k, til den første lyd. Barnet gætter, hvilket billede kortet vil vise, og når man trykker på Tjek, sker skiftet: Den gamle brik hopper ud, k’et glider ind, og kortet vender om til en kok. En interaktiv øvelse i at høre lyde, som kører i browseren.",
+        "Kortet viser altid det ord, brikkerne faktisk danner. På niveauet Skift selv skubber barnet brikker fra en række op på kortet; danner brikkerne et ord uden billede, bliver kortet gråt og viser kun bogstaverne.",
+        "Øvelsen følger Fælles Mål for dansk: at skifte lyde ud og lave nye ord. Intet ur og ingen point."
+      ],
+      "practices": [
+        "At skifte den første lyd i et kort ord ud og lave et nyt ord",
+        "At høre, at det nye ord afhænger af, hvilken lyd der skiftes",
+        "At skelne det rigtige nye ord fra et ord, der ligner",
+        "At skifte en brik selv og se, hvilket ord det bliver"
+      ],
+      "howToPlay": [
+        "Se på ordet på kortet og på Peppers nye brik.",
+        "Tryk på det billede, du tror kortet bliver til, eller skift selv en brik.",
+        "Tryk på Tjek, og se kortet vende om til det ord, brikkerne faktisk danner."
+      ],
+      "learningGoals": [
+        "Barnet skifter en lyd ud og laver et nyt ord",
+        "Barnet holder styr på, hvilken lyd der blev skiftet",
+        "Barnet ser, at hver ny lyd giver et nyt ord"
+      ]
     }
   }
 }

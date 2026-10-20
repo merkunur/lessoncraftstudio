@@ -4182,6 +4182,29 @@
         "Il bambino usa il primo suono per distinguere una parola in rima",
         "Il bambino unisce suoni singoli per formare una parola"
       ]
+    },
+    "pepper-sound-swap.substitute.rf-k-2-e": {
+      "about": [
+        "Una parola sta su una carta che si gira, con i suoni sulle tessere in basso: t · o · r · t · a. Pepper il pappagallo porta una tessera nuova, p, per il primo suono. Il bambino indovina quale disegno mostrerà la carta, e con Controlla avviene lo scambio: la tessera vecchia salta fuori, entra la p e la carta si gira sulla porta. È un’attività interattiva di consapevolezza fonologica che si gioca nel browser.",
+        "La carta mostra sempre la parola che le tessere formano davvero. Nel livello Cambia tu il bambino spinge le tessere da una fila sulla carta; se le tessere formano una parola senza disegno, la carta diventa grigia e mostra solo le lettere. Un altro livello cambia il suono in mezzo o quello finale.",
+        "L’attività segue le Indicazioni nazionali: cambiare i suoni per formare parole nuove. Senza cronometro e senza punteggio."
+      ],
+      "practices": [
+        "Cambiare un suono in una parola per formarne un’altra",
+        "Sentire che il posto del suono conta: all’inizio, in mezzo o alla fine",
+        "Distinguere la parola nuova giusta da una che le somiglia",
+        "Cambiare una tessera da solo e vedere quale parola esce"
+      ],
+      "howToPlay": [
+        "Guarda la parola sulla carta e la tessera nuova di Pepper.",
+        "Tocca il disegno che secondo te uscirà, oppure cambia tu una tessera.",
+        "Premi Controlla e guarda la carta girarsi sulla parola che formano le tessere."
+      ],
+      "learningGoals": [
+        "Il bambino cambia un suono e forma una parola nuova",
+        "Ricorda quale suono è cambiato e dove",
+        "Vede che ogni suono nuovo dà una parola nuova"
+      ]
     }
   }
 }

@@ -19,6 +19,11 @@ const REPO = path.join(__dirname, '..');
 const CORE = path.join(REPO, 'mini tools', 'author-illustrator-core.js');
 const MANIFEST = path.join(REPO, 'mini tools', 'inky-book-workshop-activities.json');
 const CHANCE = 0.45;
+/* Row 66 rebuild (2026-10-21): inky-book-workshop.author-illustrator.rl-k-6 runs THE TWO INKS on its own inky-workshop-core.js; its params
+   are a mirror, no longer the rounds this gate reads. author-illustrator-core.js is untouched; the row's gates are
+   verify-inky-workshop-core.js, mutate-inky-workshop.js and local-test-inky-book-workshop.js. */
+{ const row = JSON.parse(fs.readFileSync(MANIFEST, 'utf8'))[0];
+  if (row.tool === 'inky-book-workshop-activity' && !(row.params && row.params.rounds)) { console.log('verify-author-illustrator-core: the row runs The Two Inks (inky-workshop-core.js) — see verify-inky-workshop-core.js. Nothing to check here.'); process.exit(0); } }
 
 function loadCore() { const src = fs.readFileSync(CORE, 'utf8'); const win = {}; new Function('window', src)(win); if (!win.AuthorIllustratorCore) throw new Error('core did not attach window.AuthorIllustratorCore'); return win.AuthorIllustratorCore; }
 

@@ -816,25 +816,25 @@
     },
     "inky-book-workshop.author-illustrator.rl-k-6": {
       "about": [
-        "Tauch ein in „Inkys Buchwerkstatt“: Inky, der Tintenfisch, macht Bücher mit Tinte – und dein Kind packt mit an. Auf dem Tisch wird gerade gearbeitet: Mal werden die Wörter geschrieben, mal die Bilder gezeichnet, mal wird vorgelesen. Dein Kind schaut hin und tippt, wessen Aufgabe das ist – Autor, Illustrator oder Leser.",
-        "So lernt dein Kind ganz nebenbei, wie ein Buch entsteht: Jedes Buch hat einen Autor, der die Wörter und die Geschichte schreibt, und einen Illustrator, der die Bilder dazu zeichnet. Und dein Kind selbst ist der Leser, der das fertige Buch genießt. Diese Rollen zu kennen, ist ein erster Schritt in die Buch- und Medienkunde – dein Kind versteht, dass hinter jedem Buch echte Menschen mit unterschiedlichen Aufgaben stecken.",
-        "„Inkys Buchwerkstatt“ ist ganz ohne Zeitdruck oder Punkte – dein Kind darf in seinem eigenen Tempo entdecken und so oft tippen, wie es mag. Die Aktivität passt zum Lehrplan der Grundschule im Bereich „Lesen – mit Texten und Medien umgehen“, in dem Kinder Bücher kennenlernen und verstehen, wie sie gemacht sind."
+        "Inky, der Tintenfisch, druckt die Seiten eines kleinen Buches – aber jede Seite kommt halb fertig heraus: ohne Bild oder ohne Wörter. Das Kind bringt jede Seite zu der Person, die sie fertig machen kann. Die Tinte des Autors macht nur Wörter, die Tinte des Illustrators nur Bilder, und der Leser hat gar keine Tinte und freut sich über eine fertige Seite. Bringt das Kind „Ein kleines Boot fuhr hinaus.“ zum Illustrator, erscheint das Boot im leeren Rahmen. Eine interaktive Leseübung, die im Browser läuft.",
+        "Die falsche Person macht trotzdem ihr eigenes Zeichen – nur an der falschen Stelle: Der Autor quetscht winzige Wörter ins Bildfeld, der Illustrator malt ein gestauchtes Bild auf die Schreiblinien, und der Leser bleibt an der Lücke stehen. Die Tinte verläuft, und die Seite kommt zurück. Ist ein Buch fertig, setzt das Kind den Autor und den Illustrator auf den Buchdeckel. Bei „Nur Namensschilder“ schließen sich die Arbeitsplätze, und nur die Wörter Autor, Illustrator und Leser entscheiden.",
+        "Die Übung passt zum Lehrplan Deutsch, Bereich Lesen – mit Texten und Medien umgehen: Autor und Illustrator eines Buches benennen und sagen, was sie jeweils machen. Acht kleine Bücher, jede Seite ein Bild aus der Bildbibliothek. Ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "Die Buchrollen Autor, Illustrator und Leser unterscheiden",
-        "Erkennen, wer die Wörter schreibt und wer die Bilder zeichnet",
-        "Verstehen, wie ein Buch gemacht wird",
-        "Erste Begriffe der Buch- und Medienkunde aufbauen"
+        "Sagen, was ein Autor macht: Er schreibt die Wörter",
+        "Sagen, was ein Illustrator macht: Er malt die Bilder",
+        "Erkennen, was einer Seite noch fehlt: Wörter oder ein Bild",
+        "Die Wörter Autor, Illustrator und Leser lesen"
       ],
       "howToPlay": [
-        "Schau dir an, welche Arbeit gerade am Buch gemacht wird.",
-        "Überlege: Werden Wörter geschrieben, Bilder gezeichnet oder wird gelesen?",
-        "Tippe auf Autor, Illustrator oder Leser – wessen Aufgabe ist das?"
+        "Schau dir die Seite an: Fehlt das Bild oder fehlen die Wörter?",
+        "Zieh die Seite zu der Person, die sie fertig machen kann, oder tippe die Person an.",
+        "Ist das Buch fertig, setz den Autor und den Illustrator auf den Buchdeckel."
       ],
       "learningGoals": [
-        "Dein Kind benennt die Rollen Autor, Illustrator und Leser sicher.",
-        "Dein Kind erkennt, dass der Autor die Wörter schreibt und der Illustrator die Bilder zeichnet.",
-        "Dein Kind versteht, dass ein Buch von verschiedenen Menschen gemacht wird."
+        "Das Kind benennt Autor und Illustrator eines Buches",
+        "Das Kind sagt, was Autor und Illustrator jeweils machen",
+        "Das Kind weiß, dass eine Geschichte mit Wörtern und Bildern erzählt wird"
       ]
     },
     "juniper-story-lantern.central-message.rl-1-2": {

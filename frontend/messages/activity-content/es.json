@@ -401,25 +401,25 @@
     },
     "inky-book-workshop.author-illustrator.rl-k-6": {
       "about": [
-        "Inky el pulpo hace libros con su tinta y necesita ayuda para repartir el trabajo. En cada ronda aparece un libro y un aviso de lo que alguien acaba de hacer; su hijo/a toca a quién le corresponde. Por ejemplo, ante «un libro de dibujos de un dragón dormilón» y el aviso «Alguien DIBUJÓ las imágenes», la respuesta es el ilustrador 🎨, no el autor ✍️ —porque el autor es quien escribe las palabras.",
-        "Detrás del juego hay una idea que un lector necesita temprano: un libro no aparece solo, lo hacen personas, y cada una hace algo distinto. La persona que escribe las palabras es el autor. Quien hace las ilustraciones es el ilustrador. Y quien lo abre y lo disfruta es el lector: su hijo/a. Son tres oficios alrededor de un mismo libro, y distinguirlos es el primer paso para entender cómo se hace lo que uno lee.",
-        "Es el mismo gesto que hace la maestra cuando levanta un libro y pregunta: «¿Quién escribió este libro? ¿Y quién lo ilustró?». Las dos palabras vienen impresas en la portada de los libros que su hijo/a ya tiene en las manos —ahí están, junto al título—, así que no son palabras nuevas: son palabras que por fin se pueden leer. Sin cronómetro, sin puntaje y sin cuenta; se juega en el navegador."
+        "Inky el pulpo imprime las páginas de un librito, pero cada página sale a medias: sin dibujo o sin palabras. El niño lleva cada página a la persona que puede terminarla. La tinta del autor solo hace palabras, la tinta del ilustrador solo hace dibujos, y el lector no tiene tinta: disfruta una página terminada. Lleva «Un barquito salió a navegar.» al ilustrador y el barco aparece en el marco vacío. Es una actividad interactiva de lectura que se juega en el navegador.",
+        "La persona equivocada igual hace su propia marca, pero en el lugar equivocado: el autor amontona palabras diminutas en el recuadro del dibujo, el ilustrador pinta un dibujo aplastado sobre los renglones y el lector se detiene en el hueco. La tinta escurre y la página regresa. Cuando un libro está listo, el niño pone al autor y al ilustrador en la portada. Con Solo letreros, las mesas de trabajo se cierran y solo deciden las palabras autor, ilustrador y lector.",
+        "Está alineada con los programas de estudio de la SEP: nombrar al autor y al ilustrador de un libro y decir qué hace cada uno. Ocho libritos, cada página con un dibujo de la biblioteca de imágenes. Sin tiempo límite y sin puntos."
       ],
       "practices": [
-        "Reconocer que un libro lo hacen varias personas y cada una tiene un trabajo distinto",
-        "Distinguir al autor (escribe las palabras) del ilustrador (hace las ilustraciones)",
-        "Ubicar al lector como quien recibe el libro, no como quien lo hace",
-        "Leer solo/a un aviso corto y decidir con esa información"
+        "Decir qué hace un autor: escribe las palabras",
+        "Decir qué hace un ilustrador: hace los dibujos",
+        "Ver qué le falta a una página: palabras o un dibujo",
+        "Leer las palabras autor, ilustrador y lector"
       ],
       "howToPlay": [
-        "Lean juntos el aviso de Inky: ¿alguien escribió, alguien dibujó o alguien está leyendo?",
-        "Pregúntele a su hijo/a de quién es ese trabajo y por qué",
-        "El niño toca la tarjeta: ✍️ autor, 🎨 ilustrador o 📖 lector; si no le atina, Inky lo invita a mirar otra vez"
+        "Mira la página: ¿falta el dibujo o faltan las palabras?",
+        "Arrastra la página hasta la persona que puede terminarla, o toca a esa persona.",
+        "Cuando el libro esté listo, pon al autor y al ilustrador en la portada."
       ],
       "learningGoals": [
-        "Su hijo/a identifica quién escribe y quién ilustra un libro, y sabe que son trabajos distintos",
-        "Reconoce las palabras «autor» e «ilustrador» y las relaciona con la portada de sus libros",
-        "Entiende que detrás de cada libro hay personas con oficios distintos, y que leer es su parte"
+        "El niño nombra al autor y al ilustrador de un libro",
+        "El niño dice qué hace el autor y qué hace el ilustrador",
+        "El niño sabe que un cuento se cuenta con palabras y con dibujos"
       ]
     },
     "juniper-story-lantern.central-message.rl-1-2": {

@@ -3048,6 +3048,29 @@
         "Barnet ser att lösningen måste passa problemet",
         "Barnet återberättar en berättelse med först, sedan och till sist"
       ]
+    },
+    "inky-book-workshop.author-illustrator.rl-k-6": {
+      "about": [
+        "Bläckfisken Inky trycker sidorna i en liten bok, men varje sida kommer ut halvfärdig: utan bild eller utan ord. Barnet lämnar varje sida till den person som kan göra klart den. Författarens bläck gör bara ord, illustratörens bläck bara bilder, och läsaren har inget bläck alls – hon njuter av en färdig sida. Lämna ”En liten båt seglade ut.” till illustratören, så dyker båten upp i den tomma ramen. En interaktiv läsövning som spelas i webbläsaren.",
+        "Fel person sätter ändå sitt eget märke – fast på fel ställe: författaren klämmer in pyttesmå ord i bildrutan, illustratören målar en hopklämd bild på skrivlinjerna, och läsaren stannar vid luckan. Bläcket rinner och sidan kommer tillbaka. När en bok är klar sätter barnet författaren och illustratören på omslaget. Med Bara namnskyltar stängs arbetsplatserna, och bara orden författare, illustratör och läsare avgör.",
+        "Övningen följer Lgr22 i svenska: att kunna nämna författare och illustratör till en bok och säga vad var och en gör. Åtta små böcker, varje sida en bild ur bildbiblioteket. Utan tidspress och utan poäng."
+      ],
+      "practices": [
+        "Att säga vad en författare gör: skriver orden",
+        "Att säga vad en illustratör gör: ritar bilderna",
+        "Att se vad en sida saknar: ord eller en bild",
+        "Att läsa orden författare, illustratör och läsare"
+      ],
+      "howToPlay": [
+        "Titta på sidan: saknas bilden eller orden?",
+        "Dra sidan till den person som kan göra klart den, eller tryck på personen.",
+        "När boken är klar sätter du författaren och illustratören på omslaget."
+      ],
+      "learningGoals": [
+        "Barnet nämner författaren och illustratören till en bok",
+        "Barnet säger vad författaren och illustratören gör",
+        "Barnet vet att en berättelse berättas med både ord och bilder"
+      ]
     }
   }
 }

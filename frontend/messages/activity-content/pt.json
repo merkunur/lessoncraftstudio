@@ -3600,25 +3600,25 @@
     },
     "inky-book-workshop.author-illustrator.rl-k-6": {
       "about": [
-        "Na oficina do Tinoco, o polvo que faz livros com tinta, cada livro guarda uma pequena história de quem o fez. A criança vê um trabalho sendo feito num livro — alguém escreveu as palavras, alguém desenhou as figuras ou alguém está lendo a história — e toca em quem faz esse trabalho. Se alguém desenhou as figuras coloridas da capa, é o trabalho do ilustrador! E se alguém pensou e escreveu as palavras da história, esse é o autor. Aos poucos, com o Tinoco por perto, a criança vai descobrindo de quem é cada tarefa.",
-        "Nesta atividade, a criança pratica reconhecer que todo livro tem um autor (quem escreve as palavras), um ilustrador (quem desenha as figuras) e um leitor (quem lê a história) — e entende a função de cada um. Ela aprende a olhar para um livro e perceber os diferentes trabalhos que se juntam para que a história exista. Isso ajuda a criança a entender como um livro é feito, do começo ao fim. E, de quebra, ela passa a valorizar quem escreve e quem ilustra os livros que ela tanto adora.",
-        "A atividade não pede cadastro nem login: é só abrir e brincar. Não há cronômetro, pontuação nem competição — cada criança segue no seu ritmo, com calma e sem pressão. Quando ela erra, o Tinoco dá uma dica gentil e convida a tentar de novo, sempre com carinho e sem constrangimento. Tudo alinhado à BNCC, no trabalho de reconhecer o autor e o ilustrador de um livro e a função de cada um — pensado para o 1º ano."
+        "Tinoco, o polvo, imprime as páginas de um livrinho, mas cada página sai pela metade: sem figura ou sem palavras. A criança leva cada página até a pessoa que pode terminá-la. A tinta do autor só faz palavras, a tinta do ilustrador só faz figuras, e o leitor não tem tinta nenhuma e curte uma página pronta. Leve “Um barquinho saiu para navegar.” ao ilustrador e o barco aparece na moldura vazia. É uma atividade interativa de leitura que funciona no navegador.",
+        "A pessoa errada faz mesmo assim a sua marca, só que no lugar errado: o autor espreme palavrinhas minúsculas no quadro da figura, o ilustrador pinta uma figura amassada nas linhas e o leitor para no buraco. A tinta escorre e a página volta. Quando um livro fica pronto, a criança coloca o autor e o ilustrador na capa. Com Só plaquinhas, as mesas se fecham e só as palavras autor, ilustrador e leitor decidem.",
+        "A atividade está alinhada à BNCC: nomear o autor e o ilustrador de um livro e dizer o que cada um faz. Oito livrinhos, cada página com uma figura da biblioteca de imagens. Sem cronômetro e sem pontos."
       ],
       "practices": [
-        "Reconhecer o autor, o ilustrador e o leitor de um livro.",
-        "Entender a função de cada um: escrever as palavras, desenhar as figuras e ler a história.",
-        "Perceber como um livro é feito, do texto às ilustrações.",
-        "Valorizar quem escreve e quem ilustra os livros que a criança adora."
+        "Dizer o que um autor faz: escreve as palavras",
+        "Dizer o que um ilustrador faz: desenha as figuras",
+        "Ver o que falta numa página: palavras ou uma figura",
+        "Ler as palavras autor, ilustrador e leitor"
       ],
       "howToPlay": [
-        "Olhe o trabalho que está sendo feito no livro do Tinoco.",
-        "Descubra de quem é esse trabalho: o autor, o ilustrador ou o leitor.",
-        "Toque em quem faz esse trabalho — e o Tinoco comemora com você!"
+        "Olhe a página: falta a figura ou faltam as palavras?",
+        "Arraste a página até a pessoa que pode terminá-la, ou toque nessa pessoa.",
+        "Quando o livro ficar pronto, coloque o autor e o ilustrador na capa."
       ],
       "learningGoals": [
-        "Eu sei quem é o autor e quem é o ilustrador de um livro.",
-        "Eu entendo que o autor escreve as palavras e o ilustrador desenha as figuras.",
-        "Eu percebo que o leitor é quem lê a história do livro."
+        "A criança nomeia o autor e o ilustrador de um livro",
+        "A criança diz o que o autor e o ilustrador fazem",
+        "A criança sabe que uma história é contada com palavras e com figuras"
       ]
     },
     "pim-comma-mail.letter-commas.l-2-2-b": {

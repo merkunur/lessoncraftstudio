@@ -99,3 +99,8 @@ ORDER row 72 · id `opposites.antonyms.k-l-5-b` (kept).
   - fi «hyväntuulinen» broke mid-word in a same-or-opposite end zone; the zones now grow to fit the word;
   - a filled blank left a gap before the full stop ("closed .").
   - a parked card shrank to 82 %, its picture under the floor; it now keeps full size.
+
+## Live (2026-10-21)
+- Commit `abe537ed`, deployed (`git pull` → cp the four mini-tools files → `deploy.sh`), preview webp uploaded first. Server: 132 GB free (69 %).
+- `live-verify-opposites-rod.js`: 59 pass, 0 fail on the second run (the first run after the deploy races the page cache for the new sv/fi pages). It covers all 11 pages returning 200, plus en/de/sv/fi at 1366 and 390: warm dragged onto the hot rod parks in the groove (a miss with the hint); cold dragged slides to the far end and the shell names the pair; a word dragged to the far end on Same or opposite? lands there; wrapper 9.813; the iframe grows with the card.
+- Variety probe en/sv/fi: 10 distinct rounds (the default level), reshuffled per pass.

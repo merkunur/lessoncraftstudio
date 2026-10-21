@@ -540,25 +540,26 @@
     },
     "otto-picture-book.which-picture.rl-k-7": {
       "about": [
-        "In dit spel voor groep 3 tekent Otto de uil bij elk deel van een kort verhaaltje een plaatje. Je kind hoort eerst het hele verhaal en daarna leest Otto één deel voor — bijvoorbeeld \"Een windvlaag duwt het bootje.\" — en laat die zin ook als tekst zien. Uit de vier plaatjes tikt je kind het plaatje aan dat precies dat moment van het verhaal toont.",
-        "Zo oefent je kind om plaatje en tekst met elkaar te verbinden: welk plaatje hoort bij welke zin, en welk moment van het verhaal laat elk plaatje zien. Omdat alle vier de plaatjes uit hetzelfde verhaal komen, lijken ze op elkaar en moet je kind echt begrijpen wat er in elk plaatje gebeurt om het juiste te kiezen. Dat maakt het een fijne oefening voor het begrijpend en aanvankelijk lezen in groep 3, waarin de koppeling tussen tekst en beeld centraal staat.",
-        "Het spel werkt zonder inloggen, zonder tijdsdruk en zonder punten of score — je kind kan rustig kijken, luisteren en kiezen. Het hele verhaal en elke zin worden voorgelezen, wat fijn is voor kinderen die nog niet vlot lezen. Het spel is afgestemd op de SLO-kerndoelen voor groep 3 en past bij het lezen van verhalende teksten."
+        "Otto de uil leest met spelden. Elk belangrijk woord in zijn zin draagt een speld, en bij het controleren vliegen de spelden het plaatje in. Een speld blijft alleen zitten waar het plaatje laat zien wat het woord zegt; anders hangt hij los en zie je precies welk woord niet klopt. Leg „Een windvlaag duwt het bootje vooruit.” onder een plaatje zonder wind, en de speld bij windvlaag bungelt. Een interactieve leesactiviteit die in de browser speelt.",
+        "Er zijn vier opdrachten. Bij Welk plaatje? legt het kind de zin onder het ene plaatje van een kort verhaaltje dat hem laat zien. Bij Woord invullen kiest het het woord – of legt het met lettertegels – waardoor de zin bij het plaatje past. Bij Lees en kleur kleurt het een rij plaatjes zoals de zin zegt. Bij Waar of niet waar? beslist het of een zin bij het plaatje past. Met Twee delen heeft elke ronde twee zinnen of een langere opdracht.",
+        "De activiteit sluit aan bij de kerndoelen Nederlands (SLO): tekst en plaatjes van een verhaal met elkaar verbinden. Elk plaatje komt uit de beeldbank. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Plaatje en tekst met elkaar verbinden",
-        "Herkennen welk plaatje bij welke zin hoort",
-        "Begrijpen welk moment van het verhaal een plaatje toont",
-        "Luisteren naar een verhaal en de volgorde volgen"
+        "Een zin koppelen aan het plaatje dat hem laat zien",
+        "Elk woord van een zin aan een plaatje toetsen",
+        "Het woord kiezen waardoor een zin bij een plaatje past",
+        "Plaatjes kleuren volgens een geschreven opdracht"
       ],
       "howToPlay": [
-        "Luister eerst samen naar het hele verhaaltje van Otto de uil.",
-        "Otto leest daarna één deel van het verhaal voor en laat de zin ook als tekst zien.",
-        "Tik het plaatje aan (van de vier) dat precies dat deel van het verhaal toont."
+        "Kies een opdracht in de instellingen.",
+        "Lees de zin van Otto, of tik op de luidspreker om hem te horen.",
+        "Leg de zin onder een plaatje, kies een woord, kleur of tik op ✓ of ✗, en controleer dan.",
+        "Een speld die loshangt, laat het woord zien dat niet bij het plaatje past."
       ],
       "learningGoals": [
-        "Je kind kan een plaatje verbinden met de zin die erbij hoort.",
-        "Je kind herkent welk moment van het verhaal een plaatje laat zien.",
-        "Je kind kan een voorgelezen verhaal volgen en de bijbehorende tekst en beelden koppelen."
+        "Het kind vindt het plaatje dat een zin laat zien",
+        "Het kind zegt welk woord wel en niet bij een plaatje past",
+        "Het kind weet dat de woorden en de plaatjes van een verhaal hetzelfde vertellen"
       ]
     },
     "wake-up-pip.retell-story.rl-k-2": {

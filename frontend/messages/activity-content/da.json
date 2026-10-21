@@ -2221,6 +2221,30 @@
         "Barnet siger, hvad forfatteren og illustratoren hver især laver",
         "Barnet ved, at en historie bliver fortalt med både ord og billeder"
       ]
+    },
+    "otto-picture-book.which-picture.rl-k-7": {
+      "about": [
+        "Uglen Otto læser med nåle. Hvert vigtigt ord i hans sætning bærer en nål, og når barnet tjekker, flyver nålene ind i billedet. En nål sidder kun fast, hvor billedet viser det, ordet siger; ellers hænger den løst og viser præcis, hvilket ord der ikke passer. Lægger barnet „Et vindstød skubber til båden.“ under et billede uden vind, dingler nålen ved vindstød. En interaktiv læseøvelse, der kører i browseren.",
+        "Der er fire opgaver. I Hvilket billede? lægger barnet sætningen under det ene billede i en lille historie, der viser den. I Udfyld hullet vælger barnet ordet – eller staver det med bogstavbrikker – så sætningen passer til billedet. I Læs og farvelæg farvelægger barnet en række billeder, som sætningen siger. I Rigtigt eller forkert? afgør barnet, om en sætning passer til billedet. Med To dele har hver runde to sætninger eller en længere opgave.",
+        "Øvelsen følger Fælles Mål for dansk: at forbinde tekst og billeder i en historie. Hvert billede kommer fra billedbiblioteket. Uden tidspres og uden point."
+      ],
+      "practices": [
+        "At finde det billede, der viser en sætning",
+        "At tjekke hvert ord i en sætning mod et billede",
+        "At vælge det ord, der får en sætning til at passe til et billede",
+        "At farvelægge billeder efter en skrevet opgave"
+      ],
+      "howToPlay": [
+        "Vælg en opgave i indstillingerne.",
+        "Læs Ottos sætning, eller tryk på højttaleren for at høre den.",
+        "Læg sætningen under et billede, vælg et ord, farvelæg eller tryk på ✓ eller ✗, og tjek så.",
+        "En nål, der hænger, viser det ord, der ikke passer til billedet."
+      ],
+      "learningGoals": [
+        "Barnet finder det billede, der viser en sætning",
+        "Barnet siger, hvilket ord der passer og ikke passer til et billede",
+        "Barnet ved, at ordene og billederne i en historie fortæller det samme"
+      ]
     }
   }
 }

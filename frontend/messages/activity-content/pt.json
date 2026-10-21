@@ -3853,25 +3853,26 @@
     },
     "otto-picture-book.which-picture.rl-k-7": {
       "about": [
-        "No livro de desenhos do Otto, a coruja Otto desenhou uma historinha em quatro imagens. Primeiro você ouve a história inteira; depois, Otto lê uma frase de cada vez. Sua missão é descobrir qual imagem mostra aquela parte da história.",
-        "É uma brincadeira de leitura que ajuda a criança a perceber como a frase e o desenho contam a mesma coisa. Cada imagem mostra um momento diferente, então vale a pena olhar com atenção e comparar antes de tocar.",
-        "A atividade é feita para crianças dos anos iniciais e alinhada à BNCC (Base Nacional Comum Curricular). Não tem relógio nem placar — só histórias, desenhos e tempo pra pensar com calma."
+        "O Otto, a coruja, lê com alfinetes. Cada palavra importante da frase dele leva um alfinete, e quando a criança confere, os alfinetes voam para a figura. Um alfinete só gruda onde a figura mostra o que a palavra diz; se não mostra, ele fica pendurado e aponta exatamente a palavra que não combina. Se a criança coloca “Uma rajada de vento empurra o barco.” embaixo de uma figura sem vento, o alfinete de rajada de vento fica balançando. É uma atividade interativa de leitura que funciona no navegador.",
+        "São quatro tarefas. Em Qual figura? a criança coloca a frase embaixo da única figura de uma historinha que mostra o que ela diz. Em Complete a lacuna escolhe a palavra – ou monta com letras – que faz a frase combinar com a figura. Em Leia e pinte pinta uma fileira de figuras como a frase manda. Em Verdadeiro ou falso? decide se uma frase combina com a figura. Com Duas partes, cada rodada tem duas frases ou uma instrução mais longa.",
+        "A atividade está alinhada à BNCC: relacionar o texto e as ilustrações de uma história. Cada figura vem da biblioteca de imagens. Sem tempo e sem pontos."
       ],
       "practices": [
-        "Ligar uma frase à imagem que mostra aquele momento.",
-        "Ouvir a história inteira e acompanhar a ordem das partes.",
-        "Comparar as quatro imagens para achar a certa.",
-        "Prestar atenção aos detalhes de cada desenho."
+        "Relacionar uma frase com a figura que mostra o que ela diz",
+        "Conferir cada palavra de uma frase na figura",
+        "Escolher a palavra que faz a frase combinar com a figura",
+        "Pintar figuras seguindo uma instrução escrita"
       ],
       "howToPlay": [
-        "Toque em ▶ para ouvir a história do Otto do começo ao fim.",
-        "Otto lê uma parte — toque no 🔊 se quiser ouvir de novo.",
-        "Toque na imagem que mostra essa parte. Acertou? Otto vai comemorar com você!"
+        "Escolha uma tarefa nas configurações.",
+        "Leia a frase do Otto ou toque no alto-falante para ouvi-la.",
+        "Coloque a frase embaixo de uma figura, escolha uma palavra, pinte ou toque em ✓ ou ✗ e depois confira.",
+        "Um alfinete pendurado mostra a palavra que não combina com a figura."
       ],
       "learningGoals": [
-        "Entender que as imagens e as palavras contam a história juntas.",
-        "Reconhecer qual desenho mostra cada parte do texto.",
-        "Ganhar confiança na leitura com apoio das imagens."
+        "A criança encontra a figura que mostra uma frase",
+        "A criança diz qual palavra combina e qual não combina com a figura",
+        "A criança sabe que as palavras e as figuras de uma história contam a mesma coisa"
       ]
     },
     "hattie-whose-is-it.possessive.l-1-1-b": {

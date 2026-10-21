@@ -72,3 +72,15 @@ ORDER row 66 · id `inky-book-workshop.author-illustrator.rl-k-6` (kept).
   - both preflights: pass;
   - verify-activity-content: ×11 pass.
 - **My own read:** the 360, 704 and 1024 renders (closed doors at 360, miss 2 with the pulsing frame at 704, the cover with the stamped author at 1024). I also read the probe renders of the author's tiny words in the picture box and the illustrator's squashed dragon on the lines.
+
+## Live (2026-10-21, commit `b1cc52ac`)
+- **Deploy:** git pull, cp the 4 mini-tools files, chown, deploy.sh exit 0. The preview webp was uploaded first.
+- **live-verify-inky-book-workshop:** 75 pass, 0 fail. The first run raced the page cache. It covers:
+  - all 11 pages return 200;
+  - en/de/sv/fi at 1366 and 390: real pointer, wrapper 9.805;
+  - the wrong maker gives its hint;
+  - both pages finished;
+  - the author on the picture slot slides back;
+  - both stamped gives the success text;
+  - the iframe grows with the card.
+- **Variety probe** (en/sv/fi): 8 distinct books, and pass 2 is reshuffled.

@@ -79,4 +79,7 @@ ORDER row 59 · id `choice-board.beginning-sound.rf-k-3-a` (kept).
 - I read the 360 / 704 / 1024 renders: the word and team plates first touched their round ends (fixed: a slim pill for any label longer than two characters); the 320 switch fell below the fold with every picture gathered (fixed: an emptied table row folds flat).
 
 ## Deploy
-DEPLOY-PLACEHOLDER
+- `f4ea4d68` deployed 2026-10-21: git pull, the three files + `choice-board-activities.json` copied to `/var/www/lcs-media/mini-tools/`, the preview webp scp'd, `deploy.sh` exit 0, payment canary clean, server 133 GB free.
+- Reading the live fi phone render found a defect no gate had: the shell interpolates `celebrateKey` with `promptArgs` (only {u}), so the success bubble showed raw «{a} veti kuvat {la}». Fixed in `93f06518` (the win fills list / a / la / b / lb into the task's own promptArgs; js ?v=2, wrapper 9.798). local-test and live-verify now assert the bubble is filled (poisoned against the shipped build: 60 fails).
+- `live-verify-letter-magnet.js` — 99 / 0: all 11 pages 200; en / de / sv / fi at 1366 and 390: the empty switch asks, a wrong picture dragged → stays down, the right one → hook, two magnets by tap + tap-zone → right, name strips, the filled success text, the iframe grows with the card. (The first run after each deploy raced the page cache; the rerun is the record.)
+- Variety probe on production: 8 distinct, pass 2 reshuffled.

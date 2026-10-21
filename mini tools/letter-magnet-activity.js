@@ -123,8 +123,10 @@ var LetterMagnetActivity = {
     var ord = r.magnets.map(function (_, i) { return i; }); if (r.level === 'two' && pass % 2 === 1) ord.reverse();
     var pk = r.level === 'one' ? 'pOne' : r.level === 'week' ? 'pWeek' : r.level === 'two' ? 'pTwo' : r.level === 'team' ? 'pTeam' : r.read ? 'pRead' : 'pGap';
     var ck = r.level === 'one' ? 'okOne' : r.level === 'week' ? 'okWeek' : r.level === 'two' ? 'okTwo' : r.read ? 'okRead' : 'okTeam';
+    /* the shell interpolates the celebration with promptArgs: _win fills list / a / la / b / lb into this same object */
+    var pa = { u: this._uArg(r) }; this._pa = pa;
     return {
-      id: 'letter-magnet.' + r.loc + '.' + r.id, promptKey: pk, promptArgs: { u: this._uArg(r) }, celebrateKey: ck, answerType: 'state',
+      id: 'letter-magnet.' + r.loc + '.' + r.id, promptKey: pk, promptArgs: pa, celebrateKey: ck, answerType: 'state',
       setup: function (tool) {
         tool._clearTimers(); tool._busy = false; tool._afterOk = false; tool._view = {}; tool._drag = null; tool._sel = -1;
         tool.st = C.newState(r, { table: tb, order: ord });
@@ -342,7 +344,11 @@ var LetterMagnetActivity = {
     this._later(function () { self._busy = false; self._view = {}; self._paint(); self.api.announce(self._note.textContent || ''); }, this._ms(700));
   },
   _win: function () {
-    var self = this;
+    var self = this, st = this.st, r = st.r, pa = this._pa || {};
+    /* the shell's success bubble is interpolated with promptArgs */
+    var all = []; st.hung.forEach(function (h) { all = all.concat(h); });
+    pa.list = this._names(r.level === 'one' || r.level === 'week' ? st.hung[0] : all);
+    if (r.magnets.length > 1) { pa.a = this._q(this._label(r.magnets[0])); pa.la = this._names(st.hung[0]); pa.b = this._q(this._label(r.magnets[1])); pa.lb = this._names(st.hung[1]); }
     this._later(function () {
       self._view = { won: true };
       self.api.sound(659); self._later(function () { self.api.sound(784); }, 110); self._later(function () { self.api.sound(1046); }, 220);

@@ -124,6 +124,9 @@ function serve() { return http.createServer((req, res) => { const p = decodeURIC
         await okRun(page); await flip(page); s = await state(page);
         const n = r.cards.filter(c => c.belongs >= 0).length;
         is(s.done && await celebrated(page), `${id}: every picture under its magnet → right, celebrates`);
+        const bubble = await page.evaluate(() => { const b = document.querySelector('.lcs-activity-bubble, [class*="bubble"]'); return b ? b.textContent : ''; });
+        const firstHung = r.read ? '' : r.cards.find(c => c.belongs >= 0).word;   /* read rounds celebrate without names (okRead) */
+        is(bubble && !/\{\w+\}/.test(bubble) && bubble.includes(firstHung), `${id}: the shell's success text is filled${firstHung ? ' and names «' + firstHung + '»' : ''} («${bubble}»)`);
         is(await page.evaluate(() => document.querySelectorAll('.lmg-name').length) === n, `${id}: ${n} name strips unrolled`);
         if (k === 0) {
           /* miss 2 tabs; a zone card back; the number keys */

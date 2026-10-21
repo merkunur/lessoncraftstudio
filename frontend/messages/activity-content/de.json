@@ -610,25 +610,26 @@
     },
     "linc-fact-chain.connect.ri-k-3": {
       "about": [
-        "Kettenglied für Kettenglied hakt Ketti, die neugierige Eidechse, Fakten zusammen – und dein Kind hilft ihr dabei. Ketti zeigt einen kurzen Satz, zum Beispiel „Ein Samen liegt in der Erde.“, und stellt eine Frage: Welcher Fakt gehört dazu? Aus drei Karten sucht dein Kind die eine passende heraus – hier „Aus dem Samen wächst eine Pflanze.“ – und lässt sich von unpassenden Karten wie „Der Vogel sitzt auf dem Ast.“ nicht austricksen. So lernt es, zwei Sachverhalte sinnvoll zu verknüpfen: zu erkennen, was als Nächstes geschieht (Reihenfolge) und was etwas bewirkt (Ursache und Wirkung). Das gehört zum Lehrplan-Bereich „Sachtexte verstehen“. Alles ist ganz ohne Zeitdruck und Punkte, und ein „📖 Vorlesen“-Knopf liest jüngeren Kindern jeden Satz vor.",
-        "Manchmal geht es um die Reihenfolge, manchmal um die Wirkung. Scheint zum Beispiel „Die Sonne scheint auf den Schnee.“, dann folgt daraus „Der Schnee schmilzt.“ – und nicht irgendein anderer hübscher, aber unpassender Satz. Genau dieses Nachdenken – Was hängt hier wirklich zusammen? – ist der Kern des Lesens von Sachtexten. Kinder, die Ursache und Wirkung erkennen, verstehen später Anleitungen, Tierbücher und Erklärtexte viel leichter, weil sie den roten Faden zwischen den Sätzen sehen.",
-        "In der Grundschule, etwa ab Klasse 2, wächst diese Fähigkeit Schritt für Schritt. Deshalb bleibt Ketti geduldig: Dein Kind darf in Ruhe überlegen, ausprobieren und noch einmal hören. Es gibt kein Richtig-oder-raus, keine Uhr und keine Bestenliste – nur den kleinen, feinen Aha-Moment, wenn zwei Fakten hörbar einrasten und die Kette ein Glied länger wird."
+        "Sätze sind Dominosteine auf einer Holzbahn. Ein Satz steht schon da, daneben wartet eine Lücke. Das Kind liest die Karten in der Ablage, stellt den passenden Satz in die Lücke, und die Eidechse Linc gibt dem ersten Stein einen Schubs. Die Kette fällt nur über einen echten Zusammenhang weiter, und beim Fallen werden die Sätze auf der Leiste zu einem Satz, zum Beispiel „Die heiße Sonne scheint auf den Schnee, also schmilzt der Schnee.“ Bei einem falschen Glied wackelt der getroffene Stein und bleibt stehen, und die Leiste zeigt die beiden Sätze mit einem gebrochenen Glied dazwischen.",
+        "Die falschen Karten sind zum Lernen da: ein wahrer Satz, der mit dem ersten nichts zu tun hat, ein Satz, der nur ein Wort teilt („Der Schnee fällt.“), und ein Satz vom falschen Ende der Geschichte. Bei „Was kommt danach“ steht die Lücke nach dem Satz; bei „Warum es passiert“ kann sie davor stehen, dann sucht das Kind, was es bewirkt hat; bei „Drei in einer Kette“ stellt es zwei Sätze in die richtige Reihenfolge, und die Kette hält am ersten, der nicht passt. Unter „Auswahl“ bleibt mit „Weniger“ nur die Karte, an der man am meisten lernt.",
+        "Die Übung passt zum Lehrplan Deutsch: Zusammenhänge zwischen Informationen in einem Sachtext erkennen. Linc stammt aus der Bildbibliothek; auf den Dominosteinen stehen nur Wörter, damit das Kind liest, um sie zu verbinden. Ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "Erkennen, was als Nächstes passiert",
-        "Ursache und Wirkung miteinander verbinden",
-        "Einen passenden Fakt von einem unpassenden unterscheiden",
-        "Zwei Sachverhalte logisch verknüpfen"
+        "Sagen, was in einem kurzen Sachtext als Nächstes passiert",
+        "Erkennen, was etwas bewirkt und wodurch etwas passiert",
+        "Merken, dass ein wahrer Satz nicht immer dazugehört",
+        "Drei Sätze in eine sinnvolle Reihenfolge bringen"
       ],
       "howToPlay": [
-        "Lies den ersten Fakt und die Frage – oder tippe auf „📖 Vorlesen“, um beides zu hören.",
-        "Überlege: Welcher Satz gehört dazu? Was folgt daraus oder was bewirkt er?",
-        "Tippe die Karte mit dem passenden Fakt an – Ketti hakt sie sofort in die Kette ein."
+        "Lies den Satz auf der Bahn und die Karten in der Ablage.",
+        "Zieh eine Karte in die Lücke oder tippe sie an.",
+        "Drück auf Prüfen und schau, wie Linc die Steine anschubst.",
+        "Bleibt die Kette stehen, lies die beiden Sätze zusammen und probier eine andere Karte."
       ],
       "learningGoals": [
-        "Dein Kind verknüpft zwei Fakten aus einem Sachtext zu einer sinnvollen Kette.",
-        "Dein Kind erkennt Reihenfolge sowie Ursache und Wirkung zwischen zwei Aussagen.",
-        "Dein Kind unterscheidet sicher zwischen einem verbundenen und einem nicht verbundenen Fakt."
+        "Das Kind sagt, wie zwei Sätze zusammenhängen",
+        "Das Kind verbindet Sätze mit dann und also",
+        "Das Kind erkennt, dass ein gleiches Wort noch keinen Zusammenhang macht"
       ]
     },
     "marlo-magnifier.trait-evidence.rl-1-3": {

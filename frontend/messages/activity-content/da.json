@@ -2317,6 +2317,30 @@
         "Barnet nævner de detaljer, der hører til hovedideen",
         "Barnet ser, at en enkelt detalje ikke er hovedideen"
       ]
+    },
+    "linc-fact-chain.connect.ri-k-3": {
+      "about": [
+        "Sætninger er dominobrikker på en træbane. Én sætning står der allerede, og ved siden af venter et hul. Barnet læser kortene i bakken, stiller den sætning, der passer, i hullet, og firbenet Linc skubber til den første brik. Kæden vælter kun videre over en ægte sammenhæng, og mens den vælter, bliver sætningerne til én sætning på skinnen, for eksempel \"Den varme sol skinner på sneen, så sneen smelter.\" Ved et forkert led vipper den ramte brik og bliver stående, og skinnen viser de to sætninger med et brudt led imellem.",
+        "De forkerte kort er der for at lære af: en sand sætning, der intet har med den første at gøre, en sætning, der kun deler et ord (\"Sneen falder.\"), og en sætning fra den forkerte ende af historien. I Hvad sker så står hullet efter sætningen; i Hvorfor det sker kan det stå foran, og barnet leder efter det, der fik det til at ske; i Tre i en kæde stiller barnet to sætninger i rækkefølge, og kæden stopper ved den første, der ikke passer. Under Valg beholder Færre kun det kort, man lærer mest af.",
+        "Øvelsen følger Fælles Mål: at se sammenhængen mellem oplysninger i en faktatekst. Linc kommer fra billedbiblioteket; på dominobrikkerne står der kun ord, så barnet læser for at forbinde dem. Uden tid og uden point."
+      ],
+      "practices": [
+        "At sige, hvad der sker bagefter i en kort faktatekst",
+        "At finde, hvad noget fører til, og hvad der fik det til at ske",
+        "At opdage, at en sand sætning ikke altid hænger sammen med den første",
+        "At sætte tre sætninger i en rækkefølge, der giver mening"
+      ],
+      "howToPlay": [
+        "Læs sætningen på banen og kortene i bakken.",
+        "Træk et kort hen i hullet, eller tryk på det.",
+        "Tryk på Tjek, og se Linc skubbe til brikkerne.",
+        "Stopper kæden, så læs de to sætninger sammen, og prøv et andet kort."
+      ],
+      "learningGoals": [
+        "Barnet siger, hvordan to sætninger hænger sammen",
+        "Barnet forbinder sætninger med så",
+        "Barnet ser, at et fælles ord ikke er det samme som en sammenhæng"
+      ]
     }
   }
 }

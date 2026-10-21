@@ -4044,23 +4044,26 @@
     },
     "linc-fact-chain.connect.ri-k-3": {
       "about": [
-        "Linc le lézard relie les faits comme les maillons d'une chaîne ! Ton enfant lit un premier fait — « D'abord, tu plantes une graine. » — puis touche celui qui va avec : ce qui arrive ENSUITE, ou ce que cela provoque. Deux modes se mélangent, la suite logique et la cause à effet, pour qu'il lise vraiment au lieu de deviner.",
-        "Relier deux faits par la suite logique ou par la cause et l'effet, c'est apprendre à établir des relations dans un texte — un attendu du CE1. Le jeu se joue sans minuteur et sans points : l'enfant lit, réfléchit au lien et choisit le bon maillon, dans le domaine « Comprendre et interpréter » des programmes officiels de l'école."
+        "Les phrases sont des dominos sur une piste en bois. Une phrase est déjà debout, et à côté attend un trou. L’enfant lit les cartes du plateau, met dans le trou la phrase qui va avec, et Linc le lézard pousse le premier domino. La chaîne ne continue de tomber que si le lien est vrai, et en tombant les phrases se rejoignent en une seule phrase sur le rail, par exemple « Le soleil chaud brille sur la neige, alors la neige fond. » Si le maillon est faux, le domino touché vacille et reste debout, et le rail montre les deux phrases avec un maillon cassé entre elles.",
+        "Les mauvaises cartes sont là pour apprendre : une phrase vraie qui n’a rien à voir avec la première, une phrase qui partage seulement un mot (« La neige tombe. »), et une phrase venue du mauvais bout de l’histoire. Dans Ce qui se passe ensuite, le trou est après la phrase ; dans Pourquoi ça arrive, il peut être avant, et l’enfant cherche ce qui l’a fait arriver ; dans Trois à la suite, l’enfant met deux phrases dans l’ordre, et la chaîne s’arrête à la première qui ne va pas. Dans Choix, Moins ne garde que la carte qui apprend le plus.",
+        "L’activité suit les programmes officiels : décrire le lien entre deux informations d’un texte documentaire. Linc vient de la bibliothèque d’images ; les dominos ne portent que des mots, pour que l’enfant lise afin de les relier. Sans chrono et sans score."
       ],
       "practices": [
-        "Relier deux faits qui vont ensemble",
-        "Trouver ce qui arrive ensuite (la suite logique)",
-        "Comprendre la cause et l'effet",
-        "Lire un fait avant de choisir le lien"
+        "Dire ce qui se passe ensuite dans un court texte documentaire",
+        "Trouver ce qu’une chose provoque et ce qui l’a fait arriver",
+        "Remarquer qu’une phrase vraie n’est pas toujours liée",
+        "Mettre trois phrases dans un ordre qui a du sens"
       ],
       "howToPlay": [
-        "Lis le premier fait.",
-        "Touche le fait qui va avec : la suite, ou ce que cela provoque."
+        "Lis la phrase sur la piste et les cartes du plateau.",
+        "Fais glisser une carte dans le trou, ou touche-la.",
+        "Appuie sur Vérifier et regarde Linc pousser les dominos.",
+        "Si la chaîne s’arrête, lis les deux phrases ensemble et essaie une autre carte."
       ],
       "learningGoals": [
-        "Relier deux faits par la suite logique",
-        "Comprendre un lien de cause à effet",
-        "Établir des relations dans un texte"
+        "L’enfant dit comment deux phrases sont liées",
+        "L’enfant relie des phrases avec ensuite et alors",
+        "L’enfant voit qu’avoir un mot en commun ne veut pas dire être lié"
       ]
     },
     "point-of-view.who-told.rl-1-6": {

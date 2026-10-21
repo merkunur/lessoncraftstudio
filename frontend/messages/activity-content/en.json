@@ -2286,25 +2286,26 @@
     },
     "linc-fact-chain.connect.ri-k-3": {
       "about": [
-        "Linc the lizard links facts into a chain: a first fact appears — 'First, you plant a seed,' 'It rains on the dry grass,' 'You push the swing hard' — and the child taps the fact that connects to it, either what happens next or what it makes happen. It's an interactive Kindergarten reading activity that plays in the browser, with no sign-up.",
-        "The big idea is describing the connection between two events or ideas, the focus of RI.K.3. Some rounds are about sequence (plant a seed, then a plant grows) and some are about cause (the hot sun shines on the snow, so the snow melts), and the wrong choices are unrelated facts — a dog barks, a drum plays — so the child has to find the real link, not just any other sentence. That habit of asking 'what happens next?' or 'so what happens?' is the start of understanding how a text fits together.",
-        "It is aligned to Common Core RI.K.3 — describing the connection between two events, ideas, or pieces of information in a text. No timer, no score — just calm, playful practice."
+        "Facts are dominoes on a wooden track. One fact already stands there, and a gap waits next to it. The child reads the cards in the tray, stands the fact that connects in the gap, and Linc the lizard pushes the first domino. The chain keeps falling only across a real connection, and as it falls the facts join into one sentence on the rail, such as \"The hot sun shines on the snow, so the snow melts.\" At a false link the struck domino rocks and stays standing, and the rail shows the two facts with a broken link between them.",
+        "The wrong cards are made to teach: a true fact that has nothing to do with the first one, a fact that only shares a word (\"The snow falls.\"), and a fact from the wrong end of the story. In What happens next the gap comes after the fact; in Why it happens the gap can come before it, so the child must find what made it happen; Three in a chain stands two facts in order, and the chain stops at the first one out of place. Choices can be set to Fewer, which keeps only the lure that teaches.",
+        "It is aligned to Common Core RI.K.3: describing the connection between two pieces of information in a text. Linc is from the picture library; the dominoes carry words only, so the child reads to connect them. No timer and no score."
       ],
       "practices": [
-        "Finding what happens next in a simple sequence of events",
-        "Finding what one event causes to happen",
-        "Rejecting an unrelated fact that does not connect",
-        "Building the cause-and-sequence thinking behind reading nonfiction"
+        "Telling what happens next in a short informational text",
+        "Finding what one thing makes happen and what made it happen",
+        "Noticing that a true fact is not always a connected fact",
+        "Putting three facts in an order that makes sense"
       ],
       "howToPlay": [
-        "Read the first fact and the question — what happens next, or so what happens?",
-        "Tap the fact that connects to it, then press Check.",
-        "A warm check confirms a correct choice and offers an easy retry when needed."
+        "Read the fact on the track and the cards in the tray.",
+        "Drag a card into the gap, or tap it.",
+        "Press Check and watch Linc push the dominoes.",
+        "If the chain stops, read the two facts together and try another card."
       ],
       "learningGoals": [
-        "Describe the connection between two facts or events — the focus of Common Core RI.K.3",
-        "Tell a sequence connection apart from a cause-and-effect one",
-        "Build early comprehension of how informational text holds together"
+        "The child says how two facts are connected",
+        "The child uses then and so to join facts",
+        "The child sees that sharing a word is not the same as being connected"
       ]
     },
     "line-plot.read.2-md-d-9": {

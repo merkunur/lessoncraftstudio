@@ -217,25 +217,26 @@
     },
     "linc-fact-chain.connect.ri-k-3": {
       "about": [
-        "Con Linc la lagartija, su hijo/a arma cadenas de hechos. En cada eslabón lee un primer hecho —por ejemplo, «Primero, plantas una semilla.»— y toca el hecho que se conecta con él: el que pasa después o el que pasa por eso. Los otros dos son ciertos, pero no van juntos.",
-        "La actividad practica dos maneras de conectar hechos: la secuencia («¿Qué pasa después?») y la causa y el efecto («Por eso, ¿qué pasa?»). Por ejemplo, si «El sol calienta la nieve», por eso «la nieve se derrite». Su hijo/a aprende a distinguir un hecho que de verdad se relaciona de otro que solo es cierto pero no viene al caso.",
-        "Relacionar información —qué sigue y qué causa qué— es una base para comprender textos informativos más adelante. Los hechos se pueden escuchar con el botón de audio, por si su hijo/a todavía no lee solo. Corresponde al eje «Comprensión de textos informativos». Sin presiones: sin cronómetro, sin puntaje, sin perder; su hijo/a piensa con calma."
+        "Los datos son fichas de dominó sobre una pista de madera. Un dato ya está parado ahí y junto a él espera un hueco. El niño lee las tarjetas de la bandeja, pone en el hueco el dato que se conecta, y Linc, el lagarto, empuja la primera ficha. La cadena sigue cayendo solo si la conexión es real, y al caer los datos se juntan en una sola oración sobre la barra, por ejemplo \"El sol caliente brilla sobre la nieve, así que la nieve se derrite.\" Si el eslabón es falso, la ficha golpeada se tambalea y se queda parada, y la barra muestra los dos datos con un eslabón roto en medio.",
+        "Las tarjetas equivocadas están hechas para enseñar: un dato verdadero que no tiene nada que ver con el primero, un dato que solo comparte una palabra (\"La nieve cae del cielo.\"), y un dato del otro extremo de la historia. En Qué pasa después el hueco va después del dato; en Por qué pasa puede ir antes, y el niño busca lo que lo hizo pasar; en Tres en cadena el niño pone dos datos en orden, y la cadena se detiene en el primero que no va. En Opciones, Menos deja solo la tarjeta que más enseña.",
+        "La actividad sigue los planes de estudio: describir la conexión entre dos datos de un texto informativo. Linc viene de la biblioteca de imágenes; las fichas solo llevan palabras, para que el niño lea para conectarlas. Sin tiempo y sin puntos."
       ],
       "practices": [
-        "Conectar dos hechos por secuencia: qué pasa después",
-        "Conectar dos hechos por causa y efecto: qué pasa por eso",
-        "Distinguir un hecho que se relaciona de otro cierto pero sin conexión",
-        "Leer y escuchar hechos cortos con atención"
+        "Decir qué pasa después en un texto informativo corto",
+        "Encontrar qué provoca algo y qué lo hizo pasar",
+        "Notar que un dato verdadero no siempre está conectado",
+        "Ordenar tres datos de una manera que tenga sentido"
       ],
       "howToPlay": [
-        "Lean el primer hecho y la pregunta (o toquen el botón de audio)",
-        "Piensen: ¿qué hecho pasa después o pasa por eso?",
-        "El niño toca el hecho que se conecta"
+        "Lee el dato de la pista y las tarjetas de la bandeja.",
+        "Arrastra una tarjeta al hueco o tócala.",
+        "Presiona Revisar y mira cómo Linc empuja las fichas.",
+        "Si la cadena se detiene, lee los dos datos juntos y prueba otra tarjeta."
       ],
       "learningGoals": [
-        "Su hijo/a conecta hechos por secuencia y por causa y efecto",
-        "Distingue un hecho relacionado de otro cierto pero sin conexión",
-        "Da sus primeros pasos para relacionar información en textos informativos"
+        "El niño dice cómo se conectan dos datos",
+        "El niño une datos con después y así que",
+        "El niño ve que compartir una palabra no es lo mismo que estar conectado"
       ]
     },
     "marlo-magnifier.trait-evidence.rl-1-3": {

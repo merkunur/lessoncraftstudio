@@ -9,6 +9,11 @@
      • ≥8 distinct rounds + reshuffle; no overflow 280→768.
    ===================================================================== */
 'use strict';
+/* RETIRED 2026-10-21 (rebuild #62): the row now runs Bingo's Picture Card (tool picture-bingo-activity). */
+if (require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'bingo-word-hunt-activities.json'), 'utf8').includes('"tool": "picture-bingo-activity"')) {
+  console.log('local-test-bingo-word-hunt: retired — the row is now Bingo’s Picture Card (node scripts/local-test-picture-bingo.js)');
+  process.exit(0);
+}
 const http = require('http');
 const fs = require('fs');
 const path = require('path');

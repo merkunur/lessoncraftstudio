@@ -4228,6 +4228,29 @@
         "Il bambino scrive in ordine la lettera di ogni suono",
         "Il bambino riunisce i suoni nella parola"
       ]
+    },
+    "bingo-word-hunt.read-match.rf-k-3-d": {
+      "about": [
+        "Il cane Bingo estrae un disegno, e il bambino cerca la sua parola su una cartella piena di parole simili: cane, pane, lane, naso, vaso, viso, topo, toro e tono. Un gettone va sulla parola che nomina il disegno, e ogni parola letta bene si gira e diventa il suo disegno, finché una riga intera è fatta di disegni e Bingo salta: BINGO! È un’attività di lettura interattiva che funziona nel browser.",
+        "Un gettone su una parola simile scivola via, e le lettere diverse si illuminano; così il bambino vede che vaso non è naso per una sola lettera. Dopo due tentativi tutte le parole sbiadiscono tranne quella giusta e le due più simili; dopo tre, la casella giusta pulsa. Quando la cartella è piena, restano le parole che Bingo non ha mai estratto. Altre cartelle hanno famiglie di parole (cane, pane, lane), parole che iniziano con due consonanti e parole di due sillabe. In Chiami tu i ruoli si scambiano: Bingo ha i disegni, il bambino ha tre carte con le parole – cane, pane e lane – e Bingo mette il gettone proprio su ciò che dice la carta.",
+        "L’attività segue le Indicazioni nazionali: leggere con precisione parole simili e distinguerle in base alle lettere che cambiano. Un’impostazione aggiunge la prima lettera sulla carta estratta. Senza cronometro e senza punteggio."
+      ],
+      "practices": [
+        "Leggere parole brevi lettera per lettera",
+        "Distinguere parole che cambiano di una lettera, come cane e pane",
+        "Collegare una parola scritta al suo disegno",
+        "Leggere famiglie di parole e parole di due sillabe"
+      ],
+      "howToPlay": [
+        "Guarda il disegno che estrae Bingo.",
+        "Tocca una parola della cartella o trascina il gettone sopra.",
+        "Premi «Controlla». Se il gettone scivola via, guarda le lettere che si illuminano e riprova."
+      ],
+      "learningGoals": [
+        "Il bambino legge una parola breve con precisione, lettera per lettera",
+        "Il bambino distingue una parola da altre simili che cambiano di una lettera",
+        "Il bambino collega una parola scritta al disegno che nomina"
+      ]
     }
   }
 }

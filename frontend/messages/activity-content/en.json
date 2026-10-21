@@ -616,25 +616,25 @@
     },
     "bingo-word-hunt.read-match.rf-k-3-d": {
       "about": [
-        "Bingo the beagle sniffs out the exact right word: a picture appears — a cat, hat, cup, dog, pig, bed, net, or pan — alongside three little words that look almost the same but differ by one letter, like cat, cot, and cut, and the child sounds out each and taps the one that names the picture. It's a Kindergarten decoding activity that plays right in the browser with no download and no account.",
-        "The three choices change only the middle vowel (cat / cot / cut) or another single letter (pin / pan / pen), so a child cannot win by glancing at the first letter. To find the match they must read all the way through and hear the vowel sound — a is not o is not u. Attending to the letters that actually differ is precisely the decoding move this round trains.",
-        "It is aligned to Common Core RF.K.3.d — distinguishing between similarly spelled words by identifying the sounds of the letters that differ. No timer, no score — just calm, playful practice."
+        "Bingo the dog calls a picture, and the child finds its word on a bingo card full of look-alike words: cat, cot, cut, pot, hit, hut, cap, cop and cup. A chip goes on the word that names the picture, and every word read right flips over into its picture, until a whole line is pictures and Bingo hops – BINGO. It is an interactive Kindergarten reading activity that plays in the browser.",
+        "A chip on a look-alike slides off, and the letters that differ light up, so the child sees that cot is not cat because of one letter. After two tries the card dims all but the right word and its two nearest look-alikes; after three the right square pulses. When the card is full, the words left over are the ones Bingo never called. Other cards hold word families (cat, hat, bat, mat), words that start with two consonants, and two-syllable words. In You call the roles swap: Bingo holds the pictures, the child holds three word cards – cat, cap and cot – and Bingo covers exactly what the chosen card says.",
+        "It is aligned to Common Core RF.K.3.d, telling apart similarly spelled words by the letters that differ. A setting adds the first letter to the call card. No timer and no score."
       ],
       "practices": [
-        "Sounding out short CVC words letter by letter",
-        "Hearing the middle vowel that makes cat, cot, and cut different",
-        "Reading the whole word instead of guessing from the first letter",
-        "Matching the word that truly names the picture"
+        "Reading short words letter by letter",
+        "Telling apart words that differ by one letter, such as cat and cot",
+        "Matching a written word to its picture",
+        "Reading words of one family, and two-syllable words"
       ],
       "howToPlay": [
-        "Look at Bingo's picture and read the three look-alike words underneath.",
-        "Sound each one out and tap the word that names the picture.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Look at the picture Bingo calls.",
+        "Tap a word on the card, or drag the chip onto it.",
+        "Press Check. If the chip slides off, look at the letters that light up and try again."
       ],
       "learningGoals": [
-        "Tell similarly spelled words apart by the letters that differ — the focus of Common Core RF.K.3.d.",
-        "Decode short CVC words by reading every sound, including the vowel.",
-        "Build the careful, all-the-way-through reading that accurate decoding depends on."
+        "The child reads a short word exactly, letter by letter",
+        "The child tells a word apart from look-alikes that differ by one letter",
+        "The child matches a written word to the picture it names"
       ]
     },
     "booker-glossary-desk.guide-words.l-2-4-e": {

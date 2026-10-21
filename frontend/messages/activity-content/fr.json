@@ -660,25 +660,25 @@
     },
     "bingo-word-hunt.read-match.rf-k-3-d": {
       "about": [
-        "Bingo le beagle a un flair extraordinaire pour les mots ! Votre enfant regarde une image, puis lit trois petits mots qui se ressemblent presque — une seule lettre change, comme chat, chut et char. Il prononce chaque mot doucement et tape celui qui nomme l'image. L'activité fonctionne directement dans le navigateur et ne demande aucune installation.",
-        "L'enjeu, c'est le décodage : distinguer des mots très proches en repérant la lettre — et le son — qui les différencie. Les trois mots ont la même longueur et ne varient que d'une lettre, souvent la voyelle du milieu (pomme, somme, gomme), ce qui oblige à lire vraiment le mot en entier plutôt qu'à deviner d'après la première lettre. L'image donne le sens, et un petit haut-parleur permet de la réécouter.",
-        "Tout se passe dans le calme : pas de chronomètre, pas de points, pas de course. Votre enfant avance à son rythme, recommence autant de fois qu'il le souhaite et gagne en confiance. Les mots changent d'ordre à chaque partie pour renouveler l'exercice. L'activité s'appuie sur les programmes officiels pour l'apprentissage de la lecture."
+        "Le chien Bingo tire une image, et l’enfant cherche son mot sur une carte de bingo pleine de mots qui se ressemblent : pomme, somme, comme, robe, rose, ronde, pain, main et bain. Un jeton se pose sur le mot qui nomme l’image, et chaque mot bien lu se retourne et devient son image, jusqu’à ce qu’une ligne entière soit faite d’images et que Bingo saute : BINGO ! C’est une activité de lecture interactive qui fonctionne dans le navigateur.",
+        "Un jeton posé sur un mot qui lui ressemble glisse, et les lettres qui changent s’allument ; l’enfant voit ainsi que robe n’est pas rose à cause d’une seule lettre. Après deux essais, tous les mots pâlissent sauf le bon et les deux qui lui ressemblent le plus ; après trois, la bonne case clignote. Quand la carte est pleine, il reste les mots que Bingo n’a jamais tirés. D’autres cartes ont des mots qui riment (pain, main, train), des mots qui commencent par deux consonnes et des mots de deux syllabes. Dans « C’est toi qui annonces », les rôles s’inversent : Bingo a les images, l’enfant a trois cartes-mots – pain, main et bain – et Bingo pose son jeton exactement sur ce que dit la carte.",
+        "L’activité suit les programmes officiels : lire avec précision des mots qui se ressemblent et les distinguer par les lettres qui changent. Un réglage ajoute la première lettre sur la carte tirée. Sans chronomètre et sans points."
       ],
       "practices": [
-        "Lire des mots réguliers en les déchiffrant lettre par lettre.",
-        "Distinguer des mots proches grâce à la lettre qui change.",
-        "Repérer le son de la lettre qui différencie deux mots.",
-        "Lire le mot en entier au lieu de deviner d'après le début."
+        "Lire des mots courts lettre par lettre",
+        "Distinguer des mots qui changent d’une lettre, comme pain et main",
+        "Associer un mot écrit à son image",
+        "Lire des mots qui riment et des mots de deux syllabes"
       ],
       "howToPlay": [
-        "Regarde l'image, et écoute-la si tu veux en tapant le haut-parleur.",
-        "Lis les trois mots lentement, l'un après l'autre.",
-        "Tape le mot qui nomme l'image, puis valide."
+        "Regarde l’image que Bingo tire.",
+        "Touche un mot de la carte ou fais glisser le jeton dessus.",
+        "Appuie sur « Vérifier ». Si le jeton glisse, regarde les lettres qui s’allument et réessaie."
       ],
       "learningGoals": [
-        "Votre enfant apprend à lire des mots proches sans les confondre.",
-        "Votre enfant repère la lettre et le son qui distinguent deux mots.",
-        "Votre enfant gagne en aisance dans le décodage, à son rythme."
+        "L’enfant lit un mot court avec précision, lettre par lettre",
+        "L’enfant distingue un mot d’autres mots qui changent d’une lettre",
+        "L’enfant associe un mot écrit à l’image qu’il nomme"
       ]
     },
     "snippy.letter-formation.l-k-1-a": {

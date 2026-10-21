@@ -11,6 +11,11 @@
    >=8 rounds. Plus ASSET: every picture noun resolves to a REAL @2x.webp.
    ===================================================================== */
 'use strict';
+/* RETIRED 2026-10-21 (rebuild #62): the row now runs Bingo's Picture Card (tool picture-bingo-activity). */
+if (require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'bingo-word-hunt-activities.json'), 'utf8').includes('"tool": "picture-bingo-activity"')) {
+  console.log('verify-word-match-core: retired — the row is now Bingo’s Picture Card (node scripts/verify-picture-bingo-core.js)');
+  process.exit(0);
+}
 const fs = require('fs');
 const path = require('path');
 

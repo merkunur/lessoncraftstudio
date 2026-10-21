@@ -4265,6 +4265,29 @@
         "A criança escreve em ordem a letra de cada som",
         "A criança junta os sons de novo para formar a palavra"
       ]
+    },
+    "bingo-word-hunt.read-match.rf-k-3-d": {
+      "about": [
+        "O cachorro Bingo sorteia uma figura, e a criança procura a palavra em uma cartela de bingo cheia de palavras parecidas: gato, pato, rato, faca, vaca, fava, bola, bolo e bota. Uma ficha vai na palavra que dá nome à figura, e cada palavra bem lida vira e se transforma na sua figura, até uma linha inteira ser de figuras e o Bingo pular: BINGO! É uma atividade interativa de leitura que funciona no navegador.",
+        "Uma ficha numa palavra parecida escorrega, e as letras diferentes se acendem; assim a criança vê que fava não é faca por causa de uma única letra. Depois de duas tentativas, todas as palavras ficam apagadas, menos a certa e as duas mais parecidas; depois de três, a casa certa pulsa. Quando a cartela fica cheia, sobram as palavras que o Bingo nunca sorteou. Outras cartelas têm famílias de palavras (gato, pato, rato, jato), palavras com encontros consonantais e palavras de duas sílabas. Em Você canta os papéis se invertem: o Bingo tem as figuras, a criança tem três cartas com palavras – gato, pato e rato – e o Bingo põe a ficha exatamente no que a carta diz.",
+        "A atividade se apoia na BNCC: ler com precisão palavras parecidas e diferenciá-las pelas letras que mudam. Uma configuração mostra a primeira letra na carta sorteada. Sem cronômetro e sem pontos."
+      ],
+      "practices": [
+        "Ler palavras curtas letra por letra",
+        "Diferenciar palavras que mudam em uma letra, como gato e pato",
+        "Relacionar uma palavra escrita com a sua figura",
+        "Ler famílias de palavras e palavras de duas sílabas"
+      ],
+      "howToPlay": [
+        "Olhe a figura que o Bingo sorteia.",
+        "Toque numa palavra da cartela ou arraste a ficha até ela.",
+        "Aperte Conferir. Se a ficha escorregar, olhe as letras que se acendem e tente de novo."
+      ],
+      "learningGoals": [
+        "A criança lê uma palavra curta com precisão, letra por letra",
+        "A criança diferencia uma palavra de outras parecidas que mudam em uma letra",
+        "A criança relaciona uma palavra escrita com a figura que ela nomeia"
+      ]
     }
   }
 }

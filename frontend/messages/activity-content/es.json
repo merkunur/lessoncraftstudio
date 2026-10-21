@@ -4206,6 +4206,29 @@
         "Escribe la letra de cada sonido en orden",
         "Vuelve a juntar los sonidos para formar la palabra"
       ]
+    },
+    "bingo-word-hunt.read-match.rf-k-3-d": {
+      "about": [
+        "El perro Bingo canta un dibujo, y el niño busca su palabra en una tarjeta de bingo llena de palabras parecidas: gato, pato, rato, cama, casa, cara, mapa, papa y capa. Una ficha va sobre la palabra que nombra el dibujo, y cada palabra bien leída se voltea y se convierte en su dibujo, hasta que una fila entera es de dibujos y Bingo salta: ¡BINGO! Es una actividad interactiva de lectura que funciona en el navegador.",
+        "Una ficha sobre una palabra parecida se resbala, y las letras que cambian se iluminan; así el niño ve que rato no es gato por una sola letra. Después de dos intentos, todas las palabras se ven pálidas menos la correcta y las dos más parecidas; después de tres, la casilla correcta late. Cuando la tarjeta está llena, quedan las palabras que Bingo nunca cantó. Otras tarjetas tienen familias de palabras (gato, pato, plato, rato), palabras con sílabas trabadas y palabras de dos sílabas. En Tú cantas se cambian los papeles: Bingo tiene los dibujos, el niño tiene tres tarjetas con palabras – gato, pato y rato – y Bingo pone su ficha justo en lo que dice la tarjeta.",
+        "La actividad se basa en los programas de estudio de la SEP: leer con precisión palabras parecidas y distinguirlas por las letras que cambian. Un ajuste muestra la primera letra en la tarjeta que canta Bingo. Sin cronómetro y sin puntos."
+      ],
+      "practices": [
+        "Leer palabras cortas letra por letra",
+        "Distinguir palabras que cambian en una letra, como gato y pato",
+        "Relacionar una palabra escrita con su dibujo",
+        "Leer familias de palabras y palabras de dos sílabas"
+      ],
+      "howToPlay": [
+        "Mira el dibujo que canta Bingo.",
+        "Toca una palabra de la tarjeta o arrastra la ficha hasta ella.",
+        "Presiona Revisar. Si la ficha se resbala, mira las letras que se iluminan y vuelve a intentarlo."
+      ],
+      "learningGoals": [
+        "El niño lee una palabra corta con precisión, letra por letra",
+        "El niño distingue una palabra de otras parecidas que cambian en una letra",
+        "El niño relaciona una palabra escrita con el dibujo que nombra"
+      ]
     }
   }
 }

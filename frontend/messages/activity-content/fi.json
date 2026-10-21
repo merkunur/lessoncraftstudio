@@ -2292,6 +2292,30 @@
         "Lapsi näyttää, missä kohdassa tekstiä vastaus on",
         "Lapsi kertoo, mitkä väitteet lukevat tekstissä ja mitkä eivät"
       ]
+    },
+    "nila-pond.main-idea-net.ri-k-2": {
+      "about": [
+        "Saukko Nilalla on lampi, sadepilvi ja neljä sateenvarjoa. Lapsi lukee lyhyen tekstin eläimestä, esimerkiksi \"Kun kylmä lumi sataa, karhun täytyy pysyä lämpimänä.\", ja sen kolme yksityiskohtaa kelluvat lammella lumpeenlehtinä. Jokaisessa sateenvarjossa on yksi idea. Kun lapsi ripustaa sateenvarjon lammen ylle, se aukeaa yhtä suureksi kuin kaikki muutkin, joten ripustaminen ei paljasta mitään. Sitten alkaa sataa: sateenvarjo kutistuu juuri sen kokoiseksi kuin sen idea kattaa. Vain pääajatus, \"lämpimänä pysyminen lumessa\", pitää jokaisen lumpeenlehden kuivana; yksityiskohta suojaa vain omaa lehteään, ja idea, jota tekstissä ei ole, menee kiinni avoveden yllä, kun muste märillä lehdillä valuu.",
+        "Osa kierroksista jatkuu. Tosi lause samasta eläimestä ajelehtii sateenvarjon alle, ja lapsi työntää sen sateeseen, koska se ei kerro pääajatuksesta; tai reunalla kelluu kaksi uutta lehteä, ja lapsi vetää alle sen, joka kuuluu joukkoon. Kolmannen väärän sateenvarjon jälkeen tulee uusi teksti samasta eläimestä, joten kaikkien kokeileminen ei auta. Kaksitoista tekstiä kertovat karhusta, mehiläisestä ja joutsenesta. Kohdassa Lukeminen valitaan Luen itse tai Lue minulle; kun Sateenvarjot on 3, idea, jota tekstissä ei ole, jää pois.",
+        "Harjoitus tukee perusopetuksen opetussuunnitelman perusteiden 2014 tavoitteita: tietotekstin pääajatuksen löytäminen ja tärkeiden yksityiskohtien kertominen. Kaikki kuvat ovat kuvakirjastosta. Ei ajanottoa eikä pisteitä."
+      ],
+      "practices": [
+        "Lyhyen tietotekstin pääajatuksen löytäminen",
+        "Pääajatuksen erottaminen yksittäisestä yksityiskohdasta",
+        "Tekstistä puuttuvan idean huomaaminen",
+        "Pääajatukseen kuuluvien yksityiskohtien kertominen"
+      ],
+      "howToPlay": [
+        "Lue teksti tai napauta Nilaa kuullaksesi sen.",
+        "Vedä tai napauta sateenvarjo lammen ylle ja tarkista.",
+        "Katso sadetta: oikean sateenvarjon alla jokainen lehti pysyy kuivana.",
+        "Joillakin kierroksilla työnnät sateeseen lehden, joka ei kuulu joukkoon, tai vedät alle sen, joka kuuluu."
+      ],
+      "learningGoals": [
+        "Lapsi kertoo, mistä koko teksti kertoo",
+        "Lapsi kertoo pääajatukseen kuuluvat yksityiskohdat",
+        "Lapsi huomaa, ettei yksittäinen yksityiskohta ole pääajatus"
+      ]
     }
   }
 }

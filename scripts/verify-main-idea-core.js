@@ -53,6 +53,10 @@ function pct(x) { return (100 * x).toFixed(1) + '%'; }
   const Core = loadCore();
   const manifest = JSON.parse(fs.readFileSync(MANIFEST, 'utf8'));
   const row = Array.isArray(manifest) ? manifest[0] : manifest;
+  /* Row 70 rebuild (2026-10-21): nila-pond.main-idea-net.ri-k-2 runs THE IDEA UMBRELLA on its own nila-pond-core.js; its params are a
+     mirror, no longer the rounds this gate reads. main-idea-core.js is untouched; the row's gates are verify-nila-pond-core.js,
+     mutate-nila-pond.js and local-test-nila-pond.js. */
+  if (!row.params.rounds) { console.log('verify-main-idea-core: the row runs The Idea Umbrella (nila-pond-core.js) — see verify-nila-pond-core.js. Nothing to check here.'); process.exit(0); }
   /* locale-aware: `--locale=de` gates the German roundsL10n bank with the SAME
      strict solver; default (no flag) gates the EN params.rounds. */
   const argLoc = (process.argv.find((a) => a.startsWith('--locale=')) || '').split('=')[1];

@@ -3143,6 +3143,30 @@
         "Barnet visar var i texten svaret står",
         "Barnet berättar vilka påståenden som står i en text och vilka som inte gör det"
       ]
+    },
+    "nila-pond.main-idea-net.ri-k-2": {
+      "about": [
+        "Uttern Nila har en damm, ett regnmoln och fyra paraplyer. Barnet läser en kort text om ett djur, till exempel \"När den kalla snön faller måste en björn hålla sig varm.\", och de tre meningarna med detaljer flyter på dammen som näckrosblad. Varje paraply bär en idé. När barnet hänger upp ett över dammen fälls det ut lika stort som alla andra, så det avslöjar ingenting. Sedan börjar det regna: paraplyet drar ihop sig till precis det som idén täcker. Bara den stora idén, \"hålla sig varm i snön\", håller alla näckrosblad torra; en detalj skyddar bara sitt eget blad, och en idé som inte står i texten fälls ihop över öppet vatten medan bläcket rinner på de blöta bladen.",
+        "Vissa omgångar fortsätter. En sann mening om samma djur driver in under paraplyet, och barnet knuffar ut den i regnet eftersom den inte handlar om den stora idén; eller så flyter två nya blad vid kanten, och barnet drar in det som hör hit. Efter det tredje felaktiga paraplyet kommer en ny text om samma djur, så det lönar sig inte att prova alla. De tolv texterna handlar om en björn, ett bi och en svan. Under Läsning väljer man mellan Jag läser själv och Läs högt för mig; med Paraplyer på 3 stannar idén som inte står i texten hemma.",
+        "Övningen följer Lgr22: att hitta huvudtanken i en faktatext och återberätta de viktiga detaljerna. Alla bilder kommer från bildbiblioteket. Ingen tidtagning och inga poäng."
+      ],
+      "practices": [
+        "Att hitta huvudtanken i en kort faktatext",
+        "Att skilja huvudtanken från en enskild detalj",
+        "Att upptäcka en idé som inte står i texten",
+        "Att återberätta detaljerna som hör till huvudtanken"
+      ],
+      "howToPlay": [
+        "Läs texten eller tryck på Nila för att höra den.",
+        "Dra eller tryck upp ett paraply över dammen och kontrollera sedan.",
+        "Titta på regnet: under rätt paraply blir alla blad torra.",
+        "I vissa omgångar knuffar du ut i regnet det blad som inte hör hit, eller drar in det som hör hit."
+      ],
+      "learningGoals": [
+        "Barnet säger vad hela texten handlar om",
+        "Barnet berättar vilka detaljer som hör till huvudtanken",
+        "Barnet ser att en enskild detalj inte är huvudtanken"
+      ]
     }
   }
 }

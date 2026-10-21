@@ -49,7 +49,7 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
     const check = async () => { await tap('[data-k="check"]'); await frame.waitForFunction(() => !window.PictureStoryActivity._busy, { timeout: 15000 }).catch(() => {}); await wait(250); };
     const st = () => frame.evaluate(() => { const s = window.PictureStoryActivity.st; return JSON.parse(JSON.stringify({ mark: s.mark, misses: s.misses, done: s.done, last: s.last, k: s.k, order: s.order })); });
     const force = (mode, id) => frame.evaluate((mode, id) => { const a = window.PictureStoryActivity; a.OK_MS = 60000; a.FAST = true; a.api.settings.mode = mode; a.api.settings.pages = '3'; a._pool = null; a._poolKey = null; const pool = a._ensurePool(); const i = pool.findIndex(x => x.id === id); a._order = [i].concat(pool.map((x, q) => q).filter(q => q !== i)); a._curPass = 0; window.LCS_reloadFirstTask(); }, mode, id);
-    const goPage = async (p) => { if (w >= 560) return; for (let i = 0; i < 4; i++) { const cur = await frame.evaluate(() => +document.querySelector('.pst-page').getAttribute('data-p')); if (cur === p) return; await tap(cur < p ? '[data-k="next"]' : '[data-k="prev"]'); } };
+    const goPage = async (p) => { for (let i = 0; i < 4; i++) { const cur = await frame.evaluate(() => +document.querySelector('.pst-page').getAttribute('data-p')); if (cur === p) return; await tap(cur < p ? '[data-k="next"]' : '[data-k="prev"]'); } };
 
     /* Ask the book: "Where did the mitten slip off?" */
     const r = C.askRounds(loc, 3).find(x => x.key === 'mWhere'), bk = C.book(loc, r.story, 3);
@@ -81,6 +81,7 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
     for (let k = 0; k < 3; k++) { const p = s.order[k]; await goPage(p); await tap(`[data-tid="p${p}"]`); if (k === 2) await frame.evaluate(() => { window.PictureStoryActivity.OK_MS = 0; }); await check(); }
     s = await st(); is(s.done, `[${loc} @${w}] Caption: every sentence in its page`);
     if (w === 390) await page.screenshot({ path: path.join(OUT, `live-${loc}-${w}-caption.png`) });
+    await wait(3000); /* the shell grows the iframe after the success bubble settles */
     const fit = await page.evaluate(f => { const fr = f.getBoundingClientRect(); const card = f.contentDocument.querySelector('.lcs-app').getBoundingClientRect(); return { frameH: fr.height, cardH: card.height }; }, frameEl);
     is(fit.frameH >= fit.cardH - 8, `[${loc} @${w}] iframe grows with the card (iframe ${fit.frameH.toFixed(0)}, card ${fit.cardH.toFixed(0)})`);
     await page.close();

@@ -3006,25 +3006,26 @@
     },
     "opposites.antonyms.k-l-5-b": {
       "about": [
-        "Quill the hedgehog trades only for the opposite, so children tap the word that means the reverse — black to white, up to down, push to pull, big to small, hot to cold — with a small picture riding along with each word. It's an interactive Kindergarten antonyms game that plays right in the browser with no account.",
-        "The wrong choices are tempting on purpose: a 'friend' from the same family (red next to black) or something unrelated, so the child has to find the true other end, not just a related word. Some rounds flip a whole bedtime scene — sun to moon, lamp on to off, door open to closed — so opposites show up in everyday situations.",
-        "It is aligned to Common Core K.L.5.b — relating words to their opposites (antonyms). No timer, no score — just calm, playful practice."
+        "Every pair of opposites lives on one rod. The rod for hot and cold is painted from red to blue; the child drops a card on it and the card slides to where its meaning lives. \"cold\" runs all the way to the far end and clicks into the clip. \"warm\" stops at the middle groove: it is only halfway. A word that means the same parks beside \"hot\", and a word from another family, like a colour, finds no place and falls off. Up and down stand on an upright rod, and \"left\" slides onto the crossing rod instead. The pictures are a ball, a jar, a door, a lamp, the sun and the moon from the picture library.",
+        "The rod has five levels. Pictures has nine rods and a bedtime scene. Same or opposite? asks the child to put each word at the same end or the other end, then check. Pair up has three rods and three opposites, each with one home. Sentences finishes a sentence with the opposite, by picking a card or, with Write it, by typing the word. Prefixes hangs a clip such as \"un\" or \"dis\" at the far end and pushes the word along: only the right clip closes on it and makes \"unhappy\"; a wrong clip never turns the word into its opposite. The Words setting can hide the pictures (Words only).",
+        "It is aligned to Common Core K.L.5.b: relating words to their opposites. No timer and no score."
       ],
       "practices": [
-        "Find the word that means the reverse, not just a related word",
-        "Tell an opposite apart from a same-family word (white versus red for black)",
-        "Work with opposites across colors, directions, sizes, temperatures, and actions",
-        "Flip objects in a scene to their opposite state"
+        "Finding the opposite of a word",
+        "Telling a word that means the opposite from one that means the same",
+        "Seeing that a middle word like warm is not the opposite of hot",
+        "Using an opposite in a sentence and with a prefix"
       ],
       "howToPlay": [
-        "Look at Quill's word and picture, like 'up' or 'hot.'",
-        "Tap the word that means the opposite — the other end — then press Check.",
-        "Not quite? Try again as often as you like — there is no timer and no score."
+        "Look at the word at one end of the rod.",
+        "Drag a card onto the rod, or tap it, and watch where it slides.",
+        "The opposite runs all the way to the other end.",
+        "In Prefixes, hang a clip at the empty end and tap the word to push it."
       ],
       "learningGoals": [
-        "Relate words to their opposites — the focus of Common Core K.L.5.b",
-        "Tell an antonym apart from a merely related word",
-        "Understand opposites for colors, directions, sizes, temperatures, and actions"
+        "The child names the opposite of a familiar word",
+        "The child sorts words into same and opposite",
+        "The child uses an opposite to finish a sentence"
       ]
     },
     "otto-picture-book.which-picture.rl-k-7": {

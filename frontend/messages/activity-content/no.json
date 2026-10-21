@@ -2348,6 +2348,30 @@
         "Barnet kobler setninger sammen med så",
         "Barnet ser at et felles ord ikke er det samme som en sammenheng"
       ]
+    },
+    "opposites.antonyms.k-l-5-b": {
+      "about": [
+        "Hvert par motsetninger bor på én stang. Stanga for varm og kald er malt fra rødt til blått; barnet legger et kort på den, og kortet glir dit betydningen hører hjemme. «kald» kjører helt ut i den andre enden og klikker inn i klemmen. «lunken» stopper ved rillen i midten: Det er bare halvveis. Et ord som betyr det samme, parkerer ved siden av «varm», og et ord fra en annen familie, som en farge, finner ingen plass og faller av. Opp og ned står på en loddrett stang, og «venstre» glir over på tverrstanga. Bildene av en ball, en krukke, en dør, en lampe, sola og månen kommer fra bildebiblioteket.",
+        "Fem nivåer bygger videre på stanga. Bilder har ni stenger og en leggetidsscene. I Det samme eller det motsatte? legger barnet hvert ord ved samme ende eller den andre enden og sjekker så. Finn parene har tre stenger og tre motsatte ord med hver sin plass. I Setninger gjør barnet ferdig en setning med det motsatte, med et kort eller med Skriv det. I Forstavelser henger barnet en klemme som «u» på den tomme enden og skyver ordet dit: Bare den riktige klemmen lukker seg og lager «ulykkelig»; en feil klemme bygger aldri et ord. Under Ord kan bildene skjules (Bare ord).",
+        "Øvelsen følger LK20: å utforske ord og motsetningene deres. Uten tid og uten poeng."
+      ],
+      "practices": [
+        "Å finne det motsatte av et ord",
+        "Å skille det motsatte fra det som betyr det samme",
+        "Å se at et mellomord som lunken ikke er det motsatte av varm",
+        "Å bruke et motsatt ord i en setning og med en forstavelse"
+      ],
+      "howToPlay": [
+        "Se på ordet i den ene enden av stanga.",
+        "Dra et kort til stanga, eller trykk på det, og se hvor det glir.",
+        "Det motsatte kjører helt ut i den andre enden.",
+        "I Forstavelser henger du en klemme på den tomme enden og trykker på ordet for å skyve det."
+      ],
+      "learningGoals": [
+        "Barnet sier det motsatte av et kjent ord",
+        "Barnet sorterer ord i det samme og det motsatte",
+        "Barnet gjør ferdig en setning med et motsatt ord"
+      ]
     }
   }
 }

@@ -2341,6 +2341,30 @@
         "Barnet forbinder sætninger med så",
         "Barnet ser, at et fælles ord ikke er det samme som en sammenhæng"
       ]
+    },
+    "opposites.antonyms.k-l-5-b": {
+      "about": [
+        "Hvert par modsætninger bor på én stang. Stangen for varm og kold er malet fra rød til blå; barnet lægger et kort på den, og kortet glider derhen, hvor dets betydning hører til. »kold« kører helt ud i den anden ende og klikker ind i klemmen. »lun« stopper ved rillen i midten: Det er kun halvvejs. Et ord, der betyder det samme, parkerer ved siden af »varm«, og et ord fra en anden familie, som en farve, finder ingen plads og falder af. Op og ned står på en lodret stang, og »venstre« glider over på tværstangen. Billederne af en bold, en krukke, en dør, en lampe, solen og månen kommer fra billedbiblioteket.",
+        "Fem niveauer bygger videre på stangen. Billeder har ni stænger og en scene ved sengetid. I Det samme eller det modsatte? lægger barnet hvert ord ved samme ende eller den anden ende og tjekker så. Find parrene har tre stænger og tre modsatte ord med hver sin plads. I Sætninger gør barnet en sætning færdig med det modsatte, med et kort eller med Skriv det. I Forstavelser hænger barnet en klemme som »u« på den tomme ende og skubber ordet derhen: Kun den rigtige klemme lukker og laver »ulykkelig«; en forkert klemme bygger aldrig et ord. Under Ord kan billederne skjules (Kun ord).",
+        "Øvelsen følger Fælles Mål: at undersøge ord og deres modsætninger. Uden tid og uden point."
+      ],
+      "practices": [
+        "At finde det modsatte af et ord",
+        "At skelne det modsatte fra det, der betyder det samme",
+        "At se, at et mellemord som lun ikke er det modsatte af varm",
+        "At bruge et modsat ord i en sætning og med en forstavelse"
+      ],
+      "howToPlay": [
+        "Se på ordet i den ene ende af stangen.",
+        "Træk et kort hen på stangen, eller tryk på det, og se, hvor det glider hen.",
+        "Det modsatte kører helt ud i den anden ende.",
+        "I Forstavelser hænger du en klemme på den tomme ende og trykker på ordet for at skubbe det."
+      ],
+      "learningGoals": [
+        "Barnet siger det modsatte af et kendt ord",
+        "Barnet sorterer ord i det samme og det modsatte",
+        "Barnet gør en sætning færdig med et modsat ord"
+      ]
     }
   }
 }

@@ -2340,6 +2340,30 @@
         "Lapsi yhdistää lauseita sanoilla sitten ja joten",
         "Lapsi huomaa, ettei yhteinen sana vielä tarkoita yhteyttä"
       ]
+    },
+    "opposites.antonyms.k-l-5-b": {
+      "about": [
+        "Jokainen vastakohtapari asuu samassa tangossa. Kuuman ja kylmän tanko on maalattu punaisesta siniseen; lapsi laittaa kortin tankoon, ja kortti liukuu sinne, missä sen merkitys asuu. \"kylmä\" kulkee aivan toiseen päähän ja napsahtaa pidikkeeseen. \"lämmin\" pysähtyy keskellä olevaan uraan: se on vasta puolivälissä. Samaa tarkoittava sana pysäköi sanan \"kuuma\" viereen, ja toiseen ryhmään kuuluva sana, kuten väri, ei löydä paikkaa ja putoaa. Ylös ja alas ovat pystytangossa, ja \"vasemmalle\" liukuu poikittaiseen tankoon. Pallon, purkin, oven, lampun, auringon ja kuun kuvat ovat kuvakirjastosta.",
+        "Viisi tasoa rakentuu tangon varaan. Kuvat-tasossa on yhdeksän tankoa ja iltakohtaus. Kohdassa Sama vai vastakohta? lapsi laittaa jokaisen sanan samaan päähän tai toiseen päähän ja tarkistaa sitten. Etsi parit -tasossa on kolme tankoa ja kolme vastakohtaa, joilla kullakin on yksi paikka. Lauseet-tasossa lapsi täydentää lauseen vastakohdalla kortilla tai valinnalla Kirjoita itse. Etu- ja loppuliitteet -tasossa lapsi ripustaa tyhjään päähän pidikkeen, kuten \"epä-\", ja työntää sanan perille: vain oikea pidike sulkeutuu ja tekee sanan \"epäreilu\"; väärä pidike ei koskaan tee sanaa. Kohdassa Sanat kuvat voi piilottaa (Vain sanat).",
+        "Harjoitus tukee perusopetuksen opetussuunnitelman perusteiden 2014 tavoitteita: sanojen ja niiden vastakohtien tutkiminen. Ei ajanottoa eikä pisteitä."
+      ],
+      "practices": [
+        "Sanan vastakohdan löytäminen",
+        "Vastakohdan erottaminen samaa tarkoittavasta sanasta",
+        "Sen huomaaminen, ettei välisana kuten lämmin ole kuuman vastakohta",
+        "Vastakohdan käyttäminen lauseessa ja liitteen kanssa"
+      ],
+      "howToPlay": [
+        "Katso sanaa tangon yhdessä päässä.",
+        "Vedä kortti tankoon tai napauta sitä ja katso, minne se liukuu.",
+        "Vastakohta kulkee aivan toiseen päähän.",
+        "Etu- ja loppuliitteet -tasossa ripustat pidikkeen tyhjään päähän ja napautat sanaa työntääksesi sen."
+      ],
+      "learningGoals": [
+        "Lapsi kertoo tutun sanan vastakohdan",
+        "Lapsi lajittelee sanat samoihin ja vastakohtiin",
+        "Lapsi täydentää lauseen vastakohdalla"
+      ]
     }
   }
 }

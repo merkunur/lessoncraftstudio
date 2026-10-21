@@ -35,6 +35,9 @@ function serve() {
   });
 }
 
+/* Row 72 rebuild (2026-10-21): the row now runs The Two-Ended Rod (opposites-rod-activity.html); this harness drove the retired
+   market. The row's interaction gate is local-test-opposites-rod.js. */
+if (!JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'opposites-activities.json'), 'utf8'))[0].params.rounds) { console.log('local-test-opposites: the row runs The Two-Ended Rod — see local-test-opposites-rod.js. Nothing to test here.'); process.exit(0); }
 (async () => {
   const puppeteer = require('puppeteer');
   const server = serve();

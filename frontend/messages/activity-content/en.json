@@ -4437,25 +4437,25 @@
     },
     "wake-up-pip.retell-story.rl-k-2": {
       "about": [
-        "Pip the sleepy friend naps through every story and wakes up dying to know what happened. The child watches a short four-part tale play — a thirsty crow drops pebbles into a jug until it can drink — and then, after the panels disappear, retells it back in order. It's an interactive Kindergarten reading activity that plays right in the browser, with nothing to install and no account.",
-        "The big idea is retelling the key events in order. Early rounds scramble the four panels and ask the child to put them back in sequence. Later rounds lock most of the story and ask the child to supply the one panel that matters, choosing it over a true-but-trivial detail (\"Sam hums a little tune\") or a part borrowed from another story (\"Snow starts to fall\"). The hardest rounds show a memory with a mistake — a swapped order or a wrong panel — for the child to fix.",
-        "It is aligned to Common Core RL.K.2 — retelling familiar stories, including key details. No timer, no score — just calm, playful practice."
+        "A short story plays in a little flipbook – “Mira the mouse’s kite is stuck in a tall tree.” – and then its pages fall out. The child puts the pages back in order and presses Flip!: the book riffles through the stack and the pictures glide from page to page, so the kite really floats down into Mira’s paws. Sleepy Pip the hedgehog lies under his blanket in the corner. It is an interactive Kindergarten reading activity that plays in the browser.",
+        "In the wrong order the story runs backwards and the flip stops right there: the kite jumps back up into the tree and the two pages that broke it jiggle. In The missing page, all the pages but one are already in the book and the child chooses among three loose pages: one moves the story, one shows something true but unimportant (nothing in the story moves), and one shows something that never happened. In Fix the flipbook, two pages are swapped or one page does not belong. When the story plays through, Pip sits up and the retell ribbon tells it back: First, Next, Then, At the end, each over its page’s own sentence. A setting adds the sentences as strips to lay under the pictures.",
+        "It is aligned to Common Core RL.K.2, retelling familiar stories, including key details. Eight short stories, three or four pages each. No timer and no score."
       ],
       "practices": [
-        "Watch a short story and remember what happened",
-        "Put the events back in the order they happened",
-        "Choose the key event over a small detail or a part from another story",
-        "Spot and fix a retelling that is out of order or has the wrong part"
+        "Putting the pictures of a story in order",
+        "Telling what happens first, next and at the end",
+        "Telling a key page from one where nothing in the story happens",
+        "Matching sentences to the pictures they tell"
       ],
       "howToPlay": [
-        "Watch the four-part story play, then wait for the panels to disappear.",
-        "Retell it to Pip by putting the panels in order, or by adding the key part that belongs.",
-        "A warm check confirms the retelling and offers an easy retry; no timer, no score."
+        "Watch the story in the flipbook.",
+        "Tap or drag the pages into the slots in story order.",
+        "Press Flip! If the story runs backwards or stops, look at the pages that jiggle and change them."
       ],
       "learningGoals": [
-        "Retell a familiar story with its key details in order — the focus of Common Core RL.K.2",
-        "Tell the events that matter apart from small or off-topic details",
-        "Build the memory and sequencing that reading comprehension depends on"
+        "The child retells a short story in order",
+        "The child tells the key details apart from details that do not move the story",
+        "The child uses first, next, then and at the end to retell"
       ]
     },
     "wally-capital-crane.special-names.l-2-2-a": {

@@ -2159,6 +2159,29 @@
         "Barnet viser hvor i fortellingen svaret står eller kan ses",
         "Barnet kjenner igjen begynnelsen, midten og slutten av en kort fortelling"
       ]
+    },
+    "wake-up-pip.retell-story.rl-k-2": {
+      "about": [
+        "En kort fortelling spilles av i ei lita flippbok – «Dragen til musa Mira sitter fast i et høyt tre.» – og så faller sidene ut. Barnet legger sidene tilbake i riktig rekkefølge og trykker på Bla!: Boka blar gjennom bunken, og bildene glir fra side til side, så dragen virkelig svever ned til Mira. I hjørnet sover pinnsvinet Pip under teppet sitt. En interaktiv leseøvelse som fungerer i nettleseren.",
+        "I feil rekkefølge går fortellingen baklengs, og blaingen stopper akkurat der: Dragen hopper tilbake opp i treet, og de to sidene som ikke passer, rister. I Siden som mangler ligger alle sidene unntatt én allerede i boka, og barnet velger mellom tre løse sider: Én får fortellingen videre, én viser noe som stemmer, men er uviktig (ingenting i fortellingen beveger seg), og én viser noe som aldri skjedde. I Fiks flippboka er to sider byttet om, eller én side hører ikke til. Når fortellingen spilles hele veien, setter Pip seg opp, og gjenfortellingsbåndet forteller den igjen: Først, Så, Etterpå, Til slutt – hver over sidens egen setning. En innstilling legger til setningene som strimler som legges under bildene.",
+        "Øvelsen følger LK20: å gjenfortelle kjente fortellinger med de viktige detaljene. Åtte korte fortellinger med tre eller fire sider. Uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Å legge bildene i en fortelling i riktig rekkefølge",
+        "Å fortelle hva som skjer først, så og til slutt",
+        "Å skille en viktig side fra en der ingenting skjer i fortellingen",
+        "Å sette setninger sammen med bildene de forteller om"
+      ],
+      "howToPlay": [
+        "Se fortellingen i flippboka.",
+        "Trykk eller dra sidene inn i rutene i riktig rekkefølge.",
+        "Trykk på Bla! Hvis fortellingen går baklengs eller stopper, se på sidene som rister, og bytt dem."
+      ],
+      "learningGoals": [
+        "Barnet gjenforteller en kort fortelling i riktig rekkefølge",
+        "Barnet skiller viktige detaljer fra detaljer som ikke får fortellingen videre",
+        "Barnet gjenforteller med først, så, etterpå og til slutt"
+      ]
     }
   }
 }

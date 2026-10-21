@@ -3817,25 +3817,25 @@
     },
     "wake-up-pip.retell-story.rl-k-2": {
       "about": [
-        "Pip es un amiguito muy dormilón que se perdió el cuento. Su hijo/a mira una historia corta en cuatro imágenes —por ejemplo, «La luz calientita llega a la nariz de Pip» y luego «¡Pip despierta y se estira!»— y después vuelve a contársela a Pip: pone las partes en orden y elige las importantes.",
-        "La actividad practica volver a contar un cuento con los sucesos en orden y los detalles importantes. En algunas rondas falta una parte clave y su hijo/a la escoge —sin confundirla con un detalle que no importa, un suceso de otro cuento o un personaje que no aparece. Así aprende a distinguir lo importante de lo secundario, no solo a ordenar.",
-        "Volver a contar un cuento —en orden y con lo que de verdad importa— es una base de la comprensión lectora. La historia se puede escuchar con el botón de audio, por si su hijo/a todavía no lee solo. Corresponde al eje «Comprensión de textos literarios». Sin presiones: sin cronómetro, sin puntaje, sin perder; su hijo/a piensa con calma."
+        "En un pequeño libro animado pasa un cuento corto – «El papalote de Mira la ratona se atora en un árbol alto.» – y luego sus páginas se caen. El niño pone las páginas otra vez en orden y presiona ¡Hojear!: el libro pasa las páginas y los dibujos se deslizan de una a otra, así que el papalote de verdad baja flotando hasta Mira. En la esquina duerme Pip el erizo bajo su cobija. Es una actividad interactiva de lectura que funciona en el navegador.",
+        "En el orden equivocado el cuento va hacia atrás y el libro se detiene justo ahí: el papalote vuelve a subir al árbol y las dos páginas que no van se sacuden. En La página que falta ya están en el libro todas las páginas menos una y el niño escoge entre tres páginas sueltas: una hace avanzar el cuento, otra muestra algo cierto pero sin importancia (en el cuento no se mueve nada) y otra muestra algo que nunca pasó. En Arregla el libro animado hay dos páginas cambiadas o una página que no va. Cuando el cuento pasa completo, Pip se sienta y la cinta del relato lo vuelve a contar: Primero, Después, Luego, Al final, cada uno sobre la oración de su página. Un ajuste agrega las oraciones como tiras para poner debajo de los dibujos.",
+        "La actividad se basa en los programas de estudio de la SEP: volver a contar cuentos conocidos con sus detalles importantes. Ocho cuentos cortos de tres o cuatro páginas. Sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Volver a contar un cuento con los sucesos en orden",
-        "Elegir los detalles importantes del cuento",
-        "Distinguir lo importante de un detalle que no importa o que no pertenece",
-        "Ver y escuchar cuentos cortos con atención"
+        "Ordenar los dibujos de un cuento",
+        "Contar qué pasa primero, después y al final",
+        "Distinguir una página importante de una en la que no pasa nada del cuento",
+        "Relacionar oraciones con los dibujos que cuentan"
       ],
       "howToPlay": [
-        "Mira la historia en cuatro imágenes (o toca el botón de audio)",
-        "Pon las partes en el orden en que pasaron y elige las importantes",
-        "Toca «¡Cuéntala!» para contarle el cuento a Pip"
+        "Mira el cuento en el libro animado.",
+        "Toca o arrastra las páginas a los lugares en el orden del cuento.",
+        "Presiona ¡Hojear! Si el cuento va hacia atrás o se detiene, mira las páginas que se sacuden y cámbialas."
       ],
       "learningGoals": [
-        "Su hijo/a vuelve a contar un cuento con los sucesos en orden",
-        "Elige los detalles importantes y descarta los que no pertenecen",
-        "Da sus primeros pasos en la comprensión de cuentos"
+        "El niño vuelve a contar un cuento corto en orden",
+        "El niño distingue los detalles importantes de los que no hacen avanzar el cuento",
+        "El niño vuelve a contar con primero, después, luego y al final"
       ]
     },
     "otto-picture-book.which-picture.rl-k-7": {

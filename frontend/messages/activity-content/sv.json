@@ -3002,6 +3002,29 @@
         "Barnet visar var i berättelsen svaret står eller syns",
         "Barnet känner igen början, mitten och slutet på en kort berättelse"
       ]
+    },
+    "wake-up-pip.retell-story.rl-k-2": {
+      "about": [
+        "En kort berättelse spelas upp i en liten blädderbok – ”Musen Miras drake sitter fast i ett högt träd.” – och sedan faller sidorna ut. Barnet lägger tillbaka sidorna i rätt ordning och trycker på Bläddra!: boken bläddrar genom högen och bilderna glider från sida till sida, så att draken verkligen svävar ner till Mira. I hörnet sover igelkotten Pip under sin filt. En interaktiv läsövning som fungerar i webbläsaren.",
+        "I fel ordning går berättelsen baklänges och bläddringen stannar just där: draken hoppar tillbaka upp i trädet och de två sidorna som inte passar vickar. I Sidan som saknas ligger redan alla sidor utom en i boken, och barnet väljer bland tre lösa sidor: en för berättelsen framåt, en visar något som stämmer men är oviktigt (ingenting i berättelsen rör sig), och en visar något som aldrig hände. I Laga blädderboken har två sidor bytt plats eller så hör en sida inte dit. När berättelsen spelas upp hela vägen sätter sig Pip upp, och återberättelsebandet berättar den igen: Först, Sedan, Efter det, Till sist – var och en över sidans egen mening. En inställning lägger till meningarna som remsor som läggs under bilderna.",
+        "Övningen följer Lgr22: att återberätta kända berättelser med de viktiga detaljerna. Åtta korta berättelser med tre eller fyra sidor. Utan tidtagning och utan poäng."
+      ],
+      "practices": [
+        "Att lägga bilderna i en berättelse i rätt ordning",
+        "Att berätta vad som händer först, sedan och till sist",
+        "Att skilja en viktig sida från en där ingenting händer i berättelsen",
+        "Att para ihop meningar med bilderna de berättar om"
+      ],
+      "howToPlay": [
+        "Titta på berättelsen i blädderboken.",
+        "Tryck eller dra sidorna till rutorna i rätt ordning.",
+        "Tryck på Bläddra! Om berättelsen går baklänges eller stannar, titta på sidorna som vickar och byt plats på dem."
+      ],
+      "learningGoals": [
+        "Barnet återberättar en kort berättelse i rätt ordning",
+        "Barnet skiljer viktiga detaljer från detaljer som inte för berättelsen framåt",
+        "Barnet återberättar med först, sedan, efter det och till sist"
+      ]
     }
   }
 }

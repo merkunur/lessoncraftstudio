@@ -26,6 +26,11 @@ const fs = require('fs');
 const path = require('path');
 
 const REPO = path.join(__dirname, '..');
+/* Row 64 rebuild (2026-10-21): wake-up-pip.retell-story.rl-k-2 runs THE FLIPBOOK on its own wake-up-pip-core.js; its params are a mirror, no
+   longer the retell rounds this gate reads. The shared retell-story-core.js is untouched; the row's gates are verify-wake-up-pip-core.js,
+   mutate-wake-up-pip.js and local-test-wake-up-pip.js. */
+{ const row = JSON.parse(fs.readFileSync(path.join(REPO, 'mini tools', 'wake-up-pip-activities.json'), 'utf8'))[0];
+  if (row.tool === 'wake-up-pip-activity' && !(row.params && row.params.rounds)) { console.log('verify-retell-core: the row runs The Flipbook (wake-up-pip-core.js) — see verify-wake-up-pip-core.js. Nothing to check here.'); process.exit(0); } }
 const coreSrc = fs.readFileSync(path.join(REPO, 'mini tools', 'retell-story-core.js'), 'utf8');
 const win = {};
 new Function('window', coreSrc)(win);

@@ -3830,25 +3830,25 @@
     },
     "wake-up-pip.retell-story.rl-k-2": {
       "about": [
-        "Acorda, Pip! é um jogo de leitura tranquilo em que a criança primeiro assiste a uma historinha curta e depois a reconta para o Pip, um amiguinho que dorme o tempo todo e perde tudo. Como o Pip não viu nada, a criança precisa contar o que aconteceu na ordem certa.",
-        "Cada história é uma pequena cadeia de causa e efeito: uma parte faz a próxima acontecer. Quando a história some da tela, a criança organiza as figuras em ordem e escolhe os detalhes importantes, deixando de fora as figuras que não pertencem àquela história.",
-        "É uma prática de compreensão sem pressa e sem pontuação: nada de relógio nem de placar. O Pip fica feliz quando a criança conta a história inteira — do problema até o final. A atividade segue a BNCC (Base Nacional Comum Curricular)."
+        "Num livrinho animado passa uma história curta – “A pipa da Mira, a ratinha, está presa numa árvore alta.” – e depois as páginas caem. A criança coloca as páginas de novo na ordem e aperta Folhear!: o livro folheia a pilha e as figuras deslizam de uma página para outra, e a pipa desce mesmo até a Mira. No canto, o ouriço Pip dorme debaixo do cobertor. É uma atividade interativa de leitura que funciona no navegador.",
+        "Na ordem errada a história anda para trás e o livro para bem ali: a pipa volta para a árvore e as duas páginas que não combinam tremem. Em A página que falta já estão no livro todas as páginas menos uma, e a criança escolhe entre três páginas soltas: uma faz a história andar, outra mostra algo verdadeiro mas sem importância (nada se mexe na história) e outra mostra algo que nunca aconteceu. Em Conserte o livro animado, duas páginas estão trocadas ou uma página não faz parte da história. Quando a história passa inteira, o Pip se senta e a fita do reconto conta tudo de novo: Primeiro, Depois, Em seguida, No final, cada um em cima da frase da sua página. Uma configuração acrescenta as frases como tiras para pôr embaixo das figuras.",
+        "A atividade se apoia na BNCC: recontar histórias conhecidas com os detalhes importantes. Oito histórias curtas de três ou quatro páginas. Sem cronômetro e sem pontos."
       ],
       "practices": [
-        "Recontar a história em ordem, do começo ao fim.",
-        "Identificar os detalhes importantes: quem, o problema e como termina.",
-        "Perceber a causa e o efeito — como uma parte faz a próxima acontecer.",
-        "Separar o que faz parte da história do que não pertence a ela."
+        "Colocar as figuras de uma história na ordem",
+        "Contar o que acontece primeiro, depois e no final",
+        "Diferenciar uma página importante de uma em que nada acontece na história",
+        "Relacionar frases com as figuras que elas contam"
       ],
       "howToPlay": [
-        "Toque em Tocar a história e assista com atenção ao que aconteceu.",
-        "Quando a história sumir, coloque as figuras em ordem, do problema até o final.",
-        "Escolha os detalhes importantes e conte tudo para o Pip!"
+        "Veja a história no livro animado.",
+        "Toque ou arraste as páginas para os lugares na ordem da história.",
+        "Aperte Folhear! Se a história andar para trás ou parar, olhe as páginas que tremem e troque-as."
       ],
       "learningGoals": [
-        "Recontar uma história com os detalhes importantes e na ordem certa.",
-        "Compreender o que aconteceu e por que aconteceu.",
-        "Ampliar a compreensão de textos, com base na BNCC."
+        "A criança reconta uma história curta na ordem",
+        "A criança diferencia os detalhes importantes dos que não fazem a história andar",
+        "A criança reconta usando primeiro, depois, em seguida e no final"
       ]
     },
     "otto-picture-book.which-picture.rl-k-7": {

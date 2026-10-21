@@ -563,25 +563,25 @@
     },
     "wake-up-pip.retell-story.rl-k-2": {
       "about": [
-        "In dit spel voor groep 4 helpt je kind Pip, een slaperig vriendje dat elk verhaal verslaapt. Eerst kijkt je kind naar een korte film van vier plaatjes — bijvoorbeeld het zonneverhaal: Pip slaapt in het gras, de zon komt op, warm zonlicht kietelt Pips neus, en Pip wordt wakker en rekt zich uit. Daarna verdwijnt de film en legt je kind het verhaal helemaal uit het geheugen weer in de juiste volgorde, om het aan Pip na te vertellen.",
-        "Zo oefent je kind in groep 4 een belangrijke leesvaardigheid: een verhaal navertellen in de juiste volgorde met de belangrijke details — wie het is, wat het probleem is en hoe het afloopt. Je kind leert oorzaak en gevolg zien en het belangrijke plaatje onderscheiden van een onbelangrijk of niet-passend plaatje. Soms kiest je kind het ontbrekende belangrijke plaatje of verbetert het een verkeerd plaatje, precies wat bij begrijpend lezen in groep 4 hoort.",
-        "Het spel werkt zonder inloggen. Er is geen tijd en geen score, zodat je kind rustig en zonder druk kan spelen, en elk verhaal wordt voorgelezen. Alles is afgestemd op de SLO-kerndoelen voor groep 4, met warme, aanmoedigende begeleiding terwijl je kind Pip helpt het verhaal na te vertellen."
+        "In een klein flipboekje speelt een kort verhaal – “De vlieger van Mira de muis zit vast in een hoge boom.” – en daarna vallen de bladzijden eruit. Het kind legt de bladzijden terug in de goede volgorde en drukt op Bladeren!: het boekje bladert door de stapel en de plaatjes glijden van bladzijde naar bladzijde, zodat de vlieger echt naar Mira omlaag zweeft. In de hoek slaapt Pip de egel onder zijn dekentje. Een interactieve leesactiviteit die in de browser werkt.",
+        "In de verkeerde volgorde loopt het verhaal achteruit en stopt het bladeren precies daar: de vlieger springt terug in de boom en de twee bladzijden die niet kloppen, wiebelen. Bij De ontbrekende bladzijde liggen er al op één na alle bladzijden in het boekje en kiest het kind uit drie losse bladzijden: één brengt het verhaal verder, één laat iets zien dat klopt maar niet belangrijk is (er beweegt niets in het verhaal), en één laat iets zien dat nooit gebeurd is. Bij Flipboekje herstellen zijn twee bladzijden verwisseld of hoort één bladzijde er niet bij. Loopt het verhaal helemaal door, dan gaat Pip rechtop zitten en vertelt het vertellint het verhaal na: Eerst, Dan, Daarna, Tot slot, elk boven de zin van de bladzijde. Met een instelling komen de zinnen erbij als stroken die je onder de plaatjes legt.",
+        "De activiteit sluit aan bij de SLO-kerndoelen: bekende verhalen navertellen met de belangrijke details. Acht korte verhalen van drie of vier bladzijden. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Een verhaal navertellen in de juiste volgorde",
-        "De belangrijke details onthouden: wie, het probleem en de afloop",
-        "Oorzaak en gevolg in een verhaal herkennen",
-        "Belangrijk onderscheiden van onbelangrijk of niet-passend"
+        "De plaatjes van een verhaal in de goede volgorde leggen",
+        "Vertellen wat er eerst, daarna en tot slot gebeurt",
+        "Een belangrijke bladzijde onderscheiden van een waarop er in het verhaal niets gebeurt",
+        "Zinnen bij de juiste plaatjes leggen"
       ],
       "howToPlay": [
-        "Kijk samen met Pip naar de korte film van vier plaatjes en let goed op wat er gebeurt.",
-        "De film verdwijnt — leg het verhaal uit je geheugen weer in de juiste volgorde en kies zo nodig het ontbrekende plaatje.",
-        "Tik op \"Vertel het!\" en vertel het verhaal na aan Pip, met de belangrijke details."
+        "Kijk naar het verhaal in het flipboekje.",
+        "Tik of sleep de bladzijden in de goede volgorde in de vakken.",
+        "Druk op Bladeren! Loopt het verhaal achteruit of stopt het, kijk dan naar de wiebelende bladzijden en verwissel ze."
       ],
       "learningGoals": [
-        "Je kind kan een kort verhaal in de juiste volgorde navertellen.",
-        "Je kind herkent de belangrijke details: wie, wat het probleem is en hoe het afloopt.",
-        "Je kind kan oorzaak en gevolg aanwijzen en een niet-passend plaatje overslaan."
+        "Het kind vertelt een kort verhaal in de goede volgorde na",
+        "Het kind onderscheidt belangrijke details van details die het verhaal niet verder brengen",
+        "Het kind vertelt na met eerst, dan, daarna en tot slot"
       ]
     },
     "two-tales.compare.rl-1-9": {

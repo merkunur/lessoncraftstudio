@@ -3026,25 +3026,26 @@
     },
     "otto-picture-book.which-picture.rl-k-7": {
       "about": [
-        "Otto the owl illustrates a short four-part story — folding a paper boat, a robin building a nest, a caterpillar turning into a butterfly — then reads one part aloud and children tap the picture that shows that exact moment. It's an interactive Kindergarten reading game that runs right in the browser with no sign-up.",
-        "Every picture choice comes from the same story, so the child cannot win by spotting a random matching object — they have to know which moment each illustration shows. Hearing the whole story first, then matching one spoken sentence to its picture, ties the words and the pictures tightly together.",
-        "It is aligned to Common Core RL.K.7 — matching a moment in a story to the illustration that depicts it. No timer, no score — just calm, playful practice."
+        "Otto the owl reads with pins. Every important word in his sentence carries a pin, and when the child checks, the pins fly into the picture. A pin sticks only where the picture shows what its word says; where it does not, the pin hangs loose and shows exactly which word did not match. Put “A gust of wind pushes the boat.” under a picture with no wind, and the pin on wind dangles. It is an interactive Kindergarten reading activity that plays in the browser.",
+        "There are four tasks. In Which picture? the child puts the sentence under the one picture of a little story that shows it. In Fill the blank the child picks the word, or spells it with letter tiles, that makes the sentence match the scene. In Read and color the child paints a row of pictures as the sentence says. In True or false? the child decides whether a sentence matches the picture. With Two parts, every round has two sentences or a longer instruction to keep track of.",
+        "It is aligned to Common Core RL.K.7: telling how a story’s pictures and its words go together. Every picture comes from the picture library. No timer and no score."
       ],
       "practices": [
-        "Listen to a whole short story from beginning to end",
-        "Match one spoken sentence to the picture that shows that moment",
-        "Tell apart pictures that all come from the same story",
-        "Put words and illustrations together to understand a story"
+        "Matching a sentence to the picture that shows it",
+        "Checking each word of a sentence against a picture",
+        "Choosing the word that makes a sentence true for a picture",
+        "Following a written instruction to color pictures"
       ],
       "howToPlay": [
-        "Listen as Otto reads the whole story aloud.",
-        "Otto reads one part again — tap the picture that shows that exact moment, then press Check.",
-        "Not quite? Listen once more and try again; there is no timer and no score."
+        "Choose a task in the settings.",
+        "Read Otto’s sentence, or tap the speaker to hear it.",
+        "Put the sentence under a picture, choose a word, paint or tap ✓ or ✗, then check.",
+        "A pin that hangs shows the word that does not match the picture."
       ],
       "learningGoals": [
-        "Match a story moment to the picture that shows it — the focus of Common Core RL.K.7",
-        "Listen to a story and hold its order in mind",
-        "Use both the words and the pictures to follow a story"
+        "The child finds the picture that shows a sentence",
+        "The child tells which word does or does not match a picture",
+        "The child knows that the words and the pictures of a story tell the same thing"
       ]
     },
     "parking-tower.place-by-relation.k-g-a-1": {

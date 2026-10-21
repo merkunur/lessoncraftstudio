@@ -2228,6 +2228,30 @@
         "Barnet sier hva forfatteren og illustratøren lager",
         "Barnet vet at en fortelling blir fortalt med både ord og bilder"
       ]
+    },
+    "otto-picture-book.which-picture.rl-k-7": {
+      "about": [
+        "Ugla Otto leser med nåler. Hvert viktig ord i setningen hans bærer en nål, og når barnet sjekker, flyr nålene inn i bildet. En nål sitter bare fast der bildet viser det ordet sier; ellers henger den løst og viser nøyaktig hvilket ord som ikke stemmer. Legger barnet «Et vindkast dytter båten.» under et bilde uten vind, dingler nåla ved vindkast. En interaktiv leseøvelse som spilles i nettleseren.",
+        "Det er fire oppgaver. I Hvilket bilde? legger barnet setningen under det ene bildet i en liten fortelling som viser den. I Fyll inn ordet velger barnet ordet – eller staver det med bokstavbrikker – som gjør at setningen passer til bildet. I Les og fargelegg fargelegger barnet en rad bilder slik setningen sier. I Riktig eller galt? avgjør barnet om en setning stemmer med bildet. Med To deler har hver runde to setninger eller en lengre oppgave.",
+        "Øvelsen følger LK20 i norsk: å koble tekst og bilder i en fortelling. Hvert bilde kommer fra bildebiblioteket. Uten tidspress og uten poeng."
+      ],
+      "practices": [
+        "Å finne bildet som viser en setning",
+        "Å prøve hvert ord i en setning mot et bilde",
+        "Å velge ordet som gjør at en setning passer til et bilde",
+        "Å fargelegge bilder etter en skrevet oppgave"
+      ],
+      "howToPlay": [
+        "Velg en oppgave i innstillingene.",
+        "Les setningen til Otto, eller trykk på høyttaleren for å høre den.",
+        "Legg setningen under et bilde, velg et ord, fargelegg eller trykk på ✓ eller ✗, og sjekk så.",
+        "En nål som henger, viser ordet som ikke passer til bildet."
+      ],
+      "learningGoals": [
+        "Barnet finner bildet som viser en setning",
+        "Barnet sier hvilket ord som passer og ikke passer til et bilde",
+        "Barnet vet at ordene og bildene i en fortelling forteller det samme"
+      ]
     }
   }
 }

@@ -540,25 +540,26 @@
     },
     "otto-picture-book.which-picture.rl-k-7": {
       "about": [
-        "Otto, die Eule, hat zu jedem Teil einer kleinen Geschichte ein Bild gemalt. In der Bootsgeschichte faltet Finn ein Papierboot, setzt es in den Bach, ein Windstoß schiebt das Boot – und am Ende erreicht es das andere Ufer. Dein Kind hört zuerst die ganze Geschichte, und dann liest Otto einen einzelnen Teil vor, zum Beispiel „Ein Windstoß schiebt das Boot.“ Jetzt tippt dein Kind das Bild an, das genau diesen Moment zeigt.",
-        "So lernt dein Kind, Bild und Text miteinander zu verbinden und zu erkennen, welches Bild einen vorgelesenen Satz zeigt. Weil alle Bilder aus derselben Geschichte stammen, muss dein Kind wirklich verstehen, welchen Moment jede Zeichnung darstellt – genau das ist der Bild-Text-Bezug. Diese Übung gehört zum Lehrplan-Bereich „Literarische Texte verstehen“ und passt gut in der Grundschule, etwa in Klasse 1.",
-        "Die Übung ist ganz ohne Zeitdruck und ohne Punkte – dein Kind darf in Ruhe zuhören und überlegen. Da die Geschichte vorgelesen wird, können auch Kinder mitmachen, die noch nicht selbst lesen. So wird Lesenlernen zu einem kleinen, entspannten Abenteuer mit Otto, der Eule."
+        "Otto, die Eule, liest mit Nadeln. Jedes wichtige Wort in seinem Satz trägt eine Nadel, und beim Prüfen fliegen die Nadeln ins Bild. Eine Nadel steckt nur dort, wo das Bild zeigt, was ihr Wort sagt; sonst hängt sie lose herunter und zeigt genau, welches Wort nicht passt. Legt das Kind „Ein Windstoß schiebt das Boot an.“ unter ein Bild ohne Wind, baumelt die Nadel am Wort Windstoß. Eine interaktive Leseübung, die im Browser läuft.",
+        "Es gibt vier Aufgaben. Bei „Welches Bild?“ legt das Kind den Satz unter das eine Bild einer kleinen Geschichte, das ihn zeigt. Bei „Lücke füllen“ wählt es das Wort – oder legt es mit Buchstaben –, mit dem der Satz zum Bild passt. Bei „Lesen und malen“ malt es eine Reihe Bilder so an, wie der Satz es sagt. Bei „Stimmt das?“ entscheidet es, ob ein Satz zum Bild passt. Mit „Zwei Teile“ hat jede Runde zwei Sätze oder einen längeren Auftrag.",
+        "Die Übung passt zum Lehrplan Deutsch, Bereich Lesen – mit Texten und Medien umgehen: Text und Bild einer Geschichte aufeinander beziehen. Jedes Bild stammt aus der Bildbibliothek. Ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "Einen vorgelesenen Satz dem passenden Bild zuordnen",
-        "Erkennen, welchen Moment einer Geschichte ein Bild zeigt",
-        "Bild und Text miteinander verbinden",
-        "Genau zuhören und aufmerksam hinschauen"
+        "Einen Satz dem Bild zuordnen, das ihn zeigt",
+        "Jedes Wort eines Satzes am Bild überprüfen",
+        "Das Wort wählen, mit dem ein Satz zum Bild passt",
+        "Nach einem geschriebenen Auftrag Bilder anmalen"
       ],
       "howToPlay": [
-        "Hört euch zuerst die ganze Geschichte in Ruhe an.",
-        "Otto, die Eule, liest danach einen einzelnen Teil der Geschichte laut vor.",
-        "Dein Kind tippt das Bild an, das genau diesen Teil zeigt."
+        "Wähle in den Einstellungen eine Aufgabe.",
+        "Lies Ottos Satz oder tippe auf den Lautsprecher, um ihn zu hören.",
+        "Leg den Satz unter ein Bild, wähle ein Wort, male an oder tippe ✓ oder ✗ – dann prüfe.",
+        "Eine hängende Nadel zeigt das Wort, das nicht zum Bild passt."
       ],
       "learningGoals": [
-        "Dein Kind kann einen gehörten Satz sicher dem passenden Bild zuordnen.",
-        "Dein Kind erkennt, welches Bild welchen Moment einer Geschichte darstellt.",
-        "Dein Kind verbindet Bild und Text und versteht Geschichten dadurch besser."
+        "Das Kind findet das Bild, das einen Satz zeigt",
+        "Das Kind sagt, welches Wort zum Bild passt und welches nicht",
+        "Das Kind weiß, dass Wörter und Bilder einer Geschichte dasselbe erzählen"
       ]
     },
     "wake-up-pip.retell-story.rl-k-2": {

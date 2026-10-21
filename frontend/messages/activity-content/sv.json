@@ -3071,6 +3071,30 @@
         "Barnet säger vad författaren och illustratören gör",
         "Barnet vet att en berättelse berättas med både ord och bilder"
       ]
+    },
+    "otto-picture-book.which-picture.rl-k-7": {
+      "about": [
+        "Ugglan Otto läser med nålar. Varje viktigt ord i hans mening bär en nål, och när barnet kontrollerar flyger nålarna in i bilden. En nål fastnar bara där bilden visar det som ordet säger; annars hänger den löst och visar precis vilket ord som inte stämmer. Lägger barnet ”En vindby knuffar båten.” under en bild utan vind dinglar nålen vid vindby. En interaktiv läsövning som spelas i webbläsaren.",
+        "Det finns fyra uppgifter. I Vilken bild? lägger barnet meningen under den enda bilden i en liten berättelse som visar den. I Fyll i luckan väljer barnet ordet – eller stavar det med bokstavsbrickor – som gör att meningen passar till bilden. I Läs och färglägg färglägger barnet en rad bilder så som meningen säger. I Sant eller falskt? avgör barnet om en mening stämmer med bilden. Med Två delar har varje omgång två meningar eller en längre uppgift.",
+        "Övningen följer Lgr22 i svenska: att koppla ihop text och bild i en berättelse. Varje bild kommer från bildbiblioteket. Utan tidspress och utan poäng."
+      ],
+      "practices": [
+        "Att hitta bilden som visar en mening",
+        "Att pröva varje ord i en mening mot en bild",
+        "Att välja det ord som gör att en mening passar till en bild",
+        "Att färglägga bilder efter en skriven uppgift"
+      ],
+      "howToPlay": [
+        "Välj en uppgift i inställningarna.",
+        "Läs Ottos mening eller tryck på högtalaren för att höra den.",
+        "Lägg meningen under en bild, välj ett ord, färglägg eller tryck på ✓ eller ✗ och kontrollera sedan.",
+        "En nål som hänger visar ordet som inte passar till bilden."
+      ],
+      "learningGoals": [
+        "Barnet hittar bilden som visar en mening",
+        "Barnet säger vilket ord som passar och inte passar till en bild",
+        "Barnet vet att orden och bilderna i en berättelse berättar samma sak"
+      ]
     }
   }
 }

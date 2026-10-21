@@ -30,6 +30,11 @@ new Function('window', coreSrc)(win);
 const Core = win.PictureMomentCore;
 if (!Core) { console.error('FAIL: picture-moment-core.js did not define window.PictureMomentCore'); process.exit(1); }
 
+/* Row 67 rebuild (2026-10-21): otto-picture-book.which-picture.rl-k-7 runs OTTO'S PROOF PINS on its own otto-pins-core.js; its params are a
+   mirror, no longer the rounds this gate reads. picture-moment-core.js is untouched; the row's gates are verify-otto-pins-core.js,
+   mutate-otto-pins.js and local-test-otto-picture-book.js. */
+{ const row = JSON.parse(fs.readFileSync(path.join(REPO, 'mini tools', 'otto-picture-book-activities.json'), 'utf8'))[0];
+  if (!(row.params && row.params.rounds)) { console.log('verify-picture-moment-core: the row runs Otto’s proof pins (otto-pins-core.js) — see verify-otto-pins-core.js. Nothing to check here.'); process.exit(0); } }
 const rounds = JSON.parse(fs.readFileSync(path.join(REPO, 'mini tools', 'otto-picture-book-activities.json'), 'utf8'))[0].params.rounds;
 
 const failures = [];

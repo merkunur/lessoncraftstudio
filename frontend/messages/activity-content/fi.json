@@ -2220,6 +2220,30 @@
         "Lapsi kertoo, mitä kirjailija ja kuvittaja tekevät",
         "Lapsi tietää, että tarina kerrotaan sekä sanoin että kuvin"
       ]
+    },
+    "otto-picture-book.which-picture.rl-k-7": {
+      "about": [
+        "Pöllö Otto lukee neuloilla. Jokaisessa lauseen tärkeässä sanassa on neula, ja kun lapsi tarkistaa, neulat lentävät kuvaan. Neula tarttuu vain siihen kohtaan, jossa kuva näyttää sen, mitä sana sanoo; muuten se roikkuu irrallaan ja näyttää tarkalleen, mikä sana ei sovi. Jos lapsi laittaa lauseen ”Tuulenpuuska työntää venettä.” kuvan alle, jossa ei tuule, sanan tuulenpuuska neula jää roikkumaan. Interaktiivinen lukuharjoitus, joka toimii selaimessa.",
+        "Tehtäviä on neljä. Tehtävässä Mikä kuva? lapsi laittaa lauseen pienen tarinan sen ainoan kuvan alle, joka näyttää lauseen. Tehtävässä Täydennä aukko lapsi valitsee sanan, jolla lause sopii kuvaan. Tehtävässä Lue ja väritä lapsi värittää kuvarivin niin kuin lause sanoo. Tehtävässä Totta vai ei? lapsi ratkaisee, sopiiko lause kuvaan. Valinnalla Kaksi osaa jokaisessa kierroksessa on kaksi lausetta tai pidempi ohje.",
+        "Harjoitus tukee perusopetuksen opetussuunnitelman perusteiden 2014 tavoitteita: tarinan tekstin ja kuvien yhdistämistä. Jokainen kuva tulee kuvakirjastosta. Ei aikarajaa eikä pisteitä."
+      ],
+      "practices": [
+        "Lauseen yhdistäminen kuvaan, joka näyttää sen",
+        "Lauseen jokaisen sanan vertaaminen kuvaan",
+        "Sen sanan valitseminen, jolla lause sopii kuvaan",
+        "Kuvien värittäminen kirjoitetun ohjeen mukaan"
+      ],
+      "howToPlay": [
+        "Valitse tehtävä asetuksista.",
+        "Lue Oton lause tai napauta kaiutinta kuullaksesi sen.",
+        "Laita lause kuvan alle, valitse sana, väritä tai napauta ✓ tai ✗ ja tarkista sitten.",
+        "Roikkuva neula näyttää sanan, joka ei sovi kuvaan."
+      ],
+      "learningGoals": [
+        "Lapsi löytää kuvan, joka näyttää lauseen",
+        "Lapsi kertoo, mikä sana sopii kuvaan ja mikä ei",
+        "Lapsi tietää, että tarinan sanat ja kuvat kertovat saman asian"
+      ]
     }
   }
 }

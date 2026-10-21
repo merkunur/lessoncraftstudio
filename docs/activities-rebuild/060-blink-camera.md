@@ -72,3 +72,12 @@ ORDER row 60 · id `choice-board.read-sight-word.rf-k-3-c` (kept).
   - the gappy short words;
   - the shutter overhang clipped in the thumbnail;
   - Check below the fold on phones (fixed: the dots and photo sit beside the camera, the count fits one row, and the story picture floats).
+
+## Deploy
+- `a342405e` deployed 2026-10-21: the preview webp scp'd; git pull; the three files + `choice-board-activities.json` copied to `/var/www/lcs-media/mini-tools/` before the build; `deploy.sh` exit 0; payment canary clean; server 133 GB free of 436 GB.
+- `live-verify-blink-camera.js` — 99 / 0:
+  - all 11 pages 200 (fi new);
+  - en / de / sv / fi at 1366 and 390: Check before snapping asks, the shutter hides the cards, a wrong card → miss, the right one → right with the filled success text, a full hunt with the count, every copy in a story;
+  - the iframe grows with the card.
+  - The first run raced the page cache (old iframe); the rerun is the record.
+- Variety probe on production: 8 distinct, pass 2 reshuffled.

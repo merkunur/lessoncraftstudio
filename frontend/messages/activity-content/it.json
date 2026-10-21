@@ -3839,25 +3839,25 @@
     },
     "wake-up-pip.retell-story.rl-k-2": {
       "about": [
-        "Pip si è addormentato e ha perso la storia: tocca ai bambini raccontargliela dall’inizio alla fine.",
-        "Dopo aver guardato un breve film in quattro scene, rimettono le vignette nel giusto ordine di causa ed effetto e scelgono i dettagli che contano davvero, lasciando fuori ciò che non è successo.",
-        "Pensata per la classe seconda e allineata alle Indicazioni nazionali, è un’attività senza registrazione, senza timer e senza punteggio."
+        "In un piccolo libro animato scorre una breve storia – «L’aquilone di Mira la topolina è bloccato su un albero alto.» – e poi le pagine cadono. Il bambino rimette le pagine in ordine e preme «Sfoglia!»: il libro sfoglia la pila e i disegni scivolano da una pagina all’altra, così l’aquilone scende davvero fino a Mira. Nell’angolo dorme Pip il riccio sotto la sua copertina. È un’attività di lettura interattiva che funziona nel browser.",
+        "Nell’ordine sbagliato la storia va all’indietro e il libro si ferma proprio lì: l’aquilone torna su nell’albero e le due pagine che non vanno traballano. In La pagina mancante tutte le pagine tranne una sono già nel libro e il bambino sceglie fra tre pagine sparse: una fa andare avanti la storia, una mostra qualcosa di vero ma poco importante (nella storia non si muove niente) e una mostra qualcosa che non è mai successo. In Sistema il libro animato due pagine sono scambiate o una pagina non c’entra. Quando la storia scorre fino in fondo, Pip si mette seduto e il nastro del racconto la ripete: Prima, Poi, Dopo, Alla fine, ognuno sopra la frase della sua pagina. Un’impostazione aggiunge le frasi come strisce da mettere sotto i disegni.",
+        "L’attività segue le Indicazioni nazionali: raccontare di nuovo storie conosciute con i dettagli importanti. Otto storie brevi di tre o quattro pagine. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "raccontare una storia nell’ordine giusto",
-        "mettere gli eventi in sequenza",
-        "riconoscere causa ed effetto",
-        "distinguere i dettagli essenziali da quelli secondari"
+        "Mettere in ordine i disegni di una storia",
+        "Raccontare che cosa succede prima, poi e alla fine",
+        "Distinguere una pagina importante da una in cui nella storia non succede niente",
+        "Abbinare le frasi ai disegni che raccontano"
       ],
       "howToPlay": [
-        "Guarda e ascolta il breve film della storia.",
-        "Rimetti le vignette nel giusto ordine di causa ed effetto.",
-        "Racconta la storia a Pip scegliendo i dettagli chiave."
+        "Guarda la storia nel libro animato.",
+        "Tocca o trascina le pagine nei posti nell’ordine della storia.",
+        "Premi «Sfoglia!». Se la storia va all’indietro o si ferma, guarda le pagine che traballano e scambiale."
       ],
       "learningGoals": [
-        "Raccontare una storia rispettando l’ordine degli eventi.",
-        "Collegare gli eventi con relazioni di causa ed effetto.",
-        "Distinguere ciò che è essenziale da ciò che non c’entra."
+        "Il bambino racconta di nuovo una breve storia in ordine",
+        "Il bambino distingue i dettagli importanti da quelli che non fanno andare avanti la storia",
+        "Il bambino racconta usando prima, poi, dopo e alla fine"
       ]
     },
     "otto-picture-book.which-picture.rl-k-7": {

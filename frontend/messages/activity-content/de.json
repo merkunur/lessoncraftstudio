@@ -563,25 +563,25 @@
     },
     "wake-up-pip.retell-story.rl-k-2": {
       "about": [
-        "Pip ist ein kleiner Schlafmützen-Freund – und Pip verschläft einfach jede Geschichte! In diesem Spiel schaut dein Kind zuerst einen kurzen Film aus vier Bildern: Pip schläft tief im Gras, die Sonne steigt am Himmel hoch, warmes Sonnenlicht kitzelt Pips Nase, und Pip wacht auf und streckt sich. Dann ist der Film weg – und Pip möchte unbedingt wissen, was passiert ist. Dein Kind bringt die Geschichte wieder in die richtige Reihenfolge und erzählt sie Pip nach, mit den wichtigen Details: Wer kommt vor, was ist das Problem, und wie geht es aus? So übt dein Kind spielerisch das Nacherzählen aus dem Lehrplan-Bereich „Literarische Texte verstehen“ – ganz ohne Zeitdruck und ohne Punkte. Die Geschichte wird laut vorgelesen, damit auch Kinder mitmachen können, die noch nicht selbst lesen.",
-        "Eine Geschichte in der richtigen Reihenfolge nacherzählen ist eine der wichtigsten Lesekompetenzen in der Grundschule. Dein Kind lernt dabei, die Ereignisse einer Geschichte zu ordnen, sich die wichtigen Details zu merken und Ursache und Wirkung zu erkennen – warum wacht Pip auf? Weil die Sonnenstrahlen die Nase kitzeln. Genau dieses „Erst … dann … deshalb“ ist die Grundlage für gutes Textverständnis und späteres freies Erzählen und Schreiben.",
-        "Das Spiel eignet sich wunderbar für zu Hause und für den Unterricht in Klasse 2. Weil es keine Uhr und keine Wertung gibt, kann dein Kind so oft üben, wie es mag, und dabei in aller Ruhe seine eigenen Worte finden. Setzt euch gemeinsam davor: Frag ruhig nach – „Und was passiert dann?“ – und freu dich, wenn dein Kind Pip stolz die ganze Geschichte erzählt."
+        "In einem kleinen Daumenkino läuft eine kurze Geschichte – „Der Drachen von Mira, der Maus, hängt im hohen Baum fest.“ – und dann fallen die Seiten heraus. Das Kind legt die Seiten wieder in die richtige Reihenfolge und drückt auf „Blättern!“: Das Buch blättert durch den Stapel, und die Bilder gleiten von Seite zu Seite, sodass der Drachen wirklich bis zu Mira herabschwebt. In der Ecke schläft der Igel Pip unter seiner Decke. Eine interaktive Leseübung, die im Browser läuft.",
+        "In der falschen Reihenfolge läuft die Geschichte rückwärts, und das Blättern hält genau dort an: Der Drachen springt zurück in den Baum, und die zwei Seiten, die nicht passen, wackeln. Bei „Die fehlende Seite“ liegen schon alle Seiten bis auf eine im Buch, und das Kind wählt aus drei losen Seiten: Eine bringt die Geschichte weiter, eine zeigt etwas Wahres, aber Unwichtiges (in der Geschichte bewegt sich nichts), und eine zeigt etwas, das nie passiert ist. Bei „Daumenkino reparieren“ sind zwei Seiten vertauscht oder eine Seite gehört nicht dazu. Läuft die Geschichte durch, setzt sich Pip auf, und das Erzählband erzählt sie nach: Zuerst, Dann, Danach, Zum Schluss – jeweils über dem Satz der Seite. In den Einstellungen kommen die Sätze als Streifen dazu, die unter die Bilder gelegt werden.",
+        "Die Übung orientiert sich am Lehrplan: bekannte Geschichten mit den wichtigen Einzelheiten nacherzählen. Acht kurze Geschichten mit drei oder vier Seiten. Ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "Eine Geschichte in der richtigen Reihenfolge nacherzählen",
-        "Die wichtigen Details behalten – wer, das Problem und wie es ausgeht",
-        "Ursache und Wirkung in einer Geschichte erkennen",
-        "Wichtige von unwichtigen Details unterscheiden"
+        "Die Bilder einer Geschichte in die richtige Reihenfolge bringen",
+        "Erzählen, was zuerst, dann und zum Schluss passiert",
+        "Eine wichtige Seite von einer unterscheiden, auf der in der Geschichte nichts passiert",
+        "Sätze den passenden Bildern zuordnen"
       ],
       "howToPlay": [
-        "Schau und hör dir den kurzen Geschichten-Film an – vier Bilder erzählen, was mit Pip passiert.",
-        "Wenn der Film verschwindet, bringe die Teile wieder in die richtige Reihenfolge.",
-        "Tippe auf „Erzähl es!“ und erzähle Pip die ganze Geschichte nach."
+        "Schau dir die Geschichte im Daumenkino an.",
+        "Tippe oder zieh die Seiten in der richtigen Reihenfolge in die Felder.",
+        "Drück auf „Blättern!“. Läuft die Geschichte rückwärts oder hält an, schau dir die wackelnden Seiten an und tausche sie."
       ],
       "learningGoals": [
-        "Dein Kind erzählt eine kurze Geschichte in der richtigen Reihenfolge nach.",
-        "Dein Kind merkt sich die wichtigen Details einer Geschichte – wer, Problem und Ende.",
-        "Dein Kind versteht, wie Ereignisse zusammenhängen, und erkennt Ursache und Wirkung."
+        "Das Kind erzählt eine kurze Geschichte in der richtigen Reihenfolge nach",
+        "Das Kind unterscheidet wichtige Einzelheiten von solchen, die die Geschichte nicht weiterbringen",
+        "Das Kind erzählt mit zuerst, dann, danach und zum Schluss nach"
       ]
     },
     "two-tales.compare.rl-1-9": {

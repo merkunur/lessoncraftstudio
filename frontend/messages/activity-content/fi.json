@@ -2151,6 +2151,29 @@
         "Lapsi näyttää, missä kohdassa tarinaa vastaus on kirjoitettuna tai kuvattuna",
         "Lapsi tunnistaa lyhyen tarinan alun, keskikohdan ja lopun"
       ]
+    },
+    "wake-up-pip.retell-story.rl-k-2": {
+      "about": [
+        "Pienessä selauskirjassa näytetään lyhyt tarina – ”Hiiri Miran leija on jumissa korkeassa puussa.” – ja sitten sivut putoavat irti. Lapsi laittaa sivut takaisin oikeaan järjestykseen ja painaa ”Selaa!”: kirja selaa pinon läpi ja kuvat liukuvat sivulta toiselle, niin että leija todella leijailee alas Miran luo. Nurkassa nukkuu Pip-siili peittonsa alla. Interaktiivinen lukuharjoitus, joka toimii selaimessa.",
+        "Väärässä järjestyksessä tarina kulkee takaperin ja selaus pysähtyy juuri siihen: leija hyppää takaisin puuhun ja ne kaksi sivua, jotka eivät sovi, heiluvat. Puuttuva sivu -pelissä kirjassa on jo kaikki sivut yhtä lukuun ottamatta, ja lapsi valitsee kolmesta irtosivusta: yksi vie tarinaa eteenpäin, yksi näyttää jotain totta mutta merkityksetöntä (tarinassa mikään ei liiku) ja yksi näyttää jotain, mitä ei koskaan tapahtunut. Korjaa selauskirja -pelissä kaksi sivua on vaihtanut paikkaa tai yksi sivu ei kuulu tarinaan. Kun tarina kulkee loppuun asti, Pip nousee istumaan ja kertomusnauha kertoo tarinan uudelleen: Ensin, Sitten, Sen jälkeen, Lopuksi – jokainen oman sivunsa lauseen yllä. Asetuksella lauseet tulevat mukaan suikaleina, jotka laitetaan kuvien alle.",
+        "Harjoitus tukee perusopetuksen opetussuunnitelman perusteiden tavoitteita: tuttujen tarinoiden uudelleen kertomista tärkeine yksityiskohtineen. Kahdeksan lyhyttä tarinaa, joissa on kolme tai neljä sivua. Ei ajastinta eikä pisteitä."
+      ],
+      "practices": [
+        "Tarinan kuvien laittaminen oikeaan järjestykseen",
+        "Sen kertominen, mitä tapahtuu ensin, sitten ja lopuksi",
+        "Tärkeän sivun erottaminen sivusta, jolla tarinassa ei tapahdu mitään",
+        "Lauseiden yhdistäminen kuviin, joista ne kertovat"
+      ],
+      "howToPlay": [
+        "Katso tarina selauskirjasta.",
+        "Kosketa tai vedä sivut paikoilleen tarinan järjestyksessä.",
+        "Paina ”Selaa!”. Jos tarina kulkee takaperin tai pysähtyy, katso heiluvia sivuja ja vaihda ne."
+      ],
+      "learningGoals": [
+        "Lapsi kertoo lyhyen tarinan uudelleen oikeassa järjestyksessä",
+        "Lapsi erottaa tärkeät yksityiskohdat niistä, jotka eivät vie tarinaa eteenpäin",
+        "Lapsi kertoo uudelleen sanoilla ensin, sitten, sen jälkeen ja lopuksi"
+      ]
     }
   }
 }

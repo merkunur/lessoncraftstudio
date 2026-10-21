@@ -2152,6 +2152,29 @@
         "Barnet viser, hvor i historien svaret står eller kan ses",
         "Barnet genkender begyndelsen, midten og slutningen af en kort historie"
       ]
+    },
+    "wake-up-pip.retell-story.rl-k-2": {
+      "about": [
+        "En kort historie spiller i en lille flipbog – »Musen Miras drage sidder fast i et højt træ.« – og så falder siderne ud. Barnet lægger siderne tilbage i den rigtige rækkefølge og trykker på Bladr!: Bogen bladrer gennem stakken, og billederne glider fra side til side, så dragen virkelig svæver ned til Mira. I hjørnet sover pindsvinet Pip under sit tæppe. En interaktiv læseøvelse, der kører i browseren.",
+        "I den forkerte rækkefølge går historien baglæns, og bladringen stopper lige dér: Dragen hopper tilbage op i træet, og de to sider, der ikke passer, vipper. I Den manglende side ligger alle sider på nær én allerede i bogen, og barnet vælger mellem tre løse sider: Én får historien videre, én viser noget sandt, men uvigtigt (intet i historien flytter sig), og én viser noget, der aldrig skete. I Ret flipbogen er to sider byttet om, eller én side hører ikke til. Når historien spiller hele vejen igennem, sætter Pip sig op, og genfortællingsbåndet fortæller den igen: Først, Så, Bagefter, Til sidst – hver over sidens egen sætning. En indstilling tilføjer sætningerne som strimler, der lægges under billederne.",
+        "Øvelsen følger Fælles Mål for dansk: at genfortælle kendte historier med de vigtige detaljer. Otte korte historier med tre eller fire sider. Uden tidspres og uden point."
+      ],
+      "practices": [
+        "At lægge billederne i en historie i den rigtige rækkefølge",
+        "At fortælle, hvad der sker først, så og til sidst",
+        "At skelne en vigtig side fra en, hvor der ikke sker noget i historien",
+        "At sætte sætninger sammen med de billeder, de fortæller om"
+      ],
+      "howToPlay": [
+        "Se historien i flipbogen.",
+        "Tryk eller træk siderne ind i felterne i den rigtige rækkefølge.",
+        "Tryk på Bladr! Hvis historien går baglæns eller stopper, så se på de sider, der vipper, og byt dem."
+      ],
+      "learningGoals": [
+        "Barnet genfortæller en kort historie i den rigtige rækkefølge",
+        "Barnet skelner vigtige detaljer fra detaljer, der ikke får historien videre",
+        "Barnet genfortæller med først, så, bagefter og til sidst"
+      ]
     }
   }
 }

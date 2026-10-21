@@ -539,26 +539,25 @@
     },
     "wake-up-pip.retell-story.rl-k-2": {
       "about": [
-        "Zut, Pip a encore dormi pendant toute l'histoire ! Votre enfant regarde alors la petite histoire qui défile en images, chacune lue à voix haute, puis, une fois l'histoire disparue, il la raconte à Pip en remettant les événements dans le bon ordre. Dans les niveaux un peu plus difficiles, il faut aussi retrouver l'image qui manque et écarter celle qui ne faisait pas partie de l'histoire.",
-        "En jouant, votre enfant apprend à raconter une histoire du début à la fin, à remettre les événements dans l'ordre et à garder les détails qui comptent : qui est là, quel est le problème et comment cela se termine. Il comprend peu à peu l'enchaînement du récit, la cause et la conséquence. Comme les images et la voix portent tout le sens, savoir lire n'est pas nécessaire : il suffit d'écouter et de regarder.",
-        "Ici, pas de chronomètre, pas de points, pas de bonne réponse à trouver le plus vite possible. Votre enfant avance à son rythme, essaie, recommence et prend le temps de bien raconter. L'activité s'appuie sur les compétences des programmes officiels du CP."
+        "Une courte histoire passe dans un petit folioscope – « Le cerf-volant de Mira la souris est coincé dans un grand arbre. » – puis ses pages tombent. L’enfant remet les pages dans l’ordre et appuie sur « Feuilleter ! » : le livre feuillette la pile et les images glissent d’une page à l’autre, si bien que le cerf-volant descend vraiment jusqu’à Mira. Dans le coin, Pip le hérisson dort sous sa couverture. C’est une activité de lecture interactive qui fonctionne dans le navigateur.",
+        "Dans le mauvais ordre, l’histoire recule et le feuilletage s’arrête juste là : le cerf-volant remonte dans l’arbre et les deux pages qui ne vont pas tremblent. Dans « La page manquante », toutes les pages sauf une sont déjà dans le livre et l’enfant choisit parmi trois pages en vrac : l’une fait avancer l’histoire, une autre montre quelque chose de vrai mais sans importance (rien ne bouge dans l’histoire) et la dernière montre quelque chose qui n’est jamais arrivé. Dans « Répare le folioscope », deux pages sont inversées ou une page n’est pas à sa place. Quand l’histoire défile jusqu’au bout, Pip se redresse et le ruban du récit la raconte : D’abord, Ensuite, Puis, À la fin, chacun au-dessus de la phrase de sa page. Un réglage ajoute les phrases sous forme de bandes à placer sous les images.",
+        "L’activité suit les programmes officiels : raconter à nouveau des histoires connues avec leurs détails importants. Huit histoires courtes de trois ou quatre pages. Sans chronomètre et sans points."
       ],
       "practices": [
-        "Remettre les événements d'une histoire dans le bon ordre.",
-        "Raconter une histoire en gardant les détails importants.",
-        "Comprendre l'enchaînement des événements, la cause et la conséquence.",
-        "Retrouver l'image qui manque et écarter celle qui n'était pas dans l'histoire."
+        "Remettre dans l’ordre les images d’une histoire",
+        "Raconter ce qui se passe d’abord, ensuite et à la fin",
+        "Distinguer une page importante d’une page où rien ne se passe dans l’histoire",
+        "Associer des phrases aux images qu’elles racontent"
       ],
       "howToPlay": [
-        "Regarde et écoute bien la petite histoire de Pip.",
-        "Une fois l'histoire terminée, remets les images dans le bon ordre.",
-        "Trouve l'image qui manque et enlève celle qui n'y était pas.",
-        "Raconte l'histoire à Pip pour le réveiller !"
+        "Regarde l’histoire dans le folioscope.",
+        "Touche ou fais glisser les pages dans les cases dans l’ordre de l’histoire.",
+        "Appuie sur « Feuilleter ! ». Si l’histoire recule ou s’arrête, regarde les pages qui tremblent et échange-les."
       ],
       "learningGoals": [
-        "Votre enfant apprend à raconter une histoire dans l'ordre.",
-        "Votre enfant garde les détails importants d'un récit.",
-        "Votre enfant comprend l'enchaînement des événements d'une histoire."
+        "L’enfant raconte à nouveau une courte histoire dans l’ordre",
+        "L’enfant distingue les détails importants de ceux qui ne font pas avancer l’histoire",
+        "L’enfant raconte avec d’abord, ensuite, puis et à la fin"
       ]
     },
     "story-spine.role.rl-k-3": {

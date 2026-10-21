@@ -1094,21 +1094,21 @@
   },
   "K-418": {
     "title": "Picture Tracing Worksheets: Trace the Garden Path to the Door",
-    "instruction": "Trace all the dashed lines to finish the garden: the house, the tree, the flowers and the rabbit.",
+    "instruction": "Trace all the dashed lines to finish the garden: the house, the tree, the butterfly, the tulips and the rabbit.",
     "printTitle": "The Path to the Door"
   },
   "K-419": {
     "title": "Tracing Worksheets for Preschool: My First Big Whale",
-    "instruction": "Start at the dot. Trace the big whale with one slow, steady line.",
+    "instruction": "Start at the dot. Trace the big whale slowly, all the way round.",
     "printTitle": "My First Tracing"
   },
   "K-420": {
     "title": "Trace the Picture: Look at the Animal, Then Trace It",
-    "instruction": "Look at the photo. Then trace the same animal next to it.",
+    "instruction": "Look at the picture in the frame. Then trace the same animal next to it.",
     "printTitle": "Look, Then Trace"
   },
   "K-421": {
-    "title": "Tracing Worksheets for Toddlers: Round and Round Pictures",
+    "title": "Tracing Worksheets for Toddlers and Preschoolers: Round Pictures",
     "instruction": "Start at each dot and trace round and round, like the letter o.",
     "printTitle": "Round and Round"
   },
@@ -1119,7 +1119,7 @@
   },
   "K-423": {
     "title": "Trace the Picture: Zigzag Mountains and a Stormy Camp",
-    "instruction": "Trace the zigzags of the mountains, the trees, the tent and the lightning. Stop at every point.",
+    "instruction": "Trace the zigzags of the mountains, the trees, the tent and the lightning. Stop at every tip.",
     "printTitle": "Storm over the Camp"
   },
   "K-424": {
@@ -1144,12 +1144,12 @@
   },
   "K-428": {
     "title": "Picture Tracing Sheets: Finish the Picture",
-    "instruction": "Trace the dashed parts to finish each picture: wheels, a spout, a handle, a point and ears.",
+    "instruction": "Trace the dashed parts to finish each picture: wheels, a spout, two handles, a point and ears.",
     "printTitle": "The Mending Shelf"
   },
   "K-429": {
     "title": "Christmas Picture Tracing: Close Every Bauble on the Tree",
-    "instruction": "Trace the Christmas tree. Then trace every bauble and star all the way round.",
+    "instruction": "Trace the tree, the gifts, the armchair and the window. Then close every bauble and star.",
     "printTitle": "Christmas Eve"
   },
   "K-430": {
@@ -2238,9 +2238,9 @@
     "printTitle": "Help the Gingerbread Man Reach the Cake"
   },
   "G1-429": {
-    "title": "Dotted Picture Tracing for 1st Grade: A Town Street",
+    "title": "Dotted Picture Tracing for 1st Grade: A Morning in Town",
     "instruction": "Trace the dotted lines carefully, the small details too.",
-    "printTitle": "Morning on Main Street"
+    "printTitle": "A Morning in Town"
   },
   "G1-430": {
     "title": "Trace the Picture, Say Its Name and Trace the Word",

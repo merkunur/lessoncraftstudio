@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-423',
   slug: 'zigzag-picture-tracing',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Trace the Picture: Zigzag Mountains and a Stormy Camp", instruction: "Trace the zigzags of the mountains, the trees, the tent and the lightning. Stop at every point.", printTitle: "Storm over the Camp" } },
+  i18n: { en: { title: "Trace the Picture: Zigzag Mountains and a Stormy Camp", instruction: "Trace the zigzags of the mountains, the trees, the tent and the lightning. Stop at every tip.", printTitle: "Storm over the Camp" } },
 };

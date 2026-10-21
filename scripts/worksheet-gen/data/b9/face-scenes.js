@@ -95,7 +95,7 @@ const SCENES = {
       // outline only: the lesson is the round outline (the seams and leaf veins are drawn), and the full trace was
       // 5,365 px over the PreK budget; the start comes from the silhouette at 2 o'clock, anticlockwise
       { src: 'sports bw/beach_ball', x: 170, y: 336, h: 300, start: 'contour', outline: true },
-      { src: 'fruits bw/orange', x: 505, y: 516, h: 300, start: 'contour', outline: true },
+      { src: 'food bw/donut', x: 505, y: 516, w: 300, start: 'contour', outline: true },   // the orange read as a tomato (fr panel); a heart-balloon pair is not round — a doughnut is round twice (ring + hole)
       { src: 'fruits bw/apple_2', x: 175, y: 700, h: 300, start: 'contour', outline: true },
     ],
   },
@@ -108,14 +108,17 @@ const SCENES = {
       ...badge(120, 36, 'arrow', [90]), ...badge(338, 36, 'arrow', [0]), ...badge(556, 36, 'arrow', [45]),
     ],
     items: [
-      { src: 'tools bw/ladder', x: 120, y: 400, h: 300 },
-      { src: 'furniture bw/cabinet', x: 118, y: 700, w: 178 },   // the wardrobe's double outline pushed the page over the K budget
+      // direction measured (tools/pt-straight.js directionMix): the contract's ladder LEANS and the classroom table is in
+      // perspective (slanted edges under the ACROSS arrow) — de + fr panels. down: wardrobe v 75 % + cabinet v 70 %;
+      // across: dresser h 68 % + whiteboard h 59 %; slanted: envelope s 63 % + star s 61 %
+      { src: 'home bw 2/wardrobe', x: 120, y: 400, h: 290 },
+      { src: 'household bw/cabinet', x: 120, y: 700, h: 250 },
       // straightness measured (tools/pt-straight.js, calibrated: apple 41 %, ladder 72 %): the contract's furniture bw/table
       // is an oval top on a pedestal (69 %) → classroom bw 2/table (83 %); the cone (65 %) → beach bw/sailboat (79 %)
-      { src: 'classroom bw 2/table', x: 338, y: 330, w: 190 },
+      { src: 'classroom bw/whiteboard', x: 338, y: 330, w: 190 },
       { src: 'furniture bw/dresser_2', x: 338, y: 690, h: 215 },
       { src: 'Christmas bw/envelope', x: 560, y: 330, w: 180 },
-      { src: 'beach bw/sailboat', x: 560, y: 690, w: 185 },
+      { src: 'Christmas bw/star', x: 560, y: 690, w: 185 },
     ],
   },
 
@@ -169,7 +172,7 @@ const SCENES = {
     decor: [grassSolid(20, 708, 24), grassSolid(337, 712, 22), grassSolid(655, 708, 24)],
     items: [
       { src: 'home and nature bw/tree_3', x: 140, y: 425, h: 330 },
-      { src: 'fruits bw/watermelon', x: 125, y: 645, h: 150 },
+      { src: 'fruits bw/banana', x: 125, y: 645, w: 150 },   // the watermelon read as a pumpkin (de + fr panels)
       { src: 'home and nature bw/teacup', x: 285, y: 625, w: 140 },
       { src: 'fruits bw/pear', x: 425, y: 645, h: 150 },
       { src: 'fruits bw/lemon', x: 555, y: 645, w: 135 },
@@ -240,15 +243,15 @@ const SCENES = {
     motifs: [
       { m: 'line', a: [[[230, 102], [380, 470], [80, 470], [230, 102]], true] },
       { m: 'shape', shape: 'rect', a: [230, 495, 40, 50] },
-      { m: 'shape', shape: 'rect', a: [230, 580, 120, 120] },
+      { m: 'line', a: [[[160, 520], [300, 520], [282, 640], [178, 640], [160, 520]], true] },   // a pot, wider at the top (a square box read as a crate)
       { m: 'star', a: [230, 62, 28] },
       { m: 'circle', a: [230, 230, 22] }, { m: 'circle', a: [190, 320, 22] }, { m: 'circle', a: [270, 320, 22] }, { m: 'circle', a: [230, 410, 22] },
       { m: 'star', a: [150, 412, 22] }, { m: 'star', a: [310, 412, 22] },
       { m: 'roundRect', a: [430, 60, 210, 230, 18] }, { m: 'line', a: [[[535, 60], [535, 290]]] }, { m: 'line', a: [[[430, 175], [640, 175]]] },
       { m: 'moon', a: [482, 117, 28] }, { m: 'star', a: [588, 118, 22] }, { m: 'star', a: [588, 232, 24] },
       { m: 'ground', a: [4, 671, 642, 0, 1] },
+      { m: 'roundRect', a: [150, 662, 380, 40, 20] },   // the rug, TRACED (a grey solid bar read as an empty answer field)
     ],
-    decor: [{ m: 'roundRect', a: [150, 660, 380, 40, 20], colour: GREY, w: 2 }],
     items: [
       { src: 'Christmas bw/gift_box', x: 92, y: 640, h: 140 },
       { src: 'Christmas bw 2/gift_box', x: 375, y: 640, h: 130 },
@@ -293,7 +296,7 @@ const SCENES = {
     ],
     items: [
       { src: 'beach bw/anchor', x: 594, y: 100, h: 56, render: 'model', hides: false },
-      { src: 'beach bw/sailboat', x: 450, y: 298, h: 170 },
+      { src: 'beach bw/sailboat', x: 450, y: 291, h: 170 },   // on the wave, not through the hull (fr panel)
       { src: 'beach bw/parasol', x: 148, y: 640, h: 210 },
       { src: 'beach bw/bucket', x: 318, y: 688, h: 135 },
       { src: 'beach bw/sandcastle', x: 455, y: 630, h: 155 },
@@ -327,6 +330,7 @@ const SCENES = {
     band: 'G1', style: 'P4',
     motifs: [
       { m: 'cloud', a: [320, 82, 120] },
+      { m: 'sun', a: [110, 78, 34, 8] },
       { m: 'ground', a: [4, 671, 422, 0, 1] },
       { m: 'ground', a: [4, 671, 562, 0, 1] },
     ],
@@ -336,9 +340,9 @@ const SCENES = {
       { src: 'travel and holiday bw/museum', x: 150, y: 420, h: 218 },
       { src: 'travel and holiday bw/hotel', x: 515, y: 420, h: 226 },
       { src: 'travel and holiday bw/signpost', x: 190, y: 562, h: 125 },
-      { src: 'animals bw/dog', x: 470, y: 562, h: 102 },
+      { src: 'animals bw 5/dog_3', x: 470, y: 562, h: 110 },
       { src: 'vehicles bw/bus_2', x: 175, y: 708, h: 106 },
-      { src: 'vehicles bw/car', x: 505, y: 700, w: 190 },
+      { src: 'vehicles bw 2/car', x: 505, y: 700, w: 200 },
     ],
   },
 
@@ -374,6 +378,7 @@ const SCENES = {
       { m: 'line', a: [[[305, 490], [600, 490]]] },
       { m: 'circle', a: [365, 545, 25] }, { m: 'circle', a: [540, 545, 25] },
       { m: 'line', a: [[[14, 570], [661, 570]]] },
+      { m: 'ground', a: [14, 661, 708, 3, 3] },   // the meadow the animals stand on (they looked as if under the road, de panel)
     ],
     items: [
       { src: 'farm bw/tractor', x: 168, y: 570, h: 175 },
@@ -397,7 +402,7 @@ const SCENES = {
     items: [
       { src: 'Easter bw/butterfly', axisX: 337.5, y: 365, h: 290, render: 'half' },
       { src: 'animals bw/owl', axisX: 118, y: 690, h: 210, render: 'half' },
-      { src: 'Easter bw/bell', axisX: 337, y: 690, h: 200, render: 'half' },   // the contract's Christmas bell measured 15.7 px between its halves (> the 10 px G1 gap)
+      { src: 'sports bw/trophy', axisX: 337, y: 690, h: 200, render: 'half' },   // the bell was a three-quarter view (de panel)   // the contract's Christmas bell measured 15.7 px between its halves (> the 10 px G1 gap)
       { src: 'faces bw/koala', axisX: 556, y: 690, h: 160, render: 'half' },
     ],
   },
@@ -435,7 +440,6 @@ const SCENES = {
       { src: 'Easter bw/mushroom', x: 255, y: 702, h: 72, render: 'model' },
       { src: 'nature bw/mushroom', x: 520, y: 708, h: 64, render: 'model' },
       { src: 'vegetables bw 2/mushroom', x: 645, y: 706, h: 58, render: 'model' },
-      { src: 'home bw 2/flower', x: 40, y: 640, h: 90, render: 'model' },
       { src: 'nature bw/flower', x: 175, y: 712, h: 96, render: 'model' },
       { src: 'animals bw 5/owl', x: 545, y: 270, h: 100, halo: 10, hidden: true },
       { src: 'animals bw/squirrel', x: 150, y: 330, h: 100, halo: 10, hidden: true },

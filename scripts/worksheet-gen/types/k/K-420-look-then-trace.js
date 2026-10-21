@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-420',
   slug: 'look-then-trace',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Trace the Picture: Look at the Animal, Then Trace It", instruction: "Look at the photo. Then trace the same animal next to it.", printTitle: "Look, Then Trace" } },
+  i18n: { en: { title: "Trace the Picture: Look at the Animal, Then Trace It", instruction: "Look at the picture in the frame. Then trace the same animal next to it.", printTitle: "Look, Then Trace" } },
 };

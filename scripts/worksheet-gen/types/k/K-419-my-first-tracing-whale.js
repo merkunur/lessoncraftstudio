@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-419',
   slug: 'my-first-tracing-whale',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Tracing Worksheets for Preschool: My First Big Whale", instruction: "Start at the dot. Trace the big whale with one slow, steady line.", printTitle: "My First Tracing" } },
+  i18n: { en: { title: "Tracing Worksheets for Preschool: My First Big Whale", instruction: "Start at the dot. Trace the big whale slowly, all the way round.", printTitle: "My First Tracing" } },
 };

@@ -4852,10 +4852,14 @@
       },
       "picture-tracing": {
         "slug": {
-          "en": "picture-tracing"
+          "en": "picture-tracing",
+          "de": "bilder-nachspuren",
+          "fr": "dessins-a-repasser"
         },
         "name": {
-          "en": "Picture Tracing"
+          "en": "Picture Tracing",
+          "de": "Bilder nachspuren",
+          "fr": "Dessins à repasser"
         }
       }
     },

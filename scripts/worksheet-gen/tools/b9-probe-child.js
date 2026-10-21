@@ -37,3 +37,4 @@ for (const [key, [gate, fn]] of Object.entries(VALIDATORS)) {
   } catch (e) { validator.push(key + ': validator threw — ' + String(e.message).slice(0, 160)); }
 }
 process.stdout.write('\n' + JSON.stringify({ built: m.types, refused: m.refused, pins: m.pins, validator }) + '\n');
+})().catch((e) => { console.error(e); process.exit(1); });

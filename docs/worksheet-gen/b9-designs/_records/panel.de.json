@@ -1,0 +1,136 @@
+{
+  "locale": "de",
+  "strings": {
+    "base": {
+      "title": "Bilder nachspuren: Der Gartenweg zur Haustür",
+      "printTitle": "Der Weg zur Haustür",
+      "instruction": "Spure alle gestrichelten Linien nach: das Haus, den Baum, den Schmetterling, die Blumen und den Hasen."
+    },
+    "first-tracing": {
+      "title": "Nachspuren Vorschule: Mein erster großer Wal",
+      "printTitle": "Mein erstes Nachspuren",
+      "instruction": "Fang am Punkt an. Spure den großen Wal langsam nach, einmal ganz herum."
+    },
+    "look-then-trace": {
+      "title": "Bilder nachzeichnen für Kinder: Erst anschauen, dann nachspuren",
+      "printTitle": "Anschauen und nachspuren",
+      "instruction": "Schau dir das Tier im Rahmen genau an. Spure dann daneben dasselbe Tier nach."
+    },
+    "round-and-round": {
+      "title": "Bilder nachfahren für die Kleinen: Immer rundherum wie beim o",
+      "printTitle": "Immer rundherum",
+      "instruction": "Fang an jedem Punkt an und spure immer rundherum, so wie beim o."
+    },
+    "straight-lines": {
+      "title": "Nachspuren Kindergarten: Gerade Linien – runter, quer und schräg",
+      "printTitle": "Runter, quer und schräg",
+      "instruction": "Spure erst die Linien von oben nach unten nach, dann die Linien quer und zuletzt die schrägen."
+    },
+    "zigzags": {
+      "title": "Bilder nachspuren im Zickzack: Gewitter über dem Zeltlager",
+      "printTitle": "Gewitter über dem Zeltlager",
+      "instruction": "Spure die Zacken der Berge, die Tannen, das Zelt und die Blitze nach. Halte an jeder Spitze kurz an."
+    },
+    "curls": {
+      "title": "Kringel und Spiralen nachspuren: Die Kringel-Galerie",
+      "printTitle": "Die Kringel-Galerie",
+      "instruction": "Spure die Kringel rundherum nach: Schnecke, Lutscher, Schleife, Brezel und Windrad."
+    },
+    "trace-and-color": {
+      "title": "Nachspuren und ausmalen: Picknick unter dem Baum",
+      "printTitle": "Das Picknick",
+      "instruction": "Spure die Bilder vom Picknick nach. Male sie danach in den Farben aus, die dir gefallen."
+    },
+    "where-to-start": {
+      "title": "Feinmotorik Vorschule: Wo fange ich an? Bilder auf der Treppe",
+      "printTitle": "Wo fange ich an?",
+      "instruction": "Fang an jedem Punkt an und folge dem Pfeil. Geh die Treppe hinunter, ein Bild nach dem anderen."
+    },
+    "trace-and-count": {
+      "title": "Nachspuren und zählen: Wie viele Enten schwimmen auf dem Teich?",
+      "printTitle": "Enten auf dem Teich",
+      "instruction": "Spure die Enten nach. Zähle sie. Schreib in das Kästchen, wie viele es sind."
+    },
+    "finish-the-picture": {
+      "title": "Nachspuren Vorlagen: Mach die Bilder im Regal wieder ganz",
+      "printTitle": "Was fehlt noch?",
+      "instruction": "Spure die gestrichelten Teile nach: Räder, Ausguss, Griff und Henkel, die Spitze und die Ohren."
+    },
+    "christmas": {
+      "title": "Weihnachten nachspuren: Kugeln und Sterne am Weihnachtsbaum",
+      "printTitle": "Heiligabend",
+      "instruction": "Spure den Baum, die Geschenke, den Sessel und das Fenster nach. Dann jede Kugel und jeden Stern ganz herum."
+    },
+    "shape-picture": {
+      "title": "Formen nachspuren: Eine Rakete aus Kreisen, Quadraten und Dreiecken",
+      "printTitle": "Die Formen-Rakete",
+      "instruction": "Spure alle Formen der Rakete und am Himmel nach. Male dann jeden Kreis aus."
+    },
+    "summer-sea": {
+      "title": "Sommer am Meer: Wellen, Boot und Strand nachspuren",
+      "printTitle": "Eine Postkarte vom Meer",
+      "instruction": "Spure die Wellen von links nach rechts nach. Dann das Boot und alles am Strand."
+    },
+    "big-middle-small": {
+      "title": "Fahrzeuge nachspuren: Groß, mittel und klein",
+      "printTitle": "Groß, mittel, klein",
+      "instruction": "Spure in jeder Reihe erst das große, dann das mittlere und dann das kleine Bild nach."
+    },
+    "dotted-street": {
+      "title": "Gepunktete Bilder nachspuren Klasse 1: Ein Morgen in der Stadt",
+      "printTitle": "Ein Morgen in der Stadt",
+      "instruction": "Spure die gepunkteten Linien sorgfältig nach, auch die kleinen Einzelheiten."
+    },
+    "picture-and-word": {
+      "title": "Bild nachspuren, Namen sagen, Wort nachspuren – Klasse 1",
+      "printTitle": "Bild und Wort",
+      "instruction": "Spure das Bild nach. Sag, wie es heißt. Spure dann das Wort darunter nach."
+    },
+    "trace-and-draw": {
+      "title": "Nachspuren und selbst malen: Was ist im Anhänger?",
+      "printTitle": "Was ist im Anhänger?",
+      "instruction": "Spure den Bauernhof nach. Male dann in den leeren Anhänger, was der Traktor bringt."
+    },
+    "other-half": {
+      "title": "Symmetrische Bilder nachspuren: Die andere Hälfte",
+      "printTitle": "Die andere Hälfte",
+      "instruction": "Spure die gestrichelte Hälfte nach, damit beide Seiten gleich aussehen."
+    },
+    "hidden-animals": {
+      "title": "Tiere nachspuren: Finde die 5 versteckten Tiere im Wald",
+      "printTitle": "Wer versteckt sich im Wald?",
+      "instruction": "Finde die 5 versteckten Tiere im Wald. Spure sie nach."
+    }
+  },
+  "words": [
+    "Sonne",
+    "Fisch",
+    "Katze",
+    "Apfel"
+  ],
+  "family": {
+    "slug": "bilder-nachspuren",
+    "name": "Bilder nachspuren"
+  },
+  "skill": {
+    "full": "Ganze Bilder nachspuren übt eine ruhige Stiftführung, lange Linien ohne Absetzen und genaues Hinschauen – wichtige Grundlagen für das spätere Schreiben.",
+    "short": "Feinmotorik und Stiftführung an ganzen Bildern"
+  },
+  "topicMeta": "Bilder nachspuren für Vorschule, Kindergarten und Klasse 1: ganze Bilder entlang gestrichelter Linien nachfahren und dabei die Feinmotorik stärken. PDF zum Ausdrucken.",
+  "enAudit": [
+    "K-420 instruction: 'Look at the photo' – the model is a solid line drawing in a frame, not a photo. Fix: 'Look at the picture in the frame.'",
+    "K-428 instruction: 'wheels, a spout, a handle, a point and ears' – the page has TWO handles (umbrella and cup); the list undercounts. Fix: 'wheels, a spout, two handles, a point and ears.'",
+    "K-422 render: the ladder in the 'down' column leans clearly to the right, so the first picture of the 'straight down' column is itself slanted, and the table in the 'across' column is mostly vertical legs. Pedagogical: stand the ladder upright (or swap it for a door/fence).",
+    "K-423 instruction: 'Stop at every point' is ambiguous for a child ('point' = dot?). Fix: 'Stop at every tip.' EN landing says 'three fir trees' – the render has FOUR trees.",
+    "K-418 EN landing: 'a cottage with ... a round window' – the windows are a four-pane square window and a pointed attic window; 'two tulips stand at the mouth of the path like a gateway' – both tulips stand to the LEFT of the path.",
+    "K-425 render: the 'watermelon' on the blanket has a curly stalk and ribs and reads as a pumpkin to most children; the de landing avoids naming it as watermelon. Consider a melon slice or a plain round melon without stalk.",
+    "K-429 instruction names only the tree, baubles and stars, but the gifts, the window with moon and stars and the armchair are dashed too; the grey rounded bar under the floor line is unexplained (rug?). EN landing says the tree stands 'in a pot' – it stands on a square box.",
+    "K-430 EN landing invents 'a big round moon, a small planet' – the sky shapes are plain circles, a turned square and a small square; fine as play, but the page does not show a moon or a planet.",
+    "G1-429 title/printTitle 'Morning on Main Street': nothing on the page shows morning, and 'Main Street' is a US idiom; the car is a low racing car whose dense dots blur its detail at print size (hardest picture on the page). de uses 'Unterwegs in der Stadt'.",
+    "G1-431 render: the goat, goose and cow stand BELOW the dashed road line, i.e. under the road; reads oddly. Move the animals onto the grass behind the road or add a meadow line.",
+    "G1-432 render: the bell is drawn in three-quarter view (tilted mouth), so its mirrored half produces a bell that does not look like a real symmetric bell; the EN landing's 'measured line by line' claim holds for the mask, not for the picture a child sees. Consider a front-view bell.",
+    "G1-433 render: a flower in a flowerpot stands on the forest floor (odd in a forest); the owl is in plain sight, not hidden. Minor.",
+    "out/b9/en/_sheet.png contact sheet is broken: it shows only G1-430 and grey space, not the 20 pages.",
+    "2026-10-22 coordinator: items 1-12 fixed at source; de strings and landings updated to the new renders (balloon, wardrobe/cabinet/board/star, banana, pot + rug, sun, meadow line, trophy, no potted flower)."
+  ]
+}

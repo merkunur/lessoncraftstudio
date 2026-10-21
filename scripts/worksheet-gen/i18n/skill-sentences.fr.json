@@ -454,5 +454,9 @@
     "full": "Tracer une ligne dans un labyrinthe illustré et choisir à chaque croisement la lettre, le nombre ou le calcul suivant développe l'anticipation et le geste ; avec corrigé.",
     "short": "Développe l'anticipation et le geste dans un labyrinthe.",
     "levelSetShort": "Développe l'anticipation."
+  },
+  "picture-tracing": {
+    "full": "Repasser des dessins entiers affine la motricité fine, la tenue du crayon et la coordination œil-main, et prépare le geste d'écriture.",
+    "short": "Motricité fine et préparation au geste d'écriture"
   }
 }

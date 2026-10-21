@@ -43,22 +43,22 @@ const FACES = {
 const MODES = Object.keys(FACES);
 
 const EN_STRINGS = {
-  base: { title: 'Picture Tracing Worksheets: Trace the Garden Path to the Door', printTitle: 'The Path to the Door', instruction: 'Trace all the dashed lines to finish the garden: the house, the tree, the flowers and the rabbit.' },
-  'first-tracing': { title: 'Tracing Worksheets for Preschool: My First Big Whale', printTitle: 'My First Tracing', instruction: 'Start at the dot. Trace the big whale with one slow, steady line.' },
-  'look-then-trace': { title: 'Trace the Picture: Look at the Animal, Then Trace It', printTitle: 'Look, Then Trace', instruction: 'Look at the photo. Then trace the same animal next to it.' },
-  'round-and-round': { title: 'Tracing Worksheets for Toddlers: Round and Round Pictures', printTitle: 'Round and Round', instruction: 'Start at each dot and trace round and round, like the letter o.' },
+  base: { title: 'Picture Tracing Worksheets: Trace the Garden Path to the Door', printTitle: 'The Path to the Door', instruction: 'Trace all the dashed lines to finish the garden: the house, the tree, the butterfly, the tulips and the rabbit.' },
+  'first-tracing': { title: 'Tracing Worksheets for Preschool: My First Big Whale', printTitle: 'My First Tracing', instruction: 'Start at the dot. Trace the big whale slowly, all the way round.' },
+  'look-then-trace': { title: 'Trace the Picture: Look at the Animal, Then Trace It', printTitle: 'Look, Then Trace', instruction: 'Look at the picture in the frame. Then trace the same animal next to it.' },
+  'round-and-round': { title: 'Tracing Worksheets for Toddlers and Preschoolers: Round Pictures', printTitle: 'Round and Round', instruction: 'Start at each dot and trace round and round, like the letter o.' },
   'straight-lines': { title: 'Straight-Line Picture Tracing: Down, Across and Slanted', printTitle: 'Down, Across, Slanted', instruction: 'Trace the lines that go down, then the lines that go across, then the slanted ones.' },
-  zigzags: { title: 'Trace the Picture: Zigzag Mountains and a Stormy Camp', printTitle: 'Storm over the Camp', instruction: 'Trace the zigzags of the mountains, the trees, the tent and the lightning. Stop at every point.' },
+  zigzags: { title: 'Trace the Picture: Zigzag Mountains and a Stormy Camp', printTitle: 'Storm over the Camp', instruction: 'Trace the zigzags of the mountains, the trees, the tent and the lightning. Stop at every tip.' },
   curls: { title: 'Tracing Pictures for Kids: Curls and Spirals', printTitle: 'The Curl Gallery', instruction: 'Trace the curls round and round: the snail, the lollipop, the bow, the pretzel and the pinwheel.' },
   'trace-and-color': { title: 'Trace and Color the Picture: A Picnic Under the Tree', printTitle: 'The Picnic', instruction: 'Trace the picnic pictures. Then color them in any colors you like.' },
   'where-to-start': { title: 'Picture Tracing for Kindergarten: Where Do I Start?', printTitle: 'Where Do I Start?', instruction: 'Start at each dot and follow the arrow. Go down the stairs, one picture at a time.' },
   'trace-and-count': { title: 'Trace and Count: How Many Ducks Are on the Pond?', printTitle: 'Ducks on the Pond', instruction: 'Trace the ducks. Count them. Write how many in the box.' },
-  'finish-the-picture': { title: 'Picture Tracing Sheets: Finish the Picture', printTitle: 'The Mending Shelf', instruction: 'Trace the dashed parts to finish each picture: wheels, a spout, a handle, a point and ears.' },
-  christmas: { title: 'Christmas Picture Tracing: Close Every Bauble on the Tree', printTitle: 'Christmas Eve', instruction: 'Trace the Christmas tree. Then trace every bauble and star all the way round.' },
+  'finish-the-picture': { title: 'Picture Tracing Sheets: Finish the Picture', printTitle: 'The Mending Shelf', instruction: 'Trace the dashed parts to finish each picture: wheels, a spout, two handles, a point and ears.' },
+  christmas: { title: 'Christmas Picture Tracing: Close Every Bauble on the Tree', printTitle: 'Christmas Eve', instruction: 'Trace the tree, the gifts, the armchair and the window. Then close every bauble and star.' },
   'shape-picture': { title: 'Shape Picture Tracing: A Rocket of Circles, Squares and Triangles', printTitle: 'The Shape Rocket', instruction: 'Trace every shape of the rocket and the sky. Then color every circle.' },
   'summer-sea': { title: 'Summer Picture Tracing: Trace the Waves Across the Sea', printTitle: 'A Postcard from the Sea', instruction: 'Trace the waves from left to right. Then trace the boat and the beach.' },
   'big-middle-small': { title: 'Tracing Pictures for Kids: Big, Middle and Small', printTitle: 'Big, Middle, Small', instruction: 'In every row, trace the big one, then the middle one, then the small one.' },
-  'dotted-street': { title: 'Dotted Picture Tracing for 1st Grade: A Town Street', printTitle: 'Morning on Main Street', instruction: 'Trace the dotted lines carefully, the small details too.' },
+  'dotted-street': { title: 'Dotted Picture Tracing for 1st Grade: A Morning in Town', printTitle: 'A Morning in Town', instruction: 'Trace the dotted lines carefully, the small details too.' },
   'picture-and-word': { title: 'Trace the Picture, Say Its Name and Trace the Word', printTitle: 'Picture Words', instruction: 'Trace the picture. Say its name. Trace the word under it.' },
   'trace-and-draw': { title: 'Trace the Picture, Then Draw: What Is in the Trailer?', printTitle: 'What Is in the Trailer?', instruction: 'Trace the farm. Then draw what the tractor is carrying in the empty trailer.' },
   'other-half': { title: 'Symmetry Picture Tracing: Trace the Other Half', printTitle: 'The Other Half', instruction: 'Trace the dashed half so both sides of each picture look the same.' },
@@ -70,8 +70,12 @@ const PICTURE_TRACING = {
 };
 
 /** bank rules for one locale block (the validator every apply / gate runs) */
-function validateBank(loc) {
-  const b = PICTURE_TRACING[loc] || (() => { try { return require('../../lib/b9-common.js').bank('picture-tracing', loc); } catch (e) { return null; } })();
+function validateBank(a, b2) {
+  // validateBank(loc) or validateBank(block, loc) (the probe and the family gate pass a block). ⚠ An object passed as a
+  // locale name used to fail as "no block" — the gate's bank poisons passed vacuously; anything else is a caller bug.
+  if (typeof a !== 'string' && !(a && typeof a === 'object')) throw new Error('validateBank: want (loc) or (block, loc)');
+  const loc = typeof a === 'string' ? a : b2;
+  const b = typeof a === 'object' ? a : (PICTURE_TRACING[loc] || (() => { try { return require('../../lib/b9-common.js').bank('picture-tracing', loc); } catch (e) { return null; } })());
   const errs = [];
   if (!b) return ['no ' + loc + ' block'];
   for (const m of MODES) {

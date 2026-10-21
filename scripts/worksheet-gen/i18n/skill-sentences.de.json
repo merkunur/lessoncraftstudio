@@ -455,5 +455,9 @@
     "full": "Eine Linie durch ein Bilderlabyrinth zeichnen und an jeder Gabelung den nächsten Buchstaben, die nächste Zahl oder Aufgabe wählen: übt Planen und Stiftführung; mit Lösung.",
     "short": "Übt Planen und Stiftführung im Bilderlabyrinth.",
     "levelSetShort": "Übt Planen im Bilderlabyrinth."
+  },
+  "picture-tracing": {
+    "full": "Ganze Bilder nachspuren übt eine ruhige Stiftführung, lange Linien ohne Absetzen und genaues Hinschauen – wichtige Grundlagen für das spätere Schreiben.",
+    "short": "Feinmotorik und Stiftführung an ganzen Bildern"
   }
 }

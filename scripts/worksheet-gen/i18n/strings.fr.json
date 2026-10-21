@@ -3251,5 +3251,105 @@
   "K-417": {
     "title": "Les compléments à 9",
     "instruction": "Observe chaque schéma. Écris le nombre qui manque dans le rond en pointillés."
+  },
+  "K-418": {
+    "title": "Dessin à repasser maternelle : le chemin jusqu'à la maison",
+    "instruction": "Repasse tous les pointillés pour finir le jardin : la maison, l'arbre, les fleurs, le papillon et le lapin.",
+    "printTitle": "Le chemin de la maison"
+  },
+  "K-419": {
+    "title": "Dessin pointillé maternelle PS : ma première grande baleine",
+    "instruction": "Pose ton crayon sur le gros point. Repasse la grande baleine tout doucement, en suivant la flèche.",
+    "printTitle": "Mon premier dessin à repasser"
+  },
+  "K-420": {
+    "title": "Repasse le dessin d'après le modèle : deux animaux en PS",
+    "instruction": "Regarde le modèle dans le cadre. Puis repasse le même animal à côté, en partant du point.",
+    "printTitle": "Je regarde, puis je repasse"
+  },
+  "K-421": {
+    "title": "Repasser les pointillés en petite section : des ronds qui tournent",
+    "instruction": "Pars de chaque point et repasse tout le tour, comme pour écrire la lettre o.",
+    "printTitle": "Ça tourne, ça tourne !"
+  },
+  "K-422": {
+    "title": "Repasser sur les pointillés MS : verticales, horizontales, obliques",
+    "instruction": "Repasse d'abord les traits qui descendent, puis ceux qui vont de côté, puis les traits penchés.",
+    "printTitle": "Debout, couché, penché"
+  },
+  "K-423": {
+    "title": "Suivre les pointillés : montagnes en zigzag et orage sur la tente",
+    "instruction": "Repasse les zigzags des montagnes, des sapins, de la tente et des éclairs. Arrête-toi à chaque pointe.",
+    "printTitle": "L'orage sur le camping"
+  },
+  "K-424": {
+    "title": "Boucles et spirales à repasser en GS : escargot, sucette et nœud",
+    "instruction": "Repasse les boucles et les spirales : l'escargot, la sucette, le nœud, le bretzel et le moulin à vent.",
+    "printTitle": "La galerie des spirales"
+  },
+  "K-425": {
+    "title": "Je repasse et je colorie : le pique-nique sous l'arbre",
+    "instruction": "Repasse les dessins du pique-nique. Puis colorie-les avec les couleurs que tu veux.",
+    "printTitle": "Le pique-nique"
+  },
+  "K-426": {
+    "title": "Repasser les pointillés en GS : où est-ce que je commence ?",
+    "instruction": "Pars de chaque point et suis la flèche. Descends l'escalier, un dessin après l'autre.",
+    "printTitle": "Où est-ce que je commence ?"
+  },
+  "K-427": {
+    "title": "Dessins à repasser animaux : combien de canards sur la mare ?",
+    "instruction": "Repasse les canards. Compte-les. Écris combien il y en a dans la case.",
+    "printTitle": "Les canards sur la mare"
+  },
+  "K-428": {
+    "title": "Image à repasser : complète les morceaux qui manquent",
+    "instruction": "Repasse les pointillés pour finir chaque dessin : roues, bec, manche, anse, pointe et oreilles.",
+    "printTitle": "L'atelier des réparations"
+  },
+  "K-429": {
+    "title": "Dessins à repasser Noël : les boules du sapin",
+    "instruction": "Repasse le sapin, les cadeaux, le fauteuil et la fenêtre. Puis fais le tour de chaque boule et étoile.",
+    "printTitle": "Le soir de Noël"
+  },
+  "K-430": {
+    "title": "Formes à repasser : une fusée en ronds, carrés et triangles",
+    "instruction": "Repasse toutes les formes de la fusée et du ciel. Puis colorie tous les ronds.",
+    "printTitle": "La fusée des formes"
+  },
+  "K-431": {
+    "title": "Dessins à repasser été : les vagues de la mer, de gauche à droite",
+    "instruction": "Repasse les vagues de gauche à droite. Puis repasse le bateau et la plage.",
+    "printTitle": "Une carte postale de la mer"
+  },
+  "K-432": {
+    "title": "Dessins pointillés grand, moyen, petit : avions, voitures, bateaux",
+    "instruction": "Dans chaque rangée, repasse le grand, puis le moyen, puis le petit.",
+    "printTitle": "Grand, moyen, petit"
+  },
+  "G1-429": {
+    "title": "Repasser les pointillés CP : une rue de la ville au matin",
+    "instruction": "Repasse les pointillés avec soin, même les tout petits détails.",
+    "printTitle": "Un matin en ville"
+  },
+  "G1-430": {
+    "title": "Repasse le dessin, dis son nom, repasse le mot : GS et CP",
+    "instruction": "Repasse le dessin. Dis son nom. Repasse le mot écrit dessous.",
+    "printTitle": "Les images et leurs mots"
+  },
+  "G1-431": {
+    "title": "Repasse le dessin, puis dessine : qu'y a-t-il dans la remorque ?",
+    "instruction": "Repasse la ferme. Puis dessine ce que le tracteur transporte dans la remorque vide.",
+    "printTitle": "Qu'y a-t-il dans la remorque ?"
+  },
+  "G1-432": {
+    "title": "Symétrie à repasser : complète l'autre moitié du dessin",
+    "instruction": "Repasse la moitié en pointillés pour que les deux côtés de chaque dessin soient pareils.",
+    "printTitle": "L'autre moitié"
+  },
+  "G1-433": {
+    "title": "Dessins à repasser automne : trouve les 5 animaux cachés",
+    "instruction": "Trouve les 5 animaux cachés dans la forêt. Repasse-les.",
+    "printTitle": "Qui se cache dans la forêt ?"
   }
 }

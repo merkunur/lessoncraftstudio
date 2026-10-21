@@ -94,6 +94,8 @@ var WillowStoryCornerActivity = {
     if (!this._plan || this._planKey !== k) { this._planKey = k; this._pass = pass || 0; this._plan = StoryZipperCore.plan(this._kind(), Math.random, this._pass, null); }
     return this._plan;
   },
+  /* the pass = the pool (the variety probe and visual-qa read it here) */
+  _ensurePool: function () { return this._ensurePlan(0); },
   nextTask: function (opts) {
     var index = (opts && opts.index) || 0, C = StoryZipperCore, plan = this._ensurePlan(0), n = plan.length, pass = Math.floor(index / n);
     if (pass > this._pass) { this._plan = C.plan(this._kind(), Math.random, pass, this._plan); this._pass = pass; plan = this._plan; this._order = null; }

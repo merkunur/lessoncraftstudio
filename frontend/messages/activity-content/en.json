@@ -2796,25 +2796,26 @@
     },
     "nila-pond.main-idea-net.ri-k-2": {
       "about": [
-        "Nila the otter reads a short fact-story aloud — a bear getting ready for winter, a bee making honey, a duck at the pond — and children net the one idea-fish that tells the big idea of the whole story. It's an interactive Kindergarten reading game that runs right in the browser with no account and no sign-up.",
-        "Four idea-fish float by: one names the main topic, while the others name only a single detail (a bear 'rests inside a cave,' 'grows a thick coat') or something the story never said. The child listens to the whole read-aloud, nets the big idea, then brings home only the details that truly belong — and leaves out the one that does not. They cannot win by grabbing the first true-sounding fish; the topic has to hold the whole story together.",
-        "It is aligned to Common Core RI.K.2 — identifying the main topic and key details of an informational text read aloud. No timer, no score — just calm, playful practice."
+        "Nila the otter has a pond, a rain cloud and four umbrellas. The child reads a short text about an animal, such as \"When the cold snow falls, a bear must stay snug.\", and its three detail sentences float on the pond as lily pads. Each umbrella carries one idea. Hang one over the pond and it opens to the same size as every other umbrella, so hanging tells the child nothing. Then it rains: the canopy pulls in to exactly what its idea covers. Only the big idea, \"staying warm in the snow\", keeps every lily pad dry; a detail idea shelters just its own pad, and an idea that is not in the text folds up over open water while the ink on the wet pads runs.",
+        "Some rounds go on. A true sentence about the same animal drifts in under the umbrella, and the child pushes it out into the rain because it is not about the big idea; or two new pads float at the edge, and the child pulls the one that belongs under. After a third wrong umbrella, a new text about the same animal takes its place, so trying every umbrella does not work. The twelve texts are about a bear, a bee and a swan. The Reading setting switches between I read it and Read it to me; with Umbrellas set to 3, the idea that is not in the text stays home.",
+        "It is aligned to Common Core RI.K.2: identifying the main topic of a text and retelling its key details. Every picture comes from the picture library. No timer and no score."
       ],
       "practices": [
-        "Listen to a whole read-aloud and hold the story in mind",
-        "Tell the big idea, the main topic, apart from a single small detail",
-        "Choose the details that belong to the topic and leave out the one that does not",
-        "Reject an idea that is too narrow or was never in the story"
+        "Finding the main topic of a short informational text",
+        "Telling a main topic from a single detail",
+        "Noticing an idea that is not in the text",
+        "Retelling the key details that belong to the topic"
       ],
       "howToPlay": [
-        "Listen as Nila reads the short fact-story aloud.",
-        "Net the idea-fish that tells the big idea of the whole story — the umbrella opens when it is right.",
-        "Then bring home the details that belong; try again gently whenever you like, with no timer and no score."
+        "Read the text, or tap Nila to hear it.",
+        "Drag or tap an umbrella to hang it over the pond, then check.",
+        "Watch the rain: the right umbrella keeps every lily pad dry.",
+        "In some rounds, push the pad that does not belong out into the rain, or pull the one that belongs under."
       ],
       "learningGoals": [
-        "Find the main topic of a text read aloud — the focus of Common Core RI.K.2",
-        "Tell the big idea apart from the small details that support it",
-        "Name the key details that belong to the topic"
+        "The child names what a whole text is about",
+        "The child tells the details that belong to the main topic",
+        "The child sees that one detail is not the main topic"
       ]
     },
     "numberbond.add-three.1-oa-a-2": {

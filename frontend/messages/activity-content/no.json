@@ -2300,6 +2300,30 @@
         "Barnet viser hvor i teksten svaret står",
         "Barnet forteller hvilke påstander som står i en tekst, og hvilke som ikke gjør det"
       ]
+    },
+    "nila-pond.main-idea-net.ri-k-2": {
+      "about": [
+        "Oteren Nila har en dam, en regnsky og fire paraplyer. Barnet leser en kort tekst om et dyr, for eksempel \"Når den kalde snøen faller, må en bjørn holde seg varm.\", og de tre setningene med detaljer flyter på dammen som vannliljeblader. Hver paraply bærer én idé. Når barnet henger én over dammen, folder den seg like stort ut som alle de andre, så det avslører ingenting. Så begynner det å regne: Paraplyen trekker seg sammen til nøyaktig det idéen dekker. Bare den store ideen, \"holde seg varm i snøen\", holder alle vannliljebladene tørre; en detalj skjermer bare sitt eget blad, og en idé som ikke står i teksten, folder seg sammen over åpent vann mens blekket renner på de våte bladene.",
+        "Noen runder fortsetter. En sann setning om det samme dyret driver inn under paraplyen, og barnet dytter den ut i regnet fordi den ikke handler om den store ideen; eller to nye blader flyter ved kanten, og barnet drar det som hører til, inn under. Etter den tredje gale paraplyen kommer en ny tekst om det samme dyret, så det nytter ikke å prøve alle. De tolv tekstene handler om en bjørn, en bie og en svane. Under Lesing velger man mellom Jeg leser selv og Les høyt for meg; med Paraplyer satt til 3 blir ideen som ikke står i teksten, borte.",
+        "Øvelsen følger LK20: å finne hovedideen i en faktatekst og gjenfortelle de viktige detaljene. Alle bildene kommer fra bildebiblioteket. Uten tid og uten poeng."
+      ],
+      "practices": [
+        "Å finne hovedideen i en kort faktatekst",
+        "Å skille hovedideen fra én enkelt detalj",
+        "Å oppdage en idé som ikke står i teksten",
+        "Å gjenfortelle detaljene som hører til hovedideen"
+      ],
+      "howToPlay": [
+        "Les teksten, eller trykk på Nila for å høre den.",
+        "Dra eller trykk en paraply opp over dammen, og sjekk så.",
+        "Se på regnet: Under riktig paraply blir alle bladene tørre.",
+        "I noen runder dytter du bladet som ikke hører til, ut i regnet, eller drar det som hører til, inn under."
+      ],
+      "learningGoals": [
+        "Barnet sier hva hele teksten handler om",
+        "Barnet nevner detaljene som hører til hovedideen",
+        "Barnet ser at én enkelt detalj ikke er hovedideen"
+      ]
     }
   }
 }

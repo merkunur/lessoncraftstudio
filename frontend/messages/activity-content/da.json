@@ -2198,6 +2198,29 @@
         "Barnet ser, at løsningen skal passe til problemet",
         "Barnet genfortæller en historie med først, så og til sidst"
       ]
+    },
+    "inky-book-workshop.author-illustrator.rl-k-6": {
+      "about": [
+        "Blæksprutten Inky trykker siderne i en lille bog, men hver side kommer halvfærdig ud: uden billede eller uden ord. Barnet bringer hver side til den person, der kan gøre den færdig. Forfatterens blæk laver kun ord, illustratorens blæk kun billeder, og læseren har slet intet blæk – hun nyder en færdig side. Bring „En lille båd sejlede ud.“ til illustratoren, og båden dukker op i den tomme ramme. En interaktiv læseaktivitet, der kører i browseren.",
+        "Den forkerte person sætter alligevel sit eget mærke – bare det forkerte sted: Forfatteren klemmer bittesmå ord ind i billedfeltet, illustratoren maler et mast billede på skrivelinjerne, og læseren stopper ved hullet. Blækket løber, og siden kommer tilbage. Når en bog er færdig, sætter barnet forfatteren og illustratoren på forsiden. Med Kun navneskilte lukker arbejdspladserne, og kun ordene forfatter, illustrator og læser afgør det.",
+        "Aktiviteten følger Fælles Mål for dansk: at kunne nævne forfatter og illustrator af en bog og sige, hvad de hver især laver. Otte små bøger, hver side et billede fra billedbiblioteket. Uden tidspres og uden point."
+      ],
+      "practices": [
+        "At sige, hvad en forfatter gør: skriver ordene",
+        "At sige, hvad en illustrator gør: tegner billederne",
+        "At se, hvad en side mangler: ord eller et billede",
+        "At læse ordene forfatter, illustrator og læser"
+      ],
+      "howToPlay": [
+        "Se på siden: Mangler billedet eller ordene?",
+        "Træk siden hen til den person, der kan gøre den færdig, eller tryk på personen.",
+        "Når bogen er færdig, så sæt forfatteren og illustratoren på forsiden."
+      ],
+      "learningGoals": [
+        "Barnet nævner forfatteren og illustratoren af en bog",
+        "Barnet siger, hvad forfatteren og illustratoren hver især laver",
+        "Barnet ved, at en historie bliver fortalt med både ord og billeder"
+      ]
     }
   }
 }

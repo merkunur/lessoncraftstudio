@@ -2197,6 +2197,29 @@
         "Lapsi huomaa, että ratkaisun on vastattava ongelmaan",
         "Lapsi kertoo tarinan uudelleen sanoilla ensin, sitten ja lopuksi"
       ]
+    },
+    "inky-book-workshop.author-illustrator.rl-k-6": {
+      "about": [
+        "Mustekala Inky painaa pienen kirjan sivuja, mutta jokainen sivu tulee ulos puolivalmiina: ilman kuvaa tai ilman sanoja. Lapsi vie jokaisen sivun sille, joka voi tehdä sen valmiiksi. Kirjailijan muste tekee vain sanoja, kuvittajan muste vain kuvia, eikä lukijalla ole mustetta lainkaan – hän nauttii valmiista sivusta. Vie ”Pieni vene lähti merelle.” kuvittajalle, niin vene ilmestyy tyhjään kehykseen. Se on vuorovaikutteinen lukuharjoitus, joka toimii selaimessa.",
+        "Väärä henkilö tekee silti oman jälkensä, mutta väärään paikkaan: kirjailija ahtaa pikkuruisia sanoja kuvaruutuun, kuvittaja maalaa littanan kuvan kirjoitusviivoille, ja lukija pysähtyy aukkoon. Muste valuu ja sivu palaa takaisin. Kun kirja on valmis, lapsi laittaa kirjailijan ja kuvittajan kanteen. Vain nimikyltit -asetuksella työpöydät sulkeutuvat, ja vain sanat kirjailija, kuvittaja ja lukija ratkaisevat.",
+        "Harjoitus tukee perusopetuksen opetussuunnitelman perusteiden 2014 tavoitteita: kirjan kirjailijan ja kuvittajan nimeämistä ja sen kertomista, mitä kumpikin tekee. Kahdeksan pientä kirjaa, jokainen sivu kuvapankin kuva. Ei aikarajaa eikä pisteitä."
+      ],
+      "practices": [
+        "Sen kertominen, mitä kirjailija tekee: kirjoittaa sanat",
+        "Sen kertominen, mitä kuvittaja tekee: piirtää kuvat",
+        "Sen huomaaminen, mitä sivulta puuttuu: sanat vai kuva",
+        "Sanojen ”kirjailija”, ”kuvittaja” ja ”lukija” lukeminen"
+      ],
+      "howToPlay": [
+        "Katso sivua: puuttuuko kuva vai sanat?",
+        "Vedä sivu sille, joka voi tehdä sen valmiiksi, tai napauta häntä.",
+        "Kun kirja on valmis, laita kirjailija ja kuvittaja kanteen."
+      ],
+      "learningGoals": [
+        "Lapsi nimeää kirjan kirjailijan ja kuvittajan",
+        "Lapsi kertoo, mitä kirjailija ja kuvittaja tekevät",
+        "Lapsi tietää, että tarina kerrotaan sekä sanoin että kuvin"
+      ]
     }
   }
 }

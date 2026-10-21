@@ -10,317 +10,52 @@
       "strand": "Reading: Literature"
     },
     "params": {
-      "rounds": [
-        {
-          "id": "w1",
-          "band": 1,
-          "job": "wrote",
-          "book": "a story about a brave little tugboat"
+      "note": "The nine stories, their pages (library pictures), the trouble and fix candidates, captions and hints live in inky-workshop-core.js; this mirrors the core so the gates can size each task per locale.",
+      "byLocale": {
+        "en": {
+          "jobs2": 8,
+          "jobs3": 8
         },
-        {
-          "id": "d1",
-          "band": 1,
-          "job": "drew",
-          "book": "a picture book about a sleepy dragon"
+        "de": {
+          "jobs2": 8,
+          "jobs3": 8
         },
-        {
-          "id": "w2",
-          "band": 1,
-          "job": "wrote",
-          "book": "a tale of a lost red balloon"
+        "nl": {
+          "jobs2": 8,
+          "jobs3": 8
         },
-        {
-          "id": "r1",
-          "band": 2,
-          "job": "read",
-          "book": "a bedtime story about the moon"
+        "da": {
+          "jobs2": 8,
+          "jobs3": 8
         },
-        {
-          "id": "d2",
-          "band": 2,
-          "job": "drew",
-          "book": "a book of funny farm animals"
+        "sv": {
+          "jobs2": 8,
+          "jobs3": 8
         },
-        {
-          "id": "w3",
-          "band": 2,
-          "job": "wrote",
-          "book": "a story about a singing whale"
+        "no": {
+          "jobs2": 8,
+          "jobs3": 8
         },
-        {
-          "id": "d3",
-          "band": 3,
-          "job": "drew",
-          "book": "a picture book of a rainbow garden"
+        "es": {
+          "jobs2": 8,
+          "jobs3": 8
         },
-        {
-          "id": "r2",
-          "band": 3,
-          "job": "read",
-          "book": "a story about a kite that flew away"
+        "it": {
+          "jobs2": 8,
+          "jobs3": 8
+        },
+        "pt": {
+          "jobs2": 8,
+          "jobs3": 8
+        },
+        "fr": {
+          "jobs2": 8,
+          "jobs3": 8
+        },
+        "fi": {
+          "jobs2": 8,
+          "jobs3": 8
         }
-      ],
-      "roundsL10n": {
-        "de": [
-          {
-            "id": "w1",
-            "band": 1,
-            "job": "wrote",
-            "book": "eine Geschichte über ein mutiges kleines Boot"
-          },
-          {
-            "id": "d1",
-            "band": 1,
-            "job": "drew",
-            "book": "ein Bilderbuch über einen schläfrigen Drachen"
-          },
-          {
-            "id": "w2",
-            "band": 1,
-            "job": "wrote",
-            "book": "eine Geschichte von einem verlorenen roten Luftballon"
-          },
-          {
-            "id": "r1",
-            "band": 2,
-            "job": "read",
-            "book": "eine Gute-Nacht-Geschichte über den Mond"
-          },
-          {
-            "id": "d2",
-            "band": 2,
-            "job": "drew",
-            "book": "ein Buch mit lustigen Bauernhoftieren"
-          },
-          {
-            "id": "w3",
-            "band": 2,
-            "job": "wrote",
-            "book": "eine Geschichte über einen singenden Wal"
-          },
-          {
-            "id": "d3",
-            "band": 3,
-            "job": "drew",
-            "book": "ein Bilderbuch von einem Regenbogengarten"
-          },
-          {
-            "id": "r2",
-            "band": 3,
-            "job": "read",
-            "book": "eine Geschichte über einen Papierdrachen, der wegflog"
-          }
-        ],
-        "fr": [
-          {
-            "id": "w1",
-            "band": 1,
-            "job": "wrote",
-            "book": "une histoire sur un petit remorqueur courageux"
-          },
-          {
-            "id": "d1",
-            "band": 1,
-            "job": "drew",
-            "book": "un album sur un dragon endormi"
-          },
-          {
-            "id": "w2",
-            "band": 1,
-            "job": "wrote",
-            "book": "un conte sur un ballon rouge perdu"
-          },
-          {
-            "id": "r1",
-            "band": 2,
-            "job": "read",
-            "book": "une histoire du soir sur la lune"
-          },
-          {
-            "id": "d2",
-            "band": 2,
-            "job": "drew",
-            "book": "un livre d'animaux de la ferme rigolos"
-          },
-          {
-            "id": "w3",
-            "band": 2,
-            "job": "wrote",
-            "book": "une histoire sur une baleine qui chante"
-          },
-          {
-            "id": "d3",
-            "band": 3,
-            "job": "drew",
-            "book": "un album sur un jardin arc-en-ciel"
-          },
-          {
-            "id": "r2",
-            "band": 3,
-            "job": "read",
-            "book": "une histoire sur un cerf-volant qui s'est envolé"
-          }
-        ],
-        "es": [
-          {
-            "id": "w1",
-            "band": 1,
-            "job": "wrote",
-            "book": "un cuento de un barquito valiente"
-          },
-          {
-            "id": "d1",
-            "band": 1,
-            "job": "drew",
-            "book": "un libro de dibujos de un dragón dormilón"
-          },
-          {
-            "id": "w2",
-            "band": 1,
-            "job": "wrote",
-            "book": "un cuento de un globo rojo que se perdió"
-          },
-          {
-            "id": "r1",
-            "band": 2,
-            "job": "read",
-            "book": "un cuento de la luna para dormir"
-          },
-          {
-            "id": "d2",
-            "band": 2,
-            "job": "drew",
-            "book": "un libro de animales chistosos de la granja"
-          },
-          {
-            "id": "w3",
-            "band": 2,
-            "job": "wrote",
-            "book": "un cuento de una ballena que canta"
-          },
-          {
-            "id": "d3",
-            "band": 3,
-            "job": "drew",
-            "book": "un libro de dibujos de un jardín lleno de arcoíris"
-          },
-          {
-            "id": "r2",
-            "band": 3,
-            "job": "read",
-            "book": "un cuento de un papalote que se voló"
-          }
-        ],
-        "pt": [
-          {
-            "id": "w1",
-            "band": 1,
-            "job": "wrote",
-            "book": "uma história de um barquinho valente"
-          },
-          {
-            "id": "d1",
-            "band": 1,
-            "job": "drew",
-            "book": "um livro de desenhos de um dragão dorminhoco"
-          },
-          {
-            "id": "w2",
-            "band": 1,
-            "job": "wrote",
-            "book": "uma história de um balão vermelho que se perdeu"
-          },
-          {
-            "id": "r1",
-            "band": 2,
-            "job": "read",
-            "book": "uma história da lua para dormir"
-          },
-          {
-            "id": "d2",
-            "band": 2,
-            "job": "drew",
-            "book": "um livro de desenhos de bichos engraçados da fazenda"
-          },
-          {
-            "id": "w3",
-            "band": 2,
-            "job": "wrote",
-            "book": "uma história de uma baleia que canta"
-          },
-          {
-            "id": "d3",
-            "band": 3,
-            "job": "drew",
-            "book": "um livro de desenhos de um jardim cheio de arco-íris"
-          },
-          {
-            "id": "r2",
-            "band": 3,
-            "job": "read",
-            "book": "uma história de uma pipa que voou pelo céu"
-          }
-        ],
-        "it": [
-          {
-            "id": "w1",
-            "band": 1,
-            "job": "wrote",
-            "book": "una storia su un piccolo rimorchiatore coraggioso"
-          },
-          {
-            "id": "d1",
-            "band": 1,
-            "job": "drew",
-            "book": "un libro illustrato su un draghetto assonnato"
-          },
-          {
-            "id": "w2",
-            "band": 1,
-            "job": "wrote",
-            "book": "la storia di un palloncino rosso perduto"
-          },
-          {
-            "id": "r1",
-            "band": 2,
-            "job": "read",
-            "book": "una storia della buonanotte sulla luna"
-          },
-          {
-            "id": "d2",
-            "band": 2,
-            "job": "drew",
-            "book": "un libro di buffi animali della fattoria"
-          },
-          {
-            "id": "w3",
-            "band": 2,
-            "job": "wrote",
-            "book": "una storia su una balena che canta"
-          },
-          {
-            "id": "d3",
-            "band": 3,
-            "job": "drew",
-            "book": "un libro illustrato di un giardino arcobaleno"
-          },
-          {
-            "id": "r2",
-            "band": 3,
-            "job": "read",
-            "book": "una storia su un aquilone volato via"
-          }
-        ],
-        "nl": [
-          { "id": "w1", "band": 1, "job": "wrote", "book": "een verhaal over een dapper bootje" },
-          { "id": "d1", "band": 1, "job": "drew", "book": "een prentenboek over een slaperige draak" },
-          { "id": "w2", "band": 1, "job": "wrote", "book": "een verhaal over een verloren rode ballon" },
-          { "id": "r1", "band": 2, "job": "read", "book": "een slaapverhaaltje over de maan" },
-          { "id": "d2", "band": 2, "job": "drew", "book": "een boek met grappige boerderijdieren" },
-          { "id": "w3", "band": 2, "job": "wrote", "book": "een verhaal over een zingende walvis" },
-          { "id": "d3", "band": 3, "job": "drew", "book": "een prentenboek over een regenboogtuin" },
-          { "id": "r2", "band": 3, "job": "read", "book": "een verhaal over een vlieger die wegvloog" }
-        ]
       }
     },
     "theme": null,
@@ -331,7 +66,11 @@
       "es": "autor-e-ilustrador-quien-escribe-y-quien-dibuja-primer-grado",
       "pt": "autor-ilustrador-leitor-quem-faz-cada-trabalho-1-ano",
       "it": "autore-e-illustratore-chi-scrive-e-chi-disegna-classe-prima",
-      "nl": "auteur-en-illustrator-wie-schrijft-een-boek-groep-3"
+      "nl": "auteur-en-illustrator-wie-schrijft-een-boek-groep-3",
+      "sv": "forfattare-eller-illustrator-vem-gor-vad-i-boken",
+      "da": "forfatter-eller-illustrator-hvem-goer-hvad-i-bogen",
+      "no": "forfatter-eller-illustrator-hvem-gjor-hva-i-boka",
+      "fi": "kirjailija-vai-kuvittaja-kuka-tekee-mita-kirjassa"
     },
     "page_title": {
       "en": "Inky's Book Workshop — Author or Illustrator? (Kindergarten)",
@@ -340,7 +79,11 @@
       "es": "Autor e ilustrador 1.º: ¿quién escribe y quién dibuja?",
       "pt": "Autor e ilustrador: quem faz o quê no livro? · 1º ano",
       "it": "Autore e illustratore: chi scrive e chi disegna – classe prima",
-      "nl": "Schrijver of illustrator? Wie maakt een boek (groep 3)"
+      "nl": "Schrijver of illustrator? Wie maakt een boek (groep 3)",
+      "sv": "Författare eller illustratör? Vem gör vad i boken",
+      "da": "Forfatter eller illustrator? Hvem gør hvad i bogen",
+      "no": "Forfatter eller illustratør? Hvem gjør hva i boka",
+      "fi": "Kirjailija vai kuvittaja? Kuka tekee mitä kirjassa (1. luokka)"
     },
     "page_intro": {
       "en": "Inky the octopus makes books with ink — words AND pictures! Every book has an author (the person who WRITES the words) and an illustrator (the person who DRAWS the pictures) — and you are the reader who enjoys it. Look at the job Inky is doing and tap whose job it is. A Kindergarten reading game about the roles of the author and illustrator, aligned to Common Core RL.K.6.",
@@ -349,7 +92,11 @@
       "es": "¿Quién escribió el cuento del dragón dormilón y quién lo dibujó? Toca al autor o al ilustrador en el taller de Inky. Actividad en línea, sin registro.",
       "pt": "Com um polvo que faz livros com tinta, a criança descobre quem escreve as palavras (o autor), quem desenha as figuras (o ilustrador) e quem lê a história (o leitor). Uma atividade divertida sobre como um livro é feito. Sem cadastro. BNCC, 1º ano.",
       "it": "Con Nino, il simpatico polpo che crea libri con l’inchiostro, il tuo bambino scopre chi scrive le parole della storia (l’autore), chi disegna le immagini (l’illustratore) e chi legge il libro (il lettore), in un’attività senza registrazione, allineata alle Indicazioni nazionali per la classe prima.",
-      "nl": "In de boekenwerkplaats van Inky de inktvis kijk je wie welk werk aan een boek doet en tik je: schrijver, illustrator of lezer? Je kind leert de rollen kennen — wie schrijft, wie tekent. Interactief, afgestemd op de SLO-kerndoelen voor groep 3."
+      "nl": "In de boekenwerkplaats van Inky de inktvis kijk je wie welk werk aan een boek doet en tik je: schrijver, illustrator of lezer? Je kind leert de rollen kennen — wie schrijft, wie tekent. Interactief, afgestemd op de SLO-kerndoelen voor groep 3.",
+      "sv": "I Inkys bokverkstad har varje person sitt eget bläck: författaren skriver orden, illustratören ritar bilderna och läsaren njuter av boken. Barnet lämnar varje halvfärdig sida till den som kan göra klart den – fel person sätter sitt märke på fel ställe. Övningen följer Lgr22.",
+      "da": "I Inkys bogværksted har hver person sit eget blæk: forfatteren skriver ordene, illustratoren tegner billederne, og læseren nyder bogen. Barnet bringer hver halvfærdig side til den, der kan gøre den færdig – den forkerte sætter sit mærke det forkerte sted. Øvelsen følger Fælles Mål.",
+      "no": "I Inkys bokverksted har hver person sitt eget blekk: forfatteren skriver ordene, illustratøren tegner bildene, og leseren koser seg med boka. Barnet bringer hver halvferdige side til den som kan gjøre den ferdig – feil person setter sitt merke på feil sted. Øvelsen følger LK20.",
+      "fi": "Inkyn kirjapajassa jokaisella on oma musteensa: kirjailija kirjoittaa sanat, kuvittaja piirtää kuvat ja lukija nauttii kirjasta. Lapsi vie jokaisen keskeneräisen sivun sille, joka voi tehdä sen valmiiksi – väärä henkilö tekee oman jälkensä väärään paikkaan. Harjoitus tukee perusopetuksen opetussuunnitelman perusteiden 2014 tavoitteita."
     },
     "kid_prompt_template": "Tap whose job it is: author, illustrator, or reader."
   }

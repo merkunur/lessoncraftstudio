@@ -3972,23 +3972,25 @@
     },
     "inky-book-workshop.author-illustrator.rl-k-6": {
       "about": [
-        "Dans l'atelier d'Inky la pieuvre, chaque livre naît de deux mains : l'auteur ÉCRIT les mots et l'illustrateur DESSINE les images. Ton enfant regarde le travail qu'Inky est en train de faire — écrire, dessiner ou lire — et touche à qui est ce travail : l'auteur, l'illustrateur ou le lecteur.",
-        "Connaître les rôles de l'auteur et de l'illustrateur, c'est découvrir la culture du livre — un attendu du CP. Le jeu se joue sans minuteur et sans points : l'enfant relie chaque geste à son rôle, dans le domaine « Lecture et compréhension de l'écrit » des programmes officiels de l'école."
+        "Inky la pieuvre imprime les pages d’un petit livre, mais chaque page sort à moitié faite : sans image ou sans mots. L’enfant apporte chaque page à la personne qui peut la finir. L’encre de l’auteur ne fait que des mots, celle de l’illustrateur que des images, et le lecteur n’a pas d’encre du tout et profite d’une page finie. Apporte « Un petit bateau est parti en mer. » à l’illustrateur, et le bateau apparaît dans le cadre vide. C’est une activité de lecture interactive qui se joue dans le navigateur.",
+        "La mauvaise personne fait quand même sa marque, mais au mauvais endroit : l’auteur entasse de tout petits mots dans le cadre de l’image, l’illustrateur peint une image écrasée sur les lignes et le lecteur s’arrête au trou. L’encre coule et la page revient. Quand un livre est fini, l’enfant place l’auteur et l’illustrateur sur la couverture. Avec Seulement les plaques, les bureaux se ferment et seuls les mots auteur, illustrateur et lecteur décident.",
+        "L’activité suit les programmes de l’Éducation nationale : nommer l’auteur et l’illustrateur d’un livre et dire ce que fait chacun. Huit petits livres, chaque page une image de la bibliothèque d’images. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Nommer l'auteur et l'illustrateur d'un livre",
-        "Distinguer écrire les mots de dessiner les images",
-        "Reconnaître le rôle du lecteur",
-        "Découvrir les acteurs du livre"
+        "Dire ce que fait un auteur : il écrit les mots",
+        "Dire ce que fait un illustrateur : il dessine les images",
+        "Voir ce qu’il manque à une page : des mots ou une image",
+        "Lire les mots auteur, illustrateur et lecteur"
       ],
       "howToPlay": [
-        "Regarde le travail qu'Inky est en train de faire.",
-        "Touche à qui est ce travail : l'auteur, l'illustrateur ou le lecteur."
+        "Regarde la page : manque-t-il l’image ou les mots ?",
+        "Fais glisser la page jusqu’à la personne qui peut la finir, ou touche cette personne.",
+        "Quand le livre est fini, place l’auteur et l’illustrateur sur la couverture."
       ],
       "learningGoals": [
-        "Connaître le rôle de l'auteur et de l'illustrateur",
-        "Relier un geste du livre à son rôle",
-        "Découvrir la culture du livre"
+        "L’enfant nomme l’auteur et l’illustrateur d’un livre",
+        "L’enfant dit ce que font l’auteur et l’illustrateur",
+        "L’enfant sait qu’une histoire est racontée par les mots et par les images"
       ]
     },
     "wobble-museum.catch-drift.w-k-2": {

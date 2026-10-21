@@ -2205,6 +2205,29 @@
         "Barnet ser at løsningen må passe til problemet",
         "Barnet gjenforteller en fortelling med først, så og til slutt"
       ]
+    },
+    "inky-book-workshop.author-illustrator.rl-k-6": {
+      "about": [
+        "Blekkspruten Inky trykker sidene i ei lita bok, men hver side kommer ut halvferdig: uten bilde eller uten ord. Barnet bringer hver side til den personen som kan gjøre den ferdig. Forfatterens blekk lager bare ord, illustratørens blekk bare bilder, og leseren har ikke noe blekk i det hele tatt – hun koser seg med en ferdig side. Bring «En liten båt seilte ut.» til illustratøren, så dukker båten opp i den tomme rammen. En interaktiv leseaktivitet som spilles i nettleseren.",
+        "Feil person setter likevel sitt eget merke – bare på feil sted: Forfatteren klemmer bittesmå ord inn i bildefeltet, illustratøren maler et sammenklemt bilde på skrivelinjene, og leseren stopper ved hullet. Blekket renner, og siden kommer tilbake. Når ei bok er ferdig, setter barnet forfatteren og illustratøren på forsiden. Med Bare navneskilt lukkes arbeidsplassene, og bare ordene forfatter, illustratør og leser avgjør.",
+        "Aktiviteten følger LK20 i norsk: å kunne nevne forfatter og illustratør av ei bok og si hva hver av dem gjør. Åtte små bøker, hver side et bilde fra bildebiblioteket. Uten tidspress og uten poeng."
+      ],
+      "practices": [
+        "Å si hva en forfatter gjør: skriver ordene",
+        "Å si hva en illustratør gjør: tegner bildene",
+        "Å se hva en side mangler: ord eller et bilde",
+        "Å lese ordene forfatter, illustratør og leser"
+      ],
+      "howToPlay": [
+        "Se på siden: Mangler bildet eller ordene?",
+        "Dra siden til personen som kan gjøre den ferdig, eller trykk på personen.",
+        "Når boka er ferdig, setter du forfatteren og illustratøren på forsiden."
+      ],
+      "learningGoals": [
+        "Barnet nevner forfatteren og illustratøren av ei bok",
+        "Barnet sier hva forfatteren og illustratøren lager",
+        "Barnet vet at en fortelling blir fortalt med både ord og bilder"
+      ]
     }
   }
 }

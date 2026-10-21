@@ -2193,25 +2193,25 @@
     },
     "inky-book-workshop.author-illustrator.rl-k-6": {
       "about": [
-        "Inky the octopus makes books with ink — both the words and the pictures — so when Inky writes a story about a brave little tugboat, draws a sleepy dragon, or reads a bedtime story about the moon, the child taps whose job that is: author, illustrator, or reader. It's an interactive Kindergarten reading activity that plays in the browser, with no sign-up.",
-        "The big idea is the two roles that make a book, the focus of RL.K.6. By matching the action (writing, drawing, reading) to the person, the child learns that an author and an illustrator are different jobs, and that reading is something the child does. The 'reader' choice keeps the activity honest — the child has to think about the job, not just flip between two answers.",
-        "It is aligned to Common Core RL.K.6 — naming the author and illustrator of a story and defining the role of each in telling the story. No timer, no score — just calm, playful practice."
+        "Inky the octopus prints the pages of a little book, but every page comes out half done: no picture, or no words. The child carries each page to the person who can finish it. The author’s ink only makes words, the illustrator’s ink only makes pictures, and the reader has no ink at all – she enjoys a finished page. Bring “A little boat sailed out.” to the illustrator and the boat appears in the empty frame. It is an interactive Kindergarten reading activity that plays in the browser.",
+        "The wrong person still makes their own mark, in the wrong place: the author crams tiny words into the picture box, the illustrator squashes a picture onto the word lines, and the reader stops at the gap. The ink drips and the page comes back. When a book is done, the child puts the author and the illustrator on its cover. With Name plates only, the desks close and only the words Author, Illustrator and Reader decide.",
+        "It is aligned to Common Core RL.K.6: naming the author and the illustrator of a story and telling what each one does. Eight short books, every page a library picture. No timer and no score."
       ],
       "practices": [
-        "Knowing that the author writes the words of a book",
-        "Knowing that the illustrator draws the pictures",
-        "Matching an action — writing, drawing, reading — to the right person",
-        "Understanding the reader's own role in enjoying a book"
+        "Telling what an author does: writes the words",
+        "Telling what an illustrator does: draws the pictures",
+        "Seeing what a page still needs: words or a picture",
+        "Reading the words author, illustrator and reader"
       ],
       "howToPlay": [
-        "Look at the job Inky is doing — writing words, drawing pictures, or reading.",
-        "Tap whose job it is: author, illustrator, or reader, then press Check.",
-        "A warm check confirms a correct choice and offers an easy retry when needed."
+        "Look at the page: is the picture or are the words missing?",
+        "Drag the page to the person who can finish it, or tap that person.",
+        "When the book is done, put the author and the illustrator on the cover."
       ],
       "learningGoals": [
-        "Name the author and illustrator and tell what each one does — the focus of Common Core RL.K.6",
-        "Tell apart the job of writing words from the job of drawing pictures",
-        "Build the book awareness that early read-aloud and reading depend on"
+        "The child names the author and the illustrator of a book",
+        "The child tells what the author and the illustrator each make",
+        "The child knows that a story is told by both the words and the pictures"
       ]
     },
     "jasper-just-right.real-life.l-1-5-c": {

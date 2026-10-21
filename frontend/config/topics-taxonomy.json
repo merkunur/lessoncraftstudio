@@ -4856,14 +4856,18 @@
           "de": "bilder-nachspuren",
           "fr": "dessins-a-repasser",
           "es": "dibujos-para-repasar",
-          "pt": "desenhos-pontilhados"
+          "pt": "desenhos-pontilhados",
+          "it": "disegni-tratteggiati",
+          "nl": "tekeningen-overtrekken"
         },
         "name": {
           "en": "Picture Tracing",
           "de": "Bilder nachspuren",
           "fr": "Dessins à repasser",
           "es": "Dibujos para repasar",
-          "pt": "Desenhos pontilhados"
+          "pt": "Desenhos pontilhados",
+          "it": "Disegni tratteggiati",
+          "nl": "Tekeningen overtrekken"
         }
       }
     },

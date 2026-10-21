@@ -1,0 +1,129 @@
+{
+ "locale": "it",
+ "strings": {
+  "base": {
+   "title": "Disegni tratteggiati: il sentiero del giardino fino alla porta",
+   "printTitle": "Il sentiero fino alla porta",
+   "instruction": "Ripassa tutto il tratteggio e finisci il giardino: la casa, l'albero, la farfalla, i tulipani e il coniglio."
+  },
+  "first-tracing": {
+   "title": "Disegni tratteggiati per bambini di 3 anni: la mia prima balena",
+   "printTitle": "La mia prima balena",
+   "instruction": "Parti dal pallino. Ripassa la grande balena piano piano, tutto intorno."
+  },
+  "look-then-trace": {
+   "title": "Ripassa il tratteggio: guarda l'animale, poi ripassalo",
+   "printTitle": "Guardo, poi ripasso",
+   "instruction": "Guarda il disegno nella cornice. Poi ripassa lo stesso animale lì accanto."
+  },
+  "round-and-round": {
+   "title": "Disegni tratteggiati per bambini di 4 anni: giro giro tondo",
+   "printTitle": "Giro, giro, tondo",
+   "instruction": "Parti da ogni pallino e ripassa tutto intorno, come quando scrivi la lettera o."
+  },
+  "straight-lines": {
+   "title": "Linee dritte da ripassare: disegni verticali, orizzontali, obliqui",
+   "printTitle": "In giù, di lato, in obliquo",
+   "instruction": "Segui le frecce, una colonna alla volta: ripassa le linee in giù, poi quelle di lato, poi quelle oblique."
+  },
+  "zigzags": {
+   "title": "Disegni da ripassare: montagne a zig zag e temporale sul campeggio",
+   "printTitle": "Temporale sul campeggio",
+   "instruction": "Ripassa gli zig zag delle montagne, degli alberi, della tenda e dei fulmini. Fermati su ogni punta."
+  },
+  "curls": {
+   "title": "Pregrafismo disegni tratteggiati: spirali e asole da ripassare",
+   "printTitle": "La galleria delle spirali",
+   "instruction": "Ripassa le spirali e le asole: la lumaca, il lecca-lecca, il fiocco, il bretzel e la girandola."
+  },
+  "trace-and-color": {
+   "title": "Ripassa e colora: il picnic sotto l'albero",
+   "printTitle": "Il picnic",
+   "instruction": "Ripassa tutto il disegno del picnic. Poi coloralo con i colori che vuoi."
+  },
+  "where-to-start": {
+   "title": "Disegni tratteggiati scuola dell'infanzia: da dove comincio?",
+   "printTitle": "Da dove comincio?",
+   "instruction": "Parti da ogni pallino e segui la freccia. Scendi le scale, un disegno alla volta."
+  },
+  "trace-and-count": {
+   "title": "Ripassa e conta: quante anatre ci sono nello stagno?",
+   "printTitle": "Le anatre nello stagno",
+   "instruction": "Ripassa le anatre. Contale. Scrivi nel riquadro quante sono."
+  },
+  "finish-the-picture": {
+   "title": "Completa il disegno: ripassa le parti che mancano",
+   "printTitle": "Lo scaffale delle riparazioni",
+   "instruction": "Ripassa le parti tratteggiate e completa ogni disegno: ruote, beccuccio, due manici, punta e orecchie."
+  },
+  "christmas": {
+   "title": "Disegni di Natale da ripassare: palline e stelle sull'albero",
+   "printTitle": "La vigilia di Natale",
+   "instruction": "Ripassa l'albero, i regali, la poltrona, la finestra e il tappeto. Poi fai il giro di ogni pallina e stella."
+  },
+  "shape-picture": {
+   "title": "Forme da ripassare: un razzo di cerchi, quadrati e triangoli",
+   "printTitle": "Il razzo delle forme",
+   "instruction": "Ripassa tutte le forme del razzo e del cielo. Poi colora tutti i cerchi."
+  },
+  "summer-sea": {
+   "title": "Disegni estivi da ripassare: le onde del mare da sinistra a destra",
+   "printTitle": "Una cartolina dal mare",
+   "instruction": "Ripassa le onde da sinistra a destra. Poi ripassa la barca e la spiaggia."
+  },
+  "big-middle-small": {
+   "title": "Disegni tratteggiati grande, medio, piccolo: aerei, auto e navi",
+   "printTitle": "Grande, medio, piccolo",
+   "instruction": "In ogni fila ripassa prima il grande, poi il medio, poi il piccolo."
+  },
+  "dotted-street": {
+   "title": "Disegni tratteggiati classe prima: una mattina in città a puntini",
+   "printTitle": "Una mattina in città",
+   "instruction": "Ripassa con cura le linee a puntini, anche i dettagli più piccoli."
+  },
+  "picture-and-word": {
+   "title": "Ripassa il disegno e la parola: sole, pesce, gatto, mela",
+   "printTitle": "Disegni e parole",
+   "instruction": "Ripassa il disegno. Di' come si chiama. Ripassa la parola qui sotto."
+  },
+  "trace-and-draw": {
+   "title": "Ripassa e disegna: che cosa c'è nel rimorchio del trattore?",
+   "printTitle": "Cosa c'è nel rimorchio?",
+   "instruction": "Ripassa tutto il disegno: il trattore, il rimorchio e gli animali. Poi disegna nel rimorchio vuoto che cosa porta il trattore."
+  },
+  "other-half": {
+   "title": "Disegni simmetrici da ripassare: completa l'altra metà",
+   "printTitle": "L'altra metà",
+   "instruction": "Ripassa la metà tratteggiata, così le due parti di ogni disegno sono uguali."
+  },
+  "hidden-animals": {
+   "title": "Disegni tratteggiati di animali: trova i 5 animali nascosti",
+   "printTitle": "Chi si nasconde nel bosco?",
+   "instruction": "Trova i 5 animali nascosti nel bosco. Ripassali."
+  }
+ },
+ "words": [
+  "sole",
+  "pesce",
+  "gatto",
+  "mela"
+ ],
+ "family": {
+  "slug": "disegni-tratteggiati",
+  "name": "Disegni tratteggiati"
+ },
+ "skill": {
+  "full": "Ripassare disegni interi allena la mano a guidare la matita su linee lunghe e continue, lo sguardo attento e la coordinazione occhio-mano: le basi per scrivere.",
+  "short": "Motricità fine e coordinazione occhio-mano con disegni interi"
+ },
+ "topicMeta": "Disegni tratteggiati da ripassare per la scuola dell'infanzia e la classe prima: animali, Natale, mare e forme in PDF da stampare, per allenare la motricità fine.",
+ "enAudit": [
+  "K-429 title + landing slug 'Close Every Bauble': the baubles and stars are already complete closed shapes; the child traces ROUND them. Fix: 'Trace Round Every Bauble' (title, h1, slug).",
+  "G1-429 EN landing p1 'from the hotel's windows': nothing shows the tall building is a hotel (and the landing itself calls it 'a tall building' two sentences earlier). Fix: 'from the tall building's windows'; the two small trees beside it are not mentioned either.",
+  "K-431 render: the dashed horizon runs straight THROUGH the sail and the mast (it is not stopped behind the boat), and the hull overlaps the first wave's dashes, so the boat reads crossed by a line. Fix: occlude the horizon (and the wave) behind the sailboat.",
+  "K-425 EN landing 'a little bird sits in the air': a bird does not sit in the air; on the render it floats with no branch. Fix: 'a little bird flies between the tree and the sun'.",
+  "G1-432 render: the koala's solid left ear is furry, the dashed right ear is a smooth double outline, so the two halves do not look the same to a child; the EN landing's 'measured line by line' over-claims for this picture. Fix: soften the landing claim or pick a koala whose ears match.",
+  "G1-433 render: the owl sits in plain sight on top of the right tree's crown, so 'hidden' is weak for that one animal. Minor; acceptable.",
+  "K-427 EN landing names the count (five ducks) in p1; fine for an adult page, noted only because the child's answer is printed on the landing."
+ ]
+}

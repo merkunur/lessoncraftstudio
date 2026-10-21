@@ -1,132 +1,132 @@
 {
-  "locale": "pt",
-  "strings": {
-    "base": {
-      "title": "Desenhos pontilhados: cubra o caminho do jardim até a porta",
-      "printTitle": "O caminho até a porta",
-      "instruction": "Cubra o pontilhado para terminar o jardim: a casa, a árvore, a borboleta, as tulipas e o coelho."
-    },
-    "first-tracing": {
-      "title": "Cobrir pontilhado na educação infantil: minha primeira baleia",
-      "printTitle": "Meu primeiro pontilhado",
-      "instruction": "Comece no ponto e siga a seta. Cubra a baleia grande bem devagar, até o fim."
-    },
-    "look-then-trace": {
-      "title": "Observe o modelo e cubra o desenho: pinguim e canguru",
-      "printTitle": "Olhe e depois cubra",
-      "instruction": "Olhe o desenho no quadro. Depois cubra o mesmo animal ao lado, começando no ponto."
-    },
-    "round-and-round": {
-      "title": "Atividades de cobrir pontilhado para 3 e 4 anos: figuras redondas",
-      "printTitle": "Rodando, rodando",
-      "instruction": "Comece em cada ponto e cubra dando a volta toda, como na letra o."
-    },
-    "straight-lines": {
-      "title": "Coordenação motora: desenhos pontilhados de linhas retas",
-      "printTitle": "Em pé, deitado, inclinado",
-      "instruction": "Siga as setas: cubra as linhas em pé, depois as deitadas e, por fim, as inclinadas."
-    },
-    "zigzags": {
-      "title": "Cobrir o pontilhado em zigue-zague: tempestade no acampamento",
-      "printTitle": "Tempestade no acampamento",
-      "instruction": "Cubra os zigue-zagues das montanhas, das árvores, da barraca e dos raios. Pare em cada ponta."
-    },
-    "curls": {
-      "title": "Desenho para cobrir: espirais e voltinhas do caracol ao cata-vento",
-      "printTitle": "A galeria das espirais",
-      "instruction": "Cubra as espirais e as voltinhas: o caracol, o pirulito, o laço, o pretzel e o cata-vento."
-    },
-    "trace-and-color": {
-      "title": "Cubra e pinte: o piquenique debaixo da árvore",
-      "printTitle": "O piquenique",
-      "instruction": "Cubra todo o desenho do piquenique. Depois pinte com as cores que você quiser."
-    },
-    "where-to-start": {
-      "title": "Desenhos pontilhados para a educação infantil: por onde começo?",
-      "printTitle": "Por onde eu começo?",
-      "instruction": "Comece em cada ponto e siga a seta. Desça a escada, um desenho de cada vez."
-    },
-    "trace-and-count": {
-      "title": "Cubra e conte: quantos patos estão na lagoa?",
-      "printTitle": "Patos na lagoa",
-      "instruction": "Cubra os patos. Conte quantos são. Escreva o número no quadrinho."
-    },
-    "finish-the-picture": {
-      "title": "Complete o desenho cobrindo o pontilhado: a prateleira de consertos",
-      "printTitle": "A prateleira de consertos",
-      "instruction": "Cubra o pontilhado e termine cada desenho: rodas, bico, cabo, asa, ponta e orelhas."
-    },
-    "christmas": {
-      "title": "Desenhos pontilhados de Natal: a árvore cheia de bolinhas",
-      "printTitle": "Noite de Natal",
-      "instruction": "Cubra a árvore, os presentes, a poltrona e a janela. Depois cubra cada bolinha e cada estrela."
-    },
-    "shape-picture": {
-      "title": "Formas geométricas pontilhadas: um foguete de círculos e triângulos",
-      "printTitle": "O foguete das formas",
-      "instruction": "Cubra todas as formas do foguete e do céu. Depois pinte todos os círculos."
-    },
-    "summer-sea": {
-      "title": "Desenhos pontilhados de praia: um cartão-postal do mar",
-      "printTitle": "Um cartão-postal da praia",
-      "instruction": "Cubra as ondas da esquerda para a direita. Depois cubra o barco e a praia."
-    },
-    "big-middle-small": {
-      "title": "Desenhos pontilhados de transportes: grande, médio e pequeno",
-      "printTitle": "Grande, médio, pequeno",
-      "instruction": "Em cada fileira, cubra o grande, depois o médio e depois o pequeno."
-    },
-    "dotted-street": {
-      "title": "Desenhos pontilhados para o 1º ano: uma manhã na cidade",
-      "printTitle": "Uma manhã na cidade",
-      "instruction": "Cubra os pontinhos com cuidado, até os detalhes pequenos."
-    },
-    "picture-and-word": {
-      "title": "Cubra o desenho, diga o nome e cubra a palavra: 1º ano",
-      "printTitle": "Desenhos e palavras",
-      "instruction": "Cubra o desenho. Diga o nome dele. Cubra a palavra embaixo."
-    },
-    "trace-and-draw": {
-      "title": "Cubra o desenho e depois desenhe: o que tem na carreta?",
-      "printTitle": "O que tem na carreta?",
-      "instruction": "Cubra a fazenda. Depois desenhe o que o trator está levando na carreta vazia."
-    },
-    "other-half": {
-      "title": "Simetria com desenhos pontilhados: complete a outra metade",
-      "printTitle": "A outra metade",
-      "instruction": "Cubra a metade pontilhada para que os dois lados de cada desenho fiquem iguais."
-    },
-    "hidden-animals": {
-      "title": "Desenhos pontilhados de animais: ache os 5 bichos escondidos",
-      "printTitle": "Quem se esconde na floresta?",
-      "instruction": "Encontre os 5 animais escondidos na floresta. Depois cubra cada um deles."
-    }
+ "locale": "pt",
+ "strings": {
+  "base": {
+   "title": "Desenhos pontilhados: cubra o caminho do jardim até a porta",
+   "printTitle": "O caminho até a porta",
+   "instruction": "Cubra o pontilhado para terminar o jardim: a casa, a árvore, a borboleta, as tulipas e o coelho."
   },
-  "words": [
-    "sol",
-    "peixe",
-    "gato",
-    "maçã"
-  ],
-  "family": {
-    "slug": "desenhos-pontilhados",
-    "name": "Desenhos pontilhados"
+  "first-tracing": {
+   "title": "Cobrir pontilhado na educação infantil: minha primeira baleia",
+   "printTitle": "Meu primeiro pontilhado",
+   "instruction": "Comece no ponto e siga a seta. Cubra a baleia grande bem devagar, até o fim."
   },
-  "skill": {
-    "full": "Cobrir desenhos pontilhados inteiros desenvolve a coordenação motora fina, o controle do lápis e a coordenação olho-mão, preparando para a escrita.",
-    "short": "Coordenação motora fina e preparação para a escrita"
+  "look-then-trace": {
+   "title": "Observe o modelo e cubra o desenho: pinguim e canguru",
+   "printTitle": "Olhe e depois cubra",
+   "instruction": "Olhe o desenho no quadro. Depois cubra o mesmo animal ao lado, começando no ponto."
   },
-  "topicMeta": "Desenhos pontilhados para cobrir na educação infantil e no 1º ano: figuras inteiras para treinar a coordenação motora. Atividades grátis em PDF para imprimir.",
-  "enAudit": [
-    "K-429 instruction \"Then close every bauble and star\": on the render every bauble and star is already a complete dashed circle/star with no gap, so there is nothing to CLOSE. Fix: \"Then trace round every bauble and star\" (pt: \"cubra cada bolinha e cada estrela\"). EN landing p1 also calls the rug \"round\": it is a long pill-shaped rug; say \"a long rug\".",
-    "K-424 instruction \"Trace the curls round and round\": only the snail shell and the lollipop are spirals; the bow and the pretzel are loops and the pinwheel is petals round a circle. Fix: \"Trace the spirals and loops: ...\" (pt: \"as espirais e as voltinhas\").",
-    "K-422 instruction \"Trace the lines that go down, then across, then slanted\" reads as sorting single lines across the whole page, but every picture mixes directions (the wardrobe has a flat top, the envelope a flat bottom); the arrows label COLUMNS. Fix: \"Follow the arrows, column by column: down, across, then slanted.\" Render: the chest of drawers top board runs across both column divider lines (a guide crossing structure). Fix: shrink the dresser to sit inside its column.",
-    "K-420 EN metaDescription \"shown as finished photos\": the models are line drawings in a frame, not photos. Fix: \"shown as finished drawings\".",
-    "K-421 EN title \"Tracing Worksheets for Toddlers and Preschoolers\": the page (three round pictures, start dots, direction arrows) fits ages 3-4, not toddlers under 3. Fix: lead with preschool / ages 3-4.",
-    "K-425 instruction \"Trace the picnic pictures\": the tree, the cloud, the sun, the bird, the ground and the blanket are dashed too; \"the picnic pictures\" leaves a child unsure whether to trace the tree. Fix: \"Trace the whole picnic picture.\"",
-    "K-428 instruction \"two handles\": an umbrella handle and a cup handle are different words in most languages (pt cabo / asa); fine in EN, but panels should list them separately (pt does).",
-    "G1-433 render: a ~280 px empty band sits above the treetops (the page does not fill its body); and three of the five animals (rabbit, fox, mouse) stand on open ground below the trees, so \"hidden\" is soft. EN landing \"a rabbit among the flowers\": there is ONE flower. Fix: \"beside the flower\".",
-    "G1-429 EN landing \"a dog trots along\": the dog stands still; minor. \"a hotel\" is an interpretation of a generic many-windowed building; pt calls it \"um prédio alto\".",
-    "K-419 EN landing \"the only grey line on the page is the whale\": the bubbles are grey solid outlines too; say \"the only dashed line\"."
-  ]
+  "round-and-round": {
+   "title": "Atividades de cobrir pontilhado para 3 e 4 anos: figuras redondas",
+   "printTitle": "Rodando, rodando",
+   "instruction": "Comece em cada ponto e cubra dando a volta toda, como na letra o."
+  },
+  "straight-lines": {
+   "title": "Coordenação motora: desenhos pontilhados de linhas retas",
+   "printTitle": "Em pé, deitado, inclinado",
+   "instruction": "Siga as setas: cubra as linhas em pé, depois as deitadas e, por fim, as inclinadas."
+  },
+  "zigzags": {
+   "title": "Cobrir o pontilhado em zigue-zague: tempestade no acampamento",
+   "printTitle": "Tempestade no acampamento",
+   "instruction": "Cubra os zigue-zagues das montanhas, das árvores, da barraca e dos raios. Pare em cada ponta."
+  },
+  "curls": {
+   "title": "Desenho para cobrir: espirais e voltinhas do caracol ao cata-vento",
+   "printTitle": "A galeria das espirais",
+   "instruction": "Cubra as espirais e as voltinhas: o caracol, o pirulito, o laço, o pretzel e o cata-vento."
+  },
+  "trace-and-color": {
+   "title": "Cubra e pinte: o piquenique debaixo da árvore",
+   "printTitle": "O piquenique",
+   "instruction": "Cubra todo o desenho do piquenique. Depois pinte com as cores que você quiser."
+  },
+  "where-to-start": {
+   "title": "Desenhos pontilhados para a educação infantil: por onde começo?",
+   "printTitle": "Por onde eu começo?",
+   "instruction": "Comece em cada ponto e siga a seta. Desça a escada, um desenho de cada vez."
+  },
+  "trace-and-count": {
+   "title": "Cubra e conte: quantos patos estão na lagoa?",
+   "printTitle": "Patos na lagoa",
+   "instruction": "Cubra os patos. Conte quantos são. Escreva o número no quadrinho."
+  },
+  "finish-the-picture": {
+   "title": "Complete o desenho cobrindo o pontilhado: a prateleira de consertos",
+   "printTitle": "A prateleira de consertos",
+   "instruction": "Cubra o pontilhado e termine cada desenho: rodas, bico, cabo, asa, ponta e orelhas."
+  },
+  "christmas": {
+   "title": "Desenhos pontilhados de Natal: a árvore cheia de bolinhas",
+   "printTitle": "Noite de Natal",
+   "instruction": "Cubra a árvore, os presentes, a poltrona, a janela e o tapete. Depois cubra cada bolinha e cada estrela."
+  },
+  "shape-picture": {
+   "title": "Formas geométricas pontilhadas: um foguete de círculos e triângulos",
+   "printTitle": "O foguete das formas",
+   "instruction": "Cubra todas as formas do foguete e do céu. Depois pinte todos os círculos."
+  },
+  "summer-sea": {
+   "title": "Desenhos pontilhados de praia: um cartão-postal do mar",
+   "printTitle": "Um cartão-postal da praia",
+   "instruction": "Cubra as ondas da esquerda para a direita. Depois cubra o barco e a praia."
+  },
+  "big-middle-small": {
+   "title": "Desenhos pontilhados de transportes: grande, médio e pequeno",
+   "printTitle": "Grande, médio, pequeno",
+   "instruction": "Em cada fileira, cubra o grande, depois o médio e depois o pequeno."
+  },
+  "dotted-street": {
+   "title": "Desenhos pontilhados para o 1º ano: uma manhã na cidade",
+   "printTitle": "Uma manhã na cidade",
+   "instruction": "Cubra os pontinhos com cuidado, até os detalhes pequenos."
+  },
+  "picture-and-word": {
+   "title": "Cubra o desenho, diga o nome e cubra a palavra: 1º ano",
+   "printTitle": "Desenhos e palavras",
+   "instruction": "Cubra o desenho. Diga o nome dele. Cubra a palavra embaixo."
+  },
+  "trace-and-draw": {
+   "title": "Cubra o desenho e depois desenhe: o que tem na carreta?",
+   "printTitle": "O que tem na carreta?",
+   "instruction": "Cubra o desenho todo: o trator, a carreta e os animais. Depois desenhe o que o trator está levando na carreta vazia."
+  },
+  "other-half": {
+   "title": "Simetria com desenhos pontilhados: complete a outra metade",
+   "printTitle": "A outra metade",
+   "instruction": "Cubra a metade pontilhada para que os dois lados de cada desenho fiquem iguais."
+  },
+  "hidden-animals": {
+   "title": "Desenhos pontilhados de animais: ache os 5 bichos escondidos",
+   "printTitle": "Quem se esconde na floresta?",
+   "instruction": "Encontre os 5 animais escondidos na floresta. Depois cubra cada um deles."
+  }
+ },
+ "words": [
+  "sol",
+  "peixe",
+  "gato",
+  "maçã"
+ ],
+ "family": {
+  "slug": "desenhos-pontilhados",
+  "name": "Desenhos pontilhados"
+ },
+ "skill": {
+  "full": "Cobrir desenhos pontilhados inteiros desenvolve a coordenação motora fina, o controle do lápis e a coordenação olho-mão, preparando para a escrita.",
+  "short": "Coordenação motora fina e preparação para a escrita"
+ },
+ "topicMeta": "Desenhos pontilhados para cobrir na educação infantil e no 1º ano: figuras inteiras para treinar a coordenação motora. Atividades grátis em PDF para imprimir.",
+ "enAudit": [
+  "K-429 instruction \"Then close every bauble and star\": on the render every bauble and star is already a complete dashed circle/star with no gap, so there is nothing to CLOSE. Fix: \"Then trace round every bauble and star\" (pt: \"cubra cada bolinha e cada estrela\"). EN landing p1 also calls the rug \"round\": it is a long pill-shaped rug; say \"a long rug\".",
+  "K-424 instruction \"Trace the curls round and round\": only the snail shell and the lollipop are spirals; the bow and the pretzel are loops and the pinwheel is petals round a circle. Fix: \"Trace the spirals and loops: ...\" (pt: \"as espirais e as voltinhas\").",
+  "K-422 instruction \"Trace the lines that go down, then across, then slanted\" reads as sorting single lines across the whole page, but every picture mixes directions (the wardrobe has a flat top, the envelope a flat bottom); the arrows label COLUMNS. Fix: \"Follow the arrows, column by column: down, across, then slanted.\" Render: the chest of drawers top board runs across both column divider lines (a guide crossing structure). Fix: shrink the dresser to sit inside its column.",
+  "K-420 EN metaDescription \"shown as finished photos\": the models are line drawings in a frame, not photos. Fix: \"shown as finished drawings\".",
+  "K-421 EN title \"Tracing Worksheets for Toddlers and Preschoolers\": the page (three round pictures, start dots, direction arrows) fits ages 3-4, not toddlers under 3. Fix: lead with preschool / ages 3-4.",
+  "K-425 instruction \"Trace the picnic pictures\": the tree, the cloud, the sun, the bird, the ground and the blanket are dashed too; \"the picnic pictures\" leaves a child unsure whether to trace the tree. Fix: \"Trace the whole picnic picture.\"",
+  "K-428 instruction \"two handles\": an umbrella handle and a cup handle are different words in most languages (pt cabo / asa); fine in EN, but panels should list them separately (pt does).",
+  "G1-433 render: a ~280 px empty band sits above the treetops (the page does not fill its body); and three of the five animals (rabbit, fox, mouse) stand on open ground below the trees, so \"hidden\" is soft. EN landing \"a rabbit among the flowers\": there is ONE flower. Fix: \"beside the flower\".",
+  "G1-429 EN landing \"a dog trots along\": the dog stands still; minor. \"a hotel\" is an interpretation of a generic many-windowed building; pt calls it \"um prédio alto\".",
+  "K-419 EN landing \"the only grey line on the page is the whale\": the bubbles are grey solid outlines too; say \"the only dashed line\"."
+ ]
 }

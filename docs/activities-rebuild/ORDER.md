@@ -80,7 +80,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 70 | LIVE 2026-10-21 · The Idea Umbrella | K | RI.K.2 | `nila-pond.main-idea-net.ri-k-2` | nila-pond-activity | Nila's Idea Pond — Find the Big Idea |
 | 71 | LIVE 2026-10-21 · The Domino Track | K | RI.K.3 | `linc-fact-chain.connect.ri-k-3` | linc-fact-chain-activity | Linc's Fact Chain — How Two Facts Connect (Kindergarten) |
 | 72 | LIVE 2026-10-21 · The Two-Ended Rod | K | K.L.5.b | `opposites.antonyms.k-l-5-b` | opposites-activity | Quill's Mirror Market — Find the Opposite |
-| 73 |  | K | L.K.1.a | `penny-alphabet-trace.letter-formation.l-k-1-a` | penny-alphabet-trace-activity | Penny's Alphabet Trace — Write Every Letter A to Z (Kindergarten) |
+| 73 | LIVE 2026-10-21 · The Writing Carriage | K | L.K.1.a | `penny-alphabet-trace.letter-formation.l-k-1-a` | penny-alphabet-trace-activity | Penny's Alphabet Trace — Write Every Letter A to Z (Kindergarten) |
 | 74 |  | K | L.K.1.a | `snippy.letter-formation.l-k-1-a` | snippy-activity | Snippy's Letter Trace — Form Upper- & Lowercase Letters |
 | 75 |  | K | L.K.1.c | `daisy-plate-stack.plurals.l-k-1-c` | daisy-plate-stack-activity | Daisy's Plate Stack — More Than One (Kindergarten) |
 | 76 |  | K | L.K.1.d | `wren-question-window.question-words.l-k-1-d` | wren-question-window-activity | Wren's Question Window — Ask the Right Word (Kindergarten) |

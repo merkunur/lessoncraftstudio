@@ -1,0 +1,302 @@
+{
+ "locale": "nl",
+ "market": {
+  "hl": "nl",
+  "gl": "nl"
+ },
+ "generatedAt": "2026-10-21T21:47:46.971Z",
+ "seedFile": "docs/worksheet-gen/b9-designs/_records/candidate-seeds.json",
+ "requestCount": 91,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "picture-tracing": {
+   "heads": [
+    "overtrekken",
+    "tekening overtrekken",
+    "overtrekken kleuters",
+    "stippellijn tekening",
+    "natekenen"
+   ],
+   "requests": 35,
+   "productiveSeeds": 10,
+   "unique": 45,
+   "suggestions": [
+    "cijfers overtrekken kleuters",
+    "cijfers overtrekken werkbladen",
+    "figuren natekenen kleuters",
+    "kozijn tekening stippellijn",
+    "letters overtrekken groep 3",
+    "letters overtrekken kleuters",
+    "letters overtrekken werkblad",
+    "lijnen overtrekken kleuters",
+    "lijnen overtrekken werkblad",
+    "natekenen boek",
+    "natekenen dieren",
+    "natekenen engels",
+    "natekenen groep 3",
+    "natekenen kawaii",
+    "natekenen kinderen",
+    "natekenen kleuters",
+    "natekenen pinterest",
+    "overtrekken",
+    "overtrekken app",
+    "overtrekken bed",
+    "overtrekken engels",
+    "overtrekken in illustrator",
+    "overtrekken kleuters",
+    "overtrekken tekenen",
+    "overtrekken tekenen app",
+    "overtrekken tekenen kind",
+    "overtrekken vanaf telefoon",
+    "overtrekkende ganzen",
+    "stippellijn tekening",
+    "tekenen",
+    "tekenen in word",
+    "tekenen makkelijk",
+    "tekenencefalitis",
+    "tekening overtrekken",
+    "tekening overtrekken app",
+    "tekening overtrekken engels",
+    "tekening overtrekken illustrator",
+    "tekening overtrekken ipad",
+    "tekening overtrekken kind",
+    "tekening overtrekken op canvas",
+    "tekening overtrekken op hout",
+    "tekening overtrekken op papier",
+    "tekening overtrekken op porselein",
+    "vormen overtrekken kleuters",
+    "werkblad overtrekken"
+   ]
+  },
+  "trace-and-color": {
+   "heads": [
+    "overtrekken en kleuren",
+    "natekenen en inkleuren"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 1,
+   "suggestions": [
+    "overtrekken kleuren"
+   ]
+  },
+  "early-years-tracing": {
+   "heads": [
+    "fijne motoriek kleuters",
+    "schrijfpatronen kleuters",
+    "overtrekken peuters"
+   ],
+   "requests": 21,
+   "productiveSeeds": 5,
+   "unique": 22,
+   "suggestions": [
+    "fijne motoriek activiteiten kleuters",
+    "fijne motoriek kleuters",
+    "fijne motoriek kleuters boek",
+    "fijne motoriek kleuters herfst",
+    "fijne motoriek kleuters knippen",
+    "fijne motoriek kleuters lente",
+    "fijne motoriek kleuters oefenen",
+    "fijne motoriek kleuters speelgoed",
+    "fijne motoriek kleuters winter",
+    "fijne motoriek werkblad kleuters",
+    "leerlijn fijne motoriek kleuters",
+    "lijnen overtrekken peuters",
+    "schrijfpatronen kleuters",
+    "schrijfpatronen kleuters boerderij",
+    "schrijfpatronen kleuters dieren",
+    "schrijfpatronen kleuters herfst",
+    "schrijfpatronen kleuters lente",
+    "schrijfpatronen kleuters namen",
+    "schrijfpatronen kleuters sinterklaas",
+    "schrijfpatronen kleuters werkblad",
+    "schrijfpatronen kleuters winter",
+    "schrijfpatronen kleuters zomer"
+   ]
+  },
+  "themed-tracing": {
+   "heads": [
+    "overtrekken dieren",
+    "overtrekken kerst",
+    "overtrekken herfst"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 5,
+   "suggestions": [
+    "dieren overtrekken",
+    "herfstbladeren overtrekken",
+    "kerst overtrekken",
+    "kerstboom overtrekken",
+    "kerstman overtrekken"
+   ]
+  }
+ },
+ "suggestions": {
+  "overtrekken": {
+   "candidate": "picture-tracing",
+   "s": [
+    "overtrekken",
+    "overtrekken tekenen",
+    "overtrekken tekenen kind",
+    "overtrekken bed",
+    "overtrekken engels",
+    "overtrekken tekenen app",
+    "overtrekken in illustrator",
+    "overtrekken app",
+    "overtrekkende ganzen",
+    "overtrekken vanaf telefoon"
+   ]
+  },
+  "overtrekken werkblad": {
+   "candidate": "picture-tracing",
+   "s": [
+    "werkblad overtrekken",
+    "cijfers overtrekken werkbladen",
+    "lijnen overtrekken werkblad",
+    "letters overtrekken werkblad"
+   ]
+  },
+  "overtrekken kleuters": {
+   "candidate": "picture-tracing",
+   "s": [
+    "overtrekken kleuters",
+    "letters overtrekken kleuters",
+    "lijnen overtrekken kleuters",
+    "cijfers overtrekken kleuters",
+    "vormen overtrekken kleuters"
+   ]
+  },
+  "overtrekken groep 3": {
+   "candidate": "picture-tracing",
+   "s": [
+    "letters overtrekken groep 3"
+   ]
+  },
+  "tekening overtrekken": {
+   "candidate": "picture-tracing",
+   "s": [
+    "tekening overtrekken",
+    "tekening overtrekken op papier",
+    "tekening overtrekken op canvas",
+    "tekening overtrekken op hout",
+    "tekening overtrekken illustrator",
+    "tekening overtrekken ipad",
+    "tekening overtrekken app",
+    "tekening overtrekken engels",
+    "tekening overtrekken op porselein",
+    "tekening overtrekken kind"
+   ]
+  },
+  "stippellijn tekening": {
+   "candidate": "picture-tracing",
+   "s": [
+    "stippellijn tekening",
+    "kozijn tekening stippellijn"
+   ]
+  },
+  "natekenen": {
+   "candidate": "picture-tracing",
+   "s": [
+    "tekenen",
+    "natekenen kinderen",
+    "natekenen pinterest",
+    "tekenencefalitis",
+    "tekenen makkelijk",
+    "natekenen boek",
+    "natekenen dieren",
+    "tekenen in word",
+    "natekenen kawaii",
+    "natekenen engels"
+   ]
+  },
+  "natekenen kleuters": {
+   "candidate": "picture-tracing",
+   "s": [
+    "natekenen kleuters",
+    "figuren natekenen kleuters"
+   ]
+  },
+  "natekenen groep 3": {
+   "candidate": "picture-tracing",
+   "s": [
+    "natekenen groep 3"
+   ]
+  },
+  "overtrekken en kleuren": {
+   "candidate": "trace-and-color",
+   "s": [
+    "overtrekken kleuren"
+   ]
+  },
+  "fijne motoriek kleuters": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "fijne motoriek kleuters",
+    "fijne motoriek kleuters oefenen",
+    "fijne motoriek kleuters boek",
+    "fijne motoriek kleuters herfst",
+    "fijne motoriek kleuters winter",
+    "fijne motoriek kleuters lente",
+    "fijne motoriek kleuters knippen",
+    "fijne motoriek kleuters speelgoed",
+    "leerlijn fijne motoriek kleuters",
+    "fijne motoriek activiteiten kleuters"
+   ]
+  },
+  "fijne motoriek kleuters werkblad": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "fijne motoriek werkblad kleuters"
+   ]
+  },
+  "schrijfpatronen kleuters": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "schrijfpatronen kleuters",
+    "schrijfpatronen kleuters zomer",
+    "schrijfpatronen kleuters herfst",
+    "schrijfpatronen kleuters lente",
+    "schrijfpatronen kleuters winter",
+    "schrijfpatronen kleuters sinterklaas",
+    "schrijfpatronen kleuters werkblad",
+    "schrijfpatronen kleuters dieren",
+    "schrijfpatronen kleuters boerderij",
+    "schrijfpatronen kleuters namen"
+   ]
+  },
+  "schrijfpatronen kleuters werkblad": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "schrijfpatronen kleuters werkblad"
+   ]
+  },
+  "overtrekken peuters": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "lijnen overtrekken peuters"
+   ]
+  },
+  "overtrekken dieren": {
+   "candidate": "themed-tracing",
+   "s": [
+    "dieren overtrekken"
+   ]
+  },
+  "overtrekken kerst": {
+   "candidate": "themed-tracing",
+   "s": [
+    "kerstboom overtrekken",
+    "kerst overtrekken",
+    "kerstman overtrekken"
+   ]
+  },
+  "overtrekken herfst": {
+   "candidate": "themed-tracing",
+   "s": [
+    "herfstbladeren overtrekken"
+   ]
+  }
+ }
+}

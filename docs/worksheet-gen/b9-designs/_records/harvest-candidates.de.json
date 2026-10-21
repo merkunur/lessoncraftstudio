@@ -1,0 +1,298 @@
+{
+ "locale": "de",
+ "market": {
+  "hl": "de",
+  "gl": "de"
+ },
+ "generatedAt": "2026-10-21T21:45:54.003Z",
+ "seedFile": "docs/worksheet-gen/b9-designs/_records/candidate-seeds.json",
+ "requestCount": 98,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "picture-tracing": {
+   "heads": [
+    "bilder nachspuren",
+    "nachspuren",
+    "bilder nachzeichnen",
+    "nachspuren vorlagen",
+    "nachfahren bilder"
+   ],
+   "requests": 35,
+   "productiveSeeds": 10,
+   "unique": 50,
+   "suggestions": [
+    "arbeitsblatt nachspuren 1. klasse",
+    "bilder nachspuren",
+    "bilder nachzeichnen",
+    "bilder nachzeichnen app",
+    "bilder nachzeichnen bleistift",
+    "bilder nachzeichnen cricut",
+    "bilder nachzeichnen für kinder",
+    "bilder nachzeichnen illustrator",
+    "bilder nachzeichnen kinder",
+    "bilder nachzeichnen lassen",
+    "bilder nachzeichnen leicht",
+    "bilder nachzeichnen online",
+    "buchstaben nachspuren arbeitsblatt",
+    "buchstaben nachspuren klasse 1",
+    "buchstaben nachspuren zum ausdrucken",
+    "buchstaben nachspuren zum ausdrucken kostenlos",
+    "formen nachspuren arbeitsblatt",
+    "formen nachspuren grundschule",
+    "formen nachspuren klasse 1",
+    "hefte zum nachspuren grundschule",
+    "linien nachspuren grundschule",
+    "m nachspuren arbeitsblatt",
+    "nachfahren bilder",
+    "nachspuren",
+    "nachspuren 2. klasse",
+    "nachspuren arbeitsblatt",
+    "nachspuren arbeitsblatt kostenlos",
+    "nachspuren arbeitsblätter kostenlos",
+    "nachspuren buchstaben",
+    "nachspuren buchstaben grundschrift",
+    "nachspuren grundschule",
+    "nachspuren grundschule buchstaben",
+    "nachspuren grundschule kostenlos",
+    "nachspuren grundschule pdf",
+    "nachspuren klasse 1",
+    "nachspuren vorlagen",
+    "nachspuren vorlagen kostenlos",
+    "nachspuren vorschule",
+    "nachspuren vorschule pdf",
+    "nachspuren zahlen",
+    "nachspuren zum ausdrucken",
+    "wege nachspuren grundschule",
+    "wörter nachspuren 1 klasse",
+    "wörter nachspuren zum ausdrucken",
+    "zahlen nachfahren bilder",
+    "zahlen nachspuren bilder",
+    "zahlen nachspuren grundschule",
+    "zahlen nachspuren zum ausdrucken",
+    "ziffern nachspuren arbeitsblatt",
+    "ziffern nachspuren klasse 1"
+   ]
+  },
+  "trace-and-color": {
+   "heads": [
+    "nachspuren und ausmalen",
+    "nachzeichnen und ausmalen"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 1,
+   "suggestions": [
+    "nachspuren und ausmalen"
+   ]
+  },
+  "early-years-tracing": {
+   "heads": [
+    "nachspuren kindergarten",
+    "nachspuren vorschule",
+    "feinmotorik nachspuren",
+    "schwungübungen bilder"
+   ],
+   "requests": 28,
+   "productiveSeeds": 4,
+   "unique": 14,
+   "suggestions": [
+    "buchstaben nachspuren kindergarten",
+    "buchstaben nachspuren vorschule",
+    "feinmotorik nachspuren",
+    "formen nachspuren kindergarten",
+    "formen nachspuren vorschule",
+    "linien nachspuren vorschule",
+    "nachspuren kindergarten",
+    "nachspuren vorschule",
+    "nachspuren vorschule herbst",
+    "nachspuren vorschule kostenlos",
+    "nachspuren vorschule pdf",
+    "schwungübungen bilder",
+    "zahlen nachspuren kindergarten",
+    "zahlen nachspuren vorschule"
+   ]
+  },
+  "themed-tracing": {
+   "heads": [
+    "tiere nachspuren",
+    "weihnachten nachspuren",
+    "herbst nachspuren"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 4,
+   "suggestions": [
+    "herbst nachspuren",
+    "nachspuren weihnachten kostenlos",
+    "tiere nachspuren",
+    "weihnachten nachspuren"
+   ]
+  }
+ },
+ "suggestions": {
+  "bilder nachspuren": {
+   "candidate": "picture-tracing",
+   "s": [
+    "bilder nachspuren",
+    "zahlen nachspuren bilder"
+   ]
+  },
+  "nachspuren": {
+   "candidate": "picture-tracing",
+   "s": [
+    "nachspuren",
+    "nachspuren vorschule",
+    "nachspuren klasse 1",
+    "nachspuren buchstaben",
+    "nachspuren grundschule",
+    "nachspuren arbeitsblätter kostenlos",
+    "nachspuren arbeitsblatt",
+    "nachspuren vorschule pdf",
+    "nachspuren buchstaben grundschrift",
+    "nachspuren zahlen"
+   ]
+  },
+  "nachspuren arbeitsblatt": {
+   "candidate": "picture-tracing",
+   "s": [
+    "nachspuren arbeitsblatt",
+    "nachspuren arbeitsblatt kostenlos",
+    "arbeitsblatt nachspuren 1. klasse",
+    "buchstaben nachspuren arbeitsblatt",
+    "ziffern nachspuren arbeitsblatt",
+    "m nachspuren arbeitsblatt",
+    "formen nachspuren arbeitsblatt"
+   ]
+  },
+  "nachspuren zum ausdrucken": {
+   "candidate": "picture-tracing",
+   "s": [
+    "nachspuren zum ausdrucken",
+    "buchstaben nachspuren zum ausdrucken",
+    "zahlen nachspuren zum ausdrucken",
+    "buchstaben nachspuren zum ausdrucken kostenlos",
+    "wörter nachspuren zum ausdrucken"
+   ]
+  },
+  "nachspuren grundschule": {
+   "candidate": "picture-tracing",
+   "s": [
+    "nachspuren grundschule",
+    "nachspuren grundschule kostenlos",
+    "nachspuren grundschule pdf",
+    "nachspuren grundschule buchstaben",
+    "linien nachspuren grundschule",
+    "zahlen nachspuren grundschule",
+    "formen nachspuren grundschule",
+    "wege nachspuren grundschule",
+    "hefte zum nachspuren grundschule"
+   ]
+  },
+  "nachspuren klasse 1": {
+   "candidate": "picture-tracing",
+   "s": [
+    "nachspuren klasse 1",
+    "ziffern nachspuren klasse 1",
+    "buchstaben nachspuren klasse 1",
+    "formen nachspuren klasse 1",
+    "wörter nachspuren 1 klasse",
+    "arbeitsblatt nachspuren 1. klasse"
+   ]
+  },
+  "nachspuren klasse 2": {
+   "candidate": "picture-tracing",
+   "s": [
+    "nachspuren 2. klasse"
+   ]
+  },
+  "bilder nachzeichnen": {
+   "candidate": "picture-tracing",
+   "s": [
+    "bilder nachzeichnen",
+    "bilder nachzeichnen leicht",
+    "bilder nachzeichnen kinder",
+    "bilder nachzeichnen für kinder",
+    "bilder nachzeichnen app",
+    "bilder nachzeichnen lassen",
+    "bilder nachzeichnen illustrator",
+    "bilder nachzeichnen online",
+    "bilder nachzeichnen cricut",
+    "bilder nachzeichnen bleistift"
+   ]
+  },
+  "nachspuren vorlagen": {
+   "candidate": "picture-tracing",
+   "s": [
+    "nachspuren vorlagen kostenlos",
+    "nachspuren vorlagen"
+   ]
+  },
+  "nachfahren bilder": {
+   "candidate": "picture-tracing",
+   "s": [
+    "nachfahren bilder",
+    "zahlen nachfahren bilder"
+   ]
+  },
+  "nachspuren und ausmalen": {
+   "candidate": "trace-and-color",
+   "s": [
+    "nachspuren und ausmalen"
+   ]
+  },
+  "nachspuren kindergarten": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "nachspuren kindergarten",
+    "formen nachspuren kindergarten",
+    "zahlen nachspuren kindergarten",
+    "buchstaben nachspuren kindergarten"
+   ]
+  },
+  "nachspuren vorschule": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "nachspuren vorschule",
+    "nachspuren vorschule pdf",
+    "nachspuren vorschule kostenlos",
+    "nachspuren vorschule herbst",
+    "linien nachspuren vorschule",
+    "zahlen nachspuren vorschule",
+    "buchstaben nachspuren vorschule",
+    "formen nachspuren vorschule"
+   ]
+  },
+  "feinmotorik nachspuren": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "feinmotorik nachspuren"
+   ]
+  },
+  "schwungübungen bilder": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "schwungübungen bilder"
+   ]
+  },
+  "tiere nachspuren": {
+   "candidate": "themed-tracing",
+   "s": [
+    "tiere nachspuren"
+   ]
+  },
+  "weihnachten nachspuren": {
+   "candidate": "themed-tracing",
+   "s": [
+    "weihnachten nachspuren",
+    "nachspuren weihnachten kostenlos"
+   ]
+  },
+  "herbst nachspuren": {
+   "candidate": "themed-tracing",
+   "s": [
+    "herbst nachspuren"
+   ]
+  }
+ }
+}

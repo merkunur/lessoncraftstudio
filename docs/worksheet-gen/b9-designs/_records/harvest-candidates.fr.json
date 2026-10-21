@@ -1,0 +1,702 @@
+{
+ "locale": "fr",
+ "market": {
+  "hl": "fr",
+  "gl": "fr"
+ },
+ "generatedAt": "2026-10-21T21:46:16.989Z",
+ "seedFile": "docs/worksheet-gen/b9-designs/_records/candidate-seeds.json",
+ "requestCount": 98,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "picture-tracing": {
+   "heads": [
+    "repasser les pointillés",
+    "dessin à repasser",
+    "repasse le dessin",
+    "graphisme pointillés",
+    "suivre les pointillés"
+   ],
+   "requests": 35,
+   "productiveSeeds": 10,
+   "unique": 35,
+   "suggestions": [
+    "a suivre selon les pointillés",
+    "dessin fer à repasser",
+    "dessin fer à repasser facile",
+    "dessin fer à repasser humoristique",
+    "dessin perle à repasser",
+    "dessin perle à repasser facile",
+    "dessin perle à repasser stitch",
+    "dessin repasser sur les pointillés",
+    "dessin suivre les pointillés",
+    "dessin table à repasser",
+    "dessin à repasser",
+    "dessin à repasser maternelle",
+    "exercice suivre les pointillés",
+    "graphisme maternelle repasser pointillés",
+    "graphisme pointillés",
+    "graphisme pointillés maternelle",
+    "graphisme pointillés moyenne section",
+    "graphisme pointillés ms",
+    "graphisme pointillés ps",
+    "graphisme repasser sur les pointillés",
+    "image à repasser",
+    "repasse les pointillés",
+    "repasser les pointillés",
+    "repasser les pointillés maternelle",
+    "repasser sur les pointillés cp",
+    "repasser sur les pointillés gs",
+    "repasser sur les pointillés maternelle",
+    "repasser sur les pointillés ms",
+    "repasser sur les pointillés petite section",
+    "repasser sur les pointillés ps",
+    "suivre les pointillés",
+    "suivre les pointillés en 8 lettres",
+    "suivre les pointillés en maternelle",
+    "suivre les pointillés mots fléchés",
+    "suivre les pointillés netflix"
+   ]
+  },
+  "trace-and-color": {
+   "heads": [
+    "repasse et colorie",
+    "repasser et colorier"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 2,
+   "suggestions": [
+    "je repasse et je colorie",
+    "je repasse et je colorie بالعربية"
+   ]
+  },
+  "early-years-tracing": {
+   "heads": [
+    "graphisme maternelle",
+    "graphisme petite section",
+    "graphisme moyenne section",
+    "pointillés maternelle"
+   ],
+   "requests": 28,
+   "productiveSeeds": 15,
+   "unique": 99,
+   "suggestions": [
+    "activités graphisme petite section à imprimer",
+    "cahier graphisme maternelle à imprimer",
+    "chiffre en pointillé maternelle à imprimer",
+    "chiffres pointillés maternelle",
+    "dessin pointillé maternelle à imprimer",
+    "dessin pointillé maternelle à imprimer gratuit",
+    "dessin pointillés maternelle",
+    "exercice graphique petite section maternelle",
+    "exercice graphisme grande section maternelle",
+    "exercice graphisme grande section maternelle gratuit à imprimer",
+    "exercice écriture grande section maternelle gratuit à imprimer pdf",
+    "fiche graphisme maternelle ms",
+    "fiche graphisme maternelle pdf",
+    "fiche graphisme maternelle ps",
+    "fiche graphisme maternelle à imprimer",
+    "fiche graphisme maternelle à imprimer pdf",
+    "fiche graphisme moyenne section imprimer",
+    "fiche graphisme moyenne section pdf",
+    "fiche graphisme petite section a imprimer",
+    "fiche graphisme petite section pdf",
+    "fiche graphisme ponts moyenne section",
+    "fiche graphisme rond moyenne section",
+    "fiche maternelle graphisme moyenne section",
+    "fiche pointillés maternelle",
+    "graphisme exercice maternelle petite section",
+    "graphisme exercices grande section maternelle pdf",
+    "graphisme exercices petite section maternelle pdf",
+    "graphisme fiche maternelle petite section a imprimer",
+    "graphisme grande section cp",
+    "graphisme grande section fiche",
+    "graphisme grande section maternelle",
+    "graphisme grande section maternelle a imprimer",
+    "graphisme grande section à imprimer",
+    "graphisme grande section à imprimer pdf",
+    "graphisme maternelle",
+    "graphisme maternelle fiche",
+    "graphisme maternelle grande section",
+    "graphisme maternelle moyenne section",
+    "graphisme maternelle moyenne section pdf",
+    "graphisme maternelle moyenne section à imprimer",
+    "graphisme maternelle pdf",
+    "graphisme maternelle pdf gratuit",
+    "graphisme maternelle petite section",
+    "graphisme maternelle petite section a imprimer",
+    "graphisme maternelle petite section pdf",
+    "graphisme maternelle ps",
+    "graphisme maternelle à imprimer",
+    "graphisme maternelle à imprimer gratuit",
+    "graphisme maternelle à imprimer gratuit pdf",
+    "graphisme maternelle à imprimer pdf",
+    "graphisme maternelle à imprimer petite section",
+    "graphisme moyenne section",
+    "graphisme moyenne section fiche",
+    "graphisme moyenne section lignes verticales",
+    "graphisme moyenne section maternelle",
+    "graphisme moyenne section pdf",
+    "graphisme moyenne section pdf gratuit",
+    "graphisme moyenne section progression",
+    "graphisme moyenne section période 1",
+    "graphisme moyenne section septembre",
+    "graphisme moyenne section à imprimer",
+    "graphisme moyenne section à imprimer gratuit",
+    "graphisme petite section",
+    "graphisme petite section fiche",
+    "graphisme petite section gratuit",
+    "graphisme petite section maternelle",
+    "graphisme petite section pdf",
+    "graphisme petite section pdf gratuit",
+    "graphisme petite section progression",
+    "graphisme petite section période 1",
+    "graphisme petite section période 3",
+    "graphisme petite section période 5",
+    "graphisme petite section à imprimer",
+    "graphisme pointillés maternelle",
+    "graphisme rond petite section maternelle",
+    "graphisme toute petite section maternelle",
+    "lettre en pointillé maternelle à imprimer",
+    "lettre en pointillé maternelle à imprimer gratuit",
+    "lettres pointillés maternelle",
+    "pointillisme maternelle gs",
+    "pointillisme maternelle ms",
+    "pointillé maternelle pdf",
+    "pointillés maternelle",
+    "police pointillés maternelle",
+    "ressources maternelle graphisme fiche maternelle",
+    "écriture enfant à imprimer",
+    "écriture fiche maternelle",
+    "écriture grande section / cp",
+    "écriture grande section maternelle",
+    "écriture grande section à imprimer pdf",
+    "écriture grande section à imprimer pdf gratuit",
+    "écriture maternelle à imprimer",
+    "écriture moyenne section à imprimer",
+    "écriture moyenne section à imprimer gratuit",
+    "écriture moyenne section à imprimer pdf",
+    "écriture moyenne section à imprimer pdf gratuit",
+    "écriture petite section à imprimer",
+    "écriture petite section à imprimer pdf",
+    "écriture pointillés maternelle"
+   ]
+  },
+  "themed-tracing": {
+   "heads": [
+    "graphisme noël",
+    "graphisme animaux",
+    "graphisme automne"
+   ],
+   "requests": 21,
+   "productiveSeeds": 16,
+   "unique": 61,
+   "suggestions": [
+    "activité automne maternelle",
+    "activité automne maternelle gs",
+    "activité automne maternelle ms",
+    "activité automne maternelle pdf",
+    "activité automne maternelle pinterest",
+    "activité automne maternelle ps",
+    "activité automne maternelle à imprimer",
+    "activité graphisme noel maternelle",
+    "design animaux",
+    "fiche graphisme animaux",
+    "fiche graphisme automne",
+    "fiche graphisme automne gs",
+    "fiche graphisme automne ms",
+    "fiche graphisme noel",
+    "fiche graphisme noel gs",
+    "fiche graphisme noel maternelle",
+    "fiche graphisme noel ms",
+    "graphisme animaux",
+    "graphisme animaux cp",
+    "graphisme animaux d afrique maternelle",
+    "graphisme animaux de la ferme",
+    "graphisme animaux de la savane",
+    "graphisme animaux marins maternelle",
+    "graphisme animaux maternelle",
+    "graphisme animaux savane maternelle",
+    "graphisme automne",
+    "graphisme automne ce1",
+    "graphisme automne cp",
+    "graphisme automne cp ce1",
+    "graphisme automne gs",
+    "graphisme automne maternelle",
+    "graphisme automne maternelle ms",
+    "graphisme automne moyenne section",
+    "graphisme automne ms",
+    "graphisme automne ms gs",
+    "graphisme automne ps",
+    "graphisme automne ps ms",
+    "graphisme automne à imprimer",
+    "graphisme boule de noel cp",
+    "graphisme boule noel maternelle",
+    "graphisme décoratif noel maternelle",
+    "graphisme feuille automne cp",
+    "graphisme maternelle animaux de la ferme",
+    "graphisme noel boule",
+    "graphisme noel ce1",
+    "graphisme noel ce2",
+    "graphisme noel cp",
+    "graphisme noel gs cp",
+    "graphisme noel maternelle",
+    "graphisme noel maternelle gs",
+    "graphisme noel maternelle ms",
+    "graphisme noel maternelle ps",
+    "graphisme noel moyenne section",
+    "graphisme noel ps",
+    "graphisme noël",
+    "graphisme noël gs",
+    "graphisme noël maternelle",
+    "graphisme noël ms",
+    "graphisme pere noel maternelle",
+    "graphisme sapin de noel maternelle",
+    "thème automne maternelle"
+   ]
+  }
+ },
+ "suggestions": {
+  "repasser les pointillés": {
+   "candidate": "picture-tracing",
+   "s": [
+    "repasser les pointillés maternelle",
+    "repasser les pointillés",
+    "repasse les pointillés",
+    "repasser sur les pointillés petite section",
+    "repasser sur les pointillés ms",
+    "repasser sur les pointillés ps",
+    "repasser sur les pointillés gs",
+    "repasser sur les pointillés cp",
+    "graphisme repasser sur les pointillés",
+    "dessin repasser sur les pointillés"
+   ]
+  },
+  "repasser les pointillés maternelle": {
+   "candidate": "picture-tracing",
+   "s": [
+    "repasser les pointillés maternelle"
+   ]
+  },
+  "repasser les pointillés cp": {
+   "candidate": "picture-tracing",
+   "s": [
+    "repasser sur les pointillés cp"
+   ]
+  },
+  "dessin à repasser": {
+   "candidate": "picture-tracing",
+   "s": [
+    "dessin à repasser",
+    "dessin à repasser maternelle",
+    "image à repasser",
+    "dessin fer à repasser",
+    "dessin fer à repasser facile",
+    "dessin perle à repasser",
+    "dessin fer à repasser humoristique",
+    "dessin perle à repasser facile",
+    "dessin table à repasser",
+    "dessin perle à repasser stitch"
+   ]
+  },
+  "dessin à repasser maternelle": {
+   "candidate": "picture-tracing",
+   "s": [
+    "dessin à repasser maternelle"
+   ]
+  },
+  "graphisme pointillés": {
+   "candidate": "picture-tracing",
+   "s": [
+    "graphisme pointillés maternelle",
+    "graphisme pointillés",
+    "graphisme pointillés ps",
+    "graphisme pointillés moyenne section",
+    "graphisme pointillés ms",
+    "graphisme maternelle repasser pointillés"
+   ]
+  },
+  "graphisme pointillés maternelle": {
+   "candidate": "picture-tracing",
+   "s": [
+    "graphisme pointillés maternelle"
+   ]
+  },
+  "suivre les pointillés": {
+   "candidate": "picture-tracing",
+   "s": [
+    "suivre les pointillés",
+    "suivre les pointillés en maternelle",
+    "suivre les pointillés netflix",
+    "suivre les pointillés mots fléchés",
+    "suivre les pointillés en 8 lettres",
+    "dessin suivre les pointillés",
+    "exercice suivre les pointillés",
+    "a suivre selon les pointillés"
+   ]
+  },
+  "suivre les pointillés maternelle": {
+   "candidate": "picture-tracing",
+   "s": [
+    "repasser sur les pointillés maternelle",
+    "suivre les pointillés en maternelle"
+   ]
+  },
+  "suivre les pointillés cp": {
+   "candidate": "picture-tracing",
+   "s": [
+    "repasser sur les pointillés cp"
+   ]
+  },
+  "repasse et colorie": {
+   "candidate": "trace-and-color",
+   "s": [
+    "je repasse et je colorie",
+    "je repasse et je colorie بالعربية"
+   ]
+  },
+  "graphisme maternelle": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "graphisme maternelle",
+    "graphisme maternelle grande section",
+    "graphisme maternelle à imprimer",
+    "graphisme maternelle à imprimer gratuit pdf",
+    "graphisme maternelle pdf gratuit",
+    "graphisme maternelle moyenne section",
+    "graphisme maternelle petite section",
+    "graphisme maternelle petite section pdf",
+    "graphisme maternelle ps",
+    "graphisme maternelle pdf"
+   ]
+  },
+  "graphisme maternelle fiche": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "graphisme maternelle fiche",
+    "graphisme fiche maternelle petite section a imprimer",
+    "écriture fiche maternelle",
+    "fiche graphisme maternelle pdf",
+    "fiche graphisme maternelle à imprimer",
+    "fiche graphisme maternelle ps",
+    "fiche graphisme maternelle à imprimer pdf",
+    "fiche graphisme maternelle ms",
+    "ressources maternelle graphisme fiche maternelle"
+   ]
+  },
+  "graphisme maternelle à imprimer": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "graphisme maternelle à imprimer",
+    "graphisme maternelle à imprimer gratuit pdf",
+    "graphisme maternelle à imprimer gratuit",
+    "graphisme maternelle à imprimer pdf",
+    "graphisme maternelle à imprimer petite section",
+    "écriture maternelle à imprimer",
+    "écriture enfant à imprimer",
+    "fiche graphisme maternelle à imprimer",
+    "cahier graphisme maternelle à imprimer",
+    "fiche graphisme maternelle à imprimer pdf"
+   ]
+  },
+  "graphisme petite section": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "graphisme petite section",
+    "graphisme petite section pdf gratuit",
+    "graphisme petite section à imprimer",
+    "graphisme petite section pdf",
+    "graphisme petite section progression",
+    "graphisme petite section gratuit",
+    "graphisme petite section période 1",
+    "graphisme petite section maternelle",
+    "graphisme petite section période 5",
+    "graphisme petite section période 3"
+   ]
+  },
+  "graphisme petite section fiche": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "graphisme petite section fiche",
+    "graphisme moyenne section fiche",
+    "fiche graphisme petite section a imprimer",
+    "fiche graphisme petite section pdf",
+    "graphisme fiche maternelle petite section a imprimer"
+   ]
+  },
+  "graphisme petite section à imprimer": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "graphisme petite section à imprimer",
+    "écriture petite section à imprimer",
+    "écriture petite section à imprimer pdf",
+    "graphisme moyenne section à imprimer",
+    "graphisme moyenne section à imprimer gratuit",
+    "écriture moyenne section à imprimer pdf",
+    "écriture moyenne section à imprimer",
+    "écriture moyenne section à imprimer pdf gratuit",
+    "écriture moyenne section à imprimer gratuit",
+    "activités graphisme petite section à imprimer"
+   ]
+  },
+  "graphisme petite section maternelle": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "graphisme petite section maternelle",
+    "graphisme rond petite section maternelle",
+    "graphisme exercices petite section maternelle pdf",
+    "graphisme toute petite section maternelle",
+    "exercice graphique petite section maternelle",
+    "graphisme maternelle petite section pdf",
+    "graphisme maternelle petite section a imprimer",
+    "graphisme fiche maternelle petite section a imprimer",
+    "graphisme exercice maternelle petite section"
+   ]
+  },
+  "graphisme moyenne section": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "graphisme moyenne section",
+    "graphisme moyenne section pdf",
+    "graphisme moyenne section pdf gratuit",
+    "graphisme moyenne section lignes verticales",
+    "graphisme moyenne section à imprimer",
+    "graphisme moyenne section période 1",
+    "graphisme moyenne section progression",
+    "graphisme moyenne section maternelle",
+    "graphisme moyenne section septembre",
+    "graphisme moyenne section fiche"
+   ]
+  },
+  "graphisme moyenne section fiche": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "graphisme moyenne section fiche",
+    "graphisme grande section fiche",
+    "fiche graphisme moyenne section pdf",
+    "fiche graphisme moyenne section imprimer",
+    "fiche maternelle graphisme moyenne section",
+    "fiche graphisme rond moyenne section",
+    "fiche graphisme ponts moyenne section"
+   ]
+  },
+  "graphisme moyenne section à imprimer": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "graphisme moyenne section à imprimer",
+    "graphisme moyenne section à imprimer gratuit",
+    "écriture moyenne section à imprimer pdf",
+    "écriture moyenne section à imprimer",
+    "écriture moyenne section à imprimer pdf gratuit",
+    "écriture moyenne section à imprimer gratuit",
+    "graphisme grande section à imprimer",
+    "graphisme grande section à imprimer pdf",
+    "écriture grande section à imprimer pdf",
+    "écriture grande section à imprimer pdf gratuit"
+   ]
+  },
+  "graphisme moyenne section maternelle": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "graphisme moyenne section maternelle",
+    "graphisme grande section maternelle",
+    "graphisme grande section maternelle a imprimer",
+    "écriture grande section maternelle",
+    "exercice graphisme grande section maternelle gratuit à imprimer",
+    "exercice graphisme grande section maternelle",
+    "graphisme exercices grande section maternelle pdf",
+    "exercice écriture grande section maternelle gratuit à imprimer pdf",
+    "graphisme maternelle moyenne section pdf",
+    "graphisme maternelle moyenne section à imprimer"
+   ]
+  },
+  "graphisme moyenne section cp": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "graphisme grande section cp",
+    "écriture grande section / cp"
+   ]
+  },
+  "pointillés maternelle": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "pointillés maternelle",
+    "pointillisme maternelle gs",
+    "pointillisme maternelle ms",
+    "pointillé maternelle pdf",
+    "lettres pointillés maternelle",
+    "dessin pointillés maternelle",
+    "police pointillés maternelle",
+    "chiffres pointillés maternelle",
+    "écriture pointillés maternelle",
+    "graphisme pointillés maternelle"
+   ]
+  },
+  "pointillés maternelle fiche": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "fiche pointillés maternelle"
+   ]
+  },
+  "pointillés maternelle à imprimer": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "dessin pointillé maternelle à imprimer",
+    "dessin pointillé maternelle à imprimer gratuit",
+    "lettre en pointillé maternelle à imprimer",
+    "lettre en pointillé maternelle à imprimer gratuit",
+    "chiffre en pointillé maternelle à imprimer"
+   ]
+  },
+  "graphisme noël": {
+   "candidate": "themed-tracing",
+   "s": [
+    "graphisme noël gs",
+    "graphisme noël ms",
+    "graphisme noël",
+    "graphisme noël maternelle",
+    "graphisme noel ps",
+    "graphisme noel cp",
+    "graphisme noel moyenne section",
+    "graphisme noel boule"
+   ]
+  },
+  "graphisme noël fiche": {
+   "candidate": "themed-tracing",
+   "s": [
+    "fiche graphisme noel",
+    "fiche graphisme noel gs",
+    "fiche graphisme noel maternelle",
+    "fiche graphisme noel ms"
+   ]
+  },
+  "graphisme noël maternelle": {
+   "candidate": "themed-tracing",
+   "s": [
+    "graphisme noel maternelle",
+    "graphisme noel maternelle gs",
+    "graphisme noel maternelle ms",
+    "graphisme noel maternelle ps",
+    "graphisme pere noel maternelle",
+    "activité graphisme noel maternelle",
+    "graphisme boule noel maternelle",
+    "fiche graphisme noel maternelle",
+    "graphisme décoratif noel maternelle",
+    "graphisme sapin de noel maternelle"
+   ]
+  },
+  "graphisme noël cp": {
+   "candidate": "themed-tracing",
+   "s": [
+    "graphisme noel cp",
+    "graphisme noel gs cp",
+    "graphisme boule de noel cp"
+   ]
+  },
+  "graphisme noël ce1": {
+   "candidate": "themed-tracing",
+   "s": [
+    "graphisme noel ce1"
+   ]
+  },
+  "graphisme noël ce2": {
+   "candidate": "themed-tracing",
+   "s": [
+    "graphisme noel ce2"
+   ]
+  },
+  "graphisme animaux": {
+   "candidate": "themed-tracing",
+   "s": [
+    "graphisme animaux",
+    "graphisme animaux de la ferme",
+    "graphisme animaux maternelle",
+    "graphisme animaux de la savane",
+    "design animaux"
+   ]
+  },
+  "graphisme animaux fiche": {
+   "candidate": "themed-tracing",
+   "s": [
+    "fiche graphisme animaux"
+   ]
+  },
+  "graphisme animaux maternelle": {
+   "candidate": "themed-tracing",
+   "s": [
+    "graphisme animaux maternelle",
+    "graphisme maternelle animaux de la ferme",
+    "graphisme animaux savane maternelle",
+    "graphisme animaux marins maternelle",
+    "graphisme animaux d afrique maternelle"
+   ]
+  },
+  "graphisme animaux cp": {
+   "candidate": "themed-tracing",
+   "s": [
+    "graphisme animaux cp"
+   ]
+  },
+  "graphisme automne": {
+   "candidate": "themed-tracing",
+   "s": [
+    "graphisme automne",
+    "graphisme automne gs",
+    "graphisme automne ms",
+    "graphisme automne maternelle",
+    "graphisme automne cp",
+    "graphisme automne ps",
+    "graphisme automne moyenne section",
+    "graphisme automne ms gs",
+    "graphisme automne ps ms",
+    "graphisme automne maternelle ms"
+   ]
+  },
+  "graphisme automne fiche": {
+   "candidate": "themed-tracing",
+   "s": [
+    "fiche graphisme automne gs",
+    "fiche graphisme automne",
+    "fiche graphisme automne ms"
+   ]
+  },
+  "graphisme automne à imprimer": {
+   "candidate": "themed-tracing",
+   "s": [
+    "graphisme automne à imprimer"
+   ]
+  },
+  "graphisme automne maternelle": {
+   "candidate": "themed-tracing",
+   "s": [
+    "graphisme automne maternelle",
+    "graphisme automne maternelle ms",
+    "activité automne maternelle",
+    "thème automne maternelle",
+    "activité automne maternelle ps",
+    "activité automne maternelle pdf",
+    "activité automne maternelle ms",
+    "activité automne maternelle gs",
+    "activité automne maternelle pinterest",
+    "activité automne maternelle à imprimer"
+   ]
+  },
+  "graphisme automne cp": {
+   "candidate": "themed-tracing",
+   "s": [
+    "graphisme automne cp",
+    "graphisme automne cp ce1",
+    "graphisme feuille automne cp"
+   ]
+  },
+  "graphisme automne ce1": {
+   "candidate": "themed-tracing",
+   "s": [
+    "graphisme automne ce1",
+    "graphisme automne cp ce1"
+   ]
+  }
+ }
+}

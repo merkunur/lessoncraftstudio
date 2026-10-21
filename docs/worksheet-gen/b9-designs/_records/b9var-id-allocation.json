@@ -1,0 +1,201 @@
+{
+ "generated": "2026-10-21",
+ "next": {
+  "K": 433,
+  "G1": 434,
+  "G2": 394,
+  "G3": 406
+ },
+ "faces": [
+  {
+   "family": "K-418",
+   "key": "picture-tracing",
+   "face": 1,
+   "band": "K",
+   "dir": "k",
+   "id": "K-419",
+   "title": "My First Tracing: The Porthole Whale",
+   "heading": "F2 : My First Tracing: The Porthole Whale (PreK, CODE `mode:'first-tracing'`)"
+  },
+  {
+   "family": "K-418",
+   "key": "picture-tracing",
+   "face": 2,
+   "band": "K",
+   "dir": "k",
+   "id": "K-420",
+   "title": "Look, Then Trace",
+   "heading": "F3 : Look, Then Trace (PreK, CODE `mode:'look-then-trace'`)"
+  },
+  {
+   "family": "K-418",
+   "key": "picture-tracing",
+   "face": 3,
+   "band": "K",
+   "dir": "k",
+   "id": "K-421",
+   "title": "Round and Round: The Marble Run",
+   "heading": "F4 : Round and Round: The Marble Run (PreK, CODE `mode:'round-and-round'`)"
+  },
+  {
+   "family": "K-418",
+   "key": "picture-tracing",
+   "face": 4,
+   "band": "K",
+   "dir": "k",
+   "id": "K-422",
+   "title": "Straight-Line Pictures: Down, Across, Slanted",
+   "heading": "F5 : Straight-Line Pictures: Down, Across, Slanted (K, CODE `mode:'straight-lines'`)"
+  },
+  {
+   "family": "K-418",
+   "key": "picture-tracing",
+   "face": 5,
+   "band": "K",
+   "dir": "k",
+   "id": "K-423",
+   "title": "Zigzags: Storm over the Mountain Camp",
+   "heading": "F6 : Zigzags: Storm over the Mountain Camp (K, CODE `mode:'zigzags'`)"
+  },
+  {
+   "family": "K-418",
+   "key": "picture-tracing",
+   "face": 6,
+   "band": "K",
+   "dir": "k",
+   "id": "K-424",
+   "title": "Curls and Spirals: The Curl Gallery",
+   "heading": "F7 : Curls and Spirals: The Curl Gallery (K, CODE `mode:'curls'`)"
+  },
+  {
+   "family": "K-418",
+   "key": "picture-tracing",
+   "face": 7,
+   "band": "K",
+   "dir": "k",
+   "id": "K-425",
+   "title": "Trace and Color: The Picnic Under the Tree",
+   "heading": "F8 : Trace and Color: The Picnic Under the Tree (K, CODE `mode:'trace-and-color'`)"
+  },
+  {
+   "family": "K-418",
+   "key": "picture-tracing",
+   "face": 8,
+   "band": "K",
+   "dir": "k",
+   "id": "K-426",
+   "title": "Where Do I Start? The Staircase",
+   "heading": "F9 : Where Do I Start? The Staircase (K, CODE `mode:'where-to-start'`)"
+  },
+  {
+   "family": "K-418",
+   "key": "picture-tracing",
+   "face": 9,
+   "band": "K",
+   "dir": "k",
+   "id": "K-427",
+   "title": "Trace and Count: Ducks on the Pond",
+   "heading": "F10 : Trace and Count: Ducks on the Pond (K, CODE `mode:'trace-and-count'`)"
+  },
+  {
+   "family": "K-418",
+   "key": "picture-tracing",
+   "face": 10,
+   "band": "K",
+   "dir": "k",
+   "id": "K-428",
+   "title": "Finish the Picture: The Mending Shelf",
+   "heading": "F11 : Finish the Picture: The Mending Shelf (K, CODE `mode:'finish-the-picture'`)"
+  },
+  {
+   "family": "K-418",
+   "key": "picture-tracing",
+   "face": 11,
+   "band": "K",
+   "dir": "k",
+   "id": "K-429",
+   "title": "Christmas: Close Every Bauble",
+   "heading": "F12 : Christmas: Close Every Bauble (K, CODE `mode:'christmas'`)"
+  },
+  {
+   "family": "K-418",
+   "key": "picture-tracing",
+   "face": 12,
+   "band": "K",
+   "dir": "k",
+   "id": "K-430",
+   "title": "Shape Picture: The Shape Rocket",
+   "heading": "F13 : Shape Picture: The Shape Rocket (K, CODE `mode:'shape-picture'`)"
+  },
+  {
+   "family": "K-418",
+   "key": "picture-tracing",
+   "face": 13,
+   "band": "K",
+   "dir": "k",
+   "id": "K-431",
+   "title": "Summer at the Sea: A Postcard",
+   "heading": "F14 : Summer at the Sea: A Postcard (K, CODE `mode:'summer-sea'`)"
+  },
+  {
+   "family": "K-418",
+   "key": "picture-tracing",
+   "face": 14,
+   "band": "K",
+   "dir": "k",
+   "id": "K-432",
+   "title": "Big, Middle and Small",
+   "heading": "F15 : Big, Middle and Small (K, CODE `mode:'big-middle-small'`)"
+  },
+  {
+   "family": "K-418",
+   "key": "picture-tracing",
+   "face": 15,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-429",
+   "title": "Trace the Dots: Morning on Main Street",
+   "heading": "F16 : Trace the Dots: Morning on Main Street (G1, CODE `mode:'dotted-street'`)"
+  },
+  {
+   "family": "K-418",
+   "key": "picture-tracing",
+   "face": 16,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-430",
+   "title": "Trace the Picture, Say Its Name, Trace the Word",
+   "heading": "F17 : Trace the Picture, Say Its Name, Trace the Word (G1, CODE `mode:'picture-and-word'`)"
+  },
+  {
+   "family": "K-418",
+   "key": "picture-tracing",
+   "face": 17,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-431",
+   "title": "Trace It, Then Draw: The Empty Trailer",
+   "heading": "F18 : Trace It, Then Draw: The Empty Trailer (G1, CODE `mode:'trace-and-draw'`)"
+  },
+  {
+   "family": "K-418",
+   "key": "picture-tracing",
+   "face": 18,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-432",
+   "title": "The Other Half: The Open Book",
+   "heading": "F19 : The Other Half: The Open Book (G1, CODE `mode:'other-half'`)"
+  },
+  {
+   "family": "K-418",
+   "key": "picture-tracing",
+   "face": 19,
+   "band": "G1",
+   "dir": "g1",
+   "id": "G1-433",
+   "title": "Find and Trace the Hidden Animals",
+   "heading": "F20 : Find and Trace the Hidden Animals (G1, CODE `mode:'hidden-animals'`)"
+  }
+ ]
+}

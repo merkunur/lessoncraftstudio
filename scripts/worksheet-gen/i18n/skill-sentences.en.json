@@ -456,5 +456,9 @@
     "full": "Drawing one line through a picture maze, choosing the next letter, number or sum at each fork, builds planning and pencil control; every page has a draw-the-way screen and a key.",
     "short": "Builds planning: draw one way through a picture maze.",
     "levelSetShort": "Builds planning in a picture maze."
+  },
+  "picture-tracing": {
+    "full": "Tracing the dashed lines of a whole picture, one line at a time, builds pencil control, steady strokes and readiness for writing.",
+    "short": "Builds steady pencil control."
   }
 }

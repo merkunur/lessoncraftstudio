@@ -1,0 +1,136 @@
+{
+ "locale": "fi",
+ "market": {
+  "hl": "fi",
+  "gl": "fi"
+ },
+ "generatedAt": "2026-10-21T21:49:13.023Z",
+ "seedFile": "docs/worksheet-gen/b9-designs/_records/candidate-seeds.json",
+ "requestCount": 91,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "picture-tracing": {
+   "heads": [
+    "jäljennä",
+    "jäljennä viivat",
+    "piirrä viivoja pitkin",
+    "pisteistä kuva",
+    "jäljennystehtävä"
+   ],
+   "requests": 35,
+   "productiveSeeds": 1,
+   "unique": 1,
+   "suggestions": [
+    "jäljennä kuvio"
+   ]
+  },
+  "trace-and-color": {
+   "heads": [
+    "jäljennä ja väritä",
+    "piirrä ja väritä"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 2,
+   "suggestions": [
+    "piirrä ja väritä",
+    "piirrä ja väritä ohjeen mukaan"
+   ]
+  },
+  "early-years-tracing": {
+   "heads": [
+    "hienomotoriikka",
+    "esikoulu tehtävät",
+    "kynäharjoitukset"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 12,
+   "suggestions": [
+    "esikoulu tehtävät",
+    "hienomotoriikka",
+    "hienomotoriikka englanniksi",
+    "hienomotoriikka harjoituksia",
+    "hienomotoriikka harjoituksia aikuisille",
+    "hienomotoriikka harjoituksia lapsille",
+    "hienomotoriikka häiriö",
+    "hienomotoriikka ja karkeamotoriikka",
+    "hienomotoriikka lelut",
+    "hienomotoriikka siili",
+    "hienomotoriikka tehtäviä",
+    "hienomotoriikka testi"
+   ]
+  },
+  "themed-tracing": {
+   "heads": [
+    "eläimet tehtävät",
+    "joulu tehtävät",
+    "syksy tehtävät"
+   ],
+   "requests": 21,
+   "productiveSeeds": 2,
+   "unique": 3,
+   "suggestions": [
+    "joulu tehtävät",
+    "joulutehtävät lapsille",
+    "syksy tehtävät"
+   ]
+  }
+ },
+ "suggestions": {
+  "jäljennä": {
+   "candidate": "picture-tracing",
+   "s": [
+    "jäljennä kuvio"
+   ]
+  },
+  "piirrä ja väritä": {
+   "candidate": "trace-and-color",
+   "s": [
+    "piirrä ja väritä ohjeen mukaan",
+    "piirrä ja väritä"
+   ]
+  },
+  "hienomotoriikka": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "hienomotoriikka lelut",
+    "hienomotoriikka harjoituksia lapsille",
+    "hienomotoriikka ja karkeamotoriikka",
+    "hienomotoriikka harjoituksia",
+    "hienomotoriikka englanniksi",
+    "hienomotoriikka",
+    "hienomotoriikka harjoituksia aikuisille",
+    "hienomotoriikka häiriö",
+    "hienomotoriikka siili",
+    "hienomotoriikka testi"
+   ]
+  },
+  "hienomotoriikka tehtäviä": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "hienomotoriikka tehtäviä"
+   ]
+  },
+  "esikoulu tehtävät": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "esikoulu tehtävät"
+   ]
+  },
+  "joulu tehtävät": {
+   "candidate": "themed-tracing",
+   "s": [
+    "joulu tehtävät",
+    "joulutehtävät lapsille"
+   ]
+  },
+  "syksy tehtävät": {
+   "candidate": "themed-tracing",
+   "s": [
+    "syksy tehtävät"
+   ]
+  }
+ }
+}

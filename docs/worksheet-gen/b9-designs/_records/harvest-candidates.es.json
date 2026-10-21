@@ -1,0 +1,789 @@
+{
+ "locale": "es",
+ "market": {
+  "hl": "es",
+  "gl": "mx"
+ },
+ "generatedAt": "2026-10-21T21:46:39.871Z",
+ "seedFile": "docs/worksheet-gen/b9-designs/_records/candidate-seeds.json",
+ "requestCount": 98,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "picture-tracing": {
+   "heads": [
+    "repasar dibujos",
+    "dibujos para repasar",
+    "repasa el dibujo",
+    "trazos para niños",
+    "dibujos punteados"
+   ],
+   "requests": 35,
+   "productiveSeeds": 15,
+   "unique": 100,
+   "suggestions": [
+    "actividades de trazos para niños de segundo grado",
+    "aplicaciones para repasar dibujos",
+    "dibujos de animales punteados para imprimir",
+    "dibujos para repasar",
+    "dibujos para repasar con puntos",
+    "dibujos para repasar con puntos pdf",
+    "dibujos para repasar e imprimir",
+    "dibujos para repasar en el cuaderno",
+    "dibujos para repasar las tablas de multiplicar",
+    "dibujos para repasar para niños",
+    "dibujos para repasar para niños de 3 años",
+    "dibujos para repasar para niños de 4 años",
+    "dibujos para repasar y colorear para niños",
+    "dibujos para repasar y pintar",
+    "dibujos punteados",
+    "dibujos punteados con numeros para niños",
+    "dibujos punteados fáciles",
+    "dibujos punteados para colorear",
+    "dibujos punteados para imprimir",
+    "dibujos punteados para imprimir pdf",
+    "dibujos punteados para niños",
+    "dibujos punteados para niños de preescolar",
+    "dibujos punteados para niños para imprimir",
+    "dibujos punteados para niños pdf",
+    "dibujos punteados para recortar",
+    "dibujos punteados para unir",
+    "dibujos punteados preescolar",
+    "ejercicios de trazos para niños de primer grado",
+    "fichas de trazos para niños",
+    "fichas de trazos para niños de 2 años",
+    "fichas de trazos para niños de 3 años",
+    "fichas de trazos para niños de 4 años",
+    "fichas de trazos para niños de inicial",
+    "fichas de trazos para niños de preescolar",
+    "fichas de trazos para niños de primer grado",
+    "fichas de trazos para niños de tres años",
+    "fichas para repasar dibujos",
+    "fichas trazos para niños 5 años",
+    "grafomotricidad trazos para niños de primaria",
+    "imagenes de trazos para niños de primer grado",
+    "imprimir trazos para niños preescolar",
+    "juegos para repasar dibujos",
+    "lapicero para repasar dibujos",
+    "libro para repasar dibujos",
+    "marcador para repasar dibujos",
+    "papel para repasar dibujos",
+    "para repasar dibujos",
+    "repasa el dibujo",
+    "repasa el dibujo haciendo puntos",
+    "repasar dibujos",
+    "repasar dibujos con puntos",
+    "rotuladores para repasar dibujos",
+    "trazos caligrafia para niños de primaria",
+    "trazos caligrafia para niños de primaria dibujos",
+    "trazos caligrafia para niños de primer grado",
+    "trazos de caligrafía para niños de segundo grado",
+    "trazos de palabras para niños de primer grado",
+    "trazos en cuadrícula para niños de primaria",
+    "trazos en cuadrícula para niños de primaria pdf",
+    "trazos en dibujos para niños de primer grado",
+    "trazos para niños",
+    "trazos para niños 3 años para imprimir",
+    "trazos para niños 4 años para imprimir",
+    "trazos para niños 5 años para imprimir",
+    "trazos para niños de 2 a 3 años pdf gratis",
+    "trazos para niños de 2 años para imprimir",
+    "trazos para niños de 3 a 4 años",
+    "trazos para niños de 3 a 4 años pdf gratis",
+    "trazos para niños de 3 años",
+    "trazos para niños de 4 a 5 años",
+    "trazos para niños de 4 a 5 años pdf gratis",
+    "trazos para niños de 5 a 6 años pdf gratis",
+    "trazos para niños de 5 años para imprimir pdf",
+    "trazos para niños de 6 a 7 años",
+    "trazos para niños de 6 años para imprimir",
+    "trazos para niños de 7 a 8 años",
+    "trazos para niños de inicial para imprimir",
+    "trazos para niños de preescolar 1",
+    "trazos para niños de preescolar 2",
+    "trazos para niños de preescolar de 3 años",
+    "trazos para niños de preescolar en cuba",
+    "trazos para niños de preescolar numeros",
+    "trazos para niños de preescolar para imprimir",
+    "trazos para niños de preescolar pdf",
+    "trazos para niños de preescolar vocales",
+    "trazos para niños de primaria pdf",
+    "trazos para niños de primer grado de preescolar",
+    "trazos para niños de primer grado de primaria",
+    "trazos para niños de primer grado para imprimir",
+    "trazos para niños de primer grado pdf",
+    "trazos para niños de primero primaria",
+    "trazos para niños de segundo de primaria",
+    "trazos para niños de segundo grado",
+    "trazos para niños de segundo grado de primaria",
+    "trazos para niños de tercero de primaria",
+    "trazos para niños para imprimir",
+    "trazos para niños preescolar",
+    "trazos para niños preescolar 4 años",
+    "trazos para niños primaria",
+    "trazos para niños primer grado"
+   ]
+  },
+  "trace-and-color": {
+   "heads": [
+    "repasa y colorea",
+    "repasar y colorear"
+   ],
+   "requests": 14,
+   "productiveSeeds": 3,
+   "unique": 21,
+   "suggestions": [
+    "abecedario para repasar y colorear",
+    "animales para repasar y colorear",
+    "dibujos para repasar y colorear",
+    "dibujos para repasar y colorear para niños",
+    "fichas para repasar y colorear",
+    "figuras para repasar y colorear",
+    "imagenes para repasar y colorear",
+    "numeros para repasar y colorear",
+    "para repasar y colorear",
+    "repasa y colorea",
+    "repasa y colorea el numero 1",
+    "repasa y colorea el numero 2",
+    "repasa y colorea el numero 3",
+    "repasa y colorea el numero 4",
+    "repasa y colorea el numero 8",
+    "repasa y colorea el numero 9",
+    "repasa y colorea la letra a",
+    "repasa y colorea las vocales",
+    "repasa y colorea los numeros",
+    "repasar y colorear",
+    "vocales para repasar y colorear"
+   ]
+  },
+  "early-years-tracing": {
+   "heads": [
+    "grafomotricidad",
+    "grafomotricidad preescolar",
+    "trazos preescolar",
+    "motricidad fina dibujos"
+   ],
+   "requests": 28,
+   "productiveSeeds": 20,
+   "unique": 103,
+   "suggestions": [
+    "actividades de trazos preescolar para imprimir",
+    "actividades grafomotricidad primer grado",
+    "cuadernillo grafomotricidad primaria",
+    "cuadernillo grafomotricidad primer grado",
+    "dibujos motricidad fina para imprimir",
+    "ejercicios de grafomotricidad segundo grado",
+    "ejercicios grafomotricidad primer grado",
+    "fichas de grafomotricidad primer grado",
+    "fichas grafomotricidad preescolar",
+    "fichas grafomotricidad primaria",
+    "fichas trazos preescolar",
+    "grafomotricidad",
+    "grafomotricidad 1 primaria",
+    "grafomotricidad 1 primaria pdf",
+    "grafomotricidad 2 primaria",
+    "grafomotricidad 4 años para imprimir pdf",
+    "grafomotricidad ejercicios",
+    "grafomotricidad ejercicios primaria",
+    "grafomotricidad fichas",
+    "grafomotricidad fichas 3 años",
+    "grafomotricidad fichas 4 años",
+    "grafomotricidad fichas 5 años",
+    "grafomotricidad fichas adultos",
+    "grafomotricidad fichas de preescolar",
+    "grafomotricidad fichas numeros 1 2 3 infantil",
+    "grafomotricidad fichas para imprimir",
+    "grafomotricidad fichas para niños de 5 a 6 años para imprimir pdf",
+    "grafomotricidad fichas pdf",
+    "grafomotricidad para imprimir",
+    "grafomotricidad para imprimir 3 años",
+    "grafomotricidad para imprimir 4 años",
+    "grafomotricidad para imprimir adultos",
+    "grafomotricidad para imprimir gratis",
+    "grafomotricidad para imprimir letras",
+    "grafomotricidad para imprimir numeros",
+    "grafomotricidad para imprimir pdf",
+    "grafomotricidad para niños",
+    "grafomotricidad para niños de 7 a 8 años pdf",
+    "grafomotricidad para primaria",
+    "grafomotricidad para primer grado",
+    "grafomotricidad para primer grado de preescolar",
+    "grafomotricidad para segundo grado",
+    "grafomotricidad para segundo grado de primaria",
+    "grafomotricidad pdf",
+    "grafomotricidad preescolar",
+    "grafomotricidad preescolar 1",
+    "grafomotricidad preescolar 2",
+    "grafomotricidad preescolar 3",
+    "grafomotricidad preescolar 3 años",
+    "grafomotricidad preescolar 5 años",
+    "grafomotricidad preescolar actividades",
+    "grafomotricidad preescolar libro",
+    "grafomotricidad preescolar para imprimir",
+    "grafomotricidad preescolar pdf",
+    "grafomotricidad primaria",
+    "grafomotricidad primaria para imprimir",
+    "grafomotricidad primaria pdf",
+    "grafomotricidad primer grado",
+    "grafomotricidad primer grado de primaria",
+    "grafomotricidad primer grado pdf",
+    "grafomotricidad que es",
+    "grafomotricidad segundo grado",
+    "grafomotricidad trazos para primer grado",
+    "grafomotricidad trazos para segundo grado",
+    "grafomotricidad vocales para imprimir pdf",
+    "imagenes grafomotricidad para imprimir",
+    "libro de trazos para preescolar para imprimir pdf",
+    "mis primeros trazos preescolar para imprimir",
+    "motricidad fina dibujos",
+    "motricidad fina dibujos animados",
+    "motricidad fina dibujos en cuadricula para niños",
+    "motricidad fina dibujos faciles",
+    "motricidad fina dibujos para colorear",
+    "motricidad fina dibujos para hacer boleado",
+    "motricidad fina dibujos para pegar papelitos",
+    "motricidad fina dibujos para pintar con cotonetes",
+    "motricidad fina dibujos para rellenar con bolitas de papel crepe",
+    "motricidad fina dibujos para rellenar con lana para niños",
+    "motricidad fina trazos para preescolar para imprimir",
+    "preescolar motricidad fina dibujos",
+    "preescolar trazos de las vocales para imprimir",
+    "primer grado preescolar trazos de las vocales",
+    "repasar trazos y lineas para preescolar para imprimir",
+    "trazos cuaderno de preescolar en cuba para imprimir",
+    "trazos para preescolar segundo grado",
+    "trazos preescolar",
+    "trazos preescolar 1",
+    "trazos preescolar 2",
+    "trazos preescolar 3",
+    "trazos preescolar 3 años",
+    "trazos preescolar actividades para preescolar",
+    "trazos preescolar caligrafía para niños de 4 a 5 años pdf",
+    "trazos preescolar cuba",
+    "trazos preescolar para imprimir",
+    "trazos preescolar pdf",
+    "trazos preescolar primer grado",
+    "trazos preescolar tareas para niños de 4 años",
+    "trazos y líneas para preescolar para imprimir",
+    "trazos y líneas para preescolar para imprimir pdf",
+    "trazos y numeros primer grado preescolar",
+    "trazos y numeros segundo grado preescolar",
+    "trazos y palabras primer grado preescolar",
+    "trazos y palabras segundo grado preescolar"
+   ]
+  },
+  "themed-tracing": {
+   "heads": [
+    "repasar dibujos animales",
+    "grafomotricidad navidad",
+    "trazos de animales"
+   ],
+   "requests": 21,
+   "productiveSeeds": 7,
+   "unique": 21,
+   "suggestions": [
+    "actividades grafomotricidad navidad",
+    "fichas de trazos de animales",
+    "fichas grafomotricidad navidad",
+    "grafomotricidad arbol de navidad",
+    "grafomotricidad creativa navidad",
+    "grafomotricidad navidad",
+    "grafomotricidad navidad 3 años",
+    "grafomotricidad navidad infantil",
+    "grafomotricidad navidad pdf",
+    "grafomotricidad preescolar navidad",
+    "trazos de animales",
+    "trazos de animales acuaticos",
+    "trazos de animales domesticos",
+    "trazos de animales en cuadricula",
+    "trazos de animales marinos",
+    "trazos de animales para imprimir",
+    "trazos de animales para niños",
+    "trazos de animales para preescolar",
+    "trazos de animales pdf",
+    "trazos de animales salvajes",
+    "trazos grafomotricidad navidad"
+   ]
+  }
+ },
+ "suggestions": {
+  "repasar dibujos": {
+   "candidate": "picture-tracing",
+   "s": [
+    "repasar dibujos",
+    "repasar dibujos con puntos",
+    "para repasar dibujos",
+    "aplicaciones para repasar dibujos",
+    "papel para repasar dibujos",
+    "rotuladores para repasar dibujos",
+    "marcador para repasar dibujos",
+    "lapicero para repasar dibujos",
+    "juegos para repasar dibujos",
+    "libro para repasar dibujos"
+   ]
+  },
+  "repasar dibujos para imprimir": {
+   "candidate": "picture-tracing",
+   "s": [
+    "dibujos para repasar e imprimir"
+   ]
+  },
+  "dibujos para repasar": {
+   "candidate": "picture-tracing",
+   "s": [
+    "dibujos para repasar",
+    "dibujos para repasar para niños",
+    "dibujos para repasar las tablas de multiplicar",
+    "dibujos para repasar y pintar",
+    "dibujos para repasar con puntos",
+    "dibujos para repasar con puntos pdf",
+    "dibujos para repasar en el cuaderno",
+    "dibujos para repasar para niños de 4 años",
+    "dibujos para repasar para niños de 3 años",
+    "dibujos para repasar y colorear para niños"
+   ]
+  },
+  "dibujos para repasar ficha": {
+   "candidate": "picture-tracing",
+   "s": [
+    "fichas para repasar dibujos"
+   ]
+  },
+  "repasa el dibujo": {
+   "candidate": "picture-tracing",
+   "s": [
+    "repasa el dibujo",
+    "repasa el dibujo haciendo puntos"
+   ]
+  },
+  "trazos para niños": {
+   "candidate": "picture-tracing",
+   "s": [
+    "trazos para niños de 4 a 5 años pdf gratis",
+    "trazos para niños de 5 a 6 años pdf gratis",
+    "trazos para niños de 4 a 5 años",
+    "trazos para niños de 3 a 4 años",
+    "trazos para niños de 6 a 7 años",
+    "trazos para niños de 3 a 4 años pdf gratis",
+    "trazos para niños de 2 a 3 años pdf gratis",
+    "trazos para niños de 7 a 8 años",
+    "trazos para niños",
+    "trazos para niños de 3 años"
+   ]
+  },
+  "trazos para niños ficha": {
+   "candidate": "picture-tracing",
+   "s": [
+    "fichas trazos para niños 5 años",
+    "fichas de trazos para niños de 3 años",
+    "fichas de trazos para niños de 4 años",
+    "fichas de trazos para niños",
+    "fichas de trazos para niños de 2 años",
+    "fichas de trazos para niños de inicial",
+    "fichas de trazos para niños de primer grado",
+    "fichas de trazos para niños de preescolar",
+    "fichas de trazos para niños de tres años"
+   ]
+  },
+  "trazos para niños para imprimir": {
+   "candidate": "picture-tracing",
+   "s": [
+    "trazos para niños para imprimir",
+    "trazos para niños de preescolar para imprimir",
+    "trazos para niños 3 años para imprimir",
+    "trazos para niños 5 años para imprimir",
+    "trazos para niños de inicial para imprimir",
+    "trazos para niños 4 años para imprimir",
+    "trazos para niños de 2 años para imprimir",
+    "trazos para niños de primer grado para imprimir",
+    "trazos para niños de 5 años para imprimir pdf",
+    "trazos para niños de 6 años para imprimir"
+   ]
+  },
+  "trazos para niños preescolar": {
+   "candidate": "picture-tracing",
+   "s": [
+    "trazos para niños preescolar",
+    "trazos para niños preescolar 4 años",
+    "trazos para niños de preescolar pdf",
+    "trazos para niños de preescolar en cuba",
+    "imprimir trazos para niños preescolar",
+    "trazos para niños de preescolar 1",
+    "trazos para niños de preescolar vocales",
+    "trazos para niños de preescolar numeros",
+    "trazos para niños de preescolar de 3 años",
+    "trazos para niños de preescolar 2"
+   ]
+  },
+  "trazos para niños primer grado": {
+   "candidate": "picture-tracing",
+   "s": [
+    "trazos para niños primer grado",
+    "trazos para niños de primer grado de primaria",
+    "trazos para niños de primer grado pdf",
+    "trazos para niños de primer grado de preescolar",
+    "trazos para niños de primer grado para imprimir",
+    "trazos caligrafia para niños de primer grado",
+    "trazos de palabras para niños de primer grado",
+    "ejercicios de trazos para niños de primer grado",
+    "imagenes de trazos para niños de primer grado",
+    "trazos en dibujos para niños de primer grado"
+   ]
+  },
+  "trazos para niños segundo grado": {
+   "candidate": "picture-tracing",
+   "s": [
+    "trazos para niños de segundo grado",
+    "trazos para niños de segundo grado de primaria",
+    "actividades de trazos para niños de segundo grado",
+    "trazos de caligrafía para niños de segundo grado"
+   ]
+  },
+  "trazos para niños primaria": {
+   "candidate": "picture-tracing",
+   "s": [
+    "trazos para niños primaria",
+    "trazos para niños de primaria pdf",
+    "trazos para niños de primero primaria",
+    "trazos para niños de tercero de primaria",
+    "trazos caligrafia para niños de primaria dibujos",
+    "trazos caligrafia para niños de primaria",
+    "trazos para niños de segundo de primaria",
+    "grafomotricidad trazos para niños de primaria",
+    "trazos en cuadrícula para niños de primaria",
+    "trazos en cuadrícula para niños de primaria pdf"
+   ]
+  },
+  "dibujos punteados": {
+   "candidate": "picture-tracing",
+   "s": [
+    "dibujos punteados",
+    "dibujos punteados para niños",
+    "dibujos punteados para imprimir",
+    "dibujos punteados fáciles",
+    "dibujos punteados para niños para imprimir",
+    "dibujos punteados para colorear",
+    "dibujos punteados para unir",
+    "dibujos punteados para niños pdf",
+    "dibujos punteados para recortar",
+    "dibujos punteados con numeros para niños"
+   ]
+  },
+  "dibujos punteados para imprimir": {
+   "candidate": "picture-tracing",
+   "s": [
+    "dibujos punteados para imprimir",
+    "dibujos punteados para imprimir pdf",
+    "dibujos punteados para niños para imprimir",
+    "dibujos de animales punteados para imprimir"
+   ]
+  },
+  "dibujos punteados preescolar": {
+   "candidate": "picture-tracing",
+   "s": [
+    "dibujos punteados preescolar",
+    "dibujos punteados para niños de preescolar"
+   ]
+  },
+  "repasa y colorea": {
+   "candidate": "trace-and-color",
+   "s": [
+    "repasa y colorea",
+    "repasa y colorea el numero 1",
+    "repasa y colorea el numero 4",
+    "repasa y colorea el numero 2",
+    "repasa y colorea las vocales",
+    "repasa y colorea el numero 8",
+    "repasa y colorea el numero 3",
+    "repasa y colorea la letra a",
+    "repasa y colorea los numeros",
+    "repasa y colorea el numero 9"
+   ]
+  },
+  "repasar y colorear": {
+   "candidate": "trace-and-color",
+   "s": [
+    "repasar y colorear",
+    "para repasar y colorear",
+    "dibujos para repasar y colorear",
+    "imagenes para repasar y colorear",
+    "vocales para repasar y colorear",
+    "dibujos para repasar y colorear para niños",
+    "figuras para repasar y colorear",
+    "animales para repasar y colorear",
+    "abecedario para repasar y colorear",
+    "numeros para repasar y colorear"
+   ]
+  },
+  "repasar y colorear ficha": {
+   "candidate": "trace-and-color",
+   "s": [
+    "fichas para repasar y colorear"
+   ]
+  },
+  "grafomotricidad": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "grafomotricidad",
+    "grafomotricidad preescolar",
+    "grafomotricidad ejercicios",
+    "grafomotricidad pdf",
+    "grafomotricidad para niños de 7 a 8 años pdf",
+    "grafomotricidad primaria",
+    "grafomotricidad para niños",
+    "grafomotricidad 4 años para imprimir pdf",
+    "grafomotricidad que es",
+    "grafomotricidad preescolar pdf"
+   ]
+  },
+  "grafomotricidad ficha": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "grafomotricidad fichas",
+    "grafomotricidad fichas adultos",
+    "grafomotricidad fichas pdf",
+    "grafomotricidad fichas para imprimir",
+    "grafomotricidad fichas 3 años",
+    "grafomotricidad fichas de preescolar",
+    "grafomotricidad fichas 4 años",
+    "grafomotricidad fichas para niños de 5 a 6 años para imprimir pdf",
+    "grafomotricidad fichas numeros 1 2 3 infantil",
+    "grafomotricidad fichas 5 años"
+   ]
+  },
+  "grafomotricidad para imprimir": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "grafomotricidad para imprimir pdf",
+    "grafomotricidad para imprimir",
+    "grafomotricidad para imprimir adultos",
+    "grafomotricidad para imprimir 4 años",
+    "grafomotricidad para imprimir 3 años",
+    "grafomotricidad para imprimir letras",
+    "grafomotricidad para imprimir gratis",
+    "grafomotricidad para imprimir numeros",
+    "grafomotricidad vocales para imprimir pdf",
+    "imagenes grafomotricidad para imprimir"
+   ]
+  },
+  "grafomotricidad preescolar": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "grafomotricidad preescolar",
+    "grafomotricidad preescolar pdf",
+    "grafomotricidad preescolar 1",
+    "grafomotricidad preescolar 2",
+    "grafomotricidad preescolar 3",
+    "grafomotricidad preescolar para imprimir",
+    "grafomotricidad preescolar 5 años",
+    "grafomotricidad preescolar 3 años",
+    "grafomotricidad preescolar libro",
+    "grafomotricidad preescolar actividades"
+   ]
+  },
+  "grafomotricidad primer grado": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "grafomotricidad primer grado",
+    "grafomotricidad primer grado de primaria",
+    "grafomotricidad primer grado pdf",
+    "grafomotricidad para primer grado",
+    "actividades grafomotricidad primer grado",
+    "grafomotricidad para primer grado de preescolar",
+    "ejercicios grafomotricidad primer grado",
+    "cuadernillo grafomotricidad primer grado",
+    "grafomotricidad trazos para primer grado",
+    "fichas de grafomotricidad primer grado"
+   ]
+  },
+  "grafomotricidad segundo grado": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "grafomotricidad segundo grado",
+    "grafomotricidad para segundo grado",
+    "grafomotricidad para segundo grado de primaria",
+    "grafomotricidad trazos para segundo grado",
+    "ejercicios de grafomotricidad segundo grado"
+   ]
+  },
+  "grafomotricidad primaria": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "grafomotricidad primaria",
+    "grafomotricidad primaria pdf",
+    "grafomotricidad primaria para imprimir",
+    "grafomotricidad para primaria",
+    "grafomotricidad 1 primaria",
+    "grafomotricidad ejercicios primaria",
+    "cuadernillo grafomotricidad primaria",
+    "grafomotricidad 1 primaria pdf",
+    "grafomotricidad 2 primaria",
+    "fichas grafomotricidad primaria"
+   ]
+  },
+  "grafomotricidad preescolar ficha": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "fichas grafomotricidad preescolar"
+   ]
+  },
+  "grafomotricidad preescolar para imprimir": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "grafomotricidad preescolar para imprimir"
+   ]
+  },
+  "grafomotricidad preescolar primer grado": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "grafomotricidad para primer grado de preescolar"
+   ]
+  },
+  "trazos preescolar": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "trazos preescolar",
+    "trazos preescolar 1",
+    "trazos preescolar pdf",
+    "trazos preescolar 3",
+    "trazos preescolar para imprimir",
+    "trazos preescolar 2",
+    "trazos preescolar caligrafía para niños de 4 a 5 años pdf",
+    "trazos preescolar 3 años",
+    "trazos preescolar tareas para niños de 4 años",
+    "trazos preescolar cuba"
+   ]
+  },
+  "trazos preescolar ficha": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "fichas trazos preescolar"
+   ]
+  },
+  "trazos preescolar para imprimir": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "trazos preescolar para imprimir",
+    "mis primeros trazos preescolar para imprimir",
+    "actividades de trazos preescolar para imprimir",
+    "trazos y líneas para preescolar para imprimir",
+    "trazos y líneas para preescolar para imprimir pdf",
+    "libro de trazos para preescolar para imprimir pdf",
+    "motricidad fina trazos para preescolar para imprimir",
+    "preescolar trazos de las vocales para imprimir",
+    "repasar trazos y lineas para preescolar para imprimir",
+    "trazos cuaderno de preescolar en cuba para imprimir"
+   ]
+  },
+  "trazos preescolar preescolar": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "trazos preescolar actividades para preescolar"
+   ]
+  },
+  "trazos preescolar primer grado": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "trazos preescolar primer grado",
+    "trazos y numeros primer grado preescolar",
+    "primer grado preescolar trazos de las vocales",
+    "trazos y palabras primer grado preescolar"
+   ]
+  },
+  "trazos preescolar segundo grado": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "trazos para preescolar segundo grado",
+    "trazos y numeros segundo grado preescolar",
+    "trazos y palabras segundo grado preescolar"
+   ]
+  },
+  "motricidad fina dibujos": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "motricidad fina dibujos",
+    "motricidad fina dibujos animados",
+    "motricidad fina dibujos faciles",
+    "motricidad fina dibujos para rellenar con lana para niños",
+    "motricidad fina dibujos para pegar papelitos",
+    "motricidad fina dibujos para pintar con cotonetes",
+    "motricidad fina dibujos para colorear",
+    "motricidad fina dibujos en cuadricula para niños",
+    "motricidad fina dibujos para hacer boleado",
+    "motricidad fina dibujos para rellenar con bolitas de papel crepe"
+   ]
+  },
+  "motricidad fina dibujos para imprimir": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "dibujos motricidad fina para imprimir"
+   ]
+  },
+  "motricidad fina dibujos preescolar": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "preescolar motricidad fina dibujos"
+   ]
+  },
+  "grafomotricidad navidad": {
+   "candidate": "themed-tracing",
+   "s": [
+    "grafomotricidad navidad",
+    "grafomotricidad navidad pdf",
+    "grafomotricidad navidad infantil",
+    "grafomotricidad navidad 3 años",
+    "fichas grafomotricidad navidad",
+    "trazos grafomotricidad navidad",
+    "grafomotricidad preescolar navidad",
+    "actividades grafomotricidad navidad",
+    "grafomotricidad creativa navidad",
+    "grafomotricidad arbol de navidad"
+   ]
+  },
+  "grafomotricidad navidad ficha": {
+   "candidate": "themed-tracing",
+   "s": [
+    "fichas grafomotricidad navidad"
+   ]
+  },
+  "grafomotricidad navidad preescolar": {
+   "candidate": "themed-tracing",
+   "s": [
+    "grafomotricidad preescolar navidad"
+   ]
+  },
+  "trazos de animales": {
+   "candidate": "themed-tracing",
+   "s": [
+    "trazos de animales",
+    "trazos de animales para imprimir",
+    "trazos de animales para niños",
+    "trazos de animales marinos",
+    "trazos de animales para preescolar",
+    "trazos de animales pdf",
+    "trazos de animales acuaticos",
+    "trazos de animales domesticos",
+    "trazos de animales en cuadricula",
+    "trazos de animales salvajes"
+   ]
+  },
+  "trazos de animales ficha": {
+   "candidate": "themed-tracing",
+   "s": [
+    "fichas de trazos de animales"
+   ]
+  },
+  "trazos de animales para imprimir": {
+   "candidate": "themed-tracing",
+   "s": [
+    "trazos de animales para imprimir"
+   ]
+  },
+  "trazos de animales preescolar": {
+   "candidate": "themed-tracing",
+   "s": [
+    "trazos de animales para preescolar"
+   ]
+  }
+ }
+}

@@ -88,3 +88,15 @@ ORDER row 65 · id `story-spine.role.rl-k-3` (kept).
   - preflight-activity-routes and preflight-indexable-routes: pass;
   - verify-activity-content: ×11 pass.
 - **My own read:** the 360, 704 and 1024 renders (Name miss 2 with the faint crack mark, Trouble miss 2 with the rings and glow, Match miss 2 with the underlined key words, Fix won with the pennant, sealed crack and ribbon).
+
+## Live (2026-10-21, commit `5b9fbc99`)
+- **Deploy:** git pull, cp the 4 mini-tools files, chown, deploy.sh exit 0. The preview webp was uploaded first.
+- **live-verify-story-spine:** 83 pass, 0 fail. The first run raced the page cache, as on #62–#64. It covers:
+  - all 11 pages return 200;
+  - en/de/sv/fi at 1366 and 390: real pointer, wrapper 9.804;
+  - the stud with no tabs asks;
+  - swapped tabs stop the reading at the trouble tab;
+  - the right tabs give the pennant, the sealed crack, the ribbon and the shelf, and the success text is okWin;
+  - the calm page lies flat, and the right trouble page reads through;
+  - the iframe grows with the card.
+- **Variety probe** (en/sv/fi): 9 distinct rounds, and pass 2 is reshuffled.

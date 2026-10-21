@@ -2252,6 +2252,30 @@
         "Barnet sier hvilket ord som passer og ikke passer til et bilde",
         "Barnet vet at ordene og bildene i en fortelling forteller det samme"
       ]
+    },
+    "willow-story-corner.compare-tales.rl-k-9": {
+      "about": [
+        "Skilpadda Willow leser to korte fortellinger høyt, bilde for bilde. Etterpå blir hvert spørsmål en tann i en stor glidelås mellom de to fortellingene. «Hvem mistet noe?» skal i midten hvis det skjer i BEGGE fortellingene, ut på den ene siden hvis det bare skjer i den fortellingen, og i lomma hvis det ikke skjer i noen av dem. Så drar man i glideren: Forbi en tann som bildene beviser, glir den videre, og bildene som viser det, lyser opp; ved en tann på feil sted setter den seg fast. En interaktiv leseøvelse som spilles i nettleseren.",
+        "Hvert par fortellinger fyller én glidelås med fem tenner: noe begge fortellingene har, noe bare den ene har, noe ingen av dem har, og en av de slagene to ganger, så den siste tannen aldri kan gjettes ved å legges på den tomme plassen. Når den femte tannen lukkes, dras hele glidelåsen igjen. I innstillingene velger man To fortellinger eller To dyr: Med to dyr sammenligner barnet to bilder (hvilket dyr som har nebb, striper, man). Lytt først avgjør om Willow leser fortellingene i starten eller bare når barnet trykker på henne.",
+        "Øvelsen følger LK20 i norsk: å sammenligne personer og hendelser i to fortellinger. Uten tidspress og uten poeng."
+      ],
+      "practices": [
+        "Å sammenligne det som skjer i to fortellinger",
+        "Å si hva som er likt, og hva som er forskjellig",
+        "Å sjekke et svar mot bildene og ordene",
+        "Å sammenligne to dyr: hva begge har, og hva bare det ene har"
+      ],
+      "howToPlay": [
+        "Lytt når Willow leser begge fortellingene, eller trykk på et bilde for å høre det igjen.",
+        "Les spørsmålet på tannen.",
+        "Legg tannen på den ene siden, i midten eller i lomma, og dra så igjen glidelåsen.",
+        "Setter glidelåsen seg fast, så se på begge fortellingene igjen."
+      ],
+      "learningGoals": [
+        "Barnet forteller hva som skjer i begge fortellingene",
+        "Barnet forteller hva som bare skjer i den ene",
+        "Barnet sjekker et svar mot bildene i fortellingen"
+      ]
     }
   }
 }

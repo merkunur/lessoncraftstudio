@@ -2245,6 +2245,30 @@
         "Barnet siger, hvilket ord der passer og ikke passer til et billede",
         "Barnet ved, at ordene og billederne i en historie fortæller det samme"
       ]
+    },
+    "willow-story-corner.compare-tales.rl-k-9": {
+      "about": [
+        "Skildpadden Willow læser to korte historier højt, billede for billede. Bagefter bliver hvert spørgsmål en tand i en stor lynlås mellem de to historier. „Hvem mistede noget?“ skal i midten, hvis det sker i BEGGE historier, ud til den ene side, hvis det kun sker i den historie, og i lommen, hvis det ikke sker i nogen af dem. Så trækker man i skyderen: Forbi en tand, som billederne beviser, glider den videre, og de billeder, der viser det, lyser op; ved en tand det forkerte sted sætter den sig fast. En interaktiv læseøvelse, der kører i browseren.",
+        "Hvert par historier fylder én lynlås med fem tænder: noget, begge historier har, noget, kun den ene har, noget, ingen af dem har, og en af de slags to gange, så den sidste tand aldrig kan gættes ved at lægge den på den tomme plads. Når den femte tand lukker, lynes hele lynlåsen i. I indstillingerne vælger man To historier eller To dyr: Med to dyr sammenligner barnet to billeder (hvilket dyr har et næb, striber, en manke). Lyt først bestemmer, om Willow læser historierne i starten eller kun, når barnet trykker på hende.",
+        "Øvelsen følger Fælles Mål for dansk: at sammenligne personer og hændelser i to historier. Uden tidspres og uden point."
+      ],
+      "practices": [
+        "At sammenligne det, der sker i to historier",
+        "At sige, hvad der er ens, og hvad der er forskelligt",
+        "At tjekke et svar med billederne og ordene",
+        "At sammenligne to dyr: hvad de begge har, og hvad kun det ene har"
+      ],
+      "howToPlay": [
+        "Lyt til Willow, der læser begge historier, eller tryk på et billede for at høre det igen.",
+        "Læs spørgsmålet på tanden.",
+        "Læg tanden ud til den ene side, i midten eller i lommen, og træk så lynlåsen i.",
+        "Sætter lynlåsen sig fast, så se på begge historier igen."
+      ],
+      "learningGoals": [
+        "Barnet fortæller, hvad der sker i begge historier",
+        "Barnet fortæller, hvad der kun sker i den ene",
+        "Barnet tjekker et svar med historiens billeder"
+      ]
     }
   }
 }

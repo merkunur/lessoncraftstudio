@@ -4484,25 +4484,26 @@
     },
     "willow-story-corner.compare-tales.rl-k-9": {
       "about": [
-        "Willow the tortoise reads two short tales about two animal friends — Fox, who lost his red scarf and searched until he found it, and Bunny, who lost her ball and got help. After listening, the child answers a question about the pair, tapping Fox, Bunny, Both, or Neither. It's an interactive Kindergarten reading activity that plays right in the browser, with no sign-up.",
-        "The big idea is comparing and contrasting what happens to characters in two stories. Each question names one thing — \"Who lost something?\", \"Who got help from a friend?\", \"Who kept trying?\" — and the child decides whether it fits one friend, both, or neither. Because some events are shared and others belong to just one tale, a child has to think about each story separately and then line them up, which is harder than remembering a single story.",
-        "It is aligned to Common Core RL.K.9 — comparing and contrasting the adventures and experiences of characters in familiar stories. No timer, no score — just calm, playful practice."
+        "Willow the tortoise reads two short stories, panel by panel. Then each question becomes a tooth of a big zipper between the two stories. Put “Who lost something?” in the middle if it happens in BOTH stories, on one side if it happens in only that story, or in the pocket if it happens in neither. Then pull the slider. It zips past a tooth the pictures prove, and the panels that show it light up; at a tooth in the wrong place it jams. It is an interactive Kindergarten reading activity that plays in the browser.",
+        "Each pair of stories fills one zipper with five teeth: something both stories share, something only one has, something neither has, and one of those kinds twice, so the last tooth can never be guessed by leaving it for the empty spot. When the fifth tooth closes, the whole zipper zips shut. In the settings, Two stories or Two animals: with two animals the child compares two library pictures (which one has a beak, stripes, a mane). Listen first decides whether Willow reads the stories at the start or only when the child taps her.",
+        "It is aligned to Common Core RL.K.9: comparing and contrasting what happens to characters in familiar stories. No timer and no score."
       ],
       "practices": [
-        "Listen to two short tales and remember what each character did",
-        "Decide whether an event fits one character, both, or neither",
-        "Find what is alike in the two friends' adventures",
-        "Find what is different between the two stories"
+        "Comparing what happens in two stories",
+        "Telling what is the same in both and what is different",
+        "Checking an answer against the pictures and the words",
+        "Comparing two animals: what both have and what only one has"
       ],
       "howToPlay": [
-        "Listen to both short tales about the two animal friends.",
-        "Read the question, then tap Fox, Bunny, Both, or Neither.",
-        "A warm check confirms the answer and offers an easy retry; no timer, no score."
+        "Listen to Willow read both stories, or tap a picture to hear it again.",
+        "Read the question on the tooth.",
+        "Put the tooth on one side, in the middle or in the pocket, then pull the zipper.",
+        "If the zipper jams, look again at both stories."
       ],
       "learningGoals": [
-        "Compare and contrast characters' adventures across two stories — the focus of Common Core RL.K.9",
-        "Tell what is the same from what is different between two tales",
-        "Reason about two short stories at once instead of just one"
+        "The child tells what happens in both stories",
+        "The child tells what happens in only one of them",
+        "The child checks an answer against the story pictures"
       ]
     },
     "winter-piles.draw-partition.2-oa-c-4": {

@@ -4230,6 +4230,30 @@
         "El niño distingue una palabra de otras parecidas que cambian en una letra",
         "El niño relaciona una palabra escrita con el dibujo que nombra"
       ]
+    },
+    "willow-story-corner.compare-tales.rl-k-9": {
+      "about": [
+        "Willow, la tortuga, lee dos cuentos cortos, dibujo por dibujo. Luego cada pregunta se vuelve un diente de un cierre grande entre los dos cuentos. «¿Quién perdió algo?» va en el centro si pasa en LOS DOS cuentos, de un lado si pasa solo en ese cuento y en el bolsillo si no pasa en ninguno. Después se jala el cierre: en un diente que los dibujos comprueban sigue de largo y se iluminan los dibujos que lo muestran; en un diente mal puesto se atora. Es una actividad interactiva de lectura que se juega en el navegador.",
+        "Cada par de cuentos llena un cierre con cinco dientes: algo que tienen los dos cuentos, algo que tiene solo uno, algo que no tiene ninguno y uno de esos tipos dos veces, para que el último diente nunca se pueda adivinar poniéndolo en el lugar que queda libre. Cuando se cierra el quinto diente, se cierra todo el cierre. En los ajustes se elige Dos cuentos o Dos animales: con dos animales el niño compara dos dibujos (cuál tiene pico, rayas o melena). Escuchar primero decide si Willow lee los cuentos al empezar o solo cuando el niño la toca.",
+        "La actividad se alinea con los planes de estudio de la SEP: comparar personajes y sucesos de dos cuentos. Sin tiempo límite y sin puntos."
+      ],
+      "practices": [
+        "Comparar lo que pasa en dos cuentos",
+        "Decir qué es igual en los dos y qué es diferente",
+        "Comprobar una respuesta con los dibujos y las palabras",
+        "Comparar dos animales: qué tienen los dos y qué tiene solo uno"
+      ],
+      "howToPlay": [
+        "Escucha a Willow leer los dos cuentos o toca un dibujo para oírlo otra vez.",
+        "Lee la pregunta del diente.",
+        "Pon el diente de un lado, en el centro o en el bolsillo y luego cierra el cierre.",
+        "Si el cierre se atora, mira otra vez los dos cuentos."
+      ],
+      "learningGoals": [
+        "El niño dice qué pasa en los dos cuentos",
+        "El niño dice qué pasa solo en uno de ellos",
+        "El niño comprueba una respuesta con los dibujos del cuento"
+      ]
     }
   }
 }

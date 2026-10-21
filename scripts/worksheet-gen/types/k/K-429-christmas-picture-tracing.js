@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-429',
   slug: 'christmas-picture-tracing',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Christmas Picture Tracing: Close Every Bauble on the Tree", instruction: "Trace the tree, the gifts, the armchair and the window. Then close every bauble and star.", printTitle: "Christmas Eve" } },
+  i18n: { en: { title: "Christmas Picture Tracing: Close Every Bauble on the Tree", instruction: "Trace the tree, the gifts, the armchair and the window. Then trace round every bauble and star.", printTitle: "Christmas Eve" } },
 };

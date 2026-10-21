@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-425',
   slug: 'trace-and-color-picnic',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Trace and Color the Picture: A Picnic Under the Tree", instruction: "Trace the picnic pictures. Then color them in any colors you like.", printTitle: "The Picnic" } },
+  i18n: { en: { title: "Trace and Color the Picture: A Picnic Under the Tree", instruction: "Trace the whole picnic picture. Then color it in any colors you like.", printTitle: "The Picnic" } },
 };

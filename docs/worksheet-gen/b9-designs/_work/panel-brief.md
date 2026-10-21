@@ -15,6 +15,13 @@ nl = Netherlands, sv = Sweden, da = Denmark, fi = Finland, de = Germany).
 - The ENGLISH landings, as the SHAPE of a landing (fields, length, what a paragraph does), never as text to translate: C:\Users\rkgen\lessoncraftstudio\docs\worksheet-gen\b9-designs\_records\landings.en.json
 - The vocabulary file (for the F17 words): C:\Users\rkgen\lessoncraftstudio\REFERENCE TRANSLATIONS\image-vocabulary.js (keys sun, fish, cat, apple).
 
+## Already fixed (2026-10-22, after the de + fr panels' audit) — the renders above are CURRENT
+K-421 shows a beach ball, a DOUGHNUT and an apple (the apple's little leaf is dashed too); K-422 down = wardrobe + tall
+cabinet, across = whiteboard + chest of drawers, slanted = envelope + star; K-425 picnic = banana, cup, pear, lemon;
+K-429 tree in a real pot + a long dashed rug in front of the tree (it is a long capsule, NOT round); K-431 the boat sits on the first wave; G1-429 is "a morning in town" with
+a dotted sun; G1-431 animals on their own meadow line; G1-432 owl, TROPHY, koala; G1-433 one flower. Audit what is on
+the page now, not this list.
+
 ## FIRST: audit the English source (it is the only review the English ever gets)
 Compare every EN title / printTitle / instruction and every EN landing with the RENDER. List every claim that is not true
 of the page (a picture named that is not there, a count that is wrong, a promise the PDF does not keep), every unclear
@@ -73,5 +80,5 @@ SELF-CHECK (run from C:\Users\rkgen\lessoncraftstudio\scripts\worksheet-gen, fix
    node tools/b9-draft-from-panel.js <loc> ../../docs/worksheet-gen/b9-designs/_records/panel.<loc>.json
    node tools/validate-b9-draft.js <loc>
    node tools/check-b9-landing-draft.js <loc> ../../docs/worksheet-gen/b9-designs/_records/landings.<loc>.json
-(validate-b9-draft may report ONLY that G1-430 refuses because your words are not applied yet — expected; everything else must be clean.) Do NOT run apply-b9-locale.js and do not edit any other file. Report back: the validator results, your enAudit list,
+(all three must be clean: 20 faces, 0 errors, PASS.) Do NOT run apply-b9-locale.js and do not edit any other file. Report back: the validator results, your enAudit list,
 and any face you think should not ship in your locale (with the reason).

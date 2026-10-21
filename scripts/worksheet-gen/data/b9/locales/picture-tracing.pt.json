@@ -1,0 +1,110 @@
+{
+  "strings": {
+    "base": {
+      "title": "Desenhos pontilhados: cubra o caminho do jardim até a porta",
+      "printTitle": "O caminho até a porta",
+      "instruction": "Cubra o pontilhado para terminar o jardim: a casa, a árvore, a borboleta, as tulipas e o coelho."
+    },
+    "first-tracing": {
+      "title": "Cobrir pontilhado na educação infantil: minha primeira baleia",
+      "printTitle": "Meu primeiro pontilhado",
+      "instruction": "Comece no ponto e siga a seta. Cubra a baleia grande bem devagar, até o fim."
+    },
+    "look-then-trace": {
+      "title": "Observe o modelo e cubra o desenho: pinguim e canguru",
+      "printTitle": "Olhe e depois cubra",
+      "instruction": "Olhe o desenho no quadro. Depois cubra o mesmo animal ao lado, começando no ponto."
+    },
+    "round-and-round": {
+      "title": "Atividades de cobrir pontilhado para 3 e 4 anos: figuras redondas",
+      "printTitle": "Rodando, rodando",
+      "instruction": "Comece em cada ponto e cubra dando a volta toda, como na letra o."
+    },
+    "straight-lines": {
+      "title": "Coordenação motora: desenhos pontilhados de linhas retas",
+      "printTitle": "Em pé, deitado, inclinado",
+      "instruction": "Siga as setas: cubra as linhas em pé, depois as deitadas e, por fim, as inclinadas."
+    },
+    "zigzags": {
+      "title": "Cobrir o pontilhado em zigue-zague: tempestade no acampamento",
+      "printTitle": "Tempestade no acampamento",
+      "instruction": "Cubra os zigue-zagues das montanhas, das árvores, da barraca e dos raios. Pare em cada ponta."
+    },
+    "curls": {
+      "title": "Desenho para cobrir: espirais e voltinhas do caracol ao cata-vento",
+      "printTitle": "A galeria das espirais",
+      "instruction": "Cubra as espirais e as voltinhas: o caracol, o pirulito, o laço, o pretzel e o cata-vento."
+    },
+    "trace-and-color": {
+      "title": "Cubra e pinte: o piquenique debaixo da árvore",
+      "printTitle": "O piquenique",
+      "instruction": "Cubra todo o desenho do piquenique. Depois pinte com as cores que você quiser."
+    },
+    "where-to-start": {
+      "title": "Desenhos pontilhados para a educação infantil: por onde começo?",
+      "printTitle": "Por onde eu começo?",
+      "instruction": "Comece em cada ponto e siga a seta. Desça a escada, um desenho de cada vez."
+    },
+    "trace-and-count": {
+      "title": "Cubra e conte: quantos patos estão na lagoa?",
+      "printTitle": "Patos na lagoa",
+      "instruction": "Cubra os patos. Conte quantos são. Escreva o número no quadrinho."
+    },
+    "finish-the-picture": {
+      "title": "Complete o desenho cobrindo o pontilhado: a prateleira de consertos",
+      "printTitle": "A prateleira de consertos",
+      "instruction": "Cubra o pontilhado e termine cada desenho: rodas, bico, cabo, asa, ponta e orelhas."
+    },
+    "christmas": {
+      "title": "Desenhos pontilhados de Natal: a árvore cheia de bolinhas",
+      "printTitle": "Noite de Natal",
+      "instruction": "Cubra a árvore, os presentes, a poltrona e a janela. Depois cubra cada bolinha e cada estrela."
+    },
+    "shape-picture": {
+      "title": "Formas geométricas pontilhadas: um foguete de círculos e triângulos",
+      "printTitle": "O foguete das formas",
+      "instruction": "Cubra todas as formas do foguete e do céu. Depois pinte todos os círculos."
+    },
+    "summer-sea": {
+      "title": "Desenhos pontilhados de praia: um cartão-postal do mar",
+      "printTitle": "Um cartão-postal da praia",
+      "instruction": "Cubra as ondas da esquerda para a direita. Depois cubra o barco e a praia."
+    },
+    "big-middle-small": {
+      "title": "Desenhos pontilhados de transportes: grande, médio e pequeno",
+      "printTitle": "Grande, médio, pequeno",
+      "instruction": "Em cada fileira, cubra o grande, depois o médio e depois o pequeno."
+    },
+    "dotted-street": {
+      "title": "Desenhos pontilhados para o 1º ano: uma manhã na cidade",
+      "printTitle": "Uma manhã na cidade",
+      "instruction": "Cubra os pontinhos com cuidado, até os detalhes pequenos."
+    },
+    "picture-and-word": {
+      "title": "Cubra o desenho, diga o nome e cubra a palavra: 1º ano",
+      "printTitle": "Desenhos e palavras",
+      "instruction": "Cubra o desenho. Diga o nome dele. Cubra a palavra embaixo."
+    },
+    "trace-and-draw": {
+      "title": "Cubra o desenho e depois desenhe: o que tem na carreta?",
+      "printTitle": "O que tem na carreta?",
+      "instruction": "Cubra a fazenda. Depois desenhe o que o trator está levando na carreta vazia."
+    },
+    "other-half": {
+      "title": "Simetria com desenhos pontilhados: complete a outra metade",
+      "printTitle": "A outra metade",
+      "instruction": "Cubra a metade pontilhada para que os dois lados de cada desenho fiquem iguais."
+    },
+    "hidden-animals": {
+      "title": "Desenhos pontilhados de animais: ache os 5 bichos escondidos",
+      "printTitle": "Quem se esconde na floresta?",
+      "instruction": "Encontre os 5 animais escondidos na floresta. Depois cubra cada um deles."
+    }
+  },
+  "words": [
+    "sol",
+    "peixe",
+    "gato",
+    "maçã"
+  ]
+}

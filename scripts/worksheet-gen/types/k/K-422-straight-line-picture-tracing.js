@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-422',
   slug: 'straight-line-picture-tracing',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Straight-Line Picture Tracing: Down, Across and Slanted", instruction: "Trace the lines that go down, then the lines that go across, then the slanted ones.", printTitle: "Down, Across, Slanted" } },
+  i18n: { en: { title: "Straight-Line Picture Tracing: Down, Across and Slanted", instruction: "Follow the arrows, one column at a time: trace the pictures that go down, then across, then slanted.", printTitle: "Down, Across, Slanted" } },
 };

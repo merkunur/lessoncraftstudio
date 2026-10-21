@@ -453,5 +453,9 @@
     "full": "Desenhar uma linha em um labirinto ilustrado e escolher em cada cruzamento a próxima letra, o próximo número ou a próxima conta desenvolve o planejamento e o traçado; com gabarito.",
     "short": "Desenvolve planejamento e traçado em um labirinto ilustrado.",
     "levelSetShort": "Desenvolve o planejamento."
+  },
+  "picture-tracing": {
+    "full": "Cobrir desenhos pontilhados inteiros desenvolve a coordenação motora fina, o controle do lápis e a coordenação olho-mão, preparando para a escrita.",
+    "short": "Coordenação motora fina e preparação para a escrita"
   }
 }

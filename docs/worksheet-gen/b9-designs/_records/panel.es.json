@@ -1,0 +1,134 @@
+{
+ "locale": "es",
+ "strings": {
+  "base": {
+   "title": "Dibujos para repasar: el caminito del jardín hasta la puerta",
+   "printTitle": "El camino hasta la puerta",
+   "instruction": "Repasa las líneas para terminar el jardín: la casa, el árbol, la mariposa, los tulipanes y el conejo."
+  },
+  "first-tracing": {
+   "title": "Dibujos punteados preescolar: mi primera ballena grande",
+   "printTitle": "Mi primer dibujo para repasar",
+   "instruction": "Empieza en el punto. Repasa la ballena grande despacito, siguiendo la flecha."
+  },
+  "look-then-trace": {
+   "title": "Repasa el dibujo: mira el animal del marco y luego repásalo",
+   "printTitle": "Mira y luego repasa",
+   "instruction": "Mira el dibujo del marco. Luego repasa el mismo animal que está a un lado."
+  },
+  "round-and-round": {
+   "title": "Trazos para niños de 3 años: dibujos redondos para repasar",
+   "printTitle": "Vueltas y vueltas",
+   "instruction": "Empieza en cada punto y repasa dando la vuelta, como cuando haces la letra o."
+  },
+  "straight-lines": {
+   "title": "Trazos en dibujos: líneas verticales, horizontales e inclinadas",
+   "printTitle": "Hacia abajo, de lado, inclinado",
+   "instruction": "Repasa primero las líneas que bajan, luego las que van de lado y al final las inclinadas."
+  },
+  "zigzags": {
+   "title": "Dibujos para repasar en zigzag: tormenta sobre el campamento",
+   "printTitle": "Tormenta sobre el campamento",
+   "instruction": "Repasa los zigzags de las montañas, los pinos, la casa de campaña y los rayos. Detente en cada pico."
+  },
+  "curls": {
+   "title": "Dibujos con espirales para repasar: caracol, paleta y moño",
+   "printTitle": "La galería de espirales",
+   "instruction": "Repasa las espirales y los lazos: el caracol, la paleta, el moño, el pretzel y el rehilete."
+  },
+  "trace-and-color": {
+   "title": "Dibujos para repasar y colorear: un día de campo bajo el árbol",
+   "printTitle": "El día de campo",
+   "instruction": "Repasa los dibujos del día de campo. Luego coloréalos con los colores que quieras."
+  },
+  "where-to-start": {
+   "title": "Dibujos para repasar en preescolar: ¿dónde empiezo?",
+   "printTitle": "¿Dónde empiezo?",
+   "instruction": "Empieza en cada punto y sigue la flecha. Baja la escalera, un dibujo a la vez."
+  },
+  "trace-and-count": {
+   "title": "Dibujos de animales punteados: ¿cuántos patos hay en el estanque?",
+   "printTitle": "Patos en el estanque",
+   "instruction": "Repasa los patos. Cuéntalos. Escribe en el cuadro cuántos hay."
+  },
+  "finish-the-picture": {
+   "title": "Completa el dibujo: repasa las partes que faltan en la repisa",
+   "printTitle": "La repisa de los arreglos",
+   "instruction": "Repasa lo punteado para completar cada dibujo: llantas, pico, mango, asa, punta y orejas."
+  },
+  "christmas": {
+   "title": "Dibujos de Navidad para repasar: las esferas del árbol",
+   "printTitle": "Nochebuena",
+   "instruction": "Repasa el árbol, los regalos, el sillón, la ventana y el tapete. Luego repasa el contorno de cada esfera y estrella."
+  },
+  "shape-picture": {
+   "title": "Figuras para repasar: un cohete de círculos, cuadrados y triángulos",
+   "printTitle": "El cohete de figuras",
+   "instruction": "Repasa todas las figuras del cohete y del cielo. Luego colorea todos los círculos."
+  },
+  "summer-sea": {
+   "title": "Dibujos para repasar del mar: las olas de una postal de verano",
+   "printTitle": "Una postal del mar",
+   "instruction": "Repasa las olas de izquierda a derecha. Luego repasa el velero y la playa."
+  },
+  "big-middle-small": {
+   "title": "Dibujos punteados para niños: grande, mediano y pequeño",
+   "printTitle": "Grande, mediano, pequeño",
+   "instruction": "En cada fila, repasa el grande, luego el mediano y al final el pequeño."
+  },
+  "dotted-street": {
+   "title": "Dibujos punteados para primer grado: una mañana en el pueblo",
+   "printTitle": "Una mañana en el pueblo",
+   "instruction": "Repasa con cuidado las líneas de puntitos, también los detalles pequeños."
+  },
+  "picture-and-word": {
+   "title": "Repasa el dibujo, di su nombre y repasa la palabra",
+   "printTitle": "Dibujos y palabras",
+   "instruction": "Repasa el dibujo. Di su nombre. Repasa la palabra que está abajo."
+  },
+  "trace-and-draw": {
+   "title": "Repasa el dibujo y luego dibuja: ¿qué lleva el remolque?",
+   "printTitle": "¿Qué lleva el remolque?",
+   "instruction": "Repasa la granja. Luego dibuja en el remolque vacío lo que lleva el tractor."
+  },
+  "other-half": {
+   "title": "Simetría para repasar: completa la otra mitad del dibujo",
+   "printTitle": "La otra mitad",
+   "instruction": "Repasa la mitad punteada para que los dos lados de cada dibujo queden iguales."
+  },
+  "hidden-animals": {
+   "title": "Animales escondidos para repasar: encuentra los 5 en el bosque",
+   "printTitle": "¿Quién se esconde en el bosque?",
+   "instruction": "Encuentra los 5 animales escondidos en el bosque. Repásalos."
+  }
+ },
+ "words": [
+  "sol",
+  "pez",
+  "gato",
+  "manzana"
+ ],
+ "family": {
+  "slug": "dibujos-para-repasar",
+  "name": "Dibujos para repasar"
+ },
+ "skill": {
+  "full": "Repasar dibujos completos fortalece la motricidad fina, la coordinación ojo-mano y el control del lápiz, y prepara la mano para escribir.",
+  "short": "Motricidad fina y preparación para la escritura"
+ },
+ "topicMeta": "Dibujos para repasar para preescolar y primer grado: imágenes completas punteadas para seguir con el lápiz, del primer trazo a la escena detallada. PDF.",
+ "enAudit": [
+  "K-420 landing metaDescription: \"A penguin and a kangaroo shown as finished photos\" is untrue: the models are solid line drawings in frames, not photos. Fix: \"shown as finished drawings\" (es: \"ya dibujados en un marco\").",
+  "K-424 instruction + landing p1: \"Trace the curls round and round\" / \"every picture is made of curls\" is untrue for three of five frames: the bow is two loops, the pretzel is crossing loops and the pinwheel is curved blades round a small circle; only the snail shell and the lollipop are spirals. Fix: \"Trace the spirals and loops: the snail, the lollipop, the bow, the pretzel and the pinwheel.\" (es does so).",
+  "K-428 instruction: \"two handles\" lumps the umbrella with the cup, but the umbrella part is a long shaft with a crook, not a handle like the cup's. Minor; es names all six parts separately (llantas, pico, mango, asa, punta, orejas).",
+  "K-429: the dashed rounded bar under the floor line still reads as an empty label or name field; nothing on the page shows it is a rug (no fringe, no pattern) and the EN instruction never names it. Fix at source: a fringe or a pattern on the rug; until then the text should name it (es instruction lists el tapete).",
+  "K-419 instruction \"all the way round\": the whale is several separate dashed runs (back and head, belly, two flippers, tail), so a child cannot go all the way round in one line. Fix: \"Start at the dot and trace the big whale slowly, following the arrow.\" (es does so).",
+  "K-421 EN title \"for Toddlers\": three round pictures with start dots and a letter-o direction suit 3-4-year-olds (preschool), not toddlers under 3.",
+  "K-431 landing p1: \"Everything except the postcard frame and the stamp is dashed\" is not quite true: the sun's rays are solid. Minor.",
+  "G1-429: the bus wheels and parts of the dog are filled clusters of dots rather than lines of dots, so a child cannot trace them as one line; the rest of the street is clean. Fix at source: draw the bus wheels as dotted rings like the car's.",
+  "G1-429 landing calls the right building \"a big hotel\"; nothing on the page says hotel (it is a tall building with many windows and a small tree each side). es names it neutrally.",
+  "G1-431 landing: the right farm animal reads as a calf (small body, tuft on its head) rather than a grown cow; es calls it un becerro (calf) and the middle bird un pato. EN \"cow\" is borderline, \"goose\" acceptable.",
+  "G1-433: the rabbit, the fox and the mouse stand on open ground beside the path, so only the owl and the squirrel are really hidden; the title promise \"hidden\" is soft. Acceptable at G1 (they hide by being dashed among solid lines), noted.",
+  "K-422 pedagogy: every object has lines in all three directions (the wardrobe has across bars, the chest of drawers has upright sides), so the columns show the DOMINANT direction only; the instruction and landings should say mostly (es p1 does)."
+ ]
+}

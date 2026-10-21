@@ -1033,39 +1033,48 @@
   },
   "K-405": {
     "title": "Picture Maze: Help the Hedgehog Reach the Apple Tree",
-    "instruction": "Help the hedgehog get to the apple tree. Draw a line along the way."
+    "instruction": "Help the hedgehog get to the apple tree. Draw a line along the way.",
+    "printTitle": "Help the Hedgehog Reach the Apple Tree"
   },
   "K-406": {
     "title": "My First Maze for Preschool: The Puppy and the Ball",
-    "instruction": "Help the puppy get to the ball. Draw a line along the wide road and stay between its edges."
+    "instruction": "Help the puppy get to the ball. Draw a line along the wide road and stay between its edges.",
+    "printTitle": "Help the Puppy Get to the Ball"
   },
   "K-407": {
     "title": "River Maze: Sail the Boat to the Teddy Bear",
-    "instruction": "Help the boat sail along the stream to the teddy bear on the dock. Draw a line through the water."
+    "instruction": "Help the boat sail along the stream to the teddy bear on the dock. Draw a line through the water.",
+    "printTitle": "Sail the Boat to the Teddy Bear"
   },
   "K-408": {
     "title": "Babies and Mothers Maze on the Farm",
-    "instruction": "Help each baby animal find its own mother. Draw a line from every baby to its mother."
+    "instruction": "Help each baby animal find its own mother. Draw a line from every baby to its mother.",
+    "printTitle": "Help Each Baby Find Its Mother"
   },
   "K-409": {
     "title": "Alphabet Maze A to Z: Rocket to the Moon",
-    "instruction": "Help the rocket fly to the moon. At every fork, go to the stone with the next letter of the alphabet."
+    "instruction": "Help the rocket fly to the moon. At every fork, go to the stone with the next letter of the alphabet.",
+    "printTitle": "Fly the Rocket to the Moon from A to Z"
   },
   "K-410": {
     "title": "Lowercase Letter Maze a to z: Under the Sea",
-    "instruction": "Help the clownfish swim to the coral. At every fork, go to the bubble with the next small letter."
+    "instruction": "Help the clownfish swim to the coral. At every fork, go to the bubble with the next small letter.",
+    "printTitle": "Swim Home from a to z"
   },
   "K-411": {
     "title": "Number Maze 1 to 20: The Little Train",
-    "instruction": "Help the train get to the cabin. At every fork, go to the next number from 1 to 20."
+    "instruction": "Help the train get to the cabin. At every fork, go to the next number from 1 to 20.",
+    "printTitle": "Count Along with the Train to the Cabin"
   },
   "K-412": {
     "title": "Beginning Sounds Maze: Pictures That Start Like Lion",
-    "instruction": "Say each picture's name. Step only on pictures that start with the same sound as lion."
+    "instruction": "Say each picture's name. Step only on pictures that start with the same sound as lion.",
+    "printTitle": "Pictures That Start Like Lion"
   },
   "K-413": {
     "title": "Maze Coloring Page: The Crab at the Beach",
-    "instruction": "Draw the crab's way to the sandcastle and color the whole road. Then color the beach picture."
+    "instruction": "Draw the crab's way to the sandcastle and color the whole road. Then color the beach picture.",
+    "printTitle": "Solve the Maze, Then Color the Beach"
   },
   "K-414": {
     "title": "Number Bonds of 6",
@@ -1085,63 +1094,78 @@
   },
   "K-418": {
     "title": "Picture Tracing Worksheets: Trace the Garden Path to the Door",
-    "instruction": "Trace all the dashed lines to finish the garden: the house, the tree, the flowers and the rabbit."
+    "instruction": "Trace all the dashed lines to finish the garden: the house, the tree, the flowers and the rabbit.",
+    "printTitle": "The Path to the Door"
   },
   "K-419": {
     "title": "Tracing Worksheets for Preschool: My First Big Whale",
-    "instruction": "Start at the dot. Trace the big whale with one slow, steady line."
+    "instruction": "Start at the dot. Trace the big whale with one slow, steady line.",
+    "printTitle": "My First Tracing"
   },
   "K-420": {
     "title": "Trace the Picture: Look at the Animal, Then Trace It",
-    "instruction": "Look at the photo. Then trace the same animal next to it."
+    "instruction": "Look at the photo. Then trace the same animal next to it.",
+    "printTitle": "Look, Then Trace"
   },
   "K-421": {
     "title": "Tracing Worksheets for Toddlers: Round and Round Pictures",
-    "instruction": "Start at each dot and trace round and round, like the letter o."
+    "instruction": "Start at each dot and trace round and round, like the letter o.",
+    "printTitle": "Round and Round"
   },
   "K-422": {
     "title": "Straight-Line Picture Tracing: Down, Across and Slanted",
-    "instruction": "Trace the lines that go down, then the lines that go across, then the slanted ones."
+    "instruction": "Trace the lines that go down, then the lines that go across, then the slanted ones.",
+    "printTitle": "Down, Across, Slanted"
   },
   "K-423": {
     "title": "Trace the Picture: Zigzag Mountains and a Stormy Camp",
-    "instruction": "Trace the zigzags of the mountains, the trees, the tent and the lightning. Stop at every point."
+    "instruction": "Trace the zigzags of the mountains, the trees, the tent and the lightning. Stop at every point.",
+    "printTitle": "Storm over the Camp"
   },
   "K-424": {
     "title": "Tracing Pictures for Kids: Curls and Spirals",
-    "instruction": "Trace the curls round and round: the snail, the lollipop, the bow, the pretzel and the pinwheel."
+    "instruction": "Trace the curls round and round: the snail, the lollipop, the bow, the pretzel and the pinwheel.",
+    "printTitle": "The Curl Gallery"
   },
   "K-425": {
     "title": "Trace and Color the Picture: A Picnic Under the Tree",
-    "instruction": "Trace the picnic pictures. Then color them in any colors you like."
+    "instruction": "Trace the picnic pictures. Then color them in any colors you like.",
+    "printTitle": "The Picnic"
   },
   "K-426": {
     "title": "Picture Tracing for Kindergarten: Where Do I Start?",
-    "instruction": "Start at each dot and follow the arrow. Go down the stairs, one picture at a time."
+    "instruction": "Start at each dot and follow the arrow. Go down the stairs, one picture at a time.",
+    "printTitle": "Where Do I Start?"
   },
   "K-427": {
     "title": "Trace and Count: How Many Ducks Are on the Pond?",
-    "instruction": "Trace the ducks. Count them. Write how many in the box."
+    "instruction": "Trace the ducks. Count them. Write how many in the box.",
+    "printTitle": "Ducks on the Pond"
   },
   "K-428": {
     "title": "Picture Tracing Sheets: Finish the Picture",
-    "instruction": "Trace the dashed parts to finish each picture: wheels, a spout, a handle, a point and ears."
+    "instruction": "Trace the dashed parts to finish each picture: wheels, a spout, a handle, a point and ears.",
+    "printTitle": "The Mending Shelf"
   },
   "K-429": {
     "title": "Christmas Picture Tracing: Close Every Bauble on the Tree",
-    "instruction": "Trace the Christmas tree. Then trace every bauble and star all the way round."
+    "instruction": "Trace the Christmas tree. Then trace every bauble and star all the way round.",
+    "printTitle": "Christmas Eve"
   },
   "K-430": {
     "title": "Shape Picture Tracing: A Rocket of Circles, Squares and Triangles",
-    "instruction": "Trace every shape of the rocket and the sky. Then color every circle."
+    "instruction": "Trace every shape of the rocket and the sky. Then color every circle.",
+    "printTitle": "The Shape Rocket"
   },
   "K-431": {
     "title": "Summer Picture Tracing: Trace the Waves Across the Sea",
-    "instruction": "Trace the waves from left to right. Then trace the boat and the beach."
+    "instruction": "Trace the waves from left to right. Then trace the boat and the beach.",
+    "printTitle": "A Postcard from the Sea"
   },
   "K-432": {
     "title": "Tracing Pictures for Kids: Big, Middle and Small",
-    "instruction": "In every row, trace the big one, then the middle one, then the small one."
+    "instruction": "In every row, trace the big one, then the middle one, then the small one.",
+    "printTitle": "Big, Middle, Small"
   },
   "G1-101": {
     "title": "Add the Pictures",
@@ -2170,59 +2194,73 @@
   },
   "G1-420": {
     "title": "Big Picture Maze for 1st Grade: The Orangutan in the Jungle",
-    "instruction": "Look at the whole maze first. Then draw the orangutan's way to the banana tree."
+    "instruction": "Look at the whole maze first. Then draw the orangutan's way to the banana tree.",
+    "printTitle": "Help the Orangutan Find the Banana Tree"
   },
   "G1-421": {
     "title": "Underground Maze: The Ant's Tunnels",
-    "instruction": "Help the ant go down and up through the tunnels to the raspberry. Draw a line along the way."
+    "instruction": "Help the ant go down and up through the tunnels to the raspberry. Draw a line along the way.",
+    "printTitle": "Help the Ant Reach Its Raspberry"
   },
   "G1-422": {
     "title": "Town Maze: Find the Shortest Way",
-    "instruction": "Many streets lead to the green car. Draw the shortest way for the tow truck and write how many street pieces it takes."
+    "instruction": "Many streets lead to the green car. Draw the shortest way for the tow truck and write how many street pieces it takes.",
+    "printTitle": "The Shortest Way to the Green Car"
   },
   "G1-423": {
     "title": "Tangled Lines Puzzle: Whose Kite Is It?",
-    "instruction": "Follow each string from an animal to its kite or balloon. Write the animal's number in the box above it."
+    "instruction": "Follow each string from an animal to its kite or balloon. Write the animal's number in the box above it.",
+    "printTitle": "Whose Kite Is It?"
   },
   "G1-424": {
     "title": "Collect-the-Carrots Maze: The Rabbit's Garden",
-    "instruction": "Help the rabbit get to the bucket and pick up every carrot, without using a path twice. Tick a circle for each carrot."
+    "instruction": "Help the rabbit get to the bucket and pick up every carrot, without using a path twice. Tick a circle for each carrot.",
+    "printTitle": "Help the Rabbit Pick Up Every Carrot"
   },
   "G1-425": {
     "title": "Avoid the Walruses: Polar Bear Maze",
-    "instruction": "Help the polar bear get to the igloo. Do not take a road with a walrus or a hole in the ice."
+    "instruction": "Help the polar bear get to the igloo. Do not take a road with a walrus or a hole in the ice.",
+    "printTitle": "Bring the Polar Bear Home Safely"
   },
   "G1-426": {
     "title": "ABC Order Letter Hop: The Bear's Honeycomb",
-    "instruction": "Start in the cell the arrow points to. Color each next letter of the alphabet in a touching cell, all the way to {LAST}."
+    "instruction": "Start in the cell the arrow points to. Color each next letter of the alphabet in a touching cell, all the way to {LAST}.",
+    "printTitle": "Hop Through the Honeycomb in ABC Order"
   },
   "G1-427": {
     "title": "Addition Maze for 1st Grade: Sums That Make 10",
-    "instruction": "Help the giraffe get to the baobab tree. Step only on the stones whose sum is 10."
+    "instruction": "Help the giraffe get to the baobab tree. Step only on the stones whose sum is 10.",
+    "printTitle": "Step on the Sums That Make 10"
   },
   "G1-428": {
     "title": "Subtraction Maze Within 20: The Gingerbread Man",
-    "instruction": "Look at the number by the gingerbread man. Step only on the stones whose answer is that number."
+    "instruction": "Look at the number by the gingerbread man. Step only on the stones whose answer is that number.",
+    "printTitle": "Help the Gingerbread Man Reach the Cake"
   },
   "G1-429": {
     "title": "Dotted Picture Tracing for 1st Grade: A Town Street",
-    "instruction": "Trace the dotted lines carefully, the small details too."
+    "instruction": "Trace the dotted lines carefully, the small details too.",
+    "printTitle": "Morning on Main Street"
   },
   "G1-430": {
     "title": "Trace the Picture, Say Its Name and Trace the Word",
-    "instruction": "Trace the picture. Say its name. Trace the word under it."
+    "instruction": "Trace the picture. Say its name. Trace the word under it.",
+    "printTitle": "Picture Words"
   },
   "G1-431": {
     "title": "Trace the Picture, Then Draw: What Is in the Trailer?",
-    "instruction": "Trace the farm. Then draw what the tractor is carrying in the empty trailer."
+    "instruction": "Trace the farm. Then draw what the tractor is carrying in the empty trailer.",
+    "printTitle": "What Is in the Trailer?"
   },
   "G1-432": {
     "title": "Symmetry Picture Tracing: Trace the Other Half",
-    "instruction": "Trace the dashed half so both sides of each picture look the same."
+    "instruction": "Trace the dashed half so both sides of each picture look the same.",
+    "printTitle": "The Other Half"
   },
   "G1-433": {
     "title": "Animal Tracing Pictures: Find the 5 Hidden Animals",
-    "instruction": "Find the 5 hidden animals in the forest. Trace them."
+    "instruction": "Find the 5 hidden animals in the forest. Trace them.",
+    "printTitle": "Who Hides in the Forest?"
   },
   "G2-203": {
     "title": "Add the Blocks",
@@ -2943,11 +2981,13 @@
   },
   "G2-392": {
     "title": "Skip Counting Maze by 5s: Balloon to the Rainbow",
-    "instruction": "Help the balloon float to the rainbow. Count by 5s from cloud to cloud, all the way to 100."
+    "instruction": "Help the balloon float to the rainbow. Count by 5s from cloud to cloud, all the way to 100.",
+    "printTitle": "Count by 5s to the Rainbow"
   },
   "G2-393": {
     "title": "Math Maze for 2nd Grade: Add and Subtract Within 100",
-    "instruction": "Start with the truck's number and, on your road, write the new number in each sign's box. Find the road that ends on the crane's number."
+    "instruction": "Start with the truck's number and, on your road, write the new number in each sign's box. Find the road that ends on the crane's number.",
+    "printTitle": "Bring the Crane Its Number"
   },
   "G3-301": {
     "title": "Big Arrays",

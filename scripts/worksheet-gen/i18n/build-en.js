@@ -23,7 +23,9 @@ function buildEn() {
     if (!spec.i18n || !spec.i18n.en || !spec.i18n.en.title || !spec.i18n.en.instruction) {
       throw new Error('build-en: spec ' + spec.id + ' missing i18n.en {title, instruction}');
     }
-    out[spec.id] = { title: spec.i18n.en.title, instruction: spec.i18n.en.instruction };
+    // printTitle travels too: a strings entry WITHOUT it hides the spec's printed heading (resolveStrings reads the file
+    // first) — the b8 / b9 faces printed their SEO title instead of their heading (2026-10-22)
+    out[spec.id] = { title: spec.i18n.en.title, instruction: spec.i18n.en.instruction, ...(spec.i18n.en.printTitle ? { printTitle: spec.i18n.en.printTitle } : {}) };
     const band = spec.id.split('-')[0];
     const key = band + '|' + spec.i18n.en.title.toLowerCase();
     (byBandTitle[key] = byBandTitle[key] || []).push(spec.id);

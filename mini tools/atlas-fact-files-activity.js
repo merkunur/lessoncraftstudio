@@ -95,6 +95,7 @@ var AtlasFactFilesActivity = {
     if (!this._pool || this._poolKey !== k) { this._pool = AtlasFactFilesCore.plan(this._loc(), this._level(), Math.random, 0, null); this._poolKey = k; this._order = null; this._pass = 0; this._deal = null; }
     return this._pool;
   },
+  /* the round id names the FACT (or the file): the next pass asks the other question of the same nine facts — the same items, a new order */
   nextTask: function (opts) {
     var C = AtlasFactFilesCore, pool = this._ensurePool(), n = pool.length, index = (opts && opts.index) || 0, pass = Math.floor(index / n);
     if (pass > this._pass) { this._pool = C.plan(this._loc(), this._level(), Math.random, pass, pool); this._pass = pass; pool = this._pool; this._order = null; this._deal = null; this._drawer = 0; }
@@ -104,7 +105,7 @@ var AtlasFactFilesActivity = {
     var k = (this._order && this._orderForPool === pool && this._order.length === n) ? this._order[index % n] : index % n, r = pool[k], dl = this._deal[k], pa = { msg: '' }; this._pa = pa;
     var instr = r.level === 'find' ? 'instrFind' : r.level === 'file' ? 'instrFile' : 'instrBank';
     return {
-      id: 'atlas.' + r.loc + '.' + r.id, promptKey: instr, promptArgs: pa, celebrateKey: 'okBubble', answerType: 'state',
+      id: 'atlas.' + r.loc + '.' + r.level + '.' + r.key, promptKey: instr, promptArgs: pa, celebrateKey: 'okBubble', answerType: 'state',
       setup: function (tool) { tool._clearTimers(); tool._busy = false; tool._view = {}; tool._drag = null; tool._sel = null; tool._anchor = null; tool._cur = null; tool.st = C.newState(r, dl); },
       check: function (tool) { return !!(tool.st && tool.st.done); }
     };

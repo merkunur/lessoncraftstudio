@@ -2607,25 +2607,25 @@
     },
     "choice-board.tell-words-apart.rf-k-3-c": {
       "about": [
-        "Il bambino ascolta una parola di uso frequente letta ad alta voce e poi la riconosce tra tre \"gemelle\" molto somiglianti: per esempio distingue una parola dalle sue compagne che cambiano solo per una o due lettere. È un'attività interattiva di lettura per la classe prima, con il suono e senza registrazione, da fare comodamente nel browser.",
-        "Queste parole si assomigliano moltissimo, perciò un'occhiata veloce non basta. Il bambino deve tenere a mente la parola ascoltata e controllare le scelte scritte lettera per lettera, fino a trovare quella esatta, notando le piccole differenze di ordine o di lettera che cambiano tutto. È proprio questa lettura attenta che trasforma i tentativi incerti nel riconoscimento rapido e sicuro delle parole su cui si basa una lettura scorrevole.",
-        "L'attività è allineata alle Indicazioni nazionali per la scuola primaria, nell'ambito della lettura: riconoscere a colpo d'occhio le parole più frequenti. Nessun timer e nessun punteggio, solo pratica serena."
+        "Ogni piccola parola è una chiave, e le sue lettere sono i denti. Nello spazio di una frase c’è un lucchetto – «___ gatto dorme.» – e il bambino prende una chiave dal gancio e la gira. Solo il apre il lucchetto; in, li e al gli somigliano, ma i loro denti sono nel posto sbagliato. Un’attività di lettura interattiva che funziona nel browser.",
+        "Una chiave sbagliata si blocca e mostra perché: i denti diversi si illuminano, un dente in più sporge dal lucchetto, uno che manca lascia una tacca vuota. Dopo due tentativi il lucchetto diventa di vetro e mostra quante lettere gli servono. Nel mazzo di chiavi tre frasi si dividono tre chiavi – il, in e al – e ogni chiave apre esattamente un lucchetto; così ogni parola simile è giusta da qualche parte, e il bambino deve leggere la parola e la frase. Per tagliare la chiave, il bambino taglia la parola dente per dente da una fila di lettere. Ogni lucchetto aperto appende la sua chiave all’anello.",
+        "L’attività segue le Indicazioni nazionali: leggere con precisione le parole frequenti e distinguerle da parole simili. Un’impostazione nasconde i disegni per i lettori più sicuri. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Tenere a mente una parola ascoltata mentre si osservano le scelte scritte.",
-        "Distinguere parole quasi identiche che cambiano solo per una o due lettere.",
-        "Leggere ogni parola fino in fondo invece di indovinare dalla prima lettera.",
-        "Costruire un riconoscimento rapido e preciso delle parole ad alta frequenza."
+        "Leggere le parole frequenti lettera per lettera",
+        "Distinguere parole simili, come il, in e al",
+        "Scegliere la parola che serve alla frase",
+        "Scrivere una parola frequente con le sue lettere"
       ],
       "howToPlay": [
-        "Il bambino tocca per ascoltare la parola e può riascoltarla quante volte vuole.",
-        "Osserva le scelte e tocca quella che corrisponde alla parola sentita, poi controlla.",
-        "Se le ha confuse, può riprovare: non c'è timer e non c'è punteggio."
+        "Leggi la frase con il lucchetto.",
+        "Tocca una chiave o trascinala nel lucchetto.",
+        "Premi «Gira». Se la chiave si blocca, guarda i denti illuminati e prova un’altra chiave."
       ],
       "learningGoals": [
-        "Il bambino è in grado di riconoscere a colpo d'occhio le parole di uso frequente.",
-        "Impara a distinguere le parole somiglianti che si confondono più spesso quando si inizia a leggere.",
-        "Costruisce la scorrevolezza che libera l'attenzione per capire ciò che legge."
+        "Il bambino legge con precisione le parole frequenti",
+        "Il bambino distingue una parola da altre con le stesse lettere in un altro ordine, con una lettera in più o in meno, o con una lettera diversa",
+        "Il bambino sceglie la parola che rende giusta la frase"
       ]
     },
     "choice-board.beginning-sound.rf-k-3-a": {

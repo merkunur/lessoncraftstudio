@@ -3465,24 +3465,25 @@
     },
     "choice-board.tell-words-apart.rf-k-3-c": {
       "about": [
-        "L'enfant écoute un mot fréquent lu à voix haute, puis le repère parmi trois mots qui lui ressemblent beaucoup : par exemple « était » entouré de « étais », « éteint » et « éteins », ou « dans » entouré de « dont », « donc » et « banc ». C'est une activité de lecture interactive pour le CP, qui fonctionne dans le navigateur avec le son et sans inscription, pour s'entraîner sur les mots fréquents que les jeunes lecteurs confondent le plus souvent.",
-        "Ces mots se ressemblent tellement qu'un simple coup d'œil ne suffit pas. L'enfant doit garder le mot entendu en tête et examiner les choix écrits lettre par lettre pour trouver le mot exact, en remarquant les petites différences qui les distinguent. C'est ce regard attentif qui transforme des suppositions hésitantes en une reconnaissance des mots immédiate et sûre, celle dont dépend une lecture fluide. Cette activité de discrimination auditive et de reconnaissance des mots fréquents suit les programmes officiels et se pratique sans note ni chrono."
+        "Chaque petit mot est une clé, et ses lettres sont ses dents. Dans le trou d’une phrase pend un cadenas – « Tous ___ chats dorment. » – et l’enfant prend une clé au crochet et la tourne. Seul les ouvre le cadenas ; le, lit et bus lui ressemblent, mais leurs dents ne sont pas au bon endroit. Une activité de lecture interactive qui fonctionne dans le navigateur.",
+        "Une mauvaise clé se coince et montre pourquoi : les dents qui diffèrent s’allument, une dent en trop dépasse du cadenas, une dent manquante laisse une encoche vide. Après deux essais, le cadenas devient transparent et montre combien de lettres il lui faut. Avec le trousseau, trois phrases se partagent trois clés – les, le et lit – et chaque clé ouvre exactement un cadenas ; chaque mot qui lui ressemble est donc juste quelque part, et l’enfant doit lire le mot et la phrase. Pour tailler la clé, l’enfant taille le mot dent après dent dans une rangée de lettres. Chaque cadenas ouvert accroche sa clé à l’anneau.",
+        "L’activité suit les programmes officiels : lire précisément les mots fréquents et les distinguer de mots qui leur ressemblent. Un réglage masque les images pour les lecteurs sûrs d’eux. Ni minuteur ni score."
       ],
       "practices": [
-        "Garder un mot entendu en mémoire tout en parcourant les choix écrits.",
-        "Distinguer des mots qui se ressemblent, comme « était » et « étais » ou « dans » et « donc ».",
-        "Lire chaque mot jusqu'au bout au lieu de deviner d'après la première lettre.",
-        "Développer une reconnaissance rapide et exacte des mots fréquents."
+        "Lire les mots fréquents lettre par lettre",
+        "Distinguer des mots qui se ressemblent, comme les, le et lit",
+        "Choisir le mot dont la phrase a besoin",
+        "Écrire un mot fréquent avec ses lettres"
       ],
       "howToPlay": [
-        "Touche pour entendre le mot, et écoute-le autant de fois que tu veux.",
-        "Regarde les choix et touche celui qui correspond au mot entendu, puis vérifie.",
-        "Tu t'es trompé ? Réessaie — il n'y a ni chrono ni score."
+        "Lis la phrase avec le cadenas.",
+        "Touche une clé ou fais-la glisser jusqu’au cadenas.",
+        "Appuie sur « Tourner ». Si la clé se coince, regarde les dents qui s’allument et essaie une autre clé."
       ],
       "learningGoals": [
-        "Lire à vue les mots fréquents que l'on rencontre le plus souvent.",
-        "Distinguer les mots qui se ressemblent et que les lecteurs débutants confondent.",
-        "Construire la reconnaissance des mots qui libère l'attention pour comprendre ce qu'on lit."
+        "L’enfant lit précisément les mots fréquents",
+        "L’enfant distingue un mot de mots aux mêmes lettres dans un autre ordre, avec une lettre en plus ou en moins, ou avec une lettre différente",
+        "L’enfant choisit le mot qui rend la phrase juste"
       ]
     },
     "choice-board.beginning-sound.rf-k-3-a": {

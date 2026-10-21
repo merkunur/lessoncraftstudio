@@ -3655,25 +3655,25 @@
     },
     "choice-board.tell-words-apart.rf-k-3-c": {
       "about": [
-        "Tu hija o hijo escucha una palabra de uso frecuente y la toca entre otras tres muy parecidas que se escriben casi igual pero suenan distinto: was entre saw, war y wax; of entre off, for y or; were entre where, here y we; want entre went, what y wait. Es una actividad de lectura interactiva con sonido, que funciona en el navegador, sin crear cuenta, y afina justo las palabras que más se confunden.",
-        "Estas palabras se ven casi idénticas, así que una mirada rápida no basta. El niño o la niña tiene que retener en la mente la palabra que escuchó y revisar las opciones letra por letra para encontrar la coincidencia exacta —notando que was no es saw al revés, y que of no es off con una letra de más—. Ese mirar con cuidado es lo que convierte las adivinanzas inseguras en un reconocimiento veloz y certero.",
-        "Está pensada para 1.º de primaria y alineada con los planes y programas de estudio (SEP) en el apoyo a la conciencia fonológica y al reconocimiento de palabras. Sin temporizador y sin puntajes, con un ritmo tranquilo y a tu propio paso."
+        "Cada palabra pequeña es una llave, y sus letras son los dientes. En el hueco de una oración cuelga un candado – «___ gato duerme en la cama.» – y el niño toma una llave del gancho y la gira. Solo el abre el candado; en, es y al se parecen, pero sus dientes están en otro lugar. Una actividad interactiva de lectura que funciona en el navegador.",
+        "Una llave equivocada se atora y muestra por qué: brillan los dientes que no coinciden, un diente de más sobresale del candado y uno que falta deja una muesca vacía. Tras dos intentos, el candado se vuelve de vidrio y muestra cuántas letras necesita. En el llavero, tres oraciones comparten tres llaves – el, en y es – y cada llave abre exactamente un candado; así cada palabra parecida es correcta en algún lugar, y el niño tiene que leer la palabra y la oración. Al cortar la llave, el niño corta la palabra diente por diente a partir de una fila de letras. Cada candado abierto cuelga su llave en el aro.",
+        "La actividad se basa en los programas de estudio de la SEP: leer con precisión las palabras de uso frecuente y distinguirlas de otras parecidas. Un ajuste quita los dibujos para lectores seguros. Sin cronómetro y sin puntuación."
       ],
       "practices": [
-        "Retener una palabra escuchada mientras se revisan las opciones escritas.",
-        "Distinguir palabras parecidas como was y saw, of y off, were y where.",
-        "Leer cada palabra completa en lugar de adivinar por la primera letra.",
-        "Construir un reconocimiento rápido y certero de las palabras de uso frecuente."
+        "Leer palabras frecuentes letra por letra",
+        "Distinguir palabras parecidas, como el, en y es",
+        "Elegir la palabra que necesita la oración",
+        "Escribir una palabra frecuente con sus letras"
       ],
       "howToPlay": [
-        "Toca para escuchar la palabra y vuelve a oírla las veces que quieras.",
-        "Mira las opciones y toca la que coincide con la palabra que escuchaste; luego comprueba.",
-        "¿Se confundieron? Inténtalo otra vez: no hay temporizador ni puntaje."
+        "Lee la oración con el candado.",
+        "Toca una llave o arrástrala al candado.",
+        "Aprieta «Girar». Si la llave se atora, mira los dientes que brillan y prueba otra."
       ],
       "learningGoals": [
-        "El niño o la niña aprende a reconocer de vista las palabras de uso frecuente que se confunden por su parecido.",
-        "Tu hija o hijo distingue palabras casi idénticas leyéndolas hasta el final.",
-        "Se desarrolla la fluidez que libera la atención para entender lo que se lee."
+        "El niño lee con precisión palabras de uso frecuente",
+        "El niño distingue una palabra de otras con las mismas letras en otro orden, con una letra de más o de menos, o con una letra distinta",
+        "El niño elige la palabra que completa bien la oración"
       ]
     },
     "choice-board.beginning-sound.rf-k-3-a": {

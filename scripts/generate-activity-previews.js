@@ -223,6 +223,10 @@ function seedScript(row) {
     // m and n magnets: moose and mop already on m's hooks, nose waiting in n's pull zone, the rest on the table — the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.api.settings.level='two';t._pool=null;t._poolKey=null;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.magnets.map(function(m){return m.label;}).join('')==='mn';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.LetterMagnetCore,s=t.st,r=s.r,ix=function(b,n){return r.cards.map(function(c,j){return c.belongs===b?j:-1;}).filter(function(j){return j>=0;})[n];};C.toZone(s,ix(0,0),0);C.toZone(s,ix(0,1),0);C.flip(s);C.toZone(s,ix(1,0),1);t._busy=false;t._view={};t._paint();})();`;
   }
+  if (row.tool === 'word-keys-activity') {
+    // «saw» jammed in the lock of "The cat ___ on the bed.": its s and w glow where was has w and s — the invention at work
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.game='three';t._pool=null;t._poolKey=null;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.target==='was';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();var C=window.WordKeysCore,s=t.st;s.keys=['war','was','saw'];C.insert(s,'saw',0);C.turn(s);t._busy=false;t._view={};t._ring=['the','of','no'];t._paint();})();`;
+  }
   if (row.tool === 'blink-camera-activity') {
     // the shutter open on «was» while the four cards lie face down, three photos already in the album — the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.HOLD=true;t.api.settings.game='snap';t._pool=null;t._poolKey=null;var pool=t._ensurePool();var i=pool.findIndex(function(r){return r.target==='was';});if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._curPass=0;window.LCS_reloadFirstTask();t._album=['the','see','go'];t._snap();})();`;

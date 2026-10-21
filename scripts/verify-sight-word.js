@@ -20,6 +20,11 @@
    "Measured, not eyeballed." Exit 0 = pass; 1 = any failure.
    ===================================================================== */
 'use strict';
+/* RETIRED 2026-10-21 (rebuild #60 + #61): both sight-word rows run their own instruments now (The Blink Camera, The Word Keys). */
+if (!require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'choice-board-activities.json'), 'utf8').includes('"task_template": "read-sight-word"')) {
+  console.log('verify-sight-word: retired — '+"node scripts/verify-blink-camera-core.js · node scripts/verify-word-keys-core.js");
+  process.exit(0);
+}
 const fs = require('fs');
 const path = require('path');
 

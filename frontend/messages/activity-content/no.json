@@ -1365,25 +1365,25 @@
     },
     "choice-board.tell-words-apart.rf-k-3-c": {
       "about": [
-        "Barnet hører et vanlig ord lest høyt og skal skille det fra tre ord som ser nesten like ut — for eksempel «var» blant «vår», «far» og «varm», eller «de» blant «det», «den» og «der». Det er en interaktiv leseaktivitet med lyd for 2. trinn, som kjører i nettleseren uten innlogging og uten konto, og som skjerper de høyfrekvente ordene barn oftest blander sammen.",
-        "Disse ordene ser nesten like ut, så et raskt blikk er ikke nok. Barnet må holde det hørte ordet i hodet og se gjennom de skrevne valgene bokstav for bokstav for å finne det som stemmer helt — og legge merke til at «var» ikke er «vår» med en annen vokal, og at «de» ikke er «det» uten en bokstav. Den nøyaktige lesingen er det som gjør usikker gjetting om til den raske og presise ordgjenkjenningen som flytende lesing er avhengig av.",
-        "Aktiviteten er tilpasset LK20 sitt mål om at elevene på 2. trinn skal lese og kjenne igjen høyfrekvente ord med trygghet. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "Hvert lille ord er en nøkkel, og bokstavene er tennene. I hullet i en setning henger en hengelås – «Jeg har ___ hund.» – og barnet tar en nøkkel fra kroken og vrir den om. Bare en åpner låsen; et, den og han ligner, men tennene sitter feil. En interaktiv leseøvelse som fungerer i nettleseren.",
+        "En feil nøkkel setter seg fast og viser hvorfor: tennene som er forskjellige, lyser, en tann for mye stikker ut av låsen, en som mangler, etterlater et tomt hakk. Etter to forsøk blir låsen gjennomsiktig og viser hvor mange bokstaver den trenger. I nøkkelknippet deler tre setninger tre nøkler – en, et og den – og hver nøkkel åpner nøyaktig én lås; da er hvert ord som ligner, riktig et sted, og barnet må lese både ordet og setningen. Når barnet skjærer nøkkelen, skjærer det ordet tann for tann fra en rad med bokstaver. Hver åpnet lås henger nøkkelen sin på ringen.",
+        "Øvelsen følger LK20: å lese høyfrekvente ord nøyaktig og skille dem fra ord som ligner. En innstilling skjuler bildene for sikre lesere. Ingen tidtaking og ingen poeng."
       ],
       "practices": [
-        "Holde et hørt ord i hodet mens man ser gjennom de skrevne valgene.",
-        "Skille ord som ligner, som «var» og «vår», «de» og «det».",
-        "Lese hele ordet helt til slutt i stedet for å gjette ut fra første bokstav.",
-        "Bygge rask og nøyaktig gjenkjenning av vanlige høyfrekvente ord."
+        "Å lese høyfrekvente ord bokstav for bokstav",
+        "Å skille mellom ord som ligner, som en og et",
+        "Å velge ordet setningen trenger",
+        "Å stave et høyfrekvent ord med bokstavene sine"
       ],
       "howToPlay": [
-        "Trykk for å høre ordet, og lytt så mange ganger du vil.",
-        "Se på valgene og trykk på det som passer til ordet du hørte, og trykk så på Sjekk.",
-        "Blandet du dem sammen? Prøv igjen — det er ingen tidtaker og ingen poeng."
+        "Les setningen med låsen i.",
+        "Trykk på en nøkkel eller dra den til låsen.",
+        "Trykk på «Vri». Sitter nøkkelen fast? Se på tennene som lyser, og prøv en annen."
       ],
       "learningGoals": [
-        "Barnet kan lese vanlige høyfrekvente ord med trygghet.",
-        "Barnet kan skille ord som ligner, som de tidlige leserne oftest forveksler.",
-        "Barnet bygger ordflyt som frigjør oppmerksomhet til å forstå det som leses."
+        "Barnet leser høyfrekvente ord nøyaktig",
+        "Barnet skiller et ord fra ord med de samme bokstavene i en annen rekkefølge, med én bokstav mer eller mindre eller med én annen bokstav",
+        "Barnet velger ordet som gjør setningen riktig"
       ]
     },
     "choice-board.beginning-sound.rf-k-3-a": {

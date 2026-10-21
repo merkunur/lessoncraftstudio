@@ -2111,25 +2111,25 @@
     },
     "choice-board.tell-words-apart.rf-k-3-c": {
       "about": [
-        "A criança ouve uma palavra comum lida em voz alta e a distingue de três vizinhas muito parecidas — por exemplo, 'meu' entre 'seu', 'teu' e 'céu'; 'da' entre 'de', 'do' e 'dá'; 'um' entre 'uns', 'em' e 'mar'. É uma atividade de leitura interativa para os primeiros passos da alfabetização, que funciona no navegador com som e sem cadastro, treinando justamente as palavrinhas de uso frequente que mais se confundem.",
-        "Essas palavras se parecem bastante, então uma olhada rápida não basta. A criança precisa guardar a palavra ouvida na memória e conferir as opções escritas letra por letra para achar a combinação exata — percebendo que 'meu' não é 'seu' e que 'da' não é 'de'. Esse olhar atento é o que transforma o palpite incerto no reconhecimento imediato e seguro em que a leitura fluente se apoia.",
-        "A atividade está alinhada à BNCC, no campo da leitura e da consciência fonológica, ao reconhecer de imediato palavras de alta frequência. Sem cronômetro e sem pontuação — só uma prática calma e divertida."
+        "Cada palavrinha é uma chave, e as letras são os dentes. No espaço de uma frase fica um cadeado – “___ gato dorme na cama.” – e a criança pega uma chave do gancho e gira. Só o abre o cadeado; os, ou e ovo são parecidos, mas os dentes estão no lugar errado. Uma atividade interativa de leitura que funciona no navegador.",
+        "Uma chave errada emperra e mostra o porquê: os dentes diferentes brilham, um dente a mais fica para fora do cadeado e um que falta deixa um encaixe vazio. Depois de duas tentativas, o cadeado vira vidro e mostra quantas letras precisa. No chaveiro, três frases dividem três chaves – o, os e ou – e cada chave abre exatamente um cadeado; assim cada palavra parecida está certa em algum lugar, e a criança precisa ler a palavra e a frase. Ao cortar a chave, a criança corta a palavra dente por dente a partir de uma fileira de letras. Cada cadeado aberto pendura sua chave na argola.",
+        "A atividade se apoia na BNCC: ler com precisão palavras frequentes e diferenciá-las de outras parecidas. Uma configuração esconde as figuras para leitores mais seguros. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Guardar na memória uma palavra ouvida enquanto observa as opções escritas.",
-        "Distinguir palavras parecidas, como 'meu' e 'seu', 'da' e 'de'.",
-        "Ler a palavra inteira, em vez de adivinhar pela primeira letra.",
-        "Construir o reconhecimento rápido e preciso de palavras de uso frequente."
+        "Ler palavras frequentes letra por letra",
+        "Diferenciar palavras parecidas, como o, os e ou",
+        "Escolher a palavra de que a frase precisa",
+        "Escrever uma palavra frequente com suas letras"
       ],
       "howToPlay": [
-        "Toque para ouvir a palavra e escute quantas vezes quiser.",
-        "Olhe as opções e toque naquela que corresponde à palavra que você ouviu, depois confirme.",
-        "Se confundiu? Tente de novo — não há cronômetro nem pontuação."
+        "Leia a frase com o cadeado.",
+        "Toque em uma chave ou arraste-a até o cadeado.",
+        "Aperte “Girar”. Se a chave emperrar, olhe os dentes que brilham e tente outra."
       ],
       "learningGoals": [
-        "Reconhecer de imediato palavras de uso frequente.",
-        "Distinguir as palavras parecidas que mais confundem quem está começando a ler.",
-        "Construir a fluência que libera a atenção para entender o que se lê."
+        "A criança lê com precisão palavras frequentes",
+        "A criança diferencia uma palavra de outras com as mesmas letras em outra ordem, com uma letra a mais ou a menos, ou com uma letra diferente",
+        "A criança escolhe a palavra que deixa a frase certa"
       ]
     },
     "choice-board.beginning-sound.rf-k-3-a": {

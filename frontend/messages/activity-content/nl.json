@@ -4069,25 +4069,25 @@
     },
     "choice-board.tell-words-apart.rf-k-3-c": {
       "about": [
-        "Een veelvoorkomend woord wordt hardop voorgelezen en je kind zoekt het tussen drie woorden die er bijna hetzelfde uitzien. Het draait om de woordbeelden die kinderen het vaakst door elkaar halen — woordjes waarvan de letters in een net andere volgorde of vorm staan. Het is een interactieve leesoefening voor groep 3 die met geluid in de browser werkt, zonder registratie.",
-        "Deze veelgebruikte woordjes lijken zo op elkaar dat één snelle blik niet genoeg is. Je kind houdt het gehoorde woord vast in het hoofd en controleert de keuzes letter voor letter om de precieze match te vinden. Dat nauwkeurige kijken verandert onzekere gokjes in het snelle, juiste herkennen van woordbeelden waar vlot lezen op steunt.",
-        "De activiteit sluit aan bij de SLO-kerndoelen voor beginnende geletterdheid: veelvoorkomende woorden direct herkennen en nauwkeurig onderscheiden. Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Elk klein woord is een sleutel, en de letters zijn de tanden. In het gat van een zin hangt een hangslot – ‘___ kat slaapt op het bed.’ – en het kind pakt een sleutel van het rek en draait hem om. Alleen de opent het slot; den, doe en dek lijken er bijna op, maar hun tanden staan op de verkeerde plek. Een interactieve leesoefening die in de browser werkt.",
+        "Een verkeerde sleutel klemt en laat zien waarom: de tanden die anders zijn lichten op, een tand te veel steekt uit het slot, een ontbrekende laat een lege inkeping. Na twee pogingen wordt het slot doorzichtig en zie je hoeveel letters het nodig heeft. Bij de sleutelbos delen drie zinnen drie sleutels – de, doe en dek – en elke sleutel opent precies één slot; zo is elk woord dat erop lijkt ergens goed, en moet het kind het woord en de zin lezen. Bij sleutel snijden snijdt het kind het woord tand voor tand uit een rijtje letters. Elk geopend slot hangt zijn sleutel aan de ring.",
+        "De oefening sluit aan bij de SLO-kerndoelen voor beginnende geletterdheid: veelvoorkomende woorden precies lezen en van lijkende woorden onderscheiden. Een instelling verbergt de plaatjes voor zekere lezers. Geen klok en geen punten."
       ],
       "practices": [
-        "Een gehoord woord vasthouden in het hoofd terwijl je de geschreven keuzes bekijkt",
-        "Woorden die op elkaar lijken uit elkaar houden, letter voor letter",
-        "Elk woord helemaal tot het eind lezen in plaats van gokken op de eerste letter",
-        "Snel en nauwkeurig veelvoorkomende woorden leren herkennen"
+        "Veelvoorkomende woorden letter voor letter lezen",
+        "Woorden die op elkaar lijken, zoals de, doe en dek, uit elkaar houden",
+        "Het woord kiezen dat in de zin past",
+        "Een veelvoorkomend woord uit zijn letters maken"
       ],
       "howToPlay": [
-        "Tik om het woord te horen en luister zo vaak als je wilt.",
-        "Bekijk de keuzes en tik op het woord dat past bij wat je hoorde, en druk op Controleer.",
-        "Door elkaar gehaald? Probeer het opnieuw — er is geen timer en geen score."
+        "Lees de zin met het slot erin.",
+        "Tik op een sleutel of sleep hem naar het slot.",
+        "Druk op «Draaien». Klemt de sleutel? Kijk naar de oplichtende tanden en probeer een andere."
       ],
       "learningGoals": [
-        "Het kind herkent veelvoorkomende woorden meteen, zonder ze te spellen.",
-        "Het kind houdt de woordjes uit elkaar die beginnende lezers het vaakst verwarren.",
-        "Het kind bouwt de vlotheid op die aandacht vrijmaakt voor het begrijpen van de tekst."
+        "Het kind leest veelvoorkomende woorden precies",
+        "Het kind onderscheidt een woord van woorden met dezelfde letters in een andere volgorde, met een letter meer of minder, of met één andere letter",
+        "Het kind kiest het woord dat de zin goed maakt"
       ]
     },
     "choice-board.beginning-sound.rf-k-3-a": {

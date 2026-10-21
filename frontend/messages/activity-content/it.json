@@ -3425,25 +3425,26 @@
     },
     "atlas-fact-files.key-detail.ri-k-1": {
       "about": [
-        "L’armadillo Atlas adora collezionare piccole schede di curiosità: mostra ai bambini un breve testo informativo di due frasi, poi fa una domanda su un dettaglio nascosto tra le righe.",
-        "L’attività allena a leggere un breve testo informativo, a trovare le informazioni chiave nel testo e a rispondere a domande di comprensione toccando la risposta giusta.",
-        "Pensata per la classe prima e ispirata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggio."
+        "Atlas l’armadillo raccoglie fatti nelle sue schede. Il bambino legge un breve testo, «Le api vivono in un alveare. Fanno il miele dolce.», e risponde a «Dove vivono le api?» passando l’evidenziatore sulle parole del testo. Le parole evidenziate cadono nella frase della domanda sul cartellino della risposta: solo le parole che rispondono la rendono vera, e il cartellino scivola nel cassetto. Se evidenzia le parole sbagliate, il cartellino le rilegge e si vede che non vanno bene. È un’attività interattiva di lettura che si gioca nel browser.",
+        "Ogni testo ha due domande, una per ogni frase, così la risposta non è sempre nello stesso posto. In Riempi la scheda il bambino mette le cinque frasi su un animale nei cassetti (Cibo, Dove vive, Movimento, Corpo, Piccoli) e poi decide se tre affermazioni sono nella scheda. In Banca delle parole rimette le parole importanti nelle frasi del testo e sceglie tre frasi preferite. I disegni si possono togliere, così contano solo le parole.",
+        "L’attività segue le Indicazioni nazionali per l’italiano: trovare informazioni in un testo informativo. Ogni disegno viene dalla biblioteca di immagini. Senza tempo e senza punteggio."
       ],
       "practices": [
-        "Leggere un breve testo informativo",
-        "Trovare le informazioni chiave nel testo",
-        "Rispondere a domande sul testo",
-        "Leggere con attenzione"
+        "Trovare in un testo le parole che rispondono a una domanda",
+        "Rispondere con prove prese dal testo",
+        "Ordinare frasi su un animale secondo quello che dicono",
+        "Decidere se un’affermazione è nel testo"
       ],
       "howToPlay": [
-        "Leggi il piccolo testo di Atlas",
-        "Trova la risposta nel testo",
-        "Toccala"
+        "Leggi il testo o tocca Atlas per ascoltarlo.",
+        "Passa l’evidenziatore sulle parole che rispondono alla domanda, poi controlla.",
+        "Nella scheda, trascina ogni frase nel suo cassetto.",
+        "Rimetti ogni parola nella sua frase e scegli tre frasi."
       ],
       "learningGoals": [
-        "Leggere e capire un breve testo",
-        "Trovare un dettaglio nel testo",
-        "Rispondere a domande di comprensione"
+        "Il bambino trova l’informazione chiave che risponde a una domanda",
+        "Il bambino mostra in quale punto del testo c’è la risposta",
+        "Il bambino dice quali affermazioni sono nel testo e quali no"
       ]
     },
     "gabby-sayings.idioms.l-3-5-a": {

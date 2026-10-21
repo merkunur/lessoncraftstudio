@@ -585,25 +585,26 @@
     },
     "atlas-fact-files.key-detail.ri-k-1": {
       "about": [
-        "Atlas el armadillo guarda un fichero lleno de datos del mundo real. En cada ronda muestra una ficha con un texto muy corto, de solo dos oraciones —por ejemplo: «Las abejas viven en una colmena. Hacen miel dulce.»— y debajo hace una pregunta: «¿Dónde viven las abejas?». Su hijo/a lee el texto con calma y toca, entre tres opciones, la respuesta correcta: «en una colmena». La respuesta no es ningún secreto: ya está escrita en el texto, solo hay que encontrarla.",
-        "De eso se trata: leer con atención y buscar la respuesta en el texto en lugar de adivinar. Las dos opciones equivocadas tienen que ver con el tema, pero no aparecen en el texto; así el niño tiene que regresar a leer para estar seguro. Ese es el primer nivel de la comprensión lectora, el nivel literal: darse cuenta de que en un texto breve hay respuestas de verdad y de que uno mismo puede localizarlas. Cada ronda es un poquito más difícil, pero la respuesta siempre está ahí, escrita.",
-        "Esta actividad pertenece al campo formativo «Lenguajes» y trabaja la comprensión de textos informativos en la Fase 3, cuando el niño ya lee por su cuenta oraciones breves y localiza información explícita. Se juega en línea sin registro y no tiene cronómetro ni puntos: su hijo/a puede leer y releer con toda la calma que necesite."
+        "Atlas, el armadillo, guarda datos en fichas. El niño lee un texto corto, «Las abejas viven en una colmena. Hacen miel dulce.», y responde «¿Dónde viven las abejas?» pasando un marcador sobre las palabras del texto. Las palabras marcadas caen en la oración de la pregunta en la tarjeta de respuesta: solo las palabras que responden la vuelven verdadera, y la tarjeta entra en el cajón. Si marca las palabras equivocadas, la tarjeta las lee y se ve que no encajan. Es una actividad interactiva de lectura que se juega en el navegador.",
+        "Cada texto tiene dos preguntas, una por cada oración, para que la respuesta no esté siempre en el mismo lugar. En Llena la ficha, el niño acomoda las cinco oraciones sobre un animal en cajones (Comida, Hogar, Movimiento, Cuerpo, Crías) y luego decide si tres afirmaciones están en la ficha. En Banco de palabras, regresa las palabras importantes a las oraciones del texto y elige tres datos favoritos. Los dibujos se pueden quitar para que solo cuenten las palabras.",
+        "La actividad se alinea con los planes de estudio de la SEP: encontrar información en un texto informativo. Cada dibujo viene de la biblioteca de imágenes. Sin tiempo límite y sin puntos."
       ],
       "practices": [
-        "Leer un texto informativo breve de dos oraciones y entender de qué habla",
-        "Localizar en el texto la información que responde a una pregunta de qué, dónde, cuándo o cuántas",
-        "Leer con atención en lugar de adivinar: la respuesta ya está escrita en el texto",
-        "Elegir, entre tres opciones, la única que de verdad aparece en el texto"
+        "Encontrar en un texto las palabras que responden una pregunta",
+        "Responder con pruebas del texto",
+        "Acomodar datos sobre un animal según lo que dicen",
+        "Decidir si una afirmación está en el texto"
       ],
       "howToPlay": [
-        "Lea con su hijo/a las dos oraciones que muestra Atlas en su ficha",
-        "Lean juntos la pregunta de abajo y pregúntele: ¿en qué parte del texto lo dice?",
-        "El niño toca la respuesta y luego «Comprobar»; si no queda a la primera, puede volver a leer el texto con calma"
+        "Lee el texto o toca a Atlas para escucharlo.",
+        "Pasa el marcador sobre las palabras que responden la pregunta y luego revisa.",
+        "En la ficha, arrastra cada oración a su cajón.",
+        "Regresa cada palabra a su oración y elige tres datos."
       ],
       "learningGoals": [
-        "Su hijo/a localiza en un texto informativo breve la información que se le pide",
-        "Responde una pregunta sencilla releyendo el texto y encontrando ahí la respuesta",
-        "Vive el primer paso de la comprensión lectora: las respuestas están en el texto y él mismo puede hallarlas"
+        "El niño encuentra el dato clave que responde una pregunta",
+        "El niño muestra en qué parte del texto está la respuesta",
+        "El niño dice qué afirmaciones están en un texto y cuáles no"
       ]
     },
     "jasper-just-right.real-life.l-1-5-c": {

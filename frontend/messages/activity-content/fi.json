@@ -2268,6 +2268,30 @@
         "Lapsi kertoo, mitä tapahtuu vain toisessa",
         "Lapsi tarkistaa vastauksen tarinan kuvista"
       ]
+    },
+    "atlas-fact-files.key-detail.ri-k-1": {
+      "about": [
+        "Vyötiäinen Atlas kerää faktoja kortteihin. Lapsi lukee lyhyen faktatekstin, ”Mehiläiset asuvat pesässä. Ne tekevät makeaa hunajaa.”, ja vastaa kysymykseen ”Missä mehiläiset asuvat?” vetämällä korostuskynällä tekstin sanojen yli. Korostetut sanat putoavat kysymyksen omaan lauseeseen vastauskortissa: vain vastaavat sanat tekevät lauseesta totta, ja silloin kortti liukuu laatikkoon. Jos lapsi korostaa väärät sanat, kortti lukee ne ääneen, ja niistä näkee, etteivät ne sovi. Interaktiivinen lukuharjoitus, joka toimii selaimessa.",
+        "Jokaisessa tekstissä on kaksi kysymystä, yksi kumpaankin lauseeseen, joten vastaus ei ole aina samassa kohdassa. Tehtävässä Täytä faktakortti lapsi lajittelee eläintä koskevat viisi lausetta laatikoihin (Ruoka, Asuminen, Liikkuminen, Keho, Poikaset) ja ratkaisee sitten, lukeeko kolme väitettä kortissa. Tehtävässä Sanapankki lapsi palauttaa tärkeät sanat tekstin omiin lauseisiin ja valitsee kolme lempilausetta. Kuvat voi ottaa pois, jolloin vain sanat ratkaisevat.",
+        "Harjoitus tukee perusopetuksen opetussuunnitelman perusteiden 2014 tavoitteita: tiedon löytämistä asiatekstistä. Jokainen kuva tulee kuvakirjastosta. Ei aikarajaa eikä pisteitä."
+      ],
+      "practices": [
+        "Kysymykseen vastaavien sanojen löytäminen tekstistä",
+        "Vastaaminen tekstistä löytyvän tiedon avulla",
+        "Eläintä koskevien lauseiden lajittelu sisällön mukaan",
+        "Sen ratkaiseminen, lukeeko väite tekstissä"
+      ],
+      "howToPlay": [
+        "Lue teksti tai napauta Atlasta kuullaksesi sen.",
+        "Vedä kynällä kysymykseen vastaavien sanojen yli ja tarkista sitten.",
+        "Vedä faktakortissa jokainen lause omaan laatikkoonsa.",
+        "Palauta jokainen sana lauseeseensa ja valitse kolme lausetta."
+      ],
+      "learningGoals": [
+        "Lapsi löytää tärkeän tiedon, joka vastaa kysymykseen",
+        "Lapsi näyttää, missä kohdassa tekstiä vastaus on",
+        "Lapsi kertoo, mitkä väitteet lukevat tekstissä ja mitkä eivät"
+      ]
     }
   }
 }

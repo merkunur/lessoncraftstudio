@@ -183,7 +183,52 @@ the F17 `words` (four 2-7-letter picture names in school-print case: de capital 
   picture, chosen by measurement** (direction mix, symmetry index), never a longer instruction.
 - Then ONE native + pedagogy reviewer over a compact 11-locale text dump and ONE visual reviewer over the EN sheets.
 
-## 10 SEO (pending)
-## 11 Traps paid for (pending — collected from §2-§5 and the build)
+## 10 SEO
+- **Demand first** (`_PANEL-FINDINGS.md`): an 11-locale autocomplete harvest (`scripts/seo-research/harvest-candidates.js`
+  with `_records/candidate-seeds.json`) gave each locale its heads (en "picture tracing", "tracing worksheets preschool",
+  "trace and color"; de "nachspuren"; es "dibujos para repasar"; fr "repasser les pointillés"; pt "cobrir pontilhado";
+  …) and its trap words; the click model is 320 · 600 · 920 /day at 9-15 months (b8 method).
+- **Head ownership**: every face owns a different query face (first tracing, round pictures, straight lines, zigzags,
+  Christmas, summer, symmetry, trace and count, trace and color, picture + word …); the title is that head + the
+  face's story, ≤ 70; no two titles or metas alike (gate). Grade stamps from the band (PreK faces carry the locale's
+  preschool word; en `preschool` level via `PREK_MODES` in `gen-b9-landings.js`).
+- **One landing per face per locale** at `/<loc>/worksheets/<slug>`, written by the native panel FROM THE RENDER
+  (p1 = what is on this page, p2 = what it trains and how, p3 = who it is for + the neighbours + the boundary sentence
+  naming pre-writing, how-to-draw and dot-to-dot). `canonicalDeckSlug = picture-tracing-<id>`; three faces carry a
+  standard in JSON-LD (K-427 K.CC.B.5, K-430 K.G.A.2, G1-430 L.K.1.a), the rest are readiness pages.
+- "free" only in metadata; never a promise of an answer key or a screen (PDF only) — linted in the bank and the
+  landings.
+
+## 11 Traps paid for
+- ⭐⭐ **A word review cannot see a picture.** Seven of the panels' findings were pictures that read as something else
+  (§9). Hand panels the RENDERS, and fix a misread picture by swapping it for a measured one.
+- ⭐⭐ **The English source multiplies by eleven.** Audit EN with the first two panels, fix at the source, regenerate,
+  then fan out (§7). Every later panel still finds a few: keep the audit in every brief.
+- ⭐ **`build-en` keeps a hand-edited `strings.en.json` over the spec.** After changing `EN_STRINGS`, sync the b9 ids
+  into `i18n/strings.en.json` and re-run `build-en` until it no longer lists them, or the pages keep the old text.
+- ⭐ **Dots fuse what dashes keep apart.** At P4 two lines 4-6 px apart (a wheel's double rim, a roof rack, a dog's legs)
+  become one cloud of dots. Choose drawings for the dot face by the index's `paths` / `density`, and READ the page.
+- ⭐ **A shape with no attribute reads as a form field**: a dashed or grey capsule under a scene is read as a name box;
+  a rug needs a fringe. Same for a bare box under a tree (a crate, not a pot).
+- ⭐ **"Close every shape" is the wrong verb** when the shape is already drawn complete — the child traces ROUND it.
+- ⭐ **A direction column needs measured pictures.** A leaning ladder is not "down", a table in perspective is not
+  "across": `tools/pt-straight.js directionMix`.
+- ⭐ **A symmetry face needs a front-view drawing** (a bell in three-quarter view has no mirror half): `data/pt/symmetry.json`.
+- An over-budget page is fixed by removing detail the move does not need, never by raising the budget (the rug's inner
+  border went; the fringe stayed).
+- Tracer traps (§3): staircase nodes, a shared pseudo-node, closed-ring RDP to a point, false junction blobs.
+- Tooling: Python text mode writes `` as a backspace (use node or the Edit tool); a replace without an assert is a
+  silent no-op (every patch script here throws on a missing anchor); `gen-b9-waves` needs an applied locale, so the
+  landing check runs on a draft (`check-b9-landing-draft.js`); `b9-draft-from-panel.js` needs the panel file path.
+
 ## 12 Publish, as run (pending)
-## 13 How to expand (pending)
+
+## 13 How to expand
+- **A new face** = a new scene in `data/b9/face-scenes.js` + a row in `tools/b9var-rows/picture-tracing.js` + its EN
+  strings → `alloc-b9var-ids.js` (the next free id per band) → `gen-b9var-specs.js` → the family gate learns its rule
+  (copy an existing G-check) → render, read → one panel per locale (the brief) → landings → hub expectation +1.
+- **A new picture** in an existing face: check its index entry (`data/pt/index.json`: band P1-P3, paths, density), its
+  direction mix or symmetry where the face needs one, then preview (`tools/pt-preview.js <mode>`) and read it.
+- **A Level Set** (the Level Set programme, noindex): reuse the composer with seeded scenes per level — P1 big single
+  pictures → P2 scenes → P3/P4 detailed scenes — and the tracer laws as the gate; the faces here stay the flagship.
+- **A new locale**: one panel run with `_work/panel-brief.md`, then the §7 pipeline.

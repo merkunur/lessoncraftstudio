@@ -103,6 +103,14 @@ const SCENES = {
   // F5 straight-line pictures — three direction columns (K)
   'straight-lines': {
     band: 'K', style: 'P2', occlusion: false,
+    // ACROSS, top: a park bench DRAWN here (the whiteboard's frame was two dashed lines 4 px apart, nl panel; every library
+    // candidate mixed directions or had round arms): two long planks + short supports, ~80 % horizontal by construction
+    motifs: [
+      { m: 'line', a: [[[250, 214], [426, 214], [426, 236], [250, 236], [250, 214]], true] },
+      { m: 'line', a: [[[243, 270], [433, 270], [433, 290], [243, 290], [243, 270]], true] },
+      { m: 'line', a: [[[272, 236], [272, 270]]] }, { m: 'line', a: [[[404, 236], [404, 270]]] },
+      { m: 'line', a: [[[262, 290], [262, 332]]] }, { m: 'line', a: [[[414, 290], [414, 332]]] },
+    ],
     decor: [
       { d: 'M225 20 L225 700', w: 1.5 }, { d: 'M450 20 L450 700', w: 1.5 },
       ...badge(120, 36, 'arrow', [90]), ...badge(338, 36, 'arrow', [0]), ...badge(556, 36, 'arrow', [45]),
@@ -110,12 +118,11 @@ const SCENES = {
     items: [
       // direction measured (tools/pt-straight.js directionMix): the contract's ladder LEANS and the classroom table is in
       // perspective (slanted edges under the ACROSS arrow) — de + fr panels. down: wardrobe v 75 % + cabinet v 70 %;
-      // across: dresser h 68 % + whiteboard h 59 %; slanted: envelope s 63 % + star s 61 %
+      // across: a drawn bench + dresser h 68 %; slanted: envelope s 63 % + star s 61 %
       { src: 'home bw 2/wardrobe', x: 120, y: 400, h: 290 },
       { src: 'household bw/cabinet', x: 120, y: 700, h: 250 },
       // straightness measured (tools/pt-straight.js, calibrated: apple 41 %, ladder 72 %): the contract's furniture bw/table
       // is an oval top on a pedestal (69 %) → classroom bw 2/table (83 %); the cone (65 %) → beach bw/sailboat (79 %)
-      { src: 'classroom bw/whiteboard', x: 338, y: 330, w: 190 },
       { src: 'furniture bw/dresser_2', x: 338, y: 690, h: 190 },   // h 215 touched both column lines (pt panel)
       { src: 'Christmas bw/envelope', x: 560, y: 330, w: 180 },
       { src: 'Christmas bw/star', x: 560, y: 690, w: 185 },
@@ -299,7 +306,7 @@ const SCENES = {
     ],
     items: [
       { src: 'beach bw/anchor', x: 594, y: 100, h: 56, render: 'model', hides: false },
-      { src: 'beach bw/sailboat', x: 450, y: 291, h: 170 },   // on the wave, not through the hull (fr panel)
+      { src: 'beach bw/sailboat', x: 450, y: 291, h: 170, halo: 6 },   // the horizon ran through the sail (it panel): lines behind the boat stop at its body   // on the wave, not through the hull (fr panel)
       { src: 'beach bw/parasol', x: 148, y: 640, h: 210 },
       { src: 'beach bw/bucket', x: 318, y: 688, h: 135 },
       { src: 'beach bw/sandcastle', x: 455, y: 630, h: 155 },
@@ -408,7 +415,7 @@ const SCENES = {
       { src: 'Easter bw/butterfly', axisX: 337.5, y: 365, h: 290, render: 'half' },
       { src: 'animals bw/owl', axisX: 118, y: 690, h: 210, render: 'half' },
       { src: 'sports bw/trophy', axisX: 337, y: 690, h: 200, render: 'half' },   // the bell was a three-quarter view (de panel)   // the contract's Christmas bell measured 15.7 px between its halves (> the 10 px G1 gap)
-      { src: 'faces bw/koala', axisX: 556, y: 690, h: 160, render: 'half' },
+      { src: 'toys bw/teddy_bear', axisX: 556, y: 690, h: 165, render: 'half' },   // the koala's mirrored ear ran into the window edge and was smooth where the model ear is furry (it panel): max 8 px between halves
     ],
   },
 

@@ -1,137 +1,137 @@
 {
-  "locale": "fr",
-  "strings": {
-    "base": {
-      "title": "Dessin à repasser maternelle : le chemin jusqu'à la maison",
-      "printTitle": "Le chemin de la maison",
-      "instruction": "Repasse tous les pointillés pour finir le jardin : la maison, l'arbre, les fleurs, le papillon et le lapin."
-    },
-    "first-tracing": {
-      "title": "Dessin pointillé maternelle PS : ma première grande baleine",
-      "printTitle": "Mon premier dessin à repasser",
-      "instruction": "Pose ton crayon sur le gros point. Repasse la grande baleine tout doucement, en suivant la flèche."
-    },
-    "look-then-trace": {
-      "title": "Repasse le dessin d'après le modèle : deux animaux en PS",
-      "printTitle": "Je regarde, puis je repasse",
-      "instruction": "Regarde le modèle dans le cadre. Puis repasse le même animal à côté, en partant du point."
-    },
-    "round-and-round": {
-      "title": "Repasser les pointillés en petite section : des ronds qui tournent",
-      "printTitle": "Ça tourne, ça tourne !",
-      "instruction": "Pars de chaque point et repasse tout le tour, comme pour écrire la lettre o."
-    },
-    "straight-lines": {
-      "title": "Repasser sur les pointillés MS : verticales, horizontales, obliques",
-      "printTitle": "Debout, couché, penché",
-      "instruction": "Repasse d'abord les traits qui descendent, puis ceux qui vont de côté, puis les traits penchés."
-    },
-    "zigzags": {
-      "title": "Suivre les pointillés : montagnes en zigzag et orage sur la tente",
-      "printTitle": "L'orage sur le camping",
-      "instruction": "Repasse les zigzags des montagnes, des sapins, de la tente et des éclairs. Arrête-toi à chaque pointe."
-    },
-    "curls": {
-      "title": "Boucles et spirales à repasser en GS : escargot, sucette et nœud",
-      "printTitle": "La galerie des spirales",
-      "instruction": "Repasse les boucles et les spirales : l'escargot, la sucette, le nœud, le bretzel et le moulin à vent."
-    },
-    "trace-and-color": {
-      "title": "Je repasse et je colorie : le pique-nique sous l'arbre",
-      "printTitle": "Le pique-nique",
-      "instruction": "Repasse les dessins du pique-nique. Puis colorie-les avec les couleurs que tu veux."
-    },
-    "where-to-start": {
-      "title": "Repasser les pointillés en GS : où est-ce que je commence ?",
-      "printTitle": "Où est-ce que je commence ?",
-      "instruction": "Pars de chaque point et suis la flèche. Descends l'escalier, un dessin après l'autre."
-    },
-    "trace-and-count": {
-      "title": "Dessins à repasser animaux : combien de canards sur la mare ?",
-      "printTitle": "Les canards sur la mare",
-      "instruction": "Repasse les canards. Compte-les. Écris combien il y en a dans la case."
-    },
-    "finish-the-picture": {
-      "title": "Image à repasser : complète les morceaux qui manquent",
-      "printTitle": "L'atelier des réparations",
-      "instruction": "Repasse les pointillés pour finir chaque dessin : roues, bec, manche, anse, pointe et oreilles."
-    },
-    "christmas": {
-      "title": "Dessins à repasser Noël : les boules du sapin",
-      "printTitle": "Le soir de Noël",
-      "instruction": "Repasse le sapin, les cadeaux, le fauteuil et la fenêtre. Puis fais le tour de chaque boule et étoile."
-    },
-    "shape-picture": {
-      "title": "Formes à repasser : une fusée en ronds, carrés et triangles",
-      "printTitle": "La fusée des formes",
-      "instruction": "Repasse toutes les formes de la fusée et du ciel. Puis colorie tous les ronds."
-    },
-    "summer-sea": {
-      "title": "Dessins à repasser été : les vagues de la mer, de gauche à droite",
-      "printTitle": "Une carte postale de la mer",
-      "instruction": "Repasse les vagues de gauche à droite. Puis repasse le bateau et la plage."
-    },
-    "big-middle-small": {
-      "title": "Dessins pointillés grand, moyen, petit : avions, voitures, bateaux",
-      "printTitle": "Grand, moyen, petit",
-      "instruction": "Dans chaque rangée, repasse le grand, puis le moyen, puis le petit."
-    },
-    "dotted-street": {
-      "title": "Repasser les pointillés CP : une rue de la ville au matin",
-      "printTitle": "Un matin en ville",
-      "instruction": "Repasse les pointillés avec soin, même les tout petits détails."
-    },
-    "picture-and-word": {
-      "title": "Repasse le dessin, dis son nom, repasse le mot : GS et CP",
-      "printTitle": "Les images et leurs mots",
-      "instruction": "Repasse le dessin. Dis son nom. Repasse le mot écrit dessous."
-    },
-    "trace-and-draw": {
-      "title": "Repasse le dessin, puis dessine : qu'y a-t-il dans la remorque ?",
-      "printTitle": "Qu'y a-t-il dans la remorque ?",
-      "instruction": "Repasse la ferme. Puis dessine ce que le tracteur transporte dans la remorque vide."
-    },
-    "other-half": {
-      "title": "Symétrie à repasser : complète l'autre moitié du dessin",
-      "printTitle": "L'autre moitié",
-      "instruction": "Repasse la moitié en pointillés pour que les deux côtés de chaque dessin soient pareils."
-    },
-    "hidden-animals": {
-      "title": "Dessins à repasser automne : trouve les 5 animaux cachés",
-      "printTitle": "Qui se cache dans la forêt ?",
-      "instruction": "Trouve les 5 animaux cachés dans la forêt. Repasse-les."
-    }
+ "locale": "fr",
+ "strings": {
+  "base": {
+   "title": "Dessin à repasser maternelle : le chemin jusqu'à la maison",
+   "printTitle": "Le chemin de la maison",
+   "instruction": "Repasse tous les pointillés pour finir le jardin : la maison, l'arbre, les fleurs, le papillon et le lapin."
   },
-  "words": [
-    "SOLEIL",
-    "POISSON",
-    "CHAT",
-    "POMME"
-  ],
-  "family": {
-    "slug": "dessins-a-repasser",
-    "name": "Dessins à repasser"
+  "first-tracing": {
+   "title": "Dessin pointillé maternelle PS : ma première grande baleine",
+   "printTitle": "Mon premier dessin à repasser",
+   "instruction": "Pose ton crayon sur le gros point. Repasse la grande baleine tout doucement, en suivant la flèche."
   },
-  "skill": {
-    "full": "Repasser des dessins entiers affine la motricité fine, la tenue du crayon et la coordination œil-main, et prépare le geste d'écriture.",
-    "short": "Motricité fine et préparation au geste d'écriture"
+  "look-then-trace": {
+   "title": "Repasse le dessin d'après le modèle : deux animaux en PS",
+   "printTitle": "Je regarde, puis je repasse",
+   "instruction": "Regarde le modèle dans le cadre. Puis repasse le même animal à côté, en partant du point."
   },
-  "topicMeta": "Dessins à repasser pour la maternelle et le CP : des images entières en pointillés à suivre au crayon, de la PS au CP. À imprimer gratuitement en PDF.",
-  "enAudit": [
-    "K-419 instruction: \"Trace the big whale with one slow, steady line\" is not true of the page: the whale is several separate dashed runs (back and head, belly, two fins, tail, mouth). Fix: \"Start at the dot and trace the big whale slowly, following the arrow.\"",
-    "K-420 instruction says \"Look at the photo\" but the model is a line drawing in a frame, not a photo. Fix: \"Look at the picture in the frame\" (fr: \"le modèle dans le cadre\").",
-    "K-418 instruction lists the house, the tree, the flowers and the rabbit but not the butterfly, which is a whole dashed picture (the sun, the cloud and the path are dashed too). Fix: add \"the butterfly\".",
-    "K-422 PEDAGOGY: under the DOWN arrow the ladder is drawn leaning (its uprights are slanted), and under the ACROSS arrow the table is in perspective (its top edges slant). The columns do not show what the arrows claim. Fix at source: an upright ladder (or the cabinet alternate) and a front-view table (classroom bw 2/table alternate), then re-render.",
-    "K-424: the bow and the pretzel are loops, not spirals or curls that turn \"round and round\"; only the snail shell and the lollipop are spirals. Fix: \"Trace the loops and spirals: ...\" (done so in fr).",
-    "K-428: the page has SIX pictures and TWO handles (the umbrella and the cup) but the instruction lists five parts with \"a handle\". Fix: \"wheels, a spout, two handles, a point and ears\" (fr lists all six parts).",
-    "K-425: the watermelon in the basket reads as a striped pumpkin; the EN meta/landing that names \"the watermelon\" may not match what a child sees. Fix: a cut watermelon slice, or name it neutrally.",
-    "K-421: the orange carries a leafy calyx and reads as a tomato; landings should not lean on the word \"orange\".",
-    "K-429: the grey rounded bar under the floor (the rug) looks like an empty name or answer field; nothing on the page says what it is. Fix: give it a fringe or a pattern so it reads as a rug.",
-    "K-431: the first wave line runs straight through the sailboat hull, so the child cannot tell which dashes belong to the boat. Fix: break the wave under the hull or lift the boat onto the wave.",
-    "G1-429: the small car and the dog are dense clouds of dots that do not read as one line each (the car body especially); \"Morning\" is not shown anywhere (no sun). Fix: a simpler car drawing at this dot spacing.",
-    "G1-431: the left farm animal reads as a goat (curly head, horns), while the contract cast says pig; landings must not call it a pig.",
-    "G1-433: three of the five animals (rabbit, fox, mouse) stand on open ground rather than hide in the forest; the title promise \"hidden\" is soft. Acceptable at G1, noted.",
-    "EN title K-421 \"Tracing Worksheets for Toddlers\": the page is three round pictures with start dots, right for 3-4-year-olds (petite section), not toddlers under 3.",
-    "STATUS 2026-10-22: the coordinator reports items 1-14 fixed at the source (K-421 orange to balloon, K-422 recast, K-425 banana, K-429 pot and rug, K-431 boat on the wave, G1-429 sun and simpler dog and car, G1-431 meadow line, G1-432 trophy, G1-433 potted flower gone); the fr text follows those changes."
-  ]
+  "round-and-round": {
+   "title": "Repasser les pointillés en petite section : des ronds qui tournent",
+   "printTitle": "Ça tourne, ça tourne !",
+   "instruction": "Pars de chaque point et repasse tout le tour, comme pour écrire la lettre o."
+  },
+  "straight-lines": {
+   "title": "Repasser sur les pointillés MS : verticales, horizontales, obliques",
+   "printTitle": "Debout, couché, penché",
+   "instruction": "Repasse d'abord les traits qui descendent, puis ceux qui vont de côté, puis les traits penchés."
+  },
+  "zigzags": {
+   "title": "Suivre les pointillés : montagnes en zigzag et orage sur la tente",
+   "printTitle": "L'orage sur le camping",
+   "instruction": "Repasse les zigzags des montagnes, des sapins, de la tente et des éclairs. Arrête-toi à chaque pointe."
+  },
+  "curls": {
+   "title": "Boucles et spirales à repasser en GS : escargot, sucette et nœud",
+   "printTitle": "La galerie des spirales",
+   "instruction": "Repasse les boucles et les spirales : l'escargot, la sucette, le nœud, le bretzel et le moulin à vent."
+  },
+  "trace-and-color": {
+   "title": "Je repasse et je colorie : le pique-nique sous l'arbre",
+   "printTitle": "Le pique-nique",
+   "instruction": "Repasse les dessins du pique-nique. Puis colorie-les avec les couleurs que tu veux."
+  },
+  "where-to-start": {
+   "title": "Repasser les pointillés en GS : où est-ce que je commence ?",
+   "printTitle": "Où est-ce que je commence ?",
+   "instruction": "Pars de chaque point et suis la flèche. Descends l'escalier, un dessin après l'autre."
+  },
+  "trace-and-count": {
+   "title": "Dessins à repasser animaux : combien de canards sur la mare ?",
+   "printTitle": "Les canards sur la mare",
+   "instruction": "Repasse les canards. Compte-les. Écris combien il y en a dans la case."
+  },
+  "finish-the-picture": {
+   "title": "Image à repasser : complète les morceaux qui manquent",
+   "printTitle": "L'atelier des réparations",
+   "instruction": "Repasse les pointillés pour finir chaque dessin : roues, bec, manche, anse, pointe et oreilles."
+  },
+  "christmas": {
+   "title": "Dessins à repasser Noël : les boules du sapin",
+   "printTitle": "Le soir de Noël",
+   "instruction": "Repasse le sapin, les cadeaux, le fauteuil, la fenêtre et le tapis. Puis fais le tour de chaque boule et étoile."
+  },
+  "shape-picture": {
+   "title": "Formes à repasser : une fusée en ronds, carrés et triangles",
+   "printTitle": "La fusée des formes",
+   "instruction": "Repasse toutes les formes de la fusée et du ciel. Puis colorie tous les ronds."
+  },
+  "summer-sea": {
+   "title": "Dessins à repasser été : les vagues de la mer, de gauche à droite",
+   "printTitle": "Une carte postale de la mer",
+   "instruction": "Repasse les vagues de gauche à droite. Puis repasse le bateau et la plage."
+  },
+  "big-middle-small": {
+   "title": "Dessins pointillés grand, moyen, petit : avions, voitures, bateaux",
+   "printTitle": "Grand, moyen, petit",
+   "instruction": "Dans chaque rangée, repasse le grand, puis le moyen, puis le petit."
+  },
+  "dotted-street": {
+   "title": "Repasser les pointillés CP : une rue de la ville au matin",
+   "printTitle": "Un matin en ville",
+   "instruction": "Repasse les pointillés avec soin, même les tout petits détails."
+  },
+  "picture-and-word": {
+   "title": "Repasse le dessin, dis son nom, repasse le mot : GS et CP",
+   "printTitle": "Les images et leurs mots",
+   "instruction": "Repasse le dessin. Dis son nom. Repasse le mot écrit dessous."
+  },
+  "trace-and-draw": {
+   "title": "Repasse le dessin, puis dessine : qu'y a-t-il dans la remorque ?",
+   "printTitle": "Qu'y a-t-il dans la remorque ?",
+   "instruction": "Repasse tout le dessin : le tracteur, la remorque et les animaux. Puis dessine ce que transporte la remorque vide."
+  },
+  "other-half": {
+   "title": "Symétrie à repasser : complète l'autre moitié du dessin",
+   "printTitle": "L'autre moitié",
+   "instruction": "Repasse la moitié en pointillés pour que les deux côtés de chaque dessin soient pareils."
+  },
+  "hidden-animals": {
+   "title": "Dessins à repasser automne : trouve les 5 animaux cachés",
+   "printTitle": "Qui se cache dans la forêt ?",
+   "instruction": "Trouve les 5 animaux cachés dans la forêt. Repasse-les."
+  }
+ },
+ "words": [
+  "SOLEIL",
+  "POISSON",
+  "CHAT",
+  "POMME"
+ ],
+ "family": {
+  "slug": "dessins-a-repasser",
+  "name": "Dessins à repasser"
+ },
+ "skill": {
+  "full": "Repasser des dessins entiers affine la motricité fine, la tenue du crayon et la coordination œil-main, et prépare le geste d'écriture.",
+  "short": "Motricité fine et préparation au geste d'écriture"
+ },
+ "topicMeta": "Dessins à repasser pour la maternelle et le CP : des images entières en pointillés à suivre au crayon, de la PS au CP. À imprimer gratuitement en PDF.",
+ "enAudit": [
+  "K-419 instruction: \"Trace the big whale with one slow, steady line\" is not true of the page: the whale is several separate dashed runs (back and head, belly, two fins, tail, mouth). Fix: \"Start at the dot and trace the big whale slowly, following the arrow.\"",
+  "K-420 instruction says \"Look at the photo\" but the model is a line drawing in a frame, not a photo. Fix: \"Look at the picture in the frame\" (fr: \"le modèle dans le cadre\").",
+  "K-418 instruction lists the house, the tree, the flowers and the rabbit but not the butterfly, which is a whole dashed picture (the sun, the cloud and the path are dashed too). Fix: add \"the butterfly\".",
+  "K-422 PEDAGOGY: under the DOWN arrow the ladder is drawn leaning (its uprights are slanted), and under the ACROSS arrow the table is in perspective (its top edges slant). The columns do not show what the arrows claim. Fix at source: an upright ladder (or the cabinet alternate) and a front-view table (classroom bw 2/table alternate), then re-render.",
+  "K-424: the bow and the pretzel are loops, not spirals or curls that turn \"round and round\"; only the snail shell and the lollipop are spirals. Fix: \"Trace the loops and spirals: ...\" (done so in fr).",
+  "K-428: the page has SIX pictures and TWO handles (the umbrella and the cup) but the instruction lists five parts with \"a handle\". Fix: \"wheels, a spout, two handles, a point and ears\" (fr lists all six parts).",
+  "K-425: the watermelon in the basket reads as a striped pumpkin; the EN meta/landing that names \"the watermelon\" may not match what a child sees. Fix: a cut watermelon slice, or name it neutrally.",
+  "K-421: the orange carries a leafy calyx and reads as a tomato; landings should not lean on the word \"orange\".",
+  "K-429: the grey rounded bar under the floor (the rug) looks like an empty name or answer field; nothing on the page says what it is. Fix: give it a fringe or a pattern so it reads as a rug.",
+  "K-431: the first wave line runs straight through the sailboat hull, so the child cannot tell which dashes belong to the boat. Fix: break the wave under the hull or lift the boat onto the wave.",
+  "G1-429: the small car and the dog are dense clouds of dots that do not read as one line each (the car body especially); \"Morning\" is not shown anywhere (no sun). Fix: a simpler car drawing at this dot spacing.",
+  "G1-431: the left farm animal reads as a goat (curly head, horns), while the contract cast says pig; landings must not call it a pig.",
+  "G1-433: three of the five animals (rabbit, fox, mouse) stand on open ground rather than hide in the forest; the title promise \"hidden\" is soft. Acceptable at G1, noted.",
+  "EN title K-421 \"Tracing Worksheets for Toddlers\": the page is three round pictures with start dots, right for 3-4-year-olds (petite section), not toddlers under 3.",
+  "STATUS 2026-10-22: the coordinator reports items 1-14 fixed at the source (K-421 orange to balloon, K-422 recast, K-425 banana, K-429 pot and rug, K-431 boat on the wave, G1-429 sun and simpler dog and car, G1-431 meadow line, G1-432 trophy, G1-433 potted flower gone); the fr text follows those changes."
+ ]
 }

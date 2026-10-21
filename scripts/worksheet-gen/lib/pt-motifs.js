@@ -209,7 +209,9 @@ const stroke = {
   heart: (cx, by, h) => {
     const top = by - h, w = h * 0.55;
     const half = (sg) => catmull([[cx, top + h * 0.24], [cx + sg * w * 0.45, top], [cx + sg * w, top + h * 0.22], [cx + sg * w * 0.7, top + h * 0.62], [cx, by]]);
-    return [fixed(half(-1)), fixed(half(1))];
+    // ONE stroke: from the dip down the left side to the point, then up the right side back to the dip — one start dot,
+    // one arrow (two halves from one dot gave two opposing arrows: the child could not tell which way to go, nl panel)
+    return [fixed(half(-1).concat(half(1).slice().reverse().slice(1)), true)];
   },
   stocking: (cx, by, h) => {
     const top = by - h, w = h * 0.5, x0 = cx - w * 0.55;

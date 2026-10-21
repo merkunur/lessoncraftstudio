@@ -3232,5 +3232,105 @@
   "K-417": {
     "title": "Amici del 9",
     "instruction": "Guarda ogni schema. Scrivi il numero che manca nel cerchio tratteggiato."
+  },
+  "K-418": {
+    "title": "Disegni tratteggiati: il sentiero del giardino fino alla porta",
+    "instruction": "Ripassa tutto il tratteggio e finisci il giardino: la casa, l'albero, la farfalla, i tulipani e il coniglio.",
+    "printTitle": "Il sentiero fino alla porta"
+  },
+  "K-419": {
+    "title": "Disegni tratteggiati per bambini di 3 anni: la mia prima balena",
+    "instruction": "Parti dal pallino. Ripassa la grande balena piano piano, tutto intorno.",
+    "printTitle": "La mia prima balena"
+  },
+  "K-420": {
+    "title": "Ripassa il tratteggio: guarda l'animale, poi ripassalo",
+    "instruction": "Guarda il disegno nella cornice. Poi ripassa lo stesso animale lì accanto.",
+    "printTitle": "Guardo, poi ripasso"
+  },
+  "K-421": {
+    "title": "Disegni tratteggiati per bambini di 4 anni: giro giro tondo",
+    "instruction": "Parti da ogni pallino e ripassa tutto intorno, come quando scrivi la lettera o.",
+    "printTitle": "Giro, giro, tondo"
+  },
+  "K-422": {
+    "title": "Linee dritte da ripassare: disegni verticali, orizzontali, obliqui",
+    "instruction": "Segui le frecce, una colonna alla volta: ripassa le linee in giù, poi quelle di lato, poi quelle oblique.",
+    "printTitle": "In giù, di lato, in obliquo"
+  },
+  "K-423": {
+    "title": "Disegni da ripassare: montagne a zig zag e temporale sul campeggio",
+    "instruction": "Ripassa gli zig zag delle montagne, degli alberi, della tenda e dei fulmini. Fermati su ogni punta.",
+    "printTitle": "Temporale sul campeggio"
+  },
+  "K-424": {
+    "title": "Pregrafismo disegni tratteggiati: spirali e asole da ripassare",
+    "instruction": "Ripassa le spirali e le asole: la lumaca, il lecca-lecca, il fiocco, il bretzel e la girandola.",
+    "printTitle": "La galleria delle spirali"
+  },
+  "K-425": {
+    "title": "Ripassa e colora: il picnic sotto l'albero",
+    "instruction": "Ripassa tutto il disegno del picnic. Poi coloralo con i colori che vuoi.",
+    "printTitle": "Il picnic"
+  },
+  "K-426": {
+    "title": "Disegni tratteggiati scuola dell'infanzia: da dove comincio?",
+    "instruction": "Parti da ogni pallino e segui la freccia. Scendi le scale, un disegno alla volta.",
+    "printTitle": "Da dove comincio?"
+  },
+  "K-427": {
+    "title": "Ripassa e conta: quante anatre ci sono nello stagno?",
+    "instruction": "Ripassa le anatre. Contale. Scrivi nel riquadro quante sono.",
+    "printTitle": "Le anatre nello stagno"
+  },
+  "K-428": {
+    "title": "Completa il disegno: ripassa le parti che mancano",
+    "instruction": "Ripassa le parti tratteggiate e completa ogni disegno: ruote, beccuccio, due manici, punta e orecchie.",
+    "printTitle": "Lo scaffale delle riparazioni"
+  },
+  "K-429": {
+    "title": "Disegni di Natale da ripassare: palline e stelle sull'albero",
+    "instruction": "Ripassa l'albero, i regali, la poltrona, la finestra e il tappeto. Poi fai il giro di ogni pallina e stella.",
+    "printTitle": "La vigilia di Natale"
+  },
+  "K-430": {
+    "title": "Forme da ripassare: un razzo di cerchi, quadrati e triangoli",
+    "instruction": "Ripassa tutte le forme del razzo e del cielo. Poi colora tutti i cerchi.",
+    "printTitle": "Il razzo delle forme"
+  },
+  "K-431": {
+    "title": "Disegni estivi da ripassare: le onde del mare da sinistra a destra",
+    "instruction": "Ripassa le onde da sinistra a destra. Poi ripassa la barca e la spiaggia.",
+    "printTitle": "Una cartolina dal mare"
+  },
+  "K-432": {
+    "title": "Disegni tratteggiati grande, medio, piccolo: aerei, auto e navi",
+    "instruction": "In ogni fila ripassa prima il grande, poi il medio, poi il piccolo.",
+    "printTitle": "Grande, medio, piccolo"
+  },
+  "G1-429": {
+    "title": "Disegni tratteggiati classe prima: una mattina in città a puntini",
+    "instruction": "Ripassa con cura le linee a puntini, anche i dettagli più piccoli.",
+    "printTitle": "Una mattina in città"
+  },
+  "G1-430": {
+    "title": "Ripassa il disegno e la parola: sole, pesce, gatto, mela",
+    "instruction": "Ripassa il disegno. Di' come si chiama. Ripassa la parola qui sotto.",
+    "printTitle": "Disegni e parole"
+  },
+  "G1-431": {
+    "title": "Ripassa e disegna: che cosa c'è nel rimorchio del trattore?",
+    "instruction": "Ripassa tutto il disegno: il trattore, il rimorchio e gli animali. Poi disegna nel rimorchio vuoto che cosa porta il trattore.",
+    "printTitle": "Cosa c'è nel rimorchio?"
+  },
+  "G1-432": {
+    "title": "Disegni simmetrici da ripassare: completa l'altra metà",
+    "instruction": "Ripassa la metà tratteggiata, così le due parti di ogni disegno sono uguali.",
+    "printTitle": "L'altra metà"
+  },
+  "G1-433": {
+    "title": "Disegni tratteggiati di animali: trova i 5 animali nascosti",
+    "instruction": "Trova i 5 animali nascosti nel bosco. Ripassali.",
+    "printTitle": "Chi si nasconde nel bosco?"
   }
 }

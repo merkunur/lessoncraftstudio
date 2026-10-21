@@ -1,0 +1,110 @@
+{
+  "strings": {
+    "base": {
+      "title": "Tekening overtrekken voor kleuters: het tuinpad naar de voordeur",
+      "printTitle": "Het pad naar de voordeur",
+      "instruction": "Trek alle stippellijnen over, dan is de tuin af: het huis, de boom, de vlinder, de tulpen en het konijn."
+    },
+    "first-tracing": {
+      "title": "Overtrekken groep 1: mijn eerste grote walvis",
+      "printTitle": "Mijn eerste keer overtrekken",
+      "instruction": "Begin bij de stip. Trek de grote walvis langzaam over, helemaal rond."
+    },
+    "look-then-trace": {
+      "title": "Natekenen kleuters: eerst kijken, dan het dier overtrekken",
+      "printTitle": "Eerst kijken, dan overtrekken",
+      "instruction": "Kijk goed naar het plaatje in het lijstje. Trek daarna hetzelfde dier ernaast over."
+    },
+    "round-and-round": {
+      "title": "Overtrekken voor peuters en kleuters: rond en rond, net als de o",
+      "printTitle": "Rond en rond",
+      "instruction": "Begin bij elke stip en trek rond en rond, net als de letter o."
+    },
+    "straight-lines": {
+      "title": "Rechte lijnen overtrekken: omlaag, opzij en schuin",
+      "printTitle": "Omlaag, opzij, schuin",
+      "instruction": "Kijk naar de pijl boven elke kolom. Trek de tekeningen over: eerst omlaag, dan opzij, dan schuin."
+    },
+    "zigzags": {
+      "title": "Zigzag overtrekken: onweer boven het kamp in de bergen",
+      "printTitle": "Onweer boven het kamp",
+      "instruction": "Trek de zigzag van de bergen, de bomen, de tent en de bliksem over. Stop even bij elke punt."
+    },
+    "curls": {
+      "title": "Spiralen en lussen overtrekken: de spiraalgalerij",
+      "printTitle": "De spiraalgalerij",
+      "instruction": "Trek de spiralen en lussen over: de slak, de lolly, de strik, de krakeling en het molentje."
+    },
+    "trace-and-color": {
+      "title": "Overtrekken en kleuren: picknick onder de boom",
+      "printTitle": "De picknick",
+      "instruction": "Trek de hele picknick over. Kleur alles daarna in met de kleuren die jij mooi vindt."
+    },
+    "where-to-start": {
+      "title": "Fijne motoriek kleuters: waar begin ik? Tekeningen op de trap",
+      "printTitle": "Waar begin ik?",
+      "instruction": "Begin bij elke stip en volg de pijl. Ga de trap af, één tekening per keer."
+    },
+    "trace-and-count": {
+      "title": "Overtrekken en tellen: hoeveel eenden zwemmen in de vijver?",
+      "printTitle": "Eenden in de vijver",
+      "instruction": "Trek de eenden over. Tel ze. Schrijf in het vakje hoeveel het er zijn."
+    },
+    "finish-the-picture": {
+      "title": "Stippellijn tekening: maak elk plaatje op de plank af",
+      "printTitle": "Maak het af!",
+      "instruction": "Trek de stippellijnen over en maak elk plaatje af: wielen, een tuit, twee handvatten, een punt en oren."
+    },
+    "christmas": {
+      "title": "Kerst overtrekken: kerstballen en sterren in de kerstboom",
+      "printTitle": "Kerstavond",
+      "instruction": "Trek de boom, de cadeautjes, de stoel, het raam en het kleed over. Trek dan elke bal en ster rond over."
+    },
+    "shape-picture": {
+      "title": "Vormen overtrekken: een raket van cirkels, vierkanten en driehoeken",
+      "printTitle": "De vormenraket",
+      "instruction": "Trek alle vormen van de raket en de lucht over. Kleur daarna alle rondjes in."
+    },
+    "summer-sea": {
+      "title": "Zomer overtrekken: golven, zeilboot en strand op een ansichtkaart",
+      "printTitle": "Groeten van zee",
+      "instruction": "Trek de golven over van links naar rechts. Trek daarna de boot en het strand over."
+    },
+    "big-middle-small": {
+      "title": "Groot, middel, klein overtrekken: vliegtuigen, auto's en boten",
+      "printTitle": "Groot, middel, klein",
+      "instruction": "Trek in elke rij eerst de grote over, dan de middelste en dan de kleine."
+    },
+    "dotted-street": {
+      "title": "Puntjes overtrekken groep 3: een ochtend in de stad",
+      "printTitle": "Een ochtend in de stad",
+      "instruction": "Trek de puntjeslijnen heel precies over, ook de kleine details."
+    },
+    "picture-and-word": {
+      "title": "Plaatje overtrekken, zeggen wat het is en het woord overtrekken",
+      "printTitle": "Plaatje en woord",
+      "instruction": "Trek het plaatje over. Zeg wat het is. Trek daarna het woord eronder over."
+    },
+    "trace-and-draw": {
+      "title": "Overtrekken en zelf tekenen: wat zit er in de aanhanger?",
+      "printTitle": "Wat zit er in de aanhanger?",
+      "instruction": "Trek de trekker, de aanhanger en de dieren over. Teken dan wat er in de lege aanhanger zit."
+    },
+    "other-half": {
+      "title": "Symmetrie overtrekken: de andere helft van elke tekening",
+      "printTitle": "De andere helft",
+      "instruction": "Trek de stippelhelft over, zodat beide kanten van elke tekening hetzelfde zijn."
+    },
+    "hidden-animals": {
+      "title": "Dieren overtrekken: zoek de 5 verstopte dieren in het herfstbos",
+      "printTitle": "Wie verstopt zich in het bos?",
+      "instruction": "Zoek de 5 verstopte dieren in het bos. Trek ze over."
+    }
+  },
+  "words": [
+    "zon",
+    "vis",
+    "kat",
+    "appel"
+  ]
+}

@@ -4098,25 +4098,25 @@
     },
     "choice-board.tell-words-apart.rf-k-3-c": {
       "about": [
-        "Das Kind hört ein häufiges Wort vorgelesen und tippt es dann aus drei sehr ähnlich aussehenden Wörtern heraus — „der“ neben „den“, „dem“ und „die“; „und“ neben „uns“, „um“ und „nun“; „ein“ neben „eis“, „bei“ und „nein“. Diese interaktive Lese-Übung für den Kindergarten und die 1. Klasse läuft im Browser mit Ton und ohne Anmeldung und schärft den Blick für die kurzen Wörter, die Kinder am häufigsten verwechseln.",
-        "Diese Sichtwörter sehen fast gleich aus, ein flüchtiger Blick reicht also nicht. Das Kind muss das gehörte Wort im Kopf behalten und die gedruckten Wörter Buchstabe für Buchstabe prüfen, um die genaue Übereinstimmung zu finden — und dabei merken, dass „der“ nicht „den“ ist und „und“ nicht „uns“. Genau dieses genaue Hinschauen macht aus unsicherem Raten das schnelle, sichere Wiedererkennen, von dem flüssiges Lesen lebt.",
-        "Die Aktivität ist an den Lehrplänen der Grundschule im Bereich Lesen ausgerichtet — häufige Sichtwörter sicher auf einen Blick erkennen. Es gibt keinen Timer und keine Punktewertung — nur ruhiges, spielerisches Üben."
+        "Jedes kleine Wort ist ein Schlüssel, und seine Buchstaben sind die Zähne. In der Lücke eines Satzes hängt ein Vorhängeschloss – „___ Hund spielt im Garten.“ –, und das Kind nimmt einen Schlüssel vom Brett und dreht ihn. Nur der öffnet das Schloss; dir, den und dem sehen fast gleich aus, aber ihre Zähne sitzen an der falschen Stelle. Eine interaktive Leseübung, die im Browser läuft.",
+        "Ein falscher Schlüssel klemmt und zeigt, warum: Die Zähne, die nicht passen, leuchten, ein Zahn zu viel ragt aus dem Schloss, ein fehlender lässt eine leere Kerbe. Nach zwei Versuchen wird das Schloss durchsichtig und zeigt, wie viele Buchstaben es braucht. Beim Schlüsselbund teilen sich drei Sätze drei Schlüssel – der, den und dem –, und jeder öffnet genau ein Schloss; so ist jedes ähnliche Wort irgendwo richtig, und das Kind muss Wort und Satz lesen. Beim Schlüsselschneiden schneidet das Kind das Wort Zahn für Zahn aus einer Reihe von Buchstaben. Jedes geöffnete Schloss bringt seinen Schlüssel an den Ring.",
+        "Die Übung orientiert sich am Lehrplan: häufige Wörter genau lesen und von ähnlichen unterscheiden. Eine Einstellung blendet die Bilder für sichere Leser aus. Ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "Ein gehörtes Sichtwort im Kopf behalten, während man die gedruckten Wörter durchsieht.",
-        "Ähnlich aussehende Wörter wie „der“ und „den“ oder „und“ und „uns“ auseinanderhalten.",
-        "Jedes Wort bis zum Ende lesen, statt vom ersten Buchstaben zu raten.",
-        "Das schnelle, sichere Wiedererkennen häufiger Wörter aufbauen."
+        "Häufige Wörter Buchstabe für Buchstabe lesen",
+        "Ähnliche Wörter wie der, den und dem unterscheiden",
+        "Das Wort wählen, das in den Satz passt",
+        "Ein häufiges Wort aus seinen Buchstaben schreiben"
       ],
       "howToPlay": [
-        "Tippe an, um das Wort zu hören, und hör es dir so oft an, wie du möchtest.",
-        "Schau dir die Auswahl an, tippe das Wort an, das zu dem gehörten passt, und tippe dann auf Prüfen.",
-        "Vertan? Probiere es einfach noch einmal — es gibt keinen Timer und keine Punkte."
+        "Lies den Satz mit dem Schloss.",
+        "Tippe einen Schlüssel an oder zieh ihn ins Schloss.",
+        "Drück auf „Drehen“. Klemmt der Schlüssel, schau auf die leuchtenden Zähne und versuch einen anderen."
       ],
       "learningGoals": [
-        "Häufige Wörter wie „der“, „und“, „ein“ und „die“ sicher auf einen Blick lesen.",
-        "Die ähnlich aussehenden Wörter unterscheiden, die Leseanfänger am häufigsten verwechseln.",
-        "Die Lesesicherheit bei Sichtwörtern aufbauen, die den Kopf frei macht für das Verstehen des Gelesenen."
+        "Das Kind liest häufige Wörter genau",
+        "Das Kind unterscheidet ein Wort von ähnlichen Wörtern mit vertauschten, anderen, zusätzlichen oder fehlenden Buchstaben",
+        "Das Kind wählt das Wort, das den Satz richtig macht"
       ]
     },
     "choice-board.beginning-sound.rf-k-3-a": {

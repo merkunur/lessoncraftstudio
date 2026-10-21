@@ -2082,6 +2082,29 @@
         "Lapsi erottaa sanan sanoista, jotka näyttävät melkein samalta",
         "Lapsi tunnistaa saman sanan lauseista, myös isolla alkukirjaimella"
       ]
+    },
+    "choice-board.tell-words-apart.rf-k-3-c": {
+      "about": [
+        "Jokainen pieni sana on avain, ja sen kirjaimet ovat hampaat. Lauseen aukossa on riippulukko – ”Kissa ___ koira leikkivät.” – ja lapsi ottaa avaimen koukusta ja kääntää sitä. Vain ”ja” avaa lukon; jo, jaa ja jano näyttävät melkein samalta, mutta niiden hampaat ovat väärissä kohdissa. Interaktiivinen lukuharjoitus, joka toimii selaimessa.",
+        "Väärä avain juuttuu ja näyttää, miksi: erilaiset hampaat hehkuvat, ylimääräinen hammas työntyy ulos lukosta ja puuttuva jättää tyhjän loven. Kahden yrityksen jälkeen lukko muuttuu lasiksi ja näyttää, montako kirjainta se tarvitsee. Avainnipussa kolme lausetta jakavat kolme avainta – ja, jo ja jano – ja jokainen avain avaa täsmälleen yhden lukon; näin jokainen samannäköinen sana on jossain oikea, ja lapsen täytyy lukea sekä sana että lause. Avainta leikatessa lapsi leikkaa sanan hammas kerrallaan kirjainriviltä. Jokainen avattu lukko ripustaa avaimensa renkaaseen.",
+        "Harjoitus tukee esiopetuksen opetussuunnitelman perusteiden tavoitteita: tavallisten sanojen tarkkaa lukemista ja erottamista samannäköisistä sanoista. Asetuksella kuvat voi piilottaa varmoilta lukijoilta. Ei ajastinta eikä pisteitä."
+      ],
+      "practices": [
+        "Tavallisten sanojen lukeminen kirjain kirjaimelta",
+        "Samannäköisten sanojen, kuten on ja en, erottaminen",
+        "Lauseeseen sopivan sanan valitseminen",
+        "Tavallisen sanan kirjoittaminen sen kirjaimista"
+      ],
+      "howToPlay": [
+        "Lue lause, jossa on lukko.",
+        "Kosketa avainta tai vedä se lukkoon.",
+        "Paina ”Käännä”. Jos avain juuttuu, katso hehkuvia hampaita ja kokeile toista."
+      ],
+      "learningGoals": [
+        "Lapsi lukee tavallisia sanoja tarkasti",
+        "Lapsi erottaa sanan sanoista, joissa on samat kirjaimet eri järjestyksessä, yksi kirjain enemmän tai vähemmän tai yksi eri kirjain",
+        "Lapsi valitsee sanan, joka tekee lauseesta oikean"
+      ]
     }
   }
 }

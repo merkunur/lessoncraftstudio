@@ -1107,25 +1107,25 @@
     },
     "choice-board.tell-words-apart.rf-k-3-c": {
       "about": [
-        "The child hears a common word read aloud, then taps it apart from three close look-alikes — was among saw, war, and wax; of among off, for, and or; were among where, here, and we; want among went, what, and wait. It's an interactive Kindergarten reading activity that runs in the browser with sound and no sign-up, sharpening the sight words children most often mix up.",
-        "These sight words look almost the same, so a quick glance is not enough. The child has to hold the spoken word in mind and check the printed choices letter by letter to find the exact match — noticing that was is not saw reversed, and that of is not off with an extra letter. That careful looking is what turns shaky guesses into the instant, accurate sight-word recognition fluent reading depends on.",
-        "It is aligned to Common Core RF.K.3.c — reading common high-frequency words by sight. No timer, no score — just calm, playful practice."
+        "Each little word is a key, and its letters are its teeth. A sentence has a brass padlock in its gap – “The cat ___ on the bed.” – and the child picks a key from the rail and turns it. Only was opens the lock; saw, war and wax look almost the same, but their teeth sit in the wrong places. It is an interactive Kindergarten reading activity that plays in the browser.",
+        "A wrong key jams and shows why: the teeth that differ glow, an extra tooth sticks out of the lock, a missing one leaves an empty notch. After two jams the lock turns to glass and shows how many letters it needs. In Key ring, three sentences share three keys – was, saw and say – and each key opens exactly one lock, so every look-alike is right somewhere and the child has to read the word and the sentence. In Cut the key, the child cuts the word tooth by tooth from a tray of letters. Every opened lock puts its key on the key ring.",
+        "It is aligned to Common Core RF.K.3.c, reading common high-frequency words by sight. A setting hides the pictures for confident readers. No timer and no score."
       ],
       "practices": [
-        "Holding a spoken sight word in mind while scanning the printed choices",
-        "Telling apart look-alike words like was and saw, of and off, were and where",
-        "Reading each word all the way through instead of guessing from the first letter",
-        "Building fast, accurate recognition of common high-frequency words"
+        "Reading common words letter by letter, in order",
+        "Telling apart words that look alike, such as was and saw",
+        "Choosing the word a sentence needs",
+        "Spelling a common word from its letters"
       ],
       "howToPlay": [
-        "Tap to hear the word, and listen as many times as you like.",
-        "Look at the choices and tap the one that matches the word you heard, then check.",
-        "Mixed it up? Try again — there is no timer and no score."
+        "Read the sentence with the padlock in it.",
+        "Tap or drag a key into the lock.",
+        "Press Turn. If the key jams, look at the glowing teeth and try another key."
       ],
       "learningGoals": [
-        "Read common high-frequency words like was, of, the, were, want, no, and who by sight — the focus of Common Core RF.K.3.c.",
-        "Tell apart the look-alike words beginning readers most often confuse.",
-        "Build the sight-word fluency that frees attention for understanding what is read."
+        "The child reads common high-frequency words exactly",
+        "The child tells a word apart from look-alikes with the same letters in another order, one letter more, one less, or one letter changed",
+        "The child chooses the word that makes the sentence right"
       ]
     },
     "choice-board.ten-more-less.1-nbt-c-5": {

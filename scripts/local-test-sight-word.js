@@ -16,6 +16,11 @@
    Usage: node scripts/local-test-sight-word.js [--locales=en,de] [--shot]
    ===================================================================== */
 'use strict';
+/* RETIRED 2026-10-21 (rebuild #60 + #61): both sight-word rows run their own instruments now (The Blink Camera, The Word Keys). */
+if (!require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'choice-board-activities.json'), 'utf8').includes('"task_template": "read-sight-word"')) {
+  console.log('local-test-sight-word: retired — '+"node scripts/local-test-blink-camera.js · node scripts/local-test-word-keys.js");
+  process.exit(0);
+}
 const http = require('http');
 const fs = require('fs');
 const path = require('path');

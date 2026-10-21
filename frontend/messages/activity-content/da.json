@@ -1358,25 +1358,25 @@
     },
     "choice-board.tell-words-apart.rf-k-3-c": {
       "about": [
-        "Barnet lytter til et almindeligt ord, der læses højt, og trykker derefter på netop det ord blandt tre, der ligner det meget — som en blandt et, er, der, og det blandt den, der. Det er en interaktiv læseøvelse til 1. klasse, der kører i browseren med lyd og uden oprettelse, og som skærper de små hyppige ord, børn lettest forveksler.",
-        "Disse ord ser næsten ens ud, så et hurtigt blik er ikke nok. Barnet skal holde det hørte ord i hovedet og se de skrevne muligheder efter bogstav for bogstav for at finde det rigtige — og lægge mærke til, at en ikke er det samme som et, og at er ikke er det samme som der. Den omhyggelige måde at se på er det, der gør usikre gæt til den hurtige, sikre genkendelse af ord, som flydende læsning bygger på.",
-        "Aktiviteten følger Fælles Mål for dansk i 1. klasse: at læse almindelige, hyppige ord sikkert. Der er ingen timer og ingen point — kun rolig og legende træning, hvor barnet kan lytte igen, så mange gange det vil."
+        "Hvert lille ord er en nøgle, og bogstaverne er tænderne. I hullet i en sætning hænger en hængelås – »Jeg har ___ hund.« – og barnet tager en nøgle fra knagerækken og drejer den. Kun en åbner låsen; et, han og der ligner, men deres tænder sidder forkert. En interaktiv læseøvelse, der kører i browseren.",
+        "En forkert nøgle sætter sig fast og viser hvorfor: De tænder, der er forkerte, lyser, en tand for meget stikker ud af låsen, en manglende efterlader et tomt hak. Efter to forsøg bliver låsen gennemsigtig og viser, hvor mange bogstaver den skal have. I nøgleknippet deler tre sætninger tre nøgler – en, et og der – og hver nøgle åbner præcis én lås; så er hvert ord, der ligner, rigtigt et sted, og barnet må læse både ordet og sætningen. Når barnet skærer nøglen, skærer det ordet tand for tand fra en række bogstaver. Hver åbnet lås sætter sin nøgle på ringen.",
+        "Øvelsen følger Fælles Mål for dansk: at læse hyppige ord nøjagtigt og skelne dem fra ord, der ligner. En indstilling skjuler billederne for sikre læsere. Intet ur og ingen point."
       ],
       "practices": [
-        "Holde et hørt ord i hovedet, mens man ser de skrevne muligheder efter",
-        "Skelne mellem ord, der ligner hinanden, som en og et, er og der, det og den",
-        "Læse hele ordet igennem i stedet for at gætte ud fra det første bogstav",
-        "Opbygge hurtig og sikker genkendelse af almindelige, hyppige ord"
+        "At læse hyppige ord bogstav for bogstav",
+        "At skelne ord, der ligner hinanden, som en og et",
+        "At vælge det ord, sætningen har brug for",
+        "At stave et hyppigt ord ud fra dets bogstaver"
       ],
       "howToPlay": [
-        "Barnet trykker for at høre ordet og kan lytte igen, så mange gange det vil.",
-        "Barnet ser mulighederne og trykker på det ord, der passer til det, det hørte, og trykker derefter på Tjek.",
-        "Blev det blandet sammen? Barnet kan roligt prøve igen — der er ingen timer og ingen point."
+        "Læs sætningen med låsen i.",
+        "Tryk på en nøgle, eller træk den hen til låsen.",
+        "Tryk på »Drej«. Sidder nøglen fast, så se på de lysende tænder, og prøv en anden."
       ],
       "learningGoals": [
-        "Barnet kan læse almindelige, hyppige ord sikkert, som en, et, er, der, det og den",
-        "Barnet kan skelne mellem de ord, begyndende læsere oftest forveksler",
-        "Barnet kan opbygge den sikre ordgenkendelse, der frigør opmærksomhed til at forstå det læste"
+        "Barnet læser hyppige ord nøjagtigt",
+        "Barnet skelner et ord fra ord med de samme bogstaver i en anden rækkefølge, med et bogstav mere eller mindre eller med ét andet bogstav",
+        "Barnet vælger det ord, der gør sætningen rigtig"
       ]
     },
     "choice-board.beginning-sound.rf-k-3-a": {

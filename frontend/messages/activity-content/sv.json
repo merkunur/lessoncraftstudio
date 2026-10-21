@@ -1467,24 +1467,25 @@
     },
     "choice-board.tell-words-apart.rf-k-3-c": {
       "about": [
-        "Barnet hör ett vanligt ord läsas upp och trycker sedan på rätt ord bland tre närliggande tvillingar — det bland den, de och dit; han bland hon, hann och hen; med bland mer, mat och mod; är bland var, här och när. Det är en interaktiv läsövning för åk 1 som körs i webbläsaren med ljud och utan registrering, och som skärper de vanliga ordbilder som barn oftast blandar ihop.",
-        "De här ordbilderna ser nästan likadana ut, så en snabb blick räcker inte. Barnet måste hålla det hörda ordet i minnet och granska de skrivna alternativen bokstav för bokstav för att hitta den exakta motsvarigheten — och lägga märke till att det inte är den, och att han inte är hann med en bokstav extra. Just det noggranna tittandet är det som förvandlar osäkra gissningar till den snabba, säkra ordavläsning som flytande läsning bygger på. Aktiviteten stödjer den tidiga avkodningen i åk 1 enligt Lgr22. Ingen timer och inga poäng — bara lugn, lekfull övning."
+        "Varje litet ord är en nyckel, och bokstäverna är tänderna. I luckan i en mening hänger ett hänglås – ”Jag har ___ hund.” – och barnet tar en nyckel från kroken och vrider om. Bara en öppnar låset; ett, än och in liknar ordet, men tänderna sitter fel. En interaktiv läsövning som fungerar i webbläsaren.",
+        "En fel nyckel fastnar och visar varför: tänderna som skiljer sig lyser, en tand för mycket sticker ut ur låset, en som saknas lämnar ett tomt hack. Efter två försök blir låset genomskinligt och visar hur många bokstäver det behöver. I nyckelknippan delar tre meningar på tre nycklar – en, ett och in – och varje nyckel öppnar precis ett lås; då är varje ord som liknar de andra rätt någonstans, och barnet måste läsa både ordet och meningen. När barnet skär nyckeln skär det ordet tand för tand ur en rad bokstäver. Varje öppnat lås hänger sin nyckel på ringen.",
+        "Övningen följer Lgr22: att läsa vanliga ord exakt och skilja dem från ord som liknar dem. En inställning döljer bilderna för säkra läsare. Ingen tidtagning och inga poäng."
       ],
       "practices": [
-        "Hålla ett hört ord i minnet medan man söker bland de skrivna alternativen",
-        "Skilja på ord som ser lika ut, som det och den, han och hann, är och var",
-        "Läsa hela ordet i stället för att gissa utifrån första bokstaven",
-        "Bygga snabb, säker igenkänning av vanliga, högfrekventa ord"
+        "Att läsa vanliga ord bokstav för bokstav",
+        "Att skilja på ord som liknar varandra, som en och ett",
+        "Att välja det ord som meningen behöver",
+        "Att stava ett vanligt ord med dess bokstäver"
       ],
       "howToPlay": [
-        "Tryck för att höra ordet, och lyssna så många gånger du vill.",
-        "Titta på alternativen och tryck på det ord som stämmer med ordet du hörde, och tryck sedan på Kontrollera.",
-        "Blandade du ihop dem? Försök igen — det finns ingen timer och inga poäng."
+        "Läs meningen med låset i.",
+        "Tryck på en nyckel eller dra den till låset.",
+        "Tryck på ”Vrid”. Fastnar nyckeln? Titta på tänderna som lyser och prova en annan."
       ],
       "learningGoals": [
-        "Barnet kan läsa vanliga, högfrekventa ord på direkten genom ordbild",
-        "Barnet kan skilja på de ord som ser lika ut och som nybörjarläsare oftast förväxlar",
-        "Barnet bygger den ordavläsningsflyt som frigör uppmärksamhet för att förstå det man läser"
+        "Barnet läser vanliga ord exakt",
+        "Barnet skiljer ett ord från ord med samma bokstäver i en annan ordning, med en bokstav mer eller mindre eller med en annan bokstav",
+        "Barnet väljer det ord som gör meningen rätt"
       ]
     },
     "choice-board.beginning-sound.rf-k-3-a": {

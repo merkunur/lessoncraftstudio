@@ -2175,6 +2175,29 @@
         "Barnet skelner vigtige detaljer fra detaljer, der ikke får historien videre",
         "Barnet genfortæller med først, så, bagefter og til sidst"
       ]
+    },
+    "story-spine.role.rl-k-3": {
+      "about": [
+        "En historie er en bog, der går i stykker og bliver hel igen. Barnet sætter tre mærker – BEGYNDELSE, PROBLEM og LØSNING – på de løse sider i en kort billedhistorie og trykker på „Læs bogen“: bogen læser sig selv. På begyndelsessiden vajer et grønt flag, problemsiden revner („Vinden blæste reden ned!“), og løsningssiden sender et plaster over, som lukker revnen. En interaktiv læseaktivitet, der kører i browseren.",
+        "Et plaster sidder kun på en revne, som løsningen virkelig lapper. En rolig side på problemets plads kan ikke revne; en side, der gør noget andet bedre, sender et plaster, der falder af og daler ned; en side, hvor intet er ændret, sender slet ingenting. I Find problemet vælger barnet den midterste side, i Find løsningen den sidste, og i Sætninger til billederne kommer hver sætning under sit billede. Hver lappet bog står på hylden, og fortællebåndet genfortæller historien: Først, Så, Til sidst.",
+        "Aktiviteten følger Fælles Mål for dansk: at genkende personer, sted og handling i en historie. Ni korte historier, hver side lavet af billeder fra billedbiblioteket. Uden tidspres og uden point."
+      ],
+      "practices": [
+        "At skelne begyndelse, problem og løsning i en historie",
+        "At finde den side, hvor noget går galt",
+        "At vælge den side, der løser netop det problem",
+        "At sætte sætninger under de rigtige billeder"
+      ],
+      "howToPlay": [
+        "Sæt mærkerne BEGYNDELSE, PROBLEM og LØSNING på siderne, eller læg en side på den tomme plads.",
+        "Tryk på „Læs bogen“.",
+        "Stopper oplæsningen, så se på den side, hvor den stopper, og byt den ud."
+      ],
+      "learningGoals": [
+        "Barnet navngiver begyndelse, problem og løsning i en kort historie",
+        "Barnet ser, at løsningen skal passe til problemet",
+        "Barnet genfortæller en historie med først, så og til sidst"
+      ]
     }
   }
 }

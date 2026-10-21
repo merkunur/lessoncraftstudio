@@ -286,25 +286,25 @@
     },
     "story-spine.role.rl-k-3": {
       "about": [
-        "Dot el dragoncito le muestra a su hijo/a un cuento chiquito en tres imágenes: a veces a Bo el conejo se le cae un guante en la nieve, a veces un pájaro le quita la zanahoria a Millie, a veces un día de campo bajo la lluvia termina bien. Su hijo/a lee las tres tarjetas —que aparecen revueltas— y descubre cuál parte es el inicio, cuál el problema y cuál la solución.",
-        "La actividad pertenece al eje «Comprensión de textos literarios»: su hijo/a aprende a reconocer el hilo de un cuento —cómo empieza, qué sale mal y cómo se arregla al final. Como las tarjetas se muestran revueltas, no basta con adivinar por su lugar: hay que leer de verdad y pensar cuál parte hace cada trabajo.",
-        "Así, poco a poco, escuchar y leer se convierte en entender la estructura de un cuento —una base importante para más adelante contar y escribir sus propias historias. Un botón de «🔊 Escuchar el cuento» ayuda cuando su hijo/a todavía no lee solo. Sin presiones: sin cronómetro, sin puntaje, sin perder; su hijo/a prueba con calma."
+        "Un cuento es un libro que se rompe y se arregla. El niño pone tres etiquetas –INICIO, PROBLEMA y SOLUCIÓN– en las páginas sueltas de un cuento corto con dibujos y presiona «Lee el libro»: el libro se lee solo. En la página del inicio ondea un banderín verde, la página del problema se rompe («¡El viento tiró el nido!») y la página de la solución manda una curita que cierra la grieta. Es una actividad interactiva de lectura que se juega en el navegador.",
+        "Una curita solo pega en una grieta que su solución de verdad arregla. Una página tranquila en el lugar del problema no se puede romper; una página que mejora otra cosa manda una curita que se despega y cae; una página donde nada cambió no manda nada. En Busca el problema el niño elige la página del medio, en Busca la solución la última, y en Relaciona las oraciones cada oración va debajo de su dibujo. Cada libro arreglado va al librero, y la cinta del cuento lo vuelve a contar: Primero, Luego, Al final.",
+        "Está alineada con los programas de estudio de la SEP: identificar los personajes, el lugar y los sucesos de un cuento. Nueve cuentos cortos, cada página hecha con dibujos de la biblioteca de imágenes. Sin tiempo límite y sin puntos."
       ],
       "practices": [
-        "Reconocer las partes de un cuento: inicio, problema y solución",
-        "Leer con atención tarjetas cortas y relacionarlas con su papel en la historia",
-        "Darse cuenta de en qué momento del cuento aparece el problema",
-        "Entender cómo la solución resuelve el problema del cuento"
+        "Distinguir el inicio, el problema y la solución de un cuento",
+        "Encontrar la página donde algo sale mal",
+        "Elegir la página que de verdad arregla ese problema",
+        "Relacionar oraciones con los dibujos que cuentan"
       ],
       "howToPlay": [
-        "Miren las tres tarjetas revueltas y sus oraciones (o toquen «🔊 Escuchar el cuento»)",
-        "Lean cuál parte se busca: el inicio, el problema o la solución",
-        "El niño toca la tarjeta que corresponde"
+        "Pon las etiquetas INICIO, PROBLEMA y SOLUCIÓN en las páginas, o pon una página en el lugar vacío.",
+        "Presiona «Lee el libro».",
+        "Si la lectura se detiene, mira la página donde se detuvo y cámbiala."
       ],
       "learningGoals": [
-        "Su hijo/a reconoce el hilo de un cuento: inicio, problema y solución",
-        "Lee oraciones cortas y las relaciona con su papel en la historia",
-        "Entiende cómo en un cuento surge un problema y luego se resuelve"
+        "El niño nombra el inicio, el problema y la solución de un cuento corto",
+        "El niño ve que la solución tiene que responder al problema",
+        "El niño vuelve a contar un cuento con primero, luego y al final"
       ]
     },
     "marina-headline-desk.main-topic.ri-2-2": {

@@ -2174,6 +2174,29 @@
         "Lapsi erottaa tärkeät yksityiskohdat niistä, jotka eivät vie tarinaa eteenpäin",
         "Lapsi kertoo uudelleen sanoilla ensin, sitten, sen jälkeen ja lopuksi"
       ]
+    },
+    "story-spine.role.rl-k-3": {
+      "about": [
+        "Tarina on kirja, joka hajoaa ja korjaantuu. Lapsi laittaa kolme lappua – ALKU, ONGELMA ja RATKAISU – lyhyen kuvatarinan irrallisille sivuille ja painaa ”Lue kirja”: kirja lukee itse itsensä. Alkusivulla liehuu vihreä lippu, ongelmasivu repeää (”Tuuli puhalsi pesän maahan!”), ja ratkaisusivu lähettää laastarin, joka sulkee repeämän. Se on vuorovaikutteinen lukuharjoitus, joka toimii selaimessa.",
+        "Laastari pysyy vain repeämässä, jonka ratkaisu todella korjaa. Rauhallinen sivu ongelman paikalla ei voi revetä; sivu, joka korjaa jotain muuta, lähettää laastarin, joka irtoaa ja leijuu alas; sivu, jolla mikään ei ole muuttunut, ei lähetä mitään. Etsi ongelma -tehtävässä lapsi valitsee keskimmäisen sivun, Etsi ratkaisu -tehtävässä viimeisen, ja Yhdistä lauseet -tehtävässä jokainen lause menee kuvansa alle. Jokainen korjattu kirja pääsee hyllyyn, ja kertomanauha kertoo tarinan uudelleen: Ensin, Sitten, Lopuksi.",
+        "Harjoitus tukee perusopetuksen opetussuunnitelman perusteiden 2014 tavoitteita: tarinan henkilöiden, paikan ja tapahtumien tunnistamista. Yhdeksän lyhyttä tarinaa, jokainen sivu tehty kuvapankin kuvista. Ei aikarajaa eikä pisteitä."
+      ],
+      "practices": [
+        "Tarinan alun, ongelman ja ratkaisun erottaminen",
+        "Sen sivun löytäminen, jolla jokin menee vikaan",
+        "Sen sivun valitseminen, joka ratkaisee juuri sen ongelman",
+        "Lauseiden yhdistäminen oikeisiin kuviin"
+      ],
+      "howToPlay": [
+        "Laita laput ALKU, ONGELMA ja RATKAISU sivuille tai laita sivu tyhjään paikkaan.",
+        "Paina ”Lue kirja”.",
+        "Jos lukeminen pysähtyy, katso sivua, jolle se pysähtyi, ja vaihda se."
+      ],
+      "learningGoals": [
+        "Lapsi nimeää lyhyen tarinan alun, ongelman ja ratkaisun",
+        "Lapsi huomaa, että ratkaisun on vastattava ongelmaan",
+        "Lapsi kertoo tarinan uudelleen sanoilla ensin, sitten ja lopuksi"
+      ]
     }
   }
 }

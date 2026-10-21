@@ -678,25 +678,25 @@
     },
     "story-spine.role.rl-k-3": {
       "about": [
-        "Dot der kleine Drache zeigt dir in jeder Runde eine winzige Geschichte — mal verliert Bo das Häschen seinen Handschuh, mal schnappt ein Vogel Milli die Möhre weg, mal wird ein Regen-Picknick doch noch schön. Dein Kind schaut sich drei kurze Bildkarten mit Sätzen an und findet heraus, welcher Teil der Anfang, welcher das Problem und welcher die Lösung ist.",
-        "Die Aufgabe gehört zum Bereich „Literarische Texte verstehen“: Dein Kind lernt, den roten Faden einer Erzählung zu erkennen — wie eine Geschichte beginnt, was schiefgeht und wie am Ende alles gut wird. Weil die Bildkarten durcheinander gezeigt werden, muss dein Kind wirklich lesen und mitdenken, statt nur zu raten.",
-        "So wird aus dem Zuhören und Lesen ein bewusstes Verstehen von Erzählstruktur und Handlungsverlauf — eine wichtige Grundlage fürs spätere eigene Erzählen und Schreiben. Ein Vorlese-Knopf hilft, wenn dein Kind einen Satz noch nicht allein lesen kann. Es gibt keine Zeit und keine Punkte — dein Kind darf in Ruhe ausprobieren."
+        "Eine Geschichte ist ein Buch, das kaputtgeht und wieder heil wird. Das Kind legt drei Kärtchen – ANFANG, PROBLEM und LÖSUNG – auf die losen Seiten einer kurzen Bildergeschichte und drückt auf „Lies das Buch“: Das Buch liest sich selbst vor. Auf der Anfangs-Seite weht ein grünes Fähnchen, die Problem-Seite reißt auf („Der Wind wehte das Nest herunter!“), und die Lösungs-Seite schickt ein Pflaster hinüber, das den Riss verschließt. Eine interaktive Leseübung, die im Browser läuft.",
+        "Ein Pflaster hält nur auf einem Riss, den seine Lösung wirklich heilt. Eine ruhige Seite auf dem Problem-Platz kann nicht aufreißen; eine Seite, die etwas anderes besser macht, schickt ein Pflaster, das sich ablöst und herunterflattert; eine Seite, auf der sich nichts geändert hat, schickt gar nichts. Bei „Problem finden“ wählt das Kind die mittlere Seite, bei „Lösung finden“ die letzte, und bei „Sätze zuordnen“ kommt jeder Satz unter sein Bild. Jedes geheilte Buch kommt ins Regal, und das Erzählband erzählt die Geschichte nach: Zuerst, Dann, Am Ende.",
+        "Die Übung passt zum Lehrplan Deutsch, Bereich Lesen – mit Texten und Medien umgehen: Figuren, Ort und Handlung einer Geschichte erkennen. Neun kurze Geschichten, jede Seite aus Bildern der Bildbibliothek. Ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "Den Handlungsverlauf einer kurzen Geschichte in Anfang, Problem und Lösung gliedern",
-        "Bildkarten und kurze Sätze aufmerksam lesen und einander zuordnen",
-        "Erkennen, an welcher Stelle in einer Erzählung eine Schwierigkeit entsteht",
-        "Verstehen, wie eine Lösung das Problem der Geschichte auflöst"
+        "Anfang, Problem und Lösung einer Geschichte unterscheiden",
+        "Die Seite finden, auf der etwas schiefgeht",
+        "Die Seite wählen, die genau dieses Problem löst",
+        "Sätze den passenden Bildern zuordnen"
       ],
       "howToPlay": [
-        "Sieh dir die drei durcheinander gezeigten Bildkarten mit ihren Sätzen an (bei Bedarf auf „Vorlesen“ tippen)",
-        "Lies, welcher Teil gerade gesucht wird — der Anfang, das Problem oder die Lösung",
-        "Tippe die passende Bildkarte an; Dot freut sich, wenn du richtig liegst"
+        "Leg die Kärtchen ANFANG, PROBLEM und LÖSUNG auf die Seiten oder leg eine Seite auf den leeren Platz.",
+        "Drück auf „Lies das Buch“.",
+        "Hält das Vorlesen an, schau dir die Seite an, auf der es stoppt, und tausche sie aus."
       ],
       "learningGoals": [
-        "Dein Kind erkennt den roten Faden einer Geschichte: Anfang, Problem und Lösung",
-        "Dein Kind liest kurze Sätze genau und ordnet sie der richtigen Rolle in der Erzählung zu",
-        "Dein Kind versteht, wie in einer Erzählung ein Problem entsteht und wieder gelöst wird"
+        "Das Kind benennt Anfang, Problem und Lösung einer kurzen Geschichte",
+        "Das Kind erkennt, dass die Lösung zum Problem passen muss",
+        "Das Kind erzählt eine Geschichte mit zuerst, dann und am Ende nach"
       ]
     },
     "marina-headline-desk.main-topic.ri-2-2": {

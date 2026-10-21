@@ -2182,6 +2182,29 @@
         "Barnet skiller viktige detaljer fra detaljer som ikke får fortellingen videre",
         "Barnet gjenforteller med først, så, etterpå og til slutt"
       ]
+    },
+    "story-spine.role.rl-k-3": {
+      "about": [
+        "En fortelling er ei bok som går i stykker og blir hel igjen. Barnet setter tre lapper – BEGYNNELSE, PROBLEM og LØSNING – på de løse sidene i en kort bildefortelling og trykker på «Les boka»: boka leser seg selv. På begynnelsessiden vaier et grønt flagg, problemsiden sprekker («Vinden blåste ned reiret!»), og løsningssiden sender et plaster over som lukker sprekken. En interaktiv leseaktivitet som spilles i nettleseren.",
+        "Et plaster sitter bare på en sprekk som løsningen virkelig reparerer. En rolig side på problemets plass kan ikke sprekke; en side som gjør noe annet bedre, sender et plaster som løsner og daler ned; en side der ingenting har forandret seg, sender ingenting i det hele tatt. I Finn problemet velger barnet den midterste siden, i Finn løsningen den siste, og i Setninger til bildene kommer hver setning under bildet sitt. Hver reparerte bok står i hylla, og fortellerbåndet gjenforteller: Først, Så, Til slutt.",
+        "Aktiviteten følger LK20 i norsk: å kjenne igjen personer, sted og handling i en fortelling. Ni korte fortellinger, hver side laget av bilder fra bildebiblioteket. Uten tidspress og uten poeng."
+      ],
+      "practices": [
+        "Å skille begynnelse, problem og løsning i en fortelling",
+        "Å finne siden der noe går galt",
+        "Å velge siden som løser akkurat det problemet",
+        "Å legge setninger under riktige bilder"
+      ],
+      "howToPlay": [
+        "Sett lappene BEGYNNELSE, PROBLEM og LØSNING på sidene, eller legg en side på den tomme plassen.",
+        "Trykk på «Les boka».",
+        "Stopper lesingen, se på siden der den stopper, og bytt den ut."
+      ],
+      "learningGoals": [
+        "Barnet navngir begynnelse, problem og løsning i en kort fortelling",
+        "Barnet ser at løsningen må passe til problemet",
+        "Barnet gjenforteller en fortelling med først, så og til slutt"
+      ]
     }
   }
 }

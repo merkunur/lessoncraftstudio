@@ -3416,25 +3416,26 @@
     },
     "atlas-fact-files.key-detail.ri-k-1": {
       "about": [
-        "O tatu Atlas adora colecionar fichas cheias de fatos curiosos sobre o mundo — sobre abelhas, sapos, o sol, pinguins e muito mais. Em cada rodada, ele mostra um textinho de só duas frases e faz uma perguntinha sobre ele. A criança lê com calma e toca na resposta, que está escondidinha ali dentro do próprio texto. Por exemplo: o Atlas mostra \"As abelhas vivem numa colmeia.\" e pergunta: onde as abelhas vivem? É só olhar o texto — na colmeia! Cada ficha é uma descoberta gostosa de fazer.",
-        "Aqui a criança pratica ler um texto curto com atenção, entender o que ele está contando e achar a informação certa para responder à pergunta — o quê, onde ou quantos. Aos pouquinhos, ela vai percebendo que a resposta sempre mora dentro do texto, e que basta procurar com carinho. Isso fortalece a compreensão de leitura logo no comecinho e dá muita confiança para quem está aprendendo a ler. E quando bate aquela dúvida, é só tocar no 🔊 para ouvir o texto lido em voz alta, um empurrãozinho gentil para os leitores iniciantes.",
-        "Esta atividade não pede cadastro nem login. Não tem cronômetro, não tem pontuação e não tem competição — cada criança segue no seu próprio ritmo, do jeitinho dela. O clima é sempre acolhedor e sem pressão: quando a criança erra, o tatu Atlas dá uma dica gentil e convida a tentar de novo, sem nenhuma bronca. Tudo foi pensado de acordo com a BNCC, no trabalho de leitura e compreensão de textos de Língua Portuguesa, para o 1º ano."
+        "O tatu Atlas guarda fatos em fichas. A criança lê um texto curto, “As abelhas moram numa colmeia. Elas fazem mel doce.”, e responde “Onde as abelhas moram?” passando o marca-texto nas palavras do texto. As palavras marcadas caem na frase da pergunta no cartão de resposta: só as palavras que respondem deixam a frase verdadeira, e o cartão entra na gaveta. Se a criança marcar as palavras erradas, o cartão lê de volta e dá para ver que não combinam. É uma atividade interativa de leitura que funciona no navegador.",
+        "Cada texto tem duas perguntas, uma para cada frase, para que a resposta não fique sempre no mesmo lugar. Em Complete a ficha, a criança coloca as cinco frases sobre um animal nas gavetas (Comida, Moradia, Movimento, Corpo, Filhotes) e depois decide se três afirmações estão na ficha. Em Banco de palavras, coloca as palavras importantes de volta nas frases do texto e escolhe três frases favoritas. As figuras podem ser desligadas para contarem só as palavras.",
+        "A atividade está alinhada à BNCC: localizar informações num texto informativo. Cada figura vem da biblioteca de imagens. Sem tempo e sem pontos."
       ],
       "practices": [
-        "Ler um texto curto com atenção.",
-        "Localizar a informação que responde à pergunta.",
-        "Entender o que o texto diz (o quê, onde, quantos).",
-        "Ganhar confiança na leitura."
+        "Achar no texto as palavras que respondem a uma pergunta",
+        "Responder com provas tiradas do texto",
+        "Organizar frases sobre um animal pelo que elas dizem",
+        "Decidir se uma afirmação está no texto"
       ],
       "howToPlay": [
-        "Leia o textinho do Atlas com atenção (toque no 🔊 para ouvir).",
-        "Toque na resposta certa que está no texto.",
-        "Toque em Verificar para ver se acertou."
+        "Leia o texto ou toque no Atlas para ouvir.",
+        "Passe o marca-texto nas palavras que respondem à pergunta e depois confira.",
+        "Na ficha, arraste cada frase para a sua gaveta.",
+        "Coloque cada palavra de volta na sua frase e escolha três frases."
       ],
       "learningGoals": [
-        "Eu leio o texto e acho a resposta nele.",
-        "Eu entendo o que o textinho está contando.",
-        "Eu fico mais confiante para ler sozinho."
+        "A criança acha a informação principal que responde a uma pergunta",
+        "A criança mostra em que parte do texto está a resposta",
+        "A criança diz quais afirmações estão num texto e quais não estão"
       ]
     },
     "gabby-sayings.idioms.l-3-5-a": {

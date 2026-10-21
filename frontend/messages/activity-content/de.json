@@ -1001,25 +1001,26 @@
     },
     "atlas-fact-files.key-detail.ri-k-1": {
       "about": [
-        "Atlas, das Gürteltier, hat sein kleines Forscherheft dabei und zeigt deinem Kind eine winzige Geschichte aus nur zwei Sätzen — zum Beispiel: „Bienen leben in einem Stock. Sie machen süßen Honig.“ Darunter stellt Atlas eine Frage, etwa „Wo leben Bienen?“. Dein Kind liest die beiden Sätze in Ruhe, denkt kurz nach und tippt dann aus drei Möglichkeiten die richtige Antwort an: „in einem Stock“. Die Antwort ist kein Geheimnis — sie steckt schon im Text, man muss sie nur wiederfinden.",
-        "Darum geht es: genau lesen und die Antwort wirklich im Text suchen, statt zu raten. Wenn eine Frage mit Wo, Was oder Wie viele kommt, schaut dein Kind noch einmal in die beiden Sätze und holt sich dort die wichtige Information heraus. Genau das ist der erste Schritt des Leseverstehens — ein Kind merkt, dass in einem kurzen Text echte Antworten stehen und dass es sie ganz allein herausfinden kann. Jede Runde wird ein kleines bisschen kniffliger, aber die Antwort lässt sich immer schwarz auf weiß im Text wiederfinden.",
-        "Diese Übung gehört zum Bereich „Lesen – mit Texten und Medien umgehen“ aus dem Lehrplan der Grundschule, in dem Kinder lernen, kurzen Sachtexten gezielt Informationen zu entnehmen und Fragen dazu zu beantworten. Sie läuft ganz ohne Zeitdruck und ohne Punkte — dein Kind darf so oft und so ruhig lesen, wie es möchte."
+        "Atlas, das Gürteltier, sammelt Fakten in einer Kartei. Das Kind liest einen kurzen Sachtext, „Bienen leben in einem Bienenstock. Sie machen süßen Honig.“, und beantwortet „Wo leben Bienen?“, indem es mit dem Leuchtstift über die Wörter im Text fährt. Die markierten Wörter fallen in den Satz der Frage auf der Antwortkarte: Nur die Wörter, die antworten, machen den Satz richtig, dann rutscht die Karte in die Schublade. Markiert das Kind die falschen Wörter, liest die Karte sie vor, und man sieht, dass sie nicht passen. Eine interaktive Leseübung, die im Browser läuft.",
+        "Zu jedem Text gibt es zwei Fragen, eine zu jedem Satz, damit die Antwort nicht immer an derselben Stelle steht. Bei „Kartei füllen“ ordnet das Kind die fünf Sätze über ein Tier in Schubladen (Fressen, Wohnen, Bewegen, Körper, Tierkinder) und entscheidet dann, ob drei Aussagen in der Kartei stehen. Bei „Wörter einsetzen“ setzt es die wichtigen Wörter zurück in die Sätze des Textes und wählt drei Lieblingssätze. Die Bilder lassen sich ausschalten, dann zählen nur die Wörter.",
+        "Die Übung passt zum Lehrplan Deutsch, Bereich Lesen – mit Texten und Medien umgehen: Informationen in Sachtexten finden. Jedes Bild stammt aus der Bildbibliothek. Ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "Einem kurzen Sachtext aus zwei Sätzen die wichtige Information entnehmen.",
-        "Eine Frage mit Wo, Was oder Wie viele beantworten, indem man die passende Stelle im Text wiederfindet.",
-        "Genau lesen statt raten — die Antwort steht schon im Text.",
-        "Aus drei Möglichkeiten die eine Antwort auswählen, die wirklich im Text steht."
+        "Die Wörter im Text finden, die eine Frage beantworten",
+        "Mit Belegen aus dem Text antworten",
+        "Sätze über ein Tier nach ihrem Inhalt ordnen",
+        "Entscheiden, ob eine Aussage im Text steht"
       ],
       "howToPlay": [
-        "Lies die beiden Sätze, die Atlas dir zeigt, in Ruhe durch.",
-        "Lies dann die Frage darunter und überlege: Wo steht die Antwort im Text?",
-        "Tippe von den drei Möglichkeiten die richtige Antwort an — wenn etwas nicht stimmt, darfst du in Ruhe noch einmal nachlesen."
+        "Lies den Text oder tippe auf Atlas, um ihn zu hören.",
+        "Fahr mit dem Leuchtstift über die Wörter, die die Frage beantworten, und prüfe dann.",
+        "Zieh in der Kartei jeden Satz in seine Schublade.",
+        "Setz jedes Wort in seinen Satz zurück und wähle drei Sätze."
       ],
       "learningGoals": [
-        "Dein Kind kann einem kurzen Sachtext gezielt eine Information entnehmen.",
-        "Dein Kind beantwortet eine einfache Frage, indem es die Antwort im Text wiederfindet.",
-        "Dein Kind erlebt den ersten Schritt des Leseverstehens: Antworten stehen im Text und man kann sie selbst finden."
+        "Das Kind findet die wichtige Information, die eine Frage beantwortet",
+        "Das Kind zeigt, wo im Text die Antwort steht",
+        "Das Kind sagt, welche Aussagen im Text stehen und welche nicht"
       ]
     },
     "nila-pond.main-idea-net.ri-k-2": {

@@ -3119,6 +3119,30 @@
         "Barnet berättar vad som bara händer i den ena",
         "Barnet kontrollerar ett svar mot berättelsens bilder"
       ]
+    },
+    "atlas-fact-files.key-detail.ri-k-1": {
+      "about": [
+        "Bältdjuret Atlas samlar fakta på faktakort. Barnet läser en kort faktatext, ”Bin bor i en bikupa. De gör söt honung.”, och svarar på ”Var bor bin?” genom att dra överstrykningspennan över orden i texten. De markerade orden faller ner i frågans egen mening på svarskortet: bara orden som svarar gör meningen sann, och då glider kortet ner i lådan. Markerar barnet fel ord läser kortet upp dem, och man ser att de inte passar. En interaktiv läsövning som spelas i webbläsaren.",
+        "Till varje text hör två frågor, en till varje mening, så att svaret inte alltid står på samma ställe. I Fyll faktakortet sorterar barnet de fem meningarna om ett djur i lådor (Äter, Bor, Rör sig, Kroppen, Ungar) och avgör sedan om tre påståenden står på kortet. I Sätt in orden sätter barnet tillbaka de viktiga orden i textens egna meningar och väljer tre favoritmeningar. Bilderna kan stängas av så att bara orden räknas.",
+        "Övningen följer Lgr22 i svenska: att hitta information i en faktatext. Varje bild kommer från bildbiblioteket. Utan tidspress och utan poäng."
+      ],
+      "practices": [
+        "Att hitta orden i en text som svarar på en fråga",
+        "Att svara med belägg från texten",
+        "Att sortera meningar om ett djur efter vad de berättar",
+        "Att avgöra om ett påstående står i texten"
+      ],
+      "howToPlay": [
+        "Läs texten eller tryck på Atlas för att höra den.",
+        "Dra pennan över orden som svarar på frågan och kontrollera sedan.",
+        "Dra varje mening i faktakortet till sin låda.",
+        "Sätt tillbaka varje ord i sin mening och välj tre meningar."
+      ],
+      "learningGoals": [
+        "Barnet hittar den viktiga uppgiften som svarar på en fråga",
+        "Barnet visar var i texten svaret står",
+        "Barnet berättar vilka påståenden som står i en text och vilka som inte gör det"
+      ]
     }
   }
 }

@@ -2269,6 +2269,30 @@
         "Barnet fortæller, hvad der kun sker i den ene",
         "Barnet tjekker et svar med historiens billeder"
       ]
+    },
+    "atlas-fact-files.key-detail.ri-k-1": {
+      "about": [
+        "Bæltedyret Atlas samler fakta på faktakort. Barnet læser en kort faktatekst, „Bier bor i en bikube. De laver sød honning.“, og svarer på „Hvor bor bier?“ ved at stryge overstregningstuschen hen over ordene i teksten. De markerede ord falder ned i spørgsmålets egen sætning på svarkortet: Kun de ord, der svarer, gør sætningen sand, og så glider kortet ned i skuffen. Markerer barnet de forkerte ord, læser kortet dem op, og man kan se, at de ikke passer. En interaktiv læseøvelse, der kører i browseren.",
+        "Til hver tekst hører to spørgsmål, ét til hver sætning, så svaret ikke altid står samme sted. I Fyld faktakortet sorterer barnet de fem sætninger om et dyr i skuffer (Spiser, Bor, Bevæger sig, Kroppen, Unger) og afgør så, om tre påstande står på kortet. I Indsæt ordene sætter barnet de vigtige ord tilbage i tekstens egne sætninger og vælger tre yndlingssætninger. Billederne kan slås fra, så kun ordene tæller.",
+        "Øvelsen følger Fælles Mål for dansk: at finde oplysninger i en faktatekst. Hvert billede kommer fra billedbiblioteket. Uden tidspres og uden point."
+      ],
+      "practices": [
+        "At finde de ord i en tekst, der svarer på et spørgsmål",
+        "At svare med belæg fra teksten",
+        "At sortere sætninger om et dyr efter, hvad de fortæller",
+        "At afgøre, om en påstand står i teksten"
+      ],
+      "howToPlay": [
+        "Læs teksten, eller tryk på Atlas for at høre den.",
+        "Stryg tuschen hen over de ord, der svarer på spørgsmålet, og tjek så.",
+        "Træk hver sætning i faktakortet ned i sin skuffe.",
+        "Sæt hvert ord tilbage i sin sætning, og vælg tre sætninger."
+      ],
+      "learningGoals": [
+        "Barnet finder den vigtige oplysning, der svarer på et spørgsmål",
+        "Barnet viser, hvor i teksten svaret står",
+        "Barnet fortæller, hvilke påstande der står i en tekst, og hvilke der ikke gør"
+      ]
     }
   }
 }

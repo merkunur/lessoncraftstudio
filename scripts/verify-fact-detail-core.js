@@ -29,6 +29,10 @@ const pct = (x) => (100 * x).toFixed(1) + '%';
 (function main() {
   const Core = loadCore();
   const manifest = JSON.parse(fs.readFileSync(MANIFEST, 'utf8'));
+  /* Row 69 rebuild (2026-10-21): atlas-fact-files.key-detail.ri-k-1 runs THE HIGHLIGHTER on its own atlas-fact-files-core.js; its params are a
+     mirror, no longer the rounds this gate reads. fact-detail-core.js is untouched; the row's gates are verify-atlas-fact-files-core.js,
+     mutate-atlas-fact-files.js and local-test-atlas-fact-files.js. */
+  if (!manifest[0].params.rounds) { console.log('verify-fact-detail-core: the row runs The Highlighter (atlas-fact-files-core.js) — see verify-atlas-fact-files-core.js. Nothing to check here.'); process.exit(0); }
   const rounds = manifest[0].params.rounds || [];
   const N = rounds.length || 1;
 

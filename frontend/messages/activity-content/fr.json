@@ -393,24 +393,26 @@
     },
     "atlas-fact-files.key-detail.ri-k-1": {
       "about": [
-        "Atlas le tatou adore les vraies histoires de la nature, et il en a rassemblé tout un carnet pour votre enfant. À chaque fiche, il montre un court texte documentaire de deux phrases — par exemple « Les abeilles vivent dans une ruche. Elles font du miel sucré. » — que l'on peut aussi écouter à voix haute. Puis Atlas pose une question, comme « Où vivent les abeilles ? », et votre enfant choisit la bonne réponse parmi trois propositions : celle qui se trouve dans le texte.",
-        "En jouant, votre enfant apprend à comprendre un court texte documentaire, à y retrouver une information et à répondre à une question précise en Où, Que, Quand ou Combien. C'est une compétence de lecture prévue par les programmes officiels de l'école, travaillée ici en douceur, à travers de vrais faits sur les animaux et la nature. L'activité se joue sans minuteur ni score : votre enfant prend son temps, se trompe sans crainte et recommence autant qu'il le souhaite."
+        "Atlas le tatou range des faits dans ses fiches. L’enfant lit un court texte, « Les abeilles vivent dans une ruche. Elles font du miel sucré. », et répond à « Où vivent les abeilles ? » en passant le surligneur sur les mots du texte. Les mots surlignés tombent dans la phrase de la question sur la carte réponse : seuls les mots qui répondent la rendent vraie, et la carte glisse dans le tiroir. Si l’enfant surligne les mauvais mots, la carte les relit et on voit qu’ils ne vont pas. C’est une activité de lecture interactive qui se joue dans le navigateur.",
+        "Chaque texte a deux questions, une pour chaque phrase, pour que la réponse ne soit pas toujours au même endroit. Dans Remplis la fiche, l’enfant range les cinq phrases sur un animal dans des tiroirs (Nourriture, Habitat, Déplacement, Corps, Petits), puis décide si trois affirmations sont dans la fiche. Dans Banque de mots, il remet les mots importants dans les phrases du texte et choisit trois phrases préférées. Les images peuvent être enlevées pour que seuls les mots comptent.",
+        "L’activité suit les programmes officiels du CP : trouver une information dans un texte documentaire. Chaque image vient de la banque d’images. Sans chronomètre et sans points."
       ],
       "practices": [
-        "Comprendre un court texte documentaire",
-        "Retrouver une information précise dans un texte",
-        "Répondre à une question en Où, Que, Quand ou Combien",
-        "Découvrir de vrais faits sur la nature et les animaux"
+        "Trouver dans un texte les mots qui répondent à une question",
+        "Répondre en s’appuyant sur le texte",
+        "Ranger des phrases sur un animal selon ce qu’elles disent",
+        "Décider si une affirmation est dans le texte"
       ],
       "howToPlay": [
-        "Lis (ou écoute) le petit texte documentaire d'Atlas.",
-        "Lis la question, puis tape la réponse — elle se cache dans le texte.",
-        "Choisis la bonne proposition parmi les trois affichées."
+        "Lis le texte ou touche Atlas pour l’écouter.",
+        "Passe le surligneur sur les mots qui répondent à la question, puis vérifie.",
+        "Dans la fiche, glisse chaque phrase dans son tiroir.",
+        "Remets chaque mot dans sa phrase et choisis trois phrases."
       ],
       "learningGoals": [
-        "Votre enfant apprend à comprendre un court texte documentaire et à en dégager l'essentiel.",
-        "Votre enfant apprend à prélever une information dans un texte pour répondre à une question précise.",
-        "Votre enfant apprend à repérer ce que demande une question en Où, Que, Quand ou Combien."
+        "L’enfant trouve l’information clé qui répond à une question",
+        "L’enfant montre où se trouve la réponse dans le texte",
+        "L’enfant dit quelles affirmations sont dans un texte et lesquelles n’y sont pas"
       ]
     },
     "jasper-just-right.real-life.l-1-5-c": {

@@ -2276,6 +2276,30 @@
         "Barnet forteller hva som bare skjer i den ene",
         "Barnet sjekker et svar mot bildene i fortellingen"
       ]
+    },
+    "atlas-fact-files.key-detail.ri-k-1": {
+      "about": [
+        "Beltedyret Atlas samler fakta på faktakort. Barnet leser en kort faktatekst, «Bier bor i en bikube. De lager søt honning.», og svarer på «Hvor bor bier?» ved å dra merkepennen over ordene i teksten. De merkede ordene faller ned i spørsmålets egen setning på svarkortet: Bare ordene som svarer, gjør setningen sann, og da glir kortet ned i skuffen. Merker barnet feil ord, leser kortet dem opp, og man ser at de ikke passer. En interaktiv leseøvelse som spilles i nettleseren.",
+        "Til hver tekst hører to spørsmål, ett til hver setning, så svaret ikke alltid står på samme sted. I Fyll faktakortet sorterer barnet de fem setningene om et dyr i skuffer (Spiser, Bor, Beveger seg, Kroppen, Unger) og avgjør så om tre påstander står på kortet. I Sett inn ordene setter barnet de viktige ordene tilbake i tekstens egne setninger og velger tre yndlingssetninger. Bildene kan slås av, så bare ordene teller.",
+        "Øvelsen følger LK20 i norsk: å finne informasjon i en faktatekst. Hvert bilde kommer fra bildebiblioteket. Uten tidspress og uten poeng."
+      ],
+      "practices": [
+        "Å finne ordene i en tekst som svarer på et spørsmål",
+        "Å svare med belegg fra teksten",
+        "Å sortere setninger om et dyr etter hva de forteller",
+        "Å avgjøre om en påstand står i teksten"
+      ],
+      "howToPlay": [
+        "Les teksten, eller trykk på Atlas for å høre den.",
+        "Dra pennen over ordene som svarer på spørsmålet, og sjekk så.",
+        "Dra hver setning i faktakortet til sin skuff.",
+        "Sett hvert ord tilbake i sin setning, og velg tre setninger."
+      ],
+      "learningGoals": [
+        "Barnet finner den viktige opplysningen som svarer på et spørsmål",
+        "Barnet viser hvor i teksten svaret står",
+        "Barnet forteller hvilke påstander som står i en tekst, og hvilke som ikke gjør det"
+      ]
     }
   }
 }

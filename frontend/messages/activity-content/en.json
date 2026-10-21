@@ -547,25 +547,26 @@
     },
     "atlas-fact-files.key-detail.ri-k-1": {
       "about": [
-        "Atlas the armadillo keeps a file of true facts, and the child reads one of his short cards — two real sentences such as 'Bees live in a hive. They make sweet honey.' — then answers a question about it. The facts cover bees, frogs, the sun, penguins, spiders, trees, cows, and rain, so children practice on friendly nonfiction. It's a Kindergarten reading activity that runs in the browser with no account.",
-        "Each round asks a who, what, where, or how-many question — 'Where do bees live?' or 'How many legs does a spider have?' — and offers three answers. Two are wrong on purpose ('in a nest,' 'in a pond'), so a child cannot pick by feel; they have to look back at the sentence and find the words that actually answer the question. That look-back-and-find move is the heart of reading nonfiction for details.",
-        "It is aligned to Common Core RI.K.1 — asking and answering questions about key details in an informational text. No timer, no score — just calm, playful practice."
+        "Atlas the armadillo keeps fact files. The child reads a short fact, \"Bees live in a hive. They make sweet honey.\", and answers \"Where do bees live?\" by swiping a highlighter over the words in the text. The caught words drop into the question’s own sentence on the answer card: only the words that answer make it read true, and the card snaps into the drawer. Highlight the wrong words and the card reads them back so the child can see they do not fit. It is an interactive Kindergarten reading activity that plays in the browser.",
+        "Every fact has two questions, one answered in each sentence, so the answer is never always in the same place. In Fill the fact file, the child sorts the five sentences of an animal’s text into drawers (eats, lives, moves, is covered in, babies) and then decides whether three claims are in the file. In Word-bank file, the child puts the key words back into the text’s own sentences and picks three favourite facts. Pictures can be turned off so only the words count.",
+        "It is aligned to Common Core RI.K.1: asking and answering questions about key details in a text. Every picture comes from the picture library. No timer and no score."
       ],
       "practices": [
-        "Reading a short two-sentence fact about a real thing",
-        "Finding the words that answer a who, what, where, or how-many question",
-        "Looking back at the text instead of guessing the answer",
-        "Telling the right detail apart from two believable wrong choices"
+        "Finding the words in a text that answer a question",
+        "Answering with evidence from the text",
+        "Sorting facts about an animal by what they tell",
+        "Deciding whether a claim is in the text"
       ],
       "howToPlay": [
-        "Read Atlas's two-sentence fact card — for example, the one about bees and their hive.",
-        "Read the question and tap the answer you found in the fact, from the three choices.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Read the fact, or tap Atlas to hear it.",
+        "Swipe the highlighter over the words that answer the question, then check.",
+        "In the fact file, drag each sentence into its drawer.",
+        "Put each word back in its sentence and pick three facts."
       ],
       "learningGoals": [
-        "Answer questions about key details in a fact text — the focus of Common Core RI.K.1.",
-        "Locate who, what, where, and how-many details right in the sentences.",
-        "Build the habit of reading nonfiction closely and checking the text for answers."
+        "The child finds the key detail that answers a question",
+        "The child shows where in the text the answer is",
+        "The child tells which facts are in a text and which are not"
       ]
     },
     "author-purpose.why-wrote.ri-2-6": {

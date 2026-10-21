@@ -56,3 +56,8 @@ ORDER row 67 · id `otto-picture-book.which-picture.rl-k-7` (kept).
 - **local-test-otto-picture-book:** 5367 pass, 0 fail. Real pointer, every round of every task in both settings in all 11 locales (taps, drags, keyboard, empty check), plus a width sweep at 320–1366 with rest, miss 2 and won. The first sweep found the letter boxes as 32 px tap targets and the color pictures inset below their floor (55 / 83); both fixed.
 - **Other audits:** visual-qa en and fi 48 renders each passed; audit-activity-hierarchy 524/0; audit-settings-efficacy 2 settings live; both preflights pass; verify-activity-content ×11 pass.
 - **My own read:** the 360, 768 and 1024 renders (which, fill with grey letters at miss 2, two-part true/false with the dangling «hat», the two-part color row with rings). It found the fi pinned word sitting above the line beside unpinned words; the pinned words are now baseline-aligned.
+
+## Live (2026-10-21)
+- Commit `75681dd1`, deployed (`git pull` → cp the four mini-tools files → `deploy.sh`), preview webp uploaded first.
+- `live-verify-otto-picture-book.js`: 75 pass, 0 fail on the second run (the first run raced the page cache on the two new sv/fi pages). It covers all 11 pages returning 200, plus en/de/sv/fi at 1366 and 390: two-part boat story on wrong panels (words dangle, hint, miss) then right (success text); true/false tf8 wrong then right; wrapper 9.806; the iframe grows with the card.
+- Variety probe en/sv/fi: 8 distinct rounds, reshuffled per pass.

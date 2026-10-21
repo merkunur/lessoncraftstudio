@@ -74,7 +74,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 64 | LIVE 2026-10-21 · The Flipbook | K | RL.K.2 | `wake-up-pip.retell-story.rl-k-2` | wake-up-pip-activity | Wake Up, Pip! — Retell the Story to a Friend (Kindergarten) |
 | 65 | LIVE 2026-10-21 · The book that cracks and mends | K | RL.K.3 | `story-spine.role.rl-k-3` | story-spine-activity | Dot's Story Spine — Story Parts: Start, Trouble & Fix (Kindergarten) |
 | 66 | LIVE 2026-10-21 · The Two Inks | K | RL.K.6 | `inky-book-workshop.author-illustrator.rl-k-6` | inky-book-workshop-activity | Inky's Book Workshop — Author or Illustrator? (Kindergarten) |
-| 67 |  | K | RL.K.7 | `otto-picture-book.which-picture.rl-k-7` | otto-picture-book-activity | Otto's Picture Book — Which Picture Shows It? (Kindergarten) |
+| 67 | LIVE 2026-10-21 · Otto's proof pins | K | RL.K.7 | `otto-picture-book.which-picture.rl-k-7` | otto-picture-book-activity | Otto's Picture Book — Which Picture Shows It? (Kindergarten) |
 | 68 |  | K | RL.K.9 | `willow-story-corner.compare-tales.rl-k-9` | willow-story-corner-activity | Willow's Story Corner — Two Tales, Alike or Different? (Kindergarten) |
 | 69 |  | K | RI.K.1 | `atlas-fact-files.key-detail.ri-k-1` | atlas-fact-files-activity | Atlas's Fact Files — Find the Key Detail (Kindergarten) |
 | 70 |  | K | RI.K.2 | `nila-pond.main-idea-net.ri-k-2` | nila-pond-activity | Nila's Idea Pond — Find the Big Idea |

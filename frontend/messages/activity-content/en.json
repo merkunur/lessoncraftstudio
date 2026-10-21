@@ -1060,25 +1060,25 @@
     },
     "choice-board.read-sight-word.rf-k-3-c": {
       "about": [
-        "The child hears a common high-frequency word spoken aloud, then taps the matching written word among look-alike choices — everyday sight words like was, the, of, you, see, and, go, and like that appear constantly in early texts. It's an interactive Kindergarten reading activity that runs right in the browser on tablets, phones, and computers, with nothing to install and no sign-up.",
-        "The big idea is recognizing common words by sight, instantly, so reading can flow. Many of these words do not sound out neatly, so the wrong choices are close cousins — was next to saw, of next to off — and the child has to know the exact word, not just a similar shape. Hearing the word and finding it in print connects sound to spelling for the words children meet most.",
-        "It is aligned to Common Core RF.K.3.c — reading common high-frequency words by sight. No timer, no score — just calm, playful practice."
+        "A sight word is a word you can read in a blink, so this camera shows the word for exactly one blink. The child presses the big button, the iris spins open and «was» glows in the lens while four cards lie face down. The shutter clicks shut, the cards flip up – saw, was, want and with – and the child taps the word they saw. It is an interactive Kindergarten reading activity that plays in the browser.",
+        "The look-alikes are chosen so that a glance at the first letter is never enough. A wrong card flips back and the camera looks again, a little longer; after two misses a photo of the word sits beside the cards and the letters that differ glow. In Find every one the child brackets every copy of «the» in a grid of twelve tiles – it is there five times – and then says how many. In the story mode the word hides in short sentences next to a picture: “The cat was on the bed. Was it hot?” A capital at the start is still the same word. Every right answer develops into a photo for the album.",
+        "It is aligned to Common Core RF.K.3.c, reading common high-frequency words by sight. The dial on the camera sets a long, medium or short blink, and the camera can be pressed again at any time. No timer and no score."
       ],
       "practices": [
-        "Recognize common sight words like was, the, of, and you by sight",
-        "Match a spoken word to its written form",
-        "Tell look-alike words apart, like was and saw, or of and off",
-        "Build the instant word recognition that makes reading fluent"
+        "Reading common words at a glance",
+        "Telling a word from its look-alikes, letter by letter",
+        "Noticing letter order, as in was and saw",
+        "Finding the same word in sentences, with or without a capital"
       ],
       "howToPlay": [
-        "Listen to the word spoken aloud — tap to hear it again if you like.",
-        "Tap the written word that matches what you heard, then press Check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Press the camera button and look at the word in the lens.",
+        "When the cards flip up, tap the word you saw.",
+        "Press Check. Not right? Press the camera again and take another look."
       ],
       "learningGoals": [
-        "Read common high-frequency words by sight — the focus of Common Core RF.K.3.c",
-        "Connect a heard word to its exact spelling among look-alikes",
-        "Build the sight-word bank that frees attention for understanding what you read"
+        "The child reads common high-frequency words by sight",
+        "The child tells a word apart from words that look almost the same",
+        "The child recognises the same word in sentences, also with a capital letter"
       ]
     },
     "choice-board.shape-id.k-g-a-2": {

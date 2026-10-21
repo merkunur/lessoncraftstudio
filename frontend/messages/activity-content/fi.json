@@ -2059,6 +2059,29 @@
         "Lapsi kirjoittaa jokaisen äänteen kirjaimen oikeassa järjestyksessä",
         "Lapsi yhdistää äänteet takaisin sanaksi"
       ]
+    },
+    "choice-board.read-sight-word.rf-k-3-c": {
+      "about": [
+        "Tavallisen pikkusanan voi lukea silmänräpäyksessä – siksi tämä kamera näyttää sanan tasan yhden välähdyksen ajan. Lapsi painaa isoa laukaisinta, himmennin aukeaa pyörien ja ”ja” loistaa linssissä, kun neljä korttia on kuvapuoli alaspäin. Suljin napsahtaa kiinni, kortit kääntyvät – jo, ja, jaa ja jano – ja lapsi koskettaa sanaa, jonka näki. Interaktiivinen lukuharjoitus, joka toimii selaimessa.",
+        "Samannäköiset sanat on valittu niin, että pelkkä vilkaisu ensimmäiseen kirjaimeen ei koskaan riitä. Väärä kortti kääntyy takaisin ja kamera välähtää uudelleen, vähän pidempään; kahden virheen jälkeen sanasta otettu valokuva jää korttien viereen, ja erilaiset kirjaimet hehkuvat. Etsi kaikki -pelissä lapsi kehystää jokaisen sanan ”on” kahdentoista laatan ruudukosta – sana on siellä viisi kertaa – ja kertoo sitten, montako niitä on. Tarinassa sana piileskelee lyhyissä lauseissa kuvan vieressä: ”Kissa ja koira leikkivät. Ja nyt niillä on jano.” Isolla alkukirjaimella se on silti sama sana. Jokaisesta oikeasta vastauksesta tulee valokuva albumiin.",
+        "Harjoitus tukee esiopetuksen opetussuunnitelman perusteiden tavoitteita: tavallisten sanojen tunnistamista nopeasti ja varmasti. Kameran nupista valitaan pitkä, keskipitkä tai lyhyt välähdys, ja kameraa voi painaa uudelleen milloin tahansa. Ei ajastinta eikä pisteitä."
+      ],
+      "practices": [
+        "Tavallisten sanojen lukeminen silmänräpäyksessä",
+        "Sanan erottaminen samannäköisistä sanoista kirjain kirjaimelta",
+        "Kirjainten järjestyksen huomaaminen",
+        "Saman sanan löytäminen lauseista, myös isolla alkukirjaimella"
+      ],
+      "howToPlay": [
+        "Paina kameran laukaisinta ja katso sanaa linssissä.",
+        "Kun kortit kääntyvät, kosketa sanaa, jonka näit.",
+        "Paina ”Tarkista”. Eikö mennyt oikein? Paina kameraa uudelleen ja katso vielä kerran."
+      ],
+      "learningGoals": [
+        "Lapsi lukee tavallisia sanoja silmänräpäyksessä",
+        "Lapsi erottaa sanan sanoista, jotka näyttävät melkein samalta",
+        "Lapsi tunnistaa saman sanan lauseista, myös isolla alkukirjaimella"
+      ]
     }
   }
 }

@@ -1131,25 +1131,25 @@
     },
     "choice-board.read-sight-word.rf-k-3-c": {
       "about": [
-        "Barnet hører et vanlig høyfrekvent ord lest høyt, og trykker så på det skrevne ordet som passer, blant valg som ligner — hverdagsord som «og», «er», «det», «som», «på», «en», «de» og «ikke» som dukker opp hele tiden i tidlige tekster. Dette er en interaktiv leseaktivitet for 2. trinn som spilles rett i nettleseren på nettbrett, telefon og datamaskin — ingenting å laste ned og ingen konto.",
-        "Den store ideen er å kjenne igjen vanlige ord som ordbilder, med en gang, slik at lesingen kan flyte. Mange av disse ordene lar seg ikke lydere ut helt rett fram, så de gale valgene er nære slektninger — «er» ved siden av «en», «det» ved siden av «de» — og barnet må kjenne akkurat det riktige ordet, ikke bare en lignende form. Å høre ordet og finne det på trykk knytter lyd til skrift for de ordene barna møter aller mest.",
-        "Aktiviteten følger LK20 innenfor tidlig lesetrening — å lese vanlige høyfrekvente ord som ordbilder. Det er ingen tidtaker og ingen poeng, bare rolig og lekende lesetrening for 2. trinn."
+        "Et høyfrekvent ord skal man kunne lese på et øyeblikk – derfor viser dette kameraet ordet i nøyaktig ett øyeblikk. Barnet trykker på den store utløseren, blenderen snurrer opp, og «det» lyser i linsen mens fire kort ligger med baksiden opp. Lukkeren klikker igjen, kortene snus – den, det, der og de – og barnet trykker på ordet det så. En interaktiv leseøvelse som fungerer i nettleseren.",
+        "Ordene som ligner, er valgt slik at et blikk på den første bokstaven aldri er nok. Et feil kort snus tilbake, og kameraet blinker igjen, litt lenger; etter to bom ligger et foto av ordet ved siden av kortene, og bokstavene som er forskjellige, lyser. I «Finn alle» setter barnet en ramme rundt hvert «er» i et rutenett med tolv brikker – det står der fem ganger – og sier så hvor mange det er. I fortellingen gjemmer ordet seg i korte setninger ved siden av et bilde: «Det er sol i dag. Sola er varm, og det er godt.» Med stor forbokstav er det fortsatt det samme ordet. Hvert riktige svar blir et foto i albumet.",
+        "Øvelsen følger LK20: å kjenne igjen høyfrekvente ord raskt og sikkert. Hjulet på kameraet velger et langt, middels eller kort øyeblikk, og kameraet kan alltid trykkes igjen. Ingen tidtaking og ingen poeng."
       ],
       "practices": [
-        "Kjenne igjen vanlige ordbilder som «og», «er», «det» og «som».",
-        "Koble et ord barnet hører til den skrevne formen.",
-        "Skille ord som ligner fra hverandre, som «er» og «en», eller «det» og «de».",
-        "Bygge den raske ordgjenkjenningen som gjør lesingen flytende."
+        "Å lese høyfrekvente ord på et øyeblikk",
+        "Å skille et ord fra ord som ligner, bokstav for bokstav",
+        "Å legge merke til rekkefølgen på bokstavene",
+        "Å finne det samme ordet i setninger, også med stor forbokstav"
       ],
       "howToPlay": [
-        "Lytt til ordet som leses høyt — trykk for å høre det igjen hvis du vil.",
-        "Trykk på det skrevne ordet som passer med det du hørte, og trykk så på Sjekk.",
-        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+        "Trykk på utløseren på kameraet og se på ordet i linsen.",
+        "Når kortene snus, trykker du på ordet du så.",
+        "Trykk på «Sjekk». Ikke riktig? Trykk på kameraet igjen og se en gang til."
       ],
       "learningGoals": [
-        "Barnet kan lese vanlige høyfrekvente ord som ordbilder.",
-        "Barnet kan koble et hørt ord til den nøyaktige skrivemåten blant ord som ligner.",
-        "Barnet bygger ordbildelageret som frigjør oppmerksomhet til å forstå det det leser."
+        "Barnet leser høyfrekvente ord på et øyeblikk",
+        "Barnet skiller et ord fra ord som ser nesten like ut",
+        "Barnet kjenner igjen det samme ordet i setninger, også med stor forbokstav"
       ]
     },
     "choice-board.letter-case.rf-k-1-d": {

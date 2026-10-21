@@ -3835,25 +3835,25 @@
     },
     "choice-board.read-sight-word.rf-k-3-c": {
       "about": [
-        "Je kind hoort een veelvoorkomend woord hardop voorlezen en tikt daarna het juiste geschreven woord aan tussen woorden die er bijna hetzelfde uitzien — alledaagse flitswoorden zoals de, het, een, ik, en, is, op en aan, die in beginnende teksten steeds opnieuw voorkomen. Het is een interactieve leesactiviteit voor groep 3 die zonder installeren en zonder account in de browser draait op tablet, telefoon en computer.",
-        "Het grote idee is veelvoorkomende woorden meteen op het oog herkennen, zodat het lezen kan gaan stromen. Veel van deze woorden klink je niet netjes uit, dus de verkeerde keuzes lijken er sterk op — de naast die, een naast en — en je kind moet het exacte woord kennen, niet alleen een vergelijkbare vorm. Het woord horen en het in druk terugvinden verbindt klank aan schrift voor de woorden die kinderen het vaakst tegenkomen.",
-        "Deze oefening past bij de SLO-kerndoelen voor beginnende geletterdheid en bij kinderen in groep 3, waar het formele lezen in Nederland begint. Geen timer, geen score — gewoon rustig luisteren en herkennen."
+        "Een flitswoord lees je in één oogopslag – daarom laat deze camera het woord precies één flits lang zien. Het kind drukt op de grote knop, het diafragma draait open en «de» licht op in de lens, terwijl vier kaarten omgedraaid liggen. De sluiter klikt dicht, de kaarten draaien om – die, de, den en te – en het kind tikt op het woord dat het zag. Een interactieve leesoefening die in de browser werkt.",
+        "De woorden die erop lijken zijn zo gekozen dat een blik op de eerste letter nooit genoeg is. Een verkeerde kaart draait terug en de camera flitst nog eens, iets langer; na twee missers ligt er een foto van het woord naast de kaarten en lichten de letters op die anders zijn. Bij «Vind ze allemaal» zet het kind een kadertje om elk «het» in een rooster van twaalf kaartjes – het staat er vijf keer – en zegt dan hoeveel het er zijn. In het verhaal zit het woord in korte zinnen naast een plaatje: ‘De kat zit op de mat. Die kat is lief.’ Ook met een hoofdletter aan het begin is het hetzelfde woord. Elk goed antwoord wordt een foto in het album.",
+        "De oefening sluit aan bij de SLO-kerndoelen voor beginnende geletterdheid: veelvoorkomende woorden snel en zeker herkennen. Het knopje op de camera zet een lange, middellange of korte flits, en de camera kan altijd opnieuw worden ingedrukt. Geen klok en geen punten."
       ],
       "practices": [
-        "Veelvoorkomende flitswoorden zoals de, het, een en ik direct herkennen",
-        "Een gesproken woord koppelen aan de geschreven vorm",
-        "Woorden die op elkaar lijken uit elkaar houden, zoals de en die, of een en en",
-        "Het razendsnelle woordherkennen opbouwen dat vlot lezen mogelijk maakt"
+        "Veelvoorkomende woorden in één oogopslag lezen",
+        "Een woord letter voor letter onderscheiden van woorden die erop lijken",
+        "Letten op de volgorde van de letters",
+        "Hetzelfde woord terugvinden in zinnen, ook met een hoofdletter"
       ],
       "howToPlay": [
-        "Luister naar het woord dat wordt voorgelezen — tik om het nog eens te horen als je wilt.",
-        "Tik op het geschreven woord dat past bij wat je hoorde en druk op Controleer.",
-        "Niet goed? Probeer het zo vaak je wilt opnieuw — er is geen timer en geen score."
+        "Druk op de knop van de camera en kijk naar het woord in de lens.",
+        "Als de kaarten omdraaien, tik je op het woord dat je zag.",
+        "Druk op «Controleer». Niet goed? Druk nog eens op de camera en kijk opnieuw."
       ],
       "learningGoals": [
-        "Je kind leest veelvoorkomende flitswoorden op het oog.",
-        "Je kind koppelt een gehoord woord aan de juiste spelling tussen lijkende woorden.",
-        "Je kind bouwt een flitswoordenschat op die aandacht vrijmaakt om te begrijpen wat het leest."
+        "Het kind leest veelvoorkomende woorden in één oogopslag",
+        "Het kind onderscheidt een woord van woorden die er bijna hetzelfde uitzien",
+        "Het kind herkent hetzelfde woord in zinnen, ook met een hoofdletter"
       ]
     },
     "choice-board.letter-case.rf-k-1-d": {

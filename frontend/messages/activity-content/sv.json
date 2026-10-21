@@ -1233,25 +1233,25 @@
     },
     "choice-board.read-sight-word.rf-k-3-c": {
       "about": [
-        "Barnet hör ett vanligt, högfrekvent ord uppläst och trycker sedan på det rätt skrivna ordet bland fyra ord som ser lika ut — vardagliga ord som och, är, det, jag, en, att och som, ord som dyker upp hela tiden i tidiga texter. Det är en interaktiv läsövning för årskurs 1 som körs direkt i webbläsaren på surfplatta, telefon och dator, utan installation och utan konto.",
-        "Den stora idén är att känna igen vanliga ord direkt på utseendet, så att läsningen kan flyta. Många av de här orden går inte att ljuda ut på ett enkelt sätt, så de felaktiga alternativen är nära släktingar — är bredvid har, en bredvid ett — och barnet måste känna igen just det rätta ordet, inte bara en liknande form. Att höra ordet och hitta det i skrift kopplar ihop ljud och stavning för de ord barnet möter allra oftast.",
-        "Aktiviteten stödjer tidig ordavkodning enligt Lgr22: att läsa vanliga, högfrekventa ord som hela ord. Ingen tid, inga poäng — bara lugn och lekfull träning."
+        "Ett vanligt ord ska man kunna läsa på en blinkning – därför visar den här kameran ordet i precis en blinkning. Barnet trycker på den stora avtryckaren, bländaren snurrar upp och «är» lyser i linsen medan fyra kort ligger med baksidan upp. Slutaren klickar igen, korten vänds – ärt, är, år och har – och barnet trycker på ordet det såg. En interaktiv läsövning som fungerar i webbläsaren.",
+        "Orden som liknar är valda så att en blick på första bokstaven aldrig räcker. Ett fel kort vänds tillbaka och kameran blixtrar igen, lite längre; efter två missar ligger ett foto av ordet bredvid korten och bokstäverna som skiljer sig lyser. I «Hitta alla» sätter barnet en ram runt varje «och» i ett rutnät med tolv brickor – det står där fem gånger – och säger sedan hur många det är. I berättelsen gömmer sig ordet i korta meningar bredvid en bild: ”Är katten liten? Ja, katten är liten.” Med stor bokstav i början är det fortfarande samma ord. Varje rätt svar blir ett foto i albumet.",
+        "Övningen följer Lgr22: att känna igen vanliga ord snabbt och säkert. Ratten på kameran väljer en lång, mellanlång eller kort blinkning, och kameran kan alltid tryckas igen. Ingen tidtagning och inga poäng."
       ],
       "practices": [
-        "Känna igen vanliga högfrekventa ord som och, är, det och jag på utseendet",
-        "Para ihop ett upplyst ord med dess skrivna form",
-        "Skilja ord som ser lika ut åt, som är och har, eller en och ett",
-        "Bygga den snabba ordigenkänning som gör läsningen flytande"
+        "Att läsa vanliga ord på en blinkning",
+        "Att skilja ett ord från ord som liknar det, bokstav för bokstav",
+        "Att lägga märke till bokstävernas ordning",
+        "Att hitta samma ord i meningar, även med stor bokstav"
       ],
       "howToPlay": [
-        "Lyssna på ordet som läses upp — tryck för att höra det igen om du vill.",
-        "Tryck på det skrivna ordet som stämmer med det du hörde, och tryck sedan på Kontrollera.",
-        "Inte riktigt rätt? Försök igen så många gånger du vill — det finns ingen tid och inga poäng."
+        "Tryck på kamerans avtryckare och titta på ordet i linsen.",
+        "När korten vänds trycker du på ordet du såg.",
+        "Tryck på «Kolla». Inte rätt? Tryck på kameran igen och titta en gång till."
       ],
       "learningGoals": [
-        "Barnet kan läsa vanliga högfrekventa ord som hela ord",
-        "Barnet kopplar ett hört ord till dess exakta stavning bland ord som ser lika ut",
-        "Barnet bygger den ordbank som frigör uppmärksamhet för att förstå det man läser"
+        "Barnet läser vanliga ord på en blinkning",
+        "Barnet skiljer ett ord från ord som ser nästan likadana ut",
+        "Barnet känner igen samma ord i meningar, även med stor bokstav"
       ]
     },
     "choice-board.letter-case.rf-k-1-d": {

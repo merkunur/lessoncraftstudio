@@ -29,6 +29,10 @@ const pct = (x) => (100 * x).toFixed(1) + '%';
 (function main() {
   const Core = loadCore();
   const manifest = JSON.parse(fs.readFileSync(MANIFEST, 'utf8'));
+  /* Row 71 rebuild (2026-10-21): linc-fact-chain.connect.ri-k-3 runs THE DOMINO TRACK on its own linc-fact-chain-core.js; its params are a
+     mirror, no longer the rounds this gate reads. fact-connect-core.js is untouched; the row's gates are verify-linc-fact-chain-core.js,
+     mutate-linc-fact-chain.js and local-test-linc-fact-chain.js. */
+  if (!manifest[0].params.rounds) { console.log('verify-fact-connect-core: the row runs The Domino Track (linc-fact-chain-core.js) — see verify-linc-fact-chain-core.js. Nothing to check here.'); process.exit(0); }
   const rounds = manifest[0].params.rounds || [];
   const N = rounds.length || 1;
 

@@ -2316,6 +2316,30 @@
         "Lapsi kertoo pääajatukseen kuuluvat yksityiskohdat",
         "Lapsi huomaa, ettei yksittäinen yksityiskohta ole pääajatus"
       ]
+    },
+    "linc-fact-chain.connect.ri-k-3": {
+      "about": [
+        "Lauseet ovat dominopalikoita puisella radalla. Yksi lause seisoo jo paikallaan, ja sen vieressä odottaa aukko. Lapsi lukee alustan kortit, asettaa aukkoon lauseen, joka sopii, ja lisko Linc tönäisee ensimmäistä palikkaa. Ketju kaatuu eteenpäin vain todellisen yhteyden yli, ja kaatuessaan lauseet liittyvät kiskolla yhdeksi lauseeksi, esimerkiksi \"Kuuma aurinko paistaa lumelle, joten lumi sulaa.\" Väärän lenkin kohdalla tönäisty palikka keinahtaa ja jää pystyyn, ja kisko näyttää kaksi lausetta, joiden välissä on katkennut lenkki.",
+        "Väärät kortit opettavat: tosi lause, jolla ei ole mitään tekemistä ensimmäisen kanssa, lause, jossa on vain sama sana (\"Lunta sataa.\"), ja lause tarinan väärästä päästä. Kohdassa Mitä tapahtuu sitten aukko on lauseen jälkeen; kohdassa Miksi se tapahtuu se voi olla ennen, ja lapsi etsii sen, mikä sai asian tapahtumaan; kohdassa Kolmen ketju lapsi panee kaksi lausetta järjestykseen, ja ketju pysähtyy ensimmäiseen, joka ei sovi. Kohdassa Vaihtoehdot valinta Vähemmän jättää jäljelle vain kortin, josta oppii eniten.",
+        "Harjoitus tukee perusopetuksen opetussuunnitelman perusteiden 2014 tavoitteita: tietotekstin kahden tiedon välisen yhteyden kuvaaminen. Linc on kuvakirjastosta; palikoissa on vain sanoja, jotta lapsi lukee yhdistääkseen ne. Ei ajanottoa eikä pisteitä."
+      ],
+      "practices": [
+        "Lyhyen tietotekstin seuraavan tapahtuman kertominen",
+        "Sen löytäminen, mihin jokin johtaa ja mikä sai asian tapahtumaan",
+        "Sen huomaaminen, ettei tosi lause aina liity ensimmäiseen",
+        "Kolmen lauseen paneminen järkevään järjestykseen"
+      ],
+      "howToPlay": [
+        "Lue radalla oleva lause ja alustan kortit.",
+        "Vedä kortti aukkoon tai napauta sitä.",
+        "Paina Tarkista ja katso, kun Linc tönäisee palikoita.",
+        "Jos ketju pysähtyy, lue kaksi lausetta yhdessä ja kokeile toista korttia."
+      ],
+      "learningGoals": [
+        "Lapsi kertoo, miten kaksi lausetta liittyvät toisiinsa",
+        "Lapsi yhdistää lauseita sanoilla sitten ja joten",
+        "Lapsi huomaa, ettei yhteinen sana vielä tarkoita yhteyttä"
+      ]
     }
   }
 }

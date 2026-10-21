@@ -3167,6 +3167,30 @@
         "Barnet berättar vilka detaljer som hör till huvudtanken",
         "Barnet ser att en enskild detalj inte är huvudtanken"
       ]
+    },
+    "linc-fact-chain.connect.ri-k-3": {
+      "about": [
+        "Meningar är dominobrickor på en träbana. En mening står redan där, och bredvid väntar en lucka. Barnet läser korten i facket, ställer meningen som passar i luckan, och ödlan Linc knuffar till den första brickan. Kedjan faller bara vidare över ett riktigt samband, och medan den faller blir meningarna en enda mening på listen, till exempel \"Den varma solen lyser på snön, så snön smälter.\" Vid en felaktig länk gungar brickan som träffas och blir stående, och listen visar de två meningarna med en bruten länk emellan.",
+        "De felaktiga korten finns där för att lära: en sann mening som inte har med den första att göra, en mening som bara delar ett ord (\"Snön faller.\"), och en mening från fel ände av berättelsen. I Vad händer sedan står luckan efter meningen; i Varför det händer kan den stå före, och barnet letar efter det som fick det att hända; i Tre i en kedja ställer barnet två meningar i ordning, och kedjan stannar vid den första som inte passar. Under Val behåller Färre bara kortet man lär sig mest av.",
+        "Övningen följer Lgr22: att se sambandet mellan uppgifter i en faktatext. Linc kommer från bildbiblioteket; på dominobrickorna står bara ord, så barnet läser för att koppla ihop dem. Ingen tidtagning och inga poäng."
+      ],
+      "practices": [
+        "Att berätta vad som händer sedan i en kort faktatext",
+        "Att hitta vad något leder till och vad som fick det att hända",
+        "Att märka att en sann mening inte alltid har ett samband med den första",
+        "Att ställa tre meningar i en ordning som stämmer"
+      ],
+      "howToPlay": [
+        "Läs meningen på banan och korten i facket.",
+        "Dra ett kort till luckan eller tryck på det.",
+        "Tryck på Kontrollera och se Linc knuffa brickorna.",
+        "Stannar kedjan, läs de två meningarna tillsammans och prova ett annat kort."
+      ],
+      "learningGoals": [
+        "Barnet berättar hur två meningar hänger ihop",
+        "Barnet kopplar ihop meningar med sedan och så",
+        "Barnet ser att ett gemensamt ord inte är detsamma som ett samband"
+      ]
     }
   }
 }

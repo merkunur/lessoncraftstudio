@@ -2324,6 +2324,30 @@
         "Barnet nevner detaljene som hører til hovedideen",
         "Barnet ser at én enkelt detalj ikke er hovedideen"
       ]
+    },
+    "linc-fact-chain.connect.ri-k-3": {
+      "about": [
+        "Setninger er dominobrikker på en trebane. Én setning står der allerede, og ved siden av venter et hull. Barnet leser kortene i brettet, setter setningen som passer, i hullet, og øglen Linc dytter borti den første brikken. Kjeden faller bare videre over en ekte sammenheng, og mens den faller, blir setningene til én setning på skinnen, for eksempel \"Den varme sola skinner på snøen, så snøen smelter.\" Ved et galt ledd vipper brikken som blir truffet, og blir stående, og skinnen viser de to setningene med et brutt ledd imellom.",
+        "De gale kortene er der for å lære av: en sann setning som ikke har noe med den første å gjøre, en setning som bare deler et ord (\"Snøen faller.\"), og en setning fra feil ende av historien. I Hva skjer så står hullet etter setningen; i Hvorfor det skjer kan det stå foran, og barnet leter etter det som fikk det til å skje; i Tre i en kjede setter barnet to setninger i rekkefølge, og kjeden stopper ved den første som ikke passer. Under Valg beholder Færre bare kortet man lærer mest av.",
+        "Øvelsen følger LK20: å se sammenhengen mellom opplysninger i en faktatekst. Linc kommer fra bildebiblioteket; på dominobrikkene står det bare ord, så barnet leser for å koble dem sammen. Uten tid og uten poeng."
+      ],
+      "practices": [
+        "Å fortelle hva som skjer etterpå i en kort faktatekst",
+        "Å finne hva noe fører til, og hva som fikk det til å skje",
+        "Å oppdage at en sann setning ikke alltid henger sammen med den første",
+        "Å sette tre setninger i en rekkefølge som gir mening"
+      ],
+      "howToPlay": [
+        "Les setningen på banen og kortene i brettet.",
+        "Dra et kort til hullet, eller trykk på det.",
+        "Trykk på Sjekk og se Linc dytte brikkene.",
+        "Stopper kjeden, les de to setningene sammen og prøv et annet kort."
+      ],
+      "learningGoals": [
+        "Barnet sier hvordan to setninger henger sammen",
+        "Barnet kobler setninger sammen med så",
+        "Barnet ser at et felles ord ikke er det samme som en sammenheng"
+      ]
     }
   }
 }

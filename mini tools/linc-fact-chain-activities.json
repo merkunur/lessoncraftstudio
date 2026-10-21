@@ -10,653 +10,63 @@
       "strand": "Reading: Informational Text"
     },
     "params": {
-      "rounds": [
-        {
-          "id": "seed",
-          "band": 1,
-          "mode": "sequence",
-          "stem": "First, you plant a seed.",
-          "question": "What happens NEXT?",
-          "answer": "A plant grows.",
-          "options": [
-            "A plant grows.",
-            "A dog barks.",
-            "It starts to rain."
-          ]
+      "note": "The facts of every round (the given fact, the right card, the lures, the authored joined sentence) for the three levels — what happens next, why it happens (so / because), three in a chain — live in linc-fact-chain-core.js; this mirrors the core so the gates can size each level per locale (rounds per pass).",
+      "byLocale": {
+        "en": {
+          "next": 7,
+          "cause": 8,
+          "chain": 7
         },
-        {
-          "id": "egg",
-          "band": 1,
-          "mode": "sequence",
-          "stem": "First, a bird lays an egg.",
-          "question": "What happens NEXT?",
-          "answer": "A chick hatches.",
-          "options": [
-            "The sun sets.",
-            "A chick hatches.",
-            "It starts to snow."
-          ]
+        "de": {
+          "next": 7,
+          "cause": 8,
+          "chain": 7
         },
-        {
-          "id": "wash",
-          "band": 1,
-          "mode": "sequence",
-          "stem": "First, you wash your hands.",
-          "question": "What happens NEXT?",
-          "answer": "You dry them off.",
-          "options": [
-            "You ride a bike.",
-            "The cat takes a nap.",
-            "You dry them off."
-          ]
+        "nl": {
+          "next": 7,
+          "cause": 8,
+          "chain": 7
         },
-        {
-          "id": "sleepy",
-          "band": 2,
-          "mode": "sequence",
-          "stem": "First, you feel sleepy.",
-          "question": "What happens NEXT?",
-          "answer": "You go to bed.",
-          "options": [
-            "You go to bed.",
-            "You jump high.",
-            "You paint a big wall."
-          ]
+        "da": {
+          "next": 7,
+          "cause": 8,
+          "chain": 7
         },
-        {
-          "id": "sun",
-          "band": 2,
-          "mode": "cause",
-          "stem": "The hot sun shines on the snow.",
-          "question": "So what happens?",
-          "answer": "The snow melts.",
-          "options": [
-            "A drum plays.",
-            "The snow melts.",
-            "The snow falls."
-          ]
+        "sv": {
+          "next": 7,
+          "cause": 8,
+          "chain": 7
         },
-        {
-          "id": "rain",
-          "band": 2,
-          "mode": "cause",
-          "stem": "It rains on the dry grass.",
-          "question": "So what happens?",
-          "answer": "The grass gets wet.",
-          "options": [
-            "The grass gets dry.",
-            "The bell gets loud.",
-            "The grass gets wet."
-          ]
+        "no": {
+          "next": 7,
+          "cause": 8,
+          "chain": 7
         },
-        {
-          "id": "swing",
-          "band": 3,
-          "mode": "cause",
-          "stem": "You push the swing hard.",
-          "question": "So what happens?",
-          "answer": "The swing goes high.",
-          "options": [
-            "The swing goes high.",
-            "The swing stays still.",
-            "The lamp turns on."
-          ]
+        "es": {
+          "next": 7,
+          "cause": 8,
+          "chain": 7
         },
-        {
-          "id": "freeze",
-          "band": 3,
-          "mode": "cause",
-          "stem": "You leave juice in the freezer.",
-          "question": "So what happens?",
-          "answer": "The juice freezes.",
-          "options": [
-            "The juice gets warm.",
-            "The juice freezes.",
-            "A dog runs fast."
-          ]
+        "it": {
+          "next": 7,
+          "cause": 8,
+          "chain": 7
+        },
+        "pt": {
+          "next": 7,
+          "cause": 8,
+          "chain": 7
+        },
+        "fr": {
+          "next": 7,
+          "cause": 8,
+          "chain": 7
+        },
+        "fi": {
+          "next": 7,
+          "cause": 8,
+          "chain": 7
         }
-      ],
-      "roundsL10n": {
-        "de": [
-          {
-            "id": "samen",
-            "band": 1,
-            "mode": "sequence",
-            "stem": "Ein Samen liegt in der Erde.",
-            "question": "Was passiert als Nächstes?",
-            "answer": "Aus dem Samen wächst eine Pflanze.",
-            "options": [
-              "Aus dem Samen wächst eine Pflanze.",
-              "Der Vogel sitzt auf dem Ast.",
-              "Der Wind weht über das Feld."
-            ]
-          },
-          {
-            "id": "ei",
-            "band": 1,
-            "mode": "sequence",
-            "stem": "Ein Huhn sitzt auf seinem Ei.",
-            "question": "Was passiert als Nächstes?",
-            "answer": "Aus dem Ei schlüpft ein Küken.",
-            "options": [
-              "Aus dem Ei schlüpft ein Küken.",
-              "Die Katze trinkt ihre Milch.",
-              "Der Hund läuft durch den Garten."
-            ]
-          },
-          {
-            "id": "raupe",
-            "band": 2,
-            "mode": "sequence",
-            "stem": "Eine Raupe frisst viele Blätter.",
-            "question": "Was passiert als Nächstes?",
-            "answer": "Die Raupe wird zu einem Schmetterling.",
-            "options": [
-              "Die Raupe wird zu einem Schmetterling.",
-              "Der Fisch schwimmt im kühlen Teich.",
-              "Die Sonne geht am Abend unter."
-            ]
-          },
-          {
-            "id": "teig-ofen",
-            "band": 3,
-            "mode": "sequence",
-            "stem": "Der Teig ist fertig geknetet.",
-            "question": "Was passiert als Nächstes?",
-            "answer": "Der Teig kommt in den Ofen.",
-            "options": [
-              "Der Teig kommt in den Ofen.",
-              "Das Mehl steht im Regal.",
-              "Der Löffel liegt auf dem Tisch."
-            ]
-          },
-          {
-            "id": "sonne-schnee",
-            "band": 1,
-            "mode": "cause",
-            "stem": "Die Sonne scheint auf den Schnee.",
-            "question": "Was passiert deshalb?",
-            "answer": "Der Schnee schmilzt.",
-            "options": [
-              "Der Schnee schmilzt.",
-              "Die Vögel singen laut.",
-              "Die Blätter fallen vom Baum."
-            ]
-          },
-          {
-            "id": "feuer",
-            "band": 2,
-            "mode": "cause",
-            "stem": "Ein Feuer brennt im Kamin.",
-            "question": "Was passiert deshalb?",
-            "answer": "Der Raum wird warm.",
-            "options": [
-              "Der Raum wird warm.",
-              "Die Uhr tickt an der Wand.",
-              "Das Buch liegt auf dem Stuhl."
-            ]
-          },
-          {
-            "id": "saft-gefrierfach",
-            "band": 2,
-            "mode": "cause",
-            "stem": "Der Saft steht im Gefrierfach.",
-            "question": "Was passiert deshalb?",
-            "answer": "Der Saft wird zu Eis.",
-            "options": [
-              "Der Saft wird zu Eis.",
-              "Das Glas steht auf dem Tisch.",
-              "Die Flasche ist ganz leer."
-            ]
-          },
-          {
-            "id": "wind",
-            "band": 3,
-            "mode": "cause",
-            "stem": "Der Wind weht sehr stark.",
-            "question": "Was passiert deshalb?",
-            "answer": "Die Blätter fliegen durch die Luft.",
-            "options": [
-              "Die Blätter fliegen durch die Luft.",
-              "Die Sonne scheint am Himmel.",
-              "Der Schnee liegt auf der Wiese."
-            ]
-          }
-        ],
-        "fr": [
-          {
-            "id": "seed",
-            "band": 1,
-            "mode": "sequence",
-            "stem": "D'abord, tu plantes une graine.",
-            "question": "Que se passe-t-il ENSUITE ?",
-            "answer": "Une plante pousse.",
-            "options": [
-              "Une plante pousse.",
-              "Un chien aboie.",
-              "Il commence à pleuvoir."
-            ]
-          },
-          {
-            "id": "egg",
-            "band": 1,
-            "mode": "sequence",
-            "stem": "D'abord, un oiseau pond un œuf.",
-            "question": "Que se passe-t-il ENSUITE ?",
-            "answer": "Un poussin éclot.",
-            "options": [
-              "Le soleil se couche.",
-              "Un poussin éclot.",
-              "Il commence à neiger."
-            ]
-          },
-          {
-            "id": "wash",
-            "band": 1,
-            "mode": "sequence",
-            "stem": "D'abord, tu te laves les mains.",
-            "question": "Que se passe-t-il ENSUITE ?",
-            "answer": "Tu les essuies.",
-            "options": [
-              "Tu fais du vélo.",
-              "Le chat fait la sieste.",
-              "Tu les essuies."
-            ]
-          },
-          {
-            "id": "sleepy",
-            "band": 2,
-            "mode": "sequence",
-            "stem": "D'abord, tu te sens fatigué.",
-            "question": "Que se passe-t-il ENSUITE ?",
-            "answer": "Tu vas au lit.",
-            "options": [
-              "Tu vas au lit.",
-              "Tu sautes.",
-              "Tu peins un grand mur."
-            ]
-          },
-          {
-            "id": "sun",
-            "band": 2,
-            "mode": "cause",
-            "stem": "Le soleil chaud brille sur la neige.",
-            "question": "Alors, que se passe-t-il ?",
-            "answer": "La neige fond.",
-            "options": [
-              "Il fait froid.",
-              "La neige fond.",
-              "La neige tombe."
-            ]
-          },
-          {
-            "id": "rain",
-            "band": 2,
-            "mode": "cause",
-            "stem": "Il pleut sur l'herbe sèche.",
-            "question": "Alors, que se passe-t-il ?",
-            "answer": "L'herbe devient mouillée.",
-            "options": [
-              "L'herbe devient sèche.",
-              "La cloche devient forte.",
-              "L'herbe devient mouillée."
-            ]
-          },
-          {
-            "id": "swing",
-            "band": 3,
-            "mode": "cause",
-            "stem": "Tu pousses fort la balançoire.",
-            "question": "Alors, que se passe-t-il ?",
-            "answer": "La balançoire monte haut.",
-            "options": [
-              "La balançoire monte haut.",
-              "La balançoire reste immobile.",
-              "La lampe s'allume."
-            ]
-          },
-          {
-            "id": "freeze",
-            "band": 3,
-            "mode": "cause",
-            "stem": "Tu laisses du jus au congélateur.",
-            "question": "Alors, que se passe-t-il ?",
-            "answer": "Le jus gèle.",
-            "options": [
-              "Le jus devient chaud.",
-              "Le jus gèle.",
-              "Un chien court vite."
-            ]
-          }
-        ],
-        "es": [
-          {
-            "id": "semilla",
-            "band": 1,
-            "mode": "sequence",
-            "stem": "Primero, plantas una semilla.",
-            "question": "¿Qué pasa después?",
-            "answer": "Crece una planta.",
-            "options": [
-              "Crece una planta.",
-              "Un perro ladra.",
-              "El gato duerme."
-            ]
-          },
-          {
-            "id": "huevo",
-            "band": 1,
-            "mode": "sequence",
-            "stem": "Primero, un pájaro pone un huevo.",
-            "question": "¿Qué pasa después?",
-            "answer": "Nace un pollito.",
-            "options": [
-              "Nace un pollito.",
-              "Cae la nieve.",
-              "Suena un tambor."
-            ]
-          },
-          {
-            "id": "manos",
-            "band": 1,
-            "mode": "sequence",
-            "stem": "Primero, te lavas las manos.",
-            "question": "¿Qué pasa después?",
-            "answer": "Te las secas.",
-            "options": [
-              "Te las secas.",
-              "Andas en bici.",
-              "Vuela una paloma."
-            ]
-          },
-          {
-            "id": "sueno",
-            "band": 2,
-            "mode": "sequence",
-            "stem": "Primero, tienes sueño.",
-            "question": "¿Qué pasa después?",
-            "answer": "Te acuestas.",
-            "options": [
-              "Te acuestas.",
-              "Pintas una barda.",
-              "Saltas muy alto."
-            ]
-          },
-          {
-            "id": "sol",
-            "band": 2,
-            "mode": "cause",
-            "stem": "El sol calienta la nieve.",
-            "question": "Por eso, ¿qué pasa?",
-            "answer": "La nieve se derrite.",
-            "options": [
-              "La nieve se derrite.",
-              "Suena una campana.",
-              "Canta un pájaro."
-            ]
-          },
-          {
-            "id": "lluvia",
-            "band": 2,
-            "mode": "cause",
-            "stem": "Llueve sobre el pasto seco.",
-            "question": "Por eso, ¿qué pasa?",
-            "answer": "El pasto se moja.",
-            "options": [
-              "El pasto se moja.",
-              "El gato maúlla.",
-              "Suena un timbre."
-            ]
-          },
-          {
-            "id": "columpio",
-            "band": 3,
-            "mode": "cause",
-            "stem": "Empujas fuerte el columpio.",
-            "question": "Por eso, ¿qué pasa?",
-            "answer": "El columpio sube alto.",
-            "options": [
-              "El columpio sube alto.",
-              "Se prende una lámpara.",
-              "Corre un perro."
-            ]
-          },
-          {
-            "id": "congelador",
-            "band": 3,
-            "mode": "cause",
-            "stem": "Dejas el jugo en el congelador.",
-            "question": "Por eso, ¿qué pasa?",
-            "answer": "El jugo se congela.",
-            "options": [
-              "El jugo se congela.",
-              "Vuela una mosca.",
-              "Cae una hoja."
-            ]
-          }
-        ],
-        "pt": [
-          {
-            "id": "semente-planta",
-            "band": 1,
-            "mode": "sequence",
-            "stem": "Primeiro, plantamos uma semente na terra.",
-            "question": "O que acontece depois?",
-            "answer": "Depois, nasce uma plantinha.",
-            "options": [
-              "Depois, nasce uma plantinha.",
-              "O gato dorme enrolado no sofá.",
-              "O sino da escola toca."
-            ]
-          },
-          {
-            "id": "ovo-pintinho",
-            "band": 1,
-            "mode": "sequence",
-            "stem": "Primeiro, a galinha choca o ovo.",
-            "question": "O que acontece depois?",
-            "answer": "Depois, nasce um pintinho.",
-            "options": [
-              "A bola rola pela grama.",
-              "O menino come uma maçã bem doce.",
-              "Depois, nasce um pintinho."
-            ]
-          },
-          {
-            "id": "lavar-maos",
-            "band": 1,
-            "mode": "sequence",
-            "stem": "Primeiro, você lava as mãos com sabão.",
-            "question": "O que acontece depois?",
-            "answer": "As mãos ficam bem limpas.",
-            "options": [
-              "O cachorro late no quintal.",
-              "As mãos ficam bem limpas.",
-              "A janela está bem aberta."
-            ]
-          },
-          {
-            "id": "regar-crescer",
-            "band": 2,
-            "mode": "sequence",
-            "stem": "Primeiro, regamos a plantinha com água.",
-            "question": "O que acontece depois?",
-            "answer": "A plantinha cresce mais forte.",
-            "options": [
-              "O carro passa correndo pela rua.",
-              "A vovó lê um livro.",
-              "A plantinha cresce mais forte."
-            ]
-          },
-          {
-            "id": "sol-gelo",
-            "band": 2,
-            "mode": "cause",
-            "stem": "O sol forte brilha sobre o gelo.",
-            "question": "Por causa disso, o que acontece?",
-            "answer": "O gelo derrete e vira água.",
-            "options": [
-              "O gelo derrete e vira água.",
-              "O pássaro voa bem alto.",
-              "A porta faz um barulho."
-            ]
-          },
-          {
-            "id": "chuva-poca",
-            "band": 2,
-            "mode": "cause",
-            "stem": "A chuva cai forte no quintal.",
-            "question": "Por causa disso, o que acontece?",
-            "answer": "Poças de água aparecem no chão.",
-            "options": [
-              "A borboleta pousa na flor.",
-              "Poças de água aparecem no chão.",
-              "O relógio marca a hora certa."
-            ]
-          },
-          {
-            "id": "soprar-vela",
-            "band": 3,
-            "mode": "cause",
-            "stem": "Você sopra bem forte a velinha.",
-            "question": "Por causa disso, o que acontece?",
-            "answer": "A chama da vela se apaga.",
-            "options": [
-              "O peixe nada dentro do aquário.",
-              "A criança pula bem alto.",
-              "A chama da vela se apaga."
-            ]
-          },
-          {
-            "id": "empurrar-balanco",
-            "band": 3,
-            "mode": "cause",
-            "stem": "O papai empurra o balanço para frente.",
-            "question": "Por causa disso, o que acontece?",
-            "answer": "O balanço vai e volta no ar.",
-            "options": [
-              "O balanço vai e volta no ar.",
-              "A formiga carrega uma folha.",
-              "O sorvete está bem gelado."
-            ]
-          }
-        ],
-        "it": [
-          {
-            "id": "seed",
-            "band": 1,
-            "mode": "sequence",
-            "stem": "Prima pianti un seme.",
-            "question": "Che cosa succede DOPO?",
-            "answer": "Nasce una pianta.",
-            "options": [
-              "Nasce una pianta.",
-              "Il cane abbaia.",
-              "La torta è pronta."
-            ]
-          },
-          {
-            "id": "egg",
-            "band": 1,
-            "mode": "sequence",
-            "stem": "Prima un uccello depone un uovo.",
-            "question": "Che cosa succede DOPO?",
-            "answer": "Nasce un pulcino.",
-            "options": [
-              "La neve è fredda.",
-              "Nasce un pulcino.",
-              "Il pesce nuota via."
-            ]
-          },
-          {
-            "id": "wash",
-            "band": 1,
-            "mode": "sequence",
-            "stem": "Prima ti lavi le mani.",
-            "question": "Che cosa succede DOPO?",
-            "answer": "Le mani sono pulite.",
-            "options": [
-              "La porta è aperta.",
-              "Il gatto fa le fusa.",
-              "Le mani sono pulite."
-            ]
-          },
-          {
-            "id": "sleepy",
-            "band": 2,
-            "mode": "sequence",
-            "stem": "Prima ti senti stanco.",
-            "question": "Che cosa succede DOPO?",
-            "answer": "Vai a letto a dormire.",
-            "options": [
-              "Vai a letto a dormire.",
-              "La palla è rotonda.",
-              "Il cielo diventa scuro."
-            ]
-          },
-          {
-            "id": "sun",
-            "band": 2,
-            "mode": "cause",
-            "stem": "Il sole caldo splende sulla neve.",
-            "question": "Quindi, che cosa succede?",
-            "answer": "La neve si scioglie.",
-            "options": [
-              "Il gatto dorme.",
-              "La neve si scioglie.",
-              "Le foglie sono verdi."
-            ]
-          },
-          {
-            "id": "rain",
-            "band": 2,
-            "mode": "cause",
-            "stem": "Piove sull’erba secca.",
-            "question": "Quindi, che cosa succede?",
-            "answer": "L’erba diventa verde.",
-            "options": [
-              "La stella brilla su.",
-              "Il cane scava una buca.",
-              "L’erba diventa verde."
-            ]
-          },
-          {
-            "id": "swing",
-            "band": 3,
-            "mode": "cause",
-            "stem": "Spingi forte l’altalena.",
-            "question": "Quindi, che cosa succede?",
-            "answer": "L’altalena va in alto.",
-            "options": [
-              "L’altalena va in alto.",
-              "Il pane è nel forno.",
-              "Le api volano nel prato."
-            ]
-          },
-          {
-            "id": "freeze",
-            "band": 3,
-            "mode": "cause",
-            "stem": "Metti il succo nel congelatore.",
-            "question": "Quindi, che cosa succede?",
-            "answer": "Il succo diventa ghiaccio.",
-            "options": [
-              "La bici ha due ruote.",
-              "Il succo diventa ghiaccio.",
-              "Il cane corre nel giardino."
-            ]
-          }
-        ],
-        "nl": [
-          { "id": "zaadje-plant", "band": 1, "mode": "sequence", "stem": "Een zaadje ligt in de aarde.", "question": "Wat gebeurt er daarna?", "answer": "Uit het zaadje groeit een plant.", "options": ["De vogel vliegt weg.", "Uit het zaadje groeit een plant.", "De maan komt op."] },
-          { "id": "ei-kuiken", "band": 1, "mode": "sequence", "stem": "Een kip zit op haar ei.", "question": "Wat gebeurt er daarna?", "answer": "Uit het ei komt een kuiken.", "options": ["Uit het ei komt een kuiken.", "De boot vaart langs de haven.", "De hond rent door de tuin."] },
-          { "id": "rups-vlinder", "band": 2, "mode": "sequence", "stem": "Een rups eet van een groen blad.", "question": "Wat gebeurt er daarna?", "answer": "De rups wordt later een vlinder.", "options": ["De trein rijdt door.", "De bal rolt over het gras.", "De rups wordt later een vlinder."] },
-          { "id": "deeg-brood", "band": 3, "mode": "sequence", "stem": "De bakker legt het deeg in de oven.", "question": "Wat gebeurt er daarna?", "answer": "Het deeg wordt een warm brood.", "options": ["De kat slaapt diep.", "Het deeg wordt een warm brood.", "De regen valt op het dak."] },
-          { "id": "zon-sneeuw", "band": 1, "mode": "cause", "stem": "De zon schijnt op de sneeuw.", "question": "Wat gebeurt er daardoor?", "answer": "De sneeuw smelt langzaam weg.", "options": ["De sneeuw smelt langzaam weg.", "De fiets staat naast het hek.", "De vis zwemt in de vijver."] },
-          { "id": "haard-warm", "band": 2, "mode": "cause", "stem": "Het vuur brandt in de haard.", "question": "Wat gebeurt er daardoor?", "answer": "De kamer wordt lekker warm.", "options": ["De klok hangt aan de muur.", "De eend zwemt in de koele sloot.", "De kamer wordt lekker warm."] },
-          { "id": "sap-ijs", "band": 2, "mode": "cause", "stem": "Papa zet het sap in de vriezer.", "question": "Wat gebeurt er daardoor?", "answer": "Het sap verandert in ijs.", "options": ["De auto rijdt over de brug.", "Het sap verandert in ijs.", "De bloem staat in de vaas."] },
-          { "id": "wind-bladeren", "band": 3, "mode": "cause", "stem": "Buiten waait een harde wind.", "question": "Wat gebeurt er daardoor?", "answer": "De bladeren waaien weg.", "options": ["De bladeren waaien weg.", "De lamp is aan.", "De koe staat rustig naast het hek."] }
-        ]
       }
     },
     "theme": null,
@@ -667,7 +77,11 @@
       "es": "causa-y-efecto-secuencia-de-hechos-comprension-lectora-segundo-grado",
       "pt": "corrente-de-fatos-sequencia-e-causa-e-efeito",
       "it": "causa-ed-effetto-sequenza-di-fatti-comprensione-testi-classe-seconda",
-      "nl": "oorzaak-en-gevolg-en-volgorde-feiten-verbinden-groep-4"
+      "nl": "oorzaak-en-gevolg-en-volgorde-feiten-verbinden-groep-4",
+      "sv": "hur-hanger-fakta-ihop-orsak-och-foljd-ak-1",
+      "da": "hvordan-haenger-fakta-sammen-aarsag-og-virkning-1-klasse",
+      "no": "hvordan-henger-fakta-sammen-arsak-og-virkning-1-trinn",
+      "fi": "miten-faktat-liittyvat-toisiinsa-syy-ja-seuraus-1-luokka"
     },
     "page_title": {
       "en": "Linc's Fact Chain — How Two Facts Connect (Kindergarten)",
@@ -676,7 +90,11 @@
       "es": "Causa y efecto y secuencia de hechos · 2.º grado",
       "pt": "A corrente de fatos do Elo — sequência e causa e efeito",
       "it": "Causa ed effetto e sequenza: collega i fatti · Classe seconda",
-      "nl": "Oorzaak & gevolg en volgorde – feiten verbinden (groep 4)"
+      "nl": "Oorzaak & gevolg en volgorde – feiten verbinden (groep 4)",
+      "sv": "Hur hänger fakta ihop? Orsak och följd (åk 1)",
+      "da": "Hvordan hænger fakta sammen? Årsag og virkning (1. klasse)",
+      "no": "Hvordan henger fakta sammen? Årsak og virkning (1. trinn)",
+      "fi": "Miten faktat liittyvät toisiinsa? Syy ja seuraus (1. luokka)"
     },
     "page_intro": {
       "en": "Linc the lizard links facts into a chain! Read the first fact, then tap the fact that connects to it — what happens NEXT, or what it makes happen. A Kindergarten reading game about describing the connection between two events or ideas in an informational text, aligned to Common Core RI.K.3.",
@@ -685,7 +103,11 @@
       "es": "Actividad interactiva: el niño lee un hecho y toca el que se relaciona por secuencia (qué pasa después) o causa y efecto. Para 2.º grado.",
       "pt": "Entre na corrente de fatos do lagarto Elo! A criança lê um primeiro fato e toca no fato que se conecta a ele — o que acontece depois (sequência) ou o que uma coisa faz acontecer (causa e efeito). É uma forma divertida de aprender a relacionar ideias e entender textos informativos. Sem cadastro, no ritmo da criança, com um botão 🔊 para ouvir cada fato. Alinhado à BNCC, nos primeiros anos.",
       "it": "Con Lia la lucertola i bambini leggono un fatto e toccano quello che si collega: ciò che succede dopo o ciò che quel fatto provoca. Un’attività di lettura per esercitare causa ed effetto e la sequenza in un breve testo informativo, con l’aiuto della lettura ad alta voce 🔗. Senza registrazione, senza timer e senza punteggio, allineata alle Indicazioni nazionali.",
-      "nl": "Interactief: je kind verbindt twee feiten uit een informatieve tekst, herkent oorzaak en gevolg en oefent wat er daarna gebeurt – begrijpend lezen, afgestemd op de SLO-kerndoelen voor groep 4."
+      "nl": "Interactief: je kind verbindt twee feiten uit een informatieve tekst, herkent oorzaak en gevolg en oefent wat er daarna gebeurt – begrijpend lezen, afgestemd op de SLO-kerndoelen voor groep 4.",
+      "sv": "Faktameningar är dominobrickor. Barnet ställer meningen som hör till i luckan, och ödlan Linc knuffar till den första brickan. Kedjan faller bara över ett riktigt samband – vad som händer sedan, vad något leder till och vad som fick det att hända – och medan den faller blir meningarna en enda mening. Övningen följer Lgr22.",
+      "da": "Faktasætninger er dominobrikker. Barnet stiller den sætning, der passer, i hullet, og firbenet Linc skubber til den første brik. Kæden vælter kun hen over en ægte sammenhæng – hvad der sker bagefter, hvad noget fører til, og hvad der fik det til at ske – og mens den vælter, bliver sætningerne til én sætning. Øvelsen følger Fælles Mål.",
+      "no": "Faktasetninger er dominobrikker. Barnet setter setningen som passer, i hullet, og øglen Linc dytter borti den første brikken. Kjeden faller bare over en ekte sammenheng – hva som skjer etterpå, hva noe fører til, og hva som fikk det til å skje – og mens den faller, blir setningene til én setning. Øvelsen følger LK20.",
+      "fi": "Faktalauseet ovat dominopalikoita. Lapsi asettaa aukkoon lauseen, joka sopii, ja lisko Linc tönäisee ensimmäistä palikkaa. Ketju kaatuu vain todellisen yhteyden yli – mitä tapahtuu sitten, mihin jokin johtaa ja mikä sai sen tapahtumaan – ja kaatuessaan lauseet liittyvät yhdeksi lauseeksi. Harjoitus tukee perusopetuksen opetussuunnitelman perusteiden 2014 tavoitteita."
     },
     "kid_prompt_template": "Read the first fact, then tap the one that connects to it."
   }

@@ -3795,25 +3795,26 @@
     },
     "linc-fact-chain.connect.ri-k-3": {
       "about": [
-        "Con Lia la lucertola i fatti si uniscono come una catena: si legge un fatto e si tocca quello che gli si collega davvero.",
-        "A volte è ciò che succede subito dopo, a volte è ciò che quel fatto provoca, così i bambini scoprono la sequenza e il legame di causa ed effetto in un breve testo informativo, con la lettura ad alta voce 🔗 che accompagna ogni passo.",
-        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali: è senza registrazione, senza timer e senza punteggio."
+        "Le frasi sono tessere del domino su una pista di legno. Una frase è già in piedi e accanto aspetta uno spazio vuoto. Il bambino legge le carte nel vassoio, mette nello spazio la frase che si collega, e Linc la lucertola dà una spinta alla prima tessera. La catena continua a cadere solo se il collegamento è vero, e mentre cade le frasi diventano una sola frase sulla barra, per esempio \"Il sole caldo splende sulla neve, quindi la neve si scioglie.\" Se l’anello è falso, la tessera colpita oscilla e resta in piedi, e la barra mostra le due frasi con un anello spezzato in mezzo.",
+        "Le carte sbagliate servono a imparare: una frase vera che non c’entra niente con la prima, una frase che ha solo una parola in comune (\"La neve cade.\"), e una frase dalla parte sbagliata della storia. In Che cosa succede dopo lo spazio sta dopo la frase; in Perché succede può stare prima, e il bambino cerca che cosa l’ha fatto succedere; in Tre in catena il bambino mette due frasi in ordine, e la catena si ferma alla prima che non va. In Scelte, Meno lascia solo la carta da cui si impara di più.",
+        "L’attività segue le Indicazioni nazionali: descrivere il collegamento tra due informazioni in un testo informativo. Linc viene dalla biblioteca di immagini; sulle tessere ci sono solo parole, così il bambino legge per collegarle. Senza tempo e senza punteggio."
       ],
       "practices": [
-        "collegare due fatti",
-        "riconoscere causa ed effetto",
-        "capire la sequenza dei fatti",
-        "comprendere un breve testo informativo"
+        "Dire che cosa succede dopo in un breve testo informativo",
+        "Trovare che cosa provoca qualcosa e che cosa l’ha fatto succedere",
+        "Accorgersi che una frase vera non è sempre collegata",
+        "Mettere tre frasi in un ordine che abbia senso"
       ],
       "howToPlay": [
-        "Leggi o ascolta il primo fatto 🔗.",
-        "Pensa a ciò che succede dopo o a ciò che quel fatto provoca.",
-        "Tocca il fatto che si collega."
+        "Leggi la frase sulla pista e le carte nel vassoio.",
+        "Trascina una carta nello spazio, oppure toccala.",
+        "Premi Controlla e guarda Linc spingere le tessere.",
+        "Se la catena si ferma, leggi insieme le due frasi e prova un’altra carta."
       ],
       "learningGoals": [
-        "Riconoscere il legame di causa ed effetto tra i fatti",
-        "Mettere i fatti nella giusta sequenza",
-        "Comprendere le informazioni di un breve testo"
+        "Il bambino dice come sono collegate due frasi",
+        "Il bambino unisce le frasi con poi e quindi",
+        "Il bambino vede che avere una parola in comune non vuol dire essere collegati"
       ]
     },
     "two-tales.compare.rl-1-9": {

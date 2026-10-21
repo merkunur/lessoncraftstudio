@@ -611,25 +611,26 @@
     },
     "linc-fact-chain.connect.ri-k-3": {
       "about": [
-        "In dit spel voor groep 4 leest je kind samen met Schakel de hagedis een eerste feit, bijvoorbeeld \"Een zaadje ligt in de aarde.\", en een vraag als \"Wat gebeurt er daarna?\". Daarna tikt je kind het feit aan dat daarmee verbindt – hier is dat \"Uit het zaadje groeit een plant.\" en niet een los feit als \"De vogel zit op de tak.\", dat wel waar is maar geen verband heeft. Zo bouwt de hagedis van losse feiten een echte ketting.",
-        "De kern van dit spel is twee feiten uit een informatieve tekst met elkaar verbinden. Je kind oefent volgorde (\"wat gebeurt er daarna?\", zoals rups → vlinder of ei → kuiken) en oorzaak en gevolg (\"wat gebeurt er daardoor?\", zoals de zon schijnt op de sneeuw en de sneeuw smelt). Ook leert je kind een verbonden feit onderscheiden van een feit dat wel waar is maar er los van staat. Dat past precies bij het begrijpend lezen van informatieve teksten in groep 4, waarin kinderen verbanden tussen feiten leren zien.",
-        "Het spel werkt zonder inloggen en zonder tijd of score, zodat je kind rustig en zonder druk kan lezen en nadenken. Met de 📖/🔊 voorleesknop kan elk feit en elke vraag worden voorgelezen, handig voor kinderen die nog niet vlot lezen. Alles is afgestemd op de SLO-kerndoelen voor groep 4."
+        "Zinnen zijn dominostenen op een houten baan. Eén zin staat er al, en ernaast wacht een gat. Je kind leest de kaartjes in de bak, zet de zin die erbij past in het gat, en Linc de hagedis geeft de eerste steen een duwtje. De rij valt alleen verder over een echt verband, en terwijl hij valt worden de zinnen op de rail één zin, zoals \"De warme zon schijnt op de sneeuw, dus de sneeuw smelt.\" Bij een verkeerde schakel wiebelt de geraakte steen en blijft hij staan, en de rail laat de twee zinnen zien met een gebroken schakel ertussen.",
+        "De verkeerde kaartjes zijn er om van te leren: een ware zin die niets met de eerste te maken heeft, een zin die alleen een woord deelt (\"De sneeuw valt.\"), en een zin van het verkeerde eind van het verhaal. Bij Wat komt daarna staat het gat na de zin; bij Waarom het gebeurt kan het ervoor staan, en zoekt je kind waardoor het gebeurt; bij Drie op een rij zet je kind twee zinnen in volgorde, en de rij stopt bij de eerste die niet past. Bij Keuzes houdt Minder alleen het kaartje over waar je het meest van leert.",
+        "De activiteit sluit aan bij de SLO-kerndoelen: het verband tussen gegevens in een informatieve tekst zien. Linc komt uit de plaatjesbibliotheek; op de dominostenen staan alleen woorden, zodat je kind leest om ze te verbinden. Zonder tijd en zonder score."
       ],
       "practices": [
-        "Twee feiten uit een informatieve tekst met elkaar verbinden",
-        "Volgorde herkennen: wat gebeurt er daarna?",
-        "Oorzaak en gevolg zien: wat gebeurt er daardoor?",
-        "Een verbonden feit onderscheiden van een waar-maar-los feit"
+        "Zeggen wat er in een korte informatieve tekst daarna gebeurt",
+        "Zien wat iets veroorzaakt en waardoor iets gebeurt",
+        "Merken dat een ware zin niet altijd verbonden is",
+        "Drie zinnen in een logische volgorde zetten"
       ],
       "howToPlay": [
-        "Lees het eerste feit en de vraag, of tik op 📖 om ze te laten voorlezen.",
-        "Bedenk welk feit daarmee verbindt: wat gebeurt er daarna of daardoor?",
-        "Tik het juiste feit aan en druk op \"Controleer\"."
+        "Lees de zin op de baan en de kaartjes in de bak.",
+        "Sleep een kaartje naar het gat, of tik erop.",
+        "Druk op Controleren en kijk hoe Linc de stenen duwt.",
+        "Stopt de rij? Lees de twee zinnen samen en probeer een ander kaartje."
       ],
       "learningGoals": [
-        "Je kind kan twee feiten uit een informatieve tekst met elkaar verbinden.",
-        "Je kind herkent volgorde en oorzaak en gevolg tussen feiten.",
-        "Je kind kan een verbonden feit onderscheiden van een feit dat er los van staat."
+        "Het kind zegt hoe twee zinnen met elkaar verbonden zijn",
+        "Het kind verbindt zinnen met daarna en dus",
+        "Het kind ziet dat een gedeeld woord nog geen verband is"
       ]
     },
     "marlo-magnifier.trait-evidence.rl-1-3": {

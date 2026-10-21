@@ -3785,25 +3785,26 @@
     },
     "linc-fact-chain.connect.ri-k-3": {
       "about": [
-        "O Elo é um lagarto que adora ligar os fatos, um atrás do outro, como os elos de uma corrente. Nesta atividade, a criança lê um primeiro fato e toca no fato que se conecta a ele. Por exemplo: se plantamos uma semente, depois nasce uma planta — esse é o elo certo, e não algo solto como \"O passarinho canta.\". Os fatos se ligam de dois jeitos: pelo que vem depois (sequência) e pelo que uma coisa faz acontecer (causa e efeito).",
-        "São duas maneiras de relacionar os fatos. Na sequência, a criança pensa no que acontece depois: primeiro a galinha choca o ovo, depois nasce o pintinho. Na causa e efeito, ela pensa por que uma coisa acontece: por causa do sol quente, o gelo derrete. Relacionar fatos assim é uma das chaves para entender textos informativos — o leitor percebe como as ideias se encaixam e por que uma leva à outra, em vez de ver frases separadas.",
-        "A atividade não pede login nem cadastro. Não há tempo correndo, pontos nem competição — só a criança, o Elo e a corrente de fatos, no ritmo dela. Um botão 🔊 lê o primeiro fato em voz alta, ajudando quem ainda está aprendendo a ler. O conteúdo é alinhado à BNCC, no eixo de compreensão de textos informativos, trabalhando sequência e causa-e-efeito nos primeiros anos."
+        "As frases são peças de dominó numa pista de madeira. Uma frase já está de pé e ao lado dela espera um espaço vazio. A criança lê as cartas da bandeja, coloca no espaço a frase que se liga, e o lagarto Linc dá um empurrão na primeira peça. A corrente só continua caindo se a ligação for de verdade, e enquanto ela cai as frases viram uma frase só no trilho, por exemplo \"O sol quente brilha sobre a neve, então a neve derrete.\" Se o elo for falso, a peça atingida balança e fica de pé, e o trilho mostra as duas frases com um elo quebrado no meio.",
+        "As cartas erradas estão ali para ensinar: uma frase verdadeira que não tem nada a ver com a primeira, uma frase que só tem uma palavra igual (\"A neve cai do céu.\"), e uma frase do lado errado da história. Em O que acontece depois o espaço fica depois da frase; em Por que acontece ele pode ficar antes, e a criança procura o que fez aquilo acontecer; em Três em corrente a criança coloca duas frases em ordem, e a corrente para na primeira que não combina. Em Opções, Menos deixa só a carta com que mais se aprende.",
+        "A atividade segue a BNCC: descrever a ligação entre duas informações de um texto informativo. O Linc vem da biblioteca de imagens; as peças só têm palavras, para a criança ler e ligar as frases. Sem tempo e sem pontos."
       ],
       "practices": [
-        "Ligar um fato ao que acontece depois, em ordem de sequência.",
-        "Ligar um fato à sua causa ou ao seu efeito (\"por causa disso...\").",
-        "Separar o fato que se conecta dos fatos que são verdadeiros mas não têm ligação.",
-        "Ouvir o primeiro fato em voz alta e voltar a ele para conferir a resposta."
+        "Dizer o que acontece depois num texto informativo curto",
+        "Descobrir o que uma coisa provoca e o que fez algo acontecer",
+        "Perceber que uma frase verdadeira nem sempre está ligada",
+        "Colocar três frases numa ordem que faça sentido"
       ],
       "howToPlay": [
-        "Leia (ou ouça, tocando no 🔊) o primeiro fato e a pergunta do Elo.",
-        "Olhe as três cartas de fatos e toque naquela que se liga ao primeiro.",
-        "Se não combinar, tente de novo com calma — pense no que vem depois ou no que a primeira coisa faz acontecer."
+        "Leia a frase da pista e as cartas da bandeja.",
+        "Arraste uma carta para o espaço ou toque nela.",
+        "Aperte Conferir e veja o Linc empurrar as peças.",
+        "Se a corrente parar, leia as duas frases juntas e tente outra carta."
       ],
       "learningGoals": [
-        "Eu ligo um fato ao que acontece depois dele.",
-        "Eu descubro o que um fato faz acontecer, pensando na causa e no efeito.",
-        "Eu escolho o fato que se conecta e deixo de lado os que não têm ligação."
+        "A criança diz como duas frases se ligam",
+        "A criança junta frases com depois e então",
+        "A criança percebe que ter uma palavra igual não é o mesmo que estar ligado"
       ]
     },
     "two-tales.compare.rl-1-9": {

@@ -1,0 +1,148 @@
+{
+ "locale": "no",
+ "market": {
+  "hl": "no",
+  "gl": "no"
+ },
+ "generatedAt": "2026-10-21T21:48:51.236Z",
+ "seedFile": "docs/worksheet-gen/b9-designs/_records/candidate-seeds.json",
+ "requestCount": 91,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "picture-tracing": {
+   "heads": [
+    "tegn over prikkene",
+    "følg linjene",
+    "tegn etter",
+    "prikktegning",
+    "tegne etter streker"
+   ],
+   "requests": 35,
+   "productiveSeeds": 3,
+   "unique": 12,
+   "suggestions": [
+    "etterpå tegn til tale",
+    "etterpåklokskapens tegn",
+    "følg linjene",
+    "prikktegning",
+    "tegn etter",
+    "tegn etter flåttbitt",
+    "tegn etter instruksjon",
+    "tegn etter nummer",
+    "tegn etter pris",
+    "tegn etter tall",
+    "tegn etter veggedyr",
+    "tegn på eggløsning etter fødsel"
+   ]
+  },
+  "trace-and-color": {
+   "heads": [
+    "tegn og fargelegg",
+    "tegn over og fargelegg"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 3,
+   "suggestions": [
+    "kast tegn og fargelegg",
+    "les tegn og fargelegg",
+    "tegn og fargelegg"
+   ]
+  },
+  "early-years-tracing": {
+   "heads": [
+    "finmotorikk barnehage",
+    "skriveforberedende",
+    "førskole oppgaver"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 4,
+   "suggestions": [
+    "finmotorikk barnehage",
+    "førskole oppgaver",
+    "førskole oppgaver utskrift",
+    "førskolehefte førskole oppgaver"
+   ]
+  },
+  "themed-tracing": {
+   "heads": [
+    "tegn over dyr",
+    "jul oppgaver barnehage",
+    "høst oppgaver"
+   ],
+   "requests": 21,
+   "productiveSeeds": 1,
+   "unique": 2,
+   "suggestions": [
+    "høst oppgaver",
+    "høst oppgaver barn"
+   ]
+  }
+ },
+ "suggestions": {
+  "følg linjene": {
+   "candidate": "picture-tracing",
+   "s": [
+    "følg linjene"
+   ]
+  },
+  "tegn etter": {
+   "candidate": "picture-tracing",
+   "s": [
+    "tegn etter tall",
+    "tegn etter flåttbitt",
+    "tegn etter instruksjon",
+    "tegn etter nummer",
+    "tegn etter",
+    "tegn etter veggedyr",
+    "tegn etter pris",
+    "etterpå tegn til tale",
+    "etterpåklokskapens tegn",
+    "tegn på eggløsning etter fødsel"
+   ]
+  },
+  "prikktegning": {
+   "candidate": "picture-tracing",
+   "s": [
+    "prikktegning"
+   ]
+  },
+  "tegn og fargelegg": {
+   "candidate": "trace-and-color",
+   "s": [
+    "tegn og fargelegg",
+    "les tegn og fargelegg",
+    "kast tegn og fargelegg"
+   ]
+  },
+  "finmotorikk barnehage": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "finmotorikk barnehage"
+   ]
+  },
+  "førskole oppgaver": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "førskole oppgaver utskrift",
+    "førskole oppgaver",
+    "førskolehefte førskole oppgaver"
+   ]
+  },
+  "førskole oppgaver til utskrift": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "førskole oppgaver utskrift"
+   ]
+  },
+  "høst oppgaver": {
+   "candidate": "themed-tracing",
+   "s": [
+    "høst oppgaver",
+    "høst oppgaver barn"
+   ]
+  }
+ }
+}

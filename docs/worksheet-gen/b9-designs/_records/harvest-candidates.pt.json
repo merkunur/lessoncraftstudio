@@ -1,0 +1,602 @@
+{
+ "locale": "pt",
+ "market": {
+  "hl": "pt",
+  "gl": "br"
+ },
+ "generatedAt": "2026-10-21T21:47:02.855Z",
+ "seedFile": "docs/worksheet-gen/b9-designs/_records/candidate-seeds.json",
+ "requestCount": 98,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "picture-tracing": {
+   "heads": [
+    "cobrir pontilhado",
+    "desenhos pontilhados",
+    "cobrir o desenho",
+    "atividades de cobrir",
+    "desenho para cobrir"
+   ],
+   "requests": 35,
+   "productiveSeeds": 15,
+   "unique": 71,
+   "suggestions": [
+    "alfabeto pontilhado para cobrir e imprimir",
+    "atividade cobrir pontilhado",
+    "atividade cobrir pontilhado alfabeto",
+    "atividade cobrir pontilhado letra cursiva",
+    "atividade de cobrir pontilhado educação infantil",
+    "atividade desenho para cobrir",
+    "atividades cobrir pontilhados educação infantil",
+    "atividades de cobrir",
+    "atividades de cobrir as vogais",
+    "atividades de cobrir educação infantil",
+    "atividades de cobrir letras",
+    "atividades de cobrir letras cursivas",
+    "atividades de cobrir numeros",
+    "atividades de cobrir o alfabeto",
+    "atividades de cobrir para imprimir",
+    "atividades de cobrir pontilhado para educação infantil",
+    "atividades de cobrir pontilhado para imprimir",
+    "atividades de cobrir pontilhado para imprimir pdf",
+    "atividades de cobrir pontilhados",
+    "atividades de cobrir vogais para imprimir",
+    "atividades desenhos pontilhados",
+    "atividades para cobrir educação infantil pdf",
+    "cobrir desenho pontilhado",
+    "cobrir numeros pontilhados",
+    "cobrir o desenho",
+    "cobrir pontilhado alfabeto",
+    "cobrir pontilhado educação infantil",
+    "cobrir pontilhado trabalha o que",
+    "cobrir pontilhado vogais",
+    "cobrir pontilhados",
+    "cobrir pontilhados coordenação motora",
+    "cobrir pontilhados para imprimir",
+    "desenho para cobrir",
+    "desenho para cobrir com massinha",
+    "desenho para cobrir com papel crepom",
+    "desenho para cobrir e pintar",
+    "desenho para cobrir nome",
+    "desenho para cobrir nome de tatuagem",
+    "desenho para cobrir pontilhado",
+    "desenho para cobrir por cima",
+    "desenho para cobrir tatuagem",
+    "desenho para cobrir tatuagem feminina",
+    "desenho para colorir educação infantil",
+    "desenho para educação infantil",
+    "desenho para educação infantil 3 anos",
+    "desenho para educação infantil 4 anos",
+    "desenho para educação infantil 5 anos",
+    "desenho para educação infantil assistir",
+    "desenho para educação infantil colorir",
+    "desenho para educação infantil imprimir",
+    "desenho para educação infantil pintar",
+    "desenho para educação infantil sobre consciência negra",
+    "desenhos de carros pontilhados para imprimir",
+    "desenhos pontilhados",
+    "desenhos pontilhados coloridos",
+    "desenhos pontilhados com números para imprimir",
+    "desenhos pontilhados copiar e colar",
+    "desenhos pontilhados educação infantil",
+    "desenhos pontilhados letras para imprimir",
+    "desenhos pontilhados para cobrir e imprimir",
+    "desenhos pontilhados para colorir",
+    "desenhos pontilhados para copiar",
+    "desenhos pontilhados para educação infantil para imprimir",
+    "desenhos pontilhados para imprimir",
+    "desenhos pontilhados para imprimir alfabeto",
+    "desenhos pontilhados para imprimir e colorir",
+    "desenhos pontilhados para imprimir grátis",
+    "desenhos pontilhados para imprimir pdf",
+    "desenhos pontilhados para imprimir pdf gratis",
+    "desenhos pontilhados para instagram",
+    "desenhos pontilhados para story"
+   ]
+  },
+  "trace-and-color": {
+   "heads": [
+    "cubra e pinte",
+    "cobrir e colorir"
+   ],
+   "requests": 14,
+   "productiveSeeds": 4,
+   "unique": 21,
+   "suggestions": [
+    "alfabeto para cobrir e colorir",
+    "atividade cobrir e colorir",
+    "cobrir e colorir",
+    "coordenação motora cubra e pinte as formas abaixo",
+    "cubra as vogais e pinte a centopeia",
+    "cubra e pinte",
+    "cubra e pinte a palavra meio ambiente",
+    "cubra e pinte as vogais",
+    "cubra e pinte os balões com as cores indicadas",
+    "cubra o pontilhado e pinte bem colorido",
+    "cubra o pontilhado e pinte somente as flores com o numero 1",
+    "cubra os pontilhados e pinte bem bonito",
+    "cubra pinte e escreva o nome do nosso planeta",
+    "desenhos cobrir e colorir",
+    "desenhos para cobrir colorir e imprimir",
+    "desenhos para cobrir e colorir pdf",
+    "imagem para cobrir e colorir",
+    "letras para cobrir e colorir",
+    "numeros para cobrir e colorir",
+    "para cobrir e colorir",
+    "vogais para cobrir e colorir"
+   ]
+  },
+  "early-years-tracing": {
+   "heads": [
+    "coordenação motora",
+    "coordenação motora fina",
+    "atividades de coordenação motora educação infantil",
+    "cobrir pontilhado educação infantil"
+   ],
+   "requests": 28,
+   "productiveSeeds": 12,
+   "unique": 81,
+   "suggestions": [
+    "alfabeto coordenação motora para imprimir",
+    "apostila coordenação motora para imprimir",
+    "apostila de coordenação motora fina para imprimir",
+    "atividade coordenação motora fina educação infantil pdf",
+    "atividade coordenação motora para imprimir",
+    "atividade coordenação motora para imprimir educação infantil",
+    "atividade de cobrir pontilhado educação infantil",
+    "atividades coordenação motora ampla educação infantil para imprimir",
+    "atividades coordenação motora educação infantil 3 anos para imprimir",
+    "atividades coordenação motora fina educação infantil 3 anos",
+    "atividades coordenação motora fina educação infantil 4 anos",
+    "atividades coordenação motora fina educação infantil 5 anos",
+    "atividades coordenação motora fina educação infantil para imprimir",
+    "atividades coordenação motora fina para imprimir",
+    "atividades coordenação motora fina para imprimir pdf",
+    "atividades de coordenação motora ampla educação infantil",
+    "atividades de coordenação motora educação infantil",
+    "atividades de coordenação motora educação infantil 2 anos",
+    "atividades de coordenação motora educação infantil 3 anos",
+    "atividades de coordenação motora educação infantil 4 anos",
+    "atividades de coordenação motora educação infantil 5 anos",
+    "atividades de coordenação motora educação infantil para imprimir",
+    "atividades de coordenação motora educação infantil pdf",
+    "atividades de coordenação motora fina educação infantil",
+    "atividades de coordenação motora grossa educação infantil",
+    "cobrir pontilhado educação infantil",
+    "coordenação motora",
+    "coordenação motora ampla",
+    "coordenação motora ampla e fina",
+    "coordenação motora atividade alfabeto educação infantil",
+    "coordenação motora atividade de matematica educação infantil",
+    "coordenação motora atividade de recorte e colagem para educação infantil",
+    "coordenação motora atividade de volta as aulas educação infantil",
+    "coordenação motora atividade educação infantil",
+    "coordenação motora atividade folclore educação infantil",
+    "coordenação motora atividade sobre a patria educação infantil",
+    "coordenação motora atividades",
+    "coordenação motora atividades para imprimir",
+    "coordenação motora atividades pdf",
+    "coordenação motora educação infantil",
+    "coordenação motora educação infantil 2 anos",
+    "coordenação motora educação infantil 3 anos",
+    "coordenação motora educação infantil 4 anos",
+    "coordenação motora educação infantil atividades",
+    "coordenação motora educação infantil bncc",
+    "coordenação motora educação infantil brincadeiras",
+    "coordenação motora educação infantil objetivos",
+    "coordenação motora educação infantil para imprimir",
+    "coordenação motora educação infantil pdf",
+    "coordenação motora fina",
+    "coordenação motora fina atividade educação infantil",
+    "coordenação motora fina atividade maternal",
+    "coordenação motora fina atividades",
+    "coordenação motora fina atividades ludicas",
+    "coordenação motora fina atividades para imprimir",
+    "coordenação motora fina atividades pdf",
+    "coordenação motora fina autismo atividades pedagógicas para imprimir",
+    "coordenação motora fina e ampla",
+    "coordenação motora fina e grossa",
+    "coordenação motora fina e grossa atividades",
+    "coordenação motora fina e grossa diferença",
+    "coordenação motora fina e grossa para imprimir",
+    "coordenação motora fina educação infantil",
+    "coordenação motora fina educação infantil atividades",
+    "coordenação motora fina educação infantil bncc",
+    "coordenação motora fina educação infantil objetivo",
+    "coordenação motora fina educação infantil para imprimir",
+    "coordenação motora fina exemplos",
+    "coordenação motora fina grafismos para imprimir",
+    "coordenação motora fina para imprimir",
+    "coordenação motora global",
+    "coordenação motora grossa",
+    "coordenação motora grossa para imprimir",
+    "coordenação motora labirinto para imprimir",
+    "coordenação motora para imprimir",
+    "coordenação motora para imprimir educação infantil",
+    "coordenação motora vogais para imprimir",
+    "desenhos de coordenação motora fina para imprimir",
+    "exercício de coordenação motora fina para imprimir",
+    "fichas de coordenação motora fina para imprimir",
+    "habilidade coordenação motora fina educação infantil"
+   ]
+  },
+  "themed-tracing": {
+   "heads": [
+    "cobrir pontilhado animais",
+    "cobrir pontilhado natal",
+    "pontilhado primavera"
+   ],
+   "requests": 21,
+   "productiveSeeds": 2,
+   "unique": 2,
+   "suggestions": [
+    "atividade pontilhado primavera",
+    "pontilhado primavera"
+   ]
+  }
+ },
+ "suggestions": {
+  "cobrir pontilhado": {
+   "candidate": "picture-tracing",
+   "s": [
+    "cobrir pontilhados",
+    "cobrir pontilhados coordenação motora",
+    "cobrir pontilhados para imprimir",
+    "cobrir pontilhado alfabeto",
+    "cobrir pontilhado educação infantil",
+    "cobrir pontilhado vogais",
+    "cobrir pontilhado trabalha o que",
+    "atividade cobrir pontilhado",
+    "cobrir numeros pontilhados",
+    "atividades cobrir pontilhados educação infantil"
+   ]
+  },
+  "cobrir pontilhado atividade": {
+   "candidate": "picture-tracing",
+   "s": [
+    "atividade cobrir pontilhado",
+    "atividade cobrir pontilhado alfabeto",
+    "atividade cobrir pontilhado letra cursiva"
+   ]
+  },
+  "cobrir pontilhado para imprimir": {
+   "candidate": "picture-tracing",
+   "s": [
+    "atividades de cobrir pontilhado para imprimir",
+    "atividades de cobrir pontilhado para imprimir pdf",
+    "alfabeto pontilhado para cobrir e imprimir"
+   ]
+  },
+  "cobrir pontilhado educação infantil": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "cobrir pontilhado educação infantil",
+    "atividade de cobrir pontilhado educação infantil"
+   ]
+  },
+  "desenhos pontilhados": {
+   "candidate": "picture-tracing",
+   "s": [
+    "desenhos pontilhados",
+    "desenhos pontilhados para copiar",
+    "desenhos pontilhados para imprimir",
+    "desenhos pontilhados copiar e colar",
+    "desenhos pontilhados para imprimir pdf",
+    "desenhos pontilhados para story",
+    "desenhos pontilhados coloridos",
+    "desenhos pontilhados para imprimir grátis",
+    "desenhos pontilhados para instagram",
+    "desenhos pontilhados para colorir"
+   ]
+  },
+  "desenhos pontilhados atividade": {
+   "candidate": "picture-tracing",
+   "s": [
+    "atividades desenhos pontilhados"
+   ]
+  },
+  "desenhos pontilhados para imprimir": {
+   "candidate": "picture-tracing",
+   "s": [
+    "desenhos pontilhados para imprimir",
+    "desenhos pontilhados para imprimir pdf",
+    "desenhos pontilhados para imprimir grátis",
+    "desenhos pontilhados para imprimir pdf gratis",
+    "desenhos pontilhados para imprimir e colorir",
+    "desenhos pontilhados para imprimir alfabeto",
+    "desenhos pontilhados letras para imprimir",
+    "desenhos pontilhados com números para imprimir",
+    "desenhos pontilhados para cobrir e imprimir",
+    "desenhos de carros pontilhados para imprimir"
+   ]
+  },
+  "desenhos pontilhados educação infantil": {
+   "candidate": "picture-tracing",
+   "s": [
+    "desenhos pontilhados educação infantil",
+    "desenhos pontilhados para educação infantil para imprimir"
+   ]
+  },
+  "cobrir o desenho": {
+   "candidate": "picture-tracing",
+   "s": [
+    "cobrir o desenho",
+    "cobrir desenho pontilhado"
+   ]
+  },
+  "atividades de cobrir": {
+   "candidate": "picture-tracing",
+   "s": [
+    "atividades de cobrir pontilhado para imprimir",
+    "atividades de cobrir",
+    "atividades de cobrir pontilhados",
+    "atividades de cobrir as vogais",
+    "atividades de cobrir o alfabeto",
+    "atividades de cobrir vogais para imprimir",
+    "atividades de cobrir numeros",
+    "atividades de cobrir letras cursivas",
+    "atividades de cobrir para imprimir",
+    "atividades de cobrir letras"
+   ]
+  },
+  "atividades de cobrir para imprimir": {
+   "candidate": "picture-tracing",
+   "s": [
+    "atividades de cobrir para imprimir",
+    "atividades de cobrir pontilhado para imprimir",
+    "atividades de cobrir vogais para imprimir",
+    "atividades de cobrir pontilhado para imprimir pdf"
+   ]
+  },
+  "atividades de cobrir educação infantil": {
+   "candidate": "picture-tracing",
+   "s": [
+    "atividades de cobrir educação infantil",
+    "atividades de cobrir pontilhado para educação infantil",
+    "atividades para cobrir educação infantil pdf"
+   ]
+  },
+  "desenho para cobrir": {
+   "candidate": "picture-tracing",
+   "s": [
+    "desenho para cobrir",
+    "desenho para cobrir pontilhado",
+    "desenho para cobrir tatuagem",
+    "desenho para cobrir e pintar",
+    "desenho para cobrir tatuagem feminina",
+    "desenho para cobrir nome",
+    "desenho para cobrir com papel crepom",
+    "desenho para cobrir com massinha",
+    "desenho para cobrir por cima",
+    "desenho para cobrir nome de tatuagem"
+   ]
+  },
+  "desenho para cobrir atividade": {
+   "candidate": "picture-tracing",
+   "s": [
+    "atividade desenho para cobrir"
+   ]
+  },
+  "desenho para cobrir educação infantil": {
+   "candidate": "picture-tracing",
+   "s": [
+    "desenho para colorir educação infantil",
+    "desenho para educação infantil",
+    "desenho para educação infantil colorir",
+    "desenho para educação infantil pintar",
+    "desenho para educação infantil assistir",
+    "desenho para educação infantil 4 anos",
+    "desenho para educação infantil 3 anos",
+    "desenho para educação infantil 5 anos",
+    "desenho para educação infantil sobre consciência negra",
+    "desenho para educação infantil imprimir"
+   ]
+  },
+  "cubra e pinte": {
+   "candidate": "trace-and-color",
+   "s": [
+    "cubra e pinte",
+    "cubra e pinte os balões com as cores indicadas",
+    "cubra e pinte as vogais",
+    "cubra e pinte a palavra meio ambiente",
+    "cubra pinte e escreva o nome do nosso planeta",
+    "cubra as vogais e pinte a centopeia",
+    "cubra o pontilhado e pinte bem colorido",
+    "coordenação motora cubra e pinte as formas abaixo",
+    "cubra os pontilhados e pinte bem bonito",
+    "cubra o pontilhado e pinte somente as flores com o numero 1"
+   ]
+  },
+  "cobrir e colorir": {
+   "candidate": "trace-and-color",
+   "s": [
+    "cobrir e colorir",
+    "atividade cobrir e colorir",
+    "desenhos cobrir e colorir",
+    "para cobrir e colorir",
+    "alfabeto para cobrir e colorir",
+    "letras para cobrir e colorir",
+    "vogais para cobrir e colorir",
+    "imagem para cobrir e colorir",
+    "numeros para cobrir e colorir",
+    "desenhos para cobrir e colorir pdf"
+   ]
+  },
+  "cobrir e colorir atividade": {
+   "candidate": "trace-and-color",
+   "s": [
+    "atividade cobrir e colorir"
+   ]
+  },
+  "cobrir e colorir para imprimir": {
+   "candidate": "trace-and-color",
+   "s": [
+    "desenhos para cobrir colorir e imprimir"
+   ]
+  },
+  "coordenação motora": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "coordenação motora",
+    "coordenação motora fina",
+    "coordenação motora grossa",
+    "coordenação motora ampla",
+    "coordenação motora fina e grossa",
+    "coordenação motora global",
+    "coordenação motora fina atividades",
+    "coordenação motora ampla e fina",
+    "coordenação motora fina educação infantil",
+    "coordenação motora atividades"
+   ]
+  },
+  "coordenação motora atividade": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "coordenação motora atividades",
+    "coordenação motora atividade educação infantil",
+    "coordenação motora atividade de recorte e colagem para educação infantil",
+    "coordenação motora atividades para imprimir",
+    "coordenação motora atividade alfabeto educação infantil",
+    "coordenação motora atividade de matematica educação infantil",
+    "coordenação motora atividade sobre a patria educação infantil",
+    "coordenação motora atividade de volta as aulas educação infantil",
+    "coordenação motora atividades pdf",
+    "coordenação motora atividade folclore educação infantil"
+   ]
+  },
+  "coordenação motora para imprimir": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "coordenação motora para imprimir",
+    "coordenação motora para imprimir educação infantil",
+    "atividade coordenação motora para imprimir",
+    "alfabeto coordenação motora para imprimir",
+    "coordenação motora fina para imprimir",
+    "coordenação motora grossa para imprimir",
+    "apostila coordenação motora para imprimir",
+    "atividade coordenação motora para imprimir educação infantil",
+    "coordenação motora vogais para imprimir",
+    "coordenação motora labirinto para imprimir"
+   ]
+  },
+  "coordenação motora educação infantil": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "coordenação motora educação infantil",
+    "coordenação motora educação infantil atividades",
+    "coordenação motora educação infantil bncc",
+    "coordenação motora educação infantil pdf",
+    "coordenação motora educação infantil para imprimir",
+    "coordenação motora educação infantil 2 anos",
+    "coordenação motora educação infantil 4 anos",
+    "coordenação motora educação infantil objetivos",
+    "coordenação motora educação infantil brincadeiras",
+    "coordenação motora educação infantil 3 anos"
+   ]
+  },
+  "coordenação motora fina": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "coordenação motora fina",
+    "coordenação motora fina e grossa",
+    "coordenação motora fina atividades",
+    "coordenação motora fina educação infantil",
+    "coordenação motora fina e ampla",
+    "coordenação motora fina e grossa diferença",
+    "coordenação motora fina para imprimir",
+    "coordenação motora fina exemplos",
+    "coordenação motora fina e grossa atividades",
+    "coordenação motora fina atividade educação infantil"
+   ]
+  },
+  "coordenação motora fina atividade": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "coordenação motora fina atividades",
+    "coordenação motora fina atividade educação infantil",
+    "coordenação motora fina atividades para imprimir",
+    "coordenação motora fina atividades pdf",
+    "coordenação motora fina atividades ludicas",
+    "coordenação motora fina atividade maternal",
+    "coordenação motora fina autismo atividades pedagógicas para imprimir",
+    "coordenação motora fina e grossa atividades",
+    "atividades coordenação motora fina para imprimir pdf",
+    "atividades coordenação motora fina educação infantil 3 anos"
+   ]
+  },
+  "coordenação motora fina para imprimir": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "coordenação motora fina para imprimir",
+    "atividades coordenação motora fina para imprimir",
+    "atividades coordenação motora fina para imprimir pdf",
+    "coordenação motora fina grafismos para imprimir",
+    "exercício de coordenação motora fina para imprimir",
+    "apostila de coordenação motora fina para imprimir",
+    "desenhos de coordenação motora fina para imprimir",
+    "fichas de coordenação motora fina para imprimir",
+    "coordenação motora fina educação infantil para imprimir",
+    "coordenação motora fina e grossa para imprimir"
+   ]
+  },
+  "coordenação motora fina educação infantil": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "coordenação motora fina educação infantil",
+    "coordenação motora fina educação infantil atividades",
+    "coordenação motora fina educação infantil bncc",
+    "coordenação motora fina educação infantil para imprimir",
+    "coordenação motora fina educação infantil objetivo",
+    "atividades coordenação motora fina educação infantil 3 anos",
+    "atividades coordenação motora fina educação infantil 4 anos",
+    "atividade coordenação motora fina educação infantil pdf",
+    "habilidade coordenação motora fina educação infantil",
+    "atividades coordenação motora fina educação infantil 5 anos"
+   ]
+  },
+  "atividades de coordenação motora educação infantil": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "atividades de coordenação motora educação infantil",
+    "atividades de coordenação motora educação infantil para imprimir",
+    "atividades de coordenação motora educação infantil 2 anos",
+    "atividades de coordenação motora educação infantil 4 anos",
+    "atividades de coordenação motora educação infantil 3 anos",
+    "atividades de coordenação motora educação infantil pdf",
+    "atividades de coordenação motora educação infantil 5 anos",
+    "atividades de coordenação motora fina educação infantil",
+    "atividades de coordenação motora grossa educação infantil",
+    "atividades de coordenação motora ampla educação infantil"
+   ]
+  },
+  "atividades de coordenação motora educação infantil para imprimir": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "atividades de coordenação motora educação infantil para imprimir",
+    "atividades coordenação motora fina educação infantil para imprimir",
+    "atividades coordenação motora ampla educação infantil para imprimir",
+    "atividades coordenação motora educação infantil 3 anos para imprimir"
+   ]
+  },
+  "cobrir pontilhado educação infantil atividade": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "atividade de cobrir pontilhado educação infantil"
+   ]
+  },
+  "pontilhado primavera": {
+   "candidate": "themed-tracing",
+   "s": [
+    "pontilhado primavera",
+    "atividade pontilhado primavera"
+   ]
+  },
+  "pontilhado primavera atividade": {
+   "candidate": "themed-tracing",
+   "s": [
+    "atividade pontilhado primavera"
+   ]
+  }
+ }
+}

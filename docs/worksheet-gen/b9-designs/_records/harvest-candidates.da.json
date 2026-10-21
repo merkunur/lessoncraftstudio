@@ -1,0 +1,175 @@
+{
+ "locale": "da",
+ "market": {
+  "hl": "da",
+  "gl": "dk"
+ },
+ "generatedAt": "2026-10-21T21:48:29.588Z",
+ "seedFile": "docs/worksheet-gen/b9-designs/_records/candidate-seeds.json",
+ "requestCount": 91,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "picture-tracing": {
+   "heads": [
+    "tegn efter stregerne",
+    "følg stregerne",
+    "tegn over",
+    "prikketegning",
+    "tegn efter"
+   ],
+   "requests": 35,
+   "productiveSeeds": 3,
+   "unique": 21,
+   "suggestions": [
+    "tegn efter",
+    "tegn efter billeder",
+    "tegn efter bogstaver",
+    "tegn efter børn",
+    "tegn efter dyr",
+    "tegn efter streger",
+    "tegn efter tal",
+    "tegn efter tal børn",
+    "tegn efter tal print",
+    "tegn efter tal voksne",
+    "tegn efter tegninger",
+    "tegn over",
+    "tegn over bokstaver",
+    "tegn over e",
+    "tegn over og under",
+    "tegn over og undervarme",
+    "tegn over vokal",
+    "tegn over vokal krydsord",
+    "tegn overgangsalder",
+    "tegn overgangsalder kvinder",
+    "tegn oversæt"
+   ]
+  },
+  "trace-and-color": {
+   "heads": [
+    "tegn og farvelæg",
+    "tegn efter og farvelæg"
+   ],
+   "requests": 14,
+   "productiveSeeds": 0,
+   "unique": 0,
+   "suggestions": []
+  },
+  "early-years-tracing": {
+   "heads": [
+    "finmotorik børnehave",
+    "skriveforberedende øvelser",
+    "førskole opgaver"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 4,
+   "suggestions": [
+    "finmotorik børnehave",
+    "førskole opgaver",
+    "førskole opgaver gratis",
+    "førskole opgaver print"
+   ]
+  },
+  "themed-tracing": {
+   "heads": [
+    "tegn efter dyr",
+    "jul opgaver børnehave",
+    "efterår opgaver"
+   ],
+   "requests": 21,
+   "productiveSeeds": 3,
+   "unique": 7,
+   "suggestions": [
+    "efterår opgaver",
+    "efterår opgaver 0 klasse",
+    "efterår opgaver 1.klasse",
+    "efterår opgaver børn",
+    "tegn dyr efter hånd",
+    "tegn dyr efter tal",
+    "tegn efter dyr"
+   ]
+  }
+ },
+ "suggestions": {
+  "tegn over": {
+   "candidate": "picture-tracing",
+   "s": [
+    "tegn over og under",
+    "tegn overgangsalder kvinder",
+    "tegn overgangsalder",
+    "tegn over",
+    "tegn over bokstaver",
+    "tegn over vokal krydsord",
+    "tegn over vokal",
+    "tegn over og undervarme",
+    "tegn over e",
+    "tegn oversæt"
+   ]
+  },
+  "tegn efter": {
+   "candidate": "picture-tracing",
+   "s": [
+    "tegn efter",
+    "tegn efter tal",
+    "tegn efter tegninger",
+    "tegn efter børn",
+    "tegn efter tal voksne",
+    "tegn efter tal børn",
+    "tegn efter dyr",
+    "tegn efter bogstaver",
+    "tegn efter streger",
+    "tegn efter billeder"
+   ]
+  },
+  "tegn efter til print": {
+   "candidate": "picture-tracing",
+   "s": [
+    "tegn efter tal print"
+   ]
+  },
+  "finmotorik børnehave": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "finmotorik børnehave"
+   ]
+  },
+  "førskole opgaver": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "førskole opgaver",
+    "førskole opgaver print",
+    "førskole opgaver gratis"
+   ]
+  },
+  "førskole opgaver til print": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "førskole opgaver print"
+   ]
+  },
+  "tegn efter dyr": {
+   "candidate": "themed-tracing",
+   "s": [
+    "tegn efter dyr",
+    "tegn dyr efter tal",
+    "tegn dyr efter hånd"
+   ]
+  },
+  "efterår opgaver": {
+   "candidate": "themed-tracing",
+   "s": [
+    "efterår opgaver",
+    "efterår opgaver 0 klasse",
+    "efterår opgaver børn",
+    "efterår opgaver 1.klasse"
+   ]
+  },
+  "efterår opgaver 1. klasse": {
+   "candidate": "themed-tracing",
+   "s": [
+    "efterår opgaver 1.klasse"
+   ]
+  }
+ }
+}

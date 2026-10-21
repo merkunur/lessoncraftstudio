@@ -714,6 +714,11 @@
       "default_subject": "spatial-reasoning",
       "default_age_range": "5-7",
       "exercise_type_axis_key": "maze-puzzles"
+    },
+    "picture-tracing": {
+      "default_subject": "letters",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "picture-tracing"
     }
   },
   "$comment_subjects": "Subject×grade hub registry (2026-07-05). Powers /[locale]/topic/<subject>/<grade> hub pages that match how teachers search (Fach×Klasse, e.g. 'Mathe Klasse 1'). Keys = the apps.*.default_subject buckets (math/logic/letters/spatial-reasoning/science). slug+name per locale; bucket→exercise-type mapping derived from apps.* in code (exerciseTypeKeysForSubject). NOTE: the older $comment_subject_vocabulary claim of '4 values, no science' is stale — the corpus has 5 (science = science-sort/match/sequence). Added de+en at MVP; other locales added per the per-locale SEO rollout with native Fach terms.",
@@ -4843,6 +4848,14 @@
           "da": "Labyrintopgaver",
           "no": "Labyrintoppgaver",
           "fi": "Labyrinttitehtävät"
+        }
+      },
+      "picture-tracing": {
+        "slug": {
+          "en": "picture-tracing"
+        },
+        "name": {
+          "en": "Picture Tracing"
         }
       }
     },

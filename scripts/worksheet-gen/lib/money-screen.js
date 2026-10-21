@@ -106,7 +106,7 @@ function questionOnly(html) {
     if (html[i] === '<') {
       const end = html.indexOf('>', i);
       const tag = html.slice(i, end + 1);
-      if (/^<span/.test(tag)) depth++;
+      if (/^<span\b/.test(tag)) depth++;
       else if (tag === '</span>') depth--;
       i = end;
     } else if (html[i] === '?') {

@@ -1,0 +1,333 @@
+{
+ "locale": "sv",
+ "market": {
+  "hl": "sv",
+  "gl": "se"
+ },
+ "generatedAt": "2026-10-21T21:48:08.204Z",
+ "seedFile": "docs/worksheet-gen/b9-designs/_records/candidate-seeds.json",
+ "requestCount": 91,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "picture-tracing": {
+   "heads": [
+    "spåra bilder",
+    "rita efter prickar",
+    "följ linjerna",
+    "spåra",
+    "rita av"
+   ],
+   "requests": 35,
+   "productiveSeeds": 11,
+   "unique": 38,
+   "suggestions": [
+    "arbetsblad spåra bokstäver",
+    "följa linjer arbetsblad",
+    "följa linjer förskoleklass",
+    "kan man spåra bilder",
+    "rita av 8 bokstäver korsord",
+    "rita av bilder",
+    "rita av bilder barn",
+    "rita av cascia",
+    "rita av djur",
+    "rita av en katt",
+    "rita av hund",
+    "rita av synonym",
+    "rita avokado",
+    "rita avstånd karta",
+    "rita bilder skriva ut",
+    "rita efter prickar",
+    "rita med prickar",
+    "rita skriva ut",
+    "spåra arbetsblad",
+    "spåra bilder",
+    "spåra bilder på internet",
+    "spåra bokstäver arbetsblad gratis",
+    "spåra bokstäver förskoleklass",
+    "spåra bokstäver skriva ut",
+    "spåra bring",
+    "spåra dhl",
+    "spåra förskoleklass",
+    "spåra paket",
+    "spåra paket bring",
+    "spåra paket dhl",
+    "spåra paket instabox",
+    "spåra paket postnord",
+    "spåra paket schenker",
+    "spåra postnord",
+    "spåra siffror arbetsblad",
+    "spåra varubrev klass 1",
+    "spåra åk 1",
+    "spårarbete göteborg"
+   ]
+  },
+  "trace-and-color": {
+   "heads": [
+    "spåra och färglägg",
+    "rita och färglägg"
+   ],
+   "requests": 14,
+   "productiveSeeds": 1,
+   "unique": 3,
+   "suggestions": [
+    "kawaii pyssla klistra rita och färglägg",
+    "rita färglägga",
+    "rita och färglägg"
+   ]
+  },
+  "early-years-tracing": {
+   "heads": [
+    "finmotorik förskola",
+    "spåra förskola",
+    "pyssel förskola"
+   ],
+   "requests": 21,
+   "productiveSeeds": 2,
+   "unique": 15,
+   "suggestions": [
+    "finmotorik barn förskola",
+    "finmotorik förskola",
+    "finmotorik förskolans läroplan",
+    "finmotorik övningar förskola",
+    "pyssel förskola",
+    "pyssel förskola 1 3 år",
+    "pyssel förskola 3 5 är",
+    "pyssel förskola alla hjärtans dag",
+    "pyssel förskola höst",
+    "pyssel förskola jul",
+    "pyssel förskola sommar",
+    "pyssel förskola svampar",
+    "pyssel förskola vinter",
+    "pyssel förskola vår",
+    "träna finmotorik förskolan"
+   ]
+  },
+  "themed-tracing": {
+   "heads": [
+    "spåra djur",
+    "jul pyssel",
+    "höst pyssel"
+   ],
+   "requests": 21,
+   "productiveSeeds": 6,
+   "unique": 28,
+   "suggestions": [
+    "djurhjältarna spåra",
+    "höst pyssel barn",
+    "höst pyssel fritids",
+    "höst pyssel förskola",
+    "höst pyssel löv",
+    "höst pyssel med löv",
+    "höst pyssel skola",
+    "höst pyssel vuxna",
+    "höstpyssel",
+    "höstpyssel små barn",
+    "jul pyssel",
+    "jul pyssel barn",
+    "julpyssel att skriva ut gratis",
+    "julpyssel förskola",
+    "julpyssel kit",
+    "julpyssel med kottar",
+    "julpyssel med papper",
+    "julpyssel på engelska",
+    "julpyssel vuxna",
+    "julpyssel vuxna papper",
+    "pyssel förskoleklass höst",
+    "pyssel förskoleklass jul",
+    "pyssel jul skriva ut",
+    "pysselmorgon höst",
+    "spåra djur",
+    "spåra djur armband",
+    "spåra djur bok",
+    "spåra vilda djur"
+   ]
+  }
+ },
+ "suggestions": {
+  "spåra bilder": {
+   "candidate": "picture-tracing",
+   "s": [
+    "spåra bilder på internet",
+    "spåra bilder",
+    "kan man spåra bilder"
+   ]
+  },
+  "rita efter prickar": {
+   "candidate": "picture-tracing",
+   "s": [
+    "rita efter prickar",
+    "rita med prickar"
+   ]
+  },
+  "följ linjerna arbetsblad": {
+   "candidate": "picture-tracing",
+   "s": [
+    "följa linjer arbetsblad"
+   ]
+  },
+  "följ linjerna förskoleklass": {
+   "candidate": "picture-tracing",
+   "s": [
+    "följa linjer förskoleklass"
+   ]
+  },
+  "spåra": {
+   "candidate": "picture-tracing",
+   "s": [
+    "spåra paket",
+    "spåra paket postnord",
+    "spåra paket dhl",
+    "spåra dhl",
+    "spåra postnord",
+    "spåra paket bring",
+    "spåra paket schenker",
+    "spårarbete göteborg",
+    "spåra paket instabox",
+    "spåra bring"
+   ]
+  },
+  "spåra arbetsblad": {
+   "candidate": "picture-tracing",
+   "s": [
+    "spåra arbetsblad",
+    "arbetsblad spåra bokstäver",
+    "spåra siffror arbetsblad",
+    "spåra bokstäver arbetsblad gratis"
+   ]
+  },
+  "spåra skriva ut": {
+   "candidate": "picture-tracing",
+   "s": [
+    "spåra bokstäver skriva ut"
+   ]
+  },
+  "spåra förskoleklass": {
+   "candidate": "picture-tracing",
+   "s": [
+    "spåra förskoleklass",
+    "spåra bokstäver förskoleklass"
+   ]
+  },
+  "spåra åk 1": {
+   "candidate": "picture-tracing",
+   "s": [
+    "spåra åk 1",
+    "spåra varubrev klass 1"
+   ]
+  },
+  "rita av": {
+   "candidate": "picture-tracing",
+   "s": [
+    "rita av bilder",
+    "rita av djur",
+    "rita av hund",
+    "rita avstånd karta",
+    "rita av bilder barn",
+    "rita av en katt",
+    "rita av synonym",
+    "rita av 8 bokstäver korsord",
+    "rita av cascia",
+    "rita avokado"
+   ]
+  },
+  "rita av skriva ut": {
+   "candidate": "picture-tracing",
+   "s": [
+    "rita skriva ut",
+    "rita bilder skriva ut"
+   ]
+  },
+  "rita och färglägg": {
+   "candidate": "trace-and-color",
+   "s": [
+    "rita och färglägg",
+    "rita färglägga",
+    "kawaii pyssla klistra rita och färglägg"
+   ]
+  },
+  "finmotorik förskola": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "finmotorik förskola",
+    "finmotorik förskolans läroplan",
+    "finmotorik barn förskola",
+    "finmotorik övningar förskola",
+    "träna finmotorik förskolan"
+   ]
+  },
+  "pyssel förskola": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "pyssel förskola",
+    "pyssel förskola höst",
+    "pyssel förskola sommar",
+    "pyssel förskola svampar",
+    "pyssel förskola 3 5 är",
+    "pyssel förskola 1 3 år",
+    "pyssel förskola vinter",
+    "pyssel förskola alla hjärtans dag",
+    "pyssel förskola jul",
+    "pyssel förskola vår"
+   ]
+  },
+  "spåra djur": {
+   "candidate": "themed-tracing",
+   "s": [
+    "spåra djur",
+    "spåra djur armband",
+    "spåra djur bok",
+    "djurhjältarna spåra",
+    "spåra vilda djur"
+   ]
+  },
+  "jul pyssel": {
+   "candidate": "themed-tracing",
+   "s": [
+    "jul pyssel",
+    "jul pyssel barn",
+    "julpyssel vuxna",
+    "julpyssel på engelska",
+    "julpyssel förskola",
+    "julpyssel vuxna papper",
+    "julpyssel med kottar",
+    "julpyssel kit",
+    "julpyssel att skriva ut gratis",
+    "julpyssel med papper"
+   ]
+  },
+  "jul pyssel skriva ut": {
+   "candidate": "themed-tracing",
+   "s": [
+    "pyssel jul skriva ut"
+   ]
+  },
+  "jul pyssel förskoleklass": {
+   "candidate": "themed-tracing",
+   "s": [
+    "pyssel förskoleklass jul"
+   ]
+  },
+  "höst pyssel": {
+   "candidate": "themed-tracing",
+   "s": [
+    "höstpyssel",
+    "höst pyssel barn",
+    "höst pyssel vuxna",
+    "höst pyssel förskola",
+    "höst pyssel fritids",
+    "höst pyssel löv",
+    "höst pyssel med löv",
+    "höst pyssel skola",
+    "höstpyssel små barn",
+    "pysselmorgon höst"
+   ]
+  },
+  "höst pyssel förskoleklass": {
+   "candidate": "themed-tracing",
+   "s": [
+    "pyssel förskoleklass höst"
+   ]
+  }
+ }
+}

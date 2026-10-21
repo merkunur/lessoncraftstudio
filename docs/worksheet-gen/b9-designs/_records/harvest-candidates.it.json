@@ -1,0 +1,559 @@
+{
+ "locale": "it",
+ "market": {
+  "hl": "it",
+  "gl": "it"
+ },
+ "generatedAt": "2026-10-21T21:47:25.784Z",
+ "seedFile": "docs/worksheet-gen/b9-designs/_records/candidate-seeds.json",
+ "requestCount": 98,
+ "errorCount": 0,
+ "errors": [],
+ "perCandidate": {
+  "picture-tracing": {
+   "heads": [
+    "ripassa il tratteggio",
+    "disegni da ripassare",
+    "ripassa il disegno",
+    "tratteggio",
+    "disegni tratteggiati"
+   ],
+   "requests": 35,
+   "productiveSeeds": 8,
+   "unique": 36,
+   "suggestions": [
+    "disegni con tratteggio da stampare",
+    "disegni da ripassare",
+    "disegni da ripassare e colorare",
+    "disegni da ripassare per bambini",
+    "disegni di natale da ripassare",
+    "disegni facili da ripassare",
+    "disegni tratteggiati",
+    "disegni tratteggiati da colorare",
+    "disegni tratteggiati da completare",
+    "disegni tratteggiati da ripassare",
+    "disegni tratteggiati da stampare",
+    "disegni tratteggiati pdf",
+    "disegni tratteggiati per bambini",
+    "disegni tratteggiati per bambini da stampare",
+    "disegni tratteggiati per bambini di 4 anni",
+    "disegni tratteggiati per bambini pdf",
+    "pregrafismo disegni tratteggiati da stampare",
+    "ripassa il tratteggio",
+    "ripassa il tratteggio e colora",
+    "schede tratteggio da stampare",
+    "scuola materna pregrafismo disegni tratteggiati da stampare",
+    "tecnica del tratteggio scuola primaria",
+    "tratteggio",
+    "tratteggio autocad",
+    "tratteggio bambini da stampare",
+    "tratteggio classe prima",
+    "tratteggio da stampare",
+    "tratteggio disegno",
+    "tratteggio disegno per bambini",
+    "tratteggio docfa",
+    "tratteggio in inglese",
+    "tratteggio incrociato",
+    "tratteggio legno autocad",
+    "tratteggio scuola primaria",
+    "tratteggio significato",
+    "tratteggio sinonimo"
+   ]
+  },
+  "trace-and-color": {
+   "heads": [
+    "ripassa e colora",
+    "ripassa il tratteggio e colora"
+   ],
+   "requests": 14,
+   "productiveSeeds": 2,
+   "unique": 5,
+   "suggestions": [
+    "ripassa e colora",
+    "ripassa i tratteggi e colora",
+    "ripassa il tratteggio e colora",
+    "ripassa le linee tratteggiate e colora",
+    "ripassa le tabelline e colora"
+   ]
+  },
+  "early-years-tracing": {
+   "heads": [
+    "pregrafismo",
+    "pregrafismo scuola dell'infanzia",
+    "pregrafismo 3 anni",
+    "motricità fine"
+   ],
+   "requests": 28,
+   "productiveSeeds": 16,
+   "unique": 80,
+   "suggestions": [
+    "attività motricità fine classe prima",
+    "attività motricità fine scuola primaria",
+    "attività pregrafismo scuola dell infanzia",
+    "attività pregrafismo scuola primaria",
+    "copertina pregrafismo scuola dell infanzia",
+    "esercizi motricità fine scuola primaria",
+    "esercizi pregrafismo 3 anni",
+    "libri pregrafismo 3 anni",
+    "motricità fine",
+    "motricità fine attività",
+    "motricità fine bambini",
+    "motricità fine classe prima",
+    "motricità fine classe seconda",
+    "motricità fine da stampare",
+    "motricità fine e globale",
+    "motricità fine e grossa",
+    "motricità fine e grosso motoria",
+    "motricità fine e grossolana",
+    "motricità fine esempi",
+    "motricità fine giochi",
+    "motricità fine pdf",
+    "motricità fine scheda didattica",
+    "motricità fine scuola primaria",
+    "obiettivi pregrafismo scuola primaria",
+    "percorsi pregrafismo scuola primaria",
+    "pregrafismo",
+    "pregrafismo 3 anni",
+    "pregrafismo 3 anni autunno",
+    "pregrafismo 3 anni da stampare",
+    "pregrafismo 3 anni inverno",
+    "pregrafismo 3 anni pdf",
+    "pregrafismo 3 anni primavera",
+    "pregrafismo 4 anni",
+    "pregrafismo 5 anni",
+    "pregrafismo autismo scuola primaria",
+    "pregrafismo autunno scuola primaria",
+    "pregrafismo classe prima",
+    "pregrafismo classe prima da stampare",
+    "pregrafismo classe prima italiano",
+    "pregrafismo classe prima matematica",
+    "pregrafismo classe prima pdf",
+    "pregrafismo classe prima quaderno a quadretti",
+    "pregrafismo classe prima quaderno a righe",
+    "pregrafismo classe prima scuola primaria",
+    "pregrafismo classe prima sostegno",
+    "pregrafismo classe prima sul quaderno",
+    "pregrafismo classe seconda",
+    "pregrafismo da stampare",
+    "pregrafismo da stampare alfabeto",
+    "pregrafismo da stampare e colorare",
+    "pregrafismo da stampare gratis",
+    "pregrafismo da stampare lettere",
+    "pregrafismo da stampare natale",
+    "pregrafismo da stampare numeri",
+    "pregrafismo da stampare pdf",
+    "pregrafismo da stampare primavera",
+    "pregrafismo da stampare vocali",
+    "pregrafismo infanzia 3 anni",
+    "pregrafismo inverno scuola dell infanzia",
+    "pregrafismo natale scuola dell infanzia",
+    "pregrafismo nella scuola dell infanzia",
+    "pregrafismo numeri",
+    "pregrafismo numeri da 1 a 10 pdf",
+    "pregrafismo numeri scuola primaria",
+    "pregrafismo pasqua scuola dell infanzia",
+    "pregrafismo prima elementare pdf",
+    "pregrafismo scuola dell infanzia",
+    "pregrafismo scuola dell infanzia 5 anni",
+    "pregrafismo scuola infanzia",
+    "pregrafismo scuola primaria",
+    "pregrafismo scuola primaria pdf",
+    "quaderno pregrafismo scuola dell infanzia",
+    "scheda didattica pregrafismo",
+    "schede di pregrafismo scuola dell infanzia da stampare",
+    "schede motricità fine da stampare pdf",
+    "schede motricità fine scuola primaria",
+    "schede pregrafismo 3 anni",
+    "schede pregrafismo scuola dell infanzia",
+    "schede pregrafismo scuola primaria",
+    "schede pregrafismo scuola primaria da stampare"
+   ]
+  },
+  "themed-tracing": {
+   "heads": [
+    "pregrafismo natale",
+    "pregrafismo animali",
+    "pregrafismo autunno"
+   ],
+   "requests": 21,
+   "productiveSeeds": 9,
+   "unique": 32,
+   "suggestions": [
+    "pregrafismo animali",
+    "pregrafismo animali autunno",
+    "pregrafismo animali della fattoria",
+    "pregrafismo animali in letargo",
+    "pregrafismo animali marini",
+    "pregrafismo autunno",
+    "pregrafismo autunno 3 anni",
+    "pregrafismo autunno 4 anni",
+    "pregrafismo autunno 5 anni",
+    "pregrafismo autunno classe prima",
+    "pregrafismo autunno da stampare",
+    "pregrafismo autunno fantavolando",
+    "pregrafismo autunno pianetabambini",
+    "pregrafismo autunno scuola infanzia",
+    "pregrafismo autunno scuola primaria",
+    "pregrafismo classe prima natale",
+    "pregrafismo natale",
+    "pregrafismo natale 3 anni",
+    "pregrafismo natale 4 anni",
+    "pregrafismo natale 5 anni",
+    "pregrafismo natale da stampare",
+    "pregrafismo natale fantavolando",
+    "pregrafismo natale infanzia",
+    "pregrafismo natale maestra mary",
+    "pregrafismo natale pdf",
+    "pregrafismo natale pianetabambini",
+    "schede pregrafismo animali",
+    "schede pregrafismo animali da stampare",
+    "schede pregrafismo animali del bosco",
+    "schede pregrafismo autunno classe prima",
+    "schede pregrafismo autunno da stampare",
+    "schede pregrafismo natale da stampare"
+   ]
+  }
+ },
+ "suggestions": {
+  "ripassa il tratteggio": {
+   "candidate": "picture-tracing",
+   "s": [
+    "ripassa il tratteggio",
+    "ripassa il tratteggio e colora"
+   ]
+  },
+  "disegni da ripassare": {
+   "candidate": "picture-tracing",
+   "s": [
+    "disegni da ripassare",
+    "disegni da ripassare per bambini",
+    "disegni da ripassare e colorare",
+    "disegni tratteggiati da ripassare",
+    "disegni facili da ripassare",
+    "disegni di natale da ripassare"
+   ]
+  },
+  "tratteggio": {
+   "candidate": "picture-tracing",
+   "s": [
+    "tratteggio",
+    "tratteggio in inglese",
+    "tratteggio disegno",
+    "tratteggio autocad",
+    "tratteggio significato",
+    "tratteggio docfa",
+    "tratteggio legno autocad",
+    "tratteggio incrociato",
+    "tratteggio disegno per bambini",
+    "tratteggio sinonimo"
+   ]
+  },
+  "tratteggio da stampare": {
+   "candidate": "picture-tracing",
+   "s": [
+    "tratteggio da stampare",
+    "schede tratteggio da stampare",
+    "tratteggio bambini da stampare",
+    "disegni con tratteggio da stampare"
+   ]
+  },
+  "tratteggio scuola primaria": {
+   "candidate": "picture-tracing",
+   "s": [
+    "tratteggio scuola primaria",
+    "tecnica del tratteggio scuola primaria"
+   ]
+  },
+  "tratteggio classe prima": {
+   "candidate": "picture-tracing",
+   "s": [
+    "tratteggio classe prima"
+   ]
+  },
+  "disegni tratteggiati": {
+   "candidate": "picture-tracing",
+   "s": [
+    "disegni tratteggiati per bambini",
+    "disegni tratteggiati per bambini pdf",
+    "disegni tratteggiati da stampare",
+    "disegni tratteggiati",
+    "disegni tratteggiati per bambini di 4 anni",
+    "disegni tratteggiati da completare",
+    "disegni tratteggiati per bambini da stampare",
+    "disegni tratteggiati pdf",
+    "disegni tratteggiati da ripassare",
+    "disegni tratteggiati da colorare"
+   ]
+  },
+  "disegni tratteggiati da stampare": {
+   "candidate": "picture-tracing",
+   "s": [
+    "disegni tratteggiati da stampare",
+    "pregrafismo disegni tratteggiati da stampare",
+    "disegni tratteggiati per bambini da stampare",
+    "scuola materna pregrafismo disegni tratteggiati da stampare"
+   ]
+  },
+  "ripassa e colora": {
+   "candidate": "trace-and-color",
+   "s": [
+    "ripassa e colora",
+    "ripassa i tratteggi e colora",
+    "ripassa le tabelline e colora",
+    "ripassa le linee tratteggiate e colora"
+   ]
+  },
+  "ripassa il tratteggio e colora": {
+   "candidate": "trace-and-color",
+   "s": [
+    "ripassa il tratteggio e colora"
+   ]
+  },
+  "pregrafismo": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "pregrafismo",
+    "pregrafismo 5 anni",
+    "pregrafismo da stampare",
+    "pregrafismo scuola infanzia",
+    "pregrafismo 4 anni",
+    "pregrafismo prima elementare pdf",
+    "pregrafismo classe prima",
+    "pregrafismo numeri",
+    "pregrafismo numeri da 1 a 10 pdf",
+    "pregrafismo 3 anni"
+   ]
+  },
+  "pregrafismo scheda didattica": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "scheda didattica pregrafismo"
+   ]
+  },
+  "pregrafismo da stampare": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "pregrafismo da stampare",
+    "pregrafismo da stampare lettere",
+    "pregrafismo da stampare pdf",
+    "pregrafismo da stampare numeri",
+    "pregrafismo da stampare e colorare",
+    "pregrafismo da stampare gratis",
+    "pregrafismo da stampare natale",
+    "pregrafismo da stampare vocali",
+    "pregrafismo da stampare alfabeto",
+    "pregrafismo da stampare primavera"
+   ]
+  },
+  "pregrafismo scuola primaria": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "pregrafismo scuola primaria",
+    "pregrafismo scuola primaria pdf",
+    "schede pregrafismo scuola primaria",
+    "pregrafismo autismo scuola primaria",
+    "attività pregrafismo scuola primaria",
+    "percorsi pregrafismo scuola primaria",
+    "pregrafismo autunno scuola primaria",
+    "schede pregrafismo scuola primaria da stampare",
+    "obiettivi pregrafismo scuola primaria",
+    "pregrafismo numeri scuola primaria"
+   ]
+  },
+  "pregrafismo classe prima": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "pregrafismo classe prima",
+    "pregrafismo classe prima italiano",
+    "pregrafismo classe prima matematica",
+    "pregrafismo classe prima da stampare",
+    "pregrafismo classe prima sul quaderno",
+    "pregrafismo classe prima quaderno a righe",
+    "pregrafismo classe prima scuola primaria",
+    "pregrafismo classe prima quaderno a quadretti",
+    "pregrafismo classe prima sostegno",
+    "pregrafismo classe prima pdf"
+   ]
+  },
+  "pregrafismo classe seconda": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "pregrafismo classe seconda"
+   ]
+  },
+  "pregrafismo scuola dell'infanzia": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "pregrafismo scuola dell infanzia",
+    "pregrafismo scuola dell infanzia 5 anni",
+    "pregrafismo pasqua scuola dell infanzia",
+    "quaderno pregrafismo scuola dell infanzia",
+    "pregrafismo natale scuola dell infanzia",
+    "copertina pregrafismo scuola dell infanzia",
+    "pregrafismo inverno scuola dell infanzia",
+    "schede pregrafismo scuola dell infanzia",
+    "attività pregrafismo scuola dell infanzia",
+    "pregrafismo nella scuola dell infanzia"
+   ]
+  },
+  "pregrafismo scuola dell'infanzia da stampare": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "schede di pregrafismo scuola dell infanzia da stampare"
+   ]
+  },
+  "pregrafismo 3 anni": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "pregrafismo 3 anni",
+    "pregrafismo 3 anni pdf",
+    "pregrafismo 3 anni da stampare",
+    "pregrafismo 3 anni inverno",
+    "pregrafismo 3 anni autunno",
+    "pregrafismo 3 anni primavera",
+    "libri pregrafismo 3 anni",
+    "schede pregrafismo 3 anni",
+    "esercizi pregrafismo 3 anni",
+    "pregrafismo infanzia 3 anni"
+   ]
+  },
+  "pregrafismo 3 anni da stampare": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "pregrafismo 3 anni da stampare"
+   ]
+  },
+  "motricità fine": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "motricità fine",
+    "motricità fine e grossa",
+    "motricità fine bambini",
+    "motricità fine e grossolana",
+    "motricità fine attività",
+    "motricità fine e globale",
+    "motricità fine giochi",
+    "motricità fine e grosso motoria",
+    "motricità fine pdf",
+    "motricità fine esempi"
+   ]
+  },
+  "motricità fine scheda didattica": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "motricità fine scheda didattica"
+   ]
+  },
+  "motricità fine da stampare": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "motricità fine da stampare",
+    "schede motricità fine da stampare pdf"
+   ]
+  },
+  "motricità fine scuola primaria": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "motricità fine scuola primaria",
+    "attività motricità fine scuola primaria",
+    "esercizi motricità fine scuola primaria",
+    "schede motricità fine scuola primaria"
+   ]
+  },
+  "motricità fine classe prima": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "motricità fine classe prima",
+    "attività motricità fine classe prima"
+   ]
+  },
+  "motricità fine classe seconda": {
+   "candidate": "early-years-tracing",
+   "s": [
+    "motricità fine classe seconda"
+   ]
+  },
+  "pregrafismo natale": {
+   "candidate": "themed-tracing",
+   "s": [
+    "pregrafismo natale",
+    "pregrafismo natale infanzia",
+    "pregrafismo natale fantavolando",
+    "pregrafismo natale 5 anni",
+    "pregrafismo natale 4 anni",
+    "pregrafismo natale pianetabambini",
+    "pregrafismo natale 3 anni",
+    "pregrafismo natale maestra mary",
+    "pregrafismo natale pdf",
+    "pregrafismo natale da stampare"
+   ]
+  },
+  "pregrafismo natale da stampare": {
+   "candidate": "themed-tracing",
+   "s": [
+    "pregrafismo natale da stampare",
+    "schede pregrafismo natale da stampare"
+   ]
+  },
+  "pregrafismo natale classe prima": {
+   "candidate": "themed-tracing",
+   "s": [
+    "pregrafismo classe prima natale"
+   ]
+  },
+  "pregrafismo animali": {
+   "candidate": "themed-tracing",
+   "s": [
+    "pregrafismo animali",
+    "pregrafismo animali in letargo",
+    "pregrafismo animali della fattoria",
+    "pregrafismo animali autunno",
+    "pregrafismo animali marini",
+    "schede pregrafismo animali",
+    "schede pregrafismo animali da stampare",
+    "schede pregrafismo animali del bosco"
+   ]
+  },
+  "pregrafismo animali da stampare": {
+   "candidate": "themed-tracing",
+   "s": [
+    "schede pregrafismo animali da stampare"
+   ]
+  },
+  "pregrafismo autunno": {
+   "candidate": "themed-tracing",
+   "s": [
+    "pregrafismo autunno",
+    "pregrafismo autunno classe prima",
+    "pregrafismo autunno fantavolando",
+    "pregrafismo autunno 5 anni",
+    "pregrafismo autunno 4 anni",
+    "pregrafismo autunno scuola infanzia",
+    "pregrafismo autunno 3 anni",
+    "pregrafismo autunno scuola primaria",
+    "pregrafismo autunno da stampare",
+    "pregrafismo autunno pianetabambini"
+   ]
+  },
+  "pregrafismo autunno da stampare": {
+   "candidate": "themed-tracing",
+   "s": [
+    "pregrafismo autunno da stampare",
+    "schede pregrafismo autunno da stampare"
+   ]
+  },
+  "pregrafismo autunno scuola primaria": {
+   "candidate": "themed-tracing",
+   "s": [
+    "pregrafismo autunno scuola primaria"
+   ]
+  },
+  "pregrafismo autunno classe prima": {
+   "candidate": "themed-tracing",
+   "s": [
+    "pregrafismo autunno classe prima",
+    "schede pregrafismo autunno classe prima"
+   ]
+  }
+ }
+}

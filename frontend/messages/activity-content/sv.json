@@ -3025,6 +3025,29 @@
         "Barnet skiljer viktiga detaljer från detaljer som inte för berättelsen framåt",
         "Barnet återberättar med först, sedan, efter det och till sist"
       ]
+    },
+    "story-spine.role.rl-k-3": {
+      "about": [
+        "En berättelse är en bok som går sönder och blir hel igen. Barnet sätter tre lappar – BÖRJAN, PROBLEM och LÖSNING – på de lösa sidorna i en kort bildberättelse och trycker på ”Läs boken”: boken läser sig själv. På början-sidan vajar en grön flagga, problemsidan spricker (”Vinden blåste ner boet!”), och lösningssidan skickar ett plåster som lagar sprickan. En interaktiv läsövning som spelas i webbläsaren.",
+        "Ett plåster fastnar bara på en spricka som lösningen verkligen lagar. En lugn sida på problemets plats kan inte spricka; en sida som gör något annat bättre skickar ett plåster som lossnar och singlar ner; en sida där ingenting har ändrats skickar ingenting alls. I Hitta problemet väljer barnet mittensidan, i Hitta lösningen den sista sidan, och i Para ihop meningarna hamnar varje mening under sin bild. Varje lagad bok ställs i hyllan, och berättarbandet återberättar: Först, Sedan, Till sist.",
+        "Övningen följer Lgr22 i svenska: att känna igen personer, plats och händelser i en berättelse. Nio korta berättelser, varje sida gjord av bilder ur bildbiblioteket. Utan tidspress och utan poäng."
+      ],
+      "practices": [
+        "Att skilja på början, problem och lösning i en berättelse",
+        "Att hitta sidan där något går fel",
+        "Att välja sidan som löser just det problemet",
+        "Att para ihop meningar med rätt bilder"
+      ],
+      "howToPlay": [
+        "Sätt lapparna BÖRJAN, PROBLEM och LÖSNING på sidorna, eller lägg en sida på den tomma platsen.",
+        "Tryck på ”Läs boken”.",
+        "Om läsningen stannar, titta på sidan där den stannar och byt ut den."
+      ],
+      "learningGoals": [
+        "Barnet namnger början, problem och lösning i en kort berättelse",
+        "Barnet ser att lösningen måste passa problemet",
+        "Barnet återberättar en berättelse med först, sedan och till sist"
+      ]
     }
   }
 }

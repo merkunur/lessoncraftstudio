@@ -3724,25 +3724,25 @@
     },
     "story-spine.role.rl-k-3": {
       "about": [
-        "Nella bottega di storie di Dot il drago ogni racconto illustrato si legge in tre parti: l’inizio che presenta i personaggi, il problema che scombina tutto e la soluzione che rimette le cose a posto.",
-        "I bambini leggono le didascalie — con l’aiuto del pulsante 🔊 che le legge ad alta voce — e toccano la parte giusta, imparando a riconoscere la struttura di una storia.",
-        "L’attività è allineata alle Indicazioni nazionali per la classe prima ed è senza registrazione, senza timer e senza punteggio."
+        "Una storia è un libro che si rompe e si aggiusta. Il bambino mette tre cartellini – INIZIO, PROBLEMA e SOLUZIONE – sulle pagine sparse di una breve storia illustrata e preme «Leggi il libro»: il libro si legge da solo. Sulla pagina dell’inizio sventola una bandierina verde, la pagina del problema si strappa («Il vento ha fatto cadere il nido!») e la pagina della soluzione manda un cerotto che chiude lo strappo. È un’attività interattiva di lettura che si gioca nel browser.",
+        "Un cerotto tiene solo su uno strappo che la sua soluzione aggiusta davvero. Una pagina tranquilla al posto del problema non può strapparsi; una pagina che migliora un’altra cosa manda un cerotto che si stacca e cade; una pagina in cui non è cambiato niente non manda niente. In Trova il problema il bambino sceglie la pagina di mezzo, in Trova la soluzione l’ultima, e in Abbina le frasi ogni frase va sotto il suo disegno. Ogni libro aggiustato va sullo scaffale, e il nastro del racconto lo riracconta: Prima, Poi, Alla fine.",
+        "L’attività segue le Indicazioni nazionali per l’italiano: riconoscere i personaggi, il luogo e i fatti di una storia. Nove storie brevi, ogni pagina fatta con disegni della biblioteca di immagini. Senza tempo e senza punteggio."
       ],
       "practices": [
-        "riconoscere l’inizio di una storia",
-        "individuare il problema di un racconto",
-        "capire la soluzione della vicenda",
-        "cogliere la struttura di una storia"
+        "Distinguere l’inizio, il problema e la soluzione di una storia",
+        "Trovare la pagina in cui qualcosa va storto",
+        "Scegliere la pagina che risolve proprio quel problema",
+        "Abbinare le frasi ai disegni giusti"
       ],
       "howToPlay": [
-        "Leggi il racconto illustrato in tre parti e ascolta le didascalie con il pulsante 🔊.",
-        "Pensa a quale parte è l’inizio, quale il problema e quale la soluzione.",
-        "Tocca la parte che corrisponde alla domanda."
+        "Metti i cartellini INIZIO, PROBLEMA e SOLUZIONE sulle pagine, oppure metti una pagina nel posto vuoto.",
+        "Premi «Leggi il libro».",
+        "Se la lettura si ferma, guarda la pagina su cui si è fermata e cambiala."
       ],
       "learningGoals": [
-        "Capire com’è fatta una storia: inizio, problema e soluzione.",
-        "Sviluppare la prima comprensione del testo narrativo.",
-        "Rafforzare la lettura autonoma con il supporto dell’ascolto."
+        "Il bambino nomina l’inizio, il problema e la soluzione di una breve storia",
+        "Il bambino capisce che la soluzione deve rispondere al problema",
+        "Il bambino riracconta una storia con prima, poi e alla fine"
       ]
     },
     "pearl-opinion-page.back-it-up.ri-2-8": {

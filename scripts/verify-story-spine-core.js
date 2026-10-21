@@ -27,6 +27,11 @@ const VARIETY_MIN = 7;
 const REPO = path.join(__dirname, '..');
 const FORBIDDEN_KEYS = ['isCorrect', 'correct', 'correctIndex', 'answer', 'answerIndex'];
 const ROLES = ['setting', 'problem', 'solution'];
+/* Row 65 rebuild (2026-10-21): story-spine.role.rl-k-3 runs THE BOOK THAT CRACKS AND MENDS on its own story-spine-book-core.js; its params are
+   a mirror, no longer the stories/rounds this gate reads. The old story-spine-core.js is untouched; the row's gates are
+   verify-story-spine-book-core.js, mutate-story-spine-book.js and local-test-story-spine.js. */
+{ const row = JSON.parse(fs.readFileSync(path.join(REPO, 'mini tools', 'story-spine-activities.json'), 'utf8'))[0];
+  if (row.tool === 'story-spine-activity' && !(row.params && row.params.rounds)) { console.log('verify-story-spine-core: the row runs the book that cracks and mends (story-spine-book-core.js) — see verify-story-spine-book-core.js. Nothing to check here.'); process.exit(0); } }
 
 const coreSrc = fs.readFileSync(path.join(REPO, 'mini tools', 'story-spine-core.js'), 'utf8');
 const win = {};

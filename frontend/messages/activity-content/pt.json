@@ -3715,25 +3715,25 @@
     },
     "story-spine.role.rl-k-3": {
       "about": [
-        "O Fabo é um draguinho que adora contar histórias na sua oficina. A cada rodada, ele mostra uma pequena história em três ceninhas embaralhadas — como a luva perdida do coelho, a cenoura da ratinha e o piquenique na chuva. O seu papel é ler as ceninhas e tocar na parte certa da história.",
-        "Cada história tem três partes: o começo, que apresenta quem está na história e onde tudo acontece; o problema, quando algo dá errado; e a solução, que mostra como tudo se resolve no fim. Como as ceninhas aparecem embaralhadas, a criança precisa ler de verdade para descobrir qual é cada parte, em vez de só olhar a ordem.",
-        "A oficina não pede cadastro, não marca tempo e não dá pontos — só o prazer de ler junto. O botão 🔊 lê as ceninhas em voz alta para ajudar quem ainda está aprendendo a decodificar. A atividade está alinhada à BNCC, no campo da compreensão de textos literários e da estrutura da narrativa, nos primeiros anos."
+        "Uma história é um livro que se rasga e depois é consertado. A criança coloca três etiquetas – COMEÇO, PROBLEMA e SOLUÇÃO – nas páginas soltas de uma pequena história com figuras e aperta «Leia o livro»: o livro se lê sozinho. Na página do começo tremula uma bandeirinha verde, a página do problema racha («O vento derrubou o ninho!») e a página da solução manda um curativo que fecha a rachadura. É uma atividade interativa de leitura que funciona no navegador.",
+        "Um curativo só gruda numa rachadura que a solução realmente conserta. Uma página calma no lugar do problema não racha; uma página que melhora outra coisa manda um curativo que descola e cai; uma página em que nada mudou não manda nada. Em Encontre o problema a criança escolhe a página do meio, em Encontre a solução a última, e em Combine as frases cada frase vai embaixo da sua figura. Cada livro consertado vai para a estante, e a fita da história reconta tudo: Primeiro, Depois, No final.",
+        "A atividade está alinhada à BNCC: identificar os personagens, o lugar e os fatos de uma história. Nove histórias curtas, cada página feita com figuras da biblioteca de imagens. Sem tempo e sem pontos."
       ],
       "practices": [
-        "Ler cada ceninha com atenção e ligar o texto à imagem.",
-        "Reconhecer o começo, o problema e a solução de uma história.",
-        "Recontar a história na ordem certa, mesmo vendo as partes embaralhadas.",
-        "Ouvir as cenas em voz alta com o botão 🔊 para apoiar a leitura."
+        "Diferenciar o começo, o problema e a solução de uma história",
+        "Encontrar a página em que algo dá errado",
+        "Escolher a página que resolve exatamente esse problema",
+        "Combinar frases com as figuras certas"
       ],
       "howToPlay": [
-        "Olhe as três ceninhas embaralhadas e leia a legenda de cada uma.",
-        "Leia a pergunta do Fabo e descubra qual parte ele está pedindo.",
-        "Toque na cena certa; se precisar, use o 🔊 para ouvir a história de novo."
+        "Coloque as etiquetas COMEÇO, PROBLEMA e SOLUÇÃO nas páginas, ou coloque uma página no lugar vazio.",
+        "Aperte «Leia o livro».",
+        "Se a leitura parar, olhe a página em que ela parou e troque-a."
       ],
       "learningGoals": [
-        "Eu consigo achar o começo de uma história.",
-        "Eu sei mostrar o problema e a solução de uma história.",
-        "Eu leio as partes de uma história e as coloco na ordem certa."
+        "A criança nomeia o começo, o problema e a solução de uma história curta",
+        "A criança percebe que a solução tem de responder ao problema",
+        "A criança reconta uma história com primeiro, depois e no final"
       ]
     },
     "pearl-opinion-page.back-it-up.ri-2-8": {

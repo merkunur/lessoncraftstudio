@@ -3995,25 +3995,25 @@
     },
     "story-spine.role.rl-k-3": {
       "about": [
-        "Dot the dragon shares a short three-picture story — The Lost Mitten, The Snatched Carrot, The Rainy Picnic — and the child taps which part is the START, the TROUBLE, and the FIX. It's an interactive Kindergarten reading activity that runs in the browser with no account.",
-        "The skill is recognizing the shape every story shares — a setting, a problem, and a solution — by matching each picture to its job in the tale. Because the child names the role rather than just retelling events, they begin to see story structure as a pattern they can use again and again. The same three roles appear across all three stories, so the idea transfers and is not tied to one plot.",
-        "It is aligned to Common Core RL.K.3 — identifying characters, settings, and major events in a story. No timer, no score — just calm, playful practice."
+        "A story is a book that breaks and gets mended. The child puts three tabs – START, TROUBLE and FIX – on the loose pages of a short picture story and presses the gold Read the book button: the book reads itself. The start page plants a green pennant, the trouble page cracks open (“The wind blew the nest down!”), and the fix page sends a bandage across that seals the crack. It is an interactive Kindergarten reading activity that plays in the browser.",
+        "A bandage only seals a crack its fix really mends. A calm page put in the trouble place cannot crack; a page that makes something else better sends a bandage that peels off and flutters down; a page where nothing has changed sends nothing at all. In Find the trouble the child chooses the middle page, in Find the fix the end page, and in Match the sentences each sentence goes under its picture. Every mended book stands on the shelf, and the retell ribbon tells it back: First, Then, At the end.",
+        "It is aligned to Common Core RL.K.3: identifying the characters, the setting and the major events of a story. Nine short stories, every page made of library pictures. No timer and no score."
       ],
       "practices": [
-        "Identify the setting, the problem, and the solution in a short story",
-        "Match each picture to its job in the tale — start, trouble, or fix",
-        "Recognize the same story shape across different stories",
-        "Retell the major events of a story in order"
+        "Telling the start, the trouble and the fix of a story apart",
+        "Finding the page where something goes wrong",
+        "Choosing the page that really fixes that trouble",
+        "Matching sentences to the pictures they tell"
       ],
       "howToPlay": [
-        "Read or listen to Dot's three-picture story.",
-        "Tap which part is the START, the TROUBLE, or the FIX the question asks for, then press Check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Put the START, TROUBLE and FIX tabs on the pages, or put a page in the empty place.",
+        "Press Read the book.",
+        "If the reading stops, look at the page it stopped on and change it."
       ],
       "learningGoals": [
-        "Identify the setting, problem, and solution and the major events of a story — the focus of Common Core RL.K.3.",
-        "Understand that stories follow a shape: a beginning, a problem, and a way it gets better.",
-        "Build the story-structure sense that comprehension and retelling depend on."
+        "The child names the start, the trouble and the fix of a short story",
+        "The child sees that the fix has to answer the trouble",
+        "The child retells a story with first, then and at the end"
       ]
     },
     "stretch-giraffe.long-short-vowel.rf-1-2-a": {

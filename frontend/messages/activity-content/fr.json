@@ -562,28 +562,25 @@
     },
     "story-spine.role.rl-k-3": {
       "about": [
-        "Dot le dragon présente une histoire toute simple en trois images, et chaque image se lit à voix haute quand on appuie sur le bouton 🔊. Votre enfant regarde, écoute, puis tape l'image qui est le début de l'histoire, celle qui montre le problème, et celle qui apporte la solution.",
-        "En jouant, votre enfant découvre la structure d'un récit : une histoire commence quelque part, quelque chose ne va pas, puis tout finit par s'arranger. C'est une belle façon de comprendre comment une histoire est construite. Comme les images et la voix portent tout le sens, savoir lire n'est pas nécessaire : c'est un jeu pensé pour les pré-lecteurs de grande section.",
-        "Il n'y a ni chronomètre ni points : votre enfant avance à son rythme, sans aucune pression. Le jeu se joue directement dans le navigateur sans rien installer, et s'appuie sur les compétences des programmes officiels de la maternelle."
+        "Une histoire est un livre qui se déchire et se répare. L’enfant pose trois étiquettes – DÉBUT, PROBLÈME et SOLUTION – sur les pages en vrac d’une courte histoire en images et appuie sur « Lis le livre » : le livre se lit tout seul. Sur la page du début flotte un fanion vert, la page du problème se déchire (« Le vent a fait tomber le nid ! »), et la page de la solution envoie un pansement qui referme la déchirure. C’est une activité de lecture interactive qui se joue dans le navigateur.",
+        "Un pansement ne tient que sur une déchirure que sa solution répare vraiment. Une page calme à la place du problème ne peut pas se déchirer ; une page qui arrange autre chose envoie un pansement qui se décolle et tombe ; une page où rien n’a changé n’envoie rien du tout. Dans Trouve le problème, l’enfant choisit la page du milieu, dans Trouve la solution la dernière, et dans Associe les phrases chaque phrase va sous son image. Chaque livre réparé rejoint l’étagère, et le ruban du récit raconte l’histoire à nouveau : D’abord, Ensuite, À la fin.",
+        "L’activité suit les programmes de l’Éducation nationale : repérer les personnages, le lieu et les événements d’une histoire. Neuf courtes histoires, chaque page faite d’images de la bibliothèque d’images. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Repérer le début d'une histoire.",
-        "Repérer le problème d'une histoire.",
-        "Repérer la solution d'une histoire.",
-        "Découvrir comment un récit est construit.",
-        "Écouter un texte lu et en comprendre le sens."
+        "Distinguer le début, le problème et la solution d’une histoire",
+        "Trouver la page où quelque chose ne va pas",
+        "Choisir la page qui règle vraiment ce problème",
+        "Associer des phrases aux bonnes images"
       ],
       "howToPlay": [
-        "Écoute la petite histoire de Dot, image après image.",
-        "Appuie sur le bouton 🔊 pour réécouter quand tu veux.",
-        "Tape l'image qui est le début de l'histoire.",
-        "Trouve ensuite le problème, puis la solution."
+        "Pose les étiquettes DÉBUT, PROBLÈME et SOLUTION sur les pages, ou mets une page à la place vide.",
+        "Appuie sur « Lis le livre ».",
+        "Si la lecture s’arrête, regarde la page où elle s’est arrêtée et change-la."
       ],
       "learningGoals": [
-        "Votre enfant découvre la structure d'un récit.",
-        "Votre enfant repère le début, le problème et la solution.",
-        "Votre enfant comprend comment une histoire est construite.",
-        "Votre enfant écoute un texte lu et en saisit le sens."
+        "L’enfant nomme le début, le problème et la solution d’une courte histoire",
+        "L’enfant comprend que la solution doit répondre au problème",
+        "L’enfant raconte à nouveau une histoire avec d’abord, ensuite et à la fin"
       ]
     },
     "nila-pond.main-idea-net.ri-k-2": {

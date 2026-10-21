@@ -1,290 +1,573 @@
 /* =====================================================================
-   DOT'S STORY SPINE — ACTIVITY SKIN  (story-spine-activity.js)
+   story-spine-activity.js — ACTIVITY #65 of the one-by-one rebuild:
+   "Dot's Story Spine" → THE BOOK THAT CRACKS AND MENDS (RL.K.3, 11 locales).
+   Design sheet: docs/activities-rebuild/designs/065-story-spine.md
    ---------------------------------------------------------------------
-   RL.K.3 · story-grammar role-typing (setting/problem/solution) — CLARITY-
-   FIRST redesign of #62. The lcs-shell skin over story-spine-core.js.
-   answerType:'state'. EN-ONLY pilot.
+   THE INVENTION: a story is a book that breaks and gets mended. The
+   child names the parts (START / TROUBLE / FIX tabs on loose pages),
+   chooses the middle page, chooses the end page, or lays the sentences
+   under the pictures — and presses the gold stud. The book reads itself:
+   the start page plants a green pennant, the trouble page CRACKS with a
+   coral zigzag (its thing gets a coral ring), and the fix page sends a
+   bandage across that seals the crack (the ring turns teal). A calm page
+   cannot crack; a page that makes something else better sends a bandage
+   that peels off and flutters down; a page where nothing changed sends
+   nothing. A mended book closes and stands on the shelf.
 
-   Dot the dragon shows a 3-panel CAPTIONED picture-story (reusing the #58
-   captioned-strip + fixed glyphs). The THREE panels are the tap targets; each
-   round asks for one narrative JOB ("Which part is THE START / THE TROUBLE /
-   THE FIX?") and the child taps the matching panel. The question flows through
-   the SHELL prompt banner. A correct tap → the panel glows + Dot wiggles
-   (resolve; shell Check hidden until `.lcs-app.dot-resolved`). A wrong tap →
-   a warm causal nudge, no advance. 0 lines to any core / lcs-shell / game-shell.
+   ACTIVITY LAYER ONLY: the model is story-spine-book-core.js; lcs-shell.js
+   and the old story-spine-core.js are untouched (the shell's Check is
+   hidden and pressed by this activity on success). Test seams:
+   window.StorySpineActivity.st / ._order / ._pool / .FAST.
    ===================================================================== */
-(function (global) {
-  'use strict';
+'use strict';
 
-  var Core = global.StorySpineCore;
-  var LANG = 'en';
+var StorySpineActivity = {
+  id: 'story-spine',
+  apparatusClasses: ['ssb-'],
 
-  var L = {
-    en: {
-      win: 'Yes! {note}', winNote: 'You found that part of the story!',
-      nSetting: 'The start is where & who the story begins with.',
-      nProblem: 'The trouble is the part where something goes wrong.',
-      nSolution: 'The fix is how the trouble gets better at the end.',
-      hear: '🔊 Hear the story'
-    },
-    de: {
-      win: 'Ja! {note}', winNote: 'Du hast diesen Teil der Geschichte gefunden!',
-      nSetting: 'Der Anfang zeigt, wer dabei ist und wo alles beginnt.',
-      nProblem: 'Das Problem zeigt, was schiefgeht.',
-      nSolution: 'Die Lösung zeigt, wie alles wieder gut wird.',
-      hear: '🔊 Geschichte vorlesen'
-    },
-    fr: {
-      win: 'Oui ! {note}', winNote: 'Tu as trouvé cette partie de l’histoire !',
-      nSetting: 'Le début, c’est où et avec qui l’histoire commence.',
-      nProblem: 'Le problème, c’est le moment où quelque chose ne va pas.',
-      nSolution: 'La solution, c’est comment le problème s’arrange à la fin.',
-      hear: '🔊 Écouter l’histoire'
-    },
-    es: {
-      win: '¡Sí! {note}', winNote: '¡Encontraste esa parte del cuento!',
-      nSetting: 'El inicio nos dice quién es y dónde está, sin problemas todavía.',
-      nProblem: 'El problema es cuando algo sale mal en el cuento.',
-      nSolution: 'La solución es cómo se arregla el problema.',
-      hear: '🔊 Escuchar el cuento'
-    },
-    /* pt-BR. §A.13.54: win/nudge agreement anchored on «a parte / a história» (fixed
-       feminine) — invariant across all stories. você-form; 🔊 Ouvir. */
-    pt: {
-      win: 'Isso! {note}', winNote: 'Você achou essa parte da história!',
-      nSetting: 'O começo mostra quem está na história e onde tudo começa.',
-      nProblem: 'O problema é a parte em que algo dá errado.',
-      nSolution: 'A solução é como o problema se resolve no fim.',
-      hear: '🔊 Ouvir a história'
-    },
-    /* it. §A.13.54: win/winNote agreement anchored on «quella parte / la storia» (fixed
-       feminine) — invariant across all stories; win «Sì!» never genders the child (no
-       «Bravo/Brava»). ⚠ 100% apostrophe-free JS (nudges reword «l'inizio»→«la parte
-       iniziale», «c'è»→«chi partecipa»). 🔊 Ascolta. */
-    it: {
-      win: 'Sì! {note}', winNote: 'Hai trovato quella parte della storia!',
-      nSetting: 'La parte iniziale mostra chi partecipa e dove comincia la storia.',
-      nProblem: 'Il problema è quando qualcosa non va.',
-      nSolution: 'La soluzione mostra come il problema si risolve alla fine.',
-      hear: '🔊 Ascolta la storia'
-    },
-    nl: {
-      win: 'Ja! {note}', winNote: 'Je hebt dat deel van het verhaal gevonden!',
-      nSetting: 'Het begin laat zien wie erbij is en waar alles begint.',
-      nProblem: 'Het probleem is het deel waar iets misgaat.',
-      nSolution: 'De oplossing laat zien hoe alles weer goed komt.',
-      hear: '🔊 Verhaal voorlezen'
+  strings: {
+    title:        {en:"Dot's Story Spine",de:'Dots Geschichten-Werkstatt',nl:'De verhalenwerkplaats van Dot',da:'Dots fortælleværksted',sv:'Dots berättelseverkstad',no:'Dots fortellerverksted',es:'El taller de cuentos de Dot',it:'La bottega delle storie di Dot',pt:'A oficina de histórias do Fabo',fr:'L’atelier des histoires de Dot',fi:'Dotin tarinapaja'},
+    instrName:    {en:'Put START, TROUBLE and FIX on the pages, then read the book.',de:'Leg ANFANG, PROBLEM und LÖSUNG auf die Seiten, dann lies das Buch.',nl:'Leg BEGIN, PROBLEEM en OPLOSSING op de bladzijden en lees dan het boek.',da:'Sæt BEGYNDELSE, PROBLEM og LØSNING på siderne, og læs så bogen.',sv:'Sätt BÖRJAN, PROBLEM och LÖSNING på sidorna och läs sedan boken.',no:'Sett BEGYNNELSE, PROBLEM og LØSNING på sidene, og les så boka.',es:'Pon INICIO, PROBLEMA y SOLUCIÓN en las páginas y luego lee el libro.',it:'Metti INIZIO, PROBLEMA e SOLUZIONE sulle pagine, poi leggi il libro.',pt:'Coloque COMEÇO, PROBLEMA e SOLUÇÃO nas páginas e depois leia o livro.',fr:'Place DÉBUT, PROBLÈME et SOLUTION sur les pages, puis lis le livre.',fi:'Laita ALKU, ONGELMA ja RATKAISU sivuille ja lue sitten kirja.'},
+    instrTrouble: {en:'What went wrong? Put the trouble page in the middle.',de:'Was ist schiefgegangen? Leg die Problem-Seite in die Mitte.',nl:'Wat ging er mis? Leg de probleembladzijde in het midden.',da:'Hvad gik galt? Læg problemsiden i midten.',sv:'Vad gick fel? Lägg problemsidan i mitten.',no:'Hva gikk galt? Legg problemsiden i midten.',es:'¿Qué salió mal? Pon la página del problema en medio.',it:'Che cosa è andato storto? Metti la pagina del problema nel mezzo.',pt:'O que deu errado? Coloque a página do problema no meio.',fr:'Qu’est-ce qui ne va pas ? Mets la page du problème au milieu.',fi:'Mikä meni vikaan? Laita ongelmasivu keskelle.'},
+    instrFix:     {en:'What fixed it? Put the fix page at the end.',de:'Was hat geholfen? Leg die Lösungs-Seite ans Ende.',nl:'Wat loste het op? Leg de oplossingsbladzijde achteraan.',da:'Hvad hjalp? Læg løsningssiden til sidst.',sv:'Vad hjälpte? Lägg lösningssidan sist.',no:'Hva hjalp? Legg løsningssiden til slutt.',es:'¿Qué lo arregló? Pon la página de la solución al final.',it:'Che cosa ha sistemato tutto? Metti la pagina della soluzione alla fine.',pt:'O que resolveu? Coloque a página da solução no final.',fr:'Qu’est-ce qui a tout arrangé ? Mets la page de la solution à la fin.',fi:'Mikä auttoi? Laita ratkaisusivu loppuun.'},
+    instrMatch:   {en:'Put each sentence under its picture.',de:'Leg jeden Satz unter sein Bild.',nl:'Leg elke zin onder zijn plaatje.',da:'Læg hver sætning under sit billede.',sv:'Lägg varje mening under sin bild.',no:'Legg hver setning under bildet sitt.',es:'Pon cada oración debajo de su dibujo.',it:'Metti ogni frase sotto il suo disegno.',pt:'Coloque cada frase embaixo da sua figura.',fr:'Place chaque phrase sous son image.',fi:'Laita jokainen lause kuvansa alle.'},
+    read:         {en:'Read the book',de:'Lies das Buch',nl:'Lees het boek',da:'Læs bogen',sv:'Läs boken',no:'Les boka',es:'Lee el libro',it:'Leggi il libro',pt:'Leia o livro',fr:'Lis le livre',fi:'Lue kirja'},
+    tabStart:     {en:'Start',de:'Anfang',nl:'Begin',da:'Begyndelse',sv:'Början',no:'Begynnelse',es:'Inicio',it:'Inizio',pt:'Começo',fr:'Début',fi:'Alku'},
+    tabTrouble:   {en:'Trouble',de:'Problem',nl:'Probleem',da:'Problem',sv:'Problem',no:'Problem',es:'Problema',it:'Problema',pt:'Problema',fr:'Problème',fi:'Ongelma'},
+    tabFix:       {en:'Fix',de:'Lösung',nl:'Oplossing',da:'Løsning',sv:'Lösning',no:'Løsning',es:'Solución',it:'Soluzione',pt:'Solução',fr:'Solution',fi:'Ratkaisu'},
+    hintTabs:     {en:'Put a tab on every page.',de:'Leg auf jede Seite ein Kärtchen.',nl:'Leg op elke bladzijde een kaartje.',da:'Sæt et mærke på hver side.',sv:'Sätt en lapp på varje sida.',no:'Sett en lapp på hver side.',es:'Pon una etiqueta en cada página.',it:'Metti un cartellino su ogni pagina.',pt:'Coloque uma etiqueta em cada página.',fr:'Mets une étiquette sur chaque page.',fi:'Laita jokaiselle sivulle lappu.'},
+    hintEmpty:    {en:'Put a page in the empty place.',de:'Leg eine Seite auf den leeren Platz.',nl:'Leg een bladzijde op de lege plek.',da:'Læg en side på den tomme plads.',sv:'Lägg en sida på den tomma platsen.',no:'Legg en side på den tomme plassen.',es:'Pon una página en el lugar vacío.',it:'Metti una pagina nel posto vuoto.',pt:'Coloque uma página no lugar vazio.',fr:'Mets une page à la place vide.',fi:'Laita sivu tyhjään paikkaan.'},
+    hintStrips:   {en:'Put a sentence under each picture.',de:'Leg unter jedes Bild einen Satz.',nl:'Leg onder elk plaatje een zin.',da:'Læg en sætning under hvert billede.',sv:'Lägg en mening under varje bild.',no:'Legg en setning under hvert bilde.',es:'Pon una oración debajo de cada dibujo.',it:'Metti una frase sotto ogni disegno.',pt:'Coloque uma frase embaixo de cada figura.',fr:'Mets une phrase sous chaque image.',fi:'Laita jokaisen kuvan alle lause.'},
+    hintStart:    {en:'START is where the story begins: who is in it.',de:'Am ANFANG lernst du kennen, wer in der Geschichte vorkommt.',nl:'Het BEGIN laat zien wie er in het verhaal zitten.',da:'BEGYNDELSEN viser, hvem der er med i historien.',sv:'BÖRJAN visar vem som är med i berättelsen.',no:'BEGYNNELSEN viser hvem som er med i fortellingen.',es:'El INICIO muestra quiénes están en el cuento.',it:'L’INIZIO fa conoscere chi c’è nella storia.',pt:'O COMEÇO mostra quem está na história.',fr:'Le DÉBUT montre qui est dans l’histoire.',fi:'ALKU kertoo, keitä tarinassa on.'},
+    hintTrouble:  {en:'TROUBLE is when something goes wrong.',de:'Das PROBLEM ist, wenn etwas schiefgeht.',nl:'Het PROBLEEM is wanneer er iets misgaat.',da:'PROBLEMET er, når noget går galt.',sv:'PROBLEMET är när något går fel.',no:'PROBLEMET er når noe går galt.',es:'El PROBLEMA es cuando algo sale mal.',it:'Il PROBLEMA è quando qualcosa va storto.',pt:'O PROBLEMA é quando alguma coisa dá errado.',fr:'Le PROBLÈME, c’est quand quelque chose ne va pas.',fi:'ONGELMA on se, kun jokin menee vikaan.'},
+    hintFix:      {en:'FIX is how the trouble gets better.',de:'Die LÖSUNG zeigt, wie das Problem besser wird.',nl:'De OPLOSSING laat zien hoe het probleem beter wordt.',da:'LØSNINGEN er, hvordan problemet bliver bedre.',sv:'LÖSNINGEN är hur problemet blir bättre.',no:'LØSNINGEN er hvordan problemet blir bedre.',es:'La SOLUCIÓN es cómo se arregla el problema.',it:'La SOLUZIONE è come il problema si sistema.',pt:'A SOLUÇÃO é como o problema fica melhor.',fr:'La SOLUTION, c’est comment le problème s’arrange.',fi:'RATKAISU kertoo, miten ongelma korjaantuu.'},
+    hintCalm:     {en:'Nothing goes wrong on that page.',de:'Auf dieser Seite geht nichts schief.',nl:'Op die bladzijde gaat niets mis.',da:'Der går ikke noget galt på den side.',sv:'Ingenting går fel på den sidan.',no:'Ingenting går galt på den siden.',es:'En esa página no sale nada mal.',it:'In quella pagina non va storto niente.',pt:'Nessa página nada dá errado.',fr:'Rien ne tourne mal sur cette page.',fi:'Sillä sivulla mikään ei mene vikaan.'},
+    hintOther:    {en:'Something goes wrong — but the fix doesn’t mend it. Look at the fix page: what does it fix?',de:'Hier geht etwas schief – aber die Lösung hilft dabei nicht. Schau dir die Lösungs-Seite an: Was bringt sie in Ordnung?',nl:'Er gaat iets mis – maar de oplossing helpt daar niet bij. Kijk naar de oplossingsbladzijde: wat lost die op?',da:'Noget går galt – men løsningen hjælper ikke på det. Se på løsningssiden: Hvad ordner den?',sv:'Något går fel – men lösningen hjälper inte mot det. Titta på lösningssidan: vad fixar den?',no:'Noe går galt – men løsningen hjelper ikke på det. Se på løsningssiden: Hva fikser den?',es:'Algo sale mal, pero la solución no lo arregla. Mira la página de la solución: ¿qué arregla?',it:'Qualcosa va storto, ma la soluzione non lo sistema. Guarda la pagina della soluzione: che cosa sistema?',pt:'Alguma coisa dá errado, mas a solução não resolve isso. Olhe a página da solução: o que ela resolve?',fr:'Quelque chose ne va pas, mais la solution ne l’arrange pas. Regarde la page de la solution : qu’est-ce qu’elle arrange ?',fi:'Jokin menee vikaan, mutta ratkaisu ei korjaa sitä. Katso ratkaisusivua: mitä se korjaa?'},
+    hintElse:     {en:'That makes something else better. What went wrong?',de:'Das macht etwas anderes besser. Was ist schiefgegangen?',nl:'Dat maakt iets anders beter. Wat ging er mis?',da:'Det gør noget andet bedre. Hvad gik galt?',sv:'Det gör något annat bättre. Vad gick fel?',no:'Det gjør noe annet bedre. Hva gikk galt?',es:'Eso mejora otra cosa. ¿Qué salió mal?',it:'Questo migliora un’altra cosa. Che cosa è andato storto?',pt:'Isso melhora outra coisa. O que deu errado?',fr:'Cela arrange autre chose. Qu’est-ce qui n’allait pas ?',fi:'Se korjaa jotain muuta. Mikä meni vikaan?'},
+    hintStill:    {en:'The trouble is still there on that page.',de:'Auf dieser Seite ist das Problem immer noch da.',nl:'Op die bladzijde is het probleem er nog steeds.',da:'Problemet er der stadig på den side.',sv:'Problemet finns kvar på den sidan.',no:'Problemet er der fortsatt på den siden.',es:'En esa página el problema sigue ahí.',it:'In quella pagina il problema c’è ancora.',pt:'Nessa página o problema continua lá.',fr:'Sur cette page, le problème est toujours là.',fi:'Sillä sivulla ongelma on yhä jäljellä.'},
+    hintRead:     {en:'Read that sentence again. Does the picture show it?',de:'Lies den Satz noch einmal. Zeigt das Bild das?',nl:'Lees die zin nog eens. Laat het plaatje dat zien?',da:'Læs sætningen igen. Viser billedet det?',sv:'Läs meningen igen. Visar bilden det?',no:'Les setningen igjen. Viser bildet det?',es:'Lee otra vez esa oración. ¿La muestra el dibujo?',it:'Rileggi quella frase. Il disegno la mostra?',pt:'Leia essa frase de novo. A figura mostra isso?',fr:'Relis cette phrase. L’image la montre-t-elle ?',fi:'Lue lause uudelleen. Näkyykö se kuvassa?'},
+    okWin:        {en:'Start, trouble, fix — that’s a story!',de:'Anfang, Problem, Lösung – das ist eine Geschichte!',nl:'Begin, probleem, oplossing – dat is een verhaal!',da:'Begyndelse, problem, løsning – det er en historie!',sv:'Början, problem, lösning – det är en berättelse!',no:'Begynnelse, problem, løsning – det er en fortelling!',es:'Inicio, problema, solución: ¡eso es un cuento!',it:'Inizio, problema, soluzione: questa è una storia!',pt:'Começo, problema, solução: isso é uma história!',fr:'Début, problème, solution : c’est une histoire !',fi:'Alku, ongelma, ratkaisu – siinä on tarina!'},
+    okBubble:     {en:'{msg}',de:'{msg}',nl:'{msg}',da:'{msg}',sv:'{msg}',no:'{msg}',es:'{msg}',it:'{msg}',pt:'{msg}',fr:'{msg}',fi:'{msg}'},
+    setTask:      {en:'Task',de:'Aufgabe',nl:'Opdracht',da:'Opgave',sv:'Uppgift',no:'Oppgave',es:'Tarea',it:'Attività',pt:'Tarefa',fr:'Activité',fi:'Tehtävä'},
+    tName:        {en:'Name the parts',de:'Teile benennen',nl:'Benoem de delen',da:'Navngiv delene',sv:'Namnge delarna',no:'Navngi delene',es:'Nombra las partes',it:'Dai un nome alle parti',pt:'Dê nome às partes',fr:'Nomme les parties',fi:'Nimeä osat'},
+    tTrouble:     {en:'Find the trouble',de:'Problem finden',nl:'Zoek het probleem',da:'Find problemet',sv:'Hitta problemet',no:'Finn problemet',es:'Busca el problema',it:'Trova il problema',pt:'Encontre o problema',fr:'Trouve le problème',fi:'Etsi ongelma'},
+    tFix:         {en:'Find the fix',de:'Lösung finden',nl:'Zoek de oplossing',da:'Find løsningen',sv:'Hitta lösningen',no:'Finn løsningen',es:'Busca la solución',it:'Trova la soluzione',pt:'Encontre a solução',fr:'Trouve la solution',fi:'Etsi ratkaisu'},
+    tMatch:       {en:'Match the sentences',de:'Sätze zuordnen',nl:'Zinnen bij de plaatjes',da:'Sætninger til billederne',sv:'Para ihop meningarna',no:'Setninger til bildene',es:'Relaciona las oraciones',it:'Abbina le frasi',pt:'Combine as frases',fr:'Associe les phrases',fi:'Yhdistä lauseet'},
+    setWords:     {en:'Words',de:'Wörter',nl:'Woorden',da:'Ord',sv:'Ord',no:'Ord',es:'Palabras',it:'Parole',pt:'Palavras',fr:'Mots',fi:'Sanat'},
+    wShown:       {en:'Shown',de:'Anzeigen',nl:'Tonen',da:'Vis',sv:'Visa',no:'Vis',es:'Mostrar',it:'Mostra',pt:'Mostrar',fr:'Afficher',fi:'Näytä'},
+    wHidden:      {en:'Hidden',de:'Ausblenden',nl:'Verbergen',da:'Skjul',sv:'Dölj',no:'Skjul',es:'Ocultar',it:'Nascondi',pt:'Esconder',fr:'Masquer',fi:'Piilota'},
+    ariaPage:     {en:'Page: {caption}',de:'Seite: {caption}',nl:'Bladzijde: {caption}',da:'Side: {caption}',sv:'Sida: {caption}',no:'Side: {caption}',es:'Página: {caption}',it:'Pagina: {caption}',pt:'Página: {caption}',fr:'Page : {caption}',fi:'Sivu: {caption}'},
+    ariaSlot:     {en:'{part} place: {caption}',de:'Platz für {part}: {caption}',nl:'Plek voor {part}: {caption}',da:'Plads til {part}: {caption}',sv:'Plats för {part}: {caption}',no:'Plass til {part}: {caption}',es:'Lugar de {part}: {caption}',it:'Posto per {part}: {caption}',pt:'Lugar: {part} — {caption}',fr:'Place {part} : {caption}',fi:'Paikka – {part}: {caption}'},
+    ariaEmpty:    {en:'{part} place: empty',de:'Platz für {part}: leer',nl:'Plek voor {part}: leeg',da:'Plads til {part}: tom',sv:'Plats för {part}: tom',no:'Plass til {part}: tom',es:'Lugar de {part}: vacío',it:'Posto per {part}: vuoto',pt:'Lugar: {part} — vazio',fr:'Place {part} : vide',fi:'Paikka – {part}: tyhjä'},
+    ariaTab:      {en:'Tab: {part}',de:'Kärtchen: {part}',nl:'Kaartje: {part}',da:'Mærke: {part}',sv:'Lapp: {part}',no:'Lapp: {part}',es:'Etiqueta: {part}',it:'Cartellino: {part}',pt:'Etiqueta: {part}',fr:'Étiquette : {part}',fi:'Lappu: {part}'},
+    ariaStrip:    {en:'Sentence: {caption}',de:'Satz: {caption}',nl:'Zin: {caption}',da:'Sætning: {caption}',sv:'Mening: {caption}',no:'Setning: {caption}',es:'Oración: {caption}',it:'Frase: {caption}',pt:'Frase: {caption}',fr:'Phrase : {caption}',fi:'Lause: {caption}'},
+    ariaShelf:    {en:'Finished books',de:'Fertige Bücher',nl:'Afgemaakte boeken',da:'Færdige bøger',sv:'Färdiga böcker',no:'Ferdige bøker',es:'Libros terminados',it:'Libri finiti',pt:'Livros terminados',fr:'Livres terminés',fi:'Valmiit kirjat'},
+    ariaTable:    {en:'The table',de:'Der Tisch',nl:'De tafel',da:'Bordet',sv:'Bordet',no:'Bordet',es:'La mesa',it:'Il tavolo',pt:'A mesa',fr:'La table',fi:'Pöytä'},
+    liveCrack:    {en:'The trouble page cracked.',de:'Die Problem-Seite ist aufgerissen.',nl:'De probleembladzijde is gescheurd.',da:'Problemsiden revnede.',sv:'Problemsidan sprack.',no:'Problemsiden sprakk.',es:'La página del problema se rompió.',it:'La pagina del problema si è strappata.',pt:'A página do problema rachou.',fr:'La page du problème s’est déchirée.',fi:'Ongelmasivu repesi.'},
+    liveMisfit:   {en:'The bandage did not fit.',de:'Das Pflaster hat nicht gepasst.',nl:'De pleister paste niet.',da:'Plastret passede ikke.',sv:'Plåstret passade inte.',no:'Plasteret passet ikke.',es:'La curita no pegó.',it:'Il cerotto non andava bene.',pt:'O curativo não serviu.',fr:'Le pansement n’a pas tenu.',fi:'Laastari ei sopinut.'},
+    liveMended:   {en:'The story is mended.',de:'Die Geschichte ist geflickt.',nl:'Het verhaal is weer heel.',da:'Historien er lappet.',sv:'Berättelsen är lagad.',no:'Fortellingen er reparert.',es:'El cuento está arreglado.',it:'La storia è aggiustata.',pt:'A história está consertada.',fr:'L’histoire est réparée.',fi:'Tarina on korjattu.'}
+  },
+
+  defaults: { task: 'name', words: 'shown' },
+  settings: [
+    { key: 'task', type: 'choice', labelKey: 'setTask', options: [{ value: 'name', labelKey: 'tName' }, { value: 'trouble', labelKey: 'tTrouble' }, { value: 'fix', labelKey: 'tFix' }, { value: 'match', labelKey: 'tMatch' }] },
+    { key: 'words', type: 'choice', labelKey: 'setWords', options: [{ value: 'shown', labelKey: 'wShown' }, { value: 'hidden', labelKey: 'wHidden' }] }
+  ],
+
+  OK_MS: 3600, FAST: false, STEP_MS: 650,
+  INSTR: { name: 'instrName', trouble: 'instrTrouble', fix: 'instrFix', match: 'instrMatch' },
+  TAB: { start: 'tabStart', trouble: 'tabTrouble', fix: 'tabFix' },
+
+  init: function (api) {
+    this.api = api;
+    this.st = null; this._pool = null; this._poolKey = null; this._order = null; this._curPass = 0; this._deal = null;
+    this._timers = []; this._ro = null; this._busy = false; this._view = {}; this._pa = {}; this._drag = null; this._shelf = [];
+    injectBookCSS();
+  },
+  destroy: function () { this._clearTimers(); if (this._ro) { try { this._ro.disconnect(); } catch (e) {} this._ro = null; } },
+  onSettings: function () { if (this._poolKey !== this._key()) { this._pool = null; this._order = null; this._shelf = []; if (window.LCS_reloadFirstTask) window.LCS_reloadFirstTask(); } else if (this._wrap) this._paint(); },
+  _later: function (fn, ms) { var self = this, id = setTimeout(function () { self._timers = self._timers.filter(function (x) { return x !== id; }); fn(); }, ms); this._timers.push(id); },
+  _clearTimers: function () { for (var i = 0; i < this._timers.length; i++) clearTimeout(this._timers[i]); this._timers = []; },
+  _ms: function (ms) { return this.FAST ? 0 : ms; },
+  _t: function (k, a) { var s = this.api && this.api.t ? this.api.t(k) : k; return a ? String(s).replace(/\{(\w+)\}/g, function (m, x) { return x in a ? a[x] : m; }) : s; },
+  _pic: function (p) { var i = p.lastIndexOf('/'); return '/image-library-webp/themes/' + encodeURIComponent(p.slice(0, i)) + '/' + p.slice(i + 1) + '@2x.webp'; },
+  _set: function (k) { return this.api && this.api.settings ? this.api.settings[k] : null; },
+  _loc: function () { return StorySpineBookCore.locale(((this.api && this.api.lang) || 'en').slice(0, 2)); },
+  _task: function () { var g = this._set('task'); return StorySpineBookCore.TASKS.indexOf(g) >= 0 ? g : 'name'; },
+  _words: function () { return this._set('words') !== 'hidden'; },
+  _key: function () { return this._loc() + '/' + this._task(); },
+  _say: function (text) { try { if (window.LCSAudio && window.LCSAudio.speak && text) window.LCSAudio.speak({ type: 'sentence', text: text, lang: this._loc(), rate: 0.9 }); } catch (e) {} },
+  _part: function (i) { return this._t(this.TAB[StorySpineBookCore.ROLES[i]]); },
+
+  /* ---------------- rounds ---------------- */
+  _ensurePool: function () { var k = this._key(); if (!this._pool || this._poolKey !== k) { this._pool = StorySpineBookCore.rounds(this._loc(), this._task()); this._poolKey = k; this._order = null; this._deal = null; } return this._pool; },
+  nextTask: function (opts) {
+    var pool = this._ensurePool(), n = pool.length, C = StorySpineBookCore;
+    var index = (opts && opts.index) || 0, pass = Math.floor(index / n);
+    if (!this._order || this._order.length !== n) { this._curPass = pass; this._order = C.order(pool, Math.random, null); this._deal = null; }
+    if (pass > this._curPass) { this._curPass = pass; this._order = C.order(pool, Math.random, this._order); this._deal = null; this._shelf = []; }
+    if (!this._deal) this._deal = C.deal(pool, this._order, Math.random);
+    var k = this._order[index % n], r = pool[k], dl = this._deal[k], pa = { msg: '' }; this._pa = pa;
+    return {
+      id: 'story-spine.' + r.loc + '.' + r.id, promptKey: this.INSTR[r.task], promptArgs: pa, celebrateKey: 'okBubble', answerType: 'state',
+      setup: function (tool) { tool._clearTimers(); tool._busy = false; tool._view = {}; tool._drag = null; tool.st = C.newState(r, dl); },
+      check: function (tool) { return !!(tool.st && tool.st.done); }
+    };
+  },
+
+  /* ---------------- render ---------------- */
+  render: function () {
+    if (!this.api) return;
+    if (!this.st) { var C = StorySpineBookCore, p0 = C.rounds(this._loc(), this._task()); this.st = C.newState(p0[0], C.deal(p0, p0.map(function (_, i) { return i; }), C.seeded('x'))[0]); }
+    this._render2();
+    this._watchWidth();
+  },
+  _width: function () {
+    var s = this.api && this.api.stage, w = 0;
+    if (this._wrap && this._wrap.isConnected) w = Math.floor(this._wrap.getBoundingClientRect().width);
+    else if (s) { var cs = getComputedStyle(s); w = s.clientWidth - (parseFloat(cs.paddingLeft) || 0) - (parseFloat(cs.paddingRight) || 0); }
+    return w > 160 ? w : 600;
+  },
+  _watchWidth: function () {
+    var self = this;
+    if (this._ro) { try { this._ro.disconnect(); } catch (e) {} }
+    if (typeof ResizeObserver === 'undefined') return;
+    var last = this._width();
+    this._ro = new ResizeObserver(function () { var w = self._width(); if (Math.abs(w - last) < 8 || !self._wrap || !self._wrap.isConnected || self._busy || self._drag) return; last = w; self._paint(); });
+    this._ro.observe(this.api.stage);
+  },
+  _render2: function () {
+    var api = this.api, self = this;
+    api.stage.innerHTML = '';
+    var wrap = api.el('div', 'ssb-wrap'); this._wrap = wrap; wrap.tabIndex = -1; wrap.setAttribute('lang', this._loc());
+    this._bookEl = api.el('div', 'ssb-book'); wrap.appendChild(this._bookEl);
+    this._tableEl = api.el('div', 'ssb-table'); this._tableEl.setAttribute('role', 'group'); wrap.appendChild(this._tableEl);
+    this._trayEl = api.el('div', 'ssb-tray'); wrap.appendChild(this._trayEl);
+    this._ribbonEl = api.el('div', 'ssb-ribbon'); wrap.appendChild(this._ribbonEl);
+    var row = api.el('div', 'ssb-row'); wrap.appendChild(row);
+    this._shelfEl = api.el('button', 'ssb-shelf'); this._shelfEl.type = 'button'; this._shelfEl.setAttribute('data-k', 'shelf'); row.appendChild(this._shelfEl);
+    this._shelfEl.addEventListener('click', function () { self._openShelf(); });
+    var stud = api.el('button', 'ssb-stud'); stud.type = 'button'; stud.setAttribute('data-k', 'check');
+    stud.addEventListener('click', function () { self._check(); }); this._studBtn = stud; row.appendChild(stud);
+    var note = api.el('p', 'ssb-note'); note.setAttribute('aria-live', 'polite'); this._note = note; wrap.appendChild(note);
+    wrap.addEventListener('keydown', function (ev) { self._onKey(ev); });
+    api.stage.appendChild(wrap);
+    this._paint();
+  },
+  _paint: function () {
+    var a = document.activeElement, had = !!(a && this._wrap && this._wrap.contains(a)), sel = null;
+    if (had && a !== this._wrap && a.getAttribute('data-k')) sel = '[data-k="' + a.getAttribute('data-k') + '"]';
+    this._paint_();
+    if (had) { var nx = sel ? this._wrap.querySelector(sel) : null; (nx || this._wrap).focus(); }
+  },
+  _paint_: function () {
+    if (!this._bookEl) return;
+    var st = this.st, C = StorySpineBookCore, v = this._view;
+    var L = this._L = C.layout(this._width());
+    this._wrap.className = 'ssb-wrap ' + (L.mode === 'wide' ? 'is-wide' : 'is-narrow') + (L.W < 300 ? ' is-tiny' : '') + ' is-' + st.task + (st.done ? ' is-done' : '') + (this._words() ? '' : ' is-nowords') + (this.FAST ? ' is-fast' : '') + (v.stay || st.done ? ' is-still' : '');
+    [['card-w', L.cardW], ['gap', L.gap], ['unit', L.unit], ['area-h', L.areaH]].forEach(function (p) { this._wrap.style.setProperty('--ssb-' + p[0], p[1] + 'px'); }, this);
+    this._paintBook();
+    this._paintTable();
+    this._paintTray();
+    this._paintRibbon();
+    this._paintShelf();
+    var h = C.hint(st), msg = '';
+    if (st.done) msg = '';
+    else if (h && !this._busy) msg = typeof h === 'string' ? this._t(h) : C.hintText(st, this._loc());
+    this._note.textContent = msg;
+    this._note.classList.toggle('is-wrong', !!(msg && st.last && st.last.reason !== 'empty'));
+    this._studBtn.hidden = !!st.done; this._studBtn.disabled = !!this._busy;
+    this._studBtn.innerHTML = '';
+    this._studBtn.appendChild(this.api.el('span', 'ssb-knob'));
+    var sl = this.api.el('span', 'ssb-studlabel'); sl.textContent = this._t('read'); this._studBtn.appendChild(sl);
+    this._studBtn.setAttribute('aria-label', this._t('read'));
+  },
+
+  /* a page: its library pictures placed as a scene, the drawn cues of that moment, and the marks the reading leaves */
+  _card: function (p, opt) {
+    var api = this.api, L = this._L, self = this, o = opt || {}, mk = o.marks || {};
+    var b = api.el('span', 'ssb-card' + (o.cls ? ' ' + o.cls : ''));
+    var area = api.el('span', 'ssb-pic ssb-sky-' + (p.d.indoor ? 'indoor' : (p.d.sky || 'day')) + (p.d.water ? ' ssb-water' : ''));
+    var w = L.cardW - 8, h = L.areaH;
+    if (p.d.pond) area.appendChild(api.el('span', 'ssb-pond'));
+    p.t.forEach(function (t) {
+      var pl = StorySpineBookCore.place(t, w, h, L.unit), s = api.el('span', 'ssb-pp');
+      s.style.left = pl.left + 'px'; s.style.bottom = pl.bottom + 'px'; s.style.width = pl.size + 'px'; s.style.height = pl.size + 'px';
+      var im = api.el('img', 'ssb-img'); im.alt = ''; im.draggable = false; im.src = self._pic(t[0]);
+      im.style.transform = (t[5] ? 'scaleX(-1) ' : '') + (t[4] ? 'rotate(' + t[4] + 'deg)' : '');
+      s.appendChild(im);
+      if (t[0] === p.thing) {
+        s.setAttribute('data-thing', '1');
+        if (mk.ring) s.classList.add('is-ring-' + mk.ring);
+        if (mk.glow) s.classList.add('is-glow');
+      }
+      area.appendChild(s);
+    });
+    if (mk.search) area.appendChild(api.el('span', 'ssb-search'));
+    if (mk.ghost) { var gh = api.el('span', 'ssb-ghostmark ssb-mark-' + mk.ghost); area.appendChild(gh); }
+    if (mk.pennant) area.appendChild(api.el('span', 'ssb-pennant' + (mk.pennant === 'tip' ? ' is-tip' : '')));
+    if (mk.crack) area.appendChild(api.el('span', 'ssb-crack' + (mk.crack === 'sealed' ? ' is-sealed' : '')));
+    if (mk.flat) area.appendChild(api.el('span', 'ssb-flat'));
+    if (mk.band) { var bd = api.el('img', 'ssb-band is-' + mk.band); bd.alt = ''; bd.draggable = false; bd.src = self._pic(StorySpineBookCore.BANDAGE); area.appendChild(bd); }
+    if (mk.idle) area.appendChild(api.el('span', 'ssb-idle'));
+    b.appendChild(area);
+    if (o.caption) { var c = api.el('span', 'ssb-cap'); c.textContent = p.caption; b.appendChild(c); }
+    b.setAttribute('aria-hidden', 'true');
+    return b;
+  },
+  _paintBook: function () {
+    var el = this._bookEl, st = this.st, r = st.r, self = this, api = this.api, v = this._view, C = StorySpineBookCore, help = C.helpOf(st) || {};
+    el.innerHTML = '';
+    var ids = v.preview ? v.preview.ids : (v.bound || st.slots), rr = v.preview ? v.preview.r : r;
+    el.className = 'ssb-book' + (v.closing ? ' is-closing' : '') + (v.preview ? ' is-preview' : '');
+    el.style.setProperty('--ssb-cover', rr.color);
+    for (var i = 0; i < 3; i++) (function (i) {
+      var id = ids[i], p = id ? C.page(rr, id) : null, marks = (v.marks && v.marks[i]) || {};
+      if (!v.reading && !v.preview && p) {
+        if (help.ringFix === id) marks = { ring: 'teal' };
+        if (help.ringTrouble === id) marks = { ring: 'coral' };
+        if (st.task === 'match' && help.search === i) marks = { search: true };
+      }
+      var open = st.open === i && !v.preview, s = api.el(st.task === 'name' ? 'div' : 'button', 'ssb-slot' + (open ? ' is-open' : '') + (open && id && st.sel === id ? ' is-sel' : '') + (v.at === i ? ' is-reading' : '') + (help.flash === i && !v.reading ? ' is-flash' : '') + (open && !id && st.show && st.last && st.last.reason === 'empty' ? ' is-pulse' : ''));
+      if (st.task !== 'name') s.type = 'button'; else s.setAttribute('role', 'group'); s.setAttribute('data-k', 'slot' + i); s.setAttribute('data-slot', i);
+      s.setAttribute('aria-label', p ? self._t('ariaSlot', { part: self._part(i), caption: p.caption }) : self._t('ariaEmpty', { part: self._part(i) }));
+      if (p) s.appendChild(self._card(p, { marks: marks, caption: self._words() && st.task !== 'match', cls: v.flyIn ? 'is-flyin' : '' }));
+      else s.appendChild(api.el('span', 'ssb-empty' + (st.task === 'name' ? ' is-short' : '')));
+      if (p || st.task !== 'name') { var num = api.el('span', 'ssb-num'); num.textContent = String(i + 1); num.setAttribute('aria-hidden', 'true'); s.appendChild(num); }
+      if (st.task === 'match' && !v.preview) {
+        var cid = st.caps[i], cp = api.el('span', 'ssb-capslot' + (cid ? ' is-full' : '') + (cid && st.sel === cid ? ' is-sel' : '') + (help.underline && help.underline.indexOf(i) >= 0 && cid ? ' is-wrong' : ''));
+        cp.setAttribute('data-k', 'cap' + i); cp.setAttribute('data-cap', i);
+        if (cid) self._stripText(cp, C.page(r, cid), help.underline && help.underline.indexOf(i) >= 0);
+        s.appendChild(cp);
+      }
+      s.addEventListener('click', function (ev) { self._tapSlot(i, ev); });
+      if (open && id) self._bindDrag(s, function () { return st.slots[st.open]; }, 'page');
+      if (st.task === 'match' && st.caps[i]) self._bindDrag(s.querySelector('.ssb-capslot'), function () { return st.caps[i]; }, 'strip');
+      el.appendChild(s);
+    })(i);
+  },
+  /* a strip's sentence; at a miss its key word is underlined */
+  _stripText: function (node, p, mark) {
+    var cap = p.caption, idx = ['start', 'trouble', 'fix'].indexOf(p.kind), kw = StorySpineBookCore.keyWord(this._loc(), p.story, idx), at = mark ? cap.indexOf(kw) : -1;
+    node.textContent = '';
+    if (at < 0) { node.textContent = cap; return; }
+    node.appendChild(document.createTextNode(cap.slice(0, at)));
+    var u = this.api.el('span', 'ssb-kw'); u.textContent = kw; node.appendChild(u);
+    node.appendChild(document.createTextNode(cap.slice(at + kw.length)));
+  },
+  _paintTable: function () {
+    var el = this._tableEl, st = this.st, r = st.r, self = this, api = this.api, v = this._view, C = StorySpineBookCore, help = C.helpOf(st) || {};
+    el.innerHTML = ''; el.setAttribute('aria-label', this._t('ariaTable'));
+    el.hidden = !!(st.done || v.preview || (st.task === 'name' && v.bound && v.reading) || st.table.every(function (x) { return !x; }));
+    st.table.forEach(function (id, i) {
+      if (!id) { el.appendChild(api.el('span', 'ssb-hole')); return; }
+      var p = C.page(r, id), b;
+      if (st.task === 'match') {
+        b = api.el('button', 'ssb-strip' + (st.sel === id ? ' is-sel' : '')); self._stripText(b, p, false);
+        b.setAttribute('aria-label', self._t('ariaStrip', { caption: p.caption }));
+        self._bindDrag(b, function () { return id; }, 'strip');
+      } else {
+        var tab = st.task === 'name' ? C.tabOn(st, id) : null, marks = {};
+        if (help.glow === id) marks.glow = true;
+        if (help.mark && help.mark.page === id) marks.ghost = help.mark.role;
+        b = api.el('button', 'ssb-loose' + (st.sel === id ? ' is-sel' : '') + (tab ? ' has-tab' : ''));
+        if (st.task === 'name') {
+          var clip = api.el('span', 'ssb-clip');
+          if (tab) { var tb = self._tabEl(tab, st.sel === 'tab:' + tab); clip.appendChild(tb); self._bindDrag(tb, function () { return 'tab:' + C.tabOn(st, id); }, 'tab'); }
+          b.appendChild(clip);
+        }
+        b.appendChild(self._card(p, { marks: marks, caption: self._words() }));
+        b.setAttribute('aria-label', self._t('ariaPage', { caption: p.caption }) + (tab ? ' — ' + self._t(self.TAB[tab]) : ''));
+        if (st.task !== 'name') self._bindDrag(b, function () { return id; }, 'page');
+      }
+      b.type = 'button'; b.setAttribute('data-k', 'page-' + id); b.setAttribute('data-page', id);
+      b.addEventListener('click', function (ev) { self._tapPage(id, ev); });
+      el.appendChild(b);
+    });
+  },
+  _tabEl: function (role, sel) {
+    var t = this.api.el('span', 'ssb-tab ssb-tab-' + role + (sel ? ' is-sel' : ''));
+    t.appendChild(this.api.el('span', 'ssb-mark ssb-mark-' + role));
+    var w = this.api.el('span', 'ssb-tabword'); w.textContent = this._t(this.TAB[role]); t.appendChild(w);
+    t.setAttribute('data-tab', role);
+    return t;
+  },
+  _paintTray: function () {
+    var el = this._trayEl, st = this.st, self = this, api = this.api, v = this._view;
+    el.innerHTML = '';
+    el.hidden = !!(st.task !== 'name' || st.done || v.preview || !st.tray.length);
+    st.tray.forEach(function (role) {
+      var b = api.el('button', 'ssb-trayslot'); b.type = 'button'; b.setAttribute('data-k', 'tab-' + role); b.setAttribute('data-tab', role);
+      b.setAttribute('aria-label', self._t('ariaTab', { part: self._t(self.TAB[role]) }));
+      b.appendChild(self._tabEl(role, st.sel === 'tab:' + role));
+      b.addEventListener('click', function () { self._tapTab(role); });
+      self._bindDrag(b, function () { return 'tab:' + role; }, 'tab');
+      el.appendChild(b);
+    });
+  },
+  /* the retell ribbon: a starter label over each page's own sentence */
+  _paintRibbon: function () {
+    var el = this._ribbonEl, st = this.st, api = this.api; el.innerHTML = '';
+    el.hidden = !st.done;
+    if (!st.done) return;
+    StorySpineBookCore.retell(st.r).forEach(function (x, i) {
+      var tab = api.el('button', 'ssb-rtab'); tab.type = 'button'; tab.setAttribute('data-k', 'retell' + i);
+      var s = api.el('span', 'ssb-starter'); s.textContent = x.starter; tab.appendChild(s);
+      var c = api.el('span', 'ssb-rcap'); c.textContent = x.caption; tab.appendChild(c);
+      tab.addEventListener('click', function () { StorySpineActivity._say(x.caption); });
+      el.appendChild(tab);
+    });
+  },
+  /* the shelf: one spine per mended book this pass; a tap on the shelf opens the shelved books again, one per tap */
+  _paintShelf: function () {
+    var el = this._shelfEl, self = this, api = this.api, v = this._view;
+    el.innerHTML = ''; el.setAttribute('aria-label', this._t('ariaShelf'));
+    el.disabled = !this._shelf.length;
+    this._shelf.forEach(function (story) {
+      var r = (self._pool || []).filter(function (x) { return x.story === story; })[0];
+      var b = api.el('span', 'ssb-spine' + (v.preview && v.preview.r.story === story ? ' is-open' : '')); b.setAttribute('data-spine', story);
+      b.style.background = r ? r.color : '#888';
+      el.appendChild(b);
+    });
+  },
+  _openShelf: function () { if (!this._shelf.length || this._busy) return; this._shelfAt = ((this._shelfAt || 0) + 1) % this._shelf.length; this._preview(this._shelf[this._shelfAt]); },
+
+  /* ---------------- the hand ---------------- */
+  _free: function () { return !(this._busy || this.st.done || this._view.preview); },
+  _clear: function () { this._view = {}; },
+  _tapTab: function (role) { if (!this._free()) return; if (StorySpineBookCore.pickTab(this.st, role)) { this._clear(); this.api.sound(this.st.sel ? 560 : 330); this._paint(); } },
+  _tapPage: function (id, ev) {
+    if (!this._free()) return;
+    var C = StorySpineBookCore, st = this.st;
+    if (st.task === 'name') {
+      var t = ev && ev.target && ev.target.closest ? ev.target.closest('.ssb-tab') : null;
+      if (st.sel && st.sel.indexOf('tab:') === 0) { if (C.putTab(st, id)) { this._clear(); this.api.sound(620); this._paint(); } return; }
+      if (t || C.tabOn(st, id)) { C.pickTab(st, C.tabOn(st, id)); this._clear(); this.api.sound(560); this._paint(); }
+      return;
     }
-  };
-  function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
-  function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
-
-  /* ---- the FIXED #58 scene-glyphs (each centered ~(18,18) in a 36 box) ---- */
-  var GLYPHS = {
-    bunny: '<ellipse cx="18" cy="26" rx="9" ry="10" fill="#C9BDB0" stroke="#8B7A6E" stroke-width="1.5"/><ellipse cx="14" cy="11" rx="3" ry="8" fill="#C9BDB0" stroke="#8B7A6E" stroke-width="1.3"/><ellipse cx="22" cy="11" rx="3" ry="8" fill="#C9BDB0" stroke="#8B7A6E" stroke-width="1.3"/><circle cx="15" cy="24" r="1.4" fill="#2B2B2B"/><circle cx="21" cy="24" r="1.4" fill="#2B2B2B"/><circle cx="18" cy="28" r="1.4" fill="#E7A6A0"/>',
-    mouse: '<ellipse cx="18" cy="24" rx="10" ry="9" fill="#B7B2AE" stroke="#7E7873" stroke-width="1.5"/><circle cx="11" cy="15" r="4.5" fill="#B7B2AE" stroke="#7E7873" stroke-width="1.3"/><circle cx="25" cy="15" r="4.5" fill="#B7B2AE" stroke="#7E7873" stroke-width="1.3"/><path d="M27 27 q7 2 6 8" stroke="#7E7873" stroke-width="1.5" fill="none"/><circle cx="16" cy="23" r="1.3" fill="#2B2B2B"/><circle cx="21" cy="23" r="1.3" fill="#2B2B2B"/><circle cx="18.5" cy="27" r="1.2" fill="#E7A6A0"/>',
-    bird: '<line x1="17" y1="28" x2="17" y2="33" stroke="#E08A2A" stroke-width="1.6" stroke-linecap="round"/><line x1="21" y1="28" x2="21" y2="33" stroke="#E08A2A" stroke-width="1.6" stroke-linecap="round"/><path d="M26 21 l8 -3 l-2 6 z" fill="#3E8794"/><ellipse cx="19" cy="23" rx="9" ry="7" fill="#5BA3B0" stroke="#2E6B77" stroke-width="1.5"/><circle cx="13" cy="16" r="5.5" fill="#5BA3B0" stroke="#2E6B77" stroke-width="1.4"/><path d="M8 15 l-6 2 l6 2.5 z" fill="#F2A65A" stroke="#D2761F" stroke-width="1"/><path d="M20 22 q5 -3 8 1 q-4 3 -8 0z" fill="#3E8794"/><circle cx="12" cy="15" r="1.4" fill="#2B2B2B"/>',
-    friend: '<circle cx="18" cy="22" r="10" fill="#D8A65A" stroke="#A07C3A" stroke-width="1.5"/><circle cx="11" cy="13" r="3.5" fill="#D8A65A" stroke="#A07C3A" stroke-width="1.2"/><circle cx="25" cy="13" r="3.5" fill="#D8A65A" stroke="#A07C3A" stroke-width="1.2"/><circle cx="15" cy="21" r="1.4" fill="#2B2B2B"/><circle cx="21" cy="21" r="1.4" fill="#2B2B2B"/><path d="M15 26 q3 2 6 0" stroke="#7A5A2A" stroke-width="1.3" fill="none"/>',
-    tree: '<rect x="16" y="20" width="5" height="14" rx="1" fill="#8B5E3C"/><circle cx="18.5" cy="14" r="11" fill="#6FA886" stroke="#4E8A5C" stroke-width="1.5"/>',
-    mitten: '<path d="M16 24 v-7 a6 6 0 0 1 12 0 v7 z" fill="#E05C4B" stroke="#A83A2C" stroke-width="1.5"/><path d="M16 16 a4.5 4.5 0 0 0 -5 4.3 a3.6 3.6 0 0 0 5 3.2 z" fill="#E05C4B" stroke="#A83A2C" stroke-width="1.4"/><rect x="14" y="23.5" width="15" height="6.5" rx="2.5" fill="#C94A3A" stroke="#A83A2C" stroke-width="1.3"/><g stroke="#A83A2C" stroke-width=".9" opacity=".8"><line x1="18" y1="24.5" x2="18" y2="29"/><line x1="21.5" y1="24.5" x2="21.5" y2="29"/><line x1="25" y1="24.5" x2="25" y2="29"/></g>',
-    carrot: '<path d="M18 33 l-6 -17 a6 6 0 0 1 12 0 z" fill="#F2784B" stroke="#C2410C" stroke-width="1.3"/><path d="M18 16 l-3 -6 M18 16 l0 -7 M18 16 l3 -6" stroke="#4E8A5C" stroke-width="2" stroke-linecap="round"/>',
-    snow: '<path d="M1 27 q17 -8 34 0 v9 h-34z" fill="#EAF2F7" stroke="#CBD9E2" stroke-width="1"/><g fill="#fff" stroke="#AEC2CE" stroke-width=".7"><circle cx="8" cy="9" r="2.6"/><circle cx="19" cy="6" r="2.6"/><circle cx="29" cy="11" r="2.6"/><circle cx="13" cy="17" r="2.4"/><circle cx="26" cy="20" r="2.4"/></g>',
-    sun: '<g stroke="#F2C14E" stroke-width="2" stroke-linecap="round"><line x1="18" y1="3" x2="18" y2="8"/><line x1="18" y1="28" x2="18" y2="33"/><line x1="3" y1="18" x2="8" y2="18"/><line x1="28" y1="18" x2="33" y2="18"/><line x1="7" y1="7" x2="11" y2="11"/><line x1="25" y1="25" x2="29" y2="29"/><line x1="29" y1="7" x2="25" y2="11"/><line x1="11" y1="25" x2="7" y2="29"/></g><circle cx="18" cy="18" r="8" fill="#F2C14E"/>',
-    rain: '<g fill="#9FB0B8"><circle cx="13" cy="15" r="7"/><circle cx="23" cy="15" r="8"/><circle cx="18" cy="11" r="7"/></g><rect x="10" y="14" width="18" height="6" fill="#9FB0B8"/><g stroke="#5BA3B0" stroke-width="2" stroke-linecap="round"><line x1="12" y1="24" x2="10" y2="30"/><line x1="19" y1="24" x2="17" y2="31"/><line x1="26" y1="24" x2="24" y2="30"/></g>',
-    umbrella: '<path d="M5 20 a13 13 0 0 1 26 0 z" fill="#F2784B" stroke="#C2410C" stroke-width="1.3"/><path d="M5 20 q3.5 4 6.5 0 q3.5 4 6.5 0 q3.5 4 6.5 0 q3.5 4 6.5 0" fill="none" stroke="#C2410C" stroke-width="1"/><line x1="18" y1="20" x2="18" y2="32" stroke="#8B5E3C" stroke-width="1.8"/><path d="M18 32 a3 3 0 0 0 4 0" fill="none" stroke="#8B5E3C" stroke-width="1.8"/>',
-    basket: '<path d="M9 18 a9 7 0 0 1 18 0" fill="none" stroke="#8B5E3C" stroke-width="1.8"/><path d="M8 20 h20 l-2 12 h-16 z" fill="#C58A4E" stroke="#8B5E3C" stroke-width="1.3"/><rect x="6.5" y="18.5" width="23" height="3.5" rx="1.5" fill="#A8763E"/><g stroke="#9A6A36" stroke-width="1"><line x1="13" y1="22.5" x2="12.5" y2="31"/><line x1="18" y1="22.5" x2="18" y2="31"/><line x1="23" y1="22.5" x2="23.5" y2="31"/><line x1="9.5" y1="26" x2="26.5" y2="26"/></g>'
-  };
-  function placeGlyph(name, cx, cy, k) { var g = GLYPHS[name] || ''; return '<g transform="translate(' + (cx - 18 * k).toFixed(1) + ',' + (cy - 18 * k).toFixed(1) + ') scale(' + k + ')">' + g + '</g>'; }
-  /* panels ARE the answer cards here → the glyphs must FILL the panel (the
-     not-sparse gate). Bigger glyphs + a taller scene than the #58 decorative
-     panels. */
-  function sceneSVG(glyphs) {
-    var n = (glyphs || []).length, xs = n <= 1 ? [44] : n === 2 ? [26, 62] : [19, 44, 69], k = n <= 1 ? 1.85 : n === 2 ? 1.55 : 1.15, inner = '';
-    for (var i = 0; i < n; i++) inner += placeGlyph(glyphs[i], xs[i], 34, k);
-    return '<svg class="ds-scene" viewBox="0 0 88 66" preserveAspectRatio="xMidYMid meet" aria-hidden="true"><rect x="1" y="1" width="86" height="64" rx="8" fill="#FFFDF6" stroke="#E0D6C2" stroke-width="1.5"/>' + inner + '</svg>';
-  }
-
-  function dotSVG() {
-    return '<svg class="ds-dot-svg" viewBox="0 0 56 52" width="36" height="34" aria-hidden="true">' +
-      '<path d="M12 12 l3 7 l-7 0 z" fill="#E8B14A" stroke="#B4842A" stroke-width="1.4"/><path d="M30 12 l-3 7 l7 0 z" fill="#E8B14A" stroke="#B4842A" stroke-width="1.4"/>' +   /* horns */
-      '<ellipse cx="24" cy="30" rx="17" ry="14" fill="#F0C66A" stroke="#B4842A" stroke-width="2"/>' +
-      '<ellipse cx="40" cy="33" rx="9" ry="7" fill="#F5D78C" stroke="#B4842A" stroke-width="1.6"/>' +   /* snout */
-      '<ellipse cx="45" cy="32" rx="1.5" ry="1.1" fill="#7A5A2A"/>' +
-      '<g class="ds-eyes-open"><circle cx="22" cy="27" r="2.2" fill="#2B2B2B"/><circle cx="31" cy="27" r="2.2" fill="#2B2B2B"/></g>' +
-      '<g class="ds-eyes-happy"><path d="M19 27 q3 -3 6 0" stroke="#2B2B2B" stroke-width="1.8" fill="none" stroke-linecap="round"/><path d="M28 27 q3 -3 6 0" stroke="#2B2B2B" stroke-width="1.8" fill="none" stroke-linecap="round"/></g>' +
-      '<path d="M8 38 q-4 -2 -4 -7 M8 42 q-5 0 -6 -5" stroke="#B4842A" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg>';   /* little spine plates hint */
-  }
-
-  var StorySpineActivity = {
-    id: 'story-spine-activity',
-    strings: {
-      title: { en: "Dot's Story Spine", de: 'Dots Geschichten-Werkstatt', fr: 'L’atelier des histoires de Dot', es: 'El taller de cuentos de Dot', pt: 'A oficina de histórias do Fabo', it: 'La bottega delle storie di Dot', nl: 'De verhalenwerkplaats van Dot' },
-      instruction: { en: 'Read the story with Dot, then tap which part does each job!', de: 'Lies die Geschichte mit Dot und tippe dann auf den richtigen Teil.', fr: 'Écoute l’histoire avec Dot, puis tape la bonne partie !', es: 'Lee el cuento con Dot y toca qué parte es el inicio, el problema o la solución.', pt: 'Leia a história com o Fabo e toque na parte certa!', it: 'Leggi la storia con Dot, poi tocca la parte giusta per ogni domanda!', nl: 'Lees het verhaal met Dot en tik dan op het juiste deel.' },
-      q: { en: '{q}' }
-    },
-
-    init: function (api) {
-      this._api = api;
-      LANG = (api && api.lang) || 'en';
-      this._pool = []; this._stories = {}; this._order = null; this._orderForPool = null; this._curPass = 0;
-      this._finds = 0; this._round = null; this._resolved = false; this._token = 0;
-      this._nonConf = {}; this._lit = -1;
-      this._app = api.stage.closest('.lcs-app');
-      this._injectStyle();
-      this._loadActivity();
-    },
-
-    _injectStyle: function () {
-      if (document.getElementById('ds-style')) return;
-      var s = el('style'); s.id = 'ds-style';
-      s.textContent = [
-        '.lcs-app.activity .lcs-stage{display:flex;flex-direction:column;justify-content:center;}',
-        '.ds-root{display:flex;flex-direction:column;align-items:center;gap:10px;width:100%;max-width:min(96vw,640px);margin:0 auto;}',
-        '.ds-say{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;}',
-        '.ds-dot{flex:0 0 auto;}',
-        '.ds-line-msg{flex:0 1 auto;min-height:1.1em;text-align:center;font:700 clamp(0.86rem,2.1vw,1.12rem)/1.3 Nunito,system-ui,sans-serif;color:#146B5E;margin:0;}',
-        '.ds-line-msg.miss{color:#C2410C;}',
-        '.ds-strip{display:flex;justify-content:center;gap:10px;width:100%;max-width:min(96vw,600px);align-items:stretch;}',
-        '.ds-cand{flex:1 1 0;min-width:0;display:flex;flex-direction:column;align-items:center;gap:2px;padding:3px 4px;border:3px solid #146B5E;border-radius:14px;background:#fff;cursor:pointer;min-height:44px;}',
-        '.ds-cand.sel{box-shadow:0 0 0 3px #F2784B;}',
-        '.ds-cand.dim{opacity:.4;}',
-        '.ds-cand.lit{box-shadow:0 0 0 3px #F2C14E;background:#FFFBEF;}',
-        '.ds-scene{width:100%;height:auto;display:block;}',
-        '.ds-cap{font:700 clamp(.62rem,2.4vw,.82rem)/1.0 Nunito,system-ui,sans-serif;color:#0F4A40;text-align:center;}',
-        '.ds-hear{align-self:center;border:2px solid #146B5E;border-radius:999px;background:#fff;color:#146B5E;font:700 .82rem/1 Nunito,sans-serif;padding:6px 16px;min-height:44px;cursor:pointer;}',
-        '.ds-dot-svg .ds-eyes-happy{display:none;}.ds-dot[data-pose=happy] .ds-eyes-open{display:none;}.ds-dot[data-pose=happy] .ds-eyes-happy{display:block;}',
-        '.ds-sronly{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);}',
-        '@media (max-width:380px){.ds-root{gap:8px;}}',
-        '.lcs-app:not(.dot-resolved) .lcs-activity-check{display:none !important;}'
-      ].join('');
-      document.head.appendChild(s);
-    },
-
-    _loadActivity: function () {
-      var self = this;
-      var params = new URLSearchParams(global.location ? global.location.search : '');
-      var id = params.get('activity') || 'story-spine.role.rl-k-3';
-      var tries = ['/mini-tools/story-spine-activities.json', 'story-spine-activities.json', '../mini tools/story-spine-activities.json'];
-      (function attempt(i) {
-        if (i >= tries.length) return;
-        fetch(tries[i]).then(function (r) { return r.ok ? r.json() : Promise.reject(); })
-          .then(function (rows) {
-            var row = rows.find(function (x) { return x.id === id; }) || rows[0];
-            self._activityRow = row;
-            self._pool = (row && row.params && ((row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds)) || [];
-            self._stories = (row && row.params && ((row.params.storiesL10n && row.params.storiesL10n[LANG]) || row.params.stories)) || {};
-            self._order = null; self._orderForPool = null; self._curPass = 0;
-            if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask();
-          }).catch(function () { attempt(i + 1); });
-      }(0));
-    },
-
-    _shuffle: function (a) { for (var k = a.length - 1; k > 0; k--) { var j = Math.floor(Math.random() * (k + 1)); var t = a[k]; a[k] = a[j]; a[j] = t; } return a; },
-    _bandOrder: function (pool, prev) {
-      var self = this, order = this._shuffle(pool.map(function (_, i) { return i; }));
-      if (prev && order.length > 1) { var g = 0; while (order.join(',') === prev.join(',') && g++ < 12) order = self._shuffle(pool.map(function (_, i) { return i; })); }
-      return order;
-    },
-    nextTask: function (ctx) {
-      var pool = this._pool || []; if (!pool.length) return null;
-      var n = pool.length, index = (ctx && ctx.index) || 0, pass = Math.floor(index / n);
-      if (!this._order || this._orderForPool !== pool) { this._order = this._bandOrder(pool); this._orderForPool = pool; this._curPass = 0; }
-      else if (pass > this._curPass) { this._order = this._bandOrder(pool, this._order); this._curPass = pass; }
-      return this._makeTask(pool[this._order[index % n]]);
-    },
-
-    _makeTask: function (round) {
-      return {
-        id: round.id, promptKey: 'q', promptArgs: { q: round.prompt }, answerType: 'state', round: round,
-        setup: function (tool) { tool._beginRound(round); },
-        check: function (tool) { return tool._resolved === true; }
+    if (st.task === 'match') { if (C.pickStrip(st, id)) { this._clear(); this.api.sound(st.sel ? 560 : 330); this._paint(); } return; }
+    if (C.pick(st, id)) { this._clear(); this.api.sound(st.sel ? 560 : 330); this._paint(); }
+  },
+  _tapSlot: function (i, ev) {
+    if (this._view.preview) return;
+    if (!this._free()) return;
+    var C = StorySpineBookCore, st = this.st;
+    if (st.task === 'match') {
+      if (st.sel) { if (C.putStrip(st, i)) { this._clear(); this.api.sound(620); this._paint(); } return; }
+      if (st.caps[i]) { C.pickStrip(st, st.caps[i]); this._clear(); this.api.sound(560); this._paint(); }
+      return;
+    }
+    if (st.task === 'name') return;
+    if (i === st.open) {
+      if (st.sel) { if (C.put(st)) { this._clear(); this.api.sound(620); this._paint(); } return; }
+      if (st.slots[i]) { C.pick(st, st.slots[i]); this._clear(); this.api.sound(560); this._paint(); }
+    }
+  },
+  _bindDrag: function (el, idOf, kind) {
+    var self = this;
+    if (!el) return;
+    el.addEventListener('pointerdown', function (ev) {
+      var id = idOf(); if (!id || !self._free() || (ev.button !== undefined && ev.button !== 0)) return;
+      ev.stopPropagation();
+      var ghost = null, sx = ev.clientX, sy = ev.clientY; try { el.setPointerCapture(ev.pointerId); } catch (e) {}
+      var targets = function () { return kind === 'tab' ? self._wrap.querySelectorAll('.ssb-loose') : kind === 'strip' ? self._wrap.querySelectorAll('.ssb-capslot') : self._wrap.querySelectorAll('.ssb-slot.is-open'); };
+      var at = function (x, y) { var ss = targets(); for (var z = 0; z < ss.length; z++) { var rc = ss[z].getBoundingClientRect(); if (x >= rc.left && x <= rc.right && y >= rc.top && y <= rc.bottom) return ss[z]; } return null; };
+      var move = function (e) {
+        if (!ghost && Math.abs(e.clientX - sx) + Math.abs(e.clientY - sy) < 8) return;
+        if (!ghost) { self._drag = {}; ghost = el.cloneNode(true); ghost.className += ' ssb-ghost'; ghost.style.width = el.offsetWidth + 'px'; document.body.appendChild(ghost); }
+        ghost.style.left = (e.clientX - el.offsetWidth / 2) + 'px'; ghost.style.top = (e.clientY - 24) + 'px';
+        var h = at(e.clientX, e.clientY); [].forEach.call(targets(), function (s) { s.classList.toggle('is-over', s === h); });
       };
-    },
+      var up = function (e) {
+        el.removeEventListener('pointermove', move); el.removeEventListener('pointerup', up); el.removeEventListener('pointercancel', up);
+        if (!ghost) return;
+        if (ghost.parentNode) ghost.parentNode.removeChild(ghost); self._drag = null;
+        var C = StorySpineBookCore, st = self.st, h = at(e.clientX, e.clientY), ok = false;
+        st.sel = null;
+        if (kind === 'tab') { var role = id.slice(4); if (h) ok = C.pickTab(st, role) && C.putTab(st, h.getAttribute('data-page')); else if (C.pageWithTab(st, role)) C.tabBack(st, role); }
+        else if (kind === 'strip') { if (h) ok = C.pickStrip(st, id) && C.putStrip(st, +h.getAttribute('data-cap')); else if (st.caps.indexOf(id) >= 0) C.stripBack(st, id); }
+        else { if (h) ok = C.pick(st, id) && C.put(st); else if (st.slots[st.open] === id) C.back(st, id); }
+        if (ok) { self._clear(); self.api.sound(620); }
+        self._paint();
+      };
+      el.addEventListener('pointermove', move); el.addEventListener('pointerup', up); el.addEventListener('pointercancel', up);
+    });
+  },
+  _onKey: function (ev) {
+    var st = this.st, k = ev.key, C = StorySpineBookCore;
+    if (/^[1-3]$/.test(k) && st.sel) {
+      ev.preventDefault(); var i = +k - 1;
+      if (st.task === 'name') { var id = st.table[i]; if (id) this._tapPage(id); }
+      else if (st.task === 'match') this._tapSlot(i);
+      else if (C.put(st)) { this._clear(); this._paint(); }
+      return;
+    }
+    if (k === 'Enter' && ev.target === this._wrap) { ev.preventDefault(); this._check(); }
+  },
 
-    _beginRound: function (round) {
-      this._round = round; this._resolved = false; this._token = (this._token || 0) + 1; this._nonConf = {}; this._lit = -1;
-      /* SHUFFLE the panel display order so position ≠ role (the child must READ
-         each part, not tap "the middle = the trouble"). Role-typing is order-
-         independent, so showing the parts shuffled is correct. */
-      this._panelOrder = this._shuffle((this._story().panels || []).map(function (_, i) { return i; }));
-      if (this._app) this._app.classList.remove('dot-resolved');
-    },
+  /* ---------------- the reading ---------------- */
+  /* plays the book page by page; marks[i] collects what each page shows */
+  _readAnim: function (ids, res, done) {
+    var self = this, C = StorySpineBookCore, r = this.st.r, marks = [{}, {}, {}], kinds = ids.map(function (id) { return C.page(r, id).kind; });
+    var stop = res.ok ? 3 : res.stopAt, steps = [];
+    steps.push(function () { marks[0].pennant = kinds[0] === 'start' ? 'ok' : 'tip'; });
+    if (stop >= 1) steps.push(function () {
+      if (C.cracks(kinds[1])) { marks[1].crack = 'open'; marks[1].ring = 'coral'; self.api.sound(180); self.api.announce(self._t('liveCrack')); }
+      else marks[1].flat = true;
+    });
+    if (stop >= 2 || (res.reason === 'no-crack' && self.st.task === 'trouble')) steps.push(function () {
+      if (!C.cracks(kinds[1])) { marks[1].band = 'slide'; return; }
+      if (!C.sendsBandage(kinds[2])) { marks[2].idle = true; return; }
+      if (C.mends(kinds[2], kinds[1])) { marks[1].band = 'seal'; marks[1].crack = 'sealed'; marks[1].ring = 'teal'; self.api.sound(659); self._later(function () { self.api.sound(880); }, self._ms(120)); }
+      else { marks[1].band = 'peel'; self.api.announce(self._t('liveMisfit')); }
+    });
+    var k = 0;
+    var next = function () {
+      if (k >= steps.length) { self._later(done, self._ms(res.ok ? 500 : 1300)); return; }
+      steps[k](); self._view = Object.assign({}, self._view, { reading: true, at: Math.min(k, 2), marks: JSON.parse(JSON.stringify(marks)), flyIn: false }); self._paint();
+      k++; self._later(next, self._ms(self.STEP_MS));
+    };
+    this._view = { reading: true, bound: ids, flyIn: true, marks: marks, at: -1 }; this._paint();
+    this._later(next, this._ms(350));
+  },
+  _check: function () {
+    if (!this._free()) return;
+    var self = this, st = this.st, C = StorySpineBookCore, task = st.task;
+    var res = C.read(st);
+    if (res.reason === 'empty') { this.api.sound(460); this._clear(); this._paint(); return; }
+    if (task === 'match') {
+      if (res.ok) return this._win();
+      this.api.sound(196); this._clear(); this._paint(); this.api.announce(this._note.textContent || ''); return;
+    }
+    this._busy = true;
+    this._readAnim(res.ids, res, function () {
+      if (res.ok) return self._win();
+      self.api.sound(196); self._busy = false;
+      /* Name: the pages drop back onto the table, tabs still on; Trouble / Fix: the book stays open on the stop */
+      var kept = (self._view.marks || []).map(function (m) { m = Object.assign({}, m); if (m.band === 'peel' || m.band === 'slide') delete m.band; return m; });
+      self._view = task === 'name' ? {} : { marks: kept, stay: true };
+      self._paint(); self.api.announce(self._note.textContent || '');
+    });
+  },
+  _win: function () {
+    var self = this, st = this.st, pa = this._pa || {}, msg = this._t('okWin');
+    pa.msg = msg; this._busy = true;
+    var sealed = [{ pennant: 'ok' }, { crack: 'sealed', ring: 'teal', band: 'sealed' }, {}];
+    this._view = { marks: sealed };
+    this.api.announce(this._t('liveMended'));
+    this._paint();
+    this._later(function () { self._view = { marks: sealed, closing: true }; self._paint(); }, this._ms(700));
+    this._later(function () { if (self._shelf.indexOf(st.r.story) < 0) self._shelf.push(st.r.story); self._busy = false; self._view = { marks: sealed }; self._paint(); self.api.sound(659); self._later(function () { self.api.sound(784); }, self._ms(110)); self._later(function () { self.api.sound(1046); }, self._ms(220)); }, this._ms(1300));
+    this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this.OK_MS);
+  },
+  /* a shelved book opens again: its three pages, pennant, crack and bandage */
+  _preview: function (story) {
+    if (this._busy) return;
+    var self = this, r = (this._pool || []).filter(function (x) { return x.story === story; })[0]; if (!r) return;
+    this._view = { preview: { r: r, ids: r.pages.map(function (p) { return p.id; }) }, marks: [{ pennant: 'ok' }, { crack: 'sealed', ring: 'teal', band: 'sealed' }, {}] };
+    this._paint();
+    this._later(function () { if (self._view.preview && self._view.preview.r === r) { self._view = self.st.done ? { marks: [{ pennant: 'ok' }, { crack: 'sealed', ring: 'teal', band: 'sealed' }, {}] } : {}; self._paint(); } }, this._ms(2200));
+  }
+};
 
-    _story: function () { return this._stories[this._round.storyId] || { panels: [] }; },
-
-    render: function () {
-      var api = this._api; if (!api) return;
-      var stage = api.stage; stage.innerHTML = '';
-      var round = this._round; if (!round) return;
-      var root = el('div', 'ds-root');
-
-      var say = el('div', 'ds-say');
-      var dt = el('div', 'ds-dot'); dt.setAttribute('data-pose', this._resolved ? 'happy' : 'idle'); dt.innerHTML = dotSVG();
-      var msg = el('p', 'ds-line-msg'); msg.setAttribute('aria-live', 'polite');
-      say.append(dt, msg); root.appendChild(say); this._dot = dt;
-
-      this._renderStrip(root);
-      root.appendChild(this._srMirror());
-      stage.appendChild(root);
-    },
-
-    _renderStrip: function (root) {
-      var self = this, r = this._round, story = this._story(), tok = this._token;
-      var strip = el('div', 'ds-strip');
-      var order = this._panelOrder || (story.panels || []).map(function (_, i) { return i; });
-      order.forEach(function (pi) {
-        var p = story.panels[pi];
-        var b = el('button', 'ds-cand' + (self._nonConf[pi] ? ' dim' : '') + (self._lit === pi ? ' lit' : ''));
-        b.type = 'button'; b.setAttribute('aria-label', p.caption); b.setAttribute('data-pi', pi);
-        var sc = el('div'); sc.style.width = '100%'; sc.innerHTML = sceneSVG(p.glyphs || []);
-        var cap = el('div', 'ds-cap'); cap.textContent = p.caption || '';
-        b.append(sc, cap);
-        b.addEventListener('click', function () {
-          if (self._resolved || self._nonConf[pi] || self._token !== tok) return;
-          if (Core.isAnswer(r, story, pi)) { self._lit = pi; self._resolve(); }
-          else { self._nonConf[pi] = 1; self._nudge(r.role); }
-        });
-        strip.appendChild(b);
-      });
-      root.appendChild(strip);
-      var hear = el('button', 'ds-hear'); hear.type = 'button'; hear.textContent = txt('hear');
-      hear.addEventListener('click', function () {
-        var t = (story.panels || []).map(function (p) { return p.caption; }).join('. ');
-        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: (LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.9 }); } catch (e) { } }
-      });
-      root.appendChild(hear);
-    },
-
-    _resolve: function () {
-      this._resolved = true; this._finds += 1;
-      if (this._app) this._app.classList.add('dot-resolved');
-      this.render();
-      var line = this._api.stage.querySelector('.ds-line-msg');
-      if (line) { line.textContent = txt('win', { note: txt('winNote') }); line.classList.remove('miss'); }
-      this._api.sound && this._api.sound(880);
-      this._api.announce && this._api.announce(txt('win', { note: txt('winNote') }));
-    },
-    _nudge: function (role) {
-      var key = role === 'setting' ? 'nSetting' : role === 'problem' ? 'nProblem' : 'nSolution';
-      this._api.sound && this._api.sound(440);
-      this.render();
-      var line = this._api.stage.querySelector('.ds-line-msg');
-      if (line) { line.textContent = txt(key); line.classList.add('miss'); }
-      this._api.announce && this._api.announce(txt(key));
-    },
-
-    _srMirror: function () {
-      var r = this._round, story = this._story(), wrap = el('div', 'ds-sronly'); wrap.setAttribute('aria-live', 'polite');
-      var partWord = LANG === 'fr' ? 'Partie ' : LANG === 'de' ? 'Teil ' : LANG === 'es' ? 'Parte ' : LANG === 'pt' ? 'Parte ' : LANG === 'it' ? 'Parte ' : LANG === 'nl' ? 'Deel ' : 'Part ';
-      var caps = (story.panels || []).map(function (p, i) { return partWord + (i + 1) + ': ' + p.caption; }).join(' ');
-      var tail = LANG === 'fr' ? ' Tape la partie qui correspond.' : LANG === 'de' ? ' Tippe auf den passenden Teil.' : LANG === 'es' ? ' Toca la parte que corresponde.' : LANG === 'pt' ? ' Toque na parte certa.' : LANG === 'it' ? ' Tocca la parte giusta.' : LANG === 'nl' ? ' Tik op het juiste deel.' : ' Tap the part that matches.';
-      wrap.innerHTML = '<p>' + caps + ' ' + r.prompt + tail + '</p>';
-      return wrap;
-    },
-
-    reset: function () { if (this._round) { this._beginRound(this._round); this.render(); } }
-  };
-
-  global.StorySpineActivity = StorySpineActivity;
-
-}(typeof window !== 'undefined' ? window : this));
+var ssbCssDone = false;
+function injectBookCSS() {
+  if (ssbCssDone || typeof document === 'undefined') return;
+  ssbCssDone = true;
+  var B = 'var(--lcs-font-body,Nunito,sans-serif)', D = 'var(--lcs-font-display,\'Baloo 2\',sans-serif)';
+  var css = ''
+  + '.lcs-activity-check{display:none !important;}'
+  + '.ssb-wrap{position:relative;width:100%;display:flex;flex-direction:column;align-items:center;gap:10px;--ssb-ink:#2A2A35;--ssb-teal:#146B5E;--ssb-coral:#F2784B;--ssb-cream:#FFF8EC;--ssb-gold:#E8B83A;--ssb-green:#3E9B4F;user-select:none;-webkit-user-select:none;}'
+  + '.ssb-wrap:focus{outline:none;}'
+  /* the book: a hard cover in the story's colour, three page places */
+  + '.ssb-book{position:relative;display:grid;grid-template-columns:repeat(3,var(--ssb-card-w));gap:var(--ssb-gap);justify-content:center;padding:10px calc(var(--ssb-gap) / 2) 8px;border-radius:14px;background:var(--ssb-cover,#8A5A3B);box-shadow:inset 0 0 0 4px rgba(0,0,0,.18),0 6px 14px rgba(0,0,0,.18);transition:transform .5s ease-in,opacity .5s ease-in;}'
+  + '.ssb-book::before{content:"";position:absolute;left:50%;top:-6px;width:56px;height:12px;margin-left:-28px;border-radius:6px;background:#C8414B;box-shadow:inset 0 -3px 0 rgba(0,0,0,.2);}'
+  + '.ssb-book.is-closing{transform:scaleX(.08) translateY(-20px);opacity:.2;}'
+  + '.ssb-slot{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:4px;padding:0;border:0;background:transparent;cursor:default;font:inherit;color:var(--ssb-ink);}'
+  + '.ssb-slot.is-open{cursor:pointer;} .ssb-slot.is-open .ssb-empty{border-color:#fff;background:rgba(255,255,255,.35);}'
+  + '.ssb-slot.is-over .ssb-card,.ssb-slot.is-over .ssb-empty{box-shadow:inset 0 0 0 4px var(--ssb-teal);}'
+  + '.ssb-slot.is-sel .ssb-card{box-shadow:inset 0 0 0 4px var(--ssb-coral);}'
+  + '.ssb-slot.is-reading .ssb-card{box-shadow:inset 0 0 0 4px var(--ssb-gold);}'
+  + '.ssb-slot.is-flash .ssb-card{animation:ssb-flash .5s ease-in-out 3;} @keyframes ssb-flash{50%{box-shadow:inset 0 0 0 5px var(--ssb-gold);}}'
+  + '.ssb-slot.is-pulse .ssb-empty{animation:ssb-pulse 1s ease-in-out 2;} @keyframes ssb-pulse{50%{box-shadow:inset 0 0 0 4px var(--ssb-gold);}}'
+  + '.ssb-empty{display:block;width:var(--ssb-card-w);height:var(--ssb-area-h);box-sizing:border-box;border-radius:10px;border:3px dashed rgba(255,255,255,.7);background:rgba(255,255,255,.18);} .ssb-empty.is-short{height:16px;border-width:2px;border-radius:6px;}'
+  + '.ssb-num{display:block;min-height:20px;font-family:' + D + ';font-weight:800;font-size:18px;line-height:20px;color:#fff;}'
+  /* a page */
+  + '.ssb-slot>.ssb-card,.ssb-loose>.ssb-card{flex:1 1 auto;}'
+  + '.ssb-card{position:relative;display:flex;flex-direction:column;width:var(--ssb-card-w);box-sizing:border-box;padding:4px;border-radius:10px;background:var(--ssb-cream);box-shadow:inset 0 0 0 2.5px var(--ssb-ink);}'
+  + '.ssb-card.is-flyin{animation:ssb-flyin .35s ease-out;} @keyframes ssb-flyin{0%{transform:translateY(60px) scale(.9);opacity:.3;}}'
+  + '.ssb-pic{position:relative;display:block;width:100%;height:var(--ssb-area-h);border-radius:7px;overflow:hidden;}'
+  + '.ssb-sky-day{background:linear-gradient(#D6ECF9 0,#EEF7FC 70%,#B8DB9A 70%);} .ssb-sky-rain{background:linear-gradient(#B9C6D3 0,#D9E1E8 70%,#A9C79A 70%);} .ssb-sky-night{background:linear-gradient(#2B3563 0,#46548A 70%,#4E6B4A 70%);} .ssb-sky-indoor{background:linear-gradient(#F6E7CC 0,#F6E7CC 72%,#D9B98C 72%);}'
+  + '.ssb-pic.ssb-water{background:linear-gradient(#D6ECF9 0,#EEF7FC 62%,#7DB8E3 62%);} .ssb-pic.ssb-water.ssb-sky-rain{background:linear-gradient(#B9C6D3 0,#D9E1E8 62%,#7DA4C6 62%);}'
+  + '.ssb-pond{position:absolute;right:-8%;bottom:-6%;width:74%;height:40%;border-radius:50%;background:#7DB8E3;box-shadow:inset 0 5px 0 rgba(255,255,255,.45),inset 0 0 0 3px #5E9CC9;}'
+  + '.ssb-pp{position:absolute;display:block;} .ssb-img{width:100%;height:100%;object-fit:contain;display:block;pointer-events:none;}'
+  + '.ssb-pp.is-ring-coral::after,.ssb-pp.is-ring-teal::after,.ssb-pp.is-glow::after{content:"";position:absolute;inset:-4px;border-radius:50%;box-shadow:inset 0 0 0 4px var(--ssb-coral);pointer-events:none;}'
+  + '.ssb-pp.is-ring-teal::after{box-shadow:inset 0 0 0 4px var(--ssb-teal);} .ssb-pp.is-glow::after{box-shadow:0 0 0 4px rgba(232,184,58,.85),inset 0 0 0 4px var(--ssb-gold);animation:ssb-glow 1s ease-in-out infinite;} @keyframes ssb-glow{50%{opacity:.4;}}'
+  + '.ssb-cap{display:block;margin-top:4px;padding:0 2px;font-family:' + B + ';font-weight:700;font-size:15px;line-height:1.25;text-align:left;color:var(--ssb-ink);overflow-wrap:anywhere;-webkit-hyphens:auto;hyphens:auto;}'
+  + '.ssb-wrap.is-nowords .ssb-cap{display:none;}'
+  /* the marks of the reading */
+  + '.ssb-pennant{position:absolute;left:6px;top:4px;width:26px;height:34px;border-left:3px solid var(--ssb-ink);transform-origin:0 100%;animation:ssb-plant .3s ease-out;} .ssb-pennant::after{content:"";position:absolute;left:0;top:0;border-left:22px solid var(--ssb-green);border-top:9px solid transparent;border-bottom:9px solid transparent;animation:ssb-flutter .6s ease-in-out infinite alternate;}'
+  + '.ssb-pennant.is-tip{transform:rotate(80deg) translate(10px,-6px);opacity:.75;animation:ssb-tip .5s ease-in;} @keyframes ssb-plant{0%{transform:translateY(-14px);opacity:0;}} @keyframes ssb-flutter{to{transform:skewY(-8deg);}} @keyframes ssb-tip{0%{transform:rotate(0);}}'
+  + '.ssb-crack{position:absolute;left:50%;top:0;bottom:0;width:18px;margin-left:-9px;background:var(--ssb-coral);clip-path:polygon(40% 0,70% 0,45% 18%,80% 34%,40% 52%,78% 70%,45% 86%,62% 100%,30% 100%,58% 86%,22% 70%,60% 52%,20% 34%,58% 18%);animation:ssb-tear .25s ease-out;} .ssb-crack.is-sealed{opacity:.35;} @keyframes ssb-tear{0%{clip-path:polygon(40% 0,70% 0,70% 0,40% 0);}}'
+  + '.ssb-wrap:not(.is-fast) .ssb-slot.is-reading .ssb-pic:has(.ssb-crack:not(.is-sealed)){animation:ssb-jolt .25s ease-in-out;} @keyframes ssb-jolt{30%{transform:translateX(-3px);}60%{transform:translateX(3px);}}'
+  + '.ssb-flat{position:absolute;left:0;right:0;bottom:0;height:5px;background:#B9A988;}'
+  + '.ssb-band{position:absolute;left:50%;top:50%;width:var(--ssb-unit);height:var(--ssb-unit);margin:calc(var(--ssb-unit) / -2) 0 0 calc(var(--ssb-unit) / -2);object-fit:contain;pointer-events:none;transform:rotate(-35deg);}'
+  + '.ssb-band.is-seal{animation:ssb-seal .45s ease-out;} @keyframes ssb-seal{0%{transform:translateX(calc(var(--ssb-card-w) + var(--ssb-gap))) rotate(-395deg);}}'
+  + '.ssb-band.is-peel{animation:ssb-peel 1.1s ease-in forwards;} @keyframes ssb-peel{0%{transform:translateX(calc(var(--ssb-card-w) + var(--ssb-gap))) rotate(-395deg);}35%{transform:rotate(-35deg);}55%{transform:rotate(-35deg) scaleY(.6);}100%{transform:translate(20px,90px) rotate(40deg) scaleY(.6);opacity:0;}}'
+  + '.ssb-band.is-slide{animation:ssb-slide 1.1s ease-in forwards;} @keyframes ssb-slide{0%{transform:translateX(calc(var(--ssb-card-w) + var(--ssb-gap))) rotate(-35deg);}50%{transform:translateX(-30px) rotate(-35deg);}100%{transform:translate(-60px,90px) rotate(10deg);opacity:0;}}'
+  + '.ssb-idle{position:absolute;right:6px;top:6px;width:34px;height:14px;border-radius:5px;background:#E8C9A8;box-shadow:inset 0 0 0 2px #B98F66;opacity:.8;}'
+  + '.ssb-search{position:absolute;left:50%;top:44%;width:40px;height:40px;margin:-20px 0 0 -20px;border-radius:50%;border:3px dashed var(--ssb-coral);animation:ssb-look 1.2s ease-in-out;} @keyframes ssb-look{0%{transform:translate(-40px,20px);}50%{transform:translate(30px,-10px);}}'
+  /* the faint mark on the page that belongs under the wrong tab (miss 2) */
+  + '.ssb-ghostmark{position:absolute;right:6px;top:6px;width:34px;height:34px;opacity:.55;}'
+  /* the table and the loose pages */
+  + '.ssb-table{display:grid;grid-template-columns:repeat(3,var(--ssb-card-w));gap:var(--ssb-gap);justify-content:center;width:100%;padding-top:10px;border-top:3px dashed #D9C8A8;} .ssb-table[hidden]{display:none;}'
+  + '.ssb-hole{display:block;width:var(--ssb-card-w);} '
+  + '.ssb-loose{position:relative;display:flex;flex-direction:column;align-items:stretch;padding:0;border:0;background:transparent;cursor:pointer;font:inherit;touch-action:none;transform:rotate(-1.5deg);} .ssb-loose:nth-child(2){transform:rotate(1.5deg);}'
+  + '.ssb-loose.is-sel .ssb-card{box-shadow:inset 0 0 0 4px var(--ssb-coral);} .ssb-loose.is-over .ssb-card{box-shadow:inset 0 0 0 4px var(--ssb-teal);}'
+  + '.ssb-clip{display:flex;justify-content:center;min-height:44px;margin-bottom:4px;border-radius:10px;border:2px dashed #C9B999;}'
+  + '.ssb-loose.has-tab .ssb-clip{border-color:transparent;}'
+  /* the tabs */
+  + '.ssb-tray{display:grid;grid-template-columns:repeat(3,var(--ssb-card-w));gap:var(--ssb-gap);justify-content:center;} .ssb-tray[hidden]{display:none;}'
+  + '.ssb-trayslot{padding:0;border:0;background:transparent;cursor:grab;touch-action:none;display:flex;justify-content:center;}'
+  + '.ssb-tab{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-width:0;max-width:100%;min-height:44px;box-sizing:border-box;padding:0 10px;border-radius:10px;background:#fff;box-shadow:inset 0 0 0 3px var(--ssb-ink),0 3px 0 #C9B999;cursor:grab;touch-action:none;}'
+  + '.ssb-tab.is-sel{box-shadow:inset 0 0 0 4px var(--ssb-coral),0 3px 0 #C9B999;transform:translateY(-3px);}'
+  + '.ssb-tabword{font-family:' + D + ';font-weight:800;font-size:16px;line-height:1.1;text-transform:uppercase;color:var(--ssb-ink);overflow-wrap:anywhere;}'
+  + '.ssb-mark{display:block;flex:none;width:22px;height:22px;}'
+  + '.ssb-mark-start{position:relative;border-left:3px solid var(--ssb-ink);box-sizing:border-box;} .ssb-mark-start::after{content:"";position:absolute;left:0;top:1px;border-left:16px solid var(--ssb-green);border-top:7px solid transparent;border-bottom:7px solid transparent;}'
+  + '.ssb-mark-trouble{background:var(--ssb-coral);clip-path:polygon(35% 0,70% 0,45% 30%,85% 52%,40% 100%,52% 58%,15% 42%);}'
+  + '.ssb-mark-fix{height:12px;width:24px;border-radius:5px;background:repeating-linear-gradient(90deg,#E8C9A8 0 8px,#F7EEE3 8px 16px);box-shadow:inset 0 0 0 2px #B98F66;transform:rotate(-30deg);}'
+  /* sentence strips */
+  + '.ssb-strip{min-height:48px;padding:8px 10px;border:0;border-radius:10px;background:#fff;box-shadow:inset 0 0 0 3px var(--ssb-ink),0 3px 0 #C9B999;font-family:' + B + ';font-weight:700;font-size:15px;line-height:1.3;color:var(--ssb-ink);text-align:left;cursor:grab;touch-action:none;overflow-wrap:anywhere;} .ssb-strip.is-sel{box-shadow:inset 0 0 0 4px var(--ssb-coral);}'
+  + '.ssb-capslot{display:block;width:var(--ssb-card-w);min-height:48px;box-sizing:border-box;padding:6px 8px;border-radius:8px;border:2px dashed rgba(255,255,255,.8);background:rgba(255,255,255,.2);font-family:' + B + ';font-weight:700;font-size:15px;line-height:1.3;text-align:left;color:var(--ssb-ink);cursor:pointer;touch-action:none;overflow-wrap:anywhere;}'
+  + '.ssb-capslot.is-full{border:0;background:#fff;box-shadow:inset 0 0 0 3px var(--ssb-teal);} .ssb-capslot.is-sel{box-shadow:inset 0 0 0 4px var(--ssb-coral);} .ssb-capslot.is-over{box-shadow:inset 0 0 0 4px var(--ssb-teal);background:#fff;}'
+  + '.ssb-capslot.is-wrong{box-shadow:inset 0 0 0 3px var(--ssb-coral);} .ssb-kw{text-decoration:underline;text-decoration-color:var(--ssb-coral);text-decoration-thickness:3px;text-underline-offset:3px;}'
+  + '.ssb-ghost{position:fixed;z-index:9999;pointer-events:none;opacity:.85;}'
+  /* the retell ribbon */
+  + '.ssb-ribbon{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;width:100%;max-width:660px;} .ssb-ribbon[hidden]{display:none;}'
+  + '.ssb-rtab{display:flex;flex-direction:column;gap:2px;min-height:56px;padding:8px 10px;border:0;border-radius:12px;background:#FFF1BF;box-shadow:inset 0 0 0 3px var(--ssb-gold);text-align:left;cursor:pointer;font:inherit;color:var(--ssb-ink);}'
+  + '.ssb-starter{font-family:' + D + ';font-weight:800;font-size:16px;color:#A6461F;} .ssb-rcap{font-family:' + B + ';font-weight:700;font-size:15px;line-height:1.3;overflow-wrap:anywhere;}'
+  /* the shelf and the gold stud */
+  + '.ssb-row{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;max-width:660px;}'
+  + '.ssb-shelf{display:flex;align-items:flex-end;gap:3px;min-height:48px;padding:0 6px 4px;border:0;border-bottom:5px solid #9A6B3E;border-radius:0 0 3px 3px;background:transparent;flex:1 1 auto;min-width:0;cursor:pointer;} .ssb-shelf:disabled{cursor:default;}'
+  + '.ssb-spine{display:block;width:16px;height:40px;border-radius:3px 3px 1px 1px;box-shadow:inset 0 0 0 2px rgba(0,0,0,.25),inset 0 8px 0 rgba(255,255,255,.25);flex:none;} .ssb-spine.is-open{transform:translateY(-6px);}'
+  + '.ssb-stud{display:inline-flex;align-items:center;gap:10px;min-height:52px;padding:0 18px 0 8px;border-radius:28px;border:0;background:var(--ssb-cream);box-shadow:inset 0 0 0 3px var(--ssb-ink),0 3px 0 #C9B999;font-family:' + D + ';font-weight:800;font-size:18px;color:var(--ssb-ink);cursor:pointer;flex:none;}'
+  + '.ssb-stud[hidden]{display:none;} .ssb-stud:disabled{opacity:.6;}'
+  + '.ssb-knob{display:block;width:40px;height:40px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#FFE89A,#E8B83A 55%,#B8861B);box-shadow:0 2px 0 #8C6512;}'
+  + '.ssb-note{width:100%;max-width:660px;min-height:24px;margin:0;font-weight:700;font-size:clamp(15px,2.3vw,18px);line-height:1.3;font-family:' + B + ';color:var(--ssb-teal);text-align:center;} .ssb-note:empty{display:none;} .ssb-note.is-wrong{color:#A6461F;}'
+  /* phones */
+  + '.ssb-wrap.is-narrow{gap:8px;} .ssb-wrap.is-narrow .ssb-card{padding:3px;} .ssb-wrap.is-narrow .ssb-book{padding:8px 3px 4px;}'
+  + '.ssb-wrap.is-narrow .ssb-cap,.ssb-wrap.is-narrow .ssb-strip,.ssb-wrap.is-narrow .ssb-capslot,.ssb-wrap.is-narrow .ssb-rcap{font-size:14px;line-height:1.2;}'
+  + '.ssb-wrap.is-narrow .ssb-strip,.ssb-wrap.is-narrow .ssb-capslot{padding:5px 6px;}'
+  + '.ssb-strip,.ssb-capslot,.ssb-rcap{-webkit-hyphens:auto;hyphens:auto;}'
+  + '.ssb-wrap.is-narrow .ssb-tab{padding:0 4px;gap:4px;width:100%;} .ssb-wrap.is-narrow .ssb-tabword{font-size:14px;text-transform:none;} .ssb-wrap.is-narrow .ssb-mark{width:16px;height:16px;}'
+  + '.ssb-wrap.is-narrow .ssb-ribbon{grid-template-columns:1fr;} .ssb-wrap.is-narrow .ssb-rtab{min-height:44px;padding:6px 10px;}'
+  + '.ssb-wrap.is-tiny .ssb-num{min-height:16px;font-size:15px;line-height:16px;} .ssb-wrap.is-tiny .ssb-book{padding-top:8px;gap:4px;} .ssb-wrap.is-tiny .ssb-slot{gap:2px;}'
+  + '.ssb-wrap.is-tiny{gap:6px;} .ssb-wrap.is-tiny .ssb-stud{min-height:48px;} .ssb-wrap.is-tiny .ssb-knob{width:36px;height:36px;} .ssb-wrap.is-tiny .ssb-shelf{min-height:44px;}'
+  + '.ssb-wrap.is-tiny .ssb-cap{line-height:1.15;} .ssb-wrap.is-tiny .ssb-table{padding-top:6px;} .ssb-wrap.is-tiny .ssb-mark{display:none;} .ssb-wrap.is-tiny .ssb-studlabel{display:none;} .ssb-wrap.is-tiny .ssb-stud{padding:0 6px;}'
+  + '.ssb-wrap.is-still .ssb-pennant,.ssb-wrap.is-still .ssb-pennant::after,.ssb-wrap.is-still .ssb-crack,.ssb-wrap.is-still .ssb-band,.ssb-wrap.is-still .ssb-pic{animation:none !important;}'
+  + '.ssb-wrap.is-fast .ssb-band.is-peel,.ssb-wrap.is-fast .ssb-band.is-slide{display:none;}'
+  + '.ssb-wrap.is-fast *,.ssb-wrap.is-fast *::before,.ssb-wrap.is-fast *::after{animation:none !important;transition:none !important;}'
+  + '@media (prefers-reduced-motion: reduce){.ssb-wrap *{animation-duration:.2s !important;transition-duration:.05s !important;}}'
+  + '@media print{.ssb-row,.ssb-note{display:none;}}';
+  var s = document.createElement('style'); s.id = 'ssb-css'; s.textContent = css; document.head.appendChild(s);
+}

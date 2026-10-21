@@ -40,10 +40,11 @@ const PROMPTS_TELL = {
   it: 'Ascolta bene. Tocca la parola che senti.', es: 'Escucha con atención. Toca la palabra que escuchas.', pt: 'Ouça com atenção. Toque na palavra que você ouve.',
   nl: 'Luister goed. Tik op het woord dat je hoort.', sv: 'Lyssna noga. Tryck på ordet du hör.', da: 'Lyt godt efter. Tryk på ordet, du hører.', no: 'Lytt godt. Trykk på ordet du hører.'
 };
+/* read-sight-word left this harness 2026-10-21 (rebuild #60): it runs The Blink Camera now (node scripts/local-test-blink-camera.js) */
 const ACTIVITIES = [
-  { id: 'choice-board.read-sight-word.rf-k-3-c', prompts: PROMPTS_READ },
   { id: 'choice-board.tell-words-apart.rf-k-3-c', prompts: PROMPTS_TELL }
 ];
+void PROMPTS_READ;
 
 function serve() {
   return http.createServer((req, res) => {

@@ -3864,25 +3864,25 @@
     },
     "choice-board.read-sight-word.rf-k-3-c": {
       "about": [
-        "Das Kind hört ein häufiges Wort laut vorgelesen und tippt dann unter ähnlich aussehenden Auswahlmöglichkeiten das passende geschriebene Wort an — alltägliche Wörter wie und, die, ist, ein, war und sie, die in ersten Lesetexten ständig auftauchen. Diese interaktive Leseübung für die 1. Klasse läuft direkt im Browser auf Tablet, Handy und Computer — ohne Installation und ohne Anmeldung.",
-        "Der Kern: häufige Wörter sofort auf einen Blick wiedererkennen, damit das Lesen ins Fließen kommt. Viele dieser Wörter lassen sich nicht sauber Laut für Laut erlesen, deshalb sind die falschen Antworten nahe Verwandte — die neben der, war neben wir — und das Kind muss genau das richtige Wort kennen, nicht nur eine ähnliche Form. Das Wort zu hören und im Druck wiederzufinden verbindet Klang und Schreibweise bei den Wörtern, die Kinder am häufigsten treffen.",
-        "Die Übung ist am Lehrplan der 1. Klasse ausgerichtet — häufige Wörter sicher auf einen Blick lesen. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+        "Ein häufiges Wort soll man auf einen Blick lesen können – darum zeigt diese Kamera das Wort genau einen Augenblick lang. Das Kind drückt auf den großen Auslöser, die Blende dreht sich auf, und «der» leuchtet in der Linse, während vier Karten verdeckt liegen. Die Blende schließt sich, die Karten drehen sich um – dem, der, den und die –, und das Kind tippt das Wort an, das es gesehen hat. Eine interaktive Leseübung, die im Browser läuft.",
+        "Die ähnlichen Wörter sind so gewählt, dass ein Blick auf den ersten Buchstaben nie genügt. Eine falsche Karte dreht sich zurück, und die Kamera blitzt noch einmal, etwas länger; nach zwei Fehlversuchen liegt ein Foto des Wortes neben den Karten, und die Buchstaben, die sich unterscheiden, leuchten. Bei «Alle finden» rahmt das Kind jedes «und» in einem Feld aus zwölf Kärtchen ein – es steht fünfmal da – und sagt dann, wie viele es sind. In der Geschichte steckt das Wort in kurzen Sätzen neben einem Bild: „Der Hund spielt mit dem Ball. Wo ist der Ball?“ Auch mit großem Anfangsbuchstaben ist es dasselbe Wort. Jede richtige Antwort wird zu einem Foto im Album.",
+        "Die Übung orientiert sich am Lehrplan: häufige Wörter schnell und sicher erkennen. Die Drehscheibe an der Kamera stellt einen langen, mittleren oder kurzen Blitz ein, und die Kamera kann jederzeit noch einmal gedrückt werden. Ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "Häufige Wörter wie und, die, ist und war auf einen Blick wiedererkennen.",
-        "Ein gehörtes Wort seiner geschriebenen Form zuordnen.",
-        "Ähnlich aussehende Wörter unterscheiden, etwa die und der oder war und wir.",
-        "Das schnelle Wiedererkennen aufbauen, das flüssiges Lesen ausmacht."
+        "Häufige Wörter auf einen Blick lesen",
+        "Ein Wort Buchstabe für Buchstabe von ähnlichen Wörtern unterscheiden",
+        "Auf die Reihenfolge der Buchstaben achten",
+        "Dasselbe Wort in Sätzen wiederfinden, auch mit großem Anfangsbuchstaben"
       ],
       "howToPlay": [
-        "Hör dir das vorgelesene Wort an — tippe darauf, um es noch einmal zu hören.",
-        "Tippe das geschriebene Wort an, das zu dem passt, was du gehört hast, und tippe dann auf Prüfen.",
-        "Stimmt es noch nicht? Probiere es so oft du möchtest — es gibt keinen Timer und keine Punkte."
+        "Drück auf den Auslöser und schau dir das Wort in der Linse an.",
+        "Wenn sich die Karten umdrehen, tippe das Wort an, das du gesehen hast.",
+        "Drück auf «Prüfen». Nicht richtig? Drück noch einmal auf den Auslöser und schau genau hin."
       ],
       "learningGoals": [
-        "Häufige Wörter sicher auf einen Blick lesen.",
-        "Ein gehörtes Wort mit seiner genauen Schreibweise unter ähnlichen Wörtern verbinden.",
-        "Den Wortschatz an Sichtwörtern aufbauen, der den Kopf frei macht, um den Sinn des Gelesenen zu erfassen."
+        "Das Kind liest häufige Wörter auf einen Blick",
+        "Das Kind unterscheidet ein Wort von Wörtern, die fast gleich aussehen",
+        "Das Kind erkennt dasselbe Wort in Sätzen wieder, auch großgeschrieben"
       ]
     },
     "choice-board.letter-case.rf-k-1-d": {

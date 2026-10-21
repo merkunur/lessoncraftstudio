@@ -1129,24 +1129,25 @@
     },
     "choice-board.read-sight-word.rf-k-3-c": {
       "about": [
-        "Læs hyppige ord lader barnet høre et almindeligt ord læst højt og derefter trykke på det rigtige ordbillede blandt fire ord, der ligner hinanden — hverdagsord som og, er, jeg, det, var, se og kan, som dukker op hele tiden i de første tekster. Det er en interaktiv læseaktivitet til 1. klasse, der kører direkte i browseren på tablet, telefon og computer, uden at installere noget og uden konto.",
-        "Den store idé er at genkende almindelige ord på et øjeblik, så læsningen kan glide. Mange af ordene kan ikke uden videre lydes ud, så de forkerte valg er nære slægtninge — var ved siden af var, og ved siden af og — og barnet skal kende præcis det rigtige ord, ikke bare en lignende form. At høre ordet og finde det på skrift forbinder lyd og stavemåde for netop de ord, børnene møder allermest. Aktiviteten følger Fælles Mål inden for de tidlige læsefærdigheder: at genkende hyppige ordbilleder. Der er ingen timer og ingen point."
+        "Et ordbillede skal kunne læses i et glimt – derfor viser dette kamera ordet i præcis ét glimt. Barnet trykker på den store udløser, blænden drejer op, og «og» lyser i linsen, mens fire kort ligger med bagsiden op. Lukkeren klikker i, kortene vender sig – om, og, op og os – og barnet trykker på det ord, det så. En interaktiv læseøvelse, der kører i browseren.",
+        "Ordene, der ligner, er valgt, så et blik på det første bogstav aldrig er nok. Et forkert kort vender tilbage, og kameraet blinker igen, lidt længere; efter to fejl ligger der et foto af ordet ved siden af kortene, og de bogstaver, der er forskellige, lyser. I «Find dem alle» sætter barnet en ramme om hvert «er» i et net af tolv brikker – det står der fem gange – og siger så, hvor mange der er. I historien gemmer ordet sig i korte sætninger ved siden af et billede: »Katten og hunden leger. Og så sover de.« Med stort begyndelsesbogstav er det stadig det samme ord. Hvert rigtigt svar bliver til et foto i albummet.",
+        "Øvelsen følger Fælles Mål for dansk: at genkende hyppige ord hurtigt og sikkert. Drejeknappen på kameraet vælger et langt, mellemlangt eller kort glimt, og kameraet kan altid trykkes igen. Intet ur og ingen point."
       ],
       "practices": [
-        "Genkende almindelige ordbilleder som og, er, det og jeg på et øjeblik",
-        "Forbinde et ord, man hører, med dets skrevne form",
-        "Kende ord, der ligner hinanden, fra hinanden",
-        "Bygge den hurtige ordgenkendelse, der gør læsningen flydende"
+        "At læse hyppige ord i et glimt",
+        "At skelne et ord fra ord, der ligner, bogstav for bogstav",
+        "At lægge mærke til bogstavernes rækkefølge",
+        "At finde det samme ord i sætninger, også med stort begyndelsesbogstav"
       ],
       "howToPlay": [
-        "Barnet lytter til ordet, der bliver læst højt — og kan trykke for at høre det igen.",
-        "Barnet trykker på det skrevne ord, der passer med det, det hørte, og trykker så på Tjek.",
-        "Passer det ikke? Så kan barnet prøve igen, så mange gange det vil — der er ingen timer og ingen point."
+        "Tryk på kameraets udløser, og se på ordet i linsen.",
+        "Når kortene vender, trykker du på det ord, du så.",
+        "Tryk på «Tjek». Ikke rigtigt? Tryk på kameraet igen, og se en gang til."
       ],
       "learningGoals": [
-        "Barnet kan læse hyppige ordbilleder på et øjeblik",
-        "Barnet kan forbinde et ord, det hører, med dets præcise stavemåde blandt ord, der ligner hinanden",
-        "Barnet opbygger det ordforråd af ordbilleder, der frigør opmærksomhed til at forstå det, det læser"
+        "Barnet læser hyppige ord i et glimt",
+        "Barnet skelner et ord fra ord, der ser næsten ens ud",
+        "Barnet genkender det samme ord i sætninger, også med stort begyndelsesbogstav"
       ]
     },
     "choice-board.letter-case.rf-k-1-d": {

@@ -3421,25 +3421,25 @@
     },
     "choice-board.read-sight-word.rf-k-3-c": {
       "about": [
-        "El niño o la niña escucha en voz alta una palabra de uso muy frecuente y luego toca la palabra escrita correcta entre varias opciones parecidas: palabras de todos los días como el, la, que, con, una y es, que aparecen una y otra vez en los primeros textos. Es una actividad de lectura para preescolar (kínder) y el comienzo de la primaria, interactiva, que corre directo en el navegador de tabletas, celulares y computadoras, sin instalar nada y sin crear cuenta.",
-        "La idea central es reconocer de vista, al instante, las palabras más comunes para que la lectura fluya. Como muchas de estas palabras se confunden con otras muy parecidas, las opciones equivocadas son primas cercanas (es junto a el, una junto a un), así que hay que reconocer la palabra exacta y no solo una forma similar. Escuchar la palabra y encontrarla escrita conecta el sonido con la escritura justo en las palabras que más se repiten.",
-        "Está alineada con los planes y programas de estudio (SEP): leer de vista palabras de uso frecuente. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+        "Una palabra de uso frecuente se lee en un instante; por eso esta cámara muestra la palabra justo un destello. El niño aprieta el botón grande, el diafragma gira y «el» brilla en la lente mientras cuatro tarjetas están boca abajo. El obturador se cierra con un clic, las tarjetas se voltean – ella, el, le y del – y el niño toca la palabra que vio. Una actividad interactiva de lectura que funciona en el navegador.",
+        "Las palabras parecidas están elegidas para que mirar solo la primera letra nunca baste. Una tarjeta equivocada se voltea otra vez y la cámara vuelve a mostrar la palabra un poco más de tiempo; tras dos errores, una foto de la palabra se queda junto a las tarjetas y brillan las letras que cambian. En «Encuéntralas todas» el niño pone un marco a cada «la» en una cuadrícula de doce fichas – aparece cinco veces – y luego dice cuántas hay. En el cuento, la palabra se esconde en frases cortas junto a un dibujo: «El gato duerme en la cama del niño.» Con mayúscula al principio sigue siendo la misma palabra. Cada respuesta correcta se revela como una foto para el álbum.",
+        "La actividad se basa en los programas de estudio de la SEP: reconocer rápido y con seguridad las palabras de uso frecuente. La perilla de la cámara elige un destello largo, medio o corto, y la cámara se puede volver a apretar cuando se quiera. Sin cronómetro y sin puntuación."
       ],
       "practices": [
-        "Reconocer de vista palabras frecuentes como el, la, que y con.",
-        "Relacionar una palabra escuchada con su forma escrita.",
-        "Distinguir palabras parecidas, como es y el, o un y una.",
-        "Construir el reconocimiento instantáneo que hace fluida la lectura."
+        "Leer de un vistazo palabras de uso frecuente",
+        "Distinguir una palabra de otras parecidas, letra por letra",
+        "Fijarse en el orden de las letras",
+        "Encontrar la misma palabra en frases, con o sin mayúscula"
       ],
       "howToPlay": [
-        "Escucha la palabra en voz alta; toca para volver a oírla si lo necesitas.",
-        "Toca la palabra escrita que coincide con la que escuchaste y pulsa Comprobar.",
-        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntuación."
+        "Aprieta el botón de la cámara y mira la palabra en la lente.",
+        "Cuando las tarjetas se volteen, toca la palabra que viste.",
+        "Aprieta «Revisar». ¿No es correcta? Vuelve a apretar la cámara y mira otra vez."
       ],
       "learningGoals": [
-        "Leer de vista palabras de uso frecuente.",
-        "Conectar una palabra escuchada con su escritura exacta entre opciones parecidas.",
-        "Formar un banco de palabras conocidas que libera la atención para entender lo que se lee."
+        "El niño lee de un vistazo palabras de uso frecuente",
+        "El niño distingue una palabra de otras que se ven casi iguales",
+        "El niño reconoce la misma palabra en frases, también con mayúscula"
       ]
     },
     "choice-board.letter-case.rf-k-1-d": {

@@ -3231,25 +3231,25 @@
     },
     "choice-board.read-sight-word.rf-k-3-c": {
       "about": [
-        "L'enfant entend un mot fréquent prononcé à voix haute, puis touche le mot écrit correct parmi des propositions qui se ressemblent — des mots outils du quotidien comme et, le, un, est, dans, elle, son ou avec, qui reviennent sans cesse dans les premiers textes. C'est une activité de lecture interactive pour le CP, qui se joue directement dans le navigateur sur tablette, téléphone et ordinateur, sans rien installer et sans inscription.",
-        "La grande idée, c'est de reconnaître ces mots courants d'un seul coup d'œil, instantanément, pour que la lecture devienne fluide. Beaucoup de ces mots ne se décodent pas facilement lettre à lettre : les mauvaises réponses sont donc des cousins très proches — son à côté de sont, ou est à côté de et — et l'enfant doit connaître le mot exact, pas seulement une silhouette ressemblante. Entendre le mot puis le retrouver à l'écrit relie le son à l'orthographe pour les mots que l'enfant croise le plus souvent.",
-        "Cette activité est alignée sur les programmes officiels : lire les mots fréquents les plus courants de façon directe, par reconnaissance globale. Les enfants avancent à leur rythme, avec un retour doux et immédiat — ni minuteur, ni score."
+        "Un mot outil se lit en un éclair : cet appareil photo montre donc le mot le temps d’un seul éclair. L’enfant appuie sur le gros déclencheur, le diaphragme s’ouvre en tournant et « les » s’affiche dans l’objectif pendant que quatre cartes restent face cachée. L’obturateur se referme, les cartes se retournent – des, les, mes et le – et l’enfant touche le mot qu’il a vu. Une activité de lecture interactive qui fonctionne dans le navigateur.",
+        "Les mots qui se ressemblent sont choisis pour qu’un coup d’œil à la première lettre ne suffise jamais. Une carte fausse se retourne et l’appareil montre le mot une nouvelle fois, un peu plus longtemps ; après deux erreurs, une photo du mot se pose à côté des cartes et les lettres qui diffèrent s’allument. Dans « Trouve-les tous », l’enfant encadre chaque « une » dans une grille de douze étiquettes – il y en a cinq – puis dit combien il en a trouvé. Dans l’histoire, le mot se cache dans de courtes phrases à côté d’une image : « Le chat aime les souris. Les souris ont peur ! » Avec une majuscule au début, c’est toujours le même mot. Chaque bonne réponse devient une photo dans l’album.",
+        "L’activité suit les programmes officiels : reconnaître vite et sûrement les mots fréquents. La molette de l’appareil choisit un éclair long, moyen ou court, et l’on peut appuyer de nouveau sur l’appareil à tout moment. Ni minuteur ni score."
       ],
       "practices": [
-        "Reconnaître d'un seul coup d'œil des mots fréquents comme et, le, un et est.",
-        "Associer un mot entendu à sa forme écrite.",
-        "Distinguer des mots qui se ressemblent, comme son et sont, ou est et et.",
-        "Développer la reconnaissance immédiate des mots qui rend la lecture fluide."
+        "Lire des mots fréquents en un coup d’œil",
+        "Distinguer un mot de mots qui lui ressemblent, lettre par lettre",
+        "Faire attention à l’ordre des lettres",
+        "Retrouver le même mot dans des phrases, avec ou sans majuscule"
       ],
       "howToPlay": [
-        "Écoute le mot prononcé à voix haute — touche pour l'entendre à nouveau si tu veux.",
-        "Touche le mot écrit qui correspond à ce que tu as entendu, puis appuie sur Vérifier.",
-        "Pas tout à fait ? Recommence autant de fois que tu veux — il n'y a ni minuteur, ni score."
+        "Appuie sur le déclencheur et regarde le mot dans l’objectif.",
+        "Quand les cartes se retournent, touche le mot que tu as vu.",
+        "Appuie sur « Vérifier ». Pas juste ? Appuie de nouveau sur l’appareil et regarde encore."
       ],
       "learningGoals": [
-        "Lire les mots fréquents par reconnaissance globale.",
-        "Relier un mot entendu à son orthographe exacte parmi des mots qui se ressemblent.",
-        "Constituer le stock de mots reconnus immédiatement, qui libère l'attention pour comprendre ce qu'on lit."
+        "L’enfant lit des mots fréquents en un coup d’œil",
+        "L’enfant distingue un mot de mots presque pareils",
+        "L’enfant reconnaît le même mot dans des phrases, même avec une majuscule"
       ]
     },
     "choice-board.letter-case.rf-k-1-d": {

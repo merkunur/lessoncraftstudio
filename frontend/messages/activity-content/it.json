@@ -2373,25 +2373,25 @@
     },
     "choice-board.read-sight-word.rf-k-3-c": {
       "about": [
-        "Il bambino ascolta una parola ad alta frequenza pronunciata ad alta voce, poi tocca la parola scritta giusta tra quattro scelte molto simili tra loro: le parole più comuni che compaiono di continuo nei primi testi. È un'attività di lettura interattiva per la classe prima della scuola primaria, che funziona direttamente nel browser su tablet, telefono e computer, senza installare nulla e senza registrazione.",
-        "L'idea importante è riconoscere le parole frequenti a colpo d'occhio, in modo immediato, così che la lettura possa scorrere. Poiché molte di queste parole si assomigliano, le scelte sbagliate sono parenti strette, con piccole differenze di lettere o di lunghezza, e il bambino deve riconoscere la parola esatta, non solo una forma simile. Ascoltare la parola e ritrovarla scritta collega il suono all'ortografia delle parole che i bambini incontrano più spesso.",
-        "L'attività è allineata alle Indicazioni nazionali: leggere a prima vista le parole più comuni ad alta frequenza. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
+        "Una parola frequente si legge in un lampo: per questo la fotocamera mostra la parola per un solo lampo. Il bambino preme il grande pulsante, il diaframma si apre girando e «il» brilla nell’obiettivo mentre quattro carte restano coperte. L’otturatore si chiude con uno scatto, le carte si girano – in, il, li e si – e il bambino tocca la parola che ha visto. Un’attività di lettura interattiva che funziona nel browser.",
+        "Le parole simili sono scelte in modo che uno sguardo alla prima lettera non basti mai. Una carta sbagliata si rigira e la fotocamera mostra di nuovo la parola, un po’ più a lungo; dopo due errori una foto della parola resta accanto alle carte e le lettere diverse si illuminano. In «Trovale tutte» il bambino mette una cornice attorno a ogni «la» in una griglia di dodici tessere – compare cinque volte – e poi dice quante sono. Nella storia la parola si nasconde in frasi brevi accanto a un disegno: «Il gatto dorme. La mamma accarezza il gatto in casa.» Con la maiuscola all’inizio è sempre la stessa parola. Ogni risposta giusta diventa una foto nell’album.",
+        "L’attività segue le Indicazioni nazionali: riconoscere in modo rapido e sicuro le parole di uso frequente. La rotella della fotocamera sceglie un lampo lungo, medio o breve, e la fotocamera si può premere di nuovo in qualsiasi momento. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Riconoscere a colpo d'occhio le parole frequenti più comuni.",
-        "Abbinare una parola ascoltata alla sua forma scritta.",
-        "Distinguere parole molto simili che differiscono per poche lettere.",
-        "Costruire il riconoscimento immediato delle parole che rende fluida la lettura."
+        "Leggere in un lampo le parole frequenti",
+        "Distinguere una parola da altre simili, lettera per lettera",
+        "Fare attenzione all’ordine delle lettere",
+        "Ritrovare la stessa parola nelle frasi, con o senza maiuscola"
       ],
       "howToPlay": [
-        "Il bambino ascolta la parola pronunciata ad alta voce e può toccare per riascoltarla.",
-        "Tocca la parola scritta che corrisponde a quella sentita, poi preme «Controlla».",
-        "Se non è corretto, può riprovare quante volte vuole: non c'è timer né punteggio."
+        "Premi il pulsante della fotocamera e guarda la parola nell’obiettivo.",
+        "Quando le carte si girano, tocca la parola che hai visto.",
+        "Premi «Controlla». Non è giusto? Premi di nuovo la fotocamera e guarda ancora."
       ],
       "learningGoals": [
-        "Leggere a prima vista le parole più comuni ad alta frequenza.",
-        "Collegare una parola ascoltata alla sua esatta ortografia tra parole simili.",
-        "Costruire il bagaglio di parole riconosciute al volo che libera l'attenzione per capire ciò che si legge."
+        "Il bambino legge in un lampo le parole di uso frequente",
+        "Il bambino distingue una parola da altre quasi uguali",
+        "Il bambino riconosce la stessa parola nelle frasi, anche con la maiuscola"
       ]
     },
     "choice-board.letter-case.rf-k-1-d": {

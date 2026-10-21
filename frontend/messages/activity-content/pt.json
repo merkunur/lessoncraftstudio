@@ -1877,25 +1877,25 @@
     },
     "choice-board.read-sight-word.rf-k-3-c": {
       "about": [
-        "A criança ouve uma palavra muito comum falada em voz alta e toca na forma escrita correta entre opções bem parecidas — palavras do dia a dia, como “que”, “com”, “uma”, “não”, “para”, “vai” e “ver”, que aparecem o tempo todo nos primeiros textos. É uma atividade de leitura interativa para quem está começando a ler, na pré-escola e no início do 1º ano, que roda direto no navegador no tablet, no celular ou no computador, sem instalar nada e sem cadastro.",
-        "A grande ideia é reconhecer de imediato as palavras mais frequentes, para que a leitura possa fluir. Muitas dessas palavrinhas a criança lê de relance, sem soletrar, então as opções erradas são primas próximas — trocas de uma letra ou de ordem — e é preciso reconhecer a palavra exata, e não só uma forma parecida. Ouvir a palavra e encontrá-la escrita liga o som à grafia justamente nas palavras que mais aparecem.",
-        "A atividade está alinhada à BNCC, no eixo da Leitura e do reconhecimento de palavras frequentes pela forma escrita. Sem cronômetro e sem pontuação — só prática tranquila e divertida."
+        "Uma palavra frequente se lê num piscar de olhos – por isso esta câmera mostra a palavra por uma piscada só. A criança aperta o botão grande, o diafragma gira e «com» brilha na lente enquanto quatro cartões ficam virados para baixo. O obturador se fecha com um clique, os cartões se viram – como, com, sem e cor – e a criança toca na palavra que viu. Uma atividade interativa de leitura que funciona no navegador.",
+        "As palavras parecidas foram escolhidas para que olhar só a primeira letra nunca seja suficiente. Um cartão errado se vira de novo e a câmera mostra a palavra outra vez, por um pouco mais de tempo; depois de dois erros, uma foto da palavra fica ao lado dos cartões e as letras diferentes brilham. Em «Encontre todas», a criança coloca uma moldura em cada «não» numa grade de doze peças – a palavra aparece cinco vezes – e depois diz quantas são. Na história, a palavra se esconde em frases curtas ao lado de uma figura: “Eu brinco com o cachorro. Com ele, corro como o vento.” Com letra maiúscula no começo, continua sendo a mesma palavra. Cada resposta certa vira uma foto no álbum.",
+        "A atividade se apoia na BNCC: reconhecer com rapidez e segurança as palavras frequentes. O botão giratório da câmera escolhe uma piscada longa, média ou curta, e a câmera pode ser apertada de novo a qualquer momento. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Reconhecer de relance palavras frequentes, como “que”, “com” e “uma”.",
-        "Combinar uma palavra ouvida com a sua forma escrita.",
-        "Diferenciar palavras parecidas, que mudam por uma letra ou pela ordem.",
-        "Construir o reconhecimento imediato que deixa a leitura mais fluente."
+        "Ler palavras frequentes num piscar de olhos",
+        "Distinguir uma palavra de outras parecidas, letra por letra",
+        "Prestar atenção à ordem das letras",
+        "Encontrar a mesma palavra em frases, com ou sem maiúscula"
       ],
       "howToPlay": [
-        "Ouça a palavra falada em voz alta — toque para ouvir de novo, se quiser.",
-        "Toque na palavra escrita que corresponde ao que você ouviu e depois toque em Verificar.",
-        "Não acertou? Tente de novo quantas vezes quiser — não há cronômetro nem pontuação."
+        "Aperte o botão da câmera e olhe a palavra na lente.",
+        "Quando os cartões virarem, toque na palavra que você viu.",
+        "Aperte «Conferir». Não está certo? Aperte a câmera de novo e olhe outra vez."
       ],
       "learningGoals": [
-        "Ler palavras frequentes reconhecendo-as pela forma escrita.",
-        "Ligar uma palavra ouvida à grafia exata entre opções parecidas.",
-        "Construir o repositório de palavras frequentes que libera a atenção para entender o que se lê."
+        "A criança lê palavras frequentes num piscar de olhos",
+        "A criança distingue uma palavra de outras quase iguais",
+        "A criança reconhece a mesma palavra em frases, também com letra maiúscula"
       ]
     },
     "choice-board.letter-case.rf-k-1-d": {

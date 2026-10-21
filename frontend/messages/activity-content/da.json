@@ -2365,6 +2365,29 @@
         "Barnet sorterer ord i det samme og det modsatte",
         "Barnet gør en sætning færdig med et modsat ord"
       ]
+    },
+    "penny-alphabet-trace.letter-formation.l-k-1-a": {
+      "about": [
+        "Hvert bogstav skrives i det samme vindue, og papiret glider under det som valsen på en skrivemaskine. Barnet starter ved den grønne prik, tegner bogstavet efter langs vejen og skriver det så én gang til – kun med linjerne og den grønne prik. Hvert færdigt bogstav glider til venstre med tre klik og står ved siden af de andre på linjen. Et bogstav, der ikke når sin linje, ses straks ved siden af de andre.",
+        "Når barnet tegner efter, tæller kun det, fingeren virkelig har været igennem: fra den grønne prik, i pilens retning, streg for streg i den rigtige rækkefølge. En streg fra den forkerte ende bliver bleg og forsvinder. Når barnet skriver selv, er vejen skjult. Går bogstavet skævt, viser »Tjek« et skyggebogstav over barnets streg; anden gang løber en gnist langs stregen, og barnet tegner bogstavet efter igen.",
+        "Alfabetvæggen over papiret fyldes med barnets egne bogstaver i alfabetets rækkefølge: alle 29 store bogstaver med Æ, Ø og Å og alle 29 små. Papiret er linjeret som skrivehuset i skolen. Til 1. klasse, i tråd med Fælles Mål, uden tidspres og uden point."
+      ],
+      "practices": [
+        "At begynde hvert bogstav det rigtige sted og skrive stregerne i den rigtige rækkefølge",
+        "At trække hver streg i den rigtige retning",
+        "At placere store og små bogstaver rigtigt i skrivehuset",
+        "At skrive et bogstav selv uden vej, efter at have tegnet det efter"
+      ],
+      "howToPlay": [
+        "Sæt fingeren på den grønne prik, og tegn bogstavet efter i vinduet.",
+        "Skriv det én gang til – kun med linjerne og den grønne prik.",
+        "Under »Øvelse« vælger du »Tegn efter, så skriv to gange« eller »Kun tegne efter«, og under »Bogstaver« for eksempel »Vokaler« eller »De første bogstaver«."
+      ],
+      "learningGoals": [
+        "Barnet begynder hvert bogstav det rigtige sted",
+        "Barnet skriver stregerne i hvert bogstav i den rigtige rækkefølge og retning",
+        "Barnet skriver store og små bogstaver på linjerne"
+      ]
     }
   }
 }

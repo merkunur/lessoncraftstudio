@@ -26,7 +26,9 @@ const F = (cond, msg) => { if (!cond) fails.push(msg); };
 (function main() {
   const Core = loadCore();
   const manifest = JSON.parse(fs.readFileSync(MANIFEST, 'utf8'));
-  const rounds = manifest[0].params.rounds || [];
+  /* Row 73 rebuild (2026-10-21): the row runs The Writing Carriage (writing-carriage-core.js) and its params are a mirror; the 52 glyphs this core
+     owns are still gated here, letter by letter (A–Z, a–z), since Letter Studio and the carriage both draw them. */
+  const rounds = manifest[0].params.rounds || 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'.split('').map((l) => ({ id: (l === l.toUpperCase() ? 'u-' : 'l-') + l, letter: l, case: l === l.toUpperCase() ? 'upper' : 'lower' }));
   const N = rounds.length || 1;
 
   F(rounds.length >= 26, `bank has ${rounds.length} rounds (need >=26)`);

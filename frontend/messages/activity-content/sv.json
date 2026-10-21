@@ -3215,6 +3215,29 @@
         "Barnet sorterar ord i samma och motsats",
         "Barnet gör klart en mening med en motsats"
       ]
+    },
+    "penny-alphabet-trace.letter-formation.l-k-1-a": {
+      "about": [
+        "Varje bokstav skrivs i samma fönster, och pappret rör sig under det som valsen i en skrivmaskin. Barnet börjar vid den gröna pricken, spårar bokstaven längs vägen och skriver den sedan en gång till – bara med linjerna och den gröna pricken. Varje färdig bokstav glider åt vänster med tre klick och står bredvid de andra på linjen. En bokstav som inte når sin linje syns genast bredvid de andra.",
+        "När barnet spårar räknas bara det som fingret verkligen har följt: från den gröna pricken, åt det håll pilen pekar, streck för streck i rätt ordning. Ett streck från fel ände blir blekt och försvinner. När barnet skriver själv är vägen dold. Hamnar bokstaven fel visar ”Kontrollera” en skuggbokstav över barnets streck; andra gången löper en gnista längs strecket, och barnet spårar bokstaven igen.",
+        "Alfabetsväggen ovanför pappret fylls med barnets egna bokstäver i alfabetisk ordning: alla 29 stora bokstäver med Å, Ä och Ö och alla 29 små. Pappret har stödlinjer som i skolan. För åk 1, i linje med Lgr22, utan tidspress och utan poäng."
+      ],
+      "practices": [
+        "Att börja varje bokstav på rätt ställe och skriva strecken i rätt ordning",
+        "Att dra varje streck åt rätt håll",
+        "Att placera stora och små bokstäver rätt på stödlinjerna",
+        "Att skriva en bokstav själv utan väg efter att ha spårat den"
+      ],
+      "howToPlay": [
+        "Sätt fingret på den gröna pricken och spåra bokstaven i fönstret.",
+        "Skriv den en gång till – bara med linjerna och den gröna pricken.",
+        "Under ”Övning” väljer du ”Spåra, skriv sedan två gånger” eller ”Bara spåra”, och under ”Bokstäver” till exempel ”Vokaler” eller ”De första bokstäverna”."
+      ],
+      "learningGoals": [
+        "Barnet börjar varje bokstav på rätt ställe",
+        "Barnet skriver strecken i varje bokstav i rätt ordning och riktning",
+        "Barnet skriver stora och små bokstäver på linjerna"
+      ]
     }
   }
 }

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Penny's Alphabet Trace — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- Shell, the 52 glyphs and the live tracer (both read-only), the carriage model, then this activity.
+       NOTE: bump ?v=N on EVERY change to writing-carriage-activity.js / writing-carriage-core.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  <script src="/mini-tools/alphabet-trace-core.js?v=3"></script>
+  <script src="/mini-tools/stroke-trace-core.js?v=3"></script>
+  <script src="/mini-tools/writing-carriage-core.js?v=1"></script>
+  <script src="/mini-tools/writing-carriage-activity.js?v=1"></script>
+  <script>
+    LCS.mount(WritingCarriageActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

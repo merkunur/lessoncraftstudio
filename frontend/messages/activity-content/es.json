@@ -3960,25 +3960,25 @@
     },
     "penny-alphabet-trace.letter-formation.l-k-1-a": {
       "about": [
-        "Penny es un lápiz que enseña a trazar las letras. Su hijo/a empieza en el punto y sigue cada línea en el orden correcto —por ejemplo, la letra A— hasta formarla. Así practica el trazo de las mayúsculas y las minúsculas.",
-        "La actividad practica formar las letras con la dirección correcta de los trazos. Su hijo/a traza las 26 letras en mayúscula y en minúscula, una por una, siguiendo el punto de inicio. Es la base para aprender a escribir a mano.",
-        "Trazar bien las letras es un primer paso de la escritura. Corresponde al eje «Escritura: trazo de letras». Sin presiones: sin cronómetro, sin puntaje, sin perder; su hijo/a practica con calma."
+        "Cada letra se escribe en la misma ventana, y el papel se mueve debajo como el carro de una máquina de escribir. El niño empieza en el punto verde, repasa la letra por su camino y luego la escribe otra vez, solo con las líneas y el punto verde. Cada letra terminada se desliza a la izquierda con tres clics y queda junto a las demás sobre el renglón. Una letra que no llega a su línea se nota enseguida junto a las otras.",
+        "Al repasar solo cuenta por donde pasó de verdad el dedo: desde el punto verde, en la dirección de la flecha, trazo por trazo en el orden correcto. Una línea hecha desde el extremo equivocado queda pálida y desaparece. Al escribir sin ayuda, el camino está oculto. Si la letra se sale, “Revisar” muestra una letra sombra sobre la línea del niño; la segunda vez, una chispa recorre el trazo y el niño vuelve a repasar esa letra.",
+        "El muro del abecedario, arriba del papel, se llena con las letras del propio niño en orden alfabético: las 27 mayúsculas con la Ñ y las 27 minúsculas. El papel tiene doble raya, como el cuaderno escolar. Para primer grado, de acuerdo con los planes de estudio, sin tiempo y sin puntos."
       ],
       "practices": [
-        "Trazar las letras mayúsculas y minúsculas",
-        "Seguir el orden correcto de los trazos",
-        "Empezar cada letra en el punto de inicio",
-        "Practicar la escritura a mano"
+        "Empezar cada letra en el punto correcto y hacer los trazos en orden",
+        "Hacer cada trazo en la dirección correcta",
+        "Acomodar mayúsculas y minúsculas en el renglón",
+        "Escribir una letra sin camino después de repasarla"
       ],
       "howToPlay": [
-        "Empieza en el punto que aparece",
-        "Traza cada línea de la letra en orden",
-        "Termina la letra para pasar a la siguiente"
+        "Pon el dedo en el punto verde y repasa la letra en la ventana.",
+        "Escríbela otra vez, solo con las líneas y el punto verde.",
+        "En “Práctica” elige “Repasar y escribir dos veces” o “Solo repasar”, y en “Letras”, por ejemplo, “Vocales” o “Primeras letras”."
       ],
       "learningGoals": [
-        "Su hijo/a traza las letras con la dirección correcta",
-        "Aprende a formar las mayúsculas y las minúsculas",
-        "Da sus primeros pasos en la escritura a mano"
+        "El niño empieza cada letra en el punto correcto",
+        "El niño hace los trazos de cada letra en el orden y la dirección correctos",
+        "El niño escribe mayúsculas y minúsculas sobre el renglón"
       ]
     },
     "clock-convert.12-24.2-md-c-7": {

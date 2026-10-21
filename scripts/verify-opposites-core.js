@@ -33,6 +33,10 @@ function loadCore() {
   return sandbox.OppositesCore;
 }
 
+/* Row 72 rebuild (2026-10-21): opposites.antonyms.k-l-5-b runs THE TWO-ENDED ROD on its own opposites-rod-core.js (tool
+   opposites-rod-activity); its params are a mirror, no longer the rounds this gate reads. opposites-core.js and opposites-pairs.json are
+   untouched; the row's gates are verify-opposites-rod-core.js, mutate-opposites-rod.js and local-test-opposites-rod.js. */
+if (!JSON.parse(fs.readFileSync(MANIFEST, 'utf8'))[0].params.rounds) { console.log('verify-opposites-core: the row runs The Two-Ended Rod (opposites-rod-core.js) — see verify-opposites-rod-core.js. Nothing to check here.'); process.exit(0); }
 const C = loadCore();
 const ROUNDS = JSON.parse(fs.readFileSync(MANIFEST, 'utf8'))[0].params.rounds;
 const PAIRS = JSON.parse(fs.readFileSync(SOT, 'utf8'));

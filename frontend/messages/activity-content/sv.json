@@ -3191,6 +3191,30 @@
         "Barnet kopplar ihop meningar med sedan och så",
         "Barnet ser att ett gemensamt ord inte är detsamma som ett samband"
       ]
+    },
+    "opposites.antonyms.k-l-5-b": {
+      "about": [
+        "Varje par motsatser bor på en stång. Stången för varm och kall är målad från rött till blått; barnet lägger ett kort på den och kortet glider dit dess betydelse hör hemma. ”kall” åker ända ut i andra änden och klickar fast i klämman. ”ljummen” stannar vid skåran i mitten: det är bara halvvägs. Ett ord som betyder samma sak parkerar bredvid ”varm”, och ett ord från en annan familj, som en färg, hittar ingen plats och ramlar av. Upp och ner står på en lodrät stång, och ”vänster” glider över till tvärstången. Bilderna på en boll, en burk, en dörr, en lampa, solen och månen kommer från bildbiblioteket.",
+        "Fem nivåer bygger vidare på stången. Bilder har nio stänger och en läggdagsscen. I Samma eller motsats? lägger barnet varje ord vid samma ände eller andra änden och kontrollerar sedan. Hitta paren har tre stänger och tre motsatser med var sin plats. I Meningar gör barnet klart en mening med motsatsen, med ett kort eller med Skriv det. I Förstavelser hänger barnet en klämma som ”o” i den tomma änden och skjuter dit ordet: bara rätt klämma stänger sig och gör ”olycklig”; en fel klämma bygger aldrig ett ord. Under Ord kan bilderna döljas (Bara ord).",
+        "Övningen följer Lgr22: att undersöka ord och deras motsatser. Ingen tidtagning och inga poäng."
+      ],
+      "practices": [
+        "Att hitta motsatsen till ett ord",
+        "Att skilja motsats från samma betydelse",
+        "Att se att ett mellanord som ljummen inte är motsatsen till varm",
+        "Att använda en motsats i en mening och med en förstavelse"
+      ],
+      "howToPlay": [
+        "Titta på ordet i ena änden av stången.",
+        "Dra ett kort till stången eller tryck på det, och se vart det glider.",
+        "Motsatsen åker ända ut i andra änden.",
+        "I Förstavelser hänger du en klämma i den tomma änden och trycker på ordet för att skjuta det."
+      ],
+      "learningGoals": [
+        "Barnet säger motsatsen till ett välkänt ord",
+        "Barnet sorterar ord i samma och motsats",
+        "Barnet gör klart en mening med en motsats"
+      ]
     }
   }
 }

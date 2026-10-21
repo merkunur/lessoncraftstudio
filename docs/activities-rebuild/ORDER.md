@@ -67,7 +67,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 57 | LIVE 2026-10-20 · The Sticky Name Tag | K | RF.K.3 | `choice-board.read-cvc-word.rf-k-3` | choice-board-activity | Read the Word, Tap the Picture — Decoding CVC Words |
 | 58 | LIVE 2026-10-21 · The Word Elastic | K | RF.K.3 | `cvc-builder.build-cvc-word.rf-k-3` | cvc-builder-activity | Build the CVC Word — Kindergarten Phonics |
 | 59 | LIVE 2026-10-21 · The Letter Magnet | K | RF.K.3.a | `choice-board.beginning-sound.rf-k-3-a` | choice-board-activity | Beginning Sounds — Match the First Letter Sound |
-| 60 |  | K | RF.K.3.c | `choice-board.read-sight-word.rf-k-3-c` | choice-board-activity | Read Common Sight Words — Hear It, Tap It (Kindergarten) |
+| 60 | LIVE 2026-10-21 · The Blink Camera | K | RF.K.3.c | `choice-board.read-sight-word.rf-k-3-c` | choice-board-activity | Read Common Sight Words — Hear It, Tap It (Kindergarten) |
 | 61 |  | K | RF.K.3.c | `choice-board.tell-words-apart.rf-k-3-c` | choice-board-activity | Tell the Words Apart — Hear It, Spot the Right One (Kindergarten) |
 | 62 |  | K | RF.K.3.d | `bingo-word-hunt.read-match.rf-k-3-d` | bingo-word-hunt-activity | Bingo's Word Hunt — Read & Match the Right Word (Kindergarten) |
 | 63 |  | K | RL.K.1 | `picture-story.read.rl-k-1` | picture-story-activity | Fable's Picture Stories — Story Key Details (Kindergarten) |

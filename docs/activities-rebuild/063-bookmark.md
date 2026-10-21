@@ -77,3 +77,11 @@ ORDER row 63 · id `picture-story.read.rl-k-1` (kept).
   - `audit-settings-efficacy --tool=picture-story-activity`: Game and Book both change the board.
   - Route and indexable preflights, and `verify-activity-content` × 11: green.
 - **Wrapper:** ACTIVITY_WRAPPER_VERSION 9.802; html core v=2, activity v=9.
+
+## Live (2026-10-21)
+- Commit `e2c06218`; deployed with `deploy.sh`; the preview webp was copied to the server's `previews/`.
+- **`live-verify-picture-story.js` — 83 / 0** on production. en, de, sv and fi were driven at 1366 and 390:
+  - Ask: Check with no mark asks; a wrong phrase is a miss shown on the answer line; the answer phrase on page 2 wins, with the success text filled.
+  - Caption: a wrong page is a miss; every sentence placed wins.
+  - The iframe grows with the card (measured after the bubble settles), and all 11 pages return 200.
+- **Variety probe on production:** 18 distinct rounds, and pass 2 is reshuffled.

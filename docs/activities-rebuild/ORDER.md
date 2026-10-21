@@ -70,7 +70,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 60 | LIVE 2026-10-21 · The Blink Camera | K | RF.K.3.c | `choice-board.read-sight-word.rf-k-3-c` | choice-board-activity | Read Common Sight Words — Hear It, Tap It (Kindergarten) |
 | 61 | LIVE 2026-10-21 · The Word Keys | K | RF.K.3.c | `choice-board.tell-words-apart.rf-k-3-c` | choice-board-activity | Tell the Words Apart — Hear It, Spot the Right One (Kindergarten) |
 | 62 | LIVE 2026-10-21 · Bingo's Picture Card | K | RF.K.3.d | `bingo-word-hunt.read-match.rf-k-3-d` | bingo-word-hunt-activity | Bingo's Word Hunt — Read & Match the Right Word (Kindergarten) |
-| 63 |  | K | RL.K.1 | `picture-story.read.rl-k-1` | picture-story-activity | Fable's Picture Stories — Story Key Details (Kindergarten) |
+| 63 | LIVE 2026-10-21 · The Bookmark | K | RL.K.1 | `picture-story.read.rl-k-1` | picture-story-activity | Fable's Picture Stories — Story Key Details (Kindergarten) |
 | 64 |  | K | RL.K.2 | `wake-up-pip.retell-story.rl-k-2` | wake-up-pip-activity | Wake Up, Pip! — Retell the Story to a Friend (Kindergarten) |
 | 65 |  | K | RL.K.3 | `story-spine.role.rl-k-3` | story-spine-activity | Dot's Story Spine — Story Parts: Start, Trouble & Fix (Kindergarten) |
 | 66 |  | K | RL.K.6 | `inky-book-workshop.author-illustrator.rl-k-6` | inky-book-workshop-activity | Inky's Book Workshop — Author or Illustrator? (Kindergarten) |

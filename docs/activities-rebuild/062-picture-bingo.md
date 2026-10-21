@@ -70,3 +70,10 @@ ORDER row 62 · id `bingo-word-hunt.read-match.rf-k-3-d` (kept).
   - the sweep 320–1366 (en) and 320 · 704 · 1366 (all).
   - Fixes it forced: the tiny threshold (the 360 page is a 330 wrap), squares tall enough for a 72 px flipped picture, and the You-call hand on one row at 320.
 - **Other audits:** `visual-qa-activity.js` (en, fi) green; `audit-activity-hierarchy.js` 266 / 0; `audit-settings-efficacy --tool=picture-bingo-activity`: Card and Read the call both change the board; route and indexable preflights and `verify-activity-content` × 11 green.
+
+## Live (2026-10-21)
+- Commit `385afb5d`; deployed with `deploy.sh`; the preview webp was copied to the server's `previews/`.
+- **`live-verify-picture-bingo.js` — 83 / 0** on production. en, de, sv and fi were driven at 1366 and 390: Check with no chip asks, a look-alike slides off with letters lit, the right word flips into its picture with the success text filled, You call covers a decoy and then gives BINGO, the iframe grows with the card, and all 11 pages return 200.
+- The first run raced the page cache (5 pages still served the old iframe); the rerun was clean.
+- **Variety probe on production:** 11 distinct rounds, and pass 2 is reshuffled.
+- **Full-card fix after review:** a full card now always celebrates with BINGO, even when the last call completes no line through its own square (found by local-test on the fr card).

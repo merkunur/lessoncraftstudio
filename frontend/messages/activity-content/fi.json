@@ -920,25 +920,25 @@
     },
     "choice-board.beginning-sound.rf-k-3-a": {
       "about": [
-        "Ruudulle ilmestyy yksi kirjain — esimerkiksi D, F tai M — ja lapsi napauttaa kuvaa, jonka suomenkielinen nimi alkaa samalla äänteellä. Kuvat ovat tuttuja ryhmiä, kuten eläimiä, ruokaa ja arkisia esineitä (koira, kala, hirvi, tiikeri). Tämä on esiopetuksen äännetietoisuusharjoitus, joka toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
-        "Joka kierroksella näkyy yksi oikea kuva ja kolme, jotka alkavat eri äänteellä, joten lapsi ei voi arvata — hänen on sanottava jokaisen kuvan nimi ja kuunneltava aivan ensimmäistä äännettä. Suomi on läpinäkyvä kieli: kirjain vastaa äännettä, joten kirjaimen ja sanan alkuäänteen yhdistäminen tukee lukemaan oppimista lempeästi. Kun oikea alkuäänne kuullaan muiden sanojen rinnalla, se erottuu selkeästi.",
-        "Harjoitus on OPS 2014:n tavoitteiden mukainen: lapsi tunnistaa, minkä äänteen kukin kirjain edustaa. Ei kelloa eikä pisteitä — vain iloista oivaltamista omaan tahtiin."
+        "Kirjain h roikkuu punaisessa hevosenkenkämagneetissa, ja sen alla on neljä kuvaa: hattu, joutsen, kakku ja norsu. Lapsi siirtää magneetin alle ne kuvat, jotka hänen mielestään alkavat äänteellä h, ja kytkee magneetin päälle. Hattu lentää koukkuun, muut tärisevät ja jäävät pöydälle. Tyhjät koukut näyttävät, montako kuvaa on vielä löytämättä. Interaktiivinen alkuäänneharjoitus, joka toimii selaimessa.",
+        "Viikon kirjain -tasolla k-magneetissa on kolme koukkua. Kahden magneetin tasolla, m ja n, jokainen kuva on kuunneltava ja vietävä oikeaan paikkaan. Kahden virheen jälkeen kuviin ilmestyy pieniä kirjaimia.",
+        "Harjoitus tukee OPS 2014:n tavoitteita: alkuäänteen kuulemista ja sen yhdistämistä kirjaimeen. Ei ajastinta eikä pisteitä."
       ],
       "practices": [
-        "Yhdistää kirjaimen siihen äänteeseen, jonka se edustaa.",
-        "Sanoo kuvan nimen ja kuuntelee sen ensimmäistä äännettä.",
-        "Yhdistää alkuäänteen näytettyyn kirjaimeen.",
-        "Erottaa oikean alkuäänteen kolmesta muusta alusta."
+        "Sanan ensimmäisen äänteen kuuleminen",
+        "Kirjaimen ja äänteen yhdistäminen",
+        "Samankaltaisten äänteiden, kuten m:n ja n:n, erottaminen",
+        "Sanojen lajittelu alkukirjaimen mukaan"
       ],
       "howToPlay": [
-        "Katso ylhäällä olevaa kirjainta, kuten D, ja sano sen äänne.",
-        "Napauta kuvaa, jonka nimi alkaa tällä äänteellä, neljän vaihtoehdon joukosta.",
-        "Eikö osunut oikeaan? Yritä uudelleen niin monta kertaa kuin haluat — ei kelloa eikä pisteitä."
+        "Sano jokaisen kuvan nimi ja kuuntele sen ensimmäistä äännettä.",
+        "Siirrä magneetin alle kuvat, jotka alkavat sen äänteellä.",
+        "Kytke magneetti päälle: oikeat kuvat lentävät ylös, muut jäävät alas."
       ],
       "learningGoals": [
-        "Lapsi tunnistaa, minkä äänteen kukin kirjain edustaa.",
-        "Lapsi kuulee ja yhdistää puhutun sanan ensimmäisen äänteen sitä vastaavaan kirjaimeen.",
-        "Lapsi rakentaa kirjain–äänne-yhteyttä, johon sanojen äännekohtainen lukeminen perustuu."
+        "Lapsi sanoo sanan ensimmäisen äänteen",
+        "Lapsi yhdistää konsonantit niiden äänteisiin",
+        "Lapsi lajittelee sanoja alkukirjaimen mukaan"
       ]
     },
     "fractions.make-and-count-squares.2-g-a-2": {

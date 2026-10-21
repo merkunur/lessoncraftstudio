@@ -755,25 +755,25 @@
     },
     "choice-board.beginning-sound.rf-k-3-a": {
       "about": [
-        "A single letter appears — like D, F, or M — and the child taps the picture whose name begins with that letter's sound, choosing from familiar groups such as animals, food, and everyday objects (a dog, a fish, a moose, a tiger). It's a Kindergarten phonics activity that runs right in the browser with nothing to install and no account.",
-        "Each round shows one correct picture and three that start with other sounds, so the child cannot guess — they have to say each picture's name and listen for the very first sound. Connecting the letter D to the /d/ at the start of 'dog' is the core letter-sound link, and hearing it against fish, rabbit, and tiger makes that first sound stand out clearly.",
-        "It is aligned to Common Core RF.K.3.a — knowing the primary sound that each consonant letter represents. No timer, no score — just calm, playful practice."
+        "The letter d hangs on a red horseshoe magnet above four pictures: a dog, a fish, a rabbit and a tiger. The child moves the pictures they think start with the sound of d under the magnet and switches it on. The dog flies up onto the hook; anything else shivers and stays on the table. The empty hooks show how many pictures are still to find. It is an interactive Kindergarten phonics activity that plays in the browser.",
+        "In Letter of the week the m magnet has three hooks, and a nose waits among the pictures, because m and n sound alike. Two magnets, m and n, share one table, so every picture has to be heard and placed. With letter teams the magnets read sh, ch and th: ship, chair and tooth each go to the team they hear, then the teams drop into gaps in the written words, and in two rounds whole words hang on the magnets to be read. After two misses, small letters appear on the pictures.",
+        "It is aligned to Common Core RF.K.3.a, the primary sound of each consonant. No timer and no score."
       ],
       "practices": [
-        "Connecting a letter to the sound it makes",
-        "Saying a picture's name and listening for its first sound",
-        "Matching the beginning sound to the letter shown",
-        "Telling the right first sound apart from three other beginnings"
+        "Hearing the first sound of a word",
+        "Matching a letter to its most common sound",
+        "Telling apart letters that sound alike, like m and n",
+        "Hearing and writing letter teams like sh, ch and th"
       ],
       "howToPlay": [
-        "Look at the letter at the top, like D, and say its sound.",
-        "Tap the picture whose name begins with that sound, from the four choices.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Say the name of each picture and listen to its first sound.",
+        "Move the pictures that start with the magnet’s sound under it.",
+        "Switch the magnet on: the right pictures fly up, the others stay down."
       ],
       "learningGoals": [
-        "Know the primary sound each consonant letter makes — the focus of Common Core RF.K.3.a.",
-        "Hear and match the first sound in a spoken word to its letter.",
-        "Build the letter-sound foundation that sounding out and reading words depend on."
+        "The child names the first sound of a pictured word",
+        "The child links each consonant letter to its primary sound",
+        "The child sorts words by the letter they begin with or the letter team they contain"
       ]
     },
     "choice-board.compare-two-digit.1-nbt-b-3": {

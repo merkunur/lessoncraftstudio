@@ -4121,25 +4121,25 @@
     },
     "choice-board.beginning-sound.rf-k-3-a": {
       "about": [
-        "Ein einzelner Buchstabe erscheint — etwa D, F oder M —, das Kind hört den passenden Laut und tippt das Bild an, dessen Wort mit genau diesem Laut beginnt; zur Auswahl stehen vertraute Bilder aus Gruppen wie Tiere, Essen und Alltagsgegenstände (ein Hund, ein Fisch, ein Elch, ein Tiger). Diese Anlaut-Übung für den Kindergarten läuft direkt im Browser, ohne Installation und ohne Konto.",
-        "In jeder Runde gibt es ein richtiges Bild und drei, die mit anderen Lauten beginnen, sodass Raten nicht hilft — das Kind muss jeden Bildnamen sprechen und auf den allerersten Laut hören. Den Buchstaben D mit dem /d/ am Anfang von „Dose“ zu verbinden, ist die eigentliche Buchstabe-Laut-Verknüpfung, und diesen Laut neben Fisch, Hase und Tiger herauszuhören lässt den ersten Laut deutlich hervortreten.",
-        "Die Aktivität ist an den Lehrplänen der Grundschule im Bereich Lesen ausgerichtet — den Laut kennen, für den jeder Buchstabe steht. Es gibt keinen Timer und keine Punktewertung — nur ruhiges, spielerisches Üben."
+        "Ein roter Hufeisenmagnet trägt das B, darunter liegen vier Bilder: ein Ballon, ein Delfin, ein Hut und ein Tiger. Das Kind schiebt die Bilder, die mit dem Laut B anfangen, unter den Magneten und schaltet ihn ein. Der Ballon fliegt an den Haken, alles andere zittert und bleibt auf dem Tisch liegen. Die leeren Haken zeigen, wie viele Bilder noch fehlen. Eine interaktive Übung zu Anlauten, die im Browser läuft.",
+        "Beim Buchstaben der Woche hat der Magnet drei Haken, und unter den Bildern liegt eine Puppe – B und P klingen ähnlich. Bei zwei Magneten, M und N, muss jedes Bild genau angehört und richtig zugeordnet werden. Bei den Buchstabengruppen stehen sch und ch auf den Magneten: Schaf, Schuh und Koch kommen zu der Gruppe, die man hört. Danach fallen die Gruppen in Lücken geschriebener Wörter, und in zwei Runden hängen ganze Wörter an den Magneten, die gelesen werden. Nach zwei Fehlversuchen erscheinen kleine Buchstaben auf den Bildern.",
+        "Die Übung orientiert sich am Lehrplan: Anlaute hören und dem passenden Buchstaben zuordnen. Ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "Einen Buchstaben mit dem Laut verbinden, für den er steht.",
-        "Den Namen eines Bildes sprechen und auf seinen ersten Laut hören.",
-        "Den Anlaut dem gezeigten Buchstaben zuordnen.",
-        "Den richtigen ersten Laut von drei anderen Anfängen unterscheiden."
+        "Den Anlaut eines Wortes heraushören",
+        "Einem Buchstaben seinen Laut zuordnen",
+        "Ähnlich klingende Laute wie M und N unterscheiden",
+        "Buchstabengruppen wie sch und ch hören und schreiben"
       ],
       "howToPlay": [
-        "Schau dir den Buchstaben oben an, etwa D, und sprich seinen Laut.",
-        "Tippe aus den vier Bildern das an, dessen Name mit diesem Laut beginnt.",
-        "Noch nicht ganz richtig? Probiere es einfach noch einmal, so oft du möchtest — es gibt keinen Timer und keine Punkte."
+        "Sprich den Namen jedes Bildes und hör auf den ersten Laut.",
+        "Schieb die Bilder, die mit dem Laut des Magneten anfangen, darunter.",
+        "Schalte den Magneten ein: Die richtigen Bilder fliegen hoch, die anderen bleiben liegen."
       ],
       "learningGoals": [
-        "Den Laut kennen, für den jeder Buchstabe steht.",
-        "Den ersten Laut in einem gesprochenen Wort heraushören und seinem Buchstaben zuordnen.",
-        "Die Buchstabe-Laut-Grundlage aufbauen, auf der das Lautieren und Lesen von Wörtern beruht."
+        "Das Kind benennt den Anlaut eines abgebildeten Wortes",
+        "Das Kind ordnet Buchstaben ihren Lauten zu",
+        "Das Kind sortiert Wörter nach ihrem Anfangsbuchstaben oder der Buchstabengruppe, die darin vorkommt"
       ]
     },
     "fractions.make-and-count-squares.2-g-a-2": {

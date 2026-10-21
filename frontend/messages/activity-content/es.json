@@ -3678,25 +3678,25 @@
     },
     "choice-board.beginning-sound.rf-k-3-a": {
       "about": [
-        "Se muestra una sola letra —como la D, la F o la M— y tu pequeño toca el dibujo cuyo nombre empieza con ese sonido, eligiendo entre grupos conocidos como animales, comida y objetos de todos los días. Es una actividad de fonética interactiva para preescolar (kínder) que funciona directamente en el navegador, sin instalar nada y sin crear cuenta.",
-        "Cada ronda muestra un dibujo correcto y otros tres que empiezan con sonidos distintos, así que no se puede adivinar: hay que decir el nombre de cada dibujo y escuchar con atención el primer sonido. Unir una letra con el sonido inicial de la palabra es el vínculo central entre letra y sonido, y oírlo frente a otras opciones hace que ese primer sonido resalte con claridad.",
-        "Está alineada con los planes y programas de estudio (SEP): reconocer el sonido principal que representa cada letra. Sin temporizador y sin puntajes, con un ritmo tranquilo y juguetón."
+        "La letra b cuelga de un imán rojo de herradura y debajo hay cuatro dibujos: un burro, un delfín, una fresa y un tigre. El niño acerca al imán los dibujos que cree que empiezan con el sonido de la b y lo enciende. El burro sube volando al gancho; lo demás tiembla y se queda en la mesa. Los ganchos vacíos muestran cuántos dibujos faltan. Es una actividad interactiva de sonidos iniciales para preescolar que funciona en el navegador.",
+        "En Letra de la semana, el imán de la c tiene tres ganchos y entre los dibujos hay un gallo, porque la c y la g suenan parecido. Con dos imanes, m y n, hay que escuchar cada dibujo y ponerlo en su lugar. Con los pares de letras, los imanes dicen ch y ll: chaleco, chocolate y llama van con el par que se oye. Después, los pares caen en los huecos de palabras escritas, y en dos rondas cuelgan palabras completas de los imanes para leerlas. Tras dos errores aparecen letritas en los dibujos.",
+        "La actividad se basa en los programas de estudio de la SEP: escuchar el sonido inicial y relacionarlo con su letra. Sin cronómetro y sin puntuación."
       ],
       "practices": [
-        "Relacionar una letra con el sonido que produce.",
-        "Decir el nombre de un dibujo y escuchar su primer sonido.",
-        "Unir el sonido inicial con la letra que se muestra.",
-        "Distinguir el sonido inicial correcto de otros tres comienzos."
+        "Escuchar el sonido inicial de una palabra",
+        "Relacionar una letra con su sonido",
+        "Distinguir sonidos parecidos, como m y n",
+        "Escuchar y escribir pares de letras como ch y ll"
       ],
       "howToPlay": [
-        "Mira la letra de arriba, por ejemplo la D, y di su sonido.",
-        "Toca el dibujo cuyo nombre empieza con ese sonido, entre las cuatro opciones.",
-        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntaje."
+        "Di el nombre de cada dibujo y escucha su primer sonido.",
+        "Lleva bajo el imán los dibujos que empiezan con su sonido.",
+        "Enciende el imán: los dibujos correctos suben, los demás se quedan abajo."
       ],
       "learningGoals": [
-        "El niño o la niña aprende a reconocer el sonido principal de cada letra.",
-        "Tu pequeño escucha y relaciona el primer sonido de una palabra con su letra.",
-        "Se construye la base de letra y sonido sobre la que se apoya leer y deletrear palabras."
+        "El niño dice el sonido inicial de una palabra",
+        "El niño relaciona cada consonante con su sonido",
+        "El niño clasifica palabras por la letra con que empiezan o el par de letras que contienen"
       ]
     },
     "fractions.make-and-count-squares.2-g-a-2": {

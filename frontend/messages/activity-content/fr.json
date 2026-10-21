@@ -279,24 +279,25 @@
     },
     "picture-story.read.rl-k-1": {
       "about": [
-        "Fable le renard raconte trois petites histoires en images : une moufle rouge perdue dans la neige, une souris qui tire de toutes ses forces sur une énorme carotte coincée, et un pique-nique surpris par la pluie, bien à l'abri sous un parapluie. L'enfant lit les trois vignettes, tape sur le bouton 🔊 pour écouter chaque phrase lue à voix haute, puis répond à des questions sur l'histoire : qui, quoi, où, ce qui arrive d'abord et à la fin, pourquoi, et comment les personnages se sentent. Pour répondre, il lui suffit de taper la bonne carte parmi trois réponses écrites.",
-        "Cette activité exerce en douceur la compréhension de récit : repérer les informations importantes d'une histoire, en suivre le fil et parler de ce que ressentent les personnages. C'est une première approche précieuse pour les jeunes lecteurs. Tout se passe directement dans le navigateur, sans minuteur, sans score et sans compte à créer : l'enfant avance à son rythme, en confiance, avec une activité pensée pour accompagner les programmes officiels de l'école."
+        "Fable le renard ouvre un petit album : trois (ou quatre) pages que l’enfant tourne une à une, chacune avec une image et une phrase en dessous. Sur un marque-page, il y a une question – « Où la moufle est-elle tombée ? » – et l’enfant y répond en glissant le marque-page dans l’histoire : sur l’image, les mots ou la page qui donnent la réponse. C’est une activité de lecture interactive qui fonctionne dans le navigateur.",
+        "La réponse doit venir du livre. On répond aux questions qui avec une image (le rouge-gorge, quelle que soit la page), aux questions où, quand, pourquoi et que faisaient-ils avec les mots qui le disent (« près d’un gros rocher »), et à en premier, au milieu et en dernier avec une page entière. Un marque-page mal placé revient, et la ligne de réponse montre ce qui a été marqué ; après deux essais, la page qui contient la réponse se soulève et les mots de la question s’allument. Une bonne réponse souligne en doré les mots qui la prouvent, et Fable saute de joie. Dans « Des phrases pour les pages », le marque-page porte une phrase, et la page qui lui correspond la joue.",
+        "L’activité suit les programmes officiels : poser des questions et y répondre sur les détails importants d’une histoire. Sept histoires courtes de trois ou quatre pages. Sans chronomètre et sans points."
       ],
       "practices": [
-        "Lire une courte histoire racontée en images",
-        "Repérer qui, quoi et où dans le récit",
-        "Retrouver ce qui arrive d'abord et à la fin",
-        "Comprendre pourquoi les choses se passent",
-        "Parler de ce que ressentent les personnages"
+        "Trouver dans une histoire la réponse à une question",
+        "Répondre aux questions qui, quoi, où, quand et pourquoi avec des détails des images et du texte",
+        "Savoir quelle page vient en premier, au milieu et en dernier",
+        "Associer des phrases aux images qu’elles racontent"
       ],
       "howToPlay": [
-        "Lis, ou écoute avec le bouton 🔊, la petite histoire de Fable.",
-        "Tape la carte qui répond à la question posée."
+        "Lis l’histoire et la question du marque-page.",
+        "Touche la réponse dans le livre ou fais glisser le marque-page dessus : une image, quelques mots ou une page entière.",
+        "Appuie sur « Vérifier ». Si le marque-page revient, relis la page et essaie un autre endroit."
       ],
       "learningGoals": [
-        "Comprendre une histoire lue en images",
-        "Repérer les détails clés et l'ordre des événements",
-        "Répondre à des questions sur un récit"
+        "L’enfant répond à des questions sur les détails importants d’une histoire",
+        "L’enfant montre où, dans l’histoire, la réponse est écrite ou dessinée",
+        "L’enfant reconnaît le début, le milieu et la fin d’une histoire courte"
       ]
     },
     "pim-comma-mail.letter-commas.l-2-2-b": {

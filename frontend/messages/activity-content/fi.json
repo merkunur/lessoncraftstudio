@@ -2128,6 +2128,29 @@
         "Lapsi erottaa sanan sanoista, jotka eroavat yhden kirjaimen verran",
         "Lapsi yhdistää kirjoitetun sanan kuvaan, jonka nimi se on"
       ]
+    },
+    "picture-story.read.rl-k-1": {
+      "about": [
+        "Fable-kettu avaa pienen kuvakirjan: kolme (tai neljä) sivua, joita lapsi kääntää yksi kerrallaan, jokaisella kuva ja sen alla lause. Kirjanmerkissä on kysymys – ”Mihin lapanen putosi?” – ja lapsi vastaa laittamalla kirjanmerkin tarinaan: kuvaan, sanoihin tai sivulle, joka kertoo vastauksen. Interaktiivinen lukuharjoitus, joka toimii selaimessa.",
+        "Vastauksen täytyy löytyä kirjasta. Kuka-kysymyksiin vastataan kuvalla (punarinta, millä sivulla tahansa), missä-, mihin-, milloin- ja miksi-kysymyksiin sekä kysymykseen ”Mitä he tekivät?” sanoilla, jotka sen kertovat (”ison kiven viereen”), ja ensin, keskellä ja viimeiseksi kokonaisella sivulla. Väärään kohtaan laitettu kirjanmerkki palaa, ja vastausrivi näyttää, mitä merkittiin; kahden yrityksen jälkeen vastauksen sivu nousee ja kysymyksen sanat syttyvät. Oikealla vastauksella todistavat sanat saavat kultaisen alleviivauksen, ja Fable hyppää ilosta. Lauseet sivuille -pelissä kirjanmerkissä on lause, ja sivu, jolle se kuuluu, näyttää sen.",
+        "Harjoitus tukee perusopetuksen opetussuunnitelman perusteiden tavoitteita: kysymysten tekemistä ja niihin vastaamista tarinan tärkeistä yksityiskohdista. Seitsemän lyhyttä tarinaa, joissa on kolme tai neljä sivua. Ei ajastinta eikä pisteitä."
+      ],
+      "practices": [
+        "Vastauksen löytäminen tarinasta",
+        "Kuka-, mikä-, missä-, milloin- ja miksi-kysymyksiin vastaaminen kuvien ja tekstin yksityiskohdilla",
+        "Sen huomaaminen, mikä sivu tulee ensin, keskellä ja viimeiseksi",
+        "Lauseiden yhdistäminen kuviin, joista ne kertovat"
+      ],
+      "howToPlay": [
+        "Lue tarina ja kirjanmerkin kysymys.",
+        "Kosketa vastausta kirjassa tai vedä kirjanmerkki sen päälle: kuva, muutama sana tai koko sivu.",
+        "Paina ”Tarkista”. Jos kirjanmerkki palaa, lue sivu uudelleen ja kokeile toista kohtaa."
+      ],
+      "learningGoals": [
+        "Lapsi vastaa kysymyksiin tarinan tärkeistä yksityiskohdista",
+        "Lapsi näyttää, missä kohdassa tarinaa vastaus on kirjoitettuna tai kuvattuna",
+        "Lapsi tunnistaa lyhyen tarinan alun, keskikohdan ja lopun"
+      ]
     }
   }
 }

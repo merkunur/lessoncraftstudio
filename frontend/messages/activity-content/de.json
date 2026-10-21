@@ -908,25 +908,25 @@
     },
     "picture-story.read.rl-k-1": {
       "about": [
-        "Fabel der Fuchs hat eine kleine Geschichte in drei Bildern dabei und liest sie deinem Kind vor. Anschließend darf dein Kind zeigen, dass es die Geschichte wirklich verstanden hat: Es tippt die Antwort auf eine Frage zu den wichtigen Einzelheiten an. Wer ist dabei? Was passiert? Wo spielt die Geschichte? Was ist zuerst und was zuletzt passiert? Warum geschieht das? Und wie haben sich die Figuren am Ende gefühlt?",
-        "Hier geht es nicht um einen Sachtext, sondern um eine echte, erzählende Geschichte — mit Figuren, einer Handlung und Gefühlen. In der Geschichte vom verlorenen Handschuh sieht dein Kind zum Beispiel, wie ein Häschen seinen Handschuh verliert, ein Vogel ihn findet und zurückbringt — und kann dann beantworten: Wer hat geholfen? (der Vogel) und Wie hat sich Bo am Ende gefühlt? (froh). Weil Fabel jede Geschichte vorlesen kann, machen auch Kinder mit, die noch nicht selbst lesen — sie erschließen die Geschichte über das Zuhören und die Bilder.",
-        "Die große Idee dahinter: eine Geschichte genau verstehen — die wichtigen Einzelheiten erfassen. Das ist der erste, grundlegende Schritt des literarischen Leseverstehens und richtet sich nach dem Bereich „Literarische Texte verstehen“ im Lehrplan der Grundschule. Alles ist ganz ohne Zeitdruck, ohne Punkte und ohne Wettbewerb — dein Kind darf in seinem eigenen Tempo zuhören, schauen und nachdenken."
+        "Fable der Fuchs schlägt ein kleines Bilderbuch auf: drei (oder vier) Seiten, die das Kind eine nach der anderen umblättert, jede mit einem Bild und einem Satz darunter. Auf einem Lesezeichen steht eine Frage – „Wo rutschte der Handschuh herunter?“ –, und das Kind beantwortet sie, indem es das Lesezeichen in die Geschichte steckt: auf das Bild, die Wörter oder die Seite, die die Antwort zeigt. Eine interaktive Leseübung, die im Browser läuft.",
+        "Die Antwort muss aus dem Buch kommen. Wer-Fragen beantwortet ein Bild (das Rotkehlchen, egal auf welcher Seite), Wo-, Wann- und Warum-Fragen und „Was machten sie?“ die Wörter, die es sagen („neben einem großen Felsen“), und zuerst, in der Mitte und zuletzt eine ganze Seite. Ein falsches Lesezeichen kommt zurück, und die Antwortzeile zeigt, was markiert war; nach zwei Versuchen hebt sich die Seite mit der Antwort, und die Wörter der Frage leuchten auf. Bei einer richtigen Antwort werden die Beweiswörter golden unterstrichen, und Fable hüpft vor Freude. Bei „Sätze zu den Seiten“ trägt das Lesezeichen einen Satz, und die passende Seite spielt ihn vor.",
+        "Die Übung orientiert sich am Lehrplan: Fragen zu wichtigen Einzelheiten einer Geschichte stellen und beantworten. Sieben kurze Geschichten mit drei oder vier Seiten. Ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "Einer kurzen Geschichte aufmerksam zuhören und sie genau anschauen.",
-        "Die wichtigen Einzelheiten erfassen — Wer, Was und Wo.",
-        "Die Reihenfolge der Handlung erkennen — was zuerst und was zuletzt passiert.",
-        "Erkennen, warum etwas geschieht und wie sich die Figuren fühlen."
+        "In einer Geschichte die Antwort auf eine Frage finden",
+        "Wer-, Was-, Wo-, Wann- und Warum-Fragen mit Einzelheiten aus Bildern und Text beantworten",
+        "Erkennen, welche Seite zuerst, in der Mitte und zuletzt kommt",
+        "Sätze den passenden Bildern zuordnen"
       ],
       "howToPlay": [
-        "Hör Fabel zu und schau dir die drei Bilder der Geschichte genau an.",
-        "Lies die Frage zur Geschichte — zum Beispiel „Wer hat geholfen?“ oder „Was ist zuletzt passiert?“.",
-        "Tippe die richtige Antwort an. Du kannst die Geschichte so oft anhören, wie du möchtest."
+        "Lies die Geschichte und die Frage auf dem Lesezeichen.",
+        "Tippe die Antwort im Buch an oder zieh das Lesezeichen darauf: ein Bild, ein paar Wörter oder eine ganze Seite.",
+        "Drück auf „Prüfen“. Kommt das Lesezeichen zurück, lies die Seite noch einmal und versuch eine andere Stelle."
       ],
       "learningGoals": [
-        "Dein Kind kann die wichtigen Einzelheiten einer kurzen Geschichte benennen (Wer, Was, Wo).",
-        "Dein Kind kann die Reihenfolge der Handlung wiedergeben — was zuerst und was zuletzt geschah.",
-        "Dein Kind kann erkennen, warum etwas passiert und wie sich eine Figur am Ende fühlt."
+        "Das Kind beantwortet Fragen zu wichtigen Einzelheiten einer Geschichte",
+        "Das Kind zeigt, wo in der Geschichte die Antwort steht oder zu sehen ist",
+        "Das Kind erkennt Anfang, Mitte und Ende einer kurzen Geschichte"
       ]
     },
     "bea-two-bookshelves.story-or-fact.rl-1-5": {

@@ -2979,6 +2979,29 @@
         "Barnet skiljer ett ord från ord som skiljer sig med en bokstav",
         "Barnet parar ihop ett skrivet ord med bilden det betecknar"
       ]
+    },
+    "picture-story.read.rl-k-1": {
+      "about": [
+        "Räven Fable slår upp en liten bilderbok: tre (eller fyra) sidor som barnet bläddrar i en i taget, var och en med en bild och en mening under. På ett bokmärke står en fråga – ”Var gled vanten av?” – och barnet svarar genom att sätta bokmärket i berättelsen: på bilden, orden eller sidan som ger svaret. En interaktiv läsövning som fungerar i webbläsaren.",
+        "Svaret ska komma från boken. Vem-frågor besvaras med en bild (rödhaken, vilken sida den än är på), var-, när- och varför-frågor och ”Vad gjorde de?” med orden som säger det (”vid en stor sten”), och först, i mitten och sist med en hel sida. Ett felplacerat bokmärke kommer tillbaka, och svarsraden visar vad som markerades; efter två försök lyfter sig sidan med svaret och frågans ord lyser upp. Vid ett rätt svar får bevisorden ett guldstreck och Fable hoppar av glädje. I Meningar till sidorna bär bokmärket en mening, och sidan den hör till spelar upp den.",
+        "Övningen följer Lgr22: att ställa och besvara frågor om viktiga detaljer i en berättelse. Sju korta berättelser med tre eller fyra sidor. Utan tidtagning och utan poäng."
+      ],
+      "practices": [
+        "Att hitta svaret på en fråga i en berättelse",
+        "Att besvara vem-, vad-, var-, när- och varför-frågor med detaljer från bilder och text",
+        "Att se vilken sida som kommer först, i mitten och sist",
+        "Att para ihop meningar med bilderna de berättar om"
+      ],
+      "howToPlay": [
+        "Läs berättelsen och frågan på bokmärket.",
+        "Tryck på svaret i boken eller dra bokmärket dit: en bild, några ord eller en hel sida.",
+        "Tryck på Kolla. Om bokmärket kommer tillbaka, läs sidan igen och försök på ett annat ställe."
+      ],
+      "learningGoals": [
+        "Barnet besvarar frågor om viktiga detaljer i en berättelse",
+        "Barnet visar var i berättelsen svaret står eller syns",
+        "Barnet känner igen början, mitten och slutet på en kort berättelse"
+      ]
     }
   }
 }

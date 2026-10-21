@@ -3508,25 +3508,25 @@
     },
     "picture-story.read.rl-k-1": {
       "about": [
-        "O Fábio é uma raposinha simpática que adora contar histórias — e ele mostra uma historinha bem curtinha em 3 quadrinhos, cada um com uma frase. A criança lê com calma (ou aperta o botão 🔊 pra ouvir a história de novo) e, no final, o Fábio faz uma perguntinha sobre o que aconteceu. Aí é só tocar na resposta certa! Por exemplo: depois de ler sobre a luva perdida na neve, ele pergunta \"Quem pulou na neve?\" — e a criança é só lembrar da história pra responder. As três historinhas são curtinhas e fofas: uma luva na neve, uma cenoura gigante e um piquenique na chuva.",
-        "Enquanto brinca, a criança pratica ler com atenção e compreender os detalhes importantes de uma história: quem são os personagens, o que acontece, onde a história se passa, em que ordem os fatos acontecem, por que as coisas acontecem e como os personagens se sentem. Isso é o comecinho da compreensão de leitura — porque entender o que se lê é o coração da leitura, não basta só juntar as letras. Responder perguntas sobre a história ajuda a criança a guardar cada detalhe e a organizar tudo direitinho na cabeça, do início ao fim.",
-        "A atividade não pede cadastro nem login— nada de cronômetro, pontuação ou competição. Cada criança vai no seu próprio ritmo, com todo o carinho: quando ela erra, o Fábio dá uma dica gentil, sem bronca e sem pressa, e o 🔊 lê a história mais uma vez pra ajudar. Tudo isso alinhado à BNCC, no trabalho de leitura e compreensão de textos literários — ler uma história e responder sobre os seus detalhes — para o 1º ano."
+        "O Fábio, a raposinha, abre um livrinho ilustrado: três (ou quatro) páginas que a criança vira uma por uma, cada uma com uma figura e uma frase embaixo. Num marcador há uma pergunta – “Onde a luva caiu?” – e a criança responde colocando o marcador na história: na figura, nas palavras ou na página que traz a resposta. É uma atividade interativa de leitura que funciona no navegador.",
+        "A resposta tem que vir do livro. Perguntas de quem se respondem com uma figura (o passarinho, em qualquer página), as de onde, quando, por quê e o que faziam com as palavras que dizem isso (“perto de uma pedra grande”), e primeiro, no meio e por último com uma página inteira. Um marcador no lugar errado volta, e a linha de resposta mostra o que foi marcado; depois de duas tentativas, a página da resposta se levanta e as palavras da pergunta se acendem. Com a resposta certa, as palavras que provam ganham um traço dourado e o Fábio pula de alegria. Em Frases para as páginas, o marcador leva uma frase, e a página certa encena o que ela diz.",
+        "A atividade se apoia na BNCC: fazer e responder perguntas sobre detalhes importantes de uma história. Sete histórias curtas de três ou quatro páginas. Sem cronômetro e sem pontos."
       ],
       "practices": [
-        "Ler e compreender uma historinha curta.",
-        "Lembrar os detalhes: personagens, fatos e lugar.",
-        "Entender a ordem dos acontecimentos e o porquê.",
-        "Responder perguntas sobre o que leu."
+        "Encontrar numa história a resposta a uma pergunta",
+        "Responder perguntas de quem, o quê, onde, quando e por quê com detalhes das figuras e do texto",
+        "Saber qual página vem primeiro, no meio e por último",
+        "Relacionar frases com as figuras que elas contam"
       ],
       "howToPlay": [
-        "Leia a historinha do Fábio nos 3 quadrinhos — aperte o 🔊 se quiser ouvir.",
-        "Leia a perguntinha e pense sobre o que aconteceu na história.",
-        "Toque na resposta certa entre as três cartinhas."
+        "Leia a história e a pergunta do marcador.",
+        "Toque na resposta no livro ou arraste o marcador até ela: uma figura, algumas palavras ou uma página inteira.",
+        "Aperte Conferir. Se o marcador voltar, leia a página de novo e tente outro lugar."
       ],
       "learningGoals": [
-        "Eu leio uma história e respondo sobre ela.",
-        "Eu lembro quem, o quê, onde e por quê.",
-        "Eu entendo a ordem dos fatos da história."
+        "A criança responde perguntas sobre detalhes importantes de uma história",
+        "A criança mostra em que parte da história a resposta está escrita ou desenhada",
+        "A criança reconhece o começo, o meio e o fim de uma história curta"
       ]
     },
     "opposites.antonyms.k-l-5-b": {

@@ -67,3 +67,12 @@ ORDER row 61 · id `choice-board.tell-words-apart.rf-k-3-c` (kept).
   The 320 fold was fixed three times: smaller tray tiles, a top-aligned phone ask row, and tighter tiny spacing.
 - **Other audits:** `visual-qa-activity.js` (en, fi) 48 renders each, green; `audit-activity-hierarchy.js` 146 / 0; `audit-settings-efficacy --tool=word-keys-activity`: Game and Picture both change the board; route and indexable preflights and `verify-activity-content` ×11 green.
 - **My own read of the renders:** the three-lock board at 704 and 1024, the phone pager, the glass and ghost pins, and the fi cut jam.
+
+## Deploy
+- `e2b6742a` deployed 2026-10-21: the preview webp scp'd; git pull; the three files + `choice-board-activities.json` copied to `/var/www/lcs-media/mini-tools/` before the build; `deploy.sh` exit 0; payment canary clean; server 133 GB free of 436 GB.
+- `live-verify-word-keys.js` — 107 / 0:
+  - all 11 pages 200 (fi new);
+  - en / de / sv / fi at 1366 and 390: Turn with no key asks; a wrong key jams with glowing teeth; a tap pulls it out; the right key opens with the filled success text; the key ring opens every lock (the pager on phones); the cut key opens;
+  - the iframe grows with the card.
+  - The first run hit cached pages (old iframe); the rerun is the record.
+- Variety probe on production: 8 distinct, pass 2 reshuffled.

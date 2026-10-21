@@ -638,25 +638,26 @@
     },
     "willow-story-corner.compare-tales.rl-k-9": {
       "about": [
-        "Dans le coin des histoires, Willow la tortue lit à voix haute deux courtes histoires d'animaux, avec trois images pour chacune. Votre enfant les écoute jusqu'au bout, puis Willow lui pose une question du genre « Qui a perdu quelque chose ? » ou « Qui a été aidé ? ». Il compare alors les deux aventures et tape sa réponse : le premier personnage, le second, « Les deux » ou « Aucun des deux ».",
-        "C'est un vrai travail de compréhension de l'oral : il faut suivre chaque récit, retenir ce qui arrive à chacun, puis comparer les deux personnages pour répondre. L'enfant écoute et réfléchit, il ne déchiffre rien : la lecture et l'écriture ne sont pas en jeu ici. Petit à petit, il apprend à comprendre une histoire écoutée, à repérer qui vit quoi, et à mettre en relation deux récits proches.",
-        "Tout se fait dans le calme, au rythme de l'enfant : pas de chronomètre, pas de points, pas de bonne ou mauvaise pression. Il peut réécouter, prendre son temps et essayer autant qu'il le souhaite. L'activité s'appuie sur les programmes officiels de la maternelle."
+        "Willow la tortue lit deux petites histoires, image par image. Ensuite, chaque question devient une dent d’une grande fermeture éclair entre les deux histoires. « Qui a perdu quelque chose ? » va au milieu si ça arrive dans LES DEUX histoires, d’un côté si ça arrive seulement dans cette histoire, et dans la poche si ça n’arrive dans aucune. Puis on tire le curseur : il passe une dent que les images prouvent, et les images qui le montrent s’allument ; il se coince devant une dent mal placée. C’est une activité de lecture interactive qui se joue dans le navigateur.",
+        "Chaque paire d’histoires remplit une fermeture éclair de cinq dents : une chose que les deux histoires ont, une chose qu’une seule a, une chose qu’aucune n’a, et un de ces types deux fois, pour que la dernière dent ne puisse jamais se deviner en la posant à la place restée libre. Quand la cinquième dent se ferme, toute la fermeture éclair se ferme. Dans les réglages, on choisit Deux histoires ou Deux animaux : avec deux animaux, l’enfant compare deux images (lequel a un bec, des rayures, une crinière). Écouter d’abord décide si Willow lit les histoires au début ou seulement quand l’enfant la touche.",
+        "L’activité suit les programmes officiels de l’école maternelle : comparer les personnages et les événements de deux histoires. Sans chronomètre et sans points."
       ],
       "practices": [
-        "Écouter et comprendre deux courtes histoires.",
-        "Comparer les aventures de deux personnages.",
-        "Repérer qui a vécu telle aventure — ou les deux, ou aucun.",
-        "Écouter attentivement avant de répondre."
+        "Comparer ce qui arrive dans deux histoires",
+        "Dire ce qui est pareil dans les deux et ce qui est différent",
+        "Vérifier une réponse avec les images et les mots",
+        "Comparer deux animaux : ce qu’ils ont tous les deux et ce qu’un seul a"
       ],
       "howToPlay": [
-        "Écoute les deux histoires de Willow.",
-        "Écoute bien la question qu'elle te pose.",
-        "Tape le personnage — ou « Les deux », ou « Aucun des deux »."
+        "Écoute Willow lire les deux histoires, ou touche une image pour la réentendre.",
+        "Lis la question sur la dent.",
+        "Place la dent d’un côté, au milieu ou dans la poche, puis ferme la fermeture éclair.",
+        "Si la fermeture éclair se coince, regarde encore les deux histoires."
       ],
       "learningGoals": [
-        "Votre enfant apprend à comparer deux histoires.",
-        "Votre enfant repère ce qui arrive à chaque personnage.",
-        "Votre enfant écoute et comprend un court récit, à son rythme."
+        "L’enfant dit ce qui arrive dans les deux histoires",
+        "L’enfant dit ce qui arrive dans une seule",
+        "L’enfant vérifie une réponse avec les images de l’histoire"
       ]
     },
     "bingo-word-hunt.read-match.rf-k-3-d": {

@@ -30,6 +30,10 @@ const Core = win.CompareTalesCore;
 if (!Core) { console.error('FAIL: compare-tales-core.js did not define window.CompareTalesCore'); process.exit(1); }
 
 const params = JSON.parse(fs.readFileSync(path.join(REPO, 'mini tools', 'willow-story-corner-activities.json'), 'utf8'))[0].params;
+/* Row 68 rebuild (2026-10-21): willow-story-corner.compare-tales.rl-k-9 runs THE STORY ZIPPER on its own story-zipper-core.js; its params are a
+   mirror, no longer the stories/rounds this gate reads. compare-tales-core.js is untouched; the row's gates are verify-story-zipper-core.js,
+   mutate-story-zipper.js and local-test-willow-story-corner.js. */
+if (!params.stories) { console.log('verify-compare-tales-core: the row runs The Story Zipper (story-zipper-core.js) — see verify-story-zipper-core.js. Nothing to check here.'); process.exit(0); }
 const stories = params.stories;
 const clone = (o) => JSON.parse(JSON.stringify(o));
 const rounds = params.rounds.map((r) => ({ id: r.id, dim: r.dim, prompt: r.prompt, a: clone(stories[r.aId]), b: clone(stories[r.bId]) }));

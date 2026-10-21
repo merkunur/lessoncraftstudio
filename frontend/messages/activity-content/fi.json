@@ -2244,6 +2244,30 @@
         "Lapsi kertoo, mikä sana sopii kuvaan ja mikä ei",
         "Lapsi tietää, että tarinan sanat ja kuvat kertovat saman asian"
       ]
+    },
+    "willow-story-corner.compare-tales.rl-k-9": {
+      "about": [
+        "Kilpikonna Willow lukee kaksi lyhyttä tarinaa kuva kerrallaan. Sitten jokaisesta kysymyksestä tulee suuren vetoketjun hammas kahden tarinan väliin. ”Kuka hukkasi jotakin?” menee keskelle, jos se tapahtuu MOLEMMISSA tarinoissa, toiselle puolelle, jos se tapahtuu vain siinä tarinassa, ja taskuun, jos se ei tapahdu kummassakaan. Sitten vedetään liukusäätimestä: hampaan, jonka kuvat todistavat, se ohittaa, ja sen näyttävät kuvat syttyvät; väärässä paikassa olevaan hampaaseen se juuttuu. Interaktiivinen lukuharjoitus, joka toimii selaimessa.",
+        "Jokainen tarinapari täyttää yhden vetoketjun viidellä hampaalla: jotakin, mikä on molemmissa tarinoissa, jotakin, mikä on vain toisessa, jotakin, mitä ei ole kummassakaan, ja yksi näistä lajeista kahdesti, joten viimeistä hammasta ei voi koskaan arvata laittamalla sitä vapaaksi jääneeseen paikkaan. Kun viides hammas sulkeutuu, koko vetoketju vetäytyy kiinni. Asetuksista valitaan Kaksi tarinaa tai Kaksi eläintä: kahdella eläimellä lapsi vertaa kahta kuvaa (kummalla on nokka, raidat tai harja). Kuuntele ensin ratkaisee, lukeeko Willow tarinat alussa vai vain silloin, kun lapsi napauttaa häntä.",
+        "Harjoitus tukee perusopetuksen opetussuunnitelman perusteiden 2014 tavoitteita: kahden tarinan henkilöiden ja tapahtumien vertailua. Ei aikarajaa eikä pisteitä."
+      ],
+      "practices": [
+        "Kahden tarinan tapahtumien vertailu",
+        "Sen kertominen, mikä on samaa ja mikä erilaista",
+        "Vastauksen tarkistaminen kuvista ja sanoista",
+        "Kahden eläimen vertailu: mitä molemmilla on ja mitä vain toisella"
+      ],
+      "howToPlay": [
+        "Kuuntele, kun Willow lukee molemmat tarinat, tai napauta kuvaa kuullaksesi sen uudelleen.",
+        "Lue kysymys hampaasta.",
+        "Laita hammas toiselle puolelle, keskelle tai taskuun ja vedä sitten vetoketju kiinni.",
+        "Jos vetoketju juuttuu, katso molemmat tarinat uudelleen."
+      ],
+      "learningGoals": [
+        "Lapsi kertoo, mitä tapahtuu molemmissa tarinoissa",
+        "Lapsi kertoo, mitä tapahtuu vain toisessa",
+        "Lapsi tarkistaa vastauksen tarinan kuvista"
+      ]
     }
   }
 }

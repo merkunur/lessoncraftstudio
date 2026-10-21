@@ -4252,6 +4252,30 @@
         "Il bambino distingue una parola da altre simili che cambiano di una lettera",
         "Il bambino collega una parola scritta al disegno che nomina"
       ]
+    },
+    "willow-story-corner.compare-tales.rl-k-9": {
+      "about": [
+        "Willow la tartaruga legge due brevi storie, disegno per disegno. Poi ogni domanda diventa un dente di una grande cerniera tra le due storie. «Chi ha perso qualcosa?» va al centro se succede in TUTTE E DUE le storie, da un lato se succede solo in quella storia e nella tasca se non succede in nessuna. Poi si tira il cursore: oltre un dente che i disegni dimostrano scorre via e i disegni che lo mostrano si illuminano; a un dente nel posto sbagliato si blocca. È un’attività interattiva di lettura che si gioca nel browser.",
+        "Ogni coppia di storie riempie una cerniera con cinque denti: qualcosa che hanno tutte e due, qualcosa che ha solo una, qualcosa che non ha nessuna e uno di questi tipi due volte, così l’ultimo dente non si può mai indovinare mettendolo nel posto rimasto libero. Quando si chiude il quinto dente, si chiude tutta la cerniera. Nelle impostazioni si sceglie Due storie o Due animali: con due animali il bambino confronta due disegni (quale ha il becco, le strisce, la criniera). Prima ascolta decide se Willow legge le storie all’inizio o solo quando il bambino la tocca.",
+        "L’attività segue le Indicazioni nazionali per l’italiano: confrontare personaggi e fatti di due storie. Senza tempo e senza punteggio."
+      ],
+      "practices": [
+        "Confrontare quello che succede in due storie",
+        "Dire che cosa è uguale e che cosa è diverso",
+        "Verificare una risposta con i disegni e le parole",
+        "Confrontare due animali: che cosa hanno tutti e due e che cosa ha solo uno"
+      ],
+      "howToPlay": [
+        "Ascolta Willow che legge le due storie, oppure tocca un disegno per riascoltarlo.",
+        "Leggi la domanda sul dente.",
+        "Metti il dente da un lato, al centro o nella tasca e poi chiudi la cerniera.",
+        "Se la cerniera si blocca, guarda di nuovo le due storie."
+      ],
+      "learningGoals": [
+        "Il bambino dice che cosa succede in tutte e due le storie",
+        "Il bambino dice che cosa succede solo in una",
+        "Il bambino verifica una risposta con i disegni della storia"
+      ]
     }
   }
 }

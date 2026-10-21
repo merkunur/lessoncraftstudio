@@ -5,32 +5,69 @@
     "task_template": "compare-tales",
     "alignment": { "framework": "CCSS", "code": "RL.K.9", "grade": "K", "strand": "Reading: Literature" },
     "params": {
-      "stories": {
-        "fox":   { "name": "Fox",   "glyph": "fox",   "facts": { "lostSomething": true, "foundIt": true, "keptTrying": true },
-          "beats": [ { "panel": "fox-1", "caption": "Fox lost his red scarf." }, { "panel": "fox-2", "caption": "Fox searched and searched." }, { "panel": "fox-3", "caption": "Fox found it under the leaves." } ] },
-        "bunny": { "name": "Bunny", "glyph": "bunny", "facts": { "lostSomething": true, "foundIt": true, "gotHelp": true },
-          "beats": [ { "panel": "bunny-1", "caption": "Bunny lost her ball." }, { "panel": "bunny-2", "caption": "A friend helped her look." }, { "panel": "bunny-3", "caption": "They found the ball together." } ] },
-        "bear":  { "name": "Bear",  "glyph": "bear",  "facts": { "madeSomething": true, "gotWet": true, "keptTrying": true },
-          "beats": [ { "panel": "bear-1", "caption": "Bear built a sandcastle." }, { "panel": "bear-2", "caption": "A big wave splashed it." }, { "panel": "bear-3", "caption": "Bear built a new one." } ] },
-        "mouse": { "name": "Mouse", "glyph": "mouse", "facts": { "madeSomething": true, "sharedIt": true },
-          "beats": [ { "panel": "mouse-1", "caption": "Mouse baked little muffins." }, { "panel": "mouse-2", "caption": "Mouse shared them with friends." }, { "panel": "mouse-3", "caption": "Everyone ate happily." } ] },
-        "owl":   { "name": "Owl",   "glyph": "owl",   "facts": { "feltScared": true },
-          "beats": [ { "panel": "owl-1", "caption": "Owl heard a scary noise." }, { "panel": "owl-2", "caption": "It was just a friend!" }, { "panel": "owl-3", "caption": "Owl felt safe again." } ] },
-        "frog":  { "name": "Frog",  "glyph": "frog",  "facts": { "climbedHigh": true },
-          "beats": [ { "panel": "frog-1", "caption": "Frog climbed a tall hill." }, { "panel": "frog-2", "caption": "Frog flew a kite up high." }, { "panel": "frog-3", "caption": "Frog cheered at the top." } ] }
+      "note": "The six tales and seven animal pairs, their panels (library pictures), the derived answers, captions, questions and success sentences live in story-zipper-core.js; this mirrors the core so the gates can size each pass per locale (rounds per pass).",
+      "zippers": {
+        "tales": [
+          "fb",
+          "bm",
+          "of"
+        ],
+        "animals": [
+          "dp",
+          "ch",
+          "ft",
+          "ob",
+          "bl",
+          "zh",
+          "lt"
+        ]
       },
-      "rounds": [
-        { "id": "fb-lost",   "band": 1, "aId": "fox",  "bId": "bunny", "dim": "lostSomething", "prompt": "Who lost something?" },
-        { "id": "fb-help",   "band": 1, "aId": "fox",  "bId": "bunny", "dim": "gotHelp",       "prompt": "Who got help from a friend?" },
-        { "id": "fb-try",    "band": 1, "aId": "fox",  "bId": "bunny", "dim": "keptTrying",    "prompt": "Who kept trying until they found it?" },
-        { "id": "fb-climb",  "band": 1, "aId": "fox",  "bId": "bunny", "dim": "climbedHigh",   "prompt": "Who climbed up high?" },
-        { "id": "bm-made",   "band": 1, "aId": "bear", "bId": "mouse", "dim": "madeSomething", "prompt": "Who made something?" },
-        { "id": "bm-share",  "band": 2, "aId": "bear", "bId": "mouse", "dim": "sharedIt",      "prompt": "Who shared with friends?" },
-        { "id": "bm-wet",    "band": 2, "aId": "bear", "bId": "mouse", "dim": "gotWet",        "prompt": "Who got splashed by water?" },
-        { "id": "of-scared", "band": 2, "aId": "owl",  "bId": "frog",  "dim": "feltScared",    "prompt": "Who felt scared, then safe?" },
-        { "id": "of-climb",  "band": 2, "aId": "owl",  "bId": "frog",  "dim": "climbedHigh",   "prompt": "Who climbed up high?" },
-        { "id": "of-bake",   "band": 2, "aId": "owl",  "bId": "frog",  "dim": "madeSomething", "prompt": "Who made or baked something?" }
-      ]
+      "byLocale": {
+        "en": {
+          "tales": 15,
+          "animals": 15
+        },
+        "de": {
+          "tales": 15,
+          "animals": 15
+        },
+        "nl": {
+          "tales": 15,
+          "animals": 15
+        },
+        "da": {
+          "tales": 15,
+          "animals": 15
+        },
+        "sv": {
+          "tales": 15,
+          "animals": 15
+        },
+        "no": {
+          "tales": 15,
+          "animals": 15
+        },
+        "es": {
+          "tales": 15,
+          "animals": 15
+        },
+        "it": {
+          "tales": 15,
+          "animals": 15
+        },
+        "pt": {
+          "tales": 15,
+          "animals": 15
+        },
+        "fr": {
+          "tales": 15,
+          "animals": 15
+        },
+        "fi": {
+          "tales": 15,
+          "animals": 15
+        }
+      }
     },
     "paramsL10n": {
       "fr": {
@@ -63,9 +100,9 @@
       }
     },
     "theme": null,
-    "slug": { "en": "willows-story-corner", "fr": "comparer-deux-histoires-personnages-gs" },
-    "page_title": { "en": "Willow's Story Corner — Two Tales, Alike or Different? (Kindergarten)", "fr": "Le coin des histoires de Willow — Comparer deux histoires (GS)" },
-    "page_intro": { "en": "An interactive Kindergarten reading game for comparing characters across stories: Willow the tortoise reads TWO short tales about two animal friends. Listen to both, then answer how the friends' adventures are alike and different — tap WHO lost something, who got help, who kept trying, or 'Both' and 'Neither.' Comparing and contrasting what happens to characters in two stories is the heart of Common Core RL.K.9.", "fr": "Willow la tortue lit à voix haute deux petites histoires d’animaux, puis pose une question. Votre enfant écoute, compare les deux personnages et leurs aventures, puis tape qui : le premier, le second, les deux ou aucun des deux. Un jeu d’écoute et de compréhension interactif, à faire directement dans le navigateur, sans rien installer." },
+    "slug": { "en": "willows-story-corner", "fr": "comparer-deux-histoires-personnages-gs", "de": "zwei-geschichten-vergleichen-gemeinsamkeiten-unterschiede-klasse-1", "nl": "twee-verhalen-vergelijken-overeenkomsten-verschillen-groep-3", "da": "sammenlign-to-historier-ens-og-forskelligt-1-klasse", "sv": "jamfor-tva-berattelser-likheter-och-skillnader-ak-1", "no": "sammenlign-to-fortellinger-likheter-og-forskjeller-1-trinn", "es": "comparar-dos-cuentos-semejanzas-y-diferencias-primer-grado", "it": "confrontare-due-storie-somiglianze-e-differenze-classe-prima", "pt": "comparar-duas-historias-semelhancas-e-diferencas-1-ano", "fi": "vertaile-kahta-tarinaa-yhtalaisyydet-ja-erot-1-luokka" },
+    "page_title": { "en": "Willow's Story Corner — Two Tales, Alike or Different? (Kindergarten)", "fr": "Le coin des histoires de Willow — Comparer deux histoires (GS)", "de": "Zwei Geschichten vergleichen – Gemeinsamkeiten und Unterschiede (Klasse 1)", "nl": "Twee verhalen vergelijken – overeenkomsten en verschillen (groep 3)", "da": "Sammenlign to historier – hvad er ens, og hvad er forskelligt? (1. klasse)", "sv": "Jämför två berättelser – likheter och skillnader (åk 1)", "no": "Sammenlign to fortellinger – likheter og forskjeller (1. trinn)", "es": "Comparar dos cuentos – semejanzas y diferencias (primer grado)", "it": "Confrontare due storie – somiglianze e differenze (classe prima)", "pt": "Comparar duas histórias – semelhanças e diferenças (1º ano)", "fi": "Vertaile kahta tarinaa – yhtäläisyydet ja erot (1. luokka)" },
+    "page_intro": { "en": "An interactive Kindergarten reading game for comparing characters across stories: Willow the tortoise reads TWO short tales about two animal friends. Listen to both, then answer how the friends' adventures are alike and different — tap WHO lost something, who got help, who kept trying, or 'Both' and 'Neither.' Comparing and contrasting what happens to characters in two stories is the heart of Common Core RL.K.9.", "fr": "Willow la tortue lit à voix haute deux petites histoires d’animaux, puis pose une question. Votre enfant écoute, compare les deux personnages et leurs aventures, puis tape qui : le premier, le second, les deux ou aucun des deux. Un jeu d’écoute et de compréhension interactif, à faire directement dans le navigateur, sans rien installer.", "de": "Willow, die Schildkröte, liest zwei kleine Geschichten vor. Jede Frage ist ein Zahn eines Reißverschlusses: Was in beiden Geschichten passiert, kommt in die Mitte, was nur in einer passiert, auf ihre Seite, und was in keiner passiert, in die Tasche. Stimmt es nicht, klemmt der Reißverschluss. Man kann auch zwei Tiere vergleichen. Die Übung passt zum Lehrplan Deutsch.", "nl": "Willow de schildpad leest twee korte verhalen voor. Elke vraag is een tandje van een rits: wat in allebei de verhalen gebeurt, gaat in het midden, wat in één verhaal gebeurt aan die kant, en wat in geen van beide gebeurt in het zakje. Klopt het niet, dan loopt de rits vast. Je kunt ook twee dieren vergelijken. De activiteit sluit aan bij de kerndoelen (SLO).", "da": "Skildpadden Willow læser to korte historier højt. Hvert spørgsmål er en tand i en lynlås: Det, der sker i begge historier, skal i midten, det, der kun sker i én, skal ud til dens side, og det, der ikke sker i nogen af dem, skal i lommen. Er det forkert, sætter lynlåsen sig fast. Man kan også sammenligne to dyr. Øvelsen følger Fælles Mål.", "sv": "Sköldpaddan Willow läser två korta berättelser. Varje fråga är en tand i ett blixtlås: det som händer i båda berättelserna ska i mitten, det som bara händer i en ska ut på dess sida, och det som inte händer i någon av dem ska i fickan. Blir det fel fastnar blixtlåset. Man kan också jämföra två djur. Övningen följer Lgr22.", "no": "Skilpadda Willow leser to korte fortellinger høyt. Hvert spørsmål er en tann i en glidelås: Det som skjer i begge fortellingene, skal i midten, det som bare skjer i én, skal ut på dens side, og det som ikke skjer i noen av dem, skal i lomma. Blir det feil, setter glidelåsen seg fast. Man kan også sammenligne to dyr. Øvelsen følger LK20.", "es": "Willow, la tortuga, lee dos cuentos cortos. Cada pregunta es un diente de un cierre: lo que pasa en los dos cuentos va en el centro, lo que pasa solo en uno va de su lado y lo que no pasa en ninguno va en el bolsillo. Si no es correcto, el cierre se atora. También se pueden comparar dos animales. La actividad sigue los planes de estudio de la SEP.", "it": "Willow la tartaruga legge due brevi storie. Ogni domanda è un dente di una cerniera: quello che succede in tutte e due le storie va al centro, quello che succede solo in una va dalla sua parte e quello che non succede in nessuna va nella tasca. Se non è giusto, la cerniera si blocca. Si possono confrontare anche due animali. L’attività segue le Indicazioni nazionali.", "pt": "A tartaruga Willow lê duas historinhas. Cada pergunta é um dente de um zíper: o que acontece nas duas histórias vai no meio, o que acontece só em uma vai para o lado dela e o que não acontece em nenhuma vai no bolso. Se não estiver certo, o zíper enrosca. Também dá para comparar dois animais. A atividade está alinhada à BNCC.", "fi": "Kilpikonna Willow lukee kaksi lyhyttä tarinaa. Jokainen kysymys on vetoketjun hammas: se, mikä tapahtuu molemmissa tarinoissa, menee keskelle, se, mikä tapahtuu vain toisessa, sen puolelle, ja se, mikä ei tapahdu kummassakaan, taskuun. Jos se ei pidä paikkaansa, vetoketju juuttuu. Myös kahta eläintä voi vertailla. Harjoitus tukee perusopetuksen opetussuunnitelman perusteiden 2014 tavoitteita." },
     "kid_prompt_template": "compare-tales"
   }
 ]

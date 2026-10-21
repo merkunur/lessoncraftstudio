@@ -4289,6 +4289,30 @@
         "A criança diferencia uma palavra de outras parecidas que mudam em uma letra",
         "A criança relaciona uma palavra escrita com a figura que ela nomeia"
       ]
+    },
+    "willow-story-corner.compare-tales.rl-k-9": {
+      "about": [
+        "A tartaruga Willow lê duas historinhas, figura por figura. Depois, cada pergunta vira um dente de um zíper grande entre as duas histórias. “Quem perdeu alguma coisa?” vai no meio se acontece nas DUAS histórias, de um lado se acontece só naquela história e no bolso se não acontece em nenhuma. Aí é só puxar o zíper: num dente que as figuras comprovam ele passa direto e as figuras que mostram isso se acendem; num dente no lugar errado ele enrosca. É uma atividade interativa de leitura que funciona no navegador.",
+        "Cada par de histórias enche um zíper com cinco dentes: algo que as duas têm, algo que só uma tem, algo que nenhuma tem e um desses tipos duas vezes, para que o último dente nunca possa ser adivinhado colocando-o no lugar que sobrou. Quando o quinto dente fecha, o zíper inteiro se fecha. Nas configurações escolhe-se Duas histórias ou Dois animais: com dois animais a criança compara duas figuras (qual tem bico, listras ou crina). Ouvir primeiro decide se a Willow lê as histórias no começo ou só quando a criança toca nela.",
+        "A atividade está alinhada à BNCC: comparar personagens e acontecimentos de duas histórias. Sem tempo e sem pontos."
+      ],
+      "practices": [
+        "Comparar o que acontece em duas histórias",
+        "Dizer o que é igual nas duas e o que é diferente",
+        "Conferir uma resposta com as figuras e as palavras",
+        "Comparar dois animais: o que os dois têm e o que só um tem"
+      ],
+      "howToPlay": [
+        "Ouça a Willow ler as duas histórias, ou toque numa figura para ouvir de novo.",
+        "Leia a pergunta no dente.",
+        "Coloque o dente de um lado, no meio ou no bolso e depois feche o zíper.",
+        "Se o zíper enroscar, olhe de novo as duas histórias."
+      ],
+      "learningGoals": [
+        "A criança diz o que acontece nas duas histórias",
+        "A criança diz o que acontece só em uma delas",
+        "A criança confere uma resposta com as figuras da história"
+      ]
     }
   }
 }

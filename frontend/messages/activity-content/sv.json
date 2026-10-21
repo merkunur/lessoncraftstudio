@@ -3095,6 +3095,30 @@
         "Barnet säger vilket ord som passar och inte passar till en bild",
         "Barnet vet att orden och bilderna i en berättelse berättar samma sak"
       ]
+    },
+    "willow-story-corner.compare-tales.rl-k-9": {
+      "about": [
+        "Sköldpaddan Willow läser två korta berättelser, bild för bild. Sedan blir varje fråga en tand i ett stort blixtlås mellan de två berättelserna. ”Vem tappade något?” ska i mitten om det händer i BÅDA berättelserna, ut på ena sidan om det bara händer i den berättelsen och i fickan om det inte händer i någon av dem. Sedan drar man i löparen: förbi en tand som bilderna bevisar glider den vidare, och bilderna som visar det lyser upp; vid en tand på fel plats fastnar den. En interaktiv läsövning som spelas i webbläsaren.",
+        "Varje par berättelser fyller ett blixtlås med fem tänder: något som båda berättelserna har, något som bara den ena har, något som ingen av dem har och en av de sorterna två gånger, så att den sista tanden aldrig kan gissas genom att läggas på den tomma platsen. När den femte tanden stängs dras hela blixtlåset igen. I inställningarna väljer man Två berättelser eller Två djur: med två djur jämför barnet två bilder (vilket djur som har en näbb, ränder, man). Lyssna först avgör om Willow läser berättelserna i början eller bara när barnet trycker på henne.",
+        "Övningen följer Lgr22 i svenska: att jämföra personer och händelser i två berättelser. Utan tidspress och utan poäng."
+      ],
+      "practices": [
+        "Att jämföra det som händer i två berättelser",
+        "Att säga vad som är likadant och vad som skiljer",
+        "Att kontrollera ett svar mot bilderna och orden",
+        "Att jämföra två djur: vad båda har och vad bara det ena har"
+      ],
+      "howToPlay": [
+        "Lyssna när Willow läser båda berättelserna, eller tryck på en bild för att höra den igen.",
+        "Läs frågan på tanden.",
+        "Lägg tanden på ena sidan, i mitten eller i fickan och dra sedan igen blixtlåset.",
+        "Om blixtlåset fastnar, titta på båda berättelserna igen."
+      ],
+      "learningGoals": [
+        "Barnet berättar vad som händer i båda berättelserna",
+        "Barnet berättar vad som bara händer i den ena",
+        "Barnet kontrollerar ett svar mot berättelsens bilder"
+      ]
     }
   }
 }

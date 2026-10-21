@@ -4327,6 +4327,30 @@
         "Das Kind unterscheidet ein Wort von ähnlichen Wörtern mit einem anderen Buchstaben",
         "Das Kind ordnet ein geschriebenes Wort dem Bild zu, das es benennt"
       ]
+    },
+    "willow-story-corner.compare-tales.rl-k-9": {
+      "about": [
+        "Willow, die Schildkröte, liest zwei kurze Geschichten Bild für Bild vor. Dann wird jede Frage zu einem Zahn eines großen Reißverschlusses zwischen den beiden Geschichten. „Wer hat etwas verloren?“ kommt in die Mitte, wenn es in BEIDEN Geschichten passiert, auf eine Seite, wenn es nur in dieser Geschichte passiert, und in die Tasche, wenn es in keiner passiert. Dann wird der Schieber gezogen: An einem Zahn, den die Bilder belegen, gleitet er vorbei, und die passenden Bilder leuchten auf; an einem Zahn an der falschen Stelle klemmt er. Eine interaktive Leseübung, die im Browser läuft.",
+        "Jedes Geschichtenpaar füllt einen Reißverschluss mit fünf Zähnen: etwas, das beide Geschichten gemeinsam haben, etwas, das nur eine hat, etwas, das keine hat, und eine dieser Arten zweimal, sodass man den letzten Zahn nie erraten kann, indem man ihn auf den freien Platz legt. Schließt sich der fünfte Zahn, zieht sich der ganze Reißverschluss zu. In den Einstellungen gibt es „Zwei Geschichten“ oder „Zwei Tiere“: Mit zwei Tieren vergleicht das Kind zwei Bilder (welches Tier hat einen Schnabel, Streifen, eine Mähne). „Erst zuhören“ legt fest, ob Willow die Geschichten am Anfang vorliest oder nur, wenn das Kind sie antippt.",
+        "Die Übung passt zum Lehrplan Deutsch, Bereich Lesen – mit Texten und Medien umgehen: Figuren und Ereignisse in zwei Geschichten vergleichen. Ohne Zeitdruck und ohne Punkte."
+      ],
+      "practices": [
+        "Vergleichen, was in zwei Geschichten passiert",
+        "Sagen, was in beiden gleich und was verschieden ist",
+        "Eine Antwort an den Bildern und Wörtern überprüfen",
+        "Zwei Tiere vergleichen: was beide haben und was nur eines hat"
+      ],
+      "howToPlay": [
+        "Hör zu, wie Willow beide Geschichten vorliest, oder tippe ein Bild an, um es noch einmal zu hören.",
+        "Lies die Frage auf dem Zahn.",
+        "Leg den Zahn auf eine Seite, in die Mitte oder in die Tasche und zieh dann den Reißverschluss zu.",
+        "Klemmt der Reißverschluss, schau dir beide Geschichten noch einmal an."
+      ],
+      "learningGoals": [
+        "Das Kind sagt, was in beiden Geschichten passiert",
+        "Das Kind sagt, was nur in einer Geschichte passiert",
+        "Das Kind überprüft eine Antwort an den Bildern der Geschichte"
+      ]
     }
   }
 }

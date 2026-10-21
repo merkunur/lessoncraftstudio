@@ -4321,6 +4321,30 @@
         "Het kind onderscheidt een woord van woorden die één letter verschillen",
         "Het kind koppelt een geschreven woord aan het plaatje dat erbij hoort"
       ]
+    },
+    "willow-story-corner.compare-tales.rl-k-9": {
+      "about": [
+        "Willow de schildpad leest twee korte verhalen voor, plaatje voor plaatje. Daarna wordt elke vraag een tandje van een grote rits tussen de twee verhalen. „Wie verloor iets?” gaat in het midden als het in ALLEBEI de verhalen gebeurt, aan één kant als het alleen in dat verhaal gebeurt, en in het zakje als het in geen van beide gebeurt. Dan trek je aan de schuif: langs een tandje dat de plaatjes bewijzen, glijdt hij door en de plaatjes die het laten zien lichten op; bij een tandje op de verkeerde plek loopt hij vast. Een interactieve leesactiviteit die in de browser speelt.",
+        "Elk paar verhalen vult één rits met vijf tandjes: iets wat beide verhalen hebben, iets wat maar één verhaal heeft, iets wat geen van beide heeft, en één van die soorten twee keer, zodat je het laatste tandje nooit kunt raden door het op de lege plek te leggen. Als het vijfde tandje dicht is, gaat de hele rits dicht. In de instellingen kies je Twee verhalen of Twee dieren: met twee dieren vergelijkt het kind twee plaatjes (welk dier heeft een snavel, strepen, manen). Eerst luisteren bepaalt of Willow de verhalen aan het begin voorleest of alleen als het kind op haar tikt.",
+        "De activiteit sluit aan bij de kerndoelen Nederlands (SLO): personages en gebeurtenissen in twee verhalen vergelijken. Zonder tijdsdruk en zonder punten."
+      ],
+      "practices": [
+        "Vergelijken wat er in twee verhalen gebeurt",
+        "Zeggen wat in allebei hetzelfde is en wat verschilt",
+        "Een antwoord controleren aan de plaatjes en de woorden",
+        "Twee dieren vergelijken: wat ze allebei hebben en wat er maar één heeft"
+      ],
+      "howToPlay": [
+        "Luister hoe Willow beide verhalen voorleest, of tik op een plaatje om het nog eens te horen.",
+        "Lees de vraag op het tandje.",
+        "Leg het tandje aan één kant, in het midden of in het zakje en trek dan de rits dicht.",
+        "Loopt de rits vast, kijk dan nog eens naar beide verhalen."
+      ],
+      "learningGoals": [
+        "Het kind zegt wat er in allebei de verhalen gebeurt",
+        "Het kind zegt wat er maar in één verhaal gebeurt",
+        "Het kind controleert een antwoord aan de plaatjes van het verhaal"
+      ]
     }
   }
 }

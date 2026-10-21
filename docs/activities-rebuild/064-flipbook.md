@@ -62,3 +62,14 @@ ORDER row 64 · id `wake-up-pip.retell-story.rl-k-2` (kept).
   - both preflights pass;
   - verify-activity-content: ×11.
 - **My own read:** the 360, 704 and 1024 renders (order with a picked page, missing at miss 2 with the ghost, fix at success with the ribbon).
+
+## Live (2026-10-21, commit `29571246`)
+- **Deploy:** git pull, cp the 4 mini-tools files, chown, deploy.sh exit 0. The preview webp was uploaded first.
+- **live-verify-wake-up-pip:** 83 pass, 0 fail. The first run raced the page cache, as on #62 and #63. It covers:
+  - all 11 pages return 200;
+  - en/de/sv/fi at 1366 and 390: real pointer, wrapper 9.803;
+  - empty Flip asks without counting a miss; reversed pages stop at slot 2; in order Pip wakes and the ribbon has 4 tabs;
+  - the success text is okWin;
+  - the trivial page is a dead frame and the key page plays through;
+  - the iframe grows with the card.
+- **Variety probe** (en/sv/fi): 8 distinct rounds, and pass 2 is reshuffled.

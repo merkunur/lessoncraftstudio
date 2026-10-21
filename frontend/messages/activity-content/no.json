@@ -2372,6 +2372,29 @@
         "Barnet sorterer ord i det samme og det motsatte",
         "Barnet gjør ferdig en setning med et motsatt ord"
       ]
+    },
+    "penny-alphabet-trace.letter-formation.l-k-1-a": {
+      "about": [
+        "Hver bokstav skrives i det samme vinduet, og papiret beveger seg under det som valsen på en skrivemaskin. Barnet starter ved den grønne prikken, sporer bokstaven langs veien og skriver den så én gang til – bare med linjene og den grønne prikken. Hver ferdig bokstav glir mot venstre med tre klikk og står ved siden av de andre på linjen. En bokstav som ikke når linjen sin, synes straks ved siden av de andre.",
+        "Når barnet sporer, teller bare det fingeren faktisk har fulgt: fra den grønne prikken, i pilens retning, strek for strek i riktig rekkefølge. En strek fra feil ende blir blek og forsvinner. Når barnet skriver selv, er veien skjult. Havner bokstaven feil, viser «Sjekk» en skyggebokstav over streken til barnet; andre gang løper en gnist langs streken, og barnet sporer bokstaven på nytt.",
+        "Alfabetveggen over papiret fylles med barnets egne bokstaver i alfabetisk rekkefølge: alle de 29 store bokstavene med Æ, Ø og Å og alle de 29 små. For 1. trinn, i tråd med LK20, uten tidspress og uten poeng."
+      ],
+      "practices": [
+        "Å begynne hver bokstav på riktig sted og skrive strekene i riktig rekkefølge",
+        "Å trekke hver strek i riktig retning",
+        "Å plassere store og små bokstaver riktig på linjene",
+        "Å skrive en bokstav selv uten vei etter å ha sporet den"
+      ],
+      "howToPlay": [
+        "Sett fingeren på den grønne prikken og spor bokstaven i vinduet.",
+        "Skriv den én gang til – bare med linjene og den grønne prikken.",
+        "Under «Øving» velger du «Spor, så skriv to ganger» eller «Bare spore», og under «Bokstaver» for eksempel «Vokaler» eller «De første bokstavene»."
+      ],
+      "learningGoals": [
+        "Barnet begynner hver bokstav på riktig sted",
+        "Barnet skriver strekene i hver bokstav i riktig rekkefølge og retning",
+        "Barnet skriver store og små bokstaver på linjene"
+      ]
     }
   }
 }

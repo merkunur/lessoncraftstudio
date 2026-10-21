@@ -2364,6 +2364,29 @@
         "Lapsi lajittelee sanat samoihin ja vastakohtiin",
         "Lapsi täydentää lauseen vastakohdalla"
       ]
+    },
+    "penny-alphabet-trace.letter-formation.l-k-1-a": {
+      "about": [
+        "Jokainen kirjain kirjoitetaan samaan ikkunaan, ja paperi liikkuu sen alla kuin kirjoituskoneen tela. Lapsi aloittaa vihreästä pisteestä, jäljentää kirjaimen sen polkua pitkin ja kirjoittaa sen sitten vielä kerran – vain viivojen ja vihreän pisteen avulla. Jokainen valmis kirjain liukuu vasemmalle kolmella naksahduksella ja asettuu muiden viereen viivalle. Kirjain, joka ei yllä viivaansa, erottuu heti muiden joukosta.",
+        "Jäljentäessä lasketaan vain se, minkä sormi todella kulki: vihreästä pisteestä nuolen suuntaan, veto vedolta oikeassa järjestyksessä. Väärästä päästä aloitettu viiva jää vaaleaksi ja häviää. Kun lapsi kirjoittaa itse, polku on piilossa. Jos kirjain lähtee sivuun, ”Tarkista” näyttää varjokirjaimen lapsen viivan päällä; toisella kerralla kipinä kulkee vetoa pitkin ja lapsi jäljentää kirjaimen uudelleen.",
+        "Paperin yläpuolella oleva aakkosseinä täyttyy lapsen omista kirjaimista aakkosjärjestyksessä: kaikki 29 isoa kirjainta Å, Ä ja Ö mukaan lukien ja kaikki 29 pientä. 1. luokalle, OPS 2014:n mukaisesti, ilman ajanottoa ja ilman pisteitä."
+      ],
+      "practices": [
+        "Jokaisen kirjaimen aloittaminen oikeasta kohdasta ja vetojen tekeminen oikeassa järjestyksessä",
+        "Jokaisen vedon vetäminen oikeaan suuntaan",
+        "Isojen ja pienten kirjainten sijoittaminen oikein viivastolle",
+        "Kirjaimen kirjoittaminen itse ilman polkua jäljentämisen jälkeen"
+      ],
+      "howToPlay": [
+        "Laita sormi vihreälle pisteelle ja jäljennä kirjain ikkunassa.",
+        "Kirjoita se vielä kerran – vain viivojen ja vihreän pisteen avulla.",
+        "Kohdasta ”Harjoitus” valitset ”Jäljennä, sitten kirjoita kahdesti” tai ”Vain jäljennä”, ja kohdasta ”Kirjaimet” esimerkiksi ”Vokaalit” tai ”Ensimmäiset kirjaimet”."
+      ],
+      "learningGoals": [
+        "Lapsi aloittaa jokaisen kirjaimen oikeasta kohdasta",
+        "Lapsi tekee jokaisen kirjaimen vedot oikeassa järjestyksessä ja suunnassa",
+        "Lapsi kirjoittaa isot ja pienet kirjaimet viivastolle"
+      ]
     }
   }
 }

@@ -16,6 +16,7 @@ const ACTIVITY = 'penny-alphabet-trace.letter-formation.l-k-1-a';
 const REPO = path.join(__dirname, '..');
 const MINI = path.join(REPO, 'mini tools');
 const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.html': 'text/html', '.svg': 'image/svg+xml', '.webp': 'image/webp', '.png': 'image/png' };
+/* Row 73 rebuild (2026-10-21): this row runs The Writing Carriage (writing-carriage-activity); its gate is local-test-writing-carriage.js. */if (!JSON.parse(fs.readFileSync(path.join(MINI, 'penny-alphabet-trace-activities.json'), 'utf8'))[0].params.rounds) { console.log('local-test-penny-alphabet-trace: the row runs The Writing Carriage — see local-test-writing-carriage.js. Nothing to check here.'); process.exit(0); }
 
 function serve() {
   return http.createServer((req, res) => {

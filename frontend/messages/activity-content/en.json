@@ -3124,25 +3124,25 @@
     },
     "penny-alphabet-trace.letter-formation.l-k-1-a": {
       "about": [
-        "Penny the pencil shows where to begin every letter of the alphabet — all 26 capitals from A to Z and all 26 lowercase from a to z — and children start on the dot and trace each stroke in order to form the letter neatly. It's an interactive Kindergarten handwriting activity that plays right in the browser on tablets, phones, and classroom computers, with nothing to install and no account.",
-        "The activity works because letter formation is about strokes, not just shapes. Each letter is built from numbered strokes that go in a set order and direction, so a child learns to make a 'B' as a straight line down and two bumps, not as a guess. Tracing on the dotted guide trains the hand to move the right way every time — the muscle memory that makes handwriting legible and automatic later.",
-        "It is aligned to Common Core L.K.1.a — printing many upper- and lowercase letters. No timer, no score — just calm, playful practice."
+        "Every letter is written in the same window, and the paper moves under it like a typewriter carriage. The child starts on the green dot, traces the letter along its road, then writes it once more with only the lines and the green dot. Each finished letter glides out to the left with three clicks and sits on the line beside the others, so a letter that does not reach its line stands out next to its neighbours.",
+        "Tracing only counts where the finger really went: from the green dot, the way the arrow points, stroke by stroke in order. A line drawn from the wrong end stays pale and fades away. In the writing step the road is hidden; if the letter wanders off, \"Check\" shows a shadow letter over the child's line, and a second time a spark runs along the stroke and the child traces that letter again.",
+        "The alphabet wall above the paper fills with the child's own letters in alphabet order: all 26 capitals and all 26 lowercase letters. The paper is ruled like school handwriting paper. Aligned to Common Core L.K.1.a: print upper- and lowercase letters. No timer and no score."
       ],
       "practices": [
-        "Form each uppercase and lowercase letter with strokes in the correct order",
-        "Start every letter on the dot and follow the stroke direction",
-        "Recognize each letter in both its capital and small form",
-        "Build the hand control and muscle memory that fluent handwriting needs"
+        "Starting every letter at the right point and writing its strokes in order",
+        "Moving the pencil the right way for each stroke",
+        "Sizing capitals and lowercase letters on the lines",
+        "Writing a letter without the road after tracing it"
       ],
       "howToPlay": [
-        "A letter appears with a starting dot, like the capital A or the small g.",
-        "Start on the dot and trace each stroke in order to form the letter.",
-        "Move on to the next letter, working through all 26 capitals and 26 lowercase letters."
+        "Put your finger on the green dot and trace the letter in the window.",
+        "Write it again with only the lines and the green dot.",
+        "Under \"Practice\" choose \"Trace, then write twice\" or \"Trace only\", and under \"Letters\" a set such as \"Vowels\" or \"First letters\"."
       ],
       "learningGoals": [
-        "Print upper- and lowercase letters of the alphabet — the focus of Common Core L.K.1.a",
-        "Understand that letters are made of strokes formed in a set order and direction",
-        "Build the handwriting foundation for writing words and sentences"
+        "The child starts each letter at the correct point",
+        "The child writes the strokes of each letter in the right order and direction",
+        "The child writes capital and lowercase letters on the lines"
       ]
     },
     "pepper-sound-swap.substitute.rf-k-2-e": {

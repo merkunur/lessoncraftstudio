@@ -3996,25 +3996,25 @@
     },
     "penny-alphabet-trace.letter-formation.l-k-1-a": {
       "about": [
-        "Nesta atividade, a Penny, o lápis, acompanha a criança para traçar as letras do alfabeto. Cada letra aparece com um ponto de partida e traços que mostram o caminho, então é só começar no ponto e cobrir o pontilhado.",
-        "A criança pratica as letras maiúsculas e as minúsculas, formando cada uma no seu tempo. Ao seguir os traços na ordem certa, ela aprende o jeito de fazer cada letra com a mão.",
-        "É um treino calmo e sem pressa: sem relógio e sem placar, só a alegria de ver a letra ficar pronta. A atividade é alinhada à BNCC e ajuda nos primeiros passos da escrita."
+        "Cada letra é escrita na mesma janela, e o papel se move por baixo como o carro de uma máquina de escrever. A criança começa no ponto verde, cobre a letra pelo caminho e depois escreve de novo, só com as linhas e o ponto verde. Cada letra pronta desliza para a esquerda com três cliques e fica ao lado das outras na linha. Uma letra que não chega à sua linha aparece logo ao lado das outras.",
+        "Ao cobrir, só conta o que o dedo percorreu de verdade: do ponto verde, na direção da seta, traço por traço na ordem certa. Uma linha feita pela ponta errada fica clarinha e some. Quando a criança escreve sem ajuda, o caminho fica escondido. Se a letra sair do lugar, “Conferir” mostra uma letra-sombra sobre a linha da criança; na segunda vez, uma faísca percorre o traço e a criança cobre aquela letra de novo.",
+        "O mural do alfabeto, acima do papel, vai se enchendo com as letras da própria criança, em ordem alfabética: as 26 maiúsculas e as 26 minúsculas. Para o 1º ano, alinhado à BNCC, sem tempo e sem pontuação."
       ],
       "practices": [
-        "Traçar as letras do alfabeto começando no ponto certo.",
-        "Formar as letras maiúsculas e minúsculas seguindo os traços na ordem.",
-        "Treinar o movimento da mão e o controle do lápis ao cobrir o pontilhado.",
-        "Reconhecer a forma de cada letra do alfabeto, uma de cada vez."
+        "Começar cada letra no ponto certo e fazer os traços na ordem certa",
+        "Fazer cada traço na direção certa",
+        "Colocar maiúsculas e minúsculas no lugar certo da pauta",
+        "Escrever uma letra sem ajuda, sem o caminho, depois de cobri-la"
       ],
       "howToPlay": [
-        "Olhe para a letra e encontre o ponto de partida — é por ali que a Penny começa.",
-        "Comece no ponto e cubra o pontilhado, seguindo cada traço na ordem certa.",
-        "Quando a letra ficar pronta, a Penny comemora e você segue para a próxima!"
+        "Coloque o dedo no ponto verde e cubra a letra na janela.",
+        "Escreva a letra mais uma vez, só com as linhas e o ponto verde.",
+        "Em “Prática”, escolha “Cobrir e escrever duas vezes” ou “Só cobrir”, e em “Letras”, por exemplo, “Vogais” ou “Primeiras letras”."
       ],
       "learningGoals": [
-        "Formar as letras maiúsculas e minúsculas do alfabeto com traços firmes.",
-        "Começar no ponto certo e seguir os traços na ordem, ganhando controle do lápis.",
-        "Dar os primeiros passos da escrita à mão, alinhados à BNCC, com confiança e sem pressa."
+        "A criança começa cada letra no ponto certo",
+        "A criança faz os traços de cada letra na ordem e na direção certas",
+        "A criança escreve maiúsculas e minúsculas na pauta"
       ]
     },
     "clock-convert.12-24.2-md-c-7": {

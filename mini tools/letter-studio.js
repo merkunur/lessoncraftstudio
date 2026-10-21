@@ -455,7 +455,7 @@ var LetterStudio = {
          the x-height, where it belongs near 56; the lower bowl bottomed at 82.
          Stroke 3 starts 2 units from stroke 2's terminus — inside one stroke
          width, so they merge. */
-      'ß': [line(30, 22, 30, 96, 8),
+      'ß': [line(30, 22, 30, 84, 7),   /* the stem STANDS on the baseline: German school print ß does not descend (row 73 native review, 2026-10-21) */
             arc(44, 37, 14, 19, 180, 450, 9),
             arc(46, 70, 16, 14, 270, 500, 10)]
     };

@@ -4308,6 +4308,29 @@
         "L’enfant écrit dans l’ordre la lettre de chaque son",
         "L’enfant fusionne les sons pour retrouver le mot"
       ]
+    },
+    "penny-alphabet-trace.letter-formation.l-k-1-a": {
+      "about": [
+        "Chaque lettre s’écrit dans la même fenêtre, et la feuille avance dessous comme le chariot d’une machine à écrire. L’enfant part du point vert, repasse la lettre sur son chemin, puis l’écrit encore une fois avec seulement les lignes et le point vert. Chaque lettre finie glisse vers la gauche en trois déclics et se range à côté des autres sur la ligne. Une lettre qui n’atteint pas sa ligne se voit tout de suite à côté des autres.",
+        "Quand l’enfant repasse, seul compte le chemin que le doigt a vraiment parcouru : depuis le point vert, dans le sens de la flèche, trait après trait dans le bon ordre. Un trait commencé par le mauvais bout reste pâle et s’efface. Quand l’enfant écrit sans modèle, le chemin est caché. Si la lettre sort du chemin, « Vérifier » montre une lettre fantôme sur le trait de l’enfant ; la deuxième fois, une étincelle parcourt le trait et l’enfant repasse à nouveau cette lettre.",
+        "Le mur de l’alphabet, au-dessus de la feuille, se remplit des lettres de l’enfant, dans l’ordre alphabétique : les 26 majuscules et les 26 minuscules. Pour le CP, en lien avec les programmes officiels, sans chronomètre et sans score."
+      ],
+      "practices": [
+        "Commencer chaque lettre au bon endroit et tracer les traits dans le bon ordre",
+        "Tracer chaque trait dans le bon sens",
+        "Placer majuscules et minuscules correctement sur les lignes",
+        "Écrire une lettre sans modèle après l’avoir repassée"
+      ],
+      "howToPlay": [
+        "Pose ton doigt sur le point vert et repasse la lettre dans la fenêtre.",
+        "Écris-la encore une fois, avec seulement les lignes et le point vert.",
+        "Dans « Entraînement », choisis « Repasser, puis écrire deux fois » ou « Repasser seulement », et dans « Lettres », par exemple « Voyelles » ou « Premières lettres »."
+      ],
+      "learningGoals": [
+        "L’enfant commence chaque lettre au bon endroit",
+        "L’enfant trace les traits de chaque lettre dans le bon ordre et le bon sens",
+        "L’enfant écrit majuscules et minuscules sur les lignes"
+      ]
     }
   }
 }

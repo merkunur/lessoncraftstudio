@@ -2106,6 +2106,29 @@
         "Barnet skriver bogstavet for hver lyd i rækkefølge",
         "Barnet trækker lydene sammen til ordet igen"
       ]
+    },
+    "bingo-word-hunt.read-match.rf-k-3-d": {
+      "about": [
+        "Hunden Bingo råber et billede op, og barnet finder ordet på en bingoplade fuld af ord, der ligner hinanden: hus, mus, bus, kam, lam, ham, sand, tand og vand. En brik kommer på det ord, der passer til billedet, og hvert rigtigt læst ord vender sig og bliver til sit billede – indtil en hel række er billeder, og Bingo hopper: BINGO. En interaktiv læseøvelse, der kører i browseren.",
+        "En brik på et ord, der ligner, glider af igen, og de bogstaver, der er forskellige, lyser op; så ser barnet, at ham ikke er lam på grund af ét bogstav. Efter to forsøg bliver alle ord blege undtagen det rigtige og de to, der ligner mest; efter tre forsøg pulserer det rigtige felt. Når pladen er fuld, er de ord tilbage, som Bingo aldrig råbte op. Andre plader har rimord (sand, tand, vand, land), ord der begynder med to konsonanter, og ord med to stavelser. I Du råber byttes rollerne: Bingo har billederne, barnet har tre ordkort – hus, mus og bus – og Bingo lægger sin brik på præcis det, der står på kortet.",
+        "Øvelsen følger Fælles Mål for dansk: at læse ord, der ligner hinanden, nøjagtigt og skelne dem på de bogstaver, der er forskellige. En indstilling viser det første bogstav på opråbskortet. Uden tidspres og uden point."
+      ],
+      "practices": [
+        "At læse korte ord bogstav for bogstav",
+        "At skelne ord, der er forskellige med ét bogstav, som hus og mus",
+        "At finde det billede, der passer til et skrevet ord",
+        "At læse rimord og ord med to stavelser"
+      ],
+      "howToPlay": [
+        "Se på billedet, som Bingo råber op.",
+        "Tryk på et ord på pladen, eller træk brikken derhen.",
+        "Tryk på Tjek. Hvis brikken glider af, så se på de bogstaver, der lyser, og prøv igen."
+      ],
+      "learningGoals": [
+        "Barnet læser et kort ord nøjagtigt, bogstav for bogstav",
+        "Barnet skelner et ord fra ord, der er forskellige med ét bogstav",
+        "Barnet forbinder et skrevet ord med det billede, det betegner"
+      ]
     }
   }
 }

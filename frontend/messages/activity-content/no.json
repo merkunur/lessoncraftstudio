@@ -2113,6 +2113,29 @@
         "Barnet skriver bokstaven for hver lyd i riktig rekkefølge",
         "Barnet trekker lydene sammen til ordet igjen"
       ]
+    },
+    "bingo-word-hunt.read-match.rf-k-3-d": {
+      "about": [
+        "Hunden Bingo roper opp et bilde, og barnet finner ordet på et bingobrett fullt av ord som ligner hverandre: hus, mus, lus, hatt, katt, matt, kopp, mopp og sopp. En brikke legges på ordet som passer til bildet, og hvert ord som leses riktig, snur seg og blir til sitt bilde – til en hel rad er bilder og Bingo hopper: BINGO. En interaktiv leseøvelse som fungerer i nettleseren.",
+        "En brikke på et ord som ligner, glir av igjen, og bokstavene som er forskjellige, lyser opp; slik ser barnet at lus ikke er hus på grunn av én bokstav. Etter to forsøk blir alle ord bleke unntatt det riktige og de to som ligner mest; etter tre forsøk pulserer den riktige ruten. Når brettet er fullt, er de ordene igjen som Bingo aldri ropte opp. Andre brett har rimord (kopp, mopp, sopp, knopp), ord som begynner med to konsonanter, og ord med to stavelser. I Du roper byttes rollene: Bingo har bildene, barnet har tre ordkort – hus, mus og lus – og Bingo legger brikken sin på nøyaktig det som står på kortet.",
+        "Øvelsen følger LK20: å lese ord som ligner hverandre, nøyaktig og skille dem på bokstavene som er forskjellige. En innstilling viser første bokstav på oppropskortet. Uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Å lese korte ord bokstav for bokstav",
+        "Å skille ord som er forskjellige med én bokstav, som hus og mus",
+        "Å finne bildet som passer til et skrevet ord",
+        "Å lese rimord og ord med to stavelser"
+      ],
+      "howToPlay": [
+        "Se på bildet som Bingo roper opp.",
+        "Trykk på et ord på brettet, eller dra brikken dit.",
+        "Trykk på Sjekk. Hvis brikken glir av, se på bokstavene som lyser, og prøv igjen."
+      ],
+      "learningGoals": [
+        "Barnet leser et kort ord nøyaktig, bokstav for bokstav",
+        "Barnet skiller et ord fra ord som er forskjellige med én bokstav",
+        "Barnet kobler et skrevet ord til bildet det står for"
+      ]
     }
   }
 }

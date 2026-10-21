@@ -1,8 +1,8 @@
 [
   {
     "id": "bingo-word-hunt.read-match.rf-k-3-d",
-    "tool": "bingo-word-hunt-activity",
-    "task_template": "read-match",
+    "tool": "picture-bingo-activity",
+    "task_template": "picture-bingo",
     "alignment": {
       "framework": "CCSS",
       "code": "RF.K.3.d",
@@ -10,337 +10,125 @@
       "strand": "Reading: Foundational Skills"
     },
     "params": {
-      "rounds": [
-        {
-          "id": "cat",
-          "band": 1,
-          "target": {
-            "noun": "cat",
-            "themeDir": "animals"
-          },
-          "choices": [
-            {
-              "word": "cat"
-            },
-            {
-              "word": "cot"
-            },
-            {
-              "word": "cut"
-            }
-          ]
+      "note": "The cards, words, pictures and You-call rounds live in picture-bingo-core.js; this mirrors the core so the gates can size each Card setting per locale (calls per level).",
+      "byLocale": {
+        "en": {
+          "look": 11,
+          "family": 16,
+          "blend": 7,
+          "syll": 7,
+          "call": 8
         },
-        {
-          "id": "hat",
-          "band": 1,
-          "target": {
-            "noun": "hat",
-            "themeDir": "accessories"
-          },
-          "choices": [
-            {
-              "word": "hot"
-            },
-            {
-              "word": "hat"
-            },
-            {
-              "word": "hit"
-            }
-          ]
+        "de": {
+          "look": 20,
+          "family": 7,
+          "blend": 7,
+          "syll": 7,
+          "call": 8
         },
-        {
-          "id": "cup",
-          "band": 1,
-          "target": {
-            "noun": "cup",
-            "themeDir": "around the house"
-          },
-          "choices": [
-            {
-              "word": "cap"
-            },
-            {
-              "word": "cop"
-            },
-            {
-              "word": "cup"
-            }
-          ]
+        "nl": {
+          "look": 23,
+          "family": 11,
+          "blend": 7,
+          "syll": 7,
+          "call": 8
         },
-        {
-          "id": "dog",
-          "band": 2,
-          "target": {
-            "noun": "dog",
-            "themeDir": "animals"
-          },
-          "choices": [
-            {
-              "word": "dog"
-            },
-            {
-              "word": "dig"
-            },
-            {
-              "word": "dug"
-            }
-          ]
+        "da": {
+          "look": 23,
+          "family": 8,
+          "blend": 7,
+          "syll": 7,
+          "call": 8
         },
-        {
-          "id": "pig",
-          "band": 2,
-          "target": {
-            "noun": "pig",
-            "themeDir": "animals"
-          },
-          "choices": [
-            {
-              "word": "peg"
-            },
-            {
-              "word": "pig"
-            },
-            {
-              "word": "pug"
-            }
-          ]
+        "sv": {
+          "look": 22,
+          "family": 11,
+          "blend": 7,
+          "syll": 7,
+          "call": 8
         },
-        {
-          "id": "bed",
-          "band": 2,
-          "target": {
-            "noun": "bed",
-            "themeDir": "around the house"
-          },
-          "choices": [
-            {
-              "word": "bad"
-            },
-            {
-              "word": "bud"
-            },
-            {
-              "word": "bed"
-            }
-          ]
+        "no": {
+          "look": 22,
+          "family": 9,
+          "blend": 7,
+          "syll": 7,
+          "call": 8
         },
-        {
-          "id": "net",
-          "band": 3,
-          "target": {
-            "noun": "net",
-            "themeDir": "beach"
-          },
-          "choices": [
-            {
-              "word": "net"
-            },
-            {
-              "word": "nut"
-            },
-            {
-              "word": "not"
-            }
-          ]
+        "es": {
+          "look": 21,
+          "family": 9,
+          "blend": 7,
+          "syll": 7,
+          "call": 8
         },
-        {
-          "id": "pan",
-          "band": 3,
-          "target": {
-            "noun": "pan",
-            "themeDir": "around the house"
-          },
-          "choices": [
-            {
-              "word": "pin"
-            },
-            {
-              "word": "pan"
-            },
-            {
-              "word": "pen"
-            }
-          ]
+        "it": {
+          "look": 19,
+          "family": 12,
+          "blend": 7,
+          "syll": 7,
+          "call": 8
+        },
+        "pt": {
+          "look": 19,
+          "family": 9,
+          "blend": 8,
+          "syll": 7,
+          "call": 8
+        },
+        "fr": {
+          "look": 18,
+          "family": 13,
+          "blend": 7,
+          "syll": 7,
+          "call": 8
+        },
+        "fi": {
+          "look": 22,
+          "family": 12,
+          "syll": 7,
+          "call": 8
         }
-      ],
-      "roundsL10n": {
-        "fr": [
-          {
-            "id": "pomme",
-            "band": 1,
-            "target": {
-              "noun": "pomme",
-              "imgKey": "apple",
-              "themeDir": "fruits"
-            },
-            "choices": [
-              {
-                "word": "pomme"
-              },
-              {
-                "word": "somme"
-              },
-              {
-                "word": "gomme"
-              }
-            ]
-          },
-          {
-            "id": "vache",
-            "band": 1,
-            "target": {
-              "noun": "vache",
-              "imgKey": "cow",
-              "themeDir": "farm animals"
-            },
-            "choices": [
-              {
-                "word": "tache"
-              },
-              {
-                "word": "vache"
-              },
-              {
-                "word": "hache"
-              }
-            ]
-          },
-          {
-            "id": "sac",
-            "band": 1,
-            "target": {
-              "noun": "sac",
-              "imgKey": "bag",
-              "themeDir": "At the Supermarket"
-            },
-            "choices": [
-              {
-                "word": "sec"
-              },
-              {
-                "word": "sac"
-              },
-              {
-                "word": "suc"
-              }
-            ]
-          },
-          {
-            "id": "chat",
-            "band": 2,
-            "target": {
-              "noun": "chat",
-              "imgKey": "cat",
-              "themeDir": "animals"
-            },
-            "choices": [
-              {
-                "word": "chat"
-              },
-              {
-                "word": "chut"
-              },
-              {
-                "word": "char"
-              }
-            ]
-          },
-          {
-            "id": "pain",
-            "band": 2,
-            "target": {
-              "noun": "pain",
-              "imgKey": "bread",
-              "themeDir": "At the Supermarket"
-            },
-            "choices": [
-              {
-                "word": "bain"
-              },
-              {
-                "word": "pain"
-              },
-              {
-                "word": "main"
-              }
-            ]
-          },
-          {
-            "id": "lit",
-            "band": 2,
-            "target": {
-              "noun": "lit",
-              "imgKey": "bed",
-              "themeDir": "furniture"
-            },
-            "choices": [
-              {
-                "word": "lot"
-              },
-              {
-                "word": "lit"
-              },
-              {
-                "word": "lut"
-              }
-            ]
-          },
-          {
-            "id": "pot",
-            "band": 3,
-            "target": {
-              "noun": "pot",
-              "imgKey": "pot",
-              "themeDir": "kitchen tools"
-            },
-            "choices": [
-              {
-                "word": "mot"
-              },
-              {
-                "word": "pot"
-              },
-              {
-                "word": "sot"
-              }
-            ]
-          },
-          {
-            "id": "sel",
-            "band": 3,
-            "target": {
-              "noun": "sel",
-              "imgKey": "salt",
-              "themeDir": "At the Supermarket"
-            },
-            "choices": [
-              {
-                "word": "sel"
-              },
-              {
-                "word": "sol"
-              },
-              {
-                "word": "gel"
-              }
-            ]
-          }
-        ]
       }
     },
     "theme": null,
     "slug": {
       "en": "bingo-word-hunt",
-      "fr": "lire-des-mots-qui-se-ressemblent-cp"
+      "fr": "lire-des-mots-qui-se-ressemblent-cp",
+      "de": "bingo-aehnliche-woerter-lesen",
+      "es": "bingo-palabras-parecidas",
+      "it": "bingo-parole-simili",
+      "pt": "bingo-palavras-parecidas",
+      "nl": "bingo-woorden-die-op-elkaar-lijken",
+      "sv": "bingo-ord-som-liknar-varandra",
+      "da": "bingo-ord-der-ligner-hinanden",
+      "no": "bingo-ord-som-ligner-hverandre",
+      "fi": "bingo-samannakoiset-sanat"
     },
     "page_title": {
       "en": "Bingo's Word Hunt — Read & Match the Right Word (Kindergarten)",
-      "fr": "Confusion de sons – lire des mots proches en ligne (CP)"
+      "fr": "Confusion de sons – lire des mots proches en ligne (CP)",
+      "de": "Bingos Bilderkarte – ähnliche Wörter genau lesen",
+      "es": "La tarjeta de Bingo: lee palabras parecidas",
+      "it": "La cartella di Bingo – leggere parole simili",
+      "pt": "A cartela do Bingo – ler palavras parecidas",
+      "nl": "Bingo’s plaatjeskaart – woorden lezen die op elkaar lijken",
+      "sv": "Bingos bildkort – läs ord som liknar varandra",
+      "da": "Bingos billedplade – læs ord, der ligner hinanden",
+      "no": "Bingos bildebrett – les ord som ligner hverandre",
+      "fi": "Bingon kuvakortti – lue samannäköisiä sanoja (esiopetus)"
     },
     "page_intro": {
       "en": "Bingo the beagle sniffs out the exact right word! Look at the picture, then read the three little words — they look almost the same but one letter is different (cat, cot, cut). Sound out each word and tap the one that names the picture. A Kindergarten decoding game, aligned to Common Core RF.K.3.d: tell apart similar words by the letters that differ.",
-      "fr": "Aider un enfant qui confond les sons : lire et distinguer des mots qui se ressemblent. En ligne, sans inscription."
+      "fr": "Aider un enfant qui confond les sons : lire et distinguer des mots qui se ressemblent. En ligne, sans inscription.",
+      "de": "Ein Lese-Bingo für die ersten Schuljahre: Bingo ruft ein Bild auf, und das Kind sucht das passende Wort auf einer Karte voller ähnlicher Wörter wie Haus, Maus und Laus. Jedes richtig gelesene Wort wird zu seinem Bild. Die Übung orientiert sich am Lehrplan.",
+      "es": "Un bingo de lectura para los primeros grados: Bingo canta un dibujo y el niño busca su palabra en una tarjeta llena de palabras parecidas, como gato, pato y rato. Cada palabra bien leída se convierte en su dibujo. Se basa en los programas de estudio de la SEP.",
+      "it": "Una tombola di lettura per i primi anni: Bingo estrae un disegno e il bambino cerca la sua parola su una cartella piena di parole simili, come cane, pane e lane. Ogni parola letta bene diventa il suo disegno. Segue le Indicazioni nazionali.",
+      "pt": "Um bingo de leitura para os primeiros anos: o Bingo sorteia uma figura e a criança procura a palavra em uma cartela cheia de palavras parecidas, como gato, pato e rato. Cada palavra bem lida vira a sua figura. A atividade se apoia na BNCC.",
+      "nl": "Een leesbingo voor de eerste schooljaren: Bingo roept een plaatje en het kind zoekt het woord op een kaart vol woorden die op elkaar lijken, zoals kat, kam en kan. Elk goed gelezen woord wordt zijn plaatje. Sluit aan bij de SLO-kerndoelen.",
+      "sv": "Ett läsbingo för de första skolåren: Bingo ropar upp en bild och barnet letar efter ordet på ett kort fullt av ord som liknar varandra, som hand, hund och band. Varje rätt läst ord blir sin bild. Övningen följer Lgr22.",
+      "da": "En læsebingo til de første skoleår: Bingo råber et billede op, og barnet finder ordet på en plade fuld af ord, der ligner hinanden, som hus, mus og bus. Hvert rigtigt læst ord bliver til sit billede. Øvelsen følger Fælles Mål.",
+      "no": "Et lesebingo for de første skoleårene: Bingo roper opp et bilde, og barnet finner ordet på et brett fullt av ord som ligner hverandre, som hus, mus og lus. Hvert ord som leses riktig, blir til sitt bilde. Øvelsen følger LK20.",
+      "fi": "Lukubingo esiopetukseen: Bingo arpoo kuvan, ja lapsi etsii sen sanan kortilta, joka on täynnä samannäköisiä sanoja, kuten kana, kala ja kani. Jokainen oikein luettu sana muuttuu kuvakseen. Harjoitus tukee esiopetuksen opetussuunnitelman perusteiden 2014 tavoitteita."
     },
     "kid_prompt_template": "Read the words — tap the one that names the picture!"
   }

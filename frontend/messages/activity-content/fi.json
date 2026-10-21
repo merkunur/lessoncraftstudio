@@ -2105,6 +2105,29 @@
         "Lapsi erottaa sanan sanoista, joissa on samat kirjaimet eri järjestyksessä, yksi kirjain enemmän tai vähemmän tai yksi eri kirjain",
         "Lapsi valitsee sanan, joka tekee lauseesta oikean"
       ]
+    },
+    "bingo-word-hunt.read-match.rf-k-3-d": {
+      "about": [
+        "Bingo-koira arpoo kuvan, ja lapsi etsii sen sanan bingokortilta, joka on täynnä samannäköisiä sanoja: kana, kala, kani, kukka, kukko, sukka, pallo, pullo ja pulla. Pelimerkki laitetaan sanalle, joka on kuvan nimi, ja jokainen oikein luettu sana kääntyy ja muuttuu kuvakseen – kunnes kokonainen rivi on kuvia ja Bingo hyppää: BINGO! Interaktiivinen lukuharjoitus, joka toimii selaimessa.",
+        "Samannäköiselle sanalle laitettu pelimerkki liukuu pois, ja erilaiset kirjaimet syttyvät; näin lapsi näkee, että kala ei ole kana yhden kirjaimen takia. Kahden yrityksen jälkeen kaikki sanat haalistuvat paitsi oikea ja kaksi sitä eniten muistuttavaa; kolmen yrityksen jälkeen oikea ruutu sykkii. Kun kortti on täynnä, jäljelle jäävät sanat, joita Bingo ei koskaan arponut. Muilla korteilla on riimisanoja (sukka, kukka, nukka) ja kaksitavuisia sanoja. Sinä huudat -pelissä roolit vaihtuvat: Bingolla on kuvat, lapsella kolme sanakorttia – kana, kala ja kani – ja Bingo laittaa pelimerkin juuri sen kuvan päälle, jonka nimi kortissa lukee.",
+        "Harjoitus tukee esiopetuksen opetussuunnitelman perusteiden tavoitteita: samannäköisten sanojen tarkkaa lukemista ja erottamista toisistaan eroavien kirjainten avulla. Asetuksella arvontakorttiin saa näkyviin ensimmäisen kirjaimen. Ei ajastinta eikä pisteitä."
+      ],
+      "practices": [
+        "Lyhyiden sanojen lukeminen kirjain kirjaimelta",
+        "Yhden kirjaimen verran eroavien sanojen, kuten kana ja kala, erottaminen",
+        "Kirjoitetun sanan yhdistäminen sen kuvaan",
+        "Riimisanojen ja kaksitavuisten sanojen lukeminen"
+      ],
+      "howToPlay": [
+        "Katso kuvaa, jonka Bingo arpoo.",
+        "Kosketa sanaa kortilla tai vedä pelimerkki sen päälle.",
+        "Paina ”Tarkista”. Jos pelimerkki liukuu pois, katso syttyviä kirjaimia ja yritä uudelleen."
+      ],
+      "learningGoals": [
+        "Lapsi lukee lyhyen sanan tarkasti kirjain kirjaimelta",
+        "Lapsi erottaa sanan sanoista, jotka eroavat yhden kirjaimen verran",
+        "Lapsi yhdistää kirjoitetun sanan kuvaan, jonka nimi se on"
+      ]
     }
   }
 }

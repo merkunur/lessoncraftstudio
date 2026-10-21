@@ -4303,6 +4303,29 @@
         "Das Kind schreibt für jeden Laut den passenden Buchstaben in der richtigen Reihenfolge",
         "Das Kind verbindet die Laute wieder zum Wort"
       ]
+    },
+    "bingo-word-hunt.read-match.rf-k-3-d": {
+      "about": [
+        "Der Hund Bingo ruft ein Bild auf, und das Kind sucht das passende Wort auf einer Bingokarte voller ähnlicher Wörter: Haus, Maus, Laus, Hand, Hund, Mund, Hose, Rose und Dose. Ein Chip kommt auf das Wort, das zum Bild passt, und jedes richtig gelesene Wort dreht sich um und wird zu seinem Bild – bis eine ganze Reihe aus Bildern besteht und Bingo hüpft: BINGO. Eine interaktive Leseübung, die im Browser läuft.",
+        "Ein Chip auf einem ähnlichen Wort rutscht wieder herunter, und die Buchstaben, die sich unterscheiden, leuchten auf; so sieht das Kind, dass Laus wegen eines einzigen Buchstabens nicht Haus ist. Nach zwei Versuchen werden alle Wörter blass außer dem richtigen und den zwei ähnlichsten, nach drei Versuchen pulsiert das richtige Feld. Ist die Karte voll, bleiben die Wörter übrig, die Bingo nie aufgerufen hat. Andere Karten haben Reimwörter (Hand, Sand, Land, Wand), Wörter mit zwei Konsonanten am Anfang und Wörter mit zwei Silben. Bei „Du rufst“ werden die Rollen getauscht: Bingo hat die Bilder, das Kind hat drei Wortkarten – Maus, Haus und Laus –, und Bingo legt seinen Chip genau auf das, was auf der Karte steht.",
+        "Die Übung orientiert sich am Lehrplan: ähnliche Wörter genau lesen und an den Buchstaben unterscheiden, die anders sind. In den Einstellungen kann der erste Buchstabe auf der Aufrufkarte erscheinen. Ohne Zeitdruck und ohne Punkte."
+      ],
+      "practices": [
+        "Kurze Wörter Buchstabe für Buchstabe lesen",
+        "Wörter unterscheiden, die sich in einem Buchstaben unterscheiden, wie Haus und Maus",
+        "Ein geschriebenes Wort dem passenden Bild zuordnen",
+        "Reimwörter und Wörter mit zwei Silben lesen"
+      ],
+      "howToPlay": [
+        "Schau dir das Bild an, das Bingo aufruft.",
+        "Tippe auf ein Wort auf der Karte oder zieh den Chip darauf.",
+        "Drück auf „Prüfen“. Rutscht der Chip herunter, schau dir die leuchtenden Buchstaben an und versuch es noch einmal."
+      ],
+      "learningGoals": [
+        "Das Kind liest ein kurzes Wort genau, Buchstabe für Buchstabe",
+        "Das Kind unterscheidet ein Wort von ähnlichen Wörtern mit einem anderen Buchstaben",
+        "Das Kind ordnet ein geschriebenes Wort dem Bild zu, das es benennt"
+      ]
     }
   }
 }

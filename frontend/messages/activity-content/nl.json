@@ -4297,6 +4297,29 @@
         "Het kind schrijft voor elke klank de goede letter op volgorde",
         "Het kind plakt de klanken weer aan elkaar tot het woord"
       ]
+    },
+    "bingo-word-hunt.read-match.rf-k-3-d": {
+      "about": [
+        "De hond Bingo roept een plaatje, en het kind zoekt het woord op een bingokaart vol woorden die op elkaar lijken: kat, kam, kan, pan, pen, pin, hand, mand en tand. Er komt een fiche op het woord dat bij het plaatje hoort, en elk goed gelezen woord draait om en wordt zijn plaatje – tot een hele rij uit plaatjes bestaat en Bingo springt: BINGO. Een interactieve leesactiviteit die in de browser werkt.",
+        "Een fiche op een woord dat erop lijkt, glijdt eraf, en de letters die verschillen lichten op; zo ziet het kind dat pin geen pen is, door één letter. Na twee pogingen worden alle woorden vaag behalve het goede en de twee die er het meest op lijken; na drie pogingen gaat het goede vakje kloppen. Is de kaart vol, dan blijven de woorden over die Bingo nooit heeft geroepen. Andere kaarten hebben rijmwoorden (hand, mand, tand, zand), woorden die met twee medeklinkers beginnen en woorden met twee lettergrepen. Bij Jij roept wisselen de rollen: Bingo heeft de plaatjes, het kind heeft drie woordkaartjes – kat, kam en kan – en Bingo legt een fiche op precies wat er op de kaart staat.",
+        "De activiteit sluit aan bij de SLO-kerndoelen voor beginnende geletterdheid: woorden die op elkaar lijken precies lezen en ze uit elkaar houden aan de letters die verschillen. Een instelling zet de eerste letter op de roepkaart. Zonder tijdsdruk en zonder punten."
+      ],
+      "practices": [
+        "Korte woorden letter voor letter lezen",
+        "Woorden uit elkaar houden die één letter verschillen, zoals kat en kam",
+        "Een geschreven woord bij het juiste plaatje zoeken",
+        "Rijmwoorden en woorden met twee lettergrepen lezen"
+      ],
+      "howToPlay": [
+        "Kijk naar het plaatje dat Bingo roept.",
+        "Tik op een woord op de kaart of sleep het fiche erop.",
+        "Druk op Controleer. Glijdt het fiche eraf, kijk dan naar de letters die oplichten en probeer het opnieuw."
+      ],
+      "learningGoals": [
+        "Het kind leest een kort woord precies, letter voor letter",
+        "Het kind onderscheidt een woord van woorden die één letter verschillen",
+        "Het kind koppelt een geschreven woord aan het plaatje dat erbij hoort"
+      ]
     }
   }
 }

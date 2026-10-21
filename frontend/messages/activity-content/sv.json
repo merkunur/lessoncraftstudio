@@ -2956,6 +2956,29 @@
         "Barnet skriver bokstaven för varje ljud i rätt ordning",
         "Barnet drar ihop ljuden till ordet igen"
       ]
+    },
+    "bingo-word-hunt.read-match.rf-k-3-d": {
+      "about": [
+        "Hunden Bingo ropar upp en bild, och barnet letar efter ordet på en bingobricka full av ord som liknar varandra: hand, hund, band, sand, tand, land, hus, mus och bus. En marker läggs på ordet som passar till bilden, och varje rätt läst ord vänder sig och blir sin bild – tills en hel rad är bilder och Bingo hoppar: BINGO. En interaktiv läsövning som fungerar i webbläsaren.",
+        "En marker på ett ord som liknar glider av igen, och bokstäverna som skiljer sig lyser upp; så ser barnet att hund inte är hand på grund av en enda bokstav. Efter två försök blir alla ord bleka utom det rätta och de två som liknar mest; efter tre försök pulserar den rätta rutan. När brickan är full är de ord kvar som Bingo aldrig ropade upp. Andra brickor har rimord (band, hand, tand, sand), ord som börjar med två konsonanter och ord med två stavelser. I Du ropar byts rollerna: Bingo har bilderna, barnet har tre ordkort – hand, hund och band – och Bingo lägger sin marker på exakt det som står på kortet.",
+        "Övningen följer Lgr22: att läsa ord som liknar varandra exakt och skilja dem åt på bokstäverna som är olika. En inställning visar första bokstaven på uppropskortet. Utan tidtagning och utan poäng."
+      ],
+      "practices": [
+        "Att läsa korta ord bokstav för bokstav",
+        "Att skilja på ord som skiljer sig med en bokstav, som hand och hund",
+        "Att para ihop ett skrivet ord med rätt bild",
+        "Att läsa rimord och ord med två stavelser"
+      ],
+      "howToPlay": [
+        "Titta på bilden som Bingo ropar upp.",
+        "Tryck på ett ord på brickan eller dra markern dit.",
+        "Tryck på Kolla. Om markern glider av, titta på bokstäverna som lyser och försök igen."
+      ],
+      "learningGoals": [
+        "Barnet läser ett kort ord exakt, bokstav för bokstav",
+        "Barnet skiljer ett ord från ord som skiljer sig med en bokstav",
+        "Barnet parar ihop ett skrivet ord med bilden det betecknar"
+      ]
     }
   }
 }

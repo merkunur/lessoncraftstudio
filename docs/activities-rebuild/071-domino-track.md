@@ -76,3 +76,8 @@ ORDER row 71 · id `linc-fact-chain.connect.ri-k-3` (kept).
     - English "ev-ery" was hyphenated (hyphenation is now limited to compound languages and words of ≥ 12 letters).
 - **visual-qa:** en and fi, 42 renders each, pass; de/pt/fr/nl/da pass at 320. The first run failed SCALE: the rail container inherited 16 px, and it now scales.
 - **Other gates:** audit-activity-hierarchy 128/0; audit-settings-efficacy 2 live; both preflights; verify-activity-content ×11.
+
+## Live (2026-10-21)
+- Commit `5aa4849f`, deployed (`git pull` → cp the four mini-tools files → `deploy.sh`), preview webp uploaded first. Server: 132 GB free (69 %).
+- `live-verify-linc-fact-chain.js`: 51 pass, 0 fail on the second run (the first run after the deploy races the page cache). It covers all 11 pages returning 200, plus en/de/sv/fi at 1366 and 390: the same-word lure dragged into the gap stops the chain (a miss with the hint); the right card dragged in makes the chain fall and the shell read the authored joined sentence; wrapper 9.812; the iframe grows with the card.
+- Variety probe en/sv/fi: 7 distinct rounds (the default level), reshuffled per pass.

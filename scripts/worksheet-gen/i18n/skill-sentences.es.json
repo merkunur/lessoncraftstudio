@@ -453,5 +453,9 @@
     "full": "Dibujar una línea por un laberinto ilustrado y elegir en cada cruce la letra, el número o la operación que sigue desarrolla la planeación y el trazo; con respuestas.",
     "short": "Desarrolla la planeación y el trazo en un laberinto.",
     "levelSetShort": "Desarrolla la planeación."
+  },
+  "picture-tracing": {
+    "full": "Repasar dibujos completos fortalece la motricidad fina, la coordinación ojo-mano y el control del lápiz, y prepara la mano para escribir.",
+    "short": "Motricidad fina y preparación para la escritura"
   }
 }

@@ -4854,12 +4854,16 @@
         "slug": {
           "en": "picture-tracing",
           "de": "bilder-nachspuren",
-          "fr": "dessins-a-repasser"
+          "fr": "dessins-a-repasser",
+          "es": "dibujos-para-repasar",
+          "pt": "desenhos-pontilhados"
         },
         "name": {
           "en": "Picture Tracing",
           "de": "Bilder nachspuren",
-          "fr": "Dessins à repasser"
+          "fr": "Dessins à repasser",
+          "es": "Dibujos para repasar",
+          "pt": "Desenhos pontilhados"
         }
       }
     },

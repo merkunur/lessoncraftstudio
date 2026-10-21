@@ -112,10 +112,77 @@ the guide is taken FROM the drawing's ink, so nothing is ever left to erase. Per
   traced picture (PreK 300 · K 130 · G1 80 px), the closest two separate pictures, the vertical extent (the page fills its
   body), no text in the body except the word face.
 
-## 6 The faces (pending — written from the final contract and the build)
-## 7 Native text (pending)
-## 8 Gates (pending)
-## 9 The human read and the review rounds (pending)
+## 6 The twenty faces (mode → id, band, the move, the scene)
+Scenes live in `scripts/worksheet-gen/data/b9/face-scenes.js` (keyed by mode; every placement, size and render mode, with
+the reason for every fix as a comment). Each face is ONE fixed composition — no seed, no theme pin: the same picture in
+all eleven locales, only the text changes. Band → style + limits from `BANDS` (§4).
+
+| id | mode | band | the move it teaches | the scene |
+|---|---|---|---|---|
+| K-418 | base | K | trace every line of a whole scene | a cottage, a garden path, a tree, a butterfly, two tulips, a rabbit, sun + cloud |
+| K-419 | first-tracing | PreK | one big continuous outline, P1 | one big whale in a porthole, bubbles, waves |
+| K-420 | look-then-trace | PreK | solid model → dashed copy | two framed models (penguin, kangaroo), arrow, the dashed copy beside each |
+| K-421 | round-and-round | PreK | closed curves started at 2 o'clock, anticlockwise (o) | beach ball, doughnut, apple on three ramps, outline-only |
+| K-422 | straight-lines | K | down / across / slanted in separate columns | wardrobe + cabinet ↓ · whiteboard + dresser → · envelope + star ↘ (direction measured) |
+| K-423 | zigzags | K | stop at every tip | zigzag mountains, firs, a tent, storm cloud with lightning, moon + star |
+| K-424 | curls | K | spirals and loops | a gallery of five frames: snail, lollipop, bow, pretzel, pinwheel |
+| K-425 | trace-and-color | K | trace, then colour inside the lines | a picnic: tree, bird, sun, cloud, blanket with banana, cup, pear, lemon |
+| K-426 | where-to-start | K | start dot + arrow on every picture | a staircase of few-stroke pictures (flag, heart, stocking, bell) — designed strokes |
+| K-427 | trace-and-count | K | trace, count, write the number (K.CC.B.5) | five ducks on a pond, a box for the number; solid frog/turtle/tree as distractors |
+| K-428 | finish-the-picture | K | closure: only the missing part is dashed | a mending shelf: car wheels, teapot spout, umbrella + cup handles, top's point, bunny's ears |
+| K-429 | christmas | K | a seasonal room; close every small ring | tree in a pot, baubles + stars, gifts, armchair, window, round rug |
+| K-430 | shape-picture | K | circles / squares / triangles in a picture (K.G.A.2) | a rocket of shapes + loose shapes in the sky, colour-every-circle cue |
+| K-431 | summer-sea | K | long waves left to right | a postcard: three wave rows, sailboat, parasol, sandcastle, crab, bucket, stamp |
+| K-432 | big-middle-small | K | the same picture at three sizes | planes, cars, ships in three rows, big → small |
+| G1-429 | dotted-street | G1 | precision with dots (P4), small details | a morning in town: two buildings, signpost, dog, bus, car, sun, cloud |
+| G1-430 | picture-and-word | G1 | picture → its name → trace the word | sun, fish, cat, apple; the word on a writing lane in school-print case |
+| G1-431 | trace-and-draw | G1 | trace, then draw (creative completion) | a farm road, tractor + EMPTY trailer, animals on their meadow |
+| G1-432 | other-half | G1 | symmetry: trace the dashed half | a butterfly in an open book + owl, trophy, koala in three mirrors (axis measured) |
+| G1-433 | hidden-animals | G1 | figure-ground: find 5, trace them | a forest drawn solid; five dashed animals with a halo so no solid line touches them |
+
+Pins that were MEASURED, not chosen: K-422's six pictures by `tools/pt-straight.js directionMix` (each ≥ 59 % in its own
+column's direction); G1-432's three halves by `data/pt/symmetry.json` (max 1.3 px between halves); every picture's size by
+its band floor and the page budget.
+
+## 7 Native text
+Per face three strings (title ≤ 70, printTitle ≤ 40, instruction ≤ 130 — `data/b9/picture-tracing.js validateBank`) plus
+the F17 `words` (four 2-7-letter picture names in school-print case: de capital initial, fr CAPITALS, the rest lowercase).
+- **One native panel per locale** (`_work/panel-brief.md`) writes the strings AND the 20 landings in one run, from the
+  renders, and audits the English source first. ≤ 2 panels in flight. Pipeline per locale, one at a time:
+  `b9-draft-from-panel.js <loc> <panel.json>` → `validate-b9-draft.js <loc>` (builds all 20 in a fresh process) →
+  `apply-b9-locale.js <loc>` → `check-b9-string-parity.js <loc>` (0) → `gen-b9-waves.js --locales=<loc>` →
+  `i18n/lint-locale.js <loc>` → `b9-render-all.js <loc>` and READ the sheet.
+- ⭐⭐ **The English source is the locale nobody reads.** The de + fr panels found 14 claims in the EN strings and landings
+  that the renders did not support (a named picture that was not there, "a handle" where two are dashed, a title only
+  half the band). Every one was fixed at the source (scenes and EN strings), the specs regenerated with
+  `gen-b9var-specs.js --overwrite`, and both panels re-ran on the corrected pages. Run the first two panels, fix the
+  source, THEN fan out — never the other way round.
+- ⚠ `resolveStrings` reads `i18n/strings.<loc>.json` before the spec, so a field the type wants (here `printTitle`) must be
+  carried by `i18n/build-en.js` too, or EN silently falls back to the spec's old text.
+
+## 8 Gates (all run before publish)
+- `qa/verify-b9-tracer.js` — the tracer laws on 17 hand-picked drawings + poisons (§3).
+- `qa/verify-b9-picture-tracing.js` — the family gate, 37 assertions: per face G1-G12 (budget, band floors, solid share,
+  start markers only where asked, the word face's lanes, the hidden-animals halo, the other-half axis, F11's dashed part
+  ≥ 75 px AND ≥ 5 % of the outline — the contract's invented "20 %" failed a correct page) and poisons P0-P14, each must fail.
+- `types/*/K-4xx…verify()` — the metrics stamped on each scene (§5), so a regenerated page cannot drift silently.
+- `tools/b9-render-all.js <loc>` — every page through the real shell, "all clean" = no overflow, no lint finding
+  (`qa/lints.js` exempts `svg[data-lcs-prim="pt-scene"]` from the palette lint: the guide grey is the design).
+- `tools/check-b9-zips.js <loc>` — the pooled ZIPs: 20 per locale, title ≤ 70, description 120-170, the deck slug =
+  `picture-tracing-<id>` (wave flag `unitInSlug:false`), PDF only (no answer key, no deck screen), distinct thumbnails.
+- `tools/check-b9-string-parity.js --all` (0) and `tools/check-b9-landing-draft.js <loc> <file>` + `seo-landing/gate.js`.
+
+## 9 The human read and the review rounds
+- I read every EN page full size after each engine change, and the contact sheet of EVERY locale after apply. The
+  renders found what no gate could: a table drawn as an oval, a duplicate cloud, ripples crossing ducks, a teapot flipped
+  for its spout, words printed too pale, solid black blobs in the forest.
+- The two first native panels read the pages as a teacher would and found the picture-recognition defects a word review
+  cannot see: an orange that reads as a tomato, a watermelon as a pumpkin, a heart balloon that is not round, a ladder
+  that leans (so it is not "down"), a classroom table in perspective (so it is not "across"), a bell in three-quarter view
+  (so it has no mirror half), a box that reads as a crate under a tree. ⚠ **The fix for a misread picture is a different
+  picture, chosen by measurement** (direction mix, symmetry index), never a longer instruction.
+- Then ONE native + pedagogy reviewer over a compact 11-locale text dump and ONE visual reviewer over the EN sheets.
+
 ## 10 SEO (pending)
 ## 11 Traps paid for (pending — collected from §2-§5 and the build)
 ## 12 Publish, as run (pending)

@@ -116,7 +116,7 @@ const SCENES = {
       // straightness measured (tools/pt-straight.js, calibrated: apple 41 %, ladder 72 %): the contract's furniture bw/table
       // is an oval top on a pedestal (69 %) → classroom bw 2/table (83 %); the cone (65 %) → beach bw/sailboat (79 %)
       { src: 'classroom bw/whiteboard', x: 338, y: 330, w: 190 },
-      { src: 'furniture bw/dresser_2', x: 338, y: 690, h: 215 },
+      { src: 'furniture bw/dresser_2', x: 338, y: 690, h: 190 },   // h 215 touched both column lines (pt panel)
       { src: 'Christmas bw/envelope', x: 560, y: 330, w: 180 },
       { src: 'Christmas bw/star', x: 560, y: 690, w: 185 },
     ],
@@ -251,6 +251,9 @@ const SCENES = {
       { m: 'moon', a: [482, 117, 28] }, { m: 'star', a: [588, 118, 22] }, { m: 'star', a: [588, 232, 24] },
       { m: 'ground', a: [4, 671, 642, 0, 1] },
       { m: 'roundRect', a: [150, 662, 380, 40, 20] },   // the rug, TRACED (a grey solid bar read as an empty answer field)
+      // ...and a bare capsule still read as a name field (es panel): a fringe at both ends makes it a rug (an inner border went over the K budget)
+      { m: 'line', a: [[[150, 670], [134, 670]]] }, { m: 'line', a: [[[148, 682], [132, 682]]] }, { m: 'line', a: [[[150, 694], [134, 694]]] },
+      { m: 'line', a: [[[530, 670], [546, 670]]] }, { m: 'line', a: [[[532, 682], [548, 682]]] }, { m: 'line', a: [[[530, 694], [546, 694]]] },
     ],
     items: [
       { src: 'Christmas bw/gift_box', x: 92, y: 640, h: 140 },
@@ -340,8 +343,10 @@ const SCENES = {
       { src: 'travel and holiday bw/museum', x: 150, y: 420, h: 218 },
       { src: 'travel and holiday bw/hotel', x: 515, y: 420, h: 226 },
       { src: 'travel and holiday bw/signpost', x: 190, y: 562, h: 125 },
-      { src: 'animals bw 5/dog_3', x: 470, y: 562, h: 110 },
-      { src: 'vehicles bw/bus_2', x: 175, y: 708, h: 106 },
+      // es + pt panels: at dot spacing the bus's double wheel rings, its roof rack and the dog's legs fused into clouds of
+      // dots → the simplest bus (17 lines, not 41) and the least dense dog (index density 5.7)
+      { src: 'toys bw 2/dog', x: 470, y: 562, h: 110 },
+      { src: 'vehicles bw/bus', x: 175, y: 708, h: 106 },
       { src: 'vehicles bw 2/car', x: 505, y: 700, w: 200 },
     ],
   },
@@ -415,6 +420,8 @@ const SCENES = {
     band: 'G1', style: 'P3', count: { n: 5 },
     motifs: [
       { m: 'ground', a: [14, 661, 560, 6, 3], render: 'solid' },
+      { m: 'sun', a: [70, 70, 30, 8], render: 'solid' },   // the sky band above the trees was empty (pt panel)
+      { m: 'cloud', a: [338, 80, 150], render: 'solid' },
       { m: 'pathBand', a: [[[338, 716], [330, 640], [360, 600], [338, 562]], 110], render: 'solid' },
     ],
     decor: [{ m: 'grass', a: [90, 600, 26, 4], w: 2 }, { m: 'grass', a: [190, 585, 22, 4], w: 2 }, { m: 'grass', a: [300, 690, 24, 4], w: 2 }, { m: 'grass', a: [455, 700, 26, 4], w: 2 }, { m: 'grass', a: [600, 660, 22, 4], w: 2 }, { m: 'grass', a: [520, 590, 20, 4], w: 2 }],

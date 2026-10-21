@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # b9-publish-locale.sh <locale> [--confirm]
 #
-# b9 Phase 7 (clone of b3-publish-locale.sh, 2026-09-21): INSERT-publish of one locale's pooled b9 wave
-# (the 2 base + up to 20 variation decks (PDF; find-the-differences also interactive + answer key) generated on the PC into
+# b9 Picture Tracing (clone of b8-publish-locale.sh, 2026-10-22): INSERT-publish of one locale's pooled b9 wave
+# (the base K-418 + 19 face decks, PDF ONLY — no screen, no answer key) generated on the PC into
 # scripts/worksheet-gen/out/upload/wave-b9-<loc>-all/ and scp'd to
 # /var/www/lcs-media/_staging/b9-<loc>/). Runs ON HETZNER. The nt20-B recipe
-# (memory project_nt20b_worksheet_types.md, README b9-designs step 9), scripted:
+# (METHOD-picture-tracing.md §12), scripted:
 #
 #   dry-run  : publish-bulk --dry-run → ok must equal the ZIP count, collisions
 #              0, errored 0, no halts — else STOP (exit 2) and read the staging
@@ -15,7 +15,7 @@
 #              en,es,pt) → populate-and-inject-hreflang --confirm --locales=<11>
 #              (cross-locale siblings) → audit-deck-html --slugs-file --locales=<loc>.
 # After --confirm on every locale the caller pushes + deploys the landings, then
-# repoint-deck-canonical.js --types=<5 keys> --locale=<loc>,
+# repoint-deck-canonical.js --types=picture-tracing --locale=<loc>,
 # refresh-deck-noindex-exempt.sh and indexnow-submit.js (see the plan).
 set -euo pipefail
 LOC="${1:?locale}"; MODE="${2:-}"

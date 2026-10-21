@@ -3241,5 +3241,105 @@
   "K-417": {
     "title": "Amigos del 9",
     "instruction": "Mira cada esquema. Escribe el número que falta en el círculo vacío."
+  },
+  "K-418": {
+    "title": "Dibujos para repasar: el caminito del jardín hasta la puerta",
+    "instruction": "Repasa las líneas para terminar el jardín: la casa, el árbol, la mariposa, los tulipanes y el conejo.",
+    "printTitle": "El camino hasta la puerta"
+  },
+  "K-419": {
+    "title": "Dibujos punteados preescolar: mi primera ballena grande",
+    "instruction": "Empieza en el punto. Repasa la ballena grande despacito, siguiendo la flecha.",
+    "printTitle": "Mi primer dibujo para repasar"
+  },
+  "K-420": {
+    "title": "Repasa el dibujo: mira el animal del marco y luego repásalo",
+    "instruction": "Mira el dibujo del marco. Luego repasa el mismo animal que está a un lado.",
+    "printTitle": "Mira y luego repasa"
+  },
+  "K-421": {
+    "title": "Trazos para niños de 3 años: dibujos redondos para repasar",
+    "instruction": "Empieza en cada punto y repasa dando la vuelta, como cuando haces la letra o.",
+    "printTitle": "Vueltas y vueltas"
+  },
+  "K-422": {
+    "title": "Trazos en dibujos: líneas verticales, horizontales e inclinadas",
+    "instruction": "Repasa primero las líneas que bajan, luego las que van de lado y al final las inclinadas.",
+    "printTitle": "Hacia abajo, de lado, inclinado"
+  },
+  "K-423": {
+    "title": "Dibujos para repasar en zigzag: tormenta sobre el campamento",
+    "instruction": "Repasa los zigzags de las montañas, los pinos, la casa de campaña y los rayos. Detente en cada pico.",
+    "printTitle": "Tormenta sobre el campamento"
+  },
+  "K-424": {
+    "title": "Dibujos con espirales para repasar: caracol, paleta y moño",
+    "instruction": "Repasa las espirales y los lazos: el caracol, la paleta, el moño, el pretzel y el rehilete.",
+    "printTitle": "La galería de espirales"
+  },
+  "K-425": {
+    "title": "Dibujos para repasar y colorear: un día de campo bajo el árbol",
+    "instruction": "Repasa los dibujos del día de campo. Luego coloréalos con los colores que quieras.",
+    "printTitle": "El día de campo"
+  },
+  "K-426": {
+    "title": "Dibujos para repasar en preescolar: ¿dónde empiezo?",
+    "instruction": "Empieza en cada punto y sigue la flecha. Baja la escalera, un dibujo a la vez.",
+    "printTitle": "¿Dónde empiezo?"
+  },
+  "K-427": {
+    "title": "Dibujos de animales punteados: ¿cuántos patos hay en el estanque?",
+    "instruction": "Repasa los patos. Cuéntalos. Escribe en el cuadro cuántos hay.",
+    "printTitle": "Patos en el estanque"
+  },
+  "K-428": {
+    "title": "Completa el dibujo: repasa las partes que faltan en la repisa",
+    "instruction": "Repasa lo punteado para completar cada dibujo: llantas, pico, mango, asa, punta y orejas.",
+    "printTitle": "La repisa de los arreglos"
+  },
+  "K-429": {
+    "title": "Dibujos de Navidad para repasar: las esferas del árbol",
+    "instruction": "Repasa el árbol, los regalos, el sillón, la ventana y el tapete. Luego repasa el contorno de cada esfera y estrella.",
+    "printTitle": "Nochebuena"
+  },
+  "K-430": {
+    "title": "Figuras para repasar: un cohete de círculos, cuadrados y triángulos",
+    "instruction": "Repasa todas las figuras del cohete y del cielo. Luego colorea todos los círculos.",
+    "printTitle": "El cohete de figuras"
+  },
+  "K-431": {
+    "title": "Dibujos para repasar del mar: las olas de una postal de verano",
+    "instruction": "Repasa las olas de izquierda a derecha. Luego repasa el velero y la playa.",
+    "printTitle": "Una postal del mar"
+  },
+  "K-432": {
+    "title": "Dibujos punteados para niños: grande, mediano y pequeño",
+    "instruction": "En cada fila, repasa el grande, luego el mediano y al final el pequeño.",
+    "printTitle": "Grande, mediano, pequeño"
+  },
+  "G1-429": {
+    "title": "Dibujos punteados para primer grado: una mañana en el pueblo",
+    "instruction": "Repasa con cuidado las líneas de puntitos, también los detalles pequeños.",
+    "printTitle": "Una mañana en el pueblo"
+  },
+  "G1-430": {
+    "title": "Repasa el dibujo, di su nombre y repasa la palabra",
+    "instruction": "Repasa el dibujo. Di su nombre. Repasa la palabra que está abajo.",
+    "printTitle": "Dibujos y palabras"
+  },
+  "G1-431": {
+    "title": "Repasa el dibujo y luego dibuja: ¿qué lleva el remolque?",
+    "instruction": "Repasa la granja. Luego dibuja en el remolque vacío lo que lleva el tractor.",
+    "printTitle": "¿Qué lleva el remolque?"
+  },
+  "G1-432": {
+    "title": "Simetría para repasar: completa la otra mitad del dibujo",
+    "instruction": "Repasa la mitad punteada para que los dos lados de cada dibujo queden iguales.",
+    "printTitle": "La otra mitad"
+  },
+  "G1-433": {
+    "title": "Animales escondidos para repasar: encuentra los 5 en el bosque",
+    "instruction": "Encuentra los 5 animales escondidos en el bosque. Repásalos.",
+    "printTitle": "¿Quién se esconde en el bosque?"
   }
 }

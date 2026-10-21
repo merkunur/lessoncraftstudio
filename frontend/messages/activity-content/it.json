@@ -3517,25 +3517,25 @@
     },
     "picture-story.read.rl-k-1": {
       "about": [
-        "Fabio la volpe adora raccontare storie: apre il suo taccuino, mostra tre piccole scene disegnate e invita i bambini a scoprire che cosa succede.",
-        "Questa attività aiuta a leggere e capire una breve storia illustrata, a rispondere a domande sui dettagli — chi, che cosa, dove e perché — e a ricordare l’ordine dei fatti.",
-        "Pensata per la classe prima e ispirata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggio."
+        "Fabio la volpe apre un piccolo libro illustrato: tre (o quattro) pagine che il bambino sfoglia una alla volta, ognuna con un disegno e una frase sotto. Su un segnalibro c’è una domanda – «Dove cadde il guanto?» – e il bambino risponde mettendo il segnalibro nella storia: sul disegno, sulle parole o sulla pagina che dà la risposta. È un’attività di lettura interattiva che funziona nel browser.",
+        "La risposta deve venire dal libro. Alle domande chi si risponde con un disegno (il pettirosso, su qualunque pagina), a dove, quando, perché e che cosa facevano con le parole che lo dicono («vicino a una grande roccia»), e alle domande «all’inizio», «a metà» e «alla fine» con una pagina intera. Un segnalibro messo male torna indietro e la riga della risposta mostra che cosa è stato segnato; dopo due tentativi la pagina con la risposta si solleva e si illuminano le parole della domanda. Con una risposta giusta le parole che lo dimostrano vengono sottolineate d’oro e Fabio salta di gioia. In Frasi per le pagine il segnalibro porta una frase, e la pagina giusta la recita.",
+        "L’attività segue le Indicazioni nazionali: fare domande e rispondere sui dettagli importanti di una storia. Sette storie brevi di tre o quattro pagine. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Capire una breve storia illustrata",
-        "Rispondere a domande sui dettagli",
-        "Ricordare l’ordine dei fatti",
-        "Leggere con attenzione"
+        "Trovare in una storia la risposta a una domanda",
+        "Rispondere a domande chi, che cosa, dove, quando e perché con dettagli dei disegni e del testo",
+        "Capire quale pagina viene all’inizio, a metà e alla fine",
+        "Collegare le frasi ai disegni che raccontano"
       ],
       "howToPlay": [
-        "Leggi la storia illustrata di Fabio",
-        "Pensa alla domanda",
-        "Tocca la risposta giusta"
+        "Leggi la storia e la domanda sul segnalibro.",
+        "Tocca la risposta nel libro o trascina il segnalibro sopra: un disegno, qualche parola o una pagina intera.",
+        "Premi «Controlla». Se il segnalibro torna indietro, rileggi la pagina e prova in un altro punto."
       ],
       "learningGoals": [
-        "Capire una storia",
-        "Rispondere a domande sui dettagli",
-        "Ricordare che cosa succede"
+        "Il bambino risponde a domande sui dettagli importanti di una storia",
+        "Il bambino mostra in quale punto della storia la risposta è scritta o disegnata",
+        "Il bambino riconosce l’inizio, la parte centrale e la fine di una storia breve"
       ]
     },
     "opposites.antonyms.k-l-5-b": {

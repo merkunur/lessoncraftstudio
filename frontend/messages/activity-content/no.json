@@ -2136,6 +2136,29 @@
         "Barnet skiller et ord fra ord som er forskjellige med én bokstav",
         "Barnet kobler et skrevet ord til bildet det står for"
       ]
+    },
+    "picture-story.read.rl-k-1": {
+      "about": [
+        "Reven Fable slår opp ei lita bildebok: tre (eller fire) sider som barnet blar i én om gangen, hver med et bilde og en setning under. På et bokmerke står et spørsmål – «Hvor gled votten av?» – og barnet svarer ved å sette bokmerket inn i fortellingen: på bildet, ordene eller siden som gir svaret. En interaktiv leseøvelse som fungerer i nettleseren.",
+        "Svaret må komme fra boka. Hvem-spørsmål besvares med et bilde (rødstrupen, uansett hvilken side den er på), hvor-, når- og hvorfor-spørsmål og «Hva gjorde de?» med ordene som sier det («ved en stor stein»), og først, i midten og til slutt med en hel side. Et feil bokmerke kommer tilbake, og svarlinjen viser hva som ble markert; etter to forsøk løfter siden med svaret seg, og ordene fra spørsmålet lyser opp. Ved et riktig svar får bevisordene en gullstrek, og Fable hopper av glede. I Setninger til sidene bærer bokmerket en setning, og siden den hører til, spiller den.",
+        "Øvelsen følger LK20: å stille og svare på spørsmål om viktige detaljer i en fortelling. Sju korte fortellinger med tre eller fire sider. Uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Å finne svaret på et spørsmål i en fortelling",
+        "Å svare på hvem-, hva-, hvor-, når- og hvorfor-spørsmål med detaljer fra bilder og tekst",
+        "Å se hvilken side som kommer først, i midten og til slutt",
+        "Å sette setninger sammen med bildene de forteller om"
+      ],
+      "howToPlay": [
+        "Les fortellingen og spørsmålet på bokmerket.",
+        "Trykk på svaret i boka, eller dra bokmerket dit: et bilde, noen ord eller en hel side.",
+        "Trykk på Sjekk. Hvis bokmerket kommer tilbake, les siden igjen og prøv et annet sted."
+      ],
+      "learningGoals": [
+        "Barnet svarer på spørsmål om viktige detaljer i en fortelling",
+        "Barnet viser hvor i fortellingen svaret står eller kan ses",
+        "Barnet kjenner igjen begynnelsen, midten og slutten av en kort fortelling"
+      ]
     }
   }
 }

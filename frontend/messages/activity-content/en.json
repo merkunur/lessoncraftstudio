@@ -3165,25 +3165,25 @@
     },
     "picture-story.read.rl-k-1": {
       "about": [
-        "Children read a short three-picture story with Fable the fox — 'The Lost Mitten,' 'The Stuck Carrot,' 'The Rainy Picnic' — each panel with a picture and caption, then answer questions about what happened. It's an interactive Kindergarten reading activity that plays right in the browser with no account.",
-        "The big idea is answering questions with details from the text. After the story, the child gets a question — who hopped in the snow, what slipped off, where it happened, what happened first or last, why the carrot would not come out, or how the friends felt at the end — and taps one of three answers. The wrong choices are plausible-sounding things that simply did not happen in the story (a blue hat instead of a red mitten, a pond instead of the tree), so the child has to go back to what the story actually said.",
-        "It is aligned to Common Core RL.K.1 — asking and answering questions about key details in a story. No timer, no score — just calm, playful practice."
+        "Fable the fox opens a little picture book: three pages (or four) that the child turns one by one, each a scene of library pictures with a caption underneath. A question is printed on a ribbon bookmark – “Where did the mitten slip off?” – and the child answers it by slipping the bookmark into the story, onto the picture, the words or the page that answers it. It is an interactive Kindergarten reading activity that plays in the browser.",
+        "The answer has to come from the book. Who questions are answered with a picture (the robin, wherever it appears), where, when, why and what-were-they-doing questions with the caption words that say it (“by a big rock”), and first, middle and last with a whole page. A wrong mark comes back, and the answer line shows what was marked; after two tries the page that holds the answer lifts up and the words that repeat the question light up. A right answer underlines the proving words in gold and Fable hops for joy. In Caption the pages, the bookmark carries a sentence instead, and the page it belongs to acts it out.",
+        "It is aligned to Common Core RL.K.1, asking and answering questions about key details in a story. Seven short stories, three or four pages each. No timer and no score."
       ],
       "practices": [
-        "Read a short story and remember its key details",
-        "Answer who, what, where, why, and how-they-felt questions from the text",
-        "Put events in order — what happened first and what happened last",
-        "Choose answers from the story instead of guesses that just sound right"
+        "Finding the answer to a question in a story",
+        "Answering who, what, where, when and why questions with details from the pictures and words",
+        "Telling which page comes first, in the middle and last",
+        "Matching sentences to the pictures they tell"
       ],
       "howToPlay": [
-        "Read the three-picture story and its captions with Fable the fox.",
-        "Read the question, then tap the answer that the story actually tells.",
-        "Try again as often as you like — there is no timer and no score."
+        "Read the story and the question on the bookmark.",
+        "Tap the answer in the book, or drag the bookmark onto it: a picture, some words or a whole page.",
+        "Press Check. If the bookmark comes back, read the page again and try another spot."
       ],
       "learningGoals": [
-        "Ask and answer questions about key details in a story — the focus of Common Core RL.K.1",
-        "Understand who, what, where, why, and the order of events in a story",
-        "Build early reading comprehension on short, complete stories"
+        "The child answers questions about key details of a story",
+        "The child shows where in the story the answer is written or drawn",
+        "The child tells the beginning, middle and end of a short story"
       ]
     },
     "pim-comma-mail.letter-commas.l-2-2-b": {

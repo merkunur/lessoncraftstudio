@@ -2129,6 +2129,29 @@
         "Barnet skelner et ord fra ord, der er forskellige med ét bogstav",
         "Barnet forbinder et skrevet ord med det billede, det betegner"
       ]
+    },
+    "picture-story.read.rl-k-1": {
+      "about": [
+        "Ræven Fable slår en lille billedbog op: tre (eller fire) sider, som barnet bladrer i én ad gangen, hver med et billede og en sætning nedenunder. På et bogmærke står et spørgsmål – »Hvor gled vanten af?« – og barnet svarer ved at sætte bogmærket ind i historien: på billedet, ordene eller siden med svaret. En interaktiv læseøvelse, der kører i browseren.",
+        "Svaret skal komme fra bogen. Hvem-spørgsmål besvares med et billede (rødhalsen, uanset hvilken side den er på), hvor-, hvornår- og hvorfor-spørgsmål og »Hvad lavede de?« med de ord, der siger det (»ved en stor sten«), og først, i midten og til sidst med en hel side. Et forkert bogmærke kommer tilbage, og svarlinjen viser, hvad der blev markeret; efter to forsøg løfter siden med svaret sig, og spørgsmålets ord lyser op. Ved et rigtigt svar får bevisordene en gylden streg, og Fable hopper af glæde. I Sætninger til siderne bærer bogmærket en sætning, og den side, den hører til, spiller den ud.",
+        "Øvelsen følger Fælles Mål for dansk: at stille og besvare spørgsmål om vigtige detaljer i en historie. Syv korte historier med tre eller fire sider. Uden tidspres og uden point."
+      ],
+      "practices": [
+        "At finde svaret på et spørgsmål i en historie",
+        "At besvare hvem-, hvad-, hvor-, hvornår- og hvorfor-spørgsmål med detaljer fra billeder og tekst",
+        "At se, hvilken side der kommer først, i midten og til sidst",
+        "At sætte sætninger sammen med de billeder, de fortæller om"
+      ],
+      "howToPlay": [
+        "Læs historien og spørgsmålet på bogmærket.",
+        "Tryk på svaret i bogen, eller træk bogmærket derhen: et billede, nogle ord eller en hel side.",
+        "Tryk på Tjek. Hvis bogmærket kommer tilbage, så læs siden igen og prøv et andet sted."
+      ],
+      "learningGoals": [
+        "Barnet besvarer spørgsmål om vigtige detaljer i en historie",
+        "Barnet viser, hvor i historien svaret står eller kan ses",
+        "Barnet genkender begyndelsen, midten og slutningen af en kort historie"
+      ]
     }
   }
 }

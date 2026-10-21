@@ -90,3 +90,13 @@ ORDER row 73 · id `penny-alphabet-trace.letter-formation.l-k-1-a` (kept).
   - visual timers on the fast clock vanished before they were seen;
   - the wall's pin read as a diacritic (A looked like Ȧ);
   - "Z" wrapped alone onto a second wall row.
+
+## Live (2026-10-21)
+- Commit `a636153c`, deployed: `git pull` → cp the four carriage files plus `letter-studio.js` / `.html` → `deploy.sh`. The preview webp was uploaded first. Server: 132 GB free (69 %).
+- `live-verify-writing-carriage.js`: 59 pass, 0 fail on the second run (the first run after the deploy races the page cache). It covers:
+  - all 11 pages return 200;
+  - en/de/sv/fi at 1366 and 390: an empty Check gives the hint and no miss;
+  - L traced with a real pointer glides out onto the line, and the write step has no road;
+  - L written is pinned on the wall, with the shell's success line;
+  - wrapper 9.814; the iframe grows with the card.
+- Variety probe en/sv/fi: 26 / 29 / 29 letters, reshuffled per pass. `letter-studio.js?v=10` (ß on the baseline) is live.

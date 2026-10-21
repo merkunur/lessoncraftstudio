@@ -79,3 +79,8 @@ ORDER row 70 · id `nila-pond.main-idea-net.ri-k-2` (kept).
   - **Also found:** the canopy (a twirl button) below 44 px.
 - **visual-qa:** en and fi full (72 renders each), plus de/pt/fr/nl/da at 320, all pass.
 - **Other gates:** audit-activity-hierarchy 530/0; audit-settings-efficacy 2 live; both preflights; verify-activity-content ×11.
+
+## Live (2026-10-21)
+- Commit `88fa242a`, deployed (`git pull` → cp the four mini-tools files → `deploy.sh`), preview webp uploaded first. Server: 132 GB free (69 %).
+- `live-verify-nila-pond.js`: 67 pass, 0 fail on the second run (the first run after the deploy raced the page cache). It covers all 11 pages returning 200, plus en/de/sv/fi at 1366 and 390: a detail umbrella dragged onto the pond rains on the uncovered pads (a miss with the hint); the big idea opens step 2 with the stranger under; the stranger dragged into the rain → the authored retelling; wrapper 9.811; the iframe grows with the card.
+- Variety probe en/sv/fi: 12 distinct texts, reshuffled per pass.

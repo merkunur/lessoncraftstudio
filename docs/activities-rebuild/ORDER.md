@@ -77,7 +77,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 67 | LIVE 2026-10-21 · Otto's proof pins | K | RL.K.7 | `otto-picture-book.which-picture.rl-k-7` | otto-picture-book-activity | Otto's Picture Book — Which Picture Shows It? (Kindergarten) |
 | 68 | LIVE 2026-10-21 · The Story Zipper | K | RL.K.9 | `willow-story-corner.compare-tales.rl-k-9` | willow-story-corner-activity | Willow's Story Corner — Two Tales, Alike or Different? (Kindergarten) |
 | 69 | LIVE 2026-10-21 · The Highlighter | K | RI.K.1 | `atlas-fact-files.key-detail.ri-k-1` | atlas-fact-files-activity | Atlas's Fact Files — Find the Key Detail (Kindergarten) |
-| 70 |  | K | RI.K.2 | `nila-pond.main-idea-net.ri-k-2` | nila-pond-activity | Nila's Idea Pond — Find the Big Idea |
+| 70 | LIVE 2026-10-21 · The Idea Umbrella | K | RI.K.2 | `nila-pond.main-idea-net.ri-k-2` | nila-pond-activity | Nila's Idea Pond — Find the Big Idea |
 | 71 |  | K | RI.K.3 | `linc-fact-chain.connect.ri-k-3` | linc-fact-chain-activity | Linc's Fact Chain — How Two Facts Connect (Kindergarten) |
 | 72 |  | K | K.L.5.b | `opposites.antonyms.k-l-5-b` | opposites-activity | Quill's Mirror Market — Find the Opposite |
 | 73 |  | K | L.K.1.a | `penny-alphabet-trace.letter-formation.l-k-1-a` | penny-alphabet-trace-activity | Penny's Alphabet Trace — Write Every Letter A to Z (Kindergarten) |

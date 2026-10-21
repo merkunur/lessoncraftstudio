@@ -2134,25 +2134,25 @@
     },
     "choice-board.beginning-sound.rf-k-3-a": {
       "about": [
-        "Aparece uma única letra — como D, F ou M — e a criança toca na figura cujo nome começa com o som daquela letra, escolhendo entre grupos conhecidos, como animais, comidas e objetos do dia a dia (um dado, uma faca, uma maçã, um tigre). É uma atividade de fonética interativa para a educação infantil, que roda direto no navegador, sem instalar nada e sem precisar de conta.",
-        "Cada rodada mostra uma figura certa e três que começam com outros sons, então a criança não pode adivinhar — precisa dizer o nome de cada figura e escutar bem o primeiro som. Ligar a letra D ao som /d/ no começo de 'dado' é o elo principal entre letra e som, e ouvi-lo ao lado de faca, rato e tigre faz esse som inicial se destacar com clareza.",
-        "A atividade está alinhada à BNCC, no campo da consciência fonológica, ao reconhecer o som que cada letra representa — o primeiro passo para a leitura. Sem cronômetro e sem pontuação — só uma prática carinhosa e tranquila."
+        "A letra b está pendurada em um ímã vermelho em forma de ferradura, e embaixo há quatro figuras: um balão, um dedo, uma luva e um piano. A criança leva para baixo do ímã as figuras que acha que começam com o som do b e liga o ímã. O balão voa para o gancho; o resto treme e fica na mesa. Os ganchos vazios mostram quantas figuras ainda faltam. É uma atividade interativa de sons iniciais que funciona no navegador.",
+        "Em Letra da semana, o ímã do p tem três ganchos, e entre as figuras há uma bola, porque p e b soam parecido. Com dois ímãs, m e n, é preciso escutar cada figura e colocá-la no lugar certo. Com os dígrafos, os ímãs mostram ch, lh e nh: chave, ovelha e cozinha vão para o dígrafo que se ouve. Depois, os dígrafos caem nas lacunas de palavras escritas, e em duas rodadas palavras inteiras ficam penduradas nos ímãs para serem lidas. Depois de dois erros, aparecem letrinhas nas figuras.",
+        "A atividade se apoia na BNCC: ouvir o som inicial e relacioná-lo à sua letra. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Ligar uma letra ao som que ela faz.",
-        "Dizer o nome de uma figura e escutar o seu primeiro som.",
-        "Combinar o som inicial com a letra mostrada.",
-        "Distinguir o som inicial certo entre três outros começos."
+        "Ouvir o som inicial de uma palavra",
+        "Relacionar uma letra ao seu som",
+        "Diferenciar sons parecidos, como m e n",
+        "Ouvir e escrever dígrafos como ch, lh e nh"
       ],
       "howToPlay": [
-        "Olhe a letra que aparece em cima, como D, e diga o som dela.",
-        "Toque na figura cujo nome começa com aquele som, entre as quatro opções.",
-        "Errou? Pode tentar de novo quantas vezes quiser — não há cronômetro nem pontuação."
+        "Diga o nome de cada figura e escute o primeiro som.",
+        "Leve para baixo do ímã as figuras que começam com o som dele.",
+        "Ligue o ímã: as figuras certas sobem, as outras ficam embaixo."
       ],
       "learningGoals": [
-        "Conhecer o som principal que cada letra faz.",
-        "Ouvir o primeiro som de uma palavra falada e combiná-lo com a sua letra.",
-        "Construir a base de letra e som de que a leitura das palavras depende."
+        "A criança diz o som inicial de uma palavra",
+        "A criança relaciona cada consoante ao seu som",
+        "A criança classifica palavras pela letra com que começam ou pelo dígrafo que contêm"
       ]
     },
     "fractions.make-and-count-squares.2-g-a-2": {

@@ -2630,25 +2630,25 @@
     },
     "choice-board.beginning-sound.rf-k-3-a": {
       "about": [
-        "Appare una sola lettera — per esempio D, F o M — e il bambino tocca l'immagine la cui parola inizia con quel suono, scegliendo tra gruppi familiari come animali, cibi e oggetti di tutti i giorni. È un'attività di fonologia per la scuola dell'infanzia, da fare direttamente nel browser, senza nulla da installare e senza account.",
-        "Ogni turno mostra un'immagine giusta e tre che iniziano con altri suoni, così il bambino non può tirare a indovinare: deve dire il nome di ogni immagine e ascoltarne il primissimo suono. Collegare la lettera al suono con cui comincia una parola è il legame fondamentale tra segno e suono, e sentirlo a confronto con le altre immagini fa risaltare con chiarezza quel suono iniziale.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito della consapevolezza fonologica: riconoscere il suono iniziale di una parola e collegarlo alla lettera. Nessun timer e nessun punteggio, solo piccoli successi da festeggiare insieme."
+        "La lettera b è appesa a una calamita rossa a ferro di cavallo e sotto ci sono quattro disegni: una bandiera, un delfino, una forchetta e una medaglia. Il bambino porta sotto la calamita i disegni che secondo lui iniziano con il suono della b e la accende. La bandiera vola sul gancio; il resto trema e resta sul tavolo. I ganci vuoti mostrano quanti disegni mancano ancora. È un’attività interattiva sui suoni iniziali che funziona nel browser.",
+        "In Lettera della settimana la calamita della p ha tre ganci e tra i disegni c’è una bocca, perché p e b suonano simili. Con due calamite, m e n, bisogna ascoltare ogni disegno e metterlo al posto giusto. Con i gruppi di lettere le calamite dicono ch, gn e sc: chiave, cigno e pesce vanno al gruppo che si sente. Poi i gruppi cadono negli spazi vuoti di parole scritte, e in due turni alle calamite sono appese parole intere da leggere. Dopo due errori, sui disegni compaiono piccole lettere.",
+        "L’attività segue le Indicazioni nazionali: ascoltare il suono iniziale e collegarlo alla sua lettera. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Collegare una lettera al suono che rappresenta.",
-        "Dire il nome di un'immagine e ascoltarne il primo suono.",
-        "Far corrispondere il suono iniziale alla lettera mostrata.",
-        "Distinguere il suono iniziale giusto dagli altri tre inizi proposti."
+        "Sentire il suono iniziale di una parola",
+        "Collegare una lettera al suo suono",
+        "Distinguere suoni simili, come m e n",
+        "Sentire e scrivere gruppi di lettere come ch, gn e sc"
       ],
       "howToPlay": [
-        "Il bambino guarda la lettera in alto, per esempio D, e ne pronuncia il suono.",
-        "Tocca, tra le quattro scelte, l'immagine la cui parola inizia con quel suono.",
-        "Se non è corretto, può riprovare quante volte vuole: non c'è timer e non c'è punteggio."
+        "Di’ il nome di ogni disegno e ascolta il primo suono.",
+        "Porta sotto la calamita i disegni che iniziano con il suo suono.",
+        "Accendi la calamita: i disegni giusti volano su, gli altri restano giù."
       ],
       "learningGoals": [
-        "Il bambino è in grado di riconoscere il suono iniziale di una parola e collegarlo alla lettera.",
-        "Impara ad ascoltare e a far corrispondere il primo suono di una parola al segno scritto.",
-        "Costruisce il legame suono-lettera su cui si basano la sillabazione e la lettura delle parole."
+        "Il bambino dice il suono iniziale di una parola",
+        "Il bambino collega ogni consonante al suo suono",
+        "Il bambino ordina le parole secondo la lettera iniziale o il gruppo di lettere che contengono"
       ]
     },
     "fractions.make-and-count-squares.2-g-a-2": {

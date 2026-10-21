@@ -1489,24 +1489,25 @@
     },
     "choice-board.beginning-sound.rf-k-3-a": {
       "about": [
-        "En enda bokstav visas — som D, F eller M — och barnet trycker på den bild vars ord börjar med just den bokstavens ljud, och väljer bland bekanta grupper som djur, mat och vardagsföremål (en hund, en fisk, en älg, en tiger). Det är en fonikövning för förskoleklass som körs direkt i webbläsaren, utan något att installera och utan konto.",
-        "Varje omgång visar en rätt bild och tre som börjar med andra ljud, så barnet kan inte gissa — det måste säga varje bilds namn och lyssna efter allra första ljudet. Att koppla bokstaven F till f-ljudet i början av 'fisk' är just den kopplingen mellan bokstav och ljud som övningen handlar om, och att höra det rätta ljudet mot ord som börjar annorlunda gör det första ljudet tydligt. Att känna igen första ljudet är ett viktigt steg in i läsningen, helt i linje med Lgr22. Ingen timer och inga poäng — bara lugn lek med ljud och bokstäver."
+        "Bokstaven b hänger på en röd hästskomagnet, och under den ligger fyra bilder: en ballong, en katt, en strumpa och en lampa. Barnet flyttar bilderna som börjar med ljudet b in under magneten och slår på den. Ballongen flyger upp på kroken, resten skakar och blir liggande på bordet. De tomma krokarna visar hur många bilder som är kvar att hitta. En interaktiv övning med första ljudet som fungerar i webbläsaren.",
+        "I Veckans bokstav har k-magneten tre krokar, och bland bilderna ligger en gurka, eftersom k och g låter nästan lika. Med två magneter, b och p, måste varje bild lyssnas på och läggas på rätt plats. Efter två missar dyker små bokstäver upp på bilderna.",
+        "Övningen följer Lgr22: att höra första ljudet och koppla det till en bokstav. Ingen tidtagning och inga poäng."
       ],
       "practices": [
-        "Koppla en bokstav till det ljud den gör",
-        "Säga en bilds namn och lyssna efter dess första ljud",
-        "Para ihop första ljudet med bokstaven som visas",
-        "Skilja rätt första ljud från tre andra ljudbörjor"
+        "Att höra det första ljudet i ett ord",
+        "Att koppla en bokstav till sitt ljud",
+        "Att skilja på ljud som liknar varandra, som b och p",
+        "Att sortera ord efter första bokstaven"
       ],
       "howToPlay": [
-        "Titta på bokstaven högst upp, som D, och säg dess ljud.",
-        "Tryck på den bild vars namn börjar med det ljudet, bland de fyra alternativen.",
-        "Inte riktigt rätt? Försök igen så många gånger du vill — det finns ingen timer och inga poäng."
+        "Säg vad varje bild heter och lyssna efter det första ljudet.",
+        "Flytta bilderna som börjar med magnetens ljud in under den.",
+        "Slå på magneten: rätt bilder flyger upp, de andra blir liggande."
       ],
       "learningGoals": [
-        "Barnet känner till det vanligaste ljudet som varje konsonant står för",
-        "Barnet kan höra och para ihop första ljudet i ett talat ord med rätt bokstav",
-        "Barnet bygger den koppling mellan bokstav och ljud som ljudning och läsning bygger på"
+        "Barnet säger det första ljudet i ett ord",
+        "Barnet kopplar konsonanter till sina ljud",
+        "Barnet sorterar ord efter bokstaven de börjar med"
       ]
     },
     "fractions.make-and-count-squares.2-g-a-2": {

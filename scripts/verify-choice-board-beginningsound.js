@@ -18,6 +18,11 @@
    Exit 0 = pass; 1 = fail.
    ===================================================================== */
 'use strict';
+/* RETIRED 2026-10-21 (rebuild #59): the row now runs The Letter Magnet (tool letter-magnet-activity). */
+if (require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'choice-board-activities.json'), 'utf8').includes('"tool": "letter-magnet-activity"')) {
+  console.log('verify-choice-board-beginningsound: retired — the row is now The Letter Magnet (node scripts/verify-letter-magnet-core.js)');
+  process.exit(0);
+}
 const fs = require('fs');
 const path = require('path');
 

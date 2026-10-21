@@ -1380,25 +1380,25 @@
     },
     "choice-board.beginning-sound.rf-k-3-a": {
       "about": [
-        "Ét bogstav dukker op — for eksempel S, M eller F — og barnet trykker på det billede, hvis ord begynder med netop den lyd, og vælger blandt kendte grupper som dyr, mad og hverdagsting (en sol, en mus, en fisk, en abe). Det er en fonik-øvelse til børnehaveklassen, der kører direkte i browseren, uden at man skal installere noget, og uden konto.",
-        "I hver runde vises ét rigtigt billede og tre, der begynder med andre lyde, så barnet ikke kan gætte, men skal sige hvert billedes ord og lytte efter allerførste lyd. At forbinde bogstavet M med /m/-lyden i begyndelsen af \"mus\" er selve forbindelsen mellem bogstav og lyd, og at høre den op mod fisk, abe og sol gør den første lyd tydelig.",
-        "Aktiviteten følger Fælles Mål for tidlig læsning: at kende den lyd, hvert bogstav står for. Der er ingen timer og ingen point — kun rolig og legende træning, hvor I gerne må tage jer god tid og snakke om billederne sammen."
+        "Bogstavet b hænger på en rød hesteskomagnet, og under den ligger fire billeder: en ballon, en hund, en melon og en tiger. Barnet flytter de billeder, der begynder med lyden b, ind under magneten og tænder for den. Ballonen flyver op på krogen, resten ryster og bliver liggende på bordet. De tomme kroge viser, hvor mange billeder der mangler. En interaktiv øvelse i begyndelseslyde, der kører i browseren.",
+        "Ved Ugens bogstav har k-magneten tre kroge, og blandt billederne ligger en ged, fordi k og g lyder næsten ens. Med to magneter, b og p, skal hvert billede lyttes igennem og lægges det rigtige sted. Efter to forkerte forsøg dukker der små bogstaver op på billederne.",
+        "Øvelsen følger Fælles Mål for dansk: at høre forlyden og koble den til et bogstav. Intet ur og ingen point."
       ],
       "practices": [
-        "Forbinde et bogstav med den lyd, det giver",
-        "Sige et billedes ord og lytte efter den første lyd",
-        "Matche begyndelseslyden til det viste bogstav",
-        "Skelne den rigtige første lyd fra tre andre begyndelser"
+        "At høre den første lyd i et ord",
+        "At koble et bogstav til dets lyd",
+        "At skelne lyde, der ligner hinanden, som b og p",
+        "At sortere ord efter deres første bogstav"
       ],
       "howToPlay": [
-        "Barnet ser bogstavet øverst, for eksempel M, og siger lyden.",
-        "Barnet trykker på det billede, hvis ord begynder med den lyd, blandt de fire muligheder.",
-        "Passer det ikke? Barnet kan roligt prøve igen, så mange gange det vil — der er ingen timer og ingen point."
+        "Sig navnet på hvert billede, og lyt efter den første lyd.",
+        "Flyt de billeder, der begynder med magnetens lyd, ind under den.",
+        "Tænd for magneten: De rigtige billeder flyver op, de andre bliver liggende."
       ],
       "learningGoals": [
-        "Barnet kan kende den lyd, hvert bogstav står for",
-        "Barnet kan høre og matche den første lyd i et ord til det rette bogstav",
-        "Barnet kan opbygge det grundlag mellem bogstav og lyd, som det at lydere og læse ord afhænger af"
+        "Barnet siger den første lyd i et ord",
+        "Barnet kobler konsonanter til deres lyd",
+        "Barnet sorterer ord efter det bogstav, de begynder med"
       ]
     },
     "fractions.partition-thirds.2-g-a-3": {

@@ -3487,24 +3487,25 @@
     },
     "choice-board.beginning-sound.rf-k-3-a": {
       "about": [
-        "Une lettre apparaît — comme D, F ou M — et l'enfant touche l'image dont le nom commence par le son de cette lettre, en choisissant parmi des images familières : animaux, aliments et objets du quotidien (un dauphin, un fromage, une moto, un tigre). C'est une activité de phonologie pour la maternelle, qui se joue directement dans le navigateur, sans rien à installer et sans inscription.",
-        "Chaque partie montre une bonne image et trois autres qui commencent par d'autres sons : l'enfant ne peut pas deviner, il doit dire le nom de chaque image et écouter le tout premier son. Relier la lettre D au son [d] au début de « dauphin », c'est le lien lettre-son essentiel, et l'entendre face à fromage, lapin et tigre fait ressortir ce premier son très clairement. Cette activité de découverte des sons du début suit les programmes officiels et se pratique sans note ni chrono."
+        "La lettre b est accrochée à un aimant rouge en fer à cheval, et dessous se trouvent quatre images : un ballon, un dauphin, un lapin et un tigre. L’enfant glisse sous l’aimant les images qui, selon lui, commencent par le son b, puis l’allume. Le ballon s’envole sur le crochet ; le reste tremble et reste sur la table. Les crochets vides montrent combien d’images il reste à trouver. Une activité interactive sur les sons du début, à faire dans le navigateur.",
+        "Avec Lettre de la semaine, l’aimant du t a trois crochets, et parmi les images se trouve un dauphin, car t et d se ressemblent à l’oreille. Avec deux aimants, b et p, chaque image doit être écoutée et placée au bon endroit. Avec les groupes de lettres, les aimants portent ch, ou et on : chat, poule et avion vont vers le groupe qu’on entend. Ensuite, les groupes tombent dans les trous de mots écrits, et pendant deux manches, des mots entiers pendent aux aimants pour être lus. Après deux erreurs, de petites lettres apparaissent sur les images.",
+        "L’activité suit les programmes officiels : repérer le son du début d’un mot et l’associer à sa lettre. Ni minuteur ni score."
       ],
       "practices": [
-        "Relier une lettre au son qu'elle produit.",
-        "Dire le nom d'une image et écouter son premier son.",
-        "Associer le son du début à la lettre montrée.",
-        "Distinguer le bon premier son de trois autres débuts."
+        "Entendre le son du début d’un mot",
+        "Associer une lettre à son son",
+        "Distinguer des sons proches, comme b et p",
+        "Entendre et écrire des groupes de lettres comme ch, ou et on"
       ],
       "howToPlay": [
-        "Regarde la lettre en haut, par exemple D, et dis son son.",
-        "Touche l'image dont le nom commence par ce son, parmi les quatre propositions.",
-        "Pas tout à fait ? Réessaie autant de fois que tu veux — il n'y a ni chrono ni score."
+        "Dis le nom de chaque image et écoute le premier son.",
+        "Glisse sous l’aimant les images qui commencent par son son.",
+        "Allume l’aimant : les bonnes images s’envolent, les autres restent en bas."
       ],
       "learningGoals": [
-        "Connaître le son principal de chaque consonne.",
-        "Entendre le premier son d'un mot dit et l'associer à sa lettre.",
-        "Construire le lien lettre-son sur lequel reposent le déchiffrage et la lecture des mots."
+        "L’enfant dit le premier son d’un mot",
+        "L’enfant associe chaque consonne à son son",
+        "L’enfant classe des mots selon la lettre du début ou le groupe de lettres qu’ils contiennent"
       ]
     },
     "fractions.make-and-count-squares.2-g-a-2": {

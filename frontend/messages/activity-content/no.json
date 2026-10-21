@@ -1388,25 +1388,25 @@
     },
     "choice-board.beginning-sound.rf-k-3-a": {
       "about": [
-        "Én enkelt bokstav dukker opp — som D, F eller M — og barnet trykker på bildet hvis navn begynner med den samme lyden, og velger blant kjente grupper som dyr, mat og hverdagslige ting (en hund, en fisk, en elg, en tiger). Det er en lyd- og bokstavaktivitet for skolestart som kjører rett i nettleseren, uten noe å installere og uten konto.",
-        "Hver runde viser ett riktig bilde og tre som begynner med andre lyder, så barnet kan ikke bare gjette — det må si navnet på hvert bilde og lytte etter den aller første lyden. Å koble bokstaven D til /d/-lyden først i «hund» er den grunnleggende forbindelsen mellom bokstav og lyd, og når man hører den mot fisk, kanin og tiger, blir den første lyden tydelig.",
-        "Aktiviteten støtter tidlig lese- og skriveopplæring etter LK20 — å kjenne lyden hver bokstav står for. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "Bokstaven b henger på en rød hesteskomagnet, og under den ligger fire bilder: en ballong, en delfin, et flagg og en hatt. Barnet flytter bildene som begynner med lyden b, inn under magneten og slår den på. Ballongen flyr opp på kroken, resten rister og blir liggende på bordet. De tomme krokene viser hvor mange bilder som gjenstår. En interaktiv øvelse med forlyd som fungerer i nettleseren.",
+        "I Ukas bokstav har s-magneten tre kroker. Med to magneter, b og p, må hvert bilde lyttes til og legges på riktig sted. Med bokstavgruppene står kj og ng på magnetene: kjole, kjeks og seng går til gruppen man hører. Deretter faller gruppene ned i hull i skrevne ord, og i to runder henger hele ord på magnetene og skal leses. Etter to bom dukker det opp små bokstaver på bildene.",
+        "Øvelsen følger LK20: å høre forlyden og koble den til en bokstav. Ingen tidtaking og ingen poeng."
       ],
       "practices": [
-        "Koble en bokstav til lyden den lager.",
-        "Si navnet på et bilde og lytte etter den første lyden.",
-        "Koble begynnelseslyden til bokstaven som vises.",
-        "Skille den riktige første lyden fra tre andre begynnelseslyder."
+        "Å høre den første lyden i et ord",
+        "Å koble en bokstav til lyden sin",
+        "Å skille lyder som ligner hverandre, som b og p",
+        "Å høre og skrive bokstavgrupper som kj og ng"
       ],
       "howToPlay": [
-        "Se på bokstaven øverst, som D, og si lyden dens.",
-        "Trykk på bildet hvis navn begynner med den lyden, blant de fire valgene.",
-        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+        "Si navnet på hvert bilde og lytt etter den første lyden.",
+        "Flytt bildene som begynner med lyden til magneten, inn under den.",
+        "Slå på magneten: De riktige bildene flyr opp, de andre blir liggende."
       ],
       "learningGoals": [
-        "Barnet kan kjenne lyden hver bokstav lager.",
-        "Barnet kan høre og koble den første lyden i et ord til riktig bokstav.",
-        "Barnet bygger forbindelsen mellom bokstav og lyd, som lydering og lesing er avhengig av."
+        "Barnet sier den første lyden i et ord",
+        "Barnet kobler konsonanter til lyden deres",
+        "Barnet sorterer ord etter forbokstaven eller bokstavgruppen som finnes i ordet"
       ]
     },
     "fractions.make-and-count-squares.2-g-a-2": {

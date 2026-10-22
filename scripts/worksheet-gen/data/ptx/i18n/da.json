@@ -8,7 +8,8 @@
     },
     "first-tracing": {
       "title": "Finmotorik i børnehaven: {NAME}",
-      "instruction": "Start ved prikken. Tegn langsomt efter det store billede, hele vejen rundt."
+      "instruction": "Start ved prikken. Tegn langsomt efter det store billede, hele vejen rundt.",
+      "printTitle": "Mit første billede at tegne efter"
     },
     "look-then-trace": {
       "title": "Se først, tegn så: {NAME}",
@@ -68,7 +69,7 @@
     },
     "big-middle-small": {
       "title": "Stor, mellemstor og lille: {NAME}",
-      "instruction": "Tegn i hver række først den store, så den mellemstore og til sidst den lille."
+      "instruction": "Tegn i hver række først efter den store, så efter den mellemstore og til sidst efter den lille."
     },
     "dotted-street": {
       "title": "Prikkede streger: {NAME}",
@@ -423,7 +424,7 @@
     "ptx-K-428-garden-shed": "Gør billederne hele: tegn efter en tud, et blad, et plæneklipperhåndtag, et hoved, et skaft og et rullehåndtag.",
     "ptx-K-428-clothes-shop": "Tegn efter de stiplede dele, så billederne bliver hele: en skygge, et ærme, en hæl, en hætte, en hank og manchetter.",
     "ptx-K-428-bird-house": "Gør billederne hele: tegn efter næb, vinge, papegøjehale, kam, ben, fjerører, duehale og hals.",
-    "ptx-K-428-toy-cupboard": "Tegn efter de stiplede dele, så billederne bliver hele: ører, gyngemeder, antenne, halerotor, skorsten, pind, stikker og tragt.",
+    "ptx-K-428-toy-cupboard": "Gør billederne hele: tegn efter ører, gyngemeder, antenne, halerotor, skorsten, pind, trommestikker og tragt.",
     "ptx-K-428-bathroom": "Gør billederne hele: tegn efter tandbørsteskaft, kophank, spandhank, fødder, stang, låg, spejl og tænder.",
     "ptx-K-428-market-stall": "Gør billederne hele: tegn efter blad, stilke, græskarstilk, top, svampestok, grøn hat, melonstilk og pærestilk.",
     "ptx-K-428-zoo-shop": "Gør billederne hele: tegn efter snabel, horn, leopardhale, øre, abehale, hals, ører og hoved.",

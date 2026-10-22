@@ -47,7 +47,7 @@
       "instruction": "Trek de gestippelde plaatjes over. Tel ze. Schrijf in het vakje hoeveel het er zijn."
     },
     "finish-the-picture": {
-      "title": "Stippellijn tekening: {NAME}",
+      "title": "Stippellijntekening: {NAME}",
       "printTitle": "{NAME}",
       "instruction": "Trek de stippellijnen over en maak elk plaatje af."
     },
@@ -423,7 +423,7 @@
     "ptx-K-428-garden-shed": "Maak elk plaatje af: trek een tuit, een blad, een maaierhandvat, een kop, een steel en een rollerhandvat over.",
     "ptx-K-428-clothes-shop": "Trek de stippelstukjes over, dan is alles af: een klep, een mouw, een hak, een capuchon, een hengsel en boordjes.",
     "ptx-K-428-bird-house": "Maak elk plaatje af: trek snavel, vleugel, papegaaienstaart, kam, poten, oorpluimen, duivenstaart en hals over.",
-    "ptx-K-428-toy-cupboard": "Trek de stippelstukjes over, dan is alles af: oren, schommelboog, antenne, staartrotor, schoorsteen, stokje, stokken en beker.",
+    "ptx-K-428-toy-cupboard": "Maak elk plaatje af: trek oren, schommelboog, antenne, staartrotor, schoorsteen, stokje, trommelstokken en beker over.",
     "ptx-K-428-bathroom": "Maak elk plaatje af: trek borstelsteel, bekeroor, emmerhengsel, pootjes, stang, deksel, spiegel en tanden over.",
     "ptx-K-428-market-stall": "Maak elk plaatje af: trek blad, steeltjes, pompoensteel, loof, paddenstoelsteel, kroontje, meloensteel en perensteeltje over.",
     "ptx-K-428-zoo-shop": "Maak elk plaatje af: trek slurf, hoorns, luipaardstaart, oor, apenstaart, hals, oren en kop over.",

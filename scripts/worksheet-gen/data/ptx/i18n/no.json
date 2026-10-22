@@ -8,7 +8,8 @@
     },
     "first-tracing": {
       "title": "Finmotorikk i barnehagen: {NAME}",
-      "instruction": "Start ved prikken. Tegn sakte over det store bildet, hele veien rundt."
+      "instruction": "Start ved prikken. Tegn sakte over det store bildet, hele veien rundt.",
+      "printTitle": "Mitt første bilde å tegne over"
     },
     "look-then-trace": {
       "title": "Tegn over bildet: {NAME}",
@@ -68,7 +69,7 @@
     },
     "big-middle-small": {
       "title": "Stor, mellomstor og liten: {NAME}",
-      "instruction": "Tegn i hver rad først den store, så den mellomstore og til slutt den lille."
+      "instruction": "Tegn i hver rad først over den store, så over den mellomstore og til slutt over den lille."
     },
     "dotted-street": {
       "title": "Prikktegning for 1. trinn: {NAME}",
@@ -423,7 +424,7 @@
     "ptx-K-428-garden-shed": "Gjør bildene hele: tegn over en tut, et blad, et gressklipperhåndtak, et hode, et skaft og et rullehåndtak.",
     "ptx-K-428-clothes-shop": "Tegn over de stiplede delene, så bildene blir hele: en skygge, et erme, en hæl, en hette, en hank og vrangborder.",
     "ptx-K-428-bird-house": "Gjør bildene hele: tegn over nebb, vinge, papegøyestjert, kam, bein, øredusker, duestjert og hals.",
-    "ptx-K-428-toy-cupboard": "Tegn over de stiplede delene, så bildene blir hele: ører, meier, antenne, halerotor, pipe, pinne, stikker og klokke.",
+    "ptx-K-428-toy-cupboard": "Tegn over de stiplede delene, så bildene blir hele: ører, meier, antenne, halerotor, pipe, pinne, trommestikker og klokke.",
     "ptx-K-428-bathroom": "Gjør bildene hele: tegn over tannbørsteskaft, koppehank, bøttehank, føtter, stang, lokk, speil og tenner.",
     "ptx-K-428-market-stall": "Gjør bildene hele: tegn over blad, stilker, gresskarstilk, blader, soppstilk, grønn hatt, melonstilk og pærestilk.",
     "ptx-K-428-zoo-shop": "Gjør bildene hele: tegn over snabel, horn, leopardhale, øre, apehale, hals, ører og hode.",

@@ -306,3 +306,36 @@ G1-430); face strings `data/ptx/text-ls.js`; the ten locales `data/ptx/i18n/<loc
 native panels (`_work/ptl-text-brief.md`); titles lower-case the name after the colon in fr es pt it nl sv da no fi.
 Dump + mechanical checks: `tools/level-set/ptl-text-dump.js`. Pools: `cli.js generate --wave waves/wave-ptl-<loc>.json`,
 then `tools/level-set/check-zips-ptl.js` (300 per locale, PDF only, noindex, title ≤ 70, description 120-170).
+**Gate rules added by the visual review (each poison-tested in `qa/verify-ptl.js`, 370 assertions).** L7 K-422: every library
+picture is ≥ 50 % its column's DIRECTION (the family gate measured straightness only — a cake sat in the slanted column at
+17 %, a temple in "across"). L8 K-426: no two start dots closer than 22 px and no traced stroke under 40 px (dots stacked
+0-8 px apart, arrows beside 15-px strokes); an open stroke keeps its teaching start (top end, left when flat — `orient` in
+`lib/pt-render.js` re-applies it, so reversing a stroke does nothing: a crowded picture needs one of its two strokes CLOSED).
+L9 K-431: each long sea line is cut by at most ONE picture (two creatures on one wave cut the line the instruction asks for).
+**Reviews (sequential, never in parallel).** Two native panels (de fr es pt it · nl sv da no fi) audited the EN source first
+(9 EN fixes: K-428 parts named by owner, K-422 "The Study", G1-431 "What Will You Paint?", one G1-432 name pattern, K-427
+"pictures"); one visual reviewer over the 20 EN sheets (25 confirmed findings, all fixed); one native + pedagogy reviewer
+over the 11 text dumps (185 lines, a dozen causes: a name after a "?" head must keep its capital — the lower-casing is now
+only after a colon; K-419's printed heading fell back to the published "my first whale" in it/da/no; da/no "tegn" alone =
+draw, not trace; a river named where none is drawn; es carpa → casa de campaña, panqué → mantecada; it zigzag, divano).
+**Traps paid for (second round).** ⭐ The half-difference number cannot see PERSPECTIVE: 3/4-view binoculars, a tilted
+envelope, a robot, a game controller, a filing cabinet and a tilted umbrella all measured "symmetric" and print a dashed half
+that is not a mirror — every G1-432 pick is read on the page. ⭐ The published title is name + mode word + worksheet word +
+"— Set N": a 60-char bank title is not enough (es "ficha — Conjunto 13" is 20 chars). A never-indexed deck now drops the
+worksheet word when that alone keeps the title ≤ 70 (`build-seo-head.js omitWorksheetWord`, default off). ⭐ The description
+band is a WINDOW, not a floor: nl/fi copies with a long name have no room for the 52-char short sentence and fell under 120;
+a LONGER sentence made it worse — the fix is a shorter `levelSetShort` (45 chars) sized from the measured no-middle lengths.
+⭐ The Level Set mode word follows the copy name ("…: The Boat Hut Easy Worksheet") exactly as on the live fdl / htl / mzl
+sets — kept for consistency. ⭐ `PTL_SHOW_HOLE=0` is truthy: the debug outline drew round the empty space.
+**Publish (2026-10-22, as run).** 3,300 ZIPs (1.9 GB) in one folder `/var/www/lcs-media/_staging/ptl`; `publish-wave.js
+--locales=<11> --noindex` dry run (3300 ok, 0 collisions, all INSERT, all already noindex-marked; the 6 "no suggestion for
+slot n" warnings per deck are the catalogue-wide printable-deck warning), then `--confirm` under nohup: 3,300 INSERT,
+0 failed, OG 3300/0, deck-ladder strip per locale, audit 300/300 clean ×11. Live: DB 300 per locale, `indexable` false on all;
+0 in `deck-noindex-exempt.map`; 210 decks (one per face per level in EN + every K-418 copy elsewhere) answer 200 with
+`X-Robots-Tag: noindex` + the noindex meta; sitemap shards 4941 / 4876 / 952 / 4806 before = after (0 new URLs, 32 min after
+the inserts); `?type=picture-tracing` lists the 20 sets, a set lists its 15 copies + the published page; 68 served PDFs
+read on contact sheets (20 EN faces + de fr sv fi samples). Teacher sheets: `export-ladders.js` on Hetzner (each ladder easy 5
+· core 6 · hard 5) → `teacher-sheet.js --codes=<20>` on the PC (220 sheets, 0 failed) → `/var/www/lcs-media/level-sets/<loc>/`
+(served at `/<loc>/level-sets/<code>-teacher-sheet.pdf`). Staging + `.preband-backup` + dry-run batch removed (3.6 GB).
+**Expand again** by adding copies to `data/ptx/scenes-<face>.js` (numbered after the last), then the same chain: verify-ptl →
+render + read → names ×11 (native panel, EN audited first) → text dump → ptl-waves → generate → check-zips-ptl → publish.

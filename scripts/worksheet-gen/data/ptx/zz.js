@@ -49,14 +49,13 @@ function fern(cx, by, h, k = 5) {
 }
 /** a castle: a wall with a zigzag top, a gate, n towers with pointed roofs */
 function castle(cx, by, w, h, towers = 3) {
-  const x0 = cx - w / 2, x1 = cx + w / 2, wallTop = by - h * 0.45, out = [];
-  out.push(L([[x0, by], [x0, wallTop], ...zzPts(x0, x1, wallTop, 16, 8).slice(1), [x1, by]]));
+  // the towers stand on the ground and the zigzag wall runs only BETWEEN them: towers set on the wall top crossed its
+  // zigzag, three tower walls through it (visual review)
+  const x0 = cx - w / 2, x1 = cx + w / 2, wallTop = by - h * 0.45, tw = w * 0.16, tt = by - h * 0.72, out = [];
+  const tx = Array.from({ length: towers }, (_, i) => x0 + w * (towers === 1 ? 0.5 : i / (towers - 1)));
+  for (let i = 0; i + 1 < towers; i++) out.push(L(zzPts(tx[i] + tw / 2, tx[i + 1] - tw / 2, wallTop, 16, 4)));
   out.push(L([[cx - w * 0.08, by], [cx - w * 0.08, by - h * 0.2], [cx, by - h * 0.27], [cx + w * 0.08, by - h * 0.2], [cx + w * 0.08, by]]));
-  for (let i = 0; i < towers; i++) {
-    const tx = x0 + w * (towers === 1 ? 0.5 : i / (towers - 1)) , tw = w * 0.16, tt = by - h * 0.72;
-    out.push(L([[tx - tw / 2, wallTop + 4], [tx - tw / 2, tt], [tx + tw / 2, tt], [tx + tw / 2, wallTop + 4]]));
-    out.push(...triangle(tx, tt, tw * 1.3, h * 0.28));
-  }
+  for (const x of tx) { out.push(L([[x - tw / 2, by], [x - tw / 2, tt], [x + tw / 2, tt], [x + tw / 2, by]])); out.push(...triangle(x, tt, tw * 1.3, h * 0.28)); }
   return out;
 }
 /** a circus tent: a tall pointed roof, a zigzag hem of flaps, a door */

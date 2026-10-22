@@ -69,12 +69,12 @@ const SCENES = [
     items: [{ src: 'nature bw/umbrella', x: 320, y: 470, h: 230 }, { src: 'tools bw/traffic_cone', x: 100, y: 470, h: 150 }, { src: 'nature bw/rain', x: 170, y: 200, h: 170 }, { src: 'tools bw/rubber_boot', x: 560, y: 690, h: 140 }],
   })),
   copy('harbour-wall', 1, 'The Harbour Wall', () => ({
-    motifs: [sun(110, 80, 34), ...P.wall(240, 671, 470), { m: 'waves', a: [4, 671, 600, 80, 10] }],
-    items: [{ src: 'beach bw/lighthouse', x: 120, y: 690, h: 300 }, { src: 'beach bw/sailboat', x: 470, y: 590, h: 190 }, { src: 'beach bw/anchor', x: 520, y: 438, h: 150 }],
+    motifs: [sun(110, 80, 34), ...P.wall(240, 671, 410), { m: 'waves', a: [4, 671, 600, 80, 10] }],
+    items: [{ src: 'beach bw/lighthouse', x: 120, y: 690, h: 300 }, { src: 'beach bw/sailboat', x: 420, y: 595, h: 135 }, { src: 'beach bw/anchor', x: 480, y: 408, h: 150 }],
   })),
   copy('park-gate', 1, 'At the Park Gate', () => ({
     motifs: [...P.gate(338, 690, 260, 320), ground(690), cloud(560, 110, 150)],
-    items: [{ src: 'nature bw/tree', x: 140, y: 690, h: 270 }, { src: 'toys bw 2/kite', x: 338, y: 300, h: 220 }, { src: 'home bw 2/flower', x: 580, y: 690, h: 200 }],
+    items: [{ src: 'nature bw/tree', x: 108, y: 690, h: 215 }, { src: 'birds bw 2/bird_2', x: 338, y: 280, h: 150 }, { src: 'valentine bw 2/tulip', x: 580, y: 690, h: 200 }],
   })),
   copy('platform', 1, 'On the Platform', () => ({
     motifs: [sun(338, 64, 30), ...P.canopy(60, 615, 200, 470), ground(470), ground(690)],

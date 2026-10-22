@@ -34,6 +34,10 @@ const { tracerLaws } = require('../lib/pt-verify.js');
 const { directionMix } = require('../tools/pt-straight.js');
 const { traceOf: traceKey } = require('../lib/pt-scene.js');
 const { wOf } = require('../data/ptx/lay.js');
+/** K-422 pictures read on the page as CURVES (a crescent, a bowl, a bucket): the tracer's polyline scores each as ≥ 50 %
+ *  "straight" in some direction (moon 53 % slanted vs a correct star 45 %), so the measurement cannot refuse them — the
+ *  hand-read set does (third EN read 2026-10-22) */
+const K422_CURVED = new Set(['nature bw/moon', 'kitchen bw/bowl', 'home bw 2/bucket']);
 const NARROW = new Set(['K-419', 'K-421', 'K-426', 'K-427', 'K-428', 'G1-430', 'G1-433']);
 const arg = (k) => (process.argv.find((a) => a.startsWith('--' + k + '=')) || '').slice(k.length + 3);
 const onlyFace = arg('face');
@@ -59,6 +63,7 @@ async function copyChecks(e, sc, pubLen) {
   if (e.face === 'K-422') for (const it of sc.items || []) {
     const c = it.x < 229 ? 0 : it.x < 447 ? 1 : 2, m = directionMix(await traceKey(it.src)), sh = [m.v, m.h, m.s][c];
     if (sh < 0.5) f.push(`L7 ${it.src} is ${Math.round(100 * sh)} % ${['down', 'across', 'slanted'][c]} in the ${['down', 'across', 'slanted'][c]} column`);
+    if (K422_CURVED.has(it.src)) f.push(`L7 ${it.src} is a curved picture, not a straight-line one (read on the page)`);
   }
   if (e.face === 'K-431') {
     const lines = []; for (const m of sc.motifs || []) { if (m.m === 'line' && m.a[0].length === 2 && m.a[0][0][1] === m.a[0][1][1]) lines.push([m.a[0][0][1], 0]); if (m.m === 'waves') lines.push([m.a[2], m.a[4]]); if (m.m === 'ground') lines.push([m.a[2], m.a[4] || 4]); }
@@ -128,6 +133,9 @@ async function copyChecks(e, sc, pubLen) {
     const dc = [...catalog().values()].find((x) => x.face === 'K-422' && x.level === 2);
     const ds = sceneOf(dc); ds.items = [...ds.items, { src: 'food bw 2/cake', x: 556, y: 400, fitBox: [180, 150], anchor: 'centre' }];
     r = await copyChecks(dc, ds, pub['K-422'] || 7660); say(r.f.some((x) => /^L7/.test(x)), 'P5 a cake in the slanted column must fail: ' + (r.f.find((x) => /^L7/.test(x)) || 'PASSED (gate blind)'));
+    const ms = sceneOf(dc); ms.items = [...ms.items, { src: 'nature bw/moon', x: 556, y: 400, fitBox: [180, 150], anchor: 'centre' }];
+    r = await copyChecks(dc, ms, pub['K-422'] || 7660); say(r.f.some((x) => /curved picture/.test(x)), 'P5b a crescent moon in the slanted column must fail: ' + (r.f.find((x) => /curved/.test(x)) || 'PASSED (gate blind)'));
+    r = await copyChecks(dc, sceneOf(dc), pub['K-422'] || 7660); say(!r.f.some((x) => /curved picture/.test(x)), 'P5c the control (the real copy) must not be called curved: ' + (r.f.find((x) => /curved/.test(x)) || 'clean'));
     const sc6 = [...catalog().values()].find((x) => x.face === 'K-426' && x.level === 2), s6 = sceneOf(sc6), first = s6.motifs.find((m) => m.m === 'lineFixed');
     s6.motifs = [...s6.motifs, { ...first, a: [first.a[0].map(([x, y]) => [x + 5, y + 3]), first.a[1]] }];
     r = await copyChecks(sc6, s6, pub['K-426'] || 3000); say(r.f.some((x) => /^L8/.test(x)), 'P6 a second stroke starting 6 px from another must fail: ' + (r.f.find((x) => /^L8/.test(x)) || 'PASSED (gate blind)'));

@@ -86,7 +86,7 @@ const SCENES = [
       items: [{ src: 'furniture bw/chair', x: 76, y: 690, h: 210 }, { src: 'furniture bw/chair', x: 598, y: 690, h: 210, flip: true }, { src: 'valentine bw/balloon', x: 76, y: 470, h: 160 },
         { src: 'valentine bw/gift_box', x: 337, y: 690, h: 130 }, { src: 'toys bw/party_hat', x: 598, y: 480, h: 110 }] };
   }),
-  copy('gallery', 2, 'What Is in the Painting?', D('the painting in the empty frame'), () => {
+  copy('gallery', 2, 'What Will You Paint?', D('the painting in the empty frame'), () => {
     const f = T.frame(150, 50, 380, 300);
     return { hole: f.hole, motifs: [...f.motifs, ...X.bench(190, 690, 300), floor()],
       items: [{ src: 'household bw/plant', x: 80, y: 690, h: 220 }, { src: 'furniture bw/stool', x: 592, y: 690, h: 160 }, { src: 'classroom bw 2/palette', x: 592, y: 530, w: 120 }, { src: 'animals bw 4/cat', x: 300, y: 620, h: 140 }] };

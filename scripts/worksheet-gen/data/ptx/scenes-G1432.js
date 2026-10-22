@@ -48,11 +48,11 @@ const copy = (id, level, name, heroSrc, archSrcs) => {
 // Easter bw, owl, trophy, teddy); nothing used twice; no letter-shaped drawing (bowling pin = 8, round glasses = oo, the taxi's roof sign)
 const SCENES = [
   // ── L1 — book + 2 arches, big outline-led drawings, halves ≤ 5 px apart ─────────────────────────────────────────────
-  copy('kitchen', 1, 'The Kitchen Mirror Book', 'kitchen bw/pot', ['kitchen bw/spoon', 'kitchen bw/glass']),
-  copy('bedroom', 1, 'The Bedroom Mirror Book', 'furniture bw/wardrobe_2', ['furniture bw/floor_lamp', 'valentine bw 2/handbag']),
-  copy('space', 1, 'The Space Mirror Book', 'toys bw/ufo', ['nature bw/star', 'space bw/rocket']),
-  copy('beach', 1, 'The Beach Mirror Book', 'beach bw/sunglasses', ['beach bw 2/surfboard', 'tools bw/shovel']),
-  copy('puppy', 1, 'The Puppy’s Mirror Book', 'objects bw/bone', ['kitchen bw/jar', 'Easter bw/bell']),
+  copy('kitchen', 1, 'The Kitchen Book', 'kitchen bw/pot', ['kitchen bw/spoon', 'kitchen bw/glass']),
+  copy('bedroom', 1, 'The Bedroom Book', 'furniture bw/wardrobe_2', ['furniture bw/floor_lamp', 'valentine bw 2/handbag']),
+  copy('space', 1, 'The Space Book', 'toys bw/ufo', ['nature bw/star', 'space bw/rocket']),
+  copy('beach', 1, 'The Beach Book', 'beach bw/sunglasses', ['beach bw 2/surfboard', 'tools bw/shovel']),
+  copy('puppy', 1, 'The Puppy’s Book', 'objects bw/bone', ['kitchen bw/jar', 'Easter bw/bell']),
   // ── L2 — book + 3 arches (the published shape), halves ≤ 10 px ──────────────────────────────────────────────────────
   copy('living-room', 2, 'The Living Room Book', 'furniture bw/sofa', ['furniture bw/table_lamp', 'furniture bw/stool', 'home and nature bw/plate']),
   copy('sports-day', 2, 'The Sports Day Book', 'sports bw/skateboard', ['sports bw/kettlebell', 'sports bw/goggles', 'sports bw/helmet']),

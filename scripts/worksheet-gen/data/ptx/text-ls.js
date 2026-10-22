@@ -17,7 +17,7 @@ const LS = {
   curls: { title: L('Spirals and Loops to Trace: {NAME}'), printTitle: L('{NAME}'), instruction: L('Trace the spirals and loops round and round.') },
   'trace-and-color': { title: L('Trace and Color: {NAME}'), printTitle: L('{NAME}'), instruction: L('Trace the whole picture. Then color it in any colors you like.') },
   'where-to-start': { title: L('Where Do I Start? {NAME}'), instruction: L('Start at each dot and follow the arrow. Go down the stairs, one picture at a time.') },
-  'trace-and-count': { title: L('Trace and Count: {NAME}'), printTitle: L('{NAME}'), instruction: L('Trace the animals. Count them. Write how many in the box.') },
+  'trace-and-count': { title: L('Trace and Count: {NAME}'), printTitle: L('{NAME}'), instruction: L('Trace the pictures. Count them. Write how many in the box.') },
   'finish-the-picture': { title: L('Finish the Picture: {NAME}'), printTitle: L('{NAME}'), instruction: L('Trace the dashed part to finish each picture.') },
   christmas: { title: L('Christmas Picture Tracing: {NAME}'), printTitle: L('{NAME}'), instruction: L('Trace the whole Christmas picture. Then trace round every bauble and star.') },
   'shape-picture': { title: L('Shape Picture Tracing: {NAME}'), printTitle: L('{NAME}'), instruction: L('Trace every shape of the picture. Then color every circle.') },

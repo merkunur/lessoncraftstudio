@@ -1,0 +1,110 @@
+{
+  "strings": {
+    "base": {
+      "title": "Tegn efter stregerne: haven og stien op til døren",
+      "printTitle": "Stien op til døren",
+      "instruction": "Tegn efter de stiplede streger, så haven bliver færdig: huset, træet, sommerfuglen, tulipanerne og kaninen."
+    },
+    "first-tracing": {
+      "title": "Finmotorik i børnehaven: min første store hval",
+      "printTitle": "Min første hval",
+      "instruction": "Start ved prikken. Tegn langsomt efter den store hval, hele vejen rundt."
+    },
+    "look-then-trace": {
+      "title": "Tegn efter dyr: se først på billedet, og tegn så efter",
+      "printTitle": "Se først, tegn så",
+      "instruction": "Se på billedet i rammen. Tegn så efter stregerne på det samme dyr ved siden af."
+    },
+    "round-and-round": {
+      "title": "Runde billeder i børnehaven: tegn rundt og rundt som et o",
+      "printTitle": "Rundt og rundt",
+      "instruction": "Start ved hver prik, og tegn rundt og rundt ligesom bogstavet o."
+    },
+    "straight-lines": {
+      "title": "Lige streger at tegne efter: ned, hen og på skrå",
+      "printTitle": "Ned, hen og på skrå",
+      "instruction": "Se på pilen over hver kolonne. Tegn efter billederne: først ned, så hen og til sidst på skrå."
+    },
+    "zigzags": {
+      "title": "Zigzagstreger: tegn efter bjergene og uvejret over lejren",
+      "printTitle": "Uvejr over lejren",
+      "instruction": "Tegn efter zigzagstregerne på bjergene, træerne, teltet og lynene. Stop ved hver spids."
+    },
+    "curls": {
+      "title": "Spiraler og løkker: tegn efter sneglen, slikkepinden og kringlen",
+      "printTitle": "Spiralgalleriet",
+      "instruction": "Tegn efter spiralerne og løkkerne: sneglen, slikkepinden, sløjfen, kringlen og vindmøllen."
+    },
+    "trace-and-color": {
+      "title": "Tegn og farvelæg: picnic under det store træ",
+      "printTitle": "Picnic",
+      "instruction": "Tegn efter hele picnicbilledet. Farvelæg det bagefter med de farver, du har lyst til."
+    },
+    "where-to-start": {
+      "title": "Førskoleopgaver: hvor starter jeg? Billeder på en trappe",
+      "printTitle": "Hvor starter jeg?",
+      "instruction": "Start ved hver prik, og følg pilen. Gå ned ad trappen, ét billede ad gangen."
+    },
+    "trace-and-count": {
+      "title": "Tegn og tæl: hvor mange ænder svømmer i dammen?",
+      "printTitle": "Ænder i dammen",
+      "instruction": "Tegn efter ænderne. Tæl dem. Skriv i boksen, hvor mange der er."
+    },
+    "finish-the-picture": {
+      "title": "Gør billedet færdigt: tegn efter det, der mangler på hylden",
+      "printTitle": "Hvad mangler der?",
+      "instruction": "Tegn efter de stiplede dele, så billederne bliver hele: hjulene, en tud, to håndtag, en spids og ørerne."
+    },
+    "christmas": {
+      "title": "Juleopgaver: tegn rundt om hver julekugle og stjerne",
+      "printTitle": "Juleaften",
+      "instruction": "Tegn efter juletræet, gaverne, lænestolen, vinduet og tæppet. Tegn så rundt om hver julekugle og stjerne."
+    },
+    "shape-picture": {
+      "title": "Tegn efter figurer: en raket af cirkler, kvadrater og trekanter",
+      "printTitle": "Figurraketten",
+      "instruction": "Tegn efter alle figurerne i raketten og på himlen. Farvelæg så alle cirklerne."
+    },
+    "summer-sea": {
+      "title": "Sommeropgaver: tegn efter bølgerne hen over havet",
+      "printTitle": "Et postkort fra stranden",
+      "instruction": "Tegn efter bølgerne fra venstre mod højre. Tegn så efter båden og stranden."
+    },
+    "big-middle-small": {
+      "title": "Stor, mellemstor og lille: tegn efter fly, biler og skibe",
+      "printTitle": "Stor, mellemstor, lille",
+      "instruction": "Tegn i hver række først den store, så den mellemstore og til sidst den lille."
+    },
+    "dotted-street": {
+      "title": "Tegn efter de prikkede streger i 1. klasse: en morgen i byen",
+      "printTitle": "En morgen i byen",
+      "instruction": "Tegn forsigtigt efter de prikkede streger, også de små detaljer."
+    },
+    "picture-and-word": {
+      "title": "Tegn efter billedet, sig ordet højt, og skriv ordet efter",
+      "printTitle": "Billedord",
+      "instruction": "Tegn efter billedet. Sig, hvad det hedder. Skriv så efter ordet nedenunder."
+    },
+    "trace-and-draw": {
+      "title": "Tegn efter billeder, og tegn selv: hvad skal der i vognen?",
+      "printTitle": "Hvad skal der i vognen?",
+      "instruction": "Tegn efter hele billedet: traktoren, vognen og dyrene. Tegn så selv noget i den tomme vogn."
+    },
+    "other-half": {
+      "title": "Spejling i 1. klasse: tegn efter den anden halvdel",
+      "printTitle": "Den anden halvdel",
+      "instruction": "Tegn efter den stiplede halvdel, så begge sider af hvert billede bliver ens."
+    },
+    "hidden-animals": {
+      "title": "Efterårsopgaver: find de 5 gemte dyr i skoven, og tegn efter",
+      "printTitle": "Hvem gemmer sig i skoven?",
+      "instruction": "Find de 5 gemte dyr i skoven. Tegn efter dem."
+    }
+  },
+  "words": [
+    "sol",
+    "fisk",
+    "kat",
+    "æble"
+  ]
+}

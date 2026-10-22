@@ -393,7 +393,24 @@ async function traceDrawing(file, opts = {}) {
     const edge = new Uint8Array(W * H);
     for (let y = 1; y < H - 1; y++) for (let x = 1; x < W - 1; x++) { const i = y * W + x; if (body[i] && (!body[i - 1] || !body[i + 1] || !body[i - W] || !body[i + W])) edge[i] = 1; }
     const zone = require('./cbn-lineart.js').dilate(edge, W, H, Math.ceil(1.5 * sw));
-    for (const p of paths) { let n = 0; for (const [x, y] of p.pts) { const xi = Math.round(x), yi = Math.round(y); if (xi >= 0 && yi >= 0 && xi < W && yi < H && zone[yi * W + xi]) n++; } p.outer = n >= 0.6 * p.pts.length; }
+    const inZ = ([x, y]) => { const xi = Math.round(x), yi = Math.round(y); return xi >= 0 && yi >= 0 && xi < W && yi < H && !!zone[yi * W + xi]; };
+    // a chain can run along the rim and then turn into an inner line through a junction (a beach ball's rim arc chained
+    // into a stripe): judged whole it fell under 60 % and the RIM went solid, so the outline a PreK child traces was open
+    // (da panel). Split a mixed open path into its in-zone and out-of-zone runs when both are long (≥ 3 stroke widths).
+    const minRun = 3 * sw, out = [];
+    for (const p of paths) {
+      const f = p.pts.map(inZ); const n = f.filter(Boolean).length;
+      if (p.closed || n === 0 || n === f.length) { p.outer = n >= 0.6 * p.pts.length; out.push(p); continue; }
+      const runs = []; let st = 0;
+      for (let i = 1; i <= f.length; i++) if (i === f.length || f[i] !== f[st]) { runs.push([st, i - 1, f[st]]); st = i; }
+      const seg = (a, b) => p.pts.slice(a, b + 1);
+      const long = runs.filter(([a, b]) => plen(seg(a, b)) >= minRun);
+      if (!long.some((r) => r[2]) || !long.some((r) => !r[2])) { p.outer = n >= 0.6 * p.pts.length; out.push(p); continue; }
+      // merge short runs into their neighbour, then emit one path per run (sharing the joint point so the line stays whole)
+      const m = []; for (const r of runs) { if (m.length && (plen(seg(r[0], r[1])) < minRun || m[m.length - 1][2] === r[2])) m[m.length - 1][1] = r[1]; else m.push(r.slice()); }
+      for (let k = 0; k < m.length; k++) { const a0 = k ? m[k][0] - 1 : 0; const pts = seg(a0, m[k][1]); out.push(Object.assign({}, p, { pts, len: plen(pts), outer: m[k][2], split: true })); }
+    }
+    paths.length = 0; for (const q of out) paths.push(q);
   }
   return { W, H, sw, paths, blobs: blobOut, inkBox: { x0, y0, x1, y1 }, ink, skeleton: sk0, lineSkeleton: sk, body };
 }

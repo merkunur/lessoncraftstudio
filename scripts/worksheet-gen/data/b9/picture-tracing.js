@@ -43,11 +43,11 @@ const FACES = {
 const MODES = Object.keys(FACES);
 
 const EN_STRINGS = {
-  base: { title: 'Picture Tracing Worksheets: Trace the Garden Path to the Door', printTitle: 'The Path to the Door', instruction: 'Trace all the dashed lines to finish the garden: the house, the tree, the butterfly, the tulips and the rabbit.' },
+  base: { title: 'Picture Tracing Worksheets: Trace the Garden Path to the Door', printTitle: 'The Path to the Door', instruction: 'Trace the dashed lines to finish the garden: the path, the house, the tree, the butterfly, the tulips and the rabbit.' },
   'first-tracing': { title: 'Tracing Worksheets for Preschool: My First Big Whale', printTitle: 'My First Tracing', instruction: 'Start at the dot. Trace the big whale slowly, all the way round.' },
   'look-then-trace': { title: 'Trace the Picture: Look at the Animal, Then Trace It', printTitle: 'Look, Then Trace', instruction: 'Look at the picture in the frame. Then trace the same animal next to it.' },
   'round-and-round': { title: 'Tracing Worksheets for Toddlers and Preschoolers: Round Pictures', printTitle: 'Round and Round', instruction: 'Start at each dot and trace round and round, like the letter o.' },
-  'straight-lines': { title: 'Straight-Line Picture Tracing: Down, Across and Slanted', printTitle: 'Down, Across, Slanted', instruction: 'Follow the arrows, one column at a time: trace the pictures that go down, then across, then slanted.' },
+  'straight-lines': { title: 'Straight-Line Picture Tracing: Down, Across and Slanted', printTitle: 'Down, Across, Slanted', instruction: 'Look at the arrow above each column. Trace one column at a time: down, then across, then slanted.' },
   zigzags: { title: 'Trace the Picture: Zigzag Mountains and a Stormy Camp', printTitle: 'Storm over the Camp', instruction: 'Trace the zigzags of the mountains, the trees, the tent and the lightning. Stop at every tip.' },
   curls: { title: 'Tracing Pictures for Kids: Spirals and Loops', printTitle: 'The Spiral Gallery', instruction: 'Trace the spirals and loops: the snail, the lollipop, the bow, the pretzel and the pinwheel.' },
   'trace-and-color': { title: 'Trace and Color the Picture: A Picnic Under the Tree', printTitle: 'The Picnic', instruction: 'Trace the whole picnic picture. Then color it in any colors you like.' },
@@ -60,7 +60,7 @@ const EN_STRINGS = {
   'big-middle-small': { title: 'Tracing Pictures for Kids: Big, Middle and Small', printTitle: 'Big, Middle, Small', instruction: 'In every row, trace the big one, then the middle one, then the small one.' },
   'dotted-street': { title: 'Dotted Picture Tracing for 1st Grade: A Morning in Town', printTitle: 'A Morning in Town', instruction: 'Trace the dotted lines carefully, the small details too.' },
   'picture-and-word': { title: 'Trace the Picture, Say Its Name and Trace the Word', printTitle: 'Picture Words', instruction: 'Trace the picture. Say its name. Trace the word under it.' },
-  'trace-and-draw': { title: 'Trace the Picture, Then Draw: What Is in the Trailer?', printTitle: 'What Is in the Trailer?', instruction: 'Trace the whole picture: the tractor, the trailer and the animals. Then draw what is in the empty trailer.' },
+  'trace-and-draw': { title: 'Trace the Picture, Then Draw: What Is in the Trailer?', printTitle: 'What Is in the Trailer?', instruction: 'Trace the whole picture: the tractor, the trailer and the animals. Then draw what the tractor is carrying.' },
   'other-half': { title: 'Symmetry Picture Tracing: Trace the Other Half', printTitle: 'The Other Half', instruction: 'Trace the dashed half so both sides of each picture look the same.' },
   'hidden-animals': { title: 'Animal Tracing Pictures: Find the 5 Hidden Animals', printTitle: 'Who Hides in the Forest?', instruction: 'Find the 5 hidden animals in the forest. Trace them.' },
 };

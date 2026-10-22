@@ -4858,7 +4858,9 @@
           "es": "dibujos-para-repasar",
           "pt": "desenhos-pontilhados",
           "it": "disegni-tratteggiati",
-          "nl": "tekeningen-overtrekken"
+          "nl": "tekeningen-overtrekken",
+          "da": "tegn-efter-stregerne",
+          "sv": "spara-bilder"
         },
         "name": {
           "en": "Picture Tracing",
@@ -4867,7 +4869,9 @@
           "es": "Dibujos para repasar",
           "pt": "Desenhos pontilhados",
           "it": "Disegni tratteggiati",
-          "nl": "Tekeningen overtrekken"
+          "nl": "Tekeningen overtrekken",
+          "da": "Tegn efter stregerne",
+          "sv": "Spåra bilder"
         }
       }
     },

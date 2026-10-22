@@ -19,7 +19,10 @@ nl = Netherlands, sv = Sweden, da = Denmark, fi = Finland, de = Germany).
 K-421 shows a beach ball, a DOUGHNUT and an apple (the apple's little leaf is dashed too); K-422 down = wardrobe + tall
 cabinet, across = whiteboard + chest of drawers, slanted = envelope + star; K-425 picnic = banana, cup, pear, lemon;
 K-429 tree in a real pot + a long dashed rug in front of the tree (it is a long capsule, NOT round); K-431 the boat sits on the first wave; G1-429 is "a morning in town" with
-a dotted sun; G1-431 animals on their own meadow line; G1-432 owl, TROPHY, koala; G1-433 one flower. Audit what is on
+a dotted sun, a simple bus and a plain dog; G1-431 animals on their own meadow line; G1-432 owl, TROPHY, koala; G1-433 one flower and a sun + cloud in the sky; K-422 the dresser is clear of the column lines; K-429 the rug has a fringe at both ends; K-424 is SPIRALS AND LOOPS (only the snail and the lollipop are spirals; bow, pretzel and pinwheel are loops / curved blades), not curls; K-429 the child traces ROUND every bauble and star (they are already complete shapes — never "close"); G1-429 the tall building is not shown to be a hotel, and the dog sits. Later (it + nl panels): K-422 ACROSS = a park bench + the chest of drawers; G1-432 owl, trophy, TEDDY BEAR; K-426 the
+heart is ONE stroke with one dot and one arrow; K-431 the horizon stops at the boat; K-418 the house stands on flat ground;
+G1-431 there is no farmhouse — the child traces the whole picture: tractor, trailer, animals (and sun, cloud, road, hills).
+The word-face letters sit exactly on the dashed midline (measured; the pen width shows above it). Audit what is on
 the page now, not this list.
 
 ## FIRST: audit the English source (it is the only review the English ever gets)

@@ -93,21 +93,25 @@ function grid(columns) {
   return { decor: cols(), items, motifs };
 }
 const copy = (id, level, name, columns) => ({ id: 'ptx-K-422-' + id, face: 'K-422', level, name: { en: name }, skin: () => ({ ...BAND[level], ...grid(columns) }) });
+// every LIBRARY picture is ≥ 70 % straight (tools/pt-straight.js; the family gate F5) — measured over the whole library
+// (out/ptl/_straight.js): rolling pin, paintbrush, skateboard, party hat, ticket, spatula, whisk, cutting board, marker,
+// sofa, broom, wrenches, screwdriver, bus, crayon, pen, toothbrush, cricket bat, hot dog, ice pop, airplane and hockey
+// stick measured 41-69 % and left; the slanted column keeps DRAWN shapes where the library has no straight slanted drawing
 const SCENES = [
-  copy('kitchen-drawer', 1, 'The Kitchen Drawer', [['kitchen bw/fork'], ['draw:tray'], ['kitchen bw/rolling_pin']]),
-  copy('art-corner', 1, 'The Art Corner', [['classroom bw 2/pencil'], ['draw:paintBox'], ['education bw/paintbrush']]),
+  copy('kitchen-drawer', 1, 'The Kitchen Drawer', [['kitchen bw/fork'], ['draw:tray'], ['draw:pizzaSlice']]),
+  copy('art-corner', 1, 'The Art Corner', [['classroom bw 2/pencil'], ['draw:paintBox'], ['draw:kite']]),
   copy('surf-shop', 1, 'The Surf Shop', [['beach bw/surfboard'], ['draw:towel'], ['draw:tent']]),
-  copy('toy-box', 1, 'The Toy Box', [['draw:ladder'], ['sports bw/skateboard'], ['toys bw/party_hat']]),
-  copy('travel-desk', 1, 'Ready to Travel', [['objects bw/smartphone'], ['travel and holiday bw/ticket'], ['classroom bw 2/paper_airplane']]),
-  copy('kitchen', 2, 'In the Kitchen', [['kitchen bw/spatula', 'kitchen bw/whisk'], ['home bw/oven', 'draw:shelf'], ['kitchen bw/cutting_board', 'draw:pizzaSlice']]),
-  copy('office', 2, 'The Office', [['furniture bw/filing_cabinet', 'draw:door'], ['household bw/computer', 'draw:drawer'], ['classroom bw/marker', 'education bw/eraser']]),
-  copy('living-room', 2, 'The Living Room', [['household bw/window', 'draw:floorLamp'], ['furniture bw/sofa', 'draw:coffeeTable'], ['home bw 2/broom', 'classroom bw 2/book']]),
-  copy('tool-shed', 2, 'The Tool Shed', [['tools bw/double-ended_wrench', 'tools bw/wrench'], ['draw:workbench', 'draw:planks'], ['tools bw/screwdriver', 'draw:leaningLadder']]),
-  copy('bus-stop', 2, 'At the Bus Stop', [['draw:lampPost', 'draw:signPost'], ['vehicles bw 2/bus', 'draw:zebra'], ['draw:barrier', 'draw:kite']]),
-  copy('art-studio', 3, 'The Art Studio', [['home bw 2/paintbrush', 'draw:brushJar', 'draw:posterTube'], ['draw:paintBox', 'draw:crayonBox', 'draw:shelf'], ['education bw/crayon', 'education bw/pen', 'education bw/pencil']]),
-  copy('bedroom', 3, 'The Bedroom', [['apparel bw/necktie', 'beach bw 2/surfboard', 'draw:door'], ['draw:bed', 'draw:rug', 'draw:drawer'], ['objects bw/toothbrush', 'sports bw/cricket', 'draw:kite']]),
-  copy('building-site', 3, 'The Building Site', [['draw:chimney', 'draw:scaffold', 'draw:bollard'], ['draw:beam', 'draw:planks', 'draw:lowWall'], ['draw:leaningLadder', 'draw:stairs', 'draw:seesaw']]),
-  copy('snack-bar', 3, 'The Snack Bar', [['draw:fridge', 'draw:tallGlass', 'draw:signPost'], ['food bw/hot_dog', 'draw:counter', 'draw:tray'], ['dessert bw/ice_pop', 'draw:baguette', 'draw:pizzaSlice']]),
-  copy('airport', 3, 'At the Airport', [['draw:tower', 'draw:lampPost', 'draw:door'], ['vehicles bw 2/airplane_2', 'draw:belt', 'draw:counter'], ['sports bw/hockey', 'draw:stairs', 'draw:barrier']]),
+  copy('toy-box', 1, 'The Toy Box', [['draw:ladder'], ['education bw/box'], ['nature bw/star']]),
+  copy('travel-desk', 1, 'Ready to Travel', [['household bw/towel'], ['Christmas bw/envelope'], ['classroom bw 2/paper_airplane']]),
+  copy('kitchen', 2, 'In the Kitchen', [['kitchen bw/glass', 'household bw/refrigerator'], ['home bw/oven', 'draw:shelf'], ['food bw 2/cake', 'draw:baguette']]),
+  copy('office', 2, 'The Office', [['furniture bw/filing_cabinet', 'draw:door'], ['household bw/computer', 'draw:drawer'], ['classroom bw/graduation_cap', 'education bw/eraser']]),
+  copy('living-room', 2, 'The Living Room', [['household bw/window', 'draw:floorLamp'], ['home bw/dresser', 'draw:coffeeTable'], ['household bw/hanger', 'classroom bw 2/book']]),
+  copy('tool-shed', 2, 'The Tool Shed', [['objects bw/ladder', 'home bw 2/bucket'], ['draw:workbench', 'draw:planks'], ['education bw/pencil', 'draw:leaningLadder']]),
+  copy('bus-stop', 2, 'At the Bus Stop', [['draw:lampPost', 'draw:signPost'], ['travel and holiday bw/museum', 'draw:zebra'], ['draw:barrier', 'draw:kite']]),
+  copy('art-studio', 3, 'The Art Studio', [['home and nature bw/frame', 'draw:brushJar', 'household bw/bookshelf'], ['draw:paintBox', 'draw:crayonBox', 'home bw 2/desk'], ['Christmas bw/star', 'draw:kite', 'draw:pizzaSlice']]),
+  copy('bedroom', 3, 'The Bedroom', [['apparel bw/necktie', 'furniture bw/wardrobe', 'draw:door'], ['draw:bed', 'draw:rug', 'furniture bw/nightstand'], ['vehicles bw/sailboat', 'beach bw/umbrella', 'draw:kite']]),
+  copy('building-site', 3, 'The Building Site', [['draw:chimney', 'draw:scaffold', 'furniture bw/cabinet'], ['household bw/window', 'draw:planks', 'draw:lowWall'], ['draw:leaningLadder', 'draw:stairs', 'draw:barrier']]),
+  copy('snack-bar', 3, 'The Snack Bar', [['draw:fridge', 'draw:tallGlass', 'food bw 3/glass'], ['kitchen bw/plate', 'draw:counter', 'kitchen bw/microwave'], ['food bw 2/cake', 'draw:baguette', 'draw:pizzaSlice']]),
+  copy('airport', 3, 'At the Airport', [['draw:tower', 'household bw/tablet', 'furniture bw/wardrobe_2'], ['household bw/computer', 'draw:belt', 'classroom bw 2/bookshelf'], ['classroom bw 2/paper_airplane', 'draw:stairs', 'draw:barrier']]),
 ];
 module.exports = { SCENES, SHAPES };

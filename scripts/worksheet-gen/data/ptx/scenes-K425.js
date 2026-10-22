@@ -38,7 +38,7 @@ const SCENES = [
   })),
   copy('birthday-cake', 1, 'The Birthday Cake', () => ({
     motifs: [...C.table(40, 560, 595, 130), ...C.balloon(100, 120, 44, 170), ...C.balloon(190, 92, 42, 200), ...C.balloon(270, 150, 38, 140), ...C.present(560, 560, 140)],
-    items: [{ src: 'food bw 2/cake_2', x: 370, y: 560, w: 290 }],
+    items: [{ src: 'food bw 2/cake_2', x: 370, y: 560, w: 270 }],
   })),
   // ── L2 — five to seven pictures ─────────────────────────────────────────────────────────────────────────────────────
   copy('bedroom', 2, 'Bedtime', () => ({
@@ -76,7 +76,7 @@ const SCENES = [
   copy('kitchen', 3, 'The Kitchen', () => ({
     motifs: [...C.curtainWindow(80, 60, 200, 170), ...C.plank(40, 250, 270, 16), ...C.plank(360, 250, 295, 16), ...C.plank(20, 560, 635, 22), C.rect(30, 582, 300, 118), C.rect(345, 582, 300, 118)],
     items: [{ src: 'home bw/cactus', x: 180, y: 250, h: 120 }, { src: 'kitchen bw/teapot', x: 440, y: 250, w: 150 }, { src: 'home bw/cup', x: 590, y: 250, h: 95 },
-      ...row(560, [{ src: 'home bw/pot', w: 150 }, { src: 'kitchen bw/rolling_pin', w: 150 }, { src: 'fruits bw/strawberry', h: 105 }, { src: 'fruits bw/lemon', h: 100 }, { src: 'fruits bw/pear', h: 112 }], 30, 645, 12)],
+      ...row(560, [{ src: 'home bw/pot', w: 150 }, { src: 'kitchen bw/rolling_pin', w: 150 }, { src: 'fruits bw/strawberry', h: 105 }, { src: 'fruits bw/lemon', h: 100 }, { src: 'fruits bw/cherry', h: 105 }], 30, 645, 12)],
   })),
   copy('safari', 3, 'On Safari', () => ({
     motifs: [sun(600, 80, 36), { m: 'hill', a: [14, 380, 440, 70] }, { m: 'hill', a: [300, 661, 440, 55] }, flat(440), ...C.acacia(150, 440, 260, 210), flat(690)],

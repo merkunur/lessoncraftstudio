@@ -184,7 +184,7 @@ const SCENES = [
     decor: [{ m: 'grass', a: [100, 640, 22, 4], w: 2 }, { m: 'grass', a: [400, 600, 20, 4], w: 2 }, { m: 'grass', a: [630, 660, 20, 4], w: 2 }],
     items: [P('home and nature bw/tree_2', 150, 560, { h: 290 }), P('home and nature bw/tree_2', 520, 560, { h: 290 }), P('tools bw/ladder', 337, 560, { h: 230 }),
       P('tools bw/wheelbarrow', 560, 712, { w: 140 }), P('fruits bw/apple', 110, 708, { h: 40 }, true), P('fruits bw/apple', 420, 708, { h: 36 }, true),
-      A('birds bw/woodpecker', 150, 470, { h: 84 }), A('birds bw 2/crow', 520, 330, { h: 80 }), A('animals bw 2/porcupine', 200, 706, { w: 88 }),
+      A('birds bw/woodpecker', 150, 470, { h: 84 }), A('birds bw 2/crow', 520, 330, { h: 80 }), A('zoo animals bw/porcupine', 200, 706, { w: 88 }),
       A('animals bw 2/fox', 440, 650, { h: 84 }), A('animals bw/raccoon_2', 620, 640, { h: 80 })],
   })),
 ];

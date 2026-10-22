@@ -37,6 +37,9 @@ const BW = /bw(\s+\d+)?\//i;
 
 const clone = (o) => (typeof o === 'function' ? o : JSON.parse(JSON.stringify(o)));
 async function faceChecks(mode, sc, opts = {}) {
+  // opts.level (1-3): a Picture Tracing Level Set copy (qa/verify-ptl.js) — the face laws whose numbers are the LEVEL's
+  // (ptl-levels.md) take that level's numbers; a published page (no level) keeps the published contract exactly
+  const lv = opts.level;
   const f = [];
   const out = await composeScene(sc);
   f.push(...out.problems.map((p) => 'composer: ' + p));
@@ -52,7 +55,7 @@ async function faceChecks(mode, sc, opts = {}) {
   if (mode === 'trace-and-count') {
     const keys = new Set(dashed.map((i) => i.src));
     if (keys.size !== 1) f.push('F10: ' + keys.size + ' dashed kinds (want ONE counted kind)');
-    if (dashed.length !== sc.count.n || sc.count.n !== 5) f.push('F10: ' + dashed.length + ' dashed instances (want N = 5)');
+    if (lv ? dashed.length !== sc.count.n || sc.count.n < 3 || sc.count.n > 10 : dashed.length !== sc.count.n || sc.count.n !== 5) f.push('F10: ' + dashed.length + ' dashed instances (want N = ' + (lv ? sc.count.n + ', 3-10' : '5') + ')');
     if (sc.count.key && [...keys][0] !== sc.count.key) f.push('F10: the dashed kind is not the counted key');
   }
   if (mode === 'hidden-animals') {
@@ -62,18 +65,27 @@ async function faceChecks(mode, sc, opts = {}) {
   if (mode === 'other-half') for (const it of items) {
     const sy = SYM[it.src]; if (!sy) { f.push('F19: no symmetry measure for ' + it.src); continue; }
     const tr = await traceOf(it.src); const ih = tr.inkBox.y1 - tr.inkBox.y0 + 1; const s = it.h ? it.h / ih : it.w / (tr.inkBox.x1 - tr.inkBox.x0 + 1);
-    if (sy.max * s > 10) f.push('F19: ' + it.src + ' halves differ by ' + (sy.max * s).toFixed(1) + ' px (> 10)');
+    const lim = lv ? { 1: 5, 2: 10, 3: 8 }[lv] : 10;
+    if (sy.max * s > lim) f.push('F19: ' + it.src + ' halves differ by ' + (sy.max * s).toFixed(1) + ' px (> ' + lim + ')');
     if (it.axisX == null || it.render !== 'half') f.push('F19: ' + it.src + ' not split at its measured axis');
   }
   if (mode === 'shape-picture') {
     if (items.length) f.push('F13: library drawings in a true-shape picture');
     const circles = (sc.motifs || []).filter((m) => m.m === 'circle').length;
-    if (circles !== 4) f.push('F13: ' + circles + ' circles (want 4)');
+    if (lv ? circles < 2 : circles !== 4) f.push('F13: ' + circles + ' circles (want ' + (lv ? '≥ 2' : '4') + ')');
   }
   if (mode === 'christmas') {
+    if (lv) {
+      // the level's baubles (ptl-levels §K-429): L1 5-6 r ≥ 32 · L2 10-12 (+ stars) r 22-28 · L3 14-18 (+ stars) r 15-20
+      const R = { 1: [5, 6, 30, 40], 2: [10, 14, 20, 30], 3: [14, 20, 14, 22] }[lv];
+      const balls = (sc.motifs || []).filter((m) => m.m === 'circle' && m.a[2] >= R[2] - 0.5 && m.a[2] <= R[3] + 0.5).length;
+      if (balls < R[0] || balls > R[1]) f.push('F12: ' + balls + ' baubles of radius ' + R[2] + '-' + R[3] + ' (L' + lv + ' wants ' + R[0] + '-' + R[1] + ')');
+    } else {
     const small = (sc.motifs || []).filter((m) => m.m === 'circle' || m.m === 'star' || m.m === 'moon').filter((m) => { const r = m.a[2]; return 2 * r >= 40 && 2 * r <= 70; }).length;
     if (small < 8 || small > 12) f.push('F12: ' + small + ' small closed shapes (want 8-12, 40-70 px)');
+    }
   }
+
   if (mode === 'finish-the-picture') for (const it of items) {
     if (it.render !== 'part') { f.push('F11: ' + it.src + ' is not a part picture'); continue; }
     const pl = require('../lib/pt-render.js').placeTrace(await traceOf(it.src), it);
@@ -92,7 +104,8 @@ async function faceChecks(mode, sc, opts = {}) {
   return { f, metrics: out.metrics, main: dashed.length ? dashed.reduce((a, c) => ((c.h || 0) + (c.w || 0) > (a.h || 0) + (a.w || 0) ? c : a)).src : null };
 }
 
-(async () => {
+module.exports = { faceChecks, LOCALES, EXCLUDED, BW };
+if (require.main === module) (async () => {
   let fails = 0, n = 0;
   const say = (ok, msg) => { n++; if (!ok) fails++; console.log((ok ? 'PASS ' : 'FAIL ') + msg); };
   const mains = new Map();

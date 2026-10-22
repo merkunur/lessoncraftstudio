@@ -84,6 +84,15 @@ const P = {
     for (let k = 1; k <= 6; k++) { const a = Math.PI + k * (Math.PI / 3.5), r = R - (R - K(0.06)) * (k / 7) / n; ribs.push(SOL([[cx + (r - step * 0.15) * Math.cos(a), cy + (r - step * 0.15) * Math.sin(a)], [cx + (r - step * 0.8) * Math.cos(a), cy + (r - step * 0.8) * Math.sin(a)]], false, 2)); }
     return { motifs: [TF(sp), T(lip)], decor: ribs };
   },
+  // a garden snail: the spiral shell (traced from its outer lip) sitting on a soft body with two feelers (the body traced too)
+  snail(b) {
+    // the shell a tall oval (the frame is a portrait), the whole snail inside the frame's width: shell 0.68 + head 0.18
+    const { Pt, K } = frame(b), sy = 1.3, [cx, cy] = Pt(0.06, -0.1), R = K(0.33), n = turnsOf(R * 0.92), sp = spiralIn(cx, cy, R, K(0.05), n, Math.PI / 2, -1, sy);
+    const foot = cy + R * sy + K(0.02), x0 = cx - R - K(0.17), x1 = cx + R + K(0.07);
+    const body = smooth([[x1, foot], [x0 + K(0.1), foot], [x0, foot - K(0.1)], [x0 + K(0.02), foot - K(0.24)], [x0 + K(0.12), foot - K(0.28)], [x0 + K(0.18), foot - K(0.14)], [cx - R * 0.8, foot - K(0.06)]]);
+    return { motifs: [TF(sp), T(body), T(smooth([[x0 + K(0.04), foot - K(0.25)], [x0 - K(0.01), foot - K(0.4)], [x0 - K(0.02), foot - K(0.44)]])), T(smooth([[x0 + K(0.12), foot - K(0.28)], [x0 + K(0.13), foot - K(0.44)], [x0 + K(0.11), foot - K(0.48)]]))],
+      decor: [DOT(x0 + K(0.08), foot - K(0.18), K(0.022))] };
+  },
   ammonite(b) {
     const { Pt, K } = frame(b), [cx, cy] = Pt(0, 0), R = K(0.44), n = turnsOf(R * 0.9), sp = spiralIn(cx, cy, R, K(0.05), n, -Math.PI / 2, 1);
     const step = (R - K(0.05)) / n, ribs = [];
@@ -91,9 +100,9 @@ const P = {
     return { motifs: [TF(sp)], decor: ribs };
   },
   rose(b) {
-    const { Pt, K, H } = frame(b), hy = -Math.min(0.2, H * 0.5 - 0.3), [cx, cy] = Pt(0, hy), R = K(0.3);
+    const { Pt, K, H } = frame(b), hy = H > 1.6 ? -0.34 : -Math.min(0.2, H * 0.5 - 0.3), [cx, cy] = Pt(0, hy), R = K(H > 1.6 ? 0.38 : 0.3);   // a tall L3 frame holds a bigger flower
     const out = []; for (let k = 0; k <= 96; k++) { const a = k / 96 * 2 * Math.PI, w = 1 + 0.07 * Math.sin(a * 5); out.push([cx + R * 1.12 * w * Math.cos(a), cy + R * 1.12 * w * Math.sin(a)]); }
-    const by = Math.min(cy + K(0.85), b.cy + b.h / 2 - 16);
+    const by = Math.min(cy + K(H > 1.6 ? 1.12 : 0.85), b.cy + b.h / 2 - 16);
     return { motifs: [TF(spiralIn(cx, cy, R * 0.92, K(0.03), turnsOf(R * 0.9), -Math.PI / 2, 1)), T(out, true)],
       decor: [SOL(smooth([[cx, cy + R * 1.18], [cx + K(0.03), (cy + by) / 2], [cx, by]])), SOL(smooth([[cx + K(0.02), (cy + by) / 2 + K(0.02)], [cx + K(0.18), (cy + by) / 2 - K(0.06)], [cx + K(0.24), (cy + by) / 2 - K(0.02)], [cx + K(0.12), (cy + by) / 2 + K(0.06)], [cx + K(0.02), (cy + by) / 2 + K(0.02)]], true))] };
   },

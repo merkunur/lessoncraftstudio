@@ -30,10 +30,10 @@ function rows(srcs, level, scale = 1) {
 }
 const copy = (id, level, name, srcs, scale) => ({ id: 'ptx-K-420-' + id, face: 'K-420', level, name: { en: name }, skin: () => ({ ...BAND[level], ...rows(srcs, level, scale) }) });
 const SCENES = [
-  copy('garden-bugs', 1, 'Ladybug and Butterfly', ['nature bw/ladybug', 'Easter bw/butterfly']),
+  copy('garden-pond', 1, 'Duck and Butterfly', ['birds bw 2/duck', 'Easter bw/butterfly']),   // ladybug + butterfly measured 3,018 px (L1 ≤ 2,792)
   copy('tea-party', 1, 'Teapot and Cup', ['kitchen bw/teapot', 'home and nature bw/teacup']),
   copy('sky-flyers', 1, 'Plane and Helicopter', ['vehicles bw 2/airplane_2', 'vehicles bw 2/helicopter_2']),
-  copy('pond-pals', 1, 'Frog and Swan', ['animals bw/frog', 'animals bw/swan']),
+  copy('pond-pals', 1, 'Fish and Swan', ['nature bw/fish', 'animals bw/swan']),   // the frog is a busy outline (2,980 px with the swan)
   copy('fruit-bowl', 1, 'Banana and Cherries', ['fruits bw/banana', 'fruits bw/cherry']),
   copy('farm-babies', 2, 'Chick and Kitten', ['animals bw 4/chick', 'animals bw 4/cat']),
   copy('seaside-rocks', 2, 'Seal and Turtle', ['sea life bw 2/seal', 'sea life bw 2/turtle']),
@@ -43,7 +43,7 @@ const SCENES = [
   copy('dino-valley', 3, 'Three Dinosaurs', ['animals bw/tyrannosaurus_rex', 'animals bw 3/dinosaur', 'animals bw 5/dinosaur_2']),
   copy('jungle', 3, 'Monkey, Toucan and Snake', ['animals bw/monkey', 'birds bw 2/toucan', 'animals bw 5/snake']),
   copy('toy-shelf', 3, 'Rocking Horse, Robot and Teddy', ['toys bw/rocking_horse', 'toys bw 2/robot', 'toys bw/teddy_bear']),
-  copy('pet-shop', 3, 'Puppy, Bunny and Hamster', ['animals bw 5/dog', 'animals bw/rabbit', 'animals bw 5/hamster']),
+  copy('pet-shop', 3, 'Puppy, Bunny and Kitten', ['animals bw 5/dog', 'animals bw/rabbit', 'animals bw 3/cat']),
   copy('on-the-road', 3, 'Bus, Ambulance and Car', ['vehicles bw/bus', 'vehicles bw 3/ambulance', 'vehicles bw 2/car'], 0.9),   // the fire engine + police car were 9,000 px of tracing
 ];
 module.exports = { SCENES };

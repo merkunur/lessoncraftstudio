@@ -65,8 +65,9 @@ const SCENES = [
     items: [{ src: 'food bw/bread', x: 520, y: 470, w: 200 }, { src: 'food bw 2/croissant', x: 200, y: 690, w: 230 }, { src: 'animals bw 4/cat_3', x: 500, y: 690, h: 150 }],
   })),
   copy('crossing', 1, 'The Rainy Crossing', () => ({
-    motifs: [...P.lights(560, 470, 320), ground(470), ...P.crossing(150, 580, 4), ground(690)],
-    items: [{ src: 'nature bw/umbrella', x: 320, y: 470, h: 230 }, { src: 'tools bw/traffic_cone', x: 100, y: 470, h: 150 }, { src: 'nature bw/rain', x: 170, y: 200, h: 170 }, { src: 'tools bw/rubber_boot', x: 560, y: 690, h: 140 }],
+    // a cloud, not the library rain: its drops printed as blobs and tiny o's
+    motifs: [...P.lights(560, 470, 320), ground(470), ...P.crossing(150, 580, 4), ground(690), cloud(190, 130, 170)],
+    items: [{ src: 'nature bw/umbrella', x: 320, y: 470, h: 230 }, { src: 'tools bw/traffic_cone', x: 100, y: 470, h: 150 }, { src: 'tools bw/rubber_boot', x: 560, y: 690, h: 140 }],
   })),
   copy('harbour-wall', 1, 'The Harbour Wall', () => ({
     motifs: [sun(110, 80, 34), ...P.wall(240, 671, 410), { m: 'waves', a: [4, 671, 600, 80, 10] }],

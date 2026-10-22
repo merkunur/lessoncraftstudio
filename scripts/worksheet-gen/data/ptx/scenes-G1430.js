@@ -52,7 +52,7 @@ const SCENES = [
   copy('kitchen', 1, 'In the Kitchen', ['food bw 2/bread', 'food bw 3/egg', 'food bw/pizza_2', 'food bw 2/taco']),
   copy('zoo-faces', 1, 'Zoo Faces', ['faces bw/panda_2', 'faces bw/koala', 'faces bw/bear', 'faces bw/wolf']),
   copy('farm', 1, 'On the Farm', ['faces bw/cow', 'birds bw 2/goose', 'animals bw 3/cat', 'farm bw/hay']),
-  copy('countryside', 1, 'In the Countryside', ['toys bw/train', 'animals bw 4/llama', 'home and nature bw/nest', 'farm animals bw/pony']),
+  copy('countryside', 1, 'In the Countryside', ['vehicles bw/train', 'animals bw 4/llama', 'home and nature bw/nest', 'farm animals bw/pony']),
   // ── L2 — names of ≤ 7 letters (the published shape) ──────────────────────────────────────────────────────────────────
   copy('under-sea', 2, 'Under the Sea', ['sea life bw/whale', 'sea life bw 2/shark', 'sea life bw 2/seal', 'beach bw/anchor']),
   copy('market', 2, 'At the Market', ['fruits bw/banana', 'fruits bw/pear', 'vegetables bw/onion', 'Easter bw 2/basket']),

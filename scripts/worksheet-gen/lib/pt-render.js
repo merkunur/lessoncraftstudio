@@ -222,7 +222,8 @@ function guidePaths(placed, style, opts = {}) {
     }
   }
   placed.lines.forEach((ln, k) => {
-    if (kinds[k] === 'solid' && !ln.closed && B0 && B0.speck && plen(ln.pts) < B0.speck) return;
+    // (never on a DRAWN motif: its short parts — a sun's rays — are designed, not tracing residue)
+    if (kinds[k] === 'solid' && !ln.closed && !opts.motif && B0 && B0.speck && plen(ln.pts) < B0.speck) return;
     // opts.noSolid: a picture whose solid details read as half-finished drawing inside its dashes (a banana's ridge — final
     // visual review) keeps only what the child traces
     if (kinds[k] === 'solid' && opts.noSolid) return;

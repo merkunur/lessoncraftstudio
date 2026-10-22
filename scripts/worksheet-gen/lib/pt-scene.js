@@ -33,8 +33,9 @@ function clipBy(placed, keep) {
   const out = [];
   for (const ln of placed.lines) {
     let cur = [], broke = false;
-    for (const p of ln.pts) { if (keep(p)) cur.push(p); else { broke = true; if (cur.length > 1) out.push({ pts: cur, closed: false }); cur = []; } }
-    if (cur.length > 1) out.push({ pts: cur, closed: ln.closed && !broke });
+    const kd = ln.keepDir ? { fixed: true, keepDir: true } : {};   // a Level Set spiral keeps its own direction (outer start)
+    for (const p of ln.pts) { if (keep(p)) cur.push(p); else { broke = true; if (cur.length > 1) out.push({ pts: cur, closed: false, ...kd }); cur = []; } }
+    if (cur.length > 1) out.push({ pts: cur, closed: ln.closed && !broke, ...kd });
   }
   return { ...placed, lines: out };
 }
@@ -84,10 +85,10 @@ function clipByMask(lines, occ, W, H) {
   // (sv + it panels, 2026-10-22) — resample every segment to ≤ 2 px before testing
   const dense = (pts) => { const o = [pts[0]]; for (let i = 1; i < pts.length; i++) { const a = pts[i - 1], b = pts[i]; const n = Math.ceil(Math.hypot(b[0] - a[0], b[1] - a[1]) / 2); for (let k = 1; k <= n; k++) o.push([a[0] + (b[0] - a[0]) * k / n, a[1] + (b[1] - a[1]) * k / n]); } return o; };
   for (const ln0 of lines) {
-    const ln = { pts: ln0.pts.length > 1 ? dense(ln0.pts) : ln0.pts, closed: ln0.closed };
+    const ln = { pts: ln0.pts.length > 1 ? dense(ln0.pts) : ln0.pts, closed: ln0.closed }, kd = ln0.keepDir ? { fixed: true, keepDir: true } : {};
     let cur = [], any = false;
-    for (const p of ln.pts) { if (hidden(p)) { any = true; if (cur.length > 1) out.push({ pts: cur, closed: false }); cur = []; } else cur.push(p); }
-    if (cur.length > 1) out.push({ pts: cur, closed: ln.closed && !any });
+    for (const p of ln.pts) { if (hidden(p)) { any = true; if (cur.length > 1) out.push({ pts: cur, closed: false, ...kd }); cur = []; } else cur.push(p); }
+    if (cur.length > 1) out.push({ pts: cur, closed: ln.closed && !any, ...kd });
   }
   return out;
 }
@@ -203,7 +204,7 @@ async function composeScene(scene, opts = {}) {
       e.traceLines = pieces.filter(inPart);
       parts.push(R.guidePaths({ lines: e.traceLines, blobs: [] }, st, { band: sp.band || scene.band }));
     } else if (e.kind === 'motif') {
-      if (render === 'solid') parts.push(R.solidPaths(pl, sp.lineW || sp.w || 2.6)); else parts.push(R.guidePaths(pl, st, { band: sp.band || scene.band, start: sp.start }));
+      if (render === 'solid') parts.push(R.solidPaths(pl, sp.lineW || sp.w || 2.6)); else parts.push(R.guidePaths(pl, st, { band: sp.band || scene.band, start: sp.start, motif: true }));
     } else {
       const start = sp.start || scene.start;
       const contour = start === 'contour' || start === 'top';

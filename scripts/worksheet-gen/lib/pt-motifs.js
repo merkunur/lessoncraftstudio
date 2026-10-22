@@ -232,4 +232,6 @@ const stroke = {
   },
 };
 
-module.exports = { stroke, fir, glyph, blobUnion, catmull, arc, circle, ellipse, ground, hill, sun, cloud, grass, daisy, waves, drop, snowflake, star, moon, rainbow, mountains, fence, roundRect, bubble, pathBand, string, bunting, shapes, line };
+/** a designed line whose point order IS its tracing direction (a spiral starts at its outer end — ptl K-424) */
+const lineFixed = (pts, closed = false) => ({ ...fixed(pts, closed), keepDir: true });   // keepDir: survives clipping (pt-scene)
+module.exports = { stroke, fir, glyph, blobUnion, catmull, arc, circle, ellipse, ground, hill, sun, cloud, grass, daisy, waves, drop, snowflake, star, moon, rainbow, mountains, fence, roundRect, bubble, pathBand, string, bunting, shapes, line, lineFixed };

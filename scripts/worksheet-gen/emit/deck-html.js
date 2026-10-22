@@ -183,7 +183,8 @@ function buildDeckHtml(o) {
   const variantN = manifest.variant && manifest.variant > 1 ? manifest.variant : null;
   const setWord = word(locale, 'set', 'Set');
 
-  const seoFor = (mode, wWord) => seoHead.buildSeoHead({
+  const seoFor = (mode, wWord, omitWorksheetWord) => seoHead.buildSeoHead({
+    omitWorksheetWord: !!omitWorksheetWord,
     language: locale,
     exerciseTypeName: strings.title,
     exerciseTypeSlug: spec.exerciseType,
@@ -210,11 +211,15 @@ function buildDeckHtml(o) {
   // description past 170 on the LEAD alone, before any middle sentence; publish-bulk refuses those. For these never-indexed
   // copies only, the level word is dropped from the head when (and only when) that is what keeps the description in band.
   const descLen = (block) => { const m = /<meta name="description" content="([^"]*)"/.exec(block); return m ? [...m[1].replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'")].length : 0; };
-  let seoBlock = seoFor(modeName);
-  if (manifest.indexable === false && modeName && descLen(seoBlock) > 170) seoBlock = seoFor(null);
+  let mode = modeName, wordUsed;
+  let seoBlock = seoFor(mode);
+  if (manifest.indexable === false && modeName && descLen(seoBlock) > 170) { mode = null; seoBlock = seoFor(mode); }
   // still over (es Sentences, a two-digit set number): the title's own shorter worksheet word (es "Ficha" for "Hoja de ejercicios")
   const shortWord = (TITLE_CONFIG[locale] || {}).worksheetWordOverride;
-  if (manifest.indexable === false && shortWord && descLen(seoBlock) > 170) seoBlock = seoFor(null, shortWord);
+  if (manifest.indexable === false && shortWord && descLen(seoBlock) > 170) { mode = null; wordUsed = shortWord; seoBlock = seoFor(mode, wordUsed); }
+  // a Level Set title (its own copy name + "— Set N") over 70 drops the worksheet word, and only then (es "… ficha — Conjunto 13")
+  const titleLen = (block) => { const m = /<title>([^<]*)<\/title>/.exec(block); return m ? [...m[1].replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'")].length : 0; };
+  if (manifest.indexable === false && titleLen(seoBlock) > 70) { const alt = seoFor(mode, wordUsed, true); if (titleLen(alt) < titleLen(seoBlock) && descLen(alt) <= 170 && descLen(alt) >= 120) seoBlock = alt; }
 
   // the visible button never says "free" (the free tier is limited; 2026-09-14 ruling): the action strip's native labels
   const ACT = require('../../lib/deck-actions.js').strings(locale);   // already HTML-escaped

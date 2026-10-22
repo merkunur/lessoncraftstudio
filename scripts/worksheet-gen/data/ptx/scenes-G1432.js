@@ -54,17 +54,17 @@ const SCENES = [
   copy('beach', 1, 'The Beach Book', 'beach bw/sunglasses', ['beach bw 2/surfboard', 'tools bw/shovel']),
   copy('puppy', 1, 'The Puppy’s Book', 'objects bw/bone', ['kitchen bw/jar', 'Easter bw/bell']),
   // ── L2 — book + 3 arches (the published shape), halves ≤ 10 px ──────────────────────────────────────────────────────
-  copy('living-room', 2, 'The Living Room Book', 'furniture bw/sofa', ['furniture bw/table_lamp', 'furniture bw/stool', 'home and nature bw/plate']),
+  copy('living-room', 2, 'The Living Room Book', 'furniture bw/sofa', ['furniture bw/table_lamp', 'furniture bw/table', 'home and nature bw/plate']),
   copy('sports-day', 2, 'The Sports Day Book', 'sports bw/skateboard', ['sports bw/kettlebell', 'sports bw/goggles', 'sports bw/helmet']),
-  copy('rainy-day', 2, 'The Rainy Day Book', 'apparel bw/coat_2', ['beach bw 2/umbrella', 'valentine bw/padlock', 'furniture bw/filing_cabinet']),
-  copy('road-trip', 2, 'The Road Trip Book', 'travel and holiday bw/bus', ['vehicles bw/car_3', 'tools bw/traffic_cone', 'objects bw/binoculars']),
+  copy('rainy-day', 2, 'The Rainy Day Book', 'apparel bw/coat_2', ['animals bw 5/frog', 'valentine bw/padlock', 'household bw/cabinet']),
+  copy('road-trip', 2, 'The Road Trip Book', 'travel and holiday bw/bus', ['vehicles bw/car_3', 'tools bw/traffic_cone', 'travel and holiday bw/sunglasses']),
   copy('koala', 2, 'The Koala’s Book', 'faces bw/koala', ['food bw 3/egg', 'kitchen bw/spatula_2', 'household bw/bottle']),
   // ── L3 — book + 3 arches, inner details on the dashed half, halves ≤ 8 px ────────────────────────────────────────────
   copy('garden-party', 3, 'The Garden Party Book', 'nature bw/butterfly', ['nature bw/ladybug', 'sports bw/rosette', 'toys bw/drum']),
-  copy('old-town', 3, 'The Old Town Book', 'travel and holiday bw/museum', ['Christmas bw/envelope', 'home and nature bw/table_lamp', 'furniture bw/cabinet']),
-  copy('dressing-room', 3, 'The Dressing Room Book', 'furniture bw/vanity_table', ['home bw/chandelier', 'objects bw/jacket', 'travel and holiday bw/sunglasses']),
+  copy('old-town', 3, 'The Old Town Book', 'travel and holiday bw/museum', ['classroom bw/bell', 'furniture bw/stool', 'furniture bw/cabinet']),
+  copy('dressing-room', 3, 'The Dressing Room Book', 'furniture bw/vanity_table', ['home bw/chandelier', 'objects bw/jacket', 'beach bw/sunglasses']),
   copy('grandma', 3, 'Grandma’s Book', 'furniture bw/dresser_2', ['apparel bw/babys_onesie', 'home bw 2/fan', 'apparel bw/scarf_2']),
-  copy('little-theatre', 3, 'The Little Theatre Book', 'travel and holiday bw/stage', ['toys bw 2/robot', 'toys bw/video_game', 'toys bw 2/kite']),
+  copy('little-theatre', 3, 'The Little Theatre Book', 'travel and holiday bw/stage', ['toys bw/teddy_bear', 'household bw/lamp', 'toys bw 2/kite']),
 ];
 if (ERR.length) throw new Error(ERR.join(' | '));
 module.exports = { SCENES, MAXD };

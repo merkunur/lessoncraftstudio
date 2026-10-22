@@ -116,9 +116,9 @@ const SCENES = [
   copy('tool-shed', 2, 'The Tool Shed', [['objects bw/ladder', 'beach bw/surfboard'], ['draw:workbench', 'draw:planks'], ['education bw/pencil', 'draw:leaningLadder']]),
   copy('bus-stop', 2, 'At the Bus Stop', [['draw:lampPost', 'draw:signPost'], ['draw:bench', 'draw:zebra'], ['draw:baguette', 'draw:kite']]),
   copy('art-studio', 3, 'The Art Studio', [['household bw/curtain', 'draw:brushJar', 'home bw 2/chair'], ['draw:paintBox', 'draw:crayonBox', 'home bw 2/desk'], ['Christmas bw/star', 'draw:kite', 'draw:pizzaSlice']]),
-  copy('bedroom', 3, 'The Bedroom', [['apparel bw/necktie', 'furniture bw/wardrobe', 'draw:door'], ['draw:bed', 'draw:rug', 'furniture bw/dresser'], ['classroom bw/book', 'nature bw/moon', 'draw:kite']]),
-  copy('building-site', 3, 'The Building Site', [['draw:scaffold', 'household bw/window', 'tools bw/ladder'], ['home bw 2/bucket', 'furniture bw/cabinet', 'draw:lowWall'], ['draw:leaningLadder', 'draw:stairs', 'draw:ramp']]),
-  copy('snack-bar', 3, 'The Snack Bar', [['home bw/refrigerator', 'household bw/cabinet', 'food bw 3/glass'], ['kitchen bw/bowl', 'food bw 2/cake', 'home bw/microwave'], ['draw:sandwich', 'draw:baguette', 'draw:pizzaSlice']]),
+  copy('bedroom', 3, 'The Bedroom', [['apparel bw/necktie', 'furniture bw/wardrobe', 'draw:door'], ['draw:bed', 'draw:rug', 'furniture bw/dresser'], ['classroom bw/book', 'education bw/pencil', 'draw:kite']]),
+  copy('building-site', 3, 'The Building Site', [['draw:scaffold', 'household bw/window', 'tools bw/ladder'], ['draw:planks', 'furniture bw/cabinet', 'draw:lowWall'], ['draw:leaningLadder', 'draw:stairs', 'draw:ramp']]),
+  copy('snack-bar', 3, 'The Snack Bar', [['home bw/refrigerator', 'household bw/cabinet', 'food bw 3/glass'], ['draw:counter', 'food bw 2/cake', 'home bw/microwave'], ['draw:sandwich', 'draw:baguette', 'draw:pizzaSlice']]),
   copy('airport', 3, 'The Study', [['draw:tower', 'household bw/tablet', 'furniture bw/wardrobe_2'], ['household bw/computer', 'draw:shelf', 'furniture bw/dresser_2'], ['classroom bw 2/paper_airplane', 'education bw/pencil', 'classroom bw/book']]),
 ];
 module.exports = { SCENES, SHAPES };

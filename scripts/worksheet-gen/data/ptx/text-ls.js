@@ -10,7 +10,7 @@ const L = (en, rest = {}) => ({ en, ...rest });
 const LS = {
   base: { title: L('Picture Tracing: {NAME}'), printTitle: L('{NAME}'), instruction: L('Trace every dashed line to finish the picture.') },
   'first-tracing': { title: L('My First Tracing: {NAME}'), instruction: L('Start at the dot. Trace the big picture slowly, all the way round.') },
-  'look-then-trace': { title: L('Look, Then Trace: {NAME}'), instruction: L('Look at the picture in the frame. Then trace the same picture next to it.') },
+  'look-then-trace': { title: L('Look, Then Trace: {NAME}'), instruction: L('Look at each picture in a frame. Then trace the same picture next to it.') },
   'round-and-round': { title: L('Round Pictures to Trace: {NAME}'), instruction: L('Start at each dot and trace round and round, like the letter o.') },
   'straight-lines': { title: L('Straight-Line Tracing: {NAME}'), instruction: L('Look at the arrow above each column. Trace one column at a time: down, then across, then slanted.') },
   zigzags: { title: L('Zigzag Picture Tracing: {NAME}'), printTitle: L('{NAME}'), instruction: L('Trace the whole picture. Stop at every tip of the zigzags.') },
@@ -21,7 +21,7 @@ const LS = {
   'finish-the-picture': { title: L('Finish the Picture: {NAME}'), printTitle: L('{NAME}'), instruction: L('Trace the dashed part to finish each picture.') },
   christmas: { title: L('Christmas Picture Tracing: {NAME}'), printTitle: L('{NAME}'), instruction: L('Trace the whole Christmas picture. Then trace round every bauble and star.') },
   'shape-picture': { title: L('Shape Picture Tracing: {NAME}'), printTitle: L('{NAME}'), instruction: L('Trace every shape of the picture. Then color every circle.') },
-  'summer-sea': { title: L('Summer Picture Tracing: {NAME}'), printTitle: L('{NAME}'), instruction: L('Trace the waves from left to right. Then trace the rest of the picture.') },
+  'summer-sea': { title: L('Summer Picture Tracing: {NAME}'), printTitle: L('{NAME}'), instruction: L('Trace the long lines of the sea from left to right. Then trace the rest of the picture.') },
   'big-middle-small': { title: L('Big, Middle, Small: {NAME}'), instruction: L('In every row, trace the big one, then the middle one, then the small one.') },
   'dotted-street': { title: L('Dotted Picture Tracing: {NAME}'), printTitle: L('{NAME}'), instruction: L('Trace the dotted lines carefully, the small details too.') },
   'picture-and-word': { title: L('Picture Words to Trace: {NAME}'), instruction: L('Trace the picture. Say its name. Trace the word under it.') },
@@ -29,4 +29,16 @@ const LS = {
   'other-half': { title: L('Symmetry Tracing: {NAME}'), instruction: L('Trace the dashed half so both sides of each picture look the same.') },
   'hidden-animals': { title: L('Find the Hidden Animals: {NAME}'), printTitle: L('{NAME}'), instruction: L('Find the 5 hidden animals. Trace them.') },
 };
+// the other ten locales: the native panels' tables data/ptx/i18n/<loc>.json → { ls: { <mode>: { title, printTitle?, instruction } } }
+{
+  const fs = require('fs'), path = require('path');
+  for (const loc of ['de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi']) {
+    const f = path.join(__dirname, 'i18n', loc + '.json'); if (!fs.existsSync(f)) continue;
+    const t = JSON.parse(fs.readFileSync(f, 'utf8')).ls || {};
+    for (const [mode, v] of Object.entries(t)) {
+      if (!LS[mode]) throw new Error('ptx i18n ' + loc + ': unknown face mode ' + mode);
+      for (const k of ['title', 'printTitle', 'instruction']) if (v[k] != null) { if (!LS[mode][k]) LS[mode][k] = {}; LS[mode][k][loc] = v[k]; }
+    }
+  }
+}
 module.exports = LS;

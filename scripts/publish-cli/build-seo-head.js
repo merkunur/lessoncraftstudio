@@ -169,7 +169,8 @@ function composeTitle(opts) {
   // Per-locale worksheet-word override (es title = "Ficha" regardless of the i18n
   // description word). Title-scoped; the description path is untouched.
   var wWord = String(cfg.worksheetWordOverride || opts.worksheetWord || 'Worksheet');
-  var wWordPart = worksheetWordRedundant(typeName, wWord) ? '' : (' ' + wWord);
+  // opts.omitWorksheetWord (default off): a never-indexed Level Set deck drops the word when it is what keeps the title ≤ 70
+  var wWordPart = (opts.omitWorksheetWord || worksheetWordRedundant(typeName, wWord)) ? '' : (' ' + wWord);
 
   var themeName = opts.themeName ? String(opts.themeName) : null;
   var diff = opts.differentiator || null;

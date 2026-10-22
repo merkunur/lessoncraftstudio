@@ -352,3 +352,18 @@ audit 300/300 clean ×11; `audit-update-injections.js` lostTB 0 / lostMeter 0 (n
 `indexable` false; sitemaps 4941 / 4876 / 952 / 4806 unchanged; 20 live EN decks 200 + noindex header + meta, their edge
 PDFs = origin v2 (≠ v1) and read on a contact sheet. ⚠ publish rewrites the PDF, so a staged ZIP's PDF never matches the
 live file byte for byte; compare edge to origin v2 vs v1 instead. The teacher sheets carry no page images and were left as they are.
+
+**Third pass (2026-10-22, as run).** A native review of all 3,300 rows (`ptl-text-dump.js`, 11 locales) gave 47 fixes, all made
+at the source in `data/ptx/i18n/*.json`. Two classes needed a gate, not a re-read. (1) ⚠ **Line breaks are measured, not
+counted.** A character cap cannot see a one-word last line. `ptl-render.js` now measures every rendered copy: title ≤ 2
+lines, instruction ≤ 3, no widow (a last line under 30 % of the longest). The first run found 615 widows, all in the shared
+face instructions. The fix is `text-wrap:balance`, injected in the bodyHtml for ptx units only, so the published 220 stay
+byte-identical (`qa/ptx-published-identity.js` 30/30). (2) ⚠ **`directionMix` cannot tell a curve from a line.** The
+tracer outputs coarse polylines: a moon scores 53 % slanted and a correct star 45 %. So K-422's columns had shipped a moon, a bowl
+and a bucket under "straight lines". `verify-ptl.js` L7 now refuses a hand-read `K422_CURVED` set (poison P5b adds a moon
+to a slant column and must fail; control P5c, 372/372). The pictures were swapped for a pencil, planks and a counter. ⚠ A
+swap can push a level under its budget floor: `draw:tray` made the snack-bar L3 too light, so I used `draw:counter`. Also:
+the da/no b9 K-420 printTitle "Se først, tegn så efter/over" was regenerated and republished with `b9-republish-locale.sh`.
+⚠ `cli.js generate` SKIPS ZIPs that already exist, so clear `out/staging/wave-ptl-<loc>` before a regeneration, and diff
+the new ZIP names against the old list, so `/root/ptl-updates.json` still maps every one. All 3,300 were republished in place
+a third time (routed=UPDATE 3300/0).

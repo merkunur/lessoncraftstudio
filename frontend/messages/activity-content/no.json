@@ -2395,6 +2395,29 @@
         "Barnet skriver strekene i hver bokstav i riktig rekkefølge og retning",
         "Barnet skriver store og små bokstaver på linjene"
       ]
+    },
+    "snippy.letter-formation.l-k-1-a": {
+      "about": [
+        "Barnet skriver en bokstav, og bokstaven blir tatt opp mens den skrives. Etterpå skrives den igjen ved siden av bokstaven til Snippy. Sneglen på skinnen under de to arkene er knappen til begge avspillingene: Dra Snippy fram og tilbake, så forsvinder de to bokstavene og blir skrevet igjen i samme takt.",
+        "Skinnen fylles med ett fargebånd for hver strek, barnets øverst og Snippys under. Når bokstaven ble skrevet på samme måte, passer de to sporene sammen. En strek som gikk andre veien, får piler som peker bakover, og streker i en annen rekkefølge viser fargene sine i en annen rekkefølge. En litt skjelven bokstav med riktig start, riktig retning og riktig rekkefølge er en perfekt bokstav her.",
+        "Hver bokstav har tre steg: først med nummererte prikker og piler på veien, så bare med veien og til slutt helt selv – alle startprikkene vises, men ingen vei og ingen tall. Bare det siste steget blir sjekket. Små og store bokstaver finnes i åtte familier, med Æ, Ø og Å. I tråd med LK20, uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Å starte hver bokstav på riktig sted",
+        "Å trekke hver strek i riktig retning",
+        "Å skrive strekene i en bokstav i riktig rekkefølge",
+        "Å skrive en bokstav etter hukommelsen etter å ha sporet den"
+      ],
+      "howToPlay": [
+        "Start ved prikk 1, og følg pilene, følg så veien, og skriv til slutt bokstaven selv.",
+        "Trykk på «Sjekk», og se bokstaven din bli skrevet igjen ved siden av Snippys. Dra Snippy bortover skinnen for å se det igjen.",
+        "Under «Bokstaver» velger du en familie som «Runde og ned» eller «Store bokstaver: buer», og under «Steg» for eksempel «Bare selv». På nettbrett eller datamaskin trykker du på en bokstav i raden nederst for å se Snippy skrive den."
+      ],
+      "learningGoals": [
+        "Barnet starter hver bokstav på riktig sted",
+        "Barnet skriver i riktig retning og i riktig rekkefølge",
+        "Barnet skriver små og store bokstaver etter hukommelsen"
+      ]
     }
   }
 }

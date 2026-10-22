@@ -2388,6 +2388,29 @@
         "Barnet skriver stregerne i hvert bogstav i den rigtige rækkefølge og retning",
         "Barnet skriver store og små bogstaver på linjerne"
       ]
+    },
+    "snippy.letter-formation.l-k-1-a": {
+      "about": [
+        "Barnet skriver et bogstav, og bogstavet bliver optaget, mens det skrives. Bagefter skrives det igen ved siden af Snippys bogstav. Sneglen på skinnen under de to ark er knappen til begge afspilninger: Træk Snippy frem og tilbage, så forsvinder de to bogstaver og bliver skrevet igen i samme takt.",
+        "Skinnen fyldes med et farvebånd for hver streg, barnets øverst og Snippys nedenunder. Når bogstavet blev skrevet på samme måde, passer de to spor sammen. En streg, der gik den anden vej, får pile, der peger tilbage, og streger i en anden rækkefølge viser deres farver i en anden rækkefølge. Et lidt rystet bogstav med rigtig start, rigtig retning og rigtig rækkefølge er et perfekt bogstav her.",
+        "Hvert bogstav har tre trin: først med nummererede prikker og pile på vejen, så kun med vejen og til sidst helt selv – alle startprikker kan ses, men ingen vej og ingen tal. Kun det sidste trin bliver tjekket. Små og store bogstaver findes i otte familier, med Æ, Ø og Å. I tråd med Fælles Mål, uden tidtagning og uden point."
+      ],
+      "practices": [
+        "At starte hvert bogstav det rigtige sted",
+        "At trække hver streg i den rigtige retning",
+        "At skrive et bogstavs streger i den rigtige rækkefølge",
+        "At skrive et bogstav udenad efter at have tegnet det efter"
+      ],
+      "howToPlay": [
+        "Start ved prik 1, og følg pilene, følg så vejen, og skriv til sidst bogstavet selv.",
+        "Tryk på »Tjek«, og se dit bogstav blive skrevet igen ved siden af Snippys. Træk Snippy hen ad skinnen for at se det igen.",
+        "Under »Bogstaver« vælger du en familie som »Runde og ned« eller »Store bogstaver: buer«, og under »Trin« for eksempel »Kun selv«. På en tablet eller computer trykker du på et bogstav i rækken nederst for at se Snippy skrive det."
+      ],
+      "learningGoals": [
+        "Barnet starter hvert bogstav det rigtige sted",
+        "Barnet skriver i den rigtige retning og i den rigtige rækkefølge",
+        "Barnet skriver små og store bogstaver udenad"
+      ]
     }
   }
 }

@@ -21,6 +21,7 @@ const path = require('path');
 const ACTIVITY = 'snippy.letter-formation.l-k-1-a';
 const REPO = path.join(__dirname, '..');
 const MINI = path.join(REPO, 'mini tools');
+/* Row 74 rebuild (2026-10-23): this row runs The Rewind Rail (rewind-rail-activity); its gate is local-test-rewind-rail.js. */if (JSON.parse(fs.readFileSync(path.join(MINI, 'snippy-activities.json'), 'utf8'))[0].tool !== 'snippy-activity') { console.log('local-test-snippy: the row runs The Rewind Rail — see local-test-rewind-rail.js. Nothing to check here.'); process.exit(0); }
 const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.html': 'text/html', '.svg': 'image/svg+xml', '.png': 'image/png' };
 
 function serve() {

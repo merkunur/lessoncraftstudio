@@ -3839,25 +3839,25 @@
     },
     "snippy.letter-formation.l-k-1-a": {
       "about": [
-        "Starting at a marked dot, the child traces each letter stroke by stroke — c, s, i, t, a, d, and a big capital S — first with the path shown to guide the hand, then again with it hidden. It's an interactive Kindergarten handwriting warm-up that plays in the browser as a friendly complement to paper practice.",
-        "Good handwriting starts with consistent stroke order, not just the right shape, so the activity always cues where to begin and which part comes first — the round part of a before its stick, the tall stick of b before its bump. The two-step design (guided, then unguided) is what builds independence: the child first feels the motion, then reproduces it from memory. This is motor practice, not a quiz.",
-        "It is aligned to Common Core L.K.1.a — printing many upper- and lowercase letters. No timer, no score — just calm, playful practice."
+        "The child writes a letter, and the letter is recorded as it is written. Then it plays back next to Snippy's letter, and the snail on the rail under the two pads is the knob of both replays: drag Snippy back and forth and the two letters un-write and re-write themselves in step.",
+        "The rail fills with one colour band for each stroke, the child's on the top track and Snippy's below. When the letter was made the same way, the two tracks match. A stroke that went the other way carries arrows pointing back, and strokes written in another order show their colours in another order. A wobbly letter with the right start, the right direction and the right order counts as a perfect letter.",
+        "Each letter has three steps: first with numbered dots and arrows on the road, then with the road only, then on your own, with every start dot shown but no road and no numbers. Only the last step is checked. Lowercase and capitals come in eight families, from \"Snippy's letters\" to \"Capitals: the right way round\". Aligned to Common Core L.K.1.a. No timer and no score."
       ],
       "practices": [
-        "Form lowercase letters like c, s, a, d, b, and f with correct stroke order",
-        "Start each letter at the right point and take its strokes in sequence",
-        "Move from a guided trace to forming the letter with the path hidden",
-        "Connect each letter to a word that begins with it, like c for cat"
+        "Starting each letter at the right point",
+        "Moving the right way along every stroke",
+        "Writing the strokes of a letter in the right order",
+        "Writing a letter from memory after tracing it"
       ],
       "howToPlay": [
-        "Start on the dot and trace the letter stroke by stroke while the path is shown.",
-        "Then trace the same letter again with the path hidden, forming it on your own.",
-        "Take your time — there is no timer and no score, just steady practice."
+        "Start at dot 1 and follow the arrows, then follow the road, then write the letter on your own.",
+        "Press \"Check\" and watch your letter play back next to Snippy's. Drag Snippy along the rail to see it again.",
+        "Under \"Letters\" choose a family such as \"Round and down\" or \"Capitals: curves\", and under \"Steps\" choose \"On my own only\". On a tablet or computer, tap a letter in the row at the bottom to watch Snippy write it."
       ],
       "learningGoals": [
-        "Print upper- and lowercase letters with correct formation — the focus of Common Core L.K.1.a.",
-        "Understand that letters are built from strokes taken in a set order.",
-        "Build the fine-motor control and letter memory that handwriting depends on."
+        "The child starts each letter at the correct point",
+        "The child moves in the right direction and writes the strokes in the right order",
+        "The child writes lowercase and capital letters from memory"
       ]
     },
     "sock-and-shadow.puppet-speak.sl-k-6": {

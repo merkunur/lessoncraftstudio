@@ -4349,6 +4349,29 @@
         "Het kind zegt wat er maar in één verhaal gebeurt",
         "Het kind controleert een antwoord aan de plaatjes van het verhaal"
       ]
+    },
+    "snippy.letter-formation.l-k-1-a": {
+      "about": [
+        "Het kind schrijft een letter, en de letter wordt opgenomen terwijl hij geschreven wordt. Daarna wordt hij opnieuw geschreven naast de letter van Snippy. De slak op de rails onder de twee bladen is de knop van allebei de opnames: sleep Snippy heen en weer en de twee letters verdwijnen en verschijnen weer, tegelijk.",
+        "Op de rails komt voor elke haal een kleurband, die van het kind bovenaan en die van Snippy eronder. Is de letter op dezelfde manier geschreven, dan passen de twee banen bij elkaar. Een haal die de andere kant op ging, krijgt pijlen die terugwijzen, en halen in een andere volgorde laten hun kleuren in een andere volgorde zien. Een wiebelige letter met het goede beginpunt, de goede richting en de goede volgorde is hier een perfecte letter.",
+        "Elke letter heeft drie stappen: eerst met genummerde stippen en pijlen op het pad, dan alleen met het pad, dan helemaal zelf, met alle beginstippen te zien maar zonder pad en zonder nummers. Alleen de laatste stap wordt gecontroleerd. Kleine letters en hoofdletters staan in acht families. Passend bij de kerndoelen, zonder tijdsdruk en zonder punten."
+      ],
+      "practices": [
+        "Elke letter op het goede punt beginnen",
+        "Elke haal in de goede richting schrijven",
+        "De halen van een letter in de goede volgorde schrijven",
+        "Een letter uit het hoofd schrijven na het overtrekken"
+      ],
+      "howToPlay": [
+        "Begin bij stip 1 en volg de pijlen, volg dan het pad en schrijf de letter daarna helemaal zelf.",
+        "Druk op ‘Controleren’ en kijk hoe jouw letter naast die van Snippy opnieuw verschijnt. Sleep Snippy over de rails om het nog eens te zien.",
+        "Kies bij ‘Letters’ een familie zoals ‘Rond en omlaag’ of ‘Hoofdletters: bochten’, en bij ‘Stappen’ bijvoorbeeld ‘Alleen zelf’. Op een tablet of computer tik je een letter in de rij onderaan aan om Snippy hem te zien schrijven."
+      ],
+      "learningGoals": [
+        "Het kind begint elke letter op het goede punt",
+        "Het kind schrijft in de goede richting en in de goede volgorde",
+        "Het kind schrijft kleine letters en hoofdletters uit het hoofd"
+      ]
     }
   }
 }

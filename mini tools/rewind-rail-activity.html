@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Snippy's Letter Trace — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- Shell, the 52 glyphs, the live tracer and the carriage's locale letters (all read-only), the library pictures, the rewind model, then this activity.
+       NOTE: bump ?v=N on EVERY change to rewind-rail-activity.js / rewind-rail-core.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  <script src="/mini-tools/alphabet-trace-core.js?v=3"></script>
+  <script src="/mini-tools/stroke-trace-core.js?v=3"></script>
+  <script src="/mini-tools/writing-carriage-core.js?v=1"></script>
+  <script src="/mini-tools/lcs-pictures.js?v=1"></script>
+  <script src="/mini-tools/rewind-rail-core.js?v=1"></script>
+  <script src="/mini-tools/rewind-rail-activity.js?v=1"></script>
+  <script>
+    LCS.mount(RewindRailActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

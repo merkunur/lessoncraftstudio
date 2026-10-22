@@ -2387,6 +2387,29 @@
         "Lapsi tekee jokaisen kirjaimen vedot oikeassa järjestyksessä ja suunnassa",
         "Lapsi kirjoittaa isot ja pienet kirjaimet viivastolle"
       ]
+    },
+    "snippy.letter-formation.l-k-1-a": {
+      "about": [
+        "Lapsi kirjoittaa kirjaimen, ja kirjain tallentuu kirjoittamisen aikana. Sen jälkeen se kirjoittuu uudestaan Snippyn kirjaimen viereen. Kahden paperin alla olevan kiskon etana on molempien toistojen nuppi: kun Snippyä vetää edestakaisin, molemmat kirjaimet pyyhkiytyvät pois ja kirjoittuvat uudestaan samassa tahdissa.",
+        "Kiskolle tulee jokaisesta vedosta väriraita, lapsen raidat ylös ja Snippyn raidat alle. Kun kirjain on kirjoitettu samalla tavalla, raidat sopivat yhteen. Toiseen suuntaan kulkenut veto saa taaksepäin osoittavat nuolet, ja eri järjestyksessä kirjoitetut vedot näyttävät värinsä eri järjestyksessä. Vähän epätasainen kirjain, jossa on oikea alku, oikea suunta ja oikea järjestys, on täällä täydellinen kirjain.",
+        "Jokaisessa kirjaimessa on kolme vaihetta: ensin numeroidut pisteet ja nuolet tiellä, sitten pelkkä tie ja lopuksi kokonaan itse – kaikki aloituspisteet näkyvät, mutta tietä ja numeroita ei ole. Vain viimeinen vaihe tarkistetaan. Pienet ja isot kirjaimet on jaettu kahdeksaan perheeseen, mukana Å, Ä ja Ö. Opetussuunnitelman mukaisesti, ilman ajanottoa ja ilman pisteitä."
+      ],
+      "practices": [
+        "Jokaisen kirjaimen aloittaminen oikeasta kohdasta",
+        "Jokaisen vedon kirjoittaminen oikeaan suuntaan",
+        "Kirjaimen vetojen kirjoittaminen oikeassa järjestyksessä",
+        "Kirjaimen kirjoittaminen ulkomuistista jäljentämisen jälkeen"
+      ],
+      "howToPlay": [
+        "Aloita pisteestä 1 ja seuraa nuolia, seuraa sitten tietä ja kirjoita lopuksi kirjain itse.",
+        "Paina ”Tarkista” ja katso, kun kirjaimesi kirjoittuu uudestaan Snippyn kirjaimen viereen. Vedä Snippyä kiskoa pitkin, niin näet sen uudestaan.",
+        "Kohdasta ”Kirjaimet” valitset perheen, esimerkiksi ”Pyöreät ja alaspäin” tai ”Isot kirjaimet: kaaret”, ja kohdasta ”Vaiheet” esimerkiksi ”Vain itse”. Tabletilla tai tietokoneella voit napauttaa alarivin kirjainta ja katsoa, kun Snippy kirjoittaa sen."
+      ],
+      "learningGoals": [
+        "Lapsi aloittaa jokaisen kirjaimen oikeasta kohdasta",
+        "Lapsi kirjoittaa oikeaan suuntaan ja oikeassa järjestyksessä",
+        "Lapsi kirjoittaa pieniä ja isoja kirjaimia ulkomuistista"
+      ]
     }
   }
 }

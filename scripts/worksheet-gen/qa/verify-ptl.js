@@ -20,6 +20,8 @@
  *      directionMix) — the family gate checks straightness only, and a cake in the slanted column passed it at 17 %
  *   L8 K-426: no two start dots of a page closer than 22 px, no traced stroke under 40 px (dots stacked 0-8 px apart
  *      and arrows beside 15-px strokes passed every other check)
+ *   L9 K-431: each long line of the sea (horizon, waves, beach line) is interrupted by at most ONE picture — two
+ *      creatures on one wave cut the line the instruction asks for into pieces
  *   node qa/verify-ptl.js [--face=K-418] [--no-poison]
  */
 'use strict';
@@ -31,6 +33,7 @@ const { faceChecks } = require('./verify-b9-picture-tracing.js');
 const { tracerLaws } = require('../lib/pt-verify.js');
 const { directionMix } = require('../tools/pt-straight.js');
 const { traceOf: traceKey } = require('../lib/pt-scene.js');
+const { wOf } = require('../data/ptx/lay.js');
 const NARROW = new Set(['K-419', 'K-421', 'K-426', 'K-427', 'K-428', 'G1-430', 'G1-433']);
 const arg = (k) => (process.argv.find((a) => a.startsWith('--' + k + '=')) || '').slice(k.length + 3);
 const onlyFace = arg('face');
@@ -56,6 +59,10 @@ async function copyChecks(e, sc, pubLen) {
   if (e.face === 'K-422') for (const it of sc.items || []) {
     const c = it.x < 229 ? 0 : it.x < 447 ? 1 : 2, m = directionMix(await traceKey(it.src)), sh = [m.v, m.h, m.s][c];
     if (sh < 0.5) f.push(`L7 ${it.src} is ${Math.round(100 * sh)} % ${['down', 'across', 'slanted'][c]} in the ${['down', 'across', 'slanted'][c]} column`);
+  }
+  if (e.face === 'K-431') {
+    const lines = []; for (const m of sc.motifs || []) { if (m.m === 'line' && m.a[0].length === 2 && m.a[0][0][1] === m.a[0][1][1]) lines.push([m.a[0][0][1], 0]); if (m.m === 'waves') lines.push([m.a[2], m.a[4]]); if (m.m === 'ground') lines.push([m.a[2], m.a[4] || 4]); }
+    for (const [y, a] of lines) { const by = (sc.items || []).filter((it) => it.render !== 'model').filter((it) => { const h = it.h != null ? it.h : it.w / (wOf(it.src, 1) || 1), halo = it.halo != null ? it.halo : 0; return it.y + halo > y - a && it.y - h - halo < y + a; }); if (by.length > 1) f.push(`L9 the line at y ${y} is cut by ${by.length} pictures (${by.map((i) => i.src.split('/')[1]).join(', ')})`); }
   }
   if (e.face === 'K-426') {
     const plen = (q) => { let L = 0; for (let i = 1; i < q.length; i++) L += Math.hypot(q[i][0] - q[i - 1][0], q[i][1] - q[i - 1][1]); return L; };
@@ -124,6 +131,8 @@ async function copyChecks(e, sc, pubLen) {
     const sc6 = [...catalog().values()].find((x) => x.face === 'K-426' && x.level === 2), s6 = sceneOf(sc6), first = s6.motifs.find((m) => m.m === 'lineFixed');
     s6.motifs = [...s6.motifs, { ...first, a: [first.a[0].map(([x, y]) => [x + 5, y + 3]), first.a[1]] }];
     r = await copyChecks(sc6, s6, pub['K-426'] || 3000); say(r.f.some((x) => /^L8/.test(x)), 'P6 a second stroke starting 6 px from another must fail: ' + (r.f.find((x) => /^L8/.test(x)) || 'PASSED (gate blind)'));
+    const sc9 = [...catalog().values()].find((x) => x.face === 'K-431' && x.id.endsWith('snorkel')), s9 = sceneOf(sc9); s9.items = [...s9.items, { src: 'sea life bw/fish', x: 330, y: 350, w: 130, halo: 8 }];
+    r = await copyChecks(sc9, s9, pub['K-431'] || 8512); say(r.f.some((x) => /^L9/.test(x)), 'P7 a second fish on the snorkel wave must fail: ' + (r.f.find((x) => /^L9/.test(x)) || 'PASSED (gate blind)'));
     r = await copyChecks(cnt, cs, pub['K-427'] || 4000); say(r.f.some((x) => /F10/.test(x)), 'P4 one counted animal removed (N ≠ the box) must fail: ' + (r.f[0] || 'PASSED (gate blind)'));
   }
   console.log(fails ? `FAIL ${fails}/${n}` : `PASS ${n}/${n}`);

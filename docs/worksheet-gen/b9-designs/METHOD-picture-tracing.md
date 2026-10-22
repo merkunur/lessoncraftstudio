@@ -339,3 +339,16 @@ read on contact sheets (20 EN faces + de fr sv fi samples). Teacher sheets: `exp
 (served at `/<loc>/level-sets/<code>-teacher-sheet.pdf`). Staging + `.preband-backup` + dry-run batch removed (3.6 GB).
 **Expand again** by adding copies to `data/ptx/scenes-<face>.js` (numbered after the last), then the same chain: verify-ptl →
 render + read → names ×11 (native panel, EN audited first) → text dump → ptl-waves → generate → check-zips-ptl → publish.
+
+**Second pass (2026-10-22, as run).** After the first publish, all 20 EN face sheets were re-read in full and every changed
+string (257) went to one native re-reviewer; the fixes were made at the source (scene picks that read as something else, small
+filled blobs dropped with the opt-in `blobMin` in `lib/pt-scene.js`, the wall-clock hands drawn as open strokes, phrase fixes
+in de fr es). ⚠ `text.js afterColon` had shipped as `/:s*{NAME}/` (the shell had eaten the backslashes), so in 9 locales the
+name after a colon kept its capital; `ptl-text-dump.js` now asserts the letter case after ":" and "?" (poison-tested,
+108 failures with the old regex). Republished IN PLACE: on Hetzner `/root/ptl-updates.json` maps each ZIP name to its live
+slug (read from each live deck's `manifest.json deck_id`; 3300 mapped, 0 missing) → `publish-wave.js … --noindex
+--updates-manifest=/root/ptl-updates.json` dry run (3300 routed=UPDATE, 0 INSERT) → `--confirm`: 3300 succeeded / 0 failed,
+audit 300/300 clean ×11; `audit-update-injections.js` lostTB 0 / lostMeter 0 (nothing to restore); DB 3300 rows updated,
+`indexable` false; sitemaps 4941 / 4876 / 952 / 4806 unchanged; 20 live EN decks 200 + noindex header + meta, their edge
+PDFs = origin v2 (≠ v1) and read on a contact sheet. ⚠ publish rewrites the PDF, so a staged ZIP's PDF never matches the
+live file byte for byte; compare edge to origin v2 vs v1 instead. The teacher sheets carry no page images and were left as they are.

@@ -32,7 +32,7 @@ const copy = (id, level, name, srcs, scale) => ({ id: 'ptx-K-420-' + id, face: '
 const SCENES = [
   copy('garden-pond', 1, 'Duck and Butterfly', ['birds bw 2/duck', 'Easter bw/butterfly']),   // ladybug + butterfly measured 3,018 px (L1 ≤ 2,792)
   copy('tea-party', 1, 'Teapot and Cup', ['kitchen bw/teapot', 'home and nature bw/teacup']),
-  copy('sky-flyers', 1, 'Plane and Helicopter', ['vehicles bw 2/airplane_2', 'vehicles bw 2/helicopter_2']),
+  copy('sky-flyers', 1, 'Balloon and Helicopter', ['vehicles bw 2/hot_air_balloon', 'vehicles bw 2/helicopter_2']),   // the plane's row of round windows read as "ooo"
   copy('pond-pals', 1, 'Fish and Swan', ['nature bw/fish', 'animals bw/swan']),   // the frog is a busy outline (2,980 px with the swan)
   copy('fruit-bowl', 1, 'Banana and Cherries', ['fruits bw/banana', 'fruits bw/cherry']),
   copy('farm-babies', 2, 'Chick and Kitten', ['animals bw 4/chick', 'animals bw 4/cat']),

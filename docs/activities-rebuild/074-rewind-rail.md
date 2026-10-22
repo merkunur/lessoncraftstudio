@@ -80,6 +80,7 @@ ORDER row 74 · id `snippy.letter-formation.l-k-1-a` (kept). Design: `designs/07
 ## Gates (local)
 - verify-rewind-rail-core 10651/0 · mutate-rewind-rail 22/22.
 - local-test-rewind-rail: every letter of every set × 11 locales through all three steps, every miss path, rail drag/tap/keys, tiles, settings, the width sweep.
+- live-verify-rewind-rail 67/0 on production (en/de/sv/fi × 1366/390, real pointer: empty Check, the order slip with the flag, the win; every locale 200) · live variety ≥ 7 + reshuffle.
 - visual-qa all 11 locales · hierarchy 419/0 · settings-efficacy 2 live · preflight routes · prose claims · serp copy · content ×11 · answer-rank.
 
 ## Traps paid for

@@ -219,6 +219,10 @@ async function composeScene(scene, opts = {}) {
   for (const d of (scene.decor || []).filter((x) => x.front)) parts.push(decorSvg(d));
   // 4 the page measurements the family gate asserts against the pedagogy contract §1 (band table)
   const metrics = measure(els, scene, W, H);
+  // a Level Set scene may carry its FACE's own floor / budget for its level (ptl-levels.md: e.g. K-420 L1 twins 300-320 px,
+  // under the generic PreK-1 floor) — stamped so verify() checks the page against the face's table, not the generic band
+  if (scene.minPicFloor) metrics.floor = scene.minPicFloor;
+  if (scene.budget) metrics.budget = scene.budget;
   if (decorBoxes.length) {                                   // the page's fill includes its structure (porthole, shelves)
     const E = metrics.extent;
     for (const [x, y] of decorBoxes) { if (y < E.y0) E.y0 = Math.round(y); if (y > E.y1) E.y1 = Math.round(y); if (x < E.x0) E.x0 = Math.round(x); if (x > E.x1) E.x1 = Math.round(x); }

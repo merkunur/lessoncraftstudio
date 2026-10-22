@@ -144,7 +144,7 @@ const SCENES = {
     ],
     decor: [grassSolid(60, 704, 24), grassSolid(250, 706, 22), grassSolid(440, 704, 24), grassSolid(620, 706, 22)],
     items: [
-      { src: 'travel and holiday bw/lightning', x: 337, y: 285, h: 225 },
+      { src: 'travel and holiday bw/lightning', x: 337, y: 285, h: 225, dropTiny: 40 },   // two tiny solid rain rings read as 0 (da panel)
       { src: 'travel and holiday bw/tent', x: 445, y: 636, h: 140, z: 13 },
     ],
   },

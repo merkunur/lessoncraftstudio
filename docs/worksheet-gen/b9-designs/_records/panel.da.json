@@ -1,0 +1,132 @@
+{
+  "locale": "da",
+  "strings": {
+    "base": {
+      "title": "Tegn efter stregerne: haven og stien op til døren",
+      "printTitle": "Stien op til døren",
+      "instruction": "Tegn efter de stiplede streger, så haven bliver færdig: huset, træet, sommerfuglen, tulipanerne og kaninen."
+    },
+    "first-tracing": {
+      "title": "Finmotorik i børnehaven: min første store hval",
+      "printTitle": "Min første hval",
+      "instruction": "Start ved prikken. Tegn langsomt efter den store hval, hele vejen rundt."
+    },
+    "look-then-trace": {
+      "title": "Tegn efter dyr: se først på billedet, og tegn så efter",
+      "printTitle": "Se først, tegn så",
+      "instruction": "Se på billedet i rammen. Tegn så efter stregerne på det samme dyr ved siden af."
+    },
+    "round-and-round": {
+      "title": "Runde billeder i børnehaven: tegn rundt og rundt som et o",
+      "printTitle": "Rundt og rundt",
+      "instruction": "Start ved hver prik, og tegn rundt og rundt ligesom bogstavet o."
+    },
+    "straight-lines": {
+      "title": "Lige streger at tegne efter: ned, hen og på skrå",
+      "printTitle": "Ned, hen og på skrå",
+      "instruction": "Se på pilen over hver kolonne. Tegn efter billederne: først ned, så hen og til sidst på skrå."
+    },
+    "zigzags": {
+      "title": "Zigzagstreger: tegn efter bjergene og uvejret over lejren",
+      "printTitle": "Uvejr over lejren",
+      "instruction": "Tegn efter zigzagstregerne på bjergene, træerne, teltet og lynene. Stop ved hver spids."
+    },
+    "curls": {
+      "title": "Spiraler og løkker: tegn efter sneglen, slikkepinden og kringlen",
+      "printTitle": "Spiralgalleriet",
+      "instruction": "Tegn efter spiralerne og løkkerne: sneglen, slikkepinden, sløjfen, kringlen og vindmøllen."
+    },
+    "trace-and-color": {
+      "title": "Tegn og farvelæg: picnic under det store træ",
+      "printTitle": "Picnic",
+      "instruction": "Tegn efter hele picnicbilledet. Farvelæg det bagefter med de farver, du har lyst til."
+    },
+    "where-to-start": {
+      "title": "Førskoleopgaver: hvor starter jeg? Billeder på en trappe",
+      "printTitle": "Hvor starter jeg?",
+      "instruction": "Start ved hver prik, og følg pilen. Gå ned ad trappen, ét billede ad gangen."
+    },
+    "trace-and-count": {
+      "title": "Tegn og tæl: hvor mange ænder svømmer i dammen?",
+      "printTitle": "Ænder i dammen",
+      "instruction": "Tegn efter ænderne. Tæl dem. Skriv i boksen, hvor mange der er."
+    },
+    "finish-the-picture": {
+      "title": "Gør billedet færdigt: tegn efter det, der mangler på hylden",
+      "printTitle": "Hvad mangler der?",
+      "instruction": "Tegn efter de stiplede dele, så billederne bliver hele: hjulene, en tud, to håndtag, en spids og ørerne."
+    },
+    "christmas": {
+      "title": "Juleopgaver: tegn rundt om hver julekugle og stjerne",
+      "printTitle": "Juleaften",
+      "instruction": "Tegn efter juletræet, gaverne, lænestolen, vinduet og tæppet. Tegn så rundt om hver julekugle og stjerne."
+    },
+    "shape-picture": {
+      "title": "Tegn efter figurer: en raket af cirkler, kvadrater og trekanter",
+      "printTitle": "Figurraketten",
+      "instruction": "Tegn efter alle figurerne i raketten og på himlen. Farvelæg så alle cirklerne."
+    },
+    "summer-sea": {
+      "title": "Sommeropgaver: tegn efter bølgerne hen over havet",
+      "printTitle": "Et postkort fra stranden",
+      "instruction": "Tegn efter bølgerne fra venstre mod højre. Tegn så efter båden og stranden."
+    },
+    "big-middle-small": {
+      "title": "Stor, mellemstor og lille: tegn efter fly, biler og skibe",
+      "printTitle": "Stor, mellemstor, lille",
+      "instruction": "Tegn i hver række først den store, så den mellemstore og til sidst den lille."
+    },
+    "dotted-street": {
+      "title": "Tegn efter de prikkede streger i 1. klasse: en morgen i byen",
+      "printTitle": "En morgen i byen",
+      "instruction": "Tegn forsigtigt efter de prikkede streger, også de små detaljer."
+    },
+    "picture-and-word": {
+      "title": "Tegn efter billedet, sig ordet højt, og skriv ordet efter",
+      "printTitle": "Billedord",
+      "instruction": "Tegn efter billedet. Sig, hvad det hedder. Skriv så efter ordet nedenunder."
+    },
+    "trace-and-draw": {
+      "title": "Tegn efter billeder, og tegn selv: hvad skal der i vognen?",
+      "printTitle": "Hvad skal der i vognen?",
+      "instruction": "Tegn efter hele billedet: traktoren, vognen og dyrene. Tegn så selv noget i den tomme vogn."
+    },
+    "other-half": {
+      "title": "Spejling i 1. klasse: tegn efter den anden halvdel",
+      "printTitle": "Den anden halvdel",
+      "instruction": "Tegn efter den stiplede halvdel, så begge sider af hvert billede bliver ens."
+    },
+    "hidden-animals": {
+      "title": "Efterårsopgaver: find de 5 gemte dyr i skoven, og tegn efter",
+      "printTitle": "Hvem gemmer sig i skoven?",
+      "instruction": "Find de 5 gemte dyr i skoven. Tegn efter dem."
+    }
+  },
+  "words": [
+    "sol",
+    "fisk",
+    "kat",
+    "æble"
+  ],
+  "family": {
+    "slug": "tegn-efter-stregerne",
+    "name": "Tegn efter stregerne"
+  },
+  "skill": {
+    "full": "At tegne efter stregerne på hele billeder træner finmotorikken, en rolig blyantføring og samarbejdet mellem øje og hånd, før barnet skal skrive.",
+    "short": "Finmotorik og blyantføring med hele billeder"
+  },
+  "topicMeta": "Tegn efter stregerne: hele billeder at tegne efter for børnehave, 0. klasse og 1. klasse. Træner finmotorik og blyantføring. Gratis PDF til print.",
+  "enAudit": [
+    "K-421 RENDER: the beach ball outline is solid from about 9 to 11 o'clock (that arc coincides with a stripe), so the circle the child traces round and round is not closed; dash that arc too. EN landing p1 \"only its round outline is dashed\" claims a closed dashed outline.",
+    "K-418 EN landing: the four-pane window panes, the sun rays and the grass are SOLID, so p1 \"Every line is dashed\" and p2 \"close ... the window panes\" are false; \"flat green ground\" names a colour on a black-and-white page. Fix: say the panes, rays and grass are already drawn; drop \"green\".",
+    "K-426 EN landing: p1 \"each picture is made of only two or three lines\" is false for the heart (one stroke); p2 \"every line starts at its top or left end\" is false for the stocking cuff and the bell loop (they start at their right end). Fix: \"only a few lines; the heart is one\" and \"straight lines mostly start at the top\".",
+    "K-429 EN landing p2 \"about a dozen\" closed shapes: the page has 4 baubles and 5 stars (1 top, 2 on the tree, 2 in the window) = nine; say nine. p1 \"every line ... is dashed\" ignores the solid rug fringe and armchair flowers (minor).",
+    "K-430 EN landing p3 \"The rocket contains thirteen shapes\": the rocket with its pad has 9, the sky 4; thirteen is the whole page.",
+    "G1-431 EN instruction \"Then draw what is in the empty trailer\" contradicts itself (the trailer is empty, nothing is in it). Fix: \"Then draw what the tractor carries in the empty trailer.\" (da: \"Tegn så selv noget i den tomme vogn.\")",
+    "K-425 EN landing p1 \"a cup of tea\" (the cup is empty) and \"Everything on the page is drawn in dashed lines\" (the sun rays and grass tufts are solid). Minor.",
+    "G1-432 EN meta/p1 call the three arches \"mirrors\": nothing on the page shows them as mirrors (no glass, no reflection); \"three arched frames\" is true. Minor.",
+    "K-424 EN p1 \"every picture is made of spirals or loops\" and the instruction listing the pinwheel under spirals and loops: the pinwheel has curved blades, not loops. Minor.",
+    "K-423 RENDER: two small SOLID ovals under the storm cloud read as the digit 0 on a page with no numbers; draw them as dashed raindrops like the other two, or remove them."
+  ]
+}

@@ -80,7 +80,11 @@ function polyMask(pts, W, H, occ) {
 function clipByMask(lines, occ, W, H) {
   const hidden = (p) => { const x = Math.round(p[0]), y = Math.round(p[1]); return x >= 0 && y >= 0 && x < W && y < H && occ[y * W + x] === 1; };
   const out = [];
-  for (const ln of lines) {
+  // ⚠ test the line, not its vertices: a straight motif line is TWO points, so a horizon behind a sail was never cut
+  // (sv + it panels, 2026-10-22) — resample every segment to ≤ 2 px before testing
+  const dense = (pts) => { const o = [pts[0]]; for (let i = 1; i < pts.length; i++) { const a = pts[i - 1], b = pts[i]; const n = Math.ceil(Math.hypot(b[0] - a[0], b[1] - a[1]) / 2); for (let k = 1; k <= n; k++) o.push([a[0] + (b[0] - a[0]) * k / n, a[1] + (b[1] - a[1]) * k / n]); } return o; };
+  for (const ln0 of lines) {
+    const ln = { pts: ln0.pts.length > 1 ? dense(ln0.pts) : ln0.pts, closed: ln0.closed };
     let cur = [], any = false;
     for (const p of ln.pts) { if (hidden(p)) { any = true; if (cur.length > 1) out.push({ pts: cur, closed: false }); cur = []; } else cur.push(p); }
     if (cur.length > 1) out.push({ pts: cur, closed: ln.closed && !any });

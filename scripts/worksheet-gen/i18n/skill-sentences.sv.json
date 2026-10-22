@@ -453,5 +453,9 @@
     "full": "Att rita en linje genom en bildlabyrint och vid varje vägskäl välja nästa bokstav, tal eller uppgift tränar planering och pennfattning; med facit.",
     "short": "Tränar planering och pennfattning i en bildlabyrint.",
     "levelSetShort": "Tränar planering."
+  },
+  "picture-tracing": {
+    "full": "Att spåra hela bilder tränar en lugn pennföring, långa linjer i ett svep och att titta noga: en stabil grund inför skrivandet.",
+    "short": "Finmotorik och pennföring med hela bilder"
   }
 }

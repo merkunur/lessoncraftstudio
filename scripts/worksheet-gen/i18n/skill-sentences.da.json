@@ -454,5 +454,9 @@
     "full": "At tegne en streg gennem en billedlabyrint og ved hver vejgaffel vælge det næste bogstav, tal eller regnestykke træner planlægning og blyantsgreb; med facit.",
     "short": "Træner planlægning og blyantsgreb i en billedlabyrint.",
     "levelSetShort": "Træner planlægning."
+  },
+  "picture-tracing": {
+    "full": "At tegne efter stregerne på hele billeder træner finmotorikken, en rolig blyantføring og samarbejdet mellem øje og hånd, før barnet skal skrive.",
+    "short": "Finmotorik og blyantføring med hele billeder"
   }
 }

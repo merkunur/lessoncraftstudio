@@ -30,7 +30,9 @@ const SAMPLE = ['animals bw/giraffe', 'sea life bw/clown_fish', 'farm animals bw
   const byLen = tr.paths.slice().sort((a, b) => b.len - a.len);
   // the short stroke farthest from every other stroke (an isolated mark like a smile: no neighbour can cover for it)
   const iso = (p) => { const m = p.pts[(p.pts.length / 2) | 0]; let d = 1e9; for (const q of tr.paths) if (q !== p) for (const r of q.pts) d = Math.min(d, Math.hypot(r[0] - m[0], r[1] - m[1])); return d; };
-  const smile = tr.paths.filter((p) => p.len > 3 * tr.sw && p.len < 120).sort((a, b) => iso(b) - iso(a))[0];
+  // (never a piece the outer/inner split cut off a longer line: dropping part of a long outline is ≤ 15 % of ITS stroke and
+  // correctly passes law b — the poison must drop a whole isolated stroke)
+  const smile = tr.paths.filter((p) => !p.split && p.len > 3 * tr.sw && p.len < 120).sort((a, b) => iso(b) - iso(a))[0];
   const poisons = [
     ['P0 control', g(tr.paths), false],
     ['P1 drop the longest stroke', g(tr.paths.filter((p) => p !== byLen[0])), true],

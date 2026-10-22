@@ -3217,5 +3217,105 @@
   "K-417": {
     "title": "Talkamrater till 9",
     "instruction": "Dela upp talet i två delar. Skriv talet som fattas i den streckade cirkeln."
+  },
+  "K-418": {
+    "title": "Spåra bilder i förskoleklass: trädgårdsgången fram till dörren",
+    "instruction": "Spåra alla streckade linjer: huset, gången, trädet, fjärilen, tulpanerna och kaninen.",
+    "printTitle": "Gången fram till dörren"
+  },
+  "K-419": {
+    "title": "Första bilden att spåra i förskolan: en stor val",
+    "instruction": "Börja vid pricken. Spåra den stora valen långsamt, hela vägen runt.",
+    "printTitle": "Min första bild att spåra"
+  },
+  "K-420": {
+    "title": "Rita av djur: titta på bilden och spåra pingvinen och kängurun",
+    "instruction": "Titta på bilden i ramen. Spåra sedan samma djur bredvid.",
+    "printTitle": "Titta och spåra"
+  },
+  "K-421": {
+    "title": "Runt, runt som ett o: spåra runda bilder i förskolan",
+    "instruction": "Börja vid varje prick och spåra runt, runt, som när du skriver bokstaven o.",
+    "printTitle": "Runt, runt"
+  },
+  "K-422": {
+    "title": "Spåra raka linjer i bilder: ner, åt sidan och snett",
+    "instruction": "Titta på pilen överst i varje kolumn. Spåra en kolumn i taget: ner, åt sidan och snett.",
+    "printTitle": "Ner, åt sidan, snett"
+  },
+  "K-423": {
+    "title": "Följa linjer i sicksack: åska över tältet i bergen",
+    "instruction": "Spåra sicksacklinjerna i bergen, granarna, tältet och blixtarna. Stanna vid varje spets.",
+    "printTitle": "Åska över tältet"
+  },
+  "K-424": {
+    "title": "Spåra bilder med spiraler och öglor: spiralgalleriet",
+    "instruction": "Spåra spiralerna och öglorna: snigeln, godisklubban, rosetten, kringlan och vindsnurran.",
+    "printTitle": "Spiralgalleriet"
+  },
+  "K-425": {
+    "title": "Rita och färglägg: spåra picknicken under trädet",
+    "instruction": "Spåra hela picknickbilden. Färglägg den sedan med vilka färger du vill.",
+    "printTitle": "Picknicken"
+  },
+  "K-426": {
+    "title": "Finmotorik förskola: var börjar jag? Spåra bilderna på trappan",
+    "instruction": "Börja vid varje prick och följ pilen. Gå nerför trappan, en bild i taget.",
+    "printTitle": "Var börjar jag?"
+  },
+  "K-427": {
+    "title": "Spåra och räkna: hur många ankor simmar i dammen?",
+    "instruction": "Spåra ankorna. Räkna dem. Skriv i rutan hur många det är.",
+    "printTitle": "Ankor i dammen"
+  },
+  "K-428": {
+    "title": "Spåra bilder och gör dem hela: sex saker på hyllan",
+    "instruction": "Spåra de streckade delarna så blir bilderna hela: hjulen, pipen, två handtag, en spets och öronen.",
+    "printTitle": "Gör bilderna hela"
+  },
+  "K-429": {
+    "title": "Julpyssel att spåra: julafton med kulor och stjärnor i granen",
+    "instruction": "Spåra granen, julklapparna, fåtöljen, fönstret och mattan. Spåra sedan runt varje kula och stjärna.",
+    "printTitle": "Julafton"
+  },
+  "K-430": {
+    "title": "Spåra former: en raket av cirklar, kvadrater och trianglar",
+    "instruction": "Spåra alla former i raketen och på himlen. Färglägg sedan alla cirklar.",
+    "printTitle": "Formraketen"
+  },
+  "K-431": {
+    "title": "Sommarpyssel: spåra vågorna över havet på vykortet",
+    "instruction": "Spåra vågorna från vänster till höger. Spåra sedan båten och stranden.",
+    "printTitle": "Ett vykort från havet"
+  },
+  "K-432": {
+    "title": "Stor, mellanstor och liten: spåra flygplan, bilar och båtar",
+    "instruction": "Spåra först den stora, sedan den mellanstora och sist den lilla i varje rad.",
+    "printTitle": "Stor, mellanstor, liten"
+  },
+  "G1-429": {
+    "title": "Rita efter prickar i åk 1: en morgon i stan",
+    "instruction": "Spåra de prickade linjerna noga, även de små detaljerna.",
+    "printTitle": "En morgon i stan"
+  },
+  "G1-430": {
+    "title": "Spåra bilden, säg ordet och spåra ordet: sol, fisk, katt, äpple",
+    "instruction": "Spåra bilden. Säg vad den heter. Spåra ordet under bilden.",
+    "printTitle": "Bilder och ord"
+  },
+  "G1-431": {
+    "title": "Spåra bilden och rita sedan: vad har traktorn i släpet?",
+    "instruction": "Spåra traktorn, släpet och djuren. Rita sedan vad traktorn har med sig i det tomma släpet.",
+    "printTitle": "Vad har traktorn i släpet?"
+  },
+  "G1-432": {
+    "title": "Spåra den andra halvan: symmetri med fjäril, uggla och nalle",
+    "instruction": "Spåra den streckade halvan så att båda sidorna av varje bild blir likadana.",
+    "printTitle": "Den andra halvan"
+  },
+  "G1-433": {
+    "title": "Spåra djurbilder: hitta de 5 gömda djuren i höstskogen",
+    "instruction": "Hitta de 5 gömda djuren i skogen. Spåra dem.",
+    "printTitle": "Vem gömmer sig i skogen?"
   }
 }

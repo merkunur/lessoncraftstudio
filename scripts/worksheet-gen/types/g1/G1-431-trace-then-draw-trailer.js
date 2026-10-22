@@ -10,6 +10,6 @@ module.exports = {
   id: 'G1-431',
   slug: 'trace-then-draw-trailer',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Trace the Picture, Then Draw: What Is in the Trailer?", instruction: "Trace the whole picture: the tractor, the trailer and the animals. Then draw what is in the empty trailer.", printTitle: "What Is in the Trailer?" } },
+  i18n: { en: { title: "Trace the Picture, Then Draw: What Is in the Trailer?", instruction: "Trace the whole picture: the tractor, the trailer and the animals. Then draw what the tractor is carrying.", printTitle: "What Is in the Trailer?" } },
   gradeBand: "G1",
 };

@@ -43,24 +43,24 @@ const FACES = {
 const MODES = Object.keys(FACES);
 
 const EN_STRINGS = {
-  base: { title: 'Picture Tracing Worksheets: Trace the Garden Path to the Door', printTitle: 'The Path to the Door', instruction: 'Trace the dashed lines to finish the garden: the path, the house, the tree, the butterfly, the tulips and the rabbit.' },
+  base: { title: 'Picture Tracing Worksheets: Trace the Garden Path to the Door', printTitle: 'The Path to the Door', instruction: 'Trace every dashed line to finish the garden, from the sun and the cloud down to the path and the rabbit.' },
   'first-tracing': { title: 'Tracing Worksheets for Preschool: My First Big Whale', printTitle: 'My First Tracing', instruction: 'Start at the dot. Trace the big whale slowly, all the way round.' },
   'look-then-trace': { title: 'Trace the Picture: Look at the Animal, Then Trace It', printTitle: 'Look, Then Trace', instruction: 'Look at the picture in the frame. Then trace the same animal next to it.' },
   'round-and-round': { title: 'Tracing Worksheets for Toddlers and Preschoolers: Round Pictures', printTitle: 'Round and Round', instruction: 'Start at each dot and trace round and round, like the letter o.' },
   'straight-lines': { title: 'Straight-Line Picture Tracing: Down, Across and Slanted', printTitle: 'Down, Across, Slanted', instruction: 'Look at the arrow above each column. Trace one column at a time: down, then across, then slanted.' },
-  zigzags: { title: 'Trace the Picture: Zigzag Mountains and a Stormy Camp', printTitle: 'Storm over the Camp', instruction: 'Trace the zigzags of the mountains, the trees, the tent and the lightning. Stop at every tip.' },
+  zigzags: { title: 'Trace the Picture: Zigzag Mountains and a Stormy Camp', printTitle: 'Storm over the Camp', instruction: 'Trace the whole picture. Stop at every tip of the zigzags: the mountains, the trees, the tent and the lightning.' },
   curls: { title: 'Tracing Pictures for Kids: Spirals and Loops', printTitle: 'The Spiral Gallery', instruction: 'Trace the spirals and loops: the snail, the lollipop, the bow, the pretzel and the pinwheel.' },
   'trace-and-color': { title: 'Trace and Color the Picture: A Picnic Under the Tree', printTitle: 'The Picnic', instruction: 'Trace the whole picnic picture. Then color it in any colors you like.' },
   'where-to-start': { title: 'Picture Tracing for Kindergarten: Where Do I Start?', printTitle: 'Where Do I Start?', instruction: 'Start at each dot and follow the arrow. Go down the stairs, one picture at a time.' },
   'trace-and-count': { title: 'Trace and Count: How Many Ducks Are on the Pond?', printTitle: 'Ducks on the Pond', instruction: 'Trace the ducks. Count them. Write how many in the box.' },
-  'finish-the-picture': { title: 'Picture Tracing Sheets: Finish the Picture', printTitle: 'The Mending Shelf', instruction: 'Trace the dashed parts to finish each picture: wheels, a spout, two handles, a point and ears.' },
+  'finish-the-picture': { title: 'Picture Tracing Sheets: Finish the Picture', printTitle: 'The Mending Shelf', instruction: 'Trace the dashed parts to finish each picture: wheels, a spout, a stick, a handle, a point and ears.' },
   christmas: { title: 'Christmas Picture Tracing: Trace Round Every Bauble and Star', printTitle: 'Christmas Eve', instruction: 'Trace the tree, the gifts, the armchair, the window and the rug. Then trace round every bauble and star.' },
   'shape-picture': { title: 'Shape Picture Tracing: A Rocket of Circles, Squares and Triangles', printTitle: 'The Shape Rocket', instruction: 'Trace every shape of the rocket and the sky. Then color every circle.' },
   'summer-sea': { title: 'Summer Picture Tracing: Trace the Waves Across the Sea', printTitle: 'A Postcard from the Sea', instruction: 'Trace the waves from left to right. Then trace the boat and the beach.' },
   'big-middle-small': { title: 'Tracing Pictures for Kids: Big, Middle and Small', printTitle: 'Big, Middle, Small', instruction: 'In every row, trace the big one, then the middle one, then the small one.' },
   'dotted-street': { title: 'Dotted Picture Tracing for 1st Grade: A Morning in Town', printTitle: 'A Morning in Town', instruction: 'Trace the dotted lines carefully, the small details too.' },
   'picture-and-word': { title: 'Trace the Picture, Say Its Name and Trace the Word', printTitle: 'Picture Words', instruction: 'Trace the picture. Say its name. Trace the word under it.' },
-  'trace-and-draw': { title: 'Trace the Picture, Then Draw: What Is in the Trailer?', printTitle: 'What Is in the Trailer?', instruction: 'Trace the whole picture: the tractor, the trailer and the animals. Then draw what the tractor is carrying.' },
+  'trace-and-draw': { title: 'Trace the Picture, Then Draw: What Is the Tractor Carrying?', printTitle: 'What Is the Tractor Carrying?', instruction: 'Trace the whole picture: the tractor, the trailer and the animals. Then draw what the tractor is carrying.' },
   'other-half': { title: 'Symmetry Picture Tracing: Trace the Other Half', printTitle: 'The Other Half', instruction: 'Trace the dashed half so both sides of each picture look the same.' },
   'hidden-animals': { title: 'Animal Tracing Pictures: Find the 5 Hidden Animals', printTitle: 'Who Hides in the Forest?', instruction: 'Find the 5 hidden animals in the forest. Trace them.' },
 };

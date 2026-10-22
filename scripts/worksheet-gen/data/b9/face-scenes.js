@@ -348,7 +348,7 @@ const SCENES = {
       // measured 20,659 px > the G1 budget 15,000: the contract's drop order (pigeon, then bicycle — its spokes crowd the
       // dots) + the buildings 8 % smaller; the bus moves clear of the kerb line (its roof sat 8 px under it)
       { src: 'travel and holiday bw/museum', x: 150, y: 420, h: 218 },
-      { src: 'travel and holiday bw/hotel', x: 515, y: 420, h: 226 },
+      { src: 'travel and holiday bw/hotel', x: 515, y: 420, h: 226, dropTiny: 24, dropTinyOpen: true },   // a short solid roof mark read as the letter L (no panel)
       { src: 'travel and holiday bw/signpost', x: 190, y: 562, h: 125 },
       // es + pt panels: at dot spacing the bus's double wheel rings, its roof rack and the dog's legs fused into clouds of
       // dots → the simplest bus (17 lines, not 41) and the least dense dog (index density 5.7)

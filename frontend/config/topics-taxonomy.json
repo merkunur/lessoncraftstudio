@@ -4860,7 +4860,9 @@
           "it": "disegni-tratteggiati",
           "nl": "tekeningen-overtrekken",
           "da": "tegn-efter-stregerne",
-          "sv": "spara-bilder"
+          "sv": "spara-bilder",
+          "no": "tegn-etter-linjene",
+          "fi": "jaljenna-kuvat"
         },
         "name": {
           "en": "Picture Tracing",
@@ -4871,7 +4873,9 @@
           "it": "Disegni tratteggiati",
           "nl": "Tekeningen overtrekken",
           "da": "Tegn efter stregerne",
-          "sv": "Spåra bilder"
+          "sv": "Spåra bilder",
+          "no": "Tegn etter linjene",
+          "fi": "Jäljennä kuvat"
         }
       }
     },

@@ -1094,7 +1094,7 @@
   },
   "K-418": {
     "title": "Picture Tracing Worksheets: Trace the Garden Path to the Door",
-    "instruction": "Trace the dashed lines to finish the garden: the path, the house, the tree, the butterfly, the tulips and the rabbit.",
+    "instruction": "Trace every dashed line to finish the garden, from the sun and the cloud down to the path and the rabbit.",
     "printTitle": "The Path to the Door"
   },
   "K-419": {
@@ -1119,7 +1119,7 @@
   },
   "K-423": {
     "title": "Trace the Picture: Zigzag Mountains and a Stormy Camp",
-    "instruction": "Trace the zigzags of the mountains, the trees, the tent and the lightning. Stop at every tip.",
+    "instruction": "Trace the whole picture. Stop at every tip of the zigzags: the mountains, the trees, the tent and the lightning.",
     "printTitle": "Storm over the Camp"
   },
   "K-424": {
@@ -1144,7 +1144,7 @@
   },
   "K-428": {
     "title": "Picture Tracing Sheets: Finish the Picture",
-    "instruction": "Trace the dashed parts to finish each picture: wheels, a spout, two handles, a point and ears.",
+    "instruction": "Trace the dashed parts to finish each picture: wheels, a spout, a stick, a handle, a point and ears.",
     "printTitle": "The Mending Shelf"
   },
   "K-429": {
@@ -2248,9 +2248,9 @@
     "printTitle": "Picture Words"
   },
   "G1-431": {
-    "title": "Trace the Picture, Then Draw: What Is in the Trailer?",
+    "title": "Trace the Picture, Then Draw: What Is the Tractor Carrying?",
     "instruction": "Trace the whole picture: the tractor, the trailer and the animals. Then draw what the tractor is carrying.",
-    "printTitle": "What Is in the Trailer?"
+    "printTitle": "What Is the Tractor Carrying?"
   },
   "G1-432": {
     "title": "Symmetry Picture Tracing: Trace the Other Half",

@@ -10,5 +10,5 @@ module.exports = {
   id: 'K-428',
   slug: 'finish-the-picture-tracing',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Picture Tracing Sheets: Finish the Picture", instruction: "Trace the dashed parts to finish each picture: wheels, a spout, two handles, a point and ears.", printTitle: "The Mending Shelf" } },
+  i18n: { en: { title: "Picture Tracing Sheets: Finish the Picture", instruction: "Trace the dashed parts to finish each picture: wheels, a spout, a stick, a handle, a point and ears.", printTitle: "The Mending Shelf" } },
 };

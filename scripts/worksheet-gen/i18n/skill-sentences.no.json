@@ -454,5 +454,9 @@
     "full": "Å tegne en strek gjennom en bildelabyrint og ved hvert veiskille velge neste bokstav, tall eller regnestykke trener planlegging og blyantgrep; med fasit.",
     "short": "Trener planlegging og blyantgrep i en bildelabyrint.",
     "levelSetShort": "Trener planlegging."
+  },
+  "picture-tracing": {
+    "full": "Å tegne over linjene i hele bilder trener finmotorikk, en rolig blyantføring og samspillet mellom øye og hånd før barnet skal skrive.",
+    "short": "Finmotorikk og blyantføring med hele bilder"
   }
 }

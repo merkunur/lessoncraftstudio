@@ -3,7 +3,7 @@
     "base": {
       "title": "Spåra bilder i förskoleklass: trädgårdsgången fram till dörren",
       "printTitle": "Gången fram till dörren",
-      "instruction": "Spåra alla streckade linjer: huset, gången, trädet, fjärilen, tulpanerna och kaninen."
+      "instruction": "Spåra alla streckade linjer så att trädgården blir klar, från solen och molnet ner till gången och kaninen."
     },
     "first-tracing": {
       "title": "Första bilden att spåra i förskolan: en stor val",
@@ -28,7 +28,7 @@
     "zigzags": {
       "title": "Följa linjer i sicksack: åska över tältet i bergen",
       "printTitle": "Åska över tältet",
-      "instruction": "Spåra sicksacklinjerna i bergen, granarna, tältet och blixtarna. Stanna vid varje spets."
+      "instruction": "Spåra hela bilden. Stanna vid varje spets i sicksacken: bergen, granarna, tältet och blixtarna."
     },
     "curls": {
       "title": "Spåra bilder med spiraler och öglor: spiralgalleriet",
@@ -88,7 +88,7 @@
     "trace-and-draw": {
       "title": "Spåra bilden och rita sedan: vad har traktorn i släpet?",
       "printTitle": "Vad har traktorn i släpet?",
-      "instruction": "Spåra traktorn, släpet och djuren. Rita sedan vad traktorn har med sig i det tomma släpet."
+      "instruction": "Spåra hela bilden: traktorn, släpet och djuren. Rita sedan vad traktorn har med sig i det tomma släpet."
     },
     "other-half": {
       "title": "Spåra den andra halvan: symmetri med fjäril, uggla och nalle",

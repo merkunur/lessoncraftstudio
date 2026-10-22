@@ -3239,7 +3239,7 @@
   },
   "K-418": {
     "title": "Tegn efter stregerne: haven og stien op til døren",
-    "instruction": "Tegn efter de stiplede streger, så haven bliver færdig: huset, træet, sommerfuglen, tulipanerne og kaninen.",
+    "instruction": "Tegn efter alle de stiplede streger, så haven bliver færdig, fra solen og skyen ned til stien og kaninen.",
     "printTitle": "Stien op til døren"
   },
   "K-419": {
@@ -3264,7 +3264,7 @@
   },
   "K-423": {
     "title": "Zigzagstreger: tegn efter bjergene og uvejret over lejren",
-    "instruction": "Tegn efter zigzagstregerne på bjergene, træerne, teltet og lynene. Stop ved hver spids.",
+    "instruction": "Tegn efter hele billedet. Stop ved hver spids i zigzaggen: bjergene, træerne, teltet og lynene.",
     "printTitle": "Uvejr over lejren"
   },
   "K-424": {
@@ -3293,8 +3293,8 @@
     "printTitle": "Hvad mangler der?"
   },
   "K-429": {
-    "title": "Juleopgaver: tegn rundt om hver julekugle og stjerne",
-    "instruction": "Tegn efter juletræet, gaverne, lænestolen, vinduet og tæppet. Tegn så rundt om hver julekugle og stjerne.",
+    "title": "Juleopgaver: tegn efter julekuglerne og stjernerne på juletræet",
+    "instruction": "Tegn efter juletræet, gaverne, lænestolen, vinduet og tæppet. Tegn så efter hver julekugle og stjerne hele vejen rundt.",
     "printTitle": "Juleaften"
   },
   "K-430": {

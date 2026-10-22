@@ -3,7 +3,7 @@
     "base": {
       "title": "Jäljennä kuvat esikoulussa: puutarhan polku ovelle asti",
       "printTitle": "Polku ovelle",
-      "instruction": "Jäljennä katkoviivoja pitkin polku, talo, puu, perhonen, tulppaanit ja pupu."
+      "instruction": "Jäljennä kaikki katkoviivat, niin puutarha valmistuu: aurinko, pilvi, talo, puu, perhonen, tulppaanit, pupu ja polku."
     },
     "first-tracing": {
       "title": "Ensimmäinen jäljennettävä kuva varhaiskasvatukseen: iso valas",
@@ -28,7 +28,7 @@
     "zigzags": {
       "title": "Jäljennä siksakit: vuoret ja ukkonen teltan yllä",
       "printTitle": "Ukkonen teltan yllä",
-      "instruction": "Jäljennä vuorten, kuusten, teltan ja salamoiden siksakit. Pysähdy joka kärjessä."
+      "instruction": "Jäljennä koko kuva. Pysähdy siksakin joka kärjessä: vuoret, kuuset, teltta ja salamat."
     },
     "curls": {
       "title": "Spiraalit ja silmukat: jäljennä etana, tikkari ja rusetti",
@@ -58,7 +58,7 @@
     "christmas": {
       "title": "Jouluaatto: jäljennä joulukuusi, lahjat ja jokainen pallo",
       "printTitle": "Jouluaatto",
-      "instruction": "Jäljennä kuusi, lahjat, nojatuoli, ikkuna ja matto. Piirrä sitten jokaisen pallon ja tähden ympäri."
+      "instruction": "Jäljennä kuusi, lahjat, nojatuoli, ikkuna ja matto. Jäljennä sitten jokaisen pallon ja tähden reunaviiva kokonaan."
     },
     "shape-picture": {
       "title": "Muotoraketti: jäljennä ympyrät, neliöt, kolmiot ja suorakulmiot",
@@ -88,7 +88,7 @@
     "trace-and-draw": {
       "title": "Jäljennä ja piirrä: mitä traktori kuljettaa perävaunussa?",
       "printTitle": "Mitä traktori kuljettaa?",
-      "instruction": "Jäljennä traktori, perävaunu ja eläimet. Piirrä sitten tyhjään perävaunuun, mitä traktori kuljettaa."
+      "instruction": "Jäljennä koko kuva: traktori, perävaunu ja eläimet. Piirrä sitten tyhjään perävaunuun, mitä traktori kuljettaa."
     },
     "other-half": {
       "title": "Symmetria: jäljennä toinen puoli – perhonen, pöllö ja nalle",

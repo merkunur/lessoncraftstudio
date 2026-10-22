@@ -43,8 +43,8 @@ const SCENES = {
     decor: [grassSolid(420, 700, 26), grassSolid(610, 702, 24), grassSolid(40, 560, 22)],
     items: [
       { src: 'home and nature bw/house', x: 205, y: 472, h: 250 },
-      { src: 'home and nature bw/tree', x: 545, y: 480, h: 312 },
-      { src: 'nature bw/butterfly', x: 400, y: 300, w: 130 },
+      { src: 'home and nature bw/tree', x: 545, y: 480, h: 312, noBlobs: true },   // a knot blob in the crown read as a stray mark
+      { src: 'nature bw/butterfly', x: 362, y: 288, w: 132 },   // clear of the crown (its wing touched the tree, final visual review)
       // the contract's `nature bw/flower` ×2: its petals run closer than the K gap (18 px) at h 170 — two tulips
       // (grade 1, long clean strokes) make the same gateway (render read 2026-10-22)
       { src: 'Easter bw/tulip', x: 85, y: 702, h: 175 },
@@ -58,7 +58,7 @@ const SCENES = {
     band: 'PreK', style: 'P1', occlusion: false,
     decor: [
       { m: 'circle', a: [338, 360, 322], w: 4 }, { m: 'circle', a: [338, 360, 308], w: 2.5 },
-      ...[0, 1, 2, 3, 4, 5, 6, 7].map((k) => ({ m: 'circle', a: [338 + 315 * Math.cos(k * Math.PI / 4 + Math.PI / 8), 360 + 315 * Math.sin(k * Math.PI / 4 + Math.PI / 8), 5], fill: SOLID, stroke: false })),
+      ...[0, 1, 2, 3, 4, 5, 6, 7].map((k) => ({ m: 'circle', a: [338 + 315 * Math.cos(k * Math.PI / 4 + Math.PI / 8), 360 + 315 * Math.sin(k * Math.PI / 4 + Math.PI / 8), 5], w: 2 })),   // HOLLOW rivets: eight solid dots next to the one start dot contradicted "start at the dot" (final visual review)
       { d: ringWave(338, 360, 308, 586, 8, 70), w: 2.5 }, { d: ringWave(338, 360, 308, 616, 8, 70), w: 2.5 },
       { m: 'bubble', a: [470, 190, 16], colour: GREY, w: 2 }, { m: 'bubble', a: [505, 145, 10], colour: GREY, w: 2 }, { m: 'bubble', a: [540, 200, 12], colour: GREY, w: 2 },   // inside the rim (one sat on the ring)
     ],
@@ -141,11 +141,15 @@ const SCENES = {
       { m: 'fir', a: [100, 450, 580, 75, 636, 13], z: 10 },
       { m: 'fir', a: [255, 480, 584, 60, 636, 11], z: 11 },
       { m: 'fir', a: [618, 520, 598, 45, 636, 9], z: 12 },
+      // the tent, DRAWN (the library tent's doubled outlines fused into a smudge and carried a stray solid stroke, a dot and
+      // an arrow — final visual review): one triangle, a door, a pole tip — a zigzag shape like everything else here
+      { m: 'line', a: [[[352, 634], [445, 500], [538, 634], [352, 634]], true], z: 13, hides: true },
+      { m: 'line', a: [[[445, 500], [445, 484]]], z: 13 },
+      { m: 'line', a: [[[445, 548], [414, 634]]], z: 13 }, { m: 'line', a: [[[445, 548], [476, 634]]], z: 13 },
     ],
     decor: [grassSolid(60, 704, 24), grassSolid(250, 706, 22), grassSolid(440, 704, 24), grassSolid(620, 706, 22)],
     items: [
       { src: 'travel and holiday bw/lightning', x: 337, y: 285, h: 225, dropTiny: 40 },   // two tiny solid rain rings read as 0 (da panel)
-      { src: 'travel and holiday bw/tent', x: 445, y: 636, h: 140, z: 13 },
     ],
   },
 
@@ -393,7 +397,7 @@ const SCENES = {
       { m: 'ground', a: [14, 661, 708, 3, 3] },   // the meadow the animals stand on (they looked as if under the road, de panel)
     ],
     items: [
-      { src: 'farm bw/tractor', x: 168, y: 570, h: 175 },
+      { src: 'farm bw/tractor', x: 168, y: 570, h: 175, noBlobs: true },   // the filled tyre lugs read as a row of start dots (final visual review)
       { src: 'farm bw/goat', x: 120, y: 702, h: 112 },   // the contract's alternate: the pig is a cultural risk for some families (design A flag)
       { src: 'birds bw 2/goose', x: 335, y: 704, h: 115 },
       { src: 'farm bw/cow', x: 555, y: 702, h: 115 },

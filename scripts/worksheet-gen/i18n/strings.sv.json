@@ -3220,7 +3220,7 @@
   },
   "K-418": {
     "title": "Spåra bilder i förskoleklass: trädgårdsgången fram till dörren",
-    "instruction": "Spåra alla streckade linjer: huset, gången, trädet, fjärilen, tulpanerna och kaninen.",
+    "instruction": "Spåra alla streckade linjer så att trädgården blir klar, från solen och molnet ner till gången och kaninen.",
     "printTitle": "Gången fram till dörren"
   },
   "K-419": {
@@ -3245,7 +3245,7 @@
   },
   "K-423": {
     "title": "Följa linjer i sicksack: åska över tältet i bergen",
-    "instruction": "Spåra sicksacklinjerna i bergen, granarna, tältet och blixtarna. Stanna vid varje spets.",
+    "instruction": "Spåra hela bilden. Stanna vid varje spets i sicksacken: bergen, granarna, tältet och blixtarna.",
     "printTitle": "Åska över tältet"
   },
   "K-424": {
@@ -3305,7 +3305,7 @@
   },
   "G1-431": {
     "title": "Spåra bilden och rita sedan: vad har traktorn i släpet?",
-    "instruction": "Spåra traktorn, släpet och djuren. Rita sedan vad traktorn har med sig i det tomma släpet.",
+    "instruction": "Spåra hela bilden: traktorn, släpet och djuren. Rita sedan vad traktorn har med sig i det tomma släpet.",
     "printTitle": "Vad har traktorn i släpet?"
   },
   "G1-432": {

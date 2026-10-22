@@ -1,132 +1,132 @@
 {
-  "locale": "nl",
-  "strings": {
-    "base": {
-      "title": "Tekening overtrekken voor kleuters: het tuinpad naar de voordeur",
-      "printTitle": "Het pad naar de voordeur",
-      "instruction": "Trek alle stippellijnen over, dan is de tuin af: het huis, de boom, de vlinder, de tulpen en het konijn."
-    },
-    "first-tracing": {
-      "title": "Overtrekken groep 1: mijn eerste grote walvis",
-      "printTitle": "Mijn eerste keer overtrekken",
-      "instruction": "Begin bij de stip. Trek de grote walvis langzaam over, helemaal rond."
-    },
-    "look-then-trace": {
-      "title": "Natekenen kleuters: eerst kijken, dan het dier overtrekken",
-      "printTitle": "Eerst kijken, dan overtrekken",
-      "instruction": "Kijk goed naar het plaatje in het lijstje. Trek daarna hetzelfde dier ernaast over."
-    },
-    "round-and-round": {
-      "title": "Overtrekken voor peuters en kleuters: rond en rond, net als de o",
-      "printTitle": "Rond en rond",
-      "instruction": "Begin bij elke stip en trek rond en rond, net als de letter o."
-    },
-    "straight-lines": {
-      "title": "Rechte lijnen overtrekken: omlaag, opzij en schuin",
-      "printTitle": "Omlaag, opzij, schuin",
-      "instruction": "Kijk naar de pijl boven elke kolom. Trek de tekeningen over: eerst omlaag, dan opzij, dan schuin."
-    },
-    "zigzags": {
-      "title": "Zigzag overtrekken: onweer boven het kamp in de bergen",
-      "printTitle": "Onweer boven het kamp",
-      "instruction": "Trek de zigzag van de bergen, de bomen, de tent en de bliksem over. Stop even bij elke punt."
-    },
-    "curls": {
-      "title": "Spiralen en lussen overtrekken: de spiraalgalerij",
-      "printTitle": "De spiraalgalerij",
-      "instruction": "Trek de spiralen en lussen over: de slak, de lolly, de strik, de krakeling en het molentje."
-    },
-    "trace-and-color": {
-      "title": "Overtrekken en kleuren: picknick onder de boom",
-      "printTitle": "De picknick",
-      "instruction": "Trek de hele picknick over. Kleur alles daarna in met de kleuren die jij mooi vindt."
-    },
-    "where-to-start": {
-      "title": "Fijne motoriek kleuters: waar begin ik? Tekeningen op de trap",
-      "printTitle": "Waar begin ik?",
-      "instruction": "Begin bij elke stip en volg de pijl. Ga de trap af, één tekening per keer."
-    },
-    "trace-and-count": {
-      "title": "Overtrekken en tellen: hoeveel eenden zwemmen in de vijver?",
-      "printTitle": "Eenden in de vijver",
-      "instruction": "Trek de eenden over. Tel ze. Schrijf in het vakje hoeveel het er zijn."
-    },
-    "finish-the-picture": {
-      "title": "Stippellijn tekening: maak elk plaatje op de plank af",
-      "printTitle": "Maak het af!",
-      "instruction": "Trek de stippellijnen over en maak elk plaatje af: wielen, een tuit, twee handvatten, een punt en oren."
-    },
-    "christmas": {
-      "title": "Kerst overtrekken: kerstballen en sterren in de kerstboom",
-      "printTitle": "Kerstavond",
-      "instruction": "Trek de boom, de cadeautjes, de stoel, het raam en het kleed over. Trek dan elke bal en ster rond over."
-    },
-    "shape-picture": {
-      "title": "Vormen overtrekken: een raket van cirkels, vierkanten en driehoeken",
-      "printTitle": "De vormenraket",
-      "instruction": "Trek alle vormen van de raket en de lucht over. Kleur daarna alle rondjes in."
-    },
-    "summer-sea": {
-      "title": "Zomer overtrekken: golven, zeilboot en strand op een ansichtkaart",
-      "printTitle": "Groeten van zee",
-      "instruction": "Trek de golven over van links naar rechts. Trek daarna de boot en het strand over."
-    },
-    "big-middle-small": {
-      "title": "Groot, middel, klein overtrekken: vliegtuigen, auto's en boten",
-      "printTitle": "Groot, middel, klein",
-      "instruction": "Trek in elke rij eerst de grote over, dan de middelste en dan de kleine."
-    },
-    "dotted-street": {
-      "title": "Puntjes overtrekken groep 3: een ochtend in de stad",
-      "printTitle": "Een ochtend in de stad",
-      "instruction": "Trek de puntjeslijnen heel precies over, ook de kleine details."
-    },
-    "picture-and-word": {
-      "title": "Plaatje overtrekken, zeggen wat het is en het woord overtrekken",
-      "printTitle": "Plaatje en woord",
-      "instruction": "Trek het plaatje over. Zeg wat het is. Trek daarna het woord eronder over."
-    },
-    "trace-and-draw": {
-      "title": "Overtrekken en zelf tekenen: wat zit er in de aanhanger?",
-      "printTitle": "Wat zit er in de aanhanger?",
-      "instruction": "Trek de trekker, de aanhanger en de dieren over. Teken dan wat er in de lege aanhanger zit."
-    },
-    "other-half": {
-      "title": "Symmetrie overtrekken: de andere helft van elke tekening",
-      "printTitle": "De andere helft",
-      "instruction": "Trek de stippelhelft over, zodat beide kanten van elke tekening hetzelfde zijn."
-    },
-    "hidden-animals": {
-      "title": "Dieren overtrekken: zoek de 5 verstopte dieren in het herfstbos",
-      "printTitle": "Wie verstopt zich in het bos?",
-      "instruction": "Zoek de 5 verstopte dieren in het bos. Trek ze over."
-    }
+ "locale": "nl",
+ "strings": {
+  "base": {
+   "title": "Tekening overtrekken voor kleuters: het tuinpad naar de voordeur",
+   "printTitle": "Het pad naar de voordeur",
+   "instruction": "Trek alle stippellijnen over tot de tuin af is, van de zon en de wolk tot het pad en het konijn."
   },
-  "words": [
-    "zon",
-    "vis",
-    "kat",
-    "appel"
-  ],
-  "family": {
-    "slug": "tekeningen-overtrekken",
-    "name": "Tekeningen overtrekken"
+  "first-tracing": {
+   "title": "Overtrekken groep 1: mijn eerste grote walvis",
+   "printTitle": "Mijn eerste keer overtrekken",
+   "instruction": "Begin bij de stip. Trek de grote walvis langzaam over, helemaal rond."
   },
-  "skill": {
-    "full": "Hele tekeningen overtrekken oefent een rustige potloodvoering, lange lijnen in één beweging en goed kijken: een stevige basis voor het latere schrijven.",
-    "short": "Fijne motoriek en potloodvoering met hele tekeningen"
+  "look-then-trace": {
+   "title": "Natekenen kleuters: eerst kijken, dan het dier overtrekken",
+   "printTitle": "Eerst kijken, dan overtrekken",
+   "instruction": "Kijk goed naar het plaatje in het lijstje. Trek daarna hetzelfde dier ernaast over."
   },
-  "topicMeta": "Tekeningen overtrekken voor peuters, kleuters en groep 3: hele plaatjes langs stippellijnen overtrekken en zo de fijne motoriek oefenen. PDF om te printen.",
-  "enAudit": [
-    "K-429 EN title 'Close Every Bauble on the Tree': the baubles and stars are already complete circles and stars, there is nothing to close; the child traces ROUND them. Fix: 'Christmas Picture Tracing: Trace Round Every Bauble on the Tree'. The EN instruction also leaves out the long dashed rug in front of the tree, which is dashed like everything else. Fix: '...the armchair, the window and the rug.' (nl names the rug).",
-    "K-424 EN landing title 'Curls and Spirals Gallery' (and contract name 'Curl Gallery'): the page is spirals AND loops (bow, pretzel, pinwheel are loops/blades), the printTitle already says 'The Spiral Gallery'. Fix the landing title to 'Spirals and Loops'.",
-    "G1-429 EN landing p1: 'from the hotel's windows' – nothing shows the tall building is a hotel (ruled 2026-10-22). Fix: 'from the tall building's windows'. Also 'every line is a row of dots' is not quite true: the sun's eight rays are drawn as solid short lines. Fix: '...except the sun's short rays'.",
-    "G1-431 EN instruction 'Trace the farm': there is no farm (no farmhouse, barn or fence) on the page – only a tractor, an empty trailer, three animals, hills, a road, sun and cloud. Fix: 'Trace the tractor, the trailer and the animals. Then draw what the tractor is carrying in the empty trailer.' (nl does this).",
-    "K-426 render: the heart has ONE start dot with TWO arrows pointing opposite ways (up-left and up-right); on a 'Where do I start?' page a child cannot tell which way to go first. Fix: one arrow (e.g. start down the left side and then the right) or two dots, one per half. The EN landing does explain the shared dot, but the page itself does not.",
-    "K-422 instruction 'trace the pictures that go down, then across, then slanted': pictures do not 'go' anywhere and every picture mixes directions (the wardrobe has horizontal top and plinth, the chest of drawers has upright sides). Clearer: 'Look at the arrow above each column. Trace the pictures: first down, then across, then slanted.' The whiteboard is drawn with doubled, wobbly dashes that are hard for a 5-year-old to follow; a single clean outline would trace better.",
-    "K-430 render: the grey filled circle in a rounded box at bottom left (the colour key) is not explained by the instruction; an adult may not know it means 'colour the circles'. OK as a pictorial cue, but the landing should say what it is (nl does).",
-    "G1-430 render: the x-height letters (s, u, n, c, a, e) rise slightly ABOVE the dashed midline on all four cards instead of touching it; in Dutch schools (and English) the midline is where the x-height stops. Small, but this is the page that models school letters. Fix: scale the word so x-height = baseline-to-midline.",
-    "K-418 EN landing p1: 'stands on a gently rolling hill' – the ground under the house is a flat dashed line, there is no hill on this page. Fix: 'stands on the grass'.",
-    "G1-433 render: the owl sits in plain view on top of the right-hand tree and the fox sits openly by the path, so 'hidden' animals are mostly not hidden; only the squirrel (in the crown) and the mouse (by the mushrooms) are truly tucked away. Acceptable for groep 3 as 'find the dashed animals', but the word 'hidden' oversells it."
-  ]
+  "round-and-round": {
+   "title": "Overtrekken voor peuters en kleuters: rond en rond, net als de o",
+   "printTitle": "Rond en rond",
+   "instruction": "Begin bij elke stip en trek rond en rond, net als de letter o."
+  },
+  "straight-lines": {
+   "title": "Rechte lijnen overtrekken: omlaag, opzij en schuin",
+   "printTitle": "Omlaag, opzij, schuin",
+   "instruction": "Kijk naar de pijl boven elke kolom. Trek de tekeningen over: eerst omlaag, dan opzij, dan schuin."
+  },
+  "zigzags": {
+   "title": "Zigzag overtrekken: onweer boven het kamp in de bergen",
+   "printTitle": "Onweer boven het kamp",
+   "instruction": "Trek de hele tekening over. Stop even bij elke punt van de zigzag: bergen, bomen, tent en bliksem."
+  },
+  "curls": {
+   "title": "Spiralen en lussen overtrekken: de spiraalgalerij",
+   "printTitle": "De spiraalgalerij",
+   "instruction": "Trek de spiralen en lussen over: de slak, de lolly, de strik, de krakeling en het molentje."
+  },
+  "trace-and-color": {
+   "title": "Overtrekken en kleuren: picknick onder de boom",
+   "printTitle": "De picknick",
+   "instruction": "Trek de hele picknick over. Kleur alles daarna in met de kleuren die jij mooi vindt."
+  },
+  "where-to-start": {
+   "title": "Fijne motoriek kleuters: waar begin ik? Tekeningen op de trap",
+   "printTitle": "Waar begin ik?",
+   "instruction": "Begin bij elke stip en volg de pijl. Ga de trap af, één tekening per keer."
+  },
+  "trace-and-count": {
+   "title": "Overtrekken en tellen: hoeveel eenden zwemmen in de vijver?",
+   "printTitle": "Eenden in de vijver",
+   "instruction": "Trek de eenden over. Tel ze. Schrijf in het vakje hoeveel het er zijn."
+  },
+  "finish-the-picture": {
+   "title": "Stippellijn tekening: maak elk plaatje op de plank af",
+   "printTitle": "Maak het af!",
+   "instruction": "Trek de stippellijnen over en maak elk plaatje af: wielen, een tuit, twee handvatten, een punt en oren."
+  },
+  "christmas": {
+   "title": "Kerst overtrekken: kerstballen en sterren in de kerstboom",
+   "printTitle": "Kerstavond",
+   "instruction": "Trek de boom, de cadeautjes, de stoel, het raam en het kleed over. Trek dan elke bal en ster rond over."
+  },
+  "shape-picture": {
+   "title": "Vormen overtrekken: een raket van cirkels, vierkanten en driehoeken",
+   "printTitle": "De vormenraket",
+   "instruction": "Trek alle vormen van de raket en de lucht over. Kleur daarna alle rondjes in."
+  },
+  "summer-sea": {
+   "title": "Zomer overtrekken: golven, zeilboot en strand op een ansichtkaart",
+   "printTitle": "Groeten van zee",
+   "instruction": "Trek de golven over van links naar rechts. Trek daarna de boot en het strand over."
+  },
+  "big-middle-small": {
+   "title": "Groot, middel, klein overtrekken: vliegtuigen, auto's en boten",
+   "printTitle": "Groot, middel, klein",
+   "instruction": "Trek in elke rij eerst de grote over, dan de middelste en dan de kleine."
+  },
+  "dotted-street": {
+   "title": "Puntjes overtrekken groep 3: een ochtend in de stad",
+   "printTitle": "Een ochtend in de stad",
+   "instruction": "Trek de puntjeslijnen heel precies over, ook de kleine details."
+  },
+  "picture-and-word": {
+   "title": "Plaatje overtrekken, zeggen wat het is en het woord overtrekken",
+   "printTitle": "Plaatje en woord",
+   "instruction": "Trek het plaatje over. Zeg wat het is. Trek daarna het woord eronder over."
+  },
+  "trace-and-draw": {
+   "title": "Overtrekken en zelf tekenen: wat zit er in de aanhanger?",
+   "printTitle": "Wat zit er in de aanhanger?",
+   "instruction": "Trek de hele tekening over: de trekker, de aanhanger en de dieren. Teken dan wat er in de lege aanhanger zit."
+  },
+  "other-half": {
+   "title": "Symmetrie overtrekken: de andere helft van elke tekening",
+   "printTitle": "De andere helft",
+   "instruction": "Trek de stippelhelft over, zodat beide kanten van elke tekening hetzelfde zijn."
+  },
+  "hidden-animals": {
+   "title": "Dieren overtrekken: zoek de 5 verstopte dieren in het herfstbos",
+   "printTitle": "Wie verstopt zich in het bos?",
+   "instruction": "Zoek de 5 verstopte dieren in het bos. Trek ze over."
+  }
+ },
+ "words": [
+  "zon",
+  "vis",
+  "kat",
+  "appel"
+ ],
+ "family": {
+  "slug": "tekeningen-overtrekken",
+  "name": "Tekeningen overtrekken"
+ },
+ "skill": {
+  "full": "Hele tekeningen overtrekken oefent een rustige potloodvoering, lange lijnen in één beweging en goed kijken: een stevige basis voor het latere schrijven.",
+  "short": "Fijne motoriek en potloodvoering met hele tekeningen"
+ },
+ "topicMeta": "Tekeningen overtrekken voor peuters, kleuters en groep 3: hele plaatjes langs stippellijnen overtrekken en zo de fijne motoriek oefenen. PDF om te printen.",
+ "enAudit": [
+  "K-429 EN title 'Close Every Bauble on the Tree': the baubles and stars are already complete circles and stars, there is nothing to close; the child traces ROUND them. Fix: 'Christmas Picture Tracing: Trace Round Every Bauble on the Tree'. The EN instruction also leaves out the long dashed rug in front of the tree, which is dashed like everything else. Fix: '...the armchair, the window and the rug.' (nl names the rug).",
+  "K-424 EN landing title 'Curls and Spirals Gallery' (and contract name 'Curl Gallery'): the page is spirals AND loops (bow, pretzel, pinwheel are loops/blades), the printTitle already says 'The Spiral Gallery'. Fix the landing title to 'Spirals and Loops'.",
+  "G1-429 EN landing p1: 'from the hotel's windows' – nothing shows the tall building is a hotel (ruled 2026-10-22). Fix: 'from the tall building's windows'. Also 'every line is a row of dots' is not quite true: the sun's eight rays are drawn as solid short lines. Fix: '...except the sun's short rays'.",
+  "G1-431 EN instruction 'Trace the farm': there is no farm (no farmhouse, barn or fence) on the page – only a tractor, an empty trailer, three animals, hills, a road, sun and cloud. Fix: 'Trace the tractor, the trailer and the animals. Then draw what the tractor is carrying in the empty trailer.' (nl does this).",
+  "K-426 render: the heart has ONE start dot with TWO arrows pointing opposite ways (up-left and up-right); on a 'Where do I start?' page a child cannot tell which way to go first. Fix: one arrow (e.g. start down the left side and then the right) or two dots, one per half. The EN landing does explain the shared dot, but the page itself does not.",
+  "K-422 instruction 'trace the pictures that go down, then across, then slanted': pictures do not 'go' anywhere and every picture mixes directions (the wardrobe has horizontal top and plinth, the chest of drawers has upright sides). Clearer: 'Look at the arrow above each column. Trace the pictures: first down, then across, then slanted.' The whiteboard is drawn with doubled, wobbly dashes that are hard for a 5-year-old to follow; a single clean outline would trace better.",
+  "K-430 render: the grey filled circle in a rounded box at bottom left (the colour key) is not explained by the instruction; an adult may not know it means 'colour the circles'. OK as a pictorial cue, but the landing should say what it is (nl does).",
+  "G1-430 render: the x-height letters (s, u, n, c, a, e) rise slightly ABOVE the dashed midline on all four cards instead of touching it; in Dutch schools (and English) the midline is where the x-height stops. Small, but this is the page that models school letters. Fix: scale the word so x-height = baseline-to-midline.",
+  "K-418 EN landing p1: 'stands on a gently rolling hill' – the ground under the house is a flat dashed line, there is no hill on this page. Fix: 'stands on the grass'.",
+  "G1-433 render: the owl sits in plain view on top of the right-hand tree and the fox sits openly by the path, so 'hidden' animals are mostly not hidden; only the squirrel (in the crown) and the mouse (by the mushrooms) are truly tucked away. Acceptable for groep 3 as 'find the dashed animals', but the word 'hidden' oversells it."
+ ]
 }

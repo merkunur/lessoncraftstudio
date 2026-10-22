@@ -3,7 +3,7 @@
     "base": {
       "title": "Tegn efter stregerne: haven og stien op til døren",
       "printTitle": "Stien op til døren",
-      "instruction": "Tegn efter de stiplede streger, så haven bliver færdig: huset, træet, sommerfuglen, tulipanerne og kaninen."
+      "instruction": "Tegn efter alle de stiplede streger, så haven bliver færdig, fra solen og skyen ned til stien og kaninen."
     },
     "first-tracing": {
       "title": "Finmotorik i børnehaven: min første store hval",
@@ -28,7 +28,7 @@
     "zigzags": {
       "title": "Zigzagstreger: tegn efter bjergene og uvejret over lejren",
       "printTitle": "Uvejr over lejren",
-      "instruction": "Tegn efter zigzagstregerne på bjergene, træerne, teltet og lynene. Stop ved hver spids."
+      "instruction": "Tegn efter hele billedet. Stop ved hver spids i zigzaggen: bjergene, træerne, teltet og lynene."
     },
     "curls": {
       "title": "Spiraler og løkker: tegn efter sneglen, slikkepinden og kringlen",
@@ -56,9 +56,9 @@
       "instruction": "Tegn efter de stiplede dele, så billederne bliver hele: hjulene, en tud, to håndtag, en spids og ørerne."
     },
     "christmas": {
-      "title": "Juleopgaver: tegn rundt om hver julekugle og stjerne",
+      "title": "Juleopgaver: tegn efter julekuglerne og stjernerne på juletræet",
       "printTitle": "Juleaften",
-      "instruction": "Tegn efter juletræet, gaverne, lænestolen, vinduet og tæppet. Tegn så rundt om hver julekugle og stjerne."
+      "instruction": "Tegn efter juletræet, gaverne, lænestolen, vinduet og tæppet. Tegn så efter hver julekugle og stjerne hele vejen rundt."
     },
     "shape-picture": {
       "title": "Tegn efter figurer: en raket af cirkler, kvadrater og trekanter",

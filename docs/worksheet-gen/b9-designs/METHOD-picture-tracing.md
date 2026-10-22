@@ -243,6 +243,9 @@ the F17 `words` (four 2-7-letter picture names in school-print case: de capital 
    PASS locally and poison-tested: 21 expected → FAIL) in one commit, push, `deploy.sh`.
 7. `repoint-deck-canonical.js --types=picture-tracing --locale=<loc>` ×11, noindex-exempt refresh, IndexNow, live checks
    (landing 200 ×11, the hub rail entry with 20 cards, a live PDF read), then delete the staging dirs (server disk is expensive).
+8. **As run, 2026-10-22:** publish 220/220 (audit 20/20 clean ×11 after the EN republish; `audit-update-injections` lostTB 0 /
+   lostMeter 0), `deploy.sh` exit 0 with the b9 hub gate PASS, repoint 220 files, missing 0 ×11, 220 landings HTTP 200,
+   IndexNow 220 → 200, `/<loc>/worksheets?type=picture-tracing` links all 20 in en / de / fi, staging deleted (209 MB).
 
 ## 13 How to expand
 - **A new face** = a new scene in `data/b9/face-scenes.js` + a row in `tools/b9var-rows/picture-tracing.js` + its EN

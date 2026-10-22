@@ -28,8 +28,9 @@ const SCENES = [
   // ── L1 — four big pictures, one big part each ────────────────────────────────────────────────────────────────────────
   copy('nature-shelf', 1, 'The Nature Shelf', ['a cap', 'a shell', 'a treetop', 'a flower'], [
     ['Easter bw/mushroom', [0, 0, 1, 0.45]], ['animals bw/snail', [0.4, 0, 1, 0.85]], ['home and nature bw/tree', [0, 0, 1, 0.62]], ['Easter bw/tulip', [0.15, 0, 0.85, 0.42]]]),
-  copy('boat-hut', 1, 'The Boat Hut', ['sails', 'claws', 'a sunshade', 'a lamp room'], [
-    ['vehicles bw/sailboat', [0, 0, 1, 0.72]], ['animals bw 5/crab', [0, 0, 1, 0.42]], ['beach bw/umbrella', [0, 0, 1, 0.5]], ['beach bw/lighthouse', [0.42, 0, 0.7, 0.33]]]),
+  // one claw: a box round both claws dashes the eyes too; the porthole hull of vehicles bw/sailboat read as "ooo"
+  copy('boat-hut', 1, 'The Boat Hut', ['sails', 'a claw', 'a sunshade', 'a lamp room'], [
+    ['beach bw/sailboat', [0, 0, 1, 0.7]], ['animals bw 5/crab', [0.64, 0, 1, 0.45]], ['beach bw/umbrella', [0, 0, 1, 0.5]], ['beach bw/lighthouse', [0.42, 0, 0.7, 0.33]]]),
   copy('toy-street', 1, 'The Toy Street', ['a roof', 'a lampshade', 'wheels', 'a handlebar'], [
     ['home and nature bw/house', [0, 0, 1, 0.45]], ['home bw/lamp', [0, 0, 1, 0.45]], ['vehicles bw 2/bus', [0, 0.78, 1, 1]], ['sports bw/scooter', [0, 0, 0.5, 0.5]]]),
   copy('dolls-house', 1, 'The Doll’s House', ['a back', 'a lampshade', 'a stand', 'a back'], [
@@ -60,8 +61,8 @@ const SCENES = [
   copy('market-stall', 3, 'The Market Stall', ['a leaf', 'stems', 'a stem', 'leaves', 'a stalk', 'a cap', 'a stalk', 'a stem'], [
     ['fruits bw/apple_2', [0.5, 0, 1, 0.3]], ['fruits bw/cherry', [0, 0, 1, 0.55]], ['vegetables bw/pumpkin', [0.35, 0, 0.65, 0.25]], ['vegetables bw/carrot', [0.6, 0, 1, 0.35]],
     ['vegetables bw 2/mushroom', [0.2, 0.55, 0.8, 1]], ['vegetables bw/eggplant', [0.7, 0, 1, 0.45]], ['fruits bw/watermelon', [0.35, 0, 0.7, 0.18]], ['fruits bw/pear', [0.3, 0, 0.8, 0.3]]]),
-  copy('safari', 3, 'The Safari Lodge', ['a trunk', 'horns', 'a tail', 'a tail', 'a tail', 'a neck', 'ears', 'a head'], [
-    ['animals bw/elephant', [0, 0.3, 0.3, 0.8]], ['animals bw/rhinoceros', [0, 0, 0.3, 0.5]], ['animals bw/lion_2', [0.75, 0.4, 1, 0.9]], ['animals bw 4/kangaroo', [0.56, 0.57, 1, 0.96]],
+  copy('zoo-shop', 3, 'The Zoo Gift Shop', ['a trunk', 'horns', 'a tail', 'an ear', 'a tail', 'a neck', 'ears', 'a head'], [
+    ['animals bw/elephant', [0, 0.3, 0.3, 0.8]], ['animals bw/rhinoceros', [0, 0, 0.3, 0.5]], ['animals bw 2/leopard', [0.78, 0.38, 1, 0.84]], ['animals bw 5/koala', [0.66, 0.04, 1, 0.53]],
     ['animals bw/monkey', [0.65, 0, 1, 0.6]], ['animals bw 5/ostrich_2', [0.05, 0, 0.45, 0.55]], ['animals bw/panda', [0, 0, 1, 0.25]], ['animals bw 5/turtle', [0, 0, 0.35, 0.6]]]),
 ];
 module.exports = { SCENES };

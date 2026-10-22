@@ -270,3 +270,39 @@ the F17 `words` (four 2-7-letter picture names in school-print case: de capital 
 - **A Level Set** (the Level Set programme, noindex): reuse the composer with seeded scenes per level — P1 big single
   pictures → P2 scenes → P3/P4 detailed scenes — and the tracer laws as the gate; the faces here stay the flagship.
 - **A new locale**: one panel run with `_work/panel-brief.md`, then the §7 pipeline.
+
+## 14 The Level Set expansion (`ptl`, 2026-10-22): 300 copies per locale, PDF only, noindex, no landing
+**Unit.** One copy = one ORIGINAL scene that is a SKIN over its face's published scene (`lib/ptx.js resolvePtx`: the skin's
+keys replace the published keys; a page without a `ptx-` unit never reaches the module — `qa/ptx-published-identity.js`
+proves the 30 published bodies identical after every engine change). 20 faces × 3 levels × 5 copies; copies numbered after
+the published page (L1 2-6 · L2 7-11 · L3 12-16, `tools/level-set/ptl-waves.js`). Scenes: `data/ptx/scenes-<face>.js`;
+drawn toolkits in the library's line style: `dr.js` (buildings, play equipment, landscape), `dc.js` (closed colourable
+pieces), `cl.js` (spirals and loops), `st.js` (designed strokes), `xm.js` (the Christmas tree + room furniture), `td.js`
+(G1-431's containers, each returning its measured empty space), `zz.js` (zigzags), `lay.js` (measured rows / scatters).
+**Levels.** `_work/ptl-levels.md` (the pedagogue's ladder per face: N, size, detail, dash, budget, must-not-change). The gate
+holds L1 ≥ 25 % lighter and L3 ≥ 15 % heavier than the published page in traced length, except the NARROW faces whose level
+is not the length (each recorded in its scene header): K-419 one picture, K-421 fewer BIGGER circles, K-426 the stroke
+order, K-427 the count, K-428 the part size, G1-430 the word, G1-433 the figure-ground.
+**Casting by measurement, never by name.** `out/ptl/_len.js` (traced length alone), `_straight.js` (≥ 70 % straight, K-422),
+`_sym.js` (half-to-half difference AT THE PLACED SIZE, G1-432: L1 ≤ 5, L2 ≤ 10, L3 ≤ 8 px), `_parts.js` + `_partview.js`
+(K-428: a part is only dashed when it is a SEPARATE traced line inside the part box — a whale's tail on its body outline
+dashes nothing; a box round both crab claws dashes the eyes too), `_pw.js` + `_words.js` (G1-430 names that fit the
+level's letter range in all 11 locales). Every candidate picture is opened on a contact sheet (`tools/contact-sheet.js`).
+**The gate** `qa/verify-ptl.js` (367 assertions): the family's face laws at each copy's level (`faceChecks` exported from
+`qa/verify-b9-picture-tracing.js`, level-aware N / symmetry / shapes / baubles), the band per level, the length ladder,
+distinct main pictures per face (incl. the published page), cast Jaccard ≤ 0.5, at most one traced drawing shared with the
+published page, tracer laws a/b over the 520 drawings used, 5 per face × level, poisons. Load-time checks in the scene
+files: K-430 shape gaps ≥ 12 px, G1-431 the empty space's size and emptiness, G1-433 exactly five animals inside the page
+apart by their halo, K-422 drawn shapes ≥ 60 % of their column's direction, G1-430 word lengths ×11.
+**Traps paid for.** ⭐ The gate's first run found 42 defects every per-face check had passed: 14 of 15 K-422 copies used
+drawings under 70 % straight (paintbrush, rolling pin, wrenches …); 8 K-428 parts dashed nothing; duplicate main pictures;
+light hard levels. Build the cross-copy gate BEFORE the scenes, not after. ⭐ Pictures that read as letters were refused
+on the render: porthole hulls and buttons ("ooo"), round glasses, a bowling pin (8), a taxi's roof sign, a milk carton
+printed MILK, rain drops that render as specks. ⭐ Clutter must stand where it lives: mushrooms in the sky were the scatter's
+first output — leaves may float, ground things sit on the ground. ⭐ A library "empty" container is often not empty (the
+wheelbarrow carries a spade). ⭐ `Œ` had no stroke data: added to `data/tracing/letter-strokes.js` (fr ŒUF).
+**Text.** EN in the scene files (`name.en`, `instr.en`, `words.en` / all locales' words from image-vocabulary.js for
+G1-430); face strings `data/ptx/text-ls.js`; the ten locales `data/ptx/i18n/<loc>.json` (ls · names · instr · words) by two
+native panels (`_work/ptl-text-brief.md`); titles lower-case the name after the colon in fr es pt it nl sv da no fi.
+Dump + mechanical checks: `tools/level-set/ptl-text-dump.js`. Pools: `cli.js generate --wave waves/wave-ptl-<loc>.json`,
+then `tools/level-set/check-zips-ptl.js` (300 per locale, PDF only, noindex, title ≤ 70, description 120-170).

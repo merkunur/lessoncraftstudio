@@ -3227,5 +3227,105 @@
   "K-417": {
     "title": "Luvun 9 hajotelmat",
     "instruction": "Katso hajotelmaa. Kirjoita puuttuva luku tyhjään ympyrään."
+  },
+  "K-418": {
+    "title": "Jäljennä kuvat esikoulussa: puutarhan polku ovelle asti",
+    "instruction": "Jäljennä katkoviivoja pitkin polku, talo, puu, perhonen, tulppaanit ja pupu.",
+    "printTitle": "Polku ovelle"
+  },
+  "K-419": {
+    "title": "Ensimmäinen jäljennettävä kuva varhaiskasvatukseen: iso valas",
+    "instruction": "Aloita pisteestä. Jäljennä iso valas hitaasti ympäri, kunnes palaat pisteeseen.",
+    "printTitle": "Ensimmäinen kuvani"
+  },
+  "K-420": {
+    "title": "Jäljennä kuva mallin mukaan: katso pingviiniä ja kengurua",
+    "instruction": "Katso kehyksessä olevaa kuvaa. Jäljennä sitten vieressä oleva sama eläin.",
+    "printTitle": "Katso ja jäljennä"
+  },
+  "K-421": {
+    "title": "Pyöreät kuvat varhaiskasvatukseen: jäljennä ympäri kuin o",
+    "instruction": "Aloita jokaisesta pisteestä ja piirrä ympäri samaan suuntaan kuin kirjoitat o-kirjaimen.",
+    "printTitle": "Ympäri kuin o"
+  },
+  "K-422": {
+    "title": "Jäljennä kuvat suorin viivoin: alas, sivulle ja vinoon",
+    "instruction": "Katso nuolta jokaisen pystyrivin yläpuolella. Jäljennä rivi kerrallaan: alas, sivulle ja vinoon.",
+    "printTitle": "Alas, sivulle, vinoon"
+  },
+  "K-423": {
+    "title": "Jäljennä siksakit: vuoret ja ukkonen teltan yllä",
+    "instruction": "Jäljennä vuorten, kuusten, teltan ja salamoiden siksakit. Pysähdy joka kärjessä.",
+    "printTitle": "Ukkonen teltan yllä"
+  },
+  "K-424": {
+    "title": "Spiraalit ja silmukat: jäljennä etana, tikkari ja rusetti",
+    "instruction": "Jäljennä spiraalit ja silmukat: etana, tikkari, rusetti, rinkeli ja tuulimylly.",
+    "printTitle": "Spiraaligalleria"
+  },
+  "K-425": {
+    "title": "Piirrä ja väritä: jäljennä piknik ison puun alla",
+    "instruction": "Jäljennä koko piknikkuva. Väritä se sitten haluamillasi väreillä.",
+    "printTitle": "Piknik"
+  },
+  "K-426": {
+    "title": "Hienomotoriikka esikouluun: mistä aloitan? Kuvat portailla",
+    "instruction": "Aloita jokaisesta pisteestä ja seuraa nuolta. Kulje portaita alas kuva kerrallaan.",
+    "printTitle": "Mistä aloitan?"
+  },
+  "K-427": {
+    "title": "Jäljennä ja laske: montako ankkaa uiskentelee lammessa?",
+    "instruction": "Jäljennä ankat. Laske ne. Kirjoita laatikkoon, montako niitä on.",
+    "printTitle": "Ankat lammessa"
+  },
+  "K-428": {
+    "title": "Jäljennä puuttuvat osat: tee hyllyn kuvista kokonaisia",
+    "instruction": "Jäljennä auton pyörät, kannun nokka, sateenvarjon varsi, kupin korva, hyrrän kärki ja pupun korvat.",
+    "printTitle": "Täydennä hyllyn kuvat"
+  },
+  "K-429": {
+    "title": "Jouluaatto: jäljennä joulukuusi, lahjat ja jokainen pallo",
+    "instruction": "Jäljennä kuusi, lahjat, nojatuoli, ikkuna ja matto. Piirrä sitten jokaisen pallon ja tähden ympäri.",
+    "printTitle": "Jouluaatto"
+  },
+  "K-430": {
+    "title": "Muotoraketti: jäljennä ympyrät, neliöt, kolmiot ja suorakulmiot",
+    "instruction": "Jäljennä raketin ja taivaan kaikki muodot. Väritä sitten jokainen ympyrä.",
+    "printTitle": "Muotoraketti"
+  },
+  "K-431": {
+    "title": "Kesäinen postikortti: jäljennä aallot meren poikki",
+    "instruction": "Jäljennä aallot vasemmalta oikealle. Jäljennä sitten purjevene ja ranta.",
+    "printTitle": "Postikortti mereltä"
+  },
+  "K-432": {
+    "title": "Iso, keskikokoinen ja pieni: jäljennä koneet, autot ja laivat",
+    "instruction": "Jäljennä joka rivillä ensin iso, sitten keskikokoinen ja lopuksi pieni.",
+    "printTitle": "Iso, keskikokoinen, pieni"
+  },
+  "G1-429": {
+    "title": "Jäljennä pisteviivakuva 1. luokalla: aamu kaupungissa",
+    "instruction": "Jäljennä pisteviivat huolellisesti, myös pienet yksityiskohdat.",
+    "printTitle": "Aamu kaupungissa"
+  },
+  "G1-430": {
+    "title": "Jäljennä kuva ja sana: aurinko, kala, kissa ja omena",
+    "instruction": "Jäljennä kuva. Sano, mikä se on. Jäljennä sana kuvan alla.",
+    "printTitle": "Kuvat ja sanat"
+  },
+  "G1-431": {
+    "title": "Jäljennä ja piirrä: mitä traktori kuljettaa perävaunussa?",
+    "instruction": "Jäljennä traktori, perävaunu ja eläimet. Piirrä sitten tyhjään perävaunuun, mitä traktori kuljettaa.",
+    "printTitle": "Mitä traktori kuljettaa?"
+  },
+  "G1-432": {
+    "title": "Symmetria: jäljennä toinen puoli – perhonen, pöllö ja nalle",
+    "instruction": "Jäljennä katkoviivoin piirretty puolikas, niin jokaisen kuvan molemmat puolet ovat samanlaiset.",
+    "printTitle": "Toinen puoli"
+  },
+  "G1-433": {
+    "title": "Syksyinen metsä: etsi ja jäljennä 5 piilossa olevaa eläintä",
+    "instruction": "Etsi metsästä 5 piilossa olevaa eläintä. Jäljennä ne.",
+    "printTitle": "Kuka piileskelee metsässä?"
   }
 }

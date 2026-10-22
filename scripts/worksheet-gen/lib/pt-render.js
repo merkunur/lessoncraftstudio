@@ -43,8 +43,8 @@ function placeTrace(tr, item) {
   const fy = (y) => top + (y - b.y0) * s;
   const lines = tr.paths.map((p) => ({ pts: p.pts.map(([x, y]) => [fx(x), fy(y)]), closed: p.closed, outer: p.outer }));
   // item.dropTiny = N: closed marks shorter than N page px are left out (two tiny rain rings printed solid read as the
-  // digit 0 on a page with no numbers, da panel) — never used to thin a picture, only to drop a stray glyph-like mark
-  if (item.dropTiny) for (let i = lines.length - 1; i >= 0; i--) { const L = lines[i]; if (!L.closed) continue; let n = 0; for (let k = 1; k < L.pts.length; k++) n += Math.hypot(L.pts[k][0] - L.pts[k - 1][0], L.pts[k][1] - L.pts[k - 1][1]); if (n < item.dropTiny) lines.splice(i, 1); }
+  // digit 0 on a page with no numbers, da panel; dropTinyOpen also drops short OPEN marks — a solid L on a dotted roof, no panel) — never used to thin a picture, only to drop a stray glyph-like mark
+  if (item.dropTiny) for (let i = lines.length - 1; i >= 0; i--) { const L = lines[i]; if (!L.closed && !item.dropTinyOpen) continue; let n = 0; for (let k = 1; k < L.pts.length; k++) n += Math.hypot(L.pts[k][0] - L.pts[k - 1][0], L.pts[k][1] - L.pts[k - 1][1]); if (n < item.dropTiny) lines.splice(i, 1); }
   // blob outlines are SVG path data in work px: re-emit them through a transform (fills do not dash, so a transform is safe)
   const tf = item.flip
     ? `matrix(${-s} 0 0 ${s} ${(left + b.x1 * s).toFixed(2)} ${(top - b.y0 * s).toFixed(2)})`

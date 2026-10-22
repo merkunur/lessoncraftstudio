@@ -1,0 +1,131 @@
+{
+  "locale": "no",
+  "strings": {
+    "base": {
+      "title": "Følg linjene: tegn over hagen og stien opp til døra",
+      "printTitle": "Stien opp til døra",
+      "instruction": "Tegn over de stiplede linjene, så hagen blir ferdig: stien, huset, treet, sommerfuglen, tulipanene og kaninen."
+    },
+    "first-tracing": {
+      "title": "Finmotorikk i barnehagen: min første store hval å tegne over",
+      "printTitle": "Min første hval",
+      "instruction": "Start ved prikken. Tegn sakte over den store hvalen, hele veien rundt."
+    },
+    "look-then-trace": {
+      "title": "Tegn over bildet: se først på dyret i rammen, og tegn så over",
+      "printTitle": "Se først, tegn så",
+      "instruction": "Se på bildet i rammen. Tegn så over det samme dyret ved siden av."
+    },
+    "round-and-round": {
+      "title": "Runde bilder for de minste: tegn rundt og rundt som bokstaven o",
+      "printTitle": "Rundt og rundt",
+      "instruction": "Start ved hver prikk og tegn rundt og rundt, som bokstaven o."
+    },
+    "straight-lines": {
+      "title": "Rette streker i bilder: ned, bortover og på skrå",
+      "printTitle": "Ned, bortover, på skrå",
+      "instruction": "Se på pila over hver kolonne. Tegn over én kolonne om gangen: ned, så bortover, så på skrå."
+    },
+    "zigzags": {
+      "title": "Sikksakk: tegn over fjellene og uværet over teltleiren",
+      "printTitle": "Uvær over leiren",
+      "instruction": "Tegn over sikksakkene i fjellene, trærne, teltet og lynene. Stopp ved hver spiss."
+    },
+    "curls": {
+      "title": "Spiraler og løkker: tegn over sneglen, sløyfa og kringla",
+      "printTitle": "Spiralgalleriet",
+      "instruction": "Tegn over spiralene og løkkene: sneglen, kjærligheten på pinne, sløyfa, kringla og vindmølla."
+    },
+    "trace-and-color": {
+      "title": "Tegn og fargelegg: piknik under det store treet",
+      "printTitle": "Piknik",
+      "instruction": "Tegn over hele piknikbildet. Fargelegg det etterpå med de fargene du vil."
+    },
+    "where-to-start": {
+      "title": "Førskoleoppgaver: hvor begynner jeg? Bilder på en trapp",
+      "printTitle": "Hvor begynner jeg?",
+      "instruction": "Start ved hver prikk og følg pila. Gå ned trappa, ett bilde om gangen."
+    },
+    "trace-and-count": {
+      "title": "Tegn over og tell: hvor mange ender svømmer i dammen?",
+      "printTitle": "Ender i dammen",
+      "instruction": "Tegn over endene. Tell dem. Skriv hvor mange det er i ruta."
+    },
+    "finish-the-picture": {
+      "title": "Gjør bildene ferdige: tegn over det som mangler på hylla",
+      "printTitle": "Reparasjonshylla",
+      "instruction": "Tegn over de stiplede delene, så bildene blir hele: hjul, en tut, to håndtak, en spiss og ører."
+    },
+    "christmas": {
+      "title": "Juleoppgaver: tegn rundt hver julekule og stjerne",
+      "printTitle": "Julaften",
+      "instruction": "Tegn over juletreet, gavene, lenestolen, vinduet og teppet. Tegn så rundt hver julekule og stjerne."
+    },
+    "shape-picture": {
+      "title": "Geometriske former: en rakett av sirkler, kvadrater og trekanter",
+      "printTitle": "Formraketten",
+      "instruction": "Tegn over alle formene i raketten og på himmelen. Fargelegg så alle sirklene."
+    },
+    "summer-sea": {
+      "title": "Sommeroppgaver: tegn over bølgene på havet",
+      "printTitle": "Et postkort fra stranden",
+      "instruction": "Tegn over bølgene fra venstre mot høyre. Tegn så over båten og stranden."
+    },
+    "big-middle-small": {
+      "title": "Stor, mellomstor og liten: tegn over fly, biler og skip",
+      "printTitle": "Stor, mellomstor, liten",
+      "instruction": "Tegn i hver rad først den store, så den mellomstore og til slutt den lille."
+    },
+    "dotted-street": {
+      "title": "Prikktegning for 1. trinn: en morgen i byen",
+      "printTitle": "En morgen i byen",
+      "instruction": "Tegn nøye over de prikkete linjene, også de små detaljene."
+    },
+    "picture-and-word": {
+      "title": "Tegn over bildet, si hva det heter, og skriv over ordet",
+      "printTitle": "Bildeord",
+      "instruction": "Tegn over bildet. Si hva det heter. Skriv over ordet under."
+    },
+    "trace-and-draw": {
+      "title": "Tegn over bildet, og tegn selv: hva skal i tilhengeren?",
+      "printTitle": "Hva skal i tilhengeren?",
+      "instruction": "Tegn over hele bildet: traktoren, tilhengeren og dyrene. Tegn så noe i den tomme tilhengeren."
+    },
+    "other-half": {
+      "title": "Symmetri for 1. trinn: tegn over den andre halvdelen",
+      "printTitle": "Den andre halvdelen",
+      "instruction": "Tegn over den stiplede halvdelen, så begge sidene av hvert bilde blir like."
+    },
+    "hidden-animals": {
+      "title": "Høstoppgaver: finn de 5 gjemte dyrene i skogen og tegn over dem",
+      "printTitle": "Hvem gjemmer seg i skogen?",
+      "instruction": "Finn de 5 gjemte dyrene i skogen. Tegn over dem."
+    }
+  },
+  "words": [
+    "sol",
+    "fisk",
+    "katt",
+    "eple"
+  ],
+  "family": {
+    "slug": "tegn-etter-linjene",
+    "name": "Tegn etter linjene"
+  },
+  "skill": {
+    "full": "Å tegne over linjene i hele bilder trener finmotorikk, en rolig blyantføring og samspillet mellom øye og hånd før barnet skal skrive.",
+    "short": "Finmotorikk og blyantføring med hele bilder"
+  },
+  "topicMeta": "Tegn etter linjene: hele bilder å tegne over for barnehage, skolestartere og 1. trinn. Trener finmotorikk og blyantføring. Gratis PDF til utskrift.",
+  "enAudit": [
+    "G1-429 RENDER: a small SOLID glyph that reads as the capital letter \"L\" sits on the roof of the tall right-hand building (under the dotted roof ornament). On a page with no text in the body it looks like a stray letter; dot it like the rest of the roof or remove it.",
+    "K-418 EN instruction lists the path, house, tree, butterfly, tulips and rabbit but not the cloud and the sun, which are dashed too; a child following the list literally leaves them grey. Fix: add \"the cloud and the sun\" (or say \"the whole garden\").",
+    "K-423 EN instruction names the mountains, trees, tent and lightning, but the cloud, the four raindrops, the star and the moon are dashed too and are not zigzags. Fix: \"Trace the zigzags ... Then trace the cloud, the star and the moon.\" EN p1 \"Every line of the scene is dashed\" is false: the grass tufts (and one short line inside the tent) are solid.",
+    "K-426 EN p2 \"every open line starts at its top or left end\" is still false on the current render: the stocking's cuff line starts at its RIGHT end (dot top right, arrow to the left). Fix: \"most upright lines start at the top\".",
+    "K-428 EN instruction \"two handles\" + p1 \"the umbrella's stick and crook\": on the render part of the umbrella canopy's lower edge (right side) is dashed as well, so the umbrella is missing more than its handle. Fix the render (canopy edge solid) or name it in p1.",
+    "K-424 EN instruction lists the pinwheel among \"the spirals and loops\"; the pinwheel has curved blades, not a spiral or a loop (minor; the EN p1 now says so, the instruction does not).",
+    "K-425 EN p1 \"a little bird flies between the tree and the sun\": the bird is drawn standing (legs down), not flying; say \"a little bird looks at the tree\" (minor).",
+    "K-430 EN title \"A Rocket of Circles, Squares and Triangles\": the rocket's body and the launch pad are rectangles (the meta says so, the title does not). Minor; no change needed if rectangles are taken as implied.",
+    "no: F17 words sol, fisk, katt, eple are correct (image-vocabulary.js no: Sol / Fisk / Katt / Eple), all 3-4 letters; a Norwegian five-year-old names all four pictures that way. No replacement needed."
+  ]
+}

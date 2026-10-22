@@ -3245,5 +3245,105 @@
   "K-417": {
     "title": "Tallvenner til 9",
     "instruction": "Se på delene og det hele. Skriv tallet som mangler i den stiplede sirkelen."
+  },
+  "K-418": {
+    "title": "Følg linjene: tegn over hagen og stien opp til døra",
+    "instruction": "Tegn over de stiplede linjene, så hagen blir ferdig: stien, huset, treet, sommerfuglen, tulipanene og kaninen.",
+    "printTitle": "Stien opp til døra"
+  },
+  "K-419": {
+    "title": "Finmotorikk i barnehagen: min første store hval å tegne over",
+    "instruction": "Start ved prikken. Tegn sakte over den store hvalen, hele veien rundt.",
+    "printTitle": "Min første hval"
+  },
+  "K-420": {
+    "title": "Tegn over bildet: se først på dyret i rammen, og tegn så over",
+    "instruction": "Se på bildet i rammen. Tegn så over det samme dyret ved siden av.",
+    "printTitle": "Se først, tegn så"
+  },
+  "K-421": {
+    "title": "Runde bilder for de minste: tegn rundt og rundt som bokstaven o",
+    "instruction": "Start ved hver prikk og tegn rundt og rundt, som bokstaven o.",
+    "printTitle": "Rundt og rundt"
+  },
+  "K-422": {
+    "title": "Rette streker i bilder: ned, bortover og på skrå",
+    "instruction": "Se på pila over hver kolonne. Tegn over én kolonne om gangen: ned, så bortover, så på skrå.",
+    "printTitle": "Ned, bortover, på skrå"
+  },
+  "K-423": {
+    "title": "Sikksakk: tegn over fjellene og uværet over teltleiren",
+    "instruction": "Tegn over sikksakkene i fjellene, trærne, teltet og lynene. Stopp ved hver spiss.",
+    "printTitle": "Uvær over leiren"
+  },
+  "K-424": {
+    "title": "Spiraler og løkker: tegn over sneglen, sløyfa og kringla",
+    "instruction": "Tegn over spiralene og løkkene: sneglen, kjærligheten på pinne, sløyfa, kringla og vindmølla.",
+    "printTitle": "Spiralgalleriet"
+  },
+  "K-425": {
+    "title": "Tegn og fargelegg: piknik under det store treet",
+    "instruction": "Tegn over hele piknikbildet. Fargelegg det etterpå med de fargene du vil.",
+    "printTitle": "Piknik"
+  },
+  "K-426": {
+    "title": "Førskoleoppgaver: hvor begynner jeg? Bilder på en trapp",
+    "instruction": "Start ved hver prikk og følg pila. Gå ned trappa, ett bilde om gangen.",
+    "printTitle": "Hvor begynner jeg?"
+  },
+  "K-427": {
+    "title": "Tegn over og tell: hvor mange ender svømmer i dammen?",
+    "instruction": "Tegn over endene. Tell dem. Skriv hvor mange det er i ruta.",
+    "printTitle": "Ender i dammen"
+  },
+  "K-428": {
+    "title": "Gjør bildene ferdige: tegn over det som mangler på hylla",
+    "instruction": "Tegn over de stiplede delene, så bildene blir hele: hjul, en tut, to håndtak, en spiss og ører.",
+    "printTitle": "Reparasjonshylla"
+  },
+  "K-429": {
+    "title": "Juleoppgaver: tegn rundt hver julekule og stjerne",
+    "instruction": "Tegn over juletreet, gavene, lenestolen, vinduet og teppet. Tegn så rundt hver julekule og stjerne.",
+    "printTitle": "Julaften"
+  },
+  "K-430": {
+    "title": "Geometriske former: en rakett av sirkler, kvadrater og trekanter",
+    "instruction": "Tegn over alle formene i raketten og på himmelen. Fargelegg så alle sirklene.",
+    "printTitle": "Formraketten"
+  },
+  "K-431": {
+    "title": "Sommeroppgaver: tegn over bølgene på havet",
+    "instruction": "Tegn over bølgene fra venstre mot høyre. Tegn så over båten og stranden.",
+    "printTitle": "Et postkort fra stranden"
+  },
+  "K-432": {
+    "title": "Stor, mellomstor og liten: tegn over fly, biler og skip",
+    "instruction": "Tegn i hver rad først den store, så den mellomstore og til slutt den lille.",
+    "printTitle": "Stor, mellomstor, liten"
+  },
+  "G1-429": {
+    "title": "Prikktegning for 1. trinn: en morgen i byen",
+    "instruction": "Tegn nøye over de prikkete linjene, også de små detaljene.",
+    "printTitle": "En morgen i byen"
+  },
+  "G1-430": {
+    "title": "Tegn over bildet, si hva det heter, og skriv over ordet",
+    "instruction": "Tegn over bildet. Si hva det heter. Skriv over ordet under.",
+    "printTitle": "Bildeord"
+  },
+  "G1-431": {
+    "title": "Tegn over bildet, og tegn selv: hva skal i tilhengeren?",
+    "instruction": "Tegn over hele bildet: traktoren, tilhengeren og dyrene. Tegn så noe i den tomme tilhengeren.",
+    "printTitle": "Hva skal i tilhengeren?"
+  },
+  "G1-432": {
+    "title": "Symmetri for 1. trinn: tegn over den andre halvdelen",
+    "instruction": "Tegn over den stiplede halvdelen, så begge sidene av hvert bilde blir like.",
+    "printTitle": "Den andre halvdelen"
+  },
+  "G1-433": {
+    "title": "Høstoppgaver: finn de 5 gjemte dyrene i skogen og tegn over dem",
+    "instruction": "Finn de 5 gjemte dyrene i skogen. Tegn over dem.",
+    "printTitle": "Hvem gjemmer seg i skogen?"
   }
 }

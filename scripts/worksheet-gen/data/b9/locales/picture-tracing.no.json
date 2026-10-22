@@ -1,0 +1,110 @@
+{
+  "strings": {
+    "base": {
+      "title": "Følg linjene: tegn over hagen og stien opp til døra",
+      "printTitle": "Stien opp til døra",
+      "instruction": "Tegn over de stiplede linjene, så hagen blir ferdig: stien, huset, treet, sommerfuglen, tulipanene og kaninen."
+    },
+    "first-tracing": {
+      "title": "Finmotorikk i barnehagen: min første store hval å tegne over",
+      "printTitle": "Min første hval",
+      "instruction": "Start ved prikken. Tegn sakte over den store hvalen, hele veien rundt."
+    },
+    "look-then-trace": {
+      "title": "Tegn over bildet: se først på dyret i rammen, og tegn så over",
+      "printTitle": "Se først, tegn så",
+      "instruction": "Se på bildet i rammen. Tegn så over det samme dyret ved siden av."
+    },
+    "round-and-round": {
+      "title": "Runde bilder for de minste: tegn rundt og rundt som bokstaven o",
+      "printTitle": "Rundt og rundt",
+      "instruction": "Start ved hver prikk og tegn rundt og rundt, som bokstaven o."
+    },
+    "straight-lines": {
+      "title": "Rette streker i bilder: ned, bortover og på skrå",
+      "printTitle": "Ned, bortover, på skrå",
+      "instruction": "Se på pila over hver kolonne. Tegn over én kolonne om gangen: ned, så bortover, så på skrå."
+    },
+    "zigzags": {
+      "title": "Sikksakk: tegn over fjellene og uværet over teltleiren",
+      "printTitle": "Uvær over leiren",
+      "instruction": "Tegn over sikksakkene i fjellene, trærne, teltet og lynene. Stopp ved hver spiss."
+    },
+    "curls": {
+      "title": "Spiraler og løkker: tegn over sneglen, sløyfa og kringla",
+      "printTitle": "Spiralgalleriet",
+      "instruction": "Tegn over spiralene og løkkene: sneglen, kjærligheten på pinne, sløyfa, kringla og vindmølla."
+    },
+    "trace-and-color": {
+      "title": "Tegn og fargelegg: piknik under det store treet",
+      "printTitle": "Piknik",
+      "instruction": "Tegn over hele piknikbildet. Fargelegg det etterpå med de fargene du vil."
+    },
+    "where-to-start": {
+      "title": "Førskoleoppgaver: hvor begynner jeg? Bilder på en trapp",
+      "printTitle": "Hvor begynner jeg?",
+      "instruction": "Start ved hver prikk og følg pila. Gå ned trappa, ett bilde om gangen."
+    },
+    "trace-and-count": {
+      "title": "Tegn over og tell: hvor mange ender svømmer i dammen?",
+      "printTitle": "Ender i dammen",
+      "instruction": "Tegn over endene. Tell dem. Skriv hvor mange det er i ruta."
+    },
+    "finish-the-picture": {
+      "title": "Gjør bildene ferdige: tegn over det som mangler på hylla",
+      "printTitle": "Reparasjonshylla",
+      "instruction": "Tegn over de stiplede delene, så bildene blir hele: hjul, en tut, to håndtak, en spiss og ører."
+    },
+    "christmas": {
+      "title": "Juleoppgaver: tegn rundt hver julekule og stjerne",
+      "printTitle": "Julaften",
+      "instruction": "Tegn over juletreet, gavene, lenestolen, vinduet og teppet. Tegn så rundt hver julekule og stjerne."
+    },
+    "shape-picture": {
+      "title": "Geometriske former: en rakett av sirkler, kvadrater og trekanter",
+      "printTitle": "Formraketten",
+      "instruction": "Tegn over alle formene i raketten og på himmelen. Fargelegg så alle sirklene."
+    },
+    "summer-sea": {
+      "title": "Sommeroppgaver: tegn over bølgene på havet",
+      "printTitle": "Et postkort fra stranden",
+      "instruction": "Tegn over bølgene fra venstre mot høyre. Tegn så over båten og stranden."
+    },
+    "big-middle-small": {
+      "title": "Stor, mellomstor og liten: tegn over fly, biler og skip",
+      "printTitle": "Stor, mellomstor, liten",
+      "instruction": "Tegn i hver rad først den store, så den mellomstore og til slutt den lille."
+    },
+    "dotted-street": {
+      "title": "Prikktegning for 1. trinn: en morgen i byen",
+      "printTitle": "En morgen i byen",
+      "instruction": "Tegn nøye over de prikkete linjene, også de små detaljene."
+    },
+    "picture-and-word": {
+      "title": "Tegn over bildet, si hva det heter, og skriv over ordet",
+      "printTitle": "Bildeord",
+      "instruction": "Tegn over bildet. Si hva det heter. Skriv over ordet under."
+    },
+    "trace-and-draw": {
+      "title": "Tegn over bildet, og tegn selv: hva skal i tilhengeren?",
+      "printTitle": "Hva skal i tilhengeren?",
+      "instruction": "Tegn over hele bildet: traktoren, tilhengeren og dyrene. Tegn så noe i den tomme tilhengeren."
+    },
+    "other-half": {
+      "title": "Symmetri for 1. trinn: tegn over den andre halvdelen",
+      "printTitle": "Den andre halvdelen",
+      "instruction": "Tegn over den stiplede halvdelen, så begge sidene av hvert bilde blir like."
+    },
+    "hidden-animals": {
+      "title": "Høstoppgaver: finn de 5 gjemte dyrene i skogen og tegn over dem",
+      "printTitle": "Hvem gjemmer seg i skogen?",
+      "instruction": "Finn de 5 gjemte dyrene i skogen. Tegn over dem."
+    }
+  },
+  "words": [
+    "sol",
+    "fisk",
+    "katt",
+    "eple"
+  ]
+}

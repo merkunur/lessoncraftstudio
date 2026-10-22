@@ -353,6 +353,9 @@ node /opt/lessoncraftstudio/scripts/verify-hub-type-rows.js --expect=docs/worksh
 # b8 Handmade Mazes (maze-puzzles): base + 19 faces = 20 rows per locale ×11; HARD from the first deploy that
 # carries the b8 landings (all 11 locales composed before that deploy, 2026-10-12).
 node /opt/lessoncraftstudio/scripts/verify-hub-type-rows.js --expect=docs/worksheet-gen/b8-designs/hub-expectations.json || { echo "ERROR: the b8 maze family is missing or mis-counted on /worksheets — see docs/worksheet-gen/b8-designs/hub-expectations.json"; exit 1; }
+# b9 Picture Tracing (picture-tracing): base + 19 faces = 20 rows per locale ×11; HARD from the first deploy that
+# carries the b9 landings (all 11 locales composed before that deploy, 2026-10-22).
+node /opt/lessoncraftstudio/scripts/verify-hub-type-rows.js --expect=docs/worksheet-gen/b9-designs/hub-expectations.json || { echo "ERROR: the b9 picture-tracing family is missing or mis-counted on /worksheets — see docs/worksheet-gen/b9-designs/hub-expectations.json"; exit 1; }
 # Hub theme truth (2026-10-18): every theme the /worksheets rail offers opens ONLY that theme, by each
 # deck's own tag (Level Set copies and collapsed sheets used to borrow their landing's theme — 38% wrong
 # in en). Reads the DB, so it sources .env.production; --poison proves the pre-fix shape still fails.

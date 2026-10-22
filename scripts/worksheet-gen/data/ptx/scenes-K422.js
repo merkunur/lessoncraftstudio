@@ -112,6 +112,6 @@ const SCENES = [
   copy('bedroom', 3, 'The Bedroom', [['apparel bw/necktie', 'furniture bw/wardrobe', 'draw:door'], ['draw:bed', 'draw:rug', 'furniture bw/nightstand'], ['vehicles bw/sailboat', 'beach bw/umbrella', 'draw:kite']]),
   copy('building-site', 3, 'The Building Site', [['draw:chimney', 'draw:scaffold', 'furniture bw/cabinet'], ['household bw/window', 'draw:planks', 'draw:lowWall'], ['draw:leaningLadder', 'draw:stairs', 'draw:barrier']]),
   copy('snack-bar', 3, 'The Snack Bar', [['draw:fridge', 'draw:tallGlass', 'food bw 3/glass'], ['kitchen bw/plate', 'draw:counter', 'kitchen bw/microwave'], ['food bw 2/cake', 'draw:baguette', 'draw:pizzaSlice']]),
-  copy('airport', 3, 'At the Airport', [['draw:tower', 'household bw/tablet', 'furniture bw/wardrobe_2'], ['household bw/computer', 'draw:belt', 'classroom bw 2/bookshelf'], ['classroom bw 2/paper_airplane', 'draw:stairs', 'draw:barrier']]),
+  copy('airport', 3, 'The Study', [['draw:tower', 'household bw/tablet', 'furniture bw/wardrobe_2'], ['household bw/computer', 'draw:belt', 'classroom bw 2/bookshelf'], ['classroom bw 2/paper_airplane', 'draw:stairs', 'draw:barrier']]),
 ];
 module.exports = { SCENES, SHAPES };

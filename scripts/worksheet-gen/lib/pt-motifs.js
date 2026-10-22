@@ -44,7 +44,8 @@ function hill(x0, x1, y, h) { const c = [[x0, y], [x0 + (x1 - x0) * 0.25, y - h 
 /** sun: a circle + n short rays (or a smiling face when face = true) */
 function sun(cx, cy, r, rays = 8, face = false) {
   const out = [circle(cx, cy, r)];
-  for (let i = 0; i < rays; i++) { const a = -Math.PI / 2 + i * 2 * Math.PI / rays; out.push(line([[cx + Math.cos(a) * (r + 7), cy + Math.sin(a) * (r + 7)], [cx + Math.cos(a) * (r + 7 + r * 0.45), cy + Math.sin(a) * (r + 7 + r * 0.45)]])); }
+  // r + 12: at r + 7 the classifier's junction grid (3.5 px cells ±1) joined SOME rays to the circle, so two of eight rays printed dashed and six solid (final review)
+  for (let i = 0; i < rays; i++) { const a = -Math.PI / 2 + i * 2 * Math.PI / rays; out.push(line([[cx + Math.cos(a) * (r + 12), cy + Math.sin(a) * (r + 12)], [cx + Math.cos(a) * (r + 12 + r * 0.42), cy + Math.sin(a) * (r + 12 + r * 0.42)]])); }
   if (face) out.push(line(arc(cx, cy + r * 0.05, r * 0.45, r * 0.38, 0.25 * Math.PI, 0.75 * Math.PI)));
   return out;
 }

@@ -2,7 +2,7 @@
 /**
  * ptl-text-dump.js — every visible string of the Picture Tracing Level Set copies, per locale (the native + pedagogy
  * reviewer's compact input): face, level, unit, catalogue title, printed heading, instruction, picture words; plus the
- * mechanical checks (title ≤ 60 before the worksheet word, heading ≤ 40, instruction ≤ 130, titles unique per locale,
+ * mechanical checks (title ≤ 60 before the worksheet word, heading ≤ 40, instruction ≤ 200 (measured ≤ 3 lines in ptl-render), titles unique per locale,
  * no visible "free") → out/ptl/_text-<loc>.tsv and a summary line per locale.
  *   node tools/level-set/ptl-text-dump.js [--locales=en,de]
  */
@@ -24,7 +24,7 @@ for (const loc of LOCS) {
     rows.push([e.face, e.level, e.id, s.title, s.printTitle || '', s.instruction, w].join('\t'));
     if (s.title.length > 60) probs.push(`${e.id}: title ${s.title.length} > 60`);
     if ((s.printTitle || '').length > 40) probs.push(`${e.id}: heading ${s.printTitle.length} > 40`);
-    if (s.instruction.length > 130) probs.push(`${e.id}: instruction ${s.instruction.length} > 130`);
+    if (s.instruction.length > 200) probs.push(`${e.id}: instruction ${s.instruction.length} > 200`);   // the binding check is measured: tools/level-set/ptl-render.js (≤ 3 lines, no widow)
     if (FREE.test(s.title + ' ' + (s.printTitle || '') + ' ' + s.instruction)) probs.push(`${e.id}: visible "free"`);
     // after a colon the name continues the sentence in these languages (lower-case); after "?" it starts a new one (capital)
     if (['fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'].includes(loc)) {

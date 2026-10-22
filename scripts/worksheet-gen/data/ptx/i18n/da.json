@@ -12,7 +12,7 @@
       "printTitle": "Mit første billede at tegne efter"
     },
     "look-then-trace": {
-      "title": "Se først, tegn så: {NAME}",
+      "title": "Se først, tegn så efter: {NAME}",
       "instruction": "Se på hvert billede i en ramme. Tegn så efter det samme billede ved siden af."
     },
     "round-and-round": {
@@ -34,7 +34,7 @@
       "instruction": "Tegn efter spiralerne og løkkerne, rundt og rundt."
     },
     "trace-and-color": {
-      "title": "Tegn og farvelæg: {NAME}",
+      "title": "Tegn efter og farvelæg: {NAME}",
       "printTitle": "{NAME}",
       "instruction": "Tegn efter hele billedet. Farvelæg det bagefter med de farver, du har lyst til."
     },
@@ -43,7 +43,7 @@
       "instruction": "Start ved hver prik, og følg pilen. Gå ned ad trappen, ét billede ad gangen."
     },
     "trace-and-count": {
-      "title": "Tegn og tæl: {NAME}",
+      "title": "Tegn efter og tæl: {NAME}",
       "printTitle": "{NAME}",
       "instruction": "Tegn efter de stiplede billeder. Tæl dem. Skriv i boksen, hvor mange der er."
     },
@@ -413,20 +413,20 @@
     "ptx-K-427-jellyfish-bay": "Tegn efter vandmændene. Tæl dem. Skriv i boksen, hvor mange der er.",
     "ptx-K-427-mouse-barn": "Tegn efter musene. Tæl dem. Skriv i boksen, hvor mange der er.",
     "ptx-K-427-sheep-meadow": "Tegn efter fårene. Tæl dem. Skriv i boksen, hvor mange der er.",
-    "ptx-K-428-nature-shelf": "Tegn efter de stiplede dele, så billederne bliver hele: en hat, et hus, en trækrone og en blomst.",
-    "ptx-K-428-boat-hut": "Tegn efter de stiplede dele, så billederne bliver hele: sejl, en klo, parasollens skærm og fyrets lanterne.",
-    "ptx-K-428-toy-street": "Tegn efter de stiplede dele, så billederne bliver hele: et tag, en lampeskærm, hjul og et styr.",
+    "ptx-K-428-nature-shelf": "Gør billederne hele: tegn efter en hat, et sneglehus, en trækrone og en blomst.",
+    "ptx-K-428-boat-hut": "Gør billederne hele: tegn efter sejl, en klo, parasollens skærm og fyrets lanterne.",
+    "ptx-K-428-toy-street": "Gør billederne hele: tegn efter et tag, en lampeskærm, hjul og et styr.",
     "ptx-K-428-dolls-house": "Gør billederne hele: tegn efter et stoleryglæn, en lampeskærm, en bordfod og et sofaryglæn.",
-    "ptx-K-428-sweet-shop": "Tegn efter de stiplede dele, så billederne bliver hele: glasur, en kugle is, et øverste lag og en top.",
+    "ptx-K-428-sweet-shop": "Gør billederne hele: tegn efter glasur, en kugle is, et øverste lag og en top.",
     "ptx-K-428-pet-shop": "Gør billederne hele: tegn efter en kattehale, en halefinne, ører, et øre, en fuglehale og fødder.",
     "ptx-K-428-aquarium": "Gør billederne hele: tegn efter en delfinhale, fangarme, et horn, en luffe, en klo og en søhestehale.",
     "ptx-K-428-kitchen": "Gør billederne hele: tegn efter et grydehåndtag, et glaslåg, et kedelhåndtag, et kagerullehåndtag, et blenderlåg og en skål.",
     "ptx-K-428-garden-shed": "Gør billederne hele: tegn efter en tud, et blad, et plæneklipperhåndtag, et hoved, et skaft og et rullehåndtag.",
-    "ptx-K-428-clothes-shop": "Tegn efter de stiplede dele, så billederne bliver hele: en skygge, et ærme, en hæl, en hætte, en hank og manchetter.",
+    "ptx-K-428-clothes-shop": "Gør billederne hele: tegn efter en skygge, et ærme, en hæl, en hætte, en hank og manchetter.",
     "ptx-K-428-bird-house": "Gør billederne hele: tegn efter næb, vinge, papegøjehale, kam, ben, fjerører, duehale og hals.",
     "ptx-K-428-toy-cupboard": "Gør billederne hele: tegn efter ører, gyngemeder, antenne, halerotor, skorsten, pind, trommestikker og tragt.",
     "ptx-K-428-bathroom": "Gør billederne hele: tegn efter tandbørsteskaft, kophank, spandhank, fødder, stang, låg, spejl og tænder.",
-    "ptx-K-428-market-stall": "Gør billederne hele: tegn efter blad, stilke, græskarstilk, top, svampestok, grøn hat, melonstilk og pærestilk.",
+    "ptx-K-428-market-stall": "Gør billederne hele: tegn efter blad, stilke, græskarstilk, top, svampestok, auberginens grønne hat, melonstilk og pærestilk.",
     "ptx-K-428-zoo-shop": "Gør billederne hele: tegn efter snabel, horn, leopardhale, øre, abehale, hals, ører og hoved.",
     "ptx-G1-431-fruit-bowl": "Tegn efter hele billedet. Tegn så det, der er i skålen.",
     "ptx-G1-431-fish-tank": "Tegn efter hele billedet. Tegn så den, der bor i akvariet.",

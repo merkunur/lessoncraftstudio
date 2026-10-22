@@ -31,7 +31,21 @@ const pub = path.join(__dirname, '..', '..', 'out', 'b9', loc);
       if (type.copyStrings && s0) try { strings = type.copyStrings(s0, { locale: loc, difficulty: e.level, unit: e.id }); } catch (x) { draft = ' [DRAFT TEXT: ' + String(x.message).slice(0, 60) + ']'; }
       try {
         const r = await renderInstance({ type, theme: null, difficulty: e.level, locale: loc, unit: e.id, strings, page, outDir: out, baseName: e.id });
-        const fails = [...r.qa.lints, ...r.qa.verify]; if (fails.length) bad++;
+        // the printed heading holds on at most 2 lines, the instruction on at most 3 and without a widow (measured on the rendered page: a
+        // character cap only approximates this, and a lead sentence + an eight-part list is legitimately long)
+        const lines = await page.evaluate(() => {
+          const rows = (el) => { const by = new Map(); if (!el) return by; const rg = document.createRange(); rg.selectNodeContents(el);
+            for (const q of rg.getClientRects()) { if (q.width <= 1) continue; const k = Math.round(q.top); const r = by.get(k) || [Infinity, -Infinity]; by.set(k, [Math.min(r[0], q.left), Math.max(r[1], q.right)]); } return by; };
+          const ins = rows(document.querySelector('[data-lcs-instruction]')); const w = [...ins.values()].map((r) => r[1] - r[0]);
+          return { title: rows(document.querySelector('.ws-title')).size, instr: ins.size, lastFill: w.length ? w[w.length - 1] / Math.max(...w) : 0 };
+        });
+        const fails = [...r.qa.lints, ...r.qa.verify];
+        if (lines.title > 2) fails.push('heading on ' + lines.title + ' lines');
+        // an eight-part list may take a third line, never a widow (a last line under 30 % of the longest)
+        if (lines.instr > 3) fails.push('instruction on ' + lines.instr + ' lines');
+        if (lines.instr > 1 && lines.lastFill < 0.3) fails.push('instruction widow (' + Math.round(lines.lastFill * 100) + ' % last line)');
+        if (!lines.title || !lines.instr) fails.push('heading/instruction not measured');
+        if (fails.length) bad++;
         const m = (r.meta && r.meta.metrics) || {};
         console.log(e.id.padEnd(40), 'L' + e.level, fails.length ? 'FAIL ' + fails.slice(0, 3).join(' | ') : 'ok', (m.tracedLen != null ? 'len ' + m.tracedLen + ' minPic ' + m.minPic : '') + draft);
       } catch (x) { bad++; console.log(e.id.padEnd(40), 'L' + e.level, 'ERROR ' + String(x.message || x).slice(0, 220)); }

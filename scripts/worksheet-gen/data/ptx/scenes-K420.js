@@ -32,7 +32,7 @@ const copy = (id, level, name, srcs, scale) => ({ id: 'ptx-K-420-' + id, face: '
 const SCENES = [
   copy('garden-bugs', 1, 'Ladybug and Butterfly', ['nature bw/ladybug', 'Easter bw/butterfly']),
   copy('tea-party', 1, 'Teapot and Cup', ['kitchen bw/teapot', 'home and nature bw/teacup']),
-  copy('sky-flyers', 1, 'Plane and Helicopter', ['vehicles bw 2/airplane', 'vehicles bw 2/helicopter_2']),
+  copy('sky-flyers', 1, 'Plane and Helicopter', ['vehicles bw 2/airplane_2', 'vehicles bw 2/helicopter_2']),
   copy('pond-pals', 1, 'Frog and Swan', ['animals bw/frog', 'animals bw/swan']),
   copy('fruit-bowl', 1, 'Banana and Cherries', ['fruits bw/banana', 'fruits bw/cherry']),
   copy('farm-babies', 2, 'Chick and Kitten', ['animals bw 4/chick', 'animals bw 4/cat']),

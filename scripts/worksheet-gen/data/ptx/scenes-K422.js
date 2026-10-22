@@ -108,6 +108,6 @@ const SCENES = [
   copy('bedroom', 3, 'The Bedroom', [['apparel bw/necktie', 'beach bw 2/surfboard', 'draw:door'], ['draw:bed', 'draw:rug', 'draw:drawer'], ['objects bw/toothbrush', 'sports bw/cricket', 'draw:kite']]),
   copy('building-site', 3, 'The Building Site', [['draw:chimney', 'draw:scaffold', 'draw:bollard'], ['draw:beam', 'draw:planks', 'draw:lowWall'], ['draw:leaningLadder', 'draw:stairs', 'draw:seesaw']]),
   copy('snack-bar', 3, 'The Snack Bar', [['draw:fridge', 'draw:tallGlass', 'draw:signPost'], ['food bw/hot_dog', 'draw:counter', 'draw:tray'], ['dessert bw/ice_pop', 'draw:baguette', 'draw:pizzaSlice']]),
-  copy('airport', 3, 'At the Airport', [['draw:tower', 'draw:lampPost', 'draw:door'], ['toys bw/airplane', 'draw:belt', 'draw:counter'], ['sports bw/hockey', 'draw:stairs', 'draw:barrier']]),
+  copy('airport', 3, 'At the Airport', [['draw:tower', 'draw:lampPost', 'draw:door'], ['vehicles bw 2/airplane_2', 'draw:belt', 'draw:counter'], ['sports bw/hockey', 'draw:stairs', 'draw:barrier']]),
 ];
 module.exports = { SCENES, SHAPES };

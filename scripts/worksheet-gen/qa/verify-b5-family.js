@@ -389,13 +389,26 @@ async function main() {
     return f;
   };
   const orphanFails = (m, tag) => (m.titleLines.length > 1 && m.titleLines.some((n) => n === 1) ? [`${tag}: ORPHAN — the title wraps into lines of ${m.titleLines.join('/')} words (a lone word on a line)`] : []);
-  /** fill <-> sex across pages: a fill used by one sex only (anywhere) can carry sex */
-  const garmentSexFails = (htmls) => {
-    const bySex = {};
-    for (const h of htmls) for (const m of h.matchAll(/data-lcs-sex="([fm])"[^>]*data-lcs-tint="[^"]*"[^>]*>(?:(?!<\/svg>)[\s\S])*?<path d="[^"]+" fill="(#[0-9A-Fa-f]{6})"[^>]*data-lcs-garment=""/g)) (bySex[m[2].toUpperCase()] = bySex[m[2].toUpperCase()] || new Set()).add(m[1]);
-    const n = Object.keys(bySex).length;
-    if (!n) return ['GARMENT: no garment measured (needle matched nothing)'];
-    return Object.entries(bySex).filter(([, s]) => s.size < 2).map(([f, s]) => `GARMENT: fill ${f} is worn only by sex ${[...s][0]} across ${htmls.length} pages`);
+  /** the operator's portraits (2026-10-22): within one family (the page minus its generation legend) no portrait
+   *  repeats and each is of its figure's age and sex; also reports the most portraits one (age, sex) cell needed */
+  const portraitFails = (htmls) => {
+    const f = [], need = {};
+    let figs = 0;
+    for (const h of htmls) {
+      const fam = h.replace(/<g data-lcs-gen-legend="\d">[\s\S]*?data-lcs-gen-frame="\d"\/><\/g>/g, '');   // the legend is a key, not the family
+      const seen = new Set(), cell = {};
+      for (const m of fam.matchAll(/<svg [^>]*data-lcs-figure=""[^>]*>/g)) {
+        const age = /data-lcs-age="([^"]+)"/.exec(m[0])[1], sex = /data-lcs-sex="([^"]+)"/.exec(m[0])[1], file = (/data-lcs-portrait="([^"]*)"/.exec(m[0]) || [])[1];
+        figs++;
+        if (!file || !file.startsWith(`${age}-${sex}-`)) f.push(`PORTRAIT: ${file} on a ${age} ${sex} figure`);
+        if (seen.has(file)) f.push(`PORTRAIT: ${file} twice in one family`); seen.add(file);
+        cell[age + ' ' + sex] = (cell[age + ' ' + sex] || 0) + 1;
+      }
+      for (const [k, n] of Object.entries(cell)) need[k] = Math.max(need[k] || 0, n);
+    }
+    if (!figs) return ['PORTRAIT: no figure measured (needle matched nothing)'];
+    portraitFails.need = need;
+    return f;
   };
   const floors = (m, tag) => {
     for (const x of [...sparseFails(m, tag), ...orphanFails(m, tag)]) ok(false, x);
@@ -484,9 +497,9 @@ async function main() {
       }
       const worst = Object.entries(pos).sort((a, b) => b[1] - a[1])[0];
       ok(worst[1] / n <= 0.4, `sweep: box ${worst[0].split(':')[0]} holds answer ${worst[0].split(':')[1]} on ${worst[1]}/${n} seeds (> 40 %)`);
-      const gs = garmentSexFails(htmls);
+      const gs = portraitFails(htmls);
       ok(gs.length === 0, `sweep: ${gs.join(' | ')}`);
-      console.log(`sweep garment fill <-> sex: ${gs.length ? gs.join(' | ') : 'every fill worn by both sexes'}`);
+      console.log(`sweep portraits: ${gs.length ? gs.join(' | ') : 'none repeated in a family'}; most per cell ${JSON.stringify(portraitFails.need)}`);
       ok(sides.size === 2, `sweep: grand sides ${[...sides].join(',')} (want both M and F)`);
       console.log(`sweep d2 x ${n} seeds: verify clean, grand sides {${[...sides].join(',')}}, worst box/answer ${worst[0]} on ${worst[1]}/${n}`);
     }
@@ -581,12 +594,11 @@ async function main() {
       const bad = base.bodyHtml.replace(d0[0], `<line x1="${gx}" y1="${gb.y}" x2="${gx}" y2="${ry}" stroke="#146B5E" stroke-width="3" data-lcs-conn="drop"/><line x1="${Math.min(gx, +d0[1])}" y1="${ry}" x2="${Math.max(gx, +d0[1])}" y2="${ry}" stroke="#146B5E" stroke-width="3" data-lcs-conn="sibling"/><line x1="${d0[1]}" y1="${ry}" x2="${d0[1]}" y2="${d0[3]}" stroke="#146B5E" stroke-width="3" data-lcs-conn="drop"/>`);
       ok(drops.length === 2 && bad !== base.bodyHtml, `PR3 needle: ${drops.length} drops`);
       const r = await renderBody(bad, 'K-370-gate-pr3'); expectFail('PR3 a child re-hung from the grand bar', r.v, /the drawn lines give (ego|Z|B) the parents \[(FF\+FM|MF\+MM)\], the graph says \[F\+M\]/); }
-    // PR4 — an f look whose hair stops at y 62, on the page
+    // PR4 — an adult f figure stamped with a grandmother's portrait (the figure gate's checkFigure, on the page)
     { const f0 = figuresOk(base.bodyHtml, 'PR4 control'); ok(f0.length === 0, `PR4 control: ${f0.join(' | ')}`);
-      // a generic poison: cap the lowest point of every hair path on the first adult f figure at y 62
-      const m = /<svg [^>]*data-lcs-age="adult" data-lcs-sex="f"[^>]*>[\s\S]*?<\/svg>/.exec(base.bodyHtml);
-      const bad = m[0].replace(/(<(?:path|circle|ellipse)[^>]*data-lcs-hair=""\/>)/g, '').replace('<ellipse cx="50" cy="50"', `<path d="M 28 40 C 27 15 40 12 50 12 C 60 12 73 15 72 40 L 72 62 L 28 62 Z" fill="${tokens.color.ink}" stroke="${tokens.color.teal}" stroke-width="3" data-lcs-hair=""/><ellipse cx="50" cy="50"`);
-      expectFail('PR4 an f look with hair to y 62 on the page', figuresOk(base.bodyHtml.replace(m[0], bad), 'PR4'), /f hair reaches y 62/); }
+      const bad = base.bodyHtml.replace(/(data-lcs-age="adult" data-lcs-sex="f"[^>]*data-lcs-portrait=")adult-f-\d\.png"/, '$1elder-f-1.png"');
+      ok(bad !== base.bodyHtml, 'PR4 needle matched nothing');
+      expectFail('PR4 a grandmother portrait on a mother', figuresOk(bad, 'PR4'), /portrait elder-f-1\.png on a adult f/); }
     // PR8 — a codeColors fill
     { const bad = base.bodyHtml.replace(`fill="${tokens.color.tealSoft}" data-lcs-crown=""`, `fill="${tokens.codeColors.codeRed}" data-lcs-crown=""`);
       ok(bad !== base.bodyHtml, 'PR8 needle matched nothing'); const r = await renderBody(bad, 'K-370-gate-pr8');
@@ -616,22 +628,27 @@ async function main() {
       ok(orphanFails(ctl.m, 'T1 control').length === 0, `T1 control: ${ctl.m.titleLines.join('/')}`);
       const unbalanced = base.bodyHtml + '<style>.ws-title{text-wrap:wrap !important}</style>';
       expectFail('T1 the title without balanced wrapping', orphanFails((await renderBody(unbalanced, 'K-370-gate-t1')).m, 'T1'), /ORPHAN/); }
-    // GC1 — look-bound garment tints (the reviewed defect: the grandmother alone in coralSoft) → verify's one-fill-per-row rule
-    { const FFm = require('../primitives/family-figure.js');
-      const b1 = TYPE._buildWith(en, TYPE.difficulty[2], { locale: 'en' }, { rng: makeRng('K-370|none|2|1') }, { compose: (d, rng) => { const c = TYPE._compose(d, rng); for (const p of c.persons) p.tint = FFm.LOOKS[p.age][p.sex][p.look].tint; return c; } });
-      expectFail('GC1 look-bound garment tints', (await renderBody(b1.bodyHtml, 'K-370-gate-gc1')).v, /garment fills differ within a generation row/); }
+    // GC1 — two people of one family show the same portrait → verify's no-repeat rule (portraits 2026-10-22)
+    { // a seeded d2 family whose two children share a sex (so a repeat is the ONLY defect the poison makes)
+      let src = null;
+      for (let v = 1; v <= 40 && !src; v++) { const h = TYPE._buildWith(en, TYPE.difficulty[2], { locale: 'en' }, { rng: makeRng('gc1-' + v) }).bodyHtml;
+        const kids = [...h.matchAll(/data-lcs-portrait="child-([fm])-\d\.png"/g)].map((m) => m[1]); if (kids.length >= 2 && kids[0] === kids[1]) src = h; }
+      ok(!!src, 'GC1: no seed in 40 draws two children of one sex');
+      const ctlV = src ? (await renderBody(src, 'K-370-gate-gc1-ctl')).v : ['no source'];
+      ok(ctlV.length === 0, `GC1 control: ${JSON.stringify(ctlV)}`);
+      const bad2 = src ? src.replace(/data-lcs-portrait="child-([fm])-\d\.png"/g, 'data-lcs-portrait="child-$1-1.png"') : '';
+      expectFail('GC1 two children, one portrait', (await renderBody(bad2, 'K-370-gate-gc1')).v, /show the same portrait child-[fm]-1\.png/); }
     // OS1 — landing review 2026-09-23: the older sibling drawn the same size as the ego (the shipped control above passes)
     { const b1 = TYPE._buildWith(en, TYPE.difficulty[2], { locale: 'en' }, { rng: makeRng('K-370|none|2|1') }, { sameSize: true });
       expectFail('OS1 the older sister / brother drawn the same size as the child', (await renderBody(b1.bodyHtml, 'K-370-gate-os1')).v, /not taller than the ego/); }
-    // GC2 — sex-keyed fills across 20 builds → the sweep's fill <-> sex check
-    { const hs = [], ctlH = [];
-      for (let v = 1; v <= 20; v++) {
-        hs.push(TYPE._buildWith(en, TYPE.difficulty[2], { locale: 'en' }, { rng: makeRng('gc2-' + v) }, { compose: (d, rng) => { const c = TYPE._compose(d, rng); for (const p of c.persons) p.tint = p.sex === 'f' ? 'coralSoft' : 'tealSoft'; return c; } }).bodyHtml);
-        ctlH.push(TYPE._buildWith(en, TYPE.difficulty[2], { locale: 'en' }, { rng: makeRng('gc2-' + v) }).bodyHtml);
-      }
-      ok(garmentSexFails(ctlH).length === 0, `GC2 control: ${garmentSexFails(ctlH).join(' | ')}`);
-      expectFail('GC2 sex-keyed garment fills', garmentSexFails(hs), /GARMENT: fill #F.* only by sex f/); }
-    await faceGate({ page, render: null, renderBody, measure, expectFail, expectThrow, ok, CHROME, OUT, quick, garmentSexFails });
+    // GC2 — the pooled portrait sweep, both ways: 20 builds clean, the same 20 with one family's portraits collapsed fail
+    { const ctlH = [];
+      for (let v = 1; v <= 20; v++) ctlH.push(TYPE._buildWith(en, TYPE.difficulty[2], { locale: 'en' }, { rng: makeRng('gc2-' + v) }).bodyHtml);
+      ok(portraitFails(ctlH).length === 0, `GC2 control: ${portraitFails(ctlH).join(' | ')}`);
+      const hs = ctlH.slice(); const fig = /<svg [^>]*data-lcs-figure=""[^>]*>[\s\S]*?<\/svg>/.exec(hs[7])[0];
+      hs[7] = hs[7].replace(fig, fig + fig);   // one family member drawn twice
+      expectFail('GC2 a family with a repeated portrait', portraitFails(hs), /PORTRAIT: [a-z]+-[fm]-\d\.png twice in one family/); }
+    await faceGate({ page, render: null, renderBody, measure, expectFail, expectThrow, ok, CHROME, OUT, quick, portraitFails });
   } finally { await browser.close(); }
 
   console.log(`verify-b5-family: ${assertions} assertions, ${fails.length} failures`);
@@ -677,7 +694,7 @@ function apparatusFails(mode, instruction, present) {
   return f;
 }
 
-async function faceGate({ page, renderBody, expectFail, expectThrow, ok, CHROME, OUT, quick, garmentSexFails }) {
+async function faceGate({ page, renderBody, expectFail, expectThrow, ok, CHROME, OUT, quick, portraitFails }) {
   const { loadType } = require('../lib/load-types.js');
   const { renderInstance } = require('../render/render-instance.js');
   const { makeRng } = require('../lib/rng.js');
@@ -775,7 +792,7 @@ async function faceGate({ page, renderBody, expectFail, expectThrow, ok, CHROME,
     }
   }
 
-  // 2. the seed sweep: verify clean on every seed; garment fill never tied to sex (pooled); pooled answer-position tells
+  // 2. the seed sweep: verify clean on every seed; no portrait repeated in a family (pooled); pooled answer-position tells
   if (!quick) {
     const N = 12;
     const htmls = [];
@@ -799,9 +816,9 @@ async function faceGate({ page, renderBody, expectFail, expectThrow, ok, CHROME,
       if (worst) ok(worst[1] / denom <= 0.5, `${f.id} sweep: position ${worst[0]} on ${worst[1]}/${denom} (> 50 %: a pooled answer-position tell)`);
       console.log(`sweep ${f.id} ${f.mode} x ${N}: verify clean${worst ? ', worst position/answer ' + worst[0] + ' on ' + worst[1] + '/' + denom : ''}`);
     }
-    const gs = garmentSexFails(htmls);
+    const gs = portraitFails(htmls);
     ok(gs.length === 0, `faces sweep: ${gs.join(' | ')}`);
-    console.log(`faces sweep garment fill <-> sex over ${htmls.length} pages: ${gs.length ? gs.join(' | ') : 'every fill worn by both sexes'}`);
+    console.log(`faces sweep portraits over ${htmls.length} pages: ${gs.length ? gs.join(' | ') : 'none repeated in a family'}; most per cell ${JSON.stringify(portraitFails.need)}`);
   }
 
   // 3. POISONS — each must FAIL for its own reason; the untouched face page is the control
@@ -824,10 +841,9 @@ async function faceGate({ page, renderBody, expectFail, expectThrow, ok, CHROME,
     const tail = ctl.generations.bodyHtml.slice(L1);
     const oneSex = ctl.generations.bodyHtml.slice(0, L1) + tail.replace('data-lcs-sex="m"', 'data-lcs-sex="f"');
     expectFail('F1-PC a legend frame of one sex', (await rb(oneSex, 'K-370-f1-pc', f)).v, /not one f \+ one m/);
-    const fills = [...tail.matchAll(/fill="(#[0-9A-F]{6})"([^>]*)data-lcs-garment=""/gi)];
-    const other = [tokens.color.tealSoft, tokens.color.coralSoft, tokens.color.creamDeep].find((c) => c.toUpperCase() !== fills[1][1].toUpperCase());
-    const twoFill = ctl.generations.bodyHtml.slice(0, L1) + tail.replace(fills[1][0], fills[1][0].replace(fills[1][1], other));
-    expectFail('F1-PD two garment fills in one legend frame (colour ~ sex)', (await rb(twoFill, 'K-370-f1-pd', f)).v, /two garment fills in one frame/);
+    const wrongAge = ctl.generations.bodyHtml.slice(0, L1) + tail.replace(/data-lcs-portrait="elder-([fm])-\d\.png"/, 'data-lcs-portrait="adult-$1-1.png"');
+    ok(wrongAge !== ctl.generations.bodyHtml, 'F1-PD needle');
+    expectFail('F1-PD a parent portrait in the grandparents legend frame', (await rb(wrongAge, 'K-370-f1-pd', f)).v, /legend 1: a portrait that is not its figure's age and sex/);
     // SPARSE both ways on this face (the 814 one-line chrome has the most slack)
     const c1 = await rb(ctl.generations.bodyHtml, 'K-370-f1-sp-ctl', f, CHROME.one);
     ok(sparse(await measureFace('generations'), 'F1 SP control').length === 0, 'F1 SP control fails');

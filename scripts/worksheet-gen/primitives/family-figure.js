@@ -1,41 +1,27 @@
 /**
  * family-figure.js — a head-and-shoulders BUST for the K-370 `family` pages
- * (nt10-E; design docs/worksheet-gen/b5-designs/K-370-family.md §2). Pure SVG
- * on the tokens, Node-testable; the gate is qa/verify-b5-family-figure.js (it
- * parses the EMITTED markup and the Chromium render, never `meta`).
+ * (nt10-E; design docs/worksheet-gen/b5-designs/K-370-family.md §2). The gate
+ * is qa/verify-b5-family-figure.js (it parses the EMITTED markup, never `meta`).
  *
  *   familyFigure({ age:'baby'|'child'|'adult'|'elder', sex:'f'|'m', look,
- *                  tint?, px, id, x?, y? })
- *     -> { svg, width, height, meta:{ age, sex, look, tint, hairBottom, jawY, earTopY } }
+ *                  portrait?, px, id, x?, y? })
+ *     -> { svg, width, height, meta:{ age, sex, look, portrait, file, scale } }
+ *   assignPortraits(persons) -> copies with `portrait` = rank in the (age, sex) cell
  *
- * THE CAST (redrawn 2026-10-14, operator: "the elderly people are … scary — draw
- * cute, child friendly people", then "redraw the whole family"): one rounded,
- * picture-book style for every age — a big round head on a small soft body,
- * dot eyes with a white catch-light, a small open smile, a button nose and
- * blush dots. Grandparents have soft silver hair, rosy cheeks, thin round
- * glasses with the eyes visible inside, and a grandpa's moustache curls UP
- * like a smile and never covers the mouth. No wrinkle lines, no goggles.
- * The look ids, their order and their count are unchanged, so a seeded page
- * draws the same family as before — only the drawing changed.
+ * SINCE 2026-10-22 every bust is one of the operator's line-art portraits
+ * ("the illustrations … are terrible — replace all of them with the images in
+ * `family images`"), embedded as a PNG data URI — see THE PORTRAITS below.
+ * The hand-drawn cast that came before (2026-09-23, redrawn 2026-10-14) is
+ * retired; its LOOKS table stays ONLY as the draw registry, because every
+ * composer samples look ids from the page rng and changing that list would
+ * move the names and answers of every published page.
  *
  * viewBox 0 0 100 120 (the bust's bottom edge = the mat's bottom); width =
- * px * 100 / 120; THROWS below MIN_PX 72. Outline teal 3 px AT EVERY SIZE;
- * face / neck / ears white; garment = the look's tint; detail lines teal
- * 1.5 px. No skin tone, no earrings, no make-up, no props; every tint appears
- * in BOTH sexes' looks (gated), so colour never carries sex. Age reads from
- * the head : body proportion (child and baby heads much bigger than their
- * shoulders) plus hair TONE (ink for child / adult, grid = silver for elder).
- *
- * SEX = HAIR REACH, a measured rule (stamped, and re-measured by the gate):
- *   hairBottom = the lowest y of any [data-lcs-hair] shape
- *   jawY = chin - 6        earTopY = head cy - 4
- *   every f look: hairBottom >= jawY + 8
- *   every m look: hairBottom <= earTopY   (a beard / moustache is a separate
- *                 [data-lcs-beard] shape on the face, never on f)
- * The baby (at most one per page) draws ONE curl and no sex.
- * Hair paths use only M L Q C Z (the gate samples those).
+ * px * 100 / 120; THROWS below MIN_PX 72.
  */
 'use strict';
+const fs = require('fs');
+const path = require('path');
 const tokens = require('./_tokens.js');
 const { esc } = require('./_svg.js');
 
@@ -194,78 +180,68 @@ function shapeSvg(s, fill, sw, attr) {
   return `<path d="${s.d}" ${common}/>`;
 }
 
-function familyFigure({ age, sex, look, tint, px, id, x, y } = {}) {
+/* ---------------------------------------------------------------- THE PORTRAITS (2026-10-22)
+ * Operator: "The illustrations on the family members worksheets are terrible. Replace all of them with
+ * the images in `family images`". Every bust is now one of the operator's line-art portraits, built by
+ * tools/build-family-portraits.js into data/b5/family-portraits/<age>-<sex>-<n>.png (+ manifest.json):
+ * old → elder · young → adult · teenager → child · toddler → baby.
+ * The look ids above are KEPT as the draw registry only: composers still `rng.sample(lookIds(...))`, so a
+ * seeded page consumes the rng exactly as before and draws the same family, names and answers. WHICH
+ * portrait a person shows is the rng-free `portrait` index (0-based) the stage assigns by rank inside the
+ * page's (age, sex) cell (see assignPortraits) — no portrait repeats in one family.
+ * Age also reads from SIZE: a child bust fills PORTRAIT_SCALE.child of the box, a baby less. */
+const PORTRAIT_DIR = path.join(__dirname, '..', 'data', 'b5', 'family-portraits');
+const PORTRAIT_SCALE = { elder: 1, adult: 1, child: 0.9, baby: 0.8 };
+let _portraits = null;
+function portraits() {
+  if (!_portraits) _portraits = JSON.parse(fs.readFileSync(path.join(PORTRAIT_DIR, 'manifest.json'), 'utf8')).portraits;
+  return _portraits;
+}
+const _uri = new Map();
+function portraitUri(file) {
+  if (!_uri.has(file)) _uri.set(file, 'data:image/png;base64,' + fs.readFileSync(path.join(PORTRAIT_DIR, file)).toString('base64'));
+  return _uri.get(file);
+}
+const portraitCount = (age, sex) => (portraits()[age] && portraits()[age][sex] || []).length;
+
+/** assignPortraits(persons) -> copies with `portrait` = the person's rank inside its (age, sex) cell, in
+ *  page order. Rng-free. Throws when a cell needs more portraits than exist. A preset portrait is kept. */
+function assignPortraits(persons) {
+  const seen = {}, out = persons.slice();
+  // the OLDER sibling (path Z / B) is served first, so the youngest-looking portrait of a cell (the child-girl set ends
+  // with the toddler) never lands on the sister drawn taller than "me"; everyone else keeps page order
+  const order = persons.map((p, i) => i).sort((a, b) => (/^[ZB]$/.test(persons[b].path || '') - /^[ZB]$/.test(persons[a].path || '')) || a - b);
+  for (const i of order) {
+    const p = persons[i];
+    if (p.portrait != null) continue;
+    const k = p.age + '|' + p.sex;
+    const n = seen[k] = (seen[k] == null ? 0 : seen[k] + 1);
+    if (n >= portraitCount(p.age, p.sex)) throw new Error(`assignPortraits: ${n + 1} ${p.age} ${p.sex} on one page, only ${portraitCount(p.age, p.sex)} portraits`);
+    out[i] = { ...p, portrait: n };
+  }
+  return out;
+}
+
+function familyFigure({ age, sex, look, portrait = 0, px, id, x, y } = {}) {
   if (!AGE_GEOM[age]) throw new Error(`familyFigure: unknown age ${age}`);
   if (sex !== 'f' && sex !== 'm') throw new Error(`familyFigure: sex ${sex} (f | m)`);
   if (!(px >= MIN_PX)) throw new Error(`familyFigure: px ${px} < MIN_PX ${MIN_PX}`);
   if (!id || !/^[A-Za-z0-9_-]+$/.test(String(id))) throw new Error(`familyFigure: id "${id}" (the clip id must be unique on the page)`);
-  const L = LOOKS[age][sex][look];
-  if (!L) throw new Error(`familyFigure: no look "${look}" for ${age} ${sex}`);
-  const g = AGE_GEOM[age];
-  const scale = px / VB_H;
-  const sw = +(3 / scale).toFixed(3);
-  const sd = +(DETAIL / scale).toFixed(3);
-  // elder hair is WHITE with the teal outline (the first redraw's beige read as a blond mum / dad — review 2026-10-14)
-  const hair = age === 'elder' ? T.white : T.ink;
-  const garment = T[tint || L.tint];
-  if (!garment) throw new Error(`familyFigure: tint ${tint} is not a token`);
+  if (!LOOKS[age][sex][look]) throw new Error(`familyFigure: no look "${look}" for ${age} ${sex}`);
+  const files = (portraits()[age] || {})[sex] || [];
+  const file = files[portrait];
+  if (!file) throw new Error(`familyFigure: no portrait ${portrait} for ${age} ${sex} (have ${files.length})`);
+  const k = PORTRAIT_SCALE[age];
+  const iw = +(VB_W * k).toFixed(2), ih = +(VB_H * k).toFixed(2);
+  const ix = +((VB_W - iw) / 2).toFixed(2), iy = +(VB_H - ih).toFixed(2);
   const W = +(px * VB_W / VB_H).toFixed(2);
-  const parts = [];
-  const hairAttr = ' data-lcs-hair=""';
-  // 1 back hair
-  for (const s of L.back) parts.push(shapeSvg(s, hair, sw, hairAttr));
-  // 2 garment + collar
-  parts.push(`<path d="${g.shoulders}" fill="${garment}" stroke="${T.teal}" stroke-width="${sw}" stroke-linejoin="round" data-lcs-garment=""/>`);
-  parts.push(`<path d="${g.collar}" fill="none" stroke="${T.teal}" stroke-width="${sd}" stroke-linecap="round"/>`);
-  // 3 neck
-  if (g.neck) parts.push(`<rect x="${g.neck.x}" y="${g.neck.y}" width="${g.neck.w}" height="${g.neck.h}" rx="${(g.neck.w / 2).toFixed(1)}" fill="${T.white}" stroke="${T.teal}" stroke-width="${sw}"/>`);
-  // 4 ears (hidden by long hair: those looks declare ears:false)
-  if (L.ears) for (const [ex, ey] of g.ears) parts.push(`<ellipse cx="${ex}" cy="${ey}" rx="${g.earR[0]}" ry="${g.earR[1]}" fill="${T.white}" stroke="${T.teal}" stroke-width="${sw}" data-lcs-ear=""/>`);
-  // 5 head
-  parts.push(`<ellipse cx="${g.head.cx}" cy="${g.head.cy}" rx="${g.head.rx}" ry="${g.head.ry}" fill="${T.white}" stroke="${T.teal}" stroke-width="${sw}" data-lcs-head=""/>`);
-  // 6 blush (soft coral dots; under the hair so long hair may cover them)
-  for (const [cx, cy] of g.cheeks) parts.push(`<circle cx="${cx}" cy="${cy}" r="${g.cheekR}" fill="${T.coral}" fill-opacity="0.32" data-lcs-cheek=""/>`);
-  // 7 front hair
-  for (const s of L.front) parts.push(shapeSvg(s, hair, sw, hairAttr));
-  if (L.detail) for (const d of L.detail) parts.push(`<path d="${d}" fill="none" stroke="${T.teal}" stroke-width="${sd}" stroke-linecap="round"/>`);
-  // 8 face: eyes with a catch-light, nose, open smile
-  if (L.curl) parts.push(`<path d="${L.curl}" fill="none" stroke="${T.teal}" stroke-width="${+(2.2 / scale).toFixed(3)}" stroke-linecap="round" data-lcs-curl=""/>`);
-  for (const [ex, ey] of g.eyes) {
-    parts.push(`<circle cx="${ex}" cy="${ey}" r="${g.eyeR}" fill="${T.teal}" data-lcs-eye=""/>`);
-    parts.push(`<circle cx="${(ex + g.eyeR * 0.35).toFixed(2)}" cy="${(ey - g.eyeR * 0.35).toFixed(2)}" r="${(g.eyeR * 0.34).toFixed(2)}" fill="${T.white}"/>`);
-  }
-  if (g.nose) parts.push(`<path d="${g.nose}" fill="none" stroke="${T.teal}" stroke-width="${sd}" stroke-linecap="round"/>`);
-  parts.push(`<path d="${g.mouth}" fill="${T.coral}" stroke="${T.teal}" stroke-width="${sd}" stroke-linejoin="round" data-lcs-mouth=""/>`);
-  // 9 beard / moustache (m only; a separate shape that never covers the mouth)
-  const cue = age === 'elder' && sex === 'm' ? elderMaleCue(look, L) : null;
-  const beardD = L.beard || (cue === 'moustache' ? ELDER_M_MOUSTACHE_S : null);
-  if (beardD) {
-    if (sex !== 'm') throw new Error(`familyFigure: a beard on an f look (${look})`);
-    parts.push(`<path d="${beardD}" fill="${hair}" stroke="${T.teal}" stroke-width="${sd}" stroke-linejoin="round" data-lcs-beard=""/>`);
-  }
-  // 10 elder glasses: thin round lenses, the eyes visible inside
-  if (age === 'elder' && ELDER_GLASSES.has(sex + ':' + look)) {
-    const gw = +(1.6 / scale).toFixed(3);
-    const [[lx, ly], [rx, ry]] = g.eyes;
-    parts.push(`<g data-lcs-glasses="" fill="none" stroke="${T.teal}" stroke-width="${gw}"><circle cx="${lx}" cy="${ly}" r="7.6"/><circle cx="${rx}" cy="${ry}" r="7.6"/><path d="M ${lx + 7.6} ${ly} Q 50 ${ly - 3} ${rx - 7.6} ${ry}"/></g>`);
-  }
-  // 11 drape (a plait / braids over the shoulder, in front of the garment) + hair ties
-  if (L.drape) for (const s of L.drape) parts.push(shapeSvg(s, hair, sw, hairAttr));
-  if (L.plaitLines) for (const d of L.plaitLines) parts.push(`<path d="${d}" fill="none" stroke="${T.teal}" stroke-width="${sd}" stroke-linecap="round"/>`);
-  if (L.band) parts.push(`<path d="${L.band}" fill="none" stroke="${T.coral}" stroke-width="${+(2.6 / scale).toFixed(3)}" stroke-linecap="round" data-lcs-band=""/>`);
-  if (L.bow) { const [bx, by] = L.bow; parts.push(`<g data-lcs-bow="" fill="${T.coral}" stroke="${T.teal}" stroke-width="${sd}" stroke-linejoin="round"><path d="M ${bx} ${by} L ${bx - 9} ${by - 6} L ${bx - 9} ${by + 6} Z"/><path d="M ${bx} ${by} L ${bx + 9} ${by - 6} L ${bx + 9} ${by + 6} Z"/><circle cx="${bx}" cy="${by}" r="2.6"/></g>`); }
-  if (L.clip) { const [cx, cy] = L.clip; parts.push(`<rect x="${cx - 6}" y="${cy - 2.6}" width="12" height="5.2" rx="2.6" fill="${T.coral}" stroke="${T.teal}" stroke-width="${sd}" transform="rotate(-20 ${cx} ${cy})" data-lcs-clip-mark=""/>`); }
-  for (const [tx, ty] of [...(L.ties || []), ...(L.tie ? [L.tie] : [])]) parts.push(`<circle cx="${tx}" cy="${ty}" r="3.6" fill="${T.coral}" stroke="${T.teal}" stroke-width="${sd}" data-lcs-tie=""/>`);
-
-  const hairShapes = [...L.back, ...L.front, ...(L.drape || [])];
-  const hairBottom = hairShapes.length ? Math.max(...hairShapes.map(shapeBottom)) : null;
   const clip = 'ff-' + id;
   const pos = (x != null ? ` x="${x}"` : '') + (y != null ? ` y="${y}"` : '');
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg"${pos} width="${W}" height="${px}" viewBox="0 0 ${VB_W} ${VB_H}" role="img" aria-label="" ` +
-    `data-lcs-figure="" data-lcs-age="${age}" data-lcs-sex="${sex}" data-lcs-look="${esc(look)}" data-lcs-tint="${esc(tint || L.tint)}" data-lcs-px="${px}"${cue ? ` data-lcs-male-cue="${cue}"` : ''}>` +
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"${pos} width="${W}" height="${px}" viewBox="0 0 ${VB_W} ${VB_H}" role="img" aria-label="" ` +
+    `data-lcs-figure="" data-lcs-age="${age}" data-lcs-sex="${sex}" data-lcs-look="${esc(look)}" data-lcs-portrait="${esc(file)}" data-lcs-px="${px}">` +
     `<defs><clipPath id="${clip}"><rect x="0" y="0" width="${VB_W}" height="${VB_H}"/></clipPath></defs>` +
-    `<g clip-path="url(#${clip})">${parts.join('')}</g></svg>`;
-  return { svg, width: W, height: px, meta: { age, sex, look, maleCue: cue, tint: tint || L.tint, hairBottom, jawY: jawYOf(age), earTopY: earTopYOf(age), scale } };
+    `<g clip-path="url(#${clip})"><image x="${ix}" y="${iy}" width="${iw}" height="${ih}" preserveAspectRatio="xMidYMax meet" href="${portraitUri(file)}" data-lcs-portrait-img=""/></g></svg>`;
+  return { svg, width: W, height: px, meta: { age, sex, look, portrait, file, scale: k } };
 }
 
-module.exports = { familyFigure, LOOKS, AGE_GEOM, MIN_PX, VB_W, VB_H, lookIds, jawYOf, earTopYOf, chinOf, ELDER_GLASSES };
+module.exports = { familyFigure, assignPortraits, portraitCount, PORTRAIT_SCALE, PORTRAIT_DIR, LOOKS, AGE_GEOM, MIN_PX, VB_W, VB_H, lookIds, jawYOf, earTopYOf, chinOf, ELDER_GLASSES };

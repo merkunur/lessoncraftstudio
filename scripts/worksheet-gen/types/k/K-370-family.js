@@ -204,10 +204,11 @@ function browserVerify(data) {
     }
     if (p.w < K.frameW) fails.push(`${p.path}: frame ${p.w} wide < ${K.frameW}`);
   }
-  // garment fill never tied to sex: one fill per generation row
-  const gFill = (p) => { const g = p.g.querySelector('[data-lcs-garment]'); return g ? g.getAttribute('fill').toUpperCase() : null; };
-  const rowFill = {};
-  for (const p of persons) { const r = String(p.y); const f = gFill(p); if (rowFill[r] && rowFill[r] !== f) fails.push(`garment fills differ within a generation row (${rowFill[r]} vs ${f} on ${p.path || 'ego'}) — colour could carry sex`); rowFill[r] = rowFill[r] || f; }
+  // the operator's portraits (2026-10-22): each figure shows a portrait of ITS age and sex, and no two people share one
+  { const seenP = {};
+    for (const p of persons) { const fig = p.g.querySelector('svg[data-lcs-figure]'); const file = fig && fig.dataset.lcsPortrait;
+      if (!file || !file.startsWith(p.age + '-' + p.sex + '-')) fails.push(`${p.path || 'ego'}: portrait "${file}" is not a ${p.age} ${p.sex}`);
+      else if (seenP[file]) fails.push(`${seenP[file]} and ${p.path || 'ego'} show the same portrait ${file}`); else seenP[file] = p.path || 'ego'; } }
   // no two people of one (age, sex) cell share a look
   const cell = {};
   for (const p of persons) { const k = p.age + p.sex + '|' + p.look; if (cell[k]) fails.push(`${cell[k]} and ${p.path} share the look ${p.look}`); cell[k] = p.path; }
@@ -762,8 +763,10 @@ function browserVerifyFace(data) {
       }
       if (p.w < floors.frameW) f.push(`${p.path}: frame ${p.w} wide < ${floors.frameW}`);
       const k = p.age + p.sex + '|' + p.look; if (cell[k]) f.push(`${cell[k]} and ${p.path} share the look ${p.look}`); cell[k] = p.path || 'ego';
-      const gar = p.g.querySelector('[data-lcs-garment]'); const fill = gar ? gar.getAttribute('fill').toUpperCase() : null;
-      const r = String(p.y); if (rowFill[r] && rowFill[r] !== fill) f.push(`garment fills differ within a generation row (${rowFill[r]} vs ${fill}) — colour could carry sex`); rowFill[r] = rowFill[r] || fill;
+      // the operator's portraits (2026-10-22): a portrait of the person's age and sex, never one shown twice
+      const file = fig && fig.dataset.lcsPortrait;
+      if (!file || !file.startsWith(p.age + '-' + p.sex + '-')) f.push(`${p.path || 'ego'}: portrait "${file}" is not a ${p.age} ${p.sex}`);
+      else if (rowFill[file]) f.push(`${rowFill[file]} and ${p.path || 'ego'} show the same portrait ${file}`); else rowFill[file] = p.path || 'ego';
     }
     // THE LINES: parents re-derived from the drawn geometry (bar -> drop -> frame)
     const segs = [...svg.querySelectorAll('line[data-lcs-conn]')].map((l) => ({ x1: +l.getAttribute('x1'), y1: +l.getAttribute('y1'), x2: +l.getAttribute('x2'), y2: +l.getAttribute('y2') }));
@@ -808,8 +811,7 @@ function browserVerifyFace(data) {
         const figs = [...g.querySelectorAll('svg[data-lcs-figure]')];
         if (figs.length !== 2 || figs.some((x) => x.dataset.lcsAge !== AGE[r])) fails.push(`legend ${r}: want two ${AGE[r]} figures`);
         if (new Set(figs.map((x) => x.dataset.lcsSex)).size !== 2) fails.push(`legend ${r}: not one f + one m (a sex would attach to a numeral)`);
-        const fills = new Set(figs.map((x) => { const gg = x.querySelector('[data-lcs-garment]'); return gg ? gg.getAttribute('fill').toUpperCase() : ''; }));
-        if (fills.size !== 1) fails.push(`legend ${r}: two garment fills in one frame — colour could carry sex`);
+        if (figs.some((x) => !(x.dataset.lcsPortrait || '').startsWith(x.dataset.lcsAge + '-' + x.dataset.lcsSex + '-'))) fails.push(`legend ${r}: a portrait that is not its figure's age and sex`);
         const disc = rail.querySelector(`[data-lcs-gen-disc-text="${r}"]`);
         if (!disc || disc.textContent.trim() !== r) fails.push(`legend ${r}: the disc does not read ${r}`);
       }

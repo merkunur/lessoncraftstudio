@@ -35,7 +35,7 @@
 'use strict';
 const tokens = require('../../primitives/_tokens.js');
 const { esc } = require('../../primitives/_svg.js');
-const { familyFigure } = require('../../primitives/family-figure.js');
+const { familyFigure, assignPortraits } = require('../../primitives/family-figure.js');
 const { familyTree } = require('../../primitives/family-tree.js');
 const { namePlate } = require('../components-b4.js');
 const { blankNumeralBox } = require('../components-b3.js');
@@ -57,7 +57,7 @@ function pictureFrame({ person, box, ego = false }) {
   const { x, y, w, h } = box;
   // bustPx: a FACE-only override (F3 draws the older sibling taller than the ego); the base sets none
   const px = person.bustPx || Math.round(h * 0.8);
-  const fig = familyFigure({ age: person.age, sex: person.sex, look: person.look, tint: person.tint, px, id: 'fam-' + person.id });
+  const fig = familyFigure({ age: person.age, sex: person.sex, look: person.look, portrait: person.portrait, px, id: 'fam-' + person.id });
   const inset = 5;
   const fx = S(x + (w - fig.width) / 2), fy = S(y + h - inset - px);
   const figSvg = fig.svg.replace('<svg ', `<svg x="${fx}" y="${fy}" `);
@@ -79,6 +79,8 @@ function familyStage({ persons, frame, badges, egoId, egoName, skin = 'tree', w 
   if (labelH != null) extra.labelH = labelH;
   if (rowGap != null) extra.rowGap = rowGap;
   if (crownClamp) extra.crownClamp = true;
+  // the operator's portraits (2026-10-22): each person's portrait = its rank in the family's (age, sex) cell, rng-free
+  persons = assignPortraits(persons);
   const tree = familyTree({
     persons, frame, badges, egoId, plates, skin, w, ...extra,
     nodeSvg: (person, box) => pictureFrame({ person, box, ego: person.id === egoId }),
@@ -136,7 +138,7 @@ function genRail({ gens, w = 639, frameW = 150, frameH = 96, px = 76, cord = 16,
     parts.push(`<line x1="${S(cx - 40)}" y1="${railY}" x2="${S(cx - 40)}" y2="${top}" stroke="${T.teal}" stroke-width="1.5"/>`,
       `<line x1="${S(cx + 40)}" y1="${railY}" x2="${S(cx + 40)}" y2="${top}" stroke="${T.teal}" stroke-width="1.5"/>`);
     parts.push(`<g data-lcs-gen-legend="${g.rank}"><rect x="${S(x)}" y="${top}" width="${frameW}" height="${frameH}" rx="10" ry="10" fill="${T.white}"/>`);
-    const figs = g.people.map((p) => familyFigure({ age: p.age, sex: p.sex, look: p.look, tint: p.tint, px, id: 'fam-gen-' + g.rank + p.sex }));
+    const figs = g.people.map((p) => familyFigure({ age: p.age, sex: p.sex, look: p.look, portrait: p.portrait, px, id: 'fam-gen-' + g.rank + p.sex }));
     const gap = 8, tot = figs[0].width + figs[1].width + gap;
     let fx = x + (frameW - tot) / 2;
     for (const f of figs) { parts.push(f.svg.replace('<svg ', `<svg x="${S(fx)}" y="${S(top + frameH - 5 - px)}" `)); fx += f.width + gap; }

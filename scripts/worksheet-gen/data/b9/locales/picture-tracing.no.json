@@ -3,7 +3,7 @@
     "base": {
       "title": "Følg linjene: tegn over hagen og stien opp til døra",
       "printTitle": "Stien opp til døra",
-      "instruction": "Tegn over de stiplede linjene, så hagen blir ferdig: stien, huset, treet, sommerfuglen, tulipanene og kaninen."
+      "instruction": "Tegn over alle de stiplede linjene, så hagen blir ferdig, fra sola og skyen ned til stien og kaninen."
     },
     "first-tracing": {
       "title": "Finmotorikk i barnehagen: min første store hval å tegne over",
@@ -28,7 +28,7 @@
     "zigzags": {
       "title": "Sikksakk: tegn over fjellene og uværet over teltleiren",
       "printTitle": "Uvær over leiren",
-      "instruction": "Tegn over sikksakkene i fjellene, trærne, teltet og lynene. Stopp ved hver spiss."
+      "instruction": "Tegn over hele bildet. Stopp ved hver spiss i sikksakken: fjellene, trærne, teltet og lynene."
     },
     "curls": {
       "title": "Spiraler og løkker: tegn over sneglen, sløyfa og kringla",
@@ -56,9 +56,9 @@
       "instruction": "Tegn over de stiplede delene, så bildene blir hele: hjul, en tut, to håndtak, en spiss og ører."
     },
     "christmas": {
-      "title": "Juleoppgaver: tegn rundt hver julekule og stjerne",
+      "title": "Juleoppgaver: tegn over julekulene og stjernene på juletreet",
       "printTitle": "Julaften",
-      "instruction": "Tegn over juletreet, gavene, lenestolen, vinduet og teppet. Tegn så rundt hver julekule og stjerne."
+      "instruction": "Tegn over juletreet, gavene, lenestolen, vinduet og teppet. Tegn så over hver julekule og stjerne, hele veien rundt."
     },
     "shape-picture": {
       "title": "Geometriske former: en rakett av sirkler, kvadrater og trekanter",

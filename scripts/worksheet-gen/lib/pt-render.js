@@ -26,9 +26,12 @@ const STYLES = {
 };
 /** the band rules (pedagogy contract §1): the shortest line that is still TRACED, the closest two guide lines may run */
 const BANDS = {
-  PreK: { style: 'P1', minSeg: 50, gap: 28, clear: 30, minPic: 300 },
-  K: { style: 'P2', minSeg: 25, gap: 18, clear: 16, minPic: 130 },
-  G1: { style: 'P3', minSeg: 12, gap: 10, clear: 10, minPic: 80 },
+  // speck: a SOLID OPEN fragment shorter than this is tracing residue (a junction tick, a spur stub) and is left out —
+  // on a traced picture it reads as a stray letter or a start dot (final visual review: 'Δ' ticks on a wing, a solid L
+  // on a roof, a solid diagonal in a tent). Filled blobs (eyes) and closed rings (buttons) are never specks.
+  PreK: { style: 'P1', minSeg: 50, gap: 28, clear: 30, minPic: 300, speck: 20 },
+  K: { style: 'P2', minSeg: 25, gap: 18, clear: 16, minPic: 130, speck: 14 },
+  G1: { style: 'P3', minSeg: 12, gap: 10, clear: 10, minPic: 80, speck: 9 },
 };
 const INK = '#2b2b2b';
 
@@ -49,7 +52,9 @@ function placeTrace(tr, item) {
   const tf = item.flip
     ? `matrix(${-s} 0 0 ${s} ${(left + b.x1 * s).toFixed(2)} ${(top - b.y0 * s).toFixed(2)})`
     : `matrix(${s} 0 0 ${s} ${(left - b.x0 * s).toFixed(2)} ${(top - b.y0 * s).toFixed(2)})`;
-  const blobs = tr.blobs.map((x) => ({ d: x.d, transform: tf }));
+  // item.noBlobs: no filled solid shapes (a tractor's tyre lugs read as a row of start dots; a knot in a crown as a stray
+  // blob — final visual review). Only for pictures whose fills are texture, never eyes.
+  const blobs = item.noBlobs ? [] : tr.blobs.map((x) => ({ d: x.d, transform: tf }));
   return { lines, blobs, box: { x0: left, y0: top, x1: left + W, y1: top + H }, s };
 }
 
@@ -183,6 +188,7 @@ function guidePaths(placed, style, opts = {}) {
   const st = typeof style === 'string' ? STYLES[style] : style;
   const colour = opts.colour || st.colour || GUIDE;
   let kinds = opts.band ? classify(placed.lines, opts.band) : placed.lines.map(() => 'trace');
+  const B0 = typeof opts.band === 'string' ? BANDS[opts.band] : opts.band;
   // outline only (PreK, pedagogy #2): the drawing's inner lines are drawn solid, only its outer outline is traced
   if (opts.outline) kinds = kinds.map((k, i) => (placed.lines[i].outer ? k : 'solid'));
   let out = '', marks = '';
@@ -200,6 +206,7 @@ function guidePaths(placed, style, opts = {}) {
     }
   }
   placed.lines.forEach((ln, k) => {
+    if (kinds[k] === 'solid' && !ln.closed && B0 && B0.speck && plen(ln.pts) < B0.speck) return;
     if (kinds[k] === 'solid') out += `<path d="${dPath(ln.pts, ln.closed)}" fill="none" stroke="${INK}" stroke-width="${Math.max(1.6, st.w * 0.7).toFixed(2)}" stroke-linecap="round" stroke-linejoin="round" data-pt-solid="1"/>`;
     else out += guideLine(ln, st, colour);
   });

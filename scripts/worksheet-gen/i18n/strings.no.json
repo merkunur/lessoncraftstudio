@@ -3248,7 +3248,7 @@
   },
   "K-418": {
     "title": "Følg linjene: tegn over hagen og stien opp til døra",
-    "instruction": "Tegn over de stiplede linjene, så hagen blir ferdig: stien, huset, treet, sommerfuglen, tulipanene og kaninen.",
+    "instruction": "Tegn over alle de stiplede linjene, så hagen blir ferdig, fra sola og skyen ned til stien og kaninen.",
     "printTitle": "Stien opp til døra"
   },
   "K-419": {
@@ -3273,7 +3273,7 @@
   },
   "K-423": {
     "title": "Sikksakk: tegn over fjellene og uværet over teltleiren",
-    "instruction": "Tegn over sikksakkene i fjellene, trærne, teltet og lynene. Stopp ved hver spiss.",
+    "instruction": "Tegn over hele bildet. Stopp ved hver spiss i sikksakken: fjellene, trærne, teltet og lynene.",
     "printTitle": "Uvær over leiren"
   },
   "K-424": {
@@ -3302,8 +3302,8 @@
     "printTitle": "Reparasjonshylla"
   },
   "K-429": {
-    "title": "Juleoppgaver: tegn rundt hver julekule og stjerne",
-    "instruction": "Tegn over juletreet, gavene, lenestolen, vinduet og teppet. Tegn så rundt hver julekule og stjerne.",
+    "title": "Juleoppgaver: tegn over julekulene og stjernene på juletreet",
+    "instruction": "Tegn over juletreet, gavene, lenestolen, vinduet og teppet. Tegn så over hver julekule og stjerne, hele veien rundt.",
     "printTitle": "Julaften"
   },
   "K-430": {

@@ -1,131 +1,131 @@
 {
-  "locale": "fi",
-  "strings": {
-    "base": {
-      "title": "Jäljennä kuvat esikoulussa: puutarhan polku ovelle asti",
-      "printTitle": "Polku ovelle",
-      "instruction": "Jäljennä katkoviivoja pitkin polku, talo, puu, perhonen, tulppaanit ja pupu."
-    },
-    "first-tracing": {
-      "title": "Ensimmäinen jäljennettävä kuva varhaiskasvatukseen: iso valas",
-      "printTitle": "Ensimmäinen kuvani",
-      "instruction": "Aloita pisteestä. Jäljennä iso valas hitaasti ympäri, kunnes palaat pisteeseen."
-    },
-    "look-then-trace": {
-      "title": "Jäljennä kuva mallin mukaan: katso pingviiniä ja kengurua",
-      "printTitle": "Katso ja jäljennä",
-      "instruction": "Katso kehyksessä olevaa kuvaa. Jäljennä sitten vieressä oleva sama eläin."
-    },
-    "round-and-round": {
-      "title": "Pyöreät kuvat varhaiskasvatukseen: jäljennä ympäri kuin o",
-      "printTitle": "Ympäri kuin o",
-      "instruction": "Aloita jokaisesta pisteestä ja piirrä ympäri samaan suuntaan kuin kirjoitat o-kirjaimen."
-    },
-    "straight-lines": {
-      "title": "Jäljennä kuvat suorin viivoin: alas, sivulle ja vinoon",
-      "printTitle": "Alas, sivulle, vinoon",
-      "instruction": "Katso nuolta jokaisen pystyrivin yläpuolella. Jäljennä rivi kerrallaan: alas, sivulle ja vinoon."
-    },
-    "zigzags": {
-      "title": "Jäljennä siksakit: vuoret ja ukkonen teltan yllä",
-      "printTitle": "Ukkonen teltan yllä",
-      "instruction": "Jäljennä vuorten, kuusten, teltan ja salamoiden siksakit. Pysähdy joka kärjessä."
-    },
-    "curls": {
-      "title": "Spiraalit ja silmukat: jäljennä etana, tikkari ja rusetti",
-      "printTitle": "Spiraaligalleria",
-      "instruction": "Jäljennä spiraalit ja silmukat: etana, tikkari, rusetti, rinkeli ja tuulimylly."
-    },
-    "trace-and-color": {
-      "title": "Piirrä ja väritä: jäljennä piknik ison puun alla",
-      "printTitle": "Piknik",
-      "instruction": "Jäljennä koko piknikkuva. Väritä se sitten haluamillasi väreillä."
-    },
-    "where-to-start": {
-      "title": "Hienomotoriikka esikouluun: mistä aloitan? Kuvat portailla",
-      "printTitle": "Mistä aloitan?",
-      "instruction": "Aloita jokaisesta pisteestä ja seuraa nuolta. Kulje portaita alas kuva kerrallaan."
-    },
-    "trace-and-count": {
-      "title": "Jäljennä ja laske: montako ankkaa uiskentelee lammessa?",
-      "printTitle": "Ankat lammessa",
-      "instruction": "Jäljennä ankat. Laske ne. Kirjoita laatikkoon, montako niitä on."
-    },
-    "finish-the-picture": {
-      "title": "Jäljennä puuttuvat osat: tee hyllyn kuvista kokonaisia",
-      "printTitle": "Täydennä hyllyn kuvat",
-      "instruction": "Jäljennä auton pyörät, kannun nokka, sateenvarjon varsi, kupin korva, hyrrän kärki ja pupun korvat."
-    },
-    "christmas": {
-      "title": "Jouluaatto: jäljennä joulukuusi, lahjat ja jokainen pallo",
-      "printTitle": "Jouluaatto",
-      "instruction": "Jäljennä kuusi, lahjat, nojatuoli, ikkuna ja matto. Piirrä sitten jokaisen pallon ja tähden ympäri."
-    },
-    "shape-picture": {
-      "title": "Muotoraketti: jäljennä ympyrät, neliöt, kolmiot ja suorakulmiot",
-      "printTitle": "Muotoraketti",
-      "instruction": "Jäljennä raketin ja taivaan kaikki muodot. Väritä sitten jokainen ympyrä."
-    },
-    "summer-sea": {
-      "title": "Kesäinen postikortti: jäljennä aallot meren poikki",
-      "printTitle": "Postikortti mereltä",
-      "instruction": "Jäljennä aallot vasemmalta oikealle. Jäljennä sitten purjevene ja ranta."
-    },
-    "big-middle-small": {
-      "title": "Iso, keskikokoinen ja pieni: jäljennä koneet, autot ja laivat",
-      "printTitle": "Iso, keskikokoinen, pieni",
-      "instruction": "Jäljennä joka rivillä ensin iso, sitten keskikokoinen ja lopuksi pieni."
-    },
-    "dotted-street": {
-      "title": "Jäljennä pisteviivakuva 1. luokalla: aamu kaupungissa",
-      "printTitle": "Aamu kaupungissa",
-      "instruction": "Jäljennä pisteviivat huolellisesti, myös pienet yksityiskohdat."
-    },
-    "picture-and-word": {
-      "title": "Jäljennä kuva ja sana: aurinko, kala, kissa ja omena",
-      "printTitle": "Kuvat ja sanat",
-      "instruction": "Jäljennä kuva. Sano, mikä se on. Jäljennä sana kuvan alla."
-    },
-    "trace-and-draw": {
-      "title": "Jäljennä ja piirrä: mitä traktori kuljettaa perävaunussa?",
-      "printTitle": "Mitä traktori kuljettaa?",
-      "instruction": "Jäljennä traktori, perävaunu ja eläimet. Piirrä sitten tyhjään perävaunuun, mitä traktori kuljettaa."
-    },
-    "other-half": {
-      "title": "Symmetria: jäljennä toinen puoli – perhonen, pöllö ja nalle",
-      "printTitle": "Toinen puoli",
-      "instruction": "Jäljennä katkoviivoin piirretty puolikas, niin jokaisen kuvan molemmat puolet ovat samanlaiset."
-    },
-    "hidden-animals": {
-      "title": "Syksyinen metsä: etsi ja jäljennä 5 piilossa olevaa eläintä",
-      "printTitle": "Kuka piileskelee metsässä?",
-      "instruction": "Etsi metsästä 5 piilossa olevaa eläintä. Jäljennä ne."
-    }
+ "locale": "fi",
+ "strings": {
+  "base": {
+   "title": "Jäljennä kuvat esikoulussa: puutarhan polku ovelle asti",
+   "printTitle": "Polku ovelle",
+   "instruction": "Jäljennä kaikki katkoviivat, niin puutarha valmistuu: aurinko, pilvi, talo, puu, perhonen, tulppaanit, pupu ja polku."
   },
-  "words": [
-    "aurinko",
-    "kala",
-    "kissa",
-    "omena"
-  ],
-  "family": {
-    "slug": "jaljenna-kuvat",
-    "name": "Jäljennä kuvat"
+  "first-tracing": {
+   "title": "Ensimmäinen jäljennettävä kuva varhaiskasvatukseen: iso valas",
+   "printTitle": "Ensimmäinen kuvani",
+   "instruction": "Aloita pisteestä. Jäljennä iso valas hitaasti ympäri, kunnes palaat pisteeseen."
   },
-  "skill": {
-    "full": "Kokonaisten kuvien jäljentäminen harjoittaa rauhallista kynänkäyttöä, pitkiä yhtenäisiä vetoja ja tarkkaa katsomista: hyvä pohja kirjoittamiselle.",
-    "short": "Hienomotoriikkaa ja kynänkäyttöä kokonaisilla kuvilla"
+  "look-then-trace": {
+   "title": "Jäljennä kuva mallin mukaan: katso pingviiniä ja kengurua",
+   "printTitle": "Katso ja jäljennä",
+   "instruction": "Katso kehyksessä olevaa kuvaa. Jäljennä sitten vieressä oleva sama eläin."
   },
-  "topicMeta": "Jäljennä kuvat varhaiskasvatuksessa, esikoulussa ja 1. luokalla: kokonaisia kuvia katkoviivoja pitkin, hienomotoriikkaa ja kynänkäyttöä. Tulostettava PDF.",
-  "enAudit": [
-    "K-431 EN landing p1 \"a straight horizon runs across the page from one side to the other\": the render now breaks the horizon at the sailboat. Fix: \"runs across the page up to the boat and on past it\".",
-    "G1-429 EN landing p1 \"only some of the sun's short rays are drawn solid\": on the current render all eight rays are dotted like the rest. Fix: drop the clause (\"every line, the sun's rays too, is a row of dots\").",
-    "G1-429 render: a small SOLID black L-shaped mark sits under the roof ornament of the tall building — the only solid ink on an all-dotted page; looks like a stray. Fix: dot it or remove it.",
-    "G1-431 EN title/printTitle \"What Is in the Trailer?\" while the page shows the trailer EMPTY and the instruction asks what the tractor is carrying: the heading asks a question the picture answers with \"nothing\". Fix: \"What Is the Tractor Carrying?\" (fi does this).",
-    "K-418 EN instruction lists path, house, tree, butterfly, tulips, rabbit but the cloud and the sun's disc are dashed too and unnamed; \"to finish the garden\" covers them only loosely. Fix (optional): \"…the rabbit, the cloud and the sun\".",
-    "K-430 EN title \"A Rocket of Circles, Squares and Triangles\": the body and the launch pad are RECTANGLES (the landing says so). Fix: add \"and Rectangles\" or say \"shapes\" (fi names all four).",
-    "K-428 EN instruction \"two handles\": the umbrella's dashed part is the whole shaft with its crook plus a stretch of the canopy rim, not a handle alone; a child looking for a \"handle\" on the umbrella finds the crook only. Fix: \"the umbrella's stick\" (fi names each owner: auton pyörät, kannun nokka, sateenvarjon varsi, kupin korva, hyrrän kärki, pupun korvat).",
-    "G1-433 render (still true): the owl sits in plain view on a crown, the fox and the rabbit stand openly in the meadow; only the squirrel (inside a crown) and the mouse are really tucked away. \"5 hidden animals\" oversells three of five; acceptable for G1, the fi landing says some are found at once.",
-    "F17 words: fi aurinko kala kissa omena all match image-vocabulary.js and are what a Finnish five-year-old says; aurinko is 7 letters, the cap — check it fits the line on the rendered fi card."
-  ]
+  "round-and-round": {
+   "title": "Pyöreät kuvat varhaiskasvatukseen: jäljennä ympäri kuin o",
+   "printTitle": "Ympäri kuin o",
+   "instruction": "Aloita jokaisesta pisteestä ja piirrä ympäri samaan suuntaan kuin kirjoitat o-kirjaimen."
+  },
+  "straight-lines": {
+   "title": "Jäljennä kuvat suorin viivoin: alas, sivulle ja vinoon",
+   "printTitle": "Alas, sivulle, vinoon",
+   "instruction": "Katso nuolta jokaisen pystyrivin yläpuolella. Jäljennä rivi kerrallaan: alas, sivulle ja vinoon."
+  },
+  "zigzags": {
+   "title": "Jäljennä siksakit: vuoret ja ukkonen teltan yllä",
+   "printTitle": "Ukkonen teltan yllä",
+   "instruction": "Jäljennä koko kuva. Pysähdy siksakin joka kärjessä: vuoret, kuuset, teltta ja salamat."
+  },
+  "curls": {
+   "title": "Spiraalit ja silmukat: jäljennä etana, tikkari ja rusetti",
+   "printTitle": "Spiraaligalleria",
+   "instruction": "Jäljennä spiraalit ja silmukat: etana, tikkari, rusetti, rinkeli ja tuulimylly."
+  },
+  "trace-and-color": {
+   "title": "Piirrä ja väritä: jäljennä piknik ison puun alla",
+   "printTitle": "Piknik",
+   "instruction": "Jäljennä koko piknikkuva. Väritä se sitten haluamillasi väreillä."
+  },
+  "where-to-start": {
+   "title": "Hienomotoriikka esikouluun: mistä aloitan? Kuvat portailla",
+   "printTitle": "Mistä aloitan?",
+   "instruction": "Aloita jokaisesta pisteestä ja seuraa nuolta. Kulje portaita alas kuva kerrallaan."
+  },
+  "trace-and-count": {
+   "title": "Jäljennä ja laske: montako ankkaa uiskentelee lammessa?",
+   "printTitle": "Ankat lammessa",
+   "instruction": "Jäljennä ankat. Laske ne. Kirjoita laatikkoon, montako niitä on."
+  },
+  "finish-the-picture": {
+   "title": "Jäljennä puuttuvat osat: tee hyllyn kuvista kokonaisia",
+   "printTitle": "Täydennä hyllyn kuvat",
+   "instruction": "Jäljennä auton pyörät, kannun nokka, sateenvarjon varsi, kupin korva, hyrrän kärki ja pupun korvat."
+  },
+  "christmas": {
+   "title": "Jouluaatto: jäljennä joulukuusi, lahjat ja jokainen pallo",
+   "printTitle": "Jouluaatto",
+   "instruction": "Jäljennä kuusi, lahjat, nojatuoli, ikkuna ja matto. Jäljennä sitten jokaisen pallon ja tähden reunaviiva kokonaan."
+  },
+  "shape-picture": {
+   "title": "Muotoraketti: jäljennä ympyrät, neliöt, kolmiot ja suorakulmiot",
+   "printTitle": "Muotoraketti",
+   "instruction": "Jäljennä raketin ja taivaan kaikki muodot. Väritä sitten jokainen ympyrä."
+  },
+  "summer-sea": {
+   "title": "Kesäinen postikortti: jäljennä aallot meren poikki",
+   "printTitle": "Postikortti mereltä",
+   "instruction": "Jäljennä aallot vasemmalta oikealle. Jäljennä sitten purjevene ja ranta."
+  },
+  "big-middle-small": {
+   "title": "Iso, keskikokoinen ja pieni: jäljennä koneet, autot ja laivat",
+   "printTitle": "Iso, keskikokoinen, pieni",
+   "instruction": "Jäljennä joka rivillä ensin iso, sitten keskikokoinen ja lopuksi pieni."
+  },
+  "dotted-street": {
+   "title": "Jäljennä pisteviivakuva 1. luokalla: aamu kaupungissa",
+   "printTitle": "Aamu kaupungissa",
+   "instruction": "Jäljennä pisteviivat huolellisesti, myös pienet yksityiskohdat."
+  },
+  "picture-and-word": {
+   "title": "Jäljennä kuva ja sana: aurinko, kala, kissa ja omena",
+   "printTitle": "Kuvat ja sanat",
+   "instruction": "Jäljennä kuva. Sano, mikä se on. Jäljennä sana kuvan alla."
+  },
+  "trace-and-draw": {
+   "title": "Jäljennä ja piirrä: mitä traktori kuljettaa perävaunussa?",
+   "printTitle": "Mitä traktori kuljettaa?",
+   "instruction": "Jäljennä koko kuva: traktori, perävaunu ja eläimet. Piirrä sitten tyhjään perävaunuun, mitä traktori kuljettaa."
+  },
+  "other-half": {
+   "title": "Symmetria: jäljennä toinen puoli – perhonen, pöllö ja nalle",
+   "printTitle": "Toinen puoli",
+   "instruction": "Jäljennä katkoviivoin piirretty puolikas, niin jokaisen kuvan molemmat puolet ovat samanlaiset."
+  },
+  "hidden-animals": {
+   "title": "Syksyinen metsä: etsi ja jäljennä 5 piilossa olevaa eläintä",
+   "printTitle": "Kuka piileskelee metsässä?",
+   "instruction": "Etsi metsästä 5 piilossa olevaa eläintä. Jäljennä ne."
+  }
+ },
+ "words": [
+  "aurinko",
+  "kala",
+  "kissa",
+  "omena"
+ ],
+ "family": {
+  "slug": "jaljenna-kuvat",
+  "name": "Jäljennä kuvat"
+ },
+ "skill": {
+  "full": "Kokonaisten kuvien jäljentäminen harjoittaa rauhallista kynänkäyttöä, pitkiä yhtenäisiä vetoja ja tarkkaa katsomista: hyvä pohja kirjoittamiselle.",
+  "short": "Hienomotoriikkaa ja kynänkäyttöä kokonaisilla kuvilla"
+ },
+ "topicMeta": "Jäljennä kuvat varhaiskasvatuksessa, esikoulussa ja 1. luokalla: kokonaisia kuvia katkoviivoja pitkin, hienomotoriikkaa ja kynänkäyttöä. Tulostettava PDF.",
+ "enAudit": [
+  "K-431 EN landing p1 \"a straight horizon runs across the page from one side to the other\": the render now breaks the horizon at the sailboat. Fix: \"runs across the page up to the boat and on past it\".",
+  "G1-429 EN landing p1 \"only some of the sun's short rays are drawn solid\": on the current render all eight rays are dotted like the rest. Fix: drop the clause (\"every line, the sun's rays too, is a row of dots\").",
+  "G1-429 render: a small SOLID black L-shaped mark sits under the roof ornament of the tall building — the only solid ink on an all-dotted page; looks like a stray. Fix: dot it or remove it.",
+  "G1-431 EN title/printTitle \"What Is in the Trailer?\" while the page shows the trailer EMPTY and the instruction asks what the tractor is carrying: the heading asks a question the picture answers with \"nothing\". Fix: \"What Is the Tractor Carrying?\" (fi does this).",
+  "K-418 EN instruction lists path, house, tree, butterfly, tulips, rabbit but the cloud and the sun's disc are dashed too and unnamed; \"to finish the garden\" covers them only loosely. Fix (optional): \"…the rabbit, the cloud and the sun\".",
+  "K-430 EN title \"A Rocket of Circles, Squares and Triangles\": the body and the launch pad are RECTANGLES (the landing says so). Fix: add \"and Rectangles\" or say \"shapes\" (fi names all four).",
+  "K-428 EN instruction \"two handles\": the umbrella's dashed part is the whole shaft with its crook plus a stretch of the canopy rim, not a handle alone; a child looking for a \"handle\" on the umbrella finds the crook only. Fix: \"the umbrella's stick\" (fi names each owner: auton pyörät, kannun nokka, sateenvarjon varsi, kupin korva, hyrrän kärki, pupun korvat).",
+  "G1-433 render (still true): the owl sits in plain view on a crown, the fox and the rabbit stand openly in the meadow; only the squirrel (inside a crown) and the mouse are really tucked away. \"5 hidden animals\" oversells three of five; acceptable for G1, the fi landing says some are found at once.",
+  "F17 words: fi aurinko kala kissa omena all match image-vocabulary.js and are what a Finnish five-year-old says; aurinko is 7 letters, the cap — check it fits the line on the rendered fi card."
+ ]
 }

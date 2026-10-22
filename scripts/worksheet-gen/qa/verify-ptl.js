@@ -16,6 +16,8 @@
  *      drawing the published page traces
  *   L5 tracer laws a/b over every library drawing the Level Set uses
  *   L6 exactly 5 copies per face × level, 300 in all
+ *   L7 K-422: every library picture is ≥ 50 % its column's direction (down / across / slanted, tools/pt-straight.js
+ *      directionMix) — the family gate checks straightness only, and a cake in the slanted column passed it at 17 %
  *   node qa/verify-ptl.js [--face=K-418] [--no-poison]
  */
 'use strict';
@@ -25,6 +27,8 @@ const { sceneFor } = require('../data/b9/face-scenes.js');
 const { FACES } = require('../data/b9/picture-tracing.js');
 const { faceChecks } = require('./verify-b9-picture-tracing.js');
 const { tracerLaws } = require('../lib/pt-verify.js');
+const { directionMix } = require('../tools/pt-straight.js');
+const { traceOf: traceKey } = require('../lib/pt-scene.js');
 const NARROW = new Set(['K-419', 'K-421', 'K-426', 'K-427', 'K-428', 'G1-430', 'G1-433']);
 const arg = (k) => (process.argv.find((a) => a.startsWith('--' + k + '=')) || '').slice(k.length + 3);
 const onlyFace = arg('face');
@@ -46,6 +50,10 @@ async function copyChecks(e, sc, pubLen) {
   if (!NARROW.has(e.face)) {
     if (e.level === 1 && len > 0.75 * pubLen) f.push(`L3 L1 traced length ${len} is not 25 % under the published ${pubLen} (≤ ${Math.round(0.75 * pubLen)})`);
     if (e.level === 3 && len < 1.15 * pubLen) f.push(`L3 L3 traced length ${len} is not 15 % over the published ${pubLen} (≥ ${Math.round(1.15 * pubLen)})`);
+  }
+  if (e.face === 'K-422') for (const it of sc.items || []) {
+    const c = it.x < 229 ? 0 : it.x < 447 ? 1 : 2, m = directionMix(await traceKey(it.src)), sh = [m.v, m.h, m.s][c];
+    if (sh < 0.5) f.push(`L7 ${it.src} is ${Math.round(100 * sh)} % ${['down', 'across', 'slanted'][c]} in the ${['down', 'across', 'slanted'][c]} column`);
   }
   return { f, len };
 }
@@ -100,6 +108,9 @@ async function copyChecks(e, sc, pubLen) {
     r = await copyChecks(half, hs, pub['G1-432'] || 3362); say(r.f.some((x) => /F19/.test(x)), 'P3 an L1 mirror picture over 5 px must fail: ' + (r.f[0] || 'PASSED (gate blind)'));
     const cnt = [...catalog().values()].find((x) => x.face === 'K-427');
     const cs = sceneOf(cnt); cs.items = cs.items.filter((it, i, a) => i !== a.findIndex((y) => y.src === cnt && false) && !(it.src === cs.count.key && a.filter((y) => y.src === cs.count.key).indexOf(it) === 0));
+    const dc = [...catalog().values()].find((x) => x.face === 'K-422' && x.level === 2);
+    const ds = sceneOf(dc); ds.items = [...ds.items, { src: 'food bw 2/cake', x: 556, y: 400, fitBox: [180, 150], anchor: 'centre' }];
+    r = await copyChecks(dc, ds, pub['K-422'] || 7660); say(r.f.some((x) => /^L7/.test(x)), 'P5 a cake in the slanted column must fail: ' + (r.f.find((x) => /^L7/.test(x)) || 'PASSED (gate blind)'));
     r = await copyChecks(cnt, cs, pub['K-427'] || 4000); say(r.f.some((x) => /F10/.test(x)), 'P4 one counted animal removed (N ≠ the box) must fail: ' + (r.f[0] || 'PASSED (gate blind)'));
   }
   console.log(fails ? `FAIL ${fails}/${n}` : `PASS ${n}/${n}`);

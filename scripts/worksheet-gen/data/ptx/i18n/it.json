@@ -8,7 +8,8 @@
     },
     "first-tracing": {
       "title": "Il mio primo tratteggio: {NAME}",
-      "instruction": "Parti dal pallino. Ripassa il disegno grande piano piano, tutto intorno."
+      "instruction": "Parti dal pallino. Ripassa il disegno grande piano piano, tutto intorno.",
+      "printTitle": "Il mio primo tratteggio"
     },
     "look-then-trace": {
       "title": "Ripassa il tratteggio: {NAME}",
@@ -23,9 +24,9 @@
       "instruction": "Guarda la freccia sopra ogni colonna. Ripassa una colonna alla volta: in giù, di lato, poi in obliquo."
     },
     "zigzags": {
-      "title": "Zig zag da ripassare: {NAME}",
+      "title": "Zigzag da ripassare: {NAME}",
       "printTitle": "{NAME}",
-      "instruction": "Ripassa tutto il disegno. Fermati su ogni punta degli zig zag."
+      "instruction": "Ripassa tutto il disegno. Fermati su ogni punta degli zigzag."
     },
     "curls": {
       "title": "Spirali e asole da ripassare: {NAME}",
@@ -160,7 +161,7 @@
     "ptx-G1-433-seaside-rocks": "Chi si nasconde tra gli scogli?",
     "ptx-G1-433-desert": "Chi si nasconde nel deserto?",
     "ptx-G1-433-snowy-hill": "Chi si nasconde nella neve?",
-    "ptx-G1-433-jungle-river": "Chi si nasconde lungo il fiume?",
+    "ptx-G1-433-jungle-river": "Chi si nasconde tra le palme?",
     "ptx-G1-433-veg-garden": "Chi si nasconde nell'orto?",
     "ptx-G1-433-city-park": "Chi si nasconde al parco?",
     "ptx-G1-433-savanna": "Chi si nasconde nella savana?",
@@ -434,13 +435,13 @@
     "ptx-K-428-sweet-shop": "Completa ogni disegno, ripassa: la crema, la pallina di gelato, il piano più alto e la glassa.",
     "ptx-K-428-pet-shop": "Completa ogni disegno, ripassa: la coda del gatto, la pinna, le orecchie, un orecchio, la coda dell'uccellino e le zampe.",
     "ptx-K-428-aquarium": "Completa ogni disegno, ripassa: la coda del delfino, i tentacoli, il corno, l'ala, la chela e la coda del cavalluccio.",
-    "ptx-K-428-kitchen": "Ripassa: il manico della pentola, il tappo del vaso, l'ansa, il manico del mattarello, il tappo del frullatore e la ciotola.",
+    "ptx-K-428-kitchen": "Ripassa: manico della pentola, tappo del vaso, manico del bollitore, manico del mattarello, tappo del frullatore e ciotola.",
     "ptx-K-428-garden-shed": "Completa ogni disegno, ripassa: il beccuccio, la pala, il manubrio del tosaerba, la testa, il bastone e il manico del rullo.",
     "ptx-K-428-clothes-shop": "Completa ogni disegno, ripassa: la visiera, la manica, il tacco, il cappuccio, il manico e i polsini.",
     "ptx-K-428-bird-house": "Ripassa: il becco, l'ala, la coda del pappagallo, la cresta, le zampe, i ciuffi, la coda del piccione e il collo.",
     "ptx-K-428-toy-cupboard": "Ripassa: le orecchie, il dondolo, l'antenna, l'elica di coda, il fumaiolo, il bastone, le bacchette e la campana.",
     "ptx-K-428-bathroom": "Ripassa: il manico dello spazzolino, quello della tazza e del secchio, i piedi, la barra, il coperchio, lo specchio e i denti.",
-    "ptx-K-428-market-stall": "Ripassa: la foglia, i piccioli, il gambo della zucca, il ciuffo, il gambo del fungo, il calice, il gambo del melone, il picciolo.",
+    "ptx-K-428-market-stall": "Ripassa: foglia, piccioli, gambo della zucca, ciuffo, gambo del fungo, calice, gambo dell'anguria e picciolo della pera.",
     "ptx-K-428-zoo-shop": "Ripassa: la proboscide, le corna, la coda del leopardo, un orecchio, la coda della scimmia, il collo, le orecchie e la testa."
   },
   "words": {
@@ -448,7 +449,7 @@
       "luna",
       "libro",
       "letto",
-      "sofà"
+      "divano"
     ],
     "ptx-G1-430-kitchen": [
       "pane",

@@ -135,7 +135,7 @@
     "ptx-G1-431-shop-window": "¿Qué hay en el aparador?",
     "ptx-G1-431-birthday-table": "¿Qué hay en la mesa de la fiesta?",
     "ptx-G1-431-gallery": "¿Qué vas a pintar?",
-    "ptx-G1-431-tent": "¿Quién duerme en la carpa?",
+    "ptx-G1-431-tent": "¿Quién duerme en la casa de campaña?",
     "ptx-G1-431-zoo-pen": "¿Quién vive en el corral vacío?",
     "ptx-G1-431-castle": "¿Quién se asoma por la torre?",
     "ptx-G1-431-cooking-pot": "¿Qué se cocina en la olla?",
@@ -160,7 +160,7 @@
     "ptx-G1-433-seaside-rocks": "¿Quién se esconde en las rocas?",
     "ptx-G1-433-desert": "¿Quién se esconde en el desierto?",
     "ptx-G1-433-snowy-hill": "¿Quién se esconde en la nieve?",
-    "ptx-G1-433-jungle-river": "¿Quién se esconde junto al río?",
+    "ptx-G1-433-jungle-river": "¿Quién se esconde entre las palmeras?",
     "ptx-G1-433-veg-garden": "¿Quién se esconde en el huerto?",
     "ptx-G1-433-city-park": "¿Quién se esconde en el parque?",
     "ptx-G1-433-savanna": "¿Quién se esconde en la sabana?",
@@ -169,7 +169,7 @@
     "ptx-G1-433-deep-jungle": "¿Quién se esconde en la selva?",
     "ptx-G1-433-attic": "¿Quién se esconde en el ático?",
     "ptx-G1-433-mountain": "¿Quién se esconde en las montañas?",
-    "ptx-G1-433-orchard": "¿Quién se esconde en la huerta?",
+    "ptx-G1-433-orchard": "¿Quién se esconde entre los frutales?",
     "ptx-K-418-rainy-day": "Un día de lluvia",
     "ptx-K-418-rocket-moon": "Un cohete a las estrellas",
     "ptx-K-418-lighthouse-bay": "La bahía del faro",
@@ -407,7 +407,7 @@
     "ptx-G1-431-shop-window": "Repasa todo el dibujo. Luego dibuja qué hay en el aparador.",
     "ptx-G1-431-birthday-table": "Repasa todo el dibujo. Luego dibuja qué hay en la mesa de la fiesta.",
     "ptx-G1-431-gallery": "Repasa todo el dibujo. Luego dibuja un cuadro en el marco vacío.",
-    "ptx-G1-431-tent": "Repasa todo el dibujo. Luego dibuja quién duerme en la carpa.",
+    "ptx-G1-431-tent": "Repasa todo el dibujo. Luego dibuja quién duerme en la casa de campaña.",
     "ptx-G1-431-zoo-pen": "Repasa todo el dibujo. Luego dibuja quién vive en el corral vacío.",
     "ptx-G1-431-castle": "Repasa todo el dibujo. Luego dibuja quién se asoma por la ventana de la torre.",
     "ptx-G1-431-cooking-pot": "Repasa todo el dibujo. Luego dibuja qué se cocina en la olla.",
@@ -440,7 +440,7 @@
     "ptx-K-428-bird-house": "Repasa: el pico, el ala, la cola del perico, la cresta, las patas, las orejitas, la cola de la paloma y el cuello.",
     "ptx-K-428-toy-cupboard": "Repasa: las orejas, el balancín, la antena, la hélice de atrás, la chimenea, el palito, las baquetas y la campana.",
     "ptx-K-428-bathroom": "Repasa: el mango del cepillo, el asa de la taza, el asa de la cubeta, las patas, la barra, la tapa, el espejo y los dientes.",
-    "ptx-K-428-market-stall": "Repasa: la hoja, los rabitos, el tallo de la calabaza, las hojas, el pie, el sombrerito, el tallo de la sandía y el rabito.",
+    "ptx-K-428-market-stall": "Repasa: hoja, rabitos, tallo de la calabaza, hojas, pie, sombrerito, tallo de la sandía y rabito de la pera.",
     "ptx-K-428-zoo-shop": "Repasa: la trompa, los cuernos, la cola del leopardo, una oreja, la cola del mono, el cuello, las orejas y la cabeza."
   },
   "words": {
@@ -505,7 +505,7 @@
       "ratón"
     ],
     "ptx-G1-430-bakery": [
-      "panqué",
+      "mantecada",
       "pretzel",
       "flan",
       "pastel"

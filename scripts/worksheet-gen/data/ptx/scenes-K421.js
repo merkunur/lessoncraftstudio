@@ -60,7 +60,7 @@ const SCENES = [
   copy('sports-day', 2, 'Sports Day', three('sports bw 2/basketball', 'sports bw/baseball_2', 'sports bw 2/soccer_ball')),   // the American football is an oval
   copy('balls-galore', 3, 'Balls Galore', four(['sports bw 2/tennis_ball', 'sports bw 2/bowling_ball', 'sports bw/basketball', 'sports bw/beach_ball'], 225)),   // the 8-ball carries a printed digit
   copy('bakery', 3, 'The Bakery Window', four(['food bw/donut_2', 'Easter bw/cookie', 'food bw 3/cookie', 'food bw 2/donut'], 225)),   // the biscuit is square layers
-  copy('baubles', 3, 'Christmas Baubles', four([drawn('bauble', 100), 'Christmas bw/wreath', drawn('bauble', 92), 'Christmas bw/ornament'], 230)),   // the snow globe stands on a flat base
+  copy('baubles', 3, 'Christmas Baubles', four([drawn('bauble', 100), 'Christmas bw 2/ornament', drawn('bauble', 92), drawn('bauble', 104)], 230)),   // the snow globe stands on a flat base; the wreath + ornament are the L2 winter page's
   copy('sewing-box', 3, 'The Button Box', four([drawn('button', 112, 0.72), drawn('button', 100, 0.72), drawn('button', 106, 0.72), drawn('button', 96, 0.72)])),
   copy('sky', 3, 'Sun, Moon and Earth', four(['space bw/earth', drawn('moon', 105), drawn('sun', 110), drawn('planet', 95)])),
 ];

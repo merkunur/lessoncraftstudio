@@ -67,7 +67,7 @@ const SCENES = [
   // ── L3 — eight to ten pictures, a path / rails / river ──────────────────────────────────────────────────────────────
   copy('train-station', 3, 'At the Train Station', () => ({
     motifs: [sun(610, 66, 30), ...D.station(24, 470, 250, 300), flat(470), ...D.rails(14, 661, 678, 20)],
-    items: [{ src: 'toys bw/train', x: 338, y: 676, w: 470 }, ...row(470, [{ src: 'travel and holiday bw/signpost', h: 134 }, { src: 'travel and holiday bw/suitcase', h: 95 }, { src: 'Easter bw/tulip', h: 100 }, { src: 'animals bw/cat_2', h: 120 }], 300, 655, 12), { src: 'nature bw/bird', x: 149, y: 164, h: 100 }, { src: 'home and nature bw/cloud', x: 450, y: 150, w: 170 }, { src: 'animals bw 5/rabbit', x: 622, y: 700, h: 100 }],
+    items: [{ src: 'toys bw/train', x: 338, y: 676, w: 470 }, ...row(470, [{ src: 'travel and holiday bw/signpost', h: 134 }, { src: 'travel and holiday bw/suitcase', h: 95 }, { src: 'Easter bw/tulip', h: 100 }, { src: 'animals bw/cat_2', h: 120 }], 300, 655, 12), { src: 'nature bw/bird', x: 149, y: 164, h: 100 }, { src: 'home and nature bw/cloud', x: 450, y: 150, w: 170 }, { src: 'animals bw 4/rabbit_2', x: 622, y: 700, h: 100 }],
   })),
   copy('jungle-river', 3, 'Down the Jungle River', () => ({
     motifs: [sun(600, 70, 30), ground(420, 9, 4), ground(600, 9, 4), waves(30, 640, 515, 44, 6), ...D.leaf(24, 414, 150, -1.15), ...D.leaf(651, 414, 140, Math.PI + 1.15), { m: 'line', a: [[[14, 150], [150, 175], [260, 160]]] }],
@@ -84,7 +84,7 @@ const SCENES = [
   })),
   copy('mountain-hike', 3, 'Up the Mountain', () => ({
     motifs: [sun(600, 60, 26), { m: 'mountains', a: [14, 661, 420, 150, 4] }, ...D.cable(14, 70, 661, 210), ground(520, 6, 3), ...D.path([[320, 716], [340, 640], [300, 560], [330, 470], [360, 400]], 64), ...D.stone(560, 705, 150), ground(705, 0, 1)],
-    items: [{ src: 'travel and holiday bw/cable_car', x: 330, y: 262, h: 125 }, { src: 'nature bw/bird', x: 214, y: 113, h: 96 }, ...row(520, [{ src: 'animals bw 3/deer', h: 160 }], 20, 260), { src: 'home and nature bw/tree_3', x: 550, y: 520, h: 200 }, { src: 'animals bw/squirrel', x: 430, y: 520, h: 100 }, { src: 'animals bw/bear', x: 130, y: 705, h: 150 }, { src: 'valentine bw 2/tulip', x: 232, y: 705, h: 100 }, { src: 'animals bw 4/goat', x: 560, y: 655, h: 120 }],
+    items: [{ src: 'travel and holiday bw/cable_car', x: 330, y: 262, h: 125 }, { src: 'nature bw/bird', x: 214, y: 113, h: 96 }, ...row(520, [{ src: 'animals bw 3/deer', h: 160 }], 20, 260), { src: 'nature bw/tree', x: 550, y: 520, h: 240 }, { src: 'animals bw/squirrel', x: 430, y: 520, h: 100 }, { src: 'animals bw/bear', x: 130, y: 705, h: 170 }, { src: 'valentine bw 2/tulip', x: 232, y: 705, h: 100 }, { src: 'animals bw 4/goat', x: 560, y: 655, h: 132 }],
   })),
 ];
 module.exports = { SCENES };

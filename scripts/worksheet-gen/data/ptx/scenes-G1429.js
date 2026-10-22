@@ -104,7 +104,7 @@ const SCENES = [
   // ── L3 — nine to eleven pictures, small details, dots 6 px apart ────────────────────────────────────────────────────
   copy('station-hall', 3, 'The Station Hall', () => ({
     motifs: [...P.hall(40, 440, 380, 400, 4), { m: 'circle', a: [150, 150, 14] }, { m: 'circle', a: [230, 130, 14] }, { m: 'circle', a: [310, 150, 14] }, ...P.lamp(640, 440, 240), ...P.lamp(640, 690, 200), ground(440), ...P.bench(380, 690, 170), ground(690), cloud(592, 92, 76), { m: 'fence', a: [14, 661, 690, 44, 12] }],
-    items: [{ src: 'nature bw/tree', x: 500, y: 440, h: 170 }, { src: 'birds bw 2/bird', x: 580, y: 440, h: 80 }, { src: 'beach bw/suitcase', x: 90, y: 690, h: 100 }, { src: 'animals bw 4/cat_3', x: 210, y: 690, h: 100 },
+    items: [{ src: 'home and nature bw/tree_2', x: 500, y: 440, h: 170 }, { src: 'birds bw 2/bird', x: 580, y: 440, h: 80 }, { src: 'beach bw/suitcase', x: 90, y: 690, h: 100 }, { src: 'animals bw 4/cat_3', x: 210, y: 690, h: 100 },
       { src: 'travel and holiday bw/signpost', x: 320, y: 690, h: 120 }, { src: 'travel and holiday bw/ticket', x: 465, y: 630, w: 110 }, { src: 'sports bw/scooter', x: 570, y: 690, w: 90 }, { src: 'nature bw/sun', x: 500, y: 130, h: 90 }],
   })),
   // the quay across the top, then three bands of sea, each with its own boats or animals (a whale crossing the wall line,

@@ -3,17 +3,19 @@
  * every picture's dominant line a spiral or a loop. Concepts: _work/ptl-scenes-A.json (Designer A); the library has few
  * clean spirals (ptl-levels.md §K-424 supply risk), so most pictures are DRAWN (data/ptx/cl.js) in the library's line style.
  * Levels (ptl-levels.md §K-424): L1 K-1 — 3 big frames, spirals ≤ 2 turns ≥ 30 px apart, a start dot at each spiral's OUTER
- * end · L2 K — the published 5 frames, turns ≥ 18 apart · L3 K-3 — 6 frames, ≥ 3 turns ≥ 12 apart, loops and coils.
+ * end · L2 K — the published 5 frames, turns ≥ 18 apart · L3 K-3 — 6-7 frames, ≥ 3 turns ≥ 12 apart, loops and coils.
  */
 'use strict';
 const C = require('./cl.js');
 const BAND = { 1: { band: 'K-1', style: 'P1' }, 2: { band: 'K', style: 'P2' }, 3: { band: 'K-3', style: 'P3' } };
-const LV = { 1: { gap: 34, turns: [1.5, 2] }, 2: { gap: 20, turns: [2, 3.5] }, 3: { gap: 13, turns: [3, 4.5] } };
+const LV = { 1: { gap: 34, turns: [1.5, 2] }, 2: { gap: 20, turns: [2, 3.5] }, 3: { gap: 13, turns: [4, 5.5] } };
 /** the frame layouts [x, y, w, h] on the 675 × 716 body */
 const FRAMES = {
   1: [[14, 8, 647, 350], [14, 372, 316, 336], [345, 372, 316, 336]],
   2: [[14, 8, 406, 396], [434, 8, 227, 396], [14, 418, 196, 290], [224, 418, 196, 290], [434, 418, 227, 290]],
   3: [[14, 8, 207, 344], [234, 8, 207, 344], [454, 8, 207, 344], [14, 364, 207, 344], [234, 364, 207, 344], [454, 364, 207, 344]],
+  // L3 with SEVEN frames (the ladder's 6-7): three across the top, four narrower below — for casts whose spirals are light
+  '3+': [[14, 8, 207, 344], [234, 8, 207, 344], [454, 8, 207, 344], [14, 364, 151, 344], [179, 364, 151, 344], [344, 364, 152, 344], [510, 364, 151, 344]],
 };
 /** one frame's content: a drawn picture name, { src } a library picture fitted to the frame, or { src, trail } a small
  *  library picture at the end of a looping trail (a rocket, a leaf) */
@@ -32,7 +34,7 @@ function fill(level, [x, y, w, h], c) {
   return { motifs: [], decor: [], items: [{ src: c.src, x: cx, y: cy, fitBox: [(w - 30) * (c.k || 0.9), (h - 30) * (c.k || 0.9)], anchor: 'centre', ...(c.opt || {}) }] };
 }
 function gallery(level, list) {
-  const F = FRAMES[level];
+  const F = FRAMES[level === 3 && list.length === 7 ? '3+' : level];
   if (list.length !== F.length) throw new Error(`K-424 L${level}: ${list.length} pictures for ${F.length} frames`);
   const out = { motifs: [], items: [], decor: F.map(([x, y, w, h]) => ({ m: 'roundRect', a: [x, y, w, h, 18] })) };
   list.forEach((c, i) => { const r = fill(level, F[i], c); out.motifs.push(...r.motifs); out.items.push(...r.items); out.decor.push(...r.decor); });
@@ -55,8 +57,10 @@ const SCENES = [
   // L3 — six frames, more turns, finer lines
   copy('deep-sea', 3, 'The Deep Sea', [{ src: 'sea life bw 2/octopus' }, 'nautilus', { src: 'animals bw/seahorse' }, 'kelp', 'jellyCurls', 'whirlpool']),
   copy('reptile-house', 3, 'The Reptile House', [{ src: 'zoo animals bw/snake' }, 'coiledSnake', { src: 'animals bw/chameleon' }, 'ropeCoil', { src: 'animals bw 5/snake' }, 'ammonite']),
-  copy('garden', 3, 'The Vegetable Garden', ['hoseReel', 'vine', 'sunflower', 'cabbage', 'worm', { src: 'sea life bw 2/snail' }]),
-  copy('woodland', 3, 'In the Woods', [{ src: 'animals bw/squirrel' }, 'spiderWeb', 'fiddlehead', 'smokeHouse', { src: 'animals bw 2/squirrel' }, 'vine']),
-  copy('funfair', 3, 'The Funfair', ['helterSkelter', 'coaster', 'candyFloss', 'balloonCurl', 'yoyo', 'streamer']),
+  copy('garden', 3, 'The Vegetable Garden', [{ src: 'sea life bw 2/snail', k: 1 }, 'vine', 'cabbage', 'spiderWeb', 'snail', 'rose']),
+  copy('woodland', 3, 'In the Woods', [{ src: 'animals bw/squirrel' }, 'spiderWeb', 'coiledSnake', 'vine', { src: 'animals bw 2/squirrel' }, 'galaxy']),
+  // the funfair's drawn loops are light (a coaster, a streamer measured 380-520 px): the library's spiral lollipops and a
+  // prize rosette carry the length (the published page's bow and pinwheel are not reused)
+  copy('funfair', 3, 'The Funfair', [{ src: 'Christmas bw/lollipop', k: 1 }, 'candyFloss', { src: 'food bw/lollipop', k: 1 }, 'swissRoll', { src: 'sports bw/rosette', k: 1 }, 'helterSkelter']),
 ];
 module.exports = { SCENES };

@@ -84,7 +84,7 @@ const SCENES = [
   })),
   copy('mountain-hike', 3, 'Up the Mountain', () => ({
     motifs: [sun(600, 60, 26), { m: 'mountains', a: [14, 661, 420, 150, 4] }, ...D.cable(14, 70, 661, 210), ground(520, 6, 3), ...D.path([[320, 716], [340, 640], [300, 560], [330, 470], [360, 400]], 64), ...D.stone(560, 705, 150), ground(705, 0, 1)],
-    items: [{ src: 'travel and holiday bw/cable_car', x: 330, y: 262, h: 125 }, { src: 'nature bw/bird', x: 220, y: 113, h: 85 }, ...row(520, [{ src: 'animals bw 3/deer', h: 160 }], 20, 260), { src: 'home and nature bw/tree_3', x: 550, y: 520, h: 200 }, { src: 'animals bw/squirrel', x: 430, y: 520, h: 100 }, { src: 'animals bw/bear', x: 130, y: 705, h: 150 }, { src: 'valentine bw 2/tulip', x: 232, y: 705, h: 100 }, { src: 'animals bw 4/goat', x: 560, y: 655, h: 120 }],
+    items: [{ src: 'travel and holiday bw/cable_car', x: 330, y: 262, h: 125 }, { src: 'nature bw/bird', x: 214, y: 113, h: 96 }, ...row(520, [{ src: 'animals bw 3/deer', h: 160 }], 20, 260), { src: 'home and nature bw/tree_3', x: 550, y: 520, h: 200 }, { src: 'animals bw/squirrel', x: 430, y: 520, h: 100 }, { src: 'animals bw/bear', x: 130, y: 705, h: 150 }, { src: 'valentine bw 2/tulip', x: 232, y: 705, h: 100 }, { src: 'animals bw 4/goat', x: 560, y: 655, h: 120 }],
   })),
 ];
 module.exports = { SCENES };

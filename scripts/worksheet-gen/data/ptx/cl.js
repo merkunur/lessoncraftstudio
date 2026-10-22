@@ -115,7 +115,7 @@ const P = {
     const { Pt, K } = frame(b), [cx, cy] = Pt(0, 0), R = K(0.44);
     const out = []; for (let k = 0; k <= 120; k++) { const a = k / 120 * 2 * Math.PI, w = 1 + 0.04 * Math.sin(a * 7); out.push([cx + R * w * Math.cos(a), cy + R * w * Math.sin(a)]); }
     return { motifs: [T(out, true), TF(spiralIn(cx, cy, R * 0.8, K(0.04), turnsOf(R * 0.8), -Math.PI / 2, 1))],
-      decor: [0.6, 2.2, 4.0].map((a) => SOL([[cx + R * 0.82 * Math.cos(a), cy + R * 0.82 * Math.sin(a)], [cx + R * 0.95 * Math.cos(a + 0.12), cy + R * 0.95 * Math.sin(a + 0.12)]], false, 2)) };
+      decor: [] };   // the old solid leaf-vein ticks read as stray marks beside a dashed head
   },
   sunflower(b) {
     const { Pt, K, H } = frame(b), [cx, cy] = Pt(0, -Math.min(0.12, H * 0.5 - 0.42)), R = K(0.22), petals = [];
@@ -192,7 +192,8 @@ const P = {
     return { motifs: out, decor: [SOL(smooth([[b.cx - K(0.42), by], [b.cx - K(0.3), by - K(0.07)], [b.cx - K(0.18), by]]), false), SOL(smooth([[b.cx + K(0.24), by], [b.cx + K(0.36), by - K(0.08)], [b.cx + K(0.46), by]]), false), SOL([[b.cx - K(0.48), by], [b.cx + K(0.48), by]])] };
   },
   vine(b) {
-    const { K } = frame(b), x0 = b.cx - b.w / 2 + 18, x1 = b.cx + b.w / 2 - 18, y0 = b.cy + b.h / 2 - 18, y1 = b.cy - b.h / 2 + 18;
+    // the stem is inset by a spiral's reach (K 0.33) so the side curls stay inside the frame
+    const { K } = frame(b), x0 = b.cx - b.w / 2 + 18 + K(0.22), x1 = b.cx + b.w / 2 - 18 - K(0.22), y0 = b.cy + b.h / 2 - 18, y1 = b.cy - b.h / 2 + 18;
     const stem = smooth([[x0, y0], [x0 + (x1 - x0) * 0.3, y0 + (y1 - y0) * 0.38], [x0 + (x1 - x0) * 0.62, y0 + (y1 - y0) * 0.58], [x1, y1]]);
     const L = along(stem), len = L[L.length - 1], motifs = [T(stem)], decor = [], R = K(0.11);
     [0.25, 0.52, 0.8].forEach((t, i) => {

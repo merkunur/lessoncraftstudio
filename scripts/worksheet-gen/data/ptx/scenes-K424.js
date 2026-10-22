@@ -57,10 +57,10 @@ const SCENES = [
   // L3 — six frames, more turns, finer lines
   copy('deep-sea', 3, 'The Deep Sea', [{ src: 'sea life bw 2/octopus' }, 'nautilus', { src: 'animals bw/seahorse' }, 'kelp', 'jellyCurls', 'whirlpool']),
   copy('reptile-house', 3, 'The Reptile House', [{ src: 'zoo animals bw/snake' }, 'coiledSnake', { src: 'animals bw/chameleon' }, 'ropeCoil', { src: 'animals bw 5/snake' }, 'ammonite']),
-  copy('garden', 3, 'The Vegetable Garden', [{ src: 'sea life bw 2/snail', k: 1 }, 'vine', 'cabbage', 'spiderWeb', 'snail', 'rose']),
-  copy('woodland', 3, 'In the Woods', [{ src: 'animals bw/squirrel' }, 'spiderWeb', 'coiledSnake', 'vine', { src: 'animals bw 2/squirrel' }, 'galaxy']),
+  copy('garden', 3, 'The Snail Garden', [{ src: 'sea life bw 2/snail', k: 1 }, 'vine', 'cabbage', 'spiderWeb', 'snail', 'rose']),
+  copy('woodland', 3, 'In the Woods', [{ src: 'animals bw/squirrel' }, 'spiderWeb', 'coiledSnake', 'vine', { src: 'animals bw 2/squirrel' }, { src: 'animals bw/snail', k: 1 }]),
   // the funfair's drawn loops are light (a coaster, a streamer measured 380-520 px): the library's spiral lollipops and a
   // prize rosette carry the length (the published page's bow and pinwheel are not reused)
-  copy('funfair', 3, 'The Funfair', [{ src: 'Christmas bw/lollipop', k: 1 }, 'candyFloss', { src: 'food bw/lollipop', k: 1 }, 'swissRoll', { src: 'sports bw/rosette', k: 1 }, 'helterSkelter']),
+  copy('funfair', 3, 'The Funfair', [{ src: 'Christmas bw/lollipop', k: 1 }, 'candyFloss', 'candy', { src: 'sports bw/rosette', k: 1 }, 'helterSkelter', { src: 'Easter bw/lollipop', k: 1 }]),
 ];
 module.exports = { SCENES };

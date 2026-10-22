@@ -54,7 +54,7 @@ const SCENES = [
   })),
   copy('lake-camp', 2, 'Camping by the Lake', () => ({
     motifs: [sun(590, 90, 36), ...D.tent(360, 560, 200, 170), flat(560), waves(500, 661, 612, 50, 7), waves(500, 661, 668, 50, 7)],
-    items: [{ src: 'home and nature bw/cloud', x: 360, y: 150, w: 160 }, { src: 'home and nature bw/tree_3', x: 140, y: 560, h: 300 }, { src: 'travel and holiday bw/kayak', x: 580, y: 600, w: 160 }, ...row(705, [{ src: 'animals bw 5/fox', h: 150 }, { src: 'nature bw/campfire', w: 125 }], 200, 475)],
+    items: [{ src: 'home and nature bw/cloud', x: 360, y: 150, w: 160 }, { src: 'home and nature bw/tree_3', x: 140, y: 560, h: 300 }, { src: 'birds bw 2/duck_2', x: 575, y: 604, h: 130 }, ...row(705, [{ src: 'animals bw 5/fox', h: 150 }, { src: 'nature bw/campfire', w: 125 }], 200, 475)],
   })),
   copy('zoo-day', 2, 'A Day at the Zoo', () => ({
     motifs: [sun(100, 86, 36), cloud(420, 100, 160), flat(490), fence(14, 661, 700, 50, 12)],

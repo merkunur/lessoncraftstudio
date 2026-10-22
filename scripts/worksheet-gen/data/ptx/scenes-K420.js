@@ -9,6 +9,8 @@ const { helpers: H } = require('../b9/face-scenes.js');
 // L1 twins are 300-320 px in this layout (ptl-levels.md §K-420), under the generic PreK-1 floor of 340
 const BAND = { 1: { band: 'PreK-1', style: 'P1', minPicFloor: 290, budget: 3200 }, 2: { band: 'PreK', style: 'P1' }, 3: { band: 'PreK-3', style: 'P2' } };
 /** n rows of (model frame, eye badge, arrow, dashed twin), the published 2-row geometry scaled to n rows */
+// ink knots where the balloon's ribs meet print as extra start dots at this size (lib/pt-scene.js blobMin)
+const BLOB_MIN = { 'vehicles bw 2/hot_air_balloon': 400 };
 function rows(srcs, level, scale = 1) {
   const n = srcs.length, P = 716 / n, k = P / 358;
   const decor = [], items = [];
@@ -24,7 +26,7 @@ function rows(srcs, level, scale = 1) {
     const mTop = top + 26, mBot = top + fh - 26 * k - 10;
     items.push({ src, x: cx, y: (mTop + mBot) / 2, fitBox: [fw - 34, mBot - mTop], anchor: 'centre', render: 'model' });
     const tx0 = fx + fw + 90, tx1 = 655, ty0 = top + 8, ty1 = top + P - 26;
-    items.push({ src, x: (tx0 + tx1) / 2, y: (ty0 + ty1) / 2, fitBox: [(tx1 - tx0) * scale, Math.min(ty1 - ty0, 300 * k) * scale], anchor: 'centre', start: 'top', outline: level === 1 });   // L1: a simple silhouette to trace (ptl-levels.md), inner lines drawn
+    items.push({ src, x: (tx0 + tx1) / 2, y: (ty0 + ty1) / 2, fitBox: [(tx1 - tx0) * scale, Math.min(ty1 - ty0, 300 * k) * scale], anchor: 'centre', start: 'top', outline: level === 1, ...(BLOB_MIN[src] ? { blobMin: BLOB_MIN[src] } : {}) });   // L1: a simple silhouette to trace (ptl-levels.md), inner lines drawn
   });
   return { decor, items };
 }

@@ -128,6 +128,9 @@ async function composeScene(scene, opts = {}) {
       // it.solidAbove = f: on an outline-only picture, lines mostly in the top fraction f of the ink box are drawn, not traced
       // (an apple's stem and leaf: the PreK child traces the ROUND outline only — final visual review)
       if (it.solidAbove) { const yc = pl.box.y0 + it.solidAbove * (pl.box.y1 - pl.box.y0); for (const l of pl.lines) if (l.pts.filter((q) => q[1] < yc).length >= 0.6 * l.pts.length) l.outer = false; }
+      // it.blobMin = a: drop the drawing's filled ink blobs smaller than a (trace px²) — on a very big picture an ink knot where
+      // lines meet prints as a second "start dot" (K-419 L3 octopus, seahorse, balloon — 2026-10-22); eyes are far larger
+      if (it.blobMin) pl.blobs = (pl.blobs || []).filter((b, k) => !((e.tr.blobs[k] || {}).area < it.blobMin));
       e.lines = pl.lines; e.blobs = pl.blobs; e.box = pl.box; e.pl = pl; e.src = it.src;
     }
   }

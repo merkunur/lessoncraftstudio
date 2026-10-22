@@ -52,7 +52,7 @@ const SCENES = [
   copy('reef', 2, 'The Reef', [{ src: 'sea life bw 2/seahorse' }, 'kelp', 'ammonite', 'bubbleLoops', { src: 'sea life bw/octopus' }]),
   copy('rainforest', 2, 'The Rainforest', [{ src: 'animals bw 5/chameleon' }, 'vine', { src: 'animals bw/monkey_2' }, 'fiddlehead', 'coiledSnake']),
   copy('park', 2, 'In the Park', [{ src: 'animals bw 5/squirrel' }, 'yoyo', 'rose', { src: 'sea life bw 2/snail' }, 'balloonCurl']),
-  copy('sweet-shop', 2, 'The Sweet Shop', [{ src: 'dessert bw/cupcake' }, 'curlyStraw', 'candy', 'creamMug', 'swissRoll']),
+  copy('sweet-shop', 2, 'The Sweet Shop', [{ src: 'dessert bw/cupcake' }, 'curlyStraw', 'candy', 'creamMug', 'cinnamonRoll']),   // the swiss roll read as a toilet roll (visual review)
   copy('sitting-room', 2, 'Grandma’s Sitting Room', [{ src: 'household bw/telephone' }, 'teapot', 'yarnBall', 'slinky', 'spiralRug']),
   // L3 — six frames, more turns, finer lines
   copy('deep-sea', 3, 'The Deep Sea', [{ src: 'sea life bw 2/octopus' }, 'nautilus', { src: 'animals bw/seahorse' }, 'kelp', 'jellyCurls', 'whirlpool']),

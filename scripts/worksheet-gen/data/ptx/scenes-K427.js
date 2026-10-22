@@ -17,9 +17,9 @@ const G = (m, a, extra = {}) => ({ m, a, colour: GREY, w: 2, ...extra });
 // the face's own size floors (ptl-levels §K-427: 150-200 / 120-140 / 95-115 px, not the band's general floor) and caps
 const FLOOR = { 1: 150, 2: 120, 3: 95 }, CAP = { 1: 4200, 2: 7500, 3: 9500 };
 /** one copy: the counted spec, N, the scatter region, the distractor models (a row at the top right), setting decor */
-function build({ level, key, size, n, region, seed, models = [], decor = [], modelY = 236, modelX0 = 170 }) {
+function build({ level, key, size, n, region, seed, models = [], decor = [], modelY = 236, modelX0 = 170, opt = {} }) {
   const top = row(modelY, models.map((m) => ({ ...m, render: 'model' })), modelX0, 655, 16);
-  const counted = scatter(n, { src: key, ...(size.w ? { w: size.w } : { h: size.h }) }, region, seed, BAND[level].band === 'K-3' ? 12 : 16, top.map(boxOfItem));
+  const counted = scatter(n, { src: key, ...(size.w ? { w: size.w } : { h: size.h }), ...opt }, region, seed, BAND[level].band === 'K-3' ? 12 : 16, top.map(boxOfItem));
   return { ...BAND[level], count: { key, n }, minPicFloor: FLOOR[level], budget: CAP[level], decor: [...BOX, ...decor], items: [...top, ...counted], motifs: [] };
 }
 const copy = (id, level, name, instr, spec) => ({ id: 'ptx-K-427-' + id, face: 'K-427', level, name: { en: name }, instr: { en: instr }, skin: () => build({ level, ...spec }) });
@@ -40,7 +40,7 @@ const SCENES = [
   copy('fish-pond', 1, 'Fish in the Pond', T('fish'), { level: 1, key: 'nature bw/fish', size: { w: 185 }, n: 3, seed: 7,
     region: { cx: 337, cy: 500, rx: 312, ry: 200 }, models: [{ src: 'animals bw/swan', h: 150 }],
     decor: [{ m: 'ellipse', a: [337, 500, 325, 210], w: 2.5 }, G('grass', [40, 300, 40, 4]), G('grass', [636, 300, 40, 4])], modelX0: 400 }),
-  copy('raindrops', 1, 'Raindrops in the Garden', T('raindrops'), { level: 1, key: 'nature bw/droplet', size: { h: 165 }, n: 5, seed: 31,
+  copy('raindrops', 1, 'Raindrops in the Garden', T('raindrops'), { level: 1, key: 'nature bw/droplet', size: { h: 165 }, n: 5, seed: 31, opt: { noSolid: true },   // the drop's inner highlight read as a U
     region: { x0: 34, y0: 270, x1: 641, y1: 696 }, models: [{ src: 'nature bw/umbrella', h: 170 }],
     decor: [{ m: 'line', a: [[[14, 704], [661, 704]]], w: 2.5 }, G('cloud', [250, 90, 160])], modelX0: 420 }),
   // ── L2 — 6, 7, 5, 7, 6 pictures; two distractor kinds ───────────────────────────────────────────────────────────────

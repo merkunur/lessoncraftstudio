@@ -35,10 +35,10 @@ const SCENES = [
   copy('turtle-swim', 1, 'The Turtle', 'sea life bw 2/turtle', { fit: 500 }, [flat(614), blade(120, 612, 130), blade(570, 612, 120, -1), ...bubbles(150, 160)]),
   copy('space-rocket', 1, 'The Rocket', 'space bw/rocket', { fit: 500 }, [star(140, 200, 12), star(540, 170, 10), star(560, 470, 12), star(120, 470, 9), star(210, 600, 10), star(480, 600, 9), { m: 'moon', a: [150, 330, 22], colour: G, w: 2 }]),
   copy('submarine', 1, 'The Submarine', 'vehicles bw 2/submarine', { fit: 530 }, [flat(612), ...bubbles(110, 300)]),
-  copy('octopus-cave', 3, 'The Octopus', 'sea life bw/octopus', { fit: 470 }, [{ d: H.ringWave(C.cx, C.cy, C.r, 120, 14, 110), w: 2.5, colour: G }, ...bubbles(510, 200)]),
-  copy('seahorse-meadow', 3, 'The Seahorse', 'sea life bw 2/seahorse', { h: 470 }, [blade(150, 620, 200), blade(176, 622, 150, -1), blade(510, 622, 180, -1), blade(534, 620, 140)]),
+  copy('octopus-cave', 3, 'The Octopus', 'sea life bw/octopus', { fit: 470, blobMin: 500 }, [{ d: H.ringWave(C.cx, C.cy, C.r, 120, 14, 110), w: 2.5, colour: G }, ...bubbles(510, 200)]),
+  copy('seahorse-meadow', 3, 'The Seahorse', 'sea life bw 2/seahorse', { h: 470, blobMin: 600 }, [blade(150, 620, 200), blade(176, 622, 150, -1), blade(510, 622, 180, -1), blade(534, 620, 140)]),
   copy('narwhal-ice', 3, 'The Narwhal', 'sea life bw/narwhal', { w: 480 }, [{ d: H.ringWave(C.cx, C.cy, C.r, 110, 10, 90), w: 2.5, colour: G }, ...bubbles(140, 560)]),
-  copy('balloon-hills', 3, 'The Hot-Air Balloon', 'vehicles bw 2/hot_air_balloon', { h: 470 }, [{ m: 'hill', a: [40, 400, 640, 70], colour: G, w: 2.5 }, { m: 'hill', a: [300, 640, 640, 50], colour: G, w: 2.5 }, { m: 'cloud', a: [130, 200, 90], colour: G, w: 2 }]),
+  copy('balloon-hills', 3, 'The Hot-Air Balloon', 'vehicles bw 2/hot_air_balloon', { h: 470, blobMin: 400 }, [{ m: 'hill', a: [40, 400, 640, 70], colour: G, w: 2.5 }, { m: 'hill', a: [300, 640, 640, 50], colour: G, w: 2.5 }, { m: 'cloud', a: [130, 200, 90], colour: G, w: 2 }]),
   copy('jellyfish-night', 3, 'The Jellyfish', 'sea life bw 2/jellyfish', { h: 460 }, [{ d: H.ringWave(C.cx, C.cy, C.r, 110, 8, 80), w: 2.5, colour: G }, ...bubbles(500, 520)]),
 ];
 module.exports = { SCENES };

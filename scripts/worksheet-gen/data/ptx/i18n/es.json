@@ -89,7 +89,7 @@
       "instruction": "Repasa la mitad punteada para que los dos lados de cada dibujo queden iguales."
     },
     "hidden-animals": {
-      "title": "Animales escondidos: {NAME}",
+      "title": "Animales ocultos: {NAME}",
       "printTitle": "{NAME}",
       "instruction": "Encuentra los 5 animales escondidos. Repásalos."
     }
@@ -160,7 +160,7 @@
     "ptx-G1-433-seaside-rocks": "¿Quién se esconde en las rocas?",
     "ptx-G1-433-desert": "¿Quién se esconde en el desierto?",
     "ptx-G1-433-snowy-hill": "¿Quién se esconde en la nieve?",
-    "ptx-G1-433-jungle-river": "¿Quién se esconde bajo las palmeras?",
+    "ptx-G1-433-jungle-river": "¿Quién se esconde entre las palmeras?",
     "ptx-G1-433-veg-garden": "¿Quién se esconde en el huerto?",
     "ptx-G1-433-city-park": "¿Quién se esconde en el parque?",
     "ptx-G1-433-savanna": "¿Quién se esconde en la sabana?",
@@ -169,7 +169,7 @@
     "ptx-G1-433-deep-jungle": "¿Quién se esconde en la selva?",
     "ptx-G1-433-attic": "¿Quién se esconde en el ático?",
     "ptx-G1-433-mountain": "¿Quién se esconde en las montañas?",
-    "ptx-G1-433-orchard": "¿Quién se esconde en los manzanos?",
+    "ptx-G1-433-orchard": "¿Quién se esconde entre los manzanos?",
     "ptx-K-418-rainy-day": "Un día de lluvia",
     "ptx-K-418-rocket-moon": "Un cohete a las estrellas",
     "ptx-K-418-lighthouse-bay": "La bahía del faro",
@@ -440,7 +440,7 @@
     "ptx-K-428-bird-house": "Repasa: el pico, el ala, la cola del perico, la cresta, las patas, las orejitas, la cola de la paloma y el cuello.",
     "ptx-K-428-toy-cupboard": "Repasa: las orejas, el balancín, la antena, la hélice de atrás, la chimenea, el palito, las baquetas y la campana.",
     "ptx-K-428-bathroom": "Repasa: el mango del cepillo, el asa de la taza, el asa de la cubeta, las patas, la barra, la tapa, el espejo y los dientes.",
-    "ptx-K-428-market-stall": "Repasa: hoja, rabitos, tallo de la calabaza, hojas, pie, sombrerito, tallo de la sandía y rabito de la pera.",
+    "ptx-K-428-market-stall": "Repasa: hoja, rabitos, tallo de la calabaza, hojas de la zanahoria, pie, sombrerito, tallo de la sandía y rabito de la pera.",
     "ptx-K-428-zoo-shop": "Repasa: la trompa, los cuernos, la cola del leopardo, una oreja, la cola del mono, el cuello, las orejas y la cabeza."
   },
   "words": {

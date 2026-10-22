@@ -51,9 +51,9 @@ const SCENES = [
   copy('birthday', 2, 'Birthday Party', ['valentine bw/balloon', 'food bw 2/cake', 'toys bw/party_hat']),
   copy('rainy', 2, 'A Rainy Walk', ['home and nature bw/cloud', 'nature bw/umbrella', 'tools bw/rubber_boot']),
   copy('space', 2, 'A Trip to Space', ['space bw/ufo', 'nature bw/star', 'space bw/rocket']),
-  copy('lake', 2, 'By the Lake', ['travel and holiday bw/kayak', 'animals bw/swan', 'nature bw/leaf']),
+  copy('lake', 2, 'By the Lake', ['birds bw 2/duck', 'animals bw/swan', 'nature bw/leaf']),   // the small kayak printed as a tangle
   // L3 — four rows of WIDE drawings (measured aspect ≥ 2)
-  copy('ocean-parade', 3, 'The Ocean Parade', ['animals bw/whale_2', 'sea life bw/shark', 'sea life bw/swordfish', 'vehicles bw 3/boat_2']),
+  copy('ocean-parade', 3, 'The Ocean Parade', ['animals bw/whale_2', 'sea life bw/shark', 'sea life bw/lobster', 'sea life bw 2/seal']),   // the dense boat printed as a tangle at its small size; a round picture (turtle, stingray) shows three near-equal sizes
   copy('toy-parade', 3, 'The Toy Parade', ['toys bw/train', 'sports bw 2/skateboard', 'Christmas bw/candy', 'objects bw/bone']),
   copy('picnic', 3, 'A Sunny Picnic', ['food bw 2/hot_dog', 'dessert bw/candy', 'beach bw/sunglasses', 'vegetables bw/cucumber']),
   copy('kitchen', 3, 'In the Kitchen', ['kitchen bw/saucepan', 'home bw/frying_pan', 'kitchen bw/plate', 'food bw/hot_dog']),

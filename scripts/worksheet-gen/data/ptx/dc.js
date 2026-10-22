@@ -45,7 +45,7 @@ function bookshelf(x, by, w, h, shelves = 2) {
   return out;
 }
 /** a wall clock: ring, face, two hands (no numbers) */
-const wallClock = (cx, cy, r) => [ell(cx, cy, r, r), ell(cx, cy, r * 0.8, r * 0.8), L([[cx - 4, cy], [cx, cy - r * 0.55], [cx + 4, cy], [cx - 4, cy]], true), L([[cx, cy - 4], [cx + r * 0.45, cy], [cx, cy + 4], [cx, cy - 4]], true)];
+const wallClock = (cx, cy, r) => [ell(cx, cy, r, r), ell(cx, cy, r * 0.8, r * 0.8), L([[cx, cy - r * 0.12], [cx, cy - r * 0.58]]), L([[cx + r * 0.12, cy], [cx + r * 0.58, cy]])];   // two open hands from a small centre gap: thin closed hands dashed into a knot
 /** a shop counter: top + front with two panels */
 const counter = (x, y, w, h) => [rect(x - 10, y, w + 20, 20), rect(x, y + 20, w, h - 20), rect(x + 18, y + 38, w / 2 - 27, h - 56), rect(x + w / 2 + 9, y + 38, w / 2 - 27, h - 56)];
 /** a scalloped striped awning (closed stripes) */

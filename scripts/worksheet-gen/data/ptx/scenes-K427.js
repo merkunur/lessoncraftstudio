@@ -53,7 +53,7 @@ const SCENES = [
     decor: [G('waves', [14, 661, 250, 54, 6]), { m: 'circle', a: [200, 70, 10], colour: GREY, w: 2 }, { m: 'circle', a: [230, 40, 7], colour: GREY, w: 2 }] }),
   copy('garden-leaf', 2, 'Ladybugs on the Leaf', T('ladybugs'), { level: 2, key: 'animals bw 3/ladybug', size: { w: 128 }, n: 5, seed: 17,
     region: { cx: 337, cy: 488, rx: 300, ry: 200 }, models: [{ src: 'animals bw 5/hedgehog', h: 120 }, { src: 'nature bw/mushroom', h: 130 }],
-    decor: [{ d: 'M14 488 C120 250 520 250 661 488 C520 726 120 726 14 488 Z', w: 2.5 }, { d: 'M14 488 L661 488', w: 2, colour: GREY }, G('sun', [600, 70, 30, 8, false])], modelX0: 330 }),
+    decor: [{ d: 'M14 488 C120 250 520 250 661 488 C520 726 120 726 14 488 Z', w: 2.5 }, { d: 'M14 488 L661 488', w: 2, colour: GREY }, G('sun', [255, 62, 26, 8, false])], modelX0: 330 }),
   copy('night-garden', 2, 'Bats at Night', T('bats'), { level: 2, key: 'animals bw 5/bat', size: { w: 138 }, n: 7, seed: 21,
     region: { x0: 26, y0: 262, x1: 650, y1: 702 }, models: [{ src: 'animals bw 5/owl', h: 150 }, { src: 'nature bw/mushroom', h: 110 }],
     decor: [G('moon', [230, 70, 34]), G('star', [300, 40, 14]), G('star', [170, 170, 12])] }),
@@ -75,6 +75,6 @@ const SCENES = [
     decor: [{ m: 'line', a: [[[14, 706], [661, 706]]], w: 2.5 }, { m: 'line', a: [[[14, 250], [661, 250]]], w: 2, colour: GREY }], modelX0: 300 }),
   copy('sheep-meadow', 3, 'Sheep in the Meadow', T('sheep'), { level: 3, key: 'animals bw 4/sheep', size: { h: 104 }, n: 10, seed: 6,
     region: { x0: 22, y0: 262, x1: 653, y1: 704 }, models: [{ src: 'animals bw/dog', h: 104 }, { src: 'home and nature bw/tree_3', h: 200 }],
-    decor: [G('fence', [14, 661, 248, 50, 12]), G('sun', [600, 50, 26, 8, false])], modelX0: 330 }),
+    decor: [G('fence', [14, 661, 248, 50, 12]), G('sun', [255, 56, 24, 8, false])], modelX0: 330 }),
 ];
 module.exports = { SCENES };

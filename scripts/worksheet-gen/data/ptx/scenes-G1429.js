@@ -89,9 +89,10 @@ const SCENES = [
     motifs: [...P.hall(30, 470, 400, 380, 2), ground(470), ground(690), cloud(560, 100, 140)],
     items: [{ src: 'tools bw/ladder', x: 540, y: 470, h: 250 }, { src: 'tools bw/traffic_cone', x: 120, y: 690, h: 120 }, { src: 'animals bw 4/cat_3', x: 300, y: 690, h: 120 }, { src: 'vehicles bw 3/baby_carriage', x: 520, y: 690, w: 180 }],
   })),
+  // a helicopter, not a plane: every library plane has a row of round windows that reads as "ooo"
   copy('airport', 2, 'At the Airport', () => ({
     motifs: [...P.tower(110, 470, 330), ground(470), ground(690), cloud(380, 90, 160)],
-    items: [{ src: 'vehicles bw 2/airplane_2', x: 450, y: 420, w: 280 }, { src: 'beach bw/suitcase', x: 210, y: 470, h: 110 }, { src: 'toys bw/rocket', x: 120, y: 690, h: 160 }, { src: 'travel and holiday bw/ticket', x: 330, y: 690, w: 170 }, { src: 'beach bw 2/tote_bag', x: 540, y: 690, h: 150 }],
+    items: [{ src: 'vehicles bw 2/helicopter_2', x: 450, y: 430, w: 270 }, { src: 'beach bw/suitcase', x: 210, y: 470, h: 110 }, { src: 'classroom bw 2/backpack', x: 120, y: 690, h: 150 }, { src: 'travel and holiday bw/ticket', x: 330, y: 690, w: 170 }, { src: 'beach bw 2/tote_bag', x: 540, y: 690, h: 150 }],
   })),
   copy('building-site', 2, 'The Building Site', () => ({
     motifs: [sun(590, 70, 30), ...P.bricks(40, 470, 5, 4, 66, 40), ground(470), ground(690)],

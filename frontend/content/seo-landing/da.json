@@ -153836,6 +153836,829 @@
    ],
    "title": "Labyrint til farvelægning: krabben på stranden | PDF til print",
    "metaDescription": "Labyrint til farvelægning til børnehaveklassen: tegn krabbens vej hen til sandslottet, farvelæg hele vejen og så stranden. PDF til print, skærmversion og facit."
+  },
+  {
+   "slug": "tegn-efter-stregerne-haven-og-stien-op-til-doeren",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-tracing",
+    "mode": "base",
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Tegn efter stregerne",
+   "h1": "Tegn efter stregerne: haven og stien op til døren",
+   "strand": "Finmotorik og skriveforberedelse",
+   "slotTokens": [
+    "tegn-efter-stregerne",
+    "boernehaveklasse"
+   ],
+   "p1": "Denne side er ét samlet billede og ikke en række løse tegninger. Et lille hus med skorsten, et sprossevindue og et spidst gavlvindue står på en jævn græsplæne, og ved siden af breder et stort træ sin krone ud. En sommerfugl flyver mellem taget og bladene, en sti snor sig fra sidens nederste kant op til hoveddøren, to tulipaner vokser nede ved stien, og en kanin sidder i græsset. På himlen er der en sky og en sol. Næsten alle streger er stiplede; kun ruderne i sprossevinduet, solens stråler og græstotterne er tegnet færdige på forhånd.",
+   "p2": "At tegne efter et helt billede kræver mere end at holde en streg. Barnet skal selv vælge, hvor det vil begynde, følge lange streger som græsplænen og stien fra den ene side til den anden, lukke runde former som solen og skyen og arbejde sig frem, billede for billede, indtil intet gråt er tilbage. De stiplede streger ligger præcis på tegningens egne linjer, så der er intet at gætte på, og intet skal viskes ud. Snak om haven undervejs: Hvem bor i huset? Hvor fører stien hen? Hvad laver kaninen i græsset?",
+   "p3": "Siden udskrives som én PDF-side med plads til navn og dato. Den passer til børnehaveklassen og de ældste børn i børnehaven og fungerer godt som en rolig start på dagen eller en stille aktivitet ved bordet. Når den er let, kan barnet gå videre til morgenen i byen med de fine prikkede streger eller til skoven, hvor fem stiplede dyr gemmer sig. At tegne efter stregerne følger omridset af hele billeder; skriveforberedende øvelser med enkle streger, tegn trin for trin og prik til prik med tal har deres egne sider.",
+   "canonicalDeckSlug": "tegn-efter-stregerne-k418",
+   "carousel": [
+    {
+     "label": "Finmotorik i børnehaven: min første store hval",
+     "href": "finmotorik-boernehave-min-foerste-store-hval"
+    },
+    {
+     "label": "Tegn efter dyr: se først på billedet, og tegn så efter",
+     "href": "tegn-efter-dyr-se-foerst-paa-billedet"
+    },
+    {
+     "label": "Runde billeder i børnehaven: tegn rundt og rundt som et o",
+     "href": "runde-billeder-boernehave-rundt-og-rundt"
+    },
+    {
+     "label": "Lige streger at tegne efter: ned, hen og på skrå",
+     "href": "lige-streger-tegn-efter-ned-hen-paa-skraa"
+    }
+   ],
+   "title": "Tegn efter stregerne: haven og stien op til døren | PDF",
+   "metaDescription": "Tegn efter en hel have: et hus, et stort træ, en sommerfugl, tulipaner, en kanin og stien op til døren. Til børnehaveklassen. Gratis PDF til print."
+  },
+  {
+   "slug": "finmotorik-boernehave-min-foerste-store-hval",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-tracing",
+    "mode": "my-first-tracing-whale",
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Tegn efter stregerne",
+   "h1": "Finmotorik i børnehaven: min første store hval",
+   "strand": "Finmotorik og skriveforberedelse",
+   "slotTokens": [
+    "tegn-efter-stregerne",
+    "boernehaveklasse"
+   ],
+   "p1": "En første side skal give en lille hånd én stor og venlig opgave, og det er præcis, hvad denne side gør. En hval, der er næsten lige så bred som siden, svømmer forbi inde i et rundt koøje på et skib. Hvalens omrids er tegnet med tykke stiplede streger med god afstand, og en sort prik med en lille pil på ryggen viser, hvor barnet skal starte, og hvilken vej det skal gå. Bølgerne forneden, boblerne og koøjets kant er tegnet med fuldt optrukne streger, så det eneste, der skal tegnes efter, er hvalen.",
+   "p2": "Tre- og fireårige er stadig ved at lære at holde en farveblyant og at holde den i gang langs en streg. Lange, bløde buer er det letteste sted at øve det, meget lettere end små hjørner og fine detaljer. Hvalens øje og stribene på dens strube er trykt færdige, så barnet aldrig skal tegne efter en streg, der er for kort eller for tæt på den næste. Lad barnet køre en finger langs hvalen først, og tegn så langsomt efter med en tyk farveblyant. Ros den streg, der bliver ved, frem for den, der er perfekt.",
+   "p3": "PDF'en er lavet til børnehaven og til alle børn, der lige er begyndt at tegne efter streger. Den passer godt sammen med siden, hvor en pingvin og en kænguru tegnes efter ved siden af en færdig model, og med siden med de store runde billeder. Bagefter giver siderne til børnehaveklassen flere billeder og tyndere streger. At tegne efter stregerne følger omridset af hele billeder; skriveforberedende øvelser med enkle streger, tegn trin for trin og prik til prik med tal har deres egne sider.",
+   "canonicalDeckSlug": "tegn-efter-stregerne-k419",
+   "carousel": [
+    {
+     "label": "Tegn efter stregerne: haven og stien op til døren",
+     "href": "tegn-efter-stregerne-haven-og-stien-op-til-doeren"
+    },
+    {
+     "label": "Tegn efter dyr: se først på billedet, og tegn så efter",
+     "href": "tegn-efter-dyr-se-foerst-paa-billedet"
+    },
+    {
+     "label": "Runde billeder i børnehaven: tegn rundt og rundt som et o",
+     "href": "runde-billeder-boernehave-rundt-og-rundt"
+    },
+    {
+     "label": "Lige streger at tegne efter: ned, hen og på skrå",
+     "href": "lige-streger-tegn-efter-ned-hen-paa-skraa"
+    }
+   ],
+   "title": "Finmotorik i børnehaven: min første store hval | PDF",
+   "metaDescription": "En kæmpe hval at tegne efter med lange, rolige streger fra en startprik, set gennem et rundt skibsvindue. Den første side til de mindste i børnehaven. PDF."
+  },
+  {
+   "slug": "tegn-efter-dyr-se-foerst-paa-billedet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-tracing",
+    "mode": "look-then-trace",
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Tegn efter stregerne",
+   "h1": "Tegn efter dyr: se først på billedet, og tegn så efter",
+   "strand": "Finmotorik og visuel opmærksomhed",
+   "slotTokens": [
+    "tegn-efter-stregerne",
+    "boernehaveklasse"
+   ],
+   "p1": "Hver række på siden har to halvdele. Til venstre sidder en lille, færdig tegning i en ramme med et øjemærke øverst: en pingvin i den første række og en kænguru i den anden. Til højre, efter en pil, står det samme dyr igen, stort og tegnet med tykke stiplede streger, klar til at blive tegnet efter. Modellen er optrukket og sat i ramme, så det er tydeligt, hvilket billede man kigger på, og hvilket man tegner på. Den stiplede kopi er den samme tegning, og den vender samme vej.",
+   "p2": "At se på en model og derefter lave sin egen er næste skridt efter at tegne efter alene, og små børn har brug for at øve begge dele. Øjemærket inviterer til et øjebliks kig: Hvor sidder pingvinens vinger? Hvor lange er kænguruens ører? Bagefter tegner barnet efter den store kopi og starter ved prikken øverst på hovedet. Fordi kopien passer streg for streg med modellen, kan barnet sammenligne og se, at det er det samme dyr. Øjnene og de små detaljer er tegnet færdige, så de streger, der er tilbage, er lange nok til små hænder.",
+   "p3": "Siden udskrives som PDF og passer til børnehaven og begyndelsen af børnehaveklassen. Brug den efter siden med den store hval og før siderne med mange billeder. Børn, der kan lide den, kan gå videre til siden med den anden halvdel, hvor en sommerfugl, en ugle, en pokal og en bamse skal gøres færdige. At tegne efter stregerne følger omridset af hele billeder; skriveforberedende øvelser med enkle streger, tegn trin for trin og prik til prik med tal har deres egne sider.",
+   "canonicalDeckSlug": "tegn-efter-stregerne-k420",
+   "carousel": [
+    {
+     "label": "Tegn efter stregerne: haven og stien op til døren",
+     "href": "tegn-efter-stregerne-haven-og-stien-op-til-doeren"
+    },
+    {
+     "label": "Finmotorik i børnehaven: min første store hval",
+     "href": "finmotorik-boernehave-min-foerste-store-hval"
+    },
+    {
+     "label": "Runde billeder i børnehaven: tegn rundt og rundt som et o",
+     "href": "runde-billeder-boernehave-rundt-og-rundt"
+    },
+    {
+     "label": "Lige streger at tegne efter: ned, hen og på skrå",
+     "href": "lige-streger-tegn-efter-ned-hen-paa-skraa"
+    }
+   ],
+   "title": "Tegn efter dyr: se først på billedet, og tegn så efter | PDF",
+   "metaDescription": "En pingvin og en kænguru som færdige tegninger, hver med en stor stiplet kopi ved siden af. Se først, tegn så efter: en side til børnehaven. PDF til print."
+  },
+  {
+   "slug": "runde-billeder-boernehave-rundt-og-rundt",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-tracing",
+    "mode": "round-and-round-tracing",
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Tegn efter stregerne",
+   "h1": "Runde billeder i børnehaven: tegn rundt og rundt som et o",
+   "strand": "Finmotorik og skriveforberedelse",
+   "slotTokens": [
+    "tegn-efter-stregerne",
+    "boernehaveklasse"
+   ],
+   "p1": "Tre runde ting ruller ned ad siden som kugler på en kuglebane: en badebold på den øverste rampe, en donut på den midterste og et æble på den nederste. Hvert billede er stort, og det er især det runde omrids, der er stiplet. Boldens striber, donuttens hul og krymmel og æblets stilk er tegnet færdige, mens æblets lille blad også er stiplet. På hvert omrids sidder en prik oppe til højre med en lille pil, der peger op mod venstre og viser, hvor barnet skal starte, og hvilken vej det skal gå rundt.",
+   "p2": "At gå rundt mod uret fra øverst til højre er netop sådan, bogstaverne o, c, a og d begynder, så et barn, der tegner efter disse billeder, øver allerede skrivningens første bevægelse. Billederne er store, fordi små børn styrer de store bevægelser, før de styrer de små, og stregerne er tykke og har god afstand til en kraftig farveblyant. Opmuntr barnet til at starte ved prikken hver gang og komme helt tilbage til den, så cirklen lukkes. En vaklende streg gør ingenting: Det er formen, der er det vigtige, ikke pænheden.",
+   "p3": "PDF'en passer til tre- og fireårige i børnehaven, som har prøvet en første side. Bagefter giver siden med spiraler og løkker en snegl og en slikkepind, der drejer rundt igen og igen, og siden med lige streger øver streger, der går ned, hen og på skrå. At tegne efter stregerne følger omridset af hele billeder; skriveforberedende øvelser med enkle streger, tegn trin for trin og prik til prik med tal har deres egne sider.",
+   "canonicalDeckSlug": "tegn-efter-stregerne-k421",
+   "carousel": [
+    {
+     "label": "Tegn efter stregerne: haven og stien op til døren",
+     "href": "tegn-efter-stregerne-haven-og-stien-op-til-doeren"
+    },
+    {
+     "label": "Finmotorik i børnehaven: min første store hval",
+     "href": "finmotorik-boernehave-min-foerste-store-hval"
+    },
+    {
+     "label": "Tegn efter dyr: se først på billedet, og tegn så efter",
+     "href": "tegn-efter-dyr-se-foerst-paa-billedet"
+    },
+    {
+     "label": "Lige streger at tegne efter: ned, hen og på skrå",
+     "href": "lige-streger-tegn-efter-ned-hen-paa-skraa"
+    }
+   ],
+   "title": "Runde billeder i børnehaven: tegn rundt og rundt som et o | PDF",
+   "metaDescription": "En badebold, en donut og et æble på hver sin rampe, hver med en startprik. Tegn rundt og rundt ligesom bogstavet o: store buer til de mindste. PDF til print."
+  },
+  {
+   "slug": "lige-streger-tegn-efter-ned-hen-paa-skraa",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-tracing",
+    "mode": "straight-line-picture-tracing",
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Tegn efter stregerne",
+   "h1": "Lige streger at tegne efter: ned, hen og på skrå",
+   "strand": "Finmotorik og skriveforberedelse",
+   "slotTokens": [
+    "tegn-efter-stregerne",
+    "boernehaveklasse"
+   ],
+   "p1": "Siden er delt i tre kolonner, og øverst i hver kolonne viser et rundt mærke en pil. Den første kolonne peger nedad og rummer et klædeskab og et højt skab, billeder af næsten kun lodrette streger. Den midterste kolonne peger hen ad og rummer en parkbænk og en kommode med tre skuffer, fulde af vandrette streger. Den sidste kolonne peger på skrå og rummer en kuvert og en stjerne, der næsten kun består af skrå streger. Alle seks billeder er stiplede og bygget af lige streger; kun knopperne på skufferne er tegnet færdige.",
+   "p2": "Børn lærer lige streger i en fast rækkefølge: først ned, så hen og til sidst på skrå, og den skrå streg er den sværeste af de tre. Siden følger den rækkefølge fra venstre mod højre, så barnet øver hver retning i et rigtigt billede i stedet for i en række abstrakte streger. Klædeskabets lodrette streger forbereder l og t, kommodens vandrette streger forbereder E og tværstregen i t, og stjernens skrå streger forbereder v, w og k. Lad barnet sige retningen højt undervejs: ned, hen, på skrå.",
+   "p3": "PDF'en passer til børnehaveklassen og til børn, der allerede tegner sikkert efter runde former. Den hører naturligt hjemme mellem siden med runde billeder og siden med zigzagstreger, hvor skrå streger mødes i skarpe spidser. Tag gerne én kolonne ad gangen og hold en lille pause mellem retningerne. At tegne efter stregerne følger omridset af hele billeder; skriveforberedende øvelser med enkle streger, tegn trin for trin og prik til prik med tal har deres egne sider.",
+   "canonicalDeckSlug": "tegn-efter-stregerne-k422",
+   "carousel": [
+    {
+     "label": "Tegn efter stregerne: haven og stien op til døren",
+     "href": "tegn-efter-stregerne-haven-og-stien-op-til-doeren"
+    },
+    {
+     "label": "Finmotorik i børnehaven: min første store hval",
+     "href": "finmotorik-boernehave-min-foerste-store-hval"
+    },
+    {
+     "label": "Tegn efter dyr: se først på billedet, og tegn så efter",
+     "href": "tegn-efter-dyr-se-foerst-paa-billedet"
+    },
+    {
+     "label": "Runde billeder i børnehaven: tegn rundt og rundt som et o",
+     "href": "runde-billeder-boernehave-rundt-og-rundt"
+    }
+   ],
+   "title": "Lige streger at tegne efter: ned, hen og på skrå | PDF",
+   "metaDescription": "Seks billeder af lige streger i tre kolonner: et klædeskab og et skab, en bænk og en kommode, en kuvert og en stjerne. Til børnehaveklassen. PDF til print."
+  },
+  {
+   "slug": "zigzagstreger-bjerge-og-uvejr-over-lejren",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-tracing",
+    "mode": "zigzag-picture-tracing",
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Tegn efter stregerne",
+   "h1": "Zigzagstreger: tegn efter bjergene og uvejret over lejren",
+   "strand": "Finmotorik og skriveforberedelse",
+   "slotTokens": [
+    "tegn-efter-stregerne",
+    "boernehaveklasse"
+   ],
+   "p1": "Aftenen er kommet til en lejr i bjergene. En række spidse bjergtoppe går tværs over siden fra kant til kant, en uvejrssky med lyn og regndråber hænger over midten, og en stjerne og en måne lyser på himlen. Under bjergene står tre grantræer, hver med tre takkede etager, og et telt venter på de små campister. Næsten hele billedet er stiplet: bjergene, træerne, teltet, skyen og lynene. Kun græstotterne nederst er tegnet færdige.",
+   "p2": "En zigzag er to skrå streger, der mødes i en spids, og kunsten er at stoppe i spidsen og skifte retning i stedet for at runde den af. Det er netop den bevægelse, barnet senere skal bruge til bogstaver som v, w, k og z. Her er zigzaggerne en del af rigtige ting, bjergene og grantræerne, så barnet har en grund til at blive ved. Mind barnet om at stoppe ved hver spids, øverst på hvert bjerg og yderst på hver gren, og så sætte i gang i den nye retning. Spidserne ligger langt fra hinanden, så der er plads til at stoppe.",
+   "p3": "PDF'en passer til børnehaveklassen, efter siden med lige streger og før siden med spiraler og løkker. Den er også god til en efterårsdag eller en uge om at tage på tur, og det færdige billede kan bagefter farvelægges. At tegne efter stregerne følger omridset af hele billeder; skriveforberedende øvelser med enkle streger, tegn trin for trin og prik til prik med tal har deres egne sider.",
+   "canonicalDeckSlug": "tegn-efter-stregerne-k423",
+   "carousel": [
+    {
+     "label": "Tegn efter stregerne: haven og stien op til døren",
+     "href": "tegn-efter-stregerne-haven-og-stien-op-til-doeren"
+    },
+    {
+     "label": "Finmotorik i børnehaven: min første store hval",
+     "href": "finmotorik-boernehave-min-foerste-store-hval"
+    },
+    {
+     "label": "Tegn efter dyr: se først på billedet, og tegn så efter",
+     "href": "tegn-efter-dyr-se-foerst-paa-billedet"
+    },
+    {
+     "label": "Runde billeder i børnehaven: tegn rundt og rundt som et o",
+     "href": "runde-billeder-boernehave-rundt-og-rundt"
+    }
+   ],
+   "title": "Zigzagstreger: tegn efter bjergene og uvejret over lejren | PDF",
+   "metaDescription": "Uvejr over en lejr i bjergene: spidse bjergtoppe, tre grantræer med takkede sider, et telt og lyn. Tegn efter hver zigzag, og stop ved hver spids. PDF til print."
+  },
+  {
+   "slug": "spiraler-og-loekker-snegl-slikkepind-kringle",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-tracing",
+    "mode": "curls-and-spirals-tracing",
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Tegn efter stregerne",
+   "h1": "Spiraler og løkker: tegn efter sneglen, slikkepinden og kringlen",
+   "strand": "Finmotorik og skriveforberedelse",
+   "slotTokens": [
+    "tegn-efter-stregerne",
+    "boernehaveklasse"
+   ],
+   "p1": "Siden er bygget som et lille galleri med fem indrammede billeder. Den største ramme rummer en smilende snegl, hvis hus snor sig rundt og rundt ind mod midten, og ved siden af snor en høj slikkepind sig fra kanten ind til centrum. Det er de to spiraler. Nedenunder slår en sløjfe løkker til begge sider, en kringle krydser sig selv omkring sine tre huller, og en vindmølle har bløde, buede vinger omkring en lille cirkel. Alle fem billeder er stiplede og klar til at blive tegnet efter, én ramme ad gangen.",
+   "p2": "En spiral drejer og drejer uden at stoppe, og at følge den kræver, at hånden holder en jævn, rund bevægelse over en lang strækning. Det er den bevægelse, der senere bærer løkkerne i sammenhængende skrift og bogstaver som e og l. Spiralerne er det sværeste, så omgangene i sneglehuset og slikkepinden har god afstand til et barns blyant. Små detaljer som saltet på kringlen er trykt færdige, så barnet aldrig skal tegne efter noget, der er mindre end en fingerspids. Arbejd ramme for ramme, og lad barnet selv vælge rækkefølgen.",
+   "p3": "PDF'en passer til børnehaveklassen og til sikre børnehavebørn, der allerede har tegnet efter runde billeder. Den kommer efter siden med zigzagstreger og fører videre til picnicbilledet, der både skal tegnes efter og farvelægges. Hver færdig ramme er også et lille billede at farvelægge. At tegne efter stregerne følger omridset af hele billeder; skriveforberedende øvelser med enkle streger, tegn trin for trin og prik til prik med tal har deres egne sider.",
+   "canonicalDeckSlug": "tegn-efter-stregerne-k424",
+   "carousel": [
+    {
+     "label": "Tegn efter stregerne: haven og stien op til døren",
+     "href": "tegn-efter-stregerne-haven-og-stien-op-til-doeren"
+    },
+    {
+     "label": "Finmotorik i børnehaven: min første store hval",
+     "href": "finmotorik-boernehave-min-foerste-store-hval"
+    },
+    {
+     "label": "Tegn efter dyr: se først på billedet, og tegn så efter",
+     "href": "tegn-efter-dyr-se-foerst-paa-billedet"
+    },
+    {
+     "label": "Runde billeder i børnehaven: tegn rundt og rundt som et o",
+     "href": "runde-billeder-boernehave-rundt-og-rundt"
+    }
+   ],
+   "title": "Spiraler og løkker: tegn efter sneglen, slikkepinden og kringlen | PDF",
+   "metaDescription": "Et lille galleri med fem billeder at tegne efter: en snegl og en slikkepind med spiraler, en sløjfe, en kringle og en vindmølle. Til børnehaveklassen. PDF."
+  },
+  {
+   "slug": "tegn-og-farvelaeg-picnic-under-traeet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-tracing",
+    "mode": "trace-and-color-picnic",
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Tegn efter stregerne",
+   "h1": "Tegn og farvelæg: picnic under det store træ",
+   "strand": "Finmotorik og skriveforberedelse",
+   "slotTokens": [
+    "tegn-efter-stregerne",
+    "boernehaveklasse"
+   ],
+   "p1": "Et picnictæppe ligger i græsset foran et stort træ med en tæt krone. På tæppet ligger en banan, en kop, en pære og en citron, og en lille fugl flyver mellem træet og solen. En sky driver hen over himlen. Træet, fuglen, skyen, solen, tæppet og frugterne er alle tegnet med stiplede streger, og hver form er lukket, så den bliver til et felt, der kan farvelægges, når den er tegnet efter. Der er ingen tal og ingen farvekoder: Barnet vælger selv farverne.",
+   "p2": "Siden øver to forskellige slags kontrol på én gang. Først tegner barnet efter og holder farveblyanten på stregen. Bagefter farvelægger barnet og holder farveblyanten inden for stregen. Frugternes og tæppets store, rolige former gør det andet trin overskueligt, og de lukkede omrids giver hver farve en tydelig kant at stoppe ved. Det føles godt at blive færdig med en side, man både har tegnet og farvelagt, og øvelsen bliver til et billede, barnet er stolt af at tage med hjem eller hænge op.",
+   "p3": "PDF'en passer til børnehaveklassen og de ældste børn i børnehaven. Vil man farvelægge efter en regel, beder siden med figurraketten barnet om at farvelægge alle cirklerne; her på picnicsiden vælger barnet alle farverne selv. Mere øvelse med lukkede former giver julesiden med de mange julekugler. At tegne efter stregerne følger omridset af hele billeder; skriveforberedende øvelser med enkle streger, tegn trin for trin og prik til prik med tal har deres egne sider.",
+   "canonicalDeckSlug": "tegn-efter-stregerne-k425",
+   "carousel": [
+    {
+     "label": "Tegn efter stregerne: haven og stien op til døren",
+     "href": "tegn-efter-stregerne-haven-og-stien-op-til-doeren"
+    },
+    {
+     "label": "Finmotorik i børnehaven: min første store hval",
+     "href": "finmotorik-boernehave-min-foerste-store-hval"
+    },
+    {
+     "label": "Tegn efter dyr: se først på billedet, og tegn så efter",
+     "href": "tegn-efter-dyr-se-foerst-paa-billedet"
+    },
+    {
+     "label": "Runde billeder i børnehaven: tegn rundt og rundt som et o",
+     "href": "runde-billeder-boernehave-rundt-og-rundt"
+    }
+   ],
+   "title": "Tegn og farvelæg: picnic under det store træ | PDF",
+   "metaDescription": "Tegn efter en picnic ved et stort træ, og farvelæg bagefter bananen, koppen, pæren og citronen inden for stregerne. Til børnehaveklassen. Gratis PDF til print."
+  },
+  {
+   "slug": "foerskoleopgaver-hvor-starter-jeg-trappe",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-tracing",
+    "mode": "where-do-i-start-tracing",
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Tegn efter stregerne",
+   "h1": "Førskoleopgaver: hvor starter jeg? Billeder på en trappe",
+   "strand": "Finmotorik og skriveforberedelse",
+   "slotTokens": [
+    "tegn-efter-stregerne",
+    "boernehaveklasse"
+   ],
+   "p1": "En trappe går ned over siden fra øverste venstre hjørne til nederste højre, og på hvert trin står ét enkelt billede: et flag øverst, så et hjerte, en strømpe og nederst en klokke. Hvert billede består af ganske få streger, og hjertet er tegnet i én eneste streg. Hver streg begynder ved en sort prik og har en lille pil, der viser vejen, og en prøveprik med en pil oppe i hjørnet forklarer tegnet. Hvor to streger begynder samme sted, som på flaget, deler de én prik med to pile.",
+   "p2": "At vide, hvor en streg begynder, og hvilken vej den går, er den vane, der senere gør bogstaverne lette at forme. Lige streger begynder her for det meste øverst, og runde streger begynder oppe til højre og går rundt mod uret, de samme regler som børnene møder, når de lærer at skrive. Billederne er tegnet streg for streg til netop dette formål, så der er ingen forvirrende ekstra streger. Lad barnet sætte en finger på hver prik først, følge pilen med fingeren og først derefter tegne efter. Gå ned ad trappen ét trin ad gangen.",
+   "p3": "PDF'en passer til børnehaveklassen og til børn, der er ved at gøre sig klar til at skrive bogstaver. Den er bevidst let, fordi det er stregernes rækkefølge, der er lektien, ikke deres længde. Bagefter kan alle sider i sættet tegnes efter med samme vane: find starten, og følg retningen. At tegne efter stregerne følger omridset af hele billeder; skriveforberedende øvelser med enkle streger, tegn trin for trin og prik til prik med tal har deres egne sider.",
+   "canonicalDeckSlug": "tegn-efter-stregerne-k426",
+   "carousel": [
+    {
+     "label": "Tegn efter stregerne: haven og stien op til døren",
+     "href": "tegn-efter-stregerne-haven-og-stien-op-til-doeren"
+    },
+    {
+     "label": "Finmotorik i børnehaven: min første store hval",
+     "href": "finmotorik-boernehave-min-foerste-store-hval"
+    },
+    {
+     "label": "Tegn efter dyr: se først på billedet, og tegn så efter",
+     "href": "tegn-efter-dyr-se-foerst-paa-billedet"
+    },
+    {
+     "label": "Runde billeder i børnehaven: tegn rundt og rundt som et o",
+     "href": "runde-billeder-boernehave-rundt-og-rundt"
+    }
+   ],
+   "title": "Førskoleopgaver: hvor starter jeg? Billeder på en trappe | PDF",
+   "metaDescription": "Fire enkle billeder på en trappe: et flag, et hjerte, en strømpe og en klokke. Hver streg har en startprik og en pil. Lær, hvor man begynder. Til 0. klasse. PDF."
+  },
+  {
+   "slug": "tegn-og-tael-hvor-mange-aender-i-dammen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-tracing",
+    "mode": "trace-and-count-ducks",
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Tegn efter stregerne",
+   "h1": "Tegn og tæl: hvor mange ænder svømmer i dammen?",
+   "strand": "Tal og tælling",
+   "standard": "K.CC.B.5",
+   "slotTokens": [
+    "tegn-efter-stregerne",
+    "boernehaveklasse"
+   ],
+   "p1": "En stor, oval dam fylder den nederste del af siden, og på den svømmer fem små ænder, nogle mod venstre og nogle mod højre. Ænderne er tegnet med stiplede streger. På bredden over vandet står et træ, og der sidder en frø og en skildpadde, alle tegnet med fuldt optrukne streger, og på himlen er der en sky. I det øverste hjørne venter en tom boks med en skrivelinje på svaret. Kun ænderne er stiplede, så siden viser selv, hvilke dyr der skal tegnes efter og tælles.",
+   "p2": "At tegne efter hver and, før den tælles, sænker tempoet og gør hver and til én tydelig ting at tælle. Fordi ænderne er spredt ud over dammen i stedet for at stå på en række, skal barnet holde styr på, hvilke det allerede har talt, og det er netop den tællefærdighed, der øves i børnehaveklassen: at tælle op til ti spredte ting og svare på, hvor mange der er. Frøen og skildpadden er der med vilje. De er andre dyr og ikke stiplede, så barnet lærer kun at tælle det, opgaven spørger om.",
+   "p3": "PDF'en passer både til matematik og til finmotorik i børnehaveklassen og fungerer godt i en lille gruppe: tegn efter, tæl sammen, og skriv tallet. Barnet skriver selv tallet i boksen. Vil man øve mere i at finde figurer i et billede, kan man prøve skovsiden med fem gemte dyr. At tegne efter stregerne følger omridset af hele billeder; skriveforberedende øvelser med enkle streger, tegn trin for trin og prik til prik med tal har deres egne sider.",
+   "canonicalDeckSlug": "tegn-efter-stregerne-k427",
+   "carousel": [
+    {
+     "label": "Tegn efter stregerne: haven og stien op til døren",
+     "href": "tegn-efter-stregerne-haven-og-stien-op-til-doeren"
+    },
+    {
+     "label": "Finmotorik i børnehaven: min første store hval",
+     "href": "finmotorik-boernehave-min-foerste-store-hval"
+    },
+    {
+     "label": "Tegn efter dyr: se først på billedet, og tegn så efter",
+     "href": "tegn-efter-dyr-se-foerst-paa-billedet"
+    },
+    {
+     "label": "Runde billeder i børnehaven: tegn rundt og rundt som et o",
+     "href": "runde-billeder-boernehave-rundt-og-rundt"
+    }
+   ],
+   "title": "Tegn og tæl: hvor mange ænder svømmer i dammen? | PDF",
+   "metaDescription": "Tegn efter ænderne, der svømmer i dammen, tæl dem, og skriv antallet i boksen. En frø og en skildpadde sidder på bredden. Tegn og tæl i 0. klasse. PDF."
+  },
+  {
+   "slug": "goer-billedet-faerdigt-det-der-mangler-paa-hylden",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-tracing",
+    "mode": "finish-the-picture-tracing",
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Tegn efter stregerne",
+   "h1": "Gør billedet færdigt: tegn efter det, der mangler på hylden",
+   "strand": "Finmotorik og visuel opmærksomhed",
+   "slotTokens": [
+    "tegn-efter-stregerne",
+    "boernehaveklasse"
+   ],
+   "p1": "To hylder går tværs over siden under en række flagguirlander, og på dem står seks ting, der skal gøres hele. På den øverste hylde står en legetøjsbil, en tekande og en paraply; på den nederste en kop på sin underkop, en snurretop og en kanin. Hvert billede er tegnet med fuldt optrukne streger bortset fra én del, som er stiplet: bilens hjul, tekandens tud, paraplyens skaft med håndtaget, koppens hank, snurretoppens spids og kaninens lange ører. Når den del er tegnet efter, er billedet helt.",
+   "p2": "For at gøre et billede færdigt skal barnet først se, hvad der mangler, og det at kigge er lige så vigtigt som at tegne efter. Spørg, før I går i gang: Hvad mangler tekanden? Hvor er kaninens ører? De manglende dele er rigtige dele med et navn og ikke tilfældige huller, så barnet kan tale om dem, og hver del er lang nok til at blive tegnet ordentligt efter. At se helheden i en del og tilføje det, der mangler, er en færdighed, barnet bruger, når det læser bogstaver og genkender former.",
+   "p3": "PDF'en passer til børnehaveklassen og er en god afveksling fra sider, hvor alt er stiplet, fordi det meste af hvert billede allerede er tegnet, og barnet kun skal tilføje den sidste del. Til en side, hvor en hel halvdel mangler, kan man prøve siden med den anden halvdel og sommerfuglen i den åbne bog. At tegne efter stregerne følger omridset af hele billeder; skriveforberedende øvelser med enkle streger, tegn trin for trin og prik til prik med tal har deres egne sider.",
+   "canonicalDeckSlug": "tegn-efter-stregerne-k428",
+   "carousel": [
+    {
+     "label": "Tegn efter stregerne: haven og stien op til døren",
+     "href": "tegn-efter-stregerne-haven-og-stien-op-til-doeren"
+    },
+    {
+     "label": "Finmotorik i børnehaven: min første store hval",
+     "href": "finmotorik-boernehave-min-foerste-store-hval"
+    },
+    {
+     "label": "Tegn efter dyr: se først på billedet, og tegn så efter",
+     "href": "tegn-efter-dyr-se-foerst-paa-billedet"
+    },
+    {
+     "label": "Runde billeder i børnehaven: tegn rundt og rundt som et o",
+     "href": "runde-billeder-boernehave-rundt-og-rundt"
+    }
+   ],
+   "title": "Gør billedet færdigt: tegn efter det, der mangler på hylden | PDF",
+   "metaDescription": "Seks billeder på to hylder mangler en del: bilens hjul, tekandens tud, håndtaget på paraplyen og koppen, snurretoppens spids og kaninens ører. PDF til print."
+  },
+  {
+   "slug": "juleopgaver-tegn-efter-julekuglerne-og-stjernerne",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-tracing",
+    "mode": "christmas-picture-tracing",
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Tegn efter stregerne",
+   "h1": "Juleopgaver: tegn efter julekuglerne og stjernerne på juletræet",
+   "strand": "Finmotorik og skriveforberedelse",
+   "slotTokens": [
+    "tegn-efter-stregerne",
+    "boernehaveklasse"
+   ],
+   "p1": "Det er juleaften i en hyggelig stue. Et højt juletræ står i en stor potte midt i rummet med en stjerne i toppen, og runde julekugler og små stjerner hænger på grenene. Ved siden af står to pakker med sløjfe, en lænestol venter i hjørnet, og gennem vinduet lyser en måne og to stjerner på nattehimlen. Foran træet ligger et langt tæppe med frynser i begge ender. Scenen foregår inde og uden sne. Træet, gaverne, stolen, vinduet og tæppet er tegnet med stiplede streger.",
+   "p2": "Den egentlige øvelse på siden ligger i de små former. Hver julekugle og hver stjerne er en lukket form, der skal slutte præcis, hvor den begyndte, og der er ni af dem, små, men med god afstand. At lukke små runde former er den bevægelse, barnet skal bruge til bogstaver som a, d, g og o, og den festlige ramme gør gentagelsen til at pynte juletræet i stedet for at lave øvelser. Bagefter er julekuglerne perfekte at farvelægge i klare farver.",
+   "p3": "PDF'en passer til børnehaveklassen og er en rolig aktivitet i december, både i klassen og derhjemme, måske lige før man skal danse om juletræet. Kombinér den med picnicsiden, hvis I vil farvelægge mere, eller med postkortet fra stranden, når året går mod sommer. At tegne efter stregerne følger omridset af hele billeder; skriveforberedende øvelser med enkle streger, tegn trin for trin og prik til prik med tal har deres egne sider.",
+   "canonicalDeckSlug": "tegn-efter-stregerne-k429",
+   "carousel": [
+    {
+     "label": "Tegn efter stregerne: haven og stien op til døren",
+     "href": "tegn-efter-stregerne-haven-og-stien-op-til-doeren"
+    },
+    {
+     "label": "Finmotorik i børnehaven: min første store hval",
+     "href": "finmotorik-boernehave-min-foerste-store-hval"
+    },
+    {
+     "label": "Tegn efter dyr: se først på billedet, og tegn så efter",
+     "href": "tegn-efter-dyr-se-foerst-paa-billedet"
+    },
+    {
+     "label": "Runde billeder i børnehaven: tegn rundt og rundt som et o",
+     "href": "runde-billeder-boernehave-rundt-og-rundt"
+    }
+   ],
+   "title": "Juleopgaver: tegn efter julekuglerne og stjernerne | PDF",
+   "metaDescription": "En hyggelig stue juleaften: et juletræ med julekugler og stjerner, gaver, en lænestol og et vindue med måne. Tegn efter hver form hele vejen rundt. 0. klasse. PDF."
+  },
+  {
+   "slug": "tegn-efter-figurer-raket-cirkler-kvadrater-trekanter",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-tracing",
+    "mode": "shape-picture-tracing",
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Tegn efter stregerne",
+   "h1": "Tegn efter figurer: en raket af cirkler, kvadrater og trekanter",
+   "strand": "Geometri og figurer",
+   "standard": "K.G.A.2",
+   "slotTokens": [
+    "tegn-efter-stregerne",
+    "boernehaveklasse"
+   ],
+   "p1": "En raket står på sin affyringsrampe midt på siden, og hver del af den er en ren geometrisk figur. Kroppen er et højt rektangel, næsen er en trekant, de to vinduer er cirkler, lugen er et kvadrat, finnerne er trekanter, og flammen er en trekant, der peger nedad. Rampen under raketten er et langt rektangel. Rundt om raketten rummer himlen flere figurer: en stor og en lille cirkel, et kvadrat, der står på spidsen, og et kvadrat, der står lige. En lille nøgle i hjørnet viser en farvelagt cirkel.",
+   "p2": "Børn lærer først figurerne i én bestemt stilling og skal derefter lære, at en figur beholder sit navn, når den bliver større, mindre eller drejet. Siden viser de samme figurer i forskellige størrelser og stillinger, så cirklerne er både store og små, og et kvadrat står på spidsen. At tegne efter hver figur hjælper barnet med at mærke hjørner og sider, og den anden opgave, at farvelægge alle cirklerne, får barnet til at lede efter cirklerne, uanset hvor de er. Et kvadrat, der står på spidsen, er stadig et kvadrat, og det er værd at sige højt.",
+   "p3": "PDF'en passer til geometri og finmotorik i børnehaveklassen. Hele siden rummer tretten figurer, ni i raketten med rampen og fire på himlen, alle tegnet præcist uden runde hjørner og uden ovaler, og fire af dem er cirkler. Vil barnet farvelægge frit bagefter, passer picnicsiden; til lige streger i rigtige billeder passer siden med ned, hen og på skrå. At tegne efter stregerne følger omridset af hele billeder; skriveforberedende øvelser med enkle streger, tegn trin for trin og prik til prik med tal har deres egne sider.",
+   "canonicalDeckSlug": "tegn-efter-stregerne-k430",
+   "carousel": [
+    {
+     "label": "Tegn efter stregerne: haven og stien op til døren",
+     "href": "tegn-efter-stregerne-haven-og-stien-op-til-doeren"
+    },
+    {
+     "label": "Finmotorik i børnehaven: min første store hval",
+     "href": "finmotorik-boernehave-min-foerste-store-hval"
+    },
+    {
+     "label": "Tegn efter dyr: se først på billedet, og tegn så efter",
+     "href": "tegn-efter-dyr-se-foerst-paa-billedet"
+    },
+    {
+     "label": "Runde billeder i børnehaven: tegn rundt og rundt som et o",
+     "href": "runde-billeder-boernehave-rundt-og-rundt"
+    }
+   ],
+   "title": "Tegn efter figurer: en raket af cirkler, kvadrater og trekanter | PDF",
+   "metaDescription": "En raket og en himmel bygget af rene figurer: cirkler, kvadrater, trekanter og rektangler i forskellige størrelser. Tegn efter, og farvelæg alle cirklerne. PDF."
+  },
+  {
+   "slug": "sommeropgaver-tegn-efter-boelgerne-over-havet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-tracing",
+    "mode": "summer-sea-picture-tracing",
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Tegn efter stregerne",
+   "h1": "Sommeropgaver: tegn efter bølgerne hen over havet",
+   "strand": "Finmotorik og skriveforberedelse",
+   "slotTokens": [
+    "tegn-efter-stregerne",
+    "boernehaveklasse"
+   ],
+   "p1": "Siden er et postkort fra stranden med dobbelt kant og et frimærke med et anker oppe i hjørnet. Solen skinner over havet, og en lige horisont løber tværs over kortet fra den ene side til den anden. Under den ruller to lange bølger hen over hele bredden, og en sejlbåd ligger på den første bølge. På stranden står en parasol, en spand med en skovl, et sandslot med flag og en krabbe. Alt undtagen postkortets ramme, frimærket og solens korte stråler er stiplet.",
+   "p2": "De lange streger er hjertet i siden. At tegne en streg hele vejen fra venstre kant til højre kant uden at stoppe er den samme bevægelse som at skrive hen ad en linje, og hånden skal krydse kroppens midte, hvilket er sværere for små børn, end det ser ud. Horisonten er lige, og bølgerne går jævnt op og ned, så barnet øver begge slags lange streger. Efter havet kommer det sjove: billederne på stranden, der hver især er lukkede og klar til at blive farvelagt.",
+   "p3": "PDF'en passer til børnehaveklassen og er en glad side til sommerferien eller de sidste dage før den, og den minder om en dag ved en dansk badestrand. I sættet kommer den efter julesiden og før siden med stor, mellemstor og lille. At tegne efter stregerne følger omridset af hele billeder; skriveforberedende øvelser med enkle streger, tegn trin for trin og prik til prik med tal har deres egne sider.",
+   "canonicalDeckSlug": "tegn-efter-stregerne-k431",
+   "carousel": [
+    {
+     "label": "Tegn efter stregerne: haven og stien op til døren",
+     "href": "tegn-efter-stregerne-haven-og-stien-op-til-doeren"
+    },
+    {
+     "label": "Finmotorik i børnehaven: min første store hval",
+     "href": "finmotorik-boernehave-min-foerste-store-hval"
+    },
+    {
+     "label": "Tegn efter dyr: se først på billedet, og tegn så efter",
+     "href": "tegn-efter-dyr-se-foerst-paa-billedet"
+    },
+    {
+     "label": "Runde billeder i børnehaven: tegn rundt og rundt som et o",
+     "href": "runde-billeder-boernehave-rundt-og-rundt"
+    }
+   ],
+   "title": "Sommeropgaver: tegn efter bølgerne hen over havet | PDF",
+   "metaDescription": "Et postkort fra stranden med frimærke: tegn efter horisonten og to lange bølger fra venstre mod højre, så sejlbåden, parasollen, spanden, sandslottet og krabben. PDF."
+  },
+  {
+   "slug": "stor-mellemstor-lille-fly-biler-skibe",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-tracing",
+    "mode": "big-middle-small-tracing",
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Tegn efter stregerne",
+   "h1": "Stor, mellemstor og lille: tegn efter fly, biler og skibe",
+   "strand": "Finmotorik og skriveforberedelse",
+   "slotTokens": [
+    "tegn-efter-stregerne",
+    "boernehaveklasse"
+   ],
+   "p1": "Siden har tre rækker, og hver række viser det samme køretøj tre gange, mindre og mindre fra venstre mod højre. Øverst flyver tre fly under en lille sky, i midten kører tre biler hen ad en vej, og nederst sejler tre skibe på bølgerne. Den største kopi i hver række er tegnet med tykke stiplede streger, den mellemstore med mellemtykke og den mindste med fine streger, så stregen bliver tyndere, jo mindre billedet bliver.",
+   "p2": "At kunne gøre den samme form større og mindre er en vigtig del af blyantkontrollen, og det er den færdighed, barnet senere skal bruge til at skrive bogstaver, der passer til linjerne. At tegne efter det store fly bruger hele armen; at tegne efter det lille kræver små, forsigtige bevægelser med fingrene. Når barnet laver alle tre i træk, kan det mærke forskellen. Bed barnet om at begynde med den store hver gang og sammenligne de tre færdige billeder bagefter: Det er det samme fly, bare større og mindre.",
+   "p3": "PDF'en passer til børnehaveklassen og er et hit hos børn, der elsker biler, fly og skibe. Når de små kopier føles lette, giver morgenen i byen endnu finere og mere præcise prikkede streger, og skovsiden med de gemte dyr giver en ny slags udfordring. At tegne efter stregerne følger omridset af hele billeder; skriveforberedende øvelser med enkle streger, tegn trin for trin og prik til prik med tal har deres egne sider.",
+   "canonicalDeckSlug": "tegn-efter-stregerne-k432",
+   "carousel": [
+    {
+     "label": "Tegn efter stregerne: haven og stien op til døren",
+     "href": "tegn-efter-stregerne-haven-og-stien-op-til-doeren"
+    },
+    {
+     "label": "Finmotorik i børnehaven: min første store hval",
+     "href": "finmotorik-boernehave-min-foerste-store-hval"
+    },
+    {
+     "label": "Tegn efter dyr: se først på billedet, og tegn så efter",
+     "href": "tegn-efter-dyr-se-foerst-paa-billedet"
+    },
+    {
+     "label": "Runde billeder i børnehaven: tegn rundt og rundt som et o",
+     "href": "runde-billeder-boernehave-rundt-og-rundt"
+    }
+   ],
+   "title": "Stor, mellemstor og lille: tegn efter fly, biler og skibe | PDF",
+   "metaDescription": "Tre rækker med køretøjer, hver tegnet stor, mellemstor og lille: fly på himlen, biler på vejen og skibe på havet. Tegn efter fra stor til lille. Til 0. klasse. PDF."
+  },
+  {
+   "slug": "prikkede-streger-1-klasse-en-morgen-i-byen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-tracing",
+    "mode": "dotted-picture-tracing-street",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Tegn efter stregerne",
+   "h1": "Tegn efter de prikkede streger i 1. klasse: en morgen i byen",
+   "strand": "Finmotorik og skriveforberedelse",
+   "slotTokens": [
+    "tegn-efter-stregerne",
+    "1-klasse"
+   ],
+   "p1": "Morgenen er kommet til en lille gade i byen. En bygning med søjler og et højt hus med mange vinduer og to træer står på fortovet, et vejskilt peger to veje, en hund sidder ved kantstenen, og på vejen nedenunder kører en bus og en bil forbi. Morgensolen og en lille sky står på himlen. Hele billedet er tegnet med små, runde prikker med samme afstand over hele siden, fra vinduerne i det høje hus til bussens hjul. Her er ingen stiplede streger, kun rækker af prikker, og kun nogle af solens stråler er tegnet færdige.",
+   "p2": "Prikker kræver mere præcision end stiplede streger. Barnet skal holde blyanten præcis på en smal sti af små punkter og følge den helt ind i detaljerne: søjlerne på bygningen, vinduerne i det høje hus, vejskiltets arme og hundens ører. Det er den mest detaljerede side i sættet, lavet til elever i 1. klasse, hvis blyantgreb nu er sikkert. Fordi prikkerne har samme afstand over hele siden, kan barnet finde en rytme. Opmuntr til at tegne langsomt og omhyggeligt og til at holde små pauser; at gøre hele gaden færdig er en rigtig præstation.",
+   "p3": "PDF'en passer til 1. klasse og til børn, der allerede tegner sikkert efter siderne til børnehaveklassen. Bagefter er den færdige gade et flot billede at farvelægge. Prikkerne har ingen tal og skal ikke forbindes i en bestemt rækkefølge; de ligger tæt som en stiplet streg. Til samme præcision med en opgave i at kigge passer skovsiden med fem gemte dyr. At tegne efter stregerne følger omridset af hele billeder; skriveforberedende øvelser med enkle streger, tegn trin for trin og prik til prik med tal har deres egne sider.",
+   "canonicalDeckSlug": "tegn-efter-stregerne-g1429",
+   "carousel": [
+    {
+     "label": "Tegn efter stregerne: haven og stien op til døren",
+     "href": "tegn-efter-stregerne-haven-og-stien-op-til-doeren"
+    },
+    {
+     "label": "Finmotorik i børnehaven: min første store hval",
+     "href": "finmotorik-boernehave-min-foerste-store-hval"
+    },
+    {
+     "label": "Tegn efter dyr: se først på billedet, og tegn så efter",
+     "href": "tegn-efter-dyr-se-foerst-paa-billedet"
+    },
+    {
+     "label": "Runde billeder i børnehaven: tegn rundt og rundt som et o",
+     "href": "runde-billeder-boernehave-rundt-og-rundt"
+    }
+   ],
+   "title": "Tegn efter de prikkede streger i 1. klasse: en morgen i byen | PDF",
+   "metaDescription": "En hel bygade tegnet med små, jævne prikker: en bygning med søjler, et højt hus, et vejskilt, en hund, en bus og en bil. Tegn efter alle prikkerne. 1. klasse. PDF."
+  },
+  {
+   "slug": "tegn-efter-billedet-sig-ordet-skriv-ordet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-tracing",
+    "mode": "trace-the-picture-and-word",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Tegn efter stregerne",
+   "h1": "Tegn efter billedet, sig ordet højt, og skriv ordet efter",
+   "strand": "Læsning og skrivning",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "tegn-efter-stregerne",
+    "1-klasse"
+   ],
+   "p1": "Fire billedkort fylder siden i to rækker. Det første kort viser en sol, det andet en fisk, det tredje en kat og det fjerde et æble. Hvert billede er tegnet med fine stiplede streger, og under det står billedets navn med stiplede skolebogstaver på et sæt skrivelinjer: sol, fisk, kat, æble. Ordene er korte, så hvert bogstav er stort nok til at blive skrevet efter, og de står præcis på linjerne, sådan som børnene lærer at skrive dem. Ordet æble begynder med æ, et af de bogstaver, der er særlige for dansk.",
+   "p2": "Siden forbinder et billede med det talte ord og derefter med det skrevne ord. Først tegner barnet efter billedet. Så siger barnet navnet højt, hvilket hjælper det med at høre lydene i ordet. Til sidst skriver barnet ordet efter, bogstav for bogstav, langs de samme linjer, som bruges til håndskrift. Fordi alle børn kalder de fire billeder det samme, passer ordet altid til det, barnet siger. Peg på hvert bogstav, mens I siger ordet langsomt, og lad barnet prøve at skrive ordet igen ved siden af kortet.",
+   "p3": "PDF'en passer til 1. klasse og slutningen af børnehaveklassen, hvor det at tegne efter billeder møder den første skrivning. Det er den eneste side i sættet med ord, og ordene er valgt på dansk og ikke oversat. Efter denne side inviterer siden med traktoren og den tomme vogn barnet til at tegne noget selv. At tegne efter stregerne følger omridset af hele billeder; skriveforberedende øvelser med enkle streger, tegn trin for trin og prik til prik med tal har deres egne sider.",
+   "canonicalDeckSlug": "tegn-efter-stregerne-g1430",
+   "carousel": [
+    {
+     "label": "Tegn efter stregerne: haven og stien op til døren",
+     "href": "tegn-efter-stregerne-haven-og-stien-op-til-doeren"
+    },
+    {
+     "label": "Finmotorik i børnehaven: min første store hval",
+     "href": "finmotorik-boernehave-min-foerste-store-hval"
+    },
+    {
+     "label": "Tegn efter dyr: se først på billedet, og tegn så efter",
+     "href": "tegn-efter-dyr-se-foerst-paa-billedet"
+    },
+    {
+     "label": "Runde billeder i børnehaven: tegn rundt og rundt som et o",
+     "href": "runde-billeder-boernehave-rundt-og-rundt"
+    }
+   ],
+   "title": "Tegn efter billedet, sig ordet højt, og skriv ordet efter | PDF",
+   "metaDescription": "Fire billedkort: en sol, en fisk, en kat og et æble. Tegn efter hvert billede, sig, hvad det hedder, og skriv ordet efter på skrivelinjerne. Til 1. klasse. PDF."
+  },
+  {
+   "slug": "tegn-efter-billeder-og-tegn-selv-den-tomme-vogn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-tracing",
+    "mode": "trace-then-draw-trailer",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Tegn efter stregerne",
+   "h1": "Tegn efter billeder, og tegn selv: hvad skal der i vognen?",
+   "strand": "Finmotorik og egen tegning",
+   "slotTokens": [
+    "tegn-efter-stregerne",
+    "1-klasse"
+   ],
+   "p1": "En traktor kører hen ad en markvej og trækker en vogn, og vognen er tom. Bag vejen bølger bløde bakker hen over siden under en sol og en sky, og i græsset foran står en ged, en gås og en ko og kigger på. Hele landbrugsbilledet er tegnet med fine stiplede streger: traktoren med de store hjul, vognen, vejen, bakkerne og dyrene. Over vognen er der en stor, åben plads, der venter på barnets egen tegning.",
+   "p2": "Det er den eneste side i sættet uden ét rigtigt svar. Når barnet har tegnet efter billedet, bestemmer det selv, hvad traktoren skal køre med i dag, og tegner det i vognen: hø, græskar, en hest, en fødselsdagskage eller noget helt andet. At tegne efter først varmer hånden op; at tegne selv bagefter lader barnet bruge den kontrol frit og gør siden til barnets egen. Bed barnet fortælle om sin tegning, for at forklare et billede er god øvelse i at tale og senere i at skrive en lille historie.",
+   "p3": "PDF'en passer til 1. klasse og til sikre børn i børnehaveklassen. Sammenlign de færdige sider i en hel klasse: Hver vogn har noget forskelligt med. Til en anden side, der også ender med barnets eget arbejde, passer picnicsiden, hvor barnet selv vælger farverne. At tegne efter stregerne følger omridset af hele billeder; skriveforberedende øvelser med enkle streger, tegn trin for trin og prik til prik med tal har deres egne sider.",
+   "canonicalDeckSlug": "tegn-efter-stregerne-g1431",
+   "carousel": [
+    {
+     "label": "Tegn efter stregerne: haven og stien op til døren",
+     "href": "tegn-efter-stregerne-haven-og-stien-op-til-doeren"
+    },
+    {
+     "label": "Finmotorik i børnehaven: min første store hval",
+     "href": "finmotorik-boernehave-min-foerste-store-hval"
+    },
+    {
+     "label": "Tegn efter dyr: se først på billedet, og tegn så efter",
+     "href": "tegn-efter-dyr-se-foerst-paa-billedet"
+    },
+    {
+     "label": "Runde billeder i børnehaven: tegn rundt og rundt som et o",
+     "href": "runde-billeder-boernehave-rundt-og-rundt"
+    }
+   ],
+   "title": "Tegn efter billeder, og tegn selv: hvad skal der i vognen? | PDF",
+   "metaDescription": "Tegn efter en markvej med en traktor, en tom vogn, en ged, en gås og en ko, og tegn så selv, hvad traktoren skal køre med i dag. Til 1. klasse. PDF til print."
+  },
+  {
+   "slug": "spejling-1-klasse-tegn-efter-den-anden-halvdel",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-tracing",
+    "mode": "symmetry-picture-tracing",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Tegn efter stregerne",
+   "h1": "Spejling i 1. klasse: tegn efter den anden halvdel",
+   "strand": "Finmotorik og spejling",
+   "slotTokens": [
+    "tegn-efter-stregerne",
+    "1-klasse"
+   ],
+   "p1": "Øverst på siden breder en stor sommerfugl sig ud over en åben bog, og dens krop ligger langs bogens ryg. Under bogen står tre buede rammer med en ugle, en pokal og en bamse. I hvert billede er venstre halvdel tegnet med fuldt optrukne streger og højre halvdel med stiplede streger, og en tynd streg ned gennem midten viser, hvor de to halvdele mødes. Hvert billede er valgt, fordi dets to halvdele virkelig passer sammen.",
+   "p2": "At gøre den anden halvdel færdig kræver, at barnet ser på den ene side og gør den anden side ens, det første skridt mod at forstå spejling og symmetri. Den stiplede halvdel er billedets egen højre side, så når den er tegnet efter, passer de to halvdele præcist. Snak om det undervejs: Ligner sommerfuglens højre vinge den venstre? Har uglen to øjne og to vinger? Når barnet sammenligner det færdige billede med den optrukne halvdel, ser det, at en spejlingsakse deler et billede i to dele, der passer sammen.",
+   "p3": "PDF'en passer til 1. klasse og til børn, der kan lide en lille udfordring, når de tegner efter. Den fungerer godt før en lektion om spejlbilleder eller efter en dag, hvor klassen har foldet og klippet papirsommerfugle. Til en side, hvor kun små dele mangler, passer hylden med det, der mangler. At tegne efter stregerne følger omridset af hele billeder; skriveforberedende øvelser med enkle streger, tegn trin for trin og prik til prik med tal har deres egne sider.",
+   "canonicalDeckSlug": "tegn-efter-stregerne-g1432",
+   "carousel": [
+    {
+     "label": "Tegn efter stregerne: haven og stien op til døren",
+     "href": "tegn-efter-stregerne-haven-og-stien-op-til-doeren"
+    },
+    {
+     "label": "Finmotorik i børnehaven: min første store hval",
+     "href": "finmotorik-boernehave-min-foerste-store-hval"
+    },
+    {
+     "label": "Tegn efter dyr: se først på billedet, og tegn så efter",
+     "href": "tegn-efter-dyr-se-foerst-paa-billedet"
+    },
+    {
+     "label": "Runde billeder i børnehaven: tegn rundt og rundt som et o",
+     "href": "runde-billeder-boernehave-rundt-og-rundt"
+    }
+   ],
+   "title": "Spejling i 1. klasse: tegn efter den anden halvdel | PDF",
+   "metaDescription": "En sommerfugl i en åben bog og en ugle, en pokal og en bamse under tre buer: venstre halvdel er tegnet, højre halvdel er stiplet. Tegn den anden halvdel efter. PDF."
+  },
+  {
+   "slug": "efteraarsopgaver-find-de-5-gemte-dyr-i-skoven",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "picture-tracing",
+    "mode": "find-and-trace-hidden-animals",
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Tegn efter stregerne",
+   "h1": "Efterårsopgaver: find de 5 gemte dyr i skoven, og tegn efter",
+   "strand": "Finmotorik og visuel perception",
+   "slotTokens": [
+    "tegn-efter-stregerne",
+    "1-klasse"
+   ],
+   "p1": "Siden viser en tæt skov om efteråret. Store træer breder deres kroner ud over siden, blade ligger spredt på grenene og på jorden, svampe og en blomst vokser langs en snoet sti, og græs dækker skovbunden. Alt dette er tegnet med faste, sorte streger. Gemt i skoven er fem dyr, der er tegnet med stiplede streger: en ugle i et træ, et egern mellem bladene, en ræv ved stien, en kanin ved blomsten og en mus ved svampene.",
+   "p2": "Først skal barnet finde dyrene. Det betyder, at det skal kigge grundigt i et billede med mange detaljer og skelne de stiplede streger fra de faste, en færdighed, der kaldes figur-grund-opfattelse, og som også hjælper børn med at finde bogstaver på en fyldt side. Hvert dyr har lidt fri plads omkring sig, så det kan tegnes efter uden at støde ind i andre streger, når det først er fundet. Opgaven siger, at der er fem, og der er præcis fem, så barnet ved, hvornår jagten er slut. Tæl dem sammen til sidst.",
+   "p3": "PDF'en passer til 1. klasse og er en god efterårsaktivitet, selv om skoven fungerer i alle årstider. Bagefter er den faste skov med de stiplede dyr et detaljeret billede at farvelægge. Til tælling og at tegne efter på et lettere niveau passer siden med ænderne i dammen. At tegne efter stregerne følger omridset af hele billeder; skriveforberedende øvelser med enkle streger, tegn trin for trin og prik til prik med tal har deres egne sider.",
+   "canonicalDeckSlug": "tegn-efter-stregerne-g1433",
+   "carousel": [
+    {
+     "label": "Tegn efter stregerne: haven og stien op til døren",
+     "href": "tegn-efter-stregerne-haven-og-stien-op-til-doeren"
+    },
+    {
+     "label": "Finmotorik i børnehaven: min første store hval",
+     "href": "finmotorik-boernehave-min-foerste-store-hval"
+    },
+    {
+     "label": "Tegn efter dyr: se først på billedet, og tegn så efter",
+     "href": "tegn-efter-dyr-se-foerst-paa-billedet"
+    },
+    {
+     "label": "Runde billeder i børnehaven: tegn rundt og rundt som et o",
+     "href": "runde-billeder-boernehave-rundt-og-rundt"
+    }
+   ],
+   "title": "Efterårsopgaver: find de 5 gemte dyr i skoven, og tegn efter | PDF",
+   "metaDescription": "En efterårsskov tegnet med faste streger gemmer fem stiplede dyr: en ugle, et egern, en ræv, en kanin og en mus. Find dem, og tegn efter dem. Til 1. klasse. PDF."
   }
  ]
 }

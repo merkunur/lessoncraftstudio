@@ -47,7 +47,7 @@
    "instruction": "Empieza en cada punto y sigue la flecha. Baja la escalera, un dibujo a la vez."
   },
   "trace-and-count": {
-   "title": "Dibujos de animales punteados: ¿cuántos patos hay en el estanque?",
+   "title": "Dibujos punteados: ¿cuántos patos hay en el estanque?",
    "printTitle": "Patos en el estanque",
    "instruction": "Repasa los patos. Cuéntalos. Escribe en el cuadro cuántos hay."
   },
@@ -62,7 +62,7 @@
    "instruction": "Repasa el árbol, los regalos, el sillón, la ventana y el tapete. Luego repasa el contorno de cada esfera y estrella."
   },
   "shape-picture": {
-   "title": "Figuras para repasar: un cohete de círculos, cuadrados y triángulos",
+   "title": "Figuras para repasar: cohete de círculos, cuadrados y triángulos",
    "printTitle": "El cohete de figuras",
    "instruction": "Repasa todas las figuras del cohete y del cielo. Luego colorea todos los círculos."
   },

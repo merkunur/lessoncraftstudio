@@ -221,7 +221,28 @@ the F17 `words` (four 2-7-letter picture names in school-print case: de capital 
   silent no-op (every patch script here throws on a missing anchor); `gen-b9-waves` needs an applied locale, so the
   landing check runs on a draft (`check-b9-landing-draft.js`); `b9-draft-from-panel.js` needs the panel file path.
 
-## 12 Publish, as run (pending)
+## 12 Publish, as run (2026-10-22)
+1. **Push the taxonomy first** (all 11 slugs + names in `frontend/config/topics-taxonomy.json`, 144 exercise-type keys) and
+   `git pull` on the server — a stale server taxonomy ships ENGLISH slugs (§26 trap). Checked on the server before any publish.
+2. **Pools**: `tools/b9-prepare-upload.js <loc>` → `tools/check-b9-zips.js <loc>` PASS ×11 (⚠ a short title leaves the
+   description under 120: nl K-428 needed a longer title) → scp to `/var/www/lcs-media/_staging/b9-<loc>/` (12 MB a locale).
+3. **Dry-run** `scripts/publish-cli/b9-publish-locale.sh <loc>` ×11: 20/20 INSERT, 0 collisions; the 220 predicted slugs
+   (`.publish-cli-staging/b9-<loc>-dry/_summary.txt`) compared MECHANICALLY with the landings' `canonicalDeckSlug`: 0 missing.
+   ⭐ Read the rendered `<title>` in the dry-run staging too: publish appends the locale's worksheet word (" Worksheet",
+   " ficha" …), so a 70-character catalog title renders at 75-80 and the audit flags it — the rule is now ≤ 60 in the bank.
+4. **Confirm EN first**, read the live deck, then the other ten in one `nohup` loop (an SSH drop must not stop it):
+   `/root/staging/b9/confirm-all.log`. The script runs OG, beacon, site chrome, end links, embed-hide, deck actions, METER +
+   check, hreflang ×11 (last of the <head> writers) and the audit. EN audited 17/20: three titles over 70 → shortened at the
+   source and republished in place with `b9-republish-locale.sh en --confirm --no-repoint` (only the changed ZIPs staged in
+   `_staging/b9u-en/`), then `audit-update-injections.js` + `restore-update-injections.sh confirm` (the update path writes a
+   bare deck.html).
+5. **Landings**: `scripts/seo-landing/gen-b9-landings.js <loc> <landings.json>` ×11 (+20 each, 0 slug collisions with the
+   corpus) → `seo-landing/gate.js` ×11: 0 duplicate titles, 0 duplicate metas, all-pairs max < 0.80; the b9 lines are only the
+   advisory theme-noun lint (themeless family) — one banned phrase ("perfect for") was fixed.
+6. Commit the landings + the HARD hub gate in `deploy.sh` (`verify-hub-type-rows.js --expect=…b9-designs/hub-expectations.json`,
+   PASS locally and poison-tested: 21 expected → FAIL) in one commit, push, `deploy.sh`.
+7. `repoint-deck-canonical.js --types=picture-tracing --locale=<loc>` ×11, noindex-exempt refresh, IndexNow, live checks
+   (landing 200 ×11, the hub rail entry with 20 cards, a live PDF read), then delete the staging dirs (server disk is expensive).
 
 ## 13 How to expand
 - **A new face** = a new scene in `data/b9/face-scenes.js` + a row in `tools/b9var-rows/picture-tracing.js` + its EN

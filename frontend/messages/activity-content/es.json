@@ -4258,6 +4258,29 @@
         "El niño dice qué pasa solo en uno de ellos",
         "El niño comprueba una respuesta con los dibujos del cuento"
       ]
+    },
+    "snippy.letter-formation.l-k-1-a": {
+      "about": [
+        "El niño escribe una letra, y la letra se graba mientras la escribe. Después se vuelve a escribir sola junto a la letra de Snippy. El caracol del riel, debajo de las dos hojas, es el botón de las dos grabaciones: si arrastras a Snippy hacia delante y hacia atrás, las dos letras se borran y se vuelven a escribir a la vez.",
+        "El riel se llena con una banda de color por cada trazo: las del niño arriba y las de Snippy abajo. Cuando la letra se hizo igual, las dos bandas coinciden. Un trazo hecho al revés lleva flechas que apuntan hacia atrás, y los trazos hechos en otro orden muestran sus colores en otro orden. Una letra un poco temblorosa, con buen comienzo, buena dirección y buen orden, aquí es una letra perfecta.",
+        "Cada letra tiene tres pasos: primero con puntos numerados y flechas sobre el camino, luego solo con el camino y al final sin ayuda, con todos los puntos de inicio a la vista pero sin camino ni números. Solo se revisa el último paso. Las minúsculas y las mayúsculas vienen en ocho familias, con la Ñ. En línea con los planes de estudio, sin cronómetro y sin puntos."
+      ],
+      "practices": [
+        "Empezar cada letra en el punto correcto",
+        "Hacer cada trazo en la dirección correcta",
+        "Escribir los trazos de una letra en el orden correcto",
+        "Escribir una letra de memoria después de repasarla"
+      ],
+      "howToPlay": [
+        "Empieza en el punto 1 y sigue las flechas, luego sigue el camino y al final escribe la letra tú solo.",
+        "Presiona «Revisar» y mira cómo tu letra se vuelve a escribir junto a la de Snippy. Arrastra a Snippy por el riel para verlo otra vez.",
+        "En «Letras» elige una familia como «Redondas y hacia abajo» o «Mayúsculas: curvas», y en «Pasos» elige «Yo solo». En una tableta o una computadora, toca una letra de la fila de abajo para ver cómo la escribe Snippy."
+      ],
+      "learningGoals": [
+        "El niño empieza cada letra en el punto correcto",
+        "El niño traza en la dirección correcta y en el orden correcto",
+        "El niño escribe minúsculas y mayúsculas de memoria"
+      ]
     }
   }
 }

@@ -1,7 +1,7 @@
 [
   {
     "id": "snippy.letter-formation.l-k-1-a",
-    "tool": "snippy-activity",
+    "tool": "rewind-rail-activity",
     "task_template": "snippy",
     "alignment": {
       "framework": "CCSS",
@@ -12,163 +12,172 @@
     "theme": null,
     "slug": {
       "en": "snippy-trace-letters",
-      "fr": "tracer-les-lettres-avec-snippy-gs"
+      "fr": "tracer-les-lettres-avec-snippy-gs",
+      "de": "buchstaben-schreiben-mit-snippy",
+      "es": "escribe-letras-con-snippy",
+      "pt": "escreva-as-letras-com-o-snippy",
+      "it": "scrivi-le-lettere-con-snippy",
+      "nl": "letters-schrijven-met-snippy",
+      "sv": "skriv-bokstaver-med-snippy",
+      "da": "skriv-bogstaver-med-snippy",
+      "no": "skriv-bokstaver-med-snippy",
+      "fi": "kirjoita-kirjaimia-snippyn-kanssa"
     },
     "page_title": {
       "en": "Snippy's Letter Trace — Form Upper- & Lowercase Letters",
-      "fr": "Apprendre à écrire les lettres – exercice en ligne (GS)"
+      "fr": "Apprendre à écrire les lettres – exercice en ligne (GS)",
+      "de": "Buchstaben schreiben mit Snippy – Anfang, Richtung, Reihenfolge (Klasse 1)",
+      "es": "Escribe letras con Snippy: inicio, dirección y orden del trazo (primer grado)",
+      "pt": "Escreva as letras com o Snippy: início, direção e ordem do traço (1º ano)",
+      "it": "Scrivi le lettere con Snippy: partenza, verso e ordine dei tratti (classe prima)",
+      "nl": "Letters schrijven met Snippy: beginpunt, richting en volgorde (groep 3)",
+      "sv": "Skriv bokstäver med Snippy – start, riktning och ordning (åk 1)",
+      "da": "Skriv bogstaver med Snippy – start, retning og rækkefølge (1. klasse)",
+      "no": "Skriv bokstaver med Snippy – start, retning og rekkefølge (1. trinn)",
+      "fi": "Kirjoita kirjaimia Snippyn kanssa – alku, suunta ja järjestys (1. luokka)"
     },
     "page_intro": {
       "en": "Help Snippy the snail form letters: start at the right dot and take the strokes in order — first the easy way with the path shown, then on your own with the path hidden. A handwriting-formation warm-up, a friendly complement to paper. Common Core L.K.1.a.",
-      "fr": "Apprendre à écrire les lettres avec Snippy : trace chaque lettre à l'écran, avec un geste guidé pas à pas. En ligne, sans inscription."
+      "fr": "Apprendre à écrire les lettres avec Snippy : trace chaque lettre à l'écran, avec un geste guidé pas à pas. En ligne, sans inscription.",
+      "de": "Das Kind schreibt einen Buchstaben, und er wird aufgenommen: Danach spielt er sich neben Snippys Buchstaben noch einmal ab. Mit der Schnecke auf der Schiene spult es beide zurück und sieht, wo es angefangen hat, in welche Richtung es gefahren ist und was zuerst kam. Erst mit Punkten und Pfeilen, dann mit dem Weg, dann allein. Für Klasse 1, passend zum Lehrplan.",
+      "es": "El niño escribe una letra y la actividad la graba: después se vuelve a escribir sola junto a la de Snippy. Con el caracol del riel rebobina las dos y ve dónde empezó, hacia dónde fue y qué trazo hizo primero. Primero con puntos y flechas, luego con el camino y al final solo. Para primer grado, en línea con los planes de estudio.",
+      "pt": "A criança escreve uma letra e ela fica gravada: depois se escreve de novo, sozinha, ao lado da letra do Snippy. Com o caracol no trilho, a criança volta as duas e vê onde começou, para que lado foi e qual traço fez primeiro. Primeiro com pontos e setas, depois com o caminho e por fim sozinha. Para o 1º ano, de acordo com a BNCC.",
+      "it": "Il bambino scrive una lettera e l’attività la registra: poi la lettera si riscrive da sola accanto a quella di Snippy. Con la lumaca sul binario il bambino riavvolge tutte e due e vede da dove è partito, in che verso è andato e quale tratto ha fatto per primo. Prima con puntini e frecce, poi con la strada, infine da solo. Per la classe prima, in linea con le Indicazioni nazionali.",
+      "nl": "Het kind schrijft een letter en die wordt opgenomen: daarna wordt hij opnieuw geschreven naast de letter van Snippy. Met de slak op de rails spoelt het kind ze allebei terug en ziet het waar het begon, welke kant het op ging en wat het eerst deed. Eerst met stippen en pijlen, dan met het pad en daarna helemaal zelf. Voor groep 3, passend bij de kerndoelen.",
+      "sv": "Barnet skriver en bokstav och den spelas in: sedan skrivs den igen av sig själv bredvid Snippys. Med snigeln på skenan spolar barnet tillbaka båda och ser var det började, åt vilket håll det gick och vad som kom först. Först med prickar och pilar, sedan med vägen och till sist helt själv. För åk 1, i linje med Lgr22.",
+      "da": "Barnet skriver et bogstav, og det bliver optaget: Bagefter skrives det igen af sig selv ved siden af Snippys. Med sneglen på skinnen spoler barnet begge tilbage og ser, hvor det startede, hvilken vej det gik, og hvad der kom først. Først med prikker og pile, så med vejen og til sidst helt selv. Til 1. klasse, i tråd med Fælles Mål.",
+      "no": "Barnet skriver en bokstav, og den blir tatt opp: Etterpå skrives den igjen av seg selv ved siden av Snippys. Med sneglen på skinnen spoler barnet begge tilbake og ser hvor det startet, hvilken vei det gikk, og hva som kom først. Først med prikker og piler, så med veien og til slutt helt selv. For 1. trinn, i tråd med LK20.",
+      "fi": "Lapsi kirjoittaa kirjaimen, ja se tallentuu: sen jälkeen kirjain kirjoittuu uudestaan itsestään Snippyn kirjaimen viereen. Kiskolla olevalla etanalla lapsi kelaa molemmat taaksepäin ja näkee, mistä hän aloitti, mihin suuntaan hän kulki ja mikä tuli ensin. Ensin pisteiden ja nuolten kanssa, sitten tien kanssa ja lopuksi kokonaan itse. 1. luokalle, opetussuunnitelman mukaisesti."
     },
     "kid_prompt_template": "snippy",
     "params": {
-      "rounds": [
-        {
-          "id": "letter-c",
-          "letter": "c",
-          "word": "cat",
-          "band": 1,
-          "prompt": "Trace the letter that starts cat: c. Start at the top dot, curve around."
-        },
-        {
-          "id": "letter-s",
-          "letter": "s",
-          "word": "sun",
-          "band": 1,
-          "prompt": "Trace the letter that starts sun: s. Start at the top, curve like a snake."
-        },
-        {
-          "id": "letter-i",
-          "letter": "i",
-          "word": "ink",
-          "band": 1,
-          "prompt": "Trace the letter that starts ink: i. The stick first, then the dot on top."
-        },
-        {
-          "id": "letter-t",
-          "letter": "t",
-          "word": "top",
-          "band": 1,
-          "prompt": "Trace the letter that starts top: t. The tall stick first, then the cross."
-        },
-        {
-          "id": "letter-a",
-          "letter": "a",
-          "word": "apple",
-          "band": 2,
-          "prompt": "Trace the letter that starts apple: a. The round part first, then the stick."
-        },
-        {
-          "id": "letter-d",
-          "letter": "d",
-          "word": "dog",
-          "band": 2,
-          "prompt": "Trace the letter that starts dog: d. The round part first, then the tall stick."
-        },
-        {
-          "id": "letter-j",
-          "letter": "j",
-          "word": "jam",
-          "band": 2,
-          "prompt": "Trace the letter that starts jam: j. The hook first, then the dot on top."
-        },
-        {
-          "id": "letter-b",
-          "letter": "b",
-          "word": "ball",
-          "band": 2,
-          "prompt": "Trace the letter that starts ball: b. The tall stick first, then the round bump."
-        },
-        {
-          "id": "letter-f",
-          "letter": "f",
-          "word": "fish",
-          "band": 3,
-          "prompt": "Trace the letter that starts fish: f. The hook down first, then the cross."
-        },
-        {
-          "id": "letter-S",
-          "letter": "S",
-          "word": "Sun",
-          "band": 3,
-          "prompt": "Now the BIG one for sun: S. One big snake curve, top to bottom."
-        }
+      "note": "A mirror of rewind-rail-core.js (the letters of each set per locale). The core is the source; this row runs The Rewind Rail.",
+      "sets": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "st",
+        "sl",
+        "cu",
+        "bs"
       ],
-      "roundsL10n": {
-        "fr": [
-          {
-            "id": "letter-c",
-            "letter": "c",
-            "word": "canard",
-            "band": 1,
-            "prompt": "Trace le c comme dans « canard » : pars du point en haut et tourne vers la gauche."
-          },
-          {
-            "id": "letter-s",
-            "letter": "s",
-            "word": "soleil",
-            "band": 1,
-            "prompt": "Trace le s comme dans « soleil » : commence en haut, tourne vers la gauche, puis redescends en tournant vers la droite."
-          },
-          {
-            "id": "letter-i",
-            "letter": "i",
-            "word": "igloo",
-            "band": 1,
-            "prompt": "Trace le i comme dans « igloo » : descends la barre, puis pose le point au-dessus."
-          },
-          {
-            "id": "letter-t",
-            "letter": "t",
-            "word": "tortue",
-            "band": 1,
-            "prompt": "Trace le t comme dans « tortue » : d’abord la grande barre, puis la petite barre qui la traverse."
-          },
-          {
-            "id": "letter-a",
-            "letter": "a",
-            "word": "avion",
-            "band": 2,
-            "prompt": "Trace le a comme dans « avion » : fais d’abord le rond, puis la barre à droite."
-          },
-          {
-            "id": "letter-d",
-            "letter": "d",
-            "word": "domino",
-            "band": 2,
-            "prompt": "Trace le d comme dans « domino » : fais d’abord le rond, puis la grande barre à droite."
-          },
-          {
-            "id": "letter-j",
-            "letter": "j",
-            "word": "jouet",
-            "band": 2,
-            "prompt": "Trace le j comme dans « jouet » : descends la barre avec la canne en bas, puis pose le point au-dessus."
-          },
-          {
-            "id": "letter-b",
-            "letter": "b",
-            "word": "ballon",
-            "band": 2,
-            "prompt": "Trace le b comme dans « ballon » : descends la grande barre, puis fais le rond en bas à droite."
-          },
-          {
-            "id": "letter-f",
-            "letter": "f",
-            "word": "fleur",
-            "band": 3,
-            "prompt": "Trace le f comme dans « fleur » : descends la grande barre courbée en haut, puis trace la petite barre au milieu."
-          },
-          {
-            "id": "letter-S",
-            "letter": "S",
-            "word": "Soleil",
-            "band": 3,
-            "prompt": "Trace le S comme dans « Soleil » : commence en haut, tourne vers la gauche, puis redescends en formant deux belles courbes."
-          }
-        ]
+      "steps": [
+        "all",
+        "p",
+        "own"
+      ],
+      "byLocale": {
+        "en": {
+          "s1": "c s i t a d j b f",
+          "s2": "o g q e u l h",
+          "s3": "n m r p k v w",
+          "s4": "b d p q x y z",
+          "st": "L T I E F H N",
+          "sl": "A K M V W X Y Z",
+          "cu": "C O Q G S U J",
+          "bs": "B D P R J N Z"
+        },
+        "de": {
+          "s1": "c s i t a d j b f ä ß",
+          "s2": "o g q e u l h ö ü",
+          "s3": "n m r p k v w",
+          "s4": "b d p q x y z",
+          "st": "L T I E F H N",
+          "sl": "A K M V W X Y Z Ä",
+          "cu": "C O Q G S U J Ö Ü",
+          "bs": "B D P R J N Z"
+        },
+        "nl": {
+          "s1": "c s i t a d j b f",
+          "s2": "o g q e u l h",
+          "s3": "n m r p k v w",
+          "s4": "b d p q x y z",
+          "st": "L T I E F H N",
+          "sl": "A K M V W X Y Z",
+          "cu": "C O Q G S U J",
+          "bs": "B D P R J N Z"
+        },
+        "da": {
+          "s1": "c s i t a d j b f å æ",
+          "s2": "o g q e u l h ø",
+          "s3": "n m r p k v w",
+          "s4": "b d p q x y z",
+          "st": "L T I E F H N",
+          "sl": "A K M V W X Y Z Å Æ",
+          "cu": "C O Q G S U J Ø",
+          "bs": "B D P R J N Z"
+        },
+        "sv": {
+          "s1": "c s i t a d j b f ä å",
+          "s2": "o g q e u l h ö",
+          "s3": "n m r p k v w",
+          "s4": "b d p q x y z",
+          "st": "L T I E F H N",
+          "sl": "A K M V W X Y Z Ä Å",
+          "cu": "C O Q G S U J Ö",
+          "bs": "B D P R J N Z"
+        },
+        "no": {
+          "s1": "c s i t a d j b f å æ",
+          "s2": "o g q e u l h ø",
+          "s3": "n m r p k v w",
+          "s4": "b d p q x y z",
+          "st": "L T I E F H N",
+          "sl": "A K M V W X Y Z Å Æ",
+          "cu": "C O Q G S U J Ø",
+          "bs": "B D P R J N Z"
+        },
+        "es": {
+          "s1": "c s i t a d j b f",
+          "s2": "o g q e u l h",
+          "s3": "n m r p k v w ñ",
+          "s4": "b d p q x y z",
+          "st": "L T I E F H N Ñ",
+          "sl": "A K M V W X Y Z",
+          "cu": "C O Q G S U J",
+          "bs": "B D P R J N Z"
+        },
+        "it": {
+          "s1": "c s i t a d j b f",
+          "s2": "o g q e u l h",
+          "s3": "n m r p k v w",
+          "s4": "b d p q x y z",
+          "st": "L T I E F H N",
+          "sl": "A K M V W X Y Z",
+          "cu": "C O Q G S U J",
+          "bs": "B D P R J N Z"
+        },
+        "pt": {
+          "s1": "c s i t a d j b f",
+          "s2": "o g q e u l h",
+          "s3": "n m r p k v w",
+          "s4": "b d p q x y z",
+          "st": "L T I E F H N",
+          "sl": "A K M V W X Y Z",
+          "cu": "C O Q G S U J",
+          "bs": "B D P R J N Z"
+        },
+        "fr": {
+          "s1": "c s i t a d j b f",
+          "s2": "o g q e u l h",
+          "s3": "n m r p k v w",
+          "s4": "b d p q x y z",
+          "st": "L T I E F H N",
+          "sl": "A K M V W X Y Z",
+          "cu": "C O Q G S U J",
+          "bs": "B D P R J N Z"
+        },
+        "fi": {
+          "s1": "c s i t a d j b f ä å",
+          "s2": "o g q e u l h ö",
+          "s3": "n m r p k v w",
+          "s4": "b d p q x y z",
+          "st": "L T I E F H N",
+          "sl": "A K M V W X Y Z Ä Å",
+          "cu": "C O Q G S U J Ö",
+          "bs": "B D P R J N Z"
+        }
       }
     }
   }

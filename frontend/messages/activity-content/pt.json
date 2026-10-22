@@ -4317,6 +4317,29 @@
         "A criança diz o que acontece só em uma delas",
         "A criança confere uma resposta com as figuras da história"
       ]
+    },
+    "snippy.letter-formation.l-k-1-a": {
+      "about": [
+        "A criança escreve uma letra, e a letra fica gravada enquanto é escrita. Depois ela se escreve de novo ao lado da letra do Snippy. O caracol no trilho, embaixo das duas folhas, é o botão das duas gravações: arraste o Snippy para a frente e para trás e as duas letras se apagam e se escrevem de novo ao mesmo tempo.",
+        "O trilho se enche com uma faixa colorida para cada traço: as da criança em cima e as do Snippy embaixo. Quando a letra foi feita do mesmo jeito, as duas faixas combinam. Um traço feito ao contrário mostra setas apontando para trás, e traços feitos em outra ordem mostram as cores em outra ordem. Uma letra meio tremida, com começo certo, direção certa e ordem certa, aqui é uma letra perfeita.",
+        "Cada letra tem três etapas: primeiro com pontos numerados e setas no caminho, depois só com o caminho e, por fim, sozinho, com todos os pontos de início à vista, mas sem caminho e sem números. Só a última etapa é conferida. As minúsculas e as maiúsculas estão em oito famílias. De acordo com a BNCC, sem cronômetro e sem pontos."
+      ],
+      "practices": [
+        "Começar cada letra no ponto certo",
+        "Fazer cada traço na direção certa",
+        "Escrever os traços de uma letra na ordem certa",
+        "Escrever uma letra de memória depois de cobri-la"
+      ],
+      "howToPlay": [
+        "Comece no ponto 1 e siga as setas, depois siga o caminho e, por fim, escreva a letra sozinho.",
+        "Toque em \"Conferir\" e veja a sua letra se escrever de novo ao lado da do Snippy. Arraste o Snippy pelo trilho para ver de novo.",
+        "Em \"Letras\", escolha uma família como \"Redondas e para baixo\" ou \"Maiúsculas: curvas\", e em \"Etapas\", escolha \"Somente sozinho\". No tablet ou no computador, toque numa letra da fileira de baixo para ver o Snippy escrevê-la."
+      ],
+      "learningGoals": [
+        "A criança começa cada letra no ponto certo",
+        "A criança traça na direção certa e na ordem certa",
+        "A criança escreve minúsculas e maiúsculas de memória"
+      ]
     }
   }
 }

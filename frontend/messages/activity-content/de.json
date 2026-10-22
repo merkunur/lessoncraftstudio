@@ -4355,6 +4355,29 @@
         "Das Kind sagt, was nur in einer Geschichte passiert",
         "Das Kind überprüft eine Antwort an den Bildern der Geschichte"
       ]
+    },
+    "snippy.letter-formation.l-k-1-a": {
+      "about": [
+        "Das Kind schreibt einen Buchstaben, und er wird beim Schreiben aufgenommen. Danach entsteht er noch einmal neben Snippys Buchstaben. Die Schnecke auf der Schiene unter den beiden Tafeln ist der Knopf für beide Wiedergaben: Zieht man Snippy hin und her, verschwinden die beiden Buchstaben und entstehen wieder, und zwar im Gleichschritt.",
+        "Auf der Schiene erscheint für jeden Strich ein Farbband, oben die des Kindes, unten die von Snippy. Wurde der Buchstabe genauso geschrieben, stimmen beide Spuren überein. Ein Strich in die andere Richtung trägt Pfeile, die zurückzeigen, und Striche in anderer Reihenfolge zeigen ihre Farben in anderer Reihenfolge. Ein wackliger Buchstabe mit richtigem Anfang, richtiger Richtung und richtiger Reihenfolge ist hier ein perfekter Buchstabe.",
+        "Jeder Buchstabe hat drei Schritte: erst mit nummerierten Punkten und Pfeilen auf dem Weg, dann nur mit dem Weg, dann allein – alle Startpunkte sind zu sehen, aber kein Weg und keine Zahlen. Nur der letzte Schritt wird geprüft. Klein- und Großbuchstaben gibt es in acht Familien, dazu Ä, Ö, Ü und ß. Passend zum Lehrplan, ohne Zeitdruck und ohne Punkte."
+      ],
+      "practices": [
+        "Jeden Buchstaben am richtigen Punkt beginnen",
+        "Jeden Strich in die richtige Richtung ziehen",
+        "Die Striche eines Buchstabens in der richtigen Reihenfolge schreiben",
+        "Einen Buchstaben nach dem Nachspuren aus dem Gedächtnis schreiben"
+      ],
+      "howToPlay": [
+        "Fang bei Punkt 1 an und folge den Pfeilen, dann dem Weg, dann schreib den Buchstaben allein.",
+        "Drück auf „Prüfen“ und schau zu, wie dein Buchstabe neben Snippys noch einmal entsteht. Zieh Snippy über die Schiene, dann siehst du es noch einmal.",
+        "Unter „Buchstaben“ wählst du eine Familie wie „Rund und runter“ oder „Großbuchstaben: Bögen“, unter „Schritte“ zum Beispiel „Nur allein“. Auf Tablet oder Computer tippst du einen Buchstaben in der Reihe unten an und schaust Snippy beim Schreiben zu."
+      ],
+      "learningGoals": [
+        "Das Kind beginnt jeden Buchstaben am richtigen Punkt",
+        "Das Kind schreibt in die richtige Richtung und in der richtigen Reihenfolge",
+        "Das Kind schreibt Klein- und Großbuchstaben aus dem Gedächtnis"
+      ]
     }
   }
 }

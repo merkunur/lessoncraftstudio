@@ -686,25 +686,25 @@
     },
     "snippy.letter-formation.l-k-1-a": {
       "about": [
-        "Snippy, un petit escargot tout doux, accompagne votre enfant pour former les lettres une à une. Une seule lettre s'affiche à la fois, et l'enfant la trace trait par trait : d'abord en suivant un chemin en pointillés avec des points numérotés, puis tout seul, de mémoire. L'activité fonctionne directement dans le navigateur et ne demande aucune installation.",
-        "L'enjeu, c'est le geste graphique : suivre le bon tracé de chaque lettre, partir du bon point et respecter l'ordre des tracés — un vrai entraînement du geste et de la reconnaissance des lettres. Les lettres sont montrées en écriture scripte, la graphie que l'enfant lit dans les livres (les minuscules et une majuscule), avec un mot repère pour mieux les reconnaître. La progression guidée, puis libre, aide l'enfant à gagner en autonomie et en confiance.",
-        "Tout se fait dans le calme : pas de chronomètre, pas de points, pas de course. Votre enfant avance à son rythme, recommence autant de fois qu'il le souhaite et progresse en douceur. L'activité s'appuie sur les programmes officiels pour l'apprentissage de l'écriture."
+        "L’enfant écrit une lettre, et la lettre est enregistrée pendant qu’il l’écrit. Ensuite, elle se réécrit à côté de la lettre de Snippy. L’escargot sur le rail, sous les deux feuilles, sert de bouton aux deux enregistrements : quand on fait glisser Snippy en avant et en arrière, les deux lettres s’effacent et se réécrivent en même temps.",
+        "Le rail se remplit d’une bande de couleur pour chaque trait, celles de l’enfant en haut et celles de Snippy en bas. Quand la lettre a été écrite de la même façon, les deux bandes se ressemblent. Un trait parti dans l’autre sens porte des flèches tournées vers l’arrière, et des traits écrits dans un autre ordre montrent leurs couleurs dans un autre ordre. Une lettre un peu tremblée, avec le bon départ, le bon sens et le bon ordre, est ici une lettre parfaite.",
+        "Chaque lettre se fait en trois étapes : d’abord avec les points numérotés et les flèches sur le chemin, puis avec le chemin seul, puis tout seul, avec tous les points de départ visibles mais sans chemin ni numéros. Seule la dernière étape est vérifiée. Les minuscules et les majuscules sont rangées en huit familles. En lien avec les programmes officiels, sans chronomètre et sans points."
       ],
       "practices": [
-        "Former et tracer les lettres en respectant le sens du tracé.",
-        "Respecter l'ordre des tracés pour chaque lettre.",
-        "Commencer au bon point de départ.",
-        "S'entraîner au geste d'écriture, minuscules et majuscule."
+        "Commencer chaque lettre au bon point",
+        "Tracer chaque trait dans le bon sens",
+        "Écrire les traits d’une lettre dans le bon ordre",
+        "Écrire une lettre de mémoire après l’avoir repassée"
       ],
       "howToPlay": [
-        "Regarde la lettre et repère le point de départ.",
-        "Suis le chemin en pointillés, trait après trait, dans l'ordre des numéros.",
-        "Trace la lettre tout seul, de mémoire."
+        "Commence au point 1 et suis les flèches, puis suis le chemin, puis écris la lettre tout seul.",
+        "Appuie sur « Vérifier » et regarde ta lettre se réécrire à côté de celle de Snippy. Fais glisser Snippy sur le rail pour revoir.",
+        "Dans « Lettres », choisis une famille comme « Rondes et descentes » ou « Majuscules : courbes », et dans « Étapes », choisis « Tout seul uniquement ». Sur une tablette ou un ordinateur, touche une lettre de la rangée du bas pour regarder Snippy l’écrire."
       ],
       "learningGoals": [
-        "Votre enfant apprend à former les lettres avec le bon tracé et le bon sens.",
-        "Votre enfant mémorise l'ordre des tracés et le bon point de départ.",
-        "Votre enfant gagne en aisance dans son geste d'écriture, à son rythme."
+        "L’enfant commence chaque lettre au bon point",
+        "L’enfant trace dans le bon sens et dans le bon ordre",
+        "L’enfant écrit les minuscules et les majuscules de mémoire"
       ]
     },
     "sunny-side-diner.compound-order.l-k-1-f": {

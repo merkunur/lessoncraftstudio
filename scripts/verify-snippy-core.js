@@ -49,7 +49,8 @@ const pct = (x) => (100 * x).toFixed(1) + '%';
   const C = loadCore();
   const manifest = JSON.parse(fs.readFileSync(MANIFEST, 'utf8'));
   const row = Array.isArray(manifest) ? manifest[0] : manifest;
-  const rounds = row.params.rounds || [];
+  /* Row 74 rebuild (2026-10-23): the row runs The Rewind Rail (gate: verify-rewind-rail-core.js); snippy-core.js stays on disk, so its own letters are still proved here. */
+  const rounds = row.params.rounds || Object.keys(C.GLYPHS).filter((l) => l !== 'l').map((l) => ({ id: 'letter-' + l, letter: l, word: l === 'S' ? 'Sun' : 'word', band: 1, prompt: '' }));
   const N = rounds.length || 1;
 
   F(rounds.length >= 7, `bank has ${rounds.length} rounds (need >=7 distinct letters)`);

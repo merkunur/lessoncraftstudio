@@ -4280,6 +4280,29 @@
         "Il bambino dice che cosa succede solo in una",
         "Il bambino verifica una risposta con i disegni della storia"
       ]
+    },
+    "snippy.letter-formation.l-k-1-a": {
+      "about": [
+        "Il bambino scrive una lettera e la lettera viene registrata mentre la scrive. Poi si riscrive da sola accanto alla lettera di Snippy. La lumaca sul binario, sotto i due fogli, è la manopola delle due registrazioni: trascinando Snippy avanti e indietro, le due lettere si cancellano e si riscrivono insieme.",
+        "Il binario si riempie di una striscia colorata per ogni tratto, quelle del bambino sopra e quelle di Snippy sotto. Quando la lettera è stata fatta allo stesso modo, le due strisce coincidono. Un tratto fatto al contrario porta frecce rivolte all’indietro, e i tratti fatti in un altro ordine mostrano i colori in un altro ordine. Una lettera un po’ tremolante, con la partenza giusta, il verso giusto e l’ordine giusto, qui è una lettera perfetta.",
+        "Ogni lettera ha tre passaggi: prima con i puntini numerati e le frecce sulla strada, poi solo con la strada, infine da solo, con tutti i puntini di partenza visibili ma senza strada e senza numeri. Si controlla solo l’ultimo passaggio. Minuscole e maiuscole sono divise in otto famiglie. In linea con le Indicazioni nazionali, senza cronometro e senza punti."
+      ],
+      "practices": [
+        "Cominciare ogni lettera dal punto giusto",
+        "Fare ogni tratto nel verso giusto",
+        "Scrivere i tratti di una lettera nell’ordine giusto",
+        "Scrivere una lettera a memoria dopo averla ripassata"
+      ],
+      "howToPlay": [
+        "Parti dal puntino 1 e segui le frecce, poi segui la strada, infine scrivi la lettera da solo.",
+        "Premi «Controlla» e guarda la tua lettera che si riscrive accanto a quella di Snippy. Trascina Snippy lungo il binario per rivederla.",
+        "In «Lettere» scegli una famiglia come «Tonde e in giù» o «Maiuscole: curve», e in «Passaggi» scegli «Soltanto da solo». Su un tablet o un computer, tocca una lettera della fila in basso per guardare Snippy che la scrive."
+      ],
+      "learningGoals": [
+        "Il bambino comincia ogni lettera dal punto giusto",
+        "Il bambino traccia nel verso giusto e nell’ordine giusto",
+        "Il bambino scrive minuscole e maiuscole a memoria"
+      ]
     }
   }
 }

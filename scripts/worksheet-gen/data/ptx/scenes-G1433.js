@@ -39,7 +39,8 @@ function check(id, level, items) {
   }
 }
 /** small solid things scattered over a region (leaves, mushrooms, flowers…) — seeded, never within an animal's halo, never
- *  on another clutter piece; they make the figure-ground harder without ever touching a dashed line */
+ *  on another clutter piece, never on a prop (a leaf lay over the watering can, a tulip over a pumpkin — visual review); they
+ *  make the figure-ground harder without ever touching a dashed line */
 function clutter(specs, items, halo) {
   if (!specs) return [];
   const out = [];
@@ -47,7 +48,7 @@ function clutter(specs, items, halo) {
   return out;
 }
 function clutterZone(spec, items, halo, prev) {
-  const R = rng(spec.seed), out = [], hid = items.filter((it) => it.hidden).map(boxOfItem);
+  const R = rng(spec.seed), out = [], hid = items.filter((it) => it.hidden).map(boxOfItem), props = items.filter((it) => !it.hidden).map(boxOfItem);
   const box = (it) => { const b = boxOfItem(it); return [b.x - b.w / 2, b.y - b.h, b.x + b.w / 2, b.y]; };
   const hit = (a, b, g) => !(a[2] + g <= b[0] || b[2] + g <= a[0] || a[3] + g <= b[1] || b[3] + g <= a[1]);
   for (let t = 0; out.length < spec.n && t < 3000; t++) {
@@ -55,10 +56,11 @@ function clutterZone(spec, items, halo, prev) {
     const it = { src, x: Math.round(spec.region.x0 + R() * (spec.region.x1 - spec.region.x0)), y: Math.round(spec.region.y0 + R() * (spec.region.y1 - spec.region.y0)), h: Math.round(h), render: 'model', flip: R() < 0.5 };
     const b = box(it); if (b[0] < 16 || b[2] > 659 || b[1] < 10 || b[3] > 712) continue;
     if (hid.some((hb) => hit(b, [hb.x - hb.w / 2, hb.y - hb.h, hb.x + hb.w / 2, hb.y], halo + 6))) continue;
+    if (props.some((pb) => hit(b, [pb.x - pb.w / 2, pb.y - pb.h, pb.x + pb.w / 2, pb.y], 6))) continue;
     if ([...prev, ...out].some((o) => hit(b, box(o), 8))) continue;
     out.push(it);
   }
-  if (out.length < spec.n) ERR.push(`clutter: placed ${out.length} of ${spec.n}`);
+  if (out.length < spec.n) ERR.push(`clutter (seed ${spec.seed}): placed ${out.length} of ${spec.n}`);
   return out;
 }
 const LEAVES = ['nature bw/leaf', 'home and nature bw/leaf'], GROUND = ['nature bw/mushroom', 'Easter bw/mushroom', 'vegetables bw 2/mushroom', 'nature bw/flower', 'home and nature bw/flower', 'Easter bw/tulip'];
@@ -161,7 +163,7 @@ const SCENES = [
       A('animals bw 5/gorilla', 220, 706, { h: 88 }), A('animals bw 5/peacock', 470, 640, { h: 88 })],
   })),
   copy('attic', 3, 'Who Hides in the Attic?', (A) => ({
-    clutter: [{ seed: 18, n: 4, srcs: ['classroom bw/book', 'education bw/book'], h: [24, 34], region: { x0: 180, y0: 686, x1: 655, y1: 690 } }],
+    clutter: [{ seed: 18, n: 3, srcs: ['classroom bw/book', 'education bw/book'], h: [24, 34], region: { x0: 180, y0: 686, x1: 655, y1: 690 } }],
     motifs: S([{ m: 'line', a: [[[14, 260], [337, 30], [661, 260]]] }, { m: 'line', a: [[[14, 690], [661, 690]]] }, { m: 'circle', a: [337, 150, 52] }, { m: 'line', a: [[[285, 150], [389, 150]]] }, { m: 'line', a: [[[337, 98], [337, 202]]] },
       D.rect(200, 600, 120, 90), D.rect(220, 530, 90, 70), D.rect(330, 620, 80, 70)]),
     items: [P('household bw/bookshelf', 92, 690, { h: 240 }), P('furniture bw/armchair', 560, 690, { w: 180 }), P('toys bw 2/robot', 370, 620, { h: 100 }), P('toys bw/train', 265, 530, { w: 110 }),
@@ -170,7 +172,7 @@ const SCENES = [
       A('birds bw 2/owl', 92, 440, { h: 84 }), A('animals bw 5/hamster', 92, 600, { w: 78 })],
   })),
   copy('mountain', 3, 'Who Hides in the Mountains?', (A) => ({
-    clutter: [{ seed: 19, n: 6, srcs: GROUND, h: [26, 40], region: { x0: 20, y0: 520, x1: 655, y1: 560 } }, { seed: 39, n: 7, srcs: GROUND, h: [26, 40], region: { x0: 20, y0: 600, x1: 655, y1: 712 } }],
+    clutter: [{ seed: 19, n: 3, srcs: GROUND, h: [26, 40], region: { x0: 20, y0: 520, x1: 655, y1: 560 } }, { seed: 39, n: 7, srcs: GROUND, h: [26, 40], region: { x0: 20, y0: 600, x1: 655, y1: 712 } }],
     motifs: S([{ m: 'line', a: [[[14, 330], [140, 150], [250, 290], [380, 110], [520, 280], [600, 190], [661, 260]]] }, { m: 'line', a: [[[14, 560], [661, 560]]] },
       ...fir(40, 400, 520, 30), ...fir(250, 380, 520, 32), ...fir(330, 400, 520, 28), ...fir(640, 410, 520, 26), { m: 'pathBand', a: [[[200, 716], [240, 650], [190, 600], [230, 562]], 50] },
       ...D.stone(560, 420, 120), ...D.stone(420, 712, 100)]),

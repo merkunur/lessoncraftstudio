@@ -97,8 +97,8 @@ const SCENES = [
     const fir = (cx, top, base, hw) => [{ m: 'line', a: [X.firPoly(cx, top, base, hw), true] }, T.rectOf(cx - 9, base, 18, 600 - base)];
     return { hole: t.hole, motifs: [...t.motifs, floor(600), ...fir(608, 300, 540, 50), { m: 'moon', a: [70, 80, 30] }, { m: 'star', a: [190, 70, 14] }, { m: 'star', a: [470, 110, 12] }, { m: 'star', a: [600, 60, 14] },
       { m: 'waves', a: [330, 661, 664, 40, 6] }],
-      items: [{ src: 'birds bw 2/owl', x: 608, y: 300, h: 92 }, { src: 'nature bw/campfire', x: 90, y: 600, h: 100 }, { src: 'nature bw/mushroom', x: 60, y: 704, h: 76 },
-        { src: 'travel and holiday bw/kayak', x: 540, y: 668, w: 170 }, { src: 'animals bw/fox', x: 160, y: 704, h: 90 }, { src: 'animals bw/snail', x: 270, y: 704, h: 62 }, { src: 'nature bw/butterfly', x: 140, y: 300, w: 90 }] };
+      items: [{ src: 'birds bw 2/owl', x: 608, y: 300, h: 92 }, { src: 'nature bw/campfire', x: 62, y: 600, h: 88 }, { src: 'nature bw/mushroom', x: 60, y: 704, h: 76 },
+        { src: 'birds bw 2/duck', x: 590, y: 664, h: 70 }, { src: 'animals bw/fox', x: 160, y: 704, h: 90 }, { src: 'animals bw/snail', x: 270, y: 704, h: 62 }, { src: 'nature bw/butterfly', x: 140, y: 300, w: 90 }] };
   }),
   copy('zoo-pen', 3, 'Who Lives in the Empty Pen?', D('who lives in the empty pen'), () => {
     const e = T.enclosure(224, 470, 228, 230), pen = (x, w) => T.enclosure(x, 470, w, 230).motifs;

@@ -90,8 +90,11 @@ function frame(x, y, w, h) {
 /** a tent with its flaps tied back: the tent, the open doorway, the two flaps, a pole tip; the hole = inside the doorway */
 function openTent(cx, by, w, h, dw) {
   const top = by - h, dh = h * 0.78, dt = by - dh;
+  // each pulled-back flap folds at a point HALFWAY between the doorway edge and the tent wall at that height (a fold point
+  // set off the door's foot stuck out of the tent wall, visual review 2026-10-22)
+  const fy = by - dh * 0.42, doorHalf = (fy - dt) / dh * (dw / 2), wallHalf = (fy - top) / h * (w / 2), fx = (doorHalf + wallHalf) / 2;
   const motifs = [L([[cx - w / 2, by], [cx, top], [cx + w / 2, by], [cx - w / 2, by]], true), L([[cx, top], [cx, top - 24]]),
-    L([[cx - dw / 2, by], [cx, dt], [cx + dw / 2, by]]), L([[cx, dt], [cx - dw / 2 + 12, by - dh * 0.42], [cx - dw / 2, by]]), L([[cx, dt], [cx + dw / 2 - 12, by - dh * 0.42], [cx + dw / 2, by]])];   // the flaps tied back INSIDE the doorway edges
+    L([[cx - dw / 2, by], [cx, dt], [cx + dw / 2, by]]), L([[cx, dt], [cx - fx, fy], [cx - dw / 2, by]]), L([[cx, dt], [cx + fx, fy], [cx + dw / 2, by]])];   // the flaps tied back INSIDE the doorway edges
   // the largest box inside the doorway triangle (half its height, half its base)
   return { motifs, hole: H(cx - dw / 4 + 4, by - dh / 2 + 4, cx + dw / 4 - 4, by - 8) };
 }

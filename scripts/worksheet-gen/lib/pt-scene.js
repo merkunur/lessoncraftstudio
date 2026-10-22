@@ -124,6 +124,9 @@ async function composeScene(scene, opts = {}) {
         }
       }
       const pl = R.placeTrace(e.tr, it);
+      // it.solidAbove = f: on an outline-only picture, lines mostly in the top fraction f of the ink box are drawn, not traced
+      // (an apple's stem and leaf: the PreK child traces the ROUND outline only — final visual review)
+      if (it.solidAbove) { const yc = pl.box.y0 + it.solidAbove * (pl.box.y1 - pl.box.y0); for (const l of pl.lines) if (l.pts.filter((q) => q[1] < yc).length >= 0.6 * l.pts.length) l.outer = false; }
       e.lines = pl.lines; e.blobs = pl.blobs; e.box = pl.box; e.pl = pl; e.src = it.src;
     }
   }
@@ -182,15 +185,29 @@ async function composeScene(scene, opts = {}) {
       // WHOLE lines go to the part (≥ 60 % of their points inside): a box edge cutting a line in two made half a door
       // frame dashed (2026-10-22) — a missing part is a wheel, an ear, a handle, never an arbitrary half-line
       const isPart = (l) => l.pts.filter(inside).length >= 0.6 * l.pts.length;
-      parts.push(R.solidPaths({ lines: e.lines.filter((l) => !isPart(l)), blobs: e.blobs }, sp.solidW || 2.6));
-      e.traceLines = e.lines.filter(isPart);
+      // ...but a line CHAINED through the part (a teapot's spout running on down its body side, an umbrella's stick into the
+      // canopy rim) dashed the whole chain (final visual review): split such a line at the region edge when both sides are
+      // long (≥ 40 px), merging shorter runs into their neighbour so no stub is created
+      const PL = require('./pt-trace.js').plen, MIN = 40, pieces = [];
+      for (const l of e.lines) {
+        const f = l.pts.map(inside), n = f.filter(Boolean).length;
+        if (l.closed || n === 0 || n === f.length) { pieces.push(l); continue; }
+        const runs = []; let st = 0;
+        for (let i = 1; i <= f.length; i++) if (i === f.length || f[i] !== f[st]) { runs.push([st, i - 1, f[st]]); st = i; }
+        const m = []; for (const r of runs) { const L = PL(l.pts.slice(r[0], r[1] + 1)); if (m.length && (L < MIN || m[m.length - 1][2] === r[2])) m[m.length - 1][1] = r[1]; else m.push(r.slice()); }
+        if (m.length < 2) { pieces.push(l); continue; }
+        for (let k = 0; k < m.length; k++) pieces.push({ pts: l.pts.slice(k ? m[k][0] - 1 : 0, m[k][1] + 1), closed: false, outer: l.outer, partRun: m[k][2] });
+      }
+      const inPart = (l) => (l.partRun != null ? l.partRun : isPart(l));
+      parts.push(R.solidPaths({ lines: pieces.filter((l) => !inPart(l)), blobs: sp.noBlobs ? [] : e.blobs }, sp.solidW || 2.6));
+      e.traceLines = pieces.filter(inPart);
       parts.push(R.guidePaths({ lines: e.traceLines, blobs: [] }, st, { band: sp.band || scene.band }));
     } else if (e.kind === 'motif') {
       if (render === 'solid') parts.push(R.solidPaths(pl, sp.lineW || sp.w || 2.6)); else parts.push(R.guidePaths(pl, st, { band: sp.band || scene.band, start: sp.start }));
     } else {
       const start = sp.start || scene.start;
       const contour = start === 'contour' || start === 'top';
-      parts.push(R.guidePaths(pl, st, { band: sp.band || scene.band, start: contour ? null : start, outline: sp.outline }));
+      parts.push(R.guidePaths(pl, st, { band: sp.band || scene.band, start: contour ? null : start, outline: sp.outline, noSolid: sp.noSolid }));
       if (contour) parts.push(R.contourMarker(e.tr, sp, typeof st === 'string' ? R.STYLES[st] : st, undefined, start === 'top' ? 90 : 30));
     }
     placed.push({ src: e.src, box: e.box, render, s: e.pl && e.pl.s, item: sp, motif: e.kind === 'motif' });

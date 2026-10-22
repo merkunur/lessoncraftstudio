@@ -29,6 +29,18 @@ function stampDots(x, y, side, n) {
   });
 }
 const grassSolid = (x, y, h, n = 3) => ({ m: 'grass', a: [x, y, h, n], colour: GREY, w: 2 });
+/** a gift DRAWN as clean traced lines (the library gifts' bows fused into knots of short dashes with stray arrowheads at
+ *  the corners — final visual review): box, lid, a ribbon cross, a bow of two loops. Bottom-centre (cx, by), width w. */
+const gift = (cx, by, w, z) => {
+  const h = w * 0.8, lid = w * 0.2, x0 = cx - w / 2, x1 = cx + w / 2, top = by - h;
+  const loop = (sg) => { const pts = []; for (let k = 0; k <= 24; k++) { const t = (k / 24) * Math.PI * 2; pts.push([cx + sg * (w * 0.17 + w * 0.17 * Math.cos(t)), top - lid * 0.15 - w * 0.12 * Math.sin(t) * (Math.cos(t) > 0 ? 1 : 0.9) - w * 0.04]); } return pts; };
+  return [
+    { m: 'line', a: [[[x0 + 6, by], [x1 - 6, by], [x1 - 6, top + lid], [x0 + 6, top + lid], [x0 + 6, by]], true], z, hides: true },
+    { m: 'line', a: [[[x0, top + lid], [x1, top + lid], [x1, top], [x0, top], [x0, top + lid]], true], z, hides: true },
+    { m: 'line', a: [[[cx - w * 0.06, top], [cx - w * 0.06, by]]], z }, { m: 'line', a: [[[cx + w * 0.06, top], [cx + w * 0.06, by]]], z },
+    { m: 'line', a: [loop(-1), true], z }, { m: 'line', a: [loop(1), true], z },
+  ];
+};
 
 const SCENES = {
   // §2 BASE — the path to the door (design B #1, built verbatim, measured 10,063 px)
@@ -96,7 +108,7 @@ const SCENES = {
       // 5,365 px over the PreK budget; the start comes from the silhouette at 2 o'clock, anticlockwise
       { src: 'sports bw/beach_ball', x: 170, y: 336, h: 300, start: 'contour', outline: true },
       { src: 'food bw/donut', x: 505, y: 516, w: 300, start: 'contour', outline: true },   // the orange read as a tomato (fr panel); a heart-balloon pair is not round — a doughnut is round twice (ring + hole)
-      { src: 'fruits bw/apple_2', x: 175, y: 700, h: 300, start: 'contour', outline: true },
+      { src: 'fruits bw/apple_2', x: 175, y: 700, h: 300, start: 'contour', outline: true, solidAbove: 0.3 },
     ],
   },
 
@@ -110,6 +122,13 @@ const SCENES = {
       { m: 'line', a: [[[243, 270], [433, 270], [433, 290], [243, 290], [243, 270]], true] },
       { m: 'line', a: [[[272, 236], [272, 270]]] }, { m: 'line', a: [[[404, 236], [404, 270]]] },
       { m: 'line', a: [[[262, 290], [262, 332]]] }, { m: 'line', a: [[[414, 290], [414, 332]]] },
+      // DOWN, top: the wardrobe DRAWN (the library wardrobe's top edge was three dashed lines stacked 4 px apart that fused —
+      // final visual review): a tall body, two doors, a crown ledge, feet — mostly upright lines
+      { m: 'line', a: [[[62, 128], [178, 128], [178, 120], [62, 120], [62, 128]], true] },
+      { m: 'line', a: [[[68, 128], [68, 388], [172, 388], [172, 128]]] },
+      { m: 'line', a: [[[120, 140], [120, 376]]] },
+      { m: 'line', a: [[[110, 244], [110, 272]]] }, { m: 'line', a: [[[130, 244], [130, 272]]] },
+      { m: 'line', a: [[[76, 388], [76, 402]]] }, { m: 'line', a: [[[164, 388], [164, 402]]] },
     ],
     decor: [
       { d: 'M225 20 L225 700', w: 1.5 }, { d: 'M450 20 L450 700', w: 1.5 },
@@ -117,9 +136,8 @@ const SCENES = {
     ],
     items: [
       // direction measured (tools/pt-straight.js directionMix): the contract's ladder LEANS and the classroom table is in
-      // perspective (slanted edges under the ACROSS arrow) — de + fr panels. down: wardrobe v 75 % + cabinet v 70 %;
+      // perspective (slanted edges under the ACROSS arrow) — de + fr panels. down: a drawn wardrobe + cabinet v 70 %;
       // across: a drawn bench + dresser h 68 %; slanted: envelope s 63 % + star s 61 %
-      { src: 'home bw 2/wardrobe', x: 120, y: 400, h: 290 },
       { src: 'household bw/cabinet', x: 120, y: 700, h: 250 },
       // straightness measured (tools/pt-straight.js, calibrated: apple 41 %, ladder 72 %): the contract's furniture bw/table
       // is an oval top on a pedestal (69 %) → classroom bw 2/table (83 %); the cone (65 %) → beach bw/sailboat (79 %)
@@ -156,6 +174,13 @@ const SCENES = {
   // F7 curls and spirals — the curl gallery (K, bento)
   curls: {
     band: 'K', style: 'P2', occlusion: false,
+    // the lollipop DRAWN: every library lollipop's swirl was doubled bands 8 px apart that fused when traced (final visual
+    // review) — a round candy, ONE spiral of three turns (~24 px between turns, the K gap), a straight stick
+    motifs: [
+      { m: 'circle', a: [548, 140, 82] },
+      { m: 'line', a: [(() => { const pts = []; for (let k = 0; k <= 180; k++) { const t = (k / 180) * 3 * 2 * Math.PI, r = 4 + 62 * k / 180; pts.push([548 + r * Math.cos(t), 140 + r * Math.sin(t)]); } return pts; })()] },
+      { m: 'line', a: [[[542, 222], [542, 382], [554, 382], [554, 222]]] },
+    ],
     decor: [
       { m: 'roundRect', a: [14, 8, 406, 396, 18] }, { d: 'M30 384 L404 384', w: 2.5 },
       { m: 'roundRect', a: [434, 8, 227, 396, 18] },
@@ -164,7 +189,6 @@ const SCENES = {
     ],
     items: [
       { src: 'animals bw/snail', x: 210, y: 380, w: 330 },
-      { src: 'Christmas bw/lollipop', x: 548, y: 380, h: 350 },
       { src: 'Christmas bw/bow', x: 112, y: 650, w: 170 },
       { src: 'food bw/pretzel', x: 322, y: 650, w: 170 },
       { src: 'toys bw 2/pinwheel', x: 548, y: 690, h: 260 },
@@ -183,11 +207,11 @@ const SCENES = {
     decor: [grassSolid(20, 708, 24), grassSolid(337, 712, 22), grassSolid(655, 708, 24)],
     items: [
       { src: 'home and nature bw/tree_3', x: 140, y: 425, h: 330 },
-      { src: 'fruits bw/banana', x: 125, y: 645, w: 150 },   // the watermelon read as a pumpkin (de + fr panels)
+      { src: 'fruits bw/banana', x: 125, y: 645, w: 150, noSolid: true },   // the watermelon read as a pumpkin (de + fr panels)
       { src: 'home and nature bw/teacup', x: 285, y: 625, w: 140 },
       { src: 'fruits bw/pear', x: 425, y: 645, h: 150 },
       { src: 'fruits bw/lemon', x: 555, y: 645, w: 135 },
-      { src: 'Easter bw/bird', x: 460, y: 335, h: 135 },   // the empty sky right of the tree (render read)
+      { src: 'Easter bw/bird', x: 460, y: 423, h: 135 },   // on the ground line (it stood on nothing — final visual review)   // the empty sky right of the tree (render read)
     ],
   },
 
@@ -204,9 +228,9 @@ const SCENES = {
     // pictures are DESIGNED STROKES (lib/pt-motifs.js `stroke`), every stroke starting top or left, in teaching order
     motifs: [
       { m: 'stroke.flag', a: [100, 180, 150], start: 'lines' },
-      { m: 'stroke.heart', a: [257, 346, 150], start: 'lines' },
+      { m: 'stroke.heart', a: [257, 346, 122], start: 'lines' },   // h 150 crossed both stair risers (final visual review)
       { m: 'stroke.stocking', a: [412, 522, 165], start: 'lines' },
-      { m: 'stroke.bell', a: [578, 698, 170], start: 'lines' },
+      { m: 'stroke.bell', a: [586, 698, 160], start: 'lines' },   // h 170 ran its rim into the riser at x 497
     ],
   },
 
@@ -217,7 +241,7 @@ const SCENES = {
       { m: 'roundRect', a: [16, 16, 120, 120, 16], w: 3 }, { d: 'M34 112 L118 112', w: 2 },
       { m: 'cloud', a: [570, 110, 130], colour: GREY, w: 2 },
       { m: 'ellipse', a: [337, 500, 325, 205], w: 2.5 },
-      grassSolid(40, 400, 40, 4), grassSolid(640, 410, 36, 4),
+      grassSolid(34, 372, 36, 4), grassSolid(644, 378, 32, 4),   // clear of the pond outline (final visual review)
       { m: 'waves', a: [215, 460, 684, 40, 4], colour: GREY, w: 2, clip: true },   // below the ducks (at y 560 they ran through two necks)
     ],
     items: [
@@ -241,11 +265,11 @@ const SCENES = {
     ],
     items: [
       { src: 'vehicles bw/car_2', x: 115, y: 340, w: 205, render: 'part', part: { x0: 0, y0: 0.68, x1: 1, y1: 1 } },
-      { src: 'home bw/teapot', x: 337, y: 340, w: 205, flip: true, render: 'part', part: { x0: 0.6, y0: 0, x1: 1, y1: 1 } },   // flipped: the spout is on the drawing's LEFT, so the region marked the handle while the instruction says spout
-      { src: 'education bw/umbrella_2', x: 560, y: 340, w: 205, render: 'part', part: { x0: 0, y0: 0.42, x1: 1, y1: 1 } },   // the whole shaft + hook (0.55 left only the hook dashed)
-      { src: 'household bw/cup', x: 115, y: 695, w: 190, render: 'part', part: { x0: 0.68, y0: 0, x1: 1, y1: 0.85 } },   // the whole handle (0.75 was 16 % < 20 %)
+      { src: 'home bw/teapot', x: 337, y: 340, w: 205, flip: true, render: 'part', part: { x0: 0.72, y0: 0.12, x1: 1, y1: 0.7 }, noBlobs: true },   // flipped: the spout is on the drawing's LEFT, so the region marked the handle while the instruction says spout
+      { src: 'education bw/umbrella_2', x: 560, y: 340, w: 205, render: 'part', part: { x0: 0, y0: 0.5, x1: 1, y1: 1 }, noBlobs: true },   // the whole shaft + hook (0.55 left only the hook dashed)
+      { src: 'household bw/cup', x: 115, y: 695, w: 190, render: 'part', part: { x0: 0.68, y0: 0, x1: 1, y1: 0.74 } },   // the whole handle (0.75 was 16 % < 20 %)
       { src: 'toys bw/spinning_top', x: 337, y: 695, h: 220, render: 'part', part: { x0: 0, y0: 0.66, x1: 1, y1: 1 } },   // the whole point (0.72 was 18 %)
-      { src: 'Easter bw/bunny', x: 560, y: 695, h: 230, render: 'part', part: { x0: 0, y0: 0, x1: 1, y1: 0.45 } },
+      { src: 'Easter bw/bunny', x: 560, y: 695, h: 230, render: 'part', part: { x0: 0, y0: 0, x1: 1, y1: 0.4 } },   // 0.45 dashed the head outline between the ears too
     ],
   },
   // F12 Christmas: close every bauble (K, indoors, no snow)
@@ -261,14 +285,13 @@ const SCENES = {
       { m: 'roundRect', a: [430, 60, 210, 230, 18] }, { m: 'line', a: [[[535, 60], [535, 290]]] }, { m: 'line', a: [[[430, 175], [640, 175]]] },
       { m: 'moon', a: [482, 117, 28] }, { m: 'star', a: [588, 118, 22] }, { m: 'star', a: [588, 232, 24] },
       { m: 'ground', a: [4, 671, 642, 0, 1] },
+      ...gift(92, 640, 130, 2), ...gift(378, 640, 118, 2),
       { m: 'roundRect', a: [150, 662, 380, 40, 20] },   // the rug, TRACED (a grey solid bar read as an empty answer field)
       // ...and a bare capsule still read as a name field (es panel): a fringe at both ends makes it a rug (an inner border went over the K budget)
       { m: 'line', a: [[[150, 670], [134, 670]]] }, { m: 'line', a: [[[148, 682], [132, 682]]] }, { m: 'line', a: [[[150, 694], [134, 694]]] },
       { m: 'line', a: [[[530, 670], [546, 670]]] }, { m: 'line', a: [[[532, 682], [548, 682]]] }, { m: 'line', a: [[[530, 694], [546, 694]]] },
     ],
     items: [
-      { src: 'Christmas bw/gift_box', x: 92, y: 640, h: 140 },
-      { src: 'Christmas bw 2/gift_box', x: 375, y: 640, h: 130 },
       { src: 'furniture bw/armchair_2', x: 585, y: 640, h: 170 },
     ],
   },
@@ -310,11 +333,11 @@ const SCENES = {
     ],
     items: [
       { src: 'beach bw/anchor', x: 594, y: 100, h: 56, render: 'model', hides: false },
-      { src: 'beach bw/sailboat', x: 450, y: 291, h: 170, halo: 6 },   // the horizon ran through the sail (it panel): lines behind the boat stop at its body   // on the wave, not through the hull (fr panel)
-      { src: 'beach bw/parasol', x: 148, y: 640, h: 210 },
+      { src: 'beach bw/sailboat', x: 450, y: 284, h: 166, halo: 8 },   // lifted 7 px: the hull's dashes ran into the first wave (final visual review)   // the horizon ran through the sail (it panel): lines behind the boat stop at its body   // on the wave, not through the hull (fr panel)
+      { src: 'beach bw/parasol', x: 148, y: 652, h: 205 },   // its top touched the beach line
       { src: 'beach bw/bucket', x: 318, y: 688, h: 135 },
       { src: 'beach bw/sandcastle', x: 455, y: 630, h: 155 },
-      { src: 'beach bw/crab', x: 582, y: 682, w: 136 },
+      { src: 'beach bw/crab', x: 570, y: 680, w: 130 },   // it touched the postcard's inner frame
     ],
   },
 
@@ -330,9 +353,9 @@ const SCENES = {
       { src: 'vehicles bw 2/airplane', x: 155, y: 180, w: 290, style: 'P1' },
       { src: 'vehicles bw 2/airplane', x: 425, y: 170, w: 197, style: 'P2' },
       { src: 'vehicles bw 2/airplane', x: 605, y: 160, w: 130, style: 'P3' },
-      { src: 'vehicles bw 2/car', x: 155, y: 400, w: 290, style: 'P1' },
-      { src: 'vehicles bw 2/car', x: 425, y: 400, w: 197, style: 'P2' },
-      { src: 'vehicles bw 2/car', x: 605, y: 400, w: 130, style: 'P3' },
+      { src: 'vehicles bw 2/car', x: 155, y: 400, w: 290, style: 'P1', noBlobs: true },
+      { src: 'vehicles bw 2/car', x: 425, y: 400, w: 197, style: 'P2', noBlobs: true },
+      { src: 'vehicles bw 2/car', x: 605, y: 400, w: 130, style: 'P3', noBlobs: true },
       { src: 'vehicles bw/boat_2', x: 155, y: 655, w: 290, style: 'P1' },
       { src: 'vehicles bw/boat_2', x: 425, y: 655, w: 197, style: 'P2' },
       { src: 'vehicles bw/boat_2', x: 605, y: 655, w: 130, style: 'P3' },
@@ -343,6 +366,31 @@ const SCENES = {
   'dotted-street': {
     band: 'G1', style: 'P4',
     motifs: [
+      // the museum DRAWN (the library museum's doubled door arch and panels fused into a cloud of dots — final visual review):
+      // a pediment, a ledge, four columns, a door, two steps — one line each
+      { m: 'line', a: [[[66, 252], [150, 206], [234, 252], [66, 252]], true] },
+      { m: 'line', a: [[[66, 252], [234, 252], [234, 268], [66, 268], [66, 252]], true] },
+      { m: 'line', a: [[[82, 392], [82, 270], [96, 270], [96, 392]]] },
+      { m: 'line', a: [[[118, 392], [118, 270], [132, 270], [132, 392]]] },
+      { m: 'line', a: [[[168, 392], [168, 270], [182, 270], [182, 392]]] },
+      { m: 'line', a: [[[204, 392], [204, 270], [218, 270], [218, 392]]] },
+      { m: 'line', a: [[[138, 392], [138, 330], [162, 330], [162, 392]]] },
+      { m: 'line', a: [[[70, 392], [230, 392], [230, 404], [70, 404], [70, 392]], true] },
+      { m: 'line', a: [[[60, 404], [240, 404], [240, 418], [60, 418], [60, 404]], true] },
+      // the tall building DRAWN (the library hotel was 72 lines with doubled window frames that fused into clouds of dots at
+      // G1 dot spacing — final visual review): one outline, a roof ledge, three rows of three windows, a door — one line each
+      { m: 'line', a: [[[445, 420], [445, 214], [585, 214], [585, 420]]] },
+      { m: 'line', a: [[[437, 214], [593, 214], [593, 200], [437, 200], [437, 214]], true] },
+      { m: 'line', a: [[[462, 236], [486, 236], [486, 266], [462, 266], [462, 236]], true] },
+      { m: 'line', a: [[[504, 236], [528, 236], [528, 266], [504, 266], [504, 236]], true] },
+      { m: 'line', a: [[[546, 236], [570, 236], [570, 266], [546, 266], [546, 236]], true] },
+      { m: 'line', a: [[[462, 286], [486, 286], [486, 316], [462, 316], [462, 286]], true] },
+      { m: 'line', a: [[[504, 286], [528, 286], [528, 316], [504, 316], [504, 286]], true] },
+      { m: 'line', a: [[[546, 286], [570, 286], [570, 316], [546, 316], [546, 286]], true] },
+      { m: 'line', a: [[[462, 336], [486, 336], [486, 366], [462, 366], [462, 336]], true] },
+      { m: 'line', a: [[[504, 336], [528, 336], [528, 366], [504, 366], [504, 336]], true] },
+      { m: 'line', a: [[[546, 336], [570, 336], [570, 366], [546, 366], [546, 336]], true] },
+      { m: 'line', a: [[[500, 420], [500, 386], [530, 386], [530, 420]]] },
       { m: 'cloud', a: [320, 82, 120] },
       { m: 'sun', a: [110, 78, 34, 8] },
       { m: 'ground', a: [4, 671, 422, 0, 1] },
@@ -351,14 +399,12 @@ const SCENES = {
     items: [
       // measured 20,659 px > the G1 budget 15,000: the contract's drop order (pigeon, then bicycle — its spokes crowd the
       // dots) + the buildings 8 % smaller; the bus moves clear of the kerb line (its roof sat 8 px under it)
-      { src: 'travel and holiday bw/museum', x: 150, y: 420, h: 218 },
-      { src: 'travel and holiday bw/hotel', x: 515, y: 420, h: 226, dropTiny: 24, dropTinyOpen: true },   // a short solid roof mark read as the letter L (no panel)
       { src: 'travel and holiday bw/signpost', x: 190, y: 562, h: 125 },
       // es + pt panels: at dot spacing the bus's double wheel rings, its roof rack and the dog's legs fused into clouds of
       // dots → the simplest bus (17 lines, not 41) and the least dense dog (index density 5.7)
       { src: 'toys bw 2/dog', x: 470, y: 562, h: 110 },
       { src: 'vehicles bw/bus', x: 175, y: 708, h: 106 },
-      { src: 'vehicles bw 2/car', x: 505, y: 700, w: 200 },
+      { src: 'vehicles bw 2/car', x: 505, y: 700, w: 200, noBlobs: true },
     ],
   },
 
@@ -370,7 +416,7 @@ const SCENES = {
       { src: 'nature bw/sun', x: 172, y: 204, h: 165 },
       { src: 'nature bw/fish', x: 503, y: 204, w: 220 },
       { src: 'animals bw 4/cat', x: 172, y: 560, h: 165 },
-      { src: 'fruits bw/apple', x: 503, y: 560, h: 165 },
+      { src: 'fruits bw/apple', x: 503, y: 560, h: 165, noBlobs: true },
     ],
     words: [
       { text: words[0], x: 38, y: 236, w: 268, h: 92 },
@@ -413,7 +459,8 @@ const SCENES = {
       { d: 'M596 22 L596 70 L604 60 L612 70 L612 22', w: 2, fill: SOLID },
       { d: 'M337.5 30 L337.5 388', w: 1, colour: '#777', dash: '8 3 2 3' },
       ...[18, 237, 456].map((x) => ({ d: 'M' + x + ' 706 L' + x + ' 520 A100 100 0 0 1 ' + (x + 200) + ' 520 L' + (x + 200) + ' 706 Z', w: 2.5 })),
-      ...[118, 337, 556].map((x) => ({ d: 'M' + x + ' 432 L' + x + ' 694', w: 1, colour: '#777', dash: '8 3 2 3' })),
+      // the mirror line stops ABOVE each picture (through the owl's face it read as a line to trace — final visual review)
+      ...[[118, 468], [337, 478], [556, 513]].map(([x, y1]) => ({ d: 'M' + x + ' 432 L' + x + ' ' + y1, w: 1, colour: '#777', dash: '8 3 2 3' })),
     ],
     items: [
       { src: 'Easter bw/butterfly', axisX: 337.5, y: 365, h: 290, render: 'half' },

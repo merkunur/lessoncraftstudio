@@ -207,6 +207,9 @@ function guidePaths(placed, style, opts = {}) {
   }
   placed.lines.forEach((ln, k) => {
     if (kinds[k] === 'solid' && !ln.closed && B0 && B0.speck && plen(ln.pts) < B0.speck) return;
+    // opts.noSolid: a picture whose solid details read as half-finished drawing inside its dashes (a banana's ridge — final
+    // visual review) keeps only what the child traces
+    if (kinds[k] === 'solid' && opts.noSolid) return;
     if (kinds[k] === 'solid') out += `<path d="${dPath(ln.pts, ln.closed)}" fill="none" stroke="${INK}" stroke-width="${Math.max(1.6, st.w * 0.7).toFixed(2)}" stroke-linecap="round" stroke-linejoin="round" data-pt-solid="1"/>`;
     else out += guideLine(ln, st, colour);
   });

@@ -221,6 +221,17 @@ the F17 `words` (four 2-7-letter picture names in school-print case: de capital 
   silent no-op (every patch script here throws on a missing anchor); `gen-b9-waves` needs an applied locale, so the
   landing check runs on a draft (`check-b9-landing-draft.js`); `b9-draft-from-panel.js` needs the panel file path.
 
+- ⭐ **Every finding of the visual review is checked on the page, one by one** (a crop at the reviewer's coordinates), then
+  fixed or answered. The second round (2026-10-22) changed: `part` mode SPLITS a line chained through the missing part (a
+  teapot's spout ran on down the body, an umbrella's stick into its rim); `solidAbove` keeps a PreK apple's stem and leaf drawn;
+  the sun's rays start 12 px out (at 7 px the classifier's junction grid joined SOME rays to the circle — two dashed, six
+  solid); `noSolid` / `noBlobs` per picture; a heart and a bell clear of the stair risers; a boat, a parasol and a crab moved
+  off the lines they touched; the mirror lines stop above the pictures. Where the library had no clean drawing the page now
+  carries a DRAWN one in its style: the gifts, the lollipop (one three-turn spiral), the wardrobe, the museum and the tall
+  building (single-line facades that stay readable as dots), the tent, the park bench.
+- Kept on purpose, with the reason: designed multi-stroke start dots (a stocking has two strokes, a bell three), a closed line's
+  start at 2 o'clock, the finest dash style on the smallest picture of big-middle-small, faces' pupils and knots in a solid tree.
+
 ## 12 Publish, as run (2026-10-22)
 1. **Push the taxonomy first** (all 11 slugs + names in `frontend/config/topics-taxonomy.json`, 144 exercise-type keys) and
    `git pull` on the server — a stale server taxonomy ships ENGLISH slugs (§26 trap). Checked on the server before any publish.
@@ -246,6 +257,9 @@ the F17 `words` (four 2-7-letter picture names in school-print case: de capital 
 8. **As run, 2026-10-22:** publish 220/220 (audit 20/20 clean ×11 after the EN republish; `audit-update-injections` lostTB 0 /
    lostMeter 0), `deploy.sh` exit 0 with the b9 hub gate PASS, repoint 220 files, missing 0 ×11, 220 landings HTTP 200,
    IndexNow 220 → 200, `/<loc>/worksheets?type=picture-tracing` links all 20 in en / de / fi, staging deleted (209 MB).
+9. **Second visual round, as run:** all 220 decks republished IN PLACE with `b9-republish-locale.sh <loc> --confirm` (full pools
+   in `_staging/b9u-<loc>/`, dry-run 20/20 UPDATE ×11; the script also repoints once the landings are live), then
+   `audit-update-injections.js` + `restore-update-injections.sh confirm`, the changed landings re-composed, deploy, IndexNow.
 
 ## 13 How to expand
 - **A new face** = a new scene in `data/b9/face-scenes.js` + a row in `tools/b9var-rows/picture-tracing.js` + its EN

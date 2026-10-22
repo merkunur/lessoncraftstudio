@@ -1726,6 +1726,8 @@ Built in a cloud session, deployed from the PC. **SoT = `docs/worksheet-gen/b6-d
 
 **Gates:** `qa/verify-b9-tracer.js` (17), `qa/verify-b9-picture-tracing.js` (47, poisons in both directions), `tools/check-b9-zips.js` ×11, `tools/check-b9-string-parity.js --all` (0), `seo-landing/gate.js` ×11 (0 dup titles/metas, max < 0.80), `verify-hub-type-rows.js --expect=…b9-designs/hub-expectations.json` HARD in deploy.sh (poison-tested).
 
+**Level Set `ptl` LIVE 2026-10-22 — 3,300 PDF decks (20 faces × 3 levels × 5 ORIGINAL scenes × 11), noindex, no landing, teacher sheets ×220.** Record + recipe = METHOD-picture-tracing.md §14 (scenes `data/ptx/`, gate `qa/verify-ptl.js` 370 incl. L7 column direction / L8 start-dot spacing / L9 one cut per sea line, `qa/ptx-published-identity.js`, `tools/level-set/{ptl-waves,ptl-text-dump,check-zips-ptl}.js`). ⚠ the half-difference number cannot see perspective — read every mirror pick; ⚠ a Level Set title = name + mode + worksheet word + "— Set N" (≤ 70 via `omitWorksheetWord`), the description band is a window — size `levelSetShort` from measured lengths.
+
 ---
 
 ## Appendix A — Production safety rules

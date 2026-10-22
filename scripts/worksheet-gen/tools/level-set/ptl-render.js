@@ -26,12 +26,14 @@ const pub = path.join(__dirname, '..', '..', 'out', 'b9', loc);
     for (const e of all) {
       const type = loadType(e.face);
       let s0; try { s0 = resolveStrings(type.id, loc, type); } catch (x) { s0 = undefined; }
-      const strings = type.copyStrings && s0 ? type.copyStrings(s0, { locale: loc, difficulty: e.level, unit: e.id }) : s0;
+      // before a locale's names are authored the copy strings refuse; the preview then keeps the published strings (marked)
+      let strings = s0, draft = '';
+      if (type.copyStrings && s0) try { strings = type.copyStrings(s0, { locale: loc, difficulty: e.level, unit: e.id }); } catch (x) { draft = ' [DRAFT TEXT: ' + String(x.message).slice(0, 60) + ']'; }
       try {
         const r = await renderInstance({ type, theme: null, difficulty: e.level, locale: loc, unit: e.id, strings, page, outDir: out, baseName: e.id });
         const fails = [...r.qa.lints, ...r.qa.verify]; if (fails.length) bad++;
         const m = (r.meta && r.meta.metrics) || {};
-        console.log(e.id.padEnd(40), 'L' + e.level, fails.length ? 'FAIL ' + fails.slice(0, 3).join(' | ') : 'ok', m.tracedLen != null ? 'len ' + m.tracedLen + ' minPic ' + m.minPic : '');
+        console.log(e.id.padEnd(40), 'L' + e.level, fails.length ? 'FAIL ' + fails.slice(0, 3).join(' | ') : 'ok', (m.tracedLen != null ? 'len ' + m.tracedLen + ' minPic ' + m.minPic : '') + draft);
       } catch (x) { bad++; console.log(e.id.padEnd(40), 'L' + e.level, 'ERROR ' + String(x.message || x).slice(0, 220)); }
     }
   } finally { await browser.close(); }

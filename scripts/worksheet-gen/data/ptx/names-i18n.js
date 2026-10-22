@@ -14,7 +14,8 @@ const { catalog } = require('../../lib/ptx.js');
 for (const e of catalog().values()) {
   if (e.name && e.name.en) (NAMES[e.id] = NAMES[e.id] || {}).en = e.name.en;
   if (e.instr && e.instr.en) (INSTR[e.id] = INSTR[e.id] || {}).en = e.instr.en;
-  if (e.words && e.words.en) (WORDS[e.id] = WORDS[e.id] || {}).en = e.words.en;
+  // a scene may carry every locale's words (G1-430 builds them from image-vocabulary.js); a native table overrides them
+  for (const [l, w] of Object.entries(e.words || {})) (WORDS[e.id] = WORDS[e.id] || {})[l] = w;
 }
 for (const loc of LOCS.slice(1)) {
   const f = path.join(__dirname, 'i18n', loc + '.json');

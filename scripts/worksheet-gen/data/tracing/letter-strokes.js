@@ -227,6 +227,10 @@ const NEW_GLYPHS = {
     line(32, 48, 74, 48, 4),
     line(44, 84, 82, 84, 3),
   ],
+  // OE ligature (fr, ŒUF in the capitals the French picture-word lanes print): the table's O narrowed into the left part,
+  // its right side IS the E's stem, so only the E's three arms follow, top to bottom (the hand's order for E).
+  'Œ': CORE.GLYPHS['O'].map(function (pts) { return xform(pts, { sx: 0.8, dx: -4 }); })
+    .concat([line(54, 16, 84, 16, 3), line(55, 48, 78, 48, 3), line(54, 84, 84, 84, 3)]),
   // O-slash: the table's O, then one diagonal, baseline corner to cap corner.
   'Ø': CORE.GLYPHS['O'].concat([line(26, 84, 74, 16, 4)]),
   'ø': CORE.GLYPHS['o'].concat([line(26, 86, 74, 42, 4)]),

@@ -46,8 +46,8 @@ const SCENES = [
   // ── L2 — 6, 7, 5, 7, 6 pictures; two distractor kinds ───────────────────────────────────────────────────────────────
   // (frogs, not swans: swans on a pond was the published ducks-on-a-pond page again)
   copy('lily-pond', 2, 'Frogs on the Lily Pond', T('frogs'), { level: 2, key: 'animals bw 5/frog', size: { h: 132 }, n: 6, seed: 5,
-    region: { cx: 337, cy: 490, rx: 318, ry: 215 }, models: [{ src: 'animals bw/snail', h: 110 }, { src: 'home and nature bw/tree_3', h: 200 }],
-    decor: [{ m: 'ellipse', a: [337, 490, 328, 222], w: 2.5 }] }),
+    region: { x0: 40, y0: 286, x1: 635, y1: 692 }, models: [{ src: 'animals bw/snail', h: 110 }, { src: 'home and nature bw/tree_3', h: 200 }],
+    decor: [{ m: 'roundRect', a: [22, 270, 631, 438, 120], w: 2.5 }] }),
   copy('coral-sea', 2, 'Stingrays in the Sea', T('stingrays'), { level: 2, key: 'sea life bw/stingray', size: { w: 135 }, n: 7, seed: 9,
     region: { x0: 26, y0: 262, x1: 650, y1: 702 }, models: [{ src: 'sea life bw/octopus', w: 150 }, { src: 'sea life bw 2/turtle', w: 160 }],
     decor: [G('waves', [14, 661, 250, 54, 6]), { m: 'circle', a: [200, 70, 10], colour: GREY, w: 2 }, { m: 'circle', a: [230, 40, 7], colour: GREY, w: 2 }] }),

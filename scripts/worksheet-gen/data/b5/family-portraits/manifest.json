@@ -1,0 +1,48 @@
+{
+  "size": [
+    400,
+    480
+  ],
+  "portraits": {
+    "elder": {
+      "f": [
+        "elder-f-1.png",
+        "elder-f-2.png"
+      ],
+      "m": [
+        "elder-m-1.png",
+        "elder-m-2.png"
+      ]
+    },
+    "adult": {
+      "f": [
+        "adult-f-1.png",
+        "adult-f-2.png"
+      ],
+      "m": [
+        "adult-m-1.png",
+        "adult-m-2.png"
+      ]
+    },
+    "child": {
+      "f": [
+        "child-f-1.png",
+        "child-f-2.png",
+        "child-f-3.png"
+      ],
+      "m": [
+        "child-m-1.png",
+        "child-m-2.png",
+        "child-m-3.png"
+      ]
+    },
+    "baby": {
+      "f": [
+        "baby-f-1.png"
+      ],
+      "m": [
+        "baby-m-1.png"
+      ]
+    }
+  }
+}

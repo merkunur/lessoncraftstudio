@@ -49,9 +49,9 @@ const SCENES = [
   copy('clothes-shop', 2, 'The Clothes Shop', ['a peak', 'a sleeve', 'a heel', 'a hood', 'a handle', 'cuffs'], [
     ['apparel bw/cap', [0, 0.45, 0.5, 1]], ['apparel bw/t-shirt', [0, 0, 0.28, 0.5]], ['apparel bw/high-heeled_shoes', [0.62, 0.35, 1, 1]], ['apparel bw/coat_2', [0.25, 0, 0.75, 0.22]], ['valentine bw 2/handbag', [0, 0, 1, 0.36]], ['apparel bw/mittens', [0, 0.72, 1, 1]]]),
   // ── L3 — eight smaller pictures, one small part each ─────────────────────────────────────────────────────────────────
-  copy('bird-house', 3, 'The Birdwatchers’ Hut', ['a beak', 'a wing', 'a parrot’s tail', 'a comb', 'legs', 'ear tufts', 'a crow’s tail', 'a neck'], [
+  copy('bird-house', 3, 'The Birdwatchers’ Hut', ['a beak', 'a wing', 'a parrot’s tail', 'a comb', 'legs', 'ear tufts', 'a pigeon’s tail', 'a neck'], [
     ['birds bw 2/toucan', [0, 0, 0.45, 0.45]], ['birds bw/woodpecker', [0.4, 0.04, 0.86, 0.7]], ['birds bw/parrot', [0.55, 0.6, 1, 1]], ['birds bw 2/chicken', [0, 0, 0.35, 0.2]],
-    ['birds bw/flamingo', [0, 0.55, 1, 1]], ['animals bw 5/owl', [0, 0, 1, 0.12]], ['birds bw 2/crow', [0.6, 0.55, 1, 1]], ['birds bw 2/swan', [0, 0, 0.45, 0.65]]]),
+    ['birds bw/flamingo', [0, 0.55, 1, 1]], ['animals bw 5/owl', [0, 0, 1, 0.12]], ['birds bw/pigeon', [0.6, 0.55, 1, 1]], ['birds bw 2/swan', [0, 0, 0.45, 0.65]]]),
   copy('toy-cupboard', 3, 'The Toy Cupboard', ['ears', 'a rocker', 'an aerial', 'a tail rotor', 'a funnel', 'a stick', 'drumsticks', 'a bell'], [
     ['animals bw/teddy_bear_2', [0, 0, 1, 0.25]], ['toys bw/rocking_horse', [0, 0.82, 1, 1]], ['toys bw 2/robot', [0, 0, 1, 0.18]], ['toys bw 2/helicopter', [0.8, 0, 1, 0.6]],
     ['toys bw/train', [0.05, 0, 0.3, 0.35]], ['toys bw 2/pinwheel', [0, 0.58, 0.55, 1]], ['toys bw/drum', [0, 0, 1, 0.28]], ['toys bw 2/trumpet', [0.7, 0, 1, 1]]]),

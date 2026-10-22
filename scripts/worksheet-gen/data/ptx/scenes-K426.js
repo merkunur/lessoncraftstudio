@@ -16,6 +16,28 @@ const STAIRS = { 1: { n: 3, rise: 222, size: 205, cap: 1500 }, 2: { n: 4, rise: 
 const len100 = (name) => ST.D[name](0, 100, 100).reduce((a, l) => { let L = 0; for (let i = 1; i < l.pts.length; i++) L += Math.hypot(l.pts[i][0] - l.pts[i - 1][0], l.pts[i][1] - l.pts[i - 1][1]); return a + L; }, 0);
 /** the picture's box at height 100 (its strokes do not all start at v = 0: a ruler floats at mid-height) */
 function boxOf(name) { let x0 = 1e9, x1 = -1e9, y0 = 1e9, y1 = -1e9; for (const l of ST.D[name](0, 100, 100)) for (const [x, y] of l.pts) { x0 = Math.min(x0, x); x1 = Math.max(x1, x); y0 = Math.min(y0, y); y1 = Math.max(y1, y); } return { w: (x1 - x0) / 100, h: (y1 - y0) / 100, bottom: (100 - y1) / 100, cx: (x0 + x1) / 200 }; }
+const plen = (q) => { let L = 0; for (let i = 1; i < q.length; i++) L += Math.hypot(q[i][0] - q[i - 1][0], q[i][1] - q[i - 1][1]); return L; };
+const far = (pt, starts) => starts.every((q) => Math.hypot(pt[0] - q[0], pt[1] - q[1]) >= MIN_DOT_GAP);
+const MIN_DOT_GAP = 22, MIN_STROKE = 40;
+/** one picture's strokes made readable at its PLACED size (visual review 2026-10-22: dots stacked 0-8 px apart, arrows
+ *  floating beside 15-px strokes): a stroke shorter than MIN_STROKE is drawn as a solid detail, not traced; an OPEN stroke
+ *  keeps its teaching start (top end, left end when flat), and a CLOSED one whose 2 o'clock start would sit within
+ *  MIN_DOT_GAP of another stroke's start begins further round its own loop, same direction */
+function spaced(list) {
+  const strokes = [], details = [];
+  for (const m of list) {
+    if (plen(m.a[0]) < MIN_STROKE) details.push({ d: 'M' + m.a[0].map((q) => q[0].toFixed(1) + ' ' + q[1].toFixed(1)).join('L'), w: 2.6 });
+    else strokes.push(m);
+  }
+  const fixed = strokes.filter((m) => !m.a[1]).map((m) => m.a[0][0]);
+  const out = strokes.map((m) => {
+    if (!m.a[1]) return m;
+    const ring = m.a[0].slice(0, -1), k = ring.findIndex((q) => far(q, fixed));
+    const pts = k > 0 ? [...ring.slice(k), ...ring.slice(0, k), ring[k]] : m.a[0];
+    fixed.push(pts[0]); return { ...m, a: [pts, true] };
+  });
+  return { strokes: out, details };
+}
 function stairs(level, names) {
   const { n, rise, size } = STAIRS[level], W = (661 - 13) / n, y0 = 708 - rise * (n - 1);
   if (names.length !== n) throw new Error(`K-426 L${level}: ${names.length} pictures for ${n} steps`);
@@ -24,12 +46,14 @@ function stairs(level, names) {
   // the K-1 page stays inside the ladder's 1,500 px (K-426 is the recorded narrow-face exception to the 25 % rule: its
   // task is the ORDER, and a K-1 child needs the 190-230 px pictures more than a lighter page)
   const total = names.reduce((a, name, k) => a + len100(name) * hs[k] / 100, 0), k1 = STAIRS[level].cap && total > STAIRS[level].cap ? STAIRS[level].cap / total : 1;
+  const extra = [];
   names.forEach((name, k) => {
     const b = boxOf(name), h = hs[k] * k1;
     const cx = 13 + (k + 0.5) * W - b.cx * h, tread = y0 + k * rise - 3;
-    motifs.push(...ST.picture(name, cx, tread + b.bottom * h, h));
+    const { strokes, details } = spaced(ST.picture(name, cx, tread + b.bottom * h, h));
+    motifs.push(...strokes); extra.push(...details);
   });
-  return { motifs, decor: [{ d, w: 3 }, { m: 'roundRect', a: [520, 20, 128, 60, 30] }, { m: 'circle', a: [556, 50, 8], fill: SOLID, stroke: false }, { m: 'glyph.arrow', a: [598, 50, 26], w: 3 }] };
+  return { motifs, decor: [...extra, { d, w: 3 }, { m: 'roundRect', a: [520, 20, 128, 60, 30] }, { m: 'circle', a: [556, 50, 8], fill: SOLID, stroke: false }, { m: 'glyph.arrow', a: [598, 50, 26], w: 3 }] };
 }
 const copy = (id, level, name, names) => ({ id: 'ptx-K-426-' + id, face: 'K-426', level, name: { en: name }, skin: () => ({ ...BAND[level], occlusion: false, items: [], ...stairs(level, names) }) });
 const SCENES = [

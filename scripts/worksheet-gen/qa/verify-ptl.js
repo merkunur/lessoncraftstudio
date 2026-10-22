@@ -18,6 +18,8 @@
  *   L6 exactly 5 copies per face × level, 300 in all
  *   L7 K-422: every library picture is ≥ 50 % its column's direction (down / across / slanted, tools/pt-straight.js
  *      directionMix) — the family gate checks straightness only, and a cake in the slanted column passed it at 17 %
+ *   L8 K-426: no two start dots of a page closer than 22 px, no traced stroke under 40 px (dots stacked 0-8 px apart
+ *      and arrows beside 15-px strokes passed every other check)
  *   node qa/verify-ptl.js [--face=K-418] [--no-poison]
  */
 'use strict';
@@ -54,6 +56,14 @@ async function copyChecks(e, sc, pubLen) {
   if (e.face === 'K-422') for (const it of sc.items || []) {
     const c = it.x < 229 ? 0 : it.x < 447 ? 1 : 2, m = directionMix(await traceKey(it.src)), sh = [m.v, m.h, m.s][c];
     if (sh < 0.5) f.push(`L7 ${it.src} is ${Math.round(100 * sh)} % ${['down', 'across', 'slanted'][c]} in the ${['down', 'across', 'slanted'][c]} column`);
+  }
+  if (e.face === 'K-426') {
+    const plen = (q) => { let L = 0; for (let i = 1; i < q.length; i++) L += Math.hypot(q[i][0] - q[i - 1][0], q[i][1] - q[i - 1][1]); return L; };
+    const S = (sc.motifs || []).filter((m) => m.m === 'lineFixed').map((m) => m.a[0]);
+    for (let i = 0; i < S.length; i++) {
+      if (plen(S[i]) < 40) f.push(`L8 a traced stroke of ${Math.round(plen(S[i]))} px carries a start dot`);
+      for (let j = i + 1; j < S.length; j++) { const d = Math.hypot(S[i][0][0] - S[j][0][0], S[i][0][1] - S[j][0][1]); if (d < 22) f.push(`L8 two start dots ${Math.round(d)} px apart at ${S[i][0].map(Math.round)}`); }
+    }
   }
   return { f, len };
 }
@@ -111,6 +121,9 @@ async function copyChecks(e, sc, pubLen) {
     const dc = [...catalog().values()].find((x) => x.face === 'K-422' && x.level === 2);
     const ds = sceneOf(dc); ds.items = [...ds.items, { src: 'food bw 2/cake', x: 556, y: 400, fitBox: [180, 150], anchor: 'centre' }];
     r = await copyChecks(dc, ds, pub['K-422'] || 7660); say(r.f.some((x) => /^L7/.test(x)), 'P5 a cake in the slanted column must fail: ' + (r.f.find((x) => /^L7/.test(x)) || 'PASSED (gate blind)'));
+    const sc6 = [...catalog().values()].find((x) => x.face === 'K-426' && x.level === 2), s6 = sceneOf(sc6), first = s6.motifs.find((m) => m.m === 'lineFixed');
+    s6.motifs = [...s6.motifs, { ...first, a: [first.a[0].map(([x, y]) => [x + 5, y + 3]), first.a[1]] }];
+    r = await copyChecks(sc6, s6, pub['K-426'] || 3000); say(r.f.some((x) => /^L8/.test(x)), 'P6 a second stroke starting 6 px from another must fail: ' + (r.f.find((x) => /^L8/.test(x)) || 'PASSED (gate blind)'));
     r = await copyChecks(cnt, cs, pub['K-427'] || 4000); say(r.f.some((x) => /F10/.test(x)), 'P4 one counted animal removed (N ≠ the box) must fail: ' + (r.f[0] || 'PASSED (gate blind)'));
   }
   console.log(fails ? `FAIL ${fails}/${n}` : `PASS ${n}/${n}`);

@@ -30,7 +30,7 @@ const SCENES = [
     motifs: [{ m: 'line', a: [[[14, 668], [120, 664], [200, 668], [330, 664], [470, 668], [661, 664]]] }, { m: 'line', a: [[[70, 690], [100, 678], [140, 678], [170, 690]]] }, { m: 'line', a: [[[480, 692], [510, 680], [560, 680], [590, 692]]] }, star(330, 90, 30), star(560, 330, 26), star(90, 380, 24)],
     items: [{ src: 'space bw/rocket', x: 338, y: 660, h: 400 }, { src: 'space bw/ufo', x: 540, y: 220, w: 230 }, { src: 'space bw/planet_2', x: 135, y: 250, w: 220 }],
   })),
-  copy('lighthouse-bay', 1, 'The Lighthouse Bay', () => ({
+  copy('lighthouse-bay', 1, 'Lighthouse Bay', () => ({
     motifs: [cloud(430, 120, 120), flat(455, 380, 640), flat(690, 24, 651)],
     items: [{ src: 'beach bw/lighthouse', x: 172, y: 690, h: 305 }, { src: 'vehicles bw/boat', x: 505, y: 455, w: 212 }, { src: 'animals bw 5/crab', x: 510, y: 690, w: 200 }],
   })),

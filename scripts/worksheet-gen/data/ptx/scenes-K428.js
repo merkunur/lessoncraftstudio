@@ -35,7 +35,7 @@ const SCENES = [
     ['home and nature bw/house', [0, 0, 1, 0.45]], ['home bw/lamp', [0, 0, 1, 0.45]], ['vehicles bw 2/bus', [0, 0.78, 1, 1]], ['sports bw/scooter', [0, 0, 0.5, 0.5]]]),
   copy('dolls-house', 1, 'The Doll’s House', ['a chair back', 'a lampshade', 'a table stand', 'a sofa back'], [
     ['furniture bw/chair', [0, 0, 1, 0.52]], ['furniture bw/floor_lamp', [0, 0, 1, 0.32]], ['furniture bw/table', [0, 0.3, 1, 1]], ['furniture bw/sofa', [0, 0, 1, 0.45]]]),
-  copy('sweet-shop', 1, 'The Sweet Shop', ['icing', 'a scoop', 'a top layer', 'a top'], [
+  copy('sweet-shop', 1, 'The Sweet Shop', ['icing', 'a scoop', 'a top layer', 'a donut’s top'], [
     ['valentine bw/cupcake', [0, 0, 1, 0.52]], ['dessert bw/ice_cream', [0, 0, 1, 0.45]], ['valentine bw/cake', [0, 0, 1, 0.45]], ['food bw/donut', [0, 0, 1, 0.5]]]),
   // ── L2 — the published six, one part each ────────────────────────────────────────────────────────────────────────────
   copy('pet-shop', 2, 'The Pet Shop', ['a cat’s tail', 'a tail fin', 'ears', 'an ear', 'a bird’s tail', 'feet'], [
@@ -52,13 +52,13 @@ const SCENES = [
   copy('bird-house', 3, 'The Birdwatchers’ Hut', ['a beak', 'a wing', 'a parrot’s tail', 'a comb', 'legs', 'ear tufts', 'a pigeon’s tail', 'a neck'], [
     ['birds bw 2/toucan', [0, 0, 0.45, 0.45]], ['birds bw/woodpecker', [0.4, 0.04, 0.86, 0.7]], ['birds bw/parrot', [0.55, 0.6, 1, 1]], ['birds bw 2/chicken', [0, 0, 0.35, 0.2]],
     ['birds bw/flamingo', [0, 0.55, 1, 1]], ['animals bw 5/owl', [0, 0, 1, 0.12]], ['birds bw/pigeon', [0.6, 0.55, 1, 1]], ['birds bw 2/swan', [0, 0, 0.45, 0.65]]]),
-  copy('toy-cupboard', 3, 'The Toy Cupboard', ['ears', 'a rocker', 'an aerial', 'a tail rotor', 'a funnel', 'a stick', 'drumsticks', 'a bell'], [
+  copy('toy-cupboard', 3, 'The Toy Cupboard', ['ears', 'a rocker', 'an aerial', 'a tail rotor', 'a funnel', 'a stick', 'drumsticks', 'a trumpet’s bell'], [
     ['animals bw/teddy_bear_2', [0, 0, 1, 0.25]], ['toys bw/rocking_horse', [0, 0.82, 1, 1]], ['toys bw 2/robot', [0, 0, 1, 0.18]], ['toys bw 2/helicopter', [0.8, 0, 1, 0.6]],
     ['toys bw/train', [0.05, 0, 0.3, 0.35]], ['toys bw 2/pinwheel', [0, 0.58, 0.55, 1]], ['toys bw/drum', [0, 0, 1, 0.28]], ['toys bw 2/trumpet', [0.7, 0, 1, 1]]]),
   copy('bathroom', 3, 'The Bathroom Shelf', ['a brush handle', 'a cup handle', 'a bucket handle', 'feet', 'a bar', 'a lid', 'a mirror', 'teeth'], [
     ['objects bw/toothbrush', [0, 0.35, 0.62, 1]], ['home bw/cup', [0.62, 0.55, 0.97, 0.9]], ['household bw/bucket', [0, 0, 1, 0.32]], ['home bw/bathtub', [0, 0.9, 1, 1]],
     ['home bw 2/hanger', [0, 0.88, 1, 1]], ['household bw/toilet', [0, 0, 1, 0.18]], ['household bw/sink', [0, 0, 1, 0.36]], ['objects bw/comb', [0, 0, 1, 0.5]]]),
-  copy('market-stall', 3, 'The Market Stall', ['a leaf', 'stems', 'a pumpkin stem', 'leaves', 'a mushroom stalk', 'a cap', 'a melon stalk', 'a pear stem'], [
+  copy('market-stall', 3, 'The Market Stall', ['a leaf', 'stems', 'a pumpkin stem', 'leaves', 'a mushroom stalk', 'an eggplant’s cap', 'a melon stalk', 'a pear stem'], [
     ['fruits bw/apple_2', [0.5, 0, 1, 0.3]], ['fruits bw/cherry', [0, 0, 1, 0.55]], ['vegetables bw/pumpkin', [0.35, 0, 0.65, 0.25]], ['vegetables bw/carrot', [0.6, 0, 1, 0.35]],
     ['vegetables bw 2/mushroom', [0.2, 0.55, 0.8, 1]], ['vegetables bw/eggplant', [0.7, 0, 1, 0.45]], ['fruits bw/watermelon', [0.35, 0, 0.7, 0.18]], ['fruits bw/pear', [0.3, 0, 0.8, 0.3]]]),
   copy('zoo-shop', 3, 'The Zoo Gift Shop', ['a trunk', 'horns', 'a leopard’s tail', 'an ear', 'a monkey’s tail', 'a neck', 'ears', 'a head'], [

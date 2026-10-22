@@ -60,7 +60,10 @@ module.exports = {
     if (!sc) throw new Error('K-418: no scene for mode ' + d.mode);
     const out = await composeScene(sc);
     if (out.problems.length) throw new Error('K-418: scene ' + d.mode + ': ' + out.problems.join('; '));
-    const bodyHtml = `<div data-ws-content data-lcs-pt-mode="${d.mode}" style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center">${out.svg}</div>`;
+    // a Level Set copy balances its instruction lines (same line count, never a one-word last line — the measured widow gate in
+    // tools/level-set/ptl-render.js); the published page keeps its bytes
+    const ptxStyle = PTX.isPtx(unit) ? '<style>[data-lcs-instruction]{text-wrap:balance}</style>' : '';
+    const bodyHtml = `${ptxStyle}<div data-ws-content data-lcs-pt-mode="${d.mode}" style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center">${out.svg}</div>`;
     return { bodyHtml, meta: { mode: d.mode, pictures: out.placed.filter((p) => !p.motif).map((p) => p.src), metrics: out.metrics } };
   },
 

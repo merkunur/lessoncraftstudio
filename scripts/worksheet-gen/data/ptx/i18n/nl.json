@@ -11,7 +11,7 @@
       "instruction": "Begin bij de stip. Trek de grote tekening langzaam over, helemaal rond."
     },
     "look-then-trace": {
-      "title": "Natekenen kleuters: {NAME}",
+      "title": "Kijken en overtrekken kleuters: {NAME}",
       "instruction": "Kijk naar elk plaatje in een lijstje. Trek daarna hetzelfde plaatje ernaast over."
     },
     "round-and-round": {
@@ -412,16 +412,16 @@
     "ptx-K-427-jellyfish-bay": "Trek de kwallen over. Tel ze. Schrijf in het vakje hoeveel het er zijn.",
     "ptx-K-427-mouse-barn": "Trek de muizen over. Tel ze. Schrijf in het vakje hoeveel het er zijn.",
     "ptx-K-427-sheep-meadow": "Trek de schapen over. Tel ze. Schrijf in het vakje hoeveel het er zijn.",
-    "ptx-K-428-nature-shelf": "Trek de stippelstukjes over, dan is alles af: een hoed, een huisje, een boomkruin en een bloem.",
-    "ptx-K-428-boat-hut": "Trek de stippelstukjes over, dan is alles af: zeilen, een schaar, het doek van de parasol en de lantaarn.",
-    "ptx-K-428-toy-street": "Trek de stippelstukjes over, dan is alles af: een dak, een lampenkap, wielen en een stuur.",
+    "ptx-K-428-nature-shelf": "Maak elk plaatje af: trek een hoed, een huisje, een boomkruin en een bloem over.",
+    "ptx-K-428-boat-hut": "Maak elk plaatje af: trek zeilen, een schaar, het doek van de parasol en de lantaarn over.",
+    "ptx-K-428-toy-street": "Maak elk plaatje af: trek een dak, een lampenkap, wielen en een stuur over.",
     "ptx-K-428-dolls-house": "Maak elk plaatje af: trek een stoelleuning, een lampenkap, een tafelpoot en een bankleuning over.",
-    "ptx-K-428-sweet-shop": "Trek de stippelstukjes over, dan is alles af: glazuur, een bolletje ijs, een bovenste laag en de bovenkant.",
+    "ptx-K-428-sweet-shop": "Maak elk plaatje af: trek glazuur, een bolletje ijs, een bovenste laag en de bovenkant over.",
     "ptx-K-428-pet-shop": "Maak elk plaatje af: trek een kattenstaart, een staartvin, oren, een oor, een vogelstaart en pootjes over.",
     "ptx-K-428-aquarium": "Maak elk plaatje af: trek een dolfijnenstaart, tentakels, een hoorn, een vleugel, een schaar en een zeepaardjesstaart over.",
     "ptx-K-428-kitchen": "Maak elk plaatje af: trek een pannensteel, een potdeksel, een ketelhandvat, een rollerhandvat, een blenderdeksel en een kom over.",
     "ptx-K-428-garden-shed": "Maak elk plaatje af: trek een tuit, een blad, een maaierhandvat, een kop, een steel en een rollerhandvat over.",
-    "ptx-K-428-clothes-shop": "Trek de stippelstukjes over, dan is alles af: een klep, een mouw, een hak, een capuchon, een hengsel en boordjes.",
+    "ptx-K-428-clothes-shop": "Maak elk plaatje af: trek een klep, een mouw, een hak, een capuchon, een hengsel en boordjes over.",
     "ptx-K-428-bird-house": "Maak elk plaatje af: trek snavel, vleugel, papegaaienstaart, kam, poten, oorpluimen, duivenstaart en hals over.",
     "ptx-K-428-toy-cupboard": "Maak elk plaatje af: trek oren, schommelboog, antenne, staartrotor, schoorsteen, stokje, trommelstokken en beker over.",
     "ptx-K-428-bathroom": "Maak elk plaatje af: trek borstelsteel, bekeroor, emmerhengsel, pootjes, stang, deksel, spiegel en tanden over.",

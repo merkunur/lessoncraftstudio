@@ -23,7 +23,7 @@ const LS = {
   'shape-picture': { title: L('Shape Picture Tracing: {NAME}'), printTitle: L('{NAME}'), instruction: L('Trace every shape of the picture. Then color every circle.') },
   'summer-sea': { title: L('Summer Picture Tracing: {NAME}'), printTitle: L('{NAME}'), instruction: L('Trace the long lines of the sea from left to right. Then trace the rest of the picture.') },
   'big-middle-small': { title: L('Big, Middle, Small: {NAME}'), instruction: L('In every row, trace the big one, then the middle one, then the small one.') },
-  'dotted-street': { title: L('Dotted Picture Tracing: {NAME}'), printTitle: L('{NAME}'), instruction: L('Trace the dotted lines carefully, the small details too.') },
+  'dotted-street': { title: L('Dotted Picture Tracing: {NAME}'), printTitle: L('{NAME}'), instruction: L('Trace the dotted lines carefully, even the small details.') },
   'picture-and-word': { title: L('Picture Words to Trace: {NAME}'), instruction: L('Trace the picture. Say its name. Trace the word under it.') },
   'trace-and-draw': { title: L('Trace, Then Draw: {NAME}'), printTitle: L('{NAME}'), instruction: L('Trace the whole picture. Then draw what is missing in the empty space.') },
   'other-half': { title: L('Symmetry Tracing: {NAME}'), instruction: L('Trace the dashed half so both sides of each picture look the same.') },

@@ -42,7 +42,7 @@
       "instruction": "Empieza en cada punto y sigue la flecha. Baja la escalera, un dibujo a la vez."
     },
     "trace-and-count": {
-      "title": "Dibujos punteados: {NAME}",
+      "title": "Repasa y cuenta: {NAME}",
       "printTitle": "{NAME}",
       "instruction": "Repasa los dibujos. Cuéntalos. Escribe en el cuadro cuántos hay."
     },
@@ -431,17 +431,17 @@
     "ptx-K-428-boat-hut": "Completa cada dibujo, repasa: las velas, la tenaza, la sombrilla y la linterna del faro.",
     "ptx-K-428-toy-street": "Completa cada dibujo, repasa: el techo, la pantalla de la lámpara, las llantas y el manubrio.",
     "ptx-K-428-dolls-house": "Completa cada dibujo, repasa: el respaldo de la silla, la pantalla, la pata de la mesa y el respaldo del sofá.",
-    "ptx-K-428-sweet-shop": "Completa cada dibujo, repasa: el betún, la bola de nieve, el piso de arriba y el glaseado.",
+    "ptx-K-428-sweet-shop": "Completa cada dibujo, repasa: el betún, la bola de helado, el piso de arriba y el glaseado.",
     "ptx-K-428-pet-shop": "Completa cada dibujo, repasa: la cola del gato, la aleta, las orejas, una oreja, la cola del pájaro y las patas.",
     "ptx-K-428-aquarium": "Completa cada dibujo, repasa: la cola del delfín, los tentáculos, el cuerno, la aleta, la tenaza y la cola del caballito de mar.",
-    "ptx-K-428-kitchen": "Repasa: el mango de la olla, la tapa del frasco, el asa de la tetera, el mango del rodillo, la tapa de la licuadora y el tazón.",
+    "ptx-K-428-kitchen": "Completa cada dibujo, repasa: el mango de la olla, la tapa del frasco, el asa de la tetera, el mango del rodillo, la tapa de la licuadora y el tazón.",
     "ptx-K-428-garden-shed": "Completa cada dibujo, repasa: el pico, la pala, el manubrio de la podadora, la cabeza, el palo y el mango del rodillo.",
     "ptx-K-428-clothes-shop": "Completa cada dibujo, repasa: la visera, la manga, el tacón, el gorro, el asa y los puños.",
-    "ptx-K-428-bird-house": "Repasa: el pico, el ala, la cola del perico, la cresta, las patas, las orejitas, la cola de la paloma y el cuello.",
-    "ptx-K-428-toy-cupboard": "Repasa: las orejas, el balancín, la antena, la hélice de atrás, la chimenea, el palito, las baquetas y la campana.",
-    "ptx-K-428-bathroom": "Repasa: el mango del cepillo, el asa de la taza, el asa de la cubeta, las patas, la barra, la tapa, el espejo y los dientes.",
-    "ptx-K-428-market-stall": "Repasa: hoja, rabitos, tallo de la calabaza, hojas de la zanahoria, pie, sombrerito, tallo de la sandía y rabito de la pera.",
-    "ptx-K-428-zoo-shop": "Repasa: la trompa, los cuernos, la cola del leopardo, una oreja, la cola del mono, el cuello, las orejas y la cabeza."
+    "ptx-K-428-bird-house": "Completa cada dibujo, repasa: el pico, el ala, la cola del perico, la cresta, las patas, las orejitas, la cola de la paloma y el cuello.",
+    "ptx-K-428-toy-cupboard": "Completa cada dibujo, repasa: las orejas, el balancín, la antena, la hélice de atrás, la chimenea, el palito, las baquetas y la campana de la trompeta.",
+    "ptx-K-428-bathroom": "Completa cada dibujo, repasa: el mango del cepillo, el asa de la taza, el asa de la cubeta, las patas, la barra, la tapa, el espejo y los dientes.",
+    "ptx-K-428-market-stall": "Completa cada dibujo, repasa: la hoja, los rabitos, el tallo de la calabaza, las hojas de la zanahoria, el pie del hongo, el sombrerito de la berenjena, el tallo de la sandía y el rabito de la pera.",
+    "ptx-K-428-zoo-shop": "Completa cada dibujo, repasa: la trompa, los cuernos, la cola del leopardo, una oreja, la cola del mono, el cuello, las orejas y la cabeza."
   },
   "words": {
     "ptx-G1-430-bedtime": [

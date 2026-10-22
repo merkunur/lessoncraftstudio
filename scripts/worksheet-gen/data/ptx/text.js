@@ -31,7 +31,7 @@ function stringsFor(unit, loc, s0) {
   // writes it so (the published titles do: « Dessin à repasser maternelle : le chemin… », « Dibujos para repasar: el … »);
   // en keeps Title Case, de keeps its capitalised nouns. The printed heading keeps the name as written.
   const LOWER_AFTER_COLON = new Set(['fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi']);
-  const afterColon = /:s*{NAME}/.test(t.title[loc]);   // « Où est-ce que je commence ? L'escalier » starts a new sentence
+  const afterColon = /:\s*\{NAME\}/.test(t.title[loc]);   // « Où est-ce que je commence ? L'escalier » starts a new sentence
   const inTitle = LOWER_AFTER_COLON.has(loc) && afterColon ? n.replace(/^(\P{L}*)(\p{Lu})/u, (m, p, c) => p + c.toLocaleLowerCase(loc)) : n;
   // a copy whose instruction must name its OWN content (K-428 the missing parts, K-427 the counted animal, G1-431 what
   // goes in the empty space) carries INSTR[unit][loc]; every other copy takes the face's instruction

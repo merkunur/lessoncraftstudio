@@ -26,6 +26,12 @@ for (const loc of LOCS) {
     if ((s.printTitle || '').length > 40) probs.push(`${e.id}: heading ${s.printTitle.length} > 40`);
     if (s.instruction.length > 130) probs.push(`${e.id}: instruction ${s.instruction.length} > 130`);
     if (FREE.test(s.title + ' ' + (s.printTitle || '') + ' ' + s.instruction)) probs.push(`${e.id}: visible "free"`);
+    // after a colon the name continues the sentence in these languages (lower-case); after "?" it starts a new one (capital)
+    if (['fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'].includes(loc)) {
+      const m = /([:?])\s+\P{L}*(\p{L})/u.exec(s.title);
+      if (m && m[1] === ':' && m[2] !== m[2].toLocaleLowerCase(loc)) probs.push(`${e.id}: capital after the colon in "${s.title}"`);
+      if (m && m[1] === '?' && m[2] !== m[2].toLocaleUpperCase(loc)) probs.push(`${e.id}: small letter after "?" in "${s.title}"`);
+    }
     if (titles.has(s.title)) probs.push(`${e.id}: title repeats ${titles.get(s.title)}`); titles.set(s.title, e.id);
   }
   fs.writeFileSync(path.join(__dirname, '..', '..', 'out', 'ptl', '_text-' + loc + '.tsv'), rows.join('\n') + '\n');

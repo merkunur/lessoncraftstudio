@@ -32,13 +32,29 @@ const BANDS = {
   PreK: { style: 'P1', minSeg: 50, gap: 28, clear: 30, minPic: 300, speck: 20 },
   K: { style: 'P2', minSeg: 25, gap: 18, clear: 16, minPic: 130, speck: 14 },
   G1: { style: 'P3', minSeg: 12, gap: 10, clear: 10, minPic: 80, speck: 9 },
+  // the Level Set bands (ptl, 2026-10-22, docs/worksheet-gen/b9-designs/_work/ptl-levels.md): a level moves ONE band and
+  // never the face's move — L1 of a face one band down, L3 one band up. The published faces use only PreK / K / G1.
+  'PreK-1': { style: 'P1', minSeg: 60, gap: 32, clear: 34, minPic: 340, speck: 20 },
+  'PreK-3': { style: 'P2', minSeg: 40, gap: 22, clear: 22, minPic: 200, speck: 16 },
+  'K-1': { style: 'P1', minSeg: 50, gap: 28, clear: 26, minPic: 200, speck: 18 },
+  'K-3': { style: 'P3', minSeg: 14, gap: 12, clear: 12, minPic: 95, speck: 10 },
+  'G1-1': { style: 'P2', minSeg: 25, gap: 18, clear: 16, minPic: 130, speck: 14 },
+  'G1-3': { style: 'P3', minSeg: 12, gap: 10, clear: 10, minPic: 70, speck: 9 },
 };
 const INK = '#2b2b2b';
 
 /** the drawing's polylines in page px; returns { lines:[{pts,closed}], blobs:[{d}], box:{x0,y0,x1,y1}, s } */
+/** an item's scale from its ink box: fitBox [W, H] (largest that fits both) · fit (longest side) · h · w — ONE rule for the
+ *  traced picture and the model image (a model sized by h/w alone came out NaN under fitBox and vanished from its frame) */
+function scaleOf(item, iw, ih) {
+  if (item.fitBox) return Math.min(item.fitBox[0] / iw, item.fitBox[1] / ih);
+  if (item.fit) return item.fit / Math.max(iw, ih);
+  return item.h ? item.h / ih : item.w / iw;
+}
 function placeTrace(tr, item) {
   const b = tr.inkBox, iw = b.x1 - b.x0 + 1, ih = b.y1 - b.y0 + 1;
-  const s = item.h ? item.h / ih : item.w / iw;
+  // item.fit = N: the longest side is N (a Level Set picture of unknown aspect that must stay inside a ring or a frame)
+  const s = scaleOf(item, iw, ih);
   const W = iw * s, H = ih * s;
   const cx = item.x, top = item.anchor === 'centre' ? item.y - H / 2 : item.y - H;
   const left = cx - W / 2;
@@ -243,7 +259,8 @@ function orient(ln) {
  *  ANTICLOCKWISE tangent there. tr = the trace, item = the placement (flip honoured). Returns SVG. */
 function contourMarker(tr, item, st, colour = INK, at = 30) {
   const b = tr.inkBox, iw = b.x1 - b.x0 + 1, ih = b.y1 - b.y0 + 1;
-  const s = item.h ? item.h / ih : item.w / iw;
+  const s = scaleOf(item, iw, ih);
+  if (!isFinite(s) || s <= 0) throw new Error('modelImage: no size for ' + rel);
   const left = item.x - (iw * s) / 2, top = item.anchor === 'centre' ? item.y - (ih * s) / 2 : item.y - ih * s;
   let cx = 0, cy = 0, n = 0;
   for (let y = b.y0; y <= b.y1; y += 2) for (let x = b.x0; x <= b.x1; x += 2) if (tr.body[y * tr.W + x]) { cx += x; cy += y; n++; }
@@ -284,7 +301,8 @@ function modelImage(rel, tr, item) {
   const src = fs.existsSync(file) ? file : path.join(__dirname, '..', 'cache', 'themes', rel + '@3x.webp');
   const b64 = fs.readFileSync(src).toString('base64');
   const b = tr.inkBox, iw = b.x1 - b.x0 + 1, ih = b.y1 - b.y0 + 1;
-  const s = item.h ? item.h / ih : item.w / iw;
+  const s = scaleOf(item, iw, ih);   // the SAME rule as placeTrace (by h/w alone a fitBox model came out NaN and vanished)
+  if (!isFinite(s) || s <= 0) throw new Error('modelImage: no size for ' + rel);
   const left = item.x - (iw * s) / 2, top = item.anchor === 'centre' ? item.y - (ih * s) / 2 : item.y - ih * s;
   const full = tr.W * s, fullH = tr.H * s;              // the image is the WHOLE work canvas; offset so the ink box lands
   const ix = left - b.x0 * s, iy = top - b.y0 * s;

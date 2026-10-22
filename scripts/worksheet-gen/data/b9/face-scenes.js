@@ -522,3 +522,5 @@ function sceneFor(mode, ctx = {}) {
   const out = sc(ctx.words || ['sun', 'fish', 'cat', 'apple']); out.W = out.W || 675; out.H = out.H || 716; return out;
 }
 module.exports = { SCENES, sceneFor };
+// shared with the Level Set skins (data/ptx), which keep each face's structure
+module.exports.helpers = { SOLID, GREY, badge, ringWave, stampDots, grassSolid, gift };

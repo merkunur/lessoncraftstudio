@@ -1,0 +1,3982 @@
+{
+ "K-418": [
+  {
+   "id": "ptx-K-418-rainy-day",
+   "level": 1,
+   "setting": "a rainy garden",
+   "name_en": "A Rainy Day",
+   "cast": [
+    {
+     "src": "nature bw/umbrella",
+     "role": "hero",
+     "note": "h 290, open, centre-left"
+    },
+    {
+     "src": "animals bw 5/duck",
+     "role": "pair",
+     "note": "h 170, walks to the puddle"
+    },
+    {
+     "src": "animals bw 5/frog",
+     "role": "prop",
+     "note": "h 130, sits on a stone"
+    }
+   ],
+   "drawn": [
+    "rain cloud top left with six drops (drop motif)",
+    "a puddle (one flat ellipse) under the duck",
+    "a stone under the frog (one low arc)",
+    "ground line",
+    "two grass tufts (solid grey)"
+   ],
+   "layout": "Umbrella big in the middle standing on the ground line; cloud and drops above it at the top left; duck bottom right beside the puddle, frog bottom left on its stone. Three library pictures only, all band 1, long smooth lines.",
+   "why_distinct": "The only rain scene; hero is an umbrella, not a building; no sun, no path."
+  },
+  {
+   "id": "ptx-K-418-rocket-moon",
+   "level": 1,
+   "setting": "the surface of the moon",
+   "name_en": "Rocket to the Stars",
+   "cast": [
+    {
+     "src": "space bw/rocket",
+     "role": "hero",
+     "note": "h 340, centre, standing on the ground"
+    },
+    {
+     "src": "space bw/ufo",
+     "role": "pair",
+     "note": "w 200, top right"
+    },
+    {
+     "src": "space bw/planet_2",
+     "role": "prop",
+     "note": "w 170, top left"
+    }
+   ],
+   "drawn": [
+    "moon-ground line with two shallow craters (open arcs)",
+    "four stars (star motif)"
+   ],
+   "layout": "Rocket upright on the cratered ground in the middle; planet high left, UFO high right, stars in the gaps. Nothing touches the rocket.",
+   "why_distinct": "Space setting; no house, tree or animal; three big band-1 shapes."
+  },
+  {
+   "id": "ptx-K-418-lighthouse-bay",
+   "level": 1,
+   "setting": "a seaside bay",
+   "name_en": "The Lighthouse Bay",
+   "cast": [
+    {
+     "src": "beach bw/lighthouse",
+     "role": "hero",
+     "note": "h 340, left, on the sand"
+    },
+    {
+     "src": "vehicles bw/boat",
+     "role": "pair",
+     "note": "w 210, sailboat on the water right of centre"
+    },
+    {
+     "src": "animals bw 5/crab",
+     "role": "prop",
+     "note": "w 140, bottom right on the sand"
+    }
+   ],
+   "drawn": [
+    "two wave rows across the middle",
+    "sand ground line",
+    "sun top right",
+    "one cloud top centre"
+   ],
+   "layout": "Lighthouse tall on the left standing on the sand line; sailboat sits on the upper wave row on the right; crab on the sand below the waves; sun and cloud in the sky.",
+   "why_distinct": "Seaside with a lighthouse hero; no garden, no house; distinct from the summer postcard (no parasol, no castle, no frame)."
+  },
+  {
+   "id": "ptx-K-418-hen-house",
+   "level": 1,
+   "setting": "a farmyard",
+   "name_en": "The Hen and Her Chick",
+   "cast": [
+    {
+     "src": "animals bw 4/chicken",
+     "role": "hero",
+     "note": "h 200, centre-right"
+    },
+    {
+     "src": "animals bw 4/chick",
+     "role": "pair",
+     "note": "h 120, right of the hen"
+    }
+   ],
+   "drawn": [
+    "a hen house on the left (square body, triangle roof, round door, a ramp)",
+    "a low fence along the back (fence motif)",
+    "sun top right",
+    "ground line"
+   ],
+   "layout": "Hen house h 260 on the left with its ramp to the ground; hen and chick walk on the ground line to the right; fence behind them, sun above.",
+   "why_distinct": "Farm scene built on a drawn hen house with only two animals; PreK-simple drawings."
+  },
+  {
+   "id": "ptx-K-418-penguin-ice",
+   "level": 1,
+   "setting": "the icy south",
+   "name_en": "Penguins on the Ice",
+   "cast": [
+    {
+     "src": "birds bw/penguin_2",
+     "role": "hero",
+     "note": "h 230, centre"
+    },
+    {
+     "src": "birds bw/penguin",
+     "role": "pair",
+     "note": "h 180, right"
+    },
+    {
+     "src": "sea life bw 2/seal",
+     "role": "prop",
+     "note": "w 200, bottom left, lying on the ice"
+    }
+   ],
+   "drawn": [
+    "an igloo top left (dome and arched door)",
+    "the edge of the ice floe (one long line)",
+    "two wave rows below the ice",
+    "a low sun"
+   ],
+   "layout": "Penguins stand on the ice-floe line, seal lies at its left end; igloo behind on the left; the sea below the floe fills the bottom of the page.",
+   "why_distinct": "Polar setting with an igloo; birds and a seal; no Christmas elements."
+  },
+  {
+   "id": "ptx-K-418-farm-morning",
+   "level": 2,
+   "setting": "a farm in the morning",
+   "name_en": "Morning on the Farm",
+   "cast": [
+    {
+     "src": "animals bw 4/cow",
+     "role": "hero",
+     "note": "h 170"
+    },
+    {
+     "src": "animals bw 4/sheep",
+     "role": "row",
+     "note": "h 150"
+    },
+    {
+     "src": "animals bw 4/pig_2",
+     "role": "row",
+     "note": "h 130"
+    },
+    {
+     "src": "farm bw/watering_can",
+     "role": "prop",
+     "note": "w 110"
+    }
+   ],
+   "drawn": [
+    "a barn top left (rectangle, roof, a big door with a cross brace)",
+    "a fence (fence motif) behind the animals",
+    "sun top right",
+    "one cloud",
+    "ground line",
+    "three grass tufts (solid grey)"
+   ],
+   "layout": "Barn h 230 top left; cow in front of the fence centre-right; sheep and pig on the ground line at the bottom; watering can bottom left. 7 traced items, K budget.",
+   "why_distinct": "Farm with three big farm animals and a barn; published page has a cottage and a path."
+  },
+  {
+   "id": "ptx-K-418-playground",
+   "level": 2,
+   "setting": "a playground",
+   "name_en": "Fun at the Playground",
+   "cast": [
+    {
+     "src": "animals bw/dog",
+     "role": "hero",
+     "note": "h 150, running on the grass"
+    },
+    {
+     "src": "toys bw 2/kite",
+     "role": "prop",
+     "note": "h 170, high in the sky"
+    },
+    {
+     "src": "sports bw/soccer",
+     "role": "prop",
+     "note": "h 95, by the dog"
+    }
+   ],
+   "drawn": [
+    "a slide (ladder with rungs, a straight chute) on the left",
+    "a swing frame (A-frame and two swing seats on lines) on the right",
+    "ground line",
+    "sun",
+    "one cloud"
+   ],
+   "layout": "Slide h 250 left, swing frame h 240 right, the dog and the ball between them on the ground; kite and cloud high in the middle.",
+   "why_distinct": "Built play equipment as the scene; no house, no tree; ball and kite add round and diamond shapes."
+  },
+  {
+   "id": "ptx-K-418-lake-camp",
+   "level": 2,
+   "setting": "a camp by a lake",
+   "name_en": "Camping by the Lake",
+   "cast": [
+    {
+     "src": "nature bw/tree",
+     "role": "hero",
+     "note": "h 300, left"
+    },
+    {
+     "src": "nature bw/campfire",
+     "role": "prop",
+     "note": "w 130, centre front"
+    },
+    {
+     "src": "travel and holiday bw/kayak",
+     "role": "prop",
+     "note": "w 230, on the lake"
+    },
+    {
+     "src": "animals bw 5/fox",
+     "role": "prop",
+     "note": "h 150, right of the fire"
+    }
+   ],
+   "drawn": [
+    "a tent (one triangle, a door line, a pole tip) centre-left",
+    "the lake shore and two ripple rows across the lower right",
+    "sun top right"
+   ],
+   "layout": "Tree on the left, tent beside it, campfire in front; fox sits right of the fire; lake with the kayak in the bottom right; sun above the lake.",
+   "why_distinct": "Lake-and-tent camp in daylight; not the storm camp (no mountains, no firs, no lightning)."
+  },
+  {
+   "id": "ptx-K-418-zoo-day",
+   "level": 2,
+   "setting": "the zoo",
+   "name_en": "A Day at the Zoo",
+   "cast": [
+    {
+     "src": "zoo animals bw/elephant",
+     "role": "hero",
+     "note": "h 210"
+    },
+    {
+     "src": "zoo animals bw/kangaroo",
+     "role": "row",
+     "note": "h 190"
+    },
+    {
+     "src": "animals bw 5/flamingo",
+     "role": "row",
+     "note": "h 200"
+    },
+    {
+     "src": "beach bw/palm_tree",
+     "role": "prop",
+     "note": "h 280"
+    }
+   ],
+   "drawn": [
+    "a low zoo fence (fence motif) along the bottom",
+    "sun",
+    "one cloud",
+    "ground line"
+   ],
+   "layout": "Palm tree tall on the right; elephant left, kangaroo centre, flamingo right of centre, all on the ground line behind the low fence; sun and cloud in the sky.",
+   "why_distinct": "Zoo with wild animals; tall animals give long vertical lines; no building."
+  },
+  {
+   "id": "ptx-K-418-harbour",
+   "level": 2,
+   "setting": "a fishing harbour",
+   "name_en": "Boats in the Harbour",
+   "cast": [
+    {
+     "src": "vehicles bw 3/boat",
+     "role": "hero",
+     "note": "w 220, tugboat on the water"
+    },
+    {
+     "src": "beach bw 2/boat",
+     "role": "pair",
+     "note": "w 180, fishing boat"
+    },
+    {
+     "src": "beach bw/anchor",
+     "role": "prop",
+     "note": "h 110, on the pier"
+    },
+    {
+     "src": "sea life bw 2/seal",
+     "role": "prop",
+     "note": "w 140, on the pier end"
+    }
+   ],
+   "drawn": [
+    "a pier (planks on posts) on the left",
+    "three harbour houses (single-line facades, gable roofs) along the top",
+    "three wave rows",
+    "one cloud"
+   ],
+   "layout": "Houses along the top, pier from the left edge with the anchor and seal on it, two boats on the waves to the right and below.",
+   "why_distinct": "Harbour with boats and a pier; town facades only as a backdrop."
+  },
+  {
+   "id": "ptx-K-418-train-station",
+   "level": 3,
+   "setting": "a railway station",
+   "name_en": "At the Train Station",
+   "cast": [
+    {
+     "src": "vehicles bw 2/train",
+     "role": "hero",
+     "note": "w 300, steam train on the rails"
+    },
+    {
+     "src": "travel and holiday bw/signpost",
+     "role": "prop",
+     "note": "h 150"
+    },
+    {
+     "src": "travel and holiday bw/suitcase",
+     "role": "prop",
+     "note": "h 80, on the platform"
+    },
+    {
+     "src": "animals bw/cat_2",
+     "role": "prop",
+     "note": "h 90, on the platform"
+    },
+    {
+     "src": "vehicles bw 3/minibus",
+     "role": "prop",
+     "note": "w 150, in the station street"
+    },
+    {
+     "src": "home and nature bw/tree_2",
+     "role": "prop",
+     "note": "h 200"
+    }
+   ],
+   "drawn": [
+    "a station building with a pitched roof and a round clock face with hands and no numbers",
+    "the platform edge (one long line)",
+    "two rails with sleepers",
+    "sun",
+    "one cloud"
+   ],
+   "layout": "Station building top left, tree top right; platform across the middle with signpost, suitcase and cat; rails and the train along the bottom; minibus in front of the building.",
+   "why_distinct": "Busy station with a band-3 train and small details; 9 traced items at level-3 precision."
+  },
+  {
+   "id": "ptx-K-418-jungle-river",
+   "level": 3,
+   "setting": "a jungle river",
+   "name_en": "Down the Jungle River",
+   "cast": [
+    {
+     "src": "animals bw 5/crocodile_2",
+     "role": "hero",
+     "note": "w 200, in the river"
+    },
+    {
+     "src": "animals bw/hippopotamus",
+     "role": "row",
+     "note": "h 140, on the bank"
+    },
+    {
+     "src": "zoo animals bw/monkey",
+     "role": "row",
+     "note": "h 120"
+    },
+    {
+     "src": "birds bw/parrot",
+     "role": "row",
+     "note": "h 130, on a branch"
+    },
+    {
+     "src": "birds bw 2/toucan",
+     "role": "row",
+     "note": "h 110"
+    },
+    {
+     "src": "animals bw/turtle",
+     "role": "row",
+     "note": "w 110, on the bank"
+    }
+   ],
+   "drawn": [
+    "two wavy river banks across the page",
+    "three big jungle leaves (single outline + midrib)",
+    "a branch across the top left",
+    "sun"
+   ],
+   "layout": "River runs across the lower middle with the crocodile in it; hippo and turtle on the near bank; monkey and toucan on the far bank; parrot on the branch top left.",
+   "why_distinct": "Jungle with six animals at small sizes; no buildings; band 2-3 details."
+  },
+  {
+   "id": "ptx-K-418-market-day",
+   "level": 3,
+   "setting": "an outdoor market",
+   "name_en": "Market Day",
+   "cast": [
+    {
+     "src": "travel and holiday bw/shopping_cart",
+     "role": "hero",
+     "note": "h 150"
+    },
+    {
+     "src": "vegetables bw/pumpkin",
+     "role": "row",
+     "note": "h 90, on the stall"
+    },
+    {
+     "src": "vegetables bw/carrot",
+     "role": "row",
+     "note": "h 110"
+    },
+    {
+     "src": "fruits bw/pear",
+     "role": "row",
+     "note": "h 85"
+    },
+    {
+     "src": "fruits bw/strawberry",
+     "role": "row",
+     "note": "h 70"
+    },
+    {
+     "src": "food bw/bread",
+     "role": "row",
+     "note": "w 100"
+    },
+    {
+     "src": "nature bw/bird",
+     "role": "prop",
+     "note": "h 70, pecking crumbs"
+    }
+   ],
+   "drawn": [
+    "a market stall (table, two posts, a striped awning with a scalloped edge)",
+    "two crates stacked beside the stall",
+    "ground line",
+    "sun"
+   ],
+   "layout": "Stall across the top half with the food on its table; crates on the left; trolley on the ground right; bird pecks crumbs in front.",
+   "why_distinct": "Market with food on a stall; 8 small band 2-3 pictures for level 3."
+  },
+  {
+   "id": "ptx-K-418-castle-meadow",
+   "level": 3,
+   "setting": "a meadow below a castle",
+   "name_en": "The Castle Meadow",
+   "cast": [
+    {
+     "src": "animals bw/unicorn",
+     "role": "hero",
+     "note": "h 170"
+    },
+    {
+     "src": "animals bw/horse",
+     "role": "row",
+     "note": "h 150"
+    },
+    {
+     "src": "birds bw 2/goose",
+     "role": "row",
+     "note": "h 110"
+    },
+    {
+     "src": "nature bw/tree_2",
+     "role": "prop",
+     "note": "h 230"
+    },
+    {
+     "src": "nature bw/mushroom",
+     "role": "prop",
+     "note": "h 70"
+    },
+    {
+     "src": "valentine bw 2/tulip",
+     "role": "prop",
+     "note": "h 100"
+    }
+   ],
+   "drawn": [
+    "a castle on a hill (two towers with pointed roofs, a gate, one plain pennant with no emblem)",
+    "the hill line",
+    "ground line",
+    "one cloud"
+   ],
+   "layout": "Castle on its hill top centre; tree on the right; unicorn and horse in the meadow; goose, mushroom and tulip along the bottom.",
+   "why_distinct": "Fairy-tale castle setting; animals at small sizes and a detailed tree for level 3."
+  },
+  {
+   "id": "ptx-K-418-mountain-hike",
+   "level": 3,
+   "setting": "a mountain trail",
+   "name_en": "Up the Mountain",
+   "cast": [
+    {
+     "src": "travel and holiday bw/cable_car",
+     "role": "hero",
+     "note": "h 130, on its cable"
+    },
+    {
+     "src": "animals bw 3/deer",
+     "role": "row",
+     "note": "h 140"
+    },
+    {
+     "src": "animals bw 4/goat",
+     "role": "row",
+     "note": "h 120, on a rock"
+    },
+    {
+     "src": "animals bw/squirrel",
+     "role": "row",
+     "note": "h 90"
+    },
+    {
+     "src": "animals bw/bear",
+     "role": "row",
+     "note": "h 140"
+    },
+    {
+     "src": "home and nature bw/tree_3",
+     "role": "prop",
+     "note": "h 200"
+    }
+   ],
+   "drawn": [
+    "a mountain range (mountains motif) across the top",
+    "the cable as one straight slanted line",
+    "a winding path from the bottom to the hills",
+    "two rocks",
+    "sun"
+   ],
+   "layout": "Mountains across the top with the cable car on its slanting cable; path winds up from the bottom centre; deer and bear beside the path, goat on a rock, squirrel by the tree.",
+   "why_distinct": "Alpine hike with a cable car; six band-2/3 pictures; nothing like the cottage garden."
+  }
+ ],
+ "K-419": [
+  {
+   "id": "ptx-K-419-swan-lake",
+   "level": 1,
+   "setting": "a quiet lake seen from a boat",
+   "name_en": "The Swan",
+   "cast": [
+    {
+     "src": "animals bw/swan",
+     "role": "hero",
+     "note": "w 470; start: top; outline only"
+    }
+   ],
+   "drawn": [
+    "two ripple rows low in the porthole",
+    "three reed stalks at the left rim (solid grey)"
+   ],
+   "layout": "The Swan fills the porthole (inside the double ring with its 8 hollow rivets); one start dot at the top; the background lines stay near the rim and never touch the picture.",
+   "why_distinct": "A lake view with a swan; one smooth body outline."
+  },
+  {
+   "id": "ptx-K-419-seal-ice",
+   "level": 1,
+   "setting": "the cold Arctic sea",
+   "name_en": "The Seal",
+   "cast": [
+    {
+     "src": "sea life bw 2/seal",
+     "role": "hero",
+     "note": "w 500; start: top; outline only"
+    }
+   ],
+   "drawn": [
+    "an ice-floe line under the seal",
+    "two wave rows below the floe"
+   ],
+   "layout": "The Seal fills the porthole (inside the double ring with its 8 hollow rivets); one start dot at the top; the background lines stay near the rim and never touch the picture.",
+   "why_distinct": "Arctic view; the seal lies on ice, not in open water."
+  },
+  {
+   "id": "ptx-K-419-stingray-sand",
+   "level": 1,
+   "setting": "the sandy sea floor",
+   "name_en": "The Stingray",
+   "cast": [
+    {
+     "src": "sea life bw/stingray",
+     "role": "hero",
+     "note": "w 480; start: top; outline only"
+    }
+   ],
+   "drawn": [
+    "a sand-ripple line along the bottom",
+    "three bubbles (grey)"
+   ],
+   "layout": "The Stingray fills the porthole (inside the double ring with its 8 hollow rivets); one start dot at the top; the background lines stay near the rim and never touch the picture.",
+   "why_distinct": "Sea floor; a flat diamond body with one long tail."
+  },
+  {
+   "id": "ptx-K-419-goldfish",
+   "level": 1,
+   "setting": "an aquarium",
+   "name_en": "The Goldfish",
+   "cast": [
+    {
+     "src": "nature bw/fish",
+     "role": "hero",
+     "note": "w 470; start: top; outline only"
+    }
+   ],
+   "drawn": [
+    "a row of round pebbles along the bottom (grey)",
+    "one water plant at the right rim (grey)",
+    "three bubbles"
+   ],
+   "layout": "The Goldfish fills the porthole (inside the double ring with its 8 hollow rivets); one start dot at the top; the background lines stay near the rim and never touch the picture.",
+   "why_distinct": "Aquarium view; the porthole becomes a fish-tank window."
+  },
+  {
+   "id": "ptx-K-419-cloud-window",
+   "level": 1,
+   "setting": "above the clouds, from a plane window",
+   "name_en": "The Cloud",
+   "cast": [
+    {
+     "src": "home and nature bw/cloud",
+     "role": "hero",
+     "note": "w 500; start: top; outline only"
+    }
+   ],
+   "drawn": [
+    "a small sun at the top right rim",
+    "a far hill line low in the porthole"
+   ],
+   "layout": "The Cloud fills the porthole (inside the double ring with its 8 hollow rivets); one start dot at the top; the background lines stay near the rim and never touch the picture.",
+   "why_distinct": "Sky view; one closed bumpy outline, the simplest first tracing."
+  },
+  {
+   "id": "ptx-K-419-dolphin-leap",
+   "level": 2,
+   "setting": "the open sea at sunset",
+   "name_en": "The Dolphin",
+   "cast": [
+    {
+     "src": "sea life bw/dolphin",
+     "role": "hero",
+     "note": "h 440; start: top; outline only"
+    }
+   ],
+   "drawn": [
+    "two wave rows at the bottom",
+    "a half sun on the horizon (grey)"
+   ],
+   "layout": "The Dolphin fills the porthole (inside the double ring with its 8 hollow rivets); one start dot at the top; the background lines stay near the rim and never touch the picture.",
+   "why_distinct": "A leaping dolphin; curved arch body with fins."
+  },
+  {
+   "id": "ptx-K-419-reef-shark",
+   "level": 2,
+   "setting": "a coral reef",
+   "name_en": "The Little Shark",
+   "cast": [
+    {
+     "src": "animals bw 5/shark",
+     "role": "hero",
+     "note": "w 470; start: top; outline only"
+    }
+   ],
+   "drawn": [
+    "two seaweed fronds at the rim (grey)",
+    "a sand line",
+    "three bubbles"
+   ],
+   "layout": "The Little Shark fills the porthole (inside the double ring with its 8 hollow rivets); one start dot at the top; the background lines stay near the rim and never touch the picture.",
+   "why_distinct": "Reef view; a friendly shark with fins and tail."
+  },
+  {
+   "id": "ptx-K-419-turtle-swim",
+   "level": 2,
+   "setting": "a turtle bay",
+   "name_en": "The Sea Turtle",
+   "cast": [
+    {
+     "src": "sea life bw 2/turtle",
+     "role": "hero",
+     "note": "w 470; start: top; outline only"
+    }
+   ],
+   "drawn": [
+    "a sand line",
+    "three bubbles",
+    "two seaweed fronds (grey)"
+   ],
+   "layout": "The Sea Turtle fills the porthole (inside the double ring with its 8 hollow rivets); one start dot at the top; the background lines stay near the rim and never touch the picture.",
+   "why_distinct": "A swimming turtle with flippers; the shell kept as outline."
+  },
+  {
+   "id": "ptx-K-419-space-rocket",
+   "level": 2,
+   "setting": "space, from a space-station window",
+   "name_en": "The Rocket",
+   "cast": [
+    {
+     "src": "space bw/rocket",
+     "role": "hero",
+     "note": "h 470; start: top; outline only"
+    }
+   ],
+   "drawn": [
+    "six small stars (grey)",
+    "a small crescent moon at the rim"
+   ],
+   "layout": "The Rocket fills the porthole (inside the double ring with its 8 hollow rivets); one start dot at the top; the background lines stay near the rim and never touch the picture.",
+   "why_distinct": "Space view; a tall upright outline instead of a wide one."
+  },
+  {
+   "id": "ptx-K-419-submarine",
+   "level": 2,
+   "setting": "the deep blue sea",
+   "name_en": "The Submarine",
+   "cast": [
+    {
+     "src": "vehicles bw 2/submarine",
+     "role": "hero",
+     "note": "w 520; start: top; outline only"
+    }
+   ],
+   "drawn": [
+    "bubbles behind the propeller",
+    "a seabed line"
+   ],
+   "layout": "The Submarine fills the porthole (inside the double ring with its 8 hollow rivets); one start dot at the top; the background lines stay near the rim and never touch the picture.",
+   "why_distinct": "A machine instead of an animal; one long smooth hull."
+  },
+  {
+   "id": "ptx-K-419-octopus-cave",
+   "level": 3,
+   "setting": "an octopus cave",
+   "name_en": "The Octopus",
+   "cast": [
+    {
+     "src": "sea life bw/octopus",
+     "role": "hero",
+     "note": "h 440; start: top; outline plus its two or three longest inner lines"
+    }
+   ],
+   "drawn": [
+    "a rocky arch line at the top rim",
+    "three bubbles"
+   ],
+   "layout": "The Octopus fills the porthole (inside the double ring with its 8 hollow rivets); one start dot at the top; the background lines stay near the rim and never touch the picture.",
+   "why_distinct": "Eight curling arms: one long winding outline for level 3."
+  },
+  {
+   "id": "ptx-K-419-seahorse-meadow",
+   "level": 3,
+   "setting": "a seagrass meadow",
+   "name_en": "The Seahorse",
+   "cast": [
+    {
+     "src": "sea life bw 2/seahorse",
+     "role": "hero",
+     "note": "h 470; start: top; outline plus its two or three longest inner lines"
+    }
+   ],
+   "drawn": [
+    "four seagrass blades at the rim (grey)"
+   ],
+   "layout": "The Seahorse fills the porthole (inside the double ring with its 8 hollow rivets); one start dot at the top; the background lines stay near the rim and never touch the picture.",
+   "why_distinct": "Tall curled shape with a fin edge; more turns than any other copy."
+  },
+  {
+   "id": "ptx-K-419-narwhal-ice",
+   "level": 3,
+   "setting": "under the sea ice",
+   "name_en": "The Narwhal",
+   "cast": [
+    {
+     "src": "sea life bw/narwhal",
+     "role": "hero",
+     "note": "w 480; start: top; outline plus its two or three longest inner lines"
+    }
+   ],
+   "drawn": [
+    "the underside of the ice as one wavy line at the top",
+    "three bubbles"
+   ],
+   "layout": "The Narwhal fills the porthole (inside the double ring with its 8 hollow rivets); one start dot at the top; the background lines stay near the rim and never touch the picture.",
+   "why_distinct": "Under-ice view; the tusk adds a second stroke."
+  },
+  {
+   "id": "ptx-K-419-balloon-hills",
+   "level": 3,
+   "setting": "over green hills, from a plane window",
+   "name_en": "The Hot-Air Balloon",
+   "cast": [
+    {
+     "src": "vehicles bw 2/hot_air_balloon",
+     "role": "hero",
+     "note": "h 470; start: top; outline plus its two or three longest inner lines"
+    }
+   ],
+   "drawn": [
+    "two hill lines at the bottom rim",
+    "one small cloud at the left rim"
+   ],
+   "layout": "The Hot-Air Balloon fills the porthole (inside the double ring with its 8 hollow rivets); one start dot at the top; the background lines stay near the rim and never touch the picture.",
+   "why_distinct": "Sky view with a basket on ropes: several strokes in one picture."
+  },
+  {
+   "id": "ptx-K-419-jellyfish-night",
+   "level": 3,
+   "setting": "the sea at night",
+   "name_en": "The Jellyfish",
+   "cast": [
+    {
+     "src": "sea life bw 2/jellyfish",
+     "role": "hero",
+     "note": "h 460; start: top; outline plus its two or three longest inner lines"
+    }
+   ],
+   "drawn": [
+    "a wavy water surface at the top",
+    "three bubbles"
+   ],
+   "layout": "The Jellyfish fills the porthole (inside the double ring with its 8 hollow rivets); one start dot at the top; the background lines stay near the rim and never touch the picture.",
+   "why_distinct": "A dome plus separate wavy tentacles: the most strokes of the face."
+  }
+ ],
+ "K-420": [
+  {
+   "id": "ptx-K-420-garden-bugs",
+   "level": 1,
+   "setting": "a garden",
+   "name_en": "Ladybug and Butterfly",
+   "cast": [
+    {
+     "src": "nature bw/ladybug",
+     "role": "pair",
+     "note": "row 1: solid model in the frame, dashed copy beside it, start top"
+    },
+    {
+     "src": "Easter bw/butterfly",
+     "role": "pair",
+     "note": "row 2: solid model in the frame, dashed copy beside it, start top"
+    }
+   ],
+   "drawn": [],
+   "layout": "The published two-row polaroid layout: framed model h ~230 on the left, arrow, dashed copy h ~320 on the right; row 1 = ladybug, row 2 = butterfly.",
+   "why_distinct": "Garden creatures with simple, near-symmetric bodies; the easiest pair."
+  },
+  {
+   "id": "ptx-K-420-tea-party",
+   "level": 1,
+   "setting": "a tea party",
+   "name_en": "Teapot and Cup",
+   "cast": [
+    {
+     "src": "kitchen bw/teapot",
+     "role": "pair",
+     "note": "row 1: solid model in the frame, dashed copy beside it, start top"
+    },
+    {
+     "src": "home and nature bw/teacup",
+     "role": "pair",
+     "note": "row 2: solid model in the frame, dashed copy beside it, start top"
+    }
+   ],
+   "drawn": [],
+   "layout": "The published two-row polaroid layout: framed model h ~230 on the left, arrow, dashed copy h ~320 on the right; row 1 = teapot, row 2 = teacup.",
+   "why_distinct": "Objects, not animals; round smooth outlines."
+  },
+  {
+   "id": "ptx-K-420-sky-flyers",
+   "level": 1,
+   "setting": "the sky",
+   "name_en": "Plane and Helicopter",
+   "cast": [
+    {
+     "src": "vehicles bw 2/airplane",
+     "role": "pair",
+     "note": "row 1: solid model in the frame, dashed copy beside it, start top"
+    },
+    {
+     "src": "vehicles bw 2/helicopter_2",
+     "role": "pair",
+     "note": "row 2: solid model in the frame, dashed copy beside it, start top"
+    }
+   ],
+   "drawn": [],
+   "layout": "The published two-row polaroid layout: framed model h ~230 on the left, arrow, dashed copy h ~320 on the right; row 1 = airplane, row 2 = helicopter 2.",
+   "why_distinct": "Two flying machines; wide shapes with long straight lines."
+  },
+  {
+   "id": "ptx-K-420-pond-pals",
+   "level": 1,
+   "setting": "a pond",
+   "name_en": "Frog and Swan",
+   "cast": [
+    {
+     "src": "animals bw/frog",
+     "role": "pair",
+     "note": "row 1: solid model in the frame, dashed copy beside it, start top"
+    },
+    {
+     "src": "animals bw/swan",
+     "role": "pair",
+     "note": "row 2: solid model in the frame, dashed copy beside it, start top"
+    }
+   ],
+   "drawn": [],
+   "layout": "The published two-row polaroid layout: framed model h ~230 on the left, arrow, dashed copy h ~320 on the right; row 1 = frog, row 2 = swan.",
+   "why_distinct": "Pond animals; one squat, one long-necked."
+  },
+  {
+   "id": "ptx-K-420-fruit-bowl",
+   "level": 1,
+   "setting": "a fruit bowl",
+   "name_en": "Banana and Cherries",
+   "cast": [
+    {
+     "src": "fruits bw/banana",
+     "role": "pair",
+     "note": "row 1: solid model in the frame, dashed copy beside it, start top"
+    },
+    {
+     "src": "fruits bw/cherry",
+     "role": "pair",
+     "note": "row 2: solid model in the frame, dashed copy beside it, start top"
+    }
+   ],
+   "drawn": [],
+   "layout": "The published two-row polaroid layout: framed model h ~230 on the left, arrow, dashed copy h ~320 on the right; row 1 = banana, row 2 = cherry.",
+   "why_distinct": "Fruit; one long curve, one pair of circles on stems."
+  },
+  {
+   "id": "ptx-K-420-farm-babies",
+   "level": 2,
+   "setting": "a farmyard",
+   "name_en": "Chick and Kitten",
+   "cast": [
+    {
+     "src": "animals bw 4/chick",
+     "role": "pair",
+     "note": "row 1: solid model in the frame, dashed copy beside it, start top"
+    },
+    {
+     "src": "animals bw 4/cat",
+     "role": "pair",
+     "note": "row 2: solid model in the frame, dashed copy beside it, start top"
+    }
+   ],
+   "drawn": [],
+   "layout": "The published two-row polaroid layout: framed model h ~207 on the left, arrow, dashed copy h ~300 on the right; row 1 = chick, row 2 = cat.",
+   "why_distinct": "Farm babies with faces and legs, like the penguin level."
+  },
+  {
+   "id": "ptx-K-420-seaside-rocks",
+   "level": 2,
+   "setting": "seaside rocks",
+   "name_en": "Seal and Turtle",
+   "cast": [
+    {
+     "src": "sea life bw 2/seal",
+     "role": "pair",
+     "note": "row 1: solid model in the frame, dashed copy beside it, start top"
+    },
+    {
+     "src": "sea life bw 2/turtle",
+     "role": "pair",
+     "note": "row 2: solid model in the frame, dashed copy beside it, start top"
+    }
+   ],
+   "drawn": [],
+   "layout": "The published two-row polaroid layout: framed model h ~207 on the left, arrow, dashed copy h ~300 on the right; row 1 = seal, row 2 = turtle.",
+   "why_distinct": "Sea animals with flippers."
+  },
+  {
+   "id": "ptx-K-420-woodland",
+   "level": 2,
+   "setting": "the woods",
+   "name_en": "Owl and Hedgehog",
+   "cast": [
+    {
+     "src": "animals bw/owl",
+     "role": "pair",
+     "note": "row 1: solid model in the frame, dashed copy beside it, start top"
+    },
+    {
+     "src": "animals bw 5/hedgehog",
+     "role": "pair",
+     "note": "row 2: solid model in the frame, dashed copy beside it, start top"
+    }
+   ],
+   "drawn": [],
+   "layout": "The published two-row polaroid layout: framed model h ~207 on the left, arrow, dashed copy h ~300 on the right; row 1 = owl, row 2 = hedgehog.",
+   "why_distinct": "Forest animals; feathers and a spiky back."
+  },
+  {
+   "id": "ptx-K-420-under-sea",
+   "level": 2,
+   "setting": "under the sea",
+   "name_en": "Shark and Octopus",
+   "cast": [
+    {
+     "src": "animals bw 5/shark",
+     "role": "pair",
+     "note": "row 1: solid model in the frame, dashed copy beside it, start top"
+    },
+    {
+     "src": "sea life bw/octopus",
+     "role": "pair",
+     "note": "row 2: solid model in the frame, dashed copy beside it, start top"
+    }
+   ],
+   "drawn": [],
+   "layout": "The published two-row polaroid layout: framed model h ~207 on the left, arrow, dashed copy h ~300 on the right; row 1 = shark, row 2 = octopus.",
+   "why_distinct": "Ocean pair; fins and eight arms."
+  },
+  {
+   "id": "ptx-K-420-safari",
+   "level": 2,
+   "setting": "the savanna",
+   "name_en": "Elephant and Giraffe",
+   "cast": [
+    {
+     "src": "animals bw/elephant",
+     "role": "pair",
+     "note": "row 1: solid model in the frame, dashed copy beside it, start top"
+    },
+    {
+     "src": "animals bw 5/giraffe",
+     "role": "pair",
+     "note": "row 2: solid model in the frame, dashed copy beside it, start top"
+    }
+   ],
+   "drawn": [],
+   "layout": "The published two-row polaroid layout: framed model h ~207 on the left, arrow, dashed copy h ~300 on the right; row 1 = elephant, row 2 = giraffe.",
+   "why_distinct": "Big wild animals; a trunk and a long neck."
+  },
+  {
+   "id": "ptx-K-420-dino-valley",
+   "level": 3,
+   "setting": "a dinosaur valley",
+   "name_en": "Two Dinosaurs",
+   "cast": [
+    {
+     "src": "animals bw/tyrannosaurus_rex",
+     "role": "pair",
+     "note": "row 1: solid model in the frame, dashed copy beside it, start top"
+    },
+    {
+     "src": "animals bw 3/dinosaur",
+     "role": "pair",
+     "note": "row 2: solid model in the frame, dashed copy beside it, start top"
+    }
+   ],
+   "drawn": [],
+   "layout": "The published two-row polaroid layout: framed model h ~207 on the left, arrow, dashed copy h ~280 on the right; row 1 = tyrannosaurus rex, row 2 = dinosaur.",
+   "why_distinct": "Band-2 dinosaurs with spikes, claws and tails: more strokes."
+  },
+  {
+   "id": "ptx-K-420-jungle",
+   "level": 3,
+   "setting": "the jungle",
+   "name_en": "Monkey and Toucan",
+   "cast": [
+    {
+     "src": "animals bw/monkey",
+     "role": "pair",
+     "note": "row 1: solid model in the frame, dashed copy beside it, start top"
+    },
+    {
+     "src": "birds bw 2/toucan",
+     "role": "pair",
+     "note": "row 2: solid model in the frame, dashed copy beside it, start top"
+    }
+   ],
+   "drawn": [],
+   "layout": "The published two-row polaroid layout: framed model h ~207 on the left, arrow, dashed copy h ~280 on the right; row 1 = monkey, row 2 = toucan.",
+   "why_distinct": "Jungle pair; a curling tail and a big beak."
+  },
+  {
+   "id": "ptx-K-420-toy-shelf",
+   "level": 3,
+   "setting": "a toy shelf",
+   "name_en": "Rocking Horse and Robot",
+   "cast": [
+    {
+     "src": "toys bw/rocking_horse",
+     "role": "pair",
+     "note": "row 1: solid model in the frame, dashed copy beside it, start top"
+    },
+    {
+     "src": "toys bw 2/robot",
+     "role": "pair",
+     "note": "row 2: solid model in the frame, dashed copy beside it, start top"
+    }
+   ],
+   "drawn": [],
+   "layout": "The published two-row polaroid layout: framed model h ~207 on the left, arrow, dashed copy h ~280 on the right; row 1 = rocking horse, row 2 = robot.",
+   "why_distinct": "Toys; mane curls and many small straight parts."
+  },
+  {
+   "id": "ptx-K-420-pet-shop",
+   "level": 3,
+   "setting": "a pet shop",
+   "name_en": "Puppy and Bunny",
+   "cast": [
+    {
+     "src": "animals bw 5/dog",
+     "role": "pair",
+     "note": "row 1: solid model in the frame, dashed copy beside it, start top"
+    },
+    {
+     "src": "animals bw/rabbit",
+     "role": "pair",
+     "note": "row 2: solid model in the frame, dashed copy beside it, start top"
+    }
+   ],
+   "drawn": [],
+   "layout": "The published two-row polaroid layout: framed model h ~207 on the left, arrow, dashed copy h ~280 on the right; row 1 = dog, row 2 = rabbit.",
+   "why_distinct": "Pets with ears, paws and fur edges."
+  },
+  {
+   "id": "ptx-K-420-fire-station",
+   "level": 3,
+   "setting": "a fire station",
+   "name_en": "Fire Engine and Police Car",
+   "cast": [
+    {
+     "src": "vehicles bw 3/fire_truck",
+     "role": "pair",
+     "note": "row 1: solid model in the frame, dashed copy beside it, start top"
+    },
+    {
+     "src": "vehicles bw 3/police_car",
+     "role": "pair",
+     "note": "row 2: solid model in the frame, dashed copy beside it, start top"
+    }
+   ],
+   "drawn": [],
+   "layout": "The published two-row polaroid layout: framed model h ~207 on the left, arrow, dashed copy h ~280 on the right; row 1 = fire truck, row 2 = police car.",
+   "why_distinct": "Vehicles with wheels, windows and a ladder: the most detail."
+  }
+ ],
+ "K-421": [
+  {
+   "id": "ptx-K-421-gym-balls",
+   "level": 1,
+   "setting": "a gym",
+   "name_en": "Two Balls",
+   "cast": [
+    {
+     "src": "sports bw 2/soccer_ball",
+     "role": "row",
+     "note": "outline only; start: contour (2 o’clock, anticlockwise)"
+    },
+    {
+     "src": "sports bw/basketball",
+     "role": "row",
+     "note": "outline only; start: contour (2 o’clock, anticlockwise)"
+    }
+   ],
+   "drawn": [],
+   "layout": "Two ramps (top left, lower right), each picture resting on its ramp, h ~320; big round shapes, outline only.",
+   "why_distinct": "Balls only: two perfect circles."
+  },
+  {
+   "id": "ptx-K-421-fruit-stall",
+   "level": 1,
+   "setting": "a fruit stall",
+   "name_en": "Apricot and Pomegranate",
+   "cast": [
+    {
+     "src": "fruits bw/apricot",
+     "role": "row",
+     "note": "outline only; start: contour (2 o’clock, anticlockwise)"
+    },
+    {
+     "src": "fruits bw/pomegranate",
+     "role": "row",
+     "note": "outline only; start: contour (2 o’clock, anticlockwise)"
+    }
+   ],
+   "drawn": [],
+   "layout": "Two ramps (top left, lower right), each picture resting on its ramp, h ~320; big round shapes, outline only.",
+   "why_distinct": "Round fruit with a stalk or a crown tip."
+  },
+  {
+   "id": "ptx-K-421-pool",
+   "level": 1,
+   "setting": "a swimming pool",
+   "name_en": "Swim Ring and Pufferfish",
+   "cast": [
+    {
+     "src": "beach bw/preserver_ring",
+     "role": "row",
+     "note": "outline only; start: contour (2 o’clock, anticlockwise)"
+    },
+    {
+     "src": "sea life bw/pufferfish",
+     "role": "row",
+     "note": "outline only; start: contour (2 o’clock, anticlockwise)"
+    }
+   ],
+   "drawn": [
+    "a water line under the lower ramp"
+   ],
+   "layout": "Two ramps (top left, lower right), each picture resting on its ramp, h ~320; big round shapes, outline only.",
+   "why_distinct": "Pool setting; a ring (round twice) and a round fish."
+  },
+  {
+   "id": "ptx-K-421-veg-patch",
+   "level": 1,
+   "setting": "a vegetable patch",
+   "name_en": "Pumpkin and Tomato",
+   "cast": [
+    {
+     "src": "vegetables bw/pumpkin",
+     "role": "row",
+     "note": "outline only; start: contour (2 o’clock, anticlockwise)"
+    },
+    {
+     "src": "vegetables bw/tomato",
+     "role": "row",
+     "note": "outline only; start: contour (2 o’clock, anticlockwise)"
+    }
+   ],
+   "drawn": [],
+   "layout": "Two ramps (top left, lower right), each picture resting on its ramp, h ~320; big round shapes, outline only.",
+   "why_distinct": "Vegetables; round bodies with a stalk."
+  },
+  {
+   "id": "ptx-K-421-hen-house",
+   "level": 1,
+   "setting": "a hen house",
+   "name_en": "Egg and Duckling",
+   "cast": [
+    {
+     "src": "food bw 3/egg",
+     "role": "row",
+     "note": "outline only; start: contour (2 o’clock, anticlockwise)"
+    },
+    {
+     "src": "faces bw/duckling",
+     "role": "row",
+     "note": "outline only; start: contour (2 o’clock, anticlockwise)"
+    }
+   ],
+   "drawn": [
+    "a low straw-nest line under the egg"
+   ],
+   "layout": "Two ramps (top left, lower right), each picture resting on its ramp, h ~320; big round shapes, outline only.",
+   "why_distinct": "An oval egg and a round chick face."
+  },
+  {
+   "id": "ptx-K-421-zoo-gate",
+   "level": 2,
+   "setting": "the zoo gate",
+   "name_en": "Lion, Tiger and Panda",
+   "cast": [
+    {
+     "src": "faces bw/lion",
+     "role": "row",
+     "note": "outline only; start: contour (2 o’clock, anticlockwise)"
+    },
+    {
+     "src": "faces bw/tiger",
+     "role": "row",
+     "note": "outline only; start: contour (2 o’clock, anticlockwise)"
+    },
+    {
+     "src": "faces bw/panda_2",
+     "role": "row",
+     "note": "outline only; start: contour (2 o’clock, anticlockwise)"
+    }
+   ],
+   "drawn": [],
+   "layout": "Three ramps like the published page, pictures h ~280-300 resting on them, outline only.",
+   "why_distinct": "Round animal faces; the lion’s mane makes a wavy circle."
+  },
+  {
+   "id": "ptx-K-421-woodland",
+   "level": 2,
+   "setting": "the woods",
+   "name_en": "Hedgehog, Ladybug and Owl",
+   "cast": [
+    {
+     "src": "animals bw 5/hedgehog",
+     "role": "row",
+     "note": "outline only; start: contour (2 o’clock, anticlockwise)"
+    },
+    {
+     "src": "animals bw 3/ladybug",
+     "role": "row",
+     "note": "outline only; start: contour (2 o’clock, anticlockwise)"
+    },
+    {
+     "src": "animals bw 5/owl",
+     "role": "row",
+     "note": "outline only; start: contour (2 o’clock, anticlockwise)"
+    }
+   ],
+   "drawn": [],
+   "layout": "Three ramps like the published page, pictures h ~280-300 resting on them, outline only.",
+   "why_distinct": "Round woodland animals instead of objects."
+  },
+  {
+   "id": "ptx-K-421-games-room",
+   "level": 2,
+   "setting": "a games room",
+   "name_en": "Three Games",
+   "cast": [
+    {
+     "src": "sports bw/table_tennis",
+     "role": "row",
+     "note": "outline only; start: contour (2 o’clock, anticlockwise)"
+    },
+    {
+     "src": "sports bw/volleyball",
+     "role": "row",
+     "note": "outline only; start: contour (2 o’clock, anticlockwise)"
+    },
+    {
+     "src": "sports bw 2/bowling_ball",
+     "role": "row",
+     "note": "outline only; start: contour (2 o’clock, anticlockwise)"
+    }
+   ],
+   "drawn": [],
+   "layout": "Three ramps like the published page, pictures h ~280-300 resting on them, outline only.",
+   "why_distinct": "Indoor games: a bat with its ball, a volleyball, a bowling ball."
+  },
+  {
+   "id": "ptx-K-421-cafe",
+   "level": 2,
+   "setting": "a breakfast café",
+   "name_en": "Breakfast Rounds",
+   "cast": [
+    {
+     "src": "food bw/fried_egg",
+     "role": "row",
+     "note": "outline only; start: contour (2 o’clock, anticlockwise)"
+    },
+    {
+     "src": "food bw/cookie",
+     "role": "row",
+     "note": "outline only; start: contour (2 o’clock, anticlockwise)"
+    },
+    {
+     "src": "fruits bw/cherry",
+     "role": "row",
+     "note": "outline only; start: contour (2 o’clock, anticlockwise)"
+    }
+   ],
+   "drawn": [],
+   "layout": "Three ramps like the published page, pictures h ~280-300 resting on them, outline only.",
+   "why_distinct": "Food rounds; the wobbly egg white is a softer circle."
+  },
+  {
+   "id": "ptx-K-421-teddy-shop",
+   "level": 2,
+   "setting": "a teddy shop",
+   "name_en": "Bear, Mouse and Koala",
+   "cast": [
+    {
+     "src": "faces bw/bear",
+     "role": "row",
+     "note": "outline only; start: contour (2 o’clock, anticlockwise)"
+    },
+    {
+     "src": "faces bw/mouse",
+     "role": "row",
+     "note": "outline only; start: contour (2 o’clock, anticlockwise)"
+    },
+    {
+     "src": "faces bw/koala",
+     "role": "row",
+     "note": "outline only; start: contour (2 o’clock, anticlockwise)"
+    }
+   ],
+   "drawn": [],
+   "layout": "Three ramps like the published page, pictures h ~280-300 resting on them, outline only.",
+   "why_distinct": "Round heads with round ears: circles on circles."
+  },
+  {
+   "id": "ptx-K-421-space-trip",
+   "level": 3,
+   "setting": "outer space",
+   "name_en": "Planets and a Spaceship",
+   "cast": [
+    {
+     "src": "space bw/earth",
+     "role": "row",
+     "note": "every line traced; each closed line starts at 2 o’clock, anticlockwise"
+    },
+    {
+     "src": "space bw/planet_2",
+     "role": "row",
+     "note": "every line traced; each closed line starts at 2 o’clock, anticlockwise"
+    },
+    {
+     "src": "toys bw 2/ufo",
+     "role": "row",
+     "note": "every line traced; each closed line starts at 2 o’clock, anticlockwise"
+    }
+   ],
+   "drawn": [
+    "a full moon with three round craters (the fourth round picture)",
+    "three small stars (solid grey)"
+   ],
+   "layout": "Four short ramps in a 2 x 2 zigzag, pictures h ~190-210, every line traced (the inner rings and circles too).",
+   "why_distinct": "Space; a ring round a planet and round craters inside the moon."
+  },
+  {
+   "id": "ptx-K-421-aquarium",
+   "level": 3,
+   "setting": "an aquarium",
+   "name_en": "The Round Fish Bowl",
+   "cast": [
+    {
+     "src": "home bw/fishbowl",
+     "role": "row",
+     "note": "every line traced; each closed line starts at 2 o’clock, anticlockwise"
+    },
+    {
+     "src": "sea life bw 2/puffer",
+     "role": "row",
+     "note": "every line traced; each closed line starts at 2 o’clock, anticlockwise"
+    },
+    {
+     "src": "sea life bw 2/jellyfish",
+     "role": "row",
+     "note": "every line traced; each closed line starts at 2 o’clock, anticlockwise"
+    }
+   ],
+   "drawn": [
+    "a cluster of three bubbles (circles) as the fourth round picture"
+   ],
+   "layout": "Four short ramps in a 2 x 2 zigzag, pictures h ~190-210, every line traced (the inner rings and circles too).",
+   "why_distinct": "A bowl with a fish inside, a puffer, a dome: round inside round."
+  },
+  {
+   "id": "ptx-K-421-explorer-desk",
+   "level": 3,
+   "setting": "an explorer's desk",
+   "name_en": "Round Treasures",
+   "cast": [
+    {
+     "src": "objects bw/magnifying_glass",
+     "role": "row",
+     "note": "every line traced; each closed line starts at 2 o’clock, anticlockwise"
+    },
+    {
+     "src": "classroom bw 2/globe",
+     "role": "row",
+     "note": "every line traced; each closed line starts at 2 o’clock, anticlockwise"
+    },
+    {
+     "src": "objects bw/medal",
+     "role": "row",
+     "note": "every line traced; each closed line starts at 2 o’clock, anticlockwise"
+    },
+    {
+     "src": "sports bw/rosette",
+     "role": "row",
+     "note": "every line traced; each closed line starts at 2 o’clock, anticlockwise"
+    }
+   ],
+   "drawn": [],
+   "layout": "Four short ramps in a 2 x 2 zigzag, pictures h ~190-210, every line traced (the inner rings and circles too).",
+   "why_distinct": "Objects: a round lens, a globe, a medal disc and a frilled rosette."
+  },
+  {
+   "id": "ptx-K-421-market",
+   "level": 3,
+   "setting": "a vegetable market",
+   "name_en": "Market Rounds",
+   "cast": [
+    {
+     "src": "fruits bw/grapes",
+     "role": "row",
+     "note": "every line traced; each closed line starts at 2 o’clock, anticlockwise"
+    },
+    {
+     "src": "vegetables bw 2/cauliflower",
+     "role": "row",
+     "note": "every line traced; each closed line starts at 2 o’clock, anticlockwise"
+    },
+    {
+     "src": "vegetables bw/onion",
+     "role": "row",
+     "note": "every line traced; each closed line starts at 2 o’clock, anticlockwise"
+    },
+    {
+     "src": "fruits bw/lemon",
+     "role": "row",
+     "note": "every line traced; each closed line starts at 2 o’clock, anticlockwise"
+    }
+   ],
+   "drawn": [],
+   "layout": "Four short ramps in a 2 x 2 zigzag, pictures h ~190-210, every line traced (the inner rings and circles too).",
+   "why_distinct": "Many small circles in the grapes and the bumpy cauliflower: fine round work."
+  },
+  {
+   "id": "ptx-K-421-fair",
+   "level": 3,
+   "setting": "a funfair",
+   "name_en": "Balloons at the Fair",
+   "cast": [
+    {
+     "src": "vehicles bw 2/hot_air_balloon",
+     "role": "row",
+     "note": "every line traced; each closed line starts at 2 o’clock, anticlockwise"
+    },
+    {
+     "src": "Easter bw 2/balloon",
+     "role": "row",
+     "note": "every line traced; each closed line starts at 2 o’clock, anticlockwise"
+    },
+    {
+     "src": "Easter bw/cookie",
+     "role": "row",
+     "note": "every line traced; each closed line starts at 2 o’clock, anticlockwise"
+    },
+    {
+     "src": "food bw 3/cookie",
+     "role": "row",
+     "note": "every line traced; each closed line starts at 2 o’clock, anticlockwise"
+    }
+   ],
+   "drawn": [],
+   "layout": "Four short ramps in a 2 x 2 zigzag, pictures h ~190-210, every line traced (the inner rings and circles too).",
+   "why_distinct": "Balloons and round cookies; round balloons on curly strings."
+  }
+ ],
+ "K-422": [
+  {
+   "id": "ptx-K-422-kitchen-drawer",
+   "level": 1,
+   "setting": "a kitchen drawer",
+   "name_en": "The Kitchen Drawer",
+   "cast": [
+    {
+     "src": "kitchen bw/fork",
+     "role": "down",
+     "note": "v 94 %"
+    },
+    {
+     "src": "kitchen bw/rolling_pin",
+     "role": "slanted",
+     "note": "s 87 %"
+    }
+   ],
+   "drawn": [
+    "ACROSS: a serving tray (a long flat rectangle with two handle slots)"
+   ],
+   "layout": "The three columns with the down / across / slanted badges stay. 1 picture per column, each h ~280-300, centred in its column; the drawn pictures are built of lines in that column's direction only (≥ 80 % by construction); nothing touches a column line.",
+   "why_distinct": "Kitchen tools; one big picture per column."
+  },
+  {
+   "id": "ptx-K-422-art-corner",
+   "level": 1,
+   "setting": "an art corner",
+   "name_en": "The Art Corner",
+   "cast": [
+    {
+     "src": "classroom bw 2/pencil",
+     "role": "down",
+     "note": "v 73 %"
+    },
+    {
+     "src": "education bw/paintbrush",
+     "role": "slanted",
+     "note": "s 86 %"
+    }
+   ],
+   "drawn": [
+    "ACROSS: a long paint box (a flat rectangle with four dividers)"
+   ],
+   "layout": "The three columns with the down / across / slanted badges stay. 1 picture per column, each h ~280-300, centred in its column; the drawn pictures are built of lines in that column's direction only (≥ 80 % by construction); nothing touches a column line.",
+   "why_distinct": "Art supplies; the upright pencil beside a tilted brush."
+  },
+  {
+   "id": "ptx-K-422-surf-shop",
+   "level": 1,
+   "setting": "a surf shop",
+   "name_en": "The Surf Shop",
+   "cast": [
+    {
+     "src": "beach bw/surfboard",
+     "role": "down",
+     "note": "v 76 %"
+    }
+   ],
+   "drawn": [
+    "ACROSS: a beach towel (a long rectangle with three long stripes)",
+    "SLANTED: a beach tent (an A-shape: two long slanted sides and a short base)"
+   ],
+   "layout": "The three columns with the down / across / slanted badges stay. 1 picture per column, each h ~280-300, centred in its column; the drawn pictures are built of lines in that column's direction only (≥ 80 % by construction); nothing touches a column line.",
+   "why_distinct": "Beach gear; a standing surfboard."
+  },
+  {
+   "id": "ptx-K-422-toy-box",
+   "level": 1,
+   "setting": "a toy box",
+   "name_en": "The Toy Box",
+   "cast": [
+    {
+     "src": "sports bw/skateboard",
+     "role": "across",
+     "note": "h 69 %"
+    },
+    {
+     "src": "toys bw/party_hat",
+     "role": "slanted",
+     "note": "s 69 %"
+    }
+   ],
+   "drawn": [
+    "DOWN: a toy ladder standing upright (two long rails, three short rungs)"
+   ],
+   "layout": "The three columns with the down / across / slanted badges stay. 1 picture per column, each h ~280-300, centred in its column; the drawn pictures are built of lines in that column's direction only (≥ 80 % by construction); nothing touches a column line.",
+   "why_distinct": "Toys; a skateboard and a party hat."
+  },
+  {
+   "id": "ptx-K-422-travel-desk",
+   "level": 1,
+   "setting": "a travel desk",
+   "name_en": "Ready to Travel",
+   "cast": [
+    {
+     "src": "objects bw/smartphone",
+     "role": "down",
+     "note": "v 69 %"
+    },
+    {
+     "src": "travel and holiday bw/ticket",
+     "role": "across",
+     "note": "h 66 %"
+    },
+    {
+     "src": "classroom bw 2/paper_airplane",
+     "role": "slanted",
+     "note": "s 72 %"
+    }
+   ],
+   "drawn": [],
+   "layout": "The three columns with the down / across / slanted badges stay. 1 picture per column, each h ~280-300, centred in its column; the drawn pictures are built of lines in that column's direction only (≥ 80 % by construction); nothing touches a column line.",
+   "why_distinct": "Travel things; a ticket, a phone and a paper plane."
+  },
+  {
+   "id": "ptx-K-422-kitchen",
+   "level": 2,
+   "setting": "a kitchen",
+   "name_en": "In the Kitchen",
+   "cast": [
+    {
+     "src": "kitchen bw/spatula",
+     "role": "down",
+     "note": "v 78 %"
+    },
+    {
+     "src": "kitchen bw/whisk",
+     "role": "down",
+     "note": "v 67 %"
+    },
+    {
+     "src": "home bw/oven",
+     "role": "across",
+     "note": "h 62 %"
+    },
+    {
+     "src": "kitchen bw/cutting_board",
+     "role": "slanted",
+     "note": "s 87 %"
+    }
+   ],
+   "drawn": [
+    "ACROSS: a wall shelf (two long boards on short brackets)",
+    "SLANTED: a pizza slice (a long thin triangle with a crust line)"
+   ],
+   "layout": "The three columns with the down / across / slanted badges stay. 2 pictures per column, stacked, h ~190-250; the drawn pictures are built of lines in that column's direction only (≥ 80 % by construction); nothing touches a column line.",
+   "why_distinct": "Cooking room; two tools down, an oven across."
+  },
+  {
+   "id": "ptx-K-422-office",
+   "level": 2,
+   "setting": "an office",
+   "name_en": "The Office",
+   "cast": [
+    {
+     "src": "furniture bw/filing_cabinet",
+     "role": "down",
+     "note": "v 61 %"
+    },
+    {
+     "src": "household bw/computer",
+     "role": "across",
+     "note": "h 65 %"
+    },
+    {
+     "src": "classroom bw/marker",
+     "role": "slanted",
+     "note": "s 93 %"
+    },
+    {
+     "src": "education bw/eraser",
+     "role": "slanted",
+     "note": "s 96 %"
+    }
+   ],
+   "drawn": [
+    "DOWN: a tall office door (tall rectangle, a small handle)",
+    "ACROSS: a long desk-drawer front (a flat rectangle, one handle)"
+   ],
+   "layout": "The three columns with the down / across / slanted badges stay. 2 pictures per column, stacked, h ~190-250; the drawn pictures are built of lines in that column's direction only (≥ 80 % by construction); nothing touches a column line.",
+   "why_distinct": "Office furniture and pens."
+  },
+  {
+   "id": "ptx-K-422-living-room",
+   "level": 2,
+   "setting": "a living room",
+   "name_en": "The Living Room",
+   "cast": [
+    {
+     "src": "household bw/window",
+     "role": "down",
+     "note": "v 63 %"
+    },
+    {
+     "src": "furniture bw/sofa",
+     "role": "across",
+     "note": "h 63 %"
+    },
+    {
+     "src": "home bw 2/broom",
+     "role": "slanted",
+     "note": "s 86 %"
+    },
+    {
+     "src": "classroom bw 2/book",
+     "role": "slanted",
+     "note": "s 94 %"
+    }
+   ],
+   "drawn": [
+    "DOWN: a floor lamp (a long upright pole on a flat foot, a small square shade)",
+    "ACROSS: a coffee table (a long top, two short legs)"
+   ],
+   "layout": "The three columns with the down / across / slanted badges stay. 2 pictures per column, stacked, h ~190-250; the drawn pictures are built of lines in that column's direction only (≥ 80 % by construction); nothing touches a column line.",
+   "why_distinct": "Home room with a window, a sofa and a broom."
+  },
+  {
+   "id": "ptx-K-422-tool-shed",
+   "level": 2,
+   "setting": "a tool shed",
+   "name_en": "The Tool Shed",
+   "cast": [
+    {
+     "src": "tools bw/double-ended_wrench",
+     "role": "down",
+     "note": "v 78 %"
+    },
+    {
+     "src": "tools bw/wrench",
+     "role": "down",
+     "note": "v 67 %"
+    },
+    {
+     "src": "tools bw/screwdriver",
+     "role": "slanted",
+     "note": "s 81 %"
+    }
+   ],
+   "drawn": [
+    "ACROSS: a workbench (a long top, two legs)",
+    "ACROSS: a stack of three long planks",
+    "SLANTED: a ramp board leaning on a box"
+   ],
+   "layout": "The three columns with the down / across / slanted badges stay. 2 pictures per column, stacked, h ~190-250; the drawn pictures are built of lines in that column's direction only (≥ 80 % by construction); nothing touches a column line.",
+   "why_distinct": "Workshop tools; no furniture of the published page."
+  },
+  {
+   "id": "ptx-K-422-bus-stop",
+   "level": 2,
+   "setting": "a bus stop",
+   "name_en": "At the Bus Stop",
+   "cast": [
+    {
+     "src": "vehicles bw 2/bus",
+     "role": "across",
+     "note": "h 65 %"
+    }
+   ],
+   "drawn": [
+    "DOWN: a lamp post (a long pole, a small lamp)",
+    "DOWN: a bus-stop sign post (a long pole, a small square sign with no text)",
+    "ACROSS: a zebra crossing (four long bars)",
+    "SLANTED: a barrier arm tilted up (a long striped bar on a short post)",
+    "SLANTED: a shelter roof (one long slanted board on two posts)"
+   ],
+   "layout": "The three columns with the down / across / slanted badges stay. 2 pictures per column, stacked, h ~190-250; the drawn pictures are built of lines in that column's direction only (≥ 80 % by construction); nothing touches a column line.",
+   "why_distinct": "A street scene; the only copy with a vehicle across."
+  },
+  {
+   "id": "ptx-K-422-art-studio",
+   "level": 3,
+   "setting": "an art studio",
+   "name_en": "The Art Studio",
+   "cast": [
+    {
+     "src": "home bw 2/paintbrush",
+     "role": "down",
+     "note": "v 64 %"
+    },
+    {
+     "src": "education bw/crayon",
+     "role": "slanted",
+     "note": "s 83 %"
+    },
+    {
+     "src": "education bw/pen",
+     "role": "slanted",
+     "note": "s 96 %"
+    },
+    {
+     "src": "education bw/pencil",
+     "role": "slanted",
+     "note": "s 97 %"
+    }
+   ],
+   "drawn": [
+    "DOWN: a tall jar holding three upright brushes",
+    "DOWN: a tall rolled-up poster (a narrow tube)",
+    "ACROSS: a long paint box",
+    "ACROSS: a crayon box lying down",
+    "ACROSS: a long shelf"
+   ],
+   "layout": "The three columns with the down / across / slanted badges stay. 3 pictures per column, stacked, h ~150-180; the drawn pictures are built of lines in that column's direction only (≥ 80 % by construction); nothing touches a column line.",
+   "why_distinct": "Nine smaller art pictures; three slanted drawing tools."
+  },
+  {
+   "id": "ptx-K-422-bedroom",
+   "level": 3,
+   "setting": "a bedroom",
+   "name_en": "The Bedroom",
+   "cast": [
+    {
+     "src": "apparel bw/necktie",
+     "role": "down",
+     "note": "v 78 %"
+    },
+    {
+     "src": "beach bw 2/surfboard",
+     "role": "down",
+     "note": "v 76 %"
+    },
+    {
+     "src": "toys bw 2/keyboard",
+     "role": "across",
+     "note": "h 57 % (borderline: measure on the page; if < 59 % use a drawn long toy shelf)"
+    },
+    {
+     "src": "objects bw/toothbrush",
+     "role": "slanted",
+     "note": "s 93 %"
+    },
+    {
+     "src": "sports bw/cricket",
+     "role": "slanted",
+     "note": "s 94 %"
+    },
+    {
+     "src": "toys bw 2/kite",
+     "role": "slanted",
+     "note": "s 61 %"
+    }
+   ],
+   "drawn": [
+    "DOWN: a tall door with a knob",
+    "ACROSS: a bed seen from the side (long base, low headboard)",
+    "ACROSS: a long rug with stripes along its length and a fringe at both ends"
+   ],
+   "layout": "The three columns with the down / across / slanted badges stay. 3 pictures per column, stacked, h ~150-180; the drawn pictures are built of lines in that column's direction only (≥ 80 % by construction); nothing touches a column line.",
+   "why_distinct": "A child’s room; nine small pictures."
+  },
+  {
+   "id": "ptx-K-422-building-site",
+   "level": 3,
+   "setting": "a building site",
+   "name_en": "The Building Site",
+   "cast": [],
+   "drawn": [
+    "DOWN: a tall brick chimney",
+    "DOWN: a scaffold (two tall poles, two short bars)",
+    "DOWN: a bollard post",
+    "ACROSS: a steel beam (an I-shape lying flat)",
+    "ACROSS: a stack of planks",
+    "ACROSS: a low wall of long bricks",
+    "SLANTED: a crane jib (two long slanted lines with short cross bars)",
+    "SLANTED: a ramp board on a box",
+    "SLANTED: a roof frame (an A-shape)"
+   ],
+   "layout": "The three columns with the down / across / slanted badges stay. 3 pictures per column, stacked, h ~150-180; the drawn pictures are built of lines in that column's direction only (≥ 80 % by construction); nothing touches a column line.",
+   "why_distinct": "All drawn: the library has no clean building-site drawing; every line straight by construction."
+  },
+  {
+   "id": "ptx-K-422-snack-bar",
+   "level": 3,
+   "setting": "a snack bar",
+   "name_en": "The Snack Bar",
+   "cast": [
+    {
+     "src": "food bw/hot_dog",
+     "role": "across",
+     "note": "h 67 %"
+    },
+    {
+     "src": "dessert bw/ice_pop",
+     "role": "slanted",
+     "note": "s 77 %"
+    }
+   ],
+   "drawn": [
+    "DOWN: a tall drinks fridge (tall rectangle, a long handle)",
+    "DOWN: a menu board on a post (no text)",
+    "DOWN: a tall glass with an upright straw",
+    "ACROSS: a long counter",
+    "ACROSS: a long tray",
+    "SLANTED: a baguette lying slanted",
+    "SLANTED: a cheese wedge seen from the side (two long slanted edges)"
+   ],
+   "layout": "The three columns with the down / across / slanted badges stay. 3 pictures per column, stacked, h ~150-180; the drawn pictures are built of lines in that column's direction only (≥ 80 % by construction); nothing touches a column line.",
+   "why_distinct": "Food stand; a hot dog across and an ice lolly slanted."
+  },
+  {
+   "id": "ptx-K-422-airport",
+   "level": 3,
+   "setting": "an airport",
+   "name_en": "At the Airport",
+   "cast": [
+    {
+     "src": "toys bw/airplane",
+     "role": "across",
+     "note": "h 60 %"
+    },
+    {
+     "src": "vehicles bw 2/van",
+     "role": "across",
+     "note": "h 58 % (borderline: measure; else a drawn baggage belt)"
+    },
+    {
+     "src": "sports bw/hockey",
+     "role": "slanted",
+     "note": "s 78 % (a traveller’s hockey stick)"
+    }
+   ],
+   "drawn": [
+    "DOWN: a control tower (tall narrow body, small cab)",
+    "DOWN: a tall departure-board post (no text)",
+    "DOWN: a tall luggage-trolley handle frame",
+    "ACROSS: a baggage belt (two long lines with rollers)",
+    "SLANTED: boarding stairs (a long slanted rail and steps)",
+    "SLANTED: a windsock pole leaning in the wind"
+   ],
+   "layout": "The three columns with the down / across / slanted badges stay. 3 pictures per column, stacked, h ~150-180; the drawn pictures are built of lines in that column's direction only (≥ 80 % by construction); nothing touches a column line.",
+   "why_distinct": "Airport; planes across, boarding stairs slanted."
+  }
+ ],
+ "K-423": [
+  {
+   "id": "ptx-K-423-crown-room",
+   "level": 1,
+   "setting": "a palace hall",
+   "name_en": "The King’s Crown",
+   "cast": [
+    {
+     "src": "nature bw/star",
+     "role": "prop",
+     "note": "w 170, top right: five tips"
+    }
+   ],
+   "drawn": [
+    "a big crown (one zigzag top edge with five tips, a flat band) centre, w 330",
+    "a zigzag carpet edge along the bottom (six big tips)",
+    "two tall zigzag curtain hems at the sides (four tips each)"
+   ],
+   "layout": "Crown in the middle, star high right, carpet zigzag along the bottom. Few, big, long zigzags with clear tips.",
+   "why_distinct": "A palace hall instead of a camp; the crown is the hero."
+  },
+  {
+   "id": "ptx-K-423-autumn-park",
+   "level": 1,
+   "setting": "a park in autumn",
+   "name_en": "Autumn Leaves",
+   "cast": [
+    {
+     "src": "nature bw/leaf",
+     "role": "hero",
+     "note": "h 260, the toothed edge is the zigzag"
+    },
+    {
+     "src": "nature bw/leaf",
+     "role": "pair",
+     "note": "h 200, flipped, falling"
+    }
+   ],
+   "drawn": [
+    "a zigzag hedge top along the bottom (a row of big tips)",
+    "one zigzag path of a falling leaf (a dashed zigzag line from the big leaf down to the hedge)"
+   ],
+   "layout": "Big leaf top left, second leaf mid right, a falling-path zigzag between them, hedge along the bottom.",
+   "why_distinct": "Autumn park; zigzag edges on leaves, not mountains."
+  },
+  {
+   "id": "ptx-K-423-pyramids",
+   "level": 1,
+   "setting": "a desert",
+   "name_en": "The Pyramids",
+   "cast": [],
+   "drawn": [
+    "three drawn pyramids side by side (big triangles; the library pyramid is hatched and would smudge when dashed)",
+    "a zigzag snake trail in the sand (six tips)",
+    "a sun with straight rays top right"
+   ],
+   "layout": "Three pyramids side by side on the ground line, the middle one tallest; snake trail in front of them, sun above.",
+   "why_distinct": "Desert; triangle tips, no trees."
+  },
+  {
+   "id": "ptx-K-423-rooftops",
+   "level": 1,
+   "setting": "a town at night",
+   "name_en": "The Pointed Rooftops",
+   "cast": [
+    {
+     "src": "nature bw/star",
+     "role": "prop",
+     "note": "w 120, top left"
+    },
+    {
+     "src": "Christmas bw/star",
+     "role": "prop",
+     "note": "w 100, top right (a plain star)"
+    }
+   ],
+   "drawn": [
+    "a row of four tall pointed houses whose roofs make one long zigzag skyline",
+    "a door and one window in each house (straight lines)"
+   ],
+   "layout": "Houses side by side across the bottom two thirds, their roofs one zigzag skyline; two stars above.",
+   "why_distinct": "Town; the zigzag is a skyline of roofs."
+  },
+  {
+   "id": "ptx-K-423-snowy-peak",
+   "level": 1,
+   "setting": "a snowy mountain",
+   "name_en": "The Snowy Peak",
+   "cast": [
+    {
+     "src": "travel and holiday bw/mountain",
+     "role": "hero",
+     "note": "w 420, centre"
+    }
+   ],
+   "drawn": [
+    "a cabin roof with a row of zigzag icicles under its edge (left, low)",
+    "a zigzag ski track down the slope (five tips)"
+   ],
+   "layout": "Mountain across the middle, ski track zigzagging down it, cabin roof with icicles bottom left.",
+   "why_distinct": "Winter mountain without firs or tents; icicles are the second zigzag."
+  },
+  {
+   "id": "ptx-K-423-bat-cave",
+   "level": 2,
+   "setting": "a cave at dusk",
+   "name_en": "The Bat Cave",
+   "cast": [
+    {
+     "src": "animals bw 5/bat",
+     "role": "hero",
+     "note": "w 200, wings out"
+    },
+    {
+     "src": "animals bw/bat",
+     "role": "pair",
+     "note": "w 180"
+    },
+    {
+     "src": "animals bw 3/bat",
+     "role": "pair",
+     "note": "w 150"
+    }
+   ],
+   "drawn": [
+    "the cave mouth with zigzag teeth (stalactites) along its top edge",
+    "a zigzag rock floor",
+    "two pointed rocks"
+   ],
+   "layout": "Cave mouth arch fills the top with its zigzag stalactites; the three bats fly in the middle; zigzag rocks along the bottom.",
+   "why_distinct": "Night cave; the wings’ pointed edges are the zigzags."
+  },
+  {
+   "id": "ptx-K-423-crocodile-river",
+   "level": 2,
+   "setting": "a river in the swamp",
+   "name_en": "Crocodile River",
+   "cast": [
+    {
+     "src": "zoo animals bw/alligator",
+     "role": "hero",
+     "note": "w 300, in the water (the back ridge and teeth)"
+    }
+   ],
+   "drawn": [
+    "zigzag reeds (four clumps of tall pointed blades)",
+    "zigzag ripples on the water (two rows of small tips)",
+    "a palm tree with pointed fronds (right)",
+    "sun"
+   ],
+   "layout": "River across the lower half with the crocodile in it, reeds on the banks, palm right, sun top left.",
+   "why_distinct": "Swamp; a crocodile’s zigzag back."
+  },
+  {
+   "id": "ptx-K-423-dino-valley",
+   "level": 2,
+   "setting": "a valley of dinosaurs",
+   "name_en": "Dinosaur Valley",
+   "cast": [
+    {
+     "src": "zoo animals bw/dinosaur",
+     "role": "hero",
+     "note": "h 240, spiky back"
+    }
+   ],
+   "drawn": [
+    "a volcano with a zigzag puff of smoke (top right)",
+    "three zigzag ferns (pointed fronds)",
+    "a zigzag ground of rocks"
+   ],
+   "layout": "Dinosaur centre-left on the ground, volcano behind on the right, ferns at the sides, rocks along the bottom.",
+   "why_distinct": "Prehistoric valley; spikes and a volcano."
+  },
+  {
+   "id": "ptx-K-423-horse-show",
+   "level": 2,
+   "setting": "a horse show",
+   "name_en": "The Prize Rosette",
+   "cast": [
+    {
+     "src": "sports bw/rosette",
+     "role": "hero",
+     "note": "h 220, the frilled edge"
+    }
+   ],
+   "drawn": [
+    "zigzag bunting across the top (triangle flags)",
+    "a zigzag jump fence (criss-cross rails)",
+    "two zigzag pennants on poles"
+   ],
+   "layout": "Bunting across the top, rosette large on the left, jump fence across the middle right, pennants at the edges.",
+   "why_distinct": "A show ground; zigzag flags and a rosette."
+  },
+  {
+   "id": "ptx-K-423-birthday",
+   "level": 2,
+   "setting": "a birthday party",
+   "name_en": "Party Hats",
+   "cast": [
+    {
+     "src": "toys bw/party_hat",
+     "role": "hero",
+     "note": "h 200"
+    },
+    {
+     "src": "toys bw/party_hat",
+     "role": "pair",
+     "note": "h 160, flipped"
+    }
+   ],
+   "drawn": [
+    "zigzag bunting across the top",
+    "a birthday cake with a zigzag icing edge (centre)",
+    "a zigzag tablecloth hem along the bottom"
+   ],
+   "layout": "Bunting across the top, two party hats either side of the cake, tablecloth hem below.",
+   "why_distinct": "Indoor party; all zigzag decorations."
+  },
+  {
+   "id": "ptx-K-423-dragon-castle",
+   "level": 3,
+   "setting": "a castle in the mountains",
+   "name_en": "The Dragon’s Castle",
+   "cast": [
+    {
+     "src": "animals bw/dragon",
+     "role": "hero",
+     "note": "h 200, pointed wings"
+    }
+   ],
+   "drawn": [
+    "a castle with three pointed tower roofs and a zigzag wall top",
+    "a zigzag mountain range behind it",
+    "two pennants (zigzag tails)",
+    "a zigzag path up to the gate"
+   ],
+   "layout": "Mountains along the top, castle centre with its towers, the dragon flying top right, path zigzagging to the gate.",
+   "why_distinct": "Fairy-tale castle and a dragon; more and smaller tips."
+  },
+  {
+   "id": "ptx-K-423-jungle",
+   "level": 3,
+   "setting": "a jungle clearing",
+   "name_en": "The Jungle",
+   "cast": [
+    {
+     "src": "animals bw 5/crocodile",
+     "role": "hero",
+     "note": "w 200, toothy"
+    },
+    {
+     "src": "fruits bw/pineapple",
+     "role": "prop",
+     "note": "h 140, the crown"
+    },
+    {
+     "src": "beach bw/palm_tree",
+     "role": "prop",
+     "note": "h 240, pointed fronds"
+    }
+   ],
+   "drawn": [
+    "zigzag grass (a long row of small tips)",
+    "two zigzag ferns",
+    "a zigzag rope bridge (criss-cross supports) from the palm to the right edge"
+   ],
+   "layout": "Palm tree left, rope bridge across the top, pineapple and crocodile on the ground, grass and ferns along the bottom.",
+   "why_distinct": "Jungle; band-3 crocodile and pineapple crown."
+  },
+  {
+   "id": "ptx-K-423-big-top",
+   "level": 3,
+   "setting": "a circus",
+   "name_en": "Under the Big Top",
+   "cast": [
+    {
+     "src": "toys bw/party_hat",
+     "role": "prop",
+     "note": "h 110, a clown hat on a stand"
+    }
+   ],
+   "drawn": [
+    "a circus tent (a tall pointed top and a zigzag edge of triangle flaps)",
+    "zigzag bunting from the top of the tent",
+    "a zigzag ring fence of triangles",
+    "two zigzag pennants",
+    "three five-tip stars"
+   ],
+   "layout": "Tent fills the centre with its zigzag flap edge; bunting from its peak to both corners; ring fence across the bottom; stars and pennants in the gaps.",
+   "why_distinct": "Circus; the most zigzags per page."
+  },
+  {
+   "id": "ptx-K-423-kite-festival",
+   "level": 3,
+   "setting": "a kite festival",
+   "name_en": "The Kite Festival",
+   "cast": [],
+   "drawn": [
+    "four diamond kites with zigzag tails (drawn: the library kite’s tail is curly bows)",
+    "zigzag hills along the bottom",
+    "a zigzag fence along the hills"
+   ],
+   "layout": "Four kites at different heights, their zigzag tails flying to the right; hills and fence along the bottom.",
+   "why_distinct": "Kites in the sky; zigzag tails."
+  },
+  {
+   "id": "ptx-K-423-shark-shore",
+   "level": 3,
+   "setting": "a rocky shore",
+   "name_en": "The Rocky Shore",
+   "cast": [
+    {
+     "src": "animals bw 5/shark",
+     "role": "hero",
+     "note": "w 200, zigzag teeth"
+    },
+    {
+     "src": "beach bw/sailboat",
+     "role": "prop",
+     "note": "h 180, triangle sails"
+    }
+   ],
+   "drawn": [
+    "zigzag cliffs on the left",
+    "three rows of choppy zigzag waves",
+    "three pointed rocks in the water"
+   ],
+   "layout": "Cliffs on the left, sailboat on the top wave row, shark in the waves at the bottom, pointed rocks in between.",
+   "why_distinct": "Sea with choppy zigzag waves and cliffs."
+  }
+ ],
+ "K-424": [
+  {
+   "id": "ptx-K-424-bakery",
+   "level": 1,
+   "setting": "a bakery",
+   "name_en": "Bakery Swirls",
+   "cast": [
+    {
+     "src": "dessert bw/ice_cream",
+     "role": "pair",
+     "note": "h 260, the swirl on top"
+    }
+   ],
+   "drawn": [
+    "big frame: a cinnamon roll seen from the top (one spiral of four turns, ~24 px apart)",
+    "small frame: a steaming cup with two curls of steam"
+   ],
+   "layout": "A gallery of THREE frames: one big frame (left, 406 x 690) and two stacked frames on the right; one picture per frame, big, single smooth spirals.",
+   "why_distinct": "Baked swirls; one big spiral roll."
+  },
+  {
+   "id": "ptx-K-424-windy-day",
+   "level": 1,
+   "setting": "a windy day",
+   "name_en": "The Windy Day",
+   "cast": [],
+   "drawn": [
+    "big frame: a kite with a long tail of five loops",
+    "small frame: a wind swirl (one spiral of three turns)",
+    "small frame: a leaf twirling down a looping path"
+   ],
+   "layout": "A gallery of THREE frames: one big frame (left, 406 x 690) and two stacked frames on the right; one picture per frame, big, single smooth spirals.",
+   "why_distinct": "Wind and a kite; loops in the air."
+  },
+  {
+   "id": "ptx-K-424-ribbon-dance",
+   "level": 1,
+   "setting": "a gym",
+   "name_en": "Ribbon Dance",
+   "cast": [
+    {
+     "src": "sports bw 2/jump_rope",
+     "role": "pair",
+     "note": "h 220, its loop"
+    }
+   ],
+   "drawn": [
+    "big frame: a gymnast’s ribbon on a stick twirling in four big loops",
+    "small frame: a toy spring (five coils)"
+   ],
+   "layout": "A gallery of THREE frames: one big frame (left, 406 x 690) and two stacked frames on the right; one picture per frame, big, single smooth spirals.",
+   "why_distinct": "Gym; ribbon loops instead of animals."
+  },
+  {
+   "id": "ptx-K-424-galaxy",
+   "level": 1,
+   "setting": "outer space",
+   "name_en": "Space Spirals",
+   "cast": [
+    {
+     "src": "space bw/rocket",
+     "role": "pair",
+     "note": "h 180, at the end of its looping trail"
+    }
+   ],
+   "drawn": [
+    "big frame: a spiral galaxy (one spiral of three turns with a round centre)",
+    "small frame: the rocket’s trail as two loops behind it"
+   ],
+   "layout": "A gallery of THREE frames: one big frame (left, 406 x 690) and two stacked frames on the right; one picture per frame, big, single smooth spirals.",
+   "why_distinct": "Space; a galaxy spiral."
+  },
+  {
+   "id": "ptx-K-424-ocean-wave",
+   "level": 1,
+   "setting": "the ocean",
+   "name_en": "The Curling Wave",
+   "cast": [],
+   "drawn": [
+    "big frame: a big curling wave (one curl rolling in, a flat sea line)",
+    "small frame: a whirlpool (one spiral of three turns)",
+    "small frame: a curly seaweed frond"
+   ],
+   "layout": "A gallery of THREE frames: one big frame (left, 406 x 690) and two stacked frames on the right; one picture per frame, big, single smooth spirals.",
+   "why_distinct": "Sea; the curl of a wave."
+  },
+  {
+   "id": "ptx-K-424-reef",
+   "level": 2,
+   "setting": "a coral reef",
+   "name_en": "The Reef",
+   "cast": [
+    {
+     "src": "sea life bw 2/seahorse",
+     "role": "hero",
+     "note": "h 330, curled tail, big frame"
+    },
+    {
+     "src": "beach bw 2/seashell_2",
+     "role": "row",
+     "note": "w 160, a spiral conch"
+    },
+    {
+     "src": "sea life bw/octopus",
+     "role": "row",
+     "note": "h 170, curled arms"
+    }
+   ],
+   "drawn": [
+    "frame: an ammonite shell (one spiral of three turns with ribs solid)",
+    "frame: a trail of bubbles in two loops"
+   ],
+   "layout": "The published gallery of FIVE frames (one big top-left, one tall top-right, three along the bottom); one picture per frame.",
+   "why_distinct": "Sea creatures with curls."
+  },
+  {
+   "id": "ptx-K-424-rainforest",
+   "level": 2,
+   "setting": "a rainforest",
+   "name_en": "The Rainforest",
+   "cast": [
+    {
+     "src": "animals bw 5/chameleon",
+     "role": "hero",
+     "note": "w 330, curled tail, big frame"
+    },
+    {
+     "src": "animals bw/monkey_2",
+     "role": "row",
+     "note": "h 220, curly tail"
+    },
+    {
+     "src": "zoo animals bw/snake",
+     "role": "row",
+     "note": "h 170, coiled"
+    }
+   ],
+   "drawn": [
+    "frame: a curly vine (one stem with four curls)",
+    "frame: a fern fiddlehead (one spiral)"
+   ],
+   "layout": "The published gallery of FIVE frames (one big top-left, one tall top-right, three along the bottom); one picture per frame.",
+   "why_distinct": "Jungle animals with curling tails."
+  },
+  {
+   "id": "ptx-K-424-park",
+   "level": 2,
+   "setting": "a park",
+   "name_en": "In the Park",
+   "cast": [
+    {
+     "src": "animals bw 5/squirrel",
+     "role": "hero",
+     "note": "h 300, big curly tail, big frame"
+    }
+   ],
+   "drawn": [
+    "tall frame: a yo-yo on a looped string",
+    "frame: a looping bike track (two loops)",
+    "frame: a rose seen from above (one spiral)",
+    "frame: a flower stem with a curled bud"
+   ],
+   "layout": "The published gallery of FIVE frames (one big top-left, one tall top-right, three along the bottom); one picture per frame.",
+   "why_distinct": "Park; a squirrel and loops."
+  },
+  {
+   "id": "ptx-K-424-sweet-shop",
+   "level": 2,
+   "setting": "a sweet shop",
+   "name_en": "The Sweet Shop",
+   "cast": [
+    {
+     "src": "dessert bw/cupcake",
+     "role": "hero",
+     "note": "h 300, the frosting swirl, big frame"
+    }
+   ],
+   "drawn": [
+    "tall frame: a swiss-roll slice (one spiral)",
+    "frame: a curly straw in a glass (three loops)",
+    "frame: a swirl of whipped cream on a mug",
+    "frame: a candy with a spiral face (one spiral, wrapper twists)"
+   ],
+   "layout": "The published gallery of FIVE frames (one big top-left, one tall top-right, three along the bottom); one picture per frame.",
+   "why_distinct": "Sweets with swirls; no lollipop, no pretzel."
+  },
+  {
+   "id": "ptx-K-424-sitting-room",
+   "level": 2,
+   "setting": "a sitting room",
+   "name_en": "Grandma’s Sitting Room",
+   "cast": [
+    {
+     "src": "household bw/telephone",
+     "role": "hero",
+     "note": "w 320, the curly cord, big frame"
+    }
+   ],
+   "drawn": [
+    "tall frame: a ball of yarn with a long curly thread",
+    "frame: a toy slinky (six coils)",
+    "frame: a round spiral rug",
+    "frame: two curls of steam from a teapot spout (the teapot a plain outline)"
+   ],
+   "layout": "The published gallery of FIVE frames (one big top-left, one tall top-right, three along the bottom); one picture per frame.",
+   "why_distinct": "Indoor home objects with curly cords and threads."
+  },
+  {
+   "id": "ptx-K-424-deep-sea",
+   "level": 3,
+   "setting": "the deep sea",
+   "name_en": "The Deep Sea",
+   "cast": [
+    {
+     "src": "sea life bw 2/octopus",
+     "role": "hero",
+     "note": "h 250, band 3"
+    },
+    {
+     "src": "animals bw/seahorse",
+     "role": "row",
+     "note": "h 250, band 3"
+    }
+   ],
+   "drawn": [
+    "a nautilus shell (one spiral of four turns)",
+    "curly kelp (three curls)",
+    "a jellyfish with four curly tentacles",
+    "a whirlpool of bubbles (two loops)"
+   ],
+   "layout": "A gallery of SIX frames (two rows of three, ~205 x 340 each); one smaller picture per frame with more turns.",
+   "why_distinct": "Six smaller deep-sea curls; finer turns."
+  },
+  {
+   "id": "ptx-K-424-reptile-house",
+   "level": 3,
+   "setting": "a reptile house",
+   "name_en": "The Reptile House",
+   "cast": [
+    {
+     "src": "zoo animals bw/snake",
+     "role": "hero",
+     "note": "h 240, coiled"
+    },
+    {
+     "src": "animals bw 5/snake",
+     "role": "row",
+     "note": "h 230, coiled"
+    },
+    {
+     "src": "animals bw 5/lizard",
+     "role": "row",
+     "note": "w 200, curled tail"
+    },
+    {
+     "src": "animals bw/chameleon",
+     "role": "row",
+     "note": "w 200, curled tail on a branch, band 3"
+    }
+   ],
+   "drawn": [
+    "a coiled rope (four coils)",
+    "a curly fern (two spirals)"
+   ],
+   "layout": "A gallery of SIX frames (two rows of three, ~205 x 340 each); one smaller picture per frame with more turns.",
+   "why_distinct": "Reptiles with coils and curled tails."
+  },
+  {
+   "id": "ptx-K-424-garden",
+   "level": 3,
+   "setting": "a vegetable garden",
+   "name_en": "The Garden Hose",
+   "cast": [],
+   "drawn": [
+    "a coiled garden hose (four coils) on a reel",
+    "a sweet-pea vine with three curly tendrils",
+    "a curly worm (two curls)",
+    "a cabbage seen from above (one spiral of leaves)",
+    "a curled bean tendril on a stick",
+    "a sunflower whose centre is one spiral"
+   ],
+   "layout": "A gallery of SIX frames (two rows of three, ~205 x 340 each); one smaller picture per frame with more turns.",
+   "why_distinct": "All drawn garden curls: the library has no clean curly garden drawing."
+  },
+  {
+   "id": "ptx-K-424-farm",
+   "level": 3,
+   "setting": "a farm",
+   "name_en": "Curly Tails on the Farm",
+   "cast": [
+    {
+     "src": "animals bw 4/pig",
+     "role": "hero",
+     "note": "h 230, the curly tail"
+    },
+    {
+     "src": "animals bw 2/pig",
+     "role": "row",
+     "note": "w 230, curly tail"
+    }
+   ],
+   "drawn": [
+    "a ram’s head with two curled horns",
+    "a curly vine on the fence",
+    "a curl of smoke from the farmhouse chimney (two curls)",
+    "a coiled rope on a hook"
+   ],
+   "layout": "A gallery of SIX frames (two rows of three, ~205 x 340 each); one smaller picture per frame with more turns.",
+   "why_distinct": "Farm curls; two pigs and a ram."
+  },
+  {
+   "id": "ptx-K-424-funfair",
+   "level": 3,
+   "setting": "a funfair",
+   "name_en": "The Funfair",
+   "cast": [],
+   "drawn": [
+    "a helter-skelter slide (a tower with a spiral chute of three turns)",
+    "a rollercoaster loop (one big loop on a track)",
+    "a candy-floss swirl on a stick",
+    "a curly party streamer",
+    "a balloon on a curly string",
+    "a spinning teacup ride seen from above (one spiral)"
+   ],
+   "layout": "A gallery of SIX frames (two rows of three, ~205 x 340 each); one smaller picture per frame with more turns.",
+   "why_distinct": "Funfair rides with spirals and loops; all drawn."
+  }
+ ],
+ "K-425": [
+  {
+   "id": "ptx-K-425-bath-time",
+   "level": 1,
+   "setting": "a bathroom",
+   "name_en": "Bath Time",
+   "cast": [
+    {
+     "src": "toys bw/duck",
+     "role": "hero",
+     "note": "h 230, a rubber duck on the water"
+    }
+   ],
+   "drawn": [
+    "a bathtub (a long tub with a rim, two feet) filling the lower half",
+    "five big bubbles above the tub (circles)",
+    "a tap at the tub end"
+   ],
+   "layout": "Tub across the bottom half, duck floating in it, bubbles rising above; big closed areas to colour.",
+   "why_distinct": "Indoor bath scene; one big picture."
+  },
+  {
+   "id": "ptx-K-425-sky-toys",
+   "level": 1,
+   "setting": "the sky",
+   "name_en": "Toys in the Sky",
+   "cast": [
+    {
+     "src": "toys bw/rocket",
+     "role": "hero",
+     "note": "h 280"
+    },
+    {
+     "src": "toys bw/airplane",
+     "role": "pair",
+     "note": "w 260"
+    }
+   ],
+   "drawn": [
+    "two clouds",
+    "a crescent moon",
+    "three stars"
+   ],
+   "layout": "Rocket up the left, plane across the right, clouds below them, moon and stars at the top.",
+   "why_distinct": "Toy flyers; large colourable bodies."
+  },
+  {
+   "id": "ptx-K-425-pond",
+   "level": 1,
+   "setting": "a pond",
+   "name_en": "At the Pond",
+   "cast": [
+    {
+     "src": "animals bw/swan",
+     "role": "hero",
+     "note": "w 280"
+    },
+    {
+     "src": "animals bw/frog",
+     "role": "pair",
+     "note": "h 160, on a lily pad"
+    }
+   ],
+   "drawn": [
+    "the pond edge (one wide ellipse)",
+    "three lily pads (round with a notch)",
+    "four reeds"
+   ],
+   "layout": "Pond across the bottom half with the swan on it, frog on a lily pad at the right, reeds at the edges.",
+   "why_distinct": "Pond with two animals and big lily pads."
+  },
+  {
+   "id": "ptx-K-425-flowerpot",
+   "level": 1,
+   "setting": "a window sill",
+   "name_en": "The Flowerpot",
+   "cast": [
+    {
+     "src": "home bw 2/flower",
+     "role": "hero",
+     "note": "h 300, in its pot"
+    },
+    {
+     "src": "nature bw/ladybug",
+     "role": "prop",
+     "note": "w 90, on the sill"
+    },
+    {
+     "src": "Easter bw/butterfly",
+     "role": "prop",
+     "note": "w 150, flying"
+    }
+   ],
+   "drawn": [
+    "a window frame behind (one rectangle with a cross)",
+    "the window sill (one long ledge)"
+   ],
+   "layout": "Window frame fills the top; the flowerpot stands on the sill, ladybug beside it, butterfly in the window.",
+   "why_distinct": "A window sill indoors; one flower in a pot."
+  },
+  {
+   "id": "ptx-K-425-birthday-cake",
+   "level": 1,
+   "setting": "a birthday table",
+   "name_en": "The Birthday Cake",
+   "cast": [
+    {
+     "src": "food bw 2/cake_2",
+     "role": "hero",
+     "note": "w 300, cake on a plate"
+    },
+    {
+     "src": "Easter bw 2/balloon",
+     "role": "prop",
+     "note": "h 230, three balloons"
+    }
+   ],
+   "drawn": [
+    "the table edge (one long line)",
+    "a small gift (box, lid, ribbon)"
+   ],
+   "layout": "Cake centre on the table, balloons above it on the left, gift on the right.",
+   "why_distinct": "A party cake with balloons."
+  },
+  {
+   "id": "ptx-K-425-bedroom",
+   "level": 2,
+   "setting": "a bedroom",
+   "name_en": "Bedtime",
+   "cast": [
+    {
+     "src": "household bw/bed",
+     "role": "hero",
+     "note": "w 280"
+    },
+    {
+     "src": "toys bw/teddy_bear",
+     "role": "row",
+     "note": "h 140, on the bed"
+    },
+    {
+     "src": "toys bw/drum",
+     "role": "row",
+     "note": "h 110"
+    },
+    {
+     "src": "household bw/plant",
+     "role": "row",
+     "note": "h 160"
+    }
+   ],
+   "drawn": [
+    "a window with a crescent moon and two stars",
+    "a round rug with a fringe"
+   ],
+   "layout": "Bed along the bottom left with the teddy on it, drum and plant on the right, window above the bed, rug in front.",
+   "why_distinct": "Bedroom with toys; night window."
+  },
+  {
+   "id": "ptx-K-425-classroom",
+   "level": 2,
+   "setting": "a classroom",
+   "name_en": "In the Classroom",
+   "cast": [
+    {
+     "src": "classroom bw 2/chair",
+     "role": "hero",
+     "note": "h 200"
+    },
+    {
+     "src": "classroom bw/globe",
+     "role": "row",
+     "note": "h 150"
+    },
+    {
+     "src": "classroom bw/book",
+     "role": "row",
+     "note": "w 130"
+    },
+    {
+     "src": "classroom bw 2/backpack",
+     "role": "row",
+     "note": "h 160"
+    }
+   ],
+   "drawn": [
+    "a board on the wall (one rectangle with a ledge, empty)",
+    "a bookshelf with two shelves",
+    "a wall clock with hands and no numbers"
+   ],
+   "layout": "Board top centre, clock top right, shelf left with the book, globe on the shelf top, chair and backpack on the floor.",
+   "why_distinct": "Classroom objects."
+  },
+  {
+   "id": "ptx-K-425-bakery",
+   "level": 2,
+   "setting": "a bakery",
+   "name_en": "The Bakery",
+   "cast": [
+    {
+     "src": "dessert bw/cupcake",
+     "role": "hero",
+     "note": "h 170"
+    },
+    {
+     "src": "food bw/bread",
+     "role": "row",
+     "note": "w 140"
+    },
+    {
+     "src": "food bw 2/croissant",
+     "role": "row",
+     "note": "w 140"
+    },
+    {
+     "src": "food bw 2/sandwich",
+     "role": "row",
+     "note": "w 140"
+    }
+   ],
+   "drawn": [
+    "a shop counter (long top, front panel)",
+    "a striped awning with a scalloped edge across the top",
+    "a cake stand"
+   ],
+   "layout": "Awning across the top, counter across the bottom half with the food on it, cupcake on the cake stand.",
+   "why_distinct": "Bakery shop with breads."
+  },
+  {
+   "id": "ptx-K-425-pet-corner",
+   "level": 2,
+   "setting": "a pet corner",
+   "name_en": "The Pet Corner",
+   "cast": [
+    {
+     "src": "animals bw 4/rabbit",
+     "role": "hero",
+     "note": "h 170"
+    },
+    {
+     "src": "animals bw 5/hedgehog",
+     "role": "row",
+     "note": "h 120"
+    },
+    {
+     "src": "home bw/fishbowl",
+     "role": "row",
+     "note": "h 160"
+    },
+    {
+     "src": "animals bw 3/mouse",
+     "role": "row",
+     "note": "h 110"
+    }
+   ],
+   "drawn": [
+    "a rabbit hutch (box, mesh window, roof)",
+    "a food bowl",
+    "a round rug"
+   ],
+   "layout": "Hutch on the left, rabbit in front, fishbowl on a shelf top right, hedgehog and mouse on the rug.",
+   "why_distinct": "Pets indoors."
+  },
+  {
+   "id": "ptx-K-425-veg-garden",
+   "level": 2,
+   "setting": "a vegetable garden",
+   "name_en": "The Vegetable Garden",
+   "cast": [
+    {
+     "src": "vegetables bw/pumpkin",
+     "role": "hero",
+     "note": "w 160"
+    },
+    {
+     "src": "vegetables bw/carrot",
+     "role": "row",
+     "note": "h 150"
+    },
+    {
+     "src": "farm bw/watering_can",
+     "role": "row",
+     "note": "w 130"
+    },
+    {
+     "src": "nature bw/ladybug",
+     "role": "row",
+     "note": "w 70"
+    }
+   ],
+   "drawn": [
+    "a fence along the back",
+    "three soil rows (long humps)",
+    "sun",
+    "one cloud"
+   ],
+   "layout": "Fence across the middle, soil rows below with the pumpkin and carrots, watering can at the right, ladybug on the pumpkin leaf area, sun and cloud above.",
+   "why_distinct": "Garden with vegetables, no picnic."
+  },
+  {
+   "id": "ptx-K-425-toy-shop",
+   "level": 3,
+   "setting": "a toy shop",
+   "name_en": "The Toy Shop",
+   "cast": [
+    {
+     "src": "toys bw 2/teddy_bear",
+     "role": "hero",
+     "note": "h 140"
+    },
+    {
+     "src": "toys bw/rocking_horse",
+     "role": "row",
+     "note": "h 130"
+    },
+    {
+     "src": "toys bw 2/robot",
+     "role": "row",
+     "note": "h 130"
+    },
+    {
+     "src": "toys bw/trumpet",
+     "role": "row",
+     "note": "w 120"
+    },
+    {
+     "src": "toys bw 2/truck",
+     "role": "row",
+     "note": "w 140"
+    },
+    {
+     "src": "toys bw/train",
+     "role": "row",
+     "note": "w 200"
+    }
+   ],
+   "drawn": [
+    "three long shelves",
+    "a shop door with a round window"
+   ],
+   "layout": "Toys on three shelves (two per shelf), train on the bottom shelf, door on the right.",
+   "why_distinct": "Many toys, smaller, more detail."
+  },
+  {
+   "id": "ptx-K-425-under-sea",
+   "level": 3,
+   "setting": "under the sea",
+   "name_en": "Under the Sea",
+   "cast": [
+    {
+     "src": "sea life bw/clown_fish",
+     "role": "hero",
+     "note": "w 130"
+    },
+    {
+     "src": "sea life bw 2/clown_fish",
+     "role": "row",
+     "note": "w 120"
+    },
+    {
+     "src": "sea life bw 2/hermit_crab",
+     "role": "row",
+     "note": "w 110"
+    },
+    {
+     "src": "sea life bw 2/starfish",
+     "role": "row",
+     "note": "w 100"
+    },
+    {
+     "src": "animals bw 5/jellyfish",
+     "role": "row",
+     "note": "h 130"
+    },
+    {
+     "src": "sea life bw 2/shrimp",
+     "role": "row",
+     "note": "w 100"
+    }
+   ],
+   "drawn": [
+    "three seaweed fronds",
+    "the sand floor line",
+    "five bubbles"
+   ],
+   "layout": "Fish swim in the middle, jellyfish top right, crab, starfish and shrimp on the sand, seaweed between them.",
+   "why_distinct": "Underwater with eight small creatures."
+  },
+  {
+   "id": "ptx-K-425-kitchen",
+   "level": 3,
+   "setting": "a kitchen",
+   "name_en": "The Kitchen",
+   "cast": [
+    {
+     "src": "kitchen bw/teapot",
+     "role": "hero",
+     "note": "w 130"
+    },
+    {
+     "src": "home bw/pot",
+     "role": "row",
+     "note": "w 140"
+    },
+    {
+     "src": "kitchen bw/whisk",
+     "role": "row",
+     "note": "h 120"
+    },
+    {
+     "src": "kitchen bw/rolling_pin",
+     "role": "row",
+     "note": "w 130"
+    },
+    {
+     "src": "fruits bw/strawberry",
+     "role": "row",
+     "note": "h 70"
+    },
+    {
+     "src": "home bw/cactus",
+     "role": "row",
+     "note": "h 120"
+    }
+   ],
+   "drawn": [
+    "a wall shelf",
+    "a window with a curtain",
+    "a long worktop"
+   ],
+   "layout": "Worktop across the bottom with pot, rolling pin and strawberry; shelf above with the teapot and whisk; window with the cactus on its sill.",
+   "why_distinct": "Kitchen with tools and food."
+  },
+  {
+   "id": "ptx-K-425-safari",
+   "level": 3,
+   "setting": "the savanna",
+   "name_en": "On Safari",
+   "cast": [
+    {
+     "src": "zoo animals bw/zebra",
+     "role": "hero",
+     "note": "h 150, band 3"
+    },
+    {
+     "src": "zoo animals bw/lion_2",
+     "role": "row",
+     "note": "h 130"
+    },
+    {
+     "src": "animals bw 2/giraffe",
+     "role": "row",
+     "note": "h 200"
+    },
+    {
+     "src": "animals bw 5/camel",
+     "role": "row",
+     "note": "h 130"
+    },
+    {
+     "src": "animals bw 5/gorilla",
+     "role": "row",
+     "note": "h 120"
+    }
+   ],
+   "drawn": [
+    "a flat-top acacia tree",
+    "two hill lines",
+    "sun"
+   ],
+   "layout": "Giraffe by the acacia on the left, lion and zebra centre, camel and gorilla right, hills behind, sun above.",
+   "why_distinct": "Wild animals, the band-3 zebra."
+  },
+  {
+   "id": "ptx-K-425-flower-garden",
+   "level": 3,
+   "setting": "a flower garden",
+   "name_en": "The Flower Garden",
+   "cast": [
+    {
+     "src": "nature bw/flower",
+     "role": "hero",
+     "note": "h 180"
+    },
+    {
+     "src": "home and nature bw/flower",
+     "role": "row",
+     "note": "h 170"
+    },
+    {
+     "src": "valentine bw 2/tulip",
+     "role": "row",
+     "note": "h 150"
+    },
+    {
+     "src": "birds bw 2/hummingbird",
+     "role": "row",
+     "note": "w 110"
+    },
+    {
+     "src": "animals bw 3/bee",
+     "role": "row",
+     "note": "h 70"
+    },
+    {
+     "src": "nature bw/mushroom",
+     "role": "row",
+     "note": "h 80"
+    }
+   ],
+   "drawn": [
+    "a picket fence",
+    "sun",
+    "one cloud",
+    "a garden path stone"
+   ],
+   "layout": "Three flowers along the fence, hummingbird and bee between them, mushroom at the front, sun and cloud above.",
+   "why_distinct": "Flowers and small flying visitors."
+  }
+ ],
+ "K-426": [
+  {
+   "id": "ptx-K-426-breakfast",
+   "level": 1,
+   "setting": "a kitchen in the morning",
+   "name_en": "Breakfast Steps",
+   "cast": [
+    {
+     "src": "food bw 3/egg",
+     "role": "row",
+     "note": "1 stroke (index paths)"
+    },
+    {
+     "src": "kitchen bw/spoon",
+     "role": "row",
+     "note": "2 strokes (index paths)"
+    },
+    {
+     "src": "kitchen bw/jar",
+     "role": "row",
+     "note": "2 strokes (index paths)"
+    }
+   ],
+   "drawn": [],
+   "layout": "A staircase of THREE big steps (each ~220 wide); one picture per step, h ~200-230; ≤ 3 strokes each, every stroke with its start dot and arrow.",
+   "why_distinct": "Breakfast things; 1-2 strokes each."
+  },
+  {
+   "id": "ptx-K-426-rainy-day",
+   "level": 1,
+   "setting": "a rainy day",
+   "name_en": "Rainy Day Steps",
+   "cast": [
+    {
+     "src": "home and nature bw/cloud",
+     "role": "row",
+     "note": "1 stroke (index paths)"
+    },
+    {
+     "src": "nature bw/droplet",
+     "role": "row",
+     "note": "2 strokes (index paths)"
+    }
+   ],
+   "drawn": [
+    "an umbrella as designed strokes (canopy, handle hook: 2 strokes)"
+   ],
+   "layout": "A staircase of THREE big steps (each ~220 wide); one picture per step, h ~200-230; ≤ 3 strokes each, every stroke with its start dot and arrow.",
+   "why_distinct": "Weather; a cloud, a drop, an umbrella."
+  },
+  {
+   "id": "ptx-K-426-toy-shelf",
+   "level": 1,
+   "setting": "a toy shelf",
+   "name_en": "Toy Shelf Steps",
+   "cast": [
+    {
+     "src": "classroom bw/puzzle",
+     "role": "row",
+     "note": "2 strokes (index paths)"
+    },
+    {
+     "src": "toys bw 2/puzzle",
+     "role": "row",
+     "note": "3 strokes (index paths)"
+    },
+    {
+     "src": "sports bw 2/bowling_pin",
+     "role": "row",
+     "note": "3 strokes (index paths)"
+    }
+   ],
+   "drawn": [],
+   "layout": "A staircase of THREE big steps (each ~220 wide); one picture per step, h ~200-230; ≤ 3 strokes each, every stroke with its start dot and arrow.",
+   "why_distinct": "Toys; puzzle pieces and a skittle."
+  },
+  {
+   "id": "ptx-K-426-night-sky",
+   "level": 1,
+   "setting": "the night sky",
+   "name_en": "Night Sky Steps",
+   "cast": [
+    {
+     "src": "home and nature bw/moon",
+     "role": "row",
+     "note": "3 strokes (index paths)"
+    },
+    {
+     "src": "nature bw/star",
+     "role": "row",
+     "note": "1 stroke (index paths)"
+    }
+   ],
+   "drawn": [
+    "a planet with a ring as designed strokes (circle, ring: 2 strokes)"
+   ],
+   "layout": "A staircase of THREE big steps (each ~220 wide); one picture per step, h ~200-230; ≤ 3 strokes each, every stroke with its start dot and arrow.",
+   "why_distinct": "Night sky; moon, star and planet."
+  },
+  {
+   "id": "ptx-K-426-dog-house",
+   "level": 1,
+   "setting": "a dog’s yard",
+   "name_en": "The Dog’s Steps",
+   "cast": [
+    {
+     "src": "objects bw/bone",
+     "role": "row",
+     "note": "1 stroke (index paths)"
+    }
+   ],
+   "drawn": [
+    "a dog bowl as designed strokes (bowl, rim: 2 strokes)",
+    "a kennel as designed strokes (roof, walls, door: 3 strokes)"
+   ],
+   "layout": "A staircase of THREE big steps (each ~220 wide); one picture per step, h ~200-230; ≤ 3 strokes each, every stroke with its start dot and arrow.",
+   "why_distinct": "A dog’s things; bone, bowl, kennel."
+  },
+  {
+   "id": "ptx-K-426-beach",
+   "level": 2,
+   "setting": "the beach",
+   "name_en": "Beach Steps",
+   "cast": [
+    {
+     "src": "beach bw/anchor",
+     "role": "row",
+     "note": "4 strokes (index paths)"
+    },
+    {
+     "src": "beach bw/surfboard",
+     "role": "row",
+     "note": "4 strokes (index paths)"
+    }
+   ],
+   "drawn": [
+    "a sailboat as designed strokes (hull, mast, sail: 3 strokes)",
+    "a sand bucket as designed strokes (bucket, handle: 2 strokes)"
+   ],
+   "layout": "The published staircase of FOUR steps; one picture per step, h ~150-170; ≤ 4 strokes each.",
+   "why_distinct": "Seaside things."
+  },
+  {
+   "id": "ptx-K-426-kitchen",
+   "level": 2,
+   "setting": "a kitchen",
+   "name_en": "Kitchen Steps",
+   "cast": [
+    {
+     "src": "kitchen bw/saucepan",
+     "role": "row",
+     "note": "4 strokes (index paths)"
+    },
+    {
+     "src": "kitchen bw/ladle",
+     "role": "row",
+     "note": "4 strokes (index paths)"
+    },
+    {
+     "src": "kitchen bw/rolling_pin",
+     "role": "row",
+     "note": "4 strokes (index paths)"
+    },
+    {
+     "src": "kitchen bw/cutting_board",
+     "role": "row",
+     "note": "4 strokes (index paths)"
+    }
+   ],
+   "drawn": [],
+   "layout": "The published staircase of FOUR steps; one picture per step, h ~150-170; ≤ 4 strokes each.",
+   "why_distinct": "Cooking tools only; no food."
+  },
+  {
+   "id": "ptx-K-426-garden-shed",
+   "level": 2,
+   "setting": "a garden shed",
+   "name_en": "Garden Shed Steps",
+   "cast": [
+    {
+     "src": "tools bw/shovel",
+     "role": "row",
+     "note": "4 strokes (index paths)"
+    },
+    {
+     "src": "objects bw/vase",
+     "role": "row",
+     "note": "4 strokes (index paths)"
+    },
+    {
+     "src": "vegetables bw 2/pepper",
+     "role": "row",
+     "note": "3 strokes (index paths)"
+    }
+   ],
+   "drawn": [
+    "a watering can as designed strokes (body, spout, handle: 3 strokes)"
+   ],
+   "layout": "The published staircase of FOUR steps; one picture per step, h ~150-170; ≤ 4 strokes each.",
+   "why_distinct": "Garden tools and a pepper from the garden."
+  },
+  {
+   "id": "ptx-K-426-classroom",
+   "level": 2,
+   "setting": "a classroom",
+   "name_en": "Classroom Steps",
+   "cast": [
+    {
+     "src": "classroom bw 2/pencil",
+     "role": "row",
+     "note": "4 strokes (index paths)"
+    },
+    {
+     "src": "classroom bw 2/paper_airplane",
+     "role": "row",
+     "note": "4 strokes (index paths)"
+    }
+   ],
+   "drawn": [
+    "a book as designed strokes (cover, spine: 2 strokes)",
+    "a ruler as designed strokes (bar, three marks: 4 strokes)"
+   ],
+   "layout": "The published staircase of FOUR steps; one picture per step, h ~150-170; ≤ 4 strokes each.",
+   "why_distinct": "School things."
+  },
+  {
+   "id": "ptx-K-426-market",
+   "level": 2,
+   "setting": "a market stall",
+   "name_en": "Market Steps",
+   "cast": [
+    {
+     "src": "food bw 3/bread",
+     "role": "row",
+     "note": "4 strokes (index paths)"
+    },
+    {
+     "src": "fruits bw/banana",
+     "role": "row",
+     "note": "4 strokes (index paths)"
+    },
+    {
+     "src": "fruits bw/pomegranate",
+     "role": "row",
+     "note": "4 strokes (index paths)"
+    }
+   ],
+   "drawn": [
+    "a pear as designed strokes (body, stalk: 2 strokes)"
+   ],
+   "layout": "The published staircase of FOUR steps; one picture per step, h ~150-170; ≤ 4 strokes each.",
+   "why_distinct": "Food from a market."
+  },
+  {
+   "id": "ptx-K-426-workshop",
+   "level": 3,
+   "setting": "a workshop",
+   "name_en": "Workshop Steps",
+   "cast": [
+    {
+     "src": "tools bw/wrench",
+     "role": "row",
+     "note": "3 strokes (index paths)"
+    },
+    {
+     "src": "tools bw/double-ended_wrench",
+     "role": "row",
+     "note": "4 strokes (index paths)"
+    },
+    {
+     "src": "tools bw/axe_2",
+     "role": "row",
+     "note": "3 strokes (index paths)"
+    }
+   ],
+   "drawn": [
+    "a hammer as designed strokes (head, handle: 2 strokes)",
+    "a nail as designed strokes (head, shaft: 2 strokes)"
+   ],
+   "layout": "A staircase of FIVE steps (each ~130 wide); one picture per step, h ~110-125; ≤ 4 strokes each, the dots and arrows smaller.",
+   "why_distinct": "Five small tools."
+  },
+  {
+   "id": "ptx-K-426-gym",
+   "level": 3,
+   "setting": "a gym",
+   "name_en": "Gym Steps",
+   "cast": [
+    {
+     "src": "sports bw/kettlebell",
+     "role": "row",
+     "note": "3 strokes (index paths)"
+    }
+   ],
+   "drawn": [
+    "a dumbbell as designed strokes (bar, two weights: 3 strokes)",
+    "a ball as designed strokes (circle, one seam: 2 strokes)",
+    "a water bottle as designed strokes (bottle, cap: 2 strokes)",
+    "a medal as designed strokes (ribbon V, disc: 2 strokes)"
+   ],
+   "layout": "A staircase of FIVE steps (each ~130 wide); one picture per step, h ~110-125; ≤ 4 strokes each, the dots and arrows smaller.",
+   "why_distinct": "Sports things, five steps."
+  },
+  {
+   "id": "ptx-K-426-picnic",
+   "level": 3,
+   "setting": "a picnic",
+   "name_en": "Picnic Steps",
+   "cast": [
+    {
+     "src": "home and nature bw/plate",
+     "role": "row",
+     "note": "3 strokes (index paths)"
+    },
+    {
+     "src": "kitchen bw/fork",
+     "role": "row",
+     "note": "1 stroke (index paths)"
+    },
+    {
+     "src": "home and nature bw/spoon",
+     "role": "row",
+     "note": "2 strokes (index paths)"
+    }
+   ],
+   "drawn": [
+    "a cup as designed strokes (cup, handle: 2 strokes)",
+    "an apple as designed strokes (body, stalk, leaf: 3 strokes)"
+   ],
+   "layout": "A staircase of FIVE steps (each ~130 wide); one picture per step, h ~110-125; ≤ 4 strokes each, the dots and arrows smaller.",
+   "why_distinct": "Picnic table things."
+  },
+  {
+   "id": "ptx-K-426-treasure",
+   "level": 3,
+   "setting": "a treasure hunt",
+   "name_en": "Treasure Steps",
+   "cast": [
+    {
+     "src": "valentine bw/key",
+     "role": "row",
+     "note": "4 strokes (index paths)"
+    }
+   ],
+   "drawn": [
+    "a coin as designed strokes (one circle: 1 stroke)",
+    "a crown as designed strokes (zigzag top, band: 2 strokes)",
+    "a gem as designed strokes (outline, one facet line: 2 strokes)",
+    "a treasure chest as designed strokes (box, lid, lock: 3 strokes)"
+   ],
+   "layout": "A staircase of FIVE steps (each ~130 wide); one picture per step, h ~110-125; ≤ 4 strokes each, the dots and arrows smaller.",
+   "why_distinct": "Treasure; a key, a coin, a crown, a gem, a chest."
+  },
+  {
+   "id": "ptx-K-426-wardrobe",
+   "level": 3,
+   "setting": "a wardrobe",
+   "name_en": "Getting Dressed Steps",
+   "cast": [
+    {
+     "src": "objects bw/hanger",
+     "role": "row",
+     "note": "2 strokes (index paths)"
+    },
+    {
+     "src": "apparel bw/necktie",
+     "role": "row",
+     "note": "1 stroke (index paths)"
+    },
+    {
+     "src": "travel and holiday bw/hat",
+     "role": "row",
+     "note": "4 strokes (index paths)"
+    }
+   ],
+   "drawn": [
+    "a shirt as designed strokes (body, collar: 2 strokes)",
+    "a mitten as designed strokes (outline, cuff: 2 strokes)"
+   ],
+   "layout": "A staircase of FIVE steps (each ~130 wide); one picture per step, h ~110-125; ≤ 4 strokes each, the dots and arrows smaller.",
+   "why_distinct": "Clothes; no stocking (the published hero)."
+  }
+ ],
+ "K-427": [
+  {
+   "id": "ptx-K-427-rock-pool",
+   "level": 1,
+   "setting": "a rock pool",
+   "name_en": "Crabs in the Rock Pool",
+   "cast": [
+    {
+     "src": "animals bw 5/crab",
+     "role": "count",
+     "note": "× 3, h ~170, traced; some flipped"
+    },
+    {
+     "src": "sea life bw/starfish",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    },
+    {
+     "src": "beach bw/seashell",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    }
+   ],
+   "drawn": [
+    "three pebbles at the pool edge (solid grey)",
+    "one wave row at the top"
+   ],
+   "layout": "The count box top left and the oval stay; the oval is a rock pool. 3 crab inside the oval, spread in one loose row, none touching; the distractors stand solid above the oval.",
+   "why_distinct": "Three big crabs; seaside instead of a pond."
+  },
+  {
+   "id": "ptx-K-427-ice-floe",
+   "level": 1,
+   "setting": "an ice floe",
+   "name_en": "Penguins on the Ice Floe",
+   "cast": [
+    {
+     "src": "birds bw/penguin_2",
+     "role": "count",
+     "note": "× 4, h ~170, traced; some flipped"
+    },
+    {
+     "src": "sea life bw 2/seal",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    }
+   ],
+   "drawn": [
+    "a low sun",
+    "two snowflakes (solid grey)"
+   ],
+   "layout": "The count box top left and the oval stay; the oval is an ice floe. 4 penguin inside the oval, spread in one loose row, none touching; the distractors stand solid above the oval.",
+   "why_distinct": "Four penguins on ice; polar."
+  },
+  {
+   "id": "ptx-K-427-farmyard",
+   "level": 1,
+   "setting": "a patch of straw in the farmyard",
+   "name_en": "Chicks in the Farmyard",
+   "cast": [
+    {
+     "src": "animals bw 4/chick",
+     "role": "count",
+     "note": "× 4, h ~150, traced; some flipped"
+    },
+    {
+     "src": "animals bw 4/cow",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    },
+    {
+     "src": "farm bw/watering_can",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    }
+   ],
+   "drawn": [
+    "a fence behind the oval",
+    "sun"
+   ],
+   "layout": "The count box top left and the oval stay; the oval is a patch of straw in the farmyard. 4 chick inside the oval, spread in one loose row, none touching; the distractors stand solid above the oval.",
+   "why_distinct": "Four chicks; the distractors are a cow and a can, never another bird."
+  },
+  {
+   "id": "ptx-K-427-lily-pond",
+   "level": 1,
+   "setting": "a lily pond",
+   "name_en": "Frogs on the Lily Pond",
+   "cast": [
+    {
+     "src": "animals bw/frog",
+     "role": "count",
+     "note": "× 3, h ~160, traced; some flipped"
+    },
+    {
+     "src": "animals bw/swan",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    }
+   ],
+   "drawn": [
+    "three lily pads under the frogs (solid grey)",
+    "four reeds (solid grey)"
+   ],
+   "layout": "The count box top left and the oval stay; the oval is a lily pond. 3 frog inside the oval, spread in one loose row, none touching; the distractors stand solid above the oval.",
+   "why_distinct": "Three frogs; the frog the published page used as a distractor is now the counted animal, the swan the distractor."
+  },
+  {
+   "id": "ptx-K-427-flower-bed",
+   "level": 1,
+   "setting": "a flower bed",
+   "name_en": "Bees in the Flower Bed",
+   "cast": [
+    {
+     "src": "animals bw 3/bee",
+     "role": "count",
+     "note": "× 4, h ~140, traced; some flipped"
+    },
+    {
+     "src": "Easter bw/butterfly",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    },
+    {
+     "src": "home bw 2/flower",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    }
+   ],
+   "drawn": [
+    "sun",
+    "two daisies (solid grey) on the rim"
+   ],
+   "layout": "The count box top left and the oval stay; the oval is a flower bed. 4 bee inside the oval, spread in one loose row, none touching; the distractors stand solid above the oval.",
+   "why_distinct": "Four bees; insects instead of birds."
+  },
+  {
+   "id": "ptx-K-427-lake",
+   "level": 2,
+   "setting": "a lake",
+   "name_en": "Swans on the Lake",
+   "cast": [
+    {
+     "src": "animals bw 5/swan",
+     "role": "count",
+     "note": "× 5, h ~125, traced; some flipped"
+    },
+    {
+     "src": "animals bw 5/frog",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    },
+    {
+     "src": "home and nature bw/tree_3",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    }
+   ],
+   "drawn": [
+    "two ripple rows under the swans"
+   ],
+   "layout": "The count box top left and the oval stay; the oval is a lake. 5 swan inside the oval, spread in two loose rows, none touching; the distractors stand solid above the oval.",
+   "why_distinct": "Five swans; a lake with a tree on the shore."
+  },
+  {
+   "id": "ptx-K-427-coral-sea",
+   "level": 2,
+   "setting": "a coral sea",
+   "name_en": "Clownfish in the Coral Sea",
+   "cast": [
+    {
+     "src": "sea life bw/clown_fish",
+     "role": "count",
+     "note": "× 6, h ~110, traced; some flipped"
+    },
+    {
+     "src": "sea life bw/octopus",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    },
+    {
+     "src": "sea life bw 2/turtle",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    }
+   ],
+   "drawn": [
+    "three seaweed fronds on the rim",
+    "five bubbles"
+   ],
+   "layout": "The count box top left and the oval stay; the oval is a coral sea. 6 clown fish inside the oval, spread in two loose rows, none touching; the distractors stand solid above the oval.",
+   "why_distinct": "Six fish underwater."
+  },
+  {
+   "id": "ptx-K-427-garden-leaf",
+   "level": 2,
+   "setting": "a big garden leaf",
+   "name_en": "Ladybugs on the Leaf",
+   "cast": [
+    {
+     "src": "nature bw/ladybug",
+     "role": "count",
+     "note": "× 5, h ~100, traced; some flipped"
+    },
+    {
+     "src": "animals bw 5/hedgehog",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    },
+    {
+     "src": "nature bw/mushroom",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    }
+   ],
+   "drawn": [
+    "the leaf midrib as one solid line across the oval",
+    "sun"
+   ],
+   "layout": "The count box top left and the oval stay; the oval is a big garden leaf. 5 ladybug inside the oval, spread in two loose rows, none touching; the distractors stand solid above the oval.",
+   "why_distinct": "Five ladybugs; the oval becomes a leaf."
+  },
+  {
+   "id": "ptx-K-427-night-cave",
+   "level": 2,
+   "setting": "a cave at night",
+   "name_en": "Bats in the Cave",
+   "cast": [
+    {
+     "src": "animals bw 5/bat",
+     "role": "count",
+     "note": "× 5, h ~90, traced; some flipped"
+    },
+    {
+     "src": "animals bw 5/owl",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    }
+   ],
+   "drawn": [
+    "a crescent moon",
+    "three stars"
+   ],
+   "layout": "The count box top left and the oval stay; the oval is a cave at night. 5 bat inside the oval, spread in two loose rows, none touching; the distractors stand solid above the oval.",
+   "why_distinct": "Five bats; a night setting."
+  },
+  {
+   "id": "ptx-K-427-rabbit-field",
+   "level": 2,
+   "setting": "a field",
+   "name_en": "Rabbits in the Field",
+   "cast": [
+    {
+     "src": "animals bw 4/rabbit",
+     "role": "count",
+     "note": "× 6, h ~120, traced; some flipped"
+    },
+    {
+     "src": "vegetables bw/carrot",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    },
+    {
+     "src": "animals bw/squirrel",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    }
+   ],
+   "drawn": [
+    "grass tufts on the rim (solid grey)",
+    "sun",
+    "one cloud"
+   ],
+   "layout": "The count box top left and the oval stay; the oval is a field. 6 rabbit inside the oval, spread in two loose rows, none touching; the distractors stand solid above the oval.",
+   "why_distinct": "Six rabbits in a field."
+  },
+  {
+   "id": "ptx-K-427-fishing-lake",
+   "level": 3,
+   "setting": "a fishing lake",
+   "name_en": "Fish in the Lake",
+   "cast": [
+    {
+     "src": "animals bw 5/fish",
+     "role": "count",
+     "note": "× 8, h ~80, traced; some flipped"
+    },
+    {
+     "src": "travel and holiday bw/kayak",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    },
+    {
+     "src": "animals bw 5/turtle",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    }
+   ],
+   "drawn": [
+    "two ripple rows",
+    "four reeds"
+   ],
+   "layout": "The count box top left and the oval stay; the oval is a fishing lake. 8 fish inside the oval, spread in three loose rows, none touching; the distractors stand solid above the oval.",
+   "why_distinct": "Eight small fish."
+  },
+  {
+   "id": "ptx-K-427-butterfly-garden",
+   "level": 3,
+   "setting": "a butterfly garden",
+   "name_en": "Butterflies in the Garden",
+   "cast": [
+    {
+     "src": "Easter bw/butterfly",
+     "role": "count",
+     "note": "× 9, h ~75, traced; some flipped"
+    },
+    {
+     "src": "animals bw 3/bee",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    },
+    {
+     "src": "animals bw 3/ladybug",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    }
+   ],
+   "drawn": [
+    "sun",
+    "a fence behind the oval"
+   ],
+   "layout": "The count box top left and the oval stay; the oval is a butterfly garden. 9 butterfly inside the oval, spread in three loose rows, none touching; the distractors stand solid above the oval.",
+   "why_distinct": "Nine butterflies; the highest count but one."
+  },
+  {
+   "id": "ptx-K-427-jellyfish-bay",
+   "level": 3,
+   "setting": "a bay",
+   "name_en": "Jellyfish in the Bay",
+   "cast": [
+    {
+     "src": "animals bw 5/jellyfish",
+     "role": "count",
+     "note": "× 7, h ~90, traced; some flipped"
+    },
+    {
+     "src": "sea life bw 2/seahorse",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    },
+    {
+     "src": "sea life bw/starfish",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    }
+   ],
+   "drawn": [
+    "one wave row at the top of the oval",
+    "five bubbles"
+   ],
+   "layout": "The count box top left and the oval stay; the oval is a bay. 7 jellyfish inside the oval, spread in three loose rows, none touching; the distractors stand solid above the oval.",
+   "why_distinct": "Seven jellyfish."
+  },
+  {
+   "id": "ptx-K-427-mouse-barn",
+   "level": 3,
+   "setting": "a barn floor",
+   "name_en": "Mice in the Barn",
+   "cast": [
+    {
+     "src": "animals bw 5/mouse",
+     "role": "count",
+     "note": "× 8, h ~80, traced; some flipped"
+    },
+    {
+     "src": "animals bw 4/cat",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    },
+    {
+     "src": "food bw 3/cheese",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    }
+   ],
+   "drawn": [
+    "a barn wall line with a door",
+    "three straw tufts (solid grey)"
+   ],
+   "layout": "The count box top left and the oval stay; the oval is a barn floor. 8 mouse inside the oval, spread in three loose rows, none touching; the distractors stand solid above the oval.",
+   "why_distinct": "Eight mice; a cat and a cheese as distractors."
+  },
+  {
+   "id": "ptx-K-427-sheep-meadow",
+   "level": 3,
+   "setting": "a meadow",
+   "name_en": "Sheep in the Meadow",
+   "cast": [
+    {
+     "src": "animals bw 4/sheep",
+     "role": "count",
+     "note": "× 10, h ~80, traced; some flipped"
+    },
+    {
+     "src": "animals bw/dog",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    },
+    {
+     "src": "home and nature bw/tree_3",
+     "role": "distractor",
+     "note": "solid model, outside the oval, not counted"
+    }
+   ],
+   "drawn": [
+    "a fence round the meadow (behind the oval)",
+    "sun"
+   ],
+   "layout": "The count box top left and the oval stay; the oval is a meadow. 10 sheep inside the oval, spread in three loose rows, none touching; the distractors stand solid above the oval.",
+   "why_distinct": "Ten sheep, the top of the 3-10 band."
+  }
+ ]
+}

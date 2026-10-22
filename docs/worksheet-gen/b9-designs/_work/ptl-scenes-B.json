@@ -1,0 +1,4865 @@
+{
+ "_notes": {
+  "designer": "B (K-428…K-432, G1-429…G1-433), 2026-10-22",
+  "contact_sheets": [
+   "scripts/worksheet-gen/out/pt/studio-B-k428.png",
+   "scripts/worksheet-gen/out/pt/studio-B-k429-431.png",
+   "scripts/worksheet-gen/out/pt/studio-B-k432-g1429.png",
+   "scripts/worksheet-gen/out/pt/studio-B-g1430-433.png",
+   "scripts/worksheet-gen/out/pt/studio-B-g1432.png",
+   "scripts/worksheet-gen/out/pt/studio-B-extra.png"
+  ],
+  "refused_on_the_sheets": "text inside the picture: objects bw/toothpaste ('Toothpaste'), objects bw/bottle ('Water'), food bw 3/milk ('MILK'), education bw/letter (scribbled lines), beach bw/compass (N E S W), travel and holiday bw/taxi + vehicles bw 2/taxi ('TAXI'), sports bw/eight_ball (an 8); reads as something else: food bw 2/egg (reads as an avocado), valentine bw/heart (two hearts), farm animals bw/pigeon (reads as a chick), sea life bw 2/squid (reads as an octopus: used only where the part is named 'tentacles'), birds bw 2/bird_2 (reads as a dodo), classroom bw/stamp (a rubber stamp no 5-year-old names).",
+  "K-430": "vector shapes only (face rule): every copy is DRAWN geometry, cast is empty by design; the shape list per copy is in 'drawn'.",
+  "K-429": "the tree, baubles, stars, gifts, window and rug are drawn as on the published page; library cast is the props around it.",
+  "honesty": {
+   "G1-430": "Only 13 usable nouns have a word of <= 5 letters in all 11 locales (cat is the published card). Four L1 sets are strict <= 5; the fifth L1 set (ptx-G1-430-cottage) reaches 6 letters (Coruja, Árvore, Uggla, Pöllö) — flagged. L3 'Barnyard' has 3-letter words in sv/da/no/pt (Får, Sau, Get, Ged, Coq) below the pedagogue's 4-letter floor — flagged; every other L3 set holds 4-7 in all 11 locales with >= 2 English digraphs/double letters. Word lengths were checked against REFERENCE TRANSLATIONS/image-vocabulary.js x 11 (script run 2026-10-22).",
+   "G1-432": "The library holds ~55 truly symmetric drawings (symmetry.json max <= 10) and almost all are OBJECTS; there is no animal at <= 8 px except the ladybug, the teddy (published) and the butterflies. So the other-half set is mostly objects, every picture is used once across the 15 copies (no reuse), no picture above max 10 px. Koala (faces bw, 9.3) is used once as a BOOK hero where its ears have room (it was refused inside a 165-px window on the published page). L3 'inner details' are drawers, doors, columns, wing veins, buttons — not always eyes."
+  }
+ },
+ "K-428": [
+  {
+   "id": "ptx-K-428-tree-stump",
+   "level": 1,
+   "setting": "forest tree stump",
+   "name_en": "The Forest Stump",
+   "cast": [
+    {
+     "src": "Easter bw/mushroom",
+     "role": "row",
+     "note": "missing part: the cap"
+    },
+    {
+     "src": "animals bw/snail",
+     "role": "row",
+     "note": "missing part: the shell"
+    },
+    {
+     "src": "nature bw/bird",
+     "role": "row",
+     "note": "missing part: the wing"
+    },
+    {
+     "src": "animals bw/frog",
+     "role": "row",
+     "note": "missing part: the back legs"
+    }
+   ],
+   "drawn": [
+    "the two shelves drawn as thick log planks",
+    "a fir branch hanging along the top edge instead of bunting",
+    "two grass tufts under the lower plank"
+   ],
+   "layout": "2 shelves x 2: mushroom + snail on the top log, bird + frog on the bottom log, each 230-280 px.",
+   "why_distinct": "woodland creatures on log shelves; no vehicle or crockery; the fir branch replaces the bunting."
+  },
+  {
+   "id": "ptx-K-428-boat-hut",
+   "level": 1,
+   "setting": "seaside boat hut",
+   "name_en": "The Boat Hut",
+   "cast": [
+    {
+     "src": "vehicles bw/sailboat",
+     "role": "row",
+     "note": "missing part: the sails"
+    },
+    {
+     "src": "animals bw 5/crab",
+     "role": "row",
+     "note": "missing part: the claws"
+    },
+    {
+     "src": "beach bw/lighthouse",
+     "role": "row",
+     "note": "missing part: the lamp room on top"
+    },
+    {
+     "src": "beach bw/bucket",
+     "role": "row",
+     "note": "missing part: the spade"
+    }
+   ],
+   "drawn": [
+    "a rope hanging in loops along the top edge",
+    "a shelf of driftwood planks",
+    "a small life-buoy hook at the right end of the top shelf (solid)"
+   ],
+   "layout": "sailboat + crab top, lighthouse + bucket bottom; the lighthouse stands at the right of the lower shelf so its height fills the bay.",
+   "why_distinct": "the only seaside copy; big parts (sails, claws, lamp room) not wheels or ears."
+  },
+  {
+   "id": "ptx-K-428-sweet-shop",
+   "level": 1,
+   "setting": "sweet shop counter",
+   "name_en": "The Sweet Shop",
+   "cast": [
+    {
+     "src": "food bw/ice_cream",
+     "role": "row",
+     "note": "missing part: the stick"
+    },
+    {
+     "src": "valentine bw/cupcake",
+     "role": "row",
+     "note": "missing part: the icing on top"
+    },
+    {
+     "src": "dessert bw/candy",
+     "role": "row",
+     "note": "missing part: the two twisted ends of the wrapper"
+    },
+    {
+     "src": "food bw/lollipop",
+     "role": "row",
+     "note": "missing part: the stick (the spiral stays solid)"
+    }
+   ],
+   "drawn": [
+    "a striped shop awning scallop along the top edge",
+    "glass-counter shelves (two long rounded shelves)"
+   ],
+   "layout": "ice cream + cupcake top, candy + lollipop bottom; the candy lies wide, the lollipop stands tall so the bottom row reads as two shapes.",
+   "why_distinct": "sweets only; the awning replaces the bunting; parts are sticks, icing and wrapper ends."
+  },
+  {
+   "id": "ptx-K-428-bedroom",
+   "level": 1,
+   "setting": "doll's house bedroom",
+   "name_en": "The Doll's House",
+   "cast": [
+    {
+     "src": "furniture bw/chair",
+     "role": "row",
+     "note": "missing part: the back"
+    },
+    {
+     "src": "furniture bw/floor_lamp",
+     "role": "row",
+     "note": "missing part: the lampshade"
+    },
+    {
+     "src": "furniture bw/table",
+     "role": "row",
+     "note": "missing part: the stand and foot"
+    },
+    {
+     "src": "furniture bw/wardrobe",
+     "role": "row",
+     "note": "missing part: the two doors"
+    }
+   ],
+   "drawn": [
+    "a roof-line triangle over the two shelves so they read as the floors of a doll's house",
+    "a small round window in the gable (solid)"
+   ],
+   "layout": "chair + lamp on the upper floor, table + wardrobe on the lower floor; the wardrobe on the right of the lower floor.",
+   "why_distinct": "furniture in a doll's house; the house outline replaces the bunting."
+  },
+  {
+   "id": "ptx-K-428-hangar",
+   "level": 1,
+   "setting": "airport hangar",
+   "name_en": "The Flying Workshop",
+   "cast": [
+    {
+     "src": "vehicles bw 2/airplane",
+     "role": "row",
+     "note": "missing part: the wings"
+    },
+    {
+     "src": "toys bw/helicopter",
+     "role": "row",
+     "note": "missing part: the rotor on top"
+    },
+    {
+     "src": "toys bw/rocket",
+     "role": "row",
+     "note": "missing part: the fins"
+    },
+    {
+     "src": "toys bw 2/kite",
+     "role": "row",
+     "note": "missing part: the tail with bows"
+    }
+   ],
+   "drawn": [
+    "an arched hangar roof line over the shelves",
+    "a wind sock on a pole at the top right (solid)"
+   ],
+   "layout": "airplane + helicopter top (both wide), rocket + kite bottom (both tall).",
+   "why_distinct": "things that fly; no wheels; wings, rotor, fins and a tail."
+  },
+  {
+   "id": "ptx-K-428-pet-shop",
+   "level": 2,
+   "setting": "pet shop shelves",
+   "name_en": "The Pet Shop",
+   "cast": [
+    {
+     "src": "animals bw 4/cat",
+     "role": "row",
+     "note": "missing part: the tail"
+    },
+    {
+     "src": "nature bw/fish",
+     "role": "row",
+     "note": "missing part: the tail fin"
+    },
+    {
+     "src": "faces bw/mouse",
+     "role": "row",
+     "note": "missing part: the ears"
+    },
+    {
+     "src": "faces bw/dog",
+     "role": "row",
+     "note": "missing part: the ears"
+    },
+    {
+     "src": "birds bw 2/bird",
+     "role": "row",
+     "note": "missing part: the wing"
+    },
+    {
+     "src": "animals bw 4/chick",
+     "role": "row",
+     "note": "missing part: the feet"
+    }
+   ],
+   "drawn": [
+    "a row of hanging paw-print tags along the top (solid)",
+    "a fish bowl rim drawn round the fish only (solid)"
+   ],
+   "layout": "cat, fish in its bowl, mouse face on top; dog face, bird, chick below; 190-230 px each.",
+   "why_distinct": "pets; tails, ears, wing, feet; the fish bowl is the one setting prop."
+  },
+  {
+   "id": "ptx-K-428-aquarium",
+   "level": 2,
+   "setting": "aquarium windows",
+   "name_en": "The Aquarium",
+   "cast": [
+    {
+     "src": "sea life bw/dolphin",
+     "role": "row",
+     "note": "missing part: the tail"
+    },
+    {
+     "src": "sea life bw/stingray",
+     "role": "row",
+     "note": "missing part: the long tail"
+    },
+    {
+     "src": "sea life bw/narwhal",
+     "role": "row",
+     "note": "missing part: the horn (tusk)"
+    },
+    {
+     "src": "sea life bw/penguin",
+     "role": "row",
+     "note": "missing part: the flippers"
+    },
+    {
+     "src": "sea life bw 2/squid",
+     "role": "row",
+     "note": "missing part: the tentacles (reads as an octopus: name the PART, not the animal)"
+    },
+    {
+     "src": "sea life bw/orca",
+     "role": "row",
+     "note": "missing part: the fin on the back"
+    }
+   ],
+   "drawn": [
+    "the two shelves become two long tank windows with a wavy water line along their tops",
+    "three small bubbles per window (solid)"
+   ],
+   "layout": "dolphin, stingray, narwhal in the upper tank; penguin, squid, orca in the lower tank.",
+   "why_distinct": "underwater animals behind glass; the tank windows replace shelves and bunting."
+  },
+  {
+   "id": "ptx-K-428-kitchen",
+   "level": 2,
+   "setting": "kitchen dresser",
+   "name_en": "The Kitchen Dresser",
+   "cast": [
+    {
+     "src": "home bw/frying_pan",
+     "role": "row",
+     "note": "missing part: the handle"
+    },
+    {
+     "src": "kitchen bw/jar",
+     "role": "row",
+     "note": "missing part: the lid"
+    },
+    {
+     "src": "kitchen bw/electric_kettle",
+     "role": "row",
+     "note": "missing part: the handle"
+    },
+    {
+     "src": "kitchen bw/rolling_pin",
+     "role": "row",
+     "note": "missing part: the two handles"
+    },
+    {
+     "src": "home bw/blender",
+     "role": "row",
+     "note": "missing part: the jug on top"
+    },
+    {
+     "src": "home bw/mixer",
+     "role": "row",
+     "note": "missing part: the bowl"
+    }
+   ],
+   "drawn": [
+    "a plate rack with three round plates along the top (solid)",
+    "dresser shelves with a scalloped front edge"
+   ],
+   "layout": "pan, jar, kettle on top; rolling pin, blender, mixer below; the published teapot / cup are NOT used.",
+   "why_distinct": "kitchen tools without teapot or cup; the plate rack replaces the bunting."
+  },
+  {
+   "id": "ptx-K-428-garden-shed",
+   "level": 2,
+   "setting": "garden shed wall",
+   "name_en": "The Garden Shed",
+   "cast": [
+    {
+     "src": "home bw 2/watering_can",
+     "role": "row",
+     "note": "missing part: the spout"
+    },
+    {
+     "src": "tools bw/shovel",
+     "role": "row",
+     "note": "missing part: the blade"
+    },
+    {
+     "src": "tools bw/lawn_mower",
+     "role": "row",
+     "note": "missing part: the handle"
+    },
+    {
+     "src": "tools bw/hammer",
+     "role": "row",
+     "note": "missing part: the head"
+    },
+    {
+     "src": "home bw 2/broom",
+     "role": "row",
+     "note": "missing part: the bristles"
+    },
+    {
+     "src": "tools bw/paint_roller",
+     "role": "row",
+     "note": "missing part: the handle"
+    }
+   ],
+   "drawn": [
+    "wooden plank wall lines behind the shelves (solid, light)",
+    "a small shed window at the top left (solid)"
+   ],
+   "layout": "watering can, shovel, lawn mower on top; hammer, broom, paint roller below.",
+   "why_distinct": "garden and DIY tools; the only shed; spout/blade/head/bristles."
+  },
+  {
+   "id": "ptx-K-428-clothes-shop",
+   "level": 2,
+   "setting": "clothes shop rail",
+   "name_en": "The Clothes Shop",
+   "cast": [
+    {
+     "src": "apparel bw/cap",
+     "role": "row",
+     "note": "missing part: the peak"
+    },
+    {
+     "src": "apparel bw/mittens",
+     "role": "row",
+     "note": "missing part: the thumbs"
+    },
+    {
+     "src": "apparel bw/t-shirt",
+     "role": "row",
+     "note": "missing part: the sleeves"
+    },
+    {
+     "src": "apparel bw/high-heeled_shoes",
+     "role": "row",
+     "note": "missing part: the heels"
+    },
+    {
+     "src": "apparel bw/coat_2",
+     "role": "row",
+     "note": "missing part: the hood"
+    },
+    {
+     "src": "valentine bw 2/handbag",
+     "role": "row",
+     "note": "missing part: the handle"
+    }
+   ],
+   "drawn": [
+    "a clothes rail with three hangers along the top (solid)",
+    "shop shelves with a thin price-rail edge (no numbers)"
+   ],
+   "layout": "cap, mittens, t-shirt on top; shoes, coat, handbag below.",
+   "why_distinct": "clothing; no animals or vehicles; the rail replaces the bunting."
+  },
+  {
+   "id": "ptx-K-428-bird-house",
+   "level": 3,
+   "setting": "bird hide in a tree",
+   "name_en": "The Birdwatchers' Hut",
+   "cast": [
+    {
+     "src": "birds bw 2/toucan",
+     "role": "row",
+     "note": "missing part: the beak"
+    },
+    {
+     "src": "birds bw 2/hummingbird",
+     "role": "row",
+     "note": "missing part: the long beak"
+    },
+    {
+     "src": "birds bw/parrot",
+     "role": "row",
+     "note": "missing part: the tail"
+    },
+    {
+     "src": "birds bw 2/chicken",
+     "role": "row",
+     "note": "missing part: the comb"
+    },
+    {
+     "src": "birds bw/flamingo",
+     "role": "row",
+     "note": "missing part: the legs"
+    },
+    {
+     "src": "animals bw 5/owl",
+     "role": "row",
+     "note": "missing part: the ear tufts"
+    },
+    {
+     "src": "birds bw 2/crow",
+     "role": "row",
+     "note": "missing part: the tail"
+    },
+    {
+     "src": "birds bw 2/swan",
+     "role": "row",
+     "note": "missing part: the neck"
+    }
+   ],
+   "drawn": [
+    "two branches as shelves with a few solid leaves",
+    "a hanging bird feeder at the top centre (solid)"
+   ],
+   "layout": "toucan, hummingbird, parrot, chicken on the upper branch; flamingo, owl, crow, swan on the lower; 130-160 px.",
+   "why_distinct": "eight birds; small parts (beaks, comb, tufts) at 12-20 %."
+  },
+  {
+   "id": "ptx-K-428-toy-cupboard",
+   "level": 3,
+   "setting": "toy cupboard",
+   "name_en": "The Toy Cupboard",
+   "cast": [
+    {
+     "src": "animals bw/teddy_bear_2",
+     "role": "row",
+     "note": "missing part: the ears"
+    },
+    {
+     "src": "toys bw/rocking_horse",
+     "role": "row",
+     "note": "missing part: the rocker"
+    },
+    {
+     "src": "toys bw 2/robot",
+     "role": "row",
+     "note": "missing part: the antenna"
+    },
+    {
+     "src": "toys bw 2/helicopter",
+     "role": "row",
+     "note": "missing part: the tail rotor"
+    },
+    {
+     "src": "toys bw/train",
+     "role": "row",
+     "note": "missing part: the chimney"
+    },
+    {
+     "src": "toys bw 2/pinwheel",
+     "role": "row",
+     "note": "missing part: the stick"
+    },
+    {
+     "src": "toys bw/drum",
+     "role": "row",
+     "note": "missing part: the two drumsticks"
+    },
+    {
+     "src": "toys bw 2/trumpet",
+     "role": "row",
+     "note": "missing part: the bell (the wide end)"
+    }
+   ],
+   "drawn": [
+    "cupboard doors open at both sides (two tall solid rectangles)",
+    "a toy-block border along the top (plain squares, no letters)"
+   ],
+   "layout": "teddy, rocking horse, robot, helicopter top; train, pinwheel, drum, trumpet bottom.",
+   "why_distinct": "toys; the open cupboard doors frame the page; no published picture."
+  },
+  {
+   "id": "ptx-K-428-bathroom",
+   "level": 3,
+   "setting": "bathroom shelf",
+   "name_en": "The Bathroom Shelf",
+   "cast": [
+    {
+     "src": "objects bw/toothbrush",
+     "role": "row",
+     "note": "missing part: the bristles"
+    },
+    {
+     "src": "household bw/toilet_paper",
+     "role": "row",
+     "note": "missing part: the hanging paper"
+    },
+    {
+     "src": "household bw/sink",
+     "role": "row",
+     "note": "missing part: the tap"
+    },
+    {
+     "src": "home bw/bathtub",
+     "role": "row",
+     "note": "missing part: the feet"
+    },
+    {
+     "src": "objects bw/hanger",
+     "role": "row",
+     "note": "missing part: the hook"
+    },
+    {
+     "src": "household bw/toilet",
+     "role": "row",
+     "note": "missing part: the lid"
+    },
+    {
+     "src": "toys bw 2/duck",
+     "role": "row",
+     "note": "missing part: the beak"
+    },
+    {
+     "src": "objects bw/comb",
+     "role": "row",
+     "note": "missing part: the handle (the teeth stay solid; no fragment < 14 px)"
+    }
+   ],
+   "drawn": [
+    "a tiled wall: a few square tile lines behind the top shelf (solid, light)",
+    "a round mirror at the top centre (solid)"
+   ],
+   "layout": "toothbrush, toilet paper, sink, bathtub top; hanger, toilet, rubber duck, comb bottom.",
+   "why_distinct": "bathroom objects; the tiles + mirror setting appears nowhere else."
+  },
+  {
+   "id": "ptx-K-428-market-stall",
+   "level": 3,
+   "setting": "fruit and vegetable stall",
+   "name_en": "The Market Stall",
+   "cast": [
+    {
+     "src": "fruits bw/apple_2",
+     "role": "row",
+     "note": "missing part: the leaf"
+    },
+    {
+     "src": "fruits bw/cherry",
+     "role": "row",
+     "note": "missing part: the stems"
+    },
+    {
+     "src": "vegetables bw/pumpkin",
+     "role": "row",
+     "note": "missing part: the stem"
+    },
+    {
+     "src": "vegetables bw/carrot",
+     "role": "row",
+     "note": "missing part: the green leaves"
+    },
+    {
+     "src": "vegetables bw 2/mushroom",
+     "role": "row",
+     "note": "missing part: the stalk"
+    },
+    {
+     "src": "vegetables bw/eggplant",
+     "role": "row",
+     "note": "missing part: the green cap"
+    },
+    {
+     "src": "fruits bw/watermelon",
+     "role": "row",
+     "note": "missing part: the stalk on top"
+    },
+    {
+     "src": "fruits bw/pear",
+     "role": "row",
+     "note": "missing part: the stem and leaf"
+    }
+   ],
+   "drawn": [
+    "two crate fronts as the shelves (plank lines)",
+    "a striped awning edge at the top"
+   ],
+   "layout": "apple, cherries, pumpkin, carrot top; mushroom, eggplant, watermelon, pear bottom.",
+   "why_distinct": "fruit and vegetables in crates; tiny stems and leaves."
+  },
+  {
+   "id": "ptx-K-428-safari",
+   "level": 3,
+   "setting": "safari lodge",
+   "name_en": "The Safari Lodge",
+   "cast": [
+    {
+     "src": "animals bw/elephant",
+     "role": "row",
+     "note": "missing part: the trunk"
+    },
+    {
+     "src": "animals bw/rhinoceros",
+     "role": "row",
+     "note": "missing part: the horns"
+    },
+    {
+     "src": "animals bw/lion_2",
+     "role": "row",
+     "note": "missing part: the tail"
+    },
+    {
+     "src": "animals bw/camel_2",
+     "role": "row",
+     "note": "missing part: the hump"
+    },
+    {
+     "src": "animals bw/monkey",
+     "role": "row",
+     "note": "missing part: the tail"
+    },
+    {
+     "src": "animals bw 5/ostrich_2",
+     "role": "row",
+     "note": "missing part: the neck"
+    },
+    {
+     "src": "animals bw/panda",
+     "role": "row",
+     "note": "missing part: the ears"
+    },
+    {
+     "src": "animals bw 5/turtle",
+     "role": "row",
+     "note": "missing part: the head"
+    }
+   ],
+   "drawn": [
+    "bamboo-pole shelves",
+    "a thatched-roof fringe along the top (zigzag fringe, solid)"
+   ],
+   "layout": "elephant, rhino, lion, camel top; monkey, ostrich, panda, turtle bottom.",
+   "why_distinct": "wild animals; trunk, horns, hump, neck; the thatch fringe is unique."
+  }
+ ],
+ "K-429": [
+  {
+   "id": "ptx-K-429-log-cabin",
+   "level": 1,
+   "setting": "log cabin",
+   "name_en": "The Log Cabin",
+   "cast": [
+    {
+     "src": "Christmas bw/gingerbread_man",
+     "role": "prop",
+     "note": "on the table beside the tree"
+    }
+   ],
+   "drawn": [
+    "a tree in a wooden bucket, 5 big baubles r 34",
+    "a star on top",
+    "log-wall lines (3 long horizontal logs) behind",
+    "a small table on the right",
+    "two big gifts under the tree"
+   ],
+   "layout": "tree 320 px centre-left, table + gingerbread man right, gifts at the foot.",
+   "why_distinct": "log cabin walls; no armchair, window or rug."
+  },
+  {
+   "id": "ptx-K-429-baking",
+   "level": 1,
+   "setting": "kitchen on baking day",
+   "name_en": "Baking Day",
+   "cast": [
+    {
+     "src": "Christmas bw 2/mug",
+     "role": "prop",
+     "note": "on the counter"
+    },
+    {
+     "src": "Christmas bw/candy_cane",
+     "role": "prop",
+     "note": "hanging from a low branch"
+    }
+   ],
+   "drawn": [
+    "a small tree on the kitchen counter, 6 baubles r 32",
+    "a counter (long rounded rectangle)",
+    "a cooker with two round knobs",
+    "one gift"
+   ],
+   "layout": "counter across the lower third; tree 290 px stands on it at the left; mug and cooker right.",
+   "why_distinct": "the tree stands in a kitchen on a counter."
+  },
+  {
+   "id": "ptx-K-429-school-hall",
+   "level": 1,
+   "setting": "school hall party",
+   "name_en": "The School Party",
+   "cast": [
+    {
+     "src": "Christmas bw/bell",
+     "role": "prop",
+     "note": "hanging from a garland"
+    },
+    {
+     "src": "Christmas bw/bow",
+     "role": "prop",
+     "note": "on the biggest gift"
+    }
+   ],
+   "drawn": [
+    "a tall tree on a stage step, 6 baubles r 34",
+    "a garland swag across the top",
+    "two small chairs",
+    "three gifts"
+   ],
+   "layout": "tree 340 px centre, chairs left and right, garland swag across the top with the bell.",
+   "why_distinct": "a school setting with stage step and chairs."
+  },
+  {
+   "id": "ptx-K-429-bedtime",
+   "level": 1,
+   "setting": "bedroom at night",
+   "name_en": "Before Bedtime",
+   "cast": [
+    {
+     "src": "Christmas bw/stocking",
+     "role": "prop",
+     "note": "hanging from the bed post"
+    },
+    {
+     "src": "animals bw/teddy_bear_2",
+     "role": "prop",
+     "note": "on the bed"
+    }
+   ],
+   "drawn": [
+    "a small tree on a stool, 5 baubles r 34",
+    "a bed end with a post",
+    "a crescent moon in a small window"
+   ],
+   "layout": "tree 300 px left, bed right with teddy; window top right.",
+   "why_distinct": "a bedroom; the stocking hangs on a bed post."
+  },
+  {
+   "id": "ptx-K-429-shop-window",
+   "level": 1,
+   "setting": "toy shop window",
+   "name_en": "The Shop Window",
+   "cast": [
+    {
+     "src": "Christmas bw/shopping_bag",
+     "role": "prop",
+     "note": "on the floor"
+    },
+    {
+     "src": "Christmas bw/candy",
+     "role": "prop",
+     "note": "on a small shelf"
+    }
+   ],
+   "drawn": [
+    "a tree in a pot behind a big shop window frame, 6 baubles r 33",
+    "a scalloped awning",
+    "two gifts"
+   ],
+   "layout": "the window frame fills the body; tree 320 px centre inside it; bag lower left, candy on a shelf right.",
+   "why_distinct": "seen from the street, inside a shop window."
+  },
+  {
+   "id": "ptx-K-429-fireplace",
+   "level": 2,
+   "setting": "fireplace evening",
+   "name_en": "By the Fireplace",
+   "cast": [
+    {
+     "src": "Christmas bw 2/christmas_stocking",
+     "role": "prop",
+     "note": "on the mantel"
+    },
+    {
+     "src": "Christmas bw 2/snow_globe",
+     "role": "prop",
+     "note": "on the mantel"
+    }
+   ],
+   "drawn": [
+    "a fireplace with a mantel and flames (single-line)",
+    "a tree, 11 baubles r 24 + 3 stars",
+    "three gifts",
+    "a round rug with fringe"
+   ],
+   "layout": "fireplace right half, tree left, rug at the bottom centre.",
+   "why_distinct": "the fireplace replaces the armchair and the window."
+  },
+  {
+   "id": "ptx-K-429-hallway",
+   "level": 2,
+   "setting": "grandma's hallway",
+   "name_en": "Grandma's Hallway",
+   "cast": [
+    {
+     "src": "Christmas bw/sweater",
+     "role": "prop",
+     "note": "on a coat hook"
+    },
+    {
+     "src": "apparel bw/mittens",
+     "role": "prop",
+     "note": "on a coat hook"
+    },
+    {
+     "src": "apparel bw/hat_2",
+     "role": "prop",
+     "note": "on a coat hook"
+    }
+   ],
+   "drawn": [
+    "a front door with a round window",
+    "a coat rack with three hooks",
+    "a tree, 10 baubles r 24",
+    "a doormat with fringe",
+    "two gifts"
+   ],
+   "layout": "door left, tree centre, coat rack right with sweater, mittens, hat.",
+   "why_distinct": "a hallway with winter clothes on hooks."
+  },
+  {
+   "id": "ptx-K-429-porch",
+   "level": 2,
+   "setting": "snowy porch",
+   "name_en": "On the Porch",
+   "cast": [
+    {
+     "src": "Christmas bw 2/sleigh",
+     "role": "prop",
+     "note": "on the porch floor"
+    },
+    {
+     "src": "Christmas bw 2/snowman",
+     "role": "prop",
+     "note": "in the garden beyond the rail"
+    }
+   ],
+   "drawn": [
+    "a porch rail and roof edge",
+    "a tree in a tub, 11 baubles r 25",
+    "snowflakes (3)",
+    "two gifts"
+   ],
+   "layout": "porch floor across the bottom, tree left, sleigh centre, snowman right beyond the rail.",
+   "why_distinct": "neutral winter outdoors-porch, with a sleigh."
+  },
+  {
+   "id": "ptx-K-429-toy-corner",
+   "level": 2,
+   "setting": "playroom toy corner",
+   "name_en": "The Toy Corner",
+   "cast": [
+    {
+     "src": "toys bw/rocking_horse",
+     "role": "prop",
+     "note": "left of the tree"
+    },
+    {
+     "src": "toys bw/drum",
+     "role": "prop",
+     "note": "right of the tree"
+    }
+   ],
+   "drawn": [
+    "a tree, 12 baubles r 22 + 2 stars",
+    "a toy shelf (two planks)",
+    "two gifts",
+    "a train track oval on the floor"
+   ],
+   "layout": "tree centre, rocking horse left, drum right, track oval in front.",
+   "why_distinct": "toys around the tree; the floor track replaces the rug."
+  },
+  {
+   "id": "ptx-K-429-reading-nook",
+   "level": 2,
+   "setting": "library reading nook",
+   "name_en": "The Reading Nook",
+   "cast": [
+    {
+     "src": "classroom bw 2/bookshelf",
+     "role": "prop",
+     "note": "behind, right"
+    },
+    {
+     "src": "furniture bw/couch",
+     "role": "prop",
+     "note": "front right"
+    },
+    {
+     "src": "Christmas bw/reindeer",
+     "role": "prop",
+     "note": "a reindeer-head cushion on the couch"
+    }
+   ],
+   "drawn": [
+    "a tree, 10 baubles r 26",
+    "a floor lamp (single line)",
+    "two gifts"
+   ],
+   "layout": "tree left, bookshelf behind right, couch front right.",
+   "why_distinct": "books and a couch; no armchair, window or rug."
+  },
+  {
+   "id": "ptx-K-429-gingerbread",
+   "level": 3,
+   "setting": "gingerbread kitchen",
+   "name_en": "The Gingerbread Kitchen",
+   "cast": [
+    {
+     "src": "Christmas bw 2/gingerbread_house",
+     "role": "hero",
+     "note": "the ONE band-3 hero, on the table"
+    },
+    {
+     "src": "food bw/cookie",
+     "role": "prop",
+     "note": "on a plate"
+    },
+    {
+     "src": "Christmas bw 2/gingerbread_man",
+     "role": "prop",
+     "note": ""
+    }
+   ],
+   "drawn": [
+    "a tree, 16 baubles r 16, >= 12 apart",
+    "a kitchen table",
+    "a counter edge",
+    "three small gifts"
+   ],
+   "layout": "tree left, table right holding the gingerbread house, cookie and gingerbread man.",
+   "why_distinct": "baking; the gingerbread house is the hero."
+  },
+  {
+   "id": "ptx-K-429-concert",
+   "level": 3,
+   "setting": "music room concert",
+   "name_en": "The Winter Concert",
+   "cast": [
+    {
+     "src": "Easter bw 2/bell",
+     "role": "prop",
+     "note": "hand bell on a stand"
+    },
+    {
+     "src": "toys bw 2/trumpet",
+     "role": "prop",
+     "note": ""
+    },
+    {
+     "src": "Christmas bw/bell",
+     "role": "prop",
+     "note": "a hand bell beside the music stand"
+    }
+   ],
+   "drawn": [
+    "a tree, 15 baubles r 17",
+    "a music stand (single line)",
+    "a row of 3 small chairs",
+    "garland swag"
+   ],
+   "layout": "tree centre, music stand and trumpet left, hand bell right, chairs in front.",
+   "why_distinct": "a concert; music instruments around the tree."
+  },
+  {
+   "id": "ptx-K-429-skating-hut",
+   "level": 3,
+   "setting": "ice-rink hut",
+   "name_en": "The Skating Hut",
+   "cast": [
+    {
+     "src": "Christmas bw 2/ice_skates",
+     "role": "hero",
+     "note": "band-3 hero, on the bench"
+    },
+    {
+     "src": "home bw/cup",
+     "role": "prop",
+     "note": "hot drink on the bench"
+    },
+    {
+     "src": "apparel bw/hat",
+     "role": "prop",
+     "note": "on the bench"
+    }
+   ],
+   "drawn": [
+    "a tree, 17 baubles r 15",
+    "a bench",
+    "a window with the rink edge beyond",
+    "two gifts"
+   ],
+   "layout": "tree left, bench right with skates and mittens, window top right.",
+   "why_distinct": "skating hut; skates are the hero."
+  },
+  {
+   "id": "ptx-K-429-post-office",
+   "level": 3,
+   "setting": "post office counter",
+   "name_en": "The Post Office",
+   "cast": [
+    {
+     "src": "Christmas bw/envelope",
+     "role": "prop",
+     "note": "on the counter"
+    },
+    {
+     "src": "Christmas bw 2/sack",
+     "role": "prop",
+     "note": "on the floor"
+    },
+    {
+     "src": "Christmas bw 2/gift_box",
+     "role": "prop",
+     "note": "parcels on the counter"
+    }
+   ],
+   "drawn": [
+    "a tree, 14 baubles r 18",
+    "a post counter with a hatch",
+    "a row of pigeon-hole boxes (no numbers)"
+   ],
+   "layout": "counter across the right half with envelope and parcels, sack below, tree left.",
+   "why_distinct": "letters and parcels; a post office."
+  },
+  {
+   "id": "ptx-K-429-window-seat",
+   "level": 3,
+   "setting": "window seat at night",
+   "name_en": "The Window Seat",
+   "cast": [
+    {
+     "src": "Christmas bw 2/candle",
+     "role": "prop",
+     "note": "on the sill"
+    },
+    {
+     "src": "animals bw 4/cat",
+     "role": "prop",
+     "note": "asleep on the cushion"
+    }
+   ],
+   "drawn": [
+    "a big window with moon and 4 stars",
+    "a window seat with cushion",
+    "a small tree on the sill side table, 14 baubles r 16",
+    "curtains"
+   ],
+   "layout": "window fills the upper half, seat below, tree right on a side table, cat on the seat.",
+   "why_distinct": "night window seat; the moon and stars, a sleeping cat."
+  }
+ ],
+ "K-430": [
+  {
+   "id": "ptx-K-430-house",
+   "level": 1,
+   "setting": "village lane",
+   "name_en": "The Shape House",
+   "cast": [],
+   "drawn": [
+    "house: 1 big square, 1 triangle roof, 1 square window",
+    "2 circles: sun + a round bush",
+    "1 small triangle tree top + square trunk"
+   ],
+   "layout": "house centre-left 260 px, sun top right, tree right; 7 shapes, all upright.",
+   "why_distinct": "a house, the simplest picture."
+  },
+  {
+   "id": "ptx-K-430-ice-cream",
+   "level": 1,
+   "setting": "park ice-cream cart",
+   "name_en": "The Shape Ice Cream",
+   "cast": [],
+   "drawn": [
+    "1 square tub (the cone would be a turned triangle, which L1 forbids)",
+    "3 circle scoops stacked in 3 sizes",
+    "1 square napkin",
+    "1 upright triangle flag on top"
+   ],
+   "layout": "3 circles stacked in a square tub, triangle flag on top; 6 shapes, all upright.",
+   "why_distinct": "a dessert; circles dominate."
+  },
+  {
+   "id": "ptx-K-430-snowman",
+   "level": 1,
+   "setting": "winter garden",
+   "name_en": "The Shape Snowman",
+   "cast": [],
+   "drawn": [
+    "3 circles (body, middle, head)",
+    "2 small circle eyes",
+    "1 square hat + 1 square brim",
+    "1 upright triangle nose"
+   ],
+   "layout": "snowman centre 330 px tall: 3 + 2 circles, square hat, triangle nose; 8 shapes.",
+   "why_distinct": "winter; circles of three sizes."
+  },
+  {
+   "id": "ptx-K-430-owl",
+   "level": 1,
+   "setting": "forest at night",
+   "name_en": "The Shape Owl",
+   "cast": [],
+   "drawn": [
+    "1 big circle body",
+    "2 circle eyes",
+    "2 triangle ears",
+    "1 small triangle beak (upright)",
+    "1 square branch block"
+   ],
+   "layout": "owl centre 280 px on a square branch block; 7 shapes.",
+   "why_distinct": "an animal made of shapes."
+  },
+  {
+   "id": "ptx-K-430-cat",
+   "level": 1,
+   "setting": "sunny windowsill",
+   "name_en": "The Shape Cat",
+   "cast": [],
+   "drawn": [
+    "1 circle head",
+    "1 big circle body",
+    "2 triangle ears",
+    "1 square cushion",
+    "1 square window behind"
+   ],
+   "layout": "cat on a square cushion, window square behind; 6 shapes.",
+   "why_distinct": "a pet on a windowsill."
+  },
+  {
+   "id": "ptx-K-430-robot",
+   "level": 2,
+   "setting": "robot lab",
+   "name_en": "The Shape Robot",
+   "cast": [],
+   "drawn": [
+    "rectangle body + square head",
+    "2 circle eyes, 1 circle button (3 circle sizes)",
+    "2 rectangle arms, 2 rectangle legs",
+    "1 triangle antenna tip",
+    "1 tilted square badge",
+    "1 upside-down triangle chin plate"
+   ],
+   "layout": "robot centre 320 px; 13 shapes.",
+   "why_distinct": "rectangles for arms and legs."
+  },
+  {
+   "id": "ptx-K-430-train",
+   "level": 2,
+   "setting": "railway line",
+   "name_en": "The Shape Train",
+   "cast": [],
+   "drawn": [
+    "rectangle engine + square cab + rectangle wagon",
+    "4 circle wheels in 2 sizes + 1 small circle smoke puff",
+    "rectangle chimney",
+    "triangle cowcatcher (upside-down)",
+    "1 tilted square lantern"
+   ],
+   "layout": "engine left, wagon right, wheels below; 13 shapes.",
+   "why_distinct": "a long wide picture."
+  },
+  {
+   "id": "ptx-K-430-castle",
+   "level": 2,
+   "setting": "castle on a hill",
+   "name_en": "The Shape Castle",
+   "cast": [],
+   "drawn": [
+    "2 rectangle towers + 1 square keep",
+    "3 triangle roofs",
+    "1 rectangle door",
+    "3 circle windows (3 sizes)",
+    "1 tilted square flag",
+    "1 upside-down triangle pennant"
+   ],
+   "layout": "castle centre 330 px; 12 shapes.",
+   "why_distinct": "a castle, tall and symmetric."
+  },
+  {
+   "id": "ptx-K-430-sailboat",
+   "level": 2,
+   "setting": "harbour",
+   "name_en": "The Shape Sailboat",
+   "cast": [],
+   "drawn": [
+    "rectangle hull",
+    "2 triangle sails",
+    "rectangle mast",
+    "3 circle portholes (3 sizes) + 1 circle sun",
+    "1 tilted square buoy",
+    "1 upside-down triangle flag"
+   ],
+   "layout": "boat centre, sun top right; 11 shapes.",
+   "why_distinct": "triangles as sails."
+  },
+  {
+   "id": "ptx-K-430-bus",
+   "level": 2,
+   "setting": "city street",
+   "name_en": "The Shape Bus",
+   "cast": [],
+   "drawn": [
+    "rectangle bus body",
+    "4 square windows",
+    "2 circle wheels + 1 circle light + 1 big circle sun (3 sizes)",
+    "rectangle door",
+    "1 tilted square sign",
+    "1 upside-down triangle on the bus stop pole"
+   ],
+   "layout": "bus centre, bus stop right; 13 shapes.",
+   "why_distinct": "a city vehicle of squares."
+  },
+  {
+   "id": "ptx-K-430-windmill",
+   "level": 3,
+   "setting": "farm field",
+   "name_en": "The Shape Windmill",
+   "cast": [],
+   "drawn": [
+    "rectangle tower, triangle roof",
+    "4 rotated rectangle sails (turned)",
+    "circle hub nested in a bigger circle",
+    "square door, 2 square windows",
+    "3 circles in 3 sizes (hub, sun, bush)",
+    "3 triangles in 3 sizes (roof, 2 turned fir tops)"
+   ],
+   "layout": "windmill centre 300 px, sun and fir trees around; 18 shapes, >= 3 nested (hub in circle, window in square, door in square).",
+   "why_distinct": "rotating sails = turned rectangles."
+  },
+  {
+   "id": "ptx-K-430-giraffe",
+   "level": 3,
+   "setting": "savanna",
+   "name_en": "The Shape Giraffe",
+   "cast": [],
+   "drawn": [
+    "rectangle neck (rotated), rectangle body, 4 rectangle legs",
+    "square head with circle eye",
+    "2 triangle ears + 1 turned triangle tail tuft",
+    "circle spots in 3 sizes nested inside the body",
+    "1 circle sun, 1 turned square kite"
+   ],
+   "layout": "giraffe centre 300 px; 19 shapes.",
+   "why_distinct": "an animal made of turned rectangles."
+  },
+  {
+   "id": "ptx-K-430-fire-truck",
+   "level": 3,
+   "setting": "fire station",
+   "name_en": "The Shape Fire Truck",
+   "cast": [],
+   "drawn": [
+    "rectangle body + square cab",
+    "1 rotated rectangle ladder",
+    "3 circle wheels (2 sizes) with nested hub circles",
+    "square windows nested in the cab",
+    "2 turned triangles (lights)",
+    "1 tilted square sign"
+   ],
+   "layout": "truck wide across the page; 17 shapes.",
+   "why_distinct": "a rotated ladder; nested wheels."
+  },
+  {
+   "id": "ptx-K-430-butterfly",
+   "level": 3,
+   "setting": "flower garden",
+   "name_en": "The Shape Butterfly",
+   "cast": [],
+   "drawn": [
+    "4 turned triangle wings",
+    "1 rectangle body",
+    "1 circle head",
+    "circle spots in 3 sizes nested on the wings",
+    "3 circle flowers on rectangle stems"
+   ],
+   "layout": "butterfly centre 280 px over three flowers; 18 shapes.",
+   "why_distinct": "wings of turned triangles."
+  },
+  {
+   "id": "ptx-K-430-balloon",
+   "level": 3,
+   "setting": "hills and sky",
+   "name_en": "The Shape Balloon",
+   "cast": [],
+   "drawn": [
+    "big circle balloon with nested circle + square basket",
+    "2 rectangle ropes (rotated)",
+    "3 turned triangle birds",
+    "2 tilted square kites",
+    "circles in 3 sizes (balloon, sun, cloud puff)",
+    "triangles in 3 sizes (hill tops)"
+   ],
+   "layout": "balloon centre-top, hills below; 20 shapes.",
+   "why_distinct": "sky scene with turned kites and birds."
+  }
+ ],
+ "K-431": [
+  {
+   "id": "ptx-K-431-lighthouse-bay",
+   "level": 1,
+   "setting": "lighthouse bay",
+   "name_en": "Lighthouse Bay",
+   "cast": [
+    {
+     "src": "beach bw/lighthouse",
+     "role": "hero"
+    },
+    {
+     "src": "travel and holiday bw/yacht",
+     "role": "row"
+    },
+    {
+     "src": "sea life bw/starfish",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a rocky point under the lighthouse (solid)",
+    "stamp: a shell"
+   ],
+   "layout": "horizon + one big wave; lighthouse left on rocks 250 px, yacht on the wave, starfish on the sand.",
+   "why_distinct": "a lighthouse hero; no parasol or sandcastle."
+  },
+  {
+   "id": "ptx-K-431-ice-cream",
+   "level": 1,
+   "setting": "sandy beach snack",
+   "name_en": "Ice Cream Day",
+   "cast": [
+    {
+     "src": "food bw/ice_cream",
+     "role": "hero"
+    },
+    {
+     "src": "beach bw/watermelon",
+     "role": "row"
+    },
+    {
+     "src": "beach bw/sunglasses",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a beach towel (rounded rectangle with fringe)",
+    "stamp: a sun"
+   ],
+   "layout": "one wave across the middle; ice cream, watermelon, sunglasses on a towel on the sand.",
+   "why_distinct": "summer treats; no boat."
+  },
+  {
+   "id": "ptx-K-431-whale",
+   "level": 1,
+   "setting": "open sea",
+   "name_en": "The Whale Says Hello",
+   "cast": [
+    {
+     "src": "sea life bw 2/whale",
+     "role": "hero"
+    },
+    {
+     "src": "vehicles bw/boat_2",
+     "role": "row"
+    },
+    {
+     "src": "beach bw/preserver_ring",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a whale spout (three short curves, solid)",
+    "stamp: a fish"
+   ],
+   "layout": "horizon high, one big wave; the whale breaching mid, the ship on the horizon, the ring floating.",
+   "why_distinct": "out at sea, no beach."
+  },
+  {
+   "id": "ptx-K-431-surf",
+   "level": 1,
+   "setting": "surf beach",
+   "name_en": "Surf Morning",
+   "cast": [
+    {
+     "src": "beach bw/surfboard",
+     "role": "hero"
+    },
+    {
+     "src": "beach bw/snorkeling_mask",
+     "role": "row"
+    },
+    {
+     "src": "beach bw/flipper",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a big curling wave (the one long wave, amplitude 16)",
+    "stamp: a wave"
+   ],
+   "layout": "surfboard upright in the sand left, mask and flipper right.",
+   "why_distinct": "surfing and diving gear."
+  },
+  {
+   "id": "ptx-K-431-pier",
+   "level": 1,
+   "setting": "wooden pier",
+   "name_en": "The Dolphin Pier",
+   "cast": [
+    {
+     "src": "sea life bw/dolphin",
+     "role": "hero"
+    },
+    {
+     "src": "beach bw/anchor",
+     "role": "row"
+    },
+    {
+     "src": "travel and holiday bw/kayak",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a wooden pier on posts from the left edge",
+    "stamp: a star"
+   ],
+   "layout": "pier left, dolphin jumping centre over the wave, kayak on the water right, anchor hanging from the pier.",
+   "why_distinct": "a pier and a dolphin."
+  },
+  {
+   "id": "ptx-K-431-island",
+   "level": 2,
+   "setting": "palm island",
+   "name_en": "Island Holiday",
+   "cast": [
+    {
+     "src": "beach bw/palm_tree",
+     "role": "hero"
+    },
+    {
+     "src": "sea life bw 2/turtle",
+     "role": "row"
+    },
+    {
+     "src": "beach bw/lounge",
+     "role": "row"
+    },
+    {
+     "src": "beach bw 2/boat_2",
+     "role": "row"
+    },
+    {
+     "src": "beach bw 2/seashell",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "an island mound",
+    "stamp: a palm leaf"
+   ],
+   "layout": "horizon + 3 waves; island right with palm and lounge, turtle on the shore, boat on the middle wave, shell front.",
+   "why_distinct": "a small island; palm tree hero."
+  },
+  {
+   "id": "ptx-K-431-fishing-harbour",
+   "level": 2,
+   "setting": "fishing harbour",
+   "name_en": "The Fishing Harbour",
+   "cast": [
+    {
+     "src": "vehicles bw 2/boat",
+     "role": "hero"
+    },
+    {
+     "src": "birds bw/pelican",
+     "role": "row"
+    },
+    {
+     "src": "travel and holiday bw/lighthouse",
+     "role": "row"
+    },
+    {
+     "src": "sea life bw/fish",
+     "role": "row"
+    },
+    {
+     "src": "beach bw 2/signpost",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a harbour wall with two bollards",
+    "stamp: a rope knot"
+   ],
+   "layout": "harbour wall across the bottom; boat on the waves, pelican on a bollard, lighthouse far right, fish leaping.",
+   "why_distinct": "a working harbour, no sand."
+  },
+  {
+   "id": "ptx-K-431-snorkel",
+   "level": 2,
+   "setting": "snorkel cove",
+   "name_en": "The Snorkel Cove",
+   "cast": [
+    {
+     "src": "beach bw 2/snorkel",
+     "role": "row"
+    },
+    {
+     "src": "sea life bw/clown_fish",
+     "role": "row"
+    },
+    {
+     "src": "sea life bw 2/jellyfish",
+     "role": "row"
+    },
+    {
+     "src": "sea life bw 2/seahorse",
+     "role": "row"
+    },
+    {
+     "src": "sea life bw/octopus",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "seaweed strands on the sea floor (solid)",
+    "stamp: a bubble"
+   ],
+   "layout": "3 waves high on the page as the surface; the snorkel mask floats on top, four sea animals below on the floor.",
+   "why_distinct": "looking under the waves."
+  },
+  {
+   "id": "ptx-K-431-cafe",
+   "level": 2,
+   "setting": "beach café",
+   "name_en": "The Beach Café",
+   "cast": [
+    {
+     "src": "beach bw/lemonade",
+     "role": "row"
+    },
+    {
+     "src": "beach bw 2/umbrella",
+     "role": "row"
+    },
+    {
+     "src": "beach bw/camera",
+     "role": "row"
+    },
+    {
+     "src": "apparel bw/hat",
+     "role": "row"
+    },
+    {
+     "src": "beach bw/flip-flops",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a small café table and chair",
+    "stamp: a cup"
+   ],
+   "layout": "waves upper half, café table under the umbrella lower half with lemonade, camera, hat; flip-flops on the sand.",
+   "why_distinct": "a café at the beach."
+  },
+  {
+   "id": "ptx-K-431-rock-pool",
+   "level": 2,
+   "setting": "rock pools",
+   "name_en": "The Rock Pools",
+   "cast": [
+    {
+     "src": "sea life bw 2/hermit_crab",
+     "role": "row"
+    },
+    {
+     "src": "sea life bw 2/shrimp",
+     "role": "row"
+    },
+    {
+     "src": "sea life bw 2/snail",
+     "role": "row"
+    },
+    {
+     "src": "beach bw/seashell",
+     "role": "row"
+    },
+    {
+     "src": "sea life bw/lobster",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "three rock outlines with pools between",
+    "stamp: a pebble"
+   ],
+   "layout": "waves upper half; rocks lower half, each creature at a pool.",
+   "why_distinct": "rock pools and small creatures."
+  },
+  {
+   "id": "ptx-K-431-ferry",
+   "level": 3,
+   "setting": "ferry port",
+   "name_en": "The Ferry Port",
+   "cast": [
+    {
+     "src": "travel and holiday bw/cruise",
+     "role": "hero",
+     "note": "the ONE band-3 hero"
+    },
+    {
+     "src": "vehicles bw 3/boat_2",
+     "role": "row"
+    },
+    {
+     "src": "sea life bw/swordfish",
+     "role": "row"
+    },
+    {
+     "src": "travel and holiday bw/binoculars",
+     "role": "row"
+    },
+    {
+     "src": "beach bw 2/suitcase",
+     "role": "row"
+    },
+    {
+     "src": "beach bw 2/bag",
+     "role": "row",
+     "note": ""
+    }
+   ],
+   "drawn": [
+    "a quay edge",
+    "stamp: a ship's wheel"
+   ],
+   "layout": "3 waves; cruise ship on the far wave, small boat mid, swordfish leaping, suitcase + binoculars on the quay.",
+   "why_distinct": "ships and travellers."
+  },
+  {
+   "id": "ptx-K-431-volleyball",
+   "level": 3,
+   "setting": "volleyball beach",
+   "name_en": "Beach Games",
+   "cast": [
+    {
+     "src": "sports bw/volleyball",
+     "role": "row"
+    },
+    {
+     "src": "sports bw/beach_ball",
+     "role": "row"
+    },
+    {
+     "src": "beach bw 2/deck_chair",
+     "role": "hero",
+     "note": "band-3 hero"
+    },
+    {
+     "src": "beach bw 2/tote_bag",
+     "role": "row"
+    },
+    {
+     "src": "beach bw/sunscreen",
+     "role": "row"
+    },
+    {
+     "src": "beach bw 2/shorts",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a volleyball net (two posts + a top rope, no mesh)",
+    "stamp: a ball"
+   ],
+   "layout": "3 waves upper; net across the sand with the volleyball over it, the rest on the sand.",
+   "why_distinct": "beach sport; a net."
+  },
+  {
+   "id": "ptx-K-431-reef",
+   "level": 3,
+   "setting": "coral reef",
+   "name_en": "The Coral Reef",
+   "cast": [
+    {
+     "src": "sea life bw/fish_3",
+     "role": "row"
+    },
+    {
+     "src": "sea life bw/pufferfish",
+     "role": "row"
+    },
+    {
+     "src": "sea life bw 2/stingray",
+     "role": "row"
+    },
+    {
+     "src": "sea life bw/squid",
+     "role": "row"
+    },
+    {
+     "src": "sea life bw/crab",
+     "role": "hero",
+     "note": "band-3 hero"
+    },
+    {
+     "src": "sea life bw/turtle",
+     "role": "row"
+    },
+    {
+     "src": "animals bw 3/dolphin_2",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "coral branches (single line, solid)",
+    "stamp: a coral"
+   ],
+   "layout": "3 waves at the top as the surface; seven animals spread over the reef below.",
+   "why_distinct": "a full reef, 7 animals."
+  },
+  {
+   "id": "ptx-K-431-lagoon",
+   "level": 3,
+   "setting": "island lagoon",
+   "name_en": "The Lagoon",
+   "cast": [
+    {
+     "src": "beach bw 2/island",
+     "role": "hero",
+     "note": "band-3 hero"
+    },
+    {
+     "src": "vehicles bw 3/boat",
+     "role": "row"
+    },
+    {
+     "src": "birds bw 2/toucan",
+     "role": "row"
+    },
+    {
+     "src": "beach bw 2/cocktail",
+     "role": "row"
+    },
+    {
+     "src": "beach bw 2/bag",
+     "role": "row"
+    },
+    {
+     "src": "birds bw 2/flamingo",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "stamp: a flower"
+   ],
+   "layout": "island centre on the horizon, 3 waves in front, boat left, flamingo in the shallows, toucan on the island, drink and bag on the sand.",
+   "why_distinct": "a tropical lagoon with birds."
+  },
+  {
+   "id": "ptx-K-431-dunes",
+   "level": 3,
+   "setting": "camping by the dunes",
+   "name_en": "Camping by the Sea",
+   "cast": [
+    {
+     "src": "travel and holiday bw/camper",
+     "role": "hero"
+    },
+    {
+     "src": "nature bw/campfire",
+     "role": "row"
+    },
+    {
+     "src": "toys bw 2/kite",
+     "role": "row"
+    },
+    {
+     "src": "sports bw/bicycle",
+     "role": "row"
+    },
+    {
+     "src": "travel and holiday bw/sunglasses",
+     "role": "row"
+    },
+    {
+     "src": "apparel bw/cap",
+     "role": "row"
+    },
+    {
+     "src": "sports bw 2/water_bottle",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "two dune curves",
+    "stamp: a tent"
+   ],
+   "layout": "3 waves top half; dunes with the camper, bicycle, campfire below; kite in the sky.",
+   "why_distinct": "camping, a camper van and a kite."
+  }
+ ],
+ "K-432": [
+  {
+   "id": "ptx-K-432-pond",
+   "level": 1,
+   "setting": "pond",
+   "name_en": "At the Pond",
+   "cast": [
+    {
+     "src": "birds bw 2/swan",
+     "role": "row"
+    },
+    {
+     "src": "animals bw/frog",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "row 1 ground: a water line with two reeds",
+    "row 2 ground: a lily-pad line"
+   ],
+   "layout": "2 rows: swans 320/220/150, frogs 320/220/150, biggest left.",
+   "why_distinct": "animals, not vehicles."
+  },
+  {
+   "id": "ptx-K-432-toy-room",
+   "level": 1,
+   "setting": "toy room floor",
+   "name_en": "In the Toy Room",
+   "cast": [
+    {
+     "src": "animals bw/teddy_bear_2",
+     "role": "row"
+    },
+    {
+     "src": "sports bw/beach_ball",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a shelf line under row 1",
+    "a rug line under row 2"
+   ],
+   "layout": "teddies on a shelf, balls on the rug.",
+   "why_distinct": "toys."
+  },
+  {
+   "id": "ptx-K-432-fruit",
+   "level": 1,
+   "setting": "fruit bowl table",
+   "name_en": "Fruit on the Table",
+   "cast": [
+    {
+     "src": "fruits bw/apple",
+     "role": "row"
+    },
+    {
+     "src": "fruits bw/banana",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a table edge under each row"
+   ],
+   "layout": "apples row 1, bananas row 2.",
+   "why_distinct": "fruit."
+  },
+  {
+   "id": "ptx-K-432-tea-time",
+   "level": 1,
+   "setting": "kitchen tea time",
+   "name_en": "Tea Time",
+   "cast": [
+    {
+     "src": "kitchen bw/teapot",
+     "role": "row"
+    },
+    {
+     "src": "home bw/cup",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a tray line under each row"
+   ],
+   "layout": "teapots row 1, cups row 2.",
+   "why_distinct": "crockery."
+  },
+  {
+   "id": "ptx-K-432-deep-sea",
+   "level": 1,
+   "setting": "deep sea",
+   "name_en": "In the Deep Sea",
+   "cast": [
+    {
+     "src": "sea life bw/dolphin",
+     "role": "row"
+    },
+    {
+     "src": "nature bw/fish",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a wavy sea-floor line under each row"
+   ],
+   "layout": "dolphins row 1, fish row 2.",
+   "why_distinct": "sea animals."
+  },
+  {
+   "id": "ptx-K-432-farmyard",
+   "level": 2,
+   "setting": "farmyard",
+   "name_en": "On the Farm",
+   "cast": [
+    {
+     "src": "farm bw/duck",
+     "role": "row"
+    },
+    {
+     "src": "animals bw 4/cat",
+     "role": "row"
+    },
+    {
+     "src": "farm bw/watering_can",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "grass line, ground line, path line"
+   ],
+   "layout": "3 rows: ducks, cats, watering cans; 290/197/130.",
+   "why_distinct": "farm."
+  },
+  {
+   "id": "ptx-K-432-birthday",
+   "level": 2,
+   "setting": "birthday party",
+   "name_en": "Birthday Party",
+   "cast": [
+    {
+     "src": "valentine bw/balloon",
+     "role": "row"
+    },
+    {
+     "src": "food bw 2/cake",
+     "role": "row"
+    },
+    {
+     "src": "toys bw/party_hat",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a table line for cakes and hats; a string line for balloons"
+   ],
+   "layout": "balloons, cake slices, party hats.",
+   "why_distinct": "a party."
+  },
+  {
+   "id": "ptx-K-432-rainy",
+   "level": 2,
+   "setting": "rainy walk",
+   "name_en": "A Rainy Walk",
+   "cast": [
+    {
+     "src": "nature bw/umbrella",
+     "role": "row"
+    },
+    {
+     "src": "tools bw/rubber_boot",
+     "role": "row"
+    },
+    {
+     "src": "home and nature bw/cloud",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "puddle lines under umbrellas and boots; a sky line under clouds"
+   ],
+   "layout": "clouds top row, umbrellas, boots.",
+   "why_distinct": "weather."
+  },
+  {
+   "id": "ptx-K-432-space",
+   "level": 2,
+   "setting": "outer space",
+   "name_en": "A Trip to Space",
+   "cast": [
+    {
+     "src": "space bw/rocket",
+     "role": "row"
+    },
+    {
+     "src": "space bw/ufo",
+     "role": "row"
+    },
+    {
+     "src": "space bw/planet_2",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a star line (3 small solid stars) under each row"
+   ],
+   "layout": "rockets, UFOs, planets.",
+   "why_distinct": "space."
+  },
+  {
+   "id": "ptx-K-432-lake-camp",
+   "level": 2,
+   "setting": "lake camping",
+   "name_en": "Camping at the Lake",
+   "cast": [
+    {
+     "src": "travel and holiday bw/camper",
+     "role": "row"
+    },
+    {
+     "src": "travel and holiday bw/kayak",
+     "role": "row"
+    },
+    {
+     "src": "travel and holiday bw/binoculars",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "road line, water line, grass line"
+   ],
+   "layout": "campers, kayaks, binoculars.",
+   "why_distinct": "holiday gear."
+  },
+  {
+   "id": "ptx-K-432-ocean-parade",
+   "level": 3,
+   "setting": "open ocean",
+   "name_en": "The Ocean Parade",
+   "cast": [
+    {
+     "src": "animals bw/whale_2",
+     "role": "row"
+    },
+    {
+     "src": "sea life bw/shark",
+     "role": "row"
+    },
+    {
+     "src": "sea life bw/swordfish",
+     "role": "row"
+    },
+    {
+     "src": "sea life bw 2/turtle",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a wave line under each row"
+   ],
+   "layout": "4 rows of wide sea animals, 300/190/110.",
+   "why_distinct": "four wide sea animals."
+  },
+  {
+   "id": "ptx-K-432-animal-parade",
+   "level": 3,
+   "setting": "night meadow",
+   "name_en": "The Animal Parade",
+   "cast": [
+    {
+     "src": "animals bw 5/chameleon",
+     "role": "row"
+    },
+    {
+     "src": "animals bw 5/turtle",
+     "role": "row"
+    },
+    {
+     "src": "animals bw/bat",
+     "role": "row"
+    },
+    {
+     "src": "animals bw 2/mouse",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "branch line (chameleon), grass lines, a sky line for bats"
+   ],
+   "layout": "4 rows, all wide drawings.",
+   "why_distinct": "small wide animals."
+  },
+  {
+   "id": "ptx-K-432-picnic",
+   "level": 3,
+   "setting": "picnic blanket",
+   "name_en": "The Picnic Basket",
+   "cast": [
+    {
+     "src": "food bw 2/croissant",
+     "role": "row"
+    },
+    {
+     "src": "food bw 3/cheese",
+     "role": "row"
+    },
+    {
+     "src": "vegetables bw/cucumber",
+     "role": "row"
+    },
+    {
+     "src": "fruits bw/watermelon",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a blanket edge line under each row"
+   ],
+   "layout": "4 rows of wide foods (no pork).",
+   "why_distinct": "food."
+  },
+  {
+   "id": "ptx-K-432-city",
+   "level": 3,
+   "setting": "busy city street",
+   "name_en": "City Helpers",
+   "cast": [
+    {
+     "src": "vehicles bw/bus",
+     "role": "row"
+    },
+    {
+     "src": "vehicles bw/ambulance",
+     "role": "row"
+    },
+    {
+     "src": "vehicles bw 3/police_car",
+     "role": "row"
+    },
+    {
+     "src": "vehicles bw 3/garbage_truck",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a road line under each row"
+   ],
+   "layout": "4 rows of wide vehicles; no plane, car or ship (published).",
+   "why_distinct": "service vehicles."
+  },
+  {
+   "id": "ptx-K-432-furniture",
+   "level": 3,
+   "setting": "furniture shop",
+   "name_en": "The Furniture Shop",
+   "cast": [
+    {
+     "src": "furniture bw/sofa",
+     "role": "row"
+    },
+    {
+     "src": "furniture bw/table",
+     "role": "row"
+    },
+    {
+     "src": "home bw 2/bed",
+     "role": "row"
+    },
+    {
+     "src": "toys bw 2/keyboard",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a floor line under each row"
+   ],
+   "layout": "4 rows: sofas, tables, beds, keyboards.",
+   "why_distinct": "indoor objects."
+  }
+ ],
+ "G1-429": [
+  {
+   "id": "ptx-G1-429-bakery",
+   "level": 1,
+   "setting": "village bakery",
+   "name_en": "The Village Bakery",
+   "cast": [
+    {
+     "src": "food bw/bread",
+     "role": "row"
+    },
+    {
+     "src": "food bw 2/croissant",
+     "role": "row"
+    },
+    {
+     "src": "animals bw 3/cat",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a bakery front with a big window and a scalloped awning (single line)",
+    "a bench"
+   ],
+   "layout": "bakery left 300 px, bench right with the cat; bread and croissant in the window; one ground line.",
+   "why_distinct": "a shop corner, not a street of buildings."
+  },
+  {
+   "id": "ptx-G1-429-crossing",
+   "level": 1,
+   "setting": "rainy street crossing",
+   "name_en": "The Rainy Crossing",
+   "cast": [
+    {
+     "src": "nature bw/umbrella",
+     "role": "row"
+    },
+    {
+     "src": "tools bw/traffic_cone",
+     "role": "row"
+    },
+    {
+     "src": "vehicles bw 3/ambulance",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a zebra crossing (4 bars, 20 px apart)",
+    "a traffic light pole (no lights lit)",
+    "4 rain drops"
+   ],
+   "layout": "crossing centre, umbrella above it, ambulance left, cone right.",
+   "why_distinct": "a crossing in the rain."
+  },
+  {
+   "id": "ptx-G1-429-harbour-wall",
+   "level": 1,
+   "setting": "harbour wall",
+   "name_en": "The Harbour Wall",
+   "cast": [
+    {
+     "src": "beach bw/lighthouse",
+     "role": "hero"
+    },
+    {
+     "src": "vehicles bw 2/boat",
+     "role": "row"
+    },
+    {
+     "src": "beach bw/anchor",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a harbour wall (one long top line)",
+    "one water line"
+   ],
+   "layout": "lighthouse left 300 px, boat on the water, anchor on the wall.",
+   "why_distinct": "a harbour."
+  },
+  {
+   "id": "ptx-G1-429-park-gate",
+   "level": 1,
+   "setting": "park gate",
+   "name_en": "At the Park Gate",
+   "cast": [
+    {
+     "src": "home and nature bw/tree",
+     "role": "row"
+    },
+    {
+     "src": "farm bw/duck",
+     "role": "row"
+    },
+    {
+     "src": "toys bw 2/kite",
+     "role": "row"
+    },
+    {
+     "src": "home bw 2/flower",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a park gate arch (two posts + an arch)",
+    "a path line"
+   ],
+   "layout": "gate centre, tree left, duck on the path, kite in the sky, flower pot right.",
+   "why_distinct": "a park, not a street."
+  },
+  {
+   "id": "ptx-G1-429-platform",
+   "level": 1,
+   "setting": "train platform",
+   "name_en": "On the Platform",
+   "cast": [
+    {
+     "src": "vehicles bw/train",
+     "role": "hero"
+    },
+    {
+     "src": "travel and holiday bw/suitcase",
+     "role": "row"
+    },
+    {
+     "src": "travel and holiday bw/ticket",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a platform edge and a canopy roof (single line)",
+    "a rail line"
+   ],
+   "layout": "train left on the rail, suitcase and ticket on the platform right, canopy above.",
+   "why_distinct": "a station."
+  },
+  {
+   "id": "ptx-G1-429-market",
+   "level": 2,
+   "setting": "market square",
+   "name_en": "Market Morning",
+   "cast": [
+    {
+     "src": "vegetables bw/pumpkin",
+     "role": "row"
+    },
+    {
+     "src": "fruits bw/watermelon",
+     "role": "row"
+    },
+    {
+     "src": "Easter bw 2/basket",
+     "role": "row"
+    },
+    {
+     "src": "fruits bw/pear",
+     "role": "row"
+    },
+    {
+     "src": "kitchen bw/kitchen_scale",
+     "role": "row"
+    },
+    {
+     "src": "birds bw/pigeon",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "two market stalls with striped awnings",
+    "a cobble line"
+   ],
+   "layout": "two stalls across the top half with fruit and the scale on their counters, basket and pigeon on the ground.",
+   "why_distinct": "a market."
+  },
+  {
+   "id": "ptx-G1-429-fire-station",
+   "level": 2,
+   "setting": "fire station",
+   "name_en": "The Fire Station",
+   "cast": [
+    {
+     "src": "vehicles bw 3/fire_truck",
+     "role": "hero"
+    },
+    {
+     "src": "sports bw/helmet",
+     "role": "row"
+    },
+    {
+     "src": "objects bw/ladder",
+     "role": "row"
+    },
+    {
+     "src": "animals bw 5/dog_2",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a fire station with two big arched doors",
+    "a hose reel (spiral, solid)",
+    "a flag-free pole"
+   ],
+   "layout": "station back, truck out front, ladder against the wall, helmet on a hook, dog by the door.",
+   "why_distinct": "a fire station."
+  },
+  {
+   "id": "ptx-G1-429-airport",
+   "level": 2,
+   "setting": "airport",
+   "name_en": "At the Airport",
+   "cast": [
+    {
+     "src": "vehicles bw/airplane",
+     "role": "hero"
+    },
+    {
+     "src": "vehicles bw 2/helicopter_2",
+     "role": "row"
+    },
+    {
+     "src": "beach bw/suitcase_2",
+     "role": "row"
+    },
+    {
+     "src": "classroom bw 2/backpack",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a control tower",
+    "a terminal roof line",
+    "a runway line"
+   ],
+   "layout": "airplane on the runway, helicopter in the sky, tower right, bags by the terminal.",
+   "why_distinct": "an airport."
+  },
+  {
+   "id": "ptx-G1-429-building-site",
+   "level": 2,
+   "setting": "building site",
+   "name_en": "The Building Site",
+   "cast": [
+    {
+     "src": "vehicles bw/cement_mixer",
+     "role": "row"
+    },
+    {
+     "src": "vehicles bw/crane",
+     "role": "hero"
+    },
+    {
+     "src": "vehicles bw/forklift",
+     "role": "row"
+    },
+    {
+     "src": "tools bw/wheelbarrow",
+     "role": "row"
+    },
+    {
+     "src": "tools bw/shovel",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a half-built wall of large bricks (8 bricks, 18 px mortar gaps)",
+    "a fence line"
+   ],
+   "layout": "crane behind the wall, mixer + forklift on the ground, barrow and shovel front.",
+   "why_distinct": "a building site."
+  },
+  {
+   "id": "ptx-G1-429-promenade",
+   "level": 2,
+   "setting": "seaside promenade",
+   "name_en": "The Promenade",
+   "cast": [
+    {
+     "src": "vehicles bw 3/ice_cream_truck",
+     "role": "hero"
+    },
+    {
+     "src": "beach bw/palm_tree",
+     "role": "row"
+    },
+    {
+     "src": "vehicles bw/scooter",
+     "role": "row"
+    },
+    {
+     "src": "travel and holiday bw/double-decker",
+     "role": "row"
+    },
+    {
+     "src": "vehicles bw 3/baby_carriage",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "two lamp posts",
+    "a railing line",
+    "a sea line"
+   ],
+   "layout": "promenade across the middle, palm left, ice-cream truck centre, bus behind, scooter and pram front.",
+   "why_distinct": "a seaside promenade."
+  },
+  {
+   "id": "ptx-G1-429-station-hall",
+   "level": 3,
+   "setting": "train station hall",
+   "name_en": "The Station Hall",
+   "cast": [
+    {
+     "src": "vehicles bw 2/train_2",
+     "role": "hero"
+    },
+    {
+     "src": "beach bw 2/suitcase",
+     "role": "row"
+    },
+    {
+     "src": "education bw/umbrella_2",
+     "role": "row"
+    },
+    {
+     "src": "animals bw 4/cat_3",
+     "role": "row",
+     "note": ""
+    },
+    {
+     "src": "birds bw 2/crow",
+     "role": "row"
+    },
+    {
+     "src": "sports bw/scooter",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a station facade with three arches",
+    "a bench",
+    "a lamp post",
+    "a round window"
+   ],
+   "layout": "arches across the back, steam train under the middle arch, travellers' things on the floor.",
+   "why_distinct": "a grand station hall."
+  },
+  {
+   "id": "ptx-G1-429-busy-harbour",
+   "level": 3,
+   "setting": "busy harbour",
+   "name_en": "The Busy Harbour",
+   "cast": [
+    {
+     "src": "travel and holiday bw/cruise",
+     "role": "hero"
+    },
+    {
+     "src": "beach bw/sailboat",
+     "role": "row"
+    },
+    {
+     "src": "beach bw/crab",
+     "role": "row"
+    },
+    {
+     "src": "sea life bw/fish",
+     "role": "row"
+    },
+    {
+     "src": "birds bw/pelican",
+     "role": "row"
+    },
+    {
+     "src": "travel and holiday bw/kayak",
+     "role": "row"
+    },
+    {
+     "src": "beach bw/preserver_ring",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a warehouse with a big door",
+    "three crates",
+    "two bollards with a rope"
+   ],
+   "layout": "cruise ship far left, warehouse right, quay with crates and bollards front.",
+   "why_distinct": "ships, crates and sea life."
+  },
+  {
+   "id": "ptx-G1-429-zoo-gate",
+   "level": 3,
+   "setting": "zoo entrance",
+   "name_en": "At the Zoo Gate",
+   "cast": [
+    {
+     "src": "zoo animals bw/zebra",
+     "role": "row"
+    },
+    {
+     "src": "zoo animals bw/giraffe",
+     "role": "row"
+    },
+    {
+     "src": "zoo animals bw/elephant",
+     "role": "row"
+    },
+    {
+     "src": "zoo animals bw/monkey",
+     "role": "row"
+    },
+    {
+     "src": "animals bw 5/penguin",
+     "role": "row"
+    },
+    {
+     "src": "zoo animals bw/flamingo",
+     "role": "row"
+    },
+    {
+     "src": "food bw 2/popcorn",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a zoo gate arch",
+    "a ticket booth",
+    "two balloons on strings"
+   ],
+   "layout": "gate centre, animals spread behind low fences, popcorn by the booth.",
+   "why_distinct": "a zoo."
+  },
+  {
+   "id": "ptx-G1-429-toy-shop",
+   "level": 3,
+   "setting": "toy shop street",
+   "name_en": "The Toy Shop Street",
+   "cast": [
+    {
+     "src": "toys bw 2/teddy_bear",
+     "role": "row"
+    },
+    {
+     "src": "toys bw 2/robot",
+     "role": "row"
+    },
+    {
+     "src": "toys bw/rocking_horse",
+     "role": "row"
+    },
+    {
+     "src": "toys bw/drum",
+     "role": "row"
+    },
+    {
+     "src": "toys bw/airplane",
+     "role": "row"
+    },
+    {
+     "src": "toys bw 2/pinwheel",
+     "role": "row"
+    },
+    {
+     "src": "toys bw/dinosaur",
+     "role": "row"
+    },
+    {
+     "src": "toys bw 2/guitar",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "two shop fronts with big windows",
+    "a pavement line"
+   ],
+   "layout": "toys in the two windows and outside on the pavement.",
+   "why_distinct": "a street of toy shops."
+  },
+  {
+   "id": "ptx-G1-429-garage",
+   "level": 3,
+   "setting": "car repair garage",
+   "name_en": "The Repair Garage",
+   "cast": [
+    {
+     "src": "vehicles bw/tow_truck",
+     "role": "hero"
+    },
+    {
+     "src": "vehicles bw/car_3",
+     "role": "row"
+    },
+    {
+     "src": "travel and holiday bw/gas_pump",
+     "role": "row"
+    },
+    {
+     "src": "tools bw/wrench",
+     "role": "row"
+    },
+    {
+     "src": "tools bw/hammer",
+     "role": "row"
+    },
+    {
+     "src": "tools bw/screwdriver",
+     "role": "row"
+    },
+    {
+     "src": "vehicles bw/pickup_2",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a garage with a roller door",
+    "a tool board",
+    "two tyres (circles)"
+   ],
+   "layout": "garage back, tow truck left, car and pickup front, tools on the board, pump right.",
+   "why_distinct": "a garage."
+  }
+ ],
+ "G1-430": [
+  {
+   "id": "ptx-G1-430-bedtime",
+   "level": 1,
+   "setting": "bedroom",
+   "name_en": "Bedtime Words",
+   "cast": [
+    {
+     "src": "nature bw/moon",
+     "role": "card",
+     "note": "Moon/Mond/Lune/Luna/Lua/Luna/Maan/Måne/Måne/Måne/Kuu, max 4"
+    },
+    {
+     "src": "classroom bw/book",
+     "role": "card",
+     "note": "max 5"
+    },
+    {
+     "src": "furniture bw/bed",
+     "role": "card",
+     "note": "max 5"
+    },
+    {
+     "src": "furniture bw/sofa",
+     "role": "card",
+     "note": "max 5"
+    }
+   ],
+   "drawn": [
+    "a star in the moon card corner (solid)"
+   ],
+   "layout": "4 cards 2 x 2, picture 200 px, word lane below.",
+   "why_distinct": "home things; 4-5 letter words."
+  },
+  {
+   "id": "ptx-G1-430-breakfast",
+   "level": 1,
+   "setting": "breakfast meadow",
+   "name_en": "Breakfast Words",
+   "cast": [
+    {
+     "src": "food bw/bread",
+     "role": "card",
+     "note": "max 5"
+    },
+    {
+     "src": "food bw 3/egg",
+     "role": "card",
+     "note": "max 5 (food bw 2/egg reads as an avocado: refused)"
+    },
+    {
+     "src": "faces bw/cow",
+     "role": "card",
+     "note": "max 5"
+    },
+    {
+     "src": "birds bw 2/goose",
+     "role": "card",
+     "note": "max 5"
+    }
+   ],
+   "drawn": [],
+   "layout": "4 cards.",
+   "why_distinct": "food and farm, short words."
+  },
+  {
+   "id": "ptx-G1-430-furry-faces",
+   "level": 1,
+   "setting": "zoo faces",
+   "name_en": "Furry Faces",
+   "cast": [
+    {
+     "src": "faces bw/panda_2",
+     "role": "card",
+     "note": "Panda x 11"
+    },
+    {
+     "src": "faces bw/koala",
+     "role": "card",
+     "note": "max 5"
+    },
+    {
+     "src": "faces bw/bear",
+     "role": "card",
+     "note": "max 5"
+    },
+    {
+     "src": "faces bw/wolf",
+     "role": "card",
+     "note": "max 4"
+    }
+   ],
+   "drawn": [],
+   "layout": "4 cards.",
+   "why_distinct": "animal faces."
+  },
+  {
+   "id": "ptx-G1-430-mountain-train",
+   "level": 1,
+   "setting": "mountain train ride",
+   "name_en": "The Mountain Train",
+   "cast": [
+    {
+     "src": "vehicles bw/train",
+     "role": "card",
+     "note": "max 5"
+    },
+    {
+     "src": "animals bw/llama",
+     "role": "card",
+     "note": "max 5"
+    },
+    {
+     "src": "farm animals bw/pony",
+     "role": "card",
+     "note": "max 5"
+    },
+    {
+     "src": "home and nature bw/nest",
+     "role": "card",
+     "note": "max 5"
+    }
+   ],
+   "drawn": [],
+   "layout": "4 cards.",
+   "why_distinct": "travel + mountain animals."
+  },
+  {
+   "id": "ptx-G1-430-cottage",
+   "level": 1,
+   "setting": "cottage garden",
+   "name_en": "By the Cottage",
+   "cast": [
+    {
+     "src": "animals bw/owl",
+     "role": "card",
+     "note": "max 6 (Coruja, Pöllö, Uggla) — FLAG: above the L1 5-letter target"
+    },
+    {
+     "src": "home and nature bw/tree_3",
+     "role": "card",
+     "note": "max 6 (Árvore)"
+    },
+    {
+     "src": "home and nature bw/house",
+     "role": "card",
+     "note": "max 6 (Maison)"
+    },
+    {
+     "src": "birds bw 2/duck",
+     "role": "card",
+     "note": "max 6 (Canard, Anatra)"
+    }
+   ],
+   "drawn": [],
+   "layout": "4 cards.",
+   "why_distinct": "the fifth L1 set; the 5-letter pool is exhausted."
+  },
+  {
+   "id": "ptx-G1-430-under-sea",
+   "level": 2,
+   "setting": "under the sea",
+   "name_en": "Sea Words",
+   "cast": [
+    {
+     "src": "sea life bw/whale",
+     "role": "card",
+     "note": "max 7 Walvis/Ballena/Baleine"
+    },
+    {
+     "src": "sea life bw 2/shark",
+     "role": "card",
+     "note": "max 7 Tubarão/Tiburón"
+    },
+    {
+     "src": "sea life bw 2/seal",
+     "role": "card",
+     "note": "max 7 Zeehond"
+    },
+    {
+     "src": "beach bw/anchor",
+     "role": "card",
+     "note": "max 7 Ankkuri"
+    }
+   ],
+   "drawn": [],
+   "layout": "4 cards, picture 165 px.",
+   "why_distinct": "sea."
+  },
+  {
+   "id": "ptx-G1-430-market",
+   "level": 2,
+   "setting": "market stall",
+   "name_en": "Market Words",
+   "cast": [
+    {
+     "src": "fruits bw/banana",
+     "role": "card",
+     "note": "max 7"
+    },
+    {
+     "src": "fruits bw/pear",
+     "role": "card",
+     "note": "max 7 Päärynä"
+    },
+    {
+     "src": "vegetables bw/onion",
+     "role": "card",
+     "note": "max 7 Zwiebel/Cebolla/Cipolla"
+    },
+    {
+     "src": "Easter bw 2/basket",
+     "role": "card",
+     "note": "max 7 Cestino/Canasta"
+    }
+   ],
+   "drawn": [],
+   "layout": "4 cards.",
+   "why_distinct": "food from a market."
+  },
+  {
+   "id": "ptx-G1-430-toy-shelf",
+   "level": 2,
+   "setting": "toy shelf",
+   "name_en": "Toy Words",
+   "cast": [
+    {
+     "src": "toys bw/drum",
+     "role": "card",
+     "note": "max 7 Trommel/Tambour/Tamburo"
+    },
+    {
+     "src": "toys bw 2/robot",
+     "role": "card",
+     "note": "max 7 Roboter/Robotti"
+    },
+    {
+     "src": "toys bw/rocket",
+     "role": "card",
+     "note": "max 7 Foguete/Raketti"
+    },
+    {
+     "src": "toys bw/duck",
+     "role": "card",
+     "note": "max 6"
+    }
+   ],
+   "drawn": [],
+   "layout": "4 cards.",
+   "why_distinct": "toys."
+  },
+  {
+   "id": "ptx-G1-430-jungle-faces",
+   "level": 2,
+   "setting": "jungle",
+   "name_en": "Jungle Words",
+   "cast": [
+    {
+     "src": "faces bw/lion",
+     "role": "card",
+     "note": "max 7 Leijona"
+    },
+    {
+     "src": "faces bw/tiger",
+     "role": "card",
+     "note": "max 7 Tiikeri"
+    },
+    {
+     "src": "faces bw/giraffe",
+     "role": "card",
+     "note": "max 7 Giraffe/Giraffa/Sjiraff/Kirahvi"
+    },
+    {
+     "src": "faces bw/monkey",
+     "role": "card",
+     "note": "max 7 Scimmia/Macaco"
+    }
+   ],
+   "drawn": [],
+   "layout": "4 cards.",
+   "why_distinct": "wild animal faces."
+  },
+  {
+   "id": "ptx-G1-430-garden-path",
+   "level": 2,
+   "setting": "garden path",
+   "name_en": "Garden Words",
+   "cast": [
+    {
+     "src": "nature bw/bird",
+     "role": "card",
+     "note": "max 7 Pássaro/Uccello"
+    },
+    {
+     "src": "nature bw/leaf",
+     "role": "card",
+     "note": "max 7 Feuille/Foglia"
+    },
+    {
+     "src": "home bw 2/flower",
+     "role": "card",
+     "note": "max 6"
+    },
+    {
+     "src": "faces bw/mouse",
+     "role": "card",
+     "note": "max 6"
+    }
+   ],
+   "drawn": [],
+   "layout": "4 cards.",
+   "why_distinct": "garden."
+  },
+  {
+   "id": "ptx-G1-430-bakery",
+   "level": 3,
+   "setting": "bakery window",
+   "name_en": "Bakery Words",
+   "cast": [
+    {
+     "src": "dessert bw/muffin",
+     "role": "card",
+     "note": "4-7 all locales; en ff"
+    },
+    {
+     "src": "food bw/pretzel",
+     "role": "card",
+     "note": "6-7"
+    },
+    {
+     "src": "dessert bw/pudding",
+     "role": "card",
+     "note": "5-7; en dd"
+    },
+    {
+     "src": "food bw 2/cake_2",
+     "role": "card",
+     "note": "4-6"
+    }
+   ],
+   "drawn": [],
+   "layout": "4 cards, picture 155 px.",
+   "why_distinct": "baked things, double letters."
+  },
+  {
+   "id": "ptx-G1-430-wildlife",
+   "level": 3,
+   "setting": "wildlife park",
+   "name_en": "Wildlife Words",
+   "cast": [
+    {
+     "src": "birds bw 2/toucan",
+     "role": "card",
+     "note": "5-7; en ou"
+    },
+    {
+     "src": "animals bw 5/gorilla",
+     "role": "card",
+     "note": "6-7; en ll"
+    },
+    {
+     "src": "farm animals bw/alpaca",
+     "role": "card",
+     "note": "6-7"
+    },
+    {
+     "src": "animals bw/bison",
+     "role": "card",
+     "note": "5-7"
+    }
+   ],
+   "drawn": [],
+   "layout": "4 cards.",
+   "why_distinct": "less common animals."
+  },
+  {
+   "id": "ptx-G1-430-rainy-window",
+   "level": 3,
+   "setting": "rainy window",
+   "name_en": "Rainy Day Words",
+   "cast": [
+    {
+     "src": "nature bw/rain",
+     "role": "card",
+     "note": "4-7; en ai"
+    },
+    {
+     "src": "household bw/curtain",
+     "role": "card",
+     "note": "5-7; en ai"
+    },
+    {
+     "src": "birds bw 2/crow",
+     "role": "card",
+     "note": "4-7; en ow"
+    },
+    {
+     "src": "household bw/plant",
+     "role": "card",
+     "note": "4-7"
+    }
+   ],
+   "drawn": [],
+   "layout": "4 cards.",
+   "why_distinct": "weather and home."
+  },
+  {
+   "id": "ptx-G1-430-lake-shore",
+   "level": 3,
+   "setting": "lake shore",
+   "name_en": "Lake Words",
+   "cast": [
+    {
+     "src": "travel and holiday bw/kayak",
+     "role": "card",
+     "note": "5-7"
+    },
+    {
+     "src": "animals bw/beaver",
+     "role": "card",
+     "note": "5-7; en ea"
+    },
+    {
+     "src": "animals bw/otter",
+     "role": "card",
+     "note": "4-6; en tt"
+    },
+    {
+     "src": "animals bw/swan",
+     "role": "card",
+     "note": "4-7"
+    }
+   ],
+   "drawn": [],
+   "layout": "4 cards.",
+   "why_distinct": "a lake."
+  },
+  {
+   "id": "ptx-G1-430-barnyard",
+   "level": 3,
+   "setting": "barnyard",
+   "name_en": "Barnyard Words",
+   "cast": [
+    {
+     "src": "farm bw/sheep",
+     "role": "card",
+     "note": "3-6 FLAG (Får, Sau); en sh + ee"
+    },
+    {
+     "src": "farm bw/goat",
+     "role": "card",
+     "note": "3-6 FLAG (Get, Ged); en oa"
+    },
+    {
+     "src": "farm bw/rooster",
+     "role": "card",
+     "note": "3-7 FLAG (Coq); en oo"
+    },
+    {
+     "src": "animals bw 3/horse",
+     "role": "card",
+     "note": "4-7"
+    }
+   ],
+   "drawn": [],
+   "layout": "4 cards.",
+   "why_distinct": "farm animals, band 2 drawings, digraphs."
+  }
+ ],
+ "G1-431": [
+  {
+   "id": "ptx-G1-431-picnic-basket",
+   "level": 1,
+   "setting": "picnic meadow",
+   "name_en": "What Is in the Basket?",
+   "cast": [
+    {
+     "src": "home and nature bw/tree",
+     "role": "row"
+    },
+    {
+     "src": "nature bw/butterfly",
+     "role": "row"
+    },
+    {
+     "src": "birds bw 2/bird",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a big OPEN picnic basket on a blanket (the empty space, 300 x 220 inside the rim)",
+    "ground line"
+   ],
+   "layout": "basket centre-bottom, tree left, butterfly and bird above.",
+   "why_distinct": "a basket to fill."
+  },
+  {
+   "id": "ptx-G1-431-fish-tank",
+   "level": 1,
+   "setting": "living room",
+   "name_en": "Who Lives in the Tank?",
+   "cast": [
+    {
+     "src": "animals bw 4/cat",
+     "role": "row"
+    },
+    {
+     "src": "household bw/plant",
+     "role": "row"
+    },
+    {
+     "src": "furniture bw/table_lamp",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a big empty fish tank on a cabinet (the empty space, 300 x 210)",
+    "floor line"
+   ],
+   "layout": "tank centre on a cabinet, cat looking up at it left, plant and lamp right.",
+   "why_distinct": "an aquarium."
+  },
+  {
+   "id": "ptx-G1-431-nest",
+   "level": 1,
+   "setting": "garden tree branch",
+   "name_en": "What Is in the Nest?",
+   "cast": [
+    {
+     "src": "nature bw/bird",
+     "role": "row"
+    },
+    {
+     "src": "home bw 2/flower",
+     "role": "row"
+    },
+    {
+     "src": "animals bw 4/rabbit_2",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a thick branch across the page",
+    "a big empty nest on it (the empty space, 280 x 200)"
+   ],
+   "layout": "branch upper half with the empty nest, bird perched on it, rabbit and flower on the ground.",
+   "why_distinct": "a nest."
+  },
+  {
+   "id": "ptx-G1-431-toy-box",
+   "level": 1,
+   "setting": "bedroom",
+   "name_en": "What Is in the Toy Box?",
+   "cast": [
+    {
+     "src": "animals bw/teddy_bear_2",
+     "role": "row"
+    },
+    {
+     "src": "sports bw/beach_ball",
+     "role": "row"
+    },
+    {
+     "src": "furniture bw/floor_lamp",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a big open toy chest with its lid up (the empty space, 300 x 220)",
+    "floor line"
+   ],
+   "layout": "chest centre, teddy sitting beside it, ball front, lamp right.",
+   "why_distinct": "a toy box."
+  },
+  {
+   "id": "ptx-G1-431-pond",
+   "level": 1,
+   "setting": "town park",
+   "name_en": "Who Swims in the Pond?",
+   "cast": [
+    {
+     "src": "home and nature bw/tree_3",
+     "role": "row"
+    },
+    {
+     "src": "nature bw/umbrella",
+     "role": "row"
+    },
+    {
+     "src": "Easter bw/mushroom",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a big empty pond outline with two reeds (the empty space, 320 x 200)",
+    "a bench"
+   ],
+   "layout": "pond centre-bottom, tree left, bench right with an umbrella leaning on it.",
+   "why_distinct": "a pond."
+  },
+  {
+   "id": "ptx-G1-431-fish-crate",
+   "level": 2,
+   "setting": "harbour pier",
+   "name_en": "What Did the Boat Catch?",
+   "cast": [
+    {
+     "src": "vehicles bw 2/boat",
+     "role": "row"
+    },
+    {
+     "src": "birds bw/pelican",
+     "role": "row"
+    },
+    {
+     "src": "travel and holiday bw/lighthouse",
+     "role": "row"
+    },
+    {
+     "src": "beach bw/anchor",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a big empty crate on the pier (the empty space, 220 x 170)",
+    "pier planks",
+    "sun, cloud"
+   ],
+   "layout": "pier across the bottom with the crate, boat on the water, pelican on a post, lighthouse far right.",
+   "why_distinct": "a fishing catch."
+  },
+  {
+   "id": "ptx-G1-431-market-stall",
+   "level": 2,
+   "setting": "market",
+   "name_en": "What Is the Stall Selling?",
+   "cast": [
+    {
+     "src": "kitchen bw/kitchen_scale",
+     "role": "row"
+    },
+    {
+     "src": "animals bw 5/dog_3",
+     "role": "row"
+    },
+    {
+     "src": "beach bw 2/tote_bag",
+     "role": "row"
+    },
+    {
+     "src": "Easter bw 2/basket",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a stall with a striped awning and an EMPTY counter top (the empty space, 280 x 160)",
+    "sun"
+   ],
+   "layout": "stall centre, scale at the counter edge, dog and bags in front.",
+   "why_distinct": "a market stall."
+  },
+  {
+   "id": "ptx-G1-431-shop-window",
+   "level": 2,
+   "setting": "toy shop",
+   "name_en": "What Is in the Shop Window?",
+   "cast": [
+    {
+     "src": "vehicles bw 3/baby_carriage",
+     "role": "row"
+    },
+    {
+     "src": "toys bw 2/pinwheel",
+     "role": "row"
+    },
+    {
+     "src": "animals bw 5/squirrel",
+     "role": "row"
+    },
+    {
+     "src": "travel and holiday bw/double-decker",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a shop front with a big EMPTY window (the empty space, 290 x 170)",
+    "a pavement line",
+    "a cloud"
+   ],
+   "layout": "shop centre, pram and squirrel on the pavement, pinwheel in a flower box, bus at the right edge.",
+   "why_distinct": "a shop window."
+  },
+  {
+   "id": "ptx-G1-431-birthday-table",
+   "level": 2,
+   "setting": "birthday party",
+   "name_en": "What Is on the Birthday Table?",
+   "cast": [
+    {
+     "src": "valentine bw/balloon",
+     "role": "row"
+    },
+    {
+     "src": "toys bw/party_hat",
+     "role": "row"
+    },
+    {
+     "src": "valentine bw/gift_box",
+     "role": "row"
+    },
+    {
+     "src": "furniture bw/chair",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a long table with an EMPTY top and a tablecloth fringe (the empty space above it, 300 x 160)",
+    "a garland"
+   ],
+   "layout": "table centre, chairs at its ends, balloons tied to a chair, gift under the table.",
+   "why_distinct": "a party table."
+  },
+  {
+   "id": "ptx-G1-431-gallery",
+   "level": 2,
+   "setting": "art gallery",
+   "name_en": "What Is in the Painting?",
+   "cast": [
+    {
+     "src": "classroom bw 2/palette",
+     "role": "row"
+    },
+    {
+     "src": "home bw 2/paintbrush",
+     "role": "row"
+    },
+    {
+     "src": "household bw/plant",
+     "role": "row"
+    },
+    {
+     "src": "furniture bw/stool",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a big EMPTY picture frame on the wall (the empty space, 300 x 200)",
+    "a bench"
+   ],
+   "layout": "frame upper centre, bench below, palette and brush on the stool, plant in the corner.",
+   "why_distinct": "a painting to make."
+  },
+  {
+   "id": "ptx-G1-431-tent",
+   "level": 3,
+   "setting": "forest camp",
+   "name_en": "Who Sleeps in the Tent?",
+   "cast": [
+    {
+     "src": "nature bw/campfire",
+     "role": "row"
+    },
+    {
+     "src": "home and nature bw/tree_2",
+     "role": "row"
+    },
+    {
+     "src": "travel and holiday bw/camper",
+     "role": "row"
+    },
+    {
+     "src": "birds bw 2/owl",
+     "role": "row"
+    },
+    {
+     "src": "nature bw/mushroom",
+     "role": "row"
+    },
+    {
+     "src": "travel and holiday bw/kayak",
+     "role": "row"
+    },
+    {
+     "src": "nature bw/moon",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a big tent with the flaps open (the empty doorway, 170 x 150)",
+    "a lake line"
+   ],
+   "layout": "tent centre, campfire front, camper left, owl in the tree, kayak on the lake, moon top.",
+   "why_distinct": "a night camp."
+  },
+  {
+   "id": "ptx-G1-431-zoo-enclosure",
+   "level": 3,
+   "setting": "zoo",
+   "name_en": "Who Lives Here?",
+   "cast": [
+    {
+     "src": "zoo animals bw/zebra",
+     "role": "row"
+    },
+    {
+     "src": "animals bw 5/giraffe",
+     "role": "row"
+    },
+    {
+     "src": "animals bw 5/monkey",
+     "role": "row"
+    },
+    {
+     "src": "animals bw 5/penguin",
+     "role": "row"
+    },
+    {
+     "src": "valentine bw/balloon",
+     "role": "row"
+    },
+    {
+     "src": "food bw/ice_cream",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "an EMPTY enclosure behind a low fence (the empty space, 260 x 150)",
+    "a bench",
+    "a signpost without words"
+   ],
+   "layout": "enclosure centre-top, the other animals in their own pens left and right, visitors' things in front.",
+   "why_distinct": "a zoo."
+  },
+  {
+   "id": "ptx-G1-431-castle",
+   "level": 3,
+   "setting": "castle courtyard",
+   "name_en": "Who Looks out of the Tower?",
+   "cast": [
+    {
+     "src": "animals bw 3/horse",
+     "role": "row"
+    },
+    {
+     "src": "animals bw/dragon",
+     "role": "row"
+    },
+    {
+     "src": "home and nature bw/tree",
+     "role": "row"
+    },
+    {
+     "src": "nature bw/bird",
+     "role": "row"
+    },
+    {
+     "src": "farm bw/duck",
+     "role": "row"
+    },
+    {
+     "src": "farm bw/hay",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a castle with a tower and a big EMPTY arched window (the empty space, 170 x 150)",
+    "a drawbridge",
+    "a moat line",
+    "a pennant without a country"
+   ],
+   "layout": "castle back centre, dragon resting beside the moat, horse, duck and hay in the courtyard.",
+   "why_distinct": "a castle."
+  },
+  {
+   "id": "ptx-G1-431-cooking-pot",
+   "level": 3,
+   "setting": "kitchen",
+   "name_en": "What Is in the Pot?",
+   "cast": [
+    {
+     "src": "home bw/oven",
+     "role": "row"
+    },
+    {
+     "src": "kitchen bw/whisk",
+     "role": "row"
+    },
+    {
+     "src": "kitchen bw/spoon",
+     "role": "row"
+    },
+    {
+     "src": "home bw/toaster",
+     "role": "row"
+    },
+    {
+     "src": "food bw/cheese",
+     "role": "row"
+    },
+    {
+     "src": "vegetables bw/carrot",
+     "role": "row"
+    },
+    {
+     "src": "kitchen bw/coffee_carafe",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a big EMPTY open pot on the cooker (the empty space inside the rim and above it, 220 x 150)"
+   ],
+   "layout": "oven centre with the pot on top, counter left with toaster, cheese, carrot, utensils on hooks.",
+   "why_distinct": "cooking."
+  },
+  {
+   "id": "ptx-G1-431-garden-bed",
+   "level": 3,
+   "setting": "vegetable garden",
+   "name_en": "What Grows in the Garden Bed?",
+   "cast": [
+    {
+     "src": "home bw 2/watering_can",
+     "role": "row"
+    },
+    {
+     "src": "tools bw/wheelbarrow",
+     "role": "row"
+    },
+    {
+     "src": "animals bw/snail",
+     "role": "row"
+    },
+    {
+     "src": "animals bw 3/bee",
+     "role": "row"
+    },
+    {
+     "src": "farm bw/scarecrow",
+     "role": "row"
+    },
+    {
+     "src": "vegetables bw 2/pepper",
+     "role": "row"
+    }
+   ],
+   "drawn": [
+    "a raised wooden garden bed with EMPTY soil (the empty space above it, 280 x 150)",
+    "a birdhouse on a pole"
+   ],
+   "layout": "garden bed centre, scarecrow behind, tools left, snail and bee near the bed.",
+   "why_distinct": "a garden."
+  }
+ ],
+ "G1-432": [
+  {
+   "id": "ptx-G1-432-kitchen-shelf",
+   "level": 1,
+   "setting": "kitchen shelf",
+   "name_en": "The Kitchen Mirror Book",
+   "cast": [
+    {
+     "src": "kitchen bw/pot",
+     "role": "hero",
+     "note": "max 2"
+    },
+    {
+     "src": "kitchen bw/spoon",
+     "role": "arch",
+     "note": "max 1"
+    },
+    {
+     "src": "kitchen bw/glass",
+     "role": "arch",
+     "note": "max 1"
+    }
+   ],
+   "drawn": [
+    "open book + 2 arches"
+   ],
+   "layout": "pot in the book 300 px; spoon and glass in two arches.",
+   "why_distinct": "kitchen things."
+  },
+  {
+   "id": "ptx-G1-432-bedroom",
+   "level": 1,
+   "setting": "bedroom",
+   "name_en": "The Bedroom Mirror Book",
+   "cast": [
+    {
+     "src": "furniture bw/wardrobe_2",
+     "role": "hero",
+     "note": "max 2"
+    },
+    {
+     "src": "furniture bw/floor_lamp",
+     "role": "arch",
+     "note": "max 2"
+    },
+    {
+     "src": "education bw/glasses",
+     "role": "arch",
+     "note": "max 2"
+    }
+   ],
+   "drawn": [
+    "open book + 2 arches"
+   ],
+   "layout": "wardrobe in the book, lamp and glasses in the arches.",
+   "why_distinct": "furniture."
+  },
+  {
+   "id": "ptx-G1-432-toy-night",
+   "level": 1,
+   "setting": "toy night sky",
+   "name_en": "The Space Mirror Book",
+   "cast": [
+    {
+     "src": "toys bw/ufo",
+     "role": "hero",
+     "note": "max 1.3"
+    },
+    {
+     "src": "nature bw/star",
+     "role": "arch",
+     "note": "max 2"
+    },
+    {
+     "src": "sports bw 2/bowling_pin",
+     "role": "arch",
+     "note": "max 2"
+    }
+   ],
+   "drawn": [
+    "open book + 2 arches"
+   ],
+   "layout": "UFO in the book, star and bowling pin in the arches.",
+   "why_distinct": "a flying saucer."
+  },
+  {
+   "id": "ptx-G1-432-beach-bag",
+   "level": 1,
+   "setting": "beach bag",
+   "name_en": "The Beach Mirror Book",
+   "cast": [
+    {
+     "src": "beach bw/sunglasses",
+     "role": "hero",
+     "note": "max 3.3"
+    },
+    {
+     "src": "beach bw/surfboard",
+     "role": "arch",
+     "note": "max 3"
+    },
+    {
+     "src": "tools bw/shovel",
+     "role": "arch",
+     "note": "max 1.3"
+    }
+   ],
+   "drawn": [
+    "open book + 2 arches"
+   ],
+   "layout": "sunglasses across the book, surfboard and spade in the arches.",
+   "why_distinct": "beach."
+  },
+  {
+   "id": "ptx-G1-432-puppy",
+   "level": 1,
+   "setting": "puppy's corner",
+   "name_en": "The Puppy's Mirror Book",
+   "cast": [
+    {
+     "src": "objects bw/bone",
+     "role": "hero",
+     "note": "max 1"
+    },
+    {
+     "src": "kitchen bw/jar",
+     "role": "arch",
+     "note": "max 2"
+    },
+    {
+     "src": "Easter bw/bell",
+     "role": "arch",
+     "note": "max 1.3"
+    }
+   ],
+   "drawn": [
+    "open book + 2 arches"
+   ],
+   "layout": "bone across the book, treat jar and bell in the arches.",
+   "why_distinct": "a pet's things."
+  },
+  {
+   "id": "ptx-G1-432-living-room",
+   "level": 2,
+   "setting": "living room",
+   "name_en": "The Living Room Book",
+   "cast": [
+    {
+     "src": "furniture bw/sofa",
+     "role": "hero",
+     "note": "max 6.7"
+    },
+    {
+     "src": "furniture bw/table_lamp",
+     "role": "arch",
+     "note": "max 5"
+    },
+    {
+     "src": "furniture bw/stool",
+     "role": "arch",
+     "note": "max 9"
+    },
+    {
+     "src": "home and nature bw/plate",
+     "role": "arch",
+     "note": "max 9"
+    }
+   ],
+   "drawn": [
+    "open book + 3 arches"
+   ],
+   "layout": "sofa in the book; lamp, stool, plate in the arches.",
+   "why_distinct": "a living room."
+  },
+  {
+   "id": "ptx-G1-432-sports-day",
+   "level": 2,
+   "setting": "sports day",
+   "name_en": "The Sports Day Book",
+   "cast": [
+    {
+     "src": "sports bw/skateboard",
+     "role": "hero",
+     "note": "max 9"
+    },
+    {
+     "src": "sports bw/kettlebell",
+     "role": "arch",
+     "note": "max 7.3"
+    },
+    {
+     "src": "sports bw/goggles",
+     "role": "arch",
+     "note": "max 5.3"
+    },
+    {
+     "src": "sports bw/helmet",
+     "role": "arch",
+     "note": "max 4.7"
+    }
+   ],
+   "drawn": [
+    "open book + 3 arches"
+   ],
+   "layout": "skateboard across the book; the rest in arches.",
+   "why_distinct": "sport."
+  },
+  {
+   "id": "ptx-G1-432-hallway",
+   "level": 2,
+   "setting": "rainy hallway",
+   "name_en": "The Rainy Day Book",
+   "cast": [
+    {
+     "src": "apparel bw/coat_2",
+     "role": "hero",
+     "note": "max 5"
+    },
+    {
+     "src": "beach bw 2/umbrella",
+     "role": "arch",
+     "note": "max 7.3"
+    },
+    {
+     "src": "valentine bw/padlock",
+     "role": "arch",
+     "note": "max 6"
+    },
+    {
+     "src": "furniture bw/filing_cabinet",
+     "role": "arch",
+     "note": "max 10"
+    }
+   ],
+   "drawn": [
+    "open book + 3 arches"
+   ],
+   "layout": "coat in the book; umbrella, padlock, cabinet in arches.",
+   "why_distinct": "clothes and a hallway."
+  },
+  {
+   "id": "ptx-G1-432-road-trip",
+   "level": 2,
+   "setting": "road trip",
+   "name_en": "The Road Trip Book",
+   "cast": [
+    {
+     "src": "travel and holiday bw/bus",
+     "role": "hero",
+     "note": "max 1, front view"
+    },
+    {
+     "src": "vehicles bw/car_3",
+     "role": "arch",
+     "note": "max 2, front view"
+    },
+    {
+     "src": "tools bw/traffic_cone",
+     "role": "arch",
+     "note": "max 7"
+    },
+    {
+     "src": "objects bw/binoculars",
+     "role": "arch",
+     "note": "max 9.3"
+    }
+   ],
+   "drawn": [
+    "open book + 3 arches"
+   ],
+   "layout": "bus front in the book; car, cone, binoculars in arches.",
+   "why_distinct": "vehicles from the front."
+  },
+  {
+   "id": "ptx-G1-432-koala-kitchen",
+   "level": 2,
+   "setting": "koala's kitchen",
+   "name_en": "The Koala's Book",
+   "cast": [
+    {
+     "src": "faces bw/koala",
+     "role": "hero",
+     "note": "max 9.3; in the BOOK at 260 px the ears have room (refused inside a 165-px window on the published page)"
+    },
+    {
+     "src": "food bw 3/egg",
+     "role": "arch",
+     "note": "max 8"
+    },
+    {
+     "src": "kitchen bw/spatula_2",
+     "role": "arch",
+     "note": "max 5"
+    },
+    {
+     "src": "household bw/bottle",
+     "role": "arch",
+     "note": "max 8.7"
+    }
+   ],
+   "drawn": [
+    "open book + 3 arches"
+   ],
+   "layout": "koala face in the book; egg, spatula, bottle in arches.",
+   "why_distinct": "the one animal face."
+  },
+  {
+   "id": "ptx-G1-432-garden-party",
+   "level": 3,
+   "setting": "garden party",
+   "name_en": "The Garden Party Book",
+   "cast": [
+    {
+     "src": "nature bw/butterfly",
+     "role": "hero",
+     "note": "max 6, veined wings on the dashed half"
+    },
+    {
+     "src": "nature bw/ladybug",
+     "role": "arch",
+     "note": "max 8, spots + legs"
+    },
+    {
+     "src": "sports bw/rosette",
+     "role": "arch",
+     "note": "max 4.3, star + ribbons"
+    },
+    {
+     "src": "furniture bw/table",
+     "role": "arch",
+     "note": "max 4.7"
+    }
+   ],
+   "drawn": [
+    "open book + 3 arches"
+   ],
+   "layout": "butterfly in the book (NOT the published Easter one); ladybug, rosette, table in arches.",
+   "why_distinct": "garden, inner details."
+  },
+  {
+   "id": "ptx-G1-432-post-office",
+   "level": 3,
+   "setting": "old town post office",
+   "name_en": "The Old Town Book",
+   "cast": [
+    {
+     "src": "travel and holiday bw/museum",
+     "role": "hero",
+     "note": "max 2.3, columns + door panes"
+    },
+    {
+     "src": "Christmas bw/envelope",
+     "role": "arch",
+     "note": "max 6.3"
+    },
+    {
+     "src": "home and nature bw/table_lamp",
+     "role": "arch",
+     "note": "max 7"
+    },
+    {
+     "src": "furniture bw/cabinet",
+     "role": "arch",
+     "note": "max 2"
+    }
+   ],
+   "drawn": [
+    "open book + 3 arches"
+   ],
+   "layout": "museum in the book; envelope, lamp, cabinet in arches.",
+   "why_distinct": "a building."
+  },
+  {
+   "id": "ptx-G1-432-dressing-room",
+   "level": 3,
+   "setting": "dressing room",
+   "name_en": "The Dressing Room Book",
+   "cast": [
+    {
+     "src": "furniture bw/vanity_table",
+     "role": "hero",
+     "note": "max 6, band 3 carved mirror"
+    },
+    {
+     "src": "home bw/chandelier",
+     "role": "arch",
+     "note": "max 4.7, band 3"
+    },
+    {
+     "src": "objects bw/jacket",
+     "role": "arch",
+     "note": "max 7, zip + pockets"
+    },
+    {
+     "src": "travel and holiday bw/sunglasses",
+     "role": "arch",
+     "note": "max 7.7"
+    }
+   ],
+   "drawn": [
+    "open book + 3 arches"
+   ],
+   "layout": "vanity table in the book; chandelier, jacket, sunglasses in arches.",
+   "why_distinct": "detailed objects."
+  },
+  {
+   "id": "ptx-G1-432-grandma",
+   "level": 3,
+   "setting": "grandma's house",
+   "name_en": "Grandma's Book",
+   "cast": [
+    {
+     "src": "furniture bw/dresser_2",
+     "role": "hero",
+     "note": "max 4, drawers + knobs"
+    },
+    {
+     "src": "apparel bw/babys_onesie",
+     "role": "arch",
+     "note": "max 4, buttons"
+    },
+    {
+     "src": "household bw/lamp",
+     "role": "arch",
+     "note": "max 4"
+    },
+    {
+     "src": "kitchen bw/spatula",
+     "role": "arch",
+     "note": "max 5.7"
+    }
+   ],
+   "drawn": [
+    "open book + 3 arches"
+   ],
+   "layout": "dresser in the book; onesie, lamp, spatula in arches.",
+   "why_distinct": "home."
+  },
+  {
+   "id": "ptx-G1-432-spare-room",
+   "level": 3,
+   "setting": "spare room",
+   "name_en": "The Spare Room Book",
+   "cast": [
+    {
+     "src": "home bw 2/wardrobe",
+     "role": "hero",
+     "note": "max 5, doors + drawer"
+    },
+    {
+     "src": "apparel bw/necktie",
+     "role": "arch",
+     "note": "max 1"
+    },
+    {
+     "src": "sports bw/dumbbell",
+     "role": "arch",
+     "note": "max 7.3"
+    },
+    {
+     "src": "kitchen bw/fork",
+     "role": "arch",
+     "note": "max 2"
+    }
+   ],
+   "drawn": [
+    "open book + 3 arches"
+   ],
+   "layout": "wardrobe in the book; tie, dumbbell, fork in arches.",
+   "why_distinct": "the remaining measured pool; a mixed room (the honest limit of the library)."
+  }
+ ],
+ "G1-433": [
+  {
+   "id": "ptx-G1-433-farmyard",
+   "level": 1,
+   "setting": "sunny farmyard",
+   "name_en": "Who Hides on the Farm?",
+   "cast": [
+    {
+     "src": "farm bw/watering_can",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "home and nature bw/tree",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "farm bw/duck",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 4/chick",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 4/cat",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 5/dog_2",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 5/goat",
+     "role": "hidden"
+    }
+   ],
+   "drawn": [
+    "a barn front (solid)",
+    "a fence (solid)"
+   ],
+   "layout": "sparse: barn, tree, fence, can; five animals in the open, 120-160 px.",
+   "why_distinct": "a farm."
+  },
+  {
+   "id": "ptx-G1-433-pond",
+   "level": 1,
+   "setting": "pond",
+   "name_en": "Who Hides by the Pond?",
+   "cast": [
+    {
+     "src": "animals bw/frog",
+     "role": "hidden"
+    },
+    {
+     "src": "birds bw 2/swan",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 4/turtle",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw/snail",
+     "role": "hidden"
+    },
+    {
+     "src": "nature bw/fish",
+     "role": "hidden"
+    }
+   ],
+   "drawn": [
+    "a pond outline, reeds, two lily pads, a stone (all solid)"
+   ],
+   "layout": "pond centre, animals in and around it.",
+   "why_distinct": "a pond."
+  },
+  {
+   "id": "ptx-G1-433-seaside-rocks",
+   "level": 1,
+   "setting": "seaside rocks",
+   "name_en": "Who Hides on the Rocks?",
+   "cast": [
+    {
+     "src": "beach bw/lighthouse",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "animals bw 5/crab",
+     "role": "hidden"
+    },
+    {
+     "src": "sea life bw 2/seal",
+     "role": "hidden"
+    },
+    {
+     "src": "sea life bw/starfish",
+     "role": "hidden"
+    },
+    {
+     "src": "birds bw/pelican",
+     "role": "hidden"
+    },
+    {
+     "src": "sea life bw 2/hermit_crab",
+     "role": "hidden"
+    }
+   ],
+   "drawn": [
+    "three rocks, a water line (solid)"
+   ],
+   "layout": "lighthouse right, rocks left and centre.",
+   "why_distinct": "the seaside."
+  },
+  {
+   "id": "ptx-G1-433-desert",
+   "level": 1,
+   "setting": "desert oasis",
+   "name_en": "Who Hides in the Desert?",
+   "cast": [
+    {
+     "src": "home bw/cactus",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "nature bw/pyramid",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "animals bw 5/camel",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 5/lizard",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 5/snake",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw/meerkat",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw/fox",
+     "role": "hidden"
+    }
+   ],
+   "drawn": [
+    "two dune curves, a sun (solid)"
+   ],
+   "layout": "pyramid far, cactus left, animals on the dunes.",
+   "why_distinct": "a desert."
+  },
+  {
+   "id": "ptx-G1-433-snowy-hill",
+   "level": 1,
+   "setting": "snowy hill",
+   "name_en": "Who Hides in the Snow?",
+   "cast": [
+    {
+     "src": "Christmas bw 2/snowman",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "animals bw 5/penguin",
+     "role": "hidden"
+    },
+    {
+     "src": "Christmas bw 2/reindeer",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 5/fox_2",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw/owl",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 5/rabbit",
+     "role": "hidden"
+    }
+   ],
+   "drawn": [
+    "a hill line, two fir trees, snowflakes (solid)"
+   ],
+   "layout": "snowman centre, animals across the hill.",
+   "why_distinct": "winter."
+  },
+  {
+   "id": "ptx-G1-433-jungle-river",
+   "level": 2,
+   "setting": "jungle river",
+   "name_en": "Who Hides in the Jungle?",
+   "cast": [
+    {
+     "src": "beach bw/palm_tree",
+     "role": "prop",
+     "note": "solid x 2"
+    },
+    {
+     "src": "animals bw 5/monkey",
+     "role": "hidden"
+    },
+    {
+     "src": "birds bw 2/parrot",
+     "role": "hidden"
+    },
+    {
+     "src": "birds bw 2/toucan",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 3/frog_2",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw/sloth",
+     "role": "hidden"
+    }
+   ],
+   "drawn": [
+    "a river, hanging vines, big leaves (solid)"
+   ],
+   "layout": "two palms, river through the middle.",
+   "why_distinct": "a jungle."
+  },
+  {
+   "id": "ptx-G1-433-veg-garden",
+   "level": 2,
+   "setting": "vegetable garden",
+   "name_en": "Who Hides in the Garden?",
+   "cast": [
+    {
+     "src": "vegetables bw/pumpkin",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "vegetables bw/carrot",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "home bw 2/watering_can",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "animals bw 5/hedgehog",
+     "role": "hidden"
+    },
+    {
+     "src": "nature bw/ladybug",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 3/bee",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 5/mouse",
+     "role": "hidden"
+    },
+    {
+     "src": "birds bw 2/bird",
+     "role": "hidden"
+    }
+   ],
+   "drawn": [
+    "a fence, two vegetable rows (solid)"
+   ],
+   "layout": "rows across the page, animals among them.",
+   "why_distinct": "a garden."
+  },
+  {
+   "id": "ptx-G1-433-city-park",
+   "level": 2,
+   "setting": "city park",
+   "name_en": "Who Hides in the Park?",
+   "cast": [
+    {
+     "src": "home and nature bw/tree_3",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "home and nature bw/tree_2",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "animals bw 5/squirrel",
+     "role": "hidden"
+    },
+    {
+     "src": "birds bw/pigeon",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 3/dog",
+     "role": "hidden"
+    },
+    {
+     "src": "birds bw 2/duck",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 3/cat_2",
+     "role": "hidden",
+     "note": ""
+    }
+   ],
+   "drawn": [
+    "a bench, a lamp post, a path, a fountain bowl (solid)"
+   ],
+   "layout": "two trees, bench centre, path.",
+   "why_distinct": "a city park."
+  },
+  {
+   "id": "ptx-G1-433-savanna",
+   "level": 2,
+   "setting": "savanna waterhole",
+   "name_en": "Who Hides on the Savanna?",
+   "cast": [
+    {
+     "src": "animals bw 3/lion",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 5/zebra",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 5/giraffe",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 5/elephant",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 5/ostrich_2",
+     "role": "hidden"
+    }
+   ],
+   "drawn": [
+    "two flat-topped acacia trees, a waterhole, grass clumps, rocks (solid)"
+   ],
+   "layout": "waterhole centre, acacias left and right.",
+   "why_distinct": "the savanna."
+  },
+  {
+   "id": "ptx-G1-433-under-sea",
+   "level": 2,
+   "setting": "under the sea",
+   "name_en": "Who Hides under the Sea?",
+   "cast": [
+    {
+     "src": "beach bw/anchor",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "sea life bw 2/fish",
+     "role": "hidden"
+    },
+    {
+     "src": "sea life bw/octopus",
+     "role": "hidden"
+    },
+    {
+     "src": "sea life bw/turtle",
+     "role": "hidden"
+    },
+    {
+     "src": "sea life bw/seahorse",
+     "role": "hidden"
+    },
+    {
+     "src": "sea life bw/jellyfish",
+     "role": "hidden"
+    }
+   ],
+   "drawn": [
+    "seaweed, rocks, a treasure chest (solid)"
+   ],
+   "layout": "sea floor across the bottom, seaweed clumps.",
+   "why_distinct": "underwater."
+  },
+  {
+   "id": "ptx-G1-433-busy-farm",
+   "level": 3,
+   "setting": "busy farm",
+   "name_en": "Who Hides on the Busy Farm?",
+   "cast": [
+    {
+     "src": "farm bw/barn",
+     "role": "prop",
+     "note": "solid band 3"
+    },
+    {
+     "src": "farm bw/hay",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "farm bw/windmill",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "farm bw/fence",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "farm bw/tractor",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "farm bw/scarecrow",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "farm bw/vegetables",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "farm bw/watering_can",
+     "role": "prop",
+     "note": "solid (farm bw/nest refused: its drawing holds a hen, and no solid animal may appear)"
+    },
+    {
+     "src": "farm bw/sheep",
+     "role": "hidden"
+    },
+    {
+     "src": "farm bw/cow",
+     "role": "hidden"
+    },
+    {
+     "src": "farm bw/rooster",
+     "role": "hidden"
+    },
+    {
+     "src": "farm bw/donkey",
+     "role": "hidden"
+    },
+    {
+     "src": "farm bw/pig",
+     "role": "hidden",
+     "note": "an animal, not food"
+    }
+   ],
+   "drawn": [
+    "grass, a path"
+   ],
+   "layout": ">= 10 solid objects; two animals inside the hay and beside the tractor, 70-90 px.",
+   "why_distinct": "a crowded farm."
+  },
+  {
+   "id": "ptx-G1-433-deep-jungle",
+   "level": 3,
+   "setting": "deep jungle",
+   "name_en": "Who Hides in the Deep Jungle?",
+   "cast": [
+    {
+     "src": "nature bw/tree_2",
+     "role": "prop",
+     "note": "solid band 3"
+    },
+    {
+     "src": "beach bw/palm_tree",
+     "role": "prop",
+     "note": "solid x 2"
+    },
+    {
+     "src": "animals bw 5/chameleon",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 5/leopard",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 5/gorilla",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 5/peacock",
+     "role": "hidden"
+    },
+    {
+     "src": "zoo animals bw/snake",
+     "role": "hidden"
+    }
+   ],
+   "drawn": [
+    "ferns, vines, big leaves (14+), rocks, a waterfall (solid)"
+   ],
+   "layout": "dense foliage; chameleon on a vine, snake in a fern.",
+   "why_distinct": "a dense jungle, not the published forest."
+  },
+  {
+   "id": "ptx-G1-433-attic",
+   "level": 3,
+   "setting": "messy attic",
+   "name_en": "Who Hides in the Attic?",
+   "cast": [
+    {
+     "src": "household bw/bookshelf",
+     "role": "prop",
+     "note": "solid band 3"
+    },
+    {
+     "src": "toys bw 2/robot",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "toys bw/train",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "toys bw/drum",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "toys bw/guitar",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "furniture bw/armchair",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "objects bw/ladder",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "animals bw 3/mouse_2",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 4/cat_3",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 5/bat",
+     "role": "hidden"
+    },
+    {
+     "src": "birds bw 2/owl",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 5/hamster",
+     "role": "hidden"
+    }
+   ],
+   "drawn": [
+    "a sloped roof, a round attic window, boxes (solid)"
+   ],
+   "layout": ">= 10 objects; mouse in the bookshelf, bat under the roof beam.",
+   "why_distinct": "indoors, an attic."
+  },
+  {
+   "id": "ptx-G1-433-mountain",
+   "level": 3,
+   "setting": "mountain cabin",
+   "name_en": "Who Hides in the Mountains?",
+   "cast": [
+    {
+     "src": "travel and holiday bw/log_cabin",
+     "role": "prop",
+     "note": "solid band 3"
+    },
+    {
+     "src": "nature bw/campfire",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "nature bw/tree",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "animals bw 4/goat_2",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 5/eagle",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 5/bear",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 3/deer",
+     "role": "hidden"
+    },
+    {
+     "src": "zoo animals bw/yak",
+     "role": "hidden"
+    }
+   ],
+   "drawn": [
+    "mountain peaks, rocks, fir trees (10+), a stream (solid)"
+   ],
+   "layout": "cabin centre, peaks behind, goat on a rock ledge, eagle among the peaks.",
+   "why_distinct": "mountains."
+  },
+  {
+   "id": "ptx-G1-433-orchard",
+   "level": 3,
+   "setting": "autumn orchard",
+   "name_en": "Who Hides in the Orchard?",
+   "cast": [
+    {
+     "src": "home and nature bw/tree_2",
+     "role": "prop",
+     "note": "solid band 3 x 2"
+    },
+    {
+     "src": "Easter bw/basket",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "tools bw/ladder",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "tools bw/wheelbarrow",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "fruits bw/grapes",
+     "role": "prop",
+     "note": "solid"
+    },
+    {
+     "src": "birds bw/woodpecker",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 2/porcupine",
+     "role": "hidden"
+    },
+    {
+     "src": "birds bw 2/crow",
+     "role": "hidden"
+    },
+    {
+     "src": "animals bw 2/fox",
+     "role": "hidden",
+     "note": ""
+    },
+    {
+     "src": "animals bw/raccoon_2",
+     "role": "hidden"
+    }
+   ],
+   "drawn": [
+    "fallen apples, leaves (12+), grass (solid)"
+   ],
+   "layout": "two fruit trees, ladder against one, woodpecker on a trunk, porcupine under the barrow.",
+   "why_distinct": "an orchard."
+  }
+ ]
+}

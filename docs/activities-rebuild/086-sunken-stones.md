@@ -55,6 +55,9 @@ ORDER row 86 · id `ten-stones.add-sub-within-20.1-oa-c-6` (kept). Design: `desi
 | visual-qa | 96 renders green |
 | hierarchy | 518 / 0 |
 | settings-efficacy | 2 live |
+| preflight, prose-claims, serp-copy | green |
+| variety (production, en) | 16 distinct, pass 2 reshuffled |
+| live-verify-sunken-stones (11 pages 200; en/de/sv/fi × 1366/390, real pointer: a tap on 14 splashes, 10 lands on the Ten Stone, 14, the chain) | 75 / 0 (first run inside the Cloudflare window failed the embeds) |
 
 ## Open (page metadata — for the operator)
 - **nl:** the title and intro name the frog **Ties**; the game calls her Lily.

@@ -2410,6 +2410,29 @@
         "Lapsi kirjoittaa oikeaan suuntaan ja oikeassa järjestyksessä",
         "Lapsi kirjoittaa pieniä ja isoja kirjaimia ulkomuistista"
       ]
+    },
+    "daisy-plate-stack.plurals.l-k-1-c": {
+      "about": [
+        "Daisyn tiskillä lapussa näkyy pisteinä, montako tilaukseen tarvitaan. Lapsi napauttaa pinoa, ja lautaset laskeutuvat hyllylle, jokaisessa sama kuva; eläinasiakkaat istuvat jakkaroilla porrastetun tiskin ääressä. Hyllyn alla on sana puisina kirjainlaattoina. Yhdellä lautasella sana on vain ”kulho”. Kun toinen lautanen laskeutuu, sanan loppu aukeaa: nyt se tarvitsee päätelaatan, esimerkiksi -t tai -et.",
+        "Päätteet ovat oikeita laattoja, eivät koskaan keksittyjä kirjoitusasuja, joista valita. Sanoilla, jotka muuttuvat sisältä, kuten kuppi ja kupit, ei ole paikkaa pelkälle päätteelle: niiden kortti käännetään. Kohdassa ”Takaisin yhteen” lapsi ottaa lautasia pois, kunnes jäljellä on yksi, ja päätteen täytyy lähteä. Jos pääte jää paikalleen yhden lautasen kanssa, se kolisee paikallaan.",
+        "Viisi sanaryhmää: ensimmäiset sanat, mikä pääte, sanat jotka muuttuvat, takaisin yhteen ja lauseet, joissa on aukko. Kohdassa ”Vastaus” lapsi voi myös kirjoittaa päätteen itse. Opetussuunnitelman mukaisesti, ilman ajanottoa ja ilman pisteitä."
+      ],
+      "practices": [
+        "Yhden ja monen erottaminen",
+        "Oikean monikon päätteen lisääminen",
+        "Sisältä muuttuvien sanojen tunnistaminen, kuten kupit ja lusikat",
+        "Päätteen poistaminen, kun palataan yhteen"
+      ],
+      "howToPlay": [
+        "Katso lappua ja napauta pinoa, kunnes hyllyllä on yhtä monta.",
+        "Laita oikea laatta avoimeen paikkaan tai käännä kortti, jos sana muuttuu sisältä. Paina sitten ”Tarkista”.",
+        "Kohdasta ”Sanat” valitset ryhmän, esimerkiksi ”Mikä pääte?” tai ”Takaisin yhteen”, ja kohdasta ”Vastaus” voit valita ”Kirjoita itse”."
+      ],
+      "learningGoals": [
+        "Lapsi tietää, että sana saa päätteen, kun niitä on enemmän kuin yksi",
+        "Lapsi valitsee oikean monikon päätteen",
+        "Lapsi muodostaa yksikön poistamalla päätteen"
+      ]
     }
   }
 }

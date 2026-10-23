@@ -3261,6 +3261,29 @@
         "Barnet skriver åt rätt håll och i rätt ordning",
         "Barnet skriver små och stora bokstäver ur minnet"
       ]
+    },
+    "daisy-plate-stack.plurals.l-k-1-c": {
+      "about": [
+        "Vid Daisys disk visar lappen hur många beställningen behöver. Barnet trycker på högen och tallrikarna landar på hyllan, med samma bild på varje; djurgäster sitter på pallar vid den trappstegade disken. Under hyllan står ordet i träbrickor. Med en tallrik är det bara ”kopp”. När den andra tallriken landar öppnas slutet av ordet: nu behöver det en ändelsebricka, som -ar eller -er.",
+        "Ändelserna är riktiga brickor, aldrig påhittade stavningar att välja mellan. En bricka med en liten puckel lägger till en stavelse som hörs. Ord som ändras själva, som mus och möss, har ingen plats för en ändelse: deras kort vänds. I ”Tillbaka till en” tar barnet bort tallrikar tills en är kvar, och ändelsen måste bort. Sitter den kvar med en tallrik skramlar den på sin plats.",
+        "Fem ordgrupper: de första orden, vilken ändelse, ord som ändras, tillbaka till en och meningar med en lucka. Under ”Svar” kan barnet också skriva ändelsen själv. I linje med Lgr22, utan tidtagning och utan poäng."
+      ],
+      "practices": [
+        "Att skilja på en och flera",
+        "Att sätta dit rätt ändelse, till exempel -ar eller -er",
+        "Att känna igen ord som ändras själva, som möss och gäss",
+        "Att ta bort ändelsen för att komma tillbaka till en"
+      ],
+      "howToPlay": [
+        "Titta på lappen och tryck på högen tills det står så många på hyllan.",
+        "Lägg rätt bricka på den öppna platsen eller vänd kortet om ordet ändras själv. Tryck sedan på ”Kontrollera”.",
+        "Under ”Ord” väljer du en grupp som ”Vilken ändelse?” eller ”Tillbaka till en”, och under ”Svar” kan du välja ”Skriv själv”."
+      ],
+      "learningGoals": [
+        "Barnet vet att ett ord får en ändelse när det är fler än en",
+        "Barnet väljer rätt pluraländelse",
+        "Barnet bildar singular genom att ta bort ändelsen"
+      ]
     }
   }
 }

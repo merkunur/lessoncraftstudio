@@ -4281,6 +4281,29 @@
         "El niño traza en la dirección correcta y en el orden correcto",
         "El niño escribe minúsculas y mayúsculas de memoria"
       ]
+    },
+    "daisy-plate-stack.plurals.l-k-1-c": {
+      "about": [
+        "En la barra de Daisy, la nota dice cuántos necesita el pedido. El niño toca la pila y los platos llegan al estante, cada uno con el mismo dibujo; los clientes animales se sientan en bancos en la barra escalonada. Debajo del estante está la palabra en fichas de madera. Con un plato es solo «taza». En cuanto llega el segundo plato, el final de la palabra se abre: ahora necesita una ficha de terminación, como -s o -es.",
+        "Las terminaciones son fichas de verdad, nunca palabras mal escritas para elegir. Una ficha con una jorobita añade una sílaba que se oye. Las palabras que cambian al escribirse, como ratón y ratones (se va la tilde), no tienen hueco para la terminación: su tarjeta se voltea. En «De vuelta a uno», el niño quita platos hasta que queda uno, y la terminación tiene que salir. Si se queda puesta con un solo plato, tiembla en su hueco.",
+        "Cinco grupos de palabras: primeras palabras, ¿s o es?, palabras que cambian, de vuelta a uno y oraciones con un hueco. En «Respuesta», el niño puede escribir la terminación él mismo. En línea con los planes de estudio, sin cronómetro y sin puntos."
+      ],
+      "practices": [
+        "Distinguir uno de más de uno",
+        "Poner la terminación correcta: -s o -es",
+        "Reconocer palabras que cambian al escribirse, como ratones o avestruces",
+        "Quitar la terminación para volver a uno"
+      ],
+      "howToPlay": [
+        "Mira la nota y toca la pila hasta que haya esa cantidad en el estante.",
+        "Pon la ficha correcta en el hueco abierto o voltea la tarjeta si la palabra cambia al escribirse. Luego presiona «Revisar».",
+        "En «Palabras» elige un grupo como «¿s o es?» o «De vuelta a uno», y en «Respuesta» elige «Escríbela»."
+      ],
+      "learningGoals": [
+        "El niño sabe que la palabra lleva terminación cuando hay más de uno",
+        "El niño elige entre -s y -es escuchando la sílaba de más",
+        "El niño forma el singular quitando la terminación"
+      ]
     }
   }
 }

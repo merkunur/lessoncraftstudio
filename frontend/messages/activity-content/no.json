@@ -2418,6 +2418,29 @@
         "Barnet skriver i riktig retning og i riktig rekkefølge",
         "Barnet skriver små og store bokstaver etter hukommelsen"
       ]
+    },
+    "daisy-plate-stack.plurals.l-k-1-c": {
+      "about": [
+        "Ved disken til Daisy viser lappen hvor mange bestillingen trenger. Barnet trykker på stabelen, og tallerkenene lander på hylla med det samme bildet på hver; dyregjester sitter på krakker ved den trappeformede disken. Under hylla står ordet i trebrikker. Med én tallerken er det bare «kopp». Så snart den andre tallerkenen lander, åpner slutten av ordet seg: nå trenger det en endelsesbrikke, som -er eller -r.",
+        "Endelsene er ekte brikker, aldri oppdiktede skrivemåter å velge mellom. En brikke med en liten pukkel legger til en stavelse man kan høre. Ord som endrer seg selv, som gås og gjess, har ingen plass til en endelse: kortet deres snus. I «Tilbake til én» tar barnet bort tallerkener til det bare er én igjen, og endelsen må av. Blir den sittende med én tallerken, rasler den på plassen sin.",
+        "Fem ordgrupper: de første ordene, hvilken endelse, ord som endrer seg, tilbake til én og setninger med et hull. Under «Svar» kan barnet også skrive endelsen selv. I tråd med LK20, uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Å skille mellom én og flere",
+        "Å sette på riktig endelse, for eksempel -er eller -r",
+        "Å kjenne igjen ord som endrer seg selv, som gjess",
+        "Å ta av endelsen for å komme tilbake til én"
+      ],
+      "howToPlay": [
+        "Se på lappen, og trykk på stabelen til det står så mange på hylla.",
+        "Legg riktig brikke i den åpne plassen, eller snu kortet hvis ordet endrer seg selv. Trykk så på «Sjekk».",
+        "Under «Ord» velger du en gruppe som «Hvilken endelse?» eller «Tilbake til én», og under «Svar» kan du velge «Skriv selv»."
+      ],
+      "learningGoals": [
+        "Barnet vet at et ord får en endelse når det er flere enn én",
+        "Barnet velger riktig flertallsendelse",
+        "Barnet lager entall ved å ta av endelsen"
+      ]
     }
   }
 }

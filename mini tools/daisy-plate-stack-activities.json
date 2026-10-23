@@ -1,7 +1,7 @@
 [
   {
     "id": "daisy-plate-stack.plurals.l-k-1-c",
-    "tool": "daisy-plate-stack-activity",
+    "tool": "plate-stack-activity",
     "task_template": "daisy-plate-stack",
     "alignment": {
       "framework": "CCSS",
@@ -10,512 +10,96 @@
       "strand": "Language"
     },
     "params": {
-      "rounds": [
-        {
-          "id": "cup",
-          "band": 1,
-          "sentence": "I'd like two ___.",
-          "noun": "cup"
-        },
-        {
-          "id": "egg",
-          "band": 1,
-          "sentence": "Can I have three ___?",
-          "noun": "egg"
-        },
-        {
-          "id": "dish",
-          "band": 1,
-          "sentence": "Wash all six ___.",
-          "noun": "dish"
-        },
-        {
-          "id": "fork",
-          "band": 2,
-          "sentence": "We need four ___.",
-          "noun": "fork"
-        },
-        {
-          "id": "plate",
-          "band": 2,
-          "sentence": "Please bring two ___.",
-          "noun": "plate"
-        },
-        {
-          "id": "box",
-          "band": 2,
-          "sentence": "I packed two ___.",
-          "noun": "box"
-        },
-        {
-          "id": "spoon",
-          "band": 3,
-          "sentence": "Set out five ___.",
-          "noun": "spoon"
-        },
-        {
-          "id": "apple",
-          "band": 3,
-          "sentence": "I want three ___.",
-          "noun": "apple"
-        },
-        {
-          "id": "peach",
-          "band": 3,
-          "sentence": "I'll take four ___.",
-          "noun": "peach"
-        }
+      "note": "A mirror of plate-stack-core.js (the words of each level per locale, singular>plural from the picture library). The core is the source; this row runs the Plate Stack.",
+      "levels": [
+        "l1",
+        "l2",
+        "l3",
+        "l4",
+        "l5"
       ],
-      "roundsL10n": {
-        "de": [
-          {
-            "id": "tasse",
-            "band": 1,
-            "sentence": "Ich möchte zwei ___.",
-            "chips": [
-              "Tassen",
-              "Tasses",
-              "Tasse"
-            ],
-            "answer": "Tassen"
-          },
-          {
-            "id": "hund",
-            "band": 1,
-            "sentence": "Auf der Wiese laufen drei ___.",
-            "chips": [
-              "Hunde",
-              "Hunds",
-              "Hund"
-            ],
-            "answer": "Hunde"
-          },
-          {
-            "id": "tisch",
-            "band": 1,
-            "sentence": "In der Klasse stehen vier ___.",
-            "chips": [
-              "Tische",
-              "Tischs",
-              "Tisch"
-            ],
-            "answer": "Tische"
-          },
-          {
-            "id": "blume",
-            "band": 1,
-            "sentence": "Sie pflückt fünf ___.",
-            "chips": [
-              "Blumen",
-              "Blumes",
-              "Blume"
-            ],
-            "answer": "Blumen"
-          },
-          {
-            "id": "gabel",
-            "band": 2,
-            "sentence": "Zum Essen brauchen wir drei ___.",
-            "chips": [
-              "Gabeln",
-              "Gabels",
-              "Gabel"
-            ],
-            "answer": "Gabeln"
-          },
-          {
-            "id": "auto",
-            "band": 2,
-            "sentence": "Vor dem Haus parken zwei ___.",
-            "chips": [
-              "Autos",
-              "Autoen",
-              "Auto"
-            ],
-            "answer": "Autos"
-          },
-          {
-            "id": "ei",
-            "band": 2,
-            "sentence": "Die Henne legt vier ___.",
-            "chips": [
-              "Eier",
-              "Eien",
-              "Ei"
-            ],
-            "answer": "Eier"
-          },
-          {
-            "id": "apfel",
-            "band": 3,
-            "sentence": "Im Korb liegen fünf ___.",
-            "chips": [
-              "Äpfel",
-              "Apfeln",
-              "Apfel"
-            ],
-            "answer": "Äpfel"
-          },
-          {
-            "id": "ball",
-            "band": 3,
-            "sentence": "Im Sportraum liegen vier ___.",
-            "chips": [
-              "Bälle",
-              "Balle",
-              "Ball"
-            ],
-            "answer": "Bälle"
-          },
-          {
-            "id": "buch",
-            "band": 3,
-            "sentence": "Auf dem Tisch liegen zwei ___.",
-            "chips": [
-              "Bücher",
-              "Bucher",
-              "Buch"
-            ],
-            "answer": "Bücher"
-          }
-        ],
-        "fr": [
-          {
-            "id": "chat",
-            "band": 1,
-            "sentence": "Dans le jardin, il y a deux ___.",
-            "chips": [
-              "chats",
-              "chat",
-              "chatx"
-            ],
-            "answer": "chats"
-          },
-          {
-            "id": "fleur",
-            "band": 1,
-            "sentence": "Elle cueille cinq ___.",
-            "chips": [
-              "fleurs",
-              "fleur",
-              "fleurx"
-            ],
-            "answer": "fleurs"
-          },
-          {
-            "id": "table",
-            "band": 1,
-            "sentence": "Dans la classe, il y a quatre ___.",
-            "chips": [
-              "tables",
-              "table",
-              "tablex"
-            ],
-            "answer": "tables"
-          },
-          {
-            "id": "pomme",
-            "band": 1,
-            "sentence": "Je voudrais trois ___.",
-            "chips": [
-              "pommes",
-              "pomme",
-              "pommex"
-            ],
-            "answer": "pommes"
-          },
-          {
-            "id": "gateau",
-            "band": 2,
-            "sentence": "Le boulanger fait deux ___.",
-            "chips": [
-              "gâteaux",
-              "gâteau",
-              "gâteaus"
-            ],
-            "answer": "gâteaux"
-          },
-          {
-            "id": "chapeau",
-            "band": 2,
-            "sentence": "Il porte deux ___.",
-            "chips": [
-              "chapeaux",
-              "chapeau",
-              "chapeaus"
-            ],
-            "answer": "chapeaux"
-          },
-          {
-            "id": "fourchette",
-            "band": 2,
-            "sentence": "Pour manger, il faut quatre ___.",
-            "chips": [
-              "fourchettes",
-              "fourchette",
-              "fourchettex"
-            ],
-            "answer": "fourchettes"
-          },
-          {
-            "id": "oiseau",
-            "band": 3,
-            "sentence": "Sur la branche, il y a cinq ___.",
-            "chips": [
-              "oiseaux",
-              "oiseau",
-              "oiseaus"
-            ],
-            "answer": "oiseaux"
-          },
-          {
-            "id": "livre",
-            "band": 3,
-            "sentence": "Sur l'étagère, il y a deux ___.",
-            "chips": [
-              "livres",
-              "livre",
-              "livrex"
-            ],
-            "answer": "livres"
-          },
-          {
-            "id": "jeu",
-            "band": 3,
-            "sentence": "Dans la boîte, il y a trois ___.",
-            "chips": [
-              "jeux",
-              "jeu",
-              "jeus"
-            ],
-            "answer": "jeux"
-          }
-        ],
-        "pt": [
-          {
-            "id": "sp-pt-1",
-            "band": 1,
-            "sentence": "No quintal, tem dois ___.",
-            "chips": [
-              "gatos",
-              "gato",
-              "gatoes"
-            ],
-            "answer": "gatos"
-          },
-          {
-            "id": "sp-pt-2",
-            "band": 1,
-            "sentence": "Nesta rua, tem três ___.",
-            "chips": [
-              "casas",
-              "casa",
-              "casaes"
-            ],
-            "answer": "casas"
-          },
-          {
-            "id": "sp-pt-3",
-            "band": 1,
-            "sentence": "A Margarida tem cinco ___.",
-            "chips": [
-              "bolas",
-              "bola",
-              "bolaes"
-            ],
-            "answer": "bolas"
-          },
-          {
-            "id": "sp-pt-4",
-            "band": 2,
-            "sentence": "Na festa, tem seis ___.",
-            "chips": [
-              "balões",
-              "balão",
-              "balãos"
-            ],
-            "answer": "balões"
-          },
-          {
-            "id": "sp-pt-5",
-            "band": 2,
-            "sentence": "Na camisa, tem três ___.",
-            "chips": [
-              "botões",
-              "botão",
-              "botãos"
-            ],
-            "answer": "botões"
-          },
-          {
-            "id": "sp-pt-6",
-            "band": 2,
-            "sentence": "Nós temos duas ___.",
-            "chips": [
-              "mãos",
-              "mão",
-              "mões"
-            ],
-            "answer": "mãos"
-          },
-          {
-            "id": "sp-pt-7",
-            "band": 2,
-            "sentence": "Na cesta, tem dois ___.",
-            "chips": [
-              "pães",
-              "pão",
-              "pãos"
-            ],
-            "answer": "pães"
-          },
-          {
-            "id": "sp-pt-8",
-            "band": 3,
-            "sentence": "Na fazenda, tem seis ___.",
-            "chips": [
-              "animais",
-              "animal",
-              "animals"
-            ],
-            "answer": "animais"
-          },
-          {
-            "id": "sp-pt-9",
-            "band": 3,
-            "sentence": "Na cidade, tem dois ___.",
-            "chips": [
-              "jardins",
-              "jardim",
-              "jardims"
-            ],
-            "answer": "jardins"
-          },
-          {
-            "id": "sp-pt-10",
-            "band": 3,
-            "sentence": "No vaso, tem três ___.",
-            "chips": [
-              "flores",
-              "flor",
-              "flors"
-            ],
-            "answer": "flores"
-          }
-        ],
-        "it": [
-          {
-            "id": "gatto",
-            "band": 1,
-            "sentence": "Sul muro dormono tre ___.",
-            "chips": [
-              "gatti",
-              "gatto",
-              "gattos"
-            ],
-            "answer": "gatti"
-          },
-          {
-            "id": "libro",
-            "band": 1,
-            "sentence": "Sullo scaffale ci sono molti ___.",
-            "chips": [
-              "libri",
-              "libro",
-              "libre"
-            ],
-            "answer": "libri"
-          },
-          {
-            "id": "lago",
-            "band": 1,
-            "sentence": "In montagna abbiamo visto due ___.",
-            "chips": [
-              "laghi",
-              "lago",
-              "lagi"
-            ],
-            "answer": "laghi"
-          },
-          {
-            "id": "casa",
-            "band": 1,
-            "sentence": "In fondo alla strada ci sono quattro ___.",
-            "chips": [
-              "case",
-              "casa",
-              "casas"
-            ],
-            "answer": "case"
-          },
-          {
-            "id": "penna",
-            "band": 1,
-            "sentence": "Nel mio astuccio ho tante ___.",
-            "chips": [
-              "penne",
-              "penna",
-              "penni"
-            ],
-            "answer": "penne"
-          },
-          {
-            "id": "matita",
-            "band": 1,
-            "sentence": "Per disegnare uso due ___ colorate.",
-            "chips": [
-              "matite",
-              "matita",
-              "matiti"
-            ],
-            "answer": "matite"
-          },
-          {
-            "id": "cane",
-            "band": 1,
-            "sentence": "Nel parco corrono due ___.",
-            "chips": [
-              "cani",
-              "cane",
-              "canes"
-            ],
-            "answer": "cani"
-          },
-          {
-            "id": "fiore",
-            "band": 1,
-            "sentence": "Nel vaso ci sono tanti ___.",
-            "chips": [
-              "fiori",
-              "fiore",
-              "fiores"
-            ],
-            "answer": "fiori"
-          },
-          {
-            "id": "chiave",
-            "band": 1,
-            "sentence": "Nel cassetto ci sono due ___.",
-            "chips": [
-              "chiavi",
-              "chiave",
-              "chiaves"
-            ],
-            "answer": "chiavi"
-          }
-        ],
-        "nl": [
-          { "id": "hond",   "band": 1, "sentence": "In het park lopen vier ___.",           "chips": ["honden", "hond", "hondes"],       "answer": "honden" },
-          { "id": "jongen", "band": 1, "sentence": "Op het plein voetballen drie ___.",       "chips": ["jongens", "jongen", "jongenen"],  "answer": "jongens" },
-          { "id": "boek",   "band": 1, "sentence": "Op de plank staan acht ___.",             "chips": ["boeken", "boek", "boekens"],      "answer": "boeken" },
-          { "id": "kip",    "band": 2, "sentence": "In het hok zitten zes ___.",              "chips": ["kippen", "kip", "kipen"],         "answer": "kippen" },
-          { "id": "boom",   "band": 2, "sentence": "In de tuin staan twee ___.",              "chips": ["bomen", "boom", "boomen"],        "answer": "bomen" },
-          { "id": "huis",   "band": 2, "sentence": "In onze straat staan vijf ___.",          "chips": ["huizen", "huis", "huisen"],       "answer": "huizen" },
-          { "id": "auto",   "band": 2, "sentence": "Op de parkeerplaats staan zeven ___.",    "chips": ["auto's", "auto", "autoos"],       "answer": "auto's" },
-          { "id": "brief",  "band": 3, "sentence": "De postbode heeft drie ___.",             "chips": ["brieven", "brief", "briefen"],    "answer": "brieven" },
-          { "id": "ei",     "band": 3, "sentence": "In het mandje liggen zes ___.",           "chips": ["eieren", "ei", "eien"],           "answer": "eieren" },
-          { "id": "kind",   "band": 3, "sentence": "In de klas zitten tien ___.",             "chips": ["kinderen", "kind", "kinden"],     "answer": "kinderen" }
-        ]
+      "answers": [
+        "tiles",
+        "write"
+      ],
+      "byLocale": {
+        "en": {
+          "l1": "Cup>Cups Fork>Forks Hen>Hens Spoon>Spoons Bowl>Bowls Pig>Pigs Mug>Mugs Jar>Jars Duck>Ducks",
+          "l2": "Glass>Glasses Peach>Peaches Fox>Foxes Radish>Radishes Lunchbox>Lunchboxes Bottle>Bottles Teapot>Teapots Cow>Cows Apple>Apples",
+          "l3": "Knife>Knives Goose>Geese Mouse>Mice Wolf>Wolves Elf>Elves Sheep>Sheep Pear>Pears Goat>Goats Banana>Bananas",
+          "l4": "Cup>Cups Fork>Forks Hen>Hens Glass>Glasses Peach>Peaches Fox>Foxes Knife>Knives Goose>Geese Mouse>Mice",
+          "l5": "Spoon>Spoons Bowl>Bowls Pig>Pigs Radish>Radishes Lunchbox>Lunchboxes Ostrich>Ostriches Mouse>Mice Wolf>Wolves Elf>Elves"
+        },
+        "de": {
+          "l1": "Tasse>Tassen Gabel>Gabeln Henne>Hennen Schüssel>Schüsseln Flasche>Flaschen Ente>Enten Teekanne>Teekannen Birne>Birnen Ziege>Ziegen",
+          "l2": "Pfirsich>Pfirsiche Pilz>Pilze Schwein>Schweine Keks>Kekse Sieb>Siebe Banane>Bananen Orange>Orangen Eule>Eulen Zitrone>Zitronen",
+          "l3": "Glas>Gläser Apfel>Äpfel Kokosnuss>Kokosnüsse Wurst>Würste Gans>Gänse Kuh>Kühe Löffel>Löffel Erdbeere>Erdbeeren Schnecke>Schnecken",
+          "l4": "Tasse>Tassen Gabel>Gabeln Henne>Hennen Pfirsich>Pfirsiche Pilz>Pilze Schwein>Schweine Glas>Gläser Apfel>Äpfel Kokosnuss>Kokosnüsse",
+          "l5": "Schüssel>Schüsseln Flasche>Flaschen Ente>Enten Keks>Kekse Sieb>Siebe Schaf>Schafe Wurst>Würste Gans>Gänse Kuh>Kühe"
+        },
+        "nl": {
+          "l1": "Vork>Vorken Perzik>Perziken Eend>Eenden Citroen>Citroenen Aardbei>Aardbeien Geit>Geiten Pruim>Pruimen Vijg>Vijgen Paard>Paarden",
+          "l2": "Kopje>Kopjes Lepel>Lepels Varken>Varkens Komkommer>Komkommers Muffin>Muffins Ui>Uien Pompoen>Pompoenen Konijn>Konijnen Paddenstoel>Paddenstoelen",
+          "l3": "Mes>Messen Kom>Kommen Glas>Glazen Mok>Mokken Pot>Potten Fles>Flessen Prei>Preien Kalkoen>Kalkoenen Taart>Taarten",
+          "l4": "Vork>Vorken Perzik>Perziken Eend>Eenden Kopje>Kopjes Lepel>Lepels Varken>Varkens Mes>Messen Kom>Kommen Glas>Glazen",
+          "l5": "Citroen>Citroenen Aardbei>Aardbeien Geit>Geiten Komkommer>Komkommers Muffin>Muffins Ezel>Ezels Mok>Mokken Pot>Potten Fles>Flessen"
+        },
+        "da": {
+          "l1": "Ske>Skeer Banan>Bananer Ged>Geder Appelsin>Appelsiner Citron>Citroner Kanin>Kaniner Kiwi>Kiwier Abrikos>Abrikoser Kalkun>Kalkuner",
+          "l2": "Kniv>Knive Skål>Skåle Gris>Grise Svamp>Svampe Hamburger>Hamburgere Tomat>Tomater Agurk>Agurker Kylling>Kyllinger Croissant>Croissanter",
+          "l3": "Kop>Kopper Gaffel>Gafler Fersken>Ferskner Figen>Figner Kokosnød>Kokosnødder Gulerod>Gulerødder Glas>Glas Frø>Frøer Elefant>Elefanter",
+          "l4": "Ske>Skeer Banan>Bananer Ged>Geder Kniv>Knive Skål>Skåle Gris>Grise Kop>Kopper Gaffel>Gafler Fersken>Ferskner",
+          "l5": "Appelsin>Appelsiner Citron>Citroner Kanin>Kaniner Svamp>Svampe Hamburger>Hamburgere Hest>Heste Figen>Figner Kokosnød>Kokosnødder Gulerod>Gulerødder"
+        },
+        "sv": {
+          "l1": "Kopp>Koppar Sked>Skedar Gris>Grisar Kniv>Knivar Skål>Skålar Häst>Hästar Mugg>Muggar Burk>Burkar Kyckling>Kycklingar",
+          "l2": "Banan>Bananer Apelsin>Apelsiner Kanin>Kaniner Citron>Citroner Kiwi>Kiwier Potatis>Potatisar Lök>Lökar Räv>Rävar Svamp>Svampar",
+          "l3": "Gaffel>Gafflar Kokosnöt>Kokosnötter Morot>Morötter Gås>Gäss Get>Getter Mus>Möss Glas>Glas Purjolök>Purjolökar Björn>Björnar",
+          "l4": "Kopp>Koppar Sked>Skedar Gris>Grisar Banan>Bananer Apelsin>Apelsiner Kanin>Kaniner Gaffel>Gafflar Kokosnöt>Kokosnötter Morot>Morötter",
+          "l5": "Kniv>Knivar Skål>Skålar Häst>Hästar Citron>Citroner Kiwi>Kiwier Kalkon>Kalkoner Gås>Gäss Get>Getter Mus>Möss"
+        },
+        "no": {
+          "l1": "Kopp>Kopper Skje>Skjeer Gris>Griser Kniv>Kniver Fersken>Ferskener Ku>Kuer Banan>Bananer Appelsin>Appelsiner Sau>Sauer",
+          "l2": "Bolle>Boller Krukke>Krukker Høne>Høner Flaske>Flasker Tekanne>Tekanner Sitron>Sitroner Kiwi>Kiwier Geit>Geiter Fiken>Fikener",
+          "l3": "Gaffel>Gafler Gulrot>Gulrøtter Bagel>Bagler Vaffel>Vafler Gås>Gjess And>Ender Glass>Glass Aprikos>Aprikoser Hest>Hester",
+          "l4": "Kopp>Kopper Skje>Skjeer Gris>Griser Bolle>Boller Krukke>Krukker Høne>Høner Gaffel>Gafler Gulrot>Gulrøtter Bagel>Bagler",
+          "l5": "Kniv>Kniver Fersken>Ferskener Ku>Kuer Flaske>Flasker Tekanne>Tekanner Ugle>Ugler Vaffel>Vafler Gås>Gjess And>Ender"
+        },
+        "es": {
+          "l1": "Taza>Tazas Cuchara>Cucharas Gallina>Gallinas Cuchillo>Cuchillos Vaso>Vasos Ganso>Gansos Frasco>Frascos Botella>Botellas Cerdo>Cerdos",
+          "l2": "Tenedor>Tenedores Pastel>Pasteles Caracol>Caracoles Rallador>Ralladores Colador>Coladores Tetera>Teteras Manzana>Manzanas Pato>Patos Pera>Peras",
+          "l3": "Tazón>Tazones Champiñón>Champiñones Ratón>Ratones Avestruz>Avestruces Durazno>Duraznos Vaca>Vacas Plátano>Plátanos Naranja>Naranjas Oveja>Ovejas",
+          "l4": "Taza>Tazas Cuchara>Cucharas Gallina>Gallinas Tenedor>Tenedores Pastel>Pasteles Caracol>Caracoles Tazón>Tazones Champiñón>Champiñones Ratón>Ratones",
+          "l5": "Cuchillo>Cuchillos Vaso>Vasos Ganso>Gansos Rallador>Ralladores Colador>Coladores Pan>Panes Champiñón>Champiñones Ratón>Ratones Avestruz>Avestruces"
+        },
+        "it": {
+          "l1": "Coltello>Coltelli Barattolo>Barattoli Cavallo>Cavalli Pomodoro>Pomodori Ravanello>Ravanelli Asino>Asini Cetriolo>Cetrioli Porro>Porri Agnello>Agnelli",
+          "l2": "Tazza>Tazze Forchetta>Forchette Gallina>Galline Ciotola>Ciotole Bottiglia>Bottiglie Biscotto>Biscotti Cornetto>Cornetti Tacchino>Tacchini Panino>Panini",
+          "l3": "Cucchiaio>Cucchiai Pesca>Pesche Arancia>Arance Fico>Fichi Albicocca>Albicocche Zucca>Zucche Kiwi>Kiwi Cavolo>Cavoli Pulcino>Pulcini",
+          "l4": "Coltello>Coltelli Barattolo>Barattoli Cavallo>Cavalli Tazza>Tazze Forchetta>Forchette Gallina>Galline Cucchiaio>Cucchiai Pesca>Pesche Arancia>Arance",
+          "l5": "Pomodoro>Pomodori Ravanello>Ravanelli Asino>Asini Ciotola>Ciotole Bottiglia>Bottiglie Anatra>Anatre Fico>Fichi Albicocca>Albicocche Zucca>Zucche"
+        },
+        "pt": {
+          "l1": "Xícara>Xícaras Garfo>Garfos Galinha>Galinhas Faca>Facas Tigela>Tigelas Ganso>Gansos Copo>Copos Caneca>Canecas Porco>Porcos",
+          "l2": "Colher>Colheres Ralador>Raladores Avestruz>Avestruzes Descascador>Descascadores Batedor>Batedores Pote>Potes Garrafa>Garrafas Pato>Patos Bule>Bules",
+          "l3": "Limão>Limões Pãozinho>Pãezinhos Caracol>Caracóis Maçã>Maçãs Vaca>Vacas Pera>Peras Pêssego>Pêssegos Ovelha>Ovelhas Banana>Bananas",
+          "l4": "Xícara>Xícaras Garfo>Garfos Galinha>Galinhas Colher>Colheres Ralador>Raladores Avestruz>Avestruzes Limão>Limões Pãozinho>Pãezinhos Caracol>Caracóis",
+          "l5": "Faca>Facas Tigela>Tigelas Ganso>Gansos Descascador>Descascadores Batedor>Batedores Escorredor>Escorredores Limão>Limões Pãozinho>Pãezinhos Caracol>Caracóis"
+        },
+        "fr": {
+          "l1": "Tasse>Tasses Fourchette>Fourchettes Poule>Poules Cuillère>Cuillères Bol>Bols Oie>Oies Verre>Verres Bouteille>Bouteilles Cochon>Cochons",
+          "l2": "Couteau>Couteaux Poireau>Poireaux Agneau>Agneaux Gâteau>Gâteaux Chou>Choux Théière>Théières Pomme>Pommes Canard>Canards Poire>Poires",
+          "l3": "Bocal>Bocaux Cheval>Chevaux Radis>Radis Pêche>Pêches Vache>Vaches Banane>Bananes Orange>Oranges Mouton>Moutons Citron>Citrons",
+          "l4": "Tasse>Tasses Fourchette>Fourchettes Poule>Poules Couteau>Couteaux Poireau>Poireaux Agneau>Agneaux Bocal>Bocaux Cheval>Chevaux Cuillère>Cuillères",
+          "l5": "Cuillère>Cuillères Bol>Bols Oie>Oies Gâteau>Gâteaux Chou>Choux Hibou>Hiboux Bocal>Bocaux Cheval>Chevaux Verre>Verres"
+        },
+        "fi": {
+          "l1": "Kulho>Kulhot Lasi>Lasit Kana>Kanat Muki>Mukit Pullo>Pullot Lehmä>Lehmät Teekannu>Teekannut Omena>Omenat Aasi>Aasit",
+          "l2": "Veitsi>Veitset Sieni>Sienet Hanhi>Hanhet Punajuuri>Punajuuret Vuohi>Vuohet Päärynä>Päärynät Banaani>Banaanit Karitsa>Karitsat Appelsiini>Appelsiinit",
+          "l3": "Kuppi>Kupit Haarukka>Haarukat Lusikka>Lusikat Purkki>Purkit Persikka>Persikat Mansikka>Mansikat Sitruuna>Sitruunat Kani>Kanit Luumu>Luumut",
+          "l4": "Kulho>Kulhot Lasi>Lasit Kana>Kanat Veitsi>Veitset Sieni>Sienet Hanhi>Hanhet Kuppi>Kupit Haarukka>Haarukat Lusikka>Lusikat",
+          "l5": "Muki>Mukit Pullo>Pullot Lehmä>Lehmät Punajuuri>Punajuuret Vuohi>Vuohet Hiiri>Hiiret Purkki>Purkit Persikka>Persikat Mansikka>Mansikat"
+        }
       }
     },
     "theme": null,
@@ -525,7 +109,12 @@
       "fr": "le-pluriel-des-noms-marque-s-et-x-ce1",
       "pt": "singular-e-plural-dos-substantivos-2-ano",
       "it": "singolare-e-plurale-dei-nomi-classe-seconda",
-      "nl": "enkelvoud-en-meervoud-groep-4"
+      "nl": "enkelvoud-en-meervoud-groep-4",
+      "es": "singular-y-plural-con-daisy",
+      "sv": "singular-och-plural-med-daisy",
+      "da": "ental-og-flertal-med-daisy",
+      "no": "entall-og-flertall-med-daisy",
+      "fi": "yksikko-ja-monikko-daisyn-kanssa"
     },
     "page_title": {
       "en": "Daisy's Plate Stack — More Than One (Kindergarten)",
@@ -533,7 +122,12 @@
       "fr": "Singulier et pluriel – exercice en ligne (CE1)",
       "pt": "Singular e plural: forme o plural dos substantivos – 2º ano",
       "it": "Singolare e plurale dei nomi — grammatica classe seconda",
-      "nl": "Margriet: enkelvoud en meervoud oefenen (groep 4)"
+      "nl": "Margriet: enkelvoud en meervoud oefenen (groep 4)",
+      "es": "Singular y plural con Daisy: uno o más de uno (2.º grado)",
+      "sv": "Singular och plural med Daisy – en eller flera (åk 2)",
+      "da": "Ental og flertal med Daisy – én eller flere (2. klasse)",
+      "no": "Entall og flertall med Daisy – én eller flere (2. trinn)",
+      "fi": "Yksikkö ja monikko Daisyn kanssa – yksi vai monta (2. luokka)"
     },
     "page_intro": {
       "en": "Daisy the duck plates up the orders, and every order is for more than one. Read each request, then tap the word that names more than one — adding s or es the right way (cups, dishes, boxes). A warm Kindergarten language game about forming regular plural nouns, aligned to Common Core L.K.1.c.",
@@ -541,7 +135,12 @@
       "fr": "Singulier ou pluriel ? Forme le pluriel des noms avec Marguerite la cane, correction immédiate à chaque réponse. En ligne, sans inscription.",
       "pt": "Nesta atividade de gramática, a Margarida, uma pata muito animada, mostra uma frase com um espaço em branco e três palavrinhas embaixo — é só tocar naquela que está no plural certo. Em português, o plural tem vários jeitos: uns substantivos só ganham um -s, outros mudam mais (balão vira balões!). Tudo sem pressa, sem pontos e no ritmo dos anos iniciais, alinhado à BNCC.",
       "it": "Margherita la papera accompagna i bambini alla scoperta del plurale dei nomi. Il bambino legge una breve frase con uno spazio vuoto — per esempio «Nel giardino ci sono due ___» — e tocca la parola giusta tra tre proposte: gatto diventa gatti, casa diventa case, cane diventa cani. Un’attività di grammatica senza registrazione, senza timer e senza punteggio, pensata per imparare con calma e allineata alle «Indicazioni nazionali».",
-      "nl": "Met dit spel oefent je kind om bij een zin met een getal het juiste meervoud te kiezen — bijvoorbeeld \"In de tuin staan drie bomen.\" Margriet de eend laat de zin zien, en je kind tikt uit drie woorden het goede meervoud aan. Zo ontdekt je kind spelenderwijs dat het Nederlandse meervoud niet één regel kent: kat wordt katten, boom wordt bomen en ei wordt eieren. Afgestemd op de SLO-kerndoelen voor taalbeschouwing (enkelvoud en meervoud) voor groep 4."
+      "nl": "Met dit spel oefent je kind om bij een zin met een getal het juiste meervoud te kiezen — bijvoorbeeld \"In de tuin staan drie bomen.\" Margriet de eend laat de zin zien, en je kind tikt uit drie woorden het goede meervoud aan. Zo ontdekt je kind spelenderwijs dat het Nederlandse meervoud niet één regel kent: kat wordt katten, boom wordt bomen en ei wordt eieren. Afgestemd op de SLO-kerndoelen voor taalbeschouwing (enkelvoud en meervoud) voor groep 4.",
+      "es": "En la barra de Daisy, el niño pone en el estante tantos platos como pide la nota. Cuando llega el segundo plato, la palabra abre un hueco para su terminación: -s o -es. Si vuelve a quedar uno solo, la terminación tiene que salir. Algunas palabras cambian al escribirse y su tarjeta se voltea. Para 2.º grado, en línea con los planes de estudio.",
+      "sv": "Vid Daisys disk ställer barnet fram lika många tallrikar som lappen visar. När den andra tallriken kommer öppnas en plats för ordets ändelse: -ar eller -er. Blir det bara en igen måste ändelsen bort. Vissa ord ändras själva, och då vänds deras kort. För åk 2, i linje med Lgr22.",
+      "da": "Ved Daisys disk sætter barnet lige så mange tallerkener frem, som sedlen viser. Når den anden tallerken kommer, åbner ordet en plads til sin endelse: -er eller -e. Bliver der kun én igen, skal endelsen af. Nogle ord ændrer sig selv, og så vendes deres kort. Til 2. klasse, i tråd med Fælles Mål.",
+      "no": "Ved disken til Daisy setter barnet fram like mange tallerkener som lappen viser. Når den andre tallerkenen kommer, åpner ordet en plass til endelsen sin: -er eller -r. Blir det bare én igjen, må endelsen av. Noen ord endrer seg selv, og da snus kortet deres. For 2. trinn, i tråd med LK20.",
+      "fi": "Daisyn tiskillä lapsi laittaa hyllylle yhtä monta lautasta kuin lapussa on pisteitä. Kun toinen lautanen tulee, sanaan aukeaa paikka päätteelle: -t tai -et. Kun jäljellä on taas vain yksi, pääte lähtee pois. Jotkin sanat muuttuvat myös sisältä, ja niiden kortti käännetään. 2. luokalle, opetussuunnitelman mukaisesti."
     },
     "kid_prompt_template": "daisy-plate-stack"
   }

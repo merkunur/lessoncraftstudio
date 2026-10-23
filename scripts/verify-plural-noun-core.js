@@ -22,6 +22,7 @@ const path = require('path');
 const REPO = path.join(__dirname, '..');
 const CORE = path.join(REPO, 'mini tools', 'plural-noun-core.js');
 const MANIFEST = path.join(REPO, 'mini tools', 'daisy-plate-stack-activities.json');
+/* Row 75 rebuild (2026-10-23): the row runs the Plate Stack (plate-stack-activity; gate verify-plate-stack-core.js) and no page loads plural-noun-core.js any more. */if (JSON.parse(fs.readFileSync(MANIFEST, 'utf8'))[0].tool !== 'daisy-plate-stack-activity') { console.log('verify-plural-noun-core: the row runs the Plate Stack — see verify-plate-stack-core.js. Nothing to check here.'); process.exit(0); }
 const CHANCE = 0.45;
 
 /* hand-authored correct plurals — the gate's independent ground truth */

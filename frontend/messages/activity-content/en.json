@@ -1710,25 +1710,25 @@
     },
     "daisy-plate-stack.plurals.l-k-1-c": {
       "about": [
-        "Daisy the duck plates up orders that always ask for several — 'I'd like two ___,' 'Wash all six ___,' 'I packed two ___' — so the child reads the request and taps the word that names more than one, choosing forms like cups, dishes, and boxes. Daisy's Plate Stack is a Kindergarten language game about naming more than one that runs in the browser with no account.",
-        "The game teaches that English does not always add a plain s. Most words just take s — cup becomes cups, fork becomes forks — but words ending in sounds like sh, ch, and x take es, so dish becomes dishes, box becomes boxes, and peach becomes peaches. By making the child choose the correct plural for each noun rather than always reaching for s, the activity builds an ear for when es is needed.",
-        "It is aligned to Common Core L.K.1.c — forming regular plural nouns by adding s or es. No timer, no score — just calm, playful practice."
+        "At Daisy's diner counter, the ticket shows how many the order needs. The child taps the pile and plates land on the shelf, each with the same picture on it; animal customers sit on stools on the stepped counter. Under the shelf the word stands in wooden letter tiles. With one plate the word is just \"cup\". The moment the second plate lands, the end of the word slides open: now it needs an ending tile, such as s or es.",
+        "Endings are real tiles, never made-up spellings to choose from. A tile with a little hump adds a beat you can hear (peach-es). Words that change themselves, like mouse and mice or knife and knives, have no ending slot: their card flips over. In \"Back to one\" the child takes plates away until one is left, and the ending has to come off. An ending left on with one plate rattles in its slot.",
+        "Five sets of words: first words, s or es, words that change, back to one, and sentences with a gap. Under \"Answer\" the child can type the ending instead of using tiles. Aligned to Common Core L.K.1.c: form regular plural nouns by adding /s/ or /es/. No timer and no score."
       ],
       "practices": [
-        "Read an order and find the word that names more than one",
-        "Add s to make most nouns plural, like cups and spoons",
-        "Add es to nouns ending in sounds like sh, ch, and x, like dishes and boxes",
-        "Choose the correct plural form for each noun"
+        "Telling one from more than one",
+        "Adding the right ending: s or es",
+        "Recognizing words that change themselves, like mice and knives",
+        "Taking the ending off to go back to one"
       ],
       "howToPlay": [
-        "Read Daisy's order, which always asks for more than one.",
-        "Tap the word that names the plural — the right s or es form.",
-        "Try again if it is not right — there is no timer and no score."
+        "Look at the ticket and tap the pile until the shelf has that many.",
+        "Put the right ending tile in the open slot, or flip the card if the word changes inside. Then press \"Check\".",
+        "Under \"Words\" choose a set such as \"s or es?\" or \"Back to one\", and under \"Answer\" choose \"Write it\" to type the ending."
       ],
       "learningGoals": [
-        "Form regular plural nouns with s and es — the focus of Common Core L.K.1.c.",
-        "Know when a noun needs es instead of a plain s.",
-        "Build the grammar foundation that early speaking and writing rely on."
+        "The child knows that a word usually changes when there is more than one",
+        "The child chooses between s and es by listening for the extra beat",
+        "The child forms the singular by taking the ending off"
       ]
     },
     "digby-number-trace.numeral-formation.k-cc-a-3": {

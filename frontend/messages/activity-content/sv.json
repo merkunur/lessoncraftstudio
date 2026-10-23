@@ -842,24 +842,27 @@
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {
       "about": [
-        "Barnet räknar ut kort som 2 + 3 och 9 − 4 (båda blir 5), eller 3 + 4 och 9 − 2 (båda blir 7), och trycker sedan på en plusuppgift och den minusuppgift som har samma svar för att koppla ihop paret. Det är en interaktiv mattaktivitet för årskurs 1 som körs direkt i webbläsaren, utan att något behöver installeras och utan konto.",
-        "Den stora idén är att en plusuppgift och en minusuppgift kan vara värda lika mycket — likhetstecknet betyder lika med, inte här kommer svaret. Korten visar inte sina summor, så barnet måste verkligen räkna ut varje kort och sedan leta efter en uppgift som ser annorlunda ut men har samma värde. Varje runda har två (ibland tre) värden att hitta, med plus- och minusuppgifter blandade om varandra. Aktiviteten passar årskurs 1 och följer Lgr22."
+        "Varje kort blir ena sidan av en stege. En plusuppgift är två korta delar som klickar ihop: 2 + 3 är en del med 2 hål och en med 3. En minusuppgift är en hög sida där toppen sågas av: 9 − 4 är en sida med 9 hål, och de översta 4 faller bort. Barnet trycker på en plusuppgift och en minusuppgift, och de två sidorna står bredvid varandra.",
+        "Sedan trycker barnet på ekorren. Den klättrar en pinne upp vid varje höjd där båda sidorna har ett hål. Är sidorna lika höga når den den gyllene översta pinnen och ekollonet, och stegen fälls ihop till en skylt: 2 + 3 = 9 − 4, en uträkning på båda sidor om likhetstecknet, och de blir lika mycket. Är ena sidan högre fastnar ekorren, och hålen som ena sidan har fler av lyser och får nummer. När ekorren har fastnat två gånger visas små sidor på korten att jämföra.",
+        "På nivån Omvänd uppgift hör de fyra korten till en talfamilj, till exempel 3 + 5, 5 + 3, 8 − 5 och 8 − 3. Alla sidor är 8 hål höga, så höjden avgör inte. Varje sida har två färger, och ekorren klättrar bara där färgerna stämmer: 3 + 5 hör ihop med 8 − 5, uppgiften som tar bort den del som lades till sist. I linje med Lgr22, centralt innehåll om taluppfattning och tals användning. Utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Räkna ut värdet av både plus- och minusuppgifter",
-        "Para ihop en plusuppgift med en minusuppgift som har samma svar",
-        "Förstå likhetstecknet som lika mycket som",
-        "Jämföra två uppgifter som ser olika ut för att se om de är lika mycket värda"
+        "Att förstå likhetstecknet som ”lika mycket som”: 2 + 3 = 9 − 4",
+        "Att räkna plus- och minusuppgifter upp till 20",
+        "Att avgöra om två uträkningar blir lika mycket",
+        "Att para ihop varje plusuppgift med den omvända minusuppgiften"
       ],
       "howToPlay": [
-        "Räkna ut varje kort — plusuppgifter som 4 + 5 och minusuppgifter som 10 − 1.",
-        "Tryck på en plusuppgift, tryck sedan på den minusuppgift som har samma svar, och se paret kopplas ihop.",
-        "Hitta båda lika paren i rundan — det finns ingen tid och inga poäng, så ta den tid du behöver."
+        "Tryck på ett kort med en plusuppgift och ett med en minusuppgift. Deras sidor dyker upp vid stegarna.",
+        "Tryck på ekorren så klättrar den uppför stegen. Når den ekollonet stämmer paret, och skylten hänger på stället.",
+        "Fastnar den, titta på de lysande hålen (i Omvänd uppgift hålen med en ring runt) och tryck på ett annat kort. Tryck på en skylt på stället för att ta isär stegen igen.",
+        "I inställningarna väljer du paren (Samma svar eller Omvänd uppgift) och när sidorna visas (När jag har valt eller På korten). ”På korten” är den lättare inställningen."
       ],
       "learningGoals": [
-        "Barnet förstår att plus- och minusuppgifter kan vara lika mycket värda",
-        "Barnet kan läsa likhetstecknet som lika med i stället för svaret kommer härnäst",
-        "Barnet bygger en flexibel taluppfattning genom att koppla ihop plus- och minusuppgifter som har samma värde"
+        "Att förstå vad likhetstecknet betyder",
+        "Att avgöra om en likhet med plus och minus på båda sidor stämmer",
+        "Att addera och subtrahera upp till 20",
+        "Att koppla varje plusuppgift till den omvända uppgiften"
       ]
     },
     "match-pairs.match-facts-to-20.2-oa-b-2": {

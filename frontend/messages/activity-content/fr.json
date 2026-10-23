@@ -2848,25 +2848,27 @@
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {
       "about": [
-        "L'enfant calcule des cartes comme 2 + 3 et 9 − 4 (toutes deux égales à 5), ou 3 + 4 et 9 − 2 (toutes deux égales à 7), puis touche une addition et la soustraction qui a le même résultat pour relier la paire. C'est une activité de maths interactive pour le CP, qui se joue directement dans le navigateur, sans rien installer et sans inscription.",
-        "La grande idée, c'est qu'une addition et une soustraction peuvent valoir la même chose : le signe égal veut dire « la même quantité que », et non « voici la réponse ». Les cartes n'affichent pas leur total, alors l'enfant doit vraiment calculer chacune, puis chercher une écriture d'apparence différente qui a la même valeur. Chaque tour propose deux résultats à trouver (parfois trois), en mélangeant additions et soustractions.",
-        "Cette activité de CP est alignée sur les programmes officiels : comprendre le sens du signe égal et juger si des égalités avec additions et soustractions sont vraies. Aucun minuteur, aucun score — juste une pratique calme et ludique."
+        "Chaque carte devient un côté d’une échelle. Une addition, ce sont deux petits morceaux qui s’emboîtent : 2 + 3, c’est un morceau de 2 trous et un de 3. Une soustraction est un grand côté dont on scie le haut : 9 − 4, c’est un côté de 9 trous, et les 4 du haut tombent. L’enfant touche une addition et une soustraction, et les deux côtés se dressent côte à côte.",
+        "Puis l’enfant touche l’écureuil. Il monte d’un barreau à chaque hauteur où les deux côtés ont un trou. Si les côtés ont la même hauteur, il atteint le barreau doré du haut et le gland, et l’échelle se replie en une étiquette : 2 + 3 = 9 − 4, un calcul de chaque côté du signe égal, et ils valent autant. Si un côté est plus haut, l’écureuil reste coincé, et les trous qu’un côté a en plus s’allument et sont numérotés. Après un deuxième blocage, de petits côtés apparaissent sur les cartes pour comparer.",
+        "Au niveau Opération inverse, les quatre cartes forment une famille d’opérations, par exemple 3 + 5, 5 + 3, 8 − 5 et 8 − 3. Tous les côtés ont 8 trous, donc la hauteur ne décide rien. Chaque côté a deux couleurs, et l’écureuil ne monte que là où les couleurs correspondent : 3 + 5 va avec 8 − 5, la soustraction qui enlève la partie ajoutée en dernier. En lien avec les programmes officiels pour le domaine Nombres et calculs. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Calculer la valeur d'additions et de soustractions.",
-        "Relier une addition à une soustraction qui a le même résultat.",
-        "Comprendre le signe égal comme « la même quantité que ».",
-        "Comparer deux écritures d'apparence différente pour voir si elles ont la même valeur."
+        "Comprendre le signe égal comme « vaut autant que » : 2 + 3 = 9 − 4",
+        "Calculer des additions et des soustractions jusqu’à 20",
+        "Décider si deux calculs valent autant",
+        "Associer chaque addition à sa soustraction inverse"
       ],
       "howToPlay": [
-        "Calcule chaque carte — des additions comme 4 + 5 et des soustractions comme 10 − 1.",
-        "Touche une addition, puis la soustraction qui a le même résultat, et regarde la paire se relier.",
-        "Trouve les deux paires égales du tour — il n'y a ni minuteur, ni score, alors prends ton temps."
+        "Touche une carte avec une addition et une carte avec une soustraction. Leurs côtés apparaissent près des échelles.",
+        "Touche l’écureuil pour qu’il grimpe à l’échelle. S’il atteint le gland, la paire est juste et son étiquette s’accroche au présentoir.",
+        "S’il reste coincé, regarde les trous allumés (au niveau Opération inverse, les trous entourés), puis touche une autre carte. Touche une étiquette du présentoir pour défaire cette échelle.",
+        "Dans les réglages, choisis les paires (Même résultat ou Opération inverse) et quand montrer les côtés (Après mon choix ou Sur les cartes). « Sur les cartes » est le réglage le plus facile."
       ],
       "learningGoals": [
-        "Comprendre que des additions et des soustractions peuvent être égales.",
-        "Lire le signe égal comme « la même chose que », et non « la réponse arrive ».",
-        "Développer une aisance souple avec les calculs en reliant additions et soustractions de même valeur."
+        "Comprendre la signification du signe égal",
+        "Décider si une égalité avec + et − des deux côtés est vraie",
+        "Additionner et soustraire jusqu’à 20",
+        "Relier chaque addition à sa soustraction inverse"
       ]
     },
     "match-pairs.match-facts-to-20.2-oa-b-2": {

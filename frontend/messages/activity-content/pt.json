@@ -1484,25 +1484,27 @@
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {
       "about": [
-        "Calcular cada carta e combinar uma adição com a subtração que dá o mesmo resultado é a tarefa desta atividade interativa de matemática para o 1º ano. A criança resolve cartas como 2 + 3 e 9 − 4 (ambas dão 5), ou 3 + 4 e 9 − 2 (ambas dão 7), e toca em uma adição e na subtração de mesmo valor para conectar o par. Funciona direto no navegador, sem instalar nada e sem conta.",
-        "A grande ideia é que uma adição e uma subtração podem valer a mesma quantidade — o sinal de igual quer dizer 'é o mesmo que', e não 'aqui vem a resposta'. As cartas não mostram os totais, então a criança precisa mesmo calcular cada uma e procurar uma expressão de aparência diferente com o mesmo valor. Cada rodada tem dois (às vezes três) resultados para encontrar, misturando contas de mais e de menos.",
-        "A atividade está alinhada à BNCC, no entendimento do significado do sinal de igual e no reconhecimento de que adições e subtrações podem ter o mesmo resultado. Sem cronômetro e sem pontuação — é prática calma e divertida."
+        "Cada carta vira um lado de uma escada. Uma soma são duas partes curtas que se encaixam: 2 + 3 é uma parte com 2 furos e outra com 3. Uma subtração é um lado alto que tem a ponta serrada: 9 − 4 é um lado com 9 furos, e os 4 de cima caem. A criança toca numa soma e numa subtração, e os dois lados ficam um ao lado do outro.",
+        "Depois a criança toca no esquilo. Ele sobe um degrau em cada altura em que os dois lados têm um furo. Se os lados têm a mesma altura, ele chega ao degrau dourado do alto e à bolota, e a escada se fecha numa etiqueta: 2 + 3 = 9 − 4, uma operação de cada lado do sinal de igual, e elas valem o mesmo. Se um lado é mais alto, o esquilo fica preso, e os furos que um lado tem a mais brilham e ganham números. Se ele ficar preso duas vezes, aparecem lados pequenos nas cartas para comparar.",
+        "No nível Operação inversa, as quatro cartas são uma família de operações, como 3 + 5, 5 + 3, 8 − 5 e 8 − 3. Todos os lados têm 8 furos, então a altura não decide. Cada lado tem duas cores, e o esquilo só sobe onde as cores combinam: 3 + 5 vai com 8 − 5, a subtração que tira a parte somada por último. De acordo com a BNCC, na unidade de números. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Calcular o valor de adições e de subtrações.",
-        "Combinar uma conta de mais com uma de menos que tem a mesma resposta.",
-        "Entender o sinal de igual como 'a mesma quantidade que'.",
-        "Comparar duas expressões de aparência diferente para ver se têm o mesmo valor."
+        "Entender o sinal de igual como “vale o mesmo que”: 2 + 3 = 9 − 4",
+        "Resolver somas e subtrações até 20",
+        "Decidir se duas operações valem o mesmo",
+        "Relacionar cada soma com a subtração que a desfaz"
       ],
       "howToPlay": [
-        "Calcule cada carta — adições como 4 + 5 e subtrações como 10 − 1.",
-        "Toque em uma adição e depois na subtração de mesma resposta, e veja o par se conectar.",
-        "Encontre os dois pares iguais da rodada — não há cronômetro nem pontuação, então vá no seu tempo."
+        "Toque numa carta com uma soma e numa com uma subtração. Os lados delas aparecem perto das escadas.",
+        "Toque no esquilo para ele subir a escada. Se ele chegar à bolota, o par está certo e a etiqueta fica pendurada no cabide.",
+        "Se ele ficar preso, olhe os furos que brilham (em Operação inversa, os furos com um aro) e toque em outra carta. Toque numa etiqueta do cabide para desmontar aquela escada.",
+        "Nas configurações, escolha os pares (Mesmo resultado ou Operação inversa) e quando os lados aparecem (Depois de escolher ou Nas cartas). “Nas cartas” é a opção mais fácil."
       ],
       "learningGoals": [
-        "A criança entende que adições e subtrações podem ter o mesmo resultado.",
-        "A criança lê o sinal de igual como 'o mesmo que', e não como 'a resposta vem a seguir'.",
-        "A criança ganha flexibilidade com os fatos ao ligar contas de mais e de menos que compartilham um valor."
+        "Entender o significado do sinal de igual",
+        "Decidir se uma igualdade com + e − dos dois lados é verdadeira",
+        "Somar e subtrair até 20",
+        "Relacionar cada soma com a subtração que a desfaz"
       ]
     },
     "match-pairs.match-facts-to-20.2-oa-b-2": {

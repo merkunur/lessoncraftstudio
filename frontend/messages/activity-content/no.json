@@ -736,25 +736,27 @@
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {
       "about": [
-        "Barnet regner ut kort som 2 + 3 og 9 − 4 (begge blir 5), eller 3 + 4 og 9 − 2 (begge blir 7), og trykker så på et plusstykke og minusstykket med samme svar for å koble paret. Det er en interaktiv matteaktivitet for 1. trinn som kjøres rett i nettleseren, uten noe å installere og uten konto.",
-        "Den store ideen er at et plusstykke og et minusstykke kan være verdt det samme — likhetstegnet betyr «det samme som», ikke «her kommer svaret». Kortene viser ikke svaret, så barnet må faktisk regne ut hvert av dem og deretter lete etter et stykke som ser annerledes ut, men har samme verdi. Hver runde har to (av og til tre) verdier å finne, og plusstykker og minusstykker er blandet sammen.",
-        "Aktiviteten følger LK20 innenfor tall og regning på 1. trinn — å forstå hva likhetstegnet betyr og avgjøre om regnestykker med pluss og minus har samme verdi. Ingen tidtaker, ingen poeng, bare rolig og lekende øving."
+        "Hvert kort blir den ene siden av en stige. En plussoppgave er to korte deler som klikker sammen: 2 + 3 er en del med 2 hull og en med 3. En minusoppgave er en høy side der toppen sages av: 9 − 4 er en side med 9 hull, og de øverste 4 faller av. Barnet trykker på en plussoppgave og en minusoppgave, og de to sidene står ved siden av hverandre.",
+        "Så trykker barnet på ekornet. Det klatrer ett trinn opp ved hver høyde der begge sidene har et hull. Er sidene like høye, når det det gylne øverste trinnet og eikenøtten, og stigen brettes sammen til et skilt: 2 + 3 = 9 − 4, et regnestykke på begge sider av likhetstegnet, og de blir like mye. Er den ene siden høyere, setter ekornet seg fast, og hullene som den ene siden har flere av, lyser og får tall. Når ekornet har satt seg fast to ganger, viser kortene små sider å sammenligne.",
+        "På nivået Omvendt regnestykke hører de fire kortene til én tallfamilie, for eksempel 3 + 5, 5 + 3, 8 − 5 og 8 − 3. Alle sidene er 8 hull høye, så høyden avgjør ikke. Hver side har to farger, og ekornet klatrer bare der fargene stemmer: 3 + 5 hører sammen med 8 − 5, regnestykket som tar bort den delen som ble lagt til sist. I tråd med LK20 om tall og regning. Uten tidtaking og uten poeng."
       ],
       "practices": [
-        "Regne ut verdien av både plusstykker og minusstykker.",
-        "Koble et plusstykke til et minusstykke med samme svar.",
-        "Forstå likhetstegnet som «like mye som».",
-        "Sammenligne to regnestykker som ser ulike ut, for å se om de er like store."
+        "Å forstå likhetstegnet som «like mye som»: 2 + 3 = 9 − 4",
+        "Å regne pluss- og minusoppgaver opp til 20",
+        "Å avgjøre om to regnestykker blir like mye",
+        "Å finne det omvendte regnestykket til hver plussoppgave"
       ],
       "howToPlay": [
-        "Regn ut hvert kort — plusstykker som 4 + 5 og minusstykker som 10 − 1.",
-        "Trykk på et plusstykke, trykk så på minusstykket med samme svar, og se paret koble seg.",
-        "Finn begge de like parene i runden — det er ingen tidtaker og ingen poeng, så ta deg god tid."
+        "Trykk på et kort med en plussoppgave og et med en minusoppgave. Sidene deres dukker opp ved stigene.",
+        "Trykk på ekornet for å sende det opp stigen. Når det når eikenøtten, stemmer paret, og skiltet henger på stativet.",
+        "Setter det seg fast, se på de lysende hullene (i Omvendt regnestykke hullene med ring rundt) og trykk på et annet kort. Trykk på et skilt på stativet for å ta stigen fra hverandre igjen.",
+        "I innstillingene velger du parene (Samme svar eller Omvendt regnestykke) og når sidene vises (Når jeg har valgt eller På kortene). «På kortene» er den letteste av de to innstillingene."
       ],
       "learningGoals": [
-        "Barnet forstår at plusstykker og minusstykker kan være like store.",
-        "Barnet kan lese likhetstegnet som «det samme som» i stedet for «svaret kommer nå».",
-        "Barnet bygger fleksibel tallfakta-kunnskap ved å koble pluss- og minusstykker med samme verdi."
+        "Å forstå hva likhetstegnet betyr",
+        "Å avgjøre om en likning med pluss og minus på begge sider stemmer",
+        "Å legge sammen og trekke fra opp til 20",
+        "Å knytte hver plussoppgave til det omvendte regnestykket"
       ]
     },
     "match-pairs.match-facts-to-20.2-oa-b-2": {

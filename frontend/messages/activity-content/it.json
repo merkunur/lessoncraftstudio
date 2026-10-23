@@ -1983,25 +1983,27 @@
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {
       "about": [
-        "Il bambino calcola carte come 2 + 3 e 9 − 4 (entrambe 5), oppure 3 + 4 e 9 − 2 (entrambe 7), poi tocca un'addizione e la sottrazione con lo stesso risultato per collegare la coppia. È un'attività di matematica interattiva per la classe prima, che funziona direttamente nel browser: niente da installare e nessun account.",
-        "L'idea importante è che un'addizione e una sottrazione possono valere la stessa quantità: il segno di uguale significa «la stessa cosa di», non «ecco la risposta». Le carte non mostrano i risultati, quindi il bambino deve davvero calcolare ciascuna e poi cercare un'espressione di aspetto diverso con lo stesso valore. Ogni turno ha due (a volte tre) valori da trovare, mescolando addizioni e sottrazioni.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito delle relazioni e del calcolo: comprendere il significato del segno di uguale e stabilire se uguaglianze con addizioni e sottrazioni sono vere. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
+        "Ogni carta diventa un lato di una scala. Un’addizione è fatta di due pezzi corti che si agganciano: 2 + 3 è un pezzo con 2 buchi e uno con 3. Una sottrazione è un lato alto a cui viene segata la cima: 9 − 4 è un lato con 9 buchi, e i 4 in alto cadono via. Il bambino tocca un’addizione e una sottrazione, e i due lati stanno uno accanto all’altro.",
+        "Poi il bambino tocca lo scoiattolo. Sale di un piolo a ogni altezza in cui entrambi i lati hanno un buco. Se i lati hanno la stessa altezza, arriva al piolo d’oro in cima e alla ghianda, e la scala si chiude in un cartellino: 2 + 3 = 9 − 4, un’operazione per lato del segno uguale, e le due valgono lo stesso. Se un lato è più alto, lo scoiattolo si blocca, e i buchi che un lato ha in più si illuminano e vengono numerati. Dopo il secondo blocco, sulle carte compaiono piccoli lati da confrontare.",
+        "Nel livello Operazione inversa le quattro carte sono una famiglia di operazioni, per esempio 3 + 5, 5 + 3, 8 − 5 e 8 − 3. Tutti i lati sono alti 8 buchi, quindi l’altezza non decide. Ogni lato ha due colori, e lo scoiattolo sale solo dove i colori combaciano: 3 + 5 va con 8 − 5, la sottrazione che toglie la parte aggiunta per ultima. In linea con le Indicazioni nazionali per i numeri. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Calcolare il valore sia di addizioni sia di sottrazioni.",
-        "Abbinare un'addizione a una sottrazione che ha lo stesso risultato.",
-        "Capire il segno di uguale come «la stessa quantità di».",
-        "Confrontare due espressioni dall'aspetto diverso per verificare se valgono uguale."
+        "Capire l’uguale come “vale quanto”: 2 + 3 = 9 − 4",
+        "Calcolare addizioni e sottrazioni entro il 20",
+        "Decidere se due operazioni valgono lo stesso",
+        "Abbinare ogni addizione alla sua sottrazione inversa"
       ],
       "howToPlay": [
-        "Calcola ogni carta — addizioni come 4 + 5 e sottrazioni come 10 − 1.",
-        "Tocca un'addizione, poi la sottrazione con lo stesso risultato, e guarda la coppia collegarsi.",
-        "Trova entrambe le coppie uguali nel turno — non c'è timer e non c'è punteggio, quindi prenditi il tuo tempo."
+        "Tocca una carta con un’addizione e una con una sottrazione. I loro lati compaiono vicino alle scale.",
+        "Tocca lo scoiattolo per farlo salire sulla scala. Se arriva alla ghianda, la coppia è giusta e il cartellino si appende all’appendiabiti.",
+        "Se si blocca, guarda i buchi illuminati (in Operazione inversa, i buchi cerchiati) e tocca un’altra carta. Tocca un cartellino sull’appendiabiti per smontare quella scala.",
+        "Nelle impostazioni scegli le coppie (Stesso risultato o Operazione inversa) e quando si vedono i lati (Dopo la scelta o Sulle carte). «Sulle carte» è l’impostazione più facile."
       ],
       "learningGoals": [
-        "Capire che addizioni e sottrazioni possono essere uguali tra loro.",
-        "Leggere il segno di uguale come «la stessa cosa di» e non come «ecco la risposta».",
-        "Costruire una padronanza flessibile dei calcoli collegando addizioni e sottrazioni che condividono un valore."
+        "Capire il significato del segno uguale",
+        "Decidere se un’uguaglianza con + e − su entrambi i lati è vera",
+        "Addizionare e sottrarre entro il 20",
+        "Collegare ogni addizione alla sua sottrazione inversa"
       ]
     },
     "match-pairs.match-facts-to-20.2-oa-b-2": {

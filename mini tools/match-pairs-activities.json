@@ -1,7 +1,7 @@
 [
   {
     "id": "match-pairs.addition-and-subtraction-pairs.1-oa-d-7",
-    "tool": "match-pairs-activity",
+    "tool": "rung-ladder-activity",
     "task_template": "equal-value",
     "alignment": {
       "framework": "CCSS",
@@ -10,490 +10,368 @@
       "strand": "Operations & Algebraic Thinking"
     },
     "params": {
-      "tasks": [
-        {
-          "cards": [
-            {
-              "display": "2 + 3",
-              "kind": "add",
-              "value": 5
-            },
-            {
-              "display": "9 − 4",
-              "kind": "sub",
-              "value": 5
-            },
-            {
-              "display": "3 + 4",
-              "kind": "add",
-              "value": 7
-            },
-            {
-              "display": "9 − 2",
-              "kind": "sub",
-              "value": 7
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "1 + 3",
-              "kind": "add",
-              "value": 4
-            },
-            {
-              "display": "5 − 1",
-              "kind": "sub",
-              "value": 4
-            },
-            {
-              "display": "2 + 6",
-              "kind": "add",
-              "value": 8
-            },
-            {
-              "display": "10 − 2",
-              "kind": "sub",
-              "value": 8
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "1 + 2",
-              "kind": "add",
-              "value": 3
-            },
-            {
-              "display": "6 − 3",
-              "kind": "sub",
-              "value": 3
-            },
-            {
-              "display": "2 + 4",
-              "kind": "add",
-              "value": 6
-            },
-            {
-              "display": "8 − 2",
-              "kind": "sub",
-              "value": 6
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "4 + 5",
-              "kind": "add",
-              "value": 9
-            },
-            {
-              "display": "10 − 1",
-              "kind": "sub",
-              "value": 9
-            },
-            {
-              "display": "1 + 4",
-              "kind": "add",
-              "value": 5
-            },
-            {
-              "display": "7 − 2",
-              "kind": "sub",
-              "value": 5
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "1 + 5",
-              "kind": "add",
-              "value": 6
-            },
-            {
-              "display": "9 − 3",
-              "kind": "sub",
-              "value": 6
-            },
-            {
-              "display": "4 + 6",
-              "kind": "add",
-              "value": 10
-            },
-            {
-              "display": "12 − 2",
-              "kind": "sub",
-              "value": 10
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "2 + 5",
-              "kind": "add",
-              "value": 7
-            },
-            {
-              "display": "10 − 3",
-              "kind": "sub",
-              "value": 7
-            },
-            {
-              "display": "2 + 2",
-              "kind": "add",
-              "value": 4
-            },
-            {
-              "display": "7 − 3",
-              "kind": "sub",
-              "value": 4
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "2 + 1",
-              "kind": "add",
-              "value": 3
-            },
-            {
-              "display": "5 − 2",
-              "kind": "sub",
-              "value": 3
-            },
-            {
-              "display": "3 + 5",
-              "kind": "add",
-              "value": 8
-            },
-            {
-              "display": "9 − 1",
-              "kind": "sub",
-              "value": 8
-            },
-            {
-              "display": "3 + 7",
-              "kind": "add",
-              "value": 10
-            },
-            {
-              "display": "13 − 3",
-              "kind": "sub",
-              "value": 10
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "4 + 1",
-              "kind": "add",
-              "value": 5
-            },
-            {
-              "display": "8 − 3",
-              "kind": "sub",
-              "value": 5
-            },
-            {
-              "display": "3 + 3",
-              "kind": "add",
-              "value": 6
-            },
-            {
-              "display": "10 − 4",
-              "kind": "sub",
-              "value": 6
-            },
-            {
-              "display": "3 + 6",
-              "kind": "add",
-              "value": 9
-            },
-            {
-              "display": "12 − 3",
-              "kind": "sub",
-              "value": 9
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "4 + 4",
-              "kind": "add",
-              "value": 8
-            },
-            {
-              "display": "12 − 4",
-              "kind": "sub",
-              "value": 8
-            },
-            {
-              "display": "0 + 3",
-              "kind": "add",
-              "value": 3
-            },
-            {
-              "display": "4 − 1",
-              "kind": "sub",
-              "value": 3
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "5 + 5",
-              "kind": "add",
-              "value": 10
-            },
-            {
-              "display": "13 − 3",
-              "kind": "sub",
-              "value": 10
-            },
-            {
-              "display": "1 + 6",
-              "kind": "add",
-              "value": 7
-            },
-            {
-              "display": "8 − 1",
-              "kind": "sub",
-              "value": 7
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "2 + 7",
-              "kind": "add",
-              "value": 9
-            },
-            {
-              "display": "11 − 2",
-              "kind": "sub",
-              "value": 9
-            },
-            {
-              "display": "4 + 2",
-              "kind": "add",
-              "value": 6
-            },
-            {
-              "display": "10 − 4",
-              "kind": "sub",
-              "value": 6
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "1 + 3",
-              "kind": "add",
-              "value": 4
-            },
-            {
-              "display": "9 − 5",
-              "kind": "sub",
-              "value": 4
-            },
-            {
-              "display": "5 + 2",
-              "kind": "add",
-              "value": 7
-            },
-            {
-              "display": "12 − 5",
-              "kind": "sub",
-              "value": 7
-            },
-            {
-              "display": "6 + 3",
-              "kind": "add",
-              "value": 9
-            },
-            {
-              "display": "13 − 4",
-              "kind": "sub",
-              "value": 9
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "8 + 2",
-              "kind": "add",
-              "value": 10
-            },
-            {
-              "display": "14 − 4",
-              "kind": "sub",
-              "value": 10
-            },
-            {
-              "display": "2 + 3",
-              "kind": "add",
-              "value": 5
-            },
-            {
-              "display": "6 − 1",
-              "kind": "sub",
-              "value": 5
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "1 + 7",
-              "kind": "add",
-              "value": 8
-            },
-            {
-              "display": "11 − 3",
-              "kind": "sub",
-              "value": 8
-            },
-            {
-              "display": "2 + 4",
-              "kind": "add",
-              "value": 6
-            },
-            {
-              "display": "7 − 1",
-              "kind": "sub",
-              "value": 6
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "1 + 4",
-              "kind": "add",
-              "value": 5
-            },
-            {
-              "display": "10 − 5",
-              "kind": "sub",
-              "value": 5
-            },
-            {
-              "display": "2 + 6",
-              "kind": "add",
-              "value": 8
-            },
-            {
-              "display": "10 − 2",
-              "kind": "sub",
-              "value": 8
-            },
-            {
-              "display": "1 + 2",
-              "kind": "add",
-              "value": 3
-            },
-            {
-              "display": "8 − 5",
-              "kind": "sub",
-              "value": 3
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "4 + 3",
-              "kind": "add",
-              "value": 7
-            },
-            {
-              "display": "9 − 2",
-              "kind": "sub",
-              "value": 7
-            },
-            {
-              "display": "4 + 5",
-              "kind": "add",
-              "value": 9
-            },
-            {
-              "display": "10 − 1",
-              "kind": "sub",
-              "value": 9
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "5 + 1",
-              "kind": "add",
-              "value": 6
-            },
-            {
-              "display": "8 − 2",
-              "kind": "sub",
-              "value": 6
-            },
-            {
-              "display": "6 + 4",
-              "kind": "add",
-              "value": 10
-            },
-            {
-              "display": "12 − 2",
-              "kind": "sub",
-              "value": 10
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "2 + 2",
-              "kind": "add",
-              "value": 4
-            },
-            {
-              "display": "6 − 2",
-              "kind": "sub",
-              "value": 4
-            },
-            {
-              "display": "3 + 4",
-              "kind": "add",
-              "value": 7
-            },
-            {
-              "display": "10 − 3",
-              "kind": "sub",
-              "value": 7
-            },
-            {
-              "display": "5 + 4",
-              "kind": "add",
-              "value": 9
-            },
-            {
-              "display": "11 − 2",
-              "kind": "sub",
-              "value": 9
-            }
-          ]
-        }
-      ]
+      "note": "A mirror of rung-ladder-core.js (every round of both levels: the cards and the pairs). The core is the source; this row runs the Rung Ladder.",
+      "levels": [
+        "same",
+        "undo"
+      ],
+      "rounds": {
+        "same": [
+          {
+            "cards": [
+              "2 + 3",
+              "3 + 4",
+              "9 − 4",
+              "9 − 2"
+            ],
+            "pairs": [
+              "2 + 3 ↔ 9 − 4",
+              "3 + 4 ↔ 9 − 2"
+            ]
+          },
+          {
+            "cards": [
+              "1 + 3",
+              "2 + 6",
+              "5 − 1",
+              "10 − 2"
+            ],
+            "pairs": [
+              "1 + 3 ↔ 5 − 1",
+              "2 + 6 ↔ 10 − 2"
+            ]
+          },
+          {
+            "cards": [
+              "1 + 2",
+              "2 + 4",
+              "6 − 3",
+              "8 − 2"
+            ],
+            "pairs": [
+              "1 + 2 ↔ 6 − 3",
+              "2 + 4 ↔ 8 − 2"
+            ]
+          },
+          {
+            "cards": [
+              "4 + 5",
+              "1 + 4",
+              "10 − 1",
+              "7 − 2"
+            ],
+            "pairs": [
+              "4 + 5 ↔ 10 − 1",
+              "1 + 4 ↔ 7 − 2"
+            ]
+          },
+          {
+            "cards": [
+              "1 + 5",
+              "4 + 6",
+              "9 − 3",
+              "12 − 2"
+            ],
+            "pairs": [
+              "1 + 5 ↔ 9 − 3",
+              "4 + 6 ↔ 12 − 2"
+            ]
+          },
+          {
+            "cards": [
+              "2 + 5",
+              "2 + 2",
+              "10 − 3",
+              "7 − 3"
+            ],
+            "pairs": [
+              "2 + 5 ↔ 10 − 3",
+              "2 + 2 ↔ 7 − 3"
+            ]
+          },
+          {
+            "cards": [
+              "2 + 1",
+              "3 + 5",
+              "3 + 7",
+              "5 − 2",
+              "9 − 1",
+              "13 − 3"
+            ],
+            "pairs": [
+              "2 + 1 ↔ 5 − 2",
+              "3 + 5 ↔ 9 − 1",
+              "3 + 7 ↔ 13 − 3"
+            ]
+          },
+          {
+            "cards": [
+              "4 + 1",
+              "3 + 3",
+              "3 + 6",
+              "8 − 3",
+              "10 − 4",
+              "12 − 3"
+            ],
+            "pairs": [
+              "4 + 1 ↔ 8 − 3",
+              "3 + 3 ↔ 10 − 4",
+              "3 + 6 ↔ 12 − 3"
+            ]
+          },
+          {
+            "cards": [
+              "4 + 4",
+              "2 + 1",
+              "12 − 4",
+              "4 − 1"
+            ],
+            "pairs": [
+              "4 + 4 ↔ 12 − 4",
+              "2 + 1 ↔ 4 − 1"
+            ]
+          },
+          {
+            "cards": [
+              "5 + 5",
+              "1 + 6",
+              "13 − 3",
+              "8 − 1"
+            ],
+            "pairs": [
+              "5 + 5 ↔ 13 − 3",
+              "1 + 6 ↔ 8 − 1"
+            ]
+          },
+          {
+            "cards": [
+              "2 + 7",
+              "4 + 2",
+              "11 − 2",
+              "10 − 4"
+            ],
+            "pairs": [
+              "2 + 7 ↔ 11 − 2",
+              "4 + 2 ↔ 10 − 4"
+            ]
+          },
+          {
+            "cards": [
+              "1 + 3",
+              "5 + 2",
+              "6 + 3",
+              "9 − 5",
+              "12 − 5",
+              "13 − 4"
+            ],
+            "pairs": [
+              "1 + 3 ↔ 9 − 5",
+              "5 + 2 ↔ 12 − 5",
+              "6 + 3 ↔ 13 − 4"
+            ]
+          },
+          {
+            "cards": [
+              "8 + 2",
+              "2 + 3",
+              "14 − 4",
+              "6 − 1"
+            ],
+            "pairs": [
+              "8 + 2 ↔ 14 − 4",
+              "2 + 3 ↔ 6 − 1"
+            ]
+          },
+          {
+            "cards": [
+              "1 + 7",
+              "2 + 4",
+              "11 − 3",
+              "7 − 1"
+            ],
+            "pairs": [
+              "1 + 7 ↔ 11 − 3",
+              "2 + 4 ↔ 7 − 1"
+            ]
+          },
+          {
+            "cards": [
+              "1 + 4",
+              "2 + 6",
+              "1 + 2",
+              "10 − 5",
+              "10 − 2",
+              "8 − 5"
+            ],
+            "pairs": [
+              "1 + 4 ↔ 10 − 5",
+              "2 + 6 ↔ 10 − 2",
+              "1 + 2 ↔ 8 − 5"
+            ]
+          },
+          {
+            "cards": [
+              "4 + 3",
+              "4 + 5",
+              "9 − 2",
+              "10 − 1"
+            ],
+            "pairs": [
+              "4 + 3 ↔ 9 − 2",
+              "4 + 5 ↔ 10 − 1"
+            ]
+          },
+          {
+            "cards": [
+              "5 + 1",
+              "6 + 4",
+              "8 − 2",
+              "12 − 2"
+            ],
+            "pairs": [
+              "5 + 1 ↔ 8 − 2",
+              "6 + 4 ↔ 12 − 2"
+            ]
+          },
+          {
+            "cards": [
+              "2 + 2",
+              "3 + 4",
+              "5 + 4",
+              "6 − 2",
+              "10 − 3",
+              "11 − 2"
+            ],
+            "pairs": [
+              "2 + 2 ↔ 6 − 2",
+              "3 + 4 ↔ 10 − 3",
+              "5 + 4 ↔ 11 − 2"
+            ]
+          }
+        ],
+        "undo": [
+          {
+            "cards": [
+              "3 + 5",
+              "5 + 3",
+              "8 − 5",
+              "8 − 3"
+            ],
+            "pairs": [
+              "3 + 5 ↔ 8 − 5",
+              "5 + 3 ↔ 8 − 3"
+            ]
+          },
+          {
+            "cards": [
+              "4 + 6",
+              "6 + 4",
+              "10 − 6",
+              "10 − 4"
+            ],
+            "pairs": [
+              "4 + 6 ↔ 10 − 6",
+              "6 + 4 ↔ 10 − 4"
+            ]
+          },
+          {
+            "cards": [
+              "2 + 7",
+              "7 + 2",
+              "9 − 7",
+              "9 − 2"
+            ],
+            "pairs": [
+              "2 + 7 ↔ 9 − 7",
+              "7 + 2 ↔ 9 − 2"
+            ]
+          },
+          {
+            "cards": [
+              "1 + 6",
+              "6 + 1",
+              "7 − 6",
+              "7 − 1"
+            ],
+            "pairs": [
+              "1 + 6 ↔ 7 − 6",
+              "6 + 1 ↔ 7 − 1"
+            ]
+          },
+          {
+            "cards": [
+              "3 + 4",
+              "4 + 3",
+              "7 − 4",
+              "7 − 3"
+            ],
+            "pairs": [
+              "3 + 4 ↔ 7 − 4",
+              "4 + 3 ↔ 7 − 3"
+            ]
+          },
+          {
+            "cards": [
+              "2 + 6",
+              "6 + 2",
+              "8 − 6",
+              "8 − 2"
+            ],
+            "pairs": [
+              "2 + 6 ↔ 8 − 6",
+              "6 + 2 ↔ 8 − 2"
+            ]
+          },
+          {
+            "cards": [
+              "6 + 8",
+              "8 + 6",
+              "14 − 8",
+              "14 − 6"
+            ],
+            "pairs": [
+              "6 + 8 ↔ 14 − 8",
+              "8 + 6 ↔ 14 − 6"
+            ]
+          },
+          {
+            "cards": [
+              "7 + 9",
+              "9 + 7",
+              "16 − 9",
+              "16 − 7"
+            ],
+            "pairs": [
+              "7 + 9 ↔ 16 − 9",
+              "9 + 7 ↔ 16 − 7"
+            ]
+          },
+          {
+            "cards": [
+              "5 + 8",
+              "8 + 5",
+              "13 − 8",
+              "13 − 5"
+            ],
+            "pairs": [
+              "5 + 8 ↔ 13 − 8",
+              "8 + 5 ↔ 13 − 5"
+            ]
+          },
+          {
+            "cards": [
+              "4 + 7",
+              "7 + 4",
+              "11 − 7",
+              "11 − 4"
+            ],
+            "pairs": [
+              "4 + 7 ↔ 11 − 7",
+              "7 + 4 ↔ 11 − 4"
+            ]
+          }
+        ]
+      }
     },
     "theme": null,
     "slug": {

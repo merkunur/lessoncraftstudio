@@ -546,25 +546,27 @@
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {
       "about": [
-        "Vähennyslasku kuten 8 − 3 näkyy luvun hajotelmana — kokonaisluku (8) ja toinen osa (3) on annettu — ja lapsi täyttää puuttuvan osan. Tämä vuorovaikutteinen 1. luokan matematiikkatehtävä toimii suoraan selaimessa ilman rekisteröitymistä.",
-        "Tärkein ajatus on lukea vähennyslasku muodossa \"mikä yhdessä kolmen kanssa tekee kahdeksan?\" — siis puuttuvana yhteenlaskettavana eikä pois ottamisena. Lapsi täyttää tyhjää osaa, kunnes kaksi osaa rakentavat kokonaisluvun uudelleen, joten vähennys- ja yhteenlaskun syvä yhteys on juuri sitä, mitä lapsi tekee. Kierrokset yltävät kokonaislukuihin kuuteentoista asti.",
-        "Tehtävä on OPS 2014:n mukainen 1. luokan matematiikkaa — lapsi ymmärtää vähennyslaskun puuttuvan yhteenlaskettavan tehtävänä ja harjoittelee samalla luvun hajottamista. Ei ajastinta, ei pisteitä."
+        "Joka kierroksella vihreällä telineellä on yksi dominopala. Sen yläpuolella oleva messinkikyltti näyttää kokonaisuuden, ja palan kaksi puolikasta ovat osat. Yksi luku on piilossa: puolikas on nurinpäin, tai huopakansi peittää kyltin. Palan alla oleva laskunauha näyttää, missä ? on, esimerkiksi 3 + ? = 8, 12 − ? = 7 tai ? − 5 = 8.",
+        "Lapsi valitsee piilossa olevan luvun napeilla + ja − ja painaa Tarkista. Silloin kaikki pisteet nousevat kyltin paikoille. Kun puolikas on nurinpäin, liian pieni luku jättää tyhjiä paikkoja hehkumaan ja liian suuri jättää pisteitä roikkumaan kyltin reunan yli. Kannen kanssa on toisin päin: liian pieni kyltti jättää pisteitä roikkumaan, liian suuri jättää paikkoja tyhjiksi. Tavallinen virhe, jossa piilossa olevan puolikkaan kohdalla näkyvät luvut lasketaan yhteen, ei koskaan mahdu, ja kyltti näyttää miksi.",
+        "Oikealla luvulla piilossa ollut puolikas kääntyy ja pala on taas ehjä. Nyt lapsi pyöräyttää sitä, jolloin yhteenlaskun osat vaihtavat paikkaa mutta kyltti pysyy samana, ja napauttaa puolikasta, niin se irtoaa: telineelle jäävä osa on vähennyslasku. Näin lapsi täyttää laskuperheen neljä ikkunaa kaikilla neljällä laskulla. Toisen virheen jälkeen paikat (kannen alla pisteet) asetetaan esiin laskemista varten. Sopii opetussuunnitelman sisältöalueeseen luvut ja laskutoimitukset. Ilman ajanottoa ja ilman pisteytystä."
       ],
       "practices": [
-        "Näkee vähennyslaskun kokonaislukuna, josta puuttuu toinen osa.",
-        "Miettii: \"mikä yhdessä tunnetun osan kanssa tekee kokonaisluvun?\"",
-        "Täyttää puuttuvan osan, kunnes kaksi osaa rakentavat kokonaisluvun uudelleen.",
-        "Yhdistää vähennyslaskun yhteenlaskuun (3 ja 5 tekevät 8)."
+        "Puuttuvan osan etsiminen: 3 ja kuinka monta on yhteensä 8?",
+        "Vähennyslasku puuttuvana osana: 12 − ? = 7",
+        "Tuntemattoman luvun etsiminen mistä tahansa kohdasta yhteen- tai vähennyslaskua 20:een asti",
+        "Laskuperheen neljän laskun muodostaminen"
       ],
       "howToPlay": [
-        "Katso luvun hajotelmaa — kokonaisluku ja toinen osa on annettu, kuten 8 ja 3.",
-        "Täytä puuttuva osa, kunnes kaksi osaa tekevät kokonaisluvun, ja paina sitten Tarkista.",
-        "Menikö pieleen? Muuta osaa ja tarkista uudelleen — ei ajastinta eikä pisteitä."
+        "Katso laskunauhaa: ? on piilossa oleva luku.",
+        "Valitse luku napeilla + ja − ja paina Tarkista. Pisteet nousevat kyltille: jokainen piste tarvitsee paikan ja jokainen paikka pisteen.",
+        "Kun laskuperhe on päällä, pyöräytä palaa pyöreällä nuolella ja napauta puolikasta irrottaaksesi sen tai laittaaksesi sen takaisin, kunnes kaikki neljä ikkunaa ovat täynnä.",
+        "Asetuksista valitset luvut (10:een asti tai 20:een asti) ja laitat laskuperheen päälle tai pois."
       ],
       "learningGoals": [
-        "Lapsi ymmärtää vähennyslaskun puuttuvan yhteenlaskettavan etsimisenä.",
-        "Lapsi osaa löytää puuttuvan osan, kun kokonaisluku ja toinen osa tunnetaan.",
-        "Lapsi näkee, miten yhteen- ja vähennyslasku kumoavat toisensa."
+        "Ymmärtää vähennyslasku puuttuvan osan etsimisenä",
+        "Löytää tuntematon luku yhteen- tai vähennyslaskusta 20:een asti",
+        "Yhdistää yhteen- ja vähennyslasku laskuperheen neljän laskun avulla",
+        "Huomata, että yhteenlaskun osien vaihtaminen ei muuta kokonaisuutta"
       ]
     },
     "place-value.expanded-form.2-nbt-a-3": {

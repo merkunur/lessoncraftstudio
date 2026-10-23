@@ -1015,25 +1015,27 @@
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {
       "about": [
-        "Et subtraksjonsstykke som 8 − 3 vises som et tallvennhus — det hele tallet (8) og den ene delen (3) er gitt — og barnet fyller inn den delen som mangler. Dette er en interaktiv matteaktivitet for 1. trinn som kjører rett i nettleseren — uten innlogging.",
-        "Den store ideen er å lese subtraksjon som «hva skal til sammen med 3 for å bli 8?» — en manglende del, ikke en ren bort-telling. Barnet fyller den tomme delen til de to delene bygger opp det hele tallet igjen, så den dype sammenhengen mellom subtraksjon og addisjon er nettopp det de gjør, med runder der det hele tallet kommer opp i 16.",
-        "Aktiviteten følger LK20 innenfor addisjon og subtraksjon innenfor tjue — å forstå subtraksjon som å finne en manglende del. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "I hver runde ligger én dominobrikke på en grønn holder. Et messingskilt over den viser det hele, og de to halvdelene er delene. Ett tall er skjult: En halvdel ligger med baksiden opp, eller et filtlokk dekker skiltet. Regnestripen under brikken viser hvor ? står, for eksempel 3 + ? = 8, 12 − ? = 7 eller ? − 5 = 8.",
+        "Barnet stiller inn det skjulte tallet med + og − og trykker på Sjekk. Da går alle prikkene opp på plassene på skiltet. Ligger en halvdel med baksiden opp, lyser tomme plasser hvis tallet er for lite, og prikker henger utenfor enden hvis det er for stort. Med lokket er det omvendt: Et for lite skilt får prikker til å henge utenfor, et for stort lar plasser stå tomme. Den vanlige feilen å legge sammen de to tallene som vises når en halvdel er skjult, får aldri plass, og skiltet viser hvorfor.",
+        "Med riktig tall snur den skjulte halvdelen seg, og brikken er hel igjen. Nå dreier barnet den, slik at addisjonen bytter plass mens skiltet er det samme, og trykker på en halvdel for å brekke den av: Det som blir igjen på holderen, er subtraksjonen. Slik fyller barnet tallfamiliens fire vinduer med alle fire regnestykkene. Etter to feil svar blir plassene (under lokket prikkene) lagt fram for telling. I tråd med LK20 om tall og regning. Uten tidtaking og uten poeng."
       ],
       "practices": [
-        "Se et subtraksjonsstykke som et helt tall med én del som mangler.",
-        "Tenke «hva skal legges til den kjente delen for å bli det hele tallet?».",
-        "Fylle den manglende delen til begge delene bygger opp det hele tallet igjen.",
-        "Koble subtraksjon til addisjon (3 og 5 blir 8)."
+        "Å finne en del som mangler: 3 og hvor mange blir 8?",
+        "Å se subtraksjon som en del som mangler: 12 − ? = 7",
+        "Å finne det ukjente tallet på alle plasser i en addisjon eller subtraksjon opp til 20",
+        "Å lage de fire regnestykkene i en tallfamilie"
       ],
       "howToPlay": [
-        "Se på tallvennhuset — det hele tallet og den ene delen er gitt, som 8 med 3.",
-        "Fyll den manglende delen til de to delene blir det hele tallet, og trykk så på Sjekk.",
-        "Ikke helt riktig? Juster delen og sjekk på nytt — det er ingen tidtaker og ingen poeng."
+        "Se på regnestripen: ? er det skjulte tallet.",
+        "Still inn tallet med + og − og trykk på Sjekk. Prikkene går opp på skiltet: Hver prikk trenger en plass, og hver plass en prikk.",
+        "Når tallfamilien er på, dreier du brikken med den runde pilen og trykker på en halvdel for å brekke den av eller sette den på igjen, til alle fire vinduene er fylt.",
+        "I innstillingene velger du tallene (opp til 10 eller opp til 20) og slår tallfamilien på eller av."
       ],
       "learningGoals": [
-        "Barnet kan forstå subtraksjon som å finne en manglende del.",
-        "Barnet kan finne den delen som mangler når det hele tallet og den ene delen er kjent.",
-        "Barnet ser hvordan addisjon og subtraksjon opphever hverandre."
+        "Å forstå subtraksjon som å finne en del som mangler",
+        "Å finne det ukjente tallet i en addisjon eller subtraksjon opp til 20",
+        "Å knytte sammen addisjon og subtraksjon gjennom de fire regnestykkene i en tallfamilie",
+        "Å se at det hele ikke endres når delene i en addisjon bytter plass"
       ]
     },
     "place-value.expanded-form.2-nbt-a-3": {

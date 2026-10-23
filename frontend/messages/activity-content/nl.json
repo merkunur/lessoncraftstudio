@@ -3962,25 +3962,27 @@
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {
       "about": [
-        "Een aftreksom als 8 − 3 verschijnt als een splitsing — het geheel (8) en één deel (3) zijn gegeven — en je kind vult het ontbrekende deel in. Het is een interactieve rekenactiviteit die zonder registratie meteen in de browser draait.",
-        "Het grote idee is om aftrekken te lezen als 'wat hoort er bij 3 om 8 te maken?' — een ontbrekend deel in plaats van eraf tellen. Je kind vult het lege deel aan tot de twee delen samen het geheel weer opbouwen, zodat het diepe verband tussen aftrekken en optellen precies is wat het doet. De rondes lopen op tot een geheel van 16.",
-        "Deze ontbrekende-deel-aanpak sluit aan bij de SLO-kerndoelen voor rekenen en bij kinderen in groep 4: aftrekken begrijpen als het zoeken van een ontbrekend deel. Geen timer, geen score — gewoon rustig splitsen en aanvullen."
+        "In elke ronde ligt één dominosteen op een groene houder. Een koperen bordje erboven toont het geheel, de twee helften zijn de delen. Eén getal is verstopt: een helft ligt omgedraaid, of een vilten dekseltje ligt op het bordje. De sommenstrook onder de steen laat zien waar het ? staat, zoals in 3 + ? = 8, 12 − ? = 7 of ? − 5 = 8.",
+        "Het kind stelt het verstopte getal in met + en − en drukt op Controleer. Dan lopen alle stippen naar de plekken op het bordje. Ligt er een helft omgedraaid, dan lichten bij een te klein getal lege plekken op en hangen bij een te groot getal stippen over de rand. Bij het dekseltje is het andersom: een te klein bordje laat stippen overhangen, een te groot bordje houdt plekken leeg. De bekende fout om bij een verstopte helft de twee getallen die je ziet op te tellen, past nooit, en het bordje laat zien waarom.",
+        "Met het goede getal draait de verstopte helft om en is de steen weer heel. Nu draait het kind hem, zodat de plussom omwisselt terwijl het bordje hetzelfde blijft, en tikt het op een helft om die eraf te breken: wat op de houder blijft, is de minsom. Zo vult het het rekenhuisje met alle vier de sommen. Bij een tweede misser worden de plekken (bij het dekseltje de stippen) klaargelegd om te tellen. Passend bij de kerndoelen voor getallen en bewerkingen. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Een aftreksom zien als een geheel met één ontbrekend deel",
-        "Denken: 'wat hoort er bij het bekende deel om het geheel te maken?'",
-        "Het ontbrekende deel aanvullen tot beide delen samen het geheel zijn",
-        "Aftrekken verbinden met optellen (3 en 5 maken samen 8)"
+        "Een ontbrekend deel vinden: 3 en hoeveel is 8?",
+        "Aftrekken zien als een ontbrekend deel: 12 − ? = 7",
+        "Het onbekende getal vinden op elke plek van een plus- of minsom tot 20",
+        "De vier sommen van een rekenhuisje maken"
       ],
       "howToPlay": [
-        "Bekijk de splitsing — het geheel en één deel zijn gegeven, zoals 8 met 3.",
-        "Vul het ontbrekende deel aan tot de twee delen samen het geheel zijn en druk op Controleer.",
-        "Niet goed? Pas het deel aan en controleer opnieuw — er is geen timer en geen score."
+        "Kijk naar de sommenstrook: het ? is het verstopte getal.",
+        "Stel het getal in met + en − en druk op Controleer. De stippen lopen naar het bordje: elke stip heeft een plek nodig en elke plek een stip.",
+        "Staat het rekenhuisje aan, draai dan de steen met de ronde pijl en tik op een helft om hem eraf te breken of terug te zetten, tot alle vier de raampjes vol zijn.",
+        "In de instellingen kies je de getallen (tot 10 of tot 20) en zet je het rekenhuisje aan of uit."
       ],
       "learningGoals": [
-        "Je kind begrijpt aftrekken als het zoeken van een ontbrekend deel.",
-        "Je kind vindt het ontbrekende deel als het geheel en één deel bekend zijn.",
-        "Je kind ziet hoe optellen en aftrekken elkaar ongedaan maken."
+        "Aftrekken begrijpen als het zoeken van een ontbrekend deel",
+        "Het onbekende getal in een plus- of minsom tot 20 vinden",
+        "Optellen en aftrekken verbinden met de vier sommen van een rekenhuisje",
+        "Zien dat het omwisselen van de delen van een plussom het geheel niet verandert"
       ]
     },
     "place-value.expanded-form.2-nbt-a-3": {

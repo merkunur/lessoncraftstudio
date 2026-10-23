@@ -3310,25 +3310,27 @@
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {
       "about": [
-        "Una resta como 8 − 3 aparece como una descomposición numérica —se dan el todo (8) y una parte (3)— y el niño o la niña completa la parte que falta. Es una actividad de matemáticas para 1.º de primaria, interactiva, que funciona directo en el navegador, sin crear cuenta.",
-        "La idea central es leer la resta como '¿qué se junta con 3 para formar 8?', es decir, un sumando desconocido en lugar de un quitar. El niño o la niña completa la parte vacía hasta que las dos partes reconstruyen el todo, así que la relación profunda entre la resta y la suma es justo lo que hace, con rondas que llegan a un todo de hasta 16.",
-        "Está pensada para el nivel de 1.º de primaria, en el eje de operaciones de los planes y programas de estudio (SEP): entender la resta como un problema de sumando desconocido. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+        "En cada ronda hay un dominó sobre un soporte verde. Una placa dorada encima muestra el todo, y las dos mitades son las partes. Un número está escondido: una mitad está boca abajo, o una tapa de fieltro cubre la placa. La tira de la operación debajo del dominó muestra dónde está el ?, como en 3 + ? = 8, 12 − ? = 7 o ? − 5 = 8.",
+        "El niño elige el número escondido con + y − y toca Comprobar. Entonces todos los puntos suben a los lugares de la placa. Si una mitad está boca abajo, un número demasiado pequeño deja lugares vacíos brillando y uno demasiado grande deja puntos colgando fuera de la placa. Con la tapa es al revés: una placa demasiado pequeña deja puntos colgando y una demasiado grande deja lugares vacíos. El error frecuente de sumar los dos números que se ven cuando una mitad está escondida nunca cabe, y la placa muestra por qué.",
+        "Con el número correcto, la mitad escondida se voltea y el dominó vuelve a estar completo. Ahora el niño lo gira: la suma cambia de orden y la placa sigue igual. Luego toca una mitad para separarla: lo que queda en el soporte es la resta. Así llena las cuatro ventanas de la familia de operaciones. En el segundo error, los lugares (con la tapa, los puntos) se acomodan para contarlos. En línea con los planes de estudio de la SEP, en el eje de número. Sin cronómetro y sin puntaje."
       ],
       "practices": [
-        "Ver una resta como un todo al que le falta una parte.",
-        "Pensar '¿qué se suma a la parte conocida para formar el todo?'.",
-        "Completar la parte que falta hasta que las dos partes reconstruyan el todo.",
-        "Relacionar la resta con la suma (3 y 5 forman 8)."
+        "Encontrar una parte que falta: ¿3 y cuántos son 8?",
+        "Ver la resta como una parte que falta: 12 − ? = 7",
+        "Encontrar el número desconocido en cualquier lugar de una suma o una resta hasta 20",
+        "Formar las cuatro operaciones de una familia de operaciones"
       ],
       "howToPlay": [
-        "Mira la descomposición numérica: se dan el todo y una parte, como 8 con 3.",
-        "Completa la parte que falta hasta que las dos partes formen el todo; después pulsa Comprobar.",
-        "¿No salió a la primera? Ajusta la parte y vuelve a comprobar: no hay temporizador ni puntuación."
+        "Mira la tira de la operación: el ? es el número escondido.",
+        "Elige el número con + y − y toca Comprobar. Los puntos suben a la placa: cada punto necesita un lugar y cada lugar un punto.",
+        "Con la familia de operaciones activada, gira el dominó con la flecha redonda y toca una mitad para separarla o volver a ponerla, hasta llenar las cuatro ventanas.",
+        "En la configuración eliges los números (hasta 10 o hasta 20) y activas o desactivas la familia de operaciones."
       ],
       "learningGoals": [
-        "Entender la resta como encontrar un sumando desconocido.",
-        "Encontrar la parte que falta cuando se conocen el todo y una parte.",
-        "Ver cómo la suma y la resta se deshacen una a la otra."
+        "Entender la resta como buscar una parte que falta",
+        "Encontrar el número desconocido en una suma o una resta hasta 20",
+        "Relacionar la suma y la resta con las cuatro operaciones de una familia",
+        "Ver que cambiar el orden de las partes de una suma no cambia el todo"
       ]
     },
     "place-value.expanded-form.2-nbt-a-3": {

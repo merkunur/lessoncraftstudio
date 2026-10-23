@@ -3757,25 +3757,27 @@
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {
       "about": [
-        "Eine Subtraktion wie 8 − 3 erscheint als Zahlenbild — das Ganze (8) und ein Teil (3) sind vorgegeben — und das Kind ergänzt den fehlenden Teil. Die interaktive Mathe-Übung für die 1. Klasse läuft direkt im Browser, ohne Anmeldung.",
-        "Der Kern dieser Übung ist, Subtraktion als „Was kommt zu 3 dazu, damit 8 entsteht?“ zu lesen — als gesuchten Summanden und nicht als Wegnehmen. Das Kind füllt den leeren Teil auf, bis die beiden Teile zusammen wieder das Ganze ergeben. So tut es genau das, was den tiefen Zusammenhang zwischen Subtraktion und Addition ausmacht. Die Runden reichen bis zu einem Ganzen von 16.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Rechenoperationen für die 1. Klasse ausgerichtet — Subtraktion als Aufgabe mit gesuchtem Summanden verstehen. Es gibt keinen Timer und keine Punktewertung, nur ruhiges, spielerisches Üben."
+        "In jeder Runde liegt ein Dominostein auf einem grünen Halter. Ein Messingschild darüber zeigt das Ganze, die beiden Hälften sind die Teile. Eine Zahl ist versteckt: Eine Hälfte liegt verdeckt, oder ein Filzdeckel liegt auf dem Schild. Die Rechenzeile unter dem Stein zeigt, wo das ? steht, zum Beispiel 3 + ? = 8, 12 − ? = 7 oder ? − 5 = 8.",
+        "Das Kind stellt die versteckte Zahl mit + und − ein und drückt auf Prüfen. Dann wandern alle Punkte auf die Plätze des Schilds. Ist eine Hälfte verdeckt, leuchten bei einer zu kleinen Zahl leere Plätze, bei einer zu großen hängen Punkte über das Ende des Schilds hinaus. Beim Deckel ist es umgekehrt: Ein zu kleines Schild lässt Punkte überhängen, ein zu großes lässt Plätze leer. Der häufige Fehler, bei einer verdeckten Hälfte die beiden sichtbaren Zahlen zu addieren, passt nie, und das Schild zeigt, warum.",
+        "Mit der richtigen Zahl dreht sich die verdeckte Hälfte um, und der Stein ist wieder ganz. Jetzt dreht das Kind ihn, sodass aus der Plusaufgabe ihre Tauschaufgabe wird und das Schild gleich bleibt, und tippt auf eine Hälfte, um sie abzubrechen: Was auf dem Halter bleibt, ist die Minusaufgabe. So füllt es das Rechenhaus mit allen vier Aufgaben. Beim zweiten Fehlversuch werden die Plätze (beim Deckel die Punkte) zum Zählen ausgelegt. Passend zum Lehrplan im Bereich Zahlen und Operationen. Ohne Zeitdruck und ohne Punktwertung."
       ],
       "practices": [
-        "Eine Subtraktion als Ganzes mit einem fehlenden Teil sehen.",
-        "Überlegen: „Was kommt zum bekannten Teil dazu, damit das Ganze entsteht?“",
-        "Den fehlenden Teil ergänzen, bis beide Teile zusammen das Ganze wieder ergeben.",
-        "Subtraktion mit Addition verbinden (3 und 5 ergeben 8)."
+        "Einen fehlenden Teil finden: 3 und wie viel sind 8?",
+        "Minus als fehlenden Teil sehen: 12 − ? = 7",
+        "Die unbekannte Zahl an jeder Stelle einer Plus- oder Minusaufgabe bis 20 finden",
+        "Die vier Aufgaben eines Rechenhauses bilden"
       ],
       "howToPlay": [
-        "Schau dir das Zahlenbild an — das Ganze und ein Teil sind vorgegeben, etwa 8 mit 3.",
-        "Ergänze den fehlenden Teil, bis die beiden Teile das Ganze ergeben. Tippe dann auf Prüfen.",
-        "Noch nicht ganz? Passe den Teil an und prüfe erneut — es gibt keinen Timer und keine Punkte."
+        "Schau auf die Rechenzeile: Das ? ist die versteckte Zahl.",
+        "Stell die Zahl mit + und − ein und drück auf Prüfen. Die Punkte wandern auf das Schild: Jeder Punkt braucht einen Platz, und jeder Platz braucht einen Punkt.",
+        "Ist das Rechenhaus an, dreh den Stein mit dem runden Pfeil und tipp auf eine Hälfte, um sie abzubrechen oder wieder anzusetzen, bis alle vier Fenster gefüllt sind.",
+        "In den Einstellungen wählst du die Zahlen (bis 10 oder bis 20) und schaltest das Rechenhaus an oder aus."
       ],
       "learningGoals": [
-        "Subtraktion als Suche nach dem gesuchten Summanden verstehen.",
-        "Den fehlenden Teil finden, wenn das Ganze und ein Teil bekannt sind.",
-        "Sehen, wie Addition und Subtraktion einander aufheben."
+        "Minus als Suche nach einem fehlenden Teil verstehen",
+        "Die unbekannte Zahl in einer Plus- oder Minusaufgabe bis 20 finden",
+        "Plus und Minus über die vier Aufgaben eines Rechenhauses verbinden",
+        "Erkennen, dass das Tauschen der Teile einer Plusaufgabe das Ganze nicht ändert"
       ]
     },
     "place-value.expanded-form.2-nbt-a-3": {

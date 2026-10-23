@@ -1761,25 +1761,27 @@
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {
       "about": [
-        "Uma subtração como 8 − 3 aparece em forma de decomposição — o todo (8) e uma das partes (3) são dados — e a criança completa a parte que falta. É uma atividade de matemática interativa para o 1º ano, que funciona direto no navegador, sem cadastro.",
-        "A grande ideia é ler a subtração como 'o que junto com 3 forma 8?' — uma parte desconhecida, e não uma contagem de tirar. A criança vai completando a parte vazia até as duas partes formarem o todo de novo, então a ligação profunda entre subtração e adição é exatamente o que ela faz, com rodadas que chegam a totais até 16.",
-        "A atividade está alinhada à BNCC, na unidade temática Números, no trabalho de entender a subtração e a relação entre adição e subtração, fortalecendo o raciocínio aditivo. Sem cronômetro e sem pontuação — só uma prática calma e divertida."
+        "Em cada rodada há um dominó sobre um suporte verde. Uma placa dourada em cima mostra o todo, e as duas metades são as partes. Um número está escondido: uma metade está virada para baixo, ou uma tampa de feltro cobre a placa. A faixa da conta embaixo do dominó mostra onde está o ?, como em 3 + ? = 8, 12 − ? = 7 ou ? − 5 = 8.",
+        "A criança escolhe o número escondido com + e − e toca em Verificar. Então todos os pontos sobem para os lugares da placa. Se uma metade está virada para baixo, um número pequeno demais deixa lugares vazios brilhando e um grande demais deixa pontos pendurados para fora da placa. Com a tampa é o contrário: uma placa pequena demais deixa pontos pendurados, uma grande demais deixa lugares vazios. O erro comum de somar os dois números que aparecem quando uma metade está escondida nunca cabe, e a placa mostra por quê.",
+        "Com o número certo, a metade escondida se vira e o dominó fica inteiro de novo. Agora a criança o gira, e a soma troca de ordem enquanto a placa continua igual, e toca numa metade para separá-la: o que fica no suporte é a subtração. Assim ela enche as quatro janelas da família de fatos. No segundo erro, os lugares (com a tampa, os pontos) são arrumados para contar. De acordo com a BNCC, na unidade de números. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Ver uma subtração como um todo com uma das partes faltando.",
-        "Pensar 'o que somo à parte conhecida para formar o todo?'.",
-        "Completar a parte que falta até as duas partes formarem o todo.",
-        "Ligar a subtração à adição (3 e 5 formam 8)."
+        "Encontrar uma parte que falta: 3 e quantos dão 8?",
+        "Ver a subtração como uma parte que falta: 12 − ? = 7",
+        "Encontrar o número desconhecido em qualquer lugar de uma soma ou subtração até 20",
+        "Formar as quatro contas de uma família de fatos"
       ],
       "howToPlay": [
-        "Olhe a decomposição — o todo e uma das partes são dados, como 8 com 3.",
-        "Complete a parte que falta até as duas partes formarem o todo, depois toque em Verificar.",
-        "Não foi dessa vez? Ajuste a parte e verifique de novo — não há cronômetro nem pontuação."
+        "Olhe a faixa da conta: o ? é o número escondido.",
+        "Escolha o número com + e − e toque em Verificar. Os pontos sobem para a placa: cada ponto precisa de um lugar e cada lugar de um ponto.",
+        "Com a família de fatos ligada, gire o dominó com a seta redonda e toque numa metade para separá-la ou colocá-la de volta, até as quatro janelas ficarem cheias.",
+        "Nas configurações, escolha os números (até 10 ou até 20) e ligue ou desligue a família de fatos."
       ],
       "learningGoals": [
-        "Entender a subtração como descobrir uma parte desconhecida.",
-        "Encontrar a parte que falta quando o todo e uma das partes são conhecidos.",
-        "Perceber como a adição e a subtração se desfazem uma à outra."
+        "Entender a subtração como achar uma parte que falta",
+        "Encontrar o número desconhecido numa soma ou subtração até 20",
+        "Relacionar soma e subtração pelas quatro contas de uma família de fatos",
+        "Ver que trocar a ordem das partes de uma soma não muda o todo"
       ]
     },
     "place-value.expanded-form.2-nbt-a-3": {

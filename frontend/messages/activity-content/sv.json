@@ -1118,25 +1118,27 @@
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {
       "about": [
-        "En subtraktion som 8 − 3 visas som en talkompis — det hela (8) och en del (3) är givna — och barnet fyller i den del som saknas. Det är en interaktiv matteövning för årskurs 1 som körs direkt i webbläsaren utan konto.",
-        "Den stora idén är att läsa subtraktion som \"vad ska till tillsammans med 3 för att bli 8?\" — alltså en del som saknas, snarare än att räkna bort något. Barnet fyller den tomma delen tills de två delarna bygger upp det hela igen, så det djupa sambandet mellan subtraktion och addition är precis det barnet gör. Rundorna når helheter upp till 16.",
-        "Aktiviteten följer Lgr22 inom området taluppfattning och räknesätt: att förstå subtraktion som att hitta en del som saknas. Ingen timer och inga poäng — bara lugn och lekfull övning."
+        "I varje omgång ligger en dominobricka på en grön hållare. En mässingsskylt ovanför visar det hela, och de två halvorna är delarna. Ett tal är gömt: en halva ligger med baksidan upp, eller ett filtlock täcker skylten. Räkneremsan under brickan visar var ? står, till exempel 3 + ? = 8, 12 − ? = 7 eller ? − 5 = 8.",
+        "Barnet ställer in det gömda talet med + och − och trycker på Kontrollera. Då går alla prickar upp på skyltens platser. Ligger en halva med baksidan upp lyser tomma platser om talet är för litet, och prickar hänger utanför kanten om det är för stort. Med locket är det tvärtom: en för liten skylt får prickar att hänga utanför, en för stor lämnar platser tomma. Det vanliga misstaget att addera de två tal som syns när en halva är gömd får aldrig plats, och skylten visar varför.",
+        "Med rätt tal vänder sig den gömda halvan och brickan är hel igen. Nu snurrar barnet den, så att additionen byter plats medan skylten är densamma, och trycker på en halva för att bryta loss den: det som blir kvar på hållaren är subtraktionen. Så fyller barnet talfamiljens fyra fönster med alla fyra uträkningarna. Efter den andra missen läggs platserna (under locket prickarna) ut för att räknas. I linje med Lgr22 om taluppfattning och räkning. Utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Se en subtraktion som ett helt med en del som saknas",
-        "Tänka \"vad ska till tillsammans med den kända delen för att bli det hela?\"",
-        "Fylla i den del som saknas tills båda delarna bygger upp det hela",
-        "Koppla subtraktion till addition (3 och 5 blir 8)"
+        "Att hitta en del som saknas: 3 och hur många blir 8?",
+        "Att se subtraktion som en del som saknas: 12 − ? = 7",
+        "Att hitta det okända talet på alla platser i en addition eller subtraktion upp till 20",
+        "Att bilda de fyra uträkningarna i en talfamilj"
       ],
       "howToPlay": [
-        "Barnet tittar på talkompisen — det hela och en del är givna, som 8 med 3.",
-        "Det fyller i den del som saknas tills de två delarna blir det hela, och trycker sedan på Kontrollera.",
-        "Blev det inte rätt? Ändra delen och kontrollera igen — det finns ingen timer och inga poäng."
+        "Titta på räkneremsan: ? är det gömda talet.",
+        "Ställ in talet med + och − och tryck på Kontrollera. Prickarna går upp på skylten: varje prick behöver en plats och varje plats en prick.",
+        "När talfamiljen är på snurrar du brickan med den runda pilen och trycker på en halva för att bryta loss den eller sätta tillbaka den, tills alla fyra fönstren är fyllda.",
+        "I inställningarna väljer du talen (upp till 10 eller upp till 20) och slår på eller av talfamiljen."
       ],
       "learningGoals": [
-        "Barnet kan förstå subtraktion som att hitta en del som saknas",
-        "Barnet kan hitta den del som saknas när det hela och en del är kända",
-        "Barnet ser hur addition och subtraktion hör ihop"
+        "Att förstå subtraktion som att hitta en del som saknas",
+        "Att hitta det okända talet i en addition eller subtraktion upp till 20",
+        "Att koppla ihop addition och subtraktion genom de fyra uträkningarna i en talfamilj",
+        "Att se att det hela inte ändras när delarna i en addition byter plats"
       ]
     },
     "place-value.expanded-form.2-nbt-a-3": {

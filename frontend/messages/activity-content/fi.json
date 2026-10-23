@@ -1405,24 +1405,27 @@
     },
     "numberbond.find-the-total.1-oa-a-1": {
       "about": [
-        "Lukukolmiossa näkyy kaksi osaa, kuten 7 ja 4, ja lapsi etsii, montako niitä on yhteensä — laskee osat yhteen ja kirjoittaa summan. Tämä on vuorovaikutteinen 1. luokan matematiikkaharjoitus, joka toimii suoraan selaimessa ilman rekisteröitymistä.",
-        "Kokonaisuus on ylhäällä ja kaksi osaa sen alapuolella, joten \"yhteen kokoaminen\" muuttuu joksikin, jonka lapsi voi nähdä. Hän voi jatkaa laskemista suuremmasta osasta tai tietää laskun suoraan; kunkin osan pisteet ovat laskettavissa silloin, kun lasku ei vielä suju ulkoa. Vastaus on lukukolmion yläosan kokonaisuus. Harjoitus on OPS 2014:n mukainen — käytetään yhteenlaskua osien yhdistämiseen ja lasketaan yhteen kahteenkymmeneen asti. 1. luokalle."
+        "Kaksi kulhoa täynnä tavaroita ja yksi kori. Lapsi kaataa yhden kulhon koriin: kori laskee tavarat lappuunsa sitä mukaa kuin ne putoavat, sitten ruudullinen kangas laskeutuu niiden päälle ja vain luku jää näkyviin. Toisen kulhon tavarat pudotetaan koriin yksi kerrallaan kankaan raosta.",
+        "Montako korissa on, ei näy missään, joten lapsi ei voi laskea kaikkea uudelleen ykkösestä. Ainoa tie vastaukseen on aloittaa kankaan luvusta ja laskea eteenpäin jokaisen pudotetun tavaran kohdalla: ”8 … 9, 10, 11”. Lapsi valitsee itse, kumman kulhon hän kaataa ensin, ja kulholla, jossa on enemmän, se käy nopeammin. Sen lapset huomaavat omin käsin.",
+        "Jos vastaus ei ole oikein, eteenpäin laskemisen luvut ilmestyvät pudotettujen tavaroiden yläpuolelle, alkaen kankaan lukua seuraavasta. Toisella yrityksellä kangas nousee, ja kaikki on kymppiruudukon riveissä kahdella värillä. Neljä tehtävää: etsi kokonaisuus 20:een asti, hajotelmat 10:een asti, täydennä kokonaisuudeksi (pudota, kunnes kori on täynnä) ja 20:een asti. Osat voivat olla kuvia, noppapisteitä tai kymppiruudukoita. Opetussuunnitelman mukaisesti, luvut ja laskutoimitukset. Ilman ajanottoa ja ilman pisteitä."
       ],
       "practices": [
-        "Lukee osa–osa–kokonaisuus-lukukolmion kaksi osaa.",
-        "Kokoaa osat yhteen löytääkseen kokonaisuuden kahteenkymmeneen asti.",
-        "Jatkaa laskemista suuremmasta osasta laskeakseen tehokkaammin.",
-        "Kirjoittaa summan, joka nimeää kokonaisuuden."
+        "Kahden osan yhdistäminen ja yhteenlasku",
+        "Eteenpäin laskeminen luvusta sen sijaan, että laskee kaiken ykkösestä",
+        "Suuremmalla osalla aloittaminen, jotta eteenpäin laskettavaa on vähemmän",
+        "Hajotelman kokonaisuuden ja puuttuvan osan löytäminen"
       ],
       "howToPlay": [
-        "Katso lukukolmion kahta osaa, kuten 7 + 4.",
-        "Laske, montako niitä on yhteensä, ja kirjoita summa, paina sitten Tarkista-painiketta.",
-        "Eikö osunut oikeaan? Voit yrittää uudelleen niin usein kuin haluat — ei ajastinta eikä pisteitä."
+        "Napauta kulhoa, niin se kaadetaan koriin. Katso, kun lappu laskee tavarat; sitten kangas peittää ne.",
+        "Napauta toista kulhoa, niin sen tavarat pudotetaan yksi kerrallaan raosta. Laske eteenpäin kankaan luvusta.",
+        "Näppäile numeronäppäimillä, montako niitä on yhteensä, ja paina rastia. Pitkä painallus kankaalla nostaa kulman kurkistusta varten; pyöreä nuoli tyhjentää korin.",
+        "Asetuksista valitset tehtävän (etsi kokonaisuus, hajotelmat 10:een asti, täydennä kokonaisuudeksi, 20:een asti) ja sen, miltä osat näyttävät (kuvina, pisteinä, kymppiruudukkoina)."
       ],
       "learningGoals": [
-        "Lapsi osaa laskea kaksi lukua yhteen kahteenkymmeneen asti kokoamalla osat yhteen.",
-        "Lapsi lukee osa–osa–kokonaisuus-lukukolmion ja löytää puuttuvan kokonaisuuden.",
-        "Lapsi jatkaa laskemista suuremmasta luvusta laskeakseen nopeammin."
+        "Laskea yhteen kaksi lukua 20:een asti yhdistämällä osat",
+        "Laskea eteenpäin ensimmäisestä osasta sen sijaan, että laskee kaiken",
+        "Löytää hajotelman kokonaisuus 10:een ja 20:een asti",
+        "Löytää osa, joka puuttuu kokonaisuudesta"
       ]
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {

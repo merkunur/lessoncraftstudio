@@ -780,25 +780,27 @@
     },
     "numberbond.find-the-total.1-oa-a-1": {
       "about": [
-        "Et tallvenn-bilde viser to deler, som 7 og 4, og barnet finner hvor mange det er til sammen — teller delene sammen og skriver det hele. Det er en interaktiv matteaktivitet for 1. trinn som kjøres rett i nettleseren uten registrering.",
-        "Det hele sitter øverst og de to delene under, så det å «sette sammen» blir noe barnet kan se. Barnet kan telle videre fra den største delen eller bare kunne tallfaktaet; prikkene i hver del er der til å telle når et stykke ennå ikke sitter helt. Svaret er det hele øverst i tallvennen.",
-        "Aktiviteten følger LK20 innenfor tall og regning på 1. trinn — å bruke addisjon til å sette sammen og legge til opp til 20. Ingen tidtaker, ingen poeng, bare rolig og lekende øving."
+        "To boller med ting og én kurv. Barnet heller den ene bollen i kurven: Kurven teller tingene på lappen sin mens de faller oppi, så legger en rutete duk seg over dem, og bare tallet blir synlig. Den andre bollen puttes oppi én ting om gangen gjennom en sprekk i duken.",
+        "Hvor mange som er i kurven så langt, vises aldri, så barnet kan ikke telle alt på nytt fra 1. Den eneste veien til svaret er å begynne på tallet på duken og telle videre for hver ting, «8 … 9, 10, 11». Barnet velger selv hvilken bolle som helles oppi først, og det går fortere med bollen med flest ting i. Det finner barna ut med sine egne hender.",
+        "Er svaret ikke riktig, kommer tallene å telle videre med fram over tingene som er puttet oppi, fra tallet etter det på duken. Ved andre forsøk løftes duken, og alt ligger i rader i tierammer, i to farger. Fire oppgaver: finn summen opp til 20, oppdeling opp til 10, fyll opp til helheten (putt oppi til kurven er full) og opp til 20. Delene kan være bilder, terningprikker eller tierammer. I tråd med LK20 om tall og telling. Uten tidtaking og uten poeng."
       ],
       "practices": [
-        "Lese de to delene i en del-del-hel-tallvenn.",
-        "Sette delene sammen for å finne det hele opp til 20.",
-        "Telle videre fra den største delen for å legge sammen mer effektivt.",
-        "Skrive antallet som er det hele."
+        "Å legge sammen to deler",
+        "Å telle videre fra et tall i stedet for å telle alt fra 1",
+        "Å begynne med den største delen, så man teller færre videre",
+        "Å finne helheten i en oppdeling og delen som mangler"
       ],
       "howToPlay": [
-        "Se på de to delene i tallvennen, som 7 + 4.",
-        "Tell hvor mange det er til sammen, skriv det hele, og trykk så på Sjekk.",
-        "Ikke helt riktig? Prøv igjen så ofte du vil — det er ingen tidtaker og ingen poeng."
+        "Trykk på en bolle for å helle den i kurven. Se lappen telle tingene; så dekker duken dem.",
+        "Trykk på den andre bollen for å putte tingene oppi én om gangen gjennom sprekken. Tell videre fra tallet på duken.",
+        "Skriv på talltastene hvor mange det er til sammen, og trykk på haken. Et langt trykk på duken løfter et hjørne så du kan kikke; den runde pila tømmer kurven.",
+        "I innstillingene velger du oppgave (finn summen, oppdeling opp til 10, fyll opp til helheten, opp til 20) og hvordan delene ser ut (bilder, prikker, tierammer)."
       ],
       "learningGoals": [
-        "Barnet kan legge sammen to tall opp til 20 ved å sette delene sammen.",
-        "Barnet kan lese en del-del-hel-tallvenn og finne det hele som mangler.",
-        "Barnet kan telle videre fra det største tallet for å legge sammen raskere."
+        "Å addere to tall opp til 20 ved å legge sammen delene",
+        "Å telle videre fra den første delen i stedet for å telle alt",
+        "Å finne helheten i en oppdeling opp til 10 og opp til 20",
+        "Å finne delen som mangler for å få helheten"
       ]
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {

@@ -1011,25 +1011,27 @@
     },
     "numberbond.find-the-total.1-oa-a-1": {
       "about": [
-        "Find det hele viser en taldeling med to dele, som 7 og 4, og barnet finder ud af, hvor mange der er i alt — det tæller delene sammen og skriver det hele. Det er en interaktiv matematikaktivitet til 1. klasse, der kører direkte i browseren uden oprettelse.",
-        "Det hele sidder øverst, og de to dele sidder nedenunder, så det at \"lægge sammen\" bliver til noget, barnet kan se. Det kan tælle videre fra den største del eller bare kende stykket; prikkerne i hver del er der til at tælle, hvis stykket ikke sidder helt fast endnu. Svaret er det hele øverst i taldelingen, og delene lægges sammen op til 20.",
-        "Aktiviteten følger Fælles Mål inden for området tal og algebra: at bruge addition til at lægge sammen inden for 20. Den passer til 1. klasse. Der er ingen timer og ingen point — bare rolig, legende øvelse."
+        "To skåle med ting og én kurv. Barnet hælder den ene skål i kurven: Kurven tæller tingene på sit mærke, mens de falder i, så lægger en ternet dug sig over dem, og kun tallet bliver synligt. Den anden skål kommer i én ting ad gangen gennem en sprække i dugen.",
+        "Hvor mange der er i alt indtil nu, bliver aldrig vist, så barnet kan ikke tælle det hele forfra fra 1. Den eneste vej til resultatet er at starte ved tallet på dugen og tælle videre for hver ting, »8 … 9, 10, 11«. Barnet vælger selv, hvilken skål der hældes i først, og det går hurtigere med den skål, der er flest ting i. Det finder børnene ud af med deres egne hænder.",
+        "Er svaret ikke rigtigt, dukker tallene til at tælle videre op over de ting, der er puttet i, startende med tallet efter det på dugen. Ved andet forsøg løfter dugen sig, og alt ligger i rækker i tierrammer i to farver. Fire opgaver: find det hele op til 20, taldeling op til 10, fyld op til det hele (put i, til kurven er fuld) og til 20. Delene kan være billeder, terningprikker eller tierrammer. I tråd med Fælles Mål for tal og algebra. Uden tidtagning og uden point."
       ],
       "practices": [
-        "Aflæse de to dele i en del-del-hel taldeling",
-        "Lægge delene sammen og finde det hele inden for 20",
-        "Tælle videre fra den største del for at lægge mere effektivt sammen",
-        "Skrive det tal, der er det hele"
+        "At lægge to dele sammen",
+        "At tælle videre fra et tal i stedet for at tælle det hele fra 1",
+        "At starte med den største del, så man skal tælle færre videre",
+        "At finde det hele i en taldeling og den del, der mangler"
       ],
       "howToPlay": [
-        "Barnet ser på de to dele i taldelingen, som 7 og 4.",
-        "Barnet tæller, hvor mange der er i alt, skriver det hele og trykker derefter på Tjek.",
-        "Er det ikke helt rigtigt, kan barnet prøve igen, så mange gange det vil — der er ingen timer og ingen point."
+        "Tryk på en skål for at hælde den i kurven. Se mærket tælle tingene, og så dækker dugen dem.",
+        "Tryk på den anden skål for at putte dens ting i én ad gangen gennem sprækken. Tæl videre fra tallet på dugen.",
+        "Tast på talknapperne, hvor mange der er i alt, og tryk på fluebenet. Et langt tryk på dugen løfter et hjørne, så du kan kigge; den runde pil tømmer kurven.",
+        "I indstillingerne vælger du opgaven (find det hele, taldeling op til 10, fyld op til det hele, til 20), og hvordan delene ser ud (billeder, prikker, tierrammer)."
       ],
       "learningGoals": [
-        "Barnet kan lægge to tal sammen inden for 20 ved at lægge delene sammen",
-        "Barnet kan aflæse en del-del-hel taldeling og finde det manglende hele",
-        "Barnet kan tælle videre fra det største tal for at lægge hurtigere sammen"
+        "At lægge to tal op til 20 sammen ved at sætte delene sammen",
+        "At tælle videre fra den første del i stedet for at tælle det hele",
+        "At finde det hele i en taldeling op til 10 og op til 20",
+        "At finde den del, der mangler for at nå det hele"
       ]
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {

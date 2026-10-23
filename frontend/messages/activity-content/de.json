@@ -3520,25 +3520,27 @@
     },
     "numberbond.find-the-total.1-oa-a-1": {
       "about": [
-        "Ein Zahlenbild zeigt zwei Teile, etwa 7 und 4, und das Kind findet heraus, wie viele es zusammen sind — es zählt die Teile zusammen und tippt die Gesamtzahl ein. Diese interaktive Mathe-Übung für die 1. Klasse läuft ohne Anmeldung direkt im Browser.",
-        "Das Ganze sitzt oben und die zwei Teile darunter, sodass das „Zusammensetzen\" für das Kind sichtbar wird. Es kann vom größeren Teil aus weiterzählen oder die Aufgabe einfach wissen; die Punkte in jedem Teil sind zum Mitzählen da, wenn eine Aufgabe noch nicht sicher sitzt. Die Antwort ist das Ganze oben im Zahlenbild.",
-        "Die Aktivität ist an den Lehrplänen für die 1. Klasse ausgerichtet — mit Addition zusammensetzen und im Zahlenraum bis 20 addieren. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+        "Zwei Schalen mit Dingen und ein Korb. Das Kind schüttet eine Schale in den Korb: Der Korb zählt die Dinge auf seinem Schild, während sie hineinfallen, dann legt sich ein kariertes Tuch darüber, und nur die Zahl bleibt sichtbar. Die andere Schale kommt Stück für Stück durch einen Schlitz im Tuch dazu.",
+        "Die laufende Anzahl wird nie angezeigt, deshalb kann das Kind nicht alles noch einmal von eins an zählen. Zum Ergebnis führt nur ein Weg: bei der Zahl auf dem Tuch anfangen und bei jedem Ding weiterzählen, „8 … 9, 10, 11“. Welche Schale zuerst in den Korb kommt, entscheidet das Kind, und mit der Schale, in der mehr liegt, geht es schneller. Das finden die Kinder mit ihren eigenen Händen heraus.",
+        "Stimmt die Antwort nicht, erscheinen die Weiterzählzahlen über den hineingesteckten Dingen, beginnend mit der Zahl nach der auf dem Tuch. Beim zweiten Versuch hebt sich das Tuch, und alles liegt in Zehnerfeld-Reihen in zwei Farben. Vier Aufgaben: das Ganze bis 20 finden, Zerlegungen bis 10, das Ganze auffüllen (hineinstecken, bis der Korb voll ist) und bis 20. Die Teile können Bilder, Würfelpunkte oder Zehnerfelder sein. Passend zum Lehrplan im Bereich Zahlen und Operationen. Ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "Die zwei Teile eines Teil-Teil-Ganzes-Zahlenbildes lesen.",
-        "Die Teile zusammensetzen, um das Ganze bis 20 zu finden.",
-        "Vom größeren Teil aus weiterzählen, um geschickter zu addieren.",
-        "Die Gesamtzahl eintippen, die das Ganze benennt."
+        "Zwei Teile zusammenfügen und addieren",
+        "Von einer Zahl aus weiterzählen, statt alles von eins an zu zählen",
+        "Mit dem größeren Teil anfangen, damit man weniger weiterzählen muss",
+        "Das Ganze einer Zerlegung finden und den Teil, der zum Ganzen fehlt"
       ],
       "howToPlay": [
-        "Schau dir die zwei Teile im Zahlenbild an, etwa 7 + 4.",
-        "Zähle, wie viele es zusammen sind, tippe die Gesamtzahl ein und drücke dann auf Prüfen.",
-        "Noch nicht ganz richtig? Probiere es so oft du möchtest — es gibt keinen Timer und keine Punkte."
+        "Tippe auf eine Schale, um sie in den Korb zu schütten. Sieh zu, wie das Schild die Dinge zählt, dann deckt das Tuch sie zu.",
+        "Tippe auf die andere Schale, um ihre Dinge einzeln durch den Schlitz zu stecken. Zähl von der Zahl auf dem Tuch aus weiter.",
+        "Tippe auf den Zahlentasten ein, wie viele es zusammen sind, und drück auf den Haken. Wenn du lange auf das Tuch drückst, hebt sich eine Ecke zum Hineinschauen; der runde Pfeil leert den Korb.",
+        "In den Einstellungen wählst du die Aufgabe (das Ganze finden, Zerlegungen bis 10, das Ganze auffüllen, bis 20) und wie die Teile aussehen (Bilder, Würfelpunkte, Zehnerfelder)."
       ],
       "learningGoals": [
-        "Zwei Zahlen bis 20 addieren, indem man die Teile zusammensetzt.",
-        "Ein Teil-Teil-Ganzes-Zahlenbild lesen und das fehlende Ganze finden.",
-        "Vom größeren Teil aus weiterzählen, um schneller zu addieren."
+        "Zwei Zahlen bis 20 addieren, indem man die Teile zusammenfügt",
+        "Vom ersten Teil aus weiterzählen, statt alles zu zählen",
+        "Das Ganze einer Zerlegung bis 10 und bis 20 finden",
+        "Den Teil finden, der zum Ganzen fehlt"
       ]
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {

@@ -2889,25 +2889,27 @@
     },
     "numberbond.find-the-total.1-oa-a-1": {
       "about": [
-        "Une maison des nombres montre deux parties, par exemple 7 et 4, et l'enfant cherche combien il y en a en tout — il réunit les parties et tape le total. C'est une activité de maths interactive pour le CP, qui se joue directement dans le navigateur, sans inscription.",
-        "Le tout est placé en haut et les deux parties en dessous, si bien que « réunir » devient quelque chose que l'enfant peut voir. Il peut surcompter à partir de la plus grande partie ou simplement connaître le résultat ; les jetons de chaque partie sont là pour être comptés quand un calcul n'est pas encore automatique. La réponse, c'est le tout, en haut de la maison des nombres.",
-        "Cette activité de CP est alignée sur les programmes officiels : utiliser l'addition pour réunir et ajouter jusqu'à 20. Aucun minuteur, aucun score — juste une pratique calme et ludique."
+        "Deux bols remplis d’objets et un panier. L’enfant verse un bol dans le panier. Le panier compte les objets sur son étiquette pendant qu’ils tombent, puis un tissu à carreaux les recouvre et seul le nombre reste visible. L’autre bol entre objet par objet par une fente dans le tissu.",
+        "Combien il y en a déjà n’est jamais affiché, donc l’enfant ne peut pas tout recompter à partir de 1. Le seul chemin vers le total, c’est de partir du nombre sur le tissu et de continuer à compter à chaque objet glissé, « 8… 9, 10, 11 ». C’est l’enfant qui choisit le bol à verser en premier, et avec celui qui en contient le plus, cela va plus vite. Les enfants le découvrent de leurs propres mains.",
+        "Si la réponse n’est pas juste, les nombres pour continuer de compter apparaissent au-dessus des objets glissés, à partir de celui qui suit le nombre du tissu. Au deuxième essai, le tissu se soulève et tout est rangé en lignes de cadres de dix, en deux couleurs. Quatre tâches : trouver le total jusqu’à 20, décompositions jusqu’à 10, compléter le tout (glisser jusqu’à ce que le panier soit plein) et jusqu’à 20. Les parties peuvent être des images, des points de dé ou des cadres de dix. En lien avec les programmes officiels pour les nombres et le calcul. Sans chronomètre et sans points."
       ],
       "practices": [
-        "Lire les deux parties d'une maison des nombres (parties et tout).",
-        "Réunir les parties pour trouver le tout jusqu'à 20.",
-        "Surcompter à partir de la plus grande partie pour ajouter plus efficacement.",
-        "Taper le total qui nomme le tout."
+        "Additionner deux parties en les réunissant",
+        "Compter à partir d’un nombre au lieu de tout recompter depuis 1",
+        "Commencer par la plus grande partie pour compter moins",
+        "Trouver le tout d’une décomposition et la partie qui manque"
       ],
       "howToPlay": [
-        "Regarde les deux parties de la maison des nombres, par exemple 7 + 4.",
-        "Compte combien il y en a en tout et tape le total, puis appuie sur « Vérifier ».",
-        "Pas tout à fait ? Recommence autant de fois que tu veux — il n'y a ni minuteur, ni score."
+        "Touche un bol pour le verser dans le panier. Regarde l’étiquette compter les objets, puis le tissu les recouvre.",
+        "Touche l’autre bol pour glisser ses objets un par un dans la fente. Continue de compter à partir du nombre sur le tissu.",
+        "Tape sur les touches combien il y en a en tout et appuie sur la coche. Un appui long sur le tissu soulève un coin pour jeter un œil. La flèche ronde vide le panier.",
+        "Dans les réglages, choisis la tâche (trouver le total, décompositions jusqu’à 10, compléter le tout, jusqu’à 20) et l’aspect des parties (images, points, cadres de dix)."
       ],
       "learningGoals": [
-        "Additionner deux nombres jusqu'à 20 en réunissant les parties.",
-        "Lire une maison des nombres et trouver le tout manquant.",
-        "Surcompter à partir du plus grand nombre pour additionner plus vite."
+        "Additionner deux nombres jusqu’à 20 en réunissant les parties",
+        "Compter à partir de la première partie au lieu de tout compter",
+        "Trouver le tout d’une décomposition jusqu’à 10 et jusqu’à 20",
+        "Trouver la partie qui manque pour obtenir le tout"
       ]
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {

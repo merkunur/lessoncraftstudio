@@ -1526,25 +1526,27 @@
     },
     "numberbond.find-the-total.1-oa-a-1": {
       "about": [
-        "Juntar duas partes e descobrir quantos há ao todo é o que a criança faz nesta atividade interativa de matemática para o 1º ano. Um diagrama de partes e todo mostra duas partes, como 7 e 4, e a criança junta as partes e digita o total. Tudo roda no navegador, sem cadastro.",
-        "O todo fica no alto e as duas partes embaixo, então 'juntar' vira algo que a criança consegue ver. Ela pode contar a partir da parte maior ou simplesmente já saber o fato; as bolinhas de cada parte estão ali para contar quando o fato ainda não é automático. A resposta é o todo, no topo do diagrama (adição até 20, juntando e compondo).",
-        "A atividade está alinhada à BNCC, no uso da adição para juntar e somar até 20. Sem cronômetro e sem pontuação — é prática calma e divertida."
+        "Duas tigelas com coisas e um cesto. A criança despeja uma tigela no cesto: o cesto conta as coisas na etiqueta enquanto elas caem, depois um pano xadrez cobre tudo e só o número fica à vista. A outra tigela entra uma coisa de cada vez por uma fenda no pano.",
+        "Quantas já entraram nunca aparece, então a criança não consegue contar tudo de novo desde o 1. O único caminho até o total é começar pelo número do pano e continuar contando a cada coisa que entra: “8… 9, 10, 11”. A criança escolhe qual tigela despeja primeiro, e com a que tem mais fica mais rápido. Isso elas descobrem com as próprias mãos.",
+        "Se a resposta não estiver certa, os números para continuar contando aparecem sobre as coisas que entraram, começando pelo que vem depois do número do pano. Na segunda tentativa o pano se levanta e tudo fica em fileiras de quadros de dez, em duas cores. Quatro tarefas: encontrar o total até 20, partes e todo até 10, completar o todo (colocar até o cesto ficar cheio) e até 20. As partes podem ser figuras, pontinhos de dado ou quadros de dez. De acordo com a BNCC, na unidade de números. Sem cronômetro e sem pontos."
       ],
       "practices": [
-        "Ler as duas partes de um diagrama de partes e todo.",
-        "Juntar as partes para encontrar o todo até 20.",
-        "Contar a partir da parte maior para somar com mais agilidade.",
-        "Digitar o total que nomeia o todo."
+        "Somar duas partes juntando-as",
+        "Continuar contando a partir de um número em vez de contar tudo desde o 1",
+        "Começar pela parte maior para contar menos",
+        "Encontrar o todo de um diagrama de partes e a parte que falta"
       ],
       "howToPlay": [
-        "Olhe as duas partes do diagrama, como 7 + 4.",
-        "Conte quantos há ao todo e digite o total, depois toque em Verificar.",
-        "Errou? Tente de novo quantas vezes quiser — não há cronômetro nem pontuação."
+        "Toque numa tigela para despejá-la no cesto. Veja a etiqueta contar as coisas; depois o pano cobre tudo.",
+        "Toque na outra tigela para colocar as coisas uma de cada vez pela fenda. Continue contando a partir do número do pano.",
+        "Digite nas teclas de números quantas são ao todo e toque no visto. Se você segurar o dedo no pano, uma ponta se levanta para espiar; a seta redonda esvazia o cesto.",
+        "Nas configurações, escolha a tarefa (encontrar o total, partes e todo até 10, completar o todo, até 20) e como as partes aparecem (figuras, pontinhos, quadros de dez)."
       ],
       "learningGoals": [
-        "A criança aprende a somar dois números até 20 juntando as partes.",
-        "A criança lê um diagrama de partes e todo e encontra o todo que falta.",
-        "A criança conta a partir do número maior para somar mais depressa."
+        "Somar dois números até 20 juntando as partes",
+        "Continuar contando a partir da primeira parte em vez de contar tudo",
+        "Encontrar o todo de um diagrama de partes até 10 e até 20",
+        "Encontrar a parte que falta para completar o todo"
       ]
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {

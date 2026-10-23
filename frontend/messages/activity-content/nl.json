@@ -3724,25 +3724,27 @@
     },
     "numberbond.find-the-total.1-oa-a-1": {
       "about": [
-        "Een splitsing laat twee delen zien, zoals 7 en 4, en het kind zoekt hoeveel het er in totaal zijn — de delen samen tellen en het totaal intypen. Het is een interactieve rekenactiviteit voor groep 3 die direct in de browser speelt, zonder registratie.",
-        "Het geheel staat bovenaan en de twee delen eronder, zodat 'samenvoegen' iets wordt wat het kind kan zien. Het kind kan doortellen vanaf het grootste deel of de som gewoon weten; de stippen in elk deel staan er om te tellen wanneer een som nog niet is geautomatiseerd. Het antwoord is het geheel bovenaan de splitsing.",
-        "De activiteit sluit aan bij de SLO-kerndoelen binnen het domein Getallen en bewerkingen: optellen gebruiken om samen te voegen tot 20. Dit hoort bij groep 3 (6-7 jaar). Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Twee schalen met dingen en één mand. Het kind giet één schaal in de mand: de mand telt de dingen op haar kaartje terwijl ze erin vallen, dan valt er een geruite doek overheen en blijft alleen het getal zichtbaar. De andere schaal gaat er één voor één bij, door een gleuf in de doek.",
+        "Hoeveel er al in zitten, staat nergens, dus het kind kan niet alles opnieuw vanaf één tellen. De enige weg naar het totaal: beginnen bij het getal op de doek en bij elk ding verder tellen, ‘8 … 9, 10, 11’. Welke schaal eerst gaat, kiest het kind zelf, en met de schaal waar de meeste dingen in zitten gaat het sneller. Dat ontdekken kinderen met hun eigen handen.",
+        "Is het antwoord niet goed, dan verschijnen de doortelgetallen boven de dingen die erin gestopt zijn, te beginnen bij het getal na dat op de doek. Bij een tweede poging gaat de doek omhoog en liggen alle dingen in rijen van een tienvak, in twee kleuren. Vier opdrachten: het totaal tot 20 vinden, splitsen tot 10, aanvullen tot het geheel (erin stoppen tot de mand vol is) en tot 20. De delen kunnen plaatjes, stippen of tienvakken zijn. Passend bij de kerndoelen voor getallen en bewerkingen. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "De twee delen van een splitsing (deel-deel-geheel) lezen",
-        "De delen samenvoegen om het geheel tot 20 te vinden",
-        "Doortellen vanaf het grootste deel om sneller op te tellen",
-        "Het totaal intypen dat het geheel benoemt"
+        "Twee delen samenvoegen en optellen",
+        "Verder tellen vanaf een getal in plaats van alles vanaf één te tellen",
+        "Beginnen met het grootste deel, zodat je minder hoeft door te tellen",
+        "Het geheel van een splitsing vinden en het deel dat nog ontbreekt"
       ],
       "howToPlay": [
-        "Bekijk de twee delen in de splitsing, zoals 7 en 4.",
-        "Tel hoeveel het er in totaal zijn en typ het totaal in, en druk daarna op Controleer.",
-        "Niet helemaal goed? Probeer het zo vaak als je wilt opnieuw — er is geen timer en geen score."
+        "Tik op een schaal om hem in de mand te gieten. Kijk hoe het kaartje de dingen telt; dan dekt de doek ze toe.",
+        "Tik op de andere schaal om de dingen één voor één door de gleuf te stoppen. Tel verder vanaf het getal op de doek.",
+        "Tik op de cijfertoetsen hoeveel het er samen zijn en druk op het vinkje. Druk lang op de doek om onder een hoekje te kijken; de ronde pijl maakt de mand leeg.",
+        "In de instellingen kies je de opdracht (het totaal vinden, splitsen tot 10, aanvullen tot het geheel, tot 20) en hoe de delen eruitzien (plaatjes, stippen, tienvakken)."
       ],
       "learningGoals": [
-        "Het kind telt twee getallen tot 20 op door de delen samen te voegen.",
-        "Het kind leest een splitsing en vindt het ontbrekende geheel.",
-        "Het kind telt door vanaf het grootste getal om sneller op te tellen."
+        "Twee getallen tot 20 optellen door de delen samen te voegen",
+        "Verder tellen vanaf het eerste deel in plaats van alles te tellen",
+        "Het geheel van een splitsing tot 10 en tot 20 vinden",
+        "Het deel vinden dat ontbreekt om het geheel te maken"
       ]
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {

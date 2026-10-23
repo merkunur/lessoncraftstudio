@@ -2844,25 +2844,27 @@
     },
     "numberbond.find-the-total.1-oa-a-1": {
       "about": [
-        "A number bond shows two parts, like 7 and 4, and children find how many there are in all — counting the parts together and typing the total. It's an interactive Grade 1 math activity that runs right in the browser with no sign-up.",
-        "The whole sits at the top and the two parts below, so 'putting together' becomes something the child can see. They can count on from the larger part or just know the fact; the dots in each part are there to count when a fact is not yet fluent. The answer is the whole at the top of the bond.",
-        "It is aligned to Common Core 1.OA.A.1 — using addition to put together and add within 20. No timer, no score — just calm, playful practice."
+        "Two bowls of things and one basket. The child pours one bowl into the basket: the basket counts the things on its tag as they fall in, then a checked cloth drops over them and only the number stays. The other bowl goes in one thing at a time through a slot in the cloth.",
+        "The running count is never shown, so the child cannot count everything again from one. The only way to the total is to start at the number on the cloth and count on as each thing is posted: “8 … 9, 10, 11”. Which bowl to pour first is the child's choice, and pouring the bowl with more is quicker. Children find that out with their own hands.",
+        "When the answer is not right, the counting-on numbers appear over the posted things, starting one after the number on the cloth. On a second try the cloth lifts and everything lies in ten-frame rows in two colours. Four tasks: find the total within 20, bonds within 10, make the whole (post until the basket is full), and bigger totals to 20. The parts can be pictures, dots (like dice) or ten frames. Aligned to Common Core 1.OA.A.1. No timer and no score."
       ],
       "practices": [
-        "Read the two parts of a part-part-whole number bond",
-        "Put the parts together to find the whole within 20",
-        "Count on from the larger part to add more efficiently",
-        "Type the total that names the whole"
+        "Adding two parts by putting them together",
+        "Counting on from a number instead of counting all from one",
+        "Starting with the larger part to count on fewer",
+        "Finding the whole of a number bond, and the part that makes a whole"
       ],
       "howToPlay": [
-        "Look at the two parts in the number bond, like 7 + 4.",
-        "Count how many there are in all and type the total, then press Check.",
-        "Not quite? Try again as often as you like — there is no timer and no score."
+        "Tap a bowl to pour it into the basket. Watch the tag count the things, then the cloth covers them.",
+        "Tap the other bowl to post its things one at a time through the slot. Count on from the number on the cloth.",
+        "Type how many there are in all on the number keys and press the tick. A long press on the cloth lifts one corner for a peek; the round arrow empties the basket.",
+        "In the settings, choose the task (find the total, bonds within 10, make the whole, bigger totals to 20) and what the parts look like (pictures, dots, ten frames)."
       ],
       "learningGoals": [
-        "Add two numbers within 20 by putting the parts together — the focus of Common Core 1.OA.A.1",
-        "Read a part-part-whole number bond and find the missing whole",
-        "Count on from the larger number to add more quickly"
+        "Add two numbers within 20 by putting the parts together",
+        "Count on from the first part instead of counting all",
+        "Find the whole of a number bond within 10 and within 20",
+        "Find the part that is missing to make a whole"
       ]
     },
     "numberbond.make-ten-to-add.1-oa-c-6": {

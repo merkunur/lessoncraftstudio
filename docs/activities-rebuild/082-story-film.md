@@ -37,6 +37,9 @@ ORDER row 82 · id `vet-diagnosis.word-problems.1-oa-a-1` (kept). Design: `desig
 | visual-qa | 96 renders green |
 | hierarchy | 626 / 0 |
 | settings-efficacy | 2 live |
+| preflight, prose-claims, serp-copy | green |
+| variety (production, en) | 16 distinct, pass 2 reshuffled |
+| live-verify-story-film (11 pages 200; en/de/sv/fi × 1366/390, real pointer: place, mark, a wrong dial, heal) | 67 / 0 (first run inside the Cloudflare window failed the de/sv/fi embeds) |
 
 ## Open (page metadata — for the operator)
 - Frozen intros: nl «tikt het antwoord in» and it «infine digita la risposta» (the answer is dialled, not typed); es «con el zorro veterinario» / pt «com a raposa veterinária» (the vet is never named, the patients change); «ohne Anmeldung» (de), «sin registro» (es), «senza registrazione» (it), «Jogo sem cadastro» (pt), «sans inscription» (fr) — no-sign-up claims. Not changed — metadata.

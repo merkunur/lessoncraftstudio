@@ -25,6 +25,8 @@
    also_teaches empty; >=7 distinct rounds; >=1 subtraction-bridge + >=1 non-
    crossing guard + >=1 choose-anchor + >=1 near-double.
    ===================================================================== */
+/* Row 86 rebuild (2026-10-23): the row runs the Sunken Stones (sunken-stones-activity; gates verify-sunken-stones-core.js + local-test-sunken-stones.js) and no page loads the old Ten Stones files any more. */
+{ const _m = JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'ten-stones-activities.json'), 'utf8')); const _r = (Array.isArray(_m) ? _m : _m.activities).find(a => a.id === 'ten-stones.add-sub-within-20.1-oa-c-6'); if (_r && _r.tool !== 'ten-stones-activity') { console.log('verify-ten-stones-core: the row runs the Sunken Stones — see verify-sunken-stones-core.js / local-test-sunken-stones.js. Nothing to check here.'); process.exit(0); } }
 'use strict';
 const fs = require('fs');
 const path = require('path');

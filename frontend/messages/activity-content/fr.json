@@ -1901,25 +1901,27 @@
     },
     "ten-stones.add-sub-within-20.1-oa-c-6": {
       "about": [
-        "Lily la grenouille traverse la mare en sautant sur la piste numérique de 0 à 20 : elle se pose d'abord sur le nénuphar doré du dix, puis fait le bond qui reste pour arriver au résultat. Pour 8 + 6, votre enfant aide Lily à sauter jusqu'à 10 (8 + 2 = 10), puis à faire encore quatre bonds pour se poser sur 14. Ce sont deux bonds bien visibles sur la droite graduée, pas une règle abstraite à retenir.",
-        "L'idée forte du CP est ici « le passage de la dizaine » en calcul mental jusqu'à 20, en avant pour l'addition comme en arrière pour la soustraction : pour 13 − 4, Lily recule d'abord jusqu'à 10 (13 − 3), puis fait le dernier bond en arrière pour arriver à 9. En chemin, votre enfant découvre de premières stratégies utiles : commencer par le plus grand nombre, s'appuyer sur un double proche (7 + 8, c'est presque 7 + 7) et remarquer les familles d'opérations (8 + 6 = 14 va avec 14 − 6 = 8).",
-        "Cette activité se joue sans compte, sans minuteur et sans points. Elle suit les « programmes officiels » du CP dans le domaine « Nombres et calcul » (calcul mental, le passage de la dizaine) et laisse votre enfant avancer à son rythme. C'est une vraie stratégie à comprendre, pas une course contre la montre."
+        "La grenouille Lily traverse une mare sur une piste numérique de 0 à 20. Le nombre à ajouter ou à enlever pend au-dessus de la mare comme une ficelle de perles. L’enfant tire Lily en arrière comme un lance-pierre, une perle par pierre, et la lâche, ou touche une pierre devant elle. Chaque saut consomme autant de perles qu’il franchit de pierres.",
+        "Les pierres de l’autre côté de dix sont sous l’eau tant que Lily n’est pas sur la pierre dorée du dix. Un saut qui passe par-dessus dix tombe dans l’eau et Lily revient à la nage ; cela ne compte jamais comme une erreur. Ainsi, 8 + 6 devient d’abord 8 + 2 jusqu’à la pierre du dix, puis les 4 perles qui restent. La bande du calcul note chaque saut, et l’enfant tape la pierre où Lily atterrit.",
+        "Dans certaines manches, on enlève (13 − 4, c’est 13 − 3 − 1) ; dans d’autres, l’enfant choisit le départ le plus facile (3 + 8 ou 8 + 3) ; et les manches de la rive demandent combien il reste jusqu’à la rive du 20. Après une première erreur, les pierres entre la pierre du dix et Lily sont comptées ; après une deuxième, ses sauts apparaissent en arcs avec leur longueur. En lien avec les programmes officiels pour les nombres et le calcul. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Passer par 10 : sauter jusqu'au nénuphar du dix, puis faire le bond qui reste.",
-        "Trouver le complément à 10 (8 + 2, 7 + 3, 9 + 1) pour préparer le premier bond.",
-        "Additionner et soustraire jusqu'à 20 en passant par la dizaine, en avant comme en arrière.",
-        "Utiliser de premières stratégies : commencer par le plus grand nombre, s'appuyer sur un double proche, reconnaître les familles d'opérations."
+        "Additionner jusqu’à 20 en s’arrêtant à dix : 8 + 6 = 8 + 2 + 4",
+        "Soustraire jusqu’à 20 en revenant à dix : 13 − 4 = 13 − 3 − 1",
+        "Choisir le départ le plus facile : 3 + 8, c’est pareil que 8 + 3",
+        "Trouver les compléments à 20"
       ],
       "howToPlay": [
-        "Lisez l'opération de Lily et observez ensemble la piste numérique de 0 à 20, avec le nénuphar doré posé sur le 10.",
-        "Aidez Lily bond par bond : d'abord le saut jusqu'à 10, puis le saut jusqu'au résultat (en arrière pour une soustraction).",
-        "Vérifiez la réponse, puis recommencez autant de fois que vous le souhaitez, sans aucune pression."
+        "Tire Lily en arrière, à l’opposé de là où elle doit aller, et lâche-la : elle saute une pierre par perle sur le ressort. Tu peux aussi toucher une pierre devant elle.",
+        "Si elle tombe à l’eau, cette pierre était sous l’eau : saute d’abord jusqu’à la pierre du dix. La flèche ronde annule un saut. Dans les manches de la rive, tomber dans les roseaux veut dire que le saut était trop long.",
+        "Quand la ficelle est vide, tape la pierre où est Lily et appuie sur la coche. Dans les manches de la rive, tape de combien elle a sauté en tout.",
+        "Dans les réglages, choisis les calculs (Additions, ou Additions et soustractions) et les nombres des pierres (Tous les 5 ou Chaque pierre). Chaque pierre est le réglage le plus facile : les nombres se lisent directement."
       ],
       "learningGoals": [
-        "Votre enfant comprend et réalise « le passage de la dizaine » sur la droite graduée, en deux bonds bien identifiés.",
-        "Il trouve les compléments à 10 et calcule aussi bien en avant qu'en arrière jusqu'à 20.",
-        "Il utilise de premières stratégies de calcul réfléchi plutôt que de compter un par un."
+        "Additionner jusqu’à 20 en passant par la dizaine",
+        "Soustraire jusqu’à 20 en passant par la dizaine",
+        "Utiliser le lien entre addition et soustraction",
+        "Connaître les compléments à 20"
       ]
     },
     "clock-digital.read-hour.1-md-b-3": {

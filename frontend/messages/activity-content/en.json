@@ -4243,25 +4243,27 @@
     },
     "ten-stones.add-sub-within-20.1-oa-c-6": {
       "about": [
-        "Lily the frog crosses a pond on a number line by hopping to a golden Ten Stone first, then the rest of the way. To solve 8 + 6, the child builds the make-a-ten part — 8 + 2 makes 10 — and hops the remaining 4 to land on 14; for 13 − 4 she hops back to ten. This interactive Grade 1 math activity mixes addition and subtraction within 20 in the browser with no sign-up.",
-        "This is a strategy activity, not a speed drill. The make-a-ten strategy turns a hard fact into two easy ones by using ten as a friendly stopping point, and the child has to construct each step rather than just read an answer. Working out how much gets Lily to ten, then how far is left, builds the flexible thinking that makes mental addition and subtraction reliable.",
-        "It is aligned to Common Core 1.OA.C.6 — adding and subtracting within 20, using strategies such as making ten and decomposing a number to make a ten. No timer, no score — just calm, playful practice."
+        "Lily the frog crosses a pond on a number line from 0 to 20. The number to add or take away hangs above the pond as a rope of beads. The child pulls Lily back like a slingshot, one bead for each stone, and lets go, or taps a stone ahead of her. Every leap uses up the beads it jumps.",
+        "The stones on the far side of ten are under water until Lily stands on the golden Ten Stone. A leap across ten splashes and Lily swims back, which never counts as a miss. So 8 + 6 has to become 8 + 2 to the Ten Stone, then the 4 beads that are left. The equation strip writes down each leap, and the child types the stone where Lily lands.",
+        "Some rounds take away (13 − 4 is 13 − 3 − 1), some let the child choose the easier start (3 + 8 or 8 + 3), and bank rounds ask how far it is to the bank at 20. After a first miss, the stones between the Ten Stone and Lily are counted; after a second, her leaps appear as arcs with their lengths. Aligned to Common Core 1.OA.C.6. No timer and no score."
       ],
       "practices": [
-        "Making a ten as a first step to add or subtract past ten",
-        "Finding how much is needed to reach the next ten",
-        "Decomposing a number to subtract back to ten",
-        "Using doubles and number relationships as helpful shortcuts"
+        "Adding within 20 by stopping at ten: 8 + 6 = 8 + 2 + 4",
+        "Taking away within 20 by going back to ten: 13 − 4 = 13 − 3 − 1",
+        "Choosing the easier start: 3 + 8 is the same as 8 + 3",
+        "Finding the number bonds to 20"
       ],
       "howToPlay": [
-        "Read the problem, like 8 + 6, and hop Lily to the golden Ten Stone first.",
-        "Build the make-a-ten part, then hop the rest of the way to land on the answer.",
-        "Not quite? Rebuild the hops and try again — there is no timer and no score."
+        "Pull Lily back, away from where she must go, and let go: she leaps one stone for each bead on the spring. You can also tap a stone ahead of her.",
+        "If she splashes, that stone was under water: leap to the Ten Stone first. The round arrow takes back a leap. In bank rounds, a splash in the reeds means the leap was too long.",
+        "When the rope is empty, type the stone Lily is on and press the tick. In bank rounds, type how far she leapt altogether.",
+        "In the settings, choose the facts (Adding, or Adding and taking away) and the stone numbers (Every 5 or Every stone). Every stone is the easier setting: the numbers can be read off."
       ],
       "learningGoals": [
-        "Add and subtract within 20 using make-a-ten strategies — the focus of Common Core 1.OA.C.6",
-        "Use ten as an anchor to break a hard fact into easy steps",
-        "Build the flexible mental-math thinking that fact fluency grows from"
+        "Add within 20 by making a ten",
+        "Subtract within 20 by going back to ten",
+        "Use the link between addition and subtraction",
+        "Know the number bonds to 20"
       ]
     },
     "ten-tank.ten-frame-tank.k-nbt-a-1": {

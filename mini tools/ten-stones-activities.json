@@ -1,7 +1,7 @@
 [
   {
     "id": "ten-stones.add-sub-within-20.1-oa-c-6",
-    "tool": "ten-stones-activity",
+    "tool": "sunken-stones-activity",
     "task_template": "ten-stones",
     "alignment": {
       "framework": "CCSS",
@@ -18,7 +18,10 @@
       "pt": "formar-o-dez-somar-e-subtrair-ate-20-reta-numerica-2-ano",
       "it": "passaggio-della-decina-somme-sottrazioni-entro-20-classe-seconda",
       "nl": "rekenen-over-het-tiental-tot-20-getallenlijn-groep-3",
-      "sv": "rakna-over-tian-pa-tallinjen-ak-1"
+      "sv": "rakna-over-tian-pa-tallinjen-ak-1",
+      "da": "regn-over-tieren-paa-tallinjen",
+      "no": "regn-over-tieren-pa-tallinja",
+      "fi": "kympin-ylitys-lukusuoralla"
     },
     "page_title": {
       "en": "Lily's Ten Stones — Make a Ten to Add & Subtract",
@@ -28,7 +31,10 @@
       "pt": "Lily e a pedra do dez: passar pelo dez, somar e subtrair até 20 — 2º ano",
       "it": "I sassi del dieci di Lily: il passaggio della decina per sommare e sottrarre entro il 20 (classe seconda)",
       "nl": "Ties en de gouden tiensteen — rekenen over het tiental op de getallenlijn (Groep 3)",
-      "sv": "Räkna över tian på tallinjen – addition och subtraktion (åk 1)"
+      "sv": "Räkna över tian på tallinjen – addition och subtraktion (åk 1)",
+      "da": "Regn over tieren på tallinjen – plus og minus til 20 (1. klasse)",
+      "no": "Regn over tieren på tallinja – addisjon og subtraksjon til 20",
+      "fi": "Kympin ylitys lukusuoralla – yhteen- ja vähennyslasku 20:een asti (1. lk)"
     },
     "page_intro": {
       "en": "Help Lily the frog cross the pond on the number line: to add or subtract past ten, first hop to the golden Ten Stone, then the rest. Build the make-a-ten part yourself — 8 + 2 makes 10, then 10 + 4 is 14. A strategy game, not a speed drill. Common Core 1.OA.C.6.",
@@ -38,234 +44,347 @@
       "pt": "Ajude a rã Lily a pular até a pedra dourada do dez na reta numérica e a formar o dez para somar e subtrair até 20. Atividade interativa de 2º ano.",
       "it": "Aiuta la rana Lily ad attraversare lo stagno lungo la linea dei numeri: per sommare o sottrarre oltre il dieci, prima salta sul sasso dorato del dieci e poi fa gli altri passi. Sei tu a costruire il passaggio della decina usando gli amici del 10 — 8 + 2 fa 10, poi 10 + 4 fa 14 — e allo stesso modo si torna indietro per sottrarre. Un'attività di matematica per la classe seconda su addizioni e sottrazioni entro il 20, allineata alle Indicazioni nazionali (nucleo Numeri). È un gioco di strategia, non una gara di velocità: online, senza registrazione, direttamente nel browser.",
       "nl": "Interactief spel: help Ties de kikker over de getallenlijn tot 20 en oefen rekenen over het tiental — eerst naar de gouden tiensteen, dan verder. Optellen én aftrekken. Sluit aan bij de SLO-kerndoelen.",
-      "sv": "Grodan Lily hoppar längs tallinjen 0–20: först fram till guldstenen vid tian, sedan resten av vägen. Addition och subtraktion inom 20 för åk 1, enligt Lgr22."
+      "sv": "Grodan Lily hoppar längs tallinjen 0–20: först fram till guldstenen vid tian, sedan resten av vägen. Addition och subtraktion inom 20 för åk 1, enligt Lgr22.",
+      "da": "Frøen Lily hopper over dammen på tallinjen fra 0 til 20: først hen til tistenen ved 10, så resten af vejen. Barnet øver plus og minus over tieren inden for 20, i tråd med Fælles Mål.",
+      "no": "Frosken Lily hopper over dammen på tallinja fra 0 til 20: først til tisteinen ved 10, så resten av veien. Barnet øver på addisjon og subtraksjon over tieren innenfor 20, i tråd med LK20.",
+      "fi": "Sammakko Lily hyppii lammen yli lukusuoralla 0–20: ensin kymppikivelle ja sitten loppumatka. Lapsi harjoittelee yhteen- ja vähennyslaskua kympin yli 20:n lukualueella opetussuunnitelman mukaisesti."
     },
     "kid_prompt_template": "ten-stones",
     "params": {
-      "rounds": [
-        {
-          "id": "maketen-8-6",
-          "cog": "maketen",
-          "band": 1,
-          "op": "+",
-          "a": 8,
-          "b": 6,
-          "start": 8,
-          "target": 14,
-          "prompt": "8 + 6. Hop to the Ten Stone first: 8 + ⬚ = 10.",
-          "promptL10n": {
-            "de": "8 + 6. Hüpf zuerst zum Zehner-Stein: 8 + ⬚ = 10.",
-            "fr": "8 + 6. Saute d'abord sur le nénuphar du dix : 8 + ⬚ = 10.",
-            "es": "8 + 6. Brinca primero a la piedra del diez: 8 + ⬚ = 10.",
-            "pt": "8 + 6. Primeiro pule até a pedra do dez: 8 + ⬚ = 10.",
-            "it": "8 + 6. Prima salta fino al sasso del dieci: 8 + ⬚ = 10.",
-            "nl": "8 + 6. Hup eerst naar de tiensteen: 8 + ⬚ = 10.",
-            "sv": "8 + 6. Hoppa först till guldstenen: 8 + ⬚ = 10."
-          }
-        },
-        {
-          "id": "maketen-7-5",
-          "cog": "maketen",
-          "band": 1,
-          "op": "+",
-          "a": 7,
-          "b": 5,
-          "start": 7,
-          "target": 12,
-          "prompt": "7 + 5. Make a ten: 7 + ⬚ = 10, then hop the rest.",
-          "promptL10n": {
-            "de": "7 + 5. Mach den Zehner voll: 7 + ⬚ = 10, dann hüpf den Rest.",
-            "fr": "7 + 5. Passe par 10 : 7 + ⬚ = 10, puis saute le reste.",
-            "es": "7 + 5. Forma un diez: 7 + ⬚ = 10 y luego brinca lo que falta.",
-            "pt": "7 + 5. Forme um dez: 7 + ⬚ = 10, depois pule o resto.",
-            "it": "7 + 5. Fai un dieci: 7 + ⬚ = 10, poi salta il resto.",
-            "nl": "7 + 5. Maak het tiental vol: 7 + ⬚ = 10, hup dan de rest.",
-            "sv": "7 + 5. Gör tio: 7 + ⬚ = 10, hoppa sedan resten."
-          }
-        },
-        {
-          "id": "findten-6-3",
-          "cog": "findten",
-          "band": 1,
-          "op": "+",
-          "a": 6,
-          "b": 3,
-          "start": 6,
-          "target": 9,
-          "prompt": "6 + 3. Will Lily need to rest on the Ten Stone?",
-          "promptL10n": {
-            "de": "6 + 3. Muss Lily auf dem Zehner-Stein rasten?",
-            "fr": "6 + 3. Est-ce que Lily doit se poser sur le nénuphar du dix ?",
-            "es": "6 + 3. ¿Lily necesita descansar en la piedra del diez?",
-            "pt": "6 + 3. A Lily vai precisar descansar na pedra do dez?",
-            "it": "6 + 3. Lily avrà bisogno di fare tappa sul sasso del dieci?",
-            "nl": "6 + 3. Moet Ties op de tiensteen rusten?",
-            "sv": "6 + 3. Behöver Lily vila på guldstenen?"
-          }
-        },
-        {
-          "id": "decompose-13-4",
-          "cog": "decompose",
-          "band": 2,
-          "op": "-",
-          "a": 13,
-          "b": 4,
-          "start": 13,
-          "target": 9,
-          "prompt": "13 − 4. Hop back to the Ten Stone: 13 − ⬚ = 10.",
-          "promptL10n": {
-            "de": "13 − 4. Hüpf zurück zum Zehner-Stein: 13 − ⬚ = 10.",
-            "fr": "13 − 4. Saute en arrière jusqu'au nénuphar du dix : 13 − ⬚ = 10.",
-            "es": "13 − 4. Brinca de regreso a la piedra del diez: 13 − ⬚ = 10.",
-            "pt": "13 − 4. Pule de volta até a pedra do dez: 13 − ⬚ = 10.",
-            "it": "13 − 4. Salta indietro fino al sasso del dieci: 13 − ⬚ = 10.",
-            "nl": "13 − 4. Hup terug naar de tiensteen: 13 − ⬚ = 10.",
-            "sv": "13 − 4. Hoppa tillbaka till guldstenen: 13 − ⬚ = 10."
-          }
-        },
-        {
-          "id": "anchor-3-8",
-          "cog": "anchor",
-          "band": 2,
-          "op": "+",
-          "a": 3,
-          "b": 8,
-          "prompt": "3 + 8. Which number should Lily stand on to reach ten quickest?",
-          "promptL10n": {
-            "de": "3 + 8. Auf welche Zahl stellt sich Lily, um schnell zum Zehner zu kommen?",
-            "fr": "3 + 8. Sur quel nombre Lily doit-elle se placer pour atteindre 10 le plus vite ?",
-            "es": "3 + 8. ¿En qué número debe pararse Lily para llegar más rápido al diez?",
-            "pt": "3 + 8. Em qual número a Lily deve ficar para chegar ao dez mais rápido?",
-            "it": "3 + 8. Su quale numero conviene che Lily si metta per arrivare al dieci più in fretta?",
-            "nl": "3 + 8. Op welk getal kan Ties het beste gaan staan om het snelst bij tien te komen? Denk aan de grootste eerst.",
-            "sv": "3 + 8. Vilket tal ska Lily ställa sig på för att snabbast komma till tio?"
+      "note": "A mirror of sunken-stones-core.js (every round of both levels: the kind, the numbers, the answer and the leaps the water forces from each start). The core is the source; this row runs the Sunken Stones.",
+      "levels": [
+        "both",
+        "add"
+      ],
+      "rounds": {
+        "both": [
+          {
+            "kind": "add",
+            "a": 8,
+            "b": 6,
+            "answer": 14,
+            "leaps": [
+              [
+                2,
+                4
+              ]
+            ]
           },
-          "target": 11
-        },
-        {
-          "id": "findten-8-6",
-          "cog": "findten",
-          "band": 2,
-          "op": "+",
-          "a": 8,
-          "b": 6,
-          "start": 8,
-          "target": 14,
-          "prompt": "8 + 6. Will Lily need to rest on the Ten Stone?",
-          "promptL10n": {
-            "de": "8 + 6. Muss Lily auf dem Zehner-Stein rasten?",
-            "fr": "8 + 6. Est-ce que Lily doit se poser sur le nénuphar du dix ?",
-            "es": "8 + 6. ¿Lily necesita descansar en la piedra del diez?",
-            "pt": "8 + 6. A Lily vai precisar descansar na pedra do dez?",
-            "it": "8 + 6. Lily avrà bisogno di fare tappa sul sasso del dieci?",
-            "nl": "8 + 6. Moet Ties op de tiensteen rusten?",
-            "sv": "8 + 6. Behöver Lily vila på guldstenen?"
-          }
-        },
-        {
-          "id": "equiv-7-8",
-          "cog": "equiv",
-          "band": 2,
-          "op": "+",
-          "a": 7,
-          "b": 8,
-          "options": [
-            7,
-            5,
-            9
-          ],
-          "prompt": "7 + 8. Which DOUBLE is just one away from helping?",
-          "promptL10n": {
-            "de": "7 + 8. Welche Verdopplung ist nur um eins daneben?",
-            "fr": "7 + 8. Quel DOUBLE n'est qu'à 1 de la réponse ?",
-            "es": "7 + 8. ¿Qué DOBLE está a solo uno de distancia y te puede ayudar?",
-            "pt": "7 + 8. Qual DOBRO está a só um de distância e pode ajudar?",
-            "it": "7 + 8. Quale DOPPIO è a un solo passo dall'aiutarti?",
-            "nl": "7 + 8. Welke dubbel zit er maar één vanaf om je te helpen? Denk aan de bijna-dubbel.",
-            "sv": "7 + 8. Nästan dubbelt! Vilket tal plus sig självt ligger ett ifrån svaret?"
+          {
+            "kind": "add",
+            "a": 7,
+            "b": 5,
+            "answer": 12,
+            "leaps": [
+              [
+                3,
+                2
+              ]
+            ]
           },
-          "target": 15
-        },
-        {
-          "id": "maketen-9-4",
-          "cog": "maketen",
-          "band": 3,
-          "op": "+",
-          "a": 9,
-          "b": 4,
-          "start": 9,
-          "target": 13,
-          "prompt": "9 + 4. Make a ten: 9 + ⬚ = 10, then hop the rest.",
-          "promptL10n": {
-            "de": "9 + 4. Mach den Zehner voll: 9 + ⬚ = 10, dann hüpf den Rest.",
-            "fr": "9 + 4. Passe par 10 : 9 + ⬚ = 10, puis saute le reste.",
-            "es": "9 + 4. Forma un diez: 9 + ⬚ = 10 y luego brinca lo que falta.",
-            "pt": "9 + 4. Forme um dez: 9 + ⬚ = 10, depois pule o resto.",
-            "it": "9 + 4. Fai un dieci: 9 + ⬚ = 10, poi salta il resto.",
-            "nl": "9 + 4. Maak het tiental vol: 9 + ⬚ = 10, hup dan de rest.",
-            "sv": "9 + 4. Gör tio: 9 + ⬚ = 10, hoppa sedan resten."
-          }
-        },
-        {
-          "id": "decompose-15-7",
-          "cog": "decompose",
-          "band": 3,
-          "op": "-",
-          "a": 15,
-          "b": 7,
-          "start": 15,
-          "target": 8,
-          "prompt": "15 − 7. Hop back to the Ten Stone: 15 − ⬚ = 10.",
-          "promptL10n": {
-            "de": "15 − 7. Hüpf zurück zum Zehner-Stein: 15 − ⬚ = 10.",
-            "fr": "15 − 7. Saute en arrière jusqu'au nénuphar du dix : 15 − ⬚ = 10.",
-            "es": "15 − 7. Brinca de regreso a la piedra del diez: 15 − ⬚ = 10.",
-            "pt": "15 − 7. Pule de volta até a pedra do dez: 15 − ⬚ = 10.",
-            "it": "15 − 7. Salta indietro fino al sasso del dieci: 15 − ⬚ = 10.",
-            "nl": "15 − 7. Hup terug naar de tiensteen: 15 − ⬚ = 10.",
-            "sv": "15 − 7. Hoppa tillbaka till guldstenen: 15 − ⬚ = 10."
-          }
-        },
-        {
-          "id": "anchor-9-2",
-          "cog": "anchor",
-          "band": 3,
-          "op": "+",
-          "a": 9,
-          "b": 2,
-          "prompt": "9 + 2. Which number should Lily stand on to reach ten quickest?",
-          "promptL10n": {
-            "de": "9 + 2. Auf welche Zahl stellt sich Lily, um schnell zum Zehner zu kommen?",
-            "fr": "9 + 2. Sur quel nombre Lily doit-elle se placer pour atteindre 10 le plus vite ?",
-            "es": "9 + 2. ¿En qué número debe pararse Lily para llegar más rápido al diez?",
-            "pt": "9 + 2. Em qual número a Lily deve ficar para chegar ao dez mais rápido?",
-            "it": "9 + 2. Su quale numero conviene che Lily si metta per arrivare al dieci più in fretta?",
-            "nl": "9 + 2. Op welk getal kan Ties het beste gaan staan om het snelst bij tien te komen? Denk aan de grootste eerst.",
-            "sv": "9 + 2. Vilket tal ska Lily ställa sig på för att snabbast komma till tio?"
+          {
+            "kind": "add",
+            "a": 6,
+            "b": 3,
+            "answer": 9,
+            "leaps": [
+              [
+                3
+              ]
+            ]
           },
-          "target": 11
-        },
-        {
-          "id": "relation-8-6",
-          "cog": "relation",
-          "band": 3,
-          "op": "+",
-          "a": 8,
-          "b": 6,
-          "start": 8,
-          "target": 14,
-          "prompt": "8 + 6 = 14. Watch it hop backward: 14 − 6 = 8. Same stones!",
-          "promptL10n": {
-            "de": "8 + 6 = 14. Schau, rückwärts: 14 − 6 = 8. Die gleichen Steine!",
-            "fr": "8 + 6 = 14. Regarde Lily sauter en arrière : 14 − 6 = 8. Les mêmes nénuphars !",
-            "es": "8 + 6 = 14. Mírala brincar de regreso: 14 − 6 = 8. ¡Las mismas piedras!",
-            "pt": "8 + 6 = 14. Veja pular de volta: 14 − 6 = 8. As mesmas pedras!",
-            "it": "8 + 6 = 14. Guardala saltare all'indietro: 14 − 6 = 8. Gli stessi sassi!",
-            "nl": "8 + 6 = 14. Kijk hoe Ties terughuppelt: 14 − 6 = 8. Dezelfde stenen! Dat is de omkeersom.",
-            "sv": "8 + 6 = 14. Se hur Lily hoppar baklänges: 14 − 6 = 8. Samma stenar!"
+          {
+            "kind": "add",
+            "a": 9,
+            "b": 4,
+            "answer": 13,
+            "leaps": [
+              [
+                1,
+                3
+              ]
+            ]
+          },
+          {
+            "kind": "anchor",
+            "a": 3,
+            "b": 8,
+            "answer": 11,
+            "leaps": [
+              [
+                7,
+                1
+              ],
+              [
+                2,
+                1
+              ]
+            ]
+          },
+          {
+            "kind": "anchor",
+            "a": 9,
+            "b": 2,
+            "answer": 11,
+            "leaps": [
+              [
+                1,
+                1
+              ],
+              [
+                8,
+                1
+              ]
+            ]
+          },
+          {
+            "kind": "add",
+            "a": 6,
+            "b": 7,
+            "answer": 13,
+            "leaps": [
+              [
+                4,
+                3
+              ]
+            ]
+          },
+          {
+            "kind": "sub",
+            "a": 13,
+            "b": 4,
+            "answer": 9,
+            "leaps": [
+              [
+                3,
+                1
+              ]
+            ]
+          },
+          {
+            "kind": "sub",
+            "a": 15,
+            "b": 7,
+            "answer": 8,
+            "leaps": [
+              [
+                5,
+                2
+              ]
+            ]
+          },
+          {
+            "kind": "sub",
+            "a": 12,
+            "b": 5,
+            "answer": 7,
+            "leaps": [
+              [
+                2,
+                3
+              ]
+            ]
+          },
+          {
+            "kind": "sub",
+            "a": 14,
+            "b": 6,
+            "answer": 8,
+            "leaps": [
+              [
+                4,
+                2
+              ]
+            ]
+          },
+          {
+            "kind": "sub",
+            "a": 16,
+            "b": 4,
+            "answer": 12,
+            "leaps": [
+              [
+                4
+              ]
+            ]
+          },
+          {
+            "kind": "sub",
+            "a": 11,
+            "b": 4,
+            "answer": 7,
+            "leaps": [
+              [
+                1,
+                3
+              ]
+            ]
+          },
+          {
+            "kind": "bank",
+            "a": 14,
+            "b": null,
+            "answer": 6,
+            "leaps": [
+              [
+                6
+              ]
+            ]
+          },
+          {
+            "kind": "bank",
+            "a": 15,
+            "b": null,
+            "answer": 5,
+            "leaps": [
+              [
+                5
+              ]
+            ]
+          },
+          {
+            "kind": "bank",
+            "a": 5,
+            "b": null,
+            "answer": 15,
+            "leaps": [
+              [
+                5,
+                10
+              ]
+            ]
           }
-        }
-      ]
+        ],
+        "add": [
+          {
+            "kind": "add",
+            "a": 8,
+            "b": 6,
+            "answer": 14,
+            "leaps": [
+              [
+                2,
+                4
+              ]
+            ]
+          },
+          {
+            "kind": "add",
+            "a": 7,
+            "b": 5,
+            "answer": 12,
+            "leaps": [
+              [
+                3,
+                2
+              ]
+            ]
+          },
+          {
+            "kind": "add",
+            "a": 6,
+            "b": 3,
+            "answer": 9,
+            "leaps": [
+              [
+                3
+              ]
+            ]
+          },
+          {
+            "kind": "add",
+            "a": 9,
+            "b": 4,
+            "answer": 13,
+            "leaps": [
+              [
+                1,
+                3
+              ]
+            ]
+          },
+          {
+            "kind": "anchor",
+            "a": 3,
+            "b": 8,
+            "answer": 11,
+            "leaps": [
+              [
+                7,
+                1
+              ],
+              [
+                2,
+                1
+              ]
+            ]
+          },
+          {
+            "kind": "add",
+            "a": 6,
+            "b": 7,
+            "answer": 13,
+            "leaps": [
+              [
+                4,
+                3
+              ]
+            ]
+          },
+          {
+            "kind": "add",
+            "a": 9,
+            "b": 7,
+            "answer": 16,
+            "leaps": [
+              [
+                1,
+                6
+              ]
+            ]
+          },
+          {
+            "kind": "add",
+            "a": 7,
+            "b": 8,
+            "answer": 15,
+            "leaps": [
+              [
+                3,
+                5
+              ]
+            ]
+          },
+          {
+            "kind": "anchor",
+            "a": 5,
+            "b": 9,
+            "answer": 14,
+            "leaps": [
+              [
+                5,
+                4
+              ],
+              [
+                1,
+                4
+              ]
+            ]
+          },
+          {
+            "kind": "bank",
+            "a": 8,
+            "b": null,
+            "answer": 12,
+            "leaps": [
+              [
+                2,
+                10
+              ]
+            ]
+          }
+        ]
+      }
     }
   }
 ]

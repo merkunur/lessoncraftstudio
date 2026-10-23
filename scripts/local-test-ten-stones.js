@@ -13,6 +13,8 @@
      • RELATION: affirm advances (non-scored).
      • >=7 cogs + reshuffle; no overflow 280→768.
    ===================================================================== */
+/* Row 86 rebuild (2026-10-23): the row runs the Sunken Stones (sunken-stones-activity; gates verify-sunken-stones-core.js + local-test-sunken-stones.js) and no page loads the old Ten Stones files any more. */
+{ const _m = JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'ten-stones-activities.json'), 'utf8')); const _r = (Array.isArray(_m) ? _m : _m.activities).find(a => a.id === 'ten-stones.add-sub-within-20.1-oa-c-6'); if (_r && _r.tool !== 'ten-stones-activity') { console.log('local-test-ten-stones: the row runs the Sunken Stones — see verify-sunken-stones-core.js / local-test-sunken-stones.js. Nothing to check here.'); process.exit(0); } }
 'use strict';
 const http = require('http');
 const fs = require('fs');

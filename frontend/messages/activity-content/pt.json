@@ -448,25 +448,27 @@
     },
     "ten-stones.add-sub-within-20.1-oa-c-6": {
       "about": [
-        "Lily é uma rã que atravessa a lagoa aos pulos por uma reta numérica de 0 a 20, e ela tem um truque esperto para pulos grandes. Sempre que precisa somar ou subtrair passando do dez, Lily pula primeiro até a pedra dourada do dez, descansa ali um instante e só então dá o resto do pulo. Para calcular 8 + 6, por exemplo, ela pula 8 + 2 = 10, pousa na pedra dourada e completa com 10 + 4 = 14.",
-        "Nesta atividade a criança pratica formar o dez e passar pelo dez para somar, e também voltar até o dez para subtrair (como em 13 − 4, que vira 13 − 3 = 10 e depois 10 − 1 = 9). No caminho, ela descobre os quase-dobros, aprende a começar pela parcela maior e reconhece a família de fatos, percebendo que 8 + 6 = 14 anda junto com 14 − 6 = 8. É uma habilidade de 2º ano trabalhada de forma concreta na reta numérica.",
-        "A atividade é interativa, sem cronômetro, sem pontos e sem competição: ninguém corre contra o relógio nem contra ninguém. Assim a criança tem calma para pensar na estratégia, errar, tentar de novo e entender o porquê de cada pulo. Essa proposta de cálculo com compreensão dialoga com a BNCC, que valoriza os fatos fundamentais e as estratégias de cálculo na unidade temática Números."
+        "A rã Lily atravessa um lago numa reta numérica de 0 a 20. O número que se soma ou se tira fica pendurado sobre o lago como uma corda de contas. A criança puxa a Lily para trás como um estilingue, uma conta por pedra, e solta, ou toca numa pedra na frente dela. Cada pulo gasta tantas contas quantas pedras ele avança.",
+        "As pedras do outro lado do dez ficam debaixo d’água até a Lily parar na pedra dourada do dez. Um pulo que passa do dez cai na água e a Lily volta nadando; isso nunca conta como erro. Assim, 8 + 6 vira primeiro 8 + 2 até a pedra do dez e depois as 4 contas que sobraram. A faixa da operação anota cada pulo, e a criança digita a pedra onde a Lily cai.",
+        "Em algumas rodadas se tira (13 − 4 é 13 − 3 − 1), em outras a criança escolhe o começo mais fácil (3 + 8 ou 8 + 3), e nas rodadas da margem a pergunta é quanto falta até a margem do 20. Depois do primeiro erro, as pedras entre a pedra do dez e a Lily são contadas; depois do segundo, os pulos dela aparecem como arcos com o seu tamanho. De acordo com a BNCC, na unidade de números. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Formar o dez e achar o parceiro do dez de qualquer número (quanto falta para chegar a 10).",
-        "Calcular passando pelo dez ao somar e voltando até o dez ao subtrair, dentro do campo até 20.",
-        "Usar quase-dobros e escolher a ordem das parcelas, começando pela parcela maior.",
-        "Reconhecer a família de fatos e decidir quando é preciso passar pelo dez para calcular."
+        "Somar até 20 parando no dez: 8 + 6 = 8 + 2 + 4",
+        "Subtrair até 20 voltando ao dez: 13 − 4 = 13 − 3 − 1",
+        "Escolher o começo mais fácil: 3 + 8 é o mesmo que 8 + 3",
+        "Encontrar os pares que formam 20"
       ],
       "howToPlay": [
-        "Leia a conta que a Lily precisa resolver na reta numérica de 0 a 20.",
-        "Ajude a Lily a pular primeiro até a pedra dourada do dez e depois dar o resto do pulo (na subtração, os pulos voltam até o dez).",
-        "Você pode tentar quantas vezes quiser, com toda a calma: não há tempo, não há pontos, não há competição."
+        "Puxe a Lily para trás, para longe de onde ela precisa ir, e solte: ela pula uma pedra para cada conta na mola. Você também pode tocar numa pedra na frente dela.",
+        "Se ela cair na água, aquela pedra estava debaixo d’água: pule primeiro para a pedra do dez. A seta redonda desfaz um pulo. Nas rodadas da margem, cair no junco quer dizer que o pulo foi longo demais.",
+        "Quando a corda estiver vazia, digite a pedra onde a Lily está e toque no sinal de certo. Nas rodadas da margem, digite quanto ela pulou ao todo.",
+        "Nas configurações, escolha as operações (Somas, ou Somas e subtrações) e os números das pedras (De 5 em 5 ou Todas as pedras). Todas as pedras é a opção mais fácil: os números podem ser lidos."
       ],
       "learningGoals": [
-        "Compreender a estratégia de passar pelo dez para somar e subtrair até 20.",
-        "Encontrar os parceiros do dez com segurança e calcular atravessando o dez, tanto somando quanto subtraindo.",
-        "Usar estratégias de cálculo (ordem das parcelas, quase-dobros e família de fatos) com compreensão, em vez de contar de um em um — um objetivo de fluência nos fatos fundamentais do 2º ano."
+        "Somar até 20 completando a dezena",
+        "Subtrair até 20 passando pela dezena",
+        "Usar a relação entre soma e subtração",
+        "Conhecer os pares que formam 20"
       ]
     },
     "clock-digital.read-hour.1-md-b-3": {

@@ -62,6 +62,8 @@ ORDER row 85 · id `numberbond.make-ten-to-add.1-oa-c-6` (kept). Design: `design
 | hierarchy | 608 / 0 |
 | settings-efficacy | 2 live |
 | preflight, prose-claims, serp-copy | green |
+| variety (production, en) | 14 distinct, pass 2 reshuffled |
+| live-verify-ten-plug (11 pages 200; en/de/sv/fi × 1366/390, real pointer: a tap snaps 2 | 3, the 3 bounces, the 2 fills, 15 named as 10 + 5, 13 succeeds) | 75 / 0 (first run inside the Cloudflare window failed the sv/fi embeds) |
 
 ## Open (page metadata — for the operator)
 - en intro "Tap to fill the make-a-ten part": the piece is dragged, and nothing is filled by a tap.

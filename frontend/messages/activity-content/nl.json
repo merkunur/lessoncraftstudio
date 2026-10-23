@@ -4195,25 +4195,27 @@
     },
     "numberbond.add-three.1-oa-a-2": {
       "about": [
-        "Een splitsing met drie delen voegt drie getallen samen, bijvoorbeeld 3, 4 en 5, tot één geheel, en je kind telt alle drie op en typt het totaal op het toetsenblok. Het is een interactieve rekenactiviteit voor groep 4 die direct in de browser speelt, zonder account.",
-        "Door drie delen samen één geheel te zien vormen, leert je kind dat je getallen in elke volgorde en stap voor stap mag combineren. Sommen als 4 + 4 + 5 nodigen er stilletjes toe uit om eerst een handig getal te maken en daarna het laatste deel erbij te tellen. Je kind leest de drie delen en typt de som; de stippen in elk deel staan er om te tellen wanneer een rekenfeit nog niet vanzelf gaat.",
-        "De activiteit sluit aan bij de SLO-kerndoelen voor rekenen in groep 4: drie hele getallen optellen waarvan het totaal binnen 20 blijft. Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Drie getallen zitten in een splitsing met drie delen, als drie glazen druppels vol kralen. Sleep een druppel op een andere, of tik eerst op de ene en dan op de andere, en ze smelten samen tot één druppel waarin elke kraal zijn kleur houdt. Zitten er tien kralen of meer in een druppel, dan klikken de eerste tien in een vak van 2 × 5 in een gouden ring: de parel. Extra kralen verzamelen zich in een klein druppeltje ernaast.",
+        "Kinderen mogen de druppels in elke volgorde samenvoegen, en elke volgorde eindigt in dezelfde laatste druppel, die opstijgt naar de cirkel van het geheel. Wie eerst de twee samenvoegt die samen tien maken, heeft het bij de laatste stap makkelijk: een parel en nog vier is 14. Het kind typt het totaal op de cijfertoetsen, of rekent uit het hoofd zonder iets samen te voegen.",
+        "Is het antwoord de som van maar twee druppels, dan smelten precies die twee samen en blijft de derde druppel apart liggen en knippert hij. Na een tweede misser staat er een 10 op de parel, zodat het kind vanaf daar verder kan tellen. Na een goed antwoord laat ‘Andere manieren’ zien hoe alle drie de volgordes op hetzelfde totaal uitkomen. Passend bij de kerndoelen voor getallen en bewerkingen. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Drie delen van een splitsing lezen en ze samen één geheel zien vormen",
-        "Drie getallen van één cijfer optellen met een totaal binnen 20",
-        "Een handige volgorde kiezen — eerst de twee delen optellen die samen tien of een handig getal maken",
-        "Het totaal typen dat het geheel benoemt"
+        "Drie getallen optellen met een totaal tot 20",
+        "In elke volgorde optellen en hetzelfde totaal krijgen",
+        "Eerst twee getallen zoeken die tien maken, of een dubbelsom",
+        "Een tiental en nog wat zien in plaats van vanaf 1 te tellen"
       ],
       "howToPlay": [
-        "Bekijk de drie delen in de splitsing, bijvoorbeeld 3 + 4 + 5.",
-        "Tel alle drie de getallen op en typ het totaal op het toetsenblok, en druk op Controleer.",
-        "Net niet? Probeer het zo vaak als je wilt opnieuw — er is geen timer en geen score."
+        "Sleep een druppel op een andere druppel (of tik eerst op de ene en dan op de andere) om ze samen te voegen. Voeg alle drie samen in de volgorde die je wilt.",
+        "Typ op de cijfertoetsen hoeveel kralen het zijn en druk op het vinkje. De ronde pijl maakt de laatste samensmelting ongedaan.",
+        "Na een goed antwoord laat ‘Andere manieren’ zien hoe de andere volgordes op hetzelfde totaal uitkomen.",
+        "In de instellingen kies je de getallen (tot 10 of tot 20) en of de druppels hun kralen of alleen hun getallen laten zien."
       ],
       "learningGoals": [
-        "Het kind telt drie hele getallen op binnen 20.",
-        "Het kind ziet drie delen samen één geheel vormen in een splitsing.",
-        "Het kind telt in een slimme volgorde op door eerst tien of een handig getal te maken."
+        "Drie getallen optellen met een som tot 20",
+        "Bij het optellen van drie getallen elke volgorde gebruiken",
+        "Eerst een tiental maken om makkelijker te rekenen",
+        "In een getal van 11 tot en met 19 het tiental en de eenheden zien"
       ]
     },
     "sort-bins.sort-by-sides.2-g-a-1": {

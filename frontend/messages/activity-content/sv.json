@@ -1352,25 +1352,27 @@
     },
     "numberbond.add-three.1-oa-a-2": {
       "about": [
-        "En tredelad talkamrat förenar tre tal, som 3, 4 och 5, till ett helt, och barnet adderar alla tre och skriver summan på knappsatsen. Det är en interaktiv matematikövning för årskurs 1 som spelas direkt i webbläsaren utan konto.",
-        "Att se tre delar mynna ut i ett helt visar att man kan lägga ihop tal i vilken ordning som helst och steg för steg. Par som 4 + 4 + 5 bjuder stillsamt in till att först göra ett vänligt tal och sedan lägga till den sista delen. Barnet läser de tre delarna och skriver summan; prickarna inne i varje del finns där att räkna när en talkombination ännu inte sitter automatiskt.",
-        "Aktiviteten följer Lgr22: att addera tre tal med en summa upp till 20. Ingen tid, inga poäng — bara lugn och lekfull träning."
+        "Tre tal sitter i en uppdelning med tre delar, som tre glasdroppar fulla med kulor. Dra en droppe till en annan, eller tryck först på den ena och sedan på den andra, så flyter de ihop till en droppe där varje kula behåller sin färg. När en droppe har tio kulor eller fler klickar de första tio på plats i en ram med 2 × 5 i en guldring: pärlan. Resten samlas i en liten droppe bredvid.",
+        "Barnen kan låta dropparna flyta ihop i vilken ordning de vill, och varje ordning slutar i samma sista droppe, som stiger upp i cirkeln för det hela. Den som först slår ihop de två som blir tio får ett lätt sista steg: en pärla och fyra till är 14. Barnet skriver summan på siffertangenterna, eller räknar i huvudet utan att slå ihop något.",
+        "Är svaret bara summan av två droppar flyter just de två ihop, och den tredje droppen blir kvar och pulserar. Efter den andra missen står det 10 på pärlan, så att barnet kan räkna vidare därifrån. Efter ett rätt svar visar ”Visa andra sätt” att alla tre ordningarna ger samma summa. I linje med Lgr22 om taluppfattning och räkning. Utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Läsa tre delar i en talkamrat och se dem mynna ut i ett helt",
-        "Addera tre ensiffriga tal med en summa upp till 20",
-        "Välja en smart ordning — lägg ihop de två som gör tio eller ett vänligt tal först",
-        "Skriva summan som namnger det hela"
+        "Att addera tre tal med en summa upp till 20",
+        "Att addera i vilken ordning som helst och få samma summa",
+        "Att först leta efter två tal som blir tio, eller en dubbla",
+        "Att se ett tiotal och några till i stället för att räkna från 1"
       ],
       "howToPlay": [
-        "Titta på de tre delarna i talkamraten, till exempel 3 + 4 + 5.",
-        "Addera alla tre talen och skriv summan på knappsatsen, och tryck sedan på Kontrollera.",
-        "Inte riktigt rätt? Försök igen så många gånger du vill — det finns ingen tid och inga poäng."
+        "Dra en droppe till en annan droppe (eller tryck först på den ena, sedan på den andra) för att slå ihop dem. Slå ihop alla tre i vilken ordning du vill.",
+        "Skriv på siffertangenterna hur många kulor det är och tryck på bocken. Den runda pilen ångrar den senaste sammanslagningen.",
+        "Efter ett rätt svar visar ”Visa andra sätt” att de andra ordningarna ger samma summa.",
+        "I inställningarna väljer du talen (upp till 10 eller upp till 20) och om dropparna visar sina kulor eller bara sina siffror."
       ],
       "learningGoals": [
-        "Barnet kan addera tre tal med en summa upp till 20",
-        "Barnet ser hur tre delar förenas till ett helt i en talkamrat",
-        "Barnet adderar i en smart ordning genom att först göra tio eller ett vänligt tal"
+        "Att addera tre tal med en summa upp till 20",
+        "Att använda vilken ordning som helst när man adderar tre tal",
+        "Att först göra ett tiotal för att räkna lättare",
+        "Att se tiotalet och entalen i ett tal mellan 11 och 19"
       ]
     },
     "sort-bins.sort-by-sides.2-g-a-1": {

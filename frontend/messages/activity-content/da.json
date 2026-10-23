@@ -1475,25 +1475,27 @@
     },
     "numberbond.add-three.1-oa-a-2": {
       "about": [
-        "Et talvenskab med tre dele samler tre tal, som 3, 4 og 5, til ét hele, og barnet lægger alle tre sammen og skriver summen på taltastaturet. Det er en interaktiv matematikøvelse til 1. klasse, der kører direkte i browseren, uden at man skal installere noget, og uden konto.",
-        "At se tre dele blive samlet til ét hele viser, at man kan lægge tal sammen i den rækkefølge, man vil, og ét skridt ad gangen. Par som 4 + 4 + 5 inviterer stille og roligt til først at lave et venligt tal og så lægge den sidste del til. Barnet læser de tre dele og skriver summen; prikkerne inde i hver del er der til at tælle, når et talfakta endnu ikke sidder fast.",
-        "Aktiviteten følger Fælles Mål inden for tal og algebra: at lægge tre tal sammen, hvor summen er højst 20. Der er ingen timer og ingen point — kun rolig og legende træning."
+        "Tre tal sidder i en taldeling med tre dele, som tre glasdråber fulde af kugler. Træk en dråbe hen på en anden, eller tryk først på den ene og så på den anden, og de flyder sammen til én dråbe, hvor hver kugle beholder sin farve. Når en dråbe har ti kugler eller flere, klikker de første ti på plads i en ramme på 2 × 5 i en gylden ring: perlen. Resten samler sig i en lille dråbe ved siden af.",
+        "Børnene kan lade dråberne flyde sammen i den rækkefølge, de vil, og hver rækkefølge ender i den samme sidste dråbe, som stiger op i cirklen for det hele. Hvis man først samler de to, der giver ti, bliver det sidste skridt let: en perle og fire mere er 14. Barnet skriver resultatet på taltasterne eller regner i hovedet uden at samle noget.",
+        "Er svaret kun summen af to dråber, flyder netop de to sammen, og den tredje dråbe bliver tilbage og blinker. Efter to forkerte svar står der 10 på perlen, så barnet kan tælle videre derfra. Efter et rigtigt svar viser »Se andre måder«, at alle tre rækkefølger giver det samme resultat. I tråd med Fælles Mål for tal og algebra. Uden tidtagning og uden point."
       ],
       "practices": [
-        "Læse tre dele i et talvenskab og se dem blive samlet til ét hele",
-        "Lægge tre etcifrede tal sammen med en sum på højst 20",
-        "Vælge en smart rækkefølge — lægge de to sammen, der giver ti eller et venligt tal, først",
-        "Skrive den sum, der navngiver det hele"
+        "At lægge tre tal sammen med et resultat op til 20",
+        "At lægge sammen i en hvilken som helst rækkefølge og få det samme resultat",
+        "Først at finde to tal, der giver ti, eller en fordobling",
+        "At se en tier og nogle flere i stedet for at tælle fra 1"
       ],
       "howToPlay": [
-        "Barnet ser de tre dele i talvenskabet, som 3 + 4 + 5.",
-        "Barnet lægger alle tre tal sammen og skriver summen på taltastaturet og trykker derefter på Tjek.",
-        "Passer det ikke? Barnet kan roligt prøve igen, så mange gange det vil — der er ingen timer og ingen point."
+        "Træk en dråbe hen på en anden dråbe (eller tryk først på den ene, så på den anden) for at samle dem. Saml alle tre i den rækkefølge, du vil.",
+        "Skriv på taltasterne, hvor mange kugler der er, og tryk på fluebenet. Den runde pil fortryder den sidste sammenlægning.",
+        "Efter et rigtigt svar viser »Se andre måder«, at de andre rækkefølger giver det samme resultat.",
+        "I indstillingerne vælger du tallene (op til 10 eller op til 20), og om dråberne viser deres kugler eller kun deres tal."
       ],
       "learningGoals": [
-        "Barnet kan lægge tre tal sammen med en sum på højst 20",
-        "Barnet kan se tre dele blive samlet til ét hele i et talvenskab",
-        "Barnet kan lægge sammen i en smart rækkefølge ved først at lave ti eller et venligt tal"
+        "At lægge tre tal sammen med en sum op til 20",
+        "At bruge en hvilken som helst rækkefølge, når man lægger tre tal sammen",
+        "Først at lave en tier for at regne lettere",
+        "At se tieren og enerne i et tal fra 11 til 19"
       ]
     },
     "sort-bins.sort-by-sides.2-g-a-1": {

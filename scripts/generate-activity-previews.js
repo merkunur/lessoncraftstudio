@@ -239,6 +239,10 @@ function seedScript(row) {
     // 8 + 3: the 8 already poured under the checked cloth (its number on the tag), one car posted, two waiting — the covered first part that forces counting on, the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.task='total';t.api.settings.coat='pictures';t._pool=null;t._ensurePool();t._start(4);var C=window.BondBasketCore,s=t.st;C.pour(s,'L');C.post(s);t._view={};t._render2();})()`;
   }
+  if (row.tool === 'merge-drops-activity') {
+    // 6 + 4 + 9: the 6 has melted into the 4 and the ten beads have clicked into the gold-ringed pearl, the 9 still waiting beside — making ten first, the invention at work
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.numbers='w20';t.api.settings.beads='show';t._pool=null;t._ensurePool();t._start(9);var C=window.MergeDropsCore,s=t.st;C.merge(s,'A','B');t._view={};t._render2();})()`;
+  }
   if (row.tool === 'lamplight-cupboard-activity') {
     // "the cup" said into the dark cupboard: the lamps light BOTH cups (the big one and the small one with Sock's ring) — the listener's uncertainty made of light, the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.level='l1';t.api.settings.memory='3';t.api.settings.lamps='live';t._pool=null;t._ensurePool();t._start(2,{mirror:false,cols:[0,2,0,2]});var C=window.LamplightCupboardCore,s=t.st;C.addWord(s,'n:cup');t._view={};t._render2();})()`;

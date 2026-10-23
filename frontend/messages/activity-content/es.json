@@ -3544,25 +3544,27 @@
     },
     "numberbond.add-three.1-oa-a-2": {
       "about": [
-        "Un enlace numérico de tres partes junta tres números, como 3, 4 y 5, en un solo total, y el niño o la niña suma los tres y escribe el resultado en el teclado. Es una actividad de matemáticas para 1.º de primaria, interactiva, que se juega directo en el navegador, sin necesidad de crear cuenta.",
-        "Ver tres partes que se unen en un solo total muestra que los números se pueden combinar en cualquier orden y paso a paso. Parejas como 4 + 4 + 5 invitan, sin presionar, a formar primero un número amigable y luego sumar la última parte. El niño o la niña lee las tres partes y escribe la suma; los puntitos dentro de cada parte están ahí para contar cuando un resultado todavía no sale de memoria.",
-        "Está alineada con los planes y programas de estudio (SEP): sumar tres números enteros cuyo total no pase de 20. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+        "Tres números están en un diagrama de partes y todo con tres partes, como tres gotas de vidrio llenas de bolitas. Arrastra una gota sobre otra, o toca primero una y luego la otra, y se juntan en una sola gota en la que cada bolita conserva su color. Cuando una gota tiene diez bolitas o más, las primeras diez se acomodan en un marco de 2 × 5 dentro de un aro dorado: la perla. Las bolitas que sobran se juntan en una gotita al lado.",
+        "Los niños pueden juntar las gotas en el orden que quieran, y cualquier orden termina en la misma última gota, que sube al círculo del todo. Si primero se juntan las dos que hacen diez, el último paso es fácil: una perla y cuatro más son 14. El niño escribe el total en las teclas de números, o suma mentalmente sin juntar nada.",
+        "Si la respuesta es la suma de solo dos gotas, esas dos se juntan solas y la tercera gota se queda afuera, parpadeando. Después del segundo error, la perla muestra un 10 para que el niño siga contando desde ahí. Después de acertar, “Ver otros caminos” muestra que los tres órdenes llegan al mismo total. En línea con los planes de estudio de la SEP, en el eje de número. Sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Leer las tres partes de un enlace numérico y verlas unirse en un solo total.",
-        "Sumar tres números de una cifra con un total hasta 20.",
-        "Elegir un orden conveniente: sumar primero las dos partes que forman un diez o un número amigable.",
-        "Escribir el total que nombra al todo."
+        "Sumar tres números con un total hasta 20",
+        "Sumar en cualquier orden y obtener el mismo total",
+        "Buscar primero dos números que hagan diez, o un doble",
+        "Ver una decena y algunas más en vez de contar desde 1"
       ],
       "howToPlay": [
-        "Mira las tres partes del enlace numérico, por ejemplo 3 + 4 + 5.",
-        "Suma los tres números y escribe el total en el teclado, luego pulsa Comprobar.",
-        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntuación."
+        "Arrastra una gota sobre otra (o toca primero una y luego la otra) para juntarlas. Junta las tres en el orden que quieras.",
+        "Escribe en las teclas cuántas bolitas hay y toca la palomita. La flecha redonda deshace la última unión.",
+        "Después de acertar, toca “Ver otros caminos” para ver que los otros órdenes llegan al mismo total.",
+        "En la configuración eliges los números (hasta 10 o hasta 20) y si las gotas muestran sus bolitas o solo sus números."
       ],
       "learningGoals": [
-        "Sumar tres números enteros con un total hasta 20.",
-        "Ver cómo tres partes se combinan en un solo total dentro de un enlace numérico.",
-        "Sumar en un orden inteligente formando primero un diez o un número amigable."
+        "Sumar tres números con una suma hasta 20",
+        "Usar cualquier orden al sumar tres números",
+        "Formar primero una decena para sumar más fácil",
+        "Ver la decena y las unidades en un número del 11 al 19"
       ]
     },
     "sort-bins.sort-by-sides.2-g-a-1": {

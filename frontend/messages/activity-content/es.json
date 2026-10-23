@@ -3033,25 +3033,27 @@
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {
       "about": [
-        "Tu hijo o hija calcula tarjetas como 2 + 3 y 9 − 4 (ambas dan 5), o 3 + 4 y 9 − 2 (ambas dan 7), y luego toca una suma y la resta que tiene el mismo resultado para enlazar la pareja. Es una actividad de matemáticas interactiva para 1.º de primaria que corre directamente en el navegador, sin instalar nada y sin cuenta.",
-        "La idea central es que una suma y una resta pueden valer lo mismo: el signo igual significa 'lo mismo que', no 'aquí viene el resultado'. Las tarjetas no muestran sus totales, así que el niño o la niña tiene que calcular de verdad cada una y luego buscar otra operación, de aspecto distinto, con el mismo valor. Cada ronda tiene dos (a veces tres) resultados que encontrar, mezclando operaciones de sumar y de restar. Es una actividad para primer grado.",
-        "Está alineada con los planes y programas de estudio (SEP): comprender el significado del signo igual y decidir si igualdades con sumas y restas son verdaderas. Sin temporizador y sin puntuación, con práctica tranquila."
+        "Cada tarjeta se vuelve un lado de una escalera. Una suma son dos tramos cortos que se enganchan: 2 + 3 es un tramo de 2 agujeros y otro de 3. Una resta es un lado alto al que se le corta la parte de arriba: 9 − 4 es un lado de 9 agujeros, y los 4 de arriba se caen. El niño toca una suma y una resta, y los dos lados quedan uno junto al otro.",
+        "Luego el niño toca la ardilla. Sube un peldaño en cada altura donde los dos lados tienen un agujero. Si los lados miden lo mismo, llega al peldaño dorado de arriba y a la bellota, y la escalera se dobla en una etiqueta: 2 + 3 = 9 − 4, una operación a cada lado del signo igual, y las dos valen lo mismo. Si un lado es más alto, la ardilla se queda atorada, y los agujeros que un lado tiene de más brillan y se numeran. Si se queda atorada dos veces, en las tarjetas aparecen los lados en pequeño para comparar.",
+        "En el nivel Operación inversa, las cuatro tarjetas son una familia de operaciones, como 3 + 5, 5 + 3, 8 − 5 y 8 − 3. Todos los lados miden 8 agujeros, así que la altura no decide. Cada lado tiene dos colores, y la ardilla sube solo donde los colores coinciden: 3 + 5 va con 8 − 5, la resta que quita la parte que se sumó al final. En línea con los programas de estudio de la SEP (campo formativo Saberes y pensamiento científico). Sin cronómetro y sin puntaje."
       ],
       "practices": [
-        "Calcular el valor de operaciones de suma y de resta.",
-        "Relacionar una suma con una resta que tiene el mismo resultado.",
-        "Entender el signo igual como 'la misma cantidad que'.",
-        "Comparar dos operaciones de aspecto distinto para ver si valen lo mismo."
+        "Entender el signo igual como “vale lo mismo que”: 2 + 3 = 9 − 4",
+        "Resolver sumas y restas hasta 20",
+        "Decidir si dos operaciones valen lo mismo",
+        "Relacionar cada suma con la resta que la deshace"
       ],
       "howToPlay": [
-        "Calcula cada tarjeta: sumas como 4 + 5 y restas como 10 − 1.",
-        "Toca una suma, luego toca la resta con el mismo resultado, y mira cómo se enlaza la pareja.",
-        "Encuentra las dos parejas iguales de la ronda: no hay temporizador ni puntuación, así que tómate tu tiempo."
+        "Toca una tarjeta con una suma y otra con una resta. Sus lados aparecen junto a las escaleras.",
+        "Toca la ardilla para que suba la escalera. Si llega a la bellota, la pareja es correcta y su etiqueta se cuelga en el perchero.",
+        "Si se queda atorada, mira los agujeros que brillan (en Operación inversa, los agujeros con un aro) y toca otra tarjeta. Toca una etiqueta del perchero para desarmar esa escalera.",
+        "En la configuración eliges las parejas (Mismo resultado u Operación inversa) y cuándo se ven los lados (Al elegir o En las tarjetas). «En las tarjetas» es la opción más fácil."
       ],
       "learningGoals": [
-        "El niño o la niña aprende que las sumas y las restas pueden ser iguales.",
-        "Tu hijo o hija puede leer el signo igual como 'lo mismo que' y no como 'aquí viene el resultado'.",
-        "Desarrolla un manejo flexible de las operaciones básicas al enlazar sumas y restas que comparten un valor."
+        "Entender el significado del signo igual",
+        "Decidir si una igualdad con + y − en los dos lados es verdadera",
+        "Sumar y restar hasta 20",
+        "Relacionar cada suma con la resta que la deshace"
       ]
     },
     "match-pairs.match-facts-to-20.2-oa-b-2": {

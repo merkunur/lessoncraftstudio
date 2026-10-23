@@ -407,25 +407,27 @@
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {
       "about": [
-        "Children work out cards like 2 + 3 and 9 − 4 (both 5), or 3 + 4 and 9 − 2 (both 7), then tap an addition and the subtraction with the same answer to link the pair. It's an interactive Grade 1 math activity that runs right in the browser, with nothing to install and no account.",
-        "The big idea is that an addition expression and a subtraction expression can be worth the same amount — the equal sign means \"the same as,\" not \"here comes the answer.\" The cards do not show their totals, so children must actually compute each one and then hunt for a different-looking expression with the matching value. Every round has two (sometimes three) values to find, mixing plus and minus facts together.",
-        "It is aligned to Common Core 1.OA.D.7 — understanding the meaning of the equal sign and deciding whether equations involving addition and subtraction are true. No timer, no score — just calm, playful practice."
+        "Every card becomes one rail of a ladder. An addition is two short rails clicked together end to end: 2 + 3 is a rail of 2 holes and a rail of 3. A subtraction is a tall rail with its top sawn off: 9 − 4 is a rail of 9 holes, and the top 4 fall away. The child taps an addition and a subtraction, and the two rails stand side by side.",
+        "Then the child taps the squirrel. It climbs a rung at every height that has a hole on both rails. If the rails are the same height, it reaches the gold top rung and the acorn, and the ladder folds into a tag that reads 2 + 3 = 9 − 4: work on both sides of the equals sign, shown to be equal. If one rail is taller, the squirrel stops, and the extra holes on the taller side glow and are numbered. If it stops a second time, little rails appear on the cards to compare.",
+        "In the Undo it level, the four cards are one fact family, such as 3 + 5, 5 + 3, 8 − 5 and 8 − 3. Every rail is 8 holes tall, so height cannot decide. Each rail is two colours, and the squirrel climbs only where the colours match, so 3 + 5 goes with 8 − 5, the subtraction that takes away the part added last. The Same answer level is aligned to Common Core 1.OA.D.7; Undo it practises the link between addition and subtraction. No timer and no score."
       ],
       "practices": [
-        "Work out the value of both addition and subtraction expressions",
-        "Match a plus fact to a minus fact that has the same answer",
-        "Understand the equal sign as meaning \"the same amount as\"",
-        "Compare two different-looking expressions for equal value"
+        "Understanding the equals sign as “the same as”: 2 + 3 = 9 − 4",
+        "Working out additions and subtractions within 20",
+        "Deciding whether two expressions are worth the same",
+        "Pairing each addition with the subtraction that undoes it"
       ],
       "howToPlay": [
-        "Work out each card — additions like 4 + 5 and subtractions like 10 − 1.",
-        "Tap an addition, then tap the subtraction with the same answer, and watch the pair link.",
-        "Find both equal pairs in the round — there is no timer and no score, so take your time."
+        "Tap an addition card and a subtraction card. Their rails appear in the ladder yard.",
+        "Tap the squirrel to send it up the ladder. If it reaches the acorn, the pair is right and its tag hangs on the rack.",
+        "If it stops, look at the glowing holes (in Undo it, the ringed holes), then tap another card to try again. Tap a tag on the rack to take that ladder apart.",
+        "In the settings, choose the pairs (Same answer or Undo it) and when to show the rails (After I choose or On the cards). “On the cards” is the easier setting."
       ],
       "learningGoals": [
-        "Understand that addition and subtraction expressions can be equal — the focus of Common Core 1.OA.D.7",
-        "Read the equal sign as \"the same as\" rather than \"the answer is next\"",
-        "Build flexible fact fluency by linking plus and minus facts that share a value"
+        "Understand the meaning of the equals sign",
+        "Decide whether an equation with + and − on both sides is true",
+        "Add and subtract within 20",
+        "Link each addition to the subtraction that undoes it"
       ]
     },
     "choice-board.sort-count.k-md-b-3": {

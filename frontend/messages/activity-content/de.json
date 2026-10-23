@@ -3479,25 +3479,27 @@
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {
       "about": [
-        "Das Kind rechnet Karten wie 2 + 3 und 9 − 4 aus (beide ergeben 5) oder 3 + 4 und 9 − 2 (beide 7) und tippt dann eine Plusaufgabe und die Minusaufgabe mit demselben Ergebnis an, um das Paar zu verbinden. Diese interaktive Mathe-Übung für die 1. Klasse läuft direkt im Browser, ohne Installation und ohne Anmeldung.",
-        "Die große Idee: Eine Plusaufgabe und eine Minusaufgabe können gleich viel wert sein — das Gleichheitszeichen bedeutet „ist genauso viel wie\", nicht „hier kommt das Ergebnis\". Die Karten zeigen ihre Ergebnisse nicht, deshalb muss das Kind jede wirklich ausrechnen und dann eine anders aussehende Aufgabe mit demselben Wert suchen. In jeder Runde gibt es zwei (manchmal drei) Werte zu finden, wobei Plus- und Minusaufgaben gemischt werden.",
-        "Die Aktivität ist an den Lehrplänen ausgerichtet — die Bedeutung des Gleichheitszeichens verstehen und entscheiden, ob Plus- und Minusaufgaben gleich viel ergeben. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+        "Jede Karte wird zu einem Holm einer Leiter. Eine Plusaufgabe besteht aus zwei kurzen Holmen, die aneinander einrasten: 2 + 3 ist ein Holm mit 2 Löchern und einer mit 3. Eine Minusaufgabe ist ein hoher Holm, von dem oben etwas abgesägt wird: 9 − 4 ist ein Holm mit 9 Löchern, und die oberen 4 fallen ab. Das Kind tippt auf eine Plusaufgabe und eine Minusaufgabe, und die beiden Holme stehen nebeneinander.",
+        "Dann tippt das Kind auf das Eichhörnchen. Es klettert eine Sprosse höher bei jeder Höhe, an der beide Holme ein Loch haben. Sind die Holme gleich hoch, erreicht es die goldene oberste Sprosse und die Eichel, und die Leiter klappt zu einem Schild zusammen: 2 + 3 = 9 − 4, also auf jeder Seite des Gleichheitszeichens eine Rechnung, und beide ergeben gleich viel. Ist ein Holm höher, bleibt das Eichhörnchen stecken, und die Löcher, die eine Seite mehr hat, leuchten und werden nummeriert. Bleibt es ein zweites Mal stecken, erscheinen kleine Holme auf den Karten zum Vergleichen.",
+        "In der Stufe Umkehraufgabe gehören die vier Karten zu einer Aufgabenfamilie, zum Beispiel 3 + 5, 5 + 3, 8 − 5 und 8 − 3. Alle Holme sind 8 Löcher hoch, die Höhe entscheidet also nicht. Jeder Holm hat zwei Farben, und das Eichhörnchen klettert nur, wo die Farben übereinstimmen: 3 + 5 gehört zu 8 − 5, der Aufgabe, die den zuletzt dazugekommenen Teil wieder wegnimmt. Passend zum Lehrplan im Bereich Zahlen und Operationen. Ohne Zeitdruck und ohne Punktwertung."
       ],
       "practices": [
-        "Den Wert von Plus- und von Minusaufgaben ausrechnen.",
-        "Eine Plusaufgabe mit einer Minusaufgabe verbinden, die dasselbe Ergebnis hat.",
-        "Das Gleichheitszeichen als „ist genauso viel wie\" verstehen.",
-        "Zwei unterschiedlich aussehende Aufgaben auf gleichen Wert vergleichen."
+        "Das Gleichheitszeichen als „ist gleich viel wie“ verstehen: 2 + 3 = 9 − 4",
+        "Plus- und Minusaufgaben bis 20 ausrechnen",
+        "Entscheiden, ob zwei Rechnungen gleich viel ergeben",
+        "Zu jeder Plusaufgabe die Umkehraufgabe finden"
       ],
       "howToPlay": [
-        "Rechne jede Karte aus — Plusaufgaben wie 4 + 5 und Minusaufgaben wie 10 − 1.",
-        "Tippe auf eine Plusaufgabe, dann auf die Minusaufgabe mit demselben Ergebnis, und sieh zu, wie sich das Paar verbindet.",
-        "Finde beide gleichen Paare in der Runde — es gibt keinen Timer und keine Punkte, also lass dir Zeit."
+        "Tipp auf eine Plusaufgabe und eine Minusaufgabe. Ihre Holme erscheinen auf dem Leiterplatz.",
+        "Tipp auf das Eichhörnchen, damit es die Leiter hochklettert. Erreicht es die Eichel, stimmt das Paar, und sein Schild hängt am Brett.",
+        "Bleibt es stecken, schau dir die leuchtenden Löcher an (bei der Umkehraufgabe die umrandeten Löcher) und tipp dann auf eine andere Karte. Tipp auf ein Schild am Brett, um die Leiter wieder auseinanderzunehmen.",
+        "In den Einstellungen wählst du die Paare (Gleiches Ergebnis oder Umkehraufgabe) und wann die Seiten zu sehen sind (Nach der Auswahl oder Auf den Karten). „Auf den Karten“ ist die leichtere Einstellung."
       ],
       "learningGoals": [
-        "Verstehen, dass Plus- und Minusaufgaben gleich viel ergeben können.",
-        "Das Gleichheitszeichen als „ist genauso viel wie\" lesen statt als „das Ergebnis folgt jetzt\".",
-        "Flexible Rechensicherheit aufbauen, indem man Plus- und Minusaufgaben mit gleichem Wert verknüpft."
+        "Die Bedeutung des Gleichheitszeichens verstehen",
+        "Entscheiden, ob eine Gleichung mit Plus und Minus auf beiden Seiten stimmt",
+        "Bis 20 addieren und subtrahieren",
+        "Plusaufgaben mit ihren Umkehraufgaben verbinden"
       ]
     },
     "match-pairs.match-facts-to-20.2-oa-b-2": {

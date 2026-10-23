@@ -3684,25 +3684,27 @@
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {
       "about": [
-        "Het kind rekent kaarten uit zoals 2 + 3 en 9 − 4 (allebei 5), of 3 + 4 en 9 − 2 (allebei 7), en tikt dan een optelsom en de aftreksom met dezelfde uitkomst aan om het paar te verbinden. Het is een interactieve rekenactiviteit voor groep 3 die direct in de browser speelt — zonder installatie en zonder account.",
-        "Het grote idee is dat een optelsom en een aftreksom evenveel waard kunnen zijn — het isgelijkteken betekent 'hetzelfde als' en niet 'hier komt het antwoord'. De kaarten laten de uitkomsten niet zien, dus het kind moet elke som echt uitrekenen en daarna een sommetje zoeken dat er anders uitziet maar dezelfde waarde heeft. Elke ronde heeft twee (soms drie) uitkomsten om te vinden, waarbij plus- en minsommen door elkaar lopen.",
-        "De activiteit sluit aan bij de kerndoelen binnen het domein Getallen en bewerkingen: de betekenis van het isgelijkteken begrijpen en beoordelen of optel- en aftreksommen dezelfde uitkomst hebben. Dit hoort bij groep 3 (6-7 jaar). Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Elke kaart wordt één zijkant van een ladder. Een plussom is twee korte stukken die aan elkaar klikken: 2 + 3 is een stuk met 2 gaatjes en een met 3. Een minsom is een hoge zijkant waarvan de bovenkant wordt afgezaagd: 9 − 4 is een zijkant met 9 gaatjes, en de bovenste 4 vallen eraf. Het kind tikt op een plussom en een minsom, en de twee zijkanten staan naast elkaar.",
+        "Dan tikt het kind op de eekhoorn. Die klimt een sport hoger op elke hoogte waar beide zijkanten een gaatje hebben. Zijn de zijkanten even hoog, dan haalt hij de gouden bovenste sport en de eikel, en de ladder vouwt dicht tot een kaartje: 2 + 3 = 9 − 4, aan elke kant van het is-gelijkteken een som, en ze zijn evenveel. Is één kant hoger, dan blijft de eekhoorn steken, en de gaatjes die één kant meer heeft lichten op en krijgen een nummer. Is de eekhoorn twee keer blijven steken, dan verschijnen kleine zijkanten op de kaarten om te vergelijken.",
+        "Op het niveau Omgekeerde som horen de vier kaarten bij één sommenfamilie, bijvoorbeeld 3 + 5, 5 + 3, 8 − 5 en 8 − 3. Alle zijkanten zijn 8 gaatjes hoog, dus de hoogte beslist niet. Elke zijkant heeft twee kleuren, en de eekhoorn klimt alleen waar de kleuren gelijk zijn: 3 + 5 hoort bij 8 − 5, de som die het laatst erbij gekomen deel weer weghaalt. Passend bij de kerndoelen voor getallen en bewerkingen. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "De waarde van zowel optel- als aftreksommen uitrekenen",
-        "Een plussom koppelen aan een minsom met dezelfde uitkomst",
-        "Het isgelijkteken begrijpen als 'evenveel als'",
-        "Twee sommen die er anders uitzien vergelijken op gelijke waarde"
+        "Het is-gelijkteken begrijpen als “evenveel als”: 2 + 3 = 9 − 4",
+        "Plus- en minsommen tot 20 uitrekenen",
+        "Beslissen of twee sommen evenveel zijn",
+        "Bij elke plussom de omgekeerde minsom vinden"
       ],
       "howToPlay": [
-        "Reken elke kaart uit — optelsommen zoals 4 + 5 en aftreksommen zoals 10 − 1.",
-        "Tik op een optelsom en daarna op de aftreksom met dezelfde uitkomst, en kijk hoe het paar verbindt.",
-        "Vind beide gelijke paren in de ronde — er is geen timer en geen score, dus neem rustig de tijd."
+        "Tik op een kaart met een plussom en een kaart met een minsom. Hun zijkanten verschijnen bij de ladders.",
+        "Tik op de eekhoorn om hem de ladder op te sturen. Haalt hij de eikel, dan klopt het paar en hangt het kaartje aan het rek.",
+        "Blijft hij steken, kijk dan naar de oplichtende gaatjes (bij Omgekeerde som naar de omrande gaatjes) en tik op een andere kaart. Tik op een kaartje aan het rek om die ladder weer uit elkaar te halen.",
+        "In de instellingen kies je de paren (Zelfde uitkomst of Omgekeerde som) en wanneer de zijkanten te zien zijn (Na het kiezen of Op de kaarten). “Op de kaarten” is de makkelijkere instelling."
       ],
       "learningGoals": [
-        "Het kind begrijpt dat optel- en aftreksommen gelijk kunnen zijn.",
-        "Het kind leest het isgelijkteken als 'hetzelfde als' in plaats van 'het antwoord volgt'.",
-        "Het kind bouwt soepele somkennis op door plus- en minsommen met dezelfde uitkomst te verbinden."
+        "De betekenis van het is-gelijkteken begrijpen",
+        "Beslissen of een som met plus en min aan beide kanten klopt",
+        "Optellen en aftrekken tot 20",
+        "Elke plussom koppelen aan de omgekeerde minsom"
       ]
     },
     "match-pairs.match-facts-to-20.2-oa-b-2": {

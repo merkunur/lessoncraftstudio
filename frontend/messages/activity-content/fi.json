@@ -1367,24 +1367,27 @@
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {
       "about": [
-        "Lapsi ratkaisee kortteja kuten 2 + 3 ja 9 − 4 (molemmat 5) tai 3 + 4 ja 9 − 2 (molemmat 7) ja napauttaa sitten yhteenlaskua ja sitä vähennyslaskua, jolla on sama tulos, yhdistääkseen parin. Tämä on vuorovaikutteinen 1. luokan matematiikkaharjoitus, joka toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
-        "Ydinajatus on, että yhteenlaskulla ja vähennyslaskulla voi olla sama arvo — yhtäläisyysmerkki tarkoittaa \"yhtä paljon kuin\", ei \"tässä tulee vastaus\". Kortit eivät näytä tuloksiaan, joten lapsen on todella laskettava kumpikin ja sitten etsittävä erinäköinen lasku, jolla on sama arvo. Joka kierroksella on kaksi (joskus kolme) tulosta löydettävänä, ja plus- ja miinuslaskut ovat sekaisin. Harjoitus on OPS 2014:n mukainen — ymmärretään yhtäläisyysmerkin merkitys ja päätetään, ovatko yhteen- ja vähennyslaskuja sisältävät yhtälöt tosia. 1. luokalle."
+        "Jokaisesta kortista tulee tikkaiden toinen sivu. Yhteenlasku on kaksi lyhyttä osaa, jotka napsahtavat yhteen: 2 + 3 on osa, jossa on 2 reikää, ja osa, jossa on 3. Vähennyslasku on korkea sivu, jonka yläpää sahataan pois: 9 − 4 on sivu, jossa on 9 reikää, ja ylimmät 4 putoavat. Lapsi napauttaa yhteenlaskua ja vähennyslaskua, ja kaksi sivua seisoo vierekkäin.",
+        "Sitten lapsi napauttaa oravaa. Se kiipeää puolan ylemmäs jokaisella korkeudella, jossa kummallakin sivulla on reikä. Jos sivut ovat yhtä korkeat, se pääsee kultaiselle ylimmälle puolalle ja tammenterhon luo, ja tikkaat taittuvat lapuksi: 2 + 3 = 9 − 4, lasku yhtäsuuruusmerkin kummallakin puolella, ja ne ovat yhtä paljon. Jos toinen sivu on korkeampi, orava jää jumiin, ja reiät, joita toisella sivulla on enemmän, hehkuvat ja saavat numerot. Kun orava on jäänyt jumiin kahdesti, korteissa näkyvät pienet sivut vertailua varten.",
+        "Käänteinen lasku -tasolla neljä korttia kuuluu samaan laskuperheeseen, esimerkiksi 3 + 5, 5 + 3, 8 − 5 ja 8 − 3. Kaikki sivut ovat 8 reiän korkuisia, joten korkeus ei ratkaise. Jokaisessa sivussa on kaksi väriä, ja orava kiipeää vain siellä, missä värit täsmäävät: 3 + 5 kuuluu yhteen laskun 8 − 5 kanssa, joka vie pois viimeksi lisätyn osan. Sopii opetussuunnitelman sisältöalueeseen Luvut ja laskutoimitukset. Ilman ajanottoa ja ilman pisteytystä."
       ],
       "practices": [
-        "Laskee sekä yhteenlaskun että vähennyslaskun arvon.",
-        "Yhdistää pluslaskun siihen miinuslaskuun, jolla on sama tulos.",
-        "Ymmärtää yhtäläisyysmerkin tarkoittavan \"yhtä paljon kuin\".",
-        "Vertaa kahta erinäköistä laskua niiden yhtä suuren arvon perusteella."
+        "Yhtäsuuruusmerkin ymmärtäminen: ”yhtä paljon kuin”, 2 + 3 = 9 − 4",
+        "Yhteen- ja vähennyslaskut 20:een asti",
+        "Sen päättäminen, ovatko kaksi laskua yhtä paljon",
+        "Jokaisen yhteenlaskun yhdistäminen sen käänteiseen vähennyslaskuun"
       ],
       "howToPlay": [
-        "Laske jokainen kortti — yhteenlaskut kuten 4 + 5 ja vähennyslaskut kuten 10 − 1.",
-        "Napauta yhteenlaskua ja sitten sitä vähennyslaskua, jolla on sama tulos, ja katso, miten pari yhdistyy.",
-        "Etsi kierroksen molemmat yhtä suuret parit — ei ajastinta eikä pisteitä, joten käytä aikaa rauhassa."
+        "Napauta korttia, jossa on yhteenlasku, ja korttia, jossa on vähennyslasku. Niiden sivut ilmestyvät tikkaiden luo.",
+        "Napauta oravaa, niin se kiipeää tikkaita ylös. Jos se pääsee tammenterhon luo, pari on oikein ja lappu ripustetaan telineeseen.",
+        "Jos se jää jumiin, katso hehkuvia reikiä (Käänteinen lasku -tasolla renkaalla merkittyjä reikiä) ja napauta toista korttia. Napauta telineen lappua, niin tikkaat puretaan.",
+        "Asetuksista valitset parit (Sama tulos tai Käänteinen lasku) ja milloin sivut näkyvät (Valinnan jälkeen tai Korteissa). ”Korteissa” on helpompi asetus."
       ],
       "learningGoals": [
-        "Lapsi ymmärtää, että yhteen- ja vähennyslaskuilla voi olla sama tulos.",
-        "Lapsi lukee yhtäläisyysmerkin merkityksessä \"yhtä paljon kuin\" eikä \"vastaus tulee seuraavaksi\".",
-        "Lapsi kehittää joustavaa laskusujuvuutta yhdistämällä plus- ja miinuslaskuja, joilla on sama arvo."
+        "Ymmärtää yhtäsuuruusmerkin merkitys",
+        "Päättää, onko yhtälö, jossa on + ja − kummallakin puolella, tosi",
+        "Laskea yhteen ja vähentää 20:een asti",
+        "Yhdistää jokainen yhteenlasku käänteiseen vähennyslaskuunsa"
       ]
     },
     "match-pairs.match-facts-to-20.2-oa-b-2": {

@@ -967,25 +967,27 @@
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {
       "about": [
-        "Plus- og minus-par lader barnet regne kort ud som 2 + 3 og 9 − 4 (begge giver 5) eller 3 + 4 og 9 − 2 (begge giver 7) og derefter trykke på et plusstykke og det minusstykke, der har samme resultat, så parret forbindes. Det er en interaktiv matematikaktivitet til 1. klasse, der kører direkte i browseren uden oprettelse og uden noget at installere.",
-        "Den store idé er, at et plusstykke og et minusstykke kan være lige meget værd — lighedstegnet betyder \"det samme som\" og ikke \"her kommer svaret\". Kortene viser ikke resultatet, så barnet er nødt til at regne hvert kort ud og derefter lede efter et regnestykke, der ser anderledes ud, men har samme værdi. Hver runde har to (nogle gange tre) resultater at finde, hvor plus- og minusstykker er blandet sammen.",
-        "Aktiviteten følger Fælles Mål inden for området tal og algebra: at forstå betydningen af lighedstegnet og afgøre, om regnestykker med plus og minus er lige store. Den passer til 1. klasse. Der er ingen timer og ingen point — bare rolig, legende øvelse."
+        "Hvert kort bliver den ene side af en stige. Et plusstykke er to korte dele, der klikker sammen: 2 + 3 er en del med 2 huller og en med 3. Et minusstykke er en høj side, hvor toppen bliver savet af: 9 − 4 er en side med 9 huller, og de øverste 4 falder af. Barnet trykker på et plusstykke og et minusstykke, og de to sider står ved siden af hinanden.",
+        "Så trykker barnet på egernet. Det klatrer et trin op ved hver højde, hvor begge sider har et hul. Er siderne lige høje, når det det gyldne øverste trin og agernet, og stigen foldes sammen til et skilt: 2 + 3 = 9 − 4, et regnestykke på begge sider af lighedstegnet, og de giver lige meget. Er den ene side højere, går egernet i stå, og de ekstra huller på den højeste side lyser og får numre. Når egernet er gået i stå anden gang, viser kortene små sider at sammenligne.",
+        "På niveauet Omvendt regnestykke hører de fire kort til én talfamilie, for eksempel 3 + 5, 5 + 3, 8 − 5 og 8 − 3. Alle sider er 8 huller høje, så højden afgør ikke noget. Hver side har to farver, og egernet klatrer kun, hvor farverne passer: 3 + 5 hører sammen med 8 − 5, det regnestykke, der tager den del væk igen, som blev lagt til sidst. I tråd med Fælles Mål for tal og algebra. Uden tidtagning og uden point."
       ],
       "practices": [
-        "Regne værdien af både plus- og minusstykker ud",
-        "Forbinde et plusstykke med et minusstykke, der har samme resultat",
-        "Forstå lighedstegnet som \"det samme som\"",
-        "Sammenligne to forskelligt udseende regnestykker for at se, om de er lige store"
+        "At forstå lighedstegnet som “lige så meget som”: 2 + 3 = 9 − 4",
+        "At regne plus- og minusstykker op til 20",
+        "At afgøre, om to regnestykker giver lige meget",
+        "At finde det omvendte regnestykke til hvert plusstykke"
       ],
       "howToPlay": [
-        "Barnet regner hvert kort ud — plusstykker som 4 + 5 og minusstykker som 10 − 1.",
-        "Barnet trykker på et plusstykke og derefter på det minusstykke, der har samme resultat, og ser parret blive forbundet.",
-        "Find begge par med samme resultat i runden — der er ingen timer og ingen point, så tag dig god tid."
+        "Tryk på et kort med et plusstykke og et kort med et minusstykke. Deres sider dukker op ved stigerne.",
+        "Tryk på egernet for at sende det op ad stigen. Når det når agernet, passer parret, og skiltet hænger på stativet.",
+        "Går det i stå, så se på de lysende huller (ved Omvendt regnestykke hullerne med en ring om) og tryk på et andet kort. Tryk på et skilt på stativet for at skille stigen ad igen.",
+        "I indstillingerne vælger du parrene (Samme resultat eller Omvendt regnestykke), og hvornår siderne vises (Når jeg har valgt eller På kortene). »På kortene« er den lettere indstilling."
       ],
       "learningGoals": [
-        "Barnet kan forstå, at plus- og minusstykker kan være lige store",
-        "Barnet kan læse lighedstegnet som \"det samme som\" frem for \"svaret kommer nu\"",
-        "Barnet opbygger fleksibel talforståelse ved at forbinde plus- og minusstykker med samme værdi"
+        "At forstå, hvad lighedstegnet betyder",
+        "At afgøre, om et regnestykke med plus og minus på begge sider er sandt",
+        "At lægge sammen og trække fra op til 20",
+        "At forbinde hvert plusstykke med det omvendte regnestykke"
       ]
     },
     "match-pairs.match-facts-to-20.2-oa-b-2": {

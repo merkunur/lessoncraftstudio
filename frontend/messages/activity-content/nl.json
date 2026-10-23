@@ -1732,25 +1732,27 @@
     },
     "vet-diagnosis.word-problems.1-oa-a-1": {
       "about": [
-        "In de behandelkamer wacht een dierenpatiënt op jou. Zijn 'symptoom' is een klein rekenverhaal: een verhaaltje waarin getallen iets doen. In het röntgenvenster verschijnt het bijpassende model dat laat zien wat er gebeurt — wat was er eerst, wat veranderde er, en wat komt er uiteindelijk uit? Jij leest het verhaal, legt de getallen op hun plek en markeert precies daar waar het raadsel zit.",
-        "De kern is een verhaalsom — ook wel redactiesom genoemd — écht begrijpen en hem als een model van getallen nabouwen, dat heet modelleren. Het gezochte getal kan overal zitten: aan het eind, in het midden, of zelfs helemaal aan het begin, bij de omgekeerde som. Soms ga je ook vergelijken: hoeveel meer of minder heeft het ene dier dan het andere? Je telt op en trekt af tot 20, en dat sluit aan bij de SLO-kerndoelen rekenen voor groep 4.",
-        "Er is geen klok, geen score en geen stress. Je werkt op je eigen tempo, zo vaak als je wilt."
+        "Een dier komt als röntgenfoto bij de dierenarts, en zijn probleem is een rekenverhaal: ‘Er zwemmen 12 ganzen in de vijver. Er vliegen er een paar weg. Nu zijn het er 8.’ Onder het verhaal staat de lichtbak met een film, met een vak voor elk deel van het verhaal. Het kind legt de getallen uit het verhaal op de vakken waar ze horen, markeert het vak dat we niet weten en stelt het getal in.",
+        "Dan drukt het kind op Diagnose en speelt de film zijn eigen model af, zin voor zin. Ligt een getal op het verkeerde vak, dan stopt de film daar: het vak en zijn zin lichten samen op. Is het ingestelde getal fout, dan zie je dat in het laatste vak, aan stippen die over de rand lopen of plekjes die leeg blijven. Een van de drie getalkaarten is een lokkertje, vaak het getal dat je krijgt met de verkeerde bewerking: optellen terwijl het verhaal iets weghaalt, of andersom.",
+        "Past de film bij het verhaal, dan trekt de mist op, wordt het dier beter en verschijnt de som (‘12 − 4 = 8’). Er zijn verhalen met erbij, eraf, samenvoegen en vergelijken, met het onbekende op elke plek, en de stand Groepjes met gelijke groepjes en eerlijk verdelen. Passend bij de kerndoelen voor getallen en bewerkingen. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Reken-verhaalsommen tot 20 lezen en op een model nabouwen",
-        "Optellen en aftrekken tot 20",
-        "Het onbekende getal op elke plek vinden: aan het eind, in het midden of aan het begin",
-        "Vergelijken: hoeveel meer of minder?"
+        "Bepalen bij welk deel van een verhaalsom elk getal hoort",
+        "Het onbekende vinden aan het begin, in de verandering of aan het eind",
+        "Twee hoeveelheden vergelijken: hoeveel meer, hoeveel minder",
+        "De som opschrijven die bij het verhaal past"
       ],
       "howToPlay": [
-        "Lees het rekenverhaal van de dierenpatiënt in de behandelkamer.",
-        "Leg de getallen op het model in het röntgenvenster en markeer het onbekende getal.",
-        "Draai het juiste antwoord en help het dier weer op weg."
+        "Lees het verhaal (of druk op de luidspreker). Tik op een getalkaart en dan op het vak waar dat getal in het verhaal hoort.",
+        "Tik op het vak dat we niet weten om het met een vraagteken te markeren, en stel met − en + op dat vak in hoeveel het er zijn.",
+        "Druk op Diagnose en kijk naar je film. Stopt hij, kijk dan naar het oplichtende vak en zijn zin, verander iets en probeer het opnieuw.",
+        "In de instellingen kies je de verhalen (tot 10, tot 20 of Groepjes) en of het verhaal wordt voorgelezen."
       ],
       "learningGoals": [
-        "Je begrijpt een verhaalsom en bouwt hem na als een model van getallen.",
-        "Je telt op en trekt af tot 20, ook bij de omgekeerde en de vergelijk-verhalen.",
-        "Je vindt het gezochte getal, waar het ook in het verhaal zit."
+        "Verhaalsommen met erbij, eraf en samenvoegen tot 20 oplossen, met het onbekende op elke plek",
+        "Vergelijkingssommen oplossen: hoeveel meer en hoeveel minder",
+        "Een verhaalsom modelleren en een som met het onbekende opschrijven",
+        "Sommen met gelijke groepjes en eerlijk verdelen oplossen"
       ]
     },
     "bos-berry-pantry.slingshot-tens.1-nbt-b-2": {

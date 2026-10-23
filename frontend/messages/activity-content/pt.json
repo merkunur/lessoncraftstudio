@@ -2689,27 +2689,27 @@
     },
     "vet-diagnosis.word-problems.1-oa-a-1": {
       "about": [
-        "No consultório da raposa veterinária, cada bichinho chega com um “sintoma” diferente — e o sintoma é sempre uma história de números. A criança escuta o caso com calma, coloca os números no diagrama certo e marca com “?” aquilo que ainda é mistério. Quando o modelo fica montado, ela escreve a resposta e o pacientinho sai curado.",
-        "A ideia central não é apenas calcular: é entender e representar o problema antes de responder. Aqui a incógnita pode estar em qualquer lugar da história — no fim, no meio e até no começo (“? + 5 = 12”) —, e também aparecem problemas de comparação, do tipo “quantos a mais?”. Um número distrator entra de propósito na cena, então não dá para adivinhar: a criança precisa realmente modelar a situação para saber o que somar e o que tirar, sempre dentro do campo até 20.",
-        "Tudo acontece sem pressa: não há cronômetro, não há pontuação e não há competição — só um jeito acolhedor de pensar, no ritmo de cada criança e sem medo de errar. A atividade usa materiais manipuláveis na tela e está alinhada à BNCC, dentro da unidade temática de Números, no trabalho com problemas de adição e subtração."
+        "Um animal chega ao veterinário como um raio-X, e o problema dele é uma história com números: “Há 12 gansos no lago. Alguns vão embora voando. Agora são 8.” Embaixo da história fica a caixa de luz com um filme, que tem um quadro para cada parte da história. A criança coloca os números da história nos quadros onde eles se encaixam, marca o quadro que a gente não sabe e escolhe o número.",
+        "Depois toca em Diagnosticar e o filme mostra o próprio modelo da criança, frase por frase. Se um número estiver no quadro errado, o filme para ali: o quadro e a frase dele brilham juntos. Se o número escolhido estiver errado, o último quadro mostra isso, com pontinhos transbordando ou lugares vazios. Um dos três cartões é uma isca, muitas vezes o número que sai com a conta errada: somar quando a história tira, ou o contrário.",
+        "Quando o filme combina com a história, a neblina se dissipa, o animal sara e aparece a conta (“12 − 4 = 8”). Há histórias de acrescentar, retirar, juntar e comparar, com o valor desconhecido em qualquer lugar, e o nível Grupos com grupos iguais e partilha. De acordo com a BNCC, na unidade de números. Sem cronômetro e sem pontos."
       ],
       "practices": [
-        "Ler o problema com atenção e identificar o que a história está perguntando.",
-        "Representar a situação com números em um diagrama (mudança, parte-parte-todo ou comparação).",
-        "Somar e subtrair dentro do campo numérico até 20.",
-        "Encontrar o número desconhecido em qualquer posição — no começo, no meio ou no fim.",
-        "Comparar duas quantidades e dizer quantos a mais ou a menos."
+        "Decidir a que parte de um problema cada número pertence",
+        "Encontrar o valor desconhecido no começo, na mudança ou no fim",
+        "Comparar duas quantidades: quantos a mais, quantos a menos",
+        "Escrever a conta que combina com a história"
       ],
       "howToPlay": [
-        "Ouça ou leia com calma a história do pacientinho que chegou ao consultório.",
-        "Coloque os números no diagrama e marque com “?” o valor que ainda é mistério.",
-        "Escreva a resposta e toque em “Diagnosticar” para curar o bichinho."
+        "Leia a história (ou toque no alto-falante). Toque num cartão com número e depois no quadro onde esse número se encaixa na história.",
+        "Toque no quadro que a gente não sabe para marcá-lo com um ponto de interrogação, e escolha com − e + nesse quadro quantos são.",
+        "Toque em Diagnosticar e veja seu filme. Se ele parar, olhe o quadro que brilha e a frase dele, mude alguma coisa e tente de novo.",
+        "Nas configurações, escolha as histórias (até 10, até 20 ou Grupos) e se a história é lida em voz alta."
       ],
       "learningGoals": [
-        "Eu consigo ler uma história de números e entender o que ela pede.",
-        "Eu sei montar o problema em um diagrama antes de calcular.",
-        "Eu consigo somar e subtrair até 20 para achar o número que falta.",
-        "Eu consigo comparar duas quantidades e dizer quantos a mais ou a menos."
+        "Resolver problemas de acrescentar, retirar e juntar até 20 com o valor desconhecido em qualquer lugar",
+        "Resolver problemas de comparação: quantos a mais e quantos a menos",
+        "Representar um problema e escrever uma conta com o valor desconhecido",
+        "Resolver problemas de grupos iguais e de partilha"
       ]
     },
     "tildy.measure-ruler.2-md-a-1": {

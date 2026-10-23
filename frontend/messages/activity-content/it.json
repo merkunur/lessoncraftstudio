@@ -4303,6 +4303,29 @@
         "Il bambino traccia nel verso giusto e nell’ordine giusto",
         "Il bambino scrive minuscole e maiuscole a memoria"
       ]
+    },
+    "sunny-side-diner.compound-order.l-k-1-f": {
+      "about": [
+        "Una frase intera ha un inizio, delle parti unite e una fine. Nella caffetteria di Sunny le parti di un’ordinazione sono piatti su un binario d’ottone, e i piatti sono calamite che si respingono: solo una «e» d’oro riesce a tenerne insieme due.",
+        "Prima il bambino mette sul vassoio l’ordinazione del biglietto: il cibo giusto, nella quantità giusta. Il vassoio diventa piatti sul binario, tra l’inizio «Vorrei» e lo sportello della cucina. Il bambino mette la «e» d’oro nello spazio tra i piatti e la fine «per favore.» in fondo al binario; solo allora lo sportello si apre e la frase si illumina parola per parola.",
+        "Quattro tipi di turno: preparare l’ordinazione e dirla; la «e» che manca; correggere l’ordinazione del robot, che ha un piatto sbagliato; e «ancora una cosa!», quando arriva un terzo piatto e la prima «e» diventa una virgola. Con «Ascolta», il biglietto si richiude dopo qualche secondo. In linea con le Indicazioni nazionali, senza cronometro e senza punti."
+      ],
+      "practices": [
+        "Dire un’ordinazione in una sola frase completa",
+        "Unire due parti di una frase con «e»",
+        "Dare a una frase un inizio e una fine",
+        "Aggiungere una terza parte con una virgola e «e»"
+      ],
+      "howToPlay": [
+        "Guarda il biglietto. Tocca le cassette finché tutta l’ordinazione è sul vassoio, poi premi «Controlla».",
+        "Tocca la «e» d’oro e poi lo spazio tra i piatti. Metti la fine in fondo al binario e premi «Controlla».",
+        "In «Tipi di turno» scegli un altro tipo; in «Ordinazione» scegli «Ascolta» e il biglietto si richiude."
+      ],
+      "learningGoals": [
+        "Il bambino dice un’ordinazione in una frase completa, con un inizio e una fine",
+        "Il bambino unisce due parti di una frase con «e»",
+        "Il bambino arricchisce una frase con una terza parte, usando una virgola e «e»"
+      ]
     }
   }
 }

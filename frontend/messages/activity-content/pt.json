@@ -4340,6 +4340,29 @@
         "A criança traça na direção certa e na ordem certa",
         "A criança escreve minúsculas e maiúsculas de memória"
       ]
+    },
+    "sunny-side-diner.compound-order.l-k-1-f": {
+      "about": [
+        "Uma frase inteira tem começo, partes ligadas e final. Na lanchonete da Sunny, as partes de um pedido são pratos sobre um trilho de latão, e os pratos são ímãs que se repelem: só um “e” dourado consegue manter dois deles juntos.",
+        "Primeiro, a criança coloca na bandeja o pedido da comanda: a comida certa, na quantidade certa. A bandeja vira pratos no trilho, entre o começo “Eu queria” e a janelinha da cozinha. A criança coloca o “e” dourado no espaço entre os pratos e põe o final “por favor.” no fim do trilho; só então a janelinha se abre e a frase se acende palavra por palavra.",
+        "Quatro tipos de rodada: juntar o pedido e falar; o “e” que falta; corrigir o pedido do robô, que tem um prato errado; e “mais uma coisa!”, quando chega um terceiro prato e o primeiro “e” vira uma vírgula. Com “Ouvir”, a comanda se dobra depois de alguns segundos. De acordo com a BNCC, sem cronômetro e sem pontos."
+      ],
+      "practices": [
+        "Falar um pedido como uma frase completa",
+        "Ligar duas partes de uma frase com “e”",
+        "Dar a uma frase um começo e um final",
+        "Acrescentar uma terceira parte com vírgula e “e”"
+      ],
+      "howToPlay": [
+        "Olhe a comanda. Toque nas caixas até o pedido inteiro estar na bandeja e depois toque em “Conferir”.",
+        "Toque no “e” dourado e depois no espaço entre os pratos. Coloque o final no fim do trilho e toque em “Conferir”.",
+        "Em “Tipos de rodada”, escolha outro tipo; em “Pedido”, escolha “Ouvir” e a comanda se dobra."
+      ],
+      "learningGoals": [
+        "A criança fala um pedido como uma frase completa, com começo e final",
+        "A criança liga duas partes de uma frase com “e”",
+        "A criança amplia uma frase com uma terceira parte, usando vírgula e “e”"
+      ]
     }
   }
 }

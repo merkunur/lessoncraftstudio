@@ -2464,6 +2464,29 @@
         "Barnet velger spørreordet som passer til et svar",
         "Barnet sorterer svar etter spørsmålet de svarer på"
       ]
+    },
+    "sunny-side-diner.compound-order.l-k-1-f": {
+      "about": [
+        "En hel setning har en begynnelse, deler som er bundet sammen, og en slutt. På Sunnys kafé er delene av en bestilling tallerkener på en messingskinne, og tallerkenene er magneter som skyver hverandre bort: Bare et gyllent «og» kan holde to av dem sammen.",
+        "Først legger barnet bestillingen fra lappen på brettet: riktig mat og riktig antall av hver. Brettet blir til tallerkener på skinnen, mellom begynnelsen «Jeg vil gjerne ha» og kjøkkenluka. Barnet setter det gylne «og» i mellomrommet mellom tallerkenene og slutten «takk.» sist på skinnen; først da går luka opp, og setningen lyser opp ord for ord.",
+        "Fire typer runder: samle bestillingen og si den; det manglende «og»; rette robotens bestilling, hvor én tallerken er feil; og «én ting til!», når en tredje tallerken kommer og det første «og» blir til et komma. Med «Lytt» bretter lappen seg sammen etter noen sekunder. I tråd med LK20, uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Å si en bestilling som én hel setning",
+        "Å binde sammen to deler av en setning med «og»",
+        "Å gi en setning en begynnelse og en slutt",
+        "Å legge til en tredje del med komma og «og»"
+      ],
+      "howToPlay": [
+        "Se på lappen. Trykk på kassene til hele bestillingen ligger på brettet, og trykk så på «Sjekk».",
+        "Trykk på det gylne «og» og så på mellomrommet mellom tallerkenene. Sett slutten sist på skinnen, og trykk på «Sjekk».",
+        "Under «Typer runder» velger du en annen type, og under «Bestilling» kan du velge «Lytt», så bretter lappen seg sammen."
+      ],
+      "learningGoals": [
+        "Barnet sier en bestilling som én hel setning med begynnelse og slutt",
+        "Barnet binder sammen to deler av en setning med «og»",
+        "Barnet utvider en setning med en tredje del, med komma og «og»"
+      ]
     }
   }
 }

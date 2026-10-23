@@ -3307,6 +3307,29 @@
         "Barnet väljer det frågeord som passar ett svar",
         "Barnet sorterar svar efter frågan de svarar på"
       ]
+    },
+    "sunny-side-diner.compound-order.l-k-1-f": {
+      "about": [
+        "En hel mening har en början, delar som binds ihop och ett slut. På Sunnys kafé är delarna i en beställning tallrikar på en mässingsskena, och tallrikarna är magneter som knuffar bort varandra: bara ett gyllene ”och” kan hålla ihop två av dem.",
+        "Först lägger barnet beställningen från lappen på brickan: rätt mat och rätt antal av varje. Brickan blir tallrikar på skenan, mellan början ”Jag skulle vilja ha” och köksluckan. Barnet sätter det gyllene ”och” i mellanrummet mellan tallrikarna och slutet ”tack.” sist på skenan; först då öppnas köksluckan och meningen lyser upp ord för ord.",
+        "Fyra sorters omgångar: samla beställningen och säga den; det ”och” som saknas; rätta robotens beställning, där en tallrik är fel; och ”en sak till!”, när en tredje tallrik kommer och det första ”och” blir ett kommatecken. Med ”Lyssna” viks lappen ihop efter några sekunder. I linje med Lgr22, utan tidtagning och utan poäng."
+      ],
+      "practices": [
+        "Att säga en beställning som en hel mening",
+        "Att binda ihop två delar av en mening med ”och”",
+        "Att ge en mening en början och ett slut",
+        "Att lägga till en tredje del med kommatecken och ”och”"
+      ],
+      "howToPlay": [
+        "Titta på lappen. Tryck på lådorna tills hela beställningen ligger på brickan och tryck sedan på ”Kontrollera”.",
+        "Tryck på det gyllene ”och” och sedan på mellanrummet mellan tallrikarna. Sätt slutet sist på skenan och tryck på ”Kontrollera”.",
+        "Under ”Typer av omgångar” väljer du en annan typ, och under ”Beställning” kan du välja ”Lyssna”, så viks lappen ihop."
+      ],
+      "learningGoals": [
+        "Barnet säger en beställning som en hel mening med början och slut",
+        "Barnet binder ihop två delar av en mening med ”och”",
+        "Barnet bygger ut en mening med en tredje del, med kommatecken och ”och”"
+      ]
     }
   }
 }

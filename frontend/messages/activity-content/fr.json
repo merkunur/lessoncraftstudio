@@ -709,25 +709,25 @@
     },
     "sunny-side-diner.compound-order.l-k-1-f": {
       "about": [
-        "Bienvenue au restaurant de Sunny ! Ici, votre enfant tient le rôle du serveur. Un client s'installe et passe sa commande : à votre enfant d'écouter, de poser les bons aliments sur le plateau, puis de redire toute la commande à voix haute en une seule phrase, par exemple « Je voudrais deux crêpes et un lait, s'il vous plaît. » Tout se joue directement dans le navigateur, sans rien installer.",
-        "Le jeu travaille une compétence clé du langage oral : produire une phrase complète. En reliant deux groupes de mots avec « et », votre enfant apprend à coordonner ses idées et à construire une phrase plus longue et bien formée. Écouter la commande, puis la reformuler entièrement, c'est aussi entraîner l'attention et la mémoire des mots entendus.",
-        "L'activité avance au rythme de votre enfant : pas de chronomètre, pas de points, pas de pression. Chaque commande est une petite réussite tranquille, à recommencer autant de fois qu'il le souhaite. Les contenus sont pensés en cohérence avec les programmes officiels."
+        "Une phrase entière a un début, des parties reliées et une fin. Au restaurant de Sunny, les parties d’une commande sont des assiettes sur un rail en laiton, et les assiettes sont des aimants qui se repoussent : seul un « et » doré peut en tenir deux ensemble.",
+        "D’abord, l’enfant met la commande du ticket sur le plateau : les bons aliments, dans la bonne quantité. Le plateau devient des assiettes sur le rail, entre le début « Je voudrais » et le passe-plat de la cuisine. L’enfant place le « et » doré dans l’espace entre les assiettes et met la fin « s’il vous plaît. » au bout du rail ; alors seulement le passe-plat s’ouvre et la phrase s’allume mot par mot.",
+        "Quatre sortes de manches : rassembler la commande et la dire ; le « et » qui manque ; corriger la commande du robot, où une assiette est fausse ; et « encore une chose ! », quand une troisième assiette arrive et que le premier « et » devient une virgule. Avec « Écouter », le ticket se replie au bout de quelques secondes. En lien avec les programmes officiels, sans chronomètre et sans points."
       ],
       "practices": [
-        "Produire une phrase complète, du début à la fin",
-        "Relier deux groupes de mots avec « et » (la coordination)",
-        "Écouter une commande, puis la redire entièrement",
-        "Employer une formule polie : « Je voudrais… s'il vous plaît »"
+        "Dire une commande en une seule phrase complète",
+        "Relier deux parties d’une phrase avec « et »",
+        "Donner à une phrase un début et une fin",
+        "Ajouter une troisième partie avec une virgule et « et »"
       ],
       "howToPlay": [
-        "Écoute bien la commande du client",
-        "Pose les bons aliments sur le plateau",
-        "Redis toute la commande en une seule phrase, avec « et »"
+        "Regarde le ticket. Touche les bacs jusqu’à ce que toute la commande soit sur le plateau, puis appuie sur « Vérifier ».",
+        "Touche le « et » doré, puis l’espace entre les assiettes. Mets la fin au bout du rail et appuie sur « Vérifier ».",
+        "Dans « Types de manches », choisis une autre sorte de manche ; dans « Commande », choisis « Écouter » et le ticket se replie."
       ],
       "learningGoals": [
-        "Votre enfant produit une phrase complète et bien construite à l'oral",
-        "Votre enfant relie deux groupes de mots avec « et » pour allonger sa phrase",
-        "Votre enfant écoute une consigne, la garde en mémoire et la reformule à voix haute"
+        "L’enfant dit une commande en une phrase complète, avec un début et une fin",
+        "L’enfant relie deux parties d’une phrase avec « et »",
+        "L’enfant enrichit une phrase d’une troisième partie avec une virgule et « et »"
       ]
     },
     "wren-question-window.question-words.l-k-1-d": {

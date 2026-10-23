@@ -4372,6 +4372,29 @@
         "Het kind schrijft in de goede richting en in de goede volgorde",
         "Het kind schrijft kleine letters en hoofdletters uit het hoofd"
       ]
+    },
+    "sunny-side-diner.compound-order.l-k-1-f": {
+      "about": [
+        "Een hele zin heeft een begin, delen die verbonden zijn en een einde. In het café van Sunny zijn de delen van een bestelling borden op een koperen rails, en de borden zijn magneten die elkaar wegduwen: alleen een gouden ‘en’ houdt er twee bij elkaar.",
+        "Eerst zet het kind de bestelling van het bonnetje op het dienblad: het goede eten, en van elk zoveel als er staat. Het dienblad wordt borden op de rails, tussen het begin ‘Ik wil graag’ en het keukenluik. Het kind zet de gouden ‘en’ in het gat tussen de borden en het einde ‘alstublieft.’ aan het eind van de rails; pas dan gaat het luik open en licht de zin woord voor woord op.",
+        "Vier soorten rondes: de bestelling verzamelen en zeggen; de ontbrekende ‘en’; de bestelling van de robot verbeteren, waarin één bord fout is; en ‘nog één ding!’, als er een derde bord komt en de eerste ‘en’ een komma wordt. Met ‘Luisteren’ klapt het bonnetje na een paar seconden dicht. Passend bij de kerndoelen, zonder tijdsdruk en zonder punten."
+      ],
+      "practices": [
+        "Een bestelling als één hele zin zeggen",
+        "Twee zinsdelen verbinden met ‘en’",
+        "Een zin een begin en een einde geven",
+        "Een derde deel toevoegen met een komma en ‘en’"
+      ],
+      "howToPlay": [
+        "Kijk op het bonnetje. Tik op de bakken tot de hele bestelling op het dienblad staat en druk dan op ‘Controleren’.",
+        "Tik op de gouden ‘en’ en dan op het gat tussen de borden. Zet het einde aan het eind van de rails en druk op ‘Controleren’.",
+        "Kies bij ‘Soort rondes’ een andere soort, en bij ‘Bestelling’ ‘Luisteren’: dan klapt het bonnetje dicht."
+      ],
+      "learningGoals": [
+        "Het kind zegt een bestelling als één hele zin met een begin en een einde",
+        "Het kind verbindt twee zinsdelen met ‘en’",
+        "Het kind breidt een zin uit met een derde deel, met een komma en ‘en’"
+      ]
     }
   }
 }

@@ -4304,6 +4304,29 @@
         "El niño elige entre -s y -es escuchando la sílaba de más",
         "El niño forma el singular quitando la terminación"
       ]
+    },
+    "sunny-side-diner.compound-order.l-k-1-f": {
+      "about": [
+        "Una oración completa tiene un principio, partes unidas y un final. En la cafetería de Sunny, las partes de un pedido son platos sobre un riel de latón, y los platos son imanes que se repelen: solo una «y» dorada puede mantener dos juntos.",
+        "Primero, el niño pone en la charola el pedido de la nota: la comida correcta y la cantidad correcta de cada una. La charola se convierte en platos sobre el riel, entre el principio «Me da» y la ventanilla de la cocina. El niño coloca la «y» dorada en el espacio entre los platos y pone el final «por favor.» al final del riel; solo entonces se abre la ventanilla y la oración se ilumina palabra por palabra.",
+        "Cuatro tipos de rondas: juntar el pedido y decirlo; la «y» que falta; corregir el pedido del robot, que tiene un plato equivocado; y «¡una cosa más!», cuando llega un tercer plato y la primera «y» se convierte en una coma. Con «Escuchar», la nota se dobla después de unos segundos. En línea con los planes de estudio, sin cronómetro y sin puntos."
+      ],
+      "practices": [
+        "Decir un pedido como una sola oración completa",
+        "Unir dos partes de una oración con «y»",
+        "Darle a una oración su principio y su final",
+        "Agregar una tercera parte con una coma y «y»"
+      ],
+      "howToPlay": [
+        "Mira la nota. Toca las cajas hasta que todo el pedido esté en la charola y luego presiona «Revisar».",
+        "Toca la «y» dorada y luego el espacio entre los platos. Pon el final al final del riel y presiona «Revisar».",
+        "En «Tipo de rondas» elige otro tipo de ronda; en «Pedido» elige «Escuchar» y la nota se dobla."
+      ],
+      "learningGoals": [
+        "El niño dice un pedido como una oración completa, con principio y final",
+        "El niño une dos partes de una oración con «y»",
+        "El niño amplía una oración con una tercera parte, usando una coma y «y»"
+      ]
     }
   }
 }

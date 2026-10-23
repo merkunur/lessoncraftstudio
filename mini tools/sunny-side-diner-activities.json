@@ -1,66 +1,135 @@
 [
   {
     "id": "sunny-side-diner.compound-order.l-k-1-f",
-    "tool": "sunny-side-diner-activity",
+    "tool": "magnet-plates-activity",
     "task_template": "compound-order",
-    "alignment": { "framework": "CCSS", "code": "L.K.1.F", "grade": "K", "strand": "Language" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "L.K.1.F",
+      "grade": "K",
+      "strand": "Language"
+    },
     "params": {
-      "rounds": [
-        {
-          "id": "asm-pancake-milk", "type": "assemble", "band": 1, "customer": "bear",
-          "order": { "items": [{ "food": "pancake", "quantity": 2 }, { "food": "milk", "quantity": 1 }], "conjunction": { "lemma": "and" } },
-          "distractors": { "foods": ["egg", "juice"], "quantities": [1, 3] }
+      "note": "A mirror of magnet-plates-core.js (the sentence each round builds, per locale). The core is the source; this row runs the Magnet Plates.",
+      "levels": [
+        "l1",
+        "l2",
+        "l3",
+        "l4"
+      ],
+      "orders": [
+        "show",
+        "listen"
+      ],
+      "byLocale": {
+        "en": {
+          "l1": "I would like two pancakes and milk, please. | I would like two croissants and juice, please. | I would like a waffle and two bananas, please. | I would like three cookies and milk, please. | I would like two muffins and juice, please. | I would like a bagel and three strawberries, please. | I would like two donuts and an orange, please. | I would like three apples and a cupcake, please.",
+          "l2": "I would like three cookies and milk, please. | I would like two muffins and juice, please. | I would like a waffle and an orange, please. | I would like two bananas and milk, please. | I would like two pancakes and juice, please. | I would like three strawberries and a bagel, please. | I would like a croissant and two apples, please.",
+          "l3": "I would like two croissants and milk, please. | I would like a pancake and two bananas, please. | I would like three cookies and juice, please. | I would like two muffins and an orange, please. | I would like a bagel and two strawberries, please. | I would like two donuts and milk, please. | I would like a waffle and three apples, please.",
+          "l4": "I would like two pancakes, milk, and a croissant, please. | I would like a waffle, juice, and two bananas, please. | I would like two cookies, milk, and an apple, please. | I would like three strawberries, juice, and a muffin, please. | I would like two donuts, an orange, and milk, please. | I would like a bagel, two apples, and juice, please. | I would like two cupcakes, milk, and three strawberries, please."
         },
-        {
-          "id": "asm-egg-juice", "type": "assemble", "band": 1, "customer": "cat",
-          "order": { "items": [{ "food": "egg", "quantity": 2 }, { "food": "juice", "quantity": 1 }], "conjunction": { "lemma": "and" } },
-          "distractors": { "foods": ["waffle", "milk"], "quantities": [1, 3] }
+        "de": {
+          "l1": "Ich hätte gern zwei Pancakes und eine Milch, bitte. | Ich hätte gern zwei Croissants und einen Saft, bitte. | Ich hätte gern eine Waffel und zwei Bananen, bitte. | Ich hätte gern drei Kekse und eine Milch, bitte. | Ich hätte gern zwei Muffins und einen Saft, bitte. | Ich hätte gern einen Bagel und drei Erdbeeren, bitte. | Ich hätte gern zwei Donuts und eine Orange, bitte. | Ich hätte gern drei Äpfel und einen Cupcake, bitte.",
+          "l2": "Ich hätte gern drei Kekse und eine Milch, bitte. | Ich hätte gern zwei Muffins und einen Saft, bitte. | Ich hätte gern eine Waffel und eine Orange, bitte. | Ich hätte gern zwei Bananen und eine Milch, bitte. | Ich hätte gern zwei Pancakes und einen Saft, bitte. | Ich hätte gern drei Erdbeeren und einen Bagel, bitte. | Ich hätte gern ein Croissant und zwei Äpfel, bitte.",
+          "l3": "Ich hätte gern zwei Croissants und eine Milch, bitte. | Ich hätte gern einen Pancake und zwei Bananen, bitte. | Ich hätte gern drei Kekse und einen Saft, bitte. | Ich hätte gern zwei Muffins und eine Orange, bitte. | Ich hätte gern einen Bagel und zwei Erdbeeren, bitte. | Ich hätte gern zwei Donuts und eine Milch, bitte. | Ich hätte gern eine Waffel und drei Äpfel, bitte.",
+          "l4": "Ich hätte gern zwei Pancakes, eine Milch und ein Croissant, bitte. | Ich hätte gern eine Waffel, einen Saft und zwei Bananen, bitte. | Ich hätte gern zwei Kekse, eine Milch und einen Apfel, bitte. | Ich hätte gern drei Erdbeeren, einen Saft und einen Muffin, bitte. | Ich hätte gern zwei Donuts, eine Orange und eine Milch, bitte. | Ich hätte gern einen Bagel, zwei Äpfel und einen Saft, bitte. | Ich hätte gern zwei Cupcakes, eine Milch und drei Erdbeeren, bitte."
         },
-        {
-          "id": "asm-waffle-banana", "type": "assemble", "band": 1, "customer": "mouse",
-          "order": { "items": [{ "food": "waffle", "quantity": 1 }, { "food": "banana", "quantity": 2 }], "conjunction": { "lemma": "and" } },
-          "distractors": { "foods": ["cookie", "apple"], "quantities": [1, 3] }
+        "nl": {
+          "l1": "Ik wil graag twee pannenkoeken en melk, alstublieft. | Ik wil graag twee croissants en sap, alstublieft. | Ik wil graag een wafel en twee bananen, alstublieft. | Ik wil graag drie koekjes en melk, alstublieft. | Ik wil graag twee muffins en sap, alstublieft. | Ik wil graag een bagel en drie aardbeien, alstublieft. | Ik wil graag twee donuts en een sinaasappel, alstublieft. | Ik wil graag drie appels en een cupcake, alstublieft.",
+          "l2": "Ik wil graag drie koekjes en melk, alstublieft. | Ik wil graag twee muffins en sap, alstublieft. | Ik wil graag een wafel en een sinaasappel, alstublieft. | Ik wil graag twee bananen en melk, alstublieft. | Ik wil graag twee pannenkoeken en sap, alstublieft. | Ik wil graag drie aardbeien en een bagel, alstublieft. | Ik wil graag een croissant en twee appels, alstublieft.",
+          "l3": "Ik wil graag twee croissants en melk, alstublieft. | Ik wil graag een pannenkoek en twee bananen, alstublieft. | Ik wil graag drie koekjes en sap, alstublieft. | Ik wil graag twee muffins en een sinaasappel, alstublieft. | Ik wil graag een bagel en twee aardbeien, alstublieft. | Ik wil graag twee donuts en melk, alstublieft. | Ik wil graag een wafel en drie appels, alstublieft.",
+          "l4": "Ik wil graag twee pannenkoeken, melk en een croissant, alstublieft. | Ik wil graag een wafel, sap en twee bananen, alstublieft. | Ik wil graag twee koekjes, melk en een appel, alstublieft. | Ik wil graag drie aardbeien, sap en een muffin, alstublieft. | Ik wil graag twee donuts, een sinaasappel en melk, alstublieft. | Ik wil graag een bagel, twee appels en sap, alstublieft. | Ik wil graag twee cupcakes, melk en drie aardbeien, alstublieft."
         },
-        {
-          "id": "ins-cookie-milk", "type": "insert-and", "band": 1, "customer": "bear",
-          "order": { "items": [{ "food": "cookie", "quantity": 3 }, { "food": "milk", "quantity": 1 }], "conjunction": { "lemma": "and" } },
-          "distractors": { "foods": [], "quantities": [] }
+        "da": {
+          "l1": "Jeg vil gerne have to pandekager og mælk, tak. | Jeg vil gerne have to croissanter og juice, tak. | Jeg vil gerne have en vaffel og to bananer, tak. | Jeg vil gerne have tre småkager og mælk, tak. | Jeg vil gerne have to muffins og juice, tak. | Jeg vil gerne have en bagel og tre jordbær, tak. | Jeg vil gerne have to donuts og en appelsin, tak. | Jeg vil gerne have tre æbler og en cupcake, tak.",
+          "l2": "Jeg vil gerne have tre småkager og mælk, tak. | Jeg vil gerne have to muffins og juice, tak. | Jeg vil gerne have en vaffel og en appelsin, tak. | Jeg vil gerne have to bananer og mælk, tak. | Jeg vil gerne have to pandekager og juice, tak. | Jeg vil gerne have tre jordbær og en bagel, tak. | Jeg vil gerne have en croissant og to æbler, tak.",
+          "l3": "Jeg vil gerne have to croissanter og mælk, tak. | Jeg vil gerne have en pandekage og to bananer, tak. | Jeg vil gerne have tre småkager og juice, tak. | Jeg vil gerne have to muffins og en appelsin, tak. | Jeg vil gerne have en bagel og to jordbær, tak. | Jeg vil gerne have to donuts og mælk, tak. | Jeg vil gerne have en vaffel og tre æbler, tak.",
+          "l4": "Jeg vil gerne have to pandekager, mælk og en croissant, tak. | Jeg vil gerne have en vaffel, juice og to bananer, tak. | Jeg vil gerne have to småkager, mælk og et æble, tak. | Jeg vil gerne have tre jordbær, juice og en muffin, tak. | Jeg vil gerne have to donuts, en appelsin og mælk, tak. | Jeg vil gerne have en bagel, to æbler og juice, tak. | Jeg vil gerne have to cupcakes, mælk og tre jordbær, tak."
         },
-        {
-          "id": "ins-muffin-juice", "type": "insert-and", "band": 1, "customer": "cat",
-          "order": { "items": [{ "food": "muffin", "quantity": 2 }, { "food": "juice", "quantity": 1 }], "conjunction": { "lemma": "and" } },
-          "distractors": { "foods": [], "quantities": [] }
+        "sv": {
+          "l1": "Jag skulle vilja ha två pannkakor och mjölk, tack. | Jag skulle vilja ha två croissanter och juice, tack. | Jag skulle vilja ha en våffla och två bananer, tack. | Jag skulle vilja ha tre kakor och mjölk, tack. | Jag skulle vilja ha två muffins och juice, tack. | Jag skulle vilja ha en bagel och tre jordgubbar, tack. | Jag skulle vilja ha två munkar och en apelsin, tack. | Jag skulle vilja ha tre äpplen och en cupcake, tack.",
+          "l2": "Jag skulle vilja ha tre kakor och mjölk, tack. | Jag skulle vilja ha två muffins och juice, tack. | Jag skulle vilja ha en våffla och en apelsin, tack. | Jag skulle vilja ha två bananer och mjölk, tack. | Jag skulle vilja ha två pannkakor och juice, tack. | Jag skulle vilja ha tre jordgubbar och en bagel, tack. | Jag skulle vilja ha en croissant och två äpplen, tack.",
+          "l3": "Jag skulle vilja ha två croissanter och mjölk, tack. | Jag skulle vilja ha en pannkaka och två bananer, tack. | Jag skulle vilja ha tre kakor och juice, tack. | Jag skulle vilja ha två muffins och en apelsin, tack. | Jag skulle vilja ha en bagel och två jordgubbar, tack. | Jag skulle vilja ha två munkar och mjölk, tack. | Jag skulle vilja ha en våffla och tre äpplen, tack.",
+          "l4": "Jag skulle vilja ha två pannkakor, mjölk och en croissant, tack. | Jag skulle vilja ha en våffla, juice och två bananer, tack. | Jag skulle vilja ha två kakor, mjölk och ett äpple, tack. | Jag skulle vilja ha tre jordgubbar, juice och en muffin, tack. | Jag skulle vilja ha två munkar, en apelsin och mjölk, tack. | Jag skulle vilja ha en bagel, två äpplen och juice, tack. | Jag skulle vilja ha två cupcakes, mjölk och tre jordgubbar, tack."
         },
-        {
-          "id": "rep-egg-milk", "type": "repair-item", "band": 2, "customer": "robot",
-          "order": { "items": [{ "food": "egg", "quantity": 2 }, { "food": "milk", "quantity": 1 }], "conjunction": { "lemma": "and" } },
-          "robotError": { "slot": 1, "wrongFood": "juice" },
-          "distractors": { "foods": ["juice", "waffle"], "quantities": [1, 3] }
+        "no": {
+          "l1": "Jeg vil gjerne ha to pannekaker og melk, takk. | Jeg vil gjerne ha to croissanter og juice, takk. | Jeg vil gjerne ha en vaffel og to bananer, takk. | Jeg vil gjerne ha tre kjeks og melk, takk. | Jeg vil gjerne ha to muffins og juice, takk. | Jeg vil gjerne ha en bagel og tre jordbær, takk. | Jeg vil gjerne ha to donuts og en appelsin, takk. | Jeg vil gjerne ha tre epler og en cupcake, takk.",
+          "l2": "Jeg vil gjerne ha tre kjeks og melk, takk. | Jeg vil gjerne ha to muffins og juice, takk. | Jeg vil gjerne ha en vaffel og en appelsin, takk. | Jeg vil gjerne ha to bananer og melk, takk. | Jeg vil gjerne ha to pannekaker og juice, takk. | Jeg vil gjerne ha tre jordbær og en bagel, takk. | Jeg vil gjerne ha en croissant og to epler, takk.",
+          "l3": "Jeg vil gjerne ha to croissanter og melk, takk. | Jeg vil gjerne ha en pannekake og to bananer, takk. | Jeg vil gjerne ha tre kjeks og juice, takk. | Jeg vil gjerne ha to muffins og en appelsin, takk. | Jeg vil gjerne ha en bagel og to jordbær, takk. | Jeg vil gjerne ha to donuts og melk, takk. | Jeg vil gjerne ha en vaffel og tre epler, takk.",
+          "l4": "Jeg vil gjerne ha to pannekaker, melk og en croissant, takk. | Jeg vil gjerne ha en vaffel, juice og to bananer, takk. | Jeg vil gjerne ha to kjeks, melk og et eple, takk. | Jeg vil gjerne ha tre jordbær, juice og en muffins, takk. | Jeg vil gjerne ha to donuts, en appelsin og melk, takk. | Jeg vil gjerne ha en bagel, to epler og juice, takk. | Jeg vil gjerne ha to cupcakes, melk og tre jordbær, takk."
         },
-        {
-          "id": "rep-pancake-banana", "type": "repair-item", "band": 2, "customer": "robot",
-          "order": { "items": [{ "food": "pancake", "quantity": 1 }, { "food": "banana", "quantity": 2 }], "conjunction": { "lemma": "and" } },
-          "robotError": { "slot": 0, "wrongFood": "waffle" },
-          "distractors": { "foods": ["waffle", "apple"], "quantities": [1, 3] }
+        "es": {
+          "l1": "Me da dos hot cakes y leche, por favor. | Me da dos cuernitos y jugo, por favor. | Me da un waffle y dos plátanos, por favor. | Me da tres galletas y leche, por favor. | Me da dos muffins y jugo, por favor. | Me da un bagel y tres fresas, por favor. | Me da dos donas y una naranja, por favor. | Me da tres manzanas y un cupcake, por favor.",
+          "l2": "Me da tres galletas y leche, por favor. | Me da dos muffins y jugo, por favor. | Me da un waffle y una naranja, por favor. | Me da dos plátanos y leche, por favor. | Me da dos hot cakes y jugo, por favor. | Me da tres fresas y un bagel, por favor. | Me da un cuernito y dos manzanas, por favor.",
+          "l3": "Me da dos cuernitos y leche, por favor. | Me da un hot cake y dos plátanos, por favor. | Me da tres galletas y jugo, por favor. | Me da dos muffins y una naranja, por favor. | Me da un bagel y dos fresas, por favor. | Me da dos donas y leche, por favor. | Me da un waffle y tres manzanas, por favor.",
+          "l4": "Me da dos hot cakes, leche y un cuernito, por favor. | Me da un waffle, jugo y dos plátanos, por favor. | Me da dos galletas, leche y una manzana, por favor. | Me da tres fresas, jugo y un muffin, por favor. | Me da dos donas, una naranja y leche, por favor. | Me da un bagel, dos manzanas y jugo, por favor. | Me da dos cupcakes, leche y tres fresas, por favor."
         },
-        {
-          "id": "ext-pancake-milk-egg", "type": "extend", "band": 3, "customer": "mouse",
-          "order": { "items": [{ "food": "pancake", "quantity": 2 }, { "food": "milk", "quantity": 1 }], "conjunction": { "lemma": "and" } },
-          "extension": { "food": "egg", "quantity": 1 },
-          "distractors": { "foods": ["egg", "juice"], "quantities": [1, 3] }
+        "it": {
+          "l1": "Vorrei due pancake e del latte, per favore. | Vorrei due cornetti e un succo, per favore. | Vorrei un waffle e due banane, per favore. | Vorrei tre biscotti e del latte, per favore. | Vorrei due muffin e un succo, per favore. | Vorrei un bagel e tre fragole, per favore. | Vorrei due ciambelle e un’arancia, per favore. | Vorrei tre mele e un cupcake, per favore.",
+          "l2": "Vorrei tre biscotti e del latte, per favore. | Vorrei due muffin e un succo, per favore. | Vorrei un waffle e un’arancia, per favore. | Vorrei due banane e del latte, per favore. | Vorrei due pancake e un succo, per favore. | Vorrei tre fragole e un bagel, per favore. | Vorrei un cornetto e due mele, per favore.",
+          "l3": "Vorrei due cornetti e del latte, per favore. | Vorrei un pancake e due banane, per favore. | Vorrei tre biscotti e un succo, per favore. | Vorrei due muffin e un’arancia, per favore. | Vorrei un bagel e due fragole, per favore. | Vorrei due ciambelle e del latte, per favore. | Vorrei un waffle e tre mele, per favore.",
+          "l4": "Vorrei due pancake, del latte e un cornetto, per favore. | Vorrei un waffle, un succo e due banane, per favore. | Vorrei due biscotti, del latte e una mela, per favore. | Vorrei tre fragole, un succo e un muffin, per favore. | Vorrei due ciambelle, un’arancia e del latte, per favore. | Vorrei un bagel, due mele e un succo, per favore. | Vorrei due cupcake, del latte e tre fragole, per favore."
         },
-        {
-          "id": "ext-waffle-juice-banana", "type": "extend", "band": 3, "customer": "mouse",
-          "order": { "items": [{ "food": "waffle", "quantity": 1 }, { "food": "juice", "quantity": 1 }], "conjunction": { "lemma": "and" } },
-          "extension": { "food": "banana", "quantity": 2 },
-          "distractors": { "foods": ["banana", "cookie"], "quantities": [2, 3] }
+        "pt": {
+          "l1": "Eu queria duas panquecas e leite, por favor. | Eu queria dois croissants e suco, por favor. | Eu queria um waffle e duas bananas, por favor. | Eu queria três cookies e leite, por favor. | Eu queria dois muffins e suco, por favor. | Eu queria um bagel e três morangos, por favor. | Eu queria dois donuts e uma laranja, por favor. | Eu queria três maçãs e um cupcake, por favor.",
+          "l2": "Eu queria três cookies e leite, por favor. | Eu queria dois muffins e suco, por favor. | Eu queria um waffle e uma laranja, por favor. | Eu queria duas bananas e leite, por favor. | Eu queria duas panquecas e suco, por favor. | Eu queria três morangos e um bagel, por favor. | Eu queria um croissant e duas maçãs, por favor.",
+          "l3": "Eu queria dois croissants e leite, por favor. | Eu queria uma panqueca e duas bananas, por favor. | Eu queria três cookies e suco, por favor. | Eu queria dois muffins e uma laranja, por favor. | Eu queria um bagel e dois morangos, por favor. | Eu queria dois donuts e leite, por favor. | Eu queria um waffle e três maçãs, por favor.",
+          "l4": "Eu queria duas panquecas, leite e um croissant, por favor. | Eu queria um waffle, suco e duas bananas, por favor. | Eu queria dois cookies, leite e uma maçã, por favor. | Eu queria três morangos, suco e um muffin, por favor. | Eu queria dois donuts, uma laranja e leite, por favor. | Eu queria um bagel, duas maçãs e suco, por favor. | Eu queria dois cupcakes, leite e três morangos, por favor."
+        },
+        "fr": {
+          "l1": "Je voudrais deux pancakes et du lait, s’il vous plaît. | Je voudrais deux croissants et du jus, s’il vous plaît. | Je voudrais une gaufre et deux bananes, s’il vous plaît. | Je voudrais trois cookies et du lait, s’il vous plaît. | Je voudrais deux muffins et du jus, s’il vous plaît. | Je voudrais un bagel et trois fraises, s’il vous plaît. | Je voudrais deux donuts et une orange, s’il vous plaît. | Je voudrais trois pommes et un cupcake, s’il vous plaît.",
+          "l2": "Je voudrais trois cookies et du lait, s’il vous plaît. | Je voudrais deux muffins et du jus, s’il vous plaît. | Je voudrais une gaufre et une orange, s’il vous plaît. | Je voudrais deux bananes et du lait, s’il vous plaît. | Je voudrais deux pancakes et du jus, s’il vous plaît. | Je voudrais trois fraises et un bagel, s’il vous plaît. | Je voudrais un croissant et deux pommes, s’il vous plaît.",
+          "l3": "Je voudrais deux croissants et du lait, s’il vous plaît. | Je voudrais un pancake et deux bananes, s’il vous plaît. | Je voudrais trois cookies et du jus, s’il vous plaît. | Je voudrais deux muffins et une orange, s’il vous plaît. | Je voudrais un bagel et deux fraises, s’il vous plaît. | Je voudrais deux donuts et du lait, s’il vous plaît. | Je voudrais une gaufre et trois pommes, s’il vous plaît.",
+          "l4": "Je voudrais deux pancakes, du lait et un croissant, s’il vous plaît. | Je voudrais une gaufre, du jus et deux bananes, s’il vous plaît. | Je voudrais deux cookies, du lait et une pomme, s’il vous plaît. | Je voudrais trois fraises, du jus et un muffin, s’il vous plaît. | Je voudrais deux donuts, une orange et du lait, s’il vous plaît. | Je voudrais un bagel, deux pommes et du jus, s’il vous plaît. | Je voudrais deux cupcakes, du lait et trois fraises, s’il vous plaît."
+        },
+        "fi": {
+          "l1": "Saisinko kaksi pannukakkua ja maitoa, kiitos? | Saisinko kaksi croissantia ja mehua, kiitos? | Saisinko vohvelin ja kaksi banaania, kiitos? | Saisinko kolme keksiä ja maitoa, kiitos? | Saisinko kaksi muffinia ja mehua, kiitos? | Saisinko bagelin ja kolme mansikkaa, kiitos? | Saisinko kaksi munkkia ja appelsiinin, kiitos? | Saisinko kolme omenaa ja kuppikakun, kiitos?",
+          "l2": "Saisinko kolme keksiä ja maitoa, kiitos? | Saisinko kaksi muffinia ja mehua, kiitos? | Saisinko vohvelin ja appelsiinin, kiitos? | Saisinko kaksi banaania ja maitoa, kiitos? | Saisinko kaksi pannukakkua ja mehua, kiitos? | Saisinko kolme mansikkaa ja bagelin, kiitos? | Saisinko croissantin ja kaksi omenaa, kiitos?",
+          "l3": "Saisinko kaksi croissantia ja maitoa, kiitos? | Saisinko pannukakun ja kaksi banaania, kiitos? | Saisinko kolme keksiä ja mehua, kiitos? | Saisinko kaksi muffinia ja appelsiinin, kiitos? | Saisinko bagelin ja kaksi mansikkaa, kiitos? | Saisinko kaksi munkkia ja maitoa, kiitos? | Saisinko vohvelin ja kolme omenaa, kiitos?",
+          "l4": "Saisinko kaksi pannukakkua, maitoa ja croissantin, kiitos? | Saisinko vohvelin, mehua ja kaksi banaania, kiitos? | Saisinko kaksi keksiä, maitoa ja omenan, kiitos? | Saisinko kolme mansikkaa, mehua ja muffinin, kiitos? | Saisinko kaksi munkkia, appelsiinin ja maitoa, kiitos? | Saisinko bagelin, kaksi omenaa ja mehua, kiitos? | Saisinko kaksi kuppikakkua, maitoa ja kolme mansikkaa, kiitos?"
         }
-      ]
+      }
     },
     "theme": null,
-    "slug": { "en": "sunny-side-diner", "fr": "dire-la-commande-en-une-phrase-au-restaurant-cp" },
-    "page_title": { "en": "Sunny-Side Diner — Say the Whole Order (Kindergarten)", "fr": "Le restaurant de Sunny — Dire la commande en une phrase (CP)" },
-    "page_intro": { "en": "An interactive Kindergarten speaking game for complete sentences: be the waiter at the Sunny-Side Diner. First LISTEN and gather the whole order on the tray; then SAY THE ORDER BACK as one complete sentence — \"two pancakes and a milk, please\" — joining the parts with the golden \"and\" coupler. That read-back is what makes the customer smile. Producing and expanding a complete compound sentence is the heart of Common Core L.K.1.F.", "fr": "Au restaurant de Sunny, votre enfant devient le serveur : il écoute la commande du client, rassemble les bons aliments sur le plateau, puis redit toute la commande en une seule phrase complète en reliant les deux parties avec « et ». Activité interactive, CP, domaine « Langage oral »." },
+    "slug": {
+      "en": "sunny-side-diner",
+      "fr": "dire-la-commande-en-une-phrase-au-restaurant-cp",
+      "de": "ganze-saetze-sagen-mit-und-im-cafe-klasse-1",
+      "nl": "hele-zinnen-maken-met-en-in-het-cafe-groep-3",
+      "da": "sunnys-cafe-hele-saetninger-med-og",
+      "sv": "sunnys-kafe-hela-meningar-med-och",
+      "no": "sunnys-kafe-hele-setninger-med-og",
+      "es": "oraciones-completas-con-y-en-la-cafeteria-1-primaria",
+      "it": "frasi-complete-con-e-in-caffetteria-classe-prima",
+      "pt": "frases-completas-com-e-na-lanchonete-1-ano",
+      "fi": "sunnyn-kahvila-kokonaiset-lauseet-ja-sanalla"
+    },
+    "page_title": {
+      "en": "Sunny-Side Diner — Say the Whole Order (Kindergarten)",
+      "fr": "Le restaurant de Sunny — Dire la commande en une phrase (CP)",
+      "de": "Sunnys Café — Die ganze Bestellung in einem Satz (Klasse 1)",
+      "nl": "Het café van Sunny — De hele bestelling in één zin (groep 3)",
+      "da": "Sunnys café – Hele bestillingen i én sætning (1. klasse)",
+      "sv": "Sunnys kafé – Hela beställningen i en mening (åk 1)",
+      "no": "Sunnys kafé – Hele bestillingen i én setning (1. trinn)",
+      "es": "La cafetería de Sunny — Di todo el pedido en una oración (1.º de primaria)",
+      "it": "La caffetteria di Sunny — Tutta l’ordinazione in una frase (classe prima)",
+      "pt": "A lanchonete da Sunny — Fale o pedido inteiro em uma frase (1º ano)",
+      "fi": "Sunnyn kahvila – Koko tilaus yhdellä lauseella (1. luokka)"
+    },
+    "page_intro": {
+      "en": "An interactive Kindergarten speaking game for complete sentences: be the waiter at the Sunny-Side Diner. First LISTEN and gather the whole order on the tray; then SAY THE ORDER BACK as one complete sentence — \"two pancakes and a milk, please\" — joining the parts with the golden \"and\" coupler. That read-back is what makes the customer smile. Producing and expanding a complete compound sentence is the heart of Common Core L.K.1.F.",
+      "fr": "Au restaurant de Sunny, votre enfant devient le serveur : il écoute la commande du client, rassemble les bons aliments sur le plateau, puis redit toute la commande en une seule phrase complète en reliant les deux parties avec « et ». Activité interactive, CP, domaine « Langage oral ».",
+      "de": "In Sunnys Café sind die Bestellteller Magnete: Sie stoßen sich ab, bis ein goldenes „und“ sie verbindet. Das Kind sammelt die Bestellung auf dem Tablett und sagt sie dann als einen ganzen Satz – mit Anfang, „und“ und Ende. Erst dann geht die Küchenklappe auf. Interaktiv, für Klasse 1.",
+      "nl": "In het café van Sunny zijn de borden van de bestelling magneten: ze duwen elkaar weg tot een gouden ‘en’ ze verbindt. Het kind zet de bestelling op het dienblad en zegt haar daarna als één hele zin, met een begin, ‘en’ en een einde. Pas dan gaat het keukenluik open. Interactief, voor groep 3.",
+      "da": "På Sunnys café er bestillingens tallerkener magneter: De skubber hinanden væk, indtil et gyldent »og« binder dem sammen. Barnet samler bestillingen på bakken og siger den så som én hel sætning med begyndelse, »og« og slutning. Først da går køkkenlugen op. Interaktivt til 1. klasse.",
+      "sv": "På Sunnys kafé är beställningens tallrikar magneter: de knuffar bort varandra tills ett gyllene ”och” binder ihop dem. Barnet samlar beställningen på brickan och säger den sedan som en hel mening, med början, ”och” och slut. Först då öppnas köksluckan. Interaktivt för åk 1.",
+      "no": "På Sunnys kafé er bestillingens tallerkener magneter: De skyver hverandre bort til et gyllent «og» binder dem sammen. Barnet samler bestillingen på brettet og sier den så som én hel setning, med begynnelse, «og» og slutt. Først da går kjøkkenluka opp. Interaktivt for 1. trinn.",
+      "es": "En la cafetería de Sunny, los platos del pedido son imanes: se repelen hasta que una «y» dorada los une. El niño junta el pedido en la charola y luego lo dice como una sola oración completa, con principio, «y» y final. Solo entonces se abre la ventanilla de la cocina. Actividad interactiva para 1.º de primaria.",
+      "it": "Nella caffetteria di Sunny i piatti dell’ordinazione sono calamite: si respingono finché una «e» d’oro non li unisce. Il bambino prepara l’ordinazione sul vassoio e poi la dice come una frase intera, con inizio, «e» e fine. Solo allora si apre lo sportello della cucina. Attività interattiva per la classe prima.",
+      "pt": "Na lanchonete da Sunny, os pratos do pedido são ímãs: eles se repelem até que um “e” dourado os junte. A criança coloca o pedido na bandeja e depois o fala como uma frase completa, com começo, “e” e final. Só então a janelinha da cozinha se abre. Atividade interativa para o 1º ano.",
+      "fi": "Sunnyn kahvilassa tilauksen lautaset ovat magneetteja: ne työntävät toisiaan pois, kunnes kultainen ”ja” yhdistää ne. Lapsi kerää tilauksen tarjottimelle ja sanoo sen sitten yhtenä kokonaisena lauseena, jossa on alku, ”ja” ja loppu. Vasta silloin keittiön luukku aukeaa. Interaktiivinen tehtävä 1. luokalle."
+    },
     "kid_prompt_template": "compound-order"
   }
 ]

@@ -2457,6 +2457,29 @@
         "Barnet vælger det spørgeord, der passer til et svar",
         "Barnet sorterer svar efter det spørgsmål, de svarer på"
       ]
+    },
+    "sunny-side-diner.compound-order.l-k-1-f": {
+      "about": [
+        "En hel sætning har en begyndelse, dele, der er bundet sammen, og en slutning. På Sunnys café er delene af en bestilling tallerkener på en messingskinne, og tallerkenerne er magneter, der skubber hinanden væk: Kun et gyldent »og« kan holde to af dem sammen.",
+        "Først lægger barnet bestillingen fra sedlen på bakken: den rigtige mad og det rigtige antal af hver. Bakken bliver til tallerkener på skinnen mellem begyndelsen »Jeg vil gerne have« og køkkenlugen. Barnet sætter det gyldne »og« i hullet mellem tallerkenerne og slutningen »tak.« sidst på skinnen; først da går lugen op, og sætningen lyser op ord for ord.",
+        "Fire slags runder: saml bestillingen og sig den; det manglende »og«; ret robottens bestilling, hvor én tallerken er forkert; og »én ting mere!«, når en tredje tallerken kommer, og det første »og« bliver til et komma. Med »Lyt« folder sedlen sig sammen efter et par sekunder. I tråd med Fælles Mål, uden tidtagning og uden point."
+      ],
+      "practices": [
+        "At sige en bestilling som én hel sætning",
+        "At binde to dele af en sætning sammen med »og«",
+        "At give en sætning en begyndelse og en slutning",
+        "At tilføje en tredje del med komma og »og«"
+      ],
+      "howToPlay": [
+        "Se på sedlen. Tryk på kasserne, til hele bestillingen ligger på bakken, og tryk så på »Tjek«.",
+        "Tryk på det gyldne »og« og så på hullet mellem tallerkenerne. Sæt slutningen sidst på skinnen, og tryk på »Tjek«.",
+        "Under »Slags runder« vælger du en anden slags, og under »Bestilling« kan du vælge »Lyt«, så folder sedlen sig sammen."
+      ],
+      "learningGoals": [
+        "Barnet siger en bestilling som én hel sætning med begyndelse og slutning",
+        "Barnet binder to dele af en sætning sammen med »og«",
+        "Barnet udvider en sætning med en tredje del med komma og »og«"
+      ]
     }
   }
 }

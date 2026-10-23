@@ -66,6 +66,9 @@ ORDER row 84 · id `numberbond.subtraction-unknown-addend.1-oa-b-4` (kept). Desi
 | visual-qa | 60 renders green |
 | hierarchy | 662 / 0 |
 | settings-efficacy | 2 live |
+| preflight, prose-claims, serp-copy | green |
+| variety (production, en) | 10 distinct, pass 2 reshuffled |
+| live-verify-turning-domino (11 pages 200; en/de/sv/fi × 1366/390, real pointer: 8 overflows by 3, 5 heals, turn + break + put back + turn fills the house) | 75 / 0 (first run inside the Cloudflare window failed the embeds) |
 
 ## Open (page metadata — for the operator)
 - de intro "Online, ohne Anmeldung" is a no-sign-up claim.

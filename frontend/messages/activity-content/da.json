@@ -1244,24 +1244,27 @@
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {
       "about": [
-        "Find den manglende del viser et minusstykke som 8 − 3 i et talvenne-billede — det hele (8) og den ene del (3) er givet — og barnet finder den manglende del. Det er en interaktiv matematikaktivitet til 1. klasse, der kører direkte i browseren uden konto.",
-        "Den store idé er at læse subtraktion som \"hvad skal der til sammen med 3 for at give 8?\" — en manglende addend frem for en tæl-væk-handling. Barnet fylder den tomme del op, indtil de to dele igen bygger det hele, så den dybe sammenhæng mellem subtraktion og addition er netop det, barnet gør. Runderne når op til hele tal på 16. Aktiviteten følger Fælles Mål inden for tal og algebra: at forstå subtraktion som et spørgsmål om en manglende addend. Der er ingen timer og ingen point."
+        "I hver runde ligger én dominobrik på en grøn holder. Et messingskilt over den viser det hele, og de to halvdele er delene. Ét tal er skjult: En halvdel ligger vendt om, eller et filtlåg dækker skiltet. Regnestrimlen under brikken viser, hvor ? står, for eksempel 3 + ? = 8, 12 − ? = 7 eller ? − 5 = 8.",
+        "Barnet indstiller det skjulte tal med + og − og trykker på Tjek. Så går alle prikkerne op på skiltets pladser. Ligger en halvdel vendt om, lyser tomme pladser, hvis tallet er for lille, og prikker hænger ud over enden, hvis det er for stort. Med låget er det omvendt: Et for lille skilt får prikker til at hænge ud over, et for stort efterlader tomme pladser. Den almindelige fejl at lægge de to synlige tal sammen, når en halvdel er skjult, passer aldrig, og skiltet viser hvorfor.",
+        "Med det rigtige tal vender den skjulte halvdel sig, og brikken er hel igen. Nu drejer barnet den, så plusstykket bytter om, mens skiltet er det samme, og trykker på en halvdel for at brække den af: Det, der bliver tilbage på holderen, er minusstykket. Sådan fylder barnet talfamiliens fire vinduer med alle fire regnestykker. Efter to forkerte svar bliver pladserne (under låget prikkerne) lagt frem til at tælle. I tråd med Fælles Mål for tal og algebra. Uden tidtagning og uden point."
       ],
       "practices": [
-        "Se et minusstykke som et helt tal med én del, der mangler",
-        "Tænke \"hvad skal lægges til den kendte del for at give det hele?\"",
-        "Fylde den manglende del op, indtil begge dele igen bygger det hele",
-        "Forbinde subtraktion med addition (3 og 5 giver 8)"
+        "At finde en manglende del: 3 og hvor mange giver 8?",
+        "At se minus som en manglende del: 12 − ? = 7",
+        "At finde det ukendte tal på enhver plads i et plus- eller minusstykke op til 20",
+        "At lave de fire regnestykker i en talfamilie"
       ],
       "howToPlay": [
-        "Barnet kigger på talvenne-billedet — det hele og den ene del er givet, som 8 med 3.",
-        "Barnet fylder den manglende del op, indtil de to dele giver det hele, og trykker så på Tjek.",
-        "Passer det ikke? Juster delen og tjek igen — der er ingen timer og ingen point."
+        "Se på regnestrimlen: ? er det skjulte tal.",
+        "Indstil tallet med + og − og tryk på Tjek. Prikkerne går op på skiltet: Hver prik skal have en plads, og hver plads en prik.",
+        "Når talfamilien er slået til, så drej brikken med den runde pil, og tryk på en halvdel for at brække den af eller sætte den på igen, til alle fire vinduer er fyldt.",
+        "I indstillingerne vælger du tallene (op til 10 eller op til 20) og slår talfamilien til eller fra."
       ],
       "learningGoals": [
-        "Barnet kan forstå subtraktion som det at finde en manglende addend",
-        "Barnet kan finde den manglende del, når det hele og den ene del er kendt",
-        "Barnet kan se, hvordan addition og subtraktion ophæver hinanden"
+        "At forstå minus som at finde en manglende del",
+        "At finde det ukendte tal i et plus- eller minusstykke op til 20",
+        "At forbinde plus og minus gennem de fire regnestykker i en talfamilie",
+        "At se, at det ikke ændrer det hele at bytte om på delene i et plusstykke"
       ]
     },
     "place-value.expanded-form.2-nbt-a-3": {

@@ -2941,25 +2941,27 @@
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {
       "about": [
-        "A subtraction like 8 − 3 appears as a number bond — the whole (8) and one part (3) are given — and children fill in the missing part. It's an interactive Grade 1 math activity that runs right in the browser with no sign-up.",
-        "The big idea is to read subtraction as 'what goes with 3 to make 8?' — an unknown addend rather than a take-away count. The child fills the empty part until the two parts rebuild the whole, so the deep link between subtraction and addition is exactly what they do, with rounds reaching wholes up to 16.",
-        "It is aligned to Common Core 1.OA.B.4 — understanding subtraction as an unknown-addend problem. No timer, no score — just calm, playful practice."
+        "Each round shows one domino on a green holder. A brass plate above it carries the whole, and the two halves are the parts. One number is hidden: a half lies face down, or a felt lid covers the plate. The equation strip under the domino shows where the ? is, as in 3 + ? = 8, 12 − ? = 7 or ? − 5 = 8.",
+        "The child sets the hidden number with + and − and presses Check. Every dot then marches onto the plate’s places. When a half is hidden, a number that is too small leaves empty places glowing, and one that is too big leaves dots hanging off the end. When the lid hides the whole, the number is the size of the plate, so it works the other way round: a plate too small leaves dots hanging off, a plate too big leaves places empty. In a missing-part round, the common slip of adding the two numbers that are shown never fits, and the plate shows why.",
+        "After the right number, the hidden half turns over and the domino is whole again. Now the child turns the domino: the addition swaps and the plate stays the same. Tapping a half breaks it off, and what is left on the holder is the subtraction. Fact by fact, the fact house fills with all four facts of the family. On a second miss, the places (or, under the lid, the dots) are laid out to count. Aligned to Common Core 1.OA.B.4. No timer and no score."
       ],
       "practices": [
-        "See a subtraction as a whole with one part missing",
-        "Think 'what adds to the known part to make the whole?'",
-        "Fill the missing part until both parts rebuild the whole",
-        "Connect subtraction to addition (3 and 5 make 8)"
+        "Finding a missing part: 3 and how many make 8?",
+        "Seeing subtraction as a missing part: 12 − ? = 7",
+        "Finding the unknown in any place of an addition or subtraction within 20",
+        "Building the four facts of a fact family"
       ],
       "howToPlay": [
-        "Look at the number bond — the whole and one part are given, like 8 with 3.",
-        "Fill the missing part until the two parts make the whole, then press Check.",
-        "Not quite? Adjust the part and check again — there is no timer and no score."
+        "Look at the equation strip: the ? is the hidden number.",
+        "Set the number with + and − and press Check. The dots march onto the plate: every dot needs a place, and every place needs a dot.",
+        "With the fact house on, turn the domino with the round arrow and tap a half to break it off or put it back, until all four windows are filled.",
+        "In the settings, choose the numbers (Within 10 or Within 20) and switch the fact house on or off."
       ],
       "learningGoals": [
-        "Understand subtraction as finding an unknown addend — the focus of Common Core 1.OA.B.4",
-        "Find the missing part when the whole and one part are known",
-        "See how addition and subtraction undo each other"
+        "Understand subtraction as finding a missing part",
+        "Find the unknown number in an addition or subtraction within 20",
+        "Connect addition and subtraction through the four facts of a fact family",
+        "See that swapping the parts of an addition does not change the whole"
       ]
     },
     "numbers-court.judge-balance.1-oa-d-7": {

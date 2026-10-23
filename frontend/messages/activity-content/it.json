@@ -2260,25 +2260,27 @@
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {
       "about": [
-        "Una sottrazione come 8 − 3 compare sotto forma di schema parte-parte-intero: sono dati l'intero (8) e una parte (3), e il bambino completa la parte mancante. È un'attività di matematica per la classe prima, interattiva, che funziona nel browser senza registrazione.",
-        "L'idea importante è leggere la sottrazione come «cosa va insieme a 3 per fare 8?» — un addendo mancante, e non un conteggio del «togliere». Il bambino riempie la parte vuota finché le due parti ricostruiscono l'intero, così il legame profondo tra sottrazione e addizione è proprio ciò che fa, con round che arrivano a interi fino a 16.",
-        "L'attività è allineata alle Indicazioni nazionali: comprendere la sottrazione come la ricerca di un addendo mancante. Nessun timer e nessun punteggio: solo pratica serena e giocosa."
+        "In ogni turno c’è una tessera del domino su un supporto verde. Una targhetta d’ottone sopra mostra l’intero, e le due metà sono le parti. Un numero è nascosto: una metà è coperta, oppure un coperchio di feltro copre la targhetta. La striscia dell’operazione sotto la tessera mostra dove sta il ?, come in 3 + ? = 8, 12 − ? = 7 o ? − 5 = 8.",
+        "Il bambino sceglie il numero nascosto con + e − e tocca Verifica. Allora tutti i puntini salgono sui posti della targhetta. Se una metà è coperta, un numero troppo piccolo lascia posti vuoti illuminati e uno troppo grande lascia puntini appesi fuori dalla targhetta. Con il coperchio è al contrario: una targhetta troppo piccola lascia puntini appesi fuori, una troppo grande lascia posti vuoti. L’errore frequente di addizionare i due numeri che si vedono quando una metà è nascosta non ci sta mai, e la targhetta mostra perché.",
+        "Con il numero giusto, la metà nascosta si gira e la tessera torna intera. Ora il bambino la gira, così l’addizione scambia l’ordine mentre la targhetta resta uguale, e tocca una metà per staccarla: quello che resta sul supporto è la sottrazione. Così riempie le quattro finestre della famiglia di operazioni. Al secondo errore i posti (con il coperchio, i puntini) vengono disposti per contarli. In linea con le Indicazioni nazionali per i numeri. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Vedere una sottrazione come un intero a cui manca una parte.",
-        "Pensare «cosa si aggiunge alla parte nota per fare l'intero?».",
-        "Riempire la parte mancante finché le due parti ricostruiscono l'intero.",
-        "Collegare la sottrazione all'addizione (3 e 5 fanno 8)."
+        "Trovare una parte mancante: 3 e quanti fanno 8?",
+        "Vedere la sottrazione come una parte mancante: 12 − ? = 7",
+        "Trovare il numero sconosciuto in ogni posizione di un’addizione o di una sottrazione entro il 20",
+        "Formare le quattro operazioni di una famiglia di operazioni"
       ],
       "howToPlay": [
-        "Il bambino guarda lo schema — l'intero e una parte sono dati, come 8 con 3.",
-        "Riempie la parte mancante finché le due parti fanno l'intero, poi tocca Controlla.",
-        "Non torna? Aggiusta la parte e controlla di nuovo: non c'è timer né punteggio."
+        "Guarda la striscia dell’operazione: il ? è il numero nascosto.",
+        "Scegli il numero con + e − e tocca Verifica. I puntini salgono sulla targhetta: ogni puntino ha bisogno di un posto e ogni posto di un puntino.",
+        "Con la famiglia di operazioni attiva, gira la tessera con la freccia rotonda e tocca una metà per staccarla o rimetterla, finché tutte e quattro le finestre sono piene.",
+        "Nelle impostazioni scegli i numeri (fino a 10 o fino a 20) e attivi o disattivi la famiglia di operazioni."
       ],
       "learningGoals": [
-        "Comprendere la sottrazione come la ricerca di un addendo mancante.",
-        "Trovare la parte mancante quando si conoscono l'intero e una parte.",
-        "Vedere come addizione e sottrazione si annullano a vicenda."
+        "Capire la sottrazione come ricerca di una parte mancante",
+        "Trovare il numero sconosciuto in un’addizione o in una sottrazione entro il 20",
+        "Collegare addizione e sottrazione con le quattro operazioni di una famiglia",
+        "Vedere che scambiare le parti di un’addizione non cambia l’intero"
       ]
     },
     "place-value.expanded-form.2-nbt-a-3": {

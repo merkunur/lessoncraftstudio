@@ -405,7 +405,7 @@
   },
   {
     "id": "numberbond.subtraction-unknown-addend.1-oa-b-4",
-    "tool": "number-bond-activity",
+    "tool": "turning-domino-activity",
     "task_template": "unknown-addend",
     "alignment": {
       "framework": "CCSS",
@@ -414,48 +414,143 @@
       "strand": "Operations & Algebraic Thinking"
     },
     "params": {
-      "rounds": [
-        {
-          "whole": 8,
-          "given": 3,
-          "seed": 11
-        },
-        {
-          "whole": 9,
-          "given": 4,
-          "seed": 23
-        },
-        {
-          "whole": 11,
-          "given": 7,
-          "seed": 31
-        },
-        {
-          "whole": 12,
-          "given": 5,
-          "seed": 41
-        },
-        {
-          "whole": 13,
-          "given": 8,
-          "seed": 53
-        },
-        {
-          "whole": 14,
-          "given": 6,
-          "seed": 61
-        },
-        {
-          "whole": 15,
-          "given": 9,
-          "seed": 67
-        },
-        {
-          "whole": 16,
-          "given": 9,
-          "seed": 71
-        }
-      ]
+      "note": "A mirror of turning-domino-core.js (every round of every level: the whole, the two halves, the equation form, the answer). The core is the source; this row runs the Turning Domino.",
+      "levels": [
+        "w20",
+        "w10"
+      ],
+      "rounds": {
+        "w20": [
+          {
+            "whole": 8,
+            "left": 3,
+            "right": 5,
+            "form": "a+?",
+            "answer": 5
+          },
+          {
+            "whole": 9,
+            "left": 4,
+            "right": 5,
+            "form": "?+a",
+            "answer": 4
+          },
+          {
+            "whole": 11,
+            "left": 7,
+            "right": 4,
+            "form": "w-a",
+            "answer": 7
+          },
+          {
+            "whole": 12,
+            "left": 7,
+            "right": 5,
+            "form": "w-?",
+            "answer": 5
+          },
+          {
+            "whole": 13,
+            "left": 8,
+            "right": 5,
+            "form": "?-a",
+            "answer": 13
+          },
+          {
+            "whole": 14,
+            "left": 6,
+            "right": 8,
+            "form": "?+a",
+            "answer": 6
+          },
+          {
+            "whole": 15,
+            "left": 6,
+            "right": 9,
+            "form": "a+?",
+            "answer": 9
+          },
+          {
+            "whole": 16,
+            "left": 7,
+            "right": 9,
+            "form": "w-a",
+            "answer": 7
+          },
+          {
+            "whole": 17,
+            "left": 8,
+            "right": 9,
+            "form": "w-?",
+            "answer": 9
+          },
+          {
+            "whole": 19,
+            "left": 9,
+            "right": 10,
+            "form": "?-a",
+            "answer": 19
+          }
+        ],
+        "w10": [
+          {
+            "whole": 6,
+            "left": 2,
+            "right": 4,
+            "form": "a+?",
+            "answer": 4
+          },
+          {
+            "whole": 7,
+            "left": 3,
+            "right": 4,
+            "form": "?+a",
+            "answer": 3
+          },
+          {
+            "whole": 8,
+            "left": 6,
+            "right": 2,
+            "form": "w-a",
+            "answer": 6
+          },
+          {
+            "whole": 9,
+            "left": 7,
+            "right": 2,
+            "form": "w-?",
+            "answer": 2
+          },
+          {
+            "whole": 10,
+            "left": 6,
+            "right": 4,
+            "form": "?-a",
+            "answer": 10
+          },
+          {
+            "whole": 5,
+            "left": 4,
+            "right": 1,
+            "form": "a+?",
+            "answer": 1
+          },
+          {
+            "whole": 10,
+            "left": 7,
+            "right": 3,
+            "form": "?+a",
+            "answer": 7
+          },
+          {
+            "whole": 9,
+            "left": 4,
+            "right": 5,
+            "form": "?-a",
+            "answer": 9
+          }
+        ]
+      }
     },
     "theme": null,
     "slug": {

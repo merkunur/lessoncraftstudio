@@ -3120,24 +3120,27 @@
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {
       "about": [
-        "Une soustraction comme 8 − 3 apparaît sous forme de schéma de décomposition — le tout (8) et une partie (3) sont donnés — et l'enfant complète la partie qui manque. C'est une activité de mathématiques interactive pour le CP, qui fonctionne directement dans le navigateur, sans inscription.",
-        "L'idée importante, c'est de lire la soustraction comme « qu'est-ce qui va avec 3 pour faire 8 ? » — un complément à trouver, plutôt qu'un retrait à compter. L'enfant remplit la partie vide jusqu'à ce que les deux parties reconstruisent le tout : le lien profond entre la soustraction et l'addition devient exactement ce qu'il fait, avec des tours allant jusqu'à des touts de 16. Une belle façon de découvrir la soustraction au CP."
+        "À chaque manche, un domino est posé sur un support vert. Une plaque de laiton au-dessus montre le tout, et les deux moitiés sont les parties. Un nombre est caché : une moitié est face cachée, ou un couvercle de feutre recouvre la plaque. La bande du calcul sous le domino montre où se trouve le ?, comme dans 3 + ? = 8, 12 − ? = 7 ou ? − 5 = 8.",
+        "L’enfant règle le nombre caché avec + et − et appuie sur Vérifier. Alors tous les points montent sur les places de la plaque. Quand une moitié est face cachée, un nombre trop petit laisse des places vides allumées et un nombre trop grand fait dépasser des points au bout de la plaque. Avec le couvercle, c’est l’inverse : une plaque trop petite fait dépasser des points, une plaque trop grande laisse des places vides. L’erreur fréquente qui consiste à additionner les deux nombres visibles quand une moitié est cachée ne tient jamais, et la plaque montre pourquoi.",
+        "Avec le bon nombre, la moitié cachée se retourne et le domino est de nouveau entier. L’enfant le tourne alors, et l’addition échange ses termes tandis que la plaque reste la même, puis touche une moitié pour la détacher : ce qui reste sur le support, c’est la soustraction. Il remplit ainsi les quatre fenêtres de la famille d’opérations. Au deuxième essai manqué, les places (sous le couvercle, les points) sont disposées pour être comptées. En lien avec les programmes officiels pour les nombres et le calcul. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Voir une soustraction comme un tout dont une partie manque.",
-        "Se demander « combien faut-il ajouter à la partie connue pour faire le tout ? ».",
-        "Compléter la partie manquante jusqu'à reconstruire le tout.",
-        "Relier la soustraction à l'addition (3 et 5 font 8)."
+        "Trouver une partie manquante : 3 et combien font 8 ?",
+        "Voir la soustraction comme une partie manquante : 12 − ? = 7",
+        "Trouver le nombre inconnu à n’importe quelle place d’une addition ou d’une soustraction jusqu’à 20",
+        "Former les quatre calculs d’une famille d’opérations"
       ],
       "howToPlay": [
-        "Regarde le schéma — le tout et une partie sont donnés, par exemple 8 avec 3.",
-        "Complète la partie manquante jusqu'à ce que les deux parties fassent le tout, puis appuie sur Vérifier.",
-        "Pas tout à fait ? Ajuste la partie et vérifie à nouveau — il n'y a ni chrono ni score."
+        "Regarde la bande du calcul : le ? est le nombre caché.",
+        "Règle le nombre avec + et − et appuie sur Vérifier. Les points montent sur la plaque : chaque point a besoin d’une place, et chaque place d’un point.",
+        "Quand la famille d’opérations est activée, tourne le domino avec la flèche ronde et touche une moitié pour la détacher ou la remettre, jusqu’à ce que les quatre fenêtres soient remplies.",
+        "Dans les réglages, choisis les nombres (jusqu’à 10 ou jusqu’à 20) et active ou désactive la famille d’opérations."
       ],
       "learningGoals": [
-        "Comprendre la soustraction comme la recherche d'un complément.",
-        "Trouver la partie manquante quand le tout et une partie sont connus.",
-        "Voir comment l'addition et la soustraction se défont l'une l'autre."
+        "Comprendre la soustraction comme la recherche d’une partie manquante",
+        "Trouver le nombre inconnu dans une addition ou une soustraction jusqu’à 20",
+        "Relier addition et soustraction par les quatre calculs d’une famille",
+        "Voir qu’échanger les termes d’une addition ne change pas le tout"
       ]
     },
     "place-value.expanded-form.2-nbt-a-3": {

@@ -37,6 +37,8 @@ ORDER row 81 · id `numberbond.find-the-total.1-oa-a-1` (kept). Design: `designs
 | hierarchy | 718 / 0 |
 | settings-efficacy | 2 live |
 | preflight, prose-claims, serp-copy | green |
+| variety (production, en) | 10 distinct, pass 2 reshuffled |
+| live-verify-bond-basket (11 pages 200; en/de/sv/fi × 1366/390, real pointer: pour, post, miss 1 arc 9-10-11, 11) | 75 / 0 (first run inside the Cloudflare window failed the embeds) |
 
 ## Open (page metadata — for the operator)
 - Every frozen intro describes a number-bond DIAGRAM the game no longer shows (en "a number bond shows two parts", de Zahlenbild, nl splitsing, da taldeling, sv talkompisdiagram, no tallvennbilde, es/pt diagrama de partes y todo, it legame tra numeri, fi lukukolmio, fr arbre des nombres); fr also says «sans inscription» (a no-sign-up claim). Not changed — metadata.

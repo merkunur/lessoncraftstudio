@@ -38,6 +38,7 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
     await page.setViewport({ width: w, height: w > 500 ? 1000 : 844 });
     await page.goto(`https://www.lessoncraftstudio.com/${loc}/activities/${ROW.slug[loc]}`, { waitUntil: 'networkidle2', timeout: 90000 });
     const frameEl = await page.waitForSelector('iframe[src*="rung-ladder-activity.html"]', { timeout: 30000 }).catch(() => null);
+    if (!frameEl) console.error('   (iframes seen: ' + (await page.evaluate(() => [...document.querySelectorAll('iframe')].map(f => f.getAttribute('src')).join(' ; ')).catch(e => 'eval failed ' + e.message)) + ' @ ' + page.url() + ')');
     is(!!frameEl, `[${loc} @${w}] the page embeds rung-ladder-activity.html`);
     if (!frameEl) { await page.close(); continue; }
     const src = await page.evaluate(f => f.getAttribute('src'), frameEl);

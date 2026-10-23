@@ -3493,25 +3493,27 @@
     },
     "numberbond.make-ten-to-add.1-oa-c-6": {
       "about": [
-        "Bij een som als 8 + 5 splitst je kind het tweede getal op een splitsschema, zodat één deel het eerste getal aanvult tot tien (8 + 2 = 10), en telt daarna op wat er overblijft (10 + 3 = 13). Deze strategie van aanvullen tot tien komt tot leven in een interactieve rekenactiviteit die zonder account in de browser speelt.",
-        "Het grote idee is om een lastige som om te zetten in een makkelijke: ga eerst naar een vriendelijk tiental en tel daarna de rest erbij. Je kind tikt om het deel in te vullen dat samen met het eerste getal tien maakt, en het schema laat precies zien hoe het tweede getal wordt gesplitst, zodat de strategie iets is wat het ziet en doet en niet uit het hoofd hoeft te leren.",
-        "De activiteit sluit aan bij de kerndoelen voor rekenen in groep 3: rekenen over het tiental, optellen tot 20 door eerst aan te vullen tot tien. Geen timer, geen score; gewoon rustig oefenen."
+        "Het eerste getal zit als blokjes in een tienrek, en de lege plekken aan het eind zijn het gat. Het tweede getal is een staaf van blokjes. Het kind tikt op de staaf om hem te breken en sleept een stuk naar het gat. Een te lang stuk springt terug, een te kort stuk laat lege plekken oplichten, en alleen het precies passende stuk maakt het tiental vol.",
+        "Is het tiental vol, dan wordt het rek goud en laat de sommenstrook de aanpak zien, zoals in 8 + 5 = 8 + 2 + 3 = 10 + 3. De rest van de staaf ligt naast het gouden tiental bij de eenheden, en het kind typt het totaal. Is het eerste getal het kleinere, dan kan een wisselknop het grotere getal in het rek leggen.",
+        "Een verkeerd totaal wordt op de planken getekend als een spooktiental en spookeenheden. De bekende fout om na het tiental het hele tweede getal erbij te tellen (8 + 5 → 15) laat extra spookplekken oplichten, met een draadje naar het tiental: die blokjes zitten nu in het tiental. Bij een tweede misser staat er 10 op het tiental, zodat het kind kan doortellen. Passend bij de kerndoelen voor getallen en bewerkingen. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Een getal in twee delen splitsen op een splitsschema",
-        "Het eerste getal aanvullen tot een tiental (8 + 2 = 10)",
-        "Het overgebleven deel bij het tiental optellen om af te ronden (10 + 3 = 13)",
-        "Vlot en flexibel leren optellen tot 20"
+        "Optellen tot 20 via het tiental: 8 + 5 = 10 + 3",
+        "Een getal zo splitsen dat één deel het tiental vol maakt",
+        "Het getal kennen dat aanvult tot 10, zoals 7 en 3",
+        "Een getal van 11 tot en met 19 zien als een tiental en eenheden"
       ],
       "howToPlay": [
-        "Kijk naar een som als 8 + 5 op het splitsschema.",
-        "Tik om het deel in te vullen dat samen met het eerste getal tien maakt, en tel daarna de rest erbij.",
-        "Niet goed? Probeer het zo vaak je wilt; er is geen timer en geen score."
+        "Tik op de staaf om hem in stukken te breken. De ronde pijl maakt hem weer heel.",
+        "Sleep een stuk naar het gat in het tienrek. Alleen het precies passende stuk past: een te lang stuk springt terug, een te kort stuk laat een gat.",
+        "Is het tiental goud, typ dan het totaal en druk op het vinkje.",
+        "In de instellingen kies je het niveau (Via het tiental optellen of Aanvullen tot 10) en de modus (Eerst breken of Uit het hoofd). In de modus ‘Uit het hoofd’ typt het kind eerst het totaal, en bij een fout breekt de staaf vanzelf."
       ],
       "learningGoals": [
-        "Je kind telt op tot 20 met de strategie van aanvullen tot tien.",
-        "Het kind splitst een getal om een vriendelijk tiental te maken.",
-        "Het kind telt flexibel op in plaats van elk getal één voor één te tellen."
+        "Optellen tot 20 via het tiental",
+        "Het tweede getal zo splitsen dat één deel het tiental aanvult",
+        "De paren kennen die samen 10 zijn",
+        "Een getal van 11 tot en met 19 begrijpen als een tiental en eenheden"
       ]
     },
     "place-value.tens-and-ones.1-nbt-b-2": {

@@ -1204,25 +1204,27 @@
     },
     "numberbond.make-ten-to-add.1-oa-c-6": {
       "about": [
-        "Laskussa kuten 8 + 5 lapsi jakaa jälkimmäisen luvun lukukolmiossa niin, että toinen osa täyttää ensimmäisen luvun kymppiin asti (8 + 2 = 10), ja lisää sitten jäljelle jääneen osan (10 + 3 = 13). Tämä kympin täyttämisen strategia herää eloon maksuttomassa ja vuorovaikutteisessa 1. luokan matematiikkatehtävässä, joka toimii suoraan selaimessa ilman tiliä.",
-        "Tärkein ajatus on muuttaa hankala lasku helpoksi: täytä ensin tuttu kymppi ja lisää sitten loput. Lapsi napauttaa täyttääkseen lukukolmion kympintäyttöosan, ja kolmio näyttää tarkalleen, miten jälkimmäinen luku jakautuu — niin että strategia on jotain, jonka lapsi näkee ja tekee, ei jotain, joka pitää opetella ulkoa.",
-        "Harjoitus on OPS 2014:n mukainen lukujen ja laskutoimitusten osa-alueella — lapsi laskee yhteen kahteenkymmeneen asti kympin ylityksen avulla. Lapsi saa edetä rauhassa omaan tahtiinsa: ei ajastinta eikä pisteitä."
+        "Ensimmäinen luku on palikoina kymppikiskossa, ja kiskon päähän jäävät tyhjät paikat ovat kolo. Toinen luku on palikoista tehty sauva. Lapsi napauttaa sauvaa katkaistakseen sen ja vetää palan koloon. Liian pitkä pala kimpoaa takaisin, liian lyhyt jättää tyhjiä paikkoja hehkumaan, ja vain täsmälleen sopiva pala täydentää kympin.",
+        "Kun kymppi on täynnä, kisko muuttuu kultaiseksi ja laskunauha näyttää laskutavan, esimerkiksi 8 + 5 = 8 + 2 + 3 = 10 + 3. Sauvan loppu odottaa kultaisen kympin vieressä ykkösten hyllyllä, ja lapsi kirjoittaa summan. Jos ensimmäinen luku on pienempi, vaihtonappi laittaa suuremman luvun kiskoon.",
+        "Väärä summa piirretään hyllyille haamukymppinä ja haamuykkösinä. Tavallinen virhe, jossa kympin jälkeen lisätään koko toinen luku (8 + 5 → 15), saa ylimääräiset haamupaikat hehkumaan, ja lanka kulkee kymppiin: ne palikat ovat nyt kympin sisällä. Toisen virheen jälkeen kympissä lukee 10, jotta lapsi voi laskea siitä eteenpäin. Sopii opetussuunnitelman sisältöalueeseen luvut ja laskutoimitukset. Ilman ajanottoa ja ilman pisteytystä."
       ],
       "practices": [
-        "Jakaa luvun kahteen osaan lukukolmiossa.",
-        "Täyttää ensimmäisen luvun kymppiin asti (8 + 2 = 10).",
-        "Lisää jäljelle jääneen osan kymppiin loppuun saakka (10 + 3 = 13).",
-        "Rakentaa sujuvaa ja joustavaa yhteenlaskua kahteenkymmeneen asti."
+        "Yhteenlasku 20:een asti kympin kautta: 8 + 5 = 10 + 3",
+        "Luvun jakaminen kahteen osaan niin, että toinen osa täydentää kympin",
+        "Kymppiparin tunteminen, esimerkiksi 7 ja 3",
+        "Luvun 11–19 näkeminen kymppinä ja ykkösinä"
       ],
       "howToPlay": [
-        "Katso lukukolmiossa näkyvää laskua kuten 8 + 5.",
-        "Napauta täyttääksesi sen osan, joka muodostaa kympin ensimmäisen luvun kanssa, ja lisää sitten loput.",
-        "Eikö osunut oikeaan? Voit yrittää uudelleen niin monta kertaa kuin haluat — ei ajastinta eikä pisteitä."
+        "Napauta sauvaa katkaistaksesi sen paloiksi. Pyöreä nuoli liittää sen takaisin yhteen.",
+        "Vedä pala kymppikiskon koloon. Vain täsmälleen sopiva pala mahtuu: liian pitkä kimpoaa takaisin, liian lyhyt jättää kolon.",
+        "Kun kymppi on kultainen, kirjoita summa ja paina rastia.",
+        "Asetuksista valitset tason (Kymppiylitys tai Kymppiparit) ja tavan (Ensin katkaisu tai Päässä). Päässä-tavassa lapsi kirjoittaa ensin summan, ja virheen jälkeen sauva katkeaa itsestään."
       ],
       "learningGoals": [
-        "Lapsi osaa laskea yhteen kahteenkymmeneen asti kympin ylityksen avulla.",
-        "Lapsi jakaa luvun osiin muodostaakseen tutun kympin.",
-        "Lapsi laskee joustavasti sen sijaan, että laskisi jokaisen luvun yksi kerrallaan."
+        "Laskea yhteen 20:een asti kympin kautta",
+        "Jakaa toinen luku niin, että osa täydentää kympin",
+        "Tuntea kymppiparit",
+        "Ymmärtää luku 11–19 kymppinä ja ykkösinä"
       ]
     },
     "place-value.tens-and-ones.1-nbt-b-2": {

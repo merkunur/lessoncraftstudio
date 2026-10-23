@@ -1794,25 +1794,27 @@
     },
     "numberbond.make-ten-to-add.1-oa-c-6": {
       "about": [
-        "Per una somma come 8 + 5, il bambino spezza il secondo numero su un grafo dei numeri così che una parte completi il primo fino a dieci (8 + 2 = 10), poi aggiunge quel che resta (10 + 3 = 13). La strategia del «fare dieci» prende vita in un'attività di matematica per la classe prima, interattiva, che si gioca direttamente nel browser senza account.",
-        "L'idea importante è trasformare un calcolo difficile in uno facile: arrivare a un dieci amico, poi aggiungere ciò che avanza. Il bambino tocca per riempire la parte che fa dieci del grafo, e il grafo mostra esattamente come si spezza il secondo numero — così la strategia è qualcosa che vede e fa, non che impara a memoria.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: addizionare entro il 20 usando la strategia del fare dieci con gli amici del 10. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
+        "Il primo numero sta in un binario da dieci fatto di cubetti, e i posti vuoti in fondo sono il buco. Il secondo numero è una barretta di cubetti. Il bambino tocca la barretta per spezzarla e trascina un pezzo nel buco. Un pezzo troppo lungo rimbalza indietro, uno troppo corto lascia posti vuoti illuminati, e solo il pezzo esatto completa la decina.",
+        "Quando la decina è completa, il binario diventa d’oro e la striscia dell’operazione mostra la strategia, come in 8 + 5 = 8 + 2 + 3 = 10 + 3. Il resto della barretta aspetta accanto alla decina d’oro sulla mensola delle unità, e il bambino scrive il totale. Se il primo numero è il più piccolo, un pulsante di scambio mette il numero più grande nel binario.",
+        "Un totale sbagliato viene disegnato sulle mensole come una decina fantasma e unità fantasma. L’errore frequente di aggiungere tutto il secondo numero dopo aver fatto la decina (8 + 5 → 15) fa illuminare posti fantasma in più, con un filo verso la decina: quei cubetti ora sono dentro la decina. Al secondo errore sulla decina compare un 10, così il bambino può continuare a contare. In linea con le Indicazioni nazionali per i numeri. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Spezzare un numero in due parti su un grafo dei numeri.",
-        "Completare il primo numero fino a un dieci (8 + 2 = 10).",
-        "Aggiungere la parte che avanza al dieci per concludere (10 + 3 = 13).",
-        "Costruire un'addizione entro il 20 sicura e flessibile."
+        "Addizionare entro il 20 completando la decina: 8 + 5 = 10 + 3",
+        "Scomporre un numero in due parti in modo che una completi il 10",
+        "Conoscere il numero che completa il 10, come 7 e 3",
+        "Vedere un numero da 11 a 19 come una decina e alcune unità"
       ],
       "howToPlay": [
-        "Il bambino guarda una somma come 8 + 5 mostrata su un grafo dei numeri.",
-        "Tocca per riempire la parte che fa dieci con il primo numero, poi aggiunge quel che resta.",
-        "Non è giusto? Si può riprovare quante volte si vuole, senza timer e senza punteggio."
+        "Tocca la barretta per spezzarla in pezzi. La freccia rotonda la riunisce.",
+        "Trascina un pezzo nel buco del binario da dieci. Entra solo il pezzo esatto: uno troppo lungo rimbalza, uno troppo corto lascia un buco.",
+        "Quando la decina è d’oro, scrivi il totale e tocca la spunta.",
+        "Nelle impostazioni scegli il livello (Completare la decina per sommare o Fare 10) e la modalità (Prima spezzare o A mente). In modalità «A mente», il bambino scrive prima il totale, e a un errore la barretta si spezza da sola."
       ],
       "learningGoals": [
-        "Addizionare entro il 20 usando la strategia del fare dieci.",
-        "Spezzare un numero per formare un dieci amico.",
-        "Addizionare in modo flessibile invece di contare ogni numero a uno a uno."
+        "Addizionare entro il 20 completando la decina",
+        "Scomporre il secondo numero in modo che una parte completi la decina",
+        "Conoscere le coppie che fanno 10",
+        "Capire un numero da 11 a 19 come una decina e unità"
       ]
     },
     "place-value.tens-and-ones.1-nbt-b-2": {

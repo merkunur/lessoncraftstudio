@@ -779,25 +779,27 @@
     },
     "numberbond.make-ten-to-add.1-oa-c-6": {
       "about": [
-        "Ved et plusstykke som 8 + 5 deler barnet det andet tal på en taldeling, så den ene del fylder det første tal helt op til ti (8 + 2 = 10), og lægger derefter resten til (10 + 3 = 13). Denne lav-en-tier-strategi bliver levende i en interaktiv matematikaktivitet til 1. klasse, der spilles direkte i browseren uden konto.",
-        "Den store idé er at lave et svært stykke om til et let: kom op til en venlig tier, og læg så resten til. Barnet trykker for at fylde lav-en-tier-delen af taldelingen, og delingen viser præcis, hvordan det andet tal deles op — så strategien er noget, barnet ser og gør, ikke noget, det skal lære udenad.",
-        "Aktiviteten følger Fælles Mål inden for tal og algebra: at lægge sammen inden for 20 ved hjælp af tierovergang. Der er ingen timer og ingen point — bare rolig, legende træning i 1. klasse."
+        "Det første tal ligger som klodser i en tierskinne, og de tomme pladser for enden er hullet. Det andet tal er en stang af klodser. Barnet trykker på stangen for at knække den og trækker et stykke hen i hullet. Et for langt stykke springer tilbage, et for kort lader tomme pladser lyse, og kun det stykke, der passer præcist, fylder tieren op.",
+        "Når tieren er fuld, bliver skinnen gylden, og regnestrimlen viser fremgangsmåden, for eksempel 8 + 5 = 8 + 2 + 3 = 10 + 3. Resten af stangen ligger ved siden af den gyldne tier på enerhylden, og barnet skriver resultatet. Er det første tal det mindre, kan en byt-knap lægge det større tal i skinnen.",
+        "Et forkert resultat vises på hylderne som en spøgelsestier og spøgelsesenere. Den almindelige fejl at lægge hele det andet tal til efter tieren (8 + 5 → 15) får ekstra spøgelsespladser til at lyse med en tråd ind i tieren: De klodser sidder nu i tieren. Efter to forkerte svar står der 10 på tieren, så barnet kan tælle videre. I tråd med Fælles Mål for tal og algebra. Uden tidtagning og uden point."
       ],
       "practices": [
-        "Dele et tal i to dele på en taldeling",
-        "Fylde det første tal op til en tier (8 + 2 = 10)",
-        "Lægge restdelen til tieren for at gøre stykket færdigt (10 + 3 = 13)",
-        "Opbygge sikker og fleksibel addition inden for 20"
+        "At lægge sammen op til 20 over tieren: 8 + 5 = 10 + 3",
+        "At dele et tal, så én del fylder tieren op",
+        "At kende det tal, der fylder op til 10, for eksempel 7 og 3",
+        "At se et tal fra 11 til 19 som en tier og nogle enere"
       ],
       "howToPlay": [
-        "Barnet kigger på et plusstykke som 8 + 5, der vises på en taldeling.",
-        "Barnet trykker for at fylde den del, der laver en tier med det første tal, og lægger derefter resten til.",
-        "Passer det ikke? Barnet kan prøve igen, så mange gange det vil — der er ingen timer og ingen point."
+        "Tryk på stangen for at knække den i stykker. Den runde pil sætter den sammen igen.",
+        "Træk et stykke hen i hullet i tierskinnen. Kun det stykke, der passer præcist, kan komme ind: Et for langt springer tilbage, et for kort efterlader et hul.",
+        "Når tieren er gylden, så skriv resultatet og tryk på fluebenet.",
+        "I indstillingerne vælger du niveauet (Læg sammen over tieren eller Op til 10) og måden (Knæk først eller I hovedet). I måden »I hovedet« skriver barnet resultatet først, og ved en fejl knækker stangen af sig selv."
       ],
       "learningGoals": [
-        "Barnet kan lægge sammen inden for 20 ved hjælp af tierovergang",
-        "Barnet kan dele et tal op, så det laver en venlig tier",
-        "Barnet kan lægge sammen fleksibelt i stedet for at tælle hvert tal én for én"
+        "At lægge sammen op til 20 over tieren",
+        "At dele det andet tal, så én del fylder tieren op",
+        "At kende de par, der giver 10",
+        "At forstå et tal fra 11 til 19 som en tier og enere"
       ]
     },
     "place-value.tens-and-ones.1-nbt-b-2": {

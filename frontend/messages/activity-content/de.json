@@ -3288,26 +3288,27 @@
     },
     "numberbond.make-ten-to-add.1-oa-c-6": {
       "about": [
-        "Lernspiel Mathe für die 1. Für eine Aufgabe wie 8 + 5 zerlegt das Kind die zweite Zahl an einem Zahlenhaus, sodass ein Teil die erste Zahl bis zehn auffüllt (8 + 2 = 10), und addiert dann den Rest (10 + 3 = 13). Diese Zehnerübergang-Strategie wird in einer interaktiven Mathe-Aktivität für die 1. Klasse lebendig, die direkt im Browser läuft, ganz ohne Konto.",
-        "Die wichtige Idee: aus einer kniffligen Aufgabe eine leichte machen – erst eine glatte Zehn erreichen, dann den Rest dazuzählen. Das Kind tippt, um den Teil zu füllen, der die Zehn voll macht, und das Zahlenhaus zeigt genau, wie sich die zweite Zahl aufteilt – so ist die Strategie etwas, das das Kind sieht und selbst tut, und nicht etwas zum Auswendiglernen.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Operationen ausgerichtet – das Addieren bis 20 mit der Zehnerübergang-Strategie. Es gibt keinen Timer und keine Punktewertung – nur ruhiges, spielerisches Üben."
+        "Die erste Zahl steckt als Steckwürfel in einer Zehnerschiene, und die leeren Plätze am Ende sind die Lücke. Die zweite Zahl ist eine Stange aus Würfeln. Das Kind tippt auf die Stange, um sie abzubrechen, und zieht ein Stück in die Lücke. Ein zu langes Stück springt zurück, ein zu kurzes lässt leere Plätze leuchten, und nur das genau passende Stück macht den Zehner voll.",
+        "Ist der Zehner voll, wird die Schiene golden, und die Rechenzeile zeigt den Rechenweg, zum Beispiel 8 + 5 = 8 + 2 + 3 = 10 + 3. Der Rest der Stange liegt neben dem goldenen Zehner bei den Einern, und das Kind tippt das Ergebnis ein. Ist die erste Zahl die kleinere, kann ein Tauschknopf die größere Zahl in die Schiene legen.",
+        "Ein falsches Ergebnis wird als Geisterzehner und Geistereiner auf den Ablagen gezeigt. Der häufige Fehler, nach dem Zehner die ganze zweite Zahl dazuzuzählen (8 + 5 → 15), lässt überzählige Geisterplätze leuchten, mit einem Faden in den Zehner: Diese Würfel stecken jetzt im Zehner. Beim zweiten Fehlversuch steht 10 auf dem Zehner, damit das Kind weiterzählen kann. Passend zum Lehrplan im Bereich Zahlen und Operationen. Ohne Zeitdruck und ohne Punktwertung."
       ],
       "practices": [
-        "Eine Zahl am Zahlenhaus in zwei Teile zerlegen.",
-        "Die erste Zahl bis zu einer Zehn auffüllen (8 + 2 = 10).",
-        "Den übrigen Teil zur Zehn dazuzählen und so fertig rechnen (10 + 3 = 13).",
-        "Flüssig und flexibel bis 20 addieren.",
-        "Statt einzeln weiterzuzählen über die glatte Zehn rechnen."
+        "Über den Zehner rechnen bis 20: 8 + 5 = 10 + 3",
+        "Eine Zahl so zerlegen, dass ein Teil den Zehner voll macht",
+        "Die Zahl kennen, die zur 10 ergänzt, zum Beispiel 7 und 3",
+        "Eine Zahl zwischen 11 und 19 als Zehner und Einer sehen"
       ],
       "howToPlay": [
-        "Schau dir eine Aufgabe wie 8 + 5 an, die am Zahlenhaus gezeigt wird.",
-        "Tippe, um den Teil zu füllen, der mit der ersten Zahl eine Zehn ergibt, und addiere dann den Rest.",
-        "Noch nicht ganz richtig? Probiere es so oft, wie du möchtest – es gibt keinen Timer und keine Punktewertung."
+        "Tipp auf die Stange, um sie in Stücke zu brechen. Der runde Pfeil setzt sie wieder zusammen.",
+        "Zieh ein Stück in die Lücke der Zehnerschiene. Nur das genau passende Stück passt: Ein zu langes springt zurück, ein zu kurzes lässt eine Lücke.",
+        "Ist der Zehner golden, tipp das Ergebnis ein und drück auf den Haken.",
+        "In den Einstellungen wählst du die Stufe (Über den Zehner rechnen oder Bis 10 ergänzen) und den Modus (Erst abbrechen oder Im Kopf). Im Modus „Im Kopf“ tippt das Kind zuerst das Ergebnis ein, und bei einem Fehler bricht die Stange von selbst."
       ],
       "learningGoals": [
-        "Bis 20 mit der Zehnerübergang-Strategie addieren.",
-        "Eine Zahl zerlegen, um eine glatte Zehn zu bilden.",
-        "Flexibel rechnen, statt jede Zahl einzeln weiterzuzählen."
+        "Bis 20 über den Zehner addieren",
+        "Die zweite Zahl so zerlegen, dass ein Teil den Zehner voll macht",
+        "Die Zahlenpaare kennen, die zusammen 10 ergeben",
+        "Zahlen zwischen 11 und 19 als Zehner und Einer verstehen"
       ]
     },
     "place-value.tens-and-ones.1-nbt-b-2": {

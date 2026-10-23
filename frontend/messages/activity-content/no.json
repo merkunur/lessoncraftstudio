@@ -2510,6 +2510,29 @@
         "Barnet ser at ting av samme slag kan se svært forskjellige ut, og at samme farge eller form ikke gjør dem til samme slag",
         "Barnet sorterer etter to kjennetegn samtidig og legger ting med begge i midten"
       ]
+    },
+    "wobble-museum.catch-drift.w-k-2": {
+      "about": [
+        "En faktaside handler om ÉN ting. I Brams museum handler hvert rom om én ting, og hvert setningskort henger på veggen i en snor. Barnet fester snora på hvert kort til det kortet handler om: rommets store skilt eller skiltet til rommet ved siden av, som synes gjennom døråpningen.",
+        "Fellene er de virkelige grunnene til at barn kommer bort fra temaet: et kort som nevner den andre tingen, men likevel handler om rommet («Frosker svømmer i innsjøer.»), to kort med det samme ordet («høylytt») og et kort der det bare står «De». Henger snorene feil, lyser ordet hvert kort handler om, opp, og «De»-kortet peker tilbake på kortet det mener. Ved Sjekk trekkes kortet om noe annet ut gjennom døra til sitt eget rom, og kortene i rommet blir en side i ei bok: «Alt om frosker».",
+        "Tre typer runder: Det fremmede kortet (fest alle snorene), Lag siden (velg kortene som hører hjemme på siden, fra vogna) og Gi rommet et navn (tre kort sier bare «De», «Den» eller «Det», og barnet setter det riktige bildet i den tomme rammen). I tråd med LK20, uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Å avgjøre hva en setning handler om",
+        "Å bare beholde fakta om temaet på siden",
+        "Å se hva et ord som «de» eller «den» peker tilbake på",
+        "Å gi noen fakta et tema"
+      ],
+      "howToPlay": [
+        "Trykk på et kort og så på skiltet kortet handler om (eller dra snora bort til skiltet). Trykk på «Sjekk» når hvert kort henger i snora si.",
+        "I «Lag siden» trykker du på et kort på vogna for å henge det opp; i «Gi rommet et navn» trykker du på et bilde for å sette det i rammen.",
+        "Under «Hjelpeord» velger du «På» for å streke under ordet hvert kort handler om; under «Kort» velger du 3 for en mindre vegg."
+      ],
+      "learningGoals": [
+        "Barnet sier hva en setning handler om, også når den nevner noe annet",
+        "Barnet beholder bare fakta om temaet på en faktaside",
+        "Barnet gir noen fakta et tema"
+      ]
     }
   }
 }

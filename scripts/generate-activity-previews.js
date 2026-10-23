@@ -231,6 +231,10 @@ function seedScript(row) {
     // three peaches climbing the shelf for a ticket of 3: the second plate has opened the word's ending slot, glowing empty — the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.level='l2';t.api.settings.answer='tiles';t._pool=null;var pool=t._ensurePool();var C=window.PlateStackCore,i=pool.filter(function(x){return C.round('en','l2',x).key==='peach';})[0];if(i===undefined)return;var order=[i];for(var k=0;k<pool.length;k++)if(pool[k]!==i)order.push(pool[k]);t._order=order;t._orderForPool=pool;window.LCS_reloadFirstTask();var s=t.st;C.add(s);C.add(s);t._view={};t._paint();})()`;
   }
+  if (row.tool === 'about-strings-activity') {
+    // every string hooked to the frog: Check lights each card's about-word, the lake card's string sags, and "They" points back to the frog card — the invention at work
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.level='l1';t.api.settings.cards='4';t.api.settings.help='off';t._pool=null;t._ensurePool();t._start(0);var C=window.AboutStringsCore,s=t.st;s.wall=['f0','f1','f2','d0'];s.wall.forEach(function(id){C.hookTo(s,id,'topic');});t._render2();t._check();})()`;
+  }
   if (row.tool === 'cousin-rain-activity') {
     // the colour trap: red apple + red tractor in one basket, banana + bus in the other — Check splits both clouds and each half rains its own cousin (a green kiwi, a purple airplane) — the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.level='l1';t.api.settings.baskets='any';t.api.settings.rain='live';t._pool=null;t._ensurePool();t._start(2);t._view.spill=false;var C=window.CousinRainCore,s=t.st;C.placeAt(s,0,0);C.placeAt(s,2,0);C.placeAt(s,1,1);C.placeAt(s,3,1);t._render2();t._check();})()`;

@@ -3671,25 +3671,25 @@
     },
     "wobble-museum.catch-drift.w-k-2": {
       "about": [
-        "No museu de temas da pega Prata, cada sala guarda um só assunto. Uma placa avisa o tema logo na entrada — por exemplo, \"Tema: sapos\" — e ali dentro ficam quatro frases curtas e verdadeiras. Três combinam com o tema da sala. Mas uma delas entrou na sala errada: ela também é verdadeira, só que fala de outra coisa, como \"A água do lago é fria\". A criança toca na frase que não pertence àquela sala.",
-        "Perceber a frase que fugiu do assunto treina uma habilidade importante da escrita: manter o foco no tema. Quando escrevemos, tudo precisa combinar com a ideia principal. O detalhe esperto desta atividade é que a frase intrusa não está errada — ela é verdadeira. Isso mostra que uma frase pode ser correta e, ainda assim, não caber no assunto. Assim, a criança aprende a olhar para o sentido, e não só para uma palavra que se repete.",
-        "A atividade não pede cadastro. Não há relógio, pontos nem competição — cada criança avança no seu ritmo, sem pressa e sem medo de errar. O botão \"🔊 Ouvir\" lê as frases em voz alta, ajudando quem ainda está aprendendo a ler. O trabalho segue a BNCC, na área de produção de textos, apoiando desde os primeiros anos a ideia de manter o foco no tema."
+        "Uma página informativa fala de UMA coisa só. No museu do Bram cada sala fala de uma coisa, e cada cartão com uma frase fica pendurado na parede por um barbante. A criança prende o barbante de cada cartão naquilo de que o cartão fala: a placa grande da sala ou a placa da sala ao lado, que aparece pela porta.",
+        "As armadilhas são os motivos reais de as crianças saírem do assunto: um cartão que fala o nome da outra coisa, mas ainda é sobre a sala (“As rãs nadam nos lagos.”), dois cartões com a mesma palavra (“barulhenta”) e um cartão sem nome, só com o verbo (“Comem insetos.”). Se os barbantes estão errados, brilha em cada cartão a palavra de que ele fala, e o cartão sem nome aponta para o cartão a que se refere. Ao conferir, o cartão que fala de outra coisa é puxado pela porta até a sala dele, e os cartões da sala viram uma página de um livro: “Tudo sobre as rãs”.",
+        "Três tipos de rodada: O cartão intruso (prenda todos os barbantes), Faça a página (escolha no carrinho os cartões que combinam) e Dê nome à sala (três cartões não falam o nome, e a criança coloca a figura certa na moldura vazia). De acordo com a BNCC, sem cronômetro e sem pontos."
       ],
       "practices": [
-        "Reconhecer o tema (o assunto) de um grupo de frases.",
-        "Perceber quando uma frase foge do assunto da sala.",
-        "Entender que uma frase pode ser verdadeira e, mesmo assim, não combinar com o tema.",
-        "Prestar atenção no sentido das frases, e não só nas palavras repetidas."
+        "Decidir sobre o que uma frase fala",
+        "Deixar na página só as frases sobre o assunto",
+        "Perceber a quem se refere uma frase que não fala o nome",
+        "Dar um assunto a um grupo de frases"
       ],
       "howToPlay": [
-        "Leia a placa e descubra o tema da sala.",
-        "Leia as quatro frases (ou toque em \"🔊 Ouvir\" para escutar).",
-        "Toque na frase que entrou na sala errada."
+        "Toque em um cartão e depois na placa de que ele fala (ou arraste o barbante até a placa). Aperte “Conferir” quando todos os cartões estiverem presos pelo barbante.",
+        "Em “Faça a página”, toque em um cartão no carrinho para pendurá-lo; em “Dê nome à sala”, toque em uma figura para colocá-la na moldura.",
+        "Em “Palavras que ajudam”, escolha “Sim” para sublinhar a palavra de que cada cartão fala; em “Cartões”, escolha 3 para uma parede menor."
       ],
       "learningGoals": [
-        "Eu consigo descobrir o tema de um grupo de frases.",
-        "Eu percebo a frase que não combina com o assunto.",
-        "Eu entendo que uma frase verdadeira pode não pertencer ao tema."
+        "A criança diz sobre o que uma frase fala, mesmo quando ela cita outra coisa",
+        "A criança deixa numa página informativa só as frases sobre o assunto",
+        "A criança dá um assunto a um grupo de frases"
       ]
     },
     "marina-headline-desk.main-topic.ri-2-2": {

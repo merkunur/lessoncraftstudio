@@ -2502,6 +2502,29 @@
         "Lapsi huomaa, että saman lajin asiat voivat näyttää hyvin erilaisilta ja että sama väri tai muoto ei tee niistä samaa lajia",
         "Lapsi lajittelee kahden ominaisuuden mukaan yhtä aikaa ja laittaa keskelle asiat, joilla on molemmat"
       ]
+    },
+    "wobble-museum.catch-drift.w-k-2": {
+      "about": [
+        "Tietosivu kertoo YHDESTÄ asiasta. Bramin museossa jokainen huone kertoo yhdestä asiasta, ja jokainen lausekortti roikkuu seinällä narussa. Lapsi kiinnittää jokaisen kortin narun siihen, mistä kortti kertoo: huoneen isoon kylttiin tai viereisen huoneen kylttiin, joka näkyy oviaukosta.",
+        "Ansat ovat juuri niitä syitä, joiden vuoksi lapset eksyvät aiheesta: kortti, joka mainitsee toisen asian mutta kertoo silti huoneen aiheesta (”Sammakot uivat järvissä.”), kaksi korttia, joissa on sama sana (”kovaääninen”), ja kortti, jossa lukee vain ”Ne”. Jos narut ovat väärin, jokaisesta kortista hehkuu sana, josta kortti kertoo, ja ”Ne”-kortti osoittaa korttiin, jota se tarkoittaa. Tarkistaessa toisesta asiasta kertova kortti vedetään oven läpi omaan huoneeseensa, ja huoneen korteista tulee kirjan sivu: ”Kaikki sammakoista”.",
+        "Kolmenlaisia kierroksia: Vieras kortti (kiinnitä kaikki narut), Tee sivu (valitse kärrystä sivulle kuuluvat kortit) ja Nimeä huone (kolme korttia sanoo vain ”Ne” tai ”Se”, ja lapsi laittaa oikean kuvan tyhjään kehykseen). Opetussuunnitelman mukaisesti, ilman ajanottoa ja ilman pisteitä."
+      ],
+      "practices": [
+        "Sen päättäminen, mistä lause kertoo",
+        "Vain aiheeseen kuuluvien lauseiden pitäminen sivulla",
+        "Sen huomaaminen, mihin sana ”ne” tai ”se” viittaa",
+        "Lauseryhmän aiheen nimeäminen"
+      ],
+      "howToPlay": [
+        "Napauta korttia ja sitten kylttiä, josta kortti kertoo (tai vedä naru kylttiin). Paina ”Tarkista”, kun jokainen kortti roikkuu narussaan.",
+        "Kohdassa ”Tee sivu” napauta kärryssä olevaa korttia, niin se ripustetaan seinälle; kohdassa ”Nimeä huone” napauta kuvaa, niin se menee kehykseen.",
+        "Valitse kohdasta ”Apusanat” ”Päällä”, niin sana, josta kortti kertoo, alleviivataan; valitse kohdasta ”Kortit” 3, niin seinä on pienempi."
+      ],
+      "learningGoals": [
+        "Lapsi kertoo, mistä lause kertoo, vaikka siinä mainitaan jokin muu asia",
+        "Lapsi pitää tietosivulla vain aiheeseen kuuluvat lauseet",
+        "Lapsi nimeää lauseryhmän aiheen"
+      ]
     }
   }
 }

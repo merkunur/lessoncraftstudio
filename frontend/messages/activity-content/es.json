@@ -4327,6 +4327,29 @@
         "El niño une dos partes de una oración con «y»",
         "El niño amplía una oración con una tercera parte, usando una coma y «y»"
       ]
+    },
+    "mims-baskets.category-sort.l-k-5-a": {
+      "about": [
+        "Al clasificar cosas, el niño aprende qué quieren decir de verdad palabras como «animal» o «comida». En Las canastas de la memoria de Mim, Mim, la nubecita, voltea su canasta y sus cosas ruedan por el pasto. Las canastas de abajo no tienen etiquetas: el niño decide qué cosas van juntas.",
+        "Cuando una canasta tiene dos o más cosas del mismo tipo, la nube de Mim que está encima hace llover otra cosa de ese tipo: con un perro y un gato llega un conejo. Si el niño presiona «Revisar» y en una canasta hay dos tipos, la nube se parte en dos y cada mitad hace llover algo nuevo para su propia familia, así que los dos grupos quedan lado a lado. En las rondas de color y forma, las cosas nuevas nunca tienen el color o la forma que confunde: a la manzana roja le llega un kiwi verde y al tractor rojo, un avión.",
+        "Tres tipos de rondas: Clasificar, con dos a cuatro canastas (animales, comida, vehículos, juguetes, ropa, figuras, frutas y verduras, animales del mar, del bosque y de granja); El que no va, en la que la única cosa de otro tipo va a la canasta chiquita; y Dos nubes, en la que cada nube muestra su regla con dos dibujos y la canasta de en medio es para las cosas que van con las dos. En línea con los planes de estudio, sin cronómetro y sin puntos."
+      ],
+      "practices": [
+        "Clasificar dibujos según lo que son",
+        "Distinguir el tipo de una cosa de su color o su forma",
+        "Encontrar la única cosa que es de otro tipo",
+        "Clasificar con dos reglas a la vez, con un lugar en medio para las dos"
+      ],
+      "howToPlay": [
+        "Toca una cosa en el pasto y luego una canasta (o arrástrala hasta ahí). Pon todo en una canasta.",
+        "Las cosas del mismo tipo van en la misma canasta. Presiona «Revisar» cuando el pasto esté vacío.",
+        "En «Tipo de rondas» elige El que no va o Dos nubes; en «Canastas», Dos; y en «Lluvia que ayuda», «Solo al Revisar» para clasificar sin la lluvia mientras juegas."
+      ],
+      "learningGoals": [
+        "El niño clasifica objetos cotidianos en categorías y conoce el nombre de cada categoría",
+        "El niño ve que las cosas del mismo tipo pueden verse muy distintas y que un mismo color o una misma forma no hacen un tipo",
+        "El niño clasifica con dos características a la vez y pone en medio las cosas que tienen las dos"
+      ]
     }
   }
 }

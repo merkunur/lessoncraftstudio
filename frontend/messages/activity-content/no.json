@@ -2487,6 +2487,29 @@
         "Barnet binder sammen to deler av en setning med «og»",
         "Barnet utvider en setning med en tredje del, med komma og «og»"
       ]
+    },
+    "mims-baskets.category-sort.l-k-5-a": {
+      "about": [
+        "Når et barn sorterer ting, lærer det hva ord som «dyr» og «mat» egentlig betyr. I Mims huskekurver velter Mim, den lille skyen, kurven sin, og tingene triller ut på gresset. Kurvene under har ingen merkelapper: Barnet bestemmer selv hva som er av samme slag.",
+        "Ligger det to eller flere ting av samme slag i en kurv, regner skyen til Mim over den ned én ting til av det slaget: Til en hund og en katt kommer en kanin. Trykker barnet på «Sjekk», og det er to slag i én kurv, deler skyen seg, og hver halvdel regner en ny ting ned til sin egen familie, så de to slagene ligger side om side. I rundene om farge og form har de nye tingene aldri den forvirrende fargen eller formen: Til det røde eplet kommer en grønn kiwi, til den røde traktoren et fly.",
+        "Tre typer runder: Sorter, med to til fire kurver (dyr, mat, kjøretøy, leker, klær, former, frukt og grønnsaker, hav-, skogs- og gårdsdyr); Den som ikke passer, der den ene tingen av et annet slag skal i den lille kurven; og To skyer, der hver sky viser regelen sin med to bilder og kurven i midten er for ting som passer til begge. I tråd med LK20, uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Å sortere bilder etter hva de er",
+        "Å skille en tings slag fra fargen eller formen",
+        "Å finne den ene tingen som er av et annet slag",
+        "Å sortere etter to regler samtidig, med en plass i midten for begge"
+      ],
+      "howToPlay": [
+        "Trykk på en ting på gresset og så på en kurv (eller dra den dit). Legg alt i en kurv.",
+        "Ting av samme slag skal i samme kurv. Trykk på «Sjekk» når gresset er tomt.",
+        "Under «Typer runder» velger du Den som ikke passer eller To skyer, under «Kurver» velger du To, og under «Hjelperegn» velger du «Først ved Sjekk» for å sortere uten regn underveis."
+      ],
+      "learningGoals": [
+        "Barnet sorterer kjente ting etter slag og møter ordet for hvert slag",
+        "Barnet ser at ting av samme slag kan se svært forskjellige ut, og at samme farge eller form ikke gjør dem til samme slag",
+        "Barnet sorterer etter to kjennetegn samtidig og legger ting med begge i midten"
+      ]
     }
   }
 }

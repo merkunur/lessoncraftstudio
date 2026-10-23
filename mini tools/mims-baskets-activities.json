@@ -1,26 +1,754 @@
 [
   {
     "id": "mims-baskets.category-sort.l-k-5-a",
-    "tool": "mims-baskets-activity",
+    "tool": "cousin-rain-activity",
     "task_template": "category-sort",
-    "alignment": { "framework": "CCSS", "code": "L.K.5.A", "grade": "K", "strand": "Vocabulary Acquisition and Use" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "L.K.5.A",
+      "grade": "K",
+      "strand": "Vocabulary Acquisition and Use"
+    },
     "params": {
-      "rounds": [
-        { "id": "sort-three", "cog": "sort", "band": 1, "spill": ["dog", "apple", "car"], "baskets": ["animal", "food", "vehicle"] },
-        { "id": "confound-red", "cog": "confound", "band": 2, "spill": ["apple", "fire_truck", "banana"], "baskets": ["food", "vehicle", "animal"] },
-        { "id": "diverse-animals", "cog": "diverse", "band": 2, "spill": ["dog", "fish", "duck", "car"], "baskets": ["animal", "vehicle", "food"] },
-        { "id": "confound-round", "cog": "confound", "band": 2, "spill": ["ball", "orange", "shoe"], "baskets": ["toy", "food", "clothing"] },
-        { "id": "sort-four", "cog": "sort", "band": 1, "spill": ["hat", "train", "corn", "cat"], "baskets": ["clothing", "vehicle", "food", "animal"] },
-        { "id": "diverse-three", "cog": "diverse", "band": 3, "spill": ["rabbit", "turtle", "owl", "blocks"], "baskets": ["animal", "toy", "food"] },
-        { "id": "odd-one-out", "cog": "odd", "band": 2, "spill": ["dog", "cat", "fish", "car"], "baskets": ["animal", "vehicle", "food"] },
-        { "id": "confound-yellow", "cog": "confound", "band": 3, "spill": ["banana", "duck", "mitten"], "baskets": ["food", "animal", "clothing"] },
-        { "id": "sort-shapes", "cog": "sort", "band": 1, "spill": ["star", "circle", "strawberry", "horse"], "baskets": ["shape", "food", "animal"] }
+      "note": "A mirror of cousin-rain-core.js (the rounds of each level). The core is the source; this row runs the Cousin Rain.",
+      "levels": [
+        "l1",
+        "l2",
+        "l3"
+      ],
+      "baskets": [
+        "any",
+        "two"
+      ],
+      "rains": [
+        "live",
+        "check"
+      ],
+      "l1": [
+        [
+          {
+            "kind": "animal",
+            "things": [
+              "dog",
+              "cat"
+            ],
+            "cousin": "rabbit"
+          },
+          {
+            "kind": "food",
+            "things": [
+              "apple",
+              "banana"
+            ],
+            "cousin": "bread"
+          }
+        ],
+        [
+          {
+            "kind": "animal",
+            "things": [
+              "dog",
+              "horse"
+            ],
+            "cousin": "pig"
+          },
+          {
+            "kind": "food",
+            "things": [
+              "apple",
+              "corn"
+            ],
+            "cousin": "cheese"
+          },
+          {
+            "kind": "vehicle",
+            "things": [
+              "car",
+              "train"
+            ],
+            "cousin": "bus"
+          }
+        ],
+        [
+          {
+            "kind": "food",
+            "things": [
+              "apple",
+              "banana"
+            ],
+            "cousin": "kiwi"
+          },
+          {
+            "kind": "vehicle",
+            "things": [
+              "tractor",
+              "bus"
+            ],
+            "cousin": "airplane"
+          }
+        ],
+        [
+          {
+            "kind": "animal",
+            "things": [
+              "dog",
+              "fish",
+              "duck",
+              "turtle"
+            ],
+            "cousin": "rabbit"
+          },
+          {
+            "kind": "vehicle",
+            "things": [
+              "car",
+              "bus"
+            ],
+            "cousin": "helicopter"
+          }
+        ],
+        [
+          {
+            "kind": "toy",
+            "things": [
+              "ball",
+              "blocks"
+            ],
+            "cousin": "kite"
+          },
+          {
+            "kind": "food",
+            "things": [
+              "orange",
+              "pear"
+            ],
+            "cousin": "banana"
+          },
+          {
+            "kind": "clothing",
+            "things": [
+              "shoe",
+              "bluehat"
+            ],
+            "cousin": "shirt"
+          }
+        ],
+        [
+          {
+            "kind": "clothing",
+            "things": [
+              "bluehat",
+              "shoe"
+            ],
+            "cousin": "coat"
+          },
+          {
+            "kind": "vehicle",
+            "things": [
+              "train",
+              "bus"
+            ],
+            "cousin": "car"
+          },
+          {
+            "kind": "food",
+            "things": [
+              "corn",
+              "carrot"
+            ],
+            "cousin": "bread"
+          },
+          {
+            "kind": "animal",
+            "things": [
+              "cat",
+              "rabbit"
+            ],
+            "cousin": "cow"
+          }
+        ],
+        [
+          {
+            "kind": "animal",
+            "things": [
+              "rabbit",
+              "turtle",
+              "owl"
+            ],
+            "cousin": "fish"
+          },
+          {
+            "kind": "toy",
+            "things": [
+              "blocks",
+              "robot"
+            ],
+            "cousin": "ball"
+          },
+          {
+            "kind": "food",
+            "things": [
+              "bread",
+              "cheese"
+            ],
+            "cousin": "apple"
+          }
+        ],
+        [
+          {
+            "kind": "food",
+            "things": [
+              "banana",
+              "strawberry"
+            ],
+            "cousin": "kiwi"
+          },
+          {
+            "kind": "animal",
+            "things": [
+              "duck",
+              "pig"
+            ],
+            "cousin": "cow"
+          },
+          {
+            "kind": "clothing",
+            "things": [
+              "strawhat",
+              "coat"
+            ],
+            "cousin": "shirt"
+          }
+        ],
+        [
+          {
+            "kind": "shape",
+            "things": [
+              "star",
+              "circle",
+              "triangle"
+            ],
+            "cousin": "square"
+          },
+          {
+            "kind": "food",
+            "things": [
+              "strawberry",
+              "apple"
+            ],
+            "cousin": "banana"
+          },
+          {
+            "kind": "animal",
+            "things": [
+              "horse",
+              "cow"
+            ],
+            "cousin": "sheep"
+          }
+        ],
+        [
+          {
+            "kind": "fruit",
+            "things": [
+              "apple",
+              "banana",
+              "pear"
+            ],
+            "cousin": "strawberry"
+          },
+          {
+            "kind": "vegetable",
+            "things": [
+              "carrot",
+              "broccoli",
+              "potato"
+            ],
+            "cousin": "lettuce"
+          }
+        ],
+        [
+          {
+            "kind": "ocean",
+            "things": [
+              "crab",
+              "octopus",
+              "dolphin"
+            ],
+            "cousin": "starfish"
+          },
+          {
+            "kind": "forest",
+            "things": [
+              "fox",
+              "deer",
+              "squirrel"
+            ],
+            "cousin": "hedgehog"
+          }
+        ],
+        [
+          {
+            "kind": "farm",
+            "things": [
+              "cow",
+              "pig"
+            ],
+            "cousin": "sheep"
+          },
+          {
+            "kind": "ocean",
+            "things": [
+              "crab",
+              "jellyfish"
+            ],
+            "cousin": "whale"
+          },
+          {
+            "kind": "forest",
+            "things": [
+              "fox",
+              "hedgehog"
+            ],
+            "cousin": "deer"
+          }
+        ],
+        [
+          {
+            "kind": "toy",
+            "things": [
+              "ball",
+              "kite",
+              "robot"
+            ],
+            "cousin": "blocks"
+          },
+          {
+            "kind": "clothing",
+            "things": [
+              "shoe",
+              "coat",
+              "mitten"
+            ],
+            "cousin": "strawhat"
+          }
+        ],
+        [
+          {
+            "kind": "vehicle",
+            "things": [
+              "bus",
+              "tractor",
+              "helicopter"
+            ],
+            "cousin": "airplane"
+          },
+          {
+            "kind": "animal",
+            "things": [
+              "cow",
+              "sheep",
+              "horse"
+            ],
+            "cousin": "lion"
+          }
+        ]
+      ],
+      "l2": [
+        {
+          "kind": "animal",
+          "things": [
+            "dog",
+            "cat",
+            "fish"
+          ],
+          "cousin": "rabbit",
+          "stray": {
+            "kind": "vehicle",
+            "thing": "car",
+            "cousin": "bus"
+          }
+        },
+        {
+          "kind": "fruit",
+          "things": [
+            "apple",
+            "banana",
+            "pear"
+          ],
+          "cousin": "kiwi",
+          "stray": {
+            "kind": "toy",
+            "thing": "ball",
+            "cousin": "kite"
+          }
+        },
+        {
+          "kind": "vehicle",
+          "things": [
+            "train",
+            "bus",
+            "car"
+          ],
+          "cousin": "boat",
+          "stray": {
+            "kind": "animal",
+            "thing": "rabbit",
+            "cousin": "cow"
+          }
+        },
+        {
+          "kind": "clothing",
+          "things": [
+            "shoe",
+            "bluehat",
+            "coat"
+          ],
+          "cousin": "shirt",
+          "stray": {
+            "kind": "food",
+            "thing": "apple",
+            "cousin": "banana"
+          }
+        },
+        {
+          "kind": "fruit",
+          "things": [
+            "strawberry",
+            "apple",
+            "cherry"
+          ],
+          "cousin": "pear",
+          "stray": {
+            "kind": "vehicle",
+            "thing": "tractor",
+            "cousin": "airplane"
+          }
+        },
+        {
+          "kind": "fruit",
+          "things": [
+            "orange",
+            "apple",
+            "blueberry"
+          ],
+          "cousin": "banana",
+          "stray": {
+            "kind": "toy",
+            "thing": "ball",
+            "cousin": "kite"
+          }
+        },
+        {
+          "kind": "animal",
+          "things": [
+            "duck",
+            "pig",
+            "cow"
+          ],
+          "cousin": "sheep",
+          "stray": {
+            "kind": "food",
+            "thing": "banana",
+            "cousin": "bread"
+          }
+        },
+        {
+          "kind": "animal",
+          "things": [
+            "fish",
+            "owl",
+            "turtle"
+          ],
+          "cousin": "rabbit",
+          "stray": {
+            "kind": "toy",
+            "thing": "kite",
+            "cousin": "ball"
+          }
+        },
+        {
+          "kind": "vegetable",
+          "things": [
+            "carrot",
+            "broccoli",
+            "potato"
+          ],
+          "cousin": "lettuce",
+          "stray": {
+            "kind": "fruit",
+            "thing": "banana",
+            "cousin": "kiwi"
+          }
+        }
+      ],
+      "l3": [
+        {
+          "cloudA": {
+            "trait": "flies",
+            "pictures": [
+              "airplane",
+              "butterfly"
+            ]
+          },
+          "cloudB": {
+            "trait": "swims",
+            "pictures": [
+              "octopus",
+              "whale"
+            ]
+          },
+          "aOnly": [
+            "eagle",
+            "bee"
+          ],
+          "both": [
+            "goose",
+            "swan"
+          ],
+          "bOnly": [
+            "dolphin",
+            "fish"
+          ]
+        },
+        {
+          "cloudA": {
+            "trait": "flies",
+            "pictures": [
+              "helicopter",
+              "bee"
+            ]
+          },
+          "cloudB": {
+            "trait": "swims",
+            "pictures": [
+              "octopus",
+              "dolphin"
+            ]
+          },
+          "aOnly": [
+            "owl",
+            "butterfly"
+          ],
+          "both": [
+            "pelican",
+            "seagull"
+          ],
+          "bOnly": [
+            "whale",
+            "penguin"
+          ]
+        },
+        {
+          "cloudA": {
+            "trait": "fruit",
+            "pictures": [
+              "kiwi",
+              "orange"
+            ]
+          },
+          "cloudB": {
+            "trait": "red",
+            "pictures": [
+              "cardinal",
+              "coat"
+            ]
+          },
+          "aOnly": [
+            "banana",
+            "pear"
+          ],
+          "both": [
+            "strawberry",
+            "apple"
+          ],
+          "bOnly": [
+            "ladybug",
+            "tractor"
+          ]
+        },
+        {
+          "cloudA": {
+            "trait": "animal",
+            "pictures": [
+              "dog",
+              "fish"
+            ]
+          },
+          "cloudB": {
+            "trait": "farm",
+            "pictures": [
+              "scarecrow",
+              "farmcorn"
+            ]
+          },
+          "aOnly": [
+            "lion",
+            "dolphin"
+          ],
+          "both": [
+            "cow",
+            "sheep"
+          ],
+          "bOnly": [
+            "tractor",
+            "haystack"
+          ]
+        },
+        {
+          "cloudA": {
+            "trait": "vehicle",
+            "pictures": [
+              "bus",
+              "boat"
+            ]
+          },
+          "cloudB": {
+            "trait": "flies",
+            "pictures": [
+              "bee",
+              "owl"
+            ]
+          },
+          "aOnly": [
+            "car",
+            "train"
+          ],
+          "both": [
+            "airplane",
+            "helicopter"
+          ],
+          "bOnly": [
+            "kite",
+            "butterfly"
+          ]
+        },
+        {
+          "cloudA": {
+            "trait": "clothing",
+            "pictures": [
+              "shoe",
+              "cap"
+            ]
+          },
+          "cloudB": {
+            "trait": "winter",
+            "pictures": [
+              "snowflake",
+              "igloo"
+            ]
+          },
+          "aOnly": [
+            "swimsuit",
+            "tshirt"
+          ],
+          "both": [
+            "coat",
+            "mitten"
+          ],
+          "bOnly": [
+            "snowman",
+            "sled"
+          ]
+        },
+        {
+          "cloudA": {
+            "trait": "food",
+            "pictures": [
+              "bread",
+              "cheese"
+            ]
+          },
+          "cloudB": {
+            "trait": "round",
+            "pictures": [
+              "circle",
+              "plate"
+            ]
+          },
+          "aOnly": [
+            "banana",
+            "carrot"
+          ],
+          "both": [
+            "orange",
+            "apple"
+          ],
+          "bOnly": [
+            "ball",
+            "clock"
+          ]
+        },
+        {
+          "cloudA": {
+            "trait": "animal",
+            "pictures": [
+              "cat",
+              "duck"
+            ]
+          },
+          "cloudB": {
+            "trait": "big",
+            "pictures": [
+              "ship",
+              "airplane"
+            ]
+          },
+          "aOnly": [
+            "mouse",
+            "ladybug"
+          ],
+          "both": [
+            "elephant",
+            "whale"
+          ],
+          "bOnly": [
+            "bus",
+            "house"
+          ]
+        }
       ]
     },
     "theme": null,
-    "slug": { "en": "mims-baskets" },
-    "page_title": { "en": "Mim's Memory Baskets — Sort Things into Groups" },
-    "page_intro": { "en": "Mim is a sleepy, forgetful little cloud-friend whose basket of treasures tipped over! Help Mim remember what things ARE by putting each one in the basket where it belongs — animals with animals, foods with foods. Every time you do, Mim remembers a little more. A warm Kindergarten sorting game aligned to Common Core L.K.5.A." },
+    "slug": {
+      "en": "mims-baskets",
+      "de": "mims-erinnerungskoerbe-dinge-nach-oberbegriffen-sortieren-klasse-1",
+      "nl": "mims-geheugenmanden-dingen-sorteren-kleuters",
+      "da": "mims-huskekurve-sorter-ting-efter-slags-boernehaveklasse",
+      "sv": "mims-minneskorgar-sortera-saker-efter-sort-forskoleklass",
+      "no": "mims-huskekurver-sorter-ting-etter-slag-1-trinn",
+      "es": "canastas-de-la-memoria-de-mim-clasificar-cosas-por-tipo-kinder",
+      "it": "cestini-della-memoria-di-mim-classificare-le-cose-per-tipo",
+      "pt": "cestos-da-memoria-da-mimi-classificar-coisas-por-tipo-pre-escola",
+      "fr": "les-paniers-a-souvenirs-de-mim-trier-par-categorie-gs",
+      "fi": "mimin-muistikorit-lajittele-asiat-esiopetus"
+    },
+    "page_title": {
+      "en": "Mim's Memory Baskets — Sort Things into Groups",
+      "de": "Mims Erinnerungskörbe — Dinge nach Oberbegriffen sortieren (Klasse 1)",
+      "nl": "Mims geheugenmanden — Dingen sorteren op soort (kleuters)",
+      "da": "Mims huskekurve – Sortér ting efter slags (børnehaveklasse)",
+      "sv": "Mims minneskorgar – Sortera saker efter sort (förskoleklass)",
+      "no": "Mims huskekurver – Sorter ting etter slag (1. trinn)",
+      "es": "Las canastas de la memoria de Mim — Clasificar cosas por tipo (kínder)",
+      "it": "I cestini della memoria di Mim — Classificare le cose per tipo (prescolare)",
+      "pt": "Os cestos da memória da Mimi — Classificar coisas por tipo (pré-escola)",
+      "fr": "Les paniers à souvenirs de Mim — Trier par catégorie (GS)",
+      "fi": "Mimin muistikorit – Lajittele samanlaiset asiat (esiopetus)"
+    },
+    "page_intro": {
+      "en": "Mim is a sleepy, forgetful little cloud-friend whose basket of treasures tipped over! Help Mim remember what things ARE by putting each one in the basket where it belongs — animals with animals, foods with foods. Every time you do, Mim remembers a little more. A warm Kindergarten sorting game aligned to Common Core L.K.5.A.",
+      "de": "Mims Korb ist umgekippt! Das Kind legt Dinge derselben Sorte in denselben Korb. Die Körbe haben keine Schilder – die Gruppen findet das Kind selbst. Passt ein Korb, regnet Mims Wolke noch ein Ding derselben Sorte hinein; liegen zwei Sorten in einem Korb, teilt sich die Wolke. Mit Runden zu Farbe und Form, zu dem Ding, das nicht passt, und zu zwei Wolken. Interaktiv, für Klasse 1.",
+      "nl": "De mand van Mim is omgevallen! Het kind legt dingen van dezelfde soort in dezelfde mand. De manden hebben geen labels: het kind maakt zelf de groepen. Klopt een mand, dan laat Mims wolk er nog iets van dezelfde soort in regenen; zitten er twee soorten in één mand, dan splitst de wolk zich. Met rondes over kleur en vorm, over het ding dat er niet bij hoort en over twee wolken. Interactief, voor kleuters.",
+      "da": "Mims kurv er væltet! Barnet lægger ting af samme slags i samme kurv. Kurvene har ingen skilte – barnet finder selv grupperne. Når en kurv passer, regner Mims sky én ting mere af samme slags ned i den; er der to slags i én kurv, deler skyen sig. Med runder om farve og form, om den ting, der ikke passer, og om to skyer. Interaktivt til børnehaveklassen.",
+      "sv": "Mims korg har vält! Barnet lägger saker av samma sort i samma korg. Korgarna har inga etiketter – barnet bestämmer själv vad som är av samma sort. När en korg stämmer regnar Mims moln ner en sak till av samma sort; ligger två sorter i en korg delar sig molnet. Med omgångar om färg och form, om saken som inte passar och om två moln. Interaktivt för förskoleklass.",
+      "no": "Kurven til Mim har veltet! Barnet legger ting av samme slag i samme kurv. Kurvene har ingen merkelapper – barnet finner selv ut hva som er av samme slag. Når en kurv stemmer, regner skyen til Mim ned én ting til av samme slag; er det to slag i én kurv, deler skyen seg. Med runder om farge og form, om tingen som ikke passer, og om to skyer. Interaktivt for 1. trinn.",
+      "es": "Se volteó la canasta de Mim. El niño pone las cosas del mismo tipo en la misma canasta. Las canastas no tienen etiquetas: el niño forma los grupos. Cuando una canasta está bien, la nube de Mim hace llover otra cosa del mismo tipo; si hay dos tipos en una canasta, la nube se parte en dos. Con rondas de color y forma, de la cosa que no va y de dos nubes. Actividad interactiva para kínder.",
+      "it": "Il cestino di Mim si è rovesciato! Il bambino mette le cose dello stesso tipo nello stesso cestino. I cestini non hanno etichette: i gruppi li forma il bambino. Quando un cestino è giusto, la nuvola di Mim fa piovere un’altra cosa dello stesso tipo; se in un cestino ci sono due tipi, la nuvola si divide in due. Con turni su colore e forma, sulla cosa che non c’entra e su due nuvole. Attività interattiva per l’ultimo anno della scuola dell’infanzia.",
+      "pt": "O cesto da Mimi virou! A criança coloca as coisas do mesmo tipo no mesmo cesto. Os cestos não têm etiquetas: a criança forma os grupos. Quando um cesto está certo, a nuvem da Mimi faz chover mais uma coisa do mesmo tipo; se há dois tipos em um cesto, a nuvem se divide em duas. Com rodadas de cor e forma, da coisa que não combina e de duas nuvens. Atividade interativa para a pré-escola.",
+      "fr": "Le panier de Mim s’est renversé ! L’enfant met les choses de la même sorte dans le même panier. Les paniers n’ont pas d’étiquette : c’est l’enfant qui fait les groupes. Quand un panier est juste, le nuage de Mim fait pleuvoir une chose de plus de la même sorte ; s’il y a deux sortes dans un panier, le nuage se coupe en deux. Avec des manches sur la couleur et la forme, sur l’intrus et sur deux nuages. Activité interactive pour la grande section.",
+      "fi": "Mimin kori kaatui! Lapsi laittaa samanlaiset asiat samaan koriin. Koreissa ei ole nimilappuja, vaan lapsi päättää ryhmät itse. Kun kori on oikein, Mimin pilvi sataa koriin vielä yhden samanlaisen asian; jos korissa on kahta lajia, pilvi jakautuu kahtia. Mukana värin ja muodon kierrokset, joukkoon kuulumaton asia ja kaksi pilveä. Interaktiivinen tehtävä esiopetukseen."
+    },
     "kid_prompt_template": "category-sort"
   }
 ]

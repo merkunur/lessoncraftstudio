@@ -4363,6 +4363,29 @@
         "A criança liga duas partes de uma frase com “e”",
         "A criança amplia uma frase com uma terceira parte, usando vírgula e “e”"
       ]
+    },
+    "mims-baskets.category-sort.l-k-5-a": {
+      "about": [
+        "Ao classificar coisas, a criança aprende o que palavras como “animal” ou “comida” querem dizer de verdade. Em Os cestos da memória da Mimi, a Mimi, a nuvenzinha, derruba o seu cesto, e as coisas rolam pela grama. Os cestos lá embaixo não têm etiquetas: a criança decide o que vai junto.",
+        "Quando um cesto tem duas ou mais coisas do mesmo tipo, a nuvem da Mimi lá em cima faz chover mais uma coisa desse tipo: com um cachorro e um gato chega um coelho. Se a criança aperta “Conferir” e há dois tipos em um cesto, a nuvem se divide em duas e cada metade faz chover uma coisa nova para a sua própria família, e os dois grupos ficam lado a lado. Nas rodadas de cor e forma, as coisas novas nunca têm a cor ou a forma que confunde: para a maçã vermelha chega um kiwi verde; para o trator vermelho, um avião.",
+        "Três tipos de rodada: Separar, com dois a quatro cestos (animais, comida, veículos, brinquedos, roupas, formas, frutas, legumes e verduras, animais do mar, da floresta e da fazenda); O diferente, em que a única coisa de outro tipo vai para o cesto pequeno; e Duas nuvens, em que cada nuvem mostra a sua regra com duas figuras e o cesto do meio é para as coisas que combinam com as duas. De acordo com a BNCC, sem cronômetro e sem pontos."
+      ],
+      "practices": [
+        "Classificar figuras pelo que elas são",
+        "Diferenciar o tipo de uma coisa da sua cor ou da sua forma",
+        "Encontrar a única coisa que é de outro tipo",
+        "Classificar por duas regras ao mesmo tempo, com um lugar no meio para as duas"
+      ],
+      "howToPlay": [
+        "Toque em uma coisa na grama e depois em um cesto (ou arraste até lá). Coloque tudo em um cesto.",
+        "Coisas do mesmo tipo vão no mesmo cesto. Aperte “Conferir” quando a grama estiver vazia.",
+        "Em “Tipos de rodada” escolha O diferente ou Duas nuvens; em “Cestos”, Dois; e em “Chuva que ajuda”, “Só ao Conferir” para separar sem a chuva durante o jogo."
+      ],
+      "learningGoals": [
+        "A criança classifica objetos do dia a dia em categorias e conhece o nome de cada categoria",
+        "A criança percebe que coisas do mesmo tipo podem ser bem diferentes e que a mesma cor ou a mesma forma não fazem um tipo",
+        "A criança classifica por duas características ao mesmo tempo e coloca no meio as coisas que têm as duas"
+      ]
     }
   }
 }

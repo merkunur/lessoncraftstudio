@@ -2479,6 +2479,29 @@
         "Lapsi yhdistää lauseen kaksi osaa ja-sanalla",
         "Lapsi laajentaa lausetta kolmannella osalla pilkun ja ja-sanan avulla"
       ]
+    },
+    "mims-baskets.category-sort.l-k-5-a": {
+      "about": [
+        "Kun lapsi lajittelee asioita, hän oppii, mitä sanat kuten ”eläin” tai ”ruoka” oikeastaan tarkoittavat. Mimin muistikoreissa pieni pilvi Mim kaataa korinsa, ja kuvat vierivät nurmikolle. Alla olevissa koreissa ei ole nimilappuja: lapsi päättää itse, mitkä asiat kuuluvat yhteen.",
+        "Kun korissa on kaksi tai useampia samanlaisia asioita, sen yllä oleva Mimin pilvi sataa koriin vielä yhden samanlaisen: koiran ja kissan luo tulee kani. Kun lapsi painaa ”Tarkista” ja korissa on kahta lajia, pilvi jakautuu kahtia, ja kumpikin puolikas sataa uuden asian omalle perheelleen, niin että lajit näkyvät rinnakkain. Värin ja muodon kierroksilla uusilla asioilla ei koskaan ole sitä hämäävää väriä tai muotoa: punainen omena saa vihreän kiivin, punainen traktori lentokoneen.",
+        "Kolmenlaisia kierroksia: Lajittele, jossa on kahdesta neljään koria (eläimet, ruoka, kulkuneuvot, lelut, vaatteet, muodot, hedelmät ja kasvikset sekä meren, metsän ja maatilan eläimet); Ei kuulu joukkoon, jossa ainoa eri lajia oleva asia laitetaan pieneen koriin; ja Kaksi pilveä, jossa kumpikin pilvi näyttää sääntönsä kahdella kuvalla ja keskimmäinen kori on asioille, jotka sopivat molempiin. Esiopetussuunnitelman mukaisesti, ilman ajanottoa ja ilman pisteitä."
+      ],
+      "practices": [
+        "Kuvien lajittelu sen mukaan, mitä ne ovat",
+        "Asian lajin erottaminen sen väristä tai muodosta",
+        "Ainoan eri lajia olevan asian löytäminen",
+        "Lajittelu kahden säännön mukaan yhtä aikaa, keskellä paikka molemmille"
+      ],
+      "howToPlay": [
+        "Napauta nurmikolla olevaa asiaa ja sitten koria (tai vedä asia sinne). Laita kaikki koreihin.",
+        "Samanlaiset asiat laitetaan samaan koriin. Paina ”Tarkista”, kun nurmikko on tyhjä.",
+        "Valitse kohdasta ”Kierrostyypit” Ei kuulu joukkoon tai Kaksi pilveä, kohdasta ”Korit” Kaksi ja kohdasta ”Apusade” ”Vasta tarkistaessa”, jos haluat lajitella ilman sadetta pelin aikana."
+      ],
+      "learningGoals": [
+        "Lapsi lajittelee tuttuja esineitä ryhmiin ja oppii ryhmän nimen",
+        "Lapsi huomaa, että saman lajin asiat voivat näyttää hyvin erilaisilta ja että sama väri tai muoto ei tee niistä samaa lajia",
+        "Lapsi lajittelee kahden ominaisuuden mukaan yhtä aikaa ja laittaa keskelle asiat, joilla on molemmat"
+      ]
     }
   }
 }

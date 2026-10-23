@@ -4401,6 +4401,29 @@
         "Das Kind verbindet zwei Satzteile mit „und“",
         "Das Kind erweitert einen Satz um einen dritten Teil mit Komma und „und“"
       ]
+    },
+    "mims-baskets.category-sort.l-k-5-a": {
+      "about": [
+        "Wer Dinge in Gruppen sortiert, lernt, was Wörter wie „Tier“ oder „Essen“ wirklich bedeuten. In Mims Erinnerungskörben kippt Mim, die kleine Wolke, ihren Korb um, und ihre Sachen kullern auf die Wiese. Die Körbe darunter haben keine Schilder: Das Kind entscheidet selbst, was zusammengehört.",
+        "Liegen in einem Korb zwei oder mehr Dinge derselben Sorte, regnet Mims Wolke darüber noch ein Ding dieser Sorte hinein: Zu Hund und Katze kommt ein Kaninchen. Drückt das Kind auf „Prüfen“ und in einem Korb liegen zwei Sorten, teilt sich die Wolke, und jede Hälfte regnet ein neues Ding zu ihrer eigenen Familie – so liegen die beiden Gruppen nebeneinander. In den Runden zu Farbe und Form haben die neuen Dinge nie die verwirrende Farbe oder Form: Zum roten Apfel kommt eine grüne Kiwi, zum roten Traktor ein Flugzeug.",
+        "Drei Sorten Runden: Sortieren mit zwei bis vier Körben (Tiere, Essen, Fahrzeuge, Spielsachen, Kleidung, Formen, Obst und Gemüse, Meeres-, Wald- und Bauernhoftiere); Was passt nicht?, bei dem das eine Ding einer anderen Sorte in den kleinen Korb kommt; und Zwei Wolken, bei dem jede Wolke ihre Regel mit zwei Bildern zeigt und der mittlere Korb für Dinge ist, die zu beiden passen. Passend zum Lehrplan, ohne Zeitdruck und ohne Punkte."
+      ],
+      "practices": [
+        "Bilder nach Oberbegriffen sortieren",
+        "Die Sorte eines Dings von seiner Farbe oder Form unterscheiden",
+        "Das eine Ding finden, das eine andere Sorte ist",
+        "Nach zwei Regeln zugleich sortieren, mit einem Platz in der Mitte für beides"
+      ],
+      "howToPlay": [
+        "Tippe ein Ding auf der Wiese an und dann einen Korb (oder zieh es hinein). Leg alles in einen Korb.",
+        "Dinge einer Sorte kommen in einen Korb. Drück auf „Prüfen“, wenn die Wiese leer ist.",
+        "Unter „Runden“ wählst du „Was passt nicht?“ oder „Zwei Wolken“, unter „Körbe“ „Zwei“ und unter „Hilfsregen“ „Erst beim Prüfen“, wenn beim Sortieren kein Regen fallen soll."
+      ],
+      "learningGoals": [
+        "Das Kind sortiert Dinge aus dem Alltag nach Oberbegriffen und lernt den Oberbegriff kennen",
+        "Das Kind erkennt, dass Dinge einer Sorte ganz verschieden aussehen können und dass eine gemeinsame Farbe oder Form noch keine Sorte ist",
+        "Das Kind sortiert nach zwei Merkmalen zugleich und legt Dinge mit beiden Merkmalen in die Mitte"
+      ]
     }
   }
 }

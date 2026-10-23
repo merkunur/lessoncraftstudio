@@ -2480,6 +2480,29 @@
         "Barnet binder to dele af en sætning sammen med »og«",
         "Barnet udvider en sætning med en tredje del med komma og »og«"
       ]
+    },
+    "mims-baskets.category-sort.l-k-5-a": {
+      "about": [
+        "Når et barn sorterer ting i grupper, lærer det, hvad ord som »dyr« og »mad« egentlig betyder. I Mims huskekurve vælter Mim, den lille sky, sin kurv, og tingene triller ud på græsset. Kurvene nedenunder har ingen skilte: Barnet bestemmer selv, hvad der hører sammen.",
+        "Ligger der to eller flere ting af samme slags i en kurv, regner Mims sky over den én ting mere af den slags ned: Til en hund og en kat kommer en kanin. Trykker barnet på »Tjek«, og der er to slags i én kurv, deler skyen sig, og hver halvdel regner en ny ting ned til sin egen familie, så de to grupper ligger side om side. I runderne om farve og form har de nye ting aldrig den forvirrende farve eller form: Til det røde æble kommer en grøn kiwi, til den røde traktor en flyvemaskine.",
+        "Tre slags runder: Sortér, med to til fire kurve (dyr, mad, køretøjer, legetøj, tøj, former, frugt og grøntsager, hav-, skov- og bondegårdsdyr); Den, der ikke passer, hvor den ene ting af en anden slags skal i den lille kurv; og To skyer, hvor hver sky viser sin regel med to billeder, og kurven i midten er til ting, der passer til begge. I tråd med Fælles Mål, uden tidtagning og uden point."
+      ],
+      "practices": [
+        "At sortere billeder efter, hvad de er",
+        "At skelne en tings slags fra dens farve eller form",
+        "At finde den ene ting, der er en anden slags",
+        "At sortere efter to regler på én gang med en plads i midten til begge"
+      ],
+      "howToPlay": [
+        "Tryk på en ting på græsset og så på en kurv (eller træk den derhen). Læg alt i en kurv.",
+        "Ting af samme slags skal i samme kurv. Tryk på »Tjek«, når græsset er tomt.",
+        "Under »Slags runder« vælger du Den, der ikke passer, eller To skyer, under »Kurve« vælger du To, og under »Hjælperegn« vælger du »Først ved Tjek« for at sortere uden regn undervejs."
+      ],
+      "learningGoals": [
+        "Barnet sorterer kendte ting i grupper og møder navnet på hver gruppe",
+        "Barnet ser, at ting af samme slags kan se meget forskellige ud, og at samme farve eller form ikke gør dem til samme slags",
+        "Barnet sorterer efter to kendetegn på én gang og lægger ting med begge i midten"
+      ]
     }
   }
 }

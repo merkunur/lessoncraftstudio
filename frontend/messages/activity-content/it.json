@@ -4326,6 +4326,29 @@
         "Il bambino unisce due parti di una frase con «e»",
         "Il bambino arricchisce una frase con una terza parte, usando una virgola e «e»"
       ]
+    },
+    "mims-baskets.category-sort.l-k-5-a": {
+      "about": [
+        "Classificando le cose, il bambino impara che cosa vogliono dire davvero parole come «animale» o «cibo». Nei Cestini della memoria di Mim, Mim, la nuvoletta, rovescia il suo cestino e le sue cose rotolano sul prato. I cestini sotto non hanno etichette: è il bambino a decidere che cosa va insieme.",
+        "Quando in un cestino ci sono due o più cose dello stesso tipo, la nuvola di Mim sopra fa piovere un’altra cosa di quel tipo: con un cane e un gatto arriva un coniglio. Se il bambino preme «Controlla» e in un cestino ci sono due tipi, la nuvola si divide in due e ogni metà fa piovere una cosa nuova per la propria famiglia, così i due gruppi stanno uno accanto all’altro. Nei turni su colore e forma le cose nuove non hanno mai il colore o la forma che confonde: alla mela rossa arriva un kiwi verde, al trattore rosso un aereo.",
+        "Tre tipi di turno: Smista, con da due a quattro cestini (animali, cibo, veicoli, giocattoli, vestiti, forme, frutta e verdura, animali del mare, del bosco e della fattoria); Quello diverso, in cui l’unica cosa di un altro tipo va nel cestino piccolo; e Due nuvole, in cui ogni nuvola mostra la sua regola con due immagini e il cestino in mezzo è per le cose che vanno bene per tutte e due. In linea con le Indicazioni nazionali, senza cronometro e senza punti."
+      ],
+      "practices": [
+        "Classificare immagini in base a che cosa sono",
+        "Distinguere il tipo di una cosa dal suo colore o dalla sua forma",
+        "Trovare l’unica cosa di un altro tipo",
+        "Classificare con due regole insieme, con un posto in mezzo per tutte e due"
+      ],
+      "howToPlay": [
+        "Tocca una cosa sul prato e poi un cestino (o trascinala lì). Metti tutto in un cestino.",
+        "Le cose dello stesso tipo vanno nello stesso cestino. Premi «Controlla» quando il prato è vuoto.",
+        "In «Tipi di turno» scegli Quello diverso o Due nuvole; in «Cestini» scegli Due; in «Pioggia d’aiuto» scegli «Solo con Controlla» per smistare senza la pioggia durante il gioco."
+      ],
+      "learningGoals": [
+        "Il bambino classifica oggetti di tutti i giorni in categorie e scopre il nome di ogni categoria",
+        "Il bambino vede che le cose dello stesso tipo possono essere molto diverse e che uno stesso colore o una stessa forma non fanno un tipo",
+        "Il bambino classifica in base a due caratteristiche insieme e mette in mezzo le cose che le hanno tutte e due"
+      ]
     }
   }
 }

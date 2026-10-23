@@ -333,25 +333,25 @@
     },
     "wobble-museum.catch-drift.w-k-2": {
       "about": [
-        "Ula la urraca ordenó su pequeño museo: en cada sala todo habla de un solo tema, y un letrero lo dice: «Tema: ranas». Debajo cuelgan cuatro oraciones cortas y verdaderas. Pero una se coló de otra sala: es cierta, sí, solo que no habla de este tema. Si en la sala de las ranas aparece «El agua del estanque es fría», su hijo/a se da cuenta: esa oración habla del estanque, no de las ranas, y la toca.",
-        "Detrás de este juego está una de las bases de la escritura: quedarse en el tema. Un buen texto habla de un solo asunto y todas sus oraciones jalan parejo. La oración colada es una trampa muy útil, porque es verdadera; lo único que falla es que no pertenece aquí. Así su hijo/a aprende a no fijarse solo en si algo es «cierto o falso», sino a preguntarse: «¿de qué trata este texto?». Esa mirada prepara la escritura sobre un tema.",
-        "Sin presiones: sin cronómetro, sin puntaje, sin perder. Quien todavía no lee solo puede tocar el botón «🔊 Escuchar» y oír toda la sala. Así también los más pequeños participan y piensan con calma. Corresponde al eje «Producción de textos» y prepara, jugando, la escritura sobre un mismo tema."
+        "Una página informativa habla de UNA sola cosa. En el museo de Bram cada cuarto habla de una cosa, y cada tarjeta con una oración cuelga de la pared con un hilo. El niño engancha el hilo de cada tarjeta en aquello de lo que habla la tarjeta: el letrero grande del cuarto o el letrero del cuarto de al lado, que se ve por la puerta.",
+        "Las trampas son las razones reales por las que los niños se salen del tema: una tarjeta que nombra la otra cosa pero habla del cuarto («Las ranas nadan en los lagos.»), dos tarjetas con la misma palabra («fuerte») y una tarjeta sin nombre, en la que solo está el verbo («Comen insectos.»). Si los hilos están mal, brilla en cada tarjeta la palabra de la que habla, y la tarjeta sin nombre señala la tarjeta a la que se refiere. Al revisar, la tarjeta que habla de otra cosa se va por la puerta a su propio cuarto, y las tarjetas del cuarto se vuelven una página de un libro: «Todo sobre las ranas».",
+        "Tres tipos de rondas: La tarjeta intrusa (engancha todos los hilos), Haz la página (elige del carrito las tarjetas que van) y Ponle nombre al cuarto (tres tarjetas no dicen el nombre, y el niño pone el dibujo correcto en el marco vacío). En línea con los planes de estudio, sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Quedarse en el tema y reconocer el enfoque temático",
-        "Descubrir de qué trata un texto",
-        "Agrupar las oraciones que hablan de un mismo tema",
-        "Leer y escuchar con atención — primeros pasos hacia la escritura"
+        "Decidir de qué habla una oración",
+        "Dejar en la página solo las oraciones sobre el tema",
+        "Ver a quién se refiere una oración que no dice el nombre",
+        "Ponerle tema a un grupo de oraciones"
       ],
       "howToPlay": [
-        "Lean juntos el letrero del tema y las cuatro oraciones de la sala (o toquen «🔊 Escuchar»)",
-        "Pregúntele a su hijo/a: ¿cuál oración habla de otro tema?",
-        "El niño toca la oración que se coló y la saca del museo"
+        "Toca una tarjeta y luego el letrero del que habla (o arrastra su hilo hasta el letrero). Presiona «Revisar» cuando cada tarjeta cuelgue de su hilo.",
+        "En «Haz la página», toca una tarjeta del carrito para colgarla; en «Ponle nombre al cuarto», toca un dibujo para ponerlo en el marco.",
+        "En «Palabras que ayudan» elige «Sí» para subrayar la palabra de la que habla cada tarjeta; en «Tarjetas» elige 3 para una pared más pequeña."
       ],
       "learningGoals": [
-        "Su hijo/a reconoce de qué trata un texto y se queda en el tema",
-        "Distingue qué oraciones van juntas y cuál se coló",
-        "Da sus primeros pasos hacia la escritura sobre un mismo tema"
+        "El niño dice de qué habla una oración, aunque nombre otra cosa",
+        "El niño deja en una página informativa solo las oraciones sobre el tema",
+        "El niño le pone tema a un grupo de oraciones"
       ]
     },
     "point-of-view.who-told.rl-1-6": {

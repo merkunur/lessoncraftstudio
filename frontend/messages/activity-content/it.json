@@ -3681,25 +3681,25 @@
     },
     "wobble-museum.catch-drift.w-k-2": {
       "about": [
-        "Nel museo della gazza Gemma ogni sala è dedicata a un solo argomento, e in ciascuna si nasconde una frase che è vera ma non c’entra con il tema.",
-        "Il bambino legge le quattro frasi della sala, ascolta la lettura ad alta voce se vuole e tocca l’unica frase fuori tema.",
-        "Allineata alle Indicazioni nazionali per la classe seconda, l’attività è senza registrazione, senza timer e senza punteggio."
+        "Una pagina informativa parla di UNA cosa sola. Nel museo di Bram ogni stanza parla di una cosa, e ogni cartellino con una frase è appeso al muro con un filo. Il bambino aggancia il filo di ogni cartellino a ciò di cui parla: all’insegna grande della stanza o all’insegna della stanza accanto, che si vede dalla porta.",
+        "Le trappole sono i veri motivi per cui i bambini vanno fuori tema: un cartellino che nomina l’altra cosa ma parla della stanza («Le rane nuotano nei laghi.»), due cartellini con la stessa parola («forte») e un cartellino senza nome, con solo il verbo («Mangiano gli insetti.»). Se i fili sono sbagliati, su ogni cartellino si illumina la parola di cui parla, e il cartellino senza nome indica il cartellino a cui si riferisce. Con Controlla, il cartellino che parla d’altro viene tirato fuori dalla porta nella sua stanza, e i cartellini della stanza diventano una pagina di un libro: «Tutto sulle rane».",
+        "Tre tipi di turno: Il cartellino intruso (aggancia tutti i fili), Fai la pagina (scegli dal carrello i cartellini giusti) e Dai un nome alla stanza (tre cartellini non dicono il nome, e il bambino mette l’immagine giusta nella cornice vuota). In linea con le Indicazioni nazionali, senza cronometro e senza punti."
       ],
       "practices": [
-        "riconoscere il tema di un breve testo",
-        "individuare la frase fuori tema",
-        "capire la coerenza tra le frasi",
-        "restare nel tema quando si scrive"
+        "Capire di che cosa parla una frase",
+        "Tenere sulla pagina solo le frasi sull’argomento",
+        "Capire a chi si riferisce una frase che non dice il nome",
+        "Dare un titolo a un gruppo di frasi"
       ],
       "howToPlay": [
-        "Leggi il cartello della sala e scopri di quale tema parla.",
-        "Leggi con calma le quattro frasi, anche con il pulsante 🔊.",
-        "Tocca la frase che è entrata nella stanza sbagliata."
+        "Tocca un cartellino e poi l’insegna di cui parla (oppure trascina il suo filo sull’insegna). Premi «Controlla» quando ogni cartellino è appeso al suo filo.",
+        "In «Fai la pagina» tocca un cartellino sul carrello per appenderlo; in «Dai un nome alla stanza» tocca un’immagine per metterla nella cornice.",
+        "In «Parole che aiutano» scegli «Sì» per sottolineare la parola di cui parla ogni cartellino; in «Cartellini» scegli 3 per un muro più piccolo."
       ],
       "learningGoals": [
-        "capire qual è l’argomento di un gruppo di frasi",
-        "distinguere le frasi in tema da quella fuori tema",
-        "imparare a mantenere il focus in un testo scritto"
+        "Il bambino dice di che cosa parla una frase, anche quando nomina un’altra cosa",
+        "Il bambino tiene su una pagina informativa solo le frasi sull’argomento",
+        "Il bambino dà un titolo a un gruppo di frasi"
       ]
     },
     "marina-headline-desk.main-topic.ri-2-2": {

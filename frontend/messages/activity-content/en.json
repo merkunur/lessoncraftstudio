@@ -4535,25 +4535,25 @@
     },
     "wobble-museum.catch-drift.w-k-2": {
       "about": [
-        "Each room in Bram the magpie's museum is about ONE thing — frogs, the moon, fire trucks, rain — but a label keeps wandering in from another room. The child reads the four facts and taps the one that does not belong, like \"Stop signs are red\" in the fire-truck room. It's an interactive Kindergarten writing activity that plays right in the browser, with no sign-up.",
-        "The big idea is keeping an informative piece on topic. The odd fact is always true, which is what makes it tricky — it just belongs to a different subject. To find it, the child has to notice what every other fact is about and ask whether the new label is really about the same thing. That is the same judgment a young writer uses to keep an All-About book focused on its topic.",
-        "It is aligned to Common Core W.K.2 — composing informative writing that names a topic and supplies information about it. No timer, no score — just calm, playful practice."
+        "An All-About page tells about ONE thing. In Bram's museum each room is all about one thing, and every sentence card hangs on the wall by a string. The child hooks each card's string to what the card is about: the room's big sign, or the sign of the next room, seen through the doorway.",
+        "The traps are the real reasons children drift off topic: a card that names the other thing but is still about the room (“Frogs swim in lakes.”), two cards that share a word (“loud”), and a card that says only “They”. When the strings are wrong, each card's about-word lights up, and the “They” card points back to the card it means. At Check the card about something else is pulled out through the door into its own room, and the room's cards become a page in a book: “All about frogs”.",
+        "Three kinds of rounds: Catch the drift (hook every string); Make the page (choose the cards that belong from a cart); and Name the room (three cards say only “They” or “It”, and the child puts the right picture in the empty frame). Aligned to Common Core W.K.2: name what you are writing about and give some information about it. No timer and no score."
       ],
       "practices": [
-        "Figure out what a small set of facts is all about",
-        "Spot the fact that is true but about a different topic",
-        "Tell an on-topic detail from an off-topic one",
-        "Keep an informative piece focused on a single subject"
+        "Deciding what a sentence is about",
+        "Keeping only the facts about the topic on the page",
+        "Seeing what a word like “they” or “it” points back to",
+        "Naming the topic of a set of facts"
       ],
       "howToPlay": [
-        "Read the room's topic and its four facts.",
-        "Tap the fact that does not belong — the one that is true but about something else.",
-        "A warm check confirms the choice and offers an easy retry; no timer, no score."
+        "Tap a card, then tap the sign it is about (or drag its string onto the sign). Press “Check” when every card hangs by its string.",
+        "In “Make the page”, tap a card on the cart to hang it on the wall; in “Name the room”, tap a picture to put it in the frame.",
+        "Under “Words that help” choose “On” to underline the word each card is about; under “Cards” choose 3 for a smaller wall."
       ],
       "learningGoals": [
-        "Keep informative writing on a single topic — the focus of Common Core W.K.2",
-        "Tell on-topic facts apart from true-but-unrelated ones",
-        "Build the focus that strong All-About writing depends on"
+        "The child tells what a sentence is about, even when it names something else",
+        "The child keeps only on-topic facts on an All-About page",
+        "The child names the topic of a set of facts"
       ]
     },
     "wondering-jar.estimate-jar.k-cc-b-5": {

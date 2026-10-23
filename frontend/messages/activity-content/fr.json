@@ -4001,23 +4001,25 @@
     },
     "wobble-museum.catch-drift.w-k-2": {
       "about": [
-        "Dans le musée de Bram la pie, chaque salle parle d'une seule chose. Mais une phrase s'est trompée de salle : elle est vraie, seulement elle parle d'autre chose ! Ton enfant lit les quatre phrases de la salle, puis touche celle qui ne parle pas du thème et s'est glissée là par erreur.",
-        "Repérer la phrase hors-sujet, c'est apprendre à rester dans le thème — un premier pas vers la production d'écrits cohérents, attendu du CE1. Le jeu se joue sans minuteur et sans points : l'enfant lit, compare et trie, dans le domaine « Écriture » des programmes officiels de l'école."
+        "Une page documentaire parle d’UNE seule chose. Dans le musée de Bram, chaque salle parle d’une chose, et chaque carte-phrase est accrochée au mur par un fil. L’enfant accroche le fil de chaque carte à ce dont elle parle : le grand panneau de la salle ou le panneau de la salle d’à côté, qu’on voit par la porte.",
+        "Les pièges sont les vraies raisons pour lesquelles les enfants sortent du sujet : une carte qui nomme l’autre chose mais parle quand même de la salle (« Les grenouilles nagent dans les lacs. »), deux cartes avec le même mot (« bruyante ») et une carte où il n’y a que « Elles ». Si les fils sont mal accrochés, le mot dont parle chaque carte s’allume, et la carte « Elles » montre la carte qu’elle désigne. Quand on vérifie, la carte qui parle d’autre chose est tirée par la porte jusqu’à sa salle, et les cartes de la salle deviennent une page d’un livre : « Tout sur les grenouilles ».",
+        "Trois types de manches : La carte intruse (accrocher tous les fils), Faire la page (choisir sur le chariot les cartes qui vont) et Nommer la salle (trois cartes disent seulement « Elle », « Elles » ou « Ils », et l’enfant met la bonne image dans le cadre vide). En lien avec les programmes officiels, sans chronomètre et sans points."
       ],
       "practices": [
-        "Rester dans le thème d'un texte",
-        "Repérer la phrase hors-sujet",
-        "Lire et comparer plusieurs phrases",
-        "Trier ce qui parle du sujet et ce qui n'en parle pas"
+        "Décider de quoi parle une phrase",
+        "Ne garder sur la page que les phrases sur le sujet",
+        "Voir ce que désigne un mot comme « ils » ou « elle »",
+        "Trouver le sujet d’un groupe de phrases"
       ],
       "howToPlay": [
-        "Lis les quatre phrases de la salle.",
-        "Touche la phrase qui s'est trompée de salle."
+        "Touche une carte, puis le panneau dont elle parle (ou fais glisser son fil jusqu’au panneau). Appuie sur « Vérifier » quand chaque carte est accrochée par son fil.",
+        "Dans « Faire la page », touche une carte du chariot pour l’accrocher ; dans « Nommer la salle », touche une image pour la mettre dans le cadre.",
+        "Dans « Mots qui aident », choisis « Oui » pour souligner le mot dont parle chaque carte ; dans « Cartes », choisis 3 pour un mur plus petit."
       ],
       "learningGoals": [
-        "Rester dans le thème quand on écrit",
-        "Repérer une phrase hors-sujet",
-        "Comprendre de quoi parle chaque phrase"
+        "L’enfant dit de quoi parle une phrase, même quand elle nomme autre chose",
+        "L’enfant ne garde sur une page documentaire que les phrases sur le sujet",
+        "L’enfant trouve le sujet d’un groupe de phrases"
       ]
     },
     "marina-headline-desk.main-topic.ri-2-2": {

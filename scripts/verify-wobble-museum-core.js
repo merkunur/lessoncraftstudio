@@ -26,6 +26,8 @@
    ===================================================================== */
 'use strict';
 const fs = require('fs');
+/* Row 79 rebuild (2026-10-23): the row runs the About-Strings (about-strings-activity; gates verify-about-strings-core.js + local-test-about-strings.js) and no page loads the old Wobble Museum files any more. */
+{ const _m = JSON.parse(fs.readFileSync(require('path').join(__dirname, '..', 'mini tools', 'wobble-museum-activities.json'), 'utf8')); const _r = (Array.isArray(_m) ? _m : _m.activities).find(a => a.id === 'wobble-museum.catch-drift.w-k-2'); if (_r && _r.tool !== 'wobble-museum-activity') { console.log('verify-wobble-museum-core: the row runs the About-Strings — see verify-about-strings-core.js / local-test-about-strings.js. Nothing to check here.'); process.exit(0); } }
 const path = require('path');
 
 const VARIETY_MIN = 7;

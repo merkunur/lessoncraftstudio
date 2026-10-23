@@ -3353,6 +3353,29 @@
         "Barnet ser att saker av samma sort kan se helt olika ut och att samma färg eller form inte gör dem till samma sort",
         "Barnet sorterar efter två egenskaper samtidigt och lägger saker med båda i mitten"
       ]
+    },
+    "wobble-museum.catch-drift.w-k-2": {
+      "about": [
+        "En faktasida handlar om EN sak. I Brams museum handlar varje rum om en sak, och varje meningskort hänger på väggen i ett snöre. Barnet fäster varje korts snöre vid det som kortet handlar om: rummets stora skylt eller skylten till rummet bredvid, som syns genom dörröppningen.",
+        "Fällorna är de verkliga skälen till att barn kommer bort från ämnet: ett kort som nämner den andra saken men ändå handlar om rummet (”Grodor simmar i sjöar.”), två kort med samma ord (”högljudd”) och ett kort där det bara står ”De”. Om snörena sitter fel lyser ordet som varje kort handlar om upp, och ”De”-kortet pekar tillbaka på kortet det menar. Vid Kontrollera dras kortet om något annat ut genom dörren till sitt eget rum, och rummets kort blir en sida i en bok: ”Allt om grodor”.",
+        "Tre typer av omgångar: Det främmande kortet (fäst alla snören), Gör sidan (välj korten som hör till sidan från vagnen) och Ge rummet ett namn (tre kort säger bara ”De”, ”Den” eller ”Det”, och barnet sätter rätt bild i den tomma ramen). I linje med Lgr22, utan tidtagning och utan poäng."
+      ],
+      "practices": [
+        "Att avgöra vad en mening handlar om",
+        "Att bara behålla fakta om ämnet på sidan",
+        "Att se vad ett ord som ”de” eller ”den” pekar tillbaka på",
+        "Att ge några fakta ett ämne"
+      ],
+      "howToPlay": [
+        "Tryck på ett kort och sedan på skylten som kortet handlar om (eller dra snöret till skylten). Tryck på ”Kontrollera” när varje kort hänger i sitt snöre.",
+        "I ”Gör sidan” trycker du på ett kort på vagnen för att hänga upp det; i ”Ge rummet ett namn” trycker du på en bild för att sätta den i ramen.",
+        "Under ”Hjälpord” väljer du ”På” för att stryka under ordet som varje kort handlar om; under ”Kort” väljer du 3 för en mindre vägg."
+      ],
+      "learningGoals": [
+        "Barnet säger vad en mening handlar om, även när den nämner något annat",
+        "Barnet behåller bara fakta om ämnet på en faktasida",
+        "Barnet ger några fakta ett ämne"
+      ]
     }
   }
 }

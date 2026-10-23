@@ -1,7 +1,7 @@
 [
   {
     "id": "wobble-museum.catch-drift.w-k-2",
-    "tool": "wobble-museum-activity",
+    "tool": "about-strings-activity",
     "task_template": "wobble-museum",
     "alignment": {
       "framework": "CCSS",
@@ -11,1133 +11,1957 @@
     },
     "theme": null,
     "params": {
-      "rounds": [
+      "note": "A mirror of about-strings-core.js (each room’s sentences per locale; the about-word in [brackets]). The core is the source; this row runs the About-Strings.",
+      "levels": [
+        "l1",
+        "l2",
+        "l3"
+      ],
+      "rooms": [
         {
-          "id": "wm-frogs",
-          "topic": "frogs",
-          "topicWord": "frog",
-          "sentences": [
-            {
-              "text": "Frogs hop.",
-              "about": "frogs"
-            },
-            {
-              "text": "They eat bugs.",
-              "about": "frogs"
-            },
-            {
-              "text": "Ponds are cold.",
-              "about": "ponds"
-            },
-            {
-              "text": "Frogs live in ponds.",
-              "about": "frogs"
-            }
+          "id": "frogs",
+          "picture": "forest-creatures/frog",
+          "door": "camping/lake",
+          "shelf": [
+            "kitchen-tools/cup",
+            "clothing/shoe"
           ]
         },
         {
-          "id": "wm-moon",
-          "topic": "the moon",
-          "topicWord": "moon",
-          "sentences": [
-            {
-              "text": "Stars are far away.",
-              "about": "stars"
-            },
-            {
-              "text": "The moon is round.",
-              "about": "the moon"
-            },
-            {
-              "text": "It glows at night.",
-              "about": "the moon"
-            },
-            {
-              "text": "The moon has craters.",
-              "about": "the moon"
-            }
+          "id": "moon",
+          "picture": "camping/moon",
+          "door": "weather/sunny",
+          "shelf": [
+            "fruits/banana",
+            "clothing/shoe"
           ]
         },
         {
-          "id": "wm-trucks",
-          "topic": "fire trucks",
-          "topicWord": "truck",
-          "sentences": [
-            {
-              "text": "Fire trucks are red.",
-              "about": "fire trucks"
-            },
-            {
-              "text": "They have a loud siren.",
-              "about": "fire trucks"
-            },
-            {
-              "text": "They carry long hoses.",
-              "about": "fire trucks"
-            },
-            {
-              "text": "Stop signs are red.",
-              "about": "stop signs"
-            }
+          "id": "ambulances",
+          "picture": "vehicles/ambulance",
+          "door": "christmas/bell",
+          "shelf": [
+            "fruits/banana",
+            "toys/kite"
           ]
         },
         {
-          "id": "wm-rain",
-          "topic": "rain",
-          "topicWord": "rain",
-          "sentences": [
-            {
-              "text": "Rain falls from clouds.",
-              "about": "rain"
-            },
-            {
-              "text": "Plants are green.",
-              "about": "plants"
-            },
-            {
-              "text": "It makes puddles.",
-              "about": "rain"
-            },
-            {
-              "text": "Rain helps plants grow.",
-              "about": "rain"
-            }
+          "id": "rain",
+          "picture": "weather/rainy",
+          "door": "spring/flower",
+          "shelf": [
+            "toys/ball",
+            "clothing/shoe"
           ]
         },
         {
-          "id": "wm-dogs",
-          "topic": "dogs",
-          "topicWord": "dog",
-          "sentences": [
-            {
-              "text": "Dogs bark.",
-              "about": "dogs"
-            },
-            {
-              "text": "They wag their tails.",
-              "about": "dogs"
-            },
-            {
-              "text": "Cats say meow.",
-              "about": "cats"
-            },
-            {
-              "text": "Dogs like to fetch.",
-              "about": "dogs"
-            }
+          "id": "dogs",
+          "picture": "pets/dog",
+          "door": "pets/cat",
+          "shelf": [
+            "kitchen-tools/cup",
+            "music/drum"
           ]
         },
         {
-          "id": "wm-bees",
-          "topic": "bees",
-          "topicWord": "bee",
-          "sentences": [
-            {
-              "text": "Bees buzz.",
-              "about": "bees"
-            },
-            {
-              "text": "Bees live in a hive.",
-              "about": "bees"
-            },
-            {
-              "text": "They make honey.",
-              "about": "bees"
-            },
-            {
-              "text": "Ants live in the dirt.",
-              "about": "ants"
-            }
+          "id": "bees",
+          "picture": "insects-and-bugs/bee",
+          "door": "insects-and-bugs/ant",
+          "shelf": [
+            "clothing/shoe",
+            "vehicles/bus"
           ]
         },
         {
-          "id": "wm-trees",
-          "topic": "trees",
-          "topicWord": "tree",
-          "sentences": [
-            {
-              "text": "Trees have leaves.",
-              "about": "trees"
-            },
-            {
-              "text": "Birds can fly.",
-              "about": "birds"
-            },
-            {
-              "text": "They grow very tall.",
-              "about": "trees"
-            },
-            {
-              "text": "Birds nest in trees.",
-              "about": "trees"
-            }
+          "id": "trees",
+          "picture": "tree/apple",
+          "door": "things-that-fly/bird",
+          "shelf": [
+            "kitchen-tools/cup",
+            "music/drum"
           ]
         },
         {
-          "id": "wm-body",
-          "topic": "the body",
-          "topicWord": "body",
-          "sentences": [
-            {
-              "text": "Our body has bones.",
-              "about": "the body"
-            },
-            {
-              "text": "We have two hands.",
-              "about": "the body"
-            },
-            {
-              "text": "Apples are healthy.",
-              "about": "food"
-            },
-            {
-              "text": "Our heart beats fast.",
-              "about": "the body"
-            }
+          "id": "hands",
+          "picture": "body-parts/hand",
+          "door": "body-parts/foot",
+          "shelf": [
+            "toys/kite",
+            "fruits/banana"
           ]
         }
       ],
-      "roundsL10n": {
-        "de": [
-          {
-            "id": "wm-frogs",
-            "topic": "Frösche",
-            "topicWord": "frösch",
-            "sentences": [
-              {
-                "text": "Frösche hüpfen.",
-                "about": "Frösche"
-              },
-              {
-                "text": "Sie fressen Insekten.",
-                "about": "Frösche"
-              },
-              {
-                "text": "Frösche leben im Teich.",
-                "about": "Frösche"
-              },
-              {
-                "text": "Teiche sind kalt.",
-                "about": "Teiche"
-              }
+      "byLocale": {
+        "en": {
+          "frogs": {
+            "sign": "Frogs",
+            "door": "Lakes",
+            "page": "All about frogs",
+            "facts": [
+              "[Frogs] hop.",
+              "[They] eat bugs.",
+              "[Frogs] swim in lakes.",
+              "[Frogs] lay eggs in water.",
+              "A [frog] has long back legs."
+            ],
+            "drifts": [
+              "[Lakes] are full of water.",
+              "[Lakes] can be very big."
+            ],
+            "mystery": [
+              "[They] hop.",
+              "[They] eat bugs.",
+              "[They] have long back legs."
             ]
           },
-          {
-            "id": "wm-moon",
-            "topic": "Mond",
-            "topicWord": "mond",
-            "sentences": [
-              {
-                "text": "Der Mond ist rund.",
-                "about": "Mond"
-              },
-              {
-                "text": "Er leuchtet nachts.",
-                "about": "Mond"
-              },
-              {
-                "text": "Der Mond hat Krater.",
-                "about": "Mond"
-              },
-              {
-                "text": "Sterne leuchten auch.",
-                "about": "Sterne"
-              }
+          "moon": {
+            "sign": "The moon",
+            "door": "The sun",
+            "page": "All about the moon",
+            "facts": [
+              "[The moon] is round.",
+              "[It] shines at night.",
+              "[The moon] is smaller than the sun.",
+              "[The moon] has craters.",
+              "[The moon] goes around the Earth."
+            ],
+            "drifts": [
+              "[The sun] is hot.",
+              "[The sun] shines in the day."
+            ],
+            "mystery": [
+              "[It] is round.",
+              "[It] shines at night.",
+              "[It] has craters."
             ]
           },
-          {
-            "id": "wm-trucks",
-            "topic": "Feuerwehrautos",
-            "topicWord": "feuerwehr",
-            "sentences": [
-              {
-                "text": "Feuerwehrautos sind rot.",
-                "about": "Feuerwehrautos"
-              },
-              {
-                "text": "Sie haben eine laute Sirene.",
-                "about": "Feuerwehrautos"
-              },
-              {
-                "text": "Sie tragen lange Schläuche.",
-                "about": "Feuerwehrautos"
-              },
-              {
-                "text": "Stoppschilder sind rot.",
-                "about": "Stoppschilder"
-              }
+          "ambulances": {
+            "sign": "Ambulances",
+            "door": "Bells",
+            "page": "All about ambulances",
+            "facts": [
+              "[Ambulances] have flashing lights.",
+              "[They] carry sick people.",
+              "[Ambulances] have a loud siren.",
+              "[Ambulances] drive to the hospital.",
+              "An [ambulance] has a bed inside."
+            ],
+            "drifts": [
+              "[Bells] are loud.",
+              "[Bells] ring."
+            ],
+            "mystery": [
+              "[They] have a loud siren.",
+              "[They] carry sick people.",
+              "[They] have flashing lights."
             ]
           },
-          {
-            "id": "wm-rain",
-            "topic": "Regen",
-            "topicWord": "regen",
-            "sentences": [
-              {
-                "text": "Regen fällt aus Wolken.",
-                "about": "Regen"
-              },
-              {
-                "text": "Er macht Pfützen.",
-                "about": "Regen"
-              },
-              {
-                "text": "Regen hilft den Pflanzen.",
-                "about": "Regen"
-              },
-              {
-                "text": "Pflanzen sind grün.",
-                "about": "Pflanzen"
-              }
+          "rain": {
+            "sign": "Rain",
+            "door": "Flowers",
+            "page": "All about rain",
+            "facts": [
+              "[Rain] falls from clouds.",
+              "[It] makes puddles.",
+              "[Rain] helps flowers grow.",
+              "[Rain] makes things wet.",
+              "[Rain] comes down in drops."
+            ],
+            "drifts": [
+              "[Flowers] smell sweet.",
+              "[Flowers] have petals."
+            ],
+            "mystery": [
+              "[It] falls from clouds.",
+              "[It] makes puddles.",
+              "[It] comes down in drops."
             ]
           },
-          {
-            "id": "wm-dogs",
-            "topic": "Hunde",
-            "topicWord": "hund",
-            "sentences": [
-              {
-                "text": "Hunde bellen.",
-                "about": "Hunde"
-              },
-              {
-                "text": "Sie wedeln mit dem Schwanz.",
-                "about": "Hunde"
-              },
-              {
-                "text": "Hunde holen den Ball.",
-                "about": "Hunde"
-              },
-              {
-                "text": "Katzen haben einen Schwanz.",
-                "about": "Katzen"
-              }
+          "dogs": {
+            "sign": "Dogs",
+            "door": "Cats",
+            "page": "All about dogs",
+            "facts": [
+              "[Dogs] bark.",
+              "[They] wag their tails.",
+              "[Dogs] chase cats.",
+              "[Dogs] like to fetch.",
+              "[Dogs] can smell very well."
+            ],
+            "drifts": [
+              "[Cats] say meow.",
+              "[Cats] climb trees."
+            ],
+            "mystery": [
+              "[They] bark.",
+              "[They] like to fetch.",
+              "[They] go for walks on a leash."
             ]
           },
-          {
-            "id": "wm-bees",
-            "topic": "Bienen",
-            "topicWord": "biene",
-            "sentences": [
-              {
-                "text": "Bienen summen.",
-                "about": "Bienen"
-              },
-              {
-                "text": "Bienen leben im Bienenstock.",
-                "about": "Bienen"
-              },
-              {
-                "text": "Sie machen Honig.",
-                "about": "Bienen"
-              },
-              {
-                "text": "Ameisen leben in der Erde.",
-                "about": "Ameisen"
-              }
+          "bees": {
+            "sign": "Bees",
+            "door": "Ants",
+            "page": "All about bees",
+            "facts": [
+              "[Bees] buzz.",
+              "[They] make honey.",
+              "[Bees] are bigger than ants.",
+              "[Bees] live in a hive.",
+              "[Bees] visit flowers."
+            ],
+            "drifts": [
+              "[Ants] live in the dirt.",
+              "[Ants] carry crumbs."
+            ],
+            "mystery": [
+              "[They] buzz.",
+              "[They] make honey.",
+              "[They] live in a hive."
             ]
           },
-          {
-            "id": "wm-trees",
-            "topic": "Bäume",
-            "topicWord": "bäum",
-            "sentences": [
-              {
-                "text": "Bäume haben Blätter.",
-                "about": "Bäume"
-              },
-              {
-                "text": "Sie werden sehr hoch.",
-                "about": "Bäume"
-              },
-              {
-                "text": "Vögel nisten in Bäumen.",
-                "about": "Bäume"
-              },
-              {
-                "text": "Vögel können fliegen.",
-                "about": "Vögel"
-              }
+          "trees": {
+            "sign": "Trees",
+            "door": "Birds",
+            "page": "All about trees",
+            "facts": [
+              "[Trees] have leaves.",
+              "[They] grow very tall.",
+              "[Trees] give birds a home.",
+              "[Trees] have roots.",
+              "Some [trees] grow apples."
+            ],
+            "drifts": [
+              "[Birds] can fly.",
+              "[Birds] lay eggs."
+            ],
+            "mystery": [
+              "[They] have leaves.",
+              "[They] have roots.",
+              "[They] grow very tall."
             ]
           },
-          {
-            "id": "wm-body",
-            "topic": "Körper",
-            "topicWord": "körper",
-            "sentences": [
-              {
-                "text": "Unser Körper hat Knochen.",
-                "about": "Körper"
-              },
-              {
-                "text": "Wir haben zwei Hände.",
-                "about": "Körper"
-              },
-              {
-                "text": "Unser Herz schlägt schnell.",
-                "about": "Körper"
-              },
-              {
-                "text": "Äpfel sind gesund.",
-                "about": "Äpfel"
-              }
+          "hands": {
+            "sign": "Hands",
+            "door": "Feet",
+            "page": "All about hands",
+            "facts": [
+              "[Hands] can clap.",
+              "[They] can wave hello.",
+              "[Hands] help put socks on our feet.",
+              "[Hands] can hold a cup.",
+              "A [hand] has five fingers."
+            ],
+            "drifts": [
+              "[Feet] help us walk.",
+              "[Feet] go into socks and shoes."
+            ],
+            "mystery": [
+              "[They] have five fingers each.",
+              "[They] can clap.",
+              "[They] can hold a cup."
             ]
           }
-        ],
-        "fr": [
-          {
-            "id": "wm-frogs",
-            "topic": "les grenouilles",
-            "topicWord": "grenouille",
-            "sentences": [
-              {
-                "text": "Les grenouilles sautent.",
-                "about": "les grenouilles"
-              },
-              {
-                "text": "Elles mangent des insectes.",
-                "about": "les grenouilles"
-              },
-              {
-                "text": "Les mares sont froides.",
-                "about": "les mares"
-              },
-              {
-                "text": "Les grenouilles vivent dans la mare.",
-                "about": "les grenouilles"
-              }
+        },
+        "de": {
+          "frogs": {
+            "sign": "Frösche",
+            "door": "Seen",
+            "page": "Alles über Frösche",
+            "facts": [
+              "[Frösche] hüpfen.",
+              "[Sie] fressen Insekten.",
+              "[Frösche] schwimmen in Seen.",
+              "[Frösche] legen ihre Eier ins Wasser.",
+              "Ein [Frosch] hat lange Hinterbeine."
+            ],
+            "drifts": [
+              "[Seen] sind voller Wasser.",
+              "[Seen] können sehr groß sein."
+            ],
+            "mystery": [
+              "[Sie] hüpfen.",
+              "[Sie] fressen Insekten.",
+              "[Sie] haben lange Hinterbeine."
             ]
           },
-          {
-            "id": "wm-moon",
-            "topic": "la Lune",
-            "topicWord": "lune",
-            "sentences": [
-              {
-                "text": "Les étoiles sont loin.",
-                "about": "les étoiles"
-              },
-              {
-                "text": "La Lune est ronde.",
-                "about": "la Lune"
-              },
-              {
-                "text": "Elle brille la nuit.",
-                "about": "la Lune"
-              },
-              {
-                "text": "La Lune a des cratères.",
-                "about": "la Lune"
-              }
+          "moon": {
+            "sign": "Der Mond",
+            "door": "Die Sonne",
+            "page": "Alles über den Mond",
+            "facts": [
+              "[Der Mond] ist rund.",
+              "[Er] leuchtet in der Nacht.",
+              "[Der Mond] ist kleiner als die Sonne.",
+              "[Der Mond] hat Krater.",
+              "[Der Mond] kreist um die Erde."
+            ],
+            "drifts": [
+              "[Die Sonne] ist heiß.",
+              "[Die Sonne] scheint am Tag."
+            ],
+            "mystery": [
+              "[Er] ist rund.",
+              "[Er] leuchtet in der Nacht.",
+              "[Er] hat Krater."
             ]
           },
-          {
-            "id": "wm-trucks",
-            "topic": "les camions de pompiers",
-            "topicWord": "camion",
-            "sentences": [
-              {
-                "text": "Les camions de pompiers sont rouges.",
-                "about": "les camions de pompiers"
-              },
-              {
-                "text": "Ils ont une sirène bruyante.",
-                "about": "les camions de pompiers"
-              },
-              {
-                "text": "Ils portent de longs tuyaux.",
-                "about": "les camions de pompiers"
-              },
-              {
-                "text": "Les panneaux stop sont rouges.",
-                "about": "les panneaux stop"
-              }
+          "ambulances": {
+            "sign": "Krankenwagen",
+            "door": "Glocken",
+            "page": "Alles über Krankenwagen",
+            "facts": [
+              "[Krankenwagen] haben Blinklichter.",
+              "[Sie] fahren kranke Menschen.",
+              "[Krankenwagen] haben eine laute Sirene.",
+              "[Krankenwagen] fahren ins Krankenhaus.",
+              "Ein [Krankenwagen] hat innen ein Bett."
+            ],
+            "drifts": [
+              "[Glocken] sind laut.",
+              "[Glocken] läuten."
+            ],
+            "mystery": [
+              "[Sie] haben eine laute Sirene.",
+              "[Sie] fahren kranke Menschen.",
+              "[Sie] haben Blinklichter."
             ]
           },
-          {
-            "id": "wm-rain",
-            "topic": "la pluie",
-            "topicWord": "pluie",
-            "sentences": [
-              {
-                "text": "La pluie tombe des nuages.",
-                "about": "la pluie"
-              },
-              {
-                "text": "Les plantes sont vertes.",
-                "about": "les plantes"
-              },
-              {
-                "text": "Elle fait des flaques.",
-                "about": "la pluie"
-              },
-              {
-                "text": "La pluie aide les plantes.",
-                "about": "la pluie"
-              }
+          "rain": {
+            "sign": "Regen",
+            "door": "Blumen",
+            "page": "Alles über Regen",
+            "facts": [
+              "[Regen] fällt aus den Wolken.",
+              "[Er] macht Pfützen.",
+              "[Regen] hilft Blumen beim Wachsen.",
+              "[Regen] macht alles nass.",
+              "[Regen] kommt in Tropfen."
+            ],
+            "drifts": [
+              "[Blumen] duften.",
+              "[Blumen] haben Blütenblätter."
+            ],
+            "mystery": [
+              "[Er] fällt aus den Wolken.",
+              "[Er] macht Pfützen.",
+              "[Er] kommt in Tropfen."
             ]
           },
-          {
-            "id": "wm-dogs",
-            "topic": "les chiens",
-            "topicWord": "chien",
-            "sentences": [
-              {
-                "text": "Les chiens aboient.",
-                "about": "les chiens"
-              },
-              {
-                "text": "Ils remuent la queue.",
-                "about": "les chiens"
-              },
-              {
-                "text": "Les chats font miaou.",
-                "about": "les chats"
-              },
-              {
-                "text": "Les chiens aiment rapporter la balle.",
-                "about": "les chiens"
-              }
+          "dogs": {
+            "sign": "Hunde",
+            "door": "Katzen",
+            "page": "Alles über Hunde",
+            "facts": [
+              "[Hunde] bellen.",
+              "[Sie] wedeln mit dem Schwanz.",
+              "[Hunde] jagen Katzen.",
+              "[Hunde] holen gern Stöckchen.",
+              "[Hunde] können sehr gut riechen."
+            ],
+            "drifts": [
+              "[Katzen] miauen.",
+              "[Katzen] klettern auf Bäume."
+            ],
+            "mystery": [
+              "[Sie] bellen.",
+              "[Sie] holen gern Stöckchen.",
+              "[Sie] gehen an der Leine spazieren."
             ]
           },
-          {
-            "id": "wm-bees",
-            "topic": "les abeilles",
-            "topicWord": "abeille",
-            "sentences": [
-              {
-                "text": "Les abeilles bourdonnent.",
-                "about": "les abeilles"
-              },
-              {
-                "text": "Les abeilles vivent dans une ruche.",
-                "about": "les abeilles"
-              },
-              {
-                "text": "Elles font du miel.",
-                "about": "les abeilles"
-              },
-              {
-                "text": "Les fourmis vivent sous la terre.",
-                "about": "les fourmis"
-              }
+          "bees": {
+            "sign": "Bienen",
+            "door": "Ameisen",
+            "page": "Alles über Bienen",
+            "facts": [
+              "[Bienen] summen.",
+              "[Sie] machen Honig.",
+              "[Bienen] sind größer als Ameisen.",
+              "[Bienen] wohnen in einem Bienenstock.",
+              "[Bienen] besuchen Blumen."
+            ],
+            "drifts": [
+              "[Ameisen] wohnen in der Erde.",
+              "[Ameisen] tragen Krümel."
+            ],
+            "mystery": [
+              "[Sie] summen.",
+              "[Sie] machen Honig.",
+              "[Sie] fliegen von Blüte zu Blüte."
             ]
           },
-          {
-            "id": "wm-trees",
-            "topic": "les arbres",
-            "topicWord": "arbre",
-            "sentences": [
-              {
-                "text": "Les arbres ont des feuilles.",
-                "about": "les arbres"
-              },
-              {
-                "text": "Les oiseaux savent voler.",
-                "about": "les oiseaux"
-              },
-              {
-                "text": "Ils poussent très haut.",
-                "about": "les arbres"
-              },
-              {
-                "text": "Les oiseaux font leur nid dans les arbres.",
-                "about": "les arbres"
-              }
+          "trees": {
+            "sign": "Bäume",
+            "door": "Vögel",
+            "page": "Alles über Bäume",
+            "facts": [
+              "[Bäume] haben Blätter.",
+              "[Sie] werden sehr hoch.",
+              "[Bäume] geben Vögeln ein Zuhause.",
+              "[Bäume] haben Wurzeln.",
+              "Manche [Bäume] tragen Äpfel."
+            ],
+            "drifts": [
+              "[Vögel] können fliegen.",
+              "[Vögel] legen Eier."
+            ],
+            "mystery": [
+              "[Sie] haben Blätter.",
+              "[Sie] haben Wurzeln.",
+              "[Sie] werden sehr hoch."
             ]
           },
-          {
-            "id": "wm-body",
-            "topic": "le corps",
-            "topicWord": "corps",
-            "sentences": [
-              {
-                "text": "Notre corps a des os.",
-                "about": "le corps"
-              },
-              {
-                "text": "Nous avons deux mains.",
-                "about": "le corps"
-              },
-              {
-                "text": "Les pommes sont bonnes pour la santé.",
-                "about": "la nourriture"
-              },
-              {
-                "text": "Notre cœur bat vite.",
-                "about": "le corps"
-              }
+          "hands": {
+            "sign": "Hände",
+            "door": "Füße",
+            "page": "Alles über Hände",
+            "facts": [
+              "[Hände] können klatschen.",
+              "[Sie] können zum Gruß winken.",
+              "[Hände] helfen, Socken über die Füße zu ziehen.",
+              "[Hände] können einen Becher halten.",
+              "Eine [Hand] hat fünf Finger."
+            ],
+            "drifts": [
+              "[Füße] helfen uns beim Gehen.",
+              "[Füße] stecken in Socken und Schuhen."
+            ],
+            "mystery": [
+              "[Sie] haben je fünf Finger.",
+              "[Sie] können klatschen.",
+              "[Sie] können einen Becher halten."
             ]
           }
-        ],
-        "es": [
-          {
-            "id": "wm-frogs",
-            "topic": "ranas",
-            "topicWord": "rana",
-            "sentences": [
-              {
-                "text": "Las ranas saltan mucho.",
-                "about": "ranas"
-              },
-              {
-                "text": "Viven cerca del agua.",
-                "about": "ranas"
-              },
-              {
-                "text": "Su piel está húmeda.",
-                "about": "ranas"
-              },
-              {
-                "text": "El agua del estanque es fría.",
-                "about": "estanques"
-              }
+        },
+        "nl": {
+          "frogs": {
+            "sign": "Kikkers",
+            "door": "Meren",
+            "page": "Alles over kikkers",
+            "facts": [
+              "[Kikkers] springen.",
+              "[Ze] eten insecten.",
+              "[Kikkers] zwemmen in meren.",
+              "[Kikkers] leggen eitjes in het water.",
+              "Een [kikker] heeft lange achterpoten."
+            ],
+            "drifts": [
+              "[Meren] zijn vol water.",
+              "[Meren] kunnen heel groot zijn."
+            ],
+            "mystery": [
+              "[Ze] springen.",
+              "[Ze] eten insecten.",
+              "[Ze] hebben lange achterpoten."
             ]
           },
-          {
-            "id": "wm-moon",
-            "topic": "luna",
-            "topicWord": "luna",
-            "sentences": [
-              {
-                "text": "La luna brilla de noche.",
-                "about": "luna"
-              },
-              {
-                "text": "Se ve muy grande.",
-                "about": "luna"
-              },
-              {
-                "text": "No tiene luz propia.",
-                "about": "luna"
-              },
-              {
-                "text": "Las estrellas salen de noche.",
-                "about": "estrellas"
-              }
+          "moon": {
+            "sign": "De maan",
+            "door": "De zon",
+            "page": "Alles over de maan",
+            "facts": [
+              "[De maan] is rond.",
+              "[Hij] schijnt in de nacht.",
+              "[De maan] is kleiner dan de zon.",
+              "[De maan] heeft kraters.",
+              "[De maan] draait om de aarde."
+            ],
+            "drifts": [
+              "[De zon] is heet.",
+              "[De zon] schijnt overdag."
+            ],
+            "mystery": [
+              "[Hij] is rond.",
+              "[Hij] schijnt in de nacht.",
+              "[Hij] heeft kraters."
             ]
           },
-          {
-            "id": "wm-trucks",
-            "topic": "camiones de bomberos",
-            "topicWord": "bombero",
-            "sentences": [
-              {
-                "text": "El camión de bomberos es rojo.",
-                "about": "camiones de bomberos"
-              },
-              {
-                "text": "Lleva una manguera larga.",
-                "about": "camiones de bomberos"
-              },
-              {
-                "text": "Su sirena suena fuerte.",
-                "about": "camiones de bomberos"
-              },
-              {
-                "text": "El alto es rojo.",
-                "about": "señales"
-              }
+          "ambulances": {
+            "sign": "Ambulances",
+            "door": "Klokken",
+            "page": "Alles over ambulances",
+            "facts": [
+              "[Ambulances] hebben zwaailichten.",
+              "[Ze] vervoeren zieke mensen.",
+              "[Ambulances] hebben een luide sirene.",
+              "[Ambulances] rijden naar het ziekenhuis.",
+              "Een [ambulance] heeft een bed binnenin."
+            ],
+            "drifts": [
+              "[Klokken] zijn luid.",
+              "[Klokken] luiden."
+            ],
+            "mystery": [
+              "[Ze] hebben een luide sirene.",
+              "[Ze] vervoeren zieke mensen.",
+              "[Ze] hebben zwaailichten."
             ]
           },
-          {
-            "id": "wm-rain",
-            "topic": "lluvia",
-            "topicWord": "lluvia",
-            "sentences": [
-              {
-                "text": "La lluvia moja todo.",
-                "about": "lluvia"
-              },
-              {
-                "text": "Cae desde las nubes.",
-                "about": "lluvia"
-              },
-              {
-                "text": "Hace crecer las plantas.",
-                "about": "lluvia"
-              },
-              {
-                "text": "Las plantas son verdes.",
-                "about": "plantas"
-              }
+          "rain": {
+            "sign": "Regen",
+            "door": "Bloemen",
+            "page": "Alles over regen",
+            "facts": [
+              "[Regen] valt uit de wolken.",
+              "[Hij] maakt plassen.",
+              "[Regen] helpt bloemen groeien.",
+              "[Regen] maakt alles nat.",
+              "[Regen] valt in druppels."
+            ],
+            "drifts": [
+              "[Bloemen] ruiken lekker.",
+              "[Bloemen] hebben bloemblaadjes."
+            ],
+            "mystery": [
+              "[Hij] valt uit de wolken.",
+              "[Hij] maakt plassen.",
+              "[Hij] valt in druppels."
             ]
           },
-          {
-            "id": "wm-dogs",
-            "topic": "perros",
-            "topicWord": "perro",
-            "sentences": [
-              {
-                "text": "Los perros dicen guau.",
-                "about": "perros"
-              },
-              {
-                "text": "Mueven mucho la cola.",
-                "about": "perros"
-              },
-              {
-                "text": "Les gusta correr.",
-                "about": "perros"
-              },
-              {
-                "text": "Los gatos dicen miau.",
-                "about": "gatos"
-              }
+          "dogs": {
+            "sign": "Honden",
+            "door": "Katten",
+            "page": "Alles over honden",
+            "facts": [
+              "[Honden] blaffen.",
+              "[Ze] kwispelen met hun staart.",
+              "[Honden] jagen op katten.",
+              "[Honden] halen graag een stok.",
+              "[Honden] kunnen heel goed ruiken."
+            ],
+            "drifts": [
+              "[Katten] zeggen miauw.",
+              "[Katten] klimmen in bomen."
+            ],
+            "mystery": [
+              "[Ze] blaffen.",
+              "[Ze] halen graag een stok.",
+              "[Ze] lopen aan de riem."
             ]
           },
-          {
-            "id": "wm-bees",
-            "topic": "abejas",
-            "topicWord": "abeja",
-            "sentences": [
-              {
-                "text": "Las abejas hacen miel.",
-                "about": "abejas"
-              },
-              {
-                "text": "Vuelan entre las flores.",
-                "about": "abejas"
-              },
-              {
-                "text": "Viven en la colmena.",
-                "about": "abejas"
-              },
-              {
-                "text": "Las hormigas viven bajo tierra.",
-                "about": "hormigas"
-              }
+          "bees": {
+            "sign": "Bijen",
+            "door": "Mieren",
+            "page": "Alles over bijen",
+            "facts": [
+              "[Bijen] zoemen.",
+              "[Ze] maken honing.",
+              "[Bijen] zijn groter dan mieren.",
+              "[Bijen] wonen in een bijenkorf.",
+              "[Bijen] bezoeken bloemen."
+            ],
+            "drifts": [
+              "[Mieren] wonen in de grond.",
+              "[Mieren] dragen kruimels."
+            ],
+            "mystery": [
+              "[Ze] zoemen.",
+              "[Ze] maken honing.",
+              "[Ze] vliegen van bloem naar bloem."
             ]
           },
-          {
-            "id": "wm-trees",
-            "topic": "árboles",
-            "topicWord": "árbol",
-            "sentences": [
-              {
-                "text": "Los árboles dan sombra.",
-                "about": "árboles"
-              },
-              {
-                "text": "Tienen hojas y ramas.",
-                "about": "árboles"
-              },
-              {
-                "text": "Crecen muy altos.",
-                "about": "árboles"
-              },
-              {
-                "text": "Los pájaros se paran en ramas.",
-                "about": "pájaros"
-              }
+          "trees": {
+            "sign": "Bomen",
+            "door": "Vogels",
+            "page": "Alles over bomen",
+            "facts": [
+              "[Bomen] hebben bladeren.",
+              "[Ze] worden heel hoog.",
+              "[Bomen] geven vogels een thuis.",
+              "[Bomen] hebben wortels.",
+              "Sommige [bomen] dragen appels."
+            ],
+            "drifts": [
+              "[Vogels] kunnen vliegen.",
+              "[Vogels] leggen eieren."
+            ],
+            "mystery": [
+              "[Ze] hebben bladeren.",
+              "[Ze] hebben wortels.",
+              "[Ze] worden heel hoog."
             ]
           },
-          {
-            "id": "wm-body",
-            "topic": "cuerpo",
-            "topicWord": "cuerpo",
-            "sentences": [
-              {
-                "text": "El cuerpo tiene dos brazos.",
-                "about": "cuerpo"
-              },
-              {
-                "text": "Necesita comer para crecer.",
-                "about": "cuerpo"
-              },
-              {
-                "text": "Se mueve todo el tiempo.",
-                "about": "cuerpo"
-              },
-              {
-                "text": "Las frutas son buenas para comer.",
-                "about": "frutas"
-              }
+          "hands": {
+            "sign": "Handen",
+            "door": "Voeten",
+            "page": "Alles over handen",
+            "facts": [
+              "[Handen] kunnen klappen.",
+              "[Ze] kunnen gedag zwaaien.",
+              "[Handen] helpen sokken over je voeten te trekken.",
+              "[Handen] kunnen een beker vasthouden.",
+              "Een [hand] heeft vijf vingers."
+            ],
+            "drifts": [
+              "[Voeten] helpen ons lopen.",
+              "[Voeten] gaan in sokken en schoenen."
+            ],
+            "mystery": [
+              "[Ze] hebben elk vijf vingers.",
+              "[Ze] kunnen klappen.",
+              "[Ze] kunnen een beker vasthouden."
             ]
           }
-        ],
-        "pt": [
-          {
-            "id": "wm-sapos",
-            "topic": "sapos",
-            "topicWord": "sapo",
-            "sentences": [
-              {
-                "text": "Os sapos pulam alto.",
-                "about": "sapos"
-              },
-              {
-                "text": "Eles vivem perto da água.",
-                "about": "sapos"
-              },
-              {
-                "text": "A pele deles é molhada.",
-                "about": "sapos"
-              },
-              {
-                "text": "A água do lago é fria.",
-                "about": "lagos"
-              }
+        },
+        "da": {
+          "frogs": {
+            "sign": "Frøer",
+            "door": "Søer",
+            "page": "Alt om frøer",
+            "facts": [
+              "[Frøer] hopper.",
+              "[De] spiser insekter.",
+              "[Frøer] svømmer i søer.",
+              "[Frøer] lægger æg i vandet.",
+              "En [frø] har lange bagben."
+            ],
+            "drifts": [
+              "[Søer] er fulde af vand.",
+              "[Søer] kan være meget store."
+            ],
+            "mystery": [
+              "[De] hopper.",
+              "[De] spiser insekter.",
+              "[De] har lange bagben."
             ]
           },
-          {
-            "id": "wm-lua",
-            "topic": "lua",
-            "topicWord": "lua",
-            "sentences": [
-              {
-                "text": "O sol é muito quente.",
-                "about": "sol"
-              },
-              {
-                "text": "A lua brilha à noite.",
-                "about": "lua"
-              },
-              {
-                "text": "Ela fica no céu escuro.",
-                "about": "lua"
-              },
-              {
-                "text": "Às vezes parece uma bola.",
-                "about": "lua"
-              }
+          "moon": {
+            "sign": "Månen",
+            "door": "Solen",
+            "page": "Alt om månen",
+            "facts": [
+              "[Månen] er rund.",
+              "[Den] lyser om natten.",
+              "[Månen] er mindre end solen.",
+              "[Månen] har kratere.",
+              "[Månen] kredser om jorden."
+            ],
+            "drifts": [
+              "[Solen] er varm.",
+              "[Solen] skinner om dagen."
+            ],
+            "mystery": [
+              "[Den] er rund.",
+              "[Den] lyser om natten.",
+              "[Den] har kratere."
             ]
           },
-          {
-            "id": "wm-bombeiros",
-            "topic": "bombeiros",
-            "topicWord": "bombeiro",
-            "sentences": [
-              {
-                "text": "Os bombeiros apagam o fogo.",
-                "about": "bombeiros"
-              },
-              {
-                "text": "A ambulância leva os doentes.",
-                "about": "ambulâncias"
-              },
-              {
-                "text": "Eles usam capacete amarelo.",
-                "about": "bombeiros"
-              },
-              {
-                "text": "O caminhão deles é vermelho.",
-                "about": "bombeiros"
-              }
+          "ambulances": {
+            "sign": "Ambulancer",
+            "door": "Klokker",
+            "page": "Alt om ambulancer",
+            "facts": [
+              "[Ambulancer] har blinklys.",
+              "[De] kører syge mennesker.",
+              "[Ambulancer] har en høj sirene.",
+              "[Ambulancer] kører til hospitalet.",
+              "En [ambulance] har en seng indeni."
+            ],
+            "drifts": [
+              "[Klokker] lyder højt.",
+              "[Klokker] ringer."
+            ],
+            "mystery": [
+              "[De] har en høj sirene.",
+              "[De] kører syge mennesker.",
+              "[De] har blinklys."
             ]
           },
-          {
-            "id": "wm-chuva",
-            "topic": "chuva",
-            "topicWord": "chuva",
-            "sentences": [
-              {
-                "text": "A chuva cai do céu.",
-                "about": "chuva"
-              },
-              {
-                "text": "Ela molha as ruas.",
-                "about": "chuva"
-              },
-              {
-                "text": "O vento balança as árvores.",
-                "about": "vento"
-              },
-              {
-                "text": "As gotas são fresquinhas.",
-                "about": "chuva"
-              }
+          "rain": {
+            "sign": "Regn",
+            "door": "Blomster",
+            "page": "Alt om regn",
+            "facts": [
+              "[Regn] falder fra skyerne.",
+              "[Den] laver vandpytter.",
+              "[Regn] hjælper blomster med at vokse.",
+              "[Regn] gør alting vådt.",
+              "[Regn] falder som dråber."
+            ],
+            "drifts": [
+              "[Blomster] dufter dejligt.",
+              "[Blomster] har kronblade."
+            ],
+            "mystery": [
+              "[Den] falder fra skyerne.",
+              "[Den] laver vandpytter.",
+              "[Den] falder som dråber."
             ]
           },
-          {
-            "id": "wm-cachorros",
-            "topic": "cachorros",
-            "topicWord": "cachorro",
-            "sentences": [
-              {
-                "text": "Os cachorros latem alto.",
-                "about": "cachorros"
-              },
-              {
-                "text": "Eles gostam de correr.",
-                "about": "cachorros"
-              },
-              {
-                "text": "Adoram abanar o rabo.",
-                "about": "cachorros"
-              },
-              {
-                "text": "O gato dorme o dia todo.",
-                "about": "gatos"
-              }
+          "dogs": {
+            "sign": "Hunde",
+            "door": "Katte",
+            "page": "Alt om hunde",
+            "facts": [
+              "[Hunde] gør.",
+              "[De] logrer med halen.",
+              "[Hunde] jager katte.",
+              "[Hunde] kan lide at hente pinde.",
+              "[Hunde] kan lugte rigtig godt."
+            ],
+            "drifts": [
+              "[Katte] siger miav.",
+              "[Katte] klatrer i træer."
+            ],
+            "mystery": [
+              "[De] gør.",
+              "[De] kan lide at hente pinde.",
+              "[De] går tur i snor."
             ]
           },
-          {
-            "id": "wm-abelhas",
-            "topic": "abelhas",
-            "topicWord": "abelha",
-            "sentences": [
-              {
-                "text": "A formiga carrega folhas.",
-                "about": "formigas"
-              },
-              {
-                "text": "As abelhas fazem mel.",
-                "about": "abelhas"
-              },
-              {
-                "text": "Elas voam de flor em flor.",
-                "about": "abelhas"
-              },
-              {
-                "text": "Moram numa colmeia.",
-                "about": "abelhas"
-              }
+          "bees": {
+            "sign": "Bier",
+            "door": "Myrer",
+            "page": "Alt om bier",
+            "facts": [
+              "[Bier] summer.",
+              "[De] laver honning.",
+              "[Bier] er større end myrer.",
+              "[Bier] bor i en bikube.",
+              "[Bier] besøger blomster."
+            ],
+            "drifts": [
+              "[Myrer] bor i jorden.",
+              "[Myrer] bærer krummer."
+            ],
+            "mystery": [
+              "[De] summer.",
+              "[De] laver honning.",
+              "[De] flyver fra blomst til blomst."
             ]
           },
-          {
-            "id": "wm-borboletas",
-            "topic": "borboletas",
-            "topicWord": "borboleta",
-            "sentences": [
-              {
-                "text": "As borboletas voam no jardim.",
-                "about": "borboletas"
-              },
-              {
-                "text": "A minhoca vive na terra.",
-                "about": "minhocas"
-              },
-              {
-                "text": "Elas têm asas coloridas.",
-                "about": "borboletas"
-              },
-              {
-                "text": "Nascem de uma lagarta.",
-                "about": "borboletas"
-              }
+          "trees": {
+            "sign": "Træer",
+            "door": "Fugle",
+            "page": "Alt om træer",
+            "facts": [
+              "[Træer] har blade.",
+              "[De] bliver meget høje.",
+              "[Træer] giver fuglene et hjem.",
+              "[Træer] har rødder.",
+              "Nogle [træer] får æbler."
+            ],
+            "drifts": [
+              "[Fugle] kan flyve.",
+              "[Fugle] lægger æg."
+            ],
+            "mystery": [
+              "[De] har blade.",
+              "[De] har rødder.",
+              "[De] bliver meget høje."
             ]
           },
-          {
-            "id": "wm-corpo",
-            "topic": "corpo",
-            "topicWord": "corpo",
-            "sentences": [
-              {
-                "text": "O corpo tem duas mãos.",
-                "about": "corpo"
-              },
-              {
-                "text": "As pernas ajudam a andar.",
-                "about": "corpo"
-              },
-              {
-                "text": "A roupa nos deixa quentinhos.",
-                "about": "roupas"
-              },
-              {
-                "text": "Os olhos servem para ver.",
-                "about": "corpo"
-              }
+          "hands": {
+            "sign": "Hænder",
+            "door": "Fødder",
+            "page": "Alt om hænder",
+            "facts": [
+              "[Hænder] kan klappe.",
+              "[De] kan vinke farvel.",
+              "[Hænder] hjælper med at få strømper på fødderne.",
+              "[Hænder] kan holde en kop.",
+              "En [hånd] har fem fingre."
+            ],
+            "drifts": [
+              "[Fødder] hjælper os med at gå.",
+              "[Fødder] skal i strømper og sko."
+            ],
+            "mystery": [
+              "[De] har fem fingre hver.",
+              "[De] kan klappe.",
+              "[De] kan holde en kop."
             ]
           }
-        ],
-        "it": [
-          {
-            "id": "wm-frogs",
-            "topic": "rane",
-            "topicWord": "rane",
-            "sentences": [
-              {
-                "text": "Le rane saltano lontano.",
-                "about": "rane"
-              },
-              {
-                "text": "Vivono vicino allo stagno.",
-                "about": "rane"
-              },
-              {
-                "text": "La loro pelle è liscia e umida.",
-                "about": "rane"
-              },
-              {
-                "text": "Il cane scodinzola quando è felice.",
-                "about": "cani"
-              }
+        },
+        "sv": {
+          "frogs": {
+            "sign": "Grodor",
+            "door": "Sjöar",
+            "page": "Allt om grodor",
+            "facts": [
+              "[Grodor] hoppar.",
+              "[De] äter insekter.",
+              "[Grodor] simmar i sjöar.",
+              "[Grodor] lägger ägg i vattnet.",
+              "En [groda] har långa bakben."
+            ],
+            "drifts": [
+              "[Sjöar] är fulla av vatten.",
+              "[Sjöar] kan vara väldigt stora."
+            ],
+            "mystery": [
+              "[De] hoppar.",
+              "[De] äter insekter.",
+              "[De] har långa bakben."
             ]
           },
-          {
-            "id": "wm-moon",
-            "topic": "luna",
-            "topicWord": "luna",
-            "sentences": [
-              {
-                "text": "La luna si vede di notte.",
-                "about": "luna"
-              },
-              {
-                "text": "Di notte brilla in alto nel cielo.",
-                "about": "luna"
-              },
-              {
-                "text": "A volte sembra tonda, a volte sottile.",
-                "about": "luna"
-              },
-              {
-                "text": "Il cane abbaia quando sente un rumore.",
-                "about": "cani"
-              }
+          "moon": {
+            "sign": "Månen",
+            "door": "Solen",
+            "page": "Allt om månen",
+            "facts": [
+              "[Månen] är rund.",
+              "[Den] lyser på natten.",
+              "[Månen] är mindre än solen.",
+              "[Månen] har kratrar.",
+              "[Månen] går runt jorden."
+            ],
+            "drifts": [
+              "[Solen] är varm.",
+              "[Solen] skiner på dagen."
+            ],
+            "mystery": [
+              "[Den] är rund.",
+              "[Den] lyser på natten.",
+              "[Den] har kratrar."
             ]
           },
-          {
-            "id": "wm-trucks",
-            "topic": "camion dei pompieri",
-            "topicWord": "pompieri",
-            "sentences": [
-              {
-                "text": "Il camion dei pompieri è rosso.",
-                "about": "camion dei pompieri"
-              },
-              {
-                "text": "Corre veloce con la sirena accesa.",
-                "about": "camion dei pompieri"
-              },
-              {
-                "text": "Spruzza acqua per spegnere il fuoco.",
-                "about": "camion dei pompieri"
-              },
-              {
-                "text": "Il segnale rosso dice di fermarsi.",
-                "about": "segnali stradali"
-              }
+          "ambulances": {
+            "sign": "Ambulanser",
+            "door": "Klockor",
+            "page": "Allt om ambulanser",
+            "facts": [
+              "[Ambulanser] har blinkande ljus.",
+              "[De] kör sjuka människor.",
+              "[Ambulanser] har en högljudd siren.",
+              "[Ambulanser] kör till sjukhuset.",
+              "En [ambulans] har en säng inuti."
+            ],
+            "drifts": [
+              "[Klockor] är högljudda.",
+              "[Klockor] ringer."
+            ],
+            "mystery": [
+              "[De] har en högljudd siren.",
+              "[De] kör sjuka människor.",
+              "[De] har blinkande ljus."
             ]
           },
-          {
-            "id": "wm-rain",
-            "topic": "pioggia",
-            "topicWord": "pioggia",
-            "sentences": [
-              {
-                "text": "La pioggia cade dalle nuvole.",
-                "about": "pioggia"
-              },
-              {
-                "text": "Bagna le strade con tanta acqua.",
-                "about": "pioggia"
-              },
-              {
-                "text": "Quando piove usiamo l’ombrello.",
-                "about": "pioggia"
-              },
-              {
-                "text": "Il camion dei pompieri ha una sirena forte.",
-                "about": "camion dei pompieri"
-              }
+          "rain": {
+            "sign": "Regn",
+            "door": "Blommor",
+            "page": "Allt om regn",
+            "facts": [
+              "[Regn] faller från molnen.",
+              "[Det] gör vattenpölar.",
+              "[Regn] hjälper blommor att växa.",
+              "[Regn] gör allt blött.",
+              "[Regn] kommer i droppar."
+            ],
+            "drifts": [
+              "[Blommor] doftar gott.",
+              "[Blommor] har kronblad."
+            ],
+            "mystery": [
+              "[Det] faller från molnen.",
+              "[Det] gör vattenpölar.",
+              "[Det] kommer i droppar."
             ]
           },
-          {
-            "id": "wm-dogs",
-            "topic": "cani",
-            "topicWord": "cane",
-            "sentences": [
-              {
-                "text": "Il cane abbaia forte.",
-                "about": "cani"
-              },
-              {
-                "text": "Scodinzola quando è contento.",
-                "about": "cani"
-              },
-              {
-                "text": "Gli piace correre nel parco.",
-                "about": "cani"
-              },
-              {
-                "text": "Il gatto fa le fusa quando è contento.",
-                "about": "gatti"
-              }
+          "dogs": {
+            "sign": "Hundar",
+            "door": "Katter",
+            "page": "Allt om hundar",
+            "facts": [
+              "[Hundar] skäller.",
+              "[De] viftar på svansen.",
+              "[Hundar] jagar katter.",
+              "[Hundar] gillar att hämta pinnar.",
+              "[Hundar] har ett mycket bra luktsinne."
+            ],
+            "drifts": [
+              "[Katter] säger mjau.",
+              "[Katter] klättrar i träd."
+            ],
+            "mystery": [
+              "[De] skäller.",
+              "[De] gillar att hämta pinnar.",
+              "[De] går på promenad i koppel."
             ]
           },
-          {
-            "id": "wm-bees",
-            "topic": "api",
-            "topicWord": "api",
-            "sentences": [
-              {
-                "text": "Le api volano di fiore in fiore.",
-                "about": "api"
-              },
-              {
-                "text": "Fanno il miele, che è molto dolce.",
-                "about": "api"
-              },
-              {
-                "text": "Ronzano nel giardino tutto il giorno.",
-                "about": "api"
-              },
-              {
-                "text": "Le formiche cercano il cibo dolce.",
-                "about": "formiche"
-              }
+          "bees": {
+            "sign": "Bin",
+            "door": "Myror",
+            "page": "Allt om bin",
+            "facts": [
+              "[Bin] surrar.",
+              "[De] gör honung.",
+              "[Bin] är större än myror.",
+              "[Bin] bor i en bikupa.",
+              "[Bin] besöker blommor."
+            ],
+            "drifts": [
+              "[Myror] bor i marken.",
+              "[Myror] bär smulor."
+            ],
+            "mystery": [
+              "[De] surrar.",
+              "[De] gör honung.",
+              "[De] flyger från blomma till blomma."
             ]
           },
-          {
-            "id": "wm-trees",
-            "topic": "alberi",
-            "topicWord": "albero",
-            "sentences": [
-              {
-                "text": "L’albero ha tanti rami.",
-                "about": "alberi"
-              },
-              {
-                "text": "Le foglie diventano gialle in autunno.",
-                "about": "alberi"
-              },
-              {
-                "text": "In estate danno una bella ombra.",
-                "about": "alberi"
-              },
-              {
-                "text": "Il pesce nuota nell’acqua.",
-                "about": "pesci"
-              }
+          "trees": {
+            "sign": "Träd",
+            "door": "Fåglar",
+            "page": "Allt om träd",
+            "facts": [
+              "[Träd] har löv.",
+              "[De] blir väldigt höga.",
+              "[Träd] ger fåglar ett hem.",
+              "[Träd] har rötter.",
+              "Vissa [träd] får äpplen."
+            ],
+            "drifts": [
+              "[Fåglar] kan flyga.",
+              "[Fåglar] lägger ägg."
+            ],
+            "mystery": [
+              "[De] har löv.",
+              "[De] har rötter.",
+              "[De] blir väldigt höga."
             ]
           },
-          {
-            "id": "wm-body",
-            "topic": "corpo",
-            "topicWord": "corpo",
-            "sentences": [
-              {
-                "text": "Il corpo ha due braccia e due gambe.",
-                "about": "corpo"
-              },
-              {
-                "text": "Con le mani prendiamo le cose.",
-                "about": "corpo"
-              },
-              {
-                "text": "Con i denti mastichiamo il cibo.",
-                "about": "corpo"
-              },
-              {
-                "text": "Il camion dei pompieri corre veloce.",
-                "about": "camion dei pompieri"
-              }
+          "hands": {
+            "sign": "Händer",
+            "door": "Fötter",
+            "page": "Allt om händer",
+            "facts": [
+              "[Händer] kan klappa.",
+              "[De] kan vinka hej.",
+              "[Händer] hjälper till att dra strumpor på fötterna.",
+              "[Händer] kan hålla en kopp.",
+              "En [hand] har fem fingrar."
+            ],
+            "drifts": [
+              "[Fötter] hjälper oss att gå.",
+              "[Fötter] ska i strumpor och skor."
+            ],
+            "mystery": [
+              "[De] har fem fingrar var.",
+              "[De] kan klappa.",
+              "[De] kan hålla en kopp."
             ]
           }
-        ],
-        "nl": [
-          { "id": "wm-frogs", "topic": "kikkers", "topicWord": "kikker", "sentences": [ { "text": "Kikkers springen heel ver.", "about": "kikkers" }, { "text": "Ze eten insecten.", "about": "kikkers" }, { "text": "Een vijver is koud.", "about": "vijvers" }, { "text": "Kikkers leven in de vijver.", "about": "kikkers" } ] },
-          { "id": "wm-moon", "topic": "maan", "topicWord": "maan", "sentences": [ { "text": "Sterren schijnen ook.", "about": "sterren" }, { "text": "De maan schijnt in de nacht.", "about": "maan" }, { "text": "De maan is heel ver weg.", "about": "maan" }, { "text": "Ze is rond en geel.", "about": "maan" } ] },
-          { "id": "wm-trucks", "topic": "brandweerauto's", "topicWord": "brandweer", "sentences": [ { "text": "Brandweerauto's zijn rood.", "about": "brandweerauto's" }, { "text": "Een stopbord is ook rood.", "about": "stopborden" }, { "text": "Ze rijden heel snel.", "about": "brandweerauto's" }, { "text": "Brandweerauto's hebben een ladder.", "about": "brandweerauto's" } ] },
-          { "id": "wm-rain", "topic": "regen", "topicWord": "regen", "sentences": [ { "text": "Regen valt uit de wolken.", "about": "regen" }, { "text": "Druppels vallen op de grond.", "about": "regen" }, { "text": "Regen is goed voor de planten.", "about": "regen" }, { "text": "Planten groeien in de aarde.", "about": "planten" } ] },
-          { "id": "wm-dogs", "topic": "honden", "topicWord": "hond", "sentences": [ { "text": "Honden blaffen luid.", "about": "honden" }, { "text": "Ze kwispelen met hun staart.", "about": "honden" }, { "text": "Een kat heeft ook een staart.", "about": "katten" }, { "text": "Honden lusten graag een bot.", "about": "honden" } ] },
-          { "id": "wm-bees", "topic": "bijen", "topicWord": "bije", "sentences": [ { "text": "Mieren leven ook samen.", "about": "mieren" }, { "text": "Bijen maken honing.", "about": "bijen" }, { "text": "Bijen vliegen van bloem naar bloem.", "about": "bijen" }, { "text": "Ze leven met velen samen.", "about": "bijen" } ] },
-          { "id": "wm-trees", "topic": "bomen", "topicWord": "bome", "sentences": [ { "text": "Bomen hebben groene bladeren.", "about": "bomen" }, { "text": "Vogels bouwen een nest.", "about": "vogels" }, { "text": "In bomen wonen veel vogels.", "about": "bomen" }, { "text": "Ze geven ons schaduw.", "about": "bomen" } ] },
-          { "id": "wm-body", "topic": "lichaam", "topicWord": "lichaam", "sentences": [ { "text": "Je lichaam heeft twee benen.", "about": "lichaam" }, { "text": "Het beweegt de hele dag.", "about": "lichaam" }, { "text": "Een gezond lichaam is sterk.", "about": "lichaam" }, { "text": "Een appel is heel gezond.", "about": "appels" } ] }
-        ]
+        },
+        "no": {
+          "frogs": {
+            "sign": "Frosker",
+            "door": "Innsjøer",
+            "page": "Alt om frosker",
+            "facts": [
+              "[Frosker] hopper.",
+              "[De] spiser insekter.",
+              "[Frosker] svømmer i innsjøer.",
+              "[Frosker] legger egg i vannet.",
+              "En [frosk] har lange bakbein."
+            ],
+            "drifts": [
+              "[Innsjøer] er fulle av vann.",
+              "[Innsjøer] kan være veldig store."
+            ],
+            "mystery": [
+              "[De] hopper.",
+              "[De] spiser insekter.",
+              "[De] har lange bakbein."
+            ]
+          },
+          "moon": {
+            "sign": "Månen",
+            "door": "Solen",
+            "page": "Alt om månen",
+            "facts": [
+              "[Månen] er rund.",
+              "[Den] lyser om natten.",
+              "[Månen] er mindre enn solen.",
+              "[Månen] har kratere.",
+              "[Månen] går rundt jorden."
+            ],
+            "drifts": [
+              "[Solen] er varm.",
+              "[Solen] skinner om dagen."
+            ],
+            "mystery": [
+              "[Den] er rund.",
+              "[Den] lyser om natten.",
+              "[Den] har kratere."
+            ]
+          },
+          "ambulances": {
+            "sign": "Ambulanser",
+            "door": "Bjeller",
+            "page": "Alt om ambulanser",
+            "facts": [
+              "[Ambulanser] har blinkende lys.",
+              "[De] kjører syke mennesker.",
+              "[Ambulanser] har en høylytt sirene.",
+              "[Ambulanser] kjører til sykehuset.",
+              "En [ambulanse] har en seng inni."
+            ],
+            "drifts": [
+              "[Bjeller] er høylytte.",
+              "[Bjeller] ringer."
+            ],
+            "mystery": [
+              "[De] har en høylytt sirene.",
+              "[De] kjører syke mennesker.",
+              "[De] har blinkende lys."
+            ]
+          },
+          "rain": {
+            "sign": "Regn",
+            "door": "Blomster",
+            "page": "Alt om regn",
+            "facts": [
+              "[Regn] faller fra skyene.",
+              "[Det] lager vannpytter.",
+              "[Regn] hjelper blomster å vokse.",
+              "[Regn] gjør alt vått.",
+              "[Regn] kommer i dråper."
+            ],
+            "drifts": [
+              "[Blomster] lukter godt.",
+              "[Blomster] har kronblader."
+            ],
+            "mystery": [
+              "[Det] faller fra skyene.",
+              "[Det] lager vannpytter.",
+              "[Det] kommer i dråper."
+            ]
+          },
+          "dogs": {
+            "sign": "Hunder",
+            "door": "Katter",
+            "page": "Alt om hunder",
+            "facts": [
+              "[Hunder] bjeffer.",
+              "[De] logrer med halen.",
+              "[Hunder] jager katter.",
+              "[Hunder] liker å hente pinner.",
+              "[Hunder] har veldig god luktesans."
+            ],
+            "drifts": [
+              "[Katter] sier mjau.",
+              "[Katter] klatrer i trær."
+            ],
+            "mystery": [
+              "[De] bjeffer.",
+              "[De] liker å hente pinner.",
+              "[De] går tur i bånd."
+            ]
+          },
+          "bees": {
+            "sign": "Bier",
+            "door": "Maur",
+            "page": "Alt om bier",
+            "facts": [
+              "[Bier] summer.",
+              "[De] lager honning.",
+              "[Bier] er større enn maur.",
+              "[Bier] bor i en bikube.",
+              "[Bier] besøker blomster."
+            ],
+            "drifts": [
+              "[Maur] bor i jorden.",
+              "[Maur] bærer smuler."
+            ],
+            "mystery": [
+              "[De] summer.",
+              "[De] lager honning.",
+              "[De] flyr fra blomst til blomst."
+            ]
+          },
+          "trees": {
+            "sign": "Trær",
+            "door": "Fugler",
+            "page": "Alt om trær",
+            "facts": [
+              "[Trær] har blader.",
+              "[De] blir veldig høye.",
+              "[Trær] gir fuglene et hjem.",
+              "[Trær] har røtter.",
+              "Noen [trær] får epler."
+            ],
+            "drifts": [
+              "[Fugler] kan fly.",
+              "[Fugler] legger egg."
+            ],
+            "mystery": [
+              "[De] har blader.",
+              "[De] har røtter.",
+              "[De] blir veldig høye."
+            ]
+          },
+          "hands": {
+            "sign": "Hender",
+            "door": "Føtter",
+            "page": "Alt om hender",
+            "facts": [
+              "[Hender] kan klappe.",
+              "[De] kan vinke hei.",
+              "[Hender] hjelper til med å få sokker på føttene.",
+              "[Hender] kan holde en kopp.",
+              "En [hånd] har fem fingre."
+            ],
+            "drifts": [
+              "[Føtter] hjelper oss å gå.",
+              "[Føtter] skal i sokker og sko."
+            ],
+            "mystery": [
+              "[De] har fem fingre hver.",
+              "[De] kan klappe.",
+              "[De] kan holde en kopp."
+            ]
+          }
+        },
+        "es": {
+          "frogs": {
+            "sign": "Las ranas",
+            "door": "Los lagos",
+            "page": "Todo sobre las ranas",
+            "facts": [
+              "[Las ranas] saltan.",
+              "[Comen] insectos.",
+              "[Las ranas] nadan en los lagos.",
+              "[Las ranas] ponen huevos en el agua.",
+              "[La rana] tiene patas traseras largas."
+            ],
+            "drifts": [
+              "[Los lagos] están llenos de agua.",
+              "[Los lagos] pueden ser muy grandes."
+            ],
+            "mystery": [
+              "[Saltan].",
+              "[Comen] insectos.",
+              "[Tienen] patas traseras largas."
+            ]
+          },
+          "moon": {
+            "sign": "La luna",
+            "door": "El sol",
+            "page": "Todo sobre la luna",
+            "facts": [
+              "[La luna] es redonda.",
+              "[Brilla] de noche.",
+              "[La luna] es más pequeña que el sol.",
+              "[La luna] tiene cráteres.",
+              "[La luna] gira alrededor de la Tierra."
+            ],
+            "drifts": [
+              "[El sol] da calor.",
+              "[El sol] brilla de día."
+            ],
+            "mystery": [
+              "[Es] redonda.",
+              "[Brilla] de noche.",
+              "[Tiene] cráteres."
+            ]
+          },
+          "ambulances": {
+            "sign": "Las ambulancias",
+            "door": "Las campanas",
+            "page": "Todo sobre las ambulancias",
+            "facts": [
+              "[Las ambulancias] tienen luces que parpadean.",
+              "[Llevan] a personas enfermas.",
+              "[Las ambulancias] tienen una sirena muy fuerte.",
+              "[Las ambulancias] van al hospital.",
+              "[La ambulancia] tiene una cama adentro."
+            ],
+            "drifts": [
+              "[Las campanas] suenan muy fuerte.",
+              "[Las campanas] son de metal."
+            ],
+            "mystery": [
+              "[Tienen] una sirena muy fuerte.",
+              "[Llevan] a personas enfermas.",
+              "[Tienen] luces que parpadean."
+            ]
+          },
+          "rain": {
+            "sign": "La lluvia",
+            "door": "Las flores",
+            "page": "Todo sobre la lluvia",
+            "facts": [
+              "[La lluvia] cae de las nubes.",
+              "[Hace] charcos.",
+              "[La lluvia] ayuda a las flores a crecer.",
+              "[La lluvia] moja todo.",
+              "[La lluvia] cae en gotas."
+            ],
+            "drifts": [
+              "[Las flores] huelen rico.",
+              "[Las flores] tienen pétalos."
+            ],
+            "mystery": [
+              "[Cae] de las nubes.",
+              "[Hace] charcos.",
+              "[Cae] en gotas."
+            ]
+          },
+          "dogs": {
+            "sign": "Los perros",
+            "door": "Los gatos",
+            "page": "Todo sobre los perros",
+            "facts": [
+              "[Los perros] ladran.",
+              "[Mueven] la cola.",
+              "[Los perros] persiguen a los gatos.",
+              "[Los perros] traen la pelota.",
+              "[Los perros] tienen muy buen olfato."
+            ],
+            "drifts": [
+              "[Los gatos] dicen miau.",
+              "[Los gatos] trepan a los árboles."
+            ],
+            "mystery": [
+              "[Ladran].",
+              "[Traen] la pelota.",
+              "[Pasean] con correa."
+            ]
+          },
+          "bees": {
+            "sign": "Las abejas",
+            "door": "Las hormigas",
+            "page": "Todo sobre las abejas",
+            "facts": [
+              "[Las abejas] zumban.",
+              "[Hacen] miel.",
+              "[Las abejas] son más grandes que las hormigas.",
+              "[Las abejas] viven en una colmena.",
+              "[Las abejas] visitan las flores."
+            ],
+            "drifts": [
+              "[Las hormigas] viven en la tierra.",
+              "[Las hormigas] cargan migajas."
+            ],
+            "mystery": [
+              "[Zumban].",
+              "[Hacen] miel.",
+              "[Viven] en una colmena."
+            ]
+          },
+          "trees": {
+            "sign": "Los árboles",
+            "door": "Los pájaros",
+            "page": "Todo sobre los árboles",
+            "facts": [
+              "[Los árboles] tienen hojas.",
+              "[Crecen] muy alto.",
+              "[Los árboles] les dan casa a los pájaros.",
+              "[Los árboles] tienen raíces.",
+              "Algunos [árboles] dan manzanas."
+            ],
+            "drifts": [
+              "[Los pájaros] pueden volar.",
+              "[Los pájaros] ponen huevos."
+            ],
+            "mystery": [
+              "[Tienen] hojas.",
+              "[Tienen] raíces.",
+              "[Crecen] muy alto."
+            ]
+          },
+          "hands": {
+            "sign": "Las manos",
+            "door": "Los pies",
+            "page": "Todo sobre las manos",
+            "facts": [
+              "[Las manos] aplauden.",
+              "[Pueden] saludar.",
+              "[Las manos] nos ayudan a ponernos los calcetines en los pies.",
+              "[Las manos] pueden sostener una taza.",
+              "[La mano] tiene cinco dedos."
+            ],
+            "drifts": [
+              "[Los pies] nos ayudan a caminar.",
+              "[Los pies] van dentro de calcetines y zapatos."
+            ],
+            "mystery": [
+              "[Tienen] cinco dedos cada una.",
+              "[Aplauden].",
+              "[Sostienen] una taza."
+            ]
+          }
+        },
+        "it": {
+          "frogs": {
+            "sign": "Le rane",
+            "door": "I laghi",
+            "page": "Tutto sulle rane",
+            "facts": [
+              "[Le rane] saltano.",
+              "[Mangiano] gli insetti.",
+              "[Le rane] nuotano nei laghi.",
+              "[Le rane] depongono le uova nell’acqua.",
+              "[La rana] ha lunghe zampe posteriori."
+            ],
+            "drifts": [
+              "[I laghi] sono pieni d’acqua.",
+              "[I laghi] possono essere molto grandi."
+            ],
+            "mystery": [
+              "[Saltano].",
+              "[Mangiano] gli insetti.",
+              "[Hanno] lunghe zampe posteriori."
+            ]
+          },
+          "moon": {
+            "sign": "La luna",
+            "door": "Il sole",
+            "page": "Tutto sulla luna",
+            "facts": [
+              "[La luna] è rotonda.",
+              "[Brilla] di notte.",
+              "[La luna] è più piccola del sole.",
+              "[La luna] ha dei crateri.",
+              "[La luna] gira intorno alla Terra."
+            ],
+            "drifts": [
+              "[Il sole] è caldo.",
+              "[Il sole] splende di giorno."
+            ],
+            "mystery": [
+              "[È] rotonda.",
+              "[Brilla] di notte.",
+              "[Ha] dei crateri."
+            ]
+          },
+          "ambulances": {
+            "sign": "Le ambulanze",
+            "door": "Le campane",
+            "page": "Tutto sulle ambulanze",
+            "facts": [
+              "[Le ambulanze] hanno luci lampeggianti.",
+              "[Portano] le persone malate.",
+              "[Le ambulanze] hanno una sirena forte.",
+              "[Le ambulanze] vanno all’ospedale.",
+              "[L’ambulanza] ha un letto dentro."
+            ],
+            "drifts": [
+              "[Le campane] suonano forte.",
+              "[Le campane] fanno din don."
+            ],
+            "mystery": [
+              "[Hanno] una sirena forte.",
+              "[Portano] le persone malate.",
+              "[Hanno] luci lampeggianti."
+            ]
+          },
+          "rain": {
+            "sign": "La pioggia",
+            "door": "I fiori",
+            "page": "Tutto sulla pioggia",
+            "facts": [
+              "[La pioggia] cade dalle nuvole.",
+              "[Forma] le pozzanghere.",
+              "[La pioggia] aiuta i fiori a crescere.",
+              "[La pioggia] bagna tutto.",
+              "[La pioggia] scende a gocce."
+            ],
+            "drifts": [
+              "[I fiori] hanno un buon profumo.",
+              "[I fiori] hanno i petali."
+            ],
+            "mystery": [
+              "[Cade] dalle nuvole.",
+              "[Forma] le pozzanghere.",
+              "[Scende] a gocce."
+            ]
+          },
+          "dogs": {
+            "sign": "I cani",
+            "door": "I gatti",
+            "page": "Tutto sui cani",
+            "facts": [
+              "[I cani] abbaiano.",
+              "[Scodinzolano].",
+              "[I cani] rincorrono i gatti.",
+              "[I cani] riportano la palla.",
+              "[I cani] hanno un ottimo fiuto."
+            ],
+            "drifts": [
+              "[I gatti] fanno miao.",
+              "[I gatti] si arrampicano sugli alberi."
+            ],
+            "mystery": [
+              "[Abbaiano].",
+              "[Riportano] la palla.",
+              "[Vanno] a passeggio al guinzaglio."
+            ]
+          },
+          "bees": {
+            "sign": "Le api",
+            "door": "Le formiche",
+            "page": "Tutto sulle api",
+            "facts": [
+              "[Le api] ronzano.",
+              "[Fanno] il miele.",
+              "[Le api] sono più grandi delle formiche.",
+              "[Le api] vivono in un alveare.",
+              "[Le api] visitano i fiori."
+            ],
+            "drifts": [
+              "[Le formiche] vivono sotto terra.",
+              "[Le formiche] portano le briciole."
+            ],
+            "mystery": [
+              "[Ronzano].",
+              "[Fanno] il miele.",
+              "[Vivono] in un alveare."
+            ]
+          },
+          "trees": {
+            "sign": "Gli alberi",
+            "door": "Gli uccelli",
+            "page": "Tutto sugli alberi",
+            "facts": [
+              "[Gli alberi] hanno le foglie.",
+              "[Diventano] molto alti.",
+              "[Gli alberi] danno una casa agli uccelli.",
+              "[Gli alberi] hanno le radici.",
+              "Alcuni [alberi] fanno le mele."
+            ],
+            "drifts": [
+              "[Gli uccelli] sanno volare.",
+              "[Gli uccelli] depongono le uova."
+            ],
+            "mystery": [
+              "[Hanno] le foglie.",
+              "[Hanno] le radici.",
+              "[Diventano] molto alti."
+            ]
+          },
+          "hands": {
+            "sign": "Le mani",
+            "door": "I piedi",
+            "page": "Tutto sulle mani",
+            "facts": [
+              "[Le mani] applaudono.",
+              "[Fanno] ciao.",
+              "[Le mani] aiutano a mettere i calzini ai piedi.",
+              "[Le mani] tengono una tazza.",
+              "[La mano] ha cinque dita."
+            ],
+            "drifts": [
+              "[I piedi] ci aiutano a camminare.",
+              "[I piedi] vanno nei calzini e nelle scarpe."
+            ],
+            "mystery": [
+              "[Hanno] cinque dita ciascuna.",
+              "[Applaudono].",
+              "[Tengono] una tazza."
+            ]
+          }
+        },
+        "pt": {
+          "frogs": {
+            "sign": "As rãs",
+            "door": "Os lagos",
+            "page": "Tudo sobre as rãs",
+            "facts": [
+              "[As rãs] pulam.",
+              "[Comem] insetos.",
+              "[As rãs] nadam nos lagos.",
+              "[As rãs] botam ovos na água.",
+              "[A rã] tem pernas de trás compridas."
+            ],
+            "drifts": [
+              "[Os lagos] são cheios de água.",
+              "[Os lagos] podem ser muito grandes."
+            ],
+            "mystery": [
+              "[Pulam].",
+              "[Comem] insetos.",
+              "[Têm] pernas de trás compridas."
+            ]
+          },
+          "moon": {
+            "sign": "A lua",
+            "door": "O sol",
+            "page": "Tudo sobre a lua",
+            "facts": [
+              "[A lua] é redonda.",
+              "[Brilha] à noite.",
+              "[A lua] é menor que o sol.",
+              "[A lua] tem crateras.",
+              "[A lua] gira em volta da Terra."
+            ],
+            "drifts": [
+              "[O sol] é quente.",
+              "[O sol] brilha de dia."
+            ],
+            "mystery": [
+              "[É] redonda.",
+              "[Brilha] à noite.",
+              "[Tem] crateras."
+            ]
+          },
+          "ambulances": {
+            "sign": "As ambulâncias",
+            "door": "Os sinos",
+            "page": "Tudo sobre as ambulâncias",
+            "facts": [
+              "[As ambulâncias] têm luzes que piscam.",
+              "[Levam] pessoas doentes.",
+              "[As ambulâncias] têm uma sirene barulhenta.",
+              "[As ambulâncias] vão para o hospital.",
+              "[A ambulância] tem uma maca dentro."
+            ],
+            "drifts": [
+              "[Os sinos] são barulhentos.",
+              "[Os sinos] tocam."
+            ],
+            "mystery": [
+              "[Têm] uma sirene barulhenta.",
+              "[Levam] pessoas doentes.",
+              "[Têm] luzes que piscam."
+            ]
+          },
+          "rain": {
+            "sign": "A chuva",
+            "door": "As flores",
+            "page": "Tudo sobre a chuva",
+            "facts": [
+              "[A chuva] cai das nuvens.",
+              "[Faz] poças.",
+              "[A chuva] ajuda as flores a crescer.",
+              "[A chuva] molha tudo.",
+              "[A chuva] cai em gotas."
+            ],
+            "drifts": [
+              "[As flores] têm cheiro bom.",
+              "[As flores] têm pétalas."
+            ],
+            "mystery": [
+              "[Cai] das nuvens.",
+              "[Faz] poças.",
+              "[Cai] em gotas."
+            ]
+          },
+          "dogs": {
+            "sign": "Os cachorros",
+            "door": "Os gatos",
+            "page": "Tudo sobre os cachorros",
+            "facts": [
+              "[Os cachorros] latem.",
+              "[Abanam] o rabo.",
+              "[Os cachorros] correm atrás dos gatos.",
+              "[Os cachorros] buscam a bolinha.",
+              "[Os cachorros] têm um ótimo faro."
+            ],
+            "drifts": [
+              "[Os gatos] fazem miau.",
+              "[Os gatos] sobem em árvores."
+            ],
+            "mystery": [
+              "[Latem].",
+              "[Buscam] a bolinha.",
+              "[Passeiam] na coleira."
+            ]
+          },
+          "bees": {
+            "sign": "As abelhas",
+            "door": "As formigas",
+            "page": "Tudo sobre as abelhas",
+            "facts": [
+              "[As abelhas] zumbem.",
+              "[Fazem] mel.",
+              "[As abelhas] são maiores que as formigas.",
+              "[As abelhas] moram numa colmeia.",
+              "[As abelhas] visitam as flores."
+            ],
+            "drifts": [
+              "[As formigas] moram na terra.",
+              "[As formigas] carregam migalhas."
+            ],
+            "mystery": [
+              "[Zumbem].",
+              "[Fazem] mel.",
+              "[Moram] numa colmeia."
+            ]
+          },
+          "trees": {
+            "sign": "As árvores",
+            "door": "Os pássaros",
+            "page": "Tudo sobre as árvores",
+            "facts": [
+              "[As árvores] têm folhas.",
+              "[Ficam] muito altas.",
+              "[As árvores] dão casa aos pássaros.",
+              "[As árvores] têm raízes.",
+              "Algumas [árvores] dão maçãs."
+            ],
+            "drifts": [
+              "[Os pássaros] sabem voar.",
+              "[Os pássaros] botam ovos."
+            ],
+            "mystery": [
+              "[Têm] folhas.",
+              "[Têm] raízes.",
+              "[Ficam] muito altas."
+            ]
+          },
+          "hands": {
+            "sign": "As mãos",
+            "door": "Os pés",
+            "page": "Tudo sobre as mãos",
+            "facts": [
+              "[As mãos] batem palmas.",
+              "[Dão] tchau.",
+              "[As mãos] ajudam a calçar as meias nos pés.",
+              "[As mãos] seguram um copo.",
+              "[A mão] tem cinco dedos."
+            ],
+            "drifts": [
+              "[Os pés] nos ajudam a andar.",
+              "[Os pés] vão dentro das meias e dos sapatos."
+            ],
+            "mystery": [
+              "[Têm] cinco dedos cada uma.",
+              "[Batem] palmas.",
+              "[Seguram] um copo."
+            ]
+          }
+        },
+        "fr": {
+          "frogs": {
+            "sign": "Les grenouilles",
+            "door": "Les lacs",
+            "page": "Tout sur les grenouilles",
+            "facts": [
+              "[Les grenouilles] sautent.",
+              "[Elles] mangent des insectes.",
+              "[Les grenouilles] nagent dans les lacs.",
+              "[Les grenouilles] pondent leurs œufs dans l’eau.",
+              "[La grenouille] a de longues pattes arrière."
+            ],
+            "drifts": [
+              "[Les lacs] sont pleins d’eau.",
+              "[Les lacs] peuvent être très grands."
+            ],
+            "mystery": [
+              "[Elles] sautent.",
+              "[Elles] mangent des insectes.",
+              "[Elles] ont de longues pattes arrière."
+            ]
+          },
+          "moon": {
+            "sign": "La Lune",
+            "door": "Le Soleil",
+            "page": "Tout sur la Lune",
+            "facts": [
+              "[La Lune] est ronde.",
+              "[Elle] brille la nuit.",
+              "[La Lune] est plus petite que le Soleil.",
+              "[La Lune] a des cratères.",
+              "[La Lune] tourne autour de la Terre."
+            ],
+            "drifts": [
+              "[Le Soleil] est chaud.",
+              "[Le Soleil] brille le jour."
+            ],
+            "mystery": [
+              "[Elle] est ronde.",
+              "[Elle] brille la nuit.",
+              "[Elle] a des cratères."
+            ]
+          },
+          "ambulances": {
+            "sign": "Les ambulances",
+            "door": "Les cloches",
+            "page": "Tout sur les ambulances",
+            "facts": [
+              "[Les ambulances] ont des lumières qui clignotent.",
+              "[Elles] transportent des malades.",
+              "[Les ambulances] ont une sirène bruyante.",
+              "[Les ambulances] vont à l’hôpital.",
+              "[L’ambulance] a un lit à l’intérieur."
+            ],
+            "drifts": [
+              "[Les cloches] sont bruyantes.",
+              "[Les cloches] sonnent."
+            ],
+            "mystery": [
+              "[Elles] ont une sirène bruyante.",
+              "[Elles] transportent des malades.",
+              "[Elles] ont des lumières qui clignotent."
+            ]
+          },
+          "rain": {
+            "sign": "La pluie",
+            "door": "Les fleurs",
+            "page": "Tout sur la pluie",
+            "facts": [
+              "[La pluie] tombe des nuages.",
+              "[Elle] fait des flaques.",
+              "[La pluie] aide les fleurs à pousser.",
+              "[La pluie] mouille tout.",
+              "[La pluie] tombe en gouttes."
+            ],
+            "drifts": [
+              "[Les fleurs] sentent bon.",
+              "[Les fleurs] ont des pétales."
+            ],
+            "mystery": [
+              "[Elle] tombe des nuages.",
+              "[Elle] fait des flaques.",
+              "[Elle] tombe en gouttes."
+            ]
+          },
+          "dogs": {
+            "sign": "Les chiens",
+            "door": "Les chats",
+            "page": "Tout sur les chiens",
+            "facts": [
+              "[Les chiens] aboient.",
+              "[Ils] remuent la queue.",
+              "[Les chiens] courent après les chats.",
+              "[Les chiens] rapportent la balle.",
+              "[Les chiens] ont un très bon flair."
+            ],
+            "drifts": [
+              "[Les chats] font miaou.",
+              "[Les chats] grimpent aux arbres."
+            ],
+            "mystery": [
+              "[Ils] aboient.",
+              "[Ils] rapportent la balle.",
+              "[Ils] se promènent en laisse."
+            ]
+          },
+          "bees": {
+            "sign": "Les abeilles",
+            "door": "Les fourmis",
+            "page": "Tout sur les abeilles",
+            "facts": [
+              "[Les abeilles] bourdonnent.",
+              "[Elles] font du miel.",
+              "[Les abeilles] sont plus grandes que les fourmis.",
+              "[Les abeilles] vivent dans une ruche.",
+              "[Les abeilles] butinent les fleurs."
+            ],
+            "drifts": [
+              "[Les fourmis] vivent sous la terre.",
+              "[Les fourmis] portent des miettes."
+            ],
+            "mystery": [
+              "[Elles] bourdonnent.",
+              "[Elles] font du miel.",
+              "[Elles] vivent dans une ruche."
+            ]
+          },
+          "trees": {
+            "sign": "Les arbres",
+            "door": "Les oiseaux",
+            "page": "Tout sur les arbres",
+            "facts": [
+              "[Les arbres] ont des feuilles.",
+              "[Ils] poussent très haut.",
+              "[Les arbres] donnent une maison aux oiseaux.",
+              "[Les arbres] ont des racines.",
+              "Certains [arbres] donnent des pommes."
+            ],
+            "drifts": [
+              "[Les oiseaux] savent voler.",
+              "[Les oiseaux] pondent des œufs."
+            ],
+            "mystery": [
+              "[Ils] ont des feuilles.",
+              "[Ils] ont des racines.",
+              "[Ils] poussent très haut."
+            ]
+          },
+          "hands": {
+            "sign": "Les mains",
+            "door": "Les pieds",
+            "page": "Tout sur les mains",
+            "facts": [
+              "[Les mains] peuvent applaudir.",
+              "[Elles] font coucou.",
+              "[Les mains] aident à mettre les chaussettes aux pieds.",
+              "[Les mains] peuvent tenir une tasse.",
+              "[La main] a cinq doigts."
+            ],
+            "drifts": [
+              "[Les pieds] nous aident à marcher.",
+              "[Les pieds] vont dans les chaussettes et les chaussures."
+            ],
+            "mystery": [
+              "[Elles] ont cinq doigts chacune.",
+              "[Elles] peuvent applaudir.",
+              "[Elles] peuvent tenir une tasse."
+            ]
+          }
+        },
+        "fi": {
+          "frogs": {
+            "sign": "Sammakot",
+            "door": "Järvet",
+            "page": "Kaikki sammakoista",
+            "facts": [
+              "[Sammakot] hyppivät.",
+              "[Ne] syövät hyönteisiä.",
+              "[Sammakot] uivat järvissä.",
+              "[Sammakot] munivat veteen.",
+              "[Sammakolla] on pitkät takajalat."
+            ],
+            "drifts": [
+              "[Järvet] ovat täynnä vettä.",
+              "[Järvet] voivat olla tosi isoja."
+            ],
+            "mystery": [
+              "[Ne] hyppivät.",
+              "[Ne] syövät hyönteisiä.",
+              "[Niillä] on pitkät takajalat."
+            ]
+          },
+          "moon": {
+            "sign": "Kuu",
+            "door": "Aurinko",
+            "page": "Kaikki kuusta",
+            "facts": [
+              "[Kuu] on pyöreä.",
+              "[Se] loistaa yöllä.",
+              "[Kuu] on pienempi kuin aurinko.",
+              "[Kuussa] on kraattereita.",
+              "[Kuu] kiertää maata."
+            ],
+            "drifts": [
+              "[Aurinko] on kuuma.",
+              "[Aurinko] paistaa päivällä."
+            ],
+            "mystery": [
+              "[Se] on pyöreä.",
+              "[Se] loistaa yöllä.",
+              "[Siinä] on kraattereita."
+            ]
+          },
+          "ambulances": {
+            "sign": "Ambulanssit",
+            "door": "Kellot",
+            "page": "Kaikki ambulansseista",
+            "facts": [
+              "[Ambulansseissa] on vilkkuvalot.",
+              "[Ne] kuljettavat sairaita ihmisiä.",
+              "[Ambulansseissa] on kovaääninen sireeni.",
+              "[Ambulanssit] ajavat sairaalaan.",
+              "[Ambulanssissa] on sänky."
+            ],
+            "drifts": [
+              "[Kellot] ovat kovaäänisiä.",
+              "[Kellot] ovat metallia."
+            ],
+            "mystery": [
+              "[Niissä] on kovaääninen sireeni.",
+              "[Ne] kuljettavat sairaita ihmisiä.",
+              "[Niissä] on vilkkuvalot."
+            ]
+          },
+          "rain": {
+            "sign": "Sade",
+            "door": "Kukat",
+            "page": "Kaikki sateesta",
+            "facts": [
+              "[Sade] tulee pilvistä.",
+              "[Se] tekee lätäköitä.",
+              "[Sade] auttaa kukkia kasvamaan.",
+              "[Sade] kastelee kaiken.",
+              "[Sade] tulee pisaroina."
+            ],
+            "drifts": [
+              "[Kukat] tuoksuvat hyvältä.",
+              "[Kukilla] on terälehdet."
+            ],
+            "mystery": [
+              "[Se] tulee pilvistä.",
+              "[Se] tekee lätäköitä.",
+              "[Se] tulee pisaroina."
+            ]
+          },
+          "dogs": {
+            "sign": "Koirat",
+            "door": "Kissat",
+            "page": "Kaikki koirista",
+            "facts": [
+              "[Koirat] haukkuvat.",
+              "[Ne] heiluttavat häntäänsä.",
+              "[Koirat] jahtaavat kissoja.",
+              "[Koirat] tuovat kepin takaisin.",
+              "[Koirilla] on tosi hyvä hajuaisti."
+            ],
+            "drifts": [
+              "[Kissat] sanovat miau.",
+              "[Kissat] kiipeävät puihin."
+            ],
+            "mystery": [
+              "[Ne] haukkuvat.",
+              "[Ne] tuovat kepin takaisin.",
+              "[Ne] käyvät kävelyllä hihnassa."
+            ]
+          },
+          "bees": {
+            "sign": "Mehiläiset",
+            "door": "Muurahaiset",
+            "page": "Kaikki mehiläisistä",
+            "facts": [
+              "[Mehiläiset] surisevat.",
+              "[Ne] tekevät hunajaa.",
+              "[Mehiläiset] ovat isompia kuin muurahaiset.",
+              "[Mehiläiset] asuvat mehiläispesässä.",
+              "[Mehiläiset] käyvät kukissa."
+            ],
+            "drifts": [
+              "[Muurahaiset] asuvat maassa.",
+              "[Muurahaiset] kantavat muruja."
+            ],
+            "mystery": [
+              "[Ne] surisevat.",
+              "[Ne] tekevät hunajaa.",
+              "[Ne] lentävät kukasta kukkaan."
+            ]
+          },
+          "trees": {
+            "sign": "Puut",
+            "door": "Linnut",
+            "page": "Kaikki puista",
+            "facts": [
+              "[Puilla] on lehdet.",
+              "[Ne] kasvavat tosi korkeiksi.",
+              "[Puut] antavat linnuille kodin.",
+              "[Puilla] on juuret.",
+              "Joissakin [puissa] kasvaa omenoita."
+            ],
+            "drifts": [
+              "[Linnut] osaavat lentää.",
+              "[Linnut] munivat."
+            ],
+            "mystery": [
+              "[Niillä] on lehdet.",
+              "[Niillä] on juuret.",
+              "[Ne] kasvavat tosi korkeiksi."
+            ]
+          },
+          "hands": {
+            "sign": "Kädet",
+            "door": "Jalat",
+            "page": "Kaikki käsistä",
+            "facts": [
+              "[Kädet] taputtavat.",
+              "[Ne] voivat vilkuttaa.",
+              "[Kädet] auttavat vetämään sukat jalkaan.",
+              "[Kädet] voivat pidellä kuppia.",
+              "[Kädessä] on viisi sormea."
+            ],
+            "drifts": [
+              "[Jalat] auttavat meitä kävelemään.",
+              "[Jalat] menevät sukkiin ja kenkiin."
+            ],
+            "mystery": [
+              "[Niissä] on viisi sormea kummassakin.",
+              "[Ne] taputtavat.",
+              "[Ne] voivat pidellä kuppia."
+            ]
+          }
+        }
       }
     },
     "slug": {
@@ -1147,7 +1971,11 @@
       "es": "quedarse-en-el-tema-cual-oracion-no-corresponde-segundo-grado",
       "pt": "qual-frase-nao-e-do-tema-manter-o-foco-primeiros-anos",
       "it": "quale-frase-non-e-del-tema-restare-in-tema-classe-seconda",
-      "nl": "welke-zin-hoort-niet-bij-het-thema-groep-4"
+      "nl": "welke-zin-hoort-niet-bij-het-thema-groep-4",
+      "sv": "brams-museum-hall-dig-till-amnet-ak-2",
+      "da": "brams-museum-hold-dig-til-emnet-2-klasse",
+      "no": "brams-museum-hold-deg-til-temaet-2-trinn",
+      "fi": "bramin-museo-pysy-aiheessa-2-luokka"
     },
     "page_title": {
       "en": "The Wobble Museum — Stick to the Topic (Kindergarten Writing)",
@@ -1156,7 +1984,11 @@
       "es": "¿Cuál oración no corresponde al tema? (2.º grado)",
       "pt": "Qual frase não é do tema? — Manter o foco no assunto",
       "it": "Quale frase non è del tema? Restare in tema (classe seconda)",
-      "nl": "Welke zin hoort niet bij het thema? Tekstsamenhang (groep 4)"
+      "nl": "Welke zin hoort niet bij het thema? Tekstsamenhang (groep 4)",
+      "sv": "Brams museum – Håll dig till ämnet (åk 2)",
+      "da": "Brams museum – Hold dig til emnet (2. klasse)",
+      "no": "Brams museum – Hold deg til temaet (2. trinn)",
+      "fi": "Bramin museo – Pysy aiheessa (2. luokka)"
     },
     "page_intro": {
       "en": "An interactive Kindergarten writing activity: each room in Bram the magpie's museum is all about ONE thing, but a label keeps wandering in from another room. Read the room, then tap the fact that does not belong — it is true, but it is about something else. A friendly first look at keeping an All-About book on topic. Common Core W.K.2.",
@@ -1165,7 +1997,11 @@
       "es": "Actividad interactiva para 2.º grado: lee cuatro oraciones y toca la que no corresponde al tema. Practica identificar el tema y quedarse en el tema.",
       "pt": "No museu de temas da pega Prata, cada sala tem um assunto e uma placa que mostra o tema. Três frases combinam com o tema, mas uma entrou na sala errada — ela é verdadeira, só que fala de outra coisa. Toque na frase intrusa e ajude a Prata a organizar o museu! Sem cadastro, sem relógio nem pontos, com o botão \"🔊 Ouvir\" para quem ainda está aprendendo a ler. Alinhado à BNCC, na área de produção de textos: manter o foco no tema.",
       "it": "Nel museo della gazza Gemma ogni sala racconta un solo tema, ma in ognuna una frase è entrata nella stanza sbagliata: è vera, ma non c’entra con l’argomento. Il bambino legge le quattro frasi, con l’aiuto del pulsante 🔊 leggi ad alta voce, e tocca la frase intrusa. Un’attività senza registrazione, senza timer e senza punteggio, allineata alle Indicazioni nazionali.",
-      "nl": "Bram de ekster heeft een echt themamuseum: in elke zaal draait alles om één onderwerp. Je kind ziet een bordje (\"Thema: kikkers\") en vier korte, ware zinnen, en zoekt de verdwaalde zin die uit een ander thema komt en er niet bij hoort — bij \"Thema: kikkers\" is \"Een vijver is koud\" bijvoorbeeld verdwaald. Interactief, afgestemd op de SLO-kerndoelen voor groep 4."
+      "nl": "Bram de ekster heeft een echt themamuseum: in elke zaal draait alles om één onderwerp. Je kind ziet een bordje (\"Thema: kikkers\") en vier korte, ware zinnen, en zoekt de verdwaalde zin die uit een ander thema komt en er niet bij hoort — bij \"Thema: kikkers\" is \"Een vijver is koud\" bijvoorbeeld verdwaald. Interactief, afgestemd op de SLO-kerndoelen voor groep 4.",
+      "sv": "I Brams museum hänger varje kort i ett snöre, och snöret ska fästas vid det som kortet handlar om: rummets skylt eller skylten i dörröppningen till rummet bredvid. Kortet om något annat dras ut genom dörren till sitt eget rum, och rummets fakta blir en sida i boken. Barnet hittar det främmande kortet, väljer fakta till sidan och ger rummet ett namn. Interaktivt för åk 2.",
+      "da": "I Brams museum hænger hvert kort i en snor, og snoren skal sættes fast på det, kortet handler om: rummets skilt eller skiltet i døråbningen til rummet ved siden af. Kortet om noget andet trækkes ud gennem døren til sit eget rum, og rummets fakta bliver en side i bogen. Barnet finder det fremmede kort, vælger fakta til siden og giver rummet et navn. Interaktivt til 2. klasse.",
+      "no": "I Brams museum henger hvert kort i en snor, og snora skal festes til det kortet handler om: rommets skilt eller skiltet i døråpningen til rommet ved siden av. Kortet om noe annet trekkes ut gjennom døra til sitt eget rom, og rommets fakta blir en side i boka. Barnet finner det fremmede kortet, velger fakta til siden og gir rommet et navn. Interaktivt for 2. trinn.",
+      "fi": "Bramin museossa jokainen kortti roikkuu narussa, ja naru kiinnitetään siihen, mistä kortti kertoo: huoneen kylttiin tai viereisen huoneen kylttiin oviaukossa. Toisesta asiasta kertova kortti vedetään oven läpi omaan huoneeseensa, ja huoneen tiedoista tulee sivu kirjaan. Lapsi löytää vieraan kortin, valitsee sivulle oikeat tiedot ja antaa huoneelle nimen. Interaktiivinen tehtävä 2. luokalle."
     },
     "kid_prompt_template": "wobble-museum"
   }

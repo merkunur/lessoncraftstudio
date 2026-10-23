@@ -31,6 +31,8 @@ const check = (cond, msg) => { if (!cond) failures.push(msg); };
 
 let roundCount = 0;
 for (const row of manifest) {
+  /* Row 81 rebuild (2026-10-23): find-the-total runs the Covered Basket (bond-basket-activity; gate verify-bond-basket-core.js) — rows that left this engine are not checked here. */
+  if (row.tool && row.tool !== 'number-bond-activity') continue;
   const rounds = (row.params && row.params.rounds) || [];
   /* byLocale rows (word-problem) carry rounds per-locale — variety checked in that branch */
   if (!(row.params && row.params.byLocale)) check(rounds.length >= VARIETY_MIN, `${row.id}: ${rounds.length} rounds < ${VARIETY_MIN} variety floor (§A.13.60)`);

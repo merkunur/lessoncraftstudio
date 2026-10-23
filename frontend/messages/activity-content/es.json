@@ -3073,25 +3073,27 @@
     },
     "numberbond.find-the-total.1-oa-a-1": {
       "about": [
-        "Un diagrama de partes y todo muestra dos partes, como 7 y 4, y tu hijo o hija halla cuántos hay en total: junta las partes contando y escribe el total. Es una actividad de matemáticas interactiva para 1.º de primaria que corre directamente en el navegador, sin registro.",
-        "El todo va arriba y las dos partes abajo, así que 'juntar' se convierte en algo que el niño o la niña puede ver. Puede contar a partir de la parte más grande o simplemente saberse el resultado; los puntos de cada parte están ahí para contarlos cuando todavía no domina la operación. La respuesta es el todo, en la parte de arriba del diagrama. Es una actividad para primer grado.",
-        "Está alineada con los planes y programas de estudio (SEP): usar la suma para juntar y agregar hasta el 20. Sin temporizador y sin puntuación, con práctica tranquila."
+        "Dos tazones con cosas y una canasta. El niño vacía un tazón en la canasta: la canasta cuenta las cosas en su etiqueta mientras caen, luego una tela de cuadros las cubre y solo queda el número. El otro tazón entra de uno en uno por una ranura de la tela.",
+        "Nunca se muestra cuántas van, así que el niño no puede volver a contar todo desde 1. El único camino al total es empezar en el número de la tela y seguir contando con cada cosa que mete: “8… 9, 10, 11”. El niño decide qué tazón vacía primero, y con el que tiene más es más rápido. Eso lo descubren con sus propias manos.",
+        "Si la respuesta no es correcta, aparecen los números para seguir contando sobre las cosas que entraron, empezando por el que sigue al de la tela. En el segundo intento la tela se levanta y todo queda en filas de marcos de diez, en dos colores. Cuatro tareas: encontrar el total hasta 20, partes y todo hasta 10, completar el todo (meter hasta que la canasta esté llena) y hasta 20. Las partes pueden ser dibujos, puntos de dado o marcos de diez. En línea con los planes de estudio, en el campo de número. Sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Leer las dos partes de un diagrama de partes y todo.",
-        "Juntar las partes para hallar el todo hasta el 20.",
-        "Contar a partir de la parte más grande para sumar con más eficiencia.",
-        "Escribir el total que nombra el todo."
+        "Sumar dos partes juntándolas",
+        "Seguir contando desde un número en vez de contar todo desde 1",
+        "Empezar por la parte mayor para contar menos",
+        "Encontrar el todo de un diagrama de partes y la parte que falta"
       ],
       "howToPlay": [
-        "Mira las dos partes del diagrama, como 7 + 4.",
-        "Cuenta cuántos hay en total, escribe el total y pulsa Comprobar.",
-        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntuación."
+        "Toca un tazón para vaciarlo en la canasta. Mira cómo la etiqueta cuenta las cosas; luego la tela las tapa.",
+        "Toca el otro tazón para meter sus cosas de una en una por la ranura. Sigue contando desde el número de la tela.",
+        "Escribe en las teclas cuántas hay en total y toca la palomita. Si presionas largo la tela, se levanta una esquina para asomarte; la flecha redonda vacía la canasta.",
+        "En la configuración eliges la tarea (encontrar el total, partes y todo hasta 10, completar el todo, hasta 20) y cómo se ven las partes (dibujos, puntos, marcos de diez)."
       ],
       "learningGoals": [
-        "Tu hijo o hija puede sumar dos números hasta el 20 juntando las partes.",
-        "El niño o la niña aprende a leer un diagrama de partes y todo y a hallar el todo que falta.",
-        "Aprende a contar a partir del número más grande para sumar más rápido."
+        "Sumar dos números hasta 20 juntando las partes",
+        "Seguir contando desde la primera parte en vez de contar todo",
+        "Encontrar el todo de un diagrama de partes hasta 10 y hasta 20",
+        "Encontrar la parte que falta para completar el todo"
       ]
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {

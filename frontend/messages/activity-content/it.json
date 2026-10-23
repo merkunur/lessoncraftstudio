@@ -2023,25 +2023,27 @@
     },
     "numberbond.find-the-total.1-oa-a-1": {
       "about": [
-        "Un legame tra numeri mostra due parti, come 7 e 4, e il bambino trova quanti sono in tutto — contando insieme le parti e scrivendo il totale. È un'attività di matematica interattiva per la classe prima, che funziona direttamente nel browser senza registrazione.",
-        "L'intero sta in alto e le due parti sotto, così il «mettere insieme» diventa qualcosa che il bambino può vedere. Può contare in avanti a partire dalla parte più grande oppure conoscere già il fatto; i pallini in ogni parte sono lì da contare quando un fatto non è ancora automatico. La risposta è l'intero, in cima al legame.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito delle operazioni: usare l'addizione per mettere insieme e addizionare entro il 20. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
+        "Due ciotole con delle cose e un cesto. Il bambino versa una ciotola nel cesto: il cesto conta le cose sul suo cartellino mentre cadono, poi un telo a quadretti le copre e resta solo il numero. L’altra ciotola entra una cosa alla volta da una fessura nel telo.",
+        "Quante ce ne sono finora non si vede mai, quindi il bambino non può ricontare tutto da 1. L’unica strada per il totale è partire dal numero sul telo e continuare a contare a ogni cosa infilata: “8… 9, 10, 11”. È il bambino a scegliere quale ciotola versare per prima, e con quella che ne ha di più si fa prima. Lo scoprono con le loro mani.",
+        "Se la risposta non è giusta, compaiono i numeri per contare avanti sopra le cose infilate, a partire da quello dopo il numero sul telo. Al secondo tentativo il telo si alza e tutto è in file di griglie del dieci, in due colori. Quattro compiti: trovare il totale entro il 20, scomposizioni fino a 10, completare l’intero (infilare finché il cesto è pieno) e fino a 20. Le parti possono essere immagini, puntini del dado o griglie del dieci. In linea con le Indicazioni nazionali per i numeri. Senza cronometro e senza punti."
       ],
       "practices": [
-        "Leggere le due parti di un legame tra numeri di tipo parte-parte-intero.",
-        "Mettere insieme le parti per trovare l'intero entro il 20.",
-        "Contare in avanti a partire dalla parte più grande per addizionare in modo più efficiente.",
-        "Scrivere il totale che nomina l'intero."
+        "Addizionare due parti mettendole insieme",
+        "Contare avanti da un numero invece di ricontare tutto da 1",
+        "Partire dalla parte più grande per contare meno",
+        "Trovare l’intero di una scomposizione e la parte che manca"
       ],
       "howToPlay": [
-        "Guarda le due parti nel legame tra numeri, come 7 + 4.",
-        "Conta quanti sono in tutto e scrivi il totale, poi premi «Controlla».",
-        "Non è giusto? Riprova quante volte vuoi — non c'è timer e non c'è punteggio."
+        "Tocca una ciotola per versarla nel cesto. Guarda il cartellino contare le cose; poi il telo le copre.",
+        "Tocca l’altra ciotola per infilare le sue cose una alla volta nella fessura. Conta avanti dal numero sul telo.",
+        "Scrivi con i tasti dei numeri quante sono in tutto e tocca la spunta. Se tieni premuto il telo, si alza un angolo per sbirciare; la freccia rotonda svuota il cesto.",
+        "Nelle impostazioni scegli il compito (trovare il totale, scomposizioni fino a 10, completare l’intero, fino a 20) e come sono le parti (immagini, puntini, griglie del dieci)."
       ],
       "learningGoals": [
-        "Addizionare due numeri entro il 20 mettendo insieme le parti.",
-        "Leggere un legame tra numeri parte-parte-intero e trovare l'intero mancante.",
-        "Contare in avanti a partire dal numero più grande per addizionare più rapidamente."
+        "Addizionare due numeri entro il 20 mettendo insieme le parti",
+        "Contare avanti dalla prima parte invece di contare tutto",
+        "Trovare l’intero di una scomposizione fino a 10 e fino a 20",
+        "Trovare la parte che manca per avere l’intero"
       ]
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {

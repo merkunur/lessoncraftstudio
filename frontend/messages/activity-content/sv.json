@@ -884,24 +884,27 @@
     },
     "numberbond.find-the-total.1-oa-a-1": {
       "about": [
-        "Ett talkompis-diagram visar två delar, som 7 och 4, och barnet räknar ut hur många det blir tillsammans — lägger ihop delarna och skriver det hela. Det är en interaktiv matteövning för årskurs 1 som körs direkt i webbläsaren utan registrering.",
-        "Det hela sitter överst och de två delarna under, så att sätta ihop blir något barnet kan se. Barnet kan räkna vidare från den större delen eller helt enkelt kunna uppgiften; prickarna i varje del finns där att räkna när en uppgift inte sitter automatiskt ännu. Svaret är det hela längst upp i diagrammet. Aktiviteten passar årskurs 1 och följer Lgr22."
+        "Två skålar med saker och en korg. Barnet häller den ena skålen i korgen: korgen räknar sakerna på sin lapp medan de faller i, sedan lägger sig en rutig duk över dem och bara talet syns. Den andra skålen stoppas i en sak i taget genom en springa i duken.",
+        "Hur många som är i korgen hittills visas aldrig, så barnet kan inte räkna allt igen från 1. Den enda vägen till svaret är att börja på talet på duken och räkna vidare för varje sak, ”8 … 9, 10, 11”. Barnet väljer själv vilken skål som hälls i först, och det går fortare med den skål där det finns flest saker. Det kommer barnen fram till med sina egna händer.",
+        "Är svaret inte rätt visas talen att räkna vidare med över de saker som stoppats i, med början på talet efter det på duken. Vid andra försöket lyfts duken och allt ligger i rader i tiorutor, i två färger. Fyra uppgifter: hitta det hela upp till 20, uppdelning upp till 10, fyll upp till det hela (stoppa i tills korgen är full) och till 20. Delarna kan vara bilder, tärningsprickar eller tiorutor. I linje med Lgr22 om taluppfattning och tals användning. Utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Läsa de två delarna i ett del–del–helhet-diagram",
-        "Sätta ihop delarna för att hitta det hela inom 20",
-        "Räkna vidare från den större delen för att addera smidigare",
-        "Skriva summan som anger det hela"
+        "Att lägga ihop två delar",
+        "Att räkna vidare från ett tal i stället för att räkna allt från 1",
+        "Att börja med den största delen så att man räknar vidare färre steg",
+        "Att hitta det hela i en uppdelning och delen som fattas"
       ],
       "howToPlay": [
-        "Titta på de två delarna i talkompis-diagrammet, som 7 + 4.",
-        "Räkna ut hur många det blir tillsammans och skriv summan, och tryck sedan på Kontrollera.",
-        "Blev det inte rätt? Försök igen så ofta du vill — det finns ingen tid och inga poäng."
+        "Tryck på en skål för att hälla den i korgen. Se lappen räkna sakerna, sedan täcker duken dem.",
+        "Tryck på den andra skålen för att stoppa i sakerna en i taget genom springan. Räkna vidare från talet på duken.",
+        "Skriv på siffertangenterna hur många det är sammanlagt och tryck på bocken. Ett långt tryck på duken lyfter ett hörn så att du kan kika; den runda pilen tömmer korgen.",
+        "I inställningarna väljer du uppgift (hitta det hela, uppdelning upp till 10, fyll upp till det hela, till 20) och hur delarna ser ut (bilder, prickar, tiorutor)."
       ],
       "learningGoals": [
-        "Barnet kan addera två tal inom 20 genom att sätta ihop delarna",
-        "Barnet kan läsa ett del–del–helhet-diagram och hitta det hela som saknas",
-        "Barnet kan räkna vidare från det större talet för att addera snabbare"
+        "Att addera två tal upp till 20 genom att lägga ihop delarna",
+        "Att räkna vidare från den första delen i stället för att räkna allt",
+        "Att hitta det hela i en uppdelning upp till 10 och upp till 20",
+        "Att hitta delen som fattas för att få det hela"
       ]
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {

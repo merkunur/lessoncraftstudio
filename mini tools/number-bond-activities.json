@@ -97,7 +97,7 @@
   },
   {
     "id": "numberbond.find-the-total.1-oa-a-1",
-    "tool": "number-bond-activity",
+    "tool": "bond-basket-activity",
     "task_template": "whole-unknown",
     "alignment": {
       "framework": "CCSS",
@@ -106,48 +106,260 @@
       "strand": "Operations & Algebraic Thinking"
     },
     "params": {
-      "rounds": [
-        {
-          "first": 3,
-          "second": 4,
-          "seed": 211
-        },
-        {
-          "first": 6,
-          "second": 2,
-          "seed": 223
-        },
-        {
-          "first": 5,
-          "second": 5,
-          "seed": 231
-        },
-        {
-          "first": 4,
-          "second": 7,
-          "seed": 241
-        },
-        {
-          "first": 8,
-          "second": 3,
-          "seed": 253
-        },
-        {
-          "first": 2,
-          "second": 6,
-          "seed": 261
-        },
-        {
-          "first": 7,
-          "second": 4,
-          "seed": 267
-        },
-        {
-          "first": 5,
-          "second": 8,
-          "seed": 271
-        }
-      ]
+      "note": "A mirror of bond-basket-core.js (the rounds of every face and the picture kinds). The core is the source; this row runs the Covered Basket.",
+      "faces": [
+        "total",
+        "bonds",
+        "whole",
+        "to20"
+      ],
+      "coats": [
+        "pictures",
+        "dots",
+        "frames"
+      ],
+      "kinds": [
+        "toys/ball",
+        "fruits/strawberry",
+        "insects-and-bugs/ladybug",
+        "desserts-and-sweets/cookie",
+        "toys/car",
+        "vegetables/carrot",
+        "fruits/banana"
+      ],
+      "trayExtra": 2,
+      "rounds": {
+        "total": [
+          {
+            "left": 3,
+            "right": 4,
+            "total": 7,
+            "kind": "toys/ball"
+          },
+          {
+            "left": 6,
+            "right": 2,
+            "total": 8,
+            "kind": "fruits/strawberry"
+          },
+          {
+            "left": 5,
+            "right": 5,
+            "total": 10,
+            "kind": "insects-and-bugs/ladybug"
+          },
+          {
+            "left": 4,
+            "right": 7,
+            "total": 11,
+            "kind": "desserts-and-sweets/cookie"
+          },
+          {
+            "left": 8,
+            "right": 3,
+            "total": 11,
+            "kind": "toys/car"
+          },
+          {
+            "left": 2,
+            "right": 7,
+            "total": 9,
+            "kind": "vegetables/carrot"
+          },
+          {
+            "left": 7,
+            "right": 5,
+            "total": 12,
+            "kind": "fruits/banana"
+          },
+          {
+            "left": 5,
+            "right": 8,
+            "total": 13,
+            "kind": "toys/ball"
+          },
+          {
+            "left": 9,
+            "right": 6,
+            "total": 15,
+            "kind": "fruits/strawberry"
+          },
+          {
+            "left": 8,
+            "right": 9,
+            "total": 17,
+            "kind": "insects-and-bugs/ladybug"
+          }
+        ],
+        "bonds": [
+          {
+            "left": 3,
+            "right": 2,
+            "total": 5,
+            "kind": "desserts-and-sweets/cookie"
+          },
+          {
+            "left": 4,
+            "right": 2,
+            "total": 6,
+            "kind": "toys/car"
+          },
+          {
+            "left": 3,
+            "right": 4,
+            "total": 7,
+            "kind": "vegetables/carrot"
+          },
+          {
+            "left": 5,
+            "right": 3,
+            "total": 8,
+            "kind": "fruits/banana"
+          },
+          {
+            "left": 3,
+            "right": 6,
+            "total": 9,
+            "kind": "toys/ball"
+          },
+          {
+            "left": 6,
+            "right": 4,
+            "total": 10,
+            "kind": "fruits/strawberry"
+          },
+          {
+            "left": 1,
+            "right": 5,
+            "total": 6,
+            "kind": "insects-and-bugs/ladybug"
+          },
+          {
+            "left": 2,
+            "right": 2,
+            "total": 4,
+            "kind": "desserts-and-sweets/cookie"
+          },
+          {
+            "left": 3,
+            "right": 5,
+            "total": 8,
+            "kind": "toys/car"
+          }
+        ],
+        "whole": [
+          {
+            "whole": 10,
+            "given": 7,
+            "answer": 3,
+            "kind": "fruits/banana"
+          },
+          {
+            "whole": 10,
+            "given": 4,
+            "answer": 6,
+            "kind": "toys/ball"
+          },
+          {
+            "whole": 10,
+            "given": 9,
+            "answer": 1,
+            "kind": "fruits/strawberry"
+          },
+          {
+            "whole": 10,
+            "given": 2,
+            "answer": 8,
+            "kind": "insects-and-bugs/ladybug"
+          },
+          {
+            "whole": 10,
+            "given": 6,
+            "answer": 4,
+            "kind": "desserts-and-sweets/cookie"
+          },
+          {
+            "whole": 5,
+            "given": 2,
+            "answer": 3,
+            "kind": "toys/car"
+          },
+          {
+            "whole": 6,
+            "given": 4,
+            "answer": 2,
+            "kind": "vegetables/carrot"
+          },
+          {
+            "whole": 7,
+            "given": 3,
+            "answer": 4,
+            "kind": "fruits/banana"
+          },
+          {
+            "whole": 8,
+            "given": 3,
+            "answer": 5,
+            "kind": "toys/ball"
+          },
+          {
+            "whole": 9,
+            "given": 2,
+            "answer": 7,
+            "kind": "fruits/strawberry"
+          }
+        ],
+        "to20": [
+          {
+            "left": 4,
+            "right": 10,
+            "total": 14,
+            "kind": "insects-and-bugs/ladybug"
+          },
+          {
+            "left": 9,
+            "right": 7,
+            "total": 16,
+            "kind": "desserts-and-sweets/cookie"
+          },
+          {
+            "left": 8,
+            "right": 9,
+            "total": 17,
+            "kind": "toys/car"
+          },
+          {
+            "left": 6,
+            "right": 9,
+            "total": 15,
+            "kind": "vegetables/carrot"
+          },
+          {
+            "left": 10,
+            "right": 9,
+            "total": 19,
+            "kind": "fruits/banana"
+          },
+          {
+            "left": 7,
+            "right": 6,
+            "total": 13,
+            "kind": "toys/ball"
+          },
+          {
+            "left": 9,
+            "right": 9,
+            "total": 18,
+            "kind": "fruits/strawberry"
+          },
+          {
+            "left": 5,
+            "right": 8,
+            "total": 13,
+            "kind": "insects-and-bugs/ladybug"
+          }
+        ]
+      }
     },
     "theme": null,
     "slug": {

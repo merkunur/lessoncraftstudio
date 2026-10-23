@@ -1,0 +1,116 @@
+{
+  "_note": "The gate's OWN phrase table for verify-lamplight-cupboard-core.js — typed by hand from each language's grammar (sv/no double definiteness, da adjective + indefinite noun, fr adjective before the noun, es/it/pt after), never generated from the core.",
+  "en": {
+    "l1:2 n:cup s:small": "The small cup",
+    "l1:3 n:ball h:bottom": "The ball on the bottom shelf",
+    "l1:6 n:truck x:car": "The truck next to the car",
+    "l1:2 s:big": "The big one",
+    "l1:8 n:glass s:big": "The big glass",
+    "l2:0 f:sad r:rain": "I feel sad because it is raining.",
+    "l2:1 f:scared r:dark p:please": "I feel scared because it is dark. Please help me.",
+    "l1:3 h:bottom": "The one on the bottom shelf"
+  },
+  "de": {
+    "l1:2 n:cup s:small": "Die kleine Tasse",
+    "l1:3 n:ball h:bottom": "Der Ball unten im Regal",
+    "l1:6 n:truck x:car": "Der Lastwagen neben dem Auto",
+    "l1:2 s:big": "Das große Ding",
+    "l1:8 n:glass s:big": "Das große Glas",
+    "l2:0 f:sad r:rain": "Ich bin traurig, weil es regnet.",
+    "l2:1 f:scared r:dark p:please": "Ich habe Angst, weil es dunkel ist. Hilf mir bitte.",
+    "l1:3 h:bottom": "Das Ding unten im Regal"
+  },
+  "nl": {
+    "l1:2 n:cup s:small": "Het kleine kopje",
+    "l1:3 n:ball h:bottom": "De bal op de onderste plank",
+    "l1:6 n:truck x:car": "De vrachtwagen naast de auto",
+    "l1:2 s:big": "Het grote ding",
+    "l1:8 n:glass s:big": "Het grote glas",
+    "l2:0 f:sad r:rain": "Ik ben verdrietig omdat het regent.",
+    "l2:1 f:scared r:dark p:please": "Ik ben bang omdat het donker is. Help me alsjeblieft.",
+    "l1:3 h:bottom": "Het ding op de onderste plank"
+  },
+  "da": {
+    "l1:2 n:cup s:small": "Den lille kop",
+    "l1:3 n:ball h:bottom": "Bolden på den nederste hylde",
+    "l1:6 n:truck x:car": "Lastbilen ved siden af bilen",
+    "l1:2 s:big": "Den store ting",
+    "l1:8 n:glass s:big": "Det store glas",
+    "l2:0 f:sad r:rain": "Jeg er ked af det, fordi det regner.",
+    "l2:1 f:scared r:dark p:please": "Jeg er bange, fordi det er mørkt. Vil du ikke nok hjælpe mig?",
+    "l1:3 h:bottom": "Tingen på den nederste hylde"
+  },
+  "sv": {
+    "l1:2 n:cup s:small": "Den lilla koppen",
+    "l1:3 n:ball h:bottom": "Bollen på nedersta hyllan",
+    "l1:6 n:truck x:car": "Lastbilen bredvid bilen",
+    "l1:2 s:big": "Den stora saken",
+    "l1:8 n:glass s:big": "Det stora glaset",
+    "l2:0 f:sad r:rain": "Jag är ledsen för att det regnar.",
+    "l2:1 f:scared r:dark p:please": "Jag är rädd för att det är mörkt. Snälla, hjälp mig.",
+    "l1:3 h:bottom": "Saken på nedersta hyllan"
+  },
+  "no": {
+    "l1:2 n:cup s:small": "Den lille koppen",
+    "l1:3 n:ball h:bottom": "Ballen på nederste hylle",
+    "l1:6 n:truck x:car": "Lastebilen ved siden av bilen",
+    "l1:2 s:big": "Den store tingen",
+    "l1:8 n:glass s:big": "Det store glasset",
+    "l2:0 f:sad r:rain": "Jeg er lei meg fordi det regner.",
+    "l2:1 f:scared r:dark p:please": "Jeg er redd fordi det er mørkt. Vær så snill og hjelp meg.",
+    "l1:3 h:bottom": "Tingen på nederste hylle"
+  },
+  "es": {
+    "l1:2 n:cup s:small": "La taza pequeña",
+    "l1:3 n:ball h:bottom": "La pelota en la repisa de abajo",
+    "l1:6 n:truck x:car": "El camión junto al carro",
+    "l1:2 s:big": "La cosa grande",
+    "l1:8 n:glass s:big": "El vaso grande",
+    "l2:0 f:sad r:rain": "Estoy triste porque está lloviendo.",
+    "l2:1 f:scared r:dark p:please": "Tengo miedo porque está oscuro. Ayúdame, por favor.",
+    "l1:3 h:bottom": "La cosa en la repisa de abajo",
+    "l1:7 n:mug s:big": "El tarro grande"
+  },
+  "it": {
+    "l1:2 n:cup s:small": "La tazza piccola",
+    "l1:3 n:ball h:bottom": "La palla sul ripiano in basso",
+    "l1:6 n:truck x:car": "Il camion vicino alla macchina",
+    "l1:2 s:big": "La cosa grande",
+    "l1:8 n:glass s:big": "Il bicchiere grande",
+    "l2:0 f:sad r:rain": "Sono triste perché piove.",
+    "l2:1 f:scared r:dark p:please": "Ho paura perché è buio. Aiutami, per favore.",
+    "l1:3 h:bottom": "La cosa sul ripiano in basso",
+    "l1:7 n:mug s:big": "Il tazzone grande"
+  },
+  "pt": {
+    "l1:2 n:cup s:small": "A xícara pequena",
+    "l1:3 n:ball h:bottom": "A bola na prateleira de baixo",
+    "l1:6 n:truck x:car": "O caminhão ao lado do carro",
+    "l1:2 s:big": "A coisa grande",
+    "l1:8 n:glass s:big": "O copo grande",
+    "l2:0 f:sad r:rain": "Estou triste porque está chovendo.",
+    "l2:1 f:scared r:dark p:please": "Estou com medo porque está escuro. Me ajuda, por favor.",
+    "l1:3 h:bottom": "A coisa na prateleira de baixo"
+  },
+  "fr": {
+    "l1:2 n:cup s:small": "La petite tasse",
+    "l1:3 n:ball h:bottom": "Le ballon sur l’étagère du bas",
+    "l1:6 n:truck x:car": "Le camion à côté de la voiture",
+    "l1:2 s:big": "Le grand objet",
+    "l1:8 n:glass s:big": "Le grand verre",
+    "l2:0 f:sad r:rain": "Je suis triste parce qu’il pleut.",
+    "l2:1 f:scared r:dark p:please": "J’ai peur parce qu’il fait noir. Aide-moi, s’il te plaît.",
+    "l1:3 h:bottom": "L’objet sur l’étagère du bas",
+    "l1:6 x:car": "L’objet à côté de la voiture"
+  },
+  "fi": {
+    "l1:2 n:cup s:small": "Pieni kuppi",
+    "l1:3 n:ball h:bottom": "Pallo alahyllyllä",
+    "l1:6 n:truck x:car": "Kuorma-auto auton vieressä",
+    "l1:2 s:big": "Iso esine",
+    "l1:8 n:glass s:big": "Iso lasi",
+    "l2:0 f:sad r:rain": "Olen surullinen, koska sataa.",
+    "l2:1 f:scared r:dark p:please": "Minua pelottaa, koska on pimeää. Auta minua, ole kiltti.",
+    "l1:3 h:bottom": "Esine alahyllyllä"
+  }
+}

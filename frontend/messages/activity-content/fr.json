@@ -4090,23 +4090,27 @@
     },
     "sock-and-shadow.puppet-speak.sl-k-6": {
       "about": [
-        "Au théâtre des objets perdus, Chaussette tient le comptoir et voit le bac ; Ombre, cachée derrière le rideau, ne voit rien du tout. Ton enfant est la voix de Chaussette : il compose la phrase avec des mots-images — la taille, la couleur, la place — pour qu'Ombre trouve le bon objet et aille le chercher.",
-        "Trop vague, et Ombre tient deux objets à la fois ; trop de mots, et elle en oublie la moitié : seul le juste nécessaire réussit. Choisir les bons mots pour se faire comprendre d'un auditeur qui ne voit pas, c'est de la production orale claire — un attendu du CP. Le jeu se joue sans minuteur et sans points, dans le domaine « Langage oral » des programmes officiels de l'école."
+        "Ombre se tient dans un placard sombre et ne voit pas l’anneau que Chaussette a collé sur la vitre. L’enfant est la voix de Chaussette. Chaque mot n’allume que les objets auxquels il correspond, et la petite porte du rideau ne laisse passer qu’un seul objet. Dire ce que l’on veut dire pour qu’un auditeur qui ne voit pas notre monde comprenne, c’est le cœur d’une parole claire.",
+        "Le placard montre les deux vraies raisons pour lesquelles les jeunes enfants sont mal compris. Si l’on dit trop peu (« la voiture » alors qu’il y a trois voitures), toutes les voitures restent allumées et deux se coincent côte à côte dans la porte. Si l’on en dit trop, les trois crochets de la mémoire d’Ombre se remplissent. Une perle de trop fait tomber le premier mot, et le placard se rallume. Un mot qui ne correspond à rien éteint toutes les lampes.",
+        "Deux types de manches. Va le chercher (toucher un objet pour dire son nom, puis ajouter le mot qui le distingue, grand, petit, sur l’étagère du haut, à côté de…) et Dis ce que tu ressens (toucher le visage qui montre ce que ressent Chaussette et ajouter la raison, « Je suis triste parce qu’il pleut », pour qu’Ombre montre le visage et apporte la bonne aide). En lien avec les programmes officiels pour le langage oral. Dire les mots à voix haute se travaille avec un adulte. Sans chronomètre et sans points."
       ],
       "practices": [
-        "Décrire un objet avec précision",
-        "Choisir les mots justes (taille, couleur, place)",
-        "Penser à l'auditeur qui ne voit pas",
-        "Dire juste ce qu'il faut, ni trop ni trop peu"
+        "Nommer l’objet que l’on veut dire",
+        "Ajouter le seul détail qui le distingue",
+        "Dire juste assez de mots, pas trop",
+        "Dire un sentiment avec sa raison"
       ],
       "howToPlay": [
-        "Compose la phrase de Chaussette avec les bons mots.",
-        "Touche « Dis-le à Ombre » pour qu'elle aille chercher."
+        "Touche un objet du placard pour dire son nom. Touche les cartes de mots (grand, petit, sur l’étagère du haut, à côté de…) pour ajouter un détail. Regarde quelles lampes restent allumées.",
+        "Appuie sur le tuyau pour le dire à Ombre. Un objet allumé glisse par la porte. S’il en reste deux allumés, ils se coincent. Touche un mot de ta phrase pour le reprendre.",
+        "Dans « Dis ce que tu ressens », touche le visage qui montre ce que ressent Chaussette et ajoute une carte « parce que… ». Ombre montre le visage et apporte l’aide.",
+        "Dans les réglages, choisis les types de manches, donne à Ombre une mémoire de 3 ou 2 mots et choisis si les lampes s’allument quand tu touches ou seulement après avoir parlé."
       ],
       "learningGoals": [
-        "Décrire pour se faire comprendre",
-        "Choisir des mots précis et suffisants",
-        "S'adresser clairement à un auditeur"
+        "Parler pour qu’un auditeur qui ne voit rien comprenne de quel objet il s’agit",
+        "Utiliser des mots de taille et de position pour distinguer les objets",
+        "Exprimer un sentiment et sa raison dans une seule phrase",
+        "Remarquer quand un message est trop court ou trop long"
       ]
     },
     "daisy-plate-stack.plurals.l-k-1-c": {

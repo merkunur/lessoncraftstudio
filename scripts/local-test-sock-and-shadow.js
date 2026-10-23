@@ -13,6 +13,8 @@
      • no horizontal overflow 280→768.
    ===================================================================== */
 'use strict';
+/* Row 80 rebuild (2026-10-23): the row runs the Lamplight Cupboard (lamplight-cupboard-activity; gates verify-lamplight-cupboard-core.js + local-test-lamplight-cupboard.js) and no page loads the old Sock & Shadow files any more. */
+{ const _m = JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'sock-and-shadow-activities.json'), 'utf8')); const _r = (Array.isArray(_m) ? _m : _m.activities).find(a => a.id === 'sock-and-shadow.puppet-speak.sl-k-6'); if (_r && _r.tool !== 'sock-and-shadow-activity') { console.log('local-test-sock-and-shadow: the row runs the Lamplight Cupboard — see verify-lamplight-cupboard-core.js / local-test-lamplight-cupboard.js. Nothing to check here.'); process.exit(0); } }
 const http = require('http');
 const fs = require('fs');
 const path = require('path');

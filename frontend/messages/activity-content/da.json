@@ -2526,6 +2526,31 @@
         "Barnet beholder kun fakta om emnet på en faktaside",
         "Barnet giver en række fakta et emne"
       ]
+    },
+    "sock-and-shadow.puppet-speak.sl-k-6": {
+      "about": [
+        "Skygge står inde i et mørkt skab og kan ikke se den ring, Strømpe har klistret på glasset. Barnet er Strømpes stemme: hvert ord tænder kun de ting, det passer på, og den lille låge i forhænget lukker kun én ting igennem. At sige det, man mener, så en lytter, der ikke kan se ens verden, forstår det, er kernen i at tale tydeligt.",
+        "Skabet viser de to virkelige grunde til, at små talere bliver misforstået. Siger man for lidt (»bilen«, når der står tre biler), lyser alle bilerne, og to sidder fast side om side i lågen. Siger man for meget, fyldes Skygges tre huskepinde: én perle for meget skubber det første ord af, og skabet lyser op igen. Et ord, der ikke passer på noget, slukker alle lamperne.",
+        "To slags runder: Hent den (tryk på en ting for at sige dens navn, og læg så det ord til, der skiller den ud: stor, lille, på den øverste hylde, ved siden af …) og Sig, hvordan du har det (tryk på det ansigt, der viser, hvordan Strømpe har det, og læg grunden til, »Jeg er ked af det, fordi det regner«, så Skygge holder ansigtet op og kommer med den rigtige hjælp). I tråd med Fælles Mål for mundtlighed. At sige ordene højt øver barnet sammen med en voksen. Uden tidtagning og uden point."
+      ],
+      "practices": [
+        "At nævne den ting, man mener",
+        "At lægge den ene detalje til, der skiller den ud",
+        "At sige lige nok ord, ikke for mange",
+        "At sige en følelse sammen med grunden til den"
+      ],
+      "howToPlay": [
+        "Tryk på en ting i skabet for at sige dens navn. Tryk på ordkortene (stor, lille, på den øverste hylde, ved siden af …) for at lægge en detalje til. Se, hvilke lamper der bliver ved med at lyse.",
+        "Tryk på talerøret for at sige det til Skygge. Én tændt ting glider gennem lågen; lyser to stadig, sidder de fast. Tryk på et ord i din sætning for at tage det tilbage.",
+        "I »Sig, hvordan du har det« trykker du på det ansigt, der viser, hvordan Strømpe har det, og lægger et »fordi …«-kort til. Skygge holder ansigtet op og kommer med hjælpen.",
+        "I indstillingerne vælger du slags runder, giver Skygge en hukommelse på 3 eller 2 ord og vælger, om lamperne lyser, mens du trykker, eller først når du har talt."
+      ],
+      "learningGoals": [
+        "At tale, så en lytter, der ikke kan se, forstår, hvilken ting man mener",
+        "At bruge ord for størrelse og placering til at skille ting ad",
+        "At udtrykke en følelse og grunden til den i én sætning",
+        "At mærke, når en besked er for kort eller for lang"
+      ]
     }
   }
 }

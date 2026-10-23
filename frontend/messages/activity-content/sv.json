@@ -3376,6 +3376,31 @@
         "Barnet behåller bara fakta om ämnet på en faktasida",
         "Barnet ger några fakta ett ämne"
       ]
+    },
+    "sock-and-shadow.puppet-speak.sl-k-6": {
+      "about": [
+        "Skugga står inne i ett mörkt skåp och kan inte se ringen som Strumpa har satt på glaset. Barnet är Strumpas röst: varje ord tänder bara de saker det passar in på, och den lilla luckan i draperiet släpper igenom en enda sak. Att säga det man menar så att en lyssnare som inte ser ens värld förstår, är kärnan i att tala tydligt.",
+        "Skåpet visar de två verkliga skälen till att små talare blir missförstådda. Säger man för lite (”bilen”, när det står tre bilar där) lyser alla bilarna, och två fastnar sida vid sida i luckan. Säger man för mycket fylls Skuggas tre minnespinnar: en pärla för mycket knuffar av det första ordet, och skåpet lyser upp igen. Ett ord som inte passar in på något släcker alla lampor.",
+        "Två slags omgångar: Hämta den (tryck på en sak för att säga vad den heter, och lägg sedan till ordet som skiljer ut den: stor, liten, på översta hyllan, bredvid …) och Säg hur du känner dig (tryck på ansiktet som visar hur Strumpa känner sig och lägg till skälet, ”Jag är ledsen för att det regnar”, så att Skugga håller upp ansiktet och kommer med rätt hjälp). I linje med Lgr22 om att tala, lyssna och samtala. Att säga orden högt övar barnet tillsammans med en vuxen. Utan tidtagning och utan poäng."
+      ],
+      "practices": [
+        "Att nämna saken man menar",
+        "Att lägga till den enda detalj som skiljer ut den",
+        "Att säga lagom många ord, inte för många",
+        "Att säga en känsla tillsammans med skälet till den"
+      ],
+      "howToPlay": [
+        "Tryck på en sak i skåpet för att säga vad den heter. Tryck på ordkorten (stor, liten, på översta hyllan, bredvid …) för att lägga till en detalj. Se vilka lampor som fortsätter att lysa.",
+        "Tryck på talröret för att säga det till Skugga. En tänd sak glider genom luckan; lyser två fortfarande fastnar de. Tryck på ett ord i din mening för att ta tillbaka det.",
+        "I ”Säg hur du känner dig” trycker du på ansiktet som visar hur Strumpa känner sig och lägger till ett ”för att …”-kort. Skugga håller upp ansiktet och kommer med hjälpen.",
+        "I inställningarna väljer du typer av omgångar, ger Skugga ett minne på 3 eller 2 ord och väljer om lamporna lyser när du trycker eller först när du har pratat."
+      ],
+      "learningGoals": [
+        "Att tala så att en lyssnare som inte ser förstår vilken sak man menar",
+        "Att använda ord för storlek och läge för att skilja saker åt",
+        "Att uttrycka en känsla och skälet till den i en mening",
+        "Att märka när ett meddelande är för kort eller för långt"
+      ]
     }
   }
 }

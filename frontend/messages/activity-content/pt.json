@@ -1995,25 +1995,27 @@
     },
     "numberbond.add-three.1-oa-a-2": {
       "about": [
-        "Um diagrama de partes e todo junta três números, como 3, 4 e 5, em um único total, e a criança soma os três e digita o resultado no teclado numérico. É uma atividade de matemática interativa para o 1º ano, que abre direto no navegador, sem precisar de conta.",
-        "Ver três partes formando um todo mostra que dá para juntar os números em qualquer ordem e passo a passo. Combinações como 4 + 4 + 5 convidam, sem pressa, a montar primeiro um número amigo e só depois somar a última parte. A criança lê as três partes e digita a soma; os pontinhos dentro de cada parte estão ali para contar quando um fato ainda não vem de cabeça.",
-        "A atividade está alinhada à BNCC, no eixo de Números e operações, na ideia de somar três números cujo total não passa de 20. Sem cronômetro e sem pontuação — só prática calma e divertida."
+        "Três números ficam num diagrama de partes e todo com três partes, como três gotas de vidro cheias de bolinhas. Arraste uma gota até outra, ou toque primeiro numa e depois na outra, e elas se juntam numa só gota em que cada bolinha mantém a sua cor. Quando uma gota tem dez bolinhas ou mais, as dez primeiras se encaixam num quadro de 2 × 5 dentro de um anel dourado: a pérola. As bolinhas que sobram se juntam numa gotinha ao lado.",
+        "As crianças podem juntar as gotas na ordem que quiserem, e qualquer ordem termina na mesma última gota, que sobe para o círculo do todo. Quem junta primeiro as duas que fazem dez tem o último passo fácil: uma pérola e mais quatro são 14. A criança digita o total nas teclas de números, ou soma de cabeça sem juntar nada.",
+        "Se a resposta for a soma de só duas gotas, essas duas se juntam sozinhas e a terceira gota fica de fora, pulsando. Depois do segundo erro, a pérola mostra um 10 para a criança continuar contando a partir dali. Depois de acertar, “Ver outros jeitos” mostra que as três ordens chegam ao mesmo total. De acordo com a BNCC, na unidade de números. Sem cronômetro e sem pontos."
       ],
       "practices": [
-        "Ler as três partes do diagrama e vê-las se juntar em um único todo.",
-        "Somar três números de um algarismo com total de até 20.",
-        "Escolher uma ordem prática — somar primeiro os dois que formam dez ou um número amigo.",
-        "Digitar o total que nomeia o todo."
+        "Somar três números com total até 20",
+        "Somar em qualquer ordem e obter o mesmo total",
+        "Procurar primeiro dois números que fazem dez, ou um dobro",
+        "Ver uma dezena e mais algumas em vez de contar a partir do 1"
       ],
       "howToPlay": [
-        "Olhe as três partes do diagrama, por exemplo 3 + 4 + 5.",
-        "Some os três números e digite o total no teclado numérico, depois toque em Verificar.",
-        "Não acertou? Tente de novo quantas vezes quiser — não há cronômetro nem pontuação."
+        "Arraste uma gota até outra gota (ou toque primeiro numa, depois na outra) para juntá-las. Junte as três na ordem que quiser.",
+        "Digite nas teclas quantas bolinhas há e toque no sinal de certo. A seta redonda desfaz a última junção.",
+        "Depois de acertar, toque em “Ver outros jeitos” para ver que as outras ordens chegam ao mesmo total.",
+        "Nas configurações, escolha os números (até 10 ou até 20) e se as gotas mostram as bolinhas ou só os números."
       ],
       "learningGoals": [
-        "Somar três números com total de até 20.",
-        "Ver três partes se combinando em um único todo no diagrama de partes e todo.",
-        "Somar em uma ordem esperta, montando primeiro um dez ou um número amigo."
+        "Somar três números com soma até 20",
+        "Usar qualquer ordem ao somar três números",
+        "Formar primeiro uma dezena para somar com mais facilidade",
+        "Ver a dezena e as unidades num número de 11 a 19"
       ]
     },
     "sort-bins.sort-by-sides.2-g-a-1": {

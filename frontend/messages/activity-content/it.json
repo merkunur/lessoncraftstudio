@@ -2494,25 +2494,27 @@
     },
     "numberbond.add-three.1-oa-a-2": {
       "about": [
-        "Un grafo numerico a tre parti unisce tre numeri, come 3, 4 e 5, in un unico intero, e il bambino somma tutti e tre e scrive il totale sul tastierino. È un'attività di matematica interattiva per la classe prima della scuola primaria, che si gioca direttamente nel browser, senza account.",
-        "Vedere tre parti confluire in un solo intero mostra che si possono combinare i numeri in qualsiasi ordine e un passo alla volta. Coppie come 4 + 4 + 5 invitano con discrezione a formare prima un numero comodo, poi ad aggiungere l'ultima parte. Il bambino legge le tre parti e scrive la somma; i puntini dentro ciascuna parte sono lì per essere contati quando un risultato non è ancora automatico.",
-        "L'attività è allineata alle Indicazioni nazionali: sommare tre numeri il cui totale rimane entro il 20. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
+        "Tre numeri stanno in una scomposizione a tre parti, come tre gocce di vetro piene di palline. Trascina una goccia su un’altra, oppure tocca prima l’una e poi l’altra, e si uniscono in un’unica goccia in cui ogni pallina conserva il suo colore. Quando una goccia ha dieci palline o più, le prime dieci si sistemano in una griglia di 2 × 5 dentro un anello d’oro: la perla. Le palline in più si raccolgono in una gocciolina accanto.",
+        "I bambini possono unire le gocce nell’ordine che vogliono, e ogni ordine finisce nella stessa ultima goccia, che sale nel cerchio dell’intero. Chi unisce per prime le due che fanno dieci trova l’ultimo passo facile: una perla e altre quattro fanno 14. Il bambino scrive il totale con i tasti dei numeri, oppure calcola a mente senza unire niente.",
+        "Se la risposta è la somma di due sole gocce, proprio quelle due si uniscono da sole e la terza goccia resta fuori e pulsa. Dopo il secondo errore sulla perla compare un 10, così il bambino continua a contare da lì. Dopo una risposta giusta, “Vedi altri modi” mostra che tutti e tre gli ordini arrivano allo stesso totale. In linea con le Indicazioni nazionali per i numeri. Senza cronometro e senza punti."
       ],
       "practices": [
-        "Leggere le tre parti di un grafo numerico e vederle unirsi in un intero.",
-        "Sommare tre numeri di una cifra con un totale entro il 20.",
-        "Scegliere un ordine comodo: sommare prima le due parti che fanno dieci o un numero amico.",
-        "Scrivere il totale che dà il nome all'intero."
+        "Addizionare tre numeri con un totale fino a 20",
+        "Addizionare in qualsiasi ordine e ottenere lo stesso totale",
+        "Cercare prima due numeri che fanno dieci, o un doppio",
+        "Vedere una decina e qualche unità invece di contare da 1"
       ],
       "howToPlay": [
-        "Il bambino guarda le tre parti del grafo numerico, ad esempio 3 + 4 + 5.",
-        "Somma tutti e tre i numeri e scrive il totale sul tastierino, poi preme «Controlla».",
-        "Se non è corretto, può riprovare quante volte vuole: non c'è timer né punteggio."
+        "Trascina una goccia su un’altra (oppure tocca prima l’una, poi l’altra) per unirle. Unisci tutte e tre nell’ordine che vuoi.",
+        "Scrivi con i tasti quante palline ci sono e tocca la spunta. La freccia rotonda annulla l’ultima unione.",
+        "Dopo una risposta giusta, tocca “Vedi altri modi” per vedere che gli altri ordini arrivano allo stesso totale.",
+        "Nelle impostazioni scegli i numeri (fino a 10 o fino a 20) e se le gocce mostrano le palline o solo i numeri."
       ],
       "learningGoals": [
-        "Sommare tre numeri interi entro il 20.",
-        "Vedere tre parti combinarsi in un unico intero nel grafo numerico.",
-        "Sommare in un ordine intelligente, formando prima un dieci o un numero amico."
+        "Addizionare tre numeri con una somma fino a 20",
+        "Usare qualsiasi ordine quando si addizionano tre numeri",
+        "Formare prima una decina per calcolare più facilmente",
+        "Vedere la decina e le unità in un numero da 11 a 19"
       ]
     },
     "sort-bins.sort-by-sides.2-g-a-1": {

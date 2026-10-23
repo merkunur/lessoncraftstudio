@@ -2821,25 +2821,27 @@
     },
     "numberbond.add-three.1-oa-a-2": {
       "about": [
-        "A three-part number bond joins three numbers, like 3, 4, and 5, into one whole, and children add all three and type the total on the keypad. It's an interactive Grade 1 math activity that plays right in the browser with no account needed.",
-        "Seeing three parts feed one whole shows that you can combine numbers in any order and step by step. Pairs like 4 + 4 + 5 quietly invite making a friendly number first, then adding the last part. The child reads the three parts and types the sum; the dots inside each part are there to count when a fact is not yet automatic.",
-        "It is aligned to Common Core 1.OA.A.2 — adding three whole numbers whose total is within 20. No timer, no score — just calm, playful practice."
+        "Three numbers sit in a three-part number bond as three glassy drops of beads. Drag one drop onto another, or tap one and then the other, and they melt into one drop that keeps every bead's colour. When a drop holds ten beads or more, the first ten click into a 2 × 5 frame inside a gold ring: the pearl. Any extra beads gather in a small droplet beside it.",
+        "Children can join the drops in any order, and every order ends in the same last drop, which rises into the whole circle. Joining the two that make ten first makes the last step easy: a pearl and four more is 14. The child types the total on the number keys, or adds in their head without joining anything.",
+        "If the answer is the sum of only two drops, those two join by themselves and the third drop is left out, pulsing. After a second miss, the pearl is labelled 10 so the child can count on from there. After a right answer, “See other ways” shows all three orders reaching the same total. Aligned to Common Core 1.OA.A.2. No timer and no score."
       ],
       "practices": [
-        "Read three parts of a number bond and see them join into one whole",
-        "Add three one-digit numbers with a total within 20",
-        "Choose a handy order — add the two that make a ten or a friendly number first",
-        "Type the total that names the whole"
+        "Adding three numbers with a total up to 20",
+        "Adding in any order and getting the same total",
+        "Looking for two numbers that make ten, or a double, first",
+        "Reading a ten and some more instead of counting from 1"
       ],
       "howToPlay": [
-        "Look at the three parts in the number bond, such as 3 + 4 + 5.",
-        "Add all three numbers and type the total on the keypad, then press Check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Drag a drop onto another drop (or tap one, then the other) to join them. Join all three in any order.",
+        "Type how many beads there are on the number keys and press the tick. The round arrow undoes the last join.",
+        "After a right answer, press “See other ways” to watch the other orders reach the same total.",
+        "In the settings, choose the numbers (Within 10 or Within 20) and whether the drops show their beads or only their numerals."
       ],
       "learningGoals": [
-        "Add three whole numbers within 20 — the focus of Common Core 1.OA.A.2",
-        "See three parts combine into one whole in a number bond",
-        "Add in a smart order by making a ten or a friendly number first"
+        "Add three whole numbers with a sum up to 20",
+        "Use any order when adding three numbers",
+        "Make a ten first to add more easily",
+        "See a ten and its extra ones in a teen number"
       ]
     },
     "numberbond.find-the-total.1-oa-a-1": {

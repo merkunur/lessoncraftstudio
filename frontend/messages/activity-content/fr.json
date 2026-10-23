@@ -3352,25 +3352,27 @@
     },
     "numberbond.add-three.1-oa-a-2": {
       "about": [
-        "Un arbre des nombres à trois parties réunit trois nombres, comme 3, 4 et 5, en un seul tout : l'enfant additionne les trois et tape le total sur le clavier. C'est une activité de calcul interactive pour le CP, qui se joue directement dans le navigateur, sans compte à créer.",
-        "Voir trois parties alimenter un même tout montre qu'on peut combiner les nombres dans n'importe quel ordre, étape par étape. Des paires comme 4 + 4 + 5 invitent discrètement à faire d'abord un nombre rond ou facile, puis à ajouter la dernière partie. L'enfant lit les trois parties et tape la somme ; les points à l'intérieur de chaque partie sont là pour compter quand un résultat n'est pas encore automatique.",
-        "Cette activité est alignée sur les programmes officiels : additionner trois nombres entiers dont le total ne dépasse pas 20. Les enfants avancent à leur rythme, avec un retour doux et immédiat — ni minuteur, ni score."
+        "Trois nombres sont posés dans un arbre des nombres à trois parties, comme trois gouttes de verre pleines de billes. Fais glisser une goutte sur une autre, ou touche l’une puis l’autre, et elles fusionnent en une seule goutte où chaque bille garde sa couleur. Quand une goutte contient dix billes ou plus, les dix premières se rangent dans un cadre de 2 × 5 entouré d’un anneau doré, la perle. Les billes en plus se regroupent dans une petite gouttelette à côté.",
+        "Les enfants peuvent fusionner les gouttes dans l’ordre qu’ils veulent, et chaque ordre finit par la même dernière goutte, qui monte dans le cercle du tout. Qui réunit d’abord les deux qui font dix trouve la dernière étape facile : une perle et encore quatre, cela fait 14. L’enfant tape le total sur les touches, ou calcule dans sa tête sans rien fusionner.",
+        "Si la réponse est la somme de deux gouttes seulement, ces deux-là fusionnent toutes seules et la troisième goutte reste à part, en clignotant. Après un deuxième essai manqué, la perle porte un 10 et l’enfant continue de compter à partir de là. Après une bonne réponse, « Voir d’autres façons » montre que les trois ordres donnent le même total. En lien avec les programmes officiels pour les nombres et le calcul. Sans chronomètre et sans points."
       ],
       "practices": [
-        "Lire les trois parties d'un arbre des nombres et les voir se réunir en un seul tout.",
-        "Additionner trois nombres à un chiffre dont le total ne dépasse pas 20.",
-        "Choisir un ordre malin — additionner d'abord les deux qui font dix ou un nombre facile.",
-        "Taper le total qui nomme le tout."
+        "Additionner trois nombres dont le total va jusqu’à 20",
+        "Additionner dans n’importe quel ordre et trouver le même total",
+        "Chercher d’abord deux nombres qui font dix, ou un double",
+        "Voir une dizaine et quelques unités au lieu de compter depuis 1"
       ],
       "howToPlay": [
-        "Regarde les trois parties de l'arbre des nombres, par exemple 3 + 4 + 5.",
-        "Additionne les trois nombres et tape le total sur le clavier, puis appuie sur Vérifier.",
-        "Pas tout à fait ? Recommence autant de fois que tu veux — il n'y a ni minuteur, ni score."
+        "Fais glisser une goutte sur une autre (ou touche l’une, puis l’autre) pour les fusionner. Fusionne les trois dans l’ordre que tu veux.",
+        "Tape sur les touches le nombre de billes et appuie sur la coche. La flèche ronde annule la dernière fusion.",
+        "Après une bonne réponse, appuie sur « Voir d’autres façons » pour voir que les autres ordres donnent le même total.",
+        "Dans les réglages, choisis les nombres (jusqu’à 10 ou jusqu’à 20) et si les gouttes montrent leurs billes ou seulement leurs nombres."
       ],
       "learningGoals": [
-        "Additionner trois nombres entiers dont le total ne dépasse pas 20.",
-        "Voir trois parties se combiner en un seul tout dans un arbre des nombres.",
-        "Additionner dans un ordre réfléchi, en faisant d'abord dix ou un nombre facile."
+        "Additionner trois nombres dont la somme va jusqu’à 20",
+        "Utiliser n’importe quel ordre pour additionner trois nombres",
+        "Faire d’abord une dizaine pour calculer plus facilement",
+        "Voir la dizaine et les unités dans un nombre de 11 à 19"
       ]
     },
     "sort-bins.sort-by-sides.2-g-a-1": {

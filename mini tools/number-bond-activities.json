@@ -501,7 +501,7 @@
   },
   {
     "id": "numberbond.add-three.1-oa-a-2",
-    "tool": "number-bond-activity",
+    "tool": "merge-drops-activity",
     "task_template": "add-three",
     "alignment": {
       "framework": "CCSS",
@@ -510,56 +510,197 @@
       "strand": "Operations & Algebraic Thinking"
     },
     "params": {
-      "rounds": [
-        {
-          "first": 3,
-          "second": 4,
-          "third": 5,
-          "seed": 11
-        },
-        {
-          "first": 2,
-          "second": 3,
-          "third": 6,
-          "seed": 23
-        },
-        {
-          "first": 5,
-          "second": 6,
-          "third": 7,
-          "seed": 31
-        },
-        {
-          "first": 4,
-          "second": 4,
-          "third": 5,
-          "seed": 41
-        },
-        {
-          "first": 2,
-          "second": 5,
-          "third": 7,
-          "seed": 53
-        },
-        {
-          "first": 6,
-          "second": 3,
-          "third": 2,
-          "seed": 61
-        },
-        {
-          "first": 7,
-          "second": 4,
-          "third": 3,
-          "seed": 67
-        },
-        {
-          "first": 5,
-          "second": 5,
-          "third": 6,
-          "seed": 71
-        }
-      ]
+      "note": "A mirror of merge-drops-core.js (the triples of every level, their totals and friendly pairs). The core is the source; this row runs the Merging Drops.",
+      "levels": [
+        "w20",
+        "w10"
+      ],
+      "rounds": {
+        "w20": [
+          {
+            "drops": [
+              3,
+              4,
+              5
+            ],
+            "total": 12,
+            "friendlyPair": null
+          },
+          {
+            "drops": [
+              2,
+              3,
+              6
+            ],
+            "total": 11,
+            "friendlyPair": null
+          },
+          {
+            "drops": [
+              5,
+              6,
+              7
+            ],
+            "total": 18,
+            "friendlyPair": null
+          },
+          {
+            "drops": [
+              4,
+              4,
+              5
+            ],
+            "total": 13,
+            "friendlyPair": "AB"
+          },
+          {
+            "drops": [
+              2,
+              5,
+              7
+            ],
+            "total": 14,
+            "friendlyPair": null
+          },
+          {
+            "drops": [
+              6,
+              2,
+              5
+            ],
+            "total": 13,
+            "friendlyPair": null
+          },
+          {
+            "drops": [
+              7,
+              4,
+              3
+            ],
+            "total": 14,
+            "friendlyPair": "AC"
+          },
+          {
+            "drops": [
+              5,
+              5,
+              6
+            ],
+            "total": 16,
+            "friendlyPair": "AB"
+          },
+          {
+            "drops": [
+              5,
+              8,
+              2
+            ],
+            "total": 15,
+            "friendlyPair": "BC"
+          },
+          {
+            "drops": [
+              6,
+              4,
+              9
+            ],
+            "total": 19,
+            "friendlyPair": "AB"
+          },
+          {
+            "drops": [
+              9,
+              7,
+              1
+            ],
+            "total": 17,
+            "friendlyPair": "AC"
+          },
+          {
+            "drops": [
+              6,
+              3,
+              7
+            ],
+            "total": 16,
+            "friendlyPair": "BC"
+          }
+        ],
+        "w10": [
+          {
+            "drops": [
+              2,
+              1,
+              3
+            ],
+            "total": 6,
+            "friendlyPair": null
+          },
+          {
+            "drops": [
+              1,
+              4,
+              2
+            ],
+            "total": 7,
+            "friendlyPair": null
+          },
+          {
+            "drops": [
+              3,
+              3,
+              2
+            ],
+            "total": 8,
+            "friendlyPair": "AB"
+          },
+          {
+            "drops": [
+              2,
+              3,
+              4
+            ],
+            "total": 9,
+            "friendlyPair": null
+          },
+          {
+            "drops": [
+              5,
+              1,
+              4
+            ],
+            "total": 10,
+            "friendlyPair": null
+          },
+          {
+            "drops": [
+              2,
+              2,
+              3
+            ],
+            "total": 7,
+            "friendlyPair": "AB"
+          },
+          {
+            "drops": [
+              6,
+              1,
+              2
+            ],
+            "total": 9,
+            "friendlyPair": null
+          },
+          {
+            "drops": [
+              3,
+              2,
+              5
+            ],
+            "total": 10,
+            "friendlyPair": null
+          }
+        ]
+      }
     },
     "theme": null,
     "slug": {

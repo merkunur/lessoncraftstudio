@@ -3991,25 +3991,27 @@
     },
     "numberbond.add-three.1-oa-a-2": {
       "about": [
-        "Ein Zahlenbild mit drei Teilen führt drei Zahlen, etwa 3, 4 und 5, zu einem Ganzen zusammen, und das Kind addiert alle drei und tippt die Gesamtzahl auf dem Zahlenfeld ein. Diese interaktive Mathe-Übung für die 1. Klasse läuft direkt im Browser, ganz ohne Konto.",
-        "Wenn drei Teile zu einem Ganzen zusammenfließen, zeigt sich: Man darf Zahlen in jeder Reihenfolge und Schritt für Schritt zusammenfügen. Paare wie 4 + 4 + 5 laden leise dazu ein, zuerst eine glatte Zahl zu bilden und dann den letzten Teil dazuzulegen. Das Kind liest die drei Teile und tippt die Summe ein; die Punkte in jedem Teil sind zum Mitzählen da, wenn eine Aufgabe noch nicht automatisch sitzt.",
-        "Die Aktivität ist am Lehrplan der 1. Klasse ausgerichtet — drei Zahlen addieren, deren Summe im Zahlenraum bis 20 liegt. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+        "Drei Zahlen liegen in einem Teile-Ganzes-Bild mit drei Teilen, als drei gläserne Tropfen voller Kugeln. Zieh einen Tropfen auf einen anderen oder tippe erst den einen und dann den anderen an, und sie fließen zu einem Tropfen zusammen, in dem jede Kugel ihre Farbe behält. Hat ein Tropfen zehn Kugeln oder mehr, ordnen sich die ersten zehn in einem 2 × 5-Feld innerhalb eines goldenen Rings: die Perle. Weitere Kugeln sammeln sich in einem kleinen Tröpfchen daneben.",
+        "Die Tropfen dürfen in jeder Reihenfolge zusammenfließen, und jede Reihenfolge endet im selben letzten Tropfen, der in den Kreis für das Ganze steigt. Wer zuerst die zwei verbindet, die zehn ergeben, hat es beim letzten Schritt leicht: eine Perle und noch vier sind 14. Das Kind tippt die Gesamtzahl auf den Zahlentasten ein oder rechnet im Kopf, ohne etwas zu verbinden.",
+        "Ist die Antwort nur die Summe von zwei Tropfen, fließen genau diese zwei zusammen, und der dritte Tropfen bleibt übrig und pulsiert. Nach dem zweiten Fehlversuch steht auf der Perle eine 10, und das Kind zählt von dort weiter. Nach einer richtigen Antwort zeigt „Andere Wege zeigen“, wie alle drei Reihenfolgen dieselbe Summe ergeben. Passend zum Lehrplan im Bereich Zahlen und Operationen. Ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "Drei Teile eines Zahlenbildes lesen und sehen, wie sie zu einem Ganzen zusammenkommen.",
-        "Drei einstellige Zahlen mit einer Summe bis 20 addieren.",
-        "Eine geschickte Reihenfolge wählen — zuerst die zwei Zahlen addieren, die zehn oder eine glatte Zahl ergeben.",
-        "Die Gesamtzahl eintippen, die das Ganze benennt."
+        "Drei Zahlen addieren, die Summe bis 20",
+        "In beliebiger Reihenfolge addieren und dieselbe Summe erhalten",
+        "Zuerst zwei Zahlen suchen, die zehn ergeben, oder eine Verdopplung",
+        "Einen Zehner und noch einige sehen, statt von 1 an zu zählen"
       ],
       "howToPlay": [
-        "Schau dir die drei Teile im Zahlenbild an, etwa 3 + 4 + 5.",
-        "Addiere alle drei Zahlen, tippe die Gesamtzahl auf dem Zahlenfeld ein und tippe dann auf Prüfen.",
-        "Stimmt es noch nicht? Probiere es so oft du möchtest — es gibt keinen Timer und keine Punkte."
+        "Zieh einen Tropfen auf einen anderen (oder tippe erst den einen, dann den anderen an), damit sie zusammenfließen. Verbinde alle drei in beliebiger Reihenfolge.",
+        "Tippe auf den Zahlentasten ein, wie viele Kugeln es sind, und drück auf den Haken. Der runde Pfeil macht das letzte Zusammenfließen rückgängig.",
+        "Nach einer richtigen Antwort zeigt „Andere Wege zeigen“, wie die anderen Reihenfolgen zur selben Summe führen.",
+        "In den Einstellungen wählst du die Zahlen (bis 10 oder bis 20) und ob die Tropfen ihre Kugeln oder nur ihre Zahlen zeigen."
       ],
       "learningGoals": [
-        "Drei Zahlen im Zahlenraum bis 20 addieren.",
-        "Sehen, wie sich drei Teile in einem Zahlenbild zu einem Ganzen verbinden.",
-        "In einer geschickten Reihenfolge rechnen, indem man zuerst zehn oder eine glatte Zahl bildet."
+        "Drei Zahlen mit einer Summe bis 20 addieren",
+        "Beim Addieren von drei Zahlen jede Reihenfolge nutzen",
+        "Zuerst einen Zehner bilden, um leichter zu rechnen",
+        "In einer Zahl von 11 bis 19 den Zehner und die Einer sehen"
       ]
     },
     "sort-bins.sort-by-sides.2-g-a-1": {

@@ -779,25 +779,27 @@
     },
     "numberbond.add-three.1-oa-a-2": {
       "about": [
-        "Kolmiosainen lukukolmio kokoaa kolme lukua, esimerkiksi 3, 4 ja 5, yhdeksi kokonaisuudeksi, ja lapsi laskee kaikki kolme yhteen ja kirjoittaa summan näppäimistöllä. Tämä on vuorovaikutteinen matematiikan tehtävä, joka toimii suoraan selaimessa ilman tiliä.",
-        "Kun lapsi näkee kolmen osan kokoavan yhden kokonaisuuden, hän huomaa, että lukuja voi yhdistää missä järjestyksessä tahansa ja askel kerrallaan. Parit kuten 4 + 4 + 5 houkuttelevat hiljaa muodostamaan ensin tutun luvun ja lisäämään viimeisen osan vasta sitten. Lapsi lukee kolme osaa ja kirjoittaa summan; osien sisällä olevat pisteet ovat laskemista varten silloin, kun lasku ei vielä tule muistista.",
-        "Tehtävä tukee OPS 2014:n tavoitteita yhteenlaskutaidon kehittämisessä: lapsi laskee yhteen kolme kokonaislukua, joiden summa on enintään 20. 1. luokan oppilaille — ei ajastinta eikä pisteitä, vaan rauhassa omaan tahtiin etenevää harjoittelua."
+        "Kolme lukua on kolmiosaisessa hajotelmassa kolmena lasipisarana, jotka ovat täynnä palloja. Vedä pisara toisen päälle tai napauta ensin yhtä ja sitten toista, niin ne sulautuvat yhdeksi pisaraksi, jossa jokainen pallo säilyttää värinsä. Kun pisarassa on kymmenen palloa tai enemmän, ensimmäiset kymmenen asettuvat 2 × 5 -ruudukkoon kultaisen renkaan sisälle: se on helmi. Ylimääräiset pallot kerääntyvät pieneen pisaraan sen viereen.",
+        "Lapset voivat yhdistää pisarat missä järjestyksessä tahansa, ja jokainen järjestys päättyy samaan viimeiseen pisaraan, joka nousee kokonaisuuden ympyrään. Kun ensin yhdistää ne kaksi, jotka tekevät kymmenen, viimeinen vaihe on helppo: helmi ja neljä lisää on 14. Lapsi kirjoittaa summan numeronäppäimillä tai laskee päässä yhdistämättä mitään.",
+        "Jos vastaus on vain kahden pisaran summa, juuri ne kaksi yhdistyvät itsestään ja kolmas pisara jää erilleen sykkimään. Toisen virheen jälkeen helmessä lukee 10, ja lapsi jatkaa laskemista siitä eteenpäin. Oikean vastauksen jälkeen ”Katso muut tavat” näyttää, että kaikki kolme järjestystä johtavat samaan summaan. Sopii opetussuunnitelman sisältöalueeseen luvut ja laskutoimitukset. Ilman ajanottoa ja ilman pisteitä."
       ],
       "practices": [
-        "Lukee lukukolmion kolme osaa ja näkee niiden kokoavan yhden kokonaisuuden.",
-        "Laskee yhteen kolme yksinumeroista lukua, joiden summa on enintään 20.",
-        "Valitsee kätevän järjestyksen — laskee ensin yhteen ne kaksi, jotka muodostavat kymmenen tai muun tutun luvun.",
-        "Kirjoittaa summan, joka nimeää kokonaisuuden."
+        "Kolmen luvun yhteenlasku, kun summa on enintään 20",
+        "Yhteenlasku missä järjestyksessä tahansa ja sama summa",
+        "Ensin etsitään kaksi lukua, joista tulee kymmenen, tai tupla",
+        "Kympin ja muutaman ykkösen näkeminen sen sijaan, että laskee ykkösestä alkaen"
       ],
       "howToPlay": [
-        "Katso lukukolmion kolmea osaa, esimerkiksi 3 + 4 + 5.",
-        "Laske kaikki kolme lukua yhteen ja kirjoita summa näppäimistöllä. Paina sitten Tarkista.",
-        "Meneekö pieleen? Voit yrittää uudelleen niin monta kertaa kuin haluat — ei ajastinta eikä pisteitä."
+        "Vedä pisara toisen pisaran päälle (tai napauta ensin yhtä, sitten toista), niin ne yhdistyvät. Yhdistä kaikki kolme missä järjestyksessä haluat.",
+        "Kirjoita numeronäppäimillä, montako palloa on, ja paina rastia. Pyöreä nuoli peruu viimeisimmän yhdistämisen.",
+        "Oikean vastauksen jälkeen ”Katso muut tavat” näyttää, että muut järjestykset johtavat samaan summaan.",
+        "Asetuksista valitset luvut (10:een asti tai 20:een asti) ja sen, näyttävätkö pisarat pallonsa vai vain numeronsa."
       ],
       "learningGoals": [
-        "Lapsi laskee yhteen kolme kokonaislukua, joiden summa on enintään 20.",
-        "Lapsi näkee kolmen osan kokoavan yhden kokonaisuuden lukukolmiossa.",
-        "Lapsi laskee fiksussa järjestyksessä muodostamalla ensin kymmenen tai muun tutun luvun."
+        "Laskea yhteen kolme lukua, kun summa on enintään 20",
+        "Käyttää mitä tahansa järjestystä kolmen luvun yhteenlaskussa",
+        "Tehdä ensin kymppi, jotta laskeminen on helpompaa",
+        "Nähdä kymppi ja ykköset luvuissa 11–19"
       ]
     },
     "sort-bins.sort-by-sides.2-g-a-1": {

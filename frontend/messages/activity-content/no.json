@@ -1249,25 +1249,27 @@
     },
     "numberbond.add-three.1-oa-a-2": {
       "about": [
-        "En tredelt tallvenn binder tre tall sammen, som 3, 4 og 5, til én helhet, og barnet legger sammen alle tre og skriver summen på tastaturet. Dette er en interaktiv matteaktivitet for 1. trinn som spilles rett i nettleseren, uten konto.",
-        "Å se tre deler mate inn i én helhet viser at du kan slå sammen tall i hvilken som helst rekkefølge og steg for steg. Par som 4 + 4 + 5 inviterer i det stille til å lage et vennlig tall først, og så legge til den siste delen. Barnet leser de tre delene og skriver summen; prikkene inne i hver del er der å telle når et regnefakta ennå ikke sitter automatisk.",
-        "Aktiviteten følger LK20 innenfor tall og regning — å legge sammen tre tall med en sum opptil 20. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving for 1. trinn."
+        "Tre tall sitter i en oppdeling med tre deler, som tre glassdråper fulle av kuler. Dra en dråpe over på en annen, eller trykk først på den ene og så på den andre, så flyter de sammen til én dråpe der hver kule beholder fargen sin. Når en dråpe har ti kuler eller flere, klikker de ti første på plass i en ramme på 2 × 5 i en gullring: perlen. Resten samler seg i en liten dråpe ved siden av.",
+        "Barna kan la dråpene flyte sammen i den rekkefølgen de vil, og hver rekkefølge ender i den samme siste dråpen, som stiger opp i sirkelen for helheten. Den som først slår sammen de to som blir ti, får et lett siste steg: en perle og fire til er 14. Barnet skriver summen på talltastene eller regner i hodet uten å slå sammen noe.",
+        "Er svaret bare summen av to dråper, flyter nettopp de to sammen, og den tredje dråpen blir igjen og pulserer. Etter to feil svar står det 10 på perlen, så barnet kan telle videre derfra. Etter et riktig svar viser «Se andre måter» at alle tre rekkefølgene gir samme sum. I tråd med LK20 om tall og regning. Uten tidtaking og uten poeng."
       ],
       "practices": [
-        "Lese tre deler i en tallvenn og se dem bli til én helhet.",
-        "Legge sammen tre ensifrede tall med en sum opptil 20.",
-        "Velge en lur rekkefølge — legg sammen de to som blir ti eller et vennlig tall først.",
-        "Skrive summen som navngir helheten."
+        "Å legge sammen tre tall med en sum opp til 20",
+        "Å legge sammen i hvilken som helst rekkefølge og få samme sum",
+        "Først å se etter to tall som blir ti, eller en dobling",
+        "Å se en tier og noen til i stedet for å telle fra 1"
       ],
       "howToPlay": [
-        "Se på de tre delene i tallvennen, som 3 + 4 + 5.",
-        "Legg sammen alle tre tallene og skriv summen på tastaturet, og trykk så på Sjekk.",
-        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+        "Dra en dråpe over på en annen dråpe (eller trykk først på den ene, så på den andre) for å slå dem sammen. Slå sammen alle tre i den rekkefølgen du vil.",
+        "Skriv på talltastene hvor mange kuler det er, og trykk på haken. Den runde pilen angrer den siste sammenslåingen.",
+        "Etter et riktig svar viser «Se andre måter» at de andre rekkefølgene gir samme sum.",
+        "I innstillingene velger du tallene (opp til 10 eller opp til 20) og om dråpene viser kulene sine eller bare tallene sine."
       ],
       "learningGoals": [
-        "Barnet kan legge sammen tre tall med en sum opptil 20.",
-        "Barnet kan se tre deler bli til én helhet i en tallvenn.",
-        "Barnet kan legge sammen i en lur rekkefølge ved å lage ti eller et vennlig tall først."
+        "Å legge sammen tre tall med en sum opp til 20",
+        "Å bruke hvilken som helst rekkefølge når man legger sammen tre tall",
+        "Først å lage en tier for å regne lettere",
+        "Å se tieren og enerne i et tall fra 11 til 19"
       ]
     },
     "sort-bins.sort-by-sides.2-g-a-1": {

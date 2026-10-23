@@ -27,7 +27,7 @@ const ACTIVITIES = [
   { id: 'numberbond.make-ten-to-add.1-oa-c-6', titleKey: 'titleAdd', answer: 'tap' },
   /* numberbond.find-the-total.1-oa-a-1 left this engine 2026-10-23: rebuilt as the Covered Basket (local-test-bond-basket.js) */
   { id: 'numberbond.subtraction-unknown-addend.1-oa-b-4', titleKey: 'titleSubtraction', answer: 'tap' },
-  { id: 'numberbond.add-three.1-oa-a-2', titleKey: 'titleThree', answer: 'keypad', parts: 3 },
+  /* numberbond.add-three.1-oa-a-2 left this engine 2026-10-23: rebuilt as the Merging Drops (local-test-merge-drops.js) */
   { id: 'numberbond.story-problem.2-oa-a-1', titleKey: 'titleWordProblem', answer: 'keypad', numeral: true },
 ];
 const REPO = path.join(__dirname, '..');

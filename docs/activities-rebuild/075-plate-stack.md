@@ -74,6 +74,7 @@ ORDER row 75 · id `daisy-plate-stack.plurals.l-k-1-c` (kept). Design: `designs/
 - verify-plate-stack-core 7748/0 · mutate-plate-stack 19/19.
 - local-test-plate-stack 2662/0: every round of every level × 11 locales by real clicks, every miss path, Write it, settings, the width sweep.
 - visual-qa ×11 · hierarchy 380/0 · settings 2 live.
+- live-verify-plate-stack 75/0 on production (en/de/sv/fi × 1366/390, real clicks: empty Check, the second plate opens the slot, the wrong count, served; every locale 200) · live variety ≥ 7 + reshuffle.
 
 ## Traps paid for
 - **A class name must be TRUE of every word in the class.** "Changes inside" was true for 2 of 6 English flips; the source wording infected ten locales.

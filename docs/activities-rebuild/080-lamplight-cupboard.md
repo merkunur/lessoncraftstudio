@@ -39,6 +39,8 @@ ORDER row 80 · id `sock-and-shadow.puppet-speak.sl-k-6` (kept). Design: `design
 | hierarchy | 430 / 0 |
 | settings-efficacy | 3 live |
 | preflight, prose-claims, serp-copy | green |
+| variety (production, en) | 9 distinct, pass 2 reshuffled |
+| live-verify-lamplight-cupboard (11 pages 200; en/de/sv/fi × 1366/390, real pointer) | 67 / 0 (first run inside the Cloudflare window failed the embeds) |
 
 ## Open (page metadata — for the operator)
 - The frozen intros describe the old activity: nl/es/pt/it promise colour words (and it/nl a tray); it says «🔊» and «Senza registrazione» (a no-account claim); de «alles wird vorgelesen»; en and fr say "Shadow holds two cups / forgets half". The reviewer wrote replacements (kept in the session record); not changed — metadata.

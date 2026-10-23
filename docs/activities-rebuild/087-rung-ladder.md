@@ -65,6 +65,8 @@ ORDER row 87 · id `match-pairs.addition-and-subtraction-pairs.1-oa-d-7` (kept).
 | hierarchy | 332 / 0 |
 | settings-efficacy | 2 live |
 | preflight, prose-claims, serp-copy | green |
+| variety (production, en) | 18 distinct, pass 2 reshuffled |
+| live-verify-rung-ladder (11 pages 200; en/de/sv/fi × 1366/390, real pointer: 2 + 3 with 9 − 2 stops (hMore 2), both ladders climb, the tag, okAll) | 67 / 0 (the first two runs, inside the Cloudflare window, failed the embeds) |
 
 ## Open (page metadata — for the operator)
 - **All 11 locales:** the intro says "every round has two answers to find". 5 of the 18 Same answer rounds have three pairs. Undo it rounds are one family with two ladders.

@@ -54,7 +54,8 @@ ORDER row 77 · id `sunny-side-diner.compound-order.l-k-1-f` (kept). Design: `de
 |---|---|
 | verify-magnet-plates-core (own frames, number words and articles per locale) | 9011 / 0 |
 | mutate-magnet-plates | 19 / 19 killed, plus one control that survives |
-| local-test-magnet-plates (11 locales × 320–1366, real clicks, every round at rest) | see the commit |
+| local-test-magnet-plates (11 locales × 320–1366, real clicks, every round at rest) | 14685 / 0 |
+| live-verify-magnet-plates (11 pages 200; en/de/sv/fi × 1366/390, real pointer) | 83 / 0 |
 | visual-qa | 48 renders green |
 | hierarchy | 434 / 0 |
 | settings-efficacy | 2 live |

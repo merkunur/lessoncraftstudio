@@ -36,6 +36,8 @@ ORDER row 79 · id `wobble-museum.catch-drift.w-k-2` (kept). Design: `designs/07
 | hierarchy | 242 / 0 |
 | settings-efficacy | 3 live |
 | preflight, prose-claims, serp-copy | green |
+| variety (production, en) | 8 distinct, pass 2 reshuffled |
+| live-verify-about-strings (11 pages 200; en/de/sv/fi × 1366/390, real pointer) | 67 / 0 (first run inside the Cloudflare window failed the embeds) |
 
 ## Open (page metadata — for the operator)
 - The frozen intros of en, es, it, pt, nl (and loosely de, fr) still describe the old activity ("tap the fact that does not belong"); it and pt name the wrong mascot (Gemma / Prata) and a 🔊 button; the nl intro quotes a sentence that does not exist ("Een vijver is koud"). The reviewer wrote replacements (kept in the session record); not changed — metadata.

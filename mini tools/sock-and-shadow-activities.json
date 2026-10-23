@@ -1,7 +1,7 @@
 [
   {
     "id": "sock-and-shadow.puppet-speak.sl-k-6",
-    "tool": "sock-and-shadow-activity",
+    "tool": "lamplight-cupboard-activity",
     "task_template": "puppet-speak",
     "alignment": {
       "framework": "CCSS",
@@ -10,195 +10,807 @@
       "strand": "Speaking & Listening"
     },
     "params": {
-      "rounds": [
+      "note": "A mirror of lamplight-cupboard-core.js (the things per round, the faces and helps of the feeling rounds, a sample phrase per round and locale). The core is the source; this row runs the Lamplight Cupboard.",
+      "levels": [
+        "l1",
+        "l2"
+      ],
+      "memory": [
+        "3",
+        "2"
+      ],
+      "lamps": [
+        "live",
+        "after"
+      ],
+      "level1": [
         {
-          "id": "name-cup",
-          "listenerAction": "fetch",
-          "band": 1,
-          "target": 0,
-          "tray": [
+          "things": [
             {
-              "object": "cup",
-              "color": "red"
-            },
-            {
-              "object": "ball",
-              "color": "blue"
-            },
-            {
-              "object": "hat",
-              "color": "green"
-            }
-          ],
-          "promptKey": "tellFetch"
-        },
-        {
-          "id": "trap-red-cup",
-          "listenerAction": "fetch",
-          "band": 2,
-          "target": 0,
-          "tray": [
-            {
-              "object": "cup",
-              "color": "red"
-            },
-            {
-              "object": "cup",
-              "color": "blue"
-            },
-            {
-              "object": "ball",
-              "color": "red"
-            },
-            {
-              "object": "ball",
-              "color": "blue"
-            }
-          ],
-          "promptKey": "tellFetch"
-        },
-        {
-          "id": "size-big-hat",
-          "listenerAction": "fetch",
-          "band": 2,
-          "target": 0,
-          "tray": [
-            {
-              "object": "hat",
-              "color": "red",
-              "size": "big"
-            },
-            {
-              "object": "hat",
-              "color": "red",
-              "size": "small"
-            }
-          ],
-          "promptKey": "tellFetch"
-        },
-        {
-          "id": "pos-top-ball",
-          "listenerAction": "fetch",
-          "band": 2,
-          "target": 0,
-          "tray": [
-            {
-              "object": "ball",
-              "color": "green",
-              "position": "top"
-            },
-            {
-              "object": "ball",
-              "color": "green",
-              "position": "bottom"
-            }
-          ],
-          "promptKey": "tellFetch"
-        },
-        {
-          "id": "joint-brown-big-teddy",
-          "listenerAction": "fetch",
-          "band": 3,
-          "target": 0,
-          "tray": [
-            {
-              "object": "teddy",
-              "color": "brown",
-              "size": "big"
-            },
-            {
-              "object": "teddy",
-              "color": "brown",
-              "size": "small"
-            },
-            {
-              "object": "teddy",
-              "color": "white",
-              "size": "big"
-            },
-            {
-              "object": "teddy",
-              "color": "white",
-              "size": "small"
-            }
-          ],
-          "promptKey": "tellFetch"
-        },
-        {
-          "id": "overspec-red-car",
-          "listenerAction": "fetch",
-          "band": 3,
-          "target": 0,
-          "tray": [
-            {
-              "object": "car",
-              "color": "red",
+              "thing": "cup",
               "size": "big",
-              "position": "top"
+              "shelf": "top"
             },
             {
-              "object": "car",
-              "color": "blue",
+              "thing": "ball",
               "size": "big",
-              "position": "top"
+              "shelf": "top"
             },
             {
-              "object": "block",
-              "color": "red",
+              "thing": "hat",
+              "size": "big",
+              "shelf": "bottom"
+            }
+          ],
+          "target": 0,
+          "words": [
+            "n:cup",
+            "n:ball",
+            "n:hat",
+            "s:big",
+            "h:top"
+          ],
+          "pairs": []
+        },
+        {
+          "things": [
+            {
+              "thing": "sock",
+              "size": "big",
+              "shelf": "top"
+            },
+            {
+              "thing": "car",
+              "size": "big",
+              "shelf": "top"
+            },
+            {
+              "thing": "robot",
+              "size": "big",
+              "shelf": "bottom"
+            },
+            {
+              "thing": "mug",
+              "size": "big",
+              "shelf": "bottom"
+            }
+          ],
+          "target": 0,
+          "words": [
+            "n:sock",
+            "n:mug",
+            "n:car",
+            "s:big",
+            "h:top",
+            "h:bottom"
+          ],
+          "pairs": []
+        },
+        {
+          "things": [
+            {
+              "thing": "cup",
+              "size": "big",
+              "shelf": "top"
+            },
+            {
+              "thing": "cup",
               "size": "small",
-              "position": "bottom"
+              "shelf": "top"
+            },
+            {
+              "thing": "ball",
+              "size": "big",
+              "shelf": "bottom"
+            },
+            {
+              "thing": "mug",
+              "size": "big",
+              "shelf": "bottom"
             }
           ],
-          "promptKey": "tellFetch"
+          "target": 1,
+          "words": [
+            "n:cup",
+            "s:small",
+            "s:big",
+            "n:mug",
+            "h:top"
+          ],
+          "pairs": []
         },
         {
-          "id": "mood-tower-fell",
-          "listenerAction": "mood",
-          "band": 2,
+          "things": [
+            {
+              "thing": "ball",
+              "size": "big",
+              "shelf": "top"
+            },
+            {
+              "thing": "ball",
+              "size": "big",
+              "shelf": "bottom"
+            },
+            {
+              "thing": "car",
+              "size": "big",
+              "shelf": "bottom"
+            },
+            {
+              "thing": "kite",
+              "size": "big",
+              "shelf": "top"
+            }
+          ],
+          "target": 1,
+          "words": [
+            "n:ball",
+            "h:bottom",
+            "h:top",
+            "s:big",
+            "n:car"
+          ],
+          "pairs": []
+        },
+        {
+          "things": [
+            {
+              "thing": "hat",
+              "size": "big",
+              "shelf": "top"
+            },
+            {
+              "thing": "hat",
+              "size": "small",
+              "shelf": "bottom"
+            },
+            {
+              "thing": "cap",
+              "size": "small",
+              "shelf": "top"
+            },
+            {
+              "thing": "cap",
+              "size": "big",
+              "shelf": "bottom"
+            }
+          ],
+          "target": 1,
+          "words": [
+            "n:hat",
+            "n:cap",
+            "s:small",
+            "s:big",
+            "h:bottom"
+          ],
+          "pairs": []
+        },
+        {
+          "things": [
+            {
+              "thing": "car",
+              "size": "big",
+              "shelf": "top"
+            },
+            {
+              "thing": "car",
+              "size": "small",
+              "shelf": "top"
+            },
+            {
+              "thing": "car",
+              "size": "big",
+              "shelf": "bottom"
+            },
+            {
+              "thing": "car",
+              "size": "small",
+              "shelf": "bottom"
+            },
+            {
+              "thing": "truck",
+              "size": "big",
+              "shelf": "top"
+            }
+          ],
+          "target": 3,
+          "words": [
+            "n:car",
+            "s:small",
+            "h:bottom",
+            "s:big",
+            "h:top",
+            "n:truck"
+          ],
+          "pairs": []
+        },
+        {
+          "things": [
+            {
+              "thing": "truck",
+              "size": "big",
+              "shelf": "top"
+            },
+            {
+              "thing": "car",
+              "size": "big",
+              "shelf": "top"
+            },
+            {
+              "thing": "ball",
+              "size": "small",
+              "shelf": "bottom"
+            },
+            {
+              "thing": "truck",
+              "size": "big",
+              "shelf": "bottom"
+            }
+          ],
           "target": 0,
-          "tray": [
+          "words": [
+            "n:truck",
+            "s:big",
+            "h:top",
+            "x:car",
+            "n:ball"
+          ],
+          "pairs": [
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "things": [
             {
-              "object": "blocks",
-              "reason": "tower-fell"
+              "thing": "mug",
+              "size": "big",
+              "shelf": "top"
             },
             {
-              "object": "teddy",
-              "reason": "lost-teddy"
+              "thing": "ball",
+              "size": "big",
+              "shelf": "top"
             },
             {
-              "object": "stool",
-              "reason": "cant-reach"
+              "thing": "mug",
+              "size": "big",
+              "shelf": "bottom"
+            },
+            {
+              "thing": "sock",
+              "size": "big",
+              "shelf": "bottom"
             }
           ],
-          "chips": [
+          "target": 0,
+          "words": [
+            "n:mug",
+            "x:ball",
+            "x:sock",
+            "s:big",
+            "n:cup"
+          ],
+          "pairs": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "things": [
             {
-              "slot": "feeling",
-              "value": "sad"
+              "thing": "glass",
+              "size": "small",
+              "shelf": "top"
             },
             {
-              "slot": "feeling",
-              "value": "mad"
+              "thing": "glass",
+              "size": "big",
+              "shelf": "top"
             },
             {
-              "slot": "reason",
-              "value": "tower-fell"
+              "thing": "glass",
+              "size": "small",
+              "shelf": "bottom"
             },
             {
-              "slot": "reason",
-              "value": "lost-teddy"
-            },
-            {
-              "slot": "reason",
-              "value": "cant-reach"
-            },
-            {
-              "slot": "politeness",
-              "value": "please"
+              "thing": "cup",
+              "size": "small",
+              "shelf": "bottom"
             }
           ],
-          "promptKey": "tellMood"
+          "target": 0,
+          "words": [
+            "n:glass",
+            "s:small",
+            "h:top",
+            "s:big",
+            "n:cup"
+          ],
+          "pairs": []
         }
-      ]
+      ],
+      "level2": [
+        {
+          "feel": "sad",
+          "reason": "rain",
+          "faces": [
+            "sad",
+            "happy",
+            "tired"
+          ],
+          "helps": [
+            "rain",
+            "late",
+            "sunny"
+          ],
+          "reasons": [
+            "rain",
+            "late"
+          ],
+          "please": true
+        },
+        {
+          "feel": "scared",
+          "reason": "dark",
+          "faces": [
+            "scared",
+            "happy",
+            "angry"
+          ],
+          "helps": [
+            "dark",
+            "cold",
+            "sunny"
+          ],
+          "reasons": [
+            "dark",
+            "cold"
+          ],
+          "please": false
+        },
+        {
+          "feel": "tired",
+          "reason": "late",
+          "faces": [
+            "tired",
+            "sad",
+            "happy"
+          ],
+          "helps": [
+            "late",
+            "rain",
+            "birthday"
+          ],
+          "reasons": [
+            "late",
+            "rain"
+          ],
+          "please": true
+        },
+        {
+          "feel": "sad",
+          "reason": "sick",
+          "faces": [
+            "sad",
+            "angry",
+            "happy"
+          ],
+          "helps": [
+            "sick",
+            "late",
+            "cold"
+          ],
+          "reasons": [
+            "sick",
+            "dark"
+          ],
+          "please": false
+        },
+        {
+          "feel": "happy",
+          "reason": "birthday",
+          "faces": [
+            "happy",
+            "surprised",
+            "sad"
+          ],
+          "helps": [
+            "birthday",
+            "rain",
+            "dark"
+          ],
+          "reasons": [
+            "birthday",
+            "sunny"
+          ],
+          "please": false
+        },
+        {
+          "feel": "happy",
+          "reason": "sunny",
+          "faces": [
+            "happy",
+            "tired",
+            "scared"
+          ],
+          "helps": [
+            "sunny",
+            "cold",
+            "late"
+          ],
+          "reasons": [
+            "sunny",
+            "birthday"
+          ],
+          "please": false
+        },
+        {
+          "feel": "sad",
+          "reason": "cold",
+          "faces": [
+            "sad",
+            "angry",
+            "surprised"
+          ],
+          "helps": [
+            "cold",
+            "sunny",
+            "birthday"
+          ],
+          "reasons": [
+            "cold",
+            "rain"
+          ],
+          "please": true
+        },
+        {
+          "feel": "surprised",
+          "reason": "birthday",
+          "faces": [
+            "surprised",
+            "happy",
+            "scared"
+          ],
+          "helps": [
+            "birthday",
+            "dark",
+            "rain"
+          ],
+          "reasons": [
+            "birthday",
+            "late"
+          ],
+          "please": false
+        }
+      ],
+      "pictures": {
+        "things": {
+          "cup": "kitchen-tools/cup",
+          "mug": "kitchen-tools/mug",
+          "glass": "kitchen-tools/glass",
+          "ball": "toys/ball",
+          "car": "toys/car",
+          "truck": "toys/truck",
+          "blocks": "toys/blocks",
+          "kite": "toys/kite",
+          "robot": "toys/robot",
+          "hat": "accessories/hat",
+          "cap": "accessories/cap",
+          "sock": "accessories/sock"
+        },
+        "faces": {
+          "happy": "emotions/happy",
+          "sad": "emotions/sad",
+          "angry": "emotions/angry",
+          "scared": "emotions/scared",
+          "tired": "emotions/tired",
+          "surprised": "emotions/surprised"
+        },
+        "helps": {
+          "rain": "weather/umbrella",
+          "dark": "furniture/lamp",
+          "late": "around-the-house/pillow",
+          "sick": "hospital/tissue",
+          "birthday": "bakery/cake",
+          "sunny": "toys/kite",
+          "cold": "weather/scarf"
+        },
+        "events": {
+          "rain": "weather/rainy",
+          "dark": "camping/moon",
+          "late": "around-the-house/clock",
+          "sick": "hospital/thermometer",
+          "birthday": "christmas/present",
+          "sunny": "weather/sunny",
+          "cold": "weather/snowflake"
+        }
+      },
+      "byLocale": {
+        "en": {
+          "things": {
+            "cup": "cup",
+            "mug": "mug",
+            "glass": "glass",
+            "ball": "ball",
+            "hat": "hat",
+            "cap": "cap",
+            "sock": "sock",
+            "car": "car",
+            "truck": "truck",
+            "kite": "kite",
+            "robot": "robot"
+          },
+          "feelingRounds": [
+            "I feel sad because it is raining.",
+            "I feel scared because it is dark.",
+            "I feel tired because it is late.",
+            "I feel sad because I am sick.",
+            "I feel happy because it is my birthday.",
+            "I feel happy because it is sunny.",
+            "I feel sad because it is cold.",
+            "I feel surprised because it is my birthday."
+          ]
+        },
+        "de": {
+          "things": {
+            "cup": "Tasse",
+            "mug": "Becher",
+            "glass": "Glas",
+            "ball": "Ball",
+            "hat": "Hut",
+            "cap": "Kappe",
+            "sock": "Socke",
+            "car": "Auto",
+            "truck": "Lastwagen",
+            "kite": "Drachen",
+            "robot": "Roboter"
+          },
+          "feelingRounds": [
+            "Ich bin traurig, weil es regnet.",
+            "Ich habe Angst, weil es dunkel ist.",
+            "Ich bin müde, weil es spät ist.",
+            "Ich bin traurig, weil ich krank bin.",
+            "Ich bin froh, weil ich Geburtstag habe.",
+            "Ich bin froh, weil die Sonne scheint.",
+            "Ich bin traurig, weil es kalt ist.",
+            "Ich bin überrascht, weil ich Geburtstag habe."
+          ]
+        },
+        "nl": {
+          "things": {
+            "cup": "kopje",
+            "mug": "mok",
+            "glass": "glas",
+            "ball": "bal",
+            "hat": "hoed",
+            "cap": "pet",
+            "sock": "sok",
+            "car": "auto",
+            "truck": "vrachtwagen",
+            "kite": "vlieger",
+            "robot": "robot"
+          },
+          "feelingRounds": [
+            "Ik ben verdrietig omdat het regent.",
+            "Ik ben bang omdat het donker is.",
+            "Ik ben moe omdat het laat is.",
+            "Ik ben verdrietig omdat ik ziek ben.",
+            "Ik ben blij omdat ik jarig ben.",
+            "Ik ben blij omdat de zon schijnt.",
+            "Ik ben verdrietig omdat het koud is.",
+            "Ik ben verrast omdat ik jarig ben."
+          ]
+        },
+        "da": {
+          "things": {
+            "cup": "kop",
+            "mug": "krus",
+            "glass": "glas",
+            "ball": "bold",
+            "hat": "hat",
+            "cap": "kasket",
+            "sock": "strømpe",
+            "car": "bil",
+            "truck": "lastbil",
+            "kite": "drage",
+            "robot": "robot"
+          },
+          "feelingRounds": [
+            "Jeg er ked af det, fordi det regner.",
+            "Jeg er bange, fordi det er mørkt.",
+            "Jeg er træt, fordi det er sent.",
+            "Jeg er ked af det, fordi jeg er syg.",
+            "Jeg er glad, fordi jeg har fødselsdag.",
+            "Jeg er glad, fordi solen skinner.",
+            "Jeg er ked af det, fordi det er koldt.",
+            "Jeg er overrasket, fordi jeg har fødselsdag."
+          ]
+        },
+        "sv": {
+          "things": {
+            "cup": "kopp",
+            "mug": "mugg",
+            "glass": "glas",
+            "ball": "boll",
+            "hat": "hatt",
+            "cap": "keps",
+            "sock": "strumpa",
+            "car": "bil",
+            "truck": "lastbil",
+            "kite": "drake",
+            "robot": "robot"
+          },
+          "feelingRounds": [
+            "Jag är ledsen för att det regnar.",
+            "Jag är rädd för att det är mörkt.",
+            "Jag är trött för att det är sent.",
+            "Jag är ledsen för att jag är sjuk.",
+            "Jag är glad för att jag fyller år.",
+            "Jag är glad för att solen skiner.",
+            "Jag är ledsen för att det är kallt.",
+            "Jag är förvånad för att jag fyller år."
+          ]
+        },
+        "no": {
+          "things": {
+            "cup": "kopp",
+            "mug": "krus",
+            "glass": "glass",
+            "ball": "ball",
+            "hat": "hatt",
+            "cap": "caps",
+            "sock": "sokk",
+            "car": "bil",
+            "truck": "lastebil",
+            "kite": "drage",
+            "robot": "robot"
+          },
+          "feelingRounds": [
+            "Jeg er lei meg fordi det regner.",
+            "Jeg er redd fordi det er mørkt.",
+            "Jeg er trøtt fordi det er sent.",
+            "Jeg er lei meg fordi jeg er syk.",
+            "Jeg er glad fordi jeg har bursdag.",
+            "Jeg er glad fordi solen skinner.",
+            "Jeg er lei meg fordi det er kaldt.",
+            "Jeg er overrasket fordi jeg har bursdag."
+          ]
+        },
+        "es": {
+          "things": {
+            "cup": "taza",
+            "mug": "tarro",
+            "glass": "vaso",
+            "ball": "pelota",
+            "hat": "sombrero",
+            "cap": "gorra",
+            "sock": "calcetín",
+            "car": "carro",
+            "truck": "camión",
+            "kite": "papalote",
+            "robot": "robot"
+          },
+          "feelingRounds": [
+            "Estoy triste porque está lloviendo.",
+            "Tengo miedo porque está oscuro.",
+            "Tengo sueño porque ya es tarde.",
+            "Estoy triste porque tengo gripa.",
+            "Estoy contento porque es mi cumpleaños.",
+            "Estoy contento porque hace sol.",
+            "Estoy triste porque hace frío.",
+            "Estoy sorprendido porque es mi cumpleaños."
+          ]
+        },
+        "it": {
+          "things": {
+            "cup": "tazza",
+            "mug": "tazzone",
+            "glass": "bicchiere",
+            "ball": "palla",
+            "hat": "cappello",
+            "cap": "berretto",
+            "sock": "calzino",
+            "car": "macchina",
+            "truck": "camion",
+            "kite": "aquilone",
+            "robot": "robot"
+          },
+          "feelingRounds": [
+            "Sono triste perché piove.",
+            "Ho paura perché è buio.",
+            "Ho sonno perché è tardi.",
+            "Sono triste perché ho il raffreddore.",
+            "Sono contento perché è il mio compleanno.",
+            "Sono contento perché c’è il sole.",
+            "Sono triste perché fa freddo.",
+            "Sono sorpreso perché è il mio compleanno."
+          ]
+        },
+        "pt": {
+          "things": {
+            "cup": "xícara",
+            "mug": "caneca",
+            "glass": "copo",
+            "ball": "bola",
+            "hat": "chapéu",
+            "cap": "boné",
+            "sock": "meia",
+            "car": "carro",
+            "truck": "caminhão",
+            "kite": "pipa",
+            "robot": "robô"
+          },
+          "feelingRounds": [
+            "Estou triste porque está chovendo.",
+            "Estou com medo porque está escuro.",
+            "Estou com sono porque já está tarde.",
+            "Estou triste porque estou com gripe.",
+            "Estou feliz porque é meu aniversário.",
+            "Estou feliz porque está fazendo sol.",
+            "Estou triste porque está frio.",
+            "Estou surpresa porque é meu aniversário."
+          ]
+        },
+        "fr": {
+          "things": {
+            "cup": "tasse",
+            "mug": "mug",
+            "glass": "verre",
+            "ball": "ballon",
+            "hat": "chapeau",
+            "cap": "casquette",
+            "sock": "chaussette",
+            "car": "voiture",
+            "truck": "camion",
+            "kite": "cerf-volant",
+            "robot": "robot"
+          },
+          "feelingRounds": [
+            "Je suis triste parce qu’il pleut.",
+            "J’ai peur parce qu’il fait noir.",
+            "J’ai sommeil parce qu’il est tard.",
+            "Je suis triste parce que je suis malade.",
+            "Je suis contente parce que c’est mon anniversaire.",
+            "Je suis contente parce qu’il fait beau.",
+            "Je suis triste parce qu’il fait froid.",
+            "Je suis surprise parce que c’est mon anniversaire."
+          ]
+        },
+        "fi": {
+          "things": {
+            "cup": "kuppi",
+            "mug": "muki",
+            "glass": "lasi",
+            "ball": "pallo",
+            "hat": "hattu",
+            "cap": "lippis",
+            "sock": "sukka",
+            "car": "auto",
+            "truck": "kuorma-auto",
+            "kite": "leija",
+            "robot": "robotti"
+          },
+          "feelingRounds": [
+            "Olen surullinen, koska sataa.",
+            "Minua pelottaa, koska on pimeää.",
+            "Olen väsynyt, koska on myöhä.",
+            "Olen surullinen, koska olen kipeä.",
+            "Olen iloinen, koska on syntymäpäiväni.",
+            "Olen iloinen, koska aurinko paistaa.",
+            "Olen surullinen, koska on kylmä.",
+            "Olen yllättynyt, koska on syntymäpäiväni."
+          ]
+        }
+      }
     },
     "theme": null,
     "slug": {
@@ -208,7 +820,11 @@
       "es": "describir-con-claridad-para-que-te-entiendan-primer-grado",
       "pt": "falar-com-clareza-para-a-sombra",
       "it": "descrivere-con-precisione-per-farsi-capire-classe-prima",
-      "nl": "sok-en-schaduw-precies-beschrijven-kleuters"
+      "nl": "sok-en-schaduw-precies-beschrijven-kleuters",
+      "sv": "strumpa-och-skugga-sag-det-tydligt-ak-1",
+      "da": "stroempe-og-skygge-sig-det-tydeligt-1-klasse",
+      "no": "sokk-og-skygge-si-det-tydelig-1-trinn",
+      "fi": "sukka-ja-varjo-sano-selvasti-1-luokka"
     },
     "page_title": {
       "en": "Sock & Shadow — Say It So a Listener Understands (Kindergarten)",
@@ -217,7 +833,11 @@
       "es": "Describir con claridad para que te entiendan – 1.º grado",
       "pt": "Falar com clareza: descreva para alguém entender (1º ano)",
       "it": "Descrivere con precisione per farsi capire — classe prima",
-      "nl": "Sok & Schaduw: vertel precies wélke (kleuters)"
+      "nl": "Sok & Schaduw: vertel precies wélke (kleuters)",
+      "sv": "Strumpa och Skugga – Säg det så att lyssnaren förstår (åk 1)",
+      "da": "Strømpe og Skygge – Sig det, så lytteren forstår (1. klasse)",
+      "no": "Sokk og Skygge – Si det så lytteren forstår (1. trinn)",
+      "fi": "Sukka ja Varjo – Sano niin, että kuulija ymmärtää (1. luokka)"
     },
     "page_intro": {
       "en": "An interactive Kindergarten speaking game for clear expression: be Sock's voice and tell Shadow — who is behind the curtain and can't see — exactly which lost object to fetch. Say just enough: too vague and Shadow holds two cups; too many words and Shadow forgets half. Choosing the right words so a listener understands is the heart of Common Core SL.K.6. (Speaking aloud is practiced with a grown-up.)",
@@ -226,7 +846,11 @@
       "es": "Actividad interactiva: los niños describen un objeto con claridad —color, tamaño y lugar— para que Sombra sepa cuál es. Expresión oral ideal para 1.º grado.",
       "pt": "Nesta atividade falada, a Meia descreve um objeto para a Sombra, que está atrás da cortina e não pode ver — só ouve. A criança escolhe as palavras certas (cor, tamanho, lugar) para que a Sombra entenda e pegue o objeto certo. Uma brincadeira de oralidade alinhada à BNCC, para treinar descrever com clareza e se fazer entender.",
       "it": "Due burattini aspettano il tuo aiuto: uno vede il vassoio, Ombra no. Il bambino descrive un oggetto — colore, grandezza o posto — così Ombra prende quello giusto, dicendo solo ciò che serve, senza essere vago né usare troppe parole. C’è il 🔊 per ascoltare il burattino. Senza registrazione, senza timer né punteggio, allineata alle Indicazioni nazionali.",
-      "nl": "Sok ziet een bak vol speelgoed, maar Schaduw zit achter het gordijn en ziet niets. Jij bouwt Soks beschrijving — kleur, grootte en plek — zó dat Schaduw precies het juiste voorwerp pakt. Een interactief schermspel, afgestemd op de SLO-kerndoelen voor kleuters."
+      "nl": "Sok ziet een bak vol speelgoed, maar Schaduw zit achter het gordijn en ziet niets. Jij bouwt Soks beschrijving — kleur, grootte en plek — zó dat Schaduw precies het juiste voorwerp pakt. Een interactief schermspel, afgestemd op de SLO-kerndoelen voor kleuters.",
+      "sv": "Skugga står i ett mörkt skåp och kan inte se vad Strumpa menar. Barnet blir Strumpas röst: varje ord tänder bara de saker som passar, och luckan i draperiet släpper igenom en enda sak. Säg för lite och två saker fastnar i luckan, säg för mycket och Skugga glömmer det första ordet. I känslorundorna berättar barnet hur Strumpa känner sig och varför. Interaktivt för åk 1.",
+      "da": "Skygge står i et mørkt skab og kan ikke se, hvad Strømpe mener. Barnet bliver Strømpes stemme: hvert ord tænder kun de ting, der passer, og lågen i forhænget lukker kun én ting igennem. Siger man for lidt, sidder to ting fast i lågen, og siger man for meget, glemmer Skygge det første ord. I følelsesrunderne fortæller barnet, hvordan Strømpe har det, og hvorfor. Interaktivt til 1. klasse.",
+      "no": "Skygge står i et mørkt skap og kan ikke se hva Sokk mener. Barnet blir Sokks stemme: hvert ord tenner bare tingene som passer, og luka i forhenget slipper gjennom én eneste ting. Sier man for lite, setter to ting seg fast i luka, og sier man for mye, glemmer Skygge det første ordet. I følelsesrundene forteller barnet hvordan Sokk har det, og hvorfor. Interaktivt for 1. trinn.",
+      "fi": "Varjo seisoo pimeässä kaapissa eikä näe, mitä Sukka tarkoittaa. Lapsi on Sukan ääni: jokainen sana sytyttää vain ne esineet, joihin se sopii, ja verhon luukusta mahtuu läpi vain yksi esine. Liian vähän sanoja, ja kaksi esinettä jää jumiin luukkuun; liian monta, ja Varjo unohtaa ensimmäisen sanan. Tunnekierroksilla lapsi kertoo, miltä Sukasta tuntuu ja miksi. Interaktiivinen tehtävä 1. luokalle."
     },
     "kid_prompt_template": "puppet-speak"
   }

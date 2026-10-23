@@ -3913,25 +3913,27 @@
     },
     "sock-and-shadow.puppet-speak.sl-k-6": {
       "about": [
-        "Aiuta il burattino a descrivere un oggetto così bene che l’amico capisce subito qual è, senza nemmeno guardarlo.",
-        "Il bambino sceglie il colore, la grandezza o il posto giusto e dice solo quello che serve, così Ombra prende proprio l’oggetto giusto.",
-        "È un’attività di lingua orale allineata alle Indicazioni nazionali per la classe prima, senza registrazione, senza timer e senza punteggio."
+        "Ombra è dentro un armadio buio e non può vedere l’anello che Calzino ha attaccato sul vetro. Il bambino è la voce di Calzino: ogni parola accende solo le cose a cui si adatta, e la porticina nella tenda lascia passare una sola cosa. Dire ciò che si intende in modo che lo capisca chi non vede il nostro mondo è il cuore del parlare in modo chiaro.",
+        "L’armadio mostra i due motivi veri per cui i piccoli parlanti vengono fraintesi. Se dici troppo poco (“la macchina”, quando ci sono tre macchine), tutte le macchine restano accese e due si incastrano una accanto all’altra nella porta. Se dici troppo, i tre ganci della memoria di Ombra si riempiono: una perlina di troppo fa cadere la prima parola e l’armadio si riaccende. Una parola che non si adatta a niente spegne tutte le lampadine.",
+        "Due tipi di turno: Portalo (tocca una cosa per dirne il nome, poi aggiungi la parola che la distingue: grande, piccolo, sul ripiano in alto, vicino a…) e Di’ come ti senti (tocca la faccia che mostra come si sente Calzino e aggiungi il motivo, “Sono triste perché piove”, così Ombra mostra la faccina e porta l’aiuto giusto). In linea con le Indicazioni nazionali per l’ascolto e il parlato. Il bambino si esercita a dire le parole ad alta voce insieme a un adulto. Senza cronometro e senza punti."
       ],
       "practices": [
-        "descrivere con precisione",
-        "farsi capire dall’ascoltatore",
-        "scegliere le parole giuste",
-        "dire solo ciò che serve"
+        "Nominare la cosa che si intende",
+        "Aggiungere l’unico dettaglio che la distingue",
+        "Dire le parole che bastano, non troppe",
+        "Dire un sentimento insieme al suo motivo"
       ],
       "howToPlay": [
-        "Scegli che cos’è l’oggetto.",
-        "Aggiungi il colore, la grandezza o il posto che lo rende chiaro.",
-        "Dillo a Ombra e guarda se prende quello giusto."
+        "Tocca una cosa nell’armadio per dirne il nome. Tocca i cartellini con le parole (grande, piccolo, sul ripiano in alto, vicino a…) per aggiungere un dettaglio. Guarda quali lampadine restano accese.",
+        "Premi il tubo per parlare e dillo a Ombra. Una cosa accesa scivola nella porta; se ne restano accese due, si incastrano. Tocca una parola della tua frase per toglierla.",
+        "In “Di’ come ti senti” tocchi la faccia che mostra come si sente Calzino e aggiungi un cartellino con “perché…”. Ombra mostra la faccina e porta l’aiuto.",
+        "Nelle impostazioni scegli i tipi di turno, dai a Ombra una memoria di 3 o 2 parole e scegli se le lampadine si accendono mentre tocchi o solo dopo che hai parlato."
       ],
       "learningGoals": [
-        "Descrivere un oggetto in modo chiaro e preciso.",
-        "Parlare pensando a chi ascolta.",
-        "Usare le parole giuste, senza essere vaghi né dire troppo."
+        "Parlare in modo che chi non vede capisca quale cosa si intende",
+        "Usare parole di grandezza e posizione per distinguere le cose",
+        "Esprimere un sentimento e il suo motivo in una sola frase",
+        "Accorgersi quando un messaggio è troppo corto o troppo lungo"
       ]
     },
     "rhyme-shop.rhyme.rf-k-2-a": {

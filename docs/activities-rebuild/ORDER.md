@@ -87,7 +87,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 77 | LIVE 2026-10-23 · The Magnet Plates | K | L.K.1.F | `sunny-side-diner.compound-order.l-k-1-f` | sunny-side-diner-activity | Sunny-Side Diner — Say the Whole Order (Kindergarten) |
 | 78 | LIVE 2026-10-23 · The Cousin Rain | K | L.K.5.A | `mims-baskets.category-sort.l-k-5-a` | mims-baskets-activity | Mim's Memory Baskets — Sort Things into Groups |
 | 79 | LIVE 2026-10-23 · The About-Strings | K | W.K.2 | `wobble-museum.catch-drift.w-k-2` | wobble-museum-activity | The Wobble Museum — Stick to the Topic (Kindergarten Writing) |
-| 80 |  | K | SL.K.6 | `sock-and-shadow.puppet-speak.sl-k-6` | sock-and-shadow-activity | Sock & Shadow — Say It So a Listener Understands (Kindergarten) |
+| 80 | LIVE 2026-10-23 · The Lamplight Cupboard | K | SL.K.6 | `sock-and-shadow.puppet-speak.sl-k-6` | sock-and-shadow-activity | Sock & Shadow — Say It So a Listener Understands (Kindergarten) |
 | 81 |  | 1 | 1.OA.A.1 | `numberbond.find-the-total.1-oa-a-1` | number-bond-activity | Find the Total — Add Two Parts Within 20 (Grade 1) |
 | 82 |  | 1 | 1.OA.A.1 | `vet-diagnosis.word-problems.1-oa-a-1` | vet-diagnosis-activity | Vet's Diagnosis Window — Word-Problem Modeling |
 | 83 |  | 1 | 1.OA.A.2 | `numberbond.add-three.1-oa-a-2` | number-bond-activity | Add Three Numbers — Three-Part Number Bond (Grade 1) |

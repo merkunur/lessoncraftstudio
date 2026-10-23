@@ -3862,25 +3862,27 @@
     },
     "sock-and-shadow.puppet-speak.sl-k-6": {
       "about": [
-        "The child is Sock's voice, telling Shadow — a puppet behind the curtain who can't see the tray — exactly which object to fetch, adding a color, size, or position word when there are two cups or two hats to tell apart. It's an interactive Kindergarten speaking game that runs in the browser with no sign-up, meant to be played aloud with a grown-up.",
-        "The trap runs both ways, and that is the lesson: say too little and Shadow holds up the wrong object or two at once; pile on too many words and Shadow forgets half the message. The child chooses meaning-chips — color, size, position, the object name — to build the smallest clear description, then taps Tell Shadow and watches whether the puppet fetches correctly. One round even asks the child to name a feeling and its reason. Because this is speaking practice, the spoken part is meant to be done aloud with a grown-up.",
-        "It is aligned to Common Core SL.K.6 — speaking audibly and expressing thoughts, feelings, and ideas clearly. No timer, no score — just calm, playful practice."
+        "Shadow stands inside a dark cupboard and cannot see the coral ring Sock has stuck on the glass. The child is Sock's voice: every word they say lights up only the things it fits, and the little door in the curtain lets just one thing through. Saying what you mean so that a listener who cannot see your world understands it is the heart of speaking clearly.",
+        "The cupboard pushes back on the two real reasons young speakers are misunderstood. Say too little (“the car” when there are three cars) and every car stays lit, and two jam side by side in the door. Say too much and Shadow's three memory pegs fill up: one bead too many knocks the first word off, and the cupboard lights up again. A word that fits nothing turns every lamp off.",
+        "Two kinds of rounds: Fetch it (tap a thing to say its name, then add the word that tells it apart: big, small, on the top shelf, next to…) and Tell how you feel (tap the face that shows Sock's feeling and add the reason, “I feel sad because it is raining”, so Shadow can hold up the face and bring the right help). Aligned to Common Core SL.K.6: express thoughts, feelings and ideas clearly. Saying the words out loud is practised with a grown-up. No timer and no score."
       ],
       "practices": [
-        "Add the color, size, or position word that singles out one object from look-alikes",
-        "Say just enough to be clear — not too vague and not too many words",
-        "Notice when a listener who cannot see needs more information",
-        "Name a feeling and the reason for it in a clear, complete message"
+        "Naming the thing you mean",
+        "Adding the one detail that tells it apart",
+        "Saying just enough words, not too many",
+        "Saying a feeling together with its reason"
       ],
       "howToPlay": [
-        "Look at the tray and decide which object Shadow should fetch and what makes it different.",
-        "Tap the meaning-chips to build a clear description, then tap Tell Shadow and check whether the right object is fetched.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Tap a thing in the cupboard to say its name. Tap the word cards (big, small, on the top shelf, next to…) to add a detail. Watch which lamps stay on.",
+        "Press the speaking tube to tell Shadow. One lit thing slides through the door; if two are still lit, they jam. Tap a word in your sentence to take it back.",
+        "In “Tell how you feel”, tap the face that shows how Sock feels, then add a “because…” card. Shadow holds up the face and brings the help.",
+        "In the settings, choose the round types, give Shadow a memory of 3 or 2 words, and choose whether the lamps light up as you tap or only after you speak."
       ],
       "learningGoals": [
-        "Express an idea clearly so a listener understands — the focus of Common Core SL.K.6.",
-        "Understand that a good message has enough detail to be clear, but no extra clutter.",
-        "Build the describing-and-explaining habits that clear speaking depends on."
+        "Speak so that a listener who cannot see understands which thing you mean",
+        "Use size and position words to tell things apart",
+        "Express a feeling and give its reason in one sentence",
+        "Notice when a message is too short or too long"
       ]
     },
     "sort-bins.defining-attributes.1-g-a-1": {

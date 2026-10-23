@@ -2525,6 +2525,31 @@
         "Lapsi pitää tietosivulla vain aiheeseen kuuluvat lauseet",
         "Lapsi nimeää lauseryhmän aiheen"
       ]
+    },
+    "sock-and-shadow.puppet-speak.sl-k-6": {
+      "about": [
+        "Varjo seisoo pimeässä kaapissa eikä näe rengasta, jonka Sukka on kiinnittänyt lasiin. Lapsi on Sukan ääni: jokainen sana sytyttää vain ne esineet, joihin se sopii, ja verhon pienestä luukusta mahtuu läpi vain yksi esine. Kun sanoo sen, mitä tarkoittaa, niin että kuulija ymmärtää, vaikka ei näe samaa, puhuu selvästi.",
+        "Kaappi näyttää kaksi todellista syytä, miksi pienen puhujan sanoja ei ymmärretä. Jos sanoo liian vähän (”auto”, kun autoja on kolme), kaikki autot jäävät palamaan, ja kaksi jää jumiin vierekkäin luukkuun. Jos sanoo liikaa, Varjon kolme muistikoukkua täyttyvät: yksi helmi liikaa pudottaa ensimmäisen sanan, ja kaappi syttyy taas. Sana, joka ei sovi mihinkään, sammuttaa kaikki lamput.",
+        "Kahdenlaisia kierroksia: Hae se (napauta esinettä, niin sen nimi sanotaan, ja lisää sitten sana, joka erottaa sen muista: iso, pieni, ylähyllyllä, vieressä…) ja Kerro, miltä tuntuu (napauta kasvoja, jotka näyttävät, miltä Sukasta tuntuu, ja lisää syy, ”Olen surullinen, koska sataa”, niin Varjo nostaa kasvot ja tuo oikean avun). Opetussuunnitelman mukaisesti, vuorovaikutustilanteissa toimimisen alueella. Sanojen ääneen sanomista harjoitellaan aikuisen kanssa. Ilman ajanottoa ja ilman pisteitä."
+      ],
+      "practices": [
+        "Sen esineen nimeäminen, jota tarkoittaa",
+        "Sen yhden yksityiskohdan lisääminen, joka erottaa esineen muista",
+        "Juuri sopivan monen sanan sanominen, ei liian monen",
+        "Tunteen ja sen syyn kertominen yhdessä"
+      ],
+      "howToPlay": [
+        "Napauta kaapissa olevaa esinettä, niin sen nimi sanotaan. Napauta sanakortteja (iso, pieni, ylähyllyllä, vieressä…) lisätäksesi yksityiskohdan. Katso, mitkä lamput jäävät palamaan.",
+        "Paina puheputkea, niin kerrot Varjolle. Yksi palava esine liukuu luukusta; jos kaksi palaa yhä, ne jäävät jumiin. Napauta lauseesi sanaa ottaaksesi sen pois.",
+        "Kierroksessa ”Kerro, miltä tuntuu” napautat kasvoja, jotka näyttävät, miltä Sukasta tuntuu, ja lisäät ”koska…”-kortin. Varjo nostaa kasvot ja tuo avun.",
+        "Asetuksista valitset kierrostyypit, annat Varjolle 3 tai 2 sanan muistin ja valitset, syttyvätkö lamput napautettaessa vai vasta puhumisen jälkeen."
+      ],
+      "learningGoals": [
+        "Puhua niin, että kuulija, joka ei näe, ymmärtää, mitä esinettä tarkoitetaan",
+        "Käyttää koon ja paikan sanoja erottamaan esineet toisistaan",
+        "Kertoa tunne ja sen syy yhdessä lauseessa",
+        "Huomata, milloin viesti on liian lyhyt tai liian pitkä"
+      ]
     }
   }
 }

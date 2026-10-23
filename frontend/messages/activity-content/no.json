@@ -2533,6 +2533,31 @@
         "Barnet beholder bare fakta om temaet på en faktaside",
         "Barnet gir noen fakta et tema"
       ]
+    },
+    "sock-and-shadow.puppet-speak.sl-k-6": {
+      "about": [
+        "Skygge står inne i et mørkt skap og kan ikke se ringen Sokk har klistret på glasset. Barnet er Sokks stemme: hvert ord tenner bare tingene det passer på, og den lille luka i forhenget slipper gjennom én eneste ting. Å si det man mener, slik at en lytter som ikke ser verdenen din, forstår det, er kjernen i å snakke tydelig.",
+        "Skapet viser de to virkelige grunnene til at små talere blir misforstått. Sier man for lite («bilen», når det står tre biler der), lyser alle bilene, og to setter seg fast side om side i luka. Sier man for mye, fylles Skygges tre huskepinner: én perle for mye dytter det første ordet av, og skapet lyser opp igjen. Et ord som ikke passer på noe, slukker alle lampene.",
+        "To slags runder: Hent den (trykk på en ting for å si hva den heter, og legg så til ordet som skiller den ut: stor, liten, på øverste hylle, ved siden av …) og Si hvordan du har det (trykk på ansiktet som viser hvordan Sokk har det, og legg til grunnen, «Jeg er lei meg fordi det regner», så Skygge holder opp ansiktet og kommer med riktig hjelp). I tråd med LK20 om muntlig kommunikasjon. Å si ordene høyt øver barnet sammen med en voksen. Uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Å nevne tingen man mener",
+        "Å legge til den ene detaljen som skiller den ut",
+        "Å si akkurat nok ord, ikke for mange",
+        "Å si en følelse sammen med grunnen til den"
+      ],
+      "howToPlay": [
+        "Trykk på en ting i skapet for å si hva den heter. Trykk på ordkortene (stor, liten, på øverste hylle, ved siden av …) for å legge til en detalj. Se hvilke lamper som fortsetter å lyse.",
+        "Trykk på talerøret for å si det til Skygge. Én tent ting glir gjennom luka; lyser to fortsatt, setter de seg fast. Trykk på et ord i setningen din for å ta det tilbake.",
+        "I «Si hvordan du har det» trykker du på ansiktet som viser hvordan Sokk har det, og legger til et «fordi …»-kort. Skygge holder opp ansiktet og kommer med hjelpen.",
+        "I innstillingene velger du typer runder, gir Skygge en hukommelse på 3 eller 2 ord og velger om lampene lyser mens du trykker, eller først når du har snakket."
+      ],
+      "learningGoals": [
+        "Å snakke slik at en lytter som ikke ser, forstår hvilken ting man mener",
+        "Å bruke ord for størrelse og plassering for å skille ting fra hverandre",
+        "Å uttrykke en følelse og grunnen til den i én setning",
+        "Å merke når en beskjed er for kort eller for lang"
+      ]
     }
   }
 }

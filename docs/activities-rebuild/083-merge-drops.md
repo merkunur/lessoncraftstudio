@@ -61,6 +61,8 @@ ORDER row 83 · id `numberbond.add-three.1-oa-a-2` (kept). Design: `designs/083-
 | hierarchy | 596 / 0 |
 | settings-efficacy | 2 live |
 | preflight, prose-claims, serp-copy | green |
+| variety (production, en) | 12 distinct, pass 2 reshuffled |
+| live-verify-merge-drops (11 pages 200; en/de/sv/fi × 1366/390, real pointer: tap-join, undo, a two-drop miss, success) | 75 / 0 (first run inside the Cloudflare window failed the embeds) |
 
 ## Open (page metadata — for the operator)
 - de title/intro "Zahlenbild": in Grundschule maths that is a structured dot picture, not a part-whole bond.

@@ -41,6 +41,8 @@ ORDER row 78 · id `mims-baskets.category-sort.l-k-5-a` (kept). Design: `designs
 | hierarchy | 836 / 0 |
 | settings-efficacy | 3 live |
 | preflight, prose-claims, serp-copy | green |
+| variety (production, en) | 14 distinct, pass 2 reshuffled |
+| live-verify-cousin-rain (11 pages 200; en/de/sv/fi × 1366/390, real pointer) | 75 / 0 (first run: Cloudflare served the old page in de/sv/fi for ~5 min) |
 
 ## Open
 - The shared picture index labels `forest-creatures/deer` pt «Veado» (a slur in Brazil) and `clothing/mitten` pt «Mitene» (a fingerless glove); this activity overrides them, other activities still show them — a vocabulary fix for the operator (image-vocabulary.js).

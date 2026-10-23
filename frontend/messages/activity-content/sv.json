@@ -3284,6 +3284,29 @@
         "Barnet väljer rätt pluraländelse",
         "Barnet bildar singular genom att ta bort ändelsen"
       ]
+    },
+    "wren-question-window.question-words.l-k-1-d": {
+      "about": [
+        "Varje frågeord är en lampa som lyser på en sorts svar: vem på en person, vad på en sak, var på en plats, när på en tid, varför på ett skäl och hur på sättet. Vid Wrens fönster står svaret som bildkort under en lampskena, och ett kort har en gyllene ram.",
+        "Barnet sätter ett frågeord i luckan och trycker på ”Kontrollera”. Mässingslampan glider längs skenan och lyser på det kort som ordet frågar efter: på det gyllene kortet när ordet är rätt, på ett annat kort (eller på ingenting) när det inte är det. Varje omgång har exakt ett rätt ord. Efter ett rätt svar besöker lampan varje bildkort i tur och ordning, vart och ett med frågeordet som frågar efter det.",
+        "Fem grupper: vem, vad och var; med när; med varför och hur; para ihop en fråga med sitt svar; och sortera svar under tre lampor. Under ”Svar” kan barnet också skriva frågeordet själv. I linje med Lgr22, utan tidtagning och utan poäng."
+      ],
+      "practices": [
+        "Att veta vad varje frågeord frågar efter",
+        "Att välja vem för en person och vad för en sak",
+        "Att skilja på var (en plats) och när (en tid)",
+        "Att välja varför för ett skäl och hur för sättet"
+      ],
+      "howToPlay": [
+        "Titta på det gyllene kortet. Tryck på frågeordet som frågar efter det och tryck sedan på ”Kontrollera”.",
+        "Se var lampan lyser. Lyser den på ett annat kort frågar ordet efter något annat.",
+        "Under ”Frågeord” väljer du en grupp som ”Med när” eller ”Sortera”, och under ”Svar” kan du välja ”Skriv själv”."
+      ],
+      "learningGoals": [
+        "Barnet vet att varje frågeord frågar efter en sorts svar",
+        "Barnet väljer det frågeord som passar ett svar",
+        "Barnet sorterar svar efter frågan de svarar på"
+      ]
     }
   }
 }

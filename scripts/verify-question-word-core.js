@@ -19,6 +19,7 @@ const path = require('path');
 const REPO = path.join(__dirname, '..');
 const CORE = path.join(REPO, 'mini tools', 'question-word-core.js');
 const MANIFEST = path.join(REPO, 'mini tools', 'wren-question-window-activities.json');
+/* Row 76 rebuild (2026-10-23): the row runs the Question Lamp (question-lamp-activity; gate verify-question-lamp-core.js) and no page loads question-word-core.js any more. */if (JSON.parse(fs.readFileSync(MANIFEST, 'utf8'))[0].tool !== 'wren-question-window-activity') { console.log('verify-question-word-core: the row runs the Question Lamp — see verify-question-lamp-core.js. Nothing to check here.'); process.exit(0); }
 const CHANCE = 0.45;
 
 function loadCore() { const src = fs.readFileSync(CORE, 'utf8'); const win = {}; new Function('window', src)(win); if (!win.QuestionWordCore) throw new Error('core did not attach window.QuestionWordCore'); return win.QuestionWordCore; }

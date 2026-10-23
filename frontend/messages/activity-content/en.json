@@ -4628,25 +4628,25 @@
     },
     "wren-question-window.question-words.l-k-1-d": {
       "about": [
-        "Wren takes orders at the diner window, and every order starts with a good question. The child reads a question with a blank — \"___ would you like to eat?\", \"___ is next in line?\" — and taps the question word that fits, choosing from who, what, where, when, why, and how. It's an interactive Kindergarten language activity that plays right in the browser, with no sign-up.",
-        "The big idea is matching each question word to the kind of answer it asks for: who asks about a person, what about a thing, where about a place, when about a time, why about a reason, and how about a manner. The blanks ask about different things across the rounds, so a child has to read the rest of the question and decide what is really being asked before choosing the word.",
-        "It is aligned to Common Core L.K.1.d — understanding and using question words (interrogatives) such as who, what, where, when, why, and how. No timer, no score — just calm, playful practice."
+        "Every question word is a lamp that shines on one kind of answer: who on a person, what on a thing, where on a place, when on a time, why on a reason and how on the way something is done. At Wren's window the answer stands under a lamp rail as picture cards, and one card wears a gold frame.",
+        "The child puts a question word in the gap and presses \"Check\". The brass lamp swings along its rail and drops its beam on the card that word asks about: on the gold card when the word is right, on another card (or on nothing at all) when it is not. Every round has exactly one right word. After a right answer the lamp visits every picture card in turn, each with the question word that asks about it.",
+        "Five sets: who, what and where; adding when; adding why and how; matching a question to its answer; and sorting answers under three lamps. Under \"Answer\" the child can type the question word instead. Aligned to Common Core L.K.1.d: understand and use question words. No timer and no score."
       ],
       "practices": [
-        "Match who and what to a person or a thing",
-        "Match where and when to a place or a time",
-        "Match why and how to a reason or a manner",
-        "Read the whole question to decide what is being asked"
+        "Knowing what each question word asks about",
+        "Choosing who for a person and what for a thing",
+        "Telling where (a place) from when (a time)",
+        "Choosing why for a reason and how for a way"
       ],
       "howToPlay": [
-        "Read the question and think about what it is really asking.",
-        "Tap the question word — who, what, where, when, why, or how — that fills the blank.",
-        "A warm check confirms the choice and offers an easy retry; no timer, no score."
+        "Look at the gold card. Tap the question word that asks about it, then press \"Check\".",
+        "Watch where the lamp shines. If it lights another card, that word asks about something else.",
+        "Under \"Question words\" choose a set such as \"Add when\" or \"Sort\", and under \"Answer\" choose \"Write it\" to type the word."
       ],
       "learningGoals": [
-        "Understand and use question words — the focus of Common Core L.K.1.d",
-        "Match each question word to the kind of answer it asks for",
-        "Build the question-asking that early reading and conversation rely on"
+        "The child knows that each question word asks for one kind of answer",
+        "The child picks the question word that fits a given answer",
+        "The child sorts answers by the question they answer"
       ]
     },
     "ziggy-odd-one-out.category.l-1-5-a": {

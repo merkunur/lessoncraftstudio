@@ -1589,25 +1589,25 @@
     },
     "wren-question-window.question-words.l-k-1-d": {
       "about": [
-        "Wren atiende su ventanilla de comida y, en cada ronda, aparece una pregunta escrita a la que le falta la primera palabra —por ejemplo, «¿___ quieres?»—; el niño lee, elige entre seis palabras para preguntar y toca la que completa la pregunta, a lo largo de 8 rondas.",
-        "Cada palabra interrogativa pregunta por algo distinto: «Qué» pregunta por una cosa, «Quién» por una persona, «Dónde» por un lugar, «Cuándo» por un tiempo, «Por qué» por una razón y «Cómo» por el modo; al leer la pregunta con atención, el niño descubre qué se está preguntando y escoge la palabra correcta.",
-        "Es una actividad interactiva que se juega directo en el navegador, sin registro ni descargas, con un tono cálido, sin cronómetro y sin puntajes, alineada a los Planes y programas de estudio (SEP)."
+        "Cada palabra para preguntar es una lámpara que ilumina un tipo de respuesta: quién a una persona, qué a una cosa, dónde a un lugar, cuándo a un momento, por qué a una razón y cómo a la manera. En la ventanilla de Wren, la respuesta está debajo de un riel con una lámpara, en tarjetas con dibujos, y una tarjeta tiene un marco dorado.",
+        "El niño pone una palabra en el hueco y presiona «Revisar». La lámpara de latón se mueve por el riel e ilumina la tarjeta por la que pregunta esa palabra: la tarjeta dorada si la palabra es correcta, otra tarjeta (o nada) si no lo es. Cada ronda tiene una sola palabra correcta. Después de acertar, la lámpara pasa por cada tarjeta con dibujo, cada una con la palabra que pregunta por ella.",
+        "Cinco grupos: quién, qué y dónde; con cuándo; con por qué y cómo; relacionar una pregunta con su respuesta; y ordenar respuestas debajo de tres lámparas. En «Respuesta», el niño puede escribir la palabra él mismo. En línea con los planes de estudio, sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Reconocer y usar las palabras interrogativas: qué, quién, dónde, cuándo, por qué y cómo.",
-        "Leer con atención una oración para darse cuenta de qué es lo que pregunta.",
-        "Distinguir si la pregunta se refiere a una persona, una cosa, un lugar, un tiempo o una razón.",
-        "Completar preguntas escritas colocando al inicio la palabra interrogativa adecuada."
+        "Saber por qué pregunta cada palabra",
+        "Elegir quién para una persona y qué para una cosa",
+        "Distinguir dónde (un lugar) de cuándo (un momento)",
+        "Elegir por qué para una razón y cómo para la manera"
       ],
       "howToPlay": [
-        "Lee la pregunta que aparece en la ventanilla de Wren.",
-        "Piensa si esa pregunta es por una persona, una cosa, un lugar, un tiempo, una razón o el modo.",
-        "Toca la palabra que completa la pregunta; los intentos son ilimitados y no hay cronómetro."
+        "Mira la tarjeta dorada. Toca la palabra que pregunta por ella y luego presiona «Revisar».",
+        "Mira a dónde ilumina la lámpara. Si ilumina otra tarjeta, esa palabra pregunta por otra cosa.",
+        "En «Palabras para preguntar» elige un grupo como «Con cuándo» u «Ordena», y en «Respuesta» elige «Escríbela»."
       ],
       "learningGoals": [
-        "Elige la palabra interrogativa correcta para completar cada pregunta.",
-        "Comprende que cada palabra para preguntar sirve para averiguar algo específico: una persona, una cosa, un lugar, un tiempo, una razón o el modo.",
-        "Lee una pregunta escrita con atención antes de responder."
+        "El niño sabe que cada palabra para preguntar pide un tipo de respuesta",
+        "El niño elige la palabra que va con una respuesta",
+        "El niño ordena respuestas según la pregunta que contestan"
       ]
     },
     "ziggy-odd-one-out.category.l-1-5-a": {

@@ -1834,25 +1834,25 @@
     },
     "wren-question-window.question-words.l-k-1-d": {
       "about": [
-        "Am Bestellfenster von Wren fehlt in jeder Frage das erste Wort. Dein Kind liest die Frage – zum Beispiel „___ möchtest du essen?“ – und tippt aus sechs Wörtern das Fragewort an, das in die Lücke passt: hier „Was“. Mal fehlt „wer“, mal „wo“, mal „wann“, „warum“ oder „wie“.",
-        "Dahinter steckt eine wichtige Einsicht: Jedes Fragewort fragt nach etwas Bestimmtem. „Wer“ fragt nach einer Person, „was“ nach einer Sache, „wo“ nach dem Ort, „wann“ nach der Zeit, „warum“ nach dem Grund und „wie“ nach der Art und Weise. Wenn dein Kind die Frage genau liest, merkt es, welche Antwort gesucht ist – und findet so das passende Fragewort.",
-        "Es gibt keine Zeit, keine Punkte und keinen Druck – dein Kind probiert in Ruhe und so oft es mag. Die Übung gehört zum Bereich „Sprache und Sprachgebrauch untersuchen“ und folgt dem Lehrplan der Grundschule, in dem Kinder in Klasse 1 lernen, Fragesätze zu erkennen und das passende Fragewort einzusetzen."
+        "Jedes Fragewort ist eine Lampe, die auf eine Sorte Antwort leuchtet: wer auf eine Person, was auf eine Sache, wo auf einen Ort, wann auf eine Zeit, warum auf einen Grund und wie auf die Art und Weise. An Wrens Fenster steht die Antwort als Bildkarten unter einer Lampenschiene, und eine Karte hat einen goldenen Rahmen.",
+        "Das Kind setzt ein Fragewort in die Lücke und drückt auf „Prüfen“. Die Messinglampe schwingt die Schiene entlang und leuchtet auf die Karte, nach der das Wort fragt: auf die goldene Karte, wenn das Wort stimmt, auf eine andere Karte (oder auf gar nichts), wenn nicht. Jede Runde hat genau ein richtiges Wort. Nach einer richtigen Antwort besucht die Lampe nacheinander jede Bildkarte, jeweils mit dem Fragewort, das nach ihr fragt.",
+        "Fünf Sets: wer, was und wo; mit wann; mit warum und wie; Frage und Antwort zuordnen; und Antworten unter drei Lampen sortieren. Unter „Antwort“ kann das Kind das Fragewort auch selbst tippen. Passend zum Lehrplan, ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "Fragewörter erkennen und richtig einsetzen: wer, was, wo, wann, warum, wie.",
-        "Genau lesen, worauf eine Frage zielt – nach einer Person, einer Sache, dem Ort, der Zeit, dem Grund oder der Art.",
-        "Den Fragesatz als eigene Satzart wahrnehmen.",
-        "Zuhören und mitlesen, wie eine Frage klingt und aufgebaut ist."
+        "Wissen, wonach jedes Fragewort fragt",
+        "Wer für eine Person und was für eine Sache wählen",
+        "Wo (ein Ort) und wann (eine Zeit) unterscheiden",
+        "Warum für einen Grund und wie für die Art und Weise wählen"
       ],
       "howToPlay": [
-        "Lies die Frage am Fenster und überlege, welches erste Wort fehlt.",
-        "Tippe das Fragewort an, das in die Lücke passt.",
-        "Stimmt es, ist die Frage vollständig – sonst probierst du einfach das nächste Fragewort."
+        "Schau auf die goldene Karte. Tipp das Fragewort an, das nach ihr fragt, und drück dann auf „Prüfen“.",
+        "Schau, wohin die Lampe leuchtet. Leuchtet sie auf eine andere Karte, fragt das Wort nach etwas anderem.",
+        "Unter „Fragewörter“ wählst du ein Set wie „Mit wann“ oder „Sortieren“, unter „Antwort“ kannst du „Selbst schreiben“ wählen."
       ],
       "learningGoals": [
-        "Dein Kind wählt zu einer Frage das passende Fragewort aus.",
-        "Dein Kind weiß, dass jedes Fragewort nach etwas Bestimmtem fragt.",
-        "Dein Kind erkennt einen Fragesatz und liest ihn aufmerksam."
+        "Das Kind weiß, dass jedes Fragewort nach einer Sorte Antwort fragt",
+        "Das Kind wählt das Fragewort, das zu einer Antwort passt",
+        "Das Kind sortiert Antworten nach der Frage, die sie beantworten"
       ]
     },
     "halfway-harbors.nearest.3-nbt-a-1": {

@@ -2480,25 +2480,25 @@
     },
     "wren-question-window.question-words.l-k-1-d": {
       "about": [
-        "O Wren é um passarinho que atende a janelinha de uma lanchonete, e a cada pedido aparece uma pergunta escrita com a primeira palavra faltando. A criança lê a pergunta com calma e olha para seis palavras interrogativas na tela: O que, Quem, Onde, Quando, Por que e Como. Ela toca naquela que completa a frase e vê o pedido seguir na janelinha — são 8 rodadas, cada uma com uma pergunta diferente para esse passarinho servir.",
-        "Cada palavra interrogativa abre uma porta diferente. “O que” pergunta por uma coisa, “Quem” pergunta por uma pessoa, “Onde” pergunta por um lugar, “Quando” pergunta por um tempo, “Por que” pergunta por um motivo e “Como” pergunta por um jeito de fazer. Quando a criança percebe o que a pergunta quer descobrir, escolher a palavra certa fica natural — e ela começa a reparar nessas palavrinhas também nas perguntas do dia a dia.",
-        "A atividade é interativa, roda direto no navegador, sem instalar nada, sem cadastro, sem cronômetro e sem pontuação — ninguém corre contra o relógio e ninguém perde pontos por errar. O clima é tranquilo e acolhedor, para a criança explorar no próprio ritmo e tentar de novo sempre que quiser. O conteúdo está alinhado à Base Nacional Comum Curricular (BNCC), com foco no trabalho com perguntas e palavras interrogativas no 1º ano."
+        "Cada palavra de pergunta é uma lâmpada que ilumina um tipo de resposta: quem uma pessoa, o que uma coisa, onde um lugar, quando um momento, por que um motivo e como o jeito. Na janelinha da Wren, a resposta fica embaixo de um trilho com uma lâmpada, em cartões com figuras, e um cartão tem uma moldura dourada.",
+        "A criança coloca uma palavra no espaço e toca em \"Conferir\". A lâmpada de latão desliza pelo trilho e ilumina o cartão pelo qual essa palavra pergunta: o cartão dourado se a palavra estiver certa, outro cartão (ou nada) se não estiver. Cada rodada tem uma única palavra certa. Depois de um acerto, a lâmpada passa por cada cartão com figura, cada um com a palavra que pergunta por ele.",
+        "Cinco grupos: quem, o que e onde; com quando; com por que e como; ligar uma pergunta à sua resposta; e separar respostas embaixo de três lâmpadas. Em \"Resposta\", a criança pode escrever a palavra. De acordo com a BNCC, sem cronômetro e sem pontos."
       ],
       "practices": [
-        "Reconhecer as seis palavras interrogativas: O que, Quem, Onde, Quando, Por que e Como.",
-        "Ler uma pergunta e identificar o que ela quer descobrir.",
-        "Completar frases interrogativas escolhendo a palavra que faz sentido.",
-        "Perceber a diferença entre pessoa, coisa, lugar, tempo, motivo e jeito."
+        "Saber o que cada palavra de pergunta quer saber",
+        "Escolher quem para uma pessoa e o que para uma coisa",
+        "Diferenciar onde (um lugar) de quando (um momento)",
+        "Escolher por que para um motivo e como para o jeito"
       ],
       "howToPlay": [
-        "Leia a pergunta que apareceu na janelinha do Wren.",
-        "Olhe as seis palavras e escolha a que completa o começo da pergunta.",
-        "Toque na palavra certa e siga para a próxima rodada."
+        "Olhe o cartão dourado. Toque na palavra que pergunta por ele e depois em \"Conferir\".",
+        "Veja onde a lâmpada ilumina. Se ela iluminar outro cartão, essa palavra pergunta por outra coisa.",
+        "Em \"Palavras de pergunta\", escolha um grupo como \"Com quando\" ou \"Separe\", e em \"Resposta\", escolha \"Escreva você\"."
       ],
       "learningGoals": [
-        "Identificar e nomear as palavras interrogativas mais usadas no português.",
-        "Relacionar cada palavra à informação que ela pede (pessoa, coisa, lugar, tempo, motivo, jeito).",
-        "Ganhar confiança para ler e formar perguntas simples de forma autônoma."
+        "A criança sabe que cada palavra de pergunta pede um tipo de resposta",
+        "A criança escolhe a palavra que combina com uma resposta",
+        "A criança separa respostas pela pergunta que elas respondem"
       ]
     },
     "halfway-harbors.nearest.3-nbt-a-1": {

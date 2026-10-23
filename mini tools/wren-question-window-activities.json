@@ -1,87 +1,147 @@
 [
   {
     "id": "wren-question-window.question-words.l-k-1-d",
-    "tool": "wren-question-window-activity",
+    "tool": "question-lamp-activity",
     "task_template": "wren-question-window",
-    "alignment": { "framework": "CCSS", "code": "L.K.1.d", "grade": "K", "strand": "Language" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "L.K.1.d",
+      "grade": "K",
+      "strand": "Language"
+    },
     "params": {
-      "rounds": [
-        { "id": "eat",    "band": 1, "sentence": "___ would you like to eat?",     "asks": "thing" },
-        { "id": "next",   "band": 1, "sentence": "___ is next in line?",           "asks": "person" },
-        { "id": "plate",  "band": 1, "sentence": "___ should I put your plate?",   "asks": "place" },
-        { "id": "open",   "band": 2, "sentence": "___ does the diner open?",       "asks": "time" },
-        { "id": "hungry", "band": 2, "sentence": "___ are you so hungry?",         "asks": "reason" },
-        { "id": "eggs",   "band": 2, "sentence": "___ do you like your eggs?",     "asks": "manner" },
-        { "id": "plateon","band": 3, "sentence": "___ is on your plate?",          "asks": "thing" },
-        { "id": "ordered","band": 3, "sentence": "___ ordered the pancakes?",      "asks": "person" }
+      "note": "A mirror of question-lamp-core.js (the questions of each level per locale). The core is the source; this row runs the Question Lamp.",
+      "levels": [
+        "l1",
+        "l2",
+        "l3",
+        "l4",
+        "l5"
       ],
-      "roundsL10n": {
-        "de": [
-          { "id": "wren-was-essen", "band": 1, "sentence": "___ möchtest du essen?", "asks": "thing" },
-          { "id": "wren-wer-bestellen", "band": 1, "sentence": "___ möchte als Nächstes bestellen?", "asks": "person" },
-          { "id": "wren-wo-tisch", "band": 1, "sentence": "___ ist dein Tisch?", "asks": "place" },
-          { "id": "wren-wann-fruehstueck", "band": 2, "sentence": "___ beginnt das Frühstück?", "asks": "time" },
-          { "id": "wren-wie-suppe", "band": 2, "sentence": "___ schmeckt dir die Suppe?", "asks": "manner" },
-          { "id": "wren-was-trinken", "band": 2, "sentence": "___ trinkst du dazu?", "asks": "thing" },
-          { "id": "wren-warum-hunger", "band": 3, "sentence": "___ hast du so großen Hunger?", "asks": "reason" },
-          { "id": "wren-wer-bezahlen", "band": 3, "sentence": "___ bezahlt die Rechnung?", "asks": "person" }
-        ],
-        "fr": [
-          { "id": "wren-que-veux", "band": 1, "sentence": "___ veux-tu ?", "asks": "thing" },
-          { "id": "wren-qui-commander", "band": 1, "sentence": "___ veut commander ?", "asks": "person" },
-          { "id": "wren-ou-sel", "band": 1, "sentence": "___ est le sel ?", "asks": "place" },
-          { "id": "wren-quand-restaurant", "band": 2, "sentence": "___ ouvre le restaurant ?", "asks": "time" },
-          { "id": "wren-qui-addition", "band": 2, "sentence": "___ paie l’addition ?", "asks": "person" },
-          { "id": "wren-que-prends", "band": 2, "sentence": "___ prends-tu ?", "asks": "thing" },
-          { "id": "wren-pourquoi-retard", "band": 3, "sentence": "___ es-tu en retard ?", "asks": "reason" },
-          { "id": "wren-comment-oeuf", "band": 3, "sentence": "___ veux-tu ton œuf ?", "asks": "manner" }
-        ],
-        "es": [
-          { "id": "wren-que-quieres", "band": 1, "sentence": "¿___ quieres?", "asks": "thing" },
-          { "id": "wren-quien-jugo", "band": 1, "sentence": "¿___ pide el jugo?", "asks": "person" },
-          { "id": "wren-donde-sal", "band": 1, "sentence": "¿___ está la sal?", "asks": "place" },
-          { "id": "wren-cuando-comida", "band": 2, "sentence": "¿___ llega la comida?", "asks": "time" },
-          { "id": "wren-como-huevo", "band": 2, "sentence": "¿___ quieres tu huevo, revuelto o estrellado?", "asks": "manner" },
-          { "id": "wren-que-tomas", "band": 2, "sentence": "¿___ tomas?", "asks": "thing" },
-          { "id": "wren-porque-hambre", "band": 3, "sentence": "¿___ tienes tanta hambre?", "asks": "reason" },
-          { "id": "wren-quien-cuenta", "band": 3, "sentence": "¿___ paga la cuenta?", "asks": "person" }
-        ],
-        "pt": [
-          { "id": "wren-oque-prato", "band": 1, "sentence": "___ você quer no prato?", "asks": "thing" },
-          { "id": "wren-quem-fila", "band": 1, "sentence": "___ é o próximo da fila?", "asks": "person" },
-          { "id": "wren-onde-sal", "band": 1, "sentence": "___ está o sal?", "asks": "place" },
-          { "id": "wren-quando-lanche", "band": 2, "sentence": "___ é a hora do lanche?", "asks": "time" },
-          { "id": "wren-como-ovo", "band": 2, "sentence": "___ você quer o ovo, mexido ou frito?", "asks": "manner" },
-          { "id": "wren-oque-beber", "band": 2, "sentence": "___ você vai beber?", "asks": "thing" },
-          { "id": "wren-porque-sorvete", "band": 3, "sentence": "___ você gosta tanto de sorvete?", "asks": "reason" },
-          { "id": "wren-quem-conta", "band": 3, "sentence": "___ vai pagar a conta?", "asks": "person" }
-        ],
-        "it": [
-          { "id": "wren-cosa-colazione", "band": 1, "sentence": "___ vuoi per colazione?", "asks": "thing" },
-          { "id": "wren-chi-viene", "band": 1, "sentence": "___ viene con te?", "asks": "person" },
-          { "id": "wren-dove-piatto", "band": 1, "sentence": "___ metto il tuo piatto?", "asks": "place" },
-          { "id": "wren-quando-colazione", "band": 2, "sentence": "___ finisce la colazione?", "asks": "time" },
-          { "id": "wren-come-uova", "band": 2, "sentence": "___ vuoi le uova?", "asks": "manner" },
-          { "id": "wren-cosa-bere", "band": 2, "sentence": "___ prendi da bere?", "asks": "thing" },
-          { "id": "wren-perche-fame", "band": 3, "sentence": "___ hai tanta fame?", "asks": "reason" },
-          { "id": "wren-chi-conto", "band": 3, "sentence": "___ paga il conto?", "asks": "person" }
-        ],
-        "nl": [
-          { "id": "wren-wat-eten", "band": 1, "sentence": "___ wil je eten?", "asks": "thing" },
-          { "id": "wren-wie-volgende", "band": 1, "sentence": "___ is de volgende?", "asks": "person" },
-          { "id": "wren-waar-bord", "band": 1, "sentence": "___ zet ik je bord?", "asks": "place" },
-          { "id": "wren-wanneer-open", "band": 2, "sentence": "___ gaat de eetzaal open?", "asks": "time" },
-          { "id": "wren-waarom-honger", "band": 2, "sentence": "___ heb je zo'n honger?", "asks": "reason" },
-          { "id": "wren-hoe-eieren", "band": 2, "sentence": "___ wil je je eieren, gebakken of gekookt?", "asks": "manner" },
-          { "id": "wren-wat-besteld", "band": 3, "sentence": "___ heb je besteld?", "asks": "thing" },
-          { "id": "wren-wie-pannenkoeken", "band": 3, "sentence": "___ heeft de pannenkoeken besteld?", "asks": "person" }
-        ]
+      "answers": [
+        "keys",
+        "write"
+      ],
+      "byLocale": {
+        "en": {
+          "l1": "___ cooks the pancakes? | ___ does the waitress drink? | ___ does the farmer pick apples? | ___ does the chef cook? | ___ does the waitress drink the milk? | ___ picks the apples? | ___ does the chef cook the pancakes? | ___ drinks the milk? | ___ does the farmer pick? | ___ washes the truck? | ___ does the firefighter wash? | ___ does the firefighter wash the truck?",
+          "l2": "___ does the baker bake bread? | ___ bakes bread in the morning? | ___ does the chef wash the pots? | ___ does the chef wash the pots at night? | ___ does the chef wash at night? | ___ does the firefighter drink milk? | ___ drinks milk in the morning? | ___ does the farmer wear a scarf?",
+          "l3": "___ does the farmer wear a raincoat? | ___ does the chef stir the soup? | ___ does the baker go to work? | ___ does the waitress wear a scarf? | ___ does the baker go to work on a bicycle? | ___ does the chef stir with a spoon? | ___ wears a raincoat because it is raining? | ___ does the waitress wear because it is cold? | ___ does the gardener plant tulips?",
+          "l4": "Who bakes bread? | What does the chef cook? | Where is the cat sleeping? | When does the owl hunt? | Who sells the flowers? | Where do the fish swim? | What does the farmer pick? | Where is the truck?",
+          "l5": "7 boards"
+        },
+        "de": {
+          "l1": "___ macht die Pfannkuchen? | ___ trinkt die Kellnerin? | ___ pflückt der Bauer Äpfel? | ___ macht der Koch? | ___ trinkt die Kellnerin die Milch? | ___ pflückt die Äpfel? | ___ macht der Koch die Pfannkuchen? | ___ trinkt die Milch? | ___ pflückt der Bauer? | ___ wäscht den Lastwagen? | ___ wäscht der Feuerwehrmann? | ___ wäscht der Feuerwehrmann den Lastwagen?",
+          "l2": "___ backt der Bäcker Brot? | ___ backt am Morgen Brot? | ___ spült der Koch die Töpfe? | ___ spült der Koch in der Nacht die Töpfe? | ___ spült der Koch in der Nacht? | ___ trinkt der Feuerwehrmann Milch? | ___ trinkt am Morgen Milch? | ___ trägt der Bauer einen Schal?",
+          "l3": "___ trägt der Bauer eine Regenjacke? | ___ rührt der Koch die Suppe um? | ___ fährt der Bäcker zur Arbeit? | ___ trägt die Kellnerin einen Schal? | ___ fährt der Bäcker mit dem Fahrrad zur Arbeit? | ___ rührt der Koch mit einem Löffel um? | ___ trägt eine Regenjacke, weil es regnet? | ___ trägt die Kellnerin, weil es kalt ist? | ___ pflanzt der Gärtner Tulpen?",
+          "l4": "Wer backt Brot? | Was macht der Koch? | Wo schläft die Katze? | Wann jagt die Eule? | Wer verkauft die Blumen? | Wo schwimmen die Fische? | Was pflückt der Bauer? | Wo steht der Lastwagen?",
+          "l5": "7 boards"
+        },
+        "nl": {
+          "l1": "___ bakt de pannenkoeken? | ___ drinkt de serveerster aan tafel? | ___ plukt de boer appels? | ___ bakt de kok? | ___ drinkt de serveerster de melk? | ___ plukt de appels? | ___ bakt de kok de pannenkoeken? | ___ drinkt de melk aan tafel? | ___ plukt de boer? | ___ wast de vrachtwagen? | ___ wast de brandweerman? | ___ wast de brandweerman de vrachtwagen?",
+          "l2": "___ bakt de bakker brood? | ___ bakt ’s ochtends brood? | ___ wast de kok de pannen af? | ___ wast de kok ’s nachts de pannen af? | ___ wast de kok ’s nachts af? | ___ drinkt de brandweerman melk? | ___ drinkt ’s ochtends melk? | ___ draagt de boer een sjaal?",
+          "l3": "___ draagt de boer een regenjas? | ___ roert de kok de soep? | ___ gaat de bakker naar zijn werk? | ___ draagt de serveerster een sjaal? | ___ gaat de bakker op de fiets naar zijn werk? | ___ roert de kok met een lepel? | ___ draagt een regenjas omdat het regent? | ___ draagt de serveerster omdat het koud is? | ___ plant de tuinman tulpen?",
+          "l4": "Wie bakt brood? | Wat bakt de kok? | Waar slaapt de kat? | Wanneer jaagt de uil? | Wie verkoopt de bloemen? | Waar zwemmen de vissen? | Wat plukt de boer? | Waar staat de vrachtwagen?",
+          "l5": "7 boards"
+        },
+        "da": {
+          "l1": "___ laver pandekagerne? | ___ drikker servitricen? | ___ plukker landmanden æbler? | ___ laver kokken? | ___ drikker servitricen mælken? | ___ plukker æblerne? | ___ laver kokken pandekagerne? | ___ drikker mælken? | ___ plukker landmanden? | ___ vasker lastbilen? | ___ vasker brandmanden? | ___ vasker brandmanden lastbilen?",
+          "l2": "___ bager bageren brød? | ___ bager brød om morgenen? | ___ vasker kokken gryderne op? | ___ vasker kokken gryderne op om natten? | ___ vasker kokken op om natten? | ___ drikker brandmanden mælk? | ___ drikker mælk om morgenen? | ___ har landmanden halstørklæde på?",
+          "l3": "___ har landmanden regnfrakke på? | ___ rører kokken rundt i suppen? | ___ kører bageren på arbejde? | ___ har servitricen halstørklæde på? | ___ kører bageren på cykel på arbejde? | ___ rører kokken rundt i med en ske? | ___ har regnfrakke på, fordi det regner? | ___ har servitricen på, fordi det er koldt? | ___ planter gartneren tulipaner?",
+          "l4": "Hvem bager brød? | Hvad laver kokken? | Hvor sover katten? | Hvornår jager uglen? | Hvem sælger blomsterne? | Hvor svømmer fiskene? | Hvad plukker landmanden? | Hvor holder lastbilen?",
+          "l5": "7 boards"
+        },
+        "sv": {
+          "l1": "___ steker pannkakorna? | ___ dricker servitrisen? | ___ plockar bonden äpplen? | ___ steker kocken? | ___ dricker servitrisen mjölken? | ___ plockar äpplena? | ___ steker kocken pannkakorna? | ___ dricker mjölken? | ___ plockar bonden? | ___ tvättar lastbilen? | ___ tvättar brandmannen? | ___ tvättar brandmannen lastbilen?",
+          "l2": "___ bakar bagaren bröd? | ___ bakar bröd på morgonen? | ___ diskar kocken kastrullerna? | ___ diskar kocken kastrullerna på natten? | ___ diskar kocken på natten? | ___ dricker brandmannen mjölk? | ___ dricker mjölk på morgonen? | ___ har bonden halsduk?",
+          "l3": "___ har bonden regnrock? | ___ rör kocken om i soppan? | ___ åker bagaren till jobbet? | ___ har servitrisen halsduk? | ___ åker bagaren till jobbet på cykel? | ___ rör kocken om i med en sked? | ___ har regnrock för att det regnar? | ___ har servitrisen för att det är kallt? | ___ planterar trädgårdsmästaren tulpaner?",
+          "l4": "Vem bakar bröd? | Vad steker kocken? | Var sover katten? | När jagar ugglan? | Vem säljer blommorna? | Var simmar fiskarna? | Vad plockar bonden? | Var står lastbilen?",
+          "l5": "7 boards"
+        },
+        "no": {
+          "l1": "___ steker pannekakene? | ___ drikker servitøren? | ___ plukker bonden epler? | ___ steker kokken? | ___ drikker servitøren melken? | ___ plukker eplene? | ___ steker kokken pannekakene? | ___ drikker melken? | ___ plukker bonden? | ___ vasker lastebilen? | ___ vasker brannmannen? | ___ vasker brannmannen lastebilen?",
+          "l2": "___ baker bakeren brød? | ___ baker brød om morgenen? | ___ vasker kokken opp grytene? | ___ vasker kokken opp grytene om natten? | ___ vasker kokken opp om natten? | ___ drikker brannmannen melk? | ___ drikker melk om morgenen? | ___ har bonden på seg skjerf?",
+          "l3": "___ har bonden på seg regnjakke? | ___ rører kokken i suppen? | ___ drar bakeren til jobben? | ___ har servitøren på seg skjerf? | ___ drar bakeren til jobben på sykkel? | ___ rører kokken i med en skje? | ___ har på seg regnjakke fordi det regner? | ___ har servitøren på seg fordi det er kaldt? | ___ planter gartneren tulipaner?",
+          "l4": "Hvem baker brød? | Hva steker kokken? | Hvor sover katten? | Når jakter ugla? | Hvem selger blomstene? | Hvor svømmer fiskene? | Hva plukker bonden? | Hvor står lastebilen?",
+          "l5": "7 boards"
+        },
+        "es": {
+          "l1": "¿___ prepara los hot cakes? | ¿___ toma la mesera? | ¿___ recoge manzanas el granjero? | ¿___ prepara el cocinero? | ¿___ toma la mesera la leche? | ¿___ recoge las manzanas? | ¿___ prepara el cocinero los hot cakes? | ¿___ toma la leche? | ¿___ recoge el granjero? | ¿___ lava el camión? | ¿___ lava el bombero? | ¿___ lava el bombero el camión?",
+          "l2": "¿___ hornea pan el panadero? | ¿___ hornea pan en la mañana? | ¿___ lava las ollas el cocinero? | ¿___ lava las ollas en la noche el cocinero? | ¿___ lava el cocinero en la noche? | ¿___ toma leche el bombero? | ¿___ toma leche en la mañana? | ¿___ lleva una bufanda el granjero?",
+          "l3": "¿___ lleva un impermeable el granjero? | ¿___ mueve la sopa el cocinero? | ¿___ va al trabajo el panadero? | ¿___ lleva una bufanda la mesera? | ¿___ va al trabajo en bicicleta el panadero? | ¿___ mueve el cocinero con una cuchara? | ¿___ lleva un impermeable porque está lloviendo? | ¿___ lleva la mesera porque hace frío? | ¿___ planta tulipanes el jardinero?",
+          "l4": "¿Quién hornea pan? | ¿Qué prepara el cocinero? | ¿Dónde duerme el gato? | ¿Cuándo caza el búho? | ¿Quién vende las flores? | ¿Dónde nadan los peces? | ¿Qué recoge el granjero? | ¿Dónde está el camión?",
+          "l5": "7 boards"
+        },
+        "it": {
+          "l1": "___ prepara i pancake? | ___ beve la cameriera? | ___ raccoglie le mele il contadino? | ___ prepara il cuoco? | ___ beve il latte la cameriera? | ___ raccoglie le mele? | ___ prepara i pancake il cuoco? | ___ beve il latte? | ___ raccoglie il contadino? | ___ lava il camion? | ___ lava il pompiere? | ___ lava il camion il pompiere?",
+          "l2": "___ fa il pane il fornaio? | ___ fa il pane di mattina? | ___ lava le pentole il cuoco? | ___ lava le pentole di notte il cuoco? | ___ lava di notte il cuoco? | ___ beve il latte il pompiere? | ___ beve il latte di mattina? | ___ porta una sciarpa il contadino?",
+          "l3": "___ porta un impermeabile il contadino? | ___ mescola la minestra il cuoco? | ___ va al lavoro il fornaio? | ___ porta una sciarpa la cameriera? | ___ va al lavoro in bicicletta il fornaio? | ___ mescola con un cucchiaio il cuoco? | ___ porta un impermeabile perché piove? | ___ porta la cameriera perché fa freddo? | ___ pianta i tulipani il giardiniere?",
+          "l4": "Chi fa il pane? | Che cosa prepara il cuoco? | Dove dorme il gatto? | Quando caccia il gufo? | Chi vende i fiori? | Dove nuotano i pesci? | Che cosa raccoglie il contadino? | Dov’è il camion?",
+          "l5": "7 boards"
+        },
+        "pt": {
+          "l1": "___ faz as panquecas? | ___ a garçonete toma? | ___ o fazendeiro colhe maçãs? | ___ o cozinheiro faz? | ___ a garçonete toma o leite? | ___ colhe as maçãs? | ___ o cozinheiro faz as panquecas? | ___ toma o leite? | ___ o fazendeiro colhe? | ___ lava o caminhão? | ___ o bombeiro lava? | ___ o bombeiro lava o caminhão?",
+          "l2": "___ o padeiro assa pão? | ___ assa pão de manhã? | ___ o cozinheiro lava as panelas? | ___ o cozinheiro lava as panelas à noite? | ___ o cozinheiro lava à noite? | ___ o bombeiro bebe leite? | ___ bebe leite de manhã? | ___ o fazendeiro usa um cachecol?",
+          "l3": "___ o fazendeiro usa uma capa de chuva? | ___ o cozinheiro mexe a sopa? | ___ o padeiro vai para o trabalho? | ___ a garçonete usa um cachecol? | ___ o padeiro vai de bicicleta para o trabalho? | ___ o cozinheiro mexe com uma colher? | ___ usa uma capa de chuva porque está chovendo? | ___ a garçonete usa porque está frio? | ___ o jardineiro planta tulipas?",
+          "l4": "Quem assa pão? | O que o cozinheiro faz? | Onde o gato dorme? | Quando a coruja caça? | Quem vende as flores? | Onde os peixes nadam? | O que o fazendeiro colhe? | Onde está o caminhão?",
+          "l5": "7 boards"
+        },
+        "fr": {
+          "l1": "___ prépare les crêpes ? | ___ la serveuse boit ? | ___ le fermier cueille-t-il des pommes ? | ___ le cuisinier prépare ? | ___ la serveuse boit-elle le lait ? | ___ cueille les pommes ? | ___ le cuisinier prépare-t-il les crêpes ? | ___ boit le lait ? | ___ le fermier cueille ? | ___ lave le camion ? | ___ le pompier lave ? | ___ le pompier lave-t-il le camion ?",
+          "l2": "___ le boulanger fait-il du pain ? | ___ fait du pain le matin ? | ___ le cuisinier lave-t-il les casseroles ? | ___ le cuisinier lave-t-il les casseroles la nuit ? | ___ le cuisinier lave la nuit ? | ___ le pompier boit-il du lait ? | ___ boit du lait le matin ? | ___ le fermier porte-t-il une écharpe ?",
+          "l3": "___ le fermier porte-t-il un imperméable ? | ___ le cuisinier remue-t-il la soupe ? | ___ le boulanger va-t-il au travail ? | ___ la serveuse porte-t-elle une écharpe ? | ___ le boulanger va-t-il au travail à vélo ? | ___ le cuisinier remue avec une cuillère ? | ___ porte un imperméable parce qu’il pleut ? | ___ la serveuse porte parce qu’il fait froid ? | ___ le jardinier plante-t-il des tulipes ?",
+          "l4": "Qui fait du pain ? | Qu’est-ce que le cuisinier prépare ? | Où le chat dort-il ? | Quand la chouette chasse-t-elle ? | Qui vend les fleurs ? | Où les poissons nagent-ils ? | Qu’est-ce que le fermier cueille ? | Où est le camion ?",
+          "l5": "7 boards"
+        },
+        "fi": {
+          "l1": "___ paistaa lettuja? | ___ tarjoilija juo pöydän ääressä? | ___ maanviljelijä poimii omenoita? | ___ kokki paistaa? | ___ tarjoilija juo maitoa? | ___ poimii omenoita? | ___ kokki paistaa lettuja? | ___ juo maitoa pöydän ääressä? | ___ maanviljelijä poimii? | ___ pesee kuorma-auton? | ___ palomies pesee? | ___ palomies pesee kuorma-auton?",
+          "l2": "___ leipuri leipoo leipää? | ___ leipoo aamulla leipää? | ___ kokki pesee kattilat? | ___ kokki pesee kattilat yöllä? | ___ kokki pesee yöllä? | ___ palomies juo maitoa? | ___ juo aamulla maitoa? | ___ maanviljelijällä on kaulahuivi?",
+          "l3": "___ maanviljelijä pitää sadetakkia? | ___ kokki hämmentää keittoa? | ___ leipuri menee töihin? | ___ tarjoilijalla on kaulahuivi? | ___ leipuri menee pyörällä töihin? | ___ kokki hämmentää lusikalla? | ___ pitää sadetakkia, koska sataa? | ___ tarjoilijalla on, koska on kylmä? | ___ puutarhuri istuttaa tulppaaneja?",
+          "l4": "Kuka leipoo leipää? | Mitä kokki paistaa? | Missä kissa nukkuu? | Milloin pöllö saalistaa? | Kuka myy kukkia? | Missä kalat uivat? | Mitä maanviljelijä poimii? | Missä kuorma-auto on?",
+          "l5": "7 boards"
+        }
       }
     },
     "theme": null,
-    "slug": { "en": "wren-question-window", "de": "fragewoerter-ueben-wer-was-wo-wann-klasse-1", "fr": "les-mots-interrogatifs-qui-que-ou-quand-ce1", "es": "palabras-interrogativas-que-quien-donde-cuando-1-primaria", "pt": "palavras-interrogativas-o-que-quem-onde-quando-1-ano", "it": "parole-interrogative-chi-cosa-dove-quando-classe-prima", "nl": "vraagwoorden-oefenen-wie-wat-waar-groep-3" },
-    "page_title": { "en": "Wren's Question Window — Ask the Right Word (Kindergarten)", "de": "Wrens Fragefenster: W-Fragen üben – Fragewörter, Klasse 1", "fr": "Wren au guichet des questions : les mots interrogatifs (CE1)", "es": "Wren y la ventanilla: palabras interrogativas (1.º primaria)", "pt": "Wren e a janelinha: palavras interrogativas (1º ano)", "it": "Wren e la finestrella: parole interrogative (classe prima)", "nl": "Wrens vragenraam — vraagwoorden oefenen: wie, wat, waar (groep 3)" },
-    "page_intro": { "en": "Wren takes orders at the diner window, and every order starts with a good question. Read each question, then tap the question word that fills the blank — who, what, where, when, why, or how — so Wren can ask it just right. A warm Kindergarten language game about understanding and using question words, aligned to Common Core L.K.1.d.", "de": "Hilf dem Vögelchen Wren am Bestellfenster: Lies die Frage, tippe das richtige Fragewort – wer, was, wo oder wann? W-Fragen üben für Klasse 1, interaktiv.", "fr": "Avec Wren l’oiseau à son guichet, lis la question et touche le bon mot interrogatif — qui, que, où, quand, pourquoi ou comment. Une activité de grammaire CE1, interactive.", "es": "Wren atiende su ventanilla de comida y cada cliente llega con una pregunta a la que le falta una palabra. Ayuda a este pajarito a completar cada pregunta con la palabra interrogativa correcta —qué, quién, dónde, cuándo, por qué o cómo—. Actividad interactiva para 1.º de primaria, alineada a los Planes y programas de estudio (SEP).", "pt": "Na janelinha da lanchonete do Wren, cada pedido chega com uma pergunta faltando a primeira palavra. A criança lê a pergunta e escolhe entre seis palavras interrogativas — O que, Quem, Onde, Quando, Por que e Como — tocando naquela que completa a frase, ao longo de 8 rodadas. É uma atividade interativa, feita para o 1º ano, que roda direto no navegador, sem cadastro, sem cronômetro e sem pontuação. Está alinhada à BNCC e transforma o começo de cada pergunta numa brincadeira de descobrir o que ela quer saber.", "it": "Wren è un uccellino che prende le ordinazioni alla finestrella della sua tavola calda. C'è solo un problema: a ogni domanda dei clienti manca la prima parola! Il bambino aiuta Wren scegliendo la parola interrogativa giusta — Chi, Cosa, Dove, Quando, Perché, Come — per completare la domanda. Senza registrazione e senza punteggi, e funziona direttamente nel browser. Un'attività pensata per la classe prima e allineata alle Indicazioni nazionali.", "nl": "Bij Wrens vragenraam neemt Wren het vogeltje bestellingen op — maar elke bestelling is een vraag waarvan het eerste woord weg is. Jij leest de vraag en tikt het juiste vraagwoord in de lege plek: wie, wat, waar, wanneer, waarom of hoe. Een interactief taalspel voor groep 3, dat spelenderwijs aansluit bij de SLO-kerndoelen Nederlands." },
+    "slug": {
+      "en": "wren-question-window",
+      "de": "fragewoerter-ueben-wer-was-wo-wann-klasse-1",
+      "fr": "les-mots-interrogatifs-qui-que-ou-quand-ce1",
+      "es": "palabras-interrogativas-que-quien-donde-cuando-1-primaria",
+      "pt": "palavras-interrogativas-o-que-quem-onde-quando-1-ano",
+      "it": "parole-interrogative-chi-cosa-dove-quando-classe-prima",
+      "nl": "vraagwoorden-oefenen-wie-wat-waar-groep-3",
+      "sv": "wrens-fragefonster-fragord",
+      "da": "wrens-sporgsmalsvindue-sporgeord",
+      "no": "wrens-sporsmalsvindu-sporreord",
+      "fi": "wrenin-kysymysikkuna-kysymyssanat"
+    },
+    "page_title": {
+      "en": "Wren's Question Window — Ask the Right Word (Kindergarten)",
+      "de": "Wrens Fragefenster: W-Fragen üben – Fragewörter, Klasse 1",
+      "fr": "Wren au guichet des questions : les mots interrogatifs (CE1)",
+      "es": "Wren y la ventanilla: palabras interrogativas (1.º primaria)",
+      "pt": "Wren e a janelinha: palavras interrogativas (1º ano)",
+      "it": "Wren e la finestrella: parole interrogative (classe prima)",
+      "nl": "Wrens vragenraam — vraagwoorden oefenen: wie, wat, waar (groep 3)",
+      "sv": "Wrens frågefönster – frågeord: vem, vad, var, när (åk 1)",
+      "da": "Wrens spørgsmålsvindue – spørgeord: hvem, hvad, hvor, hvornår (1. klasse)",
+      "no": "Wrens spørsmålsvindu – spørreord: hvem, hva, hvor, når (1. trinn)",
+      "fi": "Wrenin kysymysikkuna – kysymyssanat kuka, mitä, missä, milloin (1. luokka)"
+    },
+    "page_intro": {
+      "en": "Wren takes orders at the diner window, and every order starts with a good question. Read each question, then tap the question word that fills the blank — who, what, where, when, why, or how — so Wren can ask it just right. A warm Kindergarten language game about understanding and using question words, aligned to Common Core L.K.1.d.",
+      "de": "Hilf dem Vögelchen Wren am Bestellfenster: Lies die Frage, tippe das richtige Fragewort – wer, was, wo oder wann? W-Fragen üben für Klasse 1, interaktiv.",
+      "fr": "Avec Wren l’oiseau à son guichet, lis la question et touche le bon mot interrogatif — qui, que, où, quand, pourquoi ou comment. Une activité de grammaire CE1, interactive.",
+      "es": "Wren atiende su ventanilla de comida y cada cliente llega con una pregunta a la que le falta una palabra. Ayuda a este pajarito a completar cada pregunta con la palabra interrogativa correcta —qué, quién, dónde, cuándo, por qué o cómo—. Actividad interactiva para 1.º de primaria, alineada a los Planes y programas de estudio (SEP).",
+      "pt": "Na janelinha da lanchonete do Wren, cada pedido chega com uma pergunta faltando a primeira palavra. A criança lê a pergunta e escolhe entre seis palavras interrogativas — O que, Quem, Onde, Quando, Por que e Como — tocando naquela que completa a frase, ao longo de 8 rodadas. É uma atividade interativa, feita para o 1º ano, que roda direto no navegador, sem cadastro, sem cronômetro e sem pontuação. Está alinhada à BNCC e transforma o começo de cada pergunta numa brincadeira de descobrir o que ela quer saber.",
+      "it": "Wren è un uccellino che prende le ordinazioni alla finestrella della sua tavola calda. C'è solo un problema: a ogni domanda dei clienti manca la prima parola! Il bambino aiuta Wren scegliendo la parola interrogativa giusta — Chi, Cosa, Dove, Quando, Perché, Come — per completare la domanda. Senza registrazione e senza punteggi, e funziona direttamente nel browser. Un'attività pensata per la classe prima e allineata alle Indicazioni nazionali.",
+      "nl": "Bij Wrens vragenraam neemt Wren het vogeltje bestellingen op — maar elke bestelling is een vraag waarvan het eerste woord weg is. Jij leest de vraag en tikt het juiste vraagwoord in de lege plek: wie, wat, waar, wanneer, waarom of hoe. Een interactief taalspel voor groep 3, dat spelenderwijs aansluit bij de SLO-kerndoelen Nederlands.",
+      "sv": "Vid Wrens fönster hänger en lampa över svaret. Barnet sätter ett frågeord i luckan, och lampan svänger fram till den del av svaret som ordet frågar efter: vem lyser på en person, var på en plats, när på en tid. Rätt ord får den gyllene delen att lysa. Det finns också övningar där man parar ihop och sorterar. För åk 1, i linje med Lgr22.",
+      "da": "Ved Wrens vindue hænger en lampe over svaret. Barnet sætter et spørgeord i hullet, og lampen svinger hen til den del af svaret, ordet spørger om: hvem lyser på en person, hvor på et sted, hvornår på en tid. Det rigtige ord får den gyldne del til at lyse. Der er også øvelser, hvor man parrer og sorterer. Til 1. klasse, i tråd med Fælles Mål.",
+      "no": "Ved vinduet til Wren henger en lampe over svaret. Barnet setter et spørreord i hullet, og lampen svinger bort til den delen av svaret ordet spør om: hvem lyser på en person, hvor på et sted, når på en tid. Riktig ord får den gylne delen til å lyse. Det finnes også øvelser der man kobler sammen og sorterer. For 1. trinn, i tråd med LK20.",
+      "fi": "Wrenin ikkunan yllä roikkuu lamppu vastauksen kohdalla. Lapsi laittaa kysymyssanan aukkoon, ja lamppu heilahtaa sen vastauksen osan kohdalle, jota sana kysyy: kuka valaisee henkilön, missä paikan, milloin ajan. Oikea sana saa kultaisen osan loistamaan. Mukana myös yhdistäminen ja lajittelu. 1. luokalle, opetussuunnitelman mukaisesti."
+    },
     "kid_prompt_template": "wren-question-window"
   }
 ]

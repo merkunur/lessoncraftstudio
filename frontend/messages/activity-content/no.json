@@ -2441,6 +2441,29 @@
         "Barnet velger riktig flertallsendelse",
         "Barnet lager entall ved å ta av endelsen"
       ]
+    },
+    "wren-question-window.question-words.l-k-1-d": {
+      "about": [
+        "Hvert spørreord er en lampe som lyser på én sort svar: hvem på en person, hva på en ting, hvor på et sted, når på en tid, hvorfor på en grunn og hvordan på måten. Ved vinduet til Wren står svaret som bildekort under en lampeskinne, og ett kort har en gyllen ramme.",
+        "Barnet setter et spørreord i hullet og trykker på «Sjekk». Messinglampen glir bortover skinnen og lyser på kortet ordet spør om: på det gylne kortet når ordet er riktig, på et annet kort (eller på ingenting) når det ikke er det. Hver runde har nøyaktig ett riktig ord. Etter et riktig svar besøker lampen hvert bildekort etter tur, hver gang med spørreordet som spør om det.",
+        "Fem grupper: hvem, hva og hvor; med når; med hvorfor og hvordan; å koble et spørsmål til svaret; og å sortere svar under tre lamper. Under «Svar» kan barnet også skrive spørreordet selv. I tråd med LK20, uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Å vite hva hvert spørreord spør om",
+        "Å velge hvem for en person og hva for en ting",
+        "Å skille mellom hvor (et sted) og når (en tid)",
+        "Å velge hvorfor for en grunn og hvordan for måten"
+      ],
+      "howToPlay": [
+        "Se på det gylne kortet. Trykk på spørreordet som spør om det, og trykk så på «Sjekk».",
+        "Se hvor lampen lyser. Lyser den på et annet kort, spør ordet om noe annet.",
+        "Under «Spørreord» velger du en gruppe som «Med når» eller «Sorter», og under «Svar» kan du velge «Skriv selv»."
+      ],
+      "learningGoals": [
+        "Barnet vet at hvert spørreord spør om én sort svar",
+        "Barnet velger spørreordet som passer til et svar",
+        "Barnet sorterer svar etter spørsmålet de svarer på"
+      ]
     }
   }
 }

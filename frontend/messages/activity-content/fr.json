@@ -732,25 +732,25 @@
     },
     "wren-question-window.question-words.l-k-1-d": {
       "about": [
-        "Au guichet de son petit restaurant, Wren, un petit oiseau, prend les commandes — mais il manque toujours un mot au début de sa question ! Votre enfant lit une question à trou, par exemple « ___ veux-tu manger ? », puis touche le bon mot interrogatif parmi six : Qui, Que, Où, Quand, Pourquoi, Comment. Ici, la réponse est « Que ». L'activité se joue directement dans le navigateur, sans rien installer.",
-        "L'idée est simple : chaque mot interrogatif demande quelque chose de précis. « Qui » interroge sur une personne, « Que » sur une chose, « Où » sur un lieu, « Quand » sur un moment, « Pourquoi » sur une raison et « Comment » sur une manière. En lisant bien la question posée au guichet, votre enfant repère ce qui manque et trouve le mot qui convient — celui qui commence la phrase et lui donne tout son sens.",
-        "Tout se fait sans pression : sans chrono, sans points et sans compétition. Votre enfant lit et réfléchit à son rythme, essaie et recommence autant qu'il le souhaite. L'activité est alignée sur « les programmes officiels » et travaille la grammaire, l'étude de la langue, à l'école élémentaire — un premier pas pour reconnaître la phrase interrogative et le mot qui la commence."
+        "Chaque mot interrogatif est une lampe qui éclaire une seule sorte de réponse : qui une personne, qu’est-ce que une chose, où un lieu, quand un moment, pourquoi une raison et comment la manière. Au guichet de Wren, la réponse est posée sous un rail de lampe, en cartes illustrées, et une carte porte un cadre doré.",
+        "L’enfant met un mot interrogatif dans le trou et appuie sur « Vérifier ». La lampe en laiton glisse le long de son rail et éclaire la carte sur laquelle ce mot pose la question : la carte dorée si le mot est juste, une autre carte (ou rien du tout) sinon. Chaque manche a un seul bon mot. Après une bonne réponse, la lampe passe sur chaque carte illustrée, chacune avec le mot interrogatif qui pose la question sur elle.",
+        "Cinq séries : qui, qu’est-ce que et où ; avec quand ; avec pourquoi et comment ; associer une question à sa réponse ; et trier des réponses sous trois lampes. Dans « Réponse », l’enfant peut aussi écrire le mot lui-même. En lien avec les programmes officiels, sans chronomètre et sans points."
       ],
       "practices": [
-        "Reconnaître les mots interrogatifs : qui, que, où, quand, pourquoi, comment",
-        "Comprendre que chaque mot interrogatif demande quelque chose de précis",
-        "Lire attentivement une question pour trouver le mot qui convient",
-        "Reconnaître la phrase interrogative"
+        "Savoir ce que demande chaque mot interrogatif",
+        "Choisir qui pour une personne et qu’est-ce que pour une chose",
+        "Distinguer où (un lieu) et quand (un moment)",
+        "Choisir pourquoi pour une raison et comment pour la manière"
       ],
       "howToPlay": [
-        "Lis la question au guichet de Wren",
-        "Cherche le petit mot qui manque au début",
-        "Touche le bon mot interrogatif"
+        "Regarde la carte dorée. Touche le mot interrogatif qui pose la question sur elle, puis appuie sur « Vérifier ».",
+        "Regarde où la lampe éclaire. Si elle éclaire une autre carte, ce mot demande autre chose.",
+        "Dans « Mots interrogatifs », choisis une série comme « Avec quand » ou « Trie », et dans « Réponse », choisis « Écris-le »."
       ],
       "learningGoals": [
-        "Votre enfant choisit le mot interrogatif qui convient à une question",
-        "Votre enfant sait que chaque mot interrogatif demande une personne, une chose, un lieu, un moment, une raison ou une manière",
-        "Votre enfant reconnaît une phrase interrogative"
+        "L’enfant sait que chaque mot interrogatif demande une sorte de réponse",
+        "L’enfant choisit le mot interrogatif qui va avec une réponse",
+        "L’enfant trie des réponses selon la question à laquelle elles répondent"
       ]
     },
     "wordclass.adjective-adverb.l-2-1-e": {

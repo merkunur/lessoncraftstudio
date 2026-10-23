@@ -93,7 +93,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 83 | LIVE 2026-10-23 · The Merging Drops | 1 | 1.OA.A.2 | `numberbond.add-three.1-oa-a-2` | number-bond-activity | Add Three Numbers — Three-Part Number Bond (Grade 1) |
 | 84 | LIVE 2026-10-23 · The Turning Domino | 1 | 1.OA.B.4 | `numberbond.subtraction-unknown-addend.1-oa-b-4` | number-bond-activity | Find the Missing Part — Subtraction as a Number Bond (Grade 1) |
 | 85 | LIVE 2026-10-23 · The Ten Plug | 1 | 1.OA.C.6 | `numberbond.make-ten-to-add.1-oa-c-6` | number-bond-activity | Make a Ten to Add — Addition Within 20 (Grade 1) |
-| 86 |  | 1 | 1.OA.C.6 | `ten-stones.add-sub-within-20.1-oa-c-6` | ten-stones-activity | Lily's Ten Stones — Make a Ten to Add & Subtract |
+| 86 | LIVE 2026-10-23 · The Sunken Stones | 1 | 1.OA.C.6 | `ten-stones.add-sub-within-20.1-oa-c-6` | ten-stones-activity | Lily's Ten Stones — Make a Ten to Add & Subtract |
 | 87 |  | 1 | 1.OA.D.7 | `match-pairs.addition-and-subtraction-pairs.1-oa-d-7` | match-pairs-activity | Addition & Subtraction Pairs |
 | 88 |  | 1 | 1.OA.D.7 | `numbers-court.judge-balance.1-oa-d-7` | numbers-court-activity | Numbers Court — Is the Equation Fair? (Grade 1) |
 | 89 |  | 1 | 1.OA.D.8 | `fix-it-corner.missing-part.1-oa-d-8` | fix-it-corner-activity | Fixit's Fix-It Corner — Find the Missing Number (Grade 1) |

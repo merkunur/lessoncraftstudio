@@ -239,6 +239,10 @@ function seedScript(row) {
     // 8 + 3: the 8 already poured under the checked cloth (its number on the tag), one car posted, two waiting — the covered first part that forces counting on, the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.task='total';t.api.settings.coat='pictures';t._pool=null;t._ensurePool();t._start(4);var C=window.BondBasketCore,s=t.st;C.pour(s,'L');C.post(s);t._view={};t._render2();})()`;
   }
+  if (row.tool === 'sunken-stones-activity') {
+    // 8 + 6: Lily on 8 pulled back two beads, the aim ring on the golden Ten Stone, the stones past ten still under water — the invention at work
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.facts='both';t.api.settings.labels='five';t._pool=null;t._ensurePool();t._start(0);t._coil=2;t._view={};t._render2();})()`;
+  }
   if (row.tool === 'ten-plug-activity') {
     // 8 + 5: the stick snapped 2 | 3, the 2 plugged into the ten-rack's hole — the rack gold, the 3 waiting beside the golden ten on the shelves — the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.level='add';t.api.settings.mode='snap';t._pool=null;t._ensurePool();t._start(0);var C=window.TenPlugCore,s=t.st;var two=C.snap(s,s.pieces[0].id,2);C.plug(s,two[0].id);t._view={};t._render2();})()`;

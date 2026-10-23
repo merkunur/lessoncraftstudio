@@ -2584,6 +2584,31 @@
         "Mallintaa sanallinen tehtävä ja kirjoittaa laskutoimitus, jossa on tuntematon",
         "Ratkaista yhtä suurten ryhmien ja jakamisen tehtäviä"
       ]
+    },
+    "ten-stones.add-sub-within-20.1-oa-c-6": {
+      "about": [
+        "Sammakko Lily ylittää lammen lukusuoralla 0–20. Lisättävä tai vähennettävä luku roikkuu lammen yllä helminaruna. Lapsi vetää Lilyä taaksepäin kuin ritsalla, yksi helmi kiveä kohti, ja päästää irti, tai napauttaa kiveä hänen edessään. Jokainen hyppy käyttää yhtä monta helmeä kuin siinä on kiviä.",
+        "Kympin toisella puolella olevat kivet ovat veden alla, kunnes Lily seisoo kultaisella kymppikivellä. Kympin yli menevä hyppy päätyy veteen ja Lily ui takaisin; se ei koskaan ole virhe. Kympin ylityksessä 8 + 6 muuttuu ensin muotoon 8 + 2 kymppikivelle ja sitten jäljelle jääneet 4 helmeä. Jokainen hyppy kirjoittuu laskunauhaan, ja lapsi kirjoittaa sen kiven luvun, jolle Lily laskeutuu.",
+        "Joillakin kierroksilla vähennetään (13 − 4 on 13 − 3 − 1), joillakin lapsi valitsee helpomman lähtökohdan (3 + 8 tai 8 + 3), ja rantakierroksilla kysytään, kuinka pitkä matka on rantaan luvun 20 kohdalla. Ensimmäisen virheen jälkeen kymppikiven ja Lilyn väliset kivet lasketaan, toisen jälkeen hänen hyppynsä näkyvät kaarina pituuksineen. Sopii opetussuunnitelman sisältöalueeseen Luvut ja laskutoimitukset. Ilman ajanottoa ja ilman pisteytystä."
+      ],
+      "practices": [
+        "Yhteenlasku 20:een asti pysähtyen kymppiin: 8 + 6 = 8 + 2 + 4",
+        "Vähennyslasku 20:een asti palaten kymppiin: 13 − 4 = 13 − 3 − 1",
+        "Helpomman lähtökohdan valitseminen: 3 + 8 on sama kuin 8 + 3",
+        "Luvun 20 lukuparien löytäminen"
+      ],
+      "howToPlay": [
+        "Vedä Lilyä taaksepäin, poispäin suunnasta, johon hänen pitää mennä, ja päästä irti: hän hyppää yhden kiven jokaista jousen helmeä kohti. Voit myös napauttaa kiveä hänen edessään.",
+        "Jos hän molskahtaa veteen, se kivi oli veden alla: hyppää ensin kymppikivelle. Pyöreä nuoli peruu hypyn. Rantakierroksilla molskahdus kaislikkoon tarkoittaa, että hyppy oli liian pitkä.",
+        "Kun naru on tyhjä, kirjoita sen kiven luku, jolla Lily on, ja paina Tarkista-painiketta. Rantakierroksilla kirjoitat, kuinka pitkälle hän hyppäsi yhteensä.",
+        "Asetuksista valitset laskut (Yhteenlasku tai Yhteen- ja vähennyslasku) ja kivien luvut (Joka viides tai Jokainen kivi). Jokainen kivi on helpompi asetus: luvut voi lukea suoraan."
+      ],
+      "learningGoals": [
+        "Laskea yhteen 20:een asti kympin kautta",
+        "Vähentää 20:een asti kympin kautta",
+        "Käyttää yhteen- ja vähennyslaskun yhteyttä",
+        "Tuntea luvun 20 lukuparit"
+      ]
     }
   }
 }

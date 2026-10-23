@@ -1371,25 +1371,27 @@
     },
     "ten-stones.add-sub-within-20.1-oa-c-6": {
       "about": [
-        "Lily è una piccola rana che attraversa lo stagno saltando di sasso in sasso lungo la linea dei numeri, e ogni volta si ferma sul sasso dorato del dieci per riprendere fiato prima di proseguire.",
-        "Il cuore dell'attività è il passaggio della decina: invece di contare a uno a uno, il bambino impara a fare tappa sul dieci e poi ad aggiungere o togliere quel che resta, così i calcoli entro il 20 diventano rapidi e sicuri.",
-        "Pensata per la classe seconda e allineata alle Indicazioni nazionali (nucleo Numeri), unisce addizioni e sottrazioni entro il 20 in un'unica strategia, con un tono caldo, senza punteggi e senza tempo che scorre."
+        "La rana Lily attraversa uno stagno su una linea dei numeri da 0 a 20. Il numero da aggiungere o togliere pende sopra lo stagno come una cordicella di perline. Il bambino tira indietro Lily come una fionda, una perlina per sasso, e la lascia andare, oppure tocca un sasso davanti a lei. Ogni salto usa tante perline quanti sassi percorre.",
+        "I sassi dall’altra parte del dieci sono sott’acqua finché Lily non sta sul sasso d’oro del dieci. Un salto che supera il dieci finisce in acqua e Lily torna a nuoto; non conta mai come errore. Così 8 + 6 diventa prima 8 + 2 fino al sasso del dieci e poi le 4 perline che restano. La striscia dell’operazione scrive ogni salto, e il bambino scrive il sasso dove atterra Lily.",
+        "In alcuni turni si toglie (13 − 4 è 13 − 3 − 1), in altri il bambino sceglie la partenza più facile (3 + 8 o 8 + 3), e nei turni della riva si chiede quanto manca alla riva del 20. Dopo il primo errore si contano i sassi tra il sasso del dieci e Lily; dopo il secondo i suoi salti compaiono come archi con la loro lunghezza. In linea con le Indicazioni nazionali per i numeri. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Per sommare, Lily arriva prima al dieci: in 8 + 6 fa tappa sul sasso del dieci (8 + 2), poi compie gli ultimi 4 passi e raggiunge il 14.",
-        "Per sottrarre, il percorso si fa a ritroso passando ancora per il dieci: da 15 − 7 si torna prima al sasso del dieci (15 − 5), poi si tolgono gli ultimi 2 e si arriva all'8.",
-        "Il bambino richiama gli amici del 10 — le coppie che insieme fanno dieci — e li usa per spezzare ogni numero nel modo giusto e costruire da sé il passaggio.",
-        "Ogni salto si vede sulla linea dei numeri da 0 a 20, così la strategia astratta diventa un movimento concreto e facile da seguire con lo sguardo."
+        "Addizionare entro il 20 fermandosi al dieci: 8 + 6 = 8 + 2 + 4",
+        "Sottrarre entro il 20 tornando al dieci: 13 − 4 = 13 − 3 − 1",
+        "Scegliere la partenza più facile: 3 + 8 è come 8 + 3",
+        "Trovare le coppie che fanno 20"
       ],
       "howToPlay": [
-        "Guarda il calcolo proposto e aiuta Lily a partire dal numero giusto sulla linea dei numeri.",
-        "Fai fare a Lily la prima tappa fino al sasso dorato del dieci, scegliendo l'amico del 10 che serve, poi completa i passi che restano per raggiungere il risultato.",
-        "Non c'è fretta né orologio: si può riprovare con calma e passare a un nuovo calcolo, tra addizioni e sottrazioni entro il 20."
+        "Tira indietro Lily, nella direzione opposta a quella in cui deve andare, e lasciala andare: salta un sasso per ogni perlina sulla molla. Puoi anche toccare un sasso davanti a lei.",
+        "Se finisce in acqua, quel sasso era sott’acqua: salta prima sul sasso del dieci. La freccia rotonda annulla un salto. Nei turni della riva, finire tra le canne vuol dire che il salto era troppo lungo.",
+        "Quando la cordicella è vuota, scrivi il sasso dove si trova Lily e tocca la spunta. Nei turni della riva scrivi quanto ha saltato in tutto.",
+        "Nelle impostazioni scegli le operazioni (Addizioni, o Addizioni e sottrazioni) e i numeri dei sassi (Ogni 5 o Ogni sasso). Ogni sasso è l’impostazione più facile: i numeri si leggono."
       ],
       "learningGoals": [
-        "Padroneggiare il calcolo entro il 20 con il passaggio della decina, sia nell'addizione sia nella sottrazione.",
-        "Conoscere e usare con sicurezza gli amici del 10 per scomporre i numeri e appoggiarsi al dieci come punto di riferimento.",
-        "Rafforzare il senso del numero muovendosi sulla linea dei numeri e ragionando con materiali manipolabili, come indicato dalle Indicazioni nazionali per la classe seconda."
+        "Addizionare entro il 20 completando la decina",
+        "Sottrarre entro il 20 passando per la decina",
+        "Usare il legame tra addizione e sottrazione",
+        "Conoscere le coppie che fanno 20"
       ]
     },
     "numbers-court.judge-balance.1-oa-d-7": {

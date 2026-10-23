@@ -1214,25 +1214,27 @@
     },
     "ten-stones.add-sub-within-20.1-oa-c-6": {
       "about": [
-        "Lily, der kleine Frosch, springt über den Zahlenstrahl von 0 bis 20 — und an der 10 wartet ein goldener Stein. Statt jede Zahl einzeln abzuhüpfen, nutzt Lily eine clevere Rechenstrategie: Sie springt zuerst genau bis zum goldenen Zehner und von dort aus weiter. Aus 8 + 6 wird so 8 + 2 = 10 und dann 10 + 4 = 14. Kinder erleben den Zehnerübergang nicht als Regel zum Auswendiglernen, sondern als zwei sichtbare Sprünge auf dem Zahlenstrahl.",
-        "Diese Aktivität übt das schrittweise Rechnen über den Zehner — den zentralen Lerninhalt im Zahlenraum bis 20 nach dem Lehrplan der Grundschule. Die Kinder machen zuerst „den Zehner voll“ (8 und 2 sind Zehnerfreunde), rasten am goldenen Zehner und rechnen den Rest. Auch der umgekehrte Weg gehört dazu: Beim Subtrahieren springt Lily wieder bis zur 10 zurück, etwa bei 13 − 4 erst 13 − 3 = 10 und dann 10 − 1 = 9. Nebenbei begegnen den Kindern Tauschaufgaben (mit der größeren Zahl beginnen), Nachbaraufgaben (7 + 8 ist fast 7 + 7) und Umkehraufgaben (aus 8 + 6 = 14 wird 14 − 6 = 8).",
-        "„Lilys Zehner-Steine“ ist ein interaktives Angebot für Klasse 1 — ohne Zeitdruck, ohne Punkte, ohne Wettlauf. Es geht nicht um Tempo, sondern um eine tragfähige Rechenstrategie: Wer den Weg über den Zehner versteht, rechnet im gesamten Zahlenraum sicherer. Die Kinder dürfen ausprobieren, noch einmal springen und in Ruhe nachdenken — genau so, wie der Zehnerübergang im Unterricht aufgebaut wird."
+        "Der Frosch Lily überquert einen Teich auf einem Zahlenstrahl von 0 bis 20. Die Zahl, die dazukommt oder weggeht, hängt als Perlenschnur über dem Teich. Das Kind zieht Lily wie eine Schleuder zurück, eine Perle pro Stein, und lässt los, oder es tippt auf einen Stein vor ihr. Jeder Sprung verbraucht so viele Perlen, wie er Steine weit ist.",
+        "Die Steine auf der anderen Seite der Zehn liegen unter Wasser, bis Lily auf dem goldenen Zehnerstein sitzt. Ein Sprung über die Zehn hinweg landet im Wasser, und Lily schwimmt zurück. Das zählt nie als Fehler. So wird aus 8 + 6 beim Zehnerübergang erst 8 + 2 bis zum Zehnerstein und dann die 4 Perlen, die übrig sind. Die Rechenzeile schreibt jeden Sprung mit, und das Kind tippt den Stein ein, auf dem Lily landet.",
+        "In manchen Runden wird abgezogen (13 − 4 ist 13 − 3 − 1), in manchen wählt das Kind den leichteren Start (3 + 8 oder 8 + 3), und in Uferrunden geht es darum, wie weit es bis zum Ufer bei 20 ist. Nach dem ersten Fehlversuch werden die Steine zwischen dem Zehnerstein und Lily gezählt, nach dem zweiten erscheinen ihre Sprünge als Bögen mit ihrer Länge. Passend zum Lehrplan im Bereich Zahlen und Operationen. Ohne Zeitdruck und ohne Punktwertung."
       ],
       "practices": [
-        "Den Zehner voll machen: bis zur 10 ergänzen und den passenden Zehnerfreund finden (8 + 2, 7 + 3, 9 + 1)",
-        "Schrittweise über den Zehner rechnen: zuerst zur 10 springen, dann den Rest addieren — und beim Subtrahieren wieder zur 10 zurück",
-        "Geschickt rechnen mit Tausch-, Nachbar- und Umkehraufgaben: mit der größeren Zahl beginnen, aus Verdopplungen ableiten und Plus- und Minusaufgaben als Aufgabenfamilie erkennen",
-        "Erkennen, wann ein Zehnerübergang nötig ist: entscheiden, ob eine Aufgabe über die 10 hinausführt — und ob Lily den goldenen Zehner überhaupt braucht"
+        "Bis 20 addieren mit einem Halt bei der Zehn: 8 + 6 = 8 + 2 + 4",
+        "Bis 20 subtrahieren über die Zehn zurück: 13 − 4 = 13 − 3 − 1",
+        "Den leichteren Start wählen: 3 + 8 ist dasselbe wie 8 + 3",
+        "Zahlenpaare finden, die zusammen 20 ergeben"
       ],
       "howToPlay": [
-        "Lies Lilys Aufgabe und schau auf den Zahlenstrahl von 0 bis 20 — die goldene 10 ist Lilys Rastplatz.",
-        "Hilf Lily Schritt für Schritt: Tippe zuerst den Sprung bis zur 10 an und dann den zweiten Sprung zum Ergebnis (beim Minus geht es bis zur 10 zurück).",
-        "Prüfe deine Lösung. Du kannst so oft springen und ausprobieren, wie du möchtest — ganz ohne Zeit und ohne Punkte."
+        "Zieh Lily nach hinten, weg von der Richtung, in die sie springen soll, und lass los: Sie springt einen Stein pro Perle an der Feder. Du kannst auch auf einen Stein vor ihr tippen.",
+        "Landet sie im Wasser, lag der Stein unter Wasser: Spring zuerst auf den Zehnerstein. Der runde Pfeil nimmt einen Sprung zurück. In Uferrunden heißt ein Platsch im Schilf: Der Sprung war zu lang.",
+        "Ist die Schnur leer, tipp den Stein ein, auf dem Lily sitzt, und drück auf den Haken. In Uferrunden tippst du ein, wie weit sie insgesamt gesprungen ist.",
+        "In den Einstellungen wählst du die Aufgaben (Plus, oder Plus und Minus) und die Zahlen an den Steinen (Jede 5. oder Jeder Stein). Jeder Stein ist die leichtere Einstellung: Die Zahlen lassen sich ablesen."
       ],
       "learningGoals": [
-        "Den Zehnerübergang im Zahlenraum bis 20 verstehen und das schrittweise Rechnen über den Zehner als zwei Sprünge am Zahlenstrahl ausführen.",
-        "Zehnerfreunde / Partnerzahlen zur 10 sicher finden und beim Addieren wie beim Subtrahieren über die 10 rechnen.",
-        "Erste Rechenstrategien bewusst nutzen — Tauschaufgabe, Nachbaraufgabe und Umkehraufgabe — und so flexibel und verständnisorientiert statt zählend rechnen."
+        "Bis 20 über den Zehner addieren",
+        "Bis 20 über den Zehner subtrahieren",
+        "Den Zusammenhang von Plus und Minus nutzen",
+        "Die Zahlenpaare zur 20 kennen"
       ]
     },
     "numbers-court.judge-balance.1-oa-d-7": {

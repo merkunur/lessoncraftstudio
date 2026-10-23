@@ -2591,6 +2591,31 @@
         "Å lage en modell av en regnefortelling og skrive et regnestykke med det ukjente",
         "Å løse oppgaver med like store grupper og deling"
       ]
+    },
+    "ten-stones.add-sub-within-20.1-oa-c-6": {
+      "about": [
+        "Frosken Lily krysser en dam på en tallinje fra 0 til 20. Tallet som skal legges til eller trekkes fra, henger over dammen som en snor med perler. Barnet drar Lily bakover som en sprettert, én perle per stein, og slipper, eller trykker på en stein foran henne. Hvert hopp bruker like mange perler som det er steiner langt.",
+        "Steinene på den andre siden av ti ligger under vann til Lily står på den gylne tisteinen. Et hopp over ti havner i vannet, og Lily svømmer tilbake; det teller aldri som en feil. Så 8 + 6 blir først 8 + 2 fram til tisteinen og så de 4 perlene som er igjen. Regnestripen skriver ned hvert hopp, og barnet skriver steinen der Lily lander.",
+        "I noen runder trekker man fra (13 − 4 er 13 − 3 − 1), i noen velger barnet den letteste starten (3 + 8 eller 8 + 3), og i bredderunder handler det om hvor langt det er til bredden ved 20. Etter første feil telles steinene mellom tisteinen og Lily, etter den andre vises hoppene hennes som buer med lengdene sine. I tråd med LK20 om tall og regning. Uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Å legge sammen opp til 20 med et stopp ved ti: 8 + 6 = 8 + 2 + 4",
+        "Å trekke fra opp til 20 ved å gå tilbake til ti: 13 − 4 = 13 − 3 − 1",
+        "Å velge den letteste starten: 3 + 8 er det samme som 8 + 3",
+        "Å finne tallvennene til 20"
+      ],
+      "howToPlay": [
+        "Dra Lily bakover, bort fra dit hun skal, og slipp: Hun hopper én stein for hver perle på fjæren. Du kan også trykke på en stein foran henne.",
+        "Plasker hun i vannet, lå steinen under vann: Hopp til tisteinen først. Den runde pilen tar tilbake et hopp. I bredderunder betyr et plask i sivet at hoppet var for langt.",
+        "Når snoren er tom, skriver du steinen Lily sitter på, og trykker på haken. I bredderunder skriver du hvor langt hun hoppet til sammen.",
+        "I innstillingene velger du regnestykker (Addisjon, eller Addisjon og subtraksjon) og tallene ved steinene (Hver 5. eller Hver stein). Hver stein er den lettere innstillingen: Tallene kan leses av."
+      ],
+      "learningGoals": [
+        "Å legge sammen opp til 20 over tieren",
+        "Å trekke fra opp til 20 over tieren",
+        "Å bruke sammenhengen mellom addisjon og subtraksjon",
+        "Å kunne tallvennene til 20"
+      ]
     }
   }
 }

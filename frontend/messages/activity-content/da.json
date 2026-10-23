@@ -2585,6 +2585,31 @@
         "At lave en model af en regnehistorie og skrive et regnestykke med det ukendte",
         "At løse opgaver med lige store grupper og deling"
       ]
+    },
+    "ten-stones.add-sub-within-20.1-oa-c-6": {
+      "about": [
+        "Frøen Lily krydser en dam på en tallinje fra 0 til 20. Tallet, der skal lægges til eller trækkes fra, hænger over dammen som en snor med perler. Barnet trækker Lily tilbage som en slangebøsse, én perle pr. sten, og giver slip, eller trykker på en sten foran hende. Hvert hop bruger lige så mange perler, som det er sten langt.",
+        "Stenene på den anden side af ti ligger under vand, indtil Lily står på den gyldne tisten. Et hop over ti lander i vandet, og Lily svømmer tilbage; det tæller aldrig som en fejl. Så 8 + 6 bliver først 8 + 2 hen til tistenen og så de 4 perler, der er tilbage. Regnestrimlen skriver hvert hop ned, og barnet skriver den sten, Lily lander på.",
+        "I nogle runder trækker man fra (13 − 4 er 13 − 3 − 1), i andre vælger barnet den letteste start (3 + 8 eller 8 + 3), og i bredrunder handler det om, hvor langt der er til bredden ved 20. Efter første fejl bliver stenene mellem tistenen og Lily talt, efter anden fejl vises hendes hop som buer med deres længde. I tråd med Fælles Mål for tal og algebra. Uden tidtagning og uden point."
+      ],
+      "practices": [
+        "At lægge sammen op til 20 med et stop ved ti: 8 + 6 = 8 + 2 + 4",
+        "At trække fra op til 20 ved at gå tilbage til ti: 13 − 4 = 13 − 3 − 1",
+        "At vælge den letteste start: 3 + 8 er det samme som 8 + 3",
+        "At finde talvennerne til 20"
+      ],
+      "howToPlay": [
+        "Træk Lily tilbage, væk fra der, hvor hun skal hen, og giv slip: Hun hopper én sten for hver perle på fjederen. Du kan også trykke på en sten foran hende.",
+        "Plasker hun i vandet, lå stenen under vand: Hop hen til tistenen først. Den runde pil tager et hop tilbage. I bredrunder betyder et plask i sivet, at hoppet var for langt.",
+        "Når snoren er tom, så skriv den sten, Lily sidder på, og tryk på fluebenet. I bredrunder skriver du, hvor langt hun hoppede i alt.",
+        "I indstillingerne vælger du regnestykkerne (Plus, eller Plus og minus) og tallene ved stenene (Hver 5. eller Hver sten). Hver sten er den lettere indstilling: Tallene kan aflæses."
+      ],
+      "learningGoals": [
+        "At lægge sammen op til 20 over tieren",
+        "At trække fra op til 20 over tieren",
+        "At bruge sammenhængen mellem plus og minus",
+        "At kende talvennerne til 20"
+      ]
     }
   }
 }

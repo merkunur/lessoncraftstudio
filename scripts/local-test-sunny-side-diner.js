@@ -15,6 +15,8 @@
 'use strict';
 const http = require('http');
 const fs = require('fs');
+/* Row 77 rebuild (2026-10-23): the row runs the Magnet Plates (magnet-plates-activity; gates verify-magnet-plates-core.js + local-test-magnet-plates.js) and no page loads the old Sunny-Side Diner files any more. */
+{ const _m = JSON.parse(fs.readFileSync(require('path').join(__dirname, '..', 'mini tools', 'sunny-side-diner-activities.json'), 'utf8')); const _r = (Array.isArray(_m) ? _m : _m.activities).find(a => a.id === 'sunny-side-diner.compound-order.l-k-1-f'); if (_r && _r.tool !== 'sunny-side-diner-activity') { console.log('local-test-sunny-side-diner: the row runs the Magnet Plates — see verify-magnet-plates-core.js / local-test-magnet-plates.js. Nothing to check here.'); process.exit(0); } }
 const path = require('path');
 
 const ACTIVITY = 'sunny-side-diner.compound-order.l-k-1-f';

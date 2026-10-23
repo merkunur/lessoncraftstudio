@@ -4378,6 +4378,29 @@
         "Das Kind schreibt in die richtige Richtung und in der richtigen Reihenfolge",
         "Das Kind schreibt Klein- und Großbuchstaben aus dem Gedächtnis"
       ]
+    },
+    "sunny-side-diner.compound-order.l-k-1-f": {
+      "about": [
+        "Ein ganzer Satz hat einen Anfang, verbundene Teile und ein Ende. In Sunnys Café sind die Teile einer Bestellung Teller auf einer Messingschiene, und die Teller sind Magnete, die sich abstoßen: Nur ein goldenes „und“ hält zwei von ihnen zusammen.",
+        "Zuerst legt das Kind die Bestellung vom Zettel auf das Tablett: das richtige Essen in der richtigen Anzahl. Das Tablett wird zu Tellern auf der Schiene, zwischen dem Anfang „Ich hätte gern“ und der Küchenklappe. Das Kind setzt das goldene „und“ in die Lücke zwischen den Tellern und das Ende „bitte.“ ans Ende der Schiene; erst dann geht die Klappe auf und der Satz leuchtet Wort für Wort auf.",
+        "Vier Arten von Runden: die Bestellung sammeln und sagen; das fehlende „und“; die Bestellung des Roboters verbessern, bei der ein Teller falsch ist; und „Noch etwas!“, wenn ein dritter Teller kommt und das erste „und“ zu einem Komma wird. Mit „Zuhören“ klappt der Zettel nach ein paar Sekunden zu. Passend zum Lehrplan, ohne Zeitdruck und ohne Punkte."
+      ],
+      "practices": [
+        "Eine Bestellung als einen ganzen Satz sagen",
+        "Zwei Satzteile mit „und“ verbinden",
+        "Einem Satz einen Anfang und ein Ende geben",
+        "Einen dritten Teil mit Komma und „und“ anfügen"
+      ],
+      "howToPlay": [
+        "Schau auf den Zettel. Tippe die Kisten an, bis die ganze Bestellung auf dem Tablett liegt, und drück dann auf „Prüfen“.",
+        "Tippe das goldene „und“ an und dann die Lücke zwischen den Tellern. Setz das Ende ans Ende der Schiene und drück auf „Prüfen“.",
+        "Unter „Runden“ wählst du eine andere Art von Runde, unter „Bestellung“ kannst du „Zuhören“ wählen, dann klappt der Zettel zu."
+      ],
+      "learningGoals": [
+        "Das Kind sagt eine Bestellung als ganzen Satz mit Anfang und Ende",
+        "Das Kind verbindet zwei Satzteile mit „und“",
+        "Das Kind erweitert einen Satz um einen dritten Teil mit Komma und „und“"
+      ]
     }
   }
 }

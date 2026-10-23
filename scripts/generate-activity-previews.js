@@ -231,6 +231,10 @@ function seedScript(row) {
     // three peaches climbing the shelf for a ticket of 3: the second plate has opened the word's ending slot, glowing empty — the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.level='l2';t.api.settings.answer='tiles';t._pool=null;var pool=t._ensurePool();var C=window.PlateStackCore,i=pool.filter(function(x){return C.round('en','l2',x).key==='peach';})[0];if(i===undefined)return;var order=[i];for(var k=0;k<pool.length;k++)if(pool[k]!==i)order.push(pool[k]);t._order=order;t._orderForPool=pool;window.LCS_reloadFirstTask();var s=t.st;C.add(s);C.add(s);t._view={};t._paint();})()`;
   }
+  if (row.tool === 'magnet-plates-activity') {
+    // "one more thing!": three plates on the rail, the first golden "and" already turned into a comma, the end cap still on its hook — the invention at work
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.level='l4';t.api.settings.order='show';t._pool=null;t._ensurePool();t._start(0);var C=window.MagnetPlatesCore,s=t.st;s.tray={pancake:2,milk:1};C.check(s);C.lift(s,'and');C.dropAt(s,'joint:0');C.lift(s,'end');C.dropAt(s,'dock');C.check(s);C.lift(s,'and');C.dropAt(s,'joint:1');t._setTask();t._render2();})()`;
+  }
   if (row.tool === 'question-lamp-activity') {
     // "Who" in the gap of a when-question: the lamp has swung onto the chef and lights him, while the gold card is "at night" — the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.level='l2';t.api.settings.answer='keys';t._pool=null;t._ensurePool();t._start(2);t._render2();var k=document.querySelector('.ql-key[data-k="key-who"]');if(k)k.click();var c=document.querySelector('.ql-check');if(c)c.click();})()`;

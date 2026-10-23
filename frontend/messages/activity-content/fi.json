@@ -2456,6 +2456,29 @@
         "Lapsi valitsee vastaukseen sopivan kysymyssanan",
         "Lapsi lajittelee vastaukset sen mukaan, mihin kysymykseen ne vastaavat"
       ]
+    },
+    "sunny-side-diner.compound-order.l-k-1-f": {
+      "about": [
+        "Kokonaisessa lauseessa on alku, toisiinsa liitetyt osat ja loppu. Sunnyn kahvilassa tilauksen osat ovat lautasia messinkikiskolla, ja lautaset ovat magneetteja, jotka työntävät toisiaan pois: vain kultainen ”ja” pitää kaksi niistä yhdessä.",
+        "Ensin lapsi kerää lapun tilauksen tarjottimelle: oikeat ruoat ja kutakin oikea määrä. Tarjottimesta tulee lautasia kiskolle alun ”Saisinko” ja keittiön luukun väliin. Lapsi laittaa kultaisen ”ja”-sanan lautasten väliseen rakoon ja lopun ”kiitos?” kiskon päähän; vasta silloin luukku aukeaa ja lause syttyy sana sanalta.",
+        "Neljänlaisia kierroksia: kerää tilaus ja sano se; puuttuva ”ja”; korjaa robotin tilaus, jossa yksi lautanen on väärä; ja ”vielä yksi asia!”, kun kolmas lautanen tulee ja ensimmäinen ”ja” muuttuu pilkuksi. Kun valitset ”Kuuntele”, lappu taittuu kiinni muutaman sekunnin kuluttua. Opetussuunnitelman mukaisesti, ilman ajanottoa ja ilman pisteitä."
+      ],
+      "practices": [
+        "Tilauksen sanominen yhtenä kokonaisena lauseena",
+        "Lauseen kahden osan yhdistäminen ja-sanalla",
+        "Lauseen alun ja lopun lisääminen",
+        "Kolmannen osan lisääminen pilkun ja ja-sanan avulla"
+      ],
+      "howToPlay": [
+        "Katso lappua. Napauta laatikoita, kunnes koko tilaus on tarjottimella, ja paina sitten ”Tarkista”.",
+        "Napauta kultaista ”ja”-sanaa ja sitten lautasten välistä rakoa. Laita loppu kiskon päähän ja paina ”Tarkista”.",
+        "Kohdasta ”Kierrostyypit” voit valita toisen kierrostyypin, ja kohdasta ”Tilaus” voit valita ”Kuuntele”, jolloin lappu taittuu kiinni."
+      ],
+      "learningGoals": [
+        "Lapsi sanoo tilauksen kokonaisena lauseena, jossa on alku ja loppu",
+        "Lapsi yhdistää lauseen kaksi osaa ja-sanalla",
+        "Lapsi laajentaa lausetta kolmannella osalla pilkun ja ja-sanan avulla"
+      ]
     }
   }
 }

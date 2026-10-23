@@ -4109,23 +4109,25 @@
     },
     "daisy-plate-stack.plurals.l-k-1-c": {
       "about": [
-        "Marguerite la cane sert les commandes du restaurant, et chaque commande porte sur plusieurs choses. Ton enfant lit la phrase — « Je voudrais trois ___. » — puis touche, parmi trois mots, celui qui est au pluriel et bien écrit.",
-        "Former le pluriel des noms, c'est apprendre la marque -s qu'on n'entend pas (un chat, deux chats) et le -x pour les noms en -eau (un gâteau, deux gâteaux) — de l'orthographe du CE1. Le jeu se joue sans minuteur et sans points : l'enfant lit, compare et choisit la bonne marque, dans le domaine « Étude de la langue » des programmes officiels de l'école."
+        "Au comptoir de Daisy, le ticket indique combien il en faut pour la commande. L’enfant touche la pile, et les assiettes se posent sur l’étagère de service, chacune avec la même image ; les clients animaux s’assoient sur des tabourets au comptoir en escalier. Sous l’étagère, le mot est écrit en tuiles de bois. Avec une seule assiette, c’est simplement « tasse ». Dès que la deuxième assiette se pose, la fin du mot s’ouvre : il lui faut maintenant une marque du pluriel, comme s ou x.",
+        "Les marques du pluriel sont de vraies tuiles, jamais des orthographes inventées parmi lesquelles choisir. Les mots dont la fin change, comme cheval et chevaux, n’ont pas de place pour une marque du pluriel : on retourne leur carte. Dans « Retour à un », l’enfant enlève des assiettes jusqu’à n’en garder qu’une, et la marque du pluriel doit s’en aller. Une marque restée avec une seule assiette tremble dans sa place.",
+        "Cinq séries de mots : premiers mots, s ou x, mots qui changent, retour à un et phrases à trou. Dans « Réponse », l’enfant peut aussi écrire la marque du pluriel lui-même. En lien avec les programmes officiels, sans chronomètre et sans points."
       ],
       "practices": [
-        "Former le pluriel des noms",
-        "Écrire la marque -s qu'on n'entend pas",
-        "Mettre -x aux noms en -eau (gâteau, gâteaux)",
-        "Distinguer le singulier du pluriel"
+        "Distinguer un seul et plusieurs",
+        "Ajouter la bonne marque du pluriel : s ou x",
+        "Reconnaître les mots dont la fin change, comme chevaux",
+        "Enlever la marque du pluriel pour revenir au singulier"
       ],
       "howToPlay": [
-        "Lis la commande de Marguerite.",
-        "Touche le mot au pluriel bien écrit."
+        "Regarde le ticket et touche la pile jusqu’à en avoir autant sur l’étagère.",
+        "Mets la bonne tuile dans la place ouverte, ou retourne la carte si la fin du mot change. Puis appuie sur « Vérifier ».",
+        "Dans « Mots », choisis une série comme « s ou x ? » ou « Retour à un », et dans « Réponse », choisis « Écris-la »."
       ],
       "learningGoals": [
-        "Former le pluriel des noms",
-        "Choisir la bonne marque (-s ou -x)",
-        "Écrire un pluriel qu'on n'entend pas"
+        "L’enfant sait qu’un mot prend une marque quand il y en a plusieurs",
+        "L’enfant choisit entre s et x",
+        "L’enfant revient au singulier en enlevant la marque"
       ]
     },
     "booker-glossary-desk.guide-words.l-2-4-e": {

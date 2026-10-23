@@ -2411,6 +2411,29 @@
         "Barnet skriver i den rigtige retning og i den rigtige rækkefølge",
         "Barnet skriver små og store bogstaver udenad"
       ]
+    },
+    "daisy-plate-stack.plurals.l-k-1-c": {
+      "about": [
+        "Ved Daisys disk viser sedlen, hvor mange bestillingen skal have. Barnet trykker på stablen, og tallerkenerne lander på hylden med det samme billede på hver; dyregæster sidder på taburetter ved den trappeformede disk. Under hylden står ordet i træbrikker. Med én tallerken er det bare »kop«. Så snart den anden tallerken lander, åbner ordets ende sig: nu skal det have en endelsesbrik, som -er eller -e.",
+        "Endelserne er rigtige brikker, aldrig opfundne stavemåder at vælge imellem. En brik med en lille pukkel giver en stavelse mere, som man kan høre. Ord, der ændrer sig selv, som gulerod og gulerødder, har ingen plads til en endelse: deres kort vendes. I »Tilbage til én« tager barnet tallerkener af, til der kun er én tilbage, og endelsen skal af. Bliver den siddende med én tallerken, rasler den på sin plads.",
+        "Fem ordgrupper: de første ord, hvilken endelse, ord der ændrer sig, tilbage til én og sætninger med et hul. Under »Svar« kan barnet også selv skrive endelsen. I tråd med Fælles Mål, uden tidtagning og uden point."
+      ],
+      "practices": [
+        "At skelne mellem én og flere",
+        "At sætte den rigtige endelse på, fx -er eller -e",
+        "At genkende ord, der ændrer sig indeni, som gulerødder",
+        "At tage endelsen af for at komme tilbage til én"
+      ],
+      "howToPlay": [
+        "Se på sedlen, og tryk på stablen, til der er så mange på hylden.",
+        "Læg den rigtige brik i den åbne plads, eller vend kortet, hvis ordet ændrer sig selv. Tryk så på »Tjek«.",
+        "Under »Ord« vælger du en gruppe som »Hvilken endelse?« eller »Tilbage til én«, og under »Svar« kan du vælge »Skriv selv«."
+      ],
+      "learningGoals": [
+        "Barnet ved, at et ord får en endelse, når der er flere end én",
+        "Barnet vælger den rigtige flertalsendelse",
+        "Barnet danner ental ved at tage endelsen af"
+      ]
     }
   }
 }

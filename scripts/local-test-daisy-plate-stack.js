@@ -16,6 +16,7 @@ const path = require('path');
 const ACTIVITY = 'daisy-plate-stack.plurals.l-k-1-c';
 const REPO = path.join(__dirname, '..');
 const MINI = path.join(REPO, 'mini tools');
+/* Row 75 rebuild (2026-10-23): this row runs the Plate Stack (plate-stack-activity); its gate is local-test-plate-stack.js. */if (JSON.parse(fs.readFileSync(path.join(MINI, 'daisy-plate-stack-activities.json'), 'utf8'))[0].tool !== 'daisy-plate-stack-activity') { console.log('local-test-daisy-plate-stack: the row runs the Plate Stack — see local-test-plate-stack.js. Nothing to check here.'); process.exit(0); }
 const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.html': 'text/html', '.svg': 'image/svg+xml', '.webp': 'image/webp', '.png': 'image/png' };
 
 function serve() {

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Mim's Memory Baskets — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- Shell, the library pictures, the cousin-rain model (every sentence literal per locale), then this activity.
+       NOTE: bump ?v=N on EVERY change to cousin-rain-activity.js / cousin-rain-core.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  <script src="/mini-tools/lcs-pictures.js?v=1"></script>
+  <script src="/mini-tools/cousin-rain-core.js?v=1"></script>
+  <script src="/mini-tools/cousin-rain-activity.js?v=1"></script>
+  <script>
+    LCS.mount(CousinRainActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

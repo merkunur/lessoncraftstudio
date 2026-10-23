@@ -3330,6 +3330,29 @@
         "Barnet binder ihop två delar av en mening med ”och”",
         "Barnet bygger ut en mening med en tredje del, med kommatecken och ”och”"
       ]
+    },
+    "mims-baskets.category-sort.l-k-5-a": {
+      "about": [
+        "När ett barn sorterar saker lär det sig vad ord som ”djur” och ”mat” verkligen betyder. I Mims minneskorgar välter Mim, det lilla molnet, sin korg, och sakerna rullar ut på gräset. Korgarna nedanför har inga etiketter: barnet bestämmer själv vad som är av samma sort.",
+        "Ligger två eller fler saker av samma sort i en korg regnar Mims moln ovanför ner en sak till av den sorten: till en hund och en katt kommer en kanin. Trycker barnet på ”Kontrollera” och det ligger två sorter i en korg, delar sig molnet, och varje halva regnar ner en ny sak till sin egen familj, så att sorterna hamnar sida vid sida. I omgångarna om färg och form har de nya sakerna aldrig den förvirrande färgen eller formen: till det röda äpplet kommer en grön kiwi, till den röda traktorn ett flygplan.",
+        "Tre typer av omgångar: Sortera, med två till fyra korgar (djur, mat, fordon, leksaker, kläder, former, frukt och grönsaker, havs-, skogs- och bondgårdsdjur); Den som inte passar, där den enda saken av en annan sort ska i den lilla korgen; och Två moln, där varje moln visar sin regel med två bilder och korgen i mitten är för saker som passar båda. I linje med Lgr22, utan tidtagning och utan poäng."
+      ],
+      "practices": [
+        "Att sortera bilder efter vad de är",
+        "Att skilja en saks sort från dess färg eller form",
+        "Att hitta den enda saken som är av en annan sort",
+        "Att sortera efter två regler samtidigt, med en plats i mitten för båda"
+      ],
+      "howToPlay": [
+        "Tryck på en sak på gräset och sedan på en korg (eller dra dit den). Lägg allt i en korg.",
+        "Saker av samma sort ska i samma korg. Tryck på ”Kontrollera” när gräset är tomt.",
+        "Under ”Typer av omgångar” väljer du Den som inte passar eller Två moln, under ”Korgar” väljer du Två och under ”Hjälpregn” väljer du ”Först vid Kontrollera” för att sortera utan regn under tiden."
+      ],
+      "learningGoals": [
+        "Barnet sorterar vardagliga saker efter sort och möter ordet för varje sort",
+        "Barnet ser att saker av samma sort kan se helt olika ut och att samma färg eller form inte gör dem till samma sort",
+        "Barnet sorterar efter två egenskaper samtidigt och lägger saker med båda i mitten"
+      ]
     }
   }
 }

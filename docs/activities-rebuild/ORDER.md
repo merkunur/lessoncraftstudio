@@ -85,7 +85,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 75 | LIVE 2026-10-23 · The Plate Stack | K | L.K.1.c | `daisy-plate-stack.plurals.l-k-1-c` | daisy-plate-stack-activity | Daisy's Plate Stack — More Than One (Kindergarten) |
 | 76 | LIVE 2026-10-23 · The Question Lamp | K | L.K.1.d | `wren-question-window.question-words.l-k-1-d` | wren-question-window-activity | Wren's Question Window — Ask the Right Word (Kindergarten) |
 | 77 | LIVE 2026-10-23 · The Magnet Plates | K | L.K.1.F | `sunny-side-diner.compound-order.l-k-1-f` | sunny-side-diner-activity | Sunny-Side Diner — Say the Whole Order (Kindergarten) |
-| 78 |  | K | L.K.5.A | `mims-baskets.category-sort.l-k-5-a` | mims-baskets-activity | Mim's Memory Baskets — Sort Things into Groups |
+| 78 | LIVE 2026-10-23 · The Cousin Rain | K | L.K.5.A | `mims-baskets.category-sort.l-k-5-a` | mims-baskets-activity | Mim's Memory Baskets — Sort Things into Groups |
 | 79 |  | K | W.K.2 | `wobble-museum.catch-drift.w-k-2` | wobble-museum-activity | The Wobble Museum — Stick to the Topic (Kindergarten Writing) |
 | 80 |  | K | SL.K.6 | `sock-and-shadow.puppet-speak.sl-k-6` | sock-and-shadow-activity | Sock & Shadow — Say It So a Listener Understands (Kindergarten) |
 | 81 |  | 1 | 1.OA.A.1 | `numberbond.find-the-total.1-oa-a-1` | number-bond-activity | Find the Total — Add Two Parts Within 20 (Grade 1) |

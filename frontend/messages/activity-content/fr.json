@@ -4333,6 +4333,29 @@
         "L’enfant trace les traits de chaque lettre dans le bon ordre et le bon sens",
         "L’enfant écrit majuscules et minuscules sur les lignes"
       ]
+    },
+    "mims-baskets.category-sort.l-k-5-a": {
+      "about": [
+        "En triant des choses, l’enfant apprend ce que veulent vraiment dire des mots comme « animal » ou « nourriture ». Dans Les paniers à souvenirs de Mim, Mim, le petit nuage, renverse son panier, et ses affaires roulent dans l’herbe. Les paniers en dessous n’ont pas d’étiquette : c’est l’enfant qui décide ce qui va ensemble.",
+        "Quand un panier contient deux choses ou plus de la même sorte, le nuage de Mim au-dessus fait pleuvoir une chose de plus de cette sorte : avec un chien et un chat arrive un lapin. Si l’enfant appuie sur « Vérifier » et qu’un panier mélange deux sortes, le nuage se coupe en deux, et chaque moitié fait pleuvoir une chose nouvelle pour sa propre famille : les deux groupes apparaissent côte à côte. Dans les manches sur la couleur et la forme, les nouvelles choses n’ont jamais la couleur ou la forme qui trompe : la pomme rouge reçoit un kiwi vert, le tracteur rouge un avion.",
+        "Trois types de manches : Trier, avec deux à quatre paniers (animaux, nourriture, véhicules, jouets, vêtements, formes, fruits et légumes, animaux de la mer, de la forêt et de la ferme) ; L’intrus, où la seule chose d’une autre sorte va dans le petit panier ; et Deux nuages, où chaque nuage montre sa règle avec deux images et le panier du milieu est pour les choses qui vont avec les deux. En lien avec les programmes officiels, sans chronomètre et sans points."
+      ],
+      "practices": [
+        "Trier des images selon ce qu’elles sont",
+        "Distinguer la sorte d’une chose de sa couleur ou de sa forme",
+        "Trouver la seule chose d’une autre sorte",
+        "Trier selon deux règles à la fois, avec une place au milieu pour les deux"
+      ],
+      "howToPlay": [
+        "Touche une chose dans l’herbe, puis un panier (ou fais-la glisser jusqu’au panier). Mets tout dans un panier.",
+        "Les choses d’une même sorte vont dans un même panier. Appuie sur « Vérifier » quand l’herbe est vide.",
+        "Dans « Types de manches », choisis L’intrus ou Deux nuages ; dans « Paniers », Deux ; et dans « Pluie qui aide », « Seulement à Vérifier » pour trier sans la pluie pendant le jeu."
+      ],
+      "learningGoals": [
+        "L’enfant trie des objets familiers par catégorie et découvre le nom de chaque catégorie",
+        "L’enfant voit que des choses d’une même sorte peuvent être très différentes et qu’une même couleur ou une même forme ne fait pas une sorte",
+        "L’enfant trie selon deux caractéristiques à la fois et place au milieu les choses qui ont les deux"
+      ]
     }
   }
 }

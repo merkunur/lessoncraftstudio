@@ -2634,25 +2634,25 @@
     },
     "mims-baskets.category-sort.l-k-5-a": {
       "about": [
-        "Mim, a sleepy little cloud-friend, has spilled a basket of treasures, and children help sort each picture back where it belongs — a dog with the animals, an apple with the foods, a car with the vehicles, and later hats with clothing and a star with the shapes. Every correct sort helps Mim remember a little more, in an interactive Kindergarten vocabulary activity that runs right in the browser with nothing to install and no account.",
-        "The big idea is to sort by what a thing IS, not by how it looks. The trickier rounds put a red apple, a red fire truck, and a banana together, so a child cannot sort by color and has to think about category — food, vehicle, food. Other rounds spread out a category (a dog, a fish, and a duck are all animals even though they look very different), which stretches the idea of what a group can include.",
-        "It is aligned to Common Core L.K.5.A — sorting common objects into categories to gain a sense of the concepts the categories represent. No timer, no score — just calm, playful practice."
+        "Sorting things into groups is how a child learns what a word like “animal” or “food” really means. In Mim’s Memory Baskets, Mim the little cloud tips over her basket, and her things spill onto the grass. The baskets below have no labels: the child decides which things belong together.",
+        "When a basket holds two or more things of one kind, Mim’s cloud above it rains down a cousin, a new thing of that kind: a dog and a cat bring a rabbit. When the child presses “Check” and a basket mixes two kinds, its cloud splits in two, and each half rains a cousin onto its own family, so the two groups appear side by side. In the color and shape rounds the cousins never share the confusing look: the red apple gets a green kiwi, and the red tractor gets an airplane.",
+        "Three kinds of rounds: Sort, with two to four baskets (animals, food, vehicles, toys, clothes, shapes, fruits and vegetables, sea, forest, and farm animals); The stray, where the one thing of another kind goes into the little basket; and Two clouds, where each cloud shows its rule with two pictures and the middle basket is for things that fit both. Aligned to Common Core L.K.5.A: sort common objects into categories. No timer and no score."
       ],
       "practices": [
-        "Sort everyday pictures into categories like animals, food, vehicles, and clothing",
-        "Group by what a thing is rather than by a surface feature like color or shape",
-        "Recognize that one category can hold things that look quite different",
-        "Build the vocabulary that names groups of objects"
+        "Sorting pictures into groups by what they are",
+        "Telling a thing’s kind apart from its color or shape",
+        "Finding the one thing that is a different kind",
+        "Sorting by two rules at once, with a middle place for both"
       ],
       "howToPlay": [
-        "Look at the spilled items and the labeled baskets, such as animal, food, and vehicle.",
-        "Put each picture in the basket where it belongs, and watch Mim remember a little more.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Tap a thing on the grass, then tap a basket (or drag it there). Put every thing in a basket.",
+        "Things of one kind go in one basket. Press “Check” when the grass is empty.",
+        "Under “Round types” choose The stray or Two clouds; under “Baskets” choose Two; under “Helping rain” choose “Only at Check” to sort without the rain while you play."
       ],
       "learningGoals": [
-        "Sort common objects into categories — the focus of Common Core L.K.5.A",
-        "Understand the concept that names each category, like animals or food",
-        "Grow the early vocabulary that groups and labels everyday things"
+        "The child sorts common objects into categories and meets the name of each category",
+        "The child sees that things of one kind can look very different, and that a shared color or shape does not make a kind",
+        "The child sorts by two features at once and puts the things that have both in the middle"
       ]
     },
     "mochi-feast.count-out.k-cc-b-5": {

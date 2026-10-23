@@ -23,6 +23,8 @@
    ===================================================================== */
 'use strict';
 const fs = require('fs');
+/* Row 78 rebuild (2026-10-23): the row runs the Cousin Rain (cousin-rain-activity; gates verify-cousin-rain-core.js + local-test-cousin-rain.js) and no page loads the old Mim's Baskets files any more. */
+{ const _m = JSON.parse(fs.readFileSync(require('path').join(__dirname, '..', 'mini tools', 'mims-baskets-activities.json'), 'utf8')); const _r = (Array.isArray(_m) ? _m : _m.activities).find(a => a.id === 'mims-baskets.category-sort.l-k-5-a'); if (_r && _r.tool !== 'mims-baskets-activity') { console.log('verify-category-sort-core: the row runs the Cousin Rain — see verify-cousin-rain-core.js / local-test-cousin-rain.js. Nothing to check here.'); process.exit(0); } }
 const path = require('path');
 
 const REPO = path.join(__dirname, '..');

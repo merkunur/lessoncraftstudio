@@ -51,3 +51,5 @@ ORDER row 76 · id `wren-question-window.question-words.l-k-1-d` (kept). Design:
 | preflight, prose-claims, serp-copy, content-sv/da/no/fi/de, answer-rank | green |
 
 One native + pedagogy reviewer covered all 11 locales and re-checked the fixes; the result was clean.
+
+**Live (2026-10-23):** `live-verify-question-lamp.js` 67 / 0 (11 locale pages 200; en/de/sv/fi × 1366/390 with real pointer play); variety gate green on the live site. ⚠ The first run caught the Cloudflare-stale page, and the picture check first ran between the two render passes, so it now waits for every picture card in the round.

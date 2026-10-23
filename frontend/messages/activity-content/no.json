@@ -2560,6 +2560,31 @@
         "Å uttrykke en følelse og grunnen til den i én setning",
         "Å merke når en beskjed er for kort eller for lang"
       ]
+    },
+    "vet-diagnosis.word-problems.1-oa-a-1": {
+      "about": [
+        "Et dyr kommer til veterinæren som et røntgenbilde, og problemet er en regnefortelling: «12 gjess svømmer i dammen. Noen flyr bort. Nå er det 8.» Under fortellingen står lysboksen med en film, med et felt for hver del av fortellingen. Barnet legger tallene fra fortellingen i feltene der de hører hjemme, merker feltet vi ikke vet, og stiller inn tallet.",
+        "Så trykker barnet på Diagnose, og filmen spiller barnets egen modell, setning for setning. Ligger et tall i feil felt, stopper filmen der: Feltet og setningen lyser sammen. Er tallet som er stilt inn feil, ser du det i det siste feltet, der prikker renner over kanten eller plasser står tomme. Ett av de tre tallkortene er en lokkemat, ofte tallet du får med feil regneart: du legger sammen når fortellingen trekker fra, eller omvendt.",
+        "Når filmen passer til fortellingen, letter tåken, dyret blir friskt og regnestykket kommer fram («12 − 4 = 8»). Det finnes fortellinger der noe kommer til, går bort, legges sammen eller sammenlignes, med det ukjente på alle plasser, og nivået Grupper med like store grupper og deling. I tråd med LK20 om tall og problemløsning. Uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Å avgjøre hvilken del av en regnefortelling hvert tall hører til",
+        "Å finne det ukjente i starten, i endringen eller til slutt",
+        "Å sammenligne to mengder: hvor mange flere, hvor mange færre",
+        "Å skrive regnestykket som passer til fortellingen"
+      ],
+      "howToPlay": [
+        "Les fortellingen (eller trykk på høyttaleren). Trykk på et tallkort og så på feltet der tallet hører hjemme i fortellingen.",
+        "Trykk på feltet vi ikke vet, for å merke det med et spørsmålstegn, og still inn med − og + i det feltet hvor mange det er.",
+        "Trykk på Diagnose og se på filmen din. Stopper den, se på feltet som lyser og setningen, endre noe og prøv igjen.",
+        "I innstillingene velger du fortellinger (opp til 10, opp til 20 eller Grupper) og om fortellingen skal leses høyt."
+      ],
+      "learningGoals": [
+        "Å løse regnefortellinger der noe kommer til, går bort eller legges sammen opp til 20, med det ukjente hvor som helst",
+        "Å løse sammenligninger: hvor mange flere og hvor mange færre",
+        "Å lage en modell av en regnefortelling og skrive et regnestykke med det ukjente",
+        "Å løse oppgaver med like store grupper og deling"
+      ]
     }
   }
 }

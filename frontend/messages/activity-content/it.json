@@ -264,25 +264,27 @@
     },
     "vet-diagnosis.word-problems.1-oa-a-1": {
       "about": [
-        "Allo studio veterinario ogni animale arriva con la sua piccola storia: tre gattini nella cesta e altri che si aggiungono, i conigli che erano nel recinto prima che qualcuno scappasse, le crocchette date al mattino e quelle rimaste alla sera. Nei panni del veterinario, il bambino ascolta il racconto di ciascun paziente, appoggia i numeri conosciuti sul diagramma della diagnosi e individua il punto ancora da scoprire. Non è un semplice calcolo in colonna: è una vera indagine, in cui capire che cosa manca è già metà della cura.",
-        "Dietro il gioco c’è un lavoro serio sui problemi. Il bambino impara a leggere con attenzione il testo, a distinguere quando si aggiunge e quando si toglie, e a collocare l’incognita in ogni posizione: nel risultato, nella parte che cambia e persino all’inizio, il caso più difficile perché costringe a ragionare «al contrario». Ci sono anche i problemi di confronto additivo, quelli in cui bisogna capire «quanti in più» ha un animale rispetto a un altro. Sono proprio i nodi su cui tanti bambini si bloccano, affrontati qui un passo alla volta.",
-        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali. È interattiva, non richiede registrazione e non ha né timer né punteggio: nessuna fretta, nessuna gara. Il bambino può fermarsi, ripensarci e riprovare quante volte vuole, trovando nello studio veterinario un ambiente sereno in cui sbagliare fa parte dell’imparare."
+        "Un animale arriva dal veterinario come una radiografia, e il suo problema è una storia con i numeri: “Sullo stagno ci sono 12 oche. Alcune volano via. Adesso sono 8.” Sotto la storia c’è il diafanoscopio con una pellicola, con un riquadro per ogni parte della storia. Il bambino mette i numeri della storia nei riquadri a cui appartengono, segna il riquadro che non sappiamo e sceglie il numero.",
+        "Poi tocca Diagnosi e la pellicola proietta il suo modello, frase per frase. Se un numero è nel riquadro sbagliato, la pellicola si ferma lì: il riquadro e la sua frase si illuminano insieme. Se il numero scelto è sbagliato, lo mostra l’ultimo riquadro, con puntini che traboccano o posti che restano vuoti. Uno dei tre cartellini è un’esca, spesso il numero che si ottiene con l’operazione sbagliata: addizionare quando la storia toglie, o il contrario.",
+        "Quando la pellicola corrisponde alla storia, la nebbia si dirada, l’animale guarisce e appare l’operazione (“12 − 4 = 8”). Ci sono storie in cui si aggiunge, si toglie, si mette insieme e si confronta, con l’incognita in ogni posizione, e il livello Gruppi con gruppi uguali e divisioni in parti uguali. In linea con le Indicazioni nazionali per i numeri. Senza cronometro e senza punti."
       ],
       "practices": [
-        "Problemi di addizione e sottrazione entro il 20",
-        "L’incognita in ogni posizione, anche all’inizio",
-        "Il confronto additivo «quanti in più»",
-        "Leggere il testo e scegliere l’operazione giusta"
+        "Decidere a quale parte di un problema appartiene ogni numero",
+        "Trovare l’incognita all’inizio, nel cambiamento o alla fine",
+        "Confrontare due quantità: quanti in più, quanti in meno",
+        "Scrivere l’operazione che corrisponde alla storia"
       ],
       "howToPlay": [
-        "Leggi la storia dell’animale paziente.",
-        "Metti i numeri al posto giusto sul diagramma e segna il posto misterioso.",
-        "Digita la risposta e cura il tuo paziente."
+        "Leggi la storia (o tocca l’altoparlante). Tocca un cartellino con un numero e poi il riquadro a cui appartiene quel numero nella storia.",
+        "Tocca il riquadro che non sappiamo per segnarlo con un punto interrogativo, e scegli con − e + su quel riquadro quanti sono.",
+        "Tocca Diagnosi e guarda la tua pellicola. Se si ferma, guarda il riquadro che brilla e la sua frase, cambia qualcosa e riprova.",
+        "Nelle impostazioni scegli le storie (fino a 10, fino a 20 o Gruppi) e se la storia viene letta ad alta voce."
       ],
       "learningGoals": [
-        "Risolvere problemi di addizione e sottrazione entro il 20",
-        "Trovare l’incognita nel risultato, nel cambiamento e all’inizio",
-        "Confrontare le quantità e capire «quanti in più»"
+        "Risolvere problemi in cui si aggiunge, si toglie o si mette insieme entro il 20, con l’incognita in ogni posizione",
+        "Risolvere problemi di confronto: quanti in più e quanti in meno",
+        "Rappresentare un problema e scrivere un’operazione con l’incognita",
+        "Risolvere problemi con gruppi uguali e divisioni in parti uguali"
       ]
     },
     "bos-berry-pantry.slingshot-tens.1-nbt-b-2": {

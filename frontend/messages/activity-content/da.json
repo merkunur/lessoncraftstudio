@@ -2553,6 +2553,31 @@
         "At udtrykke en følelse og grunden til den i én sætning",
         "At mærke, når en besked er for kort eller for lang"
       ]
+    },
+    "vet-diagnosis.word-problems.1-oa-a-1": {
+      "about": [
+        "Et dyr kommer til dyrlægen som et røntgenbillede, og dets problem er en regnehistorie: »12 gæs svømmer i dammen. Nogle flyver væk. Nu er der 8.« Under historien står lyskassen med en film, som har et felt til hver del af historien. Barnet lægger historiens tal i de felter, hvor de hører til, markerer det felt, vi ikke kender, og indstiller tallet.",
+        "Så trykker barnet på Diagnose, og filmen afspiller barnets egen model, sætning for sætning. Ligger et tal i det forkerte felt, stopper filmen dér: Feltet og dets sætning lyser sammen. Er det indstillede tal forkert, viser det sidste felt det, med prikker der løber over kanten eller pladser der står tomme. Et af de tre talkort er en lokkedue, ofte det tal, man får med den forkerte regneart: at lægge sammen, når historien trækker fra, eller omvendt.",
+        "Når filmen passer til historien, letter tågen, dyret bliver raskt, og regnestykket kommer frem (»12 − 4 = 8«). Der er historier, hvor der kommer flere til, hvor nogle går væk, hvor to dele lægges sammen, og hvor to mængder sammenlignes, med det ukendte alle steder, og niveauet Grupper med lige store grupper og deling. I tråd med Fælles Mål for tal og algebra. Uden tidtagning og uden point."
+      ],
+      "practices": [
+        "At afgøre, hvilken del af en regnehistorie hvert tal hører til",
+        "At finde det ukendte i starten, i ændringen eller til sidst",
+        "At sammenligne to mængder: hvor mange flere, hvor mange færre",
+        "At skrive det regnestykke, der passer til historien"
+      ],
+      "howToPlay": [
+        "Læs historien (eller tryk på højttaleren). Tryk på et talkort og derefter på det felt, hvor tallet hører til i historien.",
+        "Tryk på det felt, vi ikke kender, for at markere det med et spørgsmålstegn, og indstil med − og + i feltet, hvor mange der er.",
+        "Tryk på Diagnose og se din film. Stopper den, så se på det lysende felt og dets sætning, ændr noget og prøv igen.",
+        "I indstillingerne vælger du historierne (op til 10, op til 20 eller Grupper), og om historien skal læses højt."
+      ],
+      "learningGoals": [
+        "At løse regnehistorier med flere til, nogle væk og to dele sammen op til 20 med det ukendte alle steder",
+        "At løse sammenligninger: hvor mange flere og hvor mange færre",
+        "At lave en model af en regnehistorie og skrive et regnestykke med det ukendte",
+        "At løse opgaver med lige store grupper og deling"
+      ]
     }
   }
 }

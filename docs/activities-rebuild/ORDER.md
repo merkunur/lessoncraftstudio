@@ -89,7 +89,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 79 | LIVE 2026-10-23 · The About-Strings | K | W.K.2 | `wobble-museum.catch-drift.w-k-2` | wobble-museum-activity | The Wobble Museum — Stick to the Topic (Kindergarten Writing) |
 | 80 | LIVE 2026-10-23 · The Lamplight Cupboard | K | SL.K.6 | `sock-and-shadow.puppet-speak.sl-k-6` | sock-and-shadow-activity | Sock & Shadow — Say It So a Listener Understands (Kindergarten) |
 | 81 | LIVE 2026-10-23 · The Covered Basket | 1 | 1.OA.A.1 | `numberbond.find-the-total.1-oa-a-1` | number-bond-activity | Find the Total — Add Two Parts Within 20 (Grade 1) |
-| 82 |  | 1 | 1.OA.A.1 | `vet-diagnosis.word-problems.1-oa-a-1` | vet-diagnosis-activity | Vet's Diagnosis Window — Word-Problem Modeling |
+| 82 | LIVE 2026-10-23 · The Story Film | 1 | 1.OA.A.1 | `vet-diagnosis.word-problems.1-oa-a-1` | vet-diagnosis-activity | Vet's Diagnosis Window — Word-Problem Modeling |
 | 83 |  | 1 | 1.OA.A.2 | `numberbond.add-three.1-oa-a-2` | number-bond-activity | Add Three Numbers — Three-Part Number Bond (Grade 1) |
 | 84 |  | 1 | 1.OA.B.4 | `numberbond.subtraction-unknown-addend.1-oa-b-4` | number-bond-activity | Find the Missing Part — Subtraction as a Number Bond (Grade 1) |
 | 85 |  | 1 | 1.OA.C.6 | `numberbond.make-ten-to-add.1-oa-c-6` | number-bond-activity | Make a Ten to Add — Addition Within 20 (Grade 1) |

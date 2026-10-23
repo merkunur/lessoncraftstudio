@@ -1313,25 +1313,27 @@
     },
     "vet-diagnosis.word-problems.1-oa-a-1": {
       "about": [
-        "Toca a la puerta un pacientito tímido en el consultorio del zorro veterinario. Su «síntoma» no es tos ni fiebre: es una pequeña historia con números. El zorro enciende su radiografía mágica y en la pantalla aparece la historia hecha imagen. El niño la LEE con calma, coloca los números en el diagrama —inicio, cambio y resultado; o entero, parte y parte; o mayor, menor y diferencia— y marca con «?» el lugar del misterio: el dato que hay que descubrir.",
-        "La idea matemática es entender y MODELAR el problema, no solo calcular. Aquí el dato desconocido puede estar en cualquier lugar: al final, en medio, o hasta al inicio («? + 5 = 12»); y a veces la historia compara dos cantidades («¿cuántos más?», «¿cuántos menos?»). Para que nadie adivine mirando la escena, la parte misteriosa aparece empañada en la radiografía —no se puede contar directamente, hay que deducirla— y en la charola espera, a propósito, un número-señuelo demasiado grande. Así el niño aprende a fijarse en la estructura del problema y a decidir cuándo sumar y cuándo restar.",
-        "Sin cronómetro, sin puntaje y sin competencia: cada quien avanza a su ritmo y equivocarse es parte de aprender. La actividad está alineada al programa de primaria mexicano (Planes y programas de estudio de la Nueva Escuela Mexicana), en el eje de Sentido numérico, dentro de los problemas de suma y resta dentro del 20."
+        "Un animal llega al veterinario como una radiografía, y su problema es un cuento con números: “Hay 12 gansos en el estanque. Algunos se van volando. Ahora hay 8.” Debajo del cuento está la caja de luz con una película que tiene un cuadro para cada parte del cuento. El niño pone los números del cuento en los cuadros donde van, marca el cuadro que no sabemos y elige el número.",
+        "Luego toca Diagnostica y la película proyecta su propio modelo, oración por oración. Si un número está en el cuadro equivocado, la película se detiene ahí: el cuadro y su oración brillan juntos. Si el número elegido no es el correcto, el último cuadro lo muestra con puntos que se desbordan o lugares que quedan vacíos. Una de las tres tarjetas es un señuelo, muchas veces el número que sale con la operación equivocada: sumar cuando el cuento quita, o al revés.",
+        "Cuando la película coincide con el cuento, se va la niebla, el animal se cura y aparece la operación (“12 − 4 = 8”). Hay cuentos de agregar, quitar, juntar y comparar, con la incógnita en cualquier lugar, y el nivel Grupos con grupos iguales y repartos. En línea con los planes de estudio, en el campo de número. Sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Leer con atención un problema y entender de qué se trata antes de operar.",
-        "Modelar la historia con números: ¿cuál es el inicio, cuál el cambio y cuál el resultado?",
-        "Sumar y restar con confianza dentro del 20.",
-        "Encontrar el dato desconocido en cualquier lugar del problema —incluso invirtiendo la operación y cuando se comparan dos cantidades."
+        "Decidir a qué parte de un problema pertenece cada número",
+        "Encontrar la incógnita al principio, en el cambio o al final",
+        "Comparar dos cantidades: cuántos más, cuántos menos",
+        "Escribir la operación que corresponde al cuento"
       ],
       "howToPlay": [
-        "Lee (o escucha) la historia del pacientito en la ventana de la radiografía.",
-        "Coloca los números en el diagrama y marca con «?» el lugar donde está el misterio.",
-        "Marca la respuesta en el dial y toca «Diagnóstico»."
+        "Lee el cuento (o toca la bocina). Toca una tarjeta con un número y luego el cuadro donde va ese número en el cuento.",
+        "Toca el cuadro que no sabemos para marcarlo con un signo de interrogación, y elige con − y + en ese cuadro cuántos son.",
+        "Toca Diagnostica y mira tu película. Si se detiene, mira el cuadro que brilla y su oración, cambia algo y vuelve a intentarlo.",
+        "En la configuración eliges los cuentos (hasta 10, hasta 20 o Grupos) y si el cuento se lee en voz alta."
       ],
       "learningGoals": [
-        "Puedo entender un problema y reconstruirlo con un diagrama.",
-        "Puedo encontrar el número desconocido, esté al inicio, en medio o al final.",
-        "Puedo decidir cuándo sumar y cuándo restar —también cuando se comparan dos cantidades."
+        "Resolver problemas de agregar, quitar y juntar hasta 20 con la incógnita en cualquier lugar",
+        "Resolver problemas de comparación: cuántos más y cuántos menos",
+        "Representar un problema y escribir una operación con la incógnita",
+        "Resolver problemas de grupos iguales y de reparto"
       ]
     },
     "bos-berry-pantry.slingshot-tens.1-nbt-b-2": {

@@ -3873,23 +3873,27 @@
     },
     "vet-diagnosis.word-problems.1-oa-a-1": {
       "about": [
-        "Un petit animal timide arrive à la clinique vétérinaire de la forêt, et son symptôme est une histoire de nombres. La radio met en scène ce qui s'est passé — mais l'inconnue est masquée, on ne peut pas la compter sur l'image. Ton enfant modélise l'histoire : il place chaque quantité à sa place, marque la partie mystère, laisse le nombre-piège dans le plateau, puis compose la réponse. La radio s'éclaircit et le patient guérit !",
-        "Additionner et soustraire jusqu'à 20 pour résoudre des problèmes où l'inconnue peut être n'importe où — le résultat, la transformation, l'état initial, ou une comparaison « combien de plus » — sont des attendus du CE1. Le jeu se joue sans minuteur et sans points : l'enfant travaille le sens de l'addition et de la soustraction, dans le domaine « Nombres et calcul » des programmes officiels de l'école."
+        "Un animal arrive chez le vétérinaire sous forme de radio, et son problème est une histoire avec des nombres. « 12 oies sont sur la mare. Quelques-unes s’envolent. Maintenant, il y en a 8. » Sous l’histoire se trouve le négatoscope avec un film, qui a une case pour chaque partie de l’histoire. L’enfant pose les nombres de l’histoire dans les cases qui leur correspondent, marque la case qu’on ne connaît pas et règle le nombre.",
+        "Puis il appuie sur Diagnostiquer et le film projette son propre modèle, phrase par phrase. Si un nombre est dans la mauvaise case, le film s’arrête là. La case et sa phrase s’allument ensemble. Si le nombre réglé est faux, la dernière case le montre, avec des points qui débordent ou des places qui restent vides. L’une des trois cartes est un leurre, souvent le nombre qu’on obtient avec la mauvaise opération, en additionnant alors que l’histoire retire, ou l’inverse.",
+        "Quand le film correspond à l’histoire, le brouillard se lève, l’animal guérit et le calcul apparaît (« 12 − 4 = 8 »). Il y a des histoires où l’on ajoute, retire, réunit et compare, avec l’inconnue à chaque place, et le niveau Groupes avec des groupes égaux et des partages. En lien avec les programmes officiels pour les nombres et le calcul. Sans chronomètre et sans points."
       ],
       "practices": [
-        "Résoudre des problèmes additifs et soustractifs jusqu'à 20",
-        "Modéliser un problème avant de calculer",
-        "Trouver l'inconnue quelle que soit sa position",
-        "Comparer deux quantités (combien de plus)"
+        "Décider à quelle partie d’un problème appartient chaque nombre",
+        "Trouver l’inconnue au début, dans la transformation ou à la fin",
+        "Comparer deux quantités, combien de plus, combien de moins",
+        "Écrire le calcul qui correspond à l’histoire"
       ],
       "howToPlay": [
-        "Écoute l'histoire, puis place chaque nombre à sa place et marque le mystère.",
-        "Compose la réponse pour éclaircir la radio et soigner le patient."
+        "Lis l’histoire (ou appuie sur le haut-parleur). Touche une carte avec un nombre, puis la case qui correspond à ce nombre dans l’histoire.",
+        "Touche la case qu’on ne connaît pas pour la marquer d’un point d’interrogation, et règle avec − et + dans cette case combien il y en a.",
+        "Appuie sur Diagnostiquer et regarde ton film. S’il s’arrête, regarde la case qui brille et sa phrase, change quelque chose et réessaie.",
+        "Dans les réglages, choisis les histoires (jusqu’à 10, jusqu’à 20 ou Groupes) et si l’histoire est lue à voix haute."
       ],
       "learningGoals": [
-        "Résoudre des problèmes additifs et soustractifs jusqu'à 20",
-        "Trouver l'inconnue en n'importe quelle position",
-        "Modéliser un problème avant de le résoudre"
+        "Résoudre des problèmes où l’on ajoute, retire ou réunit jusqu’à 20, avec l’inconnue à n’importe quelle place",
+        "Résoudre des problèmes de comparaison, combien de plus et combien de moins",
+        "Représenter un problème et écrire un calcul avec l’inconnue",
+        "Résoudre des problèmes de groupes égaux et de partage"
       ]
     },
     "bos-berry-pantry.slingshot-tens.1-nbt-b-2": {

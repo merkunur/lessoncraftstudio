@@ -231,6 +231,10 @@ function seedScript(row) {
     // three peaches climbing the shelf for a ticket of 3: the second plate has opened the word's ending slot, glowing empty — the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.level='l2';t.api.settings.answer='tiles';t._pool=null;var pool=t._ensurePool();var C=window.PlateStackCore,i=pool.filter(function(x){return C.round('en','l2',x).key==='peach';})[0];if(i===undefined)return;var order=[i];for(var k=0;k<pool.length;k++)if(pool[k]!==i)order.push(pool[k]);t._order=order;t._orderForPool=pool;window.LCS_reloadFirstTask();var s=t.st;C.add(s);C.add(s);t._view={};t._paint();})()`;
   }
+  if (row.tool === 'story-film-activity') {
+    // 12 geese, some fly away, now 8 — the child's film with 6 flying away: the last frame lands two sockets short and glows — the model that does not fit the story, the invention at work
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.stories='w20';t.api.settings.read='off';t._pool=null;t._ensurePool();t._start(4,[0,1,2]);var C=window.StoryFilmCore,s=t.st;C.place(s,'start','t0');C.place(s,'result','t1');C.markMystery(s,'change');C.setDial(s,6);t._render2();t._check();})()`;
+  }
   if (row.tool === 'bond-basket-activity') {
     // 8 + 3: the 8 already poured under the checked cloth (its number on the tag), one car posted, two waiting — the covered first part that forces counting on, the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.task='total';t.api.settings.coat='pictures';t._pool=null;t._ensurePool();t._start(4);var C=window.BondBasketCore,s=t.st;C.pour(s,'L');C.post(s);t._view={};t._render2();})()`;

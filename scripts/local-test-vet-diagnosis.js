@@ -18,6 +18,8 @@
        280→768.
    ===================================================================== */
 'use strict';
+/* Row 82 rebuild (2026-10-23): the row runs the Story Film (story-film-activity; gates verify-story-film-core.js + local-test-story-film.js) and no page loads the old Vet's Diagnosis files any more. */
+{ const _m = JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'vet-diagnosis-activities.json'), 'utf8')); const _r = (Array.isArray(_m) ? _m : _m.activities).find(a => a.id === 'vet-diagnosis.word-problems.1-oa-a-1'); if (_r && _r.tool !== 'vet-diagnosis-activity') { console.log('local-test-vet-diagnosis: the row runs the Story Film — see verify-story-film-core.js / local-test-story-film.js. Nothing to check here.'); process.exit(0); } }
 const http = require('http');
 const fs = require('fs');
 const path = require('path');

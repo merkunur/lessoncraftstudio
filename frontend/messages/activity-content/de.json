@@ -2112,25 +2112,27 @@
     },
     "vet-diagnosis.word-problems.1-oa-a-1": {
       "about": [
-        "Im Behandlungszimmer wartet schon der nächste tierische Patient – und sein „Symptom“ ist eine kleine Zahlengeschichte. Im Röntgenfenster erscheint das passende Bild dazu: Was war am Anfang da? Was hat sich verändert? Was kommt am Ende heraus? Das Kind liest die Geschichte, legt die Zahlen an ihren Platz auf dem Diagramm und markiert die Stelle, an der das Geheimnis steckt.",
-        "Darum geht es: eine Sachaufgabe wirklich verstehen und sie als Bild aus Zahlen nachbauen – also modellieren. Das Spannende dabei ist, dass die gesuchte Zahl überall stecken kann: am Ende, in der Mitte, sogar ganz am Anfang („? + 5 = 12“). Und manchmal werden zwei Mengen verglichen – „Wie viele mehr?“ oder „Wie viele sind es dann?“. Eine zu große Zahl liegt absichtlich als Köder bereit, und die gesuchte Zahl lässt sich nicht einfach abzählen – das Kind muss sie herausdenken.",
-        "Geübt wird im Zahlenraum bis 20, passend zum „Lehrplan der Grundschule“ im Bereich „Zahlen und Operationen“. Die Übung ist ganz ohne Zeitdruck, ohne Punkte und ohne Wettbewerb – es zählt nur das ruhige Verstehen und Ausprobieren."
+        "Ein Tier kommt als Röntgenbild in die Tierarztpraxis, und sein Problem ist eine Rechengeschichte: „12 Gänse sind auf dem Teich. Ein paar fliegen weg. Jetzt sind es 8.“ Unter der Geschichte liegt der Röntgenkasten, ein Film mit einem Feld für jeden Teil der Geschichte. Das Kind legt die Zahlen der Geschichte auf die Felder, zu denen sie gehören, markiert das Feld, das wir nicht kennen, und stellt die Zahl ein.",
+        "Dann drückt das Kind auf Diagnose, und der Film spielt sein eigenes Modell Satz für Satz ab. Liegt eine Zahl auf dem falschen Feld, hält der Film dort an: Das Feld und sein Satz leuchten zusammen. Ist die eingestellte Zahl falsch, zeigt das letzte Feld es an: Punkte quellen über den Rand oder Plätze bleiben leer. Eine der drei Zahlenkarten ist ein Lockvogel, oft die Zahl, die man mit der falschen Rechenart bekommt: Man addiert, obwohl die Geschichte wegnimmt, oder umgekehrt.",
+        "Passt der Film zur Geschichte, lichtet sich der Nebel, das Tier wird gesund und die Rechnung erscheint („12 − 4 = 8“). Es gibt Geschichten zum Dazutun, Wegnehmen, Zusammenfügen und Vergleichen, das Unbekannte an jeder Stelle, und dazu die Stufe Gruppen mit gleich großen Gruppen und gerechtem Verteilen. Passend zum Lehrplan im Bereich Zahlen und Operationen. Ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "Sachaufgaben aufmerksam lesen und in eigenen Worten verstehen, worum es geht.",
-        "Die Geschichte mit Zahlen modellieren: Was ist der Anfang, was die Veränderung, was das Ergebnis?",
-        "Im Zahlenraum bis 20 sicher addieren und subtrahieren.",
-        "Die unbekannte Zahl an jeder Stelle finden – auch durch Umkehren und beim Vergleichen zweier Mengen."
+        "Entscheiden, zu welchem Teil einer Sachaufgabe jede Zahl gehört",
+        "Das Unbekannte am Anfang, in der Veränderung oder am Ende finden",
+        "Zwei Mengen vergleichen: wie viele mehr, wie viele weniger",
+        "Die Rechnung aufschreiben, die zur Geschichte passt"
       ],
       "howToPlay": [
-        "Lies die Geschichte im Behandlungsfenster – oder hör sie dir an.",
-        "Leg die Zahlen an ihren Platz und markiere mit „?“, wo das Geheimnis steckt.",
-        "Dreh die passende Antwort ein und tippe auf „Diagnose“."
+        "Lies die Geschichte (oder drück auf den Lautsprecher). Tippe eine Zahlenkarte an und dann das Feld, zu dem die Zahl in der Geschichte gehört.",
+        "Tippe auf das Feld, das wir nicht kennen, um es mit einem Fragezeichen zu markieren, und stell mit − und + auf diesem Feld ein, wie viele es sind.",
+        "Drück auf Diagnose und sieh dir deinen Film an. Hält er an, schau dir das leuchtende Feld und seinen Satz an, ändere etwas und versuch es noch einmal.",
+        "In den Einstellungen wählst du die Geschichten (bis 10, bis 20 oder Gruppen) und ob die Geschichte vorgelesen wird."
       ],
       "learningGoals": [
-        "Ich kann eine Sachaufgabe verstehen und mit einem Diagramm nachbauen.",
-        "Ich kann die gesuchte Zahl finden, egal ob sie am Anfang, in der Mitte oder am Ende steckt.",
-        "Ich kann erkennen, wann ich addieren und wann ich subtrahieren muss – auch beim Vergleichen."
+        "Sachaufgaben zum Dazutun, Wegnehmen und Zusammenfügen bis 20 lösen, das Unbekannte an jeder Stelle",
+        "Vergleichsaufgaben lösen: wie viele mehr und wie viele weniger",
+        "Eine Sachaufgabe modellieren und eine Rechnung mit dem Unbekannten aufschreiben",
+        "Aufgaben zu gleich großen Gruppen und zum Verteilen lösen"
       ]
     },
     "tildy.measure-ruler.2-md-a-1": {

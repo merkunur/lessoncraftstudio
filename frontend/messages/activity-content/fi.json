@@ -2553,6 +2553,31 @@
         "Kertoa tunne ja sen syy yhdessä lauseessa",
         "Huomata, milloin viesti on liian lyhyt tai liian pitkä"
       ]
+    },
+    "vet-diagnosis.word-problems.1-oa-a-1": {
+      "about": [
+        "Eläinlääkärille tulee eläin röntgenkuvana, ja sen ongelma on laskutarina: ”Lammessa ui 12 hanhea. Muutama lentää pois. Nyt niitä on 8.” Tarinan alla on valolaatikko, jossa on filmi, ja filmillä on ruutu jokaiselle tarinan osalle. Lapsi laittaa tarinan luvut niihin ruutuihin, joihin ne kuuluvat, merkitsee ruudun, jota emme tiedä, ja valitsee luvun.",
+        "Sitten lapsi painaa Diagnoosi-nappia, ja filmi näyttää lapsen oman mallin lause lauseelta. Jos luku on väärässä ruudussa, filmi pysähtyy siihen: ruutu ja sen lause hehkuvat yhdessä. Jos valittu luku on väärä, sen näkee viimeisestä ruudusta, kun pisteitä valuu yli reunan tai paikkoja jää tyhjiksi. Yksi kolmesta lukukortista on harhautus, usein luku, jonka saa väärällä laskutoimituksella: laskemalla yhteen, vaikka tarinassa jotain lähtee pois, tai päinvastoin.",
+        "Kun filmi sopii tarinaan, sumu hälvenee, eläin paranee ja laskutoimitus ilmestyy (”12 − 4 = 8”). Tarinoissa jotain tulee lisää, lähtee pois, yhdistetään tai verrataan, ja tuntematon voi olla missä kohdassa tahansa. Lisäksi on taso Ryhmät, jossa on yhtä suuria ryhmiä ja jakamista. Sopii opetussuunnitelman sisältöalueeseen luvut ja laskutoimitukset. Ilman ajanottoa ja ilman pisteitä."
+      ],
+      "practices": [
+        "Sen päättäminen, mihin sanallisen tehtävän osaan kukin luku kuuluu",
+        "Tuntemattoman löytäminen alusta, muutoksesta tai lopusta",
+        "Kahden määrän vertaaminen: kuinka monta enemmän, kuinka monta vähemmän",
+        "Tarinaan sopivan laskutoimituksen kirjoittaminen"
+      ],
+      "howToPlay": [
+        "Lue tarina (tai paina kaiutinta). Napauta lukukorttia ja sitten ruutua, johon luku tarinassa kuuluu.",
+        "Napauta ruutua, jota emme tiedä, niin se merkitään kysymysmerkillä, ja valitse sen ruudun − ja + -napeilla, montako niitä on.",
+        "Paina Diagnoosi-nappia ja katso filmiäsi. Jos se pysähtyy, katso hehkuvaa ruutua ja sen lausetta, muuta jotain ja yritä uudelleen.",
+        "Asetuksista valitset tarinat (10:een asti, 20:een asti tai Ryhmät) ja sen, luetaanko tarina ääneen."
+      ],
+      "learningGoals": [
+        "Ratkaista tehtäviä, joissa jotain tulee lisää, lähtee pois tai yhdistetään, 20:een asti ja tuntematon missä kohdassa tahansa",
+        "Ratkaista vertailutehtäviä: kuinka monta enemmän ja kuinka monta vähemmän",
+        "Mallintaa sanallinen tehtävä ja kirjoittaa laskutoimitus, jossa on tuntematon",
+        "Ratkaista yhtä suurten ryhmien ja jakamisen tehtäviä"
+      ]
     }
   }
 }

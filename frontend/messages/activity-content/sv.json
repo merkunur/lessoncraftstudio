@@ -3404,6 +3404,31 @@
         "Att uttrycka en känsla och skälet till den i en mening",
         "Att märka när ett meddelande är för kort eller för långt"
       ]
+    },
+    "vet-diagnosis.word-problems.1-oa-a-1": {
+      "about": [
+        "Ett djur kommer till veterinären som en röntgenbild, och dess problem är en räknehändelse: ”12 gäss simmar i dammen. Några flyger iväg. Nu är det 8.” Under berättelsen finns ljuslådan med en film, med en ruta för varje del av berättelsen. Barnet lägger berättelsens tal i de rutor där de hör hemma, markerar rutan vi inte vet och ställer in talet.",
+        "Sedan trycker barnet på Diagnos och filmen spelar barnets egen modell, mening för mening. Ligger ett tal i fel ruta stannar filmen där: rutan och dess mening lyser tillsammans. Är det inställda talet fel syns det i den sista rutan, där prickar rinner över kanten eller platser blir tomma. Ett av de tre talkorten är ett lockbete, ofta talet man får med fel räknesätt: man adderar fast berättelsen tar bort, eller tvärtom.",
+        "När filmen passar berättelsen lättar dimman, djuret blir friskt och räkneuttrycket visas (”12 − 4 = 8”). Det finns berättelser där något läggs till, tas bort, slås ihop eller jämförs, med det okända på alla platser, och nivån Grupper med lika stora grupper och delning. I linje med Lgr22 om problemlösning och taluppfattning. Utan tidtagning och utan poäng."
+      ],
+      "practices": [
+        "Att avgöra vilken del av en räknehändelse varje tal hör till",
+        "Att hitta det okända i början, i förändringen eller i slutet",
+        "Att jämföra två antal: hur många fler, hur många färre",
+        "Att skriva räkneuttrycket som passar berättelsen"
+      ],
+      "howToPlay": [
+        "Läs berättelsen (eller tryck på högtalaren). Tryck på ett talkort och sedan på rutan där talet hör hemma i berättelsen.",
+        "Tryck på rutan vi inte vet för att markera den med ett frågetecken, och ställ in med − och + i den rutan hur många det är.",
+        "Tryck på Diagnos och titta på din film. Om den stannar, titta på rutan som lyser och dess mening, ändra något och försök igen.",
+        "I inställningarna väljer du berättelser (upp till 10, upp till 20 eller Grupper) och om berättelsen ska läsas högt."
+      ],
+      "learningGoals": [
+        "Att lösa räknehändelser där något läggs till, tas bort eller slås ihop upp till 20, med det okända var som helst",
+        "Att lösa jämförelser: hur många fler och hur många färre",
+        "Att göra en modell av en räknehändelse och skriva ett räkneuttryck med det okända",
+        "Att lösa uppgifter med lika stora grupper och delning"
+      ]
     }
   }
 }

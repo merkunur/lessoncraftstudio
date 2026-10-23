@@ -4423,25 +4423,27 @@
     },
     "vet-diagnosis.word-problems.1-oa-a-1": {
       "about": [
-        "A shy little animal shuffles into the woodland vet clinic with a symptom that is really a number story — \"9 buns on a plate, 3 were eaten, how many now?\" The child models the story: drag each amount into its spot, mark the mystery part, and dial in the answer. This interactive Grade 1 math activity solves word problems within 20 in the browser with no sign-up.",
-        "The big idea is that the unknown moves around. Across the rounds the missing number can be the result, the change, the start, a missing part, or the difference in a comparison (\"12 cats and 5 dogs — how many more cats?\"). Every story also offers a decoy number that does NOT belong, so the child has to map the words to the right slots before solving — the modeling is the real work, not just the arithmetic, and all the numbers stay within 20.",
-        "It is aligned to Common Core 1.OA.A.1 — using addition and subtraction within 20 to solve word problems with the unknown in all positions. No timer, no score — just calm, playful practice."
+        "A patient comes to the vet as an x-ray, and its problem is a number story: “12 geese are on the pond. Some fly away. Now there are 8.” Under the story is the x-ray light box, a film with a frame for each part of the story. The child puts the story's numbers on the frames where they belong, marks the frame we don't know, and dials how many.",
+        "Then the child presses Diagnose and the film plays their own model, sentence by sentence. If a number sits on the wrong frame, the film stops there: the frame and its sentence glow together. If the dialled number is wrong, the last frame shows it, with dots spilling over the rim or sockets left empty. One of the three number cards is a decoy, often the number you get with the wrong operation: adding when the story takes away, or the other way round.",
+        "When the film fits the story, the fog lifts, the patient heals and the equation appears (“12 − 4 = 8”). There are add-to, take-from, put-together and compare stories with the unknown in every place, plus a Groups level for equal groups and sharing. Aligned to Common Core 1.OA.A.1. No timer and no score."
       ],
       "practices": [
-        "Read a word problem and place each known amount in the right spot",
-        "Find the unknown whether it is the result, the change, the start, a part, or a difference",
-        "Ignore a decoy number that does not belong in the story",
-        "Add and subtract within 20 to solve the problem"
+        "Deciding which part of a word problem each number belongs to",
+        "Finding the unknown at the start, in the change or at the end of a story",
+        "Comparing two amounts: how many more, how many fewer",
+        "Writing the equation that matches the story"
       ],
       "howToPlay": [
-        "Read the story and watch the x-ray act out what happened.",
-        "Drag each amount to its slot, mark the mystery part, and dial the answer.",
-        "The x-ray clears and your patient is healed; try again any time, with no timer and no score."
+        "Read the story (or press the speaker). Tap a number card, then tap the frame where that number belongs in the story.",
+        "Tap the frame we don't know to mark it with a question mark, then press − and + on that frame to set how many.",
+        "Press Diagnose and watch your film. If it stops, look at the glowing frame and its sentence, change something and try again.",
+        "In the settings, choose the stories (Within 10, Within 20 or Groups) and whether the story is read aloud."
       ],
       "learningGoals": [
-        "Solve add-and-subtract word problems within 20 with unknowns in every position — the focus of Common Core 1.OA.A.1",
-        "Model a problem before solving it, matching the words to the amounts",
-        "Handle compare problems, like how many more or how many fewer"
+        "Solve add-to, take-from and put-together problems within 20 with the unknown in any position",
+        "Solve compare problems: how many more and how many fewer",
+        "Model a word problem and write an equation with the unknown",
+        "Solve equal-groups and sharing problems"
       ]
     },
     "wake-up-pip.retell-story.rl-k-2": {

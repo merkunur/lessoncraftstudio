@@ -547,25 +547,27 @@
     },
     "numberbond.make-ten-to-add.1-oa-c-6": {
       "about": [
-        "For en sum som 8 + 5 deler barnet det andre tallet på en tallvenn slik at den ene delen fyller det første opp til ti (8 + 2 = 10), og legger så til resten (10 + 3 = 13). Denne lag-en-tier-strategien — tierovergang — kommer til live i en interaktiv matematikkaktivitet for 1. trinn som kjører rett i nettleseren, uten konto.",
-        "Den store ideen er å gjøre en vanskelig oppgave om til en lett en: kom deg fram til en grei tier, og legg så til resten. Barnet trykker for å fylle den delen som lager tieren, og tallvennen viser akkurat hvordan det andre tallet deles — så strategien er noe barnet ser og gjør, ikke noe det skal pugge.",
-        "Aktiviteten følger LK20 innenfor tall og algebra — å legge sammen opp til 20 ved hjelp av tierovergang. Den passer for 1. trinn. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "Det første tallet sitter som klosser i en tierskinne, og de tomme plassene på enden er hullet. Det andre tallet er en stang av klosser. Barnet trykker på stangen for å knekke den og drar en bit til hullet. En for lang bit spretter tilbake, en for kort lar tomme plasser lyse, og bare den biten som passer nøyaktig, fyller opp tieren.",
+        "Når tieren er full, blir skinnen gyllen, og regnestripen viser strategien, for eksempel 8 + 5 = 8 + 2 + 3 = 10 + 3. Resten av stangen ligger ved siden av den gylne tieren på enerhylla, og barnet skriver summen. Er det første tallet minst, kan en bytteknapp legge det største tallet i skinnen i stedet.",
+        "En feil sum tegnes på hyllene som en spøkelsestier og spøkelsesenere. Den vanlige feilen å legge til hele det andre tallet etter tieren (8 + 5 → 15) får ekstra spøkelsesplasser til å lyse, med en tråd inn i tieren: De klossene sitter nå i tieren. Etter to feil svar står det 10 på tieren, slik at barnet kan telle videre. I tråd med LK20 om tall og regning. Uten tidtaking og uten poeng."
       ],
       "practices": [
-        "Dele et tall i to deler på en tallvenn.",
-        "Fylle det første tallet opp til en tier (8 + 2 = 10).",
-        "Legge resten til tieren for å fullføre (10 + 3 = 13).",
-        "Bygge flytende og fleksibel addisjon opp til 20."
+        "Å legge sammen over tieren opp til 20: 8 + 5 = 10 + 3",
+        "Å dele opp et tall slik at én del fyller opp tieren",
+        "Å kunne tallet som fyller opp til 10, for eksempel 7 og 3",
+        "Å se et tall fra 11 til 19 som en tier og noen enere"
       ],
       "howToPlay": [
-        "Se på en sum som 8 + 5 vist på en tallvenn.",
-        "Trykk for å fylle den delen som lager en tier med det første tallet, og legg så til resten.",
-        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+        "Trykk på stangen for å knekke den i biter. Den runde pilen setter den sammen igjen.",
+        "Dra en bit til hullet i tierskinnen. Bare den biten som passer nøyaktig, kommer inn: En for lang spretter tilbake, en for kort lar et hull stå igjen.",
+        "Når tieren er gyllen, skriver du summen og trykker på haken.",
+        "I innstillingene velger du nivå (Legg sammen over tieren eller Opp til 10) og modus (Knekk først eller I hodet). I modusen «I hodet» skriver barnet summen først, og ved en feil knekker stangen av seg selv."
       ],
       "learningGoals": [
-        "Barnet kan legge sammen opp til 20 ved hjelp av tierovergang.",
-        "Barnet kan dele et tall opp for å lage en grei tier.",
-        "Barnet legger sammen fleksibelt i stedet for å telle hvert tall ett og ett."
+        "Å legge sammen opp til 20 over tieren",
+        "Å dele opp det andre tallet slik at én del fyller opp tieren",
+        "Å kunne tallparene som blir 10",
+        "Å forstå et tall fra 11 til 19 som en tier og enere"
       ]
     },
     "place-value.tens-and-ones.1-nbt-b-2": {

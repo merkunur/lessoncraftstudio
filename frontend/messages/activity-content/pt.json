@@ -1295,25 +1295,27 @@
     },
     "numberbond.make-ten-to-add.1-oa-c-6": {
       "about": [
-        "Para resolver uma conta como 8 + 5, a criança separa o segundo número em um diagrama de partes, de modo que uma parte complete o primeiro até dez (8 + 2 = 10), e depois soma o que sobrou (10 + 3 = 13). Essa estratégia de fazer uma dezena ganha vida numa atividade interativa de matemática para o 1º ano, que roda direto no navegador, sem conta.",
-        "A grande ideia é transformar uma conta difícil numa conta fácil: chegar a uma dezena amiga e depois somar o que faltou. A criança toca para preencher a parte que forma a dezena, e o diagrama mostra exatamente como o segundo número se separa — então a estratégia é algo que ela vê e faz, e não algo que precisa decorar.",
-        "A atividade está alinhada à BNCC, na unidade temática Números, somando até 20 usando a estratégia de fazer uma dezena. Sem cronômetro, sem pontuação: só prática calma no tempo de cada criança."
+        "O primeiro número está num trilho de dez feito de cubinhos, e os lugares vazios no fim são o buraco. O segundo número é uma barra de cubinhos. A criança toca na barra para quebrá-la e arrasta um pedaço até o buraco. Um pedaço comprido demais volta, um curto demais deixa lugares vazios brilhando, e só o pedaço exato completa a dezena.",
+        "Quando a dezena está completa, o trilho fica dourado e a faixa da conta mostra a estratégia, como em 8 + 5 = 8 + 2 + 3 = 10 + 3. O resto da barra fica ao lado da dezena dourada na prateleira das unidades, e a criança digita o total. Se o primeiro número for o menor, um botão de troca põe o número maior no trilho.",
+        "Um total errado é desenhado nas prateleiras como uma dezena fantasma e unidades fantasma. O erro comum de somar o segundo número inteiro depois de completar a dezena (8 + 5 → 15) faz brilhar lugares fantasma a mais, com um fio até a dezena: esses cubinhos agora estão dentro da dezena. No segundo erro, a dezena mostra um 10 para a criança continuar contando. De acordo com a BNCC, na unidade de números. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Separar um número em duas partes no diagrama.",
-        "Completar o primeiro número até uma dezena (8 + 2 = 10).",
-        "Somar a parte que sobrou à dezena para terminar (10 + 3 = 13).",
-        "Desenvolver uma adição fluente e flexível até 20."
+        "Somar até 20 completando a dezena: 8 + 5 = 10 + 3",
+        "Decompor um número em duas partes para que uma complete o 10",
+        "Conhecer o número que completa o 10, como 7 e 3",
+        "Ver um número de 11 a 19 como uma dezena e algumas unidades"
       ],
       "howToPlay": [
-        "Olhe uma conta como 8 + 5 mostrada no diagrama de partes.",
-        "Toque para preencher a parte que forma uma dezena com o primeiro número e depois some o que sobrou.",
-        "Não acertou? Tente de novo quantas vezes quiser — não tem cronômetro nem pontuação."
+        "Toque na barra para quebrá-la em pedaços. A seta redonda junta a barra de novo.",
+        "Arraste um pedaço até o buraco do trilho de dez. Só o pedaço exato entra: um comprido demais volta, um curto demais deixa um buraco.",
+        "Quando a dezena ficar dourada, digite o total e toque no sinal de certo.",
+        "Nas configurações, escolha o nível (Completar a dezena para somar ou Formar 10) e o modo (Quebrar primeiro ou De cabeça). No modo “De cabeça”, a criança digita o total primeiro, e num erro a barra se quebra sozinha."
       ],
       "learningGoals": [
-        "Somar até 20 usando a estratégia de fazer uma dezena.",
-        "Separar um número para formar uma dezena amiga.",
-        "Somar de forma flexível, em vez de contar de um em um."
+        "Somar até 20 completando a dezena",
+        "Decompor o segundo número para que uma parte complete a dezena",
+        "Conhecer os pares que formam 10",
+        "Entender um número de 11 a 19 como uma dezena e unidades"
       ]
     },
     "place-value.tens-and-ones.1-nbt-b-2": {

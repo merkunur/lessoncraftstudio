@@ -2844,25 +2844,27 @@
     },
     "numberbond.make-ten-to-add.1-oa-c-6": {
       "about": [
-        "Para una suma como 8 + 5, el niño o la niña separa el segundo número en un enlace numérico de modo que una parte complete el primero hasta diez (8 + 2 = 10), y luego suma lo que sobra (10 + 3 = 13). Esta estrategia de «hacer una decena» cobra vida en una actividad de matemáticas interactiva para primero de primaria que corre directo en el navegador, sin crear cuenta.",
-        "La idea clave es convertir una suma difícil en una fácil: llegar a una decena amigable y después sumar lo que quedó. Tu hijo o hija toca para llenar la parte que hace la decena, y el enlace numérico muestra exactamente cómo se separa el segundo número, así que la estrategia es algo que ve y hace, no algo que memoriza.",
-        "Está alineada con los planes y programas de estudio (SEP): sumar hasta el 20 usando la estrategia de hacer una decena. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+        "El primer número está en un riel de diez hecho de cubos, y los lugares vacíos del final son el hueco. El segundo número es una barra de cubos. El niño toca la barra para partirla y arrastra un trozo al hueco. Un trozo demasiado largo rebota, uno demasiado corto deja lugares vacíos brillando, y solo el trozo exacto completa la decena.",
+        "Cuando la decena está completa, el riel se vuelve dorado y la tira de la operación muestra la estrategia, como en 8 + 5 = 8 + 2 + 3 = 10 + 3. El resto de la barra queda junto a la decena dorada en la repisa de las unidades, y el niño escribe el total. Si el primer número es el menor, un botón de cambio pone el número mayor en el riel.",
+        "Un total equivocado se dibuja en las repisas como una decena fantasma y unidades fantasma. El error frecuente de sumar todo el segundo número después de completar la decena (8 + 5 → 15) hace brillar lugares fantasma de más, con un hilo hacia la decena: esos cubos ya están dentro de la decena. En el segundo error, la decena muestra un 10 para que el niño siga contando. En línea con los planes de estudio de la SEP, en el eje de número. Sin cronómetro y sin puntaje."
       ],
       "practices": [
-        "Separar un número en dos partes en un enlace numérico.",
-        "Completar el primer número hasta una decena (8 + 2 = 10).",
-        "Sumar la parte que sobra a la decena para terminar (10 + 3 = 13).",
-        "Desarrollar una suma fluida y flexible hasta el 20."
+        "Sumar hasta 20 completando la decena: 8 + 5 = 10 + 3",
+        "Descomponer un número en dos partes para que una complete el 10",
+        "Conocer el número que completa el 10, como 7 y 3",
+        "Ver un número del 11 al 19 como una decena y algunas unidades"
       ],
       "howToPlay": [
-        "Mira una suma como 8 + 5 mostrada en un enlace numérico.",
-        "Toca para llenar la parte que hace una decena con el primer número y luego suma lo que sobra.",
-        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntuación."
+        "Toca la barra para partirla en trozos. La flecha redonda la vuelve a unir.",
+        "Arrastra un trozo al hueco del riel de diez. Solo cabe el trozo exacto: uno demasiado largo rebota y uno demasiado corto deja un hueco.",
+        "Cuando la decena esté dorada, escribe el total y toca la palomita.",
+        "En la configuración eliges el nivel (Completar la decena para sumar o Formar 10) y el modo (Primero partir o Mentalmente). En el modo «Mentalmente», el niño escribe primero el total, y si se equivoca la barra se parte sola."
       ],
       "learningGoals": [
-        "Tu hijo o hija puede sumar hasta el 20 usando la estrategia de hacer una decena.",
-        "El niño o la niña aprende a separar un número para formar una decena amigable.",
-        "Suma con flexibilidad en lugar de contar cada número de uno en uno."
+        "Sumar hasta 20 completando la decena",
+        "Descomponer el segundo número para que una parte complete la decena",
+        "Conocer las parejas que suman 10",
+        "Entender un número del 11 al 19 como una decena y unidades"
       ]
     },
     "place-value.tens-and-ones.1-nbt-b-2": {

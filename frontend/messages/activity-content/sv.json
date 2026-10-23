@@ -659,25 +659,27 @@
     },
     "numberbond.make-ten-to-add.1-oa-c-6": {
       "about": [
-        "För en summa som 8 + 5 delar barnet upp det andra talet på en talkompis så att en del fyller det första talet upp till tio (8 + 2 = 10), och adderar sedan det som blir kvar (10 + 3 = 13). Den här strategin med tiotalsövergång kommer till liv i en interaktiv matteövning för årskurs 1 som spelas direkt i webbläsaren utan konto.",
-        "Den stora idén är att förvandla ett knepigt tal till ett lätt: ta dig först till en vänlig tia och addera sedan resten. Barnet trycker för att fylla den del som gör tian, och talkompisen visar exakt hur det andra talet delas upp — så strategin är något barnet ser och gör, inte något det måste lära sig utantill.",
-        "Aktiviteten är anpassad till Lgr22 inom taluppfattning och algebra: att addera inom 20 med hjälp av strategin att göra en tia. Den här interaktiva övningen passar årskurs 1. Ingen timer, inga poäng — bara lugn, lekfull träning."
+        "Det första talet sitter som kuber i en tioskena, och de tomma platserna i slutet är luckan. Det andra talet är en stav av kuber. Barnet trycker på staven för att bryta den och drar en bit till luckan. En för lång bit studsar tillbaka, en för kort lämnar tomma platser som lyser, och bara den bit som passar exakt fyller tiotalet.",
+        "När tiotalet är fullt blir skenan gyllene och räkneremsan visar strategin, till exempel 8 + 5 = 8 + 2 + 3 = 10 + 3. Resten av staven ligger bredvid det gyllene tiotalet på entalshyllan, och barnet skriver summan. Är det första talet det mindre kan en bytesknapp lägga det större talet i skenan i stället.",
+        "En fel summa ritas på hyllorna som ett spöktiotal och spökental. Det vanliga misstaget att lägga till hela det andra talet efter tiotalet (8 + 5 → 15) får extra spökplatser att lysa, med en tråd in i tiotalet: de kuberna sitter nu i tiotalet. Efter den andra missen står det 10 på tiotalet, så att barnet kan räkna vidare. I linje med Lgr22, centralt innehåll om taluppfattning och tals användning. Utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Dela upp ett tal i två delar på en talkompis",
-        "Fylla det första talet upp till en tia (8 + 2 = 10)",
-        "Addera den kvarvarande delen till tian för att bli klar (10 + 3 = 13)",
-        "Bygga säker och flexibel addition inom 20"
+        "Att addera över tiotalet upp till 20: 8 + 5 = 10 + 3",
+        "Att dela upp ett tal så att en del fyller tiotalet",
+        "Att kunna talet som fyller upp till 10, till exempel 7 och 3",
+        "Att se ett tal mellan 11 och 19 som ett tiotal och några ental"
       ],
       "howToPlay": [
-        "Titta på en summa som 8 + 5 som visas på en talkompis.",
-        "Tryck för att fylla den del som gör en tia med det första talet, och addera sedan det som blir kvar.",
-        "Blev det inte rätt? Försök igen så många gånger du vill — det finns ingen timer och inga poäng."
+        "Tryck på staven för att bryta den i bitar. Den runda pilen sätter ihop den igen.",
+        "Dra en bit till luckan i tioskenan. Bara den bit som passar exakt kommer in: en för lång studsar tillbaka, en för kort lämnar en lucka.",
+        "När tiotalet är gyllene skriver du summan och trycker på bocken.",
+        "I inställningarna väljer du nivå (Addera över tiotalet eller Upp till 10) och läge (Bryt först eller I huvudet). I läget ”I huvudet” skriver barnet summan först, och vid ett fel bryts staven av sig själv."
       ],
       "learningGoals": [
-        "Barnet kan addera inom 20 med strategin att göra en tia",
-        "Barnet kan dela upp ett tal för att skapa en vänlig tia",
-        "Barnet adderar flexibelt i stället för att räkna varje tal ett och ett"
+        "Att addera upp till 20 över tiotalet",
+        "Att dela upp det andra talet så att en del fyller tiotalet",
+        "Att kunna talpar som blir 10",
+        "Att förstå ett tal mellan 11 och 19 som ett tiotal och ental"
       ]
     },
     "place-value.tens-and-ones.1-nbt-b-2": {

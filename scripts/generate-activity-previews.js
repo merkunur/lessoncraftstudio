@@ -239,6 +239,10 @@ function seedScript(row) {
     // 8 + 3: the 8 already poured under the checked cloth (its number on the tag), one car posted, two waiting — the covered first part that forces counting on, the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.task='total';t.api.settings.coat='pictures';t._pool=null;t._ensurePool();t._start(4);var C=window.BondBasketCore,s=t.st;C.pour(s,'L');C.post(s);t._view={};t._render2();})()`;
   }
+  if (row.tool === 'ten-plug-activity') {
+    // 8 + 5: the stick snapped 2 | 3, the 2 plugged into the ten-rack's hole — the rack gold, the 3 waiting beside the golden ten on the shelves — the invention at work
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.level='add';t.api.settings.mode='snap';t._pool=null;t._ensurePool();t._start(0);var C=window.TenPlugCore,s=t.st;var two=C.snap(s,s.pieces[0].id,2);C.plug(s,two[0].id);t._view={};t._render2();})()`;
+  }
   if (row.tool === 'turning-domino-activity') {
     // 12 − ? = 7 found: the domino whole, turned, the 7 half broken off into the tray, the house holding three of its four facts — one domino, a whole fact family, the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.numbers='w20';t.api.settings.house='on';t._pool=null;t._ensurePool();t._start(3);var C=window.TurningDominoCore,s=t.st;C.setDial(s,5);C.check(s);C.turn(s);C.breakOff(s,'right');t._view={stamp:-1};t._render2();})()`;

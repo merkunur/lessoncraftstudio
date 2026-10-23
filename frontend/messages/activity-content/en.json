@@ -2871,25 +2871,27 @@
     },
     "numberbond.make-ten-to-add.1-oa-c-6": {
       "about": [
-        "For a sum like 8 + 5, children break the second number on a number bond so one part fills the first up to ten (8 + 2 = 10), then add what is left (10 + 3 = 13). This make-a-ten strategy comes to life in an interactive Grade 1 math activity that plays right in the browser with no account.",
-        "The big idea is to turn a tricky fact into an easy one: get to a friendly ten, then add the leftover. The child taps to fill the make-a-ten part of the bond, and the bond shows exactly how the second number splits — so the strategy is something they see and do, not something they memorize.",
-        "It is aligned to Common Core 1.OA.C.6 — adding within 20 using the make-a-ten strategy. No timer, no score — just calm, playful practice."
+        "The first number sits in a ten-rack of linking cubes, and the empty slots at its end are the hole. The second number is a stick of cubes. The child taps the stick to snap it and drags a piece into the hole. A piece that is too long bounces back, one that is too short leaves empty slots glowing, and only the exact piece fills the ten.",
+        "When the ten is full, the rack turns gold and the equation strip shows the strategy, as in 8 + 5 = 8 + 2 + 3 = 10 + 3. The rest of the stick waits beside the golden ten on the ones shelf, and the child types the total. Where the first number is the smaller one, a swap button lets the bigger number go into the rack instead.",
+        "A wrong total is drawn on the shelves as a ghost ten and ghost ones. The common slip of adding the whole second number after making ten (8 + 5 → 15) shows extra ghost places glowing, with a thread into the ten: those cubes are inside the ten now. On a second miss, the ten is labelled 10 so the child can count on. Aligned to Common Core 1.OA.C.6. No timer and no score."
       ],
       "practices": [
-        "Break a number into two parts on a number bond",
-        "Fill the first number up to a ten (8 + 2 = 10)",
-        "Add the leftover part to the ten to finish (10 + 3 = 13)",
-        "Build fluent, flexible addition within 20"
+        "Making a ten to add within 20: 8 + 5 = 10 + 3",
+        "Breaking a number into two parts so one part makes 10",
+        "Knowing the partner that makes 10, such as 7 and 3",
+        "Seeing a teen number as a ten and some ones"
       ],
       "howToPlay": [
-        "Look at a sum like 8 + 5 shown on a number bond.",
-        "Tap to fill the part that makes a ten with the first number, then add what is left.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Tap the stick to snap it into pieces. The round arrow joins it again.",
+        "Drag a piece into the hole in the ten-rack. Only the exact piece fits: too long bounces back, too short leaves a gap.",
+        "When the ten is gold, type the total and press the tick.",
+        "In the settings, choose the level (Make a ten to add or Make 10) and the mode (Snap first or In my head). In “In my head” mode, the child types the total first, and a miss shows the snap by itself."
       ],
       "learningGoals": [
-        "Add within 20 using the make-a-ten strategy — the focus of Common Core 1.OA.C.6",
-        "Break a number apart to make a friendly ten",
-        "Add flexibly instead of counting every number one by one"
+        "Add within 20 by making a ten",
+        "Break the second number so one part completes the ten",
+        "Know the pairs that make 10",
+        "Understand a teen number as a ten and some ones"
       ]
     },
     "numberbond.make-ten.k-oa-a-4": {

@@ -2660,24 +2660,27 @@
     },
     "numberbond.make-ten-to-add.1-oa-c-6": {
       "about": [
-        "Pour une somme comme 8 + 5, l'enfant décompose le second nombre sur une maison des nombres pour qu'une partie complète le premier jusqu'à dix (8 + 2 = 10), puis ajoute ce qu'il reste (10 + 3 = 13). Cette stratégie du passage de la dizaine prend vie dans une activité de mathématiques de CP, interactive, qui se joue directement dans le navigateur, sans compte.",
-        "La grande idée, c'est de transformer une addition difficile en une addition facile : atteindre une dizaine bien ronde, puis ajouter le reste. L'enfant touche pour remplir la partie qui fait dix, et la maison des nombres montre exactement comment le second nombre se partage — la stratégie est donc quelque chose qu'il voit et qu'il fait, pas quelque chose qu'il mémorise. L'activité est alignée sur les programmes officiels : ni minuteur, ni score, juste un entraînement calme et ludique."
+        "Le premier nombre est posé dans un rail de dix fait de cubes, et les places vides au bout forment le trou. Le second nombre est une barre de cubes. L’enfant touche la barre pour la casser et fait glisser un morceau dans le trou. Un morceau trop long rebondit, un morceau trop court laisse des places vides allumées, et seul le morceau exact complète la dizaine.",
+        "Quand la dizaine est pleine, le rail devient doré et la bande du calcul montre la stratégie, comme dans 8 + 5 = 8 + 2 + 3 = 10 + 3. Le reste de la barre attend à côté de la dizaine dorée sur l’étagère des unités, et l’enfant tape le total. Quand le premier nombre est le plus petit, un bouton d’échange met le plus grand nombre dans le rail.",
+        "Un total erroné est dessiné sur les étagères comme une dizaine fantôme et des unités fantômes. L’erreur fréquente qui consiste à ajouter tout le second nombre après avoir fait la dizaine (8 + 5 → 15) allume des places fantômes en trop, avec un fil vers la dizaine : ces cubes sont maintenant dans la dizaine. Au deuxième essai manqué, la dizaine porte un 10 pour que l’enfant compte à partir de là. En lien avec les programmes officiels pour les nombres et le calcul. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Décomposer un nombre en deux parties sur une maison des nombres.",
-        "Compléter le premier nombre jusqu'à une dizaine (8 + 2 = 10).",
-        "Ajouter la partie restante à la dizaine pour terminer (10 + 3 = 13).",
-        "Construire une addition jusqu'à 20 fluide et souple."
+        "Additionner jusqu’à 20 en passant par la dizaine : 8 + 5 = 10 + 3",
+        "Décomposer un nombre en deux parties pour que l’une complète 10",
+        "Connaître le complément à 10, comme 7 et 3",
+        "Voir un nombre de 11 à 19 comme une dizaine et des unités"
       ],
       "howToPlay": [
-        "Regarde une somme comme 8 + 5 affichée sur une maison des nombres.",
-        "Touche pour remplir la partie qui fait une dizaine avec le premier nombre, puis ajoute ce qu'il reste.",
-        "Pas tout à fait ? Recommence autant de fois que tu veux : il n'y a ni minuteur, ni score."
+        "Touche la barre pour la casser en morceaux. La flèche ronde la recolle.",
+        "Fais glisser un morceau dans le trou du rail de dix. Seul le morceau exact rentre : un trop long rebondit, un trop court laisse un trou.",
+        "Quand la dizaine est dorée, tape le total et appuie sur la coche.",
+        "Dans les réglages, choisis le niveau (Passer par la dizaine ou Faire 10) et le mode (D’abord casser ou Dans ma tête). En mode « Dans ma tête », l’enfant tape d’abord le total, et à une erreur la barre se casse toute seule."
       ],
       "learningGoals": [
-        "Additionner jusqu'à 20 grâce au passage de la dizaine.",
-        "Décomposer un nombre pour faire une dizaine bien ronde.",
-        "Additionner avec souplesse au lieu de compter chaque nombre un par un."
+        "Additionner jusqu’à 20 en passant par la dizaine",
+        "Décomposer le second nombre pour qu’une partie complète la dizaine",
+        "Connaître les compléments à 10",
+        "Comprendre un nombre de 11 à 19 comme une dizaine et des unités"
       ]
     },
     "place-value.tens-and-ones.1-nbt-b-2": {

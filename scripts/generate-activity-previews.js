@@ -231,6 +231,10 @@ function seedScript(row) {
     // three peaches climbing the shelf for a ticket of 3: the second plate has opened the word's ending slot, glowing empty — the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.level='l2';t.api.settings.answer='tiles';t._pool=null;var pool=t._ensurePool();var C=window.PlateStackCore,i=pool.filter(function(x){return C.round('en','l2',x).key==='peach';})[0];if(i===undefined)return;var order=[i];for(var k=0;k<pool.length;k++)if(pool[k]!==i)order.push(pool[k]);t._order=order;t._orderForPool=pool;window.LCS_reloadFirstTask();var s=t.st;C.add(s);C.add(s);t._view={};t._paint();})()`;
   }
+  if (row.tool === 'question-lamp-activity') {
+    // "Who" in the gap of a when-question: the lamp has swung onto the chef and lights him, while the gold card is "at night" — the invention at work
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.level='l2';t.api.settings.answer='keys';t._pool=null;t._ensurePool();t._start(2);t._render2();var k=document.querySelector('.ql-key[data-k="key-who"]');if(k)k.click();var c=document.querySelector('.ql-check');if(c)c.click();})()`;
+  }
   if (row.tool === 'rewind-rail-activity') {
     // t written on its own with the cross first: the rewind stopped at the slip — the two tracks' first colours differ, the flag on the rail, both letters half re-written — the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.letters='s1';t.api.settings.steps='own';t._pool=null;var pool=t._ensurePool();var i=pool.indexOf('t');if(i<0)return;var order=[i];for(var k=0;k<pool.length;k++)if(k!==i)order.push(k);t._order=order;t._orderForPool=pool;window.LCS_reloadFirstTask();var C=window.RewindRailCore,s=t.st,L=C.lanes(s.r.strokes);[1,0].forEach(function(k){var p=L[k].pts;C.down(s,p[0]);for(var j=1;j<p.length;j++)C.move(s,p[j]);C.up(s);});t._check();t._view.u=0.62;t._paint();})()`;

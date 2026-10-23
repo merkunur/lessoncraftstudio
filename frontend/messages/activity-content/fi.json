@@ -2433,6 +2433,29 @@
         "Lapsi valitsee oikean monikon päätteen",
         "Lapsi muodostaa yksikön poistamalla päätteen"
       ]
+    },
+    "wren-question-window.question-words.l-k-1-d": {
+      "about": [
+        "Jokainen kysymyssana on lamppu, joka valaisee yhdenlaista vastausta: kuka henkilöä, mitä asiaa, missä paikkaa, milloin aikaa, miksi syytä ja miten tapaa. Wrenin ikkunalla vastaus on kuvakortteina lamppukiskon alla, ja yhdessä kortissa on kultainen kehys.",
+        "Lapsi laittaa kysymyssanan aukkoon ja painaa ”Tarkista”. Messinkilamppu liukuu kiskoa pitkin ja valaisee sen kortin, josta sana kysyy: kultaisen kortin, kun sana on oikea, ja toisen kortin (tai ei mitään), kun se ei ole. Jokaisessa kierroksessa on tasan yksi oikea sana. Oikean vastauksen jälkeen lamppu käy jokaisen kuvakortin luona vuorollaan, ja kunkin kohdalla näkyy sana, joka kysyy siitä.",
+        "Viisi ryhmää: kuka, mitä ja missä; myös milloin; myös miksi ja miten; kysymyksen ja vastauksen yhdistäminen; ja vastausten lajittelu kolmen lampun alle. Kohdassa ”Vastaus” lapsi voi myös kirjoittaa kysymyssanan itse. Opetussuunnitelman mukaisesti, ilman ajanottoa ja ilman pisteitä."
+      ],
+      "practices": [
+        "Sen tietäminen, mitä kukin kysymyssana kysyy",
+        "Kuka-sanan valitseminen henkilölle ja mitä-sanan asialle",
+        "Missä (paikka) ja milloin (aika) -sanojen erottaminen",
+        "Miksi-sanan valitseminen syylle ja miten-sanan tavalle"
+      ],
+      "howToPlay": [
+        "Katso kultaista korttia. Napauta kysymyssanaa, joka kysyy siitä, ja paina sitten ”Tarkista”.",
+        "Katso, mihin lamppu osuu. Jos se valaisee toisen kortin, sana kysyy jotakin muuta.",
+        "Kohdasta ”Kysymyssanat” valitset ryhmän, esimerkiksi ”Myös milloin” tai ”Lajittele”, ja kohdasta ”Vastaus” voit valita ”Kirjoita itse”."
+      ],
+      "learningGoals": [
+        "Lapsi tietää, että jokainen kysymyssana kysyy yhdenlaista vastausta",
+        "Lapsi valitsee vastaukseen sopivan kysymyssanan",
+        "Lapsi lajittelee vastaukset sen mukaan, mihin kysymykseen ne vastaavat"
+      ]
     }
   }
 }

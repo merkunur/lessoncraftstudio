@@ -540,25 +540,25 @@
     },
     "wren-question-window.question-words.l-k-1-d": {
       "about": [
-        "Alla finestrella della tavola calda di Wren i clienti arrivano di corsa e le loro domande partono sempre senza la prima parola.",
-        "Toccando Chi, Cosa, Dove, Quando, Perché o Come, il bambino rimette al posto giusto la parola interrogativa e aiuta Wren a capire ogni ordinazione.",
-        "Ogni domanda completata è una piccola conquista, senza fretta e senza voti."
+        "Ogni parola per fare domande è una lampada che illumina un solo tipo di risposta: chi una persona, che cosa una cosa, dove un luogo, quando un momento, perché un motivo e come il modo. Alla finestrella di Wren la risposta sta sotto un binario con una lampada, in carte illustrate, e una carta ha una cornice dorata.",
+        "Il bambino mette una parola nello spazio e preme «Controlla». La lampada d’ottone scorre lungo il binario e illumina la carta che quella parola riguarda: la carta dorata se la parola è giusta, un’altra carta (o niente) se non lo è. Ogni turno ha una sola parola giusta. Dopo una risposta giusta, la lampada passa su ogni carta illustrata, ognuna con la parola che la riguarda.",
+        "Cinque gruppi: chi, che cosa e dove; con quando; con perché e come; abbinare una domanda alla sua risposta; e mettere le risposte sotto tre lampade. In «Risposta» il bambino può anche scrivere la parola. In linea con le Indicazioni nazionali, senza cronometro e senza punti."
       ],
       "practices": [
-        "Riconoscere le parole interrogative",
-        "Completare una domanda con la parola giusta",
-        "Capire che cosa chiede ogni domanda",
-        "Distinguere tra chi, cosa, dove, quando, perché e come"
+        "Sapere che cosa chiede ogni parola per fare domande",
+        "Scegliere chi per una persona e che cosa per una cosa",
+        "Distinguere dove (un luogo) da quando (un momento)",
+        "Scegliere perché per un motivo e come per il modo"
       ],
       "howToPlay": [
-        "Leggi la domanda del cliente alla finestrella.",
-        "Pensa a che cosa vuole sapere.",
-        "Tocca la parola interrogativa giusta per completarla."
+        "Guarda la carta dorata. Tocca la parola che la riguarda, poi premi «Controlla».",
+        "Guarda dove illumina la lampada. Se illumina un’altra carta, quella parola chiede un’altra cosa.",
+        "In «Parole per le domande» scegli un gruppo come «Con quando» o «Ordina», e in «Risposta» scegli «Scrivila tu»."
       ],
       "learningGoals": [
-        "Familiarizzare con le parole interrogative di uso quotidiano",
-        "Costruire domande complete e con senso",
-        "Pensata per la classe prima e allineata alle Indicazioni nazionali"
+        "Il bambino sa che ogni parola per fare domande chiede un tipo di risposta",
+        "Il bambino sceglie la parola adatta a una risposta",
+        "Il bambino ordina le risposte secondo la domanda a cui rispondono"
       ]
     },
     "ziggy-odd-one-out.category.l-1-5-a": {

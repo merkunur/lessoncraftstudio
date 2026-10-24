@@ -71,6 +71,8 @@ ORDER row 89 · id `fix-it-corner.missing-part.1-oa-d-8` (kept). Design: `design
 | hierarchy | 758 / 0 |
 | settings-efficacy | 2 live |
 | preflight, prose-claims, serp-copy | green |
+| variety (production, en) | 9 distinct, pass 2 reshuffled |
+| live-verify-two-gauges (11 pages 200; en/de/sv/fi × 1366/390, real pointer on 6 + 6 = □ + 4: at rest 12 / 0, 10 sweeps the right needle to 14 (hGap), 8 balances (okBal)) | 67 / 0 (the first run, inside the deploy window, saw no iframe in de-phone/sv/fi) |
 
 ## Open (page metadata — for the operator)
 - **Sign-up claims:** nl "zonder registratie", es "sin registro", it "senza registrazione", pt "Sem cadastro", fr "sans inscription".

@@ -1382,25 +1382,28 @@
     },
     "sharing-jar.make-fair.1-oa-d-8": {
       "about": [
-        "Pim und Bo schöpfen mit ihren Kellen bunte Perlen in zwei Gläser — mal sind es ein paar mehr, mal ein paar weniger, und manchmal ist sogar eine Handvoll danebengekullert. In dieser interaktiven Mathe-Aktivität für die Klasse 1 hilfst du den beiden, die fehlende Zahl herauszufinden: Wie viele Perlen fehlen noch, wie viele sind es mehr, wie viele sind verschüttet? Du tippst einfach auf die richtige Zahl von 0 bis 10 — fertig.",
-        "Im Mittelpunkt steht eine Idee, die Kinder sofort verstehen: Es soll gerecht zugehen, beide Gläser sollen am Ende gleich viele Perlen enthalten. Aus dieser kleinen Geschichte werden ganz natürlich echte Rechenfragen: ergänzen bis zur Gleichheit, den Unterschied bestimmen, verschüttete Perlen wiederherstellen oder herausfinden, wie viele am Anfang im Glas waren. So üben Kinder das Ergänzen und die Umkehraufgaben im Zahlenraum bis 12 — eingebettet in eine Situation, die sie aus dem Alltag kennen.",
-        "Die Aktivität bringt fünf verschiedene Fragetypen mit, die sich abwechseln, damit die Kinder die fehlende Zahl aus immer neuen Blickwinkeln entdecken — nicht stur dasselbe Muster. Es gibt keine Uhr, keine Punkte und keinen Wettlauf: Kinder dürfen in Ruhe überlegen, ausprobieren und nachdenken. Die Aufgaben orientieren sich am Lehrplan der Grundschulmathematik (Zahlen und Operationen) und eignen sich für die Schule wie für zu Hause."
+        "Igel Pim und Maus Bo haben je ein Glas mit Perlen, und über beide Gläser ist ein goldenes Band in der fairen Höhe gespannt. Das Kind sagt zuerst eine Zahl, indem es auf ein Kärtchen tippt, drückt dann auf Prüfen – und genau so viele Perlen bewegen sich. Mit der richtigen Zahl halten die Perlen genau am Band an, und die beiden Freunde neigen sich einander zu. Sind es zu wenige, bleibt eine Lücke unter dem Band oder es liegen noch Perlen darüber; sind es zu viele, geht es über das Band hinaus, und jetzt hat der andere Freund weniger.",
+        "Es gibt fünf Arten von Geschichten: wie viele einem Glas noch fehlen (3 + □ = 5), wie viele ein Freund mehr hat (6 − 2 = □), wie viele Pim zurückgeben muss (7 − □ = 4), wie viele zurück auf den Haufen müssen (6 − □ = 4) und wie viele Bo am Anfang hatte (□ + 4 = 7). In einer Anfangs-Runde färbt die Zahl des Kindes so viele Perlen von unten ein, und sie müssen genau auf die leuchtenden neuen Perlen treffen. Nach dem zweiten Versuch werden die fehlenden oder überzähligen Perlen nummeriert, sodass das Kind den Unterschied zählen kann.",
+        "Durchsichtige Gläser gehen bis 10; Milchgläser bis 20, mit der Zahl jedes Glases auf dem Deckel – beim Prüfen wird das Milchglas klar. Ein Tipp auf ein Glas lässt seine Perlen nacheinander aufleuchten. Passend zum Lehrplan im Bereich Zahlen und Operationen. Ohne Zeitdruck und ohne Punktwertung."
       ],
       "practices": [
-        "Die fehlende oder unbekannte Zahl in einer Plus-Minus-Beziehung bestimmen (Ergänzen).",
-        "Zwei Mengen vergleichen und den Unterschied angeben („Wie viele mehr?“).",
-        "Verschüttete Perlen wiederherstellen und herausfinden, wie viele am Anfang im Glas waren (Umkehraufgabe / Anfangszahl gesucht).",
-        "Mengen so ergänzen oder verkleinern, dass beide Gläser gleich viele Perlen enthalten."
+        "Die fehlende Zahl in einer Plus- oder Minusgeschichte finden: was dazukommt, den Unterschied, was weggenommen wird oder die Anfangszahl",
+        "Zwei Mengen vergleichen und gleich machen",
+        "Von der kleineren Menge bis zur größeren weiterzählen",
+        "Eine Antwort prüfen, indem man sieht, was genau so viele Perlen tun"
       ],
       "howToPlay": [
-        "Schau dir an, wie viele Perlen Pim und Bo in ihren Gläsern haben, und lies die Frage.",
-        "Überlege, welche Zahl fehlt — wie viele noch dazu müssen, wie viele mehr es sind oder wie viele am Anfang da waren.",
-        "Tippe auf die passende Zahl von 0 bis 10. Stimmt sie, geht es weiter zur nächsten Perlen-Frage."
+        "Lies die Frage und schau dir die beiden Gläser und das goldene Band an.",
+        "Tippe auf das Kärtchen mit der Zahl, die du für richtig hältst, und drücke dann auf Prüfen.",
+        "Schau den Perlen zu: Bei der richtigen Zahl halten sie am Band an. Bleibt eine Lücke oder gehen Perlen über das Band hinaus, wähle eine andere Zahl und prüfe noch einmal.",
+        "Tippe auf ein Glas, damit seine Perlen nacheinander aufleuchten, und zähle sie.",
+        "In den Einstellungen wählst du die Gläser (durchsichtig bis 10 oder Milchglas bis 20) und die Geschichten (alle Arten oder nur „wie viele mehr“)."
       ],
       "learningGoals": [
-        "Die Kinder bestimmen sicher die fehlende Zahl in einfachen Plus- und Minus-Beziehungen im Zahlenraum bis 12.",
-        "Die Kinder verstehen Ergänzen und Umkehraufgaben als Strategien und erkennen, dass sich Mengen vergleichen und wiederherstellen lassen.",
-        "Die Kinder erleben Mathematik in einer sinnvollen Sachsituation und gewinnen Vertrauen darin, Zahlbeziehungen selbst herauszufinden."
+        "Die fehlende Zahl in einer Plus- oder Minusgeschichte finden, egal an welcher Stelle sie steht",
+        "„Wie viele mehr“ als Unterschied zwischen zwei Mengen verstehen",
+        "Zwei Mengen gleich machen, indem man zu einer etwas dazugibt oder von der anderen etwas wegnimmt",
+        "Die Anfangszahl aus dem, was dazukam, und der Gesamtzahl erschließen"
       ]
     },
     "bundle-bot.bundle-machine.1-nbt-b-2-a": {

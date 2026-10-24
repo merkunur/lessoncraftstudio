@@ -2054,25 +2054,28 @@
     },
     "sharing-jar.make-fair.1-oa-d-8": {
       "about": [
-        "Pim y Bo son dos amigos que juegan a llenar cuentas en dos frascos. Cada quien va metiendo sus cuentas, pero al final uno de los frascos queda más lleno que el otro, y ahí empieza la diversión: hay que descubrir el número que falta para que todo quede justo y parejo. Es una situación sencilla y concreta, con cantidades que nunca pasan de 12, para que tu peque razone sin presión.",
-        "A lo largo de la actividad, encontrar el número desconocido aparece de cinco maneras distintas: completar (¿cuántas le faltan a Pim para tener las mismas que Bo?), la diferencia (¿cuántas más tiene el frasco de Bo?), restaurar cuentas caídas (se cayeron unas, ¿cuántas se le regresan?), quitar hasta la meta (Pim tomó de más, ¿cuántas se regresan para que cada quien tenga lo mismo?) y el número inicial o problema inverso (Bo regaló unas y ahora le quedan otras, ¿cuántas tenía al principio?). Todas estas preguntas se resuelven con sumas y restas hasta 12, siempre con cuentas y frascos que se pueden ver y contar.",
-        "El aprendizaje central es determinar el número que falta o desconocido en relaciones de suma y resta. Pensada para primer grado (1.º de primaria, ~6–7 años), esta actividad acompaña los aprendizajes de los Planes y programas de estudio (SEP) dentro de la Nueva Escuela Mexicana. Y lo mejor: funciona en el navegador, sin cronómetro ni puntos, para que cada quien avance a su propio ritmo."
+        "Pim, el erizo, y Bo, el ratón, tienen cada uno un frasco de vidrio con cuentas, y un listón dorado cruza los dos frascos a la altura pareja. Primero el niño dice un número tocando una ficha, después presiona Comprobar y se mueven exactamente esas cuentas. Con el número correcto, las cuentas se detienen justo en el listón y los dos amigos se acercan. Si son pocas, queda un hueco debajo del listón o cuentas por encima; si son demasiadas, pasan del listón y ahora el otro amigo tiene menos.",
+        "Hay cinco tipos de historia: cuántas le faltan a un frasco (3 + □ = 5), cuántas más tiene un amigo (6 − 2 = □), cuántas tiene que devolver Pim (7 − □ = 4), cuántas vuelven al montón (6 − □ = 4) y cuántas tenía Bo al principio (□ + 4 = 7). En una ronda «al principio», el número del niño pinta esa cantidad de cuentas desde abajo, y deben juntarse exactamente con las cuentas nuevas que brillan. Después del segundo intento, las cuentas que faltaban o sobraban se numeran, para que el niño cuente la diferencia.",
+        "Los frascos transparentes llegan hasta 10; los esmerilados, hasta 20, con el número de cada frasco en su tapa, y el esmerilado se aclara al comprobar. Toca un frasco para que sus cuentas se iluminen una por una. En línea con los programas de estudio de la SEP (campo formativo Saberes y pensamiento científico). Sin cronómetro y sin puntaje."
       ],
       "practices": [
-        "Determinar el número que falta en una relación de suma o resta con cantidades hasta 12.",
-        "Comparar dos cantidades de cuentas y decir cuál es la diferencia entre los dos frascos.",
-        "Restaurar las cuentas que se cayeron y hallar el número inicial que tenía cada frasco (problema inverso).",
-        "Completar o quitar cuentas para que ambos frascos, el de Pim y el de Bo, tengan lo mismo."
+        "Encontrar el número que falta en un problema de suma o resta: lo que se agrega, la diferencia, lo que se quita o la cantidad inicial",
+        "Comparar dos cantidades y dejarlas parejas",
+        "Contar a partir de la cantidad menor hasta la mayor",
+        "Comprobar una respuesta viendo qué hacen exactamente esas cuentas"
       ],
       "howToPlay": [
-        "Mira cuántas cuentas tienen Pim y Bo en sus frascos y lee con calma la pregunta.",
-        "Piensa qué número falta: cuántas faltan, cuántas más hay, o cuántas cuentas había al principio.",
-        "Toca el número correcto del 0 al 10 y descubre si los frascos quedaron parejos."
+        "Lee la pregunta y mira los dos frascos y el listón dorado.",
+        "Toca la ficha con el número que crees correcto y presiona Comprobar.",
+        "Observa las cuentas: con el número correcto se detienen en el listón. Si queda un hueco o pasan del listón, elige otro número y vuelve a comprobar.",
+        "Toca un frasco para que sus cuentas se iluminen una por una y cuéntalas.",
+        "En la configuración eliges los frascos (transparentes hasta 10 o esmerilados hasta 20) y las historias (todos los tipos o solo «cuántas más»)."
       ],
       "learningGoals": [
-        "Determinar el número que falta en relaciones sencillas de suma y resta hasta 12, con apoyo de material concreto.",
-        "Entender el completar y los problemas inversos como estrategias, y descubrir que las cantidades se comparan y se restauran para hallar el número desconocido.",
-        "Vivir las matemáticas en una situación con sentido, como llenar frascos con Pim y Bo, y ganar confianza para hallar relaciones numéricas."
+        "Encontrar el número que falta en un problema de suma o resta, esté donde esté",
+        "Entender «cuántas más» como la diferencia entre dos cantidades",
+        "Dejar parejas dos cantidades agregando a una o quitando a la otra",
+        "Hallar la cantidad inicial a partir de lo que se agregó y del total"
       ]
     },
     "tally-squirrel.add-four.2-nbt-b-6": {

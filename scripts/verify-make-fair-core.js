@@ -22,6 +22,8 @@
         monotonic unknowns, unknowns 0-10, a within-20 round present.
    ===================================================================== */
 'use strict';
+/* Row 91 rebuild (2026-10-24): the row runs the Fair Ribbon (fair-ribbon-activity; gates verify-fair-ribbon-core.js + local-test-fair-ribbon.js) and no page loads the old Sharing Jar files any more. */
+{ const _m = JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'sharing-jar-activities.json'), 'utf8')); const _r = (Array.isArray(_m) ? _m : _m.activities).find(a => a.id === 'sharing-jar.make-fair.1-oa-d-8'); if (_r && _r.tool !== 'sharing-jar-activity') { console.log('verify-make-fair-core: the row runs the Fair Ribbon — see verify-fair-ribbon-core.js / local-test-fair-ribbon.js. Nothing to check here.'); process.exit(0); } }
 const fs = require('fs');
 const path = require('path');
 

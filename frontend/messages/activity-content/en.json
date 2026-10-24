@@ -3813,25 +3813,28 @@
     },
     "sharing-jar.make-fair.1-oa-d-8": {
       "about": [
-        "Pim and Bo scoop moon-beads into their jars at The Sharing Jar, and one jar always ends up fuller — so the child finds the missing number that makes it fair: how many more the quiet jar needs, how big the gap is, or how many there were to start, tapped on tiles from 0 to 10. It's a Grade 1 math activity that runs in the browser with no account.",
-        "The numbers stay small, but the unknown moves around — sometimes it is the amount to add, sometimes the difference, sometimes the starting amount that has to be uncovered. That is the whole point: the child is not just adding two numbers, but figuring out which part is missing and how to find it, using counting-on and fact-family thinking. Saying the number out loud before tapping it ties the spoken answer to the written numeral.",
-        "It is aligned to Common Core 1.OA.D.8 — finding the unknown number in an addition or subtraction situation, in any position. No timer, no score — just calm, playful practice."
+        "Pim the hedgehog and Bo the mouse each have a glass jar of beads, and a gold ribbon is tied across both jars at the fair height. The child says a number first by tapping a tile, then presses Check, and exactly that many beads move. The right number stops the beads on the ribbon and the two friends lean in. Too few leaves a gap under the ribbon or beads still above it; too many pushes past the ribbon, and now the other friend has less.",
+        "There are five kinds of story: how many more one jar needs (3 + □ = 5), how many more one friend has (6 − 2 = □), how many Pim must give back (7 − □ = 4), how many go back in the pile (6 − □ = 4), and how many Bo had at the start (□ + 4 = 7). In a start round the child’s number tints that many beads from the bottom, and they must meet the glowing new beads exactly. After a second try, the beads that were missing or too many are numbered, so the child can count the difference.",
+        "Clear jars go to 10; frosted jars go to 20, with each jar’s number on its lid and the frost wiping clear on Check. Tap a jar to light its beads one by one. Aligned to Common Core 1.OA.D.8. No timer and no score."
       ],
       "practices": [
-        "Find the missing number when the unknown is the part to add, the difference, or the start",
-        "Use counting-on and fact families to make two amounts equal",
-        "Work out how much more one group has than another within 10 and a little beyond",
-        "Connect a spoken number to the written numeral by saying it before tapping"
+        "Finding the unknown number in an addition or subtraction story: the part to add, the difference, the number taken away or the starting number",
+        "Comparing two amounts and making them equal",
+        "Counting on from the smaller amount to the larger one",
+        "Checking an answer by seeing what that many beads actually do"
       ],
       "howToPlay": [
-        "Read the two jars and the question — how many more beads does the quiet friend need to be fair?",
-        "Work it out, say the kind number, then tap that numeral on the tiles from 0 to 10 and press Check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Read the question and look at the two jars and the gold ribbon.",
+        "Tap the number tile you think is right, then press Check.",
+        "Watch the beads: they stop on the ribbon when the number is right. If there is a gap, or beads go past the ribbon, choose another number and check again.",
+        "Tap a jar to light its beads one by one and count them.",
+        "In the settings, choose the jars (clear, to 10, or frosted, to 20) and the stories (all kinds, or only “how many more”)."
       ],
       "learningGoals": [
-        "Find the unknown number in an addition or subtraction story — the focus of Common Core 1.OA.D.8.",
-        "Understand that the missing part can sit anywhere — the sum, an addend, or the starting amount.",
-        "Build the equal-and-fair number sense that early addition and subtraction depend on."
+        "Find the unknown number in an addition or subtraction story, wherever it is",
+        "Understand “how many more” as the difference between two amounts",
+        "Make two amounts equal by adding to one or taking from the other",
+        "Work out a starting amount from what was added and the total"
       ]
     },
     "skipcount.fill.2-nbt-a-2": {

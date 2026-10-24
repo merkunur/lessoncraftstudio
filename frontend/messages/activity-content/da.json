@@ -2668,6 +2668,32 @@
         "At tælle videre eller tilbage for at finde en manglende del",
         "At gøre to sider med to tal hver lige store"
       ]
+    },
+    "sharing-jar.make-fair.1-oa-d-8": {
+      "about": [
+        "Pindsvinet Pim og musen Bo har hver deres glaskrukke med perler, og et guldbånd er spændt over begge krukker i den retfærdige højde. Barnet siger først et tal ved at trykke på en brik, trykker så på Tjek – og præcis så mange perler flytter sig. Med det rigtige tal stopper perlerne lige ved båndet, og de to venner læner sig ind mod hinanden. For få, og der bliver et hul under båndet eller perler tilbage over det; for mange, og perlerne går forbi båndet – nu har den anden ven færre.",
+        "Der er fem slags historier: hvor mange der mangler i en krukke (3 + □ = 5), hvor mange flere en ven har (6 − 2 = □), hvor mange Pim skal give tilbage (7 − □ = 4), hvor mange der skal tilbage i bunken (6 − □ = 4), og hvor mange Bo havde i starten (□ + 4 = 7). I en start-runde farver barnets tal lige så mange perler nedefra, og de skal møde de lysende nye perler præcis. Efter andet forsøg bliver de perler, der manglede eller var for mange, nummereret, så barnet kan tælle forskellen.",
+        "Gennemsigtige krukker går op til 10; matterede krukker op til 20, med hver krukkes tal på låget, og det matte glas bliver klart, når man tjekker. Tryk på en krukke, så lyser perlerne op én ad gangen. I tråd med Fælles Mål for tal og algebra. Uden tidtagning og uden point."
+      ],
+      "practices": [
+        "At finde det manglende tal i en regnehistorie med plus eller minus: det, der lægges til, forskellen, det, der tages væk, eller starttallet",
+        "At sammenligne to antal og gøre dem lige store",
+        "At tælle videre fra det mindste antal op til det største",
+        "At tjekke et svar ved at se, hvad præcis så mange perler gør"
+      ],
+      "howToPlay": [
+        "Læs spørgsmålet, og se på de to krukker og guldbåndet.",
+        "Tryk på brikken med det tal, du tror er rigtigt, og tryk så på Tjek.",
+        "Se på perlerne: Med det rigtige tal stopper de ved båndet. Bliver der et hul, eller går perlerne forbi båndet, så vælg et andet tal, og tjek igen.",
+        "Tryk på en krukke, så lyser perlerne op én ad gangen, og tæl dem.",
+        "I indstillingerne vælger du krukkerne (gennemsigtige op til 10 eller matterede op til 20) og historierne (alle slags eller kun „hvor mange flere“)."
+      ],
+      "learningGoals": [
+        "At finde det manglende tal i en regnehistorie med plus eller minus, uanset hvor det står",
+        "At forstå „hvor mange flere“ som forskellen mellem to antal",
+        "At gøre to antal lige store ved at lægge til det ene eller tage fra det andet",
+        "At finde starttallet ud fra det, der kom til, og det samlede antal"
+      ]
     }
   }
 }

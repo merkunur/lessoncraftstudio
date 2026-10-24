@@ -286,25 +286,28 @@
     },
     "sharing-jar.make-fair.1-oa-d-8": {
       "about": [
-        "Pim e Bo são dois amigos que enchem seus potes com contas, e às vezes um pote fica mais cheio que o outro. A criança deixa tudo justo descobrindo o número que falta e tocando nele. Por exemplo: o Bo tem 5 contas e o Pim tem 3 — quantas a mais o Pim precisa para igualar? 2.",
-        "Nesta atividade, a criança pratica encontrar o número que falta em situações concretas, sempre com contas de verdade: completar um pote, comparar dois potes, devolver contas que caíram e descobrir com quantas alguém começou. Todos os números vão até 12, e a ideia por trás de tudo é a justiça entre amigos — deixar os dois com a mesma quantidade.",
-        "O pote justo é interativo, sem cronômetro, sem pontos e sem competição — a criança pode pensar com calma e tentar quantas vezes quiser. A proposta acompanha a BNCC na unidade de Números do 1º ano, trabalhando o número que falta, o completar e o comparar em situações do dia a dia."
+        "Pim, o ouriço, e Bo, o ratinho, têm cada um um pote de vidro com contas, e uma fita dourada passa pelos dois potes na altura justa. Primeiro a criança diz um número tocando numa ficha, depois aperta Verificar, e exatamente essa quantidade de contas se move. Com o número certo, as contas param bem na fita e os dois amigos se aproximam. Se forem poucas, fica um espaço embaixo da fita ou contas acima dela; se forem demais, passam da fita, e agora é o outro amigo que tem menos.",
+        "Há cinco tipos de história: quantas faltam num pote (3 + □ = 5), quantas um amigo tem a mais (6 − 2 = □), quantas Pim precisa devolver (7 − □ = 4), quantas voltam para o monte (6 − □ = 4) e quantas Bo tinha no começo (□ + 4 = 7). Numa rodada “no começo”, o número da criança pinta essa quantidade de contas a partir de baixo, e elas precisam encontrar exatamente as contas novas que brilham. Depois da segunda tentativa, as contas que faltavam ou sobravam são numeradas, para a criança contar a diferença.",
+        "Os potes transparentes vão até 10; os foscos, até 20, com o número de cada pote na tampa, e o fosco fica transparente ao verificar. Toque num pote para acender as contas uma por uma. De acordo com a BNCC, na unidade temática Números. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Encontrar o número que falta para igualar os potes do Pim e do Bo",
-        "Descobrir quantas contas a mais um pote tem que o outro",
-        "Devolver ou tirar contas para os dois amigos ficarem justos",
-        "Achar com quantas contas alguém começou"
+        "Encontrar o número que falta numa situação de adição ou subtração: o que se acrescenta, a diferença, o que se tira ou a quantidade inicial",
+        "Comparar duas quantidades e deixá-las iguais",
+        "Contar a partir da quantidade menor até a maior",
+        "Conferir uma resposta vendo o que exatamente essa quantidade de contas faz"
       ],
       "howToPlay": [
-        "Veja os potes do Pim e do Bo e quantas contas cada um tem",
-        "Descubra o número que falta para ficar justo e toque nele",
-        "Você pode tentar quantas vezes quiser, sem tempo e sem pontos"
+        "Leia a pergunta e observe os dois potes e a fita dourada.",
+        "Toque na ficha com o número que você acha certo e aperte Verificar.",
+        "Observe as contas: com o número certo, elas param na fita. Se ficar um espaço ou se passarem da fita, escolha outro número e verifique de novo.",
+        "Toque num pote para acender as contas uma por uma e contá-las.",
+        "Nas configurações, escolha os potes (transparentes até 10 ou foscos até 20) e as histórias (todos os tipos ou só “quantas a mais”)."
       ],
       "learningGoals": [
-        "Encontrar o número que falta em situações concretas de adição e subtração",
-        "Compreender os significados de completar, comparar e igualar quantidades",
-        "Ganhar segurança com números até 12 — objetivo de 1º ano da unidade Números"
+        "Encontrar o número que falta numa situação de adição ou subtração, em qualquer posição",
+        "Entender “quantas a mais” como a diferença entre duas quantidades",
+        "Deixar duas quantidades iguais acrescentando a uma ou tirando da outra",
+        "Descobrir a quantidade inicial a partir do que foi acrescentado e do total"
       ]
     },
     "tally-squirrel.add-four.2-nbt-b-6": {

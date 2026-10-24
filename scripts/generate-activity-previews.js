@@ -243,6 +243,10 @@ function seedScript(row) {
     // 8 + 6: Lily on 8 pulled back two beads, the aim ring on the golden Ten Stone, the stones past ten still under water — the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.facts='both';t.api.settings.labels='five';t._pool=null;t._ensurePool();t._start(0);t._coil=2;t._view={};t._render2();})()`;
   }
+  if (row.tool === 'fair-ribbon-activity') {
+    // MORE Pim 9 / Bo 4 with 7 said: the beads float past the gold ribbon, two coral ones over the top, and now Pim goes quiet — the fair ribbon at work
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.jars='clear';t.api.settings.story='all';t._pool=null;t._ensurePool();t._start(5,false,0);var C=window.FairRibbonCore,s=t.st;C.choose(s,7);C.check(s);t._view={acted:true};t._render2();})()`;
+  }
   if (row.tool === 'plank-path-activity') {
     // Within 10, path 1: three planks laid (5, 3, 7), the fourth gap ? − 6 = 2 still open water, the decoy 4 waiting in the tray — the plank path at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.numbers='10';t.api.settings.path='squares';t._pool=null;t._ensurePool();t._start(0,0);var C=window.PlankPathCore,s=t.st;[5,3,7].forEach(function(p){C.lay(s,p);});t._view={};t._render2();})()`;

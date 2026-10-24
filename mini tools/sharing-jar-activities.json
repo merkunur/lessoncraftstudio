@@ -1,7 +1,7 @@
 [
   {
     "id": "sharing-jar.make-fair.1-oa-d-8",
-    "tool": "sharing-jar-activity",
+    "tool": "fair-ribbon-activity",
     "task_template": "make-fair",
     "alignment": {
       "framework": "CCSS",
@@ -10,98 +10,253 @@
       "strand": "Operations & Algebraic Thinking"
     },
     "params": {
-      "rounds": [
-        {
-          "id": "level-pim",
-          "schema": "equalize-add",
-          "tier": "floor",
-          "band": 1,
-          "nums": {
-            "a": 5,
-            "b": 3
-          }
+      "note": "A mirror of fair-ribbon-core.js (every round of both levels and both stories: the kind, the two jars, the ribbon, the answer). The core is the source; this row runs the Fair Ribbon.",
+      "levels": [
+        "clear",
+        "frosted"
+      ],
+      "stories": [
+        "all",
+        "more"
+      ],
+      "rounds": {
+        "clear": {
+          "all": [
+            {
+              "kind": "more",
+              "pim": 5,
+              "bo": 3,
+              "ribbon": 5,
+              "answer": 2
+            },
+            {
+              "kind": "hmm",
+              "pim": 6,
+              "bo": 2,
+              "ribbon": 2,
+              "answer": 4
+            },
+            {
+              "kind": "give",
+              "pim": 10,
+              "bo": 4,
+              "ribbon": 7,
+              "answer": 3
+            },
+            {
+              "kind": "put",
+              "pim": 6,
+              "bo": 4,
+              "ribbon": 4,
+              "answer": 2
+            },
+            {
+              "kind": "start",
+              "pim": 7,
+              "bo": 7,
+              "ribbon": 7,
+              "answer": 3
+            },
+            {
+              "kind": "more",
+              "pim": 9,
+              "bo": 4,
+              "ribbon": 9,
+              "answer": 5
+            },
+            {
+              "kind": "hmm",
+              "pim": 10,
+              "bo": 2,
+              "ribbon": 2,
+              "answer": 8
+            },
+            {
+              "kind": "put",
+              "pim": 8,
+              "bo": 2,
+              "ribbon": 2,
+              "answer": 6
+            },
+            {
+              "kind": "more",
+              "pim": 10,
+              "bo": 1,
+              "ribbon": 10,
+              "answer": 9
+            }
+          ],
+          "more": [
+            {
+              "kind": "more",
+              "pim": 5,
+              "bo": 3,
+              "ribbon": 5,
+              "answer": 2
+            },
+            {
+              "kind": "hmm",
+              "pim": 6,
+              "bo": 2,
+              "ribbon": 2,
+              "answer": 4
+            },
+            {
+              "kind": "more",
+              "pim": 9,
+              "bo": 4,
+              "ribbon": 9,
+              "answer": 5
+            },
+            {
+              "kind": "hmm",
+              "pim": 10,
+              "bo": 2,
+              "ribbon": 2,
+              "answer": 8
+            },
+            {
+              "kind": "more",
+              "pim": 10,
+              "bo": 1,
+              "ribbon": 10,
+              "answer": 9
+            },
+            {
+              "kind": "more",
+              "pim": 7,
+              "bo": 4,
+              "ribbon": 7,
+              "answer": 3
+            },
+            {
+              "kind": "hmm",
+              "pim": 9,
+              "bo": 5,
+              "ribbon": 5,
+              "answer": 4
+            }
+          ]
         },
-        {
-          "id": "how-unfair",
-          "schema": "compare-diff",
-          "tier": "floor",
-          "band": 1,
-          "nums": {
-            "a": 6,
-            "b": 2
-          }
-        },
-        {
-          "id": "give-it-back",
-          "schema": "restore",
-          "tier": "floor",
-          "band": 2,
-          "nums": {
-            "s": 7,
-            "r": 4
-          }
-        },
-        {
-          "id": "put-some-back",
-          "schema": "reduce-to-target",
-          "tier": "floor",
-          "band": 2,
-          "nums": {
-            "a": 6,
-            "T": 4
-          }
-        },
-        {
-          "id": "how-many-start",
-          "schema": "start-unknown",
-          "tier": "floor",
-          "band": 3,
-          "nums": {
-            "k": 3,
-            "r": 4
-          }
-        },
-        {
-          "id": "level-hidden",
-          "schema": "equalize-add",
-          "tier": "ceiling",
-          "band": 2,
-          "nums": {
-            "a": 8,
-            "b": 5
-          }
-        },
-        {
-          "id": "already-fair",
-          "schema": "equalize-add",
-          "tier": "floor",
-          "band": 1,
-          "nums": {
-            "a": 4,
-            "b": 4
-          }
-        },
-        {
-          "id": "gap-of-twelve",
-          "schema": "compare-diff",
-          "tier": "ceiling",
-          "band": 2,
-          "nums": {
-            "a": 12,
-            "b": 8
-          }
-        },
-        {
-          "id": "hoard-hidden",
-          "schema": "reduce-to-target",
-          "tier": "ceiling",
-          "band": 3,
-          "nums": {
-            "a": 9,
-            "T": 5
-          }
+        "frosted": {
+          "all": [
+            {
+              "kind": "more",
+              "pim": 8,
+              "bo": 5,
+              "ribbon": 8,
+              "answer": 3
+            },
+            {
+              "kind": "hmm",
+              "pim": 12,
+              "bo": 8,
+              "ribbon": 8,
+              "answer": 4
+            },
+            {
+              "kind": "put",
+              "pim": 9,
+              "bo": 5,
+              "ribbon": 5,
+              "answer": 4
+            },
+            {
+              "kind": "more",
+              "pim": 18,
+              "bo": 6,
+              "ribbon": 18,
+              "answer": 12
+            },
+            {
+              "kind": "hmm",
+              "pim": 19,
+              "bo": 8,
+              "ribbon": 8,
+              "answer": 11
+            },
+            {
+              "kind": "give",
+              "pim": 20,
+              "bo": 4,
+              "ribbon": 12,
+              "answer": 8
+            },
+            {
+              "kind": "put",
+              "pim": 17,
+              "bo": 3,
+              "ribbon": 3,
+              "answer": 14
+            },
+            {
+              "kind": "start",
+              "pim": 13,
+              "bo": 13,
+              "ribbon": 13,
+              "answer": 7
+            },
+            {
+              "kind": "more",
+              "pim": 15,
+              "bo": 9,
+              "ribbon": 15,
+              "answer": 6
+            }
+          ],
+          "more": [
+            {
+              "kind": "more",
+              "pim": 8,
+              "bo": 5,
+              "ribbon": 8,
+              "answer": 3
+            },
+            {
+              "kind": "hmm",
+              "pim": 12,
+              "bo": 8,
+              "ribbon": 8,
+              "answer": 4
+            },
+            {
+              "kind": "more",
+              "pim": 18,
+              "bo": 6,
+              "ribbon": 18,
+              "answer": 12
+            },
+            {
+              "kind": "hmm",
+              "pim": 19,
+              "bo": 8,
+              "ribbon": 8,
+              "answer": 11
+            },
+            {
+              "kind": "more",
+              "pim": 15,
+              "bo": 9,
+              "ribbon": 15,
+              "answer": 6
+            },
+            {
+              "kind": "more",
+              "pim": 16,
+              "bo": 9,
+              "ribbon": 16,
+              "answer": 7
+            },
+            {
+              "kind": "hmm",
+              "pim": 20,
+              "bo": 7,
+              "ribbon": 7,
+              "answer": 13
+            }
+          ]
         }
-      ]
+      }
     },
     "theme": null,
     "slug": {
@@ -111,7 +266,11 @@
       "es": "encontrar-el-numero-que-falta-completar-1-primaria",
       "pt": "encontrar-o-numero-que-falta-completar-1-ano",
       "it": "il-barattolo-giusto-numero-mancante-completare-classe-prima",
-      "nl": "het-ontbrekende-getal-vinden-aanvullen-groep-3", "sv": "gor-det-rattvist-lika-manga-i-burkarna-ak-1"
+      "nl": "het-ontbrekende-getal-vinden-aanvullen-groep-3",
+      "sv": "gor-det-rattvist-lika-manga-i-burkarna-ak-1",
+      "da": "den-retfaerdige-perlekrukke-hvor-mange-flere-1-klasse",
+      "no": "den-rettferdige-perlekrukka-hvor-mange-flere-1-trinn",
+      "fi": "reilu-helmipurkki-kuinka-monta-enemman-1-lk"
     },
     "page_title": {
       "en": "The Sharing Jar — Make It Fair (Find the Missing Number)",
@@ -120,7 +279,11 @@
       "es": "El frasco justo — encontrar el número que falta con Pim y Bo (1.º primaria)",
       "pt": "O pote justo: Pim e Bo e o número que falta — completar, 1º ano",
       "it": "Il barattolo giusto: Pim e Bo e il numero che manca (classe prima)",
-      "nl": "De eerlijke pot — het ontbrekende getal vinden met Pim en Bo (groep 3)", "sv": "Gör det rättvist – lika många i båda burkarna | Åk 1 matematik"
+      "nl": "De eerlijke pot — het ontbrekende getal vinden met Pim en Bo (groep 3)",
+      "sv": "Gör det rättvist – lika många i båda burkarna | Åk 1 matematik",
+      "da": "Den retfærdige perlekrukke – hvor mange flere? (1. klasse)",
+      "no": "Den rettferdige perlekrukka – hvor mange flere? (1. trinn)",
+      "fi": "Reilu helmipurkki – kuinka monta enemmän? (1. lk)"
     },
     "page_intro": {
       "en": "A jar of moon-beads spills, and Pim and Bo scoop up different amounts — one jar glows full, the other goes quiet. Help make it fair: work out how many more beads the quiet friend needs and say that number, then watch the beads float over and two friends lean their heads together. A warm Grade-1 missing-number game aligned to Common Core 1.OA.D.8.",
@@ -129,7 +292,11 @@
       "es": "El frasco justo: Pim y Bo llenan sus frascos de cuentas y hay que encontrar el número que falta para dejarlos parejos — completar, comparar la diferencia y hallar cuántas había al principio, con cantidades hasta 12. Juego interactivo de primer grado, sin registro, alineado a los Planes y programas de estudio (SEP).",
       "pt": "Pim e Bo enchem os potes com contas e um fica mais cheio. Encontre o número que falta para ficar justo, completar e comparar. Interativo, 1º ano.",
       "it": "Pim e Bo raccolgono le perline di luna nei loro barattoli, ma un barattolo finisce più pieno dell'altro e la divisione non è più giusta. Il tuo compito è renderla giusta: guarda i due barattoli, trova il numero che manca e tocca quel numero tra le tessere da 0 a 10 — subito le perline volano nell'altro barattolo e i due amici tornano pari. Giocando si impara a completare, a confrontare la differenza «in più», a rimettere a posto le perline e persino a scoprire quante ce n'erano all'inizio, sempre con addizioni e sottrazioni entro il 12. Si gioca senza registrazione, direttamente nel browser, allineata alle Indicazioni nazionali, nel nucleo Numeri.",
-      "nl": "Pim en Bo scheppen samen glinsterende kralen in hun eigen pot, maar de ene pot raakt voller dan de andere — en dat is niet eerlijk. In deze interactieve activiteit zoekt je kind telkens het ontbrekende getal: hoeveel kralen moeten erbij om evenveel te hebben, wat is het verschil, of hoeveel rolden er weg toen de pot omviel? Door het juiste getal op de getallentegels te tikken, maakt je kind de potten eerlijk en gelijk, en oefent zo spelenderwijs met optellen en aftrekken tot 12. De activiteit sluit aan bij de SLO-kerndoelen, zonder tijdsdruk of punten.", "sv": "Två pärlburkar med olika många pärlor. Barnet löser en räknehändelse: hur många fler, hur många ramlade ut, hur många det var från början. Åk 1 enligt Lgr22."
+      "nl": "Pim en Bo scheppen samen glinsterende kralen in hun eigen pot, maar de ene pot raakt voller dan de andere — en dat is niet eerlijk. In deze interactieve activiteit zoekt je kind telkens het ontbrekende getal: hoeveel kralen moeten erbij om evenveel te hebben, wat is het verschil, of hoeveel rolden er weg toen de pot omviel? Door het juiste getal op de getallentegels te tikken, maakt je kind de potten eerlijk en gelijk, en oefent zo spelenderwijs met optellen en aftrekken tot 12. De activiteit sluit aan bij de SLO-kerndoelen, zonder tijdsdruk of punten.",
+      "sv": "Två pärlburkar med olika många pärlor. Barnet löser en räknehändelse: hur många fler, hur många ramlade ut, hur många det var från början. Åk 1 enligt Lgr22.",
+      "da": "To perlekrukker og et guldbånd i den retfærdige højde. Barnet siger først et tal, og så flytter netop så mange perler sig: det rigtige tal stopper perlerne ved båndet. Hvor mange flere, giv tilbage, læg tilbage og hvor mange var der i starten – op til 10 og op til 20. I tråd med Fælles Mål.",
+      "no": "To perlekrukker og et gullbånd i den rettferdige høyden. Barnet sier først et tall, og så flytter akkurat så mange perler seg: det riktige tallet stopper perlene ved båndet. Hvor mange flere, gi tilbake, legg tilbake og hvor mange det var til å begynne med – til 10 og til 20. I tråd med LK20.",
+      "fi": "Kaksi helmipurkkia ja kultainen nauha reilulla korkeudella. Lapsi sanoo ensin luvun, ja sitten juuri niin monta helmeä liikkuu: oikea luku pysäyttää helmet nauhan kohdalle. Kuinka monta enemmän, anna takaisin, laita takaisin ja montako alussa oli – 10:een ja 20:een asti. Perusopetuksen opetussuunnitelman (OPS 2014) mukainen."
     },
     "kid_prompt_template": "make-fair"
   }

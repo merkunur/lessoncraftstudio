@@ -13,7 +13,7 @@ ORDER row 98 · id `place-value.tens-and-ones.1-nbt-b-2` (kept). Design: `design
   - Only its own text was cut and replaced, so the siblings are byte-identical.
   - `tool` → `zero-cards-activity`, `task_template` → `zero-cards`, and `params` = `{targets (the 18 old ones, kept), faces, numbers, rounds}`.
   - Metadata is frozen in all 11 locales (sha1 `d1b7564b`, checked).
-- **Route:** `ACTIVITY_WRAPPER_VERSION` 9.839. No grade or strand override was added; the row keeps grade 1, as did rows 95 and 97.
+- **Route:** `ACTIVITY_WRAPPER_VERSION` 9.839, then 9.840 with the label fix. No grade or strand override was added; the row keeps grade 1, as did rows 95 and 97.
 - **No legacy gate** named this row.
 - **Number words** for the word coat come from `scripts/worksheet-gen/lib/number-words.js` (1–99 × 11 locales, baked into the wrapper).
 - **Sources** (all in the scratchpad):
@@ -89,6 +89,9 @@ ORDER row 98 · id `place-value.tens-and-ones.1-nbt-b-2` (kept). Design: `design
   - At 320 px a stretched stand plus ⟷ was wider than the card.
   - At 768 px a tray with 8 rods overflowed.
   - The mat's `role="img"` moved out of markup (hierarchy gate).
+  - **Found on production, by reading the live 390 px render after a green live-verify:** on a phone the success labels over the rods ran together ("1020303040"), and the cube total overlapped the row above it.
+    - Every gate was green, because CSS pseudo-elements cannot be measured. The labels are now real elements: 9 px on narrow screens, with room above the rods inside the mat. The cube total was dropped, since the success line states it.
+    - The local test now requires every label inside the mat and a 2 px gap between neighbours. An overlap-only check passed the touching labels, which is the defect; it was caught by poisoning (13 px labels: 0 failures under "overlap", 14 under "gap").
 
 ## Gates
 - `verify-zero-cards-core.js` 6,534/0. Its own oracle checks:

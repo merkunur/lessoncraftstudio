@@ -84,4 +84,4 @@ No 0 is ever typed or counted: `type()` refuses a leading 0, and decade rounds i
 - hierarchy: 266 / 0.
 - settings: 2 live (numbers, gaps).
 - preflight, prose-claims and SERP: PASS.
-- `live-verify-ten-band.js`: en / de / sv / fi × 1366 / 390 on production.
+- `live-verify-ten-band.js`: 67 / 0, en / de / sv / fi × 1366 / 390 on production (2026-10-24, commit `7aea9829`; the first run fell in the deploy window and the rerun was clean).

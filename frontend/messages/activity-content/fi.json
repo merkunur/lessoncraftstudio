@@ -1114,25 +1114,28 @@
     },
     "choice-board.compare-two-digit.1-nbt-b-3": {
       "about": [
-        "Näytölle ilmestyy kaksi kaksinumeroista lukua — kuten 47 ja 52 tai 63 ja 38 — ja lapsi napauttaa väittämää, joka on tosi, käyttäen merkkejä suurempi kuin (>), pienempi kuin (<) ja yhtä suuri kuin (=). Jotkin lukuparit ovat yhtä suuret, kuten 45 ja 45 tai 88 ja 88, joten yhtäsuuruusmerkilläkin on merkitystä. Harjoitus on 1. luokan paikkajärjestelmän tehtävä, joka toimii suoraan selaimessa ilman rekisteröitymistä.",
-        "Strategiana on katsoa ensin kymmeniä ja sitten ykkösiä. Luvuissa 47 ja 52 viisi kymmentä voittaa neljä kymmentä, joten 47 on pienempi kuin 52 — vaikka 7 on suurempi kuin 2. Kompastuspareissa kuten 29 ja 92 samat numerot ovat eri paikoilla, joten lapsen on luettava paikka-arvo eikä pelkkiä numeroita. Oikean merkin valitseminen muuttaa vertailun matematiikan kielelle merkeillä >, = ja <.",
-        "Harjoitus on OPS 2014:n mukainen lukujen ja laskutoimitusten osa-alueella — lapsi vertailee kahta kaksinumeroista lukua kymmenien ja ykkösten merkityksen perusteella ja merkitsee tuloksen merkeillä >, = ja <. Lapsi saa edetä rauhassa omaan tahtiinsa: ei ajastinta eikä pisteitä."
+        "Jokainen luku seisoo lavalla pienenä puukaappina, jossa on laatikko kympeille ja laatikko ykkösille. Lavan alla on yksi kahva kutakin paikkaa varten, ja kun siitä vetää, laatikko aukeaa molemmissa kaapeissa yhtä aikaa. Ensin aukeavat kymppien laatikot, ja niiden sauvat nousevat pylvääksi kunkin kaapin viereen. Jos kympit ovat samat, ykkösten laatikot vapautuvat ja niiden kuutiot nousevat pylväisiin. Jos kympit ovat eri, ykkösten laatikot lukittuvat, sillä yhdeksän ykköstä ei koskaan yllä seuraavaan kymppiin.",
+        "Kun ratkaisevat laatikot ovat auki, kaappien välissä oleva merkki nousee pystyyn, ja lapsi napauttaa sitä kääntääkseen sen merkiksi <, > tai =. Tarkistettaessa kaikki laatikot aukeavat ja merkki venyy kahden pylvään luo: sen avoimen puolen on otettava korkeampi pylväs syliinsä, ja = pysyy vaakasuorassa vain kahden yhtä korkean pylvään päällä. Järjestyskierroksilla kolme kaappia nostetaan portaille, pienin ensin tai suurin ensin, ja tarkistettaessa niiden pylväät kasvavat niiden yläpuolelle; väärässä paikassa oleva kaappi hyppää takaisin odotusriviin.",
+        "Luvut voivat olla hedelmäryhmiä 20:een asti (kympin pakkauksia ja irrallisia nappeja), kaksinumeroisia lukuja tai nelinumeroisia lukuja, joissa on neljä laatikkoa ja joita verrataan vasemmalta. Väärän yrityksen jälkeen ratkaisevat laatikot hehkuvat. Toisen jälkeen ryhmissä ja kaksinumeroisissa luvuissa kympit lasketaan jokaisen pylvään vierellä 10, 20, 30, ja katkoviiva näyttää pylväiden välisen eron. Sopii opetussuunnitelman sisältöalueeseen Luvut ja laskutoimitukset. Ilman ajanottoa ja ilman pisteytystä."
       ],
       "practices": [
-        "Vertailee kahta kaksinumeroista lukua ensin kymmenten ja sitten ykkösten perusteella.",
-        "Valitsee oikean merkin — suurempi kuin, pienempi kuin tai yhtä suuri kuin.",
-        "Tunnistaa, milloin kaksi lukua ovat yhtä suuret.",
-        "Lukee paikka-arvon kompastuspareissa, kuten 29 ja 92."
+        "Kaksinumeroisten lukujen vertaaminen: ensin kympit, sitten ykköset",
+        "Sen näkeminen, miksi yhdeksän ykköstä ei koskaan voita yhtä kymppiä lisää",
+        "Merkin kääntäminen niin, että sen avoin puoli on suurempaa lukua kohti",
+        "Kolmen luvun järjestäminen, pienin ensin tai suurin ensin"
       ],
       "howToPlay": [
-        "Katso kahta kaksinumeroista lukua ja tarkista ensin kymmenten numero ja sitten ykkösten.",
-        "Napauta väittämää, joka on tosi, käyttäen merkkiä >, = tai <.",
-        "Eikö osunut oikeaan? Voit yrittää uudelleen niin monta kertaa kuin haluat — ei ajastinta eikä pisteitä."
+        "Vedä kymppien kahvasta: laatikot aukeavat molemmissa kaapeissa ja sauvat nousevat pystyyn.",
+        "Jos kympit ovat samat, vedä myös ykkösten kahvasta. Lukittu kahva vain kolisee.",
+        "Napauta merkkiä, kunnes se on oikein, ja paina sitten Tarkista.",
+        "Järjestyskierroksilla vedät kaapin portaalle (tai napautat sitä ja sitten porrasta) ja painat Tarkista.",
+        "Asetuksista valitset luvut (ryhmät 20:een asti, kaksinumeroiset tai nelinumeroiset) ja tehtävän (vertaa kahta tai järjestä kolme)."
       ],
       "learningGoals": [
-        "Lapsi osaa vertailla kaksinumeroisia lukuja ja merkitä tuloksen merkeillä >, = ja <.",
-        "Lapsi käyttää kymmenten ja ykkösten merkitystä päättääkseen, kumpi luku on suurempi.",
-        "Lapsi kehittää paikka-arvon vertailutaitoa, jonka varaan suurempien lukujen käsittely myöhemmin rakentuu."
+        "Kahden kaksinumeroisen luvun vertaaminen kymppien ja ykkösten numeroiden merkityksen avulla.",
+        "Vertailun kirjaaminen merkeillä >, = ja <.",
+        "Kolmen luvun järjestäminen paikka-arvon mukaan.",
+        "Suurempien lukujen vertaaminen paikka kerrallaan vasemmalta alkaen."
       ]
     },
     "clock.set-clock.1-md-b-3": {

@@ -102,7 +102,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 92 | LIVE 2026-10-24 · The Counting Lamp | 1 | 1.NBT.A.1 | `track-repair.count-to-120.1-nbt-a-1` | track-repair-activity | Whistle Valley — Number-Line Track Repair |
 | 93 | LIVE 2026-10-24 · The Stretching Door Tag | 1 | 1.NBT.B.2 | `bos-berry-pantry.slingshot-tens.1-nbt-b-2` | bos-berry-pantry-activity | Bo's Berry Pantry — Tens and Ones the Smart Way |
 | 94 | LIVE 2026-10-24 · The Ten-Pocket Band | 1 | 1.NBT.B.2.a | `bundle-bot.bundle-machine.1-nbt-b-2-a` | bundle-bot-activity | Bundle Bot — Make a Ten from Ten Ones |
-| 95 | design input: `rebuild-inputs/95-ten-rod-drawers.md` | 1 | 1.NBT.B.3 | `choice-board.compare-two-digit.1-nbt-b-3` | choice-board-activity | Compare Two-Digit Numbers — Greater Than, Less Than, Equal |
+| 95 | LIVE 2026-10-24 · The Ten-Rod Drawers | 1 | 1.NBT.B.3 | `choice-board.compare-two-digit.1-nbt-b-3` | choice-board-activity | Compare Two-Digit Numbers — Greater Than, Less Than, Equal |
 | 96 |  | 1 | 1.NBT.C.4 | `place-value-regroup.add-compose-ten.1-nbt-c-4` | place-value-regroup-activity | Tuck's Ten Bundles — Add with Regrouping (Grade 1) |
 | 97 |  | 1 | 1.NBT.C.5 | `choice-board.ten-more-less.1-nbt-c-5` | choice-board-activity | Ten More, Ten Less — Mental Math With Two-Digit Numbers |
 | 98 |  | 1 | 1.NBT.B.2 | `place-value.tens-and-ones.1-nbt-b-2` | place-value-activity | Tens and Ones |

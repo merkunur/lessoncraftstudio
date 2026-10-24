@@ -2772,25 +2772,28 @@
     },
     "choice-board.compare-two-digit.1-nbt-b-3": {
       "about": [
-        "Se muestran dos números de dos cifras —como 47 y 52, o 63 y 38— y el niño o la niña toca la afirmación que es verdadera, usando mayor que (>), menor que (<) e igual a (=). Algunas parejas son iguales, como 45 y 45 u 88 y 88, así que el signo de igual también cuenta. Es una actividad de valor posicional para primero de primaria que corre directo en el navegador, sin crear cuenta.",
-        "La estrategia es fijarse primero en las decenas y, después, en las unidades. Con 47 y 52, las 5 decenas le ganan a las 4 decenas, así que 47 es menor que 52, aunque el 7 sea mayor que el 2. Parejas tramposas como 29 y 92 usan las mismas cifras en distinto lugar, así que hay que leer el valor posicional y no solo los dígitos. Elegir el signo correcto convierte esa comparación en el lenguaje formal de >, = y <.",
-        "Está alineada con los planes y programas de estudio (SEP): comparar dos números de dos cifras según el significado de las decenas y las unidades, y registrar el resultado con los signos >, = y <. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+        "Cada número está sobre una tarima como un mueblecito de madera con un cajón para las decenas y otro para las unidades. Debajo de la tarima hay una jaladera para cada posición, y al jalarlo se abre ese cajón en los dos muebles a la vez. Primero se abren los cajones de las decenas, y sus barras se levantan como una columna junto a cada mueble. Si las decenas son iguales, los cajones de las unidades se abren y sus cubos se agregan a las columnas. Si las decenas son distintas, los cajones de las unidades se cierran con candado, porque nueve unidades nunca llegan a la siguiente decena.",
+        "Cuando los cajones que deciden están abiertos, el signo que hay entre los muebles se levanta y el niño lo toca para girarlo a <, > o =. Al comprobar, se abren todos los cajones y el signo se estira hasta las dos columnas: su lado abierto tiene que abrazar la columna más alta, y el = solo queda recto sobre dos columnas de la misma altura. En las rondas de ordenar, tres muebles suben a una escalera, primero el más pequeño o primero el más grande, y al comprobar sus columnas crecen encima de ellos; un mueble en el lugar equivocado salta de vuelta a la fila de espera.",
+        "Los números pueden ser grupos de fruta hasta 20 (paquetes de diez y fichas sueltas), números de dos cifras o números de cuatro cifras con cuatro cajones, que se comparan desde la izquierda. Después de un intento fallido, se iluminan los cajones que deciden. Después del segundo, en los grupos y en los números de dos cifras, las decenas se cuentan 10, 20, 30 a lo largo de cada columna, y una línea punteada muestra la diferencia entre las columnas. En línea con los programas de estudio de la SEP (campo formativo Saberes y pensamiento científico). Sin cronómetro y sin puntaje."
       ],
       "practices": [
-        "Comparar dos números de dos cifras por sus decenas y luego por sus unidades.",
-        "Elegir el signo correcto: mayor que, menor que o igual a.",
-        "Reconocer cuándo dos números son iguales.",
-        "Leer el valor posicional en parejas tramposas como 29 y 92."
+        "Comparar números de dos cifras: primero las decenas y luego las unidades",
+        "Ver por qué nueve unidades nunca le ganan a una decena más",
+        "Girar el signo para que su lado abierto mire al número mayor",
+        "Ordenar tres números, primero el más pequeño o primero el más grande"
       ],
       "howToPlay": [
-        "Mira los dos números de dos cifras, fijándote primero en la cifra de las decenas y después en las unidades.",
-        "Toca la afirmación que es verdadera, usando >, = o <.",
-        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntuación."
+        "Jala la jaladera de las decenas: los cajones se abren en los dos muebles y las barras se levantan.",
+        "Si las decenas son iguales, jala también la jaladera de las unidades. Una jaladera con candado solo hace ruido.",
+        "Toca el signo hasta que sea correcto y luego presiona Comprobar.",
+        "En las rondas de ordenar, arrastra un mueble a un escalón (o tócalo y luego toca el escalón) y presiona Comprobar.",
+        "En la configuración eliges los números (grupos hasta 20, dos cifras o cuatro cifras) y la tarea (comparar dos u ordenar tres)."
       ],
       "learningGoals": [
-        "Tu hijo o hija puede comparar números de dos cifras y registrar el resultado con >, = y <.",
-        "El niño o la niña aprende a usar el significado de las decenas y las unidades para decidir cuál número es mayor.",
-        "Construye la comparación con valor posicional de la que dependerá después el trabajo con números más grandes."
+        "Comparar dos números de dos cifras según lo que significan la cifra de las decenas y la de las unidades.",
+        "Registrar la comparación con >, = y <.",
+        "Ordenar tres números según su valor posicional.",
+        "Comparar números más grandes posición por posición, empezando por la izquierda."
       ]
     },
     "clock.set-clock.1-md-b-3": {

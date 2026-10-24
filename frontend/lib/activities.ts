@@ -123,6 +123,7 @@ const MANIFEST_FILES = [
   'partner-bows-activities.json',
   'number-lift-activities.json',
   'block-towers-activities.json',
+  'rod-drawers-activities.json',
   'creek-map-activities.json',
   'pot-nest-activities.json',
   'stamp-frame-activities.json',

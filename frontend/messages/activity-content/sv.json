@@ -566,25 +566,28 @@
     },
     "choice-board.compare-two-digit.1-nbt-b-3": {
       "about": [
-        "Två tvåsiffriga tal visas — som 47 och 52, eller 63 och 38 — och barnet trycker på det påstående som är sant med hjälp av tecknen större än (>), mindre än (<) och lika med (=). Vissa par är lika stora, som 45 och 45 eller 88 och 88, så likhetstecknet spelar också roll. Det är en övning i positionssystemet för årskurs 1 som körs direkt i webbläsaren utan registrering.",
-        "Knepet är att titta på tiotalen först, sedan entalen. Med 47 och 52 vinner de 5 tiotalen över de 4 tiotalen, så 47 är mindre än 52 — fast 7 är större än 2. Lurigare par som 29 och 92 använder samma siffror på olika platser, så barnet måste läsa positionsvärdet och inte bara siffrorna. Att välja rätt tecken förvandlar jämförelsen till det formella språket med >, = och <.",
-        "Aktiviteten är anpassad till Lgr22 inom taluppfattning: att jämföra två tvåsiffriga tal utifrån betydelsen av tiotals- och entalssiffrorna och visa resultatet med tecknen >, = och <. Den här interaktiva övningen passar årskurs 1. Ingen timer, inga poäng — bara lugn, lekfull träning."
+        "Varje tal står på en scen som ett litet träskåp med en låda för tiotalen och en låda för entalen. Under scenen finns ett handtag för varje plats, och när man drar i det öppnas lådan i båda skåpen samtidigt. Tiotalslådorna öppnas först, och deras stavar reser sig som en stapel bredvid varje skåp. Är tiotalen lika låses entalslådorna upp, och deras klossar läggs ovanpå staplarna. Är tiotalen olika låses entalslådorna, för nio ental räcker aldrig upp till nästa tiotal.",
+        "När de avgörande lådorna är öppna reser sig tecknet mellan skåpen, och barnet trycker på det för att vrida det till <, > eller =. När man kollar öppnas alla lådor och tecknet sträcker sig ut mot de två staplarna: den öppna sidan ska hålla om den högre stapeln, och = ligger bara rakt på två lika höga staplar. I ordningsomgångarna ställs tre skåp på en trappa, det minsta eller det största först, och när man kollar växer deras staplar upp över dem; ett skåp på fel plats hoppar tillbaka till väntplatsen.",
+        "Talen kan vara grupper av frukt upp till 20 (förpackningar med tio och lösa brickor), tvåsiffriga tal eller fyrsiffriga tal med fyra lådor som jämförs från vänster. Efter ett felförsök lyser de lådor som avgör. Efter det andra räknas tiotalen upp längs varje stapel med 10, 20, 30 i grupperna och de tvåsiffriga talen, och en prickad linje visar skillnaden mellan staplarna. I linje med Lgr22, centralt innehåll om taluppfattning och tals användning. Utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Jämföra två tvåsiffriga tal först efter tiotalen, sedan entalen",
-        "Välja rätt tecken — större än, mindre än eller lika med",
-        "Känna igen när två tal är lika stora",
-        "Läsa positionsvärdet i luriga par som 29 och 92"
+        "Att jämföra tvåsiffriga tal: först tiotalen, sedan entalen",
+        "Att se varför nio ental aldrig slår ett tiotal till",
+        "Att vrida tecknet så att den öppna sidan pekar mot det större talet",
+        "Att ordna tre tal, det minsta eller det största först"
       ],
       "howToPlay": [
-        "Titta på de två tvåsiffriga talen och kontrollera tiotalssiffran först och entalssiffran sedan.",
-        "Tryck på det påstående som är sant med hjälp av >, = eller <.",
-        "Blev det inte rätt? Försök igen så många gånger du vill — det finns ingen timer och inga poäng."
+        "Dra i tiotalshandtaget: tiotalslådorna öppnas i båda skåpen och stavarna reser sig.",
+        "Är tiotalen lika drar du också i entalshandtaget. Ett låst handtag skramlar bara.",
+        "Tryck på tecknet tills det stämmer och tryck sedan på Kolla.",
+        "I ordningsomgångarna drar du ett skåp till ett trappsteg (eller trycker på det och sedan på steget) och trycker på Kolla.",
+        "I inställningarna väljer du tal (grupper upp till 20, tvåsiffriga eller fyrsiffriga) och uppgift (jämför två eller ordna tre)."
       ],
       "learningGoals": [
-        "Barnet kan jämföra tvåsiffriga tal och visa resultatet med >, = och <",
-        "Barnet använder betydelsen av tiotals- och entalssiffrorna för att avgöra vilket tal som är störst",
-        "Barnet bygger den jämförelseförmåga i positionssystemet som senare arbete med större tal bygger på"
+        "Att jämföra två tvåsiffriga tal utifrån vad tiotalssiffran och entalssiffran betyder.",
+        "Att skriva jämförelsen med >, = och <.",
+        "Att ordna tre tal efter deras positionsvärde.",
+        "Att jämföra större tal position för position från vänster."
       ]
     },
     "clock.set-clock.1-md-b-3": {

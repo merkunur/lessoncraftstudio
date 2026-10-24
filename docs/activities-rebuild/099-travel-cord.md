@@ -113,6 +113,7 @@ ORDER row 99 · id `seriation.compare-length.1-md-a-1` (kept). Design: `designs/
 - `audit-activity-hierarchy.js` 332/0.
 - `audit-settings-efficacy.js --tool=travel-cord-activity`: 2 live (question, things).
 - `preflight-activity-routes`, `verify-activity-prose-claims` and `verify-activity-serp-copy` all pass.
+- `live-verify-travel-cord.js` 75/0 on production (2026-10-24): all 11 locale pages 200 (da / no / fi new); en, de, sv, fi × 1366 and 390 played by real pointer (basket, red → longer; the cord to blue and green; blue → a miss; red → okLong). Wrapper 9.841. Tilly loads, and the iframe grows with the card. The first run hit the deploy window on the new fi page; the rerun was clean.
 
 ## Frozen metadata flags (not edited — landing / metadata rule)
 - The nl / it / pt intros describe the OLD activity:

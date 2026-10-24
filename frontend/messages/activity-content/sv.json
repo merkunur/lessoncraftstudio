@@ -1313,25 +1313,28 @@
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {
       "about": [
-        "Barnet löser uppgifter som ? + 4 = 9, 8 + ? = 11, ? − 3 = 4 och 10 − ? = 6, och trycker sedan på uppgiften och talet som löser den för att koppla ihop paret. Det är en interaktiv matematikövning för årskurs 1 som körs direkt i webbläsaren, utan installation och utan konto.",
-        "Den stora idén är att det okända talet kan stå var som helst — en saknad term, talet man tar bort, det första talet eller hela talet — så barnet måste tänka igenom sambandet varje gång i stället för att alltid \"addera för att hitta svaret\". Ibland är det tomma rutan summan (5 + 4 = ?) och ibland gömmer den sig inne i uppgiften (? − 4 = 1), vilket bygger en äkta rörlighet mellan additions- och subtraktionsfamiljer.",
-        "Aktiviteten följer Lgr22: att hitta det okända talet i en addition eller subtraktion, var som helst i uträkningen. Ingen tid, inga poäng — bara lugn och lekfull träning."
+        "Varje likhet är en lucka i en stig vid en bäck, och varje talkort är en planka som är exakt så lång. Barnet trycker på en likhets skylt och sedan på en planka: den vecklar ut sig i luckan ruta för ruta. Bara det tal som gör likheten sann passar. En för kort planka ramlar i vattnet, och en för lång sticker ut över den andra stranden.",
+        "Varje stig har fyra luckor, och talet som fattas står på ett nytt ställe varje gång: det första talet som läggs till, det andra, talet som tas bort, starttalet, summan eller skillnaden. Fattas starttalet eller summan ligger luckan under stigen. I lådan ligger fem plankor: de fyra svaren och en som inte passar någonstans, oftast ett vanligt misstag, som att lägga ihop de två tal man ser eller att subtrahera åt fel håll. När alla fyra plankorna passar går djuret över till flaggan.",
+        "Med inställningen ”Bara tal” visar stigen inga rutor förrän en planka har lagts, så barnet räknar ut talet först. I linje med Lgr22, centralt innehåll om taluppfattning och tals användning. Utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Hitta en saknad term, ett saknat tal att ta bort, ett saknat första tal eller hela talet",
-        "Använda sambandet mellan addition och subtraktion för att hitta det okända talet",
-        "Räkna uppåt eller bakåt för att hitta en saknad del",
-        "Para ihop varje uppgift med talet som gör den sann"
+        "Att hitta talet som fattas var det än står: en term, talet som tas bort, starttalet, summan eller skillnaden",
+        "Att se varje likhet som två delar och en helhet",
+        "Att kontrollera ett svar genom att prova det: för kort, för långt eller precis rätt",
+        "Att upptäcka de vanliga misstagen: att lägga ihop de tal man ser eller att subtrahera åt fel håll"
       ],
       "howToPlay": [
-        "Läs en uppgift med en tom ruta, som ? + 7 = 10, och räkna ut det saknade talet.",
-        "Tryck på uppgiften, tryck sedan på talet som gör den sann, och se hur paret kopplas ihop.",
-        "Para ihop båda paren i omgången — det finns ingen tid och inga poäng, så ta den tid du behöver."
+        "Tryck på en likhets skylt för att välja luckan. Nästa öppna lucka är redan valt.",
+        "Tryck på en planka. Stämmer talet passar den i luckan; annars ramlar den i eller sticker ut och går tillbaka till lådan.",
+        "Efter två fel plankor i samma lucka numreras rutorna, så att du kan räkna dem.",
+        "Tryck på en skylt med en planka för att ta ut plankan igen.",
+        "I inställningarna väljer du talen (upp till 10 eller upp till 20) och stigen (med rutor eller bara tal)."
       ],
       "learningGoals": [
-        "Barnet kan hitta det okända talet i en addition eller subtraktion, var som helst i uträkningen",
-        "Barnet förstår hur addition och subtraktion upphäver varandra",
-        "Barnet bygger ett rörligt tänkande med talfamiljer i stället för ett enda fast räknesätt"
+        "Att hitta det okända talet i en addition eller subtraktion, var det än står",
+        "Att förstå att de två delarna i en likhet tillsammans blir helheten",
+        "Att använda addition för att lösa en subtraktion där ett tal fattas",
+        "Att kontrollera ett svar i stället för att gissa"
       ]
     },
     "money.make-change.2-md-c-8": {

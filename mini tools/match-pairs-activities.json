@@ -881,7 +881,7 @@
   },
   {
     "id": "match-pairs.find-the-missing-number.1-oa-d-8",
-    "tool": "match-pairs-activity",
+    "tool": "plank-path-activity",
     "task_template": "find-missing",
     "alignment": {
       "framework": "CCSS",
@@ -890,440 +890,287 @@
       "strand": "Operations & Algebraic Thinking"
     },
     "params": {
-      "tasks": [
-        {
-          "cards": [
-            {
-              "display": "? + 4 = 9",
-              "kind": "expr",
-              "value": 5
-            },
-            {
-              "display": "5",
-              "kind": "expr",
-              "value": 5
-            },
-            {
-              "display": "8 + ? = 11",
-              "kind": "expr",
-              "value": 3
-            },
-            {
-              "display": "3",
-              "kind": "expr",
-              "value": 3
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "? − 3 = 4",
-              "kind": "expr",
-              "value": 7
-            },
-            {
-              "display": "7",
-              "kind": "expr",
-              "value": 7
-            },
-            {
-              "display": "10 − ? = 6",
-              "kind": "expr",
-              "value": 4
-            },
-            {
-              "display": "4",
-              "kind": "expr",
-              "value": 4
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "2 + ? = 8",
-              "kind": "expr",
-              "value": 6
-            },
-            {
-              "display": "6",
-              "kind": "expr",
-              "value": 6
-            },
-            {
-              "display": "? − 5 = 3",
-              "kind": "expr",
-              "value": 8
-            },
-            {
-              "display": "8",
-              "kind": "expr",
-              "value": 8
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "5 + 4 = ?",
-              "kind": "expr",
-              "value": 9
-            },
-            {
-              "display": "9",
-              "kind": "expr",
-              "value": 9
-            },
-            {
-              "display": "? + 6 = 8",
-              "kind": "expr",
-              "value": 2
-            },
-            {
-              "display": "2",
-              "kind": "expr",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "14 − ? = 6",
-              "kind": "expr",
-              "value": 8
-            },
-            {
-              "display": "8",
-              "kind": "expr",
-              "value": 8
-            },
-            {
-              "display": "? + 7 = 10",
-              "kind": "expr",
-              "value": 3
-            },
-            {
-              "display": "3",
-              "kind": "expr",
-              "value": 3
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "9 − 4 = ?",
-              "kind": "expr",
-              "value": 5
-            },
-            {
-              "display": "5",
-              "kind": "expr",
-              "value": 5
-            },
-            {
-              "display": "? + 2 = 9",
-              "kind": "expr",
-              "value": 7
-            },
-            {
-              "display": "7",
-              "kind": "expr",
-              "value": 7
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "? + 1 = 5",
-              "kind": "expr",
-              "value": 4
-            },
-            {
-              "display": "4",
-              "kind": "expr",
-              "value": 4
-            },
-            {
-              "display": "6 + ? = 9",
-              "kind": "expr",
-              "value": 3
-            },
-            {
-              "display": "3",
-              "kind": "expr",
-              "value": 3
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "? − 2 = 5",
-              "kind": "expr",
-              "value": 7
-            },
-            {
-              "display": "7",
-              "kind": "expr",
-              "value": 7
-            },
-            {
-              "display": "8 − ? = 2",
-              "kind": "expr",
-              "value": 6
-            },
-            {
-              "display": "6",
-              "kind": "expr",
-              "value": 6
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "3 + ? = 10",
-              "kind": "expr",
-              "value": 7
-            },
-            {
-              "display": "7",
-              "kind": "expr",
-              "value": 7
-            },
-            {
-              "display": "? − 4 = 1",
-              "kind": "expr",
-              "value": 5
-            },
-            {
-              "display": "5",
-              "kind": "expr",
-              "value": 5
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "? + 5 = 6",
-              "kind": "expr",
-              "value": 1
-            },
-            {
-              "display": "1",
-              "kind": "expr",
-              "value": 1
-            },
-            {
-              "display": "7 − 3 = ?",
-              "kind": "expr",
-              "value": 4
-            },
-            {
-              "display": "4",
-              "kind": "expr",
-              "value": 4
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "10 − ? = 3",
-              "kind": "expr",
-              "value": 7
-            },
-            {
-              "display": "7",
-              "kind": "expr",
-              "value": 7
-            },
-            {
-              "display": "2 + ? = 6",
-              "kind": "expr",
-              "value": 4
-            },
-            {
-              "display": "4",
-              "kind": "expr",
-              "value": 4
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "? + 8 = 10",
-              "kind": "expr",
-              "value": 2
-            },
-            {
-              "display": "2",
-              "kind": "expr",
-              "value": 2
-            },
-            {
-              "display": "? − 1 = 7",
-              "kind": "expr",
-              "value": 8
-            },
-            {
-              "display": "8",
-              "kind": "expr",
-              "value": 8
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "6 + ? = 8",
-              "kind": "expr",
-              "value": 2
-            },
-            {
-              "display": "2",
-              "kind": "expr",
-              "value": 2
-            },
-            {
-              "display": "? − 6 = 3",
-              "kind": "expr",
-              "value": 9
-            },
-            {
-              "display": "9",
-              "kind": "expr",
-              "value": 9
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "13 − ? = 5",
-              "kind": "expr",
-              "value": 8
-            },
-            {
-              "display": "8",
-              "kind": "expr",
-              "value": 8
-            },
-            {
-              "display": "4 + 5 = ?",
-              "kind": "expr",
-              "value": 9
-            },
-            {
-              "display": "9",
-              "kind": "expr",
-              "value": 9
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "? + 3 = 7",
-              "kind": "expr",
-              "value": 4
-            },
-            {
-              "display": "4",
-              "kind": "expr",
-              "value": 4
-            },
-            {
-              "display": "9 − ? = 4",
-              "kind": "expr",
-              "value": 5
-            },
-            {
-              "display": "5",
-              "kind": "expr",
-              "value": 5
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "? − 2 = 6",
-              "kind": "expr",
-              "value": 8
-            },
-            {
-              "display": "8",
-              "kind": "expr",
-              "value": 8
-            },
-            {
-              "display": "5 + ? = 7",
-              "kind": "expr",
-              "value": 2
-            },
-            {
-              "display": "2",
-              "kind": "expr",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "1 + ? = 4",
-              "kind": "expr",
-              "value": 3
-            },
-            {
-              "display": "3",
-              "kind": "expr",
-              "value": 3
-            },
-            {
-              "display": "8 − 3 = ?",
-              "kind": "expr",
-              "value": 5
-            },
-            {
-              "display": "5",
-              "kind": "expr",
-              "value": 5
-            }
-          ]
-        },
-        {
-          "cards": [
-            {
-              "display": "? + 6 = 9",
-              "kind": "expr",
-              "value": 3
-            },
-            {
-              "display": "3",
-              "kind": "expr",
-              "value": 3
-            },
-            {
-              "display": "11 − ? = 4",
-              "kind": "expr",
-              "value": 7
-            },
-            {
-              "display": "7",
-              "kind": "expr",
-              "value": 7
-            }
-          ]
-        }
-      ]
+      "note": "A mirror of plank-path-core.js (every path of both levels: its four equations, their answers, and the decoy plank). The core is the source; this row runs the Plank Path.",
+      "levels": [
+        "10",
+        "20"
+      ],
+      "paths": {
+        "10": [
+          {
+            "equations": [
+              "? + 4 = 9",
+              "8 − ? = 5",
+              "3 + 4 = ?",
+              "? − 6 = 2"
+            ],
+            "answers": [
+              5,
+              3,
+              7,
+              8
+            ],
+            "decoy": 4
+          },
+          {
+            "equations": [
+              "2 + ? = 8",
+              "? − 3 = 4",
+              "9 − 5 = ?",
+              "? + 7 = 10"
+            ],
+            "answers": [
+              6,
+              7,
+              4,
+              3
+            ],
+            "decoy": 10
+          },
+          {
+            "equations": [
+              "? + 6 = 8",
+              "10 − ? = 6",
+              "5 + 4 = ?",
+              "? − 2 = 5"
+            ],
+            "answers": [
+              2,
+              4,
+              9,
+              7
+            ],
+            "decoy": 3
+          },
+          {
+            "equations": [
+              "6 + ? = 9",
+              "? − 1 = 7",
+              "10 − 4 = ?",
+              "? + 5 = 6"
+            ],
+            "answers": [
+              3,
+              8,
+              6,
+              1
+            ],
+            "decoy": 2
+          },
+          {
+            "equations": [
+              "? + 3 = 7",
+              "9 − ? = 4",
+              "2 + 8 = ?",
+              "? − 4 = 2"
+            ],
+            "answers": [
+              4,
+              5,
+              10,
+              6
+            ],
+            "decoy": 2
+          },
+          {
+            "equations": [
+              "5 + ? = 7",
+              "? − 5 = 4",
+              "8 − 7 = ?",
+              "? + 3 = 9"
+            ],
+            "answers": [
+              2,
+              9,
+              1,
+              6
+            ],
+            "decoy": 3
+          },
+          {
+            "equations": [
+              "? + 2 = 5",
+              "7 − ? = 1",
+              "4 + 4 = ?",
+              "? − 5 = 5"
+            ],
+            "answers": [
+              3,
+              6,
+              8,
+              10
+            ],
+            "decoy": 9
+          },
+          {
+            "equations": [
+              "1 + ? = 5",
+              "? − 2 = 7",
+              "6 − 3 = ?",
+              "? + 2 = 8"
+            ],
+            "answers": [
+              4,
+              9,
+              3,
+              6
+            ],
+            "decoy": 7
+          },
+          {
+            "equations": [
+              "? + 1 = 8",
+              "10 − ? = 8",
+              "3 + 3 = ?",
+              "? − 1 = 4"
+            ],
+            "answers": [
+              7,
+              2,
+              6,
+              5
+            ],
+            "decoy": 9
+          }
+        ],
+        "20": [
+          {
+            "equations": [
+              "? + 4 = 13",
+              "14 − ? = 6",
+              "7 + 8 = ?",
+              "? − 5 = 7"
+            ],
+            "answers": [
+              9,
+              8,
+              15,
+              12
+            ],
+            "decoy": 2
+          },
+          {
+            "equations": [
+              "8 + ? = 11",
+              "? − 6 = 10",
+              "13 − 7 = ?",
+              "? + 9 = 18"
+            ],
+            "answers": [
+              3,
+              16,
+              6,
+              9
+            ],
+            "decoy": 19
+          },
+          {
+            "equations": [
+              "? + 7 = 15",
+              "16 − ? = 9",
+              "6 + 5 = ?",
+              "? − 8 = 6"
+            ],
+            "answers": [
+              8,
+              7,
+              11,
+              14
+            ],
+            "decoy": 2
+          },
+          {
+            "equations": [
+              "5 + ? = 12",
+              "? − 9 = 4",
+              "18 − 6 = ?",
+              "? + 6 = 20"
+            ],
+            "answers": [
+              7,
+              13,
+              12,
+              14
+            ],
+            "decoy": 5
+          },
+          {
+            "equations": [
+              "? + 8 = 17",
+              "15 − ? = 11",
+              "9 + 9 = ?",
+              "? − 3 = 10"
+            ],
+            "answers": [
+              9,
+              4,
+              18,
+              13
+            ],
+            "decoy": 7
+          },
+          {
+            "equations": [
+              "9 + ? = 15",
+              "? − 4 = 12",
+              "20 − 6 = ?",
+              "? + 5 = 13"
+            ],
+            "answers": [
+              6,
+              16,
+              14,
+              8
+            ],
+            "decoy": 18
+          },
+          {
+            "equations": [
+              "? + 6 = 11",
+              "17 − ? = 7",
+              "8 + 6 = ?",
+              "? − 7 = 9"
+            ],
+            "answers": [
+              5,
+              10,
+              14,
+              16
+            ],
+            "decoy": 17
+          },
+          {
+            "equations": [
+              "7 + ? = 16",
+              "? − 8 = 11",
+              "12 − 9 = ?",
+              "? + 10 = 18"
+            ],
+            "answers": [
+              9,
+              19,
+              3,
+              8
+            ],
+            "decoy": 10
+          },
+          {
+            "equations": [
+              "? + 9 = 20",
+              "13 − ? = 8",
+              "4 + 9 = ?",
+              "? − 2 = 14"
+            ],
+            "answers": [
+              11,
+              5,
+              13,
+              16
+            ],
+            "decoy": 12
+          }
+        ]
+      }
     },
     "theme": null,
     "slug": {

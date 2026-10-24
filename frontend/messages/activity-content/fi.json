@@ -735,25 +735,28 @@
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {
       "about": [
-        "Tässä tehtävässä lapsi ratkaisee laskukortteja, kuten ? + 4 = 9, 8 + ? = 11, ? − 3 = 4 ja 10 − ? = 6, ja napauttaa sitten laskua ja sen ratkaisevaa lukua yhdistääkseen parin. Tämä on vuorovaikutteinen matematiikan tehtävä, joka toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
-        "Tärkein ajatus on, että tuntematon luku voi olla missä kohdassa tahansa — puuttuva yhteenlaskettava, puuttuva vähentäjä, puuttuva vähennettävä tai koko summa — joten lapsen on ajateltava lukujen suhde joka kerta läpi sen sijaan, että aina vain \"lisäisi löytääkseen vastauksen\". Joskus tyhjä ruutu on koko summa (5 + 4 = ?) ja joskus se piiloutuu laskun sisään (? − 4 = 1), mikä kehittää aitoa joustavuutta lukukolmikoiden kanssa.",
-        "Tehtävä on OPS 2014:n mukainen: lapsi etsii tuntemattoman kokonaisluvun yhteen- tai vähennyslaskusta, tuntemattoman ollessa missä paikassa tahansa. 1. luokan oppilaille — ei ajastinta eikä pisteitä, vaan rauhassa omaan tahtiin etenevää harjoittelua."
+        "Jokainen lasku on aukko polussa puron varrella, ja jokainen lukukortti on täsmälleen sen mittainen lankku. Lapsi napauttaa laskun kylttiä ja sitten lankkua: lankku avautuu aukkoon ruutu kerrallaan. Vain luku, joka tekee laskusta oikean, sopii. Liian lyhyt lankku putoaa veteen, ja liian pitkä ulottuu toisen rannan yli.",
+        "Jokaisessa polussa on neljä aukkoa, ja puuttuva luku on joka kerta eri paikassa: ensimmäinen lisättävä luku, toinen, pois otettava luku, aloitusluku, summa tai erotus. Jos aloitusluku tai summa puuttuu, aukko on polun alla. Laatikossa on viisi lankkua: neljä vastausta ja yksi, joka ei sovi mihinkään, yleensä tyypillinen virhe, kuten näkyvien lukujen laskeminen yhteen tai vähentäminen väärin päin. Kun kaikki neljä lankkua sopivat, eläin kulkee yli lipulle.",
+        "Asetuksessa ”Vain luvut” polussa ei näy ruutuja ennen kuin lankku on laitettu, joten lapsi laskee luvun ensin. Sopii opetussuunnitelman sisältöalueeseen Luvut ja laskutoimitukset. Ilman ajanottoa ja ilman pisteytystä."
       ],
       "practices": [
-        "Etsii puuttuvan yhteenlaskettavan, puuttuvan vähentäjän, puuttuvan vähennettävän tai koko summan.",
-        "Käyttää yhteen- ja vähennyslaskun välistä yhteyttä tuntemattoman ratkaisemiseen.",
-        "Laskee eteenpäin tai taaksepäin löytääkseen puuttuvan osan.",
-        "Yhdistää jokaisen laskun siihen lukuun, joka tekee siitä toden."
+        "Puuttuvan luvun löytäminen missä kohdassa tahansa: yhteenlaskettava, pois otettava luku, aloitusluku, summa tai erotus",
+        "Jokaisen laskun näkeminen kahtena osana ja kokonaisuutena",
+        "Vastauksen tarkistaminen kokeilemalla: liian lyhyt, liian pitkä vai juuri sopiva",
+        "Tyypillisten virheiden huomaaminen: näkyvien lukujen laskeminen yhteen tai vähentäminen väärin päin"
       ],
       "howToPlay": [
-        "Lue laskukortti, jossa on tyhjä ruutu, kuten ? + 7 = 10, ja päättele puuttuva luku.",
-        "Napauta ensin laskua ja sitten lukua, joka tekee siitä toden, ja katso, miten pari yhdistyy.",
-        "Yhdistä kierroksen molemmat parit — ei ajastinta eikä pisteitä, joten ehdit rauhassa."
+        "Napauta laskun kylttiä valitaksesi sen aukon. Seuraava avoin aukko on jo valittu.",
+        "Napauta lankkua. Jos luku on oikea, lankku sopii aukkoon; muuten se putoaa tai ulottuu yli ja palaa laatikkoon.",
+        "Kun samaan aukkoon on laitettu kaksi väärää lankkua, sen ruudut numeroidaan, jotta voit laskea ne.",
+        "Napauta kylttiä, jossa on lankku, niin otat lankun pois.",
+        "Asetuksista valitset luvut (10 asti tai 20 asti) ja polun (ruuduilla tai vain luvut)."
       ],
       "learningGoals": [
-        "Lapsi etsii tuntemattoman luvun yhteen- tai vähennyslaskusta missä paikassa tahansa.",
-        "Lapsi ymmärtää, miten yhteen- ja vähennyslasku kumoavat toisensa.",
-        "Lapsi kehittää joustavaa ajattelua lukukolmikoiden avulla yhden kiinteän laskukaavan sijaan."
+        "Löytää tuntematon luku yhteen- tai vähennyslaskusta, missä se onkin",
+        "Ymmärtää, että laskun kaksi osaa muodostavat kokonaisuuden",
+        "Käyttää yhteenlaskua vähennyslaskun ratkaisemiseen, kun luku puuttuu",
+        "Tarkistaa vastaus arvaamisen sijaan"
       ]
     },
     "money.make-change.2-md-c-8": {

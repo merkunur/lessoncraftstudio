@@ -243,6 +243,10 @@ function seedScript(row) {
     // 8 + 6: Lily on 8 pulled back two beads, the aim ring on the golden Ten Stone, the stones past ten still under water — the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.facts='both';t.api.settings.labels='five';t._pool=null;t._ensurePool();t._start(0);t._coil=2;t._view={};t._render2();})()`;
   }
+  if (row.tool === 'plank-path-activity') {
+    // Within 10, path 1: three planks laid (5, 3, 7), the fourth gap ? − 6 = 2 still open water, the decoy 4 waiting in the tray — the plank path at work
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.numbers='10';t.api.settings.path='squares';t._pool=null;t._ensurePool();t._start(0,0);var C=window.PlankPathCore,s=t.st;[5,3,7].forEach(function(p){C.lay(s,p);});t._view={};t._render2();})()`;
+  }
   if (row.tool === 'two-gauges-activity') {
     // 6 + 6 = □ + 4 with 10 in the socket: the left needle on 12, the right swept past to 14 — the gap lit between them, a ghost line where the other side reads — the two gauges at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.numbers='20';t.api.settings.path='help';t._pool=null;t._ensurePool();t._start(5,5,3);var C=window.TwoGaugesCore,s=t.st;C.setValue(s,10);C.pull(s);t._view={};t._render2();})()`;

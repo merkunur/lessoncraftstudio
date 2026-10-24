@@ -4164,25 +4164,28 @@
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {
       "about": [
-        "Je kind lost kaarten op zoals ? + 4 = 9, 8 + ? = 11, ? − 3 = 4 en 10 − ? = 6, en tikt dan op de som en op het getal dat hem compleet maakt om het paar te verbinden. Het is een interactieve rekenactiviteit voor groep 4 die direct in de browser werkt, zonder installatie en zonder account.",
-        "Het bijzondere is dat het ontbrekende getal overal kan staan — een ontbrekende term, het getal dat je weghaalt, het begingetal of het totaal — zodat je kind elke keer het verband moet doordenken in plaats van altijd 'optellen om het antwoord te vinden'. Soms is het lege vakje het totaal (5 + 4 = ?) en soms zit het verborgen in de som (? − 4 = 1), wat echte flexibiliteit met de splitsingsfamilie opbouwt.",
-        "De activiteit sluit aan bij de kerndoelen binnen het domein getallen en bewerkingen: het onbekende getal in een optel- of aftreksom vinden, op elke plek in de som. Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Elke som is een gat in een pad langs een beek, en elke getallenkaart is een plank die precies zo lang is. Het kind tikt op het bordje van een som en dan op een plank: die vouwt zich hokje voor hokje open in het gat. Alleen het getal dat de som laat kloppen, past. Een te korte plank valt in het water, een te lange steekt uit over de andere oever.",
+        "Elk pad heeft vier gaten, en het ontbrekende getal staat steeds op een andere plek: het eerste getal dat erbij komt, het tweede, het getal dat eraf gaat, het begingetal, de uitkomst van een plussom of het verschil. Ontbreekt het begingetal of de uitkomst van een plussom, dan ligt het gat onder het pad. In de bak liggen vijf planken: de vier antwoorden en één die nergens past, meestal een typische fout, zoals de twee getallen die je ziet optellen of verkeerd om aftrekken. Passen alle vier de planken, dan loopt het dier over naar de vlag.",
+        "Bij de instelling „Alleen getallen” toont het pad geen hokjes tot er een plank ligt, dus rekent het kind het getal eerst uit. Passend bij de kerndoelen voor getallen en bewerkingen. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Een ontbrekende term, het getal dat je weghaalt, het begingetal of het totaal vinden",
-        "Het verband tussen optellen en aftrekken gebruiken om het onbekende getal op te lossen",
-        "Doortellen of terugtellen om een ontbrekend deel te vinden",
-        "Elke som koppelen aan het getal dat hem kloppend maakt"
+        "Het ontbrekende getal op elke plek vinden: een getal dat erbij komt, het getal dat eraf gaat, het begingetal, de uitkomst of het verschil",
+        "Elke som zien als twee delen en een geheel",
+        "Een antwoord controleren door het te passen: te kort, te lang of precies goed",
+        "De typische fouten herkennen: de getallen die je ziet optellen, of verkeerd om aftrekken"
       ],
       "howToPlay": [
-        "Lees een somkaart met een leeg vakje, zoals ? + 7 = 10, en bedenk het ontbrekende getal.",
-        "Tik op de som en daarna op het getal dat hem kloppend maakt, en kijk hoe het paar verbindt.",
-        "Verbind beide paren in de ronde — er is geen timer en geen score, dus neem rustig de tijd."
+        "Tik op het bordje van een som om het gat te kiezen. Het volgende open gat is al gekozen.",
+        "Tik op een plank. Klopt het getal, dan past hij in het gat; zo niet, dan valt hij erin of steekt hij uit en gaat hij terug naar de bak.",
+        "Na twee verkeerde planken in hetzelfde gat krijgen de hokjes een nummer, zodat je ze kunt tellen.",
+        "Tik op een bordje met een plank om de plank er weer uit te halen.",
+        "In de instellingen kies je de getallen (tot 10 of tot 20) en het pad (met hokjes of alleen getallen)."
       ],
       "learningGoals": [
-        "Het kind vindt het onbekende getal in een optel- of aftreksom, op elke plek.",
-        "Het kind begrijpt hoe optellen en aftrekken elkaar omkeren.",
-        "Het kind denkt flexibel met splitsingsfamilies in plaats van met één vast trucje."
+        "Het ontbrekende getal in een plus- of minsom vinden, waar het ook staat",
+        "Begrijpen dat de twee delen van een som samen het geheel maken",
+        "Een minsom met een ontbrekend getal oplossen met optellen",
+        "Een antwoord controleren in plaats van gokken"
       ]
     },
     "money.make-change.2-md-c-8": {

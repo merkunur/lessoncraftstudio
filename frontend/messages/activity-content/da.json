@@ -1436,25 +1436,28 @@
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {
       "about": [
-        "Barnet løser kort som ? + 4 = 9, 8 + ? = 11, ? − 3 = 4 og 10 − ? = 6 og trykker så på regnestykket og det tal, der gør det rigtigt, for at forbinde parret. Det er en interaktiv matematikøvelse til 1. klasse, der kører direkte i browseren, uden at man skal installere noget, og uden konto.",
-        "Den store idé er, at det ukendte tal kan stå hvor som helst — som det tal, man lægger til, det tal, man trækker fra, det tal man starter med, eller hele tallet — så barnet skal tænke sammenhængen igennem hver gang i stedet for altid bare at lægge sammen. Nogle gange er det tomme felt hele tallet (5 + 4 = ?), og nogle gange er det gemt inde i regnestykket (? − 4 = 1), og det opbygger en rigtig fleksibilitet med talfamilier.",
-        "Aktiviteten følger Fælles Mål inden for tal og algebra: at finde det ukendte tal i et plus- eller minusstykke, hvor det ukendte kan stå hvor som helst. Der er ingen timer og ingen point — kun rolig og legende træning."
+        "Hvert regnestykke er et hul i en sti ved en å, og hvert talkort er en planke, der er præcis så lang. Barnet trykker på et regnestykkes skilt og derefter på en planke: Den folder sig ud i hullet firkant for firkant. Kun det tal, der gør regnestykket rigtigt, passer. En for kort planke falder i vandet, og en for lang stikker ud over den anden bred.",
+        "Hver sti har fire huller, og det manglende tal står et nyt sted hver gang: det første tal, der lægges til, det andet, tallet, der trækkes fra, starttallet, summen eller forskellen. Mangler starttallet eller summen, ligger hullet under stien. I bakken ligger fem planker: de fire svar og én, der ikke passer nogen steder, som regel en typisk fejl, fx at lægge de to tal, man ser, sammen eller at trække fra den forkerte vej. Når alle fire planker passer, går dyret over til flaget.",
+        "Med indstillingen „Kun tal“ viser stien ingen firkanter, før en planke er lagt, så barnet regner tallet ud først. I tråd med Fælles Mål for tal og algebra. Uden tidtagning og uden point."
       ],
       "practices": [
-        "Finde et manglende tal, man lægger til, trækker fra, starter med, eller hele tallet",
-        "Bruge sammenhængen mellem plus og minus til at finde det ukendte tal",
-        "Tælle frem eller tælle tilbage for at finde en manglende del",
-        "Forbinde hvert regnestykke med det tal, der gør det rigtigt"
+        "At finde det manglende tal alle steder: et af tallene, der lægges sammen, tallet, der trækkes fra, starttallet, summen eller forskellen",
+        "At se hvert regnestykke som to dele og en helhed",
+        "At tjekke et svar ved at prøve det: for kort, for lang eller lige tilpas",
+        "At få øje på de typiske fejl: at lægge de tal, man ser, sammen eller at trække fra den forkerte vej"
       ],
       "howToPlay": [
-        "Barnet læser et kort med et tomt felt, som ? + 7 = 10, og regner det manglende tal ud.",
-        "Barnet trykker på regnestykket og derefter på tallet, der gør det rigtigt, og ser parret blive forbundet.",
-        "Forbind begge par i runden — der er ingen timer og ingen point, så barnet kan tage sig god tid."
+        "Tryk på et regnestykkes skilt for at vælge hullet. Det næste åbne hul er allerede valgt.",
+        "Tryk på en planke. Er tallet rigtigt, passer den i hullet; ellers falder den i eller stikker ud og går tilbage til bakken.",
+        "Efter to forkerte planker i det samme hul får firkanterne numre, så du kan tælle dem.",
+        "Tryk på et skilt med en planke i for at tage planken ud igen.",
+        "I indstillingerne vælger du tallene (op til 10 eller op til 20) og stien (med firkanter eller kun tal)."
       ],
       "learningGoals": [
-        "Barnet kan finde det ukendte tal i et plus- eller minusstykke, uanset hvor det står",
-        "Barnet kan forstå, hvordan plus og minus ophæver hinanden",
-        "Barnet kan tænke fleksibelt med talfamilier i stedet for én fast fremgangsmåde"
+        "At finde det ukendte tal i et plus- eller minusstykke, uanset hvor det står",
+        "At forstå, at de to dele af et regnestykke giver helheden",
+        "At bruge plus til at løse et minusstykke med et manglende tal",
+        "At tjekke et svar i stedet for at gætte"
       ]
     },
     "money.make-change.2-md-c-8": {

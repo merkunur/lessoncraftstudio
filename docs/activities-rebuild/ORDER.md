@@ -97,7 +97,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 87 | LIVE 2026-10-23 · The Rung Ladder | 1 | 1.OA.D.7 | `match-pairs.addition-and-subtraction-pairs.1-oa-d-7` | match-pairs-activity | Addition & Subtraction Pairs |
 | 88 | LIVE 2026-10-24 · The Equal-Sign Beam | 1 | 1.OA.D.7 | `numbers-court.judge-balance.1-oa-d-7` | numbers-court-activity | Numbers Court — Is the Equation Fair? (Grade 1) |
 | 89 | LIVE 2026-10-24 · The Two Gauges | 1 | 1.OA.D.8 | `fix-it-corner.missing-part.1-oa-d-8` | fix-it-corner-activity | Fixit's Fix-It Corner — Find the Missing Number (Grade 1) |
-| 90 |  | 1 | 1.OA.D.8 | `match-pairs.find-the-missing-number.1-oa-d-8` | match-pairs-activity | Find the Missing Number |
+| 90 | LIVE 2026-10-24 · The Plank Path | 1 | 1.OA.D.8 | `match-pairs.find-the-missing-number.1-oa-d-8` | match-pairs-activity | Find the Missing Number |
 | 91 |  | 1 | 1.OA.D.8 | `sharing-jar.make-fair.1-oa-d-8` | sharing-jar-activity | The Sharing Jar — Make It Fair (Find the Missing Number) |
 | 92 |  | 1 | 1.NBT.A.1 | `track-repair.count-to-120.1-nbt-a-1` | track-repair-activity | Whistle Valley — Number-Line Track Repair |
 | 93 |  | 1 | 1.NBT.B.2 | `bos-berry-pantry.slingshot-tens.1-nbt-b-2` | bos-berry-pantry-activity | Bo's Berry Pantry — Tens and Ones the Smart Way |

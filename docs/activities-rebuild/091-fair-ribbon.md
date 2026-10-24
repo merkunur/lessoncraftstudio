@@ -56,11 +56,12 @@ ORDER row 91 · id `sharing-jar.make-fair.1-oa-d-8` (kept). Design: `designs/091
 |---|---|
 | verify-fair-ribbon-core (own oracle; details below) | 4,386 / 0 |
 | mutate-fair-ribbon | 17 / 17 killed, control survives |
-| local-test-fair-ribbon (details below) | see the commit |
+| local-test-fair-ribbon (details below) | 22,055 / 0 |
 | visual-qa | 54 renders green |
 | hierarchy | 272 / 0 |
 | settings-efficacy | 2 live |
 | preflight, prose-claims, serp-copy | green |
+| live-verify-fair-ribbon (11 pages 200; en/de/sv/fi × 1366/390, real pointer: tile 1 + Check → hGap, tile 2 + Check → okMore) | 59 / 0 (the first run, inside the deploy window, saw no iframe) |
 
 **What verify-fair-ribbon-core checks:**
 - the design tables as text, solved here;

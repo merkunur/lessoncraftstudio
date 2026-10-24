@@ -2490,27 +2490,28 @@
     },
     "seriation.compare-length.1-md-a-1": {
       "about": [
-        "Los listones de Tilly es una actividad interactiva de matemáticas para primer grado de primaria, pensada para que las niñas y los niños de alrededor de 6 y 7 años den sus primeros pasos en la comparación de longitudes. En cada ronda, Tilly, la gata de la tienda, acomoda tres listones de colores uno debajo de otro, todos desde la misma orilla, y arriba de ellos deja su cordón, cuya marca punteada cruza los tres estantes.",
-        "Ahí entra el cordón: la niña o el niño se fija en dónde termina cada listón respecto de la marca del cordón y decide si es más largo, más corto o igual de largo que él. Después toca un solo listón, el que le pide la ronda. Comparar todo contra una misma medida de referencia, sin números ni unidades, prepara el terreno para el uso posterior de la regla y otras unidades.",
-        "Dentro del eje de Magnitudes y medida de los planes y programas de estudio de la SEP y la Nueva Escuela Mexicana, la comparación de longitudes es uno de los aprendizajes clave de primer grado. Esta actividad trabaja su primer paso: en cada ronda la niña o el niño observa tres listones y toca uno solo, el más largo, el más corto o el que mide igual de largo que el cordón. Todo se presenta como un juego amable, sin cronómetro ni puntajes, para que la práctica se sienta tranquila y con confianza."
+        "Los listones de Tilly están en lugares que nunca se juntan: uno cuelga de un gancho, otro está sobre un estante alto y otro sobre el mostrador, y cada uno empieza en otro sitio. Así que a simple vista no se pueden poner uno junto al otro, y el que cuelga a menudo parece más largo de lo que es. El mismo cordón, siempre del mismo largo, se lleva a cada listón: su pinza va en el alfiler donde empieza el listón, se extiende a lo largo del listón y deja una etiqueta: más corto que el cordón, igual de largo o más largo.",
+        "En las rondas mixtas el niño encuentra el más largo, el más corto o el listón igual de largo que el cordón; en las rondas de ordenar pone los tres en un riel, primero el más corto. Exactamente un listón es más largo, uno más corto o uno igual de largo, así que las etiquetas deciden solas: más largo que el cordón, y el cordón más largo que otro, quiere decir también más largo que ese. Con los objetos altos pasa lo mismo: tres velas o tres botellas están sobre un banquito, una caja y un estante alto, y el cordón se sostiene desde la base de cada una, así que la que llega más arriba no siempre es la más alta.",
+        "Comprobar solo funciona cuando el cordón ya estuvo en los tres. Después de un intento fallido, la pista remite a las etiquetas; después de un segundo, las tres etiquetas de los listones se ponen en fila: más corto, igual de largo, más largo. Cuando la ronda está resuelta, Tilly pone los tres listones uno junto al otro desde el mismo alfiler, con el cordón debajo, y los objetos altos bajan todos al suelo, justo como decían las etiquetas. Sin números y sin regla. En línea con los programas de estudio de la SEP (campo formativo Saberes y pensamiento científico). Sin cronómetro y sin puntaje."
       ],
       "practices": [
-        "Usar el cordón como una misma medida de referencia para los tres listones.",
-        "Observar dónde termina cada listón para decidir cuál sobresale más y cuál menos.",
-        "Notar si un listón se pasa de la marca del cordón, se queda antes o termina justo en ella.",
-        "Identificar el más largo, el más corto y el que mide igual que la referencia.",
-        "Emplear vocabulario de medición: más largo, más corto, igual de largo."
+        "Comparar dos longitudes con un tercer objeto que siempre es el mismo",
+        "Ordenar tres objetos por su longitud, primero el más corto",
+        "Ver que dónde empieza algo y hacia dónde está cambian lo largo que parece, no lo largo que es",
+        "Comparar alturas desde la base de cada objeto"
       ],
       "howToPlay": [
-        "Observa cada listón junto al cordón de Tilly y fíjate si sobra, falta o mide justo lo mismo.",
-        "Toca el listón más largo, el más corto o el que mide igual que el cordón, según lo que se pida en cada ronda.",
-        "En casa o en el salón, funciona en la computadora, en la tableta o en el pizarrón interactivo, sin necesidad de crear una cuenta.",
-        "Ideal para trabajarla en pareja o en grupo pequeño, comentando en voz alta por qué un listón es más largo que otro."
+        "Toca la canasta del cordón y luego un listón, o arrastra el cordón desde la canasta hasta el principio del listón. La etiqueta muestra más corto, igual de largo o más largo que el cordón.",
+        "Hazlo con cada listón, toca tu respuesta y presiona Comprobar.",
+        "En las rondas de ordenar, toca un listón y luego un escalón del riel, o arrástralo ahí: el más corto va en el primer escalón.",
+        "Con los objetos altos, el cordón se sostiene junto a cada uno desde su base.",
+        "En la configuración, elige la pregunta (El más largo, el más corto, igual de largo · Ordenar) y los objetos (Listones · Objetos altos)."
       ],
       "learningGoals": [
-        "Comprender que la longitud se puede comparar y describir con palabras como más largo, más corto e igual de largo.",
-        "Afianzar el aprendizaje de Magnitudes y medida de primer grado según los planes y programas de estudio de la SEP.",
-        "Construir las bases del razonamiento sobre medición antes de introducir la regla y las unidades convencionales."
+        "Comparar la longitud de dos objetos de manera indirecta, con un tercer objeto.",
+        "Ordenar tres objetos por su longitud.",
+        "Juzgar la longitud desde el principio hasta el final, no por dónde está un objeto ni hacia dónde apunta.",
+        "Comparar la altura de objetos que están a distintas alturas."
       ]
     },
     "choice-board.fraction-noncongruent.2-g-a-3": {

@@ -938,26 +938,28 @@
     },
     "seriation.compare-length.1-md-a-1": {
       "about": [
-        "Tilly é uma gatinha cheia de charme que cuida de uma lojinha e guarda suas fitas coloridas numa estante, uma fita em cada prateleira. Em cada rodada aparecem três fitas e um barbante: a criança olha as três de uma vez e descobre qual é a mais comprida, qual é a mais curta e qual tem o mesmo tamanho do barbante.",
-        "Como as três fitas começam no mesmo ponto e o barbante deixa um tracinho no lugar onde ele termina, dá para ver de relance qual fita passa do tracinho, qual para antes dele e qual para exatamente nele. Comparar cada fita com uma mesma referência é o começo da ideia de medida: antes de usar a régua, a criança precisa perceber que comparar é sempre comparar com alguma coisa. O barbante não tem números nem marquinhas — só um comprimento fixo, sempre o mesmo.",
-        "É uma atividade online, feita para brincar direto no navegador, em tablets, celulares e computadores da sala de aula — sem instalar nada e sem criar conta. Ela está alinhada à BNCC, na unidade temática Grandezas e medidas, e trabalha a comparação de comprimentos com as expressões mais comprido, mais curto e do mesmo tamanho. Não aparece nenhum número na tela: sem cronômetro e sem pontuação, só observação calma, no tempo de cada criança."
+        "As fitas da Tilly ficam em lugares que nunca se encontram: uma está pendurada num gancho, outra está numa prateleira alta e outra no balcão, e cada uma começa num lugar diferente. Por isso, só de olhar não dá para colocá-las lado a lado, e a pendurada muitas vezes parece mais comprida do que é. O mesmo barbante, sempre do mesmo comprimento, é levado até cada fita: o prendedor vai no alfinete onde a fita começa, o barbante se estica ao longo da fita e deixa uma etiqueta: mais curta que o barbante, do mesmo comprimento ou mais comprida.",
+        "Nas rodadas misturadas, a criança encontra a mais comprida, a mais curta ou a fita do mesmo comprimento do barbante; nas rodadas de ordenar, coloca as três num trilho, a mais curta primeiro. Exatamente uma fita é mais comprida, uma mais curta ou uma do mesmo comprimento, então as etiquetas decidem sozinhas: mais comprida que o barbante, e o barbante mais comprido que outra, quer dizer mais comprida que essa também. Com os objetos altos é igual: três velas ou três garrafas ficam num banquinho, numa caixa e numa prateleira alta, e o barbante é segurado a partir da base de cada uma, então a que chega mais alto nem sempre é a mais alta.",
+        "Verificar só funciona depois que o barbante passou pelas três. Depois de uma tentativa errada, a dica volta às etiquetas; depois da segunda, as três etiquetas das fitas se alinham: mais curta, do mesmo comprimento, mais comprida. Quando a rodada está resolvida, a Tilly coloca as três fitas lado a lado a partir do mesmo alfinete, com o barbante embaixo, e os objetos altos descem todos para o chão, exatamente como as etiquetas diziam. Sem números e sem régua. De acordo com a BNCC, na unidade temática Grandezas e medidas. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Reconhecer, entre três fitas, qual é a mais comprida e qual é a mais curta.",
-        "Perceber que fitas que começam no mesmo ponto podem ser comparadas só de olhar: a que vai mais longe é a mais comprida.",
-        "Comparar cada fita com uma mesma referência, o barbante, e ver se ela passa dele, se para antes dele ou se termina junto com ele.",
-        "Reconhecer quando uma fita tem exatamente o mesmo comprimento do barbante.",
-        "Familiarizar-se com o vocabulário de comprimento usando um material do dia a dia, sem números e sem instrumentos graduados, antes de medir com a régua nos próximos anos."
+        "Comparar dois comprimentos com um terceiro objeto que é sempre o mesmo",
+        "Ordenar três objetos pelo comprimento, o mais curto primeiro",
+        "Ver que onde uma coisa começa e para que lado ela está mudam o quanto ela parece comprida, não o quanto ela é",
+        "Comparar alturas a partir da base de cada objeto"
       ],
       "howToPlay": [
-        "A criança lê ou ouve o comando: tocar na fita mais comprida, na mais curta ou na que tem o mesmo comprimento do barbante. São nove rodadas, e a ordem muda a cada volta.",
-        "As três fitas da rodada aparecem juntas na estante, cada uma na sua prateleira e todas começando no mesmo ponto; um tracinho mostra até onde vai o barbante. É só olhar: as três estão à vista ao mesmo tempo, sem pressa.",
-        "Embaixo da estante ficam os botões coloridos, um para cada fita. A criança toca no botão da cor que responde ao comando: se acertar, o botão se ilumina, a Tilly comemora e aparece o botão para seguir adiante; se não, aquele botão fica mais apagado e uma dica gentil convida a olhar de novo."
+        "Toque na cesta do barbante e depois numa fita, ou arraste o barbante da cesta até o começo da fita. A etiqueta mostra mais curta, do mesmo comprimento ou mais comprida que o barbante.",
+        "Faça isso com cada fita, toque na sua resposta e aperte Verificar.",
+        "Nas rodadas de ordenar, toque numa fita e depois num degrau do trilho, ou arraste-a até lá: a mais curta vai no primeiro degrau.",
+        "Com os objetos altos, o barbante é segurado ao lado de cada um a partir da base.",
+        "Nas configurações, escolha a pergunta (A mais comprida, a mais curta, do mesmo comprimento · Colocar em ordem) e os objetos (Fitas · Objetos altos)."
       ],
       "learningGoals": [
-        "Comparar comprimentos e reconhecer, entre três fitas, a mais comprida e a mais curta.",
-        "Entender que toda comparação precisa de um ponto de partida comum e de uma referência: aqui, todas as fitas começam no mesmo lugar e todas são olhadas junto do mesmo barbante.",
-        "Ganhar familiaridade com o vocabulário de comprimento — mais comprido, mais curto, do mesmo tamanho — com um material simples e sem números, preparando a criança para medir com instrumentos graduados nos próximos anos."
+        "Comparar o comprimento de dois objetos de forma indireta, usando um terceiro objeto.",
+        "Ordenar três objetos pelo comprimento.",
+        "Avaliar o comprimento do começo ao fim, e não por onde o objeto está ou para onde aponta.",
+        "Comparar a altura de objetos que estão em níveis diferentes."
       ]
     },
     "choice-board.fraction-noncongruent.2-g-a-3": {

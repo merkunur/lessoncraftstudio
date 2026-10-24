@@ -2307,25 +2307,28 @@
     },
     "seriation.compare-length.1-md-a-1": {
       "about": [
-        "Tilly, la chatte de la boutique, garde ses plus jolis rubans bien en vue, chacun sur son étagère, et la même longueur de ficelle est marquée devant toutes. Votre enfant voit les trois rubans en même temps et les compare à cette ficelle, qui sert de longueur de référence : lequel va plus loin qu'elle, lequel s'arrête avant, lequel se termine juste dessus ? Il n'y a ni chiffres, ni centimètres : on observe, on compare, on décide avec ses yeux et une simple ficelle.",
-        "L'idée mathématique de ce jeu est essentielle au CP : comparer des longueurs sans les mesurer avec des chiffres. Sur chaque étagère, la même longueur de ficelle est reportée : c'est un repère commun. Votre enfant regarde jusqu'où va chaque ruban par rapport à ce repère (il le dépasse, il s'arrête avant, ou il se termine juste dessus), puis il désigne le plus long, le plus court, ou celui qui est aussi long que la ficelle. Se servir d'un troisième objet comme longueur de référence, c'est déjà le geste qui prépare la mesure, bien avant la règle graduée.",
-        "Cette activité se joue sans compte à créer, sans minuteur et sans points à gagner. Elle est conçue en lien avec les programmes officiels, dans le domaine « Grandeurs et mesures », et votre enfant avance à son rythme, aussi longtemps qu'il en a besoin, en découvrant tranquillement les rubans de la boutique de Tilly."
+        "Les rubans de Tilly sont dans des endroits qui ne se rejoignent jamais : l’un est suspendu à un crochet, l’autre posé sur une étagère haute, le troisième posé sur le comptoir, et chacun commence ailleurs. À l’œil, on ne peut donc pas les mettre côte à côte, et celui qui pend paraît souvent plus long qu’il ne l’est. La même ficelle, toujours de la même longueur, est portée jusqu’à chaque ruban : sa pince va sur l’épingle où le ruban commence, elle se pose le long du ruban et laisse une étiquette : plus court que la ficelle, aussi long ou plus long.",
+        "Dans les manches mélangées, l’enfant trouve le plus long, le plus court ou le ruban aussi long que la ficelle ; dans les manches à ranger, il place les trois sur un rail, le plus court d’abord. Un seul ruban est plus long, plus court ou aussi long : les étiquettes décident donc seules. Plus long que la ficelle, et la ficelle plus longue qu’un autre, cela veut dire plus long que celui-là aussi. Avec les objets hauts, c’est pareil : trois bougies ou trois bouteilles sont posées sur un tabouret, une caisse et une étagère haute, et la ficelle est tenue depuis la base de chacune, si bien que celle qui monte le plus haut n’est pas toujours la plus grande.",
+        "On ne peut vérifier qu’une fois la ficelle passée par les trois. Après une erreur, l’indice renvoie aux étiquettes ; après une deuxième, les trois étiquettes des rubans se mettent en ligne : plus court, aussi long, plus long. Quand la manche est réussie, Tilly pose les trois rubans côte à côte depuis la même épingle, avec la ficelle en dessous, et les objets hauts descendent tous au sol, exactement comme l’avaient dit les étiquettes. Sans nombres et sans règle. En lien avec les programmes officiels pour le domaine Grandeurs et mesures. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Comparer la longueur d'un ruban et celle de la ficelle",
-        "Repérer le ruban le plus long ou le plus court parmi trois",
-        "Se servir de la ficelle comme longueur de référence commune",
-        "Employer le vocabulaire « plus long », « plus court », « aussi long que »"
+        "Comparer deux longueurs grâce à un troisième objet qui reste toujours le même",
+        "Ranger trois objets selon leur longueur, le plus court d’abord",
+        "Voir que l’endroit où une chose commence et le sens dans lequel elle est posée changent la longueur qu’elle semble avoir, pas sa longueur",
+        "Comparer des hauteurs depuis la base de chaque objet"
       ],
       "howToPlay": [
-        "Observe les trois rubans posés sur les étagères et la ficelle de Tilly.",
-        "Compare chaque ruban à la ficelle pour voir s'il est plus long, plus court ou aussi long qu'elle.",
-        "Touche le ruban le plus long, le plus court, ou celui qui est aussi long que la ficelle, selon la consigne."
+        "Touche le panier de la ficelle puis un ruban, ou fais glisser la ficelle du panier jusqu’au début du ruban. L’étiquette indique plus court, aussi long ou plus long que la ficelle.",
+        "Fais-le pour chaque ruban, puis touche ta réponse et appuie sur Vérifier.",
+        "Dans les manches à ranger, touche un ruban puis une marche du rail, ou fais-le glisser jusque-là : le plus court va sur la première marche.",
+        "Avec les objets hauts, la ficelle est tenue à côté de chacun depuis sa base.",
+        "Dans les réglages, choisis la question (Le plus long, le plus court, aussi long · Ranger dans l’ordre) et les objets (Rubans · Objets hauts)."
       ],
       "learningGoals": [
-        "Votre enfant sait comparer des longueurs et reconnaître la plus longue et la plus courte, sans chiffres.",
-        "Il sait se servir d'une longueur de référence : il compare chaque ruban à la même ficelle, sans rien déplacer.",
-        "Il maîtrise le vocabulaire de la longueur, une base solide avant de mesurer plus tard en centimètres avec une règle."
+        "Comparer de manière indirecte la longueur de deux objets à l’aide d’un troisième objet.",
+        "Ranger trois objets selon leur longueur.",
+        "Juger une longueur du début à la fin, et non d’après l’endroit où se trouve un objet ou la direction qu’il indique.",
+        "Comparer la hauteur d’objets posés à des niveaux différents."
       ]
     },
     "choice-board.fraction-noncongruent.2-g-a-3": {

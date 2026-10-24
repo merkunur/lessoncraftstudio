@@ -1650,25 +1650,28 @@
     },
     "seriation.compare-length.1-md-a-1": {
       "about": [
-        "Tillys band hänger på hyllor långt ifrån varandra, och tre av dem visas åt gången i sina riktiga längder — ett rött, blått, grönt, gult, lila eller orange band — bredvid ett rep och en streckad linje som visar var repet tar slut. Barnet tittar, jämför och trycker på färgknappen för det band som frågan gäller: det längsta, det kortaste eller det som är precis lika långt som repet. Det är en interaktiv mätövning som körs direkt i webbläsaren, utan nedladdning och utan konto.",
-        "Den stora idén är att repet får vara ett gemensamt mått. I stället för att ställa banden mot varandra håller barnet varje band mot repet och ser om det räcker förbi den streckade linjen eller tar slut innan den. Då går det att avgöra vilket band som är längst även när banden ligger på olika hyllor. Det kallas indirekt jämförelse — två saker jämförs med hjälp av ett tredje föremål — och det är just steget mellan att lägga saker bredvid varandra och att mäta med en linjal. Här finns inga tal, inga enheter och inget mätverktyg med skala.",
-        "Aktiviteten följer Lgr22 inom området mätning: att jämföra och uppskatta längder, och att jämföra två föremål med hjälp av ett tredje. De nio omgångarna blandas om varje gång aktiviteten startas, så de kommer i ny följd vid varje besök. Ingen timer, inga poäng — bara lugn, lekfull träning."
+        "Tillys band finns på platser som aldrig möts: ett hänger på en krok, ett ligger på en hög hylla, ett ligger på disken, och vart och ett börjar någon annanstans. Man kan alltså inte se dem bredvid varandra, och det hängande ser ofta längre ut än det är. Samma rep, alltid lika långt, bärs till varje band: klämman sätts på bandets startnål, repet lägger sig längs bandet och lämnar en lapp: kortare än repet, lika långt eller längre.",
+        "I de blandade omgångarna hittar barnet det längsta, det kortaste eller bandet som är lika långt som repet; i ordningsomgångarna sätter barnet de tre på en skena, det kortaste först. Precis ett band är längre, ett kortare eller ett lika långt, så lapparna avgör ensamma: längre än repet, och repet längre än ett annat, betyder längre än det också. Höga saker fungerar på samma sätt: tre ljus eller tre flaskor står på en pall, en låda och en hög hylla, och repet hålls upp från varje saks fot, så den som når högst är inte alltid den högsta.",
+        "Kontrollera fungerar först när repet har varit vid alla tre. Efter ett felförsök pekar ledtråden tillbaka på lapparna; efter ett andra ställer sig bandens tre lappar på rad: kortare, lika långt, längre. När en omgång är löst lägger Tilly de tre banden bredvid varandra från samma nål med repet under dem, och höga saker kliver alla ner på golvet, precis som lapparna sa. Utan siffror och utan linjal. I linje med Lgr22, centralt innehåll om mätning. Utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Jämföra längder med hjälp av ett rep i stället för att lägga föremålen kant i kant",
-        "Hitta det längsta och det kortaste bandet bland tre",
-        "Känna igen det band som är precis lika långt som repet",
-        "Se om ett band räcker förbi den streckade linjen eller tar slut innan den"
+        "Att jämföra två längder med hjälp av ett tredje föremål som alltid är detsamma",
+        "Att ordna tre föremål efter längd, det kortaste först",
+        "Att se att var en sak börjar och åt vilket håll den ligger ändrar hur lång den ser ut, inte hur lång den är",
+        "Att jämföra höjder från varje föremåls egen fot"
       ],
       "howToPlay": [
-        "Titta på repet högst upp och på den streckade linjen som visar var det tar slut.",
-        "Läs frågan — det längsta, det kortaste eller det som är lika långt som repet — och tryck på färgknappen för det bandet.",
-        "Blev det inte rätt? Repet ger en ledtråd — titta en gång till och prova ett annat band. Det finns ingen timer och inga poäng."
+        "Tryck på korgen med repet och sedan på ett band, eller dra repet från korgen till bandets början. Lappen visar kortare, lika långt eller längre än repet.",
+        "Gör så med varje band, tryck sedan på ditt svar och tryck på Kontrollera.",
+        "I ordningsomgångarna trycker du på ett band och sedan på ett steg på skenan, eller drar det dit: det kortaste ska på första steget.",
+        "Med höga saker hålls repet upp bredvid var och en från dess fot.",
+        "I inställningarna väljer du fråga (Längst, kortast, lika lång · Sätt i ordning) och saker (Band · Höga saker)."
       ],
       "learningGoals": [
-        "Barnet kan avgöra vilket av tre band som är längst och vilket som är kortast",
-        "Barnet kan jämföra två föremåls längd med hjälp av ett tredje föremål",
-        "Barnet tar steget från att jämföra kant i kant till att jämföra med ett gemensamt mått"
+        "Att jämföra två föremåls längd indirekt med hjälp av ett tredje föremål.",
+        "Att ordna tre föremål efter längd.",
+        "Att bedöma längden från början till slut, inte efter var ett föremål ligger eller åt vilket håll det pekar.",
+        "Att jämföra höjden på saker som står på olika höjd."
       ]
     },
     "lay-units.measure.1-md-a-2": {

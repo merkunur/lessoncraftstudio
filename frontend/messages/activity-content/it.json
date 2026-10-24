@@ -1293,25 +1293,28 @@
     },
     "seriation.compare-length.1-md-a-1": {
       "about": [
-        "Nella bottega della gatta Tilly ogni nastro colorato riposa sul suo ripiano, uno sopra l'altro, accanto a un pezzo di spago sempre della stessa lunghezza. Questa attività di matematica, pensata per la classe prima (6-7 anni), è senza registrazione e funziona direttamente nel browser.",
-        "A ogni giro compaiono tre nastri insieme: il bambino li guarda, li confronta fra loro e con lo spago, e tocca un solo colore, quello del nastro più lungo, di quello più corto oppure di quello lungo esattamente quanto lo spago. È un modo concreto e sereno per avvicinarsi al linguaggio della lunghezza, in linea con le Indicazioni nazionali.",
-        "Lo spago non ha tacche né numeri: qui non si misura, si confronta soltanto con gli occhi. Non ci sono punteggi né tempo che scorre: se il bambino tocca il colore sbagliato arriva un suggerimento gentile e può riprovare con calma. Un'ottima base prima di passare in classe ai materiali manipolabili e al righello."
+        "I nastri di Tilly stanno in posti che non si incontrano mai: uno è appeso a un gancio, uno è su uno scaffale alto, uno è sul bancone, e ognuno comincia in un punto diverso. A occhio, quindi, non si possono mettere uno accanto all’altro, e quello appeso spesso sembra più lungo di quello che è. Lo stesso spago, sempre della stessa lunghezza, viene portato a ogni nastro: la sua molletta va sullo spillo dove comincia il nastro, si stende lungo il nastro e lascia un’etichetta: più corto dello spago, lungo come lo spago o più lungo.",
+        "Nei turni misti il bambino trova il più lungo, il più corto o il nastro lungo come lo spago; nei turni da mettere in ordine mette i tre su una guida, prima il più corto. Esattamente un nastro è più lungo, uno più corto o uno lungo come lo spago, quindi decidono le etichette da sole: più lungo dello spago, e lo spago più lungo di un altro, vuol dire più lungo anche di quello. Con gli oggetti alti è lo stesso: tre candele o tre bottiglie stanno su uno sgabello, una scatola e uno scaffale alto, e lo spago si tiene in verticale dalla base di ognuna, così quella che arriva più in alto non è sempre la più alta.",
+        "Controlla funziona solo quando lo spago è stato da tutti e tre. Dopo un tentativo sbagliato il suggerimento rimanda alle etichette; dopo il secondo, le tre etichette dei nastri si mettono in fila: più corto, lungo come lo spago, più lungo. Quando il turno è risolto, Tilly mette i tre nastri uno accanto all’altro dallo stesso spillo, con lo spago sotto, e gli oggetti alti scendono tutti a terra, proprio come dicevano le etichette. Senza numeri e senza righello. In linea con le Indicazioni nazionali, nucleo Relazioni, dati e previsioni. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Confronta i nastri fra loro e con lo spago, che resta sempre della stessa lunghezza: vede quali lo superano e quali si fermano prima.",
-        "Riconosce il nastro più lungo e il nastro più corto fra i tre mostrati insieme.",
-        "Incontra le parole della lunghezza — più lungo, più corto, lungo quanto — in ogni richiesta e in ogni suggerimento.",
-        "Osserva con attenzione dove finisce ogni nastro rispetto alla linea tratteggiata dello spago."
+        "Confrontare due lunghezze con un terzo oggetto che resta sempre lo stesso",
+        "Mettere in ordine tre oggetti per lunghezza, prima il più corto",
+        "Vedere che dove comincia una cosa e in che direzione sta cambiano quanto sembra lunga, non quanto è lunga",
+        "Confrontare altezze dalla base di ogni oggetto"
       ],
       "howToPlay": [
-        "Guarda i tre nastri colorati e lo spago di Tilly: una linea tratteggiata mostra su ogni riga dove lo spago finisce.",
-        "Leggi la richiesta e tocca sotto la scena il colore del nastro giusto: il più lungo, il più corto oppure quello lungo quanto lo spago.",
-        "Se il colore non è quello giusto, arriva un suggerimento gentile: nessun punteggio, riprova con calma."
+        "Tocca il cestino dello spago e poi un nastro, oppure trascina lo spago dal cestino all’inizio del nastro. L’etichetta mostra più corto, lungo come lo spago o più lungo dello spago.",
+        "Fallo con ogni nastro, poi tocca la tua risposta e premi Controlla.",
+        "Nei turni da mettere in ordine, tocca un nastro e poi un gradino della guida, oppure trascinalo lì: il più corto va sul primo gradino.",
+        "Con gli oggetti alti, lo spago si tiene accanto a ognuno dalla sua base.",
+        "Nelle impostazioni scegli la domanda (Il più lungo, il più corto, lungo come lo spago · Mettere in ordine) e gli oggetti (Nastri · Oggetti alti)."
       ],
       "learningGoals": [
-        "Confrontare le lunghezze di più oggetti e riconoscere il più lungo e il più corto.",
-        "Riconoscere quando un oggetto è lungo esattamente quanto un riferimento dato.",
-        "Familiarizzare con le parole della lunghezza — più lungo, più corto, lungo quanto — ascoltandole e rileggendole a ogni giro."
+        "Confrontare in modo indiretto la lunghezza di due oggetti usando un terzo oggetto.",
+        "Mettere in ordine tre oggetti per lunghezza.",
+        "Giudicare la lunghezza dall’inizio alla fine, non da dove si trova un oggetto o dalla direzione in cui punta.",
+        "Confrontare l’altezza di oggetti che stanno a livelli diversi."
       ]
     },
     "graph-it.bar-graph.2-md-d-10": {

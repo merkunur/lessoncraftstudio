@@ -3762,25 +3762,28 @@
     },
     "seriation.compare-length.1-md-a-1": {
       "about": [
-        "Tilly the shop cat keeps her ribbons on shelves of their own, with the same length of cord marked in front of every one. All three ribbons are in view at once, and the child reads each one — red, blue, green, yellow — against that cord, then taps the longest, the shortest, or the one just as long as the cord. It's an interactive Grade 1 measurement activity that runs in the browser with no account.",
-        "The big idea is judging length against a fixed reference. The cord is the same length in every round, and a dashed line carries its end across every shelf, so the child can see at a glance whether a ribbon runs past it, stops short of it, or finishes exactly on it. Across the rounds the question changes between longest, shortest, and just-as-long-as-the-cord, so a child has to read each ribbon against the cord rather than guessing — the reasoning that measuring with units is later built on.",
-        "It is aligned to Common Core 1.MD.A.1, which covers comparing lengths and using a third object as a reference. No timer, no score — just calm, playful practice."
+        "Tilly's ribbons live in places that can never meet: one hangs from a hook, one lies on a high shelf, one lies on the counter, and each starts somewhere else. So the eye cannot line them up, and the hanging one often looks longer than it is. The same cord, always the same length, is carried to each ribbon: its clip goes on the ribbon's start pin, it lies along the ribbon, and it leaves a tag that shows shorter than the cord, just as long, or longer.",
+        "In the mixed rounds the child finds the longest, the shortest or the ribbon just as long as the cord; in the order rounds the child puts the three on a rail, shortest first. In every round exactly one ribbon is longer than the cord, or shorter, or just as long, so the tags alone decide: longer than the cord, and the cord longer than another, means longer than that one too. Tall things work the same way: three candles or three bottles stand on a stool, a box and a high shelf, and the cord is held up from each one's foot, so the one that reaches highest is not always the tallest.",
+        "Check works once the cord has been to all three. After a wrong try the hint points back to the tags; after a second, the ribbons' three tags line up: shorter, just as long, longer. When a round is solved, Tilly's reveal lays the three ribbons side by side from one pin with the cord beneath them, and tall things all step down to the floor, exactly as the tags said. No numbers and no rulers. Aligned to Common Core 1.MD.A.1. No timer and no score."
       ],
       "practices": [
-        "Comparing a ribbon's length against a fixed reference length",
-        "Reading whether a ribbon runs past the cord, stops short, or matches it",
-        "Choosing the longest, the shortest, or the one equal to the cord",
-        "Picking out the longest or the shortest of three ribbons"
+        "Comparing two lengths through a third object that stays the same",
+        "Ordering three objects by length, shortest first",
+        "Seeing that where a thing starts and which way it lies change how long it looks, not how long it is",
+        "Comparing heights from each object's own foot"
       ],
       "howToPlay": [
-        "Read each colored ribbon against Tilly's cord and the dashed line that marks its end.",
-        "Depending on the question, tap the colour of the longest ribbon, the shortest, or the one just as long as the cord.",
-        "A warm check confirms a correct choice and offers an easy retry, with no timer and no score."
+        "Tap the cord's basket, then tap a ribbon, or drag the cord from the basket to the ribbon's start. The tag shows shorter, just as long or longer than the cord.",
+        "Do it for each ribbon, then tap your answer and press Check.",
+        "In order rounds, tap a ribbon and then a step on the rail, or drag it there: the shortest goes on the first step.",
+        "With tall things, the cord is held up beside each one from its foot.",
+        "In the settings, choose the question (Longest, shortest, as long · Put in order) and the things (Ribbons · Tall things)."
       ],
       "learningGoals": [
-        "Compare lengths against a fixed reference object — the focus of Common Core 1.MD.A.1",
-        "Understand that one unmarked reference length can be used to judge many objects",
-        "Build the length-reasoning foundation that later measurement work depends on"
+        "Compare the lengths of two objects indirectly, using a third object — the focus of Common Core 1.MD.A.1.",
+        "Order three objects by length.",
+        "Judge length from the start to the end, not by where an object sits or which way it points.",
+        "Compare the heights of things standing at different levels."
       ]
     },
     "shades.pick.l-1-5-d": {

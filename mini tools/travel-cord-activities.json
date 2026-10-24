@@ -1,0 +1,71 @@
+[
+  {
+    "id": "seriation.compare-length.1-md-a-1",
+    "tool": "travel-cord-activity",
+    "task_template": "travel-cord",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "1.MD.A.1",
+      "grade": "1",
+      "strand": "Measurement & Data"
+    },
+    "theme": null,
+    "params": {
+      "cord": 6,
+      "question": [
+        "mixed",
+        "order"
+      ],
+      "things": [
+        "ribbons",
+        "tall"
+      ],
+      "rounds": {
+        "mixed": 21,
+        "order": 7,
+        "tallMixed": 9,
+        "tallOrder": 7
+      }
+    },
+    "slug": {
+      "en": "compare-and-order-by-length",
+      "de": "laengen-vergleichen-und-ordnen",
+      "fr": "comparer-et-ranger-par-longueur",
+      "es": "comparar-longitudes-primero-primaria",
+      "pt": "comparar-comprimentos-1-ano",
+      "it": "confrontare-lunghezze-classe-prima",
+      "nl": "linten-vergelijken-op-lengte-groep-3",
+      "sv": "jamfora-langder-med-ett-rep-ak-1",
+      "da": "sammenlign-laengder-med-en-snor-1-klasse",
+      "no": "sammenlign-lengder-med-en-snor-1-trinn",
+      "fi": "vertaa-pituuksia-narulla-1-luokka"
+    },
+    "page_title": {
+      "en": "The Faraway Shelf — Compare Lengths with a Cord (Grade 1)",
+      "de": "Tillys Bänder — Längen vergleichen mit einer Schnur (Klasse 1)",
+      "fr": "Les rubans de Tilly — comparer des longueurs avec une ficelle (CP)",
+      "es": "Los listones de Tilly — comparar longitudes: el más largo y el más corto (1º de primaria)",
+      "pt": "As fitas da Tilly — comparar comprimentos com um barbante (1º ano)",
+      "it": "I nastri di Tilly — confrontare le lunghezze con lo spago (classe prima)",
+      "nl": "Tilly's linten — vergelijken op lengte met een touwtje (Groep 3)",
+      "sv": "Jämför längder med ett rep — Tillys band (åk 1)",
+      "da": "Tillys bånd — sammenlign længder med en snor (1. klasse)",
+      "no": "Tillys bånd — sammenlign lengder med en snor (1. trinn)",
+      "fi": "Tillyn nauhat — vertaa pituuksia narulla (1. luokka)"
+    },
+    "page_intro": {
+      "en": "An interactive Grade 1 measurement activity: help Tilly the shop cat compare her ribbons against a plain cord that stays the same length every round. Read each ribbon against the cord, then tap the longest, the shortest, or the one that is just as long as the cord. A friendly first look at judging length against a fixed reference, before rulers and numbers. Common Core 1.MD.A.1.",
+      "de": "Vergleiche Tillys Bänder mit einer Schnur: Finde das längste, das kürzeste oder das genauso lange Band – Mathe-Übung, Klasse 1, nach Lehrplan.",
+      "fr": "Activité de mathématiques en ligne pour le CP, sans inscription. Avec Tilly, la chatte de la boutique, votre enfant compare des rubans posés sur des étagères lointaines : la ficelle, reportée à la même longueur sur chaque étagère, sert de repère commun. Il touche le ruban le plus long, le plus court, ou celui qui s'arrête pile sur la ficelle, et enrichit son vocabulaire : plus long, plus court, aussi long que. Ni chiffres, ni chronomètre, ni points. En lien avec les programmes officiels, domaine « Grandeurs et mesures ».",
+      "es": "Actividad interactiva de 1º de primaria: ayuda a Tilly, la gata de la tienda, a comparar sus listones de colores junto a un cordón. En cada ronda tocas un solo listón: el más largo, el más corto o el que mide igual de largo que el cordón, y practicas el vocabulario de la longitud. Basada en los planes y programas de estudio de la SEP.",
+      "pt": "Atividade de matemática online para o 1º ano: na estante da gatinha Tilly, três fitas coloridas aparecem juntas, todas começando no mesmo ponto, e um tracinho mostra onde o barbante termina em cada prateleira. A criança toca na cor da fita mais comprida, da mais curta ou da que para bem no tracinho do barbante. Trabalha comprimento e comparação na unidade temática Grandezas e medidas da BNCC. Sem cadastro e sem cronômetro.",
+      "it": "Attività di matematica senza registrazione per la classe prima (6-7 anni), da usare direttamente nel browser. Nella bottega della gatta Tilly compaiono tre nastri colorati, uno sopra l'altro, e un pezzo di spago sempre della stessa lunghezza: una linea tratteggiata segna su ogni riga dove lo spago finisce. Il bambino guarda, confronta e tocca un solo colore: quello del nastro più lungo, di quello più corto oppure di quello lungo esattamente quanto lo spago. Nove situazioni diverse, con un tono sereno, senza punteggio e senza fretta, in linea con le Indicazioni nazionali.",
+      "nl": "Interactieve rekenactiviteit voor groep 3, zonder account en direct in de browser. Bij winkelkat Tilly ligt bovenaan een touwtje met een vaste lengte, en daaronder liggen drie gekleurde linten, allemaal vanaf dezelfde rand. Elke ronde stelt één vraag: tik op het langste lint, op het kortste lint, of op het lint dat even lang is als het touwtje. Zo hoort en herkent je kind de woorden langer, korter en even lang, zonder getallen, zonder maateenheden en zonder timer. Afgestemd op de SLO-kerndoelen voor meten en meetkunde.",
+      "sv": "Tillys band ligger på hyllor långt ifrån varandra. Med ett rep som gemensamt mått håller barnet varje band mot repet och trycker på det längsta, det kortaste eller det som är precis lika långt som repet. Så möter barnet indirekt jämförelse — att två saker kan jämföras med hjälp av ett tredje föremål — ett första steg mot att mäta. Utan konto, direkt i webbläsaren och i linje med Lgr22.",
+      "da": "Tillys bånd hænger og ligger på steder langt fra hinanden, så de ikke kan lægges side om side. Barnet bærer den samme snor hen til hvert bånd og får et mærke: kortere, lige så langt eller længere end snoren. Mærkerne viser det længste, det korteste og rækkefølgen – et første skridt mod at måle, før lineal og tal. I tråd med Fælles Mål.",
+      "no": "Tillys bånd henger og ligger på steder langt fra hverandre, så de ikke kan legges side om side. Barnet bærer den samme snoren bort til hvert bånd og får en lapp: kortere, like langt eller lengre enn snoren. Lappene viser det lengste, det korteste og rekkefølgen – et første steg mot å måle, før linjal og tall. I tråd med LK20.",
+      "fi": "Tillyn nauhat roikkuvat ja ovat paikoissa, jotka ovat kaukana toisistaan, joten niitä ei voi laittaa vierekkäin. Lapsi vie saman narun jokaisen nauhan luo ja saa lapun: narua lyhyempi, yhtä pitkä tai narua pidempi. Laput kertovat pisimmän, lyhimmän ja järjestyksen – ensimmäinen askel kohti mittaamista ennen viivainta ja lukuja. Sopii opetussuunnitelman sisältöalueeseen Geometria ja mittaaminen."
+    },
+    "kid_prompt_template": "seriation"
+  }
+]

@@ -60,6 +60,8 @@ ORDER row 90 · id `match-pairs.find-the-missing-number.1-oa-d-8` (kept). Design
 | hierarchy | 704 / 0 |
 | settings-efficacy | 2 live |
 | preflight, prose-claims, serp-copy | green |
+| variety (production, en) | 9 distinct, pass 2 reshuffled |
+| live-verify-plank-path (11 pages 200; en/de/sv/fi × 1366/390, real pointer on path 1: plank 4 too short (hShort), then 5, 3, 7, 8 (okAll)) | 59 / 0 (the first run, inside the deploy window, saw no iframe in sv-phone/fi) |
 
 ## Open (page metadata — for the operator)
 - **All 11 locales:** the frozen intro still describes the old card game ("match it to its answer … tap an equation, then tap the number … watch the pair link").

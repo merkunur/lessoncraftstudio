@@ -247,6 +247,10 @@ function seedScript(row) {
     // 34 built as 4 crates and 3 berries: the door tag stretched into 30 and 4 over the shelf, the crate count 40 coral under the 30 — the stretching tag at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.numbers='99';t.api.settings.card='num';t._pool=null;t._ensurePool();t._start(0,0);var C=window.DoorTagCore,s=t.st;for(var i=0;i<4;i++)C.fling(s,'crate');for(var j=0;j<3;j++)C.fling(s,'berry');t._check();})()`;
   }
+  if (row.tool === 'roll-mat-activity') {
+    // 38 + 25 in columns: every block brought over, the ones mat full — its tenth block lying on the ones answer box — three more waiting on the doorstep, the grip ready to roll: the roll-up mats at work
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.numbers='col2';t.api.settings.way='add';t._pool=null;t._ensurePool();t._start('a0',0);var C=window.RollMatCore,s=t.st;while(C.pour(s,'T')){}while(C.pour(s,'O')){}t._view={};t._render2();})()`;
+  }
   if (row.tool === 'rod-drawers-activity') {
     // 63 > 38 solved: both columns standing to scale beside their cabinets, the sign stretched between them with its open side round the 63 column, the ones drawers sealed — the ten-rod drawers at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.numbers='two';t.api.settings.task='compare';t._pool=null;t._ensurePool();t._start(1,0);var C=window.RodDrawersCore,s=t.st;C.openPlace(s,0);C.turn(s);C.turn(s);t._check();})()`;

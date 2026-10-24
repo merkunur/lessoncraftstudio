@@ -3315,25 +3315,28 @@
     },
     "place-value-regroup.add-compose-ten.1-nbt-c-4": {
       "about": [
-        "Tuck the hamster shows base-ten blocks while children add a two-digit and a one-digit number whose ones spill past ten — problems like 27 + 5, 48 + 6, and 19 + 4 — tapping 'Make a ten' to bundle ten unit-cubes into one ten-rod, then typing the total. It's an interactive Grade 1 math activity that runs right in the browser with no account.",
-        "The big idea is the very first meaning of carrying: ten ones make one ten. Rather than learning a written shortcut, the child counts the loose ones, sees that there are more than ten, and watches ten of them snap together into a ten-rod. The leftover ones stay in the ones place, so the child can see why the total lands where it does — concrete regrouping before the pencil-and-paper rule.",
-        "It is aligned to Common Core 1.NBT.C.4 — adding a two-digit number and a one-digit number, and understanding that you sometimes compose a ten. No timer, no score — just calm, playful practice."
+        "Every column of Tuck's bench has a mat with exactly ten wells, and the tenth well hangs out over that column's answer box. The first number is already on the bench; the child brings the second number's blocks over from the bin. When a mat is full, its tenth block lies on the answer box, so the digit cannot be written. The child rolls the full mat up into one ten and it lands on the shelf next door, where the little 1 appears in the written sum. Tapping the shelf drops the ten into that column's mat.",
+        "The answer boxes open by themselves from right to left: a box opens only when its own column and every column to its right are settled. So the ones are written first because of how the bench works, not because of a rule. In take-away rounds the child takes blocks away, and when a column has too few, pulls one down from next door: the ten unrolls into a full mat of ten, and in a column sum the digit is crossed out and rewritten.",
+        "Settings: + one digit (like 27 + 5), two digits or three digits, and add, take away or both. A wrong digit makes its column light up so the child can count what is left there; a second wrong try points to the two halves of five on each mat. Tuck keeps a little stack of every ten the child rolled up. Aligned to Common Core 1.NBT.C.4, with the column method for two- and three-digit numbers. No timer and no score."
       ],
       "practices": [
-        "Add a two-digit and a one-digit number when the ones make more than ten",
-        "Bundle ten unit-cubes into one ten-rod",
-        "Understand carrying as composing a ten from ten ones",
-        "Type the correct total after regrouping"
+        "Adding a two-digit and a one-digit number when the ones make ten or more",
+        "Rolling ten ones into one ten and carrying it to the tens",
+        "Writing the column method ones first, with the carried 1",
+        "Taking away by unrolling a ten when there are too few ones"
       ],
       "howToPlay": [
-        "Read the addition, like 27 + 5, and watch Tuck show it in base-ten blocks.",
-        "Tap 'Make a ten' to bundle ten loose ones into one ten-rod.",
-        "Type the total on the keypad; try again any time, with no timer and no score."
+        "Tap the bin to bring the blocks over, one at a time (hold to pour).",
+        "When a mat is full, roll it up: the ten jumps to the shelf next door. Tap the shelf to put it in.",
+        "Tap an answer box that is open, type the answer and press Check.",
+        "To take away, tap a mat. If a column runs out, use the arrow to pull one down from next door.",
+        "In the settings, choose the numbers (+ one digit, two digits, three digits) and add, take away or both."
       ],
       "learningGoals": [
-        "Add within 100 with regrouping — the focus of Common Core 1.NBT.C.4",
-        "Understand that ten ones compose one ten",
-        "Build the place-value meaning behind written addition with carrying"
+        "Add within 100 by composing a ten when the ones make ten or more — the focus of Common Core 1.NBT.C.4.",
+        "Understand the carried 1 as a real ten moved to the tens.",
+        "Add and subtract two- and three-digit numbers in columns, ones first.",
+        "Take away by breaking a ten into ten ones when needed."
       ]
     },
     "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7": {

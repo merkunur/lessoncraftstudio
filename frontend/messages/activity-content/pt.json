@@ -835,26 +835,28 @@
     },
     "place-value-regroup.add-compose-ten.1-nbt-c-4": {
       "about": [
-        "Tuck, o hamster, organiza o material dourado em colunas de valor posicional: as dezenas de um lado e as unidades do outro. Quando você resolve uma soma como 27 + 5, vê as unidades se juntando e decide o que fazer quando elas já passam de dez.",
-        "A ideia central é simples e poderosa: quando se juntam mais de dez unidades, agrupamos 10 unidades para formar uma dezena. Esse passo concreto — trocar 10 cubinhos por uma barrinha de dez, o famoso “vai um” — é exatamente o que acontece antes de reservar o número na conta armada, e ajuda a criança a compreender o valor posicional em vez de decorar um truque.",
-        "Foi pensada para acompanhar o trabalho da sala de aula e de casa nos anos iniciais do ensino fundamental, seguindo a BNCC na unidade temática Números: fortalece o sentido numérico e a compreensão de unidades e dezenas no 2º ano, construindo a ponte para o algoritmo convencional da adição."
+        "Cada coluna da bancada do Tuck tem um tapete com exatamente dez cavidades, e a décima cavidade fica para fora, por cima da casinha do resultado dessa coluna. O primeiro número já está na bancada; a criança traz os blocos do segundo número da caixa. Quando um tapete fica cheio, o décimo bloco fica em cima da casinha, e o algarismo não pode ser escrito. A criança enrola o tapete cheio numa dezena, que cai na prateleira da coluna ao lado, onde aparece o vai um na conta armada. Tocando na prateleira, a dezena entra no tapete dessa coluna.",
+        "As casinhas do resultado se abrem sozinhas da direita para a esquerda: uma casinha só se abre quando a sua coluna e todas as colunas à direita estiverem prontas. Assim, as unidades são escritas primeiro porque a bancada funciona assim, não por causa de uma regra. Nas rodadas de tirar, a criança tira blocos e, quando uma coluna não tiver o bastante, pega um da coluna ao lado: a dezena se desenrola num tapete cheio de dez unidades, e na conta armada o algarismo é riscado e escrito de novo.",
+        "Configurações: + um dígito (como 27 + 5), dois dígitos ou três dígitos, e somar, tirar ou as duas. Com um algarismo errado, a coluna se acende para a criança contar o que ficou ali; depois da segunda tentativa errada, ajudam as duas metades de cinco de cada tapete. O Tuck guarda uma pilhinha de cada dezena que a criança enrolou. De acordo com a BNCC, na unidade temática Números, com a conta armada para números de dois e três dígitos. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Somar com reagrupamento até 100, quando as unidades passam de dez",
-        "Agrupar 10 unidades para formar uma dezena com o material dourado",
-        "Compreender o valor posicional, distinguindo unidades e dezenas",
-        "Usar o material dourado para representar os números de forma concreta",
-        "Ler e escrever o total da soma"
+        "Somar um número de dois dígitos e um de um dígito quando as unidades dão dez ou mais",
+        "Enrolar dez unidades numa dezena e levá-la para as dezenas",
+        "Fazer a conta armada, primeiro as unidades, com o vai um",
+        "Subtrair desagrupando uma dezena (desenrolando-a) quando as unidades não bastam"
       ],
       "howToPlay": [
-        "Observe as barrinhas e os cubinhos que o Tuck coloca em cada coluna e conte quantas unidades há do lado das unidades.",
-        "Quando as unidades passarem de dez, agrupe 10 unidades para formar uma dezena e leve a nova barrinha para a coluna das dezenas — é o “vai um”.",
-        "Digite o total e confirme sua resposta; o Tuck acompanha cada tentativa com calma, sem pressa e sem notas."
+        "Toque na caixa para trazer os blocos um de cada vez (segure para despejar mais).",
+        "Quando um tapete encher, enrole: a dezena pula para a prateleira ao lado. Toque na prateleira para colocá-la.",
+        "Toque numa casinha aberta, escreva o resultado e aperte Verificar.",
+        "Para tirar, toque num tapete. Se uma coluna acabar, pegue um da coluna ao lado com a seta.",
+        "Nas configurações, escolha os números (+ um dígito, dois dígitos, três dígitos) e somar, tirar ou as duas."
       ],
       "learningGoals": [
-        "Compreender a soma com reagrupamento como o ato de formar uma dezena, e não como uma regra decorada.",
-        "Consolidar o valor posicional ao mover unidades e dezenas entre suas colunas com o material dourado.",
-        "Desenvolver o sentido numérico esperado no 2º ano, preparando o caminho para a conta armada com reagrupamento."
+        "Somar até 100 formando uma dezena quando as unidades dão dez ou mais.",
+        "Entender o vai um como uma dezena de verdade que passa para as dezenas.",
+        "Somar e subtrair na conta armada números de dois e três dígitos, primeiro as unidades.",
+        "Subtrair desenrolando uma dezena em dez unidades quando for preciso."
       ]
     },
     "shapeforge.compose.1-g-a-2": {

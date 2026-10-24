@@ -2212,25 +2212,28 @@
     },
     "place-value-regroup.add-compose-ten.1-nbt-c-4": {
       "about": [
-        "Tuck le hamster pose une addition toute simple, par exemple 27 + 5, et invite votre enfant à la construire de ses mains. Votre enfant dépose les quantités avec le matériel de numération : les petits cubes pour les unités, les barres pour les dizaines. En rassemblant les unités, il remarque qu'il y en a plus de dix. Il appuie alors sur « Grouper une dizaine » pour échanger 10 unités contre 1 dizaine, une barre apparaît, puis il écrit le total.",
-        "C'est tout l'essentiel du CP qui se joue ici : le principe « 10 unités = 1 dizaine ». Cet échange est le fondement concret de « la retenue » que votre enfant rencontrera bientôt dans le calcul posé ; en groupant les cubes, il comprend d'abord avec ses mains ce que le chiffre reporté signifiera plus tard. Le geste précède la technique : on manipule et on échange avant d'écrire, pour que le sens soit solide avant le symbole.",
-        "L'activité se joue sans compte, sans minuteur et sans points. Elle est alignée sur les programmes officiels, dans le domaine « Nombres et calcul », et votre enfant avance à son rythme, aussi souvent qu'il le souhaite."
+        "Chaque colonne de l’établi de Tuck a un tapis avec exactement dix creux, et le dixième creux dépasse au-dessus de la case du résultat de cette colonne. Le premier nombre est déjà sur l’établi ; l’enfant apporte les blocs du deuxième nombre depuis la caisse. Quand un tapis est plein, son dixième bloc est posé sur la case du résultat, et le chiffre ne peut pas être écrit. L’enfant roule le tapis plein en une dizaine, qui arrive sur l’étagère d’à côté, où la retenue apparaît dans l’opération posée. En touchant l’étagère, la dizaine entre dans le tapis de cette colonne.",
+        "Les cases du résultat s’ouvrent toutes seules de droite à gauche : une case ne s’ouvre que lorsque sa colonne et toutes les colonnes à sa droite sont prêtes. Ainsi, les unités sont écrites d’abord parce que l’établi fonctionne ainsi, pas à cause d’une règle. Dans les manches de soustraction, l’enfant enlève des blocs, et quand une colonne n’en a pas assez, il fait descendre un bloc d’à côté : la dizaine se déroule en un tapis plein de dix unités, et dans l’opération posée le chiffre est barré puis réécrit.",
+        "Réglages : + un chiffre (comme 27 + 5), deux chiffres ou trois chiffres, et ajouter, enlever ou les deux. Avec un chiffre faux, sa colonne s’allume pour que l’enfant compte ce qui reste ; après une deuxième erreur, les deux moitiés de cinq de chaque tapis aident. Tuck garde une petite pile de toutes les dizaines que l’enfant a roulées. En lien avec les programmes officiels pour le domaine Nombres et calculs, avec l’opération posée pour les nombres à deux et trois chiffres. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Additionner avec un échange dans le champ numérique inférieur à 100",
-        "Échanger et grouper 10 unités contre 1 dizaine",
-        "Distinguer les unités et les dizaines pour construire le sens du nombre et la numération",
-        "Faire le lien entre le geste concret de l'échange et « la retenue »"
+        "Additionner un nombre à deux chiffres et un nombre à un chiffre quand les unités font dix ou plus",
+        "Rouler dix unités en une dizaine et la porter aux dizaines",
+        "Poser l’opération en colonnes, les unités d’abord, avec la retenue",
+        "Soustraire en cassant une dizaine (on la déroule) quand il n’y a pas assez d’unités"
       ],
       "howToPlay": [
-        "Regarder l'addition proposée et poser les deux nombres avec les cubes et les barres.",
-        "Appuyer sur « Grouper une dizaine » quand 10 unités sont réunies : elles deviennent une barre.",
-        "Écrire le total obtenu."
+        "Touche la caisse pour apporter les blocs un par un (garde le doigt appuyé pour en verser plusieurs).",
+        "Quand un tapis est plein, roule-le : la dizaine saute sur l’étagère d’à côté. Touche l’étagère pour la mettre dedans.",
+        "Touche une case ouverte, écris le résultat et appuie sur Vérifier.",
+        "Pour enlever, touche un tapis. Si une colonne est vide, fais descendre un bloc d’à côté avec la flèche.",
+        "Dans les réglages, choisis les nombres (+ un chiffre, deux chiffres, trois chiffres) et ajouter, enlever ou les deux."
       ],
       "learningGoals": [
-        "Votre enfant comprend et utilise le principe « 10 unités = 1 dizaine ».",
-        "Il réalise l'échange qui fonde « la retenue » dans le calcul.",
-        "Il construit un solide sens de la numération décimale, base indispensable du calcul posé plus tard."
+        "Additionner jusqu’à 100 en formant une dizaine quand les unités font dix ou plus.",
+        "Comprendre la retenue comme une vraie dizaine qui passe aux dizaines.",
+        "Additionner et soustraire en colonnes des nombres à deux et trois chiffres, les unités d’abord.",
+        "Soustraire en déroulant une dizaine en dix unités quand il le faut."
       ]
     },
     "shapeforge.compose.1-g-a-2": {

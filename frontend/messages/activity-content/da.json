@@ -2775,6 +2775,32 @@
         "At se, at en tier kan åbnes til ti enere, og at tallet er det samme",
         "At genkende hele tiere som tiere uden enere"
       ]
+    },
+    "place-value-regroup.add-compose-ten.1-nbt-c-4": {
+      "about": [
+        "Hver søjle på Tucks arbejdsbord har en måtte med præcis ti fordybninger, og den tiende fordybning hænger ud over søjlens svarboks. Det første tal ligger allerede på bordet; barnet henter det andet tals klodser fra kassen. Når en måtte er fuld, ligger dens tiende klods på svarboksen, så cifferet ikke kan skrives. Barnet ruller den fulde måtte sammen til én tier, og den lander på hylden hos naboen, hvor menten viser sig i regnestykket. Et tryk på hylden lægger tieren ned i søjlens måtte.",
+        "Svarboksene åbner sig selv fra højre mod venstre: En boks åbner først, når dens egen søjle og alle søjler til højre for den er færdige. Derfor skrives enerne først, fordi bordet virker sådan, ikke på grund af en regel. I minusrunderne tager barnet klodser væk, og når en søjle har for få, trækker det en ned fra naboen: Tieren veksles til en fuld måtte med ti enere, og i en opstilling streges cifferet over og skrives på ny.",
+        "Indstillinger: + etcifret (som 27 + 5), tocifrede eller trecifrede tal, og plus, minus eller begge. Ved et forkert ciffer lyser søjlen op, så barnet kan tælle, hvad der er tilbage; efter det andet forkerte forsøg hjælper de to halvdele med fem på hver måtte. Tuck samler en lille stak af alle de tiere, barnet har rullet sammen. I tråd med Fælles Mål for tal og algebra, med opstilling for to- og trecifrede tal. Uden tidtagning og uden point."
+      ],
+      "practices": [
+        "At lægge et tocifret og et etcifret tal sammen, når enerne giver ti eller flere",
+        "At rulle ti enere sammen til én tier og bære den over til tierne",
+        "At regne med opstilling, enerne først, med menten",
+        "At trække fra ved at veksle en tier, når der er for få enere"
+      ],
+      "howToPlay": [
+        "Tryk på kassen for at hente klodserne én ad gangen (hold nede for at hælde flere).",
+        "Når en måtte er fuld, så rul den sammen: Tieren hopper op på hylden hos naboen. Tryk på hylden for at lægge den i.",
+        "Tryk på en åben svarboks, skriv svaret, og tryk på Tjek.",
+        "For at tage væk trykker du på en måtte. Løber en søjle tør, trækker du med pilen en ned fra naboen.",
+        "I indstillingerne vælger du tallene (+ etcifret, tocifrede, trecifrede) og plus, minus eller begge."
+      ],
+      "learningGoals": [
+        "At lægge sammen inden for 100 med tierovergang ved at samle ti enere til en tier.",
+        "At forstå menten som en rigtig tier, der flyttes over til tierne.",
+        "At lægge sammen og trække fra med opstilling for to- og trecifrede tal, enerne først.",
+        "At trække fra ved at veksle en tier til ti enere, når det er nødvendigt."
+      ]
     }
   }
 }

@@ -1198,25 +1198,28 @@
     },
     "place-value-regroup.add-compose-ten.1-nbt-c-4": {
       "about": [
-        "Fare il cambio è il primo, grande passo verso l'addizione in colonna: qui i bambini della classe seconda lo scoprono toccando con mano, senza fretta e senza voti. Tuck, il criceto, propone somme entro il 100 usando i blocchi base dieci, così ogni operazione ha un significato concreto prima ancora di diventare un calcolo scritto.",
-        "L'attività si apre direttamente nel browser e non richiede alcuna registrazione. Il bambino somma un numero di due cifre e uno di una cifra, nota quando 10 unità possono diventare una decina e completa il cambio con un semplice tocco, per poi scrivere il totale.",
-        "Il percorso mette al centro il valore posizionale — decine e unità — con un approccio manipolabile e visivo, in linea con le Indicazioni nazionali e il nucleo dei Numeri. Nessun punteggio, nessun cronometro: solo il tempo giusto per capire."
+        "Ogni colonna del banco di Tuck ha un tappetino con esattamente dieci incavi, e il decimo incavo sporge sopra la casella del risultato di quella colonna. Il primo numero è già sul banco; il bambino porta i blocchi del secondo numero dalla cassetta. Quando un tappetino è pieno, il suo decimo blocco sta sopra la casella, e la cifra non si può scrivere. Il bambino arrotola il tappetino pieno in una decina, che arriva sulla mensola della colonna accanto, dove nell’operazione scritta compare il riporto. Toccando la mensola, la decina entra nel tappetino di quella colonna.",
+        "Le caselle del risultato si aprono da sole da destra a sinistra: una casella si apre solo quando la sua colonna e tutte le colonne alla sua destra sono a posto. Così le unità si scrivono per prime perché il banco funziona così, non per una regola. Nei turni di sottrazione il bambino toglie blocchi, e quando in una colonna non bastano, ne prende uno dalla colonna accanto: la decina si cambia in un tappetino pieno di dieci unità, e nell’operazione in colonna la cifra viene barrata e riscritta.",
+        "Impostazioni: + una cifra (come 27 + 5), due cifre o tre cifre, e aggiungere, togliere o tutte e due. Con una cifra sbagliata la sua colonna si illumina, così il bambino conta quello che resta lì; dopo il secondo tentativo sbagliato aiutano le due metà da cinque di ogni tappetino. Tuck tiene una piccola pila di tutte le decine che il bambino ha arrotolato. In linea con le Indicazioni nazionali per i numeri, con l’operazione in colonna per numeri a due e tre cifre. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Sommare con il cambio entro il 100",
-        "Riconoscere quando 10 unità formano una decina",
-        "Lavorare con decine e unità (valore posizionale) usando i blocchi base dieci",
-        "Scrivere il totale dell'addizione"
+        "Sommare un numero a due cifre e uno a una cifra quando le unità fanno dieci o più",
+        "Arrotolare dieci unità in una decina e portarla tra le decine",
+        "Fare l’operazione in colonna, prima le unità, con il riporto",
+        "Sottrarre facendo il cambio di una decina quando le unità non bastano"
       ],
       "howToPlay": [
-        "Guarda i blocchi base dieci di Tuck, divisi in decine e unità",
-        "Tocca «Fai il cambio» per trasformare 10 unità in una decina",
-        "Conta i blocchi e scrivi il totale: se serve arriva un suggerimento gentile, senza punteggio"
+        "Tocca la cassetta per portare i blocchi uno alla volta (tieni premuto per versarne di più).",
+        "Quando un tappetino è pieno, arrotolalo: la decina salta sulla mensola accanto. Tocca la mensola per metterla dentro.",
+        "Tocca una casella aperta, scrivi il risultato e premi Controlla.",
+        "Per togliere tocca un tappetino. Se una colonna finisce, prendi con la freccia uno dalla colonna accanto.",
+        "Nelle impostazioni scegli i numeri (+ una cifra, due cifre, tre cifre) e aggiungere, togliere o tutte e due."
       ],
       "learningGoals": [
-        "Sommare un numero di due cifre e uno di una cifra con il cambio, entro il 100",
-        "Capire che 10 unità formano una decina",
-        "Consolidare il valore posizionale distinguendo decine e unità"
+        "Sommare entro il 100 formando una decina quando le unità fanno dieci o più.",
+        "Capire il riporto come una vera decina che passa tra le decine.",
+        "Sommare e sottrarre in colonna numeri a due e tre cifre, prima le unità.",
+        "Sottrarre facendo il cambio di una decina in dieci unità quando serve."
       ]
     },
     "shapeforge.compose.1-g-a-2": {

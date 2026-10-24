@@ -2781,6 +2781,32 @@
         "Å se at en tier kan åpnes til ti enere, og at tallet er det samme",
         "Å kjenne igjen hele tiere som tiere uten enere"
       ]
+    },
+    "place-value-regroup.add-compose-ten.1-nbt-c-4": {
+      "about": [
+        "Hver kolonne på Tucks arbeidsbenk har en matte med nøyaktig ti groper, og den tiende gropen henger ut over kolonnens svarrute. Det første tallet ligger allerede på benken; barnet henter det andre tallets klosser fra kassen. Når en matte er full, ligger den tiende klossen på svarruten, så sifferet ikke kan skrives. Barnet ruller den fulle matten sammen til én tier, og den lander på hylla hos naboen, der minnetallet dukker opp i oppstillingen. Et trykk på hylla legger tieren ned i kolonnens matte.",
+        "Svarrutene åpner seg selv fra høyre mot venstre: En rute åpnes først når dens egen kolonne og alle kolonnene til høyre for den er ferdige. Derfor skrives enerne først, fordi benken virker slik, ikke på grunn av en regel. I minusrundene tar barnet bort klosser, og når en kolonne har for få, drar det ned en fra naboen: Tieren veksles til en full matte med ti enere, og i oppstillingen strykes sifferet over og skrives på nytt.",
+        "Innstillinger: + ensifret (som 27 + 5), tosifrede eller tresifrede tall, og pluss, minus eller begge. Ved et feil siffer lyser kolonnen opp, slik at barnet kan telle det som er igjen; etter det andre feilforsøket hjelper de to halvdelene med fem på hver matte. Tuck samler en liten stabel av alle tierne barnet har rullet sammen. I tråd med LK20 i matematikk, med oppstilling for to- og tresifrede tall som videre øving. Uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Å legge sammen et tosifret og et ensifret tall når enerne blir ti eller flere",
+        "Å rulle ti enere sammen til én tier og bære den over til tierne",
+        "Å regne med oppstilling, enerne først, med minnetallet",
+        "Å trekke fra ved å veksle en tier når enerne ikke strekker til"
+      ],
+      "howToPlay": [
+        "Trykk på kassen for å hente klossene én om gangen (hold inne for å helle flere).",
+        "Når en matte er full, ruller du den sammen: Tieren hopper opp på hylla hos naboen. Trykk på hylla for å legge den i.",
+        "Trykk på en åpen svarrute, skriv svaret og trykk på Sjekk.",
+        "For å ta bort trykker du på en matte. Går en kolonne tom, drar du med pilen ned en fra naboen.",
+        "I innstillingene velger du tallene (+ ensifret, tosifrede, tresifrede) og pluss, minus eller begge."
+      ],
+      "learningGoals": [
+        "Å legge sammen innenfor 100 med tierovergang ved å samle ti enere til en tier.",
+        "Å forstå minnetallet som en ekte tier som flyttes over til tierne.",
+        "Å legge sammen og trekke fra to- og tresifrede tall med oppstilling, enerne først.",
+        "Å trekke fra ved å veksle en tier til ti enere når det trengs."
+      ]
     }
   }
 }

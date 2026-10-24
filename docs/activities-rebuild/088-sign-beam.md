@@ -64,6 +64,8 @@ ORDER row 88 · id `numbers-court.judge-balance.1-oa-d-7` (kept). Design: `desig
 | hierarchy | 398 / 0 |
 | settings-efficacy | 2 live |
 | preflight, prose-claims, serp-copy | green |
+| variety (production, en) | 12 distinct, pass 2 reshuffled |
+| live-verify-sign-beam (11 pages 200; en/de/sv/fi × 1366/390, real pointer on 6 + 2 = 8 + 1: = holds the seal (hEvid), ≠ tips toward the 9 (okFalse), + to 3 lays it flat (okFixed)) | 67 / 0 (the first run, inside the deploy window, saw no iframe; the second failed on my own leftover `.rl-wrap` selector, fixed) |
 
 ## Open (page metadata — for the operator)
 - **it intro:** "Senza registrazione, direttamente nel browser" is a no-sign-up claim.

@@ -2067,25 +2067,28 @@
     },
     "sharing-jar.make-fair.1-oa-d-8": {
       "about": [
-        "Pim och Bo har varsin burk med pärlor, och det är olika många i dem. Barnet läser vad som har hänt och räknar ut talet som saknas: hur många fler Pim behöver för att komma ifatt, hur många fler Bo har, hur många som ramlade ut, hur många som ska tillbaka, eller hur många det var från början. Talet trycks in i sifferraden under burkarna.",
-        "Det som gör övningen svår är inte räkningen utan att välja räknesätt. Här finns inget plus- eller minustecken att gå efter, utan en liten händelse som barnet själv måste tolka. Att kunna avgöra om en situation ska lösas med addition eller subtraktion är ett eget steg, och det kommer före den symboliska uppgiften med en tom ruta.",
-        "De nio omgångarna håller sig inom talområdet 0–12, och i några av dem är det större antalet dolt så att barnet måste tänka i stället för att räkna pärlorna på skärmen. En omgång är redan rättvis, och då är svaret noll. Aktiviteten följer Lgr22, körs direkt i webbläsaren utan nedladdning och utan konto, och har varken timer eller poäng."
+        "Igelkotten Pim och musen Bo har var sin glasburk med pärlor, och ett guldband sitter över båda burkarna på den rättvisa höjden. Barnet säger först ett tal genom att trycka på en bricka, trycker sedan på Kontrollera – och precis så många pärlor flyttar sig. Med rätt tal stannar pärlorna precis vid bandet, och de två vännerna lutar sig mot varandra. För få, och det blir en lucka under bandet eller pärlor kvar ovanför; för många, och pärlorna går förbi bandet – nu har den andra vännen färre.",
+        "Det finns fem sorters berättelser: hur många som fattas i en burk (3 + □ = 5), hur många fler en vän har (6 − 2 = □), hur många Pim måste ge tillbaka (7 − □ = 4), hur många som ska tillbaka till högen (6 − □ = 4) och hur många Bo hade från början (□ + 4 = 7). I en början-runda färgar barnets tal lika många pärlor nerifrån, och de ska möta de lysande nya pärlorna exakt. Efter andra försöket numreras pärlorna som fattades eller var för många, så att barnet kan räkna skillnaden.",
+        "Genomskinliga burkar går upp till 10; frostade burkar upp till 20, med varje burks tal på locket, och frosten försvinner när man kontrollerar. Tryck på en burk så lyser pärlorna upp en i taget. I linje med Lgr22, centralt innehåll om taluppfattning och tals användning. Utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Hitta talet som saknas i en räknehändelse med addition eller subtraktion",
-        "Välja räknesätt utifrån vad som händer i situationen, inte utifrån ett räknetecken",
-        "Jämföra två antal och beskriva skillnaden mellan dem",
-        "Tänka baklänges från ett resultat till hur många det var från början"
+        "Att hitta det tal som fattas i en räknehändelse med addition eller subtraktion: det som läggs till, skillnaden, det som tas bort eller starttalet",
+        "Att jämföra två antal och göra dem lika",
+        "Att räkna vidare från det mindre antalet till det större",
+        "Att kontrollera ett svar genom att se vad precis så många pärlor gör"
       ],
       "howToPlay": [
-        "Titta på burkarna och läs frågan högst upp.",
-        "Räkna ut talet och tryck på det i sifferraden under burkarna.",
-        "Stämmer det inte? Titta en gång till och pröva igen, så många gånger du vill."
+        "Läs frågan och titta på de två burkarna och guldbandet.",
+        "Tryck på brickan med det tal du tror är rätt, och tryck sedan på Kontrollera.",
+        "Titta på pärlorna: med rätt tal stannar de vid bandet. Blir det en lucka eller går pärlor förbi bandet, välj ett annat tal och kontrollera igen.",
+        "Tryck på en burk så lyser pärlorna upp en i taget, och räkna dem.",
+        "I inställningarna väljer du burkarna (genomskinliga upp till 10 eller frostade upp till 20) och berättelserna (alla sorter eller bara ”hur många fler”)."
       ],
       "learningGoals": [
-        "Barnet kan hitta ett tal som saknas i en addition eller subtraktion inom talområdet 0–12",
-        "Barnet kan välja räknesätt utifrån vad en händelse handlar om",
-        "Barnet kan skilja på hur många fler någon har och hur många fler någon behöver"
+        "Att hitta det tal som fattas i en räknehändelse med addition eller subtraktion, var det än står",
+        "Att förstå ”hur många fler” som skillnaden mellan två antal",
+        "Att göra två antal lika genom att lägga till i det ena eller ta bort från det andra",
+        "Att räkna ut starttalet utifrån det som lades till och summan"
       ]
     },
     "bundle-bot.bundle-machine.1-nbt-b-2-a": {

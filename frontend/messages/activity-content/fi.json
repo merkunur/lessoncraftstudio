@@ -2668,6 +2668,32 @@
         "Laskea eteenpäin tai taaksepäin puuttuvan osan löytämiseksi",
         "Tehdä kahden luvun puolista yhtä suuret"
       ]
+    },
+    "sharing-jar.make-fair.1-oa-d-8": {
+      "about": [
+        "Siili Pimillä ja hiiri Bolla on kummallakin lasipurkki täynnä helmiä, ja molempien purkkien yli on vedetty kultainen nauha reilulle korkeudelle. Lapsi sanoo ensin luvun napauttamalla laattaa ja painaa sitten Tarkista – ja juuri niin monta helmeä liikkuu. Oikealla luvulla helmet pysähtyvät täsmälleen nauhan kohdalle, ja ystävykset kallistuvat toisiaan kohti. Liian vähän, niin nauhan alle jää tyhjää tai sen yläpuolelle jää helmiä; liian monta, niin helmet menevät nauhan ohi – ja nyt toisella ystävällä on vähemmän.",
+        "Tarinoita on viittä lajia: montako purkista puuttuu (3 + □ = 5), montako enemmän toisella ystävällä on (6 − 2 = □), montako Pimin pitää antaa takaisin (7 − □ = 4), montako laitetaan takaisin kasaan (6 − □ = 4) ja montako Bolla oli alussa (□ + 4 = 7). Alku-kierroksella lapsen luku värittää yhtä monta helmeä alhaalta päin, ja niiden pitää kohdata hehkuvat uudet helmet täsmälleen. Toisen yrityksen jälkeen puuttuneet tai ylimääräiset helmet numeroidaan, joten lapsi voi laskea eron.",
+        "Läpinäkyvät purkit menevät 10:een asti, huurteiset 20:een asti; jokaisen purkin luku on sen kannessa, ja huurre häviää, kun tarkistetaan. Napauta purkkia, niin sen helmet syttyvät yksi kerrallaan. Sopii opetussuunnitelman sisältöalueeseen Luvut ja laskutoimitukset. Ilman ajanottoa ja ilman pisteytystä."
+      ],
+      "practices": [
+        "Puuttuvan luvun löytäminen yhteen- tai vähennyslaskutarinasta: lisättävä määrä, erotus, pois otettava määrä tai alkuperäinen määrä",
+        "Kahden määrän vertaaminen ja tekeminen yhtä suuriksi",
+        "Eteenpäin laskeminen pienemmästä määrästä suurempaan",
+        "Vastauksen tarkistaminen katsomalla, mitä juuri niin monta helmeä tekee"
+      ],
+      "howToPlay": [
+        "Lue kysymys ja katso molempia purkkeja ja kultaista nauhaa.",
+        "Napauta laattaa, jossa on mielestäsi oikea luku, ja paina sitten Tarkista.",
+        "Katso helmiä: oikealla luvulla ne pysähtyvät nauhan kohdalle. Jos jää tyhjää tai helmiä menee nauhan ohi, valitse toinen luku ja tarkista uudelleen.",
+        "Napauta purkkia, niin sen helmet syttyvät yksi kerrallaan, ja laske ne.",
+        "Asetuksista valitset purkit (läpinäkyvät 10 asti tai huurteiset 20 asti) ja tarinat (kaikki tyypit tai vain ”kuinka monta enemmän”)."
+      ],
+      "learningGoals": [
+        "Puuttuvan luvun löytäminen yhteen- tai vähennyslaskutarinasta, olipa se missä kohdassa tahansa",
+        "”Kuinka monta enemmän” -kysymyksen ymmärtäminen kahden määrän erotuksena",
+        "Kahden määrän tekeminen yhtä suuriksi lisäämällä toiseen tai ottamalla toisesta",
+        "Alkuperäisen määrän päätteleminen lisätystä määrästä ja kokonaismäärästä"
+      ]
     }
   }
 }

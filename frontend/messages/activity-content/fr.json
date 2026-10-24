@@ -1214,25 +1214,28 @@
     },
     "sharing-jar.make-fair.1-oa-d-8": {
       "about": [
-        "Pim et Bo remplissent chacun leur pot de perles. Parfois l’un en a quelques-unes de plus, parfois quelques-unes de moins, et parfois des perles tombent du pot ! À chaque fois, votre enfant cherche le nombre qui manque : combien il en manque, combien il y en a de plus, ou combien sont tombées. Il touche ensuite le bon nombre, de 0 à 10.",
-        "L’idée qui guide toute l’activité, c’est le partage juste : que chaque pot contienne autant de perles que l’autre. Pour y arriver, votre enfant complète, compare ou restaure — cinq types de questions se succèdent (compléter, trouver l’écart, restaurer les perles tombées, retrouver la quantité de départ). Chaque situation aborde le nombre manquant sous un angle nouveau, ce qui aide votre enfant à comprendre les relations entre les nombres plutôt qu’à réciter.",
-        "L’activité est interactive et pensée pour le CP, dans le domaine « Nombres et calcul ». Il n’y a ni chronomètre ni points : votre enfant avance à son rythme, se trompe tranquillement et réessaie, en découvrant par lui-même comment rendre le partage juste — dans l’esprit des programmes officiels."
+        "Pim le hérisson et Bo la souris ont chacun un pot en verre rempli de perles, et un ruban doré est tendu sur les deux pots à la hauteur juste. L’enfant dit d’abord un nombre en touchant une carte, puis appuie sur Vérifier : exactement autant de perles se déplacent. Avec le bon nombre, les perles s’arrêtent pile au niveau du ruban et les deux amis se penchent l’un vers l’autre. Trop peu, et il reste un trou sous le ruban ou des perles au-dessus ; trop, et les perles dépassent le ruban : c’est maintenant l’autre ami qui en a moins.",
+        "Il y a cinq sortes d’histoires : combien il manque à un pot (3 + □ = 5), combien un ami en a de plus (6 − 2 = □), combien Pim doit en rendre (7 − □ = 4), combien doivent retourner sur le tas (6 − □ = 4) et combien Bo en avait au début (□ + 4 = 7). Dans une manche « au début », le nombre de l’enfant colore autant de perles en partant du bas, et elles doivent rejoindre exactement les nouvelles perles qui brillent. Au deuxième essai, les perles qui manquaient ou étaient en trop sont numérotées : l’enfant peut compter l’écart.",
+        "Les pots transparents vont jusqu’à 10 ; les pots givrés jusqu’à 20, avec le nombre de chaque pot sur son couvercle, et le givre s’efface quand on vérifie. Touche un pot pour allumer ses perles une à une. En lien avec les programmes officiels pour le domaine Nombres et calculs. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Trouver le nombre manquant dans une relation additive ou soustractive simple (le complément).",
-        "Comparer deux quantités et dire combien il y en a de plus (l’écart).",
-        "Restaurer des perles tombées et retrouver la quantité de départ (situation inverse).",
-        "Compléter ou réduire une quantité pour que les deux pots en aient autant."
+        "Trouver le nombre manquant dans un problème d’addition ou de soustraction : ce qu’on ajoute, l’écart, ce qu’on enlève ou le nombre de départ",
+        "Comparer deux quantités et les rendre égales",
+        "Compter à partir de la plus petite quantité jusqu’à la plus grande",
+        "Vérifier une réponse en voyant ce que font exactement autant de perles"
       ],
       "howToPlay": [
-        "Regarde combien de perles Pim et Bo ont dans leur pot, puis lis la question.",
-        "Cherche le nombre qui manque : combien en plus, combien de plus, ou combien au départ.",
-        "Touche le bon nombre, de 0 à 10, et réessaie tranquillement si besoin."
+        "Lis la question et regarde les deux pots et le ruban doré.",
+        "Touche la carte du nombre qui te semble juste, puis appuie sur Vérifier.",
+        "Regarde les perles : avec le bon nombre, elles s’arrêtent au ruban. S’il reste un trou ou si des perles dépassent, choisis un autre nombre et vérifie de nouveau.",
+        "Touche un pot pour allumer ses perles une à une et les compter.",
+        "Dans les réglages, choisis les pots (transparents jusqu’à 10 ou givrés jusqu’à 20) et les histoires (tous les types ou seulement « combien de plus »)."
       ],
       "learningGoals": [
-        "Trouver le nombre manquant dans des relations simples avec des nombres jusqu’à 12.",
-        "Comprendre le complément et les situations inverses comme des stratégies de calcul.",
-        "Gagner en confiance en découvrant soi-même les relations entre les nombres."
+        "Trouver le nombre manquant dans un problème d’addition ou de soustraction, où qu’il soit",
+        "Comprendre « combien de plus » comme l’écart entre deux quantités",
+        "Rendre deux quantités égales en ajoutant à l’une ou en retirant à l’autre",
+        "Retrouver la quantité de départ à partir de ce qui a été ajouté et du total"
       ]
     },
     "tally-squirrel.add-four.2-nbt-b-6": {

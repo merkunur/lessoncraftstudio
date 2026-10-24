@@ -2674,6 +2674,32 @@
         "Å telle videre eller tilbake for å finne en del som mangler",
         "Å gjøre to sider med to tall hver like"
       ]
+    },
+    "sharing-jar.make-fair.1-oa-d-8": {
+      "about": [
+        "Pinnsvinet Pim og musa Bo har hver sin glasskrukke med perler, og et gullbånd er spent over begge krukkene i den rettferdige høyden. Barnet sier først et tall ved å trykke på en brikke, trykker så på Sjekk – og akkurat så mange perler flytter seg. Med riktig tall stopper perlene akkurat ved båndet, og de to vennene lener seg mot hverandre. For få, og det blir et hull under båndet eller perler igjen over det; for mange, og perlene går forbi båndet – nå har den andre vennen færre.",
+        "Det finnes fem slags historier: hvor mange som mangler i en krukke (3 + □ = 5), hvor mange flere en venn har (6 − 2 = □), hvor mange Pim må gi tilbake (7 − □ = 4), hvor mange som skal tilbake i haugen (6 − □ = 4), og hvor mange Bo hadde til å begynne med (□ + 4 = 7). I en start-runde farger barnets tall like mange perler nedenfra, og de skal møte de lysende nye perlene nøyaktig. Etter andre forsøk blir perlene som manglet eller var for mange, nummerert, så barnet kan telle forskjellen.",
+        "Gjennomsiktige krukker går til 10; krukker av matt glass til 20, med hver krukkes tall på lokket, og glasset blir klart når man sjekker. Trykk på en krukke, så lyser perlene opp én etter én. I tråd med LK20 om tall og regning. Uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Å finne tallet som mangler i en regnefortelling med pluss eller minus: det som legges til, forskjellen, det som tas bort, eller starttallet",
+        "Å sammenligne to antall og gjøre dem like",
+        "Å telle videre fra det minste antallet til det største",
+        "Å sjekke et svar ved å se hva akkurat så mange perler gjør"
+      ],
+      "howToPlay": [
+        "Les spørsmålet, og se på de to krukkene og gullbåndet.",
+        "Trykk på brikken med tallet du tror er riktig, og trykk så på Sjekk.",
+        "Se på perlene: Med riktig tall stopper de ved båndet. Blir det et hull, eller går perlene forbi båndet, velg et annet tall og sjekk igjen.",
+        "Trykk på en krukke, så lyser perlene opp én etter én, og tell dem.",
+        "I innstillingene velger du krukkene (gjennomsiktige til 10 eller matt glass til 20) og historiene (alle typer eller bare «hvor mange flere»)."
+      ],
+      "learningGoals": [
+        "Å finne tallet som mangler i en regnefortelling med pluss eller minus, uansett hvor det står",
+        "Å forstå «hvor mange flere» som forskjellen mellom to antall",
+        "Å gjøre to antall like ved å legge til i det ene eller ta fra det andre",
+        "Å finne starttallet ut fra det som kom til, og det samlede antallet"
+      ]
     }
   }
 }

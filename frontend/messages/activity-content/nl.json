@@ -2992,25 +2992,28 @@
     },
     "sharing-jar.make-fair.1-oa-d-8": {
       "about": [
-        "Twee vrienden, één probleem: Pim en Bo hebben allebei kralen in hun pot geschept, maar de potten zijn niet even vol.",
-        "Je kind speelt de eerlijke scheidsrechter en zoekt telkens het ene getal dat ontbreekt om het weer gelijk en eerlijk te maken.",
-        "Al doende oefent je kind met optellen en aftrekken tot 12 — rustig, zonder klok en zonder score."
+        "Egel Pim en muis Bo hebben elk een glazen pot met kralen, en over beide potten is een gouden lint gespannen op de eerlijke hoogte. Het kind zegt eerst een getal door op een kaartje te tikken, drukt dan op Controleer, en precies zoveel kralen bewegen. Met het goede getal stoppen de kralen precies bij het lint en buigen de twee vrienden naar elkaar toe. Te weinig, en er blijft een gat onder het lint of er liggen nog kralen boven; te veel, en de kralen gaan voorbij het lint – nu heeft de andere vriend minder.",
+        "Er zijn vijf soorten verhalen: hoeveel er bij een pot nog bij moeten (3 + □ = 5), hoeveel een vriend er meer heeft (6 − 2 = □), hoeveel Pim moet teruggeven (7 − □ = 4), hoeveel er terug op de stapel moeten (6 − □ = 4) en hoeveel Bo er in het begin had (□ + 4 = 7). In een beginronde kleurt het getal van het kind zoveel kralen vanaf de onderkant, en die moeten precies aansluiten op de oplichtende nieuwe kralen. Na de tweede poging worden de kralen die ontbraken of te veel waren genummerd, zodat het kind het verschil kan tellen.",
+        "Doorzichtige potten gaan tot 10; matglazen potten tot 20, met het getal van elke pot op het deksel, en het matglas wordt helder bij het controleren. Tik op een pot om de kralen een voor een te laten oplichten. Passend bij de kerndoelen voor getallen en bewerkingen. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Aanvullen tot gelijk: uitrekenen hoeveel kralen erbij moeten zodat beide potten evenveel hebben.",
-        "Het verschil bepalen: zien hoeveel meer er in de ene pot zit dan in de andere.",
-        "Herstellen na omvallen: bedenken hoeveel kralen eruit rolden en terug moeten.",
-        "Terugleggen tot een doel én de beginhoeveelheid vinden met een omkeersom."
+        "Het ontbrekende getal vinden in een plus- of minverhaal: wat erbij komt, het verschil, wat eraf gaat of het begingetal",
+        "Twee hoeveelheden vergelijken en gelijk maken",
+        "Doortellen van de kleinste hoeveelheid naar de grootste",
+        "Een antwoord controleren door te zien wat precies zoveel kralen doen"
       ],
       "howToPlay": [
-        "Bekijk de twee potten van Pim en Bo en lees de vraag erboven.",
-        "Bedenk welk getal er ontbreekt om de potten eerlijk te maken.",
-        "Tik het juiste getal aan op de getallentegels van 0 tot 10."
+        "Lees de vraag en kijk naar de twee potten en het gouden lint.",
+        "Tik op het kaartje met het getal dat je goed denkt, en druk dan op Controleer.",
+        "Kijk naar de kralen: met het goede getal stoppen ze bij het lint. Blijft er een gat of gaan er kralen voorbij het lint, kies dan een ander getal en controleer opnieuw.",
+        "Tik op een pot om de kralen een voor een te laten oplichten en te tellen.",
+        "In de instellingen kies je de potten (doorzichtig tot 10 of matglas tot 20) en de verhalen (alle soorten of alleen „hoeveel meer”)."
       ],
       "learningGoals": [
-        "Het ontbrekende getal vinden in eenvoudige optel- en aftreksommen tot 12.",
-        "Hoeveelheden vergelijken en eerlijk verdelen: evenveel maken en het verschil zien.",
-        "Vertrouwd raken met de omkeersom om een onbekend beginaantal terug te vinden."
+        "Het ontbrekende getal vinden in een plus- of minverhaal, waar het ook staat",
+        "„Hoeveel meer” begrijpen als het verschil tussen twee hoeveelheden",
+        "Twee hoeveelheden gelijk maken door er bij de ene iets bij te doen of bij de andere iets af te halen",
+        "Het begingetal vinden uit wat erbij kwam en het totaal"
       ]
     },
     "bundle-bot.bundle-machine.1-nbt-b-2-a": {

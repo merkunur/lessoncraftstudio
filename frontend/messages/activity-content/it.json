@@ -1002,25 +1002,28 @@
     },
     "sharing-jar.make-fair.1-oa-d-8": {
       "about": [
-        "Pim e Bo scavano insieme le perline di luna nei loro barattoli, ma uno dei due barattoli resta sempre un po' più pieno dell'altro: sta al bambino capire quante perline mancano per rendere la divisione giusta.",
-        "L'attività trasforma le prime addizioni e sottrazioni in un gesto di amicizia, dove trovare il numero che manca serve a far tornare pari due amici, non a vincere una gara.",
-        "Il tono è caldo e gentile, senza punteggi e senza tempo che scorre, pensato per bambini di sei e sette anni che muovono i primi passi nel calcolo entro il 12."
+        "Pim il riccio e Bo il topolino hanno ciascuno un barattolo di vetro con delle perline, e un nastro dorato attraversa i due barattoli all’altezza giusta. Prima il bambino dice un numero toccando una tessera, poi preme Controlla, e si muovono esattamente quelle perline. Con il numero giusto le perline si fermano proprio sul nastro e i due amici si avvicinano. Se sono troppo poche, resta un vuoto sotto il nastro o perline sopra; se sono troppe, superano il nastro e adesso è l’altro amico ad averne di meno.",
+        "Ci sono cinque tipi di storia: quante ne mancano a un barattolo (3 + □ = 5), quante ne ha in più un amico (6 − 2 = □), quante ne deve restituire Pim (7 − □ = 4), quante tornano nel mucchio (6 − □ = 4) e quante ne aveva Bo all’inizio (□ + 4 = 7). In un turno «all’inizio», il numero del bambino colora altrettante perline partendo dal basso, e devono incontrare esattamente le perline nuove che brillano. Dopo il secondo tentativo, le perline che mancavano o erano in più vengono numerate, così il bambino può contare la differenza.",
+        "I barattoli trasparenti arrivano fino a 10; quelli smerigliati fino a 20, con il numero di ogni barattolo sul coperchio, e il vetro smerigliato diventa trasparente al controllo. Tocca un barattolo per accendere le sue perline una alla volta. In linea con le Indicazioni nazionali per i numeri. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Per completare, il bambino osserva quante perline ha già un barattolo e trova quante ne servono ancora per raggiungere l'altro, poi tocca quel numero e le vede volare al posto giusto.",
-        "Per confrontare, guarda i due barattoli fianco a fianco e scopre la differenza, cioè quante perline ha in più il barattolo più pieno rispetto a quello più vuoto.",
-        "Per rimettere a posto, riporta indietro le perline prese di troppo, ragionando a ritroso come in una piccola sottrazione entro il 12.",
-        "Per scoprire l'inizio, parte da quello che vede adesso e risale a quante perline c'erano nel barattolo all'inizio, prima che qualcosa cambiasse."
+        "Trovare il numero che manca in un problema di addizione o sottrazione: quanto si aggiunge, la differenza, quanto si toglie o il numero di partenza",
+        "Confrontare due quantità e renderle uguali",
+        "Contare in avanti dalla quantità più piccola fino alla più grande",
+        "Controllare una risposta vedendo che cosa fanno esattamente quelle perline"
       ],
       "howToPlay": [
-        "Guarda i due barattoli di Pim e Bo e nota quale è più pieno e quale è più vuoto.",
-        "Trova il numero che manca per rendere la divisione giusta e tocca quella tessera tra i numeri da 0 a 10.",
-        "Osserva le perline che volano nell'altro barattolo finché i due amici sono pari, poi passa con calma a un nuovo barattolo."
+        "Leggi la domanda e guarda i due barattoli e il nastro dorato.",
+        "Tocca la tessera con il numero che ti sembra giusto, poi premi Controlla.",
+        "Guarda le perline: con il numero giusto si fermano sul nastro. Se resta un vuoto o se superano il nastro, scegli un altro numero e controlla di nuovo.",
+        "Tocca un barattolo per accendere le sue perline una alla volta e contarle.",
+        "Nelle impostazioni scegli i barattoli (trasparenti fino a 10 o smerigliati fino a 20) e le storie (tutti i tipi o solo «quante in più»)."
       ],
       "learningGoals": [
-        "Trovare il numero mancante in semplici situazioni di addizione e sottrazione entro il 12, completando, confrontando e rimettendo a posto le quantità.",
-        "Costruire il senso della differenza e dell'uguaglianza, capendo quante perline servono «in più» perché due insiemi diventino pari.",
-        "Rafforzare il primo calcolo ragionando con materiali manipolabili, come indicato dalle Indicazioni nazionali per la classe prima, nel nucleo Numeri."
+        "Trovare il numero che manca in un problema di addizione o sottrazione, in qualunque posizione",
+        "Capire «quante in più» come la differenza tra due quantità",
+        "Rendere uguali due quantità aggiungendo a una o togliendo all’altra",
+        "Ricavare la quantità di partenza da quanto è stato aggiunto e dal totale"
       ]
     },
     "tally-squirrel.add-four.2-nbt-b-6": {

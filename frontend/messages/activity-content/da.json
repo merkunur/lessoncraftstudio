@@ -2639,6 +2639,32 @@
         "At gøre et falsk regnestykke sandt ved at ændre ét tal",
         "At finde det manglende tal i et regnestykke som 8 + 4 = □ + 5"
       ]
+    },
+    "fix-it-corner.missing-part.1-oa-d-8": {
+      "about": [
+        "Hvert ødelagt apparat på Fixits arbejdsbord har to målere, én for hver side af lighedstegnet. Under dem står et regnestykke som 9 + □ = 15, hvor ét tal mangler. Barnet sætter et tal i det tomme felt og trækker i håndtaget: Hver viser løber sin side igennem led for led, fremad ved plus og tilbage ved minus, og apparatet virker kun, når begge visere stopper på det samme tal.",
+        "Det manglende tal kan stå alle steder: resultatet (8 + 5 = □ eller 16 − 7 = □), et af tallene, der lægges sammen (9 + □ = 15), tallet, der trækkes fra (13 − □ = 8), starttallet (□ − 6 = 8) eller en del af et regnestykke med to sider som 6 + 6 = □ + 4, hvor begge sider skal vise 12. Et forkert tal får afstanden mellem de to visere til at lyse; efter andet forsøg viser måleren de skridt, der skal tælles. Intet afslører svaret, før man trækker i håndtaget.",
+        "Indstillingen „Op til 100“ bruger mest hele tiere, et spring på præcis ti (62 + □ = 72) og en kæde af tre tal. I tråd med Fælles Mål for tal og algebra. Uden tidtagning og uden point."
+      ],
+      "practices": [
+        "At finde det ukendte tal alle steder: resultatet, et af tallene, der lægges sammen, tallet, der trækkes fra, eller starttallet",
+        "At læse lighedstegnet som „begge sider viser det samme tal“",
+        "At tælle videre og tælle tilbage fra et kendt tal",
+        "At gøre begge sider lige store i et regnestykke som 6 + 6 = □ + 4"
+      ],
+      "howToPlay": [
+        "Læs regnestykket under de to målere, og find det tomme felt.",
+        "Tryk på feltet, og vælg et tal. Ved „Op til 100“ indstiller du tiere og enere med pilene.",
+        "Træk i håndtaget. Stopper begge visere på det samme tal, virker apparatet.",
+        "Hvis ikke, så se på afstanden mellem viserne, skift tallet, og træk igen. Tryk på en måler for at se viseren løbe igen.",
+        "I indstillingerne vælger du tallene (op til 10, op til 20 eller op til 100), og hvornår tællestien vises (kun som hjælp eller altid)."
+      ],
+      "learningGoals": [
+        "At finde det ukendte tal i et plus- eller minusstykke, uanset hvor det står",
+        "At forstå, at begge sider af lighedstegnet viser lige meget",
+        "At tælle videre eller tilbage for at finde en manglende del",
+        "At gøre to sider med to tal hver lige store"
+      ]
     }
   }
 }

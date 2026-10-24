@@ -3211,25 +3211,28 @@
     },
     "fix-it-corner.missing-part.1-oa-d-8": {
       "about": [
-        "Fixit è una talpa aggiustatutto così miope da non riuscire a leggere il numerino consumato sui congegni rotti: tocca a tuo figlio scoprire la cifra che manca, infilarla al posto giusto e sentire l’apparecchio ripartire ronzando.",
-        "L’attività allena a trovare il numero mancante in addizioni e sottrazioni in qualsiasi posizione — somma, addendo, sottraendo o minuendo — usando strategie come fare 10, contare in avanti e all’indietro e le famiglie di operazioni.",
-        "È pensata sulle Indicazioni nazionali per la classe prima, all’interno dei «Numeri», ed è del senza registrazione, senza timer e senza punteggio."
+        "Ogni apparecchio rotto sul banco di Fixit ha due quadranti, uno per ciascun lato del segno uguale. Sotto c’è un’uguaglianza come 9 + □ = 15, a cui manca un numero. Il bambino mette un numero nella casella vuota e tira la leva: ogni lancetta percorre il suo lato passo dopo passo, avanti per l’addizione e indietro per la sottrazione, e l’apparecchio funziona solo quando le due lancette si fermano sullo stesso numero.",
+        "Il numero mancante può essere ovunque: il risultato (8 + 5 = □ o 16 − 7 = □), un addendo (9 + □ = 15), il numero che si toglie (13 − □ = 8), il numero di partenza (□ − 6 = 8) o una parte di un’uguaglianza con due lati come 6 + 6 = □ + 4, dove tutti e due i lati devono segnare 12. Un numero sbagliato illumina lo spazio tra le due lancette; dopo un secondo tentativo, il quadrante segna i passi da contare. Niente mostra la risposta prima di tirare la leva.",
+        "L’impostazione «Fino a 100» usa soprattutto decine intere, un salto di esattamente dieci (62 + □ = 72) e una catena di tre numeri. In linea con le Indicazioni nazionali per i numeri. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Trovare l’addendo mancante",
-        "Trovare il sottraendo o il minuendo mancante",
-        "Trovare la somma mancante",
-        "Contare in avanti e all’indietro entro il 20"
+        "Trovare il numero sconosciuto in qualsiasi posizione: il risultato, un addendo, il numero che si toglie o il numero di partenza",
+        "Leggere il segno uguale come «i due lati segnano lo stesso numero»",
+        "Contare in avanti e all’indietro partendo da un numero noto",
+        "Rendere uguali i due lati di un’uguaglianza come 6 + 6 = □ + 4"
       ],
       "howToPlay": [
-        "Leggi l’operazione e capisci quale parte manca",
-        "Metti il numero giusto nel congegno di Fixit",
-        "Tocca Verifica e guarda l’apparecchio riprendere vita"
+        "Leggi l’uguaglianza sotto i due quadranti e trova la casella vuota.",
+        "Tocca la casella e scegli un numero. In «Fino a 100» imposti decine e unità con le frecce.",
+        "Tira la leva. Se le due lancette si fermano sullo stesso numero, l’apparecchio funziona.",
+        "Se no, guarda lo spazio tra le lancette, cambia il numero e tira di nuovo. Tocca un quadrante per rivedere la sua lancetta.",
+        "Nelle impostazioni scegli i numeri (fino a 10, fino a 20 o fino a 100) e quando mostrare il percorso per contare (solo come aiuto o sempre)."
       ],
       "learningGoals": [
-        "Tuo figlio impara a trovare il numero mancante in ogni posizione dell’operazione",
-        "Tuo figlio impara a capire il legame tra addizione e sottrazione con le famiglie di operazioni",
-        "Tuo figlio impara a calcolare con sicurezza entro il 20"
+        "Trovare il numero sconosciuto in un’addizione o in una sottrazione, ovunque sia",
+        "Capire che i due lati del segno uguale segnano la stessa quantità",
+        "Contare in avanti o all’indietro per trovare una parte mancante",
+        "Rendere uguali due lati di due numeri ciascuno"
       ]
     },
     "twinsies.count-twin.k-cc-b-5": {

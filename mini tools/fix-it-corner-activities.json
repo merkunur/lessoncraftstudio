@@ -1,7 +1,7 @@
 [
   {
     "id": "fix-it-corner.missing-part.1-oa-d-8",
-    "tool": "fix-it-corner-activity",
+    "tool": "two-gauges-activity",
     "task_template": "missing-part",
     "alignment": {
       "framework": "CCSS",
@@ -10,146 +10,209 @@
       "strand": "Operations & Algebraic Thinking"
     },
     "params": {
-      "rounds": [
-        {
-          "id": "m10-7",
-          "foilRank": "lo",
-          "band": 1,
-          "experience": "make10",
-          "a": 7,
-          "op": "+",
-          "b": null,
-          "c": 10,
-          "range": 10,
-          "modelState": "countable"
-        },
-        {
-          "id": "m10-6",
-          "foilRank": "hi",
-          "band": 1,
-          "experience": "make10",
-          "a": 6,
-          "op": "+",
-          "b": null,
-          "c": 10,
-          "range": 10,
-          "modelState": "countable"
-        },
-        {
-          "id": "sum-8-5",
-          "foilRank": "mid",
-          "band": 1,
-          "experience": "missingSum",
-          "a": 8,
-          "op": "+",
-          "b": 5,
-          "c": null,
-          "range": 20,
-          "modelState": "countable"
-        },
-        {
-          "id": "sum-6-7",
-          "foilRank": "lo",
-          "band": 1,
-          "experience": "missingSum",
-          "a": 6,
-          "op": "+",
-          "b": 7,
-          "c": null,
-          "range": 20,
-          "modelState": "countable"
-        },
-        {
-          "id": "ma-8-13",
-          "foilRank": "hi",
-          "band": 2,
-          "experience": "missingAddend",
-          "a": 8,
-          "op": "+",
-          "b": null,
-          "c": 13,
-          "range": 20,
-          "modelState": "confirmOnly",
-          "tool": "countOn"
-        },
-        {
-          "id": "ma-9-15",
-          "foilRank": "mid",
-          "band": 2,
-          "experience": "missingAddend",
-          "a": 9,
-          "op": "+",
-          "b": null,
-          "c": 15,
-          "range": 20,
-          "modelState": "confirmOnly",
-          "tool": "countOn"
-        },
-        {
-          "id": "ms-13-8",
-          "foilRank": "lo",
-          "band": 2,
-          "experience": "missingSubtrahend",
-          "a": 13,
-          "op": "-",
-          "b": null,
-          "c": 8,
-          "range": 20,
-          "modelState": "confirmOnly",
-          "tool": "countBack"
-        },
-        {
-          "id": "mfa-5-12",
-          "foilRank": "hi",
-          "band": 3,
-          "experience": "missingFirstAddend",
-          "a": null,
-          "op": "+",
-          "b": 5,
-          "c": 12,
-          "range": 20,
-          "modelState": "faded",
-          "tool": "triangle"
-        },
-        {
-          "id": "mm-5-8",
-          "foilRank": "mid",
-          "band": 3,
-          "experience": "missingMinuend",
-          "a": null,
-          "op": "-",
-          "b": 5,
-          "c": 8,
-          "range": 20,
-          "modelState": "faded",
-          "tool": "recombine"
-        },
-        {
-          "id": "bal-6-6-4",
-          "foilRank": "lo",
-          "band": 3,
-          "experience": "balance",
-          "kind": "balance",
-          "a": 6,
-          "b": 6,
-          "c": null,
-          "d": 4,
-          "range": 20,
-          "modelState": "faded"
-        },
-        {
-          "id": "prod-13-8-5",
-          "band": 4,
-          "experience": "produce",
-          "kind": "produce",
-          "whole": 13,
-          "p1": 8,
-          "p2": 5,
-          "range": 20,
-          "modelState": "faded",
-          "tool": "triangle"
-        }
-      ]
+      "note": "A mirror of two-gauges-core.js (every round of the three levels: the equation with its socket, the answer, the kind of blank and the panel). The core is the source; this row runs the Two Gauges.",
+      "levels": [
+        "10",
+        "20",
+        "big"
+      ],
+      "rounds": {
+        "10": [
+          {
+            "equation": "10 = 7 + □",
+            "answer": 3,
+            "blank": "addend",
+            "socket": "R",
+            "panel": "strip"
+          },
+          {
+            "equation": "□ + 4 = 9",
+            "answer": 5,
+            "blank": "addend",
+            "socket": "L",
+            "panel": "strip"
+          },
+          {
+            "equation": "6 + 3 = □",
+            "answer": 9,
+            "blank": "result",
+            "socket": "R",
+            "panel": "strip"
+          },
+          {
+            "equation": "10 − □ = 6",
+            "answer": 4,
+            "blank": "subtrahend",
+            "socket": "L",
+            "panel": "strip"
+          },
+          {
+            "equation": "□ − 3 = 5",
+            "answer": 8,
+            "blank": "minuend",
+            "socket": "L",
+            "panel": "strip"
+          },
+          {
+            "equation": "9 − 7 = □",
+            "answer": 2,
+            "blank": "result",
+            "socket": "R",
+            "panel": "strip"
+          },
+          {
+            "equation": "2 + □ = 8",
+            "answer": 6,
+            "blank": "addend",
+            "socket": "L",
+            "panel": "strip"
+          },
+          {
+            "equation": "4 + 4 = □ + 1",
+            "answer": 7,
+            "blank": "balance",
+            "socket": "R",
+            "panel": "strip"
+          },
+          {
+            "equation": "□ + 2 = 3",
+            "answer": 1,
+            "blank": "addend",
+            "socket": "L",
+            "panel": "strip"
+          }
+        ],
+        "20": [
+          {
+            "equation": "8 + 5 = □",
+            "answer": 13,
+            "blank": "result",
+            "socket": "R",
+            "panel": "strip"
+          },
+          {
+            "equation": "9 + □ = 15",
+            "answer": 6,
+            "blank": "addend",
+            "socket": "L",
+            "panel": "strip"
+          },
+          {
+            "equation": "13 − □ = 8",
+            "answer": 5,
+            "blank": "subtrahend",
+            "socket": "L",
+            "panel": "strip"
+          },
+          {
+            "equation": "□ + 5 = 12",
+            "answer": 7,
+            "blank": "addend",
+            "socket": "L",
+            "panel": "strip"
+          },
+          {
+            "equation": "□ − 6 = 8",
+            "answer": 14,
+            "blank": "minuend",
+            "socket": "L",
+            "panel": "strip"
+          },
+          {
+            "equation": "6 + 6 = □ + 4",
+            "answer": 8,
+            "blank": "balance",
+            "socket": "R",
+            "panel": "strip"
+          },
+          {
+            "equation": "16 − 7 = □",
+            "answer": 9,
+            "blank": "result",
+            "socket": "R",
+            "panel": "strip"
+          },
+          {
+            "equation": "18 = 7 + □",
+            "answer": 11,
+            "blank": "addend",
+            "socket": "R",
+            "panel": "strip"
+          },
+          {
+            "equation": "10 + □ = 9 + 3",
+            "answer": 2,
+            "blank": "balance",
+            "socket": "L",
+            "panel": "strip"
+          }
+        ],
+        "big": [
+          {
+            "equation": "40 + 30 = □",
+            "answer": 70,
+            "blank": "result",
+            "socket": "R",
+            "panel": "strip"
+          },
+          {
+            "equation": "90 = 50 + □",
+            "answer": 40,
+            "blank": "addend",
+            "socket": "R",
+            "panel": "strip"
+          },
+          {
+            "equation": "□ + 20 = 80",
+            "answer": 60,
+            "blank": "addend",
+            "socket": "L",
+            "panel": "strip"
+          },
+          {
+            "equation": "60 = 90 − □",
+            "answer": 30,
+            "blank": "subtrahend",
+            "socket": "R",
+            "panel": "strip"
+          },
+          {
+            "equation": "□ − 40 = 50",
+            "answer": 90,
+            "blank": "minuend",
+            "socket": "L",
+            "panel": "strip"
+          },
+          {
+            "equation": "35 + □ = 40",
+            "answer": 5,
+            "blank": "addend",
+            "socket": "L",
+            "panel": "strip"
+          },
+          {
+            "equation": "62 + □ = 72",
+            "answer": 10,
+            "blank": "addend",
+            "socket": "L",
+            "panel": "wall"
+          },
+          {
+            "equation": "30 + 40 = □ + 50",
+            "answer": 20,
+            "blank": "balance",
+            "socket": "R",
+            "panel": "strip"
+          },
+          {
+            "equation": "25 + 10 + □ = 50",
+            "answer": 15,
+            "blank": "addend",
+            "socket": "L",
+            "panel": "chain"
+          }
+        ]
+      }
     },
     "theme": null,
     "slug": {
@@ -159,7 +222,11 @@
       "es": "numero-que-falta-sumas-y-restas-cualquier-posicion-primer-grado",
       "pt": "numero-que-falta-adicao-e-subtracao-1-ano",
       "it": "numero-che-manca-addizioni-e-sottrazioni-classe-prima",
-      "nl": "ontbrekende-getal-plus-en-min-elke-plaats-groep-3"
+      "nl": "ontbrekende-getal-plus-en-min-elke-plaats-groep-3",
+      "sv": "talet-som-fattas-plus-och-minus-ak-1",
+      "da": "det-manglende-tal-plus-og-minus-1-klasse",
+      "no": "tallet-som-mangler-pluss-og-minus",
+      "fi": "puuttuva-luku-yhteen-ja-vahennyslaskussa"
     },
     "page_title": {
       "en": "Fixit's Fix-It Corner — Find the Missing Number (Grade 1)",
@@ -168,7 +235,11 @@
       "es": "El número que falta en sumas y restas (1.º de primaria)",
       "pt": "O Número Que Falta: Adição e Subtração com o Fixit — 1º ano",
       "it": "Il numero che manca in addizioni e sottrazioni (classe prima)",
-      "nl": "Het Ontbrekende Getal in Plus- en Minsommen – Groep 3"
+      "nl": "Het Ontbrekende Getal in Plus- en Minsommen – Groep 3",
+      "sv": "Talet som fattas – plus och minus med två mätare (åk 1)",
+      "da": "Det manglende tal – plus og minus med to målere (1. klasse)",
+      "no": "Tallet som mangler – pluss og minus med to målere",
+      "fi": "Puuttuva luku yhteen- ja vähennyslaskussa – kaksi mittaria (1. lk)"
     },
     "page_intro": {
       "en": "An interactive Grade 1 math game for the missing number in addition and subtraction: help Fixit the near-sighted repair-mole work out the part each broken gadget needs — the missing sum, addend, subtrahend, or minuend — then pop it in and watch it whir to life. Counting-on, fact-families, and balancing all build Common Core 1.OA.D.8.",
@@ -177,7 +248,11 @@
       "es": "Encuentra el número que falta en sumas y restas, en cualquier lugar de la operación: actividad interactiva, sin registro, alineada a la SEP.",
       "pt": "Ajude o Fixit a achar o número que falta nas contas de mais e de menos, em qualquer posição da conta. Sem cadastro. Alinhada à BNCC, 1º ano.",
       "it": "Con Fixit, la talpa aggiustatutto un po’ miope, tuo figlio trova il numero che manca in addizioni e sottrazioni in qualsiasi posizione e rimette in funzione ogni congegno: un’attività senza registrazione, allineata alle Indicazioni nazionali per la classe prima.",
-      "nl": "Help Fixit de mol om kapotte apparaten te repareren: vind het ontbrekende getal in plus- en minsommen — op elke plaats. Vul een tienveld, tel op de getallenlijn of breng een balans in evenwicht. Interactief, zonder registratie. Afgestemd op de SLO-kerndoelen voor groep 3."
+      "nl": "Help Fixit de mol om kapotte apparaten te repareren: vind het ontbrekende getal in plus- en minsommen — op elke plaats. Vul een tienveld, tel op de getallenlijn of breng een balans in evenwicht. Interactief, zonder registratie. Afgestemd op de SLO-kerndoelen voor groep 3.",
+      "sv": "Vilket tal fattas? Barnet hjälper Fixit att laga trasiga apparater: en mätare för varje sida av likhetstecknet, och apparaten startar bara när båda visarna pekar på samma tal. Åk 1, i linje med Lgr22.",
+      "da": "Hvilket tal mangler? Barnet hjælper Fixit med at reparere apparater: én måler for hver side af lighedstegnet, og apparatet starter først, når begge visere peger på det samme tal. I tråd med Fælles Mål.",
+      "no": "Hvilket tall mangler? Barnet hjelper Fixit å reparere apparater: én måler for hver side av likhetstegnet, og apparatet starter bare når begge viserne peker på samme tall. I tråd med LK20.",
+      "fi": "Mikä luku puuttuu? Lapsi auttaa Fixitiä korjaamaan rikkinäisiä laitteita: yhtäsuuruusmerkin kummallakin puolella on oma mittarinsa, ja laite käynnistyy vasta, kun molemmat osoittimet näyttävät samaa lukua. Perusopetuksen opetussuunnitelman (OPS 2014) mukainen."
     },
     "kid_prompt_template": "missing-part"
   }

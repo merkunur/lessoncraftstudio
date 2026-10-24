@@ -3728,23 +3728,28 @@
     },
     "fix-it-corner.missing-part.1-oa-d-8": {
       "about": [
-        "Fixit la taupe répare des appareils cassés, mais il est myope et n'arrive pas à lire le tout petit nombre qui manque. Ton enfant devient son aide : il trouve le nombre manquant dans chaque calcul — la somme, le terme qui manque, ce qu'on a enlevé ou le nombre de départ — puis le place pour que l'appareil se remette en marche.",
-        "Trouver le nombre manquant dans une addition ou une soustraction, à n'importe quelle place (comme 7 + ? = 10 ou ? − 3 = 4), est un attendu du CP : c'est la recherche du complément et le début du calcul réfléchi. Voir l'appareil s'animer quand la pièce est juste aide l'enfant à comprendre le lien entre l'addition et la soustraction. Le jeu se joue sans minuteur et sans points : l'enfant avance à son rythme. Il suit le domaine « Nombres et calcul » des programmes officiels de l'école."
+        "Chaque appareil en panne sur l’établi de Fixit a deux cadrans, un pour chaque côté du signe égal. En dessous se trouve une égalité comme 9 + □ = 15, où il manque un nombre. L’enfant place un nombre dans la case vide et tire le levier : chaque aiguille parcourt son côté étape par étape, en avant pour ajouter et en arrière pour enlever, et l’appareil ne marche que si les deux aiguilles s’arrêtent sur le même nombre.",
+        "Le nombre manquant peut être n’importe où : le résultat (8 + 5 = □ ou 16 − 7 = □), un terme (9 + □ = 15), le nombre qu’on enlève (13 − □ = 8), le nombre de départ (□ − 6 = 8) ou une partie d’une égalité à deux côtés comme 6 + 6 = □ + 4, où les deux côtés doivent indiquer 12. Un nombre faux fait briller l’écart entre les deux aiguilles ; après un deuxième essai, le cadran marque les pas à compter. Rien ne montre la réponse avant qu’on tire le levier.",
+        "Le réglage « Jusqu’à 100 » utilise surtout des dizaines entières, un saut d’exactement dix (62 + □ = 72) et une chaîne de trois nombres. En lien avec les programmes officiels pour le domaine Nombres et calculs. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Trouver le complément (7 + ? = 10)",
-        "Trouver le nombre manquant à n'importe quelle place",
-        "Comprendre le lien entre l'addition et la soustraction",
-        "Rendre les deux côtés d'une égalité égaux"
+        "Trouver le nombre inconnu à n’importe quelle place : le résultat, un terme, le nombre qu’on enlève ou le nombre de départ",
+        "Lire le signe égal comme « les deux côtés indiquent le même nombre »",
+        "Compter en avançant et en reculant à partir d’un nombre connu",
+        "Rendre égaux les deux côtés d’une égalité comme 6 + 6 = □ + 4"
       ],
       "howToPlay": [
-        "Lis le calcul de l'appareil, puis trouve le nombre qui manque.",
-        "Place la bonne pièce dans l'appareil, puis vérifie."
+        "Lis l’égalité sous les deux cadrans et trouve la case vide.",
+        "Touche la case et choisis un nombre. Avec « Jusqu’à 100 », règle les dizaines et les unités avec les flèches.",
+        "Tire le levier. Si les deux aiguilles s’arrêtent sur le même nombre, l’appareil marche.",
+        "Sinon, regarde l’écart entre les aiguilles, change le nombre et tire à nouveau. Touche un cadran pour revoir son aiguille.",
+        "Dans les réglages, choisis les nombres (jusqu’à 10, jusqu’à 20 ou jusqu’à 100) et quand montrer le chemin de comptage (seulement comme aide, ou toujours)."
       ],
       "learningGoals": [
-        "Trouver le nombre manquant dans une addition ou une soustraction",
-        "Chercher le complément",
-        "Relier l'addition et la soustraction"
+        "Trouver le nombre inconnu dans une addition ou une soustraction, où qu’il soit",
+        "Comprendre que les deux côtés du signe égal indiquent la même quantité",
+        "Compter en avançant ou en reculant pour trouver une partie manquante",
+        "Rendre égaux deux côtés de deux nombres chacun"
       ]
     },
     "clock-convert.12-24.2-md-c-7": {

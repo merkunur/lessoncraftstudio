@@ -3199,25 +3199,28 @@
     },
     "fix-it-corner.missing-part.1-oa-d-8": {
       "about": [
-        "O Fixit é uma toupeira que conserta coisas — e enxerga pertinho do nariz, então precisa da sua ajuda. Na oficina dele, cada aparelho quebrado mostra uma conta de mais ou de menos com um espacinho vazio que fica brilhando: é o número que está faltando. Você descobre qual é esse número e encaixa no lugar; quando acerta, o aparelho ronrona, acende e volta a funcionar. Para pensar junto, você tem um quadro de dez, uma reta numérica para contar pulando e uma balança de pratos, em que os dois lados precisam ficar iguaisinhos.",
-        "A grande ideia é esta: o número que falta pode aparecer em qualquer lugar da conta. Às vezes falta a soma (o total), às vezes falta uma das parcelas, às vezes falta o número que a gente tira ou até o número em que a conta começa. Procurando esse número, a criança descobre sozinha as famílias de fatos e as operações inversas — que somar e subtrair são um o contrário do outro —, pensa em \"quantos faltam?\" e entende o sinal de igual como um equilíbrio de verdade: os dois lados da balança têm que valer a mesma coisa.",
-        "Esta atividade não pede cadastro nem login. Não tem cronômetro, nem pontuação, nem competição — ninguém corre contra o tempo nem contra ninguém. O clima é calmo e sem vergonha de errar: quando um número não encaixa, o Fixit não briga; ele mostra com carinho o que aconteceu e resolve junto com você, com toda a paciência. A atividade é alinhada à BNCC, na unidade temática \"Números\"."
+        "Cada aparelho quebrado na bancada do Fixit tem dois mostradores, um para cada lado do sinal de igual. Embaixo deles fica uma sentença como 9 + □ = 15, em que falta um número. A criança coloca um número no quadradinho vazio e puxa a alavanca: cada ponteiro percorre o seu lado passo a passo, para a frente na adição e para trás na subtração, e o aparelho só funciona quando os dois ponteiros param no mesmo número.",
+        "O número que falta pode estar em qualquer lugar: o resultado (8 + 5 = □ ou 16 − 7 = □), uma parcela (9 + □ = 15), o número que se tira (13 − □ = 8), o número inicial (□ − 6 = 8) ou uma parte de uma sentença com dois lados como 6 + 6 = □ + 4, em que os dois lados precisam marcar 12. Um número errado acende a distância entre os dois ponteiros; depois de uma segunda tentativa, o mostrador marca os passos para contar. Nada mostra a resposta antes de puxar a alavanca.",
+        "A opção “Até 100” usa principalmente dezenas inteiras, um salto de exatamente dez (62 + □ = 72) e uma corrente de três números. De acordo com a BNCC, na unidade temática Números. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Achar o número que falta em qualquer posição da conta — na soma, numa parcela, no número que se tira ou no número que começa a conta.",
-        "Usar operações inversas e famílias de fatos para descobrir o número escondido.",
-        "Pensar com apoios concretos: o quadro de dez, a reta numérica e a balança de pratos.",
-        "Entender o sinal de igual como equilíbrio — os dois lados precisam valer a mesma coisa."
+        "Encontrar o número desconhecido em qualquer posição: o resultado, uma parcela, o número que se tira ou o número inicial",
+        "Ler o sinal de igual como “os dois lados marcam o mesmo número”",
+        "Contar para a frente e para trás a partir de um número conhecido",
+        "Deixar iguais os dois lados de uma sentença como 6 + 6 = □ + 4"
       ],
       "howToPlay": [
-        "Olhe a conta do aparelho quebrado e ache o espaço vazio que fica brilhando.",
-        "Use o quadro de dez, a reta numérica ou a balança para descobrir o número que falta e coloque ele no lugar.",
-        "Se encaixar, o aparelho liga na hora — se não encaixar, veja o que o Fixit mostra e tente de novo, com calma."
+        "Leia a sentença embaixo dos dois mostradores e encontre o quadradinho vazio.",
+        "Toque no quadradinho e escolha um número. Em “Até 100”, ajuste as dezenas e as unidades com as setas.",
+        "Puxe a alavanca. Se os dois ponteiros pararem no mesmo número, o aparelho funciona.",
+        "Se não pararem, veja a distância entre os ponteiros, mude o número e puxe de novo. Toque em um mostrador para ver o ponteiro de novo.",
+        "Nas configurações, escolha os números (até 10, até 20 ou até 100) e quando mostrar o caminho de contagem (só como ajuda ou sempre)."
       ],
       "learningGoals": [
-        "Eu acho o número que falta numa conta de mais ou de menos, esteja ele onde estiver.",
-        "Eu uso as famílias de fatos e sei que somar e subtrair são o contrário um do outro.",
-        "Eu entendo que o sinal de igual quer dizer que os dois lados valem a mesma coisa."
+        "Encontrar o número desconhecido em uma adição ou subtração, onde quer que esteja",
+        "Entender que os dois lados do sinal de igual marcam a mesma quantidade",
+        "Contar para a frente ou para trás para encontrar uma parte que falta",
+        "Deixar iguais dois lados com dois números cada"
       ]
     },
     "twinsies.count-twin.k-cc-b-5": {

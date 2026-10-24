@@ -1850,25 +1850,28 @@
     },
     "fix-it-corner.missing-part.1-oa-d-8": {
       "about": [
-        "Fixit the repair-mole needs the missing number to fix each broken gadget, so the child finds the unknown part of an equation — the missing sum (8 + 5 = ?), a missing addend (8 + ? = 13), a missing subtrahend (13 − ? = 8), or a missing minuend (? − 5 = 8) — then drops it in and watches the gadget whir to life. It's an interactive Grade 1 math game played in the browser on any device with no sign-up.",
-        "The big idea is that the equals sign means 'the same as,' so the unknown can sit in any position, not just at the end. Early rounds let the child count countable objects and even count on or count back; later rounds fade the supports and use fact-family triangles, recombining, and a balance round like 6 + 6 = ? + 4 where both sides must match. The child reasons about the whole and its parts instead of just adding from left to right.",
-        "It is aligned to Common Core 1.OA.D.8 — determining the unknown whole number in an addition or subtraction equation with the unknown in any position. No timer, no score — just calm, playful practice."
+        "Every broken gadget on Fixit’s bench has two gauges, one for each side of the equals sign. Under them sits an equation such as 9 + □ = 15 with one number missing. The child puts a number in the empty socket and pulls the lever: each needle sweeps its side number by number, forward for adding and back for taking away, and the gadget only runs when both needles stop on the same number.",
+        "The missing number can be anywhere: the answer (8 + 5 = □ or 16 − 7 = □), an addend (9 + □ = 15), the number taken away (13 − □ = 8), the starting number (□ − 6 = 8), or one part of a balance such as 6 + 6 = □ + 4, where both sides must show 12. A wrong number lights the gap between the two needles; after a second try, the gauge marks the steps to count. Nothing shows the answer before the lever is pulled.",
+        "The “To 100” setting uses mostly whole tens, a jump of exactly ten (62 + □ = 72) and a chain of three numbers. Aligned to Common Core 1.OA.D.8. No timer and no score."
       ],
       "practices": [
-        "Finding the unknown in any spot — the sum, an addend, the subtrahend, or the minuend",
-        "Counting on and counting back to find a missing part",
-        "Using fact families to relate addition and subtraction",
-        "Balancing both sides of an equation so they are truly equal"
+        "Finding the unknown number in any position: the answer, an addend, the number taken away or the starting number",
+        "Reading the equals sign as “both sides show the same number”",
+        "Counting on and counting back from a known number",
+        "Making both sides of a balance equal, such as 6 + 6 = □ + 4"
       ],
       "howToPlay": [
-        "Read the broken gadget's equation and see which number is missing.",
-        "Work out the missing part — count on, count back, or use the fact family.",
-        "Pop your answer in to fix the gadget; try again freely, with no timer and no score."
+        "Read the equation under the two gauges and find the empty socket.",
+        "Tap the socket and choose a number. In “To 100”, set the tens and the ones with the arrows.",
+        "Pull the lever. If both needles stop on the same number, the gadget runs.",
+        "If they don’t, look at the gap between the needles, change the number and pull again. Tap a gauge to watch its needle again.",
+        "In the settings, choose the numbers (to 10, to 20 or to 100) and when to show the counting path (only as a help, or always)."
       ],
       "learningGoals": [
-        "Find the unknown number in an addition or subtraction equation in any position — the focus of Common Core 1.OA.D.8",
-        "Understand the equals sign as 'the same amount on both sides'",
-        "Build the part-whole and fact-family reasoning that fluent computation depends on"
+        "Find the unknown number in an addition or subtraction equation, wherever it is",
+        "Understand that both sides of the equals sign show the same amount",
+        "Count on or back to find a missing part",
+        "Make two sides with two numbers each equal"
       ]
     },
     "fox-forge.fraction.3-nf-a-1": {

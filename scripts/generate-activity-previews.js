@@ -251,6 +251,10 @@ function seedScript(row) {
     // the illusion round: the hanging orange ribbon looks longest, but the cord has been to all three — its tags say the flat red one is the longest, and the cord still lies along it
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.question='mixed';t.api.settings.things='ribbons';t._pool=null;t._ensurePool();t._start('L5',0);var C=window.TravelCordCore,s=t.st,r=s.r;r.items.forEach(function(x){s.lay.place[x.id]=x.home;s.lay.off[x.id]=0;});C.measure(s,'orange');C.measure(s,'purple');C.measure(s,'red');t._render2();})()`;
   }
+  if (row.tool === 'ride-hands-activity') {
+    // 3 o'clock and the 12:00 card: its orange 12 rode the short hand out to the 3, where it does not fit — the hand glows and the 3 lights up; the digits riding the hands at work
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.times='hour';t.api.settings.colours='on';t._pool=null;t._ensurePool();t._start('H1',0);t.st.order=[0,1,2];t._render2();t._choose(1);t._check();})()`;
+  }
   if (row.tool === 'hour-road-activity') {
     // 3:30, the road rolled up round the dial: the marker carried round from the 3:30 card's spot lands on the tip of the short hand, which glows — the rolled road at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.times='both';t.api.settings.road='shown';t._pool=null;t._ensurePool();t._start('R1',0);t.st.order=[1,0,2];t.st.chosen=1;var v=t._view;v.showRoad=true;v.s=1;v.ring=1;v.mk=7;v.glow=true;t._render2();})()`;

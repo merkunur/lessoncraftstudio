@@ -1,54 +1,5 @@
 [
   {
-    "id": "clock-digital.read-hour.1-md-b-3",
-    "tool": "clock-digital-activity",
-    "task_template": "read-time",
-    "alignment": { "framework": "CCSS", "code": "1.MD.B.3", "grade": "1", "strand": "Measurement & Data" },
-    "theme": null,
-    "params": {
-      "granularity": "hour",
-      "rounds": [
-        { "id": "ch-3", "target": { "h": 3, "m": 0 }, "options": [ { "h": 3, "m": 0 }, { "h": 9, "m": 0 }, { "h": 6, "m": 0 } ] },
-        { "id": "ch-9", "target": { "h": 9, "m": 0 }, "options": [ { "h": 9, "m": 0 }, { "h": 12, "m": 0 }, { "h": 4, "m": 0 } ] },
-        { "id": "ch-6", "target": { "h": 6, "m": 0 }, "options": [ { "h": 6, "m": 0 }, { "h": 2, "m": 0 }, { "h": 10, "m": 0 } ] },
-        { "id": "ch-1", "target": { "h": 1, "m": 0 }, "options": [ { "h": 1, "m": 0 }, { "h": 7, "m": 0 }, { "h": 5, "m": 0 } ] },
-        { "id": "ch-11", "target": { "h": 11, "m": 0 }, "options": [ { "h": 11, "m": 0 }, { "h": 3, "m": 0 }, { "h": 8, "m": 0 } ] },
-        { "id": "ch-5", "target": { "h": 5, "m": 0 }, "options": [ { "h": 5, "m": 0 }, { "h": 12, "m": 0 }, { "h": 9, "m": 0 } ] },
-        { "id": "ch-8", "target": { "h": 8, "m": 0 }, "options": [ { "h": 8, "m": 0 }, { "h": 4, "m": 0 }, { "h": 1, "m": 0 } ] },
-        { "id": "ch-2", "target": { "h": 2, "m": 0 }, "options": [ { "h": 2, "m": 0 }, { "h": 10, "m": 0 }, { "h": 7, "m": 0 } ] },
-        { "id": "ch-7", "target": { "h": 7, "m": 0 }, "options": [ { "h": 7, "m": 0 }, { "h": 1, "m": 0 }, { "h": 11, "m": 0 } ] }
-      ]
-    },
-    "slug": {
-      "en": "read-clock-to-the-hour",
-      "de": "uhr-ablesen-volle-stunde-klasse-1",
-      "fr": "lire-lheure-heures-entieres-ce1",
-      "es": "leer-el-reloj-de-manecillas-la-hora-en-punto",
-      "pt": "ler-relogio-de-ponteiros-hora-em-ponto-3-ano",
-      "it": "leggere-l-ora-in-punto-orologio-classe-prima",
-      "nl": "klok-lezen-hele-uren-groep-3", "sv": "lasa-klockan-hela-timmar-ak-1"
-    },
-    "page_title": {
-      "en": "Sprocket's Clock — Read the Clock to the Hour (Grade 1)",
-      "de": "Sprockets Uhr — Volle Stunden ablesen (Klasse 1)",
-      "fr": "L'horloge de Sprocket — Lire l'heure pile (CE1)",
-      "es": "Sprocket el gallo: lee el reloj a la hora en punto (1º primaria)",
-      "pt": "Sprocket, o galo: ler o relógio de ponteiros na hora em ponto (3º ano)",
-      "it": "L'orologio di Sprocket — leggere l'ora in punto sull'orologio a lancette (classe prima)",
-      "nl": "Kukel de haan — Hele uren klokkijken (Groep 3)", "sv": "Tores klocka – läsa klockan, hela timmar (åk 1)"
-    },
-    "page_intro": {
-      "en": "An interactive Grade 1 time activity: read an analog clock at o'clock times and tap the matching digital time. Sprocket the rooster cheers them on while children learn to connect the clock face to the digital time (3 o'clock = 3:00). A friendly first step in telling time. Common Core 1.MD.B.3.",
-      "de": "Mit Hahn Sprocket die analoge Uhr ablesen lernen: Tippe die passende Uhrzeit zur vollen Stunde. Uhr lesen für Klasse 1 – interaktiv, Mathe Grundschule.",
-      "fr": "Avec Sprocket le coq, votre enfant lit l'horloge à aiguilles et touche l'heure pile qui correspond, comme « 3 h 00 ». Activité interactive, CE1, « Grandeurs et mesures ».",
-      "es": "Actividad interactiva para 1º de primaria: Sprocket, el gallo, muestra un reloj de manecillas en punto (las 3 en punto) y tu peque toca la hora digital correcta. Ideal para medir el tiempo según los planes y programas de la SEP.",
-      "pt": "Atividade interativa para o 3º ano: Sprocket, o galo, mostra um relógio de ponteiros marcando uma hora em ponto (são três horas em ponto) e a criança toca a hora digital correta. Só horas em ponto, para uma primeira leitura tranquila do relógio, na unidade temática Grandezas e medidas da BNCC. Online e sem cadastro.",
-      "it": "Attività interattiva per la classe prima: Sprocket mostra un orologio a lancette segnando l'ora in punto (le 3:00, le 9:00, l'una…) e il bambino osserva la lancetta corta delle ore per toccare l'ora digitale giusta. Un modo semplice e divertente per imparare a leggere l'ora in punto sull'orologio a lancette, passando dalle lancette ai numeri. Online e senza registrazione, direttamente nel browser. Allineata alle Indicazioni nazionali, nucleo Relazioni, dati e previsioni (la misura del tempo).",
-      "nl": "Interactief klokkijken met hele uren. Kukel de haan laat een klok zien en je kind tikt de juiste digitale tijd aan — warm, zonder tijdsdruk. Sluit aan bij de SLO-kerndoelen.", "sv": "Läs den analoga klockan med tuppen Tore och tryck på rätt digital tid. Hela timmar, som klockan 3 = 3:00 — ett första steg i att lära sig klockan. Följer Lgr22, åk 1."
-    },
-    "kid_prompt_template": "clock-digital"
-  },
-  {
     "id": "clock-digital.read-quarter-hour.2-md-c-7",
     "tool": "clock-digital-activity",
     "task_template": "read-time",

@@ -2890,6 +2890,32 @@
         "Ved halvtimer å se hvilket tall den lille viseren har passert.",
         "Å se en time som ett steg rundt klokka og en halvtime som et halvt steg."
       ]
+    },
+    "clock-digital.read-hour.1-md-b-3": {
+      "about": [
+        "Sprockets klokke har en liten oransje viser og en stor grønn viser, og hvert digitale kort er skrevet i de samme to fargene: timen i oransje, minuttene i grønt. Et digitalt klokkeslett er de to viserne skrevet ned. Barnet leser av klokka og trykker på et kort. Ved Sjekk glir kortet inn under klokka, og de to delene kjører ut: timen langs den lille viseren til tallet den peker på, minuttene langs den store viseren til det lille 00-skiltet ved 12. Hver del klikker bare på plass på sitt eget tall.",
+        "Den klassiske feilen er å lese den store viseren som timen. Et kort med 12:00 ved en klokke som viser klokka 3, sender 12-tallet sitt ut langs den lille viseren til 3-tallet, der det ikke passer, og 3-tallet lyser opp. En nabotime passer heller ikke. Når begge delene passer, går det en time: Den store viseren går en runde, den lille viseren flytter seg til neste tall, og displayet skifter. Etterpå kan barnet trykke på den store viseren og la flere timer gå. Med Hele og halve timer kommer det et 30-skilt ved 6; ved halv kjører timen ut til kanten mellom to tall og glir tilbake til tallet den lille viseren har passert. Viserfarger: Av tegner begge viserne svarte og kortene i én farge – steget til en vanlig klokke.",
+        "Hjelpen handler om viserne og røper aldri svaret. I tråd med LK20 i matematikk. Uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Å lese den lille viseren som timen og den store viseren som minuttene",
+        "Å vite at den store viseren på 12 betyr :00",
+        "Å koble en analog klokke til riktig digitalt klokkeslett",
+        "Ved halvtimer å si timen den lille viseren har passert"
+      ],
+      "howToPlay": [
+        "Se på klokka, og trykk så på det digitale klokkeslettet som passer.",
+        "Trykk på Sjekk: Den oransje timen kjører langs den lille viseren og de grønne minuttene langs den store. En del som ikke passer, stopper før tallet.",
+        "Ikke helt? Viseren som sendte en del tilbake, lyser, og tallet dens lyser opp. Trykk på et annet kort og sjekk igjen.",
+        "Etter et riktig svar kan du trykke på den store viseren, så går det en time.",
+        "I innstillingene velger du klokkeslettene (Hele timer · Hele og halve timer) og viserfargene (På · Av)."
+      ],
+      "learningGoals": [
+        "Å lese av hele og halve timer på en analog klokke og koble dem til det digitale klokkeslettet.",
+        "Å vite hvilken viser som viser timen, og hvilken som viser minuttene.",
+        "Ikke å lese den store viseren som timen (12:00 i stedet for 3:00).",
+        "Å se en time som går, som én hel runde med den store viseren."
+      ]
     }
   }
 }

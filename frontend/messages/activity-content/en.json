@@ -1334,25 +1334,28 @@
     },
     "clock-digital.read-hour.1-md-b-3": {
       "about": [
-        "An o'clock time appears on the clock — like 3 o'clock, 9 o'clock, or 6 o'clock — and the child reads it and taps the matching digital time from three choices. Sprocket the rooster cheers them on in this interactive Grade 1 time activity that's a child's first step in telling time, all in the browser with nothing to install and no sign-up.",
-        "The idea it builds is that at an o'clock time the long minute hand points straight up at the 12, and the short hour hand points to the hour, so 3 o'clock is written 3:00. The wrong choices are other whole hours, so the child has to read which hour the short hand points to rather than guess. Connecting the clock face to its digital form — 3 o'clock equals 3:00 — is the gentle beginning of reading time.",
-        "It is aligned to Common Core 1.MD.B.3 — telling and writing time in hours from analog and digital clocks. No timer, no score — just calm, playful practice."
+        "Sprocket's clock has an orange short hand and a green long hand, and every digital card is written in the same two colours: the hour in orange, the minutes in green. A digital time is the two hands written down. The child reads the clock and taps a card. On Check the card docks under the clock and its two parts ride out: the hour along the short hand to the number that hand points to, the minutes along the long hand to the small 00 label at the 12. Each part clicks home only on its own number.",
+        "Reading the long hand as the hour is the classic mistake. A 12:00 card on a 3 o'clock clock sends its 12 out along the short hand to the 3, where it does not fit, and the 3 lights up. A neighbouring hour does not fit either. When both parts fit, an hour passes: the long hand runs one lap, the short hand steps to the next number and the display flips. After that the child can tap the long hand to make more hours pass. With O'clock and half past, a 30 label appears at the 6; at half past the hour rides out to the rim between two numbers and slides back to the one the short hand has passed. Hand colours: Off draws both hands in black and the cards in one colour, the step to an ordinary clock.",
+        "Hints talk about the hands and never give the answer. Aligned to Common Core 1.MD.B.3. No timer and no score."
       ],
       "practices": [
-        "Reading the hour the short hand points to",
-        "Noticing that at o'clock the long hand points straight up at the 12",
-        "Connecting an o'clock time to its digital form (3 o'clock = 3:00)",
-        "Matching the clock face to the right digital time"
+        "Reading the short hand as the hour and the long hand as the minutes",
+        "Knowing that the long hand on the 12 means :00",
+        "Matching an analog clock to its digital time",
+        "At half past, naming the hour the short hand has passed"
       ],
       "howToPlay": [
-        "Look at the clock and read the hour the short hand points to.",
-        "Tap the digital time that matches, then check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Look at the clock, then tap the digital time that matches.",
+        "Press Check: the orange hour rides the short hand and the green minutes ride the long hand. A part that does not fit stops short of the number.",
+        "Not yet? The hand that sent a part back glows, and its number lights up. Tap another card and check again.",
+        "After a right answer, tap the long hand to make an hour pass.",
+        "In the settings, choose the times (O'clock · O'clock and half past) and the hand colours (On · Off)."
       ],
       "learningGoals": [
-        "Tell time to the hour on an analog clock — the focus of Common Core 1.MD.B.3.",
-        "Connect an o'clock time on the clock face to its digital form like 3:00.",
-        "Build the first clock-reading skill that half-hour and finer times grow from."
+        "Tell time in hours and half-hours from an analog clock and match it to its digital time — the focus of Common Core 1.MD.B.3.",
+        "Know which hand shows the hour and which shows the minutes.",
+        "Avoid reading the long hand as the hour (12:00 for 3:00).",
+        "See an hour passing as one full lap of the long hand."
       ]
     },
     "clock-digital.read-minute.3-md-a-1": {

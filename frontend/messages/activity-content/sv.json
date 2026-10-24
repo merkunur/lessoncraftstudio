@@ -1870,25 +1870,28 @@
     },
     "clock-digital.read-hour.1-md-b-3": {
       "about": [
-        "Tuppen Tore visar en klocka som står på en hel timme — som 3, 9 eller 6 — och barnet läser av den analoga urtavlan och trycker på den digitala tid som stämmer, bland tre alternativ. Det är en interaktiv tidsövning för årskurs 1 och barnets första steg i att läsa klockan, som körs direkt i webbläsaren utan att något behöver installeras och utan konto.",
-        "Den stora idén är att när klockan är hel timme pekar den långa minutvisaren rakt upp på tolvan, medan den korta timvisaren pekar på timmen — så klockan 3 skrivs 3:00. De alternativ som är fel är andra hela timmar, så barnet måste läsa av vilken siffra den korta visaren pekar på i stället för att gissa. Att koppla ihop urtavlan med den digitala tiden är en lugn början på klockläsningen.",
-        "Aktiviteten följer Lgr22 inom geometri: mätning av tid med vanliga nutida måttenheter, här till hel timme. Den här interaktiva övningen passar årskurs 1. Ingen timer, inga poäng — bara lugn, lekfull träning."
+        "Tores klocka har en kort orange visare och en lång grön visare, och varje digitalt kort är skrivet i samma två färger: timmen i orange, minuterna i grönt. En digital tid är de två visarna nedskrivna. Barnet läser av klockan och trycker på ett kort. Vid Kontrollera glider kortet in under klockan, och dess två delar åker ut: timmen längs den korta visaren till talet den pekar på, minuterna längs den långa visaren till den lilla 00-skylten vid 12. Varje del klickar bara på plats på sitt eget tal.",
+        "Det klassiska felet är att läsa den långa visaren som timmen. Ett kort med 12:00 vid en klocka som visar klockan 3 skickar sin 12:a längs den korta visaren till 3:an, där den inte passar, och 3:an lyser upp. En timme bredvid passar inte heller. När båda delarna passar går det en timme: den långa visaren går ett varv, den korta visaren flyttar till nästa tal och displayen slår om. Sedan kan barnet trycka på den långa visaren och låta fler timmar gå. Med Hela och halva timmar kommer en 30-skylt fram vid 6; vid halv åker timmen ut till kanten mellan två tal och glider tillbaka till talet som den korta visaren har passerat. Visarnas färger: Av ritar båda visarna svarta och korten i en färg – steget till en vanlig klocka.",
+        "Ledtrådarna handlar om visarna och avslöjar aldrig svaret. I linje med Lgr22, centralt innehåll om mätning. Utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Läsa av vilken timme den korta visaren pekar på",
-        "Lägga märke till att den långa visaren pekar rakt upp på tolvan när klockan är hel",
-        "Koppla en hel timme till dess digitala form (klockan 3 = 3:00)",
-        "Para ihop urtavlan med rätt digital tid"
+        "Att läsa den korta visaren som timmen och den långa visaren som minuterna",
+        "Att veta att den långa visaren på 12 betyder :00",
+        "Att para ihop en analog klocka med rätt digital tid",
+        "Att vid halvtimmar säga timmen som den korta visaren har passerat"
       ],
       "howToPlay": [
-        "Titta på klockan och läs av vilken timme den korta visaren pekar på.",
-        "Tryck på den digitala tid som stämmer och kolla ditt svar.",
-        "Blev det inte rätt? Försök igen så många gånger du vill — det finns ingen timer och inga poäng."
+        "Titta på klockan och tryck sedan på den digitala tid som passar.",
+        "Tryck på Kontrollera: den orange timmen åker längs den korta visaren och de gröna minuterna längs den långa. En del som inte passar stannar före talet.",
+        "Inte än? Visaren som skickade tillbaka en del lyser, och dess tal lyser upp. Tryck på ett annat kort och kontrollera igen.",
+        "Efter ett rätt svar kan du trycka på den långa visaren, så går det en timme.",
+        "I inställningarna väljer du tiderna (Hela timmar · Hela och halva timmar) och visarnas färger (På · Av)."
       ],
       "learningGoals": [
-        "Barnet kan läsa av hela timmar på en analog klocka",
-        "Barnet kopplar en hel timme på urtavlan till den digitala tiden 3:00",
-        "Barnet bygger den första klockläsningen som halva timmar och finare tider växer ur"
+        "Att läsa av hela och halva timmar på en analog klocka och para ihop dem med den digitala tiden.",
+        "Att veta vilken visare som visar timmen och vilken som visar minuterna.",
+        "Att inte läsa den långa visaren som timmen (12:00 i stället för 3:00).",
+        "Att se en timme som går som ett helt varv med den långa visaren."
       ]
     },
     "clock-digital.read-half-hour.1-md-b-3": {

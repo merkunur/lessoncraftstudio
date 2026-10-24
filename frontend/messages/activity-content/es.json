@@ -2257,25 +2257,28 @@
     },
     "clock-digital.read-hour.1-md-b-3": {
       "about": [
-        "Sprocket, el gallo, acompaña a los niños en su primer paso para leer el reloj: reconocer «la hora en punto». En cada ronda aparece un reloj de manecillas marcando una hora exacta, como las tres en punto, y el peque toca la hora digital que le corresponde.",
-        "La actividad se centra solo en las horas en punto para que el aprendizaje sea claro y sin apuros. Al fijarse en dónde apunta la manecilla corta —la que marca la hora— los niños van formando una idea sólida del tiempo antes de pasar a los minutos.",
-        "Pensada para primero de primaria (alrededor de 6 a 7 años), esta práctica apoya el eje de «Magnitud y medida — tiempo» de los planes y programas de estudio de la SEP y el enfoque de la Nueva Escuela Mexicana."
+        "El reloj de Sprocket tiene una manecilla corta naranja y una manecilla larga verde, y cada tarjeta digital está escrita con los mismos dos colores: la hora en naranja, los minutos en verde. Una hora digital son las dos manecillas escritas. El niño lee el reloj y toca una tarjeta. Al comprobar, la tarjeta se acomoda debajo del reloj y sus dos partes salen: la hora por la manecilla corta hasta el número al que apunta, los minutos por la manecilla larga hasta la pequeña etiqueta 00 junto al 12. Cada parte encaja solo en su propio número.",
+        "El error clásico es leer la manecilla larga como la hora. Una tarjeta de las 12:00 en un reloj que marca las 3 manda su 12 por la manecilla corta hasta el 3, donde no encaja, y el 3 se ilumina. Una hora vecina tampoco encaja. Cuando las dos partes encajan, pasa una hora: la manecilla larga da una vuelta, la corta avanza al número siguiente y la pantalla cambia. Después, el niño puede tocar la manecilla larga para que pasen más horas. Con Horas en punto y medias horas aparece una etiqueta 30 junto al 6; en la media hora, la hora sale hasta el borde entre dos números y regresa al número que ya pasó la manecilla corta. Con Colores de las manecillas en No, las dos manecillas se dibujan en negro y las tarjetas de un solo color, el paso hacia un reloj común.",
+        "Las pistas hablan de las manecillas y nunca dan la respuesta. En línea con los programas de estudio de la SEP (campo formativo Saberes y pensamiento científico). Sin cronómetro y sin puntaje."
       ],
       "practices": [
-        "Reconocer «la hora en punto» en un reloj de manecillas, por ejemplo las 5 en punto o las 9 en punto.",
-        "Observar la manecilla corta para saber en qué hora está el reloj cuando la manecilla larga apunta al 12.",
-        "Relacionar el reloj de manecillas con su hora digital (por ejemplo, 7:00) y elegir la opción correcta.",
-        "Nombrar la hora en voz alta con la expresión natural en México: «las tres en punto», «las ocho en punto»."
+        "Leer la manecilla corta como la hora y la larga como los minutos",
+        "Saber que la manecilla larga en el 12 significa :00",
+        "Relacionar un reloj de manecillas con su hora digital",
+        "En la media hora, decir la hora que ya pasó la manecilla corta"
       ],
       "howToPlay": [
-        "Sprocket muestra un reloj de manecillas que marca una hora exacta; observa hacia dónde apunta la manecilla corta.",
-        "Toca la hora digital que coincide con el reloj, por ejemplo 3:00 para «las tres en punto».",
-        "Si aciertas, Sprocket lo celebra contigo; si no, puedes intentarlo de nuevo con calma, sin cronómetro ni puntajes."
+        "Mira el reloj y luego toca la hora digital que corresponde.",
+        "Toca Comprobar: la hora naranja viaja por la manecilla corta y los minutos verdes por la larga. Una parte que no encaja se detiene antes del número.",
+        "¿Todavía no? La manecilla que regresó una parte brilla, y su número se ilumina. Toca otra tarjeta y vuelve a comprobar.",
+        "Después de una respuesta correcta, toca la manecilla larga para que pase una hora.",
+        "En los ajustes eliges las horas (En punto · Horas en punto y medias horas) y los colores de las manecillas (Sí · No)."
       ],
       "learningGoals": [
-        "Leer y decir la hora en punto en un reloj de manecillas con seguridad.",
-        "Distinguir la función de la manecilla corta (la hora) y la manecilla larga (los minutos) cuando esta apunta al 12.",
-        "Conectar el reloj de manecillas con su forma digital como primer paso para medir el tiempo."
+        "Leer la hora en punto y la media hora en un reloj de manecillas y relacionarla con su hora digital.",
+        "Saber qué manecilla marca la hora y cuál los minutos.",
+        "No leer la manecilla larga como la hora (12:00 en vez de 3:00).",
+        "Ver que pasa una hora cuando la manecilla larga da una vuelta completa."
       ]
     },
     "clock-digital.read-half-hour.1-md-b-3": {

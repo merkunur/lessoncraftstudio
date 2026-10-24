@@ -2885,6 +2885,32 @@
         "Puolitunneilla sen numeron huomaaminen, jonka ohi lyhyt viisari on mennyt.",
         "Tunnin näkeminen yhtenä askeleena kellon ympäri ja puolen tunnin puolena askeleena."
       ]
+    },
+    "clock-digital.read-hour.1-md-b-3": {
+      "about": [
+        "Sprocketin kellossa on lyhyt oranssi viisari ja pitkä vihreä viisari, ja jokainen digitaalinen kortti on kirjoitettu samoilla kahdella värillä: tunti oranssilla, minuutit vihreällä. Digitaalinen aika on kaksi viisaria kirjoitettuna. Lapsi lukee kellon ja napauttaa korttia. Tarkistettaessa kortti liukuu kellon alle, ja sen kaksi osaa lähtevät liikkeelle: tunti lyhyttä viisaria pitkin siihen numeroon, johon viisari osoittaa, ja minuutit pitkää viisaria pitkin pieneen 00-kylttiin 12:n kohdalla. Kumpikin osa napsahtaa paikalleen vain omaan numeroonsa.",
+        "Tavallinen virhe on lukea pitkä viisari tunniksi. Kortti 12:00 kellossa, joka näyttää kolmea, lähettää 12:nsa lyhyttä viisaria pitkin 3:n kohdalle, jossa se ei sovi, ja 3 syttyy. Viereinen tunti ei sovi sekään. Kun molemmat osat sopivat, kuluu tunti: pitkä viisari kiertää kierroksen, lyhyt siirtyy seuraavaan numeroon ja näyttö vaihtuu. Sen jälkeen lapsi voi napauttaa pitkää viisaria ja antaa kulua lisää tunteja. Asetuksella Tasa- ja puolitunnit 6:n kohdalle tulee 30-kyltti; puolitunneilla tunti menee reunaan kahden numeron väliin ja liukuu takaisin siihen numeroon, jonka ohi lyhyt viisari on mennyt. Viisarien värit: Pois piirtää molemmat viisarit mustina ja kortit yhdellä värillä – askel tavalliseen kelloon.",
+        "Vihjeet puhuvat viisareista eivätkä koskaan kerro vastausta. Sopii opetussuunnitelman sisältöalueeseen Geometria ja mittaaminen. Ilman ajanottoa ja ilman pisteytystä."
+      ],
+      "practices": [
+        "Lyhyen viisarin lukeminen tunneiksi ja pitkän viisarin minuuteiksi",
+        "Sen tietäminen, että pitkä viisari 12:n kohdalla tarkoittaa :00",
+        "Viisarikellon yhdistäminen oikeaan digitaaliseen aikaan",
+        "Puolitunneilla sen tunnin nimeäminen, jonka ohi lyhyt viisari on mennyt"
+      ],
+      "howToPlay": [
+        "Katso kelloa ja napauta sitten sopivaa digitaalista aikaa.",
+        "Napauta Tarkista: oranssi tunti kulkee lyhyttä viisaria pitkin ja vihreät minuutit pitkää viisaria pitkin. Osa, joka ei sovi, pysähtyy ennen numeroa.",
+        "Ei vielä? Viisari, joka lähetti osan takaisin, hehkuu, ja sen numero syttyy. Napauta toista korttia ja tarkista uudelleen.",
+        "Oikean vastauksen jälkeen voit napauttaa pitkää viisaria, niin kuluu tunti.",
+        "Asetuksista valitset ajat (Tasatunnit · Tasa- ja puolitunnit) ja viisarien värit (Päällä · Pois)."
+      ],
+      "learningGoals": [
+        "Tasatuntien ja puolituntien lukeminen viisarikellosta ja yhdistäminen digitaaliseen aikaan.",
+        "Sen tietäminen, kumpi viisari näyttää tunnin ja kumpi minuutit.",
+        "Pitkää viisaria ei lueta tunniksi (ei 12:00, kun kello on 3).",
+        "Kuluvan tunnin näkeminen pitkän viisarin yhtenä kokonaisena kierroksena."
+      ]
     }
   }
 }

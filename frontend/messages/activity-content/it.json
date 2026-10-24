@@ -1344,25 +1344,28 @@
     },
     "clock-digital.read-hour.1-md-b-3": {
       "about": [
-        "Con Sprocket il gallo, i bambini di classe prima muovono i primi passi nella lettura dell'ora: l'orologio a lancette segna un'ora in punto e loro scelgono l'ora digitale che corrisponde.",
-        "L'attenzione è tutta sulla lancetta corta delle ore: quando la lancetta lunga dei minuti è sul 12, l'ora è \"in punto\" e basta leggere il numero indicato dalla lancetta corta.",
-        "È un'attività calma e senza fretta: nessun punteggio e nessun tempo, solo tanti orologi da leggere per prendere confidenza con «le tre in punto», «le nove in punto» e l'una."
+        "L’orologio di Sprocket ha una lancetta corta arancione e una lancetta lunga verde, e ogni carta digitale è scritta con gli stessi due colori: l’ora in arancione, i minuti in verde. Un’ora digitale sono le due lancette scritte. Il bambino legge l’orologio e tocca una carta. Con Controlla la carta si aggancia sotto l’orologio e le sue due parti partono: l’ora lungo la lancetta corta fino al numero a cui punta, i minuti lungo la lancetta lunga fino alla piccola etichetta 00 vicino al 12. Ogni parte si incastra solo sul proprio numero.",
+        "L’errore classico è leggere la lancetta lunga come l’ora. Una carta 12:00 su un orologio che segna le 3 manda il suo 12 lungo la lancetta corta fino al 3, dove non si incastra, e il 3 si illumina. Nemmeno un’ora vicina si incastra. Quando entrambe le parti si incastrano, passa un’ora: la lancetta lunga fa un giro, quella corta avanza al numero successivo e il display cambia. Poi il bambino può toccare la lancetta lunga per far passare altre ore. Con Ore esatte e mezz’ore compare un’etichetta 30 vicino al 6; alla mezz’ora l’ora arriva al bordo tra due numeri e torna indietro al numero che la lancetta corta ha superato. Con Colori delle lancette su No, le due lancette sono disegnate in nero e le carte di un solo colore: il passo verso un orologio normale.",
+        "I suggerimenti parlano delle lancette e non danno mai la risposta. In linea con le Indicazioni nazionali, nucleo Relazioni, dati e previsioni. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Sprocket mostra un orologio a lancette: guarda dov'è la lancetta corta delle ore.",
-        "Controlla che la lancetta lunga dei minuti sia sul 12: significa che l'ora è in punto.",
-        "Leggi ad alta voce l'ora, per esempio «le sette in punto».",
-        "Tocca l'ora digitale giusta (7:00) tra le risposte proposte."
+        "Leggere la lancetta corta come l’ora e quella lunga come i minuti",
+        "Sapere che la lancetta lunga sul 12 significa :00",
+        "Abbinare un orologio a lancette all’ora digitale giusta",
+        "Alla mezz’ora, dire l’ora che la lancetta corta ha superato"
       ],
       "howToPlay": [
-        "Osserva l'orologio a lancette disegnato da Sprocket.",
-        "Trova il numero indicato dalla lancetta corta delle ore, con la lancetta lunga sul 12.",
-        "Tocca l'ora digitale corrispondente: se sbagli puoi riprovare con calma."
+        "Guarda l’orologio, poi tocca l’ora digitale giusta.",
+        "Tocca Controlla: l’ora arancione corre lungo la lancetta corta e i minuti verdi lungo quella lunga. Una parte che non si incastra si ferma prima del numero.",
+        "Non ancora? La lancetta che ha rimandato indietro una parte brilla, e il suo numero si illumina. Tocca un’altra carta e controlla di nuovo.",
+        "Dopo una risposta giusta, tocca la lancetta lunga e passa un’ora.",
+        "Nelle impostazioni scegli gli orari (Ore esatte · Ore esatte e mezz’ore) e i colori delle lancette (Sì · No)."
       ],
       "learningGoals": [
-        "Leggere l'ora in punto sull'orologio a lancette.",
-        "Collegare l'orologio a lancette all'ora digitale (le 3 in punto → 3:00).",
-        "Avvicinarsi alla misura del tempo secondo le Indicazioni nazionali, nel nucleo Relazioni, dati e previsioni."
+        "Leggere l’ora esatta e la mezz’ora su un orologio a lancette e abbinarla all’ora digitale.",
+        "Sapere quale lancetta indica l’ora e quale i minuti.",
+        "Non leggere la lancetta lunga come l’ora (12:00 invece di 3:00).",
+        "Vedere che passa un’ora quando la lancetta lunga fa un giro completo."
       ]
     },
     "clock-digital.read-half-hour.1-md-b-3": {

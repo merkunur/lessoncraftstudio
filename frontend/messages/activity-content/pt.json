@@ -489,25 +489,28 @@
     },
     "clock-digital.read-hour.1-md-b-3": {
       "about": [
-        "Sprocket, o galo, dá o primeiro passo na leitura das horas com as crianças: reconhecer a hora em ponto. A cada rodada aparece um relógio de ponteiros marcando uma hora exata, como são três horas em ponto, e a criança toca a hora digital que corresponde.",
-        "A atividade fica só nas horas em ponto para que o aprendizado seja claro e sem pressa. Ao observar para onde aponta o ponteiro pequeno — o das horas — enquanto o ponteiro grande está no 12, a criança forma uma ideia firme de como o relógio funciona antes de chegar aos minutos.",
-        "Pensada para o 3º ano do ensino fundamental (por volta dos 8 anos), esta prática apoia a unidade temática Grandezas e medidas da BNCC, em que se aprende a ler e registrar medidas de tempo usando relógios de ponteiros e digitais."
+        "O relógio do Sprocket tem um ponteiro pequeno laranja e um ponteiro grande verde, e cada cartão digital é escrito com as mesmas duas cores: a hora em laranja, os minutos em verde. Uma hora digital são os dois ponteiros escritos. A criança lê o relógio e toca em um cartão. Ao verificar, o cartão se encaixa embaixo do relógio e as suas duas partes saem: a hora pelo ponteiro pequeno até o número para onde ele aponta, os minutos pelo ponteiro grande até a pequena placa 00 junto ao 12. Cada parte só se encaixa no próprio número.",
+        "O erro clássico é ler o ponteiro grande como a hora. Um cartão 12:00 num relógio que marca 3 horas manda o seu 12 pelo ponteiro pequeno até o 3, onde não se encaixa, e o 3 acende. Uma hora vizinha também não se encaixa. Quando as duas partes se encaixam, passa uma hora: o ponteiro grande dá uma volta, o pequeno avança para o número seguinte e o visor muda. Depois, a criança pode tocar no ponteiro grande para fazer passar mais horas. Com Horas exatas e meias horas aparece uma placa 30 junto ao 6; na meia hora, a hora vai até a borda entre dois números e volta para o número que o ponteiro pequeno já passou. Cores dos ponteiros: Desligado desenha os dois ponteiros em preto e os cartões de uma cor só, o passo para um relógio comum.",
+        "As dicas falam dos ponteiros e nunca dão a resposta. De acordo com a BNCC, na unidade temática Grandezas e medidas. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Reconhecer a hora em ponto num relógio de ponteiros, por exemplo cinco horas em ponto ou nove horas em ponto.",
-        "Observar o ponteiro pequeno (o das horas) para saber que horas são quando o ponteiro grande aponta para o 12.",
-        "Relacionar o relógio de ponteiros com a hora digital correspondente (por exemplo, 7:00) e escolher a opção certa.",
-        "Dizer as horas em voz alta como se fala no Brasil: é uma hora em ponto, são duas horas em ponto, são oito horas em ponto."
+        "Ler o ponteiro pequeno como a hora e o grande como os minutos",
+        "Saber que o ponteiro grande no 12 quer dizer :00",
+        "Ligar um relógio de ponteiros à hora digital certa",
+        "Na meia hora, dizer a hora que o ponteiro pequeno já passou"
       ],
       "howToPlay": [
-        "Sprocket mostra um relógio de ponteiros marcando uma hora exata; repare para onde aponta o ponteiro pequeno.",
-        "Toque na hora digital que combina com o relógio, por exemplo 3:00 para são três horas em ponto.",
-        "Se acertar, Sprocket comemora com você; se não, dá para tentar de novo com calma, sem cronômetro e sem pontuação."
+        "Olhe o relógio e depois toque na hora digital que combina.",
+        "Toque em Verificar: a hora laranja anda pelo ponteiro pequeno e os minutos verdes pelo grande. Uma parte que não se encaixa para antes do número.",
+        "Ainda não? O ponteiro que mandou uma parte de volta brilha, e o número dele acende. Toque em outro cartão e verifique de novo.",
+        "Depois de uma resposta certa, toque no ponteiro grande para passar uma hora.",
+        "Nos ajustes você escolhe os horários (Horas exatas · Horas exatas e meias horas) e as cores dos ponteiros (Ligado · Desligado)."
       ],
       "learningGoals": [
-        "Ler e dizer a hora em ponto num relógio de ponteiros com segurança.",
-        "Distinguir a função do ponteiro pequeno (as horas) e do ponteiro grande (os minutos) quando ele aponta para o 12.",
-        "Ligar o relógio de ponteiros à sua forma digital como primeiro passo para medir o tempo."
+        "Ler horas exatas e meias horas em um relógio de ponteiros e ligá-las à hora digital.",
+        "Saber qual ponteiro mostra a hora e qual mostra os minutos.",
+        "Não ler o ponteiro grande como a hora (12:00 em vez de 3:00).",
+        "Ver uma hora passar como uma volta completa do ponteiro grande."
       ]
     },
     "clock-digital.read-half-hour.1-md-b-3": {

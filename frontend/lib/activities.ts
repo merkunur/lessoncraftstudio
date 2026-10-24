@@ -161,6 +161,7 @@ const MANIFEST_FILES = [
   'lay-units-activities.json',
   'one-hop-activities.json',
   'hour-road-activities.json',
+  'ride-hands-activities.json',
   'fox-forge-activities.json',
   'ten-stones-activities.json',
   'snippy-activities.json',

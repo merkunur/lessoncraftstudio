@@ -1168,25 +1168,28 @@
     },
     "clock-digital.read-hour.1-md-b-3": {
       "about": [
-        "Bei „Uhr ablesen — volle Stunden“ lesen die Kinder die analoge Uhr ab und tippen anschließend die passende digitale Uhrzeit an. Der Hahn Sprocket zeigt eine Uhr mit Stunden- und Minutenzeiger; das Kind erkennt die volle Stunde und wählt die richtige digitale Anzeige aus. So wird das Ablesen der Uhr geübt — nicht das Einstellen: Die Uhr ist bereits gestellt, und die Aufgabe besteht darin, sie richtig zu lesen.",
-        "Das Ablesen der vollen Stunde gehört zu den ersten Zielen im Bereich Größen und Messen – Zeit und ist fester Bestandteil des Lehrplans der Klasse 1. Die Kinder lernen, dass der kurze Zeiger die Stunde anzeigt und der lange Zeiger bei der vollen Stunde nach oben auf die 12 zeigt. Aus „der große Zeiger steht auf der 12, der kleine auf der 3“ wird so die Uhrzeit „3 Uhr“ beziehungsweise „3:00“.",
-        "Diese interaktive Aktivität funktioniert direkt im Browser, ganz ohne Zeitdruck und ohne Punkte. Die Kinder können in Ruhe so oft ablesen, wie sie möchten. Eine passende Ergänzung ist die Aktivität „Stell die Uhr“, bei der die Kinder die Zeiger umgekehrt selbst einstellen — gemeinsam decken beide Aktivitäten die zwei Seiten des Umgangs mit der Uhr ab: Ablesen und Stellen."
+        "Sprockets Uhr hat einen kleinen orangefarbenen Zeiger und einen großen grünen Zeiger, und jede Digitalkarte ist in denselben zwei Farben geschrieben: die Stunde orange, die Minuten grün. Eine digitale Uhrzeit sind die beiden Zeiger, aufgeschrieben. Das Kind liest die Uhr ab und tippt auf eine Karte. Beim Prüfen dockt die Karte unter der Uhr an, und ihre beiden Teile fahren los: die Stunde den kleinen Zeiger entlang bis zu der Zahl, auf die er zeigt, die Minuten den großen Zeiger entlang bis zum kleinen 00-Schild an der 12. Jeder Teil rastet nur auf seiner eigenen Zahl ein.",
+        "Der klassische Fehler ist, den großen Zeiger als Stunde zu lesen. Eine Karte 12:00 an einer Uhr, die 3 Uhr zeigt, schickt ihre 12 den kleinen Zeiger entlang zur 3, wo sie nicht passt, und die 3 leuchtet auf. Eine Nachbarstunde passt auch nicht. Passen beide Teile, vergeht eine Stunde: Der große Zeiger läuft eine Runde, der kleine Zeiger rückt zur nächsten Zahl, und die Anzeige springt um. Danach kann das Kind auf den großen Zeiger tippen und weitere Stunden vergehen lassen. Mit Volle und halbe Stunden erscheint an der 6 ein 30-Schild; bei halben Stunden fährt die Stunde bis zum Rand zwischen zwei Zahlen und rutscht zurück zu der Zahl, an der der kleine Zeiger vorbei ist. Zeigerfarben: Aus zeichnet beide Zeiger schwarz und die Karten einfarbig – der Schritt zur gewöhnlichen Uhr.",
+        "Die Hinweise sprechen über die Zeiger und verraten nie die Lösung. Passend zum Lehrplan im Bereich Größen und Messen. Ohne Zeitdruck und ohne Punktwertung."
       ],
       "practices": [
-        "Volle Stunden auf der analogen Uhr ablesen",
-        "Die analoge Uhr der richtigen digitalen Uhrzeit zuordnen",
-        "Die Rolle von Stundenzeiger (kurz) und Minutenzeiger (lang) unterscheiden",
-        "Uhrzeiten benennen: „3 Uhr“ / „3:00“"
+        "Den kleinen Zeiger als Stunde und den großen Zeiger als Minuten lesen",
+        "Wissen, dass der große Zeiger auf der 12 :00 bedeutet",
+        "Eine Zeigeruhr der passenden Digitalzeit zuordnen",
+        "Bei halben Stunden die Stunde erkennen, an der der kleine Zeiger vorbei ist"
       ],
       "howToPlay": [
-        "Schau dir Sprockets Uhr genau an: Wo steht der kurze Zeiger?",
-        "Lies die volle Stunde ab — der lange Zeiger zeigt dabei nach oben auf die 12.",
-        "Tippe die digitale Uhrzeit an, die zur Uhr passt."
+        "Schau dir die Uhr an und tippe dann auf die passende digitale Uhrzeit.",
+        "Tippe auf Prüfen: Die orangefarbene Stunde fährt den kleinen Zeiger entlang, die grünen Minuten den großen. Ein Teil, der nicht passt, bleibt vor der Zahl stehen.",
+        "Noch nicht? Der Zeiger, der einen Teil zurückgeschickt hat, leuchtet, und seine Zahl leuchtet auf. Tippe auf eine andere Karte und prüfe noch einmal.",
+        "Nach einer richtigen Antwort kannst du auf den großen Zeiger tippen, dann vergeht eine Stunde.",
+        "In den Einstellungen wählst du die Uhrzeiten (Volle Stunden · Volle und halbe Stunden) und die Zeigerfarben (An · Aus)."
       ],
       "learningGoals": [
-        "Die Kinder lesen volle Stunden sicher von der analogen Uhr ab.",
-        "Sie verbinden die analoge Uhrdarstellung mit der digitalen Schreibweise (z. B. 3:00).",
-        "Sie festigen das Verständnis von Stunden- und Minutenzeiger im Bereich Größen und Messen – Zeit."
+        "Volle und halbe Stunden an der Zeigeruhr ablesen und der passenden Digitalzeit zuordnen.",
+        "Wissen, welcher Zeiger die Stunde und welcher die Minuten zeigt.",
+        "Den großen Zeiger nicht als Stunde lesen (12:00 statt 3:00).",
+        "Eine vergehende Stunde als eine ganze Runde des großen Zeigers sehen."
       ]
     },
     "clock-digital.read-half-hour.1-md-b-3": {

@@ -2789,25 +2789,28 @@
     },
     "clock-digital.read-hour.1-md-b-3": {
       "about": [
-        "Kukel de haan wijst een klok aan. Je kind kijkt naar de wijzers en tikt daarna de digitale tijd aan die erbij hoort, zoals 3 uur of 9 uur. Er zijn drie tijden om uit te kiezen, dus je kind leert écht kijken in plaats van gokken.",
-        "De grote wijzer staat bij een heel uur altijd op de 12. De kleine wijzer wijst dan het uur aan. Dat is de grote ontdekking hier: als de grote wijzer op de 12 staat, hoef je alleen nog naar het getal van de kleine wijzer te kijken. Zo leggen kinderen de eerste, stevige basis voor klokkijken.",
-        "De activiteit sluit aan bij de SLO-kerndoelen voor meten en meetkunde (tijd), en werkt zonder tijdsdruk of punten. Kukel blijft altijd vriendelijk: er is geen goed-of-fout-gedoe, alleen rustig oefenen en opnieuw proberen tot het klikt."
+        "De klok van Kukel heeft een kleine oranje wijzer en een grote groene wijzer, en elk digitaal kaartje is in dezelfde twee kleuren geschreven: het uur in oranje, de minuten in groen. Een digitale tijd is de twee wijzers, opgeschreven. Het kind leest de klok en tikt op een kaartje. Bij Controleer schuift het kaartje onder de klok, en de twee delen rijden weg: het uur langs de kleine wijzer naar het getal waar die wijzer naar wijst, de minuten langs de grote wijzer naar het kleine 00-plaatje bij de 12. Elk deel klikt alleen vast op zijn eigen getal.",
+        "De bekende fout is de grote wijzer als uur lezen. Een kaartje 12:00 bij een klok die 3 uur aangeeft, stuurt zijn 12 langs de kleine wijzer naar de 3, waar het niet past, en de 3 licht op. Een uur ernaast past ook niet. Passen beide delen, dan gaat er een uur voorbij: de grote wijzer loopt een rondje, de kleine wijzer schuift naar het volgende getal en het scherm springt om. Daarna kan het kind op de grote wijzer tikken om nog meer uren voorbij te laten gaan. Met Hele en halve uren komt er een 30-plaatje bij de 6; bij een half uur rijdt het uur naar de rand tussen twee getallen en schuift terug naar het getal waar de kleine wijzer voorbij is. Kleur van de wijzers: Uit tekent beide wijzers zwart en de kaartjes in één kleur, de stap naar een gewone klok.",
+        "De hints gaan over de wijzers en verklappen nooit het antwoord. Passend bij de kerndoelen voor meten. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Hele uren aflezen van een analoge klok",
-        "De grote wijzer op de 12 herkennen als \"heel uur\"",
-        "De analoge klok koppelen aan de digitale tijd (3 uur → 3:00)",
-        "Rustig kijken en kiezen uit drie tijden"
+        "De kleine wijzer lezen als het uur en de grote wijzer als de minuten",
+        "Weten dat de grote wijzer op de 12 :00 betekent",
+        "Een wijzerklok koppelen aan de juiste digitale tijd",
+        "Bij een half uur het uur noemen waar de kleine wijzer voorbij is"
       ],
       "howToPlay": [
-        "Kijk naar de klok van Kukel en luister naar zijn kukeleku.",
-        "Tik op de digitale tijd die bij de klok hoort.",
-        "Tik op \"Controleer\" om te zien of het klopt — klopt het nog niet? Probeer gewoon opnieuw."
+        "Kijk naar de klok en tik dan op de digitale tijd die erbij past.",
+        "Tik op Controleer: het oranje uur rijdt langs de kleine wijzer en de groene minuten langs de grote. Een deel dat niet past, stopt voor het getal.",
+        "Nog niet? De wijzer die een deel terugstuurde, licht op, en zijn getal ook. Tik op een ander kaartje en controleer opnieuw.",
+        "Na een goed antwoord kun je op de grote wijzer tikken, dan gaat er een uur voorbij.",
+        "In de instellingen kies je de tijden (Hele uren · Hele en halve uren) en de kleur van de wijzers (Aan · Uit)."
       ],
       "learningGoals": [
-        "Je kind kan hele uren op een analoge klok aflezen.",
-        "Je kind weet dat de grote wijzer op de 12 een heel uur betekent.",
-        "Je kind kan de klok koppelen aan de juiste digitale tijd, zoals 7 uur en 7:00."
+        "Hele en halve uren aflezen op een wijzerklok en koppelen aan de digitale tijd.",
+        "Weten welke wijzer het uur en welke de minuten aangeeft.",
+        "De grote wijzer niet als uur lezen (12:00 in plaats van 3:00).",
+        "Een uur zien als één heel rondje van de grote wijzer."
       ]
     },
     "clock-digital.read-half-hour.1-md-b-3": {

@@ -61,6 +61,7 @@ ORDER row 92 · id `track-repair.count-to-120.1-nbt-a-1` (kept). Design: `design
 | hierarchy | 242 / 0 |
 | settings-efficacy | 2 live |
 | preflight, prose-claims, serp-copy | green |
+| live-verify-counting-lamp (11 pages 200; en/de/sv/fi × 1366/390, real pointer: 8 one tie too far → the lamp stops (hintCountOn); moved to tie 7 → okTies) | 59 / 0 (the first run, inside the deploy window, saw no iframe for sv/fi) |
 
 **What verify-counting-lamp-core checks**, against its own oracle (the design tables as text, with the rulings above, solved here):
 - **Hops:** a ± k, the STOP tie never the centre or the start, 4 left / 4 right per range.

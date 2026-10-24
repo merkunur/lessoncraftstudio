@@ -43,7 +43,7 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
     const src = await page.evaluate(f => f.getAttribute('src'), frameEl);
     is(src.includes('v=' + WRAPPER), `[${loc} @${w}] wrapper version ${WRAPPER}`);
     const frame = await frameEl.contentFrame();
-    await frame.waitForFunction(() => window.SignBeamActivity && window.SignBeamActivity.st && document.querySelector('.rl-wrap'), { timeout: 30000 });
+    await frame.waitForFunction(() => window.SignBeamActivity && window.SignBeamActivity.st && document.querySelector('.sb-wrap'), { timeout: 30000 });
     await frame.evaluate(() => { const a = window.SignBeamActivity; a.OK_MS = 600000; a.FAST = true; a.api.settings.claims = 'tf'; a.api.settings.numbers = '10'; a._pool = null; a._ensurePool(); a._start(8, 8); a._render2(); });
     const frameOff = () => page.evaluate(f => { const b = f.getBoundingClientRect(); return { x: b.left, y: b.top }; }, frameEl);
     const click = async (sel) => {

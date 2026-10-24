@@ -49,3 +49,4 @@ ONE native + pedagogy reviewer over the compact dump of all 11 locales: every o'
 - `mutate-hour-road.js` — 15 / 15 killed (core and activity), control survived.
 - `local-test-hour-road.js` — 25,113 checks: real taps, drags and keys, 11 locales, every round of both levels at rest / miss 2 / solved through 320…1366.
 - `visual-qa-activity` 60 / 60 · `audit-activity-hierarchy` 242 / 0 · `audit-settings-efficacy` 2 live · variety static scan ok · preflight-activity-routes, prose-claims, SERP copy, activity-content ×11 green.
+- `live-verify-hour-road.js` on production: 67 / 0 (11 locale pages 200; en / de / sv / fi × 1366 / 390, real taps: 4:30 → a miss with the road rolled round the dial, 3:30 → the celebration; the iframe grows with the card).

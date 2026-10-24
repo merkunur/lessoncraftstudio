@@ -2467,25 +2467,27 @@
     },
     "lay-units.measure.1-md-a-2": {
       "about": [
-        "Inchie es una oruga medidora que necesita saber qué tan largos son los objetos del jardín: una hoja, un caracol, una ramita. En esta actividad interactiva, tu peque acomoda a los ayudantes de Inchie uno tras otro a lo largo de cada objeto y descubre cuántos mide de largo.",
-        "La idea central es sencilla y poderosa: para medir una longitud repetimos una misma unidad, y la cantidad de unidades nos dice cuánto mide. Aquí no hay regla ni números en una recta; el niño mide colocando unidades iguales, del mismo tamaño, sin dejar huecos ni encimarlas, y empezando justo en la punta del objeto.",
-        "Diseñada para 1º de primaria (primer grado, alrededor de 6 y 7 años), esta actividad acompaña el eje de Magnitudes y medida, en el tema de longitud, dentro de los planes y programas de estudio de la SEP y el enfoque de la Nueva Escuela Mexicana. Es una entrada concreta y con sentido antes de trabajar con el centímetro y la regla."
+        "Inchie, el gusanito, solo sabe brincar de una manera: exactamente un ayudante de largo. El niño pone ayudantes verdes iguales uno tras otro, sin dejar espacio, debajo de un dibujo, como un carro, un pez, un zapato o un ferri, empezando en la piedra de la punta. Luego toca los ayudantes para contar. Cada toque es un brinco. Si la fila está bien, Inchie cae justo en la unión entre dos ayudantes. Si está mal, todos lo ven: cae en un hueco, se tambalea sobre dos ayudantes que están uno encima del otro, cae en medio de un ayudante de otro tamaño o descubre que el primer ayudante no empieza en la piedra.",
+        "En Poner y contar el sendero empieza vacío; en algunas rondas hay una segunda maceta con ayudantes de otro tamaño, que no van en la fila. En Arreglar ya hay una fila con un error que el niño encuentra y corrige; en algunas rondas hay tres filas debajo de un dibujo, y el niño manda a Inchie por cada una y elige la que está bien medida. En Ordenar tres se miden tres cosas, una tras otra, y el niño ordena las tarjetas por los números que él mismo escribió, de la más corta a la más larga. Con Grandes y chicos, cada cosa se mide dos veces, primero con ayudantes de dos unidades de largo y luego con ayudantes de una unidad: de los ayudantes más chicos se necesitan más.",
+        "Solo cuando Inchie llega al final se puede usar el teclado, y el niño escribe cuántos brincos dio. Después de un número equivocado, la pista remite a los brincos y luego pide tocar cada ayudante y contar en voz alta; una pista nunca da el número. En línea con los programas de estudio de la SEP (campo formativo Saberes y pensamiento científico). Sin cronómetro y sin puntaje."
       ],
       "practices": [
-        "Colocar unidades iguales sin huecos ni encimarlas, empezando en la punta del objeto",
-        "Comprender que todas las unidades deben medir exactamente lo mismo para que la medición sea justa",
-        "Contar los ayudantes y decir la longitud: 'mide N ayudantes de largo'",
-        "Descubrir que, entre más pequeña es la unidad, más unidades se necesitan para cubrir lo mismo"
+        "Poner unidades del mismo tamaño una tras otra, sin huecos y sin encimarlas",
+        "Empezar la primera unidad justo en un extremo del objeto",
+        "Dar una longitud como el número de unidades que caben",
+        "Ver que una unidad más grande da un número más chico"
       ],
       "howToPlay": [
-        "El niño arrastra a los ayudantes de Inchie y los va acomodando a lo largo del objeto; al tocar cada uno, los cuenta y la actividad le dice cuántos mide de largo.",
-        "Algunas rondas traen una medición mal hecha para arreglar: un hueco entre unidades, ayudantes encimados, piezas de distinto tamaño o un mal inicio que no arranca en la punta.",
-        "Otras rondas plantean un '¿cuál está bien medido?', para que tu peque compare y explique por qué una medición es correcta y la otra no."
+        "Toca la maceta para poner un ayudante al final de la fila, o arrastra un ayudante al sendero. Arrastra un ayudante para moverlo, o sácalo del sendero para quitarlo.",
+        "Toca los ayudantes para contar: con cada toque, Inchie brinca un ayudante. Si cae en el lugar equivocado, arregla la fila y toca a Inchie para que regrese a la piedra.",
+        "Cuando Inchie llegue al final, escribe cuántos brincos dio y toca Comprobar.",
+        "En los ajustes eliges la tarea (Poner y contar · Arreglar · Ordenar tres) y los ayudantes (Un tamaño · Grandes y chicos)."
       ],
       "learningGoals": [
-        "Medir la longitud de un objeto repitiendo una misma unidad, tal como propone el eje de Magnitudes y medida de la SEP para primer grado.",
-        "Reconocer que la longitud es el número de unidades iguales que caben a lo largo del objeto, sin huecos ni encimados.",
-        "Sentar las bases para entender que una unidad más pequeña da un número mayor de unidades, preparando el paso posterior al centímetro y a la regla."
+        "Medir una longitud como el número de unidades del mismo tamaño puestas una tras otra.",
+        "Reconocer los huecos, las unidades encimadas, las de otro tamaño y un inicio chueco como razones de una medida equivocada.",
+        "Ordenar tres objetos por su longitud medida.",
+        "Comprender que al medir con una unidad más grande se obtiene un número más chico."
       ]
     },
     "seriation.compare-length.1-md-a-1": {

@@ -107,7 +107,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 97 | LIVE 2026-10-24 · The Nine-Stop Tubes | 1 | 1.NBT.C.5 | `choice-board.ten-more-less.1-nbt-c-5` | choice-board-activity | Ten More, Ten Less — Mental Math With Two-Digit Numbers |
 | 98 | LIVE 2026-10-24 · The Zero-Swallowing Cards | 1 | 1.NBT.B.2 | `place-value.tens-and-ones.1-nbt-b-2` | place-value-activity | Tens and Ones |
 | 99 | LIVE 2026-10-24 · The Travelling Cord | 1 | 1.MD.A.1 | `seriation.compare-length.1-md-a-1` | seriation-activity | The Faraway Shelf — Compare Lengths with a Cord (Grade 1) |
-| 100 |  | 1 | 1.MD.A.2 | `lay-units.measure.1-md-a-2` | lay-units-activity | Inchie's Garden Path — Measuring by Laying Units |
+| 100 | LIVE 2026-10-24 · The One-Hop Helpers | 1 | 1.MD.A.2 | `lay-units.measure.1-md-a-2` | lay-units-activity | Inchie's Garden Path — Measuring by Laying Units |
 | 101 |  | 1 | 1.MD.B.3 | `clock-digital.read-half-hour.1-md-b-3` | clock-digital-activity | Sprocket's Clock — Read the Clock to the Half-Hour (Grade 1) |
 | 102 |  | 1 | 1.MD.B.3 | `clock-digital.read-hour.1-md-b-3` | clock-digital-activity | Sprocket's Clock — Read the Clock to the Hour (Grade 1) |
 | 103 |  | 1 | 1.MD.B.3 | `clock-read.tell-time.1-md-b-3` | clock-read-activity | Owl's Cuckoo Cottage — Read and Set the Clock |

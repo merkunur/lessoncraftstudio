@@ -159,6 +159,7 @@ const MANIFEST_FILES = [
   'coin-stall-activities.json',
   'shapeforge-activities.json',
   'lay-units-activities.json',
+  'one-hop-activities.json',
   'fox-forge-activities.json',
   'ten-stones-activities.json',
   'snippy-activities.json',

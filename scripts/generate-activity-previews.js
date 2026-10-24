@@ -251,6 +251,10 @@ function seedScript(row) {
     // the illusion round: the hanging orange ribbon looks longest, but the cord has been to all three — its tags say the flat red one is the longest, and the cord still lies along it
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.question='mixed';t.api.settings.things='ribbons';t._pool=null;t._ensurePool();t._start('L5',0);var C=window.TravelCordCore,s=t.st,r=s.r;r.items.forEach(function(x){s.lay.place[x.id]=x.home;s.lay.off[x.id]=0;});C.measure(s,'orange');C.measure(s,'purple');C.measure(s,'red');t._render2();})()`;
   }
+  if (row.tool === 'one-hop-activity') {
+    // the gap round: Inchie hopped one helper at a time and dropped into the gap before the last helper, the gap glowing coral — the one-hop rule at work
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.job='fix';t.api.settings.sizes='one';t._pool=null;t._ensurePool();t._start('B1',0);var C=window.OneHopCore,s=t.st;C.hop(s);C.hop(s);C.hop(s);t._view={};t._render2();})()`;
+  }
   if (row.tool === 'zero-cards-activity') {
     // forty-seven as a word: the 40 card on the stand with the 7 laid on its 0, four rods and seven cubes poured onto the mat — the zero-swallowing cards at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.task='build';t.api.settings.numbers='99';t._pool=null;t._ensurePool();t._start('b3',0);var C=window.ZeroCardsCore,s=t.st;C.placeTens(s,40);C.placeOnes(s,7,'zero');t._render2();})()`;

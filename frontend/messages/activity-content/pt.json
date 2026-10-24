@@ -912,28 +912,27 @@
     },
     "lay-units.measure.1-md-a-2": {
       "about": [
-        "Inchie é uma lagartinha curiosa que adora explorar o jardim medindo tudo o que encontra. Para descobrir o comprimento de cada objeto, ela chama seus ajudantes — pecinhas pequenas e todas do mesmo tamanho — e os coloca lado a lado ao longo do caminho.",
-        "A criança aprende a medir posicionando os ajudantes ponta com ponta, sem deixar folgas entre eles e sem sobrepor um sobre o outro. Quando a fileira chega ao fim do objeto, é só contar quantos ajudantes foram usados: o comprimento é exatamente o número de unidades.",
-        "Medir com unidades não padronizadas vem antes do uso da régua de propósito. Ao manusear os ajudantes como materiais manipuláveis, a criança entende o que significa medir — cobrir um comprimento com unidades iguais e contá-las — para só depois passar às unidades padronizadas, como o centímetro, e à régua."
+        "A minhoquinha Inchie só sabe pular de um jeito: exatamente um ajudante de comprimento. A criança coloca ajudantes verdes iguais um depois do outro, sem espaço, embaixo de uma figura, como um carrinho, um peixe, um sapato ou uma balsa, começando na pedra da ponta. Depois toca nos ajudantes para contar. Cada toque é um pulo. Se a fileira está certa, a Inchie cai bem na emenda entre dois ajudantes. Se está errada, todo mundo vê: ela cai num buraco, balança em cima de dois ajudantes que estão um sobre o outro, cai no meio de um ajudante de outro tamanho ou descobre que o primeiro ajudante não começa na pedra.",
+        "Em Colocar e contar o caminho começa vazio; em algumas rodadas há um segundo vaso com ajudantes de outro tamanho, que não entram na fileira. Em Arrumar já existe uma fileira com um erro que a criança encontra e conserta; em algumas rodadas há três fileiras embaixo de uma figura, e a criança manda a Inchie por cada uma e escolhe a que foi medida do jeito certo. Em Ordenar três, três coisas são medidas uma depois da outra, e a criança ordena os cartões pelos números que ela mesma escreveu, do mais curto para o mais comprido. Com Grandes e pequenos, cada coisa é medida duas vezes, primeiro com ajudantes de duas unidades de comprimento e depois com ajudantes de uma unidade: com ajudantes menores, é preciso usar mais.",
+        "Só quando a Inchie chega ao fim o teclado funciona, e a criança escreve quantos pulos foram. Depois de um número errado, a dica volta aos pulos e depois pede para tocar em cada ajudante e contar em voz alta; uma dica nunca diz o número. De acordo com a BNCC, na unidade temática Grandezas e medidas. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Medir comprimentos de objetos usando unidades não padronizadas do mesmo tamanho.",
-        "Alinhar as unidades ponta com ponta, sem folgas nem sobreposições.",
-        "Contar as unidades para determinar o comprimento total.",
-        "Perceber que, quando a unidade é menor, é preciso mais unidades para medir o mesmo objeto.",
-        "Comparar comprimentos de objetos diferentes pelo número de unidades que cada um mede."
+        "Colocar unidades do mesmo tamanho uma depois da outra, sem buracos e sem sobreposição",
+        "Começar a primeira unidade bem numa ponta do objeto",
+        "Dar um comprimento como o número de unidades que cabem",
+        "Ver que uma unidade maior dá um número menor"
       ],
       "howToPlay": [
-        "Escolha um objeto do jardim de Inchie que você quer medir.",
-        "Coloque os ajudantes um após o outro, ponta com ponta, ao longo do objeto — sem espaços vazios e sem deixar um por cima do outro.",
-        "Preencha o objeto inteiro, de uma ponta à outra, com os ajudantes.",
-        "Conte quantos ajudantes você usou: esse número é o comprimento do objeto."
+        "Toque no vaso para colocar um ajudante no fim da fileira, ou arraste um ajudante para o caminho. Arraste um ajudante para mudá-lo de lugar, ou tire-o do caminho para removê-lo.",
+        "Toque nos ajudantes para contar: a cada toque, a Inchie pula um ajudante. Se ela cair no lugar errado, arrume a fileira e toque na Inchie para ela voltar à pedra.",
+        "Quando a Inchie chegar ao fim, escreva quantos pulos foram e toque em Verificar.",
+        "Nos ajustes você escolhe a tarefa (Colocar e contar · Arrumar · Ordenar três) e os ajudantes (Um tamanho · Grandes e pequenos)."
       ],
       "learningGoals": [
-        "Compreender que medir é cobrir um comprimento com unidades iguais e contá-las.",
-        "Estimar, medir e comparar comprimentos com unidades não padronizadas.",
-        "Reconhecer que a medida depende do tamanho da unidade escolhida.",
-        "Construir a base para, mais adiante, medir com unidades padronizadas e usar a régua."
+        "Medir um comprimento como o número de unidades do mesmo tamanho colocadas uma depois da outra.",
+        "Reconhecer buracos, sobreposições, unidades de outro tamanho e um começo torto como motivos de uma medida errada.",
+        "Ordenar três objetos pelo comprimento medido.",
+        "Entender que, ao medir com uma unidade maior, o número fica menor."
       ]
     },
     "seriation.compare-length.1-md-a-1": {

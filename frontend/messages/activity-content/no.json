@@ -2839,6 +2839,31 @@
         "Å vurdere lengden fra start til slutt, ikke etter hvor en ting ligger eller hvilken vei den peker.",
         "Å sammenligne høyden på ting som står i ulike høyder."
       ]
+    },
+    "lay-units.measure.1-md-a-2": {
+      "about": [
+        "Den lille meitemarken Inchie kan bare hoppe på én måte: nøyaktig én hjelper langt. Barnet legger like grønne hjelpere ende mot ende under et bilde, for eksempel en bil, en fisk, en sko eller en ferje, og begynner ved steinen ved spissen. Så trykker barnet på hjelperne og teller. Hvert trykk er ett hopp. Er raden riktig, lander Inchie akkurat i skjøten mellom to hjelpere. Er den feil, ser alle det: Inchie faller ned i et hull, vingler på to hjelpere som ligger oppå hverandre, lander midt på en hjelper i en annen størrelse eller oppdager at den første hjelperen ikke begynner ved steinen.",
+        "I Legg og tell er stien tom fra start; i noen runder står det en ekstra potte med hjelpere i en annen størrelse, som ikke hører hjemme i raden. I Rett opp ligger det allerede en rad med en feil som barnet finner og retter; i noen runder ligger det tre rader under ett bilde, og barnet sender Inchie langs hver rad og velger den som er målt riktig. I Ordne tre måler barnet tre ting etter hverandre og legger kortene i rekkefølge etter tallene det selv har skrevet på dem, den korteste først. Med Store og små blir hver ting målt to ganger, først med hjelpere som er to enheter lange, så med hjelpere på én enhet: Av mindre hjelpere trengs det flere.",
+        "Først når Inchie når enden, våkner tastaturet, og barnet skriver hvor mange hopp det ble. Etter et feil tall peker hjelpen tilbake på hoppene og ber så barnet trykke på hver hjelper og telle høyt; hjelpen sier aldri tallet. I tråd med LK20 i matematikk. Uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Å legge like store enheter ende mot ende, uten hull og uten overlapp",
+        "Å begynne den første enheten akkurat ved den ene enden av tingen",
+        "Å oppgi en lengde som antallet enheter som får plass",
+        "Å se at en større enhet gir et mindre tall"
+      ],
+      "howToPlay": [
+        "Trykk på potten for å legge en hjelper på slutten av raden, eller dra en hjelper til stien. Dra en hjelper for å flytte den, eller dra den bort fra stien for å ta den vekk.",
+        "Trykk på hjelperne for å telle: Inchie hopper én hjelper for hvert trykk. Lander hun på feil sted, rett opp raden og trykk på Inchie, så går hun tilbake til steinen.",
+        "Når Inchie når enden, skriv hvor mange hopp det ble, og trykk på Sjekk.",
+        "I innstillingene velger du oppgaven (Legg og tell · Rett opp · Ordne tre) og hjelperne (Én størrelse · Store og små)."
+      ],
+      "learningGoals": [
+        "Å måle en lengde som antallet like store enheter lagt ende mot ende.",
+        "Å kjenne igjen hull, overlapp, enheter i en annen størrelse og en skjev start som grunner til at en måling blir feil.",
+        "Å ordne tre ting etter den målte lengden.",
+        "Å forstå at en større enhet gir et mindre tall når man måler."
+      ]
     }
   }
 }

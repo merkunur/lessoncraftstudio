@@ -2280,25 +2280,27 @@
     },
     "lay-units.measure.1-md-a-2": {
       "about": [
-        "Inchie the inchworm measures garden objects by laying helper-worms end to end: along a pencil, a leaf, a ribbon, a crayon, or a carrot, the child places identical units with no gaps and no overlaps, then taps each helper to count how many long the object is. It's an interactive Grade 1 measurement activity that runs in the browser, with no account.",
-        "The big idea is that length is the number of same-size units that fit, the focus of 1.MD.A.2. The rounds make the rules visible by breaking them: one has a sneaky gap to scootch closed, one has helpers overlapping that need room, one offers a wrong-size decoy unit to reject, one starts off the tip, and one even measures the same leaf with big units and then little units to show that smaller units give a bigger count. The child does the laying and counting, so the measuring principles are discovered, not just told.",
-        "It is aligned to Common Core 1.MD.A.2 — measuring a length as the number of same-size length units laid end to end with no gaps or overlaps. No timer, no score — just calm, playful practice."
+        "Inchie the little worm can hop only one way: exactly one helper long. The child lays identical green helpers end to end under a picture, such as a car, a fish, a shoe or a ferry, starting at the stone by its tip, then taps the helpers to count. Every tap is one hop. Where the row is right, Inchie lands on the join between two helpers. Where it is wrong, everyone can see it: she drops into a gap, wobbles on two helpers lying on top of each other, lands in the middle of a helper of another size, or finds that the first helper does not start at the stone.",
+        "Lay and count starts with an empty path; some rounds offer a second pot of helpers in another size, which do not belong in the row. Fix it lays a row with a mistake to find and repair, and some of its rounds show three rows under one picture, so the child sends Inchie along each and picks the one measured the right way. Line up three measures three things in turn and puts the cards in order by the numbers written on them, shortest first. With Big and small, each thing is measured twice, with helpers two units long and then with one-unit helpers: a smaller helper needs more of them.",
+        "Only when Inchie reaches the end does the keypad wake up, and the child writes how many hops it took. After a wrong number the hint points back to the hops, then asks the child to touch each helper and count out loud; a hint never gives the number. Aligned to Common Core 1.MD.A.2. No timer and no score."
       ],
       "practices": [
-        "Laying same-size units end to end with no gaps and no overlaps",
-        "Starting the first unit right at the object's edge",
-        "Counting the units to give the length of an object",
-        "Seeing that smaller units make a larger count for the same object"
+        "Laying same-size units end to end, with no gaps and no overlaps",
+        "Starting the first unit exactly at one end of the object",
+        "Giving a length as the number of units that fit",
+        "Seeing that a bigger unit gives a smaller number"
       ],
       "howToPlay": [
-        "Lay the helper units end to end along the object — close any gaps and remove any overlaps.",
-        "Tap each helper to count how many long the object is, then press Check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Tap the pot to lay a helper at the end of the row, or drag a helper onto the path. Drag a helper to move it, or drag it off the path to take it away.",
+        "Tap the helpers to count: Inchie hops one helper with every tap. If she lands in the wrong place, fix the row and tap Inchie to send her back to the stone.",
+        "When Inchie reaches the end, write how many hops it took and press Check.",
+        "In the settings, choose the job (Lay and count · Fix it · Line up three) and the helpers (One size · Big and small)."
       ],
       "learningGoals": [
-        "Measure length by laying same-size units end to end — the focus of Common Core 1.MD.A.2",
-        "Understand that gaps, overlaps, and mixed units give a wrong measurement",
-        "Build the unit-iteration idea behind reading rulers later"
+        "Measure a length as the number of same-size units laid end to end — the focus of Common Core 1.MD.A.2.",
+        "Recognise gaps, overlaps, units of another size and a crooked start as reasons a measurement is wrong.",
+        "Order three objects by their measured lengths.",
+        "Understand that measuring with a bigger unit gives a smaller number."
       ]
     },
     "linc-fact-chain.connect.ri-k-3": {

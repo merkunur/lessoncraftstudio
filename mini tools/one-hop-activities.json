@@ -1,0 +1,72 @@
+[
+  {
+    "id": "lay-units.measure.1-md-a-2",
+    "tool": "one-hop-activity",
+    "task_template": "one-hop",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "1.MD.A.2",
+      "grade": "1",
+      "strand": "Measurement & Data"
+    },
+    "params": {
+      "jobs": [
+        "lay",
+        "fix",
+        "order"
+      ],
+      "sizes": [
+        "one",
+        "big"
+      ],
+      "rounds": {
+        "lay": 7,
+        "fix": 7,
+        "judge": 3,
+        "order": 7,
+        "big": 7
+      }
+    },
+    "theme": null,
+    "slug": {
+      "en": "inchies-garden-path",
+      "de": "laengen-messen-mit-einheiten",
+      "fr": "mesurer-des-longueurs-avec-des-unites",
+      "es": "medir-longitudes-con-unidades",
+      "pt": "medir-comprimentos-com-unidades-2-ano",
+      "it": "misurare-lunghezze-con-unita-classe-seconda",
+      "nl": "lengte-meten-met-eenheden-afpassen-groep-4",
+      "sv": "mata-langd-med-egna-enheter-ak-1",
+      "da": "maal-laengder-med-hjaelpere-1-klasse",
+      "no": "mal-lengder-med-hjelpere-1-trinn",
+      "fi": "mittaa-pituuksia-apureilla-1-luokka"
+    },
+    "page_title": {
+      "en": "Inchie's Garden Path — Measuring by Laying Units",
+      "de": "Inchies Gartenweg – Längen messen durch Auslegen (Klasse 1)",
+      "fr": "Le jardin d'Inchie — Mesurer les longueurs en bâtonnets (CP)",
+      "es": "Inchie mide el jardín: longitudes con unidades (1º de primaria)",
+      "pt": "O jardim de Inchie — Medir comprimentos com unidades (2º ano)",
+      "it": "Il giardino di Inchie — Misurare le lunghezze con unità (classe seconda)",
+      "nl": "Lengte meten door afpassen met eenheden — Inchie's tuinpad (Groep 4)",
+      "sv": "Mäta längd med egna enheter — Mätis trädgårdsstig (åk 1)",
+      "da": "Inchies havesti — mål længder ved at lægge enheder (1. klasse)",
+      "no": "Inchies hagesti — mål lengder ved å legge ut enheter (1. trinn)",
+      "fi": "Inchien puutarhapolku — mittaa pituuksia asettelemalla yksiköitä (1. luokka)"
+    },
+    "page_intro": {
+      "en": "Help Inchie the inchworm measure the garden! Lay identical helper-worms end to end along each object — no gaps, no overlaps, all the same size — then tap each helper to count how many long it is. A warm Grade 1 measurement game about laying length units and discovering that length is the number of units, aligned to Common Core 1.MD.A.2.",
+      "de": "Mit Inchie Längen messen: gleich große Einheiten lückenlos aneinanderlegen und zählen. Interaktive Mathe-Übung für Klasse 1 – Größen und Messen.",
+      "fr": "Avec Inchie, mesurer des longueurs en posant des bâtonnets bout à bout et en les comptant. Exercice de maths interactif au CP — Grandeurs et mesures.",
+      "es": "Ayuda a Inchie a medir el jardín colocando ayudantes del mismo tamaño, sin huecos ni encimarlos, y cuenta cuántos mide cada objeto: la longitud es el número de unidades. Actividad interactiva de 1º de primaria sobre Magnitudes y medida (longitud), alineada a los planes y programas de estudio de la SEP.",
+      "pt": "Ajude Inchie a medir o jardim colocando ajudantes do mesmo tamanho, ponta com ponta, sem folgas nem sobreposições, e conte quantos cabem em cada objeto: o comprimento é o número de unidades. Atividade de matemática interativa, online, sem cadastro, de 2º ano sobre Grandezas e medidas (comprimento) com unidades não padronizadas, alinhada à BNCC.",
+      "it": "Aiuta Inchie a misurare gli oggetti del giardino appoggiando gli «aiutanti» tutti della stessa misura, uno attaccato all'altro, senza spazi e senza sovrapposizioni, poi tocca ogni aiutante per contarli: la lunghezza è il numero di unità. È un'attività di matematica di classe seconda per imparare a misurare le lunghezze con unità di misura non convenzionali, prima ancora del righello. Con aiutanti più piccoli ne servono di più. Senza registrazione, direttamente nel browser, allineata alle Indicazioni nazionali.",
+      "nl": "Meet met Inchie de spanrups de lengte van tuindingen door helpertjes af te passen. Je kind legt gelijke eenheden aansluitend neer — geen gaatjes, niet overlappen, allemaal even groot — en telt daarna hoeveel helpertjes lang iets is. Zo ervaart je kind dat de lengte het aantal eenheden is. Online te spelen, zonder account. Sluit aan bij de SLO-kerndoelen (domein \"Meten en meetkunde\", groep 4).",
+      "sv": "Mätis är en mätarlarv som vill veta hur långt allt i trädgården är — helt utan linjal. Barnet lägger ut lika stora hjälpare i en obruten rad längs föremålet, inga glipor och inget som ligger omlott, och trycker sedan på varje hjälpare för att räkna dem. Antalet hjälpare är längden. Utan konto, direkt i webbläsaren och i linje med Lgr22.",
+      "da": "Barnet lægger ens hjælpere ende mod ende under en ting, fra stenen ved spidsen og uden huller og uden overlap, og tæller dem ved at trykke. Inchie hopper præcis én hjælper ad gangen og lander forkert, hvis der er et hul eller en anden fejl. Længden er antallet af hjælpere. I tråd med Fælles Mål for geometri og måling.",
+      "no": "Barnet legger like hjelpere ende mot ende under en ting, fra steinen ved spissen og uten hull og uten overlapp, og teller dem ved å trykke. Inchie hopper nøyaktig én hjelper om gangen og lander på feil sted hvis raden har et hull eller en annen feil. Lengden er antallet hjelpere. I tråd med LK20.",
+      "fi": "Lapsi asettaa samanlaisia apureita peräkkäin esineen alle kiveltä alkaen, ilman rakoja ja päällekkäisyyksiä, ja laskee ne napauttamalla. Inchie hyppää aina täsmälleen yhden apurin mitan ja osuu väärään kohtaan, jos rivissä on rako tai muu virhe. Pituus on apurien lukumäärä. Sopii opetussuunnitelman sisältöalueeseen Geometria ja mittaaminen."
+    },
+    "kid_prompt_template": "lay-units"
+  }
+]

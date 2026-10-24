@@ -1270,25 +1270,27 @@
     },
     "lay-units.measure.1-md-a-2": {
       "about": [
-        "Inchie, un piccolo bruco misuratore, avanza lungo il sentiero del giardino e ha bisogno di una mano per scoprire quanto sono lunghi gli oggetti che incontra.",
-        "È un'attività di matematica online per la classe seconda (7-8 anni), pensata per imparare a misurare le lunghezze usando unità non convenzionali: si posano gli «aiutanti», tutti della stessa misura, uno accanto all'altro, e si contano. Così i bambini capiscono l'idea centrale della misura, cioè che la lunghezza è il numero di unità, molto prima di usare il righello e il metro.",
-        "L'attività è allineata alle Indicazioni nazionali e ai suoi obiettivi sulla misura: nessun punteggio e nessun cronometro, solo un percorso tranquillo in cui provare, contare e ragionare con calma, anche con semplici materiali manipolabili in classe o a casa."
+        "Inchie, il vermetto, sa saltare in un solo modo: esattamente un aiutante alla volta. Il bambino mette aiutanti verdi tutti uguali uno dopo l’altro, senza spazi, sotto un’immagine, come una macchinina, un pesce, una scarpa o un traghetto, partendo dal sasso sulla punta. Poi tocca gli aiutanti per contare. Ogni tocco è un salto. Se la fila è giusta, Inchie atterra proprio nel punto in cui due aiutanti si toccano. Se è sbagliata, lo vedono tutti: Inchie cade in un buco, traballa su due aiutanti messi uno sopra l’altro, atterra in mezzo a un aiutante di un’altra misura o scopre che il primo aiutante non parte dal sasso.",
+        "In Metti e conta il sentiero all’inizio è vuoto; in alcuni turni c’è un secondo vaso con aiutanti di un’altra misura, che nella fila non vanno. In Sistema c’è già una fila con un errore che il bambino trova e corregge; in alcuni turni ci sono tre file sotto un’immagine, e il bambino manda Inchie lungo ognuna e sceglie quella misurata nel modo giusto. In Metti in ordine i tre si misurano tre cose una dopo l’altra, e il bambino ordina le carte secondo i numeri che ha scritto lui stesso, dalla più corta. Con Grandi e piccoli ogni cosa viene misurata due volte, prima con aiutanti lunghi due unità e poi con aiutanti di una unità: di aiutanti più piccoli ne servono di più.",
+        "Solo quando Inchie arriva alla fine si può usare il tastierino, e il bambino scrive quanti salti ha fatto. Dopo un numero sbagliato, il suggerimento rimanda ai salti e poi chiede di toccare ogni aiutante e contare ad alta voce; un suggerimento non dice mai il numero. In linea con le Indicazioni nazionali, nucleo Relazioni, dati e previsioni. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Iterare un'unità: appoggiare gli aiutanti in fila, senza buchi e senza sovrapposizioni.",
-        "Contare le unità posate per trovare la lunghezza dell'oggetto.",
-        "Capire che la lunghezza è il numero di unità che riempiono l'oggetto.",
-        "Scoprire il principio di compensazione: se l'unità è più piccola, ne servono di più."
+        "Mettere unità della stessa misura una dopo l’altra, senza buchi e senza sovrapposizioni",
+        "Far partire la prima unità proprio da un’estremità dell’oggetto",
+        "Indicare una lunghezza come il numero di unità che ci stanno",
+        "Vedere che un’unità più grande dà un numero più piccolo"
       ],
       "howToPlay": [
-        "Posa gli aiutanti in fila, ben attaccati da un'estremità all'altra, per tutta la lunghezza dell'oggetto.",
-        "Tocca ogni aiutante per contarli a uno a uno e leggere quante unità è lungo l'oggetto.",
-        "Se resta un buco o due aiutanti si accavallano, arriva un suggerimento gentile: nessun punteggio, si può riprovare con calma."
+        "Tocca il vaso per mettere un aiutante in fondo alla fila, oppure trascina un aiutante sul sentiero. Trascina un aiutante per spostarlo, o portalo fuori dal sentiero per toglierlo.",
+        "Tocca gli aiutanti per contare: a ogni tocco Inchie salta un aiutante. Se atterra nel posto sbagliato, sistema la fila e tocca Inchie per farla tornare al sasso.",
+        "Quando Inchie arriva alla fine, scrivi quanti salti ha fatto e tocca Controlla.",
+        "Nelle impostazioni scegli il compito (Metti e conta · Sistema · Metti in ordine i tre) e gli aiutanti (Una misura · Grandi e piccoli)."
       ],
       "learningGoals": [
-        "Misurare una lunghezza iterando un'unità di misura non convenzionale, senza spazi né sovrapposizioni.",
-        "Capire che la lunghezza è il numero di unità usate per misurare.",
-        "Scoprire che con unità più piccole ne servono di più per misurare lo stesso oggetto."
+        "Misurare una lunghezza come il numero di unità della stessa misura messe una dopo l’altra.",
+        "Riconoscere buchi, sovrapposizioni, unità di un’altra misura e una partenza storta come motivi per cui una misura è sbagliata.",
+        "Ordinare tre oggetti secondo la loro lunghezza misurata.",
+        "Capire che misurando con un’unità più grande si ottiene un numero più piccolo."
       ]
     },
     "seriation.compare-length.1-md-a-1": {

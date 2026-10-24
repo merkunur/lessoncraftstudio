@@ -2284,25 +2284,27 @@
     },
     "lay-units.measure.1-md-a-2": {
       "about": [
-        "Inchie, la petite chenille arpenteuse, se promène le long d'un crayon, d'une feuille ou d'un ruban et pose l'un après l'autre des bâtonnets tous identiques, bout à bout. Votre enfant tape sur chaque bâtonnet pour le compter : arrivé au bout de l'objet, il annonce la longueur, « 5 bâtonnets de long ». Rien à écrire, aucune règle — on mesure simplement en alignant des unités et en les comptant.",
-        "L'idée du CP est là : une longueur, c'est le nombre d'unités identiques posées sans trou et sans chevauchement, en partant pile au bord de l'objet. Certains passages montrent pourquoi chaque règle compte : un trou entre deux bâtonnets, un chevauchement, des bâtonnets de tailles différentes ou un mauvais départ faussent le résultat, et votre enfant apprend à repérer puis à corriger l'erreur. Une étape inverse mesure la même feuille avec de grands puis de petits bâtonnets : le nombre augmente, car « plus l'unité est petite, plus il en faut ».",
-        "L'activité se joue sans compte, sans minuteur et sans points : votre enfant avance à son rythme, à sa façon. Elle suit les programmes officiels, dans le domaine « Grandeurs et mesures – Longueurs », et prépare en douceur le moment où l'on mesurera en centimètres avec une règle, au CE1."
+        "Inchie, le petit ver, ne sait sauter que d’une seule façon : exactement un bâtonnet à la fois. L’enfant pose des bâtonnets verts tous pareils bout à bout sous une image, par exemple une voiture, un poisson, une chaussure ou un ferry, en partant de la pierre à la pointe. Puis il touche les bâtonnets pour compter. Chaque toucher est un saut. Si la rangée est juste, Inchie atterrit pile à la jonction entre deux bâtonnets. Si elle est fausse, tout le monde le voit : Inchie tombe dans un trou, vacille sur deux bâtonnets posés l’un sur l’autre, atterrit au milieu d’un bâtonnet d’une autre taille ou découvre que le premier bâtonnet ne part pas de la pierre.",
+        "Dans Poser et compter, le chemin est vide au départ ; dans certaines manches, un deuxième pot propose des bâtonnets d’une autre taille, qui n’ont pas leur place dans la rangée. Dans Réparer, une rangée contient déjà une erreur que l’enfant trouve et corrige ; dans quelques manches, trois rangées sont posées sous une image, l’enfant envoie Inchie le long de chacune et choisit celle qui est bien mesurée. Dans Ranger les trois, l’enfant mesure trois objets l’un après l’autre, puis range les cartes selon les nombres qu’il y a lui-même écrits, du plus court au plus long. Avec Grands et petits, chaque objet est mesuré deux fois, d’abord avec des bâtonnets longs de deux unités, puis avec des bâtonnets d’une unité : avec des bâtonnets plus petits, il en faut davantage.",
+        "Le clavier ne s’active que quand Inchie arrive au bout, et l’enfant écrit combien de sauts il a fallu. Après un nombre faux, l’indice renvoie aux sauts, puis demande de toucher chaque bâtonnet en comptant à voix haute ; un indice ne donne jamais le nombre. En lien avec les programmes officiels pour le domaine Grandeurs et mesures. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Poser des bâtonnets identiques bout à bout, sans trou ni chevauchement, en partant pile au bord.",
-        "Comprendre que toutes les unités doivent être de la même taille.",
-        "Compter les bâtonnets et nommer la longueur : « X bâtonnets de long ».",
-        "Comprendre que plus l'unité est petite, plus il en faut."
+        "Poser des unités de même taille bout à bout, sans trou et sans chevauchement",
+        "Faire partir la première unité exactement d’une extrémité de l’objet",
+        "Donner une longueur comme le nombre d’unités qui y tiennent",
+        "Voir qu’une unité plus grande donne un nombre plus petit"
       ],
       "howToPlay": [
-        "Regarder Inchie poser les bâtonnets bout à bout, sans trou ni chevauchement.",
-        "Taper sur chaque bâtonnet pour le compter : le total, c'est la longueur.",
-        "Dans certains passages, quelque chose cloche — trouver l'erreur (trou, chevauchement, bâtonnets inégaux ou mauvais départ), ou choisir la ligne bien mesurée."
+        "Touche le pot pour poser un bâtonnet au bout de la rangée, ou fais glisser un bâtonnet sur le chemin. Fais glisser un bâtonnet pour le déplacer, ou sors-le du chemin pour l’enlever.",
+        "Touche les bâtonnets pour compter : à chaque toucher, Inchie saute d’un bâtonnet. Si elle atterrit au mauvais endroit, répare la rangée et touche Inchie pour la renvoyer à la pierre.",
+        "Quand Inchie arrive au bout, écris combien de sauts il a fallu et touche Vérifier.",
+        "Dans les réglages, choisis la tâche (Poser et compter · Réparer · Ranger les trois) et les bâtonnets (Une taille · Grands et petits)."
       ],
       "learningGoals": [
-        "Mesurer des longueurs avec une unité non conventionnelle et comprendre qu'une longueur est un nombre d'unités identiques.",
-        "Poser sans trou ni chevauchement, partir pile au bord et compter de façon fiable.",
-        "Saisir que « plus l'unité est petite, plus il en faut » — la base pour comprendre plus tard le centimètre et la règle."
+        "Mesurer une longueur comme le nombre d’unités de même taille posées bout à bout.",
+        "Reconnaître les trous, les chevauchements, les unités d’une autre taille et un départ décalé comme des raisons pour lesquelles une mesure est fausse.",
+        "Ranger trois objets selon leur longueur mesurée.",
+        "Comprendre qu’en mesurant avec une unité plus grande, on obtient un nombre plus petit."
       ]
     },
     "seriation.compare-length.1-md-a-1": {

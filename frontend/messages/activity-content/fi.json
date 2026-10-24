@@ -2834,6 +2834,31 @@
         "Pituuden arvioiminen alusta loppuun eikä sen mukaan, missä esine on tai mihin suuntaan se osoittaa.",
         "Eri korkeuksilla olevien esineiden korkeuksien vertaaminen."
       ]
+    },
+    "lay-units.measure.1-md-a-2": {
+      "about": [
+        "Pieni mato Inchie osaa hypätä vain yhdellä tavalla: tasan yhden apurin mitan. Lapsi asettaa samanlaisia vihreitä apureita peräkkäin kuvan alle, esimerkiksi auton, kalan, kengän tai lautan alle, ja aloittaa kärjen kohdalla olevasta kivestä. Sitten hän napauttaa apureita ja laskee. Jokainen napautus on yksi hyppy. Jos rivi on oikein, Inchie laskeutuu juuri kahden apurin saumaan. Jos se on väärin, sen näkevät kaikki: Inchie putoaa rakoon, huojuu kahden päällekkäin olevan apurin päällä, laskeutuu erikokoisen apurin keskelle tai huomaa, ettei ensimmäinen apuri ala kiveltä.",
+        "Tehtävässä Laita ja laske polku on aluksi tyhjä; joillakin kierroksilla vieressä on toinen ruukku, jossa on erikokoisia apureita, jotka eivät kuulu riviin. Tehtävässä Korjaa polulla on jo rivi, jossa on virhe; lapsi etsii sen ja korjaa sen. Joillakin kierroksilla kuvan alla on kolme riviä, ja lapsi lähettää Inchien jokaista pitkin ja valitsee oikein mitatun rivin. Tehtävässä Järjestä kolme mitataan kolme esinettä peräkkäin, ja lapsi järjestää kortit itse kirjoittamiensa lukujen mukaan, lyhin ensin. Asetuksella Isot ja pienet jokainen esine mitataan kahdesti: ensin kahden yksikön mittaisilla apureilla ja sitten yhden yksikön apureilla. Pienempiä apureita tarvitaan enemmän.",
+        "Numeronäppäimistö herää vasta, kun Inchie pääsee loppuun, ja lapsi kirjoittaa, montako hyppyä tarvittiin. Väärän luvun jälkeen vihje ohjaa takaisin hyppyihin ja pyytää sitten koskettamaan jokaista apuria ja laskemaan ääneen; vihje ei koskaan kerro lukua. Sopii opetussuunnitelman sisältöalueeseen Geometria ja mittaaminen. Ilman ajanottoa ja ilman pisteytystä."
+      ],
+      "practices": [
+        "Samankokoisten yksiköiden asettaminen peräkkäin ilman rakoja ja päällekkäisyyksiä",
+        "Ensimmäisen yksikön aloittaminen tarkalleen esineen toisesta päästä",
+        "Pituuden ilmoittaminen mahtuvien yksiköiden lukumääränä",
+        "Sen huomaaminen, että suurempi yksikkö antaa pienemmän luvun"
+      ],
+      "howToPlay": [
+        "Napauta ruukkua, niin rivin loppuun tulee apuri, tai vedä apuri polulle. Vedä apuria siirtääksesi sitä tai vedä se pois polulta poistaaksesi sen.",
+        "Laske napauttamalla apureita: jokaisella napautuksella Inchie hyppää yhden apurin. Jos hän laskeutuu väärään kohtaan, korjaa rivi ja napauta Inchietä, niin hän palaa kivelle.",
+        "Kun Inchie pääsee loppuun, kirjoita, montako hyppyä tarvittiin, ja napauta Tarkista.",
+        "Asetuksista valitset tehtävän (Laita ja laske · Korjaa · Järjestä kolme) ja apurit (Yksi koko · Isot ja pienet)."
+      ],
+      "learningGoals": [
+        "Pituuden mittaaminen peräkkäin asetettujen samankokoisten yksiköiden lukumääränä.",
+        "Rakojen, päällekkäisyyksien, erikokoisten yksiköiden ja vinon alun tunnistaminen syiksi siihen, että mittaus menee väärin.",
+        "Kolmen esineen järjestäminen mitatun pituuden mukaan.",
+        "Sen ymmärtäminen, että suuremmalla yksiköllä mitattaessa luku on pienempi."
+      ]
     }
   }
 }

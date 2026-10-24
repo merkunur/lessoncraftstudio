@@ -16,6 +16,8 @@
        verdict). >=7 cogs + reshuffle; no overflow 280→768.
    ===================================================================== */
 'use strict';
+/* Row 100 rebuild (2026-10-24): the row runs the One-Hop Helpers (one-hop-activity; gates verify-one-hop-core.js + local-test-one-hop.js) and has left lay-units-activities.json. */
+{ const _m = JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'lay-units-activities.json'), 'utf8')); if (!(Array.isArray(_m) ? _m : _m.activities).some(a => a.id === 'lay-units.measure.1-md-a-2')) { console.log('local-test-lay-units: the row runs the One-Hop Helpers — see verify-one-hop-core.js / local-test-one-hop.js. Nothing to check here.'); process.exit(0); } }
 const http = require('http');
 const fs = require('fs');
 const path = require('path');

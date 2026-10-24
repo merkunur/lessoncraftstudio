@@ -31,6 +31,8 @@
         a decade present; static: fire() reads no pull/pointer geometry.
    ===================================================================== */
 'use strict';
+/* Row 93 rebuild (2026-10-24): the row runs the Stretching Door Tag (door-tag-activity; gates verify-door-tag-core.js + local-test-door-tag.js) and no page loads the old Bo's Berry Pantry files any more. */
+{ const _m = JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'bos-berry-pantry-activities.json'), 'utf8')); const _r = (Array.isArray(_m) ? _m : _m.activities).find(a => a.id === 'bos-berry-pantry.slingshot-tens.1-nbt-b-2'); if (_r && _r.tool !== 'bos-berry-pantry-activity') { console.log('verify-slingshot-tens-core: the row runs the Stretching Door Tag — see verify-door-tag-core.js / local-test-door-tag.js. Nothing to check here.'); process.exit(0); } }
 const fs = require('fs');
 const path = require('path');
 

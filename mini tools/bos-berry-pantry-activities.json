@@ -1,43 +1,270 @@
 [
   {
     "id": "bos-berry-pantry.slingshot-tens.1-nbt-b-2",
-    "tool": "bos-berry-pantry-activity",
+    "tool": "door-tag-activity",
     "task_template": "slingshot-tens",
-    "alignment": { "framework": "CCSS", "code": "1.NBT.B.2", "grade": "1", "strand": "Number & Operations in Base Ten" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "1.NBT.B.2",
+      "grade": "1",
+      "strand": "Number & Operations in Base Ten"
+    },
     "params": {
-      "rounds": [
-        { "id": "pack-thirty-four", "lane": "decode", "band": 1, "prompt": { "kind": "pile", "value": 34 },
-          "shelves": [ { "tens": 3, "ones": 4, "kind": "equivalent" }, { "tens": 4, "ones": 3, "kind": "reversal" }, { "tens": 2, "ones": 4, "kind": "near-place" }, { "tens": 1, "ones": 9, "kind": "value-trap" } ] },
-
-        { "id": "forty-no-loose", "lane": "decade", "band": 1, "prompt": { "kind": "value-q", "value": 40 },
-          "shelves": [ { "tens": 4, "ones": 0, "kind": "equivalent" }, { "tens": 4, "ones": 1, "kind": "near-place" }, { "tens": 0, "ones": 4, "kind": "value-trap" }, { "tens": 3, "ones": 0, "kind": "near-place" } ] },
-
-        { "id": "bundle-twenty-five", "lane": "unitize-count", "band": 2, "prompt": { "kind": "value-q", "value": 25 },
-          "shelves": [ { "tens": 2, "ones": 5, "kind": "equivalent" }, { "tens": 5, "ones": 2, "kind": "reversal" }, { "tens": 1, "ones": 15, "kind": "grouping-trap" }, { "tens": 2, "ones": 4, "kind": "near-place" } ] },
-
-        { "id": "which-is-more", "lane": "encode", "band": 2, "compare": "more", "prompt": { "kind": "value-q", "value": 44 },
-          "shelves": [ { "tens": 4, "ones": 4, "kind": "equivalent" }, { "tens": 2, "ones": 9, "kind": "value-trap" }, { "tens": 3, "ones": 6, "kind": "near-place" }, { "tens": 1, "ones": 9, "kind": "value-trap" } ] },
-
-        { "id": "send-sixty-three", "lane": "decode", "band": 1, "prompt": { "kind": "numeral", "value": 63 },
-          "shelves": [ { "tens": 6, "ones": 3, "kind": "equivalent" }, { "tens": 3, "ones": 6, "kind": "reversal" }, { "tens": 5, "ones": 3, "kind": "near-place" }, { "tens": 6, "ones": 2, "kind": "near-place" } ] },
-
-        { "id": "pack-twenty-eight", "lane": "decode", "band": 1, "prompt": { "kind": "pile", "value": 28 },
-          "shelves": [ { "tens": 2, "ones": 8, "kind": "equivalent" }, { "tens": 8, "ones": 2, "kind": "reversal" }, { "tens": 2, "ones": 7, "kind": "near-place" }, { "tens": 1, "ones": 9, "kind": "value-trap" } ] },
-
-        { "id": "seventy-no-loose", "lane": "decade", "band": 1, "prompt": { "kind": "value-q", "value": 70 },
-          "shelves": [ { "tens": 7, "ones": 0, "kind": "equivalent" }, { "tens": 7, "ones": 1, "kind": "near-place" }, { "tens": 0, "ones": 7, "kind": "value-trap" }, { "tens": 6, "ones": 0, "kind": "near-place" } ] },
-
-        { "id": "name-the-hoard", "lane": "encode", "band": 3, "prompt": { "kind": "value-q", "value": 85, "hoard": { "tens": 8, "ones": 5 } },
-          "shelves": [ { "numeral": 85, "kind": "equivalent" }, { "numeral": 58, "kind": "reversal" }, { "numeral": 95, "kind": "near-place" }, { "numeral": 805, "kind": "value-trap" } ] },
-
-        { "id": "pack-thirteen", "lane": "decode", "band": 1, "prompt": { "kind": "pile", "value": 13 },
-          "shelves": [ { "tens": 1, "ones": 3, "kind": "equivalent" }, { "tens": 3, "ones": 1, "kind": "reversal" }, { "tens": 1, "ones": 4, "kind": "near-place" }, { "tens": 0, "ones": 9, "kind": "value-trap" } ] }
-      ]
+      "note": "A mirror of door-tag-core.js (every round of both ranges: the type, the shelf given, the number, the rack). The core is the source; this row runs the Stretching Door Tag.",
+      "ranges": [
+        "50",
+        "99"
+      ],
+      "rounds": {
+        "50": [
+          {
+            "type": "stock",
+            "number": 34,
+            "shelf": null,
+            "rack": null,
+            "berry": "strawberry"
+          },
+          {
+            "type": "stock",
+            "number": 40,
+            "shelf": null,
+            "rack": null,
+            "berry": "blueberry"
+          },
+          {
+            "type": "label",
+            "number": 25,
+            "shelf": {
+              "deck": 2,
+              "bowl": 5,
+              "lip": 0
+            },
+            "rack": null,
+            "berry": "raspberry"
+          },
+          {
+            "type": "stretch",
+            "number": 47,
+            "shelf": {
+              "deck": 4,
+              "bowl": 7,
+              "lip": 0
+            },
+            "rack": [
+              40,
+              7,
+              4,
+              70
+            ],
+            "berry": "blackberry"
+          },
+          {
+            "type": "stock",
+            "number": 28,
+            "shelf": null,
+            "rack": null,
+            "berry": "strawberry"
+          },
+          {
+            "type": "overflow",
+            "number": 24,
+            "shelf": {
+              "deck": 1,
+              "bowl": 9,
+              "lip": 5
+            },
+            "rack": null,
+            "berry": "blueberry"
+          },
+          {
+            "type": "label",
+            "number": 30,
+            "shelf": {
+              "deck": 3,
+              "bowl": 0,
+              "lip": 0
+            },
+            "rack": null,
+            "berry": "raspberry"
+          },
+          {
+            "type": "stock",
+            "number": 13,
+            "shelf": null,
+            "rack": null,
+            "berry": "blackberry"
+          },
+          {
+            "type": "overflow",
+            "number": 35,
+            "shelf": {
+              "deck": 2,
+              "bowl": 9,
+              "lip": 6
+            },
+            "rack": null,
+            "berry": "strawberry"
+          }
+        ],
+        "99": [
+          {
+            "type": "stock",
+            "number": 34,
+            "shelf": null,
+            "rack": null,
+            "berry": "strawberry"
+          },
+          {
+            "type": "stock",
+            "number": 40,
+            "shelf": null,
+            "rack": null,
+            "berry": "blueberry"
+          },
+          {
+            "type": "label",
+            "number": 25,
+            "shelf": {
+              "deck": 2,
+              "bowl": 5,
+              "lip": 0
+            },
+            "rack": null,
+            "berry": "raspberry"
+          },
+          {
+            "type": "stretch",
+            "number": 63,
+            "shelf": {
+              "deck": 6,
+              "bowl": 3,
+              "lip": 0
+            },
+            "rack": [
+              60,
+              6,
+              3,
+              30
+            ],
+            "berry": "blackberry"
+          },
+          {
+            "type": "stock",
+            "number": 28,
+            "shelf": null,
+            "rack": null,
+            "berry": "strawberry"
+          },
+          {
+            "type": "overflow",
+            "number": 23,
+            "shelf": {
+              "deck": 1,
+              "bowl": 9,
+              "lip": 4
+            },
+            "rack": null,
+            "berry": "blueberry"
+          },
+          {
+            "type": "label",
+            "number": 70,
+            "shelf": {
+              "deck": 7,
+              "bowl": 0,
+              "lip": 0
+            },
+            "rack": null,
+            "berry": "raspberry"
+          },
+          {
+            "type": "stretch",
+            "number": 85,
+            "shelf": {
+              "deck": 8,
+              "bowl": 5,
+              "lip": 0
+            },
+            "rack": [
+              80,
+              5,
+              8,
+              50
+            ],
+            "berry": "blackberry"
+          },
+          {
+            "type": "stock",
+            "number": 13,
+            "shelf": null,
+            "rack": null,
+            "berry": "strawberry"
+          },
+          {
+            "type": "overflow",
+            "number": 46,
+            "shelf": {
+              "deck": 3,
+              "bowl": 9,
+              "lip": 7
+            },
+            "rack": null,
+            "berry": "blueberry"
+          },
+          {
+            "type": "label",
+            "number": 58,
+            "shelf": {
+              "deck": 5,
+              "bowl": 8,
+              "lip": 0
+            },
+            "rack": null,
+            "berry": "raspberry"
+          }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "bos-berry-pantry", "de": "zweistellige-zahlen-in-zehner-und-einer-lesen-klasse-2", "fr": "lire-les-nombres-en-dizaines-et-unites-cp", "es": "leer-numeros-de-dos-cifras-decenas-y-unidades-primaria", "pt": "ler-numeros-dezenas-e-unidades-2-ano", "it": "valore-posizionale-decine-e-unita-con-bo-classe-seconda", "nl": "tweecijferige-getallen-in-tientallen-en-eenheden-lezen-groep-4" },
-    "page_title": { "en": "Bo's Berry Pantry — Tens and Ones the Smart Way", "de": "Zweistellige Zahlen lesen – Zehner und Einer (Klasse 2)", "fr": "Le garde-manger de Bo : lire les nombres en dizaines et unités (CP)", "es": "Leer números de dos cifras: decenas y unidades (1.º primaria)", "pt": "Dezenas e unidades: ler números de dois algarismos | 2º ano", "it": "Valore posizionale: decine e unità con Bo | Classe seconda", "nl": "Tientallen en eenheden lezen met Bo – plaatswaarde (groep 4)" },
-    "page_intro": { "en": "Bo the bunny is stocking his winter pantry, and a crate holds exactly ten berries — sealed up, you just KNOW it's a ten. Read Bo's pile or number, then sling his berries to the shelf that matches with the right crates and loose berries. Watch the crates crack open and count by tens! A warm Grade 1 place-value game about tens and ones, aligned to Common Core 1.NBT.B.2.", "de": "Zweistellige Zahlen lesen und in Zehner und Einer darstellen: Hilf Bo dem Hasen, Kisten und lose Beeren ins Regal zu sortieren – interaktiv, Klasse 2.", "fr": "Un jeu de maths CP, interactif : Bo le lapin remplit son garde-manger d'hiver, et une caisse contient exactement dix baies — scellée, on SAIT que c'est une dizaine. Lis le tas ou le nombre de Bo, puis lance ses baies sur l'étagère qui correspond, avec les bonnes caisses et les baies libres. Regarde les caisses s'ouvrir et compte en dizaines ! Un jeu tout doux sur les dizaines et les unités jusqu'à 100.", "es": "Lee números de dos cifras como decenas y unidades con Bo el conejo. Sin registro. 1.º de primaria, alineada a los Planes y programas de estudio (SEP).", "pt": "Ajude o Bo, o coelho, a arrumar a despensa de inverno: cada caixa guarda dez amoras, ou seja, uma dezena. Lendo números de dois algarismos, a criança escolhe a prateleira com as caixas (dezenas) e as amoras soltas (unidades) certas e vai construindo, de forma concreta, a ideia de valor posicional com valores até 85. Alinhada à BNCC na unidade temática Números do 2º ano, é uma atividade interativa, sem cronômetro e sem competição, no ritmo de cada criança.", "it": "Il coniglio Bo riordina la sua dispensa piena di more e ha bisogno di una mano: ogni cassetta contiene esattamente DIECI more, mentre le more sfuse restano da sole e valgono le unità. Il bambino legge un numero a due cifre, lo scompone in decine e unità e lancia le more sullo scaffale giusto — le cassette tra le decine, le more sfuse tra le unità. Giocando con la dispensa di Bo si impara il valore posizionale, a leggere e comporre i numeri fino a circa 85 e a capire la funzione dello zero, quando un numero come 40 o 70 è fatto di sole cassette e nessuna mora sfusa. Un’attività interattiva, senza registrazione, senza timer e senza punteggio, in cui contano solo la calma e la scoperta. Pensata per la classe seconda e allineata alle Indicazioni nazionali.", "nl": "Bo het konijn vult zijn voorraadkast. Een krat is altijd een tiental – tien bessen die je niet natelt – en losse bessen zijn de eenheden. Je leest een hoeveelheid, een getalwoord of een getal en schiet de bessen naar het juiste schap. Zo lees je tweecijferige getallen als tientallen en eenheden. Interactief, groep 4." },
+    "slug": {
+      "en": "bos-berry-pantry",
+      "de": "zweistellige-zahlen-in-zehner-und-einer-lesen-klasse-2",
+      "fr": "lire-les-nombres-en-dizaines-et-unites-cp",
+      "es": "leer-numeros-de-dos-cifras-decenas-y-unidades-primaria",
+      "pt": "ler-numeros-dezenas-e-unidades-2-ano",
+      "it": "valore-posizionale-decine-e-unita-con-bo-classe-seconda",
+      "nl": "tweecijferige-getallen-in-tientallen-en-eenheden-lezen-groep-4",
+      "sv": "tiotal-och-ental-bos-barskafferi-ak-1",
+      "da": "tiere-og-enere-bos-baerspisekammer-1-klasse",
+      "no": "tiere-og-enere-bos-baerspiskammer-1-trinn",
+      "fi": "kymmenet-ja-ykkoset-bon-marjakomero-1-lk"
+    },
+    "page_title": {
+      "en": "Bo's Berry Pantry — Tens and Ones the Smart Way",
+      "de": "Zweistellige Zahlen lesen – Zehner und Einer (Klasse 2)",
+      "fr": "Le garde-manger de Bo : lire les nombres en dizaines et unités (CP)",
+      "es": "Leer números de dos cifras: decenas y unidades (1.º primaria)",
+      "pt": "Dezenas e unidades: ler números de dois algarismos | 2º ano",
+      "it": "Valore posizionale: decine e unità con Bo | Classe seconda",
+      "nl": "Tientallen en eenheden lezen met Bo – plaatswaarde (groep 4)",
+      "sv": "Tiotal och ental i Bos bärskafferi (åk 1)",
+      "da": "Tiere og enere i Bos bærspisekammer (1. klasse)",
+      "no": "Tiere og enere i Bos bærspiskammer (1. trinn)",
+      "fi": "Kymmenet ja ykköset Bon marjakomerossa (1. lk)"
+    },
+    "page_intro": {
+      "en": "Bo the bunny is stocking his winter pantry, and a crate holds exactly ten berries — sealed up, you just KNOW it's a ten. Read Bo's pile or number, then sling his berries to the shelf that matches with the right crates and loose berries. Watch the crates crack open and count by tens! A warm Grade 1 place-value game about tens and ones, aligned to Common Core 1.NBT.B.2.",
+      "de": "Zweistellige Zahlen lesen und in Zehner und Einer darstellen: Hilf Bo dem Hasen, Kisten und lose Beeren ins Regal zu sortieren – interaktiv, Klasse 2.",
+      "fr": "Un jeu de maths CP, interactif : Bo le lapin remplit son garde-manger d'hiver, et une caisse contient exactement dix baies — scellée, on SAIT que c'est une dizaine. Lis le tas ou le nombre de Bo, puis lance ses baies sur l'étagère qui correspond, avec les bonnes caisses et les baies libres. Regarde les caisses s'ouvrir et compte en dizaines ! Un jeu tout doux sur les dizaines et les unités jusqu'à 100.",
+      "es": "Lee números de dos cifras como decenas y unidades con Bo el conejo. Sin registro. 1.º de primaria, alineada a los Planes y programas de estudio (SEP).",
+      "pt": "Ajude o Bo, o coelho, a arrumar a despensa de inverno: cada caixa guarda dez amoras, ou seja, uma dezena. Lendo números de dois algarismos, a criança escolhe a prateleira com as caixas (dezenas) e as amoras soltas (unidades) certas e vai construindo, de forma concreta, a ideia de valor posicional com valores até 85. Alinhada à BNCC na unidade temática Números do 2º ano, é uma atividade interativa, sem cronômetro e sem competição, no ritmo de cada criança.",
+      "it": "Il coniglio Bo riordina la sua dispensa piena di more e ha bisogno di una mano: ogni cassetta contiene esattamente DIECI more, mentre le more sfuse restano da sole e valgono le unità. Il bambino legge un numero a due cifre, lo scompone in decine e unità e lancia le more sullo scaffale giusto — le cassette tra le decine, le more sfuse tra le unità. Giocando con la dispensa di Bo si impara il valore posizionale, a leggere e comporre i numeri fino a circa 85 e a capire la funzione dello zero, quando un numero come 40 o 70 è fatto di sole cassette e nessuna mora sfusa. Un’attività interattiva, senza registrazione, senza timer e senza punteggio, in cui contano solo la calma e la scoperta. Pensata per la classe seconda e allineata alle Indicazioni nazionali.",
+      "nl": "Bo het konijn vult zijn voorraadkast. Een krat is altijd een tiental – tien bessen die je niet natelt – en losse bessen zijn de eenheden. Je leest een hoeveelheid, een getalwoord of een getal en schiet de bessen naar het juiste schap. Zo lees je tweecijferige getallen als tientallen en eenheden. Interactief, groep 4.",
+      "sv": "Bo fyller sitt skafferi: stängda lådor med tio bär i varje och lösa bär i en skål. Barnet skjuter lådor och bär upp på hyllan, skriver talet för en full hylla eller hänger upp skyltar för tiotal och ental. Vid kontrollen sträcks dörrskylten ut – 34 blir 30 och 4 – och lådorna räknas tio i taget. Tal upp till 99, i linje med Lgr22.",
+      "da": "Bo fylder sit spisekammer: lukkede kasser med ti bær i hver og løse bær i en skål. Barnet skyder kasser og bær op på hylden, skriver tallet for en fuld hylde eller hænger skilte op for tiere og enere. Når man tjekker, strækker dørskiltet sig ud – 34 bliver til 30 og 4 – og kasserne tælles i tiere. Tal op til 99, i tråd med Fælles Mål.",
+      "no": "Bo fyller spiskammeret sitt: lukkede kasser med ti bær i hver og løse bær i en bolle. Barnet skyter kasser og bær opp på hylla, skriver tallet for en full hylle eller henger opp skilt for tiere og enere. Når man sjekker, strekker dørskiltet seg ut – 34 blir til 30 og 4 – og kassene telles ti om gangen. Tall opp til 99, i tråd med LK20.",
+      "fi": "Bo täyttää komeroaan: suljetuissa laatikoissa on kymmenen marjaa kussakin, ja irtomarjat ovat kulhossa. Lapsi linkoaa laatikoita ja marjoja hyllylle, kirjoittaa täyden hyllyn luvun tai ripustaa kyltit kymmenille ja ykkösille. Tarkistettaessa ovikyltti venyy – 34 muuttuu muotoon 30 ja 4 – ja laatikot lasketaan kymmenen kerrallaan. Luvut 99 asti, perusopetuksen opetussuunnitelman (OPS 2014) mukaisesti."
+    },
     "kid_prompt_template": "slingshot-tens"
   }
 ]

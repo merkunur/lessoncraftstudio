@@ -665,25 +665,28 @@
     },
     "bos-berry-pantry.slingshot-tens.1-nbt-b-2": {
       "about": [
-        "Bo the bunny is stocking his winter pantry, where a sealed crate holds exactly ten berries — so a crate just is a ten. The child reads a pile of berries, a written numeral like 63, or a question such as 'how many is forty?', then slings the berries to the shelf showing the right number of crates (tens) and loose berries (ones). It's a Grade 1 place-value activity that plays in the browser with no sign-up.",
-        "Every shelf is a trap or a match, which is what builds real place-value sense. For 34 the choices include the true 3 tens and 4 ones, the digit-flipped 4 tens 3 ones, a near-miss with the wrong tens, and a value trap. Trickier rounds offer a regrouping trap (1 ten and 15 loose ones for 25) or ask the child to name a hoard of 8 tens and 5 ones as 85 — not 58 and not 805. The child must read the tens and ones, not just match digits.",
-        "It is aligned to Common Core 1.NBT.B.2 — understanding that the two digits of a two-digit number represent amounts of tens and ones. No timer, no score — just calm, playful practice."
+        "Bo the bunny is filling his pantry. On the shelf, sealed crates stand on the left (each crate holds exactly ten berries) and loose berries sit in a bowl of nine on the right. Above them hangs the door tag. In some rounds the child slings crates and berries onto the shelf to make the number on the tag; in others the shelf comes stocked and the child writes its number on two wheels, hangs a tens plaque and a ones plaque, or works out a shelf where berries have spilled out of the bowl.",
+        "On Check, the door tag stretches apart: 34 becomes 30 and 4, a hidden 0 rolls out behind the tens digit, and each part hangs over the crates or the bowl it counts. The crates are counted by tens and the loose berries by ones, and a part that does not match turns coral. So 4 crates and 3 berries for 34 shows a crate count of 40 under the 30. Ten loose berries are a crate: when a right total has spilled, Bo packs ten of them into a crate.",
+        "The order card can show numerals or number words, and the numbers go to 50 or to 99. After a second wrong try the crates open to show their ten berries each, and the loose berries are numbered. Aligned to Common Core 1.NBT.B.2. No timer and no score."
       ],
       "practices": [
-        "Reading a two-digit number as a count of tens and ones",
-        "Knowing that a sealed crate of ten berries stands for one ten",
-        "Catching digit-flip traps like 34 versus 43",
-        "Spotting that 1 ten and 15 loose ones is not yet tidied into the right tens and ones"
+        "Reading a two-digit number as tens and ones",
+        "Building a number from tens and ones, and writing the number for a set of tens and ones",
+        "Writing a number in expanded form, such as 34 = 30 + 4",
+        "Seeing that ten ones make a ten, that 13 is a ten and three ones, and that 70 is seven tens and no ones"
       ],
       "howToPlay": [
-        "Read Bo's pile, numeral, or question to find the number he needs.",
-        "Sling the berries to the shelf with the right crates (tens) and loose berries (ones), and watch the crates count by tens.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Read the task and the door tag.",
+        "To fill the shelf, tap the crates or the basket to load the sling, then pull the sling back and let go (or tap the same pile again). Tap the last crate or berry on the shelf to take it back.",
+        "To write a number, turn the two wheels with the arrows: tens on the left, ones on the right. To hang plaques, tap a plaque, then a hook.",
+        "Press Check and watch the tag stretch over the crates and the bowl. If a count turns coral, change that part and check again.",
+        "In the settings, choose the order card (numerals or number words) and the numbers (to 50 or to 99)."
       ],
       "learningGoals": [
-        "Understand a two-digit number as tens and ones — the focus of Common Core 1.NBT.B.2.",
-        "Tell true place value apart from digit-flip and grouping traps.",
-        "Build the bundling-by-ten sense that all later two-digit arithmetic rests on."
+        "Understand that the two digits of a two-digit number stand for tens and ones",
+        "Make a number from tens and ones and write the number they show",
+        "Write two-digit numbers in expanded form",
+        "Recognise a ten as ten ones, the teens as a ten and some ones, and decades as tens with no ones"
       ]
     },
     "bram-board-shop.length-word-problems.2-md-b-5": {

@@ -3929,23 +3929,28 @@
     },
     "bos-berry-pantry.slingshot-tens.1-nbt-b-2": {
       "about": [
-        "Bo le lapin remplit son garde-manger d'hiver, et une caisse scellée contient exactement dix baies — une dizaine qu'on ne peut pas compter, on SAIT juste que c'est dix. Ton enfant lit un tas de baies, un nombre ou un trésor, verrouille la bonne étagère — celle qui a les bonnes caisses (les dizaines) et les baies libres (les unités) — puis lance les baies de Bo. Les caisses s'ouvrent et on compte en dizaines !",
-        "Comprendre qu'un nombre à deux chiffres se lit en dizaines et en unités — « une caisse, c'est dix » — jusqu'à 100 est un attendu du CP. Le jeu se joue sans minuteur et sans points : l'enfant travaille la numération, dans le domaine « Nombres et calcul » des programmes officiels de l'école."
+        "Bo le lapin remplit son garde-manger. Sur l’étagère, des caisses fermées sont à gauche (chaque caisse contient exactement dix baies) et des baies en vrac sont dans un bol à neuf creux, à droite. Au-dessus pend la plaque de la porte. Dans certaines manches, l’enfant lance des caisses et des baies sur l’étagère pour faire le nombre de la plaque ; dans d’autres, l’étagère est déjà remplie, et l’enfant écrit son nombre avec deux roues, accroche une plaque des dizaines et une plaque des unités, ou retrouve le nombre d’une étagère où des baies sont tombées du bol.",
+        "Quand on vérifie, la plaque de la porte s’étire : 34 devient 30 et 4, un 0 caché sort derrière le chiffre des dizaines, et chaque partie se place au-dessus des caisses ou du bol qu’elle compte. Les caisses sont comptées de dix en dix, les baies en vrac une par une, et une partie qui ne correspond pas devient corail. Ainsi, 4 caisses et 3 baies pour 34 affichent 40 sous le 30. Dix baies en vrac font une caisse : quand le total est juste mais que des baies sont tombées, Bo en range dix dans une caisse.",
+        "La carte de commande peut montrer des chiffres ou des nombres en lettres, et les nombres vont jusqu’à 50 ou jusqu’à 99. Après une deuxième erreur, les caisses s’ouvrent et montrent leurs dix baies, et les baies en vrac sont numérotées. En lien avec les programmes officiels pour le domaine Nombres et calculs. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Lire un nombre à deux chiffres en dizaines et unités",
-        "Comprendre qu'une caisse (dizaine) vaut dix",
-        "Associer un tas ou un nombre à sa décomposition",
-        "Compter en dizaines jusqu'à 100"
+        "Lire un nombre à deux chiffres en dizaines et en unités",
+        "Construire un nombre avec des dizaines et des unités, et écrire le nombre qu’elles forment",
+        "Écrire un nombre sous forme décomposée, par exemple 34 = 30 + 4",
+        "Voir que dix unités font une dizaine, que 13 est une dizaine et trois unités, et que 70, c’est sept dizaines et zéro unité"
       ],
       "howToPlay": [
-        "Lis le tas ou le nombre de Bo, puis touche l'étagère qui correspond.",
-        "Lance les baies pour vérifier et ranger le garde-manger."
+        "Lis la consigne et la plaque de la porte.",
+        "Pour remplir l’étagère, touche les caisses ou le panier pour charger le lance-pierre, puis tire-le en arrière et lâche (ou touche de nouveau le même tas). Touche la dernière caisse ou la dernière baie de l’étagère pour la reprendre.",
+        "Pour écrire un nombre, tourne les deux roues avec les flèches : les dizaines à gauche, les unités à droite. Pour accrocher des plaques, touche une plaque, puis un crochet.",
+        "Appuie sur Vérifier et regarde la plaque s’étirer au-dessus des caisses et du bol. Si un compte devient corail, change cette partie et vérifie de nouveau.",
+        "Dans les réglages, choisis la carte de commande (en chiffres ou en lettres) et les nombres (jusqu’à 50 ou jusqu’à 99)."
       ],
       "learningGoals": [
-        "Lire les nombres à deux chiffres en dizaines et unités",
-        "Comprendre la dizaine (une caisse vaut dix)",
-        "Compter en dizaines jusqu'à 100"
+        "Comprendre que les deux chiffres d’un nombre à deux chiffres représentent des dizaines et des unités",
+        "Former un nombre avec des dizaines et des unités, et écrire le nombre obtenu",
+        "Écrire des nombres à deux chiffres sous forme décomposée",
+        "Reconnaître une dizaine comme dix unités, les nombres de 11 à 19 comme une dizaine et quelques unités, et les dizaines entières comme des dizaines sans unités"
       ]
     },
     "rivets-number-forge.numeral-album.k-cc-a-3": {

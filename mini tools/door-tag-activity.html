@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Bo’s Berry Pantry — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- Shell, the library pictures, the door-tag model, then this activity.
+       NOTE: bump ?v=N on EVERY change to door-tag-activity.js / door-tag-core.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  
+  <script src="/mini-tools/lcs-pictures.js?v=1"></script>
+  <script src="/mini-tools/door-tag-core.js?v=1"></script>
+  <script src="/mini-tools/door-tag-activity.js?v=1"></script>
+  <script>
+    LCS.mount(DoorTagActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

@@ -3441,6 +3441,32 @@
         "Att göra en modell av en räknehändelse och skriva ett räkneuttryck med det okända",
         "Att lösa uppgifter med lika stora grupper och delning"
       ]
+    },
+    "fix-it-corner.missing-part.1-oa-d-8": {
+      "about": [
+        "Varje trasig apparat på Fixits arbetsbänk har två mätare, en för varje sida av likhetstecknet. Under dem står en likhet som 9 + □ = 15, där ett tal fattas. Barnet sätter ett tal i den tomma rutan och drar i spaken: varje visare går igenom sin sida steg för steg, framåt vid addition och bakåt vid subtraktion, och apparaten fungerar bara när båda visarna stannar på samma tal.",
+        "Talet som fattas kan stå var som helst: svaret (8 + 5 = □ eller 16 − 7 = □), en term (9 + □ = 15), talet som tas bort (13 − □ = 8), starttalet (□ − 6 = 8) eller en del av en likhet med två sidor som 6 + 6 = □ + 4, där båda sidorna ska visa 12. Ett fel tal får mellanrummet mellan de två visarna att lysa; efter ett andra försök markerar mätaren stegen att räkna. Inget visar svaret innan man drar i spaken.",
+        "Inställningen ”Upp till 100” använder mest jämna tiotal, ett hopp på exakt tio (62 + □ = 72) och en kedja av tre tal. I linje med Lgr22, centralt innehåll om taluppfattning och tals användning. Utan tidtagning och utan poäng."
+      ],
+      "practices": [
+        "Att hitta det okända talet var det än står: svaret, en term, talet som tas bort eller starttalet",
+        "Att läsa likhetstecknet som ”båda sidorna visar samma tal”",
+        "Att räkna vidare och räkna bakåt från ett känt tal",
+        "Att göra båda sidorna lika i en likhet som 6 + 6 = □ + 4"
+      ],
+      "howToPlay": [
+        "Läs likheten under de två mätarna och hitta den tomma rutan.",
+        "Tryck på rutan och välj ett tal. Med ”Upp till 100” ställer du in tiotal och ental med pilarna.",
+        "Dra i spaken. Stannar båda visarna på samma tal fungerar apparaten.",
+        "Om inte, titta på mellanrummet mellan visarna, byt tal och dra igen. Tryck på en mätare för att se visaren gå igen.",
+        "I inställningarna väljer du talen (upp till 10, upp till 20 eller upp till 100) och när räknestigen visas (bara som hjälp eller alltid)."
+      ],
+      "learningGoals": [
+        "Att hitta det okända talet i en addition eller subtraktion, var det än står",
+        "Att förstå att båda sidorna av likhetstecknet visar lika mycket",
+        "Att räkna vidare eller bakåt för att hitta en del som fattas",
+        "Att göra två sidor med två tal var lika"
+      ]
     }
   }
 }

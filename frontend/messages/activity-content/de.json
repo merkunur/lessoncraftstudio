@@ -2612,25 +2612,28 @@
     },
     "fix-it-corner.missing-part.1-oa-d-8": {
       "about": [
-        "In „Fixits Reparatur-Ecke“ hilfst du dem kurzsichtigen Reparatur-Maulwurf Fixit, kaputte Geräte wieder zum Laufen zu bringen. Jedes Gerät zeigt eine Plus- oder Minusaufgabe, bei der genau ein Teil leuchtet wie eine leere Steckdose — das ist die fehlende Zahl. Steckst du die richtige Zahl hinein, surrt das Gerät zufrieden los. Mal füllst du ein Zehnerfeld bis zur 10, mal zählst du am Zahlenstrahl vorwärts oder rückwärts, mal bringst du eine Balkenwaage ins Gleichgewicht.",
-        "Dahinter steckt eine der wichtigsten Ideen des ersten Schuljahres: Die fehlende Zahl in einer Plus- oder Minusaufgabe kann an jeder Stelle stehen — sie kann die Summe sein, ein Summand, oder die Zahl, von der man wegnimmt. Mit den anschaulichen Geräten entdeckst du Umkehraufgaben und ganze Aufgabenfamilien, du lernst zu ergänzen („Wie viele fehlen noch?“) und du erlebst das Gleichheitszeichen als echtes Gleichgewicht — links muss genauso viel sein wie rechts.",
-        "Hier gibt es keine Uhr, die tickt, keine Punkte und keine Sterne. Wenn du eine Zahl wählst, die noch nicht passt, zeigt dir das Gerät ganz ruhig, was dann passiert, und Fixit rechnet es gemütlich mit dir gemeinsam vor. So darfst du in deinem eigenen Tempo ausprobieren, nachdenken und die fehlende Zahl finden. Diese Aktivität orientiert sich am Lehrplan der Grundschule, Leitidee „Zahlen und Operationen“."
+        "Jedes kaputte Gerät auf Fixits Werkbank hat zwei Anzeigen, eine für jede Seite des Gleichheitszeichens. Darunter steht eine Gleichung wie 9 + □ = 15, in der eine Zahl fehlt. Das Kind setzt eine Zahl in das leere Feld und zieht den Hebel: Jeder Zeiger läuft seine Seite Schritt für Schritt ab, vorwärts beim Dazutun und zurück beim Wegnehmen, und das Gerät läuft nur, wenn beide Zeiger auf derselben Zahl stehen bleiben.",
+        "Die fehlende Zahl kann überall stehen: das Ergebnis (8 + 5 = □ oder 16 − 7 = □), ein Summand (9 + □ = 15), die Zahl, die weggenommen wird (13 − □ = 8), die Startzahl (□ − 6 = 8) oder ein Teil einer Gleichung mit zwei Seiten wie 6 + 6 = □ + 4, bei der beide Seiten 12 zeigen müssen. Eine falsche Zahl lässt den Abstand zwischen den beiden Zeigern leuchten; nach einem zweiten Versuch markiert die Anzeige die Schritte zum Zählen. Vor dem Hebel verrät nichts die Lösung.",
+        "Die Einstellung „Bis 100“ nutzt meist glatte Zehner, einen Zehnersprung (62 + □ = 72) und eine Kette aus drei Zahlen. Passend zum Lehrplan im Bereich Zahlen und Operationen. Ohne Zeitdruck und ohne Punktwertung."
       ],
       "practices": [
-        "Die fehlende Zahl in Plus- und Minusaufgaben an jeder Stelle bestimmen",
-        "Umkehraufgaben und Aufgabenfamilien nutzen, um geschickt zu rechnen",
-        "Mit Zehnerfeld, Zahlenstrahl und Punktmengen anschaulich denken",
-        "Das Gleichheitszeichen als Gleichgewicht verstehen und Aufgaben überprüfen"
+        "Die fehlende Zahl an jeder Stelle finden: das Ergebnis, einen Summanden, die weggenommene Zahl oder die Startzahl",
+        "Das Gleichheitszeichen als „beide Seiten zeigen dieselbe Zahl“ lesen",
+        "Von einer bekannten Zahl aus weiterzählen und zurückzählen",
+        "Beide Seiten einer Gleichung wie 6 + 6 = □ + 4 gleich machen"
       ],
       "howToPlay": [
-        "Schau dir das kaputte Gerät an und finde die leuchtende, leere Stelle — dort fehlt eine Zahl.",
-        "Überlege mit dem Zehnerfeld, dem Zahlenstrahl oder der Waage, welche Zahl passt, und setze sie ein.",
-        "Passt sie, surrt das Gerät los. Passt sie noch nicht, schau dir an, was Fixit dir vorrechnet, und versuch es in Ruhe noch einmal."
+        "Lies die Gleichung unter den beiden Anzeigen und finde das leere Feld.",
+        "Tippe auf das Feld und wähle eine Zahl. Bei „Bis 100“ stellst du Zehner und Einer mit den Pfeilen ein.",
+        "Zieh den Hebel. Bleiben beide Zeiger auf derselben Zahl stehen, läuft das Gerät.",
+        "Wenn nicht, schau dir den Abstand zwischen den Zeigern an, ändere die Zahl und zieh noch einmal. Tippe auf eine Anzeige, um ihren Zeiger noch einmal laufen zu sehen.",
+        "In den Einstellungen wählst du die Zahlen (bis 10, bis 20 oder bis 100) und wann der Zählweg zu sehen ist (nur als Hilfe oder immer)."
       ],
       "learningGoals": [
-        "Ich kann die fehlende Zahl in einer Plus- oder Minusaufgabe finden, egal an welcher Stelle sie steht.",
-        "Ich kann Umkehraufgaben und Aufgabenfamilien verwenden, um eine Minusaufgabe über die passende Plusaufgabe zu lösen.",
-        "Ich verstehe, dass beide Seiten einer Aufgabe gleich viel sein müssen — wie eine Waage im Gleichgewicht."
+        "Die fehlende Zahl in einer Plus- oder Minusaufgabe finden, egal wo sie steht",
+        "Verstehen, dass beide Seiten des Gleichheitszeichens gleich viel zeigen",
+        "Weiter- oder zurückzählen, um einen fehlenden Teil zu finden",
+        "Zwei Seiten mit je zwei Zahlen gleich machen"
       ]
     },
     "twinsies.count-twin.k-cc-b-5": {

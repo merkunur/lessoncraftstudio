@@ -2645,6 +2645,32 @@
         "Å gjøre et usant regnestykke sant ved å endre ett tall",
         "Å finne tallet som mangler i et regnestykke som 8 + 4 = □ + 5"
       ]
+    },
+    "fix-it-corner.missing-part.1-oa-d-8": {
+      "about": [
+        "Hvert ødelagt apparat på Fixits arbeidsbenk har to målere, én for hver side av likhetstegnet. Under dem står et regnestykke som 9 + □ = 15, der ett tall mangler. Barnet setter et tall i den tomme ruta og trekker i spaken: Hver viser går gjennom siden sin ledd for ledd, framover ved pluss og tilbake ved minus, og apparatet virker bare når begge viserne stopper på samme tall.",
+        "Tallet som mangler kan stå hvor som helst: svaret (8 + 5 = □ eller 16 − 7 = □), et av leddene (9 + □ = 15), tallet som trekkes fra (13 − □ = 8), starttallet (□ − 6 = 8) eller en del av et regnestykke med to sider som 6 + 6 = □ + 4, der begge sidene skal vise 12. Et feil tall får mellomrommet mellom de to viserne til å lyse; etter et andre forsøk merker måleren stegene som skal telles. Ingenting viser svaret før man trekker i spaken.",
+        "Innstillingen «Til 100» bruker mest hele tiere, et hopp på nøyaktig ti (62 + □ = 72) og en kjede av tre tall. I tråd med LK20 om tall og regning. Uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Å finne det ukjente tallet uansett hvor det står: svaret, et av leddene, tallet som trekkes fra eller starttallet",
+        "Å lese likhetstegnet som «begge sidene viser samme tall»",
+        "Å telle videre og telle tilbake fra et kjent tall",
+        "Å gjøre begge sidene like i et regnestykke som 6 + 6 = □ + 4"
+      ],
+      "howToPlay": [
+        "Les regnestykket under de to målerne, og finn den tomme ruta.",
+        "Trykk på ruta og velg et tall. Med «Til 100» stiller du inn tiere og enere med pilene.",
+        "Trekk i spaken. Stopper begge viserne på samme tall, virker apparatet.",
+        "Hvis ikke, se på mellomrommet mellom viserne, bytt tall og trekk igjen. Trykk på en måler for å se viseren gå igjen.",
+        "I innstillingene velger du tallene (til 10, til 20 eller til 100) og når tellestien vises (bare som hjelp eller alltid)."
+      ],
+      "learningGoals": [
+        "Å finne det ukjente tallet i et pluss- eller minusstykke, uansett hvor det står",
+        "Å forstå at begge sidene av likhetstegnet viser like mye",
+        "Å telle videre eller tilbake for å finne en del som mangler",
+        "Å gjøre to sider med to tall hver like"
+      ]
     }
   }
 }

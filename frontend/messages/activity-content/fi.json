@@ -2639,6 +2639,32 @@
         "Tehdä väärästä väitteestä tosi muuttamalla yhtä lukua",
         "Löytää puuttuva luku yhtälöstä, kuten 8 + 4 = □ + 5"
       ]
+    },
+    "fix-it-corner.missing-part.1-oa-d-8": {
+      "about": [
+        "Jokaisella Fixitin työpöydän rikkinäisellä laitteella on kaksi mittaria, yksi yhtäsuuruusmerkin kummallekin puolelle. Niiden alla on lasku, kuten 9 + □ = 15, josta puuttuu yksi luku. Lapsi laittaa luvun tyhjään ruutuun ja vetää vivusta: kumpikin osoitin käy oman puolensa läpi askel kerrallaan, eteenpäin yhteenlaskussa ja taaksepäin vähennyslaskussa, ja laite toimii vain, kun molemmat osoittimet pysähtyvät samaan lukuun.",
+        "Puuttuva luku voi olla missä tahansa: tulos (8 + 5 = □ tai 16 − 7 = □), yhteenlaskettava (9 + □ = 15), pois otettava luku (13 − □ = 8), aloitusluku (□ − 6 = 8) tai osa kaksipuolista laskua, kuten 6 + 6 = □ + 4, jossa kummankin puolen pitää näyttää 12. Väärällä luvulla osoittimien väli syttyy valoon; toisen yrityksen jälkeen mittari merkitsee laskettavat askeleet. Mikään ei näytä vastausta ennen kuin vivusta vedetään.",
+        "Asetus ”100 asti” käyttää enimmäkseen tasakymmeniä, tasan kymmenen hyppyä (62 + □ = 72) ja kolmen luvun ketjua. Sopii opetussuunnitelman sisältöalueeseen Luvut ja laskutoimitukset. Ilman ajanottoa ja ilman pisteytystä."
+      ],
+      "practices": [
+        "Tuntemattoman luvun löytäminen missä kohdassa tahansa: tulos, yhteenlaskettava, pois otettava luku tai aloitusluku",
+        "Yhtäsuuruusmerkin lukeminen niin, että ”molemmat puolet näyttävät samaa lukua”",
+        "Eteenpäin ja taaksepäin laskeminen tutusta luvusta",
+        "Laskun, kuten 6 + 6 = □ + 4, molempien puolten tekeminen yhtä suuriksi"
+      ],
+      "howToPlay": [
+        "Lue lasku kahden mittarin alta ja etsi tyhjä ruutu.",
+        "Napauta ruutua ja valitse luku. Asetuksessa ”100 asti” säädät kymmenet ja ykköset nuolilla.",
+        "Vedä vivusta. Jos molemmat osoittimet pysähtyvät samaan lukuun, laite toimii.",
+        "Jos eivät, katso osoittimien väliä, vaihda lukua ja vedä uudelleen. Napauta mittaria, niin näet sen osoittimen uudelleen.",
+        "Asetuksista valitset luvut (10 asti, 20 asti tai 100 asti) ja sen, milloin laskupolku näkyy (vain apuna tai aina)."
+      ],
+      "learningGoals": [
+        "Löytää tuntematon luku yhteen- tai vähennyslaskusta, missä se onkin",
+        "Ymmärtää, että yhtäsuuruusmerkin molemmat puolet näyttävät yhtä paljon",
+        "Laskea eteenpäin tai taaksepäin puuttuvan osan löytämiseksi",
+        "Tehdä kahden luvun puolista yhtä suuret"
+      ]
     }
   }
 }

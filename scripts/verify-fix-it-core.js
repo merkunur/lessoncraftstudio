@@ -49,6 +49,8 @@
    "Measured, not eyeballed." Exit 0 = all pass; exit 1 = any failure.
    ===================================================================== */
 'use strict';
+/* Row 89 rebuild (2026-10-24): the row runs the Two Gauges (two-gauges-activity; gates verify-two-gauges-core.js + local-test-two-gauges.js) and no page loads the old Fix-It Corner files any more. */
+{ const _m = JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'fix-it-corner-activities.json'), 'utf8')); const _r = (Array.isArray(_m) ? _m : _m.activities).find(a => a.id === 'fix-it-corner.missing-part.1-oa-d-8'); if (_r && _r.tool !== 'fix-it-corner-activity') { console.log('verify-fix-it-core: the row runs the Two Gauges — see verify-two-gauges-core.js / local-test-two-gauges.js. Nothing to check here.'); process.exit(0); } }
 const fs = require('fs');
 const path = require('path');
 

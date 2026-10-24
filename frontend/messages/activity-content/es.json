@@ -821,25 +821,28 @@
     },
     "fix-it-corner.missing-part.1-oa-d-8": {
       "about": [
-        "En «El rincón de arreglos de Fixit» ayudas a Fixit, un topo reparador un poco cegatón, a echar a andar aparatos descompuestos. Cada aparato muestra una suma o una resta en la que un solo lugar brilla como un foco vacío: ahí está el número que falta. Si colocas el número correcto, el aparato arranca feliz. A veces llenas un marco de diez hasta el 10, a veces das brincos hacia adelante o hacia atrás en la recta numérica, y a veces equilibras una balanza.",
-        "Detrás de esto vive una de las ideas más importantes del primer grado: el número que falta en una suma o una resta puede estar en cualquier lugar —puede ser el resultado, un sumando o el número del que quitas—. Con estos aparatos tan claros descubres las familias de operaciones (si 3 más 4 es igual a 7, entonces 7 menos 4 es igual a 3), aprendes a completar («¿cuántos faltan?») y vives el signo igual como un verdadero equilibrio: los dos lados de la balanza valen lo mismo.",
-        "Aquí no hay reloj que corra, ni puntos, ni estrellas. Si eliges un número que todavía no cabe, el aparato te muestra con calma qué pasa, y Fixit lo resuelve contigo sin prisa. Así puedes probar, pensar y encontrar el número que falta a tu propio ritmo. La actividad está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para primer grado de primaria, dentro del eje de Sentido numérico."
+        "Cada aparato descompuesto en la mesa de trabajo de Fixit tiene dos medidores, uno para cada lado del signo igual. Debajo hay una igualdad como 9 + □ = 15, a la que le falta un número. El niño pone un número en la casilla vacía y jala la palanca: cada aguja recorre su lado paso a paso, hacia adelante al sumar y hacia atrás al restar, y el aparato solo funciona cuando las dos agujas se detienen en el mismo número.",
+        "El número que falta puede estar en cualquier lugar: el resultado (8 + 5 = □ o 16 − 7 = □), un sumando (9 + □ = 15), el número que se quita (13 − □ = 8), el número de inicio (□ − 6 = 8) o una parte de una igualdad con dos lados como 6 + 6 = □ + 4, donde los dos lados tienen que marcar 12. Un número equivocado ilumina el espacio entre las dos agujas; después de un segundo intento, el medidor marca los pasos que hay que contar. Nada muestra la respuesta antes de jalar la palanca.",
+        "La opción «Hasta 100» usa sobre todo decenas completas, un salto de exactamente diez (62 + □ = 72) y una cadena de tres números. En línea con los programas de estudio de la SEP (campo formativo Saberes y pensamiento científico). Sin cronómetro y sin puntaje."
       ],
       "practices": [
-        "Encontrar el número que falta en cualquier posición de una suma o una resta: el resultado, un sumando, el sustraendo o el minuendo.",
-        "Usar familias de operaciones para pensar en la suma y resolver la resta (si 3 más 4 es igual a 7, entonces 7 menos 4 es igual a 3).",
-        "Apoyarse en el marco de diez y en la recta numérica para completar hasta 10 y dar brincos hacia adelante o hacia atrás.",
-        "Leer el signo igual como un equilibrio: los dos lados de la balanza valen lo mismo."
+        "Encontrar el número desconocido en cualquier lugar: el resultado, un sumando, el número que se quita o el número de inicio",
+        "Leer el signo igual como «los dos lados marcan el mismo número»",
+        "Contar hacia adelante y hacia atrás desde un número conocido",
+        "Hacer iguales los dos lados de una igualdad como 6 + 6 = □ + 4"
       ],
       "howToPlay": [
-        "Observa el aparato descompuesto de Fixit: verás una operación con un foco vacío que brilla; ahí va el número que falta.",
-        "Usa la herramienta que aparece —el marco de diez, la recta numérica, el triángulo de la familia de operaciones o la balanza— para descubrir ese número.",
-        "Coloca el número en el foco vacío y comprueba que los dos lados queden en equilibrio. ¡Aparato reparado!"
+        "Lee la igualdad debajo de los dos medidores y busca la casilla vacía.",
+        "Toca la casilla y elige un número. En «Hasta 100», pon las decenas y las unidades con las flechas.",
+        "Jala la palanca. Si las dos agujas se detienen en el mismo número, el aparato funciona.",
+        "Si no, mira el espacio entre las agujas, cambia el número y vuelve a jalar. Toca un medidor para ver otra vez su aguja.",
+        "En la configuración eliges los números (hasta 10, hasta 20 o hasta 100) y cuándo se ve el camino para contar (solo como ayuda o siempre)."
       ],
       "learningGoals": [
-        "Comprender que, en una igualdad, el número que falta puede estar en cualquier lugar, no solo después del signo igual.",
-        "Reconocer la relación entre la suma y la resta dentro de una misma familia de operaciones, distinguiendo el todo y sus partes.",
-        "Entender que el signo igual significa «vale lo mismo de los dos lados» y no «aquí va la respuesta»."
+        "Encontrar el número desconocido en una suma o una resta, esté donde esté",
+        "Entender que los dos lados del signo igual marcan lo mismo",
+        "Contar hacia adelante o hacia atrás para encontrar una parte que falta",
+        "Hacer iguales dos lados de dos números cada uno"
       ]
     },
     "clunks-lost-lunch.make-total.k-oa-a-3": {

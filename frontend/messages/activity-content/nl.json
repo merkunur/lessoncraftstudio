@@ -1240,25 +1240,28 @@
     },
     "fix-it-corner.missing-part.1-oa-d-8": {
       "about": [
-        "Fixit de mol is een beetje bijziend, en in \"Fixits Reparatiehoekje\" help jij hem om kapotte apparaten weer aan de praat te krijgen. Elk apparaat laat een plus- of minsom zien waarbij precies één plekje oplicht — dat is het ontbrekende getal. Stop je het juiste getal erin, dan zoemt het apparaat tot leven. De ene keer vul je een tienveld tot 10, de andere keer tel je vooruit of achteruit op de getallenlijn, of breng je een balans in evenwicht.",
-        "Daarachter zit een van de belangrijkste ideeën van groep 3: het ontbrekende getal kan op elke plaats staan — de uitkomst, een van de getallen die je optelt, of het getal waar je iets vanaf haalt. Je ontdekt omkeersommen en rekenfamilies, je leert aanvullen en je ervaart het is-gelijk-teken als een echt evenwicht.",
-        "Geen klok, geen punten, geen sterren. Bij een verkeerd getal laat het apparaat rustig zien wat er gebeurt, en Fixit rekent gezellig met je mee. Je bepaalt zelf je tempo. Deze activiteit sluit aan bij de SLO-kerndoelen voor rekenen voor groep 3."
+        "Elk kapot apparaat op Fixits werkbank heeft twee meters, één voor elke kant van het is-gelijkteken. Daaronder staat een som zoals 9 + □ = 15, waarin één getal ontbreekt. Het kind zet een getal in het lege vakje en trekt aan de hendel: elke wijzer loopt zijn kant stap voor stap af, vooruit bij erbij doen en terug bij eraf halen, en het apparaat doet het alleen als beide wijzers op hetzelfde getal stoppen.",
+        "Het ontbrekende getal kan overal staan: de uitkomst (8 + 5 = □ of 16 − 7 = □), een getal dat erbij komt (9 + □ = 15), het getal dat eraf gaat (13 − □ = 8), het begingetal (□ − 6 = 8) of een deel van een som met twee kanten zoals 6 + 6 = □ + 4, waarbij beide kanten 12 moeten aanwijzen. Bij een verkeerd getal licht het verschil tussen de twee wijzers op; na een tweede poging laat de meter de stapjes zien om te tellen. Vóór de hendel verraadt niets het antwoord.",
+        "De instelling „Tot 100” gebruikt vooral hele tientallen, een sprong van precies tien (62 + □ = 72) en een ketting van drie getallen. Passend bij de kerndoelen voor getallen. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Het ontbrekende getal op elke plaats bepalen",
-        "Omkeersommen en rekenfamilies gebruiken",
-        "Aanschouwelijk denken met tienveld, getallenlijn en stippen",
-        "Het is-gelijk-teken als evenwicht begrijpen en je som controleren"
+        "Het ontbrekende getal op elke plek vinden: de uitkomst, een getal dat erbij komt, het getal dat eraf gaat of het begingetal",
+        "Het is-gelijkteken lezen als „beide kanten wijzen hetzelfde getal aan”",
+        "Doortellen en terugtellen vanaf een bekend getal",
+        "Beide kanten van een som zoals 6 + 6 = □ + 4 gelijk maken"
       ],
       "howToPlay": [
-        "Zoek het lege vakje dat oplicht",
-        "Bedenk met het tienveld, de getallenlijn of de balans welk getal past en stop het erin",
-        "Past het → dan zoemt het tot leven; past het nog niet → kijk wat Fixit voordoet en probeer het rustig nog een keer"
+        "Lees de som onder de twee meters en zoek het lege vakje.",
+        "Tik op het vakje en kies een getal. Bij „Tot 100” zet je de tientallen en de eenheden met de pijltjes.",
+        "Trek aan de hendel. Stoppen beide wijzers op hetzelfde getal, dan doet het apparaat het.",
+        "Zo niet, kijk dan naar het verschil tussen de wijzers, verander het getal en trek opnieuw. Tik op een meter om de wijzer nog eens te zien lopen.",
+        "In de instellingen kies je de getallen (tot 10, tot 20 of tot 100) en wanneer het telpad te zien is (alleen als hulp of altijd)."
       ],
       "learningGoals": [
-        "Ik kan het ontbrekende getal vinden, op elke plaats",
-        "Ik kan een omkeersom of rekenfamilie gebruiken om een minsom via de plussom op te lossen",
-        "Ik begrijp dat beide kanten even veel moeten zijn — net als een balans in evenwicht"
+        "Het ontbrekende getal in een plus- of minsom vinden, waar het ook staat",
+        "Begrijpen dat beide kanten van het is-gelijkteken evenveel aanwijzen",
+        "Doortellen of terugtellen om een ontbrekend deel te vinden",
+        "Twee kanten met elk twee getallen gelijk maken"
       ]
     },
     "clunks-lost-lunch.make-total.k-oa-a-3": {

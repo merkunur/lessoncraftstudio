@@ -2746,6 +2746,32 @@
         "At skrive tocifrede tal i udfoldet form",
         "At genkende en tier som ti enere, tallene 11–19 som en tier og nogle enere og hele tiere som tiere uden enere"
       ]
+    },
+    "bundle-bot.bundle-machine.1-nbt-b-2-a": {
+      "about": [
+        "Robotten Bolt har en maskine, der bundter klodser, men kun barnet kan trække i håndtaget. Fra en tragt falder små bunker af klodser ned på en presseplade. Når barnet trækker i håndtaget, lægger et bånd med præcis ti lommer sig om de løse klodser. Med ti klodser bliver det fuldt og lukker sig til én tier, som ruller hen på stativet. Med færre springer båndet op, og som regel viser det først sine tomme lommer. Med flere tager det ti og skubber resten ud igen.",
+        "I de fleste runder bygger barnet et tal, for eksempel 34 af 3 tiere og 4 løse klodser. Én runde begynder med ni klodser, der ser ud som ti; i en anden falder klodserne tre ad gangen, så det bliver flere end ti. I runden, hvor en tier skal åbnes, trykker barnet på saksen for at klippe en tier op i ti løse klodser – og tallet er det samme. Andre runder spørger, hvor mange klodser der er, eller barnet bundter alle tiere og skriver tiere og enere. Når man tjekker, tæller Bolt tierne i tiere og så de løse klodser; ti løse klodser på pladen er en tier, der endnu ikke er bundtet.",
+        "Tallene går op til 49 eller 99, og båndet kan vise sine tomme lommer eller bare springe op. Efter et forkert forsøg får tierne mærkerne 10, 20, 30. Efter det andet får de løse klodser også numre, og i de runder, hvor barnet bygger et tal, deler talkortet sig i tiere og enere. I tråd med Fælles Mål for tal og algebra. Uden tidtagning og uden point."
+      ],
+      "practices": [
+        "At bundte ti enere til én tier",
+        "At bygge tocifrede tal med så mange tiere som muligt",
+        "At åbne en tier til ti enere, uden at tallet ændrer sig",
+        "At læse et tal som tiere og enere, også en tier med flere end ti enere"
+      ],
+      "howToPlay": [
+        "Læs opgaven og talkortet.",
+        "Tryk på tragten, så falder der klodser ned på pladen. Tryk på minusknappen for at tage én tilbage.",
+        "Træk i håndtaget, når du tror, der ligger præcis ti løse klodser. For at klippe en tier op i ti løse klodser trykker du på saksen.",
+        "Spørger opgaven efter et tal, skriver du det på tastaturet, eller du trykker på Tiere eller Enere og så på cifferet. Tryk derefter på Tjek.",
+        "I indstillingerne vælger du tallene (op til 49 eller op til 99), og hvad båndet gør, når det ikke kan lukke sig (vise de tomme lommer eller bare springe op)."
+      ],
+      "learningGoals": [
+        "At forstå, at ti enere bliver til én tier",
+        "At vise et tocifret tal med tiere og enere",
+        "At se, at en tier kan åbnes til ti enere, og at tallet er det samme",
+        "At genkende hele tiere som tiere uden enere"
+      ]
     }
   }
 }

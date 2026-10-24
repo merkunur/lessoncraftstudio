@@ -23,6 +23,8 @@
      #9 6 DISTINCT COGS by `cog` with a BLOCKLIST; non-monotonic within 20-49.
    ===================================================================== */
 'use strict';
+/* Row 94 rebuild (2026-10-24): the row runs the Ten-Pocket Band (ten-band-activity; gates verify-ten-band-core.js + local-test-ten-band.js) and no page loads the old Bundle Bot files any more. */
+{ const _m = JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'bundle-bot-activities.json'), 'utf8')); const _r = (Array.isArray(_m) ? _m : _m.activities).find(a => a.id === 'bundle-bot.bundle-machine.1-nbt-b-2-a'); if (_r && _r.tool !== 'bundle-bot-activity') { console.log('verify-bundle-machine-core: the row runs the Ten-Pocket Band — see verify-ten-band-core.js / local-test-ten-band.js. Nothing to check here.'); process.exit(0); } }
 const fs = require('fs');
 const path = require('path');
 

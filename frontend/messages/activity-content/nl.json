@@ -3024,25 +3024,28 @@
     },
     "bundle-bot.bundle-machine.1-nbt-b-2-a": {
       "about": [
-        "Bolt de robot verzamelt losse eenheden op een lopende band, en pas als er precies tien liggen, mag je kind aan de hendel trekken: klik — tien losse worden één tiental.",
-        "Al bundelend en ontbundelend ontdekt je kind hoe een getal tot 49 is opgebouwd uit tientallen en eenheden.",
-        "Warm en zonder tijdsdruk: gewoon zelf ontdekken hoe tien losse eenheden samen één tiental vormen."
+        "Robot Bolt heeft een machine die blokjes bundelt, maar alleen het kind kan aan de hendel trekken. Uit een trechter vallen kleine hoopjes blokjes op een persplaat. Trekt het kind aan de hendel, dan slaat een band met precies tien vakjes om de losse blokjes. Met tien blokjes is hij vol en klikt hij dicht tot één tiental, dat naar het rek rolt. Met minder springt de band open, en meestal laat hij eerst zijn lege vakjes zien. Met meer neemt hij er tien en duwt hij de rest terug.",
+        "In de meeste rondes maakt het kind een getal, bijvoorbeeld 34 met 3 tientallen en 4 losse blokjes. Eén ronde begint met negen blokjes die eruitzien als tien; in een andere vallen de blokjes per drie, zodat het over de tien gaat. In de ronde waarin je een tiental opent, tikt het kind op de schaar, en een tiental valt uiteen in tien losse blokjes – het getal blijft hetzelfde. Andere rondes vragen hoeveel blokjes het zijn, of het kind bundelt alle tientallen en vult de tientallen en eenheden in. Bij het controleren telt Bolt de tientallen met sprongen van tien en daarna de losse blokjes; tien losse blokjes op de plaat zijn een tiental dat nog gebundeld moet worden.",
+        "De getallen gaan tot 49 of tot 99, en de band kan zijn lege vakjes laten zien of gewoon openspringen. Na een foute poging krijgen de tientallen de labels 10, 20, 30. Na de tweede krijgen ook de losse blokjes een nummer, en in de rondes waarin het kind een getal maakt, splitst het getallenkaartje zich in tientallen en eenheden. Passend bij de kerndoelen voor getallen. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Tien losse eenheden bundelen tot één tiental en zo getallen van 20 tot 49 opbouwen",
-        "Een tiental weer ontbundelen tot tien losse eenheden",
-        "Een rond getal leggen, zoals 40, met alleen volle tientallen",
-        "De stand aflezen als 'X tientallen en Y eenheden' en de nep-bundel met maar negen eenheden ontdekken"
+        "Tien eenheden bundelen tot één tiental",
+        "Getallen van twee cijfers leggen met zoveel mogelijk tientallen",
+        "Een tiental openen in tien eenheden zonder dat het getal verandert",
+        "Een getal lezen in tientallen en eenheden, ook een tiental met meer dan tien eenheden"
       ],
       "howToPlay": [
-        "Leg losse eenheden op de band van Bolt en tel mee tot er tien liggen.",
-        "Trek aan de hendel om de tien losse eenheden te bundelen tot één tiental.",
-        "Lees af hoeveel 'tientallen en eenheden' je nu hebt en tik op Controleer."
+        "Lees de opdracht en het getallenkaartje.",
+        "Tik op de trechter om blokjes op de plaat te laten vallen. Met de minknop haal je er één terug.",
+        "Trek aan de hendel als je denkt dat er precies tien losse blokjes liggen. Om een tiental open te knippen in tien losse blokjes, tik je op de schaar.",
+        "Vraagt de opdracht om een getal, typ het dan op het toetsenblok, of tik op Tientallen of Eenheden en dan op het cijfer. Druk daarna op Controleer.",
+        "In de instellingen kies je de getallen (tot 49 of tot 99) en wat de band doet als hij niet dicht kan (de lege vakjes laten zien of gewoon openspringen)."
       ],
       "learningGoals": [
-        "Begrijpen dat tien losse eenheden samen precies één tiental vormen",
-        "Zien dat een getal onder de 50 is opgebouwd uit tientallen en eenheden — de basis van plaatswaarde",
-        "Vlot heen en weer schakelen tussen bundelen en ontbundelen, en zo de plaatswaarde van elk cijfer herkennen (groep 4)"
+        "Begrijpen dat tien eenheden samen één tiental zijn",
+        "Een getal van twee cijfers laten zien met tientallen en eenheden",
+        "Zien dat je een tiental in tien eenheden kunt openen en dat het getal hetzelfde blijft",
+        "De ronde tientallen herkennen als tientallen zonder eenheden"
       ]
     },
     "line-plot.read.2-md-d-9": {

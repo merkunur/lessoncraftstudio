@@ -2746,6 +2746,32 @@
         "Kaksinumeroisten lukujen kirjoittaminen hajotelmana",
         "Kympin tunnistaminen kymmeneksi ykköseksi, lukujen 11–19 tunnistaminen yhdeksi kympiksi ja muutamaksi ykköseksi ja tasakymmenten tunnistaminen kympeiksi ilman ykkösiä"
       ]
+    },
+    "bundle-bot.bundle-machine.1-nbt-b-2-a": {
+      "about": [
+        "Robotti Boltilla on kone, joka niputtaa kuutioita, mutta vain lapsi voi vetää sen vivusta. Suppilosta putoaa pieniä kuutiokasoja puristuslevylle. Kun lapsi vetää vivusta, nauha, jossa on tasan kymmenen taskua, kiertyy irrallisten kuutioiden ympärille. Kymmenellä kuutiolla se täyttyy ja napsahtaa kiinni yhdeksi kympiksi, joka vierii telineeseen. Vähemmällä nauha ponnahtaa auki, ja yleensä se näyttää ensin tyhjät taskunsa. Useammalla se ottaa kymmenen ja työntää loput takaisin.",
+        "Useimmilla kierroksilla lapsi rakentaa luvun, esimerkiksi luvun 34 kolmesta kympistä ja neljästä irrallisesta kuutiosta. Yksi kierros alkaa yhdeksällä kuutiolla, jotka näyttävät kymmeneltä; toisella kuutioita putoaa kolme kerrallaan, joten kymmenen ylittyy. Kierroksella, jolla kymppi avataan, lapsi napauttaa saksinappia, ja kymppi aukeaa kymmeneksi irralliseksi kuutioksi – luku pysyy samana. Muilla kierroksilla kysytään, montako kuutiota on, tai lapsi niputtaa kaikki kympit ja kirjoittaa kympit ja ykköset. Tarkistettaessa Bolt laskee kympit kymmenen kerrallaan ja sitten irralliset kuutiot; kymmenen irrallista kuutiota levyllä on kymppi, joka odottaa vielä niputtamista.",
+        "Luvut ulottuvat 49:ään tai 99:ään, ja nauha voi näyttää tyhjät taskunsa tai vain ponnahtaa auki. Väärän yrityksen jälkeen kympit saavat merkit 10, 20, 30. Toisen jälkeen myös irralliset kuutiot numeroidaan, ja kierroksilla, joilla lapsi rakentaa luvun, lukukortti jakautuu kymppeihin ja ykkösiin. Sopii opetussuunnitelman sisältöalueeseen Luvut ja laskutoimitukset. Ilman ajanottoa ja ilman pisteytystä."
+      ],
+      "practices": [
+        "Kymmenen ykkösen niputtaminen yhdeksi kympiksi",
+        "Kaksinumeroisten lukujen rakentaminen mahdollisimman monesta kympistä",
+        "Kympin avaaminen kymmeneksi ykköseksi niin, ettei luku muutu",
+        "Kympeistä ja ykkösistä koostuvan luvun lukeminen, myös kun ykkösiä on yli kymmenen"
+      ],
+      "howToPlay": [
+        "Lue tehtävä ja lukukortti.",
+        "Napauta suppiloa, niin kuutioita putoaa levylle. Miinusnapista saat yhden takaisin.",
+        "Vedä vivusta, kun uskot, että irrallisia kuutioita on tasan kymmenen. Kun haluat avata kympin kymmeneksi irralliseksi kuutioksi, napauta saksinappia.",
+        "Jos tehtävässä kysytään lukua, kirjoita se näppäimistöllä, tai napauta kohtaa Kympit tai Ykköset ja sitten numeroa. Paina sitten Tarkista.",
+        "Asetuksista valitset luvut (49 asti tai 99 asti) ja sen, mitä nauha tekee, kun se ei mene kiinni (näyttää tyhjät taskut tai vain ponnahtaa auki)."
+      ],
+      "learningGoals": [
+        "Sen ymmärtäminen, että kymmenen ykköstä on yksi kymppi",
+        "Kaksinumeroisen luvun esittäminen kymppeinä ja ykkösinä",
+        "Sen huomaaminen, että kympin voi avata kymmeneksi ykköseksi ja luku pysyy samana",
+        "Tasakymmenten tunnistaminen kympeiksi ilman ykkösiä"
+      ]
     }
   }
 }

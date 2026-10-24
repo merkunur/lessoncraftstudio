@@ -1,26 +1,262 @@
 [
   {
     "id": "bundle-bot.bundle-machine.1-nbt-b-2-a",
-    "tool": "bundle-bot-activity",
+    "tool": "ten-band-activity",
     "task_template": "bundle-machine",
-    "alignment": { "framework": "CCSS", "code": "1.NBT.B.2.a", "grade": "1", "strand": "Number & Operations in Base Ten" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "1.NBT.B.2.a",
+      "grade": "1",
+      "strand": "Number & Operations in Base Ten"
+    },
     "params": {
-      "rounds": [
-        { "id": "build-twenty-three", "cog": "build", "band": 1, "target": 23, "clumpSizes": [1, 2, 3] },
-        { "id": "build-thirty-four", "cog": "build", "band": 1, "target": 34, "clumpSizes": [1, 2, 3] },
-        { "id": "unbundle-thirty-two", "cog": "unbundle", "band": 2, "target": 32, "start": { "tens": 3, "ones": 2 }, "solveTens": 2, "solveOnes": 12 },
-        { "id": "impostor-twenty-nine", "cog": "impostor", "band": 2, "target": 29, "impostorOnes": 9, "clumpSizes": [1, 2, 3] },
-        { "id": "decade-forty", "cog": "decade", "band": 2, "target": 40, "clumpSizes": [1, 2, 3] },
-        { "id": "read-state-twenty-four", "cog": "read-state", "band": 1, "target": 24, "start": { "tens": 2, "ones": 3 }, "clumpSizes": [1, 2, 3] },
-        { "id": "overfill-thirty-six", "cog": "overfill", "band": 3, "target": 36, "clumpSizes": [3] },
-        { "id": "build-forty-five", "cog": "build", "band": 2, "target": 45, "clumpSizes": [1, 2, 3] },
-        { "id": "build-twenty-seven", "cog": "build", "band": 1, "target": 27, "clumpSizes": [1, 2, 3] }
-      ]
+      "note": "A mirror of ten-band-core.js (every round of both ranges: the type, the target, the start rack and plate, the hopper clumps). The core is the source; this row runs the Ten-Pocket Band.",
+      "ranges": [
+        "49",
+        "99"
+      ],
+      "rounds": {
+        "49": [
+          {
+            "type": "build",
+            "target": 23,
+            "rack": 0,
+            "plate": 0,
+            "clumps": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "type": "build",
+            "target": 34,
+            "rack": 0,
+            "plate": 0,
+            "clumps": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "type": "unbundle",
+            "target": 32,
+            "rack": 3,
+            "plate": 2,
+            "clumps": []
+          },
+          {
+            "type": "impostor",
+            "target": 29,
+            "rack": 1,
+            "plate": 9,
+            "clumps": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "type": "decade",
+            "target": 40,
+            "rack": 0,
+            "plate": 0,
+            "clumps": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "type": "read",
+            "target": 24,
+            "rack": 2,
+            "plate": 4,
+            "clumps": []
+          },
+          {
+            "type": "overfill",
+            "target": 36,
+            "rack": 0,
+            "plate": 0,
+            "clumps": [
+              3
+            ]
+          },
+          {
+            "type": "build",
+            "target": 45,
+            "rack": 0,
+            "plate": 0,
+            "clumps": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "type": "build",
+            "target": 27,
+            "rack": 0,
+            "plate": 0,
+            "clumps": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "type": "tens",
+            "target": 37,
+            "rack": 0,
+            "plate": 37,
+            "clumps": []
+          },
+          {
+            "type": "read",
+            "target": 25,
+            "rack": 1,
+            "plate": 15,
+            "clumps": []
+          }
+        ],
+        "99": [
+          {
+            "type": "build",
+            "target": 58,
+            "rack": 0,
+            "plate": 0,
+            "clumps": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "type": "build",
+            "target": 63,
+            "rack": 0,
+            "plate": 0,
+            "clumps": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "type": "decade",
+            "target": 70,
+            "rack": 0,
+            "plate": 0,
+            "clumps": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "type": "unbundle",
+            "target": 51,
+            "rack": 5,
+            "plate": 1,
+            "clumps": []
+          },
+          {
+            "type": "impostor",
+            "target": 79,
+            "rack": 6,
+            "plate": 9,
+            "clumps": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "type": "read",
+            "target": 75,
+            "rack": 7,
+            "plate": 5,
+            "clumps": []
+          },
+          {
+            "type": "overfill",
+            "target": 47,
+            "rack": 0,
+            "plate": 0,
+            "clumps": [
+              3
+            ]
+          },
+          {
+            "type": "tens",
+            "target": 46,
+            "rack": 0,
+            "plate": 46,
+            "clumps": []
+          },
+          {
+            "type": "read",
+            "target": 64,
+            "rack": 5,
+            "plate": 14,
+            "clumps": []
+          },
+          {
+            "type": "build",
+            "target": 81,
+            "rack": 0,
+            "plate": 0,
+            "clumps": [
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      }
     },
     "theme": null,
-    "slug": { "en": "bundle-bot", "de": "stellenwert-zehner-und-einer-buendeln-klasse-2", "fr": "dizaines-et-unites-grouper-par-dix-cp", "es": "valor-posicional-agrupar-decenas-y-unidades-1-primaria", "pt": "valor-posicional-agrupar-dezenas-e-unidades-1-ano", "it": "valore-posizionale-decine-e-unita-raggruppare-il-cambio-classe-seconda", "nl": "tientallen-en-eenheden-bundelen-plaatswaarde-groep-4", "sv": "tio-ental-blir-ett-tiotal-och-tillbaka" },
-    "page_title": { "en": "Bundle Bot — Make a Ten from Ten Ones", "de": "Bolt bündelt Zehner — Stellenwert: Zehner und Einer (Klasse 2)", "fr": "Bolt fait des dizaines : grouper par dix, dizaines et unités (CP)", "es": "Bolt agrupa decenas — valor posicional: decenas y unidades (1.º primaria)", "pt": "Bolt agrupa dezenas: valor posicional, dezenas e unidades (1º ano)", "it": "Bolt il robot — valore posizionale: decine e unità (classe seconda)", "nl": "Bolt bundelt tientallen — plaatswaarde: tientallen en eenheden (groep 4)", "sv": "Bults buntmaskin – tio ental blir ett tiotal, och tillbaka igen (åk 2)" },
-    "page_intro": { "en": "Bundle Bot is an eager little robot who LOVES tidying loose ones into neat tens — but he can't bundle without you! Count the loose ones, and when it's exactly ten, pull the lever to clunk them into one neat ten. Build numbers up to forty-nine the smart way. A warm Grade 1 place-value game about bundling tens, aligned to Common Core 1.NBT.B.2.a.", "de": "Hilf Roboter Bolt, Einer zu Zehnern zu bündeln und zweistellige Zahlen aus Zehnern und Einern zu bauen. Stellenwert üben – interaktiv, Mathe Klasse 2.", "fr": "Groupe par dix avec Bolt le robot : construis les nombres de 20 à 49 avec des dizaines et des unités. Jeu de numération interactif pour le CP.", "es": "Bolt agrupa decenas: suelta unidades, cuenta diez y agrúpalas en una decena para formar números de 20 a 49 con decenas y unidades. Practica el valor posicional — agrupar y desagrupar. Juego interactivo de primer grado, sin registro, alineado a los Planes y programas de estudio (SEP).", "pt": "Com o robô Bolt, a criança agrupa dez unidades em uma dezena e compõe números por valor posicional (dezenas e unidades). Interativo, para o 1º ano.", "it": "Bolt il robot adora mettere in ordine i numeri, ma senza di te non può fare nulla! Metti le unità sciolte una alla volta, contale e, quando arrivi a dieci, tira la leva per raggrupparle in una decina. Così costruisci numeri da 20 a 49 con le loro decine e unità, e se vuoi puoi anche disfare una decina per tornare alle unità sciolte. Giocando, il bambino scopre il valore posizionale e impara a comporre e scomporre numeri a due cifre, capendo il momento del cambio. È un'attività senza registrazione, che si apre direttamente nel browser, allineata alle Indicazioni nazionali, nel nucleo Numeri. Pensata per la classe seconda: nessun punteggio, nessun cronometro, solo il tempo giusto per capire.", "nl": "Bolt de robot bundelt losse eenheden tot tientallen: zodra er precies tien losse blokjes op de band liggen, trekt je kind aan de hendel en worden ze samen één tiental. Zo bouwt je kind zelf getallen tot ongeveer 49 op uit tientallen en eenheden, haalt een tiental weer uit elkaar en leest hardop af hoeveel tientallen en eenheden er zijn. Deze interactieve activiteit oefent het plaatswaardebegrip op een speelse manier en sluit aan bij de SLO-kerndoelen voor rekenen in groep 4.", "sv": "Roboten Bult buntar inte utan dig: lägg i ental ett i taget, räkna till tio och dra i spaken. Tryck på ett tiotal för att lösa upp det igen. Åk 2 enligt Lgr22." },
+    "slug": {
+      "en": "bundle-bot",
+      "de": "stellenwert-zehner-und-einer-buendeln-klasse-2",
+      "fr": "dizaines-et-unites-grouper-par-dix-cp",
+      "es": "valor-posicional-agrupar-decenas-y-unidades-1-primaria",
+      "pt": "valor-posicional-agrupar-dezenas-e-unidades-1-ano",
+      "it": "valore-posizionale-decine-e-unita-raggruppare-il-cambio-classe-seconda",
+      "nl": "tientallen-en-eenheden-bundelen-plaatswaarde-groep-4",
+      "sv": "tio-ental-blir-ett-tiotal-och-tillbaka",
+      "da": "bolts-bundtemaskine-ti-enere-bliver-en-tier-1-klasse",
+      "no": "bolts-buntemaskin-ti-enere-blir-en-tier-1-trinn",
+      "fi": "boltin-nippukone-kymmenen-ykkosta-on-kymppi-1-lk"
+    },
+    "page_title": {
+      "en": "Bundle Bot — Make a Ten from Ten Ones",
+      "de": "Bolt bündelt Zehner — Stellenwert: Zehner und Einer (Klasse 2)",
+      "fr": "Bolt fait des dizaines : grouper par dix, dizaines et unités (CP)",
+      "es": "Bolt agrupa decenas — valor posicional: decenas y unidades (1.º primaria)",
+      "pt": "Bolt agrupa dezenas: valor posicional, dezenas e unidades (1º ano)",
+      "it": "Bolt il robot — valore posizionale: decine e unità (classe seconda)",
+      "nl": "Bolt bundelt tientallen — plaatswaarde: tientallen en eenheden (groep 4)",
+      "sv": "Bults buntmaskin – tio ental blir ett tiotal, och tillbaka igen (åk 2)",
+      "da": "Bolts bundtemaskine – ti enere bliver til en tier (1. klasse)",
+      "no": "Bolts buntemaskin – ti enere blir én tier (1. trinn)",
+      "fi": "Boltin nippukone – kymmenen ykköstä on yksi kymppi (1. lk)"
+    },
+    "page_intro": {
+      "en": "Bundle Bot is an eager little robot who LOVES tidying loose ones into neat tens — but he can't bundle without you! Count the loose ones, and when it's exactly ten, pull the lever to clunk them into one neat ten. Build numbers up to forty-nine the smart way. A warm Grade 1 place-value game about bundling tens, aligned to Common Core 1.NBT.B.2.a.",
+      "de": "Hilf Roboter Bolt, Einer zu Zehnern zu bündeln und zweistellige Zahlen aus Zehnern und Einern zu bauen. Stellenwert üben – interaktiv, Mathe Klasse 2.",
+      "fr": "Groupe par dix avec Bolt le robot : construis les nombres de 20 à 49 avec des dizaines et des unités. Jeu de numération interactif pour le CP.",
+      "es": "Bolt agrupa decenas: suelta unidades, cuenta diez y agrúpalas en una decena para formar números de 20 a 49 con decenas y unidades. Practica el valor posicional — agrupar y desagrupar. Juego interactivo de primer grado, sin registro, alineado a los Planes y programas de estudio (SEP).",
+      "pt": "Com o robô Bolt, a criança agrupa dez unidades em uma dezena e compõe números por valor posicional (dezenas e unidades). Interativo, para o 1º ano.",
+      "it": "Bolt il robot adora mettere in ordine i numeri, ma senza di te non può fare nulla! Metti le unità sciolte una alla volta, contale e, quando arrivi a dieci, tira la leva per raggrupparle in una decina. Così costruisci numeri da 20 a 49 con le loro decine e unità, e se vuoi puoi anche disfare una decina per tornare alle unità sciolte. Giocando, il bambino scopre il valore posizionale e impara a comporre e scomporre numeri a due cifre, capendo il momento del cambio. È un'attività senza registrazione, che si apre direttamente nel browser, allineata alle Indicazioni nazionali, nel nucleo Numeri. Pensata per la classe seconda: nessun punteggio, nessun cronometro, solo il tempo giusto per capire.",
+      "nl": "Bolt de robot bundelt losse eenheden tot tientallen: zodra er precies tien losse blokjes op de band liggen, trekt je kind aan de hendel en worden ze samen één tiental. Zo bouwt je kind zelf getallen tot ongeveer 49 op uit tientallen en eenheden, haalt een tiental weer uit elkaar en leest hardop af hoeveel tientallen en eenheden er zijn. Deze interactieve activiteit oefent het plaatswaardebegrip op een speelse manier en sluit aan bij de SLO-kerndoelen voor rekenen in groep 4.",
+      "sv": "Roboten Bult buntar inte utan dig: lägg i ental ett i taget, räkna till tio och dra i spaken. Tryck på ett tiotal för att lösa upp det igen. Åk 2 enligt Lgr22.",
+      "da": "Robotten Bolt bundter ikke uden dig: Tryk på tragten for at få klodser, og træk i håndtaget, når der ligger præcis ti. Båndet har ti lommer – med ti lukker det sig til en tier, med færre springer det op, og ekstra klodser bliver skubbet ud igen. Klip en tier op, og se, at tallet ikke ændrer sig. I tråd med Fælles Mål.",
+      "no": "Roboten Bolt bunter ikke uten deg: Trykk på trakten for å få klosser, og dra i spaken når det ligger nøyaktig ti. Båndet har ti lommer – med ti lukker det seg til en tier, med færre spretter det opp, og ekstra klosser blir dyttet ut igjen. Klipp opp en tier, og se at tallet ikke endrer seg. I tråd med LK20.",
+      "fi": "Robotti Bolt ei niputa ilman sinua: napauta suppiloa, niin saat kuutioita, ja vedä vivusta, kun niitä on tasan kymmenen. Nauhassa on kymmenen taskua – kymmenellä se sulkeutuu kympiksi, vähemmällä se ponnahtaa auki, ja ylimääräiset kuutiot työntyvät takaisin. Avaa kymppi kymmeneksi ykköseksi ja huomaa, ettei luku muutu. Perusopetuksen opetussuunnitelman (OPS 2014) mukainen."
+    },
     "kid_prompt_template": "bundle-machine"
   }
 ]

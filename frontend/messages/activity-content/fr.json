@@ -1191,25 +1191,28 @@
     },
     "bundle-bot.bundle-machine.1-nbt-b-2-a": {
       "about": [
-        "Bolt est un petit robot très ordonné : sur son tapis roulant, des unités seules sont éparpillées. Votre enfant les met une par une, compte jusqu’à dix, puis tire le levier — et Bolt presse les dix unités en une seule barre de dix. Dix unités deviennent une dizaine.",
-        "En groupant ainsi par dix, votre enfant construit des nombres à deux chiffres, de 20 à 49, avec des dizaines et des unités. C’est tout le cœur de la numération décimale : 34, c’est 3 dizaines et 4 unités, et chaque barre de dix vaut exactement dix unités. Parfois, il faut défaire une dizaine pour montrer un même nombre autrement, ou repérer l’imposteur — un paquet qui ne contient que neuf unités au lieu de dix.",
-        "L’activité est interactive, pensée pour le CP, dans le domaine « Nombres et calcul ». Il n’y a ni chronomètre ni points : votre enfant groupe, compte et vérifie à son rythme, en découvrant les dizaines et les unités comme le prévoient les programmes officiels."
+        "Le robot Bolt a une machine qui groupe des cubes, mais seul l’enfant peut tirer son levier. Un entonnoir fait tomber de petits tas de cubes sur un plateau. Quand l’enfant tire le levier, une bande d’exactement dix cases s’enroule autour des cubes isolés. Avec dix cubes, elle est pleine et se ferme en une dizaine qui roule sur le présentoir. Avec moins, la bande s’ouvre d’un coup, et en général elle montre d’abord ses cases vides. Avec plus, elle en prend dix et repousse les autres.",
+        "Dans la plupart des manches, l’enfant construit un nombre, par exemple 34 avec 3 dizaines et 4 cubes isolés. Une manche commence avec neuf cubes disposés comme s’il y en avait dix ; dans une autre, les cubes tombent par trois et dépassent dix. Dans la manche où l’on défait une dizaine, l’enfant touche le bouton ciseaux pour ouvrir une dizaine en dix cubes isolés, et le nombre ne change pas. D’autres manches demandent combien il y a de cubes, ou de faire toutes les dizaines possibles puis d’écrire les dizaines et les unités. Quand on vérifie, Bolt compte les dizaines de dix en dix puis les cubes isolés ; dix cubes isolés restés sur le plateau, c’est une dizaine qui attend d’être groupée.",
+        "Les nombres vont jusqu’à 49 ou jusqu’à 99, et la bande peut montrer ses cases vides ou simplement s’ouvrir d’un coup. Après une erreur, les dizaines portent les étiquettes 10, 20, 30. Après une deuxième, les cubes isolés sont numérotés aussi et, dans les manches où l’enfant construit un nombre, la carte du nombre se sépare en dizaines et unités. En lien avec les programmes officiels pour le domaine Nombres et calculs. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Grouper dix unités en une dizaine et construire les nombres de 20 à 49 avec des dizaines et des unités.",
-        "Défaire une dizaine pour représenter un même nombre d’une autre façon.",
-        "Lire un nombre représenté (« … dizaines et … unités ») et fabriquer une dizaine ronde comme 40.",
-        "Vérifier qu’un paquet contient bien dix unités et repérer l’imposteur qui n’en a que neuf."
+        "Grouper dix unités en une dizaine",
+        "Construire des nombres à deux chiffres avec le plus de dizaines possible",
+        "Défaire une dizaine en dix unités sans changer le nombre",
+        "Lire un nombre donné en dizaines et en unités, même avec une dizaine et plus de dix unités"
       ],
       "howToPlay": [
-        "Mets les unités une par une sur le tapis et compte jusqu’à dix.",
-        "Tire le levier : Bolt groupe les dix unités en une dizaine ; recommence jusqu’au bon nombre de dizaines, puis laisse les unités restantes seules.",
-        "Lis « … dizaines et … unités » et touche Vérifier ; pour « défaire », dégroupe une dizaine en dix unités seules."
+        "Lis la consigne et la carte du nombre.",
+        "Touche l’entonnoir pour faire tomber des cubes sur le plateau. Touche le bouton moins pour en reprendre un.",
+        "Tire le levier quand tu penses qu’il y a exactement dix cubes isolés. Pour ouvrir une dizaine en dix cubes isolés, touche le bouton ciseaux.",
+        "Si la consigne demande un nombre, tape-le sur le clavier, ou touche Dizaines ou Unités puis le chiffre. Appuie ensuite sur Vérifier.",
+        "Dans les réglages, choisis les nombres (jusqu’à 49 ou jusqu’à 99) et ce que fait la bande quand elle ne ferme pas (montrer les cases vides ou s’ouvrir d’un coup)."
       ],
       "learningGoals": [
-        "Comprendre que dix unités font une dizaine, et qu’un nombre à deux chiffres est fait de dizaines et d’unités.",
-        "Grouper et défaire dans les deux sens, pour bien saisir la valeur des chiffres selon leur position.",
-        "Lire et représenter correctement un nombre, et vérifier qu’un paquet contient bien dix unités."
+        "Comprendre que dix unités font une dizaine",
+        "Représenter un nombre à deux chiffres avec des dizaines et des unités",
+        "Voir qu’on peut ouvrir une dizaine en dix unités sans changer le nombre",
+        "Reconnaître les dizaines entières comme des dizaines sans unités"
       ]
     },
     "sharing-jar.make-fair.1-oa-d-8": {

@@ -269,25 +269,28 @@
     },
     "bundle-bot.bundle-machine.1-nbt-b-2-a": {
       "about": [
-        "O robô Bolt ajuda a criança a montar um número de dois algarismos, de 20 a 49, usando o valor posicional. A criança solta as unidades uma a uma na bandeja, conta até dez e puxa a alavanca para agrupar essas dez unidades em uma dezena. Para formar 23, por exemplo, ela agrupa duas dezenas e deixa três unidades soltas.",
-        "Aqui a criança pratica compor e decompor números em dezenas e unidades, agrupar dez unidades soltas em uma dezena e também desagrupar uma dezena de volta em dez unidades. Tudo acontece com material manipulável, até cerca de 49, para firmar a ideia de valor posicional sem nenhuma conta.",
-        "A atividade é interativa, sem cronômetro, sem pontos e sem competição, no ritmo calmo de quem está aprendendo. A proposta segue a BNCC na unidade temática Números do 1º ano, trabalhando o valor posicional e a composição de números em dezenas e unidades por agrupamento."
+        "O robô Bolt tem uma máquina que agrupa cubinhos, mas só a criança pode puxar a alavanca. Um funil deixa cair montinhos de cubinhos numa placa. Quando a criança puxa a alavanca, uma faixa com exatamente dez bolsos envolve os cubinhos soltos. Com dez cubinhos ela fica cheia e se fecha numa dezena, que rola para a estante. Com menos, a faixa se abre de uma vez e, normalmente, antes mostra os bolsos vazios. Com mais, ela pega dez e empurra o resto de volta.",
+        "Na maioria das rodadas a criança forma um número, por exemplo o 34 com 3 dezenas e 4 cubinhos soltos. Uma rodada começa com nove cubinhos arrumados como se fossem dez; em outra, os cubinhos caem de três em três e passam de dez. Na rodada de desagrupar, a criança toca no botão da tesoura para abrir uma dezena em dez cubinhos soltos, e o número continua o mesmo. Outras rodadas perguntam quantos cubinhos há, ou pedem para agrupar todas as dezenas e escrever as dezenas e as unidades. Ao verificar, Bolt conta as dezenas de dez em dez e depois os cubinhos soltos; dez cubinhos soltos na placa são uma dezena que ainda falta agrupar.",
+        "Os números vão até 49 ou até 99, e a faixa pode mostrar os bolsos vazios ou só se abrir de uma vez. Depois de uma tentativa errada, as dezenas ganham as etiquetas 10, 20, 30. Depois da segunda, os cubinhos soltos também são numerados e, nas rodadas em que a criança forma um número, o cartão do número se divide em dezenas e unidades. De acordo com a BNCC, na unidade temática Números. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Agrupar dez unidades soltas em uma dezena, entendendo que dez unidades formam um grupo de dez.",
-        "Compor números de dois algarismos combinando dezenas e unidades, de 20 a 49.",
-        "Desagrupar uma dezena de volta em dez unidades soltas, o caminho inverso do agrupamento.",
-        "Entender o valor posicional: o que vale a dezena e o que vale a unidade em cada número."
+        "Agrupar dez unidades em uma dezena",
+        "Formar números de dois algarismos com o maior número possível de dezenas",
+        "Abrir uma dezena em dez unidades sem mudar o número",
+        "Ler um número mostrado em dezenas e unidades, até mesmo uma dezena com mais de dez unidades"
       ],
       "howToPlay": [
-        "Solte as unidades uma a uma na bandeja e vá contando até dez.",
-        "Puxe a alavanca para agrupar dez unidades em uma dezena e monte o número pedido.",
-        "Você pode tentar quantas vezes quiser, sem tempo e sem pontos, no seu ritmo."
+        "Leia a tarefa e o cartão do número.",
+        "Toque no funil para caírem cubinhos na placa. Toque no botão de menos para tirar um.",
+        "Puxe a alavanca quando achar que há exatamente dez cubinhos soltos. Para abrir uma dezena em dez cubinhos soltos, toque no botão da tesoura.",
+        "Se a tarefa pedir um número, digite no teclado, ou toque em Dezenas ou Unidades e depois no algarismo. Depois aperte Verificar.",
+        "Nas configurações, escolha os números (até 49 ou até 99) e o que a faixa faz quando não fecha (mostrar os bolsos vazios ou só se abrir de uma vez)."
       ],
       "learningGoals": [
-        "Compor e decompor números de até duas ordens, separando dezenas e unidades.",
-        "Compreender o valor posicional por meio do agrupamento de dez unidades em uma dezena.",
-        "Ganhar segurança com números até cerca de 49, um objetivo de 1º ano da unidade Números."
+        "Entender que dez unidades formam uma dezena",
+        "Representar um número de dois algarismos com dezenas e unidades",
+        "Ver que uma dezena pode ser aberta em dez unidades e o número continua o mesmo",
+        "Reconhecer as dezenas exatas como dezenas sem unidades"
       ]
     },
     "sharing-jar.make-fair.1-oa-d-8": {

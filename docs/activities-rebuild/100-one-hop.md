@@ -61,3 +61,4 @@ ONE native + pedagogy reviewer over the compact dump of all 11 locales. Applied:
 - `mutate-one-hop.js` — 20 / 20 killed, control survived.
 - `local-test-one-hop.js` — real taps, drags and keys, 11 locales, every round at rest / miss 2 / solved through 320…1366.
 - `visual-qa-activity` 42 / 42 · `audit-activity-hierarchy` 224 / 0 · `audit-settings-efficacy` 2 live · preflight-activity-routes, prose-claims, SERP copy, activity-content ×11 green.
+- `live-verify-one-hop.js` on production: 75 / 0 (11 locale pages 200; en / de / sv / fi × 1366 / 390, real taps: four helpers, four hops, a miss, okLen; the iframe grows with the card).

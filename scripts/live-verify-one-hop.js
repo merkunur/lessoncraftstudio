@@ -57,7 +57,7 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
     };
     const st = () => frame.evaluate(() => { const s = window.OneHopActivity.st; return { done: s.done, misses: s.misses, hops: s.hops, status: s.status, n: s.helpers.length }; });
     const note = () => frame.evaluate(() => document.querySelector('.oh-note').textContent);
-    await frame.waitForFunction(() => { const i = document.querySelector('.oh-wormpic'); return i && i.complete && i.naturalWidth > 0; }, { timeout: 20000 }).catch(() => {});
+    await frame.waitForFunction(() => [document.querySelector('.oh-wormpic'), document.querySelector('.oh-obj')].every(i => i && i.complete && i.naturalWidth > 0), { timeout: 20000 }).catch(() => {});
     is(await frame.evaluate(() => { const i = document.querySelector('.oh-wormpic'), o = document.querySelector('.oh-obj'); return !!(i && i.naturalWidth > 0 && o && o.naturalWidth > 0); }), `[${loc} @${w}] Inchie and the car (library pictures) load`);
     for (let i = 0; i < 4; i++) await click('[data-k="pot"]');
     let s = await st(); is(s.n === 4, `[${loc} @${w}] four taps on the pot lay four helpers`);

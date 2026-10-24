@@ -689,25 +689,28 @@
     },
     "choice-board.ten-more-less.1-nbt-c-5": {
       "about": [
-        "Et tal som 34, 57, 60 eller 82 dukker op sammen med ordene ti mere eller ti mindre, og barnet regner det ud i hovedet og trykker på svaret blandt fire muligheder. Det er en interaktiv aktivitet til 1. klasse, der spilles direkte i browseren på tablet, telefon eller klassens computer — uden at installere noget og uden konto.",
-        "Den vigtige indsigt er, at det slet ikke kræver tælling at finde ti mere eller ti mindre — kun tiercifret ændrer sig, mens enerne bliver præcis de samme, så 34 og ti mere er 44, og 57 og ti mindre er 47. De forkerte svar er tal i nærheden, blandt andet nogle, der ændrer enercifret, så et barn, der tæller én ad gangen eller lægger en tier det forkerte sted, vil opdage, at det ikke passer. Pointen er at se tierne, ikke at tælle.",
-        "Aktiviteten følger Fælles Mål inden for tal i titalssystemet: at finde 10 mere eller 10 mindre end et tocifret tal i hovedet, uden at skulle tælle. Der er ingen timer og ingen point — bare rolig, legende træning i 1. klasse."
+        "Tallet bor i to glasrør: tierstænger i tierrøret og enkelte klodser i enerrøret, med et ciffer under hvert rør. Begge rør stopper ved ni under et låg, så skubber man en ener mere op ved ni, støder den bare mod låget. Derfor kan 10 mere kun være én stang mere i tierrøret, og enerrøret bliver, som det var.",
+        "I runderne 10 mere, 10 mindre og 1 mere, 1 mindre ændrer barnet rørene og trykker på Tjek; ved 39 + 1 er enerrøret fuldt, så barnet løfter en stang op til tierne og tømmer enerne med hånden. I pilerunderne flytter hvert kort ét rør: ↓ og ↑ en stang, → og ← en klods, og et kort på det forkerte rør glider tilbage. Der er også to ture, der lander på ét tal, og runder, hvor barnet først skriver, hvor mange hop af ti og af én der fører fra ét tal til et andet, og så ser rørene tage dem. I runderne med dagens tal laver barnet dets fire naboer, som fylder et kryds: 10 mindre over, 10 mere under, 1 mindre og 1 mere ved siden af.",
+        "Med matteret glas er stænger og klodser skjult, så barnet regner med cifrene i hovedet; ved Tjek bliver glasset klart. Efter et forkert forsøg i byggerunderne lyser det rør op, der skal ændres, og en gennemsigtig klods (eller en stiplet, der skal ud) viser skridtet; efter det andet får det ciffer, der ikke ændrer sig, en gylden ring. Når en runde er løst, lyser tierrammer, tællestreger og tallet med bogstaver op. I tråd med Fælles Mål for tal og algebra. Uden tidtagning og uden point."
       ],
       "practices": [
-        "Finde 10 mere eller 10 mindre end et tocifret tal i hovedet",
-        "Lægge mærke til, at kun tiercifret ændrer sig, mens enerne bliver de samme",
-        "Læse, om opgaven spørger om ti mere eller ti mindre",
-        "Opbygge forståelse for tiere og enere i tal op til 100"
+        "At finde 10 mere og 10 mindre end et tocifret tal uden at tælle",
+        "At se, at 10 mere kun ændrer tiercifferet",
+        "At finde 1 mere og 1 mindre, også når enerrøret er fuldt eller tomt",
+        "At følge og tælle hop af ti og af én"
       ],
       "howToPlay": [
-        "Barnet læser tallet og afgør, om opgaven spørger om ti mere eller ti mindre.",
-        "Barnet regner det ud i hovedet — skift tierne, behold enerne — og trykker derefter på det tal, det synes passer.",
-        "Tag dig god tid; der er ingen timer og ingen point, og du kan prøve igen."
+        "Tryk på ▲ under et rør for at lægge en klods i og på ▼ for at tage en ud, eller træk glasset op og ned.",
+        "Lav det nye tal, og tryk på Tjek.",
+        "I pilerunderne trykker du på et kort for at spille det på dets eget rør, eller du trækker det derhen.",
+        "I tællerunderne skriver du, hvor mange hop af ti og af én det er, trykker på Tjek og ser på rørene.",
+        "I indstillingerne vælger du opgaven (10 mere, 10 mindre · 1 mere, 1 mindre · pilehop · dagens tal) og glasset (klart eller matteret)."
       ],
       "learningGoals": [
-        "Barnet kan finde 10 mere og 10 mindre end ethvert tocifret tal i hovedet",
-        "Barnet kan forstå, at det kun er tiercifret, der ændrer sig, når man lægger en tier til eller tager en fra",
-        "Barnet kan opbygge det fundament i titalssystemet og hovedregning, der bruges til at lægge sammen og trække fra inden for 100"
+        "At finde 10 mere eller 10 mindre end et tocifret tal i hovedet uden at tælle.",
+        "At forklare, at 10 mere ændrer tiercifferet og lader enercifferet være.",
+        "At finde 1 mere og 1 mindre, også hen over en tier.",
+        "At læse pilene på en hundredtavle som skridt i tiere og enere."
       ]
     },
     "clock.set-clock.1-md-b-3": {

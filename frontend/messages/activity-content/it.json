@@ -1959,25 +1959,28 @@
     },
     "choice-board.ten-more-less.1-nbt-c-5": {
       "about": [
-        "Appare un numero come 34, 57, 60 o 82 insieme alle parole «dieci in più» o «dieci in meno», e il bambino lo calcola a mente e tocca la risposta tra quattro scelte. È un'attività interattiva per la classe prima, che si gioca direttamente nel browser su tablet, telefono o computer di classe: niente da installare e nessun account.",
-        "L'intuizione chiave è che trovare dieci in più o dieci in meno non richiede affatto di contare: cambia solo la cifra delle decine, mentre le unità restano identiche; così 34 con dieci in più fa 44, e 57 con dieci in meno fa 47. Le scelte sbagliate sono numeri vicini, comprese alcune che cambiano la cifra delle unità: un bambino che conta a uno a uno o aggiunge una decina nel posto sbagliato si accorge che non torna. Il punto è vedere le decine, non contare.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito del valore posizionale: trovare a mente 10 in più o 10 in meno di un numero di due cifre, senza dover contare. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
+        "Il numero vive in due tubi di vetro: barre da dieci nel tubo delle decine e cubetti sfusi nel tubo delle unità, con una cifra sotto ogni tubo. I due tubi si fermano a nove sotto un coperchio, quindi se si spinge su un’altra unità a nove, sbatte solo contro il coperchio. Per questo 10 in più può essere solo una barra in più nel tubo delle decine, e il tubo delle unità resta com’era.",
+        "Nei turni di 10 in più, 10 in meno e 1 in più, 1 in meno il bambino cambia i tubi e preme Controlla; a 39 + 1 il tubo delle unità è pieno, quindi il bambino alza una barra nelle decine e svuota le unità a mano. Nei turni con le frecce ogni carta muove un tubo: ↓ e ↑ una barra, → e ← un cubetto, e una carta sul tubo sbagliato torna indietro. Ci sono anche due percorsi che arrivano allo stesso numero, e turni in cui il bambino prima scrive quanti salti da dieci e da uno portano da un numero all’altro e poi guarda i tubi farli. Nei turni del numero del giorno il bambino forma i suoi quattro vicini, che riempiono una croce: 10 in meno sopra, 10 in più sotto, 1 in meno e 1 in più accanto.",
+        "Con il vetro smerigliato barre e cubetti sono nascosti, così il bambino lavora con le cifre a mente; al controllo il vetro diventa trasparente. Dopo un tentativo sbagliato nei turni in cui si forma un numero si illumina il tubo che deve cambiare e un blocco trasparente (o uno tratteggiato che esce) mostra il passo; dopo il secondo, la cifra che resta uguale riceve un anello dorato. Quando il turno è risolto, si illuminano le griglie da dieci, le tacche e il numero in lettere. In linea con le Indicazioni nazionali per i numeri. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Trovare a mente 10 in più o 10 in meno di un numero di due cifre.",
-        "Notare che cambia solo la cifra delle decine, mentre le unità restano uguali.",
-        "Leggere se la consegna chiede dieci in più o dieci in meno.",
-        "Costruire il senso del valore posizionale per i numeri fino a 100."
+        "Trovare 10 in più e 10 in meno di un numero a due cifre senza contare",
+        "Vedere che con 10 in più cambia solo la cifra delle decine",
+        "Trovare 1 in più e 1 in meno, anche quando il tubo delle unità è pieno o vuoto",
+        "Seguire e contare salti da dieci e da uno"
       ],
       "howToPlay": [
-        "Leggi il numero e se la consegna chiede dieci in più o dieci in meno.",
-        "Calcola a mente — cambia le decine, lascia le unità — poi tocca il numero che ritieni giusto.",
-        "Prenditi tutto il tempo che ti serve: non c'è timer e non c'è punteggio, e puoi riprovare."
+        "Premi ▲ sotto un tubo per mettere un blocco e ▼ per toglierne uno, oppure trascina il vetro in su e in giù.",
+        "Forma il nuovo numero e premi Controlla.",
+        "Nei turni con le frecce, tocca una carta per giocarla sul suo tubo, oppure trascinala lì.",
+        "Nei turni da contare, scrivi quanti salti da dieci e da uno sono, premi Controlla e guarda i tubi.",
+        "Nelle impostazioni scegli il compito (10 in più, 10 in meno · 1 in più, 1 in meno · salti con le frecce · numero del giorno) e il vetro (trasparente o smerigliato)."
       ],
       "learningGoals": [
-        "Trovare a mente 10 in più e 10 in meno di qualsiasi numero di due cifre.",
-        "Capire che aggiungere o togliere una decina cambia solo la cifra delle decine.",
-        "Costruire le basi di valore posizionale e calcolo mentale per addizionare e sottrarre entro il 100."
+        "Trovare a mente 10 in più o 10 in meno di un numero a due cifre, senza contare.",
+        "Spiegare che con 10 in più cambia la cifra delle decine e la cifra delle unità resta.",
+        "Trovare 1 in più e 1 in meno, anche passando da una decina all’altra.",
+        "Leggere le frecce della tabella del cento come passi di decine e di unità."
       ]
     },
     "clock.tell-time-5-min.2-md-c-7": {

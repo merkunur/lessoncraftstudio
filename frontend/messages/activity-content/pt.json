@@ -1459,25 +1459,28 @@
     },
     "choice-board.ten-more-less.1-nbt-c-5": {
       "about": [
-        "Descobrir quanto fica com 10 a mais ou 10 a menos, só de cabeça, é o desafio tranquilo desta atividade interativa para o 1º ano. Aparece um número de dois algarismos, como 34, 57, 60 ou 82, junto com as palavras dez a mais ou dez a menos, e a criança resolve mentalmente e toca na resposta entre quatro opções. Funciona no navegador — no tablet, no celular ou no computador da escola — sem instalar nada e sem conta.",
-        "A ideia-chave é que encontrar dez a mais ou dez a menos nem precisa de contagem: só o algarismo das dezenas muda, enquanto o das unidades fica exatamente igual, então 34 com dez a mais é 44, e 57 com dez a menos é 47. As opções erradas são números próximos, inclusive alguns que mudam o algarismo das unidades, de modo que quem conta de um em um ou põe a dezena no lugar errado percebe que não encaixa. O objetivo é enxergar as dezenas, não contar.",
-        "A atividade está alinhada à BNCC, no cálculo mental de 10 a mais e 10 a menos de um número de dois algarismos. Sem cronômetro e sem pontuação — é prática calma e divertida."
+        "O número mora em dois tubos de vidro: barras de dez no tubo das dezenas e cubinhos soltos no tubo das unidades, com um algarismo embaixo de cada tubo. Os dois tubos param em nove debaixo de uma tampa, então, se a criança empurra mais uma unidade em nove, ela só bate na tampa. Por isso 10 a mais só pode ser uma barra a mais no tubo das dezenas, e o tubo das unidades fica como estava.",
+        "Nas rodadas de 10 a mais, 10 a menos e 1 a mais, 1 a menos a criança muda os tubos e aperta Verificar; em 39 + 1 o tubo das unidades está cheio, então a criança sobe uma barra para as dezenas e esvazia as unidades com a mão. Nas rodadas de setas, cada carta mexe um tubo: ↓ e ↑ uma barra, → e ← um cubinho, e uma carta no tubo errado volta. Também há dois caminhos que chegam ao mesmo número, e rodadas em que a criança primeiro escreve quantos pulos de dez e de um levam de um número a outro e depois vê os tubos darem os pulos. Nas rodadas do número do dia a criança forma os quatro vizinhos, que preenchem uma cruz: 10 a menos em cima, 10 a mais embaixo, 1 a menos e 1 a mais dos lados.",
+        "Com o vidro fosco as barras e os cubinhos ficam escondidos, e a criança trabalha com os algarismos de cabeça; ao verificar, o vidro fica transparente. Depois de uma tentativa errada nas rodadas de formar números, acende o tubo que deve mudar e um bloco transparente (ou um pontilhado que sai) mostra o passo; depois da segunda, o algarismo que não muda ganha um aro dourado. Quando a rodada é resolvida, acendem os quadros de dez, as marcas de contagem e o número por extenso. De acordo com a BNCC, na unidade temática Números. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Encontrar 10 a mais ou 10 a menos de um número de dois algarismos de cabeça.",
-        "Perceber que só o algarismo das dezenas muda, enquanto o das unidades fica igual.",
-        "Ler se o enunciado pede dez a mais ou dez a menos.",
-        "Fortalecer o senso de valor posicional para números até 100."
+        "Encontrar 10 a mais e 10 a menos que um número de dois algarismos sem contar",
+        "Ver que com 10 a mais só muda o algarismo das dezenas",
+        "Encontrar 1 a mais e 1 a menos, também quando o tubo das unidades está cheio ou vazio",
+        "Seguir e contar pulos de dez e de um"
       ],
       "howToPlay": [
-        "Leia o número e veja se o enunciado pede dez a mais ou dez a menos.",
-        "Resolva de cabeça — mude as dezenas, mantenha as unidades — e toque no número que você acha certo.",
-        "Use todo o tempo que precisar; não há cronômetro nem pontuação, e você pode tentar de novo."
+        "Aperte ▲ embaixo de um tubo para colocar um bloco e ▼ para tirar um, ou arraste o vidro para cima e para baixo.",
+        "Forme o número novo e aperte Verificar.",
+        "Nas rodadas de setas, toque numa carta para jogá-la no tubo dela, ou arraste até lá.",
+        "Nas rodadas de contar, escreva quantos pulos de dez e de um são, aperte Verificar e olhe os tubos.",
+        "Nas configurações, escolha a tarefa (10 a mais, 10 a menos · 1 a mais, 1 a menos · pulos de setas · número do dia) e o vidro (transparente ou fosco)."
       ],
       "learningGoals": [
-        "A criança aprende a encontrar 10 a mais e 10 a menos de qualquer número de dois algarismos de cabeça.",
-        "A criança entende que tirar ou acrescentar uma dezena muda apenas o algarismo das dezenas.",
-        "A criança constrói a base de valor posicional e cálculo mental para somar e subtrair até 100."
+        "Encontrar de cabeça 10 a mais ou 10 a menos que um número de dois algarismos, sem contar.",
+        "Explicar que com 10 a mais muda o algarismo das dezenas e o das unidades fica igual.",
+        "Encontrar 1 a mais e 1 a menos, também passando de uma dezena para outra.",
+        "Ler as setas de um quadro numérico de 1 a 100 como passos de dezenas e de unidades."
       ]
     },
     "clock.tell-time-5-min.2-md-c-7": {

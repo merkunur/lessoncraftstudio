@@ -1329,24 +1329,28 @@
     },
     "choice-board.ten-more-less.1-nbt-c-5": {
       "about": [
-        "Ruudulle ilmestyy kaksinumeroinen luku, kuten 34, 57, 60 tai 82, ja sanat kymmenen enemmän tai kymmenen vähemmän, ja lapsi päättelee vastauksen päässään ja napauttaa sen neljästä vaihtoehdosta. Tämä on vuorovaikutteinen 1. luokan harjoitus, joka toimii suoraan selaimessa tabletilla, puhelimella tai luokan tietokoneella ilman asennusta ja ilman tiliä.",
-        "Oivallus on, ettei kymmenen enemmän tai kymmenen vähemmän vaadi laskemista lainkaan — vain kymmenten numero muuttuu, ja ykköset pysyvät täsmälleen samoina. Niinpä 34 ja kymmenen enemmän on 44, ja 57 ja kymmenen vähemmän on 47. Väärät vaihtoehdot ovat lähellä olevia lukuja, myös sellaisia, joissa ykkönen muuttuu, joten yksi kerrallaan laskeva tai kymmenen väärään paikkaan lisäävä lapsi huomaa, ettei vastaus sovi. Tavoitteena on nähdä kymmenet, ei laskea. Harjoitus on OPS 2014:n mukainen ja tukee päässälaskua ja lukujen hahmottamista. 1. luokalle."
+        "Luku asuu kahdessa lasiputkessa: kymppisauvat kymppien putkessa ja yksittäiset kuutiot ykkösten putkessa, ja kummankin putken alla on numero. Molemmat putket loppuvat yhdeksään kannen alle, joten jos ykkösen työntää vielä ylös yhdeksän kohdalla, se vain kolahtaa kanteen. Siksi 10 enemmän voi olla vain yksi sauva lisää kymppien putkessa, ja ykkösten putki pysyy ennallaan.",
+        "Kierroksilla 10 enemmän, 10 vähemmän ja 1 enemmän, 1 vähemmän lapsi muuttaa putkia ja painaa Tarkista; laskussa 39 + 1 ykkösten putki on täynnä, joten lapsi nostaa sauvan kymppeihin ja tyhjentää ykköset käsin. Nuolikierroksilla jokainen kortti liikuttaa yhtä putkea: ↓ ja ↑ sauvaa, → ja ← kuutiota, ja väärään putkeen viety kortti liukuu takaisin. Lisäksi on kaksi matkaa, jotka päättyvät samaan lukuun, ja kierroksia, joilla lapsi kirjoittaa ensin, montako kympin ja ykkösen hyppyä luvusta toiseen on, ja katsoo sitten, kun putket tekevät ne. Päivän luvun kierroksilla lapsi tekee luvun neljä naapuria, jotka täyttävät ristin: 10 vähemmän yläpuolelle, 10 enemmän alapuolelle, 1 vähemmän ja 1 enemmän viereen.",
+        "Huurteisessa lasissa sauvat ja kuutiot ovat piilossa, joten lapsi laskee numeroilla päässään; tarkistettaessa lasi kirkastuu. Rakennuskierroksilla väärän yrityksen jälkeen muuttuva putki syttyy ja läpinäkyvä palikka (tai katkoviivainen, joka lähtee) näyttää askeleen; toisen jälkeen se numero, joka pysyy samana, saa kultaisen renkaan. Kun kierros on ratkaistu, kymppiruudukot, tukkimiehen kirjanpito ja luku sanoin syttyvät. Sopii opetussuunnitelman sisältöalueeseen Luvut ja laskutoimitukset. Ilman ajanottoa ja ilman pisteytystä."
       ],
       "practices": [
-        "Etsii päässään kymmenen enemmän tai kymmenen vähemmän kaksinumeroisesta luvusta.",
-        "Huomaa, että vain kymmenten numero muuttuu ja ykköset pysyvät samoina.",
-        "Lukee, pyytääkö tehtävä kymmenen enemmän vai kymmenen vähemmän.",
-        "Vahvistaa lukujen paikka-arvon hahmottamista sataan asti."
+        "Kaksinumeroista lukua 10 suuremman ja 10 pienemmän luvun löytäminen laskematta",
+        "Sen näkeminen, että 10 enemmän muuttaa vain kymppien numeron",
+        "1 enemmän ja 1 vähemmän, myös kun ykkösten putki on täynnä tai tyhjä",
+        "Kymppien ja ykkösten hyppyjen seuraaminen ja laskeminen"
       ],
       "howToPlay": [
-        "Lue luku ja se, pyytääkö tehtävä kymmenen enemmän vai kymmenen vähemmän.",
-        "Päättele vastaus päässäsi — muuta kymmenet, pidä ykköset — ja napauta sitten lukua, jonka uskot olevan oikein.",
-        "Käytä aikaa rauhassa; ei ajastinta eikä pisteitä, ja voit yrittää uudelleen."
+        "Paina putken alla olevaa ▲, niin palikka menee sisään, ja ▼, niin yksi lähtee pois, tai vedä lasia ylös ja alas.",
+        "Tee uusi luku ja paina Tarkista.",
+        "Nuolikierroksilla napauta korttia, niin se pelataan omaan putkeensa, tai vedä se sinne.",
+        "Laskukierroksilla kirjoita, montako kympin ja ykkösen hyppyä on, paina Tarkista ja katso putkia.",
+        "Asetuksista valitset tehtävän (10 enemmän, 10 vähemmän · 1 enemmän, 1 vähemmän · nuolihypyt · päivän luku) ja lasin (kirkas tai huurteinen)."
       ],
       "learningGoals": [
-        "Lapsi osaa etsiä päässään kymmenen enemmän ja kymmenen vähemmän mistä tahansa kaksinumeroisesta luvusta.",
-        "Lapsi ymmärtää, että kymmenen lisääminen tai poistaminen muuttaa vain kymmenten numeron.",
-        "Lapsi rakentaa paikka-arvon ja päässälaskun perustan yhteen- ja vähennyslaskulle sataan asti."
+        "Kaksinumeroista lukua 10 suuremman tai 10 pienemmän luvun löytäminen päässä, laskematta.",
+        "Sen selittäminen, että 10 enemmän muuttaa kymppien numeron ja ykkösten numero pysyy.",
+        "1 enemmän ja 1 vähemmän, myös kympin yli.",
+        "Satataulun nuolten lukeminen kymppien ja ykkösten askelina."
       ]
     },
     "clock.tell-time-5-min.2-md-c-7": {

@@ -1142,25 +1142,28 @@
     },
     "choice-board.ten-more-less.1-nbt-c-5": {
       "about": [
-        "A number like 34, 57, 60, or 82 pops up with the words ten more or ten less, and the child works it out in their head and taps the answer from four choices. It's an interactive Grade 1 activity that plays right in the browser on a tablet, phone, or classroom computer, with nothing to install and no account.",
-        "The key insight is that finding ten more or ten less does not need counting at all — only the tens digit changes while the ones stay exactly the same, so 34 and ten more is 44, and 57 and ten less is 47. The wrong choices are nearby numbers, including ones that change the ones digit, so a child who counts up one by one or just adds a ten in the wrong place will notice it does not fit. The point is to see the tens, not to count.",
-        "It is aligned to Common Core 1.NBT.C.5 — mentally finding 10 more or 10 less than a two-digit number, without having to count. No timer, no score — just calm, playful practice."
+        "The number lives in two glass tubes: rods of ten in the tens tube and single cubes in the ones tube, with a digit under each tube. Both tubes stop at nine under a lid, so pushing the ones up at nine only bumps the lid. That is why 10 more can only ever be one more rod in the tens tube, and the ones tube stays as it was.",
+        "In the 10 more, 10 less and 1 more, 1 less rounds the child changes the tubes and presses Check; at 39 + 1 the ones tube is full, so the child lifts a rod into the tens and empties the ones by hand. In arrow rounds each card moves one tube: ↓ and ↑ a rod, → and ← a cube, and a card dragged onto the wrong tube slides back. There are also two trips that land on one number, and rounds where the child first types how many jumps of ten and of one lead from one number to another, then watches the tubes run them. In the number-of-the-day rounds the child makes its four neighbors, which fill a cross: 10 less above, 10 more below, 1 less and 1 more beside it.",
+        "With frosted glass the blocks are hidden, so the child works from the digits in their head; the frost clears at Check. After a wrong try in the rounds where the child makes a number, the tube that should change lights up and a see-through block (or a dashed one on its way out) shows the step; after a second, the digit that stays the same is ringed in gold. When a round is solved, ten frames, tally marks and the number in words light up. Aligned to Common Core 1.NBT.C.5. No timer and no score."
       ],
       "practices": [
-        "Finding 10 more or 10 less than a two-digit number in your head",
-        "Noticing that only the tens digit changes while the ones stay the same",
-        "Reading whether the prompt asks for ten more or ten less",
-        "Building place-value sense for numbers up to 100"
+        "Finding 10 more and 10 less than a two-digit number without counting",
+        "Seeing that 10 more changes only the tens digit",
+        "Finding 1 more and 1 less, also when the ones tube is full or empty",
+        "Following and counting jumps of ten and of one"
       ],
       "howToPlay": [
-        "Read the number and whether the prompt asks for ten more or ten less.",
-        "Work it out in your head — change the tens, keep the ones — then tap the number you think is right.",
-        "Take all the time you need; there is no timer and no score, and you can try again."
+        "Press ▲ under a tube to add a block and ▼ to take one out, or drag the glass up and down.",
+        "Make the new number and press Check.",
+        "In arrow rounds, tap a card to play it on its own tube, or drag it there.",
+        "In counting rounds, type how many jumps of ten and of one, press Check and watch the tubes.",
+        "In the settings, choose the task (10 more, 10 less · 1 more, 1 less · arrow jumps · number of the day) and the glass (clear or frosted)."
       ],
       "learningGoals": [
-        "Mentally find 10 more and 10 less than any two-digit number — the focus of Common Core 1.NBT.C.5.",
-        "Understand that adding or removing a ten changes only the tens digit.",
-        "Build the place-value and mental-math foundation for adding and subtracting within 100."
+        "Find 10 more or 10 less than a two-digit number in your head, without counting — the focus of Common Core 1.NBT.C.5.",
+        "Explain that 10 more changes the tens digit and leaves the ones digit alone.",
+        "Find 1 more and 1 less, including across a ten.",
+        "Read the arrows of a hundreds chart as moves of tens and ones."
       ]
     },
     "choice-board.which-more.k-c-c-6": {

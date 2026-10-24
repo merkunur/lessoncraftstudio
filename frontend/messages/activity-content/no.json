@@ -692,25 +692,28 @@
     },
     "choice-board.ten-more-less.1-nbt-c-5": {
       "about": [
-        "Et tosifret tall som 34, 57, 60 eller 82 dukker opp sammen med ordene ti mer eller ti mindre, og barnet regner det ut i hodet og trykker på svaret blant fire valg. Det er en interaktiv aktivitet for 1. trinn som spilles rett i nettleseren på nettbrett, telefon eller skolens datamaskin, uten noe å installere og uten konto.",
-        "Den viktige innsikten er at ti mer eller ti mindre ikke trenger telling i det hele tatt — det er bare tierplassen som endrer seg, mens enerne blir akkurat de samme. Derfor blir 34 og ti mer til 44, og 57 og ti mindre til 47. De gale valgene er tall i nærheten, blant annet noen som endrer enersifferet, så et barn som teller opp én og én eller legger til en tier på feil plass, merker at det ikke stemmer. Poenget er å se tierne, ikke å telle.",
-        "Aktiviteten følger LK20 innenfor tall og regning på 1. trinn — å finne ti mer eller ti mindre enn et tosifret tall i hodet, uten å måtte telle. Ingen tidtaker, ingen poeng, bare rolig og lekende øving."
+        "Tallet bor i to glassrør: tierstaver i tierrøret og løse klosser i enerrøret, med et siffer under hvert rør. Begge rørene stopper ved ni under et lokk, så hvis man skyver en ener til opp ved ni, støter den bare i lokket. Derfor kan 10 mer bare være én stav til i tierrøret, og enerrøret blir som det var.",
+        "I rundene 10 mer, 10 mindre og 1 mer, 1 mindre endrer barnet rørene og trykker på Sjekk; ved 39 + 1 er enerrøret fullt, så barnet løfter en stav opp til tierne og tømmer enerne for hånd. I pilrundene flytter hvert kort ett rør: ↓ og ↑ en stav, → og ← en kloss, og et kort på feil rør glir tilbake. Det finnes også to turer som lander på ett tall, og runder der barnet først skriver hvor mange hopp av ti og av én som fører fra ett tall til et annet, og så ser rørene ta dem. I rundene med dagens tall lager barnet de fire naboene, som fyller et kryss: 10 mindre over, 10 mer under, 1 mindre og 1 mer ved siden av.",
+        "Med matt glass er stavene og klossene skjult, slik at barnet regner med sifrene i hodet; når man sjekker, blir glasset klart. Etter et feilforsøk i byggerundene lyser røret som skal endres, og en gjennomsiktig kloss (eller en stiplet som skal ut) viser steget; etter det andre får sifferet som ikke endrer seg, en gullring. Når en runde er løst, lyser tierrammer, tellestreker og tallet med bokstaver opp. I tråd med LK20 i matematikk. Uten tidtaking og uten poeng."
       ],
       "practices": [
-        "Finne ti mer eller ti mindre enn et tosifret tall i hodet.",
-        "Legge merke til at bare tierplassen endrer seg, mens enerne blir de samme.",
-        "Lese om oppgaven spør etter ti mer eller ti mindre.",
-        "Bygge plassverdiforståelse for tall opp til 100."
+        "Å finne 10 mer og 10 mindre enn et tosifret tall uten å telle",
+        "Å se at 10 mer bare endrer tiersifferet",
+        "Å finne 1 mer og 1 mindre, også når enerrøret er fullt eller tomt",
+        "Å følge og telle hopp av ti og av én"
       ],
       "howToPlay": [
-        "Les tallet og om oppgaven spør etter ti mer eller ti mindre.",
-        "Regn det ut i hodet — endre tierne, behold enerne — og trykk så på tallet du tror er riktig.",
-        "Ta den tiden du trenger; det er ingen tidtaker og ingen poeng, og du kan prøve igjen."
+        "Trykk på ▲ under et rør for å legge i en kloss og på ▼ for å ta ut en, eller dra glasset opp og ned.",
+        "Lag det nye tallet og trykk på Sjekk.",
+        "I pilrundene trykker du på et kort for å spille det på sitt eget rør, eller drar det dit.",
+        "I tellerundene skriver du hvor mange hopp av ti og av én det er, trykker på Sjekk og ser på rørene.",
+        "I innstillingene velger du oppgave (10 mer, 10 mindre · 1 mer, 1 mindre · pilhopp · dagens tall) og glass (klart eller matt)."
       ],
       "learningGoals": [
-        "Barnet kan finne ti mer og ti mindre enn et hvilket som helst tosifret tall i hodet.",
-        "Barnet forstår at å legge til eller fjerne en tier bare endrer tierplassen.",
-        "Barnet bygger grunnlaget i plassverdi og hoderegning for å legge til og trekke fra opp til 100."
+        "Å finne 10 mer eller 10 mindre enn et tosifret tall i hodet, uten å telle.",
+        "Å forklare at 10 mer endrer tiersifferet og lar enersifferet være.",
+        "Å finne 1 mer og 1 mindre, også over en tier.",
+        "Å lese pilene på en hundreruta som steg i tiere og enere."
       ]
     },
     "clock.tell-time-5-min.2-md-c-7": {

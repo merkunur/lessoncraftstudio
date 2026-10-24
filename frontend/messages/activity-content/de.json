@@ -3457,25 +3457,28 @@
     },
     "choice-board.ten-more-less.1-nbt-c-5": {
       "about": [
-        "Eine Zahl wie 34, 57, 60 oder 82 taucht zusammen mit den Worten „10 mehr\" oder „10 weniger\" auf, und das Kind rechnet im Kopf und tippt das Ergebnis aus vier Möglichkeiten an. Diese interaktive Übung für die 1. Klasse läuft direkt im Browser — auf Tablet, Handy oder Klassenrechner, ohne Installation und ohne Anmeldung.",
-        "Die wichtige Einsicht: 10 mehr oder 10 weniger zu finden braucht gar kein Zählen — es ändert sich nur der Zehner, die Einer bleiben genau gleich. So sind 34 und 10 mehr eben 44, und 57 und 10 weniger sind 47. Die falschen Möglichkeiten sind benachbarte Zahlen, darunter solche, die die Einerstelle verändern. Ein Kind, das Schritt für Schritt weiterzählt oder den Zehner an der falschen Stelle dazugibt, merkt, dass es nicht passt. Es geht darum, die Zehner zu sehen — nicht zu zählen.",
-        "Die Aktivität ist an den Lehrplänen für die 1. Klasse ausgerichtet — im Kopf 10 mehr oder 10 weniger zu einer zweistelligen Zahl finden, ohne zu zählen. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+        "Die Zahl steckt in zwei Glasröhren: Zehnerstangen in der Zehnerröhre und einzelne Würfel in der Einerröhre, mit einer Ziffer unter jeder Röhre. Beide Röhren hören unter einem Deckel bei neun auf, also stößt ein weiterer Einer bei neun nur an den Deckel. Darum kann 10 mehr immer nur eine Stange mehr in der Zehnerröhre sein, und die Einerröhre bleibt, wie sie war.",
+        "In den Runden 10 mehr, 10 weniger und 1 mehr, 1 weniger verändert das Kind die Röhren und drückt auf Prüfen; bei 39 + 1 ist die Einerröhre voll, also hebt das Kind eine Stange zu den Zehnern und leert die Einer mit der Hand. In den Pfeilrunden bewegt jede Karte eine Röhre: ↓ und ↑ eine Stange, → und ← einen Würfel, und eine Karte auf der falschen Röhre rutscht zurück. Dazu gibt es zwei Wege, die auf einer Zahl landen, und Runden, in denen das Kind zuerst eingibt, wie viele Zehner- und Einersprünge von einer Zahl zur anderen führen, und dann zuschaut, wie die Röhren sie laufen. In den Runden zur Zahl des Tages baut das Kind ihre vier Nachbarn, die ein Kreuz füllen: 10 weniger oben, 10 mehr unten, 1 weniger und 1 mehr daneben.",
+        "Mit milchigem Glas sind Stangen und Würfel verdeckt, sodass das Kind mit den Ziffern im Kopf rechnet; beim Prüfen wird das Glas klar. Nach einem Fehlversuch in den Bau-Runden leuchtet die Röhre auf, die sich ändern soll, und ein durchsichtiges Teil (oder ein gestricheltes, das hinausgeht) zeigt den Schritt; nach dem zweiten wird die Ziffer, die gleich bleibt, golden umrandet. Ist eine Runde gelöst, leuchten Zehnerfelder, eine Strichliste und das Zahlwort auf. Passend zum Lehrplan im Bereich Zahlen und Operationen. Ohne Zeitdruck und ohne Punktwertung."
       ],
       "practices": [
-        "10 mehr oder 10 weniger zu einer zweistelligen Zahl im Kopf finden.",
-        "Bemerken, dass sich nur der Zehner ändert, während die Einer gleich bleiben.",
-        "Lesen, ob die Aufgabe nach 10 mehr oder 10 weniger fragt.",
-        "Ein Stellenwert-Gefühl für Zahlen bis 100 aufbauen."
+        "10 mehr und 10 weniger als eine zweistellige Zahl finden, ohne zu zählen",
+        "Sehen, dass sich bei 10 mehr nur die Zehnerziffer ändert",
+        "1 mehr und 1 weniger finden, auch wenn die Einerröhre voll oder leer ist",
+        "Sprüngen in Zehnern und Einern folgen und sie zählen"
       ],
       "howToPlay": [
-        "Lies die Zahl und ob nach 10 mehr oder 10 weniger gefragt ist.",
-        "Rechne im Kopf — ändere den Zehner, lass die Einer gleich — und tippe dann auf die Zahl, die du für richtig hältst.",
-        "Lass dir alle Zeit, die du brauchst; es gibt keinen Timer und keine Punkte, und du kannst es erneut versuchen."
+        "Drück ▲ unter einer Röhre, um eine Stange oder einen Würfel hineinzulegen, und ▼, um eins herauszunehmen, oder schieb das Glas nach oben und unten.",
+        "Bau die neue Zahl und drück auf Prüfen.",
+        "In den Pfeilrunden tippst du eine Karte an, damit sie auf ihrer Röhre gespielt wird, oder du ziehst sie dorthin.",
+        "In den Zählrunden gibst du ein, wie viele Zehner- und Einersprünge es sind, drückst auf Prüfen und schaust den Röhren zu.",
+        "In den Einstellungen wählst du die Aufgabe (10 mehr, 10 weniger · 1 mehr, 1 weniger · Pfeilsprünge · Zahl des Tages) und das Glas (klar oder milchig)."
       ],
       "learningGoals": [
-        "Im Kopf 10 mehr und 10 weniger zu jeder zweistelligen Zahl finden.",
-        "Verstehen, dass ein Zehner mehr oder weniger nur die Zehnerstelle verändert.",
-        "Die Grundlage im Stellenwert und Kopfrechnen für das Plus- und Minusrechnen bis 100 aufbauen."
+        "10 mehr oder 10 weniger als eine zweistellige Zahl im Kopf finden, ohne zu zählen.",
+        "Erklären, dass sich bei 10 mehr die Zehnerziffer ändert und die Einerziffer bleibt.",
+        "1 mehr und 1 weniger finden, auch über einen Zehner hinweg.",
+        "Die Pfeile der Hundertertafel als Schritte in Zehnern und Einern lesen."
       ]
     },
     "clock.tell-time-5-min.2-md-c-7": {

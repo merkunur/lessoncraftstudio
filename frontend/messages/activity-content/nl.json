@@ -3427,25 +3427,28 @@
     },
     "choice-board.ten-more-less.1-nbt-c-5": {
       "about": [
-        "Een getal van twee cijfers verschijnt, bijvoorbeeld 34, 57, 60 of 82, samen met de woorden tien meer of tien minder, en je kind rekent het uit het hoofd uit en tikt het antwoord aan uit vier keuzes. Het is een interactieve rekenactiviteit die zonder account in de browser speelt op een tablet, telefoon of computer in de klas.",
-        "De kern is dat tien meer of tien minder helemaal niet hoeft te worden geteld: alleen het tiental verandert, terwijl de eenheden precies hetzelfde blijven. Zo is 34 en tien meer 44, en 57 en tien minder 47. De foute keuzes zijn buurgetallen, ook getallen waarbij de eenheden veranderen, zodat een kind dat één voor één telt of het tiental op de verkeerde plek optelt meteen merkt dat het niet klopt. Het gaat erom de tientallen te zien, niet om te tellen.",
-        "De activiteit sluit aan bij de kerndoelen voor rekenen in groep 3: uit het hoofd 10 meer of 10 minder vinden bij een getal van twee cijfers. Geen timer, geen score; neem rustig de tijd."
+        "Het getal zit in twee glazen buizen: staven van tien in de buis van de tientallen en losse blokjes in de buis van de eenheden, met een cijfer onder elke buis. Beide buizen houden onder een deksel op bij negen, dus nog een eenheid erbij stoot bij negen alleen tegen het deksel. Daarom kan 10 meer alleen maar één staaf meer in de buis van de tientallen zijn, en blijft de buis van de eenheden zoals hij was.",
+        "In de rondes 10 meer, 10 minder en 1 meer, 1 minder verandert het kind de buizen en drukt op Controleer; bij 39 + 1 is de buis van de eenheden vol, dus tilt het kind een staaf naar de tientallen en maakt de eenheden met de hand leeg. In de pijlrondes beweegt elke kaart één buis: ↓ en ↑ een staaf, → en ← een blokje, en een kaart op de verkeerde buis glijdt terug. Er zijn ook twee tochten die op één getal uitkomen, en rondes waarin het kind eerst typt hoeveel sprongen van tien en van één van het ene getal naar het andere gaan en dan kijkt hoe de buizen ze maken. In de rondes met het getal van de dag maakt het kind de vier buren, die een kruis vullen: 10 minder erboven, 10 meer eronder, 1 minder en 1 meer ernaast.",
+        "Met mat glas zijn de staven en blokjes verborgen, zodat het kind met de cijfers in zijn hoofd rekent; bij Controleer wordt het glas helder. Na een foute poging in de bouwrondes licht de buis op die moet veranderen en laat een doorzichtig blokje (of een gestippeld blokje dat eruit gaat) de stap zien; na de tweede krijgt het cijfer dat hetzelfde blijft een gouden rand. Als een ronde klaar is, lichten tienvelden, turfstreepjes en het getal in woorden op. Passend bij de kerndoelen voor getallen. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Uit het hoofd 10 meer of 10 minder vinden bij een getal van twee cijfers",
-        "Opmerken dat alleen het tiental verandert en de eenheden gelijk blijven",
-        "Lezen of er om tien meer of tien minder wordt gevraagd",
-        "Het inzicht in tientallen en eenheden tot 100 opbouwen"
+        "10 meer en 10 minder vinden dan een getal van twee cijfers, zonder te tellen",
+        "Zien dat bij 10 meer alleen het cijfer van de tientallen verandert",
+        "1 meer en 1 minder vinden, ook als de buis van de eenheden vol of leeg is",
+        "Sprongen van tien en van één volgen en tellen"
       ],
       "howToPlay": [
-        "Lees het getal en of er om tien meer of tien minder wordt gevraagd.",
-        "Reken het uit je hoofd uit, verander het tiental en houd de eenheden gelijk, en tik daarna op het getal dat je goed vindt.",
-        "Neem alle tijd die je nodig hebt; er is geen timer en geen score, en je mag het opnieuw proberen."
+        "Druk op ▲ onder een buis om een blokje erbij te doen en op ▼ om er een uit te halen, of schuif het glas omhoog en omlaag.",
+        "Maak het nieuwe getal en druk op Controleer.",
+        "In de pijlrondes tik je op een kaart om hem op zijn eigen buis te spelen, of je sleept hem erheen.",
+        "In de telrondes typ je hoeveel sprongen van tien en van één het zijn, druk je op Controleer en kijk je naar de buizen.",
+        "In de instellingen kies je de opdracht (10 meer, 10 minder · 1 meer, 1 minder · pijlsprongen · getal van de dag) en het glas (helder of mat)."
       ],
       "learningGoals": [
-        "Je kind vindt uit het hoofd 10 meer en 10 minder bij elk getal van twee cijfers.",
-        "Het kind begrijpt dat een tiental erbij of eraf alleen het tiental verandert.",
-        "Het kind bouwt de basis voor optellen en aftrekken tot 100 op."
+        "10 meer of 10 minder dan een getal van twee cijfers uit je hoofd vinden, zonder te tellen.",
+        "Uitleggen dat bij 10 meer het cijfer van de tientallen verandert en het cijfer van de eenheden blijft.",
+        "1 meer en 1 minder vinden, ook over een tiental heen.",
+        "De pijlen van een honderdveld lezen als stappen in tientallen en eenheden."
       ]
     },
     "clock.set-clock.1-md-b-3": {

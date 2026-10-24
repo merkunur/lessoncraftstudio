@@ -2823,25 +2823,28 @@
     },
     "choice-board.ten-more-less.1-nbt-c-5": {
       "about": [
-        "Un nombre comme 34, 57, 60 ou 82 s'affiche avec la consigne « 10 de plus » ou « 10 de moins », et l'enfant le calcule de tête puis touche la bonne réponse parmi quatre propositions. C'est une activité interactive de CP, qui se joue dans le navigateur sur une tablette, un téléphone ou l'ordinateur de la classe, sans rien installer et sans inscription.",
-        "L'idée clé, c'est que trouver 10 de plus ou 10 de moins ne demande aucun comptage un par un : seul le chiffre des dizaines change, tandis que celui des unités reste exactement le même. Ainsi 34 et 10 de plus font 44, et 57 et 10 de moins font 47. Les mauvaises propositions sont des nombres voisins, dont certains modifient le chiffre des unités : l'enfant qui compte un par un ou qui ajoute une dizaine au mauvais endroit s'apercevra que cela ne colle pas. Le but est de voir les dizaines, pas de compter.",
-        "Cette activité de CP est alignée sur les programmes officiels : trouver mentalement 10 de plus ou 10 de moins qu'un nombre à deux chiffres, sans avoir à compter. Aucun minuteur, aucun score — juste un calcul mental calme et ludique."
+        "Le nombre habite dans deux tubes de verre : des barres de dix dans le tube des dizaines et des cubes isolés dans le tube des unités, avec un chiffre sous chaque tube. Les deux tubes s’arrêtent à neuf sous un couvercle, donc si l’on pousse encore une unité à neuf, elle ne fait que cogner le couvercle. C’est pourquoi 10 de plus ne peut être qu’une barre de plus dans le tube des dizaines, et le tube des unités reste comme il était.",
+        "Dans les manches 10 de plus, 10 de moins et 1 de plus, 1 de moins, l’enfant change les tubes et appuie sur Vérifier ; à 39 + 1, le tube des unités est plein, alors l’enfant monte une barre dans les dizaines et vide les unités à la main. Dans les manches de flèches, chaque carte fait bouger un tube : ↓ et ↑ une barre, → et ← un cube, et une carte posée sur le mauvais tube revient. Il y a aussi deux trajets qui arrivent au même nombre, et des manches où l’enfant écrit d’abord combien de sauts de dix et de un mènent d’un nombre à un autre, puis regarde les tubes les faire. Dans les manches du nombre du jour, l’enfant fait ses quatre voisins, qui remplissent une croix : 10 de moins au-dessus, 10 de plus en dessous, 1 de moins et 1 de plus à côté.",
+        "Avec le verre dépoli, les barres et les cubes sont cachés, et l’enfant travaille avec les chiffres dans sa tête ; quand on vérifie, le verre devient transparent. Après une erreur dans les manches où l’on construit un nombre, le tube qui doit changer s’allume et un bloc transparent (ou un bloc en pointillé qui sort) montre le pas ; après une deuxième, le chiffre qui ne change pas reçoit un anneau doré. Quand la manche est réussie, des cadres de dix, des bâtons et le nombre en lettres s’allument. En lien avec les programmes officiels pour le domaine Nombres et calculs. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Trouver 10 de plus ou 10 de moins qu'un nombre à deux chiffres, de tête.",
-        "Remarquer que seul le chiffre des dizaines change, tandis que les unités restent les mêmes.",
-        "Lire si la consigne demande 10 de plus ou 10 de moins.",
-        "Construire le sens des dizaines et des unités pour les nombres jusqu'à 100."
+        "Trouver 10 de plus et 10 de moins qu’un nombre à deux chiffres sans compter",
+        "Voir qu’avec 10 de plus, seul le chiffre des dizaines change",
+        "Trouver 1 de plus et 1 de moins, même quand le tube des unités est plein ou vide",
+        "Suivre et compter des sauts de dix et de un"
       ],
       "howToPlay": [
-        "Lis le nombre et regarde si la consigne demande 10 de plus ou 10 de moins.",
-        "Calcule de tête — change les dizaines, garde les unités — puis touche le nombre qui te semble juste.",
-        "Prends tout le temps qu'il te faut ; il n'y a ni minuteur, ni score, et tu peux recommencer."
+        "Appuie sur ▲ sous un tube pour ajouter un bloc et sur ▼ pour en enlever un, ou fais glisser le verre vers le haut et vers le bas.",
+        "Fais le nouveau nombre et appuie sur Vérifier.",
+        "Dans les manches de flèches, touche une carte pour la jouer sur son tube, ou fais-la glisser jusque-là.",
+        "Dans les manches à compter, écris combien de sauts de dix et de un il y a, appuie sur Vérifier et regarde les tubes.",
+        "Dans les réglages, choisis la tâche (10 de plus, 10 de moins · 1 de plus, 1 de moins · sauts de flèches · nombre du jour) et le verre (transparent ou dépoli)."
       ],
       "learningGoals": [
-        "Trouver mentalement 10 de plus et 10 de moins qu'un nombre à deux chiffres.",
-        "Comprendre qu'ajouter ou retirer une dizaine ne change que le chiffre des dizaines.",
-        "Construire les bases du calcul mental et de la numération pour additionner et soustraire jusqu'à 100."
+        "Trouver de tête 10 de plus ou 10 de moins qu’un nombre à deux chiffres, sans compter.",
+        "Expliquer qu’avec 10 de plus le chiffre des dizaines change et celui des unités reste.",
+        "Trouver 1 de plus et 1 de moins, même en passant d’une dizaine à l’autre.",
+        "Lire les flèches d’un tableau des nombres comme des pas de dizaines et d’unités."
       ]
     },
     "clock.tell-time-5-min.2-md-c-7": {

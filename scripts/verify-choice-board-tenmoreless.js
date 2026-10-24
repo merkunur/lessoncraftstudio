@@ -20,6 +20,8 @@
    setupTask only sets state (no DOM) → headless-safe. Exit 0 = pass; 1 = fail.
    ===================================================================== */
 'use strict';
+/* Row 97 rebuild (2026-10-24): the row runs the Nine-Stop Tubes (nine-stop-activity; gates verify-nine-stop-core.js + mutate-nine-stop.js + local-test-nine-stop.js). */
+{ const _m = JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'choice-board-activities.json'), 'utf8')); const _r = (Array.isArray(_m) ? _m : _m.activities).find(a => a.id === 'choice-board.ten-more-less.1-nbt-c-5'); if (!_r || _r.tool === 'nine-stop-activity') { console.log('verify-choice-board-tenmoreless: the row runs the Nine-Stop Tubes — see verify-nine-stop-core.js / local-test-nine-stop.js. Nothing to check here.'); process.exit(0); } }
 const fs = require('fs');
 const path = require('path');
 

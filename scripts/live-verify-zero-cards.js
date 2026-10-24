@@ -54,16 +54,18 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
       return { x: o.x + b.x, y: o.y + b.y, right: o.x + b.right };
     };
     const click = async (sel) => { const p = await at(sel); if (p) { await page.mouse.click(p.x, p.y); await wait(350); } };
-    const drag = async (sel, toX, toY) => { const p = await at(sel); if (!p) return; await page.mouse.move(p.x, p.y); await page.mouse.down(); for (let k = 1; k <= 8; k++) { await page.mouse.move(p.x + (toX - p.x) * k / 8, p.y + (toY - p.y) * k / 8); await wait(15); } await page.mouse.up(); await wait(400); };
+    /* measure WITHOUT scrolling (both ends of a drag must come from the same scroll position) */
+    const here = async (sel) => { const o = await frameOff(); const b = await frame.evaluate((s) => { const r = document.querySelector(s).getBoundingClientRect(); return { x: r.left + r.width / 2, y: r.top + r.height / 2, right: r.right }; }, sel); return { x: o.x + b.x, y: o.y + b.y, right: o.x + b.right }; };
+    const drag = async (sel, toX, toY) => { const p = await here(sel); if (!p) return; await page.mouse.move(p.x, p.y); await page.mouse.down(); for (let k = 1; k <= 8; k++) { await page.mouse.move(p.x + (toX - p.x) * k / 8, p.y + (toY - p.y) * k / 8); await wait(15); } await page.mouse.up(); await wait(400); };
     const st = () => frame.evaluate(() => { const s = window.ZeroCardsActivity.st; return { done: s.done, misses: s.misses, v: (s.tens || 0) + (s.ones || 0), ones: s.ones }; });
     const note = () => frame.evaluate(() => document.querySelector('.zc-note').textContent);
     await click('[data-k="rack-t40"]'); let s = await st();
     is(s.v === 40 && await frame.evaluate(() => document.querySelectorAll('.zc-mat .zc-rod').length) === 4, `[${loc} @${w}] the 40 card pours four rods`);
     /* the 7 dragged just beside the stand tips off */
-    const stand = await at('.zc-stand');
+    await at('.zc-stand'); const stand = await here('.zc-stand');
     await drag('[data-k="rack-o7"]', stand.right + 50, stand.y); s = await st();
     is(s.v === 40 && s.ones === null && sp(await note()) === sp(T(loc, 'hintTip')), `[${loc} @${w}] the 7 beside the stand tips off: «${await note()}»`);
-    const cell2 = await at('.zc-cell.is-r');
+    await at('.zc-stand'); const cell2 = await here('.zc-cell.is-r');
     await drag('[data-k="rack-o7"]', cell2.x, cell2.y); s = await st();
     is(s.v === 47, `[${loc} @${w}] the 7 on the 0 → 47`);
     await click('[data-k="check"]'); s = await st();

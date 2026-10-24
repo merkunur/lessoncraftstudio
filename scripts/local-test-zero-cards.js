@@ -133,7 +133,7 @@ function serve() {
     is(s.v === 40 && s.ones === null, `${tag}: tapping the placed ones card takes it back`);
     await click(page, K('rack-o7'), tag); await check(page, tag); s = await st(page);
     is(s.done && sp(await note(page)) === sp(T(loc, 'okBuild', { n: 47, tp: TP(loc, 4), op: OP(loc, 7) })), `${tag}: 47 → okBuild «${sp(await note(page))}»`);
-    is(await page.evaluate(() => [...document.querySelectorAll('.zc-mat .zc-rod')].map(r => r.getAttribute('data-n')).join()) === '10,20,30,40', `${tag}: the rods count 10, 20, 30, 40`);
+    is(await page.evaluate(() => [...document.querySelectorAll('.zc-mat .zc-rod .zc-n')].map(r => r.textContent).join()) === '10,20,30,40', `${tag}: the rods count 10, 20, 30, 40`);
     /* ---- 12 (ten frames) built as 22 ---- */
     tag = `${loc} build 12`;
     await force(page, 'build', 'b0');
@@ -234,6 +234,8 @@ function serve() {
     /* the blocks stay inside their mat / tray */
     document.querySelectorAll('.zc-mat .zc-rod,.zc-mat .zc-cube').forEach(e => { const m = document.querySelector('.zc-mat').getBoundingClientRect(), q = e.getBoundingClientRect(); if (q.left < m.left - 1 || q.right > m.right + 1 || q.top < m.top - 1 || q.bottom > m.bottom + 1) out.fails.push('a block outside the mat'); });
     document.querySelectorAll('.zc-tray').forEach(t => { const m = t.getBoundingClientRect(); t.querySelectorAll('.zc-rod,.zc-cube').forEach(e => { const q = e.getBoundingClientRect(); if (q.left < m.left || q.right > m.right || q.top < m.top || q.bottom > m.bottom) out.fails.push('a block outside its tray'); }); });
+    /* the success count labels over the rods: each inside the mat, at least 2 px apart (touching labels read as one long number) */
+    { const m = document.querySelector('.zc-mat'), L = [...document.querySelectorAll('.zc-mat .zc-n')].map(e => e.getBoundingClientRect()); if (m && L.length) { const M = m.getBoundingClientRect(); L.forEach(q => { if (q.left < M.left || q.right > M.right || q.top < M.top) out.fails.push('a count label outside the mat'); }); for (let i = 1; i < L.length; i++) if (L[i].left < L[i - 1].right + 2) out.fails.push('two count labels touch or overlap (no 2 px gap: they read as one number)'); } }
     /* the bands never overlap */
     const band = ['.zc-target', '.zc-standrow', '.zc-mat', '.zc-right', '.zc-foot'].map(s => document.querySelector(s)).filter(e => e && vis(e)).map(e => e.getBoundingClientRect());
     for (let i = 1; i < band.length; i++) if (band[i].top < band[i - 1].bottom - 1) out.fails.push('two bands overlap');

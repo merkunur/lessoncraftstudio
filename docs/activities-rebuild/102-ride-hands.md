@@ -50,3 +50,4 @@ ONE native + pedagogy reviewer over the compact dump: the half-past hour hint (t
 - `mutate-ride-hands.js` — 15 / 15 killed (core and activity), control survived.
 - `local-test-ride-hands.js` — 24,420 checks: real taps and keys, 11 locales, every round of both levels at rest / miss 2 / solved through 320…1366; the hands drawn at the model's angles; no hand, tick, resting digit or Sprocket on a numeral; no resting digit on the display.
 - `visual-qa-activity` 60 / 60 · `audit-activity-hierarchy` 242 / 0 · `audit-settings-efficacy` 2 live · variety static scan ok · preflight-activity-routes, prose-claims, SERP copy, activity-content ×11 green.
+- `live-verify-ride-hands.js` on production: 59 / 0 (11 locale pages 200; en / de / sv / fi × 1366 / 390, real taps: 12:00 → a miss with its 12 resting on the short hand and the 3 lit, 3:00 → the celebration; the iframe grows with the card).

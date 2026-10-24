@@ -101,3 +101,4 @@ The fi illative for {to} was left as is (judged understandable; not authored bli
   - pictures at or above the floor.
 - `visual-qa-activity` 66 / 66 · `audit-activity-hierarchy` 254 / 0 · `audit-settings-efficacy` 2 live.
 - variety static scan ok · preflight-activity-routes, prose-claims, SERP copy, activity-content ×11 green.
+- `live-verify-pull-key.js` on production: 67 / 0. All 11 locale pages return 200. In en / de / sv / fi at 1366 and 390, with a real pointer: ◀ winds the key back and the 8 is ringed; 7:30 gives a miss and the spring rewinds by itself (hintBack); 8:30 gives the celebration with Owl out and the evening window; the iframe grows with the card. The first run, inside the deploy window, saw no iframe; the rerun passed.

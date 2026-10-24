@@ -1396,25 +1396,29 @@
     },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
-        "Con un colpetto di martelletto, la giudice Tess apre l'udienza: nel Tribunale dei Numeri è tuo figlio a indossare la toga e a decidere se un'uguaglianza è giusta o no.",
-        "Il cuore del gioco è la bilancia: ogni affermazione matematica poggia su due piatti e il segno uguale è il perno al centro. Quando i due lati hanno la stessa quantità, la bilancia resta in equilibrio e la sentenza è «vera»; quando pendono, l'uguaglianza è «falsa».",
-        "È un'attività pensata per la classe seconda, in linea con le Indicazioni nazionali (nucleo Numeri), che aiuta il bambino a leggere il segno uguale come un segno di equilibrio e non come il tasto di una calcolatrice."
+        "Il bambino è il giudice nel tribunale dei numeri. Un testimone dice un’uguaglianza, come 6 + 2 = 8 + 1, e il bambino timbra = (vera) o ≠ (falsa), poi batte il martelletto. In mezzo all’aula c’è il segno uguale stesso: una barra fissa in alto e, sotto, una barra che può inclinarsi. Ogni lato dell’uguaglianza sta su un piatto.",
+        "Un sigillo rosso tiene ferma la barra finché la sentenza non è giusta. Una sentenza giusta rompe il sigillo: se i due lati valgono lo stesso, le due barre restano parallele e si legge «=»; altrimenti l’estremità leggera sale fino a toccare la barra in alto, e le barre formano un «<» o un «>» aperto verso il lato maggiore. Una sentenza sbagliata non muove mai la barra. Invece i piatti mostrano quanto valgono con dei pallini, e dopo una seconda sentenza sbagliata dei fili collegano i pallini uno a uno.",
+        "Poi l’uguaglianza falsa viene resa vera: una cassetta diventa dorata e il bambino cambia il suo numero finché la barra non è piatta. Con l’impostazione «Mettere in equilibrio» ogni uguaglianza comincia con un numero mancante, come 8 + 4 = □ + 5. In linea con le Indicazioni nazionali per i numeri. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Fai il giudice: leggi l'uguaglianza sulla bilancia e stabilisci se è vera o falsa, cioè se i due piatti sono in equilibrio.",
-        "Confronta i due lati del segno uguale (per esempio 1 + 9 e 9 + 1) e scopri che possono avere la stessa quantità anche se sembrano diversi.",
-        "Riconosci le uguaglianze «al contrario», come 8 = 5 + 3, dove la somma sta a destra: il segno uguale funziona lo stesso, perché racconta solo che i due lati valgono uguale.",
-        "Quando la bilancia pende, ragiona su come rimetterla in equilibrio, così metti alla prova la tua sentenza e capisci perché è giusta."
+        "Leggere il segno uguale come «i due lati valgono lo stesso», non come «adesso viene il risultato»",
+        "Decidere se un’uguaglianza con addizioni e sottrazioni è vera o falsa",
+        "Vedere che 3 + 5 = 5 + 3 e 7 = 3 + 4 sono vere, in qualunque verso siano scritte",
+        "Trovare il numero mancante che rende uguali i due lati"
       ],
       "howToPlay": [
-        "Osserva l'uguaglianza che la giudice Tess porta in aula e guarda come si comporta la bilancia: i due piatti sono in equilibrio oppure uno pende?",
-        "Pronuncia la tua sentenza toccando «vera» o «falsa». Non ci sono punteggi né tempo: puoi fermarti a pensare quanto vuoi, con calma.",
-        "In alcuni casi puoi intervenire tu per rendere l'uguaglianza in equilibrio, dimostrando davvero che i due lati hanno la stessa quantità."
+        "Leggi l’uguaglianza del testimone e tocca il timbro = se è vera o il timbro ≠ se è falsa.",
+        "Tocca «Batti il martelletto». Una sentenza giusta rompe il sigillo, e la barra mostra se i due lati valgono lo stesso.",
+        "Se la barra resta ferma, guarda i pallini sotto i piatti e giudica di nuovo.",
+        "Se l’uguaglianza è falsa, cambia il numero della cassetta dorata con − e + finché la barra non è piatta. Dopo un’uguaglianza vera puoi girare il tribunale e leggerla al contrario.",
+        "In «Mettere in equilibrio» non c’è il timbro: imposta il numero che manca con − e +, poi batti il martelletto.",
+        "Nelle impostazioni scegli le uguaglianze («Vera o falsa» o «Mettere in equilibrio») e i numeri (fino a 10 o fino a 20)."
       ],
       "learningGoals": [
-        "Capire il significato del segno uguale: indica che i due lati hanno la stessa quantità e sono in equilibrio, non «il risultato» che arriva dopo.",
-        "Sviluppare il pensiero relazionale, imparando a confrontare i due piatti della bilancia invece di calcolare soltanto da sinistra a destra.",
-        "Giudicare uguaglianze vere o false con sicurezza, usando materiali manipolabili e visivi come la bilancia per rendere concreta ogni sentenza."
+        "Capire il segno uguale come «la stessa quantità sui due lati»",
+        "Dire se un’uguaglianza con addizione o sottrazione è vera o falsa",
+        "Rendere vera un’uguaglianza falsa cambiando un numero",
+        "Trovare il numero mancante in un’uguaglianza come 8 + 4 = □ + 5"
       ]
     },
     "comparison-creek.river-steer.k-cc-c-7": {

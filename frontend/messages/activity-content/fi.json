@@ -2612,6 +2612,33 @@
         "Käyttää yhteen- ja vähennyslaskun yhteyttä",
         "Tuntea luvun 20 lukuparit"
       ]
+    },
+    "numbers-court.judge-balance.1-oa-d-7": {
+      "about": [
+        "Lapsi on tuomarina lukujen oikeussalissa. Todistaja esittää väitteen, esimerkiksi 6 + 2 = 8 + 1, ja lapsi leimaa sen = (totta) tai ≠ (ei totta) ja kopauttaa sitten nuijalla. Salin keskellä seisoo itse yhtäsuuruusmerkki: kiinteä yläpalkki ja sen alla palkki, joka voi kallistua. Väitteen kumpikin puoli on omassa vaakakupissaan.",
+        "Punainen sinetti pitää palkin paikallaan, kunnes tuomio on oikea. Oikea tuomio rikkoo sinetin: jos molemmilla puolilla on yhtä paljon, palkit ovat suorassa ja muodostavat merkin ”=”; muuten kevyempi pää nousee, kunnes se koskettaa yläpalkkia, ja palkit muodostavat merkin ”<” tai ”>”, joka aukeaa suuremman puolen suuntaan. Väärä tuomio ei koskaan liikuta palkkia. Sen sijaan vaakakupit näyttävät määränsä pisteinä, ja toisen väärän tuomion jälkeen langat yhdistävät pisteet pareiksi.",
+        "Väärä väite tehdään sen jälkeen todeksi: yksi laatikko muuttuu kultaiseksi, ja lapsi muuttaa sen lukua, kunnes palkki on suorassa. Asetuksella ”Tasapainoon” jokaisesta väitteestä puuttuu luku, esimerkiksi 8 + 4 = □ + 5. Sopii opetussuunnitelman sisältöalueeseen Luvut ja laskutoimitukset. Ilman ajanottoa ja ilman pisteytystä."
+      ],
+      "practices": [
+        "Yhtäsuuruusmerkin lukeminen niin, että ”molemmilla puolilla on yhtä paljon”, eikä ”seuraavaksi tulee vastaus”",
+        "Sen ratkaiseminen, onko yhteen- tai vähennyslasku totta vai ei",
+        "Sen huomaaminen, että 3 + 5 = 5 + 3 ja 7 = 3 + 4 ovat totta, kummin päin ne kirjoitetaankin",
+        "Puuttuvan luvun löytäminen niin, että molemmilla puolilla on yhtä paljon"
+      ],
+      "howToPlay": [
+        "Lue todistajan väite ja napauta leimaa =, jos se on totta, tai leimaa ≠, jos se ei ole totta.",
+        "Napauta ”Kopauta nuijalla”. Oikea tuomio rikkoo sinetin, ja palkki näyttää, onko molemmilla puolilla yhtä paljon.",
+        "Jos palkki ei liiku, katso vaakakuppien alla olevia pisteitä ja tuomitse uudelleen.",
+        "Jos väite ei ole totta, muuta kultaisen laatikon lukua painikkeilla − ja +, kunnes palkki on suorassa. Toden väitteen jälkeen voit kääntää oikeussalin ja lukea väitteen toisin päin.",
+        "Asetuksessa ”Tasapainoon” ei ole leimaa: aseta puuttuva luku painikkeilla − ja + ja kopauta sitten nuijalla.",
+        "Asetuksista valitset väitteet (”Totta vai ei totta” tai ”Tasapainoon”) ja luvut (10 asti tai 20 asti)."
+      ],
+      "learningGoals": [
+        "Ymmärtää yhtäsuuruusmerkki niin, että ”molemmilla puolilla on yhtä paljon”",
+        "Päätellä, onko yhteen- tai vähennyslasku totta",
+        "Tehdä väärästä väitteestä tosi muuttamalla yhtä lukua",
+        "Löytää puuttuva luku yhtälöstä, kuten 8 + 4 = □ + 5"
+      ]
     }
   }
 }

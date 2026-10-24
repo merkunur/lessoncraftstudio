@@ -1,7 +1,7 @@
 [
   {
     "id": "numbers-court.judge-balance.1-oa-d-7",
-    "tool": "numbers-court-activity",
+    "tool": "sign-beam-activity",
     "task_template": "judge-balance",
     "alignment": {
       "framework": "CCSS",
@@ -10,8 +10,435 @@
       "strand": "Operations & Algebraic Thinking"
     },
     "params": {
-      "generate": true,
-      "n": 12
+      "note": "A mirror of sign-beam-core.js (every claim of both modes and both levels: the claim, what each side holds, the verdict, and the crate a false claim is repaired on or the blank to balance). The core is the source; this row runs the Equal-Sign Beam.",
+      "modes": [
+        "tf",
+        "mb"
+      ],
+      "levels": [
+        "10",
+        "20"
+      ],
+      "rounds": {
+        "tf": {
+          "10": [
+            {
+              "claim": "3 + 5 = 5 + 3",
+              "left": 8,
+              "right": 8,
+              "verdict": true,
+              "spot": null
+            },
+            {
+              "claim": "7 = 3 + 4",
+              "left": 7,
+              "right": 7,
+              "verdict": true,
+              "spot": null
+            },
+            {
+              "claim": "9 = 4 + 4",
+              "left": 9,
+              "right": 8,
+              "verdict": false,
+              "spot": {
+                "side": "L",
+                "crate": 0,
+                "answer": 8
+              }
+            },
+            {
+              "claim": "2 + 6 = 5 + 3",
+              "left": 8,
+              "right": 8,
+              "verdict": true,
+              "spot": null
+            },
+            {
+              "claim": "4 + 3 = 2 + 6",
+              "left": 7,
+              "right": 8,
+              "verdict": false,
+              "spot": {
+                "side": "R",
+                "crate": 1,
+                "answer": 5
+              }
+            },
+            {
+              "claim": "5 = 9 − 4",
+              "left": 5,
+              "right": 5,
+              "verdict": true,
+              "spot": null
+            },
+            {
+              "claim": "3 = 8 − 4",
+              "left": 3,
+              "right": 4,
+              "verdict": false,
+              "spot": {
+                "side": "R",
+                "crate": 0,
+                "answer": 7
+              }
+            },
+            {
+              "claim": "4 + 2 = 6",
+              "left": 6,
+              "right": 6,
+              "verdict": true,
+              "spot": null
+            },
+            {
+              "claim": "6 + 2 = 8 + 1",
+              "left": 8,
+              "right": 9,
+              "verdict": false,
+              "spot": {
+                "side": "L",
+                "crate": 1,
+                "answer": 3
+              }
+            },
+            {
+              "claim": "6 = 6",
+              "left": 6,
+              "right": 6,
+              "verdict": true,
+              "spot": null
+            },
+            {
+              "claim": "9 − 2 = 3 + 5",
+              "left": 7,
+              "right": 8,
+              "verdict": false,
+              "spot": {
+                "side": "R",
+                "crate": 1,
+                "answer": 4
+              }
+            },
+            {
+              "claim": "10 − 3 = 4 + 3",
+              "left": 7,
+              "right": 7,
+              "verdict": true,
+              "spot": null
+            }
+          ],
+          "20": [
+            {
+              "claim": "7 + 9 = 9 + 7",
+              "left": 16,
+              "right": 16,
+              "verdict": true,
+              "spot": null
+            },
+            {
+              "claim": "14 = 6 + 8",
+              "left": 14,
+              "right": 14,
+              "verdict": true,
+              "spot": null
+            },
+            {
+              "claim": "13 = 7 + 5",
+              "left": 13,
+              "right": 12,
+              "verdict": false,
+              "spot": {
+                "side": "R",
+                "crate": 1,
+                "answer": 6
+              }
+            },
+            {
+              "claim": "9 + 6 = 8 + 7",
+              "left": 15,
+              "right": 15,
+              "verdict": true,
+              "spot": null
+            },
+            {
+              "claim": "8 + 4 = 12 + 1",
+              "left": 12,
+              "right": 13,
+              "verdict": false,
+              "spot": {
+                "side": "R",
+                "crate": 0,
+                "answer": 11
+              }
+            },
+            {
+              "claim": "8 = 15 − 7",
+              "left": 8,
+              "right": 8,
+              "verdict": true,
+              "spot": null
+            },
+            {
+              "claim": "9 = 16 − 8",
+              "left": 9,
+              "right": 8,
+              "verdict": false,
+              "spot": {
+                "side": "L",
+                "crate": 0,
+                "answer": 8
+              }
+            },
+            {
+              "claim": "9 + 5 = 14",
+              "left": 14,
+              "right": 14,
+              "verdict": true,
+              "spot": null
+            },
+            {
+              "claim": "18 − 9 = 4 + 5",
+              "left": 9,
+              "right": 9,
+              "verdict": true,
+              "spot": null
+            },
+            {
+              "claim": "7 + 7 = 20 − 5",
+              "left": 14,
+              "right": 15,
+              "verdict": false,
+              "spot": {
+                "side": "R",
+                "crate": 1,
+                "answer": 6
+              }
+            },
+            {
+              "claim": "17 = 10 + 7",
+              "left": 17,
+              "right": 17,
+              "verdict": true,
+              "spot": null
+            },
+            {
+              "claim": "6 + 9 = 11 + 3",
+              "left": 15,
+              "right": 14,
+              "verdict": false,
+              "spot": {
+                "side": "R",
+                "crate": 1,
+                "answer": 4
+              }
+            }
+          ]
+        },
+        "mb": {
+          "10": [
+            {
+              "claim": "3 + 4 = □ + 5",
+              "left": 7,
+              "right": null,
+              "verdict": null,
+              "spot": {
+                "side": "R",
+                "crate": 0,
+                "answer": 2
+              }
+            },
+            {
+              "claim": "6 + 2 = 5 + □",
+              "left": 8,
+              "right": null,
+              "verdict": null,
+              "spot": {
+                "side": "R",
+                "crate": 1,
+                "answer": 3
+              }
+            },
+            {
+              "claim": "□ + 4 = 2 + 7",
+              "left": null,
+              "right": 9,
+              "verdict": null,
+              "spot": {
+                "side": "L",
+                "crate": 0,
+                "answer": 5
+              }
+            },
+            {
+              "claim": "9 − 3 = □ + 2",
+              "left": 6,
+              "right": null,
+              "verdict": null,
+              "spot": {
+                "side": "R",
+                "crate": 0,
+                "answer": 4
+              }
+            },
+            {
+              "claim": "2 + □ = 10 − 1",
+              "left": null,
+              "right": 9,
+              "verdict": null,
+              "spot": {
+                "side": "L",
+                "crate": 1,
+                "answer": 7
+              }
+            },
+            {
+              "claim": "8 − □ = 1 + 6",
+              "left": null,
+              "right": 7,
+              "verdict": null,
+              "spot": {
+                "side": "L",
+                "crate": 1,
+                "answer": 1
+              }
+            },
+            {
+              "claim": "□ − 2 = 3 + 3",
+              "left": null,
+              "right": 6,
+              "verdict": null,
+              "spot": {
+                "side": "L",
+                "crate": 0,
+                "answer": 8
+              }
+            },
+            {
+              "claim": "5 + 5 = 4 + □",
+              "left": 10,
+              "right": null,
+              "verdict": null,
+              "spot": {
+                "side": "R",
+                "crate": 1,
+                "answer": 6
+              }
+            }
+          ],
+          "20": [
+            {
+              "claim": "8 + 4 = □ + 5",
+              "left": 12,
+              "right": null,
+              "verdict": null,
+              "spot": {
+                "side": "R",
+                "crate": 0,
+                "answer": 7
+              }
+            },
+            {
+              "claim": "6 + 7 = 10 + □",
+              "left": 13,
+              "right": null,
+              "verdict": null,
+              "spot": {
+                "side": "R",
+                "crate": 1,
+                "answer": 3
+              }
+            },
+            {
+              "claim": "□ + 9 = 7 + 8",
+              "left": null,
+              "right": 15,
+              "verdict": null,
+              "spot": {
+                "side": "L",
+                "crate": 0,
+                "answer": 6
+              }
+            },
+            {
+              "claim": "15 − 6 = □ + 4",
+              "left": 9,
+              "right": null,
+              "verdict": null,
+              "spot": {
+                "side": "R",
+                "crate": 0,
+                "answer": 5
+              }
+            },
+            {
+              "claim": "3 + □ = 13 − 2",
+              "left": null,
+              "right": 11,
+              "verdict": null,
+              "spot": {
+                "side": "L",
+                "crate": 1,
+                "answer": 8
+              }
+            },
+            {
+              "claim": "9 + 9 = 20 − □",
+              "left": 18,
+              "right": null,
+              "verdict": null,
+              "spot": {
+                "side": "R",
+                "crate": 1,
+                "answer": 2
+              }
+            },
+            {
+              "claim": "14 − □ = 6 + 4",
+              "left": null,
+              "right": 10,
+              "verdict": null,
+              "spot": {
+                "side": "L",
+                "crate": 1,
+                "answer": 4
+              }
+            },
+            {
+              "claim": "□ − 3 = 2 + 4",
+              "left": null,
+              "right": 6,
+              "verdict": null,
+              "spot": {
+                "side": "L",
+                "crate": 0,
+                "answer": 9
+              }
+            },
+            {
+              "claim": "12 + 3 = 5 + □",
+              "left": 15,
+              "right": null,
+              "verdict": null,
+              "spot": {
+                "side": "R",
+                "crate": 1,
+                "answer": 10
+              }
+            },
+            {
+              "claim": "11 + □ = 6 + 6",
+              "left": null,
+              "right": 12,
+              "verdict": null,
+              "spot": {
+                "side": "L",
+                "crate": 1,
+                "answer": 1
+              }
+            }
+          ]
+        }
+      }
     },
     "theme": null,
     "slug": {
@@ -22,7 +449,10 @@
       "pt": "sinal-de-igual-sentencas-verdadeiras-ou-falsas-balanca-3-ano",
       "it": "segno-uguale-uguaglianze-vere-o-false-bilancia-classe-seconda",
       "nl": "gelijkteken-weegschaal-groep-4",
-      "sv": "likhetstecknet-sant-eller-falskt-balansvag-ak-1"
+      "sv": "likhetstecknet-sant-eller-falskt-balansvag-ak-1",
+      "da": "lighedstegnet-sandt-eller-falsk-paa-vaegten",
+      "no": "likhetstegnet-sant-eller-usant-pa-vekta",
+      "fi": "yhtasuuruusmerkki-totta-vai-ei"
     },
     "page_title": {
       "en": "Numbers Court — Is the Equation Fair? (Grade 1)",
@@ -32,7 +462,10 @@
       "pt": "Tribunal dos Números com a Tess: sinal de igual, verdadeiro ou falso — 3º ano",
       "it": "Il Tribunale dei Numeri con la giudice Tess: il segno uguale e le uguaglianze vere o false (classe seconda)",
       "nl": "Het Getallengerecht — ontdek wat het gelijkteken écht betekent (Groep 4)",
-      "sv": "Likhetstecknet – sant eller falskt i Tess domstol (åk 1)"
+      "sv": "Likhetstecknet – sant eller falskt i Tess domstol (åk 1)",
+      "da": "Lighedstegnet – sandt eller falsk på vægten (1. klasse)",
+      "no": "Likhetstegnet – sant eller usant på vekta",
+      "fi": "Yhtäsuuruusmerkki – totta vai ei totta vaa'alla (1. lk)"
     },
     "page_intro": {
       "en": "An interactive Grade 1 math game for the meaning of the equal sign: be the Judge in Numbers Court and rule each math claim TRUE or FALSE on a balance beam where “=” means both sides hold the same amount — not “the answer comes next” — then prove it, and sometimes make it fair. Reading the equal sign relationally is the heart of Common Core 1.OA.D.7.",
@@ -42,7 +475,10 @@
       "pt": "Com a juíza Tess, descubra que o sinal de igual significa os dois lados iguais, em equilíbrio — não \"o resultado\". Julgue sentenças verdadeiras e falsas na balança. Interativo, 3º ano.",
       "it": "Fai il giudice nel Tribunale dei Numeri! In questo gioco di matematica per la classe seconda, la giudice Tess — una simpatica tartaruga in toga — invita tuo figlio a stabilire se un'uguaglianza è giusta o no. Ogni affermazione (come 8 = 5 + 3 oppure 1 + 9 = 9 + 1) sale su una bilancia dove il segno uguale è il perno: significa che i due piatti hanno la stessa quantità, sono in equilibrio — non «il risultato che viene dopo». Il bambino osserva, decide vero o falso e, a volte, rimette tutto in equilibrio. Senza registrazione, direttamente nel browser, allineato alle Indicazioni nazionali (nucleo Numeri). Un modo giocoso per allenare online il pensiero relazionale e capire davvero il segno uguale.",
       "nl": "Interactief spel over het gelijkteken. Rechter Roos de schildpad houdt rechtszaak: klopt de som? Met de weegschaal ontdekt je kind dat het gelijkteken betekent: aan beide kanten evenveel. Sluit aan bij de SLO-kerndoelen.",
-      "sv": "Stämmer 8 = 5 + 3? Hos sköldpaddan Tess dömer barnet först och visar sedan på balansvågen varför: likhetstecknet betyder lika mycket på båda sidor. Åk 1, Lgr22."
+      "sv": "Stämmer 8 = 5 + 3? Hos sköldpaddan Tess dömer barnet först och visar sedan på balansvågen varför: likhetstecknet betyder lika mycket på båda sidor. Åk 1, Lgr22.",
+      "da": "Hvad betyder lighedstegnet? Barnet er dommer i Talretten og afgør, om hver påstand er sand eller falsk: lighedstegnet på vægten ligger kun lige, når begge sider er lige meget. I tråd med Fælles Mål.",
+      "no": "Hva betyr likhetstegnet? Barnet er dommer i Talretten og avgjør om hver påstand er sann eller usann: likhetstegnet på vekta ligger bare rett når begge sidene er like mye. I tråd med LK20.",
+      "fi": "Mitä yhtäsuuruusmerkki tarkoittaa? Lapsi on tuomarina lukujen oikeussalissa ja ratkaisee, onko väite totta: vaa'an merkki on suorassa vain, kun molemmilla puolilla on yhtä paljon. Perusopetuksen opetussuunnitelman (OPS 2014) mukainen."
     },
     "kid_prompt_template": "judge-balance"
   }

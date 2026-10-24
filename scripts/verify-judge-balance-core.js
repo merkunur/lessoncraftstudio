@@ -19,6 +19,8 @@
    isTrue), repair GOLD-only + optional, ≥7 distinct experiences.
    ===================================================================== */
 'use strict';
+/* Row 88 rebuild (2026-10-24): the row runs the Equal-Sign Beam (sign-beam-activity; gates verify-sign-beam-core.js + local-test-sign-beam.js) and no page loads the old Numbers Court files any more. */
+{ const _m = JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'numbers-court-activities.json'), 'utf8')); const _r = (Array.isArray(_m) ? _m : _m.activities).find(a => a.id === 'numbers-court.judge-balance.1-oa-d-7'); if (_r && _r.tool !== 'numbers-court-activity') { console.log('verify-judge-balance-core: the row runs the Equal-Sign Beam — see verify-sign-beam-core.js / local-test-sign-beam.js. Nothing to check here.'); process.exit(0); } }
 const fs = require('fs');
 const path = require('path');
 

@@ -2586,24 +2586,28 @@
     },
     "choice-board.compare-two-digit.1-nbt-b-3": {
       "about": [
-        "Deux nombres à deux chiffres apparaissent — comme 47 et 52, ou 63 et 38 — et l'enfant touche l'affirmation qui est vraie, à l'aide des signes plus grand que (>), plus petit que (<) et égal (=). Certaines paires sont égales, comme 45 et 45 ou 88 et 88, alors le signe égal compte aussi. C'est une activité de numération de CP (utile dès la grande section), qui se joue directement dans le navigateur sans inscription.",
-        "La stratégie consiste à regarder d'abord les dizaines, puis les unités. Avec 47 et 52, les 5 dizaines l'emportent sur les 4 dizaines, donc 47 est plus petit que 52 — même si 7 est plus grand que 2. Des paires pièges comme 29 et 92 utilisent les mêmes chiffres à des places différentes : l'enfant doit donc lire la valeur de position plutôt que les chiffres eux-mêmes. Choisir le bon signe transforme cette comparaison en langage mathématique : >, = et <. L'activité est conforme aux programmes officiels : ni minuteur, ni score, juste un entraînement calme et ludique."
+        "Chaque nombre se tient sur une estrade comme un petit meuble en bois avec un tiroir pour les dizaines et un tiroir pour les unités. Sous l’estrade, il y a une poignée pour chaque rang, et quand on la tire, ce tiroir s’ouvre dans les deux meubles à la fois. Les tiroirs des dizaines s’ouvrent d’abord, et leurs barres se dressent en colonne à côté de chaque meuble. Si les dizaines sont pareilles, les tiroirs des unités se déverrouillent et leurs cubes rejoignent les colonnes. Si les dizaines sont différentes, les tiroirs des unités se ferment à clé, car neuf unités n’atteignent jamais la dizaine suivante.",
+        "Quand les tiroirs qui décident sont ouverts, le signe entre les meubles se redresse, et l’enfant le touche pour le tourner en <, > ou =. Quand on vérifie, tous les tiroirs s’ouvrent et le signe s’étire jusqu’aux deux colonnes : son côté ouvert doit entourer la colonne la plus haute, et le = ne reste à plat que sur deux colonnes de la même hauteur. Dans les manches à ranger, trois meubles montent sur un escalier, le plus petit d’abord ou le plus grand d’abord, et quand on vérifie leurs colonnes s’élèvent au-dessus d’eux ; un meuble mal placé retourne d’un bond dans la rangée d’attente.",
+        "Les nombres peuvent être des groupes de fruits jusqu’à 20 (des paquets de dix et des jetons isolés), des nombres à deux chiffres ou des nombres à quatre chiffres avec quatre tiroirs, comparés en partant de la gauche. Après une erreur, les tiroirs qui décident s’allument. Après une deuxième, pour les groupes et les nombres à deux chiffres, les dizaines sont comptées 10, 20, 30 le long de chaque colonne, et une ligne en pointillés montre l’écart entre les colonnes. En lien avec les programmes officiels pour le domaine Nombres et calculs. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Comparer deux nombres à deux chiffres par leurs dizaines, puis par leurs unités.",
-        "Choisir le bon signe : plus grand que, plus petit que ou égal.",
-        "Reconnaître quand deux nombres sont égaux.",
-        "Lire la valeur de position dans des paires pièges comme 29 et 92."
+        "Comparer des nombres à deux chiffres : d’abord les dizaines, puis les unités",
+        "Voir pourquoi neuf unités ne battent jamais une dizaine de plus",
+        "Tourner le signe pour que son côté ouvert regarde le plus grand nombre",
+        "Ranger trois nombres, le plus petit d’abord ou le plus grand d’abord"
       ],
       "howToPlay": [
-        "Regarde les deux nombres à deux chiffres : observe d'abord le chiffre des dizaines, puis celui des unités.",
-        "Touche l'affirmation qui est vraie, avec >, = ou <.",
-        "Pas tout à fait ? Recommence autant de fois que tu veux : il n'y a ni minuteur, ni score."
+        "Tire la poignée des dizaines : les tiroirs s’ouvrent dans les deux meubles et les barres se dressent.",
+        "Si les dizaines sont pareilles, tire aussi la poignée des unités. Une poignée fermée à clé ne fait que cliqueter.",
+        "Touche le signe jusqu’à ce qu’il soit juste, puis appuie sur Vérifier.",
+        "Dans les manches à ranger, fais glisser un meuble sur une marche (ou touche-le, puis touche la marche) et appuie sur Vérifier.",
+        "Dans les réglages, choisis les nombres (groupes jusqu’à 20, deux chiffres ou quatre chiffres) et la tâche (comparer deux ou ranger trois)."
       ],
       "learningGoals": [
-        "Comparer des nombres à deux chiffres et noter le résultat avec >, = et <.",
-        "Se servir du sens des chiffres des dizaines et des unités pour décider quel nombre est le plus grand.",
-        "Construire la comparaison par valeur de position dont dépendra plus tard le travail sur les grands nombres."
+        "Comparer deux nombres à deux chiffres d’après ce que veulent dire le chiffre des dizaines et celui des unités.",
+        "Écrire la comparaison avec >, = et <.",
+        "Ranger trois nombres d’après la valeur de leurs chiffres.",
+        "Comparer de plus grands nombres rang par rang, en partant de la gauche."
       ]
     },
     "clock.set-clock.1-md-b-3": {

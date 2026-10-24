@@ -247,6 +247,10 @@ function seedScript(row) {
     // 34 built as 4 crates and 3 berries: the door tag stretched into 30 and 4 over the shelf, the crate count 40 coral under the 30 — the stretching tag at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.numbers='99';t.api.settings.card='num';t._pool=null;t._ensurePool();t._start(0,0);var C=window.DoorTagCore,s=t.st;for(var i=0;i<4;i++)C.fling(s,'crate');for(var j=0;j<3;j++)C.fling(s,'berry');t._check();})()`;
   }
+  if (row.tool === 'rod-drawers-activity') {
+    // 63 > 38 solved: both columns standing to scale beside their cabinets, the sign stretched between them with its open side round the 63 column, the ones drawers sealed — the ten-rod drawers at work
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.numbers='two';t.api.settings.task='compare';t._pool=null;t._ensurePool();t._start(1,0);var C=window.RodDrawersCore,s=t.st;C.openPlace(s,0);C.turn(s);C.turn(s);t._check();})()`;
+  }
   if (row.tool === 'ten-band-activity') {
     // Make 34: three tens on the rack, seven loose cubes pulled into the band, its three empty pockets showing — not ten yet, so no ten is made: the ten-pocket band at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.numbers='49';t.api.settings.gaps='show';t._pool=null;t._ensurePool();t._start(1,0);var C=window.TenBandCore,s=t.st,g=0;while(s.rack<3&&g++<60){while(s.plate.length<10&&C.hopper(s)){}C.pull(s);}while(s.plate.length<7&&C.hopper(s)){}while(s.plate.length>7)C.takeOut(s);var res=C.pull(s);t._view={band:res,pulled:true};t._render2();})()`;

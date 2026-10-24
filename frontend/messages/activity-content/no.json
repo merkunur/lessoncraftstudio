@@ -454,25 +454,28 @@
     },
     "choice-board.compare-two-digit.1-nbt-b-3": {
       "about": [
-        "To tosifrede tall dukker opp — som 47 og 52, eller 63 og 38 — og barnet trykker på det utsagnet som er riktig, med tegnene større enn (>), mindre enn (<) og lik (=). Noen par er like, for eksempel 45 og 45 eller 88 og 88, så likhetstegnet betyr noe det også. Det er en plassverdiaktivitet for 1. trinn som kjører rett i nettleseren, uten konto.",
-        "Strategien er å se på tierne først og deretter på enerne. Med 47 og 52 slår de 5 tierne de 4 tierne, så 47 er mindre enn 52 — selv om 7 er større enn 2. Lure par som 29 og 92 bruker de samme sifrene på ulike plasser, så barnet må lese plassverdien i stedet for selve sifrene. Å velge riktig tegn gjør sammenligningen om til det formelle språket >, = og <.",
-        "Aktiviteten er tilpasset LK20 innenfor tall — å sammenligne to tosifrede tall ut fra hva tier- og enersifrene betyr, og notere svaret med tegnene >, = og <. Den passer for 1. trinn. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "Hvert tall står på en scene som et lite treskap med en skuff til tierne og en skuff til enerne. Under scenen er det ett håndtak for hver plass, og når man drar i det, åpnes skuffen i begge skapene samtidig. Tierskuffene åpnes først, og stavene deres reiser seg som en søyle ved siden av hvert skap. Er tierne like, låses enerskuffene opp, og klossene deres legges oppå søylene. Er tierne forskjellige, låses enerskuffene, for ni enere rekker aldri opp til neste tier.",
+        "Når de avgjørende skuffene er åpne, reiser tegnet mellom skapene seg, og barnet trykker på det for å snu det til <, > eller =. Når man sjekker, åpnes alle skuffene, og tegnet strekker seg ut mot de to søylene: Den åpne siden må holde rundt den høyere søylen, og = ligger bare rett på to like høye søyler. I rekkefølgerundene settes tre skap på en trapp, det minste eller det største først, og når man sjekker, vokser søylene deres opp over dem; et skap på feil plass hopper tilbake til venteplassen.",
+        "Tallene kan være grupper av frukt opp til 20 (pakker med ti og løse brikker), tosifrede tall eller firesifrede tall med fire skuffer, som sammenlignes fra venstre. Etter et feilforsøk lyser skuffene som avgjør. Etter det andre telles tierne oppover hver søyle med 10, 20, 30 i gruppene og de tosifrede tallene, og en stiplet linje viser forskjellen mellom søylene. I tråd med LK20, kompetansemål i matematikk etter 2. trinn. Uten tidtaking og uten poeng."
       ],
       "practices": [
-        "Sammenligne to tosifrede tall etter tierne først, deretter enerne.",
-        "Velge riktig tegn — større enn, mindre enn eller lik.",
-        "Kjenne igjen når to tall er like.",
-        "Lese plassverdien i lure par som 29 og 92."
+        "Å sammenligne tosifrede tall: først tierne, så enerne",
+        "Å se hvorfor ni enere aldri slår én tier til",
+        "Å snu tegnet slik at den åpne siden vender mot det største tallet",
+        "Å ordne tre tall, det minste eller det største først"
       ],
       "howToPlay": [
-        "Se på de to tosifrede tallene, og sjekk tiersifferet først og deretter enersifferet.",
-        "Trykk på det utsagnet som er riktig, med >, = eller <.",
-        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+        "Dra i tierhåndtaket: Tierskuffene åpnes i begge skapene, og stavene reiser seg.",
+        "Er tierne like, drar du også i enerhåndtaket. Et låst håndtak bare rasler.",
+        "Trykk på tegnet til det stemmer, og trykk så på Sjekk.",
+        "I rekkefølgerundene drar du et skap til et trinn (eller trykker på det og så på trinnet) og trykker på Sjekk.",
+        "I innstillingene velger du tallene (grupper opp til 20, tosifrede eller firesifrede) og oppgaven (sammenlign to eller ordne tre)."
       ],
       "learningGoals": [
-        "Barnet kan sammenligne tosifrede tall og notere svaret med >, = og <.",
-        "Barnet bruker betydningen av tier- og enersifrene for å avgjøre hvilket tall som er størst.",
-        "Barnet bygger ferdigheten i plassverdisammenligning som arbeid med større tall senere bygger på."
+        "Å sammenligne to tosifrede tall ut fra hva tiersifferet og enersifferet betyr.",
+        "Å skrive sammenligningen med >, = og <.",
+        "Å ordne tre tall etter plassverdien deres.",
+        "Å sammenligne større tall plass for plass fra venstre."
       ]
     },
     "clock.set-clock.1-md-b-3": {

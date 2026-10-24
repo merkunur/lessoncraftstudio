@@ -15,6 +15,8 @@
    setupTask only sets state (no DOM) → headless-safe. Exit 0 = pass; 1 = fail.
    ===================================================================== */
 'use strict';
+/* Row 95 rebuild (2026-10-24): the row runs the Ten-Rod Drawers (rod-drawers-activity; gates verify-rod-drawers-core.js + local-test-rod-drawers.js) and has left choice-board-activities.json. */
+{ const _m = JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'choice-board-activities.json'), 'utf8')); if (!(Array.isArray(_m) ? _m : _m.activities).some(a => a.id === 'choice-board.compare-two-digit.1-nbt-b-3')) { console.log('verify-choice-board-compare: the row runs the Ten-Rod Drawers — see verify-rod-drawers-core.js / local-test-rod-drawers.js. Nothing to check here.'); process.exit(0); } }
 const fs = require('fs');
 const path = require('path');
 

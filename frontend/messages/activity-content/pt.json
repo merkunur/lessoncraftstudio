@@ -1220,25 +1220,28 @@
     },
     "choice-board.compare-two-digit.1-nbt-b-3": {
       "about": [
-        "Aparecem dois números de dois dígitos — como 47 e 52, ou 63 e 38 — e a criança toca na frase que está certa, usando os sinais de maior que (>), menor que (<) e igual a (=). Alguns pares são iguais, como 45 e 45 ou 88 e 88, então o sinal de igual também conta. É uma atividade de valor posicional para o 1º ano, que roda direto no navegador, sem cadastro.",
-        "A estratégia é olhar primeiro as dezenas e, depois, as unidades. Com 47 e 52, as 5 dezenas vencem as 4 dezenas, então 47 é menor que 52 — mesmo que o 7 seja maior que o 2. Pares espertos como 29 e 92 usam os mesmos algarismos em posições diferentes, então a criança precisa ler o valor posicional, e não só os algarismos. Escolher o sinal correto transforma essa comparação na linguagem do >, do = e do <.",
-        "A atividade está alinhada à BNCC, na unidade temática Números, comparando dois números de dois dígitos pelo significado das dezenas e das unidades e registrando o resultado com os sinais >, = e <. Sem cronômetro, sem pontuação: só prática calma para fortalecer o sentido numérico."
+        "Cada número fica num palco como um armarinho de madeira com uma gaveta para as dezenas e outra para as unidades. Embaixo do palco há um puxador para cada ordem, e ao puxá-lo essa gaveta se abre nos dois armários ao mesmo tempo. Primeiro se abrem as gavetas das dezenas, e as barras delas se levantam como uma coluna ao lado de cada armário. Se as dezenas forem iguais, as gavetas das unidades se destrancam e os cubinhos delas sobem nas colunas. Se as dezenas forem diferentes, as gavetas das unidades se trancam, porque nove unidades nunca chegam à próxima dezena.",
+        "Quando as gavetas que decidem estão abertas, o sinal entre os armários se levanta e a criança toca nele para girá-lo para <, > ou =. Ao verificar, todas as gavetas se abrem e o sinal se estica até as duas colunas: o lado aberto tem que abraçar a coluna mais alta, e o = só fica reto em duas colunas da mesma altura. Nas rodadas de ordenar, três armários sobem numa escada, primeiro o menor ou primeiro o maior, e ao verificar as colunas deles crescem por cima; um armário no lugar errado pula de volta para a fila de espera.",
+        "Os números podem ser grupos de frutas até 20 (pacotes de dez e fichas soltas), números de dois dígitos ou números de quatro dígitos com quatro gavetas, comparados a partir da esquerda. Depois de uma tentativa errada, as gavetas que decidem se acendem. Depois da segunda, nos grupos e nos números de dois dígitos, as dezenas são contadas 10, 20, 30 ao longo de cada coluna, e uma linha pontilhada mostra a diferença entre as colunas. De acordo com a BNCC, na unidade temática Números. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Comparar dois números de dois dígitos pelas dezenas e, depois, pelas unidades.",
-        "Escolher o sinal certo — maior que, menor que ou igual a.",
-        "Reconhecer quando dois números são iguais.",
-        "Ler o valor posicional em pares espertos como 29 e 92."
+        "Comparar números de dois dígitos: primeiro as dezenas, depois as unidades",
+        "Ver por que nove unidades nunca ganham de uma dezena a mais",
+        "Girar o sinal para que o lado aberto fique virado para o número maior",
+        "Colocar três números em ordem, primeiro o menor ou primeiro o maior"
       ],
       "howToPlay": [
-        "Olhe os dois números de dois dígitos, conferindo primeiro o algarismo das dezenas e depois o das unidades.",
-        "Toque na frase que está certa, usando >, = ou <.",
-        "Não acertou? Tente de novo quantas vezes quiser — não tem cronômetro nem pontuação."
+        "Puxe o puxador das dezenas: as gavetas se abrem nos dois armários e as barras se levantam.",
+        "Se as dezenas forem iguais, puxe também o puxador das unidades. Um puxador trancado só chacoalha.",
+        "Toque no sinal até ficar certo e depois aperte Verificar.",
+        "Nas rodadas de ordenar, arraste um armário para um degrau (ou toque nele e depois no degrau) e aperte Verificar.",
+        "Nas configurações, escolha os números (grupos até 20, dois dígitos ou quatro dígitos) e a tarefa (comparar dois ou ordenar três)."
       ],
       "learningGoals": [
-        "Comparar números de dois dígitos e registrar o resultado com >, = e <.",
-        "Usar o significado das dezenas e das unidades para decidir qual número é maior.",
-        "Construir a comparação por valor posicional de que o trabalho com números maiores vai depender."
+        "Comparar dois números de dois dígitos pelo significado do algarismo das dezenas e do das unidades.",
+        "Registrar a comparação com >, = e <.",
+        "Ordenar três números pelo valor posicional.",
+        "Comparar números maiores ordem por ordem, a partir da esquerda."
       ]
     },
     "clock.set-clock.1-md-b-3": {

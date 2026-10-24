@@ -1719,25 +1719,28 @@
     },
     "choice-board.compare-two-digit.1-nbt-b-3": {
       "about": [
-        "Appaiono due numeri a due cifre — come 47 e 52, oppure 63 e 38 — e il bambino tocca l'affermazione vera, usando i simboli maggiore (>), minore (<) e uguale (=). Alcune coppie sono uguali, come 45 e 45 o 88 e 88, quindi anche il segno di uguale conta. È un'attività sul valore posizionale per la prima elementare, che si gioca direttamente nel browser senza registrazione.",
-        "La strategia è guardare prima le decine e poi le unità. Con 47 e 52, le 5 decine battono le 4 decine, quindi 47 è minore di 52 — anche se 7 è più grande di 2. Le coppie insidiose come 29 e 92 usano le stesse cifre in posizioni diverse, perciò il bambino deve leggere il valore posizionale e non le cifre da sole. Scegliere il simbolo corretto trasforma quel confronto nel linguaggio formale di >, = e <.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: confrontare due numeri a due cifre basandosi sul significato delle decine e delle unità e registrare il risultato con i simboli >, = e <. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
+        "Ogni numero sta su un palco come un piccolo mobiletto di legno con un cassetto per le decine e uno per le unità. Sotto il palco c’è un pomello per ogni posizione, e tirandolo si apre quel cassetto in tutti e due i mobiletti insieme. Prima si aprono i cassetti delle decine, e le loro barrette si alzano come una colonna accanto a ogni mobiletto. Se le decine sono uguali, i cassetti delle unità si sbloccano e i loro cubetti salgono sulle colonne. Se le decine sono diverse, i cassetti delle unità si chiudono con il lucchetto, perché nove unità non arrivano mai alla decina successiva.",
+        "Quando i cassetti che decidono sono aperti, il simbolo tra i mobiletti si alza e il bambino lo tocca per girarlo su <, > o =. Al controllo si aprono tutti i cassetti e il simbolo si allunga verso le due colonne: il lato aperto deve abbracciare la colonna più alta, e l’= resta dritto solo su due colonne alte uguali. Nei turni di ordinamento, tre mobiletti salgono su una scala, prima il più piccolo o prima il più grande, e al controllo le loro colonne crescono sopra di loro; un mobiletto al posto sbagliato salta di nuovo nella fila d’attesa.",
+        "I numeri possono essere gruppi di frutta fino a 20 (confezioni da dieci e gettoni sfusi), numeri a due cifre o numeri a quattro cifre con quattro cassetti, che si confrontano da sinistra. Dopo un tentativo sbagliato si illuminano i cassetti che decidono. Dopo il secondo, nei gruppi e nei numeri a due cifre, le decine vengono contate 10, 20, 30 lungo ogni colonna, e una linea tratteggiata mostra la differenza tra le colonne. In linea con le Indicazioni nazionali per i numeri. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Confrontare due numeri a due cifre guardando prima le decine e poi le unità.",
-        "Scegliere il simbolo giusto — maggiore, minore o uguale.",
-        "Riconoscere quando due numeri sono uguali.",
-        "Leggere il valore posizionale in coppie insidiose come 29 e 92."
+        "Confrontare numeri a due cifre: prima le decine, poi le unità",
+        "Vedere perché nove unità non battono mai una decina in più",
+        "Girare il simbolo in modo che il lato aperto guardi il numero maggiore",
+        "Mettere in ordine tre numeri, prima il più piccolo o prima il più grande"
       ],
       "howToPlay": [
-        "Il bambino guarda i due numeri a due cifre, controllando prima la cifra delle decine e poi quella delle unità.",
-        "Tocca l'affermazione vera, usando >, = o <.",
-        "Non è giusto? Si può riprovare quante volte si vuole, senza timer e senza punteggio."
+        "Tira il pomello delle decine: i cassetti si aprono in tutti e due i mobiletti e le barrette si alzano.",
+        "Se le decine sono uguali, tira anche il pomello delle unità. Un pomello chiuso con il lucchetto fa solo rumore.",
+        "Tocca il simbolo finché è giusto, poi premi Controlla.",
+        "Nei turni di ordinamento trascini un mobiletto su un gradino (oppure lo tocchi e poi tocchi il gradino) e premi Controlla.",
+        "Nelle impostazioni scegli i numeri (gruppi fino a 20, due cifre o quattro cifre) e il compito (confronta due o ordina tre)."
       ],
       "learningGoals": [
-        "Confrontare numeri a due cifre e registrare il risultato con >, = e <.",
-        "Usare il significato delle cifre delle decine e delle unità per decidere quale numero è maggiore.",
-        "Costruire l'abilità di confronto posizionale su cui si baserà il lavoro con i numeri più grandi."
+        "Confrontare due numeri a due cifre in base al significato della cifra delle decine e di quella delle unità.",
+        "Registrare il confronto con >, = e <.",
+        "Mettere in ordine tre numeri in base al valore posizionale.",
+        "Confrontare numeri più grandi posizione per posizione, partendo da sinistra."
       ]
     },
     "clock.set-clock.1-md-b-3": {

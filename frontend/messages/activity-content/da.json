@@ -454,25 +454,28 @@
     },
     "choice-board.compare-two-digit.1-nbt-b-3": {
       "about": [
-        "To tocifrede tal vises — som 47 og 52 eller 63 og 38 — og barnet trykker på det udsagn, der er sandt, med tegnene større end (>), mindre end (<) og lig med (=). Nogle par er lige store, som 45 og 45 eller 88 og 88, så lighedstegnet betyder også noget. Det er en aktivitet om tiere og enere til 1. klasse, der kører direkte i browseren uden oprettelse.",
-        "Strategien er at kigge på tierne først og derefter på enerne. Med 47 og 52 slår de 5 tiere de 4 tiere, så 47 er mindre end 52 — selvom 7 er større end 2. Drilske par som 29 og 92 bruger de samme cifre på forskellige pladser, så barnet skal læse pladsværdien og ikke bare selve cifrene. At vælge det rigtige tegn gør sammenligningen til det formelle sprog med >, = og <.",
-        "Aktiviteten er tilpasset Fælles Mål for matematik i 1. klasse: at sammenligne to tocifrede tal ud fra betydningen af tier- og enercifrene og skrive resultatet med tegnene >, = og <. Der er ingen tid og ingen point — bare rolig, legende træning."
+        "Hvert tal står på en scene som et lille træskab med en skuffe til tierne og en skuffe til enerne. Under scenen er der én knop til hver plads, og når man trækker i den, åbner skuffen sig i begge skabe på én gang. Tierskufferne åbner først, og deres stænger rejser sig som en søjle ved siden af hvert skab. Er tierne ens, låses enerskufferne op, og deres klodser kommer op på søjlerne. Er tierne forskellige, låses enerskufferne, for ni enere kan aldrig nå op til den næste tier.",
+        "Når de afgørende skuffer er åbne, rejser tegnet mellem skabene sig, og barnet trykker på det for at dreje det til <, > eller =. Ved tjek åbner alle skufferne sig, og tegnet strækker sig ud til de to søjler: Den åbne side skal holde om den højeste søjle, og = ligger kun lige på to lige høje søjler. I rækkefølgerunderne kommer tre skabe op på en trappe, det mindste eller det største først, og ved tjek vokser deres søjler op over dem; et skab på den forkerte plads hopper tilbage til ventepladsen.",
+        "Tallene kan være grupper af frugt op til 20 (pakker med ti og løse brikker), tocifrede tal eller firecifrede tal med fire skuffer, der sammenlignes fra venstre. Efter et forkert forsøg lyser de skuffer, der afgør det. Efter det andet tælles tierne op ad hver søjle med 10, 20, 30 ved grupperne og de tocifrede tal, og en stiplet linje viser forskellen mellem søjlerne. I tråd med Fælles Mål for tal og algebra. Uden tidtagning og uden point."
       ],
       "practices": [
-        "Sammenligne to tocifrede tal ud fra tierne og derefter enerne",
-        "Vælge det rigtige tegn — større end, mindre end eller lig med",
-        "Genkende, hvornår to tal er lige store",
-        "Læse pladsværdi i drilske par som 29 og 92"
+        "At sammenligne tocifrede tal: først tierne, så enerne",
+        "At se, hvorfor ni enere aldrig slår én tier mere",
+        "At dreje tegnet, så den åbne side vender mod det største tal",
+        "At sætte tre tal i rækkefølge, det mindste eller det største først"
       ],
       "howToPlay": [
-        "Se på de to tocifrede tal, og tjek tiercifret først og derefter enercifret.",
-        "Tryk på det udsagn, der er sandt, med >, = eller <.",
-        "Passer det ikke? Prøv igen, så mange gange du vil — der er ingen tid og ingen point."
+        "Træk i tierknoppen: Tierskufferne åbner sig i begge skabe, og stængerne rejser sig.",
+        "Er tierne ens, så træk også i enerknoppen. En låst knop rasler bare.",
+        "Tryk på tegnet, indtil det passer, og tryk så på Tjek.",
+        "I rækkefølgerunderne trækker du et skab hen på et trin (eller trykker på det og så på trinnet) og trykker på Tjek.",
+        "I indstillingerne vælger du tallene (grupper op til 20, tocifrede eller firecifrede) og opgaven (sammenlign to eller ordn tre)."
       ],
       "learningGoals": [
-        "Barnet kan sammenligne tocifrede tal og skrive resultatet med >, = og <",
-        "Barnet kan bruge betydningen af tier- og enercifrene til at afgøre, hvilket tal der er størst",
-        "Barnet bygger den sammenligning af pladsværdi, som arbejdet med større tal senere bygger på"
+        "At sammenligne to tocifrede tal ud fra, hvad tiercifferet og enercifferet betyder.",
+        "At skrive sammenligningen med >, = og <.",
+        "At ordne tre tal efter deres pladsværdi.",
+        "At sammenligne større tal plads for plads fra venstre."
       ]
     },
     "choice-board.onset-rime-blend.rf-k-2-c": {

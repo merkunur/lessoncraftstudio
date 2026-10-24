@@ -787,25 +787,28 @@
     },
     "choice-board.compare-two-digit.1-nbt-b-3": {
       "about": [
-        "Two two-digit numbers appear — like 47 and 52, or 63 and 38 — and the child taps the statement that is true, using greater than (>), less than (<), and equal to (=). Some pairs are equal, such as 45 and 45 or 88 and 88, so the equal sign matters too. It's a Grade 1 place-value activity that runs right in the browser with no sign-up.",
-        "The strategy is to look at the tens first, then the ones. With 47 and 52, the 5 tens beat the 4 tens, so 47 is less than 52 — even though 7 is bigger than 2. Tricky pairs like 29 and 92 use the same digits in different places, so the child must read place value rather than the digits themselves. Choosing the correct symbol turns that comparison into the formal language of >, =, and <.",
-        "It is aligned to Common Core 1.NBT.B.3 — comparing two two-digit numbers based on the meanings of the tens and ones digits, recording the result with the symbols >, =, and <. No timer, no score — just calm, playful practice."
+        "Each number stands on a podium as a little wooden cabinet with a tens drawer and a ones drawer. Under the podium there is one knob for each place, and pulling it opens that drawer in both cabinets at once. The tens drawers open first, and their rods stand up as a column beside each cabinet. If the tens are the same, the ones drawers unlock and their cubes join the columns. If the tens are different, the ones drawers lock shut, because nine ones can never reach the next ten.",
+        "Once the deciding drawers are open, the sign between the cabinets stands up and the child taps it to turn it to <, > or =. On Check every drawer opens and the sign stretches out to the two columns: its open side has to hold the taller column, and = only lies level on two columns of the same height. In order rounds, three cabinets go onto a staircase, smallest first or biggest first, and on Check their columns rise above them; a cabinet in the wrong place hops back to the waiting row.",
+        "The numbers can be groups of fruit up to 20 (packs of ten and loose counters), two-digit numbers, or four-digit numbers with four drawers, compared from the left. After a wrong try, the drawers that decide glow. After a second, in the group and two-digit rounds, the tens are counted 10, 20, 30 up each column, and a dotted line shows the gap between the two columns. Aligned to Common Core 1.NBT.B.3. No timer and no score."
       ],
       "practices": [
-        "Comparing two two-digit numbers by their tens, then their ones",
-        "Choosing the right symbol — greater than, less than, or equal to",
-        "Recognizing when two numbers are equal",
-        "Reading place value in tricky pairs like 29 and 92"
+        "Comparing two-digit numbers by the tens first, then the ones",
+        "Seeing why nine ones can never beat one more ten",
+        "Turning the sign so that its open side faces the bigger number",
+        "Putting three numbers in order, smallest first or biggest first"
       ],
       "howToPlay": [
-        "Look at the two two-digit numbers, checking the tens digit first and then the ones.",
-        "Tap the statement that is true, using >, =, or <.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Pull the tens knob: the tens drawers open in both cabinets and their rods stand up.",
+        "If the tens are the same, pull the ones knob too. A locked knob only rattles.",
+        "Tap the sign to turn it until it is true, then press Check.",
+        "In order rounds, drag a cabinet onto a step (or tap it, then tap the step) and press Check.",
+        "In the settings, choose the numbers (groups to 20, two-digit or four-digit) and the task (compare two or order three)."
       ],
       "learningGoals": [
-        "Compare two-digit numbers and record the result with >, =, and < — the focus of Common Core 1.NBT.B.3.",
-        "Use the meaning of the tens and ones digits to decide which number is greater.",
-        "Build the place-value comparison skill that larger-number work later depends on."
+        "Compare two two-digit numbers using the meaning of the tens and ones digits — the focus of Common Core 1.NBT.B.3.",
+        "Record the comparison with >, = and <.",
+        "Put three numbers in order by their place value.",
+        "Compare bigger numbers place by place, starting from the left."
       ]
     },
     "choice-board.count-sides.k-g-b-4": {

@@ -3213,26 +3213,28 @@
     },
     "choice-board.compare-two-digit.1-nbt-b-3": {
       "about": [
-        "Zwei zweistellige Zahlen erscheinen – etwa 47 und 52 oder 63 und 38 – und das Kind tippt auf die Aussage, die wahr ist, mit den Zeichen größer als (>), kleiner als (<) und gleich (=). Manche Paare sind gleich, zum Beispiel 45 und 45 oder 88 und 88, also zählt auch das Gleichheitszeichen. Diese Aktivität zum Stellenwert für die 1. Klasse läuft interaktiv direkt im Browser, ganz ohne Anmeldung.",
-        "Die Strategie: zuerst auf die Zehner schauen, dann auf die Einer. Bei 47 und 52 schlagen die 5 Zehner die 4 Zehner, also ist 47 kleiner als 52 – obwohl 7 größer ist als 2. Kniffige Paare wie 29 und 92 nutzen dieselben Ziffern an verschiedenen Stellen, deshalb muss das Kind den Stellenwert lesen und nicht nur die Ziffern. Das richtige Zeichen zu wählen, übersetzt diesen Vergleich in die formale Sprache von >, = und <.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Stellenwert ausgerichtet – zwei zweistellige Zahlen anhand der Bedeutung der Zehner- und Einerziffern vergleichen und das Ergebnis mit den Zeichen >, = und < festhalten. Es gibt keinen Timer und keine Punktewertung – nur ruhiges, spielerisches Üben."
+        "Jede Zahl steht als kleiner Holzschrank auf einem Podest, mit einer Zehnerschublade und einer Einerschublade. Unter dem Podest gibt es für jede Stelle einen Griff, und wer daran zieht, öffnet diese Schublade in beiden Schränken gleichzeitig. Zuerst gehen die Zehnerschubladen auf, und ihre Stangen stellen sich als Säule neben jeden Schrank. Sind die Zehner gleich, werden die Einerschubladen frei, und ihre Würfel kommen oben auf die Säulen. Sind die Zehner verschieden, schließen sich die Einerschubladen ab, denn neun Einer reichen nie bis zum nächsten Zehner.",
+        "Sind die entscheidenden Schubladen offen, stellt sich das Zeichen zwischen den Schränken auf, und das Kind tippt es an, um es auf <, > oder = zu drehen. Beim Prüfen gehen alle Schubladen auf, und das Zeichen streckt sich zu den beiden Säulen: Die offene Seite muss die höhere Säule umfassen, und = liegt nur bei zwei gleich hohen Säulen gerade. In den Ordnungsrunden kommen drei Schränke auf eine Treppe, die kleinste Zahl zuerst oder die größte zuerst, und beim Prüfen wachsen ihre Säulen darüber; ein Schrank an der falschen Stelle hüpft zurück auf den Warteplatz.",
+        "Die Zahlen können Obstgruppen bis 20 sein (Zehnerpackungen und einzelne Plättchen), zweistellige Zahlen oder vierstellige Zahlen mit vier Schubladen, die von links verglichen werden. Nach einem Fehlversuch leuchten die Schubladen, die entscheiden. Nach dem zweiten werden bei den Gruppen und den zweistelligen Zahlen die Zehner an jeder Säule mit 10, 20, 30 gezählt, und eine gestrichelte Linie zeigt den Abstand zwischen den Säulen. Passend zum Lehrplan im Bereich Zahlen und Operationen. Ohne Zeitdruck und ohne Punktwertung."
       ],
       "practices": [
-        "Zwei zweistellige Zahlen erst nach den Zehnern, dann nach den Einern vergleichen.",
-        "Das richtige Zeichen wählen – größer als, kleiner als oder gleich.",
-        "Erkennen, wann zwei Zahlen gleich sind.",
-        "Den Stellenwert in kniffligen Paaren wie 29 und 92 lesen.",
-        "Eine wahre Aussage mit >, = oder < sicher auswählen."
+        "Zweistellige Zahlen vergleichen: zuerst die Zehner, dann die Einer",
+        "Sehen, warum neun Einer nie gegen einen Zehner mehr gewinnen",
+        "Das Zeichen so drehen, dass die offene Seite zur größeren Zahl zeigt",
+        "Drei Zahlen ordnen, die kleinste oder die größte zuerst"
       ],
       "howToPlay": [
-        "Schau dir die zwei zweistelligen Zahlen an und prüfe zuerst die Zehnerziffer, dann die Einerziffer.",
-        "Tippe auf die Aussage, die wahr ist, mit >, = oder <.",
-        "Noch nicht ganz richtig? Probiere es so oft, wie du möchtest – es gibt keinen Timer und keine Punktewertung."
+        "Zieh am Zehnergriff: Die Zehnerschubladen gehen in beiden Schränken auf, und ihre Stangen stellen sich auf.",
+        "Sind die Zehner gleich, zieh auch am Einergriff. Ein abgeschlossener Griff klappert nur.",
+        "Tipp das Zeichen an, bis es stimmt, und drück dann auf Prüfen.",
+        "In den Ordnungsrunden ziehst du einen Schrank auf eine Stufe (oder tippst ihn an und dann die Stufe) und drückst auf Prüfen.",
+        "In den Einstellungen wählst du die Zahlen (Gruppen bis 20, zweistellig oder vierstellig) und die Aufgabe (zwei vergleichen oder drei ordnen)."
       ],
       "learningGoals": [
-        "Zweistellige Zahlen vergleichen und das Ergebnis mit >, = und < festhalten.",
-        "Mit der Bedeutung der Zehner- und Einerziffern entscheiden, welche Zahl größer ist.",
-        "Die Vergleichsfähigkeit beim Stellenwert aufbauen, auf der das spätere Arbeiten mit größeren Zahlen beruht."
+        "Zwei zweistellige Zahlen über die Bedeutung der Zehner- und Einerziffer vergleichen.",
+        "Den Vergleich mit >, = und < festhalten.",
+        "Drei Zahlen nach ihrem Stellenwert ordnen.",
+        "Größere Zahlen Stelle für Stelle von links vergleichen."
       ]
     },
     "clock.set-clock.1-md-b-3": {

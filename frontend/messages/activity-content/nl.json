@@ -3189,25 +3189,28 @@
     },
     "choice-board.compare-two-digit.1-nbt-b-3": {
       "about": [
-        "Twee getallen van twee cijfers verschijnen — zoals 47 en 52, of 63 en 38 — en je kind tikt op de bewering die waar is, met groter dan (>), kleiner dan (<) en gelijk aan (=). Sommige paren zijn gelijk, zoals 45 en 45 of 88 en 88, dus het gelijkteken telt ook mee. Het is een activiteit over getalwaarde voor groep 3 die direct in de browser werkt, zonder account.",
-        "De aanpak is om eerst naar de tientallen te kijken en daarna naar de eenheden. Bij 47 en 52 winnen de 5 tientallen van de 4 tientallen, dus 47 is kleiner dan 52 — ook al is 7 groter dan 2. Lastige paren als 29 en 92 gebruiken dezelfde cijfers op andere plekken, dus je kind moet de getalwaarde lezen in plaats van alleen de losse cijfers. Het juiste teken kiezen maakt van die vergelijking de taal van >, = en <.",
-        "De activiteit sluit aan bij de SLO-kerndoelen voor rekenen in groep 3: twee getallen van twee cijfers vergelijken op basis van de betekenis van de tientallen en de eenheden, en het resultaat noteren met de tekens >, = en <. Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Elk getal staat op een podium als een houten kastje met een laatje voor de tientallen en een laatje voor de eenheden. Onder het podium zit voor elke plaats één knop, en wie eraan trekt, doet dat laatje in beide kastjes tegelijk open. Eerst gaan de laatjes van de tientallen open, en hun staven gaan als een stapel naast elk kastje staan. Zijn de tientallen gelijk, dan gaan de laatjes van de eenheden van het slot en komen hun blokjes boven op de stapels. Zijn de tientallen verschillend, dan gaan de laatjes van de eenheden op slot, want negen eenheden halen nooit het volgende tiental.",
+        "Zijn de beslissende laatjes open, dan gaat het teken tussen de kastjes rechtop staan en tikt het kind erop om het naar <, > of = te draaien. Bij het controleren gaan alle laatjes open en strekt het teken zich uit naar de twee stapels: de open kant moet de hogere stapel omvatten, en = ligt alleen recht bij twee even hoge stapels. In de volgorderondes gaan drie kastjes op een trap, het kleinste of het grootste eerst, en bij het controleren groeien hun stapels erboven; een kastje op de verkeerde plek springt terug naar de wachtrij.",
+        "De getallen kunnen groepjes fruit tot 20 zijn (pakjes van tien en losse fiches), getallen van twee cijfers of getallen van vier cijfers met vier laatjes, die je van links vergelijkt. Na een foute poging lichten de laatjes op die beslissen. Na de tweede worden bij de groepjes en de getallen van twee cijfers de tientallen langs elke stapel geteld met 10, 20, 30, en een stippellijn laat het verschil tussen de stapels zien. Passend bij de kerndoelen voor getallen. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Twee getallen van twee cijfers vergelijken via eerst de tientallen, dan de eenheden",
-        "Het juiste teken kiezen — groter dan, kleiner dan of gelijk aan",
-        "Herkennen wanneer twee getallen gelijk zijn",
-        "De getalwaarde lezen in lastige paren als 29 en 92"
+        "Getallen van twee cijfers vergelijken: eerst de tientallen, dan de eenheden",
+        "Zien waarom negen eenheden nooit winnen van een tiental meer",
+        "Het teken zo draaien dat de open kant naar het grotere getal wijst",
+        "Drie getallen ordenen, het kleinste of het grootste eerst"
       ],
       "howToPlay": [
-        "Kijk naar de twee getallen van twee cijfers en kijk eerst naar het tiental, dan naar het eental.",
-        "Tik op de bewering die waar is, met >, = of <.",
-        "Nog niet goed? Probeer het zo vaak als je wilt — er is geen timer en geen score."
+        "Trek aan de knop van de tientallen: de laatjes gaan in beide kastjes open en de staven gaan rechtop staan.",
+        "Zijn de tientallen gelijk, trek dan ook aan de knop van de eenheden. Een knop op slot rammelt alleen.",
+        "Tik op het teken tot het klopt en druk dan op Controleer.",
+        "In de volgorderondes sleep je een kastje naar een trede (of tik je erop en dan op de trede) en druk je op Controleer.",
+        "In de instellingen kies je de getallen (groepjes tot 20, twee cijfers of vier cijfers) en de opdracht (twee vergelijken of drie ordenen)."
       ],
       "learningGoals": [
-        "Het kind vergelijkt getallen van twee cijfers en noteert het resultaat met >, = en <.",
-        "Het kind gebruikt de betekenis van de tientallen en eenheden om te bepalen welk getal groter is.",
-        "Het kind bouwt de vergelijkvaardigheid waarop het werken met grotere getallen later steunt."
+        "Twee getallen van twee cijfers vergelijken met de betekenis van het cijfer van de tientallen en van de eenheden.",
+        "De vergelijking noteren met >, = en <.",
+        "Drie getallen ordenen op hun plaatswaarde.",
+        "Grotere getallen plaats voor plaats vergelijken, van links af."
       ]
     },
     "choice-board.onset-rime-blend.rf-k-2-c": {

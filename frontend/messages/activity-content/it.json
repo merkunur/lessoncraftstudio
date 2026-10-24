@@ -1843,25 +1843,28 @@
     },
     "place-value.tens-and-ones.1-nbt-b-2": {
       "about": [
-        "Per formare 47, il bambino posa quattro barre da dieci e sette cubetti da uno e vede il «quaranta» diventare qualcosa di concreto invece di una semplice cifra. I numeri vanno da 12 fino a 95 — comprese le decine tonde 30, 50, 70 e 90 — costruiti un tocco di blocco alla volta, in un'attività di matematica per la prima elementare, interattiva, che si gioca nel browser senza registrazione.",
-        "L'idea importante è che un numero a due cifre è fatto di decine e unità. Per costruire 47, il bambino usa quattro barre da dieci e sette cubetti da uno, e vedere le quattro barre rende concreto il «quaranta» invece di lasciarlo una semplice cifra. I numeri tondi come 70 e 90 rinforzano che uno zero nelle unità significa che non c'è nessun cubetto sciolto: solo decine complete.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: capire che un numero a due cifre è formato da un certo numero di decine e di unità. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
+        "I numeri si compongono con carte su un supporto largo esattamente due cifre. Una carta lunga delle decine, come 40, occupa tutto il supporto; una carta corta delle unità, come 7, resta ferma solo se viene messa sullo 0 della carta delle decine. Allora lo 0 sparisce sotto, il supporto mostra 47, e quattro barre e sette cubetti cadono sul tappetino sotto. Una carta delle unità messa accanto a quella delle decine, o sopra la sua cifra delle decine, cade dal supporto, così 407 non si può mai formare.",
+        "Nei turni di composizione il numero compare in cifre, in lettere, come decine e unità, nelle griglie del dieci o con tacche di conteggio, e il bambino lo compone con le carte; alcuni numeri si possono anche ascoltare. Nei turni «Leggi barre e cubetti» le barre e i cubetti sono già sul tappetino e il bambino cerca le carte che corrispondono. Nei turni «Scomponilo» il bambino compone un numero e sposta di lato la carta delle unità, così 43 si apre in 40 + 3, oppure riunisce 60 + 7 in 67. Nei turni «Quali barre e cubetti?» le carte sono già date e il bambino sceglie il vassoio che le mostra; tra i vassoi c’è anche il numero con le cifre scambiate.",
+        "Dopo un tentativo sbagliato si illumina la metà del tappetino che non corrisponde, le barre o i cubetti; dopo un secondo, le barre e i cubetti del numero compaiono trasparenti accanto a quelli del bambino, e quelli in più vengono contornati. Quando il turno è risolto, le barre si contano da sole 10, 20, 30… e poi i cubetti. In linea con le Indicazioni nazionali, nucleo Numeri. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Costruire un numero a due cifre con il giusto numero di decine e di unità.",
-        "Collegare la cifra delle decine alle barre da dieci e quella delle unità ai cubetti da uno.",
-        "Capire i numeri tondi come 70 come un conteggio di decine complete.",
-        "Leggere e formare numeri a due cifre fino a 95."
+        "Leggere e comporre numeri a due cifre come decine e unità",
+        "Capire perché 47 si scrive 4 e 7 e non 40 e 7",
+        "I numeri da 11 a 19 come una decina e alcune unità; 10, 20 … 90 come decine senza unità",
+        "Scrivere un numero come decine + unità, per esempio 47 = 40 + 7"
       ],
       "howToPlay": [
-        "Il bambino legge il numero obiettivo, come 47.",
-        "Tocca per aggiungere barre da dieci e cubetti da uno finché i blocchi formano quel numero.",
-        "Guarda il numero crescere e prosegue, senza timer e senza punteggio."
+        "Tocca una carta delle decine e una delle unità, oppure trascinale sul supporto. La carta delle unità resta solo sullo 0 della carta delle decine.",
+        "Tocca una carta sul supporto per toglierla. Componi il numero e premi Controlla.",
+        "Nei turni «Scomponilo», sposta di lato la carta delle unità o premi ⟷ per scomporre il numero, e di nuovo per riunirlo.",
+        "Nei turni «Quali barre e cubetti?», tocca il vassoio che mostra le carte e premi Controlla.",
+        "Nelle impostazioni scegli l’attività (Componi il numero · Leggi barre e cubetti · Scomponilo · Quali barre e cubetti?) e i numeri (fino a 20, fino a 50 o fino a 99)."
       ],
       "learningGoals": [
-        "Capire le decine e le unità nei numeri a due cifre.",
-        "Vedere che la cifra delle decine conta i gruppi di dieci e quella delle unità conta i singoli.",
-        "Costruire le basi del valore posizionale per addizionare e sottrarre entro il 100."
+        "Capire che le due cifre di un numero a due cifre indicano decine e unità.",
+        "Comporre un numero a partire dal suo nome, dalle decine e unità, dalle griglie del dieci o dalle tacche.",
+        "Vedere che da 11 a 19 c’è una decina e alcune unità, e che 10, 20 … 90 non hanno unità.",
+        "Scrivere un numero come decine più unità e ricomporlo."
       ]
     },
     "syllable-builder.forma-la-parola-con-le-sillabe.rf-k-2-b": {

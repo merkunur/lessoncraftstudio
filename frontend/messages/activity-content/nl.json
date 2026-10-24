@@ -3548,25 +3548,28 @@
     },
     "place-value.tens-and-ones.1-nbt-b-2": {
       "about": [
-        "Om 47 te maken legt je kind vier tienstaven en zeven losse blokjes neer, en zo wordt 'veertig' iets echts in plaats van alleen een cijfer. De getallen lopen van 12 tot 95, met ook de ronde tientallen 30, 50, 70 en 90, blokje voor blokje gebouwd in een interactieve rekenactiviteit die zonder registratie in de browser speelt.",
-        "Het grote idee is dat een getal van twee cijfers is opgebouwd uit tientallen en eenheden. Om 47 te bouwen gebruikt het kind vier tienstaven en zeven losse blokjes, en door die vier staven te zien wordt 'veertig' concreet in plaats van een cijfer. De ronde getallen zoals 70 en 90 versterken dat een nul op de plaats van de eenheden betekent dat er helemaal geen losse blokjes zijn, alleen volledige tientallen.",
-        "De activiteit sluit aan bij de kerndoelen voor rekenen in groep 3: begrijpen dat een getal van twee cijfers is opgebouwd uit een aantal tientallen en eenheden. Geen timer, geen score; gewoon rustig bouwen."
+        "Getallen worden gelegd met kaartjes op een houder die precies twee cijfers breed is. Een lang tientallenkaartje, zoals 40, vult de hele houder; een kort eenhedenkaartje, zoals 7, blijft alleen liggen als het op de 0 van het tientallenkaartje wordt gelegd. Dan verdwijnt de 0 eronder, de houder toont 47, en vier staven en zeven blokjes vallen op de mat eronder. Een eenhedenkaartje naast het tientallenkaartje of op het cijfer van de tientallen valt van de houder, zodat 407 nooit kan ontstaan.",
+        "In de legrondes staat het getal er als cijfer, in woorden, als tientallen en eenheden, in tienvakken of als turfstreepjes, en het kind legt het met kaartjes; sommige getallen kan het ook laten voorlezen. In de rondes ‘Staven en blokjes lezen’ liggen de staven en blokjes al op de mat en zoekt het kind de kaartjes die erbij passen. In de rondes ‘Uit elkaar trekken’ legt het kind een getal en schuift het eenhedenkaartje opzij, zodat 43 opengaat tot 40 + 3, of schuift het 60 + 7 weer samen tot 67. In de rondes ‘Welke staven en blokjes?’ zijn de kaartjes gegeven en kiest het kind het bakje dat ze laat zien; daartussen zit ook het getal met omgedraaide cijfers.",
+        "Na een foute poging licht de helft van de mat op die niet klopt, de staven of de blokjes; na een tweede verschijnen de staven en blokjes van het getal doorzichtig naast die van het kind, en wat te veel is krijgt een rand. Is een ronde opgelost, dan tellen de staven zichzelf 10, 20, 30 … en daarna de blokjes. Passend bij de kerndoelen voor getallen. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Een getal van twee cijfers bouwen met het juiste aantal tientallen en eenheden",
-        "Het tiental koppelen aan tienstaven en de eenheden aan losse blokjes",
-        "Ronde getallen zoals 70 begrijpen als een aantal volledige tientallen",
-        "Getallen tot 95 lezen en maken"
+        "Getallen van twee cijfers lezen en leggen als tientallen en eenheden",
+        "Zien waarom 47 geschreven wordt als 4 en 7, niet als 40 en 7",
+        "Getallen van 11 tot 19 als één tiental en wat eenheden, 10, 20 … 90 als tientallen zonder eenheden",
+        "Een getal schrijven als tientallen + eenheden, zoals 47 = 40 + 7"
       ],
       "howToPlay": [
-        "Lees het doelgetal, bijvoorbeeld 47.",
-        "Tik om tienstaven en losse blokjes toe te voegen tot de blokken dat getal maken.",
-        "Kijk hoe het getal groeit en ga verder; er is geen timer en geen score."
+        "Tik een tientallenkaartje en een eenhedenkaartje aan of sleep ze op de houder. Het eenhedenkaartje blijft alleen op de 0 van het tientallenkaartje liggen.",
+        "Tik een kaartje op de houder aan om het terug te nemen. Leg het getal en druk op Controleer.",
+        "In de rondes ‘Uit elkaar trekken’ sleep je het eenhedenkaartje opzij of druk je op ⟷ om het getal uit elkaar te trekken, en nog een keer om het weer samen te schuiven.",
+        "In de rondes ‘Welke staven en blokjes?’ tik je het bakje aan dat de kaartjes laat zien en druk je op Controleer.",
+        "Kies in de instellingen de opdracht (Getal leggen · Staven en blokjes lezen · Uit elkaar trekken · Welke staven en blokjes?) en de getallen (tot 20, tot 50 of tot 99)."
       ],
       "learningGoals": [
-        "Je kind begrijpt tientallen en eenheden in getallen van twee cijfers.",
-        "Het kind ziet dat het tiental groepjes van tien telt en de eenheden de losse blokjes.",
-        "Het kind bouwt de basis voor optellen en aftrekken tot 100 op."
+        "Begrijpen dat de twee cijfers van een getal van twee cijfers voor tientallen en eenheden staan.",
+        "Een getal leggen vanuit het getalwoord, de tientallen en eenheden, tienvakken of turfstreepjes.",
+        "Zien dat 11 tot 19 één tiental en wat eenheden zijn en dat 10, 20 … 90 geen eenheden hebben.",
+        "Een getal schrijven als tientallen plus eenheden en het weer samenvoegen."
       ]
     },
     "syllable-builder.bouw-het-woord-met-klankgroepen.rf-k-2-b": {

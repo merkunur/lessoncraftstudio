@@ -3339,26 +3339,28 @@
     },
     "place-value.tens-and-ones.1-nbt-b-2": {
       "about": [
-        "Um 47 zu bauen, legt ein Kind vier Zehnerstäbe und sieben Einerwürfel hin und erlebt, wie aus „vierzig\" etwas Greifbares wird statt nur einer Ziffer. Die Zahlen reichen von 12 bis 95 – darunter die glatten Zehner 30, 50, 70 und 90 – und entstehen Antippen für Antippen, Block für Block, in einer interaktiven Mathe-Aktivität für die 1. Klasse, die im Browser läuft, ganz ohne Anmeldung.",
-        "Die wichtige Idee: Eine zweistellige Zahl besteht aus Zehnern und Einern. Um 47 zu bauen, nimmt das Kind vier Zehnerstäbe und sieben Einerwürfel, und die vier Stäbe zu sehen, macht die „vierzig\" greifbar statt nur als Ziffer. Glatte Zahlen wie 70 und 90 zeigen, dass eine Null an der Einerstelle bedeutet: Es gibt gar keine losen Würfel – nur vollständige Zehner.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Stellenwert ausgerichtet – verstehen, dass eine zweistellige Zahl aus einer Anzahl von Zehnern und Einern besteht. Es gibt keinen Timer und keine Punktewertung – nur ruhiges, spielerisches Üben."
+        "Zahlen werden aus Karten auf einem Ständer gelegt, der genau zwei Ziffern breit ist. Eine lange Zehnerkarte wie 40 füllt den ganzen Ständer; eine kurze Einerkarte wie 7 bleibt nur liegen, wenn sie auf die 0 der Zehnerkarte gelegt wird. Dann verschwindet die 0 darunter, der Ständer zeigt 47, und vier Stangen und sieben Würfel fallen auf die Matte darunter. Eine Einerkarte neben der Zehnerkarte oder auf ihrer Zehnerziffer kippt vom Ständer, so kann nie 407 entstehen.",
+        "In den Legerunden steht die Zahl in Ziffern, als Zahlwort, als Zehner und Einer, im Zehnerfeld oder als Strichliste da, und das Kind legt sie mit Karten; manche Zahlen kann es sich auch anhören. In den Runden „Stangen und Würfel lesen“ liegen die Stangen und Würfel schon auf der Matte, und das Kind sucht die passenden Karten. In den Runden zum Auseinanderziehen legt das Kind eine Zahl und zieht die Einerkarte zur Seite, sodass aus 43 dann 40 + 3 wird, oder es schiebt 60 + 7 wieder zu 67 zusammen. In den Runden „Welche Stangen und Würfel?“ sind die Karten vorgegeben, und das Kind wählt das Tablett, das sie zeigt; dabei ist auch die Zahl mit vertauschten Ziffern.",
+        "Nach einem Fehlversuch leuchtet die Hälfte der Matte auf, die nicht stimmt, die Stangen oder die Würfel; nach einem zweiten erscheinen die Stangen und Würfel der gesuchten Zahl durchsichtig neben denen des Kindes, und zu viele sind umrandet. Ist eine Runde gelöst, zählen sich die Stangen selbst 10, 20, 30 … und dann die Würfel. Passend zum Lehrplan im Bereich Zahlen und Operationen. Ohne Zeitdruck und ohne Punktwertung."
       ],
       "practices": [
-        "Eine zweistellige Zahl mit der richtigen Anzahl Zehner und Einer bauen.",
-        "Die Zehnerziffer mit Zehnerstäben und die Einerziffer mit Einerwürfeln verbinden.",
-        "Glatte Zahlen wie 70 als eine Anzahl vollständiger Zehner verstehen.",
-        "Zweistellige Zahlen bis 95 lesen und bilden.",
-        "Erkennen, dass eine Null an der Einerstelle keine losen Würfel bedeutet."
+        "Zweistellige Zahlen als Zehner und Einer lesen und legen",
+        "Verstehen, warum 47 als 4 und 7 geschrieben wird und nicht als 40 und 7",
+        "Zahlen von 11 bis 19 als ein Zehner und einige Einer, 10, 20 … 90 als Zehner ohne Einer",
+        "Eine Zahl als Zehner + Einer schreiben, zum Beispiel 47 = 40 + 7"
       ],
       "howToPlay": [
-        "Lies die Zielzahl, zum Beispiel 47.",
-        "Tippe, um Zehnerstäbe und Einerwürfel hinzuzufügen, bis die Blöcke diese Zahl bilden.",
-        "Sieh zu, wie die Zahl wächst, und mach weiter – es gibt keinen Timer und keine Punktewertung."
+        "Tippe eine Zehnerkarte und eine Einerkarte an oder zieh sie auf den Ständer. Die Einerkarte bleibt nur auf der 0 der Zehnerkarte liegen.",
+        "Tippe eine Karte auf dem Ständer an, um sie zurückzunehmen. Lege die Zahl und drück auf Prüfen.",
+        "In den Runden zum Auseinanderziehen ziehst du die Einerkarte zur Seite oder drückst ⟷, um die Zahl auseinanderzuziehen, und noch einmal, um sie zusammenzuschieben.",
+        "In den Runden „Welche Stangen und Würfel?“ tippst du das Tablett an, das die Karten zeigt, und drückst auf Prüfen.",
+        "In den Einstellungen wählst du die Aufgabe (Zahl legen · Stangen und Würfel lesen · Auseinanderziehen · Welche Stangen und Würfel?) und die Zahlen (bis 20, bis 50 oder bis 99)."
       ],
       "learningGoals": [
-        "Zehner und Einer in zweistelligen Zahlen verstehen.",
-        "Sehen, dass die Zehnerziffer Zehnergruppen zählt und die Einerziffer einzelne Würfel.",
-        "Die Stellenwert-Grundlage für das Addieren und Subtrahieren bis 100 aufbauen."
+        "Verstehen, dass die beiden Ziffern einer zweistelligen Zahl für Zehner und Einer stehen.",
+        "Eine Zahl aus ihrem Zahlwort, aus Zehnern und Einern, aus dem Zehnerfeld oder einer Strichliste legen.",
+        "Erkennen, dass 11 bis 19 ein Zehner und einige Einer sind und dass 10, 20 … 90 keine Einer haben.",
+        "Eine Zahl als Zehner plus Einer schreiben und wieder zusammensetzen."
       ]
     },
     "syllable-builder.bau-das-wort-aus-silben.rf-k-2-b": {

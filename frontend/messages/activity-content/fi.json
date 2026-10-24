@@ -1235,25 +1235,28 @@
     },
     "place-value.tens-and-ones.1-nbt-b-2": {
       "about": [
-        "Muodostaakseen luvun 47 lapsi asettaa pöydälle neljä kymmensauvaa ja seitsemän ykköskuutiota ja näkee \"neljäkymmentä\" muuttuvan joksikin todelliseksi pelkän numeron sijaan. Luvut ovat väliltä 12–95 — mukaan lukien tasakymmenet 30, 50, 70 ja 90 — ja ne rakennetaan yksi napautus kerrallaan maksuttomassa ja vuorovaikutteisessa 1. luokan matematiikkatehtävässä, joka toimii selaimessa ilman rekisteröitymistä.",
-        "Tärkein ajatus on, että kaksinumeroinen luku koostuu kymmenistä ja ykkösistä. Rakentaakseen luvun 47 lapsi käyttää neljää kymmensauvaa ja seitsemää ykköskuutiota, ja neljän sauvan näkeminen tekee \"neljästäkymmenestä\" konkreettista pelkän numeron sijaan. Tasaluvut kuten 70 ja 90 vahvistavat, että nolla ykkösten paikalla tarkoittaa, ettei irrallisia kuutioita ole lainkaan — vain täysiä kymmeniä.",
-        "Harjoitus on OPS 2014:n mukainen lukujen ja laskutoimitusten osa-alueella — lapsi ymmärtää, että kaksinumeroinen luku koostuu tietystä määrästä kymmeniä ja ykkösiä. Lapsi saa edetä rauhassa omaan tahtiinsa: ei ajastinta eikä pisteitä."
+        "Luvut rakennetaan korteista telineeseen, joka on täsmälleen kahden numeron levyinen. Pitkä kymppikortti, kuten 40, täyttää koko telineen; lyhyt ykköskortti, kuten 7, pysyy paikallaan vain, kun se laitetaan kymppikortin nollan päälle. Silloin nolla katoaa sen alle, telineessä lukee 47, ja neljä sauvaa ja seitsemän kuutiota putoaa alla olevalle alustalle. Ykköskortti, joka laitetaan kymppikortin viereen tai sen kymmenten numeron päälle, kaatuu telineeltä, joten lukua 407 ei voi koskaan syntyä.",
+        "Rakennuskierroksilla luku näkyy numeroina, sanoina, kymmeninä ja ykkösinä, kymppikehyksissä tai tukkimiehen kirjanpitona, ja lapsi rakentaa sen korteista; joitakin lukuja voi myös kuunnella. Kierroksilla ”Lue sauvat ja kuutiot” sauvat ja kuutiot ovat jo alustalla, ja lapsi etsii niihin sopivat kortit. Kierroksilla ”Vedä osiin” lapsi rakentaa luvun ja siirtää ykköskortin sivuun, jolloin 43 aukeaa muotoon 40 + 3, tai työntää luvun 60 + 7 takaisin luvuksi 67. Kierroksilla ”Mitkä sauvat ja kuutiot?” kortit on annettu, ja lapsi valitsee tarjottimen, joka näyttää ne; tarjottimien joukossa on myös luku, jonka numerot ovat vaihtaneet paikkaa.",
+        "Väärän yrityksen jälkeen alustan puolisko, joka ei täsmää, syttyy: sauvat tai kuutiot; toisen jälkeen luvun omat sauvat ja kuutiot näkyvät läpinäkyvinä lapsen omien vieressä, ja ylimääräiset saavat reunuksen. Kun kierros on ratkaistu, sauvat laskevat itsensä 10, 20, 30… ja sitten kuutiot. Sopii opetussuunnitelman sisältöalueeseen Luvut ja laskutoimitukset. Ilman ajanottoa ja ilman pisteytystä."
       ],
       "practices": [
-        "Rakentaa kaksinumeroisen luvun oikealla määrällä kymmeniä ja ykkösiä.",
-        "Yhdistää kymmenten numeron kymmensauvoihin ja ykkösten numeron ykköskuutioihin.",
-        "Ymmärtää tasaluvut kuten 70 täysien kymmenien lukumääränä.",
-        "Lukee ja muodostaa kaksinumeroisia lukuja yhdeksäänkymmeneenviiteen asti."
+        "Kaksinumeroisten lukujen lukeminen ja rakentaminen kymmeninä ja ykkösinä",
+        "Sen ymmärtäminen, miksi 47 kirjoitetaan 4 ja 7 eikä 40 ja 7",
+        "Luvut 11–19 yhtenä kymmenenä ja muutamana ykkösenä, 10, 20 … 90 kymmeninä ilman ykkösiä",
+        "Luvun kirjoittaminen muodossa kymmenet + ykköset, esimerkiksi 47 = 40 + 7"
       ],
       "howToPlay": [
-        "Lue tavoiteluku, kuten 47.",
-        "Napauta lisätäksesi kymmensauvoja ja ykköskuutioita, kunnes palikat muodostavat sen luvun.",
-        "Katso, kuinka luku kasvaa, ja jatka eteenpäin — ei ajastinta eikä pisteitä."
+        "Napauta kymppikorttia ja ykköskorttia tai vedä ne telineeseen. Ykköskortti pysyy vain kymppikortin nollan päällä.",
+        "Napauta telineessä olevaa korttia ottaaksesi sen pois. Rakenna luku ja paina Tarkista.",
+        "Kierroksilla ”Vedä osiin” siirrä ykköskortti sivuun tai paina ⟷ vetääksesi luvun osiin, ja uudelleen yhdistääksesi sen.",
+        "Kierroksilla ”Mitkä sauvat ja kuutiot?” napauta tarjotinta, joka näyttää kortit, ja paina Tarkista.",
+        "Valitse asetuksista tehtävä (Rakenna luku · Lue sauvat ja kuutiot · Vedä osiin · Mitkä sauvat ja kuutiot?) ja luvut (20:een asti, 50:een asti tai 99:ään asti)."
       ],
       "learningGoals": [
-        "Lapsi ymmärtää kymmenet ja ykköset kaksinumeroisissa luvuissa.",
-        "Lapsi näkee, että kymmenten numero kertoo kymmenen ryhmien määrän ja ykkösten numero yksittäisten määrän.",
-        "Lapsi rakentaa paikka-arvon perustan yhteen- ja vähennyslaskulle sataan asti."
+        "Kaksinumeroisen luvun kahden numeron ymmärtäminen kymmeninä ja ykkösinä.",
+        "Luvun rakentaminen sen nimestä, kymmenistä ja ykkösistä, kymppikehyksistä tai tukkimiehen kirjanpidosta.",
+        "Sen huomaaminen, että 11–19 ovat yksi kymmen ja muutama ykkönen ja että luvuissa 10, 20 … 90 ei ole ykkösiä.",
+        "Luvun kirjoittaminen kymmeninä ja ykkösinä ja sen kokoaminen uudelleen."
       ]
     },
     "syllable-builder.muodosta-sana-tavuista.rf-k-2-b": {

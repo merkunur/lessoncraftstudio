@@ -2708,24 +2708,28 @@
     },
     "place-value.tens-and-ones.1-nbt-b-2": {
       "about": [
-        "Pour faire 47, l'enfant pose quatre barres de dix et sept cubes-unités, et voit « quarante » devenir quelque chose de concret plutôt qu'un simple chiffre. Les nombres vont de 12 à 95 — y compris les dizaines rondes 30, 50, 70 et 90 — construits un clic de bloc à la fois, dans une activité de mathématiques de CP, interactive, qui se joue dans le navigateur sans inscription.",
-        "La grande idée, c'est qu'un nombre à deux chiffres est fait de dizaines et d'unités. Pour construire 47, l'enfant utilise quatre barres de dix et sept cubes-unités, et voir les quatre barres rend le « quarante » concret au lieu d'un chiffre abstrait. Les nombres ronds comme 70 et 90 renforcent l'idée qu'un zéro à la place des unités signifie qu'il n'y a aucun cube isolé — seulement des dizaines complètes. L'activité est conforme aux programmes officiels : ni minuteur, ni score, juste un entraînement calme et ludique."
+        "Les nombres se construisent avec des cartes posées sur un support large d’exactement deux chiffres. Une longue carte des dizaines, comme 40, occupe tout le support ; une courte carte des unités, comme 7, ne tient que posée sur le 0 de la carte des dizaines. Le 0 disparaît alors dessous, le support affiche 47, et quatre barres et sept cubes tombent sur le tapis en dessous. Une carte des unités posée à côté de la carte des dizaines, ou sur son chiffre des dizaines, tombe du support : on ne peut jamais former 407.",
+        "Dans les manches de construction, le nombre est donné en chiffres, en lettres, en dizaines et unités, dans des cadres de dix ou en bâtons de comptage, et l’enfant le construit avec les cartes ; certains nombres peuvent aussi être écoutés. Dans les manches « Lis les barres et les cubes », les barres et les cubes sont déjà sur le tapis et l’enfant cherche les cartes qui leur correspondent. Dans les manches « Décompose-le », l’enfant construit un nombre et fait glisser la carte des unités sur le côté, si bien que 43 s’ouvre en 40 + 3, ou il rassemble 60 + 7 en 67. Dans les manches « Quelles barres et quels cubes ? », les cartes sont données et l’enfant choisit le plateau qui les montre ; parmi les plateaux se trouve aussi le nombre aux chiffres inversés.",
+        "Après une erreur, la moitié du tapis qui ne correspond pas s’allume, les barres ou les cubes ; après une deuxième, les barres et les cubes du nombre apparaissent en transparence à côté de ceux de l’enfant, et ceux en trop sont entourés. Quand la manche est réussie, les barres se comptent toutes seules 10, 20, 30… puis les cubes. En lien avec les programmes officiels pour le domaine Nombres et calculs. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Construire un nombre à deux chiffres avec le bon nombre de dizaines et d'unités.",
-        "Relier le chiffre des dizaines aux barres de dix et le chiffre des unités aux cubes-unités.",
-        "Comprendre les nombres ronds comme 70 en tant que comptage de dizaines complètes.",
-        "Lire et former les nombres à deux chiffres jusqu'à 95."
+        "Lire et construire des nombres à deux chiffres en dizaines et unités",
+        "Comprendre pourquoi 47 s’écrit 4 puis 7, et non 40 puis 7",
+        "Les nombres de 11 à 19 comme une dizaine et quelques unités ; 10, 20 … 90 comme des dizaines sans unités",
+        "Écrire un nombre en dizaines + unités, par exemple 47 = 40 + 7"
       ],
       "howToPlay": [
-        "Lis le nombre cible, par exemple 47.",
-        "Touche pour ajouter des barres de dix et des cubes-unités jusqu'à ce que les blocs forment ce nombre.",
-        "Regarde le nombre grandir, puis passe à la suite : il n'y a ni minuteur, ni score."
+        "Touche une carte des dizaines et une carte des unités, ou fais-les glisser sur le support. La carte des unités ne tient que sur le 0 de la carte des dizaines.",
+        "Touche une carte du support pour la reprendre. Construis le nombre et appuie sur Vérifier.",
+        "Dans les manches « Décompose-le », fais glisser la carte des unités sur le côté ou appuie sur ⟷ pour décomposer le nombre, puis encore une fois pour le rassembler.",
+        "Dans les manches « Quelles barres et quels cubes ? », touche le plateau qui montre les cartes, puis appuie sur Vérifier.",
+        "Dans les réglages, choisis la tâche (Construis le nombre · Lis les barres et les cubes · Décompose-le · Quelles barres et quels cubes ?) et les nombres (jusqu’à 20, jusqu’à 50 ou jusqu’à 99)."
       ],
       "learningGoals": [
-        "Comprendre les dizaines et les unités dans les nombres à deux chiffres.",
-        "Voir que le chiffre des dizaines compte des groupes de dix et que celui des unités compte les isolés.",
-        "Construire la base de la valeur de position pour additionner et soustraire jusqu'à 100."
+        "Comprendre que les deux chiffres d’un nombre à deux chiffres représentent les dizaines et les unités.",
+        "Construire un nombre à partir de son nom, de ses dizaines et unités, de cadres de dix ou de bâtons de comptage.",
+        "Voir que de 11 à 19 il y a une dizaine et quelques unités, et que 10, 20 … 90 n’ont pas d’unités.",
+        "Écrire un nombre en dizaines plus unités et le reconstituer."
       ]
     },
     "syllable-builder.forme-le-mot-en-syllabes.rf-k-2-b": {

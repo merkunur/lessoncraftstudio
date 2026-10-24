@@ -575,25 +575,28 @@
     },
     "place-value.tens-and-ones.1-nbt-b-2": {
       "about": [
-        "For å lage 47 setter barnet ned fire tierstaver og sju enerterninger, og ser «førti» bli noe konkret i stedet for et siffer. Tallene går fra 12 opp til 95 — også de hele tierne 30, 50, 70 og 90 — bygget ett trykk om gangen, i en interaktiv matematikkaktivitet for 1. trinn som kjører i nettleseren uten konto.",
-        "Den store ideen er at et tosifret tall er satt sammen av tiere og enere. For å bygge 47 bruker barnet fire tierstaver og sju enerterninger, og synet av de fire stavene gjør «førti» konkret i stedet for bare et siffer. Hele tall som 70 og 90 forsterker at en null på enerplassen betyr at det ikke er noen løse terninger i det hele tatt — bare hele tiere.",
-        "Aktiviteten følger LK20 innenfor tall — å forstå at et tosifret tall er satt sammen av et antall tiere og enere. Den passer for 1. trinn. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "Tallene bygges av kort på en holder som er nøyaktig to sifre bred. Et langt tierkort som 40 fyller hele holderen; et kort enerkort som 7 blir bare liggende når det legges på nullen på tierkortet. Da forsvinner nullen under det, holderen viser 47, og fire staver og sju klosser faller ned på matta under. Et enerkort ved siden av tierkortet eller oppå tiersifferet velter av holderen, så 407 aldri kan lages.",
+        "I byggerundene står tallet som siffer, med bokstaver, som tiere og enere, i tierrammer eller som tellestreker, og barnet bygger det med kort; noen tall kan det også få lest høyt. I rundene «Les staver og klosser» ligger stavene og klossene allerede på matta, og barnet finner kortene som passer. I rundene «Dra fra hverandre» bygger barnet et tall og drar enerkortet til siden, så 43 åpner seg til 40 + 3, eller skyver 60 + 7 sammen igjen til 67. I rundene «Hvilke staver og klosser?» er kortene gitt, og barnet velger brettet som viser dem; blant brettene er også tallet med sifrene byttet om.",
+        "Etter et feilforsøk lyser den halvdelen av matta opp som ikke stemmer, stavene eller klossene; etter et andre vises tallets egne staver og klosser gjennomsiktige ved siden av barnets, og de som er for mange, får en kant. Når en runde er løst, teller stavene seg selv 10, 20, 30 … og så klossene. I tråd med LK20 i matematikk. Uten tidtaking og uten poeng."
       ],
       "practices": [
-        "Bygge et tosifret tall med riktig antall tiere og enere.",
-        "Knytte tiersifferet til tierstaver og enersifferet til enerterninger.",
-        "Forstå hele tall som 70 som et antall fulle tiere.",
-        "Lese og lage tosifrede tall opp til 95."
+        "Å lese og bygge tosifrede tall som tiere og enere",
+        "Å se hvorfor 47 skrives 4 og 7 og ikke 40 og 7",
+        "Tallene 11 til 19 som én tier og noen enere, 10, 20 … 90 som tiere uten enere",
+        "Å skrive et tall som tiere + enere, for eksempel 47 = 40 + 7"
       ],
       "howToPlay": [
-        "Les måltallet, for eksempel 47.",
-        "Trykk for å legge til tierstaver og enerterninger til klossene blir det tallet.",
-        "Se tallet vokse, og gå videre — det er ingen tidtaker og ingen poeng."
+        "Trykk på et tierkort og et enerkort, eller dra dem til holderen. Enerkortet blir bare liggende på nullen på tierkortet.",
+        "Trykk på et kort på holderen for å ta det tilbake. Bygg tallet og trykk på Sjekk.",
+        "I rundene «Dra fra hverandre» drar du enerkortet til siden eller trykker på ⟷ for å dra tallet fra hverandre, og igjen for å skyve det sammen.",
+        "I rundene «Hvilke staver og klosser?» trykker du på brettet som viser kortene, og trykker på Sjekk.",
+        "I innstillingene velger du oppgave (Bygg tallet · Les staver og klosser · Dra fra hverandre · Hvilke staver og klosser?) og tall (til 20, til 50 eller til 99)."
       ],
       "learningGoals": [
-        "Barnet kan forstå tiere og enere i tosifrede tall.",
-        "Barnet ser at tiersifferet teller grupper på ti og enersifferet teller enkeltenere.",
-        "Barnet bygger plassverdigrunnlaget for å legge sammen og trekke fra opp til 100."
+        "Å forstå at de to sifrene i et tosifret tall står for tiere og enere.",
+        "Å bygge et tall ut fra tallordet, tiere og enere, tierrammer eller tellestreker.",
+        "Å se at 11 til 19 er én tier og noen enere, og at 10, 20 … 90 ikke har noen enere.",
+        "Å skrive et tall som tiere pluss enere og sette det sammen igjen."
       ]
     },
     "syllable-builder.bygg-ordet-av-stavelser.no.rf-k-2-b": {

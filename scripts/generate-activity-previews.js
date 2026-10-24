@@ -247,6 +247,10 @@ function seedScript(row) {
     // 34 built as 4 crates and 3 berries: the door tag stretched into 30 and 4 over the shelf, the crate count 40 coral under the 30 — the stretching tag at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.numbers='99';t.api.settings.card='num';t._pool=null;t._ensurePool();t._start(0,0);var C=window.DoorTagCore,s=t.st;for(var i=0;i<4;i++)C.fling(s,'crate');for(var j=0;j<3;j++)C.fling(s,'berry');t._check();})()`;
   }
+  if (row.tool === 'zero-cards-activity') {
+    // forty-seven as a word: the 40 card on the stand with the 7 laid on its 0, four rods and seven cubes poured onto the mat — the zero-swallowing cards at work
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.task='build';t.api.settings.numbers='99';t._pool=null;t._ensurePool();t._start('b3',0);var C=window.ZeroCardsCore,s=t.st;C.placeTens(s,40);C.placeOnes(s,7,'zero');t._render2();})()`;
+  }
   if (row.tool === 'nine-stop-activity') {
     // 34 and the arrows ↓↓→: two cards played, the tens tube grown to 5 rods (54), the → card waiting — the tubes at work on a follow-the-arrows trip
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.task='jumps';t._pool=null;t._ensurePool();t._start('f0',0);var C=window.NineStopCore,s=t.st;C.playCard(s,0);C.playCard(s,1);t._render2();})()`;

@@ -810,25 +810,28 @@
     },
     "place-value.tens-and-ones.1-nbt-b-2": {
       "about": [
-        "For at lave 47 lægger barnet fire tier-stænger og syv ener-terninger ud og ser \"fyrre\" blive til noget håndgribeligt i stedet for bare et ciffer. Tallene går fra 12 op til 95 — også de runde tiere 30, 50, 70 og 90 — bygget ét tryk ad gangen i en interaktiv matematikaktivitet til 1. klasse, der spilles i browseren uden oprettelse.",
-        "Den store idé er, at et tocifret tal er bygget af tiere og enere. For at bygge 47 bruger barnet fire tier-stænger og syv ener-terninger, og synet af de fire stænger gør \"fyrre\" konkret i stedet for bare et ciffer. De runde tal som 70 og 90 understreger, at et nul på enerpladsen betyder, at der slet ikke er nogen løse terninger — kun hele tiere.",
-        "Aktiviteten følger Fælles Mål inden for tal i titalssystemet: at forstå, at et tocifret tal er bygget af et antal tiere og enere. Der er ingen timer og ingen point — bare rolig, legende træning i 1. klasse."
+        "Tal bygges af kort på en holder, der er præcis to cifre bred. Et langt tierkort som 40 fylder hele holderen; et kort enerkort som 7 bliver kun liggende, når det lægges på 0'et på tierkortet. Så forsvinder 0'et under det, holderen viser 47, og fire stænger og syv klodser falder ned på måtten nedenunder. Et enerkort ved siden af tierkortet eller oven på tiercifferet vælter af holderen, så 407 aldrig kan opstå.",
+        "I byggerunderne står tallet med cifre, med bogstaver, som tiere og enere, i tierrammer eller som tællestreger, og barnet bygger det med kort; nogle tal kan det også få læst højt. I runderne ”Læs stænger og klodser” ligger stængerne og klodserne allerede på måtten, og barnet finder de kort, der passer. I runderne ”Træk fra hinanden” bygger barnet et tal og skubber enerkortet til siden, så 43 åbner sig til 40 + 3, eller skubber 60 + 7 sammen igen til 67. I runderne ”Hvilke stænger og klodser?” er kortene givet, og barnet vælger den bakke, der viser dem; blandt bakkerne er også tallet med byttede cifre.",
+        "Efter et forkert forsøg lyser den halvdel af måtten op, der ikke passer, stængerne eller klodserne; efter et andet viser tallets egne stænger og klodser sig gennemsigtige ved siden af barnets, og dem, der er for mange, får en kant. Når en runde er løst, tæller stængerne sig selv 10, 20, 30 … og derefter klodserne. I tråd med Fælles Mål for tal og algebra. Uden tidtagning og uden point."
       ],
       "practices": [
-        "Bygge et tocifret tal med det rigtige antal tiere og enere",
-        "Forbinde tiercifret med tier-stænger og enercifret med ener-terninger",
-        "Forstå runde tal som 70 som et antal hele tiere",
-        "Læse og lave tocifrede tal op til 95"
+        "At læse og bygge tocifrede tal som tiere og enere",
+        "At se, hvorfor 47 skrives 4 og 7 og ikke 40 og 7",
+        "Tal fra 11 til 19 som én tier og nogle enere, 10, 20 … 90 som tiere uden enere",
+        "At skrive et tal som tiere + enere, fx 47 = 40 + 7"
       ],
       "howToPlay": [
-        "Barnet læser måltallet, fx 47.",
-        "Barnet trykker for at tilføje tier-stænger og ener-terninger, til klodserne danner det tal.",
-        "Barnet ser tallet vokse og går videre uden timer og uden point."
+        "Tryk på et tierkort og et enerkort, eller træk dem op på holderen. Enerkortet bliver kun liggende på 0'et på tierkortet.",
+        "Tryk på et kort på holderen for at tage det tilbage. Byg tallet, og tryk på Tjek.",
+        "I runderne ”Træk fra hinanden” skubber du enerkortet til siden eller trykker på ⟷ for at trække tallet fra hinanden, og igen for at skubbe det sammen.",
+        "I runderne ”Hvilke stænger og klodser?” trykker du på den bakke, der viser kortene, og trykker på Tjek.",
+        "I indstillingerne vælger du opgaven (Byg tallet · Læs stænger og klodser · Træk fra hinanden · Hvilke stænger og klodser?) og tallene (til 20, til 50 eller til 99)."
       ],
       "learningGoals": [
-        "Barnet kan forstå tiere og enere i tocifrede tal",
-        "Barnet kan se, at tiercifret tæller grupper af ti, og at enercifret tæller enkelte",
-        "Barnet kan opbygge det fundament i titalssystemet, der bruges til at lægge sammen og trække fra inden for 100"
+        "At forstå, at de to cifre i et tocifret tal står for tiere og enere.",
+        "At bygge et tal ud fra talordet, tiere og enere, tierrammer eller tællestreger.",
+        "At se, at 11 til 19 er én tier og nogle enere, og at 10, 20 … 90 ikke har nogen enere.",
+        "At skrive et tal som tiere plus enere og sætte det sammen igen."
       ]
     },
     "syllable-builder.byg-ordet-af-stavelser.da.rf-k-2-b": {

@@ -2694,6 +2694,32 @@
         "At gøre to antal lige store ved at lægge til det ene eller tage fra det andet",
         "At finde starttallet ud fra det, der kom til, og det samlede antal"
       ]
+    },
+    "track-repair.count-to-120.1-nbt-a-1": {
+      "about": [
+        "En storm har revet jernbanen i Fløjtedalen i stykker, og sporet er en tallinje: hver svelle står for et tal. Barnet trækker talskilte hen på de sveller, hvor de hører til (eller trykker først på et skilt og så på en svelle). Ét skilt på vognen hører slet ikke til på denne strækning, så barnet skal vælge og ikke bare udfylde huller. Bagefter tjekker lokomotivet arbejdet ved at tælle videre fra stationen: lygten lyser tallet op på hver svelle, det kører over, og det stopper ved det første skilt, der ikke passer.",
+        "Der er tre spor. Under Hop holder toget ved et tal og kører nogle sveller frem eller tilbage; barnet sætter det røde flag, hvor det stopper, og lokomotivet puster én røgsky ud for hvert hop, så man straks ser, om startsvellen bliver talt med som »en«. Under Find pladsen skruer barnet skilte fast på sveller, skriver nogle gange tallet til en svelle med en pil og sætter nogle gange skilte på en åben skinne, hvor kun de to endetal står. Under Pæle stiger eller falder tallene med lige store spring, og hvert spring viser sin størrelse, så det skilt, der bryder mønsteret, falder i øjnene.",
+        "Tallene går op til 50 eller 120. Efter andet forsøg lader lygten et tal stå på hver tom svelle. I tråd med Fælles Mål for tal og algebra. Uden tidtagning og uden point."
+      ],
+      "practices": [
+        "At tælle frem og tilbage fra et hvilket som helst tal op til 120",
+        "At placere tal på en tallinje ud fra det nærmeste trykte tal",
+        "At læse og skrive tal hen over et tiertal eller hundredtal (39, 40 … 99, 100, 101)",
+        "At finde og fortsætte et mønster med lige store spring"
+      ],
+      "howToPlay": [
+        "Læs opgaven, og se på de tal, der allerede står på sporet.",
+        "Træk et skilt hen på den svelle, hvor dets tal hører til, eller tryk først på et skilt og så på en svelle. Lad det skilt, der ikke hører til, blive på vognen.",
+        "Under Hop sætter du det røde flag på den svelle, hvor toget stopper. Har en svelle en pil, så tryk på den og skriv dens tal.",
+        "Tryk på Tjek, og se lokomotivet tælle videre. Stopper det ved et skilt, så flyt det skilt og tjek igen.",
+        "I indstillingerne vælger du sporet (hop, find pladsen eller pæle) og tallene (op til 50 eller op til 120)."
+      ],
+      "learningGoals": [
+        "At tælle til 120 fra et hvilket som helst tal",
+        "At finde et tal på tallinjen ved at tælle videre fra et kendt tal",
+        "At tælle i hop frem og tilbage for at lægge til og trække fra",
+        "At genkende og fortsætte et talmønster med lige store spring"
+      ]
     }
   }
 }

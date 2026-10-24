@@ -4353,25 +4353,28 @@
     },
     "track-repair.count-to-120.1-nbt-a-1": {
       "about": [
-        "A storm has torn out the train track in Whistle Valley — and the track is a number line. The child reads each numbered tie and drags it to the exact spot its number belongs, counting on from anchor stations, until the line is whole and the engine can chug across. This interactive Grade 1 math activity counts to 120 in the browser with no sign-up.",
-        "The number line is what makes counting visual and exact. A tie has to go in its true place, so the child counts on from a known number rather than guessing, and the spacing shows that 60 sits halfway between 40 and 80. The skip-counting rounds — dropping 15, 20, 25 between 10 and 30 — build the same counting patterns that lead toward tens and ones. Distractor ties that are close but wrong mean the child really has to find the right number.",
-        "It is aligned to Common Core 1.NBT.A.1 — counting to 120, starting at any number, and reading and representing numbers on the number line. No timer, no score — just calm, playful practice."
+        "A storm has torn up the railway in Whistle Valley, and the track is a number line: every tie stands for a number. The child drags number plates onto the ties where they belong (or taps a plate, then a tie). One plate on the trolley does not belong on this stretch at all, so the child has to decide, not just fill gaps. Then the engine checks the work by counting on from the station: its headlamp lights each tie's number as it rolls, and it stops at the first plate it disagrees with.",
+        "There are three tracks. On Hops the train is at a number and goes a few ties on or back; the child plants the red flag where it will stop, and the engine puffs once for each hop, so counting the start tie as “one” is easy to see. On Find the spot the child bolts plates onto ties, sometimes types the number for a tie with an arrow, and sometimes places plates on an open rail with only the two end numbers shown. On Mileposts the posts go up or down in equal jumps, and every jump shows its own size, so the plate that breaks the step stands out.",
+        "Numbers go to 50 or to 120. After a second try the lamp leaves a number on every empty tie. Aligned to Common Core 1.NBT.A.1. No timer and no score."
       ],
       "practices": [
-        "Placing a number in its exact spot on the number line",
-        "Counting on from an anchor number to find the next ties",
-        "Crossing the tens and going past 100 toward 120",
-        "Skip-counting by fives and tens to fill the gaps"
+        "Counting on and back from any number up to 120",
+        "Placing numbers on a number line from the nearest printed number",
+        "Reading and writing numbers across a ten or a hundred (39, 40 … 99, 100, 101)",
+        "Finding and continuing a pattern with an equal step"
       ],
       "howToPlay": [
-        "Read the number on each loose tie and look at the anchor stations on the track.",
-        "Drag each tie to the exact spot its number belongs, counting on from the anchors.",
-        "Not quite? Slide the tie to the right place and try again — there is no timer and no score."
+        "Read the task and look at the numbers already on the track.",
+        "Drag a plate onto the tie where its number belongs, or tap a plate and then a tie. Leave the plate that does not belong on the trolley.",
+        "On Hops, plant the red flag on the tie where the train stops. When a tie has an arrow, tap it and type its number.",
+        "Press Check and watch the engine count on. If it stops at a plate, move that plate and check again.",
+        "In the settings, choose the track (hops, find the spot or mileposts) and the numbers (to 50 or to 120)."
       ],
       "learningGoals": [
-        "Count to 120 and place numbers on the number line — the focus of Common Core 1.NBT.A.1",
-        "Count on from any number instead of starting at one",
-        "Build the number-line sense that addition, subtraction, and place value rely on"
+        "Count to 120, starting at any number",
+        "Locate a number on a number line by counting on from a known number",
+        "Count on and back in hops to add and subtract",
+        "Recognise and continue a number pattern with a constant step"
       ]
     },
     "twinsies.count-twin.k-cc-b-5": {

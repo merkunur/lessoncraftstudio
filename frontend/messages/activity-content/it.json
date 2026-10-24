@@ -335,25 +335,28 @@
     },
     "track-repair.count-to-120.1-nbt-a-1": {
       "about": [
-        "Nella valle del Fischio un temporale ha strappato via i binari e il treno è fermo alla stazione. Ma quei binari sono speciali: formano una linea dei numeri da 0 a 100. Il bambino diventa il macchinista che rimette a posto la ferrovia, prendendo una traversina numerata alla volta e collocandola nel punto esatto in cui il suo numero appartiene. Quando ogni traversina torna al suo posto, il treno fischia e riparte lungo la valle: un modo concreto e pieno di storia per capire dove vivono i numeri.",
-        "Collocare i numeri per posizione sulla linea dei numeri sviluppa il senso della grandezza: il bambino capisce che 50 sta a metà, che 90 è quasi in fondo e che i numeri crescono a intervalli regolari. Contando per 5 e per 10 impara a spostarsi con sicurezza fino a 100, a stimare le distanze fra i numeri e a costruire quel senso del numero che è la base del calcolo mentale.",
-        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali. È interattiva e senza pressioni: niente registrazione, niente timer e niente punteggio, così ogni bambino può esplorare, sbagliare e riprovare con calma, seguendo il proprio ritmo."
+        "Un temporale ha rovinato la ferrovia della valle del Fischio, e il binario è una linea dei numeri: ogni traversina corrisponde a un numero. Il bambino trascina le targhette numerate sulle traversine giuste (oppure tocca una targhetta e poi una traversina). Una targhetta del carrello non va su questo tratto, quindi il bambino deve scegliere e non solo riempire spazi. Poi la locomotiva controlla il lavoro contando dalla stazione in avanti: il suo faro illumina il numero di ogni traversina mentre passa, e si ferma alla prima targhetta che non torna.",
+        "Ci sono tre binari. In Salti il treno è su un numero e va avanti o indietro di qualche traversina; il bambino pianta la bandierina rossa dove si fermerà, e la locomotiva fa una nuvoletta di fumo a ogni salto, così si vede subito se la traversina di partenza viene contata come «uno». In Trova il posto il bambino avvita targhette sulle traversine, a volte scrive il numero di una traversina con la freccia e a volte mette le targhette su un binario aperto dove ci sono solo i due numeri alle estremità. In Paletti i numeri salgono o scendono con salti uguali, e ogni salto mostra quanto è grande, così la targhetta che rompe la regola si nota.",
+        "I numeri arrivano fino a 50 o fino a 120. Dopo il secondo tentativo, il faro lascia un numero su ogni traversina vuota. In linea con le Indicazioni nazionali per i numeri. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Colloca i numeri fino a 100 sulla linea dei numeri",
-        "Conta per 5 e per 10 con sicurezza",
-        "Stima la posizione e la grandezza dei numeri",
-        "Rafforza il senso del numero giocando"
+        "Contare in avanti e all’indietro da qualsiasi numero fino a 120",
+        "Collocare i numeri sulla linea dei numeri partendo dal numero scritto più vicino",
+        "Leggere e scrivere i numeri nel passaggio di decina o di centinaio (39, 40… 99, 100, 101)",
+        "Trovare e continuare una sequenza con salti uguali"
       ],
       "howToPlay": [
-        "Tocca una traversina numerata.",
-        "Toccala al punto giusto sulla linea dei numeri.",
-        "Posa tutte le traversine e fai partire il treno."
+        "Leggi la consegna e guarda i numeri che ci sono già sul binario.",
+        "Trascina una targhetta sulla traversina del suo numero, oppure tocca una targhetta e poi una traversina. Lascia sul carrello la targhetta che non va.",
+        "In Salti, pianta la bandierina rossa sulla traversina dove si ferma il treno. Se una traversina ha una freccia, toccala e scrivi il suo numero.",
+        "Premi Controlla e guarda la locomotiva contare. Se si ferma davanti a una targhetta, spostala e controlla di nuovo.",
+        "Nelle impostazioni scegli il binario (salti, trova il posto o paletti) e i numeri (fino a 50 o fino a 120)."
       ],
       "learningGoals": [
-        "Collocare i numeri fino a 100 al posto giusto",
-        "Contare per 5 e per 10 lungo la linea dei numeri",
-        "Sviluppare il senso della posizione e della grandezza dei numeri"
+        "Contare fino a 120 partendo da qualsiasi numero",
+        "Collocare un numero sulla linea dei numeri contando da un numero conosciuto",
+        "Contare a salti in avanti e all’indietro per addizionare e sottrarre",
+        "Riconoscere e continuare una sequenza numerica con salti uguali"
       ]
     },
     "bram-board-shop.length-word-problems.2-md-b-5": {

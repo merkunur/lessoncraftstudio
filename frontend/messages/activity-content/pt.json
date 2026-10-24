@@ -240,25 +240,28 @@
     },
     "track-repair.count-to-120.1-nbt-a-1": {
       "about": [
-        "No Vale do Apito, uma tempestade arrancou os trilhos do trenzinho e espalhou os dormentes numerados pelo caminho. Cada dormente traz um número, e o lugar certo dele está bem ali, na reta numérica que atravessa o vale. A criança sobe no vagonete, lê um dormente de cada vez e recoloca cada peça exatamente onde ela pertence, até a via ficar inteira de novo.",
-        "Por trás da brincadeira está uma ideia central do 1º ano: a reta numérica. A criança conta a partir das estações-âncora, avança de 5 em 5 e de 10 em 10, atravessa as dezenas e passa da casa do cem, colocando os números até 100 no ponto exato. Ela percebe que cada número tem um só lugar na reta e que contar salteado ajuda a chegar mais rápido no destino. Quando os trilhos ficam prontos, um trenzinho que canta passa apitando e entoa a sequência restaurada, do começo ao fim.",
-        "A atividade é interativa, sem cronômetro, sem pontos e sem competição, no seu ritmo. A proposta segue a BNCC na unidade temática Números do 1º ano, trabalhando a contagem, a reta numérica e as contagens de 5 em 5 e de 10 em 10 até 100, com um jeitinho calmo e acolhedor, sem pressa e sem medo de errar."
+        "Uma tempestade destruiu a ferrovia do Vale do Apito, e o trilho é uma reta numérica: cada dormente representa um número. A criança arrasta placas com números até os dormentes certos (ou toca numa placa e depois num dormente). Uma placa do carrinho não é deste trecho, então a criança precisa decidir, e não só preencher espaços. Depois, a locomotiva confere o trabalho contando a partir da estação: o farol ilumina o número de cada dormente ao passar, e ela para na primeira placa que não confere.",
+        "São três trilhos. Em Saltos, o trem está num número e anda alguns dormentes para a frente ou para trás; a criança coloca a bandeira vermelha onde ele vai parar, e a locomotiva solta uma nuvem de fumaça a cada salto, então dá para ver na hora se o dormente de partida foi contado como “um”. Em Encontre o lugar, a criança parafusa placas nos dormentes, às vezes digita o número de um dormente com seta e às vezes coloca placas num trilho aberto, que mostra só os números das pontas. Em Postes, os números sobem ou descem em saltos iguais, e cada salto mostra o seu tamanho, então a placa que quebra o padrão aparece.",
+        "Os números vão até 50 ou até 120. Depois da segunda tentativa, o farol deixa um número em cada dormente vazio. De acordo com a BNCC, na unidade temática Números. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Localiza números até 100 na reta numérica, colocando cada dormente no ponto exato.",
-        "Conta a partir de uma estação-âncora, avançando um a um ou salteado.",
-        "Faz contagens de 5 em 5 e de 10 em 10, atravessando as dezenas e a casa do cem.",
-        "Percebe a ordem dos números e a distância entre eles ao longo da reta."
+        "Contar para a frente e para trás a partir de qualquer número até 120",
+        "Localizar números na reta numérica a partir do número escrito mais próximo",
+        "Ler e escrever números na passagem de uma dezena ou centena (39, 40… 99, 100, 101)",
+        "Descobrir e continuar um padrão com saltos iguais"
       ],
       "howToPlay": [
-        "Leia o número escrito no dormente que está no vagonete.",
-        "Coloque o dormente no lugar certo da reta numérica, contando a partir das estações.",
-        "Quando a via estiver pronta, mande o trenzinho passar e ouça a sequência cantada."
+        "Leia a tarefa e observe os números que já estão no trilho.",
+        "Arraste uma placa até o dormente do seu número, ou toque numa placa e depois num dormente. Deixe no carrinho a placa que não é daqui.",
+        "Em Saltos, coloque a bandeira vermelha no dormente onde o trem para. Quando um dormente tiver uma seta, toque nele e digite o seu número.",
+        "Aperte Verificar e veja a locomotiva contar. Se ela parar numa placa, mude essa placa de lugar e verifique de novo.",
+        "Nas configurações, escolha o trilho (saltos, encontre o lugar ou postes) e os números (até 50 ou até 120)."
       ],
       "learningGoals": [
-        "Colocar e ler números até 100 na reta numérica com segurança.",
-        "Contar de 5 em 5 e de 10 em 10 a partir de diferentes pontos de partida.",
-        "Compreender que cada número ocupa um lugar único e ordenado na reta."
+        "Contar até 120 a partir de qualquer número",
+        "Localizar um número na reta numérica contando a partir de um número conhecido",
+        "Contar em saltos para a frente e para trás para somar e subtrair",
+        "Reconhecer e continuar um padrão numérico com saltos iguais"
       ]
     },
     "bundle-bot.bundle-machine.1-nbt-b-2-a": {

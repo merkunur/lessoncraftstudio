@@ -243,6 +243,10 @@ function seedScript(row) {
     // 8 + 6: Lily on 8 pulled back two beads, the aim ring on the golden Ten Stone, the stones past ten still under water — the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.facts='both';t.api.settings.labels='five';t._pool=null;t._ensurePool();t._start(0);t._coil=2;t._view={};t._render2();})()`;
   }
+  if (row.tool === 'counting-lamp-activity') {
+    // 40-50: 43 bolted right, 47 one tie too far: the engine counted on from the station, the lamp's numbers on the empty ties, and it stopped at the plate with its true number 48 — the counting lamp at work
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.track='spots';t.api.settings.numbers='120';t._pool=null;t._ensurePool();t._start(3,0);var C=window.CountingLampCore,s=t.st;C.place(s,43,3);C.place(s,47,8);t._check();})()`;
+  }
   if (row.tool === 'fair-ribbon-activity') {
     // MORE Pim 9 / Bo 4 with 7 said: the beads float past the gold ribbon, two coral ones over the top, and now Pim goes quiet — the fair ribbon at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.jars='clear';t.api.settings.story='all';t._pool=null;t._ensurePool();t._start(5,false,0);var C=window.FairRibbonCore,s=t.st;C.choose(s,7);C.check(s);t._view={acted:true};t._render2();})()`;

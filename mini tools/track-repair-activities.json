@@ -1,33 +1,770 @@
 [
   {
     "id": "track-repair.count-to-120.1-nbt-a-1",
-    "tool": "track-repair-activity",
+    "tool": "counting-lamp-activity",
     "task_template": "track-repair",
-    "alignment": { "framework": "CCSS", "code": "1.NBT.A.1", "grade": "1", "strand": "Number & Operations in Base Ten" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "1.NBT.A.1",
+      "grade": "1",
+      "strand": "Number & Operations in Base Ten"
+    },
     "params": {
-      "rounds": [
-        { "id": "count-on-47", "cog": "count-on", "band": 1, "start": 47, "end": 50, "step": 1, "present": [47, 50], "targets": [48, 49], "distractors": [46, 51], "epsilon": 0.45 },
-        { "id": "count-on-83", "cog": "count-on", "band": 1, "start": 83, "end": 86, "step": 1, "present": [83, 86], "targets": [84, 85], "distractors": [82, 87], "epsilon": 0.45 },
-        { "id": "count-back-25", "cog": "count-back", "band": 1, "start": 22, "end": 25, "step": 1, "present": [22, 25], "targets": [23, 24], "distractors": [21, 26], "epsilon": 0.45 },
-        { "id": "decade-38", "cog": "decade", "band": 2, "start": 38, "end": 42, "step": 1, "present": [38, 39, 42], "targets": [40, 41], "distractors": [37, 43], "epsilon": 0.5 },
-        { "id": "to-120-98", "cog": "to-120", "band": 3, "start": 98, "end": 102, "step": 1, "present": [98, 99, 102], "targets": [100, 101], "distractors": [97, 103], "epsilon": 0.5 },
-        { "id": "two-gap-33", "cog": "two-gap", "band": 2, "start": 32, "end": 37, "step": 1, "present": [32, 33, 35, 37], "targets": [34, 36], "distractors": [31, 38], "epsilon": 0.55 },
-
-        { "id": "skip-10-30", "cog": "skip", "band": 2, "start": 10, "end": 30, "step": 5, "present": [10, 30], "targets": [15, 20, 25], "distractors": [17, 22], "epsilon": 1.3 },
-        { "id": "skip-5-25", "cog": "skip", "band": 2, "start": 5, "end": 25, "step": 5, "present": [5, 25], "targets": [10, 15, 20], "distractors": [13, 18], "epsilon": 1.3 },
-        { "id": "skip-15-35", "cog": "skip", "band": 2, "start": 15, "end": 35, "step": 5, "present": [15, 35], "targets": [20, 25, 30], "distractors": [22, 28], "epsilon": 1.3 },
-        { "id": "skip-40-70", "cog": "skip", "band": 2, "start": 40, "end": 70, "step": 10, "present": [40, 70], "targets": [50, 60], "distractors": [45, 55], "epsilon": 1.8 },
-        { "id": "skip-60-90", "cog": "skip", "band": 3, "start": 60, "end": 90, "step": 10, "present": [60, 90], "targets": [70, 80], "distractors": [65, 75], "epsilon": 1.8 },
-
-        { "id": "interval-10-30", "cog": "interval", "band": 3, "start": 10, "end": 30, "step": 1, "present": [10, 30], "targets": [20], "distractors": [15, 25], "epsilon": 1.4 },
-        { "id": "interval-40-80", "cog": "interval", "band": 3, "start": 40, "end": 80, "step": 1, "present": [40, 80], "targets": [60], "distractors": [50, 70], "epsilon": 2.6 },
-        { "id": "interval-50-70", "cog": "interval", "band": 3, "start": 50, "end": 70, "step": 1, "present": [50, 70], "targets": [60], "distractors": [55, 65], "epsilon": 1.4 }
-      ]
+      "note": "A mirror of counting-lamp-core.js (every round of the three tracks at both number ranges). The core is the source; this row runs the Counting Lamp.",
+      "tracks": [
+        "hops",
+        "spots",
+        "posts"
+      ],
+      "levels": [
+        "50",
+        "120"
+      ],
+      "rounds": {
+        "hops": {
+          "50": [
+            {
+              "stretch": [
+                16,
+                26
+              ],
+              "start": 17,
+              "hops": 3,
+              "stop": 20
+            },
+            {
+              "stretch": [
+                20,
+                30
+              ],
+              "start": 25,
+              "hops": -3,
+              "stop": 22
+            },
+            {
+              "stretch": [
+                35,
+                45
+              ],
+              "start": 38,
+              "hops": 4,
+              "stop": 42
+            },
+            {
+              "stretch": [
+                10,
+                20
+              ],
+              "start": 16,
+              "hops": -5,
+              "stop": 11
+            },
+            {
+              "stretch": [
+                25,
+                35
+              ],
+              "start": 28,
+              "hops": 3,
+              "stop": 31
+            },
+            {
+              "stretch": [
+                30,
+                40
+              ],
+              "start": 33,
+              "hops": 5,
+              "stop": 38
+            },
+            {
+              "stretch": [
+                35,
+                45
+              ],
+              "start": 41,
+              "hops": -4,
+              "stop": 37
+            },
+            {
+              "stretch": [
+                34,
+                44
+              ],
+              "start": 36,
+              "hops": 6,
+              "stop": 42
+            }
+          ],
+          "120": [
+            {
+              "stretch": [
+                46,
+                56
+              ],
+              "start": 47,
+              "hops": 3,
+              "stop": 50
+            },
+            {
+              "stretch": [
+                20,
+                30
+              ],
+              "start": 25,
+              "hops": -3,
+              "stop": 22
+            },
+            {
+              "stretch": [
+                35,
+                45
+              ],
+              "start": 38,
+              "hops": 4,
+              "stop": 42
+            },
+            {
+              "stretch": [
+                10,
+                20
+              ],
+              "start": 16,
+              "hops": -5,
+              "stop": 11
+            },
+            {
+              "stretch": [
+                95,
+                105
+              ],
+              "start": 98,
+              "hops": 4,
+              "stop": 102
+            },
+            {
+              "stretch": [
+                60,
+                70
+              ],
+              "start": 63,
+              "hops": 5,
+              "stop": 68
+            },
+            {
+              "stretch": [
+                35,
+                45
+              ],
+              "start": 41,
+              "hops": -4,
+              "stop": 37
+            },
+            {
+              "stretch": [
+                110,
+                120
+              ],
+              "start": 112,
+              "hops": 6,
+              "stop": 118
+            }
+          ]
+        },
+        "spots": {
+          "50": [
+            {
+              "stretch": [
+                1,
+                11
+              ],
+              "plates": [
+                8,
+                4
+              ],
+              "arrow": null,
+              "distractor": 13
+            },
+            {
+              "stretch": [
+                10,
+                20
+              ],
+              "plates": [
+                13,
+                18
+              ],
+              "arrow": null,
+              "distractor": 21
+            },
+            {
+              "stretch": [
+                20,
+                30
+              ],
+              "plates": [
+                26
+              ],
+              "arrow": 22,
+              "distractor": 32
+            },
+            {
+              "stretch": [
+                40,
+                50
+              ],
+              "plates": [
+                47,
+                43
+              ],
+              "arrow": null,
+              "distractor": 36
+            },
+            {
+              "stretch": [
+                30,
+                40
+              ],
+              "plates": [
+                38
+              ],
+              "arrow": 34,
+              "distractor": 48
+            },
+            {
+              "stretch": [
+                5,
+                15
+              ],
+              "plates": [
+                6,
+                14
+              ],
+              "arrow": null,
+              "distractor": 17
+            },
+            {
+              "stretch": [
+                25,
+                35
+              ],
+              "plates": [
+                30,
+                28
+              ],
+              "arrow": null,
+              "distractor": 37
+            },
+            {
+              "stretch": [
+                35,
+                45
+              ],
+              "plates": [
+                42
+              ],
+              "arrow": 39,
+              "distractor": 47
+            },
+            {
+              "rail": [
+                10,
+                30
+              ],
+              "eps": 1.4,
+              "plates": [
+                20,
+                15
+              ],
+              "distractor": 35
+            },
+            {
+              "rail": [
+                20,
+                40
+              ],
+              "eps": 1.4,
+              "plates": [
+                30,
+                25
+              ],
+              "distractor": 45
+            }
+          ],
+          "120": [
+            {
+              "stretch": [
+                1,
+                11
+              ],
+              "plates": [
+                8,
+                4
+              ],
+              "arrow": null,
+              "distractor": 13
+            },
+            {
+              "stretch": [
+                10,
+                20
+              ],
+              "plates": [
+                13,
+                18
+              ],
+              "arrow": null,
+              "distractor": 21
+            },
+            {
+              "stretch": [
+                20,
+                30
+              ],
+              "plates": [
+                26
+              ],
+              "arrow": 22,
+              "distractor": 32
+            },
+            {
+              "stretch": [
+                40,
+                50
+              ],
+              "plates": [
+                47,
+                43
+              ],
+              "arrow": null,
+              "distractor": 54
+            },
+            {
+              "stretch": [
+                30,
+                40
+              ],
+              "plates": [
+                38
+              ],
+              "arrow": 34,
+              "distractor": 48
+            },
+            {
+              "stretch": [
+                50,
+                60
+              ],
+              "plates": [
+                51,
+                59
+              ],
+              "arrow": null,
+              "distractor": 61
+            },
+            {
+              "stretch": [
+                90,
+                100
+              ],
+              "plates": [
+                99,
+                95
+              ],
+              "arrow": null,
+              "distractor": 109
+            },
+            {
+              "stretch": [
+                100,
+                110
+              ],
+              "plates": [
+                103
+              ],
+              "arrow": 107,
+              "distractor": 113
+            },
+            {
+              "rail": [
+                10,
+                30
+              ],
+              "eps": 1.4,
+              "plates": [
+                20,
+                15
+              ],
+              "distractor": 35
+            },
+            {
+              "rail": [
+                40,
+                80
+              ],
+              "eps": 2.6,
+              "plates": [
+                60,
+                50
+              ],
+              "distractor": 90
+            }
+          ]
+        },
+        "posts": {
+          "50": [
+            {
+              "posts": [
+                5,
+                null,
+                null,
+                null,
+                25,
+                30
+              ],
+              "step": 5,
+              "plates": [
+                10,
+                15,
+                20
+              ],
+              "distractors": [
+                13,
+                18
+              ]
+            },
+            {
+              "posts": [
+                20,
+                null,
+                null,
+                35,
+                40,
+                45
+              ],
+              "step": 5,
+              "plates": [
+                25,
+                30
+              ],
+              "distractors": [
+                28,
+                33
+              ]
+            },
+            {
+              "posts": [
+                12,
+                14,
+                null,
+                18,
+                null,
+                22
+              ],
+              "step": 2,
+              "plates": [
+                16,
+                20
+              ],
+              "distractors": [
+                15,
+                19
+              ]
+            },
+            {
+              "posts": [
+                30,
+                28,
+                null,
+                24,
+                null,
+                20
+              ],
+              "step": -2,
+              "plates": [
+                26,
+                22
+              ],
+              "distractors": [
+                25,
+                21
+              ]
+            },
+            {
+              "posts": [
+                10,
+                15,
+                null,
+                25,
+                null,
+                35
+              ],
+              "step": 5,
+              "plates": [
+                20,
+                30
+              ],
+              "distractors": [
+                22,
+                28
+              ]
+            },
+            {
+              "posts": [
+                2,
+                4,
+                null,
+                8,
+                null,
+                12
+              ],
+              "step": 2,
+              "plates": [
+                6,
+                10
+              ],
+              "distractors": [
+                7,
+                11
+              ]
+            },
+            {
+              "posts": [
+                48,
+                46,
+                null,
+                42,
+                null,
+                38
+              ],
+              "step": -2,
+              "plates": [
+                44,
+                40
+              ],
+              "distractors": [
+                43,
+                41
+              ]
+            },
+            {
+              "posts": [
+                45,
+                40,
+                null,
+                30,
+                null,
+                20
+              ],
+              "step": -5,
+              "plates": [
+                35,
+                25
+              ],
+              "distractors": [
+                36,
+                24
+              ]
+            }
+          ],
+          "120": [
+            {
+              "posts": [
+                5,
+                null,
+                null,
+                null,
+                25,
+                30
+              ],
+              "step": 5,
+              "plates": [
+                10,
+                15,
+                20
+              ],
+              "distractors": [
+                13,
+                18
+              ]
+            },
+            {
+              "posts": [
+                40,
+                null,
+                null,
+                70,
+                80,
+                90
+              ],
+              "step": 10,
+              "plates": [
+                50,
+                60
+              ],
+              "distractors": [
+                45,
+                55
+              ]
+            },
+            {
+              "posts": [
+                12,
+                14,
+                null,
+                18,
+                null,
+                22
+              ],
+              "step": 2,
+              "plates": [
+                16,
+                20
+              ],
+              "distractors": [
+                15,
+                19
+              ]
+            },
+            {
+              "posts": [
+                90,
+                80,
+                null,
+                60,
+                null,
+                40
+              ],
+              "step": -10,
+              "plates": [
+                70,
+                50
+              ],
+              "distractors": [
+                75,
+                65
+              ]
+            },
+            {
+              "posts": [
+                60,
+                70,
+                null,
+                90,
+                null,
+                110
+              ],
+              "step": 10,
+              "plates": [
+                80,
+                100
+              ],
+              "distractors": [
+                85,
+                95
+              ]
+            },
+            {
+              "posts": [
+                70,
+                75,
+                null,
+                85,
+                null,
+                95
+              ],
+              "step": 5,
+              "plates": [
+                80,
+                90
+              ],
+              "distractors": [
+                82,
+                88
+              ]
+            },
+            {
+              "posts": [
+                118,
+                116,
+                null,
+                112,
+                null,
+                108
+              ],
+              "step": -2,
+              "plates": [
+                114,
+                110
+              ],
+              "distractors": [
+                113,
+                111
+              ]
+            },
+            {
+              "posts": [
+                45,
+                40,
+                null,
+                30,
+                null,
+                20
+              ],
+              "step": -5,
+              "plates": [
+                35,
+                25
+              ],
+              "distractors": [
+                36,
+                24
+              ]
+            }
+          ]
+        }
+      }
     },
     "theme": null,
-    "slug": { "en": "whistle-valley-track-repair", "de": "zahlen-am-zahlenstrahl-bis-100-klasse-2", "fr": "compter-sur-la-ligne-numerique-jusqu-a-100-cp", "es": "recta-numerica-hasta-100-ubicar-numeros-primaria", "pt": "reta-numerica-ate-100-colocar-numeros-1-ano", "it": "linea-dei-numeri-fino-a-100-collocare-numeri-classe-seconda", "nl": "getallenlijn-tot-100-fluitdal-groep-4" },
-    "page_title": { "en": "Whistle Valley — Number-Line Track Repair", "de": "Zahlenstrahl bis 100 – Pfeiftal, Klasse 2", "fr": "Compter sur la ligne numérique jusqu'à 100 - CP", "es": "El Valle del Silbato: recta numérica hasta 100 | primaria", "pt": "Reta numérica até 100: coloque os números | 1º ano", "it": "La linea dei numeri fino a 100 | Classe seconda", "nl": "Getallenlijn tot 100 in het Fluitdal – rekenen groep 4" },
-    "page_intro": { "en": "A storm tore out the train track in Whistle Valley, and the track is a NUMBER LINE! Read each numbered tie and drag it to the exact spot its number belongs — count on from the anchor stations — then send the singing engine chugging across the repaired track. A warm Grade 1 game about counting to 120 on the number line, aligned to Common Core 1.NBT.A.1.", "de": "Zahlen am Zahlenstrahl bis 100 üben: Leg die Schwellen an die richtige Stelle, zähle weiter und in Schritten. Interaktives Mathespiel für Klasse 2.", "fr": "Une tempête a emporté la voie ferrée de la vallée du Sifflet, et cette voie est une ligne numérique ! Ton enfant lit le nombre de chaque traverse et la pose exactement à sa place — en comptant à partir des gares-repères — puis lance la petite locomotive qui chante sur la voie réparée. Une activité chaleureuse pour le CP : compter, placer les nombres et avancer de 5 en 5, de 10 en 10 sur la ligne numérique.", "es": "Ubica números en la recta numérica hasta 100: coloca cada durmiente numerado, cuenta de 5 en 5 y de 10 en 10 y ordena los números. Actividad interactiva, sin registro, alineada a los Planes y programas de estudio (SEP).", "pt": "Coloque números na reta numérica até 100: leia cada dormente numerado, conte a partir das estações e avance de 5 em 5 e de 10 em 10 para consertar os trilhos do Vale do Apito. Depois, veja o trenzinho que canta passar apitando a sequência restaurada. Atividade interativa, sem cronômetro, sem pontos e sem competição, no seu ritmo, alinhada à BNCC na unidade temática Números do 1º ano.", "it": "Un temporale ha divelto i binari nella valle del Fischio e il treno non può ripartire: quei binari sono una linea dei numeri da 0 a 100! Il bambino tocca una traversina numerata e la colloca al punto giusto sulla linea dei numeri, contando per 5 e per 10 per trovare la posizione esatta; quando tutte le traversine sono al loro posto, fa partire il treno. Un gioco che allena il senso del numero e la posizione dei numeri fino a 100 in modo concreto e giocoso. È interattiva e si gioca subito nel browser, senza registrazione, senza timer e senza punteggio. Pensata per la classe seconda e allineata alle Indicazioni nazionali.", "nl": "Een storm heeft in het Fluitdal een stuk spoor weggeslagen – en dat spoor is eigenlijk een getallenlijn. Leg de genummerde bielzen op de juiste plek tussen twee stations, tel door en terug en met sprongen van 5 en 10, en laat de trein weer rijden. Interactief rekenspel voor groep 4, aansluitend bij SLO rekenen." },
+    "slug": {
+      "en": "whistle-valley-track-repair",
+      "de": "zahlen-am-zahlenstrahl-bis-100-klasse-2",
+      "fr": "compter-sur-la-ligne-numerique-jusqu-a-100-cp",
+      "es": "recta-numerica-hasta-100-ubicar-numeros-primaria",
+      "pt": "reta-numerica-ate-100-colocar-numeros-1-ano",
+      "it": "linea-dei-numeri-fino-a-100-collocare-numeri-classe-seconda",
+      "nl": "getallenlijn-tot-100-fluitdal-groep-4",
+      "sv": "tallinjen-till-120-laga-tagbanan-ak-1",
+      "da": "tallinjen-til-120-reparer-togbanen-1-klasse",
+      "no": "tallinjen-til-120-reparer-togbanen-1-trinn",
+      "fi": "lukusuora-120-asti-korjaa-junarata-1-lk"
+    },
+    "page_title": {
+      "en": "Whistle Valley — Number-Line Track Repair",
+      "de": "Zahlenstrahl bis 100 – Pfeiftal, Klasse 2",
+      "fr": "Compter sur la ligne numérique jusqu'à 100 - CP",
+      "es": "El Valle del Silbato: recta numérica hasta 100 | primaria",
+      "pt": "Reta numérica até 100: coloque os números | 1º ano",
+      "it": "La linea dei numeri fino a 100 | Classe seconda",
+      "nl": "Getallenlijn tot 100 in het Fluitdal – rekenen groep 4",
+      "sv": "Tallinjen till 120 – laga tågbanan i Visseldalen (åk 1)",
+      "da": "Tallinjen til 120 – reparer togbanen i Fløjtedalen (1. klasse)",
+      "no": "Tallinjen til 120 – reparer togbanen i Fløytedalen (1. trinn)",
+      "fi": "Lukusuora 120 asti – korjaa Pillilaakson junarata (1. lk)"
+    },
+    "page_intro": {
+      "en": "A storm tore out the train track in Whistle Valley, and the track is a NUMBER LINE! Read each numbered tie and drag it to the exact spot its number belongs — count on from the anchor stations — then send the singing engine chugging across the repaired track. A warm Grade 1 game about counting to 120 on the number line, aligned to Common Core 1.NBT.A.1.",
+      "de": "Zahlen am Zahlenstrahl bis 100 üben: Leg die Schwellen an die richtige Stelle, zähle weiter und in Schritten. Interaktives Mathespiel für Klasse 2.",
+      "fr": "Une tempête a emporté la voie ferrée de la vallée du Sifflet, et cette voie est une ligne numérique ! Ton enfant lit le nombre de chaque traverse et la pose exactement à sa place — en comptant à partir des gares-repères — puis lance la petite locomotive qui chante sur la voie réparée. Une activité chaleureuse pour le CP : compter, placer les nombres et avancer de 5 en 5, de 10 en 10 sur la ligne numérique.",
+      "es": "Ubica números en la recta numérica hasta 100: coloca cada durmiente numerado, cuenta de 5 en 5 y de 10 en 10 y ordena los números. Actividad interactiva, sin registro, alineada a los Planes y programas de estudio (SEP).",
+      "pt": "Coloque números na reta numérica até 100: leia cada dormente numerado, conte a partir das estações e avance de 5 em 5 e de 10 em 10 para consertar os trilhos do Vale do Apito. Depois, veja o trenzinho que canta passar apitando a sequência restaurada. Atividade interativa, sem cronômetro, sem pontos e sem competição, no seu ritmo, alinhada à BNCC na unidade temática Números do 1º ano.",
+      "it": "Un temporale ha divelto i binari nella valle del Fischio e il treno non può ripartire: quei binari sono una linea dei numeri da 0 a 100! Il bambino tocca una traversina numerata e la colloca al punto giusto sulla linea dei numeri, contando per 5 e per 10 per trovare la posizione esatta; quando tutte le traversine sono al loro posto, fa partire il treno. Un gioco che allena il senso del numero e la posizione dei numeri fino a 100 in modo concreto e giocoso. È interattiva e si gioca subito nel browser, senza registrazione, senza timer e senza punteggio. Pensata per la classe seconda e allineata alle Indicazioni nazionali.",
+      "nl": "Een storm heeft in het Fluitdal een stuk spoor weggeslagen – en dat spoor is eigenlijk een getallenlijn. Leg de genummerde bielzen op de juiste plek tussen twee stations, tel door en terug en met sprongen van 5 en 10, en laat de trein weer rijden. Interactief rekenspel voor groep 4, aansluitend bij SLO rekenen.",
+      "sv": "En storm har slitit sönder tågbanan i Visseldalen, och banan är en tallinje. Barnet skruvar fast talskyltar på rätt sliper, sätter en flagga där tåget stannar efter några hopp och hittar steget mellan stolparna. Sedan kontrollerar loket banan genom att räkna vidare från stationen med sin strålkastare. Tal upp till 120, i linje med Lgr22.",
+      "da": "En storm har revet togbanen i Fløjtedalen i stykker, og banen er en tallinje. Barnet skruer talskilte fast på den rigtige svelle, sætter et flag, hvor toget stopper efter nogle hop, og finder springet mellem pælene. Bagefter tjekker lokomotivet banen ved at tælle videre fra stationen med sin lygte. Tal op til 120, i tråd med Fælles Mål.",
+      "no": "En storm har revet togbanen i Fløytedalen i stykker, og banen er en tallinje. Barnet skrur tallskilt fast på riktig sville, setter et flagg der toget stopper etter noen hopp, og finner steget mellom stolpene. Etterpå sjekker lokomotivet banen ved å telle videre fra stasjonen med lykta si. Tall opp til 120, i tråd med LK20.",
+      "fi": "Myrsky on rikkonut Pillilaakson junaradan, ja rata on lukusuora. Lapsi kiinnittää lukukyltit oikeisiin ratapölkkyihin, panee lipun siihen, mihin juna pysähtyy muutaman hypyn jälkeen, ja etsii tolppien välisen hypyn koon. Sitten veturi tarkistaa radan laskemalla asemalta eteenpäin etuvalollaan. Luvut 120 asti, perusopetuksen opetussuunnitelman (OPS 2014) mukaisesti."
+    },
     "kid_prompt_template": "track-repair"
   }
 ]

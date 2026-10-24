@@ -18,6 +18,8 @@
        overflow 280→768.
    ===================================================================== */
 'use strict';
+/* Row 92 rebuild (2026-10-24): the row runs the Counting Lamp (counting-lamp-activity; gates verify-counting-lamp-core.js + local-test-counting-lamp.js) and no page loads the old Track Repair files any more. */
+{ const _m = JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'track-repair-activities.json'), 'utf8')); const _r = (Array.isArray(_m) ? _m : _m.activities).find(a => a.id === 'track-repair.count-to-120.1-nbt-a-1'); if (_r && _r.tool !== 'track-repair-activity') { console.log('local-test-track-repair: the row runs the Counting Lamp — see verify-counting-lamp-core.js / local-test-counting-lamp.js. Nothing to check here.'); process.exit(0); } }
 const http = require('http');
 const fs = require('fs');
 const path = require('path');

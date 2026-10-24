@@ -1387,25 +1387,28 @@
     },
     "track-repair.count-to-120.1-nbt-a-1": {
       "about": [
-        "Una tormenta arrancó un tramo de vía en el valle del silbato y el trencito no puede avanzar hasta que los durmientes vuelvan a su lugar exacto. Ese tramo de vía es, en secreto, una recta numérica: entre dos estaciones marcadas, el niño o la niña coloca cada durmiente numerado en el punto donde de verdad va su número. Cuando cada número ocupa su sitio, la vía queda lista para el paso del tren.",
-        "Mientras juega, tu hijo cuenta hacia adelante y hacia atrás desde una estación y descubre que la posición dice el tamaño: mientras más grande el número, más a la derecha se coloca. También cuenta de 5 en 5 y de 10 en 10 —«10», «15», «20», «25»… o «40», «50», «60», «70»…— y busca el punto medio entre dos estaciones, por ejemplo el «60» justo entre el «40» y el «80»; en una ronda el trencito incluso rueda un poquito más allá del «100». Así construye una noción firme de los números y su orden: la orientación en la recta numérica hasta 100.",
-        "Sin cronómetro, sin puntajes y sin competencia; el niño o la niña avanza a su propio ritmo. Está alineada con el programa de primaria mexicano, dentro del eje de Sentido numérico, donde la recta numérica y los números hasta 100 tienen su lugar."
+        "Una tormenta destrozó la vía del tren en el Valle del Silbato, y la vía es una recta numérica: cada durmiente representa un número. El niño arrastra placas con números hasta los durmientes donde van (o toca una placa y luego un durmiente). Una placa del carrito no va en este tramo, así que el niño tiene que decidir, no solo rellenar huecos. Después, la locomotora revisa el trabajo contando desde la estación: su faro ilumina el número de cada durmiente al pasar, y se detiene en la primera placa que no coincide.",
+        "Hay tres vías. En Saltos, el tren está en un número y avanza o retrocede algunos durmientes; el niño pone la bandera roja donde se va a detener, y la locomotora suelta una nube de humo por cada salto, así se nota enseguida si se cuenta el durmiente de salida como «uno». En Encuentra el lugar, el niño atornilla placas en los durmientes, a veces escribe el número de un durmiente con flecha y a veces coloca placas en un riel abierto donde solo aparecen los números de los extremos. En Postes, los números suben o bajan en saltos iguales y cada salto muestra su tamaño, así que la placa que rompe el patrón se nota.",
+        "Los números llegan hasta 50 o hasta 120. Después del segundo intento, el faro deja un número en cada durmiente vacío. En línea con los programas de estudio de la SEP (campo formativo Saberes y pensamiento científico). Sin cronómetro y sin puntaje."
       ],
       "practices": [
-        "Ubicar un número en la recta numérica por su posición (posición = tamaño del número).",
-        "Contar hacia adelante y hacia atrás desde una estación, incluso al pasar una decena o el «100».",
-        "Contar de 5 en 5 y de 10 en 10 y continuar series numéricas.",
-        "Hallar el punto medio entre dos estaciones."
+        "Contar hacia adelante y hacia atrás desde cualquier número hasta 120",
+        "Ubicar números en la recta numérica a partir del número escrito más cercano",
+        "Leer y escribir números al pasar una decena o una centena (39, 40… 99, 100, 101)",
+        "Encontrar y continuar un patrón con saltos iguales"
       ],
       "howToPlay": [
-        "Observa las dos estaciones marcadas al inicio y al final del tramo.",
-        "Coloca cada durmiente numerado en el lugar donde va su número en la recta; si dudas, cuenta desde la estación más cercana.",
-        "Cuando todos los durmientes queden en su sitio, el tramo queda reparado y la locomotora sigue su camino."
+        "Lee la tarea y mira los números que ya están en la vía.",
+        "Arrastra una placa hasta el durmiente de su número, o toca una placa y luego un durmiente. Deja en el carrito la placa que no va.",
+        "En Saltos, pon la bandera roja en el durmiente donde se detiene el tren. Si un durmiente tiene una flecha, tócalo y escribe su número.",
+        "Presiona Comprobar y mira cómo cuenta la locomotora. Si se detiene en una placa, cambia esa placa de lugar y vuelve a comprobar.",
+        "En la configuración eliges la vía (saltos, encuentra el lugar o postes) y los números (hasta 50 o hasta 120)."
       ],
       "learningGoals": [
-        "Construir una noción firme de los números hasta 100.",
-        "Ordenar números en la recta numérica y entender su secuencia.",
-        "Contar de 5 en 5 y de 10 en 10 y continuar series con seguridad."
+        "Contar hasta 120 empezando en cualquier número",
+        "Ubicar un número en la recta numérica contando desde un número conocido",
+        "Contar en saltos hacia adelante y hacia atrás para sumar y restar",
+        "Reconocer y continuar un patrón numérico con saltos iguales"
       ]
     },
     "bram-board-shop.length-word-problems.2-md-b-5": {

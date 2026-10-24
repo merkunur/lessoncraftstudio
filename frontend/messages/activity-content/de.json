@@ -2052,25 +2052,28 @@
     },
     "track-repair.count-to-120.1-nbt-a-1": {
       "about": [
-        "Ein heftiger Sturm hat ein Stück der Bahnstrecke fortgerissen — und die kleine Lok kommt nur weiter, wenn die Schwellen wieder genau an der richtigen Stelle liegen. Diese Strecke ist in Wirklichkeit ein Zahlenstrahl: Zwischen zwei beschrifteten Bahnhöfen setzt Ihr Kind nummerierte Schwellen dorthin, wo die Zahl auf dem Strahl wirklich hingehört.",
-        "Dabei zählt Ihr Kind von einem Bahnhof aus weiter — mal Schritt für Schritt vorwärts, mal rückwärts — und merkt ganz nebenbei: Je größer die Zahl, desto weiter rechts liegt ihr Platz. Es zählt auch in Schritten weiter (in 5er- und in 10er-Schritten, also 10, 15, 20, 25, 30 … oder 40, 50, 60, 70 …) und sucht die Mitte zwischen zwei Stationen — zum Beispiel die 60, die genau zwischen der 40 und der 80 liegt. Einmal rollt die Lok sogar über die große 100 hinaus. So baut Ihr Kind eine sichere Vorstellung von den Zahlen und ihrer Reihenfolge auf — die Orientierung am Zahlenstrahl im Zahlenraum bis 100.",
-        "Es gibt dabei keine Uhr, keine Punkte und keinen Druck. Ihr Kind darf in seinem eigenen Tempo probieren, eine Schwelle wieder umsetzen und so lange tüfteln, bis die Strecke steht. Diese Aktivität folgt den Zielen des Lehrplans der Grundschule im Bereich „Zahlen und Operationen“."
+        "Ein Sturm hat die Bahnstrecke im Pfeiftal zerstört, und die Strecke ist ein Zahlenstrahl: Jede Schwelle steht für eine Zahl. Das Kind zieht Zahlenschilder an die Schwellen, wo sie hingehören (oder tippt erst ein Schild und dann eine Schwelle an). Ein Schild auf dem Wagen gehört gar nicht zu diesem Abschnitt, also muss das Kind entscheiden und nicht nur Lücken füllen. Dann prüft die Lok die Arbeit, indem sie vom Bahnhof aus weiterzählt: Ihr Scheinwerfer leuchtet bei jeder Schwelle deren Zahl auf, und sie hält beim ersten Schild an, das nicht stimmt.",
+        "Es gibt drei Strecken. Bei Sprünge steht der Zug bei einer Zahl und fährt ein paar Schwellen weiter oder zurück; das Kind steckt die rote Fahne dorthin, wo er hält, und die Lok pufft bei jedem Sprung einmal – so sieht man sofort, wenn die Startschwelle als „eins“ mitgezählt wird. Bei Platz finden schraubt das Kind Schilder an Schwellen, tippt manchmal die Zahl für eine Schwelle mit Pfeil ein und setzt manchmal Schilder auf eine offene Schiene, auf der nur die beiden Endzahlen stehen. Bei Pfosten steigen oder fallen die Zahlen in gleichen Sprüngen, und jeder Sprung zeigt seine Größe, sodass das Schild auffällt, das nicht passt.",
+        "Die Zahlen gehen bis 50 oder bis 120. Nach dem zweiten Versuch lässt der Scheinwerfer auf jeder leeren Schwelle eine Zahl stehen. Passend zum Lehrplan im Bereich Zahlen und Operationen. Ohne Zeitdruck und ohne Punktwertung."
       ],
       "practices": [
-        "Orientierung am Zahlenstrahl: erkennen, wo eine Zahl ihren Platz hat (Position = Größe der Zahl)",
-        "Weiterzählen und Rückwärtszählen von einem Bahnhof aus, auch über einen Zehner und über die 100 hinaus",
-        "In Schritten zählen — in 5er- und 10er-Schritten — und so Zahlenreihen fortsetzen",
-        "Zahlbeziehungen erkennen: die Mitte zwischen zwei Stationen finden"
+        "Von jeder Zahl bis 120 aus vorwärts und rückwärts weiterzählen",
+        "Zahlen am Zahlenstrahl von der nächsten gedruckten Zahl aus einordnen",
+        "Zahlen über einen Zehner oder Hunderter hinweg lesen und schreiben (39, 40 … 99, 100, 101)",
+        "Eine Zahlenfolge mit gleichen Schritten erkennen und fortsetzen"
       ],
       "howToPlay": [
-        "Schau dir die beiden beschrifteten Bahnhöfe am Anfang und Ende der Strecke an.",
-        "Setze jede nummerierte Schwelle genau an die Stelle, wo ihre Zahl auf dem Zahlenstrahl hingehört — zähl vom Bahnhof aus weiter, wenn du unsicher bist.",
-        "Liegen alle Schwellen richtig, ist die Strecke repariert und die kleine Lok fährt weiter."
+        "Lies die Aufgabe und schau dir die Zahlen an, die schon auf der Strecke stehen.",
+        "Zieh ein Schild an die Schwelle, wo seine Zahl hingehört, oder tipp erst ein Schild und dann eine Schwelle an. Das Schild, das nicht passt, bleibt auf dem Wagen.",
+        "Bei Sprünge steckst du die rote Fahne an die Schwelle, wo der Zug hält. Hat eine Schwelle einen Pfeil, tipp sie an und gib ihre Zahl ein.",
+        "Drück auf Prüfen und schau zu, wie die Lok weiterzählt. Hält sie bei einem Schild an, versetz dieses Schild und prüf noch einmal.",
+        "In den Einstellungen wählst du die Strecke (Sprünge, Platz finden oder Pfosten) und die Zahlen (bis 50 oder bis 120)."
       ],
       "learningGoals": [
-        "Eine sichere Zahlvorstellung im Zahlenraum bis 100 aufbauen",
-        "Zahlen am Zahlenstrahl ordnen und ihre Reihenfolge verstehen",
-        "In 5er- und 10er-Schritten zählen und Zahlenreihen sicher fortsetzen"
+        "Bis 120 zählen, von jeder beliebigen Zahl aus",
+        "Eine Zahl am Zahlenstrahl finden, indem man von einer bekannten Zahl aus weiterzählt",
+        "In Sprüngen vorwärts und rückwärts zählen, um zu addieren und zu subtrahieren",
+        "Eine Zahlenfolge mit gleichen Schritten erkennen und fortsetzen"
       ]
     },
     "gus-snack-cart.within-100.2-nbt-b-5": {

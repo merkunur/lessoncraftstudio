@@ -2837,25 +2837,28 @@
     },
     "place-value-regroup.add-compose-ten.1-nbt-c-4": {
       "about": [
-        "In dieser interaktiven Übung für die 1. Klasse lernen Kinder den Zehnerübergang beim Addieren – einen der wichtigsten Schritte im Zahlenraum bis 100. Wenn beim Zusammenzählen mehr als zehn Einer entstehen, werden zehn Einerwürfel zu einer Zehnerstange gebündelt. So erleben die Kinder ganz handelnd, was später beim schriftlichen Übertrag passiert.",
-        "Die Aufgabe zeigt eine zweistellige und eine einstellige Zahl, zum Beispiel 27 + 5. Das Kind legt die Mengen mit Mehrsystemblöcken (Dienes-Material), erkennt, dass zwölf Einer zusammenkommen, und tippt auf „Zehner bündeln“: Zehn Einer verwandeln sich in eine Zehnerstange. Anschließend gibt das Kind das Ergebnis ein.",
-        "Die Übung ist ohne Anmeldung spielbar und an den Lehrplänen der Grundschule ausgerichtet. Es gibt keine Zeitmessung und keine Punkte – die Kinder arbeiten in ihrem eigenen Tempo und begreifen das Bündeln im wahrsten Sinne des Wortes."
+        "Jede Spalte auf Tucks Werkbank hat eine Matte mit genau zehn Mulden, und die zehnte Mulde hängt über das Ergebniskästchen dieser Spalte hinaus. Die erste Zahl liegt schon auf der Werkbank; das Kind legt die Steine der zweiten Zahl aus der Kiste dazu. Ist eine Matte voll, liegt ihr zehnter Stein auf dem Ergebniskästchen, und die Ziffer lässt sich nicht schreiben. Das Kind rollt die volle Matte zu einem Zehner auf, und er landet auf dem Brett nebenan, wo in der Rechnung der kleine Übertrag erscheint. Ein Tipp auf das Brett legt den Zehner in die Matte dieser Spalte.",
+        "Die Ergebniskästchen öffnen sich von selbst von rechts nach links: Ein Kästchen geht erst auf, wenn seine Spalte und alle Spalten rechts davon fertig sind. So werden die Einer zuerst geschrieben, weil die Werkbank es so will, nicht wegen einer Regel. In den Minusrunden nimmt das Kind Steine weg, und wenn eine Spalte zu wenig hat, holt es einen von nebenan herunter: Der Zehner wird zu einer vollen Matte mit zehn Einern entbündelt, und in der schriftlichen Rechnung wird die Ziffer durchgestrichen und neu geschrieben.",
+        "Einstellungen: + einstellig (wie 27 + 5), zweistellig oder dreistellig, und plus, minus oder beides. Bei einer falschen Ziffer leuchtet ihre Spalte auf, damit das Kind zählt, was dort übrig ist; nach dem zweiten Fehlversuch hilft der Blick auf die zwei Hälften zu fünf jeder Matte. Tuck sammelt einen kleinen Stapel aus allen Zehnern, die das Kind aufgerollt hat. Passend zum Lehrplan im Bereich Zahlen und Operationen, mit dem schriftlichen Rechnen für zwei- und dreistellige Zahlen. Ohne Zeitdruck und ohne Punktwertung."
       ],
       "practices": [
-        "Zehnerübergang beim Addieren im Zahlenraum bis 100",
-        "Bündeln: zehn Einer zu einem Zehner zusammenfassen",
-        "Einer und Zehner sicher unterscheiden (Stellenwertverständnis)",
-        "Die Brücke vom handelnden Bündeln zum späteren schriftlichen Übertrag bauen"
+        "Eine zweistellige und eine einstellige Zahl addieren, wenn die Einer zehn oder mehr ergeben",
+        "Zehn Einer zu einem Zehner bündeln und ihn zu den Zehnern bringen",
+        "Schriftlich rechnen, die Einer zuerst, mit dem Übertrag",
+        "Abziehen, indem man einen Zehner entbündelt, wenn die Einer nicht reichen"
       ],
       "howToPlay": [
-        "Schau dir die Aufgabe an und lege beide Zahlen mit den Blöcken.",
-        "Tippe auf „Zehner bündeln“, wenn zehn Einer zusammengekommen sind – sie werden zu einer Zehnerstange.",
-        "Gib zum Schluss das Ergebnis ein."
+        "Tipp auf die Kiste, um die Steine einzeln dazuzulegen (gedrückt halten schüttet mehrere).",
+        "Ist eine Matte voll, roll sie auf: Der Zehner springt auf das Brett nebenan. Tipp auf das Brett, um ihn hineinzulegen.",
+        "Tipp auf ein offenes Ergebniskästchen, schreib das Ergebnis und drück auf Prüfen.",
+        "Zum Wegnehmen tippst du auf eine Matte. Reicht eine Spalte nicht, holst du mit dem Pfeil einen von nebenan herunter.",
+        "In den Einstellungen wählst du die Zahlen (+ einstellig, zweistellig, dreistellig) und plus, minus oder beides."
       ],
       "learningGoals": [
-        "Den Zehnerübergang beim Addieren verstehen und sicher anwenden",
-        "Das Bündeln von zehn Einern zu einem Zehner handelnd nachvollziehen",
-        "Ein tragfähiges Stellenwertverständnis im Zehnersystem aufbauen"
+        "Im Zahlenraum bis 100 addieren und dabei einen Zehner bündeln, wenn die Einer zehn oder mehr ergeben.",
+        "Den Übertrag als echten Zehner verstehen, der zu den Zehnern wandert.",
+        "Zwei- und dreistellige Zahlen schriftlich addieren und subtrahieren, die Einer zuerst.",
+        "Abziehen, indem man bei Bedarf einen Zehner in zehn Einer entbündelt."
       ]
     },
     "shapeforge.compose.1-g-a-2": {

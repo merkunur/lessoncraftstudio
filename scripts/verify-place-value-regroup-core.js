@@ -48,6 +48,8 @@ let addRounds = 0, subRounds = 0;
 const summary = [];
 
 for (const row of manifest) {
+  /* Row 96 rebuild (2026-10-24): rows rebuilt onto their own instrument (add-compose-ten → roll-mat-activity, gates verify-roll-mat-core.js + local-test-roll-mat.js) are not this engine any more */
+  if (row.tool !== 'place-value-regroup-activity') { console.log('  (' + row.id + ' runs ' + row.tool + ' — checked by its own gates)'); continue; }
   const rounds = (row.params && row.params.rounds) || [];
   const tmpl = row.task_template;
   check(rounds.length >= VARIETY_MIN, `${row.id}: ${rounds.length} rounds < ${VARIETY_MIN} (§A.13.60)`);

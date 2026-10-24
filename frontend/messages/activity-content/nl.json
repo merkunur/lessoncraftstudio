@@ -2669,25 +2669,28 @@
     },
     "place-value-regroup.add-compose-ten.1-nbt-c-4": {
       "about": [
-        "Tuck de hamster laat MAB-blokken zien terwijl je kind een getal van twee cijfers optelt bij een getal van één cijfer, waarbij de eenheden samen over de tien heen gaan — 27+5, 48+6, 19+4. Je kind telt de losse blokjes, tikt op “Maak een tiental” om tien blokjes te bundelen tot één staafje, en typt daarna het totaal. Het is een interactieve activiteit die in elke browser speelt, zonder download en zonder account.",
-        "De kern is de eerste, concrete betekenis van tienoverschrijding: tien eenheden vormen samen één tiental. In plaats van een trucje op papier telt je kind eerst de losse eenheden, ziet dat het er meer dan tien zijn, en kijkt hoe tien ervan samen tot één staafje worden gebundeld. De overgebleven eenheden blijven netjes in de eenheden-kolom staan, zodat je kind ziet wáárom het totaal precies daar uitkomt. Zo ervaart het het bundelen met echt materiaal, nog vóór de kale rekenregel met potlood en papier.",
-        "De activiteit sluit aan bij de SLO-kerndoelen, domein Getallen en het tientallig stelsel, en past bij het rekenen in Groep 4. Geen timer, geen score — gewoon rustig en speels oefenen, in je kind zijn of haar eigen tempo."
+        "Elke kolom op Tucks werkbank heeft een mat met precies tien kuiltjes, en het tiende kuiltje hangt over het antwoordvakje van die kolom. Het eerste getal ligt al op de werkbank; het kind legt de blokjes van het tweede getal uit de bak erbij. Is een mat vol, dan ligt het tiende blokje op het antwoordvakje en kan het cijfer niet geschreven worden. Het kind rolt de volle mat op tot één tiental, en dat landt op de plank ernaast, waar in de som het kleine 1'tje verschijnt. Een tik op de plank legt het tiental in de mat van die kolom.",
+        "De antwoordvakjes gaan vanzelf open van rechts naar links: een vakje gaat pas open als zijn eigen kolom en alle kolommen rechts ervan klaar zijn. Zo worden de eenheden eerst geschreven, omdat de werkbank zo werkt en niet door een regel. In de aftrekrondes haalt het kind blokjes weg, en als een kolom te weinig heeft, haalt het er een uit de kolom ernaast naar beneden: het tiental wordt ingewisseld voor een volle mat van tien, en in een cijferende som wordt het cijfer doorgestreept en opnieuw geschreven.",
+        "Instellingen: + één cijfer (zoals 27 + 5), twee cijfers of drie cijfers, en erbij, eraf of allebei. Bij een fout cijfer licht de kolom op, zodat het kind telt wat daar over is; na de tweede foute poging helpen de twee helften van vijf op elke mat. Tuck houdt een stapeltje bij van elk tiental dat het kind heeft opgerold. Passend bij de kerndoelen voor getallen, met cijferend rekenen voor getallen van twee en drie cijfers. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Een getal van twee cijfers optellen bij een getal van één cijfer, als de eenheden samen over de tien heen gaan",
-        "Tien losse blokjes bundelen tot één staafje",
-        "Tienoverschrijding begrijpen als bundelen tot een tiental",
-        "Het juiste totaal typen nadat er een tiental is gemaakt"
+        "Een getal van twee cijfers en een getal van één cijfer optellen als de eenheden samen tien of meer zijn",
+        "Tien eenheden oprollen tot één tiental en het naar de tientallen brengen",
+        "Cijferend rekenen met de eenheden eerst en het 1'tje dat je onthoudt",
+        "Aftrekken door een tiental in te wisselen als er te weinig eenheden zijn"
       ],
       "howToPlay": [
-        "Lees de som (27+5) en kijk hoe Tuck de hamster hem laat zien met MAB-blokken",
-        "Tik op “Maak een tiental” om tien losse eenheden te bundelen tot één staafje",
-        "Typ het totaal op het toetsenblok — je kunt altijd opnieuw proberen, zonder timer en zonder score"
+        "Tik op de bak om de blokjes er één voor één bij te leggen (ingedrukt houden schudt er meer bij).",
+        "Is een mat vol, rol hem dan op: het tiental springt naar de plank van de kolom ernaast. Tik op de plank om het erin te leggen.",
+        "Tik op een open antwoordvakje, typ het antwoord en druk op Controleer.",
+        "Om weg te halen tik je op een mat. Is een kolom op, haal er dan met de pijl een uit de kolom ernaast naar beneden.",
+        "In de instellingen kies je de getallen (+ één cijfer, twee cijfers, drie cijfers) en erbij, eraf of allebei."
       ],
       "learningGoals": [
-        "Optellen tot 100 met tienoverschrijding",
-        "Begrijpen dat tien eenheden samen één tiental vormen (plaatswaarde)",
-        "De plaatswaarde-betekenis ontdekken achter het optellen met tienoverschrijding op papier"
+        "Optellen tot 100 met tienoverschrijding door tien eenheden tot een tiental te bundelen.",
+        "Het 1'tje dat je onthoudt begrijpen als een echt tiental dat naar de tientallen gaat.",
+        "Getallen van twee en drie cijfers cijferend optellen en aftrekken, met de eenheden eerst.",
+        "Aftrekken door een tiental in te wisselen voor tien eenheden als dat nodig is."
       ]
     },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {

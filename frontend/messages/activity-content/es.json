@@ -2395,25 +2395,28 @@
     },
     "place-value-regroup.add-compose-ten.1-nbt-c-4": {
       "about": [
-        "Tuck, el hámster, acomoda bloques de base diez en columnas de valor posicional: las decenas de un lado y las unidades del otro. Cuando resuelves una suma como 27 + 5, ves cómo se juntan las unidades y decides qué hacer cuando ya son más de diez.",
-        "La idea grande es sencilla y poderosa: cuando se juntan más de diez unidades, se agrupan para formar una decena. Ese paso concreto —tomar 10 cubitos y cambiarlos por una barra de diez— es justo lo que ocurre antes de «llevar» en la suma escrita, y ayuda a los niños a entender el valor posicional en lugar de memorizar un truco.",
-        "Está pensada para acompañar el trabajo del aula y de casa según los planes y programas de estudio de la SEP y la Nueva Escuela Mexicana: fortalece el sentido numérico y la comprensión de decenas y unidades en primer grado de primaria."
+        "Cada columna de la mesa de Tuck tiene un tapete con exactamente diez huecos, y el décimo hueco sobresale por encima de la casilla del resultado de esa columna. El primer número ya está en la mesa; el niño trae los bloques del segundo número desde la caja. Cuando un tapete se llena, su décimo bloque queda encima de la casilla, así que la cifra no se puede escribir. El niño enrolla el tapete lleno en una decena, que cae en la repisa de la columna de al lado, donde aparece el 1 que se lleva en la operación escrita. Al tocar la repisa, la decena entra en el tapete de esa columna.",
+        "Las casillas del resultado se abren solas de derecha a izquierda: una casilla se abre solo cuando su columna y todas las columnas a su derecha están listas. Así, las unidades se escriben primero porque la mesa funciona así, no por una regla. En las rondas de quitar, el niño quita bloques, y cuando a una columna no le alcanza, baja uno de la columna de al lado: la decena se desenrolla en un tapete lleno de diez unidades, y en la operación en columnas la cifra se tacha y se vuelve a escribir.",
+        "Configuración: + una cifra (como 27 + 5), dos cifras o tres cifras, y sumar, quitar o las dos. Con una cifra equivocada, su columna se ilumina para que el niño cuente lo que queda ahí; tras el segundo intento fallido, ayudan las dos mitades de cinco de cada tapete. Tuck guarda una pequeña pila de cada decena que el niño enrolló. En línea con los programas de estudio de la SEP (campo formativo Saberes y pensamiento científico), con el algoritmo en columnas para números de dos y tres cifras. Sin cronómetro y sin puntaje."
       ],
       "practices": [
-        "Sumar con reagrupación cuando las unidades pasan de diez",
-        "Agrupar 10 unidades para formar una decena con material de base diez",
-        "Distinguir con seguridad las unidades y las decenas (valor posicional)",
-        "Construir el puente entre el material concreto y la suma llevando por escrito"
+        "Sumar un número de dos cifras y uno de una cifra cuando las unidades llegan a diez o más",
+        "Enrollar diez unidades en una decena y llevarla a las decenas",
+        "Hacer la operación en columnas, primero las unidades, con lo que se lleva",
+        "Restar desagrupando una decena (desenrollándola) cuando no alcanzan las unidades"
       ],
       "howToPlay": [
-        "Observa los bloques que Tuck coloca en cada columna y cuenta cuántas unidades hay del lado de las unidades.",
-        "Cuando las unidades sean más de diez, toca «Formar una decena» para agrupar 10 unidades en una barra de decena y llevarla a su columna.",
-        "Escribe el total y confirma tu respuesta; Tuck te acompaña con calma en cada intento, sin prisas ni puntajes."
+        "Toca la caja para traer los bloques de uno en uno (mantén presionado para vaciar más).",
+        "Cuando un tapete esté lleno, enróllalo: la decena salta a la repisa de al lado. Toca la repisa para meterla.",
+        "Toca una casilla abierta, escribe el resultado y presiona Comprobar.",
+        "Para quitar, toca un tapete. Si a una columna se le acaban, baja uno de al lado con la flecha.",
+        "En la configuración eliges los números (+ una cifra, dos cifras, tres cifras) y sumar, quitar o las dos."
       ],
       "learningGoals": [
-        "Comprender la suma con reagrupación como el acto de formar una decena, no como una regla memorizada.",
-        "Afianzar el valor posicional al mover unidades y decenas entre sus columnas con bloques de base diez.",
-        "Desarrollar el sentido numérico que pide la SEP para primer grado, preparando el terreno para sumar llevando por escrito."
+        "Sumar hasta 100 formando una decena cuando las unidades llegan a diez o más.",
+        "Entender lo que se lleva como una decena de verdad que pasa a las decenas.",
+        "Sumar y restar en columnas números de dos y tres cifras, primero las unidades.",
+        "Restar desenrollando una decena en diez unidades cuando hace falta."
       ]
     },
     "shapeforge.compose.1-g-a-2": {

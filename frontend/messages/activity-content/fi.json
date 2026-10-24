@@ -2775,6 +2775,32 @@
         "Sen huomaaminen, että kympin voi avata kymmeneksi ykköseksi ja luku pysyy samana",
         "Tasakymmenten tunnistaminen kympeiksi ilman ykkösiä"
       ]
+    },
+    "place-value-regroup.add-compose-ten.1-nbt-c-4": {
+      "about": [
+        "Tuckin työpöydän jokaisessa sarakkeessa on matto, jossa on tasan kymmenen koloa, ja kymmenes kolo roikkuu sarakkeen vastausruudun päällä. Ensimmäinen luku on jo pöydällä; lapsi tuo toisen luvun palikat laatikosta. Kun matto on täynnä, sen kymmenes palikka on vastausruudun päällä, eikä numeroa voi kirjoittaa. Lapsi käärii täyden maton yhdeksi kympiksi, ja se laskeutuu viereisen sarakkeen hyllylle, jolloin laskuun ilmestyy muistinumero. Kun hyllyä napauttaa, kymppi menee sarakkeen mattoon.",
+        "Vastausruudut aukeavat itsestään oikealta vasemmalle: ruutu aukeaa vasta, kun sen oma sarake ja kaikki sen oikealla puolella olevat sarakkeet ovat valmiina. Siksi ykköset kirjoitetaan ensin, koska pöytä toimii niin, eikä jonkin säännön vuoksi. Vähennyskierroksilla lapsi ottaa palikoita pois, ja kun sarakkeessa on liian vähän, lapsi vetää viereisestä sarakkeesta yhden alas: kymppi puretaan täydeksi matoksi, jossa on kymmenen ykköstä, ja allekkain laskussa numero yliviivataan ja kirjoitetaan uudelleen.",
+        "Asetukset: + yksinumeroinen (kuten 27 + 5), kaksinumeroiset tai kolminumeroiset luvut, ja yhteen, pois tai molemmat. Väärän numeron kohdalla sarake syttyy, jotta lapsi voi laskea, mitä siihen jäi; toisen väärän yrityksen jälkeen auttavat jokaisen maton kaksi viiden palikan puoliskoa. Tuck kerää pientä pinoa kaikista kympeistä, jotka lapsi on käärinyt. Sopii opetussuunnitelman sisältöalueeseen Luvut ja laskutoimitukset, ja mukana on kaksi- ja kolminumeroisten lukujen allekkain laskeminen. Ilman ajanottoa ja ilman pisteytystä."
+      ],
+      "practices": [
+        "Kaksinumeroisen ja yksinumeroisen luvun yhteenlasku, kun ykkösiä tulee kymmenen tai enemmän",
+        "Kymmenen ykkösen kääriminen yhdeksi kympiksi ja sen vieminen kymmeniin",
+        "Allekkain laskeminen ykköset ensin, muistinumeron kanssa",
+        "Vähentäminen purkamalla kymppi, kun ykköset eivät riitä"
+      ],
+      "howToPlay": [
+        "Napauta laatikkoa tuodaksesi palikat yksi kerrallaan (pidä painettuna, niin niitä tulee enemmän).",
+        "Kun matto on täynnä, kääri se: kymppi hyppää viereiselle hyllylle. Napauta hyllyä, niin se menee mattoon.",
+        "Napauta avointa vastausruutua, kirjoita vastaus ja paina Tarkista.",
+        "Ota pois napauttamalla mattoa. Jos sarake loppuu, vedä nuolella yksi viereisestä sarakkeesta alas.",
+        "Asetuksista valitset luvut (+ yksinumeroinen, kaksinumeroiset, kolminumeroiset) ja yhteen, pois tai molemmat."
+      ],
+      "learningGoals": [
+        "Yhteenlasku 100:aan asti kymppiylityksellä kokoamalla kymmenen ykköstä kympiksi.",
+        "Muistinumeron ymmärtäminen oikeaksi kympiksi, joka siirtyy kymmeniin.",
+        "Kaksi- ja kolminumeroisten lukujen yhteen- ja vähennyslasku allekkain, ykköset ensin.",
+        "Vähentäminen purkamalla kymppi kymmeneksi ykköseksi, kun se on tarpeen."
+      ]
     }
   }
 }

@@ -13,6 +13,8 @@
        no overflow 280→768.
    ===================================================================== */
 'use strict';
+/* Row 96 rebuild (2026-10-24): the row runs the Roll-Up Mats (roll-mat-activity; gates verify-roll-mat-core.js + local-test-roll-mat.js). */
+{ const _m = JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'place-value-regroup-activities.json'), 'utf8')); const _r = _m.find(a => a.id === 'place-value-regroup.add-compose-ten.1-nbt-c-4'); if (_r && _r.tool !== 'place-value-regroup-activity') { console.log('local-test-place-value-regroup: the row runs the Roll-Up Mats — see verify-roll-mat-core.js / local-test-roll-mat.js. Nothing to check here.'); process.exit(0); } }
 const http = require('http');
 const fs = require('fs');
 const path = require('path');

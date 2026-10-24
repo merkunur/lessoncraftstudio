@@ -1736,26 +1736,28 @@
     },
     "place-value-regroup.add-compose-ten.1-nbt-c-4": {
       "about": [
-        "Tjugosju ligger framme som två tiostavar och sju enhetskuber, i var sin ruta för tiotal och ental. Barnet lägger till fem kuber till — nu är det tolv lösa kuber, fler än tio, och något måste hända. Ett tryck gör tio av dem till en ny tiostav, och sedan skriver barnet summan på knappsatsen. Uppgifterna går från 27 + 5 till 74 + 8 och stannar alltid under 100.",
-        "Den stora idén är att tio ental är precis lika mycket som ett tiotal — samma mängd, men skriven på en ny plats. När entalen blir fler än nio räcker entalsrutan inte till, och tio av dem byts mot en enda tiostav som flyttar över till tiotalsrutan. Ingenting försvinner och ingenting kommer till; det är bara ompackat.",
-        "Aktiviteten är anpassad till Lgr22 och tränar naturliga tal och deras egenskaper samt metoder för addition inom talområdet 0–100. Den här interaktiva övningen passar årskurs 2. Ingen timer, inga poäng och inget att förlora — barnet får pröva, ändra sig och räkna om i sin egen takt."
+        "Varje kolumn på Tucks arbetsbänk har en matta med exakt tio gropar, och den tionde gropen hänger ut över kolumnens svarsruta. Det första talet ligger redan på bänken; barnet hämtar det andra talets klossar från lådan. När en matta är full ligger dess tionde kloss på svarsrutan, så siffran går inte att skriva. Barnet rullar ihop den fulla mattan till ett tiotal, och det landar på hyllan hos grannen, där minnessiffran syns i uppställningen. Ett tryck på hyllan lägger ner tiotalet i kolumnens matta.",
+        "Svarsrutorna öppnas av sig själva från höger till vänster: en ruta öppnas först när dess egen kolumn och alla kolumner till höger om den är klara. Därför skrivs entalen först, eftersom bänken fungerar så, inte på grund av en regel. I subtraktionsomgångarna tar barnet bort klossar, och när en kolumn har för få drar det ner en från grannen: tiotalet växlas till en full matta med tio ental, och i uppställningen stryks siffran över och skrivs på nytt.",
+        "Inställningar: + ensiffrigt (som 27 + 5), tvåsiffriga eller tresiffriga tal, och addera, subtrahera eller båda. Vid en fel siffra lyser kolumnen upp så att barnet kan räkna det som är kvar; efter det andra felförsöket hjälper de två halvorna med fem på varje matta. Tuck samlar en liten stapel av alla tiotal som barnet har rullat ihop. I linje med Lgr22, centralt innehåll om taluppfattning och tals användning, med uppställning för två- och tresiffriga tal. Utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Addera ett tvåsiffrigt och ett ensiffrigt tal med tiotalsövergång",
-        "Göra ett tiotal av tio ental och se att mängden är densamma",
-        "Hålla isär tiotal och ental när entalen blir fler än nio",
-        "Läsa av klossarna som ett tvåsiffrigt tal",
-        "Räkna säkert inom talområdet 0–100"
+        "Att addera ett tvåsiffrigt och ett ensiffrigt tal när entalen blir tio eller fler",
+        "Att rulla ihop tio ental till ett tiotal och bära det till tiotalen",
+        "Att räkna med uppställning, entalen först, med minnessiffran",
+        "Att subtrahera genom att växla ett tiotal när entalen inte räcker"
       ],
       "howToPlay": [
-        "Läs uppgiften, till exempel 27 + 5, och titta på klossarna i rutorna för tiotal och ental.",
-        "Tryck på ”Gör ett tiotal” så blir tio lösa ental en tiostav, och skriv sedan summan på knappsatsen.",
-        "Tryck på Kontrollera för att gå vidare — utan timer och utan poäng."
+        "Tryck på lådan för att hämta klossarna en i taget (håll inne för att hälla fler).",
+        "När en matta är full rullar du ihop den: tiotalet hoppar upp på hyllan hos grannen. Tryck på hyllan för att lägga i det.",
+        "Tryck på en öppen svarsruta, skriv svaret och tryck på Kolla.",
+        "För att ta bort trycker du på en matta. Tar en kolumn slut drar du med pilen ner en från grannen.",
+        "I inställningarna väljer du tal (+ ensiffrigt, tvåsiffriga, tresiffriga) och addera, subtrahera eller båda."
       ],
       "learningGoals": [
-        "Barnet kan addera ett tvåsiffrigt och ett ensiffrigt tal inom 100 när entalen går över tio",
-        "Barnet vet att tio ental är lika mycket som ett tiotal och kan byta dem mot varandra",
-        "Barnet kan visa med klossarna varför ett nytt tiotal uppstår"
+        "Att addera inom 100 med tiotalsövergång genom att samla tio ental till ett tiotal.",
+        "Att förstå minnessiffran som ett riktigt tiotal som flyttas till tiotalen.",
+        "Att addera och subtrahera två- och tresiffriga tal med uppställning, entalen först.",
+        "Att subtrahera genom att växla ett tiotal till tio ental när det behövs."
       ]
     },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {

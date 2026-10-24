@@ -1,7 +1,7 @@
 [
   {
     "id": "place-value-regroup.add-compose-ten.1-nbt-c-4",
-    "tool": "place-value-regroup-activity",
+    "tool": "roll-mat-activity",
     "task_template": "add-compose-ten",
     "alignment": {
       "framework": "CCSS",
@@ -11,48 +11,30 @@
     },
     "theme": null,
     "params": {
-      "rounds": [
-        {
-          "id": "r-27-5",
-          "a": 27,
-          "b": 5
+      "faces": [
+        "add1",
+        "col2",
+        "col3"
+      ],
+      "ways": [
+        "add",
+        "sub",
+        "both"
+      ],
+      "rounds": {
+        "add1": {
+          "add": 10,
+          "sub": 10
         },
-        {
-          "id": "r-48-6",
-          "a": 48,
-          "b": 6
+        "col2": {
+          "add": 8,
+          "sub": 8
         },
-        {
-          "id": "r-36-7",
-          "a": 36,
-          "b": 7
-        },
-        {
-          "id": "r-19-4",
-          "a": 19,
-          "b": 4
-        },
-        {
-          "id": "r-55-8",
-          "a": 55,
-          "b": 8
-        },
-        {
-          "id": "r-63-9",
-          "a": 63,
-          "b": 9
-        },
-        {
-          "id": "r-74-8",
-          "a": 74,
-          "b": 8
-        },
-        {
-          "id": "r-28-6",
-          "a": 28,
-          "b": 6
+        "col3": {
+          "add": 8,
+          "sub": 8
         }
-      ]
+      }
     },
     "slug": {
       "en": "add-with-regrouping-make-a-ten",
@@ -62,7 +44,10 @@
       "pt": "soma-com-reagrupamento-formar-uma-dezena-2-ano",
       "it": "addizione-con-il-cambio-formare-una-decina-classe-seconda",
       "nl": "optellen-met-tienoverschrijding-tot-100-groep-4",
-      "sv": "addition-med-tiotalsovergang-inom-100-ak-2"
+      "sv": "addition-med-tiotalsovergang-inom-100-ak-2",
+      "da": "plus-med-tieroverskridning-rul-en-tier-sammen-2-klasse",
+      "no": "addisjon-med-tierovergang-rull-sammen-en-tier-2-trinn",
+      "fi": "yhteenlasku-kymppiylityksella-kaari-kymppi-2-luokka"
     },
     "page_title": {
       "en": "Tuck's Ten Bundles — Add with Regrouping (Grade 1)",
@@ -72,7 +57,10 @@
       "pt": "Soma com reagrupamento com o Tuck: formar uma dezena (2º ano)",
       "it": "Addizione con il cambio con Tuck: formare una decina (classe seconda)",
       "nl": "Optellen met tienoverschrijding tot 100 — Tuck maakt een tiental (Groep 4)",
-      "sv": "Addition med tiotalsövergång inom 100 – gör ett tiotal (åk 2)"
+      "sv": "Addition med tiotalsövergång inom 100 – gör ett tiotal (åk 2)",
+      "da": "Plus med tieroverskridning – rul en tier sammen (2. klasse)",
+      "no": "Addisjon med tierovergang – rull sammen en tier (2. trinn)",
+      "fi": "Yhteenlasku kymppiylityksellä – kääri kymppi (2. luokka)"
     },
     "page_intro": {
       "en": "An interactive Grade 1 math activity: add a two-digit and a one-digit number when the ones make more than ten. Tuck the hamster shows the base-ten blocks; tap “Make a ten” to bundle 10 ones into one ten, then type the total. A clear, hands-on first look at carrying — composing a ten. Common Core 1.NBT.C.4.",
@@ -82,7 +70,10 @@
       "pt": "Atividade de matemática interativa para o 2º ano: soma com reagrupamento até 100. O Tuck, o hamster, mostra o material dourado em colunas de valor posicional; agrupe 10 unidades para formar uma dezena (o famoso “vai um”) e digite o total. Trabalha unidades e dezenas de forma concreta, online e sem cadastro. Alinhada à BNCC.",
       "it": "Attività di matematica interattiva per la classe seconda: l'addizione con il cambio entro il 100. Tuck, il criceto, mostra i blocchi base dieci in colonne di valore posizionale; raggruppa 10 unità per formare una decina (il famoso \"cambio\") e scrivi il totale. Si lavora su decine e unità in modo concreto, con i materiali manipolabili, online e senza registrazione. Un modo semplice per capire il valore posizionale, allineato alle Indicazioni nazionali.",
       "nl": "Bij deze activiteit laat Tuck de hamster met MAB-blokken zien hoe je optelt met tienoverschrijding tot 100. Je kind telt de losse eenheden, bundelt tien eenheden tot één tiental en typt daarna het totaal — zo wordt tienoverschrijding concreet en zichtbaar. Online te spelen, zonder download en zonder account. Sluit aan bij de SLO-kerndoelen, domein Getallen en het tientallig stelsel (Groep 4).",
-      "sv": "Lägg fram 27 med klossar och 5 till, gör ett tiotal av tio ental och skriv summan. Addition med tiotalsövergång inom 100, anpassad till Lgr22 för åk 2."
+      "sv": "Lägg fram 27 med klossar och 5 till, gör ett tiotal av tio ental och skriv summan. Addition med tiotalsövergång inom 100, anpassad till Lgr22 för åk 2.",
+      "da": "Hamsteren Tuck lægger tal sammen, og når enerne bliver ti, er måtten fuld: Den rulles sammen til én tier og bæres over til tierne. Først derefter kan barnet skrive svaret, enerne først. Øv også opstilling med to- og trecifrede tal og minus med veksling.",
+      "no": "Hamsteren Tuck legger sammen, og når enerne blir ti, er matten full: Den rulles sammen til én tier og bæres over til tierne. Først da kan barnet skrive svaret, enerne først. Øv også oppstilling med to- og tresifrede tall, og minus med veksling.",
+      "fi": "Hamsteri Tuck laskee yhteen, ja kun ykkösiä tulee kymmenen, matto on täynnä: se kääritään yhdeksi kympiksi ja viedään kymmenten puolelle. Vasta sitten lapsi voi kirjoittaa vastauksen, ykköset ensin. Harjoittele myös kaksi- ja kolminumeroisten lukujen allekkain laskemista sekä vähennyslaskua kympin purkamisella."
     },
     "kid_prompt_template": "place-value-regroup"
   },

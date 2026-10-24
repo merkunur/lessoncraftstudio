@@ -1209,25 +1209,28 @@
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {
       "about": [
-        "Barnet løser kort som ? + 4 = 9, 8 + ? = 11, ? − 3 = 4 og 10 − ? = 6, og trykker så på regnestykket og tallet som fullfører det for å koble paret sammen. Dette er en interaktiv matteaktivitet for 1. trinn som spilles rett i nettleseren, uten nedlasting og uten konto.",
-        "Den store ideen er at det ukjente kan stå hvor som helst — et ledd som mangler, tallet som skal trekkes fra, starttallet eller helheten — så barnet må tenke gjennom sammenhengen hver gang, i stedet for alltid å «legge til for å finne svaret». Noen ganger er den tomme ruta hele svaret (5 + 4 = ?), og noen ganger er den gjemt inne i oppgaven (? − 4 = 1), og det bygger ekte fleksibilitet med tallfamilier.",
-        "Aktiviteten følger LK20 innenfor tall og regning — å finne det ukjente tallet i en pluss- eller minusoppgave, hvor som helst i oppgaven. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving for 1. trinn."
+        "Hvert regnestykke er et hull i en sti langs en bekk, og hvert tallkort er en planke som er nøyaktig så lang. Barnet trykker på skiltet til et regnestykke og så på en planke: Den bretter seg ut i hullet rute for rute. Bare tallet som gjør regnestykket riktig, passer. En for kort planke faller i vannet, og en for lang stikker ut over den andre bredden.",
+        "Hver sti har fire hull, og tallet som mangler, står et nytt sted hver gang: det første tallet som legges til, det andre, tallet som trekkes fra, starttallet, summen eller differansen. Mangler starttallet eller summen, ligger hullet under stien. I kassen ligger fem planker: de fire svarene og én som ikke passer noe sted, som regel en typisk feil, som å legge sammen de to tallene man ser eller å trekke fra feil vei. Når alle fire plankene passer, går dyret over til flagget.",
+        "Med innstillingen «Bare tall» viser stien ingen ruter før en planke er lagt, så barnet regner ut tallet først. I tråd med LK20 om tall og regning. Uten tidtaking og uten poeng."
       ],
       "practices": [
-        "Finne et ledd som mangler, tallet som skal trekkes fra, starttallet eller helheten.",
-        "Bruke sammenhengen mellom pluss og minus til å finne det ukjente.",
-        "Telle videre eller telle tilbake for å finne en del som mangler.",
-        "Koble hvert regnestykke til tallet som gjør det riktig."
+        "Å finne tallet som mangler, uansett hvor det står: et ledd, tallet som trekkes fra, starttallet, summen eller differansen",
+        "Å se hvert regnestykke som to deler og en helhet",
+        "Å sjekke et svar ved å prøve det: for kort, for langt eller akkurat passe",
+        "Å oppdage de typiske feilene: å legge sammen tallene man ser eller å trekke fra feil vei"
       ],
       "howToPlay": [
-        "Les et kort med en tom rute, som ? + 7 = 10, og regn ut tallet som mangler.",
-        "Trykk på regnestykket, og trykk så på tallet som gjør det riktig, og se paret kobles sammen.",
-        "Koble begge parene i runden — det er ingen tidtaker og ingen poeng, så ta den tiden du trenger."
+        "Trykk på skiltet til et regnestykke for å velge hullet. Det neste åpne hullet er allerede valgt.",
+        "Trykk på en planke. Stemmer tallet, passer den i hullet; ellers faller den uti eller stikker ut og går tilbake til kassen.",
+        "Etter to feil planker i samme hull får rutene tall, så du kan telle dem.",
+        "Trykk på et skilt med en planke i for å ta planken ut igjen.",
+        "I innstillingene velger du tallene (til 10 eller til 20) og stien (med ruter eller bare tall)."
       ],
       "learningGoals": [
-        "Barnet kan finne det ukjente tallet i en pluss- eller minusoppgave, hvor som helst i oppgaven.",
-        "Barnet forstår hvordan pluss og minus opphever hverandre.",
-        "Barnet bygger fleksibel tenkning med tallfamilier i stedet for én fast fremgangsmåte."
+        "Å finne det ukjente tallet i et pluss- eller minusstykke, uansett hvor det står",
+        "Å forstå at de to delene i et regnestykke blir helheten",
+        "Å bruke addisjon til å løse en subtraksjon der et tall mangler",
+        "Å sjekke et svar i stedet for å gjette"
       ]
     },
     "money.make-change.2-md-c-8": {

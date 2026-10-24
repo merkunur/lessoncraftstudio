@@ -2460,25 +2460,28 @@
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {
       "about": [
-        "Il bambino risolve carte come ? + 4 = 9, 8 + ? = 11, ? − 3 = 4 e 10 − ? = 6, poi tocca l'operazione e il numero che la completa per collegare la coppia. È un'attività di matematica interattiva per la classe prima della scuola primaria, che funziona direttamente nel browser, senza installare nulla e senza account.",
-        "L'idea importante è che il numero sconosciuto può trovarsi in qualsiasi posizione: un addendo mancante, un numero da togliere, il numero di partenza o il totale. Così il bambino deve ragionare ogni volta sulla relazione tra i numeri, invece di «aggiungere sempre per trovare la risposta». A volte lo spazio vuoto è il totale (5 + 4 = ?) e a volte è nascosto dentro l'operazione (? − 4 = 1): questo costruisce una vera flessibilità con le famiglie di numeri.",
-        "L'attività è allineata alle Indicazioni nazionali: trovare il numero sconosciuto in un'addizione o in una sottrazione, in qualsiasi posizione. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
+        "Ogni uguaglianza è un buco in un sentiero lungo un ruscello, e ogni carta con un numero è un’asse lunga esattamente così. Il bambino tocca il cartello di un’uguaglianza e poi un’asse: si apre nel buco quadretto dopo quadretto. Si incastra solo il numero che rende vera l’uguaglianza. Un’asse troppo corta cade in acqua, una troppo lunga sporge oltre l’altra riva.",
+        "Ogni sentiero ha quattro buchi, e il numero mancante è ogni volta in un posto diverso: il primo numero che si aggiunge, il secondo, il numero che si toglie, il numero di partenza, il risultato di un’addizione o la differenza. Se manca il numero di partenza o il risultato di un’addizione, il buco è sotto il sentiero. Nella cassetta ci sono cinque assi: le quattro risposte e una che non va bene da nessuna parte, quasi sempre un errore tipico, come sommare i due numeri che si vedono o sottrarre al contrario. Quando tutte e quattro le assi si incastrano, l’animale attraversa fino alla bandierina.",
+        "Con l’impostazione «Solo numeri» il sentiero non mostra i quadretti finché non si mette un’asse, così il bambino calcola prima il numero. In linea con le Indicazioni nazionali per i numeri. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Trovare un addendo mancante, un sottraendo mancante, un minuendo mancante o il totale.",
-        "Usare la relazione tra addizione e sottrazione per trovare il numero sconosciuto.",
-        "Contare in avanti o all'indietro per trovare una parte mancante.",
-        "Abbinare ogni operazione al numero che la rende vera."
+        "Trovare il numero mancante in qualsiasi posizione: un addendo, il numero che si toglie, il numero di partenza, il risultato o la differenza",
+        "Vedere ogni uguaglianza come due parti e un intero",
+        "Controllare una risposta provandola: troppo corta, troppo lunga o giusta",
+        "Riconoscere gli errori tipici: sommare i numeri che si vedono o sottrarre al contrario"
       ],
       "howToPlay": [
-        "Il bambino legge una carta con uno spazio vuoto, come ? + 7 = 10, e trova il numero mancante.",
-        "Tocca l'operazione, poi tocca il numero che la rende vera, e guarda la coppia collegarsi.",
-        "Completa entrambe le coppie del giro: non c'è timer né punteggio, quindi può prendersi il suo tempo."
+        "Tocca il cartello di un’uguaglianza per scegliere il suo buco. Il prossimo buco libero è già scelto.",
+        "Tocca un’asse. Se il numero è giusto, si incastra nel buco; altrimenti cade o sporge e torna nella cassetta.",
+        "Dopo due assi sbagliate nello stesso buco, i suoi quadretti vengono numerati così puoi contarli.",
+        "Tocca un cartello con un’asse per toglierla di nuovo.",
+        "Nelle impostazioni scegli i numeri (fino a 10 o fino a 20) e il sentiero (con quadretti o solo numeri)."
       ],
       "learningGoals": [
-        "Trovare il numero sconosciuto in un'addizione o in una sottrazione, in qualsiasi posizione.",
-        "Capire come addizione e sottrazione si annullano a vicenda.",
-        "Costruire un pensiero flessibile con le famiglie di numeri invece di una sola procedura fissa."
+        "Trovare il numero sconosciuto in un’addizione o in una sottrazione, ovunque sia",
+        "Capire che le due parti di un’uguaglianza formano l’intero",
+        "Usare l’addizione per risolvere una sottrazione con un numero mancante",
+        "Controllare una risposta invece di tirare a indovinare"
       ]
     },
     "money.make-change.2-md-c-8": {

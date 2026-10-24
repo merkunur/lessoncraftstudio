@@ -1961,25 +1961,28 @@
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {
       "about": [
-        "A criança resolve operações como ? + 4 = 9, 8 + ? = 11, ? − 3 = 4 e 10 − ? = 6, e depois toca na operação e no número que a completa para ligar o par. É uma atividade de matemática interativa para o 1º ano, que roda direto no navegador, sem instalar nada e sem conta.",
-        "A grande ideia é que o número desconhecido pode estar em qualquer lugar — uma parcela que falta, o número que se tira, o número inicial ou o total — então a criança precisa pensar na relação a cada vez, em vez de só «somar para achar a resposta». Às vezes o espaço vazio é o total (5 + 4 = ?) e às vezes está escondido dentro da operação (? − 4 = 1), o que constrói uma flexibilidade de verdade com as famílias de fatos.",
-        "A atividade está alinhada à BNCC, no eixo de Números e operações, na ideia de encontrar o número desconhecido em uma adição ou subtração, com a incógnita em qualquer posição. Sem cronômetro e sem pontuação — só prática calma e divertida."
+        "Cada sentença é um buraco num caminho à beira de um riacho, e cada carta com um número é uma tábua exatamente desse comprimento. A criança toca na placa de uma sentença e depois numa tábua: ela se desdobra no buraco quadradinho por quadradinho. Só encaixa o número que torna a sentença verdadeira. Uma tábua curta demais cai na água, e uma comprida demais sobra do outro lado.",
+        "Cada caminho tem quatro buracos, e o número que falta fica sempre num lugar diferente: o primeiro número somado, o segundo, o número que se tira, o número inicial, o resultado de uma adição ou a diferença. Se falta o número inicial ou o resultado de uma adição, o buraco fica embaixo do caminho. Na caixa há cinco tábuas: as quatro respostas e uma que não encaixa em lugar nenhum, quase sempre um erro típico, como somar os dois números que se veem ou subtrair ao contrário. Quando as quatro tábuas encaixam, o bichinho atravessa até a bandeira.",
+        "Na opção “Só números”, o caminho não mostra quadradinhos até que uma tábua seja colocada, então a criança calcula o número primeiro. De acordo com a BNCC, na unidade temática Números. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Encontrar uma parcela que falta, um número a tirar, o número inicial ou o total.",
-        "Usar a relação entre a adição e a subtração para descobrir o número desconhecido.",
-        "Avançar ou voltar na contagem para achar a parte que falta.",
-        "Combinar cada operação com o número que a deixa verdadeira."
+        "Encontrar o número que falta em qualquer posição: uma parcela, o número que se tira, o número inicial, o resultado ou a diferença",
+        "Ver cada sentença como duas partes e um todo",
+        "Conferir uma resposta experimentando: curta demais, comprida demais ou certinha",
+        "Perceber os erros típicos: somar os números que se veem ou subtrair ao contrário"
       ],
       "howToPlay": [
-        "Leia uma operação com um espaço vazio, como ? + 7 = 10, e descubra o número que falta.",
-        "Toque na operação e depois no número que a deixa correta, e veja o par se ligar.",
-        "Combine os dois pares da rodada — não há cronômetro nem pontuação, então leve o tempo que precisar."
+        "Toque na placa de uma sentença para escolher o buraco dela. O próximo buraco livre já vem escolhido.",
+        "Toque numa tábua. Se o número estiver certo, ela encaixa no buraco; se não, cai ou sobra e volta para a caixa.",
+        "Depois de duas tábuas erradas no mesmo buraco, os quadradinhos ganham números para você contar.",
+        "Toque numa placa que já tem tábua para tirá-la de novo.",
+        "Nas configurações, escolha os números (até 10 ou até 20) e o caminho (com quadradinhos ou só números)."
       ],
       "learningGoals": [
-        "Encontrar o número desconhecido em uma adição ou subtração, em qualquer posição.",
-        "Entender como a adição e a subtração desfazem uma à outra.",
-        "Construir um raciocínio flexível com as famílias de fatos, em vez de um único procedimento fixo."
+        "Encontrar o número desconhecido numa adição ou subtração, onde quer que esteja",
+        "Entender que as duas partes de uma sentença formam o todo",
+        "Usar a adição para resolver uma subtração com um número faltando",
+        "Conferir uma resposta em vez de chutar"
       ]
     },
     "money.make-change.2-md-c-8": {

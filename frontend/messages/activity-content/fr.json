@@ -3320,25 +3320,28 @@
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {
       "about": [
-        "L'enfant résout des cartes comme ? + 4 = 9, 8 + ? = 11, ? − 3 = 4 ou 10 − ? = 6, puis touche l'opération et le nombre qui la complète pour relier la paire. C'est une activité de calcul interactive pour le CP, qui se joue directement dans le navigateur, sans rien installer et sans compte.",
-        "La grande idée, c'est que l'inconnue peut se trouver n'importe où — un terme manquant, le nombre qu'on retire, le nombre de départ ou le total — si bien que l'enfant doit repenser la relation à chaque fois, au lieu de toujours « ajouter pour trouver la réponse ». Parfois le vide est le total (5 + 4 = ?) et parfois il est caché dans l'opération (? − 4 = 1), ce qui développe une vraie souplesse avec les familles d'opérations.",
-        "Cette activité est alignée sur les programmes officiels : trouver le nombre inconnu dans une addition ou une soustraction, l'inconnue pouvant occuper n'importe quelle position. Les enfants avancent à leur rythme, avec un retour doux et immédiat — ni minuteur, ni score."
+        "Chaque égalité est un trou dans un chemin au bord d’un ruisseau, et chaque carte nombre est une planche exactement aussi longue. L’enfant touche le panneau d’une égalité, puis une planche : elle se déplie dans le trou case par case. Seul le nombre qui rend l’égalité vraie est juste. Une planche trop courte tombe à l’eau, une trop longue dépasse sur l’autre rive.",
+        "Chaque chemin a quatre trous, et le nombre manquant est chaque fois à une autre place : le premier nombre qu’on ajoute, le deuxième, le nombre qu’on enlève, le nombre de départ, le résultat d’une addition ou la différence. S’il manque le nombre de départ ou le résultat d’une addition, le trou se trouve sous le chemin. Dans la caisse, il y a cinq planches : les quatre réponses et une qui ne va nulle part, presque toujours une erreur typique, comme additionner les deux nombres qu’on voit ou soustraire dans le mauvais sens. Quand les quatre planches sont justes, l’animal traverse jusqu’au drapeau.",
+        "Avec le réglage « Nombres seulement », le chemin ne montre aucune case tant qu’aucune planche n’est posée : l’enfant calcule d’abord le nombre. En lien avec les programmes officiels pour le domaine Nombres et calculs. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Trouver un terme manquant, le nombre qu'on retire, le nombre de départ ou le total.",
-        "Utiliser le lien entre l'addition et la soustraction pour trouver l'inconnue.",
-        "Avancer ou reculer en comptant pour retrouver une partie manquante.",
-        "Relier chaque opération au nombre qui la rend vraie."
+        "Trouver le nombre manquant à n’importe quelle place : un terme, le nombre qu’on enlève, le nombre de départ, le résultat ou la différence",
+        "Voir chaque égalité comme deux parties et un tout",
+        "Vérifier une réponse en l’essayant : trop courte, trop longue ou juste",
+        "Repérer les erreurs typiques : additionner les nombres qu’on voit ou soustraire dans le mauvais sens"
       ],
       "howToPlay": [
-        "Lis une carte-opération avec un vide, comme ? + 7 = 10, et trouve le nombre manquant.",
-        "Touche l'opération, puis touche le nombre qui la rend vraie, et regarde la paire se relier.",
-        "Relie les deux paires du tour — il n'y a ni minuteur, ni score, alors prends ton temps."
+        "Touche le panneau d’une égalité pour choisir son trou. Le prochain trou libre est déjà choisi.",
+        "Touche une planche. Si son nombre est le bon, elle remplit le trou ; sinon, elle tombe ou dépasse et retourne dans la caisse.",
+        "Après deux mauvaises planches dans le même trou, ses cases sont numérotées pour que tu puisses les compter.",
+        "Touche un panneau qui a déjà une planche pour la retirer.",
+        "Dans les réglages, choisis les nombres (jusqu’à 10 ou jusqu’à 20) et le chemin (avec les cases ou nombres seulement)."
       ],
       "learningGoals": [
-        "Trouver le nombre inconnu dans une addition ou une soustraction, à n'importe quelle position.",
-        "Comprendre comment l'addition et la soustraction s'annulent l'une l'autre.",
-        "Développer un raisonnement souple avec les familles d'opérations, au lieu d'une seule procédure figée."
+        "Trouver le nombre inconnu dans une addition ou une soustraction, où qu’il soit",
+        "Comprendre que les deux parties d’une égalité forment le tout",
+        "Utiliser l’addition pour résoudre une soustraction où il manque un nombre",
+        "Vérifier une réponse au lieu de deviner"
       ]
     },
     "money.make-change.2-md-c-8": {

@@ -3959,25 +3959,28 @@
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {
       "about": [
-        "Das Kind löst Karten wie ? + 4 = 9, 8 + ? = 11, ? − 3 = 4 und 10 − ? = 6 und tippt dann erst die Aufgabe und danach die Zahl an, die sie vervollständigt — so verbinden sich die beiden zu einem Paar. Diese interaktive Mathe-Übung für die 1. Klasse läuft direkt im Browser, ohne Installation und ohne Konto.",
-        "Der Kern: Die Lücke kann an jeder Stelle stehen — ein fehlender Summand, eine fehlende abzuziehende Zahl, die Ausgangszahl oder das Ganze — deshalb muss das Kind jedes Mal die Beziehung neu durchdenken, statt immer nur „dazuzuzählen, um die Antwort zu finden“. Mal ist die Lücke das Ganze (5 + 4 = ?), mal steckt sie mitten in der Aufgabe (? − 4 = 1) — das baut echte Beweglichkeit im Umgang mit Zahlenfamilien auf.",
-        "Die Aktivität ist am Lehrplan ausgerichtet — die unbekannte Zahl in einer Plus- oder Minusaufgabe finden, an jeder beliebigen Stelle. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+        "Jede Gleichung ist eine Lücke in einem Weg am Bach, und jede Zahlenkarte ist ein Brett, das genau so lang ist. Das Kind tippt auf das Schild einer Gleichung und dann auf ein Brett: Es klappt sich Kästchen für Kästchen in die Lücke auf. Nur die Zahl, mit der die Gleichung stimmt, passt. Ein zu kurzes Brett fällt ins Wasser, ein zu langes steht über das andere Ufer hinaus.",
+        "Jeder Weg hat vier Lücken, und die fehlende Zahl steht jedes Mal an einer anderen Stelle: die erste Zahl, die dazukommt, die zweite, die Zahl, die weggenommen wird, die Startzahl oder das Ergebnis einer Plus- oder Minusaufgabe. Fehlt die Startzahl oder das Ergebnis einer Plusaufgabe, liegt die Lücke unter dem Weg. Im Vorrat liegen fünf Bretter: die vier Lösungen und eines, das nirgends passt – meist ein typischer Fehler, zum Beispiel die beiden sichtbaren Zahlen zu addieren oder falsch herum zu subtrahieren. Passen alle vier Bretter, läuft das Tier hinüber zur Fahne.",
+        "In der Einstellung „Nur Zahlen“ zeigt der Weg keine Kästchen, bis ein Brett liegt, also rechnet das Kind die Zahl zuerst aus. Passend zum Lehrplan im Bereich Zahlen und Operationen. Ohne Zeitdruck und ohne Punktwertung."
       ],
       "practices": [
-        "Einen fehlenden Summanden, eine fehlende abzuziehende Zahl, eine fehlende Ausgangszahl oder das Ganze finden.",
-        "Die Beziehung zwischen Plus und Minus nutzen, um das Unbekannte zu bestimmen.",
-        "Vorwärts- oder Rückwärtszählen, um einen fehlenden Teil zu finden.",
-        "Jede Aufgabe mit der Zahl verbinden, die sie wahr macht."
+        "Die fehlende Zahl an jeder Stelle finden: einen Summanden, die weggenommene Zahl, die Startzahl oder das Ergebnis einer Plus- oder Minusaufgabe",
+        "Jede Gleichung als zwei Teile und ein Ganzes sehen",
+        "Eine Lösung durch Einpassen prüfen: zu kurz, zu lang oder genau richtig",
+        "Die typischen Fehler erkennen: die sichtbaren Zahlen addieren oder falsch herum subtrahieren"
       ],
       "howToPlay": [
-        "Lies eine Aufgabenkarte mit einer Lücke, etwa ? + 7 = 10, und überlege dir die fehlende Zahl.",
-        "Tippe erst die Aufgabe an, dann die Zahl, die sie wahr macht, und sieh zu, wie sich das Paar verbindet.",
-        "Verbinde beide Paare in der Runde — es gibt keinen Timer und keine Punkte, also lass dir Zeit."
+        "Tippe auf das Schild einer Gleichung, um ihre Lücke zu wählen. Die nächste offene Lücke ist schon gewählt.",
+        "Tippe auf ein Brett. Stimmt seine Zahl, passt es in die Lücke; sonst fällt es hinein oder steht über und kommt zurück in den Vorrat.",
+        "Nach zwei falschen Brettern in derselben Lücke werden ihre Kästchen nummeriert, damit du sie zählen kannst.",
+        "Tippe auf ein Schild mit einem Brett, um das Brett wieder herauszunehmen.",
+        "In den Einstellungen wählst du die Zahlen (bis 10 oder bis 20) und den Weg (mit Kästchen oder nur Zahlen)."
       ],
       "learningGoals": [
-        "Die unbekannte Zahl in einer Plus- oder Minusaufgabe an jeder Stelle finden.",
-        "Verstehen, wie Plus und Minus einander aufheben.",
-        "Bewegliches Denken mit Zahlenfamilien aufbauen, statt nur ein festes Verfahren."
+        "Die fehlende Zahl in einer Plus- oder Minusaufgabe finden, egal wo sie steht",
+        "Verstehen, dass die zwei Teile einer Gleichung ihr Ganzes ergeben",
+        "Eine Minusaufgabe mit fehlender Zahl mit Plus lösen",
+        "Eine Lösung prüfen, statt zu raten"
       ]
     },
     "money.make-change.2-md-c-8": {

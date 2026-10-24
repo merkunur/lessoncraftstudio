@@ -2500,25 +2500,28 @@
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {
       "about": [
-        "Children solve cards like ? + 4 = 9, 8 + ? = 11, ? − 3 = 4, and 10 − ? = 6, then tap the equation and the number that completes it to link the pair. It's an interactive Grade 1 math activity that runs right in the browser, with nothing to install and no account.",
-        "The big idea is that the unknown can sit anywhere — a missing addend, a missing number to subtract, the starting number, or the total — so a child has to think the relationship through each time rather than always \"adding to find the answer.\" Sometimes the blank is the total (5 + 4 = ?) and sometimes it is hidden inside the problem (? − 4 = 1), which builds true fact-family flexibility.",
-        "It is aligned to Common Core 1.OA.D.8 — finding the unknown whole number in an addition or subtraction equation, with the unknown in any position. No timer, no score — just calm, playful practice."
+        "Every equation is a gap in a path beside a stream, and every number card is a plank exactly as long as its number. The child taps an equation’s signpost, then a plank: it unfolds into the gap square by square. Only the number that makes the equation true fits. A plank that is too short falls into the water, and one that is too long sticks out past the far bank.",
+        "Each path has four gaps, and the missing number sits in a different place in each: the number added first, the number added second, the number taken away, the starting number, the total or the difference. A missing starting number or total is a slot under the road. The tray holds five planks: the four answers and one that fits nowhere — usually a typical mistake, such as adding the two numbers you see or subtracting the wrong way round. When all four planks fit, the animal crosses to the flag.",
+        "In the “Numbers only” setting the path shows no squares until a plank is laid, so the child works the number out first. Aligned to Common Core 1.OA.D.8. No timer and no score."
       ],
       "practices": [
-        "Find a missing addend, a missing subtrahend, a missing minuend, or the total",
-        "Use the relationship between addition and subtraction to solve for the unknown",
-        "Count on or count back to find a missing part",
-        "Match each equation to the number that makes it true"
+        "Finding the missing number in any position: an addend, the number taken away, the starting number, the total or the difference",
+        "Seeing every equation as two parts and a whole",
+        "Checking an answer by fitting it: too short, too long or just right",
+        "Spotting the typical mistakes: adding the numbers you see, or subtracting the wrong way round"
       ],
       "howToPlay": [
-        "Read an equation card with a blank, like ? + 7 = 10, and work out the missing number.",
-        "Tap the equation, then tap the number that makes it true, and watch the pair link.",
-        "Match both pairs in the round — there is no timer and no score, so take your time."
+        "Tap an equation’s signpost to choose its gap. The next open gap is already chosen for you.",
+        "Tap a plank. If its number is right, it fits the gap; if not, it falls in or sticks out and goes back to the tray.",
+        "After two wrong planks in the same gap, its squares are numbered so you can count them.",
+        "Tap a signpost with a plank in it to take the plank out again.",
+        "In the settings, choose the numbers (within 10 or within 20) and the path (with squares or numbers only)."
       ],
       "learningGoals": [
-        "Find the unknown number in an addition or subtraction equation, in any position — the focus of Common Core 1.OA.D.8",
-        "Understand how addition and subtraction undo each other",
-        "Build flexible thinking with fact families instead of one fixed procedure"
+        "Find the unknown number in an addition or subtraction equation, wherever it is",
+        "Understand that the two parts of an equation make its whole",
+        "Use addition to solve a subtraction with a missing number",
+        "Check an answer instead of guessing"
       ]
     },
     "match-pairs.make-the-number.k-oa-a-3": {

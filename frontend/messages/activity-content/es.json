@@ -3513,25 +3513,28 @@
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {
       "about": [
-        "El niño o la niña resuelve tarjetas como ? + 4 = 9, 8 + ? = 11, ? − 3 = 4 y 10 − ? = 6, y luego toca la operación y el número que la completa para enlazar la pareja. Es una actividad de matemáticas para 1.º de primaria, interactiva, que corre directo en el navegador, sin instalar nada y sin crear cuenta.",
-        "La idea clave es que el número desconocido puede estar en cualquier lugar: un sumando que falta, el número que se quita, el número inicial o el total, así que cada vez hay que pensar la relación completa en lugar de «siempre sumar para encontrar la respuesta». A veces el espacio vacío es el total (5 + 4 = ?) y a veces está escondido dentro del problema (? − 4 = 1), y eso desarrolla una verdadera flexibilidad con las familias de operaciones.",
-        "Está alineada con los planes y programas de estudio (SEP): encontrar el número desconocido en una suma o una resta, con la incógnita en cualquier posición. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+        "Cada igualdad es un hueco en un camino junto a un arroyo, y cada tarjeta con un número es una tabla exactamente así de larga. El niño toca el letrero de una igualdad y luego una tabla: se despliega en el hueco cuadrito por cuadrito. Solo encaja el número que hace verdadera la igualdad. Una tabla muy corta se cae al agua y una muy larga se sale por la otra orilla.",
+        "Cada camino tiene cuatro huecos, y el número que falta está cada vez en un lugar distinto: el primer número que se suma, el segundo, el número que se quita, el número de inicio, el resultado de una suma o la diferencia. Si falta el número de inicio o el resultado de una suma, el hueco está debajo del camino. En la caja hay cinco tablas: las cuatro respuestas y una que no encaja en ningún lugar, casi siempre un error típico, como sumar los dos números que se ven o restar al revés. Cuando las cuatro tablas encajan, el animal cruza hasta la bandera.",
+        "Con la opción «Solo números», el camino no muestra cuadritos hasta que se pone una tabla, así que el niño calcula primero el número. En línea con los programas de estudio de la SEP (campo formativo Saberes y pensamiento científico). Sin cronómetro y sin puntaje."
       ],
       "practices": [
-        "Encontrar un sumando, el número que se quita, el número inicial o el total que falta.",
-        "Usar la relación entre la suma y la resta para hallar el número desconocido.",
-        "Contar hacia adelante o hacia atrás para encontrar la parte que falta.",
-        "Relacionar cada operación con el número que la vuelve verdadera."
+        "Encontrar el número que falta en cualquier lugar: un sumando, el número que se quita, el número de inicio, el resultado o la diferencia",
+        "Ver cada igualdad como dos partes y un todo",
+        "Comprobar una respuesta probándola: muy corta, muy larga o exacta",
+        "Darse cuenta de los errores típicos: sumar los números que se ven o restar al revés"
       ],
       "howToPlay": [
-        "Lee una tarjeta de operación con un espacio vacío, como ? + 7 = 10, y descubre el número que falta.",
-        "Toca la operación, luego toca el número que la completa y mira cómo se enlaza la pareja.",
-        "Forma las dos parejas de la ronda: no hay temporizador ni puntuación, así que tómate tu tiempo."
+        "Toca el letrero de una igualdad para elegir su hueco. El siguiente hueco libre ya está elegido.",
+        "Toca una tabla. Si su número es el correcto, encaja en el hueco; si no, se cae o se sale y vuelve a la caja.",
+        "Después de dos tablas equivocadas en el mismo hueco, sus cuadritos se numeran para que los puedas contar.",
+        "Toca un letrero que ya tiene tabla para volver a sacarla.",
+        "En la configuración eliges los números (hasta 10 o hasta 20) y el camino (con cuadritos o solo números)."
       ],
       "learningGoals": [
-        "Encontrar el número desconocido en una suma o una resta, en cualquier posición.",
-        "Entender cómo la suma y la resta se deshacen una a la otra.",
-        "Desarrollar un pensamiento flexible con las familias de operaciones en lugar de un solo procedimiento fijo."
+        "Encontrar el número desconocido en una suma o una resta, esté donde esté",
+        "Entender que las dos partes de una igualdad forman el todo",
+        "Usar la suma para resolver una resta a la que le falta un número",
+        "Comprobar una respuesta en lugar de adivinar"
       ]
     },
     "money.make-change.2-md-c-8": {

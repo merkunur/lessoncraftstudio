@@ -109,3 +109,4 @@ ORDER row 98 · id `place-value.tens-and-ones.1-nbt-b-2` (kept). Design: `design
 
 ## Frozen metadata flags (not edited — landing / metadata rule)
 - Every page intro says "Tap to add a ten-rod or a unit-cube — and watch the number grow": the old activity. Now cards are placed and the blocks pour out of them.
+- `live-verify-zero-cards.js` 67/0 on production (2026-10-24): all 11 locale pages 200; en, de, sv, fi × 1366 and 390 played by real pointer (tap 40 → four rods; 7 dragged beside the stand tips off, still 40; 7 on the 0 → 47 → okBuild); wrapper 9.840; the iframe grows with the card.

@@ -65,6 +65,7 @@ ORDER row 93 · id `bos-berry-pantry.slingshot-tens.1-nbt-b-2` (kept). Design: `
 | hierarchy | 276 / 0 |
 | settings-efficacy | 2 live |
 | preflight, prose-claims, serp-copy | green |
+| live-verify-door-tag (11 pages 200; en/de/sv/fi × 1366/390, real pointer: 4 crates + 3 berries for 34 → hintReverse; one crate back, one berry → okBuild) | 59 / 0 (the first run, inside the deploy window, saw no iframe for sv/fi) |
 
 **What verify-door-tag-core checks**, against its own oracle (the design tables as text, split here):
 - tens ≠ ones and no doubled digit; overflow rounds have a full bowl, a spill, and tens = crates + 1; nothing past the range or the deck;

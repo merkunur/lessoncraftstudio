@@ -3436,25 +3436,28 @@
     },
     "place-value.tens-and-ones.1-nbt-b-2": {
       "about": [
-        "To make 47, a child sets down four ten-rods and seven unit-cubes and sees 'forty' become something real rather than a digit. Numbers run from 12 up to 95 — including the round tens 30, 50, 70, and 90 — built one block-tap at a time, in an interactive Grade 1 math activity that plays in the browser with no sign-up.",
-        "The big idea is that a two-digit number is made of tens and ones. To build 47, the child uses four ten-rods and seven unit-cubes, and seeing the four rods makes the 'forty' concrete rather than just a digit. The round numbers like 70 and 90 reinforce that a zero in the ones place means there are no loose cubes at all — only complete tens.",
-        "It is aligned to Common Core 1.NBT.B.2 — understanding that a two-digit number is made of a number of tens and ones. No timer, no score — just calm, playful practice."
+        "Numbers are built from cards on a stand that is exactly two digits wide. A long tens card, such as 40, fills the whole stand; a short ones card, such as 7, only stays when it is laid on the 0 of the tens card. Then the 0 disappears under it, the stand reads 47, and four rods and seven cubes pour out onto the mat below. A ones card laid beside the tens card, or over its tens digit, tips off the stand, so 407 can never be made.",
+        "In the build rounds the number is shown as a numeral, in words, as tens and ones, as ten frames or as tally marks, and the child builds it with cards; some numbers can also be heard aloud. In read-the-blocks rounds the rods and cubes already lie on the mat and the child finds the cards that match them. In stretch rounds the child builds a number and pulls the ones card to the side, so 43 opens into 40 + 3, or pushes 60 + 7 back together into 67. In which-blocks rounds the cards are given and the child picks the tray of rods and cubes that shows them; the trays include the number with its digits swapped.",
+        "After a wrong try the half of the mat that differs lights up, the rods or the cubes; after a second, the number's own rods and cubes appear see-through beside the child's, and extra blocks are outlined. When a round is solved, the rods count themselves 10, 20, 30… and then the cubes. Aligned to Common Core 1.NBT.B.2. No timer and no score."
       ],
       "practices": [
-        "Build a two-digit number with the right number of tens and ones",
-        "Connect the tens digit to ten-rods and the ones digit to unit-cubes",
-        "Understand round numbers like 70 as a count of complete tens",
-        "Read and make two-digit numbers up to 95"
+        "Reading and building two-digit numbers as tens and ones",
+        "Seeing why 47 is written 4 then 7, not 40 then 7",
+        "Teen numbers as one ten and some ones, and 10, 20 … 90 as tens with no ones",
+        "Writing a number as tens + ones, such as 47 = 40 + 7"
       ],
       "howToPlay": [
-        "Read the target number, like 47.",
-        "Tap to add ten-rods and unit-cubes until the blocks make that number.",
-        "Watch the number grow; move on with no timer and no score."
+        "Tap a tens card and a ones card, or drag them onto the stand. The ones card stays only on the 0 of the tens card.",
+        "Tap a card on the stand to take it back. Build the number and press Check.",
+        "In stretch rounds, drag the ones card to the side or press ⟷ to pull the number apart, and again to push it together.",
+        "In which-blocks rounds, tap the tray that shows the cards, then press Check.",
+        "In the settings, choose the task (build it · read the blocks · stretch it · which blocks?) and the numbers (to 20, to 50 or to 99)."
       ],
       "learningGoals": [
-        "Understand tens and ones in two-digit numbers — the focus of Common Core 1.NBT.B.2",
-        "See that the tens digit counts groups of ten and the ones digit counts singles",
-        "Build the place-value foundation for adding and subtracting within 100"
+        "Understand that the two digits of a two-digit number stand for tens and ones — the focus of Common Core 1.NBT.B.2.",
+        "Build a number from its name, its tens and ones, ten frames or tally marks.",
+        "See that 11 to 19 are one ten and some ones, and that 10, 20 … 90 have no ones.",
+        "Write a number as tens plus ones and put it back together."
       ]
     },
     "plural.irregular.l-2-1-b": {

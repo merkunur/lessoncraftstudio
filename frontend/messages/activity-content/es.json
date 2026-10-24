@@ -2896,25 +2896,28 @@
     },
     "place-value.tens-and-ones.1-nbt-b-2": {
       "about": [
-        "Para formar el 47, el niño o la niña coloca cuatro barras de diez y siete cubos de uno, y ve cómo «cuarenta» se vuelve algo real y no solo una cifra. Los números van del 12 al 95 —incluyendo las decenas exactas 30, 50, 70 y 90— construidos un toque de bloque a la vez, en una actividad de matemáticas interactiva para primero de primaria que corre en el navegador, sin crear cuenta.",
-        "La idea clave es que un número de dos cifras está hecho de decenas y unidades. Para armar el 47, tu hijo o hija usa cuatro barras de diez y siete cubos de uno, y ver las cuatro barras hace concreto el «cuarenta», en vez de quedarse en una cifra. Los números redondos como 70 y 90 refuerzan que un cero en las unidades significa que no hay cubos sueltos: solo decenas completas.",
-        "Está alineada con los planes y programas de estudio (SEP): entender que un número de dos cifras está formado por una cantidad de decenas y unidades. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+        "Los números se forman con tarjetas sobre un soporte del ancho exacto de dos cifras. Una tarjeta larga de las decenas, como 40, ocupa todo el soporte; una tarjeta corta de las unidades, como 7, solo se queda si se pone sobre el 0 de la tarjeta de las decenas. Entonces el 0 desaparece debajo, el soporte muestra 47, y cuatro barras y siete cubos caen sobre el tapete de abajo. Una tarjeta de las unidades puesta al lado de la de las decenas, o sobre su cifra de las decenas, se cae del soporte, así que nunca se puede formar 407.",
+        "En las rondas de formar, el número aparece con cifras, con letra, como decenas y unidades, en marcos de diez o con palitos de conteo, y el niño lo forma con tarjetas; algunos números también se pueden escuchar. En las rondas “Lee las barras y los cubos” las barras y los cubos ya están sobre el tapete y el niño busca las tarjetas que corresponden. En las rondas “Sepáralo” el niño forma un número y desliza la tarjeta de las unidades hacia un lado, así 43 se abre en 40 + 3, o vuelve a juntar 60 + 7 en 67. En las rondas “¿Qué barras y cubos?” las tarjetas ya están puestas y el niño elige la bandeja que las muestra; entre las bandejas está también el número con las cifras al revés.",
+        "Después de un intento fallido se ilumina la mitad del tapete que no coincide, las barras o los cubos; después de un segundo, las barras y los cubos del número aparecen transparentes junto a los del niño, y los que sobran quedan marcados. Cuando la ronda está resuelta, las barras se cuentan solas 10, 20, 30… y luego los cubos. En línea con los programas de estudio de la SEP (campo formativo Saberes y pensamiento científico). Sin cronómetro y sin puntaje."
       ],
       "practices": [
-        "Construir un número de dos cifras con la cantidad correcta de decenas y unidades.",
-        "Relacionar la cifra de las decenas con las barras de diez y la de las unidades con los cubos de uno.",
-        "Entender números redondos como 70 como un conteo de decenas completas.",
-        "Leer y formar números de dos cifras hasta el 95."
+        "Leer y formar números de dos cifras como decenas y unidades",
+        "Entender por qué 47 se escribe 4 y 7, no 40 y 7",
+        "Los números del 11 al 19 como una decena y algunas unidades; 10, 20 … 90 como decenas sin unidades",
+        "Escribir un número como decenas + unidades, por ejemplo 47 = 40 + 7"
       ],
       "howToPlay": [
-        "Lee el número que se pide, como 47.",
-        "Toca para agregar barras de diez y cubos de uno hasta que los bloques formen ese número.",
-        "Observa cómo crece el número y avanza: no hay temporizador ni puntuación."
+        "Toca una tarjeta de las decenas y una de las unidades, o arrástralas al soporte. La tarjeta de las unidades solo se queda sobre el 0 de la tarjeta de las decenas.",
+        "Toca una tarjeta del soporte para quitarla. Forma el número y presiona Comprobar.",
+        "En las rondas “Sepáralo”, desliza la tarjeta de las unidades hacia un lado o presiona ⟷ para separar el número, y otra vez para juntarlo.",
+        "En las rondas “¿Qué barras y cubos?”, toca la bandeja que muestra las tarjetas y presiona Comprobar.",
+        "En la configuración, elige la tarea (Forma el número · Lee las barras y los cubos · Sepáralo · ¿Qué barras y cubos?) y los números (hasta 20, hasta 50 o hasta 99)."
       ],
       "learningGoals": [
-        "Tu hijo o hija puede entender las decenas y las unidades en los números de dos cifras.",
-        "El niño o la niña aprende a ver que la cifra de las decenas cuenta grupos de diez y la de las unidades cuenta los sueltos.",
-        "Construye la base de valor posicional para sumar y restar hasta el 100."
+        "Comprender que las dos cifras de un número de dos cifras representan decenas y unidades.",
+        "Formar un número a partir de su nombre, de sus decenas y unidades, de marcos de diez o de palitos de conteo.",
+        "Ver que del 11 al 19 hay una decena y algunas unidades, y que 10, 20 … 90 no tienen unidades.",
+        "Escribir un número como decenas más unidades y volver a juntarlo."
       ]
     },
     "syllable-builder.forma-las-silabas.rf-k-2-b": {

@@ -687,25 +687,28 @@
     },
     "place-value.tens-and-ones.1-nbt-b-2": {
       "about": [
-        "För att göra 47 lägger barnet ut fyra tiostavar och sju enhetskuber, och ser hur fyrtio blir något verkligt i stället för bara en siffra. Talen går från 12 upp till 95 — inklusive de jämna tiotalen 30, 50, 70 och 90 — byggda block för block, i en interaktiv matteövning för årskurs 1 som spelas i webbläsaren utan registrering.",
-        "Den stora idén är att ett tvåsiffrigt tal är uppbyggt av tiotal och ental. För att bygga 47 använder barnet fyra tiostavar och sju enhetskuber, och att se de fyra stavarna gör fyrtio konkret i stället för bara en siffra. De jämna talen som 70 och 90 förstärker att en nolla på entalsplatsen betyder att det inte finns några lösa kuber alls — bara hela tiotal.",
-        "Aktiviteten är anpassad till Lgr22 inom positionssystemet: att förstå att ett tvåsiffrigt tal är uppbyggt av ett antal tiotal och ental. Den här interaktiva övningen passar årskurs 1. Ingen timer, inga poäng — bara lugn, lekfull träning."
+        "Talen byggs av kort på en hållare som är precis två siffror bred. Ett långt tiotalskort som 40 fyller hela hållaren; ett kort entalskort som 7 stannar bara kvar när det läggs på nollan på tiotalskortet. Då försvinner nollan under det, hållaren visar 47, och fyra stavar och sju kuber faller ner på mattan under. Ett entalskort bredvid tiotalskortet eller ovanpå dess tiotalssiffra tippar av hållaren, så att 407 aldrig kan uppstå.",
+        "I byggomgångarna står talet som siffra, med bokstäver, som tiotal och ental, i tiorutor eller som streck, och barnet bygger det med kort; vissa tal kan det också få upplästa. I omgångarna ”Läs stavar och kuber” ligger stavarna och kuberna redan på mattan och barnet letar upp korten som passar. I omgångarna ”Dra isär” bygger barnet ett tal och drar entalskortet åt sidan, så att 43 öppnar sig till 40 + 3, eller skjuter ihop 60 + 7 till 67 igen. I omgångarna ”Vilka stavar och kuber?” är korten givna och barnet väljer den bricka som visar dem; bland brickorna finns också talet med siffrorna omkastade.",
+        "Efter ett felförsök lyser den halva av mattan som inte stämmer upp, stavarna eller kuberna; efter ett andra visas talets egna stavar och kuber genomskinliga bredvid barnets, och de som är för många får en ram. När en omgång är löst räknar stavarna sig själva 10, 20, 30 … och sedan kuberna. I linje med Lgr22, centralt innehåll om taluppfattning och tals användning. Utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Bygga ett tvåsiffrigt tal med rätt antal tiotal och ental",
-        "Koppla tiotalssiffran till tiostavar och entalssiffran till enhetskuber",
-        "Förstå jämna tal som 70 som ett antal hela tiotal",
-        "Läsa och göra tvåsiffriga tal upp till 95"
+        "Att läsa och bygga tvåsiffriga tal som tiotal och ental",
+        "Att se varför 47 skrivs 4 och 7 och inte 40 och 7",
+        "Talen 11 till 19 som ett tiotal och några ental, 10, 20 … 90 som tiotal utan ental",
+        "Att skriva ett tal som tiotal + ental, till exempel 47 = 40 + 7"
       ],
       "howToPlay": [
-        "Läs måltalet, som 47.",
-        "Tryck för att lägga till tiostavar och enhetskuber tills blocken blir det talet.",
-        "Se talet växa; gå vidare utan timer och utan poäng."
+        "Tryck på ett tiotalskort och ett entalskort, eller dra dem till hållaren. Entalskortet stannar bara på nollan på tiotalskortet.",
+        "Tryck på ett kort på hållaren för att ta tillbaka det. Bygg talet och tryck på Kontrollera.",
+        "I omgångarna ”Dra isär” drar du entalskortet åt sidan eller trycker på ⟷ för att dra isär talet, och igen för att skjuta ihop det.",
+        "I omgångarna ”Vilka stavar och kuber?” trycker du på brickan som visar korten och trycker på Kontrollera.",
+        "I inställningarna väljer du uppgift (Bygg talet · Läs stavar och kuber · Dra isär · Vilka stavar och kuber?) och tal (till 20, till 50 eller till 99)."
       ],
       "learningGoals": [
-        "Barnet kan förstå tiotal och ental i tvåsiffriga tal",
-        "Barnet ser att tiotalssiffran räknar grupper om tio och entalssiffran räknar ettor",
-        "Barnet bygger den grund i positionssystemet som addition och subtraktion inom 100 behöver"
+        "Att förstå att de två siffrorna i ett tvåsiffrigt tal står för tiotal och ental.",
+        "Att bygga ett tal utifrån räkneordet, tiotal och ental, tiorutor eller streck.",
+        "Att se att 11 till 19 är ett tiotal och några ental och att 10, 20 … 90 inte har några ental.",
+        "Att skriva ett tal som tiotal plus ental och sätta ihop det igen."
       ]
     },
     "syllable-builder.bygg-ordet-av-stavelser.rf-k-2-b": {

@@ -1343,25 +1343,28 @@
     },
     "place-value.tens-and-ones.1-nbt-b-2": {
       "about": [
-        "Para formar o número 47, a criança coloca quatro barras de dez e sete cubinhos e vê o “quarenta” virar algo concreto, em vez de só um algarismo. Os números vão de 12 até 95 — incluindo as dezenas redondas 30, 50, 70 e 90 — montados toque a toque de bloco, numa atividade interativa de matemática para o 1º ano, que roda no navegador sem cadastro.",
-        "A grande ideia é que um número de dois dígitos é formado por dezenas e unidades. Para montar 47, a criança usa quatro barras de dez e sete cubinhos, e ver as quatro barras deixa o “quarenta” concreto, não apenas um algarismo. Os números redondos, como 70 e 90, reforçam que um zero na casa das unidades significa que não há nenhum cubinho solto — só dezenas completas.",
-        "A atividade está alinhada à BNCC, na unidade temática Números, compreendendo que um número de dois dígitos é formado por uma quantidade de dezenas e de unidades. Sem cronômetro, sem pontuação: só prática tranquila no tempo de cada criança."
+        "Os números são montados com cartões sobre um suporte que tem exatamente duas casas de largura. Um cartão comprido das dezenas, como 40, ocupa o suporte todo; um cartão curto das unidades, como 7, só fica quando é colocado em cima do 0 do cartão das dezenas. Aí o 0 some por baixo, o suporte mostra 47, e quatro barras e sete cubinhos caem no tapete de baixo. Um cartão das unidades colocado ao lado do cartão das dezenas, ou em cima do algarismo das dezenas, cai do suporte, então 407 nunca pode ser formado.",
+        "Nas rodadas de montar, o número aparece em algarismos, por extenso, como dezenas e unidades, em quadros de dez ou em risquinhos de contagem, e a criança o monta com cartões; alguns números também podem ser ouvidos. Nas rodadas “Leia as barras e os cubinhos” as barras e os cubinhos já estão no tapete e a criança procura os cartões que combinam. Nas rodadas “Separe” a criança monta um número e desliza o cartão das unidades para o lado, assim 43 se abre em 40 + 3, ou junta 60 + 7 de novo em 67. Nas rodadas “Quais barras e cubinhos?” os cartões já estão dados e a criança escolhe a bandeja que os mostra; entre as bandejas está também o número com os algarismos trocados.",
+        "Depois de uma tentativa errada, acende a metade do tapete que não confere, as barras ou os cubinhos; depois de uma segunda, as barras e os cubinhos do número aparecem transparentes ao lado dos da criança, e os que sobram ficam contornados. Quando a rodada está resolvida, as barras se contam sozinhas 10, 20, 30… e depois os cubinhos. De acordo com a BNCC, na unidade temática Números. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Montar um número de dois dígitos com a quantidade certa de dezenas e unidades.",
-        "Ligar o algarismo das dezenas às barras de dez e o das unidades aos cubinhos.",
-        "Entender números redondos como 70 como uma quantidade de dezenas completas.",
-        "Ler e formar números de dois dígitos até 95."
+        "Ler e montar números de dois algarismos como dezenas e unidades",
+        "Entender por que 47 se escreve 4 e 7, e não 40 e 7",
+        "Os números de 11 a 19 como uma dezena e algumas unidades; 10, 20 … 90 como dezenas sem unidades",
+        "Escrever um número como dezenas + unidades, por exemplo 47 = 40 + 7"
       ],
       "howToPlay": [
-        "Leia o número-alvo, como 47.",
-        "Toque para adicionar barras de dez e cubinhos até os blocos formarem esse número.",
-        "Veja o número crescer e siga em frente — não tem cronômetro nem pontuação."
+        "Toque em um cartão das dezenas e em um das unidades, ou arraste-os para o suporte. O cartão das unidades só fica em cima do 0 do cartão das dezenas.",
+        "Toque em um cartão do suporte para tirá-lo. Monte o número e aperte Verificar.",
+        "Nas rodadas “Separe”, deslize o cartão das unidades para o lado ou aperte ⟷ para separar o número, e de novo para juntá-lo.",
+        "Nas rodadas “Quais barras e cubinhos?”, toque na bandeja que mostra os cartões e aperte Verificar.",
+        "Nas configurações, escolha a tarefa (Monte o número · Leia as barras e os cubinhos · Separe · Quais barras e cubinhos?) e os números (até 20, até 50 ou até 99)."
       ],
       "learningGoals": [
-        "Compreender dezenas e unidades nos números de dois dígitos.",
-        "Perceber que o algarismo das dezenas conta grupos de dez e o das unidades conta os soltos.",
-        "Construir a base de valor posicional para somar e subtrair até 100."
+        "Compreender que os dois algarismos de um número de dois algarismos representam dezenas e unidades.",
+        "Montar um número a partir do nome, das dezenas e unidades, dos quadros de dez ou dos risquinhos de contagem.",
+        "Ver que de 11 a 19 há uma dezena e algumas unidades, e que 10, 20 … 90 não têm unidades.",
+        "Escrever um número como dezenas mais unidades e juntá-lo de novo."
       ]
     },
     "syllable-builder.forme-as-silabas.rf-k-2-b": {

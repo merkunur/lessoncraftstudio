@@ -1,8 +1,8 @@
 [
   {
     "id": "place-value.tens-and-ones.1-nbt-b-2",
-    "tool": "place-value-activity",
-    "task_template": "build-tens-and-ones",
+    "tool": "zero-cards-activity",
+    "task_template": "zero-cards",
     "alignment": {
       "framework": "CCSS",
       "code": "1.NBT.B.2",
@@ -29,7 +29,24 @@
         89,
         90,
         95
-      ]
+      ],
+      "faces": [
+        "build",
+        "tens",
+        "stretch",
+        "which"
+      ],
+      "numbers": [
+        "20",
+        "50",
+        "99"
+      ],
+      "rounds": {
+        "build": 18,
+        "tens": 8,
+        "stretch": 8,
+        "which": 9
+      }
     },
     "theme": null,
     "slug": {

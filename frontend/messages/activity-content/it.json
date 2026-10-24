@@ -985,25 +985,28 @@
     },
     "bundle-bot.bundle-machine.1-nbt-b-2-a": {
       "about": [
-        "Con Bolt il robot il tuo bambino costruisce i numeri un pezzo alla volta: lascia cadere le unità sciolte, le conta fino a dieci e tira la leva per raggrupparle in una decina, scoprendo con le mani come nascono le decine e le unità.",
-        "L'attività si apre direttamente nel browser e non richiede alcuna registrazione. Il bambino compone numeri da 20 a 49, osserva quando dieci unità sciolte diventano una decina e può anche disfare una decina per tornare alle unità sciolte.",
-        "Al centro c'è il valore posizionale — decine e unità — con un approccio concreto e visivo, in linea con le Indicazioni nazionali e il nucleo dei Numeri. Nessun punteggio e nessun cronometro: solo il tempo giusto per capire, come si conviene alla classe seconda."
+        "Il robot Bolt ha una macchina che raggruppa i cubetti, ma solo il bambino può tirare la leva. Un imbuto fa cadere piccoli mucchietti di cubetti su una piastra. Quando il bambino tira la leva, una fascia con esattamente dieci tasche avvolge i cubetti sfusi. Con dieci cubetti si riempie e si chiude in una decina, che rotola sulla rastrelliera. Con meno, la fascia si riapre di scatto e di solito prima mostra le tasche vuote. Con più, ne prende dieci e spinge fuori gli altri.",
+        "Nella maggior parte dei turni il bambino forma un numero, per esempio 34 con 3 decine e 4 cubetti sfusi. Un turno comincia con nove cubetti disposti come se fossero dieci; in un altro i cubetti cadono a tre a tre e superano il dieci. Nel turno in cui si apre una decina, il bambino tocca il pulsante delle forbici per aprire una decina in dieci cubetti sfusi, e il numero resta uguale. Altri turni chiedono quanti cubetti ci sono, oppure di raggruppare tutte le decine e scrivere decine e unità. Al controllo Bolt conta le decine di dieci in dieci e poi i cubetti sfusi; dieci cubetti sfusi rimasti sulla piastra sono una decina ancora da raggruppare.",
+        "I numeri arrivano fino a 49 o fino a 99, e la fascia può mostrare le tasche vuote o semplicemente riaprirsi. Dopo un tentativo sbagliato le decine portano le etichette 10, 20, 30. Dopo il secondo vengono numerati anche i cubetti sfusi e, nei turni in cui il bambino forma un numero, il cartellino del numero si divide in decine e unità. In linea con le Indicazioni nazionali per i numeri. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Costruire numeri da 20 a 49 con decine e unità",
-        "Raggruppare dieci unità sciolte in una decina",
-        "Disfare una decina per tornare a dieci unità sciolte",
-        "Comporre e scomporre numeri a due cifre usando il valore posizionale"
+        "Raggruppare dieci unità in una decina",
+        "Formare numeri di due cifre con il maggior numero possibile di decine",
+        "Aprire una decina in dieci unità senza cambiare il numero",
+        "Leggere un numero dato in decine e unità, anche una decina con più di dieci unità"
       ],
       "howToPlay": [
-        "Metti le unità sciolte una alla volta nel piano di Bolt il robot",
-        "Quando le unità sciolte sono dieci, tira la leva per raggrupparle in una decina",
-        "Leggi il numero formato da decine e unità; se serve arriva un aiuto gentile, senza punteggio"
+        "Leggi la consegna e il cartellino del numero.",
+        "Tocca l’imbuto per far cadere cubetti sulla piastra. Tocca il tasto meno per toglierne uno.",
+        "Tira la leva quando pensi che ci siano esattamente dieci cubetti sfusi. Per aprire una decina in dieci cubetti sfusi, tocca il pulsante delle forbici.",
+        "Se la consegna chiede un numero, scrivilo con la tastiera, oppure tocca Decine o Unità e poi la cifra. Poi premi Controlla.",
+        "Nelle impostazioni scegli i numeri (fino a 49 o fino a 99) e che cosa fa la fascia quando non si chiude (mostrare le tasche vuote o riaprirsi e basta)."
       ],
       "learningGoals": [
-        "Capire il valore posizionale distinguendo le decine dalle unità",
-        "Comporre e scomporre numeri a due cifre fino a 49, riconoscendo il momento del cambio",
-        "Consolidare i traguardi per la classe seconda previsti dalle Indicazioni nazionali, nel nucleo Numeri"
+        "Capire che dieci unità formano una decina",
+        "Rappresentare un numero di due cifre con decine e unità",
+        "Vedere che una decina si può aprire in dieci unità e il numero resta uguale",
+        "Riconoscere le decine intere come decine senza unità"
       ]
     },
     "sharing-jar.make-fair.1-oa-d-8": {

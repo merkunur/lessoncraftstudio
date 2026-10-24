@@ -738,25 +738,28 @@
     },
     "bundle-bot.bundle-machine.1-nbt-b-2-a": {
       "about": [
-        "Bundle Bot is a little robot who loves tidying loose ones into neat tens, and he needs the child's help: to build a number like 23, 34, or 45, the child drops in loose ones, and the moment there are exactly ten, they pull the lever to clunk those ten ones into one neat ten. Numbers run up to forty-nine. It's a Grade 1 place-value activity that plays in the browser with no account.",
-        "The lever only works on exactly ten, which is what teaches the rule that ten ones make one ten. Some rounds turn it around — unbundling 32 into 2 tens and 12 ones — and others set a trap, like an impostor pile of nine ones that is not ready to bundle, or an overfill the child must catch. Across all of them the child is physically grouping by ten, the concrete meaning behind the tens digit of every two-digit number.",
-        "It is aligned to Common Core 1.NBT.B.2.a — understanding that a bundle of ten ones is called a ten. No timer, no score — just calm, playful practice."
+        "Bolt the robot has a machine that bundles cubes, but only the child can pull its lever. A hopper drops small clumps of cubes onto a press plate. When the child pulls the lever, a band with exactly ten pockets wraps around the loose cubes. Ten cubes fill it, and it clasps into one ten that rolls onto the rack. With fewer, the band springs open, and by default it first shows its empty pockets. With more, it takes ten and pushes the rest back out.",
+        "In most rounds the child makes a number, such as 34 as 3 tens and 4 loose cubes. One round starts with nine cubes laid out to look like ten; another drops cubes in threes, so they overshoot ten. In an unbundle round the child taps the scissors button to snip a ten open into ten loose cubes, and the number stays the same. Other rounds ask how many cubes there are, or ask the child to bundle every ten and fill in the tens and the ones. On Check, Bolt counts the tens by tens and then the loose cubes, and ten loose cubes left on the plate are a ten still waiting to be bundled.",
+        "Numbers go to 49 or to 99, and the band can show its empty pockets or just spring open. After a wrong try, the tens are labelled 10, 20, 30. After a second, the loose cubes are numbered too, and in the rounds where the child makes a number, the number card splits into its tens and ones. Aligned to Common Core 1.NBT.B.2.a. No timer and no score."
       ],
       "practices": [
-        "Counting loose ones and knowing when there are exactly ten",
-        "Bundling ten ones into one ten, and unbundling a ten back into ten ones",
-        "Building two-digit numbers up to forty-nine from tens and ones",
-        "Catching an impostor pile of nine that is not ready to bundle"
+        "Bundling ten ones into one ten",
+        "Building two-digit numbers with as many tens as possible",
+        "Breaking a ten into ten ones without changing the number",
+        "Reading a number shown as tens and ones, including a ten and more than ten ones"
       ],
       "howToPlay": [
-        "Read Bundle Bot's target number and add loose ones into the machine.",
-        "When there are exactly ten loose ones, pull the lever to bundle them into one neat ten, and keep going until the number is built.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Read the task and the number card.",
+        "Tap the hopper to drop cubes onto the plate. Tap the minus button to take one back.",
+        "Pull the lever when you think there are exactly ten loose cubes. To snip a ten open into ten loose cubes, tap the scissors button.",
+        "When the task asks for a number, type it on the keypad, or tap Tens or Ones and type the digit. Then press Check.",
+        "In the settings, choose the numbers (to 49 or to 99) and what the band does when it can’t close (show the empty pockets, or just spring open)."
       ],
       "learningGoals": [
-        "Understand that ten ones make one ten — the focus of Common Core 1.NBT.B.2.a.",
-        "Bundle and unbundle tens to build and take apart two-digit numbers.",
-        "Build the grouping-by-ten foundation that place value and regrouping depend on."
+        "Understand that ten ones make one ten",
+        "Show a two-digit number as tens and ones",
+        "See that a ten can be opened into ten ones and the number stays the same",
+        "Recognise the decades as tens with no ones"
       ]
     },
     "choice-board.beginning-sound.rf-k-3-a": {

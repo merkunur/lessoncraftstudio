@@ -2037,25 +2037,28 @@
     },
     "bundle-bot.bundle-machine.1-nbt-b-2-a": {
       "about": [
-        "Bolt es un robot que va soltando unidades sueltas, de una en una, dentro de una charola. Tu peque las cuenta y, al llegar a diez, jala la palanca: Bolt agrupa esas diez unidades en una decena, es decir, en una barra de diez. Así, decena tras decena, se van armando números de 20 a 49 con decenas y unidades, sin ninguna operación de por medio.",
-        "Detrás del juego está una de las ideas más importantes del valor posicional: un número como 34 son 3 decenas y 4 unidades, y no cambia según dónde escribamos cada cifra. Agrupar diez unidades para formar una decena y desagrupar una decena para volverla diez unidades son, en realidad, las dos caras de una misma idea; verlas juntas ayuda a la niña o al niño a entender de verdad cómo se compone un número de dos cifras.",
-        "Cada engrane propone un reto distinto: armar un número, desagrupar una decena, formar decenas exactas como 40, leer el estado actual y hasta descubrir al tramposo, un grupo que parece una decena pero solo tiene nueve unidades. Todo es en el navegador, sin cronómetro ni puntos, para que cada quien explore el valor posicional a su propio ritmo."
+        "El robot Bolt tiene una máquina que agrupa cubos, pero solo el niño puede jalar la palanca. Un embudo deja caer montoncitos de cubos sobre una placa. Cuando el niño jala la palanca, una banda con exactamente diez huecos envuelve los cubos sueltos. Con diez cubos se llena y se cierra en una decena que rueda al estante. Con menos, la banda se abre de golpe, y normalmente antes muestra sus huecos vacíos. Con más, toma diez y empuja los demás de vuelta.",
+        "En la mayoría de las rondas el niño forma un número, por ejemplo el 34 con 3 decenas y 4 cubos sueltos. Una ronda empieza con nueve cubos acomodados para que parezcan diez; en otra, los cubos caen de tres en tres y se pasan de diez. En la ronda de desagrupar, el niño toca el botón de las tijeras para abrir una decena en diez cubos sueltos, y el número sigue igual. Otras rondas preguntan cuántos cubos hay, o piden agrupar todas las decenas y anotar las decenas y las unidades. Al comprobar, Bolt cuenta las decenas de diez en diez y luego los cubos sueltos; diez cubos sueltos en la placa son una decena que falta agrupar.",
+        "Los números llegan hasta 49 o hasta 99, y la banda puede mostrar sus huecos vacíos o solo abrirse de golpe. Después de un intento fallido, las decenas llevan las etiquetas 10, 20, 30. Después del segundo, también se numeran los cubos sueltos y, en las rondas en que el niño forma un número, la tarjeta del número se separa en decenas y unidades. En línea con los programas de estudio de la SEP (campo formativo Saberes y pensamiento científico). Sin cronómetro y sin puntaje."
       ],
       "practices": [
-        "Agrupar diez unidades sueltas en una decena y armar números de 20 a 49 con decenas y unidades.",
-        "Desagrupar una decena en diez unidades para representar un mismo número de otra forma.",
-        "Leer y nombrar un número como \"tantas decenas y tantas unidades\", y formar decenas exactas como 40.",
-        "Revisar que un grupo tenga de verdad diez unidades y detectar al tramposo que solo trae nueve."
+        "Agrupar diez unidades en una decena",
+        "Formar números de dos cifras con el mayor número posible de decenas",
+        "Abrir una decena en diez unidades sin que cambie el número",
+        "Leer un número dado en decenas y unidades, incluso una decena con más de diez unidades"
       ],
       "howToPlay": [
-        "Mete unidades sueltas de una en una en la charola de Bolt y cuéntalas hasta llegar a diez.",
-        "Jala la palanca: Bolt agrupa las diez unidades en una decena; repite hasta tener las decenas que pide el número y deja sueltas las unidades que sobran.",
-        "Lee \"tantas decenas y tantas unidades\"; y en las tareas de desagrupar, toca una decena para volverla diez unidades otra vez."
+        "Lee la tarea y la tarjeta del número.",
+        "Toca el embudo para que caigan cubos en la placa. Toca el botón de menos para quitar uno.",
+        "Jala la palanca cuando creas que hay exactamente diez cubos sueltos. Para abrir una decena en diez cubos sueltos, toca el botón de las tijeras.",
+        "Si la tarea pide un número, escríbelo en el teclado, o toca Decenas o Unidades y luego la cifra. Después presiona Comprobar.",
+        "En la configuración eliges los números (hasta 49 o hasta 99) y qué hace la banda cuando no cierra (mostrar los huecos vacíos o solo abrirse de golpe)."
       ],
       "learningGoals": [
-        "Comprender que diez unidades forman una decena y que un número de dos cifras se compone de decenas y unidades: esto es el valor posicional en primer grado.",
-        "Agrupar y desagrupar con seguridad hasta números cercanos a 100, viendo ambas direcciones como una sola idea.",
-        "Leer y nombrar un número representado y comprobar que cada grupo tenga exactamente diez unidades."
+        "Entender que diez unidades forman una decena",
+        "Representar un número de dos cifras con decenas y unidades",
+        "Ver que una decena se puede abrir en diez unidades y el número sigue igual",
+        "Reconocer las decenas completas como decenas sin unidades"
       ]
     },
     "sharing-jar.make-fair.1-oa-d-8": {

@@ -2752,6 +2752,32 @@
         "Å skrive tosifrede tall i utvidet form",
         "Å kjenne igjen en tier som ti enere, tallene 11–19 som en tier og noen enere og hele tiere som tiere uten enere"
       ]
+    },
+    "bundle-bot.bundle-machine.1-nbt-b-2-a": {
+      "about": [
+        "Roboten Bolt har en maskin som bunter klosser, men bare barnet kan dra i spaken. Fra en trakt faller små hauger med klosser ned på en presseplate. Når barnet drar i spaken, legger et bånd med nøyaktig ti lommer seg rundt de løse klossene. Med ti klosser blir det fullt og lukker seg til én tier, som ruller over på stativet. Med færre spretter båndet opp, og som regel viser det først de tomme lommene sine. Med flere tar det ti og dytter resten ut igjen.",
+        "I de fleste rundene bygger barnet et tall, for eksempel 34 av 3 tiere og 4 løse klosser. Én runde begynner med ni klosser som ser ut som ti; i en annen faller klossene tre om gangen, så det blir flere enn ti. I runden der en tier skal åpnes, trykker barnet på saksa for å klippe opp en tier i ti løse klosser – og tallet er det samme. Andre runder spør hvor mange klosser det er, eller barnet bunter alle tierne og skriver tiere og enere. Når man sjekker, teller Bolt tierne ti om gangen og så de løse klossene; ti løse klosser på plata er en tier som ennå ikke er buntet.",
+        "Tallene går opp til 49 eller 99, og båndet kan vise de tomme lommene sine eller bare sprette opp. Etter et feilforsøk får tierne merkene 10, 20, 30. Etter det andre får også de løse klossene nummer, og i rundene der barnet bygger et tall, deler tallkortet seg i tiere og enere. I tråd med LK20, kompetansemål i matematikk etter 2. trinn. Uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Å bunte ti enere til én tier",
+        "Å bygge tosifrede tall med så mange tiere som mulig",
+        "Å åpne en tier til ti enere uten at tallet endrer seg",
+        "Å lese et tall som tiere og enere, også en tier med flere enn ti enere"
+      ],
+      "howToPlay": [
+        "Les oppgaven og tallkortet.",
+        "Trykk på trakten, så faller det klosser ned på plata. Trykk på minusknappen for å ta tilbake én.",
+        "Dra i spaken når du tror det ligger nøyaktig ti løse klosser. For å klippe opp en tier i ti løse klosser trykker du på saksa.",
+        "Spør oppgaven etter et tall, skriver du det på tastaturet, eller du trykker på Tiere eller Enere og så på sifferet. Trykk deretter på Sjekk.",
+        "I innstillingene velger du tallene (til 49 eller til 99) og hva båndet gjør når det ikke går igjen (vise de tomme lommene eller bare sprette opp)."
+      ],
+      "learningGoals": [
+        "Å forstå at ti enere blir én tier",
+        "Å vise et tosifret tall med tiere og enere",
+        "Å se at en tier kan åpnes til ti enere, og at tallet er det samme",
+        "Å kjenne igjen hele tiere som tiere uten enere"
+      ]
     }
   }
 }

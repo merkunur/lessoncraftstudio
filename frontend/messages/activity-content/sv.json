@@ -2093,25 +2093,28 @@
     },
     "bundle-bot.bundle-machine.1-nbt-b-2-a": {
       "about": [
-        "Roboten Bult har en buntmaskin, men den gör ingenting av sig själv. Barnet lägger i ett ental i taget, räknar till tio och drar sedan i spaken — då buntas de tio entalen ihop till ett tiotal. Ett tiotal som redan ligger på plats går att trycka på för att lösa upp igen, så att det blir tio lösa ental.",
-        "Det är den vändbarheten som är kärnan. I en av omgångarna räcker det inte att bygga talet på det vanliga sättet: barnet ska visa 32 som två tiotal och tolv ental, alltså ta isär ett tiotal igen. Att kunna göra och ogöra ett tiotal är det som senare bär subtraktion med växling.",
-        "Maskinen vägrar också att bunta när det inte är tio, även när högen ser full ut, så barnet måste räkna i stället för att gissa. Omgångarna rör sig mellan 23 och 45. Aktiviteten följer Lgr22, körs direkt i webbläsaren utan nedladdning och utan konto, och har varken timer eller poäng."
+        "Roboten Bult har en maskin som buntar ihop klossar, men bara barnet kan dra i spaken. Ur en tratt faller små högar av klossar ner på en pressplatta. När barnet drar i spaken lindas ett band med exakt tio fickor runt de lösa klossarna. Med tio klossar blir bandet fullt och knäpps ihop till ett tiotal som rullar till hyllan. Med färre hoppar bandet upp, och oftast visar det först sina tomma fickor. Med fler tar det tio och skjuter tillbaka resten.",
+        "I de flesta omgångarna bygger barnet ett tal, till exempel 34 av 3 tiotal och 4 lösa klossar. En omgång börjar med nio klossar som ser ut som tio; i en annan faller klossarna tre i taget så att det blir fler än tio. I omgången där ett tiotal ska lösas upp trycker barnet på saxknappen för att klippa upp ett tiotal i tio lösa klossar, och talet är detsamma. Andra omgångar frågar hur många klossar det är, eller så buntar barnet alla tiotal och skriver tiotal och ental. Vid kontrollen räknar Bult tiotalen tio i taget och sedan de lösa klossarna; tio lösa klossar på plattan är ett tiotal som ännu inte har buntats.",
+        "Talen går upp till 49 eller 99, och bandet kan visa sina tomma fickor eller bara hoppa upp. Efter ett felförsök får tiotalen etiketterna 10, 20, 30. Efter det andra numreras också de lösa klossarna, och i de omgångar där barnet bygger ett tal delas talkortet i tiotal och ental. I linje med Lgr22, centralt innehåll om taluppfattning och tals användning. Utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Bunta ihop tio ental till ett tiotal och lösa upp ett tiotal igen",
-        "Skriva och visa tvåsiffriga tal med tiotal och ental",
-        "Visa samma tal på mer än ett sätt, till exempel 32 som två tiotal och tolv ental",
-        "Räkna efter i stället för att gissa när en hög ser ut att vara tio"
+        "Att bunta ihop tio ental till ett tiotal",
+        "Att bygga tvåsiffriga tal med så många tiotal som möjligt",
+        "Att lösa upp ett tiotal i tio ental utan att talet ändras",
+        "Att läsa ett tal som tiotal och ental, även ett tiotal och fler än tio ental"
       ],
       "howToPlay": [
-        "Lägg i ett ental i taget och räkna högt medan du gör det.",
-        "När det ligger tio lösa ental drar du i spaken, så blir de ett tiotal.",
-        "Behöver du lösa upp ett tiotal trycker du på tiostaven, så blir den tio ental igen."
+        "Läs uppgiften och talkortet.",
+        "Tryck på tratten så faller klossar ner på plattan. Tryck på minusknappen för att ta tillbaka en.",
+        "Dra i spaken när du tror att det ligger exakt tio lösa klossar. För att klippa upp ett tiotal i tio lösa klossar trycker du på saxknappen.",
+        "Om uppgiften frågar efter ett tal skriver du det på knappsatsen, eller trycker på Tiotal eller Ental och sedan på siffran. Tryck sedan på Kontrollera.",
+        "I inställningarna väljer du tal (upp till 49 eller 99) och vad bandet gör när det inte går ihop (visa de tomma fickorna eller bara hoppa upp)."
       ],
       "learningGoals": [
-        "Barnet kan bunta ihop tio ental till ett tiotal och lösa upp det igen",
-        "Barnet kan visa ett tvåsiffrigt tal med tiotal och ental",
-        "Barnet kan visa samma tal på flera sätt och förstår att ett tiotal alltid är tio ental"
+        "Att förstå att tio ental blir ett tiotal",
+        "Att visa ett tvåsiffrigt tal med tiotal och ental",
+        "Att se att ett tiotal kan lösas upp i tio ental och att talet är detsamma",
+        "Att känna igen jämna tiotal som tiotal utan ental"
       ]
     },
     "line-plot.read.2-md-d-9": {

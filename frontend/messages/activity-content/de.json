@@ -1408,25 +1408,28 @@
     },
     "bundle-bot.bundle-machine.1-nbt-b-2-a": {
       "about": [
-        "Bolt, der kleine Aufräum-Roboter, hat ein Problem: Auf seinem Förderband liegen lauter lose Einer kreuz und quer herum. Bolts Trick ist immer derselbe — er zählt zehn Einer ab, zieht am Hebel, und klack presst er sie zu einer Zehnerstange zusammen. Aus zehn losen Würfeln wird so ein ordentlicher Zehner. In dieser interaktiven Aktivität hilft dein Kind Bolt beim Bündeln und baut Schritt für Schritt zweistellige Zahlen von 20 bis 49 — ganz sauber aus Zehnern und Einern.",
-        "Genau hier steckt der mathematische Kern: das Stellenwertverständnis. Dein Kind erlebt unmittelbar, dass eine Zahl wie 34 nichts anderes ist als 3 Zehner und 4 Einer — und dass jede Zehnerstange für genau zehn Einer steht. Manchmal geht es auch andersherum: Bolt muss einen Zehner wieder entbündeln, also eine Zehnerstange in zehn lose Einer zerlegen, um eine Zahl anders darzustellen. So begreifen Kinder das Bündeln und Entbündeln als zwei Seiten derselben Idee — die Grundlage für das Rechnen im Zahlenraum bis 100.",
-        "Die verschiedenen Aufgaben halten das Denken wach: eine Zahl aufbauen, einen Zehner entbündeln, eine glatte Zehnerzahl wie 40 legen, den aktuellen Stand ablesen — oder den Schwindler entlarven, wenn ein Bündel nur aussieht wie zehn, in Wirklichkeit aber neun Einer enthält. Diese Aktivität passt zum Lehrplan der Klasse 2 (Zahlen und Operationen: Stellenwert, Bündeln im Zahlenraum bis 100). Es gibt keine Zeit, keine Punkte und keinen Wettlauf — dein Kind darf in Ruhe ausprobieren, zählen und nachbessern."
+        "Roboter Bolt hat eine Maschine, die Würfel bündelt, aber nur das Kind kann am Hebel ziehen. Aus einem Trichter fallen kleine Häufchen Würfel auf eine Pressplatte. Zieht das Kind am Hebel, legt sich ein Band mit genau zehn Fächern um die einzelnen Würfel. Bei zehn Würfeln ist es voll und schließt sich zu einem Zehner, der ins Regal rollt. Bei weniger springt das Band auf und zeigt vorher meist seine leeren Fächer. Bei mehr nimmt es zehn und schiebt den Rest wieder hinaus.",
+        "In den meisten Runden baut das Kind eine Zahl, zum Beispiel 34 aus 3 Zehnern und 4 einzelnen Würfeln. Eine Runde beginnt mit neun Würfeln, die wie zehn aussehen; in einer anderen fallen immer drei Würfel auf einmal, sodass es über zehn hinausgeht. In der Runde, in der ein Zehner aufgemacht wird, tippt das Kind auf die Schere und schneidet einen Zehner in zehn einzelne Würfel auf – die Zahl bleibt gleich. Andere Runden fragen, wie viele Würfel es sind, oder das Kind bündelt alle Zehner und trägt Zehner und Einer ein. Beim Prüfen zählt Bolt die Zehner in Zehnerschritten und dann die einzelnen Würfel; zehn einzelne Würfel auf der Platte sind ein Zehner, der noch gebündelt werden muss.",
+        "Die Zahlen gehen bis 49 oder bis 99, und das Band kann seine leeren Fächer zeigen oder einfach aufspringen. Nach einem Fehlversuch bekommen die Zehner die Beschriftung 10, 20, 30. Nach dem zweiten werden auch die einzelnen Würfel nummeriert, und in den Runden, in denen das Kind eine Zahl baut, teilt sich die Zahlenkarte in Zehner und Einer. Passend zum Lehrplan im Bereich Zahlen und Operationen. Ohne Zeitdruck und ohne Punktwertung."
       ],
       "practices": [
-        "Zehn lose Einer zu einem Zehner bündeln und zweistellige Zahlen von 20 bis 49 aus Zehnern und Einern aufbauen.",
-        "Einen Zehner wieder entbündeln und eine Zahl auf eine andere Weise darstellen.",
-        "Den dargestellten Stand ablesen und als „… Zehner und … Einer“ benennen — und glatte Zehnerzahlen wie 40 legen.",
-        "Genau prüfen, ob ein Bündel wirklich zehn Einer enthält (den „Schwindler“ mit neun Einern erkennen)."
+        "Zehn Einer zu einem Zehner bündeln",
+        "Zweistellige Zahlen mit möglichst vielen Zehnern legen",
+        "Einen Zehner in zehn Einer aufmachen, ohne dass sich die Zahl ändert",
+        "Eine Zahl aus Zehnern und Einern lesen, auch einen Zehner mit mehr als zehn Einern"
       ],
       "howToPlay": [
-        "Lege Bolt lose Einer aufs Förderband und zähle mit, bis zehn beisammen sind.",
-        "Zieh am Hebel — Bolt bündelt die zehn Einer zu einer Zehnerstange. Wiederhole das, bis die gesuchte Zahl an Zehnern stimmt, und lass die übrigen Einer einzeln liegen.",
-        "Lies zum Schluss vor: „… Zehner und … Einer“ — und tippe auf „Prüfen“. Bei „Entbündeln“-Aufgaben löst du stattdessen einen Zehner wieder in zehn Einer auf."
+        "Lies die Aufgabe und die Zahlenkarte.",
+        "Tipp auf den Trichter, damit Würfel auf die Platte fallen. Mit der Minus-Taste nimmst du einen zurück.",
+        "Zieh am Hebel, wenn du glaubst, dass genau zehn einzelne Würfel daliegen. Um einen Zehner in zehn einzelne Würfel aufzuschneiden, tippst du auf die Schere.",
+        "Fragt die Aufgabe nach einer Zahl, tippst du sie auf dem Tastenfeld ein – oder du tippst auf Zehner oder Einer und dann auf die Ziffer. Drück danach auf Prüfen.",
+        "In den Einstellungen wählst du die Zahlen (bis 49 oder bis 99) und was das Band tut, wenn es nicht zugeht (leere Fächer zeigen oder einfach aufspringen)."
       ],
       "learningGoals": [
-        "Verstehen, dass zehn Einer einen Zehner ergeben — und dass eine zweistellige Zahl aus Zehnern und Einern aufgebaut ist (Stellenwertverständnis).",
-        "Zahlen bis 100 sicher bündeln und entbündeln und beide Richtungen als zusammengehörig erleben.",
-        "Eine dargestellte Zahl korrekt ablesen und benennen und Bündel auf genau zehn Einer überprüfen."
+        "Verstehen, dass zehn Einer einen Zehner ergeben",
+        "Eine zweistellige Zahl mit Zehnern und Einern darstellen",
+        "Erkennen, dass man einen Zehner in zehn Einer aufmachen kann und die Zahl gleich bleibt",
+        "Die Zehnerzahlen als Zehner ohne Einer erkennen"
       ]
     },
     "line-plot.read.2-md-d-9": {

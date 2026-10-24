@@ -1760,25 +1760,28 @@
     },
     "bos-berry-pantry.slingshot-tens.1-nbt-b-2": {
       "about": [
-        "Diep in de winter vult Bo het konijn zijn voorraadkast met bessen. Een krat is bij Bo altijd een tiental: tien bessen, dicht en niet na te tellen. De losse bessen ernaast zijn de eenheden. Bo laat je een hoeveelheid, een getalwoord of een getal zien, en jij schiet de bessen naar het schap met precies de juiste kratten en losse bessen.",
-        "Zo ontdek je wat plaatswaarde is: een tweecijferig getal bestaat uit zoveel tientallen en zoveel eenheden. 25 is 2 kratten en 5 losse bessen, en je maakt altijd zoveel mogelijk kratten – nooit een open bundel van tien of meer losse bessen. Ook de nul krijgt betekenis: 40 is 4 kratten en 0 los. Deze oefening sluit aan bij de SLO-kerndoelen voor rekenen in groep 4.",
-        "Er is geen klok, geen score en geen stress. Je werkt op je eigen tempo, je mag zo vaak proberen als je wilt."
+        "Konijn Bo vult zijn voorraadkast. Op de plank staan links dichte kratten (in elk krat zitten precies tien bessen) en rechts liggen losse bessen in een schaal met negen kuiltjes. Daarboven hangt het deurbordje. In sommige rondes schiet het kind kratten en bessen op de plank tot het getal op het bordje er staat; in andere is de plank al gevuld en schrijft het kind het getal met twee wieltjes, hangt het een tientallenbordje en een eenhedenbordje op, of zoekt het uit hoeveel het er zijn als er bessen uit de schaal zijn gerold.",
+        "Bij het controleren rekt het deurbordje zich uit: 34 wordt 30 en 4, achter het tientalcijfer rolt een verstopte 0 tevoorschijn, en elk deel hangt boven de kratten of de schaal die het telt. De kratten worden geteld met sprongen van tien, de losse bessen één voor één, en een deel dat niet klopt wordt koraalrood. Bij 4 kratten en 3 bessen voor 34 staat dus 40 onder de 30. Tien losse bessen vullen een krat: klopt het getal maar zijn er bessen uitgerold, dan doet Bo er tien in een krat.",
+        "Het bestelkaartje kan cijfers of getallen in woorden laten zien, en de getallen gaan tot 50 of tot 99. Na de tweede foute poging gaan de kratten open en laten ze hun tien bessen zien, en krijgen de losse bessen een nummer. Passend bij de kerndoelen voor getallen. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Tweecijferige getallen lezen als tientallen en eenheden",
-        "Getallen splitsen in tientallen en eenheden (plaatswaarde)",
-        "Zoveel mogelijk tientallen maken, zonder open bundel (unitizeren)",
-        "De functie van de nul begrijpen (40 = 4 tientallen, 0 eenheden)"
+        "Een getal van twee cijfers lezen als tientallen en eenheden",
+        "Een getal maken met tientallen en eenheden, en het getal opschrijven dat ze vormen",
+        "Een getal gesplitst opschrijven, bijvoorbeeld 34 = 30 + 4",
+        "Zien dat tien eenheden een tiental zijn, dat 13 een tiental en drie eenheden is en dat 70 zeven tientallen en geen eenheden is"
       ],
       "howToPlay": [
-        "Bekijk wat Bo laat zien: een hoeveelheid, een getalwoord of een getal.",
-        "Bedenk hoeveel kratten (tientallen) en hoeveel losse bessen (eenheden) je nodig hebt.",
-        "Schiet de bessen naar het schap met de juiste kratten en losse bessen."
+        "Lees de opdracht en het deurbordje.",
+        "Om de plank te vullen, tik je op de kratten of de mand om de katapult te laden, trek je hem terug en laat je los (of tik je nog eens op dezelfde stapel). Tik op het laatste krat of de laatste bes op de plank om die terug te nemen.",
+        "Om een getal te schrijven, draai je de twee wieltjes met de pijltjes: links de tientallen, rechts de eenheden. Om bordjes op te hangen, tik je eerst een bordje en dan een haakje aan.",
+        "Druk op Controleer en kijk hoe het bordje zich uitrekt boven de kratten en de schaal. Wordt een telling koraalrood, verander dan dat deel en controleer opnieuw.",
+        "In de instellingen kies je het bestelkaartje (cijfers of woorden) en de getallen (tot 50 of tot 99)."
       ],
       "learningGoals": [
-        "Ik kan een tweecijferig getal lezen als tientallen en eenheden.",
-        "Ik maak zoveel mogelijk kratten en houd de losse bessen apart.",
-        "Ik snap wat de nul betekent, zoals bij 40 (4 kratten, 0 los)."
+        "Begrijpen dat de twee cijfers van een getal van twee cijfers staan voor tientallen en eenheden",
+        "Een getal maken met tientallen en eenheden en het getal opschrijven dat ze laten zien",
+        "Getallen van twee cijfers gesplitst opschrijven",
+        "Een tiental herkennen als tien eenheden, de getallen 11 tot en met 19 als een tiental en een paar eenheden, en de tientallen als tientallen zonder eenheden"
       ]
     },
     "gus-snack-cart.within-100.2-nbt-b-5": {

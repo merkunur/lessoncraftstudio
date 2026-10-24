@@ -3499,6 +3499,32 @@
         "Att räkna i hopp framåt och bakåt för att addera och subtrahera",
         "Att känna igen och fortsätta ett talmönster med lika stora steg"
       ]
+    },
+    "bos-berry-pantry.slingshot-tens.1-nbt-b-2": {
+      "about": [
+        "Kaninen Bo fyller sitt skafferi. På hyllan står stängda lådor till vänster (i varje låda finns exakt tio bär) och till höger ligger lösa bär i en skål med nio gropar. Ovanför hänger dörrskylten. I vissa omgångar skjuter barnet lådor och bär upp på hyllan så att det blir talet på skylten; i andra är hyllan redan fylld, och barnet skriver talet med två hjul, hänger upp en tiotalsskylt och en entalsskylt eller räknar ut hur många det är när bär har trillat ut ur skålen.",
+        "Vid kontrollen sträcks dörrskylten ut: 34 blir 30 och 4, en gömd nolla rullar fram bakom tiotalssiffran, och varje del hamnar ovanför lådorna eller skålen som den räknar. Lådorna räknas tio i taget och de lösa bären ett i taget, och en del som inte stämmer blir korallröd. 4 lådor och 3 bär för 34 visar alltså 40 under 30. Tio lösa bär blir en låda: om summan stämmer men bär har trillat ut, packar Bo tio av dem i en låda.",
+        "Beställningslappen kan visa siffror eller räkneord, och talen går upp till 50 eller 99. Efter andra felförsöket öppnas lådorna och visar sina tio bär, och de lösa bären numreras. I linje med Lgr22, centralt innehåll om taluppfattning och tals användning. Utan tidtagning och utan poäng."
+      ],
+      "practices": [
+        "Att läsa ett tvåsiffrigt tal som tiotal och ental",
+        "Att bygga ett tal av tiotal och ental och skriva talet de bildar",
+        "Att skriva ett tal i utvecklad form, till exempel 34 = 30 + 4",
+        "Att se att tio ental blir ett tiotal, att 13 är ett tiotal och tre ental och att 70 är sju tiotal och inga ental"
+      ],
+      "howToPlay": [
+        "Läs uppgiften och dörrskylten.",
+        "För att fylla hyllan trycker du på lådorna eller korgen så att slangbellan laddas, drar den bakåt och släpper (eller trycker på samma hög igen). Tryck på den sista lådan eller det sista bäret på hyllan för att ta tillbaka det.",
+        "För att skriva ett tal vrider du de två hjulen med pilarna: tiotalen till vänster och entalen till höger. För att hänga upp skyltar trycker du på en skylt och sedan på en krok.",
+        "Tryck på Kontrollera och se hur skylten sträcks ut över lådorna och skålen. Blir en siffra korallröd ändrar du den delen och kontrollerar igen.",
+        "I inställningarna väljer du beställningslapp (siffror eller räkneord) och tal (upp till 50 eller 99)."
+      ],
+      "learningGoals": [
+        "Att förstå att de två siffrorna i ett tvåsiffrigt tal står för tiotal och ental",
+        "Att bygga ett tal av tiotal och ental och skriva talet de visar",
+        "Att skriva tvåsiffriga tal i utvecklad form",
+        "Att känna igen ett tiotal som tio ental, talen 11–19 som ett tiotal och några ental och jämna tiotal som tiotal utan ental"
+      ]
     }
   }
 }

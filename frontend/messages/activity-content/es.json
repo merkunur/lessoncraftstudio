@@ -1341,25 +1341,28 @@
     },
     "bos-berry-pantry.slingshot-tens.1-nbt-b-2": {
       "about": [
-        "«Diez moras caben justas en cada caja sellada de la despensa de Bo, y esa caja ya no se abre: vale una decena entera sin contarla una por una.» Bo el conejo prepara su despensa para el invierno acomodando moras en el estante. Cada caja cerrada guarda exactamente diez moras —una decena— y las moras que quedan afuera, sueltas, son las unidades. El niño LEE lo que Bo le muestra —un montón de moras, una palabra como «veinticinco» o un número escrito— y lanza las moras al estante correcto: las cajas que hacen falta y las moras sueltas que sobran.",
-        "La idea matemática es el valor posicional: un número de dos cifras se arma con tantas decenas y tantas unidades, usando siempre las MÁS decenas posibles. Veinticinco son 2 cajas y 5 moras sueltas —nunca 1 caja y 15 sueltas, porque esas quince todavía forman otra decena—. Así el niño aprende a leer un número como una cantidad agrupada de diez en diez, no como una fila suelta de cifras.",
-        "Sin cronómetro, sin puntaje y sin competencia: nadie corre contra nadie y no hay forma de «perder». Está pensada con calma y cariño para acompañar el ritmo de cada niño, y se alinea al programa de primaria mexicano (Planes y programas de la Nueva Escuela Mexicana) dentro del eje de Sentido numérico."
+        "Bo, el conejo, está llenando su despensa. En el estante, a la izquierda hay cajas cerradas (en cada caja caben exactamente diez frutas) y a la derecha, frutas sueltas en un tazón con nueve huecos. Arriba cuelga el letrero de la puerta. En algunas rondas, el niño lanza cajas y frutas al estante hasta tener el número del letrero; en otras, el estante ya viene lleno y el niño escribe su número con dos ruedas, cuelga un letrero de las decenas y uno de las unidades, o averigua cuántas hay cuando algunas frutas se salieron del tazón.",
+        "Al comprobar, el letrero de la puerta se estira: 34 se convierte en 30 y 4, sale un 0 escondido detrás de la cifra de las decenas, y cada parte queda encima de las cajas o del tazón que cuenta. Las cajas se cuentan de diez en diez y las frutas sueltas de una en una, y la parte que no coincide se pone de color coral. Así, 4 cajas y 3 frutas para el 34 muestran 40 debajo del 30. Diez frutas sueltas llenan una caja: si el total es correcto pero se salieron frutas, Bo guarda diez en una caja.",
+        "La tarjeta del pedido puede mostrar el número con cifras o con letras, y los números llegan hasta 50 o hasta 99. Después del segundo intento fallido, las cajas se abren y muestran sus diez frutas, y las frutas sueltas se numeran. En línea con los programas de estudio de la SEP (campo formativo Saberes y pensamiento científico). Sin cronómetro y sin puntaje."
       ],
       "practices": [
-        "Leer las decenas y las unidades de un número de dos cifras y emparejarlo con su representación en el estante.",
-        "Representar un número como decenas y unidades usando las más decenas posibles, sin dejar ninguna caja a medio llenar.",
-        "Reconocer las decenas exactas —por ejemplo «cuarenta» son solo cajas, sin moras sueltas—.",
-        "Notar la trampa del valor posicional (85 no es 805) y comparar dos números para ver cuál tiene más."
+        "Leer un número de dos cifras como decenas y unidades",
+        "Formar un número con decenas y unidades, y escribir el número que forman",
+        "Escribir un número en forma desarrollada, por ejemplo 34 = 30 + 4",
+        "Ver que diez unidades forman una decena, que el 13 es una decena y tres unidades, y que el 70 son siete decenas y ninguna unidad"
       ],
       "howToPlay": [
-        "Lee lo que Bo te muestra: un montón de moras, una palabra de número o un número escrito.",
-        "Toca el estante que tenga las cajas y las moras sueltas que corresponden.",
-        "¡Lanza las moras al estante y listo!"
+        "Lee la tarea y el letrero de la puerta.",
+        "Para llenar el estante, toca las cajas o la canasta para cargar la resortera, luego jala hacia atrás y suelta (o vuelve a tocar el mismo montón). Toca la última caja o fruta del estante para quitarla.",
+        "Para escribir un número, gira las dos ruedas con las flechas: las decenas a la izquierda y las unidades a la derecha. Para colgar letreros, toca un letrero y luego un gancho.",
+        "Presiona Comprobar y mira cómo el letrero se estira sobre las cajas y el tazón. Si una cuenta se pone de color coral, cambia esa parte y vuelve a comprobar.",
+        "En la configuración eliges la tarjeta del pedido (con cifras o con letras) y los números (hasta 50 o hasta 99)."
       ],
       "learningGoals": [
-        "Construir una comprensión firme del valor posicional dentro del 100.",
-        "Descomponer y leer un número de dos cifras como decenas y unidades.",
-        "Sentar la base para calcular dentro del 100."
+        "Entender que las dos cifras de un número de dos cifras representan decenas y unidades",
+        "Formar un número con decenas y unidades y escribir el número que forman",
+        "Escribir números de dos cifras en forma desarrollada",
+        "Reconocer una decena como diez unidades, los números del 11 al 19 como una decena y algunas unidades, y las decenas completas como decenas sin unidades"
       ]
     },
     "gus-snack-cart.within-100.2-nbt-b-5": {

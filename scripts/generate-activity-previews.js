@@ -243,6 +243,10 @@ function seedScript(row) {
     // 8 + 6: Lily on 8 pulled back two beads, the aim ring on the golden Ten Stone, the stones past ten still under water — the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.facts='both';t.api.settings.labels='five';t._pool=null;t._ensurePool();t._start(0);t._coil=2;t._view={};t._render2();})()`;
   }
+  if (row.tool === 'door-tag-activity') {
+    // 34 built as 4 crates and 3 berries: the door tag stretched into 30 and 4 over the shelf, the crate count 40 coral under the 30 — the stretching tag at work
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.numbers='99';t.api.settings.card='num';t._pool=null;t._ensurePool();t._start(0,0);var C=window.DoorTagCore,s=t.st;for(var i=0;i<4;i++)C.fling(s,'crate');for(var j=0;j<3;j++)C.fling(s,'berry');t._check();})()`;
+  }
   if (row.tool === 'counting-lamp-activity') {
     // 40-50: 43 bolted right, 47 one tie too far: the engine counted on from the station, the lamp's numbers on the empty ties, and it stopped at the plate with its true number 48 — the counting lamp at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.track='spots';t.api.settings.numbers='120';t._pool=null;t._ensurePool();t._start(3,0);var C=window.CountingLampCore,s=t.st;C.place(s,43,3);C.place(s,47,8);t._check();})()`;

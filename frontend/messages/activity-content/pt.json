@@ -194,25 +194,28 @@
   "prose": {
     "bos-berry-pantry.slingshot-tens.1-nbt-b-2": {
       "about": [
-        "Bo é um coelho caprichoso que passa o outono enchendo a despensa para o inverno. Na estante dele, as amoras nunca ficam soltas de qualquer jeito: cada caixa guarda exatamente dez amoras, bem fechadinha, e do lado ficam as amoras avulsas que ainda não completaram uma caixa. É essa ideia simples e aconchegante — uma caixa é uma dezena, ela vale dez — que a criança descobre ajudando o Bo a organizar a despensa, prateleira por prateleira.",
-        "Por trás da brincadeira mora um dos aprendizados mais importantes do 2º ano: ler e representar números de dois algarismos como dezenas e unidades. A criança recebe um número (às vezes um monte de amoras, às vezes só o numeral, às vezes uma pergunta sobre o valor) e precisa escolher a prateleira certa — quantas caixas fechadas, ou seja, quantas dezenas, e quantas amoras soltas, as unidades. Trabalhando com valores até 85, ela vai percebendo, no próprio ritmo, que o algarismo da esquerda conta as caixas e o da direita conta as amoras soltas: é o valor posicional ganhando sentido concreto, com as mãos e com os olhos.",
-        "A atividade é interativa, sem cronômetro, sem pontos e sem competição, no seu ritmo. A proposta segue a BNCC na unidade temática Números do 2º ano, quando as crianças começam a compor e decompor quantidades em dezenas e unidades e a compreender o valor posicional de cada algarismo. Tudo acontece num clima calmo e acolhedor, sem pressa e sem cobrança: se algo não sai de primeira, o Bo espera com paciência e a criança tenta de novo, aprendendo com tranquilidade."
+        "O coelho Bo está enchendo a despensa. Na prateleira, à esquerda ficam caixotes fechados (cada caixote tem exatamente dez frutinhas) e, à direita, frutinhas soltas numa tigela com nove buracos. Em cima fica pendurada a plaquinha da porta. Em algumas rodadas, a criança lança caixotes e frutinhas na prateleira até dar o número da plaquinha; em outras, a prateleira já vem cheia e a criança escreve o número com duas rodinhas, pendura uma plaquinha das dezenas e uma das unidades ou descobre quantas há quando algumas frutinhas caíram para fora da tigela.",
+        "Ao verificar, a plaquinha da porta se estica: 34 vira 30 e 4, um 0 escondido aparece atrás do algarismo das dezenas, e cada parte fica em cima dos caixotes ou da tigela que conta. Os caixotes são contados de dez em dez e as frutinhas soltas de uma em uma, e a parte que não confere fica cor de coral. Assim, 4 caixotes e 3 frutinhas para o 34 mostram 40 embaixo do 30. Dez frutinhas soltas enchem um caixote: se o total está certo, mas caíram frutinhas, o Bo guarda dez num caixote.",
+        "O cartão do pedido pode mostrar o número com algarismos ou por extenso, e os números vão até 50 ou até 99. Depois da segunda tentativa errada, os caixotes se abrem e mostram as suas dez frutinhas, e as frutinhas soltas são numeradas. De acordo com a BNCC, na unidade temática Números. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Enxergar cada caixa fechada como uma dezena — um grupo de dez amoras que vale dez.",
-        "Ler números de dois algarismos e dizer quantas dezenas e quantas unidades eles têm.",
-        "Compor e decompor quantidades até 85 juntando caixas (dezenas) e amoras soltas (unidades).",
-        "Reconhecer o valor posicional: o algarismo da esquerda conta as caixas, o da direita conta as amoras soltas."
+        "Ler um número de dois algarismos como dezenas e unidades",
+        "Montar um número com dezenas e unidades e escrever o número que elas formam",
+        "Escrever um número na forma decomposta, por exemplo 34 = 30 + 4",
+        "Ver que dez unidades formam uma dezena, que 13 é uma dezena e três unidades e que 70 são sete dezenas e nenhuma unidade"
       ],
       "howToPlay": [
-        "Leia o número que aparece na despensa do Bo — pode ser um monte de amoras, um numeral ou uma pergunta sobre o valor.",
-        "Escolha a prateleira com o número certo de caixas (as dezenas) e de amoras soltas (as unidades).",
-        "Lance as amoras para a prateleira escolhida e veja o Bo guardar tudo no lugar certinho."
+        "Leia a tarefa e a plaquinha da porta.",
+        "Para encher a prateleira, toque nos caixotes ou na cesta para carregar o estilingue, puxe para trás e solte (ou toque de novo no mesmo monte). Toque no último caixote ou na última frutinha da prateleira para tirar.",
+        "Para escrever um número, gire as duas rodinhas com as setas: as dezenas à esquerda e as unidades à direita. Para pendurar plaquinhas, toque numa plaquinha e depois num gancho.",
+        "Aperte Verificar e veja a plaquinha se esticar sobre os caixotes e a tigela. Se uma contagem ficar cor de coral, mude essa parte e verifique de novo.",
+        "Nas configurações, escolha o cartão do pedido (com algarismos ou por extenso) e os números (até 50 ou até 99)."
       ],
       "learningGoals": [
-        "Compreender que uma caixa é uma dezena e vale dez amoras.",
-        "Ler e representar números de dois algarismos como dezenas e unidades, com valores até 85.",
-        "Fortalecer a noção de valor posicional de forma concreta e tranquila, no ritmo da criança."
+        "Entender que os dois algarismos de um número de dois algarismos representam dezenas e unidades",
+        "Formar um número com dezenas e unidades e escrever o número que elas mostram",
+        "Escrever números de dois algarismos na forma decomposta",
+        "Reconhecer uma dezena como dez unidades, os números de 11 a 19 como uma dezena e algumas unidades, e as dezenas exatas como dezenas sem unidades"
       ]
     },
     "gus-snack-cart.within-100.2-nbt-b-5": {

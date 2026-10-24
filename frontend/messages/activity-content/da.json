@@ -2720,6 +2720,32 @@
         "At tælle i hop frem og tilbage for at lægge til og trække fra",
         "At genkende og fortsætte et talmønster med lige store spring"
       ]
+    },
+    "bos-berry-pantry.slingshot-tens.1-nbt-b-2": {
+      "about": [
+        "Kaninen Bo fylder sit spisekammer. På hylden står lukkede kasser til venstre (i hver kasse er der præcis ti bær), og til højre ligger løse bær i en skål med ni fordybninger. Over dem hænger dørskiltet. I nogle runder skyder barnet kasser og bær op på hylden, så det bliver tallet på skiltet; i andre er hylden allerede fyldt, og barnet skriver tallet med to hjul, hænger et tierskilt og et enerskilt op eller finder ud af, hvor mange der er, når bær er trillet ud af skålen.",
+        "Når man tjekker, strækker dørskiltet sig ud: 34 bliver til 30 og 4, et skjult 0 ruller frem bag tiercifferet, og hver del hænger over de kasser eller den skål, den tæller. Kasserne tælles i tiere og de løse bær ét ad gangen, og en del, der ikke passer, bliver koralrød. 4 kasser og 3 bær til 34 viser altså 40 under 30. Ti løse bær bliver til en kasse: Er tallet rigtigt, men er der trillet bær ud, pakker Bo ti af dem i en kasse.",
+        "Bestillingskortet kan vise tal med cifre eller talord, og tallene går op til 50 eller 99. Efter andet forkerte forsøg åbner kasserne sig og viser deres ti bær, og de løse bær får numre. I tråd med Fælles Mål for tal og algebra. Uden tidtagning og uden point."
+      ],
+      "practices": [
+        "At læse et tocifret tal som tiere og enere",
+        "At bygge et tal af tiere og enere og skrive det tal, de danner",
+        "At skrive et tal i udfoldet form, for eksempel 34 = 30 + 4",
+        "At se, at ti enere er en tier, at 13 er en tier og tre enere, og at 70 er syv tiere og ingen enere"
+      ],
+      "howToPlay": [
+        "Læs opgaven og dørskiltet.",
+        "For at fylde hylden trykker du på kasserne eller kurven, så slangebøssen bliver ladt, trækker den tilbage og slipper (eller trykker på den samme bunke igen). Tryk på den sidste kasse eller det sidste bær på hylden for at tage det tilbage.",
+        "For at skrive et tal drejer du de to hjul med pilene: tierne til venstre og enerne til højre. For at hænge skilte op trykker du på et skilt og så på en krog.",
+        "Tryk på Tjek, og se skiltet strække sig ud over kasserne og skålen. Bliver et tal koralrødt, så ændr den del, og tjek igen.",
+        "I indstillingerne vælger du bestillingskortet (cifre eller talord) og tallene (op til 50 eller op til 99)."
+      ],
+      "learningGoals": [
+        "At forstå, at de to cifre i et tocifret tal står for tiere og enere",
+        "At bygge et tal af tiere og enere og skrive det tal, de viser",
+        "At skrive tocifrede tal i udfoldet form",
+        "At genkende en tier som ti enere, tallene 11–19 som en tier og nogle enere og hele tiere som tiere uden enere"
+      ]
     }
   }
 }

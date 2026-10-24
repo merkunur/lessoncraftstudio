@@ -289,25 +289,28 @@
     },
     "bos-berry-pantry.slingshot-tens.1-nbt-b-2": {
       "about": [
-        "Nella dispensa del coniglio Bo le more non stanno mai in disordine: dieci more entrano in una cassetta, e ciò che resta rimane sfuso sul ripiano. Il bambino aiuta Bo a sistemare la raccolta leggendo un numero a due cifre e riempiendo gli scaffali giusti — una cassetta dopo l’altra per le decine, una mora dopo l’altra per le unità. Ogni numero diventa così una piccola storia da comporre con le mani, e la dispensa si riempie a poco a poco mentre Bo osserva soddisfatto.",
-        "Dietro il gioco c’è tutto il valore posizionale: una cassetta vale una decina, le more sfuse sono le unità, e comporre un numero significa capire quante cassette e quante more servono. Il bambino impara a leggere e a comporre i numeri a due cifre, a distinguere il posto delle decine da quello delle unità e a scoprire la funzione dello zero — perché 40 o 70 sono fatti di sole cassette, senza nessuna mora sfusa. Raggruppare per dieci diventa un gesto concreto e pieno di senso, la base di tutto il calcolo che verrà.",
-        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali. È interattiva, funziona direttamente nel browser e non richiede alcuna registrazione. Non ci sono timer, punteggi né classifiche: solo il tempo tranquillo di provare, sbagliare e riprovare, così che ogni bambino possa costruire il valore posizionale con calma e senza pressioni."
+        "Il coniglio Bo sta riempiendo la dispensa. Sullo scaffale, a sinistra ci sono cassette chiuse (in ogni cassetta ci sono esattamente dieci frutti di bosco) e a destra frutti sfusi in una ciotola con nove incavi. Sopra è appesa la targhetta della porta. In alcuni turni il bambino lancia cassette e frutti sullo scaffale fino a fare il numero della targhetta; in altri lo scaffale è già pieno e il bambino scrive il suo numero con due rotelle, appende una targhetta delle decine e una delle unità, oppure scopre quanti sono quando alcuni frutti sono caduti fuori dalla ciotola.",
+        "Al controllo la targhetta della porta si allunga: 34 diventa 30 e 4, uno 0 nascosto spunta dietro la cifra delle decine, e ogni parte si mette sopra le cassette o la ciotola che conta. Le cassette si contano di dieci in dieci, i frutti sfusi uno alla volta, e la parte che non torna diventa color corallo. Così 4 cassette e 3 frutti per il 34 mostrano 40 sotto il 30. Dieci frutti sfusi fanno una cassetta: se il totale è giusto ma alcuni frutti sono caduti, Bo ne mette dieci in una cassetta.",
+        "Il biglietto dell’ordine può mostrare il numero in cifre o in lettere, e i numeri arrivano fino a 50 o fino a 99. Dopo il secondo tentativo sbagliato le cassette si aprono e mostrano i loro dieci frutti, e i frutti sfusi vengono numerati. In linea con le Indicazioni nazionali per i numeri. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Leggere e comporre numeri a due cifre",
-        "Raggruppare per dieci in modo concreto",
-        "Distinguere le decine dalle unità",
-        "Capire la funzione dello zero"
+        "Leggere un numero di due cifre come decine e unità",
+        "Comporre un numero con decine e unità, e scrivere il numero che formano",
+        "Scrivere un numero in forma scomposta, per esempio 34 = 30 + 4",
+        "Vedere che dieci unità fanno una decina, che 13 è una decina e tre unità e che 70 sono sette decine e nessuna unità"
       ],
       "howToPlay": [
-        "Leggi il numero e guarda le more di Bo",
-        "Forma le decine con le cassette e le unità con le more sfuse",
-        "Lancia le more sullo scaffale giusto"
+        "Leggi la consegna e la targhetta della porta.",
+        "Per riempire lo scaffale, tocca le cassette o il cesto per caricare la fionda, poi tirala indietro e lascia andare (oppure tocca di nuovo lo stesso mucchio). Tocca l’ultima cassetta o l’ultimo frutto sullo scaffale per riprenderlo.",
+        "Per scrivere un numero, gira le due rotelle con le frecce: a sinistra le decine, a destra le unità. Per appendere le targhette, tocca una targhetta e poi un gancio.",
+        "Premi Controlla e guarda la targhetta allungarsi sopra le cassette e la ciotola. Se un conteggio diventa color corallo, cambia quella parte e controlla di nuovo.",
+        "Nelle impostazioni scegli il biglietto dell’ordine (in cifre o in lettere) e i numeri (fino a 50 o fino a 99)."
       ],
       "learningGoals": [
-        "Comprendere il valore posizionale delle cifre",
-        "Comporre numeri a due cifre con decine e unità",
-        "Riconoscere il ruolo dello zero nei numeri come 40 e 70"
+        "Capire che le due cifre di un numero di due cifre indicano decine e unità",
+        "Comporre un numero con decine e unità e scrivere il numero che mostrano",
+        "Scrivere i numeri di due cifre in forma scomposta",
+        "Riconoscere una decina come dieci unità, i numeri da 11 a 19 come una decina e alcune unità, e le decine intere come decine senza unità"
       ]
     },
     "gus-snack-cart.within-100.2-nbt-b-5": {

@@ -2726,6 +2726,32 @@
         "Å telle i hopp fram og tilbake for å legge sammen og trekke fra",
         "Å kjenne igjen og fortsette et tallmønster med like store steg"
       ]
+    },
+    "bos-berry-pantry.slingshot-tens.1-nbt-b-2": {
+      "about": [
+        "Kaninen Bo fyller spiskammeret sitt. På hylla står lukkede kasser til venstre (i hver kasse er det nøyaktig ti bær), og til høyre ligger løse bær i en bolle med ni groper. Over dem henger dørskiltet. I noen runder skyter barnet kasser og bær opp på hylla så det blir tallet på skiltet; i andre er hylla allerede fylt, og barnet skriver tallet med to hjul, henger opp et tierskilt og et enerskilt eller finner ut hvor mange det er når bær har trillet ut av bollen.",
+        "Når man sjekker, strekker dørskiltet seg ut: 34 blir til 30 og 4, en skjult null ruller fram bak tiersifferet, og hver del henger over kassene eller bollen den teller. Kassene telles ti om gangen og de løse bærene ett om gangen, og en del som ikke stemmer, blir korallrød. 4 kasser og 3 bær for 34 viser altså 40 under 30. Ti løse bær blir en kasse: Stemmer tallet, men det har trillet ut bær, pakker Bo ti av dem i en kasse.",
+        "Bestillingslappen kan vise tall med sifre eller tallord, og tallene går opp til 50 eller 99. Etter andre feilforsøk åpner kassene seg og viser de ti bærene sine, og de løse bærene får nummer. I tråd med LK20 om tall og regning. Uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Å lese et tosifret tall som tiere og enere",
+        "Å bygge et tall av tiere og enere og skrive tallet de danner",
+        "Å skrive et tall i utvidet form, for eksempel 34 = 30 + 4",
+        "Å se at ti enere er en tier, at 13 er en tier og tre enere, og at 70 er sju tiere og ingen enere"
+      ],
+      "howToPlay": [
+        "Les oppgaven og dørskiltet.",
+        "For å fylle hylla trykker du på kassene eller kurven så spretterten lades, drar den bakover og slipper (eller trykker på den samme haugen igjen). Trykk på den siste kassen eller det siste bæret på hylla for å ta det tilbake.",
+        "For å skrive et tall vrir du de to hjulene med pilene: tierne til venstre og enerne til høyre. For å henge opp skilt trykker du på et skilt og så på en krok.",
+        "Trykk på Sjekk, og se skiltet strekke seg ut over kassene og bollen. Blir et tall korallrødt, endrer du den delen og sjekker igjen.",
+        "I innstillingene velger du bestillingslappen (sifre eller tallord) og tallene (til 50 eller til 99)."
+      ],
+      "learningGoals": [
+        "Å forstå at de to sifrene i et tosifret tall står for tiere og enere",
+        "Å bygge et tall av tiere og enere og skrive tallet de viser",
+        "Å skrive tosifrede tall i utvidet form",
+        "Å kjenne igjen en tier som ti enere, tallene 11–19 som en tier og noen enere og hele tiere som tiere uten enere"
+      ]
     }
   }
 }

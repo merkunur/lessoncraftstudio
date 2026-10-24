@@ -100,7 +100,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 90 | LIVE 2026-10-24 · The Plank Path | 1 | 1.OA.D.8 | `match-pairs.find-the-missing-number.1-oa-d-8` | match-pairs-activity | Find the Missing Number |
 | 91 | LIVE 2026-10-24 · The Fair Ribbon | 1 | 1.OA.D.8 | `sharing-jar.make-fair.1-oa-d-8` | sharing-jar-activity | The Sharing Jar — Make It Fair (Find the Missing Number) |
 | 92 | LIVE 2026-10-24 · The Counting Lamp | 1 | 1.NBT.A.1 | `track-repair.count-to-120.1-nbt-a-1` | track-repair-activity | Whistle Valley — Number-Line Track Repair |
-| 93 |  | 1 | 1.NBT.B.2 | `bos-berry-pantry.slingshot-tens.1-nbt-b-2` | bos-berry-pantry-activity | Bo's Berry Pantry — Tens and Ones the Smart Way |
+| 93 | LIVE 2026-10-24 · The Stretching Door Tag | 1 | 1.NBT.B.2 | `bos-berry-pantry.slingshot-tens.1-nbt-b-2` | bos-berry-pantry-activity | Bo's Berry Pantry — Tens and Ones the Smart Way |
 | 94 |  | 1 | 1.NBT.B.2.a | `bundle-bot.bundle-machine.1-nbt-b-2-a` | bundle-bot-activity | Bundle Bot — Make a Ten from Ten Ones |
 | 95 | design input: `rebuild-inputs/95-ten-rod-drawers.md` | 1 | 1.NBT.B.3 | `choice-board.compare-two-digit.1-nbt-b-3` | choice-board-activity | Compare Two-Digit Numbers — Greater Than, Less Than, Equal |
 | 96 |  | 1 | 1.NBT.C.4 | `place-value-regroup.add-compose-ten.1-nbt-c-4` | place-value-regroup-activity | Tuck's Ten Bundles — Add with Regrouping (Grade 1) |

@@ -2101,25 +2101,28 @@
     },
     "bos-berry-pantry.slingshot-tens.1-nbt-b-2": {
       "about": [
-        "Bos Beerenkammer lässt Kinder mit dem Hasen Bo eine Winter-Vorratskammer füllen. Eine Kiste fasst immer genau zehn Beeren — sie ist verschlossen und muss nicht nachgezählt werden: Eine Kiste ist einfach ein Zehner. Lose Beeren sind die Einer. Bo zeigt mal einen Haufen Beeren, mal ein Zahlwort, mal eine Zahl — das Kind liest, was gemeint ist, und schleudert die Beeren auf das Regal, das die passenden Kisten und losen Beeren zeigt.",
-        "Dahinter steckt die große Idee des Stellenwerts: Eine zweistellige Zahl ist eine bestimmte Anzahl Zehner und eine bestimmte Anzahl Einer. 25 sind 2 Kisten und 5 lose Beeren — und zwar mit so vielen Kisten wie möglich, kein volles Bündel bleibt offen. So lernt das Kind, eine Zahl nicht als Ziffernreihe, sondern als gebündelte Menge zu lesen und darzustellen.",
-        "Die Übung läuft ohne Zeitdruck und ohne Punkte. Es gibt keine Uhr und keinen Wettkampf — nur Bo, die Kisten und genug Ruhe, um in Zehnern und Einern zu denken. Sie orientiert sich am Lehrplan der Grundschule, Bereich „Zahlen und Operationen“."
+        "Hase Bo füllt seine Vorratskammer. Auf dem Regal stehen links verschlossene Kisten (in jeder Kiste sind genau zehn Beeren), rechts liegen lose Beeren in einer Schale mit neun Mulden. Darüber hängt das Türschild. In manchen Runden schießt das Kind Kisten und Beeren auf das Regal, bis es so viele sind, wie auf dem Schild steht; in anderen ist das Regal schon gefüllt, und das Kind schreibt die Zahl an zwei Rädern, hängt ein Zehner- und ein Einerschild auf oder findet heraus, wie viele es sind, wenn Beeren aus der Schale gefallen sind.",
+        "Beim Prüfen dehnt sich das Türschild: Aus 34 werden 30 und 4, hinter der Zehnerziffer rollt eine versteckte 0 hervor, und jeder Teil hängt über den Kisten oder der Schale, die er zählt. Die Kisten werden in Zehnerschritten gezählt, die losen Beeren einzeln, und ein Teil, der nicht passt, färbt sich korallenrot. Bei 4 Kisten und 3 Beeren für 34 steht also unter der 30 die Kistenzahl 40. Zehn lose Beeren sind eine Kiste: Stimmt die Zahl, sind aber Beeren herausgefallen, packt Bo zehn davon in eine Kiste.",
+        "Die Bestellkarte zeigt Ziffern oder Zahlwörter, und die Zahlen gehen bis 50 oder bis 99. Nach dem zweiten Fehlversuch öffnen sich die Kisten und zeigen ihre zehn Beeren, und die losen Beeren werden nummeriert. Passend zum Lehrplan im Bereich Zahlen und Operationen. Ohne Zeitdruck und ohne Punktwertung."
       ],
       "practices": [
-        "Zehner und Einer einer zweistelligen Zahl lesen und der richtigen Darstellung zuordnen",
-        "Eine Zahl als Zehner und Einer darstellen — mit den meisten Zehnern, kein Bündel offen lassen",
-        "Glatte Zehnerzahlen erkennen (z. B. „vierzig“ — nur Kisten, keine losen Beeren)",
-        "Die Stellenwert-Falle erkennen (85 ist nicht 805) und zwei Zahlen miteinander vergleichen"
+        "Eine zweistellige Zahl als Zehner und Einer lesen",
+        "Eine Zahl aus Zehnern und Einern bauen und die Zahl zu Zehnern und Einern schreiben",
+        "Eine Zahl zerlegt schreiben, zum Beispiel 34 = 30 + 4",
+        "Erkennen, dass zehn Einer ein Zehner sind, dass 13 ein Zehner und drei Einer ist und 70 sieben Zehner und keine Einer"
       ],
       "howToPlay": [
-        "Lies, was Bo zeigt: einen Haufen Beeren, ein Zahlwort oder eine Zahl",
-        "Tippe das Regal an, das die passenden Kisten und losen Beeren zeigt",
-        "Schleudere die Beeren auf das Regal — fertig!"
+        "Lies die Aufgabe und das Türschild.",
+        "Zum Füllen tippst du auf die Kisten oder den Korb, damit die Schleuder geladen ist, ziehst die Schleuder zurück und lässt los (oder tippst noch einmal auf denselben Stapel). Tipp auf die letzte Kiste oder Beere auf dem Regal, um sie zurückzunehmen.",
+        "Um eine Zahl zu schreiben, drehst du die beiden Räder mit den Pfeilen: links die Zehner, rechts die Einer. Um Schilder aufzuhängen, tippst du erst ein Schild und dann einen Haken an.",
+        "Drück auf Prüfen und schau zu, wie sich das Schild über die Kisten und die Schale dehnt. Wird eine Zahl korallenrot, änderst du diesen Teil und prüfst noch einmal.",
+        "In den Einstellungen wählst du die Bestellkarte (Ziffern oder Zahlwörter) und die Zahlen (bis 50 oder bis 99)."
       ],
       "learningGoals": [
-        "Ein sicheres Stellenwertverständnis im Zahlenraum bis 100 aufbauen",
-        "Eine zweistellige Zahl in Zehner und Einer zerlegen und lesen",
-        "Die Grundlage fürs Rechnen bis 100 legen"
+        "Verstehen, dass die beiden Ziffern einer zweistelligen Zahl für Zehner und Einer stehen",
+        "Eine Zahl aus Zehnern und Einern legen und die passende Zahl schreiben",
+        "Zweistellige Zahlen zerlegt schreiben",
+        "Einen Zehner als zehn Einer erkennen, die Zahlen von 11 bis 19 als einen Zehner und einige Einer und die Zehnerzahlen als Zehner ohne Einer"
       ]
     },
     "vet-diagnosis.word-problems.1-oa-a-1": {

@@ -2720,6 +2720,32 @@
         "Hypyittäin eteen- ja taaksepäin laskeminen yhteen- ja vähennyslaskussa",
         "Yhtä suurin hypyin etenevän lukujonon tunnistaminen ja jatkaminen"
       ]
+    },
+    "bos-berry-pantry.slingshot-tens.1-nbt-b-2": {
+      "about": [
+        "Kani Bo täyttää ruokakomeroaan. Hyllyn vasemmalla puolella on suljettuja laatikoita (jokaisessa laatikossa on tasan kymmenen marjaa), ja oikealla puolella on irtomarjoja kulhossa, jossa on yhdeksän kuoppaa. Niiden yläpuolella roikkuu ovikyltti. Joillakin kierroksilla lapsi linkoaa laatikoita ja marjoja hyllylle niin, että niitä on kyltin luvun verran; toisilla hylly on jo täynnä, ja lapsi kirjoittaa sen luvun kahdella rullalla, ripustaa kymmenten kyltin ja ykkösten kyltin tai selvittää, montako marjaa on, kun osa on vierinyt pois kulhosta.",
+        "Tarkistettaessa ovikyltti venyy: 34 muuttuu muotoon 30 ja 4, kymmenten numeron takaa vierii esiin piilossa ollut 0, ja kumpikin osa asettuu laatikoiden tai kulhon yläpuolelle sen mukaan, mitä se laskee. Laatikot lasketaan kymmenen kerrallaan ja irtomarjat yksi kerrallaan, ja osa, joka ei täsmää, muuttuu korallinpunaiseksi. Kun luvuksi 34 on tehty 4 laatikkoa ja 3 marjaa, luvun 30 alla näkyy siis 40. Kymmenen irtomarjaa täyttää laatikon: jos yhteismäärä on oikein mutta marjoja on vierinyt pois, Bo pakkaa niistä kymmenen laatikkoon.",
+        "Tilauskortti voi näyttää luvun numeroina tai lukusanoina, ja luvut ulottuvat 50:een tai 99:ään. Toisen väärän yrityksen jälkeen laatikot aukeavat ja näyttävät kymmenen marjaansa, ja irtomarjat numeroidaan. Sopii opetussuunnitelman sisältöalueeseen Luvut ja laskutoimitukset. Ilman ajanottoa ja ilman pisteytystä."
+      ],
+      "practices": [
+        "Kaksinumeroisen luvun lukeminen kymmeninä ja ykkösinä",
+        "Luvun rakentaminen kymmenistä ja ykkösistä sekä niiden muodostaman luvun kirjoittaminen",
+        "Luvun kirjoittaminen hajotelmana, esimerkiksi 34 = 30 + 4",
+        "Sen huomaaminen, että kymmenen ykköstä on yksi kymppi, että 13 on yksi kymppi ja kolme ykköstä ja että 70 on seitsemän kymppiä eikä yhtään ykköstä"
+      ],
+      "howToPlay": [
+        "Lue tehtävä ja ovikyltti.",
+        "Kun haluat täyttää hyllyn, napauta laatikoita tai koria, niin ritsa latautuu, vedä ritsaa taakse ja päästä irti (tai napauta samaa kasaa uudelleen). Napauta hyllyn viimeistä laatikkoa tai marjaa, niin saat sen takaisin.",
+        "Kun haluat kirjoittaa luvun, pyöritä kahta rullaa nuolista: kymmenet vasemmalla ja ykköset oikealla. Kun haluat ripustaa kylttejä, napauta ensin kylttiä ja sitten koukkua.",
+        "Paina Tarkista ja katso, kuinka kyltti venyy laatikoiden ja kulhon yläpuolelle. Jos jokin luku muuttuu korallinpunaiseksi, muuta sitä osaa ja tarkista uudelleen.",
+        "Asetuksista valitset tilauskortin (numeroina tai lukusanoina) ja luvut (50 asti tai 99 asti)."
+      ],
+      "learningGoals": [
+        "Sen ymmärtäminen, että kaksinumeroisen luvun numerot tarkoittavat kymmeniä ja ykkösiä",
+        "Luvun rakentaminen kymmenistä ja ykkösistä ja niiden näyttämän luvun kirjoittaminen",
+        "Kaksinumeroisten lukujen kirjoittaminen hajotelmana",
+        "Kympin tunnistaminen kymmeneksi ykköseksi, lukujen 11–19 tunnistaminen yhdeksi kympiksi ja muutamaksi ykköseksi ja tasakymmenten tunnistaminen kympeiksi ilman ykkösiä"
+      ]
     }
   }
 }

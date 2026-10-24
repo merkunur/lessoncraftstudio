@@ -2612,6 +2612,33 @@
         "At bruge sammenhængen mellem plus og minus",
         "At kende talvennerne til 20"
       ]
+    },
+    "numbers-court.judge-balance.1-oa-d-7": {
+      "about": [
+        "Barnet er dommer i Talretten. Et vidne kommer med en påstand som 6 + 2 = 8 + 1, og barnet stempler = (sandt) eller ≠ (falsk) og slår så med hammeren. Midt i retssalen står selve lighedstegnet: en fast øverste bjælke med en bjælke under, der kan vippe. Hver side af påstanden ligger i en vægtskål.",
+        "Et rødt segl holder bjælken fast, indtil dommen er rigtig. En rigtig dom bryder seglet: Er begge sider lige meget, ligger de to bjælker parallelt og viser „=“; ellers løfter den lette ende sig, til den rører den øverste bjælke, og bjælkerne danner et „<“ eller „>“, der åbner sig mod den største side. En forkert dom flytter aldrig bjælken. I stedet viser skålene deres mængde som prikker, og efter den anden forkerte dom forbinder tråde prikkerne to og to.",
+        "En falsk påstand bliver derefter rettet: Én kasse bliver gylden, og barnet ændrer dens tal, til bjælken ligger lige. Med indstillingen „Få det til at passe“ begynder hver påstand med et manglende tal, fx 8 + 4 = □ + 5. I tråd med Fælles Mål for tal og algebra. Uden tidtagning og uden point."
+      ],
+      "practices": [
+        "At læse lighedstegnet som „begge sider er lige meget“, ikke som „nu kommer resultatet“",
+        "At afgøre, om et regnestykke med plus og minus er sandt eller falsk",
+        "At se, at 3 + 5 = 5 + 3 og 7 = 3 + 4 er sande, uanset hvilken vej de står",
+        "At finde det manglende tal, der gør begge sider lige store"
+      ],
+      "howToPlay": [
+        "Læs vidnets påstand, og tryk på stemplet =, hvis den er sand, eller på ≠, hvis den er falsk.",
+        "Tryk på „Slå med hammeren“. En rigtig dom bryder seglet, og bjælken viser, om de to sider er lige meget.",
+        "Står bjælken stille, så se på prikkerne under skålene, og døm igen.",
+        "Er påstanden falsk, ændrer du tallet i den gyldne kasse med − og +, til bjælken ligger lige. Efter en sand påstand kan du vende retten om og læse den den anden vej.",
+        "Ved „Få det til at passe“ er der intet stempel: Indstil det manglende tal med − og +, og slå så med hammeren.",
+        "I indstillingerne vælger du påstandene („Sandt eller falsk“ eller „Få det til at passe“) og tallene (op til 10 eller op til 20)."
+      ],
+      "learningGoals": [
+        "At forstå lighedstegnet som „lige meget på begge sider“",
+        "At afgøre, om et plus- eller minusstykke er sandt eller falsk",
+        "At gøre et falsk regnestykke sandt ved at ændre ét tal",
+        "At finde det manglende tal i et regnestykke som 8 + 4 = □ + 5"
+      ]
     }
   }
 }

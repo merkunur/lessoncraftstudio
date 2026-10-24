@@ -243,6 +243,10 @@ function seedScript(row) {
     // 8 + 6: Lily on 8 pulled back two beads, the aim ring on the golden Ten Stone, the stones past ten still under water — the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.facts='both';t.api.settings.labels='five';t._pool=null;t._ensurePool();t._start(0);t._coil=2;t._view={};t._render2();})()`;
   }
+  if (row.tool === 'sign-beam-activity') {
+    // 6 + 2 = 8 + 1 ruled ≠: the seal broken, the beam tipped — the two bars of the equal sign now a "<" opening toward the 9, the 9 pan sunk — the invention at work
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.claims='tf';t.api.settings.numbers='10';t._pool=null;t._ensurePool();t._start(8,8);var C=window.SignBeamCore,s=t.st;C.stamp(s,'ne');var res=C.gavel(s);t._view={release:{shape:res.shape}};t._render2();})()`;
+  }
   if (row.tool === 'rung-ladder-activity') {
     // 2 + 3 beside 9 − 4: two rails of 5 holes, five rungs laid, the squirrel on the gold cap rung with the acorn — the ladder IS the equals sign, the invention at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.pairs='same';t.api.settings.rails='after';t._pool=null;t._ensurePool();t._start(0);var C=window.RungLadderCore,s=t.st;C.select(s,'c0');C.select(s,'c2');var p=s.pending.slice(),res=C.go(s);t._view={show:{pair:p,res:res}};t._render2();})()`;

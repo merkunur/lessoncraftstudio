@@ -2970,25 +2970,29 @@
     },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
-        "Children are the Judge in Numbers Court: Judge Tess hears a witness make a math claim — like 6 = 6, 5 + 2 = 2 + 5, or 4 + 1 = 5 — and they rule it true or false on a balance beam, where the equal sign is a see-saw fulcrum meaning both sides hold the same amount. It's an interactive Grade 1 math game that plays right in the browser with no account.",
-        "Many first graders read the equal sign as 'the answer comes next,' so a claim like 5 + 2 = 2 + 5 can look wrong to them. Here the child rules fair or not fair, then proves the verdict — tapping the heavier pan when a claim is false, or filling both pans number by number when it is true — and on some caught-false rounds places the tile that makes the equation fair again.",
-        "It is aligned to Common Core 1.OA.D.7 — understanding the equal sign and telling whether addition and subtraction equations are true or false. No timer, no score — just calm, playful practice."
+        "The child is the Judge in Numbers Court. A witness makes a claim such as 6 + 2 = 8 + 1, and the child stamps it = (true) or ≠ (false), then bangs the gavel. In the middle of the courtroom stands the equal sign itself: a fixed top bar with a beam below it, and each side of the claim sits in a pan.",
+        "A red court seal holds the beam until the ruling is right. A right ruling cracks the seal: if both sides hold the same amount, the two bars lie flat and read “=”; if not, the light end rises until it touches the top bar, and the bars form a “<” or “>” that opens toward the bigger side. A wrong ruling never moves the beam. Instead the pans show their amounts as dots, and after a second wrong ruling, threads pair the dots one to one.",
+        "A false claim is then made true: one crate turns gold, and the child changes its number until the beam lies flat. In the “Make it balance” setting, every claim starts with a missing number, such as 8 + 4 = □ + 5. Aligned to Common Core 1.OA.D.7. No timer and no score."
       ],
       "practices": [
-        "Read the equal sign as 'the same amount on both sides,' not 'the answer is next'",
-        "Judge whether an addition or subtraction equation is true or false",
-        "Prove a verdict by balancing the two pans",
-        "Repair a false equation so both sides are equal"
+        "Reading the equal sign as “both sides hold the same amount”, not “the answer comes next”",
+        "Deciding whether an equation with addition and subtraction is true or false",
+        "Seeing that 3 + 5 = 5 + 3 and 7 = 3 + 4 are true, whichever way round they are written",
+        "Finding the missing number that makes both sides equal"
       ],
       "howToPlay": [
-        "Read the witness's math claim over the balance beam and tap It's fair! or Catch it!",
-        "Prove it — tap the heavier side, or fill both pans by tapping each number.",
-        "On some rounds, place the tile that makes it fair; try again gently, with no timer and no score."
+        "Read the witness’s claim, then tap the = stamp if it is true or the ≠ stamp if it is false.",
+        "Tap “Bang the gavel”. A right ruling breaks the seal, and the beam shows whether the two sides are equal.",
+        "If the beam stays still, look at the dots under the pans and rule again.",
+        "For a false claim, change the number in the gold crate with − and + until the beam lies flat. After a true claim, you can turn the court round to read it the other way.",
+        "In “Make it balance”, there is no stamp: set the missing number with − and +, then bang the gavel.",
+        "In the settings, choose the claims (“True or false” or “Make it balance”) and the numbers (to 10 or to 20)."
       ],
       "learningGoals": [
-        "Understand the equal sign as 'both sides are the same amount' — the focus of Common Core 1.OA.D.7",
+        "Understand the equal sign as “the same amount on both sides”",
         "Tell whether an addition or subtraction equation is true or false",
-        "Make a false equation true by balancing both sides"
+        "Make a false equation true by changing one number",
+        "Find the missing number in an equation such as 8 + 4 = □ + 5"
       ]
     },
     "olive-kind-of.category-attribute.l-1-5-b": {

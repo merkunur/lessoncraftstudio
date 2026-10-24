@@ -1878,25 +1878,29 @@
     },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
-        "Dans le tribunal des nombres de la juge Tess, une vieille tortue posée et bienveillante, on juge aujourd’hui des égalités. Un témoin s’avance et affirme quelque chose — par exemple « 5 + 3 = 8 », « 6 = 8 − 2 » ou encore « 3 + 2 = 2 + 3 ». Votre enfant est assis sur le siège du juge et doit rendre son verdict : cette égalité est-elle vraie ou fausse ?",
-        "Pour décider, votre enfant ne regarde pas simplement « ce qui vient après le signe = ». Il pose les deux côtés de l’égalité sur une balance : dans chaque plateau, il met autant de points que l’indique ce côté. Si les deux côtés sont pareils, la balance s’équilibre — l’égalité est vraie. Si la balance penche, l’égalité est fausse. Votre enfant montre alors le plateau le plus lourd, ou répare l’égalité fausse jusqu’à ce qu’il y ait la même chose des deux côtés.",
-        "Ainsi, votre enfant comprend le signe = correctement dès le début : il veut dire « la même chose des deux côtés » — et surtout pas « maintenant vient le résultat ». Ce sens du signe égal est un objectif important des « programmes officiels » (domaine « Nombres et calcul ») et prévient une erreur très répandue chez les élèves. L’activité fonctionne directement dans le navigateur, sans minuteur, sans points et sans compétition, et laisse votre enfant avancer à son rythme."
+        "L’enfant est juge au tribunal des nombres. Un témoin énonce une égalité, comme 6 + 2 = 8 + 1, et l’enfant tamponne = (vraie) ou ≠ (fausse), puis frappe avec le marteau. Au milieu de la salle se dresse le signe égal lui-même : une barre fixe en haut et, dessous, une barre qui peut pencher. Chaque côté de l’égalité est posé sur un plateau.",
+        "Un sceau rouge bloque la barre tant que la décision n’est pas juste. Une décision juste brise le sceau : si les deux côtés valent autant, les deux barres restent parallèles et forment « = » ; sinon, l’extrémité légère monte jusqu’à toucher la barre du haut, et les barres forment un « < » ou un « > » ouvert vers le côté le plus grand. Une décision fausse ne fait jamais bouger la barre. À la place, les plateaux montrent ce qu’ils valent avec des points, et après une deuxième décision fausse, des fils relient les points un à un.",
+        "Ensuite, l’égalité fausse est rendue vraie : une caisse devient dorée, et l’enfant change son nombre jusqu’à ce que la barre soit à plat. Avec le réglage « Équilibrer », chaque égalité commence par un nombre qui manque, comme 8 + 4 = □ + 5. En lien avec les programmes officiels pour le domaine Nombres et calculs. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Comprendre le signe égal comme une relation : « la même chose des deux côtés ».",
-        "Examiner des égalités et rendre un verdict : vrai ou faux.",
-        "Comparer avec la balance : quel côté est le plus lourd, ou les deux plateaux s’équilibrent-ils ?",
-        "Réparer une égalité fausse jusqu’à ce que la balance s’équilibre."
+        "Lire le signe égal comme « les deux côtés valent autant », et non comme « ensuite vient le résultat »",
+        "Décider si une égalité avec des additions et des soustractions est vraie ou fausse",
+        "Voir que 3 + 5 = 5 + 3 et 7 = 3 + 4 sont vraies, quel que soit le sens d’écriture",
+        "Trouver le nombre qui manque pour que les deux côtés valent autant"
       ],
       "howToPlay": [
-        "Lis l’affirmation du témoin, par exemple « 4 + 3 = 7 ».",
-        "Rends ton verdict : touche « Vrai » ou « Faux » — la balance te montre si les deux côtés sont pareils.",
-        "Explique-le : montre le plateau le plus lourd ou remplis les deux plateaux — et, si besoin, répare l’égalité jusqu’à ce que la balance s’équilibre."
+        "Lis l’égalité du témoin, puis touche le tampon = si elle est vraie ou le tampon ≠ si elle est fausse.",
+        "Touche « Frappe avec le marteau ». Une décision juste brise le sceau, et la barre montre si les deux côtés valent autant.",
+        "Si la barre ne bouge pas, regarde les points sous les plateaux et décide à nouveau.",
+        "Si l’égalité est fausse, change le nombre de la caisse dorée avec − et + jusqu’à ce que la barre soit à plat. Après une égalité vraie, tu peux retourner le tribunal pour la lire dans l’autre sens.",
+        "Avec « Équilibrer », il n’y a pas de tampon : règle le nombre qui manque avec − et +, puis frappe avec le marteau.",
+        "Dans les réglages, choisis les égalités (« Vraie ou fausse » ou « Équilibrer ») et les nombres (jusqu’à 10 ou jusqu’à 20)."
       ],
       "learningGoals": [
-        "Votre enfant comprend le signe égal comme un signe de « la même chose des deux côtés », et non comme un ordre de calculer.",
-        "Il examine des égalités de formes variées — même « 4 = 4 » ou « 3 + 2 = 2 + 3 » — et justifie si elles sont vraies.",
-        "Il se sert de la balance comme d’un modèle pour comparer l’égalité et l’inégalité, et pour corriger ses erreurs."
+        "Comprendre le signe égal comme « autant des deux côtés »",
+        "Dire si une égalité avec addition ou soustraction est vraie ou fausse",
+        "Rendre vraie une égalité fausse en changeant un nombre",
+        "Trouver le nombre qui manque dans une égalité comme 8 + 4 = □ + 5"
       ]
     },
     "ten-stones.add-sub-within-20.1-oa-c-6": {

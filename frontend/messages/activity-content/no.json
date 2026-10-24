@@ -2618,6 +2618,33 @@
         "Å bruke sammenhengen mellom addisjon og subtraksjon",
         "Å kunne tallvennene til 20"
       ]
+    },
+    "numbers-court.judge-balance.1-oa-d-7": {
+      "about": [
+        "Barnet er dommer i Talretten. Et vitne kommer med en påstand som 6 + 2 = 8 + 1, og barnet stempler = (sant) eller ≠ (usant) og slår så med klubba. Midt i rettssalen står selve likhetstegnet: en fast øverste bjelke med en bjelke under som kan vippe. Hver side av påstanden ligger i en vektskål.",
+        "Et rødt segl holder bjelken fast til dommen er riktig. En riktig dom bryter seglet: Er begge sidene like mye, ligger de to bjelkene parallelt og viser «=»; ellers løfter den lette enden seg til den treffer den øverste bjelken, og bjelkene danner en «<» eller «>» som åpner seg mot den største siden. En feil dom flytter aldri bjelken. I stedet viser skålene mengdene sine som prikker, og etter den andre feile dommen kobler tråder prikkene to og to.",
+        "En usann påstand blir deretter rettet: Én kasse blir gyllen, og barnet endrer tallet i den til bjelken ligger rett. Med innstillingen «Få det til å veie likt» begynner hver påstand med et tall som mangler, for eksempel 8 + 4 = □ + 5. I tråd med LK20 om tall og regning. Uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Å lese likhetstegnet som «begge sidene er like mye», ikke som «nå kommer svaret»",
+        "Å avgjøre om et regnestykke med pluss og minus er sant eller usant",
+        "Å se at 3 + 5 = 5 + 3 og 7 = 3 + 4 er sanne, uansett hvilken vei de står",
+        "Å finne tallet som mangler, slik at begge sidene blir like mye"
+      ],
+      "howToPlay": [
+        "Les vitnets påstand, og trykk på stempelet = hvis den er sann, eller på ≠ hvis den er usann.",
+        "Trykk på «Slå med klubba». En riktig dom bryter seglet, og bjelken viser om de to sidene er like mye.",
+        "Står bjelken stille, se på prikkene under skålene og døm på nytt.",
+        "Er påstanden usann, endrer du tallet i gullkassa med − og + til bjelken ligger rett. Etter en sann påstand kan du snu retten og lese den den andre veien.",
+        "Med «Få det til å veie likt» er det ingen stempel: Still inn tallet som mangler med − og +, og slå så med klubba.",
+        "I innstillingene velger du påstandene («Sant eller usant» eller «Få det til å veie likt») og tallene (til 10 eller til 20)."
+      ],
+      "learningGoals": [
+        "Å forstå likhetstegnet som «like mye på begge sider»",
+        "Å avgjøre om et pluss- eller minusstykke er sant eller usant",
+        "Å gjøre et usant regnestykke sant ved å endre ett tall",
+        "Å finne tallet som mangler i et regnestykke som 8 + 4 = □ + 5"
+      ]
     }
   }
 }

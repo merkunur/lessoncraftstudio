@@ -425,25 +425,29 @@
     },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
-        "A juíza Tess é uma tartaruga tranquila que comanda o tribunal dos números, e o seu instrumento de trabalho é uma grande balança. Diante dela desfilam afirmações matemáticas que precisam de um veredito: 3 + 7 = 7 + 3 é verdadeira, porque os dois lados têm a mesma quantidade e a balança fica em equilíbrio. Já 10 = 7 + 2 é falsa, porque um lado tem mais do que o outro e a balança pende.",
-        "No tribunal, a criança dá o veredito de cada sentença — verdadeira ou falsa — e depois mostra na balança qual lado pesa mais, provando a sua decisão. Quando a sentença é falsa, ela ainda pode consertá-la, colocando o número que falta para que os dois lados fiquem iguais e em equilíbrio. Aqui o sinal de igual não quer dizer \"o resultado que vem depois\": ele significa que os dois lados têm a mesma quantidade.",
-        "A atividade é interativa e sem pressão: não há cronômetro, não há pontos e não há competição — é um jogo calmo de raciocínio, no ritmo de cada criança. Ao brincar de julgar igualdades, ela dá os primeiros passos do pensamento algébrico e prepara o terreno para a matemática dos próximos anos. O foco está na unidade de Álgebra da BNCC, com a ideia de igualdade e o significado do sinal de igual, no nível do 3º ano do Ensino Fundamental."
+        "A criança é juiz no tribunal dos números. Uma testemunha diz uma sentença, como 6 + 2 = 8 + 1, e a criança carimba = (verdadeira) ou ≠ (falsa) e depois bate o martelo. No meio da sala está o próprio sinal de igual: uma barra fixa em cima e, embaixo, uma barra que pode inclinar. Cada lado da sentença fica em um prato.",
+        "Um lacre vermelho segura a barra até a decisão estar certa. Uma decisão certa quebra o lacre: se os dois lados valem o mesmo, as duas barras ficam paralelas e mostram “=”; se não, a ponta mais leve sobe até encostar na barra de cima, e as barras formam um “<” ou “>” que se abre para o lado maior. Uma decisão errada nunca move a barra. Em vez disso, os pratos mostram quanto valem com bolinhas, e depois de uma segunda decisão errada fios ligam as bolinhas uma a uma.",
+        "Depois, a sentença falsa vira verdadeira: uma caixa fica dourada, e a criança muda o número dela até a barra ficar plana. Na opção “Equilibrar”, cada sentença começa com um número que falta, como 8 + 4 = □ + 5. De acordo com a BNCC, na unidade temática Álgebra. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Julgar se uma sentença matemática é verdadeira ou falsa.",
-        "Entender o sinal de igual como equilíbrio: os dois lados têm a mesma quantidade.",
-        "Mostrar na balança qual lado pesa mais quando a sentença é falsa.",
-        "Equilibrar uma sentença falsa, colocando o número que falta para que os dois lados fiquem iguais."
+        "Ler o sinal de igual como “os dois lados valem o mesmo”, e não como “agora vem o resultado”",
+        "Decidir se uma sentença com adição e subtração é verdadeira ou falsa",
+        "Ver que 3 + 5 = 5 + 3 e 7 = 3 + 4 são verdadeiras, não importa como estejam escritas",
+        "Encontrar o número que falta para os dois lados valerem o mesmo"
       ],
       "howToPlay": [
-        "Leia a afirmação da testemunha com calma e observe a balança dos dois lados.",
-        "Dê o seu veredito — verdadeira ou falsa — e depois mostre na balança para provar a sua decisão.",
-        "Você pode tentar quantas vezes quiser, sem tempo e sem pontos: é só pensar com tranquilidade."
+        "Leia a sentença da testemunha e toque no carimbo = se ela for verdadeira ou no carimbo ≠ se for falsa.",
+        "Toque em “Bata o martelo”. Uma decisão certa quebra o lacre, e a barra mostra se os dois lados valem o mesmo.",
+        "Se a barra ficar parada, olhe as bolinhas embaixo dos pratos e decida de novo.",
+        "Se a sentença for falsa, mude o número da caixa dourada com − e + até a barra ficar plana. Depois de uma sentença verdadeira, você pode virar o tribunal e lê-la ao contrário.",
+        "Em “Equilibrar” não há carimbo: coloque o número que falta com − e + e depois bata o martelo.",
+        "Nas configurações, escolha as sentenças (“Verdadeira ou falsa” ou “Equilibrar”) e os números (até 10 ou até 20)."
       ],
       "learningGoals": [
-        "Compreender o sinal de igual de forma relacional — os dois lados iguais, em equilíbrio — e não como \"o resultado que vem depois\".",
-        "Julgar sentenças verdadeiras e falsas com segurança e explicar o porquê.",
-        "Dar os primeiros passos do pensamento algébrico com a ideia de igualdade, um objetivo do 3º ano."
+        "Entender o sinal de igual como “a mesma quantidade dos dois lados”",
+        "Dizer se uma sentença com adição ou subtração é verdadeira ou falsa",
+        "Tornar verdadeira uma sentença falsa mudando um número",
+        "Encontrar o número que falta em uma sentença como 8 + 4 = □ + 5"
       ]
     },
     "ten-stones.add-sub-within-20.1-oa-c-6": {

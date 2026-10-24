@@ -94,4 +94,4 @@ ORDER row 96 · id `place-value-regroup.add-compose-ten.1-nbt-c-4` (kept). Desig
 | hierarchy | 242 / 0 |
 | settings | 2 live |
 | preflight, prose-claims, SERP | PASS |
-| `live-verify-roll-mat.js` | production, en / de / sv / fi × 1366 / 390 |
+| `live-verify-roll-mat.js` | 75 / 0 on production, en / de / sv / fi × 1366 / 390 (2026-10-24, commit `6e4537ed`; the first run fell in the deploy window and the rerun was clean) |

@@ -3551,6 +3551,32 @@
         "Att skriva tvåsiffriga tal i utvecklad form",
         "Att känna igen ett tiotal som tio ental, talen 11–19 som ett tiotal och några ental och jämna tiotal som tiotal utan ental"
       ]
+    },
+    "clock-read.tell-time.1-md-b-3": {
+      "about": [
+        "Ugglans gökur har en fjädernyckel av mässing på sidan. Barnet vrider nyckeln moturs, och båda visarna går baklänges tillsammans, ett klick för varje fem minuter. Nyckeln stannar av sig själv när den långa visaren når 12, och i det ögonblicket står den korta visaren exakt på den timme klockan är i, och den siffran ringas in. Släpper barnet snurrar klockan fram till den riktiga tiden igen. Sedan svarar barnet: trycker på bilden av det Ugglan gör vid den tiden, skriver tiden med två hjul, hittar klockan som passar en digital tid eller drar ut nyckeln och vrider fram klockan till Ugglans nästa aktivitet.",
+        "Det klassiska felet vid halvtimmar är att läsa den timme som den korta visaren är närmast, så att halv åtta läses som halv nio. Att vrida tillbaka visar det direkt: den korta visaren hamnar på 7, aldrig på 8. Efter ett fel svar vrider fjädern tillbaka klockan av sig själv; efter ett andra räknar pärlor minuterna fem i taget från 12 till den långa visaren. Vid rätt svar flyger gökluckan upp och Ugglan kommer ut med bilden av det hon gör. På hela timmar nickar hon lika många gånger som klockan är, och en rad prickar lyser med, så att antalet syns även utan ljud. Efteråt får barnet vrida klockan fritt genom Ugglans dag.",
+        "Ledtrådarna handlar om visarna och avslöjar aldrig svaret. I linje med Lgr22, centralt innehåll om mätning. Utan tidtagning och utan poäng."
+      ],
+      "practices": [
+        "Att läsa av timmen på den korta visaren och minuterna på den långa visaren",
+        "Att säga rätt timme vid halvtimmar",
+        "Att skriva en tid från en analog klocka som digital tid",
+        "Att ställa en klocka på en given tid genom att vrida fram den"
+      ],
+      "howToPlay": [
+        "Titta på Ugglans klocka. Vrid nyckeln moturs (eller tryck på ◀) tills båda visarna har gått tillbaka till hel timme, och släpp.",
+        "Svara: tryck på bilden med rätt tid, vrid de två hjulen, tryck på klockan som passar eller vrid fram klockan med ▶ till tiden på skylten.",
+        "Tryck på Kontrollera. Inte än? Klockan vrids tillbaka av sig själv och ringar in timmen. Andra gången räknas minuterna fem i taget.",
+        "Efter rätt svar kommer Ugglan ut, och du får vrida klockan fritt.",
+        "I inställningarna väljer du tider (Hela och halva timmar · Med kvartar) och omgångar (Läsa av och ställa · Bara läsa av)."
+      ],
+      "learningGoals": [
+        "Att läsa av och skriva hela och halva timmar på en analog klocka.",
+        "Att veta att den korta visaren visar timmen och den långa visaren minuterna.",
+        "Vid halvtimmar se vilken timme som har börjat och veta att halv åtta är 7.30.",
+        "Att ställa en klocka på en tid genom att vrida den framåt genom dagen."
+      ]
     }
   }
 }

@@ -3353,25 +3353,28 @@
     },
     "clock-read.tell-time.1-md-b-3": {
       "about": [
-        "Numa casinha de campo mora a Corujita, uma coruja simpática que tem um relógio de cuco na parede. A cada hora, o cuco espia lá de dentro e canta para avisar que chegou um momento especial do dia dela. Junto com a Corujita, seu pequeno olha os dois ponteiros do relógio para descobrir a hora — em ponto, e quinze, e meia — e liga cada horário a um momento da rotina, como o café da manhã, o almoço ou a hora de dormir.",
-        "Brincando, a criança aprende a ler o ponteiro das horas e o ponteiro dos minutos e a dizer a hora em voz alta: sete em ponto, três e quinze, seis e meia, quinze para as dez. Ela também move os dois ponteiros para acertar uma hora combinada e liga esse horário a um momento do dia da Corujita. Aos poucos, percebe que os dois ponteiros andam juntos, como num relógio de verdade — quando os minutos passam, o ponteiro das horas vai deslizando devagar.",
-        "A atividade não pede cadastro nem login e não tem cronômetro, pontuação nem competição — cada criança brinca no seu ritmo. Quando ela toca em algo diferente, não aparece nenhum X vermelho: o cuco só dá uma espiadinha e volta para dentro, com calma e carinho. Tudo foi pensado de acordo com a BNCC, na unidade temática \"Grandezas e medidas\", para o 2º ano."
+        "O relógio de cuco da Corujita tem do lado uma chave de corda de latão. A criança gira a chave no sentido anti-horário e os dois ponteiros voltam juntos, um clique a cada cinco minutos. A chave para sozinha quando o ponteiro grande chega ao 12, e nesse momento o ponteiro pequeno fica exatamente na hora em que o relógio está, e esse número ganha um círculo. Quando a criança solta, o relógio volta zunindo até a hora de verdade. Depois a criança responde: toca no cartão com a figura do que a Corujita está fazendo nessa hora, escreve a hora com duas rodinhas, encontra o relógio que combina com uma hora digital ou puxa a chave e adianta o relógio até a próxima atividade da Corujita.",
+        "O erro mais comum nas meias horas é ler a hora de que o ponteiro pequeno está mais perto: 7:30 lido como 8:30. Voltar o relógio mostra isso na hora, porque o ponteiro pequeno cai no 7, nunca no 8. Depois de uma resposta errada, a corda volta o relógio sozinha; depois de uma segunda, continhas contam os minutos de cinco em cinco, do 12 até o ponteiro grande. Com uma resposta certa, a portinha do cuco se abre e a Corujita sai segurando a figura do que está fazendo. Nas horas exatas ela acena tantas vezes quanto a hora, e uma fileira de pontinhos acende a cada aceno, então o número aparece mesmo sem som. Depois a criança pode girar o relógio livremente ao longo do dia da Corujita.",
+        "As dicas falam dos ponteiros e nunca dão a resposta. De acordo com a BNCC, na unidade temática Grandezas e medidas. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Ler as horas em um relógio analógico: em ponto, e quinze, e meia e quinze para a próxima hora.",
-        "Mover os dois ponteiros para acertar uma hora combinada.",
-        "Ligar cada hora a um momento do dia, como café da manhã, almoço e hora de dormir.",
-        "Entender que o ponteiro das horas anda junto com o ponteiro dos minutos, como num relógio de verdade."
+        "Ler a hora no ponteiro pequeno e os minutos no ponteiro grande",
+        "Dizer a hora certa nas meias horas",
+        "Escrever como hora digital a hora mostrada num relógio de ponteiros",
+        "Acertar o relógio em uma hora dada, adiantando os ponteiros"
       ],
       "howToPlay": [
-        "Olhe o relógio da Corujita e toque no momento do dia que está acontecendo naquela hora.",
-        "Arraste os dois ponteiros até a hora combinada e acorde o cuco!",
-        "Veja o céu ficar rosa de manhãzinha ou o sol bem alto ao meio-dia e acerte a hora no relógio."
+        "Olhe o relógio da Corujita. Gire a chave no sentido anti-horário (ou toque em ◀) até os dois ponteiros voltarem à hora exata, e solte.",
+        "Responda: toque no cartão com a hora certa, gire as duas rodinhas, toque no relógio que combina ou adiante o relógio com ▶ até a hora da plaquinha.",
+        "Toque em Verificar. Ainda não? O relógio volta sozinho e circula a hora. Na segunda vez, os minutos são contados de cinco em cinco.",
+        "Depois de uma resposta certa a Corujita sai, e você pode girar o relógio livremente.",
+        "Nas configurações você escolhe os horários (Horas exatas e meias horas · Com quartos de hora) e as rodadas (Ler e acertar · Só ler)."
       ],
       "learningGoals": [
-        "Eu sei ler as horas no relógio: em ponto, e quinze e e meia.",
-        "Eu consigo mover os ponteiros para mostrar uma hora combinada.",
-        "Eu sei ligar cada hora a um momento do meu dia."
+        "Ler e escrever horas exatas e meias horas num relógio de ponteiros.",
+        "Saber que o ponteiro pequeno mostra a hora e o grande, os minutos.",
+        "Nas meias horas, ler a hora que o ponteiro pequeno já passou, não a seguinte.",
+        "Acertar o relógio em uma hora, adiantando os ponteiros ao longo do dia."
       ]
     },
     "tempo-day-plan.time-prepositions.l-1-1-i": {

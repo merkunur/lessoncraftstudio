@@ -25,6 +25,8 @@
    exactly one matching event/clock per read/order round.
    ===================================================================== */
 'use strict';
+/* Row 103 rebuild (2026-10-24): the row runs The Pull-Back Key (pull-key-activity; gates verify-pull-key-core.js + local-test-pull-key.js). */
+{ const _m = JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'clock-read-activities.json'), 'utf8')); if (!(Array.isArray(_m) ? _m : _m.activities).some(a => a.tool === 'clock-read-activity')) { console.log('verify-clock-read-core: the row runs The Pull-Back Key — see verify-pull-key-core.js / local-test-pull-key.js. Nothing to check here.'); process.exit(0); } }
 const fs = require('fs');
 const path = require('path');
 

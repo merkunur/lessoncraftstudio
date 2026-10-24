@@ -1452,25 +1452,28 @@
     },
     "clock-read.tell-time.1-md-b-3": {
       "about": [
-        "Owl's Cuckoo Cottage makes the child the timekeeper for Owl's whole cozy day: read the wall clock and tap what Owl is doing — breakfast at 7:00, garden time at 3:00, lunch at 12:00, supper at 6:30, bedtime at 8:30 — and set the clock by dragging the hands so the cuckoo can pop out. It's a Grade 1 time activity covering o'clock and half-past times that runs in the browser with no account.",
-        "What makes the game work is that it never lets a child win by the hour hand alone. To tell 3:00 from 3:30, or breakfast from bedtime, the child must read both hands together — the long hand on 12 for o'clock or on 6 for half past — and the choices are other times in Owl's day, so a careless glance picks the wrong one. Reading rounds, setting rounds, sky-cue rounds, and a 'which clock matches' ordering round keep the same idea fresh from several angles.",
-        "It is aligned to Common Core 1.MD.B.3 — telling and writing time in hours and half-hours using analog and digital clocks. No timer, no score — just calm, playful practice."
+        "Owl's cuckoo clock has a brass spring key on its side. The child drags the key round anticlockwise and both hands run backwards together, one click for every five minutes. The key stops by itself when the long hand reaches the 12, and at that moment the short hand stands exactly on the hour the clock is in, and that number is ringed. Let go and the clock whirrs forward to the real time. Then the child answers: tap the picture card of what Owl is doing at that time, write the time on two wheels, find the clock that matches a digital time, or pull the key out and wind the clock on to Owl's next activity.",
+        "The classic mistake at half past is to read the hour the short hand is nearer: 7:30 read as 8:30. Winding back shows it at once, because the short hand lands on the 7, never on the 8. After a wrong answer the spring winds the clock back by itself; after a second one, beads count the minutes in fives from the 12 to the long hand. On a right answer the cuckoo door opens and Owl pops out holding the picture of what she is doing. On the hour she bobs as many times as the hour, a row of dots lighting one per bob, so the count is seen with the sound off. Afterwards the child may wind the clock freely through Owl's day.",
+        "Hints talk about the hands and never give the answer. Aligned to Common Core 1.MD.B.3. No timer and no score."
       ],
       "practices": [
-        "Read both clock hands to tell an o'clock time from a half-past time",
-        "Set the hands of an analog clock to a given hour or half-hour",
-        "Match a clock time to the event that happens then in Owl's day",
-        "Connect the time of day to a real-world cue like dawn or midday"
+        "Reading the hour from the short hand and the minutes from the long hand",
+        "At half past, naming the hour the short hand has passed",
+        "Writing a time shown on an analog clock as a digital time",
+        "Setting a clock to a given time by winding it on"
       ],
       "howToPlay": [
-        "Read the wall clock — look at both hands — to see what time it shows.",
-        "Tap what Owl is doing then, or drag the hands to set the time the round asks for.",
-        "When it is right the cuckoo pops out to celebrate; otherwise try again, with no timer and no score."
+        "Look at Owl's clock. Drag the key round anticlockwise (or press ◀) to wind both hands back to the hour, then let go.",
+        "Answer: tap the picture card with the right time, turn the two wheels, tap the matching clock, or wind the clock on with ▶ to the time on the sign.",
+        "Press Check. Not yet? The clock winds back by itself and rings the hour. A second miss counts the minutes in fives.",
+        "After a right answer Owl pops out, and you can wind the clock freely.",
+        "In the settings, choose the times (O'clock and half past · With quarter hours) and the rounds (Read and set · Read only)."
       ],
       "learningGoals": [
-        "Tell and set time to the hour and half-hour — the focus of Common Core 1.MD.B.3.",
-        "Read the long and short hands together instead of guessing from one.",
-        "Link clock times to the familiar moments of a daily routine."
+        "Tell and write time in hours and half-hours from an analog clock — the focus of Common Core 1.MD.B.3.",
+        "Know that the short hand shows the hour and the long hand the minutes.",
+        "At half past, read the hour the short hand has passed, not the next one.",
+        "Set a clock to a time by moving it forward through the day."
       ]
     },
     "clock.set-clock.1-md-b-3": {

@@ -2910,6 +2910,32 @@
         "Ikke at læse den store viser som timen (12:00 i stedet for 3:00).",
         "At se en time, der går, som én hel omgang med den store viser."
       ]
+    },
+    "clock-read.tell-time.1-md-b-3": {
+      "about": [
+        "Uglens kukkeur har en fjedernøgle af messing på siden. Barnet drejer nøglen mod uret, og begge visere løber baglæns sammen, ét klik for hver fem minutter. Nøglen stopper af sig selv, når den store viser kommer til 12, og i det øjeblik står den lille viser præcis på den time, uret er i, og det tal får en ring. Slipper barnet, snurrer uret frem til det rigtige klokkeslæt igen. Så svarer barnet: det trykker på billedet af det, Uglen laver på det tidspunkt, skriver klokkeslættet med to hjul, finder uret, der passer til et digitalt klokkeslæt, eller trækker nøglen ud og drejer uret frem til Uglens næste gøremål.",
+        "Den klassiske fejl ved halve timer er at læse den time, den lille viser er nærmest, så halv otte bliver læst som halv ni. At dreje tilbage viser det med det samme: den lille viser lander på 7, aldrig på 8. Efter et forkert svar drejer fjederen selv uret tilbage; efter et andet tæller perler minutterne fem ad gangen fra 12 til den store viser. Ved et rigtigt svar springer kukkeurets dør op, og Uglen kommer ud med billedet af det, hun laver. På hele timer nikker hun lige så mange gange, som klokken er, og en række prikker lyser med, så man kan se tallet uden lyd. Bagefter må barnet dreje uret frit gennem Uglens dag.",
+        "Hjælpen taler om viserne og afslører aldrig svaret. I tråd med Fælles Mål for geometri og måling. Uden tidtagning og uden point."
+      ],
+      "practices": [
+        "At aflæse timen på den lille viser og minutterne på den store viser",
+        "At sige den rigtige time ved halve timer",
+        "At skrive et klokkeslæt fra et analogt ur som digitalt klokkeslæt",
+        "At stille et ur på et bestemt klokkeslæt ved at dreje det frem"
+      ],
+      "howToPlay": [
+        "Se på Uglens ur. Drej nøglen mod uret (eller tryk på ◀), til begge visere er tilbage ved den hele time, og slip.",
+        "Svar: tryk på billedet med det rigtige klokkeslæt, drej de to hjul, tryk på det ur, der passer, eller drej uret frem med ▶ til klokkeslættet på skiltet.",
+        "Tryk på Tjek. Ikke helt? Uret drejer selv tilbage og sætter ring om timen. Anden gang tælles minutterne fem ad gangen.",
+        "Efter et rigtigt svar kommer Uglen ud, og du må dreje uret frit.",
+        "I indstillingerne vælger du klokkeslæt (Hele og halve timer · Med kvarterer) og runder (Aflæse og stille · Kun aflæse)."
+      ],
+      "learningGoals": [
+        "At aflæse og skrive hele og halve timer fra et analogt ur.",
+        "At vide, at den lille viser viser timen, og den store viser minutterne.",
+        "Ved halve timer at se, hvilken time der er begyndt, og vide, at halv otte er 7.30.",
+        "At stille et ur på et klokkeslæt ved at dreje det frem gennem dagen."
+      ]
     }
   }
 }

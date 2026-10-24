@@ -4006,23 +4006,28 @@
     },
     "clock-read.tell-time.1-md-b-3": {
       "about": [
-        "Toute la journée de Chouette se déroule dans la maison à coucou, et c'est ton enfant le gardien du temps ! Il lit l'horloge murale à aiguilles pour savoir ce que fait Chouette — le petit-déjeuner, le jardinage, le dodo — et touche le bon moment. Ou bien il règle lui-même les aiguilles sur une heure demandée, puis réveille le coucou qui sort et mime le moment.",
-        "Lire et régler l'heure sur une horloge à aiguilles, aux heures entières et aux demi-heures — « sept heures », « sept heures et demie » — est un attendu du CP. Le jeu se joue sans minuteur et sans points : l'enfant se repère dans le temps, dans le domaine « Grandeurs et mesures » des programmes officiels de l'école."
+        "L’horloge à coucou de Chouette a sur le côté une clé à ressort en laiton. L’enfant tourne la clé dans le sens inverse des aiguilles d’une montre, et les deux aiguilles reculent ensemble, un clic toutes les cinq minutes. La clé s’arrête toute seule quand la grande aiguille arrive sur le 12, et à ce moment la petite aiguille est pile sur l’heure dans laquelle se trouve l’horloge, et ce nombre est entouré. Quand l’enfant lâche, l’horloge repart en ronronnant jusqu’à l’heure réelle. Puis l’enfant répond. Il touche la carte qui montre ce que fait Chouette à cette heure, écrit l’heure avec deux molettes, trouve l’horloge qui correspond à une heure numérique, ou tire la clé et avance l’horloge jusqu’à la prochaine activité de Chouette.",
+        "L’erreur classique avec les demi-heures est de lire l’heure dont la petite aiguille est la plus proche, 7 h 30 lu comme 8 h 30. Remonter le temps le montre tout de suite, car la petite aiguille arrive sur le 7, jamais sur le 8. Après une mauvaise réponse, le ressort fait reculer l’horloge tout seul ; après une deuxième, des perles comptent les minutes de cinq en cinq, du 12 jusqu’à la grande aiguille. Avec une bonne réponse, la porte du coucou s’ouvre et Chouette sort en tenant l’image de ce qu’elle fait. À l’heure pile, elle salue autant de fois que l’heure, et une rangée de points s’allume à chaque salut, si bien que le nombre se voit même sans le son. Ensuite, l’enfant peut faire tourner l’horloge librement au fil de la journée de Chouette.",
+        "Les indices parlent des aiguilles et ne donnent jamais la réponse. En lien avec les programmes officiels pour le domaine Grandeurs et mesures. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Lire l'heure aux heures entières",
-        "Lire l'heure aux demi-heures (« et demie »)",
-        "Régler les aiguilles d'une horloge",
-        "Associer une heure à un moment de la journée"
+        "Lire l’heure sur la petite aiguille et les minutes sur la grande aiguille",
+        "Dire la bonne heure avec les demi-heures",
+        "Écrire en heure numérique l’heure d’une horloge à aiguilles",
+        "Régler une horloge sur une heure donnée en la faisant avancer"
       ],
       "howToPlay": [
-        "Lis l'horloge à aiguilles pour trouver l'heure.",
-        "Touche le bon moment, ou règle les aiguilles et réveille le coucou."
+        "Regarde l’horloge de Chouette. Tourne la clé dans le sens inverse des aiguilles d’une montre (ou touche ◀) jusqu’à ce que les deux aiguilles reviennent à l’heure pile, puis lâche.",
+        "Réponds. Touche la carte avec la bonne heure, tourne les deux molettes, touche l’horloge qui correspond, ou avance l’horloge avec ▶ jusqu’à l’heure du panneau.",
+        "Touche Vérifier. Pas encore ? L’horloge recule toute seule et entoure l’heure. La deuxième fois, les minutes sont comptées de cinq en cinq.",
+        "Après une bonne réponse, Chouette sort et tu peux faire tourner l’horloge librement.",
+        "Dans les réglages, choisis les heures (Heures pile et demi-heures · Avec les quarts d’heure) et les manches (Lire et régler · Lire seulement)."
       ],
       "learningGoals": [
-        "Lire l'heure aux heures et demi-heures",
-        "Régler les aiguilles d'une horloge",
-        "Se repérer dans les moments de la journée"
+        "Lire et écrire les heures pile et les demi-heures sur une horloge à aiguilles.",
+        "Savoir que la petite aiguille indique l’heure et la grande aiguille les minutes.",
+        "Avec les demi-heures, lire l’heure que la petite aiguille a dépassée, pas la suivante.",
+        "Régler une horloge sur une heure en la faisant avancer au fil de la journée."
       ]
     },
     "clock-ampm.morning-or-night.2-md-c-7": {

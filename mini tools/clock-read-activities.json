@@ -1,323 +1,29 @@
 [
   {
     "id": "clock-read.tell-time.1-md-b-3",
-    "tool": "clock-read-activity",
-    "task_template": "clock-read",
+    "tool": "pull-key-activity",
+    "task_template": "pull-key",
     "alignment": {
       "framework": "CCSS",
       "code": "1.MD.B.3",
       "grade": "1",
       "strand": "Measurement & Data"
     },
-    "params": {
-      "rounds": [
-        {
-          "id": "read-lunch",
-          "cog": "read-oclock",
-          "mode": "read",
-          "band": 1,
-          "targetTime": {
-            "hour": 12,
-            "minute": 0
-          },
-          "events": [
-            {
-              "id": "lunch",
-              "label": "Lunch",
-              "emoji": "🥪",
-              "hour": 12,
-              "minute": 0
-            },
-            {
-              "id": "breakfast",
-              "label": "Breakfast",
-              "emoji": "🍳",
-              "hour": 7,
-              "minute": 0
-            },
-            {
-              "id": "garden",
-              "label": "Garden time",
-              "emoji": "🌻",
-              "hour": 3,
-              "minute": 0
-            }
-          ]
-        },
-        {
-          "id": "read-garden",
-          "cog": "read-oclock",
-          "mode": "read",
-          "band": 1,
-          "targetTime": {
-            "hour": 3,
-            "minute": 0
-          },
-          "events": [
-            {
-              "id": "garden",
-              "label": "Garden time",
-              "emoji": "🌻",
-              "hour": 3,
-              "minute": 0
-            },
-            {
-              "id": "lunch",
-              "label": "Lunch",
-              "emoji": "🥪",
-              "hour": 12,
-              "minute": 0
-            },
-            {
-              "id": "tea",
-              "label": "Morning tea",
-              "emoji": "☕",
-              "hour": 6,
-              "minute": 0
-            }
-          ]
-        },
-        {
-          "id": "read-bedtime",
-          "cog": "read-half",
-          "mode": "read",
-          "band": 2,
-          "targetTime": {
-            "hour": 8,
-            "minute": 30
-          },
-          "events": [
-            {
-              "id": "bedtime",
-              "label": "Bedtime",
-              "emoji": "🌙",
-              "hour": 8,
-              "minute": 30
-            },
-            {
-              "id": "breakfast",
-              "label": "Breakfast",
-              "emoji": "🍳",
-              "hour": 7,
-              "minute": 0
-            },
-            {
-              "id": "lunch",
-              "label": "Lunch",
-              "emoji": "🥪",
-              "hour": 12,
-              "minute": 0
-            }
-          ]
-        },
-        {
-          "id": "read-supper",
-          "cog": "read-half",
-          "mode": "read",
-          "band": 2,
-          "targetTime": {
-            "hour": 6,
-            "minute": 30
-          },
-          "events": [
-            {
-              "id": "supper",
-              "label": "Supper",
-              "emoji": "🍲",
-              "hour": 6,
-              "minute": 30
-            },
-            {
-              "id": "garden",
-              "label": "Garden time",
-              "emoji": "🌻",
-              "hour": 3,
-              "minute": 0
-            },
-            {
-              "id": "bedtime",
-              "label": "Bedtime",
-              "emoji": "🌙",
-              "hour": 8,
-              "minute": 30
-            }
-          ]
-        },
-        {
-          "id": "set-nine",
-          "cog": "set-oclock",
-          "mode": "set",
-          "band": 1,
-          "minuteStep": 30,
-          "targetTime": {
-            "hour": 9,
-            "minute": 0
-          }
-        },
-        {
-          "id": "set-three",
-          "cog": "set-oclock",
-          "mode": "set",
-          "band": 1,
-          "minuteStep": 30,
-          "targetTime": {
-            "hour": 3,
-            "minute": 0
-          }
-        },
-        {
-          "id": "set-half-one",
-          "cog": "set-half",
-          "mode": "set",
-          "band": 2,
-          "minuteStep": 30,
-          "targetTime": {
-            "hour": 1,
-            "minute": 30
-          }
-        },
-        {
-          "id": "set-half-seven",
-          "cog": "set-half",
-          "mode": "set",
-          "band": 2,
-          "minuteStep": 30,
-          "targetTime": {
-            "hour": 7,
-            "minute": 30
-          }
-        },
-        {
-          "id": "cue-dawn",
-          "cog": "world-cue",
-          "mode": "world-cue",
-          "band": 2,
-          "minuteStep": 30,
-          "targetTime": {
-            "hour": 6,
-            "minute": 0
-          },
-          "cue": {
-            "id": "dawn",
-            "label": "The sky glows dawn-pink — early morning.",
-            "emoji": "🌅"
-          }
-        },
-        {
-          "id": "cue-noon",
-          "cog": "world-cue",
-          "mode": "world-cue",
-          "band": 2,
-          "minuteStep": 30,
-          "targetTime": {
-            "hour": 12,
-            "minute": 0
-          },
-          "cue": {
-            "id": "noon",
-            "label": "The sun is high overhead — midday.",
-            "emoji": "☀️"
-          }
-        },
-        {
-          "id": "order-lunch",
-          "cog": "order",
-          "mode": "order",
-          "band": 2,
-          "askEvent": {
-            "label": "Lunch",
-            "emoji": "🥪",
-            "hour": 12,
-            "minute": 0
-          },
-          "clocks": [
-            {
-              "hour": 7,
-              "minute": 0
-            },
-            {
-              "hour": 12,
-              "minute": 0
-            },
-            {
-              "hour": 3,
-              "minute": 0
-            }
-          ]
-        },
-        {
-          "id": "order-bedtime",
-          "cog": "order",
-          "mode": "order",
-          "band": 2,
-          "askEvent": {
-            "label": "Bedtime",
-            "emoji": "🌙",
-            "hour": 8,
-            "minute": 30
-          },
-          "clocks": [
-            {
-              "hour": 8,
-              "minute": 30
-            },
-            {
-              "hour": 9,
-              "minute": 0
-            },
-            {
-              "hour": 6,
-              "minute": 30
-            }
-          ]
-        },
-        {
-          "id": "five-read-quarter",
-          "cog": "five-min",
-          "mode": "read",
-          "band": 3,
-          "targetTime": {
-            "hour": 3,
-            "minute": 15
-          },
-          "events": [
-            {
-              "id": "snack",
-              "label": "Snack",
-              "emoji": "🍎",
-              "hour": 3,
-              "minute": 15
-            },
-            {
-              "id": "garden",
-              "label": "Garden time",
-              "emoji": "🌻",
-              "hour": 3,
-              "minute": 0
-            },
-            {
-              "id": "lunch",
-              "label": "Lunch",
-              "emoji": "🥪",
-              "hour": 12,
-              "minute": 0
-            }
-          ]
-        },
-        {
-          "id": "five-set-quarterto",
-          "cog": "five-min",
-          "mode": "set",
-          "band": 3,
-          "minuteStep": 5,
-          "targetTime": {
-            "hour": 7,
-            "minute": 45
-          }
-        }
-      ]
-    },
     "theme": null,
+    "params": {
+      "times": [
+        "half",
+        "quarter"
+      ],
+      "mode": [
+        "readset",
+        "read"
+      ],
+      "rounds": {
+        "half": 11,
+        "quarter": 12
+      }
+    },
     "slug": {
       "en": "owls-cuckoo-cottage",
       "de": "uhr-lesen-und-stellen-tagesablauf-klasse-1",
@@ -325,7 +31,11 @@
       "es": "leer-el-reloj-analogico-la-hora-en-punto-y-media-y-cuarto",
       "pt": "ler-as-horas-no-relogio-em-ponto-e-meia-e-quinze-2-ano",
       "it": "leggere-l-orologio-ore-mezze-e-quarti-classe-seconda",
-      "nl": "klok-lezen-en-zetten-hele-halve-uren-kwartieren-groep-4"
+      "nl": "klok-lezen-en-zetten-hele-halve-uren-kwartieren-groep-4",
+      "sv": "las-och-stall-klockan-ak-1",
+      "da": "laes-og-stil-uret-1-klasse",
+      "no": "les-og-still-klokka-1-trinn",
+      "fi": "lue-ja-aseta-kello-1-luokka"
     },
     "page_title": {
       "en": "Owl's Cuckoo Cottage — Read and Set the Clock",
@@ -334,7 +44,11 @@
       "es": "Leer la hora en el reloj: en punto, y media, y cuarto",
       "pt": "Ler as horas no relógio: em ponto, e meia e e quinze · 2º ano",
       "it": "Leggere l’orologio: ore, mezze e quarti — classe seconda",
-      "nl": "Klok lezen en zetten – hele en halve uren, kwartieren (groep 4)"
+      "nl": "Klok lezen en zetten – hele en halve uren, kwartieren (groep 4)",
+      "sv": "Ugglans gökur — läs och ställ klockan (åk 1)",
+      "da": "Uglens kukkeur — læs og stil uret (1. klasse)",
+      "no": "Uglas gjøkur — les og still klokka (1. trinn)",
+      "fi": "Pöllön käkikello — lue ja aseta kello (1. luokka)"
     },
     "page_intro": {
       "en": "Owl's whole cozy day unfolds in the cuckoo cottage, and you are the timekeeper! Read the wall clock to find out what Owl is doing now — breakfast, garden time, bedtime — and set the hands so the cuckoo can pop out and act it out. A warm Grade 1 game about telling time to the hour and half-hour, aligned to Common Core 1.MD.B.3.",
@@ -343,7 +57,11 @@
       "es": "Tu peque lee y acomoda las manecillas de un reloj de cucú para descubrir la hora y el momento del día: en punto, y media, y cuarto. Sin registro y alineada al plan de la SEP.",
       "pt": "Seu pequeno lê e acerta os ponteiros do relógio de cuco da Corujita para descobrir a hora e o momento do dia — em ponto, e quinze, e meia. De graça, sem cadastro e sem cronômetro. Alinhado à BNCC, 2º ano.",
       "it": "Aiuta il Gufo nella sua casa con il cucù: leggi e regola l’orologio analogico — l’ora esatta, la mezza e i quarti — per scoprire cosa fa il gufo nei diversi momenti della giornata, in un’attività senza registrazione, allineata alle Indicazioni nazionali per la classe seconda.",
-      "nl": "Leer klok lezen én de wijzers zelf zetten met Sprocket de haan en zijn koekoeksklok-huisje. Je kind oefent de hele en halve uren plus de kwartieren, en koppelt de tijd aan het dagritme: ontbijt, tuintijd, bedtijd. Online oefenen, zonder registratie. Volgens de SLO-kerndoelen voor groep 4."
+      "nl": "Leer klok lezen én de wijzers zelf zetten met Sprocket de haan en zijn koekoeksklok-huisje. Je kind oefent de hele en halve uren plus de kwartieren, en koppelt de tijd aan het dagritme: ontbijt, tuintijd, bedtijd. Online oefenen, zonder registratie. Volgens de SLO-kerndoelen voor groep 4.",
+      "sv": "Barnet läser av Ugglans klocka, hela och halva timmar, och ser vad Ugglan gör: frukost, läsning, bad eller läggdags. Klockans fjädernyckel vrider tillbaka båda visarna tills den långa visaren står på 12 – då står den korta på den timme klockan är i. Barnet skriver tiden med två hjul, hittar klockan som visar en digital tid och vrider fram klockan till Ugglans nästa aktivitet. I linje med Lgr22, centralt innehåll om mätning.",
+      "da": "Barnet aflæser Uglens ur ved hele og halve timer og ser, hvad Uglen laver: morgenmad, læsning, bad eller sengetid. Urets fjedernøgle drejer begge visere tilbage, til den store viser står på 12 – så står den lille viser på den time, uret er i. Barnet skriver klokkeslættet med to hjul, finder uret, der viser et digitalt klokkeslæt, og drejer uret frem til Uglens næste aktivitet. I tråd med Fælles Mål for geometri og måling.",
+      "no": "Barnet leser av Uglas klokke ved hele og halve timer og ser hva Ugla gjør: frokost, lesing, bad eller leggetid. Klokkas fjærnøkkel vrir begge viserne tilbake til den store viseren står på 12 – da står den lille viseren på timen klokka er i. Barnet skriver klokkeslettet med to hjul, finner klokka som viser et digitalt klokkeslett, og vrir klokka fram til Uglas neste aktivitet. I tråd med LK20.",
+      "fi": "Lapsi lukee Pöllön kellon tasa- ja puolitunteina ja näkee, mitä Pöllö tekee: aamupala, lukeminen, kylpy tai nukkumaanmeno. Kellon jousiavain kiertää molempia viisareita taaksepäin, kunnes pitkä viisari on 12:n kohdalla – silloin lyhyt viisari osoittaa sitä tuntia, jossa kello on. Lapsi kirjoittaa ajan kahdella rullalla, löytää kellon, joka näyttää digitaalisen ajan, ja kiertää kellon Pöllön seuraavaan puuhaan. Sopii opetussuunnitelman sisältöalueeseen Geometria ja mittaaminen."
     },
     "kid_prompt_template": "clock-read"
   }

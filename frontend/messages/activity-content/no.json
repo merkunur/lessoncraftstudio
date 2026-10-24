@@ -2916,6 +2916,32 @@
         "Ikke å lese den store viseren som timen (12:00 i stedet for 3:00).",
         "Å se en time som går, som én hel runde med den store viseren."
       ]
+    },
+    "clock-read.tell-time.1-md-b-3": {
+      "about": [
+        "Uglas gjøkur har en fjærnøkkel av messing på siden. Barnet vrir nøkkelen mot klokka, og begge viserne går baklengs sammen, ett klikk for hvert femte minutt. Nøkkelen stopper av seg selv når den store viseren når 12, og i det øyeblikket står den lille viseren nøyaktig på timen klokka er i, og det tallet får en ring. Slipper barnet, snurrer klokka fram til riktig tid igjen. Så svarer barnet: trykker på bildet av det Ugla gjør på det tidspunktet, skriver klokkeslettet med to hjul, finner klokka som passer til et digitalt klokkeslett, eller trekker ut nøkkelen og vrir klokka fram til Uglas neste gjøremål.",
+        "Den klassiske feilen ved halve timer er å lese den timen den lille viseren er nærmest, slik at halv åtte blir lest som halv ni. Å vri tilbake viser det med en gang: den lille viseren lander på 7, aldri på 8. Etter et feil svar vrir fjæra klokka tilbake av seg selv; etter et nytt feil teller perler minuttene fem og fem fra 12 til den store viseren. Ved riktig svar spretter gjøkluka opp, og Ugla kommer ut med bildet av det hun gjør. På hele timer nikker hun like mange ganger som klokka er, og en rad prikker lyser med, så man ser tallet også uten lyd. Etterpå kan barnet vri klokka fritt gjennom Uglas dag.",
+        "Hjelpen handler om viserne og røper aldri svaret. I tråd med LK20 i matematikk. Uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Å lese timen på den lille viseren og minuttene på den store viseren",
+        "Å si riktig time ved halve timer",
+        "Å skrive et klokkeslett fra en analog klokke som digitalt klokkeslett",
+        "Å stille en klokke på et gitt klokkeslett ved å vri den fram"
+      ],
+      "howToPlay": [
+        "Se på Uglas klokke. Vri nøkkelen mot klokka (eller trykk på ◀) til begge viserne er tilbake på hel time, og slipp.",
+        "Svar: trykk på bildet med riktig klokkeslett, vri de to hjulene, trykk på klokka som passer, eller vri klokka fram med ▶ til klokkeslettet på skiltet.",
+        "Trykk på Sjekk. Ikke ennå? Klokka vris tilbake av seg selv og setter ring rundt timen. Andre gang telles minuttene fem og fem.",
+        "Etter riktig svar kommer Ugla ut, og du kan vri klokka fritt.",
+        "I innstillingene velger du klokkeslett (Hele og halve timer · Med kvarter) og runder (Lese av og stille · Bare lese av)."
+      ],
+      "learningGoals": [
+        "Å lese av og skrive hele og halve timer på en analog klokke.",
+        "Å vite at den lille viseren viser timen og den store viseren minuttene.",
+        "Ved halve timer å se hvilken time som har begynt, og vite at halv åtte er 7.30.",
+        "Å stille en klokke på et klokkeslett ved å vri den framover gjennom dagen."
+      ]
     }
   }
 }

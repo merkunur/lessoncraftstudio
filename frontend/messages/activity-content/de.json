@@ -2751,25 +2751,28 @@
     },
     "clock-read.tell-time.1-md-b-3": {
       "about": [
-        "In einem kleinen Häuschen mit einer großen Kuckucksuhr wohnt die Eule und passt auf die Zeit auf. Ihr ganzer Tag steckt in dieser Uhr — und dein Kind darf der Zeitwächter sein. Es liest die Zeiger der alten Holzuhr ab und findet heraus, was die Eule gerade macht: Ist es Zeit zum Frühstücken? Geht es in den Garten? Oder wird es schon dunkel und Zeit zum Schlafen? So wird aus dem Ablesen der Uhr eine kleine Geschichte über den Tagesablauf.",
-        "Mal liest dein Kind eine fertig eingestellte Uhr und tippt das passende Ereignis an, mal stellt es selbst die Zeiger auf eine gesuchte Uhrzeit — und wenn es stimmt, springt der Kuckuck heraus und ruft die Zeit laut aus. So schließt sich der Kreis zwischen der Uhr und den Worten. In weiteren Runden ordnet dein Kind drei Uhren nach dem Tagesablauf oder deutet einen Himmels-Hinweis (Morgenrot, Mittagssonne) und stellt die passende Zeit ein. Geübt werden die volle Stunde und die halbe Stunde — also auch das deutsche „halb 9“ für 8:30 —, und eine Extra-Runde zeigt schon „Viertel nach“ und „Viertel vor“.",
-        "Es gibt keine Uhr, die abläuft, keine Punkte und keinen Wettlauf. Dein Kind darf in seinem eigenen Tempo schauen, drehen und ausprobieren, so oft es mag. Diese Aufgaben folgen dem Lehrplan der Grundschule, Leitidee „Größen und Messen“ (Zeit), für Klasse 1."
+        "Eulchens Kuckucksuhr hat an der Seite einen Federschlüssel aus Messing. Das Kind dreht den Schlüssel gegen den Uhrzeigersinn, und beide Zeiger laufen gemeinsam rückwärts, ein Klick für jeweils fünf Minuten. Der Schlüssel hält von selbst an, wenn der große Zeiger die 12 erreicht. In diesem Moment steht der kleine Zeiger genau auf der Stunde, in der die Uhr gerade ist, und diese Zahl wird eingekreist. Lässt das Kind los, läuft die Uhr schnurrend wieder vor bis zur echten Uhrzeit. Dann antwortet das Kind: Es tippt auf das Bild von dem, was Eulchen um diese Zeit macht, schreibt die Uhrzeit mit zwei Rädchen, findet die Uhr zu einer Digitalzeit oder zieht den Schlüssel heraus und dreht die Uhr weiter bis zu Eulchens nächster Beschäftigung.",
+        "Der klassische Fehler bei halben Stunden: die Stunde lesen, der der kleine Zeiger näher ist, also halb acht als halb neun. Das Zurückdrehen zeigt es sofort, denn der kleine Zeiger landet auf der 7, nie auf der 8. Nach einer falschen Antwort dreht die Feder die Uhr von selbst zurück; nach einer zweiten zählen Perlen die Minuten in Fünferschritten von der 12 bis zum großen Zeiger. Bei einer richtigen Antwort springt die Kuckuckstür auf, und Eulchen kommt mit dem Bild ihrer Beschäftigung heraus. Zur vollen Stunde nickt sie so oft, wie es Uhr ist, und eine Reihe Punkte leuchtet mit, sodass man die Zahl auch ohne Ton sieht. Danach darf das Kind die Uhr frei durch Eulchens Tag drehen.",
+        "Die Hinweise sprechen über die Zeiger und verraten nie die Lösung. Passend zum Lehrplan im Bereich Größen und Messen. Ohne Zeitdruck und ohne Punktwertung."
       ],
       "practices": [
-        "Volle und halbe Stunden auf der analogen Uhr sicher ablesen",
-        "Die Zeiger der Uhr selbst auf eine gesuchte Uhrzeit stellen",
-        "Uhrzeiten mit Ereignissen aus dem eigenen Tagesablauf verknüpfen",
-        "Die deutsche „halb“-Sprechweise verstehen — „halb 9“ bedeutet 8:30"
+        "Die Stunde am kleinen Zeiger und die Minuten am großen Zeiger ablesen",
+        "Bei halben Stunden die richtige Stunde nennen",
+        "Eine Uhrzeit von der Zeigeruhr als Digitalzeit aufschreiben",
+        "Eine Uhr durch Weiterdrehen auf eine vorgegebene Uhrzeit stellen"
       ],
       "howToPlay": [
-        "Schau dir die Zeiger der Kuckucksuhr an und lies die Uhrzeit ab.",
-        "Tippe das Ereignis an, das gerade passt — oder stelle die Zeiger selbst auf die gesuchte Zeit.",
-        "Stimmt es, springt der Kuckuck heraus, spielt den Moment nach und ruft die Zeit laut aus."
+        "Schau auf Eulchens Uhr. Dreh den Schlüssel gegen den Uhrzeigersinn (oder tippe auf ◀), bis beide Zeiger zur vollen Stunde zurückgelaufen sind, und lass los.",
+        "Antworte: Tippe auf das Bild mit der richtigen Uhrzeit, dreh die beiden Rädchen, tippe auf die passende Uhr oder dreh die Uhr mit ▶ weiter bis zur Uhrzeit auf dem Schild.",
+        "Tippe auf Prüfen. Noch nicht? Die Uhr dreht sich von selbst zurück und kreist die Stunde ein. Beim zweiten Mal werden die Minuten in Fünferschritten gezählt.",
+        "Nach einer richtigen Antwort kommt Eulchen heraus, und du kannst die Uhr frei drehen.",
+        "In den Einstellungen wählst du die Uhrzeiten (Volle und halbe Stunden · Mit Viertelstunden) und die Runden (Ablesen und einstellen · Nur ablesen)."
       ],
       "learningGoals": [
-        "Ich kann die volle und die halbe Stunde auf einer analogen Uhr ablesen.",
-        "Ich kann die Zeiger der Uhr auf eine genannte Uhrzeit stellen.",
-        "Ich verstehe „halb 9“ als 8:30 und ordne Uhrzeiten meinem Tagesablauf zu."
+        "Volle und halbe Stunden an der Zeigeruhr ablesen und aufschreiben.",
+        "Wissen, dass der kleine Zeiger die Stunde und der große Zeiger die Minuten zeigt.",
+        "Bei halben Stunden die Stunde erkennen, die schon begonnen hat, und wissen: halb acht ist 7:30.",
+        "Eine Uhr auf eine Uhrzeit stellen, indem man sie durch den Tag weiterdreht."
       ]
     },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {

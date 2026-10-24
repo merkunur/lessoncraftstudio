@@ -1122,25 +1122,28 @@
     },
     "clock-read.tell-time.1-md-b-3": {
       "about": [
-        "In een klein huisje met een grote koekoeksklok woont Sprocket de haan, die over de tijd waakt. Zijn hele dag zit in die klok — en jouw kind mag de tijdbewaker zijn. Het leest de wijzers van de oude houten klok af en ontdekt wat Sprocket nu doet: is het tijd voor het ontbijt? Op naar de tuin? Of wordt het al donker en is het bedtijd? Zo wordt klok lezen een klein verhaaltje over de dag.",
-        "Soms leest je kind een klok af die al is ingesteld en tikt het op de gebeurtenis die erbij past; soms zet het de wijzers zelf op een genoemde tijd — en als het klopt, springt de koekoek naar buiten en roept de tijd hardop. Zo wordt de kring tussen de klok en de woorden gesloten. In volgende rondes zet je kind drie klokken op volgorde van de dag, of leest het een teken aan de lucht (roze dageraad, middagzon) en zet de bijpassende tijd. Het oefent het hele en het halve uur — ook het Nederlandse 'half negen' voor 8:30 — en een extra ronde laat al 'kwart over' en 'kwart voor' zien.",
-        "Geen klok die aftelt, geen punten, geen wedstrijd. Je kind mag in zijn eigen tempo kijken, draaien en proberen, zo vaak het wil. Deze opdrachten volgen de SLO-kerndoelen voor rekenen, domein meten en meetkunde (tijd), voor groep 4."
+        "De koekoeksklok van Uiltje heeft aan de zijkant een koperen veersleutel. Het kind draait de sleutel tegen de klok in, en beide wijzers lopen samen achteruit, één klik per vijf minuten. De sleutel stopt vanzelf als de grote wijzer bij de 12 is, en op dat moment staat de kleine wijzer precies op het uur waarin de klok is; dat getal krijgt een kring. Laat het kind los, dan snort de klok terug naar de echte tijd. Dan antwoordt het kind: het tikt op het plaatje van wat Uiltje op dat moment doet, schrijft de tijd met twee wieltjes, zoekt de klok bij een digitale tijd of trekt de sleutel uit en draait de klok door naar wat Uiltje daarna gaat doen.",
+        "De klassieke fout bij halve uren is het uur lezen waar de kleine wijzer het dichtst bij staat. Terugdraaien laat het meteen zien: de kleine wijzer komt op het uur uit dat al begonnen is, nooit op het volgende. Na een fout antwoord draait de veer de klok vanzelf terug; na een tweede fout tellen kraaltjes de minuten per vijf, van de 12 tot de grote wijzer. Bij een goed antwoord gaat het koekoeksdeurtje open en springt Uiltje naar buiten met het plaatje van wat ze doet. Op het hele uur knikt ze zo vaak als het uur, en een rij stipjes licht mee op, zodat je het aantal ook zonder geluid ziet. Daarna mag het kind de klok vrij door de dag van Uiltje draaien.",
+        "De hints gaan over de wijzers en verklappen nooit het antwoord. Passend bij de kerndoelen voor meten. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "hele en halve uren betrouwbaar aflezen op de analoge klok",
-        "de wijzers van de klok zelf op een genoemde tijd zetten",
-        "kloktijden koppelen aan gebeurtenissen in je eigen dag",
-        "het Nederlandse 'half' begrijpen — 'half negen' betekent 8:30"
+        "Het uur aflezen aan de kleine wijzer en de minuten aan de grote wijzer",
+        "Bij halve uren het goede uur noemen",
+        "Een tijd op een wijzerklok als digitale tijd opschrijven",
+        "Een klok op een gegeven tijd zetten door hem door te draaien"
       ],
       "howToPlay": [
-        "kijk naar de wijzers van de koekoeksklok en lees de tijd af",
-        "tik op de gebeurtenis die nu past — of zet de wijzers zelf op de genoemde tijd",
-        "als het klopt, springt de koekoek naar buiten, speelt het moment na en roept de tijd hardop"
+        "Kijk naar de klok van Uiltje. Draai de sleutel tegen de klok in (of tik op ◀) tot beide wijzers terug zijn bij het hele uur, en laat los.",
+        "Geef antwoord: tik op het plaatje met de goede tijd, draai aan de twee wieltjes, tik op de klok die past of draai de klok met ▶ door naar de tijd op het bordje.",
+        "Tik op Controleer. Nog niet? De klok draait vanzelf terug en zet een kring om het uur. Bij een tweede fout worden de minuten per vijf geteld.",
+        "Na een goed antwoord springt Uiltje naar buiten en mag je de klok vrij draaien.",
+        "Kies in de instellingen de tijden (Hele en halve uren · Met kwartieren) en de rondes (Aflezen en instellen · Alleen aflezen)."
       ],
       "learningGoals": [
-        "Ik kan het hele en het halve uur aflezen op een analoge klok.",
-        "Ik kan de wijzers van de klok op een genoemde tijd zetten.",
-        "Ik begrijp 'half negen' als 8:30 en koppel kloktijden aan mijn dag."
+        "Hele en halve uren aflezen op een wijzerklok en opschrijven.",
+        "Weten dat de kleine wijzer het uur en de grote wijzer de minuten aanwijst.",
+        "Bij halve uren het uur zien dat al begonnen is, en weten dat half acht 7.30 is.",
+        "Een klok op een tijd zetten door hem door de dag heen door te draaien."
       ]
     },
     "parking-tower.place-by-relation.k-g-a-1": {

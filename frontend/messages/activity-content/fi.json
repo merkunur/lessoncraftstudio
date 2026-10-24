@@ -2911,6 +2911,32 @@
         "Pitkää viisaria ei lueta tunniksi (ei 12:00, kun kello on 3).",
         "Kuluvan tunnin näkeminen pitkän viisarin yhtenä kokonaisena kierroksena."
       ]
+    },
+    "clock-read.tell-time.1-md-b-3": {
+      "about": [
+        "Pöllön käkikellon kyljessä on messinkinen jousiavain. Lapsi kiertää avainta vastapäivään, ja molemmat viisarit kulkevat yhdessä taaksepäin, yksi naksahdus jokaista viittä minuuttia kohti. Avain pysähtyy itsestään, kun pitkä viisari tulee 12:n kohdalle, ja silloin lyhyt viisari on täsmälleen sen tunnin kohdalla, jota kello parhaillaan näyttää, ja se numero saa renkaan. Kun lapsi päästää irti, kello hurisee takaisin oikeaan aikaan. Sitten lapsi vastaa: hän napauttaa kuvaa siitä, mitä Pöllö tekee siihen aikaan, kirjoittaa ajan kahdella rullalla, etsii digitaaliseen aikaan sopivan kellon tai vetää avaimen ulos ja kiertää kellon Pöllön seuraavaan puuhaan.",
+        "Tyypillinen virhe puolitunneissa on lukea se tunti, jota lyhyt viisari on lähempänä, eli puoli kahdeksan luetaan puoli yhdeksäksi. Taaksepäin kiertäminen näyttää sen heti: lyhyt viisari pysähtyy 7:n kohdalle, ei koskaan 8:n. Väärän vastauksen jälkeen jousi kiertää kellon itse takaisin; toisen jälkeen helmet laskevat minuutit viiden välein 12:sta pitkään viisariin. Oikeasta vastauksesta käkikellon luukku aukeaa ja Pöllö tulee ulos kuva siivessään siitä, mitä se tekee. Tasatunneilla se nyökkää yhtä monta kertaa kuin kello on, ja pisteiden rivi syttyy nyökkäys kerrallaan, joten luvun näkee ilman ääntäkin. Sen jälkeen lapsi saa kiertää kelloa vapaasti läpi Pöllön päivän.",
+        "Vihjeet puhuvat viisareista eivätkä koskaan kerro vastausta. Sopii opetussuunnitelman sisältöalueeseen Geometria ja mittaaminen. Ilman ajanottoa ja ilman pisteytystä."
+      ],
+      "practices": [
+        "Tunnin lukeminen lyhyestä viisarista ja minuuttien lukeminen pitkästä viisarista",
+        "Oikean tunnin sanominen puolitunneissa",
+        "Viisarikellon ajan kirjoittaminen digitaalisena aikana",
+        "Kellon asettaminen annettuun aikaan kiertämällä sitä eteenpäin"
+      ],
+      "howToPlay": [
+        "Katso Pöllön kelloa. Kierrä avainta vastapäivään (tai napauta ◀), kunnes molemmat viisarit ovat palanneet tasatuntiin, ja päästä irti.",
+        "Vastaa: napauta kuvaa, jossa on oikea aika, pyöritä kahta rullaa, napauta sopivaa kelloa tai kierrä kelloa ▶-painikkeella kyltin aikaan.",
+        "Napauta Tarkista. Ei vielä? Kello kiertyy itse takaisin ja rengastaa tunnin. Toisella kerralla minuutit lasketaan viiden välein.",
+        "Oikean vastauksen jälkeen Pöllö tulee ulos, ja saat kiertää kelloa vapaasti.",
+        "Asetuksista valitset ajat (Tasa- ja puolitunnit · Myös vartit) ja kierrokset (Lukeminen ja asettaminen · Vain lukeminen)."
+      ],
+      "learningGoals": [
+        "Tasatuntien ja puolituntien lukeminen ja kirjoittaminen viisarikellosta.",
+        "Tietää, että lyhyt viisari näyttää tunnin ja pitkä viisari minuutit.",
+        "Puolitunneissa nähdään, mikä tunti on jo alkanut, ja tiedetään, että puoli kahdeksan on 7.30.",
+        "Kellon asettaminen aikaan kiertämällä sitä eteenpäin läpi päivän."
+      ]
     }
   }
 }

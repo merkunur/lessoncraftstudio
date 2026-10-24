@@ -703,25 +703,28 @@
     },
     "clock-read.tell-time.1-md-b-3": {
       "about": [
-        "En una casita del bosque vive Tecolín, un tecolote, y todo su día cabe en un gran reloj de cucú. Cada vez que las manecillas marcan una hora, algo pasa en su casita: el desayuno, la hora del jardín, la comida, la hora de dormir… Tu peque lee el reloj para descubrir qué está haciendo Tecolín en ese momento y, cuando hace falta, mueve las manecillas para acomodarlas en la hora correcta. Así, leer la hora deja de ser un ejercicio abstracto y se vuelve una historia que avanza sola.",
-        "La actividad va cambiando para que no se sienta repetitiva. A veces aparece un reloj ya puesto y hay que tocar el momento del día que le corresponde; otras veces se pide poner las manecillas en una hora dada para despertar al cucú (¡cucú!); también hay que ordenar varios relojes según la rutina del día y descifrar una pista del cielo, como el amanecer o el mediodía. Entre todas las rondas se practican las cuatro formas de la hora: las 3 en punto, las 3 y media, las 3 y cuarto y cuarto para las 4.",
-        "Todo sucede con calma. No hay reloj que corra en contra, no hay puntaje y nadie gana ni pierde: tu peque prueba a su propio ritmo, se equivoca sin pena y lo vuelve a intentar hasta que el cucú canta la hora. Esa tranquilidad es justo lo que ayuda a que un niño de los primeros grados se anime a leer las manecillas sin miedo a fallar. (Alineada a los Planes y programas de estudio de la SEP, en el eje de Magnitudes y medida.)"
+        "El reloj cucú de Tecolín tiene a un lado una llave de resorte de latón. El niño gira la llave en sentido contrario a las manecillas del reloj y las dos manecillas retroceden juntas, un clic por cada cinco minutos. La llave se detiene sola cuando el manecilla larga llega al 12, y en ese momento la manecilla corta queda justo en la hora en la que está el reloj, y ese número se marca con un círculo. Al soltarla, el reloj zumba hacia delante hasta la hora real. Luego el niño responde: toca la tarjeta con el dibujo de lo que hace Tecolín a esa hora, escribe la hora con dos ruedas, encuentra el reloj que corresponde a una hora digital, o saca la llave y adelanta el reloj hasta la siguiente actividad de Tecolín.",
+        "El error típico con las medias horas es leer la hora de la que la manecilla corta está más cerca: las 7:30 leídas como 8:30. Al dar marcha atrás se ve enseguida, porque la manecilla corta cae en el 7, nunca en el 8. Tras una respuesta equivocada, el resorte hace retroceder el reloj solo; tras una segunda, unas cuentas cuentan los minutos de cinco en cinco desde el 12 hasta el manecilla larga. Con una respuesta correcta se abre la puertita del cucú y sale Tecolín con el dibujo de lo que está haciendo. En las horas en punto saluda tantas veces como marca la hora, y una fila de puntos se enciende con cada saludo, así que el número se ve aunque no haya sonido. Después el niño puede girar el reloj libremente a lo largo del día de Tecolín.",
+        "Las pistas hablan de las manecillas y nunca dan la respuesta. En línea con los programas de estudio de la SEP (campo formativo Saberes y pensamiento científico). Sin cronómetro y sin puntaje."
       ],
       "practices": [
-        "Leer la hora en un reloj analógico —en punto, y media, y cuarto—.",
-        "Poner las manecillas en una hora dada.",
-        "Relacionar la hora con los momentos del día.",
-        "Leer también los «cuarto para» las horas."
+        "Leer la hora en la manecilla corta y los minutos en el manecilla larga",
+        "Decir la hora correcta en las medias horas",
+        "Escribir como hora digital la hora que muestra un reloj de manecillas",
+        "Poner un reloj a una hora dada adelantándolo"
       ],
       "howToPlay": [
-        "Mira las manecillas del reloj de cucú y lee la hora.",
-        "Toca el momento del día que corresponde, o pon las manecillas en la hora que se pide.",
-        "Si está bien, sale el cucú y canta la hora."
+        "Mira el reloj de Tecolín. Gira la llave en sentido contrario a las manecillas del reloj (o toca ◀) hasta que las dos manecillas vuelvan a la hora en punto, y suelta.",
+        "Responde: toca la tarjeta con la hora correcta, gira las dos ruedas, toca el reloj que corresponde o adelanta el reloj con ▶ hasta la hora del letrero.",
+        "Toca Comprobar. ¿Todavía no? El reloj retrocede solo y marca la hora con un círculo. La segunda vez se cuentan los minutos de cinco en cinco.",
+        "Con una respuesta correcta sale Tecolín y puedes girar el reloj libremente.",
+        "En los ajustes eliges las horas (Horas en punto y medias horas · Con cuartos de hora) y las rondas (Leer y poner la hora · Solo leer)."
       ],
       "learningGoals": [
-        "Leo la hora en un reloj de manecillas.",
-        "Pongo el reloj en una hora dada.",
-        "Relaciono la hora con lo que pasa en el día."
+        "Leer y escribir la hora en punto y la media hora en un reloj de manecillas.",
+        "Saber que la manecilla corta marca la hora y el manecilla larga los minutos.",
+        "En las medias horas, leer la hora que la manecilla corta ya pasó, no la siguiente.",
+        "Poner un reloj a una hora adelantándolo a lo largo del día."
       ]
     },
     "parking-tower.place-by-relation.k-g-a-1": {

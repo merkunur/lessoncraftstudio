@@ -3369,25 +3369,28 @@
     },
     "clock-read.tell-time.1-md-b-3": {
       "about": [
-        "Nella sua casetta con il cucù abita il Gufo, e oggi il piccolo guardiano del tempo sei tu: leggi l’orologio a muro per capire cosa sta facendo il gufo e sposta le lancette sull’ora giusta finché il cucù salta fuori a salutare.",
-        "L’attività allena a leggere l’orologio analogico e a regolare le lancette — l’ora esatta, la mezza e i quarti — collegando ogni ora a un momento della giornata, dalla colazione alla nanna.",
-        "Pensata per la classe seconda e ispirata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggio."
+        "L’orologio a cucù del Gufo ha sul fianco una chiave a molla d’ottone. Il bambino gira la chiave in senso antiorario e le due lancette tornano indietro insieme, un clic ogni cinque minuti. La chiave si ferma da sola quando la lancetta lunga arriva al 12, e in quel momento la lancetta corta è proprio sull’ora in cui si trova l’orologio, e quel numero viene cerchiato. Quando la lascia, l’orologio torna avanti ronzando fino all’ora vera. Poi il bambino risponde: tocca la carta con l’immagine di quello che il Gufo fa a quell’ora, scrive l’ora con due rotelle, trova l’orologio che corrisponde a un’ora digitale oppure estrae la chiave e manda avanti l’orologio fino alla prossima attività del Gufo.",
+        "L’errore tipico con le mezz’ore è leggere l’ora a cui la lancetta corta è più vicina: le 7:30 lette come 8:30. Girando indietro si vede subito, perché la lancetta corta arriva sul 7, mai sull’8. Dopo una risposta sbagliata la molla riporta indietro l’orologio da sola; dopo la seconda, delle perline contano i minuti di cinque in cinque dal 12 alla lancetta lunga. Con una risposta giusta si apre la porticina del cucù ed esce il Gufo con l’immagine di quello che sta facendo. All’ora esatta fa tanti inchini quante sono le ore, e una fila di puntini si accende a ogni inchino, così il numero si vede anche senza audio. Dopo il bambino può girare liberamente l’orologio lungo la giornata del Gufo.",
+        "I suggerimenti parlano delle lancette e non danno mai la risposta. In linea con le Indicazioni nazionali, nucleo Relazioni, dati e previsioni. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Leggere l’ora esatta sull’orologio analogico",
-        "Leggere la mezza e i quarti",
-        "Regolare le lancette dell’orologio",
-        "Collegare l’ora ai momenti della giornata"
+        "Leggere l’ora sulla lancetta corta e i minuti sulla lancetta lunga",
+        "Dire l’ora giusta con le mezz’ore",
+        "Scrivere come ora digitale l’ora mostrata da un orologio a lancette",
+        "Regolare un orologio su un’ora data mandandolo avanti"
       ],
       "howToPlay": [
-        "Leggi l’orologio a muro per scoprire cosa fa il gufo",
-        "Regola le lancette sull’ora giusta",
-        "Sveglia il cucù!"
+        "Guarda l’orologio del Gufo. Gira la chiave in senso antiorario (o tocca ◀) finché le due lancette tornano all’ora esatta, poi lascia.",
+        "Rispondi: tocca la carta con l’ora giusta, gira le due rotelle, tocca l’orologio che corrisponde oppure manda avanti l’orologio con ▶ fino all’ora del cartello.",
+        "Tocca Controlla. Non ancora? L’orologio torna indietro da solo e cerchia l’ora. La seconda volta i minuti vengono contati di cinque in cinque.",
+        "Dopo una risposta giusta esce il Gufo e puoi girare l’orologio liberamente.",
+        "Nelle impostazioni scegli gli orari (Ore esatte e mezz’ore · Con i quarti d’ora) e i round (Leggere e regolare · Solo leggere)."
       ],
       "learningGoals": [
-        "Tuo figlio impara a leggere l’orologio analogico",
-        "Tuo figlio impara a regolare le lancette sull’ora giusta",
-        "Tuo figlio impara a capire ore, mezze e quarti"
+        "Leggere e scrivere l’ora esatta e la mezz’ora su un orologio a lancette.",
+        "Sapere che la lancetta corta indica l’ora e quella lunga i minuti.",
+        "Con le mezz’ore, leggere l’ora che la lancetta corta ha già superato, non la successiva.",
+        "Regolare un orologio su un’ora mandandolo avanti lungo la giornata."
       ]
     },
     "tempo-day-plan.time-prepositions.l-1-1-i": {

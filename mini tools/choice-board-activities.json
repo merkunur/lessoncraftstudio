@@ -978,8 +978,8 @@
   },
   {
     "id": "choice-board.ten-more-less.1-nbt-c-5",
-    "tool": "choice-board-activity",
-    "task_template": "ten-more-less",
+    "tool": "nine-stop-activity",
+    "task_template": "nine-stop",
     "alignment": {
       "framework": "CCSS",
       "code": "1.NBT.C.5",
@@ -987,40 +987,22 @@
       "strand": "Number & Operations in Base Ten"
     },
     "params": {
-      "rounds": [
-        {
-          "n": 34,
-          "op": "more"
-        },
-        {
-          "n": 57,
-          "op": "less"
-        },
-        {
-          "n": 60,
-          "op": "more"
-        },
-        {
-          "n": 82,
-          "op": "less"
-        },
-        {
-          "n": 25,
-          "op": "more"
-        },
-        {
-          "n": 48,
-          "op": "less"
-        },
-        {
-          "n": 71,
-          "op": "more"
-        },
-        {
-          "n": 39,
-          "op": "less"
-        }
-      ]
+      "faces": [
+        "ten",
+        "one",
+        "jumps",
+        "nod"
+      ],
+      "glass": [
+        "clear",
+        "frost"
+      ],
+      "rounds": {
+        "ten": 10,
+        "one": 9,
+        "jumps": 17,
+        "nod": 10
+      }
     },
     "theme": null,
     "slug": {

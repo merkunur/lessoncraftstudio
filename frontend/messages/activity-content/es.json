@@ -3012,25 +3012,28 @@
     },
     "choice-board.ten-more-less.1-nbt-c-5": {
       "about": [
-        "Aparece un número de dos cifras —como 34, 57, 60 u 82— junto a las palabras diez más o diez menos, y tu hijo o hija lo resuelve de cabeza y toca la respuesta entre cuatro opciones. Es una actividad interactiva para 1.º de primaria que se juega directamente en el navegador, en tableta, celular o la computadora del salón, sin instalar nada y sin cuenta.",
-        "La clave es que hallar diez más o diez menos no necesita contar: solo cambia la cifra de las decenas, mientras las unidades quedan exactamente igual; así, 34 y diez más es 44, y 57 y diez menos es 47. Las opciones equivocadas son números cercanos, incluyendo algunos que cambian la cifra de las unidades, de modo que quien cuenta de uno en uno o suma la decena en el lugar equivocado se dará cuenta de que no encaja. La idea es ver las decenas, no contar. Es una actividad para primer grado.",
-        "Está alineada con los planes y programas de estudio (SEP): hallar mentalmente 10 más o 10 menos que un número de dos cifras, sin tener que contar. Sin temporizador y sin puntuación, con práctica tranquila."
+        "El número vive en dos tubos de vidrio: barras de diez en el tubo de las decenas y cubos sueltos en el tubo de las unidades, con una cifra debajo de cada tubo. Los dos tubos se detienen en nueve bajo una tapa, así que si se sube otra unidad en nueve, solo choca con la tapa. Por eso 10 más solo puede ser una barra más en el tubo de las decenas, y el tubo de las unidades se queda como estaba.",
+        "En las rondas de 10 más, 10 menos y 1 más, 1 menos el niño cambia los tubos y presiona Comprobar; en 39 + 1 el tubo de las unidades está lleno, así que el niño sube una barra a las decenas y vacía las unidades con la mano. En las rondas de flechas cada tarjeta mueve un tubo: ↓ y ↑ una barra, → y ← un cubo, y una tarjeta en el tubo equivocado regresa. También hay dos caminos que caen en un mismo número, y rondas en las que el niño primero escribe cuántos saltos de diez y de uno llevan de un número a otro y luego ve cómo los dan los tubos. En las rondas del número del día el niño forma sus cuatro vecinos, que llenan una cruz: 10 menos arriba, 10 más abajo, 1 menos y 1 más a los lados.",
+        "Con el vidrio esmerilado las barras y los cubos están ocultos, así que el niño trabaja con las cifras en la cabeza; al comprobar, el vidrio se aclara. Después de un intento fallido en las rondas de formar números se ilumina el tubo que debe cambiar y un bloque transparente (o uno punteado que sale) muestra el paso; después del segundo, la cifra que no cambia recibe un aro dorado. Cuando la ronda está resuelta, se iluminan los marcos de diez, las marcas de conteo y el número con letra. En línea con los programas de estudio de la SEP (campo formativo Saberes y pensamiento científico). Sin cronómetro y sin puntaje."
       ],
       "practices": [
-        "Hallar 10 más o 10 menos que un número de dos cifras de cabeza.",
-        "Notar que solo cambia la cifra de las decenas mientras las unidades quedan igual.",
-        "Leer si la consigna pide diez más o diez menos.",
-        "Construir el sentido del valor posicional con números hasta el 100."
+        "Encontrar 10 más y 10 menos que un número de dos cifras sin contar",
+        "Ver que con 10 más solo cambia la cifra de las decenas",
+        "Encontrar 1 más y 1 menos, también cuando el tubo de las unidades está lleno o vacío",
+        "Seguir y contar saltos de diez y de uno"
       ],
       "howToPlay": [
-        "Lee el número y fíjate si la consigna pide diez más o diez menos.",
-        "Resuélvelo de cabeza —cambia las decenas, deja igual las unidades— y toca el número que creas correcto.",
-        "Tómate el tiempo que necesites: no hay temporizador ni puntuación, y puedes volver a intentarlo."
+        "Presiona ▲ debajo de un tubo para meter un bloque y ▼ para sacar uno, o arrastra el vidrio hacia arriba y hacia abajo.",
+        "Forma el número nuevo y presiona Comprobar.",
+        "En las rondas de flechas, toca una tarjeta para jugarla en su propio tubo, o arrástrala hasta allí.",
+        "En las rondas de contar, escribe cuántos saltos de diez y de uno son, presiona Comprobar y mira los tubos.",
+        "En la configuración eliges la tarea (10 más, 10 menos · 1 más, 1 menos · saltos de flechas · número del día) y el vidrio (transparente o esmerilado)."
       ],
       "learningGoals": [
-        "Tu hijo o hija puede hallar mentalmente 10 más y 10 menos que cualquier número de dos cifras.",
-        "El niño o la niña aprende que poner o quitar una decena cambia solo la cifra de las decenas.",
-        "Construye la base de valor posicional y cálculo mental para sumar y restar hasta el 100."
+        "Encontrar 10 más o 10 menos que un número de dos cifras mentalmente, sin contar.",
+        "Explicar que con 10 más cambia la cifra de las decenas y la de las unidades se queda igual.",
+        "Encontrar 1 más y 1 menos, también al pasar de una decena a otra.",
+        "Leer las flechas de una tabla del cien como pasos de decenas y de unidades."
       ]
     },
     "clock.tell-time-5-min.2-md-c-7": {

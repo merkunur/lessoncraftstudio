@@ -801,24 +801,28 @@
     },
     "choice-board.ten-more-less.1-nbt-c-5": {
       "about": [
-        "Ett tal som 34, 57, 60 eller 82 dyker upp tillsammans med orden tio mer eller tio mindre, och barnet räknar ut det i huvudet och trycker på svaret bland fyra alternativ. Det är en interaktiv aktivitet för årskurs 1 som körs direkt i webbläsaren på en surfplatta, telefon eller klassrumsdator, utan att något behöver installeras och utan konto.",
-        "Nyckeln är att tio mer eller tio mindre inte behöver räknas alls — bara tiotalssiffran ändras medan entalen står kvar precis som de var, så 34 och tio mer blir 44, och 57 och tio mindre blir 47. De felaktiga alternativen är närliggande tal, även sådana som ändrar entalssiffran, så ett barn som räknar uppåt ett och ett eller lägger till ett tiotal på fel ställe märker att det inte stämmer. Det handlar om att se tiotalen, inte att räkna. Aktiviteten passar årskurs 1 och följer Lgr22."
+        "Talet bor i två glasrör: tiotalsstavar i tiotalsröret och lösa klossar i entalsröret, med en siffra under varje rör. Båda rören tar slut vid nio under ett lock, så om man trycker upp ett ental till vid nio stöter det bara i locket. Därför kan 10 mer bara vara en stav till i tiotalsröret, och entalsröret är som förut.",
+        "I omgångarna 10 mer, 10 mindre och 1 mer, 1 mindre ändrar barnet rören och trycker på Kolla; vid 39 + 1 är entalsröret fullt, så barnet lyfter en stav till tiotalen och tömmer entalen för hand. I pilomgångarna flyttar varje kort ett rör: ↓ och ↑ en stav, → och ← en kloss, och ett kort på fel rör glider tillbaka. Det finns också två resor som landar på ett tal, och omgångar där barnet först skriver hur många hopp av tio och av ett som leder från ett tal till ett annat och sedan ser rören ta dem. I omgångarna med dagens tal gör barnet dess fyra grannar, som fyller ett kors: 10 mindre ovanför, 10 mer under, 1 mindre och 1 mer bredvid.",
+        "Med frostat glas är stavar och klossar dolda, så att barnet räknar med siffrorna i huvudet; när man kollar blir glaset klart. Efter ett felförsök i byggomgångarna lyser röret som ska ändras och en genomskinlig kloss (eller en streckad som ska ut) visar steget; efter det andra får siffran som är oförändrad en guldring. När en omgång är löst lyser tiorutor, streckräkning och talet med bokstäver upp. I linje med Lgr22, centralt innehåll om taluppfattning och tals användning. Utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Hitta tio mer eller tio mindre än ett tvåsiffrigt tal i huvudet",
-        "Lägga märke till att bara tiotalssiffran ändras medan entalen står kvar",
-        "Läsa om uppgiften frågar efter tio mer eller tio mindre",
-        "Bygga upp platsvärdeskänsla för tal upp till 100"
+        "Att hitta 10 mer och 10 mindre än ett tvåsiffrigt tal utan att räkna",
+        "Att se att 10 mer bara ändrar tiotalssiffran",
+        "Att hitta 1 mer och 1 mindre, också när entalsröret är fullt eller tomt",
+        "Att följa och räkna hopp av tio och av ett"
       ],
       "howToPlay": [
-        "Läs talet och om uppgiften frågar efter tio mer eller tio mindre.",
-        "Räkna ut det i huvudet — ändra tiotalen, behåll entalen — och tryck sedan på det tal du tror är rätt.",
-        "Ta all den tid du behöver; det finns ingen tid och inga poäng, och du kan försöka igen."
+        "Tryck på ▲ under ett rör för att lägga i en kloss och på ▼ för att ta ut en, eller dra glaset upp och ner.",
+        "Gör det nya talet och tryck på Kolla.",
+        "I pilomgångarna trycker du på ett kort för att spela det på dess eget rör, eller drar dit det.",
+        "I räkneomgångarna skriver du hur många hopp av tio och av ett det är, trycker på Kolla och tittar på rören.",
+        "I inställningarna väljer du uppgift (10 mer, 10 mindre · 1 mer, 1 mindre · pilhopp · dagens tal) och glas (klart eller frostat)."
       ],
       "learningGoals": [
-        "Barnet kan hitta tio mer och tio mindre än vilket tvåsiffrigt tal som helst i huvudet",
-        "Barnet förstår att ett tiotal till eller bort ändrar bara tiotalssiffran",
-        "Barnet bygger den grund i platsvärde och huvudräkning som behövs för att addera och subtrahera inom 100"
+        "Att hitta 10 mer eller 10 mindre än ett tvåsiffrigt tal i huvudet, utan att räkna.",
+        "Att förklara att 10 mer ändrar tiotalssiffran och låter entalssiffran vara.",
+        "Att hitta 1 mer och 1 mindre, också över ett tiotal.",
+        "Att läsa pilarna på en hundraruta som steg i tiotal och ental."
       ]
     },
     "clock.tell-time-5-min.2-md-c-7": {

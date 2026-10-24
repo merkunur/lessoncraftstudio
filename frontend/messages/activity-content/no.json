@@ -2700,6 +2700,32 @@
         "Å gjøre to antall like ved å legge til i det ene eller ta fra det andre",
         "Å finne starttallet ut fra det som kom til, og det samlede antallet"
       ]
+    },
+    "track-repair.count-to-120.1-nbt-a-1": {
+      "about": [
+        "En storm har revet jernbanen i Fløytedalen i stykker, og sporet er en tallinje: hver sville står for et tall. Barnet drar tallskilt til svillene der de hører hjemme (eller trykker først på et skilt og så på en sville). Ett skilt på vogna hører ikke hjemme på denne strekningen i det hele tatt, så barnet må velge og ikke bare fylle hull. Etterpå sjekker lokomotivet arbeidet ved å telle videre fra stasjonen: lykta lyser opp tallet på hver sville det ruller over, og det stopper ved det første skiltet som ikke stemmer.",
+        "Det er tre spor. På Hopp står toget ved et tall og kjører noen sviller fram eller tilbake; barnet setter det røde flagget der det stopper, og lokomotivet puster ut én røyksky for hvert hopp, så man ser med en gang om startsvillen blir talt som «én». På Finn plassen skrur barnet skilt fast på sviller, skriver noen ganger tallet for en sville med pil og setter noen ganger skilt på en åpen skinne der bare de to endetallene står. På Stolper øker eller minker tallene med like store hopp, og hvert hopp viser hvor stort det er, så skiltet som bryter mønsteret, synes.",
+        "Tallene går opp til 50 eller 120. Etter andre forsøk lar lykta et tall stå igjen på hver tomme sville. I tråd med LK20 om tall og regning. Uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Å telle fram og tilbake fra hvilket som helst tall opp til 120",
+        "Å plassere tall på en tallinje ut fra det nærmeste trykte tallet",
+        "Å lese og skrive tall ved tierovergang og hundreovergang (39, 40 … 99, 100, 101)",
+        "Å finne og fortsette et mønster med like store steg"
+      ],
+      "howToPlay": [
+        "Les oppgaven, og se på tallene som allerede står på sporet.",
+        "Dra et skilt til svillen der tallet hører hjemme, eller trykk først på et skilt og så på en sville. La skiltet som ikke hører til, ligge igjen på vogna.",
+        "På Hopp setter du det røde flagget på svillen der toget stopper. Har en sville en pil, trykker du på den og skriver tallet.",
+        "Trykk på Sjekk, og se lokomotivet telle videre. Stopper det ved et skilt, flytter du det skiltet og sjekker igjen.",
+        "I innstillingene velger du sporet (hopp, finn plassen eller stolper) og tallene (til 50 eller til 120)."
+      ],
+      "learningGoals": [
+        "Å telle til 120 fra hvilket som helst tall",
+        "Å finne et tall på tallinjen ved å telle videre fra et kjent tall",
+        "Å telle i hopp fram og tilbake for å legge sammen og trekke fra",
+        "Å kjenne igjen og fortsette et tallmønster med like store steg"
+      ]
     }
   }
 }

@@ -1614,24 +1614,28 @@
     },
     "track-repair.count-to-120.1-nbt-a-1": {
       "about": [
-        "Une tempête a emporté la voie ferrée de la vallée du Sifflet, et cette voie est une véritable ligne numérique ! Ton enfant lit le nombre écrit sur chaque traverse et la pose exactement à sa place, en comptant à partir des gares-repères déjà en place — en avant, ou en arrière. D'autres défis viennent enrichir le jeu : avancer de 5 en 5 ou de 10 en 10, retrouver le nombre qui manque au milieu, ou même franchir la centaine. Quand toutes les traverses sont posées, la petite locomotive qui chante peut enfin traverser la voie réparée.",
-        "Compter et placer les nombres sur la ligne numérique, avancer de 5 en 5 et de 10 en 10, franchir la dizaine : ce sont des attendus du CP (« placer un nombre sur une ligne graduée », « compter de 5 en 5, de 10 en 10 »). En reliant chaque nombre à sa position sur la voie, l'enfant développe le sens du nombre et sa connaissance de la suite numérique. Le jeu fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Nombres et calcul »)."
+        "Une tempête a abîmé la voie ferrée de la vallée du Sifflet, et cette voie est une ligne numérique : chaque traverse correspond à un nombre. L’enfant fait glisser des plaques numérotées sur les traverses où elles vont (ou touche une plaque, puis une traverse). Une plaque du chariot ne va pas du tout sur ce morceau de voie : l’enfant doit donc choisir, pas seulement remplir des trous. Ensuite, la locomotive vérifie le travail en comptant à partir de la gare : son phare éclaire le nombre de chaque traverse au passage, et elle s’arrête à la première plaque qui ne correspond pas.",
+        "Il y a trois voies. Avec Sauts, le train est sur un nombre et avance ou recule de quelques traverses ; l’enfant plante le drapeau rouge là où il va s’arrêter, et la locomotive lâche un petit nuage à chaque saut : on voit tout de suite quand la traverse de départ est comptée comme « un ». Avec Trouve la place, l’enfant visse des plaques sur des traverses, tape parfois le nombre d’une traverse marquée d’une flèche, et place parfois des plaques sur un rail ouvert où seuls les deux nombres des extrémités sont écrits. Avec Poteaux, les nombres montent ou descendent par sauts égaux, et chaque saut affiche sa taille : la plaque qui casse la suite se voit tout de suite.",
+        "Les nombres vont jusqu’à 50 ou jusqu’à 120. Après un deuxième essai, le phare laisse un nombre sur chaque traverse vide. En lien avec les programmes officiels pour le domaine Nombres et calculs. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Placer un nombre à sa place sur la ligne numérique",
-        "Compter en avant et en arrière à partir d'un nombre",
-        "Avancer de 5 en 5 et de 10 en 10",
-        "Retrouver le nombre qui manque entre deux repères",
-        "Franchir la dizaine et la centaine"
+        "Compter en avançant et en reculant à partir de n’importe quel nombre jusqu’à 120",
+        "Placer des nombres sur une ligne numérique à partir du nombre écrit le plus proche",
+        "Lire et écrire les nombres au passage d’une dizaine ou d’une centaine (39, 40… 99, 100, 101)",
+        "Trouver et continuer une suite qui avance par sauts égaux"
       ],
       "howToPlay": [
-        "Touche une traverse, puis touche l'endroit de la voie où son nombre doit aller.",
-        "Pose toutes les traverses, puis envoie la locomotive sur la voie réparée."
+        "Lis la consigne et regarde les nombres déjà écrits sur la voie.",
+        "Fais glisser une plaque sur la traverse de son nombre, ou touche une plaque puis une traverse. Laisse sur le chariot la plaque qui ne va pas.",
+        "Avec Sauts, plante le drapeau rouge sur la traverse où le train s’arrête. Quand une traverse a une flèche, touche-la et tape son nombre.",
+        "Appuie sur Vérifier et regarde la locomotive compter. Si elle s’arrête devant une plaque, déplace cette plaque et vérifie de nouveau.",
+        "Dans les réglages, choisis la voie (sauts, trouve la place ou poteaux) et les nombres (jusqu’à 50 ou jusqu’à 120)."
       ],
       "learningGoals": [
-        "Placer les nombres sur la ligne numérique",
-        "Compter de 5 en 5 et de 10 en 10",
-        "Développer le sens du nombre"
+        "Compter jusqu’à 120 à partir de n’importe quel nombre",
+        "Placer un nombre sur une ligne numérique en comptant à partir d’un nombre connu",
+        "Avancer et reculer par sauts pour ajouter et retrancher",
+        "Reconnaître et continuer une suite de nombres qui avance par sauts égaux"
       ]
     },
     "bramble.holds-more.k-md-a-2": {

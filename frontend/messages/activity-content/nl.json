@@ -1806,25 +1806,28 @@
     },
     "track-repair.count-to-120.1-nbt-a-1": {
       "about": [
-        "Een flinke storm heeft in het Fluitdal een stuk spoorlijn weggeslagen. Kijk je goed, dan is dat spoor eigenlijk een getallenlijn: twee genummerde stations staan aan het begin en aan het eind, en daartussen horen de bielzen op hun eigen plek. Jij legt elke genummerde biels precies waar dat getal thuishoort op de lijn.",
-        "Al spelend oefen je van alles. Je telt door en terug vanaf een station, ook over een tiental en één keer net over de 100 heen. Je telt met sprongen van 5 en 10 (10, 15, 20 … of 40, 50, 60 …) en zet zulke getalrijen voort. En je zoekt het midden tussen twee stations – 60 ligt precies tussen 40 en 80. Hoe groter het getal, hoe verder naar rechts het op de lijn ligt. Zo bouw je je getalbegrip en de getallenlijn tot 100 stevig op. Dat past bij SLO rekenen, domein getallen, voor groep 4.",
-        "Geen klok, geen score en geen stress: je werkt in je eigen tempo. Ligt een biels nog niet goed? Dan verleg je hem gewoon opnieuw tot het klopt. En als alles op zijn plek ligt, laat je de trein weer vrolijk door het Fluitdal rijden.."
+        "Een storm heeft het spoor in het Fluitdal kapotgemaakt, en het spoor is een getallenlijn: elke dwarsligger staat voor een getal. Het kind sleept getallenbordjes naar de dwarsliggers waar ze horen (of tikt eerst een bordje en dan een dwarsligger aan). Eén bordje op de kar hoort helemaal niet bij dit stuk spoor, dus het kind moet kiezen en niet alleen gaten vullen. Daarna controleert de locomotief het werk door verder te tellen vanaf het station: de koplamp laat bij elke dwarsligger het getal oplichten, en hij stopt bij het eerste bordje dat niet klopt.",
+        "Er zijn drie sporen. Bij Sprongen staat de trein bij een getal en rijdt hij een paar dwarsliggers vooruit of terug; het kind zet de rode vlag waar hij stopt, en de locomotief blaast bij elke sprong één rookwolkje, zodat je meteen ziet of de startdwarsligger als ‘één’ wordt meegeteld. Bij Vind de plek schroeft het kind bordjes op dwarsliggers, typt het soms het getal voor een dwarsligger met een pijl en zet het soms bordjes op open rails waar alleen de twee eindgetallen op staan. Bij Paaltjes gaan de getallen met gelijke sprongen omhoog of omlaag, en elke sprong laat zien hoe groot hij is, zodat het bordje dat niet past opvalt.",
+        "De getallen gaan tot 50 of tot 120. Na de tweede poging laat de koplamp op elke lege dwarsligger een getal staan. Passend bij de kerndoelen voor getallen. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Getallen op de getallenlijn plaatsen: de positie laat de grootte van het getal zien.",
-        "Door- en terugtellen vanaf een station, ook over een tiental en over de 100.",
-        "Springend tellen met sprongen van 5 en 10 en getalrijen voortzetten.",
-        "Het midden tussen twee stations vinden."
+        "Vooruit en terug tellen vanaf elk getal tot 120",
+        "Getallen op de getallenlijn plaatsen vanaf het dichtstbijzijnde gedrukte getal",
+        "Getallen lezen en schrijven over een tiental of honderdtal heen (39, 40 … 99, 100, 101)",
+        "Een patroon met gelijke sprongen vinden en voortzetten"
       ],
       "howToPlay": [
-        "Pak een genummerde biels en leg hem op de juiste plek tussen de twee stations.",
-        "Tel vanaf een station door of terug, of tel in sprongen van 5 en 10 om de plek te vinden.",
-        "Ligt alles goed? Laat de trein rijden – of verleg een biels die nog niet klopt."
+        "Lees de opdracht en kijk naar de getallen die al op het spoor staan.",
+        "Sleep een bordje naar de dwarsligger van zijn getal, of tik eerst een bordje en dan een dwarsligger aan. Laat het bordje dat niet past op de kar liggen.",
+        "Bij Sprongen zet je de rode vlag op de dwarsligger waar de trein stopt. Heeft een dwarsligger een pijl, tik hem dan aan en typ zijn getal.",
+        "Druk op Controleer en kijk hoe de locomotief verder telt. Stopt hij bij een bordje, verplaats dat bordje dan en controleer opnieuw.",
+        "In de instellingen kies je het spoor (sprongen, vind de plek of paaltjes) en de getallen (tot 50 of tot 120)."
       ],
       "learningGoals": [
-        "Ik plaats getallen tot 100 op de juiste plek op de getallenlijn.",
-        "Ik tel door en terug en spring met sprongen van 5 en 10.",
-        "Ik vind het midden tussen twee getallen op de getallenlijn."
+        "Tellen tot 120, vanaf elk getal",
+        "Een getal op de getallenlijn vinden door verder te tellen vanaf een bekend getal",
+        "Met sprongen vooruit en terug tellen om op te tellen en af te trekken",
+        "Een getallenpatroon met gelijke sprongen herkennen en voortzetten"
       ]
     },
     "bram-board-shop.length-word-problems.2-md-b-5": {

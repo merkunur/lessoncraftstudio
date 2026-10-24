@@ -3473,6 +3473,32 @@
         "Att räkna vidare eller bakåt för att hitta en del som fattas",
         "Att göra två sidor med två tal var lika"
       ]
+    },
+    "track-repair.count-to-120.1-nbt-a-1": {
+      "about": [
+        "En storm har slitit sönder järnvägen i Visseldalen, och banan är en tallinje: varje sliper står för ett tal. Barnet drar talskyltar till de sliprar där de hör hemma (eller trycker först på en skylt och sedan på en sliper). En skylt på vagnen hör inte alls till den här sträckan, så barnet måste välja och inte bara fylla luckor. Sedan kontrollerar loket arbetet genom att räkna vidare från stationen: strålkastaren lyser upp talet på varje sliper det rullar över, och det stannar vid den första skylten som inte stämmer.",
+        "Det finns tre spår. I Hopp står tåget vid ett tal och kör några sliprar framåt eller bakåt; barnet sätter den röda flaggan där det stannar, och loket puffar ut ett rökmoln för varje hopp, så det syns direkt om startslipern räknas som ”ett”. I Hitta platsen skruvar barnet fast skyltar på sliprar, skriver ibland talet för en sliper med en pil och sätter ibland skyltar på en öppen räls där bara de två ändtalen står. I Stolpar ökar eller minskar talen med lika stora hopp, och varje hopp visar sin storlek, så skylten som bryter mönstret syns.",
+        "Talen går upp till 50 eller 120. Efter andra försöket lämnar strålkastaren ett tal på varje tom sliper. I linje med Lgr22, centralt innehåll om taluppfattning och tals användning. Utan tidtagning och utan poäng."
+      ],
+      "practices": [
+        "Att räkna framåt och bakåt från vilket tal som helst upp till 120",
+        "Att placera tal på en tallinje utifrån det närmaste tryckta talet",
+        "Att läsa och skriva tal över ett tiotal eller hundratal (39, 40 … 99, 100, 101)",
+        "Att hitta och fortsätta ett mönster med lika stora steg"
+      ],
+      "howToPlay": [
+        "Läs uppgiften och titta på talen som redan står på banan.",
+        "Dra en skylt till slipern där dess tal hör hemma, eller tryck först på en skylt och sedan på en sliper. Låt skylten som inte hör till ligga kvar på vagnen.",
+        "I Hopp sätter du den röda flaggan på slipern där tåget stannar. Om en sliper har en pil trycker du på den och skriver dess tal.",
+        "Tryck på Kontrollera och se hur loket räknar vidare. Om det stannar vid en skylt flyttar du den skylten och kontrollerar igen.",
+        "I inställningarna väljer du spår (hopp, hitta platsen eller stolpar) och tal (upp till 50 eller 120)."
+      ],
+      "learningGoals": [
+        "Att räkna till 120 från vilket tal som helst",
+        "Att hitta ett tal på tallinjen genom att räkna vidare från ett känt tal",
+        "Att räkna i hopp framåt och bakåt för att addera och subtrahera",
+        "Att känna igen och fortsätta ett talmönster med lika stora steg"
+      ]
     }
   }
 }

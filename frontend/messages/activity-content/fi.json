@@ -2694,6 +2694,32 @@
         "Kahden määrän tekeminen yhtä suuriksi lisäämällä toiseen tai ottamalla toisesta",
         "Alkuperäisen määrän päätteleminen lisätystä määrästä ja kokonaismäärästä"
       ]
+    },
+    "track-repair.count-to-120.1-nbt-a-1": {
+      "about": [
+        "Myrsky on rikkonut Pillilaakson rautatien, ja rata on lukusuora: jokainen ratapölkky tarkoittaa yhtä lukua. Lapsi vetää lukukyltit niihin ratapölkkyihin, joihin ne kuuluvat (tai napauttaa ensin kylttiä ja sitten ratapölkkyä). Yksi vaunun kyltti ei kuulu tälle osuudelle ollenkaan, joten lapsen pitää valita eikä vain täyttää aukkoja. Sitten veturi tarkistaa työn laskemalla asemalta eteenpäin: sen etuvalo valaisee jokaisen ratapölkyn luvun sen kohdalla, ja se pysähtyy ensimmäiseen kylttiin, joka ei täsmää.",
+        "Ratoja on kolme. Hypyissä juna on jonkin luvun kohdalla ja ajaa muutaman ratapölkyn eteen- tai taaksepäin; lapsi panee punaisen lipun siihen, mihin juna pysähtyy, ja veturi puhaltaa jokaisesta hypystä yhden savupilven, joten heti näkyy, jos lähtöpölkky lasketaan ”yhdeksi”. Etsi paikka -radalla lapsi kiinnittää kylttejä ratapölkkyihin, kirjoittaa joskus nuolella merkityn ratapölkyn luvun ja sijoittaa joskus kylttejä avoimelle kiskolle, jossa näkyvät vain päiden luvut. Tolpissa luvut kasvavat tai pienenevät yhtä suurin hypyin, ja jokainen hyppy näyttää kokonsa, joten säännön rikkova kyltti erottuu.",
+        "Luvut ulottuvat 50:een tai 120:een. Toisen yrityksen jälkeen etuvalo jättää luvun jokaiseen tyhjään ratapölkkyyn. Sopii opetussuunnitelman sisältöalueeseen Luvut ja laskutoimitukset. Ilman ajanottoa ja ilman pisteytystä."
+      ],
+      "practices": [
+        "Eteen- ja taaksepäin laskeminen mistä tahansa luvusta 120:een asti",
+        "Lukujen sijoittaminen lukusuoralle lähimmästä painetusta luvusta lähtien",
+        "Lukujen lukeminen ja kirjoittaminen kymmenylityksen ja sataylityksen kohdalla (39, 40 … 99, 100, 101)",
+        "Yhtä suurin hypyin etenevän lukujonon löytäminen ja jatkaminen"
+      ],
+      "howToPlay": [
+        "Lue tehtävä ja katso radalla jo olevia lukuja.",
+        "Vedä kyltti siihen ratapölkkyyn, johon sen luku kuuluu, tai napauta ensin kylttiä ja sitten ratapölkkyä. Jätä vaunuun kyltti, joka ei kuulu tähän.",
+        "Hypyissä pane punainen lippu siihen ratapölkkyyn, johon juna pysähtyy. Jos ratapölkyssä on nuoli, napauta sitä ja kirjoita sen luku.",
+        "Paina Tarkista ja katso, kuinka veturi laskee eteenpäin. Jos se pysähtyy kyltin kohdalle, siirrä kylttiä ja tarkista uudelleen.",
+        "Asetuksista valitset radan (hypyt, etsi paikka tai tolpat) ja luvut (50 asti tai 120 asti)."
+      ],
+      "learningGoals": [
+        "Laskeminen 120:een asti mistä tahansa luvusta alkaen",
+        "Luvun paikan löytäminen lukusuoralta laskemalla eteenpäin tutusta luvusta",
+        "Hypyittäin eteen- ja taaksepäin laskeminen yhteen- ja vähennyslaskussa",
+        "Yhtä suurin hypyin etenevän lukujonon tunnistaminen ja jatkaminen"
+      ]
     }
   }
 }

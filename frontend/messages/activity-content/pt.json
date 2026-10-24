@@ -512,25 +512,28 @@
     },
     "clock-digital.read-half-hour.1-md-b-3": {
       "about": [
-        "Sprocket, o galo, leva as crianças ao próximo passo na leitura do relógio: além da hora em ponto, agora elas reconhecem a meia hora. O relógio de ponteiros pode marcar são três horas em ponto ou são três e meia, e a criança toca a hora digital que corresponde.",
-        "Aqui já não basta olhar um ponteiro só: é preciso ler os dois. Quando o ponteiro grande aponta para o 12 é hora em ponto; quando aponta para o 6 é e meia. Assim a criança entende que o ponteiro grande marca os minutos e que meia hora vale trinta minutos.",
-        "Voltada para o 3º ano do ensino fundamental (por volta dos 8 anos), esta prática fortalece a unidade temática Grandezas e medidas da BNCC: ler e registrar horários em relógios de ponteiros e digitais, distinguindo 3:00 de 3:30."
+        "Embaixo do relógio do Sprocket fica a borda dele, desenrolada como uma estrada reta: treze postes do 12 até voltar ao 12, com uma meia pedra entre cada dois. A criança lê os dois ponteiros e toca em um de três cartões digitais. Ao verificar, a ficha do Sprocket anda até o lugar daquela hora na estrada, a estrada se enrola de novo num anel em volta do mostrador e a ficha desliza até a ponta do ponteiro pequeno. Se o cartão estava certo, ela cai bem na ponta, e o relógio anda meia hora: meia volta do ponteiro grande e meio passo do pequeno.",
+        "Cada cartão errado cai a uma distância que dá para ver, ligado à ponta por um arco tracejado. Se a criança escolhe 3:00 para 3:30, a ficha para meio passo antes, porque o ponteiro grande no 6 foi esquecido. Se escolhe 4:30, a ficha cai uma hora inteira além, o erro mais comum com a meia hora, porque o ponteiro pequeno já está perto do 4. Depois da segunda tentativa, a ficha anda pelo anel até a ponta do ponteiro pequeno enquanto o grande gira junto. O ajuste Só meias horas traz nove relógios com meia hora, e Estrada: Só ao verificar esconde a estrada até a verificação, para a criança ler o relógio sem ela.",
+        "As dicas falam dos ponteiros e nunca dão a resposta. De acordo com a BNCC, na unidade temática Grandezas e medidas. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Diferenciar a hora em ponto da meia hora num relógio de ponteiros, por exemplo quatro horas em ponto e quatro e meia.",
-        "Ler os dois ponteiros ao mesmo tempo: o pequeno para as horas e o grande para saber se é em ponto (12) ou e meia (6).",
-        "Relacionar o relógio de ponteiros com a hora digital, distinguindo 3:00 de 3:30.",
-        "Dizer as horas como se fala no Brasil: são três horas em ponto e são três e meia, somando meia hora à hora em curso (lembrando: é uma hora, é uma e meia)."
+        "Ler o ponteiro grande: no 12 é hora exata, no 6 é e meia",
+        "Dizer a hora pelo número que o ponteiro pequeno já passou",
+        "Ver a meia hora como o meio do caminho entre dois números",
+        "Ligar um relógio de ponteiros à hora digital certa"
       ],
       "howToPlay": [
-        "Sprocket mostra um relógio de ponteiros que pode estar em ponto ou na meia hora; observe os dois ponteiros com atenção.",
-        "Repare no ponteiro grande: se aponta para o 12 é em ponto e se aponta para o 6 é e meia; depois toque na hora digital certa, como 3:00 ou 3:30.",
-        "Sprocket comemora seus acertos e deixa você tentar de novo com tranquilidade, sem cronômetro e sem pontuação."
+        "Olhe os dois ponteiros e depois toque na hora digital que combina.",
+        "Toque em Verificar: a ficha anda pela estrada, a estrada se enrola em volta do relógio e a ficha cai na ponta do ponteiro pequeno se você acertou.",
+        "Ainda não? O arco tracejado mostra a que distância a hora ficou. Toque em outro cartão e verifique de novo.",
+        "Depois de uma resposta certa, arraste a ficha pela estrada e veja os ponteiros se mexerem.",
+        "Nos ajustes você escolhe os horários (Horas exatas e meias horas · Só meias horas) e a estrada (Sempre visível · Só ao verificar)."
       ],
       "learningGoals": [
-        "Ler e dizer a hora em ponto e a meia hora num relógio de ponteiros.",
-        "Interpretar juntos o ponteiro pequeno e o grande para localizar tanto a hora quanto os minutos.",
-        "Compreender que meia hora equivale ao ponteiro grande no 6 e expressar isso como são três e meia ao medir o tempo."
+        "Ler horas exatas e meias horas em um relógio de ponteiros e ligá-las à hora digital.",
+        "Usar os dois ponteiros para diferenciar 3:00 de 3:30.",
+        "Na meia hora, dizer a hora pelo número que o ponteiro pequeno já passou, não pelo seguinte.",
+        "Ver uma hora como um passo em volta do relógio e meia hora como meio passo."
       ]
     },
     "graph-it.bar-graph.2-md-d-10": {

@@ -49,55 +49,6 @@
     "kid_prompt_template": "clock-digital"
   },
   {
-    "id": "clock-digital.read-half-hour.1-md-b-3",
-    "tool": "clock-digital-activity",
-    "task_template": "read-time",
-    "alignment": { "framework": "CCSS", "code": "1.MD.B.3", "grade": "1", "strand": "Measurement & Data" },
-    "theme": null,
-    "params": {
-      "granularity": "half",
-      "rounds": [
-        { "id": "ch-330", "target": { "h": 3, "m": 30 }, "options": [ { "h": 3, "m": 30 }, { "h": 3, "m": 0 }, { "h": 8, "m": 30 } ] },
-        { "id": "ch-600", "target": { "h": 6, "m": 0 }, "options": [ { "h": 6, "m": 0 }, { "h": 6, "m": 30 }, { "h": 11, "m": 0 } ] },
-        { "id": "ch-930", "target": { "h": 9, "m": 30 }, "options": [ { "h": 9, "m": 30 }, { "h": 9, "m": 0 }, { "h": 4, "m": 30 } ] },
-        { "id": "ch-100", "target": { "h": 1, "m": 0 }, "options": [ { "h": 1, "m": 0 }, { "h": 1, "m": 30 }, { "h": 7, "m": 0 } ] },
-        { "id": "ch-1130", "target": { "h": 11, "m": 30 }, "options": [ { "h": 11, "m": 30 }, { "h": 11, "m": 0 }, { "h": 5, "m": 30 } ] },
-        { "id": "ch-500", "target": { "h": 5, "m": 0 }, "options": [ { "h": 5, "m": 0 }, { "h": 5, "m": 30 }, { "h": 12, "m": 0 } ] },
-        { "id": "ch-830", "target": { "h": 8, "m": 30 }, "options": [ { "h": 8, "m": 30 }, { "h": 8, "m": 0 }, { "h": 2, "m": 30 } ] },
-        { "id": "ch-200", "target": { "h": 2, "m": 0 }, "options": [ { "h": 2, "m": 0 }, { "h": 2, "m": 30 }, { "h": 10, "m": 0 } ] },
-        { "id": "ch-730", "target": { "h": 7, "m": 30 }, "options": [ { "h": 7, "m": 30 }, { "h": 7, "m": 0 }, { "h": 1, "m": 30 } ] }
-      ]
-    },
-    "slug": {
-      "en": "read-clock-to-the-half-hour",
-      "de": "uhr-ablesen-halbe-stunde-klasse-1",
-      "fr": "lire-lheure-heures-et-demies-ce1",
-      "es": "leer-el-reloj-de-manecillas-la-hora-y-media",
-      "pt": "ler-relogio-de-ponteiros-hora-e-meia-3-ano",
-      "it": "leggere-l-ora-e-mezza-orologio-classe-seconda",
-      "nl": "klok-lezen-hele-en-halve-uren-groep-4", "sv": "lasa-klockan-hela-och-halva-timmar-ak-2"
-    },
-    "page_title": {
-      "en": "Sprocket's Clock — Read the Clock to the Half-Hour (Grade 1)",
-      "de": "Sprockets Uhr — Volle und halbe Stunden ablesen (Klasse 1)",
-      "fr": "L'horloge de Sprocket — Lire les heures et les demi-heures (CE1)",
-      "es": "Sprocket el gallo: lee la hora y la media hora (2º primaria)",
-      "pt": "Sprocket, o galo: ler a hora e a meia hora no relógio de ponteiros (3º ano)",
-      "it": "L'orologio di Sprocket — leggere l'ora e la mezz'ora sull'orologio (classe seconda)",
-      "nl": "Kukel de haan — Hele en halve uren klokkijken (Groep 4)", "sv": "Tores klocka – läsa klockan, hela och halva timmar (åk 2)"
-    },
-    "page_intro": {
-      "en": "An interactive Grade 1 time activity: read an analog clock at o'clock AND half-past times, then tap the matching digital time. Children must read BOTH hands — the long hand on 12 for o'clock or on 6 for half past — to tell 3:00 from 3:30. Sprocket the rooster cheers them on. A friendly next step in telling time after the hour. Common Core 1.MD.B.3.",
-      "de": "Mit Hahn Sprocket die analoge Uhr ablesen üben – volle und halbe Stunden. Tippe die richtige Uhrzeit. Uhr lesen für Klasse 1, interaktiv, Mathe Grundschule.",
-      "fr": "Avec Sprocket le coq, votre enfant lit l'horloge à aiguilles pour distinguer les heures et les demi-heures, « 3 h 00 » ou « 3 h 30 ». Activité interactive, CE1, « Grandeurs et mesures ».",
-      "es": "Actividad interactiva para 2º de primaria: Sprocket, el gallo, muestra un reloj de manecillas en punto y a la media hora (las 3 en punto y las 3 y media) para que tu peque toque la hora digital. Alineada al eje de tiempo de la SEP.",
-      "pt": "Atividade interativa para o 3º ano: Sprocket, o galo, mostra um relógio de ponteiros na hora em ponto e na meia hora (são três horas em ponto e são três e meia), e a criança lê os dois ponteiros para tocar a hora digital certa (3:00 ou 3:30). Na unidade temática Grandezas e medidas da BNCC. Online e sem cadastro.",
-      "it": "Attività interattiva per la classe seconda: Sprocket mostra un orologio a lancette che segna l'ora in punto e la mezz'ora, e il bambino legge tutte e due le lancette per capire se è «le tre in punto» o «le tre e mezza». Osservando la lancetta corta delle ore e la lancetta lunga dei minuti, sceglie l'ora digitale giusta (3:00 o 3:30). Online e senza registrazione, nel browser. Allineata alle Indicazioni nazionali, nucleo Relazioni, dati e previsioni (la misura del tempo).",
-      "nl": "Interactief klokkijken met hele én halve uren. Kukel de haan laat een klok zien en je kind leest beide wijzers om 3 uur van half vier te onderscheiden. Sluit aan bij de SLO-kerndoelen (Groep 4).", "sv": "Läs den analoga klockan med tuppen Tore och tryck på rätt digital tid — hela och halva timmar. Barnet läser båda visarna och ser att halv fyra är 3:30. Följer Lgr22, åk 2."
-    },
-    "kid_prompt_template": "clock-digital"
-  },
-  {
     "id": "clock-digital.read-quarter-hour.2-md-c-7",
     "tool": "clock-digital-activity",
     "task_template": "read-time",

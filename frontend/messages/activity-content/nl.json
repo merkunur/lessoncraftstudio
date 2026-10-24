@@ -2812,25 +2812,28 @@
     },
     "clock-digital.read-half-hour.1-md-b-3": {
       "about": [
-        "Kukel de haan laat een klok zien. Nu gaat het om hele én halve uren: je kind moet dus beide wijzers goed bekijken en daarna de juiste digitale tijd aantikken, zoals 3:00 of 3:30. Uit drie tijden kiest je kind de tijd die echt bij de klok hoort.",
-        "De grote wijzer verklapt alles: staat hij op de 12, dan is het een heel uur; staat hij op de 6, dan is het een half uur. En let op de kleine wijzer — bij half vier (3:30) staat die tussen de 3 en de 4, bijna bij de 4. Daarom zeggen we \"half vier\" en niet \"half drie\": het halve uur kijkt vooruit naar het volgende uur. Juist die stap voorkomt de bekende vergissing waarbij kinderen het verkeerde uur noemen.",
-        "De activiteit sluit aan bij de SLO-kerndoelen voor meten en meetkunde (tijd) en oefent zonder tijdsdruk of punten. Kukel doet nooit flauw over een misser: je kind mag rustig opnieuw kijken en kiezen, net zo vaak als nodig is."
+        "Onder de klok van Kukel ligt de rand van de klok, uitgerold tot een rechte weg: dertien paaltjes van de 12 rond tot weer de 12, met tussen elke twee paaltjes een halve steen. Het kind leest beide wijzers en tikt op een van drie digitale kaartjes. Bij Controleer loopt het pionnetje van Kukel naar de plek van die tijd op de weg, rolt de weg weer op tot een ring rond de wijzerplaat en schuift het pionnetje naar de punt van de kleine wijzer. Was het kaartje goed, dan landt het precies op die punt en loopt de klok een half uur door: de grote wijzer een halve ronde, de kleine wijzer een halve stap.",
+        "Elk fout kaartje landt zichtbaar ernaast, met een gestippelde boog tot de punt. Wie bij 3:30 voor 3:00 kiest, stopt een halve stap te vroeg, omdat de grote wijzer op de 6 niet is gezien. Wie 4:30 kiest, landt een heel uur te ver, de bekendste fout bij halve uren, omdat de kleine wijzer al dicht bij de 4 staat, en omdat we „half vier” zeggen. Na een tweede poging loopt het pionnetje over de ring naar de punt van de kleine wijzer en draait de grote wijzer mee. Met de instelling Alleen halve uren komen er negen klokken met halve uren, en Weg: Alleen bij controleren verbergt de weg tot Controleer, zodat het kind de klok zonder de weg leest.",
+        "De hints gaan over de wijzers en verklappen nooit het antwoord. Passend bij de kerndoelen voor meten. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Hele én halve uren aflezen van een analoge klok",
-        "Beide wijzers lezen: grote wijzer op de 12 of op de 6",
-        "\"Half vier\" begrijpen als 3:30 (half naar het volgende uur)",
-        "De analoge klok koppelen aan de juiste digitale tijd"
+        "De grote wijzer lezen: op de 12 een heel uur, op de 6 half",
+        "Het uur noemen aan het getal waar de kleine wijzer voorbij is",
+        "Een half uur zien als halverwege tussen twee getallen",
+        "Een wijzerklok koppelen aan de juiste digitale tijd"
       ],
       "howToPlay": [
-        "Kijk goed naar allebei de wijzers op de klok van Kukel.",
-        "Tik op de digitale tijd die erbij hoort — is het een heel uur of een half uur?",
-        "Tik op \"Controleer\" om te kijken of het klopt — nog niet gelukt? Probeer het gerust nog eens."
+        "Kijk naar beide wijzers en tik dan op de digitale tijd die erbij past.",
+        "Tik op Controleer: het pionnetje loopt over de weg, de weg rolt rond de klok en het pionnetje landt op de punt van de kleine wijzer als je goed zat.",
+        "Nog niet? De gestippelde boog laat zien hoe ver de tijd ernaast zat. Tik op een ander kaartje en controleer opnieuw.",
+        "Na een goed antwoord kun je het pionnetje over de weg slepen en zien hoe de wijzers meedraaien.",
+        "In de instellingen kies je de tijden (Hele en halve uren · Alleen halve uren) en de weg (Altijd zichtbaar · Alleen bij controleren)."
       ],
       "learningGoals": [
-        "Je kind kan hele en halve uren op een analoge klok aflezen.",
-        "Je kind ziet aan de grote wijzer (op de 12 of op de 6) of het een heel of half uur is.",
-        "Je kind snapt dat half vier hetzelfde is als 3:30 en tikt de juiste digitale tijd aan."
+        "Hele en halve uren aflezen op een wijzerklok en koppelen aan de digitale tijd.",
+        "Met beide wijzers 3:00 en 3:30 uit elkaar houden.",
+        "Bij halve uren het getal zien waar de kleine wijzer voorbij is.",
+        "Een uur zien als één stap rond de klok en een half uur als een halve stap."
       ]
     },
     "ten-stones.add-sub-within-20.1-oa-c-6": {

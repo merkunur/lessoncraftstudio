@@ -1191,25 +1191,28 @@
     },
     "clock-digital.read-half-hour.1-md-b-3": {
       "about": [
-        "„Uhr ablesen — volle und halbe Stunden“ baut direkt auf dem Ablesen der vollen Stunde auf und nimmt nun die halbe Stunde hinzu. Der Hahn Sprocket zeigt eine analoge Uhr; das Kind liest sie ab und tippt die passende digitale Uhrzeit an. Auch hier geht es um das Ablesen der bereits gestellten Uhr, nicht um das Einstellen der Zeiger.",
-        "Bei der halben Stunde zeigt der lange Zeiger nach unten auf die 6. Wichtig ist die deutsche Sprechweise: Wir sagen „halb vier“ und meinen damit 3:30 — also eine halbe Stunde vor vier Uhr. Diese Aktivität verknüpft beide Darstellungen ausdrücklich: Auf dem Knopf steht „3:30“, und die Kinder lernen, dass das „halb vier“ heißt. Genau diese Verbindung beugt dem häufigsten Fehler vor, bei „halb“ versehentlich die gerade sichtbare Stunde zu nennen.",
-        "Das Ablesen der halben Stunde gehört zum Lehrplan der Klassen 1 und 2 im Bereich Größen und Messen – Zeit und wird in Klasse 2 gefestigt. Die Aktivität läuft direkt im Browser und kommt ohne Zeitdruck und ohne Punkte aus. Als Gegenstück zum Einstellen der Zeiger eignet sich die Aktivität „Stell die Uhr“."
+        "Unter Sprockets Uhr liegt ihr Rand, abgerollt zu einem geraden Weg: dreizehn Pfosten von der 12 einmal herum bis wieder zur 12, und zwischen je zwei Pfosten ein halber Stein. Das Kind liest beide Zeiger ab und tippt auf eine von drei Digitalkarten. Beim Prüfen läuft Sprockets Figur zur Stelle dieser Uhrzeit auf dem Weg, der Weg rollt sich wieder zu einem Ring um das Zifferblatt, und die Figur rutscht hinein bis zur Spitze des kleinen Zeigers. War die Karte richtig, landet sie genau auf der Spitze, und die Uhr läuft eine halbe Stunde weiter: der große Zeiger eine halbe Runde, der kleine Zeiger einen halben Schritt.",
+        "Jede falsche Karte landet sichtbar daneben, mit einem gestrichelten Bogen bis zur Spitze. Wer bei 3:30 die 3:00 wählt, bleibt einen halben Schritt zu früh stehen, weil der große Zeiger auf der 6 übersehen wurde. Wer 4:30 wählt, landet eine ganze Stunde zu weit – der häufigste Fehler bei halben Stunden, weil der kleine Zeiger schon nahe bei der 4 steht – und weil man „halb vier“ sagt. Nach dem zweiten Versuch läuft die Figur auf dem Ring bis zur Spitze des kleinen Zeigers, und der große Zeiger dreht sich mit. Die Einstellung Nur halbe Stunden zeigt neun Uhren mit halben Stunden, und Weg: Nur zum Prüfen versteckt den Weg bis zum Prüfen, sodass das Kind die Uhr ohne ihn liest.",
+        "Die Hinweise sprechen über die Zeiger und verraten nie die Lösung. Passend zum Lehrplan im Bereich Größen und Messen. Ohne Zeitdruck und ohne Punktwertung."
       ],
       "practices": [
-        "Volle und halbe Stunden auf der analogen Uhr ablesen",
-        "Die Sprechweise „halb vier“ mit der digitalen Anzeige 3:30 verbinden",
-        "Erkennen, dass der lange Zeiger bei „halb“ nach unten auf die 6 zeigt",
-        "Bei der halben Stunde bereits die nächste Stunde mitdenken („halb vier“ = vor vier)"
+        "Den großen Zeiger ablesen: auf der 12 eine volle Stunde, auf der 6 eine halbe",
+        "Die Stunde an der Zahl erkennen, an der der kleine Zeiger vorbei ist",
+        "Halbe Stunden als halben Weg zwischen zwei Zahlen sehen",
+        "Eine Zeigeruhr der passenden Digitalzeit zuordnen"
       ],
       "howToPlay": [
-        "Schau dir Sprockets Uhr an: Steht der lange Zeiger oben auf der 12 oder unten auf der 6?",
-        "Steht er auf der 6, ist es eine halbe Stunde — denke an die nächste Stunde (z. B. halb vier).",
-        "Tippe die passende digitale Uhrzeit an (z. B. 3:30 für „halb vier“)."
+        "Schau dir beide Zeiger an und tippe dann auf die passende digitale Uhrzeit.",
+        "Tippe auf Prüfen: Die Figur läuft den Weg entlang, der Weg rollt sich um die Uhr, und die Figur landet auf der Spitze des kleinen Zeigers, wenn du richtig liegst.",
+        "Noch nicht? Der gestrichelte Bogen zeigt, wie weit die Zeit daneben lag. Tippe auf eine andere Karte und prüfe noch einmal.",
+        "Nach einer richtigen Antwort kannst du die Figur den Weg entlangziehen und zusehen, wie sich die Zeiger bewegen.",
+        "In den Einstellungen wählst du die Uhrzeiten (Volle und halbe Stunden · Nur halbe Stunden) und den Weg (Immer zu sehen · Nur zum Prüfen)."
       ],
       "learningGoals": [
-        "Die Kinder lesen volle und halbe Stunden von der analogen Uhr ab.",
-        "Sie verstehen und benennen die halbe Stunde in der deutschen Form „halb …“ (halb vier = 3:30).",
-        "Sie verknüpfen analoge und digitale Darstellung sicher und vermeiden die typische „halb“-Verwechslung."
+        "Uhrzeiten zu vollen und halben Stunden an der Zeigeruhr ablesen und der passenden Digitalzeit zuordnen.",
+        "Mit beiden Zeigern 3:00 und 3:30 unterscheiden.",
+        "Bei halben Stunden die Zahl erkennen, an der der kleine Zeiger vorbei ist.",
+        "Eine Stunde als einen Schritt um die Uhr sehen und eine halbe Stunde als einen halben Schritt."
       ]
     },
     "ten-stones.add-sub-within-20.1-oa-c-6": {

@@ -2859,6 +2859,32 @@
         "Kolmen esineen järjestäminen mitatun pituuden mukaan.",
         "Sen ymmärtäminen, että suuremmalla yksiköllä mitattaessa luku on pienempi."
       ]
+    },
+    "clock-digital.read-half-hour.1-md-b-3": {
+      "about": [
+        "Sprocketin kellon alla on kellon reuna avattuna suoraksi tieksi: kolmetoista tolppaa 12:sta ympäri takaisin 12:een, ja jokaisen kahden tolpan välissä on puolivälin kivi. Lapsi lukee molemmat viisarit ja napauttaa yhtä kolmesta digitaalisesta kortista. Tarkistettaessa Sprocketin nappula kävelee tiellä kellonajan kohdalle, tie kiertyy takaisin renkaaksi kellotaulun ympärille, ja nappula liukuu lyhyen viisarin kärkeen. Jos kortti oli oikea, nappula osuu täsmälleen kärkeen, ja kello kulkee puoli tuntia eteenpäin: pitkä viisari puoli kierrosta ja lyhyt viisari puoli askelta.",
+        "Jokainen väärä kortti päätyy näkyvän matkan päähän, ja katkoviivainen kaari yhdistää sen kärkeen. Jos 3:30:lle valitaan 3:00, nappula pysähtyy puoli askelta liian aikaisin, koska pitkää viisaria 6:n kohdalla ei huomattu. Jos valitaan 4:30, nappula menee kokonaisen tunnin liian pitkälle. Se on puolitunteihin liittyvä yleisin virhe, koska lyhyt viisari on jo lähellä 4:ää ja koska sanotaan ”puoli neljä”. Toisen yrityksen jälkeen nappula kävelee rengasta pitkin lyhyen viisarin kärkeen, ja pitkä viisari kääntyy mukana. Asetus Vain puolitunnit antaa yhdeksän puolitunnin kelloa, ja Tie: Vain tarkistettaessa piilottaa tien tarkistukseen asti, joten lapsi lukee kellon ilman sitä.",
+        "Vihjeet puhuvat viisareista eivätkä koskaan kerro vastausta. Sopii opetussuunnitelman sisältöalueeseen Geometria ja mittaaminen. Ilman ajanottoa ja ilman pisteytystä."
+      ],
+      "practices": [
+        "Pitkän viisarin lukeminen: 12:n kohdalla tasan, 6:n kohdalla puoli",
+        "Tunnin nimeäminen sen numeron mukaan, jonka ohi lyhyt viisari on mennyt",
+        "Puolen tunnin näkeminen puolivälinä kahden numeron välissä",
+        "Viisarikellon yhdistäminen oikeaan digitaaliseen aikaan"
+      ],
+      "howToPlay": [
+        "Katso molempia viisareita ja napauta sitten sopivaa digitaalista aikaa.",
+        "Napauta Tarkista: nappula kävelee tietä pitkin, tie kiertyy kellon ympärille, ja nappula osuu lyhyen viisarin kärkeen, jos vastasit oikein.",
+        "Ei vielä? Katkoviivainen kaari näyttää, kuinka kaukana aika oli. Napauta toista korttia ja tarkista uudelleen.",
+        "Oikean vastauksen jälkeen voit vetää nappulaa tietä pitkin ja katsoa, miten viisarit liikkuvat.",
+        "Asetuksista valitset ajat (Tasa- ja puolitunnit · Vain puolitunnit) ja tien (Aina näkyvissä · Vain tarkistettaessa)."
+      ],
+      "learningGoals": [
+        "Tasatuntien ja puolituntien lukeminen viisarikellosta ja yhdistäminen digitaaliseen aikaan.",
+        "Molempien viisarien käyttäminen, jotta 3:00 ja 3:30 erottuvat toisistaan.",
+        "Puolitunneilla sen numeron huomaaminen, jonka ohi lyhyt viisari on mennyt.",
+        "Tunnin näkeminen yhtenä askeleena kellon ympäri ja puolen tunnin puolena askeleena."
+      ]
     }
   }
 }

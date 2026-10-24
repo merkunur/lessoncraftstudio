@@ -2864,6 +2864,32 @@
         "Å ordne tre ting etter den målte lengden.",
         "Å forstå at en større enhet gir et mindre tall når man måler."
       ]
+    },
+    "clock-digital.read-half-hour.1-md-b-3": {
+      "about": [
+        "Under Sprockets klokke ligger kanten av klokka, rullet ut til en rett vei: tretten stolper fra 12 hele veien rundt til 12 igjen, med en halv stein mellom hvert par. Barnet leser av begge viserne og trykker på ett av tre digitale kort. Ved Sjekk går Sprockets brikke til klokkeslettets plass på veien, veien ruller seg sammen til en ring rundt urskiven, og brikken glir inn til spissen av den lille viseren. Var kortet riktig, lander den akkurat på spissen, og klokka går en halvtime videre: den store viseren en halv runde, den lille viseren et halvt steg.",
+        "Hvert feil kort lander et synlig stykke ved siden av, med en stiplet bue bort til spissen. Velger barnet 3:00 ved 3:30, stopper brikken et halvt steg for tidlig, fordi den store viseren på 6 ble oversett. Velger det 4:30, lander brikken en hel time for langt – den vanligste feilen med halvtimer, fordi den lille viseren allerede er nær 4, og fordi man sier «halv fire». Etter andre forsøk går brikken rundt ringen til spissen av den lille viseren, mens den store viseren dreier med. Innstillingen Bare halve timer gir ni klokker med halvtimer, og Vei: Bare ved sjekk skjuler veien til Sjekk, slik at barnet leser klokka uten den.",
+        "Hjelpen handler om viserne og røper aldri svaret. I tråd med LK20 i matematikk. Uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Å lese den store viseren: på 12 hel time, på 6 halv",
+        "Å si timen ut fra tallet den lille viseren har passert",
+        "Å se halv som halvveis mellom to tall",
+        "Å koble en analog klokke til riktig digitalt klokkeslett"
+      ],
+      "howToPlay": [
+        "Se på begge viserne, og trykk så på det digitale klokkeslettet som passer.",
+        "Trykk på Sjekk: Brikken går langs veien, veien ruller seg rundt klokka, og brikken lander på spissen av den lille viseren hvis du hadde rett.",
+        "Ikke helt? Den stiplede buen viser hvor langt unna klokkeslettet var. Trykk på et annet kort og sjekk igjen.",
+        "Etter et riktig svar kan du dra brikken langs veien og se viserne bevege seg.",
+        "I innstillingene velger du klokkeslettene (Hele og halve timer · Bare halve timer) og veien (Alltid synlig · Bare ved sjekk)."
+      ],
+      "learningGoals": [
+        "Å lese av hele og halve timer på en analog klokke og koble dem til det digitale klokkeslettet.",
+        "Å bruke begge viserne for å skille 3:00 fra 3:30.",
+        "Ved halvtimer å se hvilket tall den lille viseren har passert.",
+        "Å se en time som ett steg rundt klokka og en halvtime som et halvt steg."
+      ]
     }
   }
 }

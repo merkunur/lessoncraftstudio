@@ -1308,25 +1308,28 @@
     },
     "clock-digital.read-half-hour.1-md-b-3": {
       "about": [
-        "An analog clock shows a time like 3:00, 3:30, 9:30, or 6:00, and the child reads both hands and taps the matching digital time from three choices. Sprocket the rooster cheers along in this interactive Grade 1 time activity about reading o'clock and half-past times, right in the browser with nothing to install and no account.",
-        "The big idea is that the minute hand tells you whether it is o'clock or half past: pointed straight up at the 12 means the start of the hour, pointed straight down at the 6 means thirty minutes in. Because the wrong choices include the same hour at the other time — 3:00 paired against 3:30 — a child cannot read the short hand alone; they have to check both hands to tell 3:00 from 3:30. That two-hand reading is the next step up from telling time to the hour.",
-        "It is aligned to Common Core 1.MD.B.3 — telling and writing time in hours and half-hours from analog and digital clocks. No timer, no score — just calm, playful practice."
+        "Under Sprocket's clock lies its rim, unrolled into a straight road: thirteen posts from 12 round to 12 again, with a half stone between every two. The child reads both hands and taps one of three digital cards. On Check, Sprocket's marker walks to that time's spot on the road, the road rolls back up into a ring round the dial, and the marker slides in to the tip of the short hand. If the card was right, it lands exactly on the tip, and the clock runs on by half an hour: half a lap of the long hand and half a step of the short hand.",
+        "Every wrong card lands a visible distance away, joined to the tip by a dashed arc. If the child chooses 3:00 for 3:30, the marker stops half a step short, because the long hand on the 6 was ignored. If they choose 4:30, the marker lands a whole hour too far, the most common half-past mistake, made because the short hand is already close to the 4. After a second try the marker walks round the ring to the short hand's tip while the long hand turns with it. The setting Half past only gives nine half-past clocks, and Road: Only to check hides the road until Check, so the child reads the clock without it.",
+        "Hints talk about the hands and never give the answer. Aligned to Common Core 1.MD.B.3. No timer and no score."
       ],
       "practices": [
-        "Reading the minute hand at the 12 for o'clock and the 6 for half past",
-        "Checking both clock hands instead of just the hour hand",
-        "Telling o'clock from half past for the same hour (3:00 versus 3:30)",
-        "Matching the clock face to the right digital time"
+        "Reading the long hand: on the 12 for o'clock, on the 6 for half past",
+        "Naming the hour by the number the short hand has passed",
+        "Seeing half past as halfway between two numbers",
+        "Matching an analog clock to its digital time"
       ],
       "howToPlay": [
-        "Look at the clock and check both hands — the long hand on 12 means o'clock, on 6 means half past.",
-        "Tap the digital time that matches, then check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Look at both hands, then tap the digital time that matches.",
+        "Press Check: the marker walks the road, the road rolls round the clock, and the marker lands on the short hand's tip if you were right.",
+        "Not yet? The dashed arc shows how far off the time was. Tap another card and check again.",
+        "After a right answer, drag the marker along the road and watch the hands move.",
+        "In the settings, choose the times (O'clock and half past · Half past only) and the road (Always shown · Only to check)."
       ],
       "learningGoals": [
-        "Tell time to the hour and half-hour on an analog clock — the focus of Common Core 1.MD.B.3.",
-        "Read both clock hands to tell 3:00 apart from 3:30.",
-        "Build the clock-reading foundation that quarter-hour and five-minute times build on."
+        "Tell time in hours and half-hours from an analog clock and match it to its digital time — the focus of Common Core 1.MD.B.3.",
+        "Use both hands to tell 3:00 from 3:30.",
+        "At half past, name the hour by the number the short hand has passed, not the next one.",
+        "See an hour as one step round the clock and half an hour as half a step."
       ]
     },
     "clock-digital.read-hour.1-md-b-3": {

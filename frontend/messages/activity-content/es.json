@@ -2280,25 +2280,28 @@
     },
     "clock-digital.read-half-hour.1-md-b-3": {
       "about": [
-        "Con Sprocket, el gallo, los niños dan el siguiente paso al leer el reloj: además de «la hora en punto», ahora reconocen «la media hora». El reloj de manecillas puede marcar las tres en punto o las tres y media, y el peque toca la hora digital que corresponde.",
-        "Aquí ya no basta con mirar una sola manecilla: hay que leer las dos. Cuando la manecilla larga apunta al 12 es en punto, y cuando apunta al 6 es «y media». Así los niños entienden que la manecilla larga marca los minutos.",
-        "Dirigida a segundo de primaria (aproximadamente 7 a 8 años), esta práctica fortalece el eje de «Magnitud y medida — tiempo» dentro de «Forma, espacio y medida» de los planes y programas de estudio de la SEP y la Nueva Escuela Mexicana; la lectura de la media hora se consolida en este grado."
+        "Debajo del reloj de Sprocket está su borde, desenrollado como un camino recto: trece postes del 12 hasta volver al 12, con una media piedra entre cada dos. El niño lee las dos manecillas y toca una de tres tarjetas digitales. Al comprobar, la ficha de Sprocket camina hasta el lugar de esa hora en el camino, el camino se vuelve a enrollar en un anillo alrededor de la carátula y la ficha se desliza hasta la punta de la manecilla corta. Si la tarjeta era la correcta, cae justo en la punta, y el reloj avanza media hora: media vuelta de la manecilla larga y medio paso de la corta.",
+        "Cada tarjeta equivocada cae a una distancia que se ve, unida a la punta por un arco punteado. Si el niño elige 3:00 para las 3:30, la ficha se queda medio paso antes, porque no se miró la manecilla larga en el 6. Si elige 4:30, la ficha cae una hora completa más allá, el error más común con la media hora, porque la manecilla corta ya está cerca del 4. Después del segundo intento, la ficha camina por el anillo hasta la punta de la manecilla corta mientras la larga gira con ella. El ajuste Solo medias horas da nueve relojes con media hora, y Camino: Solo al comprobar esconde el camino hasta comprobar, para que el niño lea el reloj sin él.",
+        "Las pistas hablan de las manecillas y nunca dan la respuesta. En línea con los programas de estudio de la SEP (campo formativo Saberes y pensamiento científico). Sin cronómetro y sin puntaje."
       ],
       "practices": [
-        "Diferenciar «la hora en punto» de «la media hora» en un reloj de manecillas, por ejemplo las 4 en punto y las 4 y media.",
-        "Leer las dos manecillas a la vez: la corta para la hora y la larga para saber si es en punto (12) o y media (6).",
-        "Relacionar el reloj de manecillas con su hora digital, distinguiendo 3:00 de 3:30.",
-        "Decir la hora como se usa en México: «las tres en punto» y «las tres y media», sumando media hora a la hora en curso."
+        "Leer la manecilla larga: en el 12 es en punto, en el 6 es y media",
+        "Decir la hora por el número que ya pasó la manecilla corta",
+        "Ver la media hora como la mitad del camino entre dos números",
+        "Relacionar un reloj de manecillas con su hora digital"
       ],
       "howToPlay": [
-        "Sprocket muestra un reloj de manecillas que puede estar en punto o a la media hora; observa las dos manecillas con atención.",
-        "Fíjate en la manecilla larga: si apunta al 12 es «en punto» y si apunta al 6 es «y media»; luego toca la hora digital correcta, como 3:00 o 3:30.",
-        "Sprocket celebra tus aciertos y te deja volver a intentarlo con tranquilidad, sin tiempos ni calificaciones."
+        "Mira las dos manecillas y luego toca la hora digital que corresponde.",
+        "Toca Comprobar: la ficha camina por el camino, el camino se enrolla alrededor del reloj y la ficha cae en la punta de la manecilla corta si acertaste.",
+        "¿Todavía no? El arco punteado muestra qué tan lejos quedó la hora. Toca otra tarjeta y vuelve a comprobar.",
+        "Después de una respuesta correcta, arrastra la ficha por el camino y mira cómo se mueven las manecillas.",
+        "En los ajustes eliges las horas (Horas en punto y medias horas · Solo medias horas) y el camino (Siempre visible · Solo al comprobar)."
       ],
       "learningGoals": [
-        "Leer y decir la hora en punto y la media hora en un reloj de manecillas.",
-        "Interpretar juntas la manecilla corta y la larga para ubicar tanto la hora como los minutos.",
-        "Comprender que media hora equivale a la manecilla larga en el 6 y expresarlo como «las tres y media» al medir el tiempo."
+        "Leer la hora en punto y la media hora en un reloj de manecillas y relacionarla con su hora digital.",
+        "Usar las dos manecillas para distinguir las 3:00 de las 3:30.",
+        "En la media hora, decir la hora por el número que ya pasó la manecilla corta, no por el siguiente.",
+        "Ver una hora como un paso alrededor del reloj y media hora como medio paso."
       ]
     },
     "graph-it.bar-graph.2-md-d-10": {

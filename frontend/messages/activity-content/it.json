@@ -1367,26 +1367,28 @@
     },
     "clock-digital.read-half-hour.1-md-b-3": {
       "about": [
-        "In classe seconda si fa un passo avanti: con Sprocket il gallo i bambini imparano a distinguere l'ora in punto dalla mezz'ora leggendo insieme le due lancette dell'orologio.",
-        "Il segreto è la lancetta lunga dei minuti: quando è sul 12 l'ora è in punto, quando è sul 6 è passata la mezz'ora e si dice «e mezza».",
-        "Alla mezz'ora si legge sempre l'ora \"di prima\": se la lancetta corta è tra il 7 e l'8 con quella lunga sul 6, si dice «le sette e mezza», non le otto. Nessun punteggio e nessun tempo: solo tanti orologi da leggere con calma."
+        "Sotto l’orologio di Sprocket c’è il suo bordo, srotolato come una strada dritta: tredici paletti dal 12 fino a tornare al 12, con un mezzo sasso tra ogni coppia. Il bambino legge le due lancette e tocca una di tre carte digitali. Con Controlla, la pedina di Sprocket cammina fino al punto di quell’ora sulla strada, la strada si riavvolge in un anello intorno al quadrante e la pedina scivola fino alla punta della lancetta corta. Se la carta era giusta, atterra proprio sulla punta, e l’orologio va avanti di mezz’ora: mezzo giro della lancetta lunga e mezzo passo di quella corta.",
+        "Ogni carta sbagliata atterra a una distanza ben visibile, unita alla punta da un arco tratteggiato. Se il bambino sceglie 3:00 per le 3:30, la pedina si ferma mezzo passo prima, perché la lancetta lunga sul 6 non è stata guardata. Se sceglie 4:30, la pedina atterra un’ora intera più in là, l’errore più comune con la mezz’ora, perché la lancetta corta è già vicina al 4. Dopo il secondo tentativo la pedina cammina sull’anello fino alla punta della lancetta corta, mentre quella lunga gira con lei. L’impostazione Solo mezz’ore dà nove orologi con la mezz’ora, e Strada: Solo al controllo nasconde la strada fino al controllo, così il bambino legge l’orologio senza vederla.",
+        "I suggerimenti parlano delle lancette e non danno mai la risposta. In linea con le Indicazioni nazionali, nucleo Relazioni, dati e previsioni. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Sprocket mostra un orologio a lancette: guarda prima la lancetta lunga dei minuti.",
-        "Se la lancetta lunga è sul 12, l'ora è in punto; se è sul 6, è passata la mezz'ora.",
-        "Guarda la lancetta corta delle ore per capire di quale ora si tratta.",
-        "Tocca l'ora digitale giusta: 3:00 per «le tre in punto», 3:30 per «le tre e mezza»."
+        "Leggere la lancetta lunga: sul 12 è l’ora esatta, sul 6 è e mezza",
+        "Dire l’ora dal numero che la lancetta corta ha già superato",
+        "Vedere la mezz’ora come metà strada tra due numeri",
+        "Abbinare un orologio a lancette all’ora digitale giusta"
       ],
       "howToPlay": [
-        "Osserva le due lancette dell'orologio a lancette di Sprocket.",
-        "Controlla la lancetta lunga dei minuti: sul 12 è in punto, sul 6 è e mezza.",
-        "Ricorda che alla mezz'ora vale l'ora \"di prima\" (le sette e mezza, non le otto).",
-        "Tocca l'ora digitale corrispondente e, se serve, riprova senza fretta."
+        "Guarda le due lancette, poi tocca l’ora digitale giusta.",
+        "Tocca Controlla: la pedina cammina sulla strada, la strada si avvolge intorno all’orologio e la pedina atterra sulla punta della lancetta corta se hai indovinato.",
+        "Non ancora? L’arco tratteggiato mostra quanto era lontana l’ora. Tocca un’altra carta e controlla di nuovo.",
+        "Dopo una risposta giusta, trascina la pedina lungo la strada e guarda come si muovono le lancette.",
+        "Nelle impostazioni scegli gli orari (Ore esatte e mezz’ore · Solo mezz’ore) e la strada (Sempre visibile · Solo al controllo)."
       ],
       "learningGoals": [
-        "Leggere l'ora e la mezz'ora sull'orologio a lancette usando entrambe le lancette.",
-        "Distinguere «le tre in punto» da «le tre e mezza» e scegliere l'ora digitale giusta (3:00 o 3:30).",
-        "Consolidare la misura del tempo secondo le Indicazioni nazionali, nel nucleo Relazioni, dati e previsioni."
+        "Leggere l’ora esatta e la mezz’ora su un orologio a lancette e abbinarla all’ora digitale.",
+        "Usare tutte e due le lancette per distinguere le 3:00 dalle 3:30.",
+        "Con la mezz’ora, dire l’ora dal numero che la lancetta corta ha superato, non da quello dopo.",
+        "Vedere un’ora come un passo intorno all’orologio e mezz’ora come mezzo passo."
       ]
     },
     "ten-stones.add-sub-within-20.1-oa-c-6": {

@@ -1963,25 +1963,28 @@
     },
     "clock-digital.read-half-hour.1-md-b-3": {
       "about": [
-        "Sprocket le coq revient avec un petit défi de plus : lire non seulement les heures entières, mais aussi les demi-heures. Cette fois, votre enfant doit regarder les deux aiguilles pour savoir s'il est « 3 h 00 » ou « 3 h 30 ».",
-        "Quand la grande aiguille est posée sur le 6, c'est la demi-heure : on dit « trois heures et demie », et on l'écrit « 3 h 30 ». Votre enfant lit les deux aiguilles ensemble et distingue l'heure pile de la demi-heure.",
-        "Cette activité se joue sans compte, sans minuteur et sans points, alignée aux « programmes officiels » (« Grandeurs et mesures », se repérer dans le temps et lire l'heure), pour que votre enfant avance à son rythme et en confiance."
+        "Sous l’horloge de Sprocket se trouve son bord, déroulé en une route toute droite : treize poteaux du 12 jusqu’au 12 suivant, avec une demi-pierre entre chaque paire. L’enfant lit les deux aiguilles et touche l’une de trois cartes numériques. Quand il vérifie, le pion de Sprocket marche jusqu’à la place de cette heure sur la route, la route s’enroule en un anneau autour du cadran, et le pion glisse jusqu’au bout de la petite aiguille. Si la carte était juste, il tombe pile sur le bout, et l’horloge avance d’une demi-heure : un demi-tour de la grande aiguille et un demi-pas de la petite.",
+        "Chaque carte fausse tombe à une distance bien visible, reliée au bout par un arc en pointillé. Si l’enfant choisit 3:00 pour 3:30, le pion s’arrête un demi-pas trop tôt, parce que la grande aiguille sur le 6 n’a pas été regardée. S’il choisit 4:30, le pion tombe une heure entière trop loin, l’erreur la plus fréquente avec les demi-heures, parce que la petite aiguille est déjà près du 4. Après le deuxième essai, le pion fait le tour de l’anneau jusqu’au bout de la petite aiguille pendant que la grande tourne avec lui. Le réglage Seulement les demies propose neuf horloges à la demi-heure, et Route : Seulement à la vérification cache la route jusqu’à la vérification, pour que l’enfant lise l’horloge sans elle.",
+        "Les indices parlent des aiguilles et ne donnent jamais la réponse. En lien avec les programmes officiels pour le domaine Grandeurs et mesures. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Lire les deux aiguilles ensemble, la petite pour l'heure et la grande pour les minutes.",
-        "Reconnaître la demi-heure grâce à la grande aiguille posée sur le 6.",
-        "Distinguer « 3 h 00 » de « 3 h 30 » sans se laisser tromper par la position des aiguilles.",
-        "Dire l'heure à voix haute, « trois heures et demie », pour bien mémoriser cette nouvelle expression."
+        "Lire la grande aiguille : sur le 12, l’heure pile ; sur le 6, la demie",
+        "Dire l’heure d’après le nombre que la petite aiguille a dépassé",
+        "Voir la demi-heure comme la moitié du chemin entre deux nombres",
+        "Associer une horloge à aiguilles à la bonne heure numérique"
       ],
       "howToPlay": [
-        "Votre enfant observe l'horloge de Sprocket et prend le temps de regarder les deux aiguilles.",
-        "Il touche l'heure chiffrée qui correspond, « 3 h 00 » ou « 3 h 30 », en toute tranquillité.",
-        "Chaque réussite est saluée avec douceur, puis une nouvelle horloge s'affiche pour poursuivre l'entraînement."
+        "Regarde les deux aiguilles, puis touche l’heure numérique qui correspond.",
+        "Touche Vérifier : le pion marche sur la route, la route s’enroule autour de l’horloge et le pion tombe sur le bout de la petite aiguille si tu as trouvé.",
+        "Pas encore ? L’arc en pointillé montre de combien l’heure était décalée. Touche une autre carte et vérifie encore.",
+        "Après une bonne réponse, fais glisser le pion le long de la route et regarde les aiguilles bouger.",
+        "Dans les réglages, choisis les heures (Heures pile et demies · Seulement les demies) et la route (Toujours visible · Seulement à la vérification)."
       ],
       "learningGoals": [
-        "Lire l'horloge à aiguilles à l'heure pile et à la demi-heure, en tenant compte des deux aiguilles.",
-        "Comprendre que « la grande aiguille sur le 6 » signale la demi-heure, « et demie ».",
-        "Franchir l'étape qui suit l'heure entière et consolider la lecture de l'heure au CE1."
+        "Lire les heures pile et les demi-heures sur une horloge à aiguilles et les associer à l’heure numérique.",
+        "Se servir des deux aiguilles pour distinguer 3:00 de 3:30.",
+        "À la demi-heure, dire l’heure d’après le nombre que la petite aiguille a dépassé, et non le suivant.",
+        "Voir une heure comme un pas autour de l’horloge et une demi-heure comme un demi-pas."
       ]
     },
     "clock-digital.match-clocks.2-md-c-7": {

@@ -3145,25 +3145,28 @@
     },
     "seriation.compare-length.1-md-a-1": {
       "about": [
-        "Winkelkat Tilly bewaart haar gekleurde linten bij een touwtje met een vaste lengte: bovenaan ligt het touwtje, en daaronder liggen drie linten, allemaal vanaf dezelfde rand. Een streepjeslijn laat op elke rij zien waar het touwtje eindigt, zodat je kind in één oogopslag ziet welk lint daar voorbij komt en welk lint er eerder stopt. Elke ronde stelt precies één vraag, en je kind antwoordt met één tik op een kleur. Het is een interactieve activiteit die in elke browser speelt, zonder download en zonder account.",
-        "Het idee erachter is vergelijken met een vaste lengte. Het touwtje wordt nooit langer of korter, dus elk lint valt ergens ten opzichte van dat ene punt: het komt eraan voorbij, het stopt ervoor, of het eindigt er precies. In drie van de negen rondes vraagt Tilly juist naar dat laatste geval — welk lint is even lang als het touwtje? — en in de andere rondes kijkt je kind de linten onderling na: welk lint komt het verst, en welk lint stopt als eerste. De volgorde van de linten en van de kleurknoppen wisselt per ronde, dus gokken op een vaste plek werkt niet.",
-        "De activiteit hoort bij het domein meten en meetkunde van de SLO-kerndoelen, waar kinderen lengtes leren vergelijken en de bijbehorende taal leren gebruiken. Hier blijft het bewust bij vergelijken: je kind kiest per ronde één lint en werkt nog zonder getallen, zonder maateenheden en zonder liniaal. Geen timer, geen score — rustig kijken mag, en na een misser volgt een vriendelijke aanwijzing en mag je kind het meteen opnieuw proberen."
+        "Tilly's linten liggen op plekken die nooit bij elkaar komen: één hangt aan een haak, één ligt op een hoge plank, één ligt op de toonbank, en elk begint ergens anders. Met je ogen kun je ze dus niet naast elkaar leggen, en het hangende lint lijkt vaak langer dan het is. Hetzelfde touwtje, altijd even lang, gaat naar elk lint: het knijpertje komt op het beginspeldje van het lint, het touwtje legt zich langs het lint en laat een kaartje achter: korter dan het touwtje, even lang of langer.",
+        "In de gemengde rondes zoekt het kind het langste, het kortste of het lint dat even lang is als het touwtje; in de rondes op volgorde zet het kind de drie op een rail, het kortste eerst. Precies één lint is langer, één korter of één even lang, dus de kaartjes beslissen het in hun eentje: langer dan het touwtje, en het touwtje langer dan een ander, betekent ook langer dan dat ene. Met hoge dingen werkt het net zo: drie kaarsen of drie flessen staan op een krukje, een kist en een hoge plank, en het touwtje wordt vanaf de voet van elk ervan omhoog gehouden, dus wat het hoogst reikt, is niet altijd de hoogste.",
+        "Controleren kan pas als het touwtje bij alle drie is geweest. Na een foute poging wijst de hint terug naar de kaartjes; na een tweede gaan de drie kaartjes van de linten op een rij staan: korter, even lang, langer. Is een ronde opgelost, dan legt Tilly de drie linten naast elkaar vanaf één speldje met het touwtje eronder, en hoge dingen stappen allemaal naar de grond, precies zoals de kaartjes zeiden. Zonder getallen en zonder liniaal. Passend bij de kerndoelen voor meten. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Zien welk lint het verst komt en welk lint als eerste stopt",
-        "Eén lint vergelijken met het touwtje: langer, korter of even lang",
-        "Het langste lint, het kortste lint of het lint dat even lang is als het touwtje kiezen",
-        "De woorden langer, korter en even lang herkennen in de vraag"
+        "Twee lengtes vergelijken via een derde voorwerp dat altijd hetzelfde blijft",
+        "Drie voorwerpen op lengte ordenen, het kortste eerst",
+        "Zien dat waar iets begint en welke kant het op ligt veranderen hoe lang het lijkt, niet hoe lang het is",
+        "Hoogtes vergelijken vanaf de voet van elk voorwerp"
       ],
       "howToPlay": [
-        "Kijk waar het touwtje eindigt: die streepjeslijn staat op elke rij",
-        "Tik per vraag op het langste lint, het kortste lint, of het lint dat even lang is als het touwtje",
-        "Warme bevestiging en een makkelijke nieuwe poging — zonder timer, zonder score"
+        "Tik op het mandje met het touwtje en dan op een lint, of sleep het touwtje uit het mandje naar het begin van het lint. Het kaartje toont korter, even lang of langer dan het touwtje.",
+        "Doe dat bij elk lint, tik dan op je antwoord en druk op Controleer.",
+        "In de rondes op volgorde tik je op een lint en dan op een trede van de rail, of sleep je het erheen: het kortste komt op de eerste trede.",
+        "Bij hoge dingen wordt het touwtje vanaf de voet naast elk ervan omhoog gehouden.",
+        "Kies in de instellingen de vraag (Langste, kortste, even lang · Op volgorde zetten) en de dingen (Linten · Hoge dingen)."
       ],
       "learningGoals": [
-        "Lengtes vergelijken en het langste of het kortste van drie linten aanwijzen",
-        "Een lint naast een vaste lengte leggen en zien of het langer, korter of even lang is",
-        "De basis leggen voor het lengte-redeneren waar het latere meten op voortbouwt"
+        "De lengtes van twee voorwerpen indirect vergelijken met een derde voorwerp.",
+        "Drie voorwerpen op lengte ordenen.",
+        "Lengte beoordelen van begin tot eind, niet op waar een voorwerp ligt of welke kant het op wijst.",
+        "De hoogtes vergelijken van dingen die op verschillende hoogtes staan."
       ]
     },
     "choice-board.compare-length.k-md-2": {

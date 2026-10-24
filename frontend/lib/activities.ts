@@ -88,6 +88,7 @@ const MANIFEST_FILES = [
   'point-of-view-activities.json',
   'two-tales-activities.json',
   'seriation-activities.json',
+  'travel-cord-activities.json',
   'tense-activities.json',
   'author-purpose-activities.json',
   'wordclass-activities.json',

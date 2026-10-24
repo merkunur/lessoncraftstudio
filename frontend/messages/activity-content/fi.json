@@ -2808,6 +2808,32 @@
         "Kaksi- ja kolminumeroisten lukujen yhteen- ja vähennyslasku allekkain, ykköset ensin.",
         "Vähentäminen purkamalla kymppi kymmeneksi ykköseksi, kun se on tarpeen."
       ]
+    },
+    "seriation.compare-length.1-md-a-1": {
+      "about": [
+        "Tillyn nauhat ovat paikoissa, jotka eivät koskaan kohtaa: yksi roikkuu koukussa, yksi on korkealla hyllyllä ja yksi tiskillä, ja jokainen alkaa eri kohdasta. Silmällä niitä ei siis voi laittaa vierekkäin, ja roikkuva nauha näyttää usein pidemmältä kuin se on. Sama naru, aina yhtä pitkä, viedään jokaisen nauhan luo: sen pidike laitetaan nauhan aloitusnastaan, naru asettuu nauhan viereen ja jättää lapun: narua lyhyempi, yhtä pitkä tai narua pidempi.",
+        "Sekakierroksilla lapsi etsii pisimmän, lyhimmän tai narun pituisen nauhan; järjestyskierroksilla lapsi laittaa kolme nauhaa kiskolle, lyhin ensin. Tasan yksi nauha on narua pidempi, yksi lyhyempi tai yksi yhtä pitkä, joten laput ratkaisevat yksin: jos nauha on narua pidempi ja naru on toista nauhaa pidempi, nauha on myös sitä toista pidempi. Korkeiden esineiden kanssa käy samoin: kolme kynttilää tai kolme pulloa on jakkaralla, laatikon päällä ja korkealla hyllyllä, ja narua pidetään pystyssä jokaisen alareunasta, joten korkeimmalle ulottuva ei aina ole korkein.",
+        "Tarkistaa voi vasta, kun naru on käynyt kaikkien kolmen luona. Väärän yrityksen jälkeen vihje ohjaa takaisin lappuihin; toisen jälkeen nauhojen kolme lappua asettuvat riviin: lyhyempi, yhtä pitkä, pidempi. Kun kierros on ratkaistu, Tilly laittaa kolme nauhaa vierekkäin samasta nastasta naru niiden alla, ja korkeat esineet laskeutuvat kaikki lattialle, aivan kuten laput kertoivat. Ilman numeroita ja ilman viivainta. Sopii opetussuunnitelman sisältöalueeseen Geometria ja mittaaminen. Ilman ajanottoa ja ilman pisteytystä."
+      ],
+      "practices": [
+        "Kahden pituuden vertaaminen kolmannen, aina samana pysyvän esineen avulla",
+        "Kolmen esineen järjestäminen pituuden mukaan, lyhin ensin",
+        "Sen huomaaminen, että alkukohta ja suunta muuttavat sitä, miltä pituus näyttää, eivät itse pituutta",
+        "Korkeuksien vertaaminen kunkin esineen omasta alareunasta"
+      ],
+      "howToPlay": [
+        "Napauta narukoria ja sitten nauhaa, tai vedä naru korista nauhan alkuun. Lappu näyttää narua lyhyemmän, yhtä pitkän tai narua pidemmän.",
+        "Tee niin jokaiselle nauhalle, napauta sitten vastaustasi ja paina Tarkista.",
+        "Järjestyskierroksilla napauta nauhaa ja sitten kiskon askelmaa, tai vedä se sinne: lyhin menee ensimmäiselle askelmalle.",
+        "Korkeiden esineiden kanssa narua pidetään pystyssä jokaisen vieressä sen alareunasta.",
+        "Valitse asetuksista kysymys (Pisin, lyhin, yhtä pitkä · Laita järjestykseen) ja esineet (Nauhat · Korkeat esineet)."
+      ],
+      "learningGoals": [
+        "Kahden esineen pituuksien vertaaminen epäsuorasti kolmannen esineen avulla.",
+        "Kolmen esineen järjestäminen pituuden mukaan.",
+        "Pituuden arvioiminen alusta loppuun eikä sen mukaan, missä esine on tai mihin suuntaan se osoittaa.",
+        "Eri korkeuksilla olevien esineiden korkeuksien vertaaminen."
+      ]
     }
   }
 }

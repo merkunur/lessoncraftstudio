@@ -13,6 +13,8 @@
        ≥7 distinct + reshuffle; no overflow 280→768.
    ===================================================================== */
 'use strict';
+/* Row 99 rebuild (2026-10-24): the row runs the Travelling Cord (travel-cord-activity; gates verify-travel-cord-core.js + local-test-travel-cord.js) and has left seriation-activities.json. */
+{ const _m = JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'mini tools', 'seriation-activities.json'), 'utf8')); if (!(Array.isArray(_m) ? _m : _m.activities).some(a => a.id === 'seriation.compare-length.1-md-a-1')) { console.log('local-test-seriation: the row runs the Travelling Cord — see verify-travel-cord-core.js / local-test-travel-cord.js. Nothing to check here.'); process.exit(0); } }
 const http = require('http');
 const fs = require('fs');
 const path = require('path');

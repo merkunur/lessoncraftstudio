@@ -2813,6 +2813,32 @@
         "Å legge sammen og trekke fra to- og tresifrede tall med oppstilling, enerne først.",
         "Å trekke fra ved å veksle en tier til ti enere når det trengs."
       ]
+    },
+    "seriation.compare-length.1-md-a-1": {
+      "about": [
+        "Tillys bånd er på steder som aldri møtes: Ett henger på en krok, ett ligger på en høy hylle, ett ligger på disken, og hvert av dem begynner et annet sted. Øyet kan altså ikke legge dem ved siden av hverandre, og det hengende ser ofte lengre ut enn det er. Den samme snoren, alltid like lang, blir båret bort til hvert bånd: Klypa settes på båndets startnål, snoren legger seg langs båndet og etterlater en lapp: kortere enn snoren, like langt eller lengre.",
+        "I de blandede rundene finner barnet det lengste, det korteste eller båndet som er like langt som snoren; i rekkefølgerundene setter barnet de tre på en skinne, det korteste først. Nøyaktig ett bånd er lengre, ett kortere eller ett like langt, så lappene avgjør det alene: lengre enn snoren, og snoren lengre enn et annet, betyr også lengre enn det. Høye ting fungerer på samme måte: Tre lys eller tre flasker står på en krakk, en kasse og en høy hylle, og snoren holdes opp fra hver tings fot, så den som når høyest opp, er ikke alltid den høyeste.",
+        "Sjekk virker først når snoren har vært ved alle tre. Etter et feilforsøk peker hjelpen tilbake på lappene; etter et andre stiller båndenes tre lapper seg på rad: kortere, like langt, lengre. Når en runde er løst, legger Tilly de tre båndene ved siden av hverandre fra samme nål med snoren under dem, og høye ting går alle ned på gulvet, akkurat som lappene sa. Uten tall og uten linjal. I tråd med LK20 i matematikk. Uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Å sammenligne to lengder ved hjelp av en tredje ting som alltid er den samme",
+        "Å ordne tre ting etter lengde, den korteste først",
+        "Å se at hvor en ting begynner og hvilken vei den ligger, endrer hvor lang den ser ut, men ikke hvor lang den er",
+        "Å sammenligne høyder fra hver tings egen fot"
+      ],
+      "howToPlay": [
+        "Trykk på kurven med snoren og så på et bånd, eller dra snoren fra kurven til båndets start. Lappen viser kortere, like langt eller lengre enn snoren.",
+        "Gjør det med hvert bånd, trykk så på svaret ditt og trykk på Sjekk.",
+        "I rekkefølgerundene trykker du på et bånd og så på et trinn på skinnen, eller drar det dit: Det korteste skal på første trinn.",
+        "Med høye ting holdes snoren opp ved siden av hver ting fra foten.",
+        "I innstillingene velger du spørsmål (Lengste, korteste, like lang · Sett i rekkefølge) og ting (Bånd · Høye ting)."
+      ],
+      "learningGoals": [
+        "Å sammenligne lengden på to ting indirekte ved hjelp av en tredje ting.",
+        "Å ordne tre ting etter lengde.",
+        "Å vurdere lengden fra start til slutt, ikke etter hvor en ting ligger eller hvilken vei den peker.",
+        "Å sammenligne høyden på ting som står i ulike høyder."
+      ]
     }
   }
 }

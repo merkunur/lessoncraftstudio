@@ -103,4 +103,4 @@ ORDER row 95 · id `choice-board.compare-two-digit.1-nbt-b-3` (kept). Design: `d
 | hierarchy | 482 / 0 |
 | settings | 2 live |
 | preflight, prose-claims, SERP | PASS |
-| `live-verify-rod-drawers.js` | production, en / de / sv / fi × 1366 / 390 |
+| `live-verify-rod-drawers.js` | 67 / 0 on production, en / de / sv / fi × 1366 / 390 (2026-10-24, commit `230d0ffd`; the first run fell in the deploy window and the rerun was clean) |

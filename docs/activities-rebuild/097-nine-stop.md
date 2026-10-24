@@ -106,7 +106,7 @@ ORDER row 97 · id `choice-board.ten-more-less.1-nbt-c-5` (kept). Design: `desig
 - `audit-activity-hierarchy.js` 422/0.
 - `audit-settings-efficacy.js --tool=nine-stop-activity`: 2 live (task, glass).
 - `preflight-activity-routes`, `verify-activity-prose-claims` and `verify-activity-serp-copy` all pass.
-- `live-verify-nine-stop.js`: see below.
+- `live-verify-nine-stop.js` 59/0 on production (2026-10-24): all 11 locale pages 200; en, de, sv, fi × 1366 and 390 played by real pointer (35 → miss + hintTenMore with the tens tube lit, then 44 → okTenMore); wrapper 9.838; the iframe grows with the card.
 
 ## Frozen metadata flags (not edited — landing / metadata rule)
 - Every page intro describes choosing among four numbers and covers only 10 more / 10 less.

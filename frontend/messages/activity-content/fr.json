@@ -481,23 +481,25 @@
     },
     "juniper-story-lantern.central-message.rl-1-2": {
       "about": [
-        "Juniper le hérisson allume sa petite lanterne et raconte une fable : Le Lièvre et la Tortue, La Cigale et la Fourmi, Le Lion et le Rat, La Poule aux œufs d'or… Après l'histoire, il pose sa grande question : quelle est la morale de cette fable ? Votre enfant écoute le récit lu à voix haute, le lit à l'écran, puis tape la carte qui donne la vraie leçon — pas un détail de l'histoire, pas une phrase qui semble jolie mais qui passe à côté du sens.",
-        "En cherchant la morale, votre enfant s'exerce à dégager le message d'une histoire et à distinguer la leçon d'un simple événement du récit. C'est une compétence de compréhension au cœur des programmes officiels du CE1 : comprendre ce qu'un texte veut vraiment dire. Les fables de La Fontaine, avec leurs animaux et leur sagesse toute simple, offrent un terrain riche et rassurant pour cet apprentissage. L'activité se joue sans minuteur ni score : votre enfant prend le temps de réfléchir, se trompe sans conséquence et recommence à son rythme."
+        "Une courte fable est écrite sur trois vitres, et Juniper le hérisson tient une lanterne. L’enfant glisse une carte dans la lanterne et appuie sur Vérifier : la lumière montre quelle sorte de carte c’est. Une vraie leçon, comme « Lentement mais sûrement, on arrive au but », éclaire les trois vitres et brille jusqu’à une nouvelle petite histoire (Lina joue un peu de piano chaque jour), car une leçon, on peut l’emporter avec soi. La lanterne à histoires de Juniper est une activité de lecture sur la leçon d’une histoire.",
+        "Un détail (« Le lièvre s’arrête pour dormir sous un arbre ») n’éclaire que sa propre ligne, et le rayon s’éteint à mi-chemin. Une fausse leçon (« Le plus rapide gagne toujours, quoi qu’il arrive ») rend la dernière vitre froide, parce que la fin dit le contraire. Avec quatre cartes, la leçon d’une autre fable n’éclaire rien du tout. Avec « Raconter, puis leçon », les trois vitres arrivent dans le désordre : l’enfant remet l’histoire dans l’ordre, puis la lanterne s’ouvre. Chaque leçon trouvée ajoute une luciole dans le bocal.",
+        "L’activité est alignée sur les programmes officiels de lecture et de compréhension. Sans chronomètre et sans points."
       ],
       "practices": [
-        "Comprendre le sens d'une fable écoutée et lue",
-        "Dégager la morale, la leçon de l'histoire",
-        "Distinguer la morale d'un simple détail du récit",
-        "Écouter et comprendre une histoire lue à voix haute"
+        "Trouver la leçon de toute une histoire",
+        "Distinguer une leçon d’un simple détail",
+        "Vérifier une leçon avec la fin de l’histoire",
+        "Raconter les trois parties d’une histoire dans l’ordre"
       ],
       "howToPlay": [
-        "Écoute la petite fable que Juniper raconte à la lueur de sa lanterne.",
-        "Tape la carte qui donne la morale de l'histoire — sa vraie leçon."
+        "Lis les trois vitres de l’histoire, puis la nouvelle petite histoire en dessous.",
+        "Touche une carte : elle glisse dans la lanterne. Touche une autre carte pour changer.",
+        "Appuie sur Vérifier et regarde la lumière. Avec « Raconter, puis leçon », touche deux vitres pour les échanger jusqu’à ce que l’histoire soit dans l’ordre."
       ],
       "learningGoals": [
-        "Votre enfant apprend à trouver le message essentiel d'une histoire, au-delà des détails.",
-        "Votre enfant apprend à reconnaître la morale d'une fable et à l'exprimer avec ses mots.",
-        "Votre enfant apprend à réfléchir au sens d'un texte plutôt qu'à s'arrêter à ce qui « sonne bien »."
+        "Comprendre la leçon d’une histoire.",
+        "Voir qu’une leçon va avec toute l’histoire, avec sa fin, et aussi avec une nouvelle histoire.",
+        "Raconter une courte histoire dans l’ordre."
       ]
     },
     "contraction.apostrophe.l-2-2-c": {

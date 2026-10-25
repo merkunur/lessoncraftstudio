@@ -2275,25 +2275,25 @@
     },
     "juniper-story-lantern.central-message.rl-1-2": {
       "about": [
-        "By lantern-light, Juniper the hedgehog tells a tiny fable — the Tortoise and the Hare, the Ant and the Grasshopper, the Lion and the Mouse, the Boy Who Cried Wolf — then asks the big question, and the child taps the card that states the lesson. It's an interactive Grade 1 reading activity that plays in the browser, with no sign-up.",
-        "The big idea is finding a story's central message, which means looking past the plot. The three cards are built to test exactly that: one states the moral, one is just a detail that happened in the story, and one is a wrong lesson that sounds plausible but the story does not teach. So a child cannot pick by repeating a line they remember — they have to decide what the whole story is really about.",
-        "It is aligned to Common Core RL.1.2 — retelling stories and demonstrating understanding of their central message or lesson. No timer, no score — just calm, playful practice."
+        "A short fable sits in three window panes, and Juniper the hedgehog holds a lantern. The child slides a card into the lantern and presses Check: the light shows what kind of card it is. A real lesson, like \"Slow and steady can still win\", lights all three panes and shines on into a new little story (Ana practicing the piano every day), because a lesson is something you can take with you. Juniper's Story Lantern is a Grade 1 activity about the central message of a story.",
+        "A detail (\"Hare stopped for a long nap\") lights only the line it came from, and the beam fizzles halfway. A wrong lesson (\"The fastest runner always wins\") turns the ending pane cold, because the ending says the opposite. With four cards, a lesson from a different fable lights nothing at all. In the Retell task the three panes arrive out of order: the child puts the story in order first, and only then does the lantern open. Each lesson found adds a firefly to the jar.",
+        "It is aligned to Common Core RL.1.2: retelling stories and understanding their central message or lesson. No timer and no score."
       ],
       "practices": [
-        "Finding the lesson a story teaches, not just what happened in it",
-        "Telling the central message apart from a single story detail",
-        "Rejecting a lesson that sounds right but the story does not support",
-        "Listening to a short fable from beginning to end before deciding"
+        "Find the lesson a whole story teaches",
+        "Tell a lesson apart from a detail that just happened",
+        "Check a lesson against how the story ends",
+        "Retell the three parts of a story in order"
       ],
       "howToPlay": [
-        "Read or listen to Juniper's short fable all the way through.",
-        "Tap the card that tells the story's lesson — not a detail, not a wrong moral — then press Check.",
-        "A warm check confirms a correct choice and offers an easy retry when needed."
+        "Read the three panes of the story, and the new little story below.",
+        "Tap a card: it slides into the lantern. Tap another card to change it.",
+        "Press Check and watch the light. In Retell, tap two panes to swap them until the story is in order."
       ],
       "learningGoals": [
-        "Identify the central message or lesson of a story — the focus of Common Core RL.1.2",
-        "Separate the main lesson from the events and details of the plot",
-        "Build the comprehension habit of asking what a story means"
+        "Understand the central message or lesson of a story, the focus of Common Core RL.1.2.",
+        "See that a lesson fits the whole story and its ending, and also a new story.",
+        "Retell a short story in order."
       ]
     },
     "lay-units.measure.1-md-a-2": {

@@ -3098,6 +3098,29 @@
         "Bruke ordet som meningen henger på, til å velge, sjekke og rette ord.",
         "Vise et svar med en setning fra teksten."
       ]
+    },
+    "juniper-story-lantern.central-message.rl-1-2": {
+      "about": [
+        "En kort fabel står på tre ruter i et vindu, og pinnsvinet Juniper holder en lykt. Barnet legger et kort i lykta og trykker på Sjekk: Lyset viser hva slags kort det er. Det historien virkelig lærer oss, som «Sakte, men sikkert kommer man fram», lyser opp alle tre rutene og når helt fram til en ny liten historie (Nora øver litt på piano hver dag), for det man lærer, kan man ta med seg. Junipers fortellerlykt er en leseøvelse for 1. trinn om hva en historie lærer oss.",
+        "En detalj («Haren tok en lang lur») lyser bare opp sin egen linje, og lysstrålen slokner halvveis. Et galt budskap («Den raskeste vinner alltid») gjør den siste ruta kald, fordi slutten viser det motsatte. Med fire kort er det også et kort fra en annen fabel, og da lyser ingenting opp. I «Gjenfortelle, så det vi lærer» kommer rutene i feil rekkefølge: Først setter barnet historien i orden, så åpner lykta seg. For hvert budskap barnet finner, flyr en ildflue ned i glasset.",
+        "Aktiviteten er i tråd med LK20 (kompetansemål etter 2. trinn) for lesing. Ingen tidtaking og ingen poeng."
+      ],
+      "practices": [
+        "Finne det en hel historie lærer oss",
+        "Skille budskapet fra en detalj",
+        "Sjekke budskapet mot slutten av historien",
+        "Gjenfortelle de tre delene av historien i riktig rekkefølge"
+      ],
+      "howToPlay": [
+        "Les de tre rutene i historien og den nye lille historien.",
+        "Trykk på et kort: Det glir inn i lykta. Trykk på et annet for å bytte.",
+        "Trykk på Sjekk, og se på lyset. I «Gjenfortelle, så det vi lærer» trykker du på to ruter for å bytte dem til historien er i riktig rekkefølge."
+      ],
+      "learningGoals": [
+        "Forstå hva en historie lærer oss.",
+        "Se at budskapet passer til hele historien, til slutten og også til en ny historie.",
+        "Gjenfortelle en kort historie i riktig rekkefølge."
+      ]
     }
   }
 }

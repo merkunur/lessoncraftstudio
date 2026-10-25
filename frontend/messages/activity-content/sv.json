@@ -3710,6 +3710,29 @@
         "Använda det ord som meningen hänger på för att välja, pröva och rätta ord.",
         "Visa ett svar med en mening ur texten."
       ]
+    },
+    "juniper-story-lantern.central-message.rl-1-2": {
+      "about": [
+        "En kort fabel står på tre fönsterrutor, och igelkotten Juniper håller i en lykta. Barnet lägger ett kort i lyktan och trycker på Kontrollera: ljuset visar vad det är för kort. Det berättelsen verkligen lär oss, som ”Sakta men säkert kommer man fram”, lyser upp alla tre rutorna och når ända fram till en ny liten berättelse (Ella övar lite piano varje dag), för det man lär sig kan man ta med sig. Junipers berättelselykta är en läsövning för åk 1 om vad en berättelse lär oss.",
+        "En detalj (”Haren stannade och tog en lång tupplur”) lyser bara upp sin egen rad, och ljusstrålen slocknar halvvägs. Ett felaktigt budskap (”Den snabbaste vinner alltid”) gör den sista rutan kall, eftersom slutet visar motsatsen. Med fyra kort finns också ett kort från en annan fabel, och då lyser ingenting alls. I ”Återberätta, sedan det vi lär oss” kommer rutorna i oordning: först sätter barnet berättelsen i ordning, sedan öppnas lyktan. För varje budskap barnet hittar lägger sig en eldfluga i burken.",
+        "Aktiviteten följer Lgr22:s centrala innehåll för läsning och förståelse i åk 1–3. Ingen tidtagning och inga poäng."
+      ],
+      "practices": [
+        "Hitta det en hel berättelse lär oss",
+        "Skilja det berättelsen lär oss från en detalj",
+        "Pröva budskapet mot berättelsens slut",
+        "Återberätta berättelsens tre delar i rätt ordning"
+      ],
+      "howToPlay": [
+        "Läs berättelsens tre rutor och den nya lilla berättelsen.",
+        "Tryck på ett kort: det glider in i lyktan. Tryck på ett annat för att byta.",
+        "Tryck på Kontrollera och titta på ljuset. I ”Återberätta, sedan det vi lär oss” trycker du på två rutor för att byta plats på dem tills berättelsen är i ordning."
+      ],
+      "learningGoals": [
+        "Förstå vad en berättelse lär oss.",
+        "Se att budskapet passar hela berättelsen, dess slut och även en ny berättelse.",
+        "Återberätta en kort berättelse i rätt ordning."
+      ]
     }
   }
 }

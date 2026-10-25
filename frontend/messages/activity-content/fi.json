@@ -3070,6 +3070,29 @@
         "Käyttää sanaa, josta merkitys riippuu, sanojen valitsemiseen, tarkistamiseen ja korjaamiseen.",
         "Perustella vastaus tekstin lauseella."
       ]
+    },
+    "juniper-story-lantern.central-message.rl-1-2": {
+      "about": [
+        "Lyhyt faabeli on kirjoitettu ikkunan kolmeen ruutuun, ja Juniper-siili pitelee lyhtyä. Lapsi laittaa kortin lyhtyyn ja painaa Tarkista: valo näyttää, millainen kortti on. Oikea opetus, kuten ”Hitaasti ja sinnikkäästi voi voittaa”, valaisee kaikki kolme ruutua ja yltää uuteen pieneen tarinaan asti (Aino soittaa pianoa vähän joka päivä), sillä opetuksen voi ottaa mukaansa. Juniperin tarinalyhty on 1. luokan lukutehtävä tarinan opetuksesta.",
+        "Yksityiskohta (”Jänis otti pitkät päiväunet”) valaisee vain oman rivinsä, ja valonsäde sammuu puolivälissä. Väärä opetus (”Nopein juoksija voittaa aina kaikki kisat”) tekee viimeisestä ruudusta kylmän, koska loppu näyttää päinvastaista. Neljällä kortilla toisen faabelin opetus ei valaise mitään. Kerro uudelleen -tehtävässä ruudut tulevat sekaisin: ensin lapsi laittaa tarinan järjestykseen, sitten lyhty aukeaa. Jokainen löydetty opetus tuo purkkiin tulikärpäsen.",
+        "Tehtävä tukee perusopetuksen opetussuunnitelman (OPS 2014) lukemisen ja tekstin ymmärtämisen tavoitteita. Ei ajanottoa eikä pisteitä."
+      ],
+      "practices": [
+        "Löytää koko tarinan opetus",
+        "Erottaa opetus yksityiskohdasta",
+        "Tarkistaa opetus tarinan lopusta",
+        "Kertoa tarinan kolme osaa oikeassa järjestyksessä"
+      ],
+      "howToPlay": [
+        "Lue tarinan kolme ruutua ja uusi pieni tarina.",
+        "Napauta korttia: se liukuu lyhtyyn. Napauta toista vaihtaaksesi.",
+        "Paina Tarkista ja katso valoa. Kerro uudelleen -tehtävässä napauta kahta ruutua, niin ne vaihtavat paikkaa, kunnes tarina on järjestyksessä."
+      ],
+      "learningGoals": [
+        "Ymmärtää tarinan opetus.",
+        "Huomata, että opetus sopii koko tarinaan, sen loppuun ja myös uuteen tarinaan.",
+        "Kertoa lyhyt tarina oikeassa järjestyksessä."
+      ]
     }
   }
 }

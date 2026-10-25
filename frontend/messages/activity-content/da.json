@@ -3070,6 +3070,29 @@
         "Bruge det ord, meningen hænger på, til at vælge, tjekke og rette ord.",
         "Vise et svar med en sætning fra teksten."
       ]
+    },
+    "juniper-story-lantern.central-message.rl-1-2": {
+      "about": [
+        "En kort fabel står på tre ruder i et vindue, og pindsvinet Juniper holder en lygte. Barnet lægger et kort i lygten og trykker på Tjek: Lyset viser, hvad slags kort det er. Det, historien virkelig lærer os, som ”Langsomt, men sikkert når man frem”, lyser alle tre ruder op og når helt over i en ny lille historie (Emma øver lidt klaver hver dag), for det, man lærer, kan man tage med sig. Junipers fortællelygte er en læseøvelse til 1. klasse om, hvad en historie lærer os.",
+        "En detalje (”Haren standsede midt i løbet og tog en lur”) lyser kun sin egen linje op, og lysstrålen slukker halvvejs. Et forkert budskab (”Den hurtigste vinder altid”) gør den sidste rude kold, fordi slutningen viser det modsatte. Med fire kort er der også et kort fra en anden fabel, og så lyser intet op. I ”Genfortælle, så det, vi lærer” kommer ruderne i forkert rækkefølge: Først sætter barnet historien i orden, så åbner lygten sig. For hvert budskab, barnet finder, flyver en ildflue ned i glasset.",
+        "Aktiviteten er i tråd med Fælles Mål for læsning i indskolingen. Ingen tidtagning og ingen point."
+      ],
+      "practices": [
+        "Finde det, en hel historie lærer os",
+        "Skelne budskabet fra en detalje",
+        "Tjekke budskabet mod historiens slutning",
+        "Genfortælle historiens tre dele i rækkefølge"
+      ],
+      "howToPlay": [
+        "Læs historiens tre ruder og den nye lille historie.",
+        "Tryk på et kort: Det glider ind i lygten. Tryk på et andet for at skifte.",
+        "Tryk på Tjek, og se på lyset. I ”Genfortælle, så det, vi lærer” trykker du på to ruder for at bytte dem, til historien er i rækkefølge."
+      ],
+      "learningGoals": [
+        "Forstå, hvad en historie lærer os.",
+        "Se, at budskabet passer til hele historien, til slutningen og også til en ny historie.",
+        "Genfortælle en kort historie i rækkefølge."
+      ]
     }
   }
 }

@@ -4523,6 +4523,29 @@
         "Woorden met twee medeklinkers naast elkaar klank voor klank spellen.",
         "Begrijpen dat een woord niet altijd evenveel klanken als letters heeft."
       ]
+    },
+    "syllable-builder.build-vowel-teams.rf-1-3": {
+      "about": [
+        "Er verschijnt een plaatje (een maan, een boek, een muis, een deur). De medeklinkers van het woord staan al op een houten balk, met een breed vakje op de plek van de klankgroep. Het kind klikt de klankgroep in het vakje samen: eerst één klinker, dan een tweede. De klankklem is een activiteit voor groep 3 over aa, oo, oe, ui en eu.",
+        "Alleen een echte klankgroep klikt vast. Leg u en dan i in het vakje: een koperen klem klapt erover en ui licht op als één klank. Leg i en dan u: ze botsen uit elkaar, want iu is geen klankgroep. De volgorde telt dus. Afgemaakte woorden komen op het bord: muis en uil onder ui, maan en kaas onder aa.",
+        "De activiteit past bij de SLO-kerndoelen voor technisch lezen en spellen en is bedoeld voor groep 3. Zonder tijdsdruk en zonder punten."
+      ],
+      "practices": [
+        "Woorden met aa, oo, oe, ui en eu spellen",
+        "Ontdekken dat twee klinkers samen één klank kunnen maken",
+        "Merken dat de volgorde telt: ui is een klankgroep, iu niet",
+        "Een woord bij een plaatje klank voor klank bouwen"
+      ],
+      "howToPlay": [
+        "Kijk naar het plaatje en zeg het woord. Tik op het plaatje om het te horen.",
+        "Tik of sleep een klinker naar het brede vakje, en dan een tweede. Een echte klankgroep klikt vast onder de klem, twee andere klinkers botsen uit elkaar.",
+        "Druk op Controleer. Klopt het woord, dan komt het op het bord. Tik op een klankgroep in het vakje om de klem te openen."
+      ],
+      "learningGoals": [
+        "Woorden met aa, oo, oe, ui en eu lezen en spellen.",
+        "Begrijpen dat twee letters samen één klank kunnen zijn.",
+        "Letten op de volgorde van de letters in een klankgroep."
+      ]
     }
   }
 }

@@ -4525,6 +4525,29 @@
         "Wörter mit zwei Mitlauten am Anfang lautgetreu schreiben.",
         "Verstehen, dass ein Wort nicht immer so viele Laute wie Buchstaben hat."
       ]
+    },
+    "syllable-builder.build-vowel-teams.rf-1-3": {
+      "about": [
+        "Ein Bild erscheint (ein Schwein, ein Haus, eine Biene, ein Boot). Die Mitlaute des Wortes sitzen schon auf einer Holzleiste, und dort, wo der Laut fehlt, ist ein breites Fach für das Vokalpaar. Das Kind klemmt das Paar im Fach zusammen: erst ein Vokal, dann ein zweiter. Die Laut-Klammer ist eine Übung für die 1. Klasse zu ie, au, eu, ei und oo.",
+        "Nur ein echtes Paar rastet ein. Lege e und dann i ins Fach: eine Messingklammer schnappt darüber, und ei leuchtet als ein Laut. Lege i und dann o: Die beiden stoßen sich ab, denn io ist kein Paar. Die Reihenfolge zählt also: ie und ei sind zwei verschiedene Paare. Fertige Wörter kommen auf die Paar-Tafel: Maus, Haus und Zaun unter au, Biene und Ziege unter ie.",
+        "Die Übung folgt dem Lehrplan der 1. Klasse zum Lesen und Schreiben. Ohne Zeitdruck und ohne Punkte."
+      ],
+      "practices": [
+        "Wörter mit ie, au, eu, ei und oo schreiben",
+        "Merken, dass zwei Vokale einen Laut machen können",
+        "ie und ei auseinanderhalten",
+        "Ein Bildwort Laut für Laut aufbauen"
+      ],
+      "howToPlay": [
+        "Schau das Bild an und sprich das Wort. Tippe das Bild an, um es zu hören.",
+        "Tippe oder zieh einen Vokal in das breite Fach, dann einen zweiten. Ein echtes Paar rastet unter der Klammer ein, zwei andere Vokale stoßen sich ab.",
+        "Drück auf Prüfen. Ist das Wort richtig, kommt es auf die Paar-Tafel. Tippe ein Paar im Fach an, um die Klammer zu öffnen."
+      ],
+      "learningGoals": [
+        "Wörter mit ie, au, eu, ei und oo lesen und schreiben.",
+        "Verstehen, dass zwei Buchstaben zusammen einen Laut bilden können.",
+        "Die Reihenfolge der Buchstaben im Paar beachten."
+      ]
     }
   }
 }

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Build Vowel-Team Words — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- Shell, the pinch-teams model, then this activity.
+       NOTE: bump ?v=N on EVERY change to pinch-teams-activity.js / pinch-teams-core.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  
+  <script src="/mini-tools/pinch-teams-core.js?v=1"></script>
+  <script src="/mini-tools/pinch-teams-activity.js?v=1"></script>
+  <script>
+    LCS.mount(PinchTeamsActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

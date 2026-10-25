@@ -4455,6 +4455,29 @@
         "L’enfant voit que des choses d’une même sorte peuvent être très différentes et qu’une même couleur ou une même forme ne fait pas une sorte",
         "L’enfant trie selon deux caractéristiques à la fois et place au milieu les choses qui ont les deux"
       ]
+    },
+    "syllable-builder.build-vowel-teams.rf-1-3": {
+      "about": [
+        "Une image apparaît (un loup, une poule, une poire, une étoile). Les consonnes du mot sont déjà posées sur une réglette en bois, avec une grande case pour le son. L’enfant y assemble deux voyelles : d’abord une, puis une deuxième. Le fermoir des sons est une activité de CP sur les sons ou et oi.",
+        "Seul un vrai son s’accroche. Mets o puis u dans la case : un fermoir en laiton se referme et ou s’allume comme un seul son. Mets u puis o : les deux lettres rebondissent, car uo n’est pas un son. L’ordre compte donc. Les lettres muettes, comme le p de loup, restent en gris. Les mots terminés s’affichent sur le tableau des sons, sous « ou » ou sous « oi ».",
+        "L’activité est alignée sur les programmes officiels de lecture et d’écriture du CP. Sans chronomètre et sans points."
+      ],
+      "practices": [
+        "Écrire des mots avec ou et oi",
+        "Comprendre que deux voyelles peuvent faire un seul son",
+        "Voir que l’ordre des lettres compte : ou, mais pas uo",
+        "Repérer les lettres muettes en fin de mot"
+      ],
+      "howToPlay": [
+        "Regarde l’image et dis le mot. Touche l’image pour l’entendre.",
+        "Touche ou fais glisser une voyelle dans la grande case, puis une deuxième. Un vrai son s’accroche sous le fermoir, deux autres voyelles rebondissent.",
+        "Appuie sur Vérifier. Si le mot est juste, il s’affiche sur le tableau. Touche un son dans la case pour ouvrir le fermoir."
+      ],
+      "learningGoals": [
+        "Lire et écrire des mots avec ou et oi.",
+        "Comprendre que deux lettres peuvent faire un seul son.",
+        "Faire attention à l’ordre des lettres dans un son."
+      ]
     }
   }
 }

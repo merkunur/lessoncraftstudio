@@ -4167,25 +4167,25 @@
     },
     "syllable-builder.build-vowel-teams.rf-1-3": {
       "about": [
-        "Two vowels work together for one long sound, and the child spells the picture's word by tapping its sound chunks in order — b-oa-t, l-ea-f, j-ee-p, r-ai-n — choosing the vowel team as a single piece. It's an interactive Grade 1 reading activity that runs in the browser with no account.",
-        "The key idea is that a vowel team is one spelling unit for one long sound — two letters, but a single chunk the eye learns to grab. By building the word piece by piece and picking the team that matches the long vowel they hear, the child stops trying to sound out each letter separately and starts reading the pattern. That is a major step in decoding common long-vowel words.",
-        "It is aligned to Common Core RF.1.3 — knowing common vowel-team conventions for representing long vowel sounds. No timer, no score — just calm, playful practice."
+        "A picture appears (a boat, a train, a sheep, a leaf) with its consonants already seated on a wooden rail and a wide socket where the vowel team goes. The child pinches the team in the socket: put one vowel in, then another. Build Vowel-Team Words is a Grade 1 phonics activity about the vowel teams oa, ai, ee and ea.",
+        "Only a real team locks. Put o and then a in the socket and a brass clasp snaps over them: oa. Put a and then o and they bump apart, because ao is not a team, so the order matters. A locked team lights up the letter whose name you hear (in oa the o says its name) while its partner goes quiet. In the Same sound? clue both ee and ea say E, and the word decides which spelling it uses: the right sound with the other spelling turns the word's own spelling card over instead of counting as a plain mistake. Finished words pin under their team on the team board, so boat, goat and coat stack under oa, and leaf and seal under ea.",
+        "It is aligned to Common Core RF.1.3: knowing common vowel-team conventions for representing long vowel sounds. No timer and no score."
       ],
       "practices": [
-        "Spell long-vowel words by choosing the right vowel team — oa, ai, ea, ee",
-        "Treat a two-letter vowel team as one chunk, not two separate sounds",
-        "Match the vowel team to the long vowel sound in the word",
-        "Build a word piece by piece and read the whole word"
+        "Spell long vowel sounds with the teams oa, ai, ee and ea",
+        "Find that the order matters: oa is a team, ao is not",
+        "Hear which letter of the team says its name",
+        "Choose between ee and ea when both say E"
       ],
       "howToPlay": [
-        "Look at the picture and tap Hear it to listen to its word.",
-        "Tap the sound chunks in order, choosing the right vowel team as one piece, then press Check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Look at the picture and say its name. Tap the picture to hear it.",
+        "Tap or drag a vowel into the wide socket, then a second one. A real team locks under the clasp; two vowels that are not a team bump apart.",
+        "Press Check. If the word is right, it pins under its team on the board. Tap a locked team in the socket to open the clasp and try again."
       ],
       "learningGoals": [
-        "Read long-vowel words spelled with vowel teams like oa, ai, ea, and ee — the focus of Common Core RF.1.3.",
-        "Understand that two vowels can work as one team to spell a single long sound.",
-        "Build the pattern-reading skill that decoding longer words depends on."
+        "Read and spell words with the vowel teams oa, ai, ee and ea, the focus of Common Core RF.1.3.",
+        "Understand that two vowels can spell one long vowel sound.",
+        "Learn that the same sound can be spelled two ways, and the word decides."
       ]
     },
     "tally-squirrel.add-four.2-nbt-b-6": {

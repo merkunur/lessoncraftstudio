@@ -1,147 +1,33 @@
 [
   {
     "id": "syllable-builder.build-vowel-teams.rf-1-3",
-    "tool": "syllable-builder-activity",
-    "task_template": "build-vowel-teams",
+    "tool": "pinch-teams-activity",
+    "task_template": "pinch-teams",
     "alignment": {
       "framework": "CCSS",
       "code": "RF.1.3",
       "grade": "1",
       "strand": "Reading: Foundational Skills"
     },
-    "params": {
-      "language": "en-US",
-      "words": [
-        {
-          "noun": "boat",
-          "themeDir": "beach",
-          "targetWord": "boat",
-          "tiles": [
-            "b",
-            "oa",
-            "t"
-          ],
-          "distractors": [
-            "ai",
-            "ee",
-            "d"
-          ]
-        },
-        {
-          "noun": "goat",
-          "themeDir": "farm animals",
-          "targetWord": "goat",
-          "tiles": [
-            "g",
-            "oa",
-            "t"
-          ],
-          "distractors": [
-            "ai",
-            "ee",
-            "p"
-          ]
-        },
-        {
-          "noun": "leaf",
-          "themeDir": "miscellaneous",
-          "targetWord": "leaf",
-          "tiles": [
-            "l",
-            "ea",
-            "f"
-          ],
-          "distractors": [
-            "oa",
-            "ai",
-            "t"
-          ]
-        },
-        {
-          "noun": "seal",
-          "themeDir": "ocean life",
-          "targetWord": "seal",
-          "tiles": [
-            "s",
-            "ea",
-            "l"
-          ],
-          "distractors": [
-            "oa",
-            "ee",
-            "t"
-          ]
-        },
-        {
-          "noun": "jeep",
-          "themeDir": "vehicles",
-          "targetWord": "jeep",
-          "tiles": [
-            "j",
-            "ee",
-            "p"
-          ],
-          "distractors": [
-            "oa",
-            "ai",
-            "t"
-          ]
-        },
-        {
-          "noun": "bee",
-          "themeDir": "farm animals",
-          "targetWord": "bee",
-          "tiles": [
-            "b",
-            "ee"
-          ],
-          "distractors": [
-            "oa",
-            "ai",
-            "t"
-          ]
-        },
-        {
-          "noun": "coat",
-          "themeDir": "clothing",
-          "targetWord": "coat",
-          "tiles": [
-            "c",
-            "oa",
-            "t"
-          ],
-          "distractors": [
-            "ai",
-            "ee",
-            "p"
-          ]
-        },
-        {
-          "noun": "rain",
-          "themeDir": "spring",
-          "targetWord": "rain",
-          "tiles": [
-            "r",
-            "ai",
-            "n"
-          ],
-          "distractors": [
-            "oa",
-            "ee",
-            "m"
-          ]
-        }
-      ]
-    },
+    "params": { "clue": ["build", "same"], "rounds": { "en": [9, 9], "de": [11], "nl": [7, 7], "fr": [9], "same": 9 } },
     "theme": null,
     "slug": {
-      "en": "build-vowel-team-words"
+      "en": "build-vowel-team-words",
+      "de": "woerter-mit-ie-au-ei-eu-klasse-1",
+      "nl": "woorden-met-aa-oo-oe-ui-eu-groep-3",
+      "fr": "mots-avec-ou-et-oi-cp"
     },
     "page_title": {
-      "en": "Build Vowel-Team Words — Long Vowel Sounds"
+      "en": "Build Vowel-Team Words — Long Vowel Sounds",
+      "de": "Die Laut-Klammer – Wörter mit ie, au, ei und eu (Klasse 1)",
+      "nl": "De klankklem – woorden met aa, oo, oe, ui en eu (groep 3)",
+      "fr": "Le fermoir des sons – mots avec ou et oi (CP)"
     },
     "page_intro": {
-      "en": "Some long vowel sounds are spelled with two vowels working together as a team — oa in boat, ai in rain, ea in leaf, ee in bee. Tap the sound chunks to build the word for the picture, choosing the right vowel team as one piece, and tap Hear it to listen. Take your time; there is no timer and no score. Aligned to Common Core RF.1.3 — knowing common vowel-team conventions for representing long vowel sounds."
+      "en": "Some long vowel sounds are spelled with two vowels working together as a team — oa in boat, ai in rain, ea in leaf, ee in bee. Tap the sound chunks to build the word for the picture, choosing the right vowel team as one piece, and tap Hear it to listen. Take your time; there is no timer and no score. Aligned to Common Core RF.1.3 — knowing common vowel-team conventions for representing long vowel sounds.",
+      "de": "Leg zwei Vokale in das breite Fach: Nur ein echtes Paar wie ie, au, ei oder eu rastet unter der Klammer ein und wird zu einem Laut. Dann ist das Wort zum Bild fertig. Interaktive Übung nach Lehrplan.",
+      "nl": "Leg twee klinkers in het brede vakje: alleen een echte klankgroep zoals aa, oo, oe, ui of eu klikt vast onder de klem en wordt één klank. Interactief, passend bij de SLO-kerndoelen.",
+      "fr": "Mets deux voyelles dans la grande case : seuls les vrais sons comme ou et oi s’accrochent sous le fermoir et font un seul son. Activité interactive alignée sur les programmes officiels."
     },
     "kid_prompt_template": "promptVowelTeam"
   },

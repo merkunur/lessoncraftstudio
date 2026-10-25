@@ -1255,25 +1255,28 @@
     },
     "clock.set-clock.1-md-b-3": {
       "about": [
-        "Um horário aparece escrito — como 3:00, 7:30, 9:00, 6:30 ou uma e meia — e a criança arrasta o ponteiro grande e o ponteiro pequeno no relógio de ponteiros para mostrar esse horário, enquanto um visor digital vai se atualizando. «Acerte o relógio» é uma atividade de matemática para o 1º ano, que roda direto no navegador do tablet, do celular ou do computador da escola, sem instalar nada e sem precisar de conta.",
-        "Acertar um relógio é mais difícil do que só ler um, porque a criança tem que posicionar os dois ponteiros, em vez de reconhecer uma figura pronta. Nas meias horas, o ponteiro pequeno fica entre dois números, e não em cima de um só — então quem só empurra o ponteiro das horas até um número acaba errando: é preciso deixá-lo no meio do caminho. Ver o visor digital mudando conforme os ponteiros se movem liga a figura do relógio aos números que a criança já conhece, e os horários ficam só em horas e meias horas para o foco ser acertar os ponteiros.",
-        "A atividade está alinhada à BNCC, na unidade temática Grandezas e medidas, lendo e marcando horas e meias horas em relógios de ponteiros e digitais. Sem cronômetro, sem pontuação: só prática tranquila no tempo de cada criança."
+        "A criança monta o relógio. Os dois ponteiros ficam numa bandeja; cada um é colocado no relógio e girado, como quando se desenham os ponteiros numa folha de atividades. Os ponteiros não estão ligados, então a criança precisa fazer os dois combinarem. Ao verificar, a parte do mostrador que o ponteiro grande percorreu a partir do 12 fica verde, e uma cópia estreita dessa fatia cai na fatia da própria hora, entre dois números. O ponteiro pequeno precisa apontar para o fim dessa fatia pequenina. Um papelzinho imprime a hora que os ponteiros mostram de verdade.",
+        "Assim aparecem os erros mais comuns. Na meia hora, um ponteiro pequeno colocado bem em cima do 7 fica no começo da sua fatia, não no fim, e o papelzinho imprime 7:30 com um ponto de interrogação; no 8, imprime 8:30 com um ponto de interrogação. Ponteiros trocados dão outra hora, e um ponteiro grande colocado no 10 para marcar «e dez» imprime 50 minutos. Depois do segundo erro, os minutos 5, 10, 15 e assim por diante aparecem em volta da borda. Com uma resposta certa as fatias acendem, o sino em cima toca e o papelzinho fica verde; depois os ponteiros podem continuar girando.",
+        "As dicas falam dos ponteiros e nunca dão a resposta. De acordo com a BNCC, na unidade temática Grandezas e medidas. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Arrastar o ponteiro das horas e o dos minutos para mostrar um horário dado.",
-        "Colocar o ponteiro pequeno no meio do caminho entre dois números numa meia hora.",
-        "Ler o horário digital correspondente enquanto os ponteiros se movem.",
-        "Diferenciar horas de meias horas e marcar cada uma corretamente."
+        "Colocar o ponteiro pequeno para a hora e o grande para os minutos",
+        "Na meia hora, colocar o ponteiro pequeno bem no meio entre dois números",
+        "Contar os minutos de cinco em cinco a partir do 12",
+        "Ligar uma hora digital e suas palavras a um relógio de ponteiros"
       ],
       "howToPlay": [
-        "Leia o horário escrito acima do relógio.",
-        "Arraste o ponteiro grande e o pequeno para mostrar esse horário, observando o visor digital.",
-        "Confira o seu relógio e ajuste quantas vezes quiser — não tem cronômetro nem pontuação."
+        "Leia a hora que você precisa mostrar. Toque no ponteiro pequeno na bandeja para colocá-lo no relógio e depois toque ou arraste no relógio para girá-lo.",
+        "Faça o mesmo com o ponteiro grande. Toque num ponteiro na bandeja ou no meio do relógio para escolher qual ponteiro você gira.",
+        "Toque em Verificar. As fatias verdes e o papelzinho mostram o que os seus ponteiros dizem; um ponto de interrogação quer dizer que o ponteiro pequeno não está no fim da sua fatia pequenina.",
+        "Depois de uma resposta certa você pode continuar girando os ponteiros.",
+        "Nas configurações você escolhe os horários (Horas exatas e meias horas · Horas exatas · Meias horas · Quartos de hora · De cinco em cinco minutos · Misturados) e quando a fatia verde aparece (Depois de verificar · Enquanto acerta)."
       ],
       "learningGoals": [
-        "Acertar um relógio de ponteiros nas horas e nas meias horas.",
-        "Entender que, na meia hora, o ponteiro das horas fica entre dois números.",
-        "Ligar o relógio de ponteiros ao horário digital que a criança vê todo dia."
+        "Mostrar uma hora dada num relógio de ponteiros colocando os dois ponteiros.",
+        "Saber que o ponteiro pequeno mostra a hora e o grande, os minutos.",
+        "Colocar o ponteiro pequeno de acordo com os minutos: em cima do número na hora exata, bem no meio entre dois números na meia hora.",
+        "Ler os minutos contando de cinco em cinco a partir do 12."
       ]
     },
     "match-pairs.make-the-number.k-oa-a-3": {

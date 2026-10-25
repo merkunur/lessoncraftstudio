@@ -3256,26 +3256,28 @@
     },
     "clock.set-clock.1-md-b-3": {
       "about": [
-        "Eine Uhrzeit ist vorgegeben – etwa 3:00, 7:30, 9:00, 6:30 oder halb zwei – und das Kind zieht den langen und den kurzen Zeiger auf dem Zifferblatt an die richtige Stelle, während eine digitale Anzeige nebenher mitläuft. „Stell die Uhr\" ist eine Mathe-Aktivität für die 1. Klasse, die interaktiv im Browser auf Tablet, Handy und Klassenrechner läuft, ohne Installation und ohne Anmeldung.",
-        "Eine Uhr einzustellen ist schwerer, als eine Uhr zu lesen, denn das Kind muss beide Zeiger selbst setzen und nicht nur ein Bild wiedererkennen. Bei halben Stunden steht der kurze Zeiger zwischen zwei Zahlen, nicht auf einer – wer den Stundenzeiger nur auf eine Zahl schiebt, liegt daneben und muss ihn genau in die Mitte stellen. Wenn sich die digitale Anzeige beim Bewegen der Zeiger verändert, verbindet das die analoge Uhr mit den Zahlen, die Kinder schon kennen. Geübt werden nur volle und halbe Stunden, damit der Fokus auf dem genauen Setzen der Zeiger liegt.",
-        "Die Aktivität ist an den Lehrplänen der 1. Klasse im Bereich Größen und Messen ausgerichtet – volle und halbe Stunden auf der analogen und der digitalen Uhr lesen und aufschreiben. Es gibt keinen Timer und keine Punktewertung – nur ruhiges, spielerisches Üben."
+        "Das Kind baut die Uhr selbst. Beide Zeiger liegen in einer Schale; jeder wird auf die Uhr gesetzt und gedreht, so wie man auf dem Arbeitsblatt die Zeiger einzeichnet. Die Zeiger sind nicht miteinander verbunden, also muss das Kind sie selbst zusammenpassen lassen. Beim Prüfen wird das Stück des Zifferblatts grün, das der große Zeiger von der 12 aus überstrichen hat, und eine schmale Kopie davon fällt in das Stück der Stunde zwischen zwei Zahlen. Der kleine Zeiger muss auf das Ende dieses kleinen Stücks zeigen. Auf einem Zettel steht die Uhrzeit, die die Zeiger wirklich zeigen.",
+        "So werden die typischen Fehler sichtbar. Bei halben Stunden steht ein kleiner Zeiger genau auf der 7 am Anfang seines kleinen Stücks, nicht am Ende, und auf dem Zettel steht 7:30 mit einem Fragezeichen; auf der 8 steht dort 8:30 mit einem Fragezeichen. Vertauschte Zeiger ergeben eine andere Uhrzeit, und ein großer Zeiger auf der 10 für zehn nach ergibt 50 Minuten auf dem Zettel. Nach dem zweiten Fehlversuch erscheinen die Minuten 5, 10, 15 und so weiter am Rand. Bei einer richtigen Antwort leuchten die Stücke, die Glocke oben läutet und der Zettel wird grün; danach lassen sich die Zeiger weiterdrehen.",
+        "Die Hinweise sprechen über die Zeiger und verraten nie die Lösung. Passend zum Lehrplan im Bereich Größen und Messen. Ohne Zeitdruck und ohne Punktwertung."
       ],
       "practices": [
-        "Den Stunden- und den Minutenzeiger ziehen, um eine vorgegebene Uhrzeit zu zeigen.",
-        "Den kurzen Zeiger bei einer halben Stunde genau zwischen zwei Zahlen setzen.",
-        "Die passende digitale Uhrzeit ablesen, während sich die Zeiger bewegen.",
-        "Volle Stunden von halben Stunden unterscheiden und beide richtig einstellen.",
-        "Auf der Analoguhr sicher zwischen langem und kurzem Zeiger unterscheiden."
+        "Den kleinen Zeiger für die Stunde und den großen Zeiger für die Minuten setzen",
+        "Bei halben Stunden den kleinen Zeiger genau zwischen zwei Zahlen stellen",
+        "Die Minuten in Fünferschritten von der 12 aus zählen",
+        "Eine Digitalzeit und ihre Wörter der Zeigeruhr zuordnen"
       ],
       "howToPlay": [
-        "Lies die Uhrzeit, die über der Uhr steht.",
-        "Zieh den langen und den kurzen Zeiger so, dass sie diese Zeit zeigen, und achte dabei auf die digitale Anzeige.",
-        "Prüfe deine Uhr und stelle sie so oft nach, wie du möchtest – es gibt keinen Timer und keine Punktewertung."
+        "Lies die Uhrzeit, die du zeigen sollst. Tippe auf den kleinen Zeiger in der Schale, um ihn auf die Uhr zu setzen, und tippe oder ziehe dann auf der Uhr, um ihn zu drehen.",
+        "Mach dasselbe mit dem großen Zeiger. Tippe auf einen Zeiger in der Schale oder auf die Mitte der Uhr, um zu wählen, welchen Zeiger du drehst.",
+        "Tippe auf Prüfen. Die grünen Stücke und der Zettel zeigen, was deine Zeiger sagen; ein Fragezeichen heißt, dass der kleine Zeiger nicht am Ende seines kleinen Stücks steht.",
+        "Nach einer richtigen Antwort kannst du die Zeiger weiterdrehen.",
+        "In den Einstellungen wählst du die Uhrzeiten (Volle und halbe Stunden · Volle Stunden · Halbe Stunden · Viertelstunden · In Fünf-Minuten-Schritten · Gemischt) und wann das grüne Stück erscheint (Nach dem Prüfen · Beim Einstellen)."
       ],
       "learningGoals": [
-        "Eine analoge Uhr auf volle und halbe Stunden einstellen.",
-        "Verstehen, dass der Stundenzeiger bei „halb\" zwischen zwei Zahlen steht.",
-        "Das analoge Zifferblatt mit der digitalen Uhrzeit verbinden, die Kinder jeden Tag lesen."
+        "Eine vorgegebene Uhrzeit an der Zeigeruhr einstellen, indem man beide Zeiger setzt.",
+        "Wissen, dass der kleine Zeiger die Stunde und der große Zeiger die Minuten zeigt.",
+        "Den kleinen Zeiger passend zu den Minuten setzen: bei vollen Stunden auf die Zahl, bei halben Stunden genau zwischen zwei Zahlen.",
+        "Die Minuten in Fünferschritten von der 12 aus ablesen."
       ]
     },
     "match-pairs.make-the-number.k-oa-a-3": {

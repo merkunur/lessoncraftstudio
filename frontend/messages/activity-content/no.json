@@ -480,25 +480,28 @@
     },
     "clock.set-clock.1-md-b-3": {
       "about": [
-        "Et klokkeslett er oppgitt med tall — som 3:00, 7:30, 9:00, 6:30 eller halv to — og barnet drar den lange og den korte viseren på den analoge skiven for å vise tiden, mens et digitalt klokkeslett oppdaterer seg underveis. Still klokka er en matematikkaktivitet for 1. trinn som kjører rett i nettleseren på nettbrett, telefon og klasseromsdatamaskiner, uten nedlasting og uten konto.",
-        "Å stille en klokke er vanskeligere enn å lese den, fordi barnet selv må lage begge viserne i stedet for å kjenne igjen et bilde. Ved halve timer står den korte viseren mellom to tall, ikke på ett — så et barn som bare flytter timeviseren til et tall, vil bomme; den må plasseres midt imellom. Husk at «halv 8» betyr 7:30 — halvveis mot åtte. Når det digitale klokkeslettet endrer seg mens viserne flyttes, knyttes det analoge bildet til tallene barnet allerede kjenner, og tidene holder seg til hele og halve timer slik at fokuset er på å få viserne riktig.",
-        "Aktiviteten følger LK20 innenfor måling — å lese og vise tid til hele og halve timer på analog og digital klokke. Den passer for 1. trinn. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "Barnet bygger klokka selv. Begge viserne ligger i et brett; hver viser settes på klokka og vris, akkurat som når man tegner viserne på et arbeidsark. Viserne henger ikke sammen, så barnet må selv få dem til å stemme. Ved sjekk blir den delen av urskiven grønn som den store viseren har feid over fra 12, og en smal kopi av den biten faller ned i timens egen bit mellom to tall. Den lille viseren skal peke på enden av den lille biten. En lapp skriver ut klokkeslettet viserne faktisk viser.",
+        "Slik blir de vanlige feilene synlige. Ved halve timer står en liten viser rett på 7 i begynnelsen av sin lille bit, ikke i enden, og lappen skriver 7.30 med et spørsmålstegn; på 8 skriver den 8.30 med et spørsmålstegn. Visere som har byttet plass gir et annet klokkeslett, og en stor viser på 10 for ti over skriver 50 minutter. Etter andre feil kommer minuttene 5, 10, 15 og så videre fram langs kanten. Ved riktig svar lyser bitene, bjella på toppen ringer og lappen blir grønn; etterpå kan viserne vris videre.",
+        "Hjelpen handler om viserne og røper aldri svaret. I tråd med LK20 i matematikk. Uten tidtaking og uten poeng."
       ],
       "practices": [
-        "Dra time- og minuttviseren for å vise et oppgitt klokkeslett.",
-        "Plassere den korte viseren midt mellom to tall ved en halv time.",
-        "Lese det digitale klokkeslettet som passer mens viserne flyttes.",
-        "Skille hele timer fra halve timer og stille begge riktig."
+        "Å sette den lille viseren for timen og den store viseren for minuttene",
+        "Ved halve timer å stille den lille viseren midt mellom to tall",
+        "Å telle minuttene fem og fem fra 12",
+        "Å koble et digitalt klokkeslett og ordene for det til en analog klokke"
       ],
       "howToPlay": [
-        "Les klokkeslettet som står over klokka.",
-        "Dra den lange og den korte viseren for å vise den tiden, og følg med på det digitale klokkeslettet.",
-        "Sjekk klokka og juster så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+        "Les klokkeslettet du skal vise. Trykk på den lille viseren i brettet for å sette den på klokka, og trykk eller dra så på klokka for å vri den.",
+        "Gjør det samme med den store viseren. Trykk på en viser i brettet eller på midten av klokka for å velge hvilken viser du vrir.",
+        "Trykk på Sjekk. De grønne bitene og lappen viser hva viserne dine sier; et spørsmålstegn betyr at den lille viseren ikke står ved enden av sin lille bit.",
+        "Etter riktig svar kan du fortsette å vri viserne.",
+        "I innstillingene velger du klokkeslett (Hele og halve timer · Hele timer · Halve timer · Kvarter · Fem minutter om gangen · Blandet) og når den grønne biten vises (Etter sjekk · Mens du stiller)."
       ],
       "learningGoals": [
-        "Barnet kan stille en analog klokke til hele og halve timer.",
-        "Barnet forstår at ved halv time står timeviseren mellom to tall.",
-        "Barnet knytter den analoge klokkeskiven til det digitale klokkeslettet barn leser hver dag."
+        "Å vise et gitt klokkeslett på en analog klokke ved å sette begge viserne.",
+        "Å vite at den lille viseren viser timen og den store viseren minuttene.",
+        "Å stille den lille viseren slik at den stemmer med minuttene: på tallet ved hel time, midt mellom to tall ved halv time.",
+        "Å lese av minuttene ved å telle fem og fem fra 12."
       ]
     },
     "match-pairs.make-the-number.k-oa-a-3": {

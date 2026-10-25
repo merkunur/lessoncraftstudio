@@ -592,25 +592,28 @@
     },
     "clock.set-clock.1-md-b-3": {
       "about": [
-        "En tid står skriven — som 3:00, 7:30, 9:00, 6:30 eller halv två — och barnet drar den långa och den korta visaren på den analoga urtavlan för att visa tiden, medan en digital ruta uppdateras hela tiden. Att ställa klockan är en matteövning för årskurs 1 som spelas direkt i webbläsaren på surfplatta, mobil och klassrumsdator, utan att något behöver installeras och utan konto.",
-        "Att ställa en klocka är svårare än att läsa av en, eftersom barnet måste skapa båda visarna i stället för att känna igen en bild. Vid halvtimmar står den korta visaren mellan två siffror, inte på en, så ett barn som bara puttar timvisaren till en siffra hamnar fel — den ska placeras mitt emellan. Att se den digitala rutan ändras när visarna flyttas binder ihop den analoga bilden med talen som barnet redan känner till, och tiderna håller sig till hela och halva timmar så att fokus ligger på att få visarna rätt.",
-        "Aktiviteten följer Lgr22 inom området mätning och tid: att läsa och skriva tid till hel och halv timme på analoga och digitala klockor. Den här interaktiva övningen passar årskurs 1. Ingen timer, inga poäng — bara lugn, lekfull träning."
+        "Barnet bygger själv klockan. Båda visarna ligger i en låda; varje visare sätts på klockan och vrids, precis som när man ritar visarna på ett arbetsblad. Visarna sitter inte ihop, så barnet måste själv få dem att stämma. Vid kontroll blir den del av urtavlan grön som den långa visaren har svept över från 12, och en smal kopia av den biten faller ner i timmens egen bit mellan två tal. Den korta visaren ska peka på slutet av den lilla biten. En lapp skriver ut den tid som visarna verkligen visar.",
+        "Så syns de vanliga felen. Vid halvtimmar står en kort visare precis på 7 i början av sin lilla bit, inte i slutet, och lappen skriver 7.30 med ett frågetecken; på 8 skriver den 8.30 med ett frågetecken. Visare som har bytt plats ger en annan tid, och en lång visare på 10 för tio över skriver 50 minuter. Efter andra felet syns minuterna 5, 10, 15 och så vidare runt kanten. Vid rätt svar lyser bitarna, klockan på toppen ringer och lappen blir grön; sedan kan visarna vridas vidare.",
+        "Ledtrådarna handlar om visarna och avslöjar aldrig svaret. I linje med Lgr22, centralt innehåll om mätning. Utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Dra tim- och minutvisaren för att visa en given tid",
-        "Placera den korta visaren mitt emellan två siffror vid en halvtimme",
-        "Läsa av den digitala tiden samtidigt som visarna flyttas",
-        "Skilja hela timmar från halva timmar och ställa in var och en rätt"
+        "Att sätta den korta visaren för timmen och den långa visaren för minuterna",
+        "Vid halvtimmar att ställa den korta visaren mitt emellan två tal",
+        "Att räkna minuterna fem i taget från 12",
+        "Att koppla en digital tid och dess ord till en analog klocka"
       ],
       "howToPlay": [
-        "Läs tiden som står skriven ovanför klockan.",
-        "Dra den långa och den korta visaren för att visa den tiden, och titta på den digitala rutan.",
-        "Kontrollera din klocka och justera så ofta du vill — det finns ingen timer och inga poäng."
+        "Läs tiden som du ska visa. Tryck på den korta visaren i lådan för att sätta den på klockan, och tryck eller dra sedan på klockan för att vrida den.",
+        "Gör likadant med den långa visaren. Tryck på en visare i lådan eller på mitten av klockan för att välja vilken visare du vrider.",
+        "Tryck på Kontrollera. De gröna bitarna och lappen visar vad dina visare säger; ett frågetecken betyder att den korta visaren inte står vid slutet av sin lilla bit.",
+        "Efter rätt svar kan du fortsätta vrida visarna.",
+        "I inställningarna väljer du tider (Hela och halva timmar · Hela timmar · Halvtimmar · Kvartar · Fem minuter i taget · Blandat) och när den gröna biten syns (Efter kontroll · Medan du ställer)."
       ],
       "learningGoals": [
-        "Barnet kan ställa en analog klocka på hel och halv timme",
-        "Barnet förstår att timvisaren står mellan två siffror när klockan är halv",
-        "Barnet kopplar den analoga urtavlan till den digitala tid som barn läser av varje dag"
+        "Att visa en given tid på en analog klocka genom att sätta båda visarna.",
+        "Att veta att den korta visaren visar timmen och den långa visaren minuterna.",
+        "Att ställa den korta visaren så att den stämmer med minuterna: på talet vid hel timme, mitt emellan två tal vid halvtimme.",
+        "Att läsa av minuterna genom att räkna fem i taget från 12."
       ]
     },
     "match-pairs.make-the-number.k-oa-a-3": {

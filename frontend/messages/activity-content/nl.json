@@ -3467,25 +3467,28 @@
     },
     "clock.set-clock.1-md-b-3": {
       "about": [
-        "Er staat een tijd geschreven, bijvoorbeeld 3:00, 7:30, 9:00 of half twee, en je kind sleept de lange en de korte wijzer op de wijzerplaat om die tijd te zetten, terwijl de digitale tijd meeloopt. Klok zetten is een rekenactiviteit die zonder installeren of account in de browser speelt op tablet, telefoon en de computer in de klas.",
-        "Een klok zetten is moeilijker dan een klok lezen, want je kind moet zelf beide wijzers neerzetten in plaats van een plaatje te herkennen. Bij halve uren staat de korte wijzer tussen twee getallen in en niet op een getal, dus een kind dat de uurwijzer alleen naar een getal schuift, zit ernaast; het moet hem op de helft zetten. Let op: half 8 is 7:30. Doordat de digitale tijd meeverandert terwijl de wijzers bewegen, koppelt het kind het beeld van de wijzerplaat aan de getallen die het al kent.",
-        "De activiteit sluit aan bij de kerndoelen voor klokkijken in groep 3: hele en halve uren lezen en zetten op een analoge en digitale klok. Geen timer, geen score; gewoon rustig oefenen."
+        "Het kind bouwt de klok zelf. Beide wijzers liggen in een bakje; elke wijzer wordt op de klok gezet en gedraaid, net zoals je op een werkblad de wijzers tekent. De wijzers zitten niet aan elkaar vast, dus het kind moet ze zelf laten kloppen. Bij het controleren wordt het stuk van de wijzerplaat groen dat de grote wijzer vanaf de 12 heeft afgelegd, en een smalle kopie daarvan valt in het eigen stukje van het uur tussen twee getallen. De kleine wijzer moet naar het eind van dat kleine stukje wijzen. Een briefje drukt de tijd af die de wijzers echt aanwijzen.",
+        "Zo worden de bekende fouten zichtbaar. Bij een half uur staat een kleine wijzer precies op de 7 aan het begin van zijn stukje, niet aan het eind, en het briefje drukt 7.30 met een vraagteken af; op de 8 drukt het 8.30 met een vraagteken af. Verwisselde wijzers geven een andere tijd, en een grote wijzer op de 10 voor tien over drukt 50 minuten af. Na een tweede fout verschijnen de minuten 5, 10, 15 enzovoort langs de rand. Bij een goed antwoord lichten de stukjes op, gaat de bel bovenop en wordt het briefje groen; daarna kun je de wijzers blijven draaien.",
+        "De hints gaan over de wijzers en verklappen nooit het antwoord. Passend bij de kerndoelen voor meten. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "De uurwijzer en de minutenwijzer naar een gegeven tijd slepen",
-        "De korte wijzer op de helft tussen twee getallen zetten bij een half uur",
-        "De bijbehorende digitale tijd lezen terwijl de wijzers bewegen",
-        "Hele uren van halve uren onderscheiden en beide goed zetten"
+        "De kleine wijzer voor het uur en de grote wijzer voor de minuten zetten",
+        "Bij een half uur de kleine wijzer precies tussen twee getallen zetten",
+        "De minuten per vijf tellen vanaf de 12",
+        "Een digitale tijd en de woorden ervan koppelen aan een wijzerklok"
       ],
       "howToPlay": [
-        "Lees de tijd die boven de klok staat.",
-        "Sleep de lange en de korte wijzer naar die tijd en let op de digitale tijd.",
-        "Controleer je klok en pas hem aan zo vaak je wilt; er is geen timer en geen score."
+        "Lees de tijd die je moet laten zien. Tik op de kleine wijzer in het bakje om hem op de klok te zetten, en tik of sleep dan op de klok om hem te draaien.",
+        "Doe hetzelfde met de grote wijzer. Tik op een wijzer in het bakje of op het midden van de klok om te kiezen welke wijzer je draait.",
+        "Tik op Controleer. De groene stukjes en het briefje laten zien wat jouw wijzers zeggen; een vraagteken betekent dat de kleine wijzer niet aan het eind van zijn kleine stukje staat.",
+        "Na een goed antwoord kun je de wijzers blijven draaien.",
+        "Kies in de instellingen de tijden (Hele en halve uren · Hele uren · Halve uren · Kwartieren · Per vijf minuten · Gemengd) en wanneer het groene stukje verschijnt (Na het controleren · Tijdens het instellen)."
       ],
       "learningGoals": [
-        "Je kind zet een analoge klok op hele en halve uren.",
-        "Het kind begrijpt dat bij een half uur de uurwijzer tussen twee getallen in staat.",
-        "Het kind verbindt de analoge wijzerplaat met de digitale tijd die het elke dag ziet."
+        "Een gegeven tijd op een wijzerklok zetten door beide wijzers te plaatsen.",
+        "Weten dat de kleine wijzer het uur aanwijst en de grote wijzer de minuten.",
+        "De kleine wijzer laten kloppen met de minuten: op het getal bij een heel uur, precies tussen twee getallen bij een half uur.",
+        "De minuten aflezen door per vijf te tellen vanaf de 12."
       ]
     },
     "match-pairs.make-the-number.k-oa-a-3": {

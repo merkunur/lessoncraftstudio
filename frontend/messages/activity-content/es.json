@@ -2813,25 +2813,28 @@
     },
     "clock.set-clock.1-md-b-3": {
       "about": [
-        "Se da una hora escrita —como 3:00, 7:30, 9:00, 6:30 o la una y media— y el niño o la niña arrastra las manecillas larga y corta del reloj analógico para mostrarla, mientras un visor digital se actualiza al moverlas. «Pon la hora en el reloj» es una actividad de matemáticas para primero de primaria que corre directo en el navegador en tabletas, celulares y computadoras del salón, sin instalar nada y sin crear cuenta.",
-        "Poner la hora es más difícil que leerla, porque hay que producir las dos manecillas en lugar de reconocer un dibujo. En las horas y media, la manecilla corta queda entre dos números, no sobre uno, así que quien solo la acerca a un número se va a equivocar: tiene que colocarla a la mitad. Ver cómo cambia el visor digital al mover las manecillas une el dibujo analógico con los números que el niño o la niña ya conoce, y las horas se quedan en punto y media para que el foco esté en acomodar bien las manecillas.",
-        "Está alineada con los planes y programas de estudio (SEP): leer y escribir la hora en punto y la media hora en relojes analógicos y digitales. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+        "El niño arma el reloj. Las dos manecillas están en una bandeja; cada una se pone en el reloj y se gira, igual que cuando se dibujan las manecillas en una hoja de trabajo. Las manecillas no están unidas, así que el niño tiene que hacer que concuerden. Al comprobar, la parte de la carátula que la manecilla larga recorrió desde el 12 se pinta de verde, y una copia angosta de esa rebanada cae en la rebanada propia de la hora, entre dos números. La manecilla corta tiene que apuntar al final de esa rebanadita. Un papelito imprime la hora que de verdad marcan las manecillas.",
+        "Así se ven los errores típicos. En la media hora, una manecilla corta puesta justo en el 7 queda al principio de su rebanadita, no al final, y el papelito imprime 7:30 con un signo de interrogación; en el 8 imprime 8:30 con un signo de interrogación. Las manecillas al revés dan otra hora, y una manecilla larga puesta en el 10 para marcar «y diez» imprime 50 minutos. Después de un segundo error, los minutos 5, 10, 15 y los demás aparecen alrededor del borde. Con una respuesta correcta las rebanadas se iluminan, suena la campana de arriba y el papelito se pone verde; después las manecillas se pueden seguir girando.",
+        "Las pistas hablan de las manecillas y nunca dan la respuesta. En línea con los programas de estudio de la SEP (campo formativo Saberes y pensamiento científico). Sin cronómetro y sin puntaje."
       ],
       "practices": [
-        "Arrastrar la manecilla de la hora y la de los minutos para mostrar una hora dada.",
-        "Colocar la manecilla corta a la mitad entre dos números para una hora y media.",
-        "Leer la hora digital que corresponde conforme se mueven las manecillas.",
-        "Distinguir las horas en punto de las horas y media y acomodar cada una correctamente."
+        "Poner la manecilla corta para la hora y la larga para los minutos",
+        "En la media hora, poner la manecilla corta justo entre dos números",
+        "Contar los minutos de cinco en cinco desde el 12",
+        "Relacionar una hora digital y sus palabras con un reloj de manecillas"
       ],
       "howToPlay": [
-        "Lee la hora escrita arriba del reloj.",
-        "Arrastra las manecillas larga y corta para mostrar esa hora, mirando el visor digital.",
-        "Revisa tu reloj y ajústalo cuantas veces quieras: no hay temporizador ni puntuación."
+        "Lee la hora que tienes que mostrar. Toca la manecilla corta en la bandeja para ponerla en el reloj, y luego toca o arrastra sobre el reloj para girarla.",
+        "Haz lo mismo con la manecilla larga. Toca una manecilla en la bandeja o el centro del reloj para elegir qué manecilla giras.",
+        "Toca Comprobar. Las rebanadas verdes y el papelito muestran lo que dicen tus manecillas; un signo de interrogación quiere decir que la manecilla corta no está al final de su rebanadita.",
+        "Con una respuesta correcta puedes seguir girando las manecillas.",
+        "En los ajustes eliges las horas (Horas en punto y medias horas · Horas en punto · Medias horas · Cuartos de hora · De cinco en cinco minutos · Mezcladas) y cuándo aparece la rebanada verde (Al comprobar · Mientras mueves)."
       ],
       "learningGoals": [
-        "Tu hijo o hija puede poner un reloj analógico en la hora en punto y en la media hora.",
-        "El niño o la niña aprende a entender que, en la hora y media, la manecilla de la hora queda entre dos números.",
-        "Conecta la carátula del reloj analógico con la hora digital que ve todos los días."
+        "Mostrar una hora dada en un reloj de manecillas poniendo las dos manecillas.",
+        "Saber que la manecilla corta marca la hora y la larga, los minutos.",
+        "Poner la manecilla corta de acuerdo con los minutos: sobre el número en la hora en punto, justo entre dos números en la media hora.",
+        "Leer los minutos contando de cinco en cinco desde el 12."
       ]
     },
     "match-pairs.make-the-number.k-oa-a-3": {

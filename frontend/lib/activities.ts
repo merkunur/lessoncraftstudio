@@ -70,6 +70,7 @@ const MANIFEST_FILES = [
   'sort-bins-activities.json',
   'array-activities.json',
   'clock-activities.json',
+  'set-clock-activities.json',
   'number-bond-activities.json',
   'money-activities.json',
   'mochi-feast-activities.json',

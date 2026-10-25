@@ -715,25 +715,28 @@
     },
     "clock.set-clock.1-md-b-3": {
       "about": [
-        "Et klokkeslæt vises med tal — fx 3:00, 7:30, 9:00, 6:30 eller halv to — og barnet trækker den lange og den korte viser på urskiven, så de viser tiden, mens et digitalt klokkeslæt opdaterer sig undervejs. Stil uret er en matematikaktivitet til 1. klasse, der spilles direkte i browseren på tablet, telefon og klassens computer — uden at installere noget og uden oprettelse.",
-        "Det er sværere at stille et ur end at aflæse det, for barnet skal selv lave begge visere i stedet for at genkende et billede. Ved de halve timer står den korte viser mellem to tal, ikke på ét, så et barn, der kun flytter timeviseren hen til et tal, rammer ved siden af — den skal placeres halvvejs. Når barnet ser det digitale klokkeslæt ændre sig, mens viserne flyttes, knyttes urskiven til de tal, barnet kender i forvejen, og tiderne bliver på hele og halve timer, så fokus er på at få viserne rigtigt.",
-        "Aktiviteten følger Fælles Mål inden for måling og data: at aflæse og angive klokkeslæt på hele og halve timer på både analoge og digitale ure. Der er ingen timer og ingen point — bare rolig, legende træning i 1. klasse."
+        "Barnet bygger selv uret. Begge visere ligger i en bakke; hver viser sættes på uret og drejes, ligesom når man tegner viserne på et arbejdsark. Viserne hænger ikke sammen, så barnet må selv få dem til at passe. Ved tjek bliver den del af urskiven grøn, som den store viser har fejet over fra 12, og en smal kopi af det stykke falder ned i timens eget stykke mellem to tal. Den lille viser skal pege på enden af det lille stykke. En seddel udskriver det klokkeslæt, viserne faktisk viser.",
+        "Sådan bliver de klassiske fejl synlige. Ved halve timer står en lille viser lige på 7 i begyndelsen af sit lille stykke, ikke i enden, og sedlen udskriver 7.30 med et spørgsmålstegn; på 8 udskriver den 8.30 med et spørgsmålstegn. Byttede visere giver et andet klokkeslæt, og en stor viser på 10 for ti minutter over udskriver 50 minutter. Efter andet forsøg kommer minutterne 5, 10, 15 og så videre frem langs kanten. Ved et rigtigt svar lyser stykkerne, klokken på toppen ringer, og sedlen bliver grøn; bagefter kan viserne stadig drejes.",
+        "Hjælpen taler om viserne og afslører aldrig svaret. I tråd med Fælles Mål for geometri og måling. Uden tidtagning og uden point."
       ],
       "practices": [
-        "Trække time- og minutviseren, så de viser et givet klokkeslæt",
-        "Placere den korte viser halvvejs mellem to tal ved en halv time",
-        "Aflæse det digitale klokkeslæt, der passer, mens viserne flyttes",
-        "Kende forskel på hele og halve timer og stille hver af dem rigtigt"
+        "At sætte den lille viser til timen og den store viser til minutterne",
+        "Ved halve timer at stille den lille viser midt mellem to tal",
+        "At tælle minutterne fem ad gangen fra 12",
+        "At koble et digitalt klokkeslæt og dets ord til et analogt ur"
       ],
       "howToPlay": [
-        "Barnet læser klokkeslættet, der står over uret.",
-        "Barnet trækker den lange og den korte viser, så de viser den tid, og holder øje med det digitale klokkeslæt.",
-        "Barnet kan tjekke uret og rette til, så ofte det vil — der er ingen timer og ingen point."
+        "Læs det klokkeslæt, du skal vise. Tryk på den lille viser i bakken for at sætte den på uret, og tryk eller træk så på uret for at dreje den.",
+        "Gør det samme med den store viser. Tryk på en viser i bakken eller på midten af uret for at vælge, hvilken viser du drejer.",
+        "Tryk på Tjek. De grønne stykker og sedlen viser, hvad dine visere siger; et spørgsmålstegn betyder, at den lille viser ikke står ved enden af sit lille stykke.",
+        "Efter et rigtigt svar kan du blive ved med at dreje viserne.",
+        "I indstillingerne vælger du klokkeslæt (Hele og halve timer · Hele timer · Halve timer · Kvarterer · Fem minutter ad gangen · Blandet) og hvornår det grønne stykke vises (Efter tjek · Mens du stiller)."
       ],
       "learningGoals": [
-        "Barnet kan stille et analogt ur til hele og halve timer",
-        "Barnet kan forstå, at timeviseren ved en halv time står mellem to tal",
-        "Barnet kan forbinde den analoge urskive med det digitale klokkeslæt, det ser hver dag"
+        "At vise et givet klokkeslæt på et analogt ur ved at sætte begge visere.",
+        "At vide, at den lille viser viser timen, og den store viser minutterne.",
+        "At stille den lille viser, så den passer til minutterne: på tallet ved hele timer, midt mellem to tal ved halve timer.",
+        "At aflæse minutterne ved at tælle fem ad gangen fra 12."
       ]
     },
     "match-pairs.make-the-number.k-oa-a-3": {

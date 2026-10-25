@@ -1478,25 +1478,28 @@
     },
     "clock.set-clock.1-md-b-3": {
       "about": [
-        "A written time is given — like 3:00, 7:30, 9:00, 6:30, or half past one — and the child drags the long and short hands on the analog face to show it while a digital readout updates as they go. Set the Clock is a Grade 1 math activity that plays right in the browser on tablets, phones, and classroom computers, with nothing to install and no sign-up.",
-        "Setting a clock is harder than reading one, because the child has to produce both hands rather than recognize a picture. For half-past times the short hand sits between two numbers, not on one, so a child who only nudges the hour to a number will be off — they have to place it halfway. Watching the digital readout change as the hands move ties the analog picture to the numbers children already know, and the times stay at hours and half-hours so the focus is on getting the hands right.",
-        "It is aligned to Common Core 1.MD.B.3 — telling and writing time to the hour and half-hour on analog and digital clocks. No timer, no score — just calm, playful practice."
+        "The child builds the clock. Both hands lie in a tray; each one is put on the clock and pointed, just like drawing the hands on a worksheet. The hands are not linked, so the child has to make them agree. On Check, the part of the face the long hand has swept from the 12 turns green, and a narrow copy of that slice drops into the hour's own slice between two numbers. The short hand has to point at the end of that little slice. A paper receipt prints the time the hands really show.",
+        "This catches the classic mistakes. At half past, a short hand placed right on the 7 sits at the start of its little slice, not the end, and the receipt prints 7:30 with a question mark; on the 8 it prints 8:30 with a question mark. Hands put on the wrong way round print a different time, and a long hand put on the 10 for ten past prints 50 minutes. After a second miss, the minutes 5, 10, 15 and on appear round the rim. On a right answer the slices light up, the bell on top rings and the receipt turns green; after that the child can keep turning the hands.",
+        "Hints talk about the hands and never give the answer. Aligned to Common Core 1.MD.B.3. No timer and no score."
       ],
       "practices": [
-        "Drag the hour and minute hands to show a given time",
-        "Place the short hand halfway between numbers for a half-past time",
-        "Read the matching digital time as the hands move",
-        "Tell hours from half-hours and set each correctly"
+        "Placing the short hand for the hour and the long hand for the minutes",
+        "At half past, putting the short hand half way between two numbers",
+        "Counting the minutes in fives from the 12",
+        "Matching a digital time and its words to a clock"
       ],
       "howToPlay": [
-        "Read the time written above the clock.",
-        "Drag the long and short hands to show that time, watching the digital readout.",
-        "Check your clock and adjust as often as you like — there is no timer and no score."
+        "Read the time you have to show. Tap the short hand in the tray to put it on the clock, then tap or drag on the clock to turn it.",
+        "Do the same with the long hand. Tap a hand in the tray, or the middle of the clock, to choose which hand you turn.",
+        "Press Check. The green slices and the paper show what your hands say; a question mark means the short hand is not at the end of its little slice.",
+        "After a right answer you can keep turning the hands.",
+        "In the settings, choose the times (O'clock and half past · O'clock · Half past · Quarter hours · Five minutes · Mixed) and when the green slice shows (After Check · While setting)."
       ],
       "learningGoals": [
-        "Set an analog clock to the hour and half-hour — the focus of Common Core 1.MD.B.3.",
-        "Understand that at half past, the hour hand sits between two numbers.",
-        "Connect the analog clock face to the digital time children read every day."
+        "Show a given time on an analog clock by placing both hands — the focus of Common Core 1.MD.B.3.",
+        "Know that the short hand shows the hour and the long hand the minutes.",
+        "Place the short hand so it agrees with the minutes: on the number at o'clock, half way between two numbers at half past.",
+        "Read the minutes by counting in fives from the 12."
       ]
     },
     "clock.tell-time-5-min.2-md-c-7": {

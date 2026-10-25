@@ -2626,24 +2626,28 @@
     },
     "clock.set-clock.1-md-b-3": {
       "about": [
-        "Une heure est écrite — comme 3 h 00, 7 h 30, 9 h 00, 6 h 30, ou « une heure et demie » — et l'enfant fait glisser la grande et la petite aiguille sur le cadran pour l'afficher, pendant qu'un affichage numérique se met à jour au fur et à mesure. « Règle l'horloge » est une activité de mathématiques de CP, qui se joue directement dans le navigateur sur tablette, téléphone et ordinateur de classe, sans rien installer et sans inscription.",
-        "Régler une horloge est plus difficile que la lire, car l'enfant doit produire les deux aiguilles au lieu de reconnaître une image toute faite. Pour les demi-heures, la petite aiguille se place entre deux nombres, et non sur l'un d'eux : un enfant qui ne fait que la pousser vers un chiffre tombera à côté — il doit la placer à mi-chemin. Voir l'affichage numérique changer quand les aiguilles bougent relie l'image du cadran aux nombres que l'enfant connaît déjà, et les heures restent pleines ou et demie pour que toute l'attention porte sur le bon placement des aiguilles. L'activité est alignée sur les programmes officiels : ni minuteur, ni score, juste un entraînement calme et ludique."
+        "L’enfant construit l’horloge. Les deux aiguilles sont posées dans un plateau ; chacune est placée sur l’horloge puis tournée, comme quand on dessine les aiguilles sur une fiche. Les aiguilles ne sont pas reliées, l’enfant doit donc les accorder lui-même. Au moment de vérifier, la partie du cadran balayée par la grande aiguille depuis le 12 devient verte, et une copie étroite de cette part tombe dans la part de l’heure, entre deux nombres. La petite aiguille doit pointer vers le bout de cette petite part. Un ticket imprime l’heure que les aiguilles indiquent vraiment.",
+        "On voit ainsi les erreurs classiques. À la demie, une petite aiguille posée pile sur le 7 se trouve au début de sa petite part, pas au bout, et le ticket imprime 7 h 30 avec un point d’interrogation ; sur le 8, il imprime 8 h 30 avec un point d’interrogation. Des aiguilles inversées donnent une autre heure, et une grande aiguille posée sur le 10 pour indiquer « deux heures dix » imprime 50 minutes. Après une deuxième erreur, les minutes 5, 10, 15 et la suite apparaissent autour du bord. Avec une bonne réponse, les parts s’allument, la cloche du dessus sonne et le ticket devient vert ; ensuite on peut continuer à tourner les aiguilles.",
+        "Les indices parlent des aiguilles et ne donnent jamais la réponse. En lien avec les programmes officiels pour le domaine Grandeurs et mesures. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Faire glisser l'aiguille des heures et celle des minutes pour afficher une heure donnée.",
-        "Placer la petite aiguille à mi-chemin entre deux nombres pour une demi-heure.",
-        "Lire l'heure numérique correspondante pendant que les aiguilles bougent.",
-        "Distinguer les heures pleines des demi-heures et régler chacune correctement."
+        "Placer la petite aiguille pour l’heure et la grande aiguille pour les minutes",
+        "À la demie, mettre la petite aiguille juste entre deux nombres",
+        "Compter les minutes de cinq en cinq depuis le 12",
+        "Associer une heure numérique et ses mots à une horloge à aiguilles"
       ],
       "howToPlay": [
-        "Lis l'heure écrite au-dessus de l'horloge.",
-        "Fais glisser la grande et la petite aiguille pour afficher cette heure, en surveillant l'affichage numérique.",
-        "Vérifie ton horloge et ajuste autant de fois que tu veux : il n'y a ni minuteur, ni score."
+        "Lis l’heure que tu dois montrer. Touche la petite aiguille dans le plateau pour la poser sur l’horloge, puis touche ou fais glisser sur l’horloge pour la tourner.",
+        "Fais pareil avec la grande aiguille. Touche une aiguille dans le plateau, ou le centre de l’horloge, pour choisir l’aiguille que tu tournes.",
+        "Touche Vérifier. Les parts vertes et le ticket montrent ce que disent tes aiguilles ; un point d’interrogation veut dire que la petite aiguille n’est pas au bout de sa petite part.",
+        "Après une bonne réponse, tu peux continuer à tourner les aiguilles.",
+        "Dans les réglages, choisis les heures (Heures pile et demi-heures · Heures pile · Demi-heures · Quarts d’heure · De cinq en cinq minutes · Mélangées) et le moment où la part verte apparaît (Après vérification · Pendant le réglage)."
       ],
       "learningGoals": [
-        "Régler une horloge à aiguilles aux heures pleines et aux demi-heures.",
-        "Comprendre qu'à la demi-heure, l'aiguille des heures se place entre deux nombres.",
-        "Relier le cadran à aiguilles à l'heure numérique que les enfants lisent tous les jours."
+        "Afficher une heure donnée sur une horloge à aiguilles en plaçant les deux aiguilles.",
+        "Savoir que la petite aiguille indique l’heure et la grande aiguille les minutes.",
+        "Placer la petite aiguille en accord avec les minutes : sur le nombre à l’heure pile, juste entre deux nombres à la demie.",
+        "Lire les minutes en comptant de cinq en cinq depuis le 12."
       ]
     },
     "match-pairs.make-the-number.k-oa-a-3": {

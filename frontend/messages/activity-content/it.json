@@ -1758,25 +1758,28 @@
     },
     "clock.set-clock.1-md-b-3": {
       "about": [
-        "Viene indicata un'ora scritta — come le 3:00, le 7:30, le 9:00, le 6:30 oppure l'una e mezza — e il bambino trascina le lancette lunga e corta sul quadrante analogico per mostrarla, mentre un display digitale si aggiorna man mano. «Metti l'ora» è un'attività di matematica per la classe prima, che si gioca direttamente nel browser su tablet, telefono e computer di classe, senza installare nulla e senza account.",
-        "Mettere l'ora su un orologio è più difficile che leggerla, perché il bambino deve posizionare entrambe le lancette e non solo riconoscere un'immagine. Nelle mezze ore la lancetta corta sta tra due numeri, non su uno: chi sposta l'ora soltanto fino a un numero sbaglia, perché deve metterla a metà. Vedere il display digitale cambiare mentre le lancette si muovono collega l'immagine analogica ai numeri che i bambini già conoscono, e le ore restano intere e a mezza ora, così l'attenzione è tutta sul posizionare bene le lancette.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito della misura del tempo: leggere e scrivere l'ora intera e la mezz'ora sull'orologio analogico e digitale, pensata per i bambini di classe prima (6-7 anni). Nessun timer, nessun punteggio: solo pratica serena e giocosa."
+        "Il bambino costruisce l’orologio. Le due lancette sono in un vassoio; ognuna viene messa sull’orologio e girata, proprio come quando si disegnano le lancette su una scheda. Le lancette non sono collegate, quindi il bambino deve farle andare d’accordo da solo. Al controllo, la parte del quadrante che la lancetta lunga ha percorso dal 12 diventa verde, e una copia stretta di quella fetta cade nella fetta dell’ora, fra due numeri. La lancetta corta deve puntare alla fine di quella piccola fetta. Un foglietto stampa l’ora che le lancette segnano davvero.",
+        "Così si vedono gli errori tipici. Alla mezza, una lancetta corta messa proprio sul 7 sta all’inizio della sua piccola fetta, non alla fine, e il foglietto stampa 7:30 con un punto interrogativo; sull’8 stampa 8:30 con un punto interrogativo. Le lancette scambiate danno un’altra ora, e una lancetta lunga messa sul 10 per segnare «e dieci» stampa 50 minuti. Dopo il secondo errore, i minuti 5, 10, 15 e così via compaiono lungo il bordo. Con una risposta giusta le fette si illuminano, suona la campana in cima e il foglietto diventa verde; dopo, le lancette si possono continuare a girare.",
+        "I suggerimenti parlano delle lancette e non danno mai la risposta. In linea con le Indicazioni nazionali, nucleo Relazioni, dati e previsioni. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Trascinare la lancetta delle ore e quella dei minuti per mostrare un'ora data.",
-        "Posizionare la lancetta corta a metà tra due numeri per una mezza ora.",
-        "Leggere l'ora digitale corrispondente mentre le lancette si muovono.",
-        "Distinguere le ore intere dalle mezze ore e impostarle correttamente."
+        "Mettere la lancetta corta per l’ora e quella lunga per i minuti",
+        "Alla mezza, mettere la lancetta corta proprio fra due numeri",
+        "Contare i minuti di cinque in cinque dal 12",
+        "Abbinare un’ora digitale e le sue parole a un orologio a lancette"
       ],
       "howToPlay": [
-        "Il bambino legge l'ora scritta sopra l'orologio.",
-        "Trascina la lancetta lunga e quella corta per mostrare quell'ora, osservando il display digitale.",
-        "Controlla l'orologio e aggiusta le lancette quante volte vuole, senza timer e senza punteggio."
+        "Leggi l’ora che devi mostrare. Tocca la lancetta corta nel vassoio per metterla sull’orologio, poi tocca o trascina sull’orologio per girarla.",
+        "Fai lo stesso con la lancetta lunga. Tocca una lancetta nel vassoio o il centro dell’orologio per scegliere quale lancetta girare.",
+        "Tocca Controlla. Le fette verdi e il foglietto mostrano che cosa dicono le tue lancette; un punto interrogativo vuol dire che la lancetta corta non è alla fine della sua piccola fetta.",
+        "Dopo una risposta giusta puoi continuare a girare le lancette.",
+        "Nelle impostazioni scegli gli orari (Ore esatte e mezz’ore · Ore esatte · Mezz’ore · Quarti d’ora · Di cinque in cinque minuti · Misti) e quando compare la fetta verde (Dopo il controllo · Mentre regoli)."
       ],
       "learningGoals": [
-        "Impostare un orologio analogico all'ora intera e alla mezz'ora.",
-        "Capire che nella mezza ora la lancetta delle ore sta tra due numeri.",
-        "Collegare il quadrante analogico all'ora digitale che i bambini leggono ogni giorno."
+        "Mostrare un’ora data su un orologio a lancette mettendo entrambe le lancette.",
+        "Sapere che la lancetta corta indica l’ora e quella lunga i minuti.",
+        "Mettere la lancetta corta d’accordo con i minuti: sul numero all’ora esatta, proprio fra due numeri alla mezza.",
+        "Leggere i minuti contando di cinque in cinque dal 12."
       ]
     },
     "match-pairs.make-the-number.k-oa-a-3": {

@@ -1140,25 +1140,28 @@
     },
     "clock.set-clock.1-md-b-3": {
       "about": [
-        "Tehtävässä annetaan kellonaika kirjoitettuna — kuten 3.00, 7.30, 9.00, 6.30 tai puoli kaksi — ja lapsi vetää analogisen kellotaulun pitkän ja lyhyen viisarin oikeaan kohtaan, samalla kun digitaalinäyttö päivittyy hänen liikuttaessaan viisareita. Aseta kello on 1. luokan matematiikkatehtävä, joka toimii suoraan selaimessa tabletilla, puhelimella ja luokan tietokoneella — mitään ei tarvitse asentaa eikä tiliä tarvita.",
-        "Kellon asettaminen on vaikeampaa kuin sen lukeminen, koska lapsen täytyy tuottaa molemmat viisarit itse eikä vain tunnistaa valmista kuvaa. Puolitunneilla lyhyt viisari osuu kahden luvun väliin eikä yhden luvun kohdalle, joten lapsi, joka vain siirtää tuntiviisarin luvun kohdalle, asettaa sen väärin — viisari pitää asettaa puoliväliin. Digitaalinäytön seuraaminen viisarien liikkuessa yhdistää analogisen kuvan lapselle jo tuttuihin numeroihin, ja ajat pysyvät tasa- ja puolitunneissa, jotta huomio kohdistuu viisarien oikeaan asettamiseen.",
-        "Harjoitus on OPS 2014:n mukainen mittaamisen osa-alueella — lapsi lukee ja näyttää kellonaikoja tasa- ja puolitunneilla analogisella ja digitaalisella kellolla. Lapsi saa edetä rauhassa omaan tahtiinsa: ei ajastinta eikä pisteitä."
+        "Lapsi rakentaa kellon itse. Molemmat viisarit ovat alustalla; kumpikin laitetaan kelloon ja käännetään, aivan kuin viisarit piirrettäisiin tehtäväpaperiin. Viisarit eivät ole kiinni toisissaan, joten lapsen täytyy itse saada ne täsmäämään. Tarkistettaessa se osa kellotaulua, jonka pitkä viisari on pyyhkäissyt 12:sta alkaen, muuttuu vihreäksi, ja kapea kopio siitä siivusta putoaa tunnin omaan siivuun kahden numeron väliin. Lyhyen viisarin pitää osoittaa tuon pienen siivun loppuun. Lappu tulostaa ajan, jonka viisarit oikeasti näyttävät.",
+        "Näin tavalliset virheet tulevat näkyviin. Puolitunneissa lyhyt viisari, joka on aivan 7:n kohdalla, on pienen siivunsa alussa eikä lopussa, ja lappuun tulostuu 7.30 kysymysmerkin kanssa; 8:n kohdalla siihen tulostuu 8.30 kysymysmerkin kanssa. Väärin päin laitetut viisarit näyttävät eri ajan, ja pitkä viisari 10:n kohdalla ajalle kymmenen yli tulostaa 50 minuuttia. Toisen virheen jälkeen minuutit 5, 10, 15 ja niin edelleen ilmestyvät reunan ympärille. Oikeasta vastauksesta siivut syttyvät, kellon päällä oleva kilikello soi ja lappu muuttuu vihreäksi; sen jälkeen viisareita voi kääntää edelleen.",
+        "Vihjeet puhuvat viisareista eivätkä koskaan kerro vastausta. Sopii opetussuunnitelman sisältöalueeseen Geometria ja mittaaminen. Ilman ajanottoa ja ilman pisteytystä."
       ],
       "practices": [
-        "Vetää tunti- ja minuuttiviisarin näyttämään annettua aikaa.",
-        "Asettaa lyhyen viisarin kahden luvun puoliväliin puolitunnilla.",
-        "Lukee vastaavan digitaalisen ajan viisarien liikkuessa.",
-        "Erottaa tasatunnit puolitunneista ja asettaa kummatkin oikein."
+        "Lyhyen viisarin asettaminen tunnille ja pitkän viisarin minuuteille",
+        "Puolitunneissa lyhyen viisarin asettaminen kahden numeron puoliväliin",
+        "Minuuttien laskeminen viiden välein 12:sta alkaen",
+        "Digitaalisen ajan ja sen sanojen yhdistäminen viisarikelloon"
       ],
       "howToPlay": [
-        "Lue kellon yläpuolelle kirjoitettu aika.",
-        "Vedä pitkä ja lyhyt viisari näyttämään sitä aikaa ja seuraa digitaalinäyttöä.",
-        "Tarkista kellosi ja säädä viisareita niin usein kuin haluat — ei ajastinta eikä pisteitä."
+        "Lue aika, joka sinun pitää näyttää. Napauta alustalla olevaa lyhyttä viisaria, niin se tulee kelloon, ja napauta tai vedä sitten kellossa kääntääksesi sitä.",
+        "Tee samoin pitkälle viisarille. Napauta viisaria alustalla tai kellon keskustaa valitaksesi, kumpaa viisaria käännät.",
+        "Napauta Tarkista. Vihreät siivut ja lappu näyttävät, mitä viisarisi sanovat; kysymysmerkki tarkoittaa, ettei lyhyt viisari ole pienen siivunsa lopussa.",
+        "Oikean vastauksen jälkeen voit jatkaa viisarien kääntämistä.",
+        "Asetuksista valitset ajat (Tasa- ja puolitunnit · Tasatunnit · Puolitunnit · Vartit · Viiden minuutin välein · Sekaisin) ja milloin vihreä siivu näkyy (Tarkistuksen jälkeen · Asettaessa)."
       ],
       "learningGoals": [
-        "Lapsi osaa asettaa analogisen kellon tasa- ja puolitunneille.",
-        "Lapsi ymmärtää, että puolitunnilla tuntiviisari osuu kahden luvun väliin.",
-        "Lapsi yhdistää analogisen kellotaulun digitaaliseen aikaan, jota lapset lukevat joka päivä."
+        "Annetun ajan näyttäminen viisarikellossa asettamalla molemmat viisarit.",
+        "Tietää, että lyhyt viisari näyttää tunnin ja pitkä viisari minuutit.",
+        "Lyhyen viisarin asettaminen minuuttien mukaan: tasatunnilla numeron kohdalle, puolitunnilla kahden numeron puoliväliin.",
+        "Minuuttien lukeminen laskemalla viiden välein 12:sta alkaen."
       ]
     },
     "match-pairs.make-the-number.k-oa-a-3": {

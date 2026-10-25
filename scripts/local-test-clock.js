@@ -33,8 +33,8 @@ const LOCALES = arg('locales', 'en,de,es,pt,fr,it,nl,sv,da,no,fi').split(',');
 const SHOT = has('shot');
 /* both E10 coordinates on the shared core: #1 (1.MD.B.3, half-hour) is the
    regression; #2 (2.MD.C.7, to-5-min) is the new one. */
+/* Row 104 rebuild (2026-10-25): 1.MD.B.3 left this engine for The Echo Slice (set-clock-activity; gates verify-set-clock-core.js + local-test-set-clock.js). */
 const ACTIVITIES = [
-  { id: 'clock.set-clock.1-md-b-3', tag: '1.MD.B.3' },
   { id: 'clock.tell-time-5-min.2-md-c-7', tag: '2.MD.C.7' },
 ];
 const REPO = path.join(__dirname, '..');

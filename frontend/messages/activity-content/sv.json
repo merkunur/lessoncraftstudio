@@ -3641,6 +3641,29 @@
         "Stava korta ord ljud för ljud.",
         "Förstå att ett ord inte alltid har lika många ljud som bokstäver."
       ]
+    },
+    "domino-two-part.two-syllable.rf-1-3-e": {
+      "about": [
+        "Varje stavelse är ett litet isflak som guppar på en damm. Uppe på iskanten står tre bilder, till exempel en banan, en kamel och en delfin, och deras stavelser flyter omkring. Barnet skjuter in stavelserna i facket under varje bild tills ordet står där. Läs stavelser är en aktivitet för åk 1 där man läser längre ord stavelse för stavelse.",
+        "När man trycker på Kontrollera drar frosten fram över isen. Där stavelserna verkligen blir bildens ord, i rätt ordning, fryser de ihop; en fel stavelse spricker loss och flyter tillbaka ut i dammen. Varje fack har tre platser, så det avslöjar inte hur många stavelser ordet har. Stavelsen som saknas, Blandat ord och Läs och hitta tränar samma sak på tre andra sätt.",
+        "Aktiviteten följer Lgr22:s centrala innehåll för läsning i åk 1–3. Ingen tidtagning och inga poäng."
+      ],
+      "practices": [
+        "Läsa långa ord stavelse för stavelse",
+        "Sätta ihop stavelser i rätt ordning till ett ord",
+        "Läsa även den andra stavelsen när orden börjar lika",
+        "Skilja på ord med två och tre stavelser"
+      ],
+      "howToPlay": [
+        "Tryck på en bild för att välja dess fack och höra namnet.",
+        "Tryck på ett isflak så flyter det till det lysande facket, eller dra det till ett fack. Tryck på facket för att ta tillbaka den sista stavelsen.",
+        "Tryck på Kontrollera. Rätt ord fryser ihop, en fel stavelse spricker loss."
+      ],
+      "learningGoals": [
+        "Läsa ord med två och tre stavelser genom att dela upp dem i stavelser.",
+        "Sätta ihop stavelserna i ordning och koppla ordet till dess betydelse.",
+        "Se att även ett långt ord kan ha bara två eller tre stavelser."
+      ]
     }
   }
 }

@@ -216,6 +216,7 @@ const MANIFEST_FILES = [
   'stretch-giraffe-activities.json',
   'bingo-word-hunt-activities.json',
   'domino-two-part-activities.json',
+  'freezing-floes-activities.json', // rebuild #113 (2026-10-25): Domino's Two-Part Words → The Freezing Floes, moved out of domino-two-part-activities.json
   'olive-kind-of-activities.json',
   'jasper-just-right-activities.json',
   'roary-roar-meter-activities.json',

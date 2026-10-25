@@ -3001,6 +3001,29 @@
         "Tunnistaa, että pitkä vokaali kirjoitetaan kahdella kirjaimella.",
         "Kuulla sanan äänteet järjestyksessä."
       ]
+    },
+    "domino-two-part.two-syllable.rf-1-3-e": {
+      "about": [
+        "Jokainen tavu on pieni jäälautta, joka keinuu lammella. Jäänreunalla on kolme kuvaa, esimerkiksi pallo, kissa ja koira, ja niiden tavut kelluvat irrallaan. Lapsi työntää tavut kunkin kuvan lokeroon, kunnes sana on valmis. Lue tavuittain on 1. luokan tehtävä, jossa pitkiä sanoja luetaan tavu kerrallaan.",
+        "Kun painat Tarkista, huurre kulkee jään yli. Jos tavut todella muodostavat kuvan sanan oikeassa järjestyksessä, ne jäätyvät yhteen; väärä tavu halkeaa irti ja lipuu takaisin lammelle. Jokaisessa lokerossa on kolme paikkaa, joten se ei kerro, montako tavua sanassa on. Pitkä vokaali pysyy aina samassa tavussa (ba-naa-ni). Puuttuva tavu, Sekaisin oleva sana ja Lue ja löydä harjoittavat samaa kolmella muulla tavalla.",
+        "Tehtävä tukee perusopetuksen opetussuunnitelman (OPS 2014) lukemisen tavoitteita 1. luokalla. Ei ajanottoa eikä pisteitä."
+      ],
+      "practices": [
+        "Lukea pitkiä sanoja tavu kerrallaan",
+        "Yhdistää tavut oikeassa järjestyksessä sanaksi",
+        "Lukea myös toinen tavu, kun sanat alkavat samalla tavalla",
+        "Erottaa kaksi- ja kolmitavuiset sanat"
+      ],
+      "howToPlay": [
+        "Napauta kuvaa valitaksesi sen lokeron ja kuullaksesi nimen.",
+        "Napauta jäälauttaa, niin se lipuu hohtavaan lokeroon, tai vedä se lokeroon. Napauta lokeroa ottaaksesi viimeisen tavun takaisin.",
+        "Paina Tarkista. Oikeat sanat jäätyvät, väärä tavu halkeaa irti."
+      ],
+      "learningGoals": [
+        "Lukea kaksi- ja kolmitavuisia sanoja jakamalla ne tavuihin.",
+        "Yhdistää tavut järjestyksessä ja liittää sana sen merkitykseen.",
+        "Huomata, että pitkässäkin sanassa voi olla vain kaksi tai kolme tavua."
+      ]
     }
   }
 }

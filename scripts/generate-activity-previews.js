@@ -263,6 +263,10 @@ function seedScript(row) {
     // the fourths mobile after Check with the unfair square: it tips, the heavy share glowing coral and the light one teal, while the fair card waits on the shelf
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.level='hf';t.api.settings.bubble='on';t._pool=null;t._ensurePool();t._pos=null;t._start(4,0);var C=window.FairMobileCore,s=t.st;C.hangCard(s,s.cards.indexOf('sq-fourths-uneq'),0);t._render2();t._check();})()`;
   }
+  if (row.tool === 'freezing-floes-activity') {
+    // rabbit, basket, muffin: rab·bit frozen in its slot, bas in the next slot, the rest of the floes still bobbing on the pond
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.clue='join';t._pool=null;t._ensurePool();t._set=0;t._orders=null;t._start(0,0);t._view.note='';t._view.nudge=false;var C=window.FreezingFloesCore,s=t.st,f=function(x){return s.pond.find(function(i){return s.floes[i].s===x;});};C.place(s,f('rab'),0);C.place(s,f('bit'),0);C.place(s,f('bas'),1);s.frozen[0]=[true,true,false];s.active=1;t._render2();})()`;
+  }
   if (row.tool === 'pinch-teams-activity') {
     // b _ t with o and a pinched in the socket: the brass clasp shut over them, the o lit gold (it says its name), the a quiet
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.clue='build';t._pool=null;t._ensurePool();t._set=0;t._start('boat',0);t._view.note='';t._view.nudge=false;var C=window.PinchTeamsCore,s=t.st,f=function(c){return s.tray.findIndex(function(x,i){return x.c===c&&C.usedAt(s,i)<0;});};C.drop(s,f('o'),0);C.drop(s,f('a'),0);t._render2();})()`;

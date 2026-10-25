@@ -4478,6 +4478,29 @@
         "Comprendre que deux lettres peuvent faire un seul son.",
         "Faire attention à l’ordre des lettres dans un son."
       ]
+    },
+    "domino-two-part.two-syllable.rf-1-3-e": {
+      "about": [
+        "Chaque syllabe est un petit morceau de glace qui flotte sur un étang. Sur la rive, trois images, par exemple un lapin, une lune et un lama, et leurs syllabes flottent en vrac. L’enfant pousse les syllabes dans la case de chaque image pour former son mot. Lis les syllabes est une activité de CP pour lire les mots syllabe par syllabe.",
+        "Quand on appuie sur Vérifier, le givre passe sur la rive. Si les syllabes forment vraiment le mot de l’image, dans le bon ordre, elles gèlent ensemble ; une syllabe fausse se fend et repart flotter sur l’étang. Chaque case a trois places, elle ne dit donc pas combien de syllabes a le mot. Syllabe manquante, Mot mélangé et Lis et trouve travaillent la même chose de trois autres façons. Les syllabes sont les syllabes écrites, avec le e final (lu-ne).",
+        "L’activité est alignée sur les programmes officiels de lecture du CP. Sans chronomètre et sans points."
+      ],
+      "practices": [
+        "Lire un mot syllabe par syllabe",
+        "Assembler des syllabes dans le bon ordre pour former un mot",
+        "Lire aussi la deuxième syllabe quand des mots commencent pareil",
+        "Ranger les mots de deux et de trois syllabes"
+      ],
+      "howToPlay": [
+        "Touche une image pour choisir sa case et entendre son nom.",
+        "Touche un morceau de glace : il flotte jusqu’à la case qui brille, ou fais-le glisser dans une case. Touche la case pour reprendre la dernière syllabe.",
+        "Appuie sur Vérifier. Les bons mots gèlent, une syllabe fausse se fend et s’éloigne."
+      ],
+      "learningGoals": [
+        "Lire des mots de deux et trois syllabes en les découpant en syllabes.",
+        "Assembler les syllabes dans l’ordre et relier le mot à son sens.",
+        "Voir qu’un mot long peut n’avoir que deux ou trois syllabes."
+      ]
     }
   }
 }

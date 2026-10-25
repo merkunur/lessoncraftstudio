@@ -3001,6 +3001,29 @@
         "Trække lyde sammen til et ord.",
         "Høre vokalens længde uden at tælle bogstaver."
       ]
+    },
+    "domino-two-part.two-syllable.rf-1-3-e": {
+      "about": [
+        "Hver stavelse er en lille isflage, der vugger på en sø. Oppe på iskanten står tre billeder, for eksempel en banan, en kamel og en delfin, og deres stavelser flyder rundt. Barnet skubber stavelserne ind i rummet under hvert billede, til ordet står der. Læs stavelser er en aktivitet til 1. klasse, hvor man læser længere ord stavelse for stavelse.",
+        "Når man trykker på Tjek, trækker frosten hen over isen. Hvor stavelserne virkelig giver billedets ord, i den rigtige rækkefølge, fryser de sammen; en forkert stavelse revner og flyder tilbage ud i søen. Hvert rum har tre pladser, så det afslører ikke, hvor mange stavelser ordet har. Manglende stavelse, Blandet ord og Læs og find øver det samme på tre andre måder.",
+        "Aktiviteten er i tråd med Fælles Mål for læsning i indskolingen. Ingen tidtagning og ingen point."
+      ],
+      "practices": [
+        "Læse lange ord stavelse for stavelse",
+        "Sætte stavelser sammen i den rigtige rækkefølge til et ord",
+        "Også læse den anden stavelse, når ordene begynder ens",
+        "Skelne mellem ord med to og tre stavelser"
+      ],
+      "howToPlay": [
+        "Tryk på et billede for at vælge dets rum og høre navnet.",
+        "Tryk på en isflage, så flyder den hen til det lysende rum, eller træk det ind i et rum. Tryk på rummet for at tage den sidste stavelse tilbage.",
+        "Tryk på Tjek. Rigtige ord fryser sammen, en forkert stavelse revner og flyder væk."
+      ],
+      "learningGoals": [
+        "Læse ord med to og tre stavelser ved at dele dem op i stavelser.",
+        "Sætte stavelserne sammen i rækkefølge og koble ordet til dets betydning.",
+        "Se, at også et langt ord kan have kun to eller tre stavelser."
+      ]
     }
   }
 }

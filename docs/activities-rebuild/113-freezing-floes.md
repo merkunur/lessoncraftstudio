@@ -100,4 +100,5 @@ ONE native + Grade-1 reading reviewer over all 11 locales.
   - Count: 44,792 checks, 0 fail (+ en re-run at 704–1366 after the penguin grew to 96 px: 1,732, 0 fail).
 - `visual-qa-activity` 54 / 54 · `audit-activity-hierarchy` 358 / 0 · `audit-settings-efficacy` (clue live) · preflight-activity-routes · prose-claims · SERP copy · activity-content × 11 — all green. 0 lines to shared cores or lcs-shell.
 
-LIVEVERIFY
+## Live
+- Deployed 2026-10-25. `live-verify-freezing-floes.js`: **52 pass, 0 fail** — all 11 pages 200; en / de / sv / fi at 1366 and 390 with a real pointer: the first word built reversed → the locale's hintCrack, its pieces crack back, the other words freeze; rebuilt → okJoin; wrapper 9.857; the iframe grows with the card. (First run: the de / sv / fi pages still served the pre-deploy edge copy; rerun once after it expired.)

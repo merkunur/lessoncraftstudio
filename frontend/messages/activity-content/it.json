@@ -3849,25 +3849,25 @@
     },
     "marlo-magnifier.trait-evidence.rl-1-3": {
       "about": [
-        "Con la lente di Marlo il procione i bambini diventano piccoli detective delle storie: leggono un breve racconto e un’affermazione su un personaggio, poi cercano la prova che la conferma.",
-        "Toccano il dettaglio giusto — un’azione raccontata nel testo — imparando a distinguerlo da una parola ripetuta o da un dettaglio qualsiasi, con un comodo aiuto 🔊 che legge tutto ad alta voce.",
-        "Pensata per la classe terza e allineata alle Indicazioni nazionali, l’attività è senza registrazione, senza timer e senza punteggio."
+        "Una breve storia, un’affermazione sul suo personaggio («Mira è coraggiosa.») e tre carte indizio. Il bambino mette un indizio sotto la lente di Marlo, il procione, e preme Controlla. La lente controlla due cose, nell’ordine di un buon lettore: prima cerca nella storia la frase da cui viene l’indizio, poi sale fino all’affermazione. La lente di Marlo è un’attività di lettura sui personaggi e sui dettagli importanti di una storia.",
+        "Un indizio che non è mai successo, come «Un amico è salito per primo in soffitta con la torcia.», non si trova da nessuna parte: la lente si appanna, anche se la carta usa parole della storia. Un indizio che c’è nella storia ma non dimostra niente, come «Lassù si sente uno strano rumore.», illumina la sua frase, ma l’anello intorno a «coraggiosa» traballa. Solo «È andata su in soffitta, tutta da sola.» fa diventare l’anello d’oro. In «Domande» («Dove sale Mira?») tutte le carte sono nella storia, e una sola risponde.",
+        "L’attività è in linea con le Indicazioni nazionali per la lettura e la comprensione. Senza cronometro e senza punteggi."
       ],
       "practices": [
-        "descrivere un personaggio con i dettagli",
-        "trovare la prova nel testo",
-        "distinguere la prova da un dettaglio qualsiasi",
-        "capire com’è un personaggio"
+        "Controllare se un dettaglio c’è davvero nella storia",
+        "Distinguere una prova da un dettaglio che non dimostra niente",
+        "Sostenere ciò che si dice di un personaggio con un dettaglio del testo",
+        "Rispondere a domande chi, che cosa, dove, quando e perché con il testo"
       ],
       "howToPlay": [
-        "Leggi o ascolta 🔊 il racconto e l’affermazione sul personaggio.",
-        "Pensa a quale dettaglio dimostra davvero com’è il personaggio.",
-        "Tocca la prova: l’azione raccontata nel testo."
+        "Leggi la storia e, in alto, l’affermazione (o la domanda).",
+        "Tocca una carta indizio: va sotto la lente di Marlo. Toccane un’altra per cambiarla.",
+        "Premi Controlla e guarda la lente. Nelle impostazioni scegli il caso: La prova, Prova o solo un dettaglio? oppure Domande."
       ],
       "learningGoals": [
-        "riconoscere le caratteristiche di un personaggio",
-        "sostenere un’affermazione con la prova del testo",
-        "distinguere una prova da un dettaglio irrilevante"
+        "Descrivere un personaggio con dettagli importanti del testo.",
+        "Capire che la prova viene dal testo, e che essere nel testo non basta ancora.",
+        "Rispondere a domande su una storia con dettagli della storia."
       ]
     },
     "linc-fact-chain.connect.ri-k-3": {

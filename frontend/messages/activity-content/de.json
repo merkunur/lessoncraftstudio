@@ -639,25 +639,25 @@
     },
     "marlo-magnifier.trait-evidence.rl-1-3": {
       "about": [
-        "Durch Marlos große Lupe wird jedes Wort zum Hinweis: Dein Kind liest eine kurze Geschichte und bekommt eine Behauptung über eine Figur – zum Beispiel „Mira ist mutig.“ Jetzt heißt es, genau hinzuschauen. Drei Details stehen zur Auswahl, aber nur eines beweist die Eigenschaft wirklich: „Sie ging in die dunkle Höhle hinein.“ belegt Miras Mut, während „Sie trug ihre roten Gummistiefel.“ zwar stimmt, aber nichts über ihren Mut verrät. Dein Kind tippt auf das Beweis-Detail – und Marlo der Waschbär nickt anerkennend.",
-        "Dahinter steckt eine wichtige Lesefähigkeit: eine Charaktereigenschaft nicht einfach zu glauben, sondern sie mit einer konkreten Textstelle zu belegen. Dein Kind lernt, ein passendes Beweis-Detail von einem wahren, aber unpassenden Detail zu unterscheiden – und aus dem, was eine Figur tut, auf ihre Eigenschaft zu schließen. Das gehört im Lehrplan der Grundschule zum Bereich „Literarische Texte verstehen“ und ist ein wichtiger Schritt zum sinnverstehenden Lesen in Klasse 3.",
-        "„Marlos Lupe“ ist ohne Anmeldung spielbar. Es gibt keine Uhr, keinen Countdown und keine Punkte – dein Kind darf in seinem eigenen Tempo lesen und in Ruhe überlegen. Wer noch nicht sicher liest, tippt einfach auf „📖 Vorlesen“ und lässt sich die Geschichte und die Behauptung vorlesen. So können auch Leseanfänger mitdetektivieren und jeden Beleg selbst entdecken."
+        "Eine kurze Geschichte, eine Aussage über ihre Figur („Mira ist mutig.“) und drei Hinweiskarten. Dein Kind legt einen Hinweis unter die Lupe von Marlo, dem Waschbären, und drückt auf Prüfen. Die Lupe prüft zwei Dinge, in der Reihenfolge, in der gute Leser vorgehen: Erst sucht sie in der Geschichte den Satz, aus dem der Hinweis stammt, dann schwenkt sie zur Aussage. Marlos Lupe ist eine Leseübung zu Figuren und wichtigen Einzelheiten einer Geschichte.",
+        "Ein Hinweis, der gar nicht passiert ist, wie „Sie blieb lieber draußen vor der Höhle stehen.“, wird nirgends gefunden: Die Lupe beschlägt, obwohl die Karte Wörter aus der Geschichte benutzt. Ein Hinweis, der zwar in der Geschichte steht, aber nichts beweist, wie „Die anderen Kinder blieben draußen stehen.“, lässt seinen Satz aufleuchten, doch der Ring um „mutig“ wackelt. Erst „Sie ging ganz allein als Erste in die dunkle Höhle.“ lässt den Ring golden einrasten. Bei „Fragen“ („Wohin ging Mira?“) stehen alle Karten in der Geschichte, und nur eine beantwortet die Frage.",
+        "Die Übung folgt dem Lehrplan zum Lesen und Verstehen von Texten. Ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "Eine Charaktereigenschaft mit einer passenden Textstelle belegen",
-        "Ein Beweis-Detail von einem wahren, aber unpassenden Detail unterscheiden",
-        "Aus dem, was eine Figur tut, auf ihre Eigenschaft schließen",
-        "Genau lesen und den passenden Beleg im Text finden"
+        "Prüfen, ob eine Einzelheit wirklich in der Geschichte steht",
+        "Einen Beweis von einer Einzelheit unterscheiden, die nichts beweist",
+        "Eine Aussage über eine Figur mit einer wichtigen Textstelle belegen",
+        "W-Fragen zur Geschichte mit Textstellen beantworten"
       ],
       "howToPlay": [
-        "Lies die kurze Geschichte und die Behauptung über die Figur – oder tippe auf „📖 Vorlesen“.",
-        "Überlege, welches der drei Details die genannte Eigenschaft wirklich zeigt.",
-        "Tippe auf das Beweis-Detail, das die Eigenschaft belegt."
+        "Lies die Geschichte und oben die Aussage (oder die Frage).",
+        "Tipp eine Hinweiskarte an: Sie kommt unter Marlos Lupe. Tipp eine andere an, um zu wechseln.",
+        "Drück auf Prüfen und schau auf die Lupe. In den Einstellungen wählst du den Fall: Beweis, Beweis oder nur eine Einzelheit? oder Fragen."
       ],
       "learningGoals": [
-        "Dein Kind belegt Charaktereigenschaften einer Figur sicher mit einer Textstelle.",
-        "Dein Kind unterscheidet ein echtes Beweis-Detail von einem wahren, aber unpassenden Detail.",
-        "Dein Kind liest genauer und schließt aus Handlungen auf Eigenschaften einer Figur."
+        "Eine Figur mit wichtigen Einzelheiten aus dem Text beschreiben.",
+        "Verstehen, dass ein Beleg aus dem Text kommen muss und dass „steht im Text“ noch kein Beweis ist.",
+        "Fragen zu einer Geschichte mit Textstellen beantworten."
       ]
     },
     "pearl-opinion-page.back-it-up.ri-2-8": {

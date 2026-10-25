@@ -241,25 +241,25 @@
     },
     "marlo-magnifier.trait-evidence.rl-1-3": {
       "about": [
-        "Con la gran lupa de Marlo el mapache, su hijo/a se vuelve detective de cuentos. En cada caso lee una historia corta y una afirmación sobre un personaje —por ejemplo, «Mira es valiente.»— y busca el detalle que lo PRUEBA. Ese detalle es una acción del cuento («Entró sola a la cueva oscura.»), no la ropa que trae ni cómo se ve.",
-        "La actividad practica una lectura fina: inferir cómo es un personaje a partir de lo que HACE, y respaldarlo con una prueba del texto. Las otras dos tarjetas son ciertas, pero no vienen al caso: hablan de la ropa, la casa o la comida, no del rasgo. Así su hijo/a aprende a distinguir la evidencia que de verdad prueba algo de un detalle que solo es cierto.",
-        "Ese criterio —leer con atención y buscar la prueba en el texto— es una base para comprender cuentos más adelante. La historia se puede escuchar con el botón «📖 Lee la historia», por si su hijo/a todavía no lee solo. Corresponde al eje «Comprensión de textos literarios». Sin presiones: sin cronómetro, sin puntaje, sin perder; su hijo/a piensa con calma."
+        "Un cuento corto, una afirmación sobre su personaje («Mira es valiente.») y tres tarjetas de pistas. El niño pone una pista debajo de la lupa de Marlo, el mapache, y presiona Comprobar. La lupa revisa dos cosas, en el orden de un buen lector: primero busca en el cuento la oración de donde sale la pista, y luego sube hasta la afirmación. La lupa de Marlo es una actividad de lectura sobre los personajes y los detalles importantes de un cuento.",
+        "Una pista que nunca pasó, como «Sus amigos entraron a la cueva oscura y oyeron el gruñido.», no aparece en ningún lado: la lupa se empaña, aunque la tarjeta use palabras del cuento. Una pista que sí está en el cuento pero no demuestra nada, como «Adentro se oía un gruñido.», ilumina su oración, pero el aro alrededor de «valiente» tiembla. Solo «Entró solita, sin nadie, a la cueva oscura.» hace que el aro se ponga dorado. En «Preguntas» («¿Adónde entró Mira?») todas las tarjetas están en el cuento y solo una responde.",
+        "La actividad está alineada con el currículo oficial de lectura y comprensión. Sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Inferir un rasgo de un personaje a partir de lo que hace",
-        "Encontrar en el texto el detalle que prueba el rasgo",
-        "Distinguir una prueba real de un detalle cierto pero que no viene al caso",
-        "Leer y escuchar cuentos cortos con atención"
+        "Revisar si un detalle de verdad está en el cuento",
+        "Distinguir una prueba de un detalle que no demuestra nada",
+        "Apoyar lo que se dice de un personaje con un detalle del texto",
+        "Responder preguntas de quién, qué, dónde, cuándo y por qué con el texto"
       ],
       "howToPlay": [
-        "Lean el caso y la afirmación sobre el personaje (o toquen «📖 Lee la historia»)",
-        "Piensen: ¿qué acción del cuento lo prueba?",
-        "El niño toca el detalle que prueba el rasgo"
+        "Lee el cuento y, arriba, la afirmación (o la pregunta).",
+        "Toca una tarjeta de pista: va debajo de la lupa de Marlo. Toca otra para cambiarla.",
+        "Presiona Comprobar y mira la lupa. En la configuración eliges el caso: La prueba, ¿Prueba o solo un detalle? o Preguntas."
       ],
       "learningGoals": [
-        "Su hijo/a infiere cómo es un personaje a partir de sus acciones",
-        "Encuentra el detalle del texto que prueba el rasgo",
-        "Distingue una prueba real de un detalle cierto pero irrelevante"
+        "Describir a un personaje con detalles importantes del texto.",
+        "Entender que la prueba sale del texto, y que estar en el texto todavía no es demostrar.",
+        "Responder preguntas sobre un cuento con detalles del cuento."
       ]
     },
     "pearl-opinion-page.back-it-up.ri-2-8": {

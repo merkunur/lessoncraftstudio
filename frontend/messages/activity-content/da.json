@@ -3093,6 +3093,29 @@
         "Se, at budskabet passer til hele historien, til slutningen og også til en ny historie.",
         "Genfortælle en kort historie i rækkefølge."
       ]
+    },
+    "marlo-magnifier.trait-evidence.rl-1-3": {
+      "about": [
+        "En kort historie, en påstand om personen i den (”Mira er modig.”) og tre sporkort. Barnet lægger et spor under vaskebjørnen Marlos lup og trykker på Tjek. Luppen afprøver to ting i den rækkefølge, en god læser gør det: Først leder den i historien efter den sætning, sporet kommer fra, så svinger den op til påstanden. Marlos lup er en læseøvelse til 1. klasse om personer og vigtige detaljer i en historie.",
+        "Et spor, der aldrig skete, som ”Hun løb væk fra den mørke hule.”, findes ingen steder: Luppen dugger til, selvom kortet bruger historiens egne ord. Et spor, der står i historien, men ikke beviser noget, som ”En høj knurren kom indefra.”, tænder sin sætning, men ringen om ”modig” vipper. Først ”Hun gik lige ind i den mørke hule.” får ringen til at lyse guld. I ”Spørgsmål” (”Hvor gik Mira hen?”) står alle kort i historien, og kun ét svarer på spørgsmålet.",
+        "Aktiviteten er i tråd med Fælles Mål for læsning i indskolingen. Ingen tidtagning og ingen point."
+      ],
+      "practices": [
+        "Afprøve, om en detalje virkelig står i historien",
+        "Skelne et bevis fra en detalje, der ikke beviser noget",
+        "Underbygge en påstand om en person med en vigtig detalje fra teksten",
+        "Svare på spørgsmål om hvem, hvad, hvor, hvornår og hvorfor ud fra teksten"
+      ],
+      "howToPlay": [
+        "Læs historien og påstanden (eller spørgsmålet) øverst.",
+        "Tryk på et sporkort: Det kommer under Marlos lup. Tryk på et andet for at skifte.",
+        "Tryk på Tjek, og se på luppen. I indstillingerne vælger du sag: Bevis, Bevis eller bare en detalje? eller Spørgsmål."
+      ],
+      "learningGoals": [
+        "Beskrive en person med vigtige detaljer fra teksten.",
+        "Forstå, at et bevis kommer fra teksten, og at det ikke er nok, at noget står i teksten.",
+        "Svare på spørgsmål om en historie med detaljer fra historien."
+      ]
     }
   }
 }

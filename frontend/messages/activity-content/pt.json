@@ -3832,25 +3832,25 @@
     },
     "marlo-magnifier.trait-evidence.rl-1-3": {
       "about": [
-        "O guaxinim detetive Faro pega a lupa e abre um caso novo em cada história. Ele mostra uma pequena história e faz uma afirmação sobre um personagem — por exemplo, \"A Mira é corajosa.\" Aí aparecem três detalhes da história, e a criança toca naquele que prova a característica: uma ação do personagem. Se a pista é \"corajosa\", a prova é \"Entrou sozinha na caverna escura.\" — e não \"Usava botas vermelhas.\", que é verdade, mas não mostra a coragem.",
-        "A brincadeira trabalha uma habilidade importante de leitura: comprovar uma característica do personagem com uma passagem do próprio texto. A criança aprende a inferir como o personagem é a partir daquilo que ele faz, e a separar a verdadeira prova de um detalhe que é verdadeiro mas não tem nada a ver com a característica. É o começo de ler nas entrelinhas, percebendo que as ações revelam quem o personagem é.",
-        "A atividade não pede cadastro nem login. Não tem cronômetro, pontuação nem competição — cada criança segue no seu ritmo, sem pressa. O botão 🔊 lê a história e a pista em voz alta, ajudando quem ainda está aprendendo a ler. O conteúdo está alinhado à BNCC, na compreensão de textos literários e nas características do personagem, um trabalho feito com carinho nos primeiros anos do ensino fundamental."
+        "Uma história curta, uma afirmação sobre a personagem (\"A Mira é corajosa.\") e três cartões de pistas. A criança coloca uma pista embaixo da lupa do Marlo, o guaxinim, e toca em Verificar. A lupa confere duas coisas, na ordem de um bom leitor: primeiro procura na história a frase de onde vem a pista, depois sobe até a afirmação. A lupa do Marlo é uma atividade de leitura sobre personagens e detalhes importantes de uma história.",
+        "Uma pista que não aconteceu, como \"Ficou lá em cima com medo do barulho do porão escuro.\", não é encontrada em lugar nenhum: a lupa embaça, mesmo que o cartão use palavras da história. Uma pista que está na história mas não prova nada, como \"Lá embaixo tinha um barulho estranho.\", ilumina a frase dela, mas o anel em volta de \"corajosa\" balança. Só \"Desceu na frente até o porão escuro.\" deixa o anel dourado. Em \"Perguntas\" (\"Aonde a Mira desceu?\") todos os cartões estão na história, e só um responde.",
+        "A atividade está alinhada à BNCC para a leitura e a compreensão. Sem cronômetro e sem pontos."
       ],
       "practices": [
-        "Ler uma história curta e prestar atenção no que o personagem faz.",
-        "Comprovar uma característica do personagem com uma ação do texto.",
-        "Distinguir a prova de verdade de um detalhe verdadeiro, mas que não prova nada.",
-        "Escutar a história com o botão 🔊 e voltar a ler quantas vezes quiser."
+        "Conferir se um detalhe está mesmo na história",
+        "Diferenciar uma prova de um detalhe que não prova nada",
+        "Justificar o que se diz de uma personagem com um detalhe do texto",
+        "Responder perguntas de quem, o quê, onde, quando e por quê com o texto"
       ],
       "howToPlay": [
-        "Toque em 📖 para ouvir a história e a pista do Faro.",
-        "Leia a afirmação sobre o personagem — por exemplo, \"A Duda é generosa.\"",
-        "Toque no detalhe que prova essa característica; se errar, é só olhar de novo com calma."
+        "Leia a história e, em cima, a afirmação (ou a pergunta).",
+        "Toque em um cartão de pista: ele vai para baixo da lupa do Marlo. Toque em outro para trocar.",
+        "Toque em Verificar e olhe a lupa. Nas configurações você escolhe o caso: A prova, Prova ou só um detalhe? ou Perguntas."
       ],
       "learningGoals": [
-        "Eu descubro como um personagem é olhando para o que ele faz.",
-        "Eu encontro no texto a prova de uma característica do personagem.",
-        "Eu percebo a diferença entre uma prova de verdade e um detalhe que não prova nada."
+        "Descrever uma personagem com detalhes importantes do texto.",
+        "Entender que a prova vem do texto, e que estar no texto ainda não é provar.",
+        "Responder perguntas sobre uma história com detalhes da história."
       ]
     },
     "linc-fact-chain.connect.ri-k-3": {

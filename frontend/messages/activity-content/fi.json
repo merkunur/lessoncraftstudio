@@ -3093,6 +3093,29 @@
         "Huomata, että opetus sopii koko tarinaan, sen loppuun ja myös uuteen tarinaan.",
         "Kertoa lyhyt tarina oikeassa järjestyksessä."
       ]
+    },
+    "marlo-magnifier.trait-evidence.rl-1-3": {
+      "about": [
+        "Lyhyt tarina, väite sen henkilöstä (”Mira on rohkea.”) ja kolme vihjekorttia. Lapsi laittaa vihjeen Marlo-pesukarhun suurennuslasin alle ja painaa Tarkista. Suurennuslasi tutkii kaksi asiaa siinä järjestyksessä kuin hyvä lukija: ensin se etsii tarinasta lauseen, josta vihje on, sitten se kääntyy väitteen puoleen. Marlon suurennuslasi on 1. luokan lukutehtävä tarinan henkilöistä ja tärkeistä yksityiskohdista.",
+        "Vihjettä, jota ei koskaan tapahtunut, kuten ”Hän juoksi pois pimeästä luolasta.”, ei löydy mistään: lasi huurtuu, vaikka kortissa on tarinan omia sanoja. Vihje, joka on tarinassa mutta ei todista mitään, kuten ”Luolan sisältä kuului kova murina.”, sytyttää lauseensa, mutta sanan ”rohkea” ympärillä oleva rengas heiluu. Vasta ”Hän meni suoraan pimeään luolaan.” saa renkaan loistamaan kultaisena. Kysymykset-tehtävässä (”Minne Mira meni?”) kaikki kortit ovat tarinassa, ja vain yksi vastaa kysymykseen.",
+        "Tehtävä tukee perusopetuksen opetussuunnitelman (OPS 2014) lukemisen ja tekstin ymmärtämisen tavoitteita. Ei ajanottoa eikä pisteitä."
+      ],
+      "practices": [
+        "Tarkistaa, onko yksityiskohta todella tarinassa",
+        "Erottaa todiste yksityiskohdasta, joka ei todista mitään",
+        "Perustella väite henkilöstä tärkeällä yksityiskohdalla tekstistä",
+        "Vastata kuka-, mitä-, missä-, milloin- ja miksi-kysymyksiin tekstin avulla"
+      ],
+      "howToPlay": [
+        "Lue tarina ja ylhäällä oleva väite (tai kysymys).",
+        "Napauta vihjekorttia: se menee Marlon suurennuslasin alle. Napauta toista vaihtaaksesi.",
+        "Paina Tarkista ja katso suurennuslasia. Asetuksista valitset tapauksen: Todiste, Todiste vai pelkkä yksityiskohta? tai Kysymykset."
+      ],
+      "learningGoals": [
+        "Kuvata henkilöä tekstin tärkeiden yksityiskohtien avulla.",
+        "Ymmärtää, että todiste tulee tekstistä ja että pelkkä tekstissä oleminen ei vielä todista.",
+        "Vastata tarinaa koskeviin kysymyksiin tarinan yksityiskohdilla."
+      ]
     }
   }
 }

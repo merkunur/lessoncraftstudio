@@ -2463,25 +2463,25 @@
     },
     "marlo-magnifier.trait-evidence.rl-1-3": {
       "about": [
-        "Playing story detective with Marlo the raccoon, children read a short three-sentence story, then a clue card states something about a character — \"Mira is brave\" or \"Theo is careful\" — and they tap the one detail that proves it, across cases covering brave, kind, curious, careful, patient, honest, generous, and hardworking. It's an interactive Grade 1 reading activity that runs right in the browser, with nothing to install and no account.",
-        "The whole point is finding evidence, not just any true sentence. When the card says Nina is generous, the proof is \"She gave two stickers to her friend\" — not the true-but-unrelated facts that the stickers were shaped like stars or that Nina kept one for herself. Each round offers one supporting detail and two real details from the same story that simply do not show the trait, so a child has to read closely and ask, \"Which line actually proves this?\"",
-        "It is aligned to Common Core RL.1.3 — describing characters in a story using key details and backing up what you say with evidence. No timer, no score — just calm, playful practice."
+        "A short story, a claim about its character (\"Mira is brave.\") and three clue cards. The child puts one clue under Marlo the raccoon's magnifier and presses Check. The lens checks two things, in the order a good reader does: first it sweeps the story looking for the sentence the clue comes from, then it swings up to the claim. Marlo's Magnifier is a Grade 1 reading activity about using details from a story to describe its characters.",
+        "A clue that did not happen, like \"She ran away from the dark cave.\", is found nowhere: the lens fogs, even though the card uses the story's own words. A clue that is in the story but proves nothing, like \"A loud growl came from inside.\", lights its sentence, but the focus ring around \"brave\" wobbles. Only \"She went right into the dark cave.\" snaps the ring into gold focus. In the Questions case (\"Where did Mira go?\") every card is in the story, and only one answers the question.",
+        "It is aligned to Common Core RL.1.3: describe characters, settings and major events in a story, using key details. No timer and no score."
       ],
       "practices": [
-        "Connect a character trait word like brave, patient, or honest to the action that shows it",
-        "Pick the detail that proves a statement instead of any true thing that happened",
-        "Read a short story closely and reread to find supporting evidence",
-        "Notice that what a character does tells you what they are like"
+        "Check whether a detail is really in the story",
+        "Tell a proof apart from a detail that proves nothing",
+        "Back up a claim about a character with a key detail",
+        "Answer who, what, where, when and why questions from the text"
       ],
       "howToPlay": [
-        "Read Marlo's three-sentence story, then read the clue card that names a trait, such as \"Sam is kind.\"",
-        "Tap the detail from the story that proves it — the action that shows the trait, not just a true detail like the color of someone's boots.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Read the story and the claim (or the question) at the top.",
+        "Tap a clue card: it goes under Marlo's magnifier. Tap another to change it.",
+        "Press Check and watch the lens. Choose the case in the settings: Proof, Proof or just a detail?, or Questions."
       ],
       "learningGoals": [
-        "Describe a character using key details from the story — the focus of Common Core RL.1.3",
-        "Support a claim about a character with evidence rather than a guess",
-        "Build the close-reading habit of going back to the text for proof"
+        "Describe a character using key details, the focus of Common Core RL.1.3.",
+        "Learn that evidence must come from the text, and that being in the text is not yet proof.",
+        "Answer questions about a story with details from the story."
       ]
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {

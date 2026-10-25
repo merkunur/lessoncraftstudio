@@ -3733,6 +3733,29 @@
         "Se att budskapet passar hela berättelsen, dess slut och även en ny berättelse.",
         "Återberätta en kort berättelse i rätt ordning."
       ]
+    },
+    "marlo-magnifier.trait-evidence.rl-1-3": {
+      "about": [
+        "En kort berättelse, ett påstående om personen i den (”Mira är modig.”) och tre ledtrådskort. Barnet lägger en ledtråd under tvättbjörnen Marlos förstoringsglas och trycker på Kontrollera. Förstoringsglaset prövar två saker, i den ordning en god läsare gör: först letar det i berättelsen efter meningen som ledtråden kommer från, sedan svänger det upp till påståendet. Marlos förstoringsglas är en läsövning för åk 1 om personer och viktiga detaljer i en berättelse.",
+        "En ledtråd som aldrig hände, som ”Hon sprang bort från den mörka grottan.”, hittas ingenstans: glaset immar igen, fast kortet använder berättelsens egna ord. En ledtråd som står i berättelsen men inte bevisar något, som ”Ett högt morrande kom inifrån.”, tänder sin mening, men ringen runt ”modig” vickar. Först ”Hon gick rakt in i den mörka grottan, helt själv.” får ringen att lysa guld. I ”Frågor” (”Vart gick Mira?”) står alla kort i berättelsen, och bara ett svarar på frågan.",
+        "Aktiviteten följer Lgr22:s centrala innehåll för läsning och förståelse i åk 1–3. Ingen tidtagning och inga poäng."
+      ],
+      "practices": [
+        "Pröva om en detalj verkligen står i berättelsen",
+        "Skilja ett bevis från en detalj som inte bevisar något",
+        "Stödja ett påstående om en person med en viktig detalj ur texten",
+        "Svara på frågor om vem, vad, var, när och varför med hjälp av texten"
+      ],
+      "howToPlay": [
+        "Läs berättelsen och påståendet (eller frågan) högst upp.",
+        "Tryck på ett ledtrådskort: det hamnar under Marlos förstoringsglas. Tryck på ett annat för att byta.",
+        "Tryck på Kontrollera och titta på förstoringsglaset. I inställningarna väljer du fall: Bevis, Bevis eller bara en detalj? eller Frågor."
+      ],
+      "learningGoals": [
+        "Beskriva en person med hjälp av viktiga detaljer i texten.",
+        "Förstå att ett bevis kommer från texten, och att det inte räcker att något står i texten.",
+        "Svara på frågor om en berättelse med detaljer ur berättelsen."
+      ]
     }
   }
 }

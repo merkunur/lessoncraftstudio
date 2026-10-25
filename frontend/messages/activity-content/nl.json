@@ -640,25 +640,25 @@
     },
     "marlo-magnifier.trait-evidence.rl-1-3": {
       "about": [
-        "In dit spel voor groep 5 speelt je kind samen met Marlo de wasbeer, die met zijn loep op zoek gaat naar bewijs in een verhaal. Elke ronde leest je kind een kort verhaaltje van drie zinnen en een bewering over een personage, bijvoorbeeld \"Mira is dapper.\" Daaronder liggen drie details. Je kind tikt het detail aan dat de eigenschap echt bewijst – een actie die het personage deed, zoals \"Zij ging de donkere grot in.\" – en niet een detail dat wel waar is maar niets bewijst, zoals \"Zij droeg rode laarzen.\"",
-        "Zo oefent je kind een belangrijke leesvaardigheid: een karaktereigenschap onderbouwen met tekstbewijs. Het leert een echt bewijs-detail onderscheiden van een waar-maar-onbelangrijk detail, en uit wat een personage doet afleiden hoe het is. Dat afleiden en onderbouwen met bewijs uit de tekst is precies wat begrijpend lezen in groep 5 vraagt, waarin verhalende teksten en personages centraal staan.",
-        "Het spel werkt zonder inloggen, en er is geen tijd of score – je kind leest rustig in zijn of haar eigen tempo. Met de voorleesknop 📖/🔊 kan het verhaaltje en de bewering worden voorgelezen, zodat ook een kind dat nog niet vlot leest goed kan meedoen. De oefening is afgestemd op de SLO-kerndoelen voor groep 5."
+        "Een kort verhaal, een bewering over de hoofdpersoon ('Mira is dapper.') en drie kaarten met aanwijzingen. Je kind legt een aanwijzing onder het vergrootglas van Marlo de wasbeer en drukt op Controleer. Het vergrootglas controleert twee dingen, in de volgorde van een goede lezer: eerst zoekt het in het verhaal de zin waar de aanwijzing vandaan komt, daarna zwaait het naar de bewering. Het vergrootglas van Marlo is een leesoefening over personages en belangrijke details in een verhaal.",
+        "Een aanwijzing die niet is gebeurd, zoals 'Ze bleef liever buiten bij de grot staan.', wordt nergens gevonden: het glas beslaat, ook al gebruikt de kaart woorden uit het verhaal. Een aanwijzing die wel in het verhaal staat maar niets bewijst, zoals 'De andere kinderen bleven liever buiten staan.', laat haar zin oplichten, maar de ring om 'dapper' wiebelt. Pas 'Ze ging als allereerste de donkere grot in.' laat de ring goud worden. Bij 'Vragen' ('Waar ging Mira naartoe?') staan alle kaarten in het verhaal en geeft er maar één antwoord.",
+        "De activiteit past bij de SLO-kerndoelen voor begrijpend lezen. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Een karaktereigenschap onderbouwen met tekstbewijs",
-        "Een echt bewijs onderscheiden van een waar-maar-onbelangrijk detail",
-        "Uit wat een personage doet afleiden hoe het is",
-        "Nauwkeurig lezen van een kort verhalend tekstje"
+        "Controleren of een detail echt in het verhaal staat",
+        "Een bewijs onderscheiden van een detail dat niets bewijst",
+        "Een bewering over een personage onderbouwen met een detail uit de tekst",
+        "Wie-, wat-, waar-, wanneer- en waaromvragen beantwoorden met de tekst"
       ],
       "howToPlay": [
-        "Lees het verhaaltje van drie zinnen en de bewering over het personage – of gebruik de knop 📖 om het te laten voorlezen.",
-        "Bedenk welk van de drie details de eigenschap echt bewijst: welke actie liet het personage zien?",
-        "Tik het bewijs-detail aan en druk op \"Controleer\" om te zien of het klopt."
+        "Lees het verhaal en bovenaan de bewering (of de vraag).",
+        "Tik op een kaart: die gaat onder het vergrootglas van Marlo. Tik op een andere om te wisselen.",
+        "Druk op Controleer en kijk naar het vergrootglas. In de instellingen kies je de zaak: Bewijs, Bewijs of alleen een detail? of Vragen."
       ],
       "learningGoals": [
-        "Je kind kan een karaktereigenschap van een personage koppelen aan het juiste tekstbewijs.",
-        "Je kind herkent het verschil tussen een bewijzend detail en een detail dat wel waar is maar niets bewijst.",
-        "Je kind kan uit de acties van een personage afleiden welke eigenschap erbij past."
+        "Een personage beschrijven met belangrijke details uit de tekst.",
+        "Begrijpen dat bewijs uit de tekst komt, en dat in de tekst staan nog geen bewijs is.",
+        "Vragen over een verhaal beantwoorden met details uit het verhaal."
       ]
     },
     "pearl-opinion-page.back-it-up.ri-2-8": {

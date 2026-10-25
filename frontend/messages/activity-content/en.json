@@ -3825,25 +3825,28 @@
     },
     "shapeforge.compose.1-g-a-2": {
       "about": [
-        "Mim the glow-smith forges light by fusing small glowing pattern blocks — triangles and rhombi — to fill a blank lantern outline, making a rhombus, a trapezoid, a hexagon, and more. It's an interactive Grade 1 geometry activity that runs in the browser with no account.",
-        "The big idea is composing shapes — that bigger shapes are built from smaller ones, and the same shape can be built more than one way. The rounds go beyond simply filling an outline: children re-forge the same hexagon a new way, re-compose a shape into a long bar, cover a space using only triangles, and grow a partly-built shape into a finished hexagon. Because a triangle and a rhombus can both help fill a space, a child has to choose and arrange pieces that actually fit, not just drop blocks in.",
-        "It is aligned to Common Core 1.G.A.2 — composing two-dimensional shapes to create a composite shape (also K.G.B.6). No timer, no score — just calm, playful practice."
+        "Mim the glow-smith fills lanterns with coloured glass. Behind every empty frame a lamp is burning, so every gap between the pieces shines as a bright gold sliver, and every piece that sticks out of the frame throws a dark shadow on the workshop wall. The lantern only glows when it is sealed: no light gets through and nothing sticks out. The child builds rhombuses, trapezoids, triangles, hexagons and a long bar from pattern blocks, picks the one piece that fills a hole exactly, and builds tangram shapes.",
+        "Some rounds ask for the same lantern a new way: the lines of the last one stay faintly in the frame, and a filling along the same lines does not count. In the missing-piece rounds size matters as much as shape: a small triangle leaves a gap of light in a medium hole. In the shadow rounds, a tangram pane that is turned or flipped leaks on one side and throws a shadow on the other. After a first miss the lamp blazes every gap; after a second, a dotted piece shows one piece that fits. A sealed lantern keeps its seams etched in silver and rises to the garland, and the child can take it apart and build it again.",
+        "The first hint only says what the light shows; after a second miss the lamp points to one piece that fits. Aligned to Common Core 1.G.A.2 and K.G.B.6. No timer and no score."
       ],
       "practices": [
-        "Building a larger shape from triangle and rhombus pattern blocks",
-        "Filling a target outline with pieces that fit, with no gaps or overlaps",
-        "Making the same shape more than one way, and re-forging it into a new shape",
-        "Covering a space using a chosen kind of block, or finishing a partly-built shape"
+        "Putting shapes together to fill a bigger shape exactly: no gaps, no overlaps, nothing sticking out",
+        "Building the same shape in more than one way",
+        "Seeing a big shape as smaller shapes and the lines where they meet",
+        "Choosing a piece by its shape and its size, and turning or flipping it to fit"
       ],
       "howToPlay": [
-        "Look at the blank lantern outline you need to forge.",
-        "Fuse triangles and rhombi to fill it — or re-forge the same shape a new way.",
-        "Not quite? Rearrange the pieces and try again, with no timer and no score."
+        "Drag a glass piece from the tray into the lantern. Tap a piece in the tray to choose it, and tap it again to turn it.",
+        "Tap a piece in the lantern to turn it. Drag it off the bench to put it back in the tray.",
+        "Gold light means a gap; a shadow on the wall means a piece sticks out. Press Check when the lantern looks sealed.",
+        "In \"The missing piece\", drag in the one spare that fills the hole. In \"Tangram\", build the shape, or slide the pane that matches the shadow into the frame.",
+        "In the settings, choose the level (Glass pieces · The missing piece · Tangram), clear or coloured glass, and whether pieces turn themselves to fit."
       ],
       "learningGoals": [
-        "Compose two-dimensional shapes into a larger composite shape — the focus of Common Core 1.G.A.2",
-        "Understand that bigger shapes are made of smaller ones, often in more than one way",
-        "Build the spatial-reasoning foundation for later geometry and fraction work"
+        "Compose two-dimensional shapes into a larger shape that is filled exactly.",
+        "Compose the same shape in different ways and compare the lines where the pieces meet.",
+        "Choose the piece that fits a gap by its shape and its size.",
+        "Turn or flip a piece so it fits a fixed outline, and see that the wrong turn leaves a gap and sticks out."
       ]
     },
     "sharing-jar.make-fair.1-oa-d-8": {

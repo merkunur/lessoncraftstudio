@@ -2244,25 +2244,28 @@
     },
     "shapeforge.compose.1-g-a-2": {
       "about": [
-        "Mim, le petit renard forgeron de lumière, invite votre enfant à composer de grandes formes à partir de petites pièces. L'enfant choisit une pièce — un triangle ou un losange —, la fait tourner, puis la pose pour remplir un contour vide, sans laisser de trou ni de chevauchement. Chaque pièce trouve sa place, tranquillement, jusqu'à ce que la forme soit entièrement couverte.",
-        "C'est l'idée centrale de la géométrie au CP : les grandes formes sont composées de plus petites, et une même forme peut s'assembler de plusieurs façons. Un hexagone, par exemple, se construit avec 6 triangles ou bien avec 3 losanges. En cherchant, votre enfant apprend à comparer, à choisir la bonne pièce et à penser avec souplesse. Il découvre aussi qu'on peut recomposer une forme en une autre, comme transformer un assemblage en une longue barre.",
-        "L'activité se joue sans compte, sans minuteur et sans points. Elle suit les « programmes officiels » pour le domaine « Espace et géométrie ». Votre enfant avance à son rythme et cherche ses propres solutions, en toute confiance."
+        "Dans son atelier, Mim remplit des lanternes de verre coloré. Derrière chaque cadre vide brûle une lampe : chaque trou entre les pièces brille comme une fente dorée, et chaque pièce qui dépasse du cadre projette une ombre sombre sur le mur de l’atelier. La lanterne ne brille que lorsqu’elle est scellée : aucune lumière ne passe et rien ne dépasse. L’enfant assemble des losanges, des trapèzes, des triangles, des hexagones et une longue barre avec des blocs mosaïques, choisit la seule pièce qui remplit exactement un trou et construit des figures de tangram.",
+        "Certaines manches demandent la même lanterne d’une nouvelle façon : les lignes de la précédente restent légères dans le cadre, et un remplissage le long des mêmes lignes ne compte pas. Quand il manque une pièce, la taille compte autant que la forme : un petit triangle laisse une fente de lumière dans un trou moyen. Dans les manches des ombres, un vitrail de tangram tourné ou retourné laisse passer la lumière d’un côté et projette une ombre de l’autre. Après une première erreur, la lampe fait briller chaque trou ; après une deuxième, une pièce en pointillés montre une pièce qui convient. Une lanterne scellée garde ses lignes gravées en argent et monte dans la guirlande ; ensuite l’enfant peut la démonter et la reconstruire.",
+        "Le premier indice dit seulement ce que montre la lumière ; après une deuxième erreur, la lampe désigne une pièce qui convient. En lien avec les programmes officiels pour le domaine Espace et géométrie. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Assembler des figures planes : d'un triangle et d'un losange, faire une plus grande forme.",
-        "Faire tourner une pièce et la poser au bon endroit : travailler le sens de l'orientation.",
-        "Trouver plusieurs façons d'assembler la même forme.",
-        "Remplir un contour entièrement, sans trou ni chevauchement."
+        "Assembler des formes pour remplir exactement une forme plus grande : sans trou, sans chevauchement, sans que rien ne dépasse",
+        "Construire la même forme de plusieurs façons",
+        "Voir une grande forme comme des formes plus petites et les lignes où elles se touchent",
+        "Choisir une pièce selon sa forme et sa taille, et la tourner ou la retourner pour qu’elle entre"
       ],
       "howToPlay": [
-        "Choisir une pièce : un triangle ou un losange.",
-        "La faire tourner pour qu'elle rentre, puis la poser dans le contour.",
-        "Remplir toute la forme : quand tout est couvert, sans trou, c'est réussi."
+        "Fais glisser une pièce de verre du plateau dans la lanterne. Touche une pièce du plateau pour la choisir, et touche-la encore pour la tourner.",
+        "Touche une pièce dans la lanterne pour la tourner. Fais-la glisser hors de l’établi pour la remettre sur le plateau.",
+        "La lumière dorée, c’est un trou ; une ombre sur le mur, c’est une pièce qui dépasse. Touche Vérifier quand la lanterne semble scellée.",
+        "Dans « La pièce manquante », fais glisser la seule pièce libre qui remplit le trou. Dans « Tangram », construis la forme, ou fais glisser dans le cadre le vitrail qui correspond à l’ombre.",
+        "Dans les réglages, choisis le niveau (Pièces de verre · La pièce manquante · Tangram), le verre transparent ou coloré, et si les pièces tournent toutes seules pour entrer."
       ],
       "learningGoals": [
-        "Votre enfant comprend qu'une grande forme est composée de plus petites.",
-        "Il découvre qu'une même forme peut se construire de plusieurs façons.",
-        "Il développe le sens de l'espace et nomme les formes : triangle, losange, hexagone."
+        "Assembler des figures planes pour obtenir une figure plus grande remplie exactement.",
+        "Assembler la même figure de différentes façons et comparer les lignes entre les pièces.",
+        "Choisir la pièce qui remplit un trou selon sa forme et sa taille.",
+        "Tourner ou retourner une pièce pour qu’elle entre dans un contour fixe, et voir que dans la mauvaise position elle laisse un trou et dépasse."
       ]
     },
     "skipcount.fill.2-nbt-a-2": {

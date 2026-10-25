@@ -1731,26 +1731,28 @@
     },
     "shapeforge.compose.1-g-a-2": {
       "about": [
-        "Barnet fogar samman lysande glaskristaller – trianglar och romber – tills de exakt fyller en tom form. Mim, räven i ljussmedjan, ber om en romb, ett tak, en stor triangel, en lykta eller en sexhörning; barnet väljer en kristall, vrider den och trycker på en plats där den passar. Det är en interaktiv geometriövning för årskurs 1 som körs direkt i webbläsaren, utan installation och utan konto.",
-        "Den stora idén är att former är byggda av mindre former. Sex trianglar blir en sexhörning – men det gör också tre romber, eller två romber och två trianglar. Därför kommer samma form tillbaka med uppmaningen att bygga den på ett NYTT sätt, och barnet upptäcker att en och samma form kan sättas samman på flera sätt. I några omgångar ligger redan en kristall på plats och barnet bygger vidare på den, eller täcker en yta med bara trianglar.",
-        "Aktiviteten följer Lgr22 inom området geometri: grundläggande tvådimensionella former och hur de kan sättas samman till nya former och delas upp igen. En kristall kan aldrig hamna fel – bara de platser där den verkligen passar lyser upp – så barnet kan pröva fritt. Ingen timer och inga poäng."
+        "Mim fyller lyktor med färgat glas i ljussmedjan. Bakom varje tom ram brinner en lampa: varje glipa mellan bitarna lyser som en klar guldstrimma, och varje bit som sticker ut ur ramen kastar en mörk skugga på verkstadens vägg. Lyktan lyser först när den är tät: inget ljus kommer igenom och inget sticker ut. Barnet lägger romber, parallelltrapetser, trianglar, sexhörningar och en lång stång av mönsterbitar, väljer den enda bit som fyller ett hål precis och bygger tangramfigurer.",
+        "Några omgångar ber om samma lykta på ett nytt sätt: linjerna från den förra syns svagt i ramen, och en fyllning längs samma linjer räknas inte. När en bit fattas spelar storleken lika stor roll som formen: en liten triangel lämnar en ljusglipa i ett mellanstort hål. I skuggomgångarna släpper en vriden eller spegelvänd tangramruta igenom ljus på ena sidan och kastar skugga på den andra. Efter första felet lyser lampan upp varje glipa, efter det andra visar en streckad bit en bit som passar. En tät lykta behåller sina linjer inristade i silver och stiger upp i girlangen; sedan kan barnet ta isär den och bygga den igen.",
+        "Första ledtråden säger bara vad ljuset visar; först efter andra felet pekar lampan ut en bit som passar. I linje med Lgr22, centralt innehåll om geometri. Utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Sätta samman trianglar och romber till större former",
-        "Vrida en form tills den passar in på sin plats",
-        "Bygga samma form på mer än ett sätt",
-        "Känna igen en triangel, en romb och en sexhörning",
-        "Bygga om en form till en helt ny form"
+        "Att lägga ihop former så att en större form blir precis fylld: utan glipor, utan överlapp, utan att något sticker ut",
+        "Att bygga samma form på mer än ett sätt",
+        "Att se en stor form som mindre former och linjerna mellan dem",
+        "Att välja en bit efter form och storlek och vrida eller spegelvända den rätt"
       ],
       "howToPlay": [
-        "Barnet trycker på en kristall längst ned – en triangel eller en romb – och vrider den med Vrid tills den ligger rätt.",
-        "Sedan trycker barnet på en lysande plats i den tomma formen. Bara de platser där kristallen passar lyser, så det går inte att lägga fel. Trycker barnet på en kristall som redan ligger på plats får det tillbaka den.",
-        "När hela formen är fylld tänds den. Tryck på Kontrollera för att gå vidare till nästa form."
+        "Dra en glasbit från brickan in i lyktan. Tryck på en bit i brickan för att välja den och tryck igen för att vrida den.",
+        "Tryck på en bit i lyktan för att vrida den. Dra den av arbetsbänken för att lägga tillbaka den.",
+        "Guldljus betyder en glipa; en skugga på väggen betyder att en bit sticker ut. Tryck på Kontrollera när lyktan ser tät ut.",
+        "I ”Biten som fattas” drar du in den enda lösa bit som fyller hålet. I ”Tangram” bygger du formen eller skjuter in rutan som passar skuggan i ramen.",
+        "I inställningarna väljer du nivå (Glasbitar · Biten som fattas · Tangram), klart eller färgat glas och om bitarna själva ska vrida sig rätt."
       ],
       "learningGoals": [
-        "Barnet kan sätta samman mindre former till en större form",
-        "Barnet vet att samma form kan byggas på flera olika sätt",
-        "Barnet kan vrida en form så att den passar in på sin plats"
+        "Sätta ihop tvådimensionella former till en större form som är precis fylld.",
+        "Sätta ihop samma form på olika sätt och jämföra linjerna mellan bitarna.",
+        "Välja den bit som fyller en glipa efter form och storlek.",
+        "Vrida eller spegelvända en bit så att den passar i en fast kontur, och se att fel läge lämnar en glipa och sticker ut."
       ]
     },
     "place-value-regroup.add-compose-ten.1-nbt-c-4": {

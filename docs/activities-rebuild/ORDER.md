@@ -113,7 +113,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 103 | LIVE 2026-10-25 · The Pull-Back Key | 1 | 1.MD.B.3 | `clock-read.tell-time.1-md-b-3` | clock-read-activity | Owl's Cuckoo Cottage — Read and Set the Clock |
 | 104 | LIVE 2026-10-25 · The Echo Slice | 1 | 1.MD.B.3 | `clock.set-clock.1-md-b-3` | clock-activity | Set the Clock — Tell Time to the Hour & Half-Hour (Grade 1) |
 | 105 | LIVE 2026-10-25 · The Take-Apart Tray | 1 | 1.G.A.1 | `sort-bins.defining-attributes.1-g-a-1` | sort-bins-activity | Defining Attributes of Shapes — Is It Still a Triangle? (Grade 1 Geometry) |
-| 106 |  | 1 | 1.G.A.2 | `shapeforge.compose.1-g-a-2` | shapeforge-activity | Mim's Glow Workshop — Compose Shapes from Pattern Blocks |
+| 106 | LIVE 2026-10-25 · The Light-Leak Lantern | 1 | 1.G.A.2 | `shapeforge.compose.1-g-a-2` | shapeforge-activity | Mim's Glow Workshop — Compose Shapes from Pattern Blocks |
 | 107 |  | 1 | 1.G.A.3 | `choice-board.fraction-equal-shares.1-g-a-3` | choice-board-activity | Equal Halves and Fourths — Find the Fair Shares / Grade 1 Geometry |
 | 108 |  | 1 | 1.G.A.3 | `fractions.partition-equal-shares.1-g-a-3` | fractions-activity | Make Equal Parts — Partition into Halves & Fourths (Grade 1) |
 | 109 |  | 1 | RF.1.2.a | `stretch-giraffe.long-short-vowel.rf-1-2-a` | stretch-giraffe-activity | Stretch the Giraffe — Long & Short Vowel Sounds (Grade 1) |

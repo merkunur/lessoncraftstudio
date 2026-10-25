@@ -867,26 +867,28 @@
     },
     "shapeforge.compose.1-g-a-2": {
       "about": [
-        "Mim, a raposa que forja luz, monta figuras com peças brilhantes. A criança escolhe uma peça — um triângulo ou um losango —, gira e encaixa a peça dentro de uma lanterna vazia até preenchê-la por completo, sem deixar buracos nem sobrepor as peças.",
-        "Aqui aparece uma ideia importante da geometria: uma figura pode ser montada com peças menores, e a mesma figura pode ser construída de várias maneiras. Um hexágono, por exemplo, pode ser formado por triângulos ou por losangos, e depois essas mesmas peças podem ser recombinadas para criar uma figura nova — uma montagem de figuras no estilo tangram, tão presente nas turmas dos anos iniciais.",
-        "A brincadeira desenvolve a Geometria no 1º ano: ao montar e explorar figuras planas como o triângulo, o telhado (trapézio) e o hexágono, a criança fortalece a percepção geométrica de um jeito tranquilo, sem pressa e sem notas, apoiando o reconhecimento de figuras conforme a unidade temática Geometria da BNCC."
+        "Na oficina de luz, Mim preenche lanternas com vidro colorido. Atrás de cada moldura vazia há uma lâmpada acesa: cada vão entre as peças brilha como uma fresta dourada, e cada peça que fica para fora da moldura projeta uma sombra escura na parede da oficina. A lanterna só brilha quando está vedada: não passa luz e nada fica para fora. A criança monta losangos, trapézios, triângulos, hexágonos e uma barra comprida com blocos padrão, escolhe a única peça que preenche um buraco certinho e monta figuras de tangram.",
+        "Algumas rodadas pedem a mesma lanterna de um jeito novo: as linhas da anterior ficam fracas na moldura, e preencher pelas mesmas linhas não vale. Quando falta uma peça, o tamanho importa tanto quanto o formato: um triângulo pequeno deixa uma fresta de luz num buraco médio. Nas rodadas de sombras, um vidro de tangram girado ou virado deixa passar luz de um lado e projeta sombra do outro. Depois do primeiro erro, a lâmpada faz cada vão brilhar; depois do segundo, uma peça tracejada mostra uma peça que encaixa. Uma lanterna vedada guarda suas linhas gravadas em prata e sobe para a guirlanda; depois a criança pode desmontar e montar de novo.",
+        "A primeira dica só diz o que a luz mostra; depois do segundo erro, a lâmpada aponta uma peça que encaixa. De acordo com a BNCC, na unidade temática Geometria. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Montar figuras planas maiores juntando triângulos e losangos",
-        "Reconhecer o triângulo e o losango",
-        "Girar e encaixar as peças sem deixar buracos nem sobrepô-las",
-        "Perceber que uma mesma figura pode ser montada de várias maneiras",
-        "Explorar figuras como o hexágono e o telhado (trapézio)"
+        "Juntar figuras para preencher certinho uma figura maior: sem vãos, sem sobrepor, sem nada para fora",
+        "Montar a mesma figura de mais de um jeito",
+        "Ver uma figura grande como figuras menores e as linhas onde elas se encontram",
+        "Escolher uma peça pelo formato e pelo tamanho, e girar ou virar para encaixar"
       ],
       "howToPlay": [
-        "Escolha uma peça brilhante ao lado: um triângulo ou um losango.",
-        "Gire a peça para encaixá-la e coloque-a dentro da lanterna vazia.",
-        "Continue juntando peças até preencher toda a figura, sem buracos nem peças sobrepostas."
+        "Arraste uma peça de vidro da bandeja para a lanterna. Toque numa peça da bandeja para escolher e toque de novo para girar.",
+        "Toque numa peça da lanterna para girar. Arraste para fora da bancada para devolver à bandeja.",
+        "Luz dourada quer dizer um vão; uma sombra na parede quer dizer uma peça para fora. Toque em Verificar quando a lanterna parecer vedada.",
+        "Em “A peça que falta”, arraste a única peça solta que preenche o buraco. Em “Tangram”, monte a figura ou deslize para a moldura o vidro que combina com a sombra.",
+        "Nas configurações você escolhe o nível (Peças de vidro · A peça que falta · Tangram), vidro transparente ou colorido, e se as peças giram sozinhas para encaixar."
       ],
       "learningGoals": [
-        "Compreender que figuras maiores podem ser montadas com figuras menores — e desmontadas de novo.",
-        "Desenvolver a percepção geométrica ao girar e encaixar peças dentro de um contorno.",
-        "Explorar a Geometria montando e recompondo figuras planas, no estilo tangram, em linha com a unidade temática Geometria da BNCC."
+        "Compor figuras planas formando uma figura maior preenchida certinho.",
+        "Compor a mesma figura de jeitos diferentes e comparar as linhas entre as peças.",
+        "Escolher a peça que preenche um vão pelo formato e pelo tamanho.",
+        "Girar ou virar uma peça para encaixar num contorno fixo, e ver que na posição errada ela deixa um vão e fica para fora."
       ]
     },
     "skipcount.fill.2-nbt-a-2": {

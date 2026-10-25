@@ -43,6 +43,9 @@ const F = (cond, msg) => { if (!cond) fails.push(msg); };
   const C = loadCore();
   const manifest = JSON.parse(fs.readFileSync(MANIFEST, 'utf8'));
   const row = Array.isArray(manifest) ? manifest[0] : manifest;
+  /* row #106 of the one-by-one rebuild moved this row to the light-leak engine (verify-light-leak-core.js gates it);
+     the shapeforge engine has no row left, so there is nothing for this gate to prove */
+  if (row.tool !== 'shapeforge-activity') { console.log('verify-shapeforge-core: RETIRED — ' + row.id + ' now runs on ' + row.tool + ' (see verify-light-leak-core.js)'); return; }
   const rounds = row.params.rounds || [];
   const N = rounds.length || 1;
   const nonOnRamp = rounds.filter((r) => !r.onRamp);

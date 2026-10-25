@@ -2430,25 +2430,28 @@
     },
     "shapeforge.compose.1-g-a-2": {
       "about": [
-        "En este juego Mim el zorro forja luz con figuras. El niño elige una pieza brillante —un triángulo o un rombo—, la gira y la coloca dentro de una linterna vacía hasta llenarla por completo, sin dejar huecos ni encimar las piezas.",
-        "Aquí se descubre una idea grande de la geometría: las figuras se componen de otras más pequeñas, y una misma figura se puede armar de varias maneras. Por ejemplo, un hexágono se forma con 6 triángulos o con 3 rombos, y después esas mismas piezas se pueden recombinar para crear una figura nueva.",
-        "La actividad acompaña el aprendizaje de la geometría en 1º de primaria dentro del eje Forma, espacio y medida de los planes y programas de estudio de la SEP, y fortalece el sentido espacial de una forma cálida, sin prisas y sin calificaciones."
+        "Mim llena faroles con vidrio de colores. Detrás de cada marco vacío arde una lámpara: cada hueco entre las piezas brilla como una rendija dorada, y cada pieza que sobresale del marco proyecta una sombra oscura en la pared del taller. El farol solo brilla cuando queda sellado: no pasa nada de luz y nada sobresale. Niñas y niños arman rombos, trapecios, triángulos, hexágonos y una barra larga con bloques de patrones, eligen la única pieza que llena un hueco exactamente y arman figuras de tangram.",
+        "Algunas rondas piden el mismo farol de otra manera: las líneas del anterior se quedan tenues en el marco, y llenarlo siguiendo las mismas líneas no cuenta. Cuando falta una pieza, el tamaño importa tanto como la forma: un triángulo pequeño deja una rendija de luz en un hueco mediano. En las rondas de sombras, un vidrio de tangram girado o volteado deja pasar luz por un lado y proyecta sombra por el otro. Después del primer error, la lámpara hace brillar cada hueco; después del segundo, una pieza punteada muestra una pieza que cabe. Un farol sellado conserva sus líneas grabadas en plata y sube a la guirnalda; luego se puede desarmar y volver a armar.",
+        "La primera pista solo dice lo que muestra la luz; después del segundo error, la lámpara señala una pieza que cabe. En línea con los programas de estudio de la SEP (campo formativo Saberes y pensamiento científico). Sin cronómetro y sin puntaje."
       ],
       "practices": [
-        "Armar figuras planas más grandes uniendo triángulos y rombos",
-        "Girar las piezas y acomodarlas sin dejar huecos ni encimarlas",
-        "Descubrir que una misma figura se puede armar de varias formas",
-        "Reconocer y nombrar figuras: triángulo, rombo y hexágono"
+        "Juntar figuras para llenar exactamente una figura más grande: sin huecos, sin encimar, sin que nada sobresalga",
+        "Armar la misma figura de más de una manera",
+        "Ver una figura grande como figuras más pequeñas y las líneas donde se juntan",
+        "Elegir una pieza por su forma y su tamaño, y girarla o voltearla para que encaje"
       ],
       "howToPlay": [
-        "Elige una pieza brillante del costado: un triángulo o un rombo.",
-        "Gírala para acomodarla y colócala dentro de la linterna vacía.",
-        "Sigue uniendo piezas hasta llenar toda la figura, sin huecos ni encimadas."
+        "Arrastra una pieza de vidrio de la charola al farol. Toca una pieza de la charola para elegirla y otra vez para girarla.",
+        "Toca una pieza del farol para girarla. Sácala del banco de trabajo para devolverla a la charola.",
+        "La luz dorada es un hueco; una sombra en la pared es una pieza que sobresale. Toca Comprobar cuando el farol parezca sellado.",
+        "En «La pieza que falta», arrastra la única pieza suelta que llena el hueco. En «Tangram», arma la figura o mete en el marco el vidrio que coincide con la sombra.",
+        "En los ajustes eliges el nivel (Piezas de vidrio · La pieza que falta · Tangram), vidrio transparente o de colores, y si las piezas giran solas para encajar."
       ],
       "learningGoals": [
-        "Comprender que las figuras grandes se componen de figuras más pequeñas y volver a separarlas.",
-        "Desarrollar el sentido espacial al girar y acomodar piezas dentro de un contorno.",
-        "Explorar la geometría del eje Forma, espacio y medida al armar y recomponer figuras."
+        "Componer figuras planas para formar una figura más grande que quede llena exactamente.",
+        "Componer la misma figura de distintas maneras y comparar las líneas entre las piezas.",
+        "Elegir la pieza que llena un hueco por su forma y su tamaño.",
+        "Girar o voltear una pieza para que encaje en un contorno fijo, y ver que en la posición equivocada deja un hueco y sobresale."
       ]
     },
     "skipcount.fill.2-nbt-a-2": {

@@ -2943,6 +2943,32 @@
         "Puolitunneissa nähdään, mikä tunti on jo alkanut, ja tiedetään, että puoli kahdeksan on 7.30.",
         "Kellon asettaminen aikaan kiertämällä sitä eteenpäin läpi päivän."
       ]
+    },
+    "shapeforge.compose.1-g-a-2": {
+      "about": [
+        "Mim täyttää valopajassa lyhtyjä värillisellä lasilla. Jokaisen tyhjän kehyksen takana palaa lamppu: jokainen rako palojen välissä loistaa kirkkaana kultaisena viiruna, ja jokainen pala, joka törröttää kehyksen ulkopuolelle, heittää tumman varjon pajan seinälle. Lyhty hehkuu vasta, kun se on tiivis: valoa ei pääse läpi eikä mikään törrötä. Lapsi kokoaa kuviopaloista neljäkkäitä, puolisuunnikkaita, kolmioita, kuusikulmioita ja pitkän palkin, valitsee ainoan palan, joka täyttää reiän täsmälleen, ja rakentaa tangramkuvioita.",
+        "Joillakin kierroksilla sama lyhty täytetään uudella tavalla: edellisen viivat näkyvät himmeinä kehyksessä, eikä samoja viivoja pitkin tehty täyttö kelpaa. Kun pala puuttuu, koolla on yhtä paljon väliä kuin muodolla: pieni kolmio jättää keskikokoiseen reikään valoraon. Varjokierroksilla käännetty tai peilattu tangramruutu päästää valoa toiselta puolelta ja heittää varjon toiselle. Ensimmäisen virheen jälkeen lamppu valaisee jokaisen raon kirkkaasti, toisen jälkeen katkoviivainen pala näyttää palan, joka sopii. Tiivis lyhty säilyttää viivansa hopeaan kaiverrettuina ja nousee köynnökseen; sen jälkeen lapsi voi purkaa sen ja rakentaa uudelleen.",
+        "Ensimmäinen vihje kertoo vain, mitä valo näyttää; vasta toisen virheen jälkeen lamppu osoittaa palan, joka sopii. Sopii opetussuunnitelman sisältöalueeseen Geometria ja mittaaminen. Ilman ajanottoa ja ilman pisteytystä."
+      ],
+      "practices": [
+        "Kuvioiden kokoaminen niin, että suurempi kuvio täyttyy täsmälleen: ei rakoja, ei päällekkäisyyksiä, ei mitään ulkona",
+        "Saman kuvion rakentaminen useammalla kuin yhdellä tavalla",
+        "Suuren kuvion näkeminen pienempinä kuvioina ja niiden välisinä viivoina",
+        "Palan valitseminen muodon ja koon mukaan sekä sen kääntäminen tai peilaaminen sopivaksi"
+      ],
+      "howToPlay": [
+        "Vedä lasipala alustalta lyhtyyn. Napauta alustan palaa valitaksesi sen ja napauta uudelleen kääntääksesi sitä.",
+        "Napauta lyhdyssä olevaa palaa kääntääksesi sitä. Vedä se pois työpöydältä palauttaaksesi sen alustalle.",
+        "Kultainen valo tarkoittaa rakoa; varjo seinällä tarkoittaa, että pala törröttää. Napauta Tarkista, kun lyhty näyttää tiiviiltä.",
+        "Tasolla ”Puuttuva pala” vedät reikään ainoan irtopalan, joka täyttää sen. Tasolla ”Tangram” rakennat kuvion tai liu'utat kehykseen ruudun, joka vastaa varjoa.",
+        "Asetuksista valitset tason (Lasipalat · Puuttuva pala · Tangram), kirkkaan tai värillisen lasin ja kääntyvätkö palat itse sopiviksi."
+      ],
+      "learningGoals": [
+        "Koota tasokuvioista suurempi kuvio, joka on täytetty täsmälleen.",
+        "Koota sama kuvio eri tavoin ja vertailla palojen välisiä viivoja.",
+        "Valita raon täyttävä pala muodon ja koon perusteella.",
+        "Kääntää tai peilata pala sopimaan kiinteään ääriviivaan ja huomata, että väärin päin se jättää raon ja törröttää."
+      ]
     }
   }
 }

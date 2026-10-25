@@ -2948,6 +2948,32 @@
         "Ved halve timer å se hvilken time som har begynt, og vite at halv åtte er 7.30.",
         "Å stille en klokke på et klokkeslett ved å vri den framover gjennom dagen."
       ]
+    },
+    "shapeforge.compose.1-g-a-2": {
+      "about": [
+        "Mim fyller lykter med farget glass i lysverkstedet. Bak hver tomme ramme brenner en lampe: Hvert hull mellom bitene lyser som en klar gullstripe, og hver bit som stikker ut av rammen, kaster en mørk skygge på veggen i verkstedet. Lykten lyser først når den er tett: Ikke noe lys slipper gjennom, og ingenting stikker ut. Barnet legger romber, trapeser, trekanter, sekskanter og en lang stang av mønsterbrikker, finner den ene biten som fyller et hull nøyaktig, og bygger tangramfigurer.",
+        "Noen runder ber om den samme lykten på en ny måte: Linjene fra den forrige står svakt i rammen, og en fylling langs de samme linjene teller ikke. Når en bit mangler, betyr størrelsen like mye som formen: En liten trekant etterlater en lysspalte i et mellomstort hull. I skyggerundene slipper en vridd eller speilvendt tangramrute lys gjennom på den ene siden og kaster skygge på den andre. Etter første feil får lampen hvert hull til å lyse opp, etter andre viser en stiplet bit en bit som passer. En tett lykt beholder linjene sine risset inn i sølv og stiger opp i girlanderen; etterpå kan barnet ta den fra hverandre og bygge den på nytt.",
+        "Første hint sier bare hva lyset viser; først etter andre feil peker lampen ut en bit som passer. I tråd med LK20 i matematikk. Uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Å legge sammen former slik at en større form blir nøyaktig fylt: uten hull, uten overlapp, uten at noe stikker ut",
+        "Å bygge den samme formen på mer enn én måte",
+        "Å se en stor form som mindre former og linjene mellom dem",
+        "Å velge en bit etter form og størrelse og vri eller speilvende den på plass"
+      ],
+      "howToPlay": [
+        "Dra en glassbit fra brettet inn i lykten. Trykk på en bit på brettet for å velge den, og trykk igjen for å vri den.",
+        "Trykk på en bit i lykten for å vri den. Dra den av arbeidsbenken for å legge den tilbake.",
+        "Gyllent lys betyr et hull; en skygge på veggen betyr at en bit stikker ut. Trykk på Sjekk når lykten ser tett ut.",
+        "I «Biten som mangler» drar du inn den ene løse biten som fyller hullet. I «Tangram» bygger du formen eller skyver ruten som passer til skyggen, inn i rammen.",
+        "I innstillingene velger du nivå (Glassbiter · Biten som mangler · Tangram), klart eller farget glass og om bitene selv skal vri seg på plass."
+      ],
+      "learningGoals": [
+        "Sette sammen todimensjonale figurer til en større figur som er nøyaktig fylt.",
+        "Sette sammen den samme figuren på ulike måter og sammenligne linjene mellom bitene.",
+        "Velge biten som fyller et hull, etter form og størrelse.",
+        "Vri eller speilvende en bit så den passer i et fast omriss, og se at feil stilling etterlater et hull og stikker ut."
+      ]
     }
   }
 }

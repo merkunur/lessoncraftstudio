@@ -1224,25 +1224,28 @@
     },
     "shapeforge.compose.1-g-a-2": {
       "about": [
-        "Nella bottega luminosa di Mim ogni figura nasce dalla luce: i bambini fondono piccoli triangoli e rombi splendenti per dare forma a figure sempre più grandi.",
-        "È un'attività di geometria pensata per la classe prima (6-7 anni), giocabile online nel browser, senza registrazione. I bambini imparano a comporre e scomporre figure geometriche piane, spostando e ruotando i pezzi finché combaciano con la sagoma, proprio come si fa con i materiali manipolabili in classe o con un tangram.",
-        "Il percorso segue il nucleo «Spazio e figure» delle Indicazioni nazionali: nessun punteggio e nessun tempo, solo tanti modi diversi per riempire ogni figura e scoprire la geometria giocando."
+        "Nella bottega luminosa Mim riempie le lanterne di vetro colorato. Dietro ogni cornice vuota brucia una lampada: ogni spazio tra i pezzi brilla come una fessura dorata, e ogni pezzo che sporge dalla cornice getta un’ombra scura sul muro della bottega. La lanterna si illumina solo quando è sigillata: non passa luce e niente sporge. Il bambino compone rombi, trapezi, triangoli, esagoni e una barra lunga con i blocchi geometrici, sceglie l’unico pezzo che riempie esattamente un buco e costruisce figure del tangram.",
+        "Alcuni turni chiedono la stessa lanterna in un modo nuovo: le linee della precedente restano leggere nella cornice, e un riempimento lungo le stesse linee non vale. Quando manca un pezzo, la grandezza conta quanto la forma: un triangolo piccolo lascia una fessura di luce in un buco medio. Nei turni delle ombre, un vetro del tangram girato o capovolto lascia passare luce da una parte e getta ombra dall’altra. Dopo il primo errore la lampada fa brillare ogni spazio; dopo il secondo un pezzo tratteggiato mostra un pezzo che entra. Una lanterna sigillata tiene le sue linee incise in argento e sale sulla ghirlanda; poi il bambino può smontarla e ricostruirla.",
+        "Il primo suggerimento dice solo ciò che mostra la luce; dopo il secondo errore la lampada indica un pezzo che entra. In linea con le Indicazioni nazionali, nucleo Spazio e figure. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Comporre figure unendo triangoli e rombi",
-        "Ruotare i pezzi per farli combaciare con la sagoma",
-        "Scomporre e ricomporre la stessa figura in modi diversi",
-        "Riconoscere che figure più piccole formano figure più grandi"
+        "Unire figure per riempire esattamente una figura più grande: senza spazi, senza sovrapposizioni, senza che niente sporga",
+        "Comporre la stessa figura in più di un modo",
+        "Vedere una figura grande come figure più piccole e le linee dove si incontrano",
+        "Scegliere un pezzo per forma e grandezza, e girarlo o capovolgerlo perché entri"
       ],
       "howToPlay": [
-        "Scegli un pezzo e ruotalo per orientarlo bene",
-        "Riempi ogni parte della sagoma vuota fino a completarla",
-        "Se un pezzo non combacia arriva un aiuto gentile: nessun punteggio, si prova con calma"
+        "Trascina un pezzo di vetro dal vassoio nella lanterna. Tocca un pezzo nel vassoio per sceglierlo e toccalo di nuovo per girarlo.",
+        "Tocca un pezzo nella lanterna per girarlo. Trascinalo fuori dal banco per rimetterlo nel vassoio.",
+        "La luce dorata è uno spazio vuoto; un’ombra sul muro è un pezzo che sporge. Tocca Controlla quando la lanterna sembra sigillata.",
+        "In «Il pezzo mancante» trascina dentro l’unico pezzo sciolto che riempie il buco. In «Tangram» costruisci la figura, oppure fai scivolare nella cornice il vetro che corrisponde all’ombra.",
+        "Nelle impostazioni scegli il livello (Pezzi di vetro · Il pezzo mancante · Tangram), il vetro trasparente o colorato e se i pezzi si girano da soli per entrare."
       ],
       "learningGoals": [
-        "Comporre figure geometriche piane a partire da triangoli e rombi",
-        "Scoprire che una stessa figura si può comporre in più modi",
-        "Sviluppare l'intuizione spaziale e il riconoscimento delle figure"
+        "Comporre figure piane in una figura più grande riempita esattamente.",
+        "Comporre la stessa figura in modi diversi e confrontare le linee tra i pezzi.",
+        "Scegliere il pezzo che riempie uno spazio in base a forma e grandezza.",
+        "Girare o capovolgere un pezzo perché entri in un contorno fisso, e vedere che nella posizione sbagliata lascia uno spazio e sporge."
       ]
     },
     "skipcount.fill.2-nbt-a-2": {

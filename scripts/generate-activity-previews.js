@@ -251,6 +251,10 @@ function seedScript(row) {
     // the illusion round: the hanging orange ribbon looks longest, but the cord has been to all three — its tags say the flat red one is the longest, and the cord still lies along it
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.question='mixed';t.api.settings.things='ribbons';t._pool=null;t._ensurePool();t._start('L5',0);var C=window.TravelCordCore,s=t.st,r=s.r;r.items.forEach(function(x){s.lay.place[x.id]=x.home;s.lay.off[x.id]=0;});C.measure(s,'orange');C.measure(s,'purple');C.measure(s,'red');t._render2();})()`;
   }
+  if (row.tool === 'light-leak-activity') {
+    // the hexagon lantern half built: two rhombi in, the last gap glowing gold, a triangle sticking out and throwing its shadow on the wall
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.level='glass';t.api.settings.glass='colour';t.api.settings.turning='tap';t._pool=null;t._ensurePool();t._pos=null;t._memory={};t._start('L7',0);var C=window.LightLeakCore,s=t.st;C.drop(s,{kind:'rhombus',rot:0},1,0.5);C.drop(s,{kind:'rhombus',rot:2},1.75,1);C.drop(s,{kind:'triangle',rot:1},2.5,1.4);t._render2();})()`;
+  }
   if (row.tool === 'take-apart-activity') {
     // the turned, small triangle taken apart on the tray — three straight sticks, three full cups — while two shapes already sit in their boxes
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.level='real';t.api.settings.tray='open';t.api.settings.shapes='6';t._pool=null;t._ensurePool();t._pos=null;t._start(0,0);var C=window.TakeApartCore,s=t.st,f=function(id){return s.items.findIndex(function(x){return x.id===id;});};C.place(s,f('tri_equi'),'yes');C.place(s,f('quad_square'),'no');C.tap(s,f('tri_right'));t._render2();})()`;

@@ -2651,25 +2651,28 @@
     },
     "shapeforge.compose.1-g-a-2": {
       "about": [
-        "Mim de vos is smid in een lichtwerkplaats: samen met je kind smelt zij kleine, gloeiende vormpjes — driehoeken en ruiten — aan elkaar tot grotere figuren. Zo vullen jullie een leeg lantaarnpatroon op en bouwen jullie een ruit, een dak, een zeshoek en nog veel meer. Het is een interactieve activiteit die in elke browser speelt, zonder download en zonder account.",
-        "De kern is het samenstellen van vlakke figuren: grote vormen zijn opgebouwd uit kleinere, en dezelfde vorm kun je vaak op meer dan één manier bouwen — een zeshoek uit zes driehoeken óf uit drie ruiten. De rondes gaan verder dan alleen opvullen: bouw dezelfde zeshoek nog eens op een nieuwe manier, maak van een figuur een lange balk, bedek een vlak met alléén driehoeken, of laat een half afgebouwde vorm uitgroeien tot een zeshoek. Je kind kiest en draait de vormpjes net zolang tot ze echt passen, zonder gaten en zonder overlap.",
-        "De activiteit sluit aan bij de SLO-kerndoelen, domein Meetkunde, voor Groep 3. Geen timer, geen score — gewoon rustig en speels oefenen met ruimtelijk en meetkundig inzicht."
+        "Mim vult in de lichtwerkplaats lantaarns met gekleurd glas. Achter elke lege lijst brandt een lamp: elk gaatje tussen de stukjes schijnt als een helder gouden spleetje, en elk stukje dat buiten de lijst steekt, werpt een donkere schaduw op de muur van de werkplaats. De lantaarn straalt pas als hij dicht is: er komt geen licht door en er steekt niets uit. Je kind legt ruiten, trapeziums, driehoeken, zeshoeken en een lange balk met patroonblokjes, kiest het ene stukje dat een gat precies vult en bouwt tangramfiguren.",
+        "Sommige rondes vragen om dezelfde lantaarn op een nieuwe manier: de lijnen van de vorige blijven zwak zichtbaar in de lijst, en een vulling langs dezelfde lijnen telt niet. Bij het ontbrekende stukje telt de grootte net zo goed als de vorm: een kleine driehoek laat in een middelgroot gat een lichtspleet over. In de schaduwrondes laat een gedraaid of gespiegeld tangramruitje aan de ene kant licht door en werpt het aan de andere kant een schaduw. Na een eerste fout laat de lamp elk gaatje oplichten, na een tweede wijst een gestippeld stukje een stukje aan dat past. Een dichte lantaarn houdt zijn lijnen in zilver gegraveerd en stijgt op naar de slinger; daarna kan je kind hem uit elkaar halen en opnieuw bouwen.",
+        "De eerste hint zegt alleen wat het licht laat zien; pas na een tweede fout wijst de lamp een stukje aan dat past. Passend bij de kerndoelen voor meetkunde. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Een grotere vorm bouwen uit losse vormpjes: driehoeken en ruiten samenvoegen tot één figuur.",
-        "Een leeg patroon opvullen met vormpjes die precies passen, zonder gaten en zonder overlap.",
-        "Dezelfde vorm op meer dan één manier maken en daarna omvormen tot een nieuwe figuur, zoals een lange balk.",
-        "Een vlak bedekken met één soort vormpje, of een half afgebouwde vorm helemaal afmaken."
+        "Vormen zo samenleggen dat een grotere vorm precies gevuld is: zonder gaten, zonder overlap, zonder uitsteeksel",
+        "Dezelfde vorm op meer dan één manier leggen",
+        "In een grote vorm de kleinere vormen en de lijnen ertussen zien",
+        "Een stukje kiezen op vorm en grootte en het passend draaien of spiegelen"
       ],
       "howToPlay": [
-        "Bekijk het lege lantaarnpatroon en zie welke ruimte je moet vullen.",
-        "Tik op een vormpje, draai het en leg het in de vorm om het patroon op te vullen — of bouw dezelfde vorm eens op een nieuwe manier.",
-        "Past het nog niet helemaal? Leg de vormpjes anders neer en probeer het opnieuw — geen timer, geen score."
+        "Sleep een glazen stukje uit de bak in de lantaarn. Tik op een stukje in de bak om het te kiezen en nog eens om het te draaien.",
+        "Tik op een stukje in de lantaarn om het te draaien. Sleep het van de werkbank om het terug te leggen.",
+        "Goud licht betekent een gaatje; een schaduw op de muur betekent dat er iets uitsteekt. Druk op Controleer als de lantaarn dicht lijkt.",
+        "Bij ‘Het ontbrekende stukje’ sleep je het ene losse stukje erin dat het gat vult. Bij ‘Tangram’ bouw je de vorm, of schuif je het ruitje dat bij de schaduw past in de lijst.",
+        "In de instellingen kies je het niveau (Glazen stukjes · Het ontbrekende stukje · Tangram), doorzichtig of gekleurd glas en of stukjes vanzelf passend draaien."
       ],
       "learningGoals": [
-        "Vlakke figuren samenstellen tot een grotere vorm.",
-        "Begrijpen dat grote vormen zijn opgebouwd uit kleinere, vaak op meer dan één manier.",
-        "De basis leggen voor ruimtelijk inzicht dat later helpt bij meetkunde en breuken."
+        "Vlakke figuren samenstellen tot een grotere figuur die precies gevuld is.",
+        "Dezelfde figuur op verschillende manieren samenstellen en de lijnen tussen de stukjes vergelijken.",
+        "Het stukje dat een gat vult kiezen op vorm en grootte.",
+        "Een stukje draaien of spiegelen zodat het in een vaste omtrek past, en zien dat de verkeerde stand een gat laat en uitsteekt."
       ]
     },
     "place-value-regroup.add-compose-ten.1-nbt-c-4": {

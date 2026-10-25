@@ -2942,6 +2942,32 @@
         "Ved halve timer at se, hvilken time der er begyndt, og vide, at halv otte er 7.30.",
         "At stille et ur på et klokkeslæt ved at dreje det frem gennem dagen."
       ]
+    },
+    "shapeforge.compose.1-g-a-2": {
+      "about": [
+        "Mim fylder i lysværkstedet lygter med farvet glas. Bag hver tom ramme brænder en lampe: Hvert hul mellem stykkerne lyser som en klar gylden sprække, og hvert stykke, der stikker ud af rammen, kaster en mørk skygge på værkstedets væg. Lygten lyser først, når den er tæt: Intet lys slipper igennem, og intet stikker ud. Barnet lægger romber, trapezer, trekanter, sekskanter og en lang bjælke af mønsterbrikker, finder det ene stykke, der fylder et hul præcis, og bygger tangramfigurer.",
+        "Nogle runder beder om den samme lygte på en ny måde: Linjerne fra den forrige står svagt i rammen, og en fyldning langs de samme linjer tæller ikke. Ved det manglende stykke betyder størrelsen lige så meget som formen: En lille trekant efterlader en lysspalte i et mellemstort hul. I skyggerunderne lukker en drejet eller spejlvendt tangramrude lys ind i den ene side og kaster skygge i den anden. Efter første fejl får lampen hvert hul til at lyse op, efter anden viser et stiplet stykke et stykke, der passer. En tæt lygte beholder sine linjer indridset i sølv og stiger op i guirlanden; bagefter kan barnet skille den ad og bygge den igen.",
+        "Første hjælp fortæller kun, hvad lyset viser; først efter anden fejl peger lampen på et stykke, der passer. I tråd med Fælles Mål for geometri og måling. Uden tidtagning og uden point."
+      ],
+      "practices": [
+        "At sætte figurer sammen, så en større figur er helt fyldt: uden huller, uden overlap, uden at noget stikker ud",
+        "At bygge den samme figur på mere end én måde",
+        "At se en stor figur som mindre figurer og linjerne mellem dem",
+        "At vælge et stykke efter form og størrelse og dreje eller spejlvende det på plads"
+      ],
+      "howToPlay": [
+        "Træk et glasstykke fra bakken ind i lygten. Tryk på et stykke i bakken for at vælge det, og tryk igen for at dreje det.",
+        "Tryk på et stykke i lygten for at dreje det. Træk det af arbejdsbordet for at lægge det tilbage.",
+        "Gyldent lys betyder et hul; en skygge på væggen betyder, at et stykke stikker ud. Tryk på Tjek, når lygten ser tæt ud.",
+        "I »Det manglende stykke« trækker du det ene løse stykke ind, der fylder hullet. I »Tangram« bygger du figuren eller skubber den rude, der passer til skyggen, ind i rammen.",
+        "I indstillingerne vælger du niveau (Glasstykker · Det manglende stykke · Tangram), klart eller farvet glas, og om stykkerne selv drejer på plads."
+      ],
+      "learningGoals": [
+        "Sætte plane figurer sammen til en større figur, der er helt fyldt ud.",
+        "Sætte den samme figur sammen på forskellige måder og sammenligne linjerne mellem stykkerne.",
+        "Vælge det stykke, der fylder et hul, efter form og størrelse.",
+        "Dreje eller spejlvende et stykke, så det passer i et fast omrids, og se, at den forkerte stilling efterlader et hul og stikker ud."
+      ]
     }
   }
 }

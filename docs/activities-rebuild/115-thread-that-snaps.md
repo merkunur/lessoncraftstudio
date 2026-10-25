@@ -104,4 +104,4 @@ ONE native + Grade-1 reading reviewer over all 11 locales. Truth values, proofs,
 - 0 lines to shared cores or lcs-shell.
 
 ## Live
-LIVEVERIFY
+Deployed 2026-10-25. `live-verify-mending-basket.js`: **52 pass, 0 fail** — all 11 pages 200; en / de / sv / fi at 1366 and 390 with a real pointer: a wrong piece in the hole → the locale's hintSnap and the thread in two frayed halves; the answer → the thread held, the page healed; wrapper 9.859; the iframe grows with the card. (First run: the sv / fi pages still served the pre-deploy edge copy; rerun once after it expired.)

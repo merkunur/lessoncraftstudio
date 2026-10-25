@@ -1498,25 +1498,28 @@
     },
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
-        "Questa attività interattiva aiuta i bambini più piccoli a riconoscere quando una forma è divisa in parti uguali. Il bambino guarda quattro forme — cerchi, quadrati e rettangoli disegnati — e tocca quella divisa in parti della stessa grandezza. Funziona direttamente nel browser, senza installare nulla e senza creare un account.",
-        "L'idea importante è che le parti devono essere giuste e uguali: due metà identiche oppure quattro parti della stessa grandezza. Le scelte sbagliate aiutano a capire il concetto: una forma divisa in parti disuguali, una divisa nel numero sbagliato di parti, oppure una forma intera non divisa. Il bambino non divide la forma da solo, ma riconosce quale forma è già divisa in parti uguali.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dello spazio e delle figure: riconoscere le forme divise in due o quattro parti uguali e nominarle come metà e quarti. Nessun timer, nessun punteggio, solo esercizio giocoso e tranquillo."
+        "Su una mensola ci sono quattro cartoncini, ognuno con la stessa figura tagliata in pezzi. Il bambino appende un cartoncino a una giostrina che ha un gancio per ogni parte. Il cartone pesa secondo la sua grandezza, così la giostrina misura che cosa vuol dire «uguali»: le parti giuste restano perfettamente in equilibrio, un taglio ingiusto fa inclinare l’asta, i pezzi in più cadono in un vassoio e, se manca un pezzo, un gancio resta vuoto. Un perno tiene ferma l’asta finché Controlla non lo toglie e la giostrina oscilla fino alla sua posizione vera.",
+        "Il primo livello chiede metà e quarti di cerchi, quadrati e rettangoli. Il secondo aggiunge i terzi su un’asta appesa a un terzo e parti giuste che sembrano diverse, come quarti da angolo ad angolo o un triangolo tagliato in tre dal suo centro. Il terzo livello capovolge il gioco: tre giostrine hanno una targhetta per una metà, un terzo e un quarto, e il bambino appende un cartoncino con una parte colorata alla giostrina giusta. Quando tutte le parti sono uguali, su ogni pezzo compare una frazione.",
+        "Dopo il primo errore la giostrina mostra che cosa non va: si inclina, un gancio resta vuoto o dei pezzi finiscono nel vassoio, e la parte più pesante si illumina. Dopo il secondo errore le molle sotto i ganci vengono misurate rispetto a una linea tratteggiata, così la parte troppo grande salta all’occhio; nel terzo livello dondola la giostrina con il numero giusto di ganci. In linea con le Indicazioni nazionali, nuclei Numeri e Spazio e figure. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Riconoscere quando un cerchio, un quadrato o un rettangolo è diviso in parti uguali",
-        "Distinguere le metà e i quarti uguali dalle parti disuguali",
-        "Notare quante sono le parti uguali: due oppure quattro",
-        "Usare le parole metà e quarti per descrivere le parti"
+        "Distinguere parti uguali da parti disuguali dalla grandezza, non dal numero di linee",
+        "Collegare il numero di parti uguali a metà, terzi e quarti",
+        "Vedere che parti uguali dello stesso intero possono sembrare diverse",
+        "Chiamare una parte una metà, un terzo o un quarto"
       ],
       "howToPlay": [
-        "Guarda le quattro forme e osserva come è divisa ciascuna di esse.",
-        "Tocca la forma divisa in parti della stessa grandezza — due metà uguali oppure quattro parti uguali.",
-        "Se scegli un'altra forma, riprova con calma: cerca quella in cui le parti sono davvero uguali."
+        "Tocca un cartoncino, o trascinalo sulla giostrina, per appenderlo. Tocca la giostrina per togliere il cartoncino.",
+        "Premi Controlla per togliere il perno. Le parti giuste restano in equilibrio; un cartoncino ingiusto fa inclinare l’asta.",
+        "Pezzi nel vassoio vuol dire troppi pezzi; un gancio vuoto vuol dire troppo pochi.",
+        "In «Dai un nome alla parte», tocca il cartoncino e poi la giostrina la cui targhetta corrisponde alla parte colorata.",
+        "Nelle impostazioni scegli il livello (Metà e quarti · Terzi e parti giuste · Dai un nome alla parte) e accendi o spegni la livella sull’asta."
       ],
       "learningGoals": [
-        "Riconoscere i cerchi, i quadrati e i rettangoli divisi in due o quattro parti uguali",
-        "Capire che le parti devono essere uguali, della stessa grandezza",
-        "Costruire le basi della condivisione equa per affrontare più avanti le frazioni"
+        "Riconoscere cerchi, rettangoli e altre figure divisi in due, tre o quattro parti uguali e capire quando le parti non sono uguali.",
+        "Chiamare le parti metà, terzi e quarti.",
+        "Riconoscere che parti uguali di interi uguali non devono avere la stessa forma.",
+        "Chiamare una parte di un intero una metà, un terzo o un quarto."
       ]
     },
     "ten-frame.count-to-10.make-n.animals": {

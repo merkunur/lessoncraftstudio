@@ -994,25 +994,28 @@
     },
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
-        "Esta atividade interativa ajuda as crianças pequenas a perceberem quando uma forma está dividida em partes iguais. A criança vê quatro formas desenhadas — círculos, quadrados e retângulos — e toca naquela que foi dividida em partes do mesmo tamanho. Funciona direto no navegador, sem instalar nada e sem precisar criar conta.",
-        "A grande ideia é que as partes precisam ser justas e iguais, ou seja, do mesmo tamanho. Entre as outras opções, uma mostra a mesma forma dividida em partes desiguais, outra tem o número errado de partes iguais e outra é uma forma inteira, sem nenhuma divisão. A criança não divide a forma — ela apenas reconhece qual já está dividida em partes iguais.",
-        "A atividade está alinhada à BNCC, na unidade temática Geometria, e à habilidade de reconhecer formas divididas em duas e em quatro partes iguais, chamando essas partes de metades e quartos. Sem cronômetro, sem pontuação, apenas uma prática lúdica e tranquila."
+        "Numa prateleira há quatro cartões, cada um com a mesma figura cortada em peças. A criança pendura um cartão num móbile que tem um gancho para cada parte. O papelão pesa conforme o tamanho, então o móbile mede o que quer dizer “iguais”: partes justas ficam perfeitamente equilibradas, um corte injusto inclina a haste, as peças que sobram caem numa bandeja e, se falta uma peça, um gancho fica vazio. Um pino segura a haste até Verificar puxá-lo e o móbile balançar até a posição verdadeira.",
+        "O primeiro nível pede metades e quartos de círculos, quadrados e retângulos. O segundo acrescenta terços numa haste pendurada a um terço e partes justas que parecem diferentes, como quartos de canto a canto ou um triângulo cortado em três a partir do centro. O terceiro nível inverte tudo: três móbiles têm plaquinhas de uma metade, um terço e um quarto, e a criança pendura um cartão com uma parte pintada no móbile certo. Quando todas as partes são iguais, aparece uma fração em cada peça.",
+        "Depois do primeiro erro, o móbile mostra o que está errado: ele inclina, um gancho fica vazio ou caem peças na bandeja, e a parte mais pesada brilha. Depois do segundo erro, as molas embaixo dos ganchos são medidas em relação a uma linha tracejada, para que a parte grande demais apareça; no terceiro nível balança o móbile com o número certo de ganchos. De acordo com a BNCC (metade, terça parte e quarta parte). Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Reconhecer quando um círculo, um quadrado ou um retângulo está dividido em partes iguais",
-        "Distinguir partes iguais — metades e quartos — de partes desiguais",
-        "Perceber quantas partes iguais a forma tem: duas ou quatro",
-        "Usar as palavras metades e quartos para nomear as partes iguais"
+        "Diferenciar partes iguais de partes desiguais pelo tamanho, não pelo número de linhas",
+        "Relacionar o número de partes iguais a metades, terços e quartos",
+        "Perceber que partes iguais do mesmo inteiro podem parecer diferentes",
+        "Nomear uma parte como uma metade, um terço ou um quarto"
       ],
       "howToPlay": [
-        "Olhe as quatro formas e veja qual delas está dividida em partes do mesmo tamanho.",
-        "Toque na forma dividida na quantidade de partes iguais que o enunciado pede — duas ou quatro.",
-        "Se quiser, tente de novo com calma: o importante é perceber que as partes têm que ser iguais."
+        "Toque num cartão, ou arraste-o para o móbile, para pendurá-lo. Toque no móbile para tirar o cartão.",
+        "Toque em Verificar para puxar o pino. Partes justas ficam equilibradas; um cartão injusto inclina a haste.",
+        "Peças na bandeja querem dizer peças demais; um gancho vazio quer dizer peças de menos.",
+        "Em “Dê nome à parte”, toque no cartão e depois no móbile cuja plaquinha combina com a parte pintada.",
+        "Nas configurações você escolhe o nível (Metades e quartos · Terços e partes justas · Dê nome à parte) e liga ou desliga o nível de bolha da haste."
       ],
       "learningGoals": [
-        "Reconhecer círculos, quadrados e retângulos divididos em duas ou em quatro partes iguais",
-        "Entender que as partes precisam ser iguais, do mesmo tamanho",
-        "Construir a base da ideia de partes justas para aprender frações mais adiante"
+        "Reconhecer círculos, retângulos e outras figuras divididos em duas, três ou quatro partes iguais e perceber quando as partes não são iguais.",
+        "Chamar as partes de metades, terços e quartos.",
+        "Reconhecer que partes iguais de inteiros iguais não precisam ter a mesma forma.",
+        "Nomear uma parte de um inteiro como uma metade, um terço ou um quarto."
       ]
     },
     "ten-frame.count-to-10.make-n.animals": {

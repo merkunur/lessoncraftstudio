@@ -217,25 +217,28 @@
     },
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
-        "Ennen kuin lapset laskevat murtolukuja, he oppivat tärkeän idean: osien pitää olla yhtä suuret. Tässä maksuttomassa harjoituksessa ruudulle ilmestyy neljä kuviota — ympyröitä, neliöitä ja suorakulmioita — ja lapsi etsii ja napauttaa sen, joka on jaettu kahteen tai neljään yhtä suureen osaan. Harjoitus toimii suoraan selaimessa: ei asennusta, ei käyttäjätiliä.",
-        "Lapsi ei jaa kuviota itse, vaan huomaa, milloin jako on reilu. Oikeassa vaihtoehdossa palaset ovat yhtä suuret puolikkaat tai yhtä suuret neljäsosat. Muut vaihtoehdot eivät kelpaa: niissä osat ovat erikokoisia, osia on väärä määrä tai kuvio on kokonainen eikä sitä ole jaettu lainkaan.",
-        "Harjoitus on OPS 2014:n mukainen geometrian osa-alueella — lapsi tunnistaa kahteen ja neljään yhtä suureen osaan jaetut kuviot ja kutsuu niitä puolikkaiksi ja neljäsosiksi. Lapset työskentelevät omaan tahtiinsa lempeän ja välittömän palautteen kanssa — ei ajastinta, ei pisteitä."
+        "Hyllyllä on neljä korttia, joissa kaikissa on sama kuvio leikattuna paloiksi. Lapsi ripustaa kortin mobileen, jossa on koukku jokaiselle osalle. Pahvi painaa kokonsa mukaan, joten mobile mittaa, mitä ”yhtä suuret” tarkoittaa: reilut osat roikkuvat aivan vaakasuorassa, epäreilu leikkaus kallistaa tankoa, ylimääräiset palat putoavat tarjottimelle ja jos pala puuttuu, yksi koukku jää tyhjäksi. Tappi pitää tangon paikallaan, kunnes Tarkista vetää sen pois ja mobile heilahtaa todelliseen asentoonsa.",
+        "Ensimmäisellä tasolla etsitään ympyröiden, neliöiden ja suorakulmioiden puolikkaita ja neljäsosia. Toinen taso tuo kolmasosat tangolle, joka riippuu kolmasosan kohdalta, sekä reiluja osia, jotka näyttävät erilaisilta, kuten kulmasta kulmaan leikatut neljäsosat tai keskipisteestä kolmeen osaan leikattu kolmio. Kolmas taso kääntää tehtävän: kolmessa mobilessa on nimikyltti puolikkaalle, kolmasosalle ja neljäsosalle, ja lapsi ripustaa kortin, jossa on yksi väritetty osa, oikeaan mobileen. Kun kaikki osat ovat yhtä suuret, jokaiseen palaan ilmestyy murtoluku.",
+        "Ensimmäisen virheen jälkeen mobile näyttää, mikä on vialla: se kallistuu, koukku jää tyhjäksi tai paloja putoaa tarjottimelle, ja painavin osa hehkuu. Toisen virheen jälkeen koukkujen alla olevat jouset mitataan katkoviivaa vasten, jolloin liian suuri osa erottuu; kolmannella tasolla heiluu se mobile, jossa on oikea määrä koukkuja. Sopii opetussuunnitelman sisältöalueisiin Luvut ja laskutoimitukset sekä Geometria ja mittaaminen. Ilman ajanottoa ja ilman pisteytystä."
       ],
       "practices": [
-        "Tunnistaa, milloin ympyrä, neliö tai suorakulmio on jaettu yhtä suuriin osiin",
-        "Erottaa yhtä suuret puolikkaat ja neljäsosat erikokoisista osista",
-        "Huomaa, montako yhtä suurta osaa kuviossa on — kaksi vai neljä",
-        "Käyttää sanoja puolikkaat ja neljäsosat"
+        "Yhtä suurten ja erikokoisten osien erottaminen niiden koon eikä viivojen määrän perusteella",
+        "Yhtä suurten osien määrän yhdistäminen puolikkaisiin, kolmasosiin ja neljäsosiin",
+        "Sen huomaaminen, että saman kokonaisuuden yhtä suuret osat voivat näyttää erilaisilta",
+        "Yhden osan nimeäminen puolikkaaksi, kolmasosaksi tai neljäsosaksi"
       ],
       "howToPlay": [
-        "Katso ruudun neljää kuviota ja mieti, missä osat ovat yhtä suuret",
-        "Napauta sitä kuviota, joka on jaettu kahteen tai neljään yhtä suureen osaan",
-        "Saat heti lempeän palautteen ja voit jatkaa omaan tahtiisi"
+        "Napauta korttia tai vedä se mobileen ripustaaksesi sen. Napauta mobilea ottaaksesi kortin pois.",
+        "Paina Tarkista vetääksesi tapin pois. Reilut osat roikkuvat vaakasuorassa, epäreilu kortti kallistaa tankoa.",
+        "Palat tarjottimella tarkoittavat liikaa paloja, tyhjä koukku liian vähän paloja.",
+        "Tasolla ”Nimeä osa” napauta korttia ja sitten mobilea, jonka nimikyltti sopii väritettyyn osaan.",
+        "Asetuksista valitset tason (Puolikkaat ja neljäsosat · Kolmasosat ja reilut osat · Nimeä osa) ja kytket tangon vesivaa’an päälle tai pois."
       ],
       "learningGoals": [
-        "Tunnistaa kahteen tai neljään yhtä suureen osaan jaetut ympyrät ja suorakulmiot",
-        "Ymmärtää, että osien on oltava yhtä suuret",
-        "Rakentaa reilun jaon perusta tulevaa murtolukujen opiskelua varten"
+        "Tunnistaa ympyrät, suorakulmiot ja muut kuviot, jotka on jaettu kahteen, kolmeen tai neljään yhtä suureen osaan, ja huomata, milloin osat eivät ole yhtä suuret.",
+        "Kutsua osia puolikkaiksi, kolmasosiksi ja neljäsosiksi.",
+        "Tunnistaa, että samankokoisten kokonaisuuksien yhtä suuret osat voivat olla eri muotoisia.",
+        "Nimetä kokonaisuuden yksi osa puolikkaaksi, kolmasosaksi tai neljäsosaksi."
       ]
     },
     "ten-frame.count-to-10.make-n.animals": {

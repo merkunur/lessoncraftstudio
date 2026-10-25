@@ -2995,25 +2995,28 @@
     },
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
-        "Diese interaktive Aktivität hilft jungen Kindern zu erkennen, wann eine Form in gleiche Teile geteilt ist. Das Kind sieht vier Formen — Kreise, Quadrate oder Rechtecke — und tippt diejenige an, die in zwei oder vier gleich große Teile geteilt ist. Es läuft direkt im Browser, ganz ohne Installation und ohne Konto.",
-        "Der wichtigste Gedanke ist, dass die Teile fair sein müssen — also gleich groß. Bei den anderen Formen sind die Teile unterschiedlich groß, es ist die falsche Anzahl an Teilen, oder die Form ist gar nicht geteilt. Das Kind teilt die Form nicht selbst, sondern erkennt, welche Form bereits in gleiche Teile aufgeteilt ist.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Geometrie ausgerichtet — gleiche Teile erkennen und zwei gleiche Teile als Hälften, vier gleiche Teile als Viertel benennen. Die Kinder arbeiten in ihrem eigenen Tempo mit sanfter, sofortiger Rückmeldung — kein Timer, keine Punktewertung."
+        "Auf einem Regal liegen vier Karten, jede dieselbe Form, in Stücke geschnitten. Dein Kind hängt eine Karte an ein Mobile, das für jeden Teil einen Haken hat. Pappe wiegt nach ihrer Größe, deshalb misst das Mobile, was „gleich groß“ heißt: Gerechte Teile hängen genau waagerecht, ein ungerechter Schnitt lässt die Stange kippen, überzählige Stücke fallen in eine Ablage, und fehlt ein Stück, bleibt ein Haken leer. Ein Stift hält die Stange fest, bis Prüfen ihn herauszieht und das Mobile in seine echte Lage schwingt.",
+        "Die erste Stufe fragt nach Hälften und Vierteln von Kreisen, Quadraten und Rechtecken. Die zweite bringt Drittel an einer Stange, die bei einem Drittel aufgehängt ist, und gerechte Teile, die verschieden aussehen, etwa Viertel von Ecke zu Ecke oder ein Dreieck, das von seiner Mitte aus in drei Teile geschnitten ist. Die dritte Stufe dreht die Aufgabe um: Drei Mobiles tragen Schilder für eine Hälfte, ein Drittel und ein Viertel, und dein Kind hängt eine Karte mit einem farbigen Teil an das passende Mobile. Sind alle Teile gleich groß, erscheint auf jedem Stück ein Bruch.",
+        "Nach dem ersten Fehler zeigt das Mobile, was nicht stimmt: Es kippt, ein Haken bleibt leer, oder Stücke landen in der Ablage, und der schwerste Teil leuchtet. Nach dem zweiten Fehler werden die Federn unter den Haken an einer gestrichelten Linie gemessen, sodass der zu große Teil auffällt; auf der dritten Stufe wippt das Mobile mit der richtigen Zahl von Haken. Passend zum Lehrplan im Bereich Raum und Form. Ohne Zeitdruck und ohne Punktwertung."
       ],
       "practices": [
-        "Erkennen, wann ein Kreis, ein Quadrat oder ein Rechteck in gleiche Teile geteilt ist.",
-        "Gleich große Teile von unterschiedlich großen Teilen unterscheiden.",
-        "Sehen, in wie viele gleiche Teile eine Form geteilt ist — in zwei oder in vier.",
-        "Die Wörter Hälften und Viertel mit gleichen Teilen verbinden."
+        "Gleich große und ungleiche Teile an ihrer Größe unterscheiden, nicht an der Zahl der Linien",
+        "Die Zahl der gleich großen Teile mit Hälften, Dritteln und Vierteln verbinden",
+        "Sehen, dass gleich große Teile desselben Ganzen verschieden aussehen können",
+        "Einen Teil als eine Hälfte, ein Drittel oder ein Viertel benennen"
       ],
       "howToPlay": [
-        "Schau dir die vier Formen an und überlege, welche in gleich große Teile geteilt ist.",
-        "Tippe die Form an, die in zwei oder vier gleiche Teile geteilt ist.",
-        "Du bekommst sofort eine sanfte Rückmeldung und kannst in deinem eigenen Tempo weitermachen."
+        "Tippe eine Karte an oder zieh sie auf das Mobile, um sie aufzuhängen. Tippe das Mobile an, um die Karte wieder abzunehmen.",
+        "Drück auf Prüfen, um den Stift herauszuziehen. Gerechte Teile hängen waagerecht, eine ungerechte Karte lässt die Stange kippen.",
+        "Stücke in der Ablage heißen: zu viele Stücke. Ein leerer Haken heißt: zu wenige.",
+        "Bei „Den Teil benennen“ tippst du die Karte an und dann das Mobile, dessen Schild zum farbigen Teil passt.",
+        "In den Einstellungen wählst du die Stufe (Hälften und Viertel · Drittel und gerechte Teile · Den Teil benennen) und schaltest die Wasserwaage auf der Stange ein oder aus."
       ],
       "learningGoals": [
-        "Kreise, Quadrate und Rechtecke erkennen, die in zwei oder vier gleiche Teile geteilt sind.",
-        "Verstehen, dass die Teile gleich groß sein müssen, damit sie fair sind.",
-        "Die Grundlage des gerechten Teilens für das spätere Rechnen mit Brüchen aufbauen."
+        "Kreise, Rechtecke und andere Formen erkennen, die in zwei, drei oder vier gleich große Teile geteilt sind, und erkennen, wann Teile nicht gleich groß sind.",
+        "Die Teile als Hälften, Drittel und Viertel bezeichnen.",
+        "Erkennen, dass gleich große Teile von gleich großen Ganzen nicht dieselbe Form haben müssen.",
+        "Einen Teil eines Ganzen als eine Hälfte, ein Drittel oder ein Viertel benennen."
       ]
     },
     "ten-frame.count-to-10.make-n.animals": {

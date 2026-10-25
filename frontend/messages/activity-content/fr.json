@@ -2367,25 +2367,28 @@
     },
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
-        "Quatre formes dessinées s'affichent — un cercle, un carré, un rectangle — et l'enfant touche celle qui est partagée en parts égales, de la même taille. C'est une activité de géométrie interactive pour le CP, qui se joue directement dans le navigateur, sans rien à installer et sans compte.",
-        "La grande idée, c'est que les parts doivent être justes et égales — de la même taille. L'enfant ne partage pas la forme lui-même : il reconnaît celle dont les parts sont vraiment égales. Les mauvaises réponses montrent des parts inégales, le mauvais nombre de parts égales, ou une forme entière qui n'est pas partagée du tout.",
-        "Cette activité est alignée sur les programmes officiels, dans le domaine Espace et géométrie : reconnaître une forme partagée en deux ou quatre parts égales et nommer le résultat « moitiés » et « quarts ». Les enfants avancent à leur rythme, avec un retour doux et immédiat — ni minuteur, ni score."
+        "Sur une étagère, quatre cartes montrent la même figure coupée en morceaux. L’enfant accroche une carte à un mobile qui a un crochet pour chaque part. Le carton pèse selon sa taille, alors le mobile mesure ce que veut dire « égales » : des parts équitables pendent bien à l’horizontale, une coupe injuste fait pencher la barre, les morceaux en trop tombent dans un plateau, et s’il manque un morceau, un crochet reste vide. Une goupille tient la barre immobile jusqu’à ce que Vérifier la retire et que le mobile se balance jusqu’à sa vraie position.",
+        "Le premier niveau demande des moitiés et des quarts de disques, de carrés et de rectangles. Le deuxième ajoute des tiers sur une barre suspendue au tiers, et des parts équitables qui ne se ressemblent pas, comme des quarts d’un coin à l’autre ou un triangle coupé en trois depuis son centre. Le troisième niveau inverse la question : trois mobiles portent une étiquette pour une moitié, un tiers et un quart, et l’enfant accroche une carte avec une part coloriée au mobile qui lui correspond. Quand toutes les parts sont égales, une fraction apparaît sur chaque morceau.",
+        "Après une première erreur, le mobile montre ce qui ne va pas : il penche, un crochet reste vide ou des morceaux tombent dans le plateau, et la part la plus lourde s’illumine. Après une deuxième erreur, les ressorts sous les crochets sont mesurés par rapport à une ligne pointillée, pour que la part trop grande se voie ; au troisième niveau, le mobile qui a le bon nombre de crochets se balance. En lien avec les programmes officiels pour les domaines Nombres et Espace et géométrie. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Reconnaître quand un cercle, un carré ou un rectangle est partagé en parts égales.",
-        "Distinguer des moitiés ou des quarts égaux de parts inégales.",
-        "Remarquer le nombre de parts égales : deux ou quatre.",
-        "Employer les mots « moitiés » et « quarts » pour nommer le résultat."
+        "Distinguer des parts égales et inégales par leur taille, et non par le nombre de traits",
+        "Relier le nombre de parts égales aux moitiés, aux tiers et aux quarts",
+        "Voir que des parts égales du même tout peuvent avoir des formes différentes",
+        "Nommer une part : une moitié, un tiers ou un quart"
       ],
       "howToPlay": [
-        "Regarde les quatre formes : observe comment chacune est partagée.",
-        "Touche la forme partagée en parts égales — deux parts égales (des moitiés) ou quatre parts égales (des quarts).",
-        "Reçois un retour doux tout de suite, puis passe à la forme suivante à ton rythme."
+        "Touche une carte, ou fais-la glisser sur le mobile, pour l’accrocher. Touche le mobile pour décrocher la carte.",
+        "Appuie sur Vérifier pour retirer la goupille. Des parts équitables restent à l’horizontale ; une carte injuste fait pencher la barre.",
+        "Des morceaux dans le plateau veulent dire trop de morceaux ; un crochet vide veut dire trop peu.",
+        "Dans « Nommer la part », touche la carte, puis le mobile dont l’étiquette va avec la part coloriée.",
+        "Dans les réglages, tu choisis le niveau (Moitiés et quarts · Tiers et parts équitables · Nommer la part) et tu affiches ou caches le niveau à bulle sur la barre."
       ],
       "learningGoals": [
-        "Reconnaître les cercles, carrés et rectangles partagés en deux ou quatre parts égales.",
-        "Comprendre que les parts doivent être égales — de la même taille — pour être justes.",
-        "Construire la base du partage équitable qui prépare les fractions plus tard."
+        "Reconnaître des disques, des rectangles et d’autres figures partagés en deux, trois ou quatre parts égales, et voir quand les parts ne sont pas égales.",
+        "Appeler les parts des moitiés, des tiers et des quarts.",
+        "Reconnaître que des parts égales de touts identiques n’ont pas forcément la même forme.",
+        "Nommer une part d’un tout : une moitié, un tiers ou un quart."
       ]
     },
     "ten-frame.count-to-10.make-n.animals": {

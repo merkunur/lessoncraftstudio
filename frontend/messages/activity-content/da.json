@@ -217,25 +217,28 @@
     },
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
-        "Denne interaktive aktivitet hjælper små børn med at genkende, hvornår en form er delt i lige store dele. Barnet ser fire enkle former — cirkler, kvadrater og rektangler — og trykker på den, der er delt retfærdigt i lige store dele. Det hele foregår i browseren: ingen installation, ingen konto og ingen reklamer.",
-        "Den store idé er, at delene skal være lige store — altså helt retfærdige. De forkerte svar viser en form, der er delt i lige store dele men i forkert antal, en form delt i dele, der ikke er lige store, eller en hel form, der slet ikke er delt. Barnet skal lægge mærke til, hvilken form der er delt i lige store dele.",
-        "Aktiviteten følger Fælles Mål inden for området geometri og måling: at genkende former, der er delt i to og fire lige store dele, og at kende dem som halvdele og fjerdedele. Der er ingen timer og ingen point — kun rolig, legende øvelse i barnets eget tempo. Barnet deler ikke selv formen, men genkender, hvornår den allerede er delt i lige store dele."
+        "På en hylde ligger fire kort, hver den samme figur klippet i stykker. Barnet hænger et kort på en uro, der har én krog til hver del. Pap vejer efter sin størrelse, så uroen måler, hvad „lige store“ betyder: Retfærdige dele hænger helt vandret, et uretfærdigt klip får stangen til at tippe, overskydende stykker falder ned i en bakke, og mangler der et stykke, bliver en krog tom. En pind holder stangen stille, indtil Tjek trækker den ud, og uroen svinger til sin rigtige stilling.",
+        "Første niveau spørger efter halvdele og fjerdedele af cirkler, kvadrater og rektangler. Andet niveau tilføjer tredjedele på en stang, der hænger i en tredjedel, og retfærdige dele, der ser forskellige ud, fx fjerdedele fra hjørne til hjørne eller en trekant klippet i tre fra midten. Tredje niveau vender det om: Tre uroer har navneskilte for en halvdel, en tredjedel og en fjerdedel, og barnet hænger et kort med én farvet del på den uro, det hører til. Er alle dele lige store, kommer der en brøk på hvert stykke.",
+        "Efter første fejl viser uroen, hvad der er galt: Den tipper, en krog bliver tom, eller stykker lander i bakken, og den tungeste del lyser. Efter anden fejl bliver fjedrene under krogene målt mod en stiplet linje, så den for store del springer i øjnene; på tredje niveau vipper uroen med det rigtige antal kroge. I tråd med Fælles Mål for tal og geometri. Uden tidtagning og uden point."
       ],
       "practices": [
-        "Genkende, hvornår en cirkel, et kvadrat eller et rektangel er delt i lige store dele",
-        "Skelne lige store dele fra dele, der ikke er lige store",
-        "Lægge mærke til, hvor mange lige store dele en form er delt i — to eller fire",
-        "Bruge ordene halvdele og fjerdedele om de lige store dele"
+        "At skelne lige store og ulige store dele på størrelsen, ikke på antallet af streger",
+        "At forbinde antallet af lige store dele med halvdele, tredjedele og fjerdedele",
+        "At se, at lige store dele af den samme helhed kan se forskellige ud",
+        "At navngive én del som en halvdel, en tredjedel eller en fjerdedel"
       ],
       "howToPlay": [
-        "Kig på de fire former, og find den, der er delt i lige store dele.",
-        "Tryk på den form, hvor alle dele er lige store og helt retfærdige.",
-        "Tryk på Tjek for at se, om du valgte rigtigt — og prøv en ny, når du er klar."
+        "Tryk på et kort, eller træk det hen på uroen, for at hænge det op. Tryk på uroen for at tage kortet ned igen.",
+        "Tryk på Tjek for at trække pinden ud. Retfærdige dele hænger vandret, et uretfærdigt kort får stangen til at tippe.",
+        "Stykker i bakken betyder for mange stykker. En tom krog betyder for få.",
+        "I „Navngiv delen“ trykker du på kortet og derefter på den uro, hvis navneskilt passer til den farvede del.",
+        "I indstillingerne vælger du niveau (Halvdele og fjerdedele · Tredjedele og retfærdige dele · Navngiv delen) og slår vaterpasset på stangen til eller fra."
       ],
       "learningGoals": [
-        "Genkende cirkler, kvadrater og rektangler, der er delt i to eller fire lige store dele",
-        "Forstå, at delene skal være lige store, for at det er retfærdigt",
-        "Bygge det første fundament for halvdele, fjerdedele og senere brøker"
+        "Genkende cirkler, rektangler og andre figurer delt i to, tre eller fire lige store dele og se, hvornår delene ikke er lige store.",
+        "Kalde delene halvdele, tredjedele og fjerdedele.",
+        "Se, at lige store dele af ens helheder ikke behøver at have samme form.",
+        "Navngive én del af en helhed som en halvdel, en tredjedel eller en fjerdedel."
       ]
     },
     "ten-frame.count-to-10.make-n.animals": {

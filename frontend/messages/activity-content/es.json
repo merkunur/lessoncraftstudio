@@ -2553,25 +2553,28 @@
     },
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
-        "El niño o la niña mira cuatro figuras —círculos, cuadrados y rectángulos— y toca la única que está dividida en partes iguales, del mismo tamaño. Es una actividad de geometría interactiva para 1.º de primaria que funciona en el navegador, sin instalar nada y sin crear cuenta.",
-        "La idea importante es que las partes sean justas: del mismo tamaño. En las otras figuras, las partes son desiguales, hay un número equivocado de partes, o la figura está entera y sin dividir. El niño o la niña no divide la figura: reconoce cuál ya está dividida en partes iguales.",
-        "Está alineada con los planes y programas de estudio (SEP), en el eje de geometría: reconocer figuras divididas en dos y en cuatro partes iguales y nombrarlas como mitades y cuartos. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+        "En una repisa hay cuatro tarjetas, cada una con la misma figura cortada en piezas. El niño cuelga una tarjeta en un móvil que tiene un gancho para cada parte. El cartón pesa según su tamaño, así que el móvil mide lo que quiere decir «iguales»: las partes justas quedan perfectamente niveladas, un corte injusto inclina la barra, las piezas de más caen a una charola y, si falta una pieza, un gancho queda vacío. Un pasador sostiene la barra hasta que Comprobar lo saca y el móvil se balancea hasta su posición real.",
+        "El primer nivel pide medios y cuartos de círculos, cuadrados y rectángulos. El segundo agrega tercios en una barra colgada a un tercio y partes justas que se ven distintas, como cuartos de esquina a esquina o un triángulo cortado en tres desde su centro. El tercer nivel lo pone al revés: tres móviles llevan letreros de un medio, un tercio y un cuarto, y el niño cuelga una tarjeta con una parte coloreada en el móvil que le corresponde. Cuando todas las partes son iguales, aparece una fracción en cada pieza.",
+        "Después del primer error, el móvil muestra qué está mal: se inclina, un gancho queda vacío o caen piezas a la charola, y la parte más pesada brilla. Después del segundo error, los resortes bajo los ganchos se miden contra una línea punteada, para que se note la parte que es demasiado grande; en el tercer nivel se mece el móvil con el número correcto de ganchos. En línea con los programas de estudio de la SEP (campo formativo Saberes y pensamiento científico). Sin cronómetro y sin puntaje."
       ],
       "practices": [
-        "Reconocer cuándo un círculo, un cuadrado o un rectángulo está dividido en partes iguales.",
-        "Distinguir las partes iguales —mitades o cuartos— de las partes desiguales.",
-        "Fijarse en cuántas partes iguales hay: dos o cuatro.",
-        "Usar las palabras mitades y cuartos para nombrar las partes."
+        "Distinguir partes iguales de partes desiguales por su tamaño, no por el número de líneas",
+        "Relacionar el número de partes iguales con medios, tercios y cuartos",
+        "Ver que partes iguales del mismo entero pueden verse distintas",
+        "Nombrar una parte como un medio, un tercio o un cuarto"
       ],
       "howToPlay": [
-        "Observa las cuatro figuras de la pantalla con atención.",
-        "Busca la figura cuyas partes son todas del mismo tamaño, sin que ninguna sea más grande que otra.",
-        "Toca esa figura. Si quieres, prueba otra vez con calma; aquí no hay prisa."
+        "Toca una tarjeta, o arrástrala al móvil, para colgarla. Toca el móvil para bajar la tarjeta.",
+        "Presiona Comprobar para sacar el pasador. Las partes justas quedan niveladas; una tarjeta injusta inclina la barra.",
+        "Piezas en la charola quieren decir demasiadas piezas; un gancho vacío quiere decir muy pocas.",
+        "En «Nombra la parte», toca la tarjeta y luego el móvil cuyo letrero corresponde a la parte coloreada.",
+        "En la configuración eliges el nivel (Medios y cuartos · Tercios y partes justas · Nombra la parte) y prendes o apagas el nivel de burbuja de la barra."
       ],
       "learningGoals": [
-        "Reconocer círculos, cuadrados y rectángulos divididos en dos o cuatro partes iguales.",
-        "Comprender que, para ser justas, todas las partes deben ser iguales, del mismo tamaño.",
-        "Construir la base de las mitades y los cuartos para entender más adelante las fracciones."
+        "Reconocer círculos, rectángulos y otras figuras divididos en dos, tres o cuatro partes iguales y darse cuenta de cuándo las partes no son iguales.",
+        "Llamar a las partes medios, tercios y cuartos.",
+        "Reconocer que partes iguales de enteros iguales no tienen que tener la misma forma.",
+        "Nombrar una parte de un entero como un medio, un tercio o un cuarto."
       ]
     },
     "ten-frame.count-to-10.make-n.animals": {

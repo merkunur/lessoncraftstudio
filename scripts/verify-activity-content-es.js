@@ -25,6 +25,7 @@ const F = (c, m) => { if (!c) fails.push(m); };
 
 const CODE_RE = /\b[K0-9]\.[A-Z]{1,3}\.[A-Z0-9]/; // CCSS code shape e.g. K.CC.A.3 / 2.OA.C.4
 const CC_RE = /common core/i;
+const MOVIL_TOY = new Set(['choice-board.fraction-equal-shares.1-g-a-3']); // #107 The Fair Mobile: the hanging-mobile toy (reviewed 2026-10-25)
 const MX_BAD = /lomloe|jard[ií]n infantil|\bordenador|\bm[oó]vil\b|\bvosotros\b|vuestr/i; // Spain/non-MX tells
 
 (function main() {
@@ -51,7 +52,10 @@ const MX_BAD = /lomloe|jard[ií]n infantil|\bordenador|\bm[oó]vil\b|\bvosotros\
     F(!/\{[a-z]+\}/.test(all), `${id}: leftover {placeholder}`);
     F(!CC_RE.test(all), `${id}: "Common Core" in es prose (§20.10 — use "los planes y programas de estudio (SEP)" or omit)`);
     F(!CODE_RE.test(all), `${id}: raw CCSS code in es prose (§20.10) — "${(all.match(CODE_RE) || [])[0]}"`);
-    F(!MX_BAD.test(all), `${id}: non-Mexican / peninsular term — "${(all.match(MX_BAD) || [])[0]}"`);
+    /* the ban is on the PHONE sense of móvil (Mexico says celular). Where the apparatus IS a hanging mobile toy (móvil de cuna, a
+       standard word in Mexico too), that one sense is exempt per activity — still failing on teléfono móvil / celular. Auditable list: */
+    const scan = MOVIL_TOY.has(id) && !/tel[eé]fono m[oó]vil|celular/i.test(all) ? all.replace(/\bm[oó]vil(es)?\b/gi, '') : all;
+    F(!MX_BAD.test(scan), `${id}: non-Mexican / peninsular term — "${(scan.match(MX_BAD) || [])[0]}"`);
     const o = a.about[0] || '';
     if (seenAbout[o]) fails.push(`DUP about[0]: ${id} == ${seenAbout[o]}`); else seenAbout[o] = id;
   }

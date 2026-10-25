@@ -259,6 +259,10 @@ function seedScript(row) {
     // the turned, small triangle taken apart on the tray — three straight sticks, three full cups — while two shapes already sit in their boxes
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.level='real';t.api.settings.tray='open';t.api.settings.shapes='6';t._pool=null;t._ensurePool();t._pos=null;t._start(0,0);var C=window.TakeApartCore,s=t.st,f=function(id){return s.items.findIndex(function(x){return x.id===id;});};C.place(s,f('tri_equi'),'yes');C.place(s,f('quad_square'),'no');C.tap(s,f('tri_right'));t._render2();})()`;
   }
+  if (row.tool === 'fair-mobile-activity') {
+    // the fourths mobile after Check with the unfair square: it tips, the heavy share glowing coral and the light one teal, while the fair card waits on the shelf
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.level='hf';t.api.settings.bubble='on';t._pool=null;t._ensurePool();t._pos=null;t._start(4,0);var C=window.FairMobileCore,s=t.st;C.hangCard(s,s.cards.indexOf('sq-fourths-uneq'),0);t._render2();t._check();})()`;
+  }
   if (row.tool === 'set-clock-activity') {
     // half past seven built by hand: the long hand's sweep (half the face) green, its narrow echo dropped into the 7-to-8 slice, the short hand lying along the echo's end, the receipt printing 7:30 — the echo slice at work
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.times='both';t.api.settings.slice='after';t._pool=null;t._ensurePool();t._start('7:30',0);var C=window.SetClockCore,s=t.st;C.place(s,'long');s.long=30;C.place(s,'short');s.short=90;t._render2();t._check();})()`;

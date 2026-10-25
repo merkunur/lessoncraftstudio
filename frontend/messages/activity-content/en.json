@@ -217,25 +217,28 @@
     },
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
-        "Four pictures of the same shape appear — a circle, a square, or a rectangle — and the child taps the one divided into equal halves or equal fourths, learning to spot when a shape has been cut into fair shares before ever writing a fraction. It's a Grade 1 geometry activity that runs in the browser on tablets, phones, and classroom computers, with no account needed.",
-        "Everything turns on one word: equal. In each round the other three pictures are the same shape cut into unequal parts, split into the wrong number of parts, or marked with a line that does not really divide it — so a child cannot win just by picking 'a shape with a line in it.' They have to look closely and decide whether the pieces are truly the same size, which is what makes halves and fourths meaningful.",
-        "It is aligned to Common Core 1.G.A.3 — recognizing shapes divided into two and four equal shares and describing them as halves and fourths. No timer, no score — just calm, playful practice."
+        "Four cards lie on a shelf, each the same shape cut into pieces. The child hangs a card on a mobile that has one hook for every share. Cardboard weighs by its size, so the mobile measures what \"equal\" means: fair shares hang perfectly level, an unfair cut tips the bar, extra pieces drop into a spare tray, and missing pieces leave a hook bare. A pin holds the bar still until Check pulls it out and the mobile swings to its true tilt.",
+        "The first level asks for halves and fourths of circles, squares and rectangles. The second adds thirds on a bar pivoted at a third, and fair shares that look different, such as fourths cut corner to corner or a triangle cut into three from its center. The third level turns it around: three mobiles carry name plates for one half, one third and one fourth, and the child hangs a card with one shaded share on the mobile it belongs to. When every share is equal, a stacked fraction appears on each piece.",
+        "After a first miss the mobile shows what is wrong: it tips, a hook stays empty, or pieces land in the tray, and the heaviest share glows. After a second miss the springs under the hooks are measured against a dashed fair line, so the share that is too big stands out; in the third level the mobile with the right number of hooks bobs. Aligned to Common Core 1.G.A.3 (halves and fourths), with thirds from 2.G.A.3. No timer and no score."
       ],
       "practices": [
-        "Recognize when a circle, square, or rectangle is split into equal shares",
-        "Tell equal halves and equal fourths from unequal or unsplit pictures",
-        "Notice how many equal parts a shape is divided into — two or four",
-        "Use the words halves and fourths for fair shares"
+        "Telling equal shares from unequal ones by their size, not by the number of lines",
+        "Matching the number of equal shares to halves, thirds and fourths",
+        "Seeing that equal shares of the same whole can look different",
+        "Naming one share as one half, one third or one fourth"
       ],
       "howToPlay": [
-        "Read or listen to the prompt — find the shape split into equal halves, or equal fourths.",
-        "Look at the four shapes and tap the one whose pieces are truly the same size, then press Check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Tap a card, or drag it onto the mobile, to hang it. Tap the mobile to take the card down.",
+        "Press Check to pull the pin. Fair shares hang level; an unfair card tips the bar.",
+        "Pieces in the spare tray mean too many pieces; a bare hook means too few.",
+        "In \"Name the share\", tap the card, then tap the mobile whose name plate matches the shaded share.",
+        "In the settings choose the level (Halves and fourths · Thirds and fair shares · Name the share) and turn the spirit level on the bar on or off."
       ],
       "learningGoals": [
-        "Recognize circles, squares, and rectangles divided into two or four equal shares — the focus of Common Core 1.G.A.3",
-        "Understand that the shares must be equal, and name them as halves and fourths",
-        "Build the fair-share foundation that later fraction work depends on"
+        "Recognize circles, rectangles and other shapes cut into two, three or four equal shares, and tell when shares are not equal.",
+        "Describe the shares as halves, thirds and fourths (quarters).",
+        "Recognize that equal shares of identical wholes need not have the same shape.",
+        "Name one share of a whole as one half, one third or one fourth."
       ]
     },
     "syllable-builder.build-words-from-syllables.rf-k-2-b": {

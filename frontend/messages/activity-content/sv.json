@@ -329,25 +329,28 @@
     },
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
-        "Barnet ser fyra figurer — cirklar, kvadrater eller rektanglar — och trycker på den som är delad rättvist, så att alla delar är lika stora. Det är en interaktiv geometriövning för årskurs 1 som körs direkt i webbläsaren: ingen installation och inget konto behövs.",
-        "Den stora idén är att delarna måste vara rättvisa och lika stora. Bland de fel alternativen finns en form som är delad i olika stora delar, en form med fel antal lika delar, och en hel form som inte är delad alls. Barnet delar inte själv formen, utan känner igen vilken form som redan är delad i lika stora delar.",
-        "Aktiviteten följer Lgr22 inom området geometri: att känna igen former som är delade i två eller fyra lika stora delar och att kalla dem halvor och fjärdedelar. Ingen timer, inga poäng — bara lugn, lekfull övning."
+        "På en hylla ligger fyra kort, varje kort samma figur klippt i bitar. Barnet hänger ett kort på en mobil som har en krok för varje del. Kartong väger efter sin storlek, så mobilen mäter vad ”lika stora” betyder: rättvisa delar hänger helt vågrätt, ett orättvist klipp får stången att luta, bitar som blir över faller ner i en bricka och saknas en bit blir en krok tom. En sprint håller stången stilla tills Kontrollera drar ut den och mobilen svänger till sitt verkliga läge.",
+        "Första nivån frågar efter halvor och fjärdedelar av cirklar, kvadrater och rektanglar. Andra nivån lägger till tredjedelar på en stång som hänger vid en tredjedel, och rättvisa delar som ser olika ut, till exempel fjärdedelar från hörn till hörn eller en triangel klippt i tre från mitten. Tredje nivån vänder på det: tre mobiler har namnskyltar för en halva, en tredjedel och en fjärdedel, och barnet hänger ett kort med en färgad del på den mobil där det hör hemma. När alla delar är lika stora syns ett bråk på varje bit.",
+        "Efter första felet visar mobilen vad som är fel: den lutar, en krok blir tom eller bitar hamnar i brickan, och den tyngsta delen lyser. Efter andra felet mäts fjädrarna under krokarna mot en streckad linje, så att den för stora delen syns tydligt; på tredje nivån gungar mobilen med rätt antal krokar. I linje med Lgr22, centralt innehåll om taluppfattning och geometri. Utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Känna igen när en cirkel, kvadrat eller rektangel är delad i lika stora delar",
-        "Skilja lika stora halvor och fjärdedelar från delar som är olika stora",
-        "Lägga märke till hur många lika stora delar formen är delad i — två eller fyra",
-        "Använda orden halvor och fjärdedelar"
+        "Att skilja lika stora och olika stora delar på storleken, inte på antalet linjer",
+        "Att koppla antalet lika stora delar till halvor, tredjedelar och fjärdedelar",
+        "Att se att lika stora delar av samma helhet kan se olika ut",
+        "Att namnge en del som en halva, en tredjedel eller en fjärdedel"
       ],
       "howToPlay": [
-        "Titta på de fyra formerna och leta efter den som är delad i lika stora delar.",
-        "Tryck på den form där alla delar är lika stora och lika rättvist delade.",
-        "Tryck på Kontrollera för att se om du hittade rätt — vill du försöka igen är det helt okej."
+        "Tryck på ett kort, eller dra det till mobilen, för att hänga upp det. Tryck på mobilen för att ta ner kortet igen.",
+        "Tryck på Kontrollera för att dra ut sprinten. Rättvisa delar hänger vågrätt, ett orättvist kort får stången att luta.",
+        "Bitar i brickan betyder för många bitar. En tom krok betyder för få.",
+        "I ”Namnge delen” trycker du på kortet och sedan på den mobil vars namnskylt passar till den färgade delen.",
+        "I inställningarna väljer du nivå (Halvor och fjärdedelar · Tredjedelar och rättvisa delar · Namnge delen) och slår på eller av vattenpasset på stången."
       ],
       "learningGoals": [
-        "Känna igen cirklar och rektanglar som är delade i två eller fyra lika stora delar",
-        "Förstå att delarna måste vara lika stora för att delningen ska vara rättvis",
-        "Bygga grunden för rättvis delning som leder vidare till bråk längre fram"
+        "Känna igen cirklar, rektanglar och andra figurer som är delade i två, tre eller fyra lika stora delar och se när delarna inte är lika stora.",
+        "Beskriva delarna som halvor, tredjedelar och fjärdedelar.",
+        "Se att lika stora delar av lika stora helheter inte behöver ha samma form.",
+        "Namnge en del av en helhet som en halva, en tredjedel eller en fjärdedel."
       ]
     },
     "ten-frame.count-to-10.make-n.animals": {

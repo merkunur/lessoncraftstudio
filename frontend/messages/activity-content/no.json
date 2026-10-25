@@ -217,25 +217,28 @@
     },
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
-        "Barn legger merke til rettferdighet lenge før de kan tallene som hører til. I denne aktiviteten ser barnet fire former på skjermen — sirkler, kvadrater og rektangler — og skal trykke på den ene som er delt i like store deler. Den kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet, uten noe å installere og uten konto.",
-        "Den store ideen er at delene må være rettferdige: like store. De andre formene er delt i deler som ikke er like store, delt i feil antall deler, eller ikke delt i det hele tatt. Barnet deler ikke formen selv, men kjenner igjen hvilken form som allerede er delt i like store deler.",
-        "Aktiviteten følger LK20 innenfor området geometri — å kjenne igjen former som er delt i to og fire like store deler, og å navngi dem som halvdeler og fjerdedeler. Barna ser og tenker i sitt eget tempo med mild og umiddelbar tilbakemelding — ingen tidtaker, ingen poeng, bare lekende øving."
+        "På en hylle ligger fire kort, hvert av dem den samme figuren klipt i biter. Barnet henger et kort på en uro som har én krok for hver del. Papp veier etter størrelsen sin, så uroen måler hva «like store» betyr: Rettferdige deler henger helt vannrett, et urettferdig klipp får stanga til å tippe, biter til overs faller ned i et brett, og mangler det en bit, blir en krok tom. En pinne holder stanga i ro til Sjekk trekker den ut og uroen svinger til sin virkelige stilling.",
+        "Første nivå spør etter halvdeler og fjerdedeler av sirkler, kvadrater og rektangler. Andre nivå legger til tredjedeler på en stang som henger i en tredjedel, og rettferdige deler som ser forskjellige ut, for eksempel fjerdedeler fra hjørne til hjørne eller en trekant klipt i tre fra midten. Tredje nivå snur det rundt: Tre uroer har navneskilt for en halvdel, en tredjedel og en fjerdedel, og barnet henger et kort med én farget del på uroen den hører til. Når alle delene er like store, kommer det en brøk på hver bit.",
+        "Etter første feil viser uroen hva som er galt: Den tipper, en krok blir tom, eller biter havner i brettet, og den tyngste delen lyser. Etter andre feil blir fjærene under krokene målt mot en stiplet linje, så den for store delen synes godt; på tredje nivå vipper uroen med riktig antall kroker. I tråd med LK20 i matematikk. Uten tidtaking og uten poeng."
       ],
       "practices": [
-        "Kjenne igjen når en sirkel, et kvadrat eller et rektangel er delt i like store deler.",
-        "Skille like store halvdeler og fjerdedeler fra deler som ikke er like store.",
-        "Legge merke til hvor mange like store deler en form er delt i — to eller fire.",
-        "Bli kjent med ordene halvdeler og fjerdedeler."
+        "Å skille like store og ulike store deler på størrelsen, ikke på antall streker",
+        "Å knytte antall like store deler til halvdeler, tredjedeler og fjerdedeler",
+        "Å se at like store deler av den samme helheten kan se forskjellige ut",
+        "Å navngi én del som en halvdel, en tredjedel eller en fjerdedel"
       ],
       "howToPlay": [
-        "Se på de fire formene på skjermen og hør eller les oppgaven.",
-        "Trykk på formen som er delt i like store deler, og trykk så på Sjekk.",
-        "En varm sjekk forteller når valget er riktig, og det er lett å prøve igjen ved behov."
+        "Trykk på et kort, eller dra det til uroen, for å henge det opp. Trykk på uroen for å ta kortet ned igjen.",
+        "Trykk på Sjekk for å trekke ut pinnen. Rettferdige deler henger vannrett, et urettferdig kort får stanga til å tippe.",
+        "Biter i brettet betyr for mange biter. En tom krok betyr for få.",
+        "I «Navngi delen» trykker du på kortet og så på uroen der navneskiltet passer til den fargede delen.",
+        "I innstillingene velger du nivå (Halvdeler og fjerdedeler · Tredjedeler og rettferdige deler · Navngi delen) og slår vateret på stanga på eller av."
       ],
       "learningGoals": [
-        "Kjenne igjen sirkler og rektangler som er delt i to eller fire like store deler.",
-        "Forstå at delene må være like store for å være rettferdige — fokuset i LK20.",
-        "Bygge det rettferdige grunnlaget med like store deler som senere arbeid med brøk vokser ut av."
+        "Kjenne igjen sirkler, rektangler og andre figurer delt i to, tre eller fire like store deler og se når delene ikke er like store.",
+        "Kalle delene halvdeler, tredjedeler og fjerdedeler.",
+        "Se at like store deler av like helheter ikke trenger å ha samme form.",
+        "Navngi én del av en helhet som en halvdel, en tredjedel eller en fjerdedel."
       ]
     },
     "ten-frame.count-to-10.make-n.animals": {

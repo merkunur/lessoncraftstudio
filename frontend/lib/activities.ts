@@ -62,6 +62,7 @@ const MANIFEST_FILES = [
   'counting-necklace-activities.json',
   'ten-frame-activities.json',
   'choice-board-activities.json',
+  'fair-mobile-activities.json', // rebuild #107 (2026-10-25): Equal Halves and Fourths → The Fair Mobile, moved out of choice-board-activities.json
   'cvc-builder-activities.json',
   'syllable-builder-activities.json',
   'place-value-activities.json',

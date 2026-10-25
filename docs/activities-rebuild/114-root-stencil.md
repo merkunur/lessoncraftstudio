@@ -112,4 +112,4 @@ ONE native + Grade-1 reading reviewer over all ten locales.
 - 0 lines to shared cores or lcs-shell.
 
 ## Live
-LIVEVERIFY
+Deployed 2026-10-25. `live-verify-root-stencil.js`: **51 pass, 0 fail** — all ten pages 200; en / de / sv / fi at 1366 and 390 with a real pointer: a look-alike laid in the frame → the locale's hintLetter and a coral window; the built word → okFind and its hook tag; wrapper 9.858; the iframe grows with the card. (First run: the de / sv / fi pages still served the pre-deploy edge copy; rerun once after it expired.)

@@ -232,7 +232,9 @@
     return st;
   }
   /* tap a shape: it comes apart on the tray (and is chosen); tapped again, it snaps back together */
-  function tap(st, i) { if (i == null || !st.items[i]) return 'no'; if (st.tray === i) { st.tray = null; st.sel = null; return 'together'; } st.tray = i; st.sel = i; return 'apart'; }
+  /* a shape lying on the tray but not chosen (shown by a miss, or dropped in a box) is chosen by the first tap — the
+     child's next tap on a box then moves it; only a chosen shape on the tray snaps back together */
+  function tap(st, i) { if (i == null || !st.items[i]) return 'no'; if (st.tray === i && st.sel === i) { st.tray = null; st.sel = null; return 'together'; } st.tray = i; st.sel = i; return 'apart'; }
   function together(st) { st.tray = null; st.sel = null; return 'together'; }
   /* put shape i in a box ('yes' | 'no' | null for the shelf) — level 1; into the frame — level 3 */
   function place(st, i, box) { if (st.done || !st.items[i] || st.level !== 'real') return 'no'; st.place[i] = box || null; st.sel = null; return 'placed'; }

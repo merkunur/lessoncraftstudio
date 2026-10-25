@@ -64,6 +64,7 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
     await click(`[data-k="shape-${to}"]`);
     const row = await frame.evaluate(() => { const r = document.querySelector('.ta-tray svg.ta-row:not(.ta-rest)'); return r ? { sticks: r.querySelectorAll('.ta-stick').length, empty: r.querySelectorAll('.ta-empty').length } : null; });
     is(row && row.sticks === 3 && row.empty === 1, `[${loc} @${w}] a tap takes the open "triangle" apart: 3 sticks, one empty cup (${JSON.stringify(row)})`);
+    await click(`[data-k="shape-${to}"]`);   /* a second tap puts it back together (else the sorting loop would toggle it) */
     for (let i = 0; i < s.items.length; i++) { await click(`[data-k="shape-${i}"]`); await click(`[data-k="box-${i === tr ? 'no' : (s.items[i].truth ? 'yes' : 'no')}"]`); }
     s = await st(); is(s.place.every(p => p), `[${loc} @${w}] every shape sorted by tap-then-box`);
     await click('[data-k="check"]'); s = await st();

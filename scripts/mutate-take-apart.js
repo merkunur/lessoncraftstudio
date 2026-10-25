@@ -40,6 +40,7 @@ const MUTATIONS = [
   ['a hint prints a count', 'act', "en:'Count the sticks on the tray, then choose the name again.'", "en:'Count the sticks on the tray: 3, then choose the name again.'"],
   ['fi: the quadrilateral box says "square"', 'act', "fi:'Nelikulmio'", "fi:'Neliö'"],
   ['de: riddle 2 asks for 3 square corners', 'act', 'lang, und 4 rechte Winkel. Wer bin ich?', 'lang, und 3 rechte Winkel. Wer bin ich?'],
+  ['a tap on a shown-but-unchosen tray shape snaps it back (the child cannot move it)', 'core', 'if (st.tray === i && st.sel === i) {', 'if (st.tray === i) {'],
   ['an unused variable (control)', 'core', '  function locale(l) {', '  var UNUSED_CONTROL = 0; function locale(l) {']
 ];
 const CONTROL = 'an unused variable (control)';

@@ -275,6 +275,7 @@ for (const box of [80, 88, 96, 100, 132, 148]) for (const floor of [58, 60]) {
 }
 {
   const st = C.newState('real', 0, { rnd: rnd }); is(C.tap(st, 2) === 'apart' && st.tray === 2 && st.sel === 2, 'tap: apart and chosen'); is(C.tap(st, 2) === 'together' && st.tray === null, 'tap again: together');
+  st.tray = 3; st.sel = null; is(C.tap(st, 3) === 'apart' && st.tray === 3 && st.sel === 3, 'a shape on the tray but not chosen (after a miss) is chosen by the first tap');
 }
 for (const lv of ['real', 'name', 'riddle']) {
   let prev = null; for (let p = 0; p < 300; p++) { const P = C.plan(lv, rnd, prev); is(P.order.length === 9 && new Set(P.order).size === 9, `${lv} plan: a permutation`); if (prev) is(P.order.join() !== prev.join(), `${lv} plan: never the previous order`); else if (lv === 'real') is(P.order[0] === 0, 'level 1 opens on round 1'); prev = P.order; }

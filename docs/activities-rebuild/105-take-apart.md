@@ -21,7 +21,7 @@ ORDER row 105 · id `sort-bins.defining-attributes.1-g-a-1` (kept). Design: `des
   - id, alignment, theme, slugs, titles, intros and kid prompt are frozen in all 11 locales (sha1 `7ad9058c`, checked).
   - `tool` is now `take-apart-activity`, `task_template` is `take-apart`, and the params are `level` / `tray` / `shapes` / `rounds`.
   - `sort-bins-core.js` and `sort-bins-activity.*` have a 0-line diff; `local-test-sort-bins.js` dropped the moved row from its list.
-- **Route:** `ACTIVITY_WRAPPER_VERSION` 9.847.
+- **Route:** `ACTIVITY_WRAPPER_VERSION` 9.848 (9.847 at first deploy).
 - **Pictures:** none — every shape is drawn geometry (the shapes ARE the mathematics).
 - **Sources** (scratchpad):
   - `ta-strings.js` → `ta-apply.js` (109 keys × 11);
@@ -46,7 +46,7 @@ Nine per level, the design's tables typed literally in the gate.
 
 ## Deviations from the design (each measured or ruled)
 - **"Two disguised trues never both at the ends" dropped.** Where every true is disguised (rounds 4, 5, 7) it left the end slots true 35–40 % of the time against 55–60 % in the middle — a measured position tell. The deal is a plain uniform shuffle; the gate measures every slot within the true share ± 0.06.
-- **Tap = take apart AND choose**, then tap a box (or the frame). The design's 300 ms press to select was replaced: one tap does both, a second tap on the same shape snaps it back together. A tap on a box or the frame where shapes already sit still drops the chosen shape (found by the browser test: the tap landed on a shape inside the box and was lost).
+- **Tap = take apart AND choose**, then tap a box (or the frame). The design's 300 ms press to select was replaced: one tap does both, a second tap on the same shape snaps it back together. A tap on a box or the frame where shapes already sit still drops the chosen shape (found by the browser test: the tap landed on a shape inside the box and was lost). A shape lying on the tray but not chosen (shown by a miss) is chosen by the first tap; only a chosen one snaps back together — found on production, where the first tap after a miss put the shape back together and the box tap that followed did nothing.
 - **The shelf empties as the child sorts** (no dashed placeholders): at 360 the placeholders pushed the success line below the fold.
 - **Free play by buttons, not drags:** the paint pot, turn knob and stretch handle are buttons acting on the shape on the tray (keyboard-reachable).
 - **Miss 1 shows the first misplaced shape** (not every misplaced one in turn) — one tray, one question.
@@ -89,7 +89,7 @@ ONE native + pedagogy reviewer over the compact dump (all 109 strings × 11, the
   - Check / hint kinds;
   - the plan (incl. a constant generator);
   - the strings ×11 (no digit in any hint, fr narrow spaces, fr/it apostrophes, never "free").
-- `mutate-take-apart.js` — 22 / 22 killed (core and activity), control survived (one equivalent mutant re-aimed at the plan's fallback).
+- `mutate-take-apart.js` — 23 / 23 killed (core and activity), control survived (one equivalent mutant re-aimed at the plan's fallback).
 - `local-test-take-apart.js` — 33,033 checks in 11 locales; real taps, drags and keys; every round of every level at rest, at miss 2 and solved through 320…1366. It checks:
   - no sideways scroll, Check above the fold at rest, Check and the hint in view at miss 2, the success line in view;
   - controls ≥ 44 px, nothing outside the card, bands that never overlap;

@@ -102,4 +102,4 @@ ONE native + pedagogy reviewer over the compact dump (all strings × 11, sample 
   - controls ≥ 44 px, nothing outside the card, bands that never overlap;
   - the frame and every piece on the bench, the grid side ≥ 30 px.
 - `visual-qa-activity` 72 / 72 · `audit-activity-hierarchy` 392 / 0 · `audit-settings-efficacy` 3 live (level, glass, turning) · preflight-activity-routes · prose-claims · SERP copy (incl. the new da / no / fi metadata) · activity-content × 11 · variety static scan — all green.
-- `live-verify-light-leak.js` on production: LIVEVERIFY.
+- `live-verify-light-leak.js` on production: 68 / 0 on 9.849. All 11 pages return 200 (da / no / fi new). In en / de / sv / fi at 1366 and 390, with real drags and taps: a rhombus dragged into the hexagon lantern shrinks the light; Check gives the leak hint and the lamp blazes; every piece the ghost names dragged in (tray turns by taps) seals it; Check gives the success line, the etched seams and a lantern on the garland; the iframe grows with the card. The first run, inside the deploy window, saw no iframe; the rerun passed.

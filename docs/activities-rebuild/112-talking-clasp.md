@@ -87,4 +87,4 @@ ONE native + phonics reviewer over en / de / nl / fr.
   - Count: 6,782 checks, 0 fail.
 - `visual-qa-activity` 54 / 54 · `audit-activity-hierarchy` 164 / 0 · `audit-settings-efficacy` (clue live) · preflight-activity-routes · prose-claims · SERP copy · activity-content × 4 — all green. 0 lines to shared cores or lcs-shell.
 
-LIVEVERIFY
+- `live-verify-pinch-teams.js` on production: 57 / 0 on 9.856. All 4 shipped pages return 200 (de / nl / fr new). In en / de / nl / fr at 1366 and 390 with real taps: a pair that is not a team → the second vowel bumps back; the socket opened; the word's team tapped in order → the clasp shuts (en: the o lit, the a quiet; de / nl / fr: both lit) → Check → the locale's success line and a tag on the team board. The iframe grows with the card.

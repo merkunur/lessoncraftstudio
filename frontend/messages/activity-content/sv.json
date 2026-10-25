@@ -3592,6 +3592,32 @@
         "Vid halvtimmar se vilken timme som har börjat och veta att halv åtta är 7.30.",
         "Att ställa en klocka på en tid genom att vrida den framåt genom dagen."
       ]
+    },
+    "stretch-giraffe.long-short-vowel.rf-1-2-a": {
+      "about": [
+        "En speldosrulle som barnet stansar själv: ett hål för varje ljud i ordet. Ett tryck på den stora runda stansen gör ett runt hål; håller barnet in stansen växer hålet under fingret till en lång springa, med ett klick vid sträckmärket. Så visar barnet en lång vokal, som i bil eller båt, mot en kort, som i katt eller boll. Veva, så spelar speldosan rullen: ett kort pling för varje runt hål, en utdragen ton för varje springa, och giraffen på locket ställer sig på tå vid varje lång ton.",
+        "Det finns två uppgifter. Vid ”Lång eller kort?” visas tre bilder med var sin rulle där de andra ljuden redan är stansade; barnet säger varje ord och stansar bara vokalen. Vid ”Ljuda ihop” står bokstäver under hålen: veva, läs ljuden och tryck på bilden de bildar. Alla ord och deras ljudgränser kommer från ljudrutornas ordlista, och färdiga ord hamnar som små hålkort i sångboken.",
+        "Efter första felet glider ordets egen rulle upp under barnets: hål som stämmer lyser guld, de andra rött, så att en springa över ett runt hål syns direkt. Efter andra felet säger ledtråden vad man ska titta på. I linje med Lgr22, centralt innehåll om språkljud och bokstäver. Utan tidtagning och utan poäng."
+      ],
+      "practices": [
+        "Att höra om en vokal är lång eller kort",
+        "Att ljuda ihop ljud som läses från vänster till höger till ett ord",
+        "Att se att ordets ljud och ett ljuds längd är två olika saker",
+        "Att se, när bokstäverna visas, att dubbel konsonant efter vokalen betyder kort vokal"
+      ],
+      "howToPlay": [
+        "Tryck på en bild för att höra vad den heter.",
+        "Tryck på stansen för ett kort, runt hål; håll in den tills det klickar för en lång springa. Tryck på ett hål för att stänga det.",
+        "Veva eller tryck på Kontrollera: speldosan spelar din rulle och visar ordets egen rulle under.",
+        "Vid ”Ljuda ihop” vevar du rullen med bokstäver, läser ljuden, trycker på bilden och sedan på Kontrollera.",
+        "I inställningarna väljer du uppgift (Lång eller kort? · Ljuda ihop) och om bokstäverna syns under hålen."
+      ],
+      "learningGoals": [
+        "Skilja mellan långa och korta vokaler i talade enstaviga ord.",
+        "Ljuda ihop ljud till ett ord.",
+        "Med bokstäverna synliga: se sambandet mellan kort vokal och dubbel konsonant.",
+        "Höra vokalens längd utan att räkna bokstäver."
+      ]
     }
   }
 }

@@ -263,6 +263,10 @@ function seedScript(row) {
     // the fourths mobile after Check with the unfair square: it tips, the heavy share glowing coral and the light one teal, while the fair card waits on the shelf
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.level='hf';t.api.settings.bubble='on';t._pool=null;t._ensurePool();t._pos=null;t._start(4,0);var C=window.FairMobileCore,s=t.st;C.hangCard(s,s.cards.indexOf('sq-fourths-uneq'),0);t._render2();t._check();})()`;
   }
+  if (row.tool === 'sound-roll-activity') {
+    // hand, bee, rose: the bee and the rose punched as long slots, the hand as a round hole — the roll shows which vowels stretch
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.clue='los';t.api.settings.letters='hidden';t._pool=null;t._ensurePool();t._set=0;t._start(4,0);var C=window.SoundRollCore,s=t.st;C.punch(s,0,'round');C.punch(s,1,'long');C.punch(s,2,'long');t._render2();})()`;
+  }
   if (row.tool === 'one-piece-stamp-activity') {
     // the square cut by an off-centre cross: the glass stamp of the small piece numbered 1 lies on a big piece and leaves its striped gap
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.level='hf';t.api.settings.marks='off';t.api.settings.stamp='hand';t._pool=null;t._ensurePool();t._start(1,0);var C=window.OnePieceStampCore,s=t.st;C.DATA.L1[1][4].forEach(function(c){C.addCut(s,c);});C.lift(s,0);t._stampOn(1);})()`;

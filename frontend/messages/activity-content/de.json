@@ -217,25 +217,28 @@
     },
     "stretch-giraffe.long-short-vowel.rf-1-2-a": {
       "about": [
-        "Gina die Giraffe spielt deinem Kind drei Wörter vor – zum Beispiel „Boot“, „Ball“ und „Hund“. Dann fragt sie: Welches Wort hat den langen Vokal? Dein Kind hört genau hin und merkt, wie das „o“ in „Booot“ schön gedehnt klingt, während „Ball“ und „Hund“ ganz kurz und knapp sind. Ein Tipp auf „Boot“ – und Gina reckt fröhlich ihren langen Hals.",
-        "Ob ein Vokal lang oder kurz klingt, ist eine der wichtigsten Hörübungen vor dem Lesen und Schreiben. Hier geht es nur um den Klang, nicht um die Schreibweise – dein Kind lernt, mit den Ohren zwischen „Ofen“ und „Ente“ oder zwischen „Rose“ und „Sonne“ zu unterscheiden. Diese phonologische Bewusstheit hilft später enorm, wenn es darum geht, Wörter richtig herauszuhören und Buchstabe für Buchstabe zusammenzusetzen.",
-        "Die Übung ist für die Klasse 1 gemacht und bleibt ganz entspannt: kein Timer, keine Punkte, kein Richtig-oder-falsch-Stress. Gina sagt nie „falsch“ – sie spielt das Wort einfach noch einmal vor, damit dein Kind in Ruhe weiterhören kann. So bleibt das Üben freundlich und macht Lust auf mehr. Für die feinen Vokallängen sind Kopfhörer empfohlen."
+        "Eine Spieldosen-Rolle, die dein Kind selbst stanzt: ein Loch für jeden Laut im Wort. Ein Tippen auf die große runde Stanze macht ein rundes Loch; hält es die Stanze gedrückt, wächst das Loch unter dem Finger zu einem langen Schlitz und klickt an der Dehnmarke. So zeigt dein Kind einen langen Vokal wie in Hut oder Schaf gegenüber einem kurzen wie in Hund oder Fisch. Dreht es an der Kurbel, spielt die Dose die Rolle ab: ein kurzes Pling für jedes runde Loch, ein langer Ton für jeden Schlitz, und die Giraffe auf dem Deckel stellt sich bei jedem langen Ton auf die Zehenspitzen.",
+        "Es gibt drei Aufgaben. Bei „Lang oder kurz?“ stehen drei Bilder mit je einer Rolle, auf der die übrigen Laute schon gestanzt sind; dein Kind spricht jedes Wort und stanzt nur den Vokal. Bei „Laute zählen“ gibt es ein Bild und eine leere Rolle: ein Loch für jeden Laut, nicht für jeden Buchstaben, also hat Fisch drei Löcher. Bei „Zusammenziehen“ stehen Buchstaben unter den Löchern: kurbeln, die Laute lesen und das passende Bild antippen. Alle Wörter und ihre Lautgrenzen stammen aus der Wörterliste der Lautkästchen, und fertige Wörter landen als kleine Lochkarten im Liederbuch.",
+        "Nach dem ersten Fehler schiebt sich die Rolle des Wortes unter die eigene: Löcher, die übereinstimmen, leuchten golden, die anderen rot, sodass ein Schlitz über einem runden Loch sofort auffällt. Nach dem zweiten Fehler sagt der Hinweis, worauf man achten soll. Passend zum Lehrplan im Bereich Lesen – Lautbewusstsein. Ohne Zeitdruck und ohne Punktwertung."
       ],
       "practices": [
-        "den langen Vokal heraushören",
-        "den kurzen Vokal erkennen",
-        "genau auf die Vokallänge achten",
-        "Wörter nur mit dem Gehör vergleichen"
+        "Hören, ob ein Vokal lang oder kurz ist",
+        "Die Laute eines Wortes zählen, nicht seine Buchstaben",
+        "Von links nach rechts gelesene Laute zu einem Wort zusammenziehen",
+        "Sehen, dass die Zahl der Laute und die Länge eines Lautes zwei verschiedene Dinge sind"
       ],
       "howToPlay": [
-        "Setz die Kopfhörer auf und höre dir Ginas drei Wörter an.",
-        "Achte darauf, in welchem Wort der Vokal lang und gedehnt oder ganz kurz klingt.",
-        "Tippe das passende Wort an – Gina spielt es sonst einfach noch einmal vor."
+        "Tippe ein Bild an, um seinen Namen zu hören.",
+        "Tippe auf die Stanze für ein kurzes, rundes Loch; halte sie gedrückt, bis es klickt, für einen langen Schlitz. Tippe ein Loch an, um es zu schließen.",
+        "Dreh die Kurbel oder drück auf Prüfen: Die Dose spielt deine Rolle und zeigt darunter die Rolle des Wortes.",
+        "Bei „Zusammenziehen“ kurbelst du die Rolle mit Buchstaben, liest die Laute, tippst das Bild an und drückst auf Prüfen.",
+        "In den Einstellungen wählst du die Aufgabe (Lang oder kurz? · Laute zählen · Zusammenziehen) und ob Buchstaben unter den Löchern stehen."
       ],
       "learningGoals": [
-        "lange und kurze Vokale sicher am Klang unterscheiden",
-        "die Vokallänge in gesprochenen Wörtern heraushören",
-        "die phonologische Bewusstheit für Lesen und Schreiben stärken"
+        "Lange und kurze Vokale in gesprochenen einsilbigen Wörtern unterscheiden.",
+        "Ein einsilbiges Wort in seine einzelnen Laute zerlegen.",
+        "Laute, auch zwei- und dreibuchstabige wie sch, zu einem Wort zusammenziehen.",
+        "Erkennen, dass ein Wort weniger Laute als Buchstaben haben kann."
       ]
     },
     "choice-board.read-cvc-word.rf-k-3": {

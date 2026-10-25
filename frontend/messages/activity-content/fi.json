@@ -2975,6 +2975,32 @@
         "Valita raon täyttävä pala muodon ja koon perusteella.",
         "Kääntää tai peilata pala sopimaan kiinteään ääriviivaan ja huomata, että väärin päin se jättää raon ja törröttää."
       ]
+    },
+    "stretch-giraffe.long-short-vowel.rf-1-2-a": {
+      "about": [
+        "Soittorasian rulla, johon lapsi tekee itse reiät: yksi reikä jokaista sanan äännettä kohti. Isosta pyöreästä rei'ittimestä napauttamalla syntyy pyöreä reikä. Kun lapsi pyörittää kampea, rasia soittaa rullan, ja kannella seisova kirahvi nyökkää jokaisen sävelen kohdalla.",
+        "Tehtäviä on kaksi. Laske äänteet -tehtävässä on yksi kuva ja tyhjä rulla: yksi reikä jokaista äännettä kohti, joten sana kuu saa kolme reikää, koska pitkä vokaali kirjoitetaan kahdella kirjaimella ja lasketaan kahdeksi äänteeksi. Yhdistä äänteet -tehtävässä reikien alla on kirjaimet: pyöritä kampea, lue äänteet ja napauta kuvaa, jonka ne muodostavat. Kaikki sanat ja niiden äänteet tulevat äännelaatikoiden sanalistasta, ja valmiit sanat päätyvät pieninä reikäkortteina laulukirjaan.",
+        "Ensimmäisen virheen jälkeen sanan oma rulla liukuu lapsen rullan alle: täsmäävät reiät hohtavat kultaisina, muut punaisina. Toisen virheen jälkeen vihje kertoo, mihin kannattaa katsoa. Sopii opetussuunnitelman tavoitteisiin äänteiden tunnistamisesta ja yhdistämisestä (OPS 2014). Ilman ajanottoa ja ilman pisteytystä."
+      ],
+      "practices": [
+        "Sanan äänteiden laskeminen",
+        "Vasemmalta oikealle luettujen äänteiden yhdistäminen sanaksi",
+        "Sen huomaaminen, että pitkä vokaali kirjoitetaan kahdella kirjaimella",
+        "Kuuntelu: jokaiselle äänteelle oma reikä"
+      ],
+      "howToPlay": [
+        "Napauta kuvaa kuullaksesi sen nimen.",
+        "Napauta rei'itintä tehdäksesi reiän. Napauta reikää sulkeaksesi sen.",
+        "Pyöritä kampea tai paina Tarkista: rasia soittaa rullasi ja näyttää sen alla sanan oman rullan.",
+        "Yhdistä äänteet -tehtävässä pyörität kirjainrullaa, luet äänteet, napautat kuvaa ja painat Tarkista.",
+        "Asetuksista valitset tehtävän (Laske äänteet · Yhdistä äänteet) ja sen, näkyvätkö kirjaimet reikien alla."
+      ],
+      "learningGoals": [
+        "Jakaa sana äänteisiin.",
+        "Yhdistää äänteet sanaksi.",
+        "Tunnistaa, että pitkä vokaali kirjoitetaan kahdella kirjaimella.",
+        "Kuulla sanan äänteet järjestyksessä."
+      ]
     }
   }
 }

@@ -4095,25 +4095,28 @@
     },
     "stretch-giraffe.long-short-vowel.rf-1-2-a": {
       "about": [
-        "Stretch the giraffe loves the long, stretched-out vowels that say their own name — the a in cake, the e in bee, the i in pie — so the child taps a picture to hear its name, then taps the word with the long (or short) vowel the round asks for. Headphones are recommended for this interactive Grade 1 listening game, which runs in the browser with no account.",
-        "Because the answer lives in the sound, not the spelling, the child has to listen carefully and judge with their ears — does this vowel say its name, or make its short, clipped sound? Tapping to hear each word as many times as needed keeps the focus on the vowel itself. Telling long from short vowels is a foundation for sounding out and spelling words with confidence.",
-        "It is aligned to Common Core RF.1.2.a — distinguishing long from short vowel sounds in spoken single-syllable words. No timer, no score — just calm, playful practice."
+        "A music-box roll you punch with your own finger: one hole for every sound in the word. A tap on the big round punch makes a round hole; hold the punch down and the hole grows under your finger into a long slot, with a click at the stretch mark. That is how a child shows a long vowel, the one that says its name, like the a in cake or the ee in bee, against a quick one like the a in cat. Turn the crank and the box plays the roll back: a short plink for each round hole, a held note for each slot, and the giraffe on the lid rises on tiptoe for every long one.",
+        "There are three clues. Long or short? shows three pictures, each with its own roll whose other sounds are already punched; the child says each word and punches only its vowel. Count the sounds shows one picture and a blank roll: one hole for every sound, not every letter, so fish is three holes and frog is four. Blend shows a roll with letters under its holes: crank it, read the sounds, and tap the picture they make. Every word and every split comes from the platform's sound-box word bank, and finished words become little punched cards in a song book.",
+        "After a first miss the word's own roll slides up under the child's: holes that agree shine gold, holes that do not are coral, so a slot over a round hole is plain to see. After a second miss the hint points at what to look for. Aligned to Common Core RF.1.2.a, distinguishing long from short vowel sounds. No timer and no score."
       ],
       "practices": [
-        "Tell a long vowel that says its name from a short, clipped vowel",
-        "Listen to a spoken word and judge its vowel sound by ear",
-        "Identify the long or short vowel among picture-word choices",
-        "Hear the vowel as the heart of a single-syllable word"
+        "Hearing whether a vowel is long (it says its name) or short",
+        "Counting the sounds in a word, not its letters",
+        "Blending sounds read from left to right into a word",
+        "Seeing that how many sounds a word has and how long one sound is are two different things"
       ],
       "howToPlay": [
-        "Tap a picture to hear its name — listen to the vowel in the middle.",
-        "Tap the word with the long (or short) vowel sound the question asks for, then press Check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Tap a picture to hear its name.",
+        "Tap the punch for a quick, round hole; hold it until it clicks for a long slot. Tap a hole to close it.",
+        "Turn the crank or press Check: the box plays your roll and shows the word's own roll under it.",
+        "In Blend, crank the lettered roll, read the sounds, then tap the picture and press Check.",
+        "In the settings choose the clue (Long or short? · Count the sounds · Blend) and whether letters show under the holes."
       ],
       "learningGoals": [
-        "Distinguish long from short vowel sounds in spoken words — the focus of Common Core RF.1.2.a.",
-        "Understand that long vowels say their name while short vowels make a clipped sound.",
-        "Build the vowel-listening skill that sounding out and spelling depend on."
+        "Distinguish long from short vowel sounds in spoken one-syllable words.",
+        "Segment a one-syllable word into its separate sounds.",
+        "Blend sounds, including two-letter sounds such as sh and ee, into a word.",
+        "Recognize that a word can have fewer sounds than letters."
       ]
     },
     "sunny-side-diner.compound-order.l-k-1-f": {

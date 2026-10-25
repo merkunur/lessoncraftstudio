@@ -2975,6 +2975,32 @@
         "Vælge det stykke, der fylder et hul, efter form og størrelse.",
         "Dreje eller spejlvende et stykke, så det passer i et fast omrids, og se, at den forkerte stilling efterlader et hul og stikker ud."
       ]
+    },
+    "stretch-giraffe.long-short-vowel.rf-1-2-a": {
+      "about": [
+        "En spilledåserulle, som barnet selv slår huller i: ét hul for hver lyd i ordet. Et tryk på den store runde hullemaskine giver et rundt hul; holder barnet hullemaskinen nede, vokser hullet under fingeren til en lang slids med et klik ved strækmærket. Sådan viser barnet en lang vokal, som i mus eller sko, over for en kort, som i kat eller fisk. Drej håndsvinget, så spiller dåsen rullen: et kort pling for hvert rundt hul, en lang tone for hver slids, og giraffen på låget stiller sig på tæer ved hver lang tone.",
+        "Der er tre opgaver. Ved „Lang eller kort?“ er der tre billeder med hver sin rulle, hvor de andre lyde allerede er slået; barnet siger hvert ord og slår kun vokalen. Ved „Tæl lydene“ er der ét billede og en tom rulle: ét hul for hver lyd. Ved „Træk sammen“ står der bogstaver under hullerne: drej, læs lydene, og tryk på billedet. Alle ord og deres lydgrænser kommer fra lydboksenes ordliste, og færdige ord ender som små hulkort i sangbogen.",
+        "Efter første fejl glider ordets egen rulle op under barnets: Huller, der passer, lyser guld, de andre rødt, så en slids over et rundt hul ses med det samme. Efter anden fejl siger hjælpen, hvad man skal kigge efter. I tråd med Fælles Mål for dansk: sproglig opmærksomhed og lyd. Uden tidtagning og uden point."
+      ],
+      "practices": [
+        "At høre, om en vokal er lang eller kort",
+        "At tælle lydene i et ord",
+        "At trække lyde, der læses fra venstre mod højre, sammen til et ord",
+        "At se, at antallet af lyde og længden af én lyd er to forskellige ting"
+      ],
+      "howToPlay": [
+        "Tryk på et billede for at høre, hvad det hedder.",
+        "Tryk på hullemaskinen for et kort, rundt hul; hold den nede, til det klikker, for en lang slids. Tryk på et hul for at lukke det.",
+        "Drej håndsvinget, eller tryk på Tjek: Dåsen spiller din rulle og viser ordets egen rulle nedenunder.",
+        "Ved „Træk sammen“ drejer du rullen med bogstaver, læser lydene, trykker på billedet og så på Tjek.",
+        "I indstillingerne vælger du opgave (Lang eller kort? · Tæl lydene · Træk sammen), og om bogstaverne vises under hullerne."
+      ],
+      "learningGoals": [
+        "Skelne mellem lange og korte vokaler i talte enstavelsesord.",
+        "Dele et enstavelsesord op i dets lyde.",
+        "Trække lyde sammen til et ord.",
+        "Høre vokalens længde uden at tælle bogstaver."
+      ]
     }
   }
 }

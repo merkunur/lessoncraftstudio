@@ -2980,6 +2980,32 @@
         "Velge biten som fyller et hull, etter form og størrelse.",
         "Vri eller speilvende en bit så den passer i et fast omriss, og se at feil stilling etterlater et hull og stikker ut."
       ]
+    },
+    "stretch-giraffe.long-short-vowel.rf-1-2-a": {
+      "about": [
+        "En spilledåserull som barnet slår hull i selv: ett hull for hver lyd i ordet. Et trykk på den store runde hullemaskinen gir et rundt hull; holder barnet hullemaskinen inne, vokser hullet under fingeren til en lang spalte, med et klikk ved strekkmerket. Slik viser barnet en lang vokal, som i bil eller båt, mot en kort, som i katt eller fisk. Sveiv, så spiller dåsen rullen: et kort pling for hvert rundt hull, en lang tone for hver spalte, og giraffen på lokket står på tå ved hver lang tone.",
+        "Det er tre oppgaver. Ved «Lang eller kort?» er det tre bilder med hver sin rull der de andre lydene alt er slått; barnet sier hvert ord og slår bare vokalen. Ved «Tell lydene» er det ett bilde og en tom rull: ett hull for hver lyd, ikke for hver bokstav, så katt får tre hull. Ved «Trekk sammen» står det bokstaver under hullene: sveiv, les lydene og trykk på bildet. Alle ord og lydgrensene deres kommer fra ordlisten til lydboksene, og ferdige ord havner som små hullkort i sangboka.",
+        "Etter første feil glir ordets egen rull opp under barnets: Hull som stemmer, lyser gull, de andre rødt, så en spalte over et rundt hull synes med en gang. Etter andre feil sier hintet hva man skal se etter. I tråd med LK20 i norsk. Uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Å høre om en vokal er lang eller kort",
+        "Å telle lydene i et ord, ikke bokstavene",
+        "Å trekke lyder som leses fra venstre mot høyre, sammen til et ord",
+        "Å se at antall lyder og lengden på én lyd er to forskjellige ting"
+      ],
+      "howToPlay": [
+        "Trykk på et bilde for å høre hva det heter.",
+        "Trykk på hullemaskinen for et kort, rundt hull; hold den inne til det klikker, for en lang spalte. Trykk på et hull for å lukke det.",
+        "Sveiv eller trykk på Sjekk: Dåsen spiller rullen din og viser ordets egen rull under.",
+        "Ved «Trekk sammen» sveiver du rullen med bokstaver, leser lydene, trykker på bildet og så på Sjekk.",
+        "I innstillingene velger du oppgave (Lang eller kort? · Tell lydene · Trekk sammen) og om bokstavene vises under hullene."
+      ],
+      "learningGoals": [
+        "Skille mellom lange og korte vokaler i talte enstavelsesord.",
+        "Dele et enstavelsesord opp i lydene sine.",
+        "Trekke lyder sammen til et ord.",
+        "Se at et ord kan ha færre lyder enn bokstaver."
+      ]
     }
   }
 }

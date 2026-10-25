@@ -107,4 +107,4 @@ ONE native + Grade-1 reading reviewer over all 11 locales (stories, cards, next 
 - **Renders read** at 360, 768 and 1024. The resting new-story window was too dim to read (opacity .55). It is now .82, white on slate.
 
 ## Live
-LIVEVERIFY
+`live-verify-juniper-story-lantern.js` on production: **52 pass, 0 fail**. All 11 pages return 200 with wrapper 9.860. Real pointer in en, de, sv and fi at 1366 and 390: the detail lights only its own pane with the locale's hint, then the lesson lights all three panes and the beam opens the new story. The iframe grows with the card. The first run fell inside the deploy window (the edge still served the old page) and was rerun once.

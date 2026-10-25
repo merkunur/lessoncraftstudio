@@ -3664,24 +3664,28 @@
     },
     "sort-bins.defining-attributes.1-g-a-1": {
       "about": [
-        "Est-ce encore un triangle s'il est rouge, grand ou penché ? Une forme est nommée à chaque partie, et l'enfant glisse chaque forme dans la bonne boîte en décidant ce qu'elle EST, et non de quoi elle a l'air — en triant les vrais triangles parmi les carrés, les pentagones et les hexagones. C'est une activité de géométrie interactive pour le CP, qui fonctionne dans le navigateur, sans rien à installer.",
-        "Toute l'idée tient dans la différence entre une propriété qui définit la forme et une propriété qui ne la définit pas. Un triangle se définit par ses trois côtés — un point c'est tout — tandis qu'être rouge, grand ou penché, c'est seulement l'allure de ce triangle-là. En triant des exemples face à des intrus tentants, l'enfant apprend à ignorer l'apparence et à juger d'après la propriété qui compte vraiment, le nombre de côtés. C'est le début du véritable raisonnement géométrique, en lien avec les programmes officiels. À son rythme, sans note ni chrono."
+        "Ici, chaque forme est montée comme un jeu de construction : des bâtonnets droits en bois reliés par des sommets en laiton. Quand l’enfant touche une forme, elle se démonte sur un plateau. Ses bâtonnets se rangent du plus long au plus court, et ses sommets tombent dans des godets. Un triangle, c’est toujours trois bâtonnets droits et trois godets pleins, qu’il soit tourné, peint, étiré ou écrasé. L’enfant trie les vrais triangles, quadrilatères, pentagones, hexagones et cercles parmi des formes qui leur ressemblent seulement, nomme une forme ou résout une devinette sur les formes.",
+        "Les formes qui ressemblent seulement sont justement les cas où les enfants se trompent. Un triangle avec un côté courbe lâche un bâtonnet courbé. Un triangle qui n’est pas fermé laisse un godet vide. Un cercle a un anneau rond et aucun godet. Les triangles à l’envers, tout petits ou très fins sont de vrais triangles, et une forme en L peut aussi être un hexagone. Après une première erreur, la forme mal rangée reste démontée sur le plateau. Après une deuxième, la forme cherchée apparaît à côté, bâtonnet par bâtonnet. Quand tout est juste, la boîte se ferme et ses formes se démontent en fagots égaux de bâtonnets. Avec un pot de peinture, un bouton tournant et une poignée, l’enfant peut ensuite essayer de changer une forme : les bâtonnets restent les mêmes.",
+        "Les indices posent des questions sur les bâtonnets et ne donnent jamais la réponse. En lien avec les programmes officiels pour le domaine Espace et géométrie. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Décider si une forme appartient à un groupe nommé d'après son nombre de côtés.",
-        "Distinguer une propriété qui définit (le nombre de côtés) d'une propriété qui ne définit pas (couleur, taille, sens).",
-        "Reconnaître les triangles et les quadrilatères sous de nombreuses formes, pas seulement l'exemple du manuel.",
-        "Ignorer les ressemblances trompeuses et juger une forme par ce qui en fait cette forme."
+        "Reconnaître une forme à ce qui la compose : fermée, côtés droits, combien",
+        "Voir que la couleur, la taille et l’orientation ne changent pas une forme",
+        "Repérer les formes qui ressemblent seulement : ouvertes, avec un côté courbe, avec un côté de trop",
+        "Nommer triangles, carrés, rectangles, pentagones, hexagones, cercles et demi-cercles"
       ],
       "howToPlay": [
-        "Lis la forme nommée — par exemple, triangle — en haut de la partie.",
-        "Glisse chaque forme dans la bonne boîte en décidant si elle EST cette forme, quelle que soit sa couleur, sa taille ou son sens.",
-        "Pas tout à fait ? Réessaie autant de fois que tu veux — il n'y a ni chrono ni score."
+        "Touche une forme pour la démonter sur le plateau, et touche-la encore pour la remonter.",
+        "Fais glisser chaque forme dans une boîte, ou touche une forme puis une boîte.",
+        "Touche Vérifier. Une forme dans la mauvaise boîte se démonte sur le plateau, et une question sur ses bâtonnets t’aide à regarder de nouveau.",
+        "Dans « Nomme-la », touche le nom de la forme. Dans « Devinettes », mets dans le cadre la forme qui correspond à la devinette.",
+        "Dans les réglages, choisis le niveau (Vrai ou pas ? · Nomme-la · Devinettes), si le plateau est ouvert ou sert seulement d’aide, et 6 ou 4 formes."
       ],
       "learningGoals": [
-        "Distinguer les propriétés qui définissent une forme de celles qui ne la définissent pas.",
-        "Comprendre qu'un triangle reste un triangle quand sa couleur, sa taille ou son orientation changent.",
-        "Construire le raisonnement par propriétés dont dépendent le classement et le nom des formes."
+        "Distinguer les propriétés qui définissent une figure (fermée, nombre de côtés droits) de celles qui ne la définissent pas (couleur, taille, orientation).",
+        "Reconnaître triangles, quadrilatères, pentagones et hexagones dans toutes les positions et toutes les tailles.",
+        "Expliquer pourquoi une forme ouverte ou une forme avec un côté courbe n’est pas un triangle.",
+        "Distinguer un carré d’un rectangle et d’un losange par la longueur de ses côtés et ses angles droits."
       ]
     },
     "fraction-equiv.same-amount.3-nf-a-3": {

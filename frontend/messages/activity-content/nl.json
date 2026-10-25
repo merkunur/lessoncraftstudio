@@ -3348,25 +3348,28 @@
     },
     "sort-bins.defining-attributes.1-g-a-1": {
       "about": [
-        "Is het nog steeds een driehoek als hij rood, groot of scheef is? Elke ronde wordt één vorm genoemd, en je kind sleept iedere vorm naar de juiste bak door te bepalen wat hij IS, niet hoe hij eruitziet — echte driehoeken sorteren van vierkanten, vijfhoeken en zeshoeken. Het is een interactieve meetkunde-activiteit voor groep 3 die in de browser werkt, zonder iets te installeren.",
-        "Het draait helemaal om het verschil tussen een eigenschap die telt en een eigenschap die niet telt. Een driehoek wordt bepaald door drie zijden — punt uit — terwijl rood, groot of scheef gewoon is hoe deze ene driehoek er toevallig uitziet. Door voorbeelden te sorteren tegenover verleidelijke niet-voorbeelden leert je kind voorbij het uiterlijk te kijken en te oordelen op de eigenschap die er echt toe doet. Dat is het begin van echt meetkundig redeneren.",
-        "De activiteit sluit aan bij de SLO-kerndoelen: vormen herkennen aan hun bepalende eigenschappen, zoals het aantal zijden, los van kleur, grootte of richting. Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Elke vorm is hier gebouwd als een bouwdoos: rechte houten stokjes die aan koperen hoeken vastzitten. Tikt het kind op een vorm, dan valt die uit elkaar op een dienblad. De stokjes liggen op een rij van het langste naar het kortste, en de hoeken vallen in kuiltjes. Een driehoek is altijd drie rechte stokjes en drie volle kuiltjes, hoe hij ook gedraaid, geverfd, uitgerekt of samengedrukt is. Het kind haalt echte driehoeken, vierhoeken, vijfhoeken, zeshoeken en cirkels uit vormen die er alleen op lijken, geeft een vorm een naam of lost een vormenraadsel op.",
+        "De vormen die er alleen op lijken, zijn precies de gevallen waar kinderen over struikelen. Een driehoek met één gebogen zijde laat een gebogen stokje vallen. Een driehoek die niet gesloten is, laat één kuiltje leeg. Een cirkel heeft één ronde ring en helemaal geen kuiltjes. Driehoeken die op hun kop staan, piepklein of smal zijn, zijn echte driehoeken, en ook een L-vorm kan een zeshoek zijn. Na een eerste fout ligt de verkeerd geplaatste vorm uit elkaar op het dienblad. Na een tweede ligt de gezochte vorm ernaast, stokje voor stokje. Is alles goed, dan gaat de bak dicht en vallen de vormen uiteen in gelijke bundels stokjes. Met een verfpot, een draaiknop en een rekhendel kan het kind daarna proberen een vorm te veranderen – de stokjes blijven gelijk.",
+        "De hints stellen vragen over de stokjes en verklappen nooit het antwoord. Passend bij de kerndoelen voor meetkunde. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Bepalen of een vorm bij een genoemde groep hoort aan het aantal zijden",
-        "Een eigenschap die telt (aantal zijden) onderscheiden van een die niet telt (kleur, grootte, richting)",
-        "Driehoeken en vierhoeken in veel vormen herkennen, niet alleen het schoolvoorbeeld",
-        "Vormen die er alleen maar op lijken negeren en een vorm beoordelen op wat hem die vorm maakt"
+        "Een vorm herkennen aan waar hij van gemaakt is: gesloten, rechte zijden, hoeveel",
+        "Zien dat kleur, grootte en draaien een vorm niet veranderen",
+        "Vormen herkennen die er alleen op lijken: open vormen, gebogen zijden, één zijde te veel",
+        "Driehoeken, vierkanten, rechthoeken, vijfhoeken, zeshoeken, cirkels en halve cirkels benoemen"
       ],
       "howToPlay": [
-        "Lees de genoemde vorm — bijvoorbeeld driehoek — boven aan de ronde.",
-        "Sleep elke vorm naar de juiste bak door te bepalen of hij die vorm IS, hoe rood, groot of scheef hij ook is.",
-        "Nog niet goed? Probeer het zo vaak als je wilt — er is geen timer en geen score."
+        "Tik op een vorm om hem op het dienblad uit elkaar te halen, en tik nog een keer om hem weer in elkaar te zetten.",
+        "Sleep elke vorm naar een bak, of tik op een vorm en dan op een bak.",
+        "Druk op Controleer. Een vorm in de verkeerde bak valt uit elkaar op het dienblad, en een vraag over de stokjes helpt je opnieuw te kijken.",
+        "Bij ‘Geef een naam’ tik je op de naam van de vorm. Bij ‘Raadsels’ leg je de vorm die bij het raadsel past in het lijstje.",
+        "In de instellingen kies je het niveau (Echt of niet? · Geef een naam · Raadsels), of het dienblad open is of alleen als hulp dient, en 6 of 4 vormen."
       ],
       "learningGoals": [
-        "Het kind onderscheidt eigenschappen die wel en niet bepalend zijn voor een vorm.",
-        "Het kind begrijpt dat een driehoek een driehoek blijft als zijn kleur, grootte of richting verandert.",
-        "Het kind bouwt het redeneren op eigenschappen waarop het herkennen en benoemen van vormen steunt."
+        "Kenmerkende eigenschappen (gesloten, aantal rechte zijden) onderscheiden van niet-kenmerkende (kleur, grootte, ligging).",
+        "Driehoeken, vierhoeken, vijfhoeken en zeshoeken in elke ligging en grootte herkennen.",
+        "Uitleggen waarom een open vorm of een vorm met een gebogen zijde geen driehoek is.",
+        "Een vierkant onderscheiden van een rechthoek en een ruit aan de lengte van de zijden en de rechte hoeken."
       ]
     },
     "array.equal-groups.2-oa-c-4": {

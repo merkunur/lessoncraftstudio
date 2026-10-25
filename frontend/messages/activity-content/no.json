@@ -1529,25 +1529,28 @@
     },
     "sort-bins.defining-attributes.1-g-a-1": {
       "about": [
-        "Er det fortsatt en trekant om den er rød, stor eller på skrå? Én form blir navngitt hver runde, og barnet drar hver form i riktig boks ved å avgjøre hva den ER, ikke hvordan den ser ut — og sorterer ekte trekanter fra firkanter, femkanter og sekskanter. Det er en interaktiv geometriaktivitet for 1. trinn som kjører i nettleseren, uten noe å installere.",
-        "Hele ideen er forskjellen på en egenskap som definerer en form og en som ikke gjør det. En trekant er definert ved at den har tre sider — punktum — mens det å være rød, stor eller på skrå bare er hvordan akkurat denne trekanten tilfeldigvis ser ut. Ved å sortere eksempler mot fristende ikke-eksempler lærer barnet å se forbi overflaten og dømme ut fra egenskapen som faktisk betyr noe. Det er starten på ekte geometrisk tenkning.",
-        "Aktiviteten følger LK20 — å skille egenskaper som definerer en form fra egenskaper som ikke gjør det, og kjenne igjen former etter antall sider. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "Hver form er her bygd som et byggesett: rette trepinner som er satt sammen i hjørner av messing. Når barnet trykker på en form, tas den fra hverandre på et brett. Pinnene legger seg på rad fra den lengste til den korteste, og hjørnene faller ned i små skåler. En trekant er alltid tre rette pinner og tre fulle skåler, uansett om den er vridd, malt, strukket eller klemt. Barnet sorterer ekte trekanter, firkanter, femkanter, sekskanter og sirkler fra former som bare ligner, gir en form et navn eller løser en formgåte.",
+        "Formene som bare ligner, er nettopp de tilfellene barn snubler i. En trekant med én buet side mister en buet pinne. En trekant som ikke er lukket, lar én skål stå tom. En sirkel har én rund ring og ingen skåler i det hele tatt. Trekanter som står på hodet, er bittesmå eller smale, er ekte trekanter, og også en L-form kan være en sekskant. Etter en første feil ligger den feilplasserte formen tatt fra hverandre på brettet. Etter en andre ligger formen det letes etter ved siden av, pinne for pinne. Når alt er riktig, lukkes kassen, og formene i den faller fra hverandre i like store bunter av pinner. Med en malingsboks, en vriknapp og et strekkhåndtak kan barnet så prøve å endre en form – pinnene forblir de samme.",
+        "Hjelpen stiller spørsmål om pinnene og røper aldri svaret. I tråd med LK20 i matematikk. Uten tidtaking og uten poeng."
       ],
       "practices": [
-        "Avgjøre om en form hører til en navngitt gruppe ut fra antall sider.",
-        "Skille en definerende egenskap (antall sider) fra en ikke-definerende (farge, størrelse, retning).",
-        "Kjenne igjen trekanter og firkanter i mange former, ikke bare lærebokeksemplet.",
-        "Se forbi former som ligner og dømme en form ut fra hva som gjør den til den formen."
+        "Å kjenne igjen en form på hva den består av: lukket, rette sider, hvor mange",
+        "Å se at farge, størrelse og vridning ikke endrer en form",
+        "Å oppdage former som bare ligner: åpne former, buede sider, én side for mye",
+        "Å navngi trekanter, kvadrater, rektangler, femkanter, sekskanter, sirkler og halvsirkler"
       ],
       "howToPlay": [
-        "Les den navngitte formen — for eksempel trekant — øverst i runden.",
-        "Dra hver form i riktig boks ved å avgjøre om den ER den formen, uansett farge, størrelse eller retning.",
-        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+        "Trykk på en form for å ta den fra hverandre på brettet, og trykk igjen for å sette den sammen.",
+        "Dra hver form over i en kasse, eller trykk på en form og så på en kasse.",
+        "Trykk på Sjekk. En form i feil kasse tas fra hverandre på brettet, og et spørsmål om pinnene hjelper deg å se etter igjen.",
+        "I «Gi den et navn» trykker du på navnet til formen. I «Gåter» legger du formen som passer til gåten, i rammen.",
+        "I innstillingene velger du nivå (Ekte eller ikke? · Gi den et navn · Gåter), om brettet er åpent eller bare brukes som hjelp, og 6 eller 4 former."
       ],
       "learningGoals": [
-        "Barnet kan skille egenskaper som definerer en form fra dem som ikke gjør det.",
-        "Barnet forstår at en trekant er en trekant selv når farge, størrelse eller retning endrer seg.",
-        "Barnet bygger den egenskapsbaserte tenkningen som det å sortere og navngi former er avhengig av."
+        "Skille avgjørende egenskaper (lukket, antall rette sider) fra uvesentlige (farge, størrelse, plassering).",
+        "Kjenne igjen trekanter, firkanter, femkanter og sekskanter i enhver plassering og størrelse.",
+        "Forklare hvorfor en åpen form eller en form med en buet side ikke er en trekant.",
+        "Skille et kvadrat fra et rektangel og en rombe ut fra sidenes lengde og de rette vinklene."
       ]
     },
     "posy-egg-cartons.count-tens.k-cc-a-1": {

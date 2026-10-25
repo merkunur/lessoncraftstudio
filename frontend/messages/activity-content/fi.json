@@ -1043,25 +1043,28 @@
     },
     "sort-bins.defining-attributes.1-g-a-1": {
       "about": [
-        "Onko se yhä kolmio, jos se on punainen, iso tai vinossa? Joka kierroksella mainitaan yksi muoto, ja lapsi vetää jokaisen muodon oikeaan laatikkoon päättämällä, mikä se ON eikä miltä se näyttää — erotellen oikeat kolmiot neliöistä, viisikulmioista ja kuusikulmioista. Tämä on vuorovaikutteinen 1. luokan geometriaharjoitus, joka toimii selaimessa ilman asennusta.",
-        "Koko ajatus on ero määrittävän ja ei-määrittävän ominaisuuden välillä. Kolmion määrittää se, että siinä on kolme sivua — siinä kaikki — kun taas punaisuus, koko tai vinous on vain sitä, miltä tämä tietty kolmio sattuu näyttämään. Kun lapsi lajittelee esimerkkejä houkuttelevien vastaesimerkkien rinnalla, hän oppii sivuuttamaan pinnan ja arvioimaan sen ominaisuuden mukaan, jolla todella on merkitystä. Se on todellisen geometrisen päättelyn alku.",
-        "Harjoitus on OPS 2014:n mukainen: lapsi erottaa määrittävät ominaisuudet ei-määrittävistä ja rakentaa ja piirtää muotoja, joilla ne ovat. Ei ajastinta eikä pisteitä — vain rauhallista ja leikkisää harjoittelua."
+        "Jokainen kuvio on rakennettu kuin rakennussarja: suoria puutikkuja, jotka on liitetty yhteen messinkisillä kulmilla. Kun lapsi napauttaa kuviota, se purkautuu osiin alustalle. Tikut asettuvat riviin pisimmästä lyhimpään, ja kulmat putoavat pieniin kuppeihin. Kolmio on aina kolme suoraa tikkua ja kolme täyttä kuppia, oli se sitten käännetty, maalattu, venytetty tai litistetty. Lapsi erottelee oikeat kolmiot, nelikulmiot, viisikulmiot, kuusikulmiot ja ympyrät kuvioista, jotka vain näyttävät niiltä, nimeää kuvion tai ratkaisee kuvioarvoituksen.",
+        "Kuviot, jotka vain näyttävät oikeilta, ovat juuri niitä, joissa lapset erehtyvät. Kolmio, jonka yksi sivu on kaareva, pudottaa kaarevan tikun. Kolmio, joka ei ole suljettu, jättää yhden kupin tyhjäksi. Ympyrällä on yksi pyöreä rengas eikä yhtään kuppia. Ylösalaisin olevat, pikkuruiset ja kapeat kolmiot ovat oikeita kolmioita, ja myös L-kirjaimen muotoinen kuvio voi olla kuusikulmio. Ensimmäisen virheen jälkeen väärään laatikkoon laitettu kuvio jää puretuksi alustalle. Toisen jälkeen haettu kuvio ilmestyy sen viereen tikku tikulta. Kun kaikki on oikein, laatikko sulkeutuu ja sen kuviot purkautuvat yhtä suuriksi tikkunipuiksi. Maalipurkilla, kääntönupilla ja venytyskahvalla lapsi voi sitten yrittää muuttaa kuviota – tikut pysyvät samoina.",
+        "Vihjeet kysyvät tikuista eivätkä koskaan kerro vastausta. Sopii opetussuunnitelman sisältöalueeseen Geometria ja mittaaminen. Ilman ajanottoa ja ilman pisteytystä."
       ],
       "practices": [
-        "Päättää, kuuluuko muoto nimettyyn ryhmään sivujen lukumäärän perusteella.",
-        "Erottaa määrittävän ominaisuuden (sivujen lukumäärä) ei-määrittävästä (väri, koko, suunta).",
-        "Tunnistaa kolmiot ja nelikulmiot monessa muodossa, ei vain oppikirjan esimerkkinä.",
-        "Sivuuttaa hämääjät ja arvioi muotoa sen perusteella, mikä tekee siitä juuri sen muodon."
+        "Kuvion tunnistaminen siitä, mistä se on tehty: suljettu, suorat sivut, montako",
+        "Sen huomaaminen, että väri, koko ja asento eivät muuta kuviota",
+        "Oikeilta näyttävien kuvioiden tunnistaminen: avoimet kuviot, kaarevat sivut, yksi sivu liikaa",
+        "Kolmioiden, neliöiden, suorakulmioiden, viisikulmioiden, kuusikulmioiden, ympyröiden ja puoliympyröiden nimeäminen"
       ],
       "howToPlay": [
-        "Lue nimetty muoto — esimerkiksi kolmio — kierroksen yläreunasta.",
-        "Vedä jokainen muoto oikeaan laatikkoon päättämällä, ONKO se kyseinen muoto, riippumatta sen väristä, koosta tai suunnasta.",
-        "Eikö osunut oikeaan? Yritä uudelleen niin monta kertaa kuin haluat — ei ajastinta eikä pisteitä."
+        "Napauta kuviota, niin se purkautuu osiin alustalle, ja napauta uudelleen, niin se kootaan takaisin.",
+        "Vedä jokainen kuvio laatikkoon, tai napauta kuviota ja sitten laatikkoa.",
+        "Napauta Tarkista. Väärässä laatikossa oleva kuvio purkautuu alustalle, ja kysymys sen tikuista auttaa katsomaan uudelleen.",
+        "Tasolla ”Nimeä se” napautat kuvion nimeä. Tasolla ”Arvoitukset” laitat kehykseen kuvion, joka sopii arvoitukseen.",
+        "Asetuksista valitset tason (Oikea vai ei? · Nimeä se · Arvoitukset), onko alusta auki vai vain apuna, ja 6 tai 4 kuviota."
       ],
       "learningGoals": [
-        "Lapsi erottaa muotojen määrittävät ominaisuudet ei-määrittävistä.",
-        "Lapsi ymmärtää, että kolmio pysyy kolmiona, vaikka sen väri, koko tai suunta muuttuu.",
-        "Lapsi rakentaa ominaisuuksiin perustuvaa päättelyä, johon muotojen luokittelu ja nimeäminen perustuvat."
+        "Erottaa kuvion määrittävät ominaisuudet (suljettu, suorien sivujen määrä) niistä, jotka eivät määritä sitä (väri, koko, asento).",
+        "Tunnistaa kolmiot, nelikulmiot, viisikulmiot ja kuusikulmiot missä tahansa asennossa ja koossa.",
+        "Selittää, miksi avoin kuvio tai kuvio, jolla on kaareva sivu, ei ole kolmio.",
+        "Erottaa neliö suorakulmiosta ja neljäkkäästä sivujen pituuden ja suorien kulmien perusteella."
       ]
     },
     "choice-board.count-sides.k-g-b-4": {

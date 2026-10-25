@@ -1631,24 +1631,28 @@
     },
     "sort-bins.defining-attributes.1-g-a-1": {
       "about": [
-        "Är det fortfarande en triangel om den är röd, stor eller lutad? Varje omgång namnges en form, och barnet drar varje form till rätt låda genom att avgöra vad den ÄR, inte hur den ser ut — och sorterar riktiga trianglar från fyrhörningar, femhörningar och sexhörningar. Det är en interaktiv geometriövning för årskurs 1 som körs i webbläsaren, utan något att installera.",
-        "Hela poängen är skillnaden mellan en avgörande egenskap och en som inte avgör. En triangel definieras av att ha tre sidor — punkt slut — medan att vara röd, stor eller lutad bara är hur just den här triangeln råkar se ut. Genom att sortera exempel mot lockande motexempel lär sig barnet att bortse från ytan och bedöma efter den egenskap som faktiskt spelar roll. Det är början på riktigt geometriskt tänkande, helt i linje med Lgr22. Ingen timer och inga poäng — bara lugn, lekfull övning."
+        "Varje form är här byggd som en byggsats: raka träpinnar som är ihopsatta i hörn av mässing. När barnet trycker på en form tas den isär på en bricka. Pinnarna lägger sig på rad från den längsta till den kortaste, och hörnen faller ner i små skålar. En triangel är alltid tre raka pinnar och tre fyllda skålar, hur den än är vriden, målad, utdragen eller hoptryckt. Barnet sorterar riktiga trianglar, fyrhörningar, femhörningar, sexhörningar och cirklar från former som bara liknar dem, ger en form ett namn eller löser en formgåta.",
+        "Formerna som bara liknar är just de fall som barn snubblar på. En triangel med en böjd sida tappar en böjd pinne. En triangel som inte är sluten lämnar en skål tom. En cirkel har en rund ring och inga skålar alls. Trianglar som står på huvudet, är pyttesmå eller smala är riktiga trianglar, och även en L-form kan vara en sexhörning. Efter ett första fel ligger den felplacerade formen isärtagen på brickan. Efter ett andra ligger den sökta formen bredvid, pinne för pinne. När allt är rätt stängs lådan, och formerna i den tas isär till lika stora knippen av pinnar. Med en färgburk, en vridknapp och ett draghandtag kan barnet sedan försöka ändra en form – pinnarna förblir desamma.",
+        "Ledtrådarna ställer frågor om pinnarna och avslöjar aldrig svaret. I linje med Lgr22, centralt innehåll om geometri. Utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Avgöra om en form hör till en namngiven grupp utifrån antalet sidor",
-        "Skilja en avgörande egenskap (antal sidor) från en som inte avgör (färg, storlek, riktning)",
-        "Känna igen trianglar och fyrhörningar i många former, inte bara läroboksexemplet",
-        "Bortse från former som ser lika ut och bedöma en form efter det som gör den till just den formen"
+        "Att känna igen en form på vad den består av: sluten, raka sidor, hur många",
+        "Att se att färg, storlek och vridning inte ändrar en form",
+        "Att upptäcka former som bara liknar: öppna former, böjda sidor, en sida för mycket",
+        "Att namnge trianglar, kvadrater, rektanglar, femhörningar, sexhörningar, cirklar och halvcirklar"
       ],
       "howToPlay": [
-        "Läs den namngivna formen — till exempel triangel — högst upp i omgången.",
-        "Dra varje form till rätt låda genom att avgöra om den ÄR den formen, oavsett färg, storlek eller riktning.",
-        "Inte riktigt rätt? Försök igen så många gånger du vill — det finns ingen timer och inga poäng."
+        "Tryck på en form för att ta isär den på brickan, och tryck igen för att sätta ihop den.",
+        "Dra varje form till en låda, eller tryck på en form och sedan på en låda.",
+        "Tryck på Kontrollera. En form i fel låda tas isär på brickan, och en fråga om pinnarna hjälper dig att titta igen.",
+        "I ”Ge den ett namn” trycker du på formens namn. I ”Gåtor” lägger du formen som passar gåtan i ramen.",
+        "I inställningarna väljer du nivå (Riktig eller inte? · Ge den ett namn · Gåtor), om brickan är öppen eller bara används som hjälp, och 6 eller 4 former."
       ],
       "learningGoals": [
-        "Barnet kan skilja avgörande egenskaper från egenskaper som inte avgör hos former",
-        "Barnet förstår att en triangel förblir en triangel när dess färg, storlek eller riktning ändras",
-        "Barnet bygger det egenskapsbaserade tänkande som att sortera och namnge former bygger på"
+        "Skilja avgörande egenskaper (sluten, antal raka sidor) från oviktiga (färg, storlek, läge).",
+        "Känna igen trianglar, fyrhörningar, femhörningar och sexhörningar i alla lägen och storlekar.",
+        "Förklara varför en öppen form eller en form med en böjd sida inte är en triangel.",
+        "Skilja en kvadrat från en rektangel och en romb utifrån sidornas längd och de räta vinklarna."
       ]
     },
     "seriation.compare-length.1-md-a-1": {

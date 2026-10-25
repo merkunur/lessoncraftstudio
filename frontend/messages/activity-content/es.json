@@ -3860,25 +3860,28 @@
     },
     "sort-bins.defining-attributes.1-g-a-1": {
       "about": [
-        "¿Sigue siendo un triángulo aunque sea rojo, grande o esté inclinado? En cada ronda se nombra una figura, y tu peque arrastra cada figura a la caja correcta decidiendo lo que ES, no cómo se ve: separa los triángulos de verdad de cuadrados, pentágonos y hexágonos. Es una actividad de geometría interactiva para 1.º de primaria que funciona en el navegador, sin instalar nada y sin crear cuenta.",
-        "Toda la idea está en la diferencia entre un atributo que define y uno que no. Un triángulo se define por tener tres lados —punto— mientras que ser rojo, grande o estar inclinado es solo cómo se ve este triángulo en particular. Al clasificar ejemplos frente a tentadores no-ejemplos, el niño o la niña aprende a ignorar la apariencia y a juzgar por la propiedad que de verdad importa. Ese es el comienzo del razonamiento geométrico.",
-        "Está alineada con los planes y programas de estudio (SEP): distinguir los atributos que definen una figura de los que no, y construir figuras que los tienen. Sin temporizador y sin puntajes, con un ritmo tranquilo y juguetón."
+        "Aquí cada figura está armada como un juego de construcción: palitos rectos de madera unidos por vértices de latón. Al tocar una figura, se desarma en una charola. Sus palitos se acomodan en fila del más largo al más corto, y sus vértices caen en huequitos. Un triángulo siempre son tres palitos rectos y tres huequitos llenos, aunque esté girado, pintado, estirado o aplastado. Niñas y niños separan triángulos, cuadriláteros, pentágonos, hexágonos y círculos de verdad de las figuras que solo se les parecen, le ponen nombre a una figura o resuelven una adivinanza de figuras.",
+        "Las figuras que solo se parecen son justo los casos en los que los niños se confunden. Un triángulo con un lado curvo suelta un palito curvo. Un triángulo que no está cerrado deja un huequito vacío. Un círculo tiene un aro redondo y ningún huequito. Los triángulos de cabeza, muy pequeños o delgados son triángulos de verdad, y una figura en forma de L también puede ser un hexágono. Después de un primer error, la figura mal colocada queda desarmada en la charola. Después de un segundo, la figura buscada aparece a su lado, palito por palito. Cuando todo está bien, la caja se cierra y sus figuras se desarman en manojos iguales de palitos. Luego, con un bote de pintura, una perilla y una jaladera, se puede intentar cambiar una figura: los palitos siguen siendo los mismos.",
+        "Las pistas preguntan por los palitos y nunca dan la respuesta. En línea con los programas de estudio de la SEP (campo formativo Saberes y pensamiento científico). Sin cronómetro y sin puntaje."
       ],
       "practices": [
-        "Decidir si una figura pertenece a un grupo nombrado según su número de lados.",
-        "Distinguir un atributo que define (número de lados) de uno que no (color, tamaño, dirección).",
-        "Reconocer triángulos y cuadriláteros en muchas formas, no solo en el ejemplo del libro.",
-        "Ignorar las apariencias y juzgar una figura por lo que la hace ser esa figura."
+        "Reconocer una figura por cómo está hecha: cerrada, con lados rectos, cuántos",
+        "Ver que el color, el tamaño y el giro no cambian una figura",
+        "Detectar figuras que solo se parecen: abiertas, con un lado curvo, con un lado de más",
+        "Nombrar triángulos, cuadrados, rectángulos, pentágonos, hexágonos, círculos y semicírculos"
       ],
       "howToPlay": [
-        "Lee la figura nombrada —por ejemplo, triángulo— al inicio de la ronda.",
-        "Arrastra cada figura a la caja correcta decidiendo si ES esa figura, sin importar su color, tamaño o dirección.",
-        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntaje."
+        "Toca una figura para desarmarla en la charola, y tócala otra vez para armarla.",
+        "Arrastra cada figura a una caja, o toca una figura y luego una caja.",
+        "Toca Comprobar. Una figura en la caja equivocada se desarma en la charola, y una pregunta sobre sus palitos te ayuda a volver a mirar.",
+        "En «Ponle nombre», toca el nombre de la figura. En «Adivinanzas», pon en el marco la figura que corresponde a la adivinanza.",
+        "En los ajustes eliges el nivel (¿De verdad o no? · Ponle nombre · Adivinanzas), si la charola está abierta o solo sirve como ayuda, y 6 o 4 figuras."
       ],
       "learningGoals": [
-        "El niño o la niña aprende a distinguir los atributos que definen una figura de los que no.",
-        "Tu peque entiende que un triángulo sigue siendo triángulo aunque cambie de color, tamaño u orientación.",
-        "Se construye el razonamiento por atributos sobre el que se apoya clasificar y nombrar figuras."
+        "Distinguir los atributos que definen una figura (cerrada, número de lados rectos) de los que no la definen (color, tamaño, posición).",
+        "Reconocer triángulos, cuadriláteros, pentágonos y hexágonos en cualquier posición y tamaño.",
+        "Explicar por qué una figura abierta o con un lado curvo no es un triángulo.",
+        "Distinguir un cuadrado de un rectángulo y de un rombo por la longitud de sus lados y sus ángulos rectos."
       ]
     },
     "wake-up-pip.retell-story.rl-k-2": {

@@ -68,6 +68,7 @@ const MANIFEST_FILES = [
   'match-pairs-activities.json',
   'fractions-activities.json',
   'sort-bins-activities.json',
+  'take-apart-activities.json',
   'array-activities.json',
   'clock-activities.json',
   'set-clock-activities.json',

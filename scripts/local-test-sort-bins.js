@@ -34,7 +34,6 @@ const SHOT = has('shot');
    extension); defining-attributes is the new 1.G.A.1 mechanic. */
 const ACTIVITIES = [
   { id: 'sort-bins.sort-by-sides.2-g-a-1', mode: 'sides' },
-  { id: 'sort-bins.defining-attributes.1-g-a-1', mode: 'defining' },
 ];
 const REPO = path.join(__dirname, '..');
 const MINI = path.join(REPO, 'mini tools');

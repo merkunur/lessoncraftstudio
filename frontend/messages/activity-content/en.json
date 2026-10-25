@@ -3945,25 +3945,28 @@
     },
     "sort-bins.defining-attributes.1-g-a-1": {
       "about": [
-        "Is it still a triangle if it's red, big, or tilted? One shape is named each round, and the child drags every shape into the right box by deciding what it IS, not how it looks — sorting real triangles from squares, pentagons, and hexagons. It's an interactive Grade 1 geometry activity that runs in the browser with nothing to install.",
-        "The whole idea is the difference between a defining attribute and a non-defining one. A triangle is defined by having three sides — full stop — while being red, big, or tilted is just how this particular triangle happens to look. By sorting examples against tempting non-examples, the child learns to ignore the surface and judge by the property that actually matters. That is the start of real geometric reasoning.",
-        "It is aligned to Common Core 1.G.A.1 — distinguishing defining attributes from non-defining attributes and building and drawing shapes that have them. No timer, no score — just calm, playful practice."
+        "Every shape here is built like a construction kit: straight wooden sticks joined at brass corners. Tap a shape and it comes apart on a tray. Its sticks line up from the longest to the shortest, and its corners drop into cups. A triangle is always three straight sticks and three full cups, however it is turned, painted, stretched or squeezed. The child sorts real triangles, four-sided shapes, pentagons, hexagons and circles from look-alikes, names a shape, or solves a shape riddle.",
+        "The look-alikes are the cases that trip children up. A triangle with one bent side drops a bent stick. A triangle that is not closed leaves one cup empty. A circle has one round hoop and no cups at all. Upside-down, tiny and skinny triangles are real triangles, and an L shape can be a hexagon. After a first miss, the misplaced shape lies taken apart on the tray. After a second, the shape the box asks for lies beside it, stick for stick. When every shape is right, the box closes and its shapes come apart into equal bundles of sticks. A paint pot, a turn knob and a stretch handle then let the child try to change a shape, and the sticks stay the same.",
+        "Hints ask about the sticks and never give the answer. Aligned to Common Core 1.G.A.1. No timer and no score."
       ],
       "practices": [
-        "Decide whether a shape belongs to a named group by its number of sides",
-        "Tell a defining attribute (number of sides) from a non-defining one (color, size, direction)",
-        "Recognize triangles and quadrilaterals in many forms, not just the textbook example",
-        "Ignore look-alikes and judge a shape by what makes it that shape"
+        "Telling a shape by what it is made of: closed, straight sides, how many",
+        "Seeing that colour, size and turning do not change a shape",
+        "Spotting look-alikes: open shapes, bent sides, one side too many",
+        "Naming triangles, squares, rectangles, pentagons, hexagons, circles and half-circles"
       ],
       "howToPlay": [
-        "Read the named shape — for example, triangle — at the top of the round.",
-        "Drag each shape into the right box by deciding whether it IS that shape, no matter its color, size, or direction.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Tap a shape to take it apart on the tray, and tap it again to put it back together.",
+        "Drag each shape into a box, or tap a shape and then tap a box.",
+        "Press Check. A shape in the wrong box comes apart on the tray, and a question about its sticks helps you look again.",
+        "In \"Name it\", tap the name of the shape. In \"Riddles\", put the shape that fits the riddle in the frame.",
+        "In the settings, choose the level (Real or not? · Name it · Riddles), whether the tray is open or only used as help, and 6 or 4 shapes."
       ],
       "learningGoals": [
-        "Distinguish defining from non-defining attributes of shapes — the focus of Common Core 1.G.A.1.",
-        "Understand that a triangle stays a triangle when its color, size, or orientation changes.",
-        "Build the attribute-based reasoning that classifying and naming shapes depends on."
+        "Tell defining attributes (closed, number of straight sides) from non-defining ones (colour, size, turn).",
+        "Recognise triangles, four-sided shapes, pentagons and hexagons in any position and size.",
+        "Explain why an open shape or a shape with a bent side is not a triangle.",
+        "Tell a square from a rectangle and a rhombus by its side lengths and square corners."
       ]
     },
     "sort-bins.sort-by-sides.2-g-a-1": {

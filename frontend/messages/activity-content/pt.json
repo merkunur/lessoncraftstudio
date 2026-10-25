@@ -2302,25 +2302,28 @@
     },
     "sort-bins.defining-attributes.1-g-a-1": {
       "about": [
-        "Continua sendo um triângulo se ele estiver vermelho, grande ou inclinado? A cada rodada uma figura é nomeada, e a criança arrasta cada forma para a caixa certa decidindo o que ela É, e não como ela parece — separando os triângulos de verdade dos quadriláteros, dos pentágonos e dos hexágonos. É uma atividade de geometria interativa para o 1º ano, que funciona no navegador, sem instalar nada e sem precisar de conta.",
-        "A ideia central é a diferença entre uma característica que define a figura e uma que não define. Um triângulo é definido por ter três lados — ponto final — enquanto estar vermelho, grande ou inclinado é só o jeito que aquele triângulo em especial aparece. Ao separar exemplos de tentadores não exemplos, a criança aprende a ignorar a aparência e a julgar pela propriedade que realmente importa. Esse é o começo do raciocínio geométrico de verdade.",
-        "A atividade está alinhada à BNCC, na unidade temática Geometria, ao distinguir as características que definem uma figura daquelas que não definem. Sem cronômetro e sem pontuação — só uma prática calma e divertida."
+        "Aqui cada figura é montada como um brinquedo de montar: palitos retos de madeira unidos por vértices de latão. Quando a criança toca uma figura, ela se desmonta em uma bandeja. Os palitos se alinham do mais comprido ao mais curto, e os vértices caem em buraquinhos. Um triângulo é sempre três palitos retos e três buraquinhos cheios, não importa se está girado, pintado, esticado ou achatado. A criança separa triângulos, quadriláteros, pentágonos, hexágonos e círculos de verdade das figuras que só se parecem com eles, dá nome a uma figura ou resolve uma adivinhação de figuras.",
+        "As figuras que só se parecem são justamente os casos em que as crianças tropeçam. Um triângulo com um lado curvo solta um palito curvado. Um triângulo que não é fechado deixa um buraquinho vazio. Um círculo tem um aro redondo e nenhum buraquinho. Triângulos de cabeça para baixo, bem pequenos ou finos são triângulos de verdade, e uma figura em forma de L também pode ser um hexágono. Depois de um primeiro erro, a figura colocada na caixa errada fica desmontada na bandeja. Depois de um segundo, a figura procurada aparece ao lado, palito por palito. Quando tudo está certo, a caixa se fecha e as figuras dela se desmontam em feixes iguais de palitos. Com um pote de tinta, um botão de girar e uma alça de esticar, a criança pode então tentar mudar uma figura: os palitos continuam os mesmos.",
+        "As dicas fazem perguntas sobre os palitos e nunca dão a resposta. De acordo com a BNCC, na unidade temática Geometria. Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Decidir se uma figura pertence a um grupo nomeado pelo seu número de lados.",
-        "Distinguir uma característica que define (número de lados) de uma que não define (cor, tamanho, direção).",
-        "Reconhecer triângulos e quadriláteros em muitas formas, não só no exemplo do livro.",
-        "Ignorar as figuras parecidas e julgar uma forma pelo que a faz ser aquela forma."
+        "Reconhecer uma figura pelo que a compõe: fechada, com lados retos, quantos",
+        "Perceber que cor, tamanho e giro não mudam uma figura",
+        "Descobrir figuras que só se parecem: abertas, com um lado curvo, com um lado a mais",
+        "Nomear triângulos, quadrados, retângulos, pentágonos, hexágonos, círculos e semicírculos"
       ],
       "howToPlay": [
-        "Leia a figura nomeada — por exemplo, triângulo — no alto da rodada.",
-        "Arraste cada forma para a caixa certa decidindo se ela É aquela figura, não importa a cor, o tamanho ou a direção.",
-        "Errou? Pode tentar de novo quantas vezes quiser — não há cronômetro nem pontuação."
+        "Toque em uma figura para desmontá-la na bandeja, e toque de novo para montá-la.",
+        "Arraste cada figura para uma caixa, ou toque em uma figura e depois em uma caixa.",
+        "Toque em Verificar. Uma figura na caixa errada se desmonta na bandeja, e uma pergunta sobre os palitos ajuda você a olhar de novo.",
+        "Em “Dê o nome”, toque no nome da figura. Em “Adivinhações”, coloque na moldura a figura que combina com a adivinhação.",
+        "Nas configurações você escolhe o nível (De verdade ou não? · Dê o nome · Adivinhações), se a bandeja fica aberta ou serve só de ajuda, e 6 ou 4 figuras."
       ],
       "learningGoals": [
-        "Distinguir as características que definem uma figura daquelas que não definem.",
-        "Entender que um triângulo continua sendo um triângulo quando muda a cor, o tamanho ou a direção.",
-        "Construir o raciocínio por características de que classificar e nomear figuras depende."
+        "Distinguir os atributos que definem uma figura (fechada, número de lados retos) dos que não a definem (cor, tamanho, posição).",
+        "Reconhecer triângulos, quadriláteros, pentágonos e hexágonos em qualquer posição e tamanho.",
+        "Explicar por que uma figura aberta ou com um lado curvo não é um triângulo.",
+        "Distinguir um quadrado de um retângulo e de um losango pelo comprimento dos lados e pelos ângulos retos."
       ]
     },
     "olive-kind-of.category-attribute.l-1-5-b": {

@@ -4305,25 +4305,28 @@
     },
     "sort-bins.defining-attributes.1-g-a-1": {
       "about": [
-        "Ist es noch ein Dreieck, wenn es rot, groß oder gekippt ist? In jeder Runde wird eine Form benannt, und das Kind zieht jede Form in den richtigen Korb, indem es entscheidet, was sie IST, nicht wie sie aussieht — echte Dreiecke werden von Vierecken, Fünfecken und Sechsecken getrennt. Diese interaktive Geometrie-Übung für die 1. Klasse läuft im Browser, ohne Installation.",
-        "Worum es geht, ist der Unterschied zwischen einem wesentlichen und einem unwesentlichen Merkmal. Ein Dreieck ist dadurch bestimmt, dass es drei Seiten hat — Punkt —, während rot, groß oder gekippt nur die zufällige Erscheinung genau dieses Dreiecks ist. Indem das Kind Beispiele gegen verlockende Gegenbeispiele sortiert, lernt es, die Oberfläche zu übersehen und nach der Eigenschaft zu urteilen, auf die es wirklich ankommt. Das ist der Anfang echten geometrischen Denkens.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Geometrie ausgerichtet — wesentliche von unwesentlichen Merkmalen unterscheiden und Formen daran erkennen. Es gibt keinen Timer und keine Punktewertung — nur ruhiges, spielerisches Üben."
+        "Jede Form ist hier wie ein Baukasten gebaut: gerade Holzstäbchen, die an Messingecken verbunden sind. Tippt das Kind eine Form an, zerfällt sie auf einem Tablett. Ihre Stäbchen liegen vom längsten bis zum kürzesten in einer Reihe, und ihre Ecken fallen in kleine Mulden. Ein Dreieck sind immer drei gerade Stäbchen und drei volle Mulden, egal wie es gedreht, angemalt, gestreckt oder gestaucht ist. Das Kind sortiert echte Dreiecke, Vierecke, Fünfecke, Sechsecke und Kreise aus Formen, die nur so aussehen, benennt eine Form oder löst ein Formenrätsel.",
+        "Die Formen, die nur so aussehen, sind genau die Fälle, über die Kinder stolpern. Ein Dreieck mit einer gebogenen Seite lässt ein gebogenes Stäbchen fallen. Ein Dreieck, das nicht geschlossen ist, lässt eine Mulde leer. Ein Kreis hat einen runden Ring und gar keine Mulden. Dreiecke, die auf dem Kopf stehen, winzig oder schmal sind, sind echte Dreiecke, und auch eine L-Form kann ein Sechseck sein. Nach einem ersten Fehler liegt die falsch einsortierte Form zerlegt auf dem Tablett. Nach einem zweiten liegt die gesuchte Form daneben, Stäbchen für Stäbchen. Ist alles richtig, schließt sich die Kiste, und ihre Formen zerfallen in gleiche Bündel aus Stäbchen. Mit einem Farbtopf, einem Drehknopf und einem Ziehgriff kann das Kind dann versuchen, eine Form zu verändern – die Stäbchen bleiben gleich.",
+        "Die Hinweise fragen nach den Stäbchen und verraten nie die Lösung. Passend zum Lehrplan im Bereich Raum und Form. Ohne Zeitdruck und ohne Punktwertung."
       ],
       "practices": [
-        "Entscheiden, ob eine Form zu einer benannten Gruppe gehört, anhand ihrer Anzahl von Seiten.",
-        "Ein wesentliches Merkmal (Anzahl der Seiten) von einem unwesentlichen (Farbe, Größe, Lage) unterscheiden.",
-        "Dreiecke und Vierecke in vielen Formen erkennen, nicht nur im Schulbuch-Beispiel.",
-        "Ähnlich aussehende Formen übersehen und eine Form nach dem beurteilen, was sie zu dieser Form macht."
+        "Eine Form daran erkennen, woraus sie besteht: geschlossen, gerade Seiten, wie viele",
+        "Sehen, dass Farbe, Größe und Drehung eine Form nicht verändern",
+        "Formen erkennen, die nur so aussehen: offene Formen, gebogene Seiten, eine Seite zu viel",
+        "Dreiecke, Quadrate, Rechtecke, Fünfecke, Sechsecke, Kreise und Halbkreise benennen"
       ],
       "howToPlay": [
-        "Lies die benannte Form — zum Beispiel Dreieck — oben in der Runde.",
-        "Ziehe jede Form in den richtigen Korb, indem du entscheidest, ob sie diese Form IST, ganz gleich welche Farbe, Größe oder Lage sie hat.",
-        "Noch nicht ganz richtig? Probiere es so oft du möchtest noch einmal — es gibt keinen Timer und keine Punkte."
+        "Tippe eine Form an, um sie auf dem Tablett zu zerlegen, und tippe noch einmal, um sie wieder zusammenzusetzen.",
+        "Zieh jede Form in eine Kiste, oder tippe eine Form an und dann eine Kiste.",
+        "Drück auf Prüfen. Eine Form in der falschen Kiste zerfällt auf dem Tablett, und eine Frage zu ihren Stäbchen hilft dir, noch einmal hinzuschauen.",
+        "Bei „Benenne sie“ tippst du den Namen der Form an. Bei „Rätsel“ legst du die Form, die zum Rätsel passt, in den Rahmen.",
+        "In den Einstellungen wählst du die Stufe (Echt oder nicht? · Benenne sie · Rätsel), ob das Tablett offen ist oder nur als Hilfe dient, und 6 oder 4 Formen."
       ],
       "learningGoals": [
-        "Wesentliche von unwesentlichen Merkmalen einer Form unterscheiden.",
-        "Verstehen, dass ein Dreieck ein Dreieck bleibt, auch wenn sich Farbe, Größe oder Lage ändern.",
-        "Das merkmalsgestützte Denken aufbauen, auf dem das Einordnen und Benennen von Formen beruht."
+        "Wesentliche Merkmale (geschlossen, Anzahl gerader Seiten) von unwesentlichen (Farbe, Größe, Lage) unterscheiden.",
+        "Dreiecke, Vierecke, Fünfecke und Sechsecke in jeder Lage und Größe erkennen.",
+        "Erklären, warum eine offene Form oder eine Form mit gebogener Seite kein Dreieck ist.",
+        "Ein Quadrat von einem Rechteck und einer Raute an den Seitenlängen und den rechten Winkeln unterscheiden."
       ]
     },
     "pepper-sound-swap.substitute.rf-k-2-e": {

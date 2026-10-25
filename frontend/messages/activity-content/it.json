@@ -2805,25 +2805,28 @@
     },
     "sort-bins.defining-attributes.1-g-a-1": {
       "about": [
-        "È ancora un triangolo se è rosso, grande o inclinato? Ogni turno nomina una figura e il bambino trascina ogni forma nella scatola giusta decidendo che cosa è, non come appare, separando i veri triangoli da quadrati, pentagoni ed esagoni. È un'attività interattiva di geometria per la classe prima, da fare nel browser, senza nulla da installare.",
-        "Tutta l'idea sta nella differenza tra una caratteristica che definisce e una che no. Un triangolo è definito dall'avere tre lati — e basta — mentre essere rosso, grande o inclinato è solo l'aspetto di quel particolare triangolo. Smistando gli esempi a confronto con i \"finti amici\", il bambino impara a ignorare l'apparenza e a giudicare in base alla proprietà che conta davvero: è l'inizio del vero ragionamento geometrico.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dello spazio e delle figure: distinguere le caratteristiche che definiscono una figura da quelle che non la definiscono. Nessun timer e nessun punteggio."
+        "Qui ogni figura è costruita come un gioco di costruzioni: bastoncini dritti di legno uniti da vertici di ottone. Quando il bambino tocca una figura, questa si smonta su un vassoio. I bastoncini si mettono in fila dal più lungo al più corto e i vertici cadono nelle coppette. Un triangolo è sempre tre bastoncini dritti e tre coppette piene, comunque sia girato, colorato, allungato o schiacciato. Il bambino separa i veri triangoli, quadrilateri, pentagoni, esagoni e cerchi dalle figure che gli somigliano soltanto, dà il nome a una figura o risolve un indovinello sulle figure.",
+        "Le figure che somigliano soltanto sono proprio i casi in cui i bambini inciampano. Un triangolo con un lato curvo lascia cadere un bastoncino curvo. Un triangolo che non è chiuso lascia una coppetta vuota. Un cerchio ha un anello rotondo e nessuna coppetta. I triangoli capovolti, piccolissimi o sottili sono veri triangoli, e anche una figura a forma di L può essere un esagono. Dopo un primo errore, la figura messa nella scatola sbagliata resta smontata sul vassoio. Dopo un secondo, accanto compare la figura cercata, bastoncino per bastoncino. Quando tutto è giusto, la scatola si chiude e le sue figure si smontano in mazzetti uguali di bastoncini. Con un barattolo di colore, una manopola e una maniglia il bambino può poi provare a cambiare una figura: i bastoncini restano gli stessi.",
+        "I suggerimenti fanno domande sui bastoncini e non danno mai la risposta. In linea con le Indicazioni nazionali, nucleo Spazio e figure. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Decidere se una figura appartiene a un gruppo dato in base al numero di lati.",
-        "Distinguere una caratteristica che definisce (il numero di lati) da una che no (colore, grandezza, orientamento).",
-        "Riconoscere triangoli e quadrilateri in tante forme, non solo nell'esempio del libro.",
-        "Ignorare le somiglianze ingannevoli e giudicare una figura da ciò che la rende tale."
+        "Riconoscere una figura da come è fatta: chiusa, con lati dritti, quanti",
+        "Capire che colore, grandezza e rotazione non cambiano una figura",
+        "Scoprire le figure che somigliano soltanto: aperte, con un lato curvo, con un lato in più",
+        "Dare il nome a triangoli, quadrati, rettangoli, pentagoni, esagoni, cerchi e semicerchi"
       ],
       "howToPlay": [
-        "Il bambino legge la figura nominata — per esempio, triangolo — all'inizio del turno.",
-        "Trascina ogni forma nella scatola giusta decidendo se è davvero quella figura, a prescindere da colore, grandezza o orientamento.",
-        "Se non è corretto, può riprovare quante volte vuole: non c'è timer e non c'è punteggio."
+        "Tocca una figura per smontarla sul vassoio, e toccala di nuovo per rimontarla.",
+        "Trascina ogni figura in una scatola, oppure tocca una figura e poi una scatola.",
+        "Tocca Controlla. Una figura nella scatola sbagliata si smonta sul vassoio, e una domanda sui suoi bastoncini ti aiuta a guardare di nuovo.",
+        "In «Dagli un nome» tocchi il nome della figura. In «Indovinelli» metti nella cornice la figura che corrisponde all’indovinello.",
+        "Nelle impostazioni scegli il livello (Vero o no? · Dagli un nome · Indovinelli), se il vassoio è aperto o serve solo come aiuto, e 6 o 4 figure."
       ],
       "learningGoals": [
-        "Il bambino è in grado di distinguere le caratteristiche che definiscono una figura da quelle che non la definiscono.",
-        "Capisce che un triangolo resta un triangolo anche se cambia colore, grandezza o orientamento.",
-        "Costruisce il ragionamento per caratteristiche su cui si basano la classificazione e la denominazione delle figure."
+        "Distinguere le caratteristiche che definiscono una figura (chiusa, numero di lati dritti) da quelle che non la definiscono (colore, grandezza, posizione).",
+        "Riconoscere triangoli, quadrilateri, pentagoni ed esagoni in qualsiasi posizione e grandezza.",
+        "Spiegare perché una figura aperta o con un lato curvo non è un triangolo.",
+        "Distinguere un quadrato da un rettangolo e da un rombo in base alla lunghezza dei lati e agli angoli retti."
       ]
     },
     "bramble.holds-more.k-md-a-2": {

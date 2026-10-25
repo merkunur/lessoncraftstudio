@@ -596,25 +596,28 @@
     },
     "sort-bins.defining-attributes.1-g-a-1": {
       "about": [
-        "Er det stadig en trekant, hvis den er rød, stor eller skæv? Hver runde nævner én figur, og barnet trækker hver figur ned i den rigtige kasse ved at afgøre, hvad den ER — ikke hvordan den ser ud — og sorterer rigtige trekanter fra firkanter, femkanter og sekskanter. Det er en interaktiv geometriaktivitet til 1. klasse, der kører i browseren uden noget at installere.",
-        "Hele idéen er forskellen på en egenskab, der bestemmer figuren, og en, der ikke gør. En trekant er bestemt ved at have tre sider — punktum — mens det at være rød, stor eller skæv bare er sådan, lige netop denne trekant tilfældigvis ser ud. Ved at sortere eksempler over for fristende ikke-eksempler lærer barnet at se bort fra det ydre og dømme ud fra den egenskab, der faktisk betyder noget. Det er begyndelsen på ægte geometrisk tænkning.",
-        "Aktiviteten er tilpasset Fælles Mål for matematik i 1. klasse: at skelne de egenskaber, der bestemmer en figur, fra dem, der ikke gør, og at bygge og tegne figurer, der har dem. Der er ingen tid og ingen point — bare rolig, legende træning."
+        "Hver figur er her bygget som et byggesæt: rette træpinde, der er samlet i messinghjørner. Når barnet trykker på en figur, skilles den ad på en bakke. Pindene lægger sig på række fra den længste til den korteste, og hjørnerne falder ned i små skåle. En trekant er altid tre rette pinde og tre fyldte skåle, uanset om den er drejet, malet, strakt eller klemt. Barnet sorterer rigtige trekanter, firkanter, femkanter, sekskanter og cirkler fra figurer, der bare ligner, navngiver en figur eller løser en figurgåde.",
+        "Figurerne, der bare ligner, er præcis dem, børn falder over. En trekant med én buet side taber en buet pind. En trekant, der ikke er lukket, efterlader én skål tom. En cirkel har én rund ring og slet ingen skåle. Trekanter, der står på hovedet, er bittesmå eller smalle, er rigtige trekanter, og også en L-form kan være en sekskant. Efter en første fejl ligger den forkert placerede figur skilt ad på bakken. Efter en anden ligger den søgte figur ved siden af, pind for pind. Når alt er rigtigt, lukker kassen, og dens figurer skilles ad i lige store bundter af pinde. Med en malerbøtte, en drejeknap og et strækhåndtag kan barnet derefter prøve at ændre en figur – pindene forbliver de samme.",
+        "Hjælpen stiller spørgsmål om pindene og afslører aldrig svaret. I tråd med Fælles Mål for geometri og måling. Uden tidtagning og uden point."
       ],
       "practices": [
-        "Afgøre, om en figur hører til en nævnt gruppe ud fra antallet af sider",
-        "Skelne en egenskab, der bestemmer figuren (antal sider), fra en, der ikke gør (farve, størrelse, retning)",
-        "Genkende trekanter og firkanter i mange former, ikke kun det typiske skolebogseksempel",
-        "Se bort fra de figurer, der ligner, og dømme en figur ud fra det, der gør den til netop den figur"
+        "At kende en figur på, hvad den er lavet af: lukket, rette sider, hvor mange",
+        "At se, at farve, størrelse og drejning ikke ændrer en figur",
+        "At genkende figurer, der bare ligner: åbne figurer, buede sider, én side for meget",
+        "At navngive trekanter, kvadrater, rektangler, femkanter, sekskanter, cirkler og halvcirkler"
       ],
       "howToPlay": [
-        "Læs den nævnte figur — for eksempel trekant — øverst i runden.",
-        "Træk hver figur ned i den rigtige kasse ved at afgøre, om den ER den figur, uanset farve, størrelse eller retning.",
-        "Passer det ikke? Prøv igen, så mange gange du vil — der er ingen tid og ingen point."
+        "Tryk på en figur for at skille den ad på bakken, og tryk igen for at samle den.",
+        "Træk hver figur over i en kasse, eller tryk på en figur og så på en kasse.",
+        "Tryk på Tjek. En figur i den forkerte kasse skilles ad på bakken, og et spørgsmål om pindene hjælper dig med at se efter igen.",
+        "I »Navngiv den« trykker du på figurens navn. I »Gåder« lægger du den figur, der passer til gåden, i rammen.",
+        "I indstillingerne vælger du niveau (Rigtig eller ej? · Navngiv den · Gåder), om bakken er åben eller kun bruges som hjælp, og 6 eller 4 figurer."
       ],
       "learningGoals": [
-        "Barnet kan skelne de egenskaber, der bestemmer en figur, fra dem, der ikke gør",
-        "Barnet forstår, at en trekant bliver ved med at være en trekant, når dens farve, størrelse eller retning ændrer sig",
-        "Barnet bygger den egenskabsbaserede tænkning, som det at sortere og navngive figurer bygger på"
+        "Skelne mellem afgørende egenskaber (lukket, antal rette sider) og uvæsentlige (farve, størrelse, placering).",
+        "Genkende trekanter, firkanter, femkanter og sekskanter i enhver placering og størrelse.",
+        "Forklare, hvorfor en åben figur eller en figur med en buet side ikke er en trekant.",
+        "Skelne et kvadrat fra et rektangel og en rombe ud fra sidernes længde og de rette vinkler."
       ]
     },
     "array.equal-groups.2-oa-c-4": {

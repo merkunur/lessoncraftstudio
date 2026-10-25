@@ -69,4 +69,4 @@ ONE native + pedagogy reviewer over the compact dump (all strings × 11, the pro
 - `mutate-fair-mobile.js` — 20 / 20 killed, control survived.
 - `local-test-fair-mobile.js` — 34,265 checks in 11 locales; real taps and drags, Check, the keyboard, the settings; every round of every level at rest, at miss 2 and solved, through 320…1366.
 - `visual-qa-activity` · `audit-activity-hierarchy` · `audit-settings-efficacy` (level, bubble live) · preflight-activity-routes · prose-claims · SERP copy · activity-content × 11 — all green.
-- LIVEVERIFY
+- `live-verify-fair-mobile.js` on production: 68 / 0 on 9.850. All 11 pages return 200. In en / de / sv / fi at 1366 and 390, with real taps and drags: the unequal halves card tapped on is held level by the pin; Check tips it ≥ 6° with the locale's hint; the fair card dragged on → Check → level, the success line, ½ on both shares; the iframe grows with the card. The first run, inside the deploy window, saw no iframe; the rerun passed.

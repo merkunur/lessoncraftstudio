@@ -79,4 +79,4 @@ ONE native-English + Grade-1 phonics reviewer over the compact dump.
   - the arm's hand measured over the vowel socket and never reaching into the picture.
 - `visual-qa-activity` 54 / 54 · `audit-activity-hierarchy` 272 / 0 · `audit-settings-efficacy` (clue, vowel live) · preflight-activity-routes · prose-claims · SERP copy · activity-content en — all green. 0 lines to shared cores or lcs-shell.
 
-LIVEVERIFY
+- `live-verify-reach-back-e.js` on production: 17 / 0 on 9.855. The en page returns 200. At 1366 and 390 with real taps: cap with a + the e → hintExtra and the end socket rings; the e tapped off → okNoE and a tag on the washing line; kite with i + the e → the arm taps the i and it shows its gold name face → okE. The iframe grows with the card.

@@ -3075,6 +3075,29 @@
         "Se at grunnordet beholder bokstavene sine når det kommer en ending på.",
         "Knytte endingene -er, -r og -t til flere enn én, nå og det som allerede har skjedd, og se at -en betyr den ene (hunden)."
       ]
+    },
+    "mending-basket.mend-page.rf-1-4-a": {
+      "about": [
+        "En side i en bildebok er revet i stykker, og mormor lapper den med nål og rød tråd. Barnet legger en papirbit i hullet og trykker på Sjekk: Tråden går fra biten til ordet som meningen henger på. I «Valpen var så liten at mormor måtte lete ___» holder nøye; med fort ryker tråden akkurat mellom liten og fort. Mormors sykurv er en leseøvelse for 1. trinn: lese og forstå.",
+        "Det er seks måter å lese nøye på: Fyll inn hullet, Rett ordet (en setning der ett ord ikke passer, som en paraply som holder mormor våt), Hvem er det?, Gjør som det står (for eksempel: fargelegg to ballonger røde, legg katten under senga), Stemmer det? (sy fast en sann setning eller klipp bort en gal) og Spørsmål til historien, der tråden leter etter setningen som viser svaret. Hver lappet side får farger og havner i mormors bok.",
+        "Aktiviteten er i tråd med LK20 (kompetansemål etter 2. trinn) for lesing. Ingen tidtaking og ingen poeng."
+      ],
+      "practices": [
+        "Velge ordet som setningen trenger",
+        "Finne ordet som ikke gir mening, og rette det",
+        "Finne ut hvem en setning handler om",
+        "Gjøre akkurat som det står, og sammenligne en setning med et bilde"
+      ],
+      "howToPlay": [
+        "Les setningen. Trykk på en papirbit: Den flyr inn i hullet. Trykk på hullet for å ta den tilbake.",
+        "Trykk på Sjekk. Tråden holder hvis ordene passer sammen, og ryker mellom de to ordene som ikke gjør det.",
+        "I Gjør som det står velger du en fargestift og trykker på bilder, eller du trykker på et klistremerke og så på plassen. I Stemmer det? velger du nåla eller saksa."
+      ],
+      "learningGoals": [
+        "Lese og forstå.",
+        "Bruke ordet som meningen henger på, til å velge, sjekke og rette ord.",
+        "Vise et svar med en setning fra teksten."
+      ]
     }
   }
 }

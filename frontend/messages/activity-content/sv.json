@@ -3687,6 +3687,29 @@
         "Se att grundordet behåller sina bokstäver när en ändelse läggs till.",
         "Koppla ändelserna -ar, -r och -de till fler än en, nu och det som redan har hänt."
       ]
+    },
+    "mending-basket.mend-page.rf-1-4-a": {
+      "about": [
+        "En sida i en bilderbok har gått sönder, och mormor lagar den med nål och röd tråd. Barnet lägger en pappersbit i hålet och trycker på Kontrollera: tråden går från biten till det ord som meningen hänger på. I \"Valpen var så liten att mormor fick leta ___\" håller noga; med snabbt går tråden av precis mellan liten och snabbt. Mormors sykorg är en läsövning för åk 1: läsa och förstå.",
+        "Det finns sex sätt att läsa noga: Fyll i luckan, Rätta ordet (en mening där ett ord inte passar, som ett paraply som håller mormor blöt), Vem är det?, Gör som det står (till exempel: färglägg två ballonger röda, lägg katten under sängen), Stämmer det? (sy fast en sann mening eller klipp bort en falsk) och Frågor om berättelsen, där tråden letar efter meningen som visar svaret. Varje lagad sida får färg och hamnar i mormors bok.",
+        "Aktiviteten följer Lgr22:s centrala innehåll för läsning i åk 1–3. Ingen tidtagning och inga poäng."
+      ],
+      "practices": [
+        "Välja det ord som meningen behöver",
+        "Hitta ordet som inte passar och rätta det",
+        "Lista ut vem en mening handlar om",
+        "Göra precis som det står och jämföra en mening med en bild"
+      ],
+      "howToPlay": [
+        "Läs meningen. Tryck på en pappersbit: den flyger in i hålet. Tryck på hålet för att ta tillbaka den.",
+        "Tryck på Kontrollera. Tråden håller om orden passar ihop och går av mellan de två ord som inte gör det.",
+        "I Gör som det står väljer du en krita och trycker på bilder, eller trycker på ett klistermärke och sedan på dess plats. I Stämmer det? väljer du nålen eller saxen."
+      ],
+      "learningGoals": [
+        "Läsa och förstå.",
+        "Använda det ord som meningen hänger på för att välja, pröva och rätta ord.",
+        "Visa ett svar med en mening ur texten."
+      ]
     }
   }
 }

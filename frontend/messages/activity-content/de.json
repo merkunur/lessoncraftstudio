@@ -4571,6 +4571,29 @@
         "Sehen, dass der Wortstamm seine Buchstaben behält, wenn eine Endung dazukommt.",
         "Die Verbendungen -e, -st und -t den Wörtern ich, du und er zuordnen."
       ]
+    },
+    "mending-basket.mend-page.rf-1-4-a": {
+      "about": [
+        "Eine Seite aus dem Bilderbuch ist zerrissen, und Oma flickt sie mit Nadel und rotem Faden. Das Kind legt ein Papierstück in das Loch und drückt auf Prüfen: Der Faden läuft vom Stück zu dem Wort, an dem der Sinn hängt. In „Der Welpe war so winzig, dass Oma ganz ___ suchen musste“ hält genau; bei schnell reißt der Faden genau zwischen winzig und schnell. Omas Flickkorb ist eine Leseübung für die 1. Klasse: Texte sinnentnehmend lesen.",
+        "Es gibt sechs Arten, genau zu lesen: Lücke füllen, Wort verbessern (ein Satz, in dem ein Wort nicht passt, etwa ein Schirm, unter dem Oma nass bleibt), Wer ist gemeint?, Mach, was dasteht (zum Beispiel: Male zwei Luftballons rot an, leg die Katze unter das Bett), Stimmt das? (einen wahren Satz einnähen, einen falschen herausschneiden) und Fragen zur Geschichte, bei denen der Faden den Satz sucht, der die Antwort beweist. Jede geflickte Seite wird bunt und kommt in Omas Buch.",
+        "Die Übung folgt dem Lehrplan der 1. Klasse zum Lesen. Ohne Zeitdruck und ohne Punkte."
+      ],
+      "practices": [
+        "Das Wort wählen, das der Satz braucht",
+        "Das Wort finden, das keinen Sinn ergibt, und es verbessern",
+        "Herausfinden, wer gemeint ist",
+        "Eine Anweisung genau ausführen und einen Satz mit einem Bild vergleichen"
+      ],
+      "howToPlay": [
+        "Lies den Satz. Tipp ein Papierstück an: Es fliegt in das Loch. Tipp das Loch an, um es zurückzunehmen.",
+        "Drück auf Prüfen. Der Faden hält, wenn die Wörter zusammenpassen, und reißt zwischen den zwei Wörtern, die es nicht tun.",
+        "Bei „Mach, was dasteht“ nimmst du einen Stift und tippst Bilder an, oder du tippst einen Aufkleber und dann seinen Platz an. Bei „Stimmt das?“ wählst du Nadel oder Schere."
+      ],
+      "learningGoals": [
+        "Texte sinnentnehmend lesen.",
+        "Mit dem Wort, an dem der Sinn hängt, Wörter wählen, prüfen und verbessern.",
+        "Eine Antwort mit einem Satz aus dem Text belegen."
+      ]
     }
   }
 }

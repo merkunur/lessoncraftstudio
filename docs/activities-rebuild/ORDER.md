@@ -122,7 +122,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 112 | LIVE 2026-10-25 · The Talking Clasp | 1 | RF.1.3 | `syllable-builder.build-vowel-teams.rf-1-3` | syllable-builder-activity | Build Vowel-Team Words — Long Vowel Sounds |
 | 113 | LIVE 2026-10-25 · The Freezing Floes | 1 | RF.1.3.e | `domino-two-part.two-syllable.rf-1-3-e` | domino-two-part-activity | Domino's Two-Part Words — Read Two-Syllable Words (Grade 1) |
 | 114 | LIVE 2026-10-25 · The Root Stencil | 1 | RF.1.3.F | `syllable-builder.build-endings.rf-1-3-f` | syllable-builder-activity | Build Words with Endings — Reading -s, -ed, and -ing |
-| 115 |  | 1 | RF.1.4.a | `mending-basket.mend-page.rf-1-4-a` | mending-basket-activity | Granny's Mending Basket — Read for Meaning (Grade 1) |
+| 115 | LIVE 2026-10-25 · The Thread That Snaps | 1 | RF.1.4.a | `mending-basket.mend-page.rf-1-4-a` | mending-basket-activity | Granny's Mending Basket — Read for Meaning (Grade 1) |
 | 116 |  | 1 | RL.1.2 | `juniper-story-lantern.central-message.rl-1-2` | juniper-story-lantern-activity | Juniper's Story Lantern — What's the Lesson? (Grade 1) |
 | 117 |  | 1 | RL.1.3 | `marlo-magnifier.trait-evidence.rl-1-3` | marlo-magnifier-activity | Marlo's Magnifier — Show Me the Proof (Grade 1) |
 | 118 |  | 1 | RL.1.5 | `bea-two-bookshelves.story-or-fact.rl-1-5` | bea-two-bookshelves-activity | Bea's Two Bookshelves — Story Book or Fact Book? (Grade 1) |

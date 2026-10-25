@@ -7,17 +7,17 @@
   <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
   <style>
     html, body { background: transparent !important; }
-    html, body, #lcs-root { height: 100% !important; }
   </style>
 </head>
 <body>
   <div id="lcs-root"></div>
 
-  <!-- Shell, then the locale-neutral mend-page core, then this activity.
-       NOTE: bump ?v=N on EVERY change to mending-basket-activity.js (§A.13.42). -->
+  <!-- Shell, the mending-basket model, then this activity.
+       NOTE: bump ?v=N on EVERY change to mending-basket-activity.js / mending-basket-core.js (§A.13.42). -->
   <script src="/mini-tools/lcs-shell.js?v=9"></script>
-  <script src="/mini-tools/mend-page-core.js?v=1"></script>
-  <script src="/mini-tools/mending-basket-activity.js?v=8"></script>
+  
+  <script src="/mini-tools/mending-basket-core.js?v=1"></script>
+  <script src="/mini-tools/mending-basket-activity.js?v=9"></script>
   <script>
     LCS.mount(MendingBasketActivity, { mount: '#lcs-root' });
   </script>

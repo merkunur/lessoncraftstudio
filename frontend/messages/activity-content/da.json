@@ -3047,6 +3047,29 @@
         "Se, at grundordet beholder sine bogstaver, når der kommer en endelse på.",
         "Knytte endelserne -er, -r og -de til flere end én, nu og det, der allerede er sket."
       ]
+    },
+    "mending-basket.mend-page.rf-1-4-a": {
+      "about": [
+        "En side i en billedbog er revet i stykker, og mormor lapper den med nål og rød tråd. Barnet lægger et stykke papir i hullet og trykker på Tjek: Tråden går fra stykket til det ord, meningen hænger på. I \"Hvalpen var så lille, at mormor måtte lede ___\" holder grundigt; med hurtigt knækker tråden lige mellem lille og hurtigt. Mormors sykurv er en læseøvelse til 1. klasse: læse og forstå.",
+        "Der er seks måder at læse grundigt på: Udfyld hullet, Ret ordet (en sætning, hvor et ord ikke passer, som en paraply, der holder mormor våd), Hvem er det?, Gør, som der står (for eksempel: farv to balloner røde, læg katten under sengen), Passer det? (sy en sand sætning fast eller klip en forkert væk) og Spørgsmål til historien, hvor tråden leder efter den sætning, der viser svaret. Hver lappet side får farver og kommer i mormors bog.",
+        "Aktiviteten er i tråd med Fælles Mål for læsning i indskolingen. Ingen tidtagning og ingen point."
+      ],
+      "practices": [
+        "Vælge det ord, sætningen skal bruge",
+        "Finde det ord, der ikke giver mening, og rette det",
+        "Finde ud af, hvem en sætning handler om",
+        "Gøre præcis, som der står, og sammenligne en sætning med et billede"
+      ],
+      "howToPlay": [
+        "Læs sætningen. Tryk på et stykke papir: Det flyver ind i hullet. Tryk på hullet for at tage det tilbage.",
+        "Tryk på Tjek. Tråden holder, hvis ordene passer sammen, og knækker mellem de to ord, der ikke gør.",
+        "I Gør, som der står, vælger du et farvekridt og trykker på billeder, eller du trykker på et klistermærke og så på dets plads. I Passer det? vælger du nålen eller saksen."
+      ],
+      "learningGoals": [
+        "Læse og forstå.",
+        "Bruge det ord, meningen hænger på, til at vælge, tjekke og rette ord.",
+        "Vise et svar med en sætning fra teksten."
+      ]
     }
   }
 }

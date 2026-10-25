@@ -4503,6 +4503,29 @@
         "Perceber que a palavra de base mantém suas letras no plural.",
         "Saber quando o plural leva -s e quando leva -es."
       ]
+    },
+    "mending-basket.mend-page.rf-1-4-a": {
+      "about": [
+        "Uma página de um livro de histórias está rasgada, e a vovó remenda com agulha e linha vermelha. A criança coloca um pedaço de papel no buraco e toca em Verificar: a linha vai do pedaço até a palavra de que o sentido depende. Em \"O filhote era tão pequeno que a vovó teve que procurar com muito ___\", cuidado segura; com barulho, a linha arrebenta bem entre pequeno e barulho. A cesta de costura da vovó é uma atividade de leitura para o 1º ano: ler com compreensão.",
+        "Há seis jeitos de ler com atenção: Preencha o buraco, Corrija a palavra (uma frase em que uma palavra não combina, como um guarda-chuva que deixa a vovó molhada), Quem é?, Faça o que diz (por exemplo: pinte dois balões de vermelho, coloque o gato embaixo da cama), É verdade? (costurar uma frase verdadeira ou recortar uma falsa) e Perguntas da história, em que a linha procura a frase que prova a resposta. Cada página remendada ganha cor e vai para o livro da vovó.",
+        "A atividade está alinhada à BNCC para a leitura no 1º ano. Sem cronômetro e sem pontos."
+      ],
+      "practices": [
+        "Escolher a palavra de que a frase precisa",
+        "Encontrar a palavra que não faz sentido e corrigi-la",
+        "Descobrir de quem a frase está falando",
+        "Seguir uma instrução exatamente e comparar uma frase com uma figura"
+      ],
+      "howToPlay": [
+        "Leia a frase. Toque em um pedaço de papel: ele voa para o buraco. Toque no buraco para tirar.",
+        "Toque em Verificar. A linha segura se as palavras combinam, e arrebenta entre as duas palavras que não combinam.",
+        "Em Faça o que diz, escolha um giz de cera e toque nas figuras, ou toque em um adesivo e depois no lugar dele. Em É verdade?, escolha a agulha ou a tesoura."
+      ],
+      "learningGoals": [
+        "Ler com compreensão.",
+        "Usar a palavra de que o sentido depende para escolher, conferir e corrigir.",
+        "Provar uma resposta com uma frase do texto."
+      ]
     }
   }
 }

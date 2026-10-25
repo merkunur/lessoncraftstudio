@@ -4450,6 +4450,29 @@
         "Scrivere parole semplici suono per suono.",
         "Capire che una parola non ha sempre tanti suoni quante lettere."
       ]
+    },
+    "mending-basket.mend-page.rf-1-4-a": {
+      "about": [
+        "Una pagina di un libro illustrato è strappata, e la nonna la ricuce con ago e filo rosso. Il bambino mette un pezzo di carta nel buco e preme Controlla: il filo va dal pezzo alla parola da cui dipende il senso. In «Il cucciolo era così piccolo che la nonna ha dovuto cercarlo con molta ___» attenzione tiene; con fretta il filo si rompe proprio tra piccolo e fretta. Il cestino da cucito della nonna è un’attività di lettura per la classe prima: leggere e capire.",
+        "Ci sono sei modi di leggere con attenzione: Riempi il buco, Correggi la parola (una frase in cui una parola non va, come un ombrello che lascia la nonna bagnata), Chi è?, Fai quello che dice (per esempio: colora di rosso due palloncini, metti il gatto sotto il letto), Vero o no? (cucire una frase vera, tagliare via una falsa) e Domande sulla storia, in cui il filo cerca la frase che dimostra la risposta. Ogni pagina ricucita si colora ed entra nel libro della nonna.",
+        "L’attività è in linea con le Indicazioni nazionali per la lettura nella classe prima. Senza cronometro e senza punteggi."
+      ],
+      "practices": [
+        "Scegliere la parola che serve alla frase",
+        "Trovare la parola che non ha senso e correggerla",
+        "Capire di chi parla una frase",
+        "Eseguire una consegna esattamente e confrontare una frase con un disegno"
+      ],
+      "howToPlay": [
+        "Leggi la frase. Tocca un pezzo di carta: vola nel buco. Tocca il buco per riprenderlo.",
+        "Premi Controlla. Il filo tiene se le parole vanno d’accordo, e si rompe tra le due parole che non ci vanno.",
+        "In Fai quello che dice scegli un pastello e tocca i disegni, oppure tocca un adesivo e poi il suo posto. In Vero o no? scegli l’ago o le forbici."
+      ],
+      "learningGoals": [
+        "Leggere e capire.",
+        "Usare la parola da cui dipende il senso per scegliere, controllare e correggere.",
+        "Dimostrare una risposta con una frase del testo."
+      ]
     }
   }
 }

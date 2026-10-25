@@ -4524,6 +4524,29 @@
         "Voir que le mot de départ garde ses lettres quand on ajoute une terminaison.",
         "Relier chaque marque à son sens : plusieurs (-s, -x), féminin (-e), ils et elles (-nt)."
       ]
+    },
+    "mending-basket.mend-page.rf-1-4-a": {
+      "about": [
+        "Une page de livre d’images est déchirée, et Mamie la recoud avec une aiguille et un fil rouge. L’enfant met un morceau de papier dans le trou et appuie sur Vérifier : le fil va du morceau jusqu’au mot dont dépend le sens. Dans « Le chiot était si petit que Mamie a dû regarder ___ », attentivement tient ; avec vite, le fil casse juste entre petit et vite. Le panier à couture de Mamie est une activité de lecture pour le CP : lire pour comprendre.",
+        "Il y a six façons de lire attentivement : Remplis le trou, Corrige le mot (une phrase où un mot ne va pas, comme un parapluie qui garde Mamie mouillée), Qui est-ce ?, Fais ce qui est écrit (par exemple : colorie deux ballons en rouge, mets le chat sous le lit), Vrai ou pas ? (coudre une phrase vraie, découper une phrase fausse) et Questions sur l’histoire, où le fil cherche la phrase qui prouve la réponse. Chaque page réparée prend des couleurs et rejoint le livre de Mamie.",
+        "L’activité est alignée sur les programmes officiels de lecture du CP. Sans chronomètre et sans points."
+      ],
+      "practices": [
+        "Choisir le mot dont la phrase a besoin",
+        "Trouver le mot qui n’a pas de sens et le corriger",
+        "Comprendre de qui parle une phrase",
+        "Suivre une consigne exactement et comparer une phrase à une image"
+      ],
+      "howToPlay": [
+        "Lis la phrase. Touche un morceau de papier : il s’envole dans le trou. Touche le trou pour le reprendre.",
+        "Appuie sur Vérifier. Le fil tient si les mots vont ensemble, et casse entre les deux mots qui ne vont pas ensemble.",
+        "Dans Fais ce qui est écrit, prends un crayon et touche des images, ou touche un autocollant puis sa place. Dans Vrai ou pas ?, choisis l’aiguille ou les ciseaux."
+      ],
+      "learningGoals": [
+        "Lire pour comprendre.",
+        "S’appuyer sur le mot dont dépend le sens pour choisir, vérifier et corriger.",
+        "Justifier une réponse par une phrase du texte."
+      ]
     }
   }
 }

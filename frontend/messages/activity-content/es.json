@@ -4473,6 +4473,29 @@
         "Ver que la palabra de base conserva sus letras al formar el plural.",
         "Saber cuándo el plural lleva -s y cuándo lleva -es."
       ]
+    },
+    "mending-basket.mend-page.rf-1-4-a": {
+      "about": [
+        "Una página de un libro de cuentos está rota, y la abuela la remienda con aguja e hilo rojo. El niño pone un pedazo de papel en el hueco y pulsa Comprobar: el hilo va del pedazo a la palabra de la que depende el sentido. En «El cachorro era tan pequeño que la abuela tuvo que buscar con mucho ___», cuidado aguanta; con ruido, el hilo se rompe justo entre pequeño y ruido. El costurero de la abuela es una actividad de lectura para primer grado: leer con comprensión.",
+        "Hay seis maneras de leer con atención: Llena el hueco, Corrige la palabra (una oración donde una palabra no encaja, como un paraguas con el que la abuela se queda mojada), ¿Quién es?, Haz lo que dice (por ejemplo: colorea dos globos de rojo, pon el gato debajo de la cama), ¿Es cierto? (coser una oración verdadera o recortar una falsa) y Preguntas del cuento, donde el hilo busca la oración que prueba la respuesta. Cada página remendada se llena de color y va al libro de la abuela.",
+        "La actividad está alineada con el currículo oficial de lectura de primer grado. Sin cronómetro y sin puntos."
+      ],
+      "practices": [
+        "Elegir la palabra que la oración necesita",
+        "Encontrar la palabra que no tiene sentido y corregirla",
+        "Descubrir de quién habla una oración",
+        "Seguir una instrucción al pie de la letra y comparar una oración con un dibujo"
+      ],
+      "howToPlay": [
+        "Lee la oración. Toca un pedazo de papel: vuela al hueco. Toca el hueco para quitarlo.",
+        "Pulsa Comprobar. El hilo aguanta si las palabras concuerdan, y se rompe entre las dos palabras que no.",
+        "En Haz lo que dice, elige una crayola y toca dibujos, o toca una calcomanía y luego su lugar. En ¿Es cierto?, elige la aguja o las tijeras."
+      ],
+      "learningGoals": [
+        "Leer con comprensión.",
+        "Usar la palabra de la que depende el sentido para elegir, revisar y corregir.",
+        "Probar una respuesta con una oración del texto."
+      ]
     }
   }
 }

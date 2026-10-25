@@ -3,164 +3,63 @@
     "id": "mending-basket.mend-page.rf-1-4-a",
     "tool": "mending-basket-activity",
     "task_template": "mend-page",
-    "alignment": { "framework": "CCSS", "code": "RF.1.4.a", "grade": "1", "strand": "Reading: Foundational Skills" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.1.4.a",
+      "grade": "1",
+      "strand": "Reading: Foundational Skills"
+    },
     "params": {
-      "rounds": [
-        {
-          "id": "cloze-puppy", "type": "cloze", "band": 1,
-          "tokens": [{"t":"The"},{"t":"puppy"},{"t":"was"},{"t":"so"},{"t":"tiny"},{"t":"that"},{"t":"Granny"},{"t":"had"},{"t":"to"},{"t":"look"},{"gap":true},{"t":"to"},{"t":"find"},{"t":"him"},{"t":"in"},{"t":"the"},{"t":"tall"},{"t":"grass"}],
-          "gapIndex": 10, "keystoneIndex": 4, "answer": "carefully",
-          "pieces": [
-            {"value":"carefully","text":"carefully","pos":"ADV","freqRank":3,"localAssocScore":1,"picsTrap":false},
-            {"value":"quickly","text":"quickly","pos":"ADV","freqRank":1,"localAssocScore":3,"picsTrap":false},
-            {"value":"loudly","text":"loudly","pos":"ADV","freqRank":2,"localAssocScore":2,"picsTrap":false}
-          ],
-          "picture": {"family":"puppy-grass","visibleObjects":["puppy","grass"],"answerDetailInTornRegion":true,"aliveFx":["wag","blink"]},
-          "tts": {"prompt":"The puppy was so tiny that Granny had to look — how?","healed":"The puppy was so tiny that Granny had to look carefully to find him in the tall grass."}
-        },
-        {
-          "id": "cloze-soup-hot", "type": "cloze", "band": 1, "minimalPairId": "soup",
-          "tokens": [{"t":"The"},{"t":"soup"},{"t":"was"},{"t":"too"},{"t":"hot"},{"t":"so"},{"t":"Granny"},{"t":"let"},{"t":"it"},{"t":"get"},{"gap":true}],
-          "gapIndex": 10, "keystoneIndex": 4, "answer": "cool",
-          "pieces": [
-            {"value":"cool","text":"cool","pos":"ADJ","freqRank":2,"localAssocScore":2,"picsTrap":false},
-            {"value":"warm","text":"warm","pos":"ADJ","freqRank":1,"localAssocScore":3,"picsTrap":false},
-            {"value":"soft","text":"soft","pos":"ADJ","freqRank":3,"localAssocScore":1,"picsTrap":false}
-          ],
-          "picture": {"family":"soup-bowl","visibleObjects":["bowl","spoon"],"answerDetailInTornRegion":true,"aliveFx":["steam"]},
-          "tts": {"prompt":"The soup was too hot, so Granny let it get — what?","healed":"The soup was too hot, so Granny let it get cool."}
-        },
-        {
-          "id": "cloze-soup-cold", "type": "cloze", "band": 1, "minimalPairId": "soup",
-          "tokens": [{"t":"The"},{"t":"soup"},{"t":"was"},{"t":"too"},{"t":"cold"},{"t":"so"},{"t":"Granny"},{"t":"let"},{"t":"it"},{"t":"get"},{"gap":true}],
-          "gapIndex": 10, "keystoneIndex": 4, "answer": "warm",
-          "pieces": [
-            {"value":"warm","text":"warm","pos":"ADJ","freqRank":2,"localAssocScore":2,"picsTrap":false},
-            {"value":"cool","text":"cool","pos":"ADJ","freqRank":1,"localAssocScore":3,"picsTrap":false},
-            {"value":"soft","text":"soft","pos":"ADJ","freqRank":3,"localAssocScore":1,"picsTrap":false}
-          ],
-          "picture": {"family":"soup-bowl","visibleObjects":["bowl","spoon"],"answerDetailInTornRegion":true,"aliveFx":["steam"]},
-          "tts": {"prompt":"The soup was too cold, so Granny let it get — what?","healed":"The soup was too cold, so Granny let it get warm."}
-        },
-        {
-          "id": "contra-rain", "type": "contradiction", "band": 2, "picsTrapExpected": true,
-          "tokens": [{"t":"It"},{"t":"was"},{"t":"raining"},{"t":"so"},{"t":"Granny"},{"t":"opened"},{"t":"her"},{"t":"umbrella"},{"t":"to"},{"t":"stay"},{"t":"wet"}],
-          "gapIndex": 10, "keystoneIndex": 2, "answer": "wet",
-          "extras": {"contradictionIndex": 10},
-          "pieces": [
-            {"value":"wet","text":"wet","pos":"ADJ","freqRank":2,"localAssocScore":1,"picsTrap":false},
-            {"value":"umbrella","text":"umbrella","pos":"N","freqRank":1,"localAssocScore":3,"picsTrap":true},
-            {"value":"raining","text":"raining","pos":"V","freqRank":3,"localAssocScore":2,"picsTrap":false}
-          ],
-          "picture": {"family":"rainy-window","visibleObjects":["window","rain"],"answerDetailInTornRegion":true,"aliveFx":["drip"]},
-          "tts": {"prompt":"One word does not make sense. Tap the word that is wrong.","healed":"It was raining, so Granny opened her umbrella to stay dry."}
-        },
-        {
-          "id": "contra-fire", "type": "contradiction", "band": 2,
-          "tokens": [{"t":"The"},{"t":"fire"},{"t":"was"},{"t":"warm"},{"t":"so"},{"t":"Granny"},{"t":"felt"},{"t":"cold"},{"t":"by"},{"t":"it"}],
-          "gapIndex": 7, "keystoneIndex": 3, "answer": "cold",
-          "extras": {"contradictionIndex": 7},
-          "pieces": [
-            {"value":"cold","text":"cold","pos":"ADJ","freqRank":2,"localAssocScore":1,"picsTrap":false},
-            {"value":"fire","text":"fire","pos":"N","freqRank":1,"localAssocScore":3,"picsTrap":true},
-            {"value":"warm","text":"warm","pos":"ADJ","freqRank":3,"localAssocScore":2,"picsTrap":false}
-          ],
-          "picture": {"family":"fireside","visibleObjects":["chair","rug"],"answerDetailInTornRegion":true,"aliveFx":["flicker"]},
-          "tts": {"prompt":"One word does not make sense. Tap the word that is wrong.","healed":"The fire was warm, so Granny felt warm by it."}
-        },
-        {
-          "id": "connect-dog", "type": "connect", "band": 2,
-          "tokens": [{"t":"The"},{"t":"dog"},{"t":"chased"},{"t":"the"},{"t":"ball"},{"t":"."},{"t":"Then"},{"gap":true},{"t":"brought"},{"t":"it"},{"t":"back"},{"t":"to"},{"t":"Granny"}],
-          "gapIndex": 7, "keystoneIndex": 1, "answer": "the dog",
-          "extras": {"referentIndex": 1, "referentPrompt": "Who chased the ball?"},
-          "pieces": [
-            {"value":"the dog","text":"the dog","pos":"N","freqRank":2,"localAssocScore":2,"picsTrap":false},
-            {"value":"the ball","text":"the ball","pos":"N","freqRank":1,"localAssocScore":3,"picsTrap":false},
-            {"value":"Granny","text":"Granny","pos":"N","freqRank":3,"localAssocScore":1,"picsTrap":false}
-          ],
-          "picture": {"family":"garden","visibleObjects":["garden","fence"],"answerDetailInTornRegion":true,"aliveFx":["sway"]},
-          "tts": {"prompt":"First tap who chased the ball. Then mend the page.","healed":"The dog chased the ball. Then the dog brought it back to Granny."}
-        },
-        {
-          "id": "connect-mouse", "type": "connect", "band": 2,
-          "tokens": [{"t":"A"},{"t":"little"},{"t":"mouse"},{"t":"found"},{"t":"some"},{"t":"cheese"},{"t":"."},{"t":"Quickly"},{"gap":true},{"t":"ran"},{"t":"to"},{"t":"its"},{"t":"hole"}],
-          "gapIndex": 8, "keystoneIndex": 2, "answer": "the mouse",
-          "extras": {"referentIndex": 2, "referentPrompt": "Who found the cheese?"},
-          "pieces": [
-            {"value":"the mouse","text":"the mouse","pos":"N","freqRank":2,"localAssocScore":2,"picsTrap":false},
-            {"value":"the cheese","text":"the cheese","pos":"N","freqRank":1,"localAssocScore":3,"picsTrap":false},
-            {"value":"the hole","text":"the hole","pos":"N","freqRank":3,"localAssocScore":1,"picsTrap":false}
-          ],
-          "picture": {"family":"garden","visibleObjects":["wall","grass"],"answerDetailInTornRegion":true,"aliveFx":["sway"]},
-          "tts": {"prompt":"First tap who found the cheese. Then mend the page.","healed":"A little mouse found some cheese. Quickly the mouse ran to its hole."}
-        },
-        {
-          "id": "place-cat-under", "type": "placement", "band": 3, "minimalPairId": "cat-quilt",
-          "tokens": [{"t":"The"},{"t":"shy"},{"t":"cat"},{"t":"is"},{"t":"hiding"},{"t":"under"},{"t":"the"},{"t":"warm"},{"t":"quilt"}],
-          "gapIndex": 5, "keystoneIndex": 5, "answer": "under",
-          "extras": {"zones": ["on", "under", "beside", "in-front", "behind"], "figure": "cat"},
-          "picture": {"family":"cat-quilt","visibleObjects":["quilt","bed"],"answerDetailInTornRegion":true,"aliveFx":["purr"]},
-          "tts": {"prompt":"Read it, then put the cat where it belongs.","healed":"The shy cat is hiding under the warm quilt."}
-        },
-        {
-          "id": "place-cat-on", "type": "placement", "band": 3, "minimalPairId": "cat-quilt",
-          "tokens": [{"t":"The"},{"t":"shy"},{"t":"cat"},{"t":"is"},{"t":"hiding"},{"t":"on"},{"t":"the"},{"t":"warm"},{"t":"quilt"}],
-          "gapIndex": 5, "keystoneIndex": 5, "answer": "on",
-          "extras": {"zones": ["on", "under", "beside", "in-front", "behind"], "figure": "cat"},
-          "picture": {"family":"cat-quilt","visibleObjects":["quilt","bed"],"answerDetailInTornRegion":true,"aliveFx":["purr"]},
-          "tts": {"prompt":"Read it, then put the cat where it belongs.","healed":"The shy cat is hiding on the warm quilt."}
-        },
-        {
-          "id": "match-bow", "type": "match", "band": 3,
-          "tokens": [{"t":"By"},{"t":"the"},{"t":"old"},{"t":"door"},{"t":"sat"},{"t":"the"},{"t":"cat"},{"t":"with"},{"t":"a"},{"t":"red"},{"t":"bow"}],
-          "gapIndex": 9, "keystoneIndex": 9, "answer": 0,
-          "extras": {"pictures": 2, "matchPair": {"detail": "bow color", "a": "red bow", "b": "blue bow"}, "farWordIndex": 9},
-          "picture": {"family":"twin-cat-bow","visibleObjects":["cat","door"],"answerDetailInTornRegion":true,"aliveFx":["blink"]},
-          "tts": {"prompt":"Read it, then drop the page on the picture it matches.","healed":"By the old door sat the cat with a red bow."}
-        },
-        {
-          "id": "match-sit", "type": "match", "band": 3,
-          "tokens": [{"t":"In"},{"t":"the"},{"t":"park"},{"t":"the"},{"t":"happy"},{"t":"dog"},{"t":"sat"},{"t":"down"},{"t":"to"},{"t":"rest"}],
-          "gapIndex": 6, "keystoneIndex": 6, "answer": 1,
-          "extras": {"pictures": 2, "matchPair": {"detail": "pose", "a": "standing", "b": "sitting", "pics": [{"noun":"dog","themeDir":"pets"},{"noun":"dog","themeDir":"farm animals"}]}, "farWordIndex": 6},
-          "picture": {"family":"twin-dog-paw","visibleObjects":["dog","park"],"answerDetailInTornRegion":true,"aliveFx":["wag"]},
-          "tts": {"prompt":"Read it, then drop the page on the picture it matches.","healed":"In the park the happy dog sat down to rest."}
-        },
-        {
-          "id": "seq-seed", "type": "sequence", "band": 4,
-          "strips": [{"id":"a","text":"Granny planted a tiny seed."},{"id":"b","text":"She watered it every day."},{"id":"c","text":"A tall flower grew up."}],
-          "answer": "seq", "extras": {"sequenceOrder": ["a", "b", "c"], "connective": "planted then watered then grew"},
-          "picture": {"family":"garden","visibleObjects":["pot","soil"],"answerDetailInTornRegion":true,"aliveFx":["bloom"]},
-          "tts": {"prompt":"Put the three strips in the right order.","healed":"Granny planted a tiny seed. She watered it every day. A tall flower grew up."}
-        },
-        {
-          "id": "seq-rain", "type": "sequence", "band": 4,
-          "strips": [{"id":"a","text":"The sky grew dark."},{"id":"b","text":"Big rain began to fall."},{"id":"c","text":"Granny opened her umbrella."}],
-          "answer": "seq", "extras": {"sequenceOrder": ["a", "b", "c"], "connective": "dark then rain then umbrella"},
-          "picture": {"family":"rainy-window","visibleObjects":["cloud","window"],"answerDetailInTornRegion":true,"aliveFx":["drip"]},
-          "tts": {"prompt":"Put the three strips in the right order.","healed":"The sky grew dark. Big rain began to fall. Granny opened her umbrella."}
-        },
-        {
-          "id": "sort-things", "type": "sort", "band": 4,
-          "items": [{"id":"i0","text":"It keeps your hands warm."},{"id":"i1","text":"It is sweet and good to bite."},{"id":"i2","text":"You put it on your head."}],
-          "answer": "sort", "extras": {"sortBins": ["wear", "eat"], "sortMap": {"i0": "wear", "i1": "eat", "i2": "wear"}},
-          "picture": {"family":"basket-sort","visibleObjects":["basket"],"answerDetailInTornRegion":true,"aliveFx":["fill"]},
-          "tts": {"prompt":"Read each one. Put it in the basket its meaning fits.","healed":"Some things you wear. Some things you eat."}
-        },
-        {
-          "id": "sort-daynight", "type": "sort", "band": 4,
-          "items": [{"id":"i0","text":"The bright sun is high up."},{"id":"i1","text":"The moon and stars are out."},{"id":"i2","text":"Birds sing in the green trees."}],
-          "answer": "sort", "extras": {"sortBins": ["day", "night"], "sortMap": {"i0": "day", "i1": "night", "i2": "day"}},
-          "picture": {"family":"garden","visibleObjects":["hill","sky"],"answerDetailInTornRegion":true,"aliveFx":["twinkle"]},
-          "tts": {"prompt":"Read each one. Put it in the basket its meaning fits.","healed":"Some things happen in the day. Some things happen at night."}
-        }
-      ]
+      "clue": [
+        "fill",
+        "fix",
+        "who",
+        "do",
+        "true",
+        "story"
+      ],
+      "rounds": 9
     },
     "theme": null,
-    "slug": { "en": "mending-basket" },
-    "page_title": { "en": "Granny's Mending Basket — Read for Meaning (Grade 1)" },
-    "page_intro": { "en": "An interactive Grade 1 reading game for reading with understanding: help Granny mend torn storybook pages by working out the piece the meaning needs — fill the gap, fix the word that doesn't fit, follow who the story means, or put the pictures in order — and each mended page develops from grey into colour. Reading closely for meaning is the heart of Common Core RF.1.4.a." }
-,
+    "slug": {
+      "en": "mending-basket",
+      "de": "omas-flickkorb-sinnentnehmend-lesen-1-klasse",
+      "nl": "omas-naaimand-begrijpend-lezen-groep-3",
+      "fr": "le-panier-a-couture-de-mamie-lire-pour-comprendre-cp",
+      "es": "el-costurero-de-la-abuela-leer-con-comprension-primer-grado",
+      "it": "il-cestino-da-cucito-della-nonna-leggere-e-capire-classe-prima",
+      "pt": "a-cesta-de-costura-da-vovo-ler-com-compreensao-1-ano",
+      "sv": "mormors-sykorg-las-och-forsta-ak-1",
+      "da": "mormors-sykurv-laes-og-forsta-1-klasse",
+      "no": "mormors-sykurv-les-og-forsta-1-trinn",
+      "fi": "mummon-ompelukori-lue-ja-ymmarra-1-luokka"
+    },
+    "page_title": {
+      "en": "Granny's Mending Basket — Read for Meaning (Grade 1)",
+      "de": "Omas Flickkorb – sinnentnehmend lesen (1. Klasse)",
+      "nl": "Oma’s naaimand – begrijpend lezen (groep 3)",
+      "fr": "Le panier à couture de Mamie : lire pour comprendre (CP)",
+      "es": "El costurero de la abuela: leer con comprensión (primer grado)",
+      "it": "Il cestino da cucito della nonna: leggere e capire (classe prima)",
+      "pt": "A cesta de costura da vovó: ler com compreensão (1º ano)",
+      "sv": "Mormors sykorg – läs och förstå (åk 1)",
+      "da": "Mormors sykurv – læs og forstå (1. klasse)",
+      "no": "Mormors sykurv – les og forstå (1. trinn)",
+      "fi": "Mummon ompelukori – lue ja ymmärrä (1. luokka)"
+    },
+    "page_intro": {
+      "en": "An interactive Grade 1 reading game for reading with understanding: help Granny mend torn storybook pages by working out the piece the meaning needs — fill the gap, fix the word that doesn't fit, follow who the story means, or put the pictures in order — and each mended page develops from grey into colour. Reading closely for meaning is the heart of Common Core RF.1.4.a.",
+      "de": "Oma näht die zerrissene Seite zu, und der Faden hält nur, wo die Wörter zusammenpassen: Wählt das Kind ein Stück, das nicht passt, reißt der Faden genau zwischen den zwei Wörtern, die sich widersprechen. Interaktive Leseübung für die 1. Klasse nach dem Lehrplan.",
+      "nl": "Oma naait de gescheurde bladzijde dicht, en de draad houdt alleen waar de woorden bij elkaar passen: kiest je kind een stukje dat niet past, dan breekt de draad precies tussen de twee woorden die botsen. Interactieve leesoefening voor groep 3, passend bij de SLO-kerndoelen.",
+      "fr": "Mamie recoud la page déchirée, et le fil ne tient que si les mots vont ensemble : si l’enfant choisit un morceau qui ne va pas, le fil casse juste entre les deux mots qui ne vont pas ensemble. Activité interactive de lecture pour le CP, alignée sur les programmes officiels.",
+      "es": "La abuela cose la página rota, y el hilo solo aguanta donde las palabras concuerdan: si el niño elige un pedazo que no encaja, el hilo se rompe justo entre las dos palabras que no van juntas. Actividad interactiva de lectura para primer grado, alineada con el currículo oficial.",
+      "it": "La nonna ricuce la pagina strappata, e il filo tiene solo dove le parole vanno d’accordo: se il bambino sceglie un pezzo che non va, il filo si rompe proprio tra le due parole che non vanno d’accordo. Attività interattiva di lettura per la classe prima, in linea con le Indicazioni nazionali.",
+      "pt": "A vovó costura a página rasgada, e a linha só segura onde as palavras combinam: se a criança escolhe um pedaço que não combina, a linha arrebenta bem entre as duas palavras que não combinam. Atividade interativa de leitura para o 1º ano, alinhada à BNCC.",
+      "sv": "Mormor syr ihop den trasiga sidan, och tråden håller bara där orden passar ihop: väljer barnet en bit som inte passar går tråden av precis mellan de två ord som inte stämmer. Interaktiv läsövning för åk 1 enligt Lgr22.",
+      "da": "Mormor syr den revne side sammen, og tråden holder kun, hvor ordene passer sammen: Vælger barnet et stykke, der ikke passer, knækker tråden lige mellem de to ord, der ikke passer sammen. Interaktiv læseøvelse til 1. klasse i tråd med Fælles Mål.",
+      "no": "Mormor syr den revne siden sammen, og tråden holder bare der ordene passer sammen: Velger barnet en bit som ikke passer, ryker tråden akkurat mellom de to ordene som ikke stemmer. Interaktiv leseøvelse for 1. trinn i tråd med LK20.",
+      "fi": "Mummo ompelee revenneen sivun kiinni, ja lanka pitää vain siellä, missä sanat sopivat yhteen: jos lapsi valitsee palan, joka ei sovi, lanka katkeaa juuri niiden kahden sanan välistä, jotka eivät sovi yhteen. Vuorovaikutteinen lukutehtävä 1. luokalle (OPS 2014)."
+    },
     "kid_prompt_template": "mend-page"
   }
 ]

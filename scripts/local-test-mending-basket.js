@@ -1,160 +1,218 @@
 #!/usr/bin/env node
 /* =====================================================================
-   local-test-mending-basket.js — interaction harness for "Granny's
-   Mending Basket" (CCSS RF.1.4.a). Serves `mini tools/` + drives the
-   real shell:
-
-     • each of the 7 types solves via its OWN tap action (piece→target /
-       tap-the-wrong-word / two-step connect / figure→zone / page→picture /
-       order-3-strips / item→basket) → the page mends + develops;
-     • a WRONG attempt does NOT advance + paints NO answer-region pixel
-       (the leaf never gains .mended on a wrong pick — the fix #5 contract);
-     • connect is genuinely two-step (referent then mend);
-     • variety/shuffle: nextTask over 2 passes → ≥7 distinct + reshuffle;
-     • no horizontal overflow 280→768.
-
-   EN-only pilot. Usage: node scripts/local-test-mending-basket.js
+   local-test-mending-basket.js — ACTIVITY #115, The Thread That Snaps, in
+   a real browser with real pointer actions (paper pieces tapped into the
+   torn hole and the hole tapped to take them back, a word tapped to unpick
+   it, crayons picked and pictures ringed, stickers lifted and placed, the
+   needle or the scissors chosen, Check clicked), in all 11 locales.
+   Scenarios per locale (at 1024):
+     · the clue list;
+     · Fill: an empty Check → hintEmptyFill, no miss; a piece → into the
+       hole; the hole tapped → back; a wrong piece → hintSnap naming the
+       keystone and the piece, the thread drawn in two frayed halves, both
+       words glowing; again → hintKey, the keystone glows; the answer →
+       okFill, the thread held, the page healed, a leaf in Granny's book;
+     · Fix: a right word "fixed" → hintFixWord; the wrong word mended →
+       okFix;
+     · Who: the answer → okFill;
+     · Do: a crayon + the right picture → okDo; a sticker in the wrong
+       place → hintDo, then in the right place → okDo;
+     · True or not: the right tool → okTrue / okFalse;
+     · Story: two wrong answers → hintStory2 and the proof shaded; the
+       answer → okStory.
+   Then every clue × round at rest, at miss 2 and solved — reached ONCE per
+   locale by real actions, then resized through 320…1366: no sideways
+   scroll, Check above the fold at rest, Check and the hint in view at miss
+   2, the success line in view, controls ≥ 44 px, pictures ≥ 64 px (≥ 96
+   from 704), nothing outside the card, no bands overlap, the thread inside
+   the page.
+   Usage: node scripts/local-test-mending-basket.js [--widths=…] [--locales=…] [--clues=…] [--shots]
    ===================================================================== */
 'use strict';
-const http = require('http');
-const fs = require('fs');
-const path = require('path');
-
-const ACTIVITY = 'mending-basket.mend-page.rf-1-4-a';
-const REPO = path.join(__dirname, '..');
-const MINI = path.join(REPO, 'mini tools');
-const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.html': 'text/html', '.svg': 'image/svg+xml', '.webp': 'image/webp', '.png': 'image/png' };
-
+const http = require('http'), fs = require('fs'), path = require('path');
+const arg = (k, d) => { const m = process.argv.find(a => a.startsWith('--' + k + '=')); return m ? m.slice(k.length + 3) : d; };
+const LOCS = arg('locales', 'en,de,nl,fr,es,it,pt,sv,da,no,fi').split(',');
+const WIDTHS = arg('widths', '320,360,412,600,640,704,768,1024,1366').split(',').map(Number);
+const CLUES = arg('clues', 'fill,fix,who,do,true,story').split(',');
+const SHOTS = process.argv.includes('--shots');
+const REPO = path.join(__dirname, '..'), MINI = path.join(REPO, 'mini tools');
+const SHOT_DIR = path.join(REPO, 'docs', 'audit-results', 'activities-rebuild', '115-thread-that-snaps', 'local');
+const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.html': 'text/html', '.webp': 'image/webp' };
+const C = require(path.join(MINI, 'mending-basket-core.js'));
+const ACT = (function () { const vm = require('vm'); const ctx = { window: {}, MendingBasketCore: C }; vm.createContext(ctx); vm.runInContext(fs.readFileSync(path.join(MINI, 'mending-basket-activity.js'), 'utf8') + '\n;this.__A = MendingBasketActivity;', ctx); return ctx.__A; })();
+const T = (loc, k, a) => String(ACT.strings[k][loc]).replace(/\{(\w+)\}/g, (m, x) => a && x in a ? a[x] : m);
+const sp = (s) => String(s).replace(/[   ]/g, ' ').replace(/\s+/g, ' ').trim();
+let PASS = 0, FAIL = 0;
+const is = (c, m) => { if (c) PASS++; else { FAIL++; if (FAIL < 80) console.error('   FAIL: ' + m); } };
 function serve() {
   return http.createServer((req, res) => {
-    let p = decodeURIComponent(req.url.split('?')[0]), file;
-    if (p === '/' || p.endsWith('.html')) file = path.join(MINI, path.basename(p) || 'x');
-    else if (p.startsWith('/mini-tools/')) file = path.join(MINI, p.slice('/mini-tools/'.length));
-    else file = path.join(MINI, p.replace(/^\//, ''));
-    fs.readFile(file, (err, buf) => { if (err) { res.statusCode = 404; res.end('not found'); return; } res.setHeader('Content-Type', MIME[path.extname(file)] || 'application/octet-stream'); res.end(buf); });
+    const p = decodeURIComponent(req.url.split('?')[0]), file = p.startsWith('/image-library-webp/') ? path.join(REPO, p) : path.join(MINI, p.replace(/^\/(mini-tools\/)?/, ''));
+    fs.readFile(file, (e, b) => { if (e) { res.statusCode = 404; res.end(); return; } res.setHeader('Content-Type', MIME[path.extname(file)] || 'application/octet-stream'); res.end(b); });
   });
 }
-
 (async () => {
-  const puppeteer = require('puppeteer');
-  const server = serve();
-  await new Promise(r => server.listen(0, '127.0.0.1', r));
-  const PORT = server.address().port;
-  const BASE = `http://127.0.0.1:${PORT}`;
-  const browser = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox'] });
-  const fails = [];
-  const note = (cond, msg) => { if (!cond) fails.push(msg); };
-  const page = await browser.newPage();
-  await page.setViewport({ width: 412, height: 900 });
-  const errs = [];
-  const isNoise = (s) => /Failed to load resource|favicon|\/audio\//i.test(s);
-  page.on('console', m => { if (m.type() === 'error' && !isNoise(m.text())) errs.push(m.text()); });
-  page.on('pageerror', e => { if (!isNoise(e.message)) errs.push(e.message); });
-
-  const url = `${BASE}/mending-basket-activity.html?lang=en&activity=${ACTIVITY}&embed=1`;
-  const sleep = (ms) => new Promise(r => setTimeout(r, ms));
-
-  async function force(id) {
-    await page.evaluate((rid) => {
-      const t = window.MendingBasketActivity;
-      const n = t._pool.length, order = []; for (let i = 0; i < n; i++) order.push(i);
-      const k = t._pool.findIndex(x => x.id === 'mending-basket.' + rid);
-      const at = order.indexOf(k); if (at > 0) { order.splice(at, 1); order.unshift(k); }
-      t._order = order; t._orderForPool = t._pool; t._curPass = 0;
-      window.LCS_reloadFirstTask();
-    }, id);
-    await page.waitForFunction(() => window.MendingBasketActivity.round && document.querySelector('.mb-leaf'), { timeout: 4000 });
+  const server = serve(); await new Promise(r => server.listen(0, '127.0.0.1', r));
+  const base = 'http://127.0.0.1:' + server.address().port;
+  const browser = await require('puppeteer').launch({ headless: 'new', args: ['--no-sandbox', '--disable-dev-shm-usage'] });
+  if (SHOTS) fs.mkdirSync(SHOT_DIR, { recursive: true });
+  const wait = (ms) => new Promise(r => setTimeout(r, ms));
+  const VH = (w) => w <= 320 ? 640 : w <= 360 ? 740 : w <= 420 ? 820 : w <= 800 ? 1000 : 900;
+  async function open(w, loc) {
+    const page = await browser.newPage(), errs = [];
+    page.on('pageerror', e => errs.push(String(e)));
+    page.on('console', m => { if (m.type() === 'error' && !/Failed to load resource/.test(m.text())) errs.push(m.text()); });
+    page.on('response', r => { if (r.status() >= 400 && !/favicon\.ico$|\/audio\/|fonts\.g/.test(r.url())) errs.push(r.status() + ' ' + r.url()); });
+    await page.setViewport({ width: w, height: VH(w) });
+    await page.goto(`${base}/mending-basket-activity.html?activity=mending-basket.mend-page.rf-1-4-a&lang=${loc}&embed=1`, { waitUntil: 'networkidle0' });
+    await page.waitForFunction(() => window.MendingBasketActivity && window.MendingBasketActivity.st && document.querySelector('.mb-foot'), { timeout: 15000 });
+    await page.evaluate(() => { const a = window.MendingBasketActivity; a.FAST = true; a.OK_MS = 600000; });
+    await page.evaluate(() => document.fonts ? document.fonts.ready.then(() => true) : true);
+    return { page, errs };
   }
-  const round = () => page.evaluate(() => JSON.parse(JSON.stringify(window.MendingBasketActivity.round)));
-  const done = () => page.evaluate(() => window.MendingBasketActivity.phase === 'done');
-  const mended = () => page.evaluate(() => !!document.querySelector('.mb-leaf.mended'));
-  async function clickText(sel, text) { const els = await page.$$(sel); for (const e of els) { const t = (await (await e.getProperty('textContent')).jsonValue()).trim(); if (t === text) { await e.click(); await sleep(70); return true; } } return false; }
-  async function clickAttr(sel, attr, val) { const e = await page.$(sel + '[' + attr + '="' + val + '"]'); if (e) { await e.click(); await sleep(70); return true; } return false; }
-
-  async function solve(r) {
-    if (r.type === 'cloze') { await clickText('.mb-piece', r.answer); await page.click('.mb-tear'); }
-    else if (r.type === 'contradiction') { await clickText('.mb-word-tap', r.answer); }
-    else if (r.type === 'connect') {
-      const refText = r.tokens[r.extras.referentIndex].t;
-      await clickText('.mb-word-tap', refText);          // step 1
-      await sleep(120);
-      await clickText('.mb-piece', r.answer);            // step 2 select
-      await page.click('.mb-tear');
+  async function force(page, clue, r) {
+    await page.evaluate((clue, r) => { const a = window.MendingBasketActivity; a.api.settings.clue = clue; a._pool = null; a._ensurePool(); a._pos = [1, 2, 0, 1, 2, 0, 1, 2, 0]; a._start(r, 0); a._view.note = ''; a._view.nudge = false; a._render2(); window.scrollTo(0, 0); }, clue, r);
+    await wait(20);
+  }
+  const st = (page) => page.evaluate(() => { const s = window.MendingBasketActivity.st; return { clue: s.clue, hole: s.hole, picked: s.picked, rings: JSON.stringify(s.rings), placed: JSON.stringify(s.placed), tool: s.tool, misses: s.misses, show: s.show, done: s.done, last: s.last }; });
+  const R0 = (page) => page.evaluate(() => { const s = window.MendingBasketActivity.st; return { R: s.R, pieces: s.pieces, right: s.right, S: s.S }; });
+  const note = (page) => page.evaluate(() => document.querySelector('.mb-note').textContent);
+  const prompt = (page) => page.evaluate(() => document.querySelector('.lcs-activity-prompt-text').textContent);
+  const count = (page, sel) => page.evaluate((s) => [...document.querySelectorAll(s)].filter(e => e.getClientRects().length).length, sel);
+  const K = (k) => `[data-k="${k}"]`;
+  async function centre(page, sel) { return page.evaluate((s) => { const e = document.querySelector(s); if (!e || !e.getClientRects().length) return null; e.scrollIntoView({ block: 'center', behavior: 'instant' }); const r = e.getBoundingClientRect(); return { x: r.left + r.width / 2, y: r.top + r.height / 2, dis: !!e.disabled }; }, sel); }
+  async function click(page, sel, tag) {
+    const b = await centre(page, sel);
+    if (!b) { is(false, `${tag}: there is a «${sel}» to click`); return false; }
+    if (b.dis) { is(false, `${tag}: «${sel}» is enabled`); return false; }
+    await page.mouse.click(b.x, b.y); await wait(25); return true;
+  }
+  const check = (page, tag) => click(page, K('check'), tag);
+  const W = (tok, i) => C.word(tok, i);
+  /* at the narrowest width a story's question is the other side of the page: turn it first, like a child */
+  async function toQuestion(page, tag) { if (await count(page, '.mb-storybox.is-s') === 1) { await click(page, K('turn'), tag); is(await count(page, '.mb-storybox.is-q') === 1 && await count(page, '.mb-basket.is-away') === 0, `${tag}: the page turned to the question`); } }
+  /* real actions that solve a round, or miss it */
+  async function solve(page, loc, clue, tag) {
+    const r = await R0(page);
+    await toQuestion(page, tag);
+    if (clue === 'fix') await click(page, K('word-' + r.R.wrong), tag);
+    if (r.pieces) { await click(page, K('piece-' + r.pieces.indexOf(r.R.ans)), tag); await check(page, tag); return; }
+    if (clue === 'true') { await click(page, K('tool-' + (r.S.truth ? 'sew' : 'cut')), tag); await check(page, tag); return; }
+    for (const o of r.S.ops) {
+      if (o.op === 'place') { await click(page, K('sticker-' + r.S.stickers.indexOf(o.sticker)), tag); await click(page, K('zone-' + o.zone), tag); continue; }
+      await click(page, K('crayon-' + o.colour), tag);
+      if (o.index != null) await click(page, K('pic-' + o.index), tag);
+      else { const done = await page.evaluate(() => Object.keys(window.MendingBasketActivity.st.rings).map(Number)); let n = o.count; for (let p = 0; n && p < r.S.row.length; p++) if (done.indexOf(p) < 0) { await click(page, K('pic-' + p), tag); n--; } }
     }
-    else if (r.type === 'placement') { await page.click('.mb-figure'); await clickAttr('.mb-zone', 'data-z', r.answer); }
-    else if (r.type === 'match') { await page.click('.mb-page'); await clickAttr('.mb-twin', 'data-i', r.answer); }
-    else if (r.type === 'sequence') { for (const id of r.extras.sequenceOrder) { const txt = r.strips.filter(s => s.id === id)[0].text; await clickText('.mb-strip', txt); } }
-    else if (r.type === 'sort') { for (const it of r.items) { const bin = r.extras.sortMap[it.id]; await clickText('.mb-sort-item', it.text); await sleep(60); const bins = await page.$$('.mb-bin'); for (const b of bins) { const t = await (await b.getProperty('textContent')).jsonValue(); if (String(t).includes(bin)) { await b.click(); await sleep(70); break; } } } }
-    await sleep(150);
+    await check(page, tag);
+  }
+  async function missTwice(page, loc, clue, tag) {
+    const r = await R0(page);
+    await toQuestion(page, tag);
+    if (clue === 'fix') await click(page, K('word-' + r.R.wrong), tag);
+    if (r.pieces) { await click(page, K('piece-' + r.pieces.findIndex(p => p !== r.R.ans)), tag); await check(page, tag); await check(page, tag); return; }
+    if (clue === 'true') { await click(page, K('tool-' + (r.S.truth ? 'cut' : 'sew')), tag); await check(page, tag); await check(page, tag); return; }
+    if (r.S.row) { const bad = r.S.crayons.find(c => !r.S.ops.some(o => o.colour === c)); await click(page, K('crayon-' + bad), tag); await click(page, K('pic-0'), tag); }
+    else { const o = r.S.ops[0]; await click(page, K('sticker-' + r.S.stickers.indexOf(o.sticker)), tag); await click(page, K('zone-' + (o.zone === 'beside' ? 'above' : 'beside')), tag); }
+    await check(page, tag); await check(page, tag);
   }
 
-  try {
-    await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 });
-    await page.waitForFunction(() => { const t = window.MendingBasketActivity; return t && t._activityRow && document.querySelector('.mb-granny') && document.querySelector('.lcs-activity-check'); }, { timeout: 15000 });
-
-    note(!!(await page.$('.mb-granny-svg')), 'no Granny');
-    const title = await page.$eval('.lcs-title', e => e.textContent.trim()).catch(() => '');
-    note(title === "Granny's Mending Basket", `header title "${title}"`);
-
-    /* variety/shuffle */
-    const N = await page.evaluate(() => window.MendingBasketActivity._pool.length);
-    const ids = await page.evaluate((count) => { const t = window.MendingBasketActivity, out = []; for (let i = 0; i < count; i++) { const x = t.nextTask({ index: i, completed: i }); out.push(x ? x.id : null); } return out; }, 2 * N);
-    const p1 = ids.slice(0, N), p2 = ids.slice(N, 2 * N);
-    note(new Set(p1).size >= 7, `only ${new Set(p1).size} distinct rounds (<7)`);
-    note(p1.slice().sort().join('|') === p2.slice().sort().join('|'), 'pass-2 not same set');
-    note(p1.join('|') !== p2.join('|'), 'pass-2 order identical (no reshuffle)');
-
-    /* one of each type solves */
-    const ONE = ['cloze-puppy', 'contra-rain', 'connect-dog', 'place-cat-under', 'match-bow', 'seq-seed', 'sort-things'];
-    for (const id of ONE) {
-      await force(id);
-      const r = await round();
-      await solve(r);
-      note(await done(), `'${id}' (${r.type}) did not mend via its correct action`);
-      note(await mended(), `'${id}': leaf did not develop (.mended) on the correct mend`);
-      if (await done()) { await page.click('.lcs-activity-check'); await sleep(120); const cel = await page.evaluate(() => { const p = document.querySelector('.lcs-activity-prompt'); return !!(p && p.classList.contains('celebrate')); }); note(cel, `${id}: Check did not celebrate`); }
-    }
-
-    /* WRONG attempt → no advance + NO answer pixel (leaf never .mended) */
-    await force('cloze-puppy');
-    const rc = await round();
-    const wrong = rc.pieces.filter(p => p.value !== rc.answer)[0].value;
-    await clickText('.mb-piece', wrong); await page.click('.mb-tear'); await sleep(150);
-    note(!(await done()), 'a wrong mend advanced (must not)');
-    note(!(await mended()), 'a wrong mend painted the answer-region (leaf gained .mended — fix #5 violated)');
-    // the tear still shows no answer text
-    const tearText = await page.$eval('.mb-tear', e => e.textContent.trim()).catch(() => 'X');
-    note(tearText === '', `wrong mend revealed the answer in the tear ("${tearText}")`);
-
-    /* connect is two-step: tapping a wrong referent does NOT advance to step 2 */
-    await force('connect-dog');
-    const rcon = await round();
-    const wrongRef = rcon.tokens.filter((t, i) => t.t && i < 5 && i !== rcon.extras.referentIndex && rcon.pieces.some(p => p.value.replace(/^the\s+/, '') === t.t))[0];
-    if (wrongRef) { await clickText('.mb-word-tap', wrongRef.t); await sleep(120); const step = await page.evaluate(() => window.MendingBasketActivity.step); note(step === 1, 'a wrong referent advanced to step 2 (must stay on step 1)'); }
-
-    /* mobile overflow 280→768 */
-    for (const w of [280, 360, 412, 768]) {
-      await page.setViewport({ width: w, height: 820 });
-      await force('place-cat-under');
-      const over = await page.evaluate(() => { const d = document.scrollingElement || document.documentElement; return d.scrollWidth - d.clientWidth; });
-      note(over <= 2, `horizontal overflow ${over}px at ${w}px`);
-    }
-
-    note(errs.length === 0, `console error(s): ${errs.slice(0, 2).join(' | ')}`);
-    console.log(`  ${fails.length ? 'FAIL' : 'ok  '} mending-basket/en — "${title}"`);
-  } catch (e) {
-    fails.push('mending-basket/en: ' + e.message);
-    console.log(`  FAIL mending-basket/en — ${e.message}`);
-  } finally { await page.close(); }
-
-  await browser.close();
-  server.close();
-  console.log('');
-  if (fails.length) {
-    console.error(`MENDING-BASKET LOCAL TEST FAILED — ${fails.length} issue(s):`);
-    fails.forEach(f => console.error('  • ' + f));
-    process.exit(1);
+  for (const loc of LOCS) {
+    const { page, errs } = await open(1024, loc); let tag, s, r;
+    is(JSON.stringify(await page.evaluate(() => window.MendingBasketActivity.settings[0].options.map(o => o.value))) === '["fill","fix","who","do","true","story"]', `${loc}: the clue list`);
+    /* Fill */
+    tag = `${loc} fill`; await force(page, 'fill', 0); r = await R0(page);
+    is(sp(await prompt(page)) === sp(T(loc, 'tFill')) && await count(page, '.mb-piece') === 3, `${tag}: the task line, three pieces`);
+    await check(page, tag); s = await st(page); is(s.misses === 0 && sp(await note(page)) === sp(T(loc, 'hintEmptyFill')), `${tag}: an empty Check → hintEmptyFill, no miss`);
+    const wrong = r.pieces.findIndex(p => p !== r.R.ans);
+    await click(page, K('piece-' + wrong), tag); s = await st(page);
+    is(s.hole === wrong && sp(await page.evaluate(() => document.querySelector('.mb-hole').textContent)) === sp(r.pieces[wrong]), `${tag}: a piece → into the hole`);
+    await click(page, K('hole'), tag); s = await st(page); is(s.hole === null, `${tag}: the hole tapped → the piece back`);
+    await click(page, K('piece-' + wrong), tag); await check(page, tag); s = await st(page);
+    is(s.last === 'snap' && sp(await note(page)) === sp(T(loc, 'hintSnap', { a: W(r.R.tok, r.R.key), b: r.pieces[wrong] })) && await count(page, '.mb-thread .mb-snapped') === 2 && await count(page, '.mb-w.is-snap') === 1 && await count(page, '.mb-hole.is-snap') === 1, `${tag}: ${r.pieces[wrong]} → the thread snaps between ${W(r.R.tok, r.R.key)} and it`);
+    await check(page, tag); s = await st(page);
+    is(s.misses === 2 && sp(await note(page)) === sp(T(loc, 'hintKey', { w: W(r.R.tok, r.R.key) })) && await count(page, '.mb-w.is-key') === 1, `${tag}: miss 2 → the keystone glows`);
+    await click(page, K('piece-' + r.pieces.indexOf(r.R.ans)), tag); is(await count(page, '.mb-w.is-key') === 0, `${tag}: a new move takes the help away`);
+    await check(page, tag); s = await st(page);
+    is(s.done && /\S/.test(await note(page)) && sp(await note(page)).indexOf(sp(r.R.ans)) >= 0 && await count(page, '.mb-thread .mb-held') === 1 && await count(page, '.mb-page.is-healed') === 1 && await count(page, '.mb-leaf.is-mended') === 1, `${tag}: ${r.R.ans} → okFill, the thread held, a leaf in the book`);
+    /* Fix */
+    tag = `${loc} fix`; await force(page, 'fix', 0); r = await R0(page);
+    is(await count(page, 'button.mb-w') >= 5 && await page.evaluate(() => document.querySelectorAll('.mb-piece:disabled').length) === 3, `${tag}: the words are buttons; no piece before a word is unpicked`);
+    const okWord = r.R.tok.findIndex((t, i) => t.t != null && !t.fix && i !== r.R.key);
+    await click(page, K('word-' + okWord), tag); await click(page, K('piece-' + r.pieces.indexOf(r.R.ans)), tag); await check(page, tag);
+    is(sp(await note(page)) === sp(T(loc, 'hintFixWord', { a: W(r.R.tok, r.R.key), b: W(r.R.tok, okWord) })), `${tag}: a right word "fixed" → hintFixWord`);
+    await click(page, K('word-' + r.R.wrong), tag);   /* another word moves the needle there; the first word goes back */ await click(page, K('piece-' + r.pieces.indexOf(r.R.ans)), tag); await check(page, tag); s = await st(page);
+    is(s.done && sp(await note(page)) === sp(T(loc, 'okFix', { a: r.R.tok[r.R.wrong].t, b: r.R.ans })), `${tag}: the wrong word mended → okFix`);
+    /* Who */
+    tag = `${loc} who`; await force(page, 'who', 0); await solve(page, loc, 'who', tag); s = await st(page); is(s.done, `${tag}: the answer → mended`);
+    /* Do */
+    tag = `${loc} do`; await force(page, 'do', 4); await solve(page, loc, 'do', tag); s = await st(page);
+    is(s.done && sp(await note(page)) === sp(T(loc, 'okDo')), `${tag}: the third fish ringed → okDo`);
+    await force(page, 'do', 0); r = await R0(page);
+    await click(page, K('sticker-0'), tag); is(await count(page, '.mb-stage.is-showing') === 1, `${tag}: a lifted sticker shows the places`);
+    await click(page, K('zone-beside'), tag); await check(page, tag); s = await st(page);
+    is(s.last === 'snap' && sp(await note(page)) === sp(T(loc, 'hintDo', { w: W(r.R.tok, r.R.cue[0].zone) })), `${tag}: the cat beside the bed → hintDo at the place word`);
+    await click(page, K('zone-beside'), tag); s = await st(page); is(s.placed === '{}', `${tag}: a placed sticker tapped → back in the basket`);
+    await solve(page, loc, 'do', tag); s = await st(page); is(s.done, `${tag}: the cat under the bed → okDo`);
+    /* True */
+    for (const ri of [0, 1]) { tag = `${loc} true ${ri}`; await force(page, 'true', ri); await solve(page, loc, 'true', tag); s = await st(page); is(s.done && sp(await note(page)) === sp(T(loc, C.DATA.SH.true[ri].truth ? 'okTrue' : 'okFalse')), `${tag}: the right tool`); }
+    /* Story */
+    tag = `${loc} story`; await force(page, 'story', 0); await missTwice(page, loc, 'story', tag); r = await R0(page);
+    is(sp(await note(page)) === sp(T(loc, 'hintStory2')) && await count(page, '.mb-sent.is-proof') === r.R.proof.length, `${tag}: miss 2 → the proof sentence shaded`);
+    await click(page, K('piece-' + r.pieces.indexOf(r.R.ans)), tag); await check(page, tag); s = await st(page);
+    is(s.done && sp(await note(page)) === sp(T(loc, 'okStory', { a: r.R.ans })), `${tag}: the answer → okStory`);
+    is(errs.length === 0, `${loc}: no page errors (${errs.slice(0, 2).join(' | ')})`);
+    await page.close();
   }
-  console.log('MENDING-BASKET LOCAL TEST PASSED — Granny + leaf render, all 7 types mend via their own action, wrong mend does not advance or paint the answer, connect is two-step, ≥7 distinct + reshuffle, no overflow 280→768.');
-  process.exit(0);
-})().catch(e => { console.error('ERROR:', e.message); process.exit(1); });
+
+  const MEASURE = () => {
+    const out = { fails: [] }, Wd = window.innerWidth;
+    const vis = (e) => { const q = e.getBoundingClientRect(), cs = getComputedStyle(e); return q.width > 2 && q.height > 2 && cs.visibility !== 'hidden' && cs.display !== 'none'; };
+    out.sw = document.documentElement.scrollWidth - document.documentElement.clientWidth;
+    [...document.querySelectorAll('.mb-wrap button')].filter(vis).filter(e => !e.disabled).forEach(e => { const q = e.getBoundingClientRect(); if (q.width < 43.5 || q.height < 43.5) out.fails.push('small control ' + e.className + ' ' + Math.round(q.width) + 'x' + Math.round(q.height)); });
+    document.querySelectorAll('.mb-pic img,.mb-ring img,.mb-still img,.mb-anchor img').forEach(e => { if (!vis(e)) return; const q = e.getBoundingClientRect(); if (q.width < 63.5 || (Wd >= 704 && q.width < 95.5)) out.fails.push('picture ' + Math.round(q.width) + ' px'); });
+    const ck = document.querySelector('.mb-check').getBoundingClientRect(); out.cTop = ck.top; out.cBottom = ck.bottom;
+    const nr = document.querySelector('.mb-note').getBoundingClientRect(); out.nTop = nr.top; out.nBottom = nr.bottom;
+    const card = (document.querySelector('.lcs-app') || document.querySelector('.mb-wrap')).getBoundingClientRect();
+    document.querySelectorAll('.mb-page,.mb-basket,.mb-piece,.mb-hole,.mb-ring,.mb-spot,.mb-crayon,.mb-sticker,.mb-tool,.mb-check,.mb-stage').forEach(e => { if (!vis(e)) return; const q = e.getBoundingClientRect(); if (q.left < card.left - 1 || q.right > card.right + 1) out.fails.push(e.className.split(' ')[0] + ' outside the card'); });
+    const band = ['.mb-book', '.mb-page', '.mb-basket', '.mb-foot', '.mb-note'].map(s => document.querySelector(s)).filter(e => e && vis(e)).map(e => e.getBoundingClientRect());
+    for (let i = 1; i < band.length; i++) if (band[i].top < band[i - 1].bottom - 1) out.fails.push('two bands overlap');
+    const pg = document.querySelector('.mb-page').getBoundingClientRect();
+    document.querySelectorAll('.mb-thread path').forEach(p => { const q = p.getBoundingClientRect(); if (q.left < pg.left - 12 || q.right > pg.right + 12 || q.bottom > pg.bottom + 12) out.fails.push('the thread leaves the page'); });
+    document.querySelectorAll('.mb-piece').forEach(c => { if (c.scrollWidth > c.clientWidth + 1) out.fails.push('a piece is cut off'); });
+    return out;
+  };
+  for (const loc of LOCS) {
+    const { page, errs } = await open(WIDTHS[WIDTHS.length - 1], loc);
+    for (const clue of CLUES) for (const r of C.rounds(loc, clue)) for (const state of ['rest', 'miss2', 'solved']) {
+      const w0 = WIDTHS[WIDTHS.length - 1], t0 = `${loc} ${clue} ${r} ${state}`;
+      await page.setViewport({ width: w0, height: VH(w0) });
+      await force(page, clue, r);
+      if (state === 'solved') await solve(page, loc, clue, t0); else if (state === 'miss2') await missTwice(page, loc, clue, t0);
+      const s0 = await st(page);
+      if (state === 'miss2') is(s0.misses >= 2, `${t0}: two misses by real actions (${s0.misses})`);
+      if (state === 'solved') is(s0.done, `${t0}: solved by real actions`);
+      for (const w of WIDTHS) {
+        const tag = `${loc} @${w} ${clue} ${r} ${state}`;
+        await page.setViewport({ width: w, height: VH(w) });
+        await page.waitForFunction(() => { const a = window.MendingBasketActivity, D = a._dims(); return a._wrap.classList.contains(D.wide ? 'is-wide' : 'is-narrow') && a._wrap.classList.contains('is-tiny') === D.tiny; }, { timeout: 3000 }).catch(() => is(false, `${tag}: the activity redrew for the new width`));
+        await wait(40);
+        is(JSON.stringify(await st(page)) === JSON.stringify(s0), `${tag}: the resize kept the state`);
+        if (state === 'rest') await page.evaluate(() => window.scrollTo(0, 0));
+        else await page.evaluate(() => document.querySelector('.mb-note').scrollIntoView({ block: 'end', behavior: 'instant' }));
+        await wait(15);
+        const m = await page.evaluate(MEASURE);
+        is(m.sw <= 2, `${tag}: no sideways scroll (${m.sw})`);
+        if (state === 'rest') is(m.cBottom <= VH(w), `${tag}: Check above the fold (${Math.round(m.cBottom)} ≤ ${VH(w)})`);
+        else if (state === 'miss2') is(m.cTop >= 0 && m.nBottom <= VH(w) + 1, `${tag}: Check and the hint in view together (${Math.round(m.cTop)}–${Math.round(m.nBottom)})`);
+        else is(m.nTop >= 0 && m.nBottom <= VH(w) + 1, `${tag}: the success line in view`);
+        is(m.fails.length === 0, `${tag}: ${[...new Set(m.fails)].slice(0, 3).join('; ')}`);
+        if (SHOTS && loc === 'en' && [360, 704, 1024].indexOf(w) >= 0 && r < 2) await page.screenshot({ path: path.join(SHOT_DIR, `${clue}-${r}-${w}-${state}.png`), fullPage: true });
+      }
+    }
+    is(errs.length === 0, `${loc}: no page errors (${errs.slice(0, 2).join(' | ')})`);
+    await page.close();
+  }
+  await browser.close(); server.close();
+  console.log(`local-test-mending-basket: ${PASS} pass, ${FAIL} fail`);
+  process.exit(FAIL ? 1 : 0);
+})().catch(e => { console.error(e); process.exit(1); });

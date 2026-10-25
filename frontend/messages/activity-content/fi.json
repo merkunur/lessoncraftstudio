@@ -3047,6 +3047,29 @@
         "Huomata, että perussanan kirjaimet pysyvät samoina, kun pääte lisätään.",
         "Yhdistää pääte sen merkitykseen: monta (-t) ja missä (-ssa, -ssä)."
       ]
+    },
+    "mending-basket.mend-page.rf-1-4-a": {
+      "about": [
+        "Kuvakirjan sivu on revennyt, ja mummo paikkaa sen neulalla ja punaisella langalla. Lapsi laittaa paperinpalan reikään ja painaa Tarkista: lanka kulkee palasta siihen sanaan, josta merkitys riippuu. Lauseessa \"Pentu oli niin pieni, että mummon piti etsiä sitä tosi ___\" sana tarkasti pitää; sanalla nopeasti lanka katkeaa juuri sanojen pieni ja nopeasti välistä. Mummon ompelukori on 1. luokan lukutehtävä: lue ja ymmärrä.",
+        "Tarkkaan lukemiseen on kuusi tapaa: Täytä aukko, Korjaa sana (lause, jossa yksi sana ei sovi, kuten sateenvarjo, jonka alla mummo pysyy märkänä), Kuka se on?, Tee niin kuin lukee (esimerkiksi: väritä kaksi ilmapalloa punaisiksi, laita kissa sängyn alle), Pitääkö paikkansa? (ompele tosi lause kiinni tai leikkaa väärä pois) ja Kysymyksiä tarinasta, joissa lanka etsii lauseen, joka todistaa vastauksen. Jokainen paikattu sivu saa värit ja liittyy mummon kirjaan.",
+        "Tehtävä tukee perusopetuksen opetussuunnitelman (OPS 2014) lukemisen tavoitteita 1. luokalla. Ei ajanottoa eikä pisteitä."
+      ],
+      "practices": [
+        "Valita sana, jota lause tarvitsee",
+        "Löytää sana, joka ei ole järkevä, ja korjata se",
+        "Selvittää, kenestä lause kertoo",
+        "Tehdä juuri niin kuin lukee ja verrata lausetta kuvaan"
+      ],
+      "howToPlay": [
+        "Lue lause. Napauta paperinpalaa: se lentää reikään. Napauta reikää ottaaksesi sen pois.",
+        "Paina Tarkista. Lanka pitää, jos sanat sopivat yhteen, ja katkeaa niiden kahden sanan välistä, jotka eivät sovi.",
+        "Tee niin kuin lukee -tehtävässä valitse liitu ja napauta kuvia, tai napauta tarraa ja sitten sen paikkaa. Pitääkö paikkansa? -tehtävässä valitse neula tai sakset."
+      ],
+      "learningGoals": [
+        "Lukea ja ymmärtää.",
+        "Käyttää sanaa, josta merkitys riippuu, sanojen valitsemiseen, tarkistamiseen ja korjaamiseen.",
+        "Perustella vastaus tekstin lauseella."
+      ]
     }
   }
 }

@@ -4569,6 +4569,29 @@
         "Zien dat het grondwoord zijn letters houdt als er een uitgang bij komt.",
         "De uitgangen -t, -en en -te koppelen aan hij, wij en gisteren."
       ]
+    },
+    "mending-basket.mend-page.rf-1-4-a": {
+      "about": [
+        "Een bladzijde uit een prentenboek is gescheurd, en oma herstelt hem met naald en rode draad. Je kind legt een papiertje in het gat en drukt op Controleer: de draad loopt van het stukje naar het woord waar de betekenis om draait. In \"De puppy was zo klein dat oma heel ___ moest zoeken\" houdt goed; bij snel breekt de draad precies tussen klein en snel. Oma’s naaimand is een leesoefening voor groep 3: begrijpend lezen.",
+        "Er zijn zes manieren om goed te lezen: Gat vullen, Woord verbeteren (een zin met één woord dat niet past, zoals een paraplu waaronder oma nat blijft), Wie is het?, Doe wat er staat (bijvoorbeeld: kleur twee ballonnen rood, zet de kat onder het bed), Klopt het? (naai een ware zin vast of knip een verkeerde eruit) en Vragen bij het verhaal, waarbij de draad de zin zoekt die het antwoord bewijst. Elke herstelde bladzijde krijgt kleur en komt in oma’s boek.",
+        "De activiteit past bij de SLO-kerndoelen voor begrijpend lezen en is bedoeld voor groep 3. Zonder tijdsdruk en zonder punten."
+      ],
+      "practices": [
+        "Het woord kiezen dat de zin nodig heeft",
+        "Het woord vinden dat niet klopt en het verbeteren",
+        "Uitzoeken over wie een zin gaat",
+        "Een opdracht precies uitvoeren en een zin met een plaatje vergelijken"
+      ],
+      "howToPlay": [
+        "Lees de zin. Tik op een papiertje: het vliegt in het gat. Tik op het gat om het terug te nemen.",
+        "Druk op Controleer. De draad houdt als de woorden bij elkaar passen, en breekt tussen de twee woorden die dat niet doen.",
+        "Bij Doe wat er staat kies je een waskrijtje en tik je plaatjes aan, of je tikt op een sticker en dan op zijn plek. Bij Klopt het? kies je de naald of de schaar."
+      ],
+      "learningGoals": [
+        "Begrijpend lezen.",
+        "Met het woord waar de betekenis om draait woorden kiezen, controleren en verbeteren.",
+        "Een antwoord aanwijzen met een zin uit de tekst."
+      ]
     }
   }
 }

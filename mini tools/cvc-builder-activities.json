@@ -1003,98 +1003,15 @@
   },
   {
     "id": "cvc-builder.build-magic-e.rf-1-3-silent-e",
-    "tool": "cvc-builder-activity",
-    "task_template": "build-magic-e",
+    "tool": "reach-back-e-activity",
+    "task_template": "reach-back-e",
     "alignment": {
       "framework": "CCSS",
       "code": "RF.1.3",
       "grade": "1",
       "strand": "Reading: Foundational Skills"
     },
-    "params": {
-      "words": [
-        {
-          "noun": "kite",
-          "themeDir": "beach",
-          "targetWord": "kite",
-          "distractors": [
-            "a",
-            "o",
-            "y"
-          ]
-        },
-        {
-          "noun": "cake",
-          "themeDir": "4th of July",
-          "targetWord": "cake",
-          "distractors": [
-            "a",
-            "o",
-            "i"
-          ]
-        },
-        {
-          "noun": "rose",
-          "themeDir": "flowers",
-          "targetWord": "rose",
-          "distractors": [
-            "a",
-            "o",
-            "i"
-          ]
-        },
-        {
-          "noun": "cube",
-          "themeDir": "shapes",
-          "targetWord": "cube",
-          "distractors": [
-            "a",
-            "o",
-            "y"
-          ]
-        },
-        {
-          "noun": "wave",
-          "themeDir": "beach",
-          "targetWord": "wave",
-          "distractors": [
-            "a",
-            "o",
-            "i"
-          ]
-        },
-        {
-          "noun": "gate",
-          "themeDir": "around the house",
-          "targetWord": "gate",
-          "distractors": [
-            "a",
-            "o",
-            "i"
-          ]
-        },
-        {
-          "noun": "nose",
-          "themeDir": "body parts",
-          "targetWord": "nose",
-          "distractors": [
-            "a",
-            "o",
-            "i"
-          ]
-        },
-        {
-          "noun": "rake",
-          "themeDir": "around the house",
-          "targetWord": "rake",
-          "distractors": [
-            "a",
-            "o",
-            "i"
-          ]
-        }
-      ]
-    },
+    "params": { "clue": ["finish", "read"], "vowel": ["pick", "given"], "rounds": { "finish": 9, "read": 9 }, "sets": 2 },
     "theme": null,
     "slug": {
       "en": "add-the-magic-e"

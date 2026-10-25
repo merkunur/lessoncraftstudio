@@ -263,6 +263,10 @@ function seedScript(row) {
     // the fourths mobile after Check with the unfair square: it tips, the heavy share glowing coral and the light one teal, while the fair card waits on the shelf
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.level='hf';t.api.settings.bubble='on';t._pool=null;t._ensurePool();t._pos=null;t._start(4,0);var C=window.FairMobileCore,s=t.st;C.hangCard(s,s.cards.indexOf('sq-fourths-uneq'),0);t._render2();t._check();})()`;
   }
+  if (row.tool === 'reach-back-e-activity') {
+    // k _ t with the i seated and the magic e on the end: its wire arm reaches back over the t and the i shows its gold name face
+    return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.clue='finish';t.api.settings.vowel='pick';t._pool=null;t._ensurePool();t._set=0;t._start(0,0);t._view.note='';t._view.nudge=false;var C=window.ReachBackECore,s=t.st;C.setVowel(s,'i');C.setEnd(s,'e');t._render2();})()`;
+  }
   if (row.tool === 'paint-wells-activity') {
     // fish poured and stirred: s and h shared one well and mixed into a new green, the word's colour strip dried under the picture
     return `(function(){var t=window['${g}'];if(!t||!t._ensurePool)return;t.FAST=true;t.OK_MS=600000;t.api.settings.clue='pour';t.api.settings.help='none';t._pool=null;t._ensurePool();t._start('fish',0);var C=window.PaintWellsCore,s=t.st,d=function(i){return s.tray.findIndex(function(x){return x.wi===i;});};C.pour(s,d(0),0);C.pour(s,d(1),1);C.pour(s,d(2),2);C.pour(s,d(3),2);t._render2();t._check();})()`;

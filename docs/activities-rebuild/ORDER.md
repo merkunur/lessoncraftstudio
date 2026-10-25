@@ -118,7 +118,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 108 | LIVE 2026-10-25 · The One-Piece Stamp | 1 | 1.G.A.3 | `fractions.partition-equal-shares.1-g-a-3` | fractions-activity | Make Equal Parts — Partition into Halves & Fourths (Grade 1) |
 | 109 | LIVE 2026-10-25 · The Sound Roll | 1 | RF.1.2.a | `stretch-giraffe.long-short-vowel.rf-1-2-a` | stretch-giraffe-activity | Stretch the Giraffe — Long & Short Vowel Sounds (Grade 1) |
 | 110 | LIVE 2026-10-25 · The Paint Wells | 1 | RF.1.3 | `cvc-builder.build-blend-word.rf-1-3` | cvc-builder-activity | Build Blend and Digraph Words |
-| 111 |  | 1 | RF.1.3 | `cvc-builder.build-magic-e.rf-1-3-silent-e` | cvc-builder-activity | Add the Magic e — Long Vowel Words |
+| 111 | LIVE 2026-10-25 · The Reach-Back e | 1 | RF.1.3 | `cvc-builder.build-magic-e.rf-1-3-silent-e` | cvc-builder-activity | Add the Magic e — Long Vowel Words |
 | 112 |  | 1 | RF.1.3 | `syllable-builder.build-vowel-teams.rf-1-3` | syllable-builder-activity | Build Vowel-Team Words — Long Vowel Sounds |
 | 113 |  | 1 | RF.1.3.e | `domino-two-part.two-syllable.rf-1-3-e` | domino-two-part-activity | Domino's Two-Part Words — Read Two-Syllable Words (Grade 1) |
 | 114 |  | 1 | RF.1.3.F | `syllable-builder.build-endings.rf-1-3-f` | syllable-builder-activity | Build Words with Endings — Reading -s, -ed, and -ing |

@@ -90,4 +90,4 @@ ONE native + phonics reviewer over the compact dump: every word with its split a
   - real taps and HELD presses on the punch, holes tapped shut, the crank, the pictures, the keyboard, the clue list per locale;
   - every clue × round at rest, at miss 2 and solved, through 320…1366.
 - `visual-qa-activity` 54 / 54 · `audit-activity-hierarchy` 596 / 0 · `audit-settings-efficacy` (clue, letters live) · preflight-activity-routes · prose-claims · SERP copy (incl. the new sv / da / no / fi metadata) · activity-content × 7 — all green.
-- LIVEVERIFY
+- `live-verify-sound-roll.js` on production: 56 / 0 on 9.852. All 7 shipped pages return 200 (sv / da / no / fi new). In en / de / sv at 1366 and 390, Long or short with real presses: three vowels punched wrong (held for a slot, tapped for a hole) → Check gives the locale's hint and three word rolls with coral holes; punched right → the success line and three song-book cards. In fi, Count: one hole too many → hintCount; a hole tapped shut → the line. The iframe grows with the card. The first run, inside the deploy window, saw no iframe on the new sv / fi pages; the rerun passed.

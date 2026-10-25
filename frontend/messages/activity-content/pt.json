@@ -4480,6 +4480,29 @@
         "Escrever palavras simples som por som.",
         "Entender que uma palavra nem sempre tem tantos sons quanto letras."
       ]
+    },
+    "syllable-builder.build-endings.rf-1-3-f": {
+      "about": [
+        "A palavra da figura é um molde com as letras recortadas como janelas. A criança coloca um cartão na moldura e toca em Verificar: o molde cai sobre a palavra. Em gatos, embaixo da figura de um gato, cada janela mostra sua letra e o s que sobra entra numa capa dourada. Em galos, uma janela mostra um l onde o molde precisa de um t, e o molde balança. Palavras com -s e -es é uma atividade de leitura para o 1º ano: encontrar a palavra de base dentro do plural.",
+        "Em cada rodada há também outras palavras no plural (bolos, meias, copos), então olhar só para o s não basta: é preciso achar a palavra da figura. Em Separe o final, a criança coloca um traço onde termina a palavra de base (flor | es). Em Coloque o final, a frase pede um plural e a palavra decide: depois de vogal vem -s (dois gatos) e depois de consoante vem -es (muitas flores). Cada palavra fica pendurada no gancho do seu final.",
+        "A atividade está alinhada à BNCC para a leitura e a escrita no 1º ano. Sem cronômetro e sem pontos."
+      ],
+      "practices": [
+        "Encontrar a palavra de base dentro de uma palavra no plural",
+        "Distinguir um final de verdade de letras que só se parecem",
+        "Separar uma palavra em base e final",
+        "Escolher -s depois de vogal e -es depois de consoante"
+      ],
+      "howToPlay": [
+        "Olhe a figura e toque no cartão feito com a palavra dela. Ele vai para a moldura.",
+        "Toque em Verificar. O molde cai sobre a palavra: uma janela vermelha mostra uma letra que não combina.",
+        "Em Separe o final, toque onde termina a palavra da figura. Em Coloque o final, leia a frase e toque no final que ela pede."
+      ],
+      "learningGoals": [
+        "Ler palavras no plural reconhecendo a palavra de base.",
+        "Perceber que a palavra de base mantém suas letras no plural.",
+        "Saber quando o plural leva -s e quando leva -es."
+      ]
     }
   }
 }

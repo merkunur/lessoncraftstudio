@@ -4548,6 +4548,29 @@
         "Verstehen, dass zwei Buchstaben zusammen einen Laut bilden können.",
         "Die Reihenfolge der Buchstaben im Paar beachten."
       ]
+    },
+    "syllable-builder.build-endings.rf-1-3-f": {
+      "about": [
+        "Das Bildwort ist eine Schablone, in die seine Buchstaben als Fenster geschnitten sind. Das Kind legt eine Wortkarte in den Rahmen und drückt auf Prüfen: Die Schablone fällt auf das Wort. Bei Hunde unter dem Bild eines Hundes zeigt jedes Fenster seinen Buchstaben, und das übrige e rutscht in eine goldene Endungshülse. Bei Hunger zeigt ein Fenster ein g statt eines d, und die Schablone wackelt. Wörter mit Endungen ist eine Leseübung für die 1. Klasse: den Wortstamm in einem längeren Wort finden.",
+        "In jeder Runde liegen auch andere Wörter mit Endungen (Filme, Berge, Riesen), deshalb reicht es nicht, nur auf eine Endung zu achten: Das Kind muss das Bildwort im Wort finden. Bei Endung abtrennen setzt es einen Strich, wo der Stamm aufhört (Bär | en). Bei Endung anhängen entscheidet der Satz: ich spiele, du baust, er rennt. Jedes Wort hängt an seinem Endungshaken.",
+        "Die Übung folgt dem Lehrplan der 1. Klasse zum Lesen und Schreiben. Ohne Zeitdruck und ohne Punkte."
+      ],
+      "practices": [
+        "Den Wortstamm in einem längeren Wort finden",
+        "Eine echte Endung von Buchstaben unterscheiden, die nur ähnlich aussehen",
+        "Ein Wort in Stamm und Endung trennen",
+        "Die Endung nach ich, du und er wählen (-e, -st, -t)"
+      ],
+      "howToPlay": [
+        "Schau das Bild an und tipp die Wortkarte an, die aus seinem Wort gebaut ist. Sie kommt in den Rahmen.",
+        "Drück auf Prüfen. Die Schablone fällt auf das Wort: Ein rotes Fenster zeigt einen Buchstaben, der nicht passt.",
+        "Bei Endung abtrennen tippst du dort, wo das Bildwort aufhört. Bei Endung anhängen liest du den Satz und tippst die passende Endung an."
+      ],
+      "learningGoals": [
+        "Wörter mit Endungen lesen, indem man den Wortstamm erkennt.",
+        "Sehen, dass der Wortstamm seine Buchstaben behält, wenn eine Endung dazukommt.",
+        "Die Verbendungen -e, -st und -t den Wörtern ich, du und er zuordnen."
+      ]
     }
   }
 }

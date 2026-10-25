@@ -3024,6 +3024,29 @@
         "Sætte stavelserne sammen i rækkefølge og koble ordet til dets betydning.",
         "Se, at også et langt ord kan have kun to eller tre stavelser."
       ]
+    },
+    "syllable-builder.build-endings.rf-1-3-f": {
+      "about": [
+        "Billedets ord er en skabelon, hvor bogstaverne er skåret ud som vinduer. Barnet lægger et ordkort i rammen og trykker på Tjek: Skabelonen falder ned på ordet. På hunde, under et billede af en hund, viser hvert vindue sit eget bogstav, og det e, der er tilbage, glider ind i et gyldent endelseshylster. På huse viser et vindue et s, hvor skabelonen skal have et n, og skabelonen vipper. Ord med endelser er en læseøvelse til 1. klasse: at finde grundordet i et længere ord.",
+        "I hver runde er der også andre ord med endelser (huse, storme, elever), så det er ikke nok at lede efter en endelse: Barnet skal finde billedets ord i ordet. I Del endelsen af sætter barnet en streg, hvor grundordet slutter (bil | er). I Sæt endelsen på afgør sætningen det: to biler, se, nu hopper Mia; i går dansede vi. Hvert ord hænger på sin endelses krog.",
+        "Aktiviteten er i tråd med Fælles Mål for læsning og skrivning i indskolingen. Ingen tidtagning og ingen point."
+      ],
+      "practices": [
+        "Finde grundordet i et længere ord",
+        "Skelne en rigtig endelse fra bogstaver, der bare ligner",
+        "Dele et ord i grundord og endelse",
+        "Vælge endelse efter to, nu og i går (-er, -r, -de)"
+      ],
+      "howToPlay": [
+        "Kig på billedet, og tryk på det ordkort, der er bygget af billedets ord. Det kommer i rammen.",
+        "Tryk på Tjek. Skabelonen falder ned på ordet: Et rødt vindue viser et bogstav, der ikke hører til.",
+        "I Del endelsen af trykker du, hvor billedets ord slutter. I Sæt endelsen på læser du sætningen og trykker på den endelse, der passer."
+      ],
+      "learningGoals": [
+        "Læse ord med endelser ved at genkende grundordet.",
+        "Se, at grundordet beholder sine bogstaver, når der kommer en endelse på.",
+        "Knytte endelserne -er, -r og -de til flere end én, nu og det, der allerede er sket."
+      ]
     }
   }
 }

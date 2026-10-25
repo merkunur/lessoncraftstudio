@@ -3024,6 +3024,29 @@
         "Yhdistää tavut järjestyksessä ja liittää sana sen merkitykseen.",
         "Huomata, että pitkässäkin sanassa voi olla vain kaksi tai kolme tavua."
       ]
+    },
+    "syllable-builder.build-endings.rf-1-3-f": {
+      "about": [
+        "Kuvan sana on kaava, johon sen kirjaimet on leikattu ikkunoiksi. Lapsi laittaa sanakortin kehykseen ja painaa Tarkista: kaava putoaa sanan päälle. Sanassa kissat, kissan kuvan alla, jokainen ikkuna näyttää oman kirjaimensa ja jäljelle jäävä t liukuu kultaiseen päätetuppeen. Sanassa kivi ikkunassa näkyy v siinä, missä kaava tarvitsee s:n, ja kaava keikkuu. Sanat ja päätteet on 1. luokan lukutehtävä: perussanan löytäminen pidemmästä sanasta.",
+        "Joka kierroksella on mukana muitakin päätteellisiä sanoja (kanat, kirjat, koulut), joten pelkkä päätteen etsiminen ei riitä: lapsen täytyy löytää kuvan sana sanan sisältä. Erota pääte -tehtävässä lapsi laittaa viivan siihen, mihin perussana loppuu (kala | t). Lisää pääte -tehtävässä lause ratkaisee: kaikki kissat, kissa on talossa, karhu on metsässä. Vokaalisointu kertoo, tuleeko -ssa vai -ssä. Jokainen sana ripustetaan oman päätteensä koukkuun.",
+        "Tehtävä tukee perusopetuksen opetussuunnitelman (OPS 2014) lukemisen ja kirjoittamisen tavoitteita 1. luokalla. Ei ajanottoa eikä pisteitä."
+      ],
+      "practices": [
+        "Löytää perussana pidemmän sanan sisältä",
+        "Erottaa oikea pääte kirjaimista, jotka vain näyttävät samalta",
+        "Jakaa sana perussanaan ja päätteeseen",
+        "Valita pääte: monikon -t tai missä-kysymyksen -ssa ja -ssä"
+      ],
+      "howToPlay": [
+        "Katso kuvaa ja napauta sanakorttia, joka on tehty kuvan sanasta. Se menee kehykseen.",
+        "Paina Tarkista. Kaava putoaa sanan päälle: punainen ikkuna näyttää kirjaimen, joka ei kuulu siihen.",
+        "Erota pääte -tehtävässä napauta kohtaa, johon kuvan sana loppuu. Lisää pääte -tehtävässä lue lause ja napauta sopivaa päätettä."
+      ],
+      "learningGoals": [
+        "Lukea päätteellisiä sanoja tunnistamalla perussana.",
+        "Huomata, että perussanan kirjaimet pysyvät samoina, kun pääte lisätään.",
+        "Yhdistää pääte sen merkitykseen: monta (-t) ja missä (-ssa, -ssä)."
+      ]
     }
   }
 }

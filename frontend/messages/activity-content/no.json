@@ -3052,6 +3052,29 @@
         "Sette stavelsene sammen i riktig rekkefølge og knytte ordet til betydningen.",
         "Se at også et langt ord kan ha bare to eller tre stavelser."
       ]
+    },
+    "syllable-builder.build-endings.rf-1-3-f": {
+      "about": [
+        "Bildets ord er en sjablong der bokstavene er skåret ut som vinduer. Barnet legger et ordkort i rammen og trykker på Sjekk: Sjablongen faller ned på ordet. På hunder, under et bilde av en hund, viser hvert vindu sin egen bokstav, og resten (-er) glir inn i en gyllen endingshylse. På huler viser et vindu en l der sjablongen trenger en n, og sjablongen vipper. Ord med endinger er en leseøvelse for 1. trinn: å finne grunnordet i et lengre ord.",
+        "I hver runde ligger det også andre ord med endinger (huler, stormer, elever), så det holder ikke å lete etter en ending: Barnet må finne bildets ord i ordet. I Del av endingen setter barnet en strek der grunnordet slutter (hund | en). I Legg til endingen avgjør setningen: to biler, se, nå hopper Mia; i går danset vi. Hvert ord henger på kroken til endingen sin.",
+        "Aktiviteten er i tråd med LK20 (kompetansemål etter 2. trinn) for lesing og skriving. Ingen tidtaking og ingen poeng."
+      ],
+      "practices": [
+        "Finne grunnordet i et lengre ord",
+        "Skille en ekte ending fra bokstaver som bare ligner",
+        "Dele et ord i grunnord og ending",
+        "Velge ending etter to, nå og i går (-er, -r, -t)"
+      ],
+      "howToPlay": [
+        "Se på bildet, og trykk på ordkortet som er bygd av bildets ord. Det havner i rammen.",
+        "Trykk på Sjekk. Sjablongen faller ned på ordet: Et rødt vindu viser en bokstav som ikke hører hjemme der.",
+        "I Del av endingen trykker du der bildets ord slutter. I Legg til endingen leser du setningen og trykker på endingen som passer."
+      ],
+      "learningGoals": [
+        "Lese ord med endinger ved å kjenne igjen grunnordet.",
+        "Se at grunnordet beholder bokstavene sine når det kommer en ending på.",
+        "Knytte endingene -er, -r og -t til flere enn én, nå og det som allerede har skjedd, og se at -en betyr den ene (hunden)."
+      ]
     }
   }
 }

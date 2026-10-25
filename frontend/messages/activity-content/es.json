@@ -4450,6 +4450,29 @@
         "Escribir palabras sencillas sonido por sonido.",
         "Entender que una palabra no siempre tiene tantos sonidos como letras."
       ]
+    },
+    "syllable-builder.build-endings.rf-1-3-f": {
+      "about": [
+        "La palabra del dibujo es una plantilla con sus letras recortadas como ventanas. El niño pone una tarjeta en el marco y pulsa Comprobar: la plantilla cae sobre la palabra. En gatos, bajo el dibujo de un gato, cada ventana muestra su letra y la s que sobra entra en una funda dorada. En gallina, una ventana muestra una l donde la plantilla necesita una t, y la plantilla se tambalea. Palabras con -s y -es es una actividad de lectura para primer grado: encontrar la palabra de base dentro del plural.",
+        "En cada ronda hay también otras palabras en plural (galletas, peras, refrescos), así que fijarse solo en la s no basta: hay que encontrar la palabra del dibujo. En Separa el final, el niño pone una raya donde termina la palabra de base (flor | es). En Añade el final, la oración pide un plural y la palabra decide: después de vocal va -s (dos gatos) y después de consonante va -es (muchas flores). Cada palabra se cuelga en el gancho de su final.",
+        "La actividad está alineada con el currículo oficial de lengua de primer grado. Sin cronómetro y sin puntos."
+      ],
+      "practices": [
+        "Encontrar la palabra de base dentro de una palabra en plural",
+        "Distinguir un final de verdad de letras que solo se parecen",
+        "Separar una palabra en su base y su final",
+        "Elegir -s después de vocal y -es después de consonante"
+      ],
+      "howToPlay": [
+        "Mira el dibujo y toca la tarjeta hecha con su palabra. Va al marco.",
+        "Pulsa Comprobar. La plantilla cae sobre la palabra: una ventana roja muestra una letra que no va.",
+        "En Separa el final, toca donde termina la palabra del dibujo. En Añade el final, lee la oración y toca el final que necesita."
+      ],
+      "learningGoals": [
+        "Leer palabras en plural reconociendo la palabra de base.",
+        "Ver que la palabra de base conserva sus letras al formar el plural.",
+        "Saber cuándo el plural lleva -s y cuándo lleva -es."
+      ]
     }
   }
 }

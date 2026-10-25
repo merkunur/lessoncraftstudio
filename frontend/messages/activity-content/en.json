@@ -4144,25 +4144,25 @@
     },
     "syllable-builder.build-endings.rf-1-3-f": {
       "about": [
-        "Keep the base word steady and swap only its ending: the child hears a word, then taps -s, -ing, or -ed to build the new one — cat to cats, jump to jumping, play to played — with the wrong endings sitting right beside the right one. It's an interactive Grade 1 reading activity that runs in the browser with no account.",
-        "The skill is reading words with inflectional endings — recognizing the familiar base inside a longer word and the small ending that changes its job. By keeping the base word steady and swapping only the ending, the child sees that -s, -ed, and -ing each carry a meaning, and learns to read the whole word instead of stalling at the longer form. Hearing the finished word ties the spelling to its sound.",
-        "It is aligned to Common Core RF.1.3.f — reading words with inflectional endings. No timer, no score — just calm, playful practice."
+        "The picture's word is a stencil with its letters cut out as windows. The child lays a word card in the frame and presses Check: the stencil drops onto it. On books, under a picture of a book, every window frames its own letter and the leftover s slides into a gold ending sleeve. On boots, one window shows a t where the stencil needs a k, and the stencil rocks. Build Words with Endings is a Grade 1 reading activity about finding the root word inside a longer word.",
+        "Every round mixes in other words with endings (boots, stamps, calling), so spotting an ending is not enough: the child has to find the picture's word inside. The Tricky look-alikes add a trap that starts with the whole root, like catch under a cat: every window fits, but ch is not an ending, so no sleeve takes it. Peel the ending asks where the root stops (jump | ing), and Add the ending gives a sentence that decides the ending: two cats, Mia is jumping now, it rained yesterday. Each word made hangs on its ending's hook: -s, -ing or -ed.",
+        "It is aligned to Common Core RF.1.3.f: reading words with inflectional endings. No timer and no score."
       ],
       "practices": [
-        "Add -s, -ed, or -ing to a base word to build the right new word",
-        "Recognize the base word inside a longer word with an ending",
-        "Match the ending to its meaning — more than one, happening now, or already happened",
-        "Read the whole word, ending and all, instead of stopping at the base"
+        "Find the root word inside a longer word",
+        "Tell a real ending (-s, -ing, -ed) from leftover letters that are not an ending",
+        "Split a word into its root and its ending",
+        "Choose the ending a sentence needs: more than one, happening now, or already happened"
       ],
       "howToPlay": [
-        "Read the base word and tap Hear it to listen.",
-        "Tap the right ending — -s, -ed, or -ing — to build the word, then press Check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Look at the picture and tap the word card you think is built from its word. It goes into the frame.",
+        "Press Check. The stencil drops onto the word: a coral window shows a letter that does not belong.",
+        "In Peel the ending, tap where the picture's word ends. In Add the ending, read the sentence and tap the ending it needs."
       ],
       "learningGoals": [
-        "Read words with the endings -s, -ed, and -ing — the focus of Common Core RF.1.3.f.",
-        "Understand that an ending changes a word's meaning while the base stays the same.",
-        "Build the word-analysis skill that fluent reading of longer words depends on."
+        "Read words with the endings -s, -ing and -ed, the focus of Common Core RF.1.3.f.",
+        "See that the root word keeps its letters when an ending is added.",
+        "Link each ending to what it means: more than one, happening now, already happened."
       ]
     },
     "syllable-builder.build-vowel-teams.rf-1-3": {

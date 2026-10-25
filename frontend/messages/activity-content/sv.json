@@ -3664,6 +3664,29 @@
         "Sätta ihop stavelserna i ordning och koppla ordet till dess betydelse.",
         "Se att även ett långt ord kan ha bara två eller tre stavelser."
       ]
+    },
+    "syllable-builder.build-endings.rf-1-3-f": {
+      "about": [
+        "Bildens ord är en schablon där bokstäverna är utskurna som fönster. Barnet lägger ett ordkort i ramen och trycker på Kontrollera: schablonen faller ner på ordet. På hundar, under en bild av en hund, visar varje fönster sin egen bokstav, och resten (-ar) glider in i en gyllene ändelsehylsa. På humla visar ett fönster ett m där schablonen behöver ett n, och schablonen gungar. Ord med ändelser är en läsövning för åk 1: att hitta grundordet i ett längre ord.",
+        "I varje omgång finns också andra ord med ändelser (filmer, husvagnar, toppar), så det räcker inte att leta efter en ändelse: barnet måste hitta bildens ord i ordet. I Dela av ändelsen sätter barnet ett streck där grundordet slutar (katt | er). I Lägg till ändelsen avgör meningen: två bilar, titta, nu hoppar Mia; igår dansade vi. Varje ord hänger på sin ändelses krok.",
+        "Aktiviteten följer Lgr22:s centrala innehåll för läsning och skrivning i åk 1–3. Ingen tidtagning och inga poäng."
+      ],
+      "practices": [
+        "Hitta grundordet i ett längre ord",
+        "Skilja en riktig ändelse från bokstäver som bara liknar en",
+        "Dela ett ord i grundord och ändelse",
+        "Välja ändelse efter två, nu och igår (-ar, -r, -de)"
+      ],
+      "howToPlay": [
+        "Titta på bilden och tryck på ordkortet som är byggt av bildens ord. Det hamnar i ramen.",
+        "Tryck på Kontrollera. Schablonen faller ner på ordet: ett rött fönster visar en bokstav som inte hör dit.",
+        "I Dela av ändelsen trycker du där bildens ord slutar. I Lägg till ändelsen läser du meningen och trycker på ändelsen som passar."
+      ],
+      "learningGoals": [
+        "Läsa ord med ändelser genom att känna igen grundordet.",
+        "Se att grundordet behåller sina bokstäver när en ändelse läggs till.",
+        "Koppla ändelserna -ar, -r och -de till fler än en, nu och det som redan har hänt."
+      ]
     }
   }
 }

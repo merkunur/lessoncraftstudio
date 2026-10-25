@@ -4501,6 +4501,29 @@
         "Assembler les syllabes dans l’ordre et relier le mot à son sens.",
         "Voir qu’un mot long peut n’avoir que deux ou trois syllabes."
       ]
+    },
+    "syllable-builder.build-endings.rf-1-3-f": {
+      "about": [
+        "Le mot de l’image est un pochoir dont les lettres sont découpées en fenêtres. L’enfant pose une carte dans le cadre et appuie sur Vérifier : le pochoir tombe sur le mot. Sur chapeaux, sous l’image d’un chapeau, chaque fenêtre montre sa lettre et le x qui reste glisse dans un fourreau doré. Sur chaton, une fenêtre montre un t là où le pochoir attend un p, et le pochoir bascule. Le mot et sa terminaison est une activité de lecture pour le CP et le CE1 : retrouver le mot de départ dans un mot plus long.",
+        "Chaque manche contient aussi d’autres mots avec une terminaison (couleurs, ballons, poules) : repérer une terminaison ne suffit pas, il faut retrouver le mot de l’image. Avec Sépare la terminaison, l’enfant place un trait là où finit le mot de départ (gâteau | x). Avec Ajoute la terminaison, la phrase décide : deux chats, ma sœur est petite, ils jouent. Le -s du pluriel ne s’entend pas, mais il s’écrit. Chaque mot se range sur le crochet de sa terminaison.",
+        "L’activité est alignée sur les programmes officiels du CP et du CE1 pour la lecture et l’étude de la langue. Sans chronomètre et sans points."
+      ],
+      "practices": [
+        "Retrouver le mot de départ dans un mot plus long",
+        "Distinguer une vraie terminaison de lettres qui y ressemblent",
+        "Séparer un mot en mot de départ et terminaison",
+        "Choisir la marque du pluriel, du féminin ou du verbe (-s, -e, -nt)"
+      ],
+      "howToPlay": [
+        "Regarde l’image et touche la carte construite avec son mot. Elle va dans le cadre.",
+        "Appuie sur Vérifier. Le pochoir tombe sur le mot : une fenêtre rouge montre une lettre qui n’est pas à sa place.",
+        "Avec Sépare la terminaison, touche l’endroit où finit le mot de l’image. Avec Ajoute la terminaison, lis la phrase et touche la bonne terminaison."
+      ],
+      "learningGoals": [
+        "Lire des mots avec une terminaison en reconnaissant le mot de départ.",
+        "Voir que le mot de départ garde ses lettres quand on ajoute une terminaison.",
+        "Relier chaque marque à son sens : plusieurs (-s, -x), féminin (-e), ils et elles (-nt)."
+      ]
     }
   }
 }

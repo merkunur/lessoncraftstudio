@@ -4546,6 +4546,29 @@
         "Begrijpen dat twee letters samen één klank kunnen zijn.",
         "Letten op de volgorde van de letters in een klankgroep."
       ]
+    },
+    "syllable-builder.build-endings.rf-1-3-f": {
+      "about": [
+        "Het woord bij het plaatje is een mal waarin de letters als raampjes zijn uitgeknipt. Het kind legt een woordkaart in het kader en drukt op Controleer: de mal valt op het woord. Bij honden, onder een plaatje van een hond, laat elk raampje zijn eigen letter zien en schuift de rest (-en) in een gouden huls. Bij honing staat in een raampje een i waar de mal een d nodig heeft, en de mal wiebelt. Woorden met uitgangen is een leesoefening voor groep 3 en 4: het grondwoord vinden in een langer woord.",
+        "In elke ronde liggen ook andere woorden met een uitgang (voeten, letters, films), dus alleen op een uitgang letten is niet genoeg: het kind moet het woord van het plaatje erin vinden. Bij Uitgang afsplitsen zet het een streep waar het grondwoord ophoudt (boek | en). Bij Uitgang toevoegen beslist de zin: kijk, hij werkt nu; wij werken; gisteren werkte papa. Elk woord hangt aan het haakje van zijn uitgang.",
+        "De activiteit past bij de SLO-kerndoelen voor lezen en spelling en is bedoeld voor groep 3 en 4. Zonder tijdsdruk en zonder punten."
+      ],
+      "practices": [
+        "Het grondwoord vinden in een langer woord",
+        "Een echte uitgang onderscheiden van letters die er alleen op lijken",
+        "Een woord splitsen in grondwoord en uitgang",
+        "De uitgang kiezen bij hij, wij en gisteren (-t, -en, -te)"
+      ],
+      "howToPlay": [
+        "Kijk naar het plaatje en tik de woordkaart aan die van zijn woord is gemaakt. Hij komt in het kader.",
+        "Druk op Controleer. De mal valt op het woord: een rood raampje laat een letter zien die er niet hoort.",
+        "Bij Uitgang afsplitsen tik je waar het woord bij het plaatje ophoudt. Bij Uitgang toevoegen lees je de zin en tik je de uitgang aan die past."
+      ],
+      "learningGoals": [
+        "Woorden met een uitgang lezen door het grondwoord te herkennen.",
+        "Zien dat het grondwoord zijn letters houdt als er een uitgang bij komt.",
+        "De uitgangen -t, -en en -te koppelen aan hij, wij en gisteren."
+      ]
     }
   }
 }

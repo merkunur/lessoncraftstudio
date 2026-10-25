@@ -33,8 +33,8 @@
   },
   {
     "id": "syllable-builder.build-endings.rf-1-3-f",
-    "tool": "syllable-builder-activity",
-    "task_template": "build-endings",
+    "tool": "root-stencil-activity",
+    "task_template": "root-stencil",
     "alignment": {
       "framework": "CCSS",
       "code": "RF.1.3.F",
@@ -42,136 +42,64 @@
       "strand": "Reading: Foundational Skills"
     },
     "params": {
-      "language": "en-US",
-      "words": [
-        {
-          "base": "cat",
-          "ending": "s",
-          "targetWord": "cats",
-          "tiles": [
-            "cat",
-            "s"
-          ],
-          "distractors": [
-            "ed",
-            "ing"
-          ]
-        },
-        {
-          "base": "dog",
-          "ending": "s",
-          "targetWord": "dogs",
-          "tiles": [
-            "dog",
-            "s"
-          ],
-          "distractors": [
-            "ed",
-            "ing"
-          ]
-        },
-        {
-          "base": "book",
-          "ending": "s",
-          "targetWord": "books",
-          "tiles": [
-            "book",
-            "s"
-          ],
-          "distractors": [
-            "ed",
-            "ing"
-          ]
-        },
-        {
-          "base": "jump",
-          "ending": "ing",
-          "targetWord": "jumping",
-          "tiles": [
-            "jump",
-            "ing"
-          ],
-          "distractors": [
-            "ed",
-            "s"
-          ]
-        },
-        {
-          "base": "walk",
-          "ending": "ing",
-          "targetWord": "walking",
-          "tiles": [
-            "walk",
-            "ing"
-          ],
-          "distractors": [
-            "ed",
-            "s"
-          ]
-        },
-        {
-          "base": "help",
-          "ending": "ing",
-          "targetWord": "helping",
-          "tiles": [
-            "help",
-            "ing"
-          ],
-          "distractors": [
-            "ed",
-            "s"
-          ]
-        },
-        {
-          "base": "play",
-          "ending": "ed",
-          "targetWord": "played",
-          "tiles": [
-            "play",
-            "ed"
-          ],
-          "distractors": [
-            "ing",
-            "s"
-          ]
-        },
-        {
-          "base": "rain",
-          "ending": "ed",
-          "targetWord": "rained",
-          "tiles": [
-            "rain",
-            "ed"
-          ],
-          "distractors": [
-            "ing",
-            "s"
-          ]
-        },
-        {
-          "base": "paint",
-          "ending": "ed",
-          "targetWord": "painted",
-          "tiles": [
-            "paint",
-            "ed"
-          ],
-          "distractors": [
-            "ing",
-            "s"
-          ]
-        }
+      "clue": [
+        "find",
+        "peel",
+        "add"
+      ],
+      "rounds": 9,
+      "sets": {
+        "en": 2
+      },
+      "locales": [
+        "en",
+        "de",
+        "nl",
+        "fr",
+        "es",
+        "pt",
+        "sv",
+        "da",
+        "no",
+        "fi"
       ]
     },
     "theme": null,
     "slug": {
-      "en": "build-words-with-endings"
+      "en": "build-words-with-endings",
+      "de": "woerter-mit-endungen-wortstamm-finden-1-klasse",
+      "nl": "woorden-met-uitgangen-grondwoord-zoeken-groep-3-4",
+      "fr": "le-mot-et-sa-terminaison-pluriel-feminin-cp-ce1",
+      "es": "palabras-en-plural-s-y-es-primer-grado",
+      "pt": "palavras-no-plural-s-e-es-1-ano",
+      "sv": "ord-med-andelser-hitta-grundordet-ak-1",
+      "da": "ord-med-endelser-find-grundordet-1-klasse",
+      "no": "ord-med-endinger-finn-grunnordet-1-trinn",
+      "fi": "sanat-ja-paatteet-loyda-perussana-1-luokka"
     },
     "page_title": {
-      "en": "Build Words with Endings — Reading -s, -ed, and -ing"
+      "en": "Build Words with Endings — Reading -s, -ed, and -ing",
+      "de": "Wörter mit Endungen – den Wortstamm finden (1. Klasse)",
+      "nl": "Woorden met uitgangen – het grondwoord zoeken (groep 3–4)",
+      "fr": "Le mot et sa terminaison : -s, -x, -e, -nt (CP–CE1)",
+      "es": "Palabras en plural: -s y -es (primer grado)",
+      "pt": "Palavras no plural: -s e -es (1º ano)",
+      "sv": "Ord med ändelser – hitta grundordet (åk 1)",
+      "da": "Ord med endelser – find grundordet (1. klasse)",
+      "no": "Ord med endinger – finn grunnordet (1. trinn)",
+      "fi": "Sanat ja päätteet – löydä perussana (1. luokka)"
     },
     "page_intro": {
-      "en": "A word can change when you add an ending. Add -s to make more than one (cat becomes cats), -ed to tell what already happened (play becomes played), and -ing to tell what is happening now (jump becomes jumping). Read the base word, listen with Hear it, and tap the right ending to build the word. Take your time; there is no timer and no score. Aligned to Common Core RF.1.3.f — reading words with inflectional endings."
+      "en": "A word can change when you add an ending. Add -s to make more than one (cat becomes cats), -ed to tell what already happened (play becomes played), and -ing to tell what is happening now (jump becomes jumping). Read the base word, listen with Hear it, and tap the right ending to build the word. Take your time; there is no timer and no score. Aligned to Common Core RF.1.3.f — reading words with inflectional endings.",
+      "de": "Der Wortstamm ist eine Schablone mit Fenstern: Leg sie auf ein längeres Wort. Sie passt nur, wenn jedes Fenster seinen Buchstaben zeigt und der Rest eine echte Endung ist. Interaktive Leseübung für die 1. Klasse nach dem Lehrplan.",
+      "nl": "Het grondwoord is een mal met raampjes: leg hem op een langer woord. Hij past alleen als elk raampje zijn eigen letter laat zien en de rest een echte uitgang is. Interactieve leesoefening voor groep 3 en 4, passend bij de SLO-kerndoelen.",
+      "fr": "Le mot de départ est un pochoir à fenêtres : pose-le sur un mot plus long. Il ne tient que si chaque fenêtre montre sa lettre et si le reste est une vraie terminaison. Activité interactive de lecture pour le CP et le CE1, alignée sur les programmes officiels.",
+      "es": "La palabra de base es una plantilla con ventanas: ponla sobre una palabra más larga. Solo encaja si cada ventana muestra su letra y lo que sobra es un final de verdad. Actividad interactiva de lectura para primer grado, alineada con el currículo oficial.",
+      "pt": "A palavra de base é um molde com janelas: coloque-o sobre uma palavra mais longa. Ele só encaixa se cada janela mostrar sua letra e o que sobra for um final de verdade. Atividade interativa de leitura para o 1º ano, alinhada à BNCC.",
+      "sv": "Grundordet är en schablon med fönster: lägg den över ett längre ord. Den passar bara om varje fönster visar sin bokstav och resten är en riktig ändelse. Interaktiv läsövning för åk 1 enligt Lgr22.",
+      "da": "Grundordet er en skabelon med vinduer: Læg den over et længere ord. Den passer kun, hvis hvert vindue viser sit bogstav, og resten er en rigtig endelse. Interaktiv læseøvelse til 1. klasse i tråd med Fælles Mål.",
+      "no": "Grunnordet er en sjablong med vinduer: Legg den over et lengre ord. Den passer bare hvis hvert vindu viser sin bokstav og resten er en ekte ending. Interaktiv leseøvelse for 1. trinn i tråd med LK20.",
+      "fi": "Perussana on kaava, jossa on ikkunat: laita se pidemmän sanan päälle. Se sopii vain, jos jokaisessa ikkunassa näkyy oma kirjain ja loppu on oikea pääte. Vuorovaikutteinen lukutehtävä 1. luokalle (OPS 2014)."
     },
     "kid_prompt_template": "promptEnding"
   }

@@ -4427,6 +4427,29 @@
         "El niño ve que las cosas del mismo tipo pueden verse muy distintas y que un mismo color o una misma forma no hacen un tipo",
         "El niño clasifica con dos características a la vez y pone en medio las cosas que tienen las dos"
       ]
+    },
+    "cvc-builder.build-blend-word.rf-1-3": {
+      "about": [
+        "Cada letra es un gotero de cristal con su propio color de pintura. El niño mira el dibujo (un queso, un perro, una llave, una silla) y vierte las letras de la palabra en seis pocillos, uno para cada sonido. Las letras que juntas forman un solo sonido comparten un pocillo, y las que conservan su propio sonido tienen cada una el suyo. Los pocillos de pintura son una actividad de primer grado de primaria sobre esa decisión.",
+        "Al presionar Comprobar, un pincel remueve los pocillos. La c y la h en un mismo pocillo se mezclan en un color nuevo, porque ch es un solo sonido; lo mismo pasa con ll, rr y qu. Una ch repartida en dos pocillos se inclina por encima del borde. Siempre hay seis pocillos, así que no delatan cuántos sonidos tiene la palabra. Cuando todo está bien, la pintura se seca en la tira de colores de la palabra, que va al estante de colores.",
+        "La actividad está alineada con el currículo oficial de lectura y escritura de primer grado de primaria. Sin cronómetro y sin puntos."
+      ],
+      "practices": [
+        "Oír que ch, ll y rr son dos letras para un solo sonido",
+        "Saber que en qu la u no suena",
+        "Escribir la palabra de un dibujo sonido por sonido",
+        "Saber que la rr suena fuerte, como en perro y carro"
+      ],
+      "howToPlay": [
+        "Mira el dibujo y di la palabra despacio. Toca el dibujo para oírla.",
+        "Toca un gotero para verterlo en el siguiente pocillo vacío, o arrástralo a un pocillo. Para poner dos letras en un pocillo, arrastra la segunda sobre la primera.",
+        "Presiona Comprobar y mira la pintura: un color nuevo es un sonido, las rayas son dos sonidos."
+      ],
+      "learningGoals": [
+        "Leer y escribir palabras con ch, ll, rr y qu.",
+        "Escribir palabras sencillas sonido por sonido.",
+        "Entender que una palabra no siempre tiene tantos sonidos como letras."
+      ]
     }
   }
 }

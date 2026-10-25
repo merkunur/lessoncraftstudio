@@ -117,7 +117,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 107 | LIVE 2026-10-25 · The Fair Mobile | 1 | 1.G.A.3 | `choice-board.fraction-equal-shares.1-g-a-3` | choice-board-activity | Equal Halves and Fourths — Find the Fair Shares / Grade 1 Geometry |
 | 108 | LIVE 2026-10-25 · The One-Piece Stamp | 1 | 1.G.A.3 | `fractions.partition-equal-shares.1-g-a-3` | fractions-activity | Make Equal Parts — Partition into Halves & Fourths (Grade 1) |
 | 109 | LIVE 2026-10-25 · The Sound Roll | 1 | RF.1.2.a | `stretch-giraffe.long-short-vowel.rf-1-2-a` | stretch-giraffe-activity | Stretch the Giraffe — Long & Short Vowel Sounds (Grade 1) |
-| 110 |  | 1 | RF.1.3 | `cvc-builder.build-blend-word.rf-1-3` | cvc-builder-activity | Build Blend and Digraph Words |
+| 110 | LIVE 2026-10-25 · The Paint Wells | 1 | RF.1.3 | `cvc-builder.build-blend-word.rf-1-3` | cvc-builder-activity | Build Blend and Digraph Words |
 | 111 |  | 1 | RF.1.3 | `cvc-builder.build-magic-e.rf-1-3-silent-e` | cvc-builder-activity | Add the Magic e — Long Vowel Words |
 | 112 |  | 1 | RF.1.3 | `syllable-builder.build-vowel-teams.rf-1-3` | syllable-builder-activity | Build Vowel-Team Words — Long Vowel Sounds |
 | 113 |  | 1 | RF.1.3.e | `domino-two-part.two-syllable.rf-1-3-e` | domino-two-part-activity | Domino's Two-Part Words — Read Two-Syllable Words (Grade 1) |

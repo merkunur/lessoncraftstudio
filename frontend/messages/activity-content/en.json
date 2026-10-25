@@ -1670,25 +1670,25 @@
     },
     "cvc-builder.build-blend-word.rf-1-3": {
       "about": [
-        "A picture appears — ship, chin, frog, flag, drum, crab, sled, clock — and the child taps the sound chunks in order to build the word, choosing the right opening pair from look-alike chunks, with a Hear it button to check by sound. Build Blend and Digraph Words is a Grade 1 phonics activity for words that begin with two letters working together, played in the browser with no sign-up.",
-        "The activity makes the difference between a blend and a digraph concrete. Blends like fr, fl, dr, cr, sl, and cl hold two sounds you can still hear separately, while digraphs like sh and ch are two letters that make a single sound, and the distractor chunks are the easy mix-ups — ch versus sh, fr versus fl — so a child must listen for the exact opening before tapping. Building the word chunk by chunk, then hearing it, ties the spelling to the sounds rather than to memorized shapes.",
-        "It is aligned to Common Core RF.1.3 — knowing the spelling-sound correspondences for common consonant digraphs and blends. No timer, no score — just calm, playful practice."
+        "Every letter is a little glass dropper of its own colour of paint. The child looks at the picture (a ship, a chick, a frog, a bell) and pours the letters of its word into six paint wells, one well for each sound. Letters that make one sound together share a well, and letters that keep their own sounds each get a well of their own. Build Blend and Digraph Words is a Grade 1 phonics activity about exactly that decision.",
+        "Press Check and a paddle stirs the wells. S and h in one well swirl into a brand-new green, because sh is one sound; f and r in one well refuse to mix and run in stripes, because frog keeps both sounds. An sh broken across two wells leans across the wall, and a wrong letter clouds grey. There are always six wells, so the wells never tell how many sounds a word has, and the tray always holds a trap or two (a c beside the s, an l beside the r). When every well is right, the paint dries into the word's colour strip and goes on the colour shelf, where every sh is the same green wherever it sat. Two more clues: Team jars (pour the missing sh, ch or ck into the empty well) and Sentence (find every word with sh).",
+        "It is aligned to Common Core RF.1.3: knowing the spelling-sound correspondences for common consonant digraphs, and decoding regularly spelled one-syllable words. No timer and no score."
       ],
       "practices": [
-        "Hear and spell the opening blend in words like frog and sled",
-        "Spell digraphs sh and ch as two letters making one sound",
-        "Tell easily-confused chunks apart, such as ch and sh or fr and fl",
-        "Build a whole word by placing its sound chunks in order"
+        "Hear that sh, ch and ck are two letters for one sound",
+        "Hear both sounds of a blend, as in frog, flag and crab",
+        "Spell a word one well per sound, from the picture",
+        "Tell where a letter team sits: at the start or at the end"
       ],
       "howToPlay": [
-        "Look at the picture and tap Hear it to listen to the word.",
-        "Tap the sound chunks in order to spell it, starting with the right opening pair.",
-        "Listen again and fix your spelling as needed — there is no timer and no score."
+        "Look at the picture and say the word slowly. Tap the picture to hear it.",
+        "Tap a dropper to pour it into the next empty well, or drag it onto a well. To put two letters in one well, drag the second one onto the first.",
+        "Press Check and watch the paint: one new colour means one sound, stripes mean two sounds. Fix any well and stir again."
       ],
       "learningGoals": [
-        "Read and spell words with common blends and digraphs — the focus of Common Core RF.1.3.",
-        "Understand that a blend keeps two sounds while a digraph makes one.",
-        "Build the decoding skills that move children beyond simple three-letter words."
+        "Know the common consonant digraphs sh, ch and ck, the focus of Common Core RF.1.3.",
+        "Decode and spell words that begin or end with a consonant blend.",
+        "Understand that the number of sounds in a word is not always the number of letters."
       ]
     },
     "cvc-builder.build-cvc-word.rf-k-3": {

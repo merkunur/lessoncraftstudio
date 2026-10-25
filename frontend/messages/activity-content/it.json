@@ -4427,6 +4427,29 @@
         "Il bambino vede che le cose dello stesso tipo possono essere molto diverse e che uno stesso colore o una stessa forma non fanno un tipo",
         "Il bambino classifica in base a due caratteristiche insieme e mette in mezzo le cose che le hanno tutte e due"
       ]
+    },
+    "cvc-builder.build-blend-word.rf-1-3": {
+      "about": [
+        "Ogni lettera è un piccolo contagocce con il suo colore. Il bambino guarda la figura (una chiave, un pesce, un ragno, un gatto) e versa le lettere della parola in sei pozzetti di colore, uno per ogni suono. Le lettere che insieme fanno un solo suono dividono un pozzetto; quelle che tengono il proprio suono ne hanno uno ciascuna. I pozzetti di colore sono un’attività di prima primaria proprio su questa scelta.",
+        "Quando si preme Controlla, un pennello mescola i pozzetti. Ch, gn e sc in un solo pozzetto diventano un colore nuovo, perché fanno un solo suono; t e r in treno non si mescolano e restano a righe, perché si sentono tutte e due. Le doppie (tt, ll, cc) diventano un colore più scuro della stessa lettera. I pozzetti sono sempre sei, quindi non dicono quanti suoni ha la parola. Quando tutto è giusto, il colore si asciuga nella striscia della parola, che va sulla mensola dei colori.",
+        "L’attività è allineata alle Indicazioni nazionali per la lettura e la scrittura in prima. Senza cronometro e senza punteggio."
+      ],
+      "practices": [
+        "Sentire che ch, gn e sc sono un solo suono",
+        "Riconoscere le doppie, come in gatto e palla",
+        "Scrivere la parola di una figura suono per suono",
+        "Sentire tutti e due i suoni di tr in treno"
+      ],
+      "howToPlay": [
+        "Guarda la figura e di’ la parola lentamente. Tocca la figura per sentirla.",
+        "Tocca un contagocce per versarlo nel prossimo pozzetto vuoto, oppure trascinalo su un pozzetto. Per mettere due lettere in un pozzetto, trascina la seconda sulla prima.",
+        "Premi Controlla e guarda il colore: un colore nuovo è un suono, le righe sono due suoni."
+      ],
+      "learningGoals": [
+        "Leggere e scrivere parole con ch, gn, sc e le doppie.",
+        "Scrivere parole semplici suono per suono.",
+        "Capire che una parola non ha sempre tanti suoni quante lettere."
+      ]
     }
   }
 }

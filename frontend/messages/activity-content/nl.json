@@ -4500,6 +4500,29 @@
         "Het kind ziet dat dingen van één soort er heel verschillend uit kunnen zien en dat dezelfde kleur of vorm nog geen soort maakt",
         "Het kind sorteert op twee kenmerken tegelijk en legt de dingen met allebei in het midden"
       ]
+    },
+    "cvc-builder.build-blend-word.rf-1-3": {
+      "about": [
+        "Elke letter is een klein pipetje met een eigen kleur verf. Het kind kijkt naar het plaatje (een schip, een slak, een vlag, een ring) en giet de letters van het woord in zes verfbakjes, één bakje voor elke klank. Letters die samen één klank maken, delen een bakje; letters die hun eigen klank houden, krijgen elk een eigen bakje. De verfbakjes zijn een activiteit voor groep 3 over precies die keuze.",
+        "Bij Controleer roert een kwast door de bakjes. De c en de h in één bakje mengen tot een nieuwe kleur, want ch is één klank; de s en de l van slak blijven in strepen, want je hoort ze allebei. Let op schip: de s en de ch zijn twee klanken, dus de s mengt niet met de ch. Er zijn altijd zes bakjes, dus de bakjes verraden niet hoeveel klanken een woord heeft. Als alles klopt, droogt de verf tot de kleurstrook van het woord en gaat die naar de kleurenplank.",
+        "De activiteit past bij de SLO-kerndoelen voor technisch lezen en spellen in groep 3. Zonder tijdsdruk en zonder punten."
+      ],
+      "practices": [
+        "Horen dat ch en ng één klank zijn",
+        "Twee medeklinkers naast elkaar allebei horen, zoals in vlag en klok",
+        "Een woord bij een plaatje klank voor klank spellen",
+        "Horen dat de s en de ch in schip twee klanken zijn"
+      ],
+      "howToPlay": [
+        "Kijk naar het plaatje en zeg het woord langzaam. Tik op het plaatje om het te horen.",
+        "Tik op een pipet om hem in het volgende lege bakje te gieten, of sleep hem naar een bakje. Twee letters in één bakje: sleep de tweede naar de eerste.",
+        "Druk op Controleer en kijk naar de verf: één nieuwe kleur is één klank, strepen zijn twee klanken."
+      ],
+      "learningGoals": [
+        "Woorden met ch en ng lezen en spellen.",
+        "Woorden met twee medeklinkers naast elkaar klank voor klank spellen.",
+        "Begrijpen dat een woord niet altijd evenveel klanken als letters heeft."
+      ]
     }
   }
 }

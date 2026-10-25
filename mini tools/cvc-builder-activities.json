@@ -959,147 +959,45 @@
   },
   {
     "id": "cvc-builder.build-blend-word.rf-1-3",
-    "tool": "cvc-builder-activity",
-    "task_template": "build-blend-word",
+    "tool": "paint-wells-activity",
+    "task_template": "paint-wells",
     "alignment": {
       "framework": "CCSS",
       "code": "RF.1.3",
       "grade": "1",
       "strand": "Reading: Foundational Skills"
     },
-    "params": {
-      "words": [
-        {
-          "noun": "ship",
-          "themeDir": "vehicles",
-          "targetWord": "ship",
-          "chunks": [
-            "sh",
-            "i",
-            "p"
-          ],
-          "distractors": [
-            "ch",
-            "f",
-            "t"
-          ]
-        },
-        {
-          "noun": "chin",
-          "themeDir": "body parts",
-          "targetWord": "chin",
-          "chunks": [
-            "ch",
-            "i",
-            "n"
-          ],
-          "distractors": [
-            "sh",
-            "b",
-            "t"
-          ]
-        },
-        {
-          "noun": "frog",
-          "themeDir": "camping",
-          "targetWord": "frog",
-          "chunks": [
-            "fr",
-            "o",
-            "g"
-          ],
-          "distractors": [
-            "fl",
-            "tr",
-            "b"
-          ]
-        },
-        {
-          "noun": "flag",
-          "themeDir": "4th of July",
-          "targetWord": "flag",
-          "chunks": [
-            "fl",
-            "a",
-            "g"
-          ],
-          "distractors": [
-            "fr",
-            "cl",
-            "t"
-          ]
-        },
-        {
-          "noun": "drum",
-          "themeDir": "music",
-          "targetWord": "drum",
-          "chunks": [
-            "dr",
-            "u",
-            "m"
-          ],
-          "distractors": [
-            "tr",
-            "cr",
-            "b"
-          ]
-        },
-        {
-          "noun": "crab",
-          "themeDir": "ocean life",
-          "targetWord": "crab",
-          "chunks": [
-            "cr",
-            "a",
-            "b"
-          ],
-          "distractors": [
-            "cl",
-            "dr",
-            "p"
-          ]
-        },
-        {
-          "noun": "sled",
-          "themeDir": "winter",
-          "targetWord": "sled",
-          "chunks": [
-            "sl",
-            "e",
-            "d"
-          ],
-          "distractors": [
-            "sn",
-            "st",
-            "b"
-          ]
-        },
-        {
-          "noun": "clock",
-          "themeDir": "around the house",
-          "targetWord": "clock",
-          "chunks": [
-            "cl",
-            "o",
-            "ck"
-          ],
-          "distractors": [
-            "cr",
-            "ch",
-            "t"
-          ]
-        }
-      ]
-    },
+    "params": { "clue": ["pour", "jars", "sentence"], "help": ["first", "none"], "wells": 6, "rounds": { "pour": 9, "jars": 9, "sentence": 7 }, "sets": 2 },
     "theme": null,
     "slug": {
-      "en": "build-blend-and-digraph-words"
+      "en": "build-blend-and-digraph-words",
+      "de": "woerter-mit-sch-ch-ck-klasse-1",
+      "nl": "woorden-met-ch-ng-en-medeklinkers-groep-3",
+      "sv": "dubbelteckning-och-ng-ak-1",
+      "no": "dobbel-konsonant-og-ng-1-trinn",
+      "es": "ch-ll-rr-y-qu-primero-de-primaria",
+      "it": "ch-gn-sc-e-doppie-classe-prima",
+      "pt": "ch-lh-e-rr-1-ano"
     },
     "page_title": {
-      "en": "Build Blend and Digraph Words"
+      "en": "Build Blend and Digraph Words",
+      "de": "Die Farbnäpfchen – Wörter mit sch, ch und ck (Klasse 1)",
+      "nl": "De verfbakjes – ch, ng en medeklinkers samen (groep 3)",
+      "sv": "Färgskålarna – dubbelteckning och ng (åk 1)",
+      "no": "Fargeskålene – dobbel konsonant og ng (1. trinn)",
+      "es": "Los pocillos de pintura – ch, ll, rr y qu en primer grado",
+      "it": "I pozzetti di colore – ch, gn, sc e doppie in prima",
+      "pt": "Os potinhos de tinta – ch, lh e rr no 1º ano"
     },
     "page_intro": {
-      "en": "Build words that begin with two letters working together — blends like fr and st (two sounds blended) and digraphs like sh and ch (two letters, one sound). Tap the sound chunks in order to spell the word for the picture, and tap Hear it to listen. Take your time; there is no timer and no score. Aligned to Common Core RF.1.3 — knowing the spelling-sound correspondences for common consonant digraphs and blends."
+      "en": "Build words that begin with two letters working together — blends like fr and st (two sounds blended) and digraphs like sh and ch (two letters, one sound). Tap the sound chunks in order to spell the word for the picture, and tap Hear it to listen. Take your time; there is no timer and no score. Aligned to Common Core RF.1.3 — knowing the spelling-sound correspondences for common consonant digraphs and blends.",
+      "de": "Fülle die Buchstaben eines Bildwortes in die Farbnäpfchen: ein Näpfchen für jeden Laut. Sch, ch und ck mischen sich zu einer neuen Farbe, das K und das r in Krug bleiben getrennt. Interaktive Übung nach Lehrplan.",
+      "nl": "Giet de letters van het plaatje in de verfbakjes: één bakje voor elke klank. Letters die samen één klank maken, mengen tot een nieuwe kleur, maar de s en de ch van schip niet. Interactief, passend bij de SLO-kerndoelen.",
+      "sv": "Häll bildordets bokstäver i färgskålarna: en skål för varje ljud. Två lika bokstäver som tt och ll blir ett ljud och en djupare färg, och ng blandas till en ny färg. Interaktiv övning enligt Lgr22.",
+      "no": "Hell bokstavene i bildeordet over i fargeskålene: én skål for hver lyd. Dobbel konsonant og ng blir én lyd og én farge, mens g og r i gris beholder hver sin lyd. Interaktiv øvelse etter LK20.",
+      "es": "Vierte las letras del dibujo en los pocillos: uno para cada sonido. Ch, ll, rr y qu se mezclan en un color nuevo, porque dos letras forman un solo sonido. Actividad interactiva alineada con el currículo oficial.",
+      "it": "Versa le lettere della figura nei pozzetti: uno per ogni suono. Ch, gn e sc si mescolano in un colore nuovo, le doppie in un colore più scuro. Attività interattiva allineata alle Indicazioni nazionali.",
+      "pt": "Despeje as letras da figura nos potinhos: um para cada som. Ch, lh e rr se misturam numa cor nova, porque duas letras formam um som só. Atividade interativa alinhada à BNCC."
     },
     "kid_prompt_template": "promptBuildBlend"
   },

@@ -4457,6 +4457,29 @@
         "A criança percebe que coisas do mesmo tipo podem ser bem diferentes e que a mesma cor ou a mesma forma não fazem um tipo",
         "A criança classifica por duas características ao mesmo tempo e coloca no meio as coisas que têm as duas"
       ]
+    },
+    "cvc-builder.build-blend-word.rf-1-3": {
+      "about": [
+        "Cada letra é um conta-gotas com a sua própria cor de tinta. A criança olha a figura (uma chave, uma folha, um olho, um carro) e despeja as letras da palavra em seis potinhos, um para cada som. Letras que juntas formam um som só dividem um potinho; letras que guardam o próprio som ganham um potinho cada. Os potinhos de tinta são uma atividade do 1º ano sobre essa escolha.",
+        "Ao tocar em Verificar, um pincel mexe os potinhos. O c e o h num mesmo potinho se misturam numa cor nova, porque ch é um som só; o mesmo vale para lh e rr. Um lh dividido em dois potinhos se inclina por cima da borda. Os potinhos são sempre seis, então não contam quantos sons a palavra tem. Quando tudo está certo, a tinta seca na faixa de cores da palavra, que vai para a prateleira de cores.",
+        "A atividade está alinhada à BNCC para leitura e escrita no 1º ano. Sem cronômetro e sem pontos."
+      ],
+      "practices": [
+        "Ouvir que ch, lh e rr são duas letras para um som",
+        "Ouvir que o rr de carro e burro é um som só",
+        "Escrever a palavra de uma figura som por som",
+        "Perceber que há palavras com mais letras do que sons"
+      ],
+      "howToPlay": [
+        "Olhe a figura e fale a palavra devagar. Toque na figura para ouvir.",
+        "Toque num conta-gotas para despejar no próximo potinho vazio, ou arraste-o até um potinho. Para pôr duas letras num potinho, arraste a segunda até a primeira.",
+        "Toque em Verificar e olhe a tinta: uma cor nova é um som, listras são dois sons."
+      ],
+      "learningGoals": [
+        "Ler e escrever palavras com ch, lh e rr.",
+        "Escrever palavras simples som por som.",
+        "Entender que uma palavra nem sempre tem tantos sons quanto letras."
+      ]
     }
   }
 }

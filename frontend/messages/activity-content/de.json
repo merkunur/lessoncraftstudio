@@ -4502,6 +4502,29 @@
         "Das Kind erkennt, dass Dinge einer Sorte ganz verschieden aussehen können und dass eine gemeinsame Farbe oder Form noch keine Sorte ist",
         "Das Kind sortiert nach zwei Merkmalen zugleich und legt Dinge mit beiden Merkmalen in die Mitte"
       ]
+    },
+    "cvc-builder.build-blend-word.rf-1-3": {
+      "about": [
+        "Jeder Buchstabe ist eine kleine Pipette mit seiner eigenen Farbe. Das Kind schaut das Bild an (ein Schiff, ein Fisch, ein Krug, ein Buch) und füllt die Buchstaben des Wortes in sechs Farbnäpfchen, ein Näpfchen für jeden Laut. Buchstaben, die zusammen einen Laut ergeben, teilen sich ein Näpfchen; Buchstaben, die ihren eigenen Laut behalten, bekommen jeder ein eigenes. Die Farbnäpfchen sind eine Übung für die 1. Klasse genau zu dieser Entscheidung.",
+        "Beim Prüfen rührt ein Pinsel die Näpfchen um. S, c und h in einem Näpfchen werden zu einem ganz neuen Grün, denn sch ist ein Laut; K und r in einem Näpfchen mischen sich nicht und bleiben gestreift, denn in Krug hört man beide Laute. Ein sch, das über zwei Näpfchen verteilt ist, lehnt sich über die Wand. Es gibt immer sechs Näpfchen, sie verraten also nicht, wie viele Laute ein Wort hat. Ist alles richtig, trocknet die Farbe zu einem Farbstreifen, der ins Farbregal wandert: Jedes sch ist dasselbe Grün, egal wo es im Wort steht. Bei den Gruppengläsern fehlt im Wort sch, ch oder ck, und das Kind gießt das richtige Glas ins leere Näpfchen.",
+        "Die Übung folgt dem Lehrplan der 1. Klasse zum Lesen und Schreiben. Ohne Zeitdruck und ohne Punkte."
+      ],
+      "practices": [
+        "Hören, dass sch, ch und ck ein Laut sind",
+        "Beide Laute am Wortanfang hören, wie bei Krug, Glas und Brot",
+        "Ein Bildwort Laut für Laut schreiben",
+        "Doppelte Mitlaute wie ll, tt und mm als einen Laut schreiben"
+      ],
+      "howToPlay": [
+        "Schau das Bild an und sprich das Wort langsam. Tippe das Bild an, um es zu hören.",
+        "Tippe eine Pipette an, dann fließt ihre Farbe ins nächste leere Näpfchen, oder zieh sie auf ein Näpfchen. Für zwei Buchstaben in einem Näpfchen ziehst du den zweiten auf den ersten.",
+        "Drück auf Prüfen und schau auf die Farbe: eine neue Farbe heißt ein Laut, Streifen heißen zwei Laute."
+      ],
+      "learningGoals": [
+        "Die Buchstabengruppen sch, ch und ck sicher lesen und schreiben.",
+        "Wörter mit zwei Mitlauten am Anfang lautgetreu schreiben.",
+        "Verstehen, dass ein Wort nicht immer so viele Laute wie Buchstaben hat."
+      ]
     }
   }
 }

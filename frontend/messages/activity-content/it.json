@@ -2244,25 +2244,28 @@
     },
     "fractions.partition-equal-shares.1-g-a-3": {
       "about": [
-        "Compare una forma — un cerchio, un quadrato, un rettangolo, un triangolo, un'ellisse, un rombo, un esagono o un pentagono — e il bambino tocca le linee di taglio per dividerla in 2 parti uguali (metà) o in 4 parti uguali (quarti). È un'attività di geometria per la classe prima, interattiva, che si gioca nel browser su qualsiasi dispositivo, senza registrazione.",
-        "L'idea importante è che le parti uguali devono essere giuste: i pezzi devono avere la stessa grandezza. Tagliare forme diverse, non solo cerchi, mostra che metà e quarti riguardano l'area uguale, e non una sola immagine familiare: un quadrato diviso in una griglia di quattro e un cerchio diviso in quattro fanno entrambi dei quarti. Poiché è il bambino a fare il taglio, è lui stesso a rendere le parti uguali, invece di riconoscere una figura già pronta.",
-        "L'attività è allineata alle Indicazioni nazionali: dividere cerchi e rettangoli in due e quattro parti uguali e descriverle come metà e quarti. Nessun timer e nessun punteggio: solo pratica serena e giocosa."
+        "Su un tappetino verde da taglio c’è una figura di cartone: un cerchio, un quadrato, un rettangolo, un triangolo, un ovale, un rombo, un esagono o un pentagono. Il bambino la taglia trascinando una linea da un puntino del bordo a un altro, oppure, per i terzi di cerchio, triangolo o esagono, da uno spillo al centro fino al bordo. Poi arriva la prova: tocca un pezzo e se ne solleva un timbro di vetro. Con quello il bambino timbra gli altri pezzi. Un pezzo che è una copia scatta al suo posto e riceve il numero successivo; su un pezzo che non lo è, il corallo mostra dove il timbro sporge e le righe dove lascia un vuoto.",
+        "Su questo tappetino le parti uguali sono sempre copie di un pezzo: i tagli sono scelti in modo che il timbro non contraddica mai le grandezze: un taglio giusto passa sempre, uno ingiusto mai. Il primo livello chiede metà e quarti di tutte e otto le figure; il secondo terzi e quarti fatti a partire dalle metà. Nel terzo livello il bambino colora una frazione timbrando copie (tre quarti sono tre copie del pezzo da un quarto), dà un nome a una frazione colorata con due rotelle di numeri e una volta deve decidere se alcuni pezzi sono davvero quarti, quando non lo sono. Dopo la risposta giusta ogni pezzo mostra la sua frazione, la figura va su una mensolina e le forbici dividono di nuovo a metà ogni pezzo: più parti, parti più piccole.",
+        "Dopo il primo errore il timbro confronta ogni pezzo con il più grande e il suggerimento dice che cosa ha trovato; dopo il secondo errore dei puntini dorati segnano le estremità di un taglio giusto. In linea con le Indicazioni nazionali, nuclei Numeri e Spazio e figure. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Dividere cerchi, quadrati e altre forme in parti uguali.",
-        "Formare 2 parti uguali (metà) e 4 parti uguali (quarti).",
-        "Mantenere i pezzi della stessa grandezza, perché le parti siano giuste.",
-        "Vedere metà e quarti in molte forme diverse."
+        "Tagliare una figura in 2, 3 o 4 parti uguali",
+        "Verificare se le parti sono uguali controllando che ognuna sia una copia della prima",
+        "Vedere che più parti uguali significa parti più piccole",
+        "Colorare e nominare frazioni come 1/2, 1/3 e 3/4 come copie di un pezzo"
       ],
       "howToPlay": [
-        "Il bambino guarda la forma e quante parti uguali deve fare.",
-        "Tocca le linee di taglio per dividerla in metà o in quarti.",
-        "Si assicura che i pezzi siano uguali: non c'è timer né punteggio."
+        "Trascina da un puntino del bordo a un altro puntino per tagliare la figura. Nei turni dei terzi trascina dallo spillo al centro fino al bordo. Tocca un taglio per toglierlo.",
+        "Tocca un pezzo per sollevarne un timbro di vetro, poi tocca o trascina il timbro su un altro pezzo. Una copia scatta e riceve un numero; corallo e righe vogliono dire: non è una copia.",
+        "Premi Controlla quando ogni pezzo dovrebbe essere una copia degli altri.",
+        "In «Colora e dai un nome» timbra tanti pezzi quanti ne dice il numero in alto sul cartoncino, oppure imposta le due rotelle sulla frazione colorata.",
+        "Nelle impostazioni scegli il livello (Metà e quarti · Terzi · Colora e dai un nome), mostri le tacche del righello a metà, terzi e quarti e lasci che il timbro controlli da solo quando premi Controlla."
       ],
       "learningGoals": [
-        "Dividere le forme in due e quattro parti uguali.",
-        "Descrivere le parti uguali come metà e quarti.",
-        "Costruire la base delle parti giuste su cui si appoggerà il lavoro sulle frazioni."
+        "Dividere cerchi, rettangoli e altre figure in due, tre o quattro parti uguali.",
+        "Verificare con il timbro se le parti sono uguali e vedere quando non lo sono.",
+        "Capire che dividendo in più parti uguali le parti diventano più piccole.",
+        "Descrivere una parte colorata come una frazione, per esempio 3/4: tre copie del pezzo da un quarto."
       ]
     },
     "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {

@@ -3299,25 +3299,28 @@
     },
     "fractions.partition-equal-shares.1-g-a-3": {
       "about": [
-        "Aparece una figura —un círculo, un cuadrado, un rectángulo, un triángulo, una elipse, un rombo, un hexágono o un pentágono— y el niño o la niña toca las líneas de corte para dividirla en 2 partes iguales (mitades) o en 4 partes iguales (cuartos). Es una actividad de geometría para 1.º de primaria, interactiva, que se juega en el navegador desde cualquier dispositivo, sin crear cuenta.",
-        "La idea central es que las partes iguales deben ser justas: los trozos tienen que ser del mismo tamaño. Al cortar figuras variadas, y no solo círculos, queda claro que las mitades y los cuartos se tratan de áreas iguales y no de una sola imagen conocida: un cuadrado dividido en una cuadrícula de cuatro y un círculo cortado en cuatro forman, ambos, cuartos. Como es el niño o la niña quien hace el corte, va igualando las partes por sí mismo en lugar de reconocer una imagen ya terminada.",
-        "Está pensada para el nivel de 1.º de primaria, en el eje de geometría de los planes y programas de estudio (SEP): dividir círculos y rectángulos en dos y cuatro partes iguales y describirlas como mitades y cuartos. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+        "Sobre un tapete verde de corte hay una figura de cartón: un círculo, un cuadrado, un rectángulo, un triángulo, un óvalo, un rombo, un hexágono o un pentágono. El niño la corta arrastrando una línea de un punto del borde a otro o, para los tercios de un círculo, un triángulo o un hexágono, desde un alfiler en el centro hasta el borde. Luego viene la prueba: toca una pieza y se levanta un sello de vidrio con su forma. Con él, el niño sella las demás piezas. Una pieza que es copia encaja con un clic y recibe el siguiente número; en una que no lo es, el coral muestra dónde sobresale el sello y las rayas, dónde deja un hueco.",
+        "En este tapete, las partes iguales siempre son copias de una pieza: los cortes están elegidos para que el sello nunca contradiga los tamaños: un corte justo siempre pasa y uno injusto nunca. El primer nivel pide medios y cuartos de las ocho figuras; el segundo, tercios y cuartos hechos a partir de medios. En el tercer nivel el niño colorea una fracción sellando copias (tres cuartos son tres copias de la pieza de un cuarto), nombra una fracción coloreada con dos ruedas de números y una vez debe decidir si unas piezas de verdad son cuartos, cuando no lo son. Después de acertar, cada pieza muestra su fracción, la figura pasa a una repisa y las tijeras vuelven a partir cada pieza por la mitad: más partes, partes más pequeñas.",
+        "Después del primer error, el sello compara cada pieza con la más grande y la pista dice lo que encontró; después del segundo, unos puntos dorados marcan los extremos de un corte justo. En línea con los programas de estudio de la SEP (campo formativo Saberes y pensamiento científico). Sin cronómetro y sin puntaje."
       ],
       "practices": [
-        "Cortar círculos, cuadrados y otras figuras en partes iguales.",
-        "Formar 2 partes iguales (mitades) y 4 partes iguales (cuartos).",
-        "Mantener los trozos del mismo tamaño para que las partes sean justas.",
-        "Ver las mitades y los cuartos en muchas figuras distintas."
+        "Cortar una figura en 2, 3 o 4 partes iguales",
+        "Comprobar si las partes son iguales viendo si cada una es copia de la primera",
+        "Ver que más partes iguales quiere decir partes más pequeñas",
+        "Colorear y nombrar fracciones como 1/2, 1/3 y 3/4 como copias de una pieza"
       ],
       "howToPlay": [
-        "Mira la figura y el número de partes iguales que hay que formar.",
-        "Toca las líneas de corte para dividirla en mitades o en cuartos.",
-        "Asegúrate de que los trozos queden iguales: no hay temporizador ni puntuación."
+        "Arrastra de un punto del borde a otro punto para cortar la figura. En las rondas de tercios, arrastra desde el alfiler del centro hasta el borde. Toca un corte para quitarlo.",
+        "Toca una pieza para levantar un sello de vidrio con su forma y luego tócala o arrástralo sobre otra pieza. Una copia encaja con un clic y recibe un número; el coral y las rayas quieren decir que no es copia.",
+        "Presiona Comprobar cuando cada pieza debería ser copia de las demás.",
+        "En «Colorea y nombra», sella tantas piezas como dice el número de arriba de la tarjeta, o pon las dos ruedas de números en la fracción coloreada.",
+        "En la configuración eliges el nivel (Medios y cuartos · Tercios · Colorea y nombra), muestras marcas de regla en los medios, tercios y cuartos y dejas que el sello compruebe solo al presionar Comprobar."
       ],
       "learningGoals": [
-        "Dividir figuras en dos y cuatro partes iguales.",
-        "Describir las partes iguales como mitades y cuartos.",
-        "Construir la base del reparto justo sobre la que se apoya el trabajo con fracciones más adelante."
+        "Dividir círculos, rectángulos y otras figuras en dos, tres o cuatro partes iguales.",
+        "Comprobar con el sello si las partes son iguales y ver cuándo no lo son.",
+        "Entender que al dividir en más partes iguales las partes son más pequeñas.",
+        "Describir una parte coloreada como una fracción, por ejemplo 3/4: tres copias de la pieza de un cuarto."
       ]
     },
     "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {

@@ -3110,24 +3110,28 @@
     },
     "fractions.partition-equal-shares.1-g-a-3": {
       "about": [
-        "Une forme apparaît — cercle, carré, rectangle, triangle, ellipse, losange, hexagone ou pentagone — et l'enfant touche les traits de coupe pour la partager en 2 parts égales (des moitiés) ou en 4 parts égales (des quarts). C'est une activité de géométrie interactive pour le CP, qui se joue dans le navigateur sur tous les appareils, sans inscription.",
-        "L'idée importante, c'est que des parts égales doivent être justes : les morceaux doivent avoir la même taille. En partageant des formes variées, et pas seulement des cercles, l'enfant comprend que les moitiés et les quarts sont une question d'aire égale, et non d'une seule image familière : un carré découpé en quatre cases et un cercle découpé en quatre donnent tous deux des quarts. Comme c'est l'enfant qui découpe, il rend lui-même les parts égales au lieu de reconnaître une image déjà faite. Un premier pas vers les fractions, dès le CP."
+        "Sur un tapis de découpe vert se trouve une figure en carton : un disque, un carré, un rectangle, un triangle, un ovale, un losange, un hexagone ou un pentagone. L’enfant la coupe en faisant glisser une ligne d’un point du bord à un autre ou, pour les tiers d’un disque, d’un triangle ou d’un hexagone, d’une épingle au centre jusqu’au bord. Vient alors le test : on touche un morceau et un tampon de verre se soulève de ce morceau. Avec lui, l’enfant tamponne les autres morceaux. Un morceau qui est une copie s’emboîte avec un clic et reçoit le numéro suivant ; sur un morceau qui ne l’est pas, le corail montre où le tampon dépasse et les rayures où il laisse un vide.",
+        "Sur ce tapis, des parts égales sont toujours des copies d’un morceau : les coupes sont choisies pour que le tampon ne contredise jamais les tailles : une coupe équitable réussit toujours, une coupe inéquitable jamais. Le premier niveau demande des moitiés et des quarts des huit figures ; le deuxième des tiers et des quarts faits à partir de moitiés. Au troisième niveau, l’enfant colorie une fraction en tamponnant des copies (trois quarts, ce sont trois copies du morceau d’un quart), nomme une fraction coloriée avec deux roues de nombres et doit une fois décider si des morceaux sont vraiment des quarts, alors qu’ils ne le sont pas. Après la réussite, chaque morceau montre sa fraction, la figure rejoint une petite étagère et les ciseaux coupent encore chaque morceau en deux : plus de parts, des parts plus petites.",
+        "Après une première erreur, le tampon compare chaque morceau au plus grand et l’indice dit ce qu’il a trouvé ; après une deuxième erreur, des points dorés marquent les extrémités d’une coupe équitable. En lien avec les programmes officiels pour les domaines Nombres et Espace et géométrie. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Découper des cercles, des carrés et d'autres formes en parts égales.",
-        "Faire 2 parts égales (des moitiés) et 4 parts égales (des quarts).",
-        "Garder les morceaux de la même taille pour que le partage soit juste.",
-        "Voir des moitiés et des quarts sur de nombreuses formes différentes."
+        "Couper une figure en 2, 3 ou 4 parts égales",
+        "Vérifier si des parts sont égales en regardant si chacune est une copie de la première",
+        "Voir que plus de parts égales, ce sont des parts plus petites",
+        "Colorier et nommer des fractions comme 1/2, 1/3 et 3/4 comme des copies d’un morceau"
       ],
       "howToPlay": [
-        "Regarde la forme et le nombre de parts égales à obtenir.",
-        "Touche les traits de coupe pour la partager en moitiés ou en quarts.",
-        "Vérifie que les morceaux sont égaux — il n'y a ni chrono ni score."
+        "Fais glisser d’un point du bord à un autre point pour couper la figure. Dans les manches des tiers, fais glisser de l’épingle du centre jusqu’au bord. Touche une coupe pour l’enlever.",
+        "Touche un morceau pour soulever un tampon de verre de ce morceau, puis touche un autre morceau ou fais-y glisser le tampon. Une copie s’emboîte et reçoit un numéro ; le corail et les rayures veulent dire : pas une copie.",
+        "Appuie sur Vérifier quand chaque morceau devrait être une copie des autres.",
+        "Dans « Colorier et nommer », tamponne autant de morceaux que le nombre du haut sur la carte, ou règle les deux roues de nombres sur la fraction coloriée.",
+        "Dans les réglages, tu choisis le niveau (Moitiés et quarts · Tiers · Colorier et nommer), tu affiches des repères de règle aux moitiés, aux tiers et aux quarts et tu laisses le tampon vérifier tout seul quand tu appuies sur Vérifier."
       ],
       "learningGoals": [
-        "Partager des formes en deux et en quatre parts égales.",
-        "Nommer les parts égales : des moitiés et des quarts.",
-        "Construire la base du partage équitable sur laquelle reposera le travail sur les fractions."
+        "Partager des disques, des rectangles et d’autres figures en deux, trois ou quatre parts égales.",
+        "Vérifier avec le tampon si des parts sont égales, et voir quand elles ne le sont pas.",
+        "Comprendre que partager en plus de parts égales donne des parts plus petites.",
+        "Décrire une part coloriée comme une fraction, par exemple 3/4 : trois copies du morceau d’un quart."
       ]
     },
     "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {

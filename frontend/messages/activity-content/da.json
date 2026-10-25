@@ -1200,24 +1200,28 @@
     },
     "fractions.partition-equal-shares.1-g-a-3": {
       "about": [
-        "Lav lige store dele viser en form — en cirkel, et kvadrat, et rektangel, en trekant, en ellipse, en rombe, en sekskant eller en femkant — og barnet trykker på snitlinjerne for at dele den i 2 lige store dele (halve) eller 4 lige store dele (fjerdedele). Det er en interaktiv geometriaktivitet til 1. klasse, der spilles i browseren på alle enheder uden konto.",
-        "Den store idé er, at lige store dele skal være retfærdige — stykkerne skal være lige store. Når man deler mange forskellige former og ikke kun cirkler, viser det, at halve og fjerdedele handler om lige store arealer og ikke om ét bestemt billede: et kvadrat delt i fire og en cirkel delt i fire giver begge fjerdedele. Fordi barnet selv klipper, laver det stykkerne lige store i stedet for at genkende et færdigt billede. Aktiviteten følger Fælles Mål inden for geometri: at dele cirkler og rektangler i to og fire lige store dele og beskrive dem som halve og fjerdedele. Der er ingen timer og ingen point."
+        "På et grønt skæreunderlag ligger en figur af pap: en cirkel, et kvadrat, et rektangel, en trekant, en oval, en rombe, en sekskant eller en femkant. Barnet klipper den ved at trække en linje fra én prik på kanten til en anden, eller ved tredjedele af en cirkel, trekant eller sekskant fra en stift i midten ud til kanten. Så kommer testen: Tryk på et stykke, og et stempel af glas løfter sig af det. Med det stempler barnet de andre stykker. Et stykke, der er en kopi, klikker på plads og får det næste tal; ved et stykke, der ikke er, viser koralrødt, hvor stemplet stikker ud, og striber, hvor det efterlader et hul.",
+        "På dette underlag er lige store dele altid kopier af ét stykke: Klippene er valgt, så stemplet aldrig er uenigt med størrelserne: Et retfærdigt klip består altid, et uretfærdigt aldrig. Første niveau beder om halvdele og fjerdedele af alle otte figurer, andet niveau om tredjedele og om fjerdedele lavet af halvdele. På tredje niveau farver barnet en brøk ved at stemple kopier (tre fjerdedele er tre kopier af fjerdedels-stykket), navngiver en farvet brøk på to talhjul og skal én gang afgøre, om nogle stykker virkelig er fjerdedele, når de ikke er det. Efter succes viser hvert stykke sin brøk, figuren kommer op på en lille hylde, og saksen halverer hvert stykke igen: flere dele, mindre dele.",
+        "Efter første fejl tester stemplet hvert stykke mod det største, og hjælpen fortæller, hvad det fandt; efter anden fejl markerer gyldne prikker enderne af et retfærdigt klip. I tråd med Fælles Mål for tal og geometri. Uden tidtagning og uden point."
       ],
       "practices": [
-        "Dele cirkler, kvadrater og andre former i lige store dele",
-        "Lave 2 lige store dele (halve) og 4 lige store dele (fjerdedele)",
-        "Holde stykkerne lige store, så delene bliver retfærdige",
-        "Se halve og fjerdedele på tværs af mange forskellige former"
+        "At klippe en figur i 2, 3 eller 4 lige store dele",
+        "At teste, om dele er lige store, ved at se, om hver del er en kopi af den første",
+        "At se, at flere lige store dele betyder mindre dele",
+        "At farve og navngive brøker som 1/2, 1/3 og 3/4 som kopier af ét stykke"
       ],
       "howToPlay": [
-        "Barnet kigger på formen og på, hvor mange lige store dele der skal laves.",
-        "Barnet trykker på snitlinjerne for at dele den i halve eller fjerdedele.",
-        "Sørg for, at stykkerne er lige store — der er ingen timer og ingen point."
+        "Træk fra en prik på kanten til en anden prik for at klippe figuren. I runderne med tredjedele trækker du fra stiften i midten ud til kanten. Tryk på et klip for at fjerne det.",
+        "Tryk på et stykke for at løfte et glasstempel af det, og tryk eller træk det så hen på et andet stykke. En kopi klikker og får et tal; koralrødt og striber betyder: ingen kopi.",
+        "Tryk på Tjek, når hvert stykke burde være en kopi af de andre.",
+        "I „Farv og navngiv“ stempler du lige så mange stykker, som det øverste tal på kortet siger, eller stiller de to talhjul på den farvede brøk.",
+        "I indstillingerne vælger du niveau (Halvdele og fjerdedele · Tredjedele · Farv og navngiv), viser linealmærker ved halvdele, tredjedele og fjerdedele og lader stemplet teste selv, når du trykker på Tjek."
       ],
       "learningGoals": [
-        "Barnet kan dele former i to og fire lige store dele",
-        "Barnet kan beskrive de lige store dele som halve og fjerdedele",
-        "Barnet bygger det fundament af retfærdig deling, som senere brøkarbejde bygger videre på"
+        "Dele cirkler, rektangler og andre figurer i to, tre eller fire lige store dele.",
+        "Teste med stemplet, om dele er lige store, og se, hvornår de ikke er det.",
+        "Forstå, at flere lige store dele giver mindre dele.",
+        "Beskrive en farvet del som en brøk som 3/4: tre kopier af fjerdedels-stykket."
       ]
     },
     "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {

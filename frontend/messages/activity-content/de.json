@@ -3744,25 +3744,28 @@
     },
     "fractions.partition-equal-shares.1-g-a-3": {
       "about": [
-        "Es erscheint eine Form — ein Kreis, Quadrat, Rechteck, Dreieck, eine Ellipse, Raute, ein Sechseck oder Fünfeck — und das Kind tippt die Schnittlinien an, um sie in 2 gleiche Teile (Hälften) oder 4 gleiche Teile (Viertel) zu teilen. Die interaktive Geometrie-Übung für die 1. Klasse läuft im Browser auf jedem Gerät, ohne Anmeldung.",
-        "Der Kern dieser Übung ist, dass gleiche Teile gerecht sein müssen — die Stücke müssen gleich groß sein. Weil viele verschiedene Formen geschnitten werden und nicht nur Kreise, wird klar: Bei Hälften und Vierteln geht es um gleich große Flächen und nicht um ein einziges vertrautes Bild. Ein Quadrat, das in vier Felder geteilt ist, und ein Kreis, der in vier Teile geteilt ist, zeigen beide Viertel. Weil das Kind selbst schneidet, macht es die Teile selbst gleich groß, statt nur ein fertiges Bild wiederzuerkennen.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Geometrie für die 1. Klasse ausgerichtet — Kreise und Rechtecke in zwei und vier gleiche Teile teilen und sie als Hälften und Viertel beschreiben. Es gibt keinen Timer und keine Punktewertung, nur ruhiges, spielerisches Üben."
+        "Auf einer grünen Schneidematte liegt eine Form aus Pappe: ein Kreis, ein Quadrat, ein Rechteck, ein Dreieck, ein Oval, eine Raute, ein Sechseck oder ein Fünfeck. Dein Kind schneidet sie, indem es eine Linie von einem Punkt am Rand zu einem anderen zieht – bei Dritteln von Kreis, Dreieck und Sechseck von einer Nadel in der Mitte bis zum Rand. Dann kommt der Test: Ein Teil antippen, und ein gläserner Stempel davon hebt sich ab. Damit stempelt dein Kind die anderen Teile. Ist ein Teil eine Kopie, rastet der Stempel ein und das Teil bekommt die nächste Zahl; sonst zeigt Korallenrot, wo der Stempel übersteht, und ein Streifenmuster, wo er eine Lücke lässt.",
+        "Auf dieser Matte sind gleich große Teile immer Kopien eines Teils: Die Schnitte sind so gewählt, dass der Stempel nie anders urteilt als die Größen: Ein gerechter Schnitt besteht immer, ein ungerechter nie. Die erste Stufe verlangt Hälften und Viertel aller acht Formen, die zweite Drittel und Viertel aus Hälften. Auf der dritten Stufe färbt dein Kind einen Bruch, indem es Kopien stempelt (drei Viertel sind drei Kopien des Viertel-Teils), benennt einen gefärbten Bruch an zwei Zahlenrädern und soll einmal prüfen, ob Teile wirklich Viertel sind – sie sind es nicht. Nach dem Erfolg zeigt jedes Teil seinen Bruch, die Form wandert auf ein kleines Regal, und die Schere halbiert jedes Teil noch einmal: mehr Teile, kleinere Teile.",
+        "Nach dem ersten Fehler prüft der Stempel jedes Teil am größten, und der Hinweis sagt, was er gefunden hat; nach dem zweiten Fehler markieren goldene Punkte die Enden eines gerechten Schnitts. Passend zum Lehrplan im Bereich Raum und Form. Ohne Zeitdruck und ohne Punktwertung."
       ],
       "practices": [
-        "Kreise, Quadrate und andere Formen in gleiche Teile schneiden.",
-        "2 gleiche Teile (Hälften) und 4 gleiche Teile (Viertel) machen.",
-        "Die Stücke gleich groß halten, damit die Teile gerecht sind.",
-        "Hälften und Viertel an vielen verschiedenen Formen sehen."
+        "Eine Form in 2, 3 oder 4 gleich große Teile schneiden",
+        "Prüfen, ob Teile gleich groß sind: Jedes muss eine Kopie des ersten sein",
+        "Sehen, dass mehr gleich große Teile kleinere Teile bedeuten",
+        "Brüche wie 1/2, 1/3, 3/4 als Kopien eines Teils färben und benennen"
       ],
       "howToPlay": [
-        "Schau dir die Form an und merke dir, in wie viele gleiche Teile du sie teilen sollst.",
-        "Tippe die Schnittlinien an, um sie in Hälften oder Viertel zu teilen.",
-        "Achte darauf, dass die Stücke gleich groß sind — es gibt keinen Timer und keine Punkte."
+        "Zieh von einem Punkt am Rand zu einem anderen, um die Form zu schneiden. In den Drittel-Runden ziehst du von der Nadel in der Mitte zum Rand. Tippe einen Schnitt an, um ihn wegzunehmen.",
+        "Tippe ein Teil an, um einen gläsernen Stempel davon abzuheben, und tippe dann ein anderes Teil an oder zieh den Stempel darauf. Eine Kopie rastet ein und bekommt eine Zahl; Korallenrot und Streifen heißen: keine Kopie.",
+        "Drück auf Prüfen, wenn jedes Teil eine Kopie der anderen sein sollte.",
+        "Bei „Färben und benennen“ stempelst du so viele Teile, wie die obere Zahl auf der Karte sagt, oder stellst die zwei Zahlenräder auf den gefärbten Bruch.",
+        "In den Einstellungen wählst du die Stufe (Hälften und Viertel · Drittel · Färben und benennen), zeigst Linealmarken bei Hälften, Dritteln und Vierteln an und lässt den Stempel beim Prüfen selbst testen."
       ],
       "learningGoals": [
-        "Formen in zwei und vier gleiche Teile teilen.",
-        "Die gleichen Teile als Hälften und Viertel beschreiben.",
-        "Die Grundlage des gerechten Teilens aufbauen, auf der spätere Bruchrechnung aufbaut."
+        "Kreise, Rechtecke und andere Formen in zwei, drei oder vier gleich große Teile teilen.",
+        "Mit dem Stempel prüfen, ob Teile gleich groß sind, und erkennen, wann sie es nicht sind.",
+        "Verstehen, dass mehr gleich große Teile kleinere Teile ergeben.",
+        "Einen gefärbten Teil als Bruch wie 3/4 beschreiben: drei Kopien des Viertel-Teils."
       ]
     },
     "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {

@@ -965,25 +965,28 @@
     },
     "fractions.partition-equal-shares.1-g-a-3": {
       "about": [
-        "En form dukker opp — en sirkel, et kvadrat, et rektangel, en trekant, en ellipse, en rombe, en sekskant eller en femkant — og barnet trykker på dele-strekene for å dele den i 2 like store deler (halvdeler) eller 4 like store deler (firedeler). Dette er en interaktiv geometriaktivitet for 1. trinn som spilles i nettleseren på alle enheter — uten innlogging.",
-        "Den store ideen er at like store deler må være rettferdige — bitene må være like store. Når mange ulike former deles, ikke bare sirkler, ser barnet at halvdeler og firedeler handler om likt areal, ikke om ett kjent bilde: et kvadrat delt i et rutenett på fire og en sirkel delt i fire lager begge to firedeler. Fordi barnet deler selv, lager det delene like store på egen hånd i stedet for bare å kjenne igjen et ferdig bilde.",
-        "Aktiviteten følger LK20 innenfor geometri — å dele sirkler og rektangler i to og fire like store deler og kalle dem halvdeler og firedeler. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "På en grønn skjærematte ligger en figur av papp: en sirkel, et kvadrat, et rektangel, en trekant, en oval, en rombe, en sekskant eller en femkant. Barnet klipper den ved å dra en linje fra én prikk på kanten til en annen, eller ved tredjedeler av en sirkel, trekant eller sekskant fra en stift i midten ut til kanten. Så kommer testen: Trykk på en bit, og et stempel av glass løfter seg av den. Med det stempler barnet de andre bitene. En bit som er en kopi, klikker på plass og får neste tall; på en bit som ikke er det, viser korallrødt hvor stempelet stikker ut, og striper hvor det etterlater et hull.",
+        "På denne matten er like store deler alltid kopier av én bit: Klippene er valgt slik at stempelet aldri er uenig med størrelsene: Et rettferdig klipp består alltid, et urettferdig aldri. Første nivå ber om halvdeler og fjerdedeler av alle åtte figurene, andre nivå om tredjedeler og om fjerdedeler laget av halvdeler. På tredje nivå fargelegger barnet en brøk ved å stemple kopier (tre fjerdedeler er tre kopier av fjerdedelsbiten), navngir en farget brøk med to tallhjul og skal én gang avgjøre om noen biter virkelig er fjerdedeler, når de ikke er det. Etter riktig svar viser hver bit sin brøk, figuren havner på en liten hylle, og saksen halverer hver bit igjen: flere deler, mindre deler.",
+        "Etter første feil tester stempelet hver bit mot den største, og hintet sier hva det fant; etter andre feil markerer gylne prikker endene på et rettferdig klipp. I tråd med LK20 i matematikk. Uten tidtaking og uten poeng."
       ],
       "practices": [
-        "Dele sirkler, kvadrater og andre former i like store deler.",
-        "Lage 2 like store deler (halvdeler) og 4 like store deler (firedeler).",
-        "Holde bitene like store så delene blir rettferdige.",
-        "Se halvdeler og firedeler i mange forskjellige former."
+        "Å klippe en figur i 2, 3 eller 4 like store deler",
+        "Å teste om deler er like store ved å se om hver del er en kopi av den første",
+        "Å se at flere like store deler betyr mindre deler",
+        "Å fargelegge og navngi brøker som 1/2, 1/3 og 3/4 som kopier av én bit"
       ],
       "howToPlay": [
-        "Se på formen og hvor mange like store deler du skal lage.",
-        "Trykk på dele-strekene for å dele den i halvdeler eller firedeler.",
-        "Pass på at bitene blir like store — det er ingen tidtaker og ingen poeng."
+        "Dra fra en prikk på kanten til en annen prikk for å klippe figuren. I rundene med tredjedeler drar du fra stiften i midten ut til kanten. Trykk på et klipp for å fjerne det.",
+        "Trykk på en bit for å løfte et glasstempel av den, og trykk eller dra det så til en annen bit. En kopi klikker og får et tall; korallrødt og striper betyr: ingen kopi.",
+        "Trykk på Sjekk når hver bit burde være en kopi av de andre.",
+        "I «Fargelegg og navngi» stempler du like mange biter som det øverste tallet på kortet sier, eller stiller de to tallhjulene på den fargede brøken.",
+        "I innstillingene velger du nivå (Halvdeler og fjerdedeler · Tredjedeler · Fargelegg og navngi), viser linjalmerker ved halvdeler, tredjedeler og fjerdedeler og lar stempelet teste selv når du trykker på Sjekk."
       ],
       "learningGoals": [
-        "Barnet kan dele former i to og fire like store deler.",
-        "Barnet kan beskrive de like store delene som halvdeler og firedeler.",
-        "Barnet bygger forståelsen av rettferdig deling som senere brøkarbeid hviler på."
+        "Dele sirkler, rektangler og andre figurer i to, tre eller fire like store deler.",
+        "Teste med stempelet om deler er like store, og se når de ikke er det.",
+        "Forstå at flere like store deler gir mindre deler.",
+        "Beskrive en farget del som en brøk som 3/4: tre kopier av fjerdedelsbiten."
       ]
     },
     "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {

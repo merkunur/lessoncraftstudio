@@ -68,6 +68,7 @@ const MANIFEST_FILES = [
   'place-value-activities.json',
   'match-pairs-activities.json',
   'fractions-activities.json',
+  'one-piece-stamp-activities.json', // rebuild #108 (2026-10-25): Make Equal Parts → The One-Piece Stamp, moved out of fractions-activities.json
   'sort-bins-activities.json',
   'take-apart-activities.json',
   'array-activities.json',

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The One-Piece Stamp — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- Shell, the one-piece-stamp model, then this activity.
+       NOTE: bump ?v=N on EVERY change to one-piece-stamp-activity.js / one-piece-stamp-core.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  
+  <script src="/mini-tools/one-piece-stamp-core.js?v=1"></script>
+  <script src="/mini-tools/one-piece-stamp-activity.js?v=1"></script>
+  <script>
+    LCS.mount(OnePieceStampActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

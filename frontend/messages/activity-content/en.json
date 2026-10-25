@@ -1972,25 +1972,28 @@
     },
     "fractions.partition-equal-shares.1-g-a-3": {
       "about": [
-        "A shape appears — a circle, square, rectangle, triangle, ellipse, diamond, hexagon, or pentagon — and the child taps the cutting lines to split it into 2 equal parts (halves) or 4 equal parts (fourths). It's an interactive Grade 1 geometry activity that plays in the browser on any device, with no sign-up.",
-        "The big idea is that equal shares must be fair — the pieces have to be the same size. Cutting a variety of shapes, not just circles, shows that halves and fourths are about equal area, not one familiar picture: a square cut into a grid of four and a circle cut into four both make fourths. Because the child does the cutting, they make the parts equal themselves rather than recognizing a finished picture.",
-        "It is aligned to Common Core 1.G.A.3 — partitioning circles and rectangles into two and four equal shares and describing them as halves and fourths. No timer, no score — just calm, playful practice."
+        "A cardboard shape lies on a green cutting mat: a circle, a square, a rectangle, a triangle, an oval, a rhombus, a hexagon or a pentagon. The child cuts it by dragging a line from one dot on its edge to another, or, for thirds of a circle, triangle or hexagon, from a pin in the middle out to the edge. Then comes the test: tap one piece to lift a glass stamp of it, and stamp it on the other pieces. A piece that is a copy clicks into place and gets the next number; a piece that is not shows where the stamp hangs over in coral and where it leaves a gap in stripes.",
+        "On this mat, equal parts are always copies of one piece: the cuts are chosen so that the stamp never disagrees with the sizes: a fair cut always passes and an unfair one never does. The first level asks for halves and fourths of all eight shapes; the second for thirds and for fourths made from halves. The third level shades a fraction by stamping copies (three fourths is three copies of the one-fourth piece), names a shaded fraction on two number wheels, and once asks whether some pieces really are fourths, when they are not. After success, every piece shows its fraction, the shape goes to a little shelf, and the scissors button halves every piece again: more parts, smaller parts.",
+        "After a first miss the stamp tests every piece against the biggest one and the hint says what it found; after a second miss gold dots mark the ends of one fair cut. Aligned to Common Core 1.G.A.3, with thirds from 2.G.A.3. No timer and no score."
       ],
       "practices": [
-        "Cutting circles, squares, and other shapes into equal parts",
-        "Making 2 equal shares (halves) and 4 equal shares (fourths)",
-        "Keeping the pieces the same size so the shares are fair",
-        "Seeing halves and fourths across many different shapes"
+        "Cutting a shape into 2, 3 or 4 equal parts",
+        "Testing whether parts are equal by checking that each one is a copy of the first",
+        "Seeing that more equal parts means smaller parts",
+        "Naming and shading fractions like 1/2, 1/3, 3/4 as copies of one unit piece"
       ],
       "howToPlay": [
-        "Look at the shape and the number of equal parts to make.",
-        "Tap the cutting lines to split it into halves or fourths.",
-        "Make sure the pieces are equal — there is no timer and no score."
+        "Drag from a dot on the edge to another dot to cut the shape. In the thirds rounds, drag from the pin in the middle to the edge. Tap a cut to take it away.",
+        "Tap a piece to lift a glass stamp of it, then tap or drag onto another piece. A copy clicks and gets a number; coral and stripes mean it is not a copy.",
+        "Press Check when every piece should be a copy of the others.",
+        "In \"Shade and name\", stamp as many pieces as the top number on the card, or set the two number wheels to the colored fraction.",
+        "In the settings choose the level (Halves and fourths · Thirds · Shade and name), show ruler marks at the halves, thirds and fourths, and let the stamp test by itself when you press Check."
       ],
       "learningGoals": [
-        "Partition shapes into two and four equal shares — the focus of Common Core 1.G.A.3",
-        "Describe the equal parts as halves and fourths",
-        "Build the fair-share foundation that later fraction work depends on"
+        "Partition circles, rectangles and other shapes into two, three or four equal shares.",
+        "Test whether shares are equal by stamping a copy of one piece onto the others, and see when parts are not equal.",
+        "Understand that cutting into more equal shares makes smaller shares.",
+        "Describe a shaded part as a fraction such as 3/4: three copies of the one-fourth piece."
       ]
     },
     "fractions.partition-thirds.2-g-a-3": {

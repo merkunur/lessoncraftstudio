@@ -1740,25 +1740,28 @@
     },
     "fractions.partition-equal-shares.1-g-a-3": {
       "about": [
-        "Surge uma forma — círculo, quadrado, retângulo, triângulo, elipse, losango, hexágono ou pentágono — e a criança toca nas linhas de corte para dividi-la em 2 partes iguais (metades) ou em 4 partes iguais (quartos). É uma atividade de geometria interativa para o 1º ano, que funciona no navegador em qualquer aparelho, sem cadastro.",
-        "A grande ideia é que partes iguais precisam ser justas — os pedaços têm que ter o mesmo tamanho. Cortar formas variadas, e não só círculos, mostra que metades e quartos têm a ver com áreas iguais, e não com uma única figura conhecida: um quadrado cortado numa grade de quatro e um círculo cortado em quatro, os dois fazem quartos. Como é a própria criança que corta, ela mesma deixa as partes iguais, em vez de só reconhecer uma figura já pronta.",
-        "A atividade está alinhada à BNCC, na unidade temática Geometria, no trabalho de dividir círculos e retângulos em duas e em quatro partes iguais e de chamar essas partes de metades e quartos. Sem cronômetro e sem pontuação — só uma prática calma e divertida."
+        "Sobre uma base verde de corte há uma figura de papelão: um círculo, um quadrado, um retângulo, um triângulo, um oval, um losango, um hexágono ou um pentágono. A criança corta a figura arrastando uma linha de um ponto da borda até outro ou, para os terços de um círculo, triângulo ou hexágono, de um pino no centro até a borda. Depois vem o teste: toque numa peça e um carimbo de vidro dela se levanta. Com ele, a criança carimba as outras peças. Uma peça que é cópia encaixa com um clique e recebe o próximo número; numa peça que não é, o coral mostra onde o carimbo passa da borda e as listras mostram onde ele deixa um vão.",
+        "Nesta base, as partes iguais são sempre cópias de uma peça: os cortes foram escolhidos para que o carimbo nunca discorde dos tamanhos: um corte justo sempre passa e um injusto nunca. O primeiro nível pede metades e quartos das oito figuras; o segundo, terços e quartos feitos a partir de metades. No terceiro nível a criança pinta uma fração carimbando cópias (três quartos são três cópias da peça de um quarto), dá nome a uma fração pintada com duas rodas de números e uma vez precisa decidir se algumas peças são mesmo quartos, quando não são. Depois do acerto, cada peça mostra sua fração, a figura vai para uma pequena prateleira e a tesoura divide cada peça ao meio de novo: mais partes, partes menores.",
+        "Depois do primeiro erro, o carimbo compara cada peça com a maior e a dica diz o que ele encontrou; depois do segundo erro, pontos dourados marcam as pontas de um corte justo. De acordo com a BNCC (metade, terça parte e quarta parte). Sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Cortar círculos, quadrados e outras formas em partes iguais.",
-        "Fazer 2 partes iguais (metades) e 4 partes iguais (quartos).",
-        "Manter os pedaços do mesmo tamanho para que as partes sejam justas.",
-        "Ver metades e quartos em muitas formas diferentes."
+        "Cortar uma figura em 2, 3 ou 4 partes iguais",
+        "Testar se as partes são iguais verificando se cada uma é cópia da primeira",
+        "Perceber que mais partes iguais quer dizer partes menores",
+        "Pintar e nomear frações como 1/2, 1/3 e 3/4 como cópias de uma peça"
       ],
       "howToPlay": [
-        "Olhe a forma e veja em quantas partes iguais ela precisa ser dividida.",
-        "Toque nas linhas de corte para dividi-la em metades ou em quartos.",
-        "Garanta que os pedaços fiquem iguais — não há cronômetro nem pontuação."
+        "Arraste de um ponto da borda até outro ponto para cortar a figura. Nas rodadas de terços, arraste do pino no centro até a borda. Toque num corte para tirá-lo.",
+        "Toque numa peça para levantar um carimbo de vidro dela e depois toque ou arraste o carimbo para outra peça. Uma cópia encaixa e recebe um número; coral e listras querem dizer: não é cópia.",
+        "Toque em Verificar quando cada peça deveria ser cópia das outras.",
+        "Em “Pinte e dê nome”, carimbe tantas peças quanto diz o número de cima do cartão, ou ajuste as duas rodas de números na fração pintada.",
+        "Nas configurações você escolhe o nível (Metades e quartos · Terços · Pinte e dê nome), mostra marcas de régua nas metades, terços e quartos e deixa o carimbo testar sozinho ao tocar em Verificar."
       ],
       "learningGoals": [
-        "Dividir formas em duas e em quatro partes iguais.",
-        "Descrever as partes iguais como metades e quartos.",
-        "Construir a base da partilha justa em que se apoia, mais tarde, o trabalho com frações."
+        "Dividir círculos, retângulos e outras figuras em duas, três ou quatro partes iguais.",
+        "Testar com o carimbo se as partes são iguais e perceber quando não são.",
+        "Entender que dividir em mais partes iguais deixa as partes menores.",
+        "Descrever uma parte pintada como uma fração, por exemplo 3/4: três cópias da peça de um quarto."
       ]
     },
     "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {

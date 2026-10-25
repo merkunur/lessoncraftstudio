@@ -3956,25 +3956,28 @@
     },
     "fractions.partition-equal-shares.1-g-a-3": {
       "about": [
-        "Er verschijnt een vorm — een cirkel, vierkant, rechthoek, driehoek, ellips, ruit, zeshoek of vijfhoek — en je kind tikt op de kniplijnen om hem in 2 gelijke delen (helften) of 4 gelijke delen (kwarten) te verdelen. Het is een interactieve meetkunde-activiteit voor groep 3 die op elk apparaat in de browser speelt, zonder account.",
-        "Het grote idee is dat gelijke delen eerlijk moeten zijn: de stukken moeten even groot zijn. Doordat je kind allerlei vormen knipt, niet alleen cirkels, ziet het dat helften en kwarten over gelijke oppervlakte gaan en niet over één vertrouwd plaatje: een vierkant in vier vakjes en een cirkel in vier punten maken allebei kwarten. Omdat je kind zelf knipt, maakt het de delen ook zelf gelijk in plaats van een kant-en-klaar plaatje te herkennen.",
-        "De activiteit sluit aan bij de SLO-kerndoelen binnen het domein Meetkunde en bij kinderen in groep 3: vormen verdelen in twee en vier gelijke delen en die benoemen als helften en kwarten. Geen timer, geen score — gewoon rustig knippen en verdelen."
+        "Op een groene snijmat ligt een kartonnen vorm: een cirkel, een vierkant, een rechthoek, een driehoek, een ovaal, een ruit, een zeshoek of een vijfhoek. Je kind knipt hem door een lijn te trekken van de ene stip op de rand naar een andere, of bij derden van een cirkel, driehoek of zeshoek van een pinnetje in het midden naar de rand. Dan volgt de test: tik op een deel en er komt een glazen stempel van los. Daarmee stempelt je kind de andere delen. Een deel dat een kopie is, klikt vast en krijgt het volgende nummer; bij een deel dat geen kopie is, laat koraalrood zien waar de stempel uitsteekt en laten strepen zien waar hij een gat laat.",
+        "Op deze mat zijn gelijke delen altijd kopieën van één deel: de knippen zijn zo gekozen dat de stempel het nooit oneens is met de groottes: een eerlijke knip slaagt altijd en een oneerlijke nooit. Het eerste niveau vraagt om helften en kwarten van alle acht vormen, het tweede om derden en om kwarten gemaakt van helften. Op het derde niveau kleurt je kind een breuk door kopieën te stempelen (drie kwart is drie kopieën van het kwart-deel), benoemt het een gekleurde breuk met twee getallenwielen en moet het één keer beoordelen of delen echt kwarten zijn, terwijl dat niet zo is. Na succes staat op elk deel zijn breuk, de vorm gaat naar een plankje en de schaar halveert elk deel nog een keer: meer delen, kleinere delen.",
+        "Na een eerste fout test de stempel elk deel tegen het grootste en zegt de hint wat hij vond; na een tweede fout markeren gouden stippen de uiteinden van een eerlijke knip. Passend bij de kerndoelen voor getallen en meetkunde. Zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Cirkels, vierkanten en andere vormen in gelijke delen knippen",
-        "2 gelijke delen (helften) en 4 gelijke delen (kwarten) maken",
-        "De stukken even groot houden zodat de delen eerlijk zijn",
-        "Helften en kwarten zien in veel verschillende vormen"
+        "Een vorm in 2, 3 of 4 gelijke delen knippen",
+        "Testen of delen gelijk zijn door te kijken of elk deel een kopie is van het eerste",
+        "Zien dat meer gelijke delen kleinere delen betekent",
+        "Breuken als 1/2, 1/3, 3/4 kleuren en benoemen als kopieën van één deel"
       ],
       "howToPlay": [
-        "Bekijk de vorm en het aantal gelijke delen dat je moet maken.",
-        "Tik op de kniplijnen om de vorm in helften of kwarten te verdelen.",
-        "Zorg dat de stukken gelijk zijn — er is geen timer en geen score."
+        "Trek van een stip op de rand naar een andere stip om de vorm te knippen. In de rondes met derden trek je van het pinnetje in het midden naar de rand. Tik op een knip om hem weg te halen.",
+        "Tik op een deel om er een glazen stempel van op te pakken en tik of sleep dan op een ander deel. Een kopie klikt vast en krijgt een nummer; koraalrood en strepen betekenen: geen kopie.",
+        "Druk op Controleer als elk deel een kopie van de andere zou moeten zijn.",
+        "Bij „Kleuren en benoemen” stempel je zoveel delen als het bovenste getal op de kaart zegt, of zet je de twee getallenwielen op de gekleurde breuk.",
+        "In de instellingen kies je het niveau (Helften en kwarten · Derden · Kleuren en benoemen), toon je liniaalstreepjes bij helften, derden en kwarten en laat je de stempel bij Controleer zelf testen."
       ],
       "learningGoals": [
-        "Je kind verdeelt vormen in twee en vier gelijke delen.",
-        "Je kind benoemt de gelijke delen als helften en kwarten.",
-        "Je kind legt de basis van eerlijk delen waar later breukenwerk op voortbouwt."
+        "Cirkels, rechthoeken en andere vormen in twee, drie of vier gelijke delen verdelen.",
+        "Met de stempel testen of delen gelijk zijn, en zien wanneer ze dat niet zijn.",
+        "Begrijpen dat meer gelijke delen kleinere delen opleveren.",
+        "Een gekleurd deel beschrijven als een breuk zoals 3/4: drie kopieën van het kwart-deel."
       ]
     },
     "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {

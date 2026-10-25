@@ -480,25 +480,28 @@
     },
     "fractions.partition-equal-shares.1-g-a-3": {
       "about": [
-        "Näytölle ilmestyy muoto — ympyrä, neliö, suorakulmio, kolmio, soikio, vinoneliö, kuusikulmio tai viisikulmio — ja lapsi napauttaa jakoviivoja jakaakseen sen kahteen yhtä suureen osaan (puolikkaisiin) tai neljään yhtä suureen osaan (neljäsosiin). Tämä vuorovaikutteinen 1. luokan geometriatehtävä toimii selaimessa millä tahansa laitteella ilman rekisteröitymistä.",
-        "Tärkein ajatus on, että yhtä suurten osien on oltava reiluja — palojen on oltava saman kokoiset. Kun jaetaan monenlaisia muotoja eikä vain ympyröitä, lapsi näkee, että puolikkaissa ja neljäsosissa on kyse yhtä suuresta pinta-alasta, ei yhdestä tutusta kuvasta: neljään ruutuun jaettu neliö ja neljään osaan jaettu ympyrä tekevät molemmat neljäsosia. Koska lapsi jakaa muodon itse, hän tekee osista yhtä suuret omin käsin sen sijaan, että vain tunnistaisi valmiin kuvan.",
-        "Tehtävä on OPS 2014:n mukainen 1. luokan geometriaa — lapsi jakaa ympyröitä ja suorakulmioita kahteen ja neljään yhtä suureen osaan ja kutsuu niitä puolikkaiksi ja neljäsosiksi. Ei ajastinta, ei pisteitä."
+        "Vihreällä leikkuualustalla on pahvinen kuvio: ympyrä, neliö, suorakulmio, kolmio, soikio, neljäkäs, kuusikulmio tai viisikulmio. Lapsi leikkaa sen vetämällä viivan reunan pisteestä toiseen tai ympyrän, kolmion ja kuusikulmion kolmasosissa keskellä olevasta nastasta reunalle. Sitten tulee testi: napauta palaa, niin siitä nousee lasinen leimasin. Sillä lapsi leimaa muut palat. Kopiona oleva pala napsahtaa paikalleen ja saa seuraavan numeron; muussa palassa korallinpunainen näyttää, missä leimasin menee yli, ja raidat, mihin se jättää aukon.",
+        "Tällä alustalla yhtä suuret osat ovat aina yhden palan kopioita: leikkaukset on valittu niin, ettei leimasin koskaan ole eri mieltä kokojen kanssa: reilu leikkaus menee aina läpi ja epäreilu ei koskaan. Ensimmäisellä tasolla tehdään kaikista kahdeksasta kuviosta puolikkaita ja neljäsosia, toisella kolmasosia sekä neljäsosia puolikkaista. Kolmannella tasolla lapsi värittää murtoluvun leimaamalla kopioita (kolme neljäsosaa on kolme neljäsosapalan kopiota), nimeää väritetyn murtoluvun kahdella numerorullalla ja joutuu kerran ratkaisemaan, ovatko jotkin palat todella neljäsosia, vaikka ne eivät ole. Onnistumisen jälkeen jokainen pala näyttää murtolukunsa, kuvio siirtyy pienelle hyllylle ja sakset puolittavat jokaisen palan uudelleen: enemmän osia, pienempiä osia.",
+        "Ensimmäisen virheen jälkeen leimasin vertaa jokaista palaa suurimpaan ja vihje kertoo, mitä se löysi; toisen virheen jälkeen kultaiset pisteet merkitsevät reilun leikkauksen päät. Sopii opetussuunnitelman sisältöalueisiin Luvut ja laskutoimitukset sekä Geometria ja mittaaminen. Ilman ajanottoa ja ilman pisteytystä."
       ],
       "practices": [
-        "Jakaa ympyröitä, neliöitä ja muita muotoja yhtä suuriin osiin.",
-        "Tekee 2 yhtä suurta osaa (puolikkaat) ja 4 yhtä suurta osaa (neljäsosat).",
-        "Pitää palat saman kokoisina, jotta osat ovat reiluja.",
-        "Näkee puolikkaat ja neljäsosat monenlaisissa eri muodoissa."
+        "Kuvion leikkaaminen kahteen, kolmeen tai neljään yhtä suureen osaan",
+        "Sen testaaminen, ovatko osat yhtä suuret, katsomalla onko jokainen osa ensimmäisen kopio",
+        "Sen huomaaminen, että useampi yhtä suuri osa tarkoittaa pienempiä osia",
+        "Murtolukujen kuten 1/2, 1/3 ja 3/4 värittäminen ja nimeäminen yhden palan kopioina"
       ],
       "howToPlay": [
-        "Katso muotoa ja sitä, montako yhtä suurta osaa pitää tehdä.",
-        "Napauta jakoviivoja jakaaksesi muodon puolikkaisiin tai neljäsosiin.",
-        "Varmista, että palat ovat yhtä suuret — ei ajastinta eikä pisteitä."
+        "Leikkaa kuvio vetämällä reunan pisteestä toiseen pisteeseen. Kolmasosakierroksilla vedä keskellä olevasta nastasta reunalle. Poista leikkaus napauttamalla sitä.",
+        "Nosta palasta lasinen leimasin napauttamalla palaa, ja napauta sitten toista palaa tai vedä leimasin sen päälle. Kopio napsahtaa ja saa numeron; korallinpunainen ja raidat tarkoittavat, että pala ei ole kopio.",
+        "Paina Tarkista, kun jokaisen palan pitäisi olla muiden kopio.",
+        "Tasolla ”Väritä ja nimeä” leimaa niin monta palaa kuin kortin ylempi luku sanoo, tai aseta kaksi numerorullaa väritettyyn murtolukuun.",
+        "Asetuksista valitset tason (Puolikkaat ja neljäsosat · Kolmasosat · Väritä ja nimeä), näytät viivainmerkit puolikkaiden, kolmasosien ja neljäsosien kohdalla ja annat leimasimen testata itse, kun painat Tarkista."
       ],
       "learningGoals": [
-        "Lapsi osaa jakaa muotoja kahteen ja neljään yhtä suureen osaan.",
-        "Lapsi osaa kuvailla yhtä suuret osat puolikkaiksi ja neljäsosiksi.",
-        "Lapsi rakentaa reilun jaon pohjan, johon myöhempi murtolukutyöskentely nojaa."
+        "Jakaa ympyröitä, suorakulmioita ja muita kuvioita kahteen, kolmeen tai neljään yhtä suureen osaan.",
+        "Testata leimasimella, ovatko osat yhtä suuret, ja huomata, milloin ne eivät ole.",
+        "Ymmärtää, että useampiin yhtä suuriin osiin jakaminen tekee osista pienempiä.",
+        "Kuvata väritetty osa murtolukuna, esimerkiksi 3/4: kolme neljäsosapalan kopiota."
       ]
     },
     "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {

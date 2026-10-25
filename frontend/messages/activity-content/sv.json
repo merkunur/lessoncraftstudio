@@ -1070,25 +1070,28 @@
     },
     "fractions.partition-equal-shares.1-g-a-3": {
       "about": [
-        "En form visas — en cirkel, kvadrat, rektangel, triangel, ellips, romb, sexhörning eller femhörning — och barnet trycker på delningslinjerna för att dela den i 2 lika stora delar (halvor) eller 4 lika stora delar (fjärdedelar). Det är en interaktiv geometriövning för årskurs 1 som körs i webbläsaren på alla enheter, utan konto.",
-        "Den stora idén är att lika stora delar måste vara rättvisa — bitarna ska vara lika stora. När barnet delar många olika former, inte bara cirklar, blir det tydligt att halvor och fjärdedelar handlar om lika stor yta och inte om en enda välbekant bild: en kvadrat delad i ett rutnät av fyra och en cirkel delad i fyra blir båda fjärdedelar. Eftersom barnet delar formen själv gör det delarna lika stora med egna händer i stället för att känna igen en färdig bild.",
-        "Aktiviteten följer Lgr22 inom geometri: att dela cirklar och rektanglar i två och fyra lika stora delar och kalla dem halvor och fjärdedelar. Ingen timer och inga poäng — bara lugn och lekfull övning."
+        "På en grön skärmatta ligger en figur av kartong: en cirkel, en kvadrat, en rektangel, en triangel, en oval, en romb, en sexhörning eller en femhörning. Barnet klipper den genom att dra en linje från en prick på kanten till en annan, eller för tredjedelar av en cirkel, triangel eller sexhörning från ett stift i mitten ut till kanten. Sedan kommer testet: tryck på en bit så lyfts en stämpel av glas från den. Med den stämplar barnet de andra bitarna. En bit som är en kopia klickar på plats och får nästa nummer; på en bit som inte är det visar korallrött var stämpeln sticker ut och ränder var den lämnar en lucka.",
+        "På den här mattan är lika stora delar alltid kopior av en bit: klippen är valda så att stämpeln aldrig säger något annat än storlekarna: ett rättvist klipp godkänns alltid och ett orättvist aldrig. Första nivån frågar efter halvor och fjärdedelar av alla åtta figurer, andra nivån efter tredjedelar och fjärdedelar gjorda av halvor. På tredje nivån färglägger barnet ett bråk genom att stämpla kopior (tre fjärdedelar är tre kopior av fjärdedelsbiten), namnger ett färgat bråk med två sifferhjul och ska en gång avgöra om några bitar verkligen är fjärdedelar, när de inte är det. Efter rätt svar visar varje bit sitt bråk, figuren hamnar på en liten hylla och saxen halverar varje bit igen: fler delar, mindre delar.",
+        "Efter första felet testar stämpeln varje bit mot den största och ledtråden säger vad den hittade; efter andra felet markerar gyllene prickar ändarna på ett rättvist klipp. I linje med Lgr22, centralt innehåll om taluppfattning och geometri. Utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Dela cirklar, kvadrater och andra former i lika stora delar",
-        "Göra 2 lika stora delar (halvor) och 4 lika stora delar (fjärdedelar)",
-        "Hålla bitarna lika stora så att delarna blir rättvisa",
-        "Se halvor och fjärdedelar i många olika former"
+        "Att klippa en figur i 2, 3 eller 4 lika stora delar",
+        "Att testa om delar är lika stora genom att se om varje del är en kopia av den första",
+        "Att se att fler lika stora delar betyder mindre delar",
+        "Att färglägga och namnge bråk som 1/2, 1/3 och 3/4 som kopior av en bit"
       ],
       "howToPlay": [
-        "Barnet tittar på formen och hur många lika stora delar som ska göras.",
-        "Det trycker på delningslinjerna för att dela formen i halvor eller fjärdedelar.",
-        "Se till att bitarna blir lika stora — det finns ingen timer och inga poäng."
+        "Dra från en prick på kanten till en annan prick för att klippa figuren. I omgångarna med tredjedelar drar du från stiftet i mitten ut till kanten. Tryck på ett klipp för att ta bort det.",
+        "Tryck på en bit för att lyfta en glasstämpel av den, och tryck eller dra den sedan till en annan bit. En kopia klickar och får ett nummer; korallrött och ränder betyder: ingen kopia.",
+        "Tryck på Kontrollera när varje bit borde vara en kopia av de andra.",
+        "I ”Färglägg och namnge” stämplar du lika många bitar som det översta talet på kortet säger, eller ställer de två sifferhjulen på det färgade bråket.",
+        "I inställningarna väljer du nivå (Halvor och fjärdedelar · Tredjedelar · Färglägg och namnge), visar linjalmärken vid halvor, tredjedelar och fjärdedelar och låter stämpeln testa själv när du trycker på Kontrollera."
       ],
       "learningGoals": [
-        "Barnet kan dela former i två och fyra lika stora delar",
-        "Barnet kan beskriva de lika stora delarna som halvor och fjärdedelar",
-        "Barnet bygger den grund med lika stora delar som senare bråkräkning vilar på"
+        "Dela cirklar, rektanglar och andra figurer i två, tre eller fyra lika stora delar.",
+        "Testa med stämpeln om delar är lika stora, och se när de inte är det.",
+        "Förstå att fler lika stora delar ger mindre delar.",
+        "Beskriva en färgad del som ett bråk som 3/4: tre kopior av fjärdedelsbiten."
       ]
     },
     "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {

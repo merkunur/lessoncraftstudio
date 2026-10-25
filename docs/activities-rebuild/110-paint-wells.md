@@ -14,7 +14,7 @@ ORDER row 110 · id `cvc-builder.build-blend-word.rf-1-3` (kept). Design: `desig
   - en slug, title and intro are frozen.
   - **de / nl / sv / no / es / it / pt slug, title and intro are authored new** (the activity was en-only) and were reviewed.
   - `cvc-builder-core.js` and `cvc-builder-activity.*` have a 0-line diff.
-- **Route:** `ACTIVITY_WRAPPER_VERSION` 9.853.
+- **Route:** `ACTIVITY_WRAPPER_VERSION` 9.853, then 9.854 for the live fix below.
 - **Prose:** en replaced; de / nl / sv / no / es / it / pt added.
 - **Pictures:** library pictures of the bank rows. All of them were checked by eye on contact sheets (see Deviations).
 - **Sources** (scratchpad):
@@ -95,6 +95,7 @@ ONE native + phonics reviewer over the compact dump: every word with its split, 
 - `local-test-paint-wells.js` — 12,404 checks in 8 locales with real taps and drags:
   - the drag found two defects no other gate saw: a finished drag left a flag that swallowed the child's NEXT real tap, and well letters were 26–30 px tap targets (the well is now the target);
   - every clue × round at rest, at miss 2 and solved, through 320…1366 (short sentence words got a 48 px floor).
+- **Live fix (9.854):** my read of the first live de phone render showed a three-letter well (*Sch*) spilling out of its glass — the narrow-width chip floor overrode the mixed reset, and no gate measured letters against their well. Letters are now sized by how many share a well; the local test now fails any well whose letters spill (poisoned: it fires 5× on the pre-fix file).
 - `visual-qa-activity` 54 / 54 · `audit-activity-hierarchy` 608 / 0 · `audit-settings-efficacy` (clue, help live) · preflight-activity-routes · prose-claims · SERP copy · activity-content × 8 — all green.
 
 LIVEVERIFY

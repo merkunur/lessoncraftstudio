@@ -224,6 +224,7 @@ const okLine = (loc, id) => { const L = C.lead(loc, id); return T(loc, !L ? 'okB
     out.sw = document.documentElement.scrollWidth - document.documentElement.clientWidth;
     [...document.querySelectorAll('.pw-wrap button')].filter(vis).filter(e => !e.disabled && e.tabIndex !== -1).forEach(e => { const q = e.getBoundingClientRect(); if (q.width < 43.5 || q.height < 43.5) out.fails.push('small control ' + e.className + ' ' + Math.round(q.width) + 'x' + Math.round(q.height)); });
     document.querySelectorAll('.pw-pic img').forEach(e => { const q = e.getBoundingClientRect(); if (q.width < 63.5 || (Wd >= 704 && q.width < 95.5)) out.fails.push('picture ' + Math.round(q.width) + ' px'); });
+    document.querySelectorAll('.pw-well').forEach(e => { if (!vis(e)) return; const lt = e.querySelector('.pw-lets'); if (!lt) return; const q = e.getBoundingClientRect(), r = lt.getBoundingClientRect(); if (r.width > 0 && (r.left < q.left + 1 || r.right > q.right - 1)) out.fails.push('letters spill out of a well (' + Math.round(r.width) + ' in ' + Math.round(q.width) + ')'); });
     const ck = document.querySelector('.pw-check').getBoundingClientRect(); out.cTop = ck.top; out.cBottom = ck.bottom;
     const nr = document.querySelector('.pw-note').getBoundingClientRect(); out.nTop = nr.top; out.nBottom = nr.bottom;
     const card = (document.querySelector('.lcs-app') || document.querySelector('.pw-wrap')).getBoundingClientRect();

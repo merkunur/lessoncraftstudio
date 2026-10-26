@@ -64,3 +64,6 @@ ONE native + Grade-1 grammar reviewer over all 11 locales (every round, every tr
   - Then every round of every level at rest / miss 2 / solved, resized through 320–1366.
   - Its first runs found: frames wider than their openings at 320, a short Swedish time word under 44 px, long French and Italian futures cut off on narrow cards (cards now size to their words).
 - **`visual-qa-activity`:** PASSED, 216 renders (its first run: Next below the fold after a solve at 320 → the solved layout is tighter there). **`audit-activity-hierarchy`:** 272 / 0. **`audit-settings-efficacy`:** "level" changes the board. **`audit-activity-next-delay`:** pass. Content ×11, prose claims, SERP copy, content tells, route preflight: pass.
+
+## Live
+`live-verify-time-frames.js` on production, 2026-10-26: **52 pass, 0 fail.** All 11 pages return 200; en, de, sv and fi at 1366 and 390 embed time-frames-activity.html at wrapper 9.870; with a real pointer, a wrong card bumps against the album with its hint, and the right card files into the album as a photo with the success line; the iframe grows with the card. The first run fell inside the Cloudflare window (sv and fi still served the old iframe); the rerun once they refreshed was clean. The deploy's one smoke failure was a transient edge 502 on a seller-era 410 check (rechecked: 410).

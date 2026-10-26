@@ -75,6 +75,10 @@ function seedScript(row) {
     const n = frames >= 2 ? 13 : 6; // show themed counters across the frame(s)
     return `(function(){var t=window['${g}'];if(t&&t.setCount){t.setCount(${n});if(t.paint)t.paint();}})();`;
   }
+  if (row.tool === 'two-tales-activity') {
+    // the shared plank laid across the two books — the bridge the activity is built on
+    return `(function(){var t=window['${g}'];if(t&&t.st&&t._pick){t._pick(t.st.answer);t._lay('across');}})();`;
+  }
   if (row.tool === 'point-of-view-activity') {
     // the low window chosen: the harbor object rises huge out of the frame — the invention at work
     return `(function(){var t=window['${g}'];if(t&&t._win){t._win('low');}})();`;

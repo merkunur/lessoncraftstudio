@@ -3190,6 +3190,29 @@
         "Bruke fortellerens egne ord (bitteliten og langt borte, rett overfor, kjempestor og helt nær) som bevis.",
         "Vite at en historie kan ha mer enn én forteller."
       ]
+    },
+    "two-tales.compare.rl-1-9": {
+      "about": [
+        "På bordet til Mosseskjegg, skilpadden, ligger to små bildebøker oppslått, én under en gullmåne og én under en sølvmåne. Hver bok forteller en kort historie på tre sider, med et bilde og en setning på hver side. Hver opplevelse er en treplanke. Legg den over begge bøkene, så går hver ende gjennom boka si side for side og leter etter siden som viser den opplevelsen. To måner er en leseøvelse i å sammenligne hva personene i to historier opplever.",
+        "Viser begge bøkene det, ligger planken flatt som en bro, og Mosseskjegg går over. Viser bare én bok det, finner den andre enden ingenting, og planken vipper ned i den boka. Viser ingen av bøkene det, faller den ned i glipen. «Mistet og fant igjen» trenger også siden der noe blir funnet: Ballen til Kiki triller bort, og hun finner den aldri («Hun lette, men hun så den ikke.»), så en halv opplevelse kan ikke bære planken.",
+        "Aktiviteten er i tråd med LK20 (kompetansemål etter 2. trinn) for lesing. Ingen tidtaking og ingen poeng."
+      ],
+      "practices": [
+        "Lese to korte historier og se hva hver person opplever",
+        "Finne en opplevelse som begge historiene har",
+        "Finne en opplevelse som bare én historie har",
+        "Vise siden som beviser det, i hver bok"
+      ],
+      "howToPlay": [
+        "Les begge de små bøkene. Trykk på en side, så beveger bildet seg.",
+        "Trykk på en planke og så der den skal ligge: over bøkene, på én bok eller i kurven for «i ingen av historiene». Trykk så på Sjekk og se endene gå.",
+        "I innstillingene velger du oppgave: Hva er likt?, Hva skjedde bare i én? eller Sorter hver planke. Bøkene kan ha tre eller to sider."
+      ],
+      "learningGoals": [
+        "Sammenligne hva personene i to historier opplever.",
+        "Vise «likt» og «forskjellig» med en side fra hver historie.",
+        "Se at en halv opplevelse ikke er hele opplevelsen."
+      ]
     }
   }
 }

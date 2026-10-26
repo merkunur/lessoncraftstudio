@@ -3162,6 +3162,29 @@
         "Bruge fortællerens egne ord (bitte lille og langt væk, lige over for, kæmpestor og helt tæt på) som bevis.",
         "Vide, at en historie kan have mere end én fortæller."
       ]
+    },
+    "two-tales.compare.rl-1-9": {
+      "about": [
+        "På Mosskægs bord, skildpaddens, ligger to små billedbøger slået op, én under en gylden måne og én under en sølvfarvet måne. Hver bog fortæller en kort historie på tre sider med et billede og en sætning på hver side. Hver oplevelse er en træplanke. Læg den hen over begge bøger, så går hver ende sin bog igennem side for side og leder efter den side, der viser den oplevelse. To måner er en læseøvelse i at sammenligne, hvad personerne i to historier oplever.",
+        "Viser begge bøger det, ligger planken fladt som en bro, og Mosskæg går over. Viser kun én bog det, finder den anden ende ingenting, og planken vipper ned i den bog. Viser ingen af bøgerne det, falder den ned i hullet. «Mistede og fandt igen» kræver også siden, hvor noget bliver fundet: Kikis bold triller væk, og hun finder den aldrig («Hun ledte, men hun kunne ikke se den.»), så en halv oplevelse kan ikke bære planken.",
+        "Aktiviteten er i tråd med Fælles Mål for læsning i indskolingen. Ingen tidtagning og ingen point."
+      ],
+      "practices": [
+        "Læse to korte historier og se, hvad hver person oplever",
+        "Finde en oplevelse, som begge historier har",
+        "Finde en oplevelse, som kun én historie har",
+        "Vise den side, der beviser det, i hver bog"
+      ],
+      "howToPlay": [
+        "Læs begge de små bøger. Tryk på en side, så bevæger billedet sig.",
+        "Tryk på en planke og så der, hvor den skal ligge: hen over bøgerne, på én bog eller i kurven for «i ingen af historierne». Tryk så på Tjek, og se enderne gå.",
+        "I indstillingerne vælger du opgave: Hvad er ens?, Hvad skete kun i én? eller Sortér hver planke. Bøgerne kan have tre eller to sider."
+      ],
+      "learningGoals": [
+        "Sammenligne, hvad personerne i to historier oplever.",
+        "Vise «ens» og «forskelligt» med en side fra hver historie.",
+        "Se, at en halv oplevelse ikke er hele oplevelsen."
+      ]
     }
   }
 }

@@ -3802,6 +3802,29 @@
         "Använda berättarens egna ord (pytteliten och långt bort, mitt emot, jättestor och alldeles nära) som bevis.",
         "Veta att en berättelse kan ha mer än en berättare."
       ]
+    },
+    "two-tales.compare.rl-1-9": {
+      "about": [
+        "På Mossskäggs bord, sköldpaddans, ligger två små bilderböcker uppslagna, en under en gyllene måne och en under en silvrig måne. Varje bok berättar en kort berättelse på tre sidor, med en bild och en mening per sida. Varje upplevelse är en träplanka. Lägg den över båda böckerna så går varje ände igenom sin bok sida för sida och letar efter sidan som visar den upplevelsen. Två månar är en läsövning om att jämföra vad personerna i två berättelser är med om.",
+        "Visar båda böckerna det ligger plankan plant som en bro, och Mossskägg går över. Visar bara en bok det hittar den andra änden ingenting och plankan tippar ner i den boken. Visar ingen bok det faller den ner i springan. «Tappade och hittade igen» behöver också sidan där något hittas: Kikis boll rullar bort och hon hittar den aldrig («Hon letade, men hon såg den inte.»), så en halv upplevelse bär inte plankan.",
+        "Aktiviteten följer Lgr22:s centrala innehåll för läsning och förståelse i åk 1–3. Ingen tidtagning och inga poäng."
+      ],
+      "practices": [
+        "Läsa två korta berättelser och se vad varje person är med om",
+        "Hitta en upplevelse som båda berättelserna har",
+        "Hitta en upplevelse som bara en berättelse har",
+        "Visa sidan som bevisar det i varje bok"
+      ],
+      "howToPlay": [
+        "Läs båda de små böckerna. Tryck på en sida så rör sig bilden.",
+        "Tryck på en planka och sedan där den ska ligga: över böckerna, på en bok eller i korgen för «i ingen av berättelserna». Tryck sedan på Kontrollera och se ändarna gå.",
+        "I inställningarna väljer du uppgift: Vad är likadant?, Vad hände bara i en? eller Sortera varje planka. Böckerna kan ha tre eller två sidor."
+      ],
+      "learningGoals": [
+        "Jämföra vad personerna i två berättelser är med om.",
+        "Visa «likadant» och «olika» med en sida ur varje berättelse.",
+        "Se att en halv upplevelse inte är hela upplevelsen."
+      ]
     }
   }
 }

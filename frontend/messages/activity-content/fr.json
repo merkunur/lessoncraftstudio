@@ -217,24 +217,25 @@
     },
     "two-tales.compare.rl-1-9": {
       "about": [
-        "Barbe-de-Mousse, la gardienne des histoires, veille sur deux petites aventures qui brillent l'une sous une lune d'or, l'autre sous une lune d'argent. Votre enfant lit les deux courtes histoires, puis choisit la carte qui dit ce qui est pareil dans les deux, ou ce qui n'arrive que dans une seule. Les expériences comparées restent simples et proches de lui : « Perdu, puis retrouvé », « Un ami a aidé », « A continué d'essayer », « A partagé ». En passant d'une histoire à l'autre, l'enfant apprend à comparer les aventures des personnages, à trouver ce qui se ressemble et ce qui est différent, et à toujours s'appuyer sur ce que dit vraiment chaque histoire.",
-        "C'est une manière douce d'entrer dans la comparaison de récits, une compétence au cœur des programmes officiels de l'école. L'activité se joue dans le navigateur, sans minuteur, sans score et sans compte : votre enfant avance à son rythme, relit les histoires autant de fois qu'il le souhaite et prend le temps de bien réfléchir avant de répondre."
+        "Sur la table de Barbe-de-Mousse la tortue, deux petits livres d’images sont ouverts, l’un sous une lune d’or, l’autre sous une lune d’argent. Chacun raconte une courte histoire en trois pages, avec une image et une phrase par page. Chaque expérience est une planche en bois. Posée par-dessus les deux livres, chaque bout parcourt son livre page par page et cherche la page qui montre cette expérience. Deux lunes est une activité de lecture pour comparer ce que vivent les personnages de deux histoires.",
+        "Si les deux livres la montrent, la planche se pose à plat comme un pont et Barbe-de-Mousse traverse. Si un seul la montre, l’autre bout ne trouve rien et la planche bascule dans ce livre. Si aucun ne la montre, elle tombe dans le vide. « Perdre puis retrouver » a besoin de la page où l’on retrouve : Kiki n’a plus son ballon et ne le retrouve jamais (« Elle a cherché, mais elle ne l’a pas vu. »), donc la moitié de l’expérience ne tient pas la planche.",
+        "L’activité est alignée sur les programmes officiels de lecture et de compréhension. Sans chronomètre et sans points."
       ],
       "practices": [
-        "Comparer deux histoires côte à côte",
-        "Trouver ce qui est pareil dans les deux histoires",
-        "Repérer ce qui n'arrive que dans une seule histoire",
-        "Lire attentivement chaque histoire avant de choisir",
-        "S'appuyer sur ce que dit le texte pour répondre"
+        "Lire deux courtes histoires et repérer ce que vit chaque personnage",
+        "Trouver une expérience commune aux deux histoires",
+        "Trouver une expérience qui n’est que dans une histoire",
+        "Montrer la page qui le prouve dans chaque livre"
       ],
       "howToPlay": [
-        "Lis les deux histoires de Barbe-de-Mousse, sous la lune d'or et sous la lune d'argent.",
-        "Tape la carte qui dit ce qui est pareil dans les deux, ou ce qui arrive dans une seule histoire."
+        "Lis les deux petits livres. Touche une page et son image bouge.",
+        "Touche une planche, puis l’endroit où elle va : par-dessus les livres, sur un livre, ou dans le panier pour « dans aucune histoire ». Puis appuie sur Vérifier et regarde les bouts avancer.",
+        "Dans les réglages, choisis l’activité : Qu’est-ce qui est pareil ?, Qu’est-ce qui arrive dans une seule ? ou Ranger chaque planche. Les livres peuvent avoir trois pages ou deux."
       ],
       "learningGoals": [
-        "Votre enfant apprend à comparer les aventures de deux personnages et à repérer leurs ressemblances.",
-        "Votre enfant apprend à distinguer ce qui est commun aux deux histoires de ce qui n'appartient qu'à une seule.",
-        "Votre enfant apprend à justifier son choix en s'appuyant sur ce que raconte chaque histoire."
+        "Comparer ce que vivent les personnages de deux histoires.",
+        "Justifier « pareil » et « différent » par une page de chaque histoire.",
+        "Voir qu’une moitié d’expérience n’est pas toute l’expérience."
       ]
     },
     "author-purpose.why-wrote.ri-2-6": {

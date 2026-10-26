@@ -4453,25 +4453,25 @@
     },
     "two-tales.compare.rl-1-9": {
       "about": [
-        "Mossbeard the Story-Keeper shares two short tales — a fox who lost his cap and kept trying until he found it, a bunny who lost her ball and got help from a friend — and the child compares what happened to the two characters by tapping event cards like \"Lost it, then found it\" and \"A friend helped.\" This interactive Grade 1 reading activity runs in the browser with no sign-up.",
-        "The big idea is comparing experiences across two stories. In a \"same\" round the child finds the one event that happened in BOTH tales; in a \"different\" round, the event that happened in only ONE. The cards on offer always mix a shared event with events that belong to just a single story, so a child cannot answer from one tale alone — they have to hold both stories in mind and check each card against both before choosing.",
-        "It is aligned to Common Core RL.1.9 — comparing and contrasting the adventures and experiences of characters in stories. No timer, no score — just calm, playful practice."
+        "Two little picture books lie open on Mossbeard the turtle's table, one under a gold moon and one under a silver moon. Each tells a short story in three pages, with one picture and one sentence a page. Every experience card is a wooden plank. Lay it across the two books and each end walks its own book page by page, looking for the page that shows that experience. Two Moons is a Grade 1 reading activity about comparing the experiences of characters in two stories.",
+        "If both books show it, the plank lies flat like a bridge and Mossbeard walks across. If only one does, the other end finds nothing and the plank tips into that book. If neither does, it drops through the gap. \"Lost it, then found it\" needs the found page too: Kiki loses her ball and never finds it (\"She looked, but she could not find it.\"), so half the experience cannot hold the plank.",
+        "It is aligned to Common Core RL.1.9: compare and contrast the adventures and experiences of characters in stories. No timer and no score."
       ],
       "practices": [
-        "Recall what happened to a character in each of two short stories",
-        "Find an event that is the same in both tales",
-        "Find an event that happened in only one of the tales",
-        "Check each event card against both stories before answering"
+        "Read two short stories and notice what happened to each character",
+        "Find an experience the two stories share",
+        "Find an experience only one story has",
+        "Show the page that proves it in each book"
       ],
       "howToPlay": [
-        "Read or listen to the two short tales side by side.",
-        "For a \"same\" round, tap what happened in both; for a \"different\" round, tap what happened in only one.",
-        "Press Check and try again as often as you like, with no timer and no score."
+        "Read both little books. Tap a page to make its picture move.",
+        "Tap a plank, then tap where it goes: across the books, on one book, or in the basket for \"in neither story\". Then press Check and watch the ends walk.",
+        "Choose the task in the settings: What is the same?, What happened in only one?, or Sort every plank. Books can have three pages or two."
       ],
       "learningGoals": [
-        "Compare and contrast characters' experiences across two stories — the focus of Common Core RL.1.9",
-        "Tell what is alike from what is different between two tales",
-        "Hold two short stories in mind at once and reason about both"
+        "Compare and contrast the experiences of characters in two stories, the focus of Common Core RL.1.9.",
+        "Back up \"same\" and \"different\" with a page from each story.",
+        "See that half an experience is not the whole experience."
       ]
     },
     "vera-verb-match.be-agreement.l-1-1-c": {

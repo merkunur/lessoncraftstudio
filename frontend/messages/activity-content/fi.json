@@ -3162,6 +3162,29 @@
         "Käyttää kertojan omia sanoja (pikkuruinen ja kaukana, suoraan vastapäätä, valtava ja ihan lähellä) todisteena.",
         "Tietää, että tarinalla voi olla useampi kuin yksi kertoja."
       ]
+    },
+    "two-tales.compare.rl-1-9": {
+      "about": [
+        "Sammalparran, kilpikonnan, pöydällä on auki kaksi pientä kuvakirjaa, toinen kultaisen kuun ja toinen hopeisen kuun alla. Kumpikin kertoo lyhyen tarinan kolmella sivulla, ja joka sivulla on kuva ja yksi lause. Jokainen kokemus on puulauta. Kun laitat sen molempien kirjojen yli, laudan kumpikin pää kulkee oman kirjansa läpi sivu sivulta ja etsii sivua, jolla se kokemus näkyy. Kaksi kuuta on lukutehtävä siitä, miten verrataan, mitä kahden tarinan henkilöt kokevat.",
+        "Jos se näkyy molemmissa kirjoissa, lauta pysyy suorassa kuin silta, ja Sammalparta kävelee sen yli. Jos se näkyy vain toisessa, toinen pää ei löydä mitään, ja lauta kallistuu siihen kirjaan. Jos se ei näy kummassakaan, lauta putoaa väliin. «Hukkasi ja löysi» tarvitsee myös sivun, jolla jokin löytyy: Kikin pallo vierii pois, eikä hän löydä sitä koskaan («Hän etsi, mutta ei nähnyt sitä.»), joten puolikas kokemus ei kannattele lautaa.",
+        "Tehtävä tukee perusopetuksen opetussuunnitelman (OPS 2014) lukemisen ja tekstien ymmärtämisen tavoitteita. Ei ajanottoa eikä pisteitä."
+      ],
+      "practices": [
+        "Lukea kaksi lyhyttä tarinaa ja huomata, mitä kukin henkilö kokee",
+        "Löytää kokemus, joka on molemmissa tarinoissa",
+        "Löytää kokemus, joka on vain toisessa tarinassa",
+        "Näyttää kummastakin kirjasta sivu, joka sen todistaa"
+      ],
+      "howToPlay": [
+        "Lue molemmat pienet kirjat. Napauta sivua, niin sen kuva liikkuu.",
+        "Napauta lautaa ja sitten paikkaa, johon se kuuluu: kirjojen yli, toisen kirjan päälle tai koriin, jos se ei ole kummassakaan tarinassa. Paina sitten Tarkista ja katso, miten päät kulkevat.",
+        "Asetuksista valitset tehtävän: Mikä on samaa?, Mitä tapahtui vain yhdessä? tai Lajittele jokainen lauta. Kirjoissa voi olla kolme tai kaksi sivua."
+      ],
+      "learningGoals": [
+        "Vertailla, mitä kahden tarinan henkilöt kokevat.",
+        "Perustella «samaa» ja «eri» sivulla kummastakin tarinasta.",
+        "Huomata, että puolikas kokemus ei ole koko kokemus."
+      ]
     }
   }
 }

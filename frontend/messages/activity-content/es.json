@@ -194,25 +194,25 @@
   "prose": {
     "two-tales.compare.rl-1-9": {
       "about": [
-        "Barba de Musgo, el guardián de cuentos, muestra dos cuentos cortos uno junto al otro: el Cuento dorado y el Cuento plateado. En cada uno, un animalito vive una pequeña aventura —por ejemplo, un zorro que «Perdió algo y lo encontró»— y su hijo/a compara: ¿qué les pasó a los dos, y qué solo a uno?",
-        "La actividad practica comparar dos cuentos: encontrar lo que pasó en LOS DOS (una semejanza) y lo que pasó en UN SOLO cuento (una diferencia). Como la misma experiencia se escribe igual en los dos cuentos, su hijo/a puede reconocer de un vistazo qué comparten y qué no. Es la primera vez que junta dos historias para pensarlas a la vez.",
-        "Comparar textos —ver semejanzas y diferencias— es una base para leer con más profundidad más adelante. Los dos cuentos se pueden escuchar con el botón de audio, por si su hijo/a todavía no lee solo. Corresponde al eje «Comprensión de textos literarios». Sin presiones: sin cronómetro, sin puntaje, sin perder; su hijo/a piensa con calma."
+        "En la mesa de Barbamusgo, la tortuga, hay dos libritos de dibujos abiertos, uno bajo una luna dorada y otro bajo una luna plateada. Cada uno cuenta un cuento corto en tres páginas, con un dibujo y una oración por página. Cada experiencia es una tabla de madera. Si la pones de un libro al otro, cada punta recorre su libro página por página buscando la página que muestra esa experiencia. Dos lunas es una actividad de lectura para comparar lo que viven los personajes de dos cuentos.",
+        "Si los dos libros la muestran, la tabla queda plana como un puente y Barbamusgo la cruza. Si solo uno la muestra, la otra punta no encuentra nada y la tabla se inclina hacia ese libro. Si ninguno la muestra, se cae por el hueco. «Perder algo y encontrarlo» necesita también la página donde se encuentra: a Kiki se le va su pelota y nunca la encuentra («Buscó, pero no la pudo ver.»), así que media experiencia no sostiene la tabla.",
+        "La actividad está alineada con el currículo oficial de lectura y comprensión. Sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Comparar dos cuentos cortos y pensarlos a la vez",
-        "Encontrar una semejanza: lo que pasó en los dos cuentos",
-        "Encontrar una diferencia: lo que pasó en un solo cuento",
-        "Leer y escuchar cuentos con atención"
+        "Leer dos cuentos cortos y fijarse en lo que vive cada personaje",
+        "Encontrar una experiencia que los dos cuentos comparten",
+        "Encontrar una experiencia que solo tiene un cuento",
+        "Mostrar en cada libro la página que lo prueba"
       ],
       "howToPlay": [
-        "Lean los dos cuentos: el Cuento dorado y el Cuento plateado (o toquen el botón de audio)",
-        "Piensen: ¿qué pasó en LOS DOS, o qué pasó en UN SOLO cuento?",
-        "El niño toca la tarjeta que corresponde"
+        "Lee los dos libritos. Toca una página y su dibujo se mueve.",
+        "Toca una tabla y luego el lugar donde va: de un libro al otro, sobre un libro o en la canasta para «en ningún cuento». Luego presiona Comprobar y mira cómo caminan las puntas.",
+        "En la configuración eliges la actividad: ¿Qué es igual?, ¿Qué pasó en uno solo? u Ordenar cada tabla. Los libros pueden tener tres páginas o dos."
       ],
       "learningGoals": [
-        "Su hijo/a compara dos cuentos y los piensa a la vez",
-        "Encuentra semejanzas (lo que pasó en los dos) y diferencias (lo que pasó en uno)",
-        "Da sus primeros pasos para comparar textos"
+        "Comparar lo que viven los personajes de dos cuentos.",
+        "Apoyar «igual» y «diferente» con una página de cada cuento.",
+        "Ver que media experiencia no es la experiencia completa."
       ]
     },
     "linc-fact-chain.connect.ri-k-3": {

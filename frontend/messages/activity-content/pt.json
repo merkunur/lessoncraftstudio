@@ -3879,25 +3879,25 @@
     },
     "two-tales.compare.rl-1-9": {
       "about": [
-        "A Barba de Musgo é uma tartaruga bem antiga, cheia de musgo nas costas, que guarda histórias há muito tempo. Ela mostra duas luas no céu: uma lua dourada e uma lua prateada. Cada lua conta a sua própria história curta. Por exemplo, na lua dourada uma raposa perde uma coisa e depois encontra; na lua prateada uma coelha perde uma coisa e um amigo vem ajudar. Você lê as duas e descobre que, nas duas, alguém perdeu algo — esse é o pedacinho IGUAL das duas histórias.",
-        "Nesta atividade há dois jeitos de olhar. No primeiro, você procura o que é IGUAL nas duas histórias, ou seja, a semelhança que aparece nas duas luas. No segundo, você procura o que acontece em só UMA história, ou seja, a diferença que está só numa lua. Comparar duas histórias ajuda você a prestar atenção no que os personagens sentem e fazem, a lembrar dos detalhes e a perceber que histórias diferentes podem combinar em algumas partes e se separar em outras.",
-        "A atividade não tem cadastro, cronômetro, pontos nem corrida contra ninguém — cada criança vai no seu tempo. Quando quiser ouvir, é só tocar no botão 🔊 para a Barba de Musgo ler as duas histórias em voz alta. Ela segue a Base Nacional Comum Curricular (BNCC), no campo da compreensão de textos literários, comparando duas histórias, e serve para as crianças nos primeiros anos."
+        "Na mesa da Barba de Musgo, a tartaruga, há dois livrinhos de figuras abertos, um embaixo de uma lua dourada e outro embaixo de uma lua prateada. Cada um conta uma história curta em três páginas, com uma figura e uma frase por página. Cada experiência é uma tábua de madeira. Posta de um livro ao outro, cada ponta percorre o seu livro página por página, procurando a página que mostra aquela experiência. Duas luas é uma atividade de leitura para comparar o que os personagens vivem em duas histórias.",
+        "Se os dois livros mostram, a tábua fica reta como uma ponte e a Barba de Musgo atravessa. Se só um mostra, a outra ponta não acha nada e a tábua tomba para esse livro. Se nenhum mostra, ela cai no vão. \"Perder algo e achar de novo\" precisa também da página em que se acha: a bola da Kiki some e ela nunca acha (\"Ela procurou, mas não viu a bola.\"), então metade da experiência não segura a tábua.",
+        "A atividade está alinhada à BNCC para a leitura e a compreensão de textos. Sem cronômetro e sem pontos."
       ],
       "practices": [
-        "Leia com calma as duas histórias, a da lua dourada e a da lua prateada, antes de escolher.",
-        "Toque no 🔊 para ouvir as duas histórias sempre que quiser.",
-        "Quando a pergunta for sobre o IGUAL, procure a coisa que aconteceu nas DUAS histórias.",
-        "Quando a pergunta for sobre a diferença, procure a coisa que aconteceu em só UMA história."
+        "Ler duas histórias curtas e perceber o que cada personagem vive",
+        "Achar uma experiência que as duas histórias têm",
+        "Achar uma experiência que só uma história tem",
+        "Mostrar em cada livro a página que prova isso"
       ],
       "howToPlay": [
-        "Leia a história da lua dourada e a história da lua prateada.",
-        "Veja a pergunta: às vezes você procura o que é IGUAL nas duas, às vezes o que acontece em só UMA.",
-        "Toque na opção certa. Se quiser tentar de novo, pode olhar as histórias mais uma vez."
+        "Leia os dois livrinhos. Toque em uma página e a figura se mexe.",
+        "Toque em uma tábua e depois no lugar dela: de um livro ao outro, em um livro ou no cesto para \"em nenhuma história\". Depois toque em Verificar e veja as pontas andarem.",
+        "Nas configurações você escolhe a atividade: O que é igual?, O que aconteceu em uma só? ou Separar cada tábua. Os livros podem ter três páginas ou duas."
       ],
       "learningGoals": [
-        "Eu consigo ler duas histórias curtas e entender o que aconteceu em cada uma.",
-        "Eu consigo achar o que é IGUAL nas duas histórias.",
-        "Eu consigo achar o que acontece em só UMA das histórias."
+        "Comparar o que os personagens vivem em duas histórias.",
+        "Justificar \"igual\" e \"diferente\" com uma página de cada história.",
+        "Perceber que metade de uma experiência não é a experiência toda."
       ]
     },
     "wake-up-pip.retell-story.rl-k-2": {

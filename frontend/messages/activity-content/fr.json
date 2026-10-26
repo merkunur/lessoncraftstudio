@@ -922,24 +922,25 @@
     },
     "hazel-word-bridge.joining-words.l-1-1-g": {
       "about": [
-        "Avec Hazel le héron, votre enfant construit des ponts entre les mots. Une phrase en deux parties s'affiche avec un petit trou au milieu, et il faut choisir le mot de liaison qui relie le mieux les deux idées : et, ou, mais ou car. Chaque mot relie à sa façon — et ajoute, ou propose un choix, mais oppose, car donne une raison. C'est une activité de grammaire interactive pour le CE2, qui fonctionne dans le navigateur, sans rien à installer.",
-        "Le cœur de l'activité, c'est d'écouter le SENS de la phrase plutôt que de deviner. Pour trouver le bon mot de liaison, l'enfant relit les deux parties et se demande comment elles vont ensemble : est-ce que la seconde ajoute quelque chose, propose une autre possibilité, s'oppose à la première, ou en donne la cause ? Une petite virgule avant le trou aide aussi : on l'écrit devant mais et car, mais pas devant et ni ou. En reliant ainsi les idées, l'enfant travaille la coordination et la ponctuation de la phrase, en lien avec les programmes officiels. À son rythme, sans note ni chrono."
+        "La rivière de Hazel coule au milieu : la première partie d’une phrase est sur un panneau d’une rive, la deuxième sur l’autre, chacune avec son image, et il manque un pont entre les deux. Chaque mot de liaison est une planche avec sa propre forme : ET est droite, MAIS fait un virage, OU se sépare en deux, et PARCE QUE et ALORS sont une seule planche-flèche, « parce que » d’un côté et « alors » de l’autre. La flèche va toujours de la cause vers ce qui est arrivé.",
+        "Pose une planche et vérifie : une petite voiture traverse le pont à sa façon, tout droit pour « Le chat et le chien sont amis », dans la fourche pour « C’est une grenouille ou un poisson ? ». Avec la planche-flèche, elle emporte la cause de l’autre côté : « Il fait froid, alors je mets mon écharpe. » Quand on échange les deux parties, la planche-flèche se retourne toute seule.",
+        "Une activité de grammaire pour le CP, en lien avec les programmes officiels du cycle 2. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Choisir la bonne conjonction de coordination — et, ou, mais, car — selon le sens de la phrase.",
-        "Comprendre que chaque mot de liaison relie autrement : ajouter, proposer un choix, opposer, donner une raison.",
-        "Repérer la virgule qui s'écrit devant mais et car, mais pas devant et ni ou.",
-        "Relire toute la phrase avant de choisir, plutôt que de deviner au hasard."
+        "Relier deux parties avec « et » quand elles vont ensemble",
+        "Employer « mais » pour un virage et « ou » pour un choix",
+        "Mettre « parce que » devant la cause et « alors » devant ce qui est arrivé",
+        "Dire la même chose dans l’autre sens : « parce que » devient « alors »"
       ],
       "howToPlay": [
-        "Lis les deux parties de la phrase, avec le petit trou au milieu.",
-        "Touche le mot de liaison — et, ou, mais ou car — qui relie le mieux les deux idées.",
-        "Pas tout à fait ? Réessaie autant de fois que tu veux — il n'y a ni chrono ni score."
+        "Lis les deux parties sur les rives et cherche comment elles vont ensemble.",
+        "Touche une planche pour la poser sur le pont ; le bouton tournant retourne la planche-flèche entre « parce que » et « alors ». Puis vérifie.",
+        "Dans les réglages, choisis les mots de liaison (de « et, mais, ou » jusqu’à « Dans l’autre sens ») et si les images s’affichent."
       ],
       "learningGoals": [
-        "Employer les conjonctions de coordination pour relier deux idées dans une phrase.",
-        "Distinguer l'ajout, le choix, l'opposition et la cause d'après le sens.",
-        "Associer la ponctuation — la virgule devant mais et car — à la construction de la phrase."
+        "Choisir le mot de liaison qui donne du sens aux deux parties.",
+        "Distinguer « parce que » (la cause vient ensuite) et « alors » (ce qui est arrivé vient ensuite).",
+        "Retourner une phrase sans changer son sens."
       ]
     },
     "vera-verb-match.be-agreement.l-1-1-c": {

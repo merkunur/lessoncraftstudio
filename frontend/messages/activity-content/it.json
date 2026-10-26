@@ -709,25 +709,25 @@
     },
     "hazel-word-bridge.joining-words.l-1-1-g": {
       "about": [
-        "Tra i canneti del fiume, Hazel la garzetta raccoglie due idee e cerca la parolina giusta per farle da ponte.",
-        "In ogni frase manca la congiunzione: basta leggere le due parti e scegliere la parola che le collega con il senso giusto.",
-        "Piano piano, unire le idee con «e», «o», «ma» o «perché» diventa un gesto naturale."
+        "Il fiume di Hazel scorre nel mezzo: la prima parte di una frase sta su un cartello su una riva, la seconda sull’altra, ognuna con la sua immagine, e in mezzo manca un ponte. Ogni congiunzione è un’asse con la sua forma: E è dritta, MA fa una curva, O si divide in due, e PERCHÉ e QUINDI sono un’unica asse con la freccia, «perché» da un lato e «quindi» dall’altro. La freccia va sempre dal motivo a quello che è successo.",
+        "Metti un’asse e controlla: una macchinina attraversa il ponte a modo suo, dritta per «Il gatto e il cane sono amici», verso il bivio per «È giorno o notte?». Con l’asse a freccia porta il motivo dall’altra parte: «Fa freddo, quindi metto la sciarpa.» Se le due parti si scambiano, l’asse a freccia si gira da sola.",
+        "Un’attività di grammatica per la classe prima, in linea con le Indicazioni nazionali. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Collegare due idee con la congiunzione giusta",
-        "Distinguere e, o, ma e perché",
-        "Scegliere la parola che ha senso nella frase",
-        "Completare la frase con la congiunzione corretta"
+        "Unire due parti con «e» quando stanno insieme",
+        "Usare «ma» quando la seconda parte fa una curva, e «o» per una scelta",
+        "Mettere «perché» prima del motivo e «quindi» prima di quello che è successo",
+        "Dire la stessa cosa al contrario: «perché» diventa «quindi»"
       ],
       "howToPlay": [
-        "Leggi la frase con lo spazio vuoto.",
-        "Pensa a come si collegano le due parti.",
-        "Tocca la congiunzione giusta, con calma."
+        "Leggi le due parti sulle rive e pensa a come stanno insieme.",
+        "Tocca un’asse per metterla sul ponte; il pulsante girevole gira l’asse a freccia tra «perché» e «quindi». Poi controlla.",
+        "Nelle impostazioni scegli le congiunzioni (da «e, ma, o» fino ad «Al contrario») e se si vedono le immagini."
       ],
       "learningGoals": [
-        "Riconoscere le congiunzioni e, o, ma, perché",
-        "Collegare due parti di una frase con la parola giusta",
-        "Pensata per la classe terza e allineata alle Indicazioni nazionali, nell'area della riflessione linguistica"
+        "Scegliere la congiunzione che unisce due parti con senso.",
+        "Distinguere «perché» (dopo viene il motivo) da «quindi» (dopo viene quello che è successo).",
+        "Girare una frase senza cambiarne il senso."
       ]
     },
     "vera-verb-match.be-agreement.l-1-1-c": {

@@ -1765,25 +1765,25 @@
     },
     "hazel-word-bridge.joining-words.l-1-1-g": {
       "about": [
-        "Hazel la garza acompaña a tu peque en 8 rondas: en cada una aparece una oración con un espacio en blanco, como «Abro el paraguas ___ está lloviendo.», y el niño toca la palabra que la completa entre tres tarjetas de y, o, pero y porque.",
-        "Un nexo une dos partes de una oración, y cada uno cambia el significado: «y» agrega, «o» ofrece una opción, «pero» marca un contraste y «porque» da una razón; así el peque aprende a leer toda la oración y a elegir por el sentido en vez de adivinar, en un primer acercamiento consciente a cómo se arman las oraciones.",
-        "Es interactiva y se juega directo en el navegador, sin registro, sin descargas, sin cronómetro y sin puntajes, con un tono cálido y a tu ritmo, alineada a los Planes y programas de estudio (SEP)."
+        "El río de Hazel pasa por en medio: la primera parte de una oración está en un letrero en una orilla y la segunda en la otra, cada una con su dibujo, y entre las dos falta un puente. Cada palabra que une es una tabla con su propia forma: Y es recta, PERO da una vuelta, O se divide en dos, y PORQUE y ASÍ QUE son una sola tabla con flecha, «porque» de un lado y «así que» del otro. La flecha siempre va de la razón a lo que pasó.",
+        "Pon una tabla y comprueba: un carrito cruza el puente a su manera, derecho en «El gato y el perro son amigos», hacia la bifurcación en «¿Es de día o de noche?». Con la tabla de flecha se lleva la razón al otro lado: «Hace frío, así que me pongo la bufanda». Si cambias de lugar las dos partes, la tabla de flecha se voltea sola.",
+        "Una actividad de lenguaje para 1.º de primaria, de acuerdo con los programas de estudio de la SEP. Sin reloj y sin puntos."
       ],
       "practices": [
-        "Distinguir los nexos por su significado: agregar, elegir, contrastar y dar una razón.",
-        "Unir dos partes de una oración de manera que tengan sentido.",
-        "Leer con atención toda la oración antes de responder, en lugar de adivinar.",
-        "Reconocer que cambiar el nexo cambia el significado de la oración completa."
+        "Unir dos partes con «y» cuando van juntas",
+        "Usar «pero» cuando la segunda parte da una vuelta y «o» para elegir",
+        "Poner «porque» antes de la razón y «así que» antes de lo que pasó",
+        "Decir lo mismo al revés: «porque» se vuelve «así que»"
       ],
       "howToPlay": [
-        "Lee toda la oración y fíjate bien en el espacio en blanco.",
-        "Piensa cómo se relacionan las dos partes y elige el nexo que va con ese sentido.",
-        "Toca la palabra correcta —y, o, pero o porque—; los intentos son ilimitados y no hay cronómetro."
+        "Lee las dos partes en las orillas y piensa cómo van juntas.",
+        "Toca una tabla para ponerla en el puente; el botón de girar voltea la tabla de flecha entre «porque» y «así que». Luego comprueba.",
+        "En los ajustes eliges las palabras que unen (de «y, pero, o» hasta «Al revés») y si se ven los dibujos."
       ],
       "learningGoals": [
-        "Reconoce que un nexo une dos partes de una oración y las conecta.",
-        "Elige entre y, o, pero y porque según el significado de la oración.",
-        "Comprende que el nexo correcto es el que le da sentido a toda la oración."
+        "Elegir la palabra que une dos partes con sentido.",
+        "Distinguir «porque» (después viene la razón) de «así que» (después viene lo que pasó).",
+        "Voltear una oración sin cambiar lo que quiere decir."
       ]
     },
     "vera-verb-match.be-agreement.l-1-1-c": {

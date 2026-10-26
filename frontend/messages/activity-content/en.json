@@ -2184,25 +2184,25 @@
     },
     "hazel-word-bridge.joining-words.l-1-1-g": {
       "about": [
-        "Hazel the heron builds a little word-bridge between two ideas: each round shows a sentence with a blank — 'I packed a hat ___ a coat,' '___ it was raining, I wore my boots' — and the child taps the one joining word that makes the two parts fit: and, but, because, or so. It's an interactive Grade 1 grammar activity that plays in the browser, with no sign-up.",
-        "The big idea is that different joining words signal different relationships. And simply adds one idea to another, but shows a contrast, because gives a reason, and so shows a result — so the child cannot pick by sound alone but has to read the whole sentence and feel how the two parts connect. The rounds move from simple adding and contrasting to cause-and-result, so the same skill stretches gradually.",
-        "It is aligned to Common Core L.1.1.g — using frequently occurring conjunctions to join words and ideas. No timer, no score — just calm, playful practice."
+        "Hazel's river runs down the middle: the first half of a sentence stands on a signboard on one bank, the second half on the other, each with its picture, and a gap waits where a bridge should be. Every joining word is a wooden plank with its own shape. AND is a straight plank, BUT has a turn in it, OR splits into a fork, and BECAUSE and SO are one arrow plank, \"because\" on one face and \"so\" on the other, whose arrow always runs from the reason to what happened.",
+        "Lay a plank and press Check, and a little car drives the bridge its way: straight across for \"The cat and the dog are friends\", into the fork for \"Is it day or night?\", round the turn for a surprise. With the arrow plank the car carries the reason across: \"It was cold, so I put on my scarf.\" Swap the two halves and the arrow plank turns over by itself, so \"because\" and \"so\" show up as one link read from two ends.",
+        "It is aligned to Common Core L.1.1.g: use frequently occurring conjunctions (and, but, or, so, because). No timer and no score."
       ],
       "practices": [
-        "Choosing and, but, because, or so to fit a sentence",
-        "Telling a contrast (but) apart from a reason (because) or a result (so)",
-        "Reading both halves of a sentence before deciding how they connect",
-        "Joining two ideas into one sentence that makes sense"
+        "Join two parts with \"and\" when both go together",
+        "Use \"but\" when the second part takes a turn, and \"or\" for a choice",
+        "Use \"because\" before the reason and \"so\" before what happened",
+        "Say the same thing the other way round: \"because\" becomes \"so\""
       ],
       "howToPlay": [
-        "Read the sentence with the blank in the middle.",
-        "Tap the joining word — and, but, because, or so — that makes both parts fit, then press Check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Read the two halves on the banks and find out how they go together.",
+        "Tap a plank onto the bridge; tap the turner to flip the arrow plank between \"because\" and \"so\". Then press Check.",
+        "In the settings, choose the joining words (from \"and, but, or\" up to \"Turn it round\") and whether the pictures show."
       ],
       "learningGoals": [
-        "Use common conjunctions to join words and ideas — the focus of Common Core L.1.1.g",
-        "Match the joining word to the relationship between two ideas",
-        "Build the sentence-combining skill that fluent writing relies on"
+        "Choose the joining word that makes two parts make sense.",
+        "Tell \"because\" (the reason comes next) from \"so\" (what happened comes next).",
+        "Turn a sentence round and keep its meaning."
       ]
     },
     "hoppers-number-line.jump-sums.2-md-b-6": {

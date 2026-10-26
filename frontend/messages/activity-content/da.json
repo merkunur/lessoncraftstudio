@@ -3301,6 +3301,29 @@
         "Bruge almindelige uregelmæssige datidsformer.",
         "Finde udsagnsordet i en sætning og sige navneformen."
       ]
+    },
+    "hazel-word-bridge.joining-words.l-1-1-g": {
+      "about": [
+        "Gennem midten løber Hazels å: Den første del af en sætning står på et skilt ved den ene bred og den anden del ved den anden, hver med sit billede, og imellem mangler der en bro. Hvert bindeord er en planke med sin egen form: OG er lige, MEN har et sving, ELLER deler sig i to, og FOR og SÅ er én og samme pileplanke, ”for” på den ene side og ”så” på den anden. Pilen går altid fra grunden til det, der skete.",
+        "Læg en planke og tjek: En lille bil kører over broen på sin egen måde, ligeud ved ”Katten og hunden er venner”, ind i forgreningen ved ”Er det dag eller nat?”. Med pileplanken tager den grunden med over: ”Det er koldt, så jeg tager mit halstørklæde på.” Bytter man om på de to dele, vender pileplanken sig af sig selv.",
+        "En grammatikøvelse til 1. klasse i tråd med Fælles Mål. Uden tidtagning og uden point."
+      ],
+      "practices": [
+        "Binde to dele sammen med ”og”, når de hører sammen",
+        "Bruge ”men”, når den anden del slår et sving, og ”eller” til et valg",
+        "Sætte ”for” foran grunden og ”så” foran det, der skete",
+        "Sige det samme den anden vej rundt: ”for” bliver til ”så”"
+      ],
+      "howToPlay": [
+        "Læs de to dele ved bredderne, og tænk over, hvordan de hører sammen.",
+        "Tryk på en planke, så lander den på broen; med vendeknappen vender du pileplanken mellem ”for” og ”så”. Tjek derefter.",
+        "I indstillingerne vælger du bindeord (fra ”og, men, eller” til ”Den anden vej rundt”), og om billederne skal vises."
+      ],
+      "learningGoals": [
+        "Vælge det bindeord, der får to dele til at give mening sammen.",
+        "Kende forskel på ”for” (derefter kommer grunden) og ”så” (derefter kommer det, der skete).",
+        "Vende en sætning om, uden at meningen ændrer sig."
+      ]
     }
   }
 }

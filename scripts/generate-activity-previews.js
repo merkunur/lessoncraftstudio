@@ -79,6 +79,10 @@ function seedScript(row) {
     // the shared plank laid across the two books — the bridge the activity is built on
     return `(function(){var t=window['${g}'];if(t&&t.st&&t._pick){t._pick(t.st.answer);t._lay('across');}})();`;
   }
+  if (row.tool === 'turning-bridge-activity') {
+    // level 2, "It was cold, so I put on my scarf": the arrow plank on the bridge on its so-face, Check pressed — the invention at work
+    return `(function(){var t=window['${g}'],C=window.TurningBridgeCore;if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t.api.settings.level='2';t._pool=null;t._ensurePool();t._start(1,0);t._render2();t._lay('arrow');if(t.st.face!==C.rightFace(t.st.rd,t.st.order))t._flip();t._check();}})();`;
+  }
   if (row.tool === 'time-frames-activity') {
     // "Yesterday the boats sailed on the lake": the sailed card in the gap, Check pressed — it develops into a still photo and files into the album
     return `(function(){var t=window['${g}'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(0,0);t._render2();t._drop('past');t._check();}})();`;

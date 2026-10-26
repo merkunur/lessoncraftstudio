@@ -3301,6 +3301,29 @@
         "Käyttää yleisiä menneen ajan muotoja.",
         "Löytää lauseen verbi ja sanoa sen perusmuoto."
       ]
+    },
+    "hazel-word-bridge.joining-words.l-1-1-g": {
+      "about": [
+        "Hazelin joki virtaa keskellä: lauseen ensimmäinen osa on kyltissä toisella rannalla ja toinen osa toisella, kummassakin oma kuvansa, ja välistä puuttuu silta. Jokainen sidesana on lankku, jolla on oma muotonsa: JA on suora, MUTTA tekee mutkan, VAI haarautuu kahtia, ja KOSKA ja JOTEN ovat yksi ja sama nuolilankku, toisella puolella ”koska” ja toisella ”joten”. Nuoli kulkee aina syystä siihen, mitä tapahtui.",
+        "Laita lankku ja tarkista: pieni auto ajaa sillan yli omalla tavallaan, suoraan lauseessa ”Kissa ja koira ovat ystäviä”, haaraan lauseessa ”Onko nyt päivä vai yö?”. Nuolilankulla se vie syyn toiselle rannalle: ”On kylmä, joten laitan kaulaliinan.” Kun osat vaihtavat paikkaa, nuolilankku kääntyy itsestään.",
+        "Kielioppitehtävä 1. luokalle (OPS 2014). Ei ajanottoa eikä pisteitä."
+      ],
+      "practices": [
+        "Yhdistää kaksi osaa sanalla ”ja”, kun ne kuuluvat yhteen",
+        "Käyttää sanaa ”mutta”, kun toinen osa tekee mutkan, ja sanaa ”vai” valintaan",
+        "Panna ”koska” syyn eteen ja ”joten” sen eteen, mitä tapahtui",
+        "Sanoa sama asia toisin päin: ”koska” muuttuu sanaksi ”joten”"
+      ],
+      "howToPlay": [
+        "Lue rannoilla olevat osat ja mieti, miten ne kuuluvat yhteen.",
+        "Napauta lankku sillalle; kääntönappi kääntää nuolilankun sanojen ”koska” ja ”joten” välillä. Tarkista sitten.",
+        "Asetuksista valitset sidesanat (”ja, mutta, vai” – ”Toisin päin”) ja näkyvätkö kuvat."
+      ],
+      "learningGoals": [
+        "Valita sidesana, joka tekee kahdesta osasta järkevän lauseen.",
+        "Erottaa ”koska” (sen jälkeen tulee syy) ja ”joten” (sen jälkeen tulee se, mitä tapahtui).",
+        "Kääntää lause toisin päin niin, että merkitys pysyy samana."
+      ]
     }
   }
 }

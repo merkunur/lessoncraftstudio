@@ -3329,6 +3329,29 @@
         "Bruke vanlige uregelrette fortidsformer.",
         "Finne verbet i en setning og si infinitiven."
       ]
+    },
+    "hazel-word-bridge.joining-words.l-1-1-g": {
+      "about": [
+        "Gjennom midten renner Hazels elv: Den første delen av en setning står på et skilt ved den ene bredden og den andre ved den andre, hver med sitt bilde, og imellom mangler det en bru. Hvert bindeord er en planke med sin egen form: OG er rett, MEN har en sving, ELLER deler seg i to, og FOR og SÅ er én og samme pilplanke, «for» på den ene siden og «så» på den andre. Pilen går alltid fra grunnen til det som skjedde.",
+        "Legg en planke og sjekk: En liten bil kjører over brua på sin egen måte, rett fram ved «Katten og hunden er venner», inn i forgreiningen ved «Er det dag eller natt?». Med pilplanken tar den med seg grunnen over: «Det er kaldt, så jeg tar på meg skjerfet.» Bytter man plass på de to delene, snur pilplanken seg av seg selv.",
+        "En grammatikkøvelse for 1. trinn i tråd med LK20. Uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Binde sammen to deler med «og» når de hører sammen",
+        "Bruke «men» når den andre delen tar en sving, og «eller» for et valg",
+        "Sette «for» foran grunnen og «så» foran det som skjedde",
+        "Si det samme andre veien: «for» blir til «så»"
+      ],
+      "howToPlay": [
+        "Les de to delene ved breddene og tenk over hvordan de henger sammen.",
+        "Trykk på en planke så havner den på brua; med snuknappen snur du pilplanken mellom «for» og «så». Sjekk deretter.",
+        "I innstillingene velger du bindeord (fra «og, men, eller» til «Andre veien») og om bildene skal vises."
+      ],
+      "learningGoals": [
+        "Velge bindeordet som får to deler til å gi mening sammen.",
+        "Skille mellom «for» (etterpå kommer grunnen) og «så» (etterpå kommer det som skjedde).",
+        "Snu en setning uten at meningen endrer seg."
+      ]
     }
   }
 }

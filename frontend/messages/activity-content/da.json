@@ -3232,6 +3232,29 @@
         "Skrive kun en apostrof efter s, x og z.",
         "Undgå apostrof før ejefalds-s."
       ]
+    },
+    "vera-verb-match.be-agreement.l-1-1-c": {
+      "about": [
+        "Hvert ord er en låge i hækken. Sætningen står på en strimmel med et hul, husets skilt viser, hvem det handler om, og på stativet hænger tre låger med tillægsordets tre former: et drejekors (stor), et drejekors med et flag (stort) og en bred dobbeltlåge (store). En grammatikøvelse til 1. klasse om, hvordan tillægsordet bøjes efter det ord, det hører til.",
+        "Hæng en låge op, og tryk på Tjek: ordet går ud af sit hus. Drejekorset lukker kun én igennem og låser; drejekorset med flaget drejer kun for et et-ord, som i ”Huset er fint”. Dobbeltlågen åbner kun, når to eller flere skubber sammen: ”Bierne er gule”. Med den forkerte låge bliver nogen stående udenfor. Niveau to har stedord og navne, niveau tre den samme bøjning med var.",
+        "I tråd med Fælles Mål for dansk (sprog og sprogbrug). Intet ur og ingen point."
+      ],
+      "practices": [
+        "Et en-ord får grundformen: bjørnen er stor",
+        "Et et-ord får t: huset er fint",
+        "Flere får e: hundene er søde",
+        "Stedord følger samme regel: hun er sød, de er hurtige"
+      ],
+      "howToPlay": [
+        "Læs sætningen, og se, hvem det gælder: et en-ord, et et-ord eller flere.",
+        "Tryk på en låge, så hænger den i hækken, og tryk så på Tjek.",
+        "I indstillingerne vælger du niveau, og om man kan se, hvem der kommer, før man tjekker."
+      ],
+      "learningGoals": [
+        "Bøje tillægsordet efter en-ord, et-ord og flertal.",
+        "Genkende et-ord på formen: græsset, huset, hindbærret.",
+        "Bruge den rigtige form efter stedord og navne."
+      ]
     }
   }
 }

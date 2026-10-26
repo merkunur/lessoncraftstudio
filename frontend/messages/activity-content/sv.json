@@ -2341,25 +2341,25 @@
     },
     "vera-verb-match.be-agreement.l-1-1-c": {
       "about": [
-        "Sorken Tuva bor i en tuva ute på ängen, och hon vet precis hur orden ska sluta. Barnet läser en mening där ett ord fattas – ”Björnen är ___ när han står upp” – och trycker på det ord som passar: stor, stort eller stora.",
-        "Alla tre orden betyder samma sak. Det som avgör är hur meningen börjar. Ett en-ord som björnen tar det korta ordet, ett ett-ord som gräset lägger till ett -t, och är det flera, som blommorna eller bina, slutar ordet på -a. Ordet är står kvar i varje mening och ändrar sig aldrig – det är ordet efter är som rättar sig efter början.",
-        "Åtta meningar med åtta olika adjektiv, i tre steg. Eftersom orden byts ut varje gång kan barnet inte lära sig tre ord utantill, utan måste hitta regeln – och den regeln fungerar sedan på ord barnet aldrig har sett förut."
+        "Varje ord är en grind i häcken. Meningen står på en remsa med en lucka, husets skylt visar vem det handlar om, och på stället hänger tre grindar med adjektivets tre former: ett vändkors (stor), ett vändkors med en vimpel (stort) och en bred dubbelgrind (stora). En grammatikövning för åk 1 om hur adjektivet böjs efter ordet det beskriver.",
+        "Häng upp en grind och tryck på Kontrollera: ordet går ut ur sitt hus. Vändkorset släpper igenom en enda och låser sig; vändkorset med vimpeln vrider sig bara för ett ett-ord, som i ”Gräset är grönt”. Dubbelgrinden öppnas bara när två eller fler knuffar tillsammans: ”Blommorna är röda”. Med fel grind stannar någon kvar utanför. Nivå två har pronomen och namn, nivå tre samma böjning med var.",
+        "I linje med Lgr22 (svenska, språkets struktur). Ingen tidtagning och inga poäng."
       ],
       "practices": [
-        "Läs meningen högt tillsammans och stanna vid luckan. Fråga vad meningen börjar med innan ni tittar på orden.",
-        "Peka på slutet av det första ordet. Björnen slutar på -en, gräset på -et, blommorna på -na. Det är den ledtråden barnet ska lära sig att använda.",
-        "Låt barnet säga hela meningen när svaret är valt: ”Gräset är grönt.” Böjningen fastnar bättre i en hel mening än i ett ensamt ord.",
-        "Fortsätt utanför skärmen. Peka på tre saker i rummet och fråga: är det ett en-ord eller ett ett-ord? Ta sedan ett nytt adjektiv – kall, mjuk, tung – och böj det tillsammans."
+        "Ett en-ord får grundformen: björnen är stor",
+        "Ett ett-ord får t: huset är fint",
+        "Flera får a: hundarna är glada",
+        "Pronomen följer samma regel: hon är glad, de är glada"
       ],
       "howToPlay": [
-        "Läs meningen. Ett ord fattas, och luckan visas som ett streck.",
-        "Titta på hur meningen börjar: är det ett en-ord, ett ett-ord eller flera?",
-        "Tryck på ordet som passar och sedan på Kontrollera. Blir det fel får du en ny ledtråd och kan försöka igen."
+        "Läs meningen och se vem det gäller: ett en-ord, ett ett-ord eller flera.",
+        "Tryck på en grind så hänger den i häcken, tryck sedan på Kontrollera.",
+        "I inställningarna väljer du nivå och om man ser vem som kommer redan före kontrollen."
       ],
       "learningGoals": [
-        "Böja adjektiv efter en-ord, ett-ord och flera: stor, stort, stora.",
-        "Använda substantivets bestämda slut som ledtråd till vilken form adjektivet ska ha.",
-        "Hålla kvar början av meningen i huvudet och tillämpa den längre fram i satsen, i linje med Lgr22 och det centrala innehållet om ords böjningsformer i årskurs 1–3."
+        "Böja adjektivet efter en-ord, ett-ord och plural.",
+        "Känna igen ett-ord på formen: gräset, huset, hallonet.",
+        "Använda rätt form efter pronomen och namn."
       ]
     },
     "hazel-word-bridge.joining-words.l-1-1-g": {

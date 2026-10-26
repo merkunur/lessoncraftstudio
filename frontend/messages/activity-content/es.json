@@ -1788,25 +1788,25 @@
     },
     "vera-verb-match.be-agreement.l-1-1-c": {
       "about": [
-        "Vera, la ratoncita de campo, acompaña a tu peque a completar oraciones cortas: lee una frase con un espacio en blanco, como «El perro ___ en el parque», y toca la forma correcta entre estoy, está y están a lo largo de 8 rondas.",
-        "Cada oración muestra cómo el verbo estar cambia según el sujeto (yo → estoy, uno → está, varios → están), así el niño aprende a fijarse en quién es el sujeto y a hacer que el verbo concuerde: la concordancia sujeto-verbo, uno de los primeros patrones gramaticales que descubre de forma consciente.",
-        "Interactiva y desde el navegador, sin registro ni descargas, con un tono cálido, sin cronómetro y sin puntajes, alineada a los Planes y programas de estudio (SEP)."
+        "Cada verbo es una puerta en el seto. La oración está escrita en una tira con un hueco, la casa del sujeto está al principio de un camino del jardín y en el colgador hay tres puertas: un torniquete (está), una puerta doble (están) y una puerta redonda con estrella (estoy). Una actividad de gramática para primer grado de primaria: el verbo concuerda con el sujeto.",
+        "Cuelga una puerta y toca Comprobar: el sujeto sale de su casa. El torniquete deja pasar solo a uno y se traba; con «Los perros están en el parque», la puerta equivocada deja a dos perros sentados detrás. La puerta doble solo se abre si empujan dos o más: un perro solo se queda esperando. La puerta de la estrella solo gira para la estrella, que quiere decir yo: «Yo estoy en el jardín». Después vienen estaba y estaban, tiene y tienen, va y van, y cualquier verbo: «El perro corre», pero «Los perros corren».",
+        "Alineada con los Planes y programas de estudio de la SEP (Lenguajes). Sin reloj y sin puntos."
       ],
       "practices": [
-        "Reconocer las formas estoy, está y están del verbo estar.",
-        "Concordar el sujeto con el verbo según sea «yo», singular o plural.",
-        "Distinguir el singular del plural fijándose en la forma del verbo.",
-        "Leer oraciones completas y completarlas con sentido."
+        "estoy con yo, está con uno, están con varios",
+        "estaba con uno, estaban con varios",
+        "tiene, va y hace con uno; tienen, van y hacen con varios",
+        "Fijarse en el artículo: el perro, los perros"
       ],
       "howToPlay": [
-        "Lee la oración con el espacio en blanco con calma.",
-        "Piensa si el sujeto es «yo», uno (singular) o varios (plural).",
-        "Toca la forma correcta —estoy, está o están—; los intentos son ilimitados y no hay cronómetro."
+        "Lee la oración y descubre quién viene: yo, uno o varios.",
+        "Toca una puerta para colgarla en el seto y luego toca Comprobar.",
+        "En los ajustes eliges los verbos y si se ve quién viene antes de comprobar."
       ],
       "learningGoals": [
-        "Reconoce que el verbo estar concuerda con su sujeto.",
-        "Elige con confianza entre estoy, está y están.",
-        "Lee oraciones cortas con atención y las completa formando frases correctas."
+        "Hacer concordar el verbo con un sujeto en singular o en plural.",
+        "Elegir entre estoy, está y están.",
+        "Notar que el verbo cambia con el número: corre, corren."
       ]
     },
     "olive-kind-of.category-attribute.l-1-5-b": {

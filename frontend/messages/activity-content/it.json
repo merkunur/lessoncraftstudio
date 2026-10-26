@@ -732,25 +732,25 @@
     },
     "vera-verb-match.be-agreement.l-1-1-c": {
       "about": [
-        "Tra i fili d'erba, Vera la topolina raccoglie le frasi come piccoli semi e le porta a chi gioca.",
-        "In ogni frase manca il verbo: basta osservare il soggetto e scegliere la forma che gli va d'accordo.",
-        "Passo dopo passo, far concordare il verbo con il soggetto diventa un gesto naturale."
+        "Ogni verbo è un cancello nella siepe. La frase è scritta su una striscia con uno spazio vuoto, la casa del soggetto è all’inizio di un sentiero del giardino, e sulla rastrelliera sono appesi tre cancelli: un tornello (sta), un cancello doppio (stanno) e una porta rotonda con la stella (sto). Un’attività di grammatica per la classe prima: il verbo si accorda con il soggetto.",
+        "Appendi un cancello e tocca Controlla: il soggetto esce di casa. Il tornello fa passare uno solo e si blocca; con «I cani stanno fermi», il cancello sbagliato lascia due cani seduti dietro. Il cancello doppio si apre solo se spingono in due o più: un cane da solo resta ad aspettare. La porta della stella gira solo per la stella, che vuol dire io: «Io sto bene». Poi vengono stavo, stava e stavano, ha e hanno, va e vanno, e ogni verbo: «Il cane corre», ma «I cani corrono».",
+        "In linea con le Indicazioni nazionali (riflessione sulla lingua). Niente cronometro e niente punteggi."
       ],
       "practices": [
-        "Far concordare il verbo con il soggetto",
-        "Distinguere uno da tanti",
-        "Scegliere la forma giusta del verbo",
-        "Completare la frase con la forma corretta"
+        "sto con io, sta con uno, stanno con tanti",
+        "stavo con io, stava con uno, stavano con tanti",
+        "ha, va e fa con uno; hanno, vanno e fanno con tanti",
+        "Guardare l’articolo: il gatto, i gatti"
       ],
       "howToPlay": [
-        "Leggi la frase con lo spazio.",
-        "Guarda il soggetto: è uno o tanti?",
-        "Tocca la forma giusta del verbo, con calma."
+        "Leggi la frase e scopri chi arriva: io, uno o tanti.",
+        "Tocca un cancello per appenderlo nella siepe, poi tocca Controlla.",
+        "Nelle impostazioni scegli i verbi e se si vede chi arriva prima di controllare."
       ],
       "learningGoals": [
-        "Riconoscere la concordanza tra il verbo e il soggetto",
-        "Scegliere la forma giusta a seconda di uno o tanti",
-        "Pensata per la classe seconda e allineata alle Indicazioni nazionali, nell'area della riflessione linguistica"
+        "Accordare il verbo con un soggetto singolare o plurale.",
+        "Scegliere tra sto, sta e stanno.",
+        "Notare che il verbo cambia con il numero: corre, corrono."
       ]
     },
     "olive-kind-of.category-attribute.l-1-5-b": {

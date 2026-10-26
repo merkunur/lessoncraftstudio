@@ -3232,6 +3232,29 @@
         "Erottaa genetiivin n ja monikon t.",
         "Kirjoittaa nimen genetiivi."
       ]
+    },
+    "vera-verb-match.be-agreement.l-1-1-c": {
+      "about": [
+        "Jokainen verbi on portti pensasaidassa. Lause on kaistaleella, jossa on aukko, subjektin talo on puutarhapolun alussa, ja telineessä roikkuu kolme porttia: kääntöportti (on), leveä pariportti (ovat) ja pyöreä tähtiovi (olen). Kielioppitehtävä 1. luokalle: verbi taipuu subjektin mukaan.",
+        "Ripusta portti ja paina Tarkista: subjekti lähtee talostaan. Kääntöportista pääsee läpi vain yksi, ja sitten se lukittuu; lauseessa ”Koirat ovat pihalla” väärä portti jättää kaksi koiraa istumaan sen taakse. Pariportti aukeaa vain, kun kaksi tai useampi työntää, joten yksi koira jää odottamaan. Tähtiovi pyörähtää vain tähdelle, joka tarkoittaa minää: ”Minä olen puutarhassa”. Myöhemmin tulevat olin, oli ja olivat, menee ja menevät, ja muut verbit: ”Koira juoksee”, mutta ”Koirat juoksevat”.",
+        "Opetussuunnitelman (OPS 2014) mukainen, äidinkieli ja kirjallisuus. Ei ajanottoa eikä pisteitä."
+      ],
+      "practices": [
+        "minä olen, yksi on, monta ovat",
+        "olin, oli ja olivat menneessä ajassa",
+        "menee ja tekee yhdelle; menevät ja tekevät monelle",
+        "Monikon tunnistaa t-päätteestä: koira, koirat"
+      ],
+      "howToPlay": [
+        "Lue lause ja katso, kuka tulee: minä, yksi vai monta.",
+        "Napauta porttia, niin se ripustetaan pensasaitaan, ja paina sitten Tarkista.",
+        "Asetuksista valitset verbit ja sen, näkyykö tulija jo ennen tarkistusta."
+      ],
+      "learningGoals": [
+        "Taivuttaa verbi yksikön tai monikon subjektin mukaan.",
+        "Valita olen, on ja ovat oikein.",
+        "Huomata, että verbi muuttuu: juoksee, juoksevat."
+      ]
     }
   }
 }

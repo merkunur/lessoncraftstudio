@@ -79,6 +79,10 @@ function seedScript(row) {
     // the shared plank laid across the two books — the bridge the activity is built on
     return `(function(){var t=window['${g}'];if(t&&t.st&&t._pick){t._pick(t.st.answer);t._lay('across');}})();`;
   }
+  if (row.tool === 'verb-gates-activity') {
+    // "The dogs are in the yard": the double gate hung, Check pressed — all three dogs through into the garden, one flower
+    return `(function(){var t=window['${g}'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(2,0);t._render2();t._hang('many');t._check();}})();`;
+  }
   if (row.tool === 'hook-tile-activity') {
     // the first round with the right hook seated: the ball hangs on the dog's peg — the invention at work
     return `(function(){var t=window['${g}'];if(t&&t.st&&t._start){t.FAST=true;t._start(0,0);t._render2();t._seat(t.st.rd.right);}})();`;

@@ -4477,25 +4477,25 @@
     },
     "vera-verb-match.be-agreement.l-1-1-c": {
       "about": [
-        "Vera the vole matches the verb to its subject in short sentences like \"I ___ ready to play,\" \"The dog ___ in the yard,\" and \"The dogs ___ in the yard.\" The child reads each sentence and taps am, is, or are. It's an interactive Grade 1 grammar activity that plays right in the browser, with no account needed.",
-        "The big idea is subject-verb agreement with the verb \"to be\": AM goes with I, IS goes with one (the dog, she, the cat), and ARE goes with many (the dogs, we, they). The same setting shows up with both a singular and a plural subject — \"the dog in the yard\" and \"the dogs in the yard\" — so a child cannot pick by topic. They have to look at WHO or WHAT the sentence is about and how many there are.",
-        "It is aligned to Common Core L.1.1.c — using singular and plural nouns with matching verbs in basic sentences. No timer, no score — just calm, playful practice."
+        "Every verb is a gate in the hedge. The sentence lies on a strip with a gap, the subject's house stands at the start of a garden path, and three gates hang on a rack: a brass turnstile (is), a wooden double gate (are) and a round star door (am). Vera's Verb Match is a Grade 1 grammar activity about making the verb agree with its subject.",
+        "Hang a gate and press Check: the subject walks out of its house. The turnstile lets exactly one through and locks, so in \"The dogs are in the yard\" the wrong gate leaves two dogs sitting behind it. The double gate only opens when two or more push, so a single dog waits alone in front of it. The star door spins only for the star that means I: \"I am ready to play\". Later levels move to was and were, then to has and have, goes and go, and to any verb: \"The dog runs\" but \"The dogs run\".",
+        "It is aligned to Common Core L.1.1.c: use singular and plural nouns with matching verbs in basic sentences. No timer and no score."
       ],
       "practices": [
-        "Use am with the subject I",
-        "Use is with a single subject, like the dog, she, or the cat",
-        "Use are with a plural subject, like the dogs, we, or they",
-        "Decide by the subject of the sentence, not by the rest of it"
+        "Use am with I, is with one, are with more than one",
+        "Use was with one and were with more than one",
+        "Use has, goes and does with one; have, go and do with more than one",
+        "Put the s on the verb for one: the dog runs, the dogs run"
       ],
       "howToPlay": [
-        "Read the sentence and find its subject — is it I, one, or many?",
-        "Tap am, is, or are to fill the blank.",
-        "A warm check confirms the match and offers an easy retry; no timer, no score."
+        "Read the sentence and find who is coming: I, one, or more than one.",
+        "Tap a gate to hang it in the hedge, then press Check and watch the crowd walk through.",
+        "In the settings, choose the verbs (am, is, are up to any verb) and whether to show who is coming before Check."
       ],
       "learningGoals": [
-        "Match the verb to a singular or plural subject — the focus of Common Core L.1.1.c",
-        "Choose correctly between am, is, and are",
-        "Notice how a subject's number changes the verb that fits it"
+        "Make the verb agree with a singular or plural subject.",
+        "Choose between am, is and are, and between was and were.",
+        "Notice that the s goes on the verb for one, but on the noun for many."
       ]
     },
     "vet-diagnosis.word-problems.1-oa-a-1": {

@@ -3260,6 +3260,29 @@
         "Skrive bare apostrof etter s, x og z.",
         "Unngå apostrof foran eieform-s."
       ]
+    },
+    "vera-verb-match.be-agreement.l-1-1-c": {
+      "about": [
+        "Hvert ord er en grind i hekken. Setningen står på en stripe med en luke, skiltet på huset viser hvem det handler om, og på stativet henger tre grinder med adjektivets tre former: et dreiekors (stor), et dreiekors med flagg (stort) og en bred dobbeltgrind (store). En grammatikkøvelse for 1. trinn om hvordan adjektivet bøyes etter ordet det hører til.",
+        "Heng opp en grind og trykk på Sjekk: ordet går ut av huset sitt. Dreiekorset slipper bare én gjennom og låser seg; dreiekorset med flagget snur seg bare for et et-ord, som i «Huset er fint». Dobbeltgrinda åpner seg bare når to eller flere dytter sammen: «Biene er gule». Med feil grind blir noen stående igjen utenfor. Nivå to har pronomen og navn, nivå tre samme bøyning med var.",
+        "I tråd med LK20 (norsk, språket som system og mulighet). Ingen klokke og ingen poeng."
+      ],
+      "practices": [
+        "Et en-ord får grunnformen: bjørnen er stor",
+        "Et et-ord får t: huset er fint",
+        "Flere får e: hundene er snille",
+        "Pronomen følger samme regel: hun er snill, de er raske"
+      ],
+      "howToPlay": [
+        "Les setningen og se hvem det gjelder: et en-ord, et et-ord eller flere.",
+        "Trykk på en grind, så henger den i hekken, og trykk så på Sjekk.",
+        "I innstillingene velger du nivå og om man ser hvem som kommer før man sjekker."
+      ],
+      "learningGoals": [
+        "Bøye adjektivet etter en-ord, et-ord og flertall.",
+        "Kjenne igjen et-ord på formen: gresset, huset, bringebæret.",
+        "Bruke riktig form etter pronomen og navn."
+      ]
     }
   }
 }

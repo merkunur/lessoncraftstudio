@@ -1674,25 +1674,25 @@
     },
     "vera-verb-match.be-agreement.l-1-1-c": {
       "about": [
-        "Mitten im Satz fehlt ein winziges Wort — und dein Kind setzt es mit einem einzigen Tipp wieder ein. Es liest einen kurzen Satz mit einer Lücke, zum Beispiel „Der Hund ___ im Garten.“, und wählt aus genau drei Karten die passende Form aus: bin, ist oder sind. In acht ruhigen Runden vervollständigt es so Satz für Satz.",
-        "Dahinter steckt eine wichtige Entdeckung über die deutsche Sprache: Das Verb „sein“ verändert seine Form, je nachdem, wer oder was im Satz handelt. Bei „ich“ heißt es bin, bei einer einzelnen Person oder Sache (der Hund) heißt es ist, und bei mehreren (die Hunde) heißt es sind. Dein Kind lernt, das Subjekt anzuschauen und die Form des Verbs darauf abzustimmen — eine der ersten grammatischen Regeln, die Kinder bewusst untersuchen.",
-        "Es gibt dabei keine Zeit, keine Punkte und keinen Wettlauf — nur das ruhige Ausprobieren und Wiederlesen. Jeder Satz darf in Ruhe noch einmal angeschaut werden, falsche Antworten sind einfach ein weiterer Versuch. Die Aufgabe orientiert sich am Lehrplan der Grundschule im Bereich „Sprache und Sprachgebrauch untersuchen“."
+        "Jedes Verb ist ein Tor in der Hecke. Der Satz steht auf einem Streifen mit einer Lücke, das Haus des Subjekts steht am Anfang eines Gartenwegs, und am Brett hängen drei Tore: ein Drehkreuz (ist), ein breites Doppeltor (sind) und eine runde Sternentür (bin). Eine Grammatikübung für Klasse 1: Das Verb passt sich dem Subjekt an.",
+        "Häng ein Tor ein und prüfe: Das Subjekt kommt aus seinem Haus. Das Drehkreuz lässt genau einen durch und sperrt; bei „Die Hunde sind laut“ bleiben mit dem falschen Tor zwei Hunde davor sitzen. Das Doppeltor geht nur auf, wenn zwei oder mehr schieben, also wartet ein einzelner Hund davor. Die Sternentür dreht sich nur für den Stern, der ich bedeutet: „Ich bin im Garten“. Spätere Stufen üben war und waren, hat und haben, geht und gehen, und jedes Verb: „Der Hund läuft“, aber „Die Hunde laufen“.",
+        "Passend zum Lehrplan Deutsch (Sprache und Sprachgebrauch untersuchen). Ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "die Personalformen von „sein“ erkennen und unterscheiden: bin – ist – sind",
-        "Subjekt und Verb im Satz aufeinander abstimmen",
-        "Einzahl und Mehrzahl an der passenden Verbform festmachen",
-        "ganze Sätze aufmerksam lesen und sinnvoll vervollständigen"
+        "bin zu ich, ist zu einem, sind zu mehreren",
+        "war zu einem, waren zu mehreren",
+        "hat, geht und macht zu einem; haben, gehen und machen zu mehreren",
+        "Am Artikel erkennen, ob es einer oder mehrere sind: das Mädchen, die Mädchen"
       ],
       "howToPlay": [
-        "Lies den Satz mit der Lücke in Ruhe durch.",
-        "Überlege, ob im Satz „ich“, eine Einzahl oder eine Mehrzahl gemeint ist.",
-        "Tippe auf die passende Form: bin, ist oder sind."
+        "Lies den Satz und finde, wer kommt: ich, einer oder mehrere.",
+        "Tippe ein Tor an, damit es in der Hecke hängt, und tippe dann auf Prüfen.",
+        "In den Einstellungen wählst du die Verben und ob man schon vor dem Prüfen sieht, wer kommt."
       ],
       "learningGoals": [
-        "Dein Kind erkennt, dass sich das Verb „sein“ nach dem Subjekt des Satzes richtet.",
-        "Dein Kind wählt sicher zwischen den Formen „bin“, „ist“ und „sind“.",
-        "Dein Kind liest kurze Sätze genau und ergänzt sie zu vollständigen, richtigen Sätzen."
+        "Das Verb an ein Subjekt in der Einzahl oder Mehrzahl anpassen.",
+        "Zwischen bin, ist und sind und zwischen war und waren wählen.",
+        "Die Endung am Verb verstehen: er läuft, sie laufen."
       ]
     },
     "hazel-word-bridge.joining-words.l-1-1-g": {

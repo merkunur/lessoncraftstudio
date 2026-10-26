@@ -130,7 +130,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 120 | LIVE 2026-10-26 · The Plank Across Two Books | 1 | RL.1.9 | `two-tales.compare.rl-1-9` | two-tales-activity | Two Moons — Compare Two Stories: Same & Different (Grade 1) |
 | 121 | LIVE 2026-10-26 · The Book That Only Opens Where You Send It | 1 | 1.RI.5 | `field-guide.text-features.1-ri-5` | field-guide-activity | Detective Dewey's Field Guide — Find Facts with Text Features |
 | 122 | LIVE 2026-10-26 · The Hook Tile | 1 | L.1.1.b | `hattie-whose-is-it.possessive.l-1-1-b` | hattie-whose-is-it-activity | Hattie's Whose-Is-It — Possessive Nouns (Grade 1) |
-| 123 |  | 1 | L.1.1.c | `vera-verb-match.be-agreement.l-1-1-c` | vera-verb-match-activity | Vera's Verb Match — Am, Is, or Are? (Grade 1) |
+| 123 | LIVE 2026-10-26 · The Verb Gates | 1 | L.1.1.c | `vera-verb-match.be-agreement.l-1-1-c` | vera-verb-match-activity | Vera's Verb Match — Am, Is, or Are? (Grade 1) |
 | 124 |  | 1 | L.1.1.d | `pronoun.case.l-1-1-d` | pronoun-activity | The Borrowed Hat — Personal Pronouns (Grade 1) |
 | 125 |  | 1 | L.1.1.e | `tense.past-present-future.l-1-1-e` | tense-activity | The Clock Tower — Verb Tense: Past, Present & Future (Grade 1) |
 | 126 |  | 1 | L.1.1.g | `hazel-word-bridge.joining-words.l-1-1-g` | hazel-word-bridge-activity | Hazel's Word Bridge — Joining Words (Grade 1) |

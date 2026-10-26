@@ -3116,6 +3116,29 @@
         "Ymmärtää, että todiste tulee tekstistä ja että pelkkä tekstissä oleminen ei vielä todista.",
         "Vastata tarinaa koskeviin kysymyksiin tarinan yksityiskohdilla."
       ]
+    },
+    "bea-two-bookshelves.story-or-fact.rl-1-5": {
+      "about": [
+        "Kirjatoukka Bealla on kaksi hyllyä, jotka koettelevat kirjaa sen mukaan, miten se on tehty. Nauhahylly pujottaa nauhan sivujen läpi ensimmäisestä viimeiseen: vain tarinan, jossa on alku, keskikohta ja loppu, voi sitoa rusetille. Ravistelyhylly ravistaa sivut sekaisin: tietokirjasta saa silti selvää, koska jokainen sivu on oma kokonaisuutensa. Bean kaksi kirjahyllyä on lukutehtävä kertovien tekstien ja tietotekstien erottamiseen.",
+        "Jokainen kirja aukeaa kolmelle sivulle. Kun «Pompun kadonnut lapanen» ravistellaan väärässä hyllyssä, se alkaa lopusta («Lopulta hän löysi lapasen oman kotinsa portailta.») ja hyppää takaisin pöydälle, mutta «Miten mehiläiset tekevät hunajaa» ei välitä: «Mehiläiset imevät makeaa mettä kukista.» toimii millä sivulla tahansa. Kohdassa «Sama aihe» tarina ja tietokirja kertovat samasta asiasta, ja «Miten Surri pääsi kuuhun» näyttää, että nimi voi kuulostaa tietokirjalta ja kirja voi silti olla tarina.",
+        "Tehtävä tukee perusopetuksen opetussuunnitelman (OPS 2014) lukemisen ja tekstien ymmärtämisen tavoitteita. Bean tietokirjat kertovat aiheesta; ohjeet ja elinkiertokirjat etenevät kyllä järjestyksessä. Ei ajanottoa eikä pisteitä."
+      ],
+      "practices": [
+        "Lukea sisäsivut ja erottaa tarina tietokirjasta",
+        "Huomata, että tarina tarvitsee alun, keskikohdan ja lopun",
+        "Huomata, että tietokirjan jokainen sivu on oma kokonaisuutensa",
+        "Olla päättämättä aiheen, kuvan tai nimen perusteella"
+      ],
+      "howToPlay": [
+        "Lue, mitä Bea pyytää, ja napauta kirjaa, niin se aukeaa. Pyöreä nuppi ravistaa sivut.",
+        "Kun kirja on auki, napauta oikeaa hyllyä, paina sitten Tarkista ja katso, miten hylly koettelee kirjaa.",
+        "Asetuksista valitset kirjat: Bea pyytää, Sama aihe tai Täytä molemmat hyllyt. Sivut voivat myös olla auki pöydällä koko luokan nähtävinä."
+      ],
+      "learningGoals": [
+        "Erottaa tarinoita kertovat kirjat tietoa antavista kirjoista.",
+        "Selittää ero: tarina etenee alusta loppuun, tietokirja kertoo joka sivulla jonkin tosiasian.",
+        "Päättää lukemalla, ei aiheen, kuvan tai nimen perusteella."
+      ]
     }
   }
 }

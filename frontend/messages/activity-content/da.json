@@ -3116,6 +3116,29 @@
         "Forstå, at et bevis kommer fra teksten, og at det ikke er nok, at noget står i teksten.",
         "Svare på spørgsmål om en historie med detaljer fra historien."
       ]
+    },
+    "bea-two-bookshelves.story-or-fact.rl-1-5": {
+      "about": [
+        "Bogormen Bea har to hylder, der prøver en bog efter, hvordan den er bygget. Båndhylden trækker et bånd gennem siderne, fra den første til den sidste: kun en historie med en begyndelse, en midte og en slutning kan bindes sammen med en sløjfe. Rystehylden ryster siderne rundt: en faktabog giver stadig mening, fordi hver side står for sig selv. Beas to bogreoler er en læseøvelse i at skelne fortællende tekster fra faktatekster.",
+        "Hver bog åbner sig på tre sider. Rystes «Hoppes forsvundne luffe» på den forkerte hylde, begynder den med slutningen («Til sidst fandt hun den på sin egen trappe.») og hopper tilbage på bordet, mens «Sådan laver bier honning» klarer sig: «Bier drikker sød nektar fra blomster.» kan læses på en hvilken som helst side. I «Samme emne» handler en historie og en faktabog om det samme, og «Sådan kom Summe til månen» viser, at en titel kan lyde som en faktabog og alligevel være en historie.",
+        "Aktiviteten er i tråd med Fælles Mål for læsning i indskolingen. Beas faktabøger fortæller om et emne; vejledninger og bøger om livscyklusser har derimod en rækkefølge. Ingen tidtagning og ingen point."
+      ],
+      "practices": [
+        "Læse siderne indeni for at skelne en historie fra en faktabog",
+        "Se, at en historie har brug for sin begyndelse, midte og slutning",
+        "Se, at hver side i en faktabog står for sig selv",
+        "Ikke vælge efter emne, billede eller titel"
+      ],
+      "howToPlay": [
+        "Læs, hvad Bea beder om, og tryk på en bog for at åbne den. Den runde knap ryster siderne.",
+        "Tryk på den rigtige hylde, mens bogen er åben, tryk så på Tjek, og se hylden prøve bogen.",
+        "I indstillingerne vælger du bøger: Bea spørger, Samme emne eller Fyld begge hylder. Siderne kan også ligge åbne på bordet for hele klassen."
+      ],
+      "learningGoals": [
+        "Skelne bøger, der fortæller en historie, fra bøger, der giver fakta.",
+        "Forklare forskellen: en historie går fra begyndelsen til slutningen, en faktabog fortæller noget sandt på hver side.",
+        "Afgøre det ved at læse, ikke efter emne, billede eller titel."
+      ]
     }
   }
 }

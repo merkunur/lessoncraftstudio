@@ -125,7 +125,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 115 | LIVE 2026-10-25 · The Thread That Snaps | 1 | RF.1.4.a | `mending-basket.mend-page.rf-1-4-a` | mending-basket-activity | Granny's Mending Basket — Read for Meaning (Grade 1) |
 | 116 | LIVE 2026-10-25 · The Lantern That Carries a Lesson | 1 | RL.1.2 | `juniper-story-lantern.central-message.rl-1-2` | juniper-story-lantern-activity | Juniper's Story Lantern — What's the Lesson? (Grade 1) |
 | 117 | LIVE 2026-10-26 · The Lens That Finds, Then Focuses | 1 | RL.1.3 | `marlo-magnifier.trait-evidence.rl-1-3` | marlo-magnifier-activity | Marlo's Magnifier — Show Me the Proof (Grade 1) |
-| 118 |  | 1 | RL.1.5 | `bea-two-bookshelves.story-or-fact.rl-1-5` | bea-two-bookshelves-activity | Bea's Two Bookshelves — Story Book or Fact Book? (Grade 1) |
+| 118 | LIVE 2026-10-26 · The Shaker Shelf and the Ribbon Shelf | 1 | RL.1.5 | `bea-two-bookshelves.story-or-fact.rl-1-5` | bea-two-bookshelves-activity | Bea's Two Bookshelves — Story Book or Fact Book? (Grade 1) |
 | 119 |  | 1 | RL.1.6 | `point-of-view.who-told.rl-1-6` | point-of-view-activity | Lumen's Lighthouse Windows — Point of View (Grade 1) |
 | 120 |  | 1 | RL.1.9 | `two-tales.compare.rl-1-9` | two-tales-activity | Two Moons — Compare Two Stories: Same & Different (Grade 1) |
 | 121 |  | 1 | 1.RI.5 | `field-guide.text-features.1-ri-5` | field-guide-activity | Detective Dewey's Field Guide — Find Facts with Text Features |

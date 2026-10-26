@@ -3555,25 +3555,25 @@
     },
     "bea-two-bookshelves.story-or-fact.rl-1-5": {
       "about": [
-        "A lagartinha Bea tem duas estantes cheias de livros e adora arrumar tudo direitinho. Numa estante ficam as histórias inventadas, como \"O dragão que não sabia dormir\"; na outra ficam os livros de verdade, como \"Tudo sobre os insetos\". A Bea pede uma ajudinha: entre três capas, a criança precisa achar a história ou o livro de verdade. E o melhor é que dá para descobrir só olhando a capa — não precisa ler o livro inteiro para saber que tipo de livro é aquele.",
-        "Nesta atividade, a criança percebe que os livros vêm em tipos diferentes: uns contam histórias inventadas e outros ensinam coisas reais, e cada um tem o seu jeitinho. Para reconhecer o tipo, ela usa as pistas da capa: \"era uma vez\", bichos que falam e personagens de faz de conta apontam para uma história; \"Tudo sobre…\", \"Como…?\" e coisas de verdade apontam para um livro informativo. É um passo importante para começar a ler com esperteza — saber que tipo de livro está na mão ajuda a criança a entender melhor e a escolher os livros de que mais gosta.",
-        "A atividade não pede cadastro nem login e não tem cronômetro, pontuação nem competição — cada criança vai no seu ritmo, sem pressa e sem medo de errar. Quando a resposta não é a certa, a Bea dá uma dica gentil e convida a tentar de novo, num clima leve e acolhedor. O trabalho de leitura segue a BNCC para o 1º ano: reconhecer o tipo de livro, percebendo se é uma história inventada ou um livro de verdade."
+        "A Bea, a minhoca leitora, tem duas estantes que testam um livro do jeito que ele é feito. A estante da fita passa uma fita pelas páginas, da primeira à última: só uma história, com começo, meio e fim, pode ser amarrada com um laço. A estante que sacode mistura as páginas: um livro informativo continua fazendo sentido, porque cada página se lê sozinha. As duas estantes da Bea é uma atividade de leitura para diferenciar histórias de textos informativos.",
+        "Cada livro se abre em três páginas. Sacudido na estante errada, \"A luva perdida do Téo\" sai com o fim primeiro (\"Por fim, ele a encontrou na porta da sua própria casa.\") e volta para a mesa, enquanto \"Como as abelhas fazem mel?\" nem liga: \"As abelhas bebem o néctar doce das flores.\" faz sentido em qualquer página. Em \"Mesmo assunto\", uma história e um livro informativo falam da mesma coisa, e \"Como a Zuzu chegou à Lua\" mostra que um título pode parecer de livro informativo e ser uma história.",
+        "A atividade está alinhada à BNCC para a leitura e a compreensão de textos. Os livros informativos da Bea apresentam um assunto; livros que ensinam a fazer algo ou contam o ciclo de vida seguem, sim, uma ordem. Sem cronômetro e sem pontos."
       ],
       "practices": [
-        "Diferenciar uma história inventada de um livro de verdade.",
-        "Usar as pistas da capa para reconhecer o tipo de livro.",
-        "Perceber que cada tipo de livro tem um jeito e uma finalidade.",
-        "Desenvolver o gosto e a autonomia na escolha de livros."
+        "Ler as páginas de dentro para diferenciar uma história de um livro informativo",
+        "Perceber que uma história precisa de começo, meio e fim",
+        "Perceber que cada página de um livro informativo se lê sozinha",
+        "Não decidir pelo assunto, pela figura ou pelo título"
       ],
       "howToPlay": [
-        "Leia a capa de cada livro: o título e o pedacinho de texto.",
-        "Procure as pistas — \"era uma vez\" e bichos que falam são de história; \"Tudo sobre…\" e coisas de verdade são de livro informativo.",
-        "Toque no livro certo e veja a Bea comemorar com você!"
+        "Leia o que a Bea pede e toque em um livro para abrir. O botão redondo sacode as páginas.",
+        "Com o livro aberto, toque na estante certa, depois toque em Verificar e veja a estante testar o livro.",
+        "Nas configurações você escolhe os livros: A Bea pede, Mesmo assunto ou Encher as duas estantes. As páginas também podem ficar abertas na mesa para a turma toda."
       ],
       "learningGoals": [
-        "Eu sei diferenciar uma história de um livro de verdade.",
-        "Eu uso as pistas da capa para descobrir o tipo do livro.",
-        "Eu escolho os meus livros sabendo que tipo de livro eu quero ler."
+        "Diferenciar livros que contam histórias de livros que trazem informações.",
+        "Explicar a diferença: uma história vai do começo ao fim; um livro informativo ensina uma coisa de verdade em cada página.",
+        "Decidir lendo, e não pelo assunto, pela figura ou pelo título."
       ]
     },
     "picture-story.read.rl-k-1": {

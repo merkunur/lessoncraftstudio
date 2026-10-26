@@ -526,25 +526,25 @@
     },
     "bea-two-bookshelves.story-or-fact.rl-1-5": {
       "about": [
-        "Bea a deux étagères, et elle a besoin d'un coup de main pour ranger ses livres. À chaque tour, votre enfant découvre trois livres avec un titre et une petite phrase de présentation, qu'il peut écouter à voix haute d'un simple appui sur le bouton son. Il tape ensuite le livre que Bea réclame : un récit qui raconte une histoire inventée, ou un documentaire qui donne de vraies informations.",
-        "Peu à peu, votre enfant apprend à distinguer un récit d'un texte documentaire et à reconnaître le type d'un livre. Il repère les indices qui font la différence : des personnages et une aventure imaginaire d'un côté, de vraies choses expliquées de l'autre. C'est une vraie compétence de lecture et de compréhension de l'écrit, utile bien au-delà de l'école.",
-        "Ici, pas de chronomètre et pas de points : votre enfant avance à son rythme, sans pression. L'activité s'appuie sur les programmes officiels du CP."
+        "Bea, le petit ver qui adore lire, a deux étagères qui testent un livre selon la façon dont il est fait. L’étagère au ruban passe un ruban dans les pages, de la première à la dernière : seule une histoire, avec un début, un milieu et une fin, peut être attachée par un nœud. L’étagère qui secoue mélange les pages : un documentaire veut toujours dire quelque chose, car chaque page se lit toute seule. Les deux étagères de Bea est une activité de lecture pour distinguer les histoires des documentaires.",
+        "Chaque livre s’ouvre sur trois pages. Secoué sur la mauvaise étagère, « La moufle perdue de Lapin » commence par la fin (« Enfin, il l’a retrouvée devant sa propre porte. ») et retourne sur le bureau, alors que « Comment les abeilles font le miel » n’est pas gêné : « Les abeilles boivent le nectar sucré des fleurs. » se lit à n’importe quelle page. Avec « Même sujet », une histoire et un documentaire parlent de la même chose, et « Comment Zézette est allée sur la Lune » montre qu’un titre peut ressembler à un documentaire et être une histoire.",
+        "L’activité est alignée sur les programmes officiels de lecture et de compréhension. Les documentaires de Bea présentent un sujet ; les livres qui expliquent une fabrication ou la vie d’un animal suivent, eux, un ordre. Sans chronomètre et sans points."
       ],
       "practices": [
-        "Distinguer un récit d'un texte documentaire.",
-        "Reconnaître le type d'un livre.",
-        "Repérer si un livre raconte une histoire inventée ou donne de vraies infos.",
-        "Lire et comprendre un titre et une courte présentation."
+        "Lire les pages intérieures pour distinguer une histoire d’un documentaire",
+        "Voir qu’une histoire a besoin de son début, de son milieu et de sa fin",
+        "Voir que chaque page d’un documentaire se lit toute seule",
+        "Ne pas décider d’après le sujet, l’image ou le titre"
       ],
       "howToPlay": [
-        "Regarde les trois livres.",
-        "Lis ou écoute leur petite présentation.",
-        "Tape le livre que Bea demande : une histoire, ou un documentaire."
+        "Lis ce que demande Bea, puis touche un livre pour l’ouvrir. Le bouton rond secoue ses pages.",
+        "Livre ouvert, touche l’étagère qui lui va, puis appuie sur Vérifier et regarde l’étagère le tester.",
+        "Dans les réglages, choisis les livres : Bea demande, Même sujet ou Remplir les deux étagères. Les pages intérieures peuvent aussi rester ouvertes sur le bureau pour toute la classe."
       ],
       "learningGoals": [
-        "Votre enfant apprend à distinguer un récit d'un documentaire.",
-        "Votre enfant reconnaît le type d'un livre.",
-        "Votre enfant repère les indices qui montrent le genre d'un texte."
+        "Distinguer les livres qui racontent une histoire des livres qui donnent des informations.",
+        "Expliquer la différence : une histoire va du début à la fin ; un documentaire donne une vraie information à chaque page.",
+        "Décider en lisant, pas d’après le sujet, l’image ou le titre."
       ]
     },
     "wake-up-pip.retell-story.rl-k-2": {

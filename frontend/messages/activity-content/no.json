@@ -3144,6 +3144,29 @@
         "Forstå at et bevis kommer fra teksten, og at det ikke er nok at noe står i teksten.",
         "Svare på spørsmål om en historie med detaljer fra historien."
       ]
+    },
+    "bea-two-bookshelves.story-or-fact.rl-1-5": {
+      "about": [
+        "Bokormen Bea har to hyller som prøver en bok etter hvordan den er bygd. Båndhylla trekker et bånd gjennom sidene, fra den første til den siste: bare en fortelling med begynnelse, midt og slutt kan knytes sammen med en sløyfe. Ristehylla rister om sidene: en faktabok gir fortsatt mening, fordi hver side står for seg selv. Beas to bokhyller er en leseøvelse i å skille fortellinger fra faktatekster.",
+        "Hver bok åpner seg på tre sider. Ristes «Hoppes borteblitte vott» i feil hylle, begynner den med slutten («Til slutt fant hun den på sin egen trapp.») og hopper tilbake til bordet, mens «Slik lager bier honning» klarer seg: «Bier drikker søt nektar fra blomster.» kan leses på hvilken som helst side. I «Samme tema» handler en fortelling og en faktabok om det samme, og «Slik kom Surre til månen» viser at en tittel kan høres ut som en faktabok og likevel være en fortelling.",
+        "Aktiviteten er i tråd med LK20 (kompetansemål etter 2. trinn) for lesing. Beas faktabøker forteller om et tema; bruksanvisninger og bøker om livssykluser har derimot en rekkefølge. Ingen tidtaking og ingen poeng."
+      ],
+      "practices": [
+        "Lese sidene inni for å skille en fortelling fra en faktabok",
+        "Se at en fortelling trenger begynnelsen, midten og slutten sin",
+        "Se at hver side i en faktabok står for seg selv",
+        "Ikke velge etter tema, bilde eller tittel"
+      ],
+      "howToPlay": [
+        "Les hva Bea spør etter, og trykk på en bok for å åpne den. Den runde knappen rister sidene.",
+        "Trykk på riktig hylle mens boka er åpen, trykk så på Sjekk, og se hylla prøve boka.",
+        "I innstillingene velger du bøker: Bea spør, Samme tema eller Fyll begge hyllene. Sidene kan også ligge åpne på bordet for hele klassen."
+      ],
+      "learningGoals": [
+        "Skille bøker som forteller, fra bøker som gir fakta.",
+        "Forklare forskjellen: en fortelling går fra begynnelsen til slutten, en faktabok forteller noe sant på hver side.",
+        "Avgjøre ved å lese, ikke etter tema, bilde eller tittel."
+      ]
     }
   }
 }

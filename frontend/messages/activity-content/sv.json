@@ -3756,6 +3756,29 @@
         "Förstå att ett bevis kommer från texten, och att det inte räcker att något står i texten.",
         "Svara på frågor om en berättelse med detaljer ur berättelsen."
       ]
+    },
+    "bea-two-bookshelves.story-or-fact.rl-1-5": {
+      "about": [
+        "Bokmasken Bea har två hyllor som prövar en bok efter hur den är byggd. Bandhyllan drar ett band genom sidorna, från den första till den sista: bara en berättelse, med en början, en mitt och ett slut, kan knytas ihop med en rosett. Skakhyllan skakar om sidorna: en faktabok går ändå att förstå, eftersom varje sida står för sig själv. Beas två bokhyllor är en läsövning om att skilja berättelser från faktatexter.",
+        "Varje bok öppnas på tre sidor. Skakas «Nillas borttappade vante» i fel hylla börjar den med slutet («Till slut hittade hon den på sin egen trappa.») och hoppar tillbaka till bordet, medan «Hur bin gör honung» klarar sig: «Bin dricker söt nektar från blommor.» går att läsa på vilken sida som helst. I «Samma ämne» handlar en berättelse och en faktabok om samma sak, och «Hur Surr kom till månen» visar att en titel kan låta som en faktabok och ändå vara en berättelse.",
+        "Aktiviteten följer Lgr22:s centrala innehåll om berättande texter och faktatexter i åk 1–3. Beas faktaböcker berättar om ett ämne; instruktioner och böcker om livscykler har däremot en ordning. Ingen tidtagning och inga poäng."
+      ],
+      "practices": [
+        "Läsa sidorna inuti för att skilja en berättelse från en faktabok",
+        "Se att en berättelse behöver sin början, mitt och sitt slut",
+        "Se att varje sida i en faktabok står för sig själv",
+        "Inte välja efter ämne, bild eller titel"
+      ],
+      "howToPlay": [
+        "Läs vad Bea vill ha och tryck på en bok för att öppna den. Den runda knappen skakar sidorna.",
+        "Tryck på rätt hylla medan boken är öppen, tryck sedan på Kontrollera och se hyllan pröva boken.",
+        "I inställningarna väljer du böcker: Bea frågar, Samma ämne eller Fyll båda hyllorna. Sidorna kan också ligga öppna på bordet för hela klassen."
+      ],
+      "learningGoals": [
+        "Skilja böcker som berättar från böcker som ger fakta.",
+        "Förklara skillnaden: en berättelse går från början till slut, en faktabok berättar något sant på varje sida.",
+        "Avgöra genom att läsa, inte efter ämne, bild eller titel."
+      ]
     }
   }
 }

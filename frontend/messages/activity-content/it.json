@@ -3572,25 +3572,25 @@
     },
     "bea-two-bookshelves.story-or-fact.rl-1-5": {
       "about": [
-        "Bea, il bruco dei libri, ha due scaffali speciali: su uno mette le storie inventate e sull’altro i libri che parlano di cose vere, e chiede ai bambini di leggere le copertine per capire dove va ciascun libro.",
-        "L’attività aiuta a riconoscere se un libro racconta una storia o dà informazioni vere, a distinguere il testo narrativo da quello informativo e a leggere le copertine con attenzione.",
-        "Pensata per la classe prima e ispirata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggio."
+        "Bea, il vermetto che ama i libri, ha due scaffali che mettono alla prova un libro per come è fatto. Lo scaffale col nastro fa passare un nastro tra le pagine, dalla prima all’ultima: solo una storia, con un inizio, uno svolgimento e una fine, si può legare con un fiocco. Lo scaffale che scuote mescola le pagine: un libro di informazioni ha ancora senso, perché ogni pagina si legge da sola. I due scaffali di Bea è un’attività di lettura per distinguere le storie dai testi informativi.",
+        "Ogni libro si apre su tre pagine. Scossa sullo scaffale sbagliato, «La manopola perduta di Tito» comincia dalla fine («Alla fine l’ha ritrovata proprio davanti alla sua porta.») e torna sul banco, mentre «Le api e il miele» non cambia: «Le api bevono il nettare dolce dei fiori.» si capisce su qualsiasi pagina. In «Stesso argomento» una storia e un libro di informazioni parlano della stessa cosa, e «Come Zizì arrivò sulla Luna» mostra che un titolo può sembrare informativo ed essere una storia.",
+        "L’attività è in linea con le Indicazioni nazionali per la lettura e la comprensione. I libri di informazioni di Bea presentano un argomento; i testi che spiegano come si fa qualcosa o il ciclo di vita seguono invece un ordine. Senza cronometro e senza punteggi."
       ],
       "practices": [
-        "Distinguere una storia da un libro di informazioni",
-        "Riconoscere i tipi di testo",
-        "Leggere le copertine dei libri",
-        "Capire di che cosa parla un libro"
+        "Leggere le pagine interne per distinguere una storia da un libro di informazioni",
+        "Capire che una storia ha bisogno di inizio, svolgimento e fine",
+        "Capire che ogni pagina di un libro di informazioni si legge da sola",
+        "Non decidere in base all’argomento, all’immagine o al titolo"
       ],
       "howToPlay": [
-        "Leggi le copertine dei tre libri",
-        "Capisci se ognuno è una storia o un libro di veri",
-        "Tocca il libro giusto per aiutare Bea"
+        "Leggi che cosa chiede Bea e tocca un libro per aprirlo. Il pulsante tondo scuote le pagine.",
+        "Con il libro aperto, tocca lo scaffale giusto, poi premi Controlla e guarda lo scaffale che lo mette alla prova.",
+        "Nelle impostazioni scegli i libri: Bea chiede, Stesso argomento oppure Riempire i due scaffali. Le pagine possono anche restare aperte sul banco per tutta la classe."
       ],
       "learningGoals": [
-        "Distinguere storia e informazioni",
-        "Riconoscere i tipi di testo",
-        "Leggere per capire il genere"
+        "Distinguere i libri che raccontano storie da quelli che danno informazioni.",
+        "Spiegare la differenza: una storia va dall’inizio alla fine; un libro di informazioni insegna una cosa vera in ogni pagina.",
+        "Decidere leggendo, non in base all’argomento, all’immagine o al titolo."
       ]
     },
     "picture-story.read.rl-k-1": {

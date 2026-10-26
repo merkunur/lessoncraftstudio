@@ -599,25 +599,25 @@
     },
     "bea-two-bookshelves.story-or-fact.rl-1-5": {
       "about": [
-        "Bea the bookworm keeps two bookshelves — one for make-believe story books and one for fact books about real things — and the child helps her shelve them right. Three covers appear, each with a title and a one-line blurb, such as 'The Sleepy Dragons' (two dragons look for a nap), 'All About Real Bugs' (where bugs live), and 'Diggers and Cranes' (how real machines lift and dig). It's a Grade 1 reading activity that runs in any browser with no account.",
-        "Bea asks for either a story book or a fact book, and the child taps the cover that fits. The blurbs are the clue: dragons looking for a nap and a goblin hunting socks are pretend, while bones in your body and how bees make honey are real. Because every round mixes a true book in with the pretend ones, the child has to read each blurb and decide make-believe or real — the first step in telling literature from informational text.",
-        "It is aligned to Common Core RL.1.5 — explaining major differences between books that tell stories and books that give information. No timer, no score — just calm, playful practice."
+        "Bea the bookworm has two shelves that test a book the way it is made. The ribbon shelf threads a ribbon through a book's pages from the first to the last: only a story, with a beginning, a middle and an end, can be tied with a bow. The shaker shelf shakes the pages into a new order: a fact book still makes sense, because every page stands on its own. Bea's Two Bookshelves is a Grade 1 reading activity about telling stories from books that give information.",
+        "Every book opens to three pages. Shaken onto the wrong shelf, \"Bunny's Lost Mitten\" comes out ending first (\"At last she found it on her own front step.\") and hops back to the desk, while \"How Bees Make Honey\" shrugs it off: \"Bees drink sweet nectar from flowers.\" reads just as well on any page. In Same topic, a story and a fact book share a subject, so the topic can never decide, and \"How Buzz Got to the Moon\" shows that a title can sound like a fact book and still be a story.",
+        "It is aligned to Common Core RL.1.5: explain major differences between books that tell stories and books that give information. Bea's fact books are all-about books; how-to and life-cycle books do go in order, and the shelves teach the main difference at Grade 1. No timer and no score."
       ],
       "practices": [
-        "Reading a book's title and blurb to decide what kind of book it is",
-        "Telling a make-believe story from a book of real facts",
-        "Choosing the story book, or the fact book, that Bea asks for",
-        "Noticing clues like dragons and goblins versus bones, bees, and machines"
+        "Read the inside pages to tell a story from a fact book",
+        "Notice that a story needs its beginning, middle and end",
+        "Notice that each page of a fact book stands on its own",
+        "Look past the topic, the picture and the title"
       ],
       "howToPlay": [
-        "Read the three book covers on Bea's shelf, with their titles and blurbs.",
-        "Tap the book Bea asks for — a make-believe story, or a book of real facts.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Read Bea's ask, then tap a book to open it. The round knob shakes its pages.",
+        "With the book open, tap the shelf it belongs on, then press Check and watch the shelf test it.",
+        "Choose the books in the settings: Bea asks, Same topic, or Fill both shelves. Inside pages can also lie open on the desk for the whole class."
       ],
       "learningGoals": [
-        "Tell story books apart from fact (informational) books — the focus of Common Core RL.1.5.",
-        "Use a short blurb to decide whether a book is make-believe or real.",
-        "Build early awareness of genre that supports both reading for fun and reading to learn."
+        "Tell books that tell stories from books that give information, the focus of Common Core RL.1.5.",
+        "Explain the difference: a story goes from a beginning to an end; a fact book teaches a true fact on every page.",
+        "Decide by reading, not by the topic, the picture or the title."
       ]
     },
     "bingo-word-hunt.read-match.rf-k-3-d": {

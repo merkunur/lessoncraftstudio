@@ -105,4 +105,4 @@ ONE native + Grade-1 reading reviewer over all 11 locales.
 - **Renders read** at 360, 704 / 768 and 1024. They found the blur defect, the parked lens covering the story, the "found" light in the fog state, and the laceless shoe.
 
 ## Live
-LIVEVERIFY
+`live-verify-marlo-magnifier.js` on production: **52 pass, 0 fail**. All 11 pages return 200 with wrapper 9.861. Real pointer in en, de, sv and fi at 1366 and 390: the in-story detail lights only its own sentence with the locale's hint, then the proof turns the ring gold with the seal. The iframe grows with the card. The first run fell inside the deploy window (the edge still served the old page) and was rerun once.

@@ -1854,25 +1854,26 @@
     },
     "field-guide.text-features.1-ri-5": {
       "about": [
-        "Detective Dewey's field guide sends children to find a fact using the book's own tools — a table of contents, headings, a glossary, a labeled diagram, an index, and a menu, all about playful made-up creatures with parts like the snood, frell, and tarn — and the child taps the part of the text that holds the answer. This interactive Grade 1 reading activity runs in the browser on any device, with nothing to install and no account.",
-        "The big idea is that nonfiction books are built to help you locate information without reading every page. To find which part of a creature 'helps it glow,' the child reads the glosses and picks the labeled part that glows, rather than guessing. Later rounds ask the child to choose the right feature for a job — the glossary tells a word's meaning, the contents shows the topic, the index gives the page — so they learn what each text feature is actually for.",
-        "It is aligned to Common Core 1.RI.5 — knowing and using text features such as headings, tables of contents, glossaries, and icons to locate key facts. No timer, no score — just calm, playful practice."
+        "Detective Dewey's field guide cannot be flipped through. The only way into it is through its own tools: tap a line in the contents and the book opens at that page, tap a heading and its section unfolds, tap a bold word and the book turns to Words to Know. The creatures in the book (the Gribbet, the Wuzzle and the Nim) are made up, so no child can answer from what they already know. The Field Guide is a Grade 1 reading activity about using text features to find a fact.",
+        "Send the book to the wrong line and it opens the wrong page, in plain view: asked how the Gribbet can glow, a child who taps \"Snoud: all about swimming\" lands on a page about swimming. The fact is always the page's second sentence (\"At night the frell glows, so the Gribbet can find its way.\"), so the child reads the page instead of tapping the first line. There are also labelled pictures of real animals, and a closed book with tabs and a screen book with buttons for choosing the right tool.",
+        "It is aligned to Common Core 1.RI.5: know and use text features to locate key facts. No timer and no score."
       ],
       "practices": [
-        "Reading a table of contents, heading, glossary, index, and labeled diagram to find a fact",
-        "Matching a question to the spot in the text that answers it, instead of guessing",
-        "Knowing what each text feature does — meaning, topic, or page number",
-        "Using captions and labels on a diagram to learn what a part does"
+        "Use a table of contents to find the right chapter",
+        "Open the section under the right heading",
+        "Look up a word in Words to Know and in the index",
+        "Read labels and captions on a picture",
+        "Know which part of a book does which job"
       ],
       "howToPlay": [
-        "Read the question, like 'Which part helps it glow?'",
-        "Read the text feature on the page — the contents, glossary, diagram, or index.",
-        "Tap the part that holds the answer; try again as needed, with no timer and no score."
+        "Read Dewey's question on his card. Then use the book: tap a line, a heading, a bold word, a label, a tab or a button.",
+        "When the book opens at a page, read it and tap the sentence that answers. It slides onto Dewey's card.",
+        "Choose the tools in the settings: Contents & headings, Words to Know & Index, Picture labels or Which tool?. Help can underline the key words after a miss or from the start."
       ],
       "learningGoals": [
-        "Use text features to locate key facts in an informational text — the focus of Common Core 1.RI.5",
-        "Choose the right feature for the job — glossary for meaning, contents for topic, index for page",
-        "Build the nonfiction navigation skills that make research reading possible"
+        "Use text features to locate key facts, the focus of Common Core 1.RI.5.",
+        "Read a line, a heading or a meaning before choosing it, not just match a word.",
+        "Know which part of a book answers which kind of question."
       ]
     },
     "fix-it-corner.missing-part.1-oa-d-8": {

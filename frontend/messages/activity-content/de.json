@@ -962,25 +962,26 @@
     },
     "field-guide.text-features.1-ri-5": {
       "about": [
-        "Detektiv Dewey steht vor einem dicken Sachbuch und sucht eine ganz bestimmte Information — und er rät nicht einfach drauflos. Er benutzt die Werkzeuge, die das Buch selbst mitbringt: das Inhaltsverzeichnis, die Überschriften, die Bildunterschriften und die Seite mit den wichtigen Wörtern. Dein Kind hilft ihm dabei, mit genau diesen Werkzeugen die richtige Stelle zu finden.",
-        "Das ist die große Idee dahinter: Sachbücher und Sachtexte sind nicht zum Durchlesen von vorne bis hinten gemacht — sie haben eingebaute Werkzeuge, die beim Finden von Informationen helfen. Wer wissen will, in welchem Kapitel etwas über ein Tier steht, schaut nicht jede Seite durch, sondern schlägt im Inhaltsverzeichnis nach. Wer ein schwieriges Wort nicht kennt, sucht es bei den wichtigen Wörtern. Das ist eine Lesestrategie — und sie ist etwas anderes als „die Antwort im Text suchen“: Hier geht es darum, sich im Buch zurechtzufinden und gezielt dorthin zu navigieren, wo die Information steht.",
-        "Damit dein Kind wirklich die Werkzeuge liest und nicht aus dem Gedächtnis rät, sind die Tiere in den Rätseln ausgedacht — erfundene Namen, die es noch nie gehört hat. So muss es die Überschrift oder das Inhaltsverzeichnis tatsächlich benutzen. Die Aktivität ist ganz ohne Zeitdruck und ohne Punkte, und sie ist auf den Bereich „Lesen – mit Texten und Medien umgehen“ im Lehrplan der Grundschule abgestimmt."
+        "In Detektiv Deweys Naturbuch kann man nicht blättern. Es öffnet sich nur mit seinen eigenen Werkzeugen: Tippst du eine Zeile im Inhaltsverzeichnis an, schlägt das Buch diese Seite auf, eine Überschrift klappt ihren Abschnitt auf, und ein fett gedrucktes Wort bringt dich zu „Wichtige Wörter“. Die Tiere im Buch (der Gribbet, der Wuzzle und der Nim) sind ausgedacht, also kann niemand die Antwort schon wissen. Das Naturbuch ist eine Leseübung zum Finden von Informationen mit den Werkzeugen eines Sachbuchs.",
+        "Wer die falsche Zeile wählt, landet sichtbar auf der falschen Seite: Bei der Frage, wie der Gribbet leuchten kann, öffnet „Snoud: alles übers Schwimmen“ eine Seite übers Schwimmen. Die Antwort steht immer im zweiten Satz der Seite („Nachts leuchtet der Frell, damit der Gribbet seinen Weg findet.“), also liest das Kind die Seite, statt die erste Zeile anzutippen. Dazu kommen Bilder echter Tiere mit Schildern sowie ein zugeklapptes Buch mit Reitern und ein Bildschirm-Buch mit Knöpfen, bei denen es um das richtige Werkzeug geht.",
+        "Die Übung folgt dem Lehrplan zum Umgang mit Sachtexten. Ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "Im Inhaltsverzeichnis nachschauen, in welchem Kapitel eine Information steht.",
-        "Eine Überschrift gezielt lesen, um die passende Stelle zu finden.",
-        "Bei den wichtigen Wörtern die Bedeutung eines Wortes finden.",
-        "Eine Bildunterschrift lesen, um zu verstehen, was ein Bild zeigt."
+        "Mit dem Inhaltsverzeichnis das richtige Kapitel finden",
+        "Den Abschnitt unter der richtigen Überschrift öffnen",
+        "Ein Wort bei „Wichtige Wörter“ und im Register nachschlagen",
+        "Schilder und Texte an einem Bild lesen",
+        "Wissen, welcher Teil eines Buches wofür da ist"
       ],
       "howToPlay": [
-        "Lies die Frage des Detektivs — was soll gefunden werden?",
-        "Schau dir das Werkzeug des Buches an: Inhaltsverzeichnis, Überschrift oder Bildunterschrift.",
-        "Tippe die Stelle an, die zur Frage passt."
+        "Lies Deweys Frage auf seiner Karte. Dann nutze das Buch: Tippe eine Zeile, eine Überschrift, ein fett gedrucktes Wort, ein Schild, einen Reiter oder einen Knopf an.",
+        "Schlägt das Buch eine Seite auf, lies sie und tippe den Satz an, der antwortet. Er wandert auf Deweys Karte.",
+        "In den Einstellungen wählst du die Werkzeuge: Inhaltsverzeichnis & Überschriften, Wichtige Wörter & Register, Bilder mit Schildern oder Welches Werkzeug?. Die Hilfe kann die wichtigen Wörter nach einem Fehler oder von Anfang an unterstreichen."
       ],
       "learningGoals": [
-        "Dein Kind kann das Inhaltsverzeichnis nutzen, um das richtige Kapitel zu finden.",
-        "Dein Kind kann eine Überschrift und eine Bildunterschrift gezielt lesen, um eine Information zu finden.",
-        "Dein Kind kann erklären, dass ein Sachbuch Werkzeuge zum Nachschlagen hat, statt eine Antwort zu raten."
+        "Mit den Werkzeugen eines Sachbuchs gezielt Informationen finden.",
+        "Eine Zeile, eine Überschrift oder eine Bedeutung lesen, bevor man sie wählt.",
+        "Wissen, welcher Teil eines Buches welche Frage beantwortet."
       ]
     },
     "gabby-sayings.idioms.l-3-5-a": {

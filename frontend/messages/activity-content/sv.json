@@ -3825,6 +3825,30 @@
         "Visa «likadant» och «olika» med en sida ur varje berättelse.",
         "Se att en halv upplevelse inte är hela upplevelsen."
       ]
+    },
+    "field-guide.text-features.1-ri-5": {
+      "about": [
+        "Detektiv Deweys fältbok går inte att bläddra i: bara bokens egna verktyg öppnar den. Tryck på en rad i innehållet så slår boken upp den sidan, tryck på en rubrik så vecklas avsnittet ut, tryck på ett fetstilt ord så slår boken upp ordlistan. Djuren i boken (Gribbet, Wuzzle och Nim) är påhittade, så ingen kan veta svaret i förväg. Fältboken är en läsövning om att hitta fakta med hjälp av en faktaboks verktyg.",
+        "Väljer man fel rad öppnas fel sida, så att alla ser det: på frågan hur Gribbet kan lysa öppnar ”Snoud: allt om att simma” en sida om att simma. Svaret står alltid i sidans andra mening (”På natten lyser frellen, så att Gribbet hittar vägen.”), så barnet läser sidan i stället för att trycka på första raden. Det finns också bilder av riktiga djur med etiketter, en stängd bok med flikar och en skärmbok med knappar, där det gäller att välja rätt verktyg.",
+        "Övningen följer Lgr22 om att läsa faktatexter. Ingen tidtagning och inga poäng."
+      ],
+      "practices": [
+        "Hitta rätt kapitel med hjälp av innehållet",
+        "Öppna avsnittet under rätt rubrik",
+        "Slå upp ett ord i ordlistan och i registret",
+        "Läsa etiketter och bildtexter på en bild",
+        "Veta vad varje del av en bok är till för"
+      ],
+      "howToPlay": [
+        "Läs Deweys fråga på hans kort. Använd sedan boken: tryck på en rad, en rubrik, ett fetstilt ord, en etikett, en flik eller en knapp.",
+        "När boken slår upp en sida läser du den och trycker på meningen som svarar. Den glider upp på Deweys kort.",
+        "I inställningarna väljer du verktyg: Innehåll och rubriker, Ordlista och register, Bilder med etiketter eller Vilket verktyg?. Hjälpen kan stryka under de viktiga orden efter ett fel eller från början."
+      ],
+      "learningGoals": [
+        "Hitta fakta med hjälp av en faktaboks verktyg.",
+        "Läsa en rad, en rubrik eller en betydelse innan man väljer.",
+        "Veta vilken del av en bok som svarar på vilken sorts fråga."
+      ]
     }
   }
 }

@@ -3213,6 +3213,30 @@
         "Vise «likt» og «forskjellig» med en side fra hver historie.",
         "Se at en halv opplevelse ikke er hele opplevelsen."
       ]
+    },
+    "field-guide.text-features.1-ri-5": {
+      "about": [
+        "Detektiv Deweys feltbok kan du ikke bla i: bare bokas egne verktøy åpner den. Trykk på en linje i innholdet, så slår boka opp den siden, trykk på en overskrift, så brettes avsnittet ut, og trykk på et uthevet ord, så slår boka opp ordlista. Dyrene i boka (Gribbet, Wuzzle og Nim) er oppdiktet, så ingen kan vite svaret på forhånd. Feltboka er en leseøvelse i å finne fakta med verktøyene i en fagbok.",
+        "Velger du feil linje, åpner boka feil side, så alle ser det: på spørsmålet om hvordan Gribbet kan lyse, åpner «Snoud: alt om å svømme» en side om å svømme. Svaret står alltid i den andre setningen på siden («Om natten lyser frellen, så Gribbet finner veien.»), så barnet leser siden i stedet for å trykke på første linje. Det er også bilder av ekte dyr med lapper, ei lukket bok med faner og ei skjermbok med knapper, der du skal velge riktig verktøy.",
+        "Øvelsen følger LK20 om å lese fagtekster. Ingen tidtaking og ingen poeng."
+      ],
+      "practices": [
+        "Finne riktig kapittel med innholdet",
+        "Åpne avsnittet under riktig overskrift",
+        "Slå opp et ord i ordlista og i registeret",
+        "Lese lapper og bildetekster på et bilde",
+        "Vite hva hver del av ei bok er til for"
+      ],
+      "howToPlay": [
+        "Les spørsmålet til Dewey på kortet hans. Bruk så boka: trykk på en linje, en overskrift, et uthevet ord, en lapp, en fane eller en knapp.",
+        "Når boka slår opp en side, leser du den og trykker på setningen som svarer. Den glir opp på kortet til Dewey.",
+        "I innstillingene velger du verktøy: Innhold og overskrifter, Ordliste og register, Bilder med lapper eller Hvilket verktøy?. Hjelpen kan streke under de viktige ordene etter en feil eller fra start."
+      ],
+      "learningGoals": [
+        "Finne fakta med verktøyene i en fagbok.",
+        "Lese en linje, en overskrift eller en betydning før du velger.",
+        "Vite hvilken del av ei bok som svarer på hvilken type spørsmål."
+      ]
     }
   }
 }

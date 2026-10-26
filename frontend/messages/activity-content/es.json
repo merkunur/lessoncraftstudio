@@ -541,25 +541,26 @@
     },
     "field-guide.text-features.1-ri-5": {
       "about": [
-        "El detective Dewey tiene enfrente un libro informativo y necesita encontrar un dato muy específico… pero no se pone a leerlo de la primera a la última página, ni adivina. Usa las partes que el libro mismo trae: el índice, los títulos, el pie de imagen y la página de palabras importantes. En cada ronda, su hijo/a lo ayuda a llegar justo a donde está la información. Por ejemplo, si la pregunta es «¿Qué capítulo explica cómo hace para brillar?», hay que leer el índice y tocar «Capítulo 2: los frells».",
-        "Esa es la gran idea: los libros informativos no están hechos para leerse de corrido, sino para consultarse. Traen herramientas incorporadas que sirven para localizar información. Quien quiere saber en qué capítulo se habla de un tema no revisa hoja por hoja: va al índice. Quien no conoce una palabra la busca en el glosario. Eso se llama buscar y manejar información, y es distinto de entender un texto: aquí no se trata de comprender de qué habla la lectura, sino de saber moverse dentro del libro y llegar al lugar exacto.",
-        "Para que su hijo/a de verdad lea las partes del libro y no conteste de memoria, los animales de las rondas son inventados: se llaman snouds, frells y tarns, nombres que nunca ha oído. Así no puede adivinar por lo que ya sabe del mundo; tiene que leer el índice o el título de verdad. La actividad pertenece al campo formativo «Lenguajes», al ámbito de Estudio, y corresponde al trabajo de 2.º de primaria. Sin cronómetro y sin puntos: su hijo/a puede explorar con toda calma."
+        "La guía del detective Dewey no se puede hojear: solo sus propias herramientas la abren. Toca una línea del índice y el libro se abre en esa página, toca un título y su parte se despliega, toca una palabra en negritas y el libro pasa al glosario. Los animales del libro (el Gribbet, el Wuzzle y el Nim) son inventados, así que nadie puede saber la respuesta de antemano. La guía es una actividad de lectura para aprender a encontrar información con las partes de un libro informativo.",
+        "Una línea equivocada abre la página equivocada, a la vista de todos: si la pregunta es cómo puede brillar el Gribbet, «Snoud: para nadar» abre una página sobre nadar. La respuesta siempre es la segunda oración de la página («De noche, el frell brilla para que el Gribbet encuentre su camino.»), así que el niño lee la página en vez de tocar la primera línea. También hay imágenes de animales reales con etiquetas, un libro cerrado con pestañas y un libro de la pantalla con botones, para elegir la herramienta correcta.",
+        "La actividad está alineada con el programa oficial de lectura de textos informativos. Sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Consultar el índice para saber en qué capítulo está un tema",
-        "Leer un título para encontrar la parte del libro que sirve",
-        "Buscar en el glosario lo que quiere decir una palabra",
-        "Leer el pie de imagen para entender lo que muestra un dibujo"
+        "Usar el índice para encontrar el capítulo correcto",
+        "Abrir la parte que está bajo el título correcto",
+        "Buscar una palabra en el glosario",
+        "Leer las etiquetas y los textos de una imagen",
+        "Saber para qué sirve cada parte de un libro"
       ],
       "howToPlay": [
-        "Lea con su hijo/a la pregunta del detective: ¿qué hay que encontrar?",
-        "Vean juntos la parte del libro que aparece: el índice, un título, el glosario o el pie de imagen",
-        "El niño toca el renglón que responde a la pregunta; si no queda a la primera, puede volver a leer con calma"
+        "Lee la pregunta de Dewey en su tarjeta. Luego usa el libro: toca una línea, un título, una palabra en negritas, una etiqueta, una pestaña o un botón.",
+        "Cuando el libro se abra en una página, léela y toca la oración que responde. Pasa a la tarjeta de Dewey.",
+        "En la configuración eliges las herramientas: Índice y títulos, Glosario, Imágenes con etiquetas o ¿Qué herramienta?. La ayuda puede subrayar las palabras clave después de un error o desde el principio."
       ],
       "learningGoals": [
-        "Su hijo/a usa el índice de un libro informativo para encontrar el capítulo que necesita",
-        "Lee títulos, glosarios y pies de imagen para localizar una información",
-        "Descubre que un libro informativo trae partes para consultarlo, en lugar de adivinar"
+        "Encontrar información con las partes de un libro informativo.",
+        "Leer una línea, un título o un significado antes de elegirlo.",
+        "Saber qué parte de un libro responde qué tipo de pregunta."
       ]
     },
     "gabby-sayings.idioms.l-3-5-a": {

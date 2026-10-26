@@ -3185,6 +3185,30 @@
         "Vise «ens» og «forskelligt» med en side fra hver historie.",
         "Se, at en halv oplevelse ikke er hele oplevelsen."
       ]
+    },
+    "field-guide.text-features.1-ri-5": {
+      "about": [
+        "Detektiv Deweys naturbog kan man ikke bladre i: kun bogens egne værktøjer åbner den. Tryk på en linje i indholdet, så slår bogen den side op, tryk på en overskrift, så folder afsnittet sig ud, og tryk på et ord med fed skrift, så slår bogen ordlisten op. Dyrene i bogen (Gribbet, Wuzzle og Nim) er opdigtede, så ingen kan kende svaret på forhånd. Naturbogen er en læseøvelse i at finde fakta med en fagbogs værktøjer.",
+        "Vælger man den forkerte linje, åbner bogen den forkerte side, så alle kan se det: til spørgsmålet om, hvordan Gribbet kan lyse, åbner ”Snoud: alt om at svømme” en side om at svømme. Svaret står altid i sidens anden sætning (”Om natten lyser frellen, så Gribbet kan finde vej.”), så barnet læser siden i stedet for at trykke på første linje. Der er også billeder af rigtige dyr med etiketter, en lukket bog med faner og en skærmbog med knapper, hvor man skal vælge det rigtige værktøj.",
+        "Øvelsen følger Fælles Mål for læsning af faglitterære tekster. Ingen tidtagning og ingen point."
+      ],
+      "practices": [
+        "Finde det rigtige kapitel med indholdet",
+        "Åbne afsnittet under den rigtige overskrift",
+        "Slå et ord op i ordlisten og i stikordsregistret",
+        "Læse etiketter og billedtekster på et billede",
+        "Vide, hvad hver del af en bog bruges til"
+      ],
+      "howToPlay": [
+        "Læs Deweys spørgsmål på hans kort. Brug så bogen: tryk på en linje, en overskrift, et ord med fed skrift, en etiket, en fane eller en knap.",
+        "Når bogen slår en side op, læser du den og trykker på den sætning, der svarer. Den glider op på Deweys kort.",
+        "I indstillingerne vælger du værktøjer: Indhold og overskrifter, Ordliste og stikordsregister, Billeder med etiketter eller Hvilket værktøj?. Hjælpen kan understrege de vigtige ord efter en fejl eller fra start."
+      ],
+      "learningGoals": [
+        "Finde fakta med en fagbogs værktøjer.",
+        "Læse en linje, en overskrift eller en betydning, før man vælger.",
+        "Vide, hvilken del af en bog der svarer på hvilken slags spørgsmål."
+      ]
     }
   }
 }

@@ -3185,6 +3185,30 @@
         "Perustella «samaa» ja «eri» sivulla kummastakin tarinasta.",
         "Huomata, että puolikas kokemus ei ole koko kokemus."
       ]
+    },
+    "field-guide.text-features.1-ri-5": {
+      "about": [
+        "Etsivä Deweyn luontokirjaa ei voi selata: vain kirjan omat apuvälineet avaavat sen. Kun napautat sisällyksen riviä, kirja aukeaa sille sivulle, otsikko avaa oman kappaleensa ja lihavoitu sana vie sanastoon. Kirjan eläimet (Gribbet, Wuzzle ja Nimu) ovat keksittyjä, joten kukaan ei voi tietää vastausta etukäteen. Luontokirja on lukutehtävä tiedon etsimisestä tietokirjan apuvälineillä.",
+        "Väärä rivi avaa väärän sivun kaikkien nähden: kun kysytään, miten Gribbet hehkuu, rivi ”Snoud: kaikki uimisesta” avaa sivun uimisesta. Vastaus on aina sivun toisessa lauseessa (”Yöllä frell hehkuu, niin että Gribbet löytää tiensä.”), joten lapsi lukee sivun eikä vain napauta ensimmäistä riviä. Mukana on myös kuvia oikeista eläimistä nimilappuineen sekä suljettu kirja välilehtineen ja näyttökirja nappeineen, joissa valitaan oikea apuväline.",
+        "Tehtävä noudattaa opetussuunnitelman (OPS 2014) tavoitteita tietotekstien lukemisesta. Ei ajanottoa eikä pisteitä."
+      ],
+      "practices": [
+        "Oikean luvun etsiminen sisällyksestä",
+        "Oikean otsikon alla olevan kappaleen avaaminen",
+        "Sanan etsiminen sanastosta ja hakemistosta",
+        "Kuvan nimilappujen ja kuvatekstien lukeminen",
+        "Tieto siitä, mihin kirjan eri osat ovat"
+      ],
+      "howToPlay": [
+        "Lue Deweyn kysymys hänen kortistaan. Käytä sitten kirjaa: napauta riviä, otsikkoa, lihavoitua sanaa, nimilappua, välilehteä tai nappia.",
+        "Kun kirja aukeaa jollekin sivulle, lue se ja napauta lausetta, joka vastaa. Se liukuu Deweyn korttiin.",
+        "Asetuksista valitset apuvälineet: Sisällys ja otsikot, Sanasto ja hakemisto, Kuvat ja nimilaput tai Mikä apuväline?. Apu voi alleviivata tärkeät sanat virheen jälkeen tai alusta asti."
+      ],
+      "learningGoals": [
+        "Tiedon etsiminen tietokirjan apuvälineillä.",
+        "Rivin, otsikon tai merkityksen lukeminen ennen valintaa.",
+        "Tieto siitä, mikä kirjan osa vastaa millaiseen kysymykseen."
+      ]
     }
   }
 }

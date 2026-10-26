@@ -3549,25 +3549,26 @@
     },
     "field-guide.text-features.1-ri-5": {
       "about": [
-        "Detective Dewey apre la sua guida naturalistica su creature mai viste e invita il bambino a fare il detective delle pagine, seguendo gli indizi che ogni strumento del libro sa offrire.",
-        "L’attività allena a usare gli strumenti del testo — l’indice, il glossario, la didascalia e il titolo — per cercare e trovare le informazioni, imparando a leggere non solo per capire, ma anche per ricercare.",
-        "Pensata per la classe seconda e ispirata alle Indicazioni nazionali, è senza registrazione, senza timer e senza punteggio."
+        "La guida del detective Dewey non si può sfogliare: la aprono solo i suoi strumenti. Tocca una riga dell’indice e il libro si apre a quella pagina, tocca un titolo e la sua parte si apre, tocca una parola in grassetto e il libro passa al glossario. Gli animali del libro (il Gribbet, il Wuzzle e il Nim) sono inventati, quindi nessuno può sapere la risposta in anticipo. La guida è un’attività di lettura per imparare a trovare un’informazione con gli strumenti di un testo informativo.",
+        "Una riga sbagliata apre la pagina sbagliata, sotto gli occhi di tutti: se la domanda è come fa il Gribbet a brillare, «Snoud: per nuotare» apre una pagina sul nuoto. La risposta è sempre la seconda frase della pagina («Di notte il frell brilla, così il Gribbet trova la strada.»), così il bambino legge la pagina invece di toccare la prima riga. Ci sono anche immagini di animali veri con etichette, un libro chiuso con le linguette e un libro sullo schermo con i pulsanti, per scegliere lo strumento giusto.",
+        "L’attività segue le Indicazioni nazionali per la lettura di testi informativi. Senza cronometro e senza punti."
       ],
       "practices": [
-        "Usare l’indice e il glossario",
-        "Leggere le didascalie e i titoli",
-        "Cercare le informazioni nel testo",
-        "Capire a cosa serve ogni strumento del libro"
+        "Usare l’indice per trovare il capitolo giusto",
+        "Aprire la parte sotto il titolo giusto",
+        "Cercare una parola nel glossario e nell’indice analitico",
+        "Leggere etichette e didascalie di un’immagine",
+        "Sapere a che cosa serve ogni parte di un libro"
       ],
       "howToPlay": [
-        "Leggi lo strumento del libro",
-        "Cerca l’informazione giusta",
-        "Toccala"
+        "Leggi la domanda di Dewey sul suo biglietto. Poi usa il libro: tocca una riga, un titolo, una parola in grassetto, un’etichetta, una linguetta o un pulsante.",
+        "Quando il libro si apre a una pagina, leggila e tocca la frase che risponde. Scivola sul biglietto di Dewey.",
+        "Nelle impostazioni scegli gli strumenti: Indice e titoli, Glossario e indice analitico, Immagini con etichette o Quale strumento?. L’aiuto può sottolineare le parole importanti dopo un errore o dall’inizio."
       ],
       "learningGoals": [
-        "Usare gli strumenti del testo",
-        "Cercare informazioni in una pagina",
-        "Capire a cosa servono indice, glossario e didascalia"
+        "Trovare un’informazione con gli strumenti di un testo informativo.",
+        "Leggere una riga, un titolo o un significato prima di sceglierlo.",
+        "Sapere quale parte di un libro risponde a quale tipo di domanda."
       ]
     },
     "bea-two-bookshelves.story-or-fact.rl-1-5": {

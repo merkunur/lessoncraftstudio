@@ -72,4 +72,4 @@ ONE native + Grade-1 reading reviewer over all 11 locales (compact dump of every
 - **Renders read** at 360 and 704 (de), 1024 (fi, en) and the preview card.
 
 ## Live
-LIVEVERIFY: pending.
+`live-verify-two-tales.js` on production: **52 pass, 0 fail**. All 11 pages return 200 with wrapper 9.864. Real pointer in en, de, sv and fi at 1366 and 390 (SAME, round 0): a wrong plank across → the walk, the tip and the locale's first hint; the answer across → the plank lies flat, the proof page is marked in the book, and the success line names the plank. The iframe grows with the card. The first run fell inside the deploy window (the edge still served the old embed) and was rerun once.

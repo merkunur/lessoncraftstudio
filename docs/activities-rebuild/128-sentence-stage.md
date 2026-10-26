@@ -84,3 +84,6 @@ Kept, with reason: nl *gakt* (the standard Dutch word for a goose). The frozen d
 My own render read found two things:
 - the six hens ran four to a row under the curtains at 360 (now three to a row);
 - a level-5 miss on a false word in first place left the curtain shut (it now acts the false thing).
+
+## Live
+`live-verify-sentence-stage.js` on production, 2026-10-26: **52 pass, 0 fail.** All 11 pages return 200. en, de, sv and fi at 1366 and 390 embed sentence-stage-activity.html at wrapper 9.873. With a real pointer, two swapped words freeze the show (the place flickers, the stage is frozen, and the hint names the word), and the sentence then plays to the end with the bow, every block green and the success line. The iframe grows with the card. The first run came minutes after the deploy and still saw the old iframe in the page cache; once the page served 9.873 (checked with curl), the second run was clean.

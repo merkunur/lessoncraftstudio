@@ -703,25 +703,25 @@
     },
     "pronoun.case.l-1-1-d": {
       "about": [
-        "A Hattie, uma lebre de orelhas compridas que cuida de uma chapelaria cheia de chapéus coloridos, convida a criança a ajudar cada cliente a escolher as palavras certas. Nesta atividade de Língua Portuguesa para o 3º ano, alinhada à BNCC, cada frase tem um espaço em branco, e a criança precisa decidir qual pronome pessoal encaixa ali — quem faz a ação, quem recebe a ação ou de quem é alguma coisa.",
-        "O jogo trabalha os pronomes pessoais conforme a função na frase, um conteúdo do eixo Análise linguística/semiótica. A criança lê frases simples e do dia a dia, como “Eu corro todo dia”, “A mãe me chamou” ou “Essa é minha bola”, e escolhe entre dois pronomes o que deixa a frase correta. Aos poucos ela percebe a diferença entre o caso reto (eu, ele, nós), o caso oblíquo (me, te, nos) e o possessivo (meu, seu, nossa).",
-        "Tudo acontece no seu ritmo, sem cronômetro, sem pontos e sem competição. Se a criança escolher o pronome que não combina, a Hattie mostra com calma qual seria o certo, e a frase pode ser lida de novo em voz alta. O objetivo é observar como a mesma pessoa muda de forma dependendo do papel que ela ocupa na frase, construindo essa noção com tranquilidade e confiança."
+        "Na chapelaria da Hattie cada pessoa é um prisma de madeira com três faces: quem faz a ação (ele), quem recebe a ação (o) e de quem é a coisa (dele). Uma placa diz quem a lacuna substitui. A criança coloca um prisma na lacuna e gira até a face certa ficar para cima. Uma atividade de gramática para o 1º ano sobre os pronomes.",
+        "Ao verificar, a frase solta a sua flecha ou o seu barbante. Em “Esta é a bola vermelha dele” um barbante sai da bola e se amarra na face com o nó; com a pessoa ou a face errada, ele escorrega. Depois vêm eu, me, meu e nós, nos, nosso (com a armadilha “a Lia e eu”), trocar um nome por um prisma, amarrar um pronome aos nomes, separar nomes e dele, dela, deles.",
+        "Alinhada à BNCC (Língua Portuguesa, análise linguística). Sem cronômetro e sem pontos."
       ],
       "practices": [
-        "Reconhecer os pronomes pessoais do caso reto (eu, ele, nós) como quem faz a ação.",
-        "Identificar os pronomes do caso oblíquo (me, te, nos) como quem recebe a ação.",
-        "Perceber os pronomes possessivos (meu, seu, nossa) para mostrar de quem é algo.",
-        "Escolher o pronome certo conforme a função da palavra na frase."
+        "Escolher ele, ela ou eles para a pessoa da placa",
+        "Usar dele, dela e deles depois da coisa",
+        "Usar eu e me junto a outro nome",
+        "Descobrir que nome um pronome substitui"
       ],
       "howToPlay": [
-        "Leia com calma a frase e observe o espaço em branco onde falta o pronome.",
-        "Pense se ele indica quem faz a ação, quem recebe a ação ou de quem é alguma coisa.",
-        "Toque no pronome correto entre os dois e leia a frase completa em voz alta."
+        "Leia a placa: quem a lacuna substitui?",
+        "Toque num prisma para colocá-lo na lacuna, gire com o botão redondo e toque em Verificar.",
+        "Nas configurações, escolha o nível e se as faces mostram seus sinais."
       ],
       "learningGoals": [
-        "Usar o pronome pessoal correto de acordo com a função que ele exerce na frase.",
-        "Diferenciar caso reto, caso oblíquo e possessivo em frases do dia a dia.",
-        "Ler frases completas com atenção ao sentido e à concordância dos pronomes."
+        "Usar pronomes pessoais para uma ou mais pessoas.",
+        "Escolher a forma pela função na frase.",
+        "Ligar um pronome ao nome que ele substitui."
       ]
     },
     "sentence-clinic.fix-it.l-2-1": {

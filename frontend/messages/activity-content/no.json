@@ -3283,6 +3283,29 @@
         "Kjenne igjen et-ord på formen: gresset, huset, bringebæret.",
         "Bruke riktig form etter pronomen og navn."
       ]
+    },
+    "pronoun.case.l-1-1-d": {
+      "about": [
+        "I Hatties hattebutikk er hver person et treprisme med tre sider: den som gjør noe (han), den det skjer med (ham) og den som eier noe (hans). Et navneskilt viser hvem luka står for. Barnet legger et prisme i luka og snur det til riktig side er opp. En grammatikkøvelse for 1. trinn om personlige og eiendomspronomen.",
+        "Når barnet trykker på Sjekk, skyter setningen pilen sin. I «Pappa så ham i parken» flyr pilen fra verbet og setter seg i siden med blinken; med feil person eller feil side faller pilen ned. Senere kommer jeg, meg, min-mitt-mine og vi, oss, vår, å bytte et navn med et prisme, å knytte ord til navn, å sortere navn og hans, hennes, deres.",
+        "I tråd med LK20 (norsk, språket som system og mulighet). Ingen klokke og ingen poeng."
+      ],
+      "practices": [
+        "Velge han, hun eller de for personen på skiltet",
+        "Velge han, ham eller hans etter oppgaven i setningen",
+        "Bøye min, mitt og mine etter tingen",
+        "Finne navnet et pronomen står for"
+      ],
+      "howToPlay": [
+        "Les skiltet: hvem står luka for?",
+        "Trykk på et prisme så det ligger i luka, snu det med den runde knappen og trykk på Sjekk.",
+        "I innstillingene velger du nivå og om sidene viser tegnene sine."
+      ],
+      "learningGoals": [
+        "Bruke personlige pronomen om én eller flere.",
+        "Velge formen etter oppgaven i setningen.",
+        "Knytte et pronomen til navnet det står for."
+      ]
     }
   }
 }

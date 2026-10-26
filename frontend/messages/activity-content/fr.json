@@ -1036,25 +1036,25 @@
     },
     "pronoun.case.l-1-1-d": {
       "about": [
-        "Hattie, un lièvre malicieux, tient une petite boutique de chapeaux. Dans chaque phrase, il manque un mot : votre enfant regarde deux mots et touche celui qui va vraiment dans la phrase.",
-        "Le jeu montre en douceur qu’un même personnage change de forme selon son rôle : « Il court » quand quelqu’un fait l’action, « Maman me voit » quand il arrive quelque chose à quelqu’un, et « C’est mon ballon » quand on dit à qui c’est. Ici, « Il court » va, mais « Le court » ne va pas ; « Maman me voit » va, mais « Maman je voit » ne va pas.",
-        "L’activité est libre, interactive et pensée pour le CE2, dans le domaine « Étude de la langue ». Sans chronomètre et sans points, votre enfant essaie, se trompe sans conséquence et recommence tranquillement, en développant son intuition avant de nommer les règles des programmes officiels."
+        "Dans la boutique de Hattie, chaque personne est un prisme en bois à trois faces : celle qui fait l’action (il), celle qui la reçoit (le) et celle qui possède (son). Une étiquette dit qui le trou remplace. L’enfant pose un prisme dans le trou et le tourne jusqu’à la bonne face. Une activité de grammaire pour le CP sur les pronoms personnels et les déterminants possessifs.",
+        "Vérifier lance la flèche de la phrase. Dans « Papa le voit au parc », la flèche part du verbe et se plante dans la face avec la cible ; dans « C’est son ballon rouge », une ficelle part du ballon et se noue à la face avec le nœud. Mauvaise personne ou mauvaise face : la flèche retombe. Ensuite viennent je, me, mon et nous, notre, remplacer un prénom, relier un pronom aux prénoms, ranger les prénoms et à moi, à elle, à eux.",
+        "Conforme aux programmes officiels du cycle 2 (étude de la langue). Pas de chronomètre, pas de score."
       ],
       "practices": [
-        "Choisir, entre deux formes, le pronom qui va dans la phrase.",
-        "Repérer qui fait l’action dans la phrase.",
-        "Dire à qui appartient quelque chose avec mon, ton, notre.",
-        "Développer son intuition de la bonne forme, avant d’apprendre les règles par cœur."
+        "Choisir il, elle ou ils pour la personne de l’étiquette",
+        "Choisir il, le ou son selon le rôle dans la phrase",
+        "Accorder son, sa, ses avec la chose",
+        "Retrouver le prénom qu’un pronom remplace"
       ],
       "howToPlay": [
-        "Lis la phrase à trou et regarde les deux mots proposés.",
-        "Touche le mot qui va dans la phrase.",
-        "Hattie te montre si ça va — sinon, réessaie tranquillement."
+        "Lis l’étiquette : qui le trou remplace-t-il ?",
+        "Touche un prisme pour le poser dans le trou, tourne-le avec le bouton rond, puis touche Vérifier.",
+        "Dans les réglages, choisis le niveau et si les faces montrent leurs signes."
       ],
       "learningGoals": [
-        "Utiliser le bon pronom selon son rôle dans la phrase.",
-        "Distinguer qui fait l’action et à qui il arrive quelque chose.",
-        "Exprimer la possession avec mon, ton, notre."
+        "Utiliser les pronoms personnels pour une ou plusieurs personnes.",
+        "Choisir la forme selon le rôle dans la phrase.",
+        "Relier un pronom au prénom qu’il remplace."
       ]
     },
     "sentence-builder.build-a-sentence.l-1-1-j": {

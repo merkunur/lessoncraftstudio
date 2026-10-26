@@ -3255,6 +3255,29 @@
         "Genkende et-ord på formen: græsset, huset, hindbærret.",
         "Bruge den rigtige form efter stedord og navne."
       ]
+    },
+    "pronoun.case.l-1-1-d": {
+      "about": [
+        "I Hatties hattebutik er hver person et træprisme med tre sider: den, der gør noget (han), den, det sker for (ham), og den, der ejer noget (hans). Et navneskilt viser, hvem hullet står for. Barnet lægger et prisme i hullet og drejer det, til den rigtige side vender op. En grammatikøvelse til 1. klasse om personlige og ejestedord.",
+        "Når barnet trykker på Tjek, skyder sætningen sin pil. I ”Far så ham i parken” flyver pilen fra udsagnsordet og sætter sig i siden med skiven; med den forkerte person eller side falder pilen ned. Senere kommer jeg, mig, min-mit-mine og vi, os, vores, at bytte et navn ud med et prisme, at binde ord til navne, at sortere navne og hans, hendes, deres.",
+        "I tråd med Fælles Mål for dansk (sprog og sprogbrug). Intet ur og ingen point."
+      ],
+      "practices": [
+        "Vælge han, hun eller de til personen på skiltet",
+        "Vælge han, ham eller hans efter opgaven i sætningen",
+        "Bøje min, mit og mine efter tingen",
+        "Finde det navn, et stedord står for"
+      ],
+      "howToPlay": [
+        "Læs skiltet: hvem står hullet for?",
+        "Tryk på et prisme, så det ligger i hullet, drej det med den runde knap, og tryk på Tjek.",
+        "I indstillingerne vælger du niveau, og om siderne viser deres tegn."
+      ],
+      "learningGoals": [
+        "Bruge personlige stedord om en eller flere.",
+        "Vælge formen efter opgaven i sætningen.",
+        "Forbinde et stedord med det navn, det står for."
+      ]
     }
   }
 }

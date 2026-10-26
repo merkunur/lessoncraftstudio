@@ -3575,25 +3575,25 @@
     },
     "pronoun.case.l-1-1-d": {
       "about": [
-        "At Hattie's Lost-and-Found Hat Shop, a sentence shows up with a gap — \"___ ran to the den\" or \"Pat saw ___ at the park\" — and the child taps the pronoun that fits its job: he, him, or his. It's an interactive Grade 1 grammar activity that runs in the browser with no account.",
-        "The big idea is that a pronoun changes shape depending on what it is doing: he when it is the one acting, him when the action is done to it, his when it shows belonging — and the same for I/me/my, they/them/their, and we/us. The wrong choice is always the same pronoun in the wrong job, so a child cannot pick by 'which word sounds familiar'; they have to read the sentence and decide whether the pronoun is doing, receiving, or owning. Compound subjects like 'Sam and ___' add the trickiest case.",
-        "It is aligned to Common Core L.1.1.d — using personal pronouns correctly. No timer, no score — just calm, playful practice."
+        "In Hattie's hat shop every person is a wooden prism with three faces: the doer (he), the one the action lands on (him) and the owner (his). A name block says who the gap stands for, with a thread down to the gap. The child lays a prism in the gap and turns it until the right face is up. The Borrowed Hat is a Grade 1 grammar activity about personal and possessive pronouns.",
+        "Check fires the sentence's action arrow. In \"Pat saw him at the park\" the arrow flies from saw and lands in the face with the target; in \"He ran to the den\" it flies out of the face with the bow; in \"That is his red ball\" a string from ball ties to the face with the knot. The wrong person or the wrong face lets the arrow drop. Later levels add I, me, my and we, us, our (with the \"Sam and I\" trap), swapping a name for a prism, tying a pronoun to the names it stands for, sorting names into he, she and they, and owner words on their own: mine, hers, theirs.",
+        "It is aligned to Common Core L.1.1.d (use personal, possessive and indefinite pronouns); this activity practises personal and possessive pronouns. No timer and no score."
       ],
       "practices": [
-        "Choosing he, him, or his to match a pronoun's job in the sentence",
-        "Telling a doing (subject) pronoun apart from a receiving (object) one",
-        "Picking the right pronoun in compound phrases like 'Sam and I'",
-        "Using possessive pronouns to show belonging"
+        "Choose he, she or they for the person on the name block",
+        "Use he when the person does it, him when it happens to them, his when it is theirs",
+        "Use I and me correctly next to another name",
+        "Tell which name a pronoun stands for"
       ],
       "howToPlay": [
-        "Read the sentence with the blank in it.",
-        "Tap the pronoun that fits the job — the one doing, the one it is done to, or the one it belongs to.",
-        "A warm check confirms a correct fit and offers an easy retry, with no timer and no score."
+        "Read the name block: who does the gap stand for?",
+        "Tap a prism to lay it in the gap and press the round button to turn it, then press Check.",
+        "In the settings, choose the level and whether the faces show their bow, target and knot."
       ],
       "learningGoals": [
-        "Use personal pronouns correctly in sentences — the focus of Common Core L.1.1.d",
-        "Understand that subject, object, and possessive pronouns take different forms",
-        "Build the grammar foundation for clear speaking and writing"
+        "Use personal pronouns for one person or more.",
+        "Choose the doer, done-to or owner form by the job in the sentence.",
+        "Link a pronoun to the name it stands for."
       ]
     },
     "rhyme-shop.rhyme.rf-k-2-a": {

@@ -1,7 +1,7 @@
 [
   {
     "id": "pronoun.case.l-1-1-d",
-    "tool": "pronoun-activity",
+    "tool": "pronoun-prism-activity",
     "task_template": "pronoun",
     "alignment": {
       "framework": "CCSS",
@@ -11,311 +11,25 @@
     },
     "theme": null,
     "params": {
-      "rounds": [
-        {
-          "id": "pn-he-subj",
-          "referent": "he",
-          "role": "subject",
-          "wrongRole": "object",
-          "cap": true,
-          "kind": "simple-subject",
-          "sentence": "___ ran to the den."
-        },
-        {
-          "id": "pn-he-obj",
-          "referent": "he",
-          "role": "object",
-          "wrongRole": "subject",
-          "cap": false,
-          "kind": "simple-object",
-          "sentence": "Pat saw ___ at the park."
-        },
-        {
-          "id": "pn-his",
-          "referent": "he",
-          "role": "possessive",
-          "wrongRole": "object",
-          "cap": false,
-          "kind": "form-by-function",
-          "sentence": "That is ___ red ball."
-        },
-        {
-          "id": "pn-i-subj",
-          "referent": "i",
-          "role": "subject",
-          "wrongRole": "object",
-          "cap": false,
-          "kind": "compound-subject",
-          "sentence": "Sam and ___ built a fort."
-        },
-        {
-          "id": "pn-i-obj",
-          "referent": "i",
-          "role": "object",
-          "wrongRole": "subject",
-          "cap": false,
-          "kind": "compound-object",
-          "sentence": "Mom called Sam and ___."
-        },
-        {
-          "id": "pn-they-subj",
-          "referent": "they",
-          "role": "subject",
-          "wrongRole": "object",
-          "cap": true,
-          "kind": "simple-subject",
-          "sentence": "___ sang a song."
-        },
-        {
-          "id": "pn-they-obj",
-          "referent": "they",
-          "role": "object",
-          "wrongRole": "subject",
-          "cap": false,
-          "kind": "simple-object",
-          "sentence": "We waved at ___."
-        },
-        {
-          "id": "pn-their",
-          "referent": "they",
-          "role": "possessive",
-          "wrongRole": "object",
-          "cap": false,
-          "kind": "form-by-function",
-          "sentence": "The twins lost ___ hats."
-        },
-        {
-          "id": "pn-we-obj",
-          "referent": "we",
-          "role": "object",
-          "wrongRole": "subject",
-          "cap": false,
-          "kind": "simple-object",
-          "sentence": "Grandpa helped ___."
-        }
+      "level": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
       ],
-      "roundsL10n": {
-        "de": [
-          {
-            "id": "de-sub-1",
-            "role": "subject",
-            "sentence": "___ rennt zum Bau.",
-            "de": {
-              "correct": "Er",
-              "wrong": "Ihn"
-            }
-          },
-          {
-            "id": "de-sub-2",
-            "role": "subject",
-            "sentence": "___ male ein Bild.",
-            "de": {
-              "correct": "Ich",
-              "wrong": "Mich"
-            }
-          },
-          {
-            "id": "de-sub-3",
-            "role": "subject",
-            "sentence": "___ bauen eine Burg.",
-            "de": {
-              "correct": "Wir",
-              "wrong": "Uns"
-            }
-          },
-          {
-            "id": "de-obj-1",
-            "role": "object",
-            "sentence": "Pat sah ___ im Park.",
-            "de": {
-              "correct": "ihn",
-              "wrong": "er"
-            }
-          },
-          {
-            "id": "de-obj-2",
-            "role": "object",
-            "sentence": "Mama rief ___.",
-            "de": {
-              "correct": "mich",
-              "wrong": "ich"
-            }
-          },
-          {
-            "id": "de-obj-3",
-            "role": "object",
-            "sentence": "Der Hund fand ___ im Garten.",
-            "de": {
-              "correct": "uns",
-              "wrong": "wir"
-            }
-          },
-          {
-            "id": "de-pos-1",
-            "role": "possessive",
-            "sentence": "Das ist ___ Ball.",
-            "de": {
-              "correct": "sein",
-              "wrong": "ihn"
-            }
-          },
-          {
-            "id": "de-pos-2",
-            "role": "possessive",
-            "sentence": "Hier ist ___ Hut.",
-            "de": {
-              "correct": "mein",
-              "wrong": "mich"
-            }
-          },
-          {
-            "id": "de-pos-3",
-            "role": "possessive",
-            "sentence": "Das ist ___ Nest.",
-            "de": {
-              "correct": "unser",
-              "wrong": "uns"
-            }
-          }
-        ],
-        "fr": [
-          {
-            "id": "fr-sub-1",
-            "role": "subject",
-            "sentence": "___ court vite.",
-            "fr": {
-              "correct": "Il",
-              "wrong": "Le"
-            }
-          },
-          {
-            "id": "fr-sub-2",
-            "role": "subject",
-            "sentence": "___ mange une pomme.",
-            "fr": {
-              "correct": "Je",
-              "wrong": "Me"
-            }
-          },
-          {
-            "id": "fr-sub-3",
-            "role": "subject",
-            "sentence": "___ chantent ensemble.",
-            "fr": {
-              "correct": "Ils",
-              "wrong": "Les"
-            }
-          },
-          {
-            "id": "fr-obj-1",
-            "role": "object",
-            "sentence": "Maman ___ voit.",
-            "fr": {
-              "correct": "me",
-              "wrong": "je"
-            }
-          },
-          {
-            "id": "fr-obj-2",
-            "role": "object",
-            "sentence": "Papa ___ porte.",
-            "fr": {
-              "correct": "te",
-              "wrong": "tu"
-            }
-          },
-          {
-            "id": "fr-obj-3",
-            "role": "object",
-            "sentence": "Léo ___ suit.",
-            "fr": {
-              "correct": "le",
-              "wrong": "son"
-            }
-          },
-          {
-            "id": "fr-pos-1",
-            "role": "possessive",
-            "sentence": "C’est ___ ballon.",
-            "fr": {
-              "correct": "mon",
-              "wrong": "me"
-            }
-          },
-          {
-            "id": "fr-pos-2",
-            "role": "possessive",
-            "sentence": "Voici ___ chien.",
-            "fr": {
-              "correct": "ton",
-              "wrong": "te"
-            }
-          },
-          {
-            "id": "fr-pos-3",
-            "role": "possessive",
-            "sentence": "C’est ___ classe.",
-            "fr": {
-              "correct": "notre",
-              "wrong": "nous"
-            }
-          }
-        ],
-        "es": [
-          { "id": "es-sub-1", "role": "subject",    "sentence": "___ sonríe.",           "es": { "correct": "Ella",    "wrong": "La" } },
-          { "id": "es-sub-2", "role": "subject",    "sentence": "___ estornuda.",        "es": { "correct": "Él",      "wrong": "Lo" } },
-          { "id": "es-sub-3", "role": "subject",    "sentence": "___ bostezan.",         "es": { "correct": "Ellos",   "wrong": "Los" } },
-          { "id": "es-obj-1", "role": "object",     "sentence": "Mamá ___ ve.",          "es": { "correct": "me",      "wrong": "yo" } },
-          { "id": "es-obj-2", "role": "object",     "sentence": "Papá ___ carga.",       "es": { "correct": "te",      "wrong": "tú" } },
-          { "id": "es-obj-3", "role": "object",     "sentence": "Leo ___ sigue.",        "es": { "correct": "lo",      "wrong": "él" } },
-          { "id": "es-pos-1", "role": "possessive", "sentence": "Es ___ pelota.",        "es": { "correct": "mi",      "wrong": "me" } },
-          { "id": "es-pos-2", "role": "possessive", "sentence": "Aquí está ___ perro.",  "es": { "correct": "tu",      "wrong": "te" } },
-          { "id": "es-pos-3", "role": "possessive", "sentence": "Es ___ salón.",         "es": { "correct": "nuestro", "wrong": "nos" } }
-        ],
-        "pt": [
-          { "id": "pt-sub-1", "role": "subject",    "sentence": "___ corro no parque.",        "pt": { "correct": "Eu",    "wrong": "Mim" } },
-          { "id": "pt-sub-2", "role": "subject",    "sentence": "___ pulamos a corda.",         "pt": { "correct": "Nós",   "wrong": "Nos" } },
-          { "id": "pt-sub-3", "role": "subject",    "sentence": "A Lia e ___ pintamos o muro.", "pt": { "correct": "eu",    "wrong": "mim" } },
-          { "id": "pt-obj-1", "role": "object",     "sentence": "O vovô ___ abraça.",           "pt": { "correct": "me",    "wrong": "eu" } },
-          { "id": "pt-obj-2", "role": "object",     "sentence": "A profe ___ chama.",           "pt": { "correct": "te",    "wrong": "tu" } },
-          { "id": "pt-obj-3", "role": "object",     "sentence": "O guia ___ leva pela trilha.", "pt": { "correct": "nos",   "wrong": "nós" } },
-          { "id": "pt-pos-1", "role": "possessive", "sentence": "Esse é ___ chapéu.",           "pt": { "correct": "meu",   "wrong": "mim" } },
-          { "id": "pt-pos-2", "role": "possessive", "sentence": "Esse é ___ lápis.",            "pt": { "correct": "teu",   "wrong": "tu" } },
-          { "id": "pt-pos-3", "role": "possessive", "sentence": "Essa é ___ casa.",             "pt": { "correct": "nossa", "wrong": "nós" } }
-        ],
-        "it": [
-          { "id": "it-sub-1", "role": "subject",    "sentence": "___ corro nel parco.",           "it": { "correct": "Io",     "wrong": "Me" } },
-          { "id": "it-sub-2", "role": "subject",    "sentence": "___ provi il cappello.",          "it": { "correct": "Tu",     "wrong": "Te" } },
-          { "id": "it-sub-3", "role": "subject",    "sentence": "Luca e ___ dipingiamo il muro.",  "it": { "correct": "io",     "wrong": "me" } },
-          { "id": "it-obj-1", "role": "object",     "sentence": "La nonna ___ vede.",              "it": { "correct": "mi",     "wrong": "io" } },
-          { "id": "it-obj-2", "role": "object",     "sentence": "Il papà ___ chiama.",             "it": { "correct": "ti",     "wrong": "tu" } },
-          { "id": "it-obj-3", "role": "object",     "sentence": "La guida ___ saluta.",            "it": { "correct": "ci",     "wrong": "noi" } },
-          { "id": "it-pos-1", "role": "possessive", "sentence": "È la ___ palla.",                 "it": { "correct": "mia",    "wrong": "io" } },
-          { "id": "it-pos-2", "role": "possessive", "sentence": "Questa è la ___ bottega.",        "it": { "correct": "nostra", "wrong": "noi" } },
-          { "id": "it-pos-3", "role": "possessive", "sentence": "Questo è il ___ cappello.",       "it": { "correct": "suo",    "wrong": "lui" } }
-        ],
-        "nl": [
-          { "id": "pn-sub-1", "role": "subject",    "sentence": "___ rent naar het hok.",       "nl": { "correct": "Hij",  "wrong": "Hem" } },
-          { "id": "pn-sub-2", "role": "subject",    "sentence": "___ teken een kat.",           "nl": { "correct": "Ik",   "wrong": "Mij" } },
-          { "id": "pn-sub-3", "role": "subject",    "sentence": "___ bouwen een hut.",          "nl": { "correct": "Wij",  "wrong": "Ons" } },
-          { "id": "pn-obj-1", "role": "object",     "sentence": "Pat zag ___ in het park.",     "nl": { "correct": "hem",  "wrong": "hij" } },
-          { "id": "pn-obj-2", "role": "object",     "sentence": "Mama riep ___.",               "nl": { "correct": "mij",  "wrong": "ik"  } },
-          { "id": "pn-obj-3", "role": "object",     "sentence": "De hond vond ___ in de tuin.", "nl": { "correct": "ons",  "wrong": "wij" } },
-          { "id": "pn-pos-1", "role": "possessive", "sentence": "Dat is ___ bal.",              "nl": { "correct": "zijn", "wrong": "hem" } },
-          { "id": "pn-pos-2", "role": "possessive", "sentence": "Hier is ___ hoed.",            "nl": { "correct": "mijn", "wrong": "mij" } },
-          { "id": "pn-pos-3", "role": "possessive", "sentence": "Dat is ___ jas.",              "nl": { "correct": "jouw", "wrong": "jou" } }
-        ],
-        "sv": [
-          { "id": "sv-pos-1", "role": "possessive", "sentence": "Här är ___ boll.",        "sv": { "correct": "min",  "wrong": "mitt" } },
-          { "id": "sv-pos-2", "role": "possessive", "sentence": "Här är ___ äpple.",       "sv": { "correct": "mitt", "wrong": "min"  } },
-          { "id": "sv-pos-3", "role": "possessive", "sentence": "Där ligger ___ mössa.",   "sv": { "correct": "min",  "wrong": "mitt" } },
-          { "id": "sv-pos-4", "role": "possessive", "sentence": "Här står ___ paraply.",   "sv": { "correct": "mitt", "wrong": "min"  } },
-          { "id": "sv-pos-5", "role": "possessive", "sentence": "Här är ___ vantar.",      "sv": { "correct": "mina", "wrong": "min"  } },
-          { "id": "sv-pos-6", "role": "possessive", "sentence": "Var är ___ äpplen?",      "sv": { "correct": "mina", "wrong": "mitt" } },
-          { "id": "sv-sub-1", "role": "subject",    "sentence": "___ springer till kojan.", "sv": { "correct": "Jag",  "wrong": "Mig"  } },
-          { "id": "sv-sub-2", "role": "subject",    "sentence": "___ sjunger i kojan.",     "sv": { "correct": "Vi",   "wrong": "Oss"  } },
-          { "id": "sv-obj-1", "role": "object",     "sentence": "Mamma ropade på ___.",     "sv": { "correct": "mig",  "wrong": "jag"  } }
-        ]
+      "marks": [
+        "show",
+        "words"
+      ],
+      "rounds": {
+        "1": 9,
+        "2": 9,
+        "3": 9,
+        "4": 9,
+        "5": 9,
+        "6": 9
       }
     },
     "slug": {
@@ -326,7 +40,10 @@
       "pt": "hattie-chapelaria-pronomes-pessoais-caso-reto-obliquo-3-ano",
       "it": "pronomi-personali-forma-giusta-classe-terza",
       "nl": "persoonlijke-voornaamwoorden-hij-hem-groep-4",
-      "sv": "min-mitt-och-mina-ovning-svenska-ak-2"
+      "sv": "min-mitt-och-mina-ovning-svenska-ak-2",
+      "da": "personlige-stedord-han-ham-hans-1-klasse",
+      "no": "personlige-pronomen-han-ham-hans-1-trinn",
+      "fi": "persoonapronominit-han-hanet-hanen-1-luokka"
     },
     "page_title": {
       "en": "The Borrowed Hat — Personal Pronouns (Grade 1)",
@@ -336,7 +53,10 @@
       "pt": "A Chapelaria da Hattie: pronomes pessoais no 3º ano",
       "it": "La cappelleria di Hattie: i pronomi personali (classe terza)",
       "nl": "Hattie oefent voornaamwoorden: hij/hem, ik/mij – groep 4",
-      "sv": "Min, mitt eller mina? Interaktiv svenskövning för årskurs 2"
+      "sv": "Min, mitt eller mina? Interaktiv svenskövning för årskurs 2",
+      "da": "Hatties hattebutik – personlige stedord: han, ham, hans (1. klasse)",
+      "no": "Hatties hattebutikk – personlige pronomen: han, ham, hans (1. trinn)",
+      "fi": "Hattien hattukauppa – persoonapronominit: hän, hänet, hänen (1. luokka)"
     },
     "page_intro": {
       "en": "An interactive Grade 1 grammar activity: at Hattie's Lost-and-Found Hat Shop, every character needs the right word-hat for its job in the sentence — he when doing, him when it is done to him, his when it belongs to him. Read the sentence, then pick the pronoun that fits. A friendly first look at using pronouns correctly. Common Core L.1.1.d.",
@@ -346,7 +66,10 @@
       "pt": "Ajude a Hattie a escolher o pronome pessoal certo em cada frase. Atividade de 3º ano sobre caso reto, oblíquo e possessivo, no ritmo da criança.",
       "it": "La cappelleria di Hattie è un'attività di grammatica: Hattie, una lepre, gestisce un negozio di cappelli-parola, e a ogni frase si sceglie la forma giusta del pronome — il «cappello-parola» adatto — secondo il suo ruolo, cioè soggetto, complemento o possessivo. Così si impara a dire «Io» e non «Me», e a usare «Luca e io» al posto giusto. Si gioca nel browser, senza registrazione e senza punteggi, allineata alle Indicazioni nazionali, nell'area della riflessione linguistica, per esercitare i pronomi personali con calma.",
       "nl": "Kies bij Hattie in het hoedenwinkeltje het juiste voornaamwoord: hij of hem, ik of mij – net wat past bij de rol in de zin. Persoonlijke voornaamwoorden interactief oefenen voor groep 4, aansluitend bij de SLO-kerndoelen Nederlands.",
-      "sv": "Sigge bär in sakerna i kojan och barnet väljer ordet som passar: min, mitt eller mina. Nio meningar med uppläsning, i ny ordning varje gång. Årskurs 2, Lgr22."
+      "sv": "Sigge bär in sakerna i kojan och barnet väljer ordet som passar: min, mitt eller mina. Nio meningar med uppläsning, i ny ordning varje gång. Årskurs 2, Lgr22.",
+      "da": "I Hatties hattebutik er hver person et træprisme med tre sider: han, ham og hans. Et skilt viser, hvem ordet står for, og barnet lægger prismet i hullet og drejer det, til den rigtige side vender op. Sætningens pil afgør det: gør ordet noget, rammer handlingen det, eller ejer det noget? Senere binder barnet stedord til navne og sorterer navne i han, hun og de. Interaktiv grammatikøvelse til 1. klasse i tråd med Fælles Mål.",
+      "no": "I Hatties hattebutikk er hver person et treprisme med tre sider: han, ham og hans. Et skilt viser hvem ordet står for, og barnet legger prismet i luka og snur det til riktig side er opp. Setningens pil avgjør: gjør ordet noe, treffer handlingen det, eller eier det noe? Senere knytter barnet pronomen til navn og sorterer navn i han, hun og de. Interaktiv grammatikkøvelse for 1. trinn i tråd med LK20.",
+      "fi": "Hattien hattukaupassa jokainen henkilö on puinen prisma, jossa on kolme puolta: hän, hänet ja hänen. Kyltti näyttää, kenen tilalla sana on, ja lapsi laittaa prisman aukkoon ja kääntää oikean puolen ylös. Lauseen nuoli ratkaisee: tekeekö sana jotain, kohdistuuko tekeminen siihen vai omistaako se jotain? Myöhemmin lapsi sitoo pronominit nimiin ja lajittelee nimet: hän vai he. Vuorovaikutteinen kielioppitehtävä 1. luokalle (OPS 2014)."
     },
     "kid_prompt_template": "pronoun"
   }

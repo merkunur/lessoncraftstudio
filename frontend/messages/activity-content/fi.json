@@ -3255,6 +3255,29 @@
         "Valita olen, on ja ovat oikein.",
         "Huomata, että verbi muuttuu: juoksee, juoksevat."
       ]
+    },
+    "pronoun.case.l-1-1-d": {
+      "about": [
+        "Hattien hattukaupassa jokainen henkilö on puinen prisma, jossa on kolme puolta: tekijä (hän), se, johon tekeminen kohdistuu (hänet) ja omistaja (hänen). Nimikyltti näyttää, kenen tilalla aukko on. Lapsi laittaa prisman aukkoon ja kääntää oikean puolen ylös. Kielioppitehtävä 1. luokalle persoonapronomineista.",
+        "Kun lapsi painaa Tarkista, lauseen nuoli lentää. Lauseessa ”Isä näki hänet puistossa” nuoli lentää verbistä ja osuu puoleen, jossa on maalitaulu; väärällä henkilöllä tai puolella nuoli putoaa. Myöhemmin tulevat minä, minut, minun ja me, meidät, meidän, nimen vaihtaminen prismaan, sanan sitominen nimiin ja nimien lajittelu: hän vai he.",
+        "Opetussuunnitelman (OPS 2014) mukainen, äidinkieli ja kirjallisuus. Ei ajanottoa eikä pisteitä."
+      ],
+      "practices": [
+        "Valita hän tai he kyltin mukaan",
+        "Valita hän, hänet tai hänen lauseen tehtävän mukaan",
+        "Käyttää minä ja minut oikein toisen nimen vieressä",
+        "Löytää nimi, jonka tilalla pronomini on"
+      ],
+      "howToPlay": [
+        "Lue kyltti: kenen tilalla aukko on?",
+        "Napauta prismaa, niin se menee aukkoon, käännä sitä pyöreällä napilla ja paina Tarkista.",
+        "Asetuksista valitset tason ja sen, näkyvätkö puolten merkit."
+      ],
+      "learningGoals": [
+        "Käyttää persoonapronomineja yhdestä tai useammasta.",
+        "Valita muoto lauseen tehtävän mukaan.",
+        "Yhdistää pronomini nimeen, jonka tilalla se on."
+      ]
     }
   }
 }

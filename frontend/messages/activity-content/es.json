@@ -1880,25 +1880,25 @@
     },
     "pronoun.case.l-1-1-d": {
       "about": [
-        "Hattie la liebre atiende su sombrerería y necesita ayuda: cada oración tiene un espacio y dos opciones de pronombre, y tu niño elige la que completa la frase con sentido.",
-        "La idea es que un mismo pronombre cambia de forma según su papel en la oración: quién hace la acción («Él corre»), a quién le pasa («Mamá me ve») o de quién es algo («Es mi pelota»). Se aprende por el oído y el sentido de la frase, sin nombres técnicos.",
-        "Es una actividad interactiva para 3.º de primaria, alineada a los Planes y programas de estudio (SEP). Se juega en el navegador, sin registro, con un tono cálido y sin cronómetro que apresure."
+        "En la sombrerería de Hattie cada persona es un prisma de madera con tres caras: quien hace la acción (él), a quien le llega (lo) y de quién es algo (de él). Un letrero dice a quién reemplaza el hueco. La niña o el niño pone un prisma en el hueco y lo gira hasta que queda arriba la cara correcta. Una actividad de gramática para primer grado de primaria sobre los pronombres.",
+        "Al comprobar, sale la flecha de la oración. En «Mamá lo ve en el parque» la flecha sale del verbo y se clava en la cara con la diana; con la persona o la cara equivocada, la flecha se cae. Después vienen yo, me, mi y nosotros, nos, nuestro (con la trampa «Leo y yo»), cambiar un nombre por un prisma, atar un pronombre a sus nombres, ordenar nombres y de él, de ella, de ellos.",
+        "Alineada con los Planes y programas de estudio de la SEP (Lenguajes). Sin reloj y sin puntos."
       ],
       "practices": [
-        "Elegir el pronombre que hace la acción en la oración: yo, él, ella o ellos.",
-        "Reconocer el pronombre al que le pasa la acción, como me, te, lo o la.",
-        "Expresar de quién es algo usando mi, tu, su o nuestro.",
-        "Desarrollar el oído para la forma correcta del pronombre antes de aprender los nombres técnicos de la gramática."
+        "Elegir él, ella o ellos para la persona del letrero",
+        "Elegir él o lo según la tarea en la oración",
+        "Usar yo y me junto a otro nombre",
+        "Encontrar el nombre que reemplaza un pronombre"
       ],
       "howToPlay": [
-        "Lee con calma la oración que tiene un espacio en blanco.",
-        "Escucha cuál de las dos palabras suena bien y va con su papel dentro de la frase.",
-        "Toca la opción correcta: Hattie te acompaña sin prisas y con intentos ilimitados, para que aprendas jugando."
+        "Lee el letrero: ¿a quién reemplaza el hueco?",
+        "Toca un prisma para ponerlo en el hueco, gíralo con el botón redondo y toca Comprobar.",
+        "En los ajustes eliges el nivel y si las caras muestran sus signos."
       ],
       "learningGoals": [
-        "Al terminar, tu niño usa los pronombres personales en la forma correcta según el papel que cumplen en la oración.",
-        "Distingue quién hace la acción de a quién le pasa la acción, una base clave de la gramática de tercer grado de primaria (~8 a 9 años).",
-        "Expresa posesión con naturalidad usando mi, tu, su y nuestro."
+        "Usar pronombres personales para una o varias personas.",
+        "Elegir la forma según la tarea en la oración.",
+        "Unir un pronombre con el nombre que reemplaza."
       ]
     },
     "sentence-builder.build-a-sentence.l-1-1-j": {

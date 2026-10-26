@@ -1,81 +1,98 @@
 /* =====================================================================
-   visual-qa phase driver — tense (L.1.1.e)
-   ---------------------------------------------------------------------
-   Three screens, of which the sweep had only ever seen the first:
+   visual-qa phase driver — tense / past, present, future (L.1.1.e)
+   #125 of the one-by-one rebuild: PHOTO, WINDOW, ENVELOPE — the Clock
+   Tower (time-frames-activity).
+   (The previous driver drove the retired tense activity; it is in git.)
 
-     open      — the sentence, three lit/unlit time windows, three form chips
-     feedback  — after a non-resolving tap. Which feedback depends on the round,
-                 and BOTH are real states worth photographing:
-                   · a plain wrong form  → the chip dims and a corrective nudge
-                     renders in the .miss colour;
-                   · on a round carrying `alsoOk` (the Swedish future rounds,
-                     where plain presens is also correct Swedish) → an AFFIRMING
-                     line renders, the chip is NOT dimmed, and the round does not
-                     resolve. This is the new response class and nothing had ever
-                     photographed it.
-     resolved  — the correct form lights and the shell's Check appears (hidden
-                 behind .juniper-resolved until then).
+     open      — the sentence card with its picture, the time word and an
+                 empty gap; the verb cards; the tower's album, window and
+                 post slot.
+     picked    — a WRONG card laid in the gap: its words stand in the
+                 sentence. ⭐ Nothing is graded yet — no frame at an
+                 opening, no glow, no hint: a choice is not a verdict.
+     missed    — the wrong card + Check: it develops into its frame and
+                 bumps against the opening the time word names; the hint
+                 names that opening; the card stays in the gap to be re-read.
+     resolved  — the right card + Check: it develops and files into its
+                 opening, the success line; 0.5 s later the shell's Next.
 
-   The step prefers the `alsoOk` chip when the round has one, so the affirming
-   screen is captured on every round that can produce it, and falls back to an
-   ordinary wrong chip otherwise. Either way the screen changes, so the harness's
-   no-op check stays meaningful.
+   ⚠ CARDS ARE REACHED BY TENSE (data-k="card-<tense>"), NEVER BY WORD —
+   the words change per locale and per round.
+   ⚠ FAST is set so a photographed state is the settled one.
    ===================================================================== */
 'use strict';
 
-const G = 'TenseActivity';
+const G = 'TimeFramesActivity';
 
-async function tapTense(page, tense) {
-  const ok = await page.evaluate((t) => {
-    const b = [...document.querySelectorAll('.tn-cand')].find(x => x.getAttribute('data-tense') === t);
-    if (!b) return false;
-    b.click();
-    return true;
-  }, tense);
-  if (!ok) throw new Error('no chip with data-tense="' + tense + '"');
-  await new Promise(r => setTimeout(r, 140));
+async function reset(page) {
+  await page.evaluate((g) => { const t = window[g]; t.FAST = true; t._start(t.st.r, 0); t._render2(); }, G);
+  await new Promise((r) => setTimeout(r, 120));
 }
-
-const model = (page) => page.evaluate((g) => {
-  const t = window[g];
-  if (!t || !t._round || !window.TenseCore) return null;
-  const r = t._round;
-  const answer = r.time;
-  const alsoOk = (r.alsoOk || []).filter(x => x !== answer);
-  const other = window.TenseCore.TENSES.filter(x => x !== answer && alsoOk.indexOf(x) < 0);
-  return { answer, alsoOk, other };
+const info = (page) => page.evaluate((g) => {
+  const t = window[g], rd = t && t.st && t.st.rd;
+  if (!rd || (rd.kind !== 'pick' && rd.kind !== 'time')) return null;
+  return { right: rd.right, wrong: rd.cards.filter((c) => c.tense !== rd.right)[0].tense };
 }, G);
+const tap = (page, sel) => page.evaluate((s) => { const b = document.querySelector(s); if (!b || b.disabled) return false; b.click(); return true; }, sel);
 
 module.exports = {
   steps: [
     {
-      name: 'feedback',
+      name: 'picked',
       async drive(page) {
-        const m = await model(page);
-        if (!m) throw new Error('could not read the round off window.' + G);
-        const pick = m.alsoOk[0] || m.other[0];
-        if (!pick) throw new Error('the round offers no non-answer chip to tap');
-        await tapTense(page, pick);
-        const line = await page.evaluate(() => {
-          const el = document.querySelector('.tn-line-msg');
-          return el ? el.textContent.trim() : '';
-        });
-        if (!line) throw new Error('a non-resolving tap produced no feedback line');
-        const solved = await page.evaluate((g) => !!(window[g] && window[g]._resolved), G);
-        if (solved) throw new Error('a non-answer chip resolved the round');
+        await reset(page);
+        const r = await info(page); if (!r) throw new Error('not a card round on window.' + G);
+        if (!(await tap(page, '[data-k="card-' + r.wrong + '"]'))) throw new Error('card ' + r.wrong + ' absent');
+        await new Promise((x) => setTimeout(x, 150));
+        const st = await page.evaluate(() => ({
+          inGap: !!document.querySelector('[data-k="gap"]'), frames: document.querySelectorAll('.vt-op .vt-fr').length,
+          glow: document.querySelectorAll('.vt-cardw.is-glow').length, note: document.querySelector('.vt-note').textContent.trim()
+        }));
+        if (!st.inGap) throw new Error('the card did not go into the gap');
+        if (st.frames) throw new Error('a frame at an opening before Check — the board is grading a choice');
+        if (st.glow) throw new Error('a card glows before Check');
+        if (st.note) throw new Error('a hint before Check: «' + st.note + '»');
         return true;
-      },
+      }
+    },
+    {
+      name: 'missed',
+      async drive(page) {
+        await reset(page);
+        const r = await info(page); if (!r) throw new Error('not a card round on window.' + G);
+        if (!(await tap(page, '[data-k="card-' + r.wrong + '"]'))) throw new Error('card ' + r.wrong + ' absent');
+        if (!(await tap(page, '[data-k="check"]'))) throw new Error('Check absent');
+        await new Promise((x) => setTimeout(x, 200));
+        const st = await page.evaluate(() => ({
+          hint: document.querySelector('.vt-note').classList.contains('is-hint') && !!document.querySelector('.vt-note').textContent.trim(),
+          bump: document.querySelectorAll('.vt-op .vt-fr.is-bump').length, inGap: !!document.querySelector('[data-k="gap"]')
+        }));
+        if (!st.hint) throw new Error('no hint after a wrong card');
+        if (st.bump !== 1) throw new Error('the card did not bump against its opening (' + st.bump + ')');
+        if (!st.inGap) throw new Error('the wrong card left the gap — the child has nothing to re-read');
+        return true;
+      }
     },
     {
       name: 'resolved',
+      terminal: true,
       async drive(page) {
-        const m = await model(page);
-        if (!m) throw new Error('could not read the round off window.' + G);
-        await tapTense(page, m.answer);
-        const solved = await page.evaluate((g) => !!(window[g] && window[g]._resolved), G);
-        if (!solved) throw new Error('tapping the time-matching form did not resolve the round');
+        await reset(page);
+        const r = await info(page); if (!r) throw new Error('not a card round on window.' + G);
+        await page.evaluate((g) => { window[g].OK_MS = 500; }, G);
+        if (!(await tap(page, '[data-k="card-' + r.right + '"]'))) throw new Error('the right card absent');
+        if (!(await tap(page, '[data-k="check"]'))) throw new Error('Check absent');
+        await new Promise((x) => setTimeout(x, 900));
+        const st = await page.evaluate(() => {
+          const p = document.querySelector('.lcs-activity-prompt'), nxt = document.querySelector('.lcs-activity-next');
+          return { ok: document.querySelector('.vt-note').classList.contains('is-ok'), filed: document.querySelectorAll('.vt-op .vt-fr.is-in').length,
+            celebrated: !!(p && p.classList.contains('celebrate')), next: !!(nxt && nxt.offsetParent !== null) };
+        });
+        if (!st.ok) throw new Error('no success line');
+        if (st.filed !== 1) throw new Error('the card did not file into its opening (' + st.filed + ')');
+        if (!st.celebrated || !st.next) throw new Error('the shell did not celebrate / show Next 0.5 s after the result');
         return true;
-      },
-    },
-  ],
+      }
+    }
+  ]
 };

@@ -1,7 +1,7 @@
 [
   {
     "id": "tense.past-present-future.l-1-1-e",
-    "tool": "tense-activity",
+    "tool": "time-frames-activity",
     "task_template": "tense",
     "alignment": {
       "framework": "CCSS",
@@ -11,482 +11,21 @@
     },
     "theme": null,
     "params": {
-      "rounds": [
-        {
-          "id": "tn-p1",
-          "time": "past",
-          "timeWord": "Yesterday",
-          "subject": "the boats",
-          "verb": {
-            "lemma": "sail",
-            "forms": {
-              "present": "sail",
-              "past": "sailed",
-              "future": "will sail"
-            },
-            "regular": true
-          }
-        },
-        {
-          "id": "tn-n1",
-          "time": "present",
-          "timeWord": "Right now",
-          "subject": "the kids",
-          "verb": {
-            "lemma": "jump",
-            "forms": {
-              "present": "jump",
-              "past": "jumped",
-              "future": "will jump"
-            },
-            "regular": true
-          }
-        },
-        {
-          "id": "tn-f1",
-          "time": "future",
-          "timeWord": "Tomorrow",
-          "subject": "the sailors",
-          "verb": {
-            "lemma": "paint",
-            "forms": {
-              "present": "paint",
-              "past": "painted",
-              "future": "will paint"
-            },
-            "regular": true
-          }
-        },
-        {
-          "id": "tn-p2",
-          "time": "past",
-          "timeWord": "Yesterday",
-          "subject": "the gulls",
-          "verb": {
-            "lemma": "go",
-            "forms": {
-              "present": "go",
-              "past": "went",
-              "future": "will go"
-            },
-            "regular": false
-          }
-        },
-        {
-          "id": "tn-n2",
-          "time": "present",
-          "timeWord": "Right now",
-          "subject": "Bo and Pat",
-          "verb": {
-            "lemma": "wave",
-            "forms": {
-              "present": "wave",
-              "past": "waved",
-              "future": "will wave"
-            },
-            "regular": true
-          }
-        },
-        {
-          "id": "tn-f2",
-          "time": "future",
-          "timeWord": "Tomorrow",
-          "subject": "the dogs",
-          "verb": {
-            "lemma": "run",
-            "forms": {
-              "present": "run",
-              "past": "ran",
-              "future": "will run"
-            },
-            "regular": false
-          }
-        },
-        {
-          "id": "tn-p3",
-          "time": "past",
-          "timeWord": "Yesterday",
-          "subject": "the cats",
-          "verb": {
-            "lemma": "ride",
-            "forms": {
-              "present": "ride",
-              "past": "rode",
-              "future": "will ride"
-            },
-            "regular": false
-          }
-        },
-        {
-          "id": "tn-n3",
-          "time": "present",
-          "timeWord": "Right now",
-          "subject": "the gulls",
-          "verb": {
-            "lemma": "look",
-            "forms": {
-              "present": "look",
-              "past": "looked",
-              "future": "will look"
-            },
-            "regular": true
-          }
-        },
-        {
-          "id": "tn-f3",
-          "time": "future",
-          "timeWord": "Tomorrow",
-          "subject": "the kids",
-          "verb": {
-            "lemma": "play",
-            "forms": {
-              "present": "play",
-              "past": "played",
-              "future": "will play"
-            },
-            "regular": true
-          }
-        }
+      "level": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
       ],
-      "roundsL10n": {
-        "de": [
-          {
-            "id": "tn-p1",
-            "time": "past",
-            "timeWord": "Gestern",
-            "subject": "Die Boote",
-            "verb": {
-              "lemma": "segeln",
-              "forms": {
-                "present": "segeln",
-                "past": "segelten",
-                "future": "werden segeln"
-              },
-              "regular": true
-            }
-          },
-          {
-            "id": "tn-p2",
-            "time": "past",
-            "timeWord": "Gestern",
-            "subject": "Die Kinder",
-            "verb": {
-              "lemma": "spielen",
-              "forms": {
-                "present": "spielen",
-                "past": "spielten",
-                "future": "werden spielen"
-              },
-              "regular": true
-            }
-          },
-          {
-            "id": "tn-p3",
-            "time": "past",
-            "timeWord": "Gestern",
-            "subject": "Die Hunde",
-            "verb": {
-              "lemma": "laufen",
-              "forms": {
-                "present": "laufen",
-                "past": "liefen",
-                "future": "werden laufen"
-              },
-              "regular": false
-            }
-          },
-          {
-            "id": "tn-n1",
-            "time": "present",
-            "timeWord": "Jetzt",
-            "subject": "Die Frösche",
-            "verb": {
-              "lemma": "hüpfen",
-              "forms": {
-                "present": "hüpfen",
-                "past": "hüpften",
-                "future": "werden hüpfen"
-              },
-              "regular": true
-            }
-          },
-          {
-            "id": "tn-n2",
-            "time": "present",
-            "timeWord": "Jetzt",
-            "subject": "Die Enten",
-            "verb": {
-              "lemma": "baden",
-              "forms": {
-                "present": "baden",
-                "past": "badeten",
-                "future": "werden baden"
-              },
-              "regular": true
-            }
-          },
-          {
-            "id": "tn-n3",
-            "time": "present",
-            "timeWord": "Jetzt",
-            "subject": "Die Katzen",
-            "verb": {
-              "lemma": "schlafen",
-              "forms": {
-                "present": "schlafen",
-                "past": "schliefen",
-                "future": "werden schlafen"
-              },
-              "regular": false
-            }
-          },
-          {
-            "id": "tn-f1",
-            "time": "future",
-            "timeWord": "Morgen",
-            "subject": "Die Mädchen",
-            "verb": {
-              "lemma": "malen",
-              "forms": {
-                "present": "malen",
-                "past": "malten",
-                "future": "werden malen"
-              },
-              "regular": true
-            }
-          },
-          {
-            "id": "tn-f2",
-            "time": "future",
-            "timeWord": "Morgen",
-            "subject": "Die Jungen",
-            "verb": {
-              "lemma": "tanzen",
-              "forms": {
-                "present": "tanzen",
-                "past": "tanzten",
-                "future": "werden tanzen"
-              },
-              "regular": true
-            }
-          },
-          {
-            "id": "tn-f3",
-            "time": "future",
-            "timeWord": "Morgen",
-            "subject": "Die Mäuse",
-            "verb": {
-              "lemma": "sammeln",
-              "forms": {
-                "present": "sammeln",
-                "past": "sammelten",
-                "future": "werden sammeln"
-              },
-              "regular": true
-            }
-          }
-        ],
-        "fr": [
-          {
-            "id": "tn-p1",
-            "time": "past",
-            "timeWord": "Hier",
-            "subject": "Les oiseaux",
-            "verb": {
-              "lemma": "chanter",
-              "forms": {
-                "present": "chantent",
-                "past": "chantaient",
-                "future": "chanteront"
-              },
-              "regular": true
-            }
-          },
-          {
-            "id": "tn-p2",
-            "time": "past",
-            "timeWord": "Hier",
-            "subject": "Les élèves",
-            "verb": {
-              "lemma": "ranger",
-              "forms": {
-                "present": "rangent",
-                "past": "rangeaient",
-                "future": "rangeront"
-              },
-              "regular": true
-            }
-          },
-          {
-            "id": "tn-p3",
-            "time": "past",
-            "timeWord": "Hier",
-            "subject": "Les promeneurs",
-            "verb": {
-              "lemma": "marcher",
-              "forms": {
-                "present": "marchent",
-                "past": "marchaient",
-                "future": "marcheront"
-              },
-              "regular": true
-            }
-          },
-          {
-            "id": "tn-n1",
-            "time": "present",
-            "timeWord": "Maintenant",
-            "subject": "Les enfants",
-            "verb": {
-              "lemma": "jouer",
-              "forms": {
-                "present": "jouent",
-                "past": "jouaient",
-                "future": "joueront"
-              },
-              "regular": true
-            }
-          },
-          {
-            "id": "tn-n2",
-            "time": "present",
-            "timeWord": "Maintenant",
-            "subject": "Les danseurs",
-            "verb": {
-              "lemma": "danser",
-              "forms": {
-                "present": "dansent",
-                "past": "dansaient",
-                "future": "danseront"
-              },
-              "regular": true
-            }
-          },
-          {
-            "id": "tn-n3",
-            "time": "present",
-            "timeWord": "Maintenant",
-            "subject": "Les artistes",
-            "verb": {
-              "lemma": "dessiner",
-              "forms": {
-                "present": "dessinent",
-                "past": "dessinaient",
-                "future": "dessineront"
-              },
-              "regular": true
-            }
-          },
-          {
-            "id": "tn-f1",
-            "time": "future",
-            "timeWord": "Demain",
-            "subject": "Les bateaux",
-            "verb": {
-              "lemma": "naviguer",
-              "forms": {
-                "present": "naviguent",
-                "past": "naviguaient",
-                "future": "navigueront"
-              },
-              "regular": true
-            }
-          },
-          {
-            "id": "tn-f2",
-            "time": "future",
-            "timeWord": "Demain",
-            "subject": "Les poissons",
-            "verb": {
-              "lemma": "nager",
-              "forms": {
-                "present": "nagent",
-                "past": "nageaient",
-                "future": "nageront"
-              },
-              "regular": true
-            }
-          },
-          {
-            "id": "tn-f3",
-            "time": "future",
-            "timeWord": "Demain",
-            "subject": "Les jardiniers",
-            "verb": {
-              "lemma": "planter",
-              "forms": {
-                "present": "plantent",
-                "past": "plantaient",
-                "future": "planteront"
-              },
-              "regular": true
-            }
-          }
-        ],
-        "es": [
-          { "id": "tn-p1", "time": "past",    "timeWord": "Ayer",   "subject": "los barcos",   "verb": { "lemma": "navegar", "regular": true,  "forms": { "present": "navegan", "past": "navegaron", "future": "navegarán" } } },
-          { "id": "tn-p2", "time": "past",    "timeWord": "Ayer",   "subject": "los perros",   "verb": { "lemma": "correr",  "regular": true,  "forms": { "present": "corren",  "past": "corrieron", "future": "correrán" } } },
-          { "id": "tn-p3", "time": "past",    "timeWord": "Ayer",   "subject": "los amigos",   "verb": { "lemma": "cantar",  "regular": true,  "forms": { "present": "cantan",  "past": "cantaron",  "future": "cantarán" } } },
-          { "id": "tn-n1", "time": "present", "timeWord": "Hoy",    "subject": "las ranas",    "verb": { "lemma": "saltar",  "regular": true,  "forms": { "present": "saltan",  "past": "saltaron",  "future": "saltarán" } } },
-          { "id": "tn-n2", "time": "present", "timeWord": "Hoy",    "subject": "los patos",    "verb": { "lemma": "nadar",   "regular": true,  "forms": { "present": "nadan",   "past": "nadaron",   "future": "nadarán" } } },
-          { "id": "tn-n3", "time": "present", "timeWord": "Hoy",    "subject": "los gatos",    "verb": { "lemma": "jugar",   "regular": false, "forms": { "present": "juegan",  "past": "jugaron",   "future": "jugarán" } } },
-          { "id": "tn-f1", "time": "future",  "timeWord": "Mañana", "subject": "las niñas",    "verb": { "lemma": "pintar",  "regular": true,  "forms": { "present": "pintan",  "past": "pintaron",  "future": "pintarán" } } },
-          { "id": "tn-f2", "time": "future",  "timeWord": "Mañana", "subject": "los niños",    "verb": { "lemma": "bailar",  "regular": true,  "forms": { "present": "bailan",  "past": "bailaron",  "future": "bailarán" } } },
-          { "id": "tn-f3", "time": "future",  "timeWord": "Mañana", "subject": "los ratones",  "verb": { "lemma": "comer",   "regular": true,  "forms": { "present": "comen",   "past": "comieron",  "future": "comerán" } } }
-        ],
-        "pt": [
-          { "id": "tn-p1", "time": "past",    "timeWord": "Ontem",  "subject": "os barcos",    "verb": { "lemma": "navegar", "regular": true,  "forms": { "present": "navegam", "past": "navegaram", "future": "vão navegar" } } },
-          { "id": "tn-p2", "time": "past",    "timeWord": "Ontem",  "subject": "as crianças",  "verb": { "lemma": "fazer",   "regular": false, "forms": { "present": "fazem",   "past": "fizeram",   "future": "vão fazer" } } },
-          { "id": "tn-p3", "time": "past",    "timeWord": "Ontem",  "subject": "os gatos",     "verb": { "lemma": "correr",  "regular": true,  "forms": { "present": "correm",  "past": "correram",  "future": "vão correr" } } },
-          { "id": "tn-n1", "time": "present", "timeWord": "Agora",  "subject": "os peixes",    "verb": { "lemma": "nadar",   "regular": true,  "forms": { "present": "nadam",   "past": "nadaram",   "future": "vão nadar" } } },
-          { "id": "tn-n2", "time": "present", "timeWord": "Agora",  "subject": "as meninas",   "verb": { "lemma": "dançar",  "regular": true,  "forms": { "present": "dançam",  "past": "dançaram",  "future": "vão dançar" } } },
-          { "id": "tn-n3", "time": "present", "timeWord": "Agora",  "subject": "os amigos",    "verb": { "lemma": "ler",     "regular": false, "forms": { "present": "leem",    "past": "leram",     "future": "vão ler" } } },
-          { "id": "tn-f1", "time": "future",  "timeWord": "Amanhã", "subject": "os cachorros", "verb": { "lemma": "pular",   "regular": true,  "forms": { "present": "pulam",   "past": "pularam",   "future": "vão pular" } } },
-          { "id": "tn-f2", "time": "future",  "timeWord": "Amanhã", "subject": "as aves",      "verb": { "lemma": "cantar",  "regular": true,  "forms": { "present": "cantam",  "past": "cantaram",  "future": "vão cantar" } } },
-          { "id": "tn-f3", "time": "future",  "timeWord": "Amanhã", "subject": "as crianças",  "verb": { "lemma": "brincar", "regular": true,  "forms": { "present": "brincam", "past": "brincaram", "future": "vão brincar" } } }
-        ],
-        "it": [
-          { "id": "tn-p1", "time": "past",    "timeWord": "Ieri",   "subject": "le rane",     "verb": { "lemma": "nuotare",   "regular": true, "forms": { "present": "nuotano",   "past": "hanno nuotato",   "future": "nuoteranno" } } },
-          { "id": "tn-p2", "time": "past",    "timeWord": "Ieri",   "subject": "i bambini",   "verb": { "lemma": "giocare",   "regular": true, "forms": { "present": "giocano",   "past": "hanno giocato",   "future": "giocheranno" } } },
-          { "id": "tn-p3", "time": "past",    "timeWord": "Ieri",   "subject": "gli uccelli", "verb": { "lemma": "cantare",   "regular": true, "forms": { "present": "cantano",   "past": "hanno cantato",   "future": "canteranno" } } },
-          { "id": "tn-n1", "time": "present", "timeWord": "Adesso", "subject": "i cani",      "verb": { "lemma": "mangiare",  "regular": true, "forms": { "present": "mangiano",  "past": "hanno mangiato",  "future": "mangeranno" } } },
-          { "id": "tn-n2", "time": "present", "timeWord": "Adesso", "subject": "i gatti",     "verb": { "lemma": "dormire",   "regular": true, "forms": { "present": "dormono",   "past": "hanno dormito",   "future": "dormiranno" } } },
-          { "id": "tn-n3", "time": "present", "timeWord": "Adesso", "subject": "le maestre",  "verb": { "lemma": "lavorare",  "regular": true, "forms": { "present": "lavorano",  "past": "hanno lavorato",  "future": "lavoreranno" } } },
-          { "id": "tn-f1", "time": "future",  "timeWord": "Domani", "subject": "gli amici",   "verb": { "lemma": "disegnare", "regular": true, "forms": { "present": "disegnano", "past": "hanno disegnato", "future": "disegneranno" } } },
-          { "id": "tn-f2", "time": "future",  "timeWord": "Domani", "subject": "le bambine",  "verb": { "lemma": "ascoltare", "regular": true, "forms": { "present": "ascoltano", "past": "hanno ascoltato", "future": "ascolteranno" } } },
-          { "id": "tn-f3", "time": "future",  "timeWord": "Domani", "subject": "i nonni",     "verb": { "lemma": "guardare",  "regular": true, "forms": { "present": "guardano",  "past": "hanno guardato",  "future": "guarderanno" } } }
-        ],
-        "sv": [
-          { "id": "tn-p1", "time": "past", "timeWord": "i går", "subject": "Båtarna",
-            "verb": { "lemma": "segla", "regular": true, "forms": { "present": "seglar", "past": "seglade", "future": "ska segla" } } },
-          { "id": "tn-p2", "time": "past", "timeWord": "i går", "subject": "Katterna",
-            "verb": { "lemma": "sova", "regular": false, "forms": { "present": "sover", "past": "sov", "future": "ska sova" } } },
-          { "id": "tn-p3", "time": "past", "timeWord": "i går", "subject": "Barnen",
-            "verb": { "lemma": "leka", "regular": true, "forms": { "present": "leker", "past": "lekte", "future": "ska leka" } } },
-          { "id": "tn-n1", "time": "present", "timeWord": "just nu", "subject": "Grodorna",
-            "verb": { "lemma": "hoppa", "regular": true, "forms": { "present": "hoppar", "past": "hoppade", "future": "ska hoppa" } } },
-          { "id": "tn-n2", "time": "present", "timeWord": "just nu", "subject": "Fåglarna",
-            "verb": { "lemma": "sjunga", "regular": false, "forms": { "present": "sjunger", "past": "sjöng", "future": "ska sjunga" } } },
-          { "id": "tn-n3", "time": "present", "timeWord": "just nu", "subject": "Ankorna",
-            "verb": { "lemma": "simma", "regular": true, "forms": { "present": "simmar", "past": "simmade", "future": "ska simma" } } },
-          { "id": "tn-f1", "time": "future", "timeWord": "i morgon", "subject": "Eleverna", "alsoOk": ["present"],
-            "verb": { "lemma": "rita", "regular": true, "forms": { "present": "ritar", "past": "ritade", "future": "ska rita" } } },
-          { "id": "tn-f2", "time": "future", "timeWord": "i morgon", "subject": "Kompisarna", "alsoOk": ["present"],
-            "verb": { "lemma": "dansa", "regular": true, "forms": { "present": "dansar", "past": "dansade", "future": "ska dansa" } } },
-          { "id": "tn-f3", "time": "future", "timeWord": "i morgon", "subject": "Hästarna", "alsoOk": ["present"],
-            "verb": { "lemma": "springa", "regular": false, "forms": { "present": "springer", "past": "sprang", "future": "ska springa" } } }
-        ],
-        "nl": [
-          { "id": "tn-varen",      "time": "past",    "timeWord": "Gisteren", "subject": "de boten",      "verb": { "lemma": "varen",      "regular": false, "forms": { "present": "varen",      "past": "voeren",       "future": "zullen varen" } } },
-          { "id": "tn-spelen",     "time": "present", "timeWord": "Nu",       "subject": "de kinderen",   "verb": { "lemma": "spelen",     "regular": true,  "forms": { "present": "spelen",     "past": "speelden",     "future": "zullen spelen" } } },
-          { "id": "tn-blaffen",    "time": "past",    "timeWord": "Gisteren", "subject": "de honden",     "verb": { "lemma": "blaffen",    "regular": true,  "forms": { "present": "blaffen",    "past": "blaften",      "future": "zullen blaffen" } } },
-          { "id": "tn-springen",   "time": "future",  "timeWord": "Morgen",   "subject": "de jongens",    "verb": { "lemma": "springen",   "regular": false, "forms": { "present": "springen",   "past": "sprongen",     "future": "zullen springen" } } },
-          { "id": "tn-dansen",     "time": "present", "timeWord": "Nu",       "subject": "de meisjes",    "verb": { "lemma": "dansen",     "regular": true,  "forms": { "present": "dansen",     "past": "dansten",      "future": "zullen dansen" } } },
-          { "id": "tn-lopen",      "time": "past",    "timeWord": "Gisteren", "subject": "de paarden",    "verb": { "lemma": "lopen",      "regular": false, "forms": { "present": "lopen",      "past": "liepen",       "future": "zullen lopen" } } },
-          { "id": "tn-tekenen",    "time": "present", "timeWord": "Nu",       "subject": "de leerlingen", "verb": { "lemma": "tekenen",    "regular": true,  "forms": { "present": "tekenen",    "past": "tekenden",     "future": "zullen tekenen" } } },
-          { "id": "tn-wandelen",   "time": "future",  "timeWord": "Morgen",   "subject": "de buren",      "verb": { "lemma": "wandelen",   "regular": true,  "forms": { "present": "wandelen",   "past": "wandelden",    "future": "zullen wandelen" } } },
-          { "id": "tn-verzamelen", "time": "future",  "timeWord": "Morgen",   "subject": "de bijen",      "verb": { "lemma": "verzamelen", "regular": true,  "forms": { "present": "verzamelen", "past": "verzamelden",  "future": "zullen verzamelen" } } }
-        ]
+      "rounds": {
+        "1": 9,
+        "2": 9,
+        "3": 9,
+        "4": 9,
+        "5": 9,
+        "6": 9
       }
     },
     "slug": {
@@ -497,7 +36,10 @@
       "pt": "tempos-verbais-presente-passado-futuro-2-ano",
       "it": "tempi-verbali-presente-passato-futuro-classe-seconda",
       "sv": "verbets-tempus-datid-nutid-framtid-ak-2",
-      "nl": "werkwoordstijden-verleden-nu-toekomst-groep-4"
+      "nl": "werkwoordstijden-verleden-nu-toekomst-groep-4",
+      "da": "verbets-tider-datid-nutid-fremtid-1-klasse",
+      "no": "verbets-tider-fortid-natid-fremtid-1-trinn",
+      "fi": "verbin-aikamuodot-mennyt-ja-nykyhetki-1-luokka"
     },
     "page_title": {
       "en": "The Clock Tower — Verb Tense: Past, Present & Future (Grade 1)",
@@ -507,7 +49,10 @@
       "pt": "A Torre do Tempo do Juniper: tempos verbais (2º ano)",
       "it": "La torre del tempo di Juniper: tempi verbali (classe seconda)",
       "nl": "Junipers klokkentoren – werkwoordstijden (groep 4)",
-      "sv": "Verbets tempus – dåtid, nutid och framtid: välj rätt verbform (åk 2)"
+      "sv": "Verbets tempus – dåtid, nutid och framtid: välj rätt verbform (åk 2)",
+      "da": "Junipers klokketårn – udsagnsordets tider: datid, nutid og fremtid (1. klasse)",
+      "no": "Junipers klokketårn – verbets tider: fortid, nåtid og framtid (1. trinn)",
+      "fi": "Juniperin kellotorni – verbin aikamuodot: mennyt ja nykyhetki (1. luokka)"
     },
     "page_intro": {
       "en": "An interactive Grade 1 grammar activity: help Juniper the robin keep the clock tower's three time-windows — Before, Now, and Soon. Read the time word in each sentence, then tap the verb that fits the past, present, or future. A friendly first look at using verbs to tell when something happens. Common Core L.1.1.e.",
@@ -517,7 +62,10 @@
       "pt": "Ajude o Juniper na torre do tempo: leia Ontem, Agora ou Amanhã e toque o verbo no presente, passado ou futuro. Tempos verbais para o 2º ano, com calma.",
       "it": "Juniper è un pettirosso che custodisce una torre del tempo con tre finestre: passato, presente e futuro. In questa attività i bambini leggono una frase con una parola del tempo — «Ieri», «Adesso» o «Domani» — e toccano la forma del verbo giusta, imparando a riconoscere i tempi verbali: presente, passato e futuro. Si gioca senza registrazione, direttamente nel browser, senza punteggi e senza fretta. Un'attività pensata per la classe seconda, allineata alle Indicazioni nazionali, nell'area della riflessione linguistica.",
       "nl": "In Junipers klokkentoren wijst elke klok naar een andere tijd. Juniper laat je kind een zin lezen met een tijdwoord – gisteren, nu of morgen – en dan kiest je kind de werkwoordsvorm die daarbij past: de verleden, tegenwoordige of toekomende tijd. Zo oefent je kind spelenderwijs met de tijd van het werkwoord, zonder tijdsdruk of cijfers. Deze interactieve activiteit sluit aan bij de SLO-kerndoelen voor taal in groep 4.",
-      "sv": "Barnet läser en mening med ett tidsord – i går, just nu eller i morgon – och trycker på det verb som passar tiden. Nio meningar, i ny ordning varje gång. Åk 2, Lgr22."
+      "sv": "Barnet läser en mening med ett tidsord – i går, just nu eller i morgon – och trycker på det verb som passar tiden. Nio meningar, i ny ordning varje gång. Åk 2, Lgr22.",
+      "da": "I Junipers klokketårn fremkalder hvert udsagnsord sig selv: datid bliver et stillestående foto, nutid et levende vindue og fremtid en lukket konvolut. Tidsordet i sætningen – i går, lige nu, i morgen – sender kortet til albummet, vindueskarmen eller brevsprækken, og hver åbning tager kun sin egen slags. Senere læser barnet udsagnsordet og vælger tidsordet, finder datid og navneform og skriver navneformen. Interaktiv grammatikøvelse til 1. klasse i tråd med Fælles Mål.",
+      "no": "I Junipers klokketårn fremkaller hvert verb seg selv: fortid blir et stille bilde, nåtid et levende vindu og framtid en lukket konvolutt. Tidsordet i setningen – i går, akkurat nå, i morgen – sender kortet til albumet, vinduskarmen eller brevsprekken, og hver åpning tar bare sin egen sort. Senere leser barnet verbet og velger tidsordet, finner fortid og infinitiv og skriver infinitiven. Interaktiv grammatikkøvelse for 1. trinn i tråd med LK20.",
+      "fi": "Juniperin kellotornissa jokainen verbi kehittyy kuvaksi: mennyt aika muuttuu pysähtyneeksi valokuvaksi ja nykyhetki eläväksi ikkunaksi. Aikasana – eilen, nyt, huomenna – lähettää kortin albumiin, ikkunalaudalle tai postiluukkuun. Suomessa ei ole futuuria, joten nykyhetken ikkunassa on luukku, joka sopii myös postiluukkuun: huomisesta puhutaan preesensillä. Myöhemmin lapsi lukee verbin ja valitsee aikasanan, yhdistää menneen ajan perusmuotoon ja kirjoittaa perusmuodon. Vuorovaikutteinen kielioppitehtävä 1. luokalle (OPS 2014)."
     },
     "kid_prompt_template": "tense"
   }

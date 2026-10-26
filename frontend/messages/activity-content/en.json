@@ -4358,25 +4358,25 @@
     },
     "tense.past-present-future.l-1-1-e": {
       "about": [
-        "Juniper the robin tends a clock tower with three time-windows — Before, Now, and Soon — and the child picks the verb that matches. Given \"Yesterday the boats ___\" or \"Tomorrow the sailors ___,\" the child taps sailed, sail, or will sail, with tricky irregulars like went and ran in the mix. This interactive Grade 1 grammar activity plays in the browser with no sign-up.",
-        "The big idea is that the same action changes its form to tell when it happens. The time word — Yesterday, Right now, Tomorrow — is the clue, and the child has to match it to sailed, sail, or will sail. Mixing in irregular verbs means a child cannot just add -ed every time; they have to know that went is the past of go. That is the first real step into using verb tense on purpose.",
-        "It is aligned to Common Core L.1.1.e — using verbs to convey a sense of past, present, and future. No timer, no score — just calm, playful practice."
+        "The verb's form tells when something happens, and here every form turns into a thing you can hold. A sentence card has a time word and a gap; under it lie the verb cards, and below stands a clock tower with three openings: an album sleeve for the past, a window for right now and a post slot for tomorrow.",
+        "Drop a card into the gap and press Check: the card develops. A past form becomes a still photo, a present form becomes a window where the picture keeps moving, a future form folds into a sealed envelope. Then it goes to the opening the time word names, and only the right kind fits: \"Yesterday the boats sailed on the lake\" files a photo into the album, \"Tomorrow the dogs will play in the park\" drops an envelope through the slot. Later levels bring the tricky verbs (went, ran, was), then the child reads the verb and picks the time word, matches each verb to its past, finds the verb in a sentence and writes its base form.",
+        "It is aligned to Common Core L.1.1.e: use verbs to convey a sense of past, present and future. No timer and no score."
       ],
       "practices": [
-        "Matching a verb form to a past, present, or future time word",
-        "Choosing the right tense from words like Yesterday, Right now, and Tomorrow",
-        "Forming the past tense of regular verbs like sailed and jumped",
-        "Recognizing irregular pasts like went and ran"
+        "Choose the past, present or future form that fits the time word",
+        "Use the tricky past forms: went, ran, rode, was, did, had",
+        "Read a verb and tell whether it happened, is happening or will happen",
+        "Match a verb to its past form and find the base form of a verb in a sentence"
       ],
       "howToPlay": [
-        "Read the sentence and find the time word, like Yesterday or Tomorrow.",
-        "Tap the verb that fits the past, present, or future window.",
-        "A warm check confirms a correct choice and offers an easy retry when needed."
+        "Read the time word (Yesterday, Right now or Tomorrow) and look at the cards.",
+        "Drag or tap a card into the gap, then press Check and watch where it is filed.",
+        "In the settings, choose the level: from yesterday, now and tomorrow up to writing the base form."
       ],
       "learningGoals": [
-        "Use verbs to show past, present, and future — the focus of Common Core L.1.1.e",
-        "Match verb tense to time words in a sentence",
-        "Build the verb sense that clear writing and storytelling rely on"
+        "Match the verb's form to the time it talks about.",
+        "Use common irregular past forms such as went and was.",
+        "Find the verb in a sentence and name its base form."
       ]
     },
     "tildy.measure-ruler.2-md-a-1": {

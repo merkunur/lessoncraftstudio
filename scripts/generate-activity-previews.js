@@ -79,6 +79,10 @@ function seedScript(row) {
     // the shared plank laid across the two books — the bridge the activity is built on
     return `(function(){var t=window['${g}'];if(t&&t.st&&t._pick){t._pick(t.st.answer);t._lay('across');}})();`;
   }
+  if (row.tool === 'time-frames-activity') {
+    // "Yesterday the boats sailed on the lake": the sailed card in the gap, Check pressed — it develops into a still photo and files into the album
+    return `(function(){var t=window['${g}'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(0,0);t._render2();t._drop('past');t._check();}})();`;
+  }
   if (row.tool === 'pronoun-prism-activity') {
     // "Pat saw him at the park": the he-prism in the gap turned to its target face, Check pressed — the arrow from saw lands in him
     return `(function(){var t=window['${g}'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(1,0);t._render2();t._place('he');t._turn(1);t._check();}})();`;

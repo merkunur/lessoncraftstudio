@@ -1949,25 +1949,25 @@
     },
     "tense.past-present-future.l-1-1-e": {
       "about": [
-        "Juniper, el petirrojo, tiene una torre del tiempo con tres ventanas: Pasado, Presente y Futuro. Una ventana se ilumina con una pista de tiempo (Ayer, Hoy o Mañana) y el niño toca la forma del verbo que corresponde entre tres opciones.",
-        "La idea central es sencilla y poderosa: el verbo cambia de forma según el tiempo. Con ejemplos claros como navegan, navegaron y navegarán, el niño descubre cómo una misma acción se dice distinto en presente, en pasado y en futuro.",
-        "Se trata de una actividad interactiva para 2.º de primaria, con un tono cálido y sin cronómetro. Se juega directamente en el navegador, sin necesidad de registrarse, y está alineada a los Planes y programas de estudio (SEP)."
+        "La forma del verbo dice cuándo pasa algo, y aquí cada forma se vuelve algo que se puede tocar. Una tarjeta trae una oración con una palabra de tiempo y un hueco; debajo están las tarjetas de verbos, y abajo una torre del reloj con tres aberturas: una funda de álbum para el pasado, una ventana para ahora mismo y una ranura de buzón para mañana.",
+        "Pon una tarjeta en el hueco y comprueba: la tarjeta se revela. El pasado se vuelve una foto quieta, el presente una ventana donde la imagen se mueve, el futuro un sobre sellado. Luego va a la abertura que nombra la palabra de tiempo, y solo entra la forma correcta: «Ayer los barcos navegaron en el lago» guarda una foto en el álbum, «Mañana los perros jugarán en el parque» echa un sobre por la ranura.",
+        "Los niveles siguientes traen verbos difíciles (fueron, anduvieron, estuvo); luego el niño lee el verbo y elige la palabra de tiempo, une cada verbo con su pasado, encuentra el verbo en la oración y escribe su infinitivo. De acuerdo con los programas de estudio de la SEP. Sin reloj y sin puntos."
       ],
       "practices": [
-        "Elegir la forma del verbo que corresponde a cada tiempo, guiándose por la pista que aparece en la ventana iluminada.",
-        "Distinguir con seguridad entre presente, pasado y futuro dentro de una misma oración.",
-        "Observar que el verbo cambia según el tiempo y que esa transformación es la que nos dice cuándo ocurre la acción.",
-        "Fijarse en las pequeñas diferencias de forma entre opciones muy parecidas, por ejemplo navegan, navegaron y navegarán."
+        "Elegir la forma del verbo que va con ayer, ahora mismo o mañana",
+        "Usar pasados irregulares como fueron, anduvieron y estuvo",
+        "Leer un verbo y decir si ya pasó, está pasando o va a pasar",
+        "Encontrar el verbo en la oración y decir su infinitivo"
       ],
       "howToPlay": [
-        "Una de las tres ventanas de la torre se ilumina y muestra su pista de tiempo: Ayer para el pasado, Hoy para el presente y Mañana para el futuro.",
-        "Lee con calma las tres formas del verbo que aparecen y toca la que coincide con el tiempo señalado.",
-        "Si la respuesta no es la correcta, Juniper da una pista amable y el niño puede intentarlo de nuevo cuantas veces quiera, sin presión ni puntaje."
+        "Lee la palabra de tiempo (Ayer, Ahora mismo o Mañana) y mira las tarjetas.",
+        "Arrastra o toca una tarjeta para ponerla en el hueco; luego comprueba y mira adónde va.",
+        "En los ajustes eliges el nivel: de ayer, ahora y mañana hasta escribir el infinitivo."
       ],
       "learningGoals": [
-        "Al terminar, el niño de segundo grado de primaria (aproximadamente 7 a 8 años) distingue con confianza los tres tiempos verbales: presente, pasado y futuro.",
-        "Comprende que el verbo cambia de forma con el tiempo y aprende a reconocer esa diferencia en distintas oraciones.",
-        "Sienta las bases para escribir textos más claros, usando los tiempos verbales correctos según el momento en que ocurren las acciones."
+        "Hacer que la forma del verbo coincida con el tiempo de la oración.",
+        "Usar pasados irregulares frecuentes.",
+        "Encontrar el verbo en una oración y nombrar su infinitivo."
       ]
     },
     "plural.irregular.l-2-1-b": {

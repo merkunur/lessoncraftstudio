@@ -3278,6 +3278,29 @@
         "Vælge formen efter opgaven i sætningen.",
         "Forbinde et stedord med det navn, det står for."
       ]
+    },
+    "tense.past-present-future.l-1-1-e": {
+      "about": [
+        "Udsagnsordets form fortæller, hvornår noget sker, og her bliver hver form til en ting, man kan holde i hånden. På et sætningskort står et tidsord og et hul; under det ligger kortene med udsagnsord, og nederst står et klokketårn med tre åbninger: en albumlomme til det, der er sket, et vindue til lige nu og en brevsprække til i morgen.",
+        "Læg et kort i hullet og tjek: kortet fremkaldes. Datid bliver et stille foto, nutid et vindue, hvor billedet bevæger sig, og fremtid et forseglet brev. Så går det hen til den åbning, tidsordet peger på, og kun den rigtige slags passer: ”Bådene sejlede på søen i går” sætter et foto i albummet, ”Hundene skal lege i parken i morgen” smider et brev gennem sprækken.",
+        "Senere niveauer har svære udsagnsord (fløj, kørte, var); derefter læser barnet udsagnsordet og vælger tidsord, sætter udsagnsord sammen med deres datid, finder udsagnsordet i sætningen og skriver navneformen. I tråd med Fælles Mål. Uden tidtagning og uden point."
+      ],
+      "practices": [
+        "Vælge den form af udsagnsordet, der passer til i går, lige nu eller i morgen",
+        "Bruge uregelmæssige datidsformer som fløj, kørte og var",
+        "Læse et udsagnsord og afgøre, om det er sket, sker nu eller skal ske",
+        "Finde udsagnsordet i en sætning og sige navneformen"
+      ],
+      "howToPlay": [
+        "Læs tidsordet (i går, lige nu eller i morgen), og se på kortene.",
+        "Træk eller tryk på et kort, så det lander i hullet, tjek og se, hvor det havner.",
+        "I indstillingerne vælger du niveau: fra i går, nu og i morgen til at skrive navneformen."
+      ],
+      "learningGoals": [
+        "Lade udsagnsordets form passe til den tid, sætningen handler om.",
+        "Bruge almindelige uregelmæssige datidsformer.",
+        "Finde udsagnsordet i en sætning og sige navneformen."
+      ]
     }
   }
 }

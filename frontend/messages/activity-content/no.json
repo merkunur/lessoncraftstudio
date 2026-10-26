@@ -3306,6 +3306,29 @@
         "Velge formen etter oppgaven i setningen.",
         "Knytte et pronomen til navnet det står for."
       ]
+    },
+    "tense.past-present-future.l-1-1-e": {
+      "about": [
+        "Verbets form forteller når noe skjer, og her blir hver form en ting man kan holde i hånden. På et setningskort står et tidsord og et hull; under det ligger verbkortene, og nederst står et klokketårn med tre åpninger: en albumlomme for det som har skjedd, et vindu for akkurat nå og en brevsprekk for i morgen.",
+        "Legg et kort i hullet og sjekk: kortet fremkalles. Fortid blir et stille bilde, nåtid et vindu der bildet beveger seg, og framtid et forseglet brev. Så går det til åpningen tidsordet peker på, og bare riktig sort passer: «Båtene seilte på vannet i går» setter et bilde i albumet, «Hundene skal leke i parken i morgen» slipper et brev gjennom sprekken.",
+        "Senere nivåer har vanskelige verb (fløy, dro, var); deretter leser barnet verbet og velger tidsord, finner fortiden til hvert verb, finner verbet i setningen og skriver infinitiven. I tråd med LK20. Uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Velge den verbformen som passer til i går, akkurat nå eller i morgen",
+        "Bruke uregelrette fortidsformer som fløy, gikk og var",
+        "Lese et verb og avgjøre om det har skjedd, skjer nå eller skal skje",
+        "Finne verbet i en setning og si infinitiven"
+      ],
+      "howToPlay": [
+        "Les tidsordet (i går, akkurat nå eller i morgen) og se på kortene.",
+        "Dra eller trykk på et kort så det havner i hullet, sjekk så og se hvor det går.",
+        "I innstillingene velger du nivå: fra i går, nå og i morgen til å skrive infinitiven."
+      ],
+      "learningGoals": [
+        "La verbets form passe til tiden setningen handler om.",
+        "Bruke vanlige uregelrette fortidsformer.",
+        "Finne verbet i en setning og si infinitiven."
+      ]
     }
   }
 }

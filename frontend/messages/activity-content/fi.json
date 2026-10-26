@@ -3278,6 +3278,29 @@
         "Valita muoto lauseen tehtävän mukaan.",
         "Yhdistää pronomini nimeen, jonka tilalla se on."
       ]
+    },
+    "tense.past-present-future.l-1-1-e": {
+      "about": [
+        "Verbin muoto kertoo, milloin jotain tapahtuu, ja tässä jokainen muoto muuttuu esineeksi, jota voi pitää kädessä. Lausekortissa on aikasana ja aukko; sen alla ovat verbikortit, ja alimpana seisoo kellotorni, jossa on kolme aukkoa: albumin tasku menneelle, ikkuna tälle hetkelle ja postiluukku huomiselle.",
+        "Pudota kortti aukkoon ja tarkista: kortti kehittyy. Mennyt aika muuttuu pysähtyneeksi valokuvaksi ja preesens ikkunaksi, jossa kuva liikkuu. Suomessa ei ole omaa tulevaa aikamuotoa, joten preesensin ikkunassa on luukku: se sopii sekä ikkunaan että postiluukkuun. Kortti kulkee siihen aukkoon, jonka aikasana nimeää: ”Eilen vene purjehti järvellä” vie valokuvan albumiin, ”Huomenna koira leikkii puistossa” vie luukullisen ikkunan postiluukkuun.",
+        "Myöhemmillä tasoilla tulevat hankalat verbit (lensi, oli), sitten lapsi lukee verbin ja valitsee aikasanan, yhdistää verbit menneen ajan muotoon, etsii lauseen verbin ja kirjoittaa sen perusmuodon. Perusopetuksen opetussuunnitelman mukainen. Ei ajanottoa eikä pisteitä."
+      ],
+      "practices": [
+        "Valita verbin muoto, joka sopii sanoihin eilen, nyt ja huomenna",
+        "Huomata, että preesens kertoo sekä nykyhetkestä että huomisesta",
+        "Käyttää hankalia menneen ajan muotoja kuten lensi ja oli",
+        "Etsiä lauseen verbi ja sanoa sen perusmuoto"
+      ],
+      "howToPlay": [
+        "Lue aikasana (Eilen, Juuri nyt tai Huomenna) ja katso kortteja.",
+        "Vedä tai napauta kortti aukkoon, tarkista ja katso, minne se menee.",
+        "Asetuksista valitset tason: eilisestä, nykyhetkestä ja huomisesta perusmuodon kirjoittamiseen."
+      ],
+      "learningGoals": [
+        "Sovittaa verbin muoto siihen aikaan, josta lause kertoo.",
+        "Käyttää yleisiä menneen ajan muotoja.",
+        "Löytää lauseen verbi ja sanoa sen perusmuoto."
+      ]
     }
   }
 }

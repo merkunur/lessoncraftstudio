@@ -88,3 +88,6 @@ The reviewer found no compound risk in de/nl/sv/da/no (every item is a separate 
 - Level 2 and the 320 px lists pushed Pack below the fold.
 - The lid floated above the case.
 - Squashed things sat apart; they are now pushed together.
+
+## Live
+`live-verify-divider-case.js` on production, 2026-10-26: **52 pass, 0 fail.** All 11 pages return 200, and en, de, sv and fi at 1366 and 390 embed divider-case-activity.html at wrapper 9.874. With a real pointer, a comma after the lead plus a missing first comma packs to an empty left pocket and a squashed pair, with the hint. The right commas shut the lid and show the success line, and the iframe grows with the card. The first run saw the old page in the cache window; once curl showed 9.874 in every checked locale, the second run was clean.

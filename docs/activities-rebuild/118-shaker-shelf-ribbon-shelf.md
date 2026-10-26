@@ -80,4 +80,4 @@ ONE native + Grade-1 reading reviewer over all 11 locales. No round or picture d
 - **Renders read** at 360, 704 and 1024 (en, de, sv, fi). They found the empty-box shelves (redrawn as shelves with a spool and springs), a phone-shaped shaker symbol (now a book with shake lines), the open-book animation replaying on every repaint, and mid-word breaks in German titles (titles now wrap only at spaces).
 
 ## Live
-LIVEVERIFY: pending.
+`live-verify-bea-two-bookshelves.js` on production: **60 pass, 0 fail**. All 11 pages return 200 with wrapper 9.862. Real pointer in en, de, sv and fi at 1366 and 390: a wrong book opens to its pages in order, fails the asked shelf's test with the locale's hint and returns to the desk; the right book passes with the success line naming it and the spine band. The iframe grows with the card. The first run fell inside the deploy window (the fi pages still served the old embed) and was rerun once.

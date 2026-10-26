@@ -3237,6 +3237,29 @@
         "Lese en linje, en overskrift eller en betydning før du velger.",
         "Vite hvilken del av ei bok som svarer på hvilken type spørsmål."
       ]
+    },
+    "hattie-whose-is-it.possessive.l-1-1-b": {
+      "about": [
+        "Hattie har et hittegods. En eier står på en hylle under en messingkrok, den mistede tingen ligger i kurven, og nederst ligger ordene med en luke. Med riktig brikke henger tingen hos eieren. Hatties hittegods er en grammatikkøvelse i eieform på navn og ord.",
+        "Navn får bare en s, uten apostrof: «Annas ball». Slutter navnet på s, x eller z, får det bare en apostrof: «Jonas’ drage». Ord i bestemt form får også en s: «hundens ball». Med feil brikke glir kroken av, og tingen faller tilbake i kurven.",
+        "Øvelsen følger LK20 for norsk. Ingen tidtaking og ingen poeng."
+      ],
+      "practices": [
+        "Skrive eieform-s på navn uten apostrof",
+        "Skrive apostrof etter s, x og z",
+        "Skrive eieform på ord i bestemt form",
+        "Kjenne igjen feil apostrof"
+      ],
+      "howToPlay": [
+        "Se på hylla og kurven. Trykk på en brikke for å sette den i luka; trykk igjen for å ta den ut.",
+        "Se hva som skjer: Riktig brikke henger tingen hos eieren, feil brikke glir av. Trykk så på Sjekk.",
+        "I innstillingene velger du: Navn, Navn og ord eller Blandet. Krokene kan vises eller tas bort."
+      ],
+      "learningGoals": [
+        "Skrive eieform på navn og ord.",
+        "Skrive bare apostrof etter s, x og z.",
+        "Unngå apostrof foran eieform-s."
+      ]
     }
   }
 }

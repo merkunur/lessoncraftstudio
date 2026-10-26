@@ -4497,6 +4497,29 @@
         "Usar la palabra de la que depende el sentido para elegir, revisar y corregir.",
         "Probar una respuesta con una oración del texto."
       ]
+    },
+    "hattie-whose-is-it.possessive.l-1-1-b": {
+      "about": [
+        "Hattie cuida los objetos perdidos. Un dueño está en una repisa bajo un gancho de latón, la cosa perdida espera en la canasta y abajo están las palabras con un hueco. Con la palabrita correcta, la cosa se cuelga en su dueño. Los objetos perdidos de Hattie es una actividad de gramática sobre cómo decir de quién es algo.",
+        "Con un nombre va «de»: «la pelota de Ana». Con un animal, la palabrita depende de el o la: «la pelota del perro», «la cubeta de la vaca». Con la palabrita equivocada, el gancho se resbala y la cosa vuelve a caer en la canasta.",
+        "La actividad está alineada con el programa oficial de español. Sin cronómetro y sin puntos."
+      ],
+      "practices": [
+        "Usar «de» con un nombre",
+        "Elegir «del» o «de la» según el animal",
+        "Escuchar el o la para elegir la palabrita",
+        "Decir de quién es cada cosa"
+      ],
+      "howToPlay": [
+        "Mira la repisa y la canasta. Toca una palabrita para ponerla en el hueco; tócala otra vez para quitarla.",
+        "Mira qué pasa: la palabrita correcta cuelga la cosa en su dueño, una equivocada se resbala. Luego presiona Comprobar.",
+        "En la configuración eliges: Nombres y animales, ¿Del o de la? o Mezcla. Los ganchos se pueden mostrar o quitar."
+      ],
+      "learningGoals": [
+        "Decir de quién es algo con de, del y de la.",
+        "Escuchar el o la para elegir la palabrita.",
+        "Usar nombres propios y comunes."
+      ]
     }
   }
 }

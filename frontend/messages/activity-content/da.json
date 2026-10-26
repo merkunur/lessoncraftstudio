@@ -3209,6 +3209,29 @@
         "Læse en linje, en overskrift eller en betydning, før man vælger.",
         "Vide, hvilken del af en bog der svarer på hvilken slags spørgsmål."
       ]
+    },
+    "hattie-whose-is-it.possessive.l-1-1-b": {
+      "about": [
+        "Hattie har et hittegods. En ejer står på en hylde under en messingkrog, den tabte ting ligger i kurven, og nederst ligger ordene med et hul. Med den rigtige brik hænger tingen hos ejeren. Hatties hittegods er en grammatikøvelse i ejefald på navne og ord.",
+        "Navne får kun et s, uden apostrof: ”Annas bold”. Ender navnet på s, x eller z, får det kun en apostrof: ”Jonas’ drage”. Ord i bestemt form får også et s: ”hundens bold”. Med den forkerte brik glider krogen af, og tingen falder tilbage i kurven.",
+        "Øvelsen følger Fælles Mål for dansk. Ingen tidtagning og ingen point."
+      ],
+      "practices": [
+        "Skrive ejefalds-s på navne uden apostrof",
+        "Skrive apostrof efter s, x og z",
+        "Skrive ejefald på ord i bestemt form",
+        "Kende den forkerte apostrof"
+      ],
+      "howToPlay": [
+        "Se på hylden og kurven. Tryk på en brik for at sætte den i hullet; tryk igen for at tage den ud.",
+        "Se, hvad der sker: Den rigtige brik hænger tingen hos ejeren, en forkert glider af. Tryk så på Tjek.",
+        "I indstillingerne vælger du: Navne, Navne og ord eller Blandet. Krogene kan vises eller fjernes."
+      ],
+      "learningGoals": [
+        "Skrive ejefald på navne og ord.",
+        "Skrive kun en apostrof efter s, x og z.",
+        "Undgå apostrof før ejefalds-s."
+      ]
     }
   }
 }

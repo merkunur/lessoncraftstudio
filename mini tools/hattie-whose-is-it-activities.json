@@ -1,7 +1,7 @@
 [
   {
     "id": "hattie-whose-is-it.possessive.l-1-1-b",
-    "tool": "hattie-whose-is-it-activity",
+    "tool": "hook-tile-activity",
     "task_template": "possessive",
     "alignment": {
       "framework": "CCSS",
@@ -10,207 +10,19 @@
       "strand": "Language"
     },
     "params": {
-      "rounds": [
-        {
-          "id": "dog",
-          "band": 1,
-          "noun": "dog",
-          "thing": "bone",
-          "slot": 0
-        },
-        {
-          "id": "cat",
-          "band": 1,
-          "noun": "cat",
-          "thing": "ball",
-          "slot": 1
-        },
-        {
-          "id": "bird",
-          "band": 1,
-          "noun": "bird",
-          "thing": "nest",
-          "slot": 2
-        },
-        {
-          "id": "girl",
-          "band": 2,
-          "noun": "girl",
-          "thing": "hat",
-          "slot": 0
-        },
-        {
-          "id": "boy",
-          "band": 2,
-          "noun": "boy",
-          "thing": "kite",
-          "slot": 1
-        },
-        {
-          "id": "duck",
-          "band": 2,
-          "noun": "duck",
-          "thing": "egg",
-          "slot": 2
-        },
-        {
-          "id": "king",
-          "band": 3,
-          "noun": "king",
-          "thing": "crown",
-          "slot": 0
-        },
-        {
-          "id": "frog",
-          "band": 3,
-          "noun": "frog",
-          "thing": "log",
-          "slot": 1
-        }
+      "level": [
+        "1",
+        "2",
+        "3"
       ],
-      "roundsL10n": {
-        "de": [
-          {
-            "id": "anna",
-            "band": 1,
-            "noun": "Anna",
-            "thing": "Ball",
-            "slot": 0
-          },
-          {
-            "id": "ben",
-            "band": 1,
-            "noun": "Ben",
-            "thing": "Roller",
-            "slot": 1
-          },
-          {
-            "id": "papa",
-            "band": 1,
-            "noun": "Papa",
-            "thing": "Auto",
-            "slot": 2
-          },
-          {
-            "id": "mia",
-            "band": 2,
-            "noun": "Mia",
-            "thing": "Buch",
-            "slot": 0
-          },
-          {
-            "id": "tom",
-            "band": 2,
-            "noun": "Tom",
-            "thing": "Mütze",
-            "slot": 1
-          },
-          {
-            "id": "oma",
-            "band": 2,
-            "noun": "Oma",
-            "thing": "Brille",
-            "slot": 2
-          },
-          {
-            "id": "lina",
-            "band": 3,
-            "noun": "Lina",
-            "thing": "Schultasche",
-            "slot": 0
-          },
-          {
-            "id": "emil",
-            "band": 3,
-            "noun": "Emil",
-            "thing": "Fahrrad",
-            "slot": 1
-          }
-        ],
-        "pt": [
-          {
-            "id": "ana",
-            "band": 1,
-            "noun": "Ana",
-            "ownerG": "f",
-            "thing": "bola",
-            "thingG": "f",
-            "slot": 0
-          },
-          {
-            "id": "teo",
-            "band": 1,
-            "noun": "Téo",
-            "ownerG": "m",
-            "thing": "pião",
-            "thingG": "m",
-            "slot": 1
-          },
-          {
-            "id": "bia",
-            "band": 1,
-            "noun": "Bia",
-            "ownerG": "f",
-            "thing": "pipa",
-            "thingG": "f",
-            "slot": 2
-          },
-          {
-            "id": "leo",
-            "band": 2,
-            "noun": "Léo",
-            "ownerG": "m",
-            "thing": "livro",
-            "thingG": "m",
-            "slot": 0
-          },
-          {
-            "id": "gui",
-            "band": 2,
-            "noun": "Gui",
-            "ownerG": "m",
-            "thing": "tênis",
-            "thingG": "m",
-            "slot": 1
-          },
-          {
-            "id": "lia",
-            "band": 2,
-            "noun": "Lia",
-            "ownerG": "f",
-            "thing": "mochila",
-            "thingG": "f",
-            "slot": 2
-          },
-          {
-            "id": "caio",
-            "band": 3,
-            "noun": "Caio",
-            "ownerG": "m",
-            "thing": "chapéu",
-            "thingG": "m",
-            "slot": 0
-          },
-          {
-            "id": "nina",
-            "band": 3,
-            "noun": "Nina",
-            "ownerG": "f",
-            "thing": "boneca",
-            "thingG": "f",
-            "slot": 1
-          }
-        ],
-        "nl": [
-          { "id": "anna", "band": 1, "noun": "Anna", "thing": "bal",   "slot": 0 },
-          { "id": "ben",  "band": 1, "noun": "Ben",  "thing": "pen",   "slot": 1 },
-          { "id": "romy", "band": 1, "noun": "Romy", "thing": "step",  "slot": 2 },
-          { "id": "tom",  "band": 2, "noun": "Tom",  "thing": "muts",  "slot": 0 },
-          { "id": "kim",  "band": 2, "noun": "Kim",  "thing": "boek",  "slot": 1 },
-          { "id": "milo", "band": 2, "noun": "Milo", "thing": "fiets", "slot": 2 },
-          { "id": "daan", "band": 3, "noun": "Daan", "thing": "jas",   "slot": 0 },
-          { "id": "sem",  "band": 3, "noun": "Sem",  "thing": "tas",   "slot": 1 }
-        ]
+      "hook": [
+        "show",
+        "plain"
+      ],
+      "rounds": {
+        "1": 9,
+        "2": 9,
+        "3": 9
       }
     },
     "theme": null,
@@ -218,19 +30,40 @@
       "en": "hattie-whose-is-it",
       "de": "genitiv-s-bei-namen-apostroph",
       "pt": "de-quem-e-do-ou-da",
-      "nl": "bezittelijke-s-bij-namen-annas-of-bens-groep-5"
+      "nl": "bezittelijke-s-bij-namen-annas-of-bens-groep-5",
+      "fr": "les-objets-trouves-de-hattie-de-du-de-la-cp",
+      "es": "los-objetos-perdidos-de-hattie-de-del-de-la-primero",
+      "it": "gli-oggetti-smarriti-di-hattie-di-del-della-classe-prima",
+      "sv": "hatties-hittegods-genitiv-s-ak-1",
+      "da": "hatties-hittegods-ejefald-med-s-1-klasse",
+      "no": "hatties-hittegods-eieform-med-s-1-trinn",
+      "fi": "hattien-loytotavarat-kenen-genetiivi-1-luokka"
     },
     "page_title": {
       "en": "Hattie's Whose-Is-It — Possessive Nouns (Grade 1)",
       "de": "Genitiv-s bei Namen richtig schreiben – Annas oder Anna's?",
       "pt": "De quem é? Do ou da que combina com o dono — 2º ano",
-      "nl": "Bezittelijke -s bij namen: Anna's of Annas? (groep 5)"
+      "nl": "Bezittelijke -s bij namen: Anna's of Annas? (groep 5)",
+      "fr": "Les objets trouvés de Hattie – de, du, de la (CP)",
+      "es": "Los objetos perdidos de Hattie – de, del, de la (primer grado de primaria)",
+      "it": "Gli oggetti smarriti di Hattie – di, del, della (classe prima)",
+      "sv": "Hatties hittegods – genitiv-s på namn och ord (åk 1)",
+      "da": "Hatties hittegods – ejefald med s (1. klasse)",
+      "no": "Hatties hittegods – eieform med s (1. trinn)",
+      "fi": "Hattien löytötavarat – kenen? (1. luokka)"
     },
     "page_intro": {
       "en": "Hattie the hedgehog runs the lost-and-found! When ONE owner owns something, we add an apostrophe and an s — the dog's bone. Read who owns it, then tap the word that shows ONE owner. A Grade 1 grammar game about possessive nouns, aligned to Common Core L.1.1.b.",
       "de": "Interaktiv: Dein Kind übt in der Grundschule das Genitiv-s bei Namen – „Annas Ball“, nicht „Anna's“. Ohne Zeitdruck, ohne Punkte, zum Vorlesen.",
       "pt": "No acha-e-perde da Tuca, a ouriça, cada criança perdeu uma coisa e precisa achar o dono. Você escolhe do ou da conforme o dono ser menino ou menina. Uma atividade de gramática alinhada à BNCC, para o 2º ano.",
-      "nl": "Interactief spel waarin je kind de bezittelijke -s bij namen oefent: apostrof-'s na een klinker (Anna's bal) en een kale -s na een medeklinker (Bens pen). Afgestemd op de SLO-kerndoelen voor groep 5, met alles voorgelezen en zonder tijd of punten."
+      "nl": "Interactief spel waarin je kind de bezittelijke -s bij namen oefent: apostrof-'s na een klinker (Anna's bal) en een kale -s na een medeklinker (Bens pen). Afgestemd op de SLO-kerndoelen voor groep 5, met alles voorgelezen en zonder tijd of punten.",
+      "fr": "Dans les objets trouvés de Hattie, chaque objet perdu attend son propriétaire. On choisit le petit mot qui va avec lui : de ou d’ devant un prénom, du, de la ou de l’ devant un nom. Avec le bon mot, l’objet s’accroche à son propriétaire ; avec le mauvais, il retombe dans le panier. Une activité de grammaire interactive pour le CP, alignée sur les programmes officiels.",
+      "es": "En los objetos perdidos de Hattie, cada cosa espera a su dueño. Se elige la palabrita correcta: de con un nombre, del o de la con un animal. Con la correcta, la cosa se cuelga en su dueño; con la equivocada, vuelve a caer en la canasta. Una actividad interactiva de gramática para primer grado de primaria, alineada con el programa oficial.",
+      "it": "Negli oggetti smarriti di Hattie ogni cosa aspetta il suo proprietario. Si sceglie la parolina giusta: di con un nome, del, della, dello o dell’ con un animale. Con quella giusta l’oggetto si appende al suo proprietario; con quella sbagliata ricade nel cesto. Un’attività interattiva di grammatica per la classe prima, allineata alle Indicazioni nazionali.",
+      "sv": "I Hatties hittegods väntar varje borttappad sak på sin ägare. Barnet väljer rätt slut: Annas boll, hundens boll – men Jonas bil utan extra s. Med rätt slut hänger saken hos ägaren; med fel slut faller den tillbaka i korgen. Interaktiv grammatikövning om genitiv för åk 1 enligt Lgr22.",
+      "da": "I Hatties hittegods venter hver tabt ting på sin ejer. Barnet vælger den rigtige endelse: Annas bold, hundens bold – men Jonas’ drage med apostrof. Med den rigtige endelse hænger tingen hos ejeren; med den forkerte falder den tilbage i kurven. Interaktiv grammatikøvelse i ejefald til 1. klasse i tråd med Fælles Mål.",
+      "no": "I Hatties hittegods venter hver mistet ting på eieren sin. Barnet velger riktig ending: Annas ball, hundens ball – men Jonas’ drage med apostrof. Med riktig ending henger tingen hos eieren; med feil ending faller den tilbake i kurven. Interaktiv grammatikkøvelse i eieform for 1. trinn i tråd med LK20.",
+      "fi": "Hattien löytötavaroissa jokainen kadonnut tavara odottaa omistajaansa. Lapsi valitsee oikean palan: Annan pallo, koiran pallo – mutta koirat, kun koiria on monta. Oikealla palalla tavara ripustuu omistajalleen; väärällä se putoaa takaisin koriin. Vuorovaikutteinen kielioppitehtävä 1. luokalle (OPS 2014)."
     },
     "kid_prompt_template": "Tap the word that shows ONE owner owns it."
   }

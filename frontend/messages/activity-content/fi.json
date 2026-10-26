@@ -3209,6 +3209,29 @@
         "Rivin, otsikon tai merkityksen lukeminen ennen valintaa.",
         "Tieto siitä, mikä kirjan osa vastaa millaiseen kysymykseen."
       ]
+    },
+    "hattie-whose-is-it.possessive.l-1-1-b": {
+      "about": [
+        "Hattie hoitaa löytötavaroita. Omistaja seisoo hyllyllä messinkikoukun alla, kadonnut tavara odottaa korissa, ja alhaalla on sana, jossa on aukko. Oikealla palalla tavara ripustuu omistajalleen. Hattien löytötavarat on kielioppitehtävä genetiivistä ja monikosta.",
+        "Kenen? Sanaan tulee n: ”koiran pallo”, ”Annan pallo”. Jos lapsi valitsee t:n, hyllylle ilmestyy toinen koira – koirat tarkoittaa, että koiria on monta – ja pallo jää koriin. Kun hyllyllä seisoo jo monta eikä ole mitään ripustettavaa, oikea pala on t ja koukku jää roikkumaan tyhjänä.",
+        "Tehtävä noudattaa opetussuunnitelman (OPS 2014) tavoitteita. Ei ajanottoa eikä pisteitä."
+      ],
+      "practices": [
+        "Erottaa genetiivin n ja monikon t",
+        "Kirjoittaa kenen-muoto: koiran pallo",
+        "Kirjoittaa nimen genetiivi: Annan pallo",
+        "Lukea lause ja päättää: yksi vai monta?"
+      ],
+      "howToPlay": [
+        "Katso hyllyä ja koria. Napauta palaa, niin se menee aukkoon; napauta uudestaan, niin se lähtee pois.",
+        "Katso, mitä tapahtuu: n ripustaa tavaran omistajalle, t tekee omistajia lisää. Paina sitten Tarkista.",
+        "Asetuksista valitset: Kenen? Vai monta?, Lauseet tai Nimet. Koukut voi näyttää tai jättää pois."
+      ],
+      "learningGoals": [
+        "Käyttää genetiiviä: kenen se on?",
+        "Erottaa genetiivin n ja monikon t.",
+        "Kirjoittaa nimen genetiivi."
+      ]
     }
   }
 }

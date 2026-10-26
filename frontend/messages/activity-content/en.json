@@ -2161,25 +2161,25 @@
     },
     "hattie-whose-is-it.possessive.l-1-1-b": {
       "about": [
-        "Hattie the hedgehog runs the lost-and-found, where everything belongs to one owner — the dog's bone, the cat's ball, the bird's nest, the king's crown — and each round names an owner and the thing they own so the child can tap the word that shows ONE owner owns it. It's an interactive Grade 1 grammar activity that runs in the browser, with no account.",
-        "The big idea is the singular possessive: when one owner owns something, we add an apostrophe and an s. The child has to spot the form with the apostrophe in the right place rather than a plain plural that just adds s, so the choice turns on punctuation and meaning, not just spelling. Tying each one to a found object keeps the abstract apostrophe rule grounded in who the thing belongs to.",
-        "It is aligned to Common Core L.1.1.b — using singular possessive nouns, formed with an apostrophe and s. No timer, no score — just calm, playful practice."
+        "Hattie runs a lost-and-found. An owner stands on a shelf under a brass peg, a lost thing waits in the basket, and the owner's word lies on a word bar with an empty slot. The tray holds two tiles: the hooked 's and a plain s. Hattie's Whose-Is-It is a Grade 1 grammar activity about possessive nouns.",
+        "Seat the hooked 's and the ball swings up onto the dog's peg: \"dog's ball\". Seat the plain s instead and a second dog pops up on the shelf — that is what \"dogs\" means — and the ball stays in the basket. When two or three owners already stand on the shelf and there is nothing to hang, the plain s is right and the hook dangles empty. Level three adds names on name cards: \"This is Mia's kite.\"",
+        "It is aligned to Common Core L.1.1.b: use common, proper and possessive nouns. No timer and no score."
       ],
       "practices": [
-        "Forming a singular possessive by adding an apostrophe and s",
-        "Telling a possessive (dog's) apart from a plain plural (dogs)",
-        "Matching an owner to the thing they own in a short phrase",
-        "Noticing where the apostrophe belongs in the word"
+        "Tell the possessive 's from the plural s",
+        "Build possessive nouns: the dog's ball, the girl's kite",
+        "Build possessives of names: Mia's kite",
+        "Read a short sentence and decide: one owner, or more?"
       ],
       "howToPlay": [
-        "Read who owns the thing — the dog and its bone, the king and the crown.",
-        "Tap the word that shows ONE owner owns it, then press Check.",
-        "A warm check confirms a correct choice and offers an easy retry when needed."
+        "Look at the shelf and the basket. Tap a tile to put it in the slot; tap it again to take it out.",
+        "Watch what it does: the hook hangs the thing on its owner, the plain s makes more owners. Then press Check.",
+        "Choose the level in the settings: Things and owners, One or more?, or Names. The hooks can be shown or left off the tiles."
       ],
       "learningGoals": [
-        "Use singular possessive nouns with an apostrophe and s — the focus of Common Core L.1.1.b",
-        "Recognize the difference between a possessive and a plural",
-        "Build the punctuation sense that early writing depends on"
+        "Use possessive nouns, the focus of Common Core L.1.1.b.",
+        "Tell apart the possessive 's and the plural s.",
+        "Write the possessive of a name."
       ]
     },
     "hazel-word-bridge.joining-words.l-1-1-g": {

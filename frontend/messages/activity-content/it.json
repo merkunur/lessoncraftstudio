@@ -4474,6 +4474,29 @@
         "Usare la parola da cui dipende il senso per scegliere, controllare e correggere.",
         "Dimostrare una risposta con una frase del testo."
       ]
+    },
+    "hattie-whose-is-it.possessive.l-1-1-b": {
+      "about": [
+        "Hattie si occupa degli oggetti smarriti. Un proprietario sta su una mensola sotto un gancio d’ottone, l’oggetto smarrito aspetta nel cesto e sotto ci sono le parole con uno spazio vuoto. Con la parolina giusta l’oggetto si appende al suo proprietario. Gli oggetti smarriti di Hattie è un’attività di grammatica su come dire di chi è una cosa.",
+        "Con un nome si usa «di»: «la palla di Anna». Con un animale la parolina dipende dall’articolo: «la palla del cane», «il secchiello della mucca», «la ghianda dello scoiattolo», «il nido dell’uccello». Con la parolina sbagliata il gancio scivola e l’oggetto ricade nel cesto.",
+        "L’attività segue le Indicazioni nazionali per l’italiano. Senza cronometro e senza punti."
+      ],
+      "practices": [
+        "Usare «di» con un nome",
+        "Scegliere del, della, dello o dell’ secondo l’articolo",
+        "Ascoltare l’articolo per trovare la parolina",
+        "Dire di chi è ogni cosa"
+      ],
+      "howToPlay": [
+        "Guarda la mensola e il cesto. Tocca una parolina per metterla nello spazio; toccala di nuovo per toglierla.",
+        "Guarda che cosa succede: la parolina giusta appende l’oggetto al proprietario, una sbagliata scivola. Poi premi Controlla.",
+        "Nelle impostazioni scegli: Nomi e animali, Del, della, dello o dell’? oppure Misto. I ganci si possono mostrare o togliere."
+      ],
+      "learningGoals": [
+        "Dire di chi è una cosa con di, del, della, dello, dell’.",
+        "Ascoltare l’articolo per scegliere la parolina.",
+        "Usare nomi propri e comuni."
+      ]
     }
   }
 }

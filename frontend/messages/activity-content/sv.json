@@ -3849,6 +3849,29 @@
         "Läsa en rad, en rubrik eller en betydelse innan man väljer.",
         "Veta vilken del av en bok som svarar på vilken sorts fråga."
       ]
+    },
+    "hattie-whose-is-it.possessive.l-1-1-b": {
+      "about": [
+        "Hattie har ett hittegods. En ägare står på en hylla under en mässingskrok, den borttappade saken ligger i korgen, och längst ner ligger orden med en lucka. Med rätt bricka hänger saken hos ägaren. Hatties hittegods är en grammatikövning om genitiv på namn och ord.",
+        "Namn får bara ett s, utan apostrof: ”Annas boll”. Slutar namnet på s, x eller z behövs inget mer: ”Jonas bil”. Ord i bestämd form får också ett s: ”hundens boll”. Med fel bricka glider kroken av och saken faller tillbaka i korgen.",
+        "Övningen följer Lgr22 i svenska. Ingen tidtagning och inga poäng."
+      ],
+      "practices": [
+        "Skriva genitiv-s på namn utan apostrof",
+        "Veta när namnet inte behöver något s",
+        "Skriva genitiv på ord i bestämd form",
+        "Känna igen den felaktiga apostrofen"
+      ],
+      "howToPlay": [
+        "Titta på hyllan och korgen. Tryck på en bricka för att sätta den i luckan; tryck igen för att ta bort den.",
+        "Se vad som händer: rätt bricka hänger saken hos ägaren, fel bricka glider av. Tryck sedan på Kontrollera.",
+        "I inställningarna väljer du: Namn, Namn och ord eller Blandat. Krokarna kan visas eller tas bort."
+      ],
+      "learningGoals": [
+        "Skriva genitiv på namn och ord.",
+        "Veta att namn på s, x och z inte får något extra s.",
+        "Undvika apostrof i genitiv."
+      ]
     }
   }
 }

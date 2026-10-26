@@ -79,6 +79,10 @@ function seedScript(row) {
     // the shared plank laid across the two books — the bridge the activity is built on
     return `(function(){var t=window['${g}'];if(t&&t.st&&t._pick){t._pick(t.st.answer);t._lay('across');}})();`;
   }
+  if (row.tool === 'hook-tile-activity') {
+    // the first round with the right hook seated: the ball hangs on the dog's peg — the invention at work
+    return `(function(){var t=window['${g}'];if(t&&t.st&&t._start){t.FAST=true;t._start(0,0);t._render2();t._seat(t.st.rd.right);}})();`;
+  }
   if (row.tool === 'field-guide-activity') {
     // the first contents round: the right line has sent the book to its page — the book opening where it was sent
     return `(function(){var t=window['${g}'];if(t&&t.st&&t._start){t.FAST=true;t._start(0,0);t._render2();t._send(t.st.rd.part);}})();`;

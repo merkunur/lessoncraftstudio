@@ -4555,6 +4555,29 @@
         "S’appuyer sur le mot dont dépend le sens pour choisir, vérifier et corriger.",
         "Justifier une réponse par une phrase du texte."
       ]
+    },
+    "hattie-whose-is-it.possessive.l-1-1-b": {
+      "about": [
+        "Hattie tient les objets trouvés. Un propriétaire se tient sur une étagère sous un crochet en laiton, l’objet perdu attend dans le panier, et en bas les mots attendent avec une case vide. Avec le bon petit mot, l’objet s’accroche à son propriétaire. Les objets trouvés de Hattie est une activité de grammaire sur le complément du nom.",
+        "Devant un prénom, on met de, ou d’ devant une voyelle : « le cerf-volant de Mia », « le ballon d’Anna ». Devant un nom, le petit mot dépend de l’article : « le ballon du chien », « le fromage de la souris », « le nid de l’oiseau ». Avec le mauvais petit mot, le crochet glisse et l’objet retombe dans le panier.",
+        "L’activité est alignée sur les programmes officiels de français. Sans chronomètre et sans points."
+      ],
+      "practices": [
+        "Choisir de ou d’ devant un prénom",
+        "Choisir du, de la ou de l’ devant un nom",
+        "Écouter l’article du nom pour trouver le petit mot",
+        "Dire à qui appartient un objet"
+      ],
+      "howToPlay": [
+        "Regarde l’étagère et le panier. Touche un petit mot pour le mettre dans la case ; touche-le encore pour le retirer.",
+        "Regarde ce qui se passe : le bon petit mot accroche l’objet à son propriétaire, un mauvais glisse. Puis appuie sur Vérifier.",
+        "Dans les réglages, choisis : Prénoms, Du, de la ou de l’ ? ou Mélange. Les crochets peuvent être montrés ou non."
+      ],
+      "learningGoals": [
+        "Dire à qui est un objet avec de, d’, du, de la, de l’.",
+        "Écouter l’article pour choisir le petit mot.",
+        "Utiliser les prénoms et les noms."
+      ]
     }
   }
 }

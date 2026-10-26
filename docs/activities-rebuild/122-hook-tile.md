@@ -83,4 +83,4 @@ ONE native + Grade-1 grammar reviewer over all 11 locales (every round's finishe
 - **Content:** `verify-activity-content-<loc>` ×11, `verify-activity-prose-claims`, `verify-activity-serp-copy`, `audit-activity-content-tells` and `preflight-activity-routes` all pass.
 
 ## Live
-LIVEVERIFY: pending.
+`live-verify-hook-tile.js` on production, 2026-10-26: **52 pass, 0 fail.** All 11 pages return 200; en, de, sv and fi at 1366 and 390 embed hook-tile-activity.html at wrapper 9.867; with a real pointer, a wrong tile gives its hint and the right tile hangs the thing on its owner's peg with the success line; the iframe grows with the card. The first run fell inside the Cloudflare window (the old iframe was still cached); the rerun was clean.

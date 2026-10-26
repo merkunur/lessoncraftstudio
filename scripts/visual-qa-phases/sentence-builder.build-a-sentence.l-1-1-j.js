@@ -1,135 +1,94 @@
 /* =====================================================================
-   visual-qa phase driver — sentence-builder (L.1.1.j)
+   visual-qa phase driver — sentence-builder / build-a-sentence (L.1.1.j)
+   #128 of the one-by-one rebuild: THE SENTENCE STAGE (sentence-stage-activity).
 
-   Three screens, of which the sweep had only ever seen the first:
+     open      — the theatre (the actor as a clue in level 1), an empty
+                 script line, the word blocks in the wings.
+     picked    — the sentence laid with two words swapped. ⭐ Nothing is
+                 graded yet — no flicker, no frozen stage, no hint.
+     missed    — Check: the show plays and freezes at the first word that
+                 cannot follow; that place flickers, the hint names it.
+     resolved  — the sentence + Check: the show plays to the end, the bow,
+                 every block green, the success line; 0.5 s later the
+                 shell's Next.
 
-     open      — the subject picture, four empty slots, the scrambled palette
-     wrong     — every slot filled in a NON-canonical order and Check pressed:
-                 the `hintOrder` nudge renders and NOTHING locks or dims (this
-                 activity sets `readOnly` only on success, and used tiles get
-                 `visibility:hidden` rather than a dim class). This is the state
-                 a failing child actually sees, and nothing had photographed it.
-     resolved  — the canonical order, locked, Wiggles in the happy pose, and the
-                 built sentence read aloud.
-
-   ⚠ Tiles are reached BY MODEL INDEX, never by matching their text: the palette
-   is `_tiles`, a per-seed scramble, and reaching for a control by its English
-   word is exactly how a probe silently drives the wrong element in a non-English
-   locale (this driver runs in sv as well as en). Slots fill left-to-right via
-   `_firstEmpty()`, so tapping tiles in the intended order is what builds it.
-
-   Not `terminal`: the slots and palette remain on screen after resolving, so the
-   harness's control measurements stay meaningful in the resolved phase.
+   ⚠ BLOCKS ARE REACHED BY ID (data-k="block-<id>"), NEVER BY WORD.
+   ⚠ FAST is set so a photographed state is the settled one.
    ===================================================================== */
 'use strict';
 
-const G = 'SentenceBuilderActivity';
+const G = 'SentenceStageActivity';
 
-/* click the palette tile holding the word we want next, skipping already-used ones */
-async function tapWord(page, word) {
-  const ok = await page.evaluate((g, w) => {
-    const t = window[g];
-    const i = t._tiles.findIndex((x, k) => x === w && !t._used[k]);
-    if (i < 0) return false;
-    const nodes = document.querySelectorAll('.snt-tile');
-    if (!nodes[i]) return false;
-    nodes[i].click();
-    return true;
-  }, G, word);
-  if (!ok) throw new Error('no unused palette tile for "' + word + '"');
-  await new Promise((r) => setTimeout(r, 90));
-}
-
-async function clearAll(page) {
-  await page.evaluate(() => {
-    const slots = [...document.querySelectorAll('.snt-slot')];
-    for (let i = slots.length - 1; i >= 0; i--) slots[i].click();
-  });
+async function reset(page) {
+  await page.evaluate((g) => { const t = window[g]; t.FAST = true; t._start(t.st.r, 0); t._render2(); }, G);
   await new Promise((r) => setTimeout(r, 120));
 }
-
-/* ⚠⚠ THE WRONG-ANSWER FEEDBACK IS TRANSIENT, AND THE SWEEP IS NOT.
-   `lcs-shell.js:893` clears the hint and the coral `tryagain` state 1800 ms after
-   Check. The harness drives a phase ONCE at 412px and then sweeps six viewports in
-   sequence (visual-qa-activity.js:471-484), so the later widths — 1024 and 1366 —
-   were being measured AND photographed after the state had timed out. Measured: at
-   +200 ms and +1500 ms every width shows the coral prompt rgb(242,120,75) and the
-   full hint; at +2600 ms the hint is empty and the prompt is back to teal.
-
-   That made two things wrong at once. The desktop screenshots showed no feedback at
-   all — a visual critic reading them reported, reasonably, that wrong answers say
-   nothing on a desktop — and, worse, THE TALLEST STATE OF THIS PHASE WAS NEVER
-   MEASURED AT DESKTOP, because the hint is an extra line of text. Which widths won
-   the race depended on how fast the machine ran, so the gate was flaky in a
-   direction that always favoured passing.
-
-   `freezeFeedback` drops only the long timers scheduled BY the check handler, for
-   the duration of that synchronous click, and restores setTimeout immediately. It
-   does not weaken anything: it makes every viewport measure the state WITH the hint,
-   which is strictly taller than the one the sweep used to see. */
-async function pressCheck(page, freezeFeedback) {
-  const ok = await page.evaluate((freeze) => {
-    const c = document.querySelector('.lcs-activity-check');
-    if (!c || c.offsetParent === null) return false;
-    if (!freeze) { c.click(); return true; }
-    const real = window.setTimeout;
-    window.setTimeout = function (fn, ms) { return ms >= 1000 ? 0 : real.apply(window, arguments); };
-    try { c.click(); } finally { window.setTimeout = real; }
-    return true;
-  }, !!freezeFeedback);
-  if (!ok) throw new Error('the shell Check button was not clickable');
-  await new Promise((r) => setTimeout(r, 200));
-}
-
-const model = (page) => page.evaluate((g) => {
-  const t = window[g];
-  if (!t || !t._canonical || !t._canonical.length) return null;
-  return { canonical: t._canonical.slice(), tiles: t._tiles.slice() };
+const info = (page) => page.evaluate((g) => {
+  const t = window[g], rd = t && t.st && t.st.rd;
+  if (!rd || rd.kind !== 'build') return null;
+  const w = rd.canon.slice(); const x = w[1]; w[1] = w[2]; w[2] = x;
+  return { right: rd.canon, wrong: w };
 }, G);
+const tap = (page, sel) => page.evaluate((s) => { const b = document.querySelector(s); if (!b || b.disabled) return false; b.click(); return true; }, sel);
+async function lay(page, ids) { for (const id of ids) if (!(await tap(page, '[data-k="block-' + id + '"]'))) throw new Error('block ' + id + ' absent'); }
 
 module.exports = {
   steps: [
     {
-      name: 'wrong',
+      name: 'picked',
       async drive(page) {
-        const m = await model(page);
-        if (!m) throw new Error('could not read the round off window.' + G);
-        /* a deliberately wrong order that is still a full fill: reverse it.
-           reverse != canonical for every round, because the first tile carries
-           the capital and the last carries the period. */
-        const order = m.canonical.slice().reverse();
-        for (const w of order) await tapWord(page, w);
-
-        const filled = await page.evaluate((g) => window[g]._slots.every((x) => x != null), G);
-        if (!filled) throw new Error('not every slot was filled before Check');
-        await pressCheck(page, true);   /* hold the nudge open for the whole sweep */
-
-        const solved = await page.evaluate((g) => !!window[g].readOnly, G);
-        if (solved) throw new Error('a reversed order resolved the round');
-        const hint = await page.evaluate(() => {
-          const h = document.querySelector('.lcs-activity-prompt-hint');
-          return h ? h.textContent.trim() : '';
-        });
-        if (!hint) throw new Error('a wrong order produced no hint');
+        await reset(page);
+        const r = await info(page); if (!r) throw new Error('not a build round on window.' + G);
+        await lay(page, r.wrong);
+        await new Promise((x) => setTimeout(x, 150));
+        const st = await page.evaluate(() => ({
+          full: document.querySelectorAll('.ss-slot.is-full').length, stop: document.querySelectorAll('.ss-slot.is-stop').length,
+          frozen: document.querySelectorAll('.ss-stage.is-frozen').length, note: document.querySelector('.ss-note').textContent.trim()
+        }));
+        if (st.full !== r.wrong.length) throw new Error('the blocks did not go onto the script line');
+        if (st.stop || st.frozen) throw new Error('a place flickers before Check — the board is grading a choice');
+        if (st.note) throw new Error('a hint before Check: «' + st.note + '»');
         return true;
-      },
+      }
+    },
+    {
+      name: 'missed',
+      async drive(page) {
+        await reset(page);
+        const r = await info(page); if (!r) throw new Error('not a build round on window.' + G);
+        await lay(page, r.wrong);
+        if (!(await tap(page, '[data-k="check"]'))) throw new Error('Check absent');
+        await new Promise((x) => setTimeout(x, 200));
+        const st = await page.evaluate(() => ({
+          hint: document.querySelector('.ss-note').classList.contains('is-hint') && !!document.querySelector('.ss-note').textContent.trim(),
+          stop: document.querySelectorAll('.ss-slot.is-stop').length, frozen: document.querySelectorAll('.ss-stage.is-frozen').length
+        }));
+        if (!st.hint) throw new Error('no hint after a wrong order');
+        if (st.stop !== 1) throw new Error('the place where the show stopped does not flicker');
+        if (!st.frozen) throw new Error('the stage is not frozen at the wrong word');
+        return true;
+      }
     },
     {
       name: 'resolved',
+      terminal: true,
       async drive(page) {
-        const m = await model(page);
-        if (!m) throw new Error('could not read the round off window.' + G);
-        await clearAll(page);
-        const empty = await page.evaluate((g) => window[g]._slots.every((x) => x == null), G);
-        if (!empty) throw new Error('tapping the slots did not return every tile to the palette');
-
-        for (const w of m.canonical) await tapWord(page, w);
-        await pressCheck(page);
-
-        const solved = await page.evaluate((g) => !!window[g].readOnly, G);
-        if (!solved) throw new Error('the canonical order did not resolve the round');
+        await reset(page);
+        const r = await info(page); if (!r) throw new Error('not a build round on window.' + G);
+        await page.evaluate((g) => { window[g].OK_MS = 500; }, G);
+        await lay(page, r.right);
+        if (!(await tap(page, '[data-k="check"]'))) throw new Error('Check absent');
+        await new Promise((x) => setTimeout(x, 900));
+        const st = await page.evaluate((n) => {
+          const p = document.querySelector('.lcs-activity-prompt'), nxt = document.querySelector('.lcs-activity-next');
+          return { ok: document.querySelector('.ss-note').classList.contains('is-ok'), green: document.querySelectorAll('.ss-slot.is-ok').length === n, bow: !!document.querySelector('.ss-stage.is-bow'),
+            celebrated: !!(p && p.classList.contains('celebrate')), next: !!(nxt && nxt.offsetParent !== null) };
+        }, r.right.length);
+        if (!st.ok) throw new Error('no success line');
+        if (!st.green || !st.bow) throw new Error('the script is not green / no bow');
+        if (!st.celebrated || !st.next) throw new Error('the shell did not celebrate / show Next 0.5 s after the result');
         return true;
-      },
-    },
-  ],
+      }
+    }
+  ]
 };

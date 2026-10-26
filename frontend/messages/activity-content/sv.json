@@ -2226,25 +2226,25 @@
     },
     "sentence-builder.build-a-sentence.l-1-1-j": {
       "about": [
-        "Barnet ser en bild — en hund — och under den fyra tomma rutor och fyra ordkort i blandad ordning: skäller. brun En hund. Barnet trycker på ett kort i taget, och orden hamnar i rutorna från vänster till höger tills hela meningen står där: En brun hund skäller.",
-        "Det som övas är att en mening har en ordning. Först kommer den som meningen handlar om — en brun hund — och sedan verbet, det som händer. Kortet med stor bokstav visar var meningen börjar och kortet med punkt var den slutar; punkten sitter fast på det sista ordet, så barnet slipper leta efter den och kan lägga hela sin uppmärksamhet på ordningen.",
-        "Nio meningar, i ny ordning varje gång. En av dem är En vit höna pickar och en annan Ett vitt får bräker, så barnet möter en och ett bredvid varandra. Aktiviteten följer Lgr22 inom området språkliga strukturer och normer: grundläggande skrivregler med stor bokstav och punkt. Det finns varken tidtagning eller poäng, och ett kort som hamnat fel går att trycka tillbaka hur många gånger som helst."
+        "En mening är ett manus, och en liten leksaksteater spelar upp den ord för ord. Ordet med stor bokstav drar upp ridån, ett räkneord tänder lika många strålkastare, ett adjektiv gör ljuset stort eller litet eller färgar det, substantivet hämtar in skådespelaren, verbet får den att spela och punkten drar för ridån.",
+        "Barnet trycker på de blandade orden så att de hamnar på manusraden och kontrollerar sedan. Står ett ord på fel plats fryser föreställningen just där och ordet blinkar: i ”En hund brun skäller.” står hunden redan på scenen och ”brun” har inget kvar att beskriva. Bara ”En brun hund skäller.” spelas till slutet, med en bugning. Sedan hittar barnet början och slutet, frågar och ropar (”Kan katten hoppa?”, ”Hunden springer så fort!”) och skriver till sist en mening om ett foto, till exempel ”En gul anka går.”, och ser om scenen visar samma sak som fotot.",
+        "En språkövning för åk 2 i linje med Lgr22. Utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Sätta lösa ord i den ordning som gör dem till en hel mening",
-        "Börja meningen med stor bokstav och avsluta den med punkt",
-        "Se att orden om vem meningen handlar om hör ihop — en, brun och hund — och kommer före verbet",
-        "Läsa igenom den byggda meningen och höra efter om den låter rätt"
+        "Börja en mening med stor bokstav och avsluta den med ett skiljetecken",
+        "Ha med ett substantiv och ett verb i varje mening",
+        "Sätta blandade ord i den ordning svenskan använder",
+        "Skriva en sann mening om en bild"
       ],
       "howToPlay": [
-        "Titta på bilden och läs de blandade ordkorten. Ett kort börjar med stor bokstav och ett slutar med punkt — de visar var meningen börjar och slutar.",
-        "Tryck på ett kort i taget, så hamnar ordet i nästa tomma ruta från vänster. Trycker du på en ruta som redan är fylld åker ordet tillbaka till korthögen. Ingenting behöver dras med fingret.",
-        "När alla rutor är fyllda trycker du på Kontrollera. Blir det fel låses ingenting — du får en vänlig påminnelse och flyttar om korten. Tryck på Lyssna om du vill höra det du byggt så här långt."
+        "Tryck på ett ord så hamnar det på första lediga plats på manusraden; tryck på det där så går det tillbaka.",
+        "Tryck på Kontrollera och se scenen spela upp din mening; den stannar vid första ordet som står fel.",
+        "I inställningarna väljer du meningar (från ”Med ledtråd” till ”Om fotot”) och föreställningens fart."
       ],
       "learningGoals": [
-        "Barnet kan sätta ihop en hel mening av lösa ord i rätt ordning",
-        "Barnet vet att en mening börjar med stor bokstav och slutar med punkt",
-        "Barnet känner igen att orden om vem meningen handlar om hör ihop och står före verbet"
+        "Bygga hela meningar: vem och vad den gör.",
+        "Använda stor bokstav, punkt, frågetecken och utropstecken.",
+        "Jämföra en mening med en bild."
       ]
     },
     "pronoun.case.l-1-1-d": {

@@ -1060,25 +1060,25 @@
     },
     "sentence-builder.build-a-sentence.l-1-1-j": {
       "about": [
-        "Wiggles la chenille montre une image et des mots mélangés. Votre enfant touche les mots et les remet dans le bon ordre pour construire une phrase qui décrit l’image.",
-        "Une phrase commence par une majuscule, ses mots suivent un ordre qui a du sens, et elle se termine par un point : le chat roux dort. L’image guide votre enfant et donne du sens à chaque essai.",
-        "Sans chrono ni points, cette activité interactive travaille la phrase, l’ordre des mots et l’accord dans le groupe nominal, au niveau CE1 (« Étude de la langue »), dans l’esprit des programmes officiels."
+        "Une phrase est un texte de théâtre, et un petit théâtre de jouets la joue mot par mot. Le mot qui commence la phrase ouvre le rideau, un nombre allume autant de projecteurs, un adjectif agrandit ou rapetisse la lumière ou lui donne une couleur, le nom fait entrer l’acteur, le verbe le fait jouer, et le point ferme le rideau.",
+        "L’enfant touche les mots mélangés pour les poser sur la ligne du texte, puis vérifie. Si un mot n’est pas à sa place, le spectacle s’arrête juste là et le mot clignote : dans « Le brun chien aboie. », le spectacle s’arrête sur « brun », car en français cet adjectif vient après le nom. Seule « Le chien brun aboie. » est jouée jusqu’au bout, avec un salut. Ensuite l’enfant trouve le début et la fin, pose des questions et s’exclame (« Est-ce que le chat saute ? », « Le chien court si vite ! »), et écrit enfin une phrase sur une photo, comme « Un canard jaune marche. », pour voir si la scène montre la même chose que la photo.",
+        "Une activité de langue pour le CE1, en lien avec les programmes officiels du cycle 2. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Remettre les mots dans l’ordre pour construire une phrase.",
-        "Repérer la majuscule qui ouvre la phrase.",
-        "Placer le point à la fin.",
-        "Sentir comment le déterminant, le nom, l’adjectif et le verbe s’assemblent."
+        "Commencer une phrase par une majuscule et la finir par un point",
+        "Mettre un nom et un verbe dans chaque phrase",
+        "Remettre des mots mélangés dans l’ordre du français",
+        "Écrire une phrase vraie sur une image"
       ],
       "howToPlay": [
-        "Regarde l’image et les mots mélangés, puis commence par le mot qui porte la majuscule.",
-        "Touche les mots dans l’ordre pour remplir les cases.",
-        "Relis ta phrase : majuscule au début, point à la fin — et est-ce que ça a du sens ?"
+        "Touche un mot : il va sur la première place libre de la ligne du texte ; touche-le là pour le renvoyer.",
+        "Touche Vérifier et regarde la scène jouer ta phrase ; elle s’arrête au premier mot mal placé.",
+        "Dans les réglages, choisis les phrases (de « Avec indice » à « Sur la photo ») et la vitesse du spectacle."
       ],
       "learningGoals": [
-        "Construire une phrase complète avec un ordre des mots correct.",
-        "Repérer la majuscule et le point.",
-        "Renforcer son sens de la phrase française."
+        "Construire des phrases complètes : qui et ce qu’il fait.",
+        "Utiliser la majuscule, le point, le point d’interrogation et le point d’exclamation.",
+        "Comparer une phrase avec une image."
       ]
     },
     "affix.apply.l-2-4-b": {

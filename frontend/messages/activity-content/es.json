@@ -1903,25 +1903,25 @@
     },
     "sentence-builder.build-a-sentence.l-1-1-j": {
       "about": [
-        "En esta actividad, Wiggles la oruga acompaña a tu peque con una imagen y varias palabras revueltas que hay que acomodar en el orden correcto para formar una oración.",
-        "La idea es armar una oración completa cuidando el orden de las palabras, la mayúscula inicial, la concordancia entre el artículo y el adjetivo, y el punto final: por ejemplo, «El perro café ladra.» o «La flor roja crece.»",
-        "Es una actividad de español interactiva para 2.º de primaria, con un tono cálido, sin cronómetro ni calificaciones; se juega en el navegador, sin registro, y está alineada a los Planes y programas de estudio (SEP)."
+        "Una oración es un guion, y un pequeño teatro de juguete la actúa palabra por palabra. La palabra que empieza la oración abre el telón, un número enciende esa cantidad de reflectores, un adjetivo hace la luz grande o pequeña o le da color, el sustantivo saca al actor al escenario, el verbo lo pone a actuar y el punto cierra el telón.",
+        "Tu peque toca las palabras revueltas para ponerlas en la línea del guion y luego comprueba. Si una palabra está fuera de lugar, la función se detiene justo ahí y esa palabra parpadea: en «El café perro ladra.» la función se detiene en «café», porque en español ese adjetivo va después del sustantivo. Solo «El perro café ladra.» llega hasta el final, con reverencia. Después busca el principio y el final, pregunta y exclama («¿El gato salta?», «¡El perro corre muy rápido!») y al final escribe una oración sobre una foto, como «El pato amarillo camina.», para ver si el escenario muestra lo mismo que la foto.",
+        "Una actividad de lenguaje para 2.º de primaria, de acuerdo con los programas de estudio de la SEP. Sin reloj y sin puntos."
       ],
       "practices": [
-        "Ordenar las palabras para formar una oración que tenga sentido.",
-        "Empezar la oración con mayúscula y terminarla con un punto.",
-        "Cuidar la concordancia entre el artículo, el sustantivo y el adjetivo de color (el pez rojo / la flor roja).",
-        "Reconocer las partes de la oración: el artículo, el sustantivo, el adjetivo y el verbo."
+        "Empezar una oración con mayúscula y terminarla con un signo",
+        "Poner un sustantivo y un verbo en cada oración",
+        "Ordenar palabras revueltas como se dicen en español",
+        "Escribir una oración verdadera sobre una imagen"
       ],
       "howToPlay": [
-        "Observa la imagen y lee con calma las palabras revueltas que aparecen debajo.",
-        "Toca las palabras en orden para ir llenando los espacios: empieza con la mayúscula y cierra con el punto final.",
-        "Revisa tu oración y, si hace falta, corrige el orden de las palabras; Wiggles te acompaña sin prisas hasta que quede bien."
+        "Toca una palabra y va al primer lugar libre de la línea del guion; tócala ahí para regresarla.",
+        "Toca Comprobar y mira cómo el escenario actúa tu oración; se detiene en la primera palabra que está fuera de lugar.",
+        "En los ajustes eliges las oraciones (de «Con pista» a «Sobre la foto») y la velocidad de la función."
       ],
       "learningGoals": [
-        "Construir oraciones completas colocando las palabras en el orden correcto.",
-        "Afianzar el uso de la mayúscula inicial, la concordancia y el punto final.",
-        "Pensada para segundo grado de primaria (~7 a 8 años), sienta las bases para que tu peque empiece a escribir sus propios textos."
+        "Armar oraciones completas: quién y qué hace.",
+        "Usar mayúscula, punto, ¿? y ¡!",
+        "Comparar una oración con una imagen."
       ]
     },
     "affix.apply.l-2-4-b": {

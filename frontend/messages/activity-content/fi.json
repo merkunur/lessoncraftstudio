@@ -3347,6 +3347,29 @@
         "Ymmärtää, että ”aikana” tarkoittaa koko tapahtuman kestoa.",
         "Järjestää tekemiset päivän kulun mukaan."
       ]
+    },
+    "sentence-builder.build-a-sentence.l-1-1-j": {
+      "about": [
+        "Lause on käsikirjoitus, ja pieni leluteatteri esittää sen sana sanalta. Isolla alkukirjaimella alkava sana avaa esiripun, lukusana sytyttää yhtä monta valonheitintä, adjektiivi tekee valosta ison tai pienen tai värjää sen, substantiivi tuo näyttelijän lavalle, verbi panee sen toimimaan ja piste sulkee esiripun.",
+        "Lapsi napauttaa sekoitetut sanat käsikirjoitusriville ja tarkistaa. Jos sana on väärässä kohdassa, esitys pysähtyy juuri siihen ja sana vilkkuu: lauseessa ”Tämä koira iso juoksee.” koira on jo lavalla, eikä sanalla ”iso” ole enää mitään kuvattavaa. Vain ”Tämä iso koira juoksee.” esitetään loppuun asti, kumarruksen kera. Sitten lapsi etsii alun ja lopun, kysyy ja huudahtaa (”Voiko kissa hypätä?”, ”Koira juoksee niin kovaa!”) ja kirjoittaa lopuksi lauseen kuvasta, esimerkiksi ”Keltainen ankka kävelee.”, ja katsoo, näyttääkö näyttämö saman kuin kuva.",
+        "Kielitehtävä 2. luokalle (OPS 2014). Ei ajanottoa eikä pisteitä."
+      ],
+      "practices": [
+        "Aloittaa lause isolla alkukirjaimella ja lopettaa se välimerkkiin",
+        "Laittaa jokaiseen lauseeseen substantiivi ja verbi",
+        "Järjestää sekoitetut sanat suomen järjestykseen",
+        "Kirjoittaa tosi lause kuvasta"
+      ],
+      "howToPlay": [
+        "Napauta sanaa, niin se menee käsikirjoitusrivin ensimmäiseen vapaaseen kohtaan; napauta sitä siellä, niin se palaa.",
+        "Napauta Tarkista ja katso, kun näyttämö esittää lauseesi; se pysähtyy ensimmäiseen väärässä kohdassa olevaan sanaan.",
+        "Asetuksista valitset lauseet (”Vihjeen kanssa” – ”Kuvasta”) ja esityksen nopeuden."
+      ],
+      "learningGoals": [
+        "Rakentaa kokonaisia lauseita: kuka ja mitä se tekee.",
+        "Käyttää isoa alkukirjainta, pistettä, kysymysmerkkiä ja huutomerkkiä.",
+        "Verrata lausetta kuvaan."
+      ]
     }
   }
 }

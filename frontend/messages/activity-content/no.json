@@ -3375,6 +3375,29 @@
         "Forstå at «under» betyr hele tiden hendelsen varer.",
         "Sette det vi gjør, i dagens rekkefølge."
       ]
+    },
+    "sentence-builder.build-a-sentence.l-1-1-j": {
+      "about": [
+        "En setning er et manus, og et lite leketøysteater spiller den ord for ord. Ordet med stor forbokstav åpner teppet, et tallord tenner like mange lyskastere, et adjektiv gjør lyset stort eller lite eller farger det, substantivet henter skuespilleren inn, verbet får den til å spille, og punktum lukker teppet.",
+        "Barnet trykker de blandede ordene ned på manuslinjen og sjekker. Står et ord feil, fryser forestillingen akkurat der, og ordet blinker: I «Den hunden store løper.» står hunden allerede på scenen, og «store» har ikke noe igjen å beskrive. Bare «Den store hunden løper.» spilles helt til slutt, med et bukk. Etterpå finner barnet begynnelsen og slutten, spør og roper («Kan katten hoppe?», «Hunden løper så fort!») og skriver til slutt en setning om et bilde, for eksempel «Ei gul and går.», og ser om scenen viser det samme som bildet.",
+        "En språkøvelse for 2. trinn i tråd med LK20. Uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Begynne en setning med stor forbokstav og avslutte den med et tegn",
+        "Ha med et substantiv og et verb i hver setning",
+        "Sette blandede ord i den rekkefølgen norsk bruker",
+        "Skrive en sann setning om et bilde"
+      ],
+      "howToPlay": [
+        "Trykk på et ord, så kommer det på første ledige plass på manuslinjen; trykk på det der for å sende det tilbake.",
+        "Trykk på Sjekk, og se scenen spille setningen din; den stopper ved det første ordet som står feil.",
+        "I innstillingene velger du setninger (fra «Med hjelp» til «Om bildet») og forestillingens fart."
+      ],
+      "learningGoals": [
+        "Bygge hele setninger: hvem og hva de gjør.",
+        "Bruke stor forbokstav, punktum, spørsmålstegn og utropstegn.",
+        "Sammenligne en setning med et bilde."
+      ]
     }
   }
 }

@@ -1559,25 +1559,25 @@
     },
     "sentence-builder.build-a-sentence.l-1-1-j": {
       "about": [
-        "Bei „Wiggles baut Sätze“ bringt das Kind durcheinandergewürfelte Wörter in die richtige Reihenfolge und baut daraus einen vollständigen, sinnvollen Satz. Ein Satz fängt mit einem großen Buchstaben an, die Wörter stehen in einer sinnvollen Reihenfolge, und am Ende steht ein Punkt – genau das übt diese Aktivität Schritt für Schritt.",
-        "Die Aufgabe macht sichtbar, was einen Satz zum Satz macht: Begleitwort, Namenwort und Tunwort gehören zusammen und ergeben erst in der richtigen Reihenfolge eine klare Aussage. So entwickelt das Kind ein Gefühl für den deutschen Satzbau, ganz ohne trockene Regeln.",
-        "Die Aktivität läuft ohne Zeitdruck und ohne Punkte. Wiggles, die kleine Raupe, begleitet das Kind freundlich und lässt ihm so viel Zeit, wie es braucht – Ausprobieren, Umstellen und Nachdenken sind ausdrücklich erlaubt."
+        "Ein Satz ist ein Drehbuch, und ein kleines Spielzeugtheater spielt ihn Wort für Wort vor. Das Wort, mit dem der Satz anfängt, öffnet den Vorhang, ein Zahlwort schaltet so viele Scheinwerfer ein, ein Wiewort macht das Licht groß oder klein oder färbt es, das Namenwort holt den Schauspieler auf die Bühne, das Tunwort lässt ihn spielen, und der Punkt schließt den Vorhang.",
+        "Das Kind tippt die durcheinandergewürfelten Wörter auf die Textzeile und prüft. Steht ein Wort an der falschen Stelle, bleibt die Vorstellung genau dort stehen, und das Wort flackert: Bei „Der Hund große bellt.“ ist der Hund schon da, und „große“ hat nichts mehr zu beschreiben. Nur „Der große Hund bellt.“ läuft bis zum Ende, mit Verbeugung. Später sucht das Kind Anfang und Ende, fragt und ruft („Kann die Katze springen?“, „Der Hund rennt so schnell!“) und schreibt zum Schluss einen Satz zu einem Foto, etwa „Die gelbe Ente watschelt.“, und sieht, ob die Bühne dasselbe zeigt wie das Foto.",
+        "Eine Sprachübung für Klasse 2, passend zum Lehrplan Deutsch der Grundschule. Ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "Wörter in eine sinnvolle Reihenfolge bringen und daraus einen vollständigen Satz bauen.",
-        "Den Satzanfang erkennen und auf den großen Buchstaben achten.",
-        "Den Punkt als Satzschlusszeichen sicher ans Satzende setzen.",
-        "Spüren, wie Begleitwort, Namenwort und Tunwort im deutschen Satz zusammengehören."
+        "Einen Satz mit dem richtigen Anfangswort beginnen und mit einem Satzzeichen beenden",
+        "In jeden Satz ein Namenwort und ein Tunwort setzen",
+        "Durcheinandergewürfelte Wörter in die richtige Reihenfolge bringen",
+        "Einen wahren Satz zu einem Bild schreiben"
       ],
       "howToPlay": [
-        "Schau dir die durcheinandergeratenen Wörter an und überlege, welches Wort an den Anfang gehört – der große Buchstabe ist dein erster Hinweis.",
-        "Tippe die Wörter nacheinander in die Lücken, bis ein sinnvoller Satz entsteht.",
-        "Prüfe deinen Satz: Steht am Anfang ein großer Buchstabe und am Ende ein Punkt? Klingt der Satz richtig? Dann hast du es geschafft."
+        "Tippe ein Wort an, dann kommt es auf den ersten freien Platz der Textzeile; tippst du es dort an, geht es zurück.",
+        "Tippe auf Prüfen und sieh zu, wie die Bühne deinen Satz vorspielt; sie hält beim ersten Wort an, das falsch steht.",
+        "In den Einstellungen wählst du die Sätze (von „Mit Hilfe“ bis „Zum Foto“) und das Tempo der Vorstellung."
       ],
       "learningGoals": [
-        "Das Kind baut vollständige Sätze mit sinnvoller Wortreihenfolge.",
-        "Das Kind achtet auf die Großschreibung am Satzanfang und den Punkt am Satzende.",
-        "Das Kind vertieft sein Gespür für den deutschen Satzbau im Bereich „Sprache und Sprachgebrauch untersuchen“ im Lehrplan der Grundschule."
+        "Vollständige Sätze bauen: wer und was er tut.",
+        "Großschreibung am Satzanfang, Punkt, Fragezeichen und Ausrufezeichen verwenden.",
+        "Einen Satz mit einem Bild vergleichen."
       ]
     },
     "pronoun.case.l-1-1-d": {

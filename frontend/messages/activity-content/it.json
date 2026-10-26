@@ -847,25 +847,25 @@
     },
     "sentence-builder.build-a-sentence.l-1-1-j": {
       "about": [
-        "Wiggles è un bruco fatto di tanti segmenti, uno dietro l'altro, proprio come una frase è fatta di parole messe in ordine.",
-        "Il bambino guarda un'immagine e costruisce una frase toccando le parole e portandole al posto giusto.",
-        "Poco alla volta scopre che l'ordine delle parole dà senso a quello che vogliamo dire."
+        "Una frase è un copione, e un piccolo teatro giocattolo la recita parola per parola. La parola che inizia la frase apre il sipario, un numero accende altrettanti riflettori, un aggettivo rende la luce grande o piccola o le dà un colore, il nome porta l’attore in scena, il verbo lo fa recitare e il punto chiude il sipario.",
+        "Il bambino tocca le parole mescolate per metterle sulla riga del copione e poi controlla. Se una parola è fuori posto, lo spettacolo si ferma proprio lì e quella parola lampeggia: in «Il marrone cane abbaia.» lo spettacolo si ferma su «marrone», perché in italiano questo aggettivo va dopo il nome. Solo «Il cane marrone abbaia.» arriva fino in fondo, con l’inchino. Poi il bambino trova l’inizio e la fine, fa domande ed esclamazioni («Il gatto corre?», «Il cane corre così veloce!») e alla fine scrive una frase su una foto, come «Un papero giallo cammina.», per vedere se il palco mostra la stessa cosa della foto.",
+        "Un’attività di lingua per la classe seconda, in linea con le Indicazioni nazionali. Senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Mettere le parole in ordine",
-        "Costruire una frase con articolo, nome, aggettivo e verbo",
-        "Far concordare articolo, nome e aggettivo",
-        "Cominciare con la maiuscola e finire con il punto"
+        "Iniziare una frase con la maiuscola e finirla con un segno di punteggiatura",
+        "Mettere un nome e un verbo in ogni frase",
+        "Rimettere le parole mescolate nell’ordine dell’italiano",
+        "Scrivere una frase vera su un’immagine"
       ],
       "howToPlay": [
-        "Guarda l'immagine e leggi le parole sparse.",
-        "Tocca le parole per metterle in ordine e formare la frase.",
-        "Controlla la tua frase con calma, senza punteggio e senza fretta."
+        "Tocca una parola e va al primo posto libero della riga del copione; toccala lì per rimandarla indietro.",
+        "Tocca Controlla e guarda il palco recitare la tua frase; si ferma alla prima parola fuori posto.",
+        "Nelle impostazioni scegli le frasi (da «Con aiuto» a «Sulla foto») e la velocità dello spettacolo."
       ],
       "learningGoals": [
-        "Riconoscere l'ordine giusto delle parole in una frase",
-        "Costruire frasi che concordano, con la maiuscola all'inizio e il punto alla fine",
-        "Pensata per la classe seconda e allineata alle Indicazioni nazionali, nell'area della riflessione linguistica"
+        "Costruire frasi complete: chi e che cosa fa.",
+        "Usare la maiuscola, il punto, il punto interrogativo e il punto esclamativo.",
+        "Confrontare una frase con un’immagine."
       ]
     },
     "affix.apply.l-2-4-b": {

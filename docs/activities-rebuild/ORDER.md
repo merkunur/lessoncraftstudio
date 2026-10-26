@@ -135,7 +135,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 125 | LIVE 2026-10-26 · Photo, Window, Envelope | 1 | L.1.1.e | `tense.past-present-future.l-1-1-e` | tense-activity | The Clock Tower — Verb Tense: Past, Present & Future (Grade 1) |
 | 126 | LIVE 2026-10-26 · The Turning Bridge | 1 | L.1.1.g | `hazel-word-bridge.joining-words.l-1-1-g` | hazel-word-bridge-activity | Hazel's Word Bridge — Joining Words (Grade 1) |
 | 127 | LIVE 2026-10-26 · The Event Tunnel | 1 | L.1.1.i | `tempo-day-plan.time-prepositions.l-1-1-i` | tempo-day-plan-activity | Tempo's Day Plan — Before, During, or After? (Grade 1) |
-| 128 |  | 1 | L.1.1.j | `sentence-builder.build-a-sentence.l-1-1-j` | sentence-builder-activity | Wiggles' Sentence Builder — Build a Sentence (Grade 1) |
+| 128 | LIVE 2026-10-26 · The Sentence Stage | 1 | L.1.1.j | `sentence-builder.build-a-sentence.l-1-1-j` | sentence-builder-activity | Wiggles' Sentence Builder — Build a Sentence (Grade 1) |
 | 129 |  | 1 | L.1.2.b | `cleo-packing-list.series-commas.l-1-2-b` | cleo-packing-list-activity | Cleo's Packing List — Commas in a List (Grade 1) |
 | 130 |  | 1 | L.1.2.e | `word-clinic.spell-by-ear.l-1-2-e` | word-clinic-activity | Word Doctor's Clinic — Heal the Sick Sound |
 | 131 |  | 1 | L.1.5.a | `ziggy-odd-one-out.category.l-1-5-a` | ziggy-odd-one-out-activity | Ziggy's Odd One Out — Which One Doesn't Belong? (Grade 1) |

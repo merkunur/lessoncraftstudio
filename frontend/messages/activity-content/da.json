@@ -3347,6 +3347,29 @@
         "Forstå, at ”under” betyder hele den tid, begivenheden varer.",
         "Sætte det, vi gør, i dagens rækkefølge."
       ]
+    },
+    "sentence-builder.build-a-sentence.l-1-1-j": {
+      "about": [
+        "En sætning er et manuskript, og et lille legetøjsteater spiller den ord for ord. Ordet med stort bogstav åbner tæppet, et talord tænder lige så mange spotlys, et tillægsord gør lyset stort eller lille eller farver det, navneordet henter skuespilleren ind, udsagnsordet får den til at spille, og punktum lukker tæppet.",
+        "Barnet trykker de blandede ord ned på manuslinjen og tjekker. Står et ord forkert, fryser forestillingen netop dér, og ordet blinker: I ”Den hund store løber.” står hunden allerede på scenen, og ”store” har ikke mere at beskrive. Kun ”Den store hund løber.” spiller til ende, med et buk. Bagefter finder barnet begyndelsen og slutningen, spørger og råber (”Kan katten hoppe?”, ”Hunden løber så hurtigt!”) og skriver til sidst en sætning om et billede, for eksempel ”En gul and går.”, og ser, om scenen viser det samme som billedet.",
+        "En sprogøvelse til 2. klasse i tråd med Fælles Mål. Uden tidtagning og uden point."
+      ],
+      "practices": [
+        "Begynde en sætning med stort bogstav og slutte den med et tegn",
+        "Have et navneord og et udsagnsord med i hver sætning",
+        "Sætte blandede ord i den rækkefølge, dansk bruger",
+        "Skrive en sand sætning om et billede"
+      ],
+      "howToPlay": [
+        "Tryk på et ord, så kommer det på første ledige plads på manuslinjen; tryk på det dér for at sende det tilbage.",
+        "Tryk på Tjek, og se scenen spille din sætning; den stopper ved det første ord, der står forkert.",
+        "I indstillingerne vælger du sætninger (fra ”Med hjælp” til ”Om billedet”) og forestillingens fart."
+      ],
+      "learningGoals": [
+        "Bygge hele sætninger: hvem og hvad de gør.",
+        "Bruge stort bogstav, punktum, spørgsmålstegn og udråbstegn.",
+        "Sammenligne en sætning med et billede."
+      ]
     }
   }
 }

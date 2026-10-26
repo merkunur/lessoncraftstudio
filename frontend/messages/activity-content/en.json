@@ -3737,25 +3737,25 @@
     },
     "sentence-builder.build-a-sentence.l-1-1-j": {
       "about": [
-        "Wiggles the caterpillar hands over scrambled word tiles — 'big,' 'dog,' 'The,' 'runs.' — and a picture of the subject, and the child arranges them into \"The big dog runs.\" It's an interactive Grade 1 grammar activity that runs in the browser with no account.",
-        "The whole idea is that a complete sentence has an order and a shape: it starts with a capital letter, has a naming word and an action word in the middle, and ends with a period. The capital is baked onto the starting tile and the period onto the last word, so the child focuses on putting the words in an order that makes sense — building real, complete sentences like \"A little cat naps\" and \"Six white hens peck\" rather than just stacking words.",
-        "It is aligned to Common Core L.1.1.j — producing and expanding complete simple sentences (with L.K.1.b nouns and verbs). No timer, no score — just calm, playful practice."
+        "A sentence is a script, and a little toy theatre acts it out word by word. The word with the capital letter opens the curtain, a number word lights that many spotlights, a describing word makes the light big or small or gives it a colour, the naming word brings the actor on, the doing word makes it act, and the full stop closes the curtain.",
+        "The child taps the scrambled words onto the script line and presses Check. If a word is in the wrong place, the show freezes right there and that word flickers: in \"The dog big runs.\" the dog has already walked on, and \"big\" has nothing left to describe. Only \"The big dog runs.\" plays to the end, with a bow. Later the child finds the start and the end, asks and shouts (\"Can the cat jump?\", \"The dog runs so fast!\"), and at last writes a sentence about a photo, such as \"The yellow duck walks.\", and sees whether the stage shows what the photo shows.",
+        "It is aligned to Common Core L.1.1.j: produce and expand complete simple sentences, statements, questions and exclamations. No timer and no score."
       ],
       "practices": [
-        "Putting scrambled words in an order that makes a complete sentence",
-        "Starting a sentence with a capital and ending it with a period",
-        "Including a naming word and an action word in each sentence",
-        "Reading the built sentence to check that it makes sense"
+        "Start a sentence with a capital letter and end it with an end mark",
+        "Put a naming word and a doing word in every sentence",
+        "Put scrambled words into the order the language uses",
+        "Write a true sentence about a picture"
       ],
       "howToPlay": [
-        "Look at the picture and the scrambled word tiles.",
-        "Tap the tiles in order to build the sentence — capital first, period last — then press Check.",
-        "Not quite? Rearrange and try again as many times as you like, with no timer and no score."
+        "Tap a word and it goes onto the first empty place of the script line; tap it there to send it back.",
+        "Press Check and watch the stage act out your sentence; it stops at the first word that is out of place.",
+        "In the settings, choose the sentences (from \"With clues\" to \"About the photo\") and the speed of the show."
       ],
       "learningGoals": [
-        "Produce a complete simple sentence in the right word order — the focus of Common Core L.1.1.j",
-        "Understand that a sentence needs a naming word, an action word, a capital, and an end mark",
-        "Build the sentence-writing foundation for early composing"
+        "Build complete sentences with someone and what they do.",
+        "Use capital letters, full stops, question marks and exclamation marks.",
+        "Check a sentence against a picture."
       ]
     },
     "sentence-clinic.fix-it.l-2-1": {

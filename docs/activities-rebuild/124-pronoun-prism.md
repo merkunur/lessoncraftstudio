@@ -63,4 +63,4 @@ ONE native + Grade-1 grammar reviewer over all 11 locales (every round with its 
 - **Content:** `verify-activity-content-<loc>` ×11, prose claims, SERP copy, content tells and route preflight all pass.
 
 ## Live
-LIVEVERIFY: pending.
+`live-verify-pronoun-prism.js` on production, 2026-10-26: **52 pass, 0 fail.** All 11 pages return 200; en, de, sv and fi at 1366 and 390 embed pronoun-prism-activity.html at wrapper 9.869; with a real pointer, a wrong prism gives its hint and the arrow drops, and the right prism turned to its target face lands the arrow with the success line; the iframe grows with the card. The first run fell inside the Cloudflare window (the old iframe was still cached for some pages); the rerun three minutes later was clean.

@@ -60,7 +60,7 @@ var SilbenbogenActivity = {
     { key: 'colours', type: 'choice', labelKey: 'setColours', options: [{ value: 'aus', labelKey: 'colAus' }, { value: 'blaurot', labelKey: 'colBlauRot' }] }
   ],
 
-  OK_MS: 2600, FAST: false,
+  OK_MS: 500, FAST: false,
   BLUE: '#2F6FD6', RED: '#D9452F', TEAL: '#146B5E',
 
   init: function (api) {

@@ -62,7 +62,7 @@ var TurningDominoActivity = {
     { key: 'numbers', type: 'choice', labelKey: 'setNumbers', options: [{ value: 'w10', labelKey: 'w10' }, { value: 'w20', labelKey: 'w20' }] },
     { key: 'house', type: 'choice', labelKey: 'setHouse', options: [{ value: 'on', labelKey: 'hOn' }, { value: 'off', labelKey: 'hOff' }] }
   ],
-  OK_MS: 3800, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;
@@ -380,7 +380,7 @@ var TurningDominoActivity = {
   },
   _advance: function (ms) {
     if (this._adv) clearTimeout(this._adv);
-    this._adv = this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, Math.max(this.OK_MS, this.OK_MS === 3800 ? ms : 0));
+    this._adv = this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this.OK_MS);
   }
 };
 

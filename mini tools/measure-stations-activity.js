@@ -88,7 +88,7 @@ var MeasureStationsActivity = {
     { key: 'level', type: 'choice', labelKey: 'setLevel', options: [{ value: 'one', labelKey: 'lvOne' }, { value: 'two', labelKey: 'lvTwo' }] }
   ],
 
-  OK_MS: 1600, BACK_MS: 1500, FAST: false,
+  OK_MS: 500, BACK_MS: 1500, FAST: false,
 
   init: function (api) {
     var self = this;

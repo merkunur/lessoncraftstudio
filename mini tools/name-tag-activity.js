@@ -76,7 +76,7 @@ var NameTagActivity = {
     { key: 'look', type: 'choice', labelKey: 'setLook', options: [{ value: 'close', labelKey: 'lookClose' }, { value: 'far', labelKey: 'lookFar' }] }
   ],
 
-  OK_MS: 3000, FAST: false, PRESS_MS: 120,
+  OK_MS: 500, FAST: false, PRESS_MS: 120,
   QUOTES: { en: ['“', '”'], de: ['„', '“'], nl: ['‘', '’'], da: ['»', '«'], sv: ['”', '”'], no: ['«', '»'], es: ['«', '»'], it: ['«', '»'], pt: ['“', '”'], fr: ['« ', ' »'], fi: ['”', '”'] },
   LV_KEY: { read: 'lvRead', family: 'lvFamily', syllables: 'lvSyl', memory: 'lvMem' },
 
@@ -416,7 +416,7 @@ var NameTagActivity = {
       self.api.sound(659); self._later(function () { self.api.sound(784); }, 110); self._later(function () { self.api.sound(1046); }, 220);
       self._busy = false; self._paint();
     }, this._ms((longest || 0) * this.PRESS_MS + 450));
-    this._later(function () { self._afterOk = true; self._paint(); var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this._ms(this.OK_MS));
+    this._later(function () { self._afterOk = true; self._paint(); var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this._ms((longest || 0) * this.PRESS_MS + 450 + this.OK_MS));
   }
 };
 

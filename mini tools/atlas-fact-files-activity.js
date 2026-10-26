@@ -66,7 +66,7 @@ var AtlasFactFilesActivity = {
     { key: 'pics', type: 'choice', labelKey: 'setPics', options: [{ value: 'on', labelKey: 'pOn' }, { value: 'off', labelKey: 'pOff' }] }
   ],
 
-  OK_MS: 3400, FAST: false, MISS_MS: 1400,
+  OK_MS: 500, FAST: false, MISS_MS: 1400,
 
   init: function (api) {
     this.api = api;

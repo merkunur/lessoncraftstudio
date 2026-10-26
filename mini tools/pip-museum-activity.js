@@ -100,7 +100,7 @@ var PipMuseumActivity = {
     { key: 'plates', type: 'choice', labelKey: 'setPlates', options: [{ value: 'names', labelKey: 'pNames' }, { value: 'riddles', labelKey: 'pRiddles' }] }
   ],
 
-  OK_MS: 2200, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;

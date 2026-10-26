@@ -93,7 +93,7 @@ var OppositesRodActivity = {
     { key: 'answer', type: 'choice', labelKey: 'setAnswer', options: [{ value: 'pick', labelKey: 'aPick' }, { value: 'write', labelKey: 'aWrite' }] }
   ],
 
-  OK_MS: 3800, FAST: false, MISS_MS: 1300, SLIDE_MS: 420,
+  OK_MS: 500, FAST: false, MISS_MS: 1300, SLIDE_MS: 420,
 
   init: function (api) {
     this.api = api;

@@ -71,7 +71,7 @@ var RhymeChainActivity = {
     { key: 'patterns', type: 'choice', labelKey: 'setPatterns', options: [{ value: 'after', labelKey: 'patAfter' }, { value: 'always', labelKey: 'patAlways' }] }
   ],
 
-  OK_MS: 2600, FAST: false,
+  OK_MS: 500, FAST: false,
   /* locales whose browser voices are unreliable start with the names printed (design §9) */
   NAMES_ON: ['sv', 'da', 'no', 'fi'],
 

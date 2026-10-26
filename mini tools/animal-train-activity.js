@@ -57,7 +57,7 @@ var AnimalTrainActivity = {
     { key: 'numbers', type: 'choice', labelKey: 'setNumbers', options: [{ value: 'shown', labelKey: 'numbersShown' }, { value: 'hidden', labelKey: 'numbersHidden' }] }
   ],
 
-  FLY_MS: 320, FLASH_MS: 1100, CHUG_MS: 1300, CHECK_MS: 900,
+  FLY_MS: 320, FLASH_MS: 1100, CHUG_MS: 1300, CHECK_MS: 500,
 
   init: function (api) {
     var self = this;

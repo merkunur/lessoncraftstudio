@@ -86,7 +86,7 @@ var StampFrameActivity = {
   ],
 
   /* motion timings */
-  BRACKET_MS: 750, PEEL_STEP: 120, CHECK_MS: 900,
+  BRACKET_MS: 750, PEEL_STEP: 120, CHECK_MS: 500,
   INK: { c: '#F2784B', t: '#2E9C88' },
   BR: { a: '#C9542A', b: '#1D7A68', all: '#2B3A36', left: '#2B3A36', gold: '#B8902F' },
 

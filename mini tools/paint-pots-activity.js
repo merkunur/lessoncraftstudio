@@ -128,7 +128,7 @@ var PaintPotsActivity = {
     { key: 'labels', type: 'choice', labelKey: 'setLabels', options: [{ value: 'shape', labelKey: 'lShape' }, { value: 'name', labelKey: 'lName' }, { value: 'clue', labelKey: 'lClue' }] }
   ],
 
-  OK_MS: 2100, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;

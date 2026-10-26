@@ -60,7 +60,7 @@ var LincFactChainActivity = {
     { key: 'choices', type: 'choice', labelKey: 'setChoices', options: [{ value: 'fewer', labelKey: 'cFewer' }, { value: 'more', labelKey: 'cMore' }] }
   ],
 
-  OK_MS: 4200, FAST: false, MISS_MS: 1700, FALL_MS: 380,
+  OK_MS: 500, FAST: false, MISS_MS: 1700, FALL_MS: 380,
 
   init: function (api) {
     this.api = api;

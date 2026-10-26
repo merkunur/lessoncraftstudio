@@ -69,7 +69,7 @@ var JuniperLanternActivity = {
     { key: 'task', type: 'choice', labelKey: 'setTask', options: [{ value: 'lesson', labelKey: 'tkLesson' }, { value: 'retell', labelKey: 'tkRetell' }] },
     { key: 'cards', type: 'choice', labelKey: 'setCards', options: [{ value: '3', labelKey: 'n3' }, { value: '4', labelKey: 'n4' }] }
   ],
-  OK_MS: 4200, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;
@@ -255,7 +255,7 @@ var JuniperLanternActivity = {
   },
   _advance: function (ms) {
     if (this._adv) clearTimeout(this._adv);
-    this._adv = this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, Math.max(this.OK_MS, this.OK_MS === 4200 ? ms : 0));
+    this._adv = this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this.OK_MS);
   }
 };
 

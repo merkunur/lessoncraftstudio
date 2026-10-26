@@ -104,7 +104,7 @@ var LightLeakActivity = {
     { key: 'glass', type: 'choice', labelKey: 'setGlass', options: [{ value: 'colour', labelKey: 'glColour' }, { value: 'clear', labelKey: 'glClear' }] },
     { key: 'turning', type: 'choice', labelKey: 'setTurn', options: [{ value: 'tap', labelKey: 'tuTap' }, { value: 'auto', labelKey: 'tuAuto' }] }
   ],
-  OK_MS: 4200, FAST: false,
+  OK_MS: 500, FAST: false,
   COL: { triangle: '#4CAF50', rhombus: '#3F7FD9', trapezoid: '#E0503C', hexagon: '#F2C230', large: '#1F9A86', large2: '#8E5BB5', medium: '#5C6BC0', small: '#F2784B', small2: '#6DB653', square: '#4A9BE0', para: '#E85D75' },
   PC: { triangle: 'pcTriangle', rhombus: 'pcRhombus', trapezoid: 'pcTrapezoid', hexagon: 'pcHexagon', small: 'pcSmall', medium: 'pcMedium', large: 'pcLarge', square: 'pcSquare', para: 'pcPara' },
   OKT: { rhombus: 'okRhombus', trapezoid: 'okTrapezoid', triangle: 'okTriangle', para: 'okPara', hexagon: 'okHexagon', bar: 'okBar', square: 'okSquare', rectangle: 'okRectangle' },
@@ -548,7 +548,7 @@ var LightLeakActivity = {
   },
   _advance: function (ms) {
     if (this._adv) clearTimeout(this._adv);
-    this._adv = this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, Math.max(this.OK_MS, this.OK_MS === 4200 ? ms : 0));
+    this._adv = this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this.OK_MS);
   }
 };
 

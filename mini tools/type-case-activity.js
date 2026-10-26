@@ -63,7 +63,7 @@ var TypeCaseActivity = {
     { key: 'direction', type: 'choice', labelKey: 'setDir', options: [{ value: 'both', labelKey: 'dBoth' }, { value: 'capital', labelKey: 'dCap' }, { value: 'small', labelKey: 'dSmall' }] }
   ],
 
-  OK_MS: 2200, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;

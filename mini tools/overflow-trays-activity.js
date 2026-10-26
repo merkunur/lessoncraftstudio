@@ -90,7 +90,7 @@ var OverflowTraysActivity = {
     { key: 'help', type: 'choice', labelKey: 'setHelp', options: [{ value: 'miss', labelKey: 'helpMiss' }, { value: 'always', labelKey: 'helpAlways' }] }
   ],
 
-  OK_MS: 1400, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     var self = this;

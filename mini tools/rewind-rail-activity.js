@@ -83,7 +83,7 @@ var RewindRailActivity = {
     { key: 'steps', type: 'choice', labelKey: 'setSteps', options: [{ value: 'all', labelKey: 'pAll' }, { value: 'p', labelKey: 'pP' }, { value: 'own', labelKey: 'pOwn' }] }
   ],
 
-  OK_MS: 2800, FAST: false, SPEED: 0.8,
+  OK_MS: 500, FAST: false, SPEED: 0.8,
 
   init: function (api) {
     this.api = api;

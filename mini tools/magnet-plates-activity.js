@@ -82,7 +82,7 @@ var MagnetPlatesActivity = {
     { key: 'order', type: 'choice', labelKey: 'setOrder', options: [{ value: 'show', labelKey: 'oShow' }, { value: 'listen', labelKey: 'oListen' }] }
   ],
 
-  OK_MS: 3200, FAST: false, FOLD_MS: 5000,
+  OK_MS: 500, FAST: false, FOLD_MS: 5000,
 
   init: function (api) {
     this.api = api;

@@ -74,7 +74,7 @@ var SyllableChainActivity = {
     { key: 'labels', type: 'choice', labelKey: 'setLabels', options: [{ value: 'after', labelKey: 'optAfter' }, { value: 'always', labelKey: 'optAlways' }] }
   ],
 
-  OK_MS: 2600, CLASH_MS: 700, FAST: false,
+  OK_MS: 500, CLASH_MS: 700, FAST: false,
 
   init: function (api) {
     this.api = api;

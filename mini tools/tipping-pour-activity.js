@@ -71,7 +71,7 @@ var TippingPourActivity = {
     { key: 'question', type: 'choice', labelKey: 'setQuestion', options: [{ value: 'more', labelKey: 'qMore' }, { value: 'less', labelKey: 'qLess' }, { value: 'mixed', labelKey: 'qMixed' }] }
   ],
 
-  OK_MS: 1800, BACK_MS: 700, FILL_S: 1.2, FAST: false,
+  OK_MS: 500, BACK_MS: 700, FILL_S: 1.2, FAST: false,
 
   init: function (api) {
     var self = this;

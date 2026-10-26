@@ -79,7 +79,7 @@ var LidBoxesActivity = {
     { key: 'pos', type: 'choice', labelKey: 'setPos', options: [{ value: 'first', labelKey: 'posFirst' }, { value: 'middle', labelKey: 'posMiddle' }, { value: 'last', labelKey: 'posLast' }, { value: 'mixed', labelKey: 'posMixed' }] }
   ],
 
-  OK_MS: 3000, FAST: false,
+  OK_MS: 500, FAST: false,
   QUOTES: { en: ['“', '”'], de: ['„', '“'], nl: ['‘', '’'], da: ['»', '«'], sv: ['”', '”'], no: ['«', '»'], es: ['«', '»'], it: ['«', '»'], pt: ['“', '”'], fr: ['« ', ' »'], fi: ['”', '”'] },
 
   init: function (api) {
@@ -438,7 +438,7 @@ var LidBoxesActivity = {
       self._say(r.task === 'same' ? r.target.word + ' … ' + LidBoxesCore.candAt(st, st.test).w.word : r.target ? r.target.word : '', 0.85);
       self._busy = false; self._paint();
     }, this._ms(450));
-    this._later(function () { self._afterOk = true; self._paint(); var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this._ms(this.OK_MS));
+    this._later(function () { self._afterOk = true; self._paint(); var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this._ms(450 + this.OK_MS));
   }
 };
 

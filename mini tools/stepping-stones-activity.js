@@ -78,7 +78,7 @@ var SteppingStonesActivity = {
     { key: 'show', type: 'choice', labelKey: 'setShow', options: [{ value: 'hop', labelKey: 'optHop' }, { value: 'start', labelKey: 'optStart' }] }
   ],
 
-  OK_MS: 2600, HOP_MS: 380, FAST: false,
+  OK_MS: 500, HOP_MS: 380, FAST: false,
 
   init: function (api) {
     this.api = api;
@@ -467,7 +467,7 @@ var SteppingStonesActivity = {
       self._shut = false; self._paint();
       self._later(function () { self._shut = true; self._paint(); }, self._ms(700));
     }, this._ms(this.HOP_MS));
-    this._later(function () { self._busy = false; self._afterOk = true; self._paint(); var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this._ms(this.OK_MS));
+    this._later(function () { self._busy = false; self._afterOk = true; self._paint(); var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this._ms(this.HOP_MS + this.OK_MS));
   }
 };
 

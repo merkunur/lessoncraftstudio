@@ -76,7 +76,7 @@ var QuestionLampActivity = {
     { key: 'answer', type: 'choice', labelKey: 'setAnswer', options: [{ value: 'keys', labelKey: 'aKeys' }, { value: 'write', labelKey: 'aWrite' }] }
   ],
 
-  OK_MS: 2600, TOUR_MS: 520, FAST: false,
+  OK_MS: 500, TOUR_MS: 520, FAST: false,
   KMARK: { who: 'kWho', what: 'kWhat', where: 'kWhere', when: 'kWhen', why: 'kWhy', how: 'kHow' },
 
   init: function (api) {

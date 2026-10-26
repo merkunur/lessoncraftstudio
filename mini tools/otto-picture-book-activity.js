@@ -78,7 +78,7 @@ var OttoPictureBookActivity = {
     { key: 'parts', type: 'choice', labelKey: 'setParts', options: [{ value: 'one', labelKey: 'parts1' }, { value: 'two', labelKey: 'parts2' }] }
   ],
 
-  OK_MS: 3400, FAST: false, FLY_MS: 900,
+  OK_MS: 500, FAST: false, FLY_MS: 900,
   INSTR: { which: 'instrWhich', fill: 'instrFill', color: 'instrColor', tf: 'instrTF' },
 
   init: function (api) {

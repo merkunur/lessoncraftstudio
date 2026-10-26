@@ -68,7 +68,7 @@ var PostSlotActivity = {
     { key: 'task', type: 'choice', labelKey: 'setTask', options: [{ value: 'sort', labelKey: 'tSort' }, { value: 'faces', labelKey: 'tFaces' }, { value: 'things', labelKey: 'tThings' }] }
   ],
 
-  OK_MS: 2200, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;

@@ -93,7 +93,7 @@ var PostBoxActivity = {
     { key: 'shapes', type: 'choice', labelKey: 'setShapes', options: [{ value: 'first', labelKey: 'sFirst' }, { value: 'more', labelKey: 'sMore' }] }
   ],
 
-  OK_MS: 2200, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;

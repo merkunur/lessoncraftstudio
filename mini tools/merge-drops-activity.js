@@ -60,7 +60,7 @@ var MergeDropsActivity = {
     { key: 'beads', type: 'choice', labelKey: 'setBeads', options: [{ value: 'show', labelKey: 'bShow' }, { value: 'num', labelKey: 'bNum' }] }
   ],
 
-  OK_MS: 3800, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;
@@ -269,7 +269,7 @@ var MergeDropsActivity = {
   _advance: function (ms) {
     var self = this;
     if (this._adv) clearTimeout(this._adv);
-    this._adv = this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, Math.max(this.OK_MS, this.OK_MS === 3800 ? ms : 0));
+    this._adv = this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this.OK_MS);
   },
   _check: function () {
     if (this.st.done) return;

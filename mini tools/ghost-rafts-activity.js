@@ -83,7 +83,7 @@ var GhostRaftsActivity = {
     { key: 'cards', type: 'choice', labelKey: 'setCards', options: [{ value: 'digits', labelKey: 'digits' }, { value: 'words', labelKey: 'words' }] }
   ],
 
-  OK_MS: 1700, FAST: false,
+  OK_MS: 500, FAST: false,
   NAMES: { en: 'Dewey', de: 'Dewey', fr: 'Dewey', it: 'Dewey', es: 'Dewey', pt: 'Dudu', nl: 'Dobber', sv: 'Kvack', da: 'Rappe', no: 'Kvakk', fi: 'Kvaak' },
   DUCK: '/image-library-webp/themes/farm%20animals/duckling@2x.webp',
 

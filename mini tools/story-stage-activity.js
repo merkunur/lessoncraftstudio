@@ -87,7 +87,7 @@ var StoryStageActivity = {
   ],
 
   /* motion timings (FAST = the gates' short pauses) */
-  STEP_MS: 300, CHECK_MS: 1300, FAST: false,
+  STEP_MS: 300, CHECK_MS: 500, FAST: false,
   THEMES: ['spring', 'At the Supermarket', 'farm animals', 'toys', 'bakery', 'pets'],
 
   init: function (api) {

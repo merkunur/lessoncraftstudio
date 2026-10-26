@@ -130,7 +130,7 @@ var PullKeyActivity = {
     { key: 'times', type: 'choice', labelKey: 'setTimes', options: [{ value: 'half', labelKey: 'tHalf' }, { value: 'quarter', labelKey: 'tQuarter' }] },
     { key: 'rounds', type: 'choice', labelKey: 'setRounds', options: [{ value: 'readset', labelKey: 'rReadSet' }, { value: 'read', labelKey: 'rRead' }] }
   ],
-  OK_MS: 4200, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;
@@ -489,7 +489,7 @@ var PullKeyActivity = {
   },
   _advance: function (ms) {
     if (this._adv) clearTimeout(this._adv);
-    this._adv = this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, Math.max(this.OK_MS, this.OK_MS === 4200 ? ms : 0));
+    this._adv = this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this.OK_MS);
   }
 };
 

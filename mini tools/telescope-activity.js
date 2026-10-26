@@ -75,7 +75,7 @@ var TelescopeActivity = {
     { key: 'island', type: 'choice', labelKey: 'setIsland', options: [{ value: 'no', labelKey: 'optNo' }, { value: 'yes', labelKey: 'optYes' }] }
   ],
 
-  OK_MS: 2600, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;

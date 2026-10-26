@@ -70,7 +70,7 @@ var LetterMagnetActivity = {
     { key: 'letters', type: 'choice', labelKey: 'setLetters', options: [{ value: 'both', labelKey: 'lettersBoth' }, { value: 'upper', labelKey: 'lettersUpper' }, { value: 'lower', labelKey: 'lettersLower' }] }
   ],
 
-  OK_MS: 3000, FAST: false,
+  OK_MS: 500, FAST: false,
   LV_KEY: { one: 'lvOne', week: 'lvWeek', two: 'lvTwo', team: 'lvTeam', gap: 'lvGap' },
   QUOTES: { en: ['“', '”'], de: ['„', '“'], nl: ['‘', '’'], da: ['»', '«'], sv: ['”', '”'], no: ['«', '»'], es: ['«', '»'], it: ['«', '»'], pt: ['“', '”'], fr: ['« ', ' »'], fi: ['”', '”'] },
 
@@ -354,7 +354,7 @@ var LetterMagnetActivity = {
       self.api.sound(659); self._later(function () { self.api.sound(784); }, 110); self._later(function () { self.api.sound(1046); }, 220);
       self._busy = false; self._paint(); self.api.announce(self._note.textContent || '');
     }, this._ms(650));
-    this._later(function () { self._afterOk = true; self._paint(); var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this._ms(this.OK_MS));
+    this._later(function () { self._afterOk = true; self._paint(); var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this._ms(650 + this.OK_MS));
   }
 };
 

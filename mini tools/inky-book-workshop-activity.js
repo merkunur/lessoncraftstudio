@@ -66,7 +66,7 @@ var InkyBookWorkshopActivity = {
     { key: 'desks', type: 'choice', labelKey: 'setDesks', options: [{ value: 'open', labelKey: 'desksOpen' }, { value: 'plates', labelKey: 'desksPlates' }] }
   ],
 
-  OK_MS: 3600, FAST: false, WORK_MS: 900, BACK_MS: 900,
+  OK_MS: 500, FAST: false, WORK_MS: 900, BACK_MS: 900,
 
   init: function (api) {
     this.api = api;

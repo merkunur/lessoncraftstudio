@@ -59,7 +59,7 @@ var NilaPondActivity = {
     { key: 'umb', type: 'choice', labelKey: 'setUmb', options: [{ value: '3', labelKey: 'u3' }, { value: '4', labelKey: 'u4' }] }
   ],
 
-  OK_MS: 3800, FAST: false, MISS_MS: 1700, STEP_MS: 1100,
+  OK_MS: 500, FAST: false, MISS_MS: 1700, STEP_MS: 1100,
   PEG_COLORS: ['#F2784B', '#146B5E', '#E8B83A', '#4F9BD9'],
 
   init: function (api) {

@@ -65,7 +65,7 @@ var LamplightCupboardActivity = {
     { key: 'lamps', type: 'choice', labelKey: 'setLamps', options: [{ value: 'live', labelKey: 'aLive' }, { value: 'after', labelKey: 'aAfter' }] }
   ],
 
-  OK_MS: 3800, FAST: false, LONG_MS: 650,
+  OK_MS: 500, FAST: false, LONG_MS: 650,
 
   init: function (api) {
     this.api = api;
@@ -322,7 +322,7 @@ var LamplightCupboardActivity = {
     this._paint(); this.api.announce(msg);
     if (typeof LCSAudio !== 'undefined' && LCSAudio.speak) { try { LCSAudio.speak({ type: 'word', text: said, lang: this.api.lang, rate: 0.9, pitch: 1.1 }); } catch (e) {} }
     this._later(function () { var n = self._q('.lc-note'); if (n && n.scrollIntoView) n.scrollIntoView({ block: 'nearest' }); }, 0);
-    this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, Math.max(this.OK_MS, this.OK_MS === 3800 ? msg.length * 50 : 0));
+    this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this.OK_MS);
   }
 };
 

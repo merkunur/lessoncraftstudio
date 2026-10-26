@@ -71,7 +71,7 @@ var CousinRainActivity = {
     { key: 'rain', type: 'choice', labelKey: 'setRain', options: [{ value: 'live', labelKey: 'rLive' }, { value: 'check', labelKey: 'rCheck' }] }
   ],
 
-  OK_MS: 3600, FAST: false, LONG_MS: 650,
+  OK_MS: 500, FAST: false, LONG_MS: 650,
 
   init: function (api) {
     this.api = api;
@@ -446,7 +446,7 @@ var CousinRainActivity = {
     this._paint(); this.api.announce(msg);
     if (typeof LCSAudio !== 'undefined' && LCSAudio.speak) { try { LCSAudio.speak({ type: 'word', text: msg, lang: this.api.lang, rate: 0.9 }); } catch (e) {} }
     this._later(function () { var n = self._q('.cr-note'); if (n && n.scrollIntoView) n.scrollIntoView({ block: 'nearest' }); }, 0);   /* a long line on a small phone: bring it into view */
-    this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, Math.max(this.OK_MS, this.OK_MS === 3600 ? msg.length * 55 : 0));   /* time to read (or hear) the whole line */
+    this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this.OK_MS);   /* time to read (or hear) the whole line */
   }
 };
 

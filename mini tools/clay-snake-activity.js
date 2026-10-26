@@ -71,7 +71,7 @@ var ClaySnakeActivity = {
     { key: 'lettersNow', type: 'choice', labelKey: 'setLettersNow', options: [{ value: 'na', labelKey: 'optNa' }, { value: 'meteen', labelKey: 'optMeteen' }] }
   ],
 
-  OK_MS: 2600, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;

@@ -72,7 +72,7 @@ var BondBasketActivity = {
     { key: 'coat', type: 'choice', labelKey: 'setCoat', options: [{ value: 'pictures', labelKey: 'cPics' }, { value: 'dots', labelKey: 'cDots' }, { value: 'frames', labelKey: 'cFrames' }] }
   ],
 
-  OK_MS: 3800, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;
@@ -351,7 +351,7 @@ var BondBasketActivity = {
     this.api.sound(1046); this._later(function () { self.api.sound(1318); }, this._ms(140)); this._later(function () { self.api.sound(1568); }, this._ms(280));
     this._paint(); this.api.announce(msg);
     this._later(function () { var n = self._q('.bb-note'); if (n && n.scrollIntoView) n.scrollIntoView({ block: 'nearest' }); }, 0);
-    this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, Math.max(this.OK_MS, this.OK_MS === 3800 ? msg.length * 50 : 0));
+    this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this.OK_MS);
   }
 };
 

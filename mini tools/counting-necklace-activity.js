@@ -57,7 +57,7 @@ var CountingNecklaceActivity = {
     { key: 'numbers', type: 'choice', labelKey: 'setNumbers', options: [{ value: 'shown', labelKey: 'numbersShown' }, { value: 'hidden', labelKey: 'numbersHidden' }] }
   ],
 
-  TWIST_MS: 750, FADE_MS: 900, CHECK_MS: 600,
+  TWIST_MS: 750, FADE_MS: 900, CHECK_MS: 500,
 
   init: function (api) {
     var self = this;

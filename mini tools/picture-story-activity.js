@@ -63,7 +63,7 @@ var PictureStoryActivity = {
     { key: 'pages', type: 'choice', labelKey: 'setPages', options: [{ value: '3', labelKey: 'pg3' }, { value: '4', labelKey: 'pg4' }] }
   ],
 
-  OK_MS: 3200, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;
@@ -359,7 +359,7 @@ var PictureStoryActivity = {
     this.api.sound(659); this._later(function () { self.api.sound(784); }, this._ms(110));
     this._paint();
     this._later(function () { self._busy = false; self._view = { msg: msg }; self._paint(); self.api.announce(msg); }, this._ms(950));
-    this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this.FAST ? this.OK_MS : this.OK_MS);
+    this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this.OK_MS);
   },
   _win: function () {
     var self = this, st = this.st, r = st.r, pa = this._pa || {};

@@ -61,7 +61,7 @@ var FairRibbonActivity = {
     { key: 'jars', type: 'choice', labelKey: 'setJars', options: [{ value: 'clear', labelKey: 'jClear' }, { value: 'frosted', labelKey: 'jFrosted' }] },
     { key: 'story', type: 'choice', labelKey: 'setStory', options: [{ value: 'all', labelKey: 'sAll' }, { value: 'more', labelKey: 'sMore' }] }
   ],
-  OK_MS: 4200, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;
@@ -242,7 +242,7 @@ var FairRibbonActivity = {
   },
   _advance: function (ms) {
     if (this._adv) clearTimeout(this._adv);
-    this._adv = this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, Math.max(this.OK_MS, this.OK_MS === 4200 ? ms : 0));
+    this._adv = this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this.OK_MS);
   }
 };
 

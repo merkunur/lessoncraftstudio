@@ -62,7 +62,7 @@ var WordKeysActivity = {
     { key: 'pic', type: 'choice', labelKey: 'setPic', options: [{ value: 'on', labelKey: 'picOn' }, { value: 'off', labelKey: 'picOff' }] }
   ],
 
-  OK_MS: 3000, FAST: false,
+  OK_MS: 500, FAST: false,
   QUOTES: { en: ['“', '”'], de: ['„', '“'], nl: ['‘', '’'], da: ['»', '«'], sv: ['”', '”'], no: ['«', '»'], es: ['«', '»'], it: ['«', '»'], pt: ['“', '”'], fr: ['« ', ' »'], fi: ['”', '”'] },
 
   init: function (api) {

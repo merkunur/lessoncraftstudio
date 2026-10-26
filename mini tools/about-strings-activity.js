@@ -70,7 +70,7 @@ var AboutStringsActivity = {
     { key: 'cards', type: 'choice', labelKey: 'setCards', options: [{ value: '4', labelKey: 'c4' }, { value: '3', labelKey: 'c3' }] }
   ],
 
-  OK_MS: 4200, FAST: false, LONG_MS: 650,
+  OK_MS: 500, FAST: false, LONG_MS: 650,
 
   init: function (api) {
     this.api = api;

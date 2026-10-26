@@ -85,7 +85,7 @@ var SpringSwitchActivity = {
     { key: 'turntable', type: 'choice', labelKey: 'setTurn', options: [{ value: 'show', labelKey: 'show' }, { value: 'hide', labelKey: 'hide' }] }
   ],
 
-  ROLL_MS: 300, STREAM_MS: 450, CHECK_MS: 1200, FAST: false,
+  ROLL_MS: 300, STREAM_MS: 450, CHECK_MS: 500, FAST: false,
 
   init: function (api) {
     var self = this;

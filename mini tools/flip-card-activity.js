@@ -66,7 +66,7 @@ var FlipCardActivity = {
     { key: 'level', type: 'choice', labelKey: 'setLevel', options: [{ value: 'first', labelKey: 'lvFirst' }, { value: 'other', labelKey: 'lvOther' }, { value: 'swap', labelKey: 'lvSwap' }, { value: 'chain', labelKey: 'lvChain' }, { value: 'add', labelKey: 'lvAdd' }] }
   ],
 
-  OK_MS: 3000, FAST: false,
+  OK_MS: 500, FAST: false,
   QUOTES: { en: ['“', '”'], de: ['„', '“'], nl: ['‘', '’'], da: ['»', '«'], sv: ['”', '”'], no: ['«', '»'], es: ['«', '»'], it: ['«', '»'], pt: ['“', '”'], fr: ['« ', ' »'], fi: ['”', '”'] },
   LV_KEY: { first: 'lvFirst', other: 'lvOther', swap: 'lvSwap', chain: 'lvChain', add: 'lvAdd' },
 
@@ -392,7 +392,7 @@ var FlipCardActivity = {
       self.api.sound(659); self._later(function () { self.api.sound(784); }, 110); self._later(function () { self.api.sound(1046); }, 220);
       self._busy = false; self._paint();
     }, this._ms(650));
-    this._later(function () { self._afterOk = true; self._paint(); var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this._ms(this.OK_MS));
+    this._later(function () { self._afterOk = true; self._paint(); var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this._ms(650 + this.OK_MS));
   }
 };
 

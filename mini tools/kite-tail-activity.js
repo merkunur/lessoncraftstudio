@@ -98,7 +98,7 @@ var KiteTailActivity = {
     { key: 'kites', type: 'choice', labelKey: 'setKites', options: [{ value: '123', labelKey: 'opt123' }, { value: '23', labelKey: 'opt23' }] }
   ],
 
-  OK_MS: 2600, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;

@@ -73,7 +73,7 @@ var WritingCarriageActivity = {
     { key: 'practice', type: 'choice', labelKey: 'setPractice', options: [{ value: 'tw', labelKey: 'pTW' }, { value: 'tww', labelKey: 'pTWW' }, { value: 't', labelKey: 'pT' }] }
   ],
 
-  OK_MS: 2600, FAST: false, GLIDE_MS: 320,
+  OK_MS: 500, FAST: false, GLIDE_MS: 320,
 
   init: function (api) {
     this.api = api;

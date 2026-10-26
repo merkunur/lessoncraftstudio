@@ -72,7 +72,7 @@ var PictureBingoActivity = {
     { key: 'read', type: 'choice', labelKey: 'setRead', options: [{ value: 'pic', labelKey: 'rPic' }, { value: 'letter', labelKey: 'rLetter' }] }
   ],
 
-  OK_MS: 2600, FAST: false,
+  OK_MS: 500, FAST: false,
   LV_KEY: { look: 'lvLook', family: 'lvFamily', blend: 'lvBlend', syll: 'lvSyll', call: 'lvCall' },
   QUOTES: { en: ['“', '”'], de: ['„', '“'], nl: ['‘', '’'], da: ['»', '«'], sv: ['”', '”'], no: ['«', '»'], es: ['«', '»'], it: ['«', '»'], pt: ['“', '”'], fr: ['« ', ' »'], fi: ['”', '”'] },
 
@@ -333,7 +333,7 @@ var PictureBingoActivity = {
     this.api.sound(659); this._later(function () { self.api.sound(784); }, this._ms(110)); if (bingo) this._later(function () { self.api.sound(1046); }, this._ms(220));
     this._paint();
     this._later(function () { self._busy = false; self._paint(); self.api.announce(msg); }, this._ms(500));
-    this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this.FAST ? this.OK_MS : this.OK_MS + (res.full ? 1200 : 0));
+    this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this.OK_MS);
   }
 };
 

@@ -76,7 +76,7 @@ var FieldGuideActivity = {
     { key: 'tools', type: 'choice', labelKey: 'setTools', options: [{ value: 'A', labelKey: 'mA' }, { value: 'B', labelKey: 'mB' }, { value: 'C', labelKey: 'mC' }, { value: 'D', labelKey: 'mD' }] },
     { key: 'help', type: 'choice', labelKey: 'setHelp', options: [{ value: 'after', labelKey: 'hAfter' }, { value: 'start', labelKey: 'hStart' }] }
   ],
-  OK_MS: 4200, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;
@@ -427,7 +427,7 @@ var FieldGuideActivity = {
   },
   _advance: function (ms) {
     if (this._adv) clearTimeout(this._adv);
-    this._adv = this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, Math.max(this.OK_MS, this.OK_MS === 4200 ? ms : 0));
+    this._adv = this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this.OK_MS);
   }
 };
 

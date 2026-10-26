@@ -170,7 +170,7 @@ var ParkingTowerActivity = {
     { key: 'words', type: 'choice', labelKey: 'setWords', options: [{ value: 'near', labelKey: 'wNear' }, { value: 'tower', labelKey: 'wTower' }, { value: 'plan6', labelKey: 'wPlan6' }, { value: 'plan10', labelKey: 'wPlan10' }] }
   ],
 
-  OK_MS: 1800, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;

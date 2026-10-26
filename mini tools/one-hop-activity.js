@@ -107,7 +107,7 @@ var OneHopActivity = {
     { key: 'job', type: 'choice', labelKey: 'setJob', options: [{ value: 'lay', labelKey: 'jLay' }, { value: 'fix', labelKey: 'jFix' }, { value: 'order', labelKey: 'jOrder' }] },
     { key: 'sizes', type: 'choice', labelKey: 'setSizes', options: [{ value: 'one', labelKey: 'sOne' }, { value: 'big', labelKey: 'sBig' }] }
   ],
-  OK_MS: 4200, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;
@@ -472,7 +472,7 @@ var OneHopActivity = {
   },
   _advance: function (ms) {
     if (this._adv) clearTimeout(this._adv);
-    this._adv = this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, Math.max(this.OK_MS, this.OK_MS === 4200 ? ms : 0));
+    this._adv = this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this.OK_MS);
   }
 };
 

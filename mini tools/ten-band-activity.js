@@ -70,7 +70,7 @@ var TenBandActivity = {
     { key: 'numbers', type: 'choice', labelKey: 'setNumbers', options: [{ value: '49', labelKey: 'r49' }, { value: '99', labelKey: 'r99' }] },
     { key: 'gaps', type: 'choice', labelKey: 'setGaps', options: [{ value: 'show', labelKey: 'gShow' }, { value: 'spring', labelKey: 'gSpring' }] }
   ],
-  OK_MS: 4200, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;
@@ -292,7 +292,7 @@ var TenBandActivity = {
   },
   _advance: function (ms) {
     if (this._adv) clearTimeout(this._adv);
-    this._adv = this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, Math.max(this.OK_MS, this.OK_MS === 4200 ? ms : 0));
+    this._adv = this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this.OK_MS);
   }
 };
 

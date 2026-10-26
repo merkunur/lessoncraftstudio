@@ -66,7 +66,7 @@ var WillowStoryCornerActivity = {
     { key: 'listen', type: 'choice', labelKey: 'setListen', options: [{ value: 'always', labelKey: 'lAlways' }, { value: 'tap', labelKey: 'lTap' }] }
   ],
 
-  OK_MS: 3400, FAST: false, READ_MS: 2200, PULL_MS: 700,
+  OK_MS: 500, FAST: false, READ_MS: 2200, PULL_MS: 700,
 
   init: function (api) {
     this.api = api;

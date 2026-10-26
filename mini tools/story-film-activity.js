@@ -64,7 +64,7 @@ var StoryFilmActivity = {
     { key: 'read', type: 'choice', labelKey: 'setRead', options: [{ value: 'on', labelKey: 'rOn' }, { value: 'off', labelKey: 'rOff' }] }
   ],
 
-  OK_MS: 4200, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;
@@ -324,7 +324,7 @@ var StoryFilmActivity = {
       self.api.sound(1046); self._later(function () { self.api.sound(1318); }, self._ms(140)); self._later(function () { self.api.sound(1568); }, self._ms(280));
       self._paint(); self.api.announce(self._text.a + ' ' + msg);
       self._later(function () { var n = self._q('.sf-note'); if (n && n.scrollIntoView) n.scrollIntoView({ block: 'nearest' }); }, 0);
-      self._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, Math.max(self.OK_MS, self.OK_MS === 4200 ? (self._text.a.length + msg.length) * 50 : 0));
+      self._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, self.OK_MS);
     };
     if (this.FAST) { finish(); return; }
     /* the film plays the child's model, frame by frame, up to where it stops */

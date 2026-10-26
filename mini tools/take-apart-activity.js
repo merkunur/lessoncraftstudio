@@ -149,7 +149,7 @@ var TakeApartActivity = {
     { key: 'tray', type: 'choice', labelKey: 'setTray', options: [{ value: 'open', labelKey: 'trOpen' }, { value: 'help', labelKey: 'trHelp' }] },
     { key: 'shapes', type: 'choice', labelKey: 'setShapes', options: [{ value: '6', labelKey: 'sh6' }, { value: '4', labelKey: 'sh4' }] }
   ],
-  OK_MS: 4200, FAST: false,
+  OK_MS: 500, FAST: false,
   COL: { coral: '#F2784B', teal: '#1F9A86', sun: '#F4C542', plum: '#9B5DB0', sky: '#4A9BE0', leaf: '#6DB653' },
   NAMEKEY: { triangle: 'nmTri', square: 'nmSquare', rectangle: 'nmRect', pentagon: 'nmPent', hexagon: 'nmHex', circle: 'nmCirc', halfcircle: 'nmHalf' },
 
@@ -611,7 +611,7 @@ var TakeApartActivity = {
   },
   _advance: function (ms) {
     if (this._adv) clearTimeout(this._adv);
-    this._adv = this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, Math.max(this.OK_MS, this.OK_MS === 4200 ? ms : 0));
+    this._adv = this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this.OK_MS);
   }
 };
 

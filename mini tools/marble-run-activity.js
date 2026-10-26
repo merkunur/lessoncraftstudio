@@ -66,7 +66,7 @@ var MarbleRunActivity = {
     { key: 'decoy', type: 'choice', labelKey: 'setDecoy', options: [{ value: 'no', labelKey: 'optNo' }, { value: 'yes', labelKey: 'optYes' }] }
   ],
 
-  OK_MS: 3000, SEG_MS: 300, FAST: false,
+  OK_MS: 500, SEG_MS: 300, FAST: false,
 
   init: function (api) {
     this.api = api;

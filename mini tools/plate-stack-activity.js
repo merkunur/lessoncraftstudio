@@ -74,7 +74,7 @@ var PlateStackActivity = {
     { key: 'answer', type: 'choice', labelKey: 'setAnswer', options: [{ value: 'tiles', labelKey: 'aTiles' }, { value: 'write', labelKey: 'aWrite' }] }
   ],
 
-  OK_MS: 2600, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;

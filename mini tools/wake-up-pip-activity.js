@@ -69,7 +69,7 @@ var WakeUpPipActivity = {
     { key: 'caps', type: 'choice', labelKey: 'setCaps', options: [{ value: 'off', labelKey: 'capOff' }, { value: 'on', labelKey: 'capOn' }] }
   ],
 
-  OK_MS: 3400, FAST: false, WATCH_MS: 1600, STEP_MS: 700,
+  OK_MS: 500, FAST: false, WATCH_MS: 1600, STEP_MS: 700,
   INSTR: { order: 'instrOrder', missing: 'instrMissing', fix: 'instrFix' },
 
   init: function (api) {

@@ -102,7 +102,7 @@ var SortingChutesActivity = {
     { key: 'numbers', type: 'choice', labelKey: 'setNumbers', options: [{ value: 'shown', labelKey: 'nShown' }, { value: 'hidden', labelKey: 'nHidden' }] }
   ],
 
-  OK_MS: 1700, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;

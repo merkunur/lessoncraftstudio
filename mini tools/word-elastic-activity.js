@@ -75,7 +75,7 @@ var WordElasticActivity = {
     { key: 'words', type: 'choice', labelKey: 'setWords', options: [{ value: 'simple', labelKey: 'wSimple' }, { value: 'teams', labelKey: 'wTeams' }] }
   ],
 
-  OK_MS: 3000, FAST: false, SHELF: 9,
+  OK_MS: 500, FAST: false, SHELF: 9,
   CLUE_KEY: { beads: 'cBeads', first: 'cFirst', missing: 'cMissing', bank: 'cBank', write: 'cWrite', stretch: 'cStretch', blend: 'cBlend' },
 
   init: function (api) {
@@ -420,7 +420,7 @@ var WordElasticActivity = {
       if (!self._shelf.some(function (s) { return s.word === r.word; })) { self._shelf.push({ word: r.word, pic: r.pic }); if (self._shelf.length > self.SHELF) self._shelf.shift(); }
       self._paint(); self._say(r.word); self.api.announce(self._note.textContent || '');
     }, this._ms(320));
-    this._later(function () { self._afterOk = true; self._paint(); var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this._ms(this.OK_MS));
+    this._later(function () { self._afterOk = true; self._paint(); var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this._ms(320 + this.OK_MS));
   }
 };
 

@@ -86,7 +86,7 @@ var PaintWellsActivity = {
     { key: 'clue', type: 'choice', labelKey: 'setClue', options: [{ value: 'pour', labelKey: 'cPour' }, { value: 'jars', labelKey: 'cJars' }, { value: 'sentence', labelKey: 'cSent' }] },
     { key: 'help', type: 'choice', labelKey: 'setHelp', options: [{ value: 'first', labelKey: 'hFirst' }, { value: 'none', labelKey: 'hNone' }] }
   ],
-  OK_MS: 4200, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;
@@ -411,7 +411,7 @@ var PaintWellsActivity = {
   },
   _advance: function (ms) {
     if (this._adv) clearTimeout(this._adv);
-    this._adv = this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, Math.max(this.OK_MS, this.OK_MS === 4200 ? ms : 0));
+    this._adv = this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this.OK_MS);
   }
 };
 

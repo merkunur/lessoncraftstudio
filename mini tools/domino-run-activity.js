@@ -74,7 +74,7 @@ var DominoRunActivity = {
     { key: 'letters', type: 'choice', labelKey: 'setCase', options: [{ value: 'lower', labelKey: 'optLower' }, { value: 'upper', labelKey: 'optUpper' }] }
   ],
 
-  OK_MS: 2600, HOLD_MS: 1300, FAST: false,
+  OK_MS: 500, HOLD_MS: 1300, FAST: false,
 
   init: function (api) {
     this.api = api;
@@ -388,7 +388,7 @@ var DominoRunActivity = {
       self.api.announce(self._t('ariaWord', { word: r.w.word }));
       self._paint();
     }, this._ms(500));
-    this._later(function () { self._busy = false; self._afterOk = true; self._paint(); var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this._ms(this.OK_MS));
+    this._later(function () { self._busy = false; self._afterOk = true; self._paint(); var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this._ms(500 + this.OK_MS));
   }
 };
 

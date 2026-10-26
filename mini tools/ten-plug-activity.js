@@ -67,7 +67,7 @@ var TenPlugActivity = {
     { key: 'level', type: 'choice', labelKey: 'setLevel', options: [{ value: 'm10', labelKey: 'lvM10' }, { value: 'add', labelKey: 'lvAdd' }] },
     { key: 'mode', type: 'choice', labelKey: 'setMode', options: [{ value: 'snap', labelKey: 'mSnap' }, { value: 'head', labelKey: 'mHead' }] }
   ],
-  OK_MS: 3800, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;
@@ -346,7 +346,7 @@ var TenPlugActivity = {
   },
   _advance: function (ms) {
     if (this._adv) clearTimeout(this._adv);
-    this._adv = this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, Math.max(this.OK_MS, this.OK_MS === 3800 ? ms : 0));
+    this._adv = this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this.OK_MS);
   }
 };
 

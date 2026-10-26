@@ -75,7 +75,7 @@ var LacingBoardActivity = {
     { key: 'layout', type: 'choice', labelKey: 'setLayout', options: [{ value: 'scatter', labelKey: 'optScatter' }, { value: 'row', labelKey: 'optRow' }] }
   ],
 
-  OK_MS: 2600, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;

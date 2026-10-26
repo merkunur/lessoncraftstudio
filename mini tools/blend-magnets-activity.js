@@ -59,7 +59,7 @@ var BlendMagnetsActivity = {
     { key: 'pull', type: 'choice', labelKey: 'setPull', options: [{ value: 'strong', labelKey: 'optStrong' }, { value: 'gentle', labelKey: 'optGentle' }] }
   ],
 
-  OK_MS: 3000, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;
@@ -318,7 +318,7 @@ var BlendMagnetsActivity = {
       self.api.announce(self._t('ariaSnapped', { word: r.word }));
       self._busy = false; self._paint();
     }, this._ms(150 + k * 150 + 300));
-    this._later(function () { self._afterOk = true; self._paint(); var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this._ms(this.OK_MS));
+    this._later(function () { self._afterOk = true; self._paint(); var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this._ms(150 + k * 150 + 300 + this.OK_MS));
   }
 };
 

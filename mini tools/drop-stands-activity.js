@@ -78,7 +78,7 @@ var DropStandsActivity = {
     { key: 'start', type: 'choice', labelKey: 'setStart', options: [{ value: 'stands', labelKey: 'sStands' }, { value: 'floor', labelKey: 'sFloor' }] }
   ],
 
-  OK_MS: 1700, FAST: false,
+  OK_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;

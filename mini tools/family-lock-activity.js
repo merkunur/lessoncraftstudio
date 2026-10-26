@@ -69,7 +69,7 @@ var FamilyLockActivity = {
     { key: 'notch', type: 'choice', labelKey: 'setNotch', options: [{ value: 'after', labelKey: 'optAfter' }, { value: 'always', labelKey: 'optAlways' }] }
   ],
 
-  OK_MS: 3200, FAST: false, FREE_MS: 6000,
+  OK_MS: 500, FAST: false, FREE_MS: 6000,
 
   init: function (api) {
     this.api = api;
@@ -475,7 +475,7 @@ var FamilyLockActivity = {
       self._busy = false; self._paint();
     }, this._ms(n * 80 + 1300));
     this._later(function () { if (self.st === st) { self._view.free = false; self._view.freeMoved = false; self._paint(); } }, this._ms(n * 80 + 1300 + this.FREE_MS) || 1);
-    this._later(function () { self._afterOk = true; self._paint(); var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this._ms(this.OK_MS));
+    this._later(function () { self._afterOk = true; self._paint(); var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this._ms(n * 80 + 260 + this.OK_MS));
   }
 };
 

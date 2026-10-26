@@ -71,7 +71,7 @@ var BlinkCameraActivity = {
     { key: 'blink', type: 'choice', labelKey: 'setBlink', options: [{ value: 'long', labelKey: 'bLong' }, { value: 'medium', labelKey: 'bMedium' }, { value: 'short', labelKey: 'bShort' }] }
   ],
 
-  OK_MS: 3000, FAST: false, HOLD: false,
+  OK_MS: 500, FAST: false, HOLD: false,
   B_KEY: { 'long': 'bLong', medium: 'bMedium', 'short': 'bShort' },
   DIAL: ['long', 'medium', 'short'],
   QUOTES: { en: ['“', '”'], de: ['„', '“'], nl: ['‘', '’'], da: ['»', '«'], sv: ['”', '”'], no: ['«', '»'], es: ['«', '»'], it: ['«', '»'], pt: ['“', '”'], fr: ['« ', ' »'], fi: ['”', '”'] },
@@ -386,7 +386,7 @@ var BlinkCameraActivity = {
       if (full) { self._later(function () { self._view = { won: true, group: true, albumFull: true }; self._paint(); }, self._ms(500)); }
       self.api.announce(self._note.textContent || '');
     }, this._ms(1500));
-    this._later(function () { self._afterOk = true; var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this.FAST ? this.OK_MS : this.OK_MS + (full ? 1200 : 0));
+    this._later(function () { self._afterOk = true; var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this._ms(1500) + this.OK_MS);
   }
 };
 

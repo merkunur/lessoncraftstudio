@@ -74,7 +74,7 @@ var StorySpineActivity = {
     { key: 'words', type: 'choice', labelKey: 'setWords', options: [{ value: 'shown', labelKey: 'wShown' }, { value: 'hidden', labelKey: 'wHidden' }] }
   ],
 
-  OK_MS: 3600, FAST: false, STEP_MS: 650,
+  OK_MS: 500, FAST: false, STEP_MS: 650,
   INSTR: { name: 'instrName', trouble: 'instrTrouble', fix: 'instrFix', match: 'instrMatch' },
   TAB: { start: 'tabStart', trouble: 'tabTrouble', fix: 'tabFix' },
 

@@ -69,7 +69,7 @@ var PhotoSyllablesActivity = {
     { key: 'decoy', type: 'choice', labelKey: 'setDecoy', options: [{ value: 'none', labelKey: 'optNone' }, { value: 'one', labelKey: 'optOne' }] }
   ],
 
-  OK_MS: 3400, BAND_MS: 500, FAST: false,
+  OK_MS: 500, BAND_MS: 500, FAST: false,
 
   init: function (api) {
     this.api = api;

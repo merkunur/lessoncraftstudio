@@ -76,4 +76,4 @@ ONE native + Grade-1 reading reviewer over all 11 locales.
 - **Content:** `verify-activity-content-<loc>` ×11, `verify-activity-prose-claims`, `verify-activity-serp-copy`, `audit-activity-content-tells` and `preflight-activity-routes` all pass.
 
 ## Live
-LIVEVERIFY: pending.
+`live-verify-point-of-view.js` on production: **52 pass, 0 fail**. All 11 pages return 200 with wrapper 9.863. Real pointer in en, de, sv and fi at 1366 and 390: the whale round — the low window shows the whale huge and cut off by the frame, Check gives the locale's view hint; the high window shows a dot, Check gives the success line naming the creature. The iframe grows with the card. The first run fell inside the deploy window (the edge still served the old embed) and was rerun once.

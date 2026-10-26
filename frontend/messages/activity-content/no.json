@@ -3167,6 +3167,29 @@
         "Forklare forskjellen: en fortelling går fra begynnelsen til slutten, en faktabok forteller noe sant på hver side.",
         "Avgjøre ved å lese, ikke etter tema, bilde eller tittel."
       ]
+    },
+    "point-of-view.who-told.rl-1-6": {
+      "about": [
+        "Tre dyr ser ut fra Lumens fyr: ett fra det øverste vinduet, ett fra midten og ett fra det nederste. Trykk på et vindu, så ser havna ut akkurat slik det dyret ser den. Ovenfra er båten en bitteliten prikk langt der nede, fra midten er den rett overfor, nedenfra er den så kjempestor at rammen skjærer den av. Lumens fyrvinduer er en leseøvelse om hvem som forteller.",
+        "Fortelleren sier: «Båten så ut som en bitteliten prikk, langt der nede.» Bare utsikten fra ett vindu passer med ordene, så barnet finner fortelleren ved å lese. I «Hvem forteller hvilken del?» forteller ulike dyr de tre setningene i én historie: «Jeg flakser med vingene og lander helt øverst.» kan bare måken si, for bare den har vinger. Ett dyr kan fortelle to deler.",
+        "Aktiviteten er i tråd med LK20 (kompetansemål etter 2. trinn) for lesing. Ingen tidtaking og ingen poeng."
+      ],
+      "practices": [
+        "Se hvem som forteller, på ordene «jeg» og «meg»",
+        "Sammenligne fortellerens ord med det den kunne se",
+        "Se på en kroppsdel hvem som sier en setning",
+        "Legge merke til når fortelleren bytter i en historie"
+      ],
+      "howToPlay": [
+        "Les hva som skjedde, og hva fortelleren sier.",
+        "Trykk på et vindu og se havna med det dyrets øyne, trykk så på Sjekk. Lumens lampe lyser på riktig vindu.",
+        "I innstillingene velger du oppgave: Fra hvilket vindu? eller Hvem forteller hvilken del?. De tre utsiktene kan også stå side om side for hele klassen."
+      ],
+      "learningGoals": [
+        "Se hvem som forteller på ulike steder i en tekst.",
+        "Bruke fortellerens egne ord (bitteliten og langt borte, rett overfor, kjempestor og helt nær) som bevis.",
+        "Vite at en historie kan ha mer enn én forteller."
+      ]
     }
   }
 }

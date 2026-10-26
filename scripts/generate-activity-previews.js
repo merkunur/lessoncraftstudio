@@ -75,6 +75,10 @@ function seedScript(row) {
     const n = frames >= 2 ? 13 : 6; // show themed counters across the frame(s)
     return `(function(){var t=window['${g}'];if(t&&t.setCount){t.setCount(${n});if(t.paint)t.paint();}})();`;
   }
+  if (row.tool === 'point-of-view-activity') {
+    // the low window chosen: the harbor object rises huge out of the frame — the invention at work
+    return `(function(){var t=window['${g}'];if(t&&t._win){t._win('low');}})();`;
+  }
   if (row.tool === 'array-activity') {
     // Fill every R×C cell so the array of dots + repeated-addition strip show.
     return `(function(){var t=window['${g}'];if(t&&t.filled&&t._key){for(var r=0;r<t.rows;r++)for(var c=0;c<t.cols;c++){t.filled[t._key(r,c)]=true;}if(t.paint)t.paint();}})();`;

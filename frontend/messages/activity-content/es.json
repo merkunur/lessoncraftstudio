@@ -356,25 +356,25 @@
     },
     "point-of-view.who-told.rl-1-6": {
       "about": [
-        "Lumen el búho vive en un faro con ventanas a distintas alturas, y en cada una vive un animalito. Pasa algo en el puerto y alguien lo cuenta; su hijo/a lee la oración y toca la ventana desde donde se vio. Por ejemplo, ante «La lancha se veía como un puntito, allá lejos», hay que tocar al animalito de hasta arriba: sólo desde allá arriba una lancha se ve tan pequeña.",
-        "La regla es cortita y el faro la enseña sola: desde hasta arriba, todo se ve muy pequeño y lejos; desde hasta abajo, junto al agua, todo se ve enorme y bien cerca. Con eso basta para resolver cada ronda —no hay que adivinar—, y de paso su hijo/a descubre algo que le va a servir toda la vida como lector: lo que alguien cuenta depende de dónde estaba parado cuando lo vio.",
-        "Es una primera probadita, muy concreta, de algo que en la escuela se vuelve importante más adelante: darse cuenta de que una misma cosa se cuenta distinto según quién la mire. Aquí no hay nada abstracto —hay una ola, un cangrejo, un barco— y la pista siempre está en las palabras de tamaño y distancia. Sin cronómetro, sin puntaje y sin cuenta; se juega en el navegador."
+        "Tres animales se asoman al faro de Lumen: uno desde la ventana de arriba, otro desde la de en medio y otro desde la de abajo. Toca una ventana y el puerto aparece tal como lo ve ese animal. Desde arriba, la lancha es un puntito allá abajo; desde en medio, está justo enfrente; desde abajo, es tan enorme que el marco la corta. Las ventanas del faro de Lumen es una actividad de lectura para descubrir quién cuenta una historia.",
+        "Quien lo cuenta dice: «La lancha se veía como un puntito, lejos, allá abajo.» Solo la vista de una ventana coincide con esas palabras, así que el niño encuentra al narrador leyendo. En «¿Quién cuenta cada parte?», tres animales cuentan las tres frases de un mismo cuento: «Bato las alas y me paro hasta arriba.» solo puede decirlo la gaviota, porque solo ella tiene alas. Un animal puede contar dos partes.",
+        "La actividad está alineada con el currículo oficial de lectura y comprensión. Sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Darse cuenta de que lo que alguien cuenta depende de dónde estaba",
-        "Fijarse en las palabras de tamaño y distancia: «pequeño y lejos» o «enorme y bien cerca»",
-        "Relacionar lo que dice la oración con la altura de quien la cuenta",
-        "Leer solo/a una oración corta y decidir con esa información"
+        "Descubrir quién cuenta por las palabras «yo» y «mí»",
+        "Comparar lo que dice el narrador con lo que podía ver",
+        "Usar una parte del cuerpo para saber quién dice una frase",
+        "Notar cuando cambia el narrador dentro de un cuento"
       ],
       "howToPlay": [
-        "Lean juntos qué pasó en el puerto y luego la oración de quien lo vio",
-        "Pregúntele a su hijo/a: ¿se veía pequeño y lejos, o enorme y bien cerca?",
-        "El niño toca la ventana que corresponde: hasta arriba si se veía pequeño, hasta abajo si se veía enorme"
+        "Lee lo que pasó y lo que dice quien lo cuenta.",
+        "Toca una ventana para ver el puerto con los ojos de ese animal y luego presiona Comprobar. La lámpara de Lumen alumbra la ventana correcta.",
+        "En la configuración eliges la actividad: ¿Desde qué ventana? o ¿Quién cuenta cada parte?. Las tres vistas también pueden quedarse juntas para todo el grupo."
       ],
       "learningGoals": [
-        "Su hijo/a identifica desde qué lugar se cuenta una oración",
-        "Usa las pistas de tamaño y distancia en vez de adivinar",
-        "Entiende que una misma cosa se ve distinta según desde dónde se mire"
+        "Identificar quién cuenta la historia en distintos momentos de un texto.",
+        "Usar las palabras del narrador (pequeñito y lejos, justo enfrente, enorme y muy cerca) como pistas.",
+        "Saber que un cuento puede tener más de un narrador."
       ]
     },
     "pim-comma-mail.letter-commas.l-2-2-b": {

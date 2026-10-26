@@ -4166,23 +4166,25 @@
     },
     "point-of-view.who-told.rl-1-6": {
       "about": [
-        "Lumen le hibou garde un phare plein de fenêtres, une par animal, à des hauteurs différentes. Une phrase dite « je » raconte ce qu'un animal a vu : tout en haut, les choses paraissent minuscules et lointaines ; tout en bas, énormes et toutes proches. Ton enfant lit la phrase, puis touche la fenêtre d'où elle est racontée.",
-        "Identifier de quel point de vue une phrase est racontée, c'est faire un premier pas vers le point de vue narratif — un attendu du CE1. Le jeu se joue sans minuteur et sans points : l'enfant lit, imagine d'où c'est vu et choisit la bonne fenêtre, dans le domaine « Comprendre et interpréter » des programmes officiels de l'école."
+        "Trois animaux regardent depuis le phare de Lumen : un depuis la fenêtre du haut, un depuis celle du milieu et un depuis celle du bas. Touche une fenêtre et le port apparaît exactement comme cet animal le voit. D’en haut, le bateau est un tout petit point loin en bas ; du milieu, il est juste en face ; d’en bas, il est si énorme que le cadre le coupe. Les fenêtres du phare de Lumen est une activité de lecture pour savoir qui raconte une histoire.",
+        "Le conteur dit : « Le bateau ressemblait à un tout petit point, loin, tout en bas. » Une seule fenêtre montre une vue qui va avec ces mots : l’enfant trouve le conteur en lisant. Avec « Qui raconte chaque partie ? », trois animaux racontent les trois phrases d’une même histoire : « Je bats des ailes et je me pose tout en haut. » ne peut venir que de la mouette, car elle seule a des ailes. Un animal peut raconter deux parties.",
+        "L’activité est alignée sur les programmes officiels de lecture et de compréhension. Sans chronomètre et sans points."
       ],
       "practices": [
-        "Identifier d'où une phrase est racontée",
-        "Relier « minuscule et loin » à une vue d'en haut",
-        "Relier « énorme et tout près » à une vue d'en bas",
-        "Découvrir le point de vue d'un récit"
+        "Trouver qui raconte grâce à « je » et « moi »",
+        "Comparer les mots du conteur à ce qu’il pouvait voir",
+        "Reconnaître qui dit une phrase grâce à une partie du corps",
+        "Remarquer quand le conteur change dans une histoire"
       ],
       "howToPlay": [
-        "Lis ce que le conteur a vu.",
-        "Touche la fenêtre d'où c'est raconté."
+        "Lis ce qui s’est passé et ce que dit le conteur.",
+        "Touche une fenêtre pour voir le port avec les yeux de cet animal, puis appuie sur Vérifier. La lampe de Lumen éclaire la bonne fenêtre.",
+        "Dans les réglages, choisis l’activité : De quelle fenêtre ? ou Qui raconte chaque partie ?. Les trois vues peuvent aussi rester côte à côte pour toute la classe."
       ],
       "learningGoals": [
-        "Identifier le point de vue d'une phrase",
-        "Relier la hauteur à ce que l'on voit",
-        "Découvrir le point de vue narratif"
+        "Savoir qui raconte l’histoire à différents moments d’un texte.",
+        "Se servir des mots du conteur (minuscule et loin, juste en face, énorme et tout près) comme indices.",
+        "Comprendre qu’une histoire peut avoir plus d’un conteur."
       ]
     },
     "sock-and-shadow.puppet-speak.sl-k-6": {

@@ -3139,6 +3139,29 @@
         "Forklare forskellen: en historie går fra begyndelsen til slutningen, en faktabog fortæller noget sandt på hver side.",
         "Afgøre det ved at læse, ikke efter emne, billede eller titel."
       ]
+    },
+    "point-of-view.who-told.rl-1-6": {
+      "about": [
+        "Tre dyr kigger ud fra Lumens fyrtårn: et fra det øverste vindue, et fra midten og et fra det nederste. Tryk på et vindue, så ser havnen ud præcis, som det dyr ser den. Oppefra er båden en bitte lille prik langt nede, fra midten er den lige over for, nedefra er den så kæmpestor, at rammen skærer den af. Lumens fyrtårnsvinduer er en læseøvelse om, hvem der fortæller.",
+        "Fortælleren siger: «Båden lignede en bitte lille prik, langt nede.» Kun udsigten fra ét vindue passer med ordene, så barnet finder fortælleren ved at læse. I «Hvem fortæller hvilken del?» fortæller forskellige dyr de tre sætninger i én historie: «Jeg basker med vingerne og lander helt øverst.» kan kun mågen sige, for kun den har vinger. Et dyr kan fortælle to dele.",
+        "Aktiviteten er i tråd med Fælles Mål for læsning i indskolingen. Ingen tidtagning og ingen point."
+      ],
+      "practices": [
+        "Se, hvem der fortæller, på ordene «jeg» og «mig»",
+        "Sammenligne fortællerens ord med det, den kunne se",
+        "Se på en kropsdel, hvem der siger en sætning",
+        "Lægge mærke til, når fortælleren skifter i en historie"
+      ],
+      "howToPlay": [
+        "Læs, hvad der skete, og hvad fortælleren siger.",
+        "Tryk på et vindue, og se havnen med det dyrs øjne, tryk så på Tjek. Lumens lampe lyser på det rigtige vindue.",
+        "I indstillingerne vælger du opgave: Fra hvilket vindue? eller Hvem fortæller hvilken del?. De tre udsigter kan også blive stående side om side for hele klassen."
+      ],
+      "learningGoals": [
+        "Se, hvem der fortæller forskellige steder i en tekst.",
+        "Bruge fortællerens egne ord (bitte lille og langt væk, lige over for, kæmpestor og helt tæt på) som bevis.",
+        "Vide, at en historie kan have mere end én fortæller."
+      ]
     }
   }
 }

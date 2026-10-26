@@ -3139,6 +3139,29 @@
         "Selittää ero: tarina etenee alusta loppuun, tietokirja kertoo joka sivulla jonkin tosiasian.",
         "Päättää lukemalla, ei aiheen, kuvan tai nimen perusteella."
       ]
+    },
+    "point-of-view.who-told.rl-1-6": {
+      "about": [
+        "Kolme eläintä katsoo ulos Lumenin majakasta: yksi ylimmästä ikkunasta, yksi keskimmäisestä ja yksi alimmasta. Napauta ikkunaa, niin satama näkyy juuri niin kuin tuo eläin sen näkee. Ylhäältä vene on pikkuruinen piste kaukana alhaalla, keskeltä se on suoraan vastapäätä, alhaalta se on niin valtava, että ikkunan kehys leikkaa sen. Lumenin majakan ikkunat on lukutehtävä siitä, kuka tarinaa kertoo.",
+        "Kertoja sanoo: «Vene näytti pikkuruiselta pisteeltä kaukana alhaalla.» Vain yhden ikkunan näkymä sopii näihin sanoihin, joten lapsi löytää kertojan lukemalla. Tehtävässä «Kuka kertoo minkäkin osan?» eri eläimet kertovat saman tarinan kolme lausetta: «Räpytän siipiäni ja laskeudun aivan huipulle.» voi olla vain lokin, sillä vain lokilla on siivet. Sama eläin voi kertoa kaksi osaa.",
+        "Tehtävä tukee perusopetuksen opetussuunnitelman (OPS 2014) lukemisen ja tekstin ymmärtämisen tavoitteita. Ei ajanottoa eikä pisteitä."
+      ],
+      "practices": [
+        "Huomata minä-muodoista, kuka kertoo",
+        "Verrata kertojan sanoja siihen, mitä hän pystyi näkemään",
+        "Päätellä ruumiinosasta, kuka sanoo lauseen",
+        "Huomata, kun kertoja vaihtuu tarinan aikana"
+      ],
+      "howToPlay": [
+        "Lue, mitä tapahtui ja mitä kertoja sanoo.",
+        "Napauta ikkunaa ja katso satamaa tuon eläimen silmin, paina sitten Tarkista. Lumenin lamppu valaisee oikean ikkunan.",
+        "Asetuksista valitset tehtävän: Mistä ikkunasta? tai Kuka kertoo minkäkin osan?. Kolme näkymää voi myös jäädä rinnakkain koko luokan nähtäviksi."
+      ],
+      "learningGoals": [
+        "Tunnistaa, kuka kertoo tarinaa tekstin eri kohdissa.",
+        "Käyttää kertojan omia sanoja (pikkuruinen ja kaukana, suoraan vastapäätä, valtava ja ihan lähellä) todisteena.",
+        "Tietää, että tarinalla voi olla useampi kuin yksi kertoja."
+      ]
     }
   }
 }

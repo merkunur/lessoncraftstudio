@@ -3717,25 +3717,25 @@
     },
     "point-of-view.who-told.rl-1-6": {
       "about": [
-        "A Luzia é uma corujinha que mora no alto de um farol, com janelinhas em três alturas diferentes. A cada rodada, acontece uma cena no mar — um barco que passa, uma onda que sobe, uma gaivota que voa — e a criança lê uma frase contada por alguém. A missão dela é descobrir de qual janela aquela frase foi contada e tocar nessa janela.",
-        "O segredo é simples, e a criança vai percebendo sozinha: lá de cima, bem no alto do farol, tudo parece pequenininho e lá longe; já lá embaixo, pertinho da água, tudo parece enorme e bem perto. Assim, a atividade deixa visível uma ideia que costuma ser abstrata — de onde a história está sendo vista, de que lugar cada um estava olhando. A criança não decora nenhuma regra: ela enxerga a diferença entre olhar de cima e olhar de baixo.",
-        "A atividade não pede cadastro nem login. Não tem cronômetro, não tem pontuação e não tem competição — cada criança avança no seu próprio ritmo, com calma. Quando ela toca numa janela que não combina, recebe uma dica gentil e pode tentar de novo, sempre com um tom acolhedor. O conteúdo dialoga com a BNCC, na leitura de textos literários e na percepção de quem conta a história e de onde ela está olhando, um primeiro olhar valioso já nos primeiros anos do Ensino Fundamental."
+        "Três bichos olham pelas janelas do farol da Lumen: um pela janela de cima, um pela do meio e um pela de baixo. Toque em uma janela e o porto aparece do jeitinho que aquele bicho o vê. Lá de cima, o barco é um pontinho lá embaixo; do meio, ele está bem em frente; de baixo, ele é tão enorme que a moldura o corta. As janelas do farol da Lumen é uma atividade de leitura para descobrir quem conta uma história.",
+        "Quem conta diz: \"O barco era só um pontinho, longe, lá embaixo.\" Só a vista de uma janela combina com essas palavras, então a criança encontra o narrador lendo. Em \"Quem conta cada parte?\", três bichos contam as três frases de uma mesma história: \"Bato as asas e pouso lá no alto.\" só pode ser da gaivota, porque só ela tem asas. Um bicho pode contar duas partes.",
+        "A atividade está alinhada à BNCC para a leitura e a compreensão de textos. Sem cronômetro e sem pontos."
       ],
       "practices": [
-        "Perceber de que lugar uma cena está sendo contada.",
-        "Ligar pistas da frase (pequenininho, lá longe / enorme, bem perto) ao lugar de quem observa.",
-        "Ler frases curtas e tirar delas uma informação importante.",
-        "Comparar como uma mesma cena muda conforme o lugar de onde se olha."
+        "Descobrir quem conta pelas palavras \"eu\" e \"mim\"",
+        "Comparar as palavras do narrador com o que ele podia ver",
+        "Usar uma parte do corpo para saber quem diz uma frase",
+        "Perceber quando o narrador muda dentro de uma história"
       ],
       "howToPlay": [
-        "Leia a cena e depois a frase que alguém contou.",
-        "Pense: quem viu isso estava lá em cima ou lá embaixo, pertinho da água?",
-        "Toque na janela da altura certa. Se não combinar, vem uma dica e você tenta de novo."
+        "Leia o que aconteceu e o que quem conta diz.",
+        "Toque em uma janela para ver o porto com os olhos daquele bicho e depois toque em Verificar. A lâmpada da Lumen ilumina a janela certa.",
+        "Nas configurações você escolhe a atividade: De qual janela? ou Quem conta cada parte?. As três vistas também podem ficar lado a lado para a turma toda."
       ],
       "learningGoals": [
-        "Eu percebo se uma frase foi contada lá de cima ou lá de baixo.",
-        "Eu sei que, de cima, as coisas parecem pequenininhas e distantes.",
-        "Eu sei que, lá embaixo, pertinho da água, as coisas parecem enormes e bem perto."
+        "Identificar quem conta a história em diferentes momentos de um texto.",
+        "Usar as palavras do narrador (pequenininho e longe, bem em frente, enorme e pertinho) como pistas.",
+        "Saber que uma história pode ter mais de um narrador."
       ]
     },
     "wobble-museum.catch-drift.w-k-2": {

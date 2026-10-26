@@ -3505,25 +3505,25 @@
     },
     "point-of-view.who-told.rl-1-6": {
       "about": [
-        "Lumen the owl perches by a lighthouse of creature-windows, and when a red boat sails in or a wave rolls up, one creature describes it its own way — \"a tiny dot, far away\" or \"it splashed right over me!\" The child taps the window of the creature whose view that is, in an interactive Grade 1 reading activity that plays in the browser with no sign-up.",
-        "The whole idea is that where you stand changes what you see. A creature high up — like Gull at the top window — sees things tiny and far; a creature down low by the water sees the same thing big and close. Each window is tinted (pale sky up high, deep teal water down low) with an up or down arrow, so the height is shown three ways. The other two creatures sit at the wrong heights, so a child cannot guess by position alone — they have to match the storyteller's words to a viewpoint.",
-        "It is aligned to Common Core RL.1.6 — identifying who is telling a story. No timer, no score — just calm, playful practice."
+        "Three creatures look out of Lumen's lighthouse: one from a high window, one from the middle and one from the bottom. Tap a window and the harbor appears exactly as that creature sees it. From the top, the boat is a tiny dot far below; from the middle, it is straight across; from the bottom, it is so huge it is cut off by the frame. Lumen's Lighthouse Windows is a Grade 1 reading activity about who is telling a story.",
+        "The storyteller says \"The boat looked like a tiny dot, far below me.\" Only one window's view matches those words, so the child finds the teller by reading. In Who tells each part?, three lines of one story are told by different creatures: \"I flapped my wings and landed on the very top.\" can only be the gull's, because only the gull has wings. One creature may tell two parts.",
+        "It is aligned to Common Core RL.1.6: identify who is telling the story at various points in a text. No timer and no score."
       ],
       "practices": [
-        "Figuring out who is telling part of a story from how things are described",
-        "Connecting a high viewpoint to 'tiny and far' and a low viewpoint to 'big and close'",
-        "Reading a first-person line closely instead of guessing by picture position",
-        "Noticing that the same harbor event looks different from different windows"
+        "Use the words \"I\" and \"me\" to find who is telling",
+        "Match a storyteller's words to what they could see",
+        "Use a body clue to tell who says a line",
+        "Notice when the teller changes inside one story"
       ],
       "howToPlay": [
-        "Read the harbor event and the line one creature said about it.",
-        "Tap the window of the creature whose viewpoint matches the line — high up for tiny-and-far, down low for big-and-close.",
-        "A correct window glows and Lumen wiggles; a wrong tap gives a gentle hint, with no timer and no score."
+        "Read what happened and what the storyteller says.",
+        "Tap a window to see the harbor through that creature's eyes, then press Check. Lumen's lamp shines on the right window.",
+        "Choose the task in the settings: From which window?, or Who tells each part?. The three views can also stay side by side for the whole class."
       ],
       "learningGoals": [
-        "Identify who is telling a story or part of a story — the focus of Common Core RL.1.6",
-        "Understand that a narrator's position shapes how things are described",
-        "Build the point-of-view awareness that deeper reading comprehension depends on"
+        "Identify who is telling the story at various points in a text, the focus of Common Core RL.1.6.",
+        "Use the storyteller's own words (tiny and far, straight across, huge and close) as evidence.",
+        "Know that one story can have more than one teller."
       ]
     },
     "pond-juice.pour-measure.3-md-a-2": {

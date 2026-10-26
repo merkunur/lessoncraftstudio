@@ -3324,6 +3324,29 @@
         "Erottaa ”koska” (sen jälkeen tulee syy) ja ”joten” (sen jälkeen tulee se, mitä tapahtui).",
         "Kääntää lause toisin päin niin, että merkitys pysyy samana."
       ]
+    },
+    "tempo-day-plan.time-prepositions.l-1-1-i": {
+      "about": [
+        "Tempon päivä on tie aamusta iltaan, ja jokainen tapahtuma on sen varrella kivitunneli, jonka holvin päällä on tapahtuman kuva: juoksu, esitys, kylpy. Mitä tehdään tiellä ennen tunnelia, tapahtuu ”ennen”, mitä tehdään tunnelin sisällä, tapahtuu ”aikana”, ja mikä odottaa uloskäynnin jälkeen, tapahtuu ”jälkeen”.",
+        "Tiellä on jo kortti, jossa on jokin tekeminen. Lapsi valitsee sanat, jotka kertovat kortin paikan, ja lyhty kulkee tietä pitkin ja valaisee sen tieosan, jota sanat tarkoittavat: lauseessa ”Taputamme laulun aikana.” se menee tunneliin ja pienet ikkunat syttyvät. Myöhemmin lapsi lukee kokonaisen lauseen, kuten ”Pesemme kädet ennen lounasta.”, ja asettaa kortin itse tielle, ja lopuksi suunnittelee päivän, jossa on kaksi tunnelia.",
+        "Kielitehtävä 1. luokalle (OPS 2014). Ei ajanottoa eikä pisteitä."
+      ],
+      "practices": [
+        "Käyttää sanaa ”ennen” siitä, mikä tapahtuu ensin",
+        "Käyttää sanaa ”aikana” siitä, mikä tapahtuu tapahtuman kestäessä",
+        "Käyttää sanaa ”jälkeen” siitä, mikä tapahtuu tapahtuman päätyttyä",
+        "Lukea lause ja näyttää, mihin kohtaan päivää tekeminen kuuluu"
+      ],
+      "howToPlay": [
+        "Katso, missä kortti on: ennen tunnelia, sen sisällä vai sen jälkeen.",
+        "Napauta sopivia sanoja ja tarkista; lyhty valaisee tieosan, jota ne tarkoittavat.",
+        "Asetuksista valitset tason (”Missä se on?” – ”Päivän suunnitelma”) ja näkyvätkö kolme tieosaa tiellä."
+      ],
+      "learningGoals": [
+        "Erottaa ”ennen”, ”aikana” ja ”jälkeen”.",
+        "Ymmärtää, että ”aikana” tarkoittaa koko tapahtuman kestoa.",
+        "Järjestää tekemiset päivän kulun mukaan."
+      ]
     }
   }
 }

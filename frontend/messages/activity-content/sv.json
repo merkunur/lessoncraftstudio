@@ -3872,6 +3872,29 @@
         "Veta att namn på s, x och z inte får något extra s.",
         "Undvika apostrof i genitiv."
       ]
+    },
+    "tempo-day-plan.time-prepositions.l-1-1-i": {
+      "about": [
+        "Tempos dag är en väg från morgon till kväll, och varje händelse på den är en stentunnel med sin bild över valvet: loppet, föreställningen, badet. Det man gör på vägen fram till tunneln sker ”före”, det man gör inuti tunneln sker ”under” och det som väntar efter utgången sker ”efter”.",
+        "Ett kort med något vi gör står redan på vägen. Barnet väljer orden som säger var det står, och en lykta går längs vägen och lyser upp den sträcka som orden betyder: i ”Vi klappar händerna under sången.” går den in i tunneln och de små fönstren lyser. Senare läser barnet en hel mening, som ”Vi tvättar händerna före lunchen.”, och sätter själv kortet på vägen, och till sist planerar barnet en dag med två tunnlar.",
+        "En språkövning för åk 1 i linje med Lgr22. Utan tidtagning och utan poäng."
+      ],
+      "practices": [
+        "Använda ”före” om det som händer först",
+        "Använda ”under” om det som händer medan händelsen pågår",
+        "Använda ”efter” om det som händer när händelsen är slut",
+        "Läsa en mening och visa var det man gör hör hemma under dagen"
+      ],
+      "howToPlay": [
+        "Titta var kortet står: före tunneln, inuti den eller efter.",
+        "Tryck på orden som passar och kontrollera; lyktan lyser upp sträckan som orden betyder.",
+        "I inställningarna väljer du nivå (från ”Var är det?” till ”Dagsplan”) och om de tre sträckorna syns på vägen."
+      ],
+      "learningGoals": [
+        "Skilja på ”före”, ”under” och ”efter”.",
+        "Förstå att ”under” betyder hela tiden som händelsen pågår.",
+        "Ordna det vi gör efter dagens gång."
+      ]
     }
   }
 }

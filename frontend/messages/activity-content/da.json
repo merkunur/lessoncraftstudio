@@ -3324,6 +3324,29 @@
         "Kende forskel på ”for” (derefter kommer grunden) og ”så” (derefter kommer det, der skete).",
         "Vende en sætning om, uden at meningen ændrer sig."
       ]
+    },
+    "tempo-day-plan.time-prepositions.l-1-1-i": {
+      "about": [
+        "Tempos dag er en vej fra morgen til aften, og hver begivenhed på den er en stentunnel med sit billede over buen: løbet, forestillingen, badet. Det, man gør på vejen hen til tunnelen, sker ”før”, det, man gør inde i tunnelen, sker ”under”, og det, der venter efter udgangen, sker ”efter”.",
+        "Et kort med noget, vi gør, står allerede på vejen. Barnet vælger de ord, der siger, hvor det står, og en lygte går hen ad vejen og lyser den strækning op, som ordene betyder: I ”Vi klapper under sangen.” går den ind i tunnelen, og de små vinduer lyser. Senere læser barnet en hel sætning som ”Vi vasker hænder før frokosten.” og sætter selv kortet på vejen, og til sidst planlægger det en dag med to tunneler.",
+        "En sprogøvelse til 1. klasse i tråd med Fælles Mål. Uden tidtagning og uden point."
+      ],
+      "practices": [
+        "Bruge ”før” om det, der sker først",
+        "Bruge ”under” om det, der sker, mens begivenheden står på",
+        "Bruge ”efter” om det, der sker, når begivenheden er slut",
+        "Læse en sætning og vise, hvor det, man gør, hører til i dagen"
+      ],
+      "howToPlay": [
+        "Se, hvor kortet står: før tunnelen, inde i den eller efter.",
+        "Tryk på de ord, der passer, og tjek; lygten lyser den strækning op, som ordene betyder.",
+        "I indstillingerne vælger du niveau (fra ”Hvor er det?” til ”Dagsplan”), og om de tre strækninger skal vises på vejen."
+      ],
+      "learningGoals": [
+        "Kende forskel på ”før”, ”under” og ”efter”.",
+        "Forstå, at ”under” betyder hele den tid, begivenheden varer.",
+        "Sætte det, vi gør, i dagens rækkefølge."
+      ]
     }
   }
 }

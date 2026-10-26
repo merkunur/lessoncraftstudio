@@ -1,7 +1,7 @@
 [
   {
     "id": "tempo-day-plan.time-prepositions.l-1-1-i",
-    "tool": "tempo-day-plan-activity",
+    "tool": "event-tunnel-activity",
     "task_template": "time-prepositions",
     "alignment": {
       "framework": "CCSS",
@@ -10,413 +10,21 @@
       "strand": "Language"
     },
     "params": {
-      "rounds": [
-        {
-          "id": "run",
-          "band": 1,
-          "before": "We put on our shoes",
-          "after": "the walk.",
-          "correct": "before"
-        },
-        {
-          "id": "show",
-          "band": 1,
-          "before": "We stay inside",
-          "after": "the storm.",
-          "correct": "during"
-        },
-        {
-          "id": "lunch",
-          "band": 1,
-          "before": "We dry off",
-          "after": "the bath.",
-          "correct": "after"
-        },
-        {
-          "id": "trip",
-          "band": 2,
-          "before": "We set the table",
-          "after": "dinner.",
-          "correct": "before"
-        },
-        {
-          "id": "song",
-          "band": 2,
-          "before": "We wear our seat belts",
-          "after": "the car ride.",
-          "correct": "during"
-        },
-        {
-          "id": "party",
-          "band": 2,
-          "before": "We put the paints away",
-          "after": "art class.",
-          "correct": "after"
-        },
-        {
-          "id": "bed",
-          "band": 3,
-          "before": "We brush our teeth",
-          "after": "bed.",
-          "correct": "before"
-        },
-        {
-          "id": "photo",
-          "band": 3,
-          "before": "We hold on tight",
-          "after": "the ride.",
-          "correct": "during"
-        }
+      "level": [
+        "1",
+        "2",
+        "3",
+        "4"
       ],
-      "roundsL10n": {
-        "de": [
-          {
-            "id": "run",
-            "band": 1,
-            "before": "Wir ziehen die Schuhe",
-            "after": "der Wanderung an.",
-            "correct": "vor"
-          },
-          {
-            "id": "show",
-            "band": 1,
-            "before": "Wir tragen eine Badekappe",
-            "after": "der Schwimmstunde.",
-            "correct": "während"
-          },
-          {
-            "id": "lunch",
-            "band": 1,
-            "before": "Wir trocknen uns",
-            "after": "der Dusche ab.",
-            "correct": "nach"
-          },
-          {
-            "id": "trip",
-            "band": 2,
-            "before": "Wir packen den Koffer",
-            "after": "der Reise.",
-            "correct": "vor"
-          },
-          {
-            "id": "song",
-            "band": 2,
-            "before": "Wir tragen den Sicherheitsgurt",
-            "after": "der Autofahrt.",
-            "correct": "während"
-          },
-          {
-            "id": "party",
-            "band": 2,
-            "before": "Wir räumen die Farben",
-            "after": "der Malstunde weg.",
-            "correct": "nach"
-          },
-          {
-            "id": "bed",
-            "band": 3,
-            "before": "Wir waschen die Hände",
-            "after": "der Mahlzeit.",
-            "correct": "vor"
-          },
-          {
-            "id": "photo",
-            "band": 3,
-            "before": "Wir halten uns gut fest",
-            "after": "der Karussellfahrt.",
-            "correct": "während"
-          }
-        ],
-        "fr": [
-          {
-            "id": "run",
-            "band": 1,
-            "before": "Nous mettons nos chaussures",
-            "after": "la promenade.",
-            "correct": "avant"
-          },
-          {
-            "id": "show",
-            "band": 1,
-            "before": "Nous restons à la maison",
-            "after": "la tempête.",
-            "correct": "pendant"
-          },
-          {
-            "id": "lunch",
-            "band": 1,
-            "before": "Nous nous séchons",
-            "after": "le bain.",
-            "correct": "après"
-          },
-          {
-            "id": "trip",
-            "band": 2,
-            "before": "Nous mettons la table",
-            "after": "le dîner.",
-            "correct": "avant"
-          },
-          {
-            "id": "song",
-            "band": 2,
-            "before": "Nous gardons la ceinture attachée",
-            "after": "le trajet en voiture.",
-            "correct": "pendant"
-          },
-          {
-            "id": "party",
-            "band": 2,
-            "before": "Nous rangeons les pinceaux",
-            "after": "le cours de dessin.",
-            "correct": "après"
-          },
-          {
-            "id": "bed",
-            "band": 3,
-            "before": "Nous nous brossons les dents",
-            "after": "le coucher.",
-            "correct": "avant"
-          },
-          {
-            "id": "photo",
-            "band": 3,
-            "before": "Nous nous tenons bien",
-            "after": "le tour de manège.",
-            "correct": "pendant"
-          }
-        ],
-        "es": [
-          {
-            "id": "run",
-            "band": 1,
-            "before": "Nos ponemos los zapatos",
-            "after": "la caminata.",
-            "correct": "antes de"
-          },
-          {
-            "id": "show",
-            "band": 1,
-            "before": "Nos quedamos en casa",
-            "after": "la tormenta.",
-            "correct": "durante"
-          },
-          {
-            "id": "lunch",
-            "band": 1,
-            "before": "Nos secamos",
-            "after": "la ducha.",
-            "correct": "después de"
-          },
-          {
-            "id": "trip",
-            "band": 2,
-            "before": "Preparamos la mochila",
-            "after": "la excursión.",
-            "correct": "antes de"
-          },
-          {
-            "id": "song",
-            "band": 2,
-            "before": "Llevamos el cinturón puesto",
-            "after": "la vuelta en carro.",
-            "correct": "durante"
-          },
-          {
-            "id": "party",
-            "band": 2,
-            "before": "Guardamos las pinturas",
-            "after": "la clase de arte.",
-            "correct": "después de"
-          },
-          {
-            "id": "bed",
-            "band": 3,
-            "before": "Nos lavamos las manos",
-            "after": "la comida.",
-            "correct": "antes de"
-          },
-          {
-            "id": "photo",
-            "band": 3,
-            "before": "Usamos gorro de baño",
-            "after": "la clase de natación.",
-            "correct": "durante"
-          }
-        ],
-        "pt": [
-          {
-            "id": "run",
-            "band": 1,
-            "before": "Nós calçamos os tênis",
-            "after": "caminhada.",
-            "correct": "antes da"
-          },
-          {
-            "id": "show",
-            "band": 1,
-            "before": "Nós ficamos em casa",
-            "after": "tempestade.",
-            "correct": "durante a"
-          },
-          {
-            "id": "lunch",
-            "band": 1,
-            "before": "Nós penduramos a toalha molhada",
-            "after": "aula de natação.",
-            "correct": "depois da"
-          },
-          {
-            "id": "trip",
-            "band": 2,
-            "before": "Nós arrumamos a mochila",
-            "after": "viagem.",
-            "correct": "antes da"
-          },
-          {
-            "id": "song",
-            "band": 2,
-            "before": "Nós usamos o cinto de segurança",
-            "after": "viagem de carro.",
-            "correct": "durante a"
-          },
-          {
-            "id": "party",
-            "band": 2,
-            "before": "Nós lavamos os pincéis",
-            "after": "aula de pintura.",
-            "correct": "depois da"
-          },
-          {
-            "id": "bed",
-            "band": 3,
-            "before": "Nós lavamos as mãos",
-            "after": "refeição.",
-            "correct": "antes da"
-          },
-          {
-            "id": "photo",
-            "band": 3,
-            "before": "Nós nos seguramos firme",
-            "after": "volta no carrossel.",
-            "correct": "durante a"
-          }
-        ],
-        "it": [
-          {
-            "id": "run",
-            "band": 1,
-            "before": "Ci mettiamo le scarpe",
-            "after": "passeggiata.",
-            "correct": "prima della"
-          },
-          {
-            "id": "show",
-            "band": 1,
-            "before": "Restiamo in casa",
-            "after": "tempesta.",
-            "correct": "durante la"
-          },
-          {
-            "id": "lunch",
-            "band": 1,
-            "before": "Ci asciughiamo",
-            "after": "doccia.",
-            "correct": "dopo la"
-          },
-          {
-            "id": "trip",
-            "band": 2,
-            "before": "Prepariamo lo zaino",
-            "after": "gita.",
-            "correct": "prima della"
-          },
-          {
-            "id": "song",
-            "band": 2,
-            "before": "Teniamo la cuffia",
-            "after": "lezione di nuoto.",
-            "correct": "durante la"
-          },
-          {
-            "id": "party",
-            "band": 2,
-            "before": "Mettiamo via i colori",
-            "after": "lezione di disegno.",
-            "correct": "dopo la"
-          },
-          {
-            "id": "bed",
-            "band": 3,
-            "before": "Ci laviamo le mani",
-            "after": "cena.",
-            "correct": "prima della"
-          },
-          {
-            "id": "photo",
-            "band": 3,
-            "before": "Ci teniamo forte",
-            "after": "discesa in slittino.",
-            "correct": "durante la"
-          }
-        ],
-        "nl": [
-          {
-            "id": "run",
-            "band": 1,
-            "before": "We trekken onze schoenen",
-            "after": "de wandeling aan.",
-            "correct": "voor"
-          },
-          {
-            "id": "show",
-            "band": 1,
-            "before": "We blijven binnen",
-            "after": "de storm.",
-            "correct": "tijdens"
-          },
-          {
-            "id": "lunch",
-            "band": 1,
-            "before": "We drogen ons",
-            "after": "het bad af.",
-            "correct": "na"
-          },
-          {
-            "id": "trip",
-            "band": 2,
-            "before": "We pakken de koffer",
-            "after": "de reis.",
-            "correct": "voor"
-          },
-          {
-            "id": "song",
-            "band": 2,
-            "before": "We dragen onze gordel",
-            "after": "de autorit.",
-            "correct": "tijdens"
-          },
-          {
-            "id": "party",
-            "band": 2,
-            "before": "We ruimen de verf",
-            "after": "de tekenles op.",
-            "correct": "na"
-          },
-          {
-            "id": "bed",
-            "band": 3,
-            "before": "We wassen onze handen",
-            "after": "het eten.",
-            "correct": "voor"
-          },
-          {
-            "id": "photo",
-            "band": 3,
-            "before": "We houden ons goed vast",
-            "after": "de achtbaanrit.",
-            "correct": "tijdens"
-          }
-        ]
+      "stretches": [
+        "hide",
+        "show"
+      ],
+      "rounds": {
+        "1": 9,
+        "2": 9,
+        "3": 9,
+        "4": 3
       }
     },
     "theme": null,
@@ -427,7 +35,11 @@
       "es": "conectores-temporales-antes-durante-despues-primaria",
       "pt": "conectores-temporais-antes-durante-depois-1-ano",
       "it": "prima-durante-dopo-preposizioni-di-tempo-classe-prima",
-      "nl": "voorzetsels-van-tijd-voor-tijdens-na-groep-3"
+      "nl": "voorzetsels-van-tijd-voor-tijdens-na-groep-3",
+      "sv": "fore-under-efter-tidsord-ak-1",
+      "da": "foer-under-efter-forholdsord-om-tid-1-klasse",
+      "no": "for-under-etter-preposisjoner-om-tid-1-trinn",
+      "fi": "ennen-aikana-jalkeen-aikasanat-1-luokka"
     },
     "page_title": {
       "en": "Tempo's Day Plan — Before, During, or After? (Grade 1)",
@@ -436,7 +48,11 @@
       "es": "Antes, durante y después: palabras del tiempo | 1.º primaria",
       "pt": "Palavras de tempo: antes, durante e depois · 1º ano",
       "it": "Prima, durante, dopo: le preposizioni di tempo — classe prima",
-      "nl": "Voorzetsels van tijd: voor, tijdens, na – oefenen in groep 3"
+      "nl": "Voorzetsels van tijd: voor, tijdens, na – oefenen in groep 3",
+      "sv": "Tempos dag – före, under eller efter? Tidsord (åk 1)",
+      "da": "Tempos dag – før, under eller efter? Forholdsord om tid (1. klasse)",
+      "no": "Tempos dag – før, under eller etter? Preposisjoner om tid (1. trinn)",
+      "fi": "Tempon päivä – ennen, aikana vai jälkeen? (1. luokka)"
     },
     "page_intro": {
       "en": "Tempo the turtle plans the whole day in order! Some things happen BEFORE, some DURING, and some AFTER. Read the sentence and tap the time word that fits. A Grade 1 grammar game about using time prepositions (before, during, after), aligned to Common Core L.1.1.i.",
@@ -445,7 +61,11 @@
       "es": "El niño completa las oraciones de Tempo la tortuga eligiendo «antes de», «durante» o «después de» según el significado. Sin registro, alineada al plan de la SEP.",
       "pt": "Ajude a tartaruga Tempo a planejar o dia: leia a frase e toque na palavra de tempo certa — antes, durante ou depois. Uma atividade de gramática para começar a organizar a rotina e perceber a ordem das coisas. Sem cadastro. BNCC, 1º ano.",
       "it": "La tartaruga Tempo segue il suo piano della giornata e i bambini completano brevi frasi di tutti i giorni scegliendo la preposizione di tempo giusta — prima, durante o dopo: un’attività senza registrazione, allineata alle Indicazioni nazionali per la classe prima.",
-      "nl": "Oefen de tijdwoorden voor, tijdens en na met Tempo de schildpad. Je kind leest een korte zin en tikt op het woordje dat past bij de volgorde van de dag: eerst, tegelijk of daarna. Online oefenen, zonder registratie. Volgens de SLO-kerndoelen voor groep 3."
+      "nl": "Oefen de tijdwoorden voor, tijdens en na met Tempo de schildpad. Je kind leest een korte zin en tikt op het woordje dat past bij de volgorde van de dag: eerst, tegelijk of daarna. Online oefenen, zonder registratie. Volgens de SLO-kerndoelen voor groep 3.",
+      "sv": "På Tempos väg genom dagen är varje händelse en tunnel. Det som görs på vägen fram till tunneln görs ”före”, det som görs inuti tunneln görs ”under” och det som väntar efter tunneln görs ”efter”. Barnet väljer orden som passar där kortet står, och en lykta går längs vägen och lyser upp den sträcka som orden betyder. Senare sätter barnet själv korten på vägen och planerar en hel dag med två tunnlar. Interaktiv språkövning för åk 1 i linje med Lgr22.",
+      "da": "På Tempos vej gennem dagen er hver begivenhed en tunnel. Det, man gør på vejen hen til tunnelen, sker ”før”, det, man gør inde i tunnelen, sker ”under”, og det, der venter efter tunnelen, sker ”efter”. Barnet vælger de ord, der passer til, hvor kortet står, og en lygte går hen ad vejen og lyser den strækning op, som ordene betyder. Senere sætter barnet selv kortene på vejen og planlægger en hel dag med to tunneler. Interaktiv sprogøvelse til 1. klasse i tråd med Fælles Mål.",
+      "no": "På Tempos vei gjennom dagen er hver hendelse en tunnel. Det man gjør på veien fram til tunnelen, skjer «før», det man gjør inne i tunnelen, skjer «under», og det som venter etter tunnelen, skjer «etter». Barnet velger ordene som passer til der kortet står, og en lykt går langs veien og lyser opp strekningen ordene betyr. Senere setter barnet selv kortene på veien og planlegger en hel dag med to tunneler. Interaktiv språkøvelse for 1. trinn i tråd med LK20.",
+      "fi": "Tempon päivän tiellä jokainen tapahtuma on tunneli. Mitä tehdään tiellä ennen tunnelia, tapahtuu ”ennen”, mitä tehdään tunnelin sisällä, tapahtuu ”aikana”, ja mikä odottaa tunnelin jälkeen, tapahtuu ”jälkeen”. Lapsi valitsee sanat, jotka sopivat kortin paikkaan, ja lyhty kulkee tietä pitkin ja valaisee sen tieosan, jota sanat tarkoittavat. Myöhemmin lapsi asettaa kortit itse tielle ja suunnittelee kokonaisen päivän, jossa on kaksi tunnelia. Vuorovaikutteinen kielitehtävä 1. luokalle (OPS 2014)."
     },
     "kid_prompt_template": "Tap before, during, or after to fit the sentence."
   }

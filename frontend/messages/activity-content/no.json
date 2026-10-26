@@ -3352,6 +3352,29 @@
         "Skille mellom «for» (etterpå kommer grunnen) og «så» (etterpå kommer det som skjedde).",
         "Snu en setning uten at meningen endrer seg."
       ]
+    },
+    "tempo-day-plan.time-prepositions.l-1-1-i": {
+      "about": [
+        "Tempos dag er en vei fra morgen til kveld, og hver hendelse på den er en steintunnel med bildet sitt over buen: løpet, forestillingen, badet. Det man gjør på veien fram til tunnelen, skjer «før», det man gjør inne i tunnelen, skjer «under», og det som venter etter utgangen, skjer «etter».",
+        "Et kort med noe vi gjør, står allerede på veien. Barnet velger ordene som sier hvor det står, og en lykt går langs veien og lyser opp strekningen ordene betyr: I «Vi klapper under sangen.» går den inn i tunnelen, og de små vinduene lyser. Senere leser barnet en hel setning, som «Vi vasker hendene før lunsjen.», og setter selv kortet på veien, og til slutt planlegger det en dag med to tunneler.",
+        "En språkøvelse for 1. trinn i tråd med LK20. Uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Bruke «før» om det som skjer først",
+        "Bruke «under» om det som skjer mens hendelsen pågår",
+        "Bruke «etter» om det som skjer når hendelsen er over",
+        "Lese en setning og vise hvor det vi gjør, hører hjemme i dagen"
+      ],
+      "howToPlay": [
+        "Se hvor kortet står: før tunnelen, inne i den eller etter.",
+        "Trykk på ordene som passer, og sjekk; lykta lyser opp strekningen ordene betyr.",
+        "I innstillingene velger du nivå (fra «Hvor er det?» til «Dagsplan») og om de tre strekningene vises på veien."
+      ],
+      "learningGoals": [
+        "Skille mellom «før», «under» og «etter».",
+        "Forstå at «under» betyr hele tiden hendelsen varer.",
+        "Sette det vi gjør, i dagens rekkefølge."
+      ]
     }
   }
 }

@@ -79,4 +79,4 @@ ONE native + Grade-1 grammar reviewer over all 11 locales (every finished senten
 - **Content:** `verify-activity-content-<loc>` ×11, `verify-activity-prose-claims`, `verify-activity-serp-copy`, `audit-activity-content-tells` and `preflight-activity-routes` all pass.
 
 ## Live
-LIVEVERIFY: pending.
+`live-verify-verb-gates.js` on production, 2026-10-26: **52 pass, 0 fail.** All 11 pages return 200; en, de, sv and fi at 1366 and 390 embed verb-gates-activity.html at wrapper 9.868; with a real pointer, the turnstile lets one through and leaves the rest sitting with its hint, and the double gate brings everyone into the garden with the success line; the iframe grows with the card. The first run fell inside the Cloudflare window (the old iframe was still cached); the rerun was clean.

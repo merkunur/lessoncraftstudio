@@ -3370,6 +3370,29 @@
         "Käyttää isoa alkukirjainta, pistettä, kysymysmerkkiä ja huutomerkkiä.",
         "Verrata lausetta kuvaan."
       ]
+    },
+    "cleo-packing-list.series-commas.l-1-2-b": {
+      "about": [
+        "Cleo pakkaa laukkuaan lista kerrallaan, ja jokainen pilkku laskee siihen pienen puisen väliseinän, niin että jokainen listan asia saa oman lokeronsa. Listan sanat ovat aivan laukun yläpuolella, ja jokainen kahden sanan väli on paikka pilkulle ja sen väliseinälle.",
+        "Kun lapsi painaa Pakkaa, jokainen asia putoaa sanastaan alla olevaan lokeroon. Jos pilkku puuttuu, kaksi asiaa puristuu samaan lokeroon: lauseessa ”Näimme kissoja koiria ja possuja.” kissa ja koira putoavat yhdessä. Pilkku ennen ensimmäistä asiaa jättää vasempaan reunaan tyhjän lokeron. Sana ”ja” on jo itse väliseinä, joten sen eteen ei tule pilkkua: vain ”Pakkaan omenoita, päärynöitä ja kirsikoita.” antaa jokaiselle asialle oman lokeron, ja kansi sulkeutuu. Myöhemmin lapsi tekee neljän asian listoja, kokoaa omia listoja kuvahyllystä ja korjaa listoja, joissa pilkut ovat väärin.",
+        "Kielitehtävä 2. luokalle (OPS 2014). Ei ajanottoa eikä pisteitä."
+      ],
+      "practices": [
+        "Laittaa pilkku luettelon asioiden väliin",
+        "Jättää pilkku pois ennen sanaa ”ja”",
+        "Jättää pilkku pois ennen ensimmäistä asiaa",
+        "Löytää ja korjata puuttuvat ja ylimääräiset pilkut"
+      ],
+      "howToPlay": [
+        "Napauta kahden sanan väliä, niin siihen tulee pilkku; napauta uudestaan, niin se lähtee pois.",
+        "Paina Pakkaa ja katso, miten jokainen asia putoaa lokeroonsa: yksi asia jokaisessa lokerossa, niin kansi sulkeutuu.",
+        "Asetuksista valitset, mitä teet (laitat pilkut, teet oman listan, korjaat listan), kuinka pitkiä listat ovat ja milloin väliseinät putoavat."
+      ],
+      "learningGoals": [
+        "Erottaa luettelon asiat pilkuilla.",
+        "Huomata, että ”ja” erottaa jo kaksi viimeistä asiaa.",
+        "Tarkistaa lista ja korjata sen pilkut."
+      ]
     }
   }
 }

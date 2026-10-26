@@ -4757,25 +4757,25 @@
     },
     "cleo-packing-list.series-commas.l-1-2-b": {
       "about": [
-        "Cleo the chameleon writes lists all day, and the child reads three versions of the same sentence — like I packed apples, pears, and plums — then taps the one with its commas in the right places. It's an interactive Grade 1 grammar activity about commas in a list that runs right in the browser on a tablet, phone, or classroom computer, with nothing to install and no sign-up.",
-        "The rule it teaches is simple but easy to miss: when you list three or more things, a comma goes after each item before the last one. Because all three choices use the same words, the child cannot decide by meaning — they have to look closely at where the commas land, spotting the version that puts a comma after each thing in lists about a picnic, a farm, the table, the garden, or winter clothes. That close attention to punctuation is exactly what the activity builds.",
-        "It is aligned to Common Core L.1.2.b — using commas in a series, or list, of words. No timer, no score — just calm, playful practice."
+        "Cleo packs her case one list at a time, and every comma drops a little wooden wall into it, so each thing in the list gets its own pocket. The words of the list stand right over the case, and every gap between two words is a place where a comma, and its wall, can go.",
+        "When the child presses Pack, each thing falls out of its word into the pocket below. A missing comma squashes two things into one pocket: in \"We saw cats dogs, and pigs.\" the cat and the dog land together. A comma before the first thing leaves an empty pocket at the left end. In English \"and\" is a ribbon tied to the last thing, not a wall, so a comma goes before \"and\" too: only \"I packed apples, pears, and cherries.\" gives every thing its own pocket, and then the lid shuts. Later the child builds lists of four things, makes their own lists from a shelf of pictures, and fixes lists that came with the wrong commas.",
+        "It is aligned to Common Core L.1.2.b: use commas to separate single words in a series. No timer and no score."
       ],
       "practices": [
-        "Spotting where commas belong in a list of three or more things",
-        "Comparing three sentences that share the same words but differ in punctuation",
-        "Reading punctuation closely instead of judging by meaning",
-        "Learning that a comma follows each item before the last one in a series"
+        "Put a comma between the things in a list",
+        "Put a comma before \"and\" in a list of three or more",
+        "Leave out a comma before the first thing",
+        "Find and fix missing and extra commas"
       ],
       "howToPlay": [
-        "Read the three sentences, which all list the same things.",
-        "Tap the one that has a comma in each correct place, then check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Tap a gap between two words to put in a comma; tap it again to take it out.",
+        "Press Pack and watch each thing drop into its pocket: one thing in every pocket shuts the lid.",
+        "In the settings, choose what to do (place the commas, make your own list, fix the list), the length of the lists and when the walls drop."
       ],
       "learningGoals": [
-        "Use commas correctly in a series of words — the focus of Common Core L.1.2.b.",
-        "Recognize that each item in a list of three or more needs a comma before the last one.",
-        "Build the punctuation awareness that clearer writing depends on."
+        "Use commas to separate the things in a list.",
+        "See that each comma keeps two things apart.",
+        "Check a list and fix its commas."
       ]
     }
   }

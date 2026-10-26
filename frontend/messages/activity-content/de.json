@@ -1720,25 +1720,25 @@
     },
     "cleo-packing-list.series-commas.l-1-2-b": {
       "about": [
-        "Cleo das Chamäleon sammelt am liebsten Dinge in Listen — und dabei kommt es auf jedes Komma an. Dein Kind sieht denselben Aufzählungssatz in drei Versionen, zum Beispiel „Ich packe Äpfel, Birnen und Pflaumen.“, und tippt die Version an, in der die Kommas an der richtigen Stelle stehen. So entdeckt dein Kind spielerisch, wie eine saubere Aufzählung aussieht.",
-        "Dahinter steckt eine klare Regel: Bei einer Aufzählung trennt ein Komma die einzelnen Wörter voneinander — aber vor dem Wörtchen „und“ steht kein Komma. „Äpfel, Birnen und Pflaumen“ ist also richtig; ein Komma vor „und“ wäre falsch. Genau dieses Aufzählungskomma ist meist die allererste Kommaregel, die Kinder bewusst kennenlernen.",
-        "Die Aktivität läuft ohne Zeitdruck, ohne Punkte und ohne Wettbewerb — dein Kind darf in Ruhe ausprobieren und so oft tippen, wie es mag. Das Üben des Aufzählungskommas orientiert sich am Lehrplan der Grundschule im Bereich „Richtig schreiben“ und passt zum Rechtschreibunterricht der Klasse 3."
+        "Cleo packt ihren Koffer Liste für Liste, und jedes Komma setzt eine kleine Holzwand hinein, damit jedes Ding der Liste sein eigenes Fach bekommt. Die Wörter der Liste stehen direkt über dem Koffer, und jede Lücke zwischen zwei Wörtern ist ein Platz für ein Komma und seine Wand.",
+        "Wenn das Kind auf Packen tippt, fällt jedes Ding aus seinem Wort in das Fach darunter. Fehlt ein Komma, werden zwei Dinge in ein Fach gequetscht: Bei „Wir sehen Katzen Hunde und Schweine.“ landen Katze und Hund zusammen. Ein Komma vor dem ersten Ding lässt links ein leeres Fach. „Und“ ist selbst schon eine Wand, deshalb steht davor kein Komma: Nur bei „Ich packe Äpfel, Birnen und Kirschen.“ hat jedes Ding sein eigenes Fach, und der Deckel geht zu. Später baut das Kind Listen mit vier Dingen, stellt eigene Listen aus einem Bilderregal zusammen und verbessert Listen mit falschen Kommas.",
+        "Eine Sprachübung für Klasse 3, passend zum Lehrplan Deutsch der Grundschule. Ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "Das Komma in einer Aufzählung an der richtigen Stelle erkennen.",
-        "Die Regel anwenden: vor „und“ steht kein Komma.",
-        "Drei Satzversionen genau vergleichen und die richtige auswählen.",
-        "Erste Sicherheit in der Zeichensetzung beim Lesen von Sätzen gewinnen."
+        "Zwischen die Dinge einer Aufzählung ein Komma setzen",
+        "Vor „und“ kein Komma setzen",
+        "Vor das erste Ding kein Komma setzen",
+        "Fehlende und überzählige Kommas finden und verbessern"
       ],
       "howToPlay": [
-        "Lies die drei Versionen desselben Aufzählungssatzes in Ruhe durch.",
-        "Achte darauf, wo die Kommas stehen — und ob vor „und“ eines steht.",
-        "Tippe den Satz an, in dem alle Kommas richtig gesetzt sind."
+        "Tipp auf eine Lücke zwischen zwei Wörtern, um ein Komma zu setzen; tipp noch einmal, um es wegzunehmen.",
+        "Tipp auf Packen und sieh zu, wie jedes Ding in sein Fach fällt: Ein Ding in jedem Fach, dann geht der Deckel zu.",
+        "In den Einstellungen wählst du, was du tust (Kommas setzen, eigene Liste, Liste verbessern), wie lang die Listen sind und wann die Wände fallen."
       ],
       "learningGoals": [
-        "Dein Kind erkennt, dass in einer Aufzählung ein Komma zwischen den Wörtern steht.",
-        "Dein Kind merkt sich, dass vor „und“ kein Komma gesetzt wird.",
-        "Dein Kind vergleicht Sätze aufmerksam und entscheidet sich für die richtige Schreibweise."
+        "Die Dinge einer Aufzählung mit Kommas trennen.",
+        "Erkennen, dass „und“ die letzten zwei Dinge schon trennt.",
+        "Eine Liste prüfen und ihre Kommas verbessern."
       ]
     },
     "robin-mirror.reflexive.l-2-1-c": {

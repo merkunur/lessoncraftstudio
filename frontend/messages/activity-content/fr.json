@@ -899,25 +899,25 @@
     },
     "cleo-packing-list.series-commas.l-1-2-b": {
       "about": [
-        "Cléo le caméléon adore collectionner et tout ranger en listes. Dans cette activité, votre enfant découvre trois versions de la même phrase-liste — par exemple « Je prends des pommes, des poires et des prunes. » — et touche celle où les virgules sont à la bonne place. Cela fonctionne directement dans le navigateur, sans rien installer et sans créer de compte.",
-        "La règle est simple à expliquer : dans une énumération, la virgule sépare les éléments de la liste, mais on ne met pas de virgule devant « et ». Ainsi « des pommes, des poires et des prunes » est correct, alors qu'une virgule avant « et » est l'erreur classique. C'est souvent la toute première règle de ponctuation que les enfants rencontrent, et la voir sur des exemples concrets aide beaucoup.",
-        "Ici, aucune pression : c'se joue sans chrono, sans points et sans compétition. Votre enfant essaie autant de fois qu'il le souhaite et avance à son rythme. L'activité s'appuie sur les programmes officiels, dans le domaine de la ponctuation et de l'étude de la langue, à l'école élémentaire."
+        "Cléo range sa valise liste par liste, et chaque virgule y fait descendre une petite cloison en bois : chaque chose de la liste a ainsi sa propre case. Les mots de la liste sont posés juste au-dessus de la valise, et chaque espace entre deux mots est une place pour une virgule et sa cloison.",
+        "Quand l’enfant appuie sur Ranger, chaque chose tombe de son mot dans la case en dessous. S’il manque une virgule, deux choses sont serrées dans la même case : dans « Nous voyons des chats des chiens et des cochons. », le chat et le chien tombent ensemble. Une virgule avant la première chose laisse une case vide à gauche. « Et » est déjà une cloison, donc on ne met pas de virgule devant : seule la liste « Je prends des pommes, des poires et des cerises. » donne une case à chaque chose, et le couvercle se ferme. Ensuite, l’enfant fait des listes de quatre choses, compose ses propres listes à partir d’une étagère d’images et corrige des listes aux virgules fausses.",
+        "Une activité de langue pour le CE2, en lien avec les programmes officiels du cycle 2. Sans chronomètre et sans score."
       ],
       "practices": [
-        "Reconnaître la virgule au bon endroit dans une liste",
-        "Appliquer la règle « pas de virgule devant et »",
-        "Comparer trois versions d'une même phrase et choisir la bonne",
-        "Gagner une première assurance en ponctuation"
+        "Mettre une virgule entre les éléments d’une énumération",
+        "Ne pas mettre de virgule devant « et »",
+        "Ne pas mettre de virgule avant le premier élément",
+        "Repérer et corriger les virgules qui manquent ou qui sont en trop"
       ],
       "howToPlay": [
-        "Lis les trois versions de la même liste",
-        "Observe où sont les virgules — et s'il y en a une devant « et »",
-        "Touche la version où toutes les virgules sont bien placées"
+        "Touche un espace entre deux mots pour mettre une virgule ; touche-le encore pour l’enlever.",
+        "Touche Ranger et regarde chaque chose tomber dans sa case : une chose par case, et le couvercle se ferme.",
+        "Dans les réglages, choisis quoi faire (placer les virgules, ta propre liste, corriger la liste), la longueur des listes et le moment où les cloisons descendent."
       ],
       "learningGoals": [
-        "Votre enfant comprend qu'une virgule sépare les éléments d'une liste",
-        "Votre enfant retient qu'on ne met pas de virgule devant « et »",
-        "Votre enfant compare des phrases avec attention et choisit la bonne écriture"
+        "Séparer les éléments d’une énumération par des virgules.",
+        "Voir que « et » sépare déjà les deux derniers éléments.",
+        "Vérifier une liste et corriger ses virgules."
       ]
     },
     "hazel-word-bridge.joining-words.l-1-1-g": {

@@ -2387,25 +2387,25 @@
     },
     "cleo-packing-list.series-commas.l-1-2-b": {
       "about": [
-        "Ranka är en kameleont som hänger i sin ordkedja och tycker om att räkna upp saker. Barnet ser samma mening skriven på tre sätt och trycker på den där kommatecknen står rätt: mellan orden i listan, men inte bredvid ordet och.",
-        "Det svåra är att de tre meningarna ser nästan likadana ut. Alla tre har ett kommatecken efter det första ordet, så hela frågan är det andra: finns det över huvud taget, och står det mellan två av orden eller tätt intill ordet och? Det är regelns två halvor, och ingen av dem räcker ensam.",
-        "Åtta meningar i tre steg. Varje lista har fyra saker, och det är därför två kommatecken behövs. Med bara tre saker syns ett enda, och då går det att lära sig att en lista har ett kommatecken utan att någonsin märka var det ska stå."
+        "Ranka packar sin väska en lista i taget, och varje kommatecken sätter ner en liten trävägg i den, så att varje sak i listan får ett eget fack. Orden i listan står precis ovanför väskan, och varje mellanrum mellan två ord är en plats för ett kommatecken och dess vägg.",
+        "När barnet trycker på Packa faller varje sak ur sitt ord ner i facket under. Saknas ett kommatecken trängs två saker i samma fack: i ”Vi såg katter hundar och grisar.” hamnar katten och hunden tillsammans. Ett kommatecken före den första saken lämnar ett tomt fack längst till vänster. ”Och” är redan en vägg, så före ”och” står inget kommatecken: bara ”Jag packar äpplen, päron och körsbär.” ger varje sak ett eget fack, och locket stängs. Sedan bygger barnet listor med fyra saker, gör egna listor av bilder från en hylla och rättar listor med fel kommatecken.",
+        "En språkövning för åk 2 i linje med Lgr22. Utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Läs meningarna högt tillsammans. Kommatecknen hörs inte — och det är just därför de är en skrivregel och inte något man kan höra sig fram till.",
-        "Peka på mellanrummen mellan orden i listan och räkna dem: fyra saker ger tre mellanrum, och kommatecknen står i de två första.",
-        "Prova fel med flit. Sätt ett kommatecken alldeles intill ordet och och fråga barnet om meningen ser rätt ut.",
-        "Fortsätt utanför skärmen. Skriv en önskelista eller en packlista tillsammans, och låt barnet placera kommatecknen medan du skriver."
+        "Sätta kommatecken mellan sakerna i en uppräkning",
+        "Inte sätta kommatecken före ”och”",
+        "Inte sätta kommatecken före den första saken",
+        "Hitta och rätta kommatecken som saknas eller är för många"
       ],
       "howToPlay": [
-        "Läs alla tre meningarna innan du trycker. De skiljer sig bara åt på kommatecknen.",
-        "Leta upp det andra kommatecknet. Står det mellan två av orden, eller intill ordet och?",
-        "Tryck på meningen som ser rätt ut och sedan på Kontrollera. Blir det fel får du en ledtråd och kan försöka igen."
+        "Tryck på ett mellanrum mellan två ord för att sätta ut ett kommatecken; tryck igen för att ta bort det.",
+        "Tryck på Packa och se varje sak falla ner i sitt fack: en sak i varje fack, så stängs locket.",
+        "I inställningarna väljer du vad du gör (sätta ut kommatecken, din egen lista, rätta listan), hur långa listorna är och när väggarna faller ner."
       ],
       "learningGoals": [
-        "Känna igen var kommatecknen står i en uppräkning: mellan orden, men inte bredvid det avslutande ordet och.",
-        "Se att samma regel gäller när uppräkningen binds ihop med orden eller och samt.",
-        "Förbereda arbetet med skiljetecken i årskurs 4–6, i linje med Lgr22 — eleven känner igen kommatecknets plats men skriver det inte själv."
+        "Skilja sakerna i en uppräkning åt med kommatecken.",
+        "Se att ”och” redan skiljer de två sista åt.",
+        "Granska en lista och rätta kommatecknen."
       ]
     },
     "robin-mirror.reflexive.l-2-1-c": {

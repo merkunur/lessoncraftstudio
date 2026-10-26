@@ -1,97 +1,75 @@
 [
   {
     "id": "cleo-packing-list.series-commas.l-1-2-b",
-    "tool": "cleo-packing-list-activity",
+    "tool": "divider-case-activity",
     "task_template": "series-commas",
-    "alignment": { "framework": "CCSS", "code": "L.1.2.b", "grade": "1", "strand": "Language" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "L.1.2.b",
+      "grade": "1",
+      "strand": "Language"
+    },
     "params": {
-      "rounds": [
-        { "id": "picnic", "band": 1, "lead": "I packed", "items": ["apples", "pears", "plums"], "slot": 0 },
-        { "id": "farm", "band": 1, "lead": "We saw", "items": ["cats", "dogs", "pigs"], "slot": 1 },
-        { "id": "colors", "band": 1, "lead": "I like", "items": ["red", "blue", "green"], "slot": 2 },
-        { "id": "table", "band": 2, "lead": "We need", "items": ["cups", "plates", "forks"], "slot": 0 },
-        { "id": "garden", "band": 2, "lead": "I see", "items": ["bees", "birds", "bugs"], "slot": 1 },
-        { "id": "winter", "band": 2, "lead": "We have", "items": ["hats", "mittens", "boots"], "slot": 2 },
-        { "id": "lunch", "band": 3, "lead": "I want", "items": ["milk", "bread", "jam"], "slot": 0 },
-        { "id": "field", "band": 3, "lead": "We grow", "items": ["corn", "beans", "peas"], "slot": 1 }
+      "level": [
+        "1",
+        "2",
+        "3"
       ],
-      "roundsL10n": {
-        "de": [
-          { "id": "packen-obst", "band": 1, "lead": "Ich packe", "items": ["Äpfel", "Birnen", "Pflaumen"], "slot": 0 },
-          { "id": "sehen-tiere", "band": 1, "lead": "Wir sehen", "items": ["Katzen", "Hunde", "Schweine"], "slot": 1 },
-          { "id": "mag-farben", "band": 1, "lead": "Ich mag", "items": ["Rot", "Blau", "Grün"], "slot": 2 },
-          { "id": "brauchen-geschirr", "band": 2, "lead": "Wir brauchen", "items": ["Tassen", "Teller", "Gabeln"], "slot": 0 },
-          { "id": "packen-kleidung", "band": 2, "lead": "Ich packe", "items": ["Mützen", "Schals", "Stiefel"], "slot": 1 },
-          { "id": "malen-himmel", "band": 2, "lead": "Wir malen", "items": ["Sterne", "Monde", "Wolken"], "slot": 2 },
-          { "id": "sehen-insekten", "band": 3, "lead": "Ich sehe", "items": ["Vögel", "Bienen", "Schmetterlinge"], "slot": 0 },
-          { "id": "brauchen-basteln", "band": 3, "lead": "Wir brauchen", "items": ["Pinsel", "Scheren", "Stifte"], "slot": 1 }
-        ],
-        "fr": [
-          { "id": "prendre-fruits", "band": 1, "lead": "Je prends", "items": ["des pommes", "des poires", "des prunes"], "slot": 0 },
-          { "id": "voir-animaux", "band": 1, "lead": "Nous voyons", "items": ["un chat", "un chien", "un lapin"], "slot": 1 },
-          { "id": "aimer-couleurs", "band": 1, "lead": "J’aime", "items": ["le rouge", "le bleu", "le vert"], "slot": 2 },
-          { "id": "porter-vetements", "band": 2, "lead": "Je porte", "items": ["un manteau", "une écharpe", "des gants"], "slot": 0 },
-          { "id": "ranger-ecole", "band": 2, "lead": "Je range", "items": ["mon cahier", "ma trousse", "mon crayon"], "slot": 1 },
-          { "id": "dessiner-materiel", "band": 2, "lead": "Je dessine avec", "items": ["un feutre", "un pinceau", "une craie"], "slot": 2 },
-          { "id": "observer-ciel", "band": 3, "lead": "Nous regardons", "items": ["la lune", "les étoiles", "les nuages"], "slot": 0 },
-          { "id": "cueillir-jardin", "band": 3, "lead": "Je cueille", "items": ["des fraises", "des framboises", "des groseilles"], "slot": 1 }
-        ],
-        "es": [
-          { "id": "lista-frutas", "band": 1, "lead": "Empaco", "items": ["manzanas", "peras", "ciruelas"], "slot": 0 },
-          { "id": "lista-animales", "band": 1, "lead": "Vemos", "items": ["gatos", "perros", "conejos"], "slot": 1 },
-          { "id": "lista-colores", "band": 1, "lead": "Pinto con", "items": ["rojo", "azul", "verde"], "slot": 2 },
-          { "id": "lista-trastes", "band": 2, "lead": "Necesitamos", "items": ["tazas", "platos", "vasos"], "slot": 0 },
-          { "id": "lista-ropa", "band": 2, "lead": "Empaco", "items": ["gorras", "suéteres", "botas"], "slot": 1 },
-          { "id": "lista-cielo", "band": 2, "lead": "Dibujo", "items": ["estrellas", "lunas", "nubes"], "slot": 2 },
-          { "id": "lista-aves", "band": 3, "lead": "Veo", "items": ["pájaros", "abejas", "mariposas"], "slot": 0 },
-          { "id": "lista-manualidades", "band": 3, "lead": "Necesitamos", "items": ["pinceles", "tijeras", "crayones"], "slot": 1 }
-        ],
-        "pt": [
-          { "id": "lista-frutas", "band": 1, "lead": "Eu levo", "items": ["maçãs", "peras", "ameixas"], "slot": 0 },
-          { "id": "lista-animais", "band": 1, "lead": "A gente vê", "items": ["gatos", "cachorros", "coelhos"], "slot": 1 },
-          { "id": "lista-cores", "band": 1, "lead": "Eu pinto com", "items": ["vermelho", "azul", "verde"], "slot": 2 },
-          { "id": "lista-louca", "band": 2, "lead": "A gente precisa de", "items": ["xícaras", "pratos", "copos"], "slot": 0 },
-          { "id": "lista-roupa", "band": 2, "lead": "Eu levo", "items": ["bonés", "blusas", "botas"], "slot": 1 },
-          { "id": "lista-ceu", "band": 2, "lead": "Eu desenho", "items": ["estrelas", "luas", "nuvens"], "slot": 2 },
-          { "id": "lista-bichos", "band": 3, "lead": "Eu vejo", "items": ["pássaros", "abelhas", "borboletas"], "slot": 0 },
-          { "id": "lista-arte", "band": 3, "lead": "A gente precisa de", "items": ["pincéis", "tesouras", "colas"], "slot": 1 }
-        ],
-        "it": [
-          { "id": "lista-frutta", "band": 1, "lead": "Porto", "items": ["mele", "pere", "prugne"], "slot": 0 },
-          { "id": "lista-animali", "band": 1, "lead": "Vediamo", "items": ["gatti", "cani", "conigli"], "slot": 1 },
-          { "id": "lista-colori", "band": 1, "lead": "Coloro con", "items": ["rosso", "blu", "verde"], "slot": 2 },
-          { "id": "lista-stoviglie", "band": 2, "lead": "Ci servono", "items": ["tazze", "piatti", "bicchieri"], "slot": 0 },
-          { "id": "lista-vestiti", "band": 2, "lead": "Metto in valigia", "items": ["cappelli", "sciarpe", "guanti"], "slot": 1 },
-          { "id": "lista-cielo", "band": 2, "lead": "Disegno", "items": ["stelle", "lune", "nuvole"], "slot": 2 },
-          { "id": "lista-insetti", "band": 3, "lead": "Vedo", "items": ["uccelli", "api", "farfalle"], "slot": 0 },
-          { "id": "lista-arte", "band": 3, "lead": "Uso", "items": ["pennelli", "forbici", "matite"], "slot": 1 }
-        ],
-        "nl": [
-          { "id": "pak-fruit", "band": 1, "lead": "Ik pak", "items": ["appels", "peren", "pruimen"], "slot": 0 },
-          { "id": "zien-dieren", "band": 1, "lead": "Wij zien", "items": ["katten", "honden", "konijnen"], "slot": 1 },
-          { "id": "houvan-kleuren", "band": 1, "lead": "Ik hou van", "items": ["rood", "blauw", "groen"], "slot": 2 },
-          { "id": "pakken-servies", "band": 2, "lead": "Wij pakken", "items": ["bekers", "borden", "vorken"], "slot": 0 },
-          { "id": "pak-kleding", "band": 2, "lead": "Ik pak", "items": ["mutsen", "sjaals", "laarzen"], "slot": 1 },
-          { "id": "teken-hemel", "band": 2, "lead": "Ik teken", "items": ["sterren", "planeten", "wolken"], "slot": 2 },
-          { "id": "zie-insecten", "band": 3, "lead": "Ik zie", "items": ["vogels", "bijen", "vlinders"], "slot": 0 },
-          { "id": "pakken-knutsel", "band": 3, "lead": "Wij pakken", "items": ["kwasten", "scharen", "potloden"], "slot": 1 }
-        ],
-        "sv": [
-          { "id": "ser-husdjur", "band": 1, "lead": "Jag ser", "items": ["katter", "hundar", "hästar", "fåglar"], "slot": 0 },
-          { "id": "ater-mellanmal", "band": 1, "lead": "Vi äter", "items": ["bröd", "ost", "ägg", "sylt"], "slot": 1 },
-          { "id": "koper-i-affaren", "band": 1, "lead": "Hon köper", "items": ["mjölk", "äpplen", "smör", "salt"], "slot": 2 },
-          { "id": "packar-for-kylan", "band": 2, "lead": "Jag packar", "items": ["mössa", "vantar", "sockor", "skor"], "slot": 0 },
-          { "id": "plockar-i-skogen", "band": 2, "lead": "Emma plockar", "items": ["svamp", "kottar", "löv", "bark"], "slot": 1 },
-          { "id": "leker-pa-golvet", "band": 2, "lead": "Vi leker med", "items": ["bilar", "tåg", "båtar", "bollar"], "slot": 2 },
-          { "id": "skogens-djur", "band": 3, "lead": "I skogen bor", "items": ["rävar", "älgar", "harar", "möss"], "slot": 0 },
-          { "id": "ladans-innehall", "band": 3, "lead": "I lådan finns", "items": ["pennor", "sax", "lim", "kritor"], "slot": 1 }
-        ]
+      "lists": [
+        "3",
+        "4",
+        "34"
+      ],
+      "walls": [
+        "go",
+        "pack"
+      ],
+      "rounds": {
+        "1": 16,
+        "2": 8,
+        "3": 10
       }
     },
     "theme": null,
-    "slug": { "en": "cleo-packing-list", "de": "komma-bei-aufzaehlung-ueben-klasse-3", "fr": "la-virgule-dans-une-enumeration-ce2", "es": "la-coma-en-enumeraciones-3-primaria", "pt": "a-lista-do-cleo-virgula-enumeracao-lista-3-ano", "it": "la-virgola-negli-elenchi-classe-terza", "nl": "komma-bij-opsomming-oefenen-groep-5", "sv": "kommatecken-i-upprakning-ak-2" },
-    "page_title": { "en": "Cleo's Packing List — Commas in a List (Grade 1)", "de": "Cleo das Chamäleon: Komma bei Aufzählung üben – Klasse 3", "fr": "Cléo le caméléon : la virgule dans une énumération — CE2", "es": "Cleo el camaleón: la coma en enumeraciones (3.º de primaria)", "pt": "Vírgula em enumeração: a lista do Cleo (3º ano)", "it": "Cleo il camaleonte: la virgola negli elenchi (classe terza)", "nl": "Cleo de kameleon: komma bij opsomming oefenen – groep 5", "sv": "Kommatecken i uppräkning – övning i svenska för åk 2" },
-    "page_intro": { "en": "Cleo the chameleon makes lists all day! When you list three or more things, a comma goes after each one — apples, pears, and plums. Read the three sentences and tap the one with the commas in the right places. A Grade 1 grammar game about using commas in a series, aligned to Common Core L.1.2.b.", "de": "Mit Cleo dem Chamäleon das Komma bei Aufzählung üben: Tippe die Liste mit den Kommas an der richtigen Stelle an – interaktiv für Klasse 3.", "fr": "Avec Cléo le caméléon, place la virgule au bon endroit dans une liste — une virgule entre les mots, jamais devant « et ». Activité de ponctuation CE2, interactive.", "es": "Cleo el camaleón te ayuda a practicar la coma en las enumeraciones: elige la oración con las comas bien puestas. Actividad interactiva para 3.º de primaria, alineada a los Planes y programas de estudio (SEP).", "pt": "O Cleo, um camaleão que adora listas, mostra a mesma frase de três jeitos. Compare as vírgulas e escolha a lista certa — enumeração, 3º ano, no seu ritmo.", "it": "Cleo il camaleonte adora fare la spesa e scrive lunghi elenchi di tutto quello che gli serve. In questa attività il bambino legge la stessa frase scritta in tre modi diversi e sceglie quella con le virgole al posto giusto: una virgola tra una cosa e l'altra, mai prima della «e». Si gioca senza registrazione e senza voti, e funziona direttamente nel browser. Un modo semplice e sereno per allenare la punteggiatura degli elenchi. Pensata per la classe terza e allineata alle Indicazioni nazionali.", "nl": "Met Cleo de kameleon de komma bij een opsomming oefenen: tik de lijst aan met de komma's op de juiste plek — een komma tussen de woorden, niet voor 'en'. Interactief voor groep 5, aansluitend bij de SLO-kerndoelen Nederlands.", "sv": "I övningen för åk 2 möter eleven samma mening skriven på tre sätt och väljer den där kommatecknen står rätt: mellan orden i uppräkningen, men inte bredvid ordet och. Samma regel gäller för uppräkningar som binds ihop med orden eller och samt. Lgr22 nämner punkt, frågetecken och utropstecken i åk 1–3 och tar upp skiljetecken i åk 4–6. Övningen förbereder det arbetet: eleven känner igen kommatecknet i en uppräkning men skriver det inte själv." },
+    "slug": {
+      "en": "cleo-packing-list",
+      "de": "komma-bei-aufzaehlung-ueben-klasse-3",
+      "fr": "la-virgule-dans-une-enumeration-ce2",
+      "es": "la-coma-en-enumeraciones-3-primaria",
+      "pt": "a-lista-do-cleo-virgula-enumeracao-lista-3-ano",
+      "it": "la-virgola-negli-elenchi-classe-terza",
+      "nl": "komma-bij-opsomming-oefenen-groep-5",
+      "sv": "kommatecken-i-upprakning-ak-2",
+      "da": "komma-i-opremsning-2-klasse",
+      "no": "komma-i-oppramsing-2-trinn",
+      "fi": "pilkku-luettelossa-2-luokka"
+    },
+    "page_title": {
+      "en": "Cleo's Packing List — Commas in a List (Grade 1)",
+      "de": "Cleo das Chamäleon: Komma bei Aufzählung üben – Klasse 3",
+      "fr": "Cléo le caméléon : la virgule dans une énumération — CE2",
+      "es": "Cleo el camaleón: la coma en enumeraciones (3.º de primaria)",
+      "pt": "Vírgula em enumeração: a lista do Cleo (3º ano)",
+      "it": "Cleo il camaleonte: la virgola negli elenchi (classe terza)",
+      "nl": "Cleo de kameleon: komma bij opsomming oefenen – groep 5",
+      "sv": "Kommatecken i uppräkning – övning i svenska för åk 2",
+      "da": "Cleos pakkeliste – komma i opremsning (2. klasse)",
+      "no": "Cleos pakkeliste – komma i oppramsing (2. trinn)",
+      "fi": "Cleon pakkauslista – pilkku luettelossa (2. luokka)"
+    },
+    "page_intro": {
+      "en": "Cleo the chameleon makes lists all day! When you list three or more things, a comma goes after each one — apples, pears, and plums. Read the three sentences and tap the one with the commas in the right places. A Grade 1 grammar game about using commas in a series, aligned to Common Core L.1.2.b.",
+      "de": "Mit Cleo dem Chamäleon das Komma bei Aufzählung üben: Tippe die Liste mit den Kommas an der richtigen Stelle an – interaktiv für Klasse 3.",
+      "fr": "Avec Cléo le caméléon, place la virgule au bon endroit dans une liste — une virgule entre les mots, jamais devant « et ». Activité de ponctuation CE2, interactive.",
+      "es": "Cleo el camaleón te ayuda a practicar la coma en las enumeraciones: elige la oración con las comas bien puestas. Actividad interactiva para 3.º de primaria, alineada a los Planes y programas de estudio (SEP).",
+      "pt": "O Cleo, um camaleão que adora listas, mostra a mesma frase de três jeitos. Compare as vírgulas e escolha a lista certa — enumeração, 3º ano, no seu ritmo.",
+      "it": "Cleo il camaleonte adora fare la spesa e scrive lunghi elenchi di tutto quello che gli serve. In questa attività il bambino legge la stessa frase scritta in tre modi diversi e sceglie quella con le virgole al posto giusto: una virgola tra una cosa e l'altra, mai prima della «e». Si gioca senza registrazione e senza voti, e funziona direttamente nel browser. Un modo semplice e sereno per allenare la punteggiatura degli elenchi. Pensata per la classe terza e allineata alle Indicazioni nazionali.",
+      "nl": "Met Cleo de kameleon de komma bij een opsomming oefenen: tik de lijst aan met de komma's op de juiste plek — een komma tussen de woorden, niet voor 'en'. Interactief voor groep 5, aansluitend bij de SLO-kerndoelen Nederlands.",
+      "sv": "I övningen för åk 2 möter eleven samma mening skriven på tre sätt och väljer den där kommatecknen står rätt: mellan orden i uppräkningen, men inte bredvid ordet och. Samma regel gäller för uppräkningar som binds ihop med orden eller och samt. Lgr22 nämner punkt, frågetecken och utropstecken i åk 1–3 och tar upp skiljetecken i åk 4–6. Övningen förbereder det arbetet: eleven känner igen kommatecknet i en uppräkning men skriver det inte själv.",
+      "da": "Hvert komma sætter en væg ned i Cleos kuffert, så hver ting på listen får sit eget rum. Når barnet trykker på Pak, falder hver ting ned i rummet under sit ord: mangler der et komma, bliver to ting klemt sammen i ét rum, og står der et komma for meget, bliver et rum tomt. ”Og” holder allerede de to sidste ting adskilt, så før ”og” står der intet komma. Barnet sætter kommaer, laver sine egne lister af billeder og retter lister med fejl. Interaktiv sprogøvelse til 2. klasse i tråd med Fælles Mål.",
+      "no": "Hvert komma setter en vegg ned i kofferten til Cleo, slik at hver ting på lista får sitt eget rom. Når barnet trykker på Pakk, faller hver ting ned i rommet under ordet sitt: mangler det et komma, blir to ting klemt sammen i ett rom, og står det et komma for mye, blir et rom tomt. «Og» holder allerede de to siste tingene fra hverandre, så før «og» står det ikke komma. Barnet setter komma, lager egne lister av bilder og retter lister med feil. Interaktiv språkøvelse for 2. trinn i tråd med LK20.",
+      "fi": "Jokainen pilkku laskee väliseinän Cleon laukkuun, niin että jokainen listan asia saa oman lokeronsa. Kun lapsi painaa Pakkaa, jokainen asia putoaa sanansa alla olevaan lokeroon: jos pilkku puuttuu, kaksi asiaa puristuu samaan lokeroon, ja jos pilkkuja on liikaa, jokin lokero jää tyhjäksi. Sana ”ja” erottaa jo kaksi viimeistä asiaa, joten sen eteen ei tule pilkkua. Lapsi laittaa pilkkuja, tekee kuvista omia listoja ja korjaa virheellisiä listoja. Vuorovaikutteinen kielitehtävä 2. luokalle (OPS 2014)."
+    },
     "kid_prompt_template": "Tap the list that has its commas in the right places."
   }
 ]

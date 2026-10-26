@@ -3370,6 +3370,29 @@
         "Bruge stort bogstav, punktum, spørgsmålstegn og udråbstegn.",
         "Sammenligne en sætning med et billede."
       ]
+    },
+    "cleo-packing-list.series-commas.l-1-2-b": {
+      "about": [
+        "Cleo pakker sin kuffert én liste ad gangen, og hvert komma sætter en lille trævæg ned i den, så hver ting på listen får sit eget rum. Ordene på listen står lige over kufferten, og hvert mellemrum mellem to ord er en plads til et komma og dets væg.",
+        "Når barnet trykker på Pak, falder hver ting ud af sit ord og ned i rummet nedenunder. Mangler der et komma, bliver to ting klemt sammen i ét rum: I ”Vi så katte hunde og grise.” lander katten og hunden sammen. Et komma før den første ting giver et tomt rum yderst til venstre. ”Og” er allerede en væg, så før ”og” står der intet komma: Kun ”Jeg pakker æbler, pærer og kirsebær.” giver hver ting sit eget rum, og så smækker låget i. Bagefter laver barnet lister med fire ting, sætter sine egne lister sammen fra en hylde med billeder og retter lister med forkerte kommaer.",
+        "En sprogøvelse til 2. klasse i tråd med Fælles Mål. Uden tidtagning og uden point."
+      ],
+      "practices": [
+        "Sætte komma mellem tingene i en opremsning",
+        "Ikke sætte komma før ”og”",
+        "Ikke sætte komma før den første ting",
+        "Finde og rette kommaer, der mangler eller er for mange"
+      ],
+      "howToPlay": [
+        "Tryk på et mellemrum mellem to ord for at sætte et komma; tryk igen for at fjerne det.",
+        "Tryk på Pak, og se hver ting falde ned i sit rum: én ting i hvert rum, så lukker låget.",
+        "I indstillingerne vælger du, hvad du gør (sætte kommaer, din egen liste, rette listen), hvor lange listerne er, og hvornår væggene falder ned."
+      ],
+      "learningGoals": [
+        "Adskille tingene i en opremsning med kommaer.",
+        "Se at ”og” allerede holder de to sidste ting adskilt.",
+        "Tjekke en liste og rette dens kommaer."
+      ]
     }
   }
 }

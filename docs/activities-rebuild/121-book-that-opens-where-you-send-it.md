@@ -71,4 +71,4 @@ ONE native + Grade-1 reading reviewer over all 11 locales (compact dump of every
 - **Content:** `verify-activity-content-<loc>` ×11, `verify-activity-prose-claims`, `verify-activity-serp-copy`, `audit-activity-content-tells` and `preflight-activity-routes` all pass.
 
 ## Live
-LIVEVERIFY: pending.
+`live-verify-field-guide.js` on production: **60 pass, 0 fail**. All 11 pages return 200 with wrapper 9.865. Real pointer in en, de, sv and fi at 1366 and 390 (contents, round one): a wrong line opens the wrong page with hint 1; the right line opens its page; its second sentence gives the success line naming the page and lands on Dewey's card. The iframe grows with the card. The first run fell inside the deploy window (the edge still served the old embed to three sv/fi checks) and was rerun once.

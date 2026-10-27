@@ -115,4 +115,15 @@ Found while building the gates, all fixed:
 - **0 lines** in shared cores or `lcs-shell`.
 
 ## Live
-(pending)
+`live-verify-accordion.js` ran on production on 2026-10-27: **76 pass, 0 fail.**
+- All 11 pages return 200.
+- en, de, sv and fi, at 1366 and at 390, embed accordion-activity.html at wrapper 9.884.
+- With a real pointer, on 3 groups of 4:
+  - twelve taps fill the trays; one tap too many makes 4 / 4 / 5;
+  - a held press takes the extra bead out;
+  - the squeeze folds the strip flat;
+  - 13 gives the miss line;
+  - 12 gives "4 + 4 + 4 = 12. That is 3 groups of 4: 3 × 4 = 12!" (the locale's own phrasing and sign).
+- The iframe grows with the card.
+
+The first run fell in the Cloudflare cache window (the page was still the cached one, Age 270 s; the origin already served 9.884). The rerun after the window was clean.

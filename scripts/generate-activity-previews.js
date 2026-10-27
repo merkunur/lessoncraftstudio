@@ -83,6 +83,10 @@ function seedScript(row) {
     // "We clap during the song": the card inside the tunnel, the right phrase chosen, Check pressed — the lantern lights the tunnel and its windows glow
     return `(function(){var t=window['${g}'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(4,0);t._render2();t._choose('d');t._check();}})();`;
   }
+  if (row.tool === 'mirror-chart-activity') {
+    // the mop on the chart, "map" spelled in its boxes, Mirror pressed — the mirror shows a map, not the patient: the invention at work
+    return `(function(){var t=window['${g}'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(1,0);t._render2();t._tile(1);t._look();}})();`;
+  }
   if (row.tool === 'divider-case-activity') {
     // "I packed apples, pears, and cherries.": the right commas, Pack pressed — a wall under each comma, one fruit in every pocket, the lid shut
     return `(function(){var t=window['${g}'],C=window.DividerCaseCore;if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(0,0);t._render2();C.required(t.st.loc,3).forEach(function(s){t._gap(s);});t._pack();}})();`;

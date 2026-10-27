@@ -4665,25 +4665,25 @@
     },
     "word-clinic.spell-by-ear.l-1-2-e": {
       "about": [
-        "A sick little word shuffles into the Word Doctor's clinic, and the child heals it by EAR — listening to a word like lamp, fish, or boat, then picking the letter or letters that spell its one poorly sound, the short a in lamp or the oa team in boat. It's an interactive Grade 1 spelling activity that plays right in the browser, with no sign-up.",
-        "The big idea is spelling words by the way they sound — matching each phoneme to the letters that write it. The activity moves from short vowels (lamp, nest, sock, jug) to consonant digraphs (ship, chin), vowel teams (boat, rain, leaf), and beginning blends (frog, flag). Because only one sound is \"sick,\" the child has to listen closely to find which part of the word needs fixing, rather than respelling the whole word.",
-        "It is aligned to Common Core L.1.2.e — spelling untaught words phonetically, drawing on phonemic awareness and spelling conventions. No timer, no score — just calm, playful practice."
+        "The patient on the doctor's chart is a picture, and the child spells its name. Then the doctor's mirror clears and shows only what the letters really spell. Spell \"cup\" for the cap and a cup appears; spell \"map\" for the mop and the mirror shows a map; spell letters that make no picture word and the mirror stays foggy, with the letters written in the fog.",
+        "The patient is healed when the mirror shows the same picture. First the child heals one sick sound from a tray of three tiles; then writes whole words with the help the teacher picks (letter boxes, the first letter, a word bank or a plain line); then chooses the rule letters (ck or k, as in \"duck\" and \"desk\"); and last spells plurals for two patients, where the singular shows only one picture.",
+        "It is aligned to Common Core L.1.2.e: spell untaught words phonetically, drawing on phonemic awareness and spelling conventions. It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Listen to a word and hear its separate sounds",
-        "Match a sound to the letter or letters that spell it",
-        "Spell short vowels, digraphs like sh and ch, vowel teams like oa, and blends like fr",
-        "Find which one sound in a word needs fixing"
+        "Spell a word by its sounds, one sound at a time",
+        "Hear that changing one letter changes the word",
+        "Choose between ck and k by the sound before it",
+        "Add the right plural ending"
       ],
       "howToPlay": [
-        "Listen to the sick word as the doctor says it.",
-        "Tap the letter or letters that spell its one poorly sound.",
-        "The patient hops off the cot, all better; try again any time, with no timer and no score."
+        "Put a tile in the empty box (or type the word), then press Mirror.",
+        "Look at the mirror: the same picture as the patient means healed; another picture or fog means a letter is sick.",
+        "In the settings, choose what to do (the sick sound, write the word, rule letters, plurals) and how much help the word gets."
       ],
       "learningGoals": [
-        "Spell words by their sounds, using phonics knowledge — the focus of Common Core L.1.2.e",
-        "Connect each sound to the letters that represent it",
-        "Build the sound-to-spelling habit that strong early writing relies on"
+        "Spell picture words by their sounds.",
+        "Check a spelling by what it really says.",
+        "Use simple spelling rules and plural endings."
       ]
     },
     "wordclass.adjective-adverb.l-2-1-e": {

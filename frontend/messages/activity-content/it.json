@@ -4497,6 +4497,29 @@
         "Ascoltare l’articolo per scegliere la parolina.",
         "Usare nomi propri e comuni."
       ]
+    },
+    "word-clinic.spell-by-ear.l-1-2-e": {
+      "about": [
+        "Il paziente sulla cartella del dottore è un’immagine e il bambino scrive il suo nome. Poi lo specchio del dottore si schiarisce e mostra solo quello che le lettere scrivono davvero. Scrivere «pane» per il cane fa apparire un pane; scrivere «vaso» per il naso mostra un vaso; con lettere che non formano nessuna parola-immagine lo specchio resta appannato e le lettere restano scritte nel vapore.",
+        "Il paziente guarisce quando lo specchio mostra la stessa immagine. Prima il bambino cura un suono malato con una tessera su tre; poi scrive parole intere con l’aiuto scelto dall’insegnante (caselle, la prima lettera, una banca di parole o solo una riga); poi sceglie tra c e ch, come in «chiave» e «cena»; alla fine scrive il plurale per due pazienti.",
+        "Un’attività di lingua per la classe prima, in linea con le Indicazioni nazionali. Funziona senza audio, senza cronometro e senza punteggio."
+      ],
+      "practices": [
+        "Scrivere una parola suono per suono",
+        "Sentire che un’altra lettera fa un’altra parola",
+        "Scegliere tra c e ch",
+        "Cambiare la vocale finale per il plurale"
+      ],
+      "howToPlay": [
+        "Metti una tessera nella casella vuota (o scrivi la parola), poi tocca Specchio.",
+        "Guarda lo specchio: la stessa immagine del paziente vuol dire guarito; un’altra immagine o il vapore vuol dire che una lettera è malata.",
+        "Nelle impostazioni scegli che cosa fare (il suono malato, scrivere la parola, la regola, il plurale) e quanto aiuto c’è."
+      ],
+      "learningGoals": [
+        "Scrivere parole-immagine secondo i loro suoni.",
+        "Controllare una parola scritta da quello che dice davvero.",
+        "Usare semplici regole di ortografia e il plurale."
+      ]
     }
   }
 }

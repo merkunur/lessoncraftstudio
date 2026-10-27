@@ -137,7 +137,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 127 | LIVE 2026-10-26 · The Event Tunnel | 1 | L.1.1.i | `tempo-day-plan.time-prepositions.l-1-1-i` | tempo-day-plan-activity | Tempo's Day Plan — Before, During, or After? (Grade 1) |
 | 128 | LIVE 2026-10-26 · The Sentence Stage | 1 | L.1.1.j | `sentence-builder.build-a-sentence.l-1-1-j` | sentence-builder-activity | Wiggles' Sentence Builder — Build a Sentence (Grade 1) |
 | 129 | LIVE 2026-10-26 · The Divider Case | 1 | L.1.2.b | `cleo-packing-list.series-commas.l-1-2-b` | cleo-packing-list-activity | Cleo's Packing List — Commas in a List (Grade 1) |
-| 130 |  | 1 | L.1.2.e | `word-clinic.spell-by-ear.l-1-2-e` | word-clinic-activity | Word Doctor's Clinic — Heal the Sick Sound |
+| 130 | LIVE 2026-10-27 · The Mirror Chart | 1 | L.1.2.e | `word-clinic.spell-by-ear.l-1-2-e` | word-clinic-activity | Word Doctor's Clinic — Heal the Sick Sound |
 | 131 |  | 1 | L.1.5.a | `ziggy-odd-one-out.category.l-1-5-a` | ziggy-odd-one-out-activity | Ziggy's Odd One Out — Which One Doesn't Belong? (Grade 1) |
 | 132 |  | 1 | L.1.5.b | `olive-kind-of.category-attribute.l-1-5-b` | olive-kind-of-activity | Olive's Kind-Of Tree — What Kind of Thing Is It? (Grade 1) |
 | 133 |  | 1 | L.1.5.c | `jasper-just-right.real-life.l-1-5-c` | jasper-just-right-activity | Jasper's Just-Right Bag — Which One Would You Use? (Grade 1) |

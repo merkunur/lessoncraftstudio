@@ -1,31 +1,76 @@
 [
   {
     "id": "word-clinic.spell-by-ear.l-1-2-e",
-    "tool": "word-clinic-activity",
+    "tool": "mirror-chart-activity",
     "task_template": "word-clinic",
-    "alignment": { "framework": "CCSS", "code": "L.1.2.e", "grade": "1", "strand": "Language" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "L.1.2.e",
+      "grade": "1",
+      "strand": "Language"
+    },
     "params": {
-      "rounds": [
-        { "id": "lamp", "cog": "vowel-a", "band": 1, "word": "lamp", "label": "Lamp", "theme": "around the house", "graphemes": ["l", "a", "m", "p"], "sickIndex": 1, "sickPhoneme": "short_a" },
-        { "id": "nest", "cog": "vowel-e", "band": 1, "word": "nest", "label": "Nest", "theme": "spring", "graphemes": ["n", "e", "s", "t"], "sickIndex": 1, "sickPhoneme": "short_e" },
-        { "id": "vest", "cog": "vowel-e", "band": 1, "word": "vest", "label": "Vest", "theme": "accessories", "graphemes": ["v", "e", "s", "t"], "sickIndex": 1, "sickPhoneme": "short_e" },
-        { "id": "fish", "cog": "vowel-i", "band": 1, "word": "fish", "label": "Fish", "theme": "animals", "graphemes": ["f", "i", "sh"], "sickIndex": 1, "sickPhoneme": "short_i" },
-        { "id": "sock", "cog": "vowel-o", "band": 1, "word": "sock", "label": "Sock", "theme": "accessories", "graphemes": ["s", "o", "ck"], "sickIndex": 1, "sickPhoneme": "short_o" },
-        { "id": "jug", "cog": "vowel-u", "band": 1, "word": "jug", "label": "Jug", "theme": "kitchen tools", "graphemes": ["j", "u", "g"], "sickIndex": 1, "sickPhoneme": "short_u" },
-        { "id": "drum", "cog": "vowel-u", "band": 1, "word": "drum", "label": "Drum", "theme": "music", "graphemes": ["d", "r", "u", "m"], "sickIndex": 2, "sickPhoneme": "short_u" },
-        { "id": "ship", "cog": "digraph", "band": 2, "word": "ship", "label": "Ship", "theme": "vehicles", "graphemes": ["sh", "i", "p"], "sickIndex": 0, "sickPhoneme": "sh" },
-        { "id": "chin", "cog": "digraph", "band": 2, "word": "chin", "label": "Chin", "theme": "body parts", "graphemes": ["ch", "i", "n"], "sickIndex": 0, "sickPhoneme": "ch" },
-        { "id": "boat", "cog": "vowel-team", "band": 2, "word": "boat", "label": "Boat", "theme": "beach", "graphemes": ["b", "oa", "t"], "sickIndex": 1, "sickPhoneme": "long_o" },
-        { "id": "rain", "cog": "vowel-team", "band": 2, "word": "rain", "label": "Rain", "theme": "spring", "graphemes": ["r", "ai", "n"], "sickIndex": 1, "sickPhoneme": "long_a" },
-        { "id": "leaf", "cog": "vowel-team", "band": 2, "word": "leaf", "label": "Leaf", "theme": "miscellaneous", "graphemes": ["l", "ea", "f"], "sickIndex": 1, "sickPhoneme": "long_e" },
-        { "id": "frog", "cog": "blend", "band": 3, "word": "frog", "label": "Frog", "theme": "camping", "graphemes": ["fr", "o", "g"], "sickIndex": 0, "sickPhoneme": "fr" },
-        { "id": "flag", "cog": "blend", "band": 3, "word": "flag", "label": "Flag", "theme": "4th of July", "graphemes": ["fl", "a", "g"], "sickIndex": 0, "sickPhoneme": "fl" }
-      ]
+      "level": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "help": [
+        "all",
+        "boxfirst",
+        "boxbank",
+        "first",
+        "bank",
+        "line"
+      ],
+      "rounds": {
+        "1": 12,
+        "2": 12,
+        "3": 8,
+        "4": 8
+      }
     },
     "theme": null,
-    "slug": { "en": "word-doctors-clinic" },
-    "page_title": { "en": "Word Doctor's Clinic — Heal the Sick Sound" },
-    "page_intro": { "en": "A sick little word shuffles into Doctor's clinic, and only you can heal it — by EAR! Listen to the word, then pick the letter that spells its one poorly sound and watch the patient hop off the cot, all better. A warm Grade 1 spelling game about spelling words by their sounds, aligned to Common Core L.1.2.e." },
+    "slug": {
+      "en": "word-doctors-clinic",
+      "de": "wortdoktor-woerter-nach-gehoer-schreiben-klasse-1",
+      "fr": "docteur-des-mots-ecrire-les-mots-qu-on-entend-cp",
+      "es": "doctor-de-palabras-escribir-lo-que-oyes-primer-grado",
+      "pt": "doutor-das-palavras-escrever-o-que-ouve-1-ano",
+      "it": "dottore-delle-parole-scrivere-quello-che-senti-classe-prima",
+      "nl": "woordendokter-schrijven-wat-je-hoort-groep-3",
+      "sv": "orddoktorn-stava-ord-efter-ljud-ak-1",
+      "da": "orddoktoren-stav-ord-efter-lyd-1-klasse",
+      "no": "orddoktoren-stav-ord-etter-lyd-1-trinn",
+      "fi": "sanalaakari-kirjoita-sana-aanteiden-mukaan-1-luokka"
+    },
+    "page_title": {
+      "en": "Word Doctor's Clinic — Heal the Sick Sound",
+      "de": "Die Wortdoktor-Praxis – Wörter nach Gehör schreiben (Klasse 1)",
+      "fr": "Le docteur des mots – écrire les mots qu’on entend (CP)",
+      "es": "El doctor de palabras: escribir lo que oyes (primer grado de primaria)",
+      "pt": "O doutor das palavras: escrever o que se ouve (1º ano)",
+      "it": "Il dottore delle parole: scrivere quello che senti (classe prima)",
+      "nl": "De woordendokter – schrijven wat je hoort (groep 3)",
+      "sv": "Orddoktorn – stava ord efter ljuden (åk 1)",
+      "da": "Orddoktoren – stav ord efter lyden (1. klasse)",
+      "no": "Orddoktoren – stav ord etter lyden (1. trinn)",
+      "fi": "Sanalääkäri – kirjoita sana äänteiden mukaan (1. luokka)"
+    },
+    "page_intro": {
+      "en": "A sick little word shuffles into Doctor's clinic, and only you can heal it — by EAR! Listen to the word, then pick the letter that spells its one poorly sound and watch the patient hop off the cot, all better. A warm Grade 1 spelling game about spelling words by their sounds, aligned to Common Core L.1.2.e.",
+      "de": "Der Patient ist ein Bild, und das Kind schreibt seinen Namen. Der Spiegel des Doktors zeigt nur, was die Buchstaben wirklich schreiben: Steht dort „Hand“ statt „Hund“, erscheint eine Hand, und bei Buchstaben ohne Bild bleibt der Spiegel beschlagen. Erst wenn der Spiegel dasselbe Bild zeigt wie der Patient, ist er wieder gesund. Mit einem kranken Laut, ganzen Wörtern, einer Rechtschreibregel und der Mehrzahl. Eine Sprachübung für Klasse 1, passend zum Lehrplan Deutsch der Grundschule.",
+      "fr": "Le patient est une image, et l’enfant écrit son nom. Le miroir du docteur ne montre que ce que les lettres écrivent vraiment : s’il est écrit « luge » au lieu de « lune », une luge apparaît, et avec des lettres sans image le miroir reste embué. Le patient est guéri quand le miroir montre la même image que lui. Avec un son malade, des mots entiers, une règle d’orthographe et le pluriel. Une activité de langue pour le CP, en lien avec les programmes officiels du cycle 2.",
+      "es": "El paciente es un dibujo y la niña o el niño escribe su nombre. El espejo del doctor solo muestra lo que las letras escriben de verdad: si dice «pato» en vez de «gato», aparece un pato, y con letras que no forman ningún dibujo el espejo se queda empañado. El paciente se cura cuando el espejo muestra el mismo dibujo que él. Con un sonido enfermo, palabras completas, una regla de ortografía y el plural. Una actividad de lenguaje para primer grado de primaria, de acuerdo con los programas de estudio de la SEP.",
+      "pt": "O paciente é uma figura, e a criança escreve o nome dele. O espelho do doutor só mostra o que as letras escrevem de verdade: se estiver escrito “pato” em vez de “gato”, aparece um pato, e com letras que não formam figura o espelho fica embaçado. O paciente fica curado quando o espelho mostra a mesma figura que ele. Com um som doente, palavras inteiras, uma regra de ortografia e o plural. Uma atividade de linguagem para o 1º ano, alinhada à BNCC.",
+      "it": "Il paziente è un’immagine e il bambino scrive il suo nome. Lo specchio del dottore mostra solo quello che le lettere scrivono davvero: se c’è scritto «pane» invece di «cane», compare un pane, e con lettere che non formano un’immagine lo specchio resta appannato. Il paziente guarisce quando lo specchio mostra la sua stessa immagine. Con un suono malato, parole intere, una regola di ortografia e il plurale. Un’attività di lingua per la classe prima, in linea con le Indicazioni nazionali.",
+      "nl": "De patiënt is een plaatje en je kind schrijft zijn naam. De spiegel van de dokter laat alleen zien wat de letters echt schrijven: staat er ‘vos’ in plaats van ‘vis’, dan verschijnt er een vos, en bij letters zonder plaatje blijft de spiegel beslagen. De patiënt is weer beter als de spiegel hetzelfde plaatje laat zien. Met een zieke klank, hele woorden, een spellingregel en het meervoud. Een taalactiviteit voor groep 3, aansluitend bij de SLO-kerndoelen.",
+      "sv": "Patienten är en bild, och barnet skriver dess namn. Doktorns spegel visar bara vad bokstäverna verkligen skriver: står det ”hatt” i stället för ”katt” syns en hatt, och med bokstäver som inte blir någon bild förblir spegeln immig. Patienten blir frisk när spegeln visar samma bild som patienten. Med ett sjukt ljud, hela ord, en stavningsregel och plural. En språkövning för åk 1 i linje med Lgr22.",
+      "da": "Patienten er et billede, og barnet skriver dens navn. Doktorens spejl viser kun det, bogstaverne virkelig staver: står der ”hat” i stedet for ”kat”, kommer der en hat frem, og med bogstaver, der ikke bliver til et billede, forbliver spejlet dugget. Patienten bliver rask, når spejlet viser det samme billede som patienten. Med en syg lyd, hele ord, en staveregel og flertal. En sprogøvelse til 1. klasse i tråd med Fælles Mål.",
+      "no": "Pasienten er et bilde, og barnet skriver navnet. Doktorens speil viser bare det bokstavene virkelig staver: står det «hatt» i stedet for «katt», kommer det fram en hatt, og med bokstaver som ikke blir noe bilde, forblir speilet dugget. Pasienten blir frisk når speilet viser det samme bildet som pasienten. Med en syk lyd, hele ord, en staveregel og flertall. En språkøvelse for 1. trinn i tråd med LK20.",
+      "fi": "Potilas on kuva, ja lapsi kirjoittaa sen nimen. Lääkärin peili näyttää vain sen, mitä kirjaimet todella kirjoittavat: jos siinä lukee ”kana” eikä ”kala”, peiliin tulee kana, ja kirjaimilla, joista ei tule kuvaa, peili pysyy huurussa. Potilas paranee, kun peili näyttää saman kuvan kuin potilas. Mukana sairas äänne, kokonaiset sanat, oikeinkirjoitussääntö ja monikko. Kielitehtävä 1. luokalle (OPS 2014)."
+    },
     "kid_prompt_template": "word-clinic"
   }
 ]

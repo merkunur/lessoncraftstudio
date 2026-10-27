@@ -3393,6 +3393,29 @@
         "Se at ”og” allerede holder de to sidste ting adskilt.",
         "Tjekke en liste og rette dens kommaer."
       ]
+    },
+    "word-clinic.spell-by-ear.l-1-2-e": {
+      "about": [
+        "Patienten på doktorens journal er et billede, og barnet skriver dens navn. Så bliver doktorens spejl klart og viser kun det, bogstaverne virkelig staver. Skriv ”hat” til katten, så kommer der en hat frem; skriv ”bog” til toget, så viser spejlet en bog; bogstaver, der ikke bliver til et billedord, lader spejlet være dugget, med bogstaverne skrevet i duggen.",
+        "Patienten bliver rask, når spejlet viser det samme billede. Først helbreder barnet en syg lyd med en af tre brikker; så skriver det hele ord med den hjælp, læreren vælger (felter, det første bogstav, en ordliste eller bare en linje); så vælger det mellem enkelt og dobbelt konsonant, som i ”kappe” og ”hane”; til sidst skriver det flertal til to patienter.",
+        "En sprogøvelse til 1. klasse i tråd med Fælles Mål. Den virker uden lyd, uden tidtagning og uden point."
+      ],
+      "practices": [
+        "Stave et ord lyd for lyd",
+        "Høre at et andet bogstav giver et andet ord",
+        "Vælge mellem enkelt og dobbelt konsonant",
+        "Sætte den rigtige flertalsendelse på"
+      ],
+      "howToPlay": [
+        "Læg en brik i det tomme felt (eller skriv ordet), og tryk på Spejl.",
+        "Se i spejlet: det samme billede som patienten betyder rask; et andet billede eller dug betyder, at et bogstav er sygt.",
+        "I indstillingerne vælger du, hvad du gør (den syge lyd, skriv ordet, staveregel, flertal), og hvor meget hjælp der er."
+      ],
+      "learningGoals": [
+        "Stave billedord efter lydene.",
+        "Tjekke et skrevet ord efter, hvad det virkelig siger.",
+        "Bruge enkle staveregler og flertalsendelser."
+      ]
     }
   }
 }

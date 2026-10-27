@@ -4595,6 +4595,29 @@
         "Mit dem Wort, an dem der Sinn hängt, Wörter wählen, prüfen und verbessern.",
         "Eine Antwort mit einem Satz aus dem Text belegen."
       ]
+    },
+    "word-clinic.spell-by-ear.l-1-2-e": {
+      "about": [
+        "Der Patient auf der Karteikarte des Doktors ist ein Bild, und das Kind schreibt seinen Namen. Dann wird der Spiegel klar und zeigt nur, was die Buchstaben wirklich schreiben. Schreibt man „Hand“ statt „Hund“, erscheint eine Hand; schreibt man „Kopf“ statt „Topf“, zeigt der Spiegel einen Kopf; Buchstaben, die kein Bildwort ergeben, lassen den Spiegel beschlagen, und die Buchstaben stehen im Nebel.",
+        "Der Patient ist wieder gesund, wenn der Spiegel dasselbe Bild zeigt. Zuerst heilt das Kind einen kranken Laut mit einem von drei Kärtchen; dann schreibt es ganze Wörter mit der Hilfe, die die Lehrkraft wählt (Kästchen, der erste Buchstabe, eine Wörterkiste oder nur eine Linie); dann wählt es zwischen ck und k wie in „Socke“ und „Bank“; zuletzt schreibt es die Mehrzahl für zwei Patienten. Namenwörter beginnen mit einem großen Buchstaben, auch im Spiegel.",
+        "Eine Sprachübung für Klasse 1, passend zum Lehrplan Deutsch der Grundschule. Sie funktioniert ohne Ton, ohne Zeitdruck und ohne Punkte."
+      ],
+      "practices": [
+        "Ein Wort Laut für Laut schreiben",
+        "Hören, dass ein anderer Buchstabe ein anderes Wort macht",
+        "Zwischen ck und k wählen",
+        "Die Endung der Mehrzahl anhängen"
+      ],
+      "howToPlay": [
+        "Leg ein Kärtchen in das leere Kästchen (oder tipp das Wort) und drück auf Spiegel.",
+        "Schau in den Spiegel: Dasselbe Bild wie der Patient heißt gesund; ein anderes Bild oder Nebel heißt, ein Buchstabe ist krank.",
+        "In den Einstellungen wählst du, was du tust (kranker Laut, Wort schreiben, Rechtschreibregel, Mehrzahl) und wie viel Hilfe es gibt."
+      ],
+      "learningGoals": [
+        "Bildwörter nach ihren Lauten schreiben.",
+        "Ein geschriebenes Wort daran prüfen, was es wirklich sagt.",
+        "Einfache Rechtschreibregeln und Endungen der Mehrzahl anwenden."
+      ]
     }
   }
 }

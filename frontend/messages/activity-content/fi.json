@@ -3393,6 +3393,29 @@
         "Huomata, että ”ja” erottaa jo kaksi viimeistä asiaa.",
         "Tarkistaa lista ja korjata sen pilkut."
       ]
+    },
+    "word-clinic.spell-by-ear.l-1-2-e": {
+      "about": [
+        "Lääkärin kortissa oleva potilas on kuva, ja lapsi kirjoittaa sen nimen. Sitten lääkärin peili kirkastuu ja näyttää vain sen, mitä kirjaimet todella kirjoittavat. Kun kalan kohdalle kirjoittaa ”kana”, peiliin tulee kana; kun junan kohdalle kirjoittaa ”muna”, peili näyttää munan; kirjaimet, joista ei tule mitään kuvasanaa, jättävät peilin huuruun, ja kirjaimet näkyvät huurussa.",
+        "Potilas paranee, kun peili näyttää saman kuvan. Ensin lapsi parantaa sairaan äänteen yhdellä kolmesta kortista; sitten hän kirjoittaa kokonaisia sanoja opettajan valitsemalla avulla (ruudut, ensimmäinen kirjain, sanalista tai pelkkä viiva); sitten hän valitsee lyhyen ja pitkän äänteen välillä, kuten sanoissa ”kukko” ja ”kala”; lopuksi hän kirjoittaa monikon kahdelle potilaalle.",
+        "Kielitehtävä 1. luokalle (OPS 2014). Toimii ilman ääntä, ilman ajanottoa ja ilman pisteitä."
+      ],
+      "practices": [
+        "Kirjoittaa sana äänne äänteeltä",
+        "Kuulla, että toinen kirjain tekee toisen sanan",
+        "Valita lyhyen ja pitkän äänteen välillä",
+        "Lisätä monikon pääte"
+      ],
+      "howToPlay": [
+        "Laita kortti tyhjään ruutuun (tai kirjoita sana) ja paina Peili.",
+        "Katso peiliin: sama kuva kuin potilaalla tarkoittaa terve; toinen kuva tai huuru tarkoittaa, että jokin kirjain on sairas.",
+        "Asetuksista valitset, mitä teet (sairas äänne, kirjoita sana, sääntö, monikko) ja kuinka paljon apua on."
+      ],
+      "learningGoals": [
+        "Kirjoittaa kuvasanoja äänteiden mukaan.",
+        "Tarkistaa kirjoitettu sana sen mukaan, mitä se todella sanoo.",
+        "Käyttää helppoja oikeinkirjoitussääntöjä ja monikon päätettä."
+      ]
     }
   }
 }

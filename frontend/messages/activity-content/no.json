@@ -3421,6 +3421,29 @@
         "Se at «og» allerede holder de to siste tingene fra hverandre.",
         "Sjekke en liste og rette kommaene."
       ]
+    },
+    "word-clinic.spell-by-ear.l-1-2-e": {
+      "about": [
+        "Pasienten på doktorens journal er et bilde, og barnet skriver navnet. Så blir doktorens speil klart og viser bare det bokstavene virkelig staver. Skriv «hatt» til katten, så kommer det fram en hatt; skriv «mopp» til koppen, så viser speilet en mopp; bokstaver som ikke blir noe bildeord, lar speilet være dugget, med bokstavene skrevet i duggen.",
+        "Pasienten blir frisk når speilet viser det samme bildet. Først leger barnet en syk lyd med en av tre brikker; så skriver det hele ord med den hjelpen læreren velger (ruter, den første bokstaven, en ordliste eller bare en linje); så velger det mellom enkel og dobbel konsonant, som i «katt» og «sol»; til slutt skriver det flertall til to pasienter.",
+        "En språkøvelse for 1. trinn i tråd med LK20. Den virker uten lyd, uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Stave et ord lyd for lyd",
+        "Høre at en annen bokstav gir et annet ord",
+        "Velge mellom enkel og dobbel konsonant",
+        "Sette på riktig flertallsendelse"
+      ],
+      "howToPlay": [
+        "Legg en brikke i den tomme ruta (eller skriv ordet), og trykk på Speil.",
+        "Se i speilet: det samme bildet som pasienten betyr frisk; et annet bilde eller dugg betyr at en bokstav er syk.",
+        "I innstillingene velger du hva du gjør (den syke lyden, skriv ordet, staveregel, flertall) og hvor mye hjelp det er."
+      ],
+      "learningGoals": [
+        "Stave bildeord etter lydene.",
+        "Sjekke et skrevet ord etter hva det virkelig sier.",
+        "Bruke enkle staveregler og flertallsendelser."
+      ]
     }
   }
 }

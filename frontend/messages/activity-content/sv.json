@@ -3895,6 +3895,29 @@
         "Förstå att ”under” betyder hela tiden som händelsen pågår.",
         "Ordna det vi gör efter dagens gång."
       ]
+    },
+    "word-clinic.spell-by-ear.l-1-2-e": {
+      "about": [
+        "Patienten på doktorns journal är en bild, och barnet skriver dess namn. Sedan klarnar doktorns spegel och visar bara vad bokstäverna verkligen skriver. Skriv ”hatt” för katten så syns en hatt; skriv ”mopp” för koppen så visar spegeln en mopp; bokstäver som inte blir något bildord gör spegeln immig, med bokstäverna skrivna i imman.",
+        "Patienten blir frisk när spegeln visar samma bild. Först botar barnet ett sjukt ljud med en av tre brickor; sedan skriver det hela ord med den hjälp läraren väljer (rutor, första bokstaven, en ordlista eller bara en linje); sedan väljer det mellan enkel och dubbel konsonant, som i ”katt” och ”sol”; sist skriver det plural för två patienter.",
+        "En språkövning för åk 1 i linje med Lgr22. Den fungerar utan ljud, utan tidtagning och utan poäng."
+      ],
+      "practices": [
+        "Skriva ett ord ljud för ljud",
+        "Höra att en annan bokstav blir ett annat ord",
+        "Välja mellan enkel och dubbel konsonant",
+        "Lägga till rätt pluraländelse"
+      ],
+      "howToPlay": [
+        "Lägg en bricka i den tomma rutan (eller skriv ordet) och tryck på Spegel.",
+        "Titta i spegeln: samma bild som patienten betyder frisk; en annan bild eller imma betyder att en bokstav är sjuk.",
+        "I inställningarna väljer du vad du gör (det sjuka ljudet, skriva ordet, stavningsregeln, plural) och hur mycket hjälp det finns."
+      ],
+      "learningGoals": [
+        "Stava bildord efter ljuden.",
+        "Kontrollera ett skrivet ord efter vad det verkligen säger.",
+        "Använda enkla stavningsregler och pluraländelser."
+      ]
     }
   }
 }

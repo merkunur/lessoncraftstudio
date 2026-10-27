@@ -4581,6 +4581,29 @@
         "Écouter l’article pour choisir le petit mot.",
         "Utiliser les prénoms et les noms."
       ]
+    },
+    "word-clinic.spell-by-ear.l-1-2-e": {
+      "about": [
+        "Le patient, sur la fiche du docteur, est une image, et l’enfant écrit son nom. Puis le miroir du docteur s’éclaircit et ne montre que ce que les lettres écrivent vraiment. Écrire « luge » pour la lune fait apparaître une luge ; écrire « main » pour le pain montre une main ; avec des lettres qui ne forment aucun mot-image, le miroir reste embué et les lettres sont écrites dans la buée.",
+        "Le patient est guéri quand le miroir montre la même image. D’abord l’enfant soigne un son malade avec une étiquette sur trois ; puis il écrit des mots entiers avec l’aide choisie par l’enseignant (des cases, la première lettre, une banque de mots ou une simple ligne) ; puis il choisit entre c et ç, comme dans « garçon » et « citron » ; enfin il écrit le pluriel pour deux patients.",
+        "Une activité de langue pour le CP, en lien avec les programmes officiels du cycle 2. Elle marche sans le son, sans chronomètre et sans score."
+      ],
+      "practices": [
+        "Écrire un mot son par son",
+        "Entendre qu’une autre lettre donne un autre mot",
+        "Choisir entre c et ç",
+        "Ajouter la bonne marque du pluriel"
+      ],
+      "howToPlay": [
+        "Mets une étiquette dans la case vide (ou tape le mot), puis touche Miroir.",
+        "Regarde le miroir : la même image que le patient, c’est guéri ; une autre image ou de la buée, c’est qu’une lettre est malade.",
+        "Dans les réglages, choisis quoi faire (le son malade, écrire le mot, la règle, le pluriel) et combien d’aide il y a."
+      ],
+      "learningGoals": [
+        "Écrire des mots-images d’après leurs sons.",
+        "Vérifier un mot écrit d’après ce qu’il dit vraiment.",
+        "Utiliser des règles d’orthographe simples et le pluriel."
+      ]
     }
   }
 }

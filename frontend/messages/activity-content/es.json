@@ -4520,6 +4520,29 @@
         "Escuchar el o la para elegir la palabrita.",
         "Usar nombres propios y comunes."
       ]
+    },
+    "word-clinic.spell-by-ear.l-1-2-e": {
+      "about": [
+        "El paciente de la ficha del doctor es un dibujo y la niña o el niño escribe su nombre. Luego el espejo del doctor se aclara y muestra solo lo que las letras escriben de verdad. Si escribe «pato» para el gato, aparece un pato; si escribe «mono» para la mano, el espejo muestra un mono; con letras que no forman ninguna palabra con dibujo, el espejo se queda empañado y las letras se ven escritas en el vapor.",
+        "El paciente se cura cuando el espejo muestra el mismo dibujo. Primero cura un sonido enfermo con una de tres fichas; después escribe palabras completas con la ayuda que elige la maestra o el maestro (casillas, la primera letra, un banco de palabras o solo una línea); luego elige entre c y qu, como en «queso» y «casa»; al final escribe el plural para dos pacientes.",
+        "Una actividad de lenguaje para primer grado de primaria, de acuerdo con los programas de estudio de la SEP. Funciona sin sonido, sin reloj y sin puntos."
+      ],
+      "practices": [
+        "Escribir una palabra sonido por sonido",
+        "Oír que otra letra hace otra palabra",
+        "Elegir entre c y qu",
+        "Agregar la terminación del plural"
+      ],
+      "howToPlay": [
+        "Pon una ficha en la casilla vacía (o escribe la palabra) y toca Espejo.",
+        "Mira el espejo: el mismo dibujo que el paciente es que ya se curó; otro dibujo o vapor es que una letra está enferma.",
+        "En los ajustes eliges qué hacer (el sonido enfermo, escribir la palabra, la regla, el plural) y cuánta ayuda hay."
+      ],
+      "learningGoals": [
+        "Escribir palabras con dibujo por sus sonidos.",
+        "Revisar una palabra por lo que dice de verdad.",
+        "Usar reglas sencillas de ortografía y el plural."
+      ]
     }
   }
 }

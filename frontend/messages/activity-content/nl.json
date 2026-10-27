@@ -4593,6 +4593,29 @@
         "Met het woord waar de betekenis om draait woorden kiezen, controleren en verbeteren.",
         "Een antwoord aanwijzen met een zin uit de tekst."
       ]
+    },
+    "word-clinic.spell-by-ear.l-1-2-e": {
+      "about": [
+        "De patiënt op de kaart van de dokter is een plaatje, en je kind schrijft zijn naam. Dan wordt de spiegel van de dokter helder en laat alleen zien wat de letters echt schrijven. Schrijf ‘vos’ bij de vis en er verschijnt een vos; schrijf ‘pan’ bij de pen en de spiegel laat een pan zien; letters die geen plaatjeswoord vormen, laten de spiegel beslagen, met de letters in de damp geschreven.",
+        "De patiënt is weer beter als de spiegel hetzelfde plaatje laat zien. Eerst geneest je kind een zieke klank met een van drie kaartjes; daarna schrijft het hele woorden met de hulp die de leerkracht kiest (hokjes, de eerste letter, een woordenlijst of alleen een lijn); dan kiest het tussen d en t aan het eind, zoals in ‘hond’ en ‘kat’; tot slot schrijft het het meervoud voor twee patiënten.",
+        "Een taalactiviteit voor groep 3, aansluitend bij de SLO-kerndoelen. Hij werkt zonder geluid, zonder tijdsdruk en zonder punten."
+      ],
+      "practices": [
+        "Een woord klank voor klank schrijven",
+        "Horen dat een andere letter een ander woord maakt",
+        "Kiezen tussen d en t aan het eind",
+        "De goede meervoudsuitgang toevoegen"
+      ],
+      "howToPlay": [
+        "Leg een kaartje in het lege hokje (of typ het woord) en tik op Spiegel.",
+        "Kijk in de spiegel: hetzelfde plaatje als de patiënt betekent beter; een ander plaatje of damp betekent dat een letter ziek is.",
+        "In de instellingen kies je wat je doet (de zieke klank, het woord schrijven, de spellingregel, het meervoud) en hoeveel hulp er is."
+      ],
+      "learningGoals": [
+        "Plaatjeswoorden schrijven op hun klanken.",
+        "Een geschreven woord controleren op wat het echt zegt.",
+        "Eenvoudige spellingregels en meervoudsuitgangen gebruiken."
+      ]
     }
   }
 }

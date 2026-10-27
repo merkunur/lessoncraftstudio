@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Word Doctor's Clinic — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- Shell, then the mirror's picture index, the mirror-chart model, then this activity.
+       NOTE: bump ?v=N on EVERY change to mirror-chart-activity.js / -core.js / -index.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  <script src="/mini-tools/mirror-chart-index.js?v=1"></script>
+  <script src="/mini-tools/mirror-chart-core.js?v=1"></script>
+  <script src="/mini-tools/mirror-chart-activity.js?v=1"></script>
+  <script>
+    LCS.mount(MirrorChartActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

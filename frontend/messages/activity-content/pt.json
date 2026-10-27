@@ -4527,6 +4527,29 @@
         "Usar a palavra de que o sentido depende para escolher, conferir e corrigir.",
         "Provar uma resposta com uma frase do texto."
       ]
+    },
+    "word-clinic.spell-by-ear.l-1-2-e": {
+      "about": [
+        "O paciente na ficha do doutor é uma figura, e a criança escreve o nome dele. Depois o espelho do doutor clareia e mostra só o que as letras escrevem de verdade. Escrever “pato” para o gato faz aparecer um pato; escrever “faca” para a vaca mostra uma faca; com letras que não formam palavra com figura, o espelho fica embaçado e as letras aparecem escritas no vapor.",
+        "O paciente fica curado quando o espelho mostra a mesma figura. Primeiro a criança cura um som doente com uma de três peças; depois escreve palavras inteiras com a ajuda que a professora ou o professor escolhe (casinhas, a primeira letra, um banco de palavras ou só uma linha); depois escolhe entre r e rr, como em “carro” e “pera”; no fim escreve o plural para dois pacientes.",
+        "Uma atividade de linguagem para o 1º ano, alinhada à BNCC. Funciona sem som, sem cronômetro e sem pontos."
+      ],
+      "practices": [
+        "Escrever uma palavra som por som",
+        "Ouvir que outra letra faz outra palavra",
+        "Escolher entre r e rr",
+        "Acrescentar a terminação do plural"
+      ],
+      "howToPlay": [
+        "Coloque uma peça na casinha vazia (ou digite a palavra) e toque em Espelho.",
+        "Olhe o espelho: a mesma figura do paciente quer dizer curado; outra figura ou vapor quer dizer que uma letra está doente.",
+        "Nas configurações, escolha o que fazer (o som doente, escrever a palavra, a regra, o plural) e quanta ajuda há."
+      ],
+      "learningGoals": [
+        "Escrever palavras com figura pelos seus sons.",
+        "Conferir uma palavra pelo que ela diz de verdade.",
+        "Usar regras simples de ortografia e o plural."
+      ]
     }
   }
 }

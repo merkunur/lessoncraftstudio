@@ -2319,25 +2319,25 @@
     },
     "olive-kind-of.category-attribute.l-1-5-b": {
       "about": [
-        "Olga är en uggla som vet vad allting är för sorts sak. Barnet ser en bild – en pannkaka, ett får, en släde – läser en kort ledtråd och trycker sedan på ordet som säger vilken sorts sak det är: Djur, Mat, Fordon, Kläder, Växter eller Möbler.",
-        "Det svåra är inte att känna igen bilden, utan att hitta ordet som rymmer den. Ett får är ett djur även om ullen blir tröjor, och en släde är ett fordon fast den saknar hjul. Det är ledtråden som avgör, inte hur saken ser ut.",
-        "Åtta uppgifter i tre steg. De sex orden på knapparna är alltid desamma, så barnet möter dem om och om igen i nya sammanhang och lär sig dem genom att använda dem."
+        "Varje gren på trädet bär en sorts saker: fåglar, frukt, transportmedel, kläder. Barnet läser ledtråden och klättrar upp med bilden till grenen där dess sort bor, och på ett löv på stammen står vart den klättrade. Hamnar bananen på djurgrenen står det så på lövet, och barnet hör att det är fel; vid kontrollen kan grenen inte hålla den, och den glider ner till rötterna.",
+        "Det finns tre saker att göra: säga vad det är för sorts sak på bilden; sortera nio bilder i tre grupper; och klättra till en förklaring, där varje gren öppnar tre kvistar och lövet växer till en mening som ”En anka är en fågel som simmar.” Samma egenskap finns på olika grenar (en båt flyter, en anka simmar), så sorten kommer först.",
+        "En språkövning för åk 1 i linje med Lgr22. Den fungerar utan ljud, utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Läs ledtråden högt tillsammans första gången, innan ni tittar på knapparna. Fråga vad ledtråden egentligen berättar om saken.",
-        "Låt barnet svara med en hel mening: ”En släde är ett fordon.” Ett överbegrepp fastnar bättre när det används i en mening än när det bara pekas på.",
-        "Stanna vid de knepiga. Varför är ett får inte kläder, fast ullen blir tröjor? Varför är ägg mat och inte djur? Det är i de frågorna tänkandet sitter.",
-        "Fortsätt utanför skärmen: plocka fram tre saker i klassrummet och fråga vilken sorts sak var och en är."
+        "Säga vad det är för sorts sak",
+        "Sortera bilder i grupper",
+        "Säga vad som skiljer den från andra av samma sort",
+        "Läsa en förklaring och kontrollera den"
       ],
       "howToPlay": [
-        "Titta på bilden. Tryck på högtalaren om du vill höra ordet.",
-        "Läs ledtråden. Den säger något om vad saken gör, eller vad den är gjord av.",
-        "Tryck på rätt sort och sedan på Kontrollera. Blir det fel får du en ny ledtråd och kan försöka igen."
+        "Tryck på en gren (eller dra bilden dit) och tryck sedan på Kontrollera.",
+        "I förklaringen öppnar grenen tre kvistar: tryck på den som skiljer bilden från de andra.",
+        "I inställningarna väljer du vad du gör, om ledtråden har en bild och om det är tre eller fyra grenar."
       ],
       "learningGoals": [
-        "Känna igen och använda överbegrepp som djur, mat, fordon, kläder, växter och möbler.",
-        "Använda en egenskap i en ledtråd för att avgöra vilken sorts sak något är.",
-        "Sätta ord på varför något tillhör en viss sort, i linje med Lgr22 och arbetet med ord och begrepp i årskurs 1–3."
+        "Säga vilket överbegrepp ett ord hör till.",
+        "Förklara ett ord med överbegrepp och en egenskap.",
+        "Sortera ord i grupper."
       ]
     },
     "vera-verb-match.be-agreement.l-1-1-c": {

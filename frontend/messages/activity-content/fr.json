@@ -968,25 +968,25 @@
     },
     "olive-kind-of.category-attribute.l-1-5-b": {
       "about": [
-        "Dans « L’arbre des catégories d’Olive », votre enfant part à la découverte des grandes catégories de mots avec Olive, une chouette curieuse. À chaque manche, une image apparaît avec un petit indice sur ce que la chose fait ou sur ce à quoi elle ressemble : votre enfant doit deviner à quelle grande catégorie elle appartient.",
-        "D’un « chien », d’une « rose » ou d’un « poisson », on remonte vers la catégorie qui les rassemble : animal, plante, véhicule, nourriture, vêtement ou meuble. Regrouper les mots par catégories, c’est apprendre à ranger et à ordonner son vocabulaire, un mot particulier après l’autre.",
-        "Passer du mot particulier au mot générique aide votre enfant à mieux comprendre et à mieux mémoriser les mots. L’activité est interactive et pensée pour le CE1, dans le domaine du lexique. Il n’y a ni chrono ni points : votre enfant avance à son rythme, comme le proposent les programmes officiels."
+        "Chaque branche de l’arbre porte une catégorie de choses : oiseaux, fruits, moyens de transport, vêtements. L’enfant lit l’indice et fait grimper l’image jusqu’à la branche de sa catégorie, et une feuille sur le tronc écrit le chemin. Si la banane va sur la branche des animaux, la feuille le dit, et l’enfant voit que c’est faux ; à la vérification, la branche ne peut pas la porter et elle glisse jusqu’aux racines.",
+        "Il y a trois choses à faire : dire quel genre de chose montre une image ; trier neuf images en trois catégories ; et grimper jusqu’à une définition, où chaque branche ouvre trois brindilles et où la feuille devient une phrase comme « Un canard est un oiseau qui nage. » La même idée pousse sur des branches différentes (un bateau flotte, un canard nage), donc la catégorie vient d’abord.",
+        "Une activité de langue pour le CP, en lien avec les programmes officiels du cycle 2. Elle fonctionne sans le son, sans chronomètre et sans score."
       ],
       "practices": [
-        "Associer une chose à sa catégorie (le chien appartient aux animaux).",
-        "Reconnaître à quel grand groupe une chose appartient grâce à un indice.",
-        "Passer du mot particulier au mot générique (chien → animal).",
-        "Ordonner et ranger son vocabulaire par catégories."
+        "Dire à quelle catégorie appartient une chose",
+        "Trier des images en catégories",
+        "Nommer ce qui la distingue des autres de sa catégorie",
+        "Lire une définition et la vérifier"
       ],
       "howToPlay": [
-        "Regarde l’image et lis l’indice d’Olive.",
-        "Réfléchis : à quelle grande catégorie cette chose appartient-elle ?",
-        "Touche la bonne catégorie — et réessaie tranquillement si besoin."
+        "Touche une branche (ou fais-y glisser l’image), puis appuie sur Vérifier.",
+        "Pour la définition, la branche ouvre trois brindilles : touche celle qui décrit le mieux l’image.",
+        "Dans les réglages, choisis quoi faire, si l’indice a une image et s’il y a trois ou quatre branches."
       ],
       "learningGoals": [
-        "Associer les mots et les choses à leur catégorie.",
-        "Reconnaître le mot générique d’un mot particulier.",
-        "Structurer et enrichir son vocabulaire."
+        "Nommer la catégorie d’un mot.",
+        "Définir un mot par sa catégorie et une caractéristique.",
+        "Classer des mots en catégories."
       ]
     },
     "sage-root-garden.roots.l-2-4-c": {

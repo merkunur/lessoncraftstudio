@@ -3439,6 +3439,29 @@
         "Nimetä luokka yhdellä sanalla.",
         "Käyttää vihjeitä ja antaa jokaiselle ystävälle oikea asia."
       ]
+    },
+    "olive-kind-of.category-attribute.l-1-5-b": {
+      "about": [
+        "Puun jokaisella oksalla on yksi laji asioita: linnut, hedelmät, kulkuneuvot, vaatteet. Lapsi lukee vihjeen ja kiipeää kuvan kanssa oksalle, jolla sen laji asuu, ja rungon lehdessä lukee, minne kuva kiipesi. Jos banaani päätyy eläinten oksalle, lehdessä lukee juuri niin, ja lapsi kuulee, että se on väärin; tarkistettaessa oksa ei kestä sitä, ja se liukuu takaisin juurille.",
+        "Tehtäviä on kolme: kertoa, millainen asia kuvassa on; lajitella yhdeksän kuvaa kolmeen ryhmään; ja kiivetä määritelmään, jossa jokainen oksa avaa kolme oksanhaaraa ja lehdestä kasvaa lause kuten ”Ankka on lintu, joka ui.” Sama ominaisuus kasvaa eri oksilla (vene kelluu, ankka ui), joten laji tulee ensin.",
+        "Kielitehtävä 1. luokalle (OPS 2014). Toimii ilman ääntä, ilman ajanottoa ja ilman pisteitä."
+      ],
+      "practices": [
+        "Kertoa, millainen asia jokin on",
+        "Lajitella kuvia ryhmiin",
+        "Kertoa, mikä erottaa sen muista samaa lajia olevista",
+        "Lukea määritelmä ja tarkistaa se"
+      ],
+      "howToPlay": [
+        "Napauta oksaa (tai vedä kuva sinne) ja paina sitten Tarkista.",
+        "Määritelmässä oksa avaa kolme oksanhaaraa: napauta sitä, joka erottaa kuvan muista.",
+        "Asetuksista valitset, mitä teet, onko vihjeessä kuva ja onko oksia kolme vai neljä."
+      ],
+      "learningGoals": [
+        "Kertoa, mihin yläkäsitteeseen sana kuuluu.",
+        "Määritellä sana yläkäsitteen ja yhden ominaisuuden avulla.",
+        "Lajitella sanoja ryhmiin."
+      ]
     }
   }
 }

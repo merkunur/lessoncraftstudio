@@ -3467,6 +3467,29 @@
         "Gi kategorien et navn med ett ord.",
         "Bruke hint til å gi hver venn den riktige tingen."
       ]
+    },
+    "olive-kind-of.category-attribute.l-1-5-b": {
+      "about": [
+        "Hver grein på treet bærer én sort ting: fugler, frukt, transportmidler, klær. Barnet leser hintet og klatrer opp med bildet til greinen der sorten bor, og på et blad på stammen står det hvor det klatret. Havner bananen på dyregreinen, står akkurat det på bladet, og barnet hører at det er feil; ved Sjekk kan greinen ikke holde den, og den glir ned til røttene.",
+        "Det er tre ting å gjøre: si hva slags ting et bilde viser; sortere ni bilder i tre grupper; og klatre opp til en forklaring, der hver grein åpner tre kvister og bladet blir til en setning som «En and er en fugl som svømmer.» Den samme egenskapen vokser på ulike greiner (en båt flyter, en and svømmer), så sorten kommer først.",
+        "En språkøvelse for 1. trinn i tråd med LK20. Den virker uten lyd, uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Si hva slags ting noe er",
+        "Sortere bilder i grupper",
+        "Si hva som skiller den fra andre av samme sort",
+        "Lese en forklaring og sjekke den"
+      ],
+      "howToPlay": [
+        "Trykk på en grein (eller dra bildet dit), og trykk så på Sjekk.",
+        "I forklaringen åpner greinen tre kvister: trykk på den som skiller bildet fra de andre.",
+        "I innstillingene velger du hva du gjør, om hintet har et bilde, og om det er tre eller fire greiner."
+      ],
+      "learningGoals": [
+        "Si hvilket overbegrep et ord hører til.",
+        "Forklare et ord med overbegrep og én egenskap.",
+        "Sortere ord i grupper."
+      ]
     }
   }
 }

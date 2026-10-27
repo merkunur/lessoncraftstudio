@@ -755,25 +755,25 @@
     },
     "olive-kind-of.category-attribute.l-1-5-b": {
       "about": [
-        "Olive, una civetta gentile, accompagna il bambino o la bambina lungo il suo albero delle categorie, dove ogni ramo raccoglie parole che stanno bene insieme.",
-        "Guardando un'immagine e leggendo un piccolo indizio, si scopre a quale gruppo appartiene ogni cosa.",
-        "Poco alla volta, raggruppare le parole diventa un gioco naturale e sereno."
+        "Ogni ramo dell’albero porta un tipo di cosa: uccelli, frutta, mezzi di trasporto, vestiti. Il bambino legge l’indizio e porta l’immagine sul ramo dove abita il suo tipo, e una foglia sul tronco scrive il percorso. Se la banana va sul ramo degli animali, la foglia lo dice e si sente che è sbagliato; alla verifica il ramo non la regge e scivola giù fino alle radici.",
+        "Ci sono tre cose da fare: dire che tipo di cosa mostra un’immagine; dividere nove immagini in tre gruppi; e salire fino a una definizione, dove ogni ramo apre tre rametti e la foglia diventa una frase come «Un’anatra è un uccello che nuota.» La stessa idea cresce su rami diversi (una barca galleggia, un’anatra nuota), quindi prima viene il tipo.",
+        "Un’attività di lingua per la classe prima, in linea con le Indicazioni nazionali. Funziona senza audio, senza cronometro e senza punteggi."
       ],
       "practices": [
-        "Raggruppare una parola nella sua categoria",
-        "Riconoscere il termine generico",
-        "Usare un indizio per capire il gruppo",
-        "Distinguere animali, cibo, veicoli, piante…"
+        "Dire che tipo di cosa è qualcosa",
+        "Dividere le immagini in gruppi",
+        "Dire che cosa lo distingue dagli altri del suo tipo",
+        "Leggere una definizione e verificarla"
       ],
       "howToPlay": [
-        "Guarda l'immagine e leggi l'indizio.",
-        "Pensa a che tipo di cosa è.",
-        "Tocca il gruppo giusto, con calma."
+        "Tocca un ramo (o trascina lì l’immagine), poi premi Verifica.",
+        "Nella definizione il ramo apre tre rametti: tocca quello che distingue l’immagine.",
+        "Nelle impostazioni scegli che cosa fare, se l’indizio ha un’immagine e se ci sono tre o quattro rami."
       ],
       "learningGoals": [
-        "Imparare a raggruppare le parole nella categoria giusta",
-        "Riconoscere il termine generico che unisce cose diverse",
-        "Pensata per la classe seconda e allineata alle Indicazioni nazionali, nell'area del lessico"
+        "Dire la categoria di una parola.",
+        "Definire una parola con la categoria e una caratteristica.",
+        "Dividere le parole in gruppi."
       ]
     },
     "sage-root-garden.roots.l-2-4-c": {

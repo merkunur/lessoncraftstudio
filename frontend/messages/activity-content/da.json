@@ -3439,6 +3439,29 @@
         "Give kategorien et navn med ét ord.",
         "Bruge spor til at give hver ven den rigtige ting."
       ]
+    },
+    "olive-kind-of.category-attribute.l-1-5-b": {
+      "about": [
+        "Hver gren på træet bærer én slags ting: fugle, frugt, transportmidler, tøj. Barnet læser ledetråden og klatrer op med billedet til grenen, hvor dets slags bor, og på et blad på stammen står der, hvor det klatrede hen. Kommer bananen på dyregrenen, står der netop det på bladet, og barnet kan høre, at det er forkert; ved Tjek kan grenen ikke holde den, og den glider ned til rødderne.",
+        "Der er tre ting at gøre: sige, hvad slags ting et billede viser; sortere ni billeder i tre grupper; og klatre op til en forklaring, hvor hver gren åbner tre kviste, og bladet bliver til en sætning som ”En and er en fugl, der svømmer.” Den samme egenskab vokser på forskellige grene (en båd flyder, en and svømmer), så slagsen kommer først.",
+        "En sprogøvelse til 1. klasse i tråd med Fælles Mål. Den virker uden lyd, uden tidtagning og uden point."
+      ],
+      "practices": [
+        "Sige, hvad slags ting noget er",
+        "Sortere billeder i grupper",
+        "Sige, hvad der skiller den fra andre af samme slags",
+        "Læse en forklaring og tjekke den"
+      ],
+      "howToPlay": [
+        "Tryk på en gren (eller træk billedet derhen), og tryk så på Tjek.",
+        "I forklaringen åbner grenen tre kviste: tryk på den, der skiller billedet fra de andre.",
+        "I indstillingerne vælger du, hvad du gør, om ledetråden har et billede, og om der er tre eller fire grene."
+      ],
+      "learningGoals": [
+        "Sige, hvilket overbegreb et ord hører til.",
+        "Forklare et ord med overbegreb og én egenskab.",
+        "Sortere ord i grupper."
+      ]
     }
   }
 }

@@ -1811,25 +1811,25 @@
     },
     "olive-kind-of.category-attribute.l-1-5-b": {
       "about": [
-        "En «El árbol de categorías de Olive», una lechuza llamada Olive muestra una imagen —un perro, un plátano, un carro o un sombrero— junto con una pista sobre una de sus características, y el niño toca la categoría general a la que pertenece esa cosa.",
-        "La idea es aprender a agrupar una cosa concreta dentro de su categoría general: de «perro», «pez» y «gato», la categoría común es «Animal». El peque lee una pista sobre una característica (por ejemplo, «Tiene cuatro patas y ladra») y elige la categoría correcta entre Animal, Planta, Vehículo, Comida, Ropa o Mueble.",
-        "Es una actividad interactiva para 2.º de primaria, alineada a los Planes y programas de estudio (SEP). Se juega directamente en el navegador, sin registro y sin descargar nada, con un tono cálido, sin cronómetro y sin puntajes que presionen."
+        "Cada rama del árbol tiene un tipo de cosa: aves, frutas, medios de transporte, ropa. La niña o el niño lee la pista y sube el dibujo a la rama donde vive su tipo, y una hoja en el tronco escribe el camino. Si el plátano va a la rama de los animales, la hoja lo dice y se nota que no está bien; al comprobar, la rama no lo puede sostener y se resbala hasta las raíces.",
+        "Hay tres cosas que hacer: decir qué tipo de cosa es un dibujo; clasificar nueve dibujos en tres grupos; y subir hasta una definición, donde cada rama abre tres ramitas y la hoja se vuelve una oración como «Un pato es un ave que nada.» La misma idea crece en ramas distintas (un bote flota, un pato nada), por eso primero va el tipo.",
+        "Una actividad de lenguaje para primer grado de primaria, de acuerdo con los programas de estudio de la SEP. Funciona sin sonido, sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Leer con atención una pista sobre una característica de la cosa y usarla para decidir a qué grupo pertenece.",
-        "Agrupar una cosa concreta dentro de su categoría general, eligiendo entre Animal, Planta, Vehículo, Comida, Ropa y Mueble.",
-        "Pensar de lo particular a lo general, subiendo del ejemplo a la categoría: de «perro» a «Animal», o de «plátano» a «Comida».",
-        "Ordenar y ampliar el vocabulario clasificando las palabras por categorías, para nombrar y relacionar mejor las cosas del mundo."
+        "Decir qué tipo de cosa es algo",
+        "Clasificar dibujos en grupos",
+        "Nombrar lo que lo distingue de otros de su tipo",
+        "Leer una definición y comprobarla"
       ],
       "howToPlay": [
-        "Observa la imagen que muestra Olive y lee la pista sobre su característica, sin ninguna prisa.",
-        "Piensa a qué grupo o categoría pertenece esa cosa: si es un Animal, una Planta, un Vehículo, una Comida, una prenda de Ropa o un Mueble.",
-        "Toca la categoría correcta; si te equivocas, Olive te deja intentarlo de nuevo con intentos ilimitados y sin cronómetro, para aprender con calma."
+        "Toca una rama (o arrastra el dibujo hasta ella) y luego aprieta Comprobar.",
+        "En la definición, la rama abre tres ramitas: toca la que distingue al dibujo.",
+        "En los ajustes eliges qué hacer, si la pista lleva dibujo y si hay tres o cuatro ramas."
       ],
       "learningGoals": [
-        "Pensada para segundo grado de primaria (~7 a 8 años), esta actividad ayuda a clasificar cosas concretas dentro de categorías generales de forma clara y segura.",
-        "El niño practica el razonamiento de lo particular a lo general, aprendiendo a subir de un ejemplo, como «rosa», hasta su categoría, «Planta».",
-        "Al agrupar palabras por categorías, el peque amplía y organiza su vocabulario, una base importante para leer, escribir y expresar ideas con más precisión."
+        "Nombrar la categoría de una palabra.",
+        "Definir una palabra por su categoría y una característica.",
+        "Clasificar palabras en grupos."
       ]
     },
     "sage-root-garden.roots.l-2-4-c": {

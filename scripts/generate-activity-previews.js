@@ -87,6 +87,10 @@ function seedScript(row) {
     // the mop on the chart, "map" spelled in its boxes, Mirror pressed — the mirror shows a map, not the patient: the invention at work
     return `(function(){var t=window['${g}'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(1,0);t._render2();t._tile(1);t._look();}})();`;
   }
+  if (row.tool === 'climbing-tree-activity') {
+    // level 3, the duck: climbed to the bird branch and onto the "swims" twig, Check pressed — the gold leaf reads "A duck is a bird that swims."
+    return `(function(){var t=window['${g}'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t.api.settings.level='3';t._pool=null;t._ensurePool();t._start(0,0);t._render2();t._climb(t.st.rd.right);t._twig(t.st.rd.rightTwig);t._check();}})();`;
+  }
   if (row.tool === 'group-photo-activity') {
     // level 2: the bat among the birds sent to the step, the shutter pressed — a sharp photo with "birds" written under it: the invention at work
     return `(function(){var t=window['${g}'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t.api.settings.level='2';t._pool=null;t._ensurePool();t._start(0,0);t._render2();t._seat_(t.st.rd.odd);t._snap();}})();`;

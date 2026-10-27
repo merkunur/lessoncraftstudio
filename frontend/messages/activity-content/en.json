@@ -3036,25 +3036,25 @@
     },
     "olive-kind-of.category-attribute.l-1-5-b": {
       "about": [
-        "Olive the owl shows a picture and a clue — 'It flies and has feathers,' 'It floats and carries people on the water' — and children tap the group the thing belongs to: bird, food, vehicle, clothing, plant, or animal. It's an interactive Grade 1 vocabulary game that runs right in the browser with no sign-up.",
-        "Each clue names a key attribute, and the child uses it to sort the word into a category: a robin is a bird, a hat is clothing, a rose is a plant. The choices are real categories, including a tempting wrong one each round, so the child has to think about what makes the thing belong rather than just recognizing the picture.",
-        "It is aligned to Common Core L.1.5.b — defining words by category and by a key attribute. No timer, no score — just calm, playful practice."
+        "Every branch of the tree holds one kind of thing: birds, fruit, vehicles, clothing. The child reads the clue and climbs the picture up to the branch where its kind lives, and a leaf on the trunk spells out the climb. Put the banana on the animals branch and the leaf says so, which a child can tell is wrong; press Check and the branch cannot hold it, so it slides back down to the roots.",
+        "There are three things to do: say what kind of thing a picture is; sort nine pictures into three groups; and climb to a definition, where every branch opens three twigs and the leaf grows into a sentence such as \"A duck is a bird that swims.\" The same attribute can grow on different branches (a boat goes on water, and so does a duck), so the kind has to come first.",
+        "It is aligned to Common Core L.1.5.b: define words by category and by one or more key attributes. It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Read a clue that names a key attribute of a thing",
-        "Sort a word into the right category — bird, food, vehicle, plant, animal, clothing",
-        "Connect an attribute (has feathers, has wheels) to the group it points to",
-        "Build everyday category words"
+        "Say what kind of thing something is",
+        "Sort pictures into groups",
+        "Name one thing that sets it apart from others of its kind",
+        "Read a definition and check it"
       ],
       "howToPlay": [
-        "Look at the picture and read Olive's clue, like 'It has wheels and drives on the road.'",
-        "Tap the group it belongs to — bird, food, vehicle, and so on — then press Check.",
-        "Not quite? Read the clue again and try once more; there is no timer and no score."
+        "Tap a branch (or drag the picture to it), then press Check.",
+        "In the definition level, the branch opens three twigs: tap the one that tells the picture apart.",
+        "In the settings, choose what to do, whether the clue comes with a picture, and three or four branches."
       ],
       "learningGoals": [
-        "Sort words into categories by a key attribute — the focus of Common Core L.1.5.b",
-        "Connect what a thing is like to the group it belongs to",
-        "Grow a network of everyday category words"
+        "Name the category a word belongs to.",
+        "Define a word by its category and one key attribute.",
+        "Sort words into groups."
       ]
     },
     "opposites.antonyms.k-l-5-b": {

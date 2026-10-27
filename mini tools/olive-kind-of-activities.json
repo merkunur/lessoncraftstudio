@@ -1,97 +1,74 @@
 [
   {
     "id": "olive-kind-of.category-attribute.l-1-5-b",
-    "tool": "olive-kind-of-activity",
+    "tool": "climbing-tree-activity",
     "task_template": "category-attribute",
-    "alignment": { "framework": "CCSS", "code": "L.1.5.b", "grade": "1", "strand": "Language" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "L.1.5.b",
+      "grade": "1",
+      "strand": "Language"
+    },
     "params": {
-      "rounds": [
-        { "id": "robin", "band": 1, "target": { "noun": "robin", "themeDir": "birds 2" }, "clue": "It flies and has feathers.", "category": "bird", "choices": [ { "word": "bird" }, { "word": "food" }, { "word": "vehicle" } ] },
-        { "id": "banana", "band": 1, "target": { "noun": "banana", "themeDir": "At the Supermarket" }, "clue": "It is yellow and you can eat it.", "category": "food", "choices": [ { "word": "animal" }, { "word": "food" }, { "word": "clothing" } ] },
-        { "id": "truck", "band": 1, "target": { "noun": "truck", "themeDir": "post office" }, "clue": "It has wheels and drives on the road.", "category": "vehicle", "choices": [ { "word": "food" }, { "word": "plant" }, { "word": "vehicle" } ] },
-        { "id": "hat", "band": 2, "target": { "noun": "hat", "themeDir": "accessories" }, "clue": "You wear it on your head.", "category": "clothing", "choices": [ { "word": "clothing" }, { "word": "vehicle" }, { "word": "food" } ] },
-        { "id": "rose", "band": 2, "target": { "noun": "rose", "themeDir": "flowers" }, "clue": "It grows in a garden and smells nice.", "category": "plant", "choices": [ { "word": "animal" }, { "word": "plant" }, { "word": "vehicle" } ] },
-        { "id": "dog", "band": 2, "target": { "noun": "dog", "themeDir": "animals" }, "clue": "It has four legs and says woof.", "category": "animal", "choices": [ { "word": "food" }, { "word": "clothing" }, { "word": "animal" } ] },
-        { "id": "apple", "band": 3, "target": { "noun": "apple", "themeDir": "At the Supermarket" }, "clue": "It is sweet and crunchy, and you can eat it.", "category": "food", "choices": [ { "word": "food" }, { "word": "vehicle" }, { "word": "animal" } ] },
-        { "id": "boat", "band": 3, "target": { "noun": "boat", "themeDir": "beach" }, "clue": "It floats and carries people on the water.", "category": "vehicle", "choices": [ { "word": "clothing" }, { "word": "vehicle" }, { "word": "plant" } ] }
+      "level": [
+        "1",
+        "2",
+        "3"
       ],
-      "roundsL10n": {
-        "de": [
-          { "id": "hund-tier", "band": 1, "target": { "noun": "dog", "themeDir": "animals", "label": "Hund" }, "clue": "Er hat vier Beine und bellt.", "category": "Tier", "choices": [ { "word": "Tier" }, { "word": "Essen" }, { "word": "Kleidung" } ] },
-          { "id": "banane-essen", "band": 1, "target": { "noun": "banana", "themeDir": "At the Supermarket", "label": "Banane" }, "clue": "Man kann sie essen. Sie ist gelb.", "category": "Essen", "choices": [ { "word": "Essen" }, { "word": "Tier" }, { "word": "Fahrzeug" } ] },
-          { "id": "auto-fahrzeug", "band": 1, "target": { "noun": "car", "themeDir": "vehicles", "label": "Auto" }, "clue": "Es hat Räder und fährt auf der Straße.", "category": "Fahrzeug", "choices": [ { "word": "Fahrzeug" }, { "word": "Pflanze" }, { "word": "Essen" } ] },
-          { "id": "hut-kleidung", "band": 2, "target": { "noun": "hat", "themeDir": "accessories", "label": "Hut" }, "clue": "Man trägt ihn auf dem Kopf.", "category": "Kleidung", "choices": [ { "word": "Kleidung" }, { "word": "Fahrzeug" }, { "word": "Essen" } ] },
-          { "id": "rose-pflanze", "band": 2, "target": { "noun": "rose", "themeDir": "flowers", "label": "Rose" }, "clue": "Sie wächst im Garten und blüht.", "category": "Pflanze", "choices": [ { "word": "Pflanze" }, { "word": "Tier" }, { "word": "Fahrzeug" } ] },
-          { "id": "tisch-moebel", "band": 2, "target": { "noun": "table", "themeDir": "furniture", "label": "Tisch" }, "clue": "Er steht im Zimmer. Man isst daran.", "category": "Möbel", "choices": [ { "word": "Möbel" }, { "word": "Tier" }, { "word": "Pflanze" } ] },
-          { "id": "fisch-tier", "band": 3, "target": { "noun": "fish", "themeDir": "animals", "label": "Fisch" }, "clue": "Er lebt im Wasser und schwimmt.", "category": "Tier", "choices": [ { "word": "Tier" }, { "word": "Möbel" }, { "word": "Kleidung" } ] },
-          { "id": "boot-fahrzeug", "band": 3, "target": { "noun": "boat", "themeDir": "beach", "label": "Boot" }, "clue": "Es fährt auf dem Wasser.", "category": "Fahrzeug", "choices": [ { "word": "Fahrzeug" }, { "word": "Kleidung" }, { "word": "Pflanze" } ] }
-        ],
-        "fr": [
-          { "id": "chien-animal", "band": 1, "target": { "noun": "dog", "themeDir": "animals", "label": "chien" }, "clue": "Il a quatre pattes et il aboie.", "category": "animal", "choices": [ { "word": "animal" }, { "word": "nourriture" }, { "word": "vêtement" } ] },
-          { "id": "banane-nourriture", "band": 1, "target": { "noun": "banana", "themeDir": "At the Supermarket", "label": "banane" }, "clue": "On peut la manger. Elle est jaune.", "category": "nourriture", "choices": [ { "word": "nourriture" }, { "word": "animal" }, { "word": "véhicule" } ] },
-          { "id": "voiture-vehicule", "band": 1, "target": { "noun": "car", "themeDir": "vehicles", "label": "voiture" }, "clue": "Elle a des roues et elle roule sur la route.", "category": "véhicule", "choices": [ { "word": "véhicule" }, { "word": "plante" }, { "word": "nourriture" } ] },
-          { "id": "chapeau-vetement", "band": 2, "target": { "noun": "hat", "themeDir": "accessories", "label": "chapeau" }, "clue": "On le porte sur la tête pour se protéger.", "category": "vêtement", "choices": [ { "word": "vêtement" }, { "word": "véhicule" }, { "word": "nourriture" } ] },
-          { "id": "rose-plante", "band": 2, "target": { "noun": "rose", "themeDir": "flowers", "label": "rose" }, "clue": "Elle pousse dans le jardin et elle fait des fleurs.", "category": "plante", "choices": [ { "word": "plante" }, { "word": "animal" }, { "word": "véhicule" } ] },
-          { "id": "table-meuble", "band": 2, "target": { "noun": "table", "themeDir": "furniture", "label": "table" }, "clue": "Elle a quatre pieds. On mange dessus.", "category": "meuble", "choices": [ { "word": "meuble" }, { "word": "animal" }, { "word": "plante" } ] },
-          { "id": "poisson-animal", "band": 3, "target": { "noun": "fish", "themeDir": "animals", "label": "poisson" }, "clue": "Il vit dans l’eau et il nage.", "category": "animal", "choices": [ { "word": "animal" }, { "word": "meuble" }, { "word": "vêtement" } ] },
-          { "id": "bateau-vehicule", "band": 3, "target": { "noun": "boat", "themeDir": "beach", "label": "bateau" }, "clue": "Il flotte et il avance sur l’eau.", "category": "véhicule", "choices": [ { "word": "véhicule" }, { "word": "vêtement" }, { "word": "plante" } ] }
-        ],
-        "es": [
-          { "id": "perro-animal", "band": 1, "target": { "noun": "dog", "themeDir": "animals", "label": "el perro" }, "clue": "Es peludo y ladra fuerte.", "category": "Animal", "choices": [ { "word": "Animal" }, { "word": "Planta" }, { "word": "Vehículo" } ] },
-          { "id": "platano-comida", "band": 1, "target": { "noun": "banana", "themeDir": "At the Supermarket", "label": "el plátano" }, "clue": "Es amarillo y se pela para comer.", "category": "Comida", "choices": [ { "word": "Ropa" }, { "word": "Comida" }, { "word": "Mueble" } ] },
-          { "id": "carro-vehiculo", "band": 1, "target": { "noun": "car", "themeDir": "vehicles", "label": "el carro" }, "clue": "Es rojo y tiene cuatro llantas.", "category": "Vehículo", "choices": [ { "word": "Comida" }, { "word": "Planta" }, { "word": "Vehículo" } ] },
-          { "id": "sombrero-ropa", "band": 2, "target": { "noun": "hat", "themeDir": "accessories", "label": "el sombrero" }, "clue": "Es ancho y te cubre la cabeza.", "category": "Ropa", "choices": [ { "word": "Ropa" }, { "word": "Animal" }, { "word": "Comida" } ] },
-          { "id": "rosa-planta", "band": 2, "target": { "noun": "rose", "themeDir": "flowers", "label": "la rosa" }, "clue": "Es roja y tiene espinas en el tallo.", "category": "Planta", "choices": [ { "word": "Mueble" }, { "word": "Vehículo" }, { "word": "Planta" } ] },
-          { "id": "mesa-mueble", "band": 2, "target": { "noun": "table", "themeDir": "furniture", "label": "la mesa" }, "clue": "Es plana y tiene cuatro patas de madera.", "category": "Mueble", "choices": [ { "word": "Planta" }, { "word": "Mueble" }, { "word": "Animal" } ] },
-          { "id": "pez-animal", "band": 3, "target": { "noun": "fish", "themeDir": "animals", "label": "el pez" }, "clue": "Es pequeño y nada en el agua.", "category": "Animal", "choices": [ { "word": "Vehículo" }, { "word": "Ropa" }, { "word": "Animal" } ] },
-          { "id": "barco-vehiculo", "band": 3, "target": { "noun": "boat", "themeDir": "beach", "label": "el barco" }, "clue": "Es grande y flota en el mar.", "category": "Vehículo", "choices": [ { "word": "Vehículo" }, { "word": "Mueble" }, { "word": "Planta" } ] }
-        ],
-        "pt": [
-          { "id": "cachorro-animal", "band": 1, "target": { "noun": "dog", "themeDir": "animals", "label": "o cachorro" }, "clue": "É peludo e late alto.", "category": "Animal", "choices": [ { "word": "Animal" }, { "word": "Planta" }, { "word": "Veículo" } ] },
-          { "id": "banana-comida", "band": 1, "target": { "noun": "banana", "themeDir": "At the Supermarket", "label": "a banana" }, "clue": "É amarela e você descasca para comer.", "category": "Comida", "choices": [ { "word": "Roupa" }, { "word": "Comida" }, { "word": "Móvel" } ] },
-          { "id": "carro-veiculo", "band": 1, "target": { "noun": "car", "themeDir": "vehicles", "label": "o carro" }, "clue": "É vermelho e tem quatro rodas.", "category": "Veículo", "choices": [ { "word": "Comida" }, { "word": "Planta" }, { "word": "Veículo" } ] },
-          { "id": "chapeu-roupa", "band": 2, "target": { "noun": "hat", "themeDir": "accessories", "label": "o chapéu" }, "clue": "Você usa na cabeça.", "category": "Roupa", "choices": [ { "word": "Roupa" }, { "word": "Animal" }, { "word": "Comida" } ] },
-          { "id": "rosa-planta", "band": 2, "target": { "noun": "rose", "themeDir": "flowers", "label": "a rosa" }, "clue": "É vermelha e tem espinhos no caule.", "category": "Planta", "choices": [ { "word": "Móvel" }, { "word": "Veículo" }, { "word": "Planta" } ] },
-          { "id": "mesa-movel", "band": 2, "target": { "noun": "table", "themeDir": "furniture", "label": "a mesa" }, "clue": "É plana e tem quatro pernas de madeira.", "category": "Móvel", "choices": [ { "word": "Planta" }, { "word": "Móvel" }, { "word": "Animal" } ] },
-          { "id": "peixe-animal", "band": 3, "target": { "noun": "fish", "themeDir": "animals", "label": "o peixe" }, "clue": "É pequeno e nada na água.", "category": "Animal", "choices": [ { "word": "Veículo" }, { "word": "Roupa" }, { "word": "Animal" } ] },
-          { "id": "barco-veiculo", "band": 3, "target": { "noun": "boat", "themeDir": "beach", "label": "o barco" }, "clue": "É grande e flutua no mar.", "category": "Veículo", "choices": [ { "word": "Veículo" }, { "word": "Móvel" }, { "word": "Planta" } ] }
-        ],
-        "it": [
-          { "id": "cane-animale",           "band": 1, "target": { "noun": "dog",    "themeDir": "animals",             "label": "il cane" },     "clue": "È peloso e abbaia forte.",              "category": "Animale",       "choices": [ { "word": "Animale" },       { "word": "Pianta" },        { "word": "Veicolo" } ] },
-          { "id": "banana-cibo",            "band": 1, "target": { "noun": "banana", "themeDir": "At the Supermarket", "label": "la banana" },   "clue": "È gialla e si sbuccia per mangiarla.", "category": "Cibo",          "choices": [ { "word": "Abbigliamento" }, { "word": "Cibo" },          { "word": "Mobile" } ] },
-          { "id": "macchina-veicolo",       "band": 1, "target": { "noun": "car",    "themeDir": "vehicles",           "label": "la macchina" }, "clue": "È rossa e ha quattro ruote.",          "category": "Veicolo",       "choices": [ { "word": "Cibo" },          { "word": "Pianta" },        { "word": "Veicolo" } ] },
-          { "id": "cappello-abbigliamento", "band": 2, "target": { "noun": "hat",    "themeDir": "accessories",        "label": "il cappello" }, "clue": "Si mette in testa.",                   "category": "Abbigliamento", "choices": [ { "word": "Abbigliamento" }, { "word": "Animale" },       { "word": "Cibo" } ] },
-          { "id": "rosa-pianta",            "band": 2, "target": { "noun": "rose",   "themeDir": "flowers",            "label": "la rosa" },     "clue": "È rossa e ha le spine sullo stelo.",   "category": "Pianta",        "choices": [ { "word": "Mobile" },        { "word": "Veicolo" },       { "word": "Pianta" } ] },
-          { "id": "tavolo-mobile",          "band": 2, "target": { "noun": "table",  "themeDir": "furniture",          "label": "il tavolo" },   "clue": "È piatto e ha quattro gambe di legno.","category": "Mobile",        "choices": [ { "word": "Pianta" },        { "word": "Mobile" },        { "word": "Animale" } ] },
-          { "id": "pesce-animale",          "band": 3, "target": { "noun": "fish",   "themeDir": "animals",            "label": "il pesce" },    "clue": "È piccolo e nuota nell'acqua.",        "category": "Animale",       "choices": [ { "word": "Veicolo" },       { "word": "Abbigliamento" }, { "word": "Animale" } ] },
-          { "id": "barca-veicolo",          "band": 3, "target": { "noun": "boat",   "themeDir": "beach",              "label": "la barca" },    "clue": "È grande e galleggia sul mare.",       "category": "Veicolo",       "choices": [ { "word": "Veicolo" },       { "word": "Mobile" },        { "word": "Pianta" } ] }
-        ],
-        "nl": [
-          { "id": "hond-dier",     "band": 1, "target": { "noun": "dog",    "themeDir": "animals",            "label": "hond" },   "clue": "Hij heeft vier poten en blaft.",       "category": "dier",     "choices": [ { "word": "dier" },     { "word": "eten" },     { "word": "kleding" } ] },
-          { "id": "banaan-eten",   "band": 1, "target": { "noun": "banana", "themeDir": "At the Supermarket", "label": "banaan" }, "clue": "Je kunt hem opeten. Hij is geel.",     "category": "eten",     "choices": [ { "word": "eten" },     { "word": "dier" },     { "word": "voertuig" } ] },
-          { "id": "auto-voertuig", "band": 1, "target": { "noun": "car",    "themeDir": "vehicles",           "label": "auto" },   "clue": "Hij heeft wielen en rijdt op de weg.", "category": "voertuig", "choices": [ { "word": "voertuig" }, { "word": "plant" },    { "word": "eten" } ] },
-          { "id": "hoed-kleding",  "band": 2, "target": { "noun": "hat",    "themeDir": "accessories",        "label": "hoed" },   "clue": "Je draagt hem op je hoofd.",           "category": "kleding",  "choices": [ { "word": "kleding" },  { "word": "voertuig" }, { "word": "eten" } ] },
-          { "id": "roos-plant",    "band": 2, "target": { "noun": "rose",   "themeDir": "flowers",            "label": "roos" },   "clue": "Hij groeit in de tuin en bloeit.",     "category": "plant",    "choices": [ { "word": "plant" },    { "word": "dier" },     { "word": "voertuig" } ] },
-          { "id": "tafel-meubel",  "band": 2, "target": { "noun": "table",  "themeDir": "furniture",          "label": "tafel" },  "clue": "Hij staat in de kamer. Je eet eraan.", "category": "meubel",   "choices": [ { "word": "meubel" },   { "word": "dier" },     { "word": "plant" } ] },
-          { "id": "vis-dier",      "band": 3, "target": { "noun": "fish",   "themeDir": "animals",            "label": "vis" },    "clue": "Hij leeft in het water en zwemt.",     "category": "dier",     "choices": [ { "word": "dier" },     { "word": "meubel" },   { "word": "kleding" } ] },
-          { "id": "boot-voertuig", "band": 3, "target": { "noun": "boat",   "themeDir": "beach",              "label": "boot" },   "clue": "Hij vaart op het water.",              "category": "voertuig", "choices": [ { "word": "voertuig" }, { "word": "kleding" },  { "word": "plant" } ] }
-        ],
-        "sv": [
-          { "id": "pannkaka-mat",  "band": 1, "target": { "noun": "pancake",  "themeDir": "breakfast",          "label": "en pannkaka" }, "clue": "Den är rund och platt, och man steker den i en panna.", "category": "Mat",     "choices": [ { "word": "Fordon" }, { "word": "Mat" },    { "word": "Möbler" } ] },
-          { "id": "buss-fordon",   "band": 1, "target": { "noun": "bus",      "themeDir": "vehicles",           "label": "en buss" },     "clue": "Den har hjul och kör många barn till skolan.",      "category": "Fordon",  "choices": [ { "word": "Fordon" }, { "word": "Växter" }, { "word": "Djur" } ] },
-          { "id": "stol-mobler",   "band": 1, "target": { "noun": "chair",    "themeDir": "furniture",          "label": "en stol" },     "clue": "Den står inne i rummet och man sitter på den.",     "category": "Möbler", "choices": [ { "word": "Möbler" }, { "word": "Mat" },   { "word": "Kläder" } ] },
-          { "id": "byxor-klader",  "band": 2, "target": { "noun": "trousers", "themeDir": "clothing",           "label": "byxor" },       "clue": "De är gjorda av tyg och man har dem på benen.",     "category": "Kläder", "choices": [ { "word": "Djur" },   { "word": "Kläder" }, { "word": "Fordon" } ] },
-          { "id": "trad-vaxter",   "band": 2, "target": { "noun": "oak",      "themeDir": "tree",               "label": "ett träd" },  "clue": "Det lever och behöver vatten och ljus.",           "category": "Växter", "choices": [ { "word": "Möbler" }, { "word": "Fordon" }, { "word": "Växter" } ] },
-          { "id": "far-djur",      "band": 2, "target": { "noun": "sheep",    "themeDir": "animals",            "label": "ett får" },   "clue": "Det lever och betar gräs, och det går dit det vill.", "category": "Djur",  "choices": [ { "word": "Kläder" }, { "word": "Mat" },   { "word": "Djur" } ] },
-          { "id": "agg-mat",       "band": 3, "target": { "noun": "egg",      "themeDir": "At the Supermarket", "label": "ägg" },       "clue": "De kommer från hönan, men man kokar dem och äter dem.", "category": "Mat", "choices": [ { "word": "Djur" },   { "word": "Mat" },    { "word": "Växter" } ] },
-          { "id": "slade-fordon", "band": 3, "target": { "noun": "sled",     "themeDir": "winter",             "label": "en släde" },    "clue": "Den har inga hjul, men man åker med den i snön.", "category": "Fordon", "choices": [ { "word": "Fordon" }, { "word": "Möbler" }, { "word": "Djur" } ] }
-        ]
+      "clue": [
+        "pic",
+        "text"
+      ],
+      "branches": [
+        "3",
+        "4"
+      ],
+      "rounds": {
+        "1": 10,
+        "2": 8,
+        "3": 10
       }
     },
     "theme": null,
-    "slug": { "en": "olive-kind-of", "de": "oberbegriffe-finden-klasse-2", "fr": "les-categories-le-mot-generique-ce1", "es": "categorias-agrupar-palabras-clasificar-2-primaria", "pt": "arvore-de-categorias-olive-classificar-palavras-2-ano", "it": "categorie-raggruppare-le-parole-classe-seconda", "nl": "woorden-sorteren-in-groepen-categorieenboom-groep-4", "sv": "overbegrepp-vilken-sorts-sak-ak-2" },
-    "page_title": { "en": "Olive's Kind-Of Tree — What Kind of Thing Is It? (Grade 1)", "de": "Mit Olive Oberbegriffe finden: Wörter Gruppen zuordnen – Klasse 2", "fr": "Les catégories : le mot générique — CE1", "es": "Categorías con Olive: agrupar y clasificar palabras (2.º primaria)", "pt": "A Árvore de Categorias da Olive: classificar palavras (2º ano)", "it": "L'albero delle categorie di Olive: raggruppare le parole", "nl": "Woorden sorteren in groepen met Olive: de categorieënboom (groep 4)", "sv": "Överbegrepp – vad är det för sorts sak? (åk 2)" },
-    "page_intro": { "en": "Olive the owl knows what KIND of thing everything is! Look at the picture and read the clue (it flies and has feathers), then tap the group it belongs to — bird, food, or vehicle. A Grade 1 vocabulary game about putting words into categories by their key attributes, aligned to Common Core L.1.5.b.", "de": "Olive die Eule zeigt ein Bild und ein Merkmal – finde den passenden Oberbegriff wie Tier, Pflanze oder Fahrzeug. Interaktiv, für Klasse 2.", "fr": "Trouve la bonne catégorie d’après un indice avec Olive la chouette. Activité de lexique interactive pour le CE1 (le mot générique).", "es": "Con «El árbol de categorías de Olive», tu peque lee una pista sobre una característica y elige la categoría a la que pertenece la cosa: Animal, Planta, Vehículo, Comida, Ropa o Mueble. Actividad interactiva de 2.º de primaria, alineada a los Planes y programas de estudio (SEP).", "pt": "Com a Olive, a coruja, seu aluno do 2º ano lê uma pista, olha a figura e toca no grupo certo — Animal, Comida, Veículo — classificando palavras por categoria.", "it": "Con «L'albero delle categorie di Olive» il bambino o la bambina esplora le parole insieme a Olive, una civetta gentile, e al suo albero delle categorie. Guarda un'immagine, legge un breve indizio e trova la categoria giusta: capisce cioè a che gruppo appartiene ogni cosa — animale, cibo, veicolo, pianta e altri ancora. Un modo semplice per imparare a raggruppare le parole e a riconoscere le categorie. Si gioca senza registrazione, si gioca nel browser e senza punteggi, allineata alle Indicazioni nazionali, nell'area del lessico.", "nl": "Uil Olive laat een plaatje en een kenmerk zien — kies de juiste groep, zoals dier, plant of voertuig. Interactief woordenschatspel voor groep 4, aansluitend bij de SLO-kerndoelen Nederlands.", "sv": "Olga är en uggla som vet vad allting är för sorts sak. Barnet ser en bild, läser en kort ledtråd och trycker på rätt överbegrepp: Djur, Mat, Fordon, Kläder, Växter eller Möbler. En ordövning för årskurs 2 där ledtråden avgör svaret, i linje med Lgr22." },
+    "slug": {
+      "en": "olive-kind-of",
+      "de": "oberbegriffe-finden-klasse-2",
+      "fr": "les-categories-le-mot-generique-ce1",
+      "es": "categorias-agrupar-palabras-clasificar-2-primaria",
+      "pt": "arvore-de-categorias-olive-classificar-palavras-2-ano",
+      "it": "categorie-raggruppare-le-parole-classe-seconda",
+      "nl": "woorden-sorteren-in-groepen-categorieenboom-groep-4",
+      "sv": "overbegrepp-vilken-sorts-sak-ak-2",
+      "da": "klatretraeet-hvad-slags-ting-er-det-1-klasse",
+      "no": "klatretreet-hva-slags-ting-er-det-1-trinn",
+      "fi": "kiipeilypuu-millainen-asia-se-on-1-luokka"
+    },
+    "page_title": {
+      "en": "Olive's Kind-Of Tree — What Kind of Thing Is It? (Grade 1)",
+      "de": "Mit Olive Oberbegriffe finden: Wörter Gruppen zuordnen – Klasse 2",
+      "fr": "Les catégories : le mot générique — CE1",
+      "es": "Categorías con Olive: agrupar y clasificar palabras (2.º primaria)",
+      "pt": "A Árvore de Categorias da Olive: classificar palavras (2º ano)",
+      "it": "L'albero delle categorie di Olive: raggruppare le parole",
+      "nl": "Woorden sorteren in groepen met Olive: de categorieënboom (groep 4)",
+      "sv": "Överbegrepp – vad är det för sorts sak? (åk 2)",
+      "da": "Klatretræet – hvad slags ting er det? Overbegreber (1. klasse)",
+      "no": "Klatretreet – hva slags ting er det? Overbegreper (1. trinn)",
+      "fi": "Kiipeilypuu – millainen asia se on? Yläkäsitteet (1. luokka)"
+    },
+    "page_intro": {
+      "en": "Olive the owl knows what KIND of thing everything is! Look at the picture and read the clue (it flies and has feathers), then tap the group it belongs to — bird, food, or vehicle. A Grade 1 vocabulary game about putting words into categories by their key attributes, aligned to Common Core L.1.5.b.",
+      "de": "Olive die Eule zeigt ein Bild und ein Merkmal – finde den passenden Oberbegriff wie Tier, Pflanze oder Fahrzeug. Interaktiv, für Klasse 2.",
+      "fr": "Trouve la bonne catégorie d’après un indice avec Olive la chouette. Activité de lexique interactive pour le CE1 (le mot générique).",
+      "es": "Con «El árbol de categorías de Olive», tu peque lee una pista sobre una característica y elige la categoría a la que pertenece la cosa: Animal, Planta, Vehículo, Comida, Ropa o Mueble. Actividad interactiva de 2.º de primaria, alineada a los Planes y programas de estudio (SEP).",
+      "pt": "Com a Olive, a coruja, seu aluno do 2º ano lê uma pista, olha a figura e toca no grupo certo — Animal, Comida, Veículo — classificando palavras por categoria.",
+      "it": "Con «L'albero delle categorie di Olive» il bambino o la bambina esplora le parole insieme a Olive, una civetta gentile, e al suo albero delle categorie. Guarda un'immagine, legge un breve indizio e trova la categoria giusta: capisce cioè a che gruppo appartiene ogni cosa — animale, cibo, veicolo, pianta e altri ancora. Un modo semplice per imparare a raggruppare le parole e a riconoscere le categorie. Si gioca senza registrazione, si gioca nel browser e senza punteggi, allineata alle Indicazioni nazionali, nell'area del lessico.",
+      "nl": "Uil Olive laat een plaatje en een kenmerk zien — kies de juiste groep, zoals dier, plant of voertuig. Interactief woordenschatspel voor groep 4, aansluitend bij de SLO-kerndoelen Nederlands.",
+      "sv": "Olga är en uggla som vet vad allting är för sorts sak. Barnet ser en bild, läser en kort ledtråd och trycker på rätt överbegrepp: Djur, Mat, Fordon, Kläder, Växter eller Möbler. En ordövning för årskurs 2 där ledtråden avgör svaret, i linje med Lgr22.",
+      "da": "Hver gren på træet bærer én slags ting: fugle, frugt, transportmidler eller tøj. Barnet læser ledetråden og klatrer op med billedet til grenen, hvor dets slags bor, og på et blad på stammen står forklaringen: ”En and er en fugl, der svømmer.” Der er også sortering i tre grupper og kviste, der skiller en ting fra andre af samme slags. En sprogøvelse til 1. klasse i tråd med Fælles Mål.",
+      "no": "Hver grein på treet bærer én sort ting: fugler, frukt, transportmidler eller klær. Barnet leser hintet og klatrer opp med bildet til greinen der sorten bor, og et blad på stammen leser opp forklaringen: «En and er en fugl som svømmer.» Det er også sortering i tre grupper og kvister som skiller en ting fra andre av samme sort. En språkøvelse for 1. trinn i tråd med LK20.",
+      "fi": "Puun jokaisella oksalla on yksi laji asioita: linnut, hedelmät, kulkuneuvot tai vaatteet. Lapsi lukee vihjeen ja kiipeää kuvan kanssa oksalle, jolla sen laji asuu, ja rungon lehteen kasvaa määritelmä: ”Ankka on lintu, joka ui.” Mukana lajittelu kolmeen ryhmään ja oksanhaarat, jotka erottavat asian muista samaa lajia olevista. Kielitehtävä 1. luokalle (OPS 2014)."
+    },
     "kid_prompt_template": "Read the clue — what kind of thing is it?"
   }
 ]

@@ -69,3 +69,6 @@ Every finding was fixed at the source (`sk-src.js`, `sk-strings.js`, prose).
 - **`audit-settings-efficacy`:** level, words and peek are all live.
 - **`audit-activity-next-delay`:** pass. Content ×11, prose claims, SERP copy, content tells and route preflight: pass.
 - **0 lines** in shared cores or `lcs-shell`.
+
+## Live
+`live-verify-stove-knob.js` on production, 2026-10-27: **52 pass, 0 fail.** All 11 pages return 200 (ten of them new locales for this row), and en, de, sv and fi at 1366 and 390 embed stove-knob-activity.html at wrapper 9.879. With a real pointer, the strongest and the weakest heat word swapped + Turn it up make the soup jump at both clicks, with the hint naming the strongest word. Putting them right + Turn it up gives "From a little to a lot: …" in the locale's own ladder, and the iframe grows with the card. The first run fell in the cache window (some new-locale pages still served without the embed); the second run was clean.

@@ -3437,25 +3437,25 @@
     },
     "choice-board.even-odd.2-oa-c-3": {
       "about": [
-        "Eine Zahl von 1 bis 20 erscheint, und das Kind entscheidet, ob sie gerade oder ungerade ist, und tippt auf das Feld „gerade\" oder „ungerade\". Mit nur zwei Möglichkeiten beurteilt das Kind jede Zahl für sich: Ist es eine Zahl, die sich in Paare aufteilen lässt, oder eine, bei der eins übrig bleibt? Diese interaktive Übung zum Zahlenverständnis für die 2. Klasse läuft ohne Anmeldung im Browser.",
-        "Die zentrale Idee ist, dass gerade und ungerade davon erzählen, ob sich eine Anzahl in zwei gleiche Gruppen aufteilen lässt, ohne dass etwas übrig bleibt. Das Kind rechnet hier nicht plus oder minus, sondern sortiert ganze Zahlen nach ihrer Struktur. Weil es den ganzen Bereich von 1 bis 20 durchläuft und beide Felder immer sichtbar sind, entwickelt sich das schnelle Erkennen — und die Gewohnheit, auf die Einerstelle zu schauen — bis gerade und ungerade ganz selbstverständlich werden.",
-        "Die Aktivität ist an den Lehrplänen ausgerichtet — bestimmen, ob eine Gruppe von Objekten eine gerade oder ungerade Anzahl hat. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+        "Das Kind schüttet einen Beutel Steine in einen gläsernen Turm, der zwei Steine breit ist, und jeder Stein rollt in die niedrigere Säule. Eine gerade Zahl endet flach und bekommt das flache Dach; eine ungerade Zahl lässt oben einen Stein allein stehen, den nur das Dach mit Schornstein abdeckt. Das falsche Dach kippt und rutscht herunter, also ist die Antwort nie ein Raten zwischen zwei Knöpfen: Der Turm zeigt, warum.",
+        "Danach schreibt das Kind die zwei Säulen als zwei gleiche Teile auf: 14 = 7 + 7, oder 15 = 7 + 7 + 1 mit dem Schornsteinstein als dem, der übrig bleibt. Zwei verschiedene Zahlen in den Kästchen gehen nie durch. Bei Zahlen bis 99 kommen die Zehner als fertige Platten, fünf Paare und immer flach. Das Kind deckt vier Beutel, bevor die Einer hineinfallen, und sieht: Nur die Einer entscheiden.",
+        "Die Übung passt zum Bereich „Zahlen und Operationen“ des Lehrplans der Grundschule, Klasse 2: gerade und ungerade Zahlen erkennen und Verdopplungen nutzen. Sie funktioniert ohne Ton, ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "Entscheiden, ob eine Zahl von 1 bis 20 gerade oder ungerade ist.",
-        "Gerade Zahlen als Paare ohne Rest und ungerade als „eins mehr\" verstehen.",
-        "Auf die Einerziffer schauen, um schnell gerade von ungerade zu unterscheiden.",
-        "Ganze Zahlen nach ihrer Struktur ordnen, statt zu addieren oder zu subtrahieren."
+        "Gerade und ungerade durch Paarbildung unterscheiden",
+        "Eine gerade Zahl als zwei gleiche Teile schreiben",
+        "Eine ungerade Zahl als zwei gleiche Teile und eins mehr zeigen",
+        "Bis 99 an den Einern erkennen, ob eine Zahl gerade oder ungerade ist"
       ],
       "howToPlay": [
-        "Schau dir die Zahl an, die auf dem Feld erscheint.",
-        "Entscheide, ob sie gerade oder ungerade ist, tippe auf das passende Feld und drücke dann auf Prüfen.",
-        "Noch nicht ganz richtig? Probiere es so oft du möchtest — es gibt keinen Timer und keine Punkte."
+        "Tippe auf den Beutel, um die Steine hineinzuschütten; halte ihn gedrückt, dann geht es schneller.",
+        "Setz ein Dach auf den Turm. Rutscht es herunter, schau oben hin und probier das andere Dach.",
+        "Tippe die zwei gleichen Säulen ein und drücke auf „Prüfen“. In den Einstellungen wählst du Zahlen bis 10, bis 20 oder bis 99 und ob das Dach vor oder nach dem Turm kommt."
       ],
       "learningGoals": [
-        "Erkennen, ob eine Zahl bis 20 gerade oder ungerade ist.",
-        "Gerade als Paare ohne Rest und ungerade als „eins übrig\" erklären.",
-        "Das Zahlenverständnis aufbauen, das später beim Arbeiten mit gleichen Gruppen und der Multiplikation hilft."
+        "Wissen, dass sich eine gerade Anzahl ohne Rest zu Paaren ordnen lässt.",
+        "Eine gerade Zahl als Summe zweier gleicher Zahlen schreiben.",
+        "An der Einerstelle erkennen, ob eine Zahl bis 99 gerade oder ungerade ist."
       ]
     },
     "choice-board.describe-attribute.k-md-a-1": {

@@ -840,25 +840,25 @@
     },
     "choice-board.even-odd.2-oa-c-3": {
       "about": [
-        "A number from 1 to 20 appears and the child decides whether it is even or odd, then taps the Even or Odd tile. With just the two choices, the child judges every number on its own — is it the kind that pairs up evenly, or the kind with one left over? It's an interactive Grade 2 number activity that runs in the browser with no sign-up.",
-        "The big idea is that even and odd are about whether a count can be split into two equal groups with nothing left over. A child is not adding or subtracting here; they are sorting whole numbers by structure. Working across the whole range from 1 to 20, with both choices always present, builds the quick recognition — and the habit of checking the ones place — that makes even and odd feel automatic.",
-        "It is aligned to Common Core 2.OA.C.3 — determining whether a group of objects has an odd or even number of members. No timer, no score — just calm, playful practice."
+        "The child pours a bag of bricks into a glass tower two bricks wide, and every brick rolls into the lower column. An even number ends flat and takes the flat roof; an odd number leaves one brick sticking up that only the roof with a chimney can cover. The wrong roof tips and slides off, so the verdict is never a guess between two buttons: the tower shows why.",
+        "Then the child writes the two columns as two equal parts: 14 = 7 + 7, or 15 = 7 + 7 + 1 with the chimney brick as the one left over. Two different numbers in the boxes never pass. For numbers to 99 the tens arrive as finished slabs, five pairs each and always flat, so the child roofs four bags before the ones are poured and sees that only the ones decide.",
+        "It is aligned to Common Core 2.OA.C.3: determine whether a group of objects has an odd or even number of members, and write an even number as a sum of two equal addends. It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Decide whether a number from 1 to 20 is even or odd",
-        "Understand even numbers as pairs with nothing left over, and odd as one extra",
-        "Look at the ones digit as a quick way to tell even from odd",
-        "Sort whole numbers by their structure rather than by adding or subtracting"
+        "Tell even from odd by pairing objects",
+        "Write an even number as two equal parts",
+        "Show an odd number as two equal parts and one more",
+        "Decide even or odd up to 99 from the ones"
       ],
       "howToPlay": [
-        "Look at the number shown on the board.",
-        "Decide if it is even or odd and tap the matching tile, then press Check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Tap the bag to pour the bricks; hold it to pour faster.",
+        "Put a roof on the tower. If it slides off, look at the top and try the other roof.",
+        "Type the two equal columns and press Check. In the settings, choose numbers to 10, to 20 or to 99, and whether the roof comes before or after the tower."
       ],
       "learningGoals": [
-        "Tell whether a number up to 20 is even or odd — the focus of Common Core 2.OA.C.3",
-        "Explain even as pairs with none left over and odd as one extra",
-        "Build the number sense that supports later work with equal groups and multiplication"
+        "Know that an even number of objects pairs up with none left over.",
+        "Write an even number as a sum of two equal addends.",
+        "Use the ones digit to decide whether a number to 99 is even or odd."
       ]
     },
     "choice-board.flat-solid.k-g-a-3": {

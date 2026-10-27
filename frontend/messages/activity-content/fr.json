@@ -2810,25 +2810,25 @@
     },
     "choice-board.even-odd.2-oa-c-3": {
       "about": [
-        "Un nombre de 1 à 20 s'affiche et l'enfant décide s'il est pair ou impair, puis touche la case « Pair » ou « Impair ». Avec seulement ces deux choix, l'enfant juge chaque nombre pour lui-même : est-ce le genre de nombre qui se range deux par deux sans reste, ou celui qui laisse un élément seul ? C'est une activité de calcul interactive pour le CE1, qui se joue dans le navigateur sans inscription.",
-        "La grande idée, c'est que « pair » et « impair » disent si une quantité peut se partager en deux groupes égaux sans rien laisser de côté. L'enfant n'additionne ni ne soustrait ici : il classe des nombres entiers selon leur structure. En travaillant sur toute la plage de 1 à 20, avec les deux choix toujours présents, il développe la reconnaissance rapide — et le réflexe de regarder le chiffre des unités — qui rend les notions de pair et d'impair automatiques.",
-        "Cette activité de CE1 est alignée sur les programmes officiels : déterminer si une collection d'objets contient un nombre pair ou impair d'éléments. Aucun minuteur, aucun score — juste une pratique calme et ludique."
+        "L’enfant verse un sac de briques dans une tour en verre large de deux briques, et chaque brique roule dans la colonne la plus basse. Un nombre pair finit à plat et prend le toit plat ; un nombre impair laisse une brique qui dépasse, et seul le toit à cheminée peut la couvrir. Le mauvais toit bascule et glisse : la réponse n’est jamais un pari entre deux boutons, la tour montre pourquoi.",
+        "Ensuite, l’enfant écrit les deux colonnes comme deux parts égales : 14 = 7 + 7, ou 15 = 7 + 7 + 1, la brique de la cheminée étant celle qui reste. Deux nombres différents dans les cases ne passent jamais. Jusqu’à 99, les dizaines arrivent en plaques toutes faites, cinq paires chacune et toujours plates : l’enfant pose le toit de quatre sacs avant de verser les unités et voit que seules les unités décident.",
+        "L’activité suit les programmes officiels du cycle 2 (CE1) pour le calcul : reconnaître les nombres pairs et impairs, et écrire un nombre pair comme la somme de deux nombres égaux. Elle fonctionne sans le son, sans chronomètre et sans score."
       ],
       "practices": [
-        "Décider si un nombre de 1 à 20 est pair ou impair.",
-        "Comprendre les nombres pairs comme des paires sans reste, et les impairs comme « un de trop ».",
-        "Regarder le chiffre des unités comme un moyen rapide de reconnaître pair et impair.",
-        "Classer les nombres entiers selon leur structure plutôt qu'en additionnant ou soustrayant."
+        "Distinguer pair et impair en formant des paires",
+        "Écrire un nombre pair comme deux parts égales",
+        "Montrer un nombre impair comme deux parts égales plus un",
+        "Décider jusqu’à 99 si un nombre est pair ou impair grâce aux unités"
       ],
       "howToPlay": [
-        "Regarde le nombre affiché sur le plateau.",
-        "Décide s'il est pair ou impair, touche la bonne case, puis appuie sur « Vérifier ».",
-        "Pas tout à fait ? Recommence autant de fois que tu veux — il n'y a ni minuteur, ni score."
+        "Touche le sac pour verser les briques ; garde le doigt dessus pour aller plus vite.",
+        "Pose un toit sur la tour. S’il glisse, regarde le haut et essaie l’autre toit.",
+        "Tape les deux colonnes égales et appuie sur « Vérifier ». Dans les réglages, choisis les nombres jusqu’à 10, 20 ou 99, et si le toit vient avant ou après la tour."
       ],
       "learningGoals": [
-        "Dire si un nombre jusqu'à 20 est pair ou impair.",
-        "Expliquer « pair » comme des paires sans reste et « impair » comme un élément en plus.",
-        "Construire le sens du nombre qui prépare le travail futur sur les groupes égaux et la multiplication."
+        "Savoir qu’un nombre pair d’objets se range par paires sans reste.",
+        "Écrire un nombre pair comme la somme de deux nombres égaux.",
+        "Utiliser le chiffre des unités pour dire si un nombre jusqu’à 99 est pair ou impair."
       ]
     },
     "choice-board.describe-attribute.k-md-a-1": {

@@ -647,25 +647,25 @@
     },
     "choice-board.even-odd.2-oa-c-3": {
       "about": [
-        "Ruudulle ilmestyy luku väliltä 1–20, ja lapsi päättää, onko se parillinen vai pariton, ja napauttaa sitten Parillinen- tai Pariton-ruutua. Kahden vaihtoehdon avulla lapsi arvioi jokaisen luvun omillaan: onko se sellainen, joka jakautuu tasan pareihin, vai sellainen, josta jää yksi yli? Tämä on vuorovaikutteinen lukukäsitteen tehtävä, joka toimii selaimessa ilman rekisteröitymistä.",
-        "Tärkein ajatus on, että parillisuus ja parittomuus kertovat siitä, voiko lukumäärän jakaa kahteen yhtä suureen ryhmään ilman, että mitään jää yli. Lapsi ei laske yhteen eikä vähennä, vaan lajittelee kokonaislukuja niiden rakenteen mukaan. Kun lapsi työskentelee koko lukualueella 1–20 ja molemmat vaihtoehdot ovat aina näkyvissä, syntyy nopea tunnistaminen — ja tapa katsoa ykkösten paikkaa — joka tekee parillisesta ja parittomasta luonnostaan tuttuja.",
-        "Tehtävä on OPS 2014:n mukainen: lapsi määrittää, onko esineryhmässä parillinen vai pariton määrä. 2. luokan oppilaille — ei ajastinta eikä pisteitä, vaan rauhallista ja leikkisää harjoittelua."
+        "Lapsi kaataa pussillisen palikoita lasitorniin, joka on kahden palikan levyinen, ja jokainen palikka vierii matalampaan pinoon. Parillinen luku päättyy tasaisesti ja saa tasakaton; pariton luku jättää yhden palikan koholle, ja vain savupiippukatto voi peittää sen. Väärä katto kallistuu ja liukuu pois, joten vastaus ei ole koskaan arvaus kahden napin välillä: torni näyttää syyn.",
+        "Sen jälkeen lapsi kirjoittaa kaksi pinoa kahtena yhtä suurena osana: 14 = 7 + 7 tai 15 = 7 + 7 + 1, jolloin savupiipun palikka on se, joka jää yli. Kaksi eri lukua ruuduissa ei koskaan mene läpi. Kun luvut ovat 99:ään asti, kymmenet tulevat valmiina laattoina, joissa kussakin on viisi paria ja jotka ovat aina tasaisia: lapsi laittaa katon neljään pussiin ennen kuin ykköset kaadetaan ja näkee, että vain ykköset ratkaisevat.",
+        "Tehtävä sopii OPS 2014:n matematiikan tavoitteisiin 2. luokalla: parilliset ja parittomat luvut sekä parillisen luvun kirjoittaminen kahden yhtä suuren luvun summana. Se toimii ilman ääntä, ilman ajanottoa ja ilman pisteitä."
       ],
       "practices": [
-        "Päättää, onko luku väliltä 1–20 parillinen vai pariton.",
-        "Ymmärtää parilliset luvut pareina, joista ei jää mitään yli, ja parittomat lukuina, joista jää yksi yli.",
-        "Katsoo ykkösnumeroa nopeana keinona erottaa parillinen parittomasta.",
-        "Lajittelee kokonaislukuja niiden rakenteen mukaan yhteen- tai vähennyslaskun sijaan."
+        "Erottaa parillinen parittomasta muodostamalla pareja",
+        "Kirjoittaa parillinen luku kahtena yhtä suurena osana",
+        "Näyttää pariton luku kahtena yhtä suurena osana ja yhtenä lisää",
+        "Päätellä 99:ään asti ykkösten avulla, onko luku parillinen vai pariton"
       ],
       "howToPlay": [
-        "Katso ruudulla näkyvää lukua.",
-        "Päätä, onko se parillinen vai pariton, ja napauta oikeaa ruutua. Paina sitten Tarkista.",
-        "Meneekö pieleen? Voit yrittää uudelleen niin monta kertaa kuin haluat — ei ajastinta eikä pisteitä."
+        "Napauta pussia kaataaksesi palikat; pidä sormea siinä, niin kaataminen käy nopeammin.",
+        "Laita torniin katto. Jos se liukuu pois, katso tornin yläpäätä ja kokeile toista kattoa.",
+        "Kirjoita kaksi yhtä suurta pinoa ja paina Tarkista. Asetuksista valitset luvut 10:een, 20:een tai 99:ään asti sekä sen, tuleeko katto ennen tornia vai sen jälkeen."
       ],
       "learningGoals": [
-        "Lapsi osaa kertoa, onko korkeintaan 20:n luku parillinen vai pariton.",
-        "Lapsi osaa selittää parillisen pareina ilman ylijäämää ja parittoman yhtenä ylimääräisenä.",
-        "Lapsi kehittää lukukäsitettä, joka tukee myöhempää työskentelyä yhtä suurten ryhmien ja kertolaskun parissa."
+        "Tietää, että parillinen määrä esineitä menee pareiksi ilman ylijäämää.",
+        "Kirjoittaa parillinen luku kahden yhtä suuren yhteenlaskettavan summana.",
+        "Päätellä ykkösten numerosta, onko 99:ään asti oleva luku parillinen vai pariton."
       ]
     },
     "choice-board.describe-attribute.k-md-a-1": {

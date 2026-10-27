@@ -2990,25 +2990,25 @@
     },
     "choice-board.even-odd.2-oa-c-3": {
       "about": [
-        "Aparece un número del 1 al 20 y tu hijo o hija decide si es par o impar, y luego toca la tarjeta de Par o de Impar. Como solo hay dos opciones, el niño o la niña juzga cada número por sí mismo: ¿es de los que se acomodan en parejas exactas o de los que dejan uno suelto? Es una actividad de números interactiva para 2.º de primaria que corre en el navegador, sin registro.",
-        "La idea central es que par e impar tienen que ver con si una cantidad se puede repartir en dos grupos iguales sin que sobre nada. Aquí el niño o la niña no suma ni resta: clasifica números enteros según su estructura. Al trabajar con todo el rango del 1 al 20, y con las dos opciones siempre presentes, desarrolla el reconocimiento rápido —y la costumbre de fijarse en la cifra de las unidades— que hace que par e impar se vuelvan algo automático. Es una actividad para segundo grado.",
-        "Está alineada con los planes y programas de estudio (SEP): determinar si un grupo de objetos tiene una cantidad par o impar de elementos. Sin temporizador y sin puntuación, con práctica tranquila y juguetona."
+        "El niño vacía una bolsa de bloques en una torre de vidrio de dos bloques de ancho, y cada bloque rueda a la columna más baja. Un número par termina parejo y lleva el techo plano; un número impar deja un bloque que sobresale, y solo el techo con chimenea lo puede cubrir. El techo equivocado se ladea y se resbala, así que la respuesta nunca es adivinar entre dos botones: la torre muestra por qué.",
+        "Luego el niño escribe las dos columnas como dos partes iguales: 14 = 7 + 7, o 15 = 7 + 7 + 1, con el bloque de la chimenea como el que sobra. Dos números distintos en las casillas nunca pasan. Hasta 99, las decenas llegan como placas ya armadas, cinco parejas cada una y siempre parejas arriba: el niño pone el techo a cuatro bolsas antes de vaciar las unidades y ve que solo las unidades deciden.",
+        "La actividad está alineada con los programas de estudio de segundo grado de primaria, campo formativo Saberes y Pensamiento Científico: reconocer números pares e impares y escribir un número par como la suma de dos números iguales. Funciona sin sonido, sin reloj y sin puntaje."
       ],
       "practices": [
-        "Decidir si un número del 1 al 20 es par o impar.",
-        "Entender los números pares como parejas en las que no sobra nada, y los impares como uno de más.",
-        "Fijarse en la cifra de las unidades como pista rápida para distinguir par de impar.",
-        "Clasificar números enteros por su estructura, en vez de sumar o restar."
+        "Distinguir par e impar formando parejas",
+        "Escribir un número par como dos partes iguales",
+        "Mostrar un número impar como dos partes iguales y uno más",
+        "Decidir hasta 99 si un número es par o impar mirando las unidades"
       ],
       "howToPlay": [
-        "Mira el número que aparece en el tablero.",
-        "Decide si es par o impar, toca la tarjeta que corresponde y pulsa Comprobar.",
-        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntuación."
+        "Toca la bolsa para vaciar los bloques; mantenla presionada para ir más rápido.",
+        "Pon un techo en la torre. Si se resbala, mira arriba y prueba el otro techo.",
+        "Escribe las dos columnas iguales y presiona «Comprobar». En los ajustes elige números hasta 10, 20 o 99, y si el techo va antes o después de la torre."
       ],
       "learningGoals": [
-        "Tu hijo o hija puede saber si un número hasta el 20 es par o impar.",
-        "El niño o la niña aprende a explicar lo par como parejas en las que no sobra nada, y lo impar como uno de más.",
-        "Desarrolla el sentido numérico que apoya el trabajo posterior con grupos iguales y multiplicación."
+        "Saber que un número par de objetos se agrupa en parejas sin que sobre ninguno.",
+        "Escribir un número par como la suma de dos sumandos iguales.",
+        "Usar las unidades para decidir si un número hasta 99 es par o impar."
       ]
     },
     "choice-board.describe-attribute.k-md-a-1": {

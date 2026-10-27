@@ -3407,25 +3407,25 @@
     },
     "choice-board.even-odd.2-oa-c-3": {
       "about": [
-        "Op het bord verschijnt een getal van 1 tot en met 20 en je kind beslist of het even of oneven is. Met maar twee keuzes, even of oneven, beoordeelt het elk getal apart: is het een getal dat netjes in paren past, of blijft er eentje over? Het is een interactieve rekenactiviteit die zonder registratie gewoon in de browser speelt.",
-        "Het grote idee is dat even en oneven gaan over de vraag of je een aantal in twee gelijke groepen kunt verdelen zonder dat er iets overblijft. Je kind telt hier niet op of af, maar sorteert hele getallen op hun bouw. Door het hele bereik van 1 tot 20 te oefenen, met steeds beide keuzes in beeld, ontstaat het snelle herkennen en de gewoonte om naar het laatste cijfer te kijken.",
-        "De activiteit sluit aan bij de kerndoelen voor getalbegrip en is bedoeld voor groep 4: bepalen of een aantal even of oneven is. Geen timer, geen score; gewoon rustig en speels oefenen."
+        "Het kind schudt een zak blokjes in een glazen toren van twee blokjes breed, en elk blokje rolt naar de laagste kolom. Een even getal eindigt plat en krijgt het platte dak; een oneven getal laat bovenaan één blokje uitsteken, en alleen het dak met schoorsteen kan dat afdekken. Het verkeerde dak kantelt en glijdt eraf, dus het antwoord is nooit gokken tussen twee knoppen: de toren laat zien waarom.",
+        "Daarna schrijft het kind de twee kolommen op als twee gelijke delen: 14 = 7 + 7, of 15 = 7 + 7 + 1, met het schoorsteenblokje als het blokje dat overblijft. Twee verschillende getallen in de vakjes gaan nooit goed. Tot 99 komen de tientallen als kant-en-klare platen, vijf paren elk en altijd plat: het kind zet een dak op vier zakken voordat de eenheden erin gaan en ziet dat alleen de eenheden beslissen.",
+        "De oefening sluit aan bij de kerndoelen rekenen-wiskunde van SLO voor groep 4: even en oneven getallen herkennen en een even getal schrijven als de som van twee gelijke getallen. Ze werkt zonder geluid, zonder tijdsdruk en zonder score."
       ],
       "practices": [
-        "Bepalen of een getal van 1 tot 20 even of oneven is",
-        "Even getallen begrijpen als paren zonder rest, en oneven als eentje over",
-        "Naar het laatste cijfer kijken als snelle manier om even van oneven te onderscheiden",
-        "Hele getallen sorteren op hun structuur in plaats van op te tellen of af te trekken"
+        "Even en oneven onderscheiden door paren te maken",
+        "Een even getal schrijven als twee gelijke delen",
+        "Een oneven getal laten zien als twee gelijke delen en één meer",
+        "Tot 99 aan de eenheden zien of een getal even of oneven is"
       ],
       "howToPlay": [
-        "Kijk naar het getal dat op het bord staat.",
-        "Beslis of het even of oneven is, tik op het juiste vak en druk daarna op Controleer.",
-        "Niet goed? Probeer het zo vaak je wilt; er is geen timer en geen score."
+        "Tik op de zak om de blokjes erin te schudden; houd hem vast om sneller te gaan.",
+        "Zet een dak op de toren. Glijdt het eraf, kijk dan naar de bovenkant en probeer het andere dak.",
+        "Typ de twee gelijke kolommen en druk op ‘Controleer’. In de instellingen kies je getallen tot 10, tot 20 of tot 99, en of het dak voor of na de toren komt."
       ],
       "learningGoals": [
-        "Je kind kan bepalen of een getal tot 20 even of oneven is.",
-        "Het kind legt uit dat even paren zonder rest zijn en oneven eentje over heeft.",
-        "Het kind bouwt het getalbegrip op dat later werk met gelijke groepen en vermenigvuldigen ondersteunt."
+        "Weten dat een even aantal voorwerpen in paren past zonder rest.",
+        "Een even getal schrijven als de som van twee gelijke getallen.",
+        "Aan het cijfer van de eenheden zien of een getal tot 99 even of oneven is."
       ]
     },
     "choice-board.describe-attribute.k-md-a-1": {

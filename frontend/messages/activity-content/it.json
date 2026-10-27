@@ -1934,25 +1934,25 @@
     },
     "choice-board.even-odd.2-oa-c-3": {
       "about": [
-        "Compare un numero da 1 a 20 e il bambino decide se è pari o dispari, poi tocca la casella «Pari» oppure «Dispari». Con due sole scelte, ogni numero va valutato per quello che è: è del tipo che si accoppia in modo esatto, oppure di quello che lascia un elemento da solo? È un'attività di matematica interattiva per la classe seconda, che funziona nel browser senza registrazione.",
-        "L'idea importante è che pari e dispari riguardano la possibilità di dividere una quantità in due gruppi uguali senza che resti nulla. Qui il bambino non addiziona né sottrae: ordina i numeri interi in base alla loro struttura. Lavorando su tutto l'intervallo da 1 a 20, con entrambe le scelte sempre presenti, si costruisce il riconoscimento rapido — e l'abitudine a guardare la cifra delle unità — che rende pari e dispari quasi automatici.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito del senso del numero: stabilire se un gruppo di oggetti ha un numero pari o dispari di elementi. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
+        "Il bambino versa un sacchetto di mattoncini in una torre di vetro larga due mattoncini, e ogni mattoncino rotola nella colonna più bassa. Un numero pari finisce piatto e prende il tetto piatto; un numero dispari lascia un mattoncino che sporge, e solo il tetto con il camino lo può coprire. Il tetto sbagliato si inclina e scivola giù: la risposta non è mai un tentativo tra due pulsanti, la torre mostra il perché.",
+        "Poi il bambino scrive le due colonne come due parti uguali: 14 = 7 + 7, oppure 15 = 7 + 7 + 1, con il mattoncino del camino come quello che avanza. Due numeri diversi nelle caselle non vanno mai bene. Fino a 99 le decine arrivano come lastre già pronte, cinque coppie ciascuna e sempre piatte: il bambino mette il tetto a quattro sacchetti prima di versare le unità e vede che decidono solo le unità.",
+        "L’attività segue le Indicazioni nazionali per la classe seconda, matematica: riconoscere i numeri pari e dispari e scrivere un numero pari come somma di due numeri uguali. Funziona senza audio, senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Decidere se un numero da 1 a 20 è pari o dispari.",
-        "Capire i numeri pari come coppie senza resto e i dispari come una coppia con uno in più.",
-        "Guardare la cifra delle unità come modo rapido per distinguere pari e dispari.",
-        "Ordinare i numeri interi in base alla loro struttura invece di addizionare o sottrarre."
+        "Distinguere pari e dispari formando coppie",
+        "Scrivere un numero pari come due parti uguali",
+        "Mostrare un numero dispari come due parti uguali più uno",
+        "Decidere fino a 99 se un numero è pari o dispari guardando le unità"
       ],
       "howToPlay": [
-        "Guarda il numero mostrato sulla lavagna.",
-        "Decidi se è pari o dispari e tocca la casella giusta, poi premi «Controlla».",
-        "Non è giusto? Riprova quante volte vuoi — non c'è timer e non c'è punteggio."
+        "Tocca il sacchetto per versare i mattoncini; tienilo premuto per andare più veloce.",
+        "Metti un tetto sulla torre. Se scivola giù, guarda in cima e prova l’altro tetto.",
+        "Scrivi le due colonne uguali e premi «Controlla». Nelle impostazioni scegli i numeri fino a 10, a 20 o a 99, e se il tetto viene prima o dopo la torre."
       ],
       "learningGoals": [
-        "Stabilire se un numero fino a 20 è pari o dispari.",
-        "Spiegare i pari come coppie senza resto e i dispari come una coppia con uno in più.",
-        "Costruire il senso del numero che sostiene il lavoro futuro sui gruppi uguali e sulla moltiplicazione."
+        "Sapere che un numero pari di oggetti si mette in coppie senza avanzi.",
+        "Scrivere un numero pari come somma di due addendi uguali.",
+        "Usare la cifra delle unità per decidere se un numero fino a 99 è pari o dispari."
       ]
     },
     "choice-board.describe-attribute.k-md-a-1": {

@@ -91,6 +91,10 @@ function seedScript(row) {
     // one twin pair found (its plate on the shelf), a second card lifted and leapfrogged in place: 4 + 7 shown as 7 + 4, the total bar unchanged
     return `(function(){var t=window['${g}'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(0,0);t._render2();var c=t.st.rd.cards,tw=function(i){return c.findIndex(function(d,j){return j!==i&&d.pair===c[i].pair;});};t._pick(0);t._pick(tw(0));var k=c.findIndex(function(d,j){return d.pair!==c[0].pair;});t._pick(k);t._view.leapNow=k;t._paint();}})();`;
   }
+  if (row.tool === 'chimney-roof-activity') {
+    // 13 bricks poured into the two-wide tower, the chimney roof on: the lone brick sits under the chimney, the equation waits
+    return `(function(){var t=window['${g}'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(2);t._render2();for(var i=0;i<13;i++)t._pour();t._roof('chimney');}})();`;
+  }
   if (row.tool === 'replay-track-activity') {
     // Tom's marbles: 62 typed (the told numbers added) and replayed — Tom starts at 62, grows by 17 and sails past the 45 flag, the gap shaded: the invention at work
     return `(function(){var t=window['${g}'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(8);t._render2();t._type('6');t._type('2');t._replay();}})();`;

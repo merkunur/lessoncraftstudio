@@ -1430,25 +1430,25 @@
     },
     "choice-board.even-odd.2-oa-c-3": {
       "about": [
-        "Olhar um número e decidir, com calma, se ele é par ou ímpar é tudo o que esta atividade interativa para o 2º ano pede. Aparece um número de 1 a 20 e a criança toca no cartão Par ou no cartão Ímpar. Com só duas opções, ela avalia cada número por si: é do tipo que forma duplas certinhas ou do tipo que sobra um? Tudo no navegador, sem cadastro.",
-        "A grande ideia é que par e ímpar têm a ver com a possibilidade de dividir uma quantidade em dois grupos iguais sem sobrar nada. A criança não está somando nem subtraindo — está classificando números pela sua estrutura. Trabalhando em toda a faixa de 1 a 20, com as duas opções sempre presentes, ela ganha o reconhecimento rápido e o hábito de olhar o algarismo das unidades que tornam par e ímpar quase automáticos.",
-        "A atividade está alinhada à BNCC, no trabalho de determinar se uma quantidade de objetos é par ou ímpar. Sem cronômetro e sem pontuação — é só prática tranquila e divertida."
+        "A criança despeja um saco de tijolos numa torre de vidro com dois tijolos de largura, e cada tijolo rola para a coluna mais baixa. Um número par termina reto e leva o telhado plano; um número ímpar deixa um tijolo sobrando em cima, que só o telhado com chaminé consegue cobrir. O telhado errado tomba e escorrega, então a resposta nunca é um chute entre dois botões: a torre mostra o porquê.",
+        "Depois a criança escreve as duas colunas como duas partes iguais: 14 = 7 + 7, ou 15 = 7 + 7 + 1, com o tijolo da chaminé como o que sobra. Dois números diferentes nos quadrinhos nunca passam. Até 99, as dezenas chegam como placas prontas, cinco pares cada uma e sempre retas: a criança coloca o telhado em quatro sacos antes de despejar as unidades e vê que só as unidades decidem.",
+        "A atividade está de acordo com a BNCC, Matemática, 2º ano: reconhecer números pares e ímpares e escrever um número par como a soma de duas parcelas iguais. Funciona sem som, sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Decidir se um número de 1 a 20 é par ou ímpar.",
-        "Entender os números pares como duplas sem sobra e os ímpares como tendo um a mais.",
-        "Olhar o algarismo das unidades como um jeito rápido de distinguir par de ímpar.",
-        "Classificar números pela estrutura, sem precisar somar ou subtrair."
+        "Diferenciar par e ímpar formando pares",
+        "Escrever um número par como duas partes iguais",
+        "Mostrar um número ímpar como duas partes iguais e mais um",
+        "Decidir até 99 se um número é par ou ímpar pelas unidades"
       ],
       "howToPlay": [
-        "Olhe o número que aparece no quadro.",
-        "Decida se ele é par ou ímpar e toque no cartão correspondente, depois toque em Verificar.",
-        "Errou? Tente de novo quantas vezes quiser — não há cronômetro nem pontuação."
+        "Toque no saco para despejar os tijolos; segure para ir mais rápido.",
+        "Coloque um telhado na torre. Se ele escorregar, olhe em cima e tente o outro telhado.",
+        "Digite as duas colunas iguais e aperte “Conferir”. Nas configurações, escolha números até 10, até 20 ou até 99, e se o telhado vem antes ou depois da torre."
       ],
       "learningGoals": [
-        "A criança aprende a dizer se um número até 20 é par ou ímpar.",
-        "A criança consegue explicar que par é dupla sem sobra e ímpar tem um a mais.",
-        "A criança fortalece o senso numérico que apoia o trabalho posterior com grupos iguais e multiplicação."
+        "Saber que uma quantidade par de objetos forma pares sem sobrar nenhum.",
+        "Escrever um número par como a soma de duas parcelas iguais.",
+        "Usar o algarismo das unidades para decidir se um número até 99 é par ou ímpar."
       ]
     },
     "choice-board.describe-attribute.k-md-a-1": {

@@ -648,25 +648,25 @@
     },
     "choice-board.even-odd.2-oa-c-3": {
       "about": [
-        "Et tal fra 1 til 20 dukker op, og barnet skal afgøre, om det er lige eller ulige, og trykke på feltet Lige eller Ulige. Med kun to muligheder bedømmer barnet hvert tal for sig: er det den slags, der kan deles to og to, eller den slags, hvor der bliver én tilovers? Det er en interaktiv talaktivitet til 2. klasse, der kører direkte i browseren uden oprettelse.",
-        "Den store idé er, at lige og ulige handler om, hvorvidt et antal kan deles i to lige store grupper uden noget tilovers. Barnet lægger ikke sammen og trækker ikke fra her; det sorterer hele tal efter deres bygning. Når barnet arbejder med hele området fra 1 til 20, og begge valg altid er fremme, opbygges den hurtige genkendelse — og vanen med at kigge på enercifret — som gør lige og ulige helt automatisk.",
-        "Aktiviteten følger Fælles Mål inden for tal og algebra: at afgøre, om et antal genstande er lige eller ulige. Der er ingen timer og ingen point — bare rolig, legende træning i 2. klasse."
+        "Barnet hælder en pose klodser i et glastårn, der er to klodser bredt, og hver klods ruller over i den laveste søjle. Et lige tal ender fladt og får det flade tag; et ulige tal efterlader én klods, der stikker op, og kun taget med skorsten kan dække den. Det forkerte tag vipper og glider af, så svaret er aldrig et gæt mellem to knapper: tårnet viser hvorfor.",
+        "Bagefter skriver barnet de to søjler som to lige store dele: 14 = 7 + 7, eller 15 = 7 + 7 + 1, hvor skorstensklodsen er den, der er tilovers. To forskellige tal i boksene går aldrig igennem. Op til 99 kommer tierne som færdige plader, fem par hver og altid flade: Barnet lægger tag på fire poser, før enerne hældes i, og ser, at det kun er enerne, der afgør det.",
+        "Øvelsen følger Fælles Mål for matematik i 2. klasse, tal og regneoperationer: lige og ulige tal og at skrive et lige tal som summen af to ens tal. Den virker uden lyd, uden tidtagning og uden point."
       ],
       "practices": [
-        "Afgøre, om et tal fra 1 til 20 er lige eller ulige",
-        "Forstå lige tal som par uden noget tilovers og ulige tal som ét ekstra",
-        "Kigge på enercifret som en hurtig måde at se forskel på lige og ulige",
-        "Sortere hele tal efter deres bygning i stedet for at lægge sammen eller trække fra"
+        "Skelne lige fra ulige ved at danne par",
+        "Skrive et lige tal som to lige store dele",
+        "Vise et ulige tal som to lige store dele og én til",
+        "Afgøre op til 99, om et tal er lige eller ulige, ud fra enerne"
       ],
       "howToPlay": [
-        "Barnet kigger på tallet, der vises på tavlen.",
-        "Barnet afgør, om det er lige eller ulige, trykker på det rigtige felt og trykker derefter på Tjek.",
-        "Passer det ikke? Barnet kan prøve igen, så mange gange det vil — der er ingen timer og ingen point."
+        "Tryk på posen for at hælde klodserne i; hold den nede for at gå hurtigere.",
+        "Sæt et tag på tårnet. Hvis det glider af, så se øverst, og prøv det andet tag.",
+        "Skriv de to lige store søjler, og tryk på Tjek. I indstillingerne vælger du tal op til 10, 20 eller 99, og om taget kommer før eller efter tårnet."
       ],
       "learningGoals": [
-        "Barnet kan afgøre, om et tal op til 20 er lige eller ulige",
-        "Barnet kan forklare lige tal som par uden noget tilovers og ulige tal som ét ekstra",
-        "Barnet kan opbygge den talforståelse, der understøtter senere arbejde med lige store grupper og multiplikation"
+        "Vide, at et lige antal ting kan sættes i par, uden at der er nogen tilovers.",
+        "Skrive et lige tal som summen af to ens tal.",
+        "Bruge enercifferet til at afgøre, om et tal op til 99 er lige eller ulige."
       ]
     },
     "choice-board.describe-attribute.k-md-a-1": {

@@ -654,25 +654,25 @@
     },
     "choice-board.even-odd.2-oa-c-3": {
       "about": [
-        "Et tall fra 1 til 20 dukker opp, og barnet avgjør om det er partall eller oddetall og trykker på riktig rute — Partall eller Oddetall. Med bare to valg må barnet vurdere hvert tall for seg: er det et tall som kan deles i to like grupper, eller et tall der det blir én til overs? Det er en interaktiv tallaktivitet for 2. trinn som kjøres i nettleseren uten registrering.",
-        "Den store ideen er at partall og oddetall handler om hvorvidt et antall kan deles i to like grupper uten at noe blir til overs. Barnet legger ikke til eller trekker fra her; det sorterer hele tall etter hvordan de er bygd opp. Når barnet jobber seg gjennom hele tallrekka fra 1 til 20, med begge valgene alltid synlige, bygges den raske gjenkjenningen — og vanen med å se på enerplassen — som gjør at partall og oddetall etter hvert sitter automatisk.",
-        "Aktiviteten følger LK20 innenfor tall og regning på 2. trinn — å avgjøre om en mengde har et partall eller oddetall av medlemmer. Ingen tidtaker, ingen poeng, bare rolig og lekende øving."
+        "Barnet heller en pose klosser i et glasstårn som er to klosser bredt, og hver kloss ruller over i den laveste søylen. Et partall ender flatt og får det flate taket; et oddetall etterlater én kloss som stikker opp, og bare taket med pipe kan dekke den. Feil tak vipper og sklir av, så svaret er aldri en gjetning mellom to knapper: tårnet viser hvorfor.",
+        "Etterpå skriver barnet de to søylene som to like store deler: 14 = 7 + 7, eller 15 = 7 + 7 + 1, der pipeklossen er den som blir til overs. To forskjellige tall i rutene går aldri gjennom. Opp til 99 kommer tierne som ferdige plater, fem par hver og alltid flate: Barnet setter tak på fire poser før enerne helles i, og ser at det bare er enerne som avgjør.",
+        "Øvelsen følger LK20, matematikk etter 2. trinn, tall og regning: partall og oddetall og å skrive et partall som summen av to like tall. Den virker uten lyd, uten tidtaking og uten poeng."
       ],
       "practices": [
-        "Avgjøre om et tall fra 1 til 20 er partall eller oddetall.",
-        "Forstå partall som par uten noe til overs, og oddetall som én ekstra.",
-        "Se på enersifferet som en rask måte å skille partall fra oddetall.",
-        "Sortere hele tall etter strukturen i stedet for å legge til eller trekke fra."
+        "Skille partall fra oddetall ved å lage par",
+        "Skrive et partall som to like store deler",
+        "Vise et oddetall som to like store deler og én til",
+        "Avgjøre opp til 99 om et tall er et partall eller et oddetall ut fra enerne"
       ],
       "howToPlay": [
-        "Se på tallet som vises på tavla.",
-        "Avgjør om det er partall eller oddetall, trykk på ruta som passer, og trykk så på Sjekk.",
-        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+        "Trykk på posen for å helle i klossene; hold inne for å gå fortere.",
+        "Sett et tak på tårnet. Hvis det sklir av, se øverst og prøv det andre taket.",
+        "Skriv de to like store søylene og trykk på Sjekk. I innstillingene velger du tall opp til 10, 20 eller 99, og om taket kommer før eller etter tårnet."
       ],
       "learningGoals": [
-        "Barnet kan avgjøre om et tall opp til 20 er partall eller oddetall.",
-        "Barnet kan forklare partall som par uten noe til overs, og oddetall som én ekstra.",
-        "Barnet bygger tallforståelsen som støtter senere arbeid med like grupper og multiplikasjon."
+        "Vite at et partall av ting kan ordnes i par uten at noe blir til overs.",
+        "Skrive et partall som summen av to like tall.",
+        "Bruke enersifferet til å avgjøre om et tall opp til 99 er et partall eller et oddetall."
       ]
     },
     "choice-board.describe-attribute.k-md-a-1": {

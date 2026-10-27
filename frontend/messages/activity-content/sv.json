@@ -765,24 +765,25 @@
     },
     "choice-board.even-odd.2-oa-c-3": {
       "about": [
-        "Ett tal mellan 1 och 20 visas, och barnet avgör om det är jämnt eller udda och trycker sedan på rutan Jämnt eller Udda. Med bara två val måste barnet bedöma varje tal för sig — är det ett tal som går att para ihop jämnt, eller ett som har en över? Det är en interaktiv talaktivitet för årskurs 2 som körs direkt i webbläsaren utan registrering.",
-        "Den stora idén är att jämnt och udda handlar om huruvida ett antal kan delas i två lika stora grupper utan att något blir över. Barnet adderar eller subtraherar inte här, utan sorterar hela tal efter hur de är uppbyggda. När barnet arbetar med hela talområdet från 1 till 20, med båda valen alltid framme, växer den snabba igenkänningen fram — och vanan att titta på entalssiffran — som gör att jämnt och udda till slut känns självklart. Aktiviteten passar årskurs 2 och följer Lgr22."
+        "Barnet häller en påse klossar i ett glastorn som är två klossar brett, och varje kloss rullar till den lägsta stapeln. Ett jämnt tal slutar platt och får det platta taket; ett udda tal lämnar en kloss som sticker upp, och bara taket med skorsten kan täcka den. Fel tak tippar och glider av, så svaret är aldrig en gissning mellan två knappar: tornet visar varför.",
+        "Sedan skriver barnet de två staplarna som två lika stora delar: 14 = 7 + 7, eller 15 = 7 + 7 + 1, där skorstensklossen är den som blir över. Två olika tal i rutorna godkänns aldrig. Upp till 99 kommer tiotalen som färdiga plattor, fem par var och alltid platta: barnet lägger tak på fyra påsar innan entalen hälls i och ser att det bara är entalen som avgör.",
+        "Övningen följer Lgr22, matematik i årskurs 1 till 3, taluppfattning och tals användning: jämna och udda tal och att skriva ett jämnt tal som summan av två lika stora tal. Den fungerar utan ljud, utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Avgöra om ett tal mellan 1 och 20 är jämnt eller udda",
-        "Förstå jämna tal som par utan något över, och udda tal som ett extra",
-        "Titta på entalssiffran som ett snabbt sätt att skilja jämnt från udda",
-        "Sortera hela tal efter hur de är uppbyggda i stället för att addera eller subtrahera"
+        "Skilja jämnt från udda genom att bilda par",
+        "Skriva ett jämnt tal som två lika stora delar",
+        "Visa ett udda tal som två lika stora delar och en till",
+        "Avgöra upp till 99 om ett tal är jämnt eller udda med hjälp av entalen"
       ],
       "howToPlay": [
-        "Titta på talet som visas på tavlan.",
-        "Avgör om det är jämnt eller udda och tryck på rätt ruta, och tryck sedan på Kontrollera.",
-        "Blev det inte rätt? Försök igen så många gånger du vill — det finns ingen tid och inga poäng."
+        "Tryck på påsen för att hälla i klossarna; håll inne för att det ska gå fortare.",
+        "Sätt ett tak på tornet. Om det glider av, titta högst upp och prova det andra taket.",
+        "Skriv de två lika stora staplarna och tryck på Kolla. I inställningarna väljer du tal upp till 10, 20 eller 99, och om taket kommer före eller efter tornet."
       ],
       "learningGoals": [
-        "Barnet kan avgöra om ett tal upp till 20 är jämnt eller udda",
-        "Barnet kan förklara jämnt som par utan något över och udda som ett extra",
-        "Barnet bygger den taluppfattning som stöder senare arbete med lika stora grupper och multiplikation"
+        "Veta att ett jämnt antal föremål kan ordnas i par utan att något blir över.",
+        "Skriva ett jämnt tal som summan av två lika stora tal.",
+        "Använda entalssiffran för att avgöra om ett tal upp till 99 är jämnt eller udda."
       ]
     },
     "choice-board.describe-attribute.k-md-a-1": {

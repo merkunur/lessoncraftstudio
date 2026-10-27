@@ -110,4 +110,13 @@ Every finding was fixed at the source:
 - **0 lines** in shared cores or `lcs-shell`.
 
 ## Live
-(pending)
+`live-verify-flip-pads.js` ran on production on 2026-10-28: **60 pass, 0 fail.**
+- All 11 pages return 200, including the three new da/no/fi pages.
+- en, de, sv and fi, at 1366 and at 390, embed flip-pads-activity.html at wrapper 9.886.
+- With a real pointer, on 85, 90, [95], [100], 105:
+  - the ones flap once: the meter reads +1;
+  - four more give 95 and the step line;
+  - to 100 by hand (the hundreds, the tens, five clacks of the ones) gives the round line.
+- The iframe grows with the card.
+
+The first run fell in the Cloudflare cache window (the cached page was 268 s old, while the origin already served 9.886). The rerun was clean.

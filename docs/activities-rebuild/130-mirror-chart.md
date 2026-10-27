@@ -130,4 +130,4 @@ ONE native + early-primary pedagogy reviewer covered all 11 locales from a compa
 - the 320 px keyboard modes pushed Mirror below the fold. In the typing helps at 340 px and below, the patient now shrinks to 64 px, the chart and mirror to 84 px, and the key gaps to 2 px; fr/pt measure 638 against 640.
 
 ## Live
-__LIVE__
+`live-verify-mirror-chart.js` on production, 2026-10-27: **52 pass, 0 fail.** All 11 pages return 200, and en, de, sv and fi at 1366 and 390 embed mirror-chart-activity.html at wrapper 9.875. With a real pointer, a wrong tile that spells another picture shows THAT picture in the mirror, with the hint naming the letters. The right tile shows the patient with the success line, and the iframe grows with the card. The first run saw the old page in the cache window; once curl showed 9.875 in every checked locale, the second run was clean.

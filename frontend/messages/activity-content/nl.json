@@ -2563,25 +2563,25 @@
     },
     "array.build-array.2-oa-c-4": {
       "about": [
-        "Je kind bouwt een rooster van gelijke rijen — netjes onder elkaar in kolommen — en zoekt daarna uit hoeveel stippen er in totaal zijn. De roosters groeien van een klein rooster van 2 bij 3 naar 3 bij 4, 2 bij 5, 4 bij 4 en 4 bij 3, zodat je kind steeds een ander vormpje rooster vult. Het is een interactieve rekenactiviteit voor groep 4 die direct in de browser speelt: niets installeren, geen account.",
-        "Het grote idee is dat een rechthoek van gelijke rijen op de snelle manier kan worden opgeteld. Terwijl je kind elke rij aantikt, groeit eronder een optelstrook mee — 4 + 4 + 4 — zodat het de vier drie keer geteld ziet in plaats van elke stip apart te tellen. Daarna typt het kind het totaal in op het toetsenblok. Die gelijke rijen als gelijke optellingen zien is precies de brug van optellen naar vermenigvuldigen.",
-        "De activiteit sluit aan bij de SLO-kerndoelen binnen het domein getallen en bewerkingen: het totaal van voorwerpen in een rooster van rijen en kolommen vinden door herhaald optellen, en dat totaal opschrijven als een som van gelijke getallen. Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Elke rij fruit op het bord zit aan één spies, dus een rij kan er alleen helemaal af. Het kind haalt de spiesen één voor één naar een rekje, en elke spies krijgt een vakje: drie spiesen met vier frambozen geven 4 + 4 + 4 = 12. Een tik op de spiezenpot rijgt de stokjes de andere kant op zonder dat er één stuk fruit beweegt, en hetzelfde bord geeft 3 + 3 + 3 + 3.",
+        "Rijen plus kolommen is de bekende vergissing: wie 7 typt voor 3 rijen van 4, ziet één rij en één kolom oplichten terwijl de rest knippert: precies wat er is opgeteld. Een vakje dat niet bij zijn spies past, wiebelt. Bij Bouwen maakt het kind het bord voor een som als 4 + 4 + 4; bij Zoeken kiest het het bord met 3 rijen van 4 tussen borden die één rij of één kolom verschillen. Grote roosters gaan tot 10 rijen van 10 met tegeltjes, en het eindigt met 3 × 4 = 12.",
+        "De oefening sluit aan bij de kerndoelen rekenen-wiskunde van SLO voor groep 4: het aantal in een rechthoekig rooster vinden door herhaald optellen en het als keersom schrijven. Ze werkt zonder geluid, zonder tijdsdruk en zonder score."
       ],
       "practices": [
-        "Een rechthoekig rooster vullen met gelijke rijen en kolommen",
-        "Het rooster lezen als herhaald optellen, zoals 4 + 4 + 4 = 12",
-        "Tellen met gelijke groepen in plaats van één voor één",
-        "Het totaal intypen dat past bij de rijen die je kind net heeft gebouwd"
+        "Het totaal van een rooster vinden door gelijke rijen op te tellen",
+        "Een rooster schrijven als som van gelijke getallen",
+        "Het rooster bouwen bij een herhaalde optelling",
+        "Het rooster kiezen dat rijen van een getal laat zien"
       ],
       "howToPlay": [
-        "Kijk welk rooster nodig is — bijvoorbeeld 3 rijen van 4 — en tik om elke rij te vullen.",
-        "Kijk hoe de optelstrook de gelijke rijen optelt en typ daarna in hoeveel het er samen zijn.",
-        "Nog niet goed? Probeer het zo vaak als je wilt — er is geen timer en geen score."
+        "Tik op een spies om hem naar het rekje te halen; tik hem daar aan om hem terug te leggen.",
+        "Typ hoeveel er aan elke spies zitten en hoeveel het samen zijn, en druk op ‘Controleer’.",
+        "In de instellingen kies je Tellen, Bouwen of Zoeken, en roosters tot 5 × 5 of grote roosters."
       ],
       "learningGoals": [
-        "Het kind vindt het totaal in een rooster door herhaald op te tellen.",
-        "Het kind ziet gelijke rijen als gelijke optellingen en schrijft de bijbehorende som.",
-        "Het kind legt de basis voor het vermenigvuldigen dat hieruit in latere groepen groeit."
+        "Het totaal van een rechthoekig rooster vinden door herhaald optellen.",
+        "Zien dat elke rij van een rooster evenveel heeft.",
+        "Rijen van een getal koppelen aan een keersom."
       ]
     },
     "choice-board.which-more.k-c-c-6": {

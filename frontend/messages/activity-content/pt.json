@@ -1163,25 +1163,25 @@
     },
     "array.build-array.2-oa-c-4": {
       "about": [
-        "Montar uma matriz retangular é o coração desta atividade: a criança preenche fileiras iguais, uma embaixo da outra, e depois descobre quantos pontinhos há no total. As rodadas começam pequenas, com uma matriz de 2 por 3, e vão crescendo para 3 por 4, 2 por 5, 4 por 4 e 4 por 3 — assim a criança preenche grades de tamanhos diferentes, sempre com fileiras certinhas. É uma atividade interativa de matemática para o 2º ano, que roda direto no navegador, sem instalar nada e sem precisar de conta.",
-        "A grande ideia é que um retângulo formado por fileiras iguais pode ser somado de um jeito rápido. Enquanto a criança toca para preencher cada fileira, uma tira de adição repetida vai se montando embaixo — 4 + 4 + 4 — então ela enxerga o quatro contado três vezes, em vez de contar ponto por ponto. Depois é só digitar o total no teclado numérico. Ver as fileiras iguais alinhadas como parcelas iguais é justamente a ponte que leva da adição para a multiplicação.",
-        "A atividade está alinhada à BNCC, na unidade temática Números, e à ideia de usar a adição de parcelas iguais para encontrar o total de objetos organizados em fileiras e colunas — o primeiro passo rumo à multiplicação. Sem cronômetro, sem pontuação: só prática tranquila e no tempo de cada criança."
+        "Cada fileira de frutas do prato está num espetinho, então uma fileira só sai inteira. A criança tira os espetinhos um por um para um suporte, e cada espetinho ganha um quadrinho: três espetinhos de quatro framboesas dão 4 + 4 + 4 = 12. Um toque no pote de palitos espeta as frutas ao contrário sem mexer em nenhuma, e o mesmo prato dá 3 + 3 + 3 + 3.",
+        "Fileiras mais colunas é o erro clássico: digitar 7 para 3 fileiras de 4 acende uma fileira e uma coluna, enquanto as outras piscam: exatamente o que foi somado. Um quadrinho que não combina com o espetinho balança. Em Montar, a criança monta o prato para uma conta como 4 + 4 + 4; em Encontrar, escolhe o prato de 3 fileiras de 4 entre pratos que mudam uma fileira ou uma coluna. As disposições grandes vão até 10 fileiras de 10 com quadradinhos, e o final mostra 3 × 4 = 12.",
+        "A atividade está de acordo com a BNCC, Matemática, 2º ano: contar os objetos de uma disposição retangular por adições de parcelas iguais e escrever como multiplicação. Funciona sem som, sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Preencher uma grade retangular como fileiras e colunas iguais.",
-        "Ler a matriz como uma adição repetida, do tipo 4 + 4 + 4 = 12.",
-        "Contar por grupos iguais em vez de contar de um em um para achar o total.",
-        "Digitar o total que corresponde às fileiras que a criança acabou de montar."
+        "Achar o total de uma disposição somando fileiras iguais",
+        "Escrever uma disposição como soma de parcelas iguais",
+        "Montar a disposição de uma adição de parcelas iguais",
+        "Escolher a disposição que mostra fileiras de um número"
       ],
       "howToPlay": [
-        "Olhe a matriz pedida — por exemplo, 3 fileiras de 4 — e toque para preencher cada fileira.",
-        "Acompanhe a tira de adição repetida somando as fileiras iguais e digite quantos pontinhos há no total no teclado numérico.",
-        "Não acertou? Toque em tentar de novo quantas vezes quiser — não tem cronômetro nem pontuação."
+        "Toque num espetinho para tirá-lo para o suporte; toque nele lá para colocá-lo de volta.",
+        "Digite quantos cada espetinho tem e quantos há no total, e aperte “Conferir”.",
+        "Nas configurações, escolha Contar, Montar ou Encontrar, e disposições até 5 × 5 ou disposições grandes."
       ],
       "learningGoals": [
-        "Encontrar o total de uma matriz retangular usando a adição repetida.",
-        "Perceber as fileiras iguais como parcelas iguais e escrever a soma correspondente.",
-        "Construir a base de grupos iguais de onde a multiplicação vai nascer nos anos seguintes."
+        "Achar o total de uma disposição retangular por adições de parcelas iguais.",
+        "Ver que cada fileira de uma disposição tem a mesma quantidade.",
+        "Ligar fileiras de um número a uma multiplicação."
       ]
     },
     "choice-board.which-more.k-c-c-6": {

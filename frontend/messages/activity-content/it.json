@@ -1667,25 +1667,25 @@
     },
     "array.build-array.2-oa-c-4": {
       "about": [
-        "Toccando una casella dopo l'altra, il bambino della classe seconda riempie uno schieramento rettangolare — righe uguali ben allineate in colonne — e poi conta quanti pallini ci sono in tutto. Si gioca direttamente nel browser, senza installare nulla e senza account. Le griglie crescono pian piano: si parte da un piccolo schieramento 2 per 3 e si arriva a 3 per 4, 2 per 5, 4 per 4 e 4 per 3, così il bambino riempie griglie ordinate di forme diverse.",
-        "L'idea importante è che un rettangolo fatto di righe uguali si può contare nel modo veloce. Mentre il bambino tocca per riempire ogni riga, sotto si forma la striscia dell'addizione ripetuta — 4 + 4 + 4 — così vede il quattro contato tre volte invece di contare ogni pallino a uno a uno. Poi scrive il totale sul tastierino. Vedere le righe allinearsi come addendi uguali è proprio il ponte che porta dall'addizione alla moltiplicazione.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: usare l'addizione per trovare quanti oggetti sono disposti in righe e colonne e scrivere l'operazione come somma di addendi uguali. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
+        "Ogni riga di frutta del piatto è infilata su uno spiedino, quindi una riga esce solo intera. Il bambino toglie gli spiedini uno alla volta in un portaspiedini, e ogni spiedino riceve una casella: tre spiedini da quattro lamponi danno 4 + 4 + 4 = 12. Un tocco sul vasetto degli stecchi infila gli stecchi dall’altra parte senza spostare un solo frutto, e lo stesso piatto dà 3 + 3 + 3 + 3.",
+        "Righe più colonne è l’errore classico: scrivere 7 per 3 righe da 4 accende una riga e una colonna mentre gli altri lampeggiano: proprio quello che è stato sommato. Una casella che non corrisponde al suo spiedino traballa. In Costruire il bambino prepara il piatto per un calcolo come 4 + 4 + 4; in Trovare sceglie il piatto da 3 righe da 4 tra piatti che cambiano di una riga o di una colonna. Gli schieramenti grandi arrivano a 10 righe da 10 con quadratini, e alla fine compare 3 × 4 = 12.",
+        "L’attività segue le Indicazioni nazionali per la classe seconda, matematica: contare gli oggetti di uno schieramento con l’addizione ripetuta e scriverlo come moltiplicazione. Funziona senza audio, senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Riempire una griglia rettangolare come righe e colonne uguali.",
-        "Leggere lo schieramento come addizione ripetuta, ad esempio 4 + 4 + 4 = 12.",
-        "Contare per gruppi uguali invece che a uno a uno per trovare il totale.",
-        "Scrivere il totale che corrisponde alle righe appena costruite."
+        "Trovare il totale di uno schieramento sommando righe uguali",
+        "Scrivere uno schieramento come somma di addendi uguali",
+        "Costruire lo schieramento di un’addizione ripetuta",
+        "Scegliere lo schieramento che mostra righe di un numero"
       ],
       "howToPlay": [
-        "Il bambino guarda lo schieramento richiesto — per esempio 3 righe da 4 — e tocca per riempire ogni riga.",
-        "Osserva la striscia dell'addizione ripetuta che somma le righe uguali, poi scrive sul tastierino quanti sono in tutto.",
-        "Non è giusto? Si può riprovare quante volte si vuole, senza timer e senza punteggio."
+        "Tocca uno spiedino per toglierlo e metterlo nel portaspiedini; toccalo lì per rimetterlo.",
+        "Scrivi quanti ne porta ogni spiedino e quanti sono in tutto, poi premi «Controlla».",
+        "Nelle impostazioni scegli Contare, Costruire o Trovare, e schieramenti fino a 5 × 5 o schieramenti grandi."
       ],
       "learningGoals": [
-        "Trovare il totale in uno schieramento rettangolare usando l'addizione ripetuta.",
-        "Vedere le righe uguali come addendi uguali e scrivere la somma corrispondente.",
-        "Costruire le basi dei gruppi uguali da cui nascerà la moltiplicazione negli anni successivi."
+        "Trovare il totale di uno schieramento con l’addizione ripetuta.",
+        "Vedere che ogni riga di uno schieramento ha lo stesso numero.",
+        "Collegare righe di un numero a una moltiplicazione."
       ]
     },
     "choice-board.which-more.k-c-c-6": {

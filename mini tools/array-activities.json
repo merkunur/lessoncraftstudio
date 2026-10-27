@@ -1,7 +1,7 @@
 [
   {
     "id": "array.build-array.2-oa-c-4",
-    "tool": "array-activity",
+    "tool": "skewer-plate-activity",
     "task_template": "build-array",
     "alignment": {
       "framework": "CCSS",
@@ -10,48 +10,21 @@
       "strand": "Operations & Algebraic Thinking"
     },
     "params": {
-      "rounds": [
-        {
-          "rows": 2,
-          "cols": 3,
-          "seed": 11
-        },
-        {
-          "rows": 3,
-          "cols": 4,
-          "seed": 23
-        },
-        {
-          "rows": 4,
-          "cols": 2,
-          "seed": 31
-        },
-        {
-          "rows": 2,
-          "cols": 5,
-          "seed": 41
-        },
-        {
-          "rows": 3,
-          "cols": 3,
-          "seed": 53
-        },
-        {
-          "rows": 5,
-          "cols": 2,
-          "seed": 61
-        },
-        {
-          "rows": 4,
-          "cols": 4,
-          "seed": 67
-        },
-        {
-          "rows": 4,
-          "cols": 3,
-          "seed": 71
-        }
-      ]
+      "job": [
+        "count",
+        "build",
+        "find"
+      ],
+      "size": [
+        "pics",
+        "big"
+      ],
+      "rounds": {
+        "count": 9,
+        "build": 9,
+        "find": 9,
+        "big": 9
+      }
     },
     "theme": null,
     "slug": {

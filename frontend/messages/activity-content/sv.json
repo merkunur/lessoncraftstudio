@@ -499,25 +499,25 @@
     },
     "array.build-array.2-oa-c-4": {
       "about": [
-        "Här bygger barnet ett rutnät av lika rader — först en liten 2 gånger 3, sedan större rutnät som 3 gånger 4, 2 gånger 5, 4 gånger 4 och 4 gånger 3. Barnet trycker för att fylla varje rad med prickar och räknar sedan ut hur många prickar det blir tillsammans. Allt sker direkt i webbläsaren, utan konto.",
-        "Den stora idén är att ett rutnät med lika rader kan räknas det snabba sättet. När barnet fyller raderna byggs en remsa med upprepad addition under rutnätet — till exempel 4 + 4 + 4 — så att barnet ser fyran räknad tre gånger i stället för att räkna varje prick för sig. Sedan skriver barnet totalsumman på knappsatsen. Att se raderna som lika stora termer är precis den bro som leder från addition vidare till multiplikation.",
-        "Aktiviteten följer Lgr22 inom området taluppfattning och algebra: att använda addition för att räkna ut antalet föremål i ett rutnät av rader och kolumner, och att skriva en summa av lika stora termer. Den här interaktiva övningen passar bäst för årskurs 2. Ingen timer, inga poäng — bara lugn, lekfull träning."
+        "Varje rad frukt på tallriken sitter på ett grillspett, så en rad kan bara lyftas av hel. Barnet lyfter av spetten ett i taget till ett ställ, och varje spett får en ruta: tre spett med fyra hallon blir 4 + 4 + 4 = 12. Ett tryck på spettburken trär stickorna åt andra hållet utan att en enda frukt flyttas, och samma tallrik blir 3 + 3 + 3 + 3.",
+        "Rader plus kolumner är det vanliga felet: den som skriver 7 för 3 rader med 4 ser en rad och en kolumn lysa medan resten blinkar: precis det som lades ihop. En ruta som inte stämmer med sitt spett vickar. I Bygga gör barnet tallriken för en addition som 4 + 4 + 4; i Hitta väljer barnet tallriken med 3 rader med 4 bland tallrikar som skiljer sig med en rad eller en kolumn. Stora rektanglar går upp till 10 rader med 10 med plattor, och det slutar med 3 · 4 = 12.",
+        "Övningen följer Lgr22, matematik i årskurs 1 till 3, taluppfattning och tals användning: hitta antalet i en rektangel genom upprepad addition och skriva det som multiplikation. Den fungerar utan ljud, utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Fylla ett rutnät med lika många i varje rad och kolumn",
-        "Läsa rutnätet som upprepad addition, till exempel 4 + 4 + 4 = 12",
-        "Räkna med lika stora grupper i stället för en och en",
-        "Skriva totalsumman som stämmer med de rader barnet just byggt"
+        "Hitta antalet i en rektangel genom att addera lika rader",
+        "Skriva en rektangel som en summa av lika termer",
+        "Bygga rektangeln till en upprepad addition",
+        "Välja rektangeln som visar rader med ett tal"
       ],
       "howToPlay": [
-        "Titta på vilket rutnät som behövs — till exempel 3 rader med 4 — och tryck för att fylla varje rad.",
-        "Se hur remsan med upprepad addition lägger ihop de lika raderna, och skriv sedan hur många det blir tillsammans på knappsatsen.",
-        "Blev det inte rätt? Försök igen så många gånger du vill — det finns ingen timer och inga poäng."
+        "Tryck på ett spett för att lyfta det till stället; tryck på det där för att lägga tillbaka det.",
+        "Skriv hur många varje spett har och hur många det är sammanlagt, och tryck på Kolla.",
+        "I inställningarna väljer du Räkna, Bygga eller Hitta, och rektanglar upp till 5 · 5 eller stora rektanglar."
       ],
       "learningGoals": [
-        "Barnet kan räkna ut totalsumman i ett rutnät med hjälp av upprepad addition",
-        "Barnet ser lika rader som lika stora termer och kan skriva summan som passar",
-        "Barnet bygger den grund med lika stora grupper som multiplikation senare växer ur"
+        "Hitta antalet i en rektangel genom upprepad addition.",
+        "Se att varje rad i en rektangel har lika många.",
+        "Koppla rader med ett tal till en multiplikation."
       ]
     },
     "choice-board.which-more.k-c-c-6": {

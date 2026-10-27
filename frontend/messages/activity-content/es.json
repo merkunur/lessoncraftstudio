@@ -2723,25 +2723,25 @@
     },
     "array.build-array.2-oa-c-4": {
       "about": [
-        "Aquí el niño o la niña arma un arreglo rectangular: filas iguales acomodadas en columnas, como una cuadrícula ordenada de puntos. Empieza con un arreglo pequeño de 2 por 3 y va creciendo a 3 por 4, 2 por 5, 4 por 4 y 4 por 3, así que cada ronda llena una cuadrícula de distinta forma. Es una actividad interactiva de matemáticas para segundo de primaria que funciona en el navegador, sin descargar nada y sin crear cuenta.",
-        "La idea clave es que un rectángulo de filas iguales se puede sumar de la manera rápida. Conforme tu hijo o hija toca para llenar cada fila, abajo se va formando una tira de suma repetida —por ejemplo 4 + 4 + 4— para que vea cuatro contado tres veces, en lugar de contar punto por punto. Después escribe el total en el teclado numérico. Ver las filas alineadas como sumandos iguales es justo el puente que lleva de la suma hacia la multiplicación, un trabajo propio de segundo grado.",
-        "Está alineada con los planes y programas de estudio (SEP), en el eje de pensamiento numérico: hallar el total de objetos en un arreglo de filas y columnas con suma repetida. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada quien avance con calma."
+        "Cada fila de fruta del plato está ensartada en una brocheta, así que una fila solo sale entera. El niño saca las brochetas una por una a un soporte, y cada brocheta recibe una casilla: tres brochetas de cuatro frambuesas dan 4 + 4 + 4 = 12. Un toque en el vaso de palitos ensarta los palitos al revés sin mover ni una fruta, y el mismo plato da 3 + 3 + 3 + 3.",
+        "Filas más columnas es el error típico: escribir 7 para 3 filas de 4 ilumina una fila y una columna mientras las demás parpadean: justo lo que se sumó. Una casilla que no coincide con su brocheta se tambalea. En Armar, el niño arma el plato para una suma como 4 + 4 + 4; en Encontrar, elige el plato de 3 filas de 4 entre platos que cambian una fila o una columna. Los arreglos grandes llegan a 10 filas de 10 con cuadritos, y al final aparece 3 × 4 = 12.",
+        "La actividad está alineada con los programas de estudio de segundo grado de primaria, campo formativo Saberes y Pensamiento Científico: contar los objetos de un arreglo rectangular con sumas repetidas y escribirlo como multiplicación. Funciona sin sonido, sin reloj y sin puntaje."
       ],
       "practices": [
-        "Llenar una cuadrícula rectangular como filas y columnas iguales.",
-        "Leer el arreglo como una suma repetida, por ejemplo 4 + 4 + 4 = 12.",
-        "Contar por grupos iguales en lugar de contar de uno en uno para hallar el total.",
-        "Escribir el total que corresponde a las filas que acabas de armar."
+        "Encontrar el total de un arreglo sumando filas iguales",
+        "Escribir un arreglo como una suma de sumandos iguales",
+        "Armar el arreglo de una suma repetida",
+        "Elegir el arreglo que muestra filas de un número"
       ],
       "howToPlay": [
-        "Mira el arreglo que se pide —por ejemplo, 3 filas de 4— y toca para llenar cada fila.",
-        "Observa cómo la tira de suma repetida junta las filas iguales y luego escribe en el teclado cuántos puntos hay en total.",
-        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntuación."
+        "Toca una brocheta para sacarla al soporte; tócala ahí para regresarla.",
+        "Escribe cuántas tiene cada brocheta y cuántas hay en total, y presiona «Comprobar».",
+        "En los ajustes elige Contar, Armar o Encontrar, y arreglos hasta 5 × 5 o arreglos grandes."
       ],
       "learningGoals": [
-        "Tu hijo o hija puede hallar el total de un arreglo rectangular usando la suma repetida.",
-        "El niño o la niña aprende a ver las filas iguales como sumandos iguales y a escribir la suma que les corresponde.",
-        "Empieza a construir la base de los grupos iguales, de donde nace la multiplicación en grados posteriores."
+        "Encontrar el total de un arreglo rectangular con sumas repetidas.",
+        "Ver que cada fila de un arreglo tiene la misma cantidad.",
+        "Relacionar filas de un número con una multiplicación."
       ]
     },
     "choice-board.which-more.k-c-c-6": {

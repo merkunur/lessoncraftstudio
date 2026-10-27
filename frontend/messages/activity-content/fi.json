@@ -386,25 +386,25 @@
     },
     "array.build-array.2-oa-c-4": {
       "about": [
-        "Lapsi rakentaa suorakulmaisen taulukon — yhtä pitkät rivit allekkain sarakkeiksi — ja selvittää sitten, montako pistettä taulukossa on yhteensä. Tehtävä toimii suoraan selaimessa, ilman asennuksia ja ilman rekisteröitymistä, ja se on vuorovaikutteinen 2. luokan matematiikkatehtävä.",
-        "Tärkein ajatus on, että yhtä suurista riveistä koostuva suorakulmio voidaan laskea nopealla tavalla. Kun lapsi napauttaa rivin täyteen, alapuolelle rakentuu toistuvan yhteenlaskun nauha — esimerkiksi 4 + 4 + 4 — joten neljä tulee lasketuksi kolme kertaa sen sijaan, että jokainen piste laskettaisiin yksitellen. Lopuksi lapsi kirjoittaa yhteismäärän näppäimistöllä. Kierrokset kasvavat pienestä 2×3-taulukosta aina 3×4-, 2×5-, 4×4- ja 4×3-taulukoihin, joten lapsi täyttää siistejä, eri muotoisia ruudukoita.",
-        "Tehtävä on OPS 2014:n mukainen ja kuuluu lukujen ja laskutoimitusten osa-alueeseen 2. luokalla — yhtä suuret rivit nähdään yhtä suurina yhteenlaskettavina, mikä on juuri se silta yhteenlaskusta kohti kertolaskua. Lapsi saa edetä rauhassa: ei ajastinta, ei pisteitä."
+        "Lautasen jokainen hedelmärivi on pujotettu yhteen vartaaseen, joten rivi voi lähteä pois vain kokonaisena. Lapsi nostaa vartaat yksi kerrallaan telineeseen, ja jokainen varras saa ruudun: kolme varrasta, joissa kussakin on neljä vadelmaa, antaa 4 + 4 + 4 = 12. Kun lapsi napauttaa varraspurkkia, tikut pujotetaan toisin päin eikä yksikään hedelmä liiku, ja sama lautanen antaa 3 + 3 + 3 + 3.",
+        "Rivit plus sarakkeet on tavallinen virhe: kun 3 riville, joissa kussakin on 4, kirjoittaa 7, yksi rivi ja yksi sarake syttyvät ja muut vilkkuvat: juuri ne, jotka laskettiin yhteen. Ruutu, joka ei sovi vartaaseensa, heiluu. Rakenna-tehtävässä lapsi kokoaa lautasen laskulle kuten 4 + 4 + 4; Etsi-tehtävässä lapsi valitsee lautasen, jossa on 3 riviä ja kussakin 4, lautasista, jotka eroavat yhdellä rivillä tai sarakkeella. Isot suorakulmiot ulottuvat 10 riviin, joissa kussakin on 10, ja lopuksi näkyy 3 · 4 = 12.",
+        "Tehtävä sopii OPS 2014:n matematiikan tavoitteisiin 2. luokalla: suorakulmion lukumäärän löytäminen toistuvalla yhteenlaskulla ja sen kirjoittaminen kertolaskuna. Se toimii ilman ääntä, ilman ajanottoa ja ilman pisteitä."
       ],
       "practices": [
-        "Täyttää suorakulmaisen ruudukon yhtä suuriksi riveiksi ja sarakkeiksi.",
-        "Lukee taulukon toistuvana yhteenlaskuna, kuten 4 + 4 + 4 = 12.",
-        "Laskee yhtä suurissa ryhmissä yksittäisten pisteiden sijaan.",
-        "Kirjoittaa yhteismäärän, joka vastaa juuri rakennettuja rivejä."
+        "Löytää suorakulmion lukumäärä laskemalla yhtä suuret rivit yhteen",
+        "Kirjoittaa suorakulmio yhtä suurten lukujen summana",
+        "Rakentaa suorakulmio toistuvalle yhteenlaskulle",
+        "Valita suorakulmio, joka näyttää luvun rivit"
       ],
       "howToPlay": [
-        "Katso, millaisen taulukon tehtävä pyytää — esimerkiksi 3 riviä, joissa kummassakin on 4 pistettä — ja napauta jokainen rivi täyteen.",
-        "Seuraa, miten toistuvan yhteenlaskun nauha laskee yhtä suuret rivit yhteen, ja kirjoita sitten näppäimistöllä, montako pistettä on yhteensä.",
-        "Menikö pieleen? Voit yrittää uudelleen niin monta kertaa kuin haluat — ei ajastinta eikä pisteitä."
+        "Napauta varrasta, niin se nousee telineeseen; napauta sitä telineessä, niin se palaa lautaselle.",
+        "Kirjoita, montako kussakin vartaassa on ja montako yhteensä, ja paina Tarkista.",
+        "Asetuksista valitset Laske, Rakenna tai Etsi sekä suorakulmiot 5 · 5:een asti tai isot suorakulmiot."
       ],
       "learningGoals": [
-        "Lapsi osaa selvittää suorakulmaisen taulukon yhteismäärän toistuvalla yhteenlaskulla.",
-        "Lapsi näkee yhtä suuret rivit yhtä suurina yhteenlaskettavina ja kirjoittaa niitä vastaavan summan.",
-        "Lapsi rakentaa yhtä suurten ryhmien pohjan, jolle kertolasku myöhemmillä luokilla rakentuu."
+        "Löytää suorakulmion lukumäärä toistuvalla yhteenlaskulla.",
+        "Huomata, että suorakulmion jokaisessa rivissä on yhtä monta.",
+        "Yhdistää luvun rivit kertolaskuun."
       ]
     },
     "choice-board.which-more.k-c-c-6": {

@@ -386,25 +386,25 @@
     },
     "array.build-array.2-oa-c-4": {
       "about": [
-        "Et gitter med lige store rækker er en rolig matematikaktivitet, som barnet kan spille direkte i browseren — interaktivt og uden oprettelse. Barnet bygger et rektangulært gitter af prikker i lige store rækker og kolonner og finder så ud af, hvor mange der er i alt. Runderne vokser fra et lille gitter på 2 gange 3 og videre op gennem 3 gange 4, 2 gange 5, 4 gange 4 og 4 gange 3, så barnet fylder pæne gitre i forskellige størrelser.",
-        "Den store idé er, at et rektangel med lige store rækker kan lægges sammen den hurtige vej. Efterhånden som barnet trykker rækkerne fulde, bygges en stribe med gentagen addition nedenunder — for eksempel 4 + 4 + 4 — så barnet ser fire talt tre gange i stedet for at tælle hver eneste prik for sig. Bagefter skriver barnet svaret på tastaturet. At se rækkerne stå op som lige store led er netop broen fra plus til gange.",
-        "Aktiviteten følger Fælles Mål for matematik i 2. klasse: at bruge plus til at finde det samlede antal i et gitter af rækker og kolonner og skrive et regnestykke, der viser tallet som en sum af lige store led. Der er ingen tid og ingen point — bare rolig, legende træning i barnets eget tempo."
+        "Hver række frugt på tallerkenen sidder på ét grillspyd, så en række kan kun komme af hel. Barnet løfter spydene af ét ad gangen over i et stativ, og hvert spyd får en boks: tre spyd med fire hindbær giver 4 + 4 + 4 = 12. Et tryk på spydkrukken sætter pindene den anden vej uden at flytte et eneste stykke frugt, og den samme tallerken giver 3 + 3 + 3 + 3.",
+        "Rækker plus kolonner er den klassiske fejl: den, der skriver 7 for 3 rækker med 4, ser én række og én kolonne lyse, mens resten blinker: præcis det, der blev lagt sammen. En boks, der ikke passer til sit spyd, vipper. I Bygge laver barnet tallerkenen til et regnestykke som 4 + 4 + 4; i Finde vælger barnet tallerkenen med 3 rækker med 4 blandt tallerkener, der adskiller sig med én række eller én kolonne. Store rektangler går op til 10 rækker med 10 med fliser, og det ender med 3 · 4 = 12.",
+        "Øvelsen følger Fælles Mål for matematik i 2. klasse, tal og regneoperationer: finde antallet i et rektangel ved gentagen addition og skrive det som gange. Den virker uden lyd, uden tidtagning og uden point."
       ],
       "practices": [
-        "Fylde et rektangulært gitter med lige store rækker og kolonner",
-        "Læse gitteret som gentagen addition, for eksempel 4 + 4 + 4 = 12",
-        "Tælle i lige store grupper i stedet for én ad gangen for at finde det samlede antal",
-        "Skrive det tal i alt, der passer til de rækker, barnet lige har bygget"
+        "Finde antallet i et rektangel ved at lægge lige rækker sammen",
+        "Skrive et rektangel som en sum af ens tal",
+        "Bygge rektanglet til en gentagen addition",
+        "Vælge det rektangel, der viser rækker med et tal"
       ],
       "howToPlay": [
-        "Se på det gitter, der skal bygges — for eksempel 3 rækker med 4 i hver — og tryk for at fylde hver række.",
-        "Følg med, mens striben lægger de lige store rækker sammen, og skriv så, hvor mange der er i alt, på tastaturet.",
-        "Passer det ikke? Prøv igen, så mange gange du vil — der er ingen tid og ingen point."
+        "Tryk på et spyd for at løfte det over i stativet; tryk på det der for at sætte det tilbage.",
+        "Skriv, hvor mange hvert spyd har, og hvor mange der er i alt, og tryk på Tjek.",
+        "I indstillingerne vælger du Tælle, Bygge eller Finde, og rektangler op til 5 · 5 eller store rektangler."
       ],
       "learningGoals": [
-        "Barnet kan finde det samlede antal i et gitter ved hjælp af gentagen addition",
-        "Barnet kan se lige store rækker som lige store led og skrive det regnestykke, der passer",
-        "Barnet bygger det grundlag af lige store grupper, som gangestykker senere vokser ud af"
+        "Finde antallet i et rektangel ved gentagen addition.",
+        "Se, at hver række i et rektangel har lige mange.",
+        "Forbinde rækker med et tal med et gangestykke."
       ]
     },
     "choice-board.which-more.k-c-c-6": {

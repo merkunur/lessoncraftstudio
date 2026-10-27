@@ -3168,26 +3168,25 @@
     },
     "array.build-array.2-oa-c-4": {
       "about": [
-        "Bei dieser Aktivität baut ein Kind ein rechteckiges Gitter aus gleich langen Reihen und findet dann heraus, wie viele Punkte es insgesamt sind. Die Runden wachsen von einem kleinen Gitter mit 2 mal 3 über 3 mal 4, 2 mal 5 und 4 mal 4 bis 4 mal 3 – so füllt das Kind ordentliche Gitter in verschiedenen Formen. Sie läuft interaktiv direkt im Browser, ohne Installation und ohne Anmeldung.",
-        "Die wichtige Idee: Ein Rechteck aus gleich langen Reihen lässt sich auf dem schnellen Weg zusammenzählen. Während das Kind Reihe für Reihe antippt und füllt, entsteht darunter ein Streifen mit wiederholter Addition – zum Beispiel 4 + 4 + 4 – so sieht es die Vier dreimal gezählt statt jeden Punkt einzeln. Danach tippt es die Gesamtzahl auf dem Zahlenfeld ein. Gleich lange Reihen als gleiche Summanden zu erkennen, ist genau die Brücke von der Addition zum Einmaleins in der 2. Klasse.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Operationen ausgerichtet – mit Addition die Gesamtzahl von Objekten in einem rechteckigen Gitter aus Reihen und Spalten bestimmen und sie als Summe gleicher Summanden aufschreiben. Es gibt keinen Timer und keine Punktewertung – nur ruhiges, spielerisches Üben."
+        "Jede Obstreihe auf dem Teller steckt auf einem Spieß, also kommt eine Reihe nur ganz heraus. Das Kind zieht die Spieße einen nach dem anderen in einen Ständer, und jeder Spieß bekommt ein Kästchen: Drei Spieße mit je vier Himbeeren ergeben 4 + 4 + 4 = 12. Ein Tipp auf den Spießbecher steckt die Stäbe andersherum, ohne dass sich ein Stück Obst bewegt, und derselbe Teller zeigt 3 + 3 + 3 + 3.",
+        "Reihen plus Spalten ist der typische Fehler: Wer für 3 Reihen mit je 4 die 7 eintippt, sieht eine Reihe und eine Spalte leuchten, während die anderen blinken: Genau die hat es addiert. Ein Kästchen, das nicht zu seinem Spieß passt, wackelt. Beim Legen baut das Kind den Teller für eine Aufgabe wie 4 + 4 + 4; beim Finden wählt es den Teller mit 3 Reihen mit je 4 unter Tellern, die sich um eine Reihe oder eine Spalte unterscheiden. Große Felder gehen bis 10 Reihen mit je 10 aus quadratischen Plättchen, und am Ende steht der Satz 3 · 4 = 12.",
+        "Die Übung passt zum Bereich „Zahlen und Operationen“ des Lehrplans der Grundschule, Klasse 2: Punktefelder durch wiederholtes Addieren zählen und als Malaufgabe schreiben. Sie funktioniert ohne Ton, ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "Ein rechteckiges Gitter als gleich lange Reihen und Spalten füllen.",
-        "Das Gitter als wiederholte Addition lesen, etwa 4 + 4 + 4 = 12.",
-        "In gleichen Gruppen statt einzeln zählen, um die Gesamtzahl zu finden.",
-        "Die Gesamtzahl eingeben, die zu den eben gebauten Reihen passt.",
-        "Verschiedene Gitterformen wie 2 mal 5 und 4 mal 4 sicher unterscheiden."
+        "Die Anzahl in einem Feld durch Addieren gleicher Reihen finden",
+        "Ein Feld als Summe gleicher Zahlen schreiben",
+        "Das Feld zu einer wiederholten Addition legen",
+        "Das Feld finden, das Reihen mit je einer Zahl zeigt"
       ],
       "howToPlay": [
-        "Schau dir an, welches Gitter gebraucht wird – zum Beispiel 3 Reihen mit je 4 – und tippe, um jede Reihe zu füllen.",
-        "Beobachte, wie der Streifen die gleich langen Reihen zusammenzählt, und tippe dann auf dem Zahlenfeld ein, wie viele es insgesamt sind.",
-        "Noch nicht ganz richtig? Probiere es so oft, wie du möchtest – es gibt keinen Timer und keine Punktewertung."
+        "Tippe einen Spieß an, um ihn in den Ständer zu ziehen; tippe ihn dort an, um ihn zurückzustecken.",
+        "Tippe ein, wie viele auf jedem Spieß stecken und wie viele es insgesamt sind, und drücke auf „Prüfen“.",
+        "In den Einstellungen wählst du Zählen, Legen oder Finden und Felder bis 5 · 5 oder große Felder."
       ],
       "learningGoals": [
-        "Die Gesamtzahl in einem rechteckigen Gitter mit wiederholter Addition finden.",
-        "Gleich lange Reihen als gleiche Summanden sehen und die passende Summe aufschreiben.",
-        "Das Verständnis gleicher Gruppen aufbauen, aus dem in späteren Klassen das Einmaleins erwächst."
+        "Die Anzahl in einem rechteckigen Feld durch wiederholtes Addieren finden.",
+        "Erkennen, dass jede Reihe eines Feldes gleich viele hat.",
+        "Reihen mit je einer Zahl mit einer Malaufgabe verbinden."
       ]
     },
     "choice-board.which-more.k-c-c-6": {

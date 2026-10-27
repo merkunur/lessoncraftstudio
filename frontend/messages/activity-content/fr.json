@@ -2544,24 +2544,25 @@
     },
     "array.build-array.2-oa-c-4": {
       "about": [
-        "L'enfant construit un quadrillage rectangulaire — des rangées égales alignées en colonnes — puis cherche combien il y a de jetons en tout. Les manches partent d'un petit quadrillage de 2 sur 3 et grandissent vers 3 sur 4, 2 sur 5, 4 sur 4 et 4 sur 3, si bien qu'on remplit des grilles bien rangées de tailles différentes. C'est une activité de mathématiques de CE1, interactive, qui se joue directement dans le navigateur, sans rien installer et sans inscription.",
-        "La grande idée, c'est qu'un rectangle de rangées égales peut s'additionner de façon rapide. À mesure que l'enfant touche pour remplir chaque rangée, une bande d'addition répétée se construit en dessous — 4 + 4 + 4 — pour qu'il voie « quatre, compté trois fois » plutôt que de compter chaque jeton un par un. Il tape ensuite le total sur le clavier. Voir les rangées s'aligner comme des termes égaux, c'est exactement le pont entre l'addition et la multiplication. L'activité est alignée sur les programmes officiels, dans le domaine du calcul : ni minuteur, ni score, juste un entraînement calme et ludique."
+        "Chaque rangée de fruits de l’assiette est enfilée sur une brochette : une rangée ne peut sortir qu’entière. L’enfant retire les brochettes une à une vers un présentoir, et chaque brochette reçoit une case : trois brochettes de quatre framboises donnent 4 + 4 + 4 = 12. Un toucher sur le pot à piques enfile les bâtons dans l’autre sens sans déplacer un seul fruit, et la même assiette donne 3 + 3 + 3 + 3.",
+        "Rangées plus colonnes, c’est l’erreur classique : taper 7 pour 3 rangées de 4 allume une rangée et une colonne pendant que les autres clignotent : c’est exactement ce qui a été additionné. Une case qui ne correspond pas à sa brochette tremble. En Construire, l’enfant fait l’assiette d’un calcul comme 4 + 4 + 4 ; en Trouver, il choisit l’assiette de 3 rangées de 4 parmi des assiettes qui diffèrent d’une rangée ou d’une colonne. Les grands tableaux vont jusqu’à 10 rangées de 10 avec des carreaux, et la réussite se termine par 3 × 4 = 12.",
+        "L’activité suit les programmes officiels du cycle 2 (CE1) pour le calcul : trouver le nombre d’objets d’une disposition rectangulaire par addition itérée, puis l’écrire comme une multiplication. Elle fonctionne sans le son, sans chronomètre et sans score."
       ],
       "practices": [
-        "Remplir un quadrillage rectangulaire en rangées et colonnes égales.",
-        "Lire le quadrillage comme une addition répétée, par exemple 4 + 4 + 4 = 12.",
-        "Compter par groupes égaux au lieu de compter un par un pour trouver un total.",
-        "Taper le total qui correspond aux rangées que l'enfant vient de construire."
+        "Trouver le total d’un tableau en additionnant des rangées égales",
+        "Écrire un tableau comme une somme de termes égaux",
+        "Construire le tableau d’une addition itérée",
+        "Choisir le tableau qui montre des rangées d’un nombre"
       ],
       "howToPlay": [
-        "Regarde le quadrillage demandé — par exemple 3 rangées de 4 — et touche pour remplir chaque rangée.",
-        "Observe la bande d'addition répétée qui additionne les rangées égales, puis tape combien il y en a en tout sur le clavier.",
-        "Pas tout à fait ? Recommence autant de fois que tu veux : il n'y a ni minuteur, ni score."
+        "Touche une brochette pour la retirer vers le présentoir ; touche-la là-bas pour la remettre.",
+        "Tape combien porte chaque brochette et combien il y en a en tout, puis appuie sur « Vérifier ».",
+        "Dans les réglages, choisis Compter, Construire ou Trouver, et des tableaux jusqu’à 5 × 5 ou de grands tableaux."
       ],
       "learningGoals": [
-        "Trouver le total d'un quadrillage rectangulaire grâce à l'addition répétée.",
-        "Voir les rangées égales comme des termes égaux et écrire la somme correspondante.",
-        "Construire la base des groupes égaux d'où naîtra la multiplication dans les classes suivantes."
+        "Trouver le total d’une disposition rectangulaire par addition itérée.",
+        "Voir que chaque rangée d’un tableau contient autant d’objets.",
+        "Relier des rangées d’un nombre à une multiplication."
       ]
     },
     "choice-board.which-more.k-c-c-6": {

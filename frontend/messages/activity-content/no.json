@@ -386,25 +386,25 @@
     },
     "array.build-array.2-oa-c-4": {
       "about": [
-        "Her bygger barnet et rektangulært rutenett av like rader og finner ut hvor mange ruter det er til sammen ved hjelp av gjentatt addisjon. Rundene starter med et lite rutenett på 2 ganger 3 og vokser videre til 3 ganger 4, 2 ganger 5, 4 ganger 4 og 4 ganger 3, så barnet fyller ryddige rutenett av ulike størrelser. Alt skjer i nettleseren — ingen nedlasting, ingen konto.",
-        "Den store ideen er at et rektangel av like rader kan legges sammen på den raske måten. Mens barnet trykker for å fylle hver rad, bygges det en stripe med gjentatt addisjon under — for eksempel 4 + 4 + 4 — slik at barnet ser fire talt tre ganger i stedet for å telle hver eneste rute for seg. Deretter skriver barnet inn summen på tastaturet. Å se radene stilt opp som like ledd er nettopp broen fra addisjon over til multiplikasjon.",
-        "Aktiviteten følger LK20 innenfor tall og algebra — å bruke addisjon til å finne det totale antallet i et rektangulært rutenett av rader og kolonner, og å skrive et regnestykke som uttrykker summen som et tillegg av like ledd. Den passer for 2. trinn. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "Hver rad frukt på tallerkenen sitter på ett grillspyd, så en rad kan bare komme av hel. Barnet løfter spydene av ett om gangen over i et stativ, og hvert spyd får en rute: tre spyd med fire bringebær gir 4 + 4 + 4 = 12. Et trykk på spydkrukken setter pinnene andre veien uten å flytte et eneste stykke frukt, og den samme tallerkenen gir 3 + 3 + 3 + 3.",
+        "Rader pluss kolonner er den klassiske feilen: den som skriver 7 for 3 rader med 4, ser én rad og én kolonne lyse mens resten blinker: akkurat det som ble lagt sammen. En rute som ikke passer til spydet sitt, vipper. I Bygge lager barnet tallerkenen til et regnestykke som 4 + 4 + 4; i Finne velger barnet tallerkenen med 3 rader med 4 blant tallerkener som skiller seg med én rad eller én kolonne. Store rektangler går opp til 10 rader med 10 med fliser, og det slutter med 3 · 4 = 12.",
+        "Øvelsen følger LK20, matematikk etter 2. trinn, tall og regning: finne antallet i et rektangel ved gjentatt addisjon og skrive det som multiplikasjon. Den virker uten lyd, uten tidtaking og uten poeng."
       ],
       "practices": [
-        "Fylle et rektangulært rutenett som like rader og kolonner.",
-        "Lese rutenettet som gjentatt addisjon, for eksempel 4 + 4 + 4 = 12.",
-        "Telle i like grupper i stedet for én og én for å finne summen.",
-        "Skrive inn summen som stemmer med radene barnet nettopp bygde."
+        "Finne antallet i et rektangel ved å legge sammen like rader",
+        "Skrive et rektangel som en sum av like tall",
+        "Bygge rektangelet til en gjentatt addisjon",
+        "Velge rektangelet som viser rader med et tall"
       ],
       "howToPlay": [
-        "Se på rutenettet som skal bygges — for eksempel 3 rader med 4 — og trykk for å fylle hver rad.",
-        "Følg med når stripen legger sammen de like radene, og skriv inn hvor mange det er til sammen på tastaturet.",
-        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+        "Trykk på et spyd for å løfte det over i stativet; trykk på det der for å sette det tilbake.",
+        "Skriv hvor mange hvert spyd har og hvor mange det er til sammen, og trykk på Sjekk.",
+        "I innstillingene velger du Telle, Bygge eller Finne, og rektangler opp til 5 · 5 eller store rektangler."
       ],
       "learningGoals": [
-        "Barnet kan finne summen i et rektangulært rutenett ved hjelp av gjentatt addisjon.",
-        "Barnet ser like rader som like ledd og kan skrive den summen som passer.",
-        "Barnet bygger forståelsen av like grupper som multiplikasjon senere vokser ut av."
+        "Finne antallet i et rektangel ved gjentatt addisjon.",
+        "Se at hver rad i et rektangel har like mange.",
+        "Knytte rader med et tall til en multiplikasjon."
       ]
     },
     "choice-board.which-more.k-c-c-6": {

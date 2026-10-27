@@ -506,25 +506,25 @@
     },
     "array.build-array.2-oa-c-4": {
       "about": [
-        "Children build a rectangular array — equal rows lined up in columns — then find how many dots there are in all, in this interactive Grade 2 math activity that plays right in the browser with nothing to install and no sign-up. The rounds grow from a small 2-by-3 array up through 3-by-4, 2-by-5, 4-by-4, and 4-by-3, so the child fills tidy grids of different shapes.",
-        "The big idea is that a rectangle of equal rows can be added the fast way. As the child taps to fill each row, a repeated-addition strip builds underneath — 4 + 4 + 4 — so they see four counted three times rather than counting every dot one at a time. Then they type the total on the keypad. Seeing the rows line up as equal addends is exactly the bridge from addition into multiplication.",
-        "It is aligned to Common Core 2.OA.C.4 — using addition to find the total number of objects arranged in a rectangular array of rows and columns, and writing an equation to express the total as a sum of equal addends. No timer, no score — just calm, playful practice."
+        "Every row of fruit on the plate is threaded on one skewer, so a row can only come out whole. The child lifts the skewers off one by one into a rack, and each skewer gets a box: three skewers of four raspberries read 4 + 4 + 4 = 12. A tap on the skewer pot turns the sticks the other way without moving a single piece of fruit, and the same plate reads 3 + 3 + 3 + 3.",
+        "Rows plus columns is the classic slip: typing 7 for 3 rows of 4 lights one row and one column while the rest pulse, so the child sees what was added. A box that disagrees with its skewer wobbles. In Build the child grows the plate for a sum like 4 + 4 + 4; in Find the child picks the plate that is 3 rows of 4 among plates that differ by one row or one column. Big arrays go to 10 rows of 10 with square tiles, and success ends with the sentence 3 × 4 = 12.",
+        "It is aligned to Common Core 2.OA.C.4: use addition to find the total number of objects in a rectangular array with up to 5 rows and 5 columns, and write an equation as a sum of equal addends. It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Filling a rectangular grid as equal rows and columns",
-        "Reading the array as repeated addition, such as 4 + 4 + 4 = 12",
-        "Counting by equal groups instead of by ones to find a total",
-        "Typing the total that matches the rows the child just built"
+        "Find the total of an array by adding equal rows",
+        "Write an array as a sum of equal addends",
+        "Build the array for a repeated addition",
+        "Pick the array that shows rows of a number"
       ],
       "howToPlay": [
-        "Look at the array Bot needs — for example, 3 rows of 4 — and tap to fill in each row.",
-        "Watch the repeated-addition strip add the equal rows up, then type how many there are in all on the keypad.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Tap a skewer to lift it into the rack; tap it in the rack to put it back.",
+        "Type how many each skewer holds and how many in all, then press Check.",
+        "In the settings, choose Count, Build or Find, and arrays up to 5 by 5 or big arrays."
       ],
       "learningGoals": [
-        "Find the total in a rectangular array using repeated addition — the focus of Common Core 2.OA.C.4.",
-        "See equal rows as equal addends and write the matching sum.",
-        "Build the equal-groups foundation that multiplication grows out of in later grades."
+        "Find the total of a rectangular array by repeated addition.",
+        "See that every row of an array holds the same number.",
+        "Connect rows of a number with a multiplication sentence."
       ]
     },
     "array.equal-groups.2-oa-c-4": {

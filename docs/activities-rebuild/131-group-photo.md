@@ -118,4 +118,4 @@ ONE native + early-primary pedagogy reviewer covered all 11 locales from a compa
 - **`audit-activity-next-delay`:** pass. Content × 11, prose claims, SERP copy, content tells and route preflight: pass.
 
 ## Live
-<LIVE>
+`live-verify-group-photo.js` on production, 2026-10-27: **52 pass, 0 fail.** All 11 pages return 200, and en, de, sv and fi at 1366 and 390 embed group-photo-activity.html at wrapper 9.876. With a real pointer, a wrong seat sent to the step gives a cloudy photo and the miss-1 hint; the odd one tapped in the photo and the shutter give a sharp photo carrying its name, and the iframe grows with the card. The first run fell in the cache window (5 pages not yet embedding the new html); once curl showed 9.876 in every checked locale, the second run was clean.

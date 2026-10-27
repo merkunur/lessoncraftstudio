@@ -99,4 +99,6 @@ ONE native + early-primary pedagogy reviewer covered all 11 locales from a compa
 - **`audit-activity-next-delay`:** pass. Content × 11, prose claims, SERP copy, content tells and route preflight: pass.
 
 ## Live
-<LIVE>
+`live-verify-climbing-tree.js` on production, 2026-10-27: **52 pass, 0 fail.** All 11 pages return 200, and en, de, sv and fi at 1366 and 390 embed climbing-tree-activity.html at wrapper 9.876 → 9.877. With a real pointer, a wrong branch + Check sends the picture back to the roots with the hint; the right branch + Check turns the leaf gold with the authored sentence; the iframe grows with the card. The first run fell in the cache window (3 pages still serving the old embed); once curl showed 9.877 in every checked locale, the second run was clean.
+
+**Open (frozen metadata, not edited):** the frozen de–sv titles and intros still name Olive the owl and several say grade 2 (Klasse 2, CE1, åk 2); the de intro says "Fahrzeug".

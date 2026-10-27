@@ -2287,25 +2287,25 @@
     },
     "numberbond.story-problem.2-oa-a-1": {
       "about": [
-        "A criança lê um probleminha em palavras — 20 tulipas vermelhas e 30 tulipas amarelas, uma prateleira com 45 livros, patinhos chegando a um laguinho — vê a situação montada como uma ligação numérica e digita o número que falta. É uma atividade de matemática interativa para o 2º ano, que roda direto no navegador, sem precisar de conta.",
-        "A ligação numérica transforma toda história na mesma imagem: duas partes e um todo. Isso ajuda a criança a perceber se o que falta é o total, uma parte que sobrou ou uma quantidade inicial. Alguns problemas pedem para somar (quantos há ao todo) e outros, para subtrair (quantos sobraram, quantos chegaram), e a ligação deixa essa escolha clara, em vez de adivinhar por uma palavrinha solta.",
-        "A atividade está alinhada à BNCC, no campo dos números, ao resolver problemas de uma etapa de adição e de subtração com números até 100. Sem cronômetro e sem pontuação — só uma prática calma e divertida."
+        "A criança lê uma história curta, digita o número que acha que falta e aperta “Reproduzir”: a história acontece numa pista graduada com esse número. Cada número que a história contou é uma bandeirinha em que as barras precisam parar. Tomás tinha algumas bolinhas de gude, achou mais 17 e agora tem 45: quem digita 62 faz Tomás começar com 62, crescer 17 e passar bem longe da bandeirinha do 45, e a parte sombreada mostra quanto.",
+        "No segundo erro, a história certa é reproduzida de trás para a frente a partir do fim, e o lugar do número que falta é contornado, sem mostrá-lo. Quando o número está certo, as bandeirinhas tremulam e a pista vira um diagrama de partes e todo com a conta embaixo, aqui 28 + 17 = 45. Somar todos os números ou olhar só a palavra-chave falha de propósito mais ou menos metade das vezes, e assim a criança aprende a conferir a resposta dentro da história.",
+        "A atividade está de acordo com a BNCC, Matemática, 2º ano: problemas de adição e subtração até 100, de uma ou duas etapas. Nas configurações há também histórias até 20 com figuras e grupos iguais para multiplicar e repartir. Funciona sem som, sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Ler um problema em palavras e achar os números que importam.",
-        "Representar a situação como uma ligação numérica de parte, parte e todo.",
-        "Decidir se é caso de somar ou de subtrair pelo lugar em que está o número que falta.",
-        "Resolver problemas de adição e de subtração com números até 100."
+        "Achar numa história o total, uma parte, a mudança ou a quantidade inicial",
+        "Resolver problemas de comparação com a mais e a menos",
+        "Resolver problemas de duas etapas",
+        "Conferir uma resposta colocando-a de volta na história"
       ],
       "howToPlay": [
-        "Leia o problema em palavras que aparece acima da ligação numérica.",
-        "Descubra o número que falta — um total, uma parte ou uma quantidade inicial — digite no teclado e toque em Verificar.",
-        "Errou? Leia de novo e tente mais uma vez; não há cronômetro nem pontuação."
+        "Leia a história e digite o número que você acha que falta.",
+        "Aperte “Reproduzir” e veja se as barras param em cada bandeirinha. Se não pararem, veja onde dá errado e tente de novo.",
+        "Nas configurações, escolha histórias até 20 com figuras, até 100, de duas etapas ou de grupos iguais, e se as bandeirinhas aparecem desde o começo."
       ],
       "learningGoals": [
-        "Resolver problemas de uma etapa de adição e de subtração com números até 100.",
-        "Representar uma história como uma ligação numérica de parte, parte e todo.",
-        "Descobrir um total, uma parte ou uma quantidade inicial que falta."
+        "Resolver problemas de adição e subtração com o número desconhecido em qualquer posição.",
+        "Não somar todos os números só porque a história diz “a mais”.",
+        "Conferir uma resposta reproduzindo a história com ela."
       ]
     },
     "sort-bins.defining-attributes.1-g-a-1": {

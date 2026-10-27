@@ -3335,25 +3335,25 @@
     },
     "numberbond.story-problem.2-oa-a-1": {
       "about": [
-        "Je kind leest een korte verhaaltjessom — 20 rode tulpen en 30 gele tulpen, een plank met 45 boeken, eendjes die bij een vijver aankomen — ziet die als een getalsplitsing voor zich en typt daarna het ontbrekende getal in. Het is een interactieve rekenactiviteit voor groep 4 die direct in de browser speelt, zonder account.",
-        "De splitsing maakt van elk verhaaltje hetzelfde plaatje: twee delen en een geheel. Daardoor ziet je kind of het onbekende het totaal is, een deel dat overblijft of een beginhoeveelheid. Sommige sommen tellen op (hoeveel in totaal), sommige trekken af (hoeveel blijven er over, hoeveel kwamen erbij), en de splitsing maakt die keuze duidelijk in plaats van te gokken op een signaalwoord.",
-        "De activiteit sluit aan bij de SLO-kerndoelen voor rekenen in groep 4: verhaaltjessommen in één stap optellen en aftrekken tot 100. Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Het kind leest een kort verhaal, typt het getal dat volgens hem ontbreekt en drukt op ‘Afspelen’: het verhaal speelt zich af op een getallenbaan met dat getal erin. Elk getal uit het verhaal is een vlaggetje waar de stroken op moeten uitkomen. Tom had een paar knikkers, vond er nog 17 en heeft er nu 45: wie 62 typt, laat Tom met 62 beginnen, 17 groeien en ver voorbij het vlaggetje bij 45 schieten, en het gekleurde stuk laat zien hoeveel.",
+        "Bij de tweede misser speelt het goede verhaal achteruit af vanaf het einde, en de plek van het ontbrekende getal wordt omlijnd, zonder het te verklappen. Klopt het getal, dan wapperen de vlaggetjes en vouwt de baan zich op tot een splitsing met de som eronder, hier 28 + 17 = 45. Alle getallen optellen of alleen op een signaalwoord letten gaat expres ongeveer de helft van de keren mis, zo leert het kind zijn antwoord terug te zetten in het verhaal.",
+        "De oefening sluit aan bij de kerndoelen rekenen-wiskunde van SLO voor groep 4: verhaaltjessommen met optellen en aftrekken tot 100, in één of twee stappen. In de instellingen staan ook verhalen tot 20 met plaatjes en gelijke groepjes voor vermenigvuldigen en verdelen. Ze werkt zonder geluid, zonder tijdsdruk en zonder score."
       ],
       "practices": [
-        "Een verhaaltjessom lezen en de getallen vinden die ertoe doen",
-        "De situatie weergeven als een getalsplitsing met twee delen en een geheel",
-        "Bepalen of je optelt of aftrekt op basis van waar het onbekende zit",
-        "Optel- en aftreksommen tot 100 oplossen"
+        "In een verhaal het totaal, een deel, de verandering of het begingetal vinden",
+        "Vergelijkingssommen met meer en minder oplossen",
+        "Sommen met twee stappen oplossen",
+        "Een antwoord controleren door het terug te zetten in het verhaal"
       ],
       "howToPlay": [
-        "Lees de verhaaltjessom boven de getalsplitsing.",
-        "Reken het ontbrekende getal uit — een totaal, een deel of een beginhoeveelheid — typ het in op het toetsenblok en druk op Controleer.",
-        "Nog niet goed? Lees nog eens en probeer het opnieuw; er is geen timer en geen score."
+        "Lees het verhaal en typ het getal dat volgens jou ontbreekt.",
+        "Druk op ‘Afspelen’ en kijk of de stroken op elk vlaggetje uitkomen. Zo niet, kijk dan waar het misgaat en probeer het opnieuw.",
+        "In de instellingen kies je verhalen tot 20 met plaatjes, tot 100, met twee stappen of met gelijke groepjes, en of de vlaggetjes er vanaf het begin staan."
       ],
       "learningGoals": [
-        "Het kind lost verhaaltjessommen in één stap op door op te tellen en af te trekken tot 100.",
-        "Het kind geeft een verhaaltje weer als een getalsplitsing met twee delen en een geheel.",
-        "Het kind vindt een onbekend totaal, deel of beginhoeveelheid."
+        "Verhaaltjessommen met optellen en aftrekken oplossen, met het onbekende getal op elke plek.",
+        "Niet alle getallen optellen alleen omdat er ‘meer’ in het verhaal staat.",
+        "Een antwoord controleren door het verhaal ermee af te spelen."
       ]
     },
     "sort-bins.defining-attributes.1-g-a-1": {

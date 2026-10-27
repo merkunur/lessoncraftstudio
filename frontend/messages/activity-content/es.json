@@ -3847,25 +3847,25 @@
     },
     "numberbond.story-problem.2-oa-a-1": {
       "about": [
-        "Tu hijo o hija lee un problema corto con palabras —20 tulipanes rojos y 30 tulipanes amarillos, un estante de 45 libros, patos que llegan a un estanque—, lo ve representado como un diagrama parte-parte-todo y escribe el número que falta. Es una actividad de matemáticas interactiva para 2.º de primaria que se juega directamente en el navegador, sin instalar nada y sin crear cuenta.",
-        "El diagrama convierte cada historia en la misma imagen: dos partes y un todo. Eso le permite al niño o la niña ver si lo desconocido es el total, una parte que sobra o una cantidad inicial. Algunos problemas suman (cuántos hay en total), otros restan (cuántos quedan, cuántos llegaron), y el diagrama vuelve clara esa decisión en lugar de adivinar por una palabra clave.",
-        "Está alineada con los planes y programas de estudio (SEP): resolver problemas con palabras de un paso, de suma y de resta, hasta 100. Sin temporizador y sin puntajes, con un ritmo tranquilo y juguetón."
+        "El niño lee una historia corta, escribe el número que cree que falta y presiona «Reproducir»: la historia se reproduce en una pista graduada con ese número. Cada número que dice la historia es una banderita en la que deben caer las barras. Tomás tenía algunas canicas, encontró 17 más y ahora tiene 45: si escribe 62, Tomás empieza con 62, crece 17 y se pasa mucho de la banderita del 45, y la parte sombreada muestra por cuánto.",
+        "Al segundo error, la historia correcta se reproduce al revés desde el final y se marca el lugar del número que falta, sin escribirlo. Cuando el número es correcto, las banderitas ondean y la pista se convierte en un diagrama de partes y todo con la operación debajo, aquí 28 + 17 = 45. Sumar todos los números o fijarse solo en una palabra clave falla a propósito más o menos la mitad de las veces, así que el niño aprende a comprobar su respuesta dentro de la historia.",
+        "La actividad está alineada con los programas de estudio de segundo grado de primaria, campo formativo Saberes y Pensamiento Científico: problemas de suma y resta hasta 100, de uno o dos pasos. En los ajustes también hay historias hasta 20 con dibujos y grupos iguales para multiplicar y repartir. Funciona sin sonido, sin reloj y sin puntaje."
       ],
       "practices": [
-        "Leer un problema con palabras e identificar los números que importan.",
-        "Representar la situación como un diagrama parte-parte-todo.",
-        "Decidir si hay que sumar o restar según dónde está lo desconocido.",
-        "Resolver problemas de suma y resta hasta 100."
+        "Encontrar en una historia el total, una parte, el cambio o la cantidad inicial",
+        "Resolver problemas de comparación con más y menos",
+        "Resolver problemas de dos pasos",
+        "Comprobar una respuesta poniéndola de nuevo en la historia"
       ],
       "howToPlay": [
-        "Lee el problema con palabras que aparece arriba del diagrama.",
-        "Averigua el número que falta —un total, una parte o una cantidad inicial—, escríbelo en el teclado numérico y pulsa Comprobar.",
-        "¿No salió a la primera? Vuelve a leer e inténtalo otra vez: no hay temporizador ni puntaje."
+        "Lee la historia y escribe el número que crees que falta.",
+        "Presiona «Reproducir» y mira si las barras caen en cada banderita. Si no, mira dónde falla y vuelve a intentarlo.",
+        "En los ajustes elige historias hasta 20 con dibujos, hasta 100, de dos pasos o de grupos iguales, y si las banderitas se ven desde el inicio."
       ],
       "learningGoals": [
-        "El niño o la niña aprende a resolver problemas de un paso, de suma y resta, hasta 100.",
-        "Tu hijo o hija representa una historia como un diagrama parte-parte-todo.",
-        "Encuentra un total, una parte o una cantidad inicial desconocida."
+        "Resolver problemas de suma y resta con el número desconocido en cualquier lugar.",
+        "No sumar todos los números solo porque la historia dice «más».",
+        "Comprobar una respuesta reproduciendo la historia con ella."
       ]
     },
     "sort-bins.defining-attributes.1-g-a-1": {

@@ -1616,24 +1616,25 @@
     },
     "numberbond.story-problem.2-oa-a-1": {
       "about": [
-        "Barnet läser ett kort lästal — 20 röda tulpaner och 30 gula tulpaner, en hylla med 45 böcker, ankor som kommer till en damm — ser det uppritat som en talkamrat och skriver sedan det tal som saknas. Det är en interaktiv matteaktivitet för årskurs 2 som körs direkt i webbläsaren, utan konto.",
-        "Talkamraten gör varje berättelse till samma bild: två delar och en helhet. Det låter barnet se om det okända är hela antalet, en del som blir kvar eller ett startantal. Vissa uppgifter handlar om addition (hur många sammanlagt), andra om subtraktion (hur många är kvar, hur många kom till), och talkamraten gör det valet tydligt i stället för att barnet ska gissa utifrån ett nyckelord. Aktiviteten följer Lgr22 och tränar att lösa lästal med addition och subtraktion inom talområdet 0–100. Ingen timer och inga poäng — bara lugn, lekfull övning."
+        "Barnet läser en kort berättelse, skriver talet som det tror saknas och trycker på Spela upp: berättelsen spelas upp på en tallinje med det talet insatt. Varje tal som berättelsen nämner är en liten flagga som remsorna måste landa på. Tom hade några kulor, hittade 17 till och har nu 45: den som skriver 62 låter Tom börja med 62, växa med 17 och skjuta långt förbi flaggan vid 45, och det färgade gapet visar hur mycket.",
+        "Vid andra missen spelas den rätta berättelsen upp baklänges från slutet, och platsen för det saknade talet ringas in utan att talet visas. När talet stämmer vajar flaggorna och tallinjen viks ihop till en tallkamrat-bild med uträkningen under, här 28 + 17 = 45. Att lägga ihop alla tal eller bara titta på ett signalord blir avsiktligt fel ungefär hälften av gångerna, så barnet lär sig att pröva sitt svar i berättelsen.",
+        "Övningen följer Lgr22, matematik i årskurs 1 till 3, problemlösning: addition och subtraktion upp till 100 i ett eller två steg. I inställningarna finns också berättelser upp till 20 med bilder och lika stora grupper för multiplikation och delning. Den fungerar utan ljud, utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Läsa ett lästal och hitta de tal som har betydelse",
-        "Beskriva situationen som en del-del-helhet-talkamrat",
-        "Avgöra om man ska addera eller subtrahera utifrån var det okända finns",
-        "Lösa additions- och subtraktionsuppgifter inom 100"
+        "Hitta summan, en del, förändringen eller starttalet i en berättelse",
+        "Lösa jämförelseuppgifter med fler och färre",
+        "Lösa uppgifter i två steg",
+        "Pröva ett svar genom att sätta in det i berättelsen"
       ],
       "howToPlay": [
-        "Läs lästalet som visas ovanför talkamraten.",
-        "Räkna ut det tal som saknas — ett helt antal, en del eller ett startantal — skriv det på sifferknapparna och tryck sedan på Kontrollera.",
-        "Inte riktigt rätt? Läs igen och försök en gång till; det finns ingen timer och inga poäng."
+        "Läs berättelsen och skriv talet som du tror saknas.",
+        "Tryck på Spela upp och titta om remsorna landar på varje flagga. Om inte, titta var det blir fel och försök igen.",
+        "I inställningarna väljer du berättelser upp till 20 med bilder, upp till 100, i två steg eller med lika stora grupper, och om flaggorna syns från början."
       ],
       "learningGoals": [
-        "Barnet kan lösa lästal i ett steg med addition och subtraktion inom 100",
-        "Barnet kan beskriva en berättelse som en del-del-helhet-talkamrat",
-        "Barnet kan hitta ett okänt helt antal, en del eller ett startantal"
+        "Lösa berättelser med addition och subtraktion där det okända talet kan stå var som helst.",
+        "Inte lägga ihop alla tal bara för att det står ”fler” i berättelsen.",
+        "Pröva ett svar genom att spela upp berättelsen med det."
       ]
     },
     "sort-bins.defining-attributes.1-g-a-1": {

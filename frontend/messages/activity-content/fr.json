@@ -3661,24 +3661,25 @@
     },
     "numberbond.story-problem.2-oa-a-1": {
       "about": [
-        "L'enfant lit un petit problème — 20 tulipes rouges et 30 tulipes jaunes, une étagère de 45 livres, des canards qui arrivent sur une mare — le voit représenté sous forme d'arbre des nombres, puis tape le nombre manquant. C'est une activité de mathématiques interactive pour le CE1, qui se joue directement dans le navigateur, sans compte.",
-        "L'arbre des nombres transforme chaque histoire en une même image : deux parties et un tout. Cela permet à l'enfant de voir si l'inconnue est le total, une partie qui reste, ou une quantité de départ. Certains problèmes s'additionnent (combien en tout), d'autres se soustraient (combien il reste, combien sont arrivés), et l'arbre rend ce choix clair au lieu de deviner d'après un mot indice. Cette activité de problèmes en une étape jusqu'à 100 suit les programmes officiels et se pratique sans note ni chrono."
+        "L’enfant lit une courte histoire, tape le nombre qui, selon lui, manque, puis appuie sur « Rejouer » : l’histoire se déroule sur une piste graduée avec ce nombre. Chaque nombre dit dans l’histoire est un petit drapeau sur lequel les barres doivent tomber. Tom avait des billes, il en a trouvé 17 de plus et il en a maintenant 45 : en tapant 62, Tom part de 62, gagne 17 et dépasse largement le drapeau 45, et la zone colorée montre de combien.",
+        "À la deuxième erreur, la bonne histoire est rejouée à l’envers depuis la fin, et la place du nombre qui manque est entourée, sans l’écrire. Quand le nombre est juste, les drapeaux s’agitent et la piste se replie en un schéma de décomposition avec l’opération en dessous, ici 28 + 17 = 45. Additionner tous les nombres ou se fier à un seul mot échoue exprès environ une fois sur deux : l’enfant apprend à remettre sa réponse dans l’histoire.",
+        "L’activité suit les programmes officiels du cycle 2 (CE1) pour la résolution de problèmes : additionner et soustraire jusqu’à 100, en une ou deux étapes. Les réglages proposent aussi des histoires jusqu’à 20 avec images et des groupes égaux pour multiplier et partager. Elle fonctionne sans le son, sans chronomètre et sans score."
       ],
       "practices": [
-        "Lire un problème et repérer les nombres qui comptent.",
-        "Modéliser la situation par un arbre des nombres partie-partie-tout.",
-        "Décider s'il faut additionner ou soustraire selon la place de l'inconnue.",
-        "Résoudre des additions et des soustractions jusqu'à 100."
+        "Trouver dans une histoire un total, une partie, un changement ou un nombre de départ",
+        "Résoudre des problèmes de comparaison avec de plus et de moins",
+        "Résoudre des problèmes en deux étapes",
+        "Vérifier une réponse en la remettant dans l’histoire"
       ],
       "howToPlay": [
-        "Lis le problème écrit au-dessus de l'arbre des nombres.",
-        "Trouve le nombre manquant — un total, une partie ou une quantité de départ — tape-le sur le clavier, puis appuie sur Vérifier.",
-        "Pas tout à fait ? Relis et réessaie une fois de plus ; il n'y a ni chrono ni score."
+        "Lis l’histoire et tape le nombre qui, selon toi, manque.",
+        "Appuie sur « Rejouer » et regarde si les barres tombent sur chaque drapeau. Sinon, regarde où ça ne va plus et essaie encore.",
+        "Dans les réglages, choisis des histoires jusqu’à 20 avec images, jusqu’à 100, en deux étapes ou avec des groupes égaux, et si les drapeaux sont là dès le début."
       ],
       "learningGoals": [
-        "Résoudre des problèmes d'addition et de soustraction en une étape jusqu'à 100.",
-        "Modéliser une histoire par un arbre des nombres partie-partie-tout.",
-        "Trouver un total, une partie ou une quantité de départ inconnus."
+        "Résoudre des problèmes d’addition et de soustraction où le nombre cherché peut être à n’importe quelle place.",
+        "Ne pas additionner tous les nombres parce que l’histoire dit « de plus ».",
+        "Vérifier une réponse en rejouant l’histoire avec elle."
       ]
     },
     "sort-bins.defining-attributes.1-g-a-1": {

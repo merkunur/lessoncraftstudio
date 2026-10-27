@@ -1026,25 +1026,25 @@
     },
     "numberbond.story-problem.2-oa-a-1": {
       "about": [
-        "Tehtävässä lapsi lukee lyhyen sanallisen tehtävän — 20 punaista tulppaania ja 30 keltaista tulppaania, hyllyllinen 45 kirjaa, sorsia saapumassa lammelle — näkee sen esitettynä lukukolmiona ja kirjoittaa sitten puuttuvan luvun. Tämä on vuorovaikutteinen 2. luokan matematiikkaharjoitus, joka toimii suoraan selaimessa ilman tiliä.",
-        "Lukukolmio muuttaa jokaisen tarinan samaksi kuvaksi: kaksi osaa ja kokonaisuus. Näin lapsi näkee, onko tuntematon kokonaismäärä, jäljelle jäävä osa vai aloitusmäärä. Joissakin tehtävissä lasketaan yhteen (montako yhteensä), joissakin vähennetään (montako jää, montako saapui), ja lukukolmio tekee tuon valinnan selväksi sen sijaan, että lapsi arvaisi yksittäisestä avainsanasta.",
-        "Harjoitus on OPS 2014:n mukainen: lapsi ratkaisee yksivaiheisia yhteen- ja vähennyslaskun sanallisia tehtäviä sataan asti. Ei ajastinta eikä pisteitä — vain rauhallista ja leikkisää harjoittelua."
+        "Lapsi lukee lyhyen tarinan, kirjoittaa luvun, jonka arvelee puuttuvan, ja painaa Toista: tarina toistuu lukusuoralla niin, että hänen lukunsa on mukana. Jokainen tarinassa kerrottu luku on pieni lippu, johon palkkien pitää osua. Tomilla oli kuulia, hän löysi 17 lisää ja nyt hänellä on 45: luvulla 62 Tomi aloittaa 62:sta, kasvaa 17:llä ja menee kauas lipun 45 ohi, ja värjätty väli näyttää, kuinka paljon.",
+        "Toisella hudilla oikea tarina toistuu takaperin lopusta alkaen, ja puuttuvan luvun paikka kehystetään kertomatta lukua. Kun luku on oikea, liput liehuvat ja lukusuora taittuu osa–kokonaisuus-kuvaksi, jonka alla on lasku, tässä 28 + 17 = 45. Kaikkien lukujen yhteenlasku tai pelkkään avainsanaan luottaminen menee tarkoituksella pieleen noin puolet kerroista, joten lapsi oppii kokeilemaan vastaustaan tarinassa.",
+        "Tehtävä sopii OPS 2014:n matematiikan tavoitteisiin 2. luokalla: sanallisia yhteen- ja vähennyslaskuja 100:aan asti yhdessä tai kahdessa vaiheessa. Asetuksissa on myös tarinoita 20:een asti kuvin sekä yhtä suuria ryhmiä kerto- ja jakolaskuun. Se toimii ilman ääntä, ilman ajanottoa ja ilman pisteitä."
       ],
       "practices": [
-        "Lukee sanallisen tehtävän ja löytää siitä tärkeät luvut.",
-        "Mallintaa tilanteen osa–osa–kokonaisuus-lukukolmiona.",
-        "Päättää, lasketaanko yhteen vai vähennetään, sen mukaan missä tuntematon on.",
-        "Ratkaisee yhteen- ja vähennyslaskuja sataan asti."
+        "Löytää tarinasta summa, osa, muutos tai alkuluku",
+        "Ratkaista vertailutehtäviä, joissa on enemmän ja vähemmän",
+        "Ratkaista kaksivaiheisia tehtäviä",
+        "Tarkistaa vastaus sijoittamalla se takaisin tarinaan"
       ],
       "howToPlay": [
-        "Lue lukukolmion yläpuolella oleva sanallinen tehtävä.",
-        "Selvitä puuttuva luku — kokonaismäärä, osa tai aloitusmäärä — kirjoita se näppäimistöllä ja paina sitten Tarkista.",
-        "Eikö osunut oikeaan? Lue uudelleen ja yritä vielä kerran — ei ajastinta eikä pisteitä."
+        "Lue tarina ja kirjoita luku, jonka arvelet puuttuvan.",
+        "Paina Toista ja katso, osuvatko palkit jokaiseen lippuun. Jos eivät, katso, missä menee vikaan, ja yritä uudelleen.",
+        "Asetuksista valitset tarinat 20:een asti kuvin, 100:aan asti, kaksivaiheiset tai yhtä suuret ryhmät sekä sen, näkyvätkö liput alusta asti."
       ],
       "learningGoals": [
-        "Lapsi ratkaisee yksivaiheisia yhteen- ja vähennyslaskun sanallisia tehtäviä sataan asti.",
-        "Lapsi mallintaa tarinan osa–osa–kokonaisuus-lukukolmiona.",
-        "Lapsi löytää tuntemattoman kokonaismäärän, osan tai aloitusmäärän."
+        "Ratkaista sanallisia yhteen- ja vähennyslaskuja, joissa tuntematon luku voi olla missä kohdassa tahansa.",
+        "Olla laskematta kaikkia lukuja yhteen vain siksi, että tarinassa lukee ”enemmän”.",
+        "Tarkistaa vastaus toistamalla tarina sillä luvulla."
       ]
     },
     "sort-bins.defining-attributes.1-g-a-1": {

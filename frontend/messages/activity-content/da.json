@@ -576,25 +576,25 @@
     },
     "numberbond.story-problem.2-oa-a-1": {
       "about": [
-        "Barnet læser et kort tekststykke — 20 røde og 30 gule tulipaner, en hylde med 45 bøger, ænder, der kommer svømmende til en sø — ser det stillet op som en talmodel og skriver så det tal, der mangler. Det er en interaktiv matematikaktivitet til 2. klasse, der spiller direkte i browseren uden konto.",
-        "Talmodellen gør hvert tekststykke til det samme billede: to dele og en helhed. Det lader barnet se, om det ukendte er det samlede tal, en del der er tilbage, eller et starttal. Nogle opgaver er plus (hvor mange i alt), andre er minus (hvor mange er tilbage, hvor mange kom til), og talmodellen gør det valg tydeligt i stedet for at gætte ud fra et enkelt ord.",
-        "Aktiviteten er tilpasset Fælles Mål for matematik i 2. klasse: at løse tekststykker i ét trin med plus og minus op til 100. Der er ingen tid og ingen point — bare rolig, legende træning."
+        "Barnet læser en kort historie, skriver det tal, det tror mangler, og trykker på Afspil: historien afspilles på en tallinje med det tal sat ind. Hvert tal i historien er et lille flag, som bjælkerne skal lande på. Tom havde nogle kugler, fandt 17 mere og har nu 45: Den, der skriver 62, lader Tom starte med 62, vokse med 17 og skyde langt forbi flaget ved 45, og det farvede mellemrum viser hvor meget.",
+        "Ved anden fejl afspilles den rigtige historie baglæns fra slutningen, og pladsen til det manglende tal bliver ringet ind, uden at tallet står der. Når tallet passer, vajer flagene, og tallinjen foldes sammen til en del-hele-figur med regnestykket under, her 28 + 17 = 45. At lægge alle tal sammen eller kun kigge efter et signalord går med vilje galt cirka halvdelen af gangene, så barnet lærer at prøve sit svar af i historien.",
+        "Øvelsen følger Fælles Mål for matematik i 2. klasse, tal og regneoperationer: tekstopgaver med plus og minus op til 100 i et eller to trin. I indstillingerne er der også historier op til 20 med billeder og lige store grupper til gange og deling. Den virker uden lyd, uden tidtagning og uden point."
       ],
       "practices": [
-        "Læse et tekststykke og finde de tal, der betyder noget",
-        "Stille situationen op som en del-del-helhed-talmodel",
-        "Afgøre, om man skal lægge til eller trække fra, ud fra hvor det ukendte sidder",
-        "Løse plus- og minusopgaver op til 100"
+        "Finde resultatet, en del, ændringen eller starttallet i en historie",
+        "Løse sammenligningsopgaver med flere og færre",
+        "Løse opgaver i to trin",
+        "Prøve et svar af ved at sætte det ind i historien"
       ],
       "howToPlay": [
-        "Læs tekststykket, der står over talmodellen.",
-        "Regn det manglende tal ud — et samlet tal, en del eller et starttal — skriv det på tastaturet, og tryk på Tjek.",
-        "Passer det ikke? Læs igen, og prøv en gang til — der er ingen tid og ingen point."
+        "Læs historien, og skriv det tal, du tror mangler.",
+        "Tryk på Afspil, og se, om bjælkerne lander på hvert flag. Hvis ikke, så se, hvor det går galt, og prøv igen.",
+        "I indstillingerne vælger du historier op til 20 med billeder, op til 100, i to trin eller med lige store grupper, og om flagene ses fra start."
       ],
       "learningGoals": [
-        "Barnet kan løse tekststykker i ét trin med plus og minus op til 100",
-        "Barnet kan stille et tekststykke op som en del-del-helhed-talmodel",
-        "Barnet kan finde et ukendt samlet tal, en del eller et starttal"
+        "Løse tekstopgaver med plus og minus, hvor det ukendte tal kan stå alle steder.",
+        "Ikke lægge alle tal sammen, bare fordi historien siger ”flere”.",
+        "Prøve et svar af ved at afspille historien med det."
       ]
     },
     "sort-bins.defining-attributes.1-g-a-1": {

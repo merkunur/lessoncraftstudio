@@ -2961,25 +2961,25 @@
     },
     "numberbond.story-problem.2-oa-a-1": {
       "about": [
-        "Children read a short word problem — 20 red tulips and 30 yellow tulips, a shelf of 45 books, ducks arriving at a pond — see it laid out as a number bond, then type the missing number. It's an interactive Grade 2 math activity that plays right in the browser with no account.",
-        "The number bond turns every story into the same picture: two parts and a whole. That lets the child see whether the unknown is the total, a part that is left over, or a starting amount. Some problems add (how many in all), some subtract (how many are left, how many came), and the bond makes that choice clear instead of guessing from a keyword.",
-        "It is aligned to Common Core 2.OA.A.1 — solving one-step add and subtract word problems within 100. No timer, no score — just calm, playful practice."
+        "The child reads a short story, types the number they think is missing, and presses Replay: the story plays itself out on a measuring track with that number put in. Every number the story told is a little flag the bars must land on. Tom had some marbles, found 17 more and now has 45: type 62 and Tom starts with 62, grows by 17 and sails far past the 45 flag, and the shaded gap shows by how much.",
+        "A second miss replays the right story backwards from the told end and outlines where the missing number belongs, without printing it. When the number is right, the flags wave and the track folds into a number bond with the equation underneath, here 28 + 17 = 45. Adding all the numbers or reading only the keyword fails on purpose about half the time, so the child learns to put the answer back into the story.",
+        "It is aligned to Common Core 2.OA.A.1: add and subtract within 100 to solve one- and two-step word problems with the unknown in any position. The settings also cover stories within 20 with pictures and equal groups for multiplying and sharing. It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Read a word problem and find the numbers that matter",
-        "Model the situation as a part-part-whole number bond",
-        "Decide whether to add or subtract based on where the unknown sits",
-        "Solve add and subtract problems within 100"
+        "Find a missing total, part, change or starting number in a story",
+        "Solve comparison stories with more and fewer",
+        "Solve two-step stories",
+        "Check an answer by putting it back into the story"
       ],
       "howToPlay": [
-        "Read the word problem shown above the number bond.",
-        "Work out the missing number — a total, a part, or a starting amount — type it on the keypad, then press Check.",
-        "Not quite? Read again and try once more; there is no timer and no score."
+        "Read the story and type the number you think is missing.",
+        "Press Replay and watch whether the bars land on every flag. If not, see where it goes wrong and try again.",
+        "In the settings, choose stories within 20 with pictures, within 100, two steps or equal groups, and whether the flags show from the start."
       ],
       "learningGoals": [
-        "Solve one-step add and subtract word problems within 100 — the focus of Common Core 2.OA.A.1",
-        "Model a story as a part-part-whole number bond",
-        "Find an unknown total, part, or starting amount"
+        "Solve add and subtract stories with the unknown in any position.",
+        "Not add every number just because the story says more.",
+        "Check an answer by replaying the story with it."
       ]
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {

@@ -4294,25 +4294,25 @@
     },
     "numberbond.story-problem.2-oa-a-1": {
       "about": [
-        "Das Kind liest eine kurze Sachaufgabe — 20 rote und 30 gelbe Tulpen, ein Regal mit 45 Büchern, Enten, die an einem Teich ankommen —, sieht sie als Zahlenhaus dargestellt und tippt dann die fehlende Zahl ein. Diese interaktive Mathe-Übung für die 2. Klasse läuft direkt im Browser, ohne Konto.",
-        "Das Zahlenhaus verwandelt jede Geschichte in dasselbe Bild: zwei Teile und ein Ganzes. So sieht das Kind, ob das Gesuchte die Gesamtmenge, ein übrig gebliebener Teil oder eine Ausgangsmenge ist. Manche Aufgaben werden addiert (wie viele insgesamt), manche subtrahiert (wie viele bleiben übrig, wie viele kamen hinzu), und das Zahlenhaus macht diese Entscheidung klar, statt sie aus einem Signalwort zu raten.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Zahlen und Operationen ausgerichtet — einschrittige Plus- und Minus-Sachaufgaben bis 100 lösen. Es gibt keinen Timer und keine Punktewertung — nur ruhiges, spielerisches Üben."
+        "Das Kind liest eine kurze Geschichte, tippt die Zahl ein, die seiner Meinung nach fehlt, und drückt auf „Abspielen“: Die Geschichte läuft mit dieser Zahl auf einem Zahlenstrahl ab. Jede Zahl aus der Geschichte ist ein Fähnchen, auf dem die Balken landen müssen. Tom hatte einige Murmeln, hat noch 17 gefunden und hat jetzt 45: Wer 62 eintippt, lässt Tom mit 62 beginnen, um 17 wachsen und weit über das Fähnchen bei 45 hinausschießen, und die markierte Lücke zeigt, um wie viel.",
+        "Beim zweiten Fehlversuch läuft die richtige Geschichte vom Ende rückwärts, und der Platz der fehlenden Zahl wird umrandet, ohne sie zu verraten. Stimmt die Zahl, wehen die Fähnchen, und der Zahlenstrahl wird zum Zahlenhaus mit der Rechnung darunter, hier 28 + 17 = 45. Wer einfach alle Zahlen addiert oder nur auf Signalwörter achtet, liegt absichtlich in etwa der Hälfte der Fälle falsch. So lernt das Kind, sein Ergebnis in die Geschichte zurückzusetzen.",
+        "Die Übung passt zum Bereich „Zahlen und Operationen“ des Lehrplans der Grundschule, Klasse 2: Sachaufgaben mit Addition und Subtraktion bis 100, mit einem oder zwei Schritten. In den Einstellungen gibt es auch Geschichten bis 20 mit Bildern und gleich große Gruppen zum Malnehmen und Verteilen. Sie funktioniert ohne Ton, ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "Eine Sachaufgabe lesen und die Zahlen finden, auf die es ankommt.",
-        "Die Situation als Teil-Teil-Ganzes im Zahlenhaus darstellen.",
-        "Entscheiden, ob addiert oder subtrahiert wird, je nachdem, wo das Gesuchte steht.",
-        "Plus- und Minusaufgaben bis 100 lösen."
+        "In einer Geschichte das Ergebnis, einen Teil, die Veränderung oder den Anfang finden",
+        "Vergleichsaufgaben mit mehr und weniger lösen",
+        "Aufgaben mit zwei Schritten lösen",
+        "Ein Ergebnis prüfen, indem man es in die Geschichte einsetzt"
       ],
       "howToPlay": [
-        "Lies die Sachaufgabe über dem Zahlenhaus.",
-        "Finde die fehlende Zahl heraus — eine Gesamtmenge, einen Teil oder eine Ausgangsmenge —, tippe sie auf dem Zahlenfeld ein und tippe dann auf Prüfen.",
-        "Noch nicht ganz richtig? Lies noch einmal und versuche es erneut; es gibt keinen Timer und keine Punkte."
+        "Lies die Geschichte und tippe die Zahl ein, die deiner Meinung nach fehlt.",
+        "Drücke auf „Abspielen“ und schau, ob die Balken auf jedem Fähnchen landen. Wenn nicht, schau, wo es schiefgeht, und versuche es noch einmal.",
+        "In den Einstellungen wählst du Geschichten bis 20 mit Bildern, bis 100, mit zwei Schritten oder mit gleich großen Gruppen, und ob die Fähnchen von Anfang an zu sehen sind."
       ],
       "learningGoals": [
-        "Einschrittige Plus- und Minus-Sachaufgaben bis 100 lösen.",
-        "Eine Geschichte als Teil-Teil-Ganzes im Zahlenhaus darstellen.",
-        "Eine fehlende Gesamtmenge, einen fehlenden Teil oder eine fehlende Ausgangsmenge finden."
+        "Sachaufgaben lösen, bei denen die gesuchte Zahl an jeder Stelle stehen kann.",
+        "Nicht jede Zahl addieren, nur weil in der Geschichte „mehr“ steht.",
+        "Ein Ergebnis prüfen, indem man die Geschichte damit abspielt."
       ]
     },
     "sort-bins.defining-attributes.1-g-a-1": {

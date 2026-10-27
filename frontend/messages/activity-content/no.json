@@ -1512,25 +1512,25 @@
     },
     "numberbond.story-problem.2-oa-a-1": {
       "about": [
-        "Barnet leser en kort tekstoppgave — 20 røde tulipaner og 30 gule tulipaner, en hylle med 45 bøker, ender som kommer til en dam — ser den satt opp som en tallbinding, og skriver deretter tallet som mangler. Det er en interaktiv matematikkaktivitet for 2. trinn som kjører rett i nettleseren, uten konto.",
-        "Tallbindingen gjør hver fortelling om til det samme bildet: to deler og en helhet. Det lar barnet se om det ukjente er totalen, en del som er igjen, eller et antall man startet med. Noen oppgaver legger sammen (hvor mange er det til sammen), noen trekker fra (hvor mange er igjen, hvor mange kom), og tallbindingen gjør det valget tydelig i stedet for å gjette ut fra et nøkkelord.",
-        "Aktiviteten følger målene i LK20 — å løse tekstoppgaver med pluss og minus i ett trinn innenfor 100. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "Barnet leser en kort historie, skriver tallet det tror mangler, og trykker på Spill av: historien spilles av på en tallinje med det tallet satt inn. Hvert tall i historien er et lite flagg som strimlene må lande på. Tom hadde noen klinkekuler, fant 17 til og har nå 45: Den som skriver 62, lar Tom starte med 62, vokse med 17 og skyte langt forbi flagget ved 45, og det fargede mellomrommet viser hvor mye.",
+        "Ved andre bom spilles den riktige historien av baklengs fra slutten, og plassen til tallet som mangler, blir ringet inn uten at tallet vises. Når tallet stemmer, vaier flaggene, og tallinjen brettes sammen til en del-hel-modell med regnestykket under, her 28 + 17 = 45. Å legge sammen alle tallene eller bare se etter et signalord blir med vilje feil omtrent halvparten av gangene, så barnet lærer å prøve svaret sitt i historien.",
+        "Øvelsen følger LK20, matematikk etter 2. trinn, tall og regning: tekstoppgaver med addisjon og subtraksjon opp til 100 i ett eller to trinn. I innstillingene finnes også historier opp til 20 med bilder og like store grupper for ganging og deling. Den virker uten lyd, uten tidtaking og uten poeng."
       ],
       "practices": [
-        "Lese en tekstoppgave og finne tallene som betyr noe.",
-        "Sette opp situasjonen som en del–del–helhet-tallbinding.",
-        "Avgjøre om man skal legge sammen eller trekke fra ut fra hvor det ukjente sitter.",
-        "Løse pluss- og minusoppgaver innenfor 100."
+        "Finne summen, en del, endringen eller starttallet i en historie",
+        "Løse sammenligningsoppgaver med flere og færre",
+        "Løse oppgaver i to trinn",
+        "Prøve et svar ved å sette det inn i historien"
       ],
       "howToPlay": [
-        "Les tekstoppgaven som står over tallbindingen.",
-        "Finn ut hvilket tall som mangler — en total, en del eller et starttall — skriv det på tastaturet, og trykk så på Sjekk.",
-        "Ikke helt riktig? Les igjen og prøv én gang til; det er ingen tidtaker og ingen poeng."
+        "Les historien, og skriv tallet du tror mangler.",
+        "Trykk på Spill av, og se om strimlene lander på hvert flagg. Hvis ikke, se hvor det går galt, og prøv igjen.",
+        "I innstillingene velger du historier opp til 20 med bilder, opp til 100, i to trinn eller med like store grupper, og om flaggene vises fra start."
       ],
       "learningGoals": [
-        "Barnet kan løse tekstoppgaver med pluss og minus i ett trinn innenfor 100.",
-        "Barnet kan sette opp en fortelling som en del–del–helhet-tallbinding.",
-        "Barnet kan finne en ukjent total, del eller et starttall."
+        "Løse tekstoppgaver med addisjon og subtraksjon der det ukjente tallet kan stå hvor som helst.",
+        "Ikke legge sammen alle tallene bare fordi historien sier «flere».",
+        "Prøve et svar ved å spille av historien med det."
       ]
     },
     "sort-bins.defining-attributes.1-g-a-1": {

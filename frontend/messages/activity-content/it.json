@@ -2791,25 +2791,25 @@
     },
     "numberbond.story-problem.2-oa-a-1": {
       "about": [
-        "Il bambino legge un breve problema — 20 tulipani rossi e 30 gialli, uno scaffale con 45 libri, le anatre che arrivano allo stagno — lo vede rappresentato come un legame tra numeri e poi scrive il numero mancante. È un'attività interattiva di matematica per la classe seconda, da fare direttamente nel browser, senza account.",
-        "Il legame tra numeri trasforma ogni storia nella stessa immagine: due parti e un intero. Così il bambino vede se l'incognita è il totale, una parte rimasta o una quantità di partenza. Alcuni problemi sono di addizione (quanti in tutto), altri di sottrazione (quanti ne restano, quanti ne sono arrivati), e il legame rende chiara questa scelta, invece di affidarsi a una parola chiave indovinata.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri e dei problemi: risolvere problemi a una sola operazione, di addizione e sottrazione, entro il 100. Nessun timer e nessun punteggio."
+        "Il bambino legge una breve storia, scrive il numero che secondo lui manca e preme «Rivedi»: la storia si svolge su una pista graduata con quel numero. Ogni numero detto nella storia è una bandierina su cui le barre devono arrivare. Tommaso aveva alcune biglie, ne ha trovate altre 17 e ora ne ha 45: chi scrive 62 fa partire Tommaso da 62, lo fa crescere di 17 e lo porta ben oltre la bandierina del 45, e la parte colorata mostra di quanto.",
+        "Al secondo errore la storia giusta viene rivista al contrario dalla fine, e il posto del numero che manca viene contornato, senza scriverlo. Quando il numero è giusto, le bandierine sventolano e la pista diventa uno schema parte-tutto con l’operazione sotto, qui 28 + 17 = 45. Sommare tutti i numeri o fidarsi di una sola parola chiave sbaglia apposta circa metà delle volte: così il bambino impara a rimettere la risposta nella storia.",
+        "L’attività segue le Indicazioni nazionali per la classe seconda, matematica: problemi di addizione e sottrazione entro il 100, con uno o due passaggi. Nelle impostazioni ci sono anche storie entro il 20 con figure e gruppi uguali per moltiplicare e dividere. Funziona senza audio, senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Leggere un problema e individuare i numeri che contano.",
-        "Rappresentare la situazione come un legame parte-parte-intero.",
-        "Decidere se addizionare o sottrarre in base a dove si trova l'incognita.",
-        "Risolvere problemi di addizione e sottrazione entro il 100."
+        "Trovare in una storia il totale, una parte, il cambiamento o il numero di partenza",
+        "Risolvere problemi di confronto con in più e in meno",
+        "Risolvere problemi con due passaggi",
+        "Controllare una risposta rimettendola nella storia"
       ],
       "howToPlay": [
-        "Il bambino legge il problema mostrato sopra il legame tra numeri.",
-        "Trova il numero mancante — un totale, una parte o una quantità di partenza — lo scrive sul tastierino e poi preme Controlla.",
-        "Non è corretto? Rilegge e riprova: non c'è timer e non c'è punteggio."
+        "Leggi la storia e scrivi il numero che secondo te manca.",
+        "Premi «Rivedi» e guarda se le barre arrivano su ogni bandierina. Se no, guarda dove qualcosa non torna e riprova.",
+        "Nelle impostazioni scegli storie entro il 20 con figure, entro il 100, con due passaggi o con gruppi uguali, e se le bandierine si vedono fin dall’inizio."
       ],
       "learningGoals": [
-        "Il bambino è in grado di risolvere problemi a una operazione, di addizione e sottrazione, entro il 100.",
-        "Impara a rappresentare una storia come un legame parte-parte-intero.",
-        "Trova un totale, una parte o una quantità di partenza sconosciuta."
+        "Risolvere problemi di addizione e sottrazione con il numero da trovare in qualsiasi posizione.",
+        "Non sommare tutti i numeri solo perché la storia dice «in più».",
+        "Controllare una risposta rivedendo la storia con quel numero."
       ]
     },
     "sort-bins.defining-attributes.1-g-a-1": {

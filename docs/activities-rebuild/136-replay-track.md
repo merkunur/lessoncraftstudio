@@ -69,3 +69,14 @@ Every finding was fixed at the source:
 - **`audit-settings-efficacy`:** both live. It caught "flags" changing nothing on rounds whose only flag is the story's end; per the design's §8, "only on replay" now keeps the ruler blank (no numerals, no flags) until Replay, and the setting is called Track.
 - **Other gates:** `audit-activity-next-delay` passes. Content ×11, prose claims, SERP copy, content tells and route preflight all pass.
 - **0 lines** in shared cores or `lcs-shell`.
+
+## Live
+`live-verify-replay-track.js` ran on production on 2026-10-27: **52 pass, 0 fail.**
+- All 11 pages return 200.
+- en, de, sv and fi, at 1366 and at 390, embed replay-track-activity.html at wrapper 9.881.
+- With a real pointer, in Tom's marbles story:
+  - 62 sails past the 45 flag, the gap is shaded and the miss line shows;
+  - 28 hits every flag, and the screen shows 28 + 17 = 45 with the success line.
+- The iframe grows with the card.
+
+The first run fell in the cache window: en passed, but the other locales still served the old embed. After the 5-minute TTL, the second run was clean.

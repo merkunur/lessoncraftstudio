@@ -142,7 +142,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 132 | LIVE 2026-10-27 · The Climbing Tree | 1 | L.1.5.b | `olive-kind-of.category-attribute.l-1-5-b` | olive-kind-of-activity | Olive's Kind-Of Tree — What Kind of Thing Is It? (Grade 1) |
 | 133 | LIVE 2026-10-27 · The What-For Tags | 1 | L.1.5.c | `jasper-just-right.real-life.l-1-5-c` | jasper-just-right-activity | Jasper's Just-Right Bag — Which One Would You Use? (Grade 1) |
 | 134 | LIVE 2026-10-27 · The Stove Knob | 1 | L.1.5.d | `shades.pick.l-1-5-d` | shades-activity | Pesto's Soup Stall — Shades of Meaning (Grade 1) |
-| 135 |  | 1 | 1.OA.B.3 | `match-pairs.add-it-both-ways.1-oa-b-3` | match-pairs-activity | Add It Both Ways |
+| 135 | LIVE 2026-10-27 · The Leapfrog Parts | 1 | 1.OA.B.3 | `match-pairs.add-it-both-ways.1-oa-b-3` | match-pairs-activity | Add It Both Ways |
 | 136 |  | 2 | 2.OA.A.1 | `numberbond.story-problem.2-oa-a-1` | number-bond-activity | Story Problems — Add & Subtract Within 100 as a Bond (Grade 2) |
 | 137 | design input: `rebuild-inputs/137-dealing-table.md` | 2 | 2.OA.C.3 | `choice-board.even-odd.2-oa-c-3` | choice-board-activity | Even or Odd? — Number Sense for Grade 2 |
 | 138 |  | 2 | 2.OA.C.4 | `array.build-array.2-oa-c-4` | array-activity | Build an Array — Rows, Columns & Repeated Addition (Grade 2) |

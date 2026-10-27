@@ -771,25 +771,25 @@
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {
       "about": [
-        "Barnet ser plusstykker som 4 + 7 og 7 + 4 eller 5 + 9 og 9 + 5 og forbinder hvert plusstykke med det samme stykke, hvor tallene er byttet om — tryk på ét kort og derefter på dets ombyttede tvilling, og parret bliver forbundet. Det er et interaktivt kortspil til matematik i 1. klasse, der spilles direkte i browseren — uden at installere noget og uden konto.",
-        "Den store idé er den kommutative lov: 4 + 7 og 7 + 4 bliver begge 11, så rækkefølgen af tallene ændrer ikke det samlede resultat. Hver runde viser seks kort — tre ombyttede par blandet sammen — så barnet regner resultaterne ud og lægger mærke til, hvilke plusstykker der bruger præcis de samme tal, bare vendt om. Barnet matcher ikke ens kort; det opdager, at to stykker, der ser forskellige ud, giver det samme.",
-        "Aktiviteten følger Fælles Mål inden for tal og algebra: at bruge regnereglerne, fx den kommutative lov, som en strategi til at lægge sammen. Der er ingen timer og ingen point — bare rolig, legende træning i 1. klasse."
+        "De to tal på hvert kort er klodser af centicubes. Barnet trykker på et kort og så på det kort, det tror er tvillingen: på vejen springer de to klodser buk over plustegnet, 4 + 7 bliver til 7 + 4, uden at noget kommer til eller forsvinder, og kortet lægger sig kun på sin rigtige tvilling. I de fleste runder giver alle seks kort det samme resultat, så resultatet alene finder aldrig tvillingen; et kort, der lægges på en falsk tvilling, viser netop den terning, hvor farverne ikke passer.",
+        "Minuskortene bærer den anden halvdel af hver regnefamilie: 11 − 4 = 7 og 11 − 7 = 4 er tvillinger, fordi de to dele bytter plads på hver sin side af lighedstegnet, mens helheden bliver stående forrest. Trykker barnet på minustegnet, prøver helheden at springe over sin egen del og hopper tilbage. Der er tal op til 10 og op til 20 og runder med byttestykker, minusstykker eller blandet.",
+        "Øvelsen følger Fælles Mål for matematik i 1. klasse, tal og regneoperationer. Den virker uden lyd, uden tidtagning og uden point."
       ],
       "practices": [
-        "Genkende, at tal kan lægges sammen i vilkårlig rækkefølge og give det samme",
-        "Lægge små tal sammen, fx 6 + 9, og bekræfte, at 9 + 6 giver det samme",
-        "Forbinde hvert plusstykke med dets ombyttede tvilling blandt de blandede kort",
-        "Bruge ombytningsstykket som en strategi til at lægge lettere sammen"
+        "Lægge de samme to tal sammen i begge rækkefølger",
+        "Skelne et byttestykke fra et kort med samme resultat",
+        "Finde de to minusstykker med samme helhed",
+        "Se, at helheden aldrig flytter sig i et minusstykke"
       ],
       "howToPlay": [
-        "Barnet kigger på de seks plusstykker og finder ud af, hvilke der bruger de samme to tal i en anden rækkefølge.",
-        "Barnet trykker på et plusstykke som 3 + 6 og derefter på dets ombyttede tvilling 6 + 3 og ser parret blive forbundet.",
-        "Bliv ved, til alle tre par er forbundet — der er ingen timer og ingen point, så tag dig god tid."
+        "Tryk på et kort og så på det kort, du tror er dets tvilling.",
+        "Er det ikke tvillingen, så se på den terning, der lyser, og prøv igen.",
+        "I indstillingerne vælger du tal op til 10 eller op til 20 og byttestykker, minusstykker eller blandet."
       ],
       "learningGoals": [
-        "Barnet kan bruge den kommutative lov for addition",
-        "Barnet kan forstå, at det giver det samme i alt at bytte om på rækkefølgen af tallene",
-        "Barnet kan bruge ombytningsstykker til at lægge hurtigere og mere sikkert sammen inden for 20"
+        "Vide, at tallenes rækkefølge ikke ændrer en sum.",
+        "Bruge et kendt stykke til at finde byttestykket.",
+        "Parre de to minusstykker med samme helhed."
       ]
     },
     "numberbond.make-ten-to-add.1-oa-c-6": {

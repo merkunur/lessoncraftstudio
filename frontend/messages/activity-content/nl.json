@@ -3530,25 +3530,25 @@
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {
       "about": [
-        "Je kind ziet optelkaarten zoals 4 + 7 en 7 + 4, of 5 + 9 en 9 + 5, en verbindt elke optelling met dezelfde twee getallen in de omgekeerde volgorde: tik op een kaart, dan op zijn omgedraaide tweelingkaart, en het paar verbindt. Het is een interactief rekenspel dat zonder installeren of account direct in de browser speelt.",
-        "Het grote idee is dat bij optellen de volgorde niet uitmaakt: 4 + 7 en 7 + 4 maken allebei 11, dus de volgorde van de getallen verandert het totaal niet. Elke ronde toont zes kaarten, drie omgedraaide paren door elkaar, zodat je kind de totalen uitrekent en ziet welke optellingen precies dezelfde getallen omgedraaid gebruiken. Het zoekt geen identieke kaarten, maar herkent dat twee sommen die er anders uitzien toch evenveel zijn.",
-        "De activiteit sluit aan bij de kerndoelen voor rekenen in groep 3: de omkeerregel gebruiken als handige strategie om op te tellen. Geen timer, geen score; gewoon rustig oefenen."
+        "De twee getallen op elke kaart zijn staafjes van insteekblokjes. Het kind tikt op een kaart en dan op de kaart die volgens hem zijn tweelingkaart is: onderweg spelen de twee blokken haasje-over over het plusteken, 4 + 7 wordt 7 + 4 zonder dat er iets bij komt of af gaat, en de kaart past alleen op zijn echte tweelingkaart. In de meeste rondes hebben alle zes kaarten dezelfde uitkomst, dus de uitkomst alleen vindt nooit de tweelingkaart; een kaart op een nep-tweeling laat precies het blokje zien waar de kleuren niet kloppen.",
+        "Minkaarten brengen de andere helft van elke sommenfamilie: 11 − 4 = 7 en 11 − 7 = 4 zijn een tweeling, omdat de twee delen over het is-teken heen ruilen terwijl het geheel vooraan blijft. Tikt het kind op het minteken, dan probeert het geheel over zijn eigen deel te springen en stuitert het terug. Er zijn getallen tot 10 en tot 20, en rondes met wisselsommen, minsommen of gemengd.",
+        "De oefening sluit aan bij de kerndoelen rekenen-wiskunde van SLO voor groep 3 (wisselsommen). Ze werkt zonder geluid, zonder tijdsdruk en zonder score."
       ],
       "practices": [
-        "Herkennen dat getallen in elke volgorde opgeteld hetzelfde totaal geven",
-        "Kleine getallen optellen zoals 6 + 9 en bevestigen dat 9 + 6 hetzelfde antwoord geeft",
-        "Elke optelling koppelen aan zijn omgedraaide tweeling tussen door elkaar gegooide kaarten",
-        "De omkeersom gebruiken als strategie om makkelijker op te tellen"
+        "Dezelfde twee getallen in beide volgordes optellen",
+        "Een wisselsom onderscheiden van een kaart met dezelfde uitkomst",
+        "De twee minsommen van één geheel vinden",
+        "Zien dat het geheel bij een minsom nooit verschuift"
       ],
       "howToPlay": [
-        "Kijk naar de zes optelkaarten en zoek welke dezelfde twee getallen in een andere volgorde gebruiken.",
-        "Tik op een optelling zoals 3 + 6, dan op zijn omgedraaide tweeling 6 + 3, en kijk hoe het paar verbindt.",
-        "Ga door tot alle drie de paren verbonden zijn; er is geen timer en geen score, dus neem rustig de tijd."
+        "Tik op een kaart en dan op de kaart die volgens jou zijn tweelingkaart is.",
+        "Is het niet de tweelingkaart, kijk dan naar het blokje dat oplicht en probeer het nog eens.",
+        "In de instellingen kies je getallen tot 10 of tot 20, en wisselsommen, minsommen of gemengd."
       ],
       "learningGoals": [
-        "Je kind past de omkeerregel bij optellen toe.",
-        "Het kind begrijpt dat de volgorde van de getallen veranderen het totaal gelijk houdt.",
-        "Het kind gebruikt omkeersommen om optellen tot 20 sneller en zekerder te maken."
+        "Weten dat de volgorde van de getallen een som niet verandert.",
+        "Een bekende som gebruiken om de wisselsom te vinden.",
+        "De twee minsommen van één geheel koppelen."
       ]
     },
     "numberbond.make-ten-to-add.1-oa-c-6": {

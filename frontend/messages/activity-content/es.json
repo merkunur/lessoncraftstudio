@@ -2870,25 +2870,25 @@
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {
       "about": [
-        "El niño o la niña ve tarjetas de suma como 4 + 7 y 7 + 4, o 5 + 9 y 9 + 5, y enlaza cada suma con la misma pareja de números sumados al revés: toca una tarjeta, luego su gemela volteada, y la pareja queda unida. Es un juego interactivo de relacionar tarjetas de matemáticas para primero de primaria que corre directo en el navegador, sin instalar nada y sin crear cuenta.",
-        "La idea clave es la propiedad conmutativa: 4 + 7 y 7 + 4 dan los dos 11, así que el orden de los sumandos no cambia el total. Cada ronda muestra seis tarjetas —tres parejas volteadas, revueltas entre sí— para que tu hijo o hija calcule los totales y note cuáles sumas usan los mismos números, solo que al revés. No se trata de juntar tarjetas idénticas, sino de reconocer que dos sumas que se ven distintas valen lo mismo.",
-        "Está alineada con los planes y programas de estudio (SEP): usar las propiedades de las operaciones, como la conmutativa, como estrategia para sumar. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+        "Los dos números de cada tarjeta son bloques de cubos encajables. El niño toca una tarjeta y luego la que cree que es su gemela: en el camino, los dos bloques juegan a brincar el burro por encima del signo más, 4 + 7 se vuelve 7 + 4 sin ganar ni perder nada, y la tarjeta solo se acomoda sobre su verdadera gemela. En la mayoría de las rondas las seis tarjetas dan el mismo total, así que el total por sí solo nunca encuentra la gemela; una tarjeta puesta sobre una impostora muestra justo el cubo donde los colores no coinciden.",
+        "Las tarjetas de resta traen la otra mitad de cada familia de operaciones: 11 − 4 = 7 y 11 − 7 = 4 son gemelas, porque las dos partes cambian de lugar de un lado al otro del signo igual mientras el total se queda adelante. Si el niño toca el signo menos, el total intenta saltar sobre su propia parte y rebota. Hay números hasta 10 y hasta 20, y rondas de sumas al revés, de restas o mezcladas.",
+        "La actividad está alineada con los planes de estudio de primer grado de primaria, campo formativo Saberes y Pensamiento Científico: el orden de los sumandos no cambia la suma. Funciona sin sonido, sin reloj y sin puntaje."
       ],
       "practices": [
-        "Reconocer que los sumandos se pueden sumar en cualquier orden y dar el mismo total.",
-        "Sumar números pequeños como 6 + 9 y confirmar que 9 + 6 da la misma respuesta.",
-        "Relacionar cada suma con su gemela volteada entre tarjetas revueltas.",
-        "Usar la suma «al revés» como estrategia para sumar con más facilidad."
+        "Sumar los mismos dos números en cualquier orden",
+        "Distinguir una suma al revés de una tarjeta con el mismo total",
+        "Encontrar las dos restas de un mismo total",
+        "Ver que el total nunca se mueve en una resta"
       ],
       "howToPlay": [
-        "Mira las seis tarjetas de suma y averigua cuáles usan los mismos dos números en distinto orden.",
-        "Toca una suma como 3 + 6 y luego toca su gemela volteada 6 + 3, y observa cómo se enlazan.",
-        "Sigue hasta unir las tres parejas: no hay temporizador ni puntuación, tómate tu tiempo."
+        "Toca una tarjeta y luego la tarjeta que crees que es su gemela.",
+        "Si no es la gemela, mira el cubo que brilla e inténtalo otra vez.",
+        "En los ajustes elige números hasta 10 o hasta 20, y tarjetas de suma, de resta o mezcladas."
       ],
       "learningGoals": [
-        "Tu hijo o hija puede aplicar la propiedad conmutativa de la suma.",
-        "El niño o la niña aprende a entender que cambiar el orden de los sumandos mantiene el mismo total.",
-        "Usa las sumas «al revés» para sumar hasta el 20 con más rapidez y confianza."
+        "Saber que el orden de los números no cambia una suma.",
+        "Usar una suma conocida para encontrar la suma al revés.",
+        "Relacionar las dos restas de un mismo total."
       ]
     },
     "numberbond.make-ten-to-add.1-oa-c-6": {

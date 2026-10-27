@@ -1814,25 +1814,25 @@
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {
       "about": [
-        "Il bambino vede carte con addizioni come 4 + 7 e 7 + 4, oppure 5 + 9 e 9 + 5, e collega ogni addizione agli stessi due numeri sommati al contrario — tocca una carta, poi tocca la sua gemella scambiata, e la coppia abbinata si unisce. È un gioco di abbinamento di carte per la classe prima, interattivo, che si gioca direttamente nel browser, senza installazione e senza account.",
-        "L'idea importante è la proprietà commutativa: 4 + 7 e 7 + 4 fanno entrambe 11, quindi l'ordine degli addendi non cambia il totale. Ogni turno mostra sei carte — tre coppie scambiate mescolate tra loro — così il bambino calcola i totali e nota quali addizioni usano proprio gli stessi numeri girati. Non sta abbinando carte identiche: sta riconoscendo che due somme dall'aspetto diverso sono uguali.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: usare le proprietà delle operazioni, come la proprietà commutativa, come strategie per addizionare. Nessun timer, nessun punteggio: solo pratica serena e giocosa."
+        "I due numeri di ogni carta sono blocchi di cubetti a incastro. Il bambino tocca una carta, poi quella che secondo lui è la sua gemella: durante il viaggio i due blocchi giocano alla cavallina sopra il segno più, 4 + 7 diventa 7 + 4 senza guadagnare né perdere nulla, e la carta si posa solo sulla vera gemella. Nella maggior parte dei giri le sei carte danno lo stesso totale, quindi il totale da solo non trova mai la gemella; una carta posata su una finta gemella mostra proprio il cubetto in cui i colori non combaciano.",
+        "Le carte di sottrazione portano l’altra metà di ogni famiglia di operazioni: 11 − 4 = 7 e 11 − 7 = 4 sono gemelle, perché le due parti si scambiano di posto da una parte all’altra del segno uguale mentre il tutto resta davanti. Se il bambino tocca il segno meno, il tutto prova a saltare sopra la sua parte e rimbalza indietro. Ci sono numeri fino a 10 e fino a 20, e giri di somme al contrario, di sottrazioni o mescolati.",
+        "L’attività segue le Indicazioni nazionali per la classe prima, matematica: la proprietà commutativa dell’addizione. Funziona senza audio, senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Riconoscere che gli addendi si possono sommare in qualsiasi ordine ottenendo lo stesso totale.",
-        "Sommare numeri piccoli come 6 + 9 e confermare che 9 + 6 dà lo stesso risultato.",
-        "Abbinare ogni addizione alla sua gemella scambiata tra le carte mescolate.",
-        "Usare il fatto «girato» come strategia per addizionare più facilmente."
+        "Sommare gli stessi due numeri in un ordine o nell’altro",
+        "Distinguere una somma al contrario da una carta con lo stesso totale",
+        "Trovare le due sottrazioni di uno stesso tutto",
+        "Vedere che il tutto non si sposta mai in una sottrazione"
       ],
       "howToPlay": [
-        "Il bambino guarda le sei carte con le addizioni e capisce quali usano gli stessi due numeri in ordine diverso.",
-        "Tocca un'addizione come 3 + 6, poi tocca la sua gemella scambiata 6 + 3, e osserva la coppia collegarsi.",
-        "Continua finché tutte e tre le coppie sono abbinate: non ci sono timer né punteggio, quindi con calma."
+        "Tocca una carta, poi la carta che secondo te è la sua gemella.",
+        "Se non è la gemella, guarda il cubetto che si illumina e riprova.",
+        "Nelle impostazioni scegli numeri fino a 10 o fino a 20, e carte di addizione, di sottrazione o mescolate."
       ],
       "learningGoals": [
-        "Applicare la proprietà commutativa dell'addizione.",
-        "Capire che cambiare l'ordine degli addendi lascia uguale il totale.",
-        "Usare i fatti «girati» per addizionare entro il 20 in modo più rapido e sicuro."
+        "Sapere che l’ordine dei numeri non cambia una somma.",
+        "Usare un fatto noto per trovare la somma al contrario.",
+        "Abbinare le due sottrazioni di uno stesso tutto."
       ]
     },
     "numberbond.make-ten-to-add.1-oa-c-6": {

@@ -87,6 +87,10 @@ function seedScript(row) {
     // the mop on the chart, "map" spelled in its boxes, Mirror pressed — the mirror shows a map, not the patient: the invention at work
     return `(function(){var t=window['${g}'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(1,0);t._render2();t._tile(1);t._look();}})();`;
   }
+  if (row.tool === 'leapfrog-parts-activity') {
+    // one twin pair found (its plate on the shelf), a second card lifted and leapfrogged in place: 4 + 7 shown as 7 + 4, the total bar unchanged
+    return `(function(){var t=window['${g}'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(0,0);t._render2();var c=t.st.rd.cards,tw=function(i){return c.findIndex(function(d,j){return j!==i&&d.pair===c[i].pair;});};t._pick(0);t._pick(tw(0));var k=c.findIndex(function(d,j){return d.pair!==c[0].pair;});t._pick(k);t._view.leapNow=k;t._paint();}})();`;
+  }
   if (row.tool === 'stove-knob-activity') {
     // the heat ladder: warm, hot, boiling on the knob's clicks, Turn it up pressed — three flames, the soup at its deepest: flame and soup rose together
     return `(function(){var t=window['${g}'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(0,0);t._render2();var r=t.st.rd.tiles;[1,2,3].forEach(function(k,c){t._tile(r.findIndex(function(x){return x.rank===k;}));t._win(c);});t._check();}})();`;

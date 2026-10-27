@@ -1310,25 +1310,25 @@
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {
       "about": [
-        "Cartões de soma como 4 + 7 e 7 + 4, ou 5 + 9 e 9 + 5, aparecem para a criança ligar cada adição aos mesmos dois números somados na outra ordem — toca em um cartão, depois no seu gêmeo trocado, e a dupla se conecta. É um jogo interativo de combinar cartões de matemática para o 1º ano, que roda direto no navegador, sem instalar e sem conta.",
-        "A grande ideia é a propriedade comutativa: 4 + 7 e 7 + 4 dão os dois 11, ou seja, mudar a ordem das parcelas não muda o total. Cada rodada mostra seis cartões — três duplas trocadas embaralhadas juntas — então a criança calcula os totais e percebe quais somas usam exatamente os mesmos números invertidos. Ela não combina cartões idênticos; ela reconhece que duas somas de cara diferente valem a mesma coisa.",
-        "A atividade está alinhada à BNCC, na unidade temática Números, usando propriedades das operações, como a comutativa, como estratégia para somar. Sem cronômetro, sem pontuação: só prática divertida e tranquila."
+        "Os dois números de cada cartão são blocos de cubinhos de encaixe. A criança toca num cartão e depois no cartão que acha que é o gêmeo dele: no caminho, os dois blocos brincam de pular carniça por cima do sinal de mais, 4 + 7 vira 7 + 4 sem ganhar nem perder nada, e o cartão só se encaixa no gêmeo de verdade. Na maioria das rodadas os seis cartões têm o mesmo total, então o total sozinho nunca acha o gêmeo; um cartão colocado sobre um impostor mostra exatamente o cubo em que as cores não batem.",
+        "Os cartões de subtração trazem a outra metade de cada família de fatos: 11 − 4 = 7 e 11 − 7 = 4 são gêmeos, porque as duas partes trocam de lugar de um lado para o outro do sinal de igual enquanto o todo fica na frente. Se a criança tocar no sinal de menos, o todo tenta pular por cima da própria parte e volta. Há números até 10 e até 20, e rodadas de somas ao contrário, de subtrações ou misturadas.",
+        "A atividade está de acordo com a BNCC, Matemática, 1º ano: a ordem das parcelas não altera a soma. Funciona sem som, sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Reconhecer que as parcelas podem ser somadas em qualquer ordem com o mesmo total.",
-        "Somar números pequenos como 6 + 9 e confirmar que 9 + 6 dá a mesma resposta.",
-        "Combinar cada adição com o seu gêmeo trocado entre os cartões embaralhados.",
-        "Usar a soma “de cabeça para baixo” como estratégia para somar com mais facilidade."
+        "Somar os mesmos dois números em qualquer ordem",
+        "Diferenciar uma soma ao contrário de um cartão com o mesmo total",
+        "Encontrar as duas subtrações de um mesmo todo",
+        "Ver que o todo nunca se move numa subtração"
       ],
       "howToPlay": [
-        "Olhe os seis cartões de soma e descubra quais usam os mesmos dois números em ordem diferente.",
-        "Toque em uma soma como 3 + 6, depois no seu gêmeo trocado 6 + 3, e veja a dupla se ligar.",
-        "Continue até combinar as três duplas — não tem cronômetro nem pontuação, então vá com calma."
+        "Toque em um cartão e depois no cartão que você acha que é o gêmeo dele.",
+        "Se não for o gêmeo, olhe o cubo que brilha e tente de novo.",
+        "Nas configurações, escolha números até 10 ou até 20, e cartões de soma, de subtração ou misturados."
       ],
       "learningGoals": [
-        "Aplicar a propriedade comutativa da adição.",
-        "Entender que mudar a ordem das parcelas mantém o total igual.",
-        "Usar as somas trocadas para somar até 20 com mais rapidez e confiança."
+        "Saber que a ordem dos números não muda uma soma.",
+        "Usar um fato conhecido para achar a soma ao contrário.",
+        "Relacionar as duas subtrações de um mesmo todo."
       ]
     },
     "numberbond.make-ten-to-add.1-oa-c-6": {

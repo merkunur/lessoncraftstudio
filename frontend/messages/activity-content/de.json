@@ -3316,26 +3316,25 @@
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {
       "about": [
-        "Das Kind sieht Plusaufgaben wie 4 + 7 und 7 + 4 oder 5 + 9 und 9 + 5 und verbindet jede Aufgabe mit denselben zwei Zahlen, nur in umgekehrter Reihenfolge addiert – tippe auf eine Karte, dann auf ihren vertauschten Zwilling, und das Paar verbindet sich. Dieses interaktive Karten-Zuordnungsspiel für die 1. Klasse läuft direkt im Browser – ohne Installation und ohne Konto.",
-        "Die wichtige Idee ist das Vertauschungsgesetz: 4 + 7 und 7 + 4 ergeben beide 11, also verändert die Reihenfolge der Summanden die Summe nicht. Jede Runde zeigt sechs Karten – drei vertauschte Paare durcheinandergemischt – sodass das Kind die Summen ausrechnet und merkt, welche Aufgaben genau dieselben Zahlen, nur umgedreht, verwenden. Es ordnet keine gleichen Karten zu, sondern erkennt, dass zwei unterschiedlich aussehende Summen gleich sind.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Operationen ausgerichtet – Rechengesetze wie das Vertauschungsgesetz als Strategie beim Addieren nutzen. Es gibt keinen Timer und keine Punktewertung – nur ruhiges, spielerisches Üben."
+        "Die zwei Zahlen auf jeder Karte sind Blöcke aus Steckwürfeln. Das Kind tippt eine Karte an und dann die Karte, die es für ihren Zwilling hält: Unterwegs machen die beiden Blöcke Bockspringen über das Pluszeichen, aus 4 + 7 wird 7 + 4, nichts kommt dazu, nichts geht verloren, und die Karte legt sich nur auf ihren echten Zwilling. In den meisten Runden haben alle sechs Karten dasselbe Ergebnis, das Ergebnis allein findet also keinen Zwilling; eine Karte auf einem falschen Zwilling zeigt genau den Würfel, bei dem die Farben nicht passen.",
+        "Minuskarten bringen die andere Hälfte jeder Aufgabenfamilie: 11 − 4 = 7 und 11 − 7 = 4 sind Zwillinge, weil die zwei Teile über das Gleichheitszeichen hinweg tauschen und das Ganze vorn bleibt. Tippt das Kind auf das Minuszeichen, versucht das Ganze, über seinen eigenen Teil zu springen, und prallt zurück. Es gibt Zahlen bis 10 und bis 20 und Runden mit Tauschaufgaben, Minusaufgaben oder gemischt.",
+        "Die Übung passt zum Bereich „Zahlen und Operationen“ des Lehrplans der Grundschule, Klasse 1 (Tauschaufgaben und Aufgabenfamilien). Sie funktioniert ohne Ton, ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "Erkennen, dass Summanden in beliebiger Reihenfolge dieselbe Summe ergeben.",
-        "Kleine Zahlen wie 6 + 9 addieren und bestätigen, dass 9 + 6 dasselbe ergibt.",
-        "Jede Plusaufgabe ihrem vertauschten Zwilling unter den gemischten Karten zuordnen.",
-        "Die Tauschaufgabe als Strategie zum leichteren Rechnen nutzen.",
-        "Zwei unterschiedlich aussehende Summen als gleichwertig erkennen."
+        "Dieselben zwei Zahlen in beiden Reihenfolgen addieren",
+        "Eine Tauschaufgabe von einer Karte mit gleichem Ergebnis unterscheiden",
+        "Die zwei Minusaufgaben eines Ganzen finden",
+        "Sehen, dass das Ganze bei einer Minusaufgabe vorn bleibt"
       ],
       "howToPlay": [
-        "Schau dir die sechs Plusaufgaben an und finde heraus, welche dieselben zwei Zahlen in anderer Reihenfolge verwenden.",
-        "Tippe auf eine Aufgabe wie 3 + 6, dann auf ihren vertauschten Zwilling 6 + 3 – und sieh zu, wie sich das Paar verbindet.",
-        "Mach weiter, bis alle drei Paare zugeordnet sind – es gibt keinen Timer und keine Punktewertung, lass dir also Zeit."
+        "Tippe eine Karte an und dann die Karte, die du für ihren Zwilling hältst.",
+        "Ist es nicht der Zwilling, schau dir den leuchtenden Würfel an und versuch es noch einmal.",
+        "In den Einstellungen wählst du Zahlen bis 10 oder bis 20 und Tauschaufgaben, Minusaufgaben oder gemischt."
       ],
       "learningGoals": [
-        "Das Vertauschungsgesetz der Addition anwenden.",
-        "Verstehen, dass die Reihenfolge der Summanden die Summe nicht verändert.",
-        "Mit Tauschaufgaben das Addieren bis 20 schneller und sicherer machen."
+        "Wissen, dass die Reihenfolge der Zahlen das Ergebnis nicht ändert.",
+        "Mit einer bekannten Aufgabe ihre Tauschaufgabe lösen.",
+        "Die zwei Minusaufgaben eines Ganzen zuordnen."
       ]
     },
     "numberbond.make-ten-to-add.1-oa-c-6": {

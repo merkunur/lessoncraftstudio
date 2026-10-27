@@ -2690,24 +2690,25 @@
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {
       "about": [
-        "L'enfant voit des cartes d'addition comme 4 + 7 et 7 + 4, ou 5 + 9 et 9 + 5, et relie chaque addition aux deux mêmes nombres additionnés dans l'autre sens : il touche une carte, puis sa jumelle inversée, et la paire trouvée se connecte. C'est un jeu d'association de cartes de CP, interactif, qui se joue directement dans le navigateur, sans installation et sans compte.",
-        "La grande idée, c'est la commutativité : 4 + 7 et 7 + 4 font tous les deux 11, donc l'ordre des termes ne change pas le total. Chaque manche montre six cartes — trois paires inversées mélangées — alors l'enfant calcule les totaux et repère quelles additions emploient exactement les mêmes nombres, simplement retournés. Il n'associe pas des cartes identiques : il reconnaît que deux sommes d'apparence différente sont égales. L'activité est conforme aux programmes officiels : ni minuteur, ni score, juste un entraînement calme et ludique."
+        "Les deux nombres de chaque carte sont des blocs de cubes emboîtables. L’enfant touche une carte, puis celle qu’il pense être sa jumelle : en chemin, les deux blocs jouent à saute-mouton par-dessus le signe plus, 4 + 7 devient 7 + 4 sans rien gagner ni perdre, et la carte ne se pose que sur sa vraie jumelle. Dans la plupart des manches, les six cartes ont le même total : le total seul ne trouve donc jamais la jumelle, et une carte posée sur une fausse jumelle montre le cube exact où les couleurs ne correspondent pas.",
+        "Les cartes de soustraction portent l’autre moitié de chaque famille d’opérations : 11 − 4 = 7 et 11 − 7 = 4 sont jumelles, car les deux parties changent de place de part et d’autre du signe égal, tandis que le tout reste en premier. Si l’enfant touche le signe moins, le tout essaie de sauter par-dessus sa propre partie et rebondit. Les nombres vont jusqu’à 10 ou jusqu’à 20, avec des manches d’additions retournées, de soustractions ou mélangées.",
+        "L’activité suit les programmes officiels du cycle 2 (CP) pour le calcul : on peut changer l’ordre des termes d’une addition. Elle fonctionne sans le son, sans chronomètre et sans score."
       ],
       "practices": [
-        "Reconnaître qu'on peut additionner les termes dans n'importe quel ordre pour le même total.",
-        "Additionner de petits nombres comme 6 + 9 et confirmer que 9 + 6 donne le même résultat.",
-        "Associer chaque addition à sa jumelle inversée parmi les cartes mélangées.",
-        "Utiliser l'« addition retournée » comme stratégie pour additionner plus facilement."
+        "Additionner les deux mêmes nombres dans un sens ou dans l’autre",
+        "Distinguer une addition retournée d’une carte au même total",
+        "Trouver les deux soustractions d’un même tout",
+        "Voir que le tout ne bouge jamais dans une soustraction"
       ],
       "howToPlay": [
-        "Regarde les six cartes d'addition et cherche celles qui utilisent les deux mêmes nombres dans un ordre différent.",
-        "Touche une addition comme 3 + 6, puis sa jumelle inversée 6 + 3, et regarde la paire se relier.",
-        "Continue jusqu'à ce que les trois paires soient reliées : il n'y a ni minuteur, ni score, alors prends ton temps."
+        "Touche une carte, puis la carte qui est sa jumelle, à ton avis.",
+        "Si ce n’est pas la jumelle, regarde le cube qui brille et essaie encore.",
+        "Dans les réglages, choisis les nombres jusqu’à 10 ou jusqu’à 20, et des cartes d’addition, de soustraction ou mélangées."
       ],
       "learningGoals": [
-        "Appliquer la commutativité de l'addition.",
-        "Comprendre que changer l'ordre des termes ne change pas le total.",
-        "Utiliser les additions retournées pour additionner jusqu'à 20 plus vite et avec plus d'assurance."
+        "Savoir que l’ordre des nombres ne change pas une somme.",
+        "Utiliser un résultat connu pour trouver l’addition retournée.",
+        "Associer les deux soustractions d’un même tout."
       ]
     },
     "numberbond.make-ten-to-add.1-oa-c-6": {

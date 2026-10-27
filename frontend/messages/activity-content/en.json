@@ -2487,25 +2487,25 @@
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {
       "about": [
-        "Children see addition cards like 4 + 7 and 7 + 4, or 5 + 9 and 9 + 5, and link each addition to the same two numbers added the other way — tap one card, then tap its swapped twin, and the matched pair connects. It's an interactive Grade 1 math card-matching game that plays right in the browser — no install, no account.",
-        "The big idea is the commutative property: 4 + 7 and 7 + 4 both make 11, so the order of the addends does not change the total. Each round shows six cards — three swapped pairs jumbled together — so children work out the totals and notice which additions use the very same numbers flipped around. They are not matching identical cards; they are recognizing that two different-looking sums are equal.",
-        "It is aligned to Common Core 1.OA.B.3 — using properties of operations, like the commutative property, as strategies to add. No timer, no score — just calm, playful practice."
+        "The two numbers on every card are blocks of snap-cubes. The child taps a card, then the card they think is its twin: on the way over, the two blocks leapfrog across the plus sign, so 4 + 7 becomes 7 + 4 with nothing gained or lost, and the card settles only onto its true twin. In most rounds all six cards make the same total, so the total alone never finds a twin; a card laid on an impostor shows the very cube where the colours disagree.",
+        "Take-away cards carry the other half of every fact family: 11 − 4 = 7 and 11 − 7 = 4 are twins, because the two parts trade places across the equals sign while the whole stays first. Tap the minus sign and the whole tries to jump over its own part, and bounces back. There are numbers to 10 and to 20, and turnaround, take-away or mixed rounds.",
+        "It is aligned to Common Core 1.OA.B.3: apply the properties of operations as strategies to add and subtract. It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Recognize that addends can be added in any order for the same total",
-        "Add small numbers like 6 + 9 and confirm 9 + 6 gives the same answer",
-        "Match each addition to its swapped twin among jumbled cards",
-        "Use the turn-around fact as a strategy for adding more easily"
+        "Add the same two numbers in either order",
+        "Tell a turnaround twin from a card with the same total",
+        "Find the two take-away facts of one whole",
+        "See that the whole never moves in a take-away"
       ],
       "howToPlay": [
-        "Look at the six addition cards and work out which ones use the same two numbers in a different order.",
-        "Tap an addition like 3 + 6, then tap its swapped twin 6 + 3, and watch the pair link.",
-        "Keep going until all three pairs are matched — there is no timer and no score, so take your time."
+        "Tap a card, then tap the card you think is its twin.",
+        "If it is not the twin, look at the cube that glows, and try again.",
+        "In the settings, choose numbers to 10 or to 20, and turnaround, take-away or mixed cards."
       ],
       "learningGoals": [
-        "Apply the commutative property of addition — the focus of Common Core 1.OA.B.3",
-        "Understand that changing the order of the addends keeps the total the same",
-        "Use turn-around facts to make adding within 20 quicker and more confident"
+        "Know that the order of the numbers does not change a sum.",
+        "Use a known fact to find its turnaround.",
+        "Match the two subtraction facts of one whole."
       ]
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {

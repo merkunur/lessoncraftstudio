@@ -1199,25 +1199,25 @@
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {
       "about": [
-        "Tehtävässä näytetään yhteenlaskukortteja, kuten 4 + 7 ja 7 + 4 tai 5 + 9 ja 9 + 5, ja lapsi yhdistää jokaisen yhteenlaskun samoihin lukuihin toisin päin laskettuna — napauta yhtä korttia ja sitten sen käännettyä kaksoiskorttia, jolloin pari yhdistyy. Harjoitus on vuorovaikutteinen 1. luokan matematiikan korttien yhdistämispeli, joka toimii suoraan selaimessa — ei asennusta, ei tiliä.",
-        "Tärkein ajatus on vaihdannaisuus: 4 + 7 ja 7 + 4 antavat molemmat 11, joten yhteenlaskettavien järjestys ei muuta summaa. Jokaisella kierroksella näkyy kuusi korttia — kolme käännettyä paria sekaisin — joten lapsi laskee summat ja huomaa, missä yhteenlaskuissa käytetään samoja lukuja toisin päin. Lapsi ei yhdistä samanlaisia kortteja, vaan tunnistaa, että kaksi erilaiselta näyttävää summaa ovat yhtä suuret.",
-        "Harjoitus on OPS 2014:n mukainen lukujen ja laskutoimitusten osa-alueella — lapsi käyttää laskutoimitusten ominaisuuksia, kuten vaihdannaisuutta, yhteenlaskun strategiana. Lapsi saa edetä rauhassa omaan tahtiinsa: ei ajastinta eikä pisteitä."
+        "Jokaisen kortin kaksi lukua ovat palikoita yhteen liitettävistä kuutioista. Lapsi napauttaa korttia ja sitten korttia, jota hän pitää sen kaksosena: matkalla kaksi palikkaa hyppäävät pukkia plusmerkin yli, 4 + 7 muuttuu muotoon 7 + 4 ilman että mitään tulee lisää tai katoaa, ja kortti asettuu vain oikean kaksosensa päälle. Useimmissa kierroksissa kaikilla kuudella kortilla on sama summa, joten pelkkä summa ei koskaan löydä kaksosta; väärän kaksosen päälle laskettu kortti näyttää juuri sen kuution, jossa värit eivät täsmää.",
+        "Vähennyskortit tuovat jokaisen laskuperheen toisen puoliskon: 11 − 4 = 7 ja 11 − 7 = 4 ovat kaksoset, koska kaksi osaa vaihtavat paikkaa yhtäsuuruusmerkin yli ja kokonaisuus pysyy ensimmäisenä. Kun lapsi napauttaa miinusmerkkiä, kokonaisuus yrittää hypätä oman osansa yli ja ponnahtaa takaisin. Luvut ovat 10:een tai 20:een asti, ja kierroksissa on vaihdettuja yhteenlaskuja, vähennyslaskuja tai molempia.",
+        "Tehtävä sopii OPS 2014:n matematiikan tavoitteisiin 1. luokalla: yhteenlaskun vaihdannaisuus. Se toimii ilman ääntä, ilman ajanottoa ja ilman pisteitä."
       ],
       "practices": [
-        "Tunnistaa, että yhteenlaskettavat voi laskea kummassa järjestyksessä tahansa ja summa pysyy samana.",
-        "Laskee pieniä lukuja kuten 6 + 9 ja varmistaa, että 9 + 6 antaa saman tuloksen.",
-        "Yhdistää jokaisen yhteenlaskun käännettyyn kaksoiskorttiinsa sekaisin olevien korttien joukosta.",
-        "Käyttää käännettyä laskua strategiana, joka helpottaa yhteenlaskua."
+        "Laskea samat kaksi lukua yhteen kummassa tahansa järjestyksessä",
+        "Erottaa vaihdettu yhteenlasku kortista, jolla on sama summa",
+        "Löytää saman kokonaisuuden kaksi vähennyslaskua",
+        "Nähdä, että kokonaisuus ei liiku vähennyslaskussa"
       ],
       "howToPlay": [
-        "Katso kuutta yhteenlaskukorttia ja päättele, missä niistä käytetään samoja kahta lukua eri järjestyksessä.",
-        "Napauta yhteenlaskua kuten 3 + 6 ja sitten sen käännettyä paria 6 + 3, ja katso, kuinka pari yhdistyy.",
-        "Jatka, kunnes kaikki kolme paria on yhdistetty — ei ajastinta eikä pisteitä, joten ota aikasi."
+        "Napauta korttia ja sitten korttia, jonka arvelet olevan sen kaksonen.",
+        "Jos se ei ole kaksonen, katso loistavaa kuutiota ja yritä uudelleen.",
+        "Asetuksista valitset luvut 10:een tai 20:een asti sekä yhteenlasku-, vähennyslasku- tai sekakortit."
       ],
       "learningGoals": [
-        "Lapsi osaa soveltaa yhteenlaskun vaihdannaisuutta.",
-        "Lapsi ymmärtää, että yhteenlaskettavien järjestyksen muuttaminen säilyttää summan samana.",
-        "Lapsi käyttää käännettyjä laskuja, jotta yhteenlasku kahteenkymmeneen sujuu nopeammin ja varmemmin."
+        "Tietää, että lukujen järjestys ei muuta summaa.",
+        "Käyttää tuttua laskua vaihdetun laskun löytämiseen.",
+        "Yhdistää saman kokonaisuuden kaksi vähennyslaskua."
       ]
     },
     "numberbond.make-ten-to-add.1-oa-c-6": {

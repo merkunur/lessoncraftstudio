@@ -533,25 +533,25 @@
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {
       "about": [
-        "Barnet ser addisjonskort som 4 + 7 og 7 + 4, eller 5 + 9 og 9 + 5, og kobler hvert regnestykke til de samme to tallene lagt sammen den andre veien — trykk på ett kort, så på tvillingen med tallene snudd om, og det rette paret kobles. Det er et interaktivt matematikkspill for 1. trinn som kjører rett i nettleseren — ingen nedlasting, ingen konto.",
-        "Den store ideen er den kommutative egenskapen: 4 + 7 og 7 + 4 blir begge 11, så rekkefølgen på leddene endrer ikke summen. Hver runde viser seks kort — tre ombyttede par blandet sammen — så barnet regner ut summene og legger merke til hvilke regnestykker som bruker akkurat de samme tallene snudd om. Barnet kobler ikke like kort; det kjenner igjen at to ulike regnestykker er like store.",
-        "Aktiviteten følger LK20 innenfor tall og algebra — å bruke egenskaper ved regneartene, som den kommutative egenskapen, som strategi for å legge sammen. Den passer for 1. trinn. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "De to tallene på hvert kort er klosser av kuber. Barnet trykker på et kort og så på kortet det tror er tvillingen: på veien hopper de to klossene bukk over plusstegnet, 4 + 7 blir 7 + 4 uten at noe kommer til eller blir borte, og kortet legger seg bare på sin ekte tvilling. I de fleste rundene gir alle seks kortene samme sum, så summen alene finner aldri tvillingen; et kort som legges på en falsk tvilling, viser akkurat den kuben der fargene ikke stemmer.",
+        "Minuskortene bærer den andre halvdelen av hver regnefamilie: 11 − 4 = 7 og 11 − 7 = 4 er tvillinger, fordi de to delene bytter plass på hver sin side av likhetstegnet mens helheten blir stående først. Trykker barnet på minustegnet, prøver helheten å hoppe over sin egen del og spretter tilbake. Det finnes tall opp til 10 og opp til 20 og runder med byttestykker, minusstykker eller blandet.",
+        "Øvelsen følger LK20, matematikk etter 2. trinn, tall og regning. Den virker uten lyd, uten tidtaking og uten poeng."
       ],
       "practices": [
-        "Kjenne igjen at ledd kan legges sammen i hvilken som helst rekkefølge med samme sum.",
-        "Legge sammen små tall som 6 + 9 og bekrefte at 9 + 6 gir samme svar.",
-        "Koble hvert regnestykke til tvillingen med tallene snudd om blant blandede kort.",
-        "Bruke snu-om-fakta som strategi for å legge sammen lettere."
+        "Legge sammen de samme to tallene i begge rekkefølger",
+        "Skille et byttestykke fra et kort med samme sum",
+        "Finne de to minusstykkene med samme helhet",
+        "Se at helheten aldri flytter seg i et minusstykke"
       ],
       "howToPlay": [
-        "Se på de seks addisjonskortene og finn ut hvilke som bruker de samme to tallene i ulik rekkefølge.",
-        "Trykk på et regnestykke som 3 + 6, og trykk så på tvillingen 6 + 3, og se paret kobles.",
-        "Fortsett til alle tre parene er koblet — det er ingen tidtaker og ingen poeng, så ta deg god tid."
+        "Trykk på et kort og så på kortet du tror er tvillingen.",
+        "Er det ikke tvillingen, se på kuben som lyser, og prøv igjen.",
+        "I innstillingene velger du tall opp til 10 eller opp til 20 og byttestykker, minusstykker eller blandet."
       ],
       "learningGoals": [
-        "Barnet kan bruke den kommutative egenskapen ved addisjon.",
-        "Barnet forstår at rekkefølgen på leddene ikke endrer summen.",
-        "Barnet bruker snu-om-fakta til å legge sammen opp til 20 raskere og tryggere."
+        "Vite at rekkefølgen på tallene ikke endrer en sum.",
+        "Bruke et kjent stykke til å finne byttestykket.",
+        "Pare de to minusstykkene med samme helhet."
       ]
     },
     "numberbond.make-ten-to-add.1-oa-c-6": {

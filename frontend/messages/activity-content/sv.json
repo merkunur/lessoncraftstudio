@@ -646,25 +646,25 @@
     },
     "match-pairs.add-it-both-ways.1-oa-b-3": {
       "about": [
-        "Barnet ser additionskort som 4 + 7 och 7 + 4, eller 5 + 9 och 9 + 5, och kopplar ihop varje addition med samma två tal lagda i omvänd ordning — tryck på ett kort, sedan på dess omvända tvilling, så kopplas paret ihop. Det är ett interaktivt parspel med matte för årskurs 1 som spelas direkt i webbläsaren — utan installation och utan konto.",
-        "Den stora idén är den kommutativa lagen: 4 + 7 och 7 + 4 blir båda 11, så ordningen på termerna ändrar inte summan. Varje runda visar sex kort — tre omvända par blandade om varandra — så barnet räknar ut summorna och lägger märke till vilka additioner som använder precis samma tal fast vända. Barnet parar inte ihop likadana kort, utan känner igen att två summor som ser olika ut ändå är lika stora.",
-        "Aktiviteten är anpassad till Lgr22 inom taluppfattning och algebra: att använda räknelagar, som den kommutativa lagen, som strategier för addition. Den här interaktiva övningen passar årskurs 1. Ingen timer, inga poäng — bara lugn, lekfull träning."
+        "De två talen på varje kort är block av klosskuber. Barnet trycker på ett kort och sedan på kortet det tror är tvillingen: på vägen hoppar de två blocken bock över plustecknet, 4 + 7 blir 7 + 4 utan att något läggs till eller försvinner, och kortet lägger sig bara på sin riktiga tvilling. I de flesta omgångar har alla sex korten samma summa, så summan ensam hittar aldrig tvillingen; ett kort som läggs på en falsk tvilling visar just den kub där färgerna inte stämmer.",
+        "Subtraktionskorten bär den andra halvan av varje räknefamilj: 11 − 4 = 7 och 11 − 7 = 4 är tvillingar, eftersom de två delarna byter plats över likhetstecknet medan helheten står kvar först. Trycker barnet på minustecknet försöker helheten hoppa över sin egen del och studsar tillbaka. Det finns tal upp till 10 och upp till 20, och omgångar med addition i bytt ordning, subtraktion eller blandat.",
+        "Övningen följer Lgr22, matematik i årskurs 1 till 3, taluppfattning och tals användning. Den fungerar utan ljud, utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Känna igen att termer kan läggas ihop i vilken ordning som helst med samma summa",
-        "Addera små tal som 6 + 9 och bekräfta att 9 + 6 ger samma svar",
-        "Para ihop varje addition med dess omvända tvilling bland blandade kort",
-        "Använda omvändningen som strategi för att addera lättare"
+        "Lägga ihop samma två tal i vilken ordning som helst",
+        "Skilja en addition i bytt ordning från ett kort med samma summa",
+        "Hitta de två subtraktionerna med samma helhet",
+        "Se att helheten aldrig flyttar sig i en subtraktion"
       ],
       "howToPlay": [
-        "Titta på de sex additionskorten och lista ut vilka som använder samma två tal i olika ordning.",
-        "Tryck på en addition som 3 + 6, sedan på dess omvända tvilling 6 + 3, och se hur paret kopplas ihop.",
-        "Fortsätt tills alla tre paren är ihopkopplade — det finns ingen timer och inga poäng, så ta den tid du behöver."
+        "Tryck på ett kort och sedan på kortet du tror är dess tvilling.",
+        "Är det inte tvillingen, titta på kuben som lyser och försök igen.",
+        "I inställningarna väljer du tal upp till 10 eller upp till 20 och bytt ordning, subtraktion eller blandat."
       ],
       "learningGoals": [
-        "Barnet kan använda den kommutativa lagen för addition",
-        "Barnet förstår att ändrad ordning på termerna inte ändrar summan",
-        "Barnet använder omvändningsfakta för att addera inom 20 snabbare och säkrare"
+        "Veta att talens ordning inte ändrar en summa.",
+        "Använda en känd uträkning för att hitta samma addition i bytt ordning.",
+        "Para ihop de två subtraktionerna med samma helhet."
       ]
     },
     "numberbond.make-ten-to-add.1-oa-c-6": {

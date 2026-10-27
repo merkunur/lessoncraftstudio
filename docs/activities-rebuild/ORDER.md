@@ -148,7 +148,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 138 | LIVE 2026-10-27 · The Skewer Plate | 2 | 2.OA.C.4 | `array.build-array.2-oa-c-4` | array-activity | Build an Array — Rows, Columns & Repeated Addition (Grade 2) |
 | 139 | LIVE 2026-10-27 · The Accordion Sentence | 2 | 2.OA.C.4 | `array.equal-groups.2-oa-c-4` | array-activity | Equal Groups — Repeated Addition to Find the Total (Grade 2) |
 | 140 | LIVE 2026-10-27 · The Snow-Lid Stack | 2 | 2.OA.C.4 | `winter-piles.draw-partition.2-oa-c-4` | winter-piles-activity | Squirrel's Fair Winter Piles — Equal Groups & Arrays (Grade 2) |
-| 141 |  | 2 | 2.NBT.A.2 | `skipcount.fill.2-nbt-a-2` | skipcount-activity | Hopper's Lily Hops — Skip-Counting by 5s, 10s & 100s (Grade 2) |
+| 141 | LIVE 2026-10-27 · The Flip Pads | 2 | 2.NBT.A.2 | `skipcount.fill.2-nbt-a-2` | skipcount-activity | Hopper's Lily Hops — Skip-Counting by 5s, 10s & 100s (Grade 2) |
 | 142 |  | 2 | 2.NBT.A.3 | `match-pairs.three-ways-to-show-a-number.2-nbt-a-3` | match-pairs-activity | Three Ways to Show a Number |
 | 143 |  | 2 | 2.NBT.B.5 | `gus-snack-cart.within-100.2-nbt-b-5` | gus-snack-cart-activity | Gus's Snack Cart — Add & Subtract Within 100 (Grade 2) |
 | 144 |  | 2 | 2.NBT.B.6 | `tally-squirrel.add-four.2-nbt-b-6` | tally-squirrel-activity | Tally's Acorn Baskets — Add Up to Four Two-Digit Numbers (Grade 2) |

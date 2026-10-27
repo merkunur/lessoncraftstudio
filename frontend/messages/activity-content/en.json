@@ -3884,25 +3884,25 @@
     },
     "skipcount.fill.2-nbt-a-2": {
       "about": [
-        "Hopper hops across a row of numbered lily pads with one pad left empty, and the child reads the jumps between them — +5, +10, or +100, forward or backward — to find the number on the blank pad. It's an interactive Grade 2 math activity that runs in the browser with no account.",
-        "Skip-counting is more than reciting fives and tens — it is noticing the steady rhythm of a pattern and using it to predict. Because the empty pad is sometimes in the middle and sometimes at the end, and because one round starts on an off-multiple like 3, the child cannot rely on a memorized chant; they have to read the actual pads and add or subtract the step. That is the bridge from counting to place value and later to multiplication.",
-        "It is aligned to Common Core 2.NBT.A.2 — counting within 1000 and skip-counting by 5s, 10s, and 100s. No timer, no score — just calm, playful practice."
+        "Every lily pad in the pond shows its number on split-flaps, like an old station board. The empty pad arrives showing the number Hopper the frog is sitting on, and the child flips it forward by one hop. A hop of 10 flips the tens flap and a hop of 100 the hundreds flap, so the place that changes is right there to see.",
+        "The flaps never carry. Going from 95 to 100, flipping the ones flap past 9 leaves the tens alone, so the child has to flip the tens and the hundreds as well, which is exactly the regrouping in a count. A wrong pad brings up a leap meter: Hopper's hop says +5, and the child's hop says +1 or −5. On a second try, the pad before lines up above the flaps with the hop written under its place. Chains that start at their own step, such as 10, 20, 30, sit on a number line from 0 with a group of dots on every pad, and the find-the-hop rounds ask the child to set Hopper's sign, for example +25 or −50.",
+        "It is aligned to Common Core 2.NBT.A.2: count within 1000 and skip-count by 5s, 10s and 100s. The settings add counting by 2s, 3s and 4s, and by 25s, 50s and 100s, forward and back. It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Count forward and backward by 5s, 10s, and 100s along a number sequence",
-        "Find a missing number in the middle or at the end of a skip-counting pattern",
-        "Notice the step size between numbers and name which jump is being made",
-        "Skip-count starting from off-multiple numbers, not just from zero"
+        "Skip-count by 5s, 10s and 100s within 1000",
+        "Count forward and backward from any number",
+        "Cross a ten or a hundred while counting",
+        "Find the size of each hop in a pattern"
       ],
       "howToPlay": [
-        "Read the numbered lily pads and find the empty one.",
-        "Work out the +5, +10, or +100 jump (or the backward hop), then tap the number that goes on the blank pad.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Tap the top of a flap to flip it forward and the bottom to flip it back.",
+        "Make the empty pad show the next number in the chain and press Check.",
+        "In the settings, choose what to count by and whether the chain also goes down."
       ],
       "learningGoals": [
-        "Skip-count by 5s, 10s, and 100s within 1000 — the focus of Common Core 2.NBT.A.2.",
-        "Use the step in a pattern to predict the number that comes next or fills a gap.",
-        "Build the counting fluency that later place-value and multiplication work rely on."
+        "Skip-count by 5s, 10s and 100s, forward and back.",
+        "See that adding 10 changes the tens and adding 100 changes the hundreds.",
+        "Regroup when a count crosses a ten or a hundred, such as 95, 100."
       ]
     },
     "snippy.letter-formation.l-k-1-a": {

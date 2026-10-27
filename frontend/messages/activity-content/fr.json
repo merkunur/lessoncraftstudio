@@ -2278,25 +2278,25 @@
     },
     "skipcount.fill.2-nbt-a-2": {
       "about": [
-        "Hopper est une petite grenouille qui traverse un étang en sautant d'un nénuphar à l'autre, tous numérotés. À chaque bond, elle avance ou recule toujours du même pas : de 5 en 5, de 10 en 10 ou de 100 en 100. Sur son chemin, un nénuphar reste vide. Votre enfant tape alors le nombre manquant pour que la suite continue, ou indique de combien chaque bond avance ou recule.",
-        "L'idée essentielle du CE1 est ici d'« itérer une suite en avançant ou en reculant d'un pas constant ». Les suites ne commencent pas toujours sur un nombre rond : elles peuvent démarrer sur 8, 18, 28... Votre enfant ne peut donc pas réciter la comptine apprise depuis 0 ; il doit vraiment lire « la régularité de la suite » pour trouver ce qui manque. Le comptage à rebours est lui aussi proposé. C'est la base de la numération jusqu'à 1000 et une première porte vers les tables de multiplication.",
-        "Tout se fait sans compte à créer, sans minuteur et sans points. L'activité suit « les programmes officiels » dans le domaine « Nombres et calcul », et votre enfant avance à son propre rythme, tranquillement, autant de fois qu'il le souhaite."
+        "Chaque nénuphar de la mare affiche son nombre sur des volets, comme un vieux tableau de gare. Le nénuphar vide montre d’abord le nombre sur lequel la grenouille Hopper est assise, et l’enfant le fait avancer d’un bond. Un bond de 10 fait tourner le volet des dizaines, un bond de 100 celui des centaines : on voit tout de suite le rang qui change.",
+        "Les volets ne retiennent rien. De 95 à 100, le volet des unités qui passe le 9 ne touche pas aux dizaines, l’enfant doit donc tourner aussi les dizaines et les centaines : c’est exactement le passage à la dizaine et à la centaine dans un comptage. Une erreur fait apparaître une jauge de bonds : le bond de Hopper indique +5, celui de l’enfant +1 ou −5. À la deuxième tentative, le nénuphar d’avant se place au-dessus des volets, le bond écrit sous son rang. Les suites qui commencent par leur propre pas, comme 10, 20, 30, sont posées sur une droite graduée à partir de 0 avec un groupe de points sur chaque nénuphar, et dans les manches « quel bond ? » l’enfant règle le panneau de Hopper, par exemple sur +25 ou −50.",
+        "L’activité suit les programmes officiels du cycle 2 (CE1) : compter de 5 en 5, de 10 en 10 et de 100 en 100 jusqu’à 1000, en avançant et en reculant. Les réglages ajoutent les comptages de 2, 3 et 4 et de 25, 50 et 100. Elle fonctionne sans le son, sans chronomètre et sans score."
       ],
       "practices": [
-        "Compter de 5 en 5, de 10 en 10 et de 100 en 100 jusqu'à 1000, en avançant et en reculant.",
-        "Compléter une suite de nombres et trouver le nombre manquant.",
-        "Repérer la régularité de la suite : de combien avance-t-on à chaque bond ?",
-        "Démarrer sur un nombre non rond, par exemple 8, 18, 28..."
+        "Compter de 5 en 5, de 10 en 10 et de 100 en 100 jusqu’à 1000",
+        "Compter en avançant et en reculant à partir de n’importe quel nombre",
+        "Passer une dizaine ou une centaine en comptant",
+        "Trouver la taille de chaque bond dans une suite"
       ],
       "howToPlay": [
-        "Observez le chemin de Hopper d'un nénuphar à l'autre et lisez les nombres déjà posés.",
-        "Cherchez de combien chaque bond ajoute ou retire.",
-        "Tapez le nombre manquant — ou tapez la taille de chaque bond."
+        "Touche le haut d’un volet pour l’avancer et le bas pour le reculer.",
+        "Fais afficher au nénuphar vide le nombre suivant de la suite et appuie sur « Vérifier ».",
+        "Dans les réglages, choisis le pas et si la suite descend aussi."
       ],
       "learningGoals": [
-        "Sait compter de 5 en 5, de 10 en 10 et de 100 en 100, en avant et à rebours, jusqu'à 1000.",
-        "Reconnaît et poursuit la régularité d'une suite de nombres.",
-        "Comprend le comptage de n en n comme base du système décimal et des tables de multiplication."
+        "Compter de 5 en 5, de 10 en 10 et de 100 en 100, en avançant et en reculant.",
+        "Voir qu’ajouter 10 change les dizaines et qu’ajouter 100 change les centaines.",
+        "Passer la dizaine ou la centaine dans un comptage, comme 95, 100."
       ]
     },
     "lay-units.measure.1-md-a-2": {

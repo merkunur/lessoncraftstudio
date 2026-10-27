@@ -3558,6 +3558,29 @@
         "Skrive like store grupper som et plusstykke, for eksempel 4 + 4 + 4 = 12.",
         "Begynne å se at å gruppere og å dele likt er to sider av samme idé."
       ]
+    },
+    "skipcount.fill.2-nbt-a-2": {
+      "about": [
+        "Hvert vannliljeblad i dammen viser tallet sitt på klaffer, som en gammel tavle på en jernbanestasjon. Det tomme bladet viser først tallet frosken Hopper sitter på, og barnet snur det ett hopp fram. Et hopp på 10 snur tierklaffen, og et hopp på 100 hundrerklaffen, så man ser nøyaktig hvilken plass som endrer seg.",
+        "Klaffene husker ingenting. Fra 95 til 100 lar enerklaffen tierne være i fred når den går forbi 9, så barnet må også snu tierne og hundrerne, og det er nettopp tierovergangen når man teller. Et feil blad viser en hoppmåler: Hoppers hopp er +5, barnets hopp +1 eller −5. Ved andre forsøk stiller det forrige bladet seg over klaffene, med hoppet skrevet under sin plass. Tallrekker som starter på sitt eget hopp, som 10, 20, 30, ligger på en tallinje fra 0 med en gruppe prikker på hvert blad, og i rundene der barnet skal finne hoppet, snur det skiltet til Hopper, for eksempel til +25 eller −50.",
+        "Øvelsen følger LK20, matematikk etter 2. trinn, tall og regning: telle 5, 10 og 100 om gangen opp til 1000, fram og tilbake. I innstillingene kan barnet også telle 2, 3 og 4 og 25, 50 og 100 om gangen. Den virker uten lyd, uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Telle 5, 10 og 100 om gangen opp til 1000",
+        "Telle fram og tilbake fra et hvilket som helst tall",
+        "Gå over en tier eller en hundrer når man teller",
+        "Finne hvor stort hvert hopp er i en tallrekke"
+      ],
+      "howToPlay": [
+        "Trykk øverst på en klaff for å snu den fram og nederst for å snu den tilbake.",
+        "Få det tomme bladet til å vise neste tall i rekka, og trykk på Sjekk.",
+        "I innstillingene velger du hvor mange om gangen og om rekka også går tilbake."
+      ],
+      "learningGoals": [
+        "Telle 5, 10 og 100 om gangen, fram og tilbake.",
+        "Se at 10 til endrer tierne og 100 til endrer hundrerne.",
+        "Klare tierovergangen når en telling går over en tier eller en hundrer, som 95, 100."
+      ]
     }
   }
 }

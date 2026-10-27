@@ -2457,25 +2457,25 @@
     },
     "skipcount.fill.2-nbt-a-2": {
       "about": [
-        "Hopper la rana cruza el estanque brincando de un nenúfar a otro, y en cada brinco el número crece o disminuye siempre la misma cantidad. Tu peque lee los nenúfares numerados, sigue el patrón y toca el número que va en el nenúfar vacío.",
-        "Contar de 5 en 5, de 10 en 10 y de 100 en 100 es mucho más que decir números en voz alta: es la base del valor posicional y el primer paso hacia la multiplicación. Al reconocer estos patrones, tu peque empieza a ver cómo se organizan los números en decenas y centenas.",
-        "La actividad está pensada para segundo grado de primaria y acompaña el trabajo de series numéricas y sentido numérico que marcan los planes y programas de estudio de la SEP, con un enfoque visual, claro y sin presión."
+        "Cada hoja de nenúfar del estanque muestra su número en paletas giratorias, como un viejo tablero de estación. La hoja vacía llega mostrando el número donde está sentada la rana Hopper, y el niño la gira un brinco hacia adelante. Un brinco de 10 gira la paleta de las decenas y uno de 100 la de las centenas, así se ve justo qué lugar cambia.",
+        "Las paletas no llevan solas. De 95 a 100, la paleta de las unidades que pasa el 9 no toca las decenas, así que el niño también tiene que girar las decenas y las centenas: eso es justamente reagrupar al contar. Una hoja equivocada muestra un medidor de brincos: el brinco de Hopper dice +5 y el del niño +1 o −5. En el segundo intento, la hoja anterior se acomoda arriba de las paletas, con el brinco escrito bajo su lugar. Las series que empiezan en su propio salto, como 10, 20, 30, están sobre una recta numérica desde el 0 con un grupo de puntos en cada hoja, y en las rondas de «¿de cuánto es el brinco?» el niño gira el letrero de Hopper, por ejemplo a +25 o −50.",
+        "La actividad está alineada con los programas de estudio de segundo grado de primaria, campo formativo Saberes y Pensamiento Científico: contar de 5 en 5, de 10 en 10 y de 100 en 100 hasta 1000, hacia adelante y hacia atrás. Los ajustes agregan contar de 2 en 2, de 3 en 3 y de 4 en 4, y de 25 en 25, de 50 en 50 y de 100 en 100. Funciona sin sonido, sin reloj y sin puntaje."
       ],
       "practices": [
-        "Contar de 5 en 5, de 10 en 10 y de 100 en 100, hacia adelante y hacia atrás, hasta 1000",
-        "Completar la serie encontrando el número que falta en el nenúfar vacío",
-        "Descubrir de cuánto es cada brinco, es decir, el patrón que sigue la serie",
-        "Contar a partir de números que no son múltiplos, por ejemplo 3, 8, 13, 18…"
+        "Contar de 5 en 5, de 10 en 10 y de 100 en 100 hasta 1000",
+        "Contar hacia adelante y hacia atrás desde cualquier número",
+        "Pasar una decena o una centena al contar",
+        "Encontrar el tamaño de cada brinco en una serie"
       ],
       "howToPlay": [
-        "Observa los nenúfares numerados y fíjate cuánto cambia el número de un brinco al siguiente.",
-        "Cuando encuentres un nenúfar vacío, toca el número que debería ir ahí para que la serie siga su patrón.",
-        "Si te equivocas, no pasa nada: puedes volver a intentarlo con calma hasta que Hopper llegue al otro lado."
+        "Toca la parte de arriba de una paleta para girarla hacia adelante y la de abajo para girarla hacia atrás.",
+        "Haz que la hoja vacía muestre el número que sigue en la serie y presiona «Comprobar».",
+        "En los ajustes elige de cuánto en cuánto contar y si la serie también va hacia atrás."
       ],
       "learningGoals": [
-        "Fortalecer el sentido numérico al reconocer y continuar series de 5 en 5, de 10 en 10 y de 100 en 100.",
-        "Comprender el valor posicional al ver cómo cambian las decenas y las centenas dentro de cada serie.",
-        "Preparar el camino hacia la multiplicación, ya que contar en grupos iguales es su primer cimiento, en línea con el enfoque de la SEP."
+        "Contar de 5 en 5, de 10 en 10 y de 100 en 100, hacia adelante y hacia atrás.",
+        "Ver que sumar 10 cambia las decenas y sumar 100 cambia las centenas.",
+        "Reagrupar cuando la cuenta pasa una decena o una centena, como 95, 100."
       ]
     },
     "lay-units.measure.1-md-a-2": {

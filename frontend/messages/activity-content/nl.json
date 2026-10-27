@@ -2635,25 +2635,25 @@
     },
     "skipcount.fill.2-nbt-a-2": {
       "about": [
-        "Hopper de kikker springt over een rij genummerde waterlelieblaadjes — maar één blaadje is leeg gebleven. Bij elke sprong staat hoeveel erbij komt: +5, +10 of +100, en soms gaat Hopper juist een sprong terug (−10). Je kind leest de sprongen af en telt zo in sprongen mee tot het het getal op het lege blaadje vindt. De activiteit speelt in elke browser en werkt zonder download en zonder account.",
-        "Springend tellen is meer dan vijf-tien-vijftien opdreunen. Het gaat erom dat je kind het vaste ritme van een patroon opmerkt en dat gebruikt om het volgende getal te voorspellen. Omdat het lege blaadje soms middenin de rij ligt en soms aan het eind, en omdat een rij af en toe op een “oneven” getal begint (bijvoorbeeld bij 3 of 8), kan je kind niet leunen op een uit het hoofd geleerd rijtje — het moet echt de blaadjes lezen en de sprong erbij optellen of eraf tellen. Zo vormt springend tellen de brug van tellen naar inzicht in de plaatswaarde van getallen en later naar de kleine tafels.",
-        "De activiteit sluit aan bij de SLO-kerndoelen: binnen het domein Getallen oefent je kind in sprongen tellen met 5, 10 en 100, vooruit en terug, met getallen tot 1000 (Groep 4). Geen timer, geen score — gewoon rustig en speels oefenen, in je kinds eigen tempo."
+        "Elk blad in de vijver laat zijn getal zien op klepjes, zoals een oud stationsbord. Het lege blad begint met het getal waar kikker Hopper op zit, en het kind klapt het één sprong verder. Een sprong van 10 klapt het tientallenklepje om en een sprong van 100 het honderdtallenklepje, zo zie je precies welke plaats verandert.",
+        "De klepjes onthouden niets. Van 95 naar 100 laat het eenhedenklepje na de 9 de tientallen met rust, dus moet het kind ook de tientallen en de honderdtallen omklappen: dat is precies het overschrijden bij het tellen. Bij een fout blad verschijnt een sprongmeter: Hoppers sprong zegt +5, die van het kind +1 of −5. Bij de tweede poging komt het blad ervoor boven de klepjes te staan, met de sprong onder zijn plaats. Rijen die beginnen bij hun eigen sprong, zoals 10, 20, 30, liggen op een getallenlijn vanaf 0 met een groepje stippen op elk blad, en in de rondes ‘hoe groot is de sprong?’ zet het kind Hoppers bordje, bijvoorbeeld op +25 of −50.",
+        "De oefening sluit aan bij de kerndoelen rekenen-wiskunde van SLO voor groep 4: tellen met sprongen van 5, 10 en 100 tot 1000, vooruit en terug. In de instellingen komen sprongen van 2, 3 en 4 en van 25, 50 en 100 erbij. Ze werkt zonder geluid, zonder tijdsdruk en zonder score."
       ],
       "practices": [
-        "Vooruit én terug in sprongen van 5, 10 en 100 tellen, met getallen tot 1000.",
-        "Een ontbrekend getal vinden — middenin een rij of aan het eind.",
-        "De spronggrootte herkennen en benoemen welke sprong Hopper maakt.",
-        "In sprongen tellen vanaf een “oneven” startgetal, niet alleen vanaf 0."
+        "Tellen met sprongen van 5, 10 en 100 tot 1000",
+        "Vanaf elk getal vooruit en terug tellen",
+        "Bij het tellen over een tiental of honderdtal gaan",
+        "De grootte van elke sprong in een rij vinden"
       ],
       "howToPlay": [
-        "Lees de genummerde waterlelieblaadjes en zoek het lege blaadje.",
-        "Reken uit hoe groot de sprong is (+5, +10, +100 of een sprong terug) en tik op het getal dat op het lege blaadje hoort.",
-        "Nog niet helemaal goed? Probeer het rustig opnieuw — geen timer, geen score."
+        "Tik bovenaan een klepje om het vooruit te klappen en onderaan om het terug te klappen.",
+        "Laat het lege blad het volgende getal van de rij zien en druk op ‘Controleer’.",
+        "In de instellingen kies je de sprong en of de rij ook terug gaat."
       ],
       "learningGoals": [
-        "In sprongen van 5, 10 en 100 tellen tot 1000.",
-        "De sprong in een patroon gebruiken om het volgende of het ontbrekende getal te voorspellen.",
-        "De teloefening opbouwen waar plaatswaarde en de tafels later op verdergaan."
+        "Tellen met sprongen van 5, 10 en 100, vooruit en terug.",
+        "Zien dat 10 erbij de tientallen verandert en 100 erbij de honderdtallen.",
+        "Overschrijden als een telrij over een tiental of honderdtal gaat, zoals 95, 100."
       ]
     },
     "shapeforge.compose.1-g-a-2": {

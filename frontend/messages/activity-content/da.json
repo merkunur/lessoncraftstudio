@@ -3531,6 +3531,29 @@
         "Skrive lige store grupper som et plusstykke, for eksempel 4 + 4 + 4 = 12.",
         "Begynde at se, at gruppering og ligelig deling er to sider af samme idé."
       ]
+    },
+    "skipcount.fill.2-nbt-a-2": {
+      "about": [
+        "Hvert åkandeblad i søen viser sit tal på klapper, som en gammel tavle på en banegård. Det tomme blad viser først det tal, frøen Hopper sidder på, og barnet vender det ét hop frem. Et hop på 10 vender tierklappen, og et hop på 100 hundredklappen, så man kan se præcis, hvilken plads der ændrer sig.",
+        "Klapperne husker ingenting. Fra 95 til 100 lader enerklappen tierne være, når den går forbi 9, så barnet må også vende tierne og hundrederne, og det er netop tieroverskridningen, når man tæller. Et forkert blad viser en hopmåler: Hoppers hop er +5, barnets hop +1 eller −5. Ved andet forsøg stiller det forrige blad sig over klapperne, med hoppet skrevet under sin plads. Talrækker, der starter på deres eget hop, som 10, 20, 30, ligger på en tallinje fra 0 med en gruppe prikker på hvert blad, og i runderne, hvor barnet skal finde hoppet, vender det Hoppers skilt, for eksempel til +25 eller −50.",
+        "Øvelsen følger Fælles Mål for matematik i 2. klasse, tal og algebra: tælle 5, 10 og 100 ad gangen op til 1000, frem og tilbage. I indstillingerne kan barnet også tælle 2, 3 og 4 og 25, 50 og 100 ad gangen. Den virker uden lyd, uden tidtagning og uden point."
+      ],
+      "practices": [
+        "Tælle 5, 10 og 100 ad gangen op til 1000",
+        "Tælle frem og tilbage fra et hvilket som helst tal",
+        "Gå over en tier eller et hundrede, mens man tæller",
+        "Finde, hvor stort hvert hop er i en talrække"
+      ],
+      "howToPlay": [
+        "Tryk på den øverste del af en klap for at vende den frem og på den nederste for at vende den tilbage.",
+        "Få det tomme blad til at vise det næste tal i rækken, og tryk på Tjek.",
+        "I indstillingerne vælger du, hvor mange ad gangen, og om rækken også går tilbage."
+      ],
+      "learningGoals": [
+        "Tælle 5, 10 og 100 ad gangen, frem og tilbage.",
+        "Se, at 10 mere ændrer tierne og 100 mere ændrer hundrederne.",
+        "Klare tieroverskridningen, når en optælling går over en tier eller et hundrede, som 95, 100."
+      ]
     }
   }
 }

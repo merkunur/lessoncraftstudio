@@ -2902,25 +2902,25 @@
     },
     "skipcount.fill.2-nbt-a-2": {
       "about": [
-        "Hüpf mit Hopper über den Teich! Hopper, der Frosch, springt von Seerosenblatt zu Seerosenblatt – und jedes Blatt trägt eine Zahl. Bei jedem Sprung kommt immer gleich viel dazu: mal 5, mal 10, mal 100. Ein Blatt ist leer. Dein Kind findet heraus, welche Zahl darauf gehört – oder wie weit Hopper bei jedem Sprung springt.",
-        "Dahinter steckt eine große Idee: Zählen in Schritten heißt, einen gleichmäßigen Rhythmus zu entdecken und damit weiterzudenken, ohne jede Zahl einzeln abzuzählen. Wichtig ist, dass dein Kind die Zahlen auf den Blättern wirklich liest und das Muster erkennt – und nicht bloß eine auswendig gelernte Reihe wie „10, 20, 30“ aufsagt. Deshalb beginnen manche Zahlenreihen mitten in der Folge, etwa bei 3 oder 8: So zeigt sich, ob dein Kind die Struktur verstanden hat (die Einerstelle bleibt gleich, der Zehner wächst). Auch das Rückwärtszählen gehört dazu.",
-        "Das Zählen in Fünfer-, Zehner- und Hunderterschritten stärkt das Stellenwertverständnis im Zahlenraum bis 1000 und legt zugleich das Fundament für das kleine Einmaleins. „Hoppers Seerosen-Sprünge“ ist eine interaktive Aktivität für die 2. Klasse, ausgerichtet an den Lehrplänen der Grundschule – ohne Zeitdruck und ohne Punktewertung, damit dein Kind in seinem eigenen Tempo entdecken und nachdenken kann."
+        "Jedes Seerosenblatt im Teich zeigt seine Zahl auf Klappen wie eine alte Bahnhofsanzeige. Das leere Blatt zeigt am Anfang die Zahl, auf der der Frosch Hopper sitzt, und das Kind klappt sie um einen Sprung weiter. Ein Zehnersprung klappt die Zehnerklappe um, ein Hundertersprung die Hunderterklappe, so sieht man genau, welche Stelle sich ändert.",
+        "Die Klappen denken nicht mit. Von 95 nach 100 lässt die Einerklappe nach der 9 die Zehner in Ruhe, also muss das Kind auch die Zehner und die Hunderter umklappen, genau das ist der Zehner- und Hunderterübergang beim Zählen. Bei einem falschen Blatt erscheint ein Sprungmesser: Hoppers Sprung zeigt +5, der Sprung des Kindes +1 oder −5. Beim zweiten Versuch steht das Blatt davor über den Klappen, der Sprung unter seiner Stelle. Folgen, die mit ihrer eigenen Schrittweite beginnen, wie 10, 20, 30, liegen auf einem Zahlenstrahl ab 0 mit einer Punktgruppe auf jedem Blatt, und in den Sprung-Runden stellt das Kind Hoppers Schild ein, zum Beispiel auf +25 oder −50.",
+        "Die Übung passt zum Bereich „Zahlen und Operationen“ des Lehrplans der Grundschule, Klasse 2: im Zahlenraum bis 1000 in Schritten zählen, vorwärts und rückwärts. In den Einstellungen kommen 2er-, 3er- und 4er-Schritte sowie 25er-, 50er- und 100er-Schritte dazu. Sie funktioniert ohne Ton, ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "In 5er-, 10er- und 100er-Schritten vorwärts und rückwärts zählen – im Zahlenraum bis 1000.",
-        "Zahlenfolgen fortsetzen und eine fehlende Zahl in der Reihe bestimmen.",
-        "Die Schrittweite erkennen („Wie groß ist jeder Sprung?“) und so das zugrunde liegende Muster analysieren.",
-        "Auch von „krummen“ Startzahlen aus zählen (z. B. 8, 18, 28 …) und dabei die Stellenwert-Struktur nutzen statt auswendig gelernter Reihen."
+        "In 5er-, 10er- und 100er-Schritten bis 1000 zählen",
+        "Von jeder Zahl aus vorwärts und rückwärts zählen",
+        "Beim Zählen über einen Zehner oder Hunderter gehen",
+        "Die Größe jedes Sprungs in einer Zahlenfolge finden"
       ],
       "howToPlay": [
-        "Schau dir Hoppers Weg über die Seerosenblätter an und lies die Zahlen.",
-        "Finde heraus, wie viel bei jedem Sprung dazukommt (oder weggeht).",
-        "Tippe die fehlende Zahl an – oder tippe an, wie groß jeder Sprung ist."
+        "Tippe oben auf eine Klappe, um sie weiterzuklappen, und unten, um sie zurückzuklappen.",
+        "Lass das leere Blatt die nächste Zahl der Folge zeigen und drücke auf „Prüfen“.",
+        "In den Einstellungen wählst du die Schrittweite und ob die Folge auch rückwärts geht."
       ],
       "learningGoals": [
-        "Dein Kind kann im Zahlenraum bis 1000 in Schritten vorwärts und rückwärts zählen.",
-        "Es erkennt das Muster einer Zahlenfolge und kann sie sicher fortsetzen.",
-        "Es versteht das Zählen in Schritten als Vorbereitung auf Stellenwert und das kleine Einmaleins."
+        "In 5er-, 10er- und 100er-Schritten vorwärts und rückwärts zählen.",
+        "Sehen, dass 10 dazu die Zehner und 100 dazu die Hunderter ändert.",
+        "Den Zehner- und Hunderterübergang beim Zählen schaffen, wie bei 95, 100."
       ]
     },
     "lay-units.measure.1-md-a-2": {

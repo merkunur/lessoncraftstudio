@@ -1250,25 +1250,25 @@
     },
     "skipcount.fill.2-nbt-a-2": {
       "about": [
-        "Hopper è una rana che attraversa lo stagno saltando da una ninfea numerata all'altra, e a ogni balzo il numero cresce o diminuisce sempre della stessa quantità. In questa attività di matematica per la classe seconda, pensata per bambini di 7 e 8 anni, il piccolo conta a salti di 5, di 10 e di 100 fino a 1000 e completa la sequenza delle ninfee.",
-        "L'attività si gioca online nel browser, senza registrazione e senza installare nulla. Non ci sono punteggi né tempo che scorre: il bambino può provare, sbagliare e riprovare con calma, seguendo con lo sguardo i salti di Hopper.",
-        "Il conteggio a salti è uno dei primi passi verso le tabelline e il calcolo veloce, ed è allineato con le Indicazioni nazionali per il nucleo Numeri. Se a casa o in classe volete rinforzarlo, funziona bene affiancare materiali manipolabili come tappi, bottoni o cannucce raggruppati a cinque a cinque o a dieci a dieci."
+        "Ogni foglia di ninfea dello stagno mostra il suo numero su palette ribaltabili, come un vecchio tabellone della stazione. La foglia vuota arriva mostrando il numero su cui è seduta la rana Hopper, e il bambino la gira in avanti di un salto. Un salto di 10 gira la paletta delle decine e uno di 100 quella delle centinaia, così si vede proprio quale posizione cambia.",
+        "Le palette non fanno il riporto da sole. Da 95 a 100, la paletta delle unità che supera il 9 non tocca le decine, quindi il bambino deve girare anche le decine e le centinaia: è proprio il cambio nel contare. Una foglia sbagliata fa comparire un misura-salti: il salto di Hopper dice +5, quello del bambino +1 o −5. Al secondo tentativo, la foglia prima si mette sopra le palette, con il salto scritto sotto la sua posizione. Le sequenze che partono dal proprio passo, come 10, 20, 30, stanno su una linea dei numeri dallo 0 con un gruppo di puntini su ogni foglia, e nei turni «di quanto è il salto?» il bambino gira il cartello di Hopper, per esempio su +25 o −50.",
+        "L’attività segue le Indicazioni nazionali per la classe seconda, matematica: contare per 5, per 10 e per 100 entro il 1000, in avanti e all’indietro. Le impostazioni aggiungono i conteggi per 2, 3 e 4 e per 25, 50 e 100. Funziona senza audio, senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Contare a salti di 5, di 10 e di 100 entro il 1000",
-        "Contare avanti e indietro, in senso progressivo e regressivo",
-        "Completare una successione numerica trovando il numero mancante",
-        "Scoprire il passo costante e riconoscere la regolarità dei salti"
+        "Contare per 5, per 10 e per 100 entro il 1000",
+        "Contare in avanti e all’indietro da qualsiasi numero",
+        "Superare una decina o un centinaio contando",
+        "Trovare la grandezza di ogni salto in una sequenza"
       ],
       "howToPlay": [
-        "Guarda le ninfee numerate e osserva come Hopper salta da una all'altra",
-        "Tocca il numero giusto da mettere sulla ninfea vuota per continuare la sequenza",
-        "Se sbagli ricevi un suggerimento gentile e puoi riprovare: nessun punteggio, nessuna fretta"
+        "Tocca la parte alta di una paletta per girarla in avanti e quella bassa per girarla indietro.",
+        "Fai mostrare alla foglia vuota il numero successivo della sequenza e premi «Controlla».",
+        "Nelle impostazioni scegli di quanto contare e se la sequenza va anche all’indietro."
       ],
       "learningGoals": [
-        "Contare a salti di 5, 10 e 100 entro il 1000",
-        "Contare in senso progressivo e regressivo, avanti e indietro",
-        "Riconoscere la regolarità di una successione numerica"
+        "Contare per 5, per 10 e per 100, in avanti e all’indietro.",
+        "Vedere che aggiungere 10 cambia le decine e aggiungere 100 cambia le centinaia.",
+        "Fare il cambio quando il conteggio supera una decina o un centinaio, come 95, 100."
       ]
     },
     "lay-units.measure.1-md-a-2": {

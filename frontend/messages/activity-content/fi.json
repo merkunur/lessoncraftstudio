@@ -3531,6 +3531,29 @@
         "Kirjoittaa yhtä suuret ryhmät yhteenlaskuna, esimerkiksi 4 + 4 + 4 = 12.",
         "Alkaa nähdä, että ryhmittely ja tasan jakaminen ovat saman asian kaksi puolta."
       ]
+    },
+    "skipcount.fill.2-nbt-a-2": {
+      "about": [
+        "Jokainen lammen lumpeenlehti näyttää lukunsa käännettävillä läpillä, kuin vanha asemataulu. Tyhjä lehti näyttää aluksi luvun, jonka päällä Hopper-sammakko istuu, ja lapsi kääntää sitä yhden loikan eteenpäin. 10:n loikka kääntää kymmenten läpän ja 100:n loikka satojen läpän, joten näkee tarkalleen, mikä paikka muuttuu.",
+        "Läpät eivät muista mitään. Luvusta 95 lukuun 100 ykkösten läppä ei koske kymmeniin, kun se menee 9:n ohi, joten lapsen täytyy kääntää myös kymmenet ja sadat, ja juuri se on kymmenylitystä ja sadanylitystä laskiessa. Väärä lehti tuo esiin loikkamittarin: Hopperin loikka on +5, lapsen loikka +1 tai −5. Toisella yrityksellä edellinen lehti asettuu läppien yläpuolelle, ja loikka on kirjoitettu oman paikkansa alle. Lukujonot, jotka alkavat omasta loikastaan, kuten 10, 20, 30, ovat lukusuoralla nollasta alkaen, ja jokaisella lehdellä on pisteryhmä. Kierroksilla, joissa etsitään loikan kokoa, lapsi kääntää Hopperin kyltin, esimerkiksi lukuun +25 tai −50.",
+        "Tehtävä sopii OPS 2014:n matematiikan tavoitteisiin 2. luokalla: lasketaan 5:n, 10:n ja 100:n välein 1000:een asti, eteen ja taakse. Asetuksista voi valita myös 2:n, 3:n ja 4:n sekä 25:n, 50:n ja 100:n välein. Se toimii ilman ääntä, ilman ajanottoa ja ilman pisteitä."
+      ],
+      "practices": [
+        "Laskea 5:n, 10:n ja 100:n välein 1000:een asti",
+        "Laskea eteen- ja taaksepäin mistä tahansa luvusta",
+        "Ylittää tasakymmen tai tasasata laskiessa",
+        "Löytää lukujonon jokaisen loikan koko"
+      ],
+      "howToPlay": [
+        "Napauta läpän yläosaa kääntääksesi sen eteenpäin ja alaosaa kääntääksesi sen taaksepäin.",
+        "Saa tyhjä lehti näyttämään jonon seuraava luku ja paina Tarkista.",
+        "Asetuksista valitset, monenko välein lasketaan ja meneekö jono myös taaksepäin."
+      ],
+      "learningGoals": [
+        "Laskea 5:n, 10:n ja 100:n välein eteen- ja taaksepäin.",
+        "Nähdä, että 10 lisää muuttaa kymmeniä ja 100 lisää muuttaa satoja.",
+        "Ylittää tasakymmen tai tasasata laskiessa, kuten 95, 100."
+      ]
     }
   }
 }

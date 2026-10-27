@@ -66,3 +66,15 @@ Every finding was fixed at the source:
 - **`audit-settings-efficacy`:** job and size are both live.
 - **Other gates:** `audit-activity-next-delay` passes. Content ×11, prose claims, SERP copy, content tells and route preflight all pass.
 - **0 lines** in shared cores or `lcs-shell`.
+
+## Live
+`live-verify-skewer-plate.js` ran on production on 2026-10-27: **60 pass, 0 fail.**
+- All 11 pages return 200.
+- en, de, sv and fi, at 1366 and at 390, embed skewer-plate-activity.html at wrapper 9.883.
+- With a real pointer, on 3 rows of 4:
+  - three taps lift three whole skewers;
+  - 4 typed in each box, then 7 (rows + columns), gives the miss line;
+  - 12 gives "3 rows of 4: 4 + 4 + 4 = 12. 3 × 4 = 12." (the locale's own phrasing and sign).
+- The iframe grows with the card.
+
+The first run fell in the cache window: some pages still served the old embed. Once curl showed 9.883 everywhere, the second run was clean.

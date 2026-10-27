@@ -4734,25 +4734,25 @@
     },
     "ziggy-odd-one-out.category.l-1-5-a": {
       "about": [
-        "Ziggy the zebra spots the picture that stands out. The child sees four pictures where three belong to the same group — three animals with an apple slipped in, or three foods with a sock among them — and taps the ONE that does not belong. It's an interactive Grade 1 vocabulary activity that runs in the browser with no account.",
-        "The big idea is sorting things into categories and noticing what they have in common. The rounds cover animals, food, vehicles, clothing, plants, birds, household objects, and bugs, so the child has to figure out the shared group for each set rather than learn one fixed rule. Because the odd picture is a real, familiar object too, the child has to think about meaning — what kind of thing each one is — not just how the pictures look.",
-        "It is aligned to Common Core L.1.5.a — sorting words and objects into categories to gain a sense of the concepts the categories represent. No timer, no score — just calm, playful practice."
+        "The camera only takes a sharp group photo when everyone on the bench is the same kind of thing. The child sends the one that doesn't belong to the step and presses the red shutter. If the group is right, the photo comes out sharp and its name is written underneath: animals, food, birds, insects. If not, the photo comes out cloudy, because the camera sorts by kind, not by look: the yellow banana does not belong with the bee, and the bat flies but is not a bird.",
+        "There are five things to do: find the odd one out of four pictures; trickier groups of five, each with a look-alike; what things are made of (glass, plastic, paper, metal); word groups (ways to move and ways to look); and a seat plan, where clue cards say which friend has which thing, a tick pushes crosses along its row and column, and two true-or-false sentences are read off the finished plan. With \"I name it\", the child picks the group's name from three name tags.",
+        "It is aligned to Common Core L.1.5.a: sort words into categories to gain a sense of the concepts they represent. It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Find what three of the four pictures have in common",
-        "Spot the one picture that belongs to a different group",
-        "Sort everyday things into categories like animals, foods, and vehicles",
-        "Think about what each thing is, not just how it looks"
+        "Find the one that is not the same kind",
+        "Name a group with one word",
+        "Sort things by what they are made of",
+        "Reason with yes, no and either-or clues"
       ],
       "howToPlay": [
-        "Look at the four pictures and find the group that three of them share.",
-        "Tap the one picture that does not belong with the others.",
-        "A warm check confirms the choice and offers an easy retry; no timer, no score."
+        "Tap a picture to send it to the step, then press the red shutter.",
+        "A sharp photo with a name means the group is right; a cloudy photo means someone still doesn't belong, so tap anyone in the photo to send them instead.",
+        "In the settings, choose what to do (odd one out, trickier groups, materials, word groups, seat plan) and whether the camera writes the name or you pick it."
       ],
       "learningGoals": [
-        "Sort objects into categories and understand what each category means — the focus of Common Core L.1.5.a",
-        "Recognize the shared idea that links a group of things",
-        "Build the categorizing that vocabulary growth depends on"
+        "Sort pictures and words into categories.",
+        "Name the category with one word.",
+        "Use clues to give each friend the right thing."
       ]
     },
     "cleo-packing-list.series-commas.l-1-2-b": {

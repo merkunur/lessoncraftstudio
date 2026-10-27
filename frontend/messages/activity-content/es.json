@@ -1627,25 +1627,25 @@
     },
     "ziggy-odd-one-out.category.l-1-5-a": {
       "about": [
-        "Ziggy la cebra te muestra en cada ronda cuatro imágenes con sus palabras —por ejemplo «perro», «gato», «cerdo» y «manzana»— y tu niño toca la que no pertenece al grupo; son 8 rondas para jugar con calma.",
-        "Las palabras y las cosas pertenecen a grupos o categorías —animales, comida, ropa, plantas—, y al descubrir cuál no pertenece, el niño afina su idea de qué tienen en común las otras tres y qué hace que un grupo sea un grupo; esa es la base para después ordenar palabras por categorías y enriquecer su vocabulario.",
-        "Interactiva y desde el navegador, sin registro ni descargas, con un tono cálido, sin cronómetro y sin puntajes, alineada a los Planes y programas de estudio (SEP)."
+        "La cámara solo toma una foto de grupo nítida cuando todos en la banca son del mismo tipo. La niña o el niño manda al escalón al que no pertenece y aprieta el botón rojo. Si el grupo está bien, la foto sale nítida y su nombre aparece abajo: animales, comida, aves, insectos. Si no, la foto sale borrosa, porque la cámara agrupa por tipo, no por cómo se ve: el plátano amarillo no va con la abeja, y el murciélago vuela pero no es un ave.",
+        "Hay cinco cosas que hacer: encontrar al que no pertenece entre cuatro dibujos; grupos más difíciles de cinco, cada uno con un parecido engañoso; de qué están hechas las cosas (vidrio, plástico, papel, metal); grupos de palabras (formas de moverse y formas de mirar); y un plano de asientos, donde unas tarjetas con pistas dicen qué amigo tiene qué cosa, una palomita empuja cruces por su fila y su columna, y al final se leen dos oraciones verdaderas o falsas. Con «Yo lo pongo», la niña o el niño elige el nombre del grupo entre tres etiquetas.",
+        "Una actividad de lenguaje para primer grado de primaria, de acuerdo con los programas de estudio de la SEP. Funciona sin sonido, sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Clasificar palabras e imágenes por categorías conocidas, como animales, comida, ropa y plantas.",
-        "Reconocer qué tienen en común varias cosas para saber cuál se sale del grupo.",
-        "Observar y comparar con atención, en vez de adivinar al azar.",
-        "Afianzar el vocabulario ordenando y agrupando palabras que el niño ya conoce."
+        "Encontrar al que no es del mismo tipo",
+        "Nombrar un grupo con una sola palabra",
+        "Clasificar cosas según su material",
+        "Razonar con pistas de sí, no y o… o"
       ],
       "howToPlay": [
-        "Observa las cuatro imágenes con sus palabras que te muestra Ziggy la cebra.",
-        "Piensa cuáles tres van juntas porque son del mismo grupo y cuál no pertenece.",
-        "Toca la imagen que no pertenece al grupo; los intentos son ilimitados y no hay cronómetro, así que puedes probar con toda tranquilidad."
+        "Toca un dibujo para mandarlo al escalón y luego aprieta el botón rojo.",
+        "Una foto nítida con nombre quiere decir que el grupo está bien; una foto borrosa quiere decir que alguien todavía no pertenece: toca otro dibujo de la foto para mandarlo en su lugar.",
+        "En los ajustes eliges qué hacer (el que no pertenece, grupos más difíciles, materiales, grupos de palabras, plano de asientos) y si la cámara escribe el nombre o lo elige la niña o el niño."
       ],
       "learningGoals": [
-        "Reconoce que las palabras pertenecen a categorías, como los animales, la comida o la ropa.",
-        "Encuentra la palabra o imagen que no pertenece a un grupo y explica por qué.",
-        "Fortalece su vocabulario al ordenar y agrupar palabras familiares por lo que tienen en común."
+        "Clasificar dibujos y palabras en categorías.",
+        "Nombrar la categoría con una sola palabra.",
+        "Usar pistas para darle a cada amigo su cosa."
       ]
     },
     "roary-roar-meter.shades.l-2-5-b": {

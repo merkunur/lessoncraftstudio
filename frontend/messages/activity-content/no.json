@@ -3444,6 +3444,29 @@
         "Sjekke et skrevet ord etter hva det virkelig sier.",
         "Bruke enkle staveregler og flertallsendelser."
       ]
+    },
+    "ziggy-odd-one-out.category.l-1-5-a": {
+      "about": [
+        "Kameraet tar bare et skarpt gruppebilde når alle på benken er av samme slag. Barnet sender den som ikke passer inn, til trappetrinnet og trykker på den røde utløseren. Stemmer gruppen, blir bildet skarpt, og navnet på gruppen står under: dyr, mat, fugler, insekter. Ellers blir bildet uskarpt, for kameraet sorterer etter slag, ikke etter utseende: den gule bananen passer ikke sammen med bien, og flaggermusen flyr, men er ikke en fugl.",
+        "Det er fem ting å gjøre: finne den som ikke passer inn blant fire bilder; vanskeligere grupper med fem, hver med en dobbeltgjenger; hva ting er laget av (glass, plast, papir, metall); ordgrupper (ord for å bevege seg og ord for å se); og et bordkart der hintkort forteller hvilken venn som har hvilken ting, en hake skyver kryss langs raden og kolonnen sin, og man til slutt leser to setninger som sanne eller usanne. Med «Jeg gir navnet» velger barnet navnet på gruppen blant tre navnelapper.",
+        "En språkøvelse for 1. trinn i tråd med LK20. Den virker uten lyd, uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Finne den som ikke er av samme slag",
+        "Gi en gruppe et navn med ett ord",
+        "Sortere ting etter materiale",
+        "Resonnere med ja-, nei- og enten–eller-hint"
+      ],
+      "howToPlay": [
+        "Trykk på et bilde for å sende det til trappetrinnet, og trykk så på den røde utløseren.",
+        "Et skarpt bilde med et navn betyr at gruppen stemmer; et uskarpt bilde betyr at noen fortsatt ikke passer inn, så trykk på et annet bilde i fotoet for å sende det i stedet.",
+        "I innstillingene velger du hva du gjør (hvem passer ikke inn, vanskeligere grupper, materialer, ordgrupper, bordkart) og om kameraet skriver navnet eller barnet velger det."
+      ],
+      "learningGoals": [
+        "Sortere bilder og ord i kategorier.",
+        "Gi kategorien et navn med ett ord.",
+        "Bruke hint til å gi hver venn den riktige tingen."
+      ]
     }
   }
 }

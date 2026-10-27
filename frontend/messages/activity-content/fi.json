@@ -3416,6 +3416,29 @@
         "Tarkistaa kirjoitettu sana sen mukaan, mitä se todella sanoo.",
         "Käyttää helppoja oikeinkirjoitussääntöjä ja monikon päätettä."
       ]
+    },
+    "ziggy-odd-one-out.category.l-1-5-a": {
+      "about": [
+        "Kamera ottaa tarkan ryhmäkuvan vain, kun kaikki penkillä ovat samaa lajia. Lapsi lähettää joukkoon kuulumattoman korokkeelle ja painaa punaista laukaisinta. Kun ryhmä on oikea, kuva tarkentuu ja ryhmän nimi kirjoittuu sen alle: eläimet, ruoka, linnut, hyönteiset. Muuten kuva jää sumeaksi, sillä kamera lajittelee lajin eikä ulkonäön mukaan: keltainen banaani ei kuulu mehiläisen joukkoon, ja lepakko lentää mutta ei ole lintu.",
+        "Tehtäviä on viisi: löytää joukkoon kuulumaton neljän kuvan joukosta; vaikeammat viiden ryhmät, joissa jokaisessa on harhaanjohtava kaksoisolento; mistä asiat on tehty (lasi, muovi, paperi, metalli); sanaryhmät (liikkumisen ja katsomisen sanat); ja istumajärjestys, jossa vihjekortit kertovat, kenellä ystävällä on mikäkin asia, väkänen työntää ristejä pitkin riviä ja saraketta, ja lopuksi luetaan kaksi lausetta: ovatko ne totta vai eivät. Asetuksella ”Minä nimeän” lapsi valitsee ryhmän nimen kolmesta nimilapusta.",
+        "Kielitehtävä 1. luokalle (OPS 2014). Toimii ilman ääntä, ilman ajanottoa ja ilman pisteitä."
+      ],
+      "practices": [
+        "Löytää se, joka ei ole samaa lajia",
+        "Antaa ryhmälle nimi yhdellä sanalla",
+        "Lajitella asioita materiaalin mukaan",
+        "Päätellä kyllä-, ei- ja joko–tai-vihjeiden avulla"
+      ],
+      "howToPlay": [
+        "Napauta kuvaa, niin se siirtyy korokkeelle, ja paina sitten punaista laukaisinta.",
+        "Tarkka kuva ja nimi tarkoittavat, että ryhmä on oikea; sumea kuva tarkoittaa, että joku ei vielä kuulu joukkoon, joten napauta valokuvassa toista kuvaa, niin se siirtyy korokkeelle sen sijaan.",
+        "Asetuksista valitset, mitä teet (kuka ei kuulu joukkoon, vaikeammat ryhmät, materiaalit, sanaryhmät, istumajärjestys) ja kirjoittaako kamera nimen vai valitseeko lapsi sen."
+      ],
+      "learningGoals": [
+        "Lajitella kuvia ja sanoja luokkiin.",
+        "Nimetä luokka yhdellä sanalla.",
+        "Käyttää vihjeitä ja antaa jokaiselle ystävälle oikea asia."
+      ]
     }
   }
 }

@@ -784,25 +784,25 @@
     },
     "ziggy-odd-one-out.category.l-1-5-a": {
       "about": [
-        "Ziggy le zèbre montre à votre enfant quatre images, chacune avec son mot écrit en dessous. Trois d'entre elles vont ensemble, et une seule ne va pas avec les autres : c'est l'intrus. Par exemple, un chien, un chat, un cochon et une pomme — les trois animaux forment une même famille, alors c'est la pomme qu'il faut trouver et toucher. L'activité se joue directement dans le navigateur sans rien installer, et propose 8 manches avec des catégories différentes : des animaux, des fruits, des vêtements, des véhicules, des plantes, des oiseaux, des objets et des insectes.",
-        "L'idée est simple : les mots et les choses appartiennent à des catégories de sens — les animaux ensemble, les fruits ensemble, les vêtements ensemble… En cherchant l'intrus, votre enfant doit d'abord comprendre ce que les trois autres ont en commun. Ce petit raisonnement prépare le classement par catégories et l'aide à construire un vocabulaire bien rangé, où chaque mot trouve sa place dans un champ lexical.",
-        "Tout se fait sans pression : c'se joue sans chrono, sans points et sans compétition. Votre enfant observe, compare et réfléchit à son rythme, en prenant le temps qu'il lui faut. L'activité est alignée sur les programmes officiels et travaille le lexique et le vocabulaire à l'école élémentaire, au cycle 2."
+        "L’appareil photo ne prend une photo de groupe nette que si tout le monde sur le banc est de la même sorte. L’enfant envoie l’intrus sur la marche et appuie sur le déclencheur rouge. Si le groupe est juste, la photo est nette et son nom s’écrit dessous : animaux, aliments, oiseaux, insectes. Sinon, la photo est floue, car l’appareil trie selon la sorte, pas selon l’apparence : la banane jaune ne va pas avec l’abeille, et la chauve-souris vole mais n’est pas un oiseau.",
+        "Il y a cinq choses à faire : trouver l’intrus parmi quatre images ; des groupes plus difficiles de cinq, chacun avec un sosie ; en quoi les objets sont faits (verre, plastique, papier, métal) ; des familles de mots (pour bouger et pour regarder) ; et un plan de table, où des cartes indices disent quel ami a quelle chose, où une coche pousse des croix dans sa rangée et sa colonne, et où l’on lit pour finir deux phrases vraies ou fausses. Avec « Je le trouve », l’enfant choisit le nom du groupe parmi trois étiquettes.",
+        "Une activité de langue pour le CP, en lien avec les programmes officiels du cycle 2. Elle fonctionne sans le son, sans chronomètre et sans score."
       ],
       "practices": [
-        "Reconnaître qu'un mot n'appartient pas à une catégorie",
-        "Comprendre ce que trois mots ont en commun",
-        "Observer et comparer plutôt que deviner",
-        "Ranger les mots par catégories de sens, dans des champs lexicaux"
+        "Trouver ce qui n’est pas de la même sorte",
+        "Nommer un groupe avec un seul mot",
+        "Trier les objets selon leur matière",
+        "Raisonner avec des indices oui, non et soit… soit"
       ],
       "howToPlay": [
-        "Regarde les quatre images et leurs mots",
-        "Cherche les trois qui vont ensemble",
-        "Touche l'image qui ne va pas avec les autres"
+        "Touche une image pour l’envoyer sur la marche, puis appuie sur le déclencheur rouge.",
+        "Une photo nette avec un nom veut dire que le groupe est juste ; une photo floue veut dire que quelqu’un n’a pas encore sa place : touche une autre image de la photo pour l’envoyer à la place.",
+        "Dans les réglages, choisis quoi faire (l’intrus, groupes plus difficiles, matières, familles de mots, plan de table) et si l’appareil écrit le nom ou si l’enfant le choisit."
       ],
       "learningGoals": [
-        "Votre enfant reconnaît qu'un mot n'appartient pas à une catégorie",
-        "Votre enfant comprend ce que trois mots ont en commun",
-        "Votre enfant enrichit et organise son vocabulaire"
+        "Classer des images et des mots en catégories.",
+        "Nommer la catégorie avec un seul mot.",
+        "Utiliser des indices pour donner à chaque ami la bonne chose."
       ]
     },
     "roary-roar-meter.shades.l-2-5-b": {

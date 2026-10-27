@@ -3416,6 +3416,29 @@
         "Tjekke et skrevet ord efter, hvad det virkelig siger.",
         "Bruge enkle staveregler og flertalsendelser."
       ]
+    },
+    "ziggy-odd-one-out.category.l-1-5-a": {
+      "about": [
+        "Kameraet tager kun et skarpt gruppebillede, når alle på bænken er af samme slags. Barnet sender den, der ikke passer ind, hen på trinnet og trykker på den røde udløser. Passer gruppen, bliver billedet skarpt, og gruppens navn står under det: dyr, mad, fugle, insekter. Ellers bliver billedet sløret, for kameraet sorterer efter slags, ikke efter udseende: den gule banan passer ikke sammen med bien, og flagermusen flyver, men er ikke en fugl.",
+        "Der er fem ting at gøre: finde den, der ikke passer ind blandt fire billeder; sværere grupper med fem, hver med en dobbeltgænger; hvad tingene er lavet af (glas, plastik, papir, metal); ordgrupper (ord for at bevæge sig og ord for at kigge); og en bordplan, hvor sporkort fortæller, hvilken ven der har hvilken ting, et flueben skubber krydser langs sin række og kolonne, og man til sidst læser to sætninger som sande eller falske. Med ”Jeg vælger navnet” vælger barnet gruppens navn blandt tre navneskilte.",
+        "En sprogøvelse til 1. klasse i tråd med Fælles Mål. Den virker uden lyd, uden tidtagning og uden point."
+      ],
+      "practices": [
+        "Finde den, der ikke er af samme slags",
+        "Give en gruppe et navn med ét ord",
+        "Sortere ting efter materiale",
+        "Ræsonnere med ja-, nej- og enten-eller-spor"
+      ],
+      "howToPlay": [
+        "Tryk på et billede for at sende det hen på trinnet, og tryk så på den røde udløser.",
+        "Et skarpt billede med et navn betyder, at gruppen passer; et sløret billede betyder, at nogen stadig ikke passer ind, så tryk på et andet billede i fotoet for at sende det i stedet.",
+        "I indstillingerne vælger du, hvad du gør (hvem passer ikke ind, sværere grupper, materialer, ordgrupper, bordplan), og om kameraet skriver navnet, eller barnet vælger det."
+      ],
+      "learningGoals": [
+        "Sortere billeder og ord i kategorier.",
+        "Give kategorien et navn med ét ord.",
+        "Bruge spor til at give hver ven den rigtige ting."
+      ]
     }
   }
 }

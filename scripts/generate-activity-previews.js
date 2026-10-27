@@ -87,6 +87,10 @@ function seedScript(row) {
     // the mop on the chart, "map" spelled in its boxes, Mirror pressed — the mirror shows a map, not the patient: the invention at work
     return `(function(){var t=window['${g}'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(1,0);t._render2();t._tile(1);t._look();}})();`;
   }
+  if (row.tool === 'group-photo-activity') {
+    // level 2: the bat among the birds sent to the step, the shutter pressed — a sharp photo with "birds" written under it: the invention at work
+    return `(function(){var t=window['${g}'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t.api.settings.level='2';t._pool=null;t._ensurePool();t._start(0,0);t._render2();t._seat_(t.st.rd.odd);t._snap();}})();`;
+  }
   if (row.tool === 'divider-case-activity') {
     // "I packed apples, pears, and cherries.": the right commas, Pack pressed — a wall under each comma, one fruit in every pocket, the lid shut
     return `(function(){var t=window['${g}'],C=window.DividerCaseCore;if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(0,0);t._render2();C.required(t.st.loc,3).forEach(function(s){t._gap(s);});t._pack();}})();`;

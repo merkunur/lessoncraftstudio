@@ -238,24 +238,25 @@
     },
     "ziggy-odd-one-out.category.l-1-5-a": {
       "about": [
-        "Sebbes bildhage är en interaktiv övning i svenska för åk 1. Fyra bilder visas med sitt ord under sig — tre hör hemma i hagen och en har smugit sig in. Barnet trycker på den som inte passar ihop med de andra. Övningen körs direkt i webbläsaren på surfplatta, telefon eller dator: inget att installera och inget konto.",
-        "Aktiviteten följer Lgr22 inom ord och begrepp. Ingen kategori står utskriven på skärmen, så barnet måste självt upptäcka vad de tre har gemensamt innan det kan pröva den fjärde. Varje ord läses också upp när man trycker på bilden. Det finns ingen tid som tickar och inga poäng."
+        "Kameran tar bara ett skarpt gruppfoto när alla på bänken är av samma slag. Barnet skickar den som inte passar till pallen och trycker på den röda avtryckaren. Stämmer gruppen blir fotot skarpt och gruppens namn står under det: djur, mat, fåglar, insekter. Annars blir fotot suddigt, för kameran sorterar efter slag, inte efter utseende: den gula bananen passar inte ihop med biet, och fladdermusen flyger men är ingen fågel.",
+        "Det finns fem saker att göra: hitta den som inte passar bland fyra bilder; klurigare grupper med fem, var och en med en dubbelgångare; vad saker är gjorda av (glas, plast, papper, metall); ordgrupper (ord för att röra sig och ord för att titta); och en placeringskarta där ledtrådskort berättar vilken kompis som har vilken sak, en bock skjuter kryss längs sin rad och kolumn och man till sist läser två meningar som sanna eller falska. Med ”Jag väljer namnet” väljer barnet gruppens namn bland tre namnlappar.",
+        "En språkövning för åk 1 i linje med Lgr22. Den fungerar utan ljud, utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Jämföra fyra saker och hitta vad tre av dem har gemensamt",
-        "Upptäcka den som inte passar ihop med de andra",
-        "Koppla ihop en bild med ordet som står under den",
-        "Märka att samma sak kan höra till flera slag — ett bär är också en frukt, en räv är också ett djur"
+        "Hitta den som inte är av samma slag",
+        "Ge en grupp ett namn med ett ord",
+        "Sortera saker efter material",
+        "Resonera med ja-, nej- och antingen–eller-ledtrådar"
       ],
       "howToPlay": [
-        "Barnet ser Sebbe och fyra bilder med varsitt ord under.",
-        "Barnet trycker på den bild som inte passar ihop med de andra och sedan på kontrollknappen.",
-        "Blir det fel påminner Sebbe om att tre av bilderna är av samma slag, och barnet får försöka igen så många gånger som behövs."
+        "Tryck på en bild för att skicka den till pallen och tryck sedan på den röda avtryckaren.",
+        "Ett skarpt foto med ett namn betyder att gruppen stämmer; ett suddigt foto betyder att någon fortfarande inte passar, så tryck på en annan bild i fotot för att skicka den i stället.",
+        "I inställningarna väljer du vad du gör (vilken passar inte, klurigare grupper, material, ordgrupper, placeringskarta) och om kameran skriver namnet eller barnet väljer det."
       ],
       "learningGoals": [
-        "Barnet kan säga vad tre saker har gemensamt utan att få ordet för det",
-        "Barnet jämför alla fyra bilderna innan det svarar",
-        "Barnet börjar sortera saker i huvudet när det möter nya ord"
+        "Sortera bilder och ord i kategorier.",
+        "Ge kategorin ett namn med ett ord.",
+        "Använda ledtrådar för att ge varje kompis rätt sak."
       ]
     },
     "tense.past-present-future.l-1-1-e": {

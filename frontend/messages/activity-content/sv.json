@@ -3942,6 +3942,29 @@
         "Förklara vad en sak är till för.",
         "Beskriva saker med ord för hur de är."
       ]
+    },
+    "shades.pick.l-1-5-d": {
+      "about": [
+        "Pestos spisvred har ett ord på varje läge. När man vrider upp växer lågan en tunga per läge, och soppan i grytan får styrkan hos ORDET på det läget. Står orden i rätt ordning (ljummen, varm, kokhet) växer lågan och soppan tillsammans; ett ord på fel plats får soppan att hoppa, och barnet ser vilket ord som ska flyttas.",
+        "Det finns fyra saker att göra: ordna ord som liknar varandra från lite till mycket; läsa en beställningslapp och vrida vredet till ordet som behövs, eller hitta ordet som passar mellan två andra; lägga tvillingord som betyder samma sak på ett läge; och sortera ord för att röra sig och ord för att titta, på två vred, efter hur snabbt eller hur länge. Soppans färger kan vara dolda tills man vrider upp, så att ordningen kommer från läsningen.",
+        "Övningen följer Lgr22, svenska i årskurs 1 till 3, ord och begrepp. Den fungerar utan ljud, utan tidtagning och utan poäng."
+      ],
+      "practices": [
+        "Ordna ord som liknar varandra från lite till mycket",
+        "Välja ordet med precis rätt styrka för en mening",
+        "Hitta ord som betyder samma sak",
+        "Skilja på ord för att röra sig och ord för att titta, efter hur snabbt eller hur länge"
+      ],
+      "howToPlay": [
+        "Tryck på ett ord och sedan på ett läge på vredet (eller dra ordet dit). Tryck på Vrid upp.",
+        "Där soppan hoppar står ett ord på fel plats: byt plats och försök igen.",
+        "I inställningarna väljer du uppgift, tre eller fyra ord på vredet och om soppans färger syns hela tiden."
+      ],
+      "learningGoals": [
+        "Ordna ord efter styrka.",
+        "Välja ordet som passar bäst i en mening.",
+        "Känna igen ord som betyder samma sak."
+      ]
     }
   }
 }

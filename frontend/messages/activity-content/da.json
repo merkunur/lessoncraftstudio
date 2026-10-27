@@ -3485,6 +3485,29 @@
         "Forklare, hvad en ting er til.",
         "Beskrive ting med ord for, hvordan de er."
       ]
+    },
+    "shades.pick.l-1-5-d": {
+      "about": [
+        "Pestos komfurknap har et ord på hvert trin. Når man skruer op, vokser flammen med en tunge pr. trin, og suppen i gryden får styrken fra ORDET på det trin. Står ordene i den rigtige rækkefølge (lunken, varm, glohed), vokser flamme og suppe sammen; et ord på den forkerte plads får suppen til at hoppe, og barnet ser, hvilket ord der skal flyttes.",
+        "Der er fire ting at gøre: ordne ord, der ligner hinanden, fra lidt til meget; læse en bestillingsseddel og dreje knappen hen til det ord, der skal bruges, eller finde det ord, der passer mellem to andre; lægge tvillingeord, der betyder det samme, på ét trin; og sortere ord for at bevæge sig og ord for at kigge, på to knapper, efter hvor hurtigt eller hvor længe. Suppens farver kan være skjult, til man skruer op, så rækkefølgen kommer fra læsningen.",
+        "Øvelsen følger Fælles Mål for dansk i 1. klasse, ordforråd. Den virker uden lyd, uden tidtagning og uden point."
+      ],
+      "practices": [
+        "Ordne ord, der ligner hinanden, fra lidt til meget",
+        "Vælge ordet med præcis den rigtige styrke til en sætning",
+        "Finde ord, der betyder det samme",
+        "Skelne ord for at bevæge sig og kigge efter hvor hurtigt eller hvor længe"
+      ],
+      "howToPlay": [
+        "Tryk på et ord og så på et trin på knappen (eller træk ordet derhen). Tryk på Skru op.",
+        "Hvor suppen hopper, står et ord på den forkerte plads: byt det, og prøv igen.",
+        "I indstillingerne vælger du opgave, tre eller fire ord på knappen og om suppens farver kan ses hele tiden."
+      ],
+      "learningGoals": [
+        "Ordne ord efter styrke.",
+        "Vælge det ord, der passer bedst i en sætning.",
+        "Genkende ord, der betyder det samme."
+      ]
     }
   }
 }

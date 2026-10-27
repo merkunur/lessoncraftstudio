@@ -4616,6 +4616,29 @@
         "Een geschreven woord controleren op wat het echt zegt.",
         "Eenvoudige spellingregels en meervoudsuitgangen gebruiken."
       ]
+    },
+    "shades.pick.l-1-5-d": {
+      "about": [
+        "Pesto's fornuisknop heeft op elke stand een woord. Draai je het vuur hoger, dan groeit de vlam met een tong per stand en krijgt de soep in de pan de sterkte van het WOORD op die stand. Staan de woorden goed (lauw, warm, heet), dan groeien vlam en soep samen; een woord op de verkeerde plek laat de soep springen, en het kind ziet welk woord het moet verplaatsen.",
+        "Er zijn vier dingen te doen: woorden die op elkaar lijken ordenen van een beetje tot heel veel; een bestelbonnetje lezen en de knop naar het goede woord draaien, of het woord vinden dat tussen twee andere hoort; tweelingwoorden die hetzelfde betekenen op één stand leggen; en woorden voor gaan en voor kijken op twee knoppen sorteren, naar snelheid of duur. De soepkleuren kunnen verborgen blijven tot het vuur hoger gaat, zodat de volgorde uit het lezen komt.",
+        "De oefening sluit aan bij de kerndoelen Nederlands (woordenschat) van SLO voor groep 3. Ze werkt zonder geluid, zonder tijdsdruk en zonder score."
+      ],
+      "practices": [
+        "Woorden die op elkaar lijken ordenen van een beetje tot heel veel",
+        "Het woord met precies de goede sterkte voor een zin kiezen",
+        "Woorden vinden die hetzelfde betekenen",
+        "Woorden voor gaan en kijken onderscheiden naar snelheid of duur"
+      ],
+      "howToPlay": [
+        "Tik op een woord en dan op een stand van de knop (of sleep het woord). Druk op Vuur hoger.",
+        "Waar de soep springt, staat een woord op de verkeerde plek: wissel het en probeer het nog eens.",
+        "In de instellingen kies je de opdracht, drie of vier woorden op de knop en of de soepkleuren de hele tijd te zien zijn."
+      ],
+      "learningGoals": [
+        "Woorden ordenen naar sterkte.",
+        "Het woord kiezen dat het best in een zin past.",
+        "Woorden herkennen die hetzelfde betekenen."
+      ]
     }
   }
 }

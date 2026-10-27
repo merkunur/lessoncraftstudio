@@ -4605,6 +4605,29 @@
         "Vérifier un mot écrit d’après ce qu’il dit vraiment.",
         "Utiliser des règles d’orthographe simples et le pluriel."
       ]
+    },
+    "shades.pick.l-1-5-d": {
+      "about": [
+        "Le bouton du feu de Pesto porte un mot sur chaque cran. Quand on monte le feu, la flamme grandit d’une langue par cran, et la soupe prend la force du MOT de ce cran. Si les mots sont dans le bon ordre (tiède, chaud, brûlant), la flamme et la soupe montent ensemble ; un mot mal placé fait sursauter la soupe, et l’enfant voit quel mot déplacer.",
+        "Il y a quatre choses à faire : ranger des mots proches d’un peu à beaucoup ; lire un ticket de commande et tourner le bouton jusqu’au mot qu’il faut, ou trouver le mot qui va entre deux autres ; mettre sur un même cran des mots jumeaux qui veulent dire la même chose ; et ranger des mots pour avancer et pour regarder sur deux boutons, selon la vitesse ou la durée. Les couleurs de la soupe peuvent rester cachées jusqu’au moment de monter le feu : l’ordre doit venir de la lecture.",
+        "L’activité suit les programmes officiels du cycle 2 (CP) pour l’étude du vocabulaire. Elle fonctionne sans le son, sans chronomètre et sans score."
+      ],
+      "practices": [
+        "Ranger des mots proches d’un peu à beaucoup",
+        "Choisir le mot de la bonne force pour une phrase",
+        "Trouver des mots qui veulent dire la même chose",
+        "Distinguer des mots pour avancer et pour regarder selon la vitesse ou la durée"
+      ],
+      "howToPlay": [
+        "Touche un mot, puis un cran du bouton (ou fais glisser le mot). Appuie sur Monter le feu.",
+        "Là où la soupe sursaute, un mot n’est pas à sa place : change-le et essaie encore.",
+        "Dans les réglages, choisis l’activité, trois ou quatre mots sur le bouton, et si les couleurs de la soupe se voient tout le temps."
+      ],
+      "learningGoals": [
+        "Ranger des mots selon leur force.",
+        "Choisir le mot qui convient le mieux à une phrase.",
+        "Reconnaître des mots qui veulent dire la même chose."
+      ]
     }
   }
 }

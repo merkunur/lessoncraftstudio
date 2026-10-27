@@ -3809,25 +3809,25 @@
     },
     "shades.pick.l-1-5-d": {
       "about": [
-        "Pesto the parrot needs the word of exactly the right strength at his soup stall — warm, toasty, hot, scalding all mean heat, but the shade matters — so the child reads what a customer needs (\"only just cool enough to sip\") and taps the right-strength word. It's an interactive Grade 1 vocabulary activity that runs in the browser with no account.",
-        "The big idea is distinguishing near-synonyms by degree, and the activity stretches it several ways: choosing the word that fits a sentence (a loud voice versus a deafening one, a damp towel versus a soaked one), ordering a set like warm-toasty-hot-scalding from weakest to strongest, finding the word that falls between two others, and choosing the right way to look — a quick glance, a look, or a long stare — for what someone is doing. Because the words are so close in meaning, a child has to weigh strength, not just pick any word that fits the topic.",
-        "It is aligned to Common Core L.1.5.d — distinguishing shades of meaning among verbs and adjectives that differ by degree (also L.2.5.b). No timer, no score — just calm, playful practice."
+        "Pesto's stove knob has a word on every click. Turn it up and the flame grows one tongue per click, while the soup in the pot takes the strength of the WORD on that click. When the words stand in the right order (warm, hot, boiling), flame and soup rise together; a word in the wrong place makes the soup jump, so the child sees which word to move.",
+        "There are four things to do: order a ladder of close words from a little to a lot; read an order ticket and turn the knob to the word it needs, or find the word that goes between two others; put twin words that mean the same on one click; and sort going words and looking words onto two knobs, each by how fast or how long. The soup colours can stay hidden until the knob is turned up, so the order has to come from reading.",
+        "It is aligned to Common Core L.1.5.d: distinguish shades of meaning among verbs and adjectives that differ in manner or intensity. It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Choosing the word of the right strength to fit a sentence",
-        "Ordering near-synonyms from weakest to strongest, like warm to scalding",
-        "Finding the word that falls between two others in strength",
-        "Picking the right way to look — glance, look, or stare — for how long someone looks"
+        "Put close words in order from a little to a lot",
+        "Choose the word of just the right strength for a sentence",
+        "Find words that mean the same",
+        "Tell going and looking words apart by how fast or how long"
       ],
       "howToPlay": [
-        "Read what the customer needs, or the set of similar words.",
-        "Tap the right-strength word, order the ladder, find the in-between word, or choose the right way to look.",
-        "A warm check confirms a correct choice and offers an easy retry, with no timer and no score."
+        "Tap a word, then a click on the knob (or drag the word there). Press Turn it up.",
+        "Where the soup jumps, a word is in the wrong place: swap it and try again.",
+        "In the settings, choose what to do, three or four words on the knob, and whether the soup colours show all the time."
       ],
       "learningGoals": [
-        "Distinguish shades of meaning among related words that differ by degree — the focus of Common Core L.1.5.d",
-        "Understand that near-synonyms carry different amounts of strength",
-        "Build the precise word-choice sense that stronger speaking and writing depend on"
+        "Order words by strength.",
+        "Choose the word that fits a sentence best.",
+        "Recognise words that mean the same."
       ]
     },
     "shapeforge.compose.1-g-a-2": {

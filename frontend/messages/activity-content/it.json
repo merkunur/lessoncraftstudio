@@ -4520,6 +4520,29 @@
         "Controllare una parola scritta da quello che dice davvero.",
         "Usare semplici regole di ortografia e il plurale."
       ]
+    },
+    "shades.pick.l-1-5-d": {
+      "about": [
+        "La manopola del fornello di Pesto ha una parola su ogni scatto. Quando si alza la fiamma, il fuoco cresce di una lingua per scatto e la minestra prende la forza della PAROLA di quello scatto. Se le parole sono in ordine (tiepido, caldo, bollente), fiamma e minestra crescono insieme; una parola fuori posto fa saltare la minestra, e il bambino vede quale parola spostare.",
+        "Ci sono quattro cose da fare: mettere in ordine parole simili, da poco a tanto; leggere un biglietto d’ordine e girare la manopola sulla parola giusta, oppure trovare la parola che sta tra altre due; mettere sullo stesso scatto parole gemelle che vogliono dire la stessa cosa; e sistemare parole per muoversi e per guardare su due manopole, secondo la velocità o la durata. I colori della minestra possono restare nascosti finché non si alza la fiamma, così l’ordine nasce dalla lettura.",
+        "L’attività segue le Indicazioni nazionali per la classe prima, italiano. Funziona senza audio, senza cronometro e senza punteggio."
+      ],
+      "practices": [
+        "Mettere in ordine parole simili, da poco a tanto",
+        "Scegliere la parola con la forza giusta per una frase",
+        "Trovare parole che vogliono dire la stessa cosa",
+        "Distinguere parole per muoversi e per guardare secondo la velocità o la durata"
+      ],
+      "howToPlay": [
+        "Tocca una parola e poi uno scatto della manopola (oppure trascina la parola). Premi Alza la fiamma.",
+        "Dove la minestra salta, una parola è fuori posto: cambiala e riprova.",
+        "Nelle impostazioni scegli l’attività, tre o quattro parole sulla manopola e se i colori della minestra si vedono sempre."
+      ],
+      "learningGoals": [
+        "Mettere in ordine le parole secondo la forza.",
+        "Scegliere la parola più adatta a una frase.",
+        "Riconoscere parole che vogliono dire la stessa cosa."
+      ]
     }
   }
 }

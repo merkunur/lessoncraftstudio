@@ -87,6 +87,10 @@ function seedScript(row) {
     // the mop on the chart, "map" spelled in its boxes, Mirror pressed — the mirror shows a map, not the patient: the invention at work
     return `(function(){var t=window['${g}'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(1,0);t._render2();t._tile(1);t._look();}})();`;
   }
+  if (row.tool === 'stove-knob-activity') {
+    // the heat ladder: warm, hot, boiling on the knob's clicks, Turn it up pressed — three flames, the soup at its deepest: flame and soup rose together
+    return `(function(){var t=window['${g}'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(0,0);t._render2();var r=t.st.rd.tiles;[1,2,3].forEach(function(k,c){t._tile(r.findIndex(function(x){return x.rank===k;}));t._win(c);});t._check();}})();`;
+  }
   if (row.tool === 'what-for-tags-activity') {
     // the winter day: beanie, mitten and sock on their moments, a fan hung under "It is dark in your room", Go pressed — three lock, the fan is back in the bag with its tag flipped open ("for hot days"): the invention at work
     return `(function(){var t=window['${g}'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(1,0);t._render2();var r=t.st.rd.right,x=t.st.rd.things.map(function(_,j){return j;}).filter(function(j){return r.indexOf(j)<0;});t._hang(0,r[0]);t._hang(1,r[1]);t._hang(2,r[2]);t._hang(3,x[0]);t._go();}})();`;

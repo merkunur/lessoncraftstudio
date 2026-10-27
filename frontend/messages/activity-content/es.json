@@ -4543,6 +4543,29 @@
         "Revisar una palabra por lo que dice de verdad.",
         "Usar reglas sencillas de ortografía y el plural."
       ]
+    },
+    "shades.pick.l-1-5-d": {
+      "about": [
+        "La perilla de la estufa de Pesto tiene una palabra en cada punto. Al subir el fuego, la llama crece una lengüita por punto y la sopa toma la fuerza de la PALABRA de ese punto. Si las palabras están en orden (tibio, caliente, hirviendo), la llama y la sopa crecen juntas; una palabra fuera de lugar hace saltar la sopa, y el niño ve qué palabra cambiar.",
+        "Hay cuatro cosas que hacer: ordenar palabras parecidas de poquito a muchísimo; leer un papelito de pedido y girar la perilla hasta la palabra que pide, o encontrar la palabra que va entre otras dos; poner en el mismo punto palabras gemelas que significan lo mismo; y acomodar palabras de moverse y de mirar en dos perillas, según la rapidez o el tiempo. Los colores de la sopa pueden quedarse ocultos hasta subir el fuego, para que el orden salga de la lectura.",
+        "Está alineada con los planes de estudio de primer grado de primaria en el campo de Lenguajes. Funciona sin sonido, sin reloj y sin puntaje."
+      ],
+      "practices": [
+        "Ordenar palabras parecidas de poquito a muchísimo",
+        "Elegir la palabra con la fuerza justa para una oración",
+        "Encontrar palabras que significan lo mismo",
+        "Distinguir palabras de moverse y de mirar según la rapidez o el tiempo"
+      ],
+      "howToPlay": [
+        "Toca una palabra y luego un punto de la perilla (o arrastra la palabra). Aprieta Subir el fuego.",
+        "Donde la sopa salta, hay una palabra fuera de lugar: cámbiala e inténtalo otra vez.",
+        "En los ajustes elige la actividad, tres o cuatro palabras en la perilla y si los colores de la sopa se ven todo el tiempo."
+      ],
+      "learningGoals": [
+        "Ordenar palabras según su fuerza.",
+        "Elegir la palabra que mejor va en una oración.",
+        "Reconocer palabras que significan lo mismo."
+      ]
     }
   }
 }

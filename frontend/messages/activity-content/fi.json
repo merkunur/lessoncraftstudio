@@ -3485,6 +3485,29 @@
         "Kertoa, mihin tavara on.",
         "Kuvata tavaroita sanoilla, jotka kertovat, millaisia ne ovat."
       ]
+    },
+    "shades.pick.l-1-5-d": {
+      "about": [
+        "Peston liesinupin jokaisessa asennossa on sana. Kun nuppia käännetään isommalle, liekki kasvaa kielekkeen verran asentoa kohti ja kattilan keitto saa siinä asennossa olevan SANAN voimakkuuden. Kun sanat ovat oikeassa järjestyksessä (lämmin, kuuma, tulikuuma), liekki ja keitto kasvavat yhdessä; väärässä paikassa oleva sana saa keiton hyppäämään, ja lapsi näkee, mikä sana pitää siirtää.",
+        "Tehtäviä on neljä: järjestä toistensa kaltaiset sanat vähästä paljoon; lue tilauslappu ja käännä nuppi oikeaan sanaan tai etsi sana, joka sopii kahden muun väliin; laita samaa tarkoittavat kaksoissanat samaan asentoon; ja lajittele liikkumisen ja katsomisen sanat kahteen nuppiin sen mukaan, kuinka nopeasti tai kuinka kauan. Keiton värit voivat pysyä piilossa siihen asti, kun nuppi käännetään isommalle, joten järjestyksen pitää tulla lukemisesta.",
+        "Tehtävä sopii OPS 2014:n äidinkielen ja kirjallisuuden tavoitteisiin 1. luokalla. Se toimii ilman ääntä, ilman ajanottoa ja ilman pisteitä."
+      ],
+      "practices": [
+        "Järjestää toistensa kaltaiset sanat vähästä paljoon",
+        "Valita lauseeseen juuri sopivan voimakas sana",
+        "Löytää samaa tarkoittavia sanoja",
+        "Erottaa liikkumisen ja katsomisen sanat nopeuden tai keston mukaan"
+      ],
+      "howToPlay": [
+        "Napauta sanaa ja sitten nupin asentoa (tai vedä sana paikalleen). Paina Käännä isommalle.",
+        "Missä keitto hyppää, sana on väärässä paikassa: vaihda se ja yritä uudelleen.",
+        "Asetuksista valitset tehtävän, kolme tai neljä sanaa nuppiin ja näkyvätkö keiton värit koko ajan."
+      ],
+      "learningGoals": [
+        "Järjestää sanoja voimakkuuden mukaan.",
+        "Valita lauseeseen parhaiten sopiva sana.",
+        "Tunnistaa samaa tarkoittavia sanoja."
+      ]
     }
   }
 }

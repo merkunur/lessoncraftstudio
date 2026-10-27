@@ -4550,6 +4550,29 @@
         "Conferir uma palavra pelo que ela diz de verdade.",
         "Usar regras simples de ortografia e o plural."
       ]
+    },
+    "shades.pick.l-1-5-d": {
+      "about": [
+        "O botão do fogão do Pesto tem uma palavra em cada posição. Quando o fogo aumenta, a chama cresce uma linguinha por posição, e a sopa ganha a força da PALAVRA daquela posição. Se as palavras estão na ordem certa (morno, quente, fervendo), a chama e a sopa crescem juntas; uma palavra fora do lugar faz a sopa pular, e a criança vê qual palavra trocar.",
+        "São quatro tarefas: colocar palavras parecidas em ordem, de um pouquinho a muito; ler um pedido e girar o botão até a palavra certa, ou achar a palavra que fica entre outras duas; colocar na mesma posição palavras gêmeas que querem dizer a mesma coisa; e separar palavras de andar e de olhar em dois botões, pela rapidez ou pelo tempo. As cores da sopa podem ficar escondidas até o fogo aumentar, para que a ordem venha da leitura.",
+        "A atividade está de acordo com a BNCC, Língua Portuguesa, 1º ano. Funciona sem som, sem cronômetro e sem pontuação."
+      ],
+      "practices": [
+        "Colocar palavras parecidas em ordem, de um pouquinho a muito",
+        "Escolher a palavra com a força certa para uma frase",
+        "Achar palavras que querem dizer a mesma coisa",
+        "Diferenciar palavras de andar e de olhar pela rapidez ou pelo tempo"
+      ],
+      "howToPlay": [
+        "Toque numa palavra e depois numa posição do botão (ou arraste a palavra). Aperte Aumentar o fogo.",
+        "Onde a sopa pula, há uma palavra fora do lugar: troque e tente de novo.",
+        "Nas configurações, escolha a tarefa, três ou quatro palavras no botão e se as cores da sopa aparecem o tempo todo."
+      ],
+      "learningGoals": [
+        "Colocar palavras em ordem pela força.",
+        "Escolher a palavra que combina melhor com uma frase.",
+        "Reconhecer palavras que querem dizer a mesma coisa."
+      ]
     }
   }
 }

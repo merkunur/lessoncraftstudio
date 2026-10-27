@@ -4618,6 +4618,29 @@
         "Ein geschriebenes Wort daran prüfen, was es wirklich sagt.",
         "Einfache Rechtschreibregeln und Endungen der Mehrzahl anwenden."
       ]
+    },
+    "shades.pick.l-1-5-d": {
+      "about": [
+        "Pestos Herdknopf hat auf jeder Stufe ein Wort. Dreht das Kind auf, wächst die Flamme um eine Zunge pro Stufe, und die Suppe im Topf nimmt die Stärke des WORTES auf dieser Stufe an. Stehen die Wörter richtig (warm, heiß, kochend heiß), wachsen Flamme und Suppe zusammen; ein Wort am falschen Platz lässt die Suppe zucken, und das Kind sieht, welches Wort es umsetzen muss.",
+        "Es gibt vier Aufgaben: ähnliche Wörter von ein bisschen bis ganz viel ordnen; einen Bestellzettel lesen und den Knopf auf das passende Wort drehen oder das Wort finden, das zwischen zwei anderen liegt; Zwillingswörter, die dasselbe bedeuten, auf eine Stufe legen; und Wörter fürs Gehen und fürs Schauen auf zwei Knöpfe sortieren, nach Tempo oder Dauer. Die Suppenfarben können bis zum Aufdrehen verborgen bleiben, damit die Reihenfolge aus dem Lesen kommt.",
+        "Die Übung passt zum Bereich „Sprache und Sprachgebrauch untersuchen“ des Lehrplans der Grundschule, Klasse 1. Sie funktioniert ohne Ton, ohne Zeitdruck und ohne Punkte."
+      ],
+      "practices": [
+        "Ähnliche Wörter von ein bisschen bis ganz viel ordnen",
+        "Das Wort mit genau der richtigen Stärke für einen Satz wählen",
+        "Wörter finden, die dasselbe bedeuten",
+        "Wörter fürs Gehen und Schauen nach Tempo oder Dauer unterscheiden"
+      ],
+      "howToPlay": [
+        "Tippe ein Wort an und dann eine Stufe am Knopf (oder zieh das Wort dorthin). Drück auf Aufdrehen.",
+        "Wo die Suppe zuckt, steht ein Wort am falschen Platz: Tausch es und versuch es noch einmal.",
+        "In den Einstellungen wählst du die Aufgabe, drei oder vier Wörter am Knopf und ob die Suppenfarben die ganze Zeit zu sehen sind."
+      ],
+      "learningGoals": [
+        "Wörter nach ihrer Stärke ordnen.",
+        "Das Wort wählen, das am besten in einen Satz passt.",
+        "Wörter erkennen, die dasselbe bedeuten."
+      ]
     }
   }
 }

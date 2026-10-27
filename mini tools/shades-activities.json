@@ -1,44 +1,75 @@
 [
   {
     "id": "shades.pick.l-1-5-d",
-    "tool": "shades-activity",
+    "tool": "stove-knob-activity",
     "task_template": "shades",
-    "alignment": { "framework": "CCSS", "code": "L.1.5.d", "grade": "1", "strand": "Language" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "L.1.5.d",
+      "grade": "1",
+      "strand": "Language"
+    },
     "theme": null,
     "params": {
-      "sets": {
-        "temp": { "dimension": "temp", "rote": false, "orderable": true, "words": [ { "id": "hot", "text": "hot", "rank": 3 }, { "id": "scalding", "text": "scalding", "rank": 4 }, { "id": "warm", "text": "warm", "rank": 1 }, { "id": "toasty", "text": "toasty", "rank": 2 } ] },
-        "wet":  { "dimension": "wet",  "rote": false, "orderable": true, "words": [ { "id": "wet", "text": "wet", "rank": 2 }, { "id": "soaked", "text": "soaked", "rank": 3 }, { "id": "damp", "text": "damp", "rank": 1 } ] },
-        "loud": { "dimension": "loud", "rote": false, "orderable": true, "words": [ { "id": "booming", "text": "booming", "rank": 2 }, { "id": "deafening", "text": "deafening", "rank": 3 }, { "id": "loud", "text": "loud", "rank": 1 } ] },
-        "size": { "dimension": "size", "rote": true,  "orderable": true, "words": [ { "id": "tiny", "text": "tiny", "rank": 1 }, { "id": "big", "text": "big", "rank": 3 }, { "id": "huge", "text": "huge", "rank": 4 }, { "id": "small", "text": "small", "rank": 2 } ] },
-        "look": { "dimension": "manner", "rote": false, "orderable": false, "words": [ { "id": "look", "text": "look", "rank": 2 }, { "id": "stare", "text": "stare", "rank": 3 }, { "id": "glance", "text": "glance", "rank": 1 } ] }
-      },
-      "rounds": [
-        { "id": "pick-soup-low",   "cog": "pick", "setId": "temp", "requiredRank": 1, "keywords": ["soup"], "sentence": "Grandpa likes his soup only just cool enough to sip — not hot at all." },
-        { "id": "pick-soup-high",  "cog": "pick", "setId": "temp", "requiredRank": 4, "keywords": ["soup"], "sentence": "This soup has boiled on the stove all morning — it would burn your tongue!" },
-        { "id": "pick-towel-low",  "cog": "pick", "setId": "wet",  "requiredRank": 1, "keywords": ["towel"], "sentence": "The towel only caught a little mist from the sea — just a tiny bit moist." },
-        { "id": "pick-towel-high", "cog": "pick", "setId": "wet",  "requiredRank": 3, "keywords": ["towel"], "sentence": "The towel fell right into the pond and came out dripping everywhere!" },
-        { "id": "pick-voice-low",  "cog": "pick", "setId": "loud", "requiredRank": 1, "keywords": ["voice"], "sentence": "Speak up a little so the friend sitting next to you can hear your voice." },
-        { "id": "pick-voice-high", "cog": "pick", "setId": "loud", "requiredRank": 3, "keywords": ["voice"], "sentence": "The giant's voice was so strong that it shook the windows and hurt our ears!" },
-
-        { "id": "order-temp", "cog": "order", "setId": "temp" },
-        { "id": "order-wet",  "cog": "order", "setId": "wet" },
-
-        { "id": "bound-temp", "cog": "bound", "setId": "temp", "loId": "warm", "hiId": "hot" },
-        { "id": "bound-size", "cog": "bound", "setId": "size", "loId": "small", "hiId": "huge" },
-
-        { "id": "manner-shy",   "cog": "manner", "setId": "look", "answerId": "glance", "sentence": "He had only one second to check the clock before he ran out the door." },
-        { "id": "manner-angry", "cog": "manner", "setId": "look", "answerId": "stare", "sentence": "She watched the snail for a long, long time without blinking once." }
-      ]
+      "level": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "words": [
+        "3",
+        "4"
+      ],
+      "peek": [
+        "off",
+        "on"
+      ],
+      "rounds": {
+        "1": 8,
+        "2": 21,
+        "3": 8,
+        "4": 7
+      }
     },
     "slug": {
-      "en": "pestos-soup-stall-shades-of-meaning"
+      "en": "pestos-soup-stall-shades-of-meaning",
+      "de": "der-herdknopf-woerter-von-schwach-bis-stark-klasse-1",
+      "fr": "le-bouton-du-feu-les-nuances-de-sens-cp",
+      "es": "la-perilla-de-la-estufa-matices-de-significado-1-primaria",
+      "pt": "o-botao-do-fogao-a-intensidade-das-palavras-1-ano",
+      "it": "la-manopola-del-fornello-sfumature-di-significato-classe-prima",
+      "nl": "de-fornuisknop-woorden-van-zwak-tot-sterk-groep-3",
+      "sv": "spisvredet-ord-fran-svag-till-stark-ak-1",
+      "da": "komfurknappen-ord-fra-svag-til-staerk-1-klasse",
+      "no": "komfyrbryteren-ord-fra-svak-til-sterk-1-trinn",
+      "fi": "lieden-nuppi-sanojen-voimakkuus-1-luokka"
     },
     "page_title": {
-      "en": "Pesto's Soup Stall — Shades of Meaning (Grade 1)"
+      "en": "Pesto's Soup Stall — Shades of Meaning (Grade 1)",
+      "de": "Der Herdknopf – Wörter von schwach bis stark (Klasse 1)",
+      "fr": "Le bouton du feu – les nuances de sens (CP)",
+      "es": "La perilla de la estufa – matices de significado (1.º de primaria)",
+      "pt": "O botão do fogão – a intensidade das palavras (1º ano)",
+      "it": "La manopola del fornello – sfumature di significato (classe prima)",
+      "nl": "De fornuisknop – woorden van zwak tot sterk (groep 3)",
+      "sv": "Spisvredet – ord från svag till stark (åk 1)",
+      "da": "Komfurknappen – ord fra svag til stærk (1. klasse)",
+      "no": "Komfyrbryteren – ord fra svak til sterk (1. trinn)",
+      "fi": "Lieden nuppi – sanojen voimakkuus (1. luokka)"
     },
     "page_intro": {
-      "en": "An interactive Grade 1 vocabulary activity: help Pesto the parrot pick the spice of exactly the right strength. Warm, toasty, hot, and scalding all mean heat — but the shade matters. Read what the customer needs and choose the right-strength word, order a ladder from weakest to strongest, find the word between two others, and choose the right way to look. Distinguishing shades of meaning among near-synonyms. Common Core L.1.5.d (also L.2.5.b)."
+      "en": "An interactive Grade 1 vocabulary activity: help Pesto the parrot pick the spice of exactly the right strength. Warm, toasty, hot, and scalding all mean heat — but the shade matters. Read what the customer needs and choose the right-strength word, order a ladder from weakest to strongest, find the word between two others, and choose the right way to look. Distinguishing shades of meaning among near-synonyms. Common Core L.1.5.d (also L.2.5.b).",
+      "de": "Pestos Herdknopf hat auf jeder Stufe ein Wort. Dreht das Kind auf, wächst die Flamme Stufe für Stufe, und die Suppe nimmt die Stärke des Wortes an: warm, heiß, kochend heiß. Stehen die Wörter in der richtigen Reihenfolge, wachsen Flamme und Suppe zusammen; ein Wort am falschen Platz lässt die Suppe zucken. Dazu Bestellzettel, auf denen das passende Wort gesucht wird, Zwillingswörter und Wörter fürs Gehen und Schauen. Eine Wortschatzübung für Klasse 1 nach dem Lehrplan.",
+      "fr": "Le bouton du feu de Pesto porte un mot sur chaque cran. Quand l’enfant monte le feu, la flamme grandit cran par cran et la soupe prend la force du mot : tiède, chaud, brûlant. Si les mots sont dans le bon ordre, la flamme et la soupe grandissent ensemble ; un mot mal placé fait sursauter la soupe. Avec des tickets de commande, des mots jumeaux et des mots pour avancer et regarder. Une activité de vocabulaire pour le CP, conforme aux programmes officiels.",
+      "es": "La perilla de la estufa de Pesto tiene una palabra en cada punto. Al subir el fuego, la llama crece punto por punto y la sopa toma la fuerza de la palabra: tibio, caliente, hirviendo. Si las palabras están en orden, la llama y la sopa crecen juntas; una palabra fuera de lugar hace saltar la sopa. Además, papelitos de pedido, palabras gemelas y palabras para moverse y para mirar. Una actividad de vocabulario para 1.º de primaria, de acuerdo con los planes de estudio.",
+      "pt": "O botão do fogão do Pesto tem uma palavra em cada posição. Quando a criança aumenta o fogo, a chama cresce posição por posição e a sopa ganha a força da palavra: morno, quente, fervendo. Se as palavras estão na ordem certa, a chama e a sopa crescem juntas; uma palavra fora do lugar faz a sopa pular. Também há pedidos para ler, palavras gêmeas e palavras de andar e de olhar. Uma atividade de vocabulário para o 1º ano, de acordo com a BNCC.",
+      "it": "La manopola del fornello di Pesto ha una parola su ogni scatto. Quando il bambino alza la fiamma, il fuoco cresce scatto dopo scatto e la minestra prende la forza della parola: tiepido, caldo, bollente. Se le parole sono in ordine, fiamma e minestra crescono insieme; una parola fuori posto fa saltare la minestra. Ci sono anche biglietti d’ordine, parole gemelle e parole per muoversi e per guardare. Un’attività di lessico per la classe prima, secondo le Indicazioni nazionali.",
+      "nl": "Pesto’s fornuisknop heeft op elke stand een woord. Draait het kind het vuur hoger, dan groeit de vlam stand voor stand en krijgt de soep de sterkte van het woord: lauw, warm, heet. Staan de woorden in de goede volgorde, dan groeien vlam en soep samen; een woord op de verkeerde plek laat de soep springen. Met bestelbonnetjes, tweelingwoorden en woorden voor gaan en kijken. Een woordenschatoefening voor groep 3, passend bij de kerndoelen van SLO.",
+      "sv": "Pestos spisvred har ett ord på varje läge. När barnet vrider upp växer lågan läge för läge och soppan får ordets styrka: ljummen, varm, kokhet. Står orden i rätt ordning växer lågan och soppan tillsammans; ett ord på fel plats får soppan att hoppa. Dessutom beställningslappar, tvillingord och ord för att röra sig och titta. En ordövning för åk 1 i linje med Lgr22.",
+      "da": "Pestos komfurknap har et ord på hvert trin. Når barnet skruer op, vokser flammen trin for trin, og suppen får ordets styrke: lunken, varm, glohed. Står ordene i den rigtige rækkefølge, vokser flamme og suppe sammen; et ord på den forkerte plads får suppen til at hoppe. Desuden bestillingssedler, tvillingeord og ord for at bevæge sig og kigge. En ordforrådsøvelse til 1. klasse i tråd med Fælles Mål.",
+      "no": "Pestos komfyrbryter har et ord på hvert trinn. Når barnet skrur opp, vokser flammen trinn for trinn, og suppa får ordets styrke: lunken, varm, brennhet. Står ordene i riktig rekkefølge, vokser flamme og suppe sammen; et ord på feil plass får suppa til å hoppe. I tillegg bestillingslapper, tvillingord og ord for å bevege seg og se. En ordforrådsøvelse for 1. trinn i tråd med LK20.",
+      "fi": "Peston liesinupin jokaisessa asennossa on sana. Kun lapsi kääntää nuppia isommalle, liekki kasvaa asento kerrallaan ja keitto saa sanan voimakkuuden: lämmin, kuuma, tulikuuma. Kun sanat ovat oikeassa järjestyksessä, liekki ja keitto kasvavat yhdessä; väärässä paikassa oleva sana saa keiton hyppäämään. Lisäksi tilauslappuja, kaksoissanoja sekä liikkumisen ja katsomisen sanoja. Sanastotehtävä 1. luokalle (OPS 2014)."
     },
     "kid_prompt_template": "shades"
   }

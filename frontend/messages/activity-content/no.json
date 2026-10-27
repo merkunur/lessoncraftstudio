@@ -3513,6 +3513,29 @@
         "Forklare hva en ting er til.",
         "Beskrive ting med ord for hvordan de er."
       ]
+    },
+    "shades.pick.l-1-5-d": {
+      "about": [
+        "Pestos komfyrbryter har et ord på hvert trinn. Når man skrur opp, vokser flammen med en tunge per trinn, og suppa i gryta får styrken til ORDET på det trinnet. Står ordene i riktig rekkefølge (lunken, varm, brennhet), vokser flamme og suppe sammen; et ord på feil plass får suppa til å hoppe, og barnet ser hvilket ord som må flyttes.",
+        "Det er fire ting å gjøre: ordne ord som ligner hverandre, fra litt til mye; lese en bestillingslapp og vri bryteren til ordet som trengs, eller finne ordet som passer mellom to andre; legge tvillingord som betyr det samme, på ett trinn; og sortere ord for å bevege seg og ord for å se, på to brytere, etter hvor fort eller hvor lenge. Suppefargene kan være skjult til man skrur opp, så rekkefølgen kommer fra lesingen.",
+        "Øvelsen følger LK20, norsk etter 2. trinn, ordforråd. Den virker uten lyd, uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Ordne ord som ligner hverandre, fra litt til mye",
+        "Velge ordet med akkurat riktig styrke til en setning",
+        "Finne ord som betyr det samme",
+        "Skille ord for å bevege seg og se etter hvor fort eller hvor lenge"
+      ],
+      "howToPlay": [
+        "Trykk på et ord og så på et trinn på bryteren (eller dra ordet dit). Trykk på Skru opp.",
+        "Der suppa hopper, står et ord på feil plass: bytt det og prøv igjen.",
+        "I innstillingene velger du oppgave, tre eller fire ord på bryteren og om suppefargene vises hele tiden."
+      ],
+      "learningGoals": [
+        "Ordne ord etter styrke.",
+        "Velge ordet som passer best i en setning.",
+        "Kjenne igjen ord som betyr det samme."
+      ]
     }
   }
 }

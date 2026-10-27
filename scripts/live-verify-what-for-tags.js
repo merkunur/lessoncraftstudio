@@ -56,7 +56,8 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
     is(sp(await note()) === sp(T(loc, 'missTags')) && s1.locked === 'false,false,true,true' && s1.open === 2, `[${loc} @${w}] two swapped → two lock, two come back with their tags open, «${sp(await note())}»`);
     await hang(right[0], 0); await hang(right[1], 1); await click('[data-k="check"]');
     await frame.waitForFunction(() => window.WhatForTagsActivity.st.done, { timeout: 15000 }).catch(() => {});
-    const st = C.newState(loc, '1', 0); right.forEach((j, h) => { st.hook[h] = j; });
+    /* the expected line from the unshuffled round: each window's own right thing (the page's bag is shuffled, so its indices are not this round's) */
+    const st = C.newState(loc, '1', 0); st.rd.right.forEach((j, h) => { st.hook[h] = j; });
     const want = C.okLine(st, a => a.join(', '), T(loc, 'okDay'));
     const said = await frame.evaluate(() => document.querySelector('.wt-note').textContent);
     is(await frame.evaluate(() => window.WhatForTagsActivity.st.done) && sp(said) === sp(want), `[${loc} @${w}] all four right → «${sp(said)}»`);

@@ -92,3 +92,6 @@ Every finding was fixed at the source (`wt-src.js`, `wt-strings.js`, prose).
 - **`audit-settings-efficacy`:** level, bag and words all live.
 - **`audit-activity-next-delay`:** pass. Content ×11, prose claims, SERP copy, content tells and route preflight: pass.
 - **0 lines** in shared cores or `lcs-shell`.
+
+## Live
+`live-verify-what-for-tags.js` on production, 2026-10-27: **52 pass, 0 fail.** All 11 pages return 200, and en, de, sv and fi at 1366 and 390 embed what-for-tags-activity.html at wrapper 9.878. With a real pointer, two swapped things + Go lock the right two and send the swapped two back with their tags open and the hint; the swapped ones put right + Go gives the success line; the iframe grows with the card. The first run fell in the cache window (de/sv/fi still served the old embed). It also caught a fault in the script itself: the expected success line came from the unshuffled bag while being indexed by the page's shuffled positions. The script now reads each window's right thing from the unshuffled round, and the second run was clean.

@@ -3508,6 +3508,29 @@
         "Valita lauseeseen parhaiten sopiva sana.",
         "Tunnistaa samaa tarkoittavia sanoja."
       ]
+    },
+    "winter-piles.draw-partition.2-oa-c-4": {
+      "about": [
+        "Oravan tammenterhot ovat riveissä puisella tarjottimella. Lapsi jakaa rivit kasoiksi napauttamalla rivien välejä ja laittamalla niihin oksia, ja napauttaa sitten kantoa: kasat liukuvat sinne ja asettuvat päällekkäin. Lunta sataa, ja se voi laskeutua tasaiseksi kanneksi vain yhtä suurista kasoista tehdyn pinon päälle. Jos yksi kasa on isompi, sen ylimääräiset terhot pistävät pinosta esiin värillisinä ja kansi liukuu lumeen.",
+        "Kasojen yhtäsuuruus tarkistetaan pinoamalla, hyvin suoralla tavalla verrata kasoja. Yhtä suuret ryhmät ovat siis jotain, minkä lapsi näkee, eikä sääntö, joka pitää muistaa. Kun pino on tasainen, lapsi kirjoittaa, montako terhoa kussakin kasassa on, ja lasku ilmestyy: 4 + 4 + 4 = 12 tai 6 + 6 = 12. Kaksi muuta tasoa tekee samasta välineestä jakolaskun: jaa kasoja, jotka täyttävät tietyn kokoisen kolon, ja kerro, montako koloa tulee, tai jaa irtonainen kasa terho kerrallaan koloihin ja kerro, montako kukin kolo saa.",
+        "Tehtävä sopii OPS 2014:n matematiikan tavoitteisiin 2. luokalla: yhtä suurten ryhmien muodostaminen, toistuva yhteenlasku ja tasan jakaminen. Se toimii ilman ääntä, ilman ajanottoa ja ilman pisteitä."
+      ],
+      "practices": [
+        "Jakaa suorakulmainen ryhmitys yhtä suuriin ryhmiin",
+        "Kirjoittaa kokonaismäärä samojen lukujen summana",
+        "Selvittää, montako tietyn kokoista ryhmää tulee",
+        "Jakaa tasan ja kertoa, montako kukin saa"
+      ],
+      "howToPlay": [
+        "Napauta kahden rivin väliä laittaaksesi siihen oksan; napauta uudelleen poistaaksesi sen.",
+        "Napauta kantoa pinotaksesi kasat: yhtä suurten kasojen pino saa tasaisen lumikannen.",
+        "Kirjoita luku ja paina Tarkista. Tasolla 3 napautat koloa antaaksesi sille terhon ja pidät painettuna ottaaksesi yhden takaisin. Asetuksista valitset tason ja sen, näkyykö lasku."
+      ],
+      "learningGoals": [
+        "Jakaa joukko ryhmiin, jotka ovat kaikki yhtä suuria.",
+        "Kirjoittaa yhtä suuret ryhmät yhteenlaskuna, esimerkiksi 4 + 4 + 4 = 12.",
+        "Alkaa nähdä, että ryhmittely ja tasan jakaminen ovat saman asian kaksi puolta."
+      ]
     }
   }
 }

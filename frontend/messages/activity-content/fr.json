@@ -3774,23 +3774,25 @@
     },
     "winter-piles.draw-partition.2-oa-c-4": {
       "about": [
-        "Flo l'écureuil range ses glands en tas égaux pour l'hiver. Ton enfant trace une ligne pour couper le tableau en rangées de la même taille, lit combien de glands il y a dans chaque tas, puis entre chaque nombre. L'addition à termes égaux — comme 5 + 5 + 5 = 15 — apparaît quand tous les tas sont égaux.",
-        "Partager un tableau en groupes égaux, lire chaque groupe et l'écrire comme une somme de termes égaux sont des attendus du CE1 : c'est là que commence le sens de la multiplication. Voir les tas égaux scintiller ensemble aide l'enfant à comprendre pourquoi les groupes doivent être pareils. Le jeu se joue sans minuteur et sans points : l'enfant avance à son rythme. Il suit le domaine « Nombres et calcul » des programmes officiels de l'école."
+        "Les glands de l’écureuil sont alignés en rangées sur un plateau de bois. L’enfant coupe les rangées en tas en touchant les espaces pour y poser des brindilles, puis il touche la souche : les tas glissent et se posent les uns sur les autres. La neige tombe, et elle ne peut poser un couvercle bien plat que sur une pile de tas égaux. Si un tas est plus gros, ses glands en trop dépassent de la pile en couleur et le couvercle glisse dans la neige.",
+        "L’égalité se vérifie en empilant, une façon très directe de comparer des tas : les groupes égaux deviennent quelque chose que l’enfant voit, pas une règle à retenir. Quand la pile est juste, l’enfant tape combien il y en a dans chaque tas et le calcul apparaît : 4 + 4 + 4 = 12, ou 6 + 6 = 12. Deux autres niveaux font du même matériel une entrée dans la division : couper des tas qui remplissent une cachette d’une taille donnée et dire combien de cachettes, ou partager un tas en vrac gland par gland entre les cachettes et dire combien chacune reçoit.",
+        "L’activité suit les programmes officiels du cycle 2 (CE1) : partager une collection en groupes égaux, l’écrire comme une somme de termes égaux et partager équitablement. Elle fonctionne sans le son, sans chronomètre et sans score."
       ],
       "practices": [
-        "Partager un tableau en groupes égaux",
-        "Lire combien il y a dans chaque groupe",
-        "Écrire une somme de termes égaux (comme 5 + 5 + 5)",
-        "Comprendre pourquoi les groupes doivent être de la même taille"
+        "Partager une disposition rectangulaire en groupes égaux",
+        "Écrire le total comme une somme de termes égaux",
+        "Trouver combien de groupes d’une taille donnée",
+        "Partager équitablement et dire combien chacun reçoit"
       ],
       "howToPlay": [
-        "Trace une ligne pour couper les rangées en tas égaux.",
-        "Lis chaque tas, entre son nombre, puis valide."
+        "Touche l’espace entre deux rangées pour y poser une brindille ; touche-la encore pour l’enlever.",
+        "Touche la souche pour empiler les tas : une pile juste reçoit un couvercle de neige bien plat.",
+        "Tape le nombre et appuie sur « Vérifier ». Au niveau 3, touche une cachette pour lui donner un gland et garde le doigt appuyé pour en reprendre un. Dans les réglages, choisis le niveau et si le calcul est affiché."
       ],
       "learningGoals": [
-        "Partager un tableau en groupes égaux",
-        "Écrire une addition à termes égaux",
-        "Découvrir le sens de la multiplication"
+        "Partager une collection en groupes qui ont tous la même taille.",
+        "Écrire des groupes égaux sous forme d’addition, comme 4 + 4 + 4 = 12.",
+        "Commencer à voir que grouper et partager sont deux faces d’une même idée."
       ]
     },
     "fix-it-corner.missing-part.1-oa-d-8": {

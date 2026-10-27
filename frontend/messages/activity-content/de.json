@@ -1950,25 +1950,25 @@
     },
     "winter-piles.draw-partition.2-oa-c-4": {
       "about": [
-        "Flo, ein kleines Eichhörnchen, hat seine Eicheln ordentlich in Reihen und Spalten gelegt — und jetzt möchte es sie gerecht aufteilen. In dieser Aktivität zieht Ihr Kind eine Trennlinie durch das Eichelfeld und teilt es in gleich große Häufchen: Mal sollen einfach gleich große Reihen entstehen, mal genau eine bestimmte Anzahl von Häufchen, mal muss ein unfairer Schnitt entdeckt und in einen fairen verbessert werden, und manchmal baut Ihr Kind ein vorgegebenes Ziel-Ergebnis nach. Anschließend liest es ab, wie viele Eicheln in jedem Häufchen liegen, und tippt die Zahlen ein — Stück für Stück wächst die Rechnung „4 + 4 + 4 = 12“.",
-        "Dahinter steckt eine der wichtigsten Ideen der zweiten Klasse: Wenn man gleich viele Dinge mehrmals zusammenzählt, schreibt man das als Summe gleicher Summanden — die sogenannte wiederholte Addition. Genau dieses geordnete Eichelfeld (in der Schule heißt es „Punktefeld“) ist die Brücke zum Malnehmen: Aus „4 + 4 + 4“ wird später ganz natürlich „3 mal 4“. Ihr Kind erlebt das Einmaleins also nicht als auswendig zu lernende Tabelle, sondern versteht von Anfang an, warum es funktioniert.",
-        "Die Aktivität ist ganz ohne Druck: keine Zeit, keine Punkte, kein Wettlauf. Ihr Kind darf in Ruhe ausprobieren, einen Schnitt verschieben und neu schauen, ob die Häufchen wirklich gleich groß sind. Jeder Versuch ist erlaubt — Verstehen entsteht beim Ausprobieren, nicht beim Tempo."
+        "Die Eicheln des Eichhörnchens liegen in Reihen auf einem Holztablett. Das Kind teilt die Reihen in Häufchen, indem es auf die Lücken tippt und Zweige hineinlegt, dann tippt es auf den Baumstumpf: Die Häufchen rutschen hinüber und legen sich aufeinander. Schnee fällt, und er kann nur auf einen gleichmäßigen Stapel einen flachen Deckel legen. Ist ein Häufchen größer, ragen seine zusätzlichen Eicheln farbig aus dem Stapel, und der Deckel rutscht in den Schnee.",
+        "Ob die Häufchen gleich groß sind, zeigt das Aufeinanderlegen, ein ganz direkter Vergleich, so dass gleich große Gruppen etwas sind, das das Kind sieht, und keine Regel, die es sich merken muss. Ist der Stapel gleichmäßig, tippt das Kind ein, wie viele in jedem Häufchen sind, und die Rechnung erscheint: 4 + 4 + 4 = 12 oder 6 + 6 = 12. Zwei weitere Stufen machen daraus das Teilen: Häufchen abteilen, die genau in ein Versteck passen, und sagen, wie viele Verstecke es sind, oder einen losen Haufen Eichel für Eichel auf die Verstecke verteilen und sagen, wie viele jedes bekommt.",
+        "Die Übung passt zum Bereich „Zahlen und Operationen“ des Lehrplans der Grundschule, Klasse 2: gleich große Gruppen bilden, wiederholt addieren und gerecht verteilen. Sie funktioniert ohne Ton, ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "Ein Punktefeld in gleich große Reihen oder Häufchen aufteilen und die Gleichheit selbst prüfen",
-        "Eine Summe gleicher Summanden lesen und schreiben (z. B. „5 + 5 + 5 = 15“)",
-        "Faire von unfairen Aufteilungen unterscheiden und einen ungleichen Schnitt verbessern",
-        "Den ersten tragfähigen Schritt zum Einmaleins gehen — Malnehmen als wiederholte Addition verstehen"
+        "Ein Punktefeld in gleich große Gruppen teilen",
+        "Die Anzahl als Summe gleicher Zahlen schreiben",
+        "Herausfinden, wie viele Gruppen einer bestimmten Größe es sind",
+        "Gerecht verteilen und sagen, wie viele jeder bekommt"
       ],
       "howToPlay": [
-        "Zieh eine Trennlinie durch das Eichelfeld, sodass gleich große Häufchen entstehen",
-        "Zähl, wie viele Eicheln in einem Häufchen liegen, und tippe für jedes Häufchen diese Zahl ein",
-        "Schau, ob deine Rechnung aufgeht — und probier ruhig einen anderen Schnitt, wenn die Häufchen noch nicht gleich groß sind"
+        "Tippe auf eine Lücke zwischen zwei Reihen, um einen Zweig hineinzulegen; tippe noch einmal, um ihn herauszunehmen.",
+        "Tippe auf den Baumstumpf, um die Häufchen zu stapeln: Ein gleichmäßiger Stapel bekommt einen flachen Schneedeckel.",
+        "Tippe die Zahl ein und drücke auf „Prüfen“. In Stufe 3 tippst du auf ein Versteck, um eine Eichel hineinzulegen, und hältst es gedrückt, um eine zurückzunehmen. In den Einstellungen wählst du die Stufe und ob die Rechnung zu sehen ist."
       ],
       "learningGoals": [
-        "Ihr Kind erkennt, dass sich gleich große Mengen als Summe gleicher Summanden schreiben lassen",
-        "Es baut ein sicheres Verständnis des Punktefeldes als Grundlage des Einmaleins auf",
-        "Es festigt den Begriff „gleich groß“ und bereitet damit das Malnehmen anschaulich vor"
+        "Eine Menge in lauter gleich große Gruppen teilen.",
+        "Gleich große Gruppen als Plusaufgabe schreiben, zum Beispiel 4 + 4 + 4 = 12.",
+        "Aufteilen und Verteilen als zwei Seiten derselben Idee entdecken."
       ]
     },
     "comet-kangaroo.tens-hundreds.2-nbt-b-8": {

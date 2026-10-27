@@ -3535,6 +3535,29 @@
         "Velge ordet som passer best i en setning.",
         "Kjenne igjen ord som betyr det samme."
       ]
+    },
+    "winter-piles.draw-partition.2-oa-c-4": {
+      "about": [
+        "Ekornets eikenøtter ligger i rader på et trebrett. Barnet deler radene i hauger ved å trykke på mellomrommene og legge inn kvister, og trykker så på stubben: haugene glir bort og legger seg oppå hverandre. Snøen faller, og den kan bare legge et flatt lokk på en stabel av like store hauger. Er én haug større, stikker de ekstra eikenøttene ut av stabelen i farge, og lokket glir ned i snøen.",
+        "Om haugene er like store, ser man ved å stable dem, en veldig direkte måte å sammenligne hauger på. Like store grupper blir noe barnet ser, ikke en regel det må huske. Når stabelen er jevn, skriver barnet hvor mange det er i hver haug, og regnestykket kommer fram: 4 + 4 + 4 = 12 eller 6 + 6 = 12. To nivåer til gjør det samme materiellet til divisjon: del av hauger som akkurat fyller et hull av en bestemt størrelse og si hvor mange hull det blir, eller del en løs haug én eikenøtt om gangen mellom hullene og si hvor mange hvert hull får.",
+        "Øvelsen følger LK20, matematikk etter 2. trinn, tall og regning: lage like store grupper, gjentatt addisjon og deling i like deler. Den virker uten lyd, uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Dele et rektangel av eikenøtter i like store grupper",
+        "Skrive antallet som en sum av like tall",
+        "Finne ut hvor mange grupper av en bestemt størrelse det blir",
+        "Dele likt og si hvor mange hver får"
+      ],
+      "howToPlay": [
+        "Trykk på mellomrommet mellom to rader for å legge inn en kvist; trykk igjen for å ta den bort.",
+        "Trykk på stubben for å stable haugene: en jevn stabel får et flatt lokk av snø.",
+        "Skriv tallet, og trykk på Sjekk. På nivå 3 trykker du på et hull for å gi det en eikenøtt og holder inne for å ta tilbake en. I innstillingene velger du nivå og om regnestykket vises."
+      ],
+      "learningGoals": [
+        "Dele en mengde i grupper som alle er like store.",
+        "Skrive like store grupper som et plusstykke, for eksempel 4 + 4 + 4 = 12.",
+        "Begynne å se at å gruppere og å dele likt er to sider av samme idé."
+      ]
     }
   }
 }

@@ -4595,25 +4595,25 @@
     },
     "winter-piles.draw-partition.2-oa-c-4": {
       "about": [
-        "A squirrel needs help sorting its acorns into FAIR winter piles. The child sees a rectangular array — 2 rows of 3, 3 rows of 4 — and draws a line to cut it into piles that are all the SAME size, reads how many acorns are in each, and taps that number in; an equal-addends equation like 5 + 5 + 5 = 15 then appears. This interactive Grade 2 math activity runs in the browser with no account.",
-        "The big idea is that an array is rows of equal groups, and the total is the sum of those equal addends. Unfair piles cannot shine together, so the child has to make every pile match before counting. The rounds build up: first make any fair cut, then make a set number of piles, then fix a cut that is uneven, and finally match a target like three piles of four. Drawing the cut and reading each pile is the work — not guessing the total.",
-        "It is aligned to Common Core 2.OA.C.4 — partitioning a rectangle into rows and columns of equal squares and writing the total as a sum of equal addends. No timer, no score — just calm, playful practice."
+        "The squirrel's acorns lie in rows on a wooden tray. The child cuts the rows into piles by tapping the gaps for twigs, then taps the tree stump: the piles slide over and lie on top of one another. Snow falls, and it can only lay one flat lid on a fair stack. If one pile is bigger, its extra acorns stick out of the stack in coral and the lid slides off into the snow.",
+        "Fairness is checked by stacking, a direct way to compare piles, so equal groups are something the child can see rather than a rule to remember. Once the stack is fair, the child types how many are in each pile and the equation appears: 4 + 4 + 4 = 12, or 6 + 6 = 12. Two more levels turn the same apparatus into division: cut piles that fill a hole of a given size and say how many holes, or share a loose heap one acorn at a time into the holes and say how many each gets.",
+        "It is aligned to Common Core 2.OA.C.4: partition a rectangular array into equal groups and write the total as a sum of equal addends. It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Cut a rectangular array of acorns into piles that are all the same size",
-        "Read how many acorns are in each equal pile",
-        "Write the total as a sum of equal addends, like 5 + 5 + 5 = 15",
-        "Make a set number of equal piles, or match a given pile size"
+        "Cut an array into equal groups",
+        "Write the total as a sum of equal addends",
+        "Find how many groups of a given size",
+        "Share a quantity fairly and say how many each gets"
       ],
       "howToPlay": [
-        "Look at the array of acorns and draw a line to cut the rows into equal piles.",
-        "Read how many acorns are in each pile and tap that number in.",
-        "When the piles are fair they sparkle and the equation appears; try again any time, with no timer and no score."
+        "Tap a gap between two rows to put in a twig; tap it again to take the twig out.",
+        "Tap the tree stump to stack the piles: a fair stack takes a flat lid of snow.",
+        "Type the number and press Check. In Level 3, tap a hole to give it an acorn and hold it to take one back. In the settings, choose the level and whether the equation is shown."
       ],
       "learningGoals": [
-        "Partition a rectangular array into equal rows and add the equal addends — the focus of Common Core 2.OA.C.4",
-        "See repeated addition as the foundation for multiplication",
-        "Recognize when groups are truly equal"
+        "Split a set into groups that are all the same size.",
+        "Write equal groups as an addition like 4 + 4 + 4 = 12.",
+        "Begin to see sharing and grouping as two sides of the same idea."
       ]
     },
     "wobble-museum.catch-drift.w-k-2": {

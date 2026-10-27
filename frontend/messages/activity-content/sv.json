@@ -3968,6 +3968,29 @@
         "Välja ordet som passar bäst i en mening.",
         "Känna igen ord som betyder samma sak."
       ]
+    },
+    "winter-piles.draw-partition.2-oa-c-4": {
+      "about": [
+        "Ekorrens ekollon ligger i rader på en träbricka. Barnet delar raderna i högar genom att trycka på mellanrummen och lägga dit kvistar, och trycker sedan på stubben: högarna glider dit och lägger sig ovanpå varandra. Snö faller, och den kan bara lägga ett platt lock på en stapel av lika stora högar. Är en hög större sticker de extra ekollonen ut ur stapeln i färg, och locket glider ner i snön.",
+        "Om högarna är lika stora syns det när man staplar dem, ett direkt sätt att jämföra högar. Lika stora grupper blir något barnet ser, inte en regel att komma ihåg. När stapeln är jämn skriver barnet hur många det är i varje hög, och uträkningen visas: 4 + 4 + 4 = 12 eller 6 + 6 = 12. Två nivåer till gör samma material till division: dela upp högar som precis fyller ett hål av en viss storlek och säga hur många hål det blir, eller dela en lös hög ett ekollon i taget mellan hålen och säga hur många varje hål får.",
+        "Övningen följer Lgr22, matematik i årskurs 1 till 3, taluppfattning och tals användning: göra lika stora grupper, upprepad addition och delning i lika delar. Den fungerar utan ljud, utan tidtagning och utan poäng."
+      ],
+      "practices": [
+        "Dela ett rektangulärt mönster av ekollon i lika stora grupper",
+        "Skriva antalet som en summa av lika tal",
+        "Ta reda på hur många grupper av en viss storlek det blir",
+        "Dela lika och säga hur många var och en får"
+      ],
+      "howToPlay": [
+        "Tryck på mellanrummet mellan två rader för att lägga i en kvist; tryck igen för att ta bort den.",
+        "Tryck på stubben för att stapla högarna: en jämn stapel får ett platt lock av snö.",
+        "Skriv talet och tryck på Kolla. På nivå 3 trycker du på ett hål för att ge det ett ekollon och håller inne för att ta tillbaka ett. I inställningarna väljer du nivå och om uträkningen syns."
+      ],
+      "learningGoals": [
+        "Dela en mängd i grupper som alla är lika stora.",
+        "Skriva lika stora grupper som en addition, till exempel 4 + 4 + 4 = 12.",
+        "Börja se att gruppera och dela lika är två sidor av samma idé."
+      ]
     }
   }
 }

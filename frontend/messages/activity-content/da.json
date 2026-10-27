@@ -3508,6 +3508,29 @@
         "Vælge det ord, der passer bedst i en sætning.",
         "Genkende ord, der betyder det samme."
       ]
+    },
+    "winter-piles.draw-partition.2-oa-c-4": {
+      "about": [
+        "Egernets agern ligger i rækker på en træbakke. Barnet deler rækkerne i bunker ved at trykke på mellemrummene og lægge kviste i, og trykker så på træstubben: bunkerne glider over og lægger sig oven på hinanden. Der falder sne, og den kan kun lægge et fladt låg på en stabel af lige store bunker. Er én bunke større, stikker de ekstra agern ud af stablen i farve, og låget glider ned i sneen.",
+        "Om bunkerne er lige store, ser man ved at stable dem, en meget direkte måde at sammenligne bunker på. Lige store grupper bliver noget, barnet ser, og ikke en regel, det skal huske. Når stablen er jævn, skriver barnet, hvor mange der er i hver bunke, og regnestykket kommer frem: 4 + 4 + 4 = 12 eller 6 + 6 = 12. To niveauer mere gør det samme materiale til division: del bunker af, der lige præcis fylder et hul af en bestemt størrelse, og sig, hvor mange huller det bliver, eller del en løs bunke ud ét agern ad gangen mellem hullerne, og sig, hvor mange hvert hul får.",
+        "Øvelsen følger Fælles Mål for matematik i 2. klasse, tal og algebra: lave lige store grupper, gentagen addition og ligelig deling. Den virker uden lyd, uden tidtagning og uden point."
+      ],
+      "practices": [
+        "Dele et rektangel af agern i lige store grupper",
+        "Skrive antallet som en sum af ens tal",
+        "Finde ud af, hvor mange grupper af en bestemt størrelse der er",
+        "Dele lige og sige, hvor mange hver får"
+      ],
+      "howToPlay": [
+        "Tryk på mellemrummet mellem to rækker for at lægge en kvist i; tryk igen for at tage den væk.",
+        "Tryk på træstubben for at stable bunkerne: en jævn stabel får et fladt låg af sne.",
+        "Skriv tallet, og tryk på Tjek. På niveau 3 trykker du på et hul for at give det et agern og holder nede for at tage et tilbage. I indstillingerne vælger du niveau, og om regnestykket vises."
+      ],
+      "learningGoals": [
+        "Dele en mængde i grupper, der alle er lige store.",
+        "Skrive lige store grupper som et plusstykke, for eksempel 4 + 4 + 4 = 12.",
+        "Begynde at se, at gruppering og ligelig deling er to sider af samme idé."
+      ]
     }
   }
 }

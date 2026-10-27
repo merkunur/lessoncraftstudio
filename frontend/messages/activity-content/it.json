@@ -456,25 +456,25 @@
     },
     "winter-piles.draw-partition.2-oa-c-4": {
       "about": [
-        "Lo scoiattolo Flo dispone le sue ghiande in uno schieramento di file e colonne, e il bambino traccia una linea per dividerle in mucchietti uguali finché non compare una somma di addendi uguali come “4 + 4 + 4 = 12” e i mucchietti brillano.",
-        "Lavorando con le file e le colonne, il bambino scopre che tante quantità uguali messe insieme si possono scrivere come un’unica addizione ripetuta, un primo passo concreto verso la moltiplicazione.",
-        "È una pratica pensata per la scuola primaria e in linea con le Indicazioni nazionali, con un tono sereno e senza fretta: niente timer, niente punteggio, solo ghiande da contare."
+        "Le ghiande dello scoiattolo sono in file su un vassoio di legno. Il bambino taglia le file in mucchietti toccando gli spazi per metterci dei rametti, poi tocca il ceppo: i mucchietti scivolano e si posano uno sopra l’altro. Cade la neve, e può posare un coperchio ben piatto solo su una pila di mucchietti uguali. Se un mucchietto è più grande, le sue ghiande in più sporgono dalla pila colorate e il coperchio scivola nella neve.",
+        "L’uguaglianza si controlla impilando, un modo molto diretto di confrontare dei mucchi: i gruppi uguali diventano qualcosa che il bambino vede, non una regola da ricordare. Quando la pila è giusta, il bambino scrive quante ghiande ci sono in ogni mucchietto e compare l’operazione: 4 + 4 + 4 = 12, oppure 6 + 6 = 12. Altri due livelli trasformano lo stesso materiale in divisione: tagliare mucchietti che riempiono un nascondiglio di una certa misura e dire quanti nascondigli, oppure distribuire un mucchio sparso una ghianda alla volta fra i nascondigli e dire quante ne riceve ognuno.",
+        "L’attività segue le Indicazioni nazionali per la classe seconda, matematica: formare gruppi uguali, scrivere l’addizione ripetuta e distribuire in parti uguali. Funziona senza audio, senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Dividere uno schieramento in mucchietti uguali",
-        "Contare quante ghiande ci sono in ogni mucchietto",
-        "Scrivere il totale come somma di addendi uguali, come “4 + 4 + 4 = 12”",
-        "Formare un numero preciso di mucchietti tutti uguali"
+        "Dividere uno schieramento in gruppi uguali",
+        "Scrivere il totale come somma di addendi uguali",
+        "Trovare quanti gruppi di una certa misura ci sono",
+        "Distribuire in parti uguali e dire quante ne riceve ognuno"
       ],
       "howToPlay": [
-        "Osserva le ghiande di Flo disposte in file e colonne.",
-        "Disegna una linea per tagliare le file in mucchietti uguali.",
-        "Conta le ghiande di un mucchietto e tocca il numero giusto: quando i mucchietti sono tutti uguali, compare l’addizione ripetuta."
+        "Tocca lo spazio fra due file per mettere un rametto; toccalo di nuovo per toglierlo.",
+        "Tocca il ceppo per impilare i mucchietti: una pila giusta riceve un coperchio di neve piatto.",
+        "Scrivi il numero e premi «Controlla». Al livello 3 tocca un nascondiglio per dargli una ghianda e tienilo premuto per riprenderne una. Nelle impostazioni scegli il livello e se l’operazione si vede."
       ],
       "learningGoals": [
-        "Riconoscere gruppi uguali dentro uno schieramento",
-        "Trasformare gruppi uguali in una somma di addendi uguali",
-        "Iniziare a vedere il legame tra l’addizione ripetuta e la moltiplicazione"
+        "Dividere un insieme in gruppi tutti della stessa grandezza.",
+        "Scrivere gruppi uguali come un’addizione, per esempio 4 + 4 + 4 = 12.",
+        "Cominciare a vedere che raggruppare e distribuire sono due facce della stessa idea."
       ]
     },
     "maple-bakery.share.3-oa-a-2": {

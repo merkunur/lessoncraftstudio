@@ -3,23 +3,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Squirrel's Fair Winter Piles — Activity — LessonCraft Studio</title>
+  <title>Fair Winter Piles — Activity — LessonCraft Studio</title>
   <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
   <style>
     html, body { background: transparent !important; }
-    html, body, #lcs-root { height: 100% !important; }
   </style>
 </head>
 <body>
   <div id="lcs-root"></div>
 
-  <!-- Shell, then the locale-neutral draw-partition core, then this activity.
-       NOTE: bump ?v=N on EVERY change to winter-piles-activity.js (§A.13.42). -->
+  <!-- Shell, then the snow-stack core, then this activity (#140 The Snow-Lid Stack).
+       NOTE: bump ?v=N on EVERY change to snow-stack-*.js (§A.13.42). -->
   <script src="/mini-tools/lcs-shell.js?v=9"></script>
-  <script src="/mini-tools/draw-partition-core.js?v=1"></script>
-  <script src="/mini-tools/winter-piles-activity.js?v=15"></script>
+  <script src="/mini-tools/snow-stack-core.js?v=1"></script>
+  <script src="/mini-tools/snow-stack-activity.js?v=1"></script>
   <script>
-    LCS.mount(WinterPilesActivity, { mount: '#lcs-root' });
+    LCS.mount(SnowStackActivity, { mount: '#lcs-root' });
   </script>
 </body>
 </html>

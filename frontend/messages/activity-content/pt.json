@@ -2635,25 +2635,25 @@
     },
     "winter-piles.draw-partition.2-oa-c-4": {
       "about": [
-        "O esquilo Flo guarda suas bolotas de um jeito bem caprichado: em um arranjo retangular, com fileiras e colunas certinhas. A criança ajuda o Flo a desenhar uma linha para cortar esse arranjo em montinhos iguais, conta quantas bolotas ficam em um montinho e depois monta a soma de parcelas iguais com os botões de mais e de menos — por exemplo, “4 + 4 + 4 = 12”. Ao longo dos desafios, ela faz montinhos iguais, forma exatamente a quantidade de montinhos pedida, conserta um corte que ficou desigual e constrói uma soma solicitada.",
-        "A grande ideia por trás da brincadeira é a adição de parcelas iguais, ou soma repetida: quando várias parcelas têm o mesmo valor, dá para juntá-las de um jeito organizado. E é justamente o arranjo retangular, bem arrumado, que serve de ponte para a multiplicação — de “4 + 4 + 4” nasce “3 × 4”. Assim, a criança entende por que a multiplicação funciona, em vez de apenas decorar resultados.",
-        "A atividade é interativa, roda direto no navegador e não exige cadastro. Não há cronômetro nem pontuação: o clima é tranquilo e formativo, com espaço para experimentar, errar e tentar de novo no ritmo de cada criança. O conteúdo está alinhado à BNCC, dentro da unidade temática Números."
+        "As bolotas do esquilo estão em fileiras numa bandeja de madeira. A criança corta as fileiras em montinhos tocando nos espaços para colocar gravetos e depois toca no toco: os montinhos deslizam e ficam um em cima do outro. Cai neve, e ela só consegue pôr uma tampa lisa numa pilha de montinhos iguais. Se um montinho for maior, as bolotas a mais aparecem para fora da pilha em cor e a tampa escorrega para a neve.",
+        "A igualdade é conferida empilhando, um jeito bem direto de comparar montes, então grupos iguais viram algo que a criança vê, e não uma regra para decorar. Quando a pilha está certinha, a criança digita quantas há em cada montinho e a conta aparece: 4 + 4 + 4 = 12, ou 6 + 6 = 12. Mais dois níveis transformam o mesmo material em divisão: cortar montinhos que encham um buraco de um tamanho dado e dizer quantos buracos, ou dividir um monte solto bolota por bolota entre os buracos e dizer com quantas cada um fica.",
+        "A atividade está de acordo com a BNCC, Matemática, 2º ano: formar grupos iguais, somar parcelas iguais e repartir em partes iguais. Funciona sem som, sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Organizar bolotas em arranjo retangular, reconhecendo fileiras e colunas.",
-        "Cortar o arranjo em montinhos iguais e contar quantas bolotas há em cada um.",
-        "Montar e ler somas de parcelas iguais, como “5 + 5 = 10”.",
-        "Perceber a ponte entre a adição de parcelas iguais e a multiplicação."
+        "Dividir uma disposição retangular em grupos iguais",
+        "Escrever o total como soma de parcelas iguais",
+        "Descobrir quantos grupos de um tamanho dado cabem",
+        "Repartir igualmente e dizer com quantos cada um fica"
       ],
       "howToPlay": [
-        "Observe as bolotas que o Flo organizou em fileiras e colunas.",
-        "Desenhe uma linha para cortar o arranjo em montinhos iguais.",
-        "Use os botões de mais e de menos para montar a soma de parcelas iguais, como “4 + 4 + 4 = 12”."
+        "Toque no espaço entre duas fileiras para colocar um graveto; toque de novo para tirá-lo.",
+        "Toque no toco para empilhar os montinhos: uma pilha certinha ganha uma tampa de neve lisa.",
+        "Digite o número e aperte “Conferir”. No nível 3, toque num buraco para colocar uma bolota e segure para tirar uma. Nas configurações, escolha o nível e se a conta aparece."
       ],
       "learningGoals": [
-        "Compreender a adição de parcelas iguais a partir de situações concretas.",
-        "Relacionar o arranjo retangular à soma repetida e à multiplicação.",
-        "Ler e escrever somas de parcelas iguais com autonomia."
+        "Separar uma coleção em grupos todos do mesmo tamanho.",
+        "Escrever grupos iguais como uma adição, por exemplo 4 + 4 + 4 = 12.",
+        "Começar a ver que agrupar e repartir são dois lados da mesma ideia."
       ]
     },
     "comet-kangaroo.tens-hundreds.2-nbt-b-8": {

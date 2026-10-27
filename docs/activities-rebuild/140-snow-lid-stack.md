@@ -93,4 +93,14 @@ Every finding was fixed at the source:
 - **0 lines** in shared cores or `lcs-shell`.
 
 ## Live
-(pending)
+`live-verify-snow-stack.js` ran on production on 2026-10-27: **68 pass, 0 fail.**
+- All 11 pages return 200, including the four new sv/da/no/fi pages.
+- en, de, sv and fi, at 1366 and at 390, embed winter-piles-activity.html at wrapper 9.885.
+- With a real pointer, on 3 rows of 4:
+  - one twig plus a tap on the stump: the lid slides;
+  - Check gives the miss line;
+  - the second twig: the lid lies flat;
+  - 4 gives "Fair piles! 4 + 4 + 4 = 12." (in each locale's own words).
+- The iframe grows with the card.
+
+The first run, just after the deploy, found no iframe. The page itself served 9.885 (curl), and a probe a minute later saw it, so the run had hit the page while it was still warming up. The rerun was clean.

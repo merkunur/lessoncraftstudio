@@ -3413,25 +3413,25 @@
     },
     "array.equal-groups.2-oa-c-4": {
       "about": [
-        "Ein Kind bildet hier gleich große Gruppen — in jeder Gruppe steckt dieselbe Anzahl — und zählt sie zusammen, um die Gesamtzahl zu finden. Die Runden reichen von 2 Gruppen mit je 3 bis zu 3 Gruppen mit je 5, dazu 4 Gruppen mit je 4 und 5 Gruppen mit je 2. So begegnet das Kind vielen verschiedenen Anordnungen gleicher Gruppen. Die Übung läuft ohne Anmeldung direkt im Browser.",
-        "Anders als bei einem ordentlichen Rechteckmuster sitzen die Dinge hier in getrennten Gruppen — und genau dadurch wird die Idee „in jeder Gruppe gleich viele\" zum eigentlichen Kern. Während das Kind die Gruppen füllt, wächst daneben ein Additionsstreifen mit: 4 + 4 + 4. So werden die gleichen Gruppen zu einer Summe, und am Ende tippt das Kind die Gesamtzahl ein. Es baut und addiert die Gruppen, es multipliziert noch nicht — aber es übt schon genau das Denken, auf dem die Multiplikation später aufbaut.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Rechnen und Zahlen für die 2. Klasse ausgerichtet — mit wiederholter Addition gleicher Summanden eine Gesamtzahl bestimmen. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+        "Die Plusaufgabe steht auf einer Papier-Ziehharmonika unter den Perlenschalen: eine Falte für jede Gruppe, jede so hoch, wie ihre Gruppe groß ist. Das Kind füllt die Schalen und drückt den Streifen zusammen. Wenn in jeder Gruppe gleich viele sind, legen sich die Falten flach zu einem Feld, und aus 4 + 4 + 4 = 12 wird 3 · 4 = 12: vorn steht, wie viele in jeder Gruppe sind, dahinter liegen drei Faltenkanten für die drei Gruppen.",
+        "Ist eine Gruppe anders, springt der Streifen wieder auf und die abweichende Falte steht heraus. Gleich große Gruppen sind also keine Regel, die man dem Kind sagt, sondern etwas, ohne das sich das Papier nicht falten lässt. Leichte Gruppen kommen schon gefüllt, manchmal mit einer Schale, in der eine Perle zu viel oder zu wenig ist, und das Kind tippt nach jeder Gruppe die Zwischensumme ein. Knifflige Gruppen und Punktefelder gehen bis 6 Reihen mit je 8, und das Kind schreibt die Malaufgabe. Jede gerechte Faltung bekommt eine Seite in einem kleinen Einmaleins-Buch.",
+        "Die Übung passt zum Bereich „Zahlen und Operationen“ des Lehrplans der Grundschule, Klasse 2: gleich große Gruppen durch wiederholtes Addieren zählen und als Malaufgabe schreiben. Sie funktioniert ohne Ton, ohne Zeitdruck und ohne Punkte."
       ],
       "practices": [
-        "Mehrere Gruppen bilden, die jeweils gleich viele Dinge enthalten.",
-        "Gleiche Gruppen als wiederholte Addition zusammenzählen, etwa 4 + 4 + 4 = 12.",
-        "Gleiche Gruppen von unterschiedlich großen Gruppen unterscheiden.",
-        "Eine Gesamtzahl finden, indem man die Gruppen nutzt, statt einzeln weiterzuzählen."
+        "Gleich große Gruppen mit einer vorgegebenen Anzahl bilden",
+        "Die Anzahl gleich großer Gruppen durch wiederholtes Addieren finden",
+        "Gruppe für Gruppe die Zwischensumme bilden",
+        "Gleich große Gruppen als Malaufgabe schreiben"
       ],
       "howToPlay": [
-        "Lies, wie viele gleiche Gruppen du bilden sollst und wie viele in jede Gruppe gehören, und tippe dann, um die Gruppen zu füllen.",
-        "Schau zu, wie sich die gleichen Gruppen auf dem Additionsstreifen aufsummieren, und tippe dann die Gesamtzahl auf dem Zahlenfeld ein.",
-        "Noch nicht ganz richtig? Probiere es so oft du möchtest — es gibt keinen Timer und keine Punkte."
+        "Tippe eine Schale an, um eine Perle hineinzulegen; halte sie gedrückt, um eine herauszunehmen.",
+        "Drück den Streifen mit dem Griff zusammen: Gleich große Gruppen falten sich flach, ungleiche springen wieder auf.",
+        "Tippe ein, wie viele es insgesamt sind (oder die Malaufgabe), und drücke auf „Prüfen“. In den Einstellungen wählst du die Stufe und ob die Zwischensummen zu sehen sind."
       ],
       "learningGoals": [
-        "Aus gleichen Gruppen mit wiederholter Addition eine Gesamtzahl finden.",
-        "Verstehen, dass die Gruppen gleich groß sein müssen, damit die Summe mit gleichen Summanden funktioniert.",
-        "Das Verständnis für gleiche Gruppen aufbauen, auf das die Multiplikation in späteren Klassen angewiesen ist."
+        "Die Anzahl gleich großer Gruppen durch wiederholtes Addieren derselben Zahl finden.",
+        "Erkennen, dass nur gleich große Gruppen eine Malaufgabe ergeben.",
+        "Eine Summe wie 4 + 4 + 4 mit 3 Gruppen mit je 4 verbinden."
       ]
     },
     "choice-board.even-odd.2-oa-c-3": {

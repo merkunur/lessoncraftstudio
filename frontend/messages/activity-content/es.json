@@ -2967,25 +2967,25 @@
     },
     "array.equal-groups.2-oa-c-4": {
       "about": [
-        "Formar grupos con la misma cantidad y luego juntarlos para hallar el total: eso es lo que hace tu hijo o hija en esta actividad de matemáticas, interactiva, que funciona en el navegador sin descargar nada y sin crear cuenta. Las rondas van desde 2 grupos de 3 hasta 3 grupos de 5, pasando por 4 grupos de 4 y 5 grupos de 2, así que el niño o la niña trabaja con muchos arreglos distintos de grupos iguales.",
-        "A diferencia de un arreglo rectangular ordenado, aquí los objetos se acomodan en grupos separados, y por eso la idea de 'la misma cantidad en cada grupo' es justo el centro de todo. Mientras el niño o la niña llena cada grupo, al lado crece una tira de suma repetida —4 + 4 + 4— que convierte los grupos iguales en una suma; al final escribe cuántos hay en total. El alumno arma y suma los grupos: todavía no multiplica, pero practica exactamente el razonamiento sobre el que después se construye la multiplicación. Es una actividad para 2.º de primaria (segundo grado).",
-        "Está alineada con los planes y programas de estudio (SEP), en el eje de pensamiento aditivo: usar la suma de cantidades iguales para encontrar un total. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada quien avance con calma."
+        "La suma está impresa en un acordeón de papel debajo de los platitos de cuentas: un pliegue por grupo, cada pliegue tan alto como su grupo. El niño llena los platitos y aprieta la tira. Cuando todos los grupos tienen lo mismo, los pliegues se doblan planos en un solo panel, y 4 + 4 + 4 = 12 se vuelve 3 × 4 = 12: una cara que muestra cuántos hay en cada grupo y tres orillas de pliegue detrás, una por grupo.",
+        "Cuando un grupo es diferente, la tira se vuelve a abrir y el pliegue distinto sobresale: los grupos iguales no son una regla que se le dice al niño, sino algo sin lo cual el papel no se dobla. Los grupos fáciles llegan llenos, a veces con un platito para corregir, y el niño escribe el total después de cada grupo. Los grupos difíciles y los arreglos llegan a 6 filas de 8, y el niño escribe la multiplicación. Cada doblez parejo agrega una página a un librito de multiplicaciones.",
+        "La actividad está alineada con los programas de estudio de segundo grado de primaria, campo formativo Saberes y Pensamiento Científico: contar grupos iguales con sumas repetidas y escribirlos como multiplicación. Funciona sin sonido, sin reloj y sin puntaje."
       ],
       "practices": [
-        "Formar varios grupos que tengan la misma cantidad de objetos cada uno.",
-        "Sumar grupos iguales como suma repetida, por ejemplo 4 + 4 + 4 = 12.",
-        "Distinguir los grupos iguales de los grupos de tamaños diferentes.",
-        "Hallar un total contando por grupos en vez de contar de uno en uno."
+        "Formar grupos iguales de un tamaño dado",
+        "Encontrar el total de grupos iguales con sumas repetidas",
+        "Llevar un total parcial grupo por grupo",
+        "Escribir grupos iguales como multiplicación"
       ],
       "howToPlay": [
-        "Lee cuántos grupos iguales hay que formar y cuántos objetos van en cada uno; luego toca para llenar los grupos.",
-        "Observa cómo se suman los grupos iguales en la tira de suma repetida y escribe el total en el teclado.",
-        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntuación."
+        "Toca un platito para poner una cuenta; mantenlo presionado para quitar una.",
+        "Aprieta la tira con la manija: los grupos iguales se doblan planos y los diferentes se vuelven a abrir.",
+        "Escribe cuántos hay en total (o la multiplicación) y presiona «Comprobar». En los ajustes elige el nivel y si se ven los totales parciales."
       ],
       "learningGoals": [
-        "El niño o la niña aprende a hallar un total a partir de grupos iguales usando la suma repetida.",
-        "Tu hijo o hija puede entender que los grupos deben ser iguales para que funcione la suma de cantidades iguales.",
-        "El niño o la niña desarrolla el sentido de los grupos iguales del que dependerá la multiplicación en grados posteriores."
+        "Encontrar el total de grupos iguales sumando varias veces el mismo número.",
+        "Ver que solo los grupos iguales se pueden escribir como multiplicación.",
+        "Relacionar una suma como 4 + 4 + 4 con 3 grupos de 4."
       ]
     },
     "choice-board.even-odd.2-oa-c-3": {

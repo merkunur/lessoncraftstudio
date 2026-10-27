@@ -743,24 +743,25 @@
     },
     "array.equal-groups.2-oa-c-4": {
       "about": [
-        "Här gör barnet lika stora grupper — lika många föremål i varje grupp — och räknar sedan ut hur många det blir tillsammans. Rundorna går från 2 grupper med 3 i varje upp till 3 grupper med 5, och däremellan dyker 4 grupper med 4 och 5 grupper med 2 upp, så barnet möter många olika sätt att dela upp i lika stora grupper. Allt sker interaktivt direkt i webbläsaren, utan nedladdning och utan konto.",
-        "Till skillnad från ett prydligt rutnät sitter föremålen här i tydligt åtskilda grupper, och då blir det själva poängen att det ska vara lika många i varje. När barnet fyller en grupp i taget växer en additionsrad fram bredvid — 4 + 4 + 4 — så att de lika stora grupperna blir en summa, och till sist skriver barnet hur många det blev sammanlagt. Barnet bygger grupperna och adderar dem; det multiplicerar inte ännu, men möter precis det tänkande som multiplikationen senare vilar på. Aktiviteten passar årskurs 2 och följer Lgr22 inom området taluppfattning och räkning."
+        "Additionen står på ett dragspel av papper under pärlskålarna: ett veck för varje grupp, varje veck lika högt som sin grupp. Barnet fyller skålarna och trycker ihop remsan. När alla grupper har lika många viks vecken platt till en enda panel, och 4 + 4 + 4 = 12 blir 3 · 4 = 12: framsidan visar hur många det är i varje grupp, bakom ligger tre veckkanter för de tre grupperna.",
+        "Är en grupp annorlunda fjädrar remsan upp igen och vecket som avviker sticker ut: lika stora grupper är inte en regel som barnet får höra, utan något papperet inte går att vika utan. Enkla grupper kommer färdigfyllda, ibland med en skål att rätta till, och barnet skriver summan efter varje grupp. Kluriga grupper och rektanglar går upp till 6 rader med 8 i varje, och barnet skriver multiplikationen. Varje rättvis vikning får en sida i en liten gångerbok.",
+        "Övningen följer Lgr22, matematik i årskurs 1 till 3, taluppfattning och tals användning: räkna lika stora grupper med upprepad addition och skriva dem som multiplikation. Den fungerar utan ljud, utan tidtagning och utan poäng."
       ],
       "practices": [
-        "Göra flera grupper som var och en har lika många föremål",
-        "Addera lika stora grupper som upprepad addition, till exempel 4 + 4 + 4 = 12",
-        "Skilja lika stora grupper från grupper som är olika stora",
-        "Hitta summan genom att räkna gruppvis i stället för ett och ett"
+        "Göra lika stora grupper av en given storlek",
+        "Hitta antalet i lika stora grupper med upprepad addition",
+        "Hålla en delsumma grupp för grupp",
+        "Skriva lika stora grupper som en multiplikation"
       ],
       "howToPlay": [
-        "Läs hur många lika stora grupper du ska göra och hur många som ska vara i varje, och tryck sedan för att fylla grupperna.",
-        "Se de lika stora grupperna läggas ihop på additionsraden och skriv sedan summan på knappsatsen.",
-        "Blev det inte rätt? Försök igen så många gånger du vill — det finns ingen tid och inga poäng."
+        "Tryck på en skål för att lägga i en pärla; håll inne för att ta ut en.",
+        "Tryck ihop remsan med handtaget: lika stora grupper viks platt, olika fjädrar upp igen.",
+        "Skriv hur många det är sammanlagt (eller multiplikationen) och tryck på Kolla. I inställningarna väljer du nivå och om delsummorna syns."
       ],
       "learningGoals": [
-        "Barnet kan hitta summan av lika stora grupper med hjälp av upprepad addition",
-        "Barnet förstår att grupperna måste vara lika stora för att samma tal ska kunna upprepas",
-        "Barnet bygger den känsla för lika stora grupper som multiplikationen bygger vidare på i senare årskurser"
+        "Hitta antalet i lika stora grupper genom att addera samma tal flera gånger.",
+        "Se att bara lika stora grupper kan skrivas som en multiplikation.",
+        "Koppla en summa som 4 + 4 + 4 till 3 grupper med 4 i varje."
       ]
     },
     "choice-board.even-odd.2-oa-c-3": {

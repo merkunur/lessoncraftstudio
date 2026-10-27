@@ -3384,25 +3384,25 @@
     },
     "array.equal-groups.2-oa-c-4": {
       "about": [
-        "Bij deze rekenactiviteit maakt je kind gelijke groepen: in elke groep zitten precies evenveel voorwerpen. Daarna telt het de groepen herhaald op om het totaal te vinden. Ze speelt interactief in de browser, zonder installeren en zonder account.",
-        "De opdrachten lopen van 2 groepen van 3 tot 3 groepen van 5, met onderweg ook 4 groepen van 4 en 5 groepen van 2, zodat je kind veel verschillende verdelingen tegenkomt. De voorwerpen liggen in losse groepjes en niet in een net rechthoek, juist om het idee 'overal evenveel' centraal te zetten. Terwijl het kind elke groep vult, groeit ernaast een optelstrook mee, bijvoorbeeld 4 + 4 + 4, en zo worden de gelijke groepen een som; daarna typt het hoeveel het in totaal zijn.",
-        "Het kind bouwt en telt de groepen op; het vermenigvuldigt nog niet, maar oefent precies het denken waarop vermenigvuldigen later voortbouwt. De activiteit past bij het domein Rekenen-wiskunde van de kerndoelen en is bedoeld voor groep 4. Geen timer, geen score; gewoon rustig oefenen in je eigen tempo."
+        "De plussom staat op een papieren harmonica onder de kralenbakjes: één plooi voor elke groep, elke plooi zo hoog als zijn groep. Het kind vult de bakjes en drukt de strook in elkaar. Als er in elke groep evenveel zitten, vouwen de plooien plat tot één paneel, en 4 + 4 + 4 = 12 wordt 3 × 4 = 12: voorop staat hoeveel er in elke groep zitten, daarachter drie plooiranden voor de drie groepen.",
+        "Is één groep anders, dan springt de strook weer open en steekt de afwijkende plooi uit: gelijke groepen zijn geen regel die het kind krijgt, maar iets waarzonder het papier niet dichtgaat. Makkelijke groepen komen al gevuld, soms met één bakje om te verbeteren, en het kind typt na elke groep het tussentotaal. Lastige groepen en rechthoeken gaan tot 6 rijen van 8, en het kind schrijft de keersom. Elke eerlijke vouw krijgt een bladzijde in een klein keersommenboek.",
+        "De oefening sluit aan bij de kerndoelen rekenen-wiskunde van SLO voor groep 4: gelijke groepen tellen door herhaald optellen en ze als keersom schrijven. Ze werkt zonder geluid, zonder tijdsdruk en zonder score."
       ],
       "practices": [
-        "Meerdere groepen maken met in elke groep evenveel voorwerpen",
-        "Gelijke groepen herhaald optellen, bijvoorbeeld 4 + 4 + 4 = 12",
-        "Gelijke groepen onderscheiden van groepen die niet even groot zijn",
-        "Een totaal vinden door groepen te tellen in plaats van één voor één"
+        "Gelijke groepen van een gegeven grootte maken",
+        "Het totaal van gelijke groepen vinden door herhaald optellen",
+        "Groep voor groep een tussentotaal bijhouden",
+        "Gelijke groepen als keersom schrijven"
       ],
       "howToPlay": [
-        "Lees hoeveel gelijke groepen je moet maken en hoeveel er in elke groep gaan, en tik om de groepen te vullen.",
-        "Kijk hoe de gelijke groepen worden opgeteld op de optelstrook en typ daarna het totaal op het toetsenblok.",
-        "Niet goed? Probeer het zo vaak je wilt; er is geen timer en geen score."
+        "Tik op een bakje om er een kraal in te leggen; houd het vast om er een uit te halen.",
+        "Druk de strook met het handvat in elkaar: gelijke groepen vouwen plat, ongelijke springen weer open.",
+        "Typ hoeveel het er samen zijn (of de keersom) en druk op ‘Controleer’. In de instellingen kies je het niveau en of de tussentotalen te zien zijn."
       ],
       "learningGoals": [
-        "Je kind vindt een totaal uit gelijke groepen door herhaald op te tellen.",
-        "Het kind begrijpt dat de groepen even groot moeten zijn om met dezelfde getallen op te kunnen tellen.",
-        "Het kind bouwt het gevoel voor gelijke groepen op dat vermenigvuldigen in latere groepen nodig heeft."
+        "Het totaal van gelijke groepen vinden door steeds hetzelfde getal op te tellen.",
+        "Zien dat alleen gelijke groepen als keersom te schrijven zijn.",
+        "Een som als 4 + 4 + 4 koppelen aan 3 groepen van 4."
       ]
     },
     "choice-board.even-odd.2-oa-c-3": {

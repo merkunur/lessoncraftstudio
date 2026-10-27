@@ -1911,25 +1911,25 @@
     },
     "array.equal-groups.2-oa-c-4": {
       "about": [
-        "In questa attività di matematica per la classe seconda il bambino forma gruppi uguali — la stessa quantità di oggetti in ognuno — e li somma per trovare il totale. Si gioca direttamente nel browser, non serve alcun account. I turni vanno da 2 gruppi da 3 fino a 3 gruppi da 5, passando per 4 gruppi da 4 e 5 gruppi da 2, così il bambino incontra molte disposizioni diverse di gruppi uguali.",
-        "A differenza di uno schieramento rettangolare ordinato, qui gli oggetti stanno in gruppi separati: ed è proprio questo a rendere centrale l'idea della «stessa quantità in ognuno». Man mano che il bambino riempie ogni gruppo, accanto cresce una striscia di addizione ripetuta — 4 + 4 + 4 — che trasforma i gruppi uguali in una somma; poi si scrive quanti sono in tutto. Il bambino costruisce e somma i gruppi: non moltiplica ancora, ma incontra esattamente il ragionamento su cui si fonda la moltiplicazione.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri e delle operazioni: usare l'addizione ripetuta di addendi uguali per trovare un totale. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
+        "L’addizione è stampata su una fisarmonica di carta sotto le ciotoline di perline: una piega per ogni gruppo, ogni piega alta quanto il suo gruppo. Il bambino riempie le ciotoline e schiaccia la striscia. Quando ogni gruppo ne ha lo stesso numero, le pieghe si chiudono piatte in un solo pannello, e 4 + 4 + 4 = 12 diventa 3 × 4 = 12: una faccia che mostra quanti ce ne sono in ogni gruppo e tre bordi di piega dietro, uno per gruppo.",
+        "Quando un gruppo è diverso, la striscia si riapre di scatto e la piega diversa sporge: i gruppi uguali non sono una regola detta al bambino, ma qualcosa senza cui la carta non si chiude. I gruppi facili arrivano già pieni, a volte con una ciotolina da sistemare, e il bambino scrive il totale dopo ogni gruppo. I gruppi difficili e gli schieramenti arrivano a 6 righe da 8, e il bambino scrive la moltiplicazione. Ogni piega giusta aggiunge una pagina a un libretto delle moltiplicazioni.",
+        "L’attività segue le Indicazioni nazionali per la classe seconda, matematica: contare gruppi uguali con l’addizione ripetuta e scriverli come moltiplicazione. Funziona senza audio, senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Formare più gruppi che contengono ciascuno la stessa quantità.",
-        "Sommare gruppi uguali come addizione ripetuta, ad esempio 4 + 4 + 4 = 12.",
-        "Distinguere i gruppi uguali da gruppi di dimensioni diverse.",
-        "Trovare un totale contando i gruppi invece di contare a uno a uno."
+        "Formare gruppi uguali di una grandezza data",
+        "Trovare il totale di gruppi uguali con l’addizione ripetuta",
+        "Tenere un totale parziale gruppo dopo gruppo",
+        "Scrivere gruppi uguali come moltiplicazione"
       ],
       "howToPlay": [
-        "Leggi quanti gruppi uguali formare e quanti oggetti mettere in ognuno, poi tocca per riempire i gruppi.",
-        "Guarda i gruppi uguali sommarsi sulla striscia dell'addizione ripetuta, poi scrivi il totale sul tastierino.",
-        "Non è giusto? Riprova quante volte vuoi — non c'è timer e non c'è punteggio."
+        "Tocca una ciotolina per aggiungere una perlina; tienila premuta per toglierne una.",
+        "Schiaccia la striscia con la maniglia: i gruppi uguali si chiudono piatti, quelli diversi si riaprono.",
+        "Scrivi quanti sono in tutto (o la moltiplicazione) e premi «Controlla». Nelle impostazioni scegli il livello e se i totali parziali si vedono."
       ],
       "learningGoals": [
-        "Trovare un totale a partire da gruppi uguali usando l'addizione ripetuta.",
-        "Capire che i gruppi devono essere uguali perché la somma di addendi uguali funzioni.",
-        "Costruire il senso dei gruppi uguali su cui poggia la moltiplicazione negli anni successivi."
+        "Trovare il totale di gruppi uguali sommando più volte lo stesso numero.",
+        "Notare che solo gruppi uguali si possono scrivere come moltiplicazione.",
+        "Collegare una somma come 4 + 4 + 4 a 3 gruppi da 4."
       ]
     },
     "choice-board.even-odd.2-oa-c-3": {

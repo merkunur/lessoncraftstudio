@@ -630,26 +630,25 @@
     },
     "array.equal-groups.2-oa-c-4": {
       "about": [
-        "Her lager barnet like grupper — like mange ting i hver gruppe — og legger dem sammen for å finne hvor mange det blir til sammen. Det er en matteaktivitet for 2. trinn som spilles rett i nettleseren, uten nedlasting og uten konto. Rundene går fra 2 grupper med 3 opp til 3 grupper med 5, og innom 4 grupper med 4 og 5 grupper med 2, så barnet møter mange ulike måter å lage like grupper på.",
-        "I motsetning til et ryddig rektangel med rader og kolonner ligger tingene her i adskilte grupper, og dermed blir hele poenget at det skal være like mange i hver. Etter hvert som barnet fyller gruppene, vokser en stripe med gjentatt addisjon ved siden av — 4 + 4 + 4 — slik at de like gruppene blir til et regnestykke, og så skriver barnet hvor mange det er til sammen. Barnet bygger og legger sammen gruppene; det ganger ikke ennå, men møter akkurat den tenkningen som multiplikasjon bygger på.",
-        "Aktiviteten følger LK20 innenfor tall og regning på 2. trinn — å bruke gjentatt addisjon av like store ledd for å finne et antall. Ingen tidtaker, ingen poeng, bare rolig og lekende øving."
+        "Regnestykket står på et trekkspill av papir under perleskålene: én fold for hver gruppe, hver fold like høy som gruppen sin. Barnet fyller skålene og trykker sammen strimmelen. Når det er like mange i hver gruppe, legger foldene seg flatt til ett panel, og 4 + 4 + 4 = 12 blir til 3 · 4 = 12: forsiden viser hvor mange det er i hver gruppe, og bak ligger tre foldkanter for de tre gruppene.",
+        "Er én gruppe annerledes, spretter strimmelen opp igjen, og folden som skiller seg ut, stikker opp: like store grupper er ikke en regel barnet får høre, men noe papiret ikke kan brettes uten. Lette grupper kommer ferdig fylt, noen ganger med en skål som må rettes, og barnet skriver summen etter hver gruppe. Vanskelige grupper og rektangler går opp til 6 rader med 8 i hver, og barnet skriver gangestykket. Hver rettferdig bretting gir en side i ei lita gangebok.",
+        "Øvelsen følger LK20, matematikk etter 2. trinn, tall og regning: telle like store grupper med gjentatt addisjon og skrive dem som multiplikasjon. Den virker uten lyd, uten tidtaking og uten poeng."
       ],
       "practices": [
-        "Lage flere grupper som hver inneholder like mange.",
-        "Legge sammen like grupper som gjentatt addisjon, for eksempel 4 + 4 + 4 = 12.",
-        "Skille like grupper fra grupper med ulikt antall.",
-        "Finne et antall ved å telle gruppene i stedet for å telle én og én.",
-        "Knytte gjentatt addisjon til grunnlaget for multiplikasjon."
+        "Lage like store grupper av en gitt størrelse",
+        "Finne antallet i like store grupper med gjentatt addisjon",
+        "Holde en delsum gruppe for gruppe",
+        "Skrive like store grupper som et gangestykke"
       ],
       "howToPlay": [
-        "Les hvor mange like grupper du skal lage og hvor mange som skal være i hver, og trykk for å fylle gruppene.",
-        "Se de like gruppene legge seg sammen på stripa med gjentatt addisjon, og skriv så antallet på tastaturet.",
-        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+        "Trykk på en skål for å legge i en perle; hold inne for å ta ut en.",
+        "Trykk sammen strimmelen med håndtaket: like store grupper brettes flatt, ulike spretter opp igjen.",
+        "Skriv hvor mange det er til sammen (eller gangestykket), og trykk på Sjekk. I innstillingene velger du nivå og om delsummene vises."
       ],
       "learningGoals": [
-        "Barnet kan finne et antall fra like grupper ved hjelp av gjentatt addisjon.",
-        "Barnet forstår at gruppene må være like for at samme ledd kan legges sammen.",
-        "Barnet bygger den følelsen for like grupper som multiplikasjon hviler på senere."
+        "Finne antallet i like store grupper ved å legge til det samme tallet igjen og igjen.",
+        "Se at bare like store grupper kan skrives som et gangestykke.",
+        "Knytte en sum som 4 + 4 + 4 til 3 grupper med 4 i hver."
       ]
     },
     "choice-board.even-odd.2-oa-c-3": {

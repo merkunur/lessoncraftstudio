@@ -70,7 +70,7 @@
   },
   {
     "id": "array.equal-groups.2-oa-c-4",
-    "tool": "array-activity",
+    "tool": "accordion-activity",
     "task_template": "equal-groups",
     "alignment": {
       "framework": "CCSS",
@@ -79,48 +79,20 @@
       "strand": "Operations & Algebraic Thinking"
     },
     "params": {
-      "rounds": [
-        {
-          "groups": 2,
-          "each": 3,
-          "seed": 11
-        },
-        {
-          "groups": 3,
-          "each": 4,
-          "seed": 23
-        },
-        {
-          "groups": 4,
-          "each": 2,
-          "seed": 31
-        },
-        {
-          "groups": 2,
-          "each": 5,
-          "seed": 41
-        },
-        {
-          "groups": 3,
-          "each": 3,
-          "seed": 53
-        },
-        {
-          "groups": 5,
-          "each": 2,
-          "seed": 61
-        },
-        {
-          "groups": 4,
-          "each": 4,
-          "seed": 67
-        },
-        {
-          "groups": 3,
-          "each": 5,
-          "seed": 71
-        }
-      ]
+      "level": [
+        "1",
+        "2",
+        "3"
+      ],
+      "run": [
+        "shown",
+        "hidden"
+      ],
+      "rounds": {
+        "1": 8,
+        "2": 8,
+        "3": 8
+      }
     },
     "theme": null,
     "slug": {

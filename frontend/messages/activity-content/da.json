@@ -625,25 +625,25 @@
     },
     "array.equal-groups.2-oa-c-4": {
       "about": [
-        "Lige store grupper er en rolig matematikaktivitet til 2. klasse, som barnet kan spille interaktivt direkte i browseren — uden at installere noget og uden konto. Barnet laver flere grupper med lige mange ting i hver og lægger dem sammen for at finde det samlede antal. Runderne går fra 2 grupper med 3 i hver op til 3 grupper med 5, og undervejs møder barnet også 4 grupper med 4 og 5 grupper med 2, så det arbejder med mange forskellige opstillinger.",
-        "I modsætning til en pæn firkantet opstilling sidder tingene her i adskilte grupper, og netop derfor bliver \"lige mange i hver\" hele pointen. Mens barnet fylder hver gruppe, vokser en plusstribe ved siden af — 4 + 4 + 4 — så de lige store grupper bliver til et plusstykke, og til sidst skriver barnet, hvor mange der er i alt. Barnet bygger og lægger grupperne sammen; det ganger ikke endnu, men møder præcis den tankegang, som multiplikation senere bygger på.",
-        "Aktiviteten følger Fælles Mål inden for tal og algebra: at finde et samlet antal ved gentagen addition af lige store grupper. Der er ingen timer og ingen point — bare rolig, legende træning i 2. klasse."
+        "Plusstykket står på en harmonika af papir under perleskålene: én fold for hver gruppe, hver fold lige så høj som sin gruppe. Barnet fylder skålene og trykker strimlen sammen. Når der er lige mange i hver gruppe, lægger foldene sig fladt til ét panel, og 4 + 4 + 4 = 12 bliver til 3 · 4 = 12: forsiden viser, hvor mange der er i hver gruppe, og bagved ligger tre foldkanter for de tre grupper.",
+        "Er én gruppe anderledes, springer strimlen op igen, og den afvigende fold stikker op: lige store grupper er ikke en regel, barnet får at vide, men noget papiret ikke kan foldes uden. Lette grupper kommer fyldt, nogle gange med en skål, der skal rettes, og barnet skriver summen efter hver gruppe. Svære grupper og rektangler går op til 6 rækker med 8 i hver, og barnet skriver gangestykket. Hver retfærdig foldning giver en side i en lille gangebog.",
+        "Øvelsen følger Fælles Mål for matematik i 2. klasse, tal og regneoperationer: tælle lige store grupper med gentagen addition og skrive dem som gange. Den virker uden lyd, uden tidtagning og uden point."
       ],
       "practices": [
-        "Lave flere grupper, der hver har lige mange ting",
-        "Lægge lige store grupper sammen som gentagen addition, fx 4 + 4 + 4 = 12",
-        "Kende forskel på lige store grupper og grupper med forskellig størrelse",
-        "Finde et samlet antal ved at tælle grupper i stedet for at tælle én for én"
+        "Lave lige store grupper af en given størrelse",
+        "Finde antallet i lige store grupper med gentagen addition",
+        "Holde en delsum gruppe for gruppe",
+        "Skrive lige store grupper som et gangestykke"
       ],
       "howToPlay": [
-        "Barnet læser, hvor mange lige store grupper der skal laves, og hvor mange der skal i hver, og trykker så for at fylde grupperne.",
-        "Barnet ser de lige store grupper blive lagt sammen på plusstriben og skriver derefter det samlede antal på taltastaturet.",
-        "Passer det ikke? Barnet kan prøve igen, så mange gange det vil — der er ingen timer og ingen point."
+        "Tryk på en skål for at lægge en perle i; hold den nede for at tage en ud.",
+        "Tryk strimlen sammen med håndtaget: lige store grupper foldes fladt, ulige springer op igen.",
+        "Skriv, hvor mange der er i alt (eller gangestykket), og tryk på Tjek. I indstillingerne vælger du niveau, og om delsummerne vises."
       ],
       "learningGoals": [
-        "Barnet kan finde et samlet antal ud fra lige store grupper ved gentagen addition",
-        "Barnet kan forstå, at grupperne skal være lige store, for at plusstykket med samme tal passer",
-        "Barnet kan opbygge den fornemmelse for lige store grupper, som multiplikation senere hviler på"
+        "Finde antallet i lige store grupper ved at lægge det samme tal til igen og igen.",
+        "Se, at kun lige store grupper kan skrives som et gangestykke.",
+        "Forbinde en sum som 4 + 4 + 4 med 3 grupper med 4 i hver."
       ]
     },
     "choice-board.even-odd.2-oa-c-3": {

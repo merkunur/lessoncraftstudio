@@ -1407,25 +1407,25 @@
     },
     "array.equal-groups.2-oa-c-4": {
       "about": [
-        "Montar grupos com a mesma quantidade e descobrir o total é o coração desta atividade de matemática para o 2º ano, que funciona direto no navegador, sem instalar nada e sem precisar de conta. A criança forma grupos iguais — desde 2 grupos de 3 até 3 grupos de 5, passando por 4 grupos de 4 e 5 grupos de 2 — e assim trabalha com vários arranjos diferentes de grupos do mesmo tamanho.",
-        "Aqui os objetos ficam em grupos separados, e não em um quadro retangular arrumadinho, então a ideia de 'a mesma quantidade em cada grupo' é justamente o ponto principal. Conforme a criança preenche cada grupo, uma fileira de adição repetida vai crescendo ao lado — 4 + 4 + 4 — transformando os grupos iguais em uma soma; depois ela digita quantos há ao todo. A criança ainda não multiplica, mas pratica exatamente o raciocínio em que a multiplicação se apoia.",
-        "A atividade está alinhada à BNCC, na unidade temática Números, e ao trabalho com adição repetida de parcelas iguais para encontrar um total. Sem cronômetro e sem pontuação — é uma prática tranquila e divertida, no tempo de cada criança."
+        "A adição está impressa numa sanfona de papel embaixo dos potinhos de miçangas: uma dobra para cada grupo, cada dobra tão alta quanto o seu grupo. A criança enche os potinhos e aperta a tira. Quando todos os grupos têm a mesma quantidade, as dobras se fecham retas num só painel, e 4 + 4 + 4 = 12 vira 3 × 4 = 12: uma face que mostra quantos há em cada grupo e três bordas de dobra atrás, uma para cada grupo.",
+        "Quando um grupo é diferente, a tira se abre de novo e a dobra diferente fica para fora: grupos iguais não são uma regra dita à criança, e sim algo sem o qual o papel não fecha. Os grupos fáceis já vêm cheios, às vezes com um potinho para corrigir, e a criança digita o total depois de cada grupo. Os grupos difíceis e as disposições chegam a 6 fileiras de 8, e a criança escreve a multiplicação. Cada dobra certinha ganha uma página num livrinho da multiplicação.",
+        "A atividade está de acordo com a BNCC, Matemática, 2º ano: contar grupos iguais por adições de parcelas iguais e escrever como multiplicação. Funciona sem som, sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Formar vários grupos com a mesma quantidade de objetos em cada um.",
-        "Somar grupos iguais como adição repetida, por exemplo 4 + 4 + 4 = 12.",
-        "Diferenciar grupos iguais de grupos com tamanhos diferentes.",
-        "Encontrar o total contando por grupos, em vez de contar de um em um."
+        "Formar grupos iguais de um tamanho dado",
+        "Achar o total de grupos iguais por adições de parcelas iguais",
+        "Ir somando grupo por grupo",
+        "Escrever grupos iguais como multiplicação"
       ],
       "howToPlay": [
-        "Leia quantos grupos iguais montar e quantos objetos vão em cada um, depois toque para preencher os grupos.",
-        "Acompanhe os grupos iguais virando uma soma na fileira de adição repetida e digite o total no teclado.",
-        "Errou? Tente de novo quantas vezes quiser — não há cronômetro nem pontuação."
+        "Toque num potinho para pôr uma miçanga; segure para tirar uma.",
+        "Aperte a tira com a alça: grupos iguais fecham retos, os diferentes se abrem de novo.",
+        "Digite quantos há no total (ou a multiplicação) e aperte “Conferir”. Nas configurações, escolha o nível e se os totais parciais aparecem."
       ],
       "learningGoals": [
-        "A criança aprende a encontrar o total de grupos iguais usando adição repetida.",
-        "A criança entende que os grupos precisam ser iguais para a soma de parcelas iguais funcionar.",
-        "A criança desenvolve o senso de grupos iguais em que a multiplicação vai se apoiar mais adiante."
+        "Achar o total de grupos iguais somando várias vezes o mesmo número.",
+        "Perceber que só grupos iguais podem ser escritos como multiplicação.",
+        "Ligar uma soma como 4 + 4 + 4 a 3 grupos de 4."
       ]
     },
     "choice-board.even-odd.2-oa-c-3": {

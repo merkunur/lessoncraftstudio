@@ -2788,25 +2788,25 @@
     },
     "array.equal-groups.2-oa-c-4": {
       "about": [
-        "Dans cette activité, l'enfant fabrique des groupes égaux — le même nombre d'objets dans chacun — puis les additionne pour trouver le total. Les tours vont de 2 groupes de 3 jusqu'à 3 groupes de 5, en passant par 4 groupes de 4 et 5 groupes de 2, si bien que l'enfant rencontre beaucoup d'arrangements différents. Tout se joue dans le navigateur, sans rien installer et sans inscription.",
-        "Contrairement à un quadrillage bien rangé, ici les objets sont posés en groupes séparés : l'idée du « même nombre dans chacun » devient donc tout l'enjeu. À mesure que l'enfant remplit chaque groupe, une bande d'addition répétée se construit à côté — 4 + 4 + 4 — et transforme les groupes égaux en une somme, avant qu'il tape combien il y en a en tout. L'enfant construit et additionne les groupes : il ne multiplie pas encore, mais il découvre exactement le raisonnement sur lequel repose la multiplication.",
-        "Cette activité interactive de CE1 est alignée sur les programmes officiels : utiliser l'addition répétée de termes égaux pour trouver un total. L'enfant avance à son rythme, avec un retour doux et immédiat — ni minuteur, ni score."
+        "L’addition est imprimée sur un accordéon de papier sous les coupelles de perles : un pli par groupe, chaque pli aussi haut que son groupe. L’enfant remplit les coupelles et serre la bande. Quand chaque groupe en a autant, les plis se replient à plat en un seul panneau, et 4 + 4 + 4 = 12 devient 3 × 4 = 12 : une face qui montre combien il y en a dans chaque groupe, trois bords de plis derrière pour les trois groupes.",
+        "Quand un groupe est différent, la bande se rouvre d’un coup et le pli qui dépasse se voit : les groupes égaux ne sont pas une règle qu’on dit à l’enfant, c’est le papier qui refuse de se plier sans eux. Les groupes faciles arrivent déjà remplis, parfois avec une coupelle à corriger, et l’enfant tape le total après chaque groupe. Les groupes difficiles et les dispositions rectangulaires vont jusqu’à 6 rangées de 8, et l’enfant écrit la multiplication. Chaque pliage juste ajoute une page à un petit livre des multiplications.",
+        "L’activité suit les programmes officiels du cycle 2 (CE1) pour le calcul : trouver le nombre d’objets de groupes égaux par addition itérée et l’écrire comme une multiplication. Elle fonctionne sans le son, sans chronomètre et sans score."
       ],
       "practices": [
-        "Faire plusieurs groupes contenant chacun le même nombre d'objets.",
-        "Additionner des groupes égaux sous forme d'addition répétée, par exemple 4 + 4 + 4 = 12.",
-        "Distinguer des groupes égaux de groupes de tailles différentes.",
-        "Trouver un total en comptant les groupes plutôt qu'en comptant un par un."
+        "Faire des groupes égaux d’une taille donnée",
+        "Trouver le total de groupes égaux par addition itérée",
+        "Garder un total intermédiaire, groupe après groupe",
+        "Écrire des groupes égaux comme une multiplication"
       ],
       "howToPlay": [
-        "Lis combien de groupes égaux faire et combien d'objets mettre dans chacun, puis touche pour remplir les groupes.",
-        "Regarde les groupes égaux s'additionner sur la bande d'addition répétée, puis tape le total sur le clavier.",
-        "Pas tout à fait ? Recommence autant de fois que tu veux — il n'y a ni minuteur, ni score."
+        "Touche une coupelle pour ajouter une perle ; garde le doigt dessus pour en retirer une.",
+        "Serre la bande avec la poignée : les groupes égaux se replient à plat, les autres se rouvrent.",
+        "Tape combien il y en a en tout (ou la multiplication) et appuie sur « Vérifier ». Dans les réglages, choisis le niveau et si les totaux intermédiaires sont affichés."
       ],
       "learningGoals": [
-        "Trouver un total à partir de groupes égaux grâce à l'addition répétée.",
-        "Comprendre que les groupes doivent être égaux pour que la somme de termes identiques fonctionne.",
-        "Construire le sens des groupes égaux sur lequel s'appuiera la multiplication plus tard."
+        "Trouver le total de groupes égaux en ajoutant plusieurs fois le même nombre.",
+        "Voir que seuls des groupes égaux s’écrivent comme une multiplication.",
+        "Relier une somme comme 4 + 4 + 4 à 3 groupes de 4."
       ]
     },
     "choice-board.even-odd.2-oa-c-3": {

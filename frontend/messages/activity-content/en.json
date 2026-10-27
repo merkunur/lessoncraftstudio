@@ -529,25 +529,25 @@
     },
     "array.equal-groups.2-oa-c-4": {
       "about": [
-        "Children make equal groups — the same number of objects in each — and add them up to find the total, in this Grade 2 math activity that plays in any browser with no download and no account. The rounds run from 2 groups of 3 up to 3 groups of 5, including 4 groups of 4 and 5 groups of 2, so the child works with many different equal-group arrangements.",
-        "Unlike a tidy rectangular array, here the objects sit in separate groups, which makes the 'same number in each' idea the whole point. As the child fills each group, a repeated-addition strip grows alongside — 4 + 4 + 4 — turning the equal groups into a sum, and then they type how many in all. The child builds and adds the groups; they do not multiply yet, but they meet the exact thinking multiplication is built on.",
-        "It is aligned to Common Core 2.OA.C.4 — using repeated addition of equal addends to find a total. No timer, no score — just calm, playful practice."
+        "The adding sentence is printed on a paper accordion under the bead trays: one pleat for each group, each pleat as tall as its group. The child fills the trays and squeezes the strip. When every group holds the same, the pleats fold flat into one panel, and 4 + 4 + 4 = 12 becomes 3 × 4 = 12: one face that shows how many are in each group, three pleat edges behind it for the three groups.",
+        "When one group is different, the strip springs back open and the odd pleat stands out, so equal groups are not a rule the child is told but something the paper refuses to do without. Easy groups arrive filled, sometimes with one tray off by one to fix, and the child types the total after each group. Tricky groups and arrays go up to 6 rows of 8, and the child writes the times sentence. Every fair fold adds a page to a small times book.",
+        "It is aligned to Common Core 2.OA.C.4: use addition to find the total number of objects in equal groups and arrays, and write an equation as a sum of equal addends. It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Making several groups that each hold the same number",
-        "Adding equal groups as repeated addition, such as 4 + 4 + 4 = 12",
-        "Telling equal groups apart from groups of different sizes",
-        "Finding a total by counting groups rather than counting by ones"
+        "Make equal groups of a given size",
+        "Find the total of equal groups by repeated addition",
+        "Keep a running total group by group",
+        "Write equal groups as a multiplication"
       ],
       "howToPlay": [
-        "Read how many equal groups to make and how many go in each one, then tap to fill the groups.",
-        "Watch the equal groups add up on the repeated-addition strip, then type the total on the keypad.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Tap a tray to add a bead; hold it to take one out.",
+        "Squeeze the strip with the handle: equal groups fold flat, unequal ones spring back.",
+        "Type how many in all (or the times sentence) and press Check. In the settings, choose the level and whether the running totals are shown."
       ],
       "learningGoals": [
-        "Find a total from equal groups using repeated addition — the focus of Common Core 2.OA.C.4.",
-        "Understand that the groups must be equal for the same-addend sum to work.",
-        "Build the equal-groups sense that multiplication depends on in later grades."
+        "Find the total of equal groups by adding the same number again and again.",
+        "Notice that only equal groups can be written as a multiplication.",
+        "Connect a sum like 4 + 4 + 4 with 3 groups of 4."
       ]
     },
     "atlas-fact-files.key-detail.ri-k-1": {

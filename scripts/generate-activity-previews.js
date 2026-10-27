@@ -91,6 +91,10 @@ function seedScript(row) {
     // one twin pair found (its plate on the shelf), a second card lifted and leapfrogged in place: 4 + 7 shown as 7 + 4, the total bar unchanged
     return `(function(){var t=window['${g}'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(0,0);t._render2();var c=t.st.rd.cards,tw=function(i){return c.findIndex(function(d,j){return j!==i&&d.pair===c[i].pair;});};t._pick(0);t._pick(tw(0));var k=c.findIndex(function(d,j){return d.pair!==c[0].pair;});t._pick(k);t._view.leapNow=k;t._paint();}})();`;
   }
+  if (row.tool === 'accordion-activity') {
+    // 3 groups of 4 beads, the squeeze pressed: the 4 + 4 + 4 accordion folded flat into one face of 4 with three edges, stamped 3 × 4: the invention at work
+    return `(function(){var t=window['${g}'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(1,0);t._render2();for(var i=0;i<3;i++)for(var j=0;j<4;j++)t._add(i);t._squeeze();}})();`;
+  }
   if (row.tool === 'skewer-plate-activity') {
     // 3 rows of 4 raspberries, two skewers lifted into the rack with their boxes: the rack reads 4 + 4, one row still on the plate
     return `(function(){var t=window['${g}'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(1);t._render2();t._lift(0);t._type('4');t._lift(1);t._focus('k1');t._type('4');}})();`;

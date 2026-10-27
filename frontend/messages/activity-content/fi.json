@@ -624,25 +624,25 @@
     },
     "array.equal-groups.2-oa-c-4": {
       "about": [
-        "Tässä tehtävässä lapsi rakentaa yhtä suuria ryhmiä — jokaiseen ryhmään tulee yhtä monta esinettä — ja laskee ne yhteen löytääkseen kokonaismäärän. Kierrokset etenevät kahdesta kolmen esineen ryhmästä kolmeen viiden esineen ryhmään, mukana myös neljä neljän ryhmää ja viisi kahden ryhmää, joten lapsi kokeilee monia erilaisia yhtä suuria ryhmityksiä. Tehtävä on vuorovaikutteinen, ja se toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
-        "Toisin kuin siistissä suorakaiteen muotoisessa taulukossa, tässä esineet ovat erillisissä ryhmissä, jolloin ajatus \"yhtä monta jokaisessa\" on koko tehtävän ydin. Kun lapsi täyttää ryhmät, viereen kasvaa toistuvan yhteenlaskun rivi — 4 + 4 + 4 — joka muuttaa yhtä suuret ryhmät yhteenlaskuksi, ja lopuksi lapsi kirjoittaa, kuinka monta esinettä on yhteensä. Lapsi rakentaa ryhmät ja laskee ne yhteen, ei vielä kerro, mutta kohtaa juuri sen ajattelun, jolle kertolasku myöhemmin rakentuu.",
-        "Tehtävä on OPS 2014:n mukainen lukujen ja laskutoimitusten osa-alueella: lapsi löytää kokonaismäärän laskemalla yhtä suuria ryhmiä yhteen yksitellen laskemisen sijaan. 2. luokan oppilaille — ei ajastinta eikä pisteitä, vaan rauhassa omaan tahtiin etenevää harjoittelua."
+        "Yhteenlasku on painettu paperiseen haitariin helmikulhojen alle: yksi laskos jokaista ryhmää kohti, jokainen laskos yhtä korkea kuin sen ryhmä. Lapsi täyttää kulhot ja puristaa liuskan kokoon. Kun jokaisessa ryhmässä on yhtä monta, laskokset taittuvat litteäksi paneeliksi, ja 4 + 4 + 4 = 12 muuttuu muotoon 3 · 4 = 12: etupuoli näyttää, montako kussakin ryhmässä on, ja takana on kolme laskoksen reunaa kolmea ryhmää varten.",
+        "Jos yksi ryhmä on erilainen, liuska ponnahtaa takaisin auki ja poikkeava laskos törröttää: yhtä suuret ryhmät eivät ole lapselle kerrottu sääntö vaan jotain, mitä ilman paperi ei taitu. Helpot ryhmät tulevat valmiiksi täytettyinä, joskus yhdellä korjattavalla kulholla, ja lapsi kirjoittaa summan jokaisen ryhmän jälkeen. Vaikeat ryhmät ja suorakulmiot ulottuvat 6 riviin, joissa kussakin on 8, ja lapsi kirjoittaa kertolaskun. Jokainen reilu taitos tuo sivun pieneen kertolaskukirjaan.",
+        "Tehtävä sopii OPS 2014:n matematiikan tavoitteisiin 2. luokalla: yhtä suurten ryhmien laskeminen toistuvalla yhteenlaskulla ja niiden kirjoittaminen kertolaskuna. Se toimii ilman ääntä, ilman ajanottoa ja ilman pisteitä."
       ],
       "practices": [
-        "Rakentaa useita ryhmiä, joissa kussakin on yhtä monta esinettä.",
-        "Laskee yhtä suuret ryhmät yhteen toistuvana yhteenlaskuna, esimerkiksi 4 + 4 + 4 = 12.",
-        "Erottaa yhtä suuret ryhmät ryhmistä, joissa on eri määrä esineitä.",
-        "Löytää kokonaismäärän laskemalla ryhmiä yhteen yksitellen laskemisen sijaan."
+        "Tehdä annetun kokoisia yhtä suuria ryhmiä",
+        "Löytää yhtä suurten ryhmien lukumäärä toistuvalla yhteenlaskulla",
+        "Pitää välisummaa ryhmä kerrallaan",
+        "Kirjoittaa yhtä suuret ryhmät kertolaskuna"
       ],
       "howToPlay": [
-        "Lue, kuinka monta yhtä suurta ryhmää teet ja kuinka monta esinettä kuhunkin tulee, ja napauta sitten täyttääksesi ryhmät.",
-        "Seuraa, miten yhtä suuret ryhmät laskeutuvat yhteen toistuvan yhteenlaskun riville, ja kirjoita kokonaismäärä näppäimistöllä.",
-        "Meneekö pieleen? Voit yrittää uudelleen niin monta kertaa kuin haluat — ei ajastinta eikä pisteitä."
+        "Napauta kulhoa lisätäksesi helmen; pidä painettuna ottaaksesi yhden pois.",
+        "Purista liuska kokoon kahvasta: yhtä suuret ryhmät taittuvat litteiksi, erisuuret ponnahtavat auki.",
+        "Kirjoita, montako niitä on yhteensä (tai kertolasku), ja paina Tarkista. Asetuksista valitset tason ja sen, näkyvätkö välisummat."
       ],
       "learningGoals": [
-        "Lapsi löytää kokonaismäärän yhtä suurista ryhmistä toistuvan yhteenlaskun avulla.",
-        "Lapsi ymmärtää, että ryhmien on oltava yhtä suuret, jotta saman luvun toistava yhteenlasku toimii.",
-        "Lapsi kehittää yhtä suurten ryhmien hahmottamista, jolle kertolasku myöhemmillä luokilla rakentuu."
+        "Löytää yhtä suurten ryhmien lukumäärä lisäämällä samaa lukua yhä uudelleen.",
+        "Huomata, että vain yhtä suuret ryhmät voi kirjoittaa kertolaskuna.",
+        "Yhdistää summa 4 + 4 + 4 kolmeen ryhmään, joissa kussakin on 4."
       ]
     },
     "choice-board.even-odd.2-oa-c-3": {

@@ -3462,6 +3462,29 @@
         "Määritellä sana yläkäsitteen ja yhden ominaisuuden avulla.",
         "Lajitella sanoja ryhmiin."
       ]
+    },
+    "jasper-just-right.real-life.l-1-5-c": {
+      "about": [
+        "Päivä on rivi ikkunoita: ”Ulkona sataa”, haluat kirjoittaa nimesi, on aika mennä nukkumaan. Jokaisen ikkunan alla on tyhjä koukku, ja alempana on laukku arjen tavaroita, joissa jokaisessa on pieni taitettu lappu. Lapsi lukee jokaisen hetken ja ripustaa sen alle tavaran, jota käyttäisi. Kun painetaan Mene, aurinko kulkee taivaan yli: oikeat tavarat jäävät paikoilleen, ja tavara, joka ei sovi, palaa laukkuun lappu auki: ”juomiseen”. Näin lapsi oppii, mihin tavara on, eikä kuule pelkkää ”väärin”.",
+        "Tehtäviä on kolme: pakkaa päivä, yksi tavara jokaiseen hetkeen; ripusta tavara jokaiseen hetkeen, jossa siitä on apua, sillä kynällä kirjoitetaan ja piirretään; ja ripusta tavarat sanojen alle sen mukaan, millaisia ne ovat, esimerkiksi pehmeä, kova tai äänekäs. Hetket näkyvät lauseina tai pelkkinä kuvina.",
+        "Tehtävä sopii OPS 2014:n äidinkielen ja kirjallisuuden tavoitteisiin 1. luokalla. Se toimii ilman ääntä, ilman ajanottoa ja ilman pisteitä."
+      ],
+      "practices": [
+        "Lukea lyhyt lause päivän hetkestä",
+        "Valita tavara, jota käyttäisi",
+        "Löytää jokainen hetki, jossa tavarasta on apua",
+        "Lajitella tavaroita sen mukaan, millaisia ne ovat"
+      ],
+      "howToPlay": [
+        "Napauta laukusta tavaraa ja sitten koukkua (tai vedä tavara koukkuun). Paina Mene.",
+        "Tavara, joka ei sovi, palaa lappu auki: lue se ja yritä uudelleen.",
+        "Asetuksista valitset tehtävän, kuusi tai kahdeksan tavaraa laukkuun sekä lauseet tai kuvat hetkiin."
+      ],
+      "learningGoals": [
+        "Yhdistää arjen sanat siihen, miten niitä käytetään.",
+        "Kertoa, mihin tavara on.",
+        "Kuvata tavaroita sanoilla, jotka kertovat, millaisia ne ovat."
+      ]
     }
   }
 }

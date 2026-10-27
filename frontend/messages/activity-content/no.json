@@ -3490,6 +3490,29 @@
         "Forklare et ord med overbegrep og én egenskap.",
         "Sortere ord i grupper."
       ]
+    },
+    "jasper-just-right.real-life.l-1-5-c": {
+      "about": [
+        "Dagen er en rad vinduer: «Det regner ute», du vil skrive navnet ditt, det er leggetid. Under hvert vindu henger en tom krok, og lenger ned står en sekk med ting fra hverdagen, hver med en liten brettet lapp. Barnet leser hvert øyeblikk og henger opp tingen det ville brukt. Trykk på Start, så går sola over himmelen: De riktige tingene blir hengende, og en ting som ikke passer, kommer tilbake i sekken med lappen snudd, «til å drikke». Slik lærer barnet hva tingen er til, i stedet for bare å høre «feil».",
+        "Det er tre ting å gjøre: pakke dagen, én ting til hvert øyeblikk; henge en ting ved hvert øyeblikk der den hjelper, for en blyant er til å skrive og til å tegne med; og henge ting under ord for hvordan de er, som mykt, hardt eller høylytt. Øyeblikkene står som setninger eller bare som bilder.",
+        "Øvelsen følger LK20, norsk etter 2. trinn, ordforråd. Den virker uten lyd, uten tidtaking og uten poeng."
+      ],
+      "practices": [
+        "Lese en kort setning om et øyeblikk av dagen",
+        "Velge tingen man ville brukt",
+        "Finne hvert øyeblikk der en ting hjelper",
+        "Sortere ting etter hvordan de er"
+      ],
+      "howToPlay": [
+        "Trykk på en ting i sekken og så på en krok (eller dra tingen til kroken). Trykk på Start.",
+        "En ting som ikke passer, kommer tilbake med lappen åpen: Les den og prøv igjen.",
+        "I innstillingene velger du oppgave, seks eller åtte ting i sekken og setninger eller bilder for øyeblikkene."
+      ],
+      "learningGoals": [
+        "Knytte hverdagsord til hvordan vi bruker dem.",
+        "Forklare hva en ting er til.",
+        "Beskrive ting med ord for hvordan de er."
+      ]
     }
   }
 }

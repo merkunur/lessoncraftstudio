@@ -3919,6 +3919,29 @@
         "Kontrollera ett skrivet ord efter vad det verkligen säger.",
         "Använda enkla stavningsregler och pluraländelser."
       ]
+    },
+    "jasper-just-right.real-life.l-1-5-c": {
+      "about": [
+        "Dagen är en rad fönster: ”Det regnar ute”, du vill skriva ditt namn, det är dags att sova. Under varje fönster hänger en tom krok, och längre ner står en väska med vardagssaker, var och en med en liten hopvikt lapp. Barnet läser varje stund och hänger upp saken det skulle använda. Tryck på Kör så går solen över himlen: de rätta sakerna fastnar, och en sak som inte passar kommer tillbaka till väskan med lappen uppvikt, ”för att dricka”. Så får barnet veta vad saken är till för i stället för att bara höra ”fel”.",
+        "Det finns tre saker att göra: packa dagen, en sak för varje stund; hänga en sak vid varje stund där den hjälper, för en penna är till för att skriva och för att rita; och hänga saker under ord för hur de är, som mjukt, hårt eller bullrigt. Stunderna visas som meningar eller bara som bilder.",
+        "Övningen följer Lgr22, svenska i årskurs 1 till 3, ord och begrepp. Den fungerar utan ljud, utan tidtagning och utan poäng."
+      ],
+      "practices": [
+        "Läsa en kort mening om en stund under dagen",
+        "Välja saken man skulle använda",
+        "Hitta varje stund där en sak hjälper",
+        "Sortera saker efter hur de är"
+      ],
+      "howToPlay": [
+        "Tryck på en sak i väskan och sedan på en krok (eller dra saken till kroken). Tryck på Kör.",
+        "En sak som inte passar kommer tillbaka med lappen öppen: läs den och försök igen.",
+        "I inställningarna väljer du uppgift, sex eller åtta saker i väskan och meningar eller bilder för stunderna."
+      ],
+      "learningGoals": [
+        "Koppla vardagsord till hur vi använder dem.",
+        "Förklara vad en sak är till för.",
+        "Beskriva saker med ord för hur de är."
+      ]
     }
   }
 }

@@ -3462,6 +3462,29 @@
         "Forklare et ord med overbegreb og én egenskab.",
         "Sortere ord i grupper."
       ]
+    },
+    "jasper-just-right.real-life.l-1-5-c": {
+      "about": [
+        "Dagen er en række vinduer: ”Det regner udenfor”, du vil skrive dit navn, det er sengetid. Under hvert vindue hænger en tom krog, og længere nede står en taske med ting fra hverdagen, hver med et lille foldet mærke. Barnet læser hvert øjeblik og hænger den ting op, det ville bruge. Tryk på Start, så går solen over himlen: De rigtige ting sidder fast, og en ting, der ikke passer, kommer tilbage i tasken med mærket vendt, ”til at drikke”. Så lærer barnet, hvad tingen er til, i stedet for bare at høre ”forkert”.",
+        "Der er tre ting at gøre: pakke dagen, én ting til hvert øjeblik; hænge en ting ved hvert øjeblik, hvor den hjælper, for en blyant er til at skrive og til at tegne; og hænge ting under ord for, hvordan de er, som blødt, hårdt eller larmende. Øjeblikkene står som sætninger eller kun som billeder.",
+        "Øvelsen følger Fælles Mål for dansk i 1. klasse, ordforråd. Den virker uden lyd, uden tidtagning og uden point."
+      ],
+      "practices": [
+        "Læse en kort sætning om et øjeblik på dagen",
+        "Vælge den ting, man ville bruge",
+        "Finde hvert øjeblik, hvor en ting hjælper",
+        "Sortere ting efter, hvordan de er"
+      ],
+      "howToPlay": [
+        "Tryk på en ting i tasken og så på en krog (eller træk tingen hen til krogen). Tryk på Start.",
+        "En ting, der ikke passer, kommer tilbage med mærket åbent: Læs det, og prøv igen.",
+        "I indstillingerne vælger du opgave, seks eller otte ting i tasken og sætninger eller billeder til øjeblikkene."
+      ],
+      "learningGoals": [
+        "Forbinde hverdagsord med, hvordan vi bruger dem.",
+        "Forklare, hvad en ting er til.",
+        "Beskrive ting med ord for, hvordan de er."
+      ]
     }
   }
 }

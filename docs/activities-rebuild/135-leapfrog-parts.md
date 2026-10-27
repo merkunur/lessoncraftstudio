@@ -57,3 +57,6 @@ Every finding was fixed at the source (`lp-strings.js`, prose, core).
 - **`audit-settings-efficacy`:** numbers and cards are both live.
 - **`audit-activity-next-delay`:** pass. Content ×11, prose claims, SERP copy, content tells and route preflight: pass.
 - **0 lines** in shared cores or `lcs-shell`.
+
+## Live
+`live-verify-leapfrog-parts.js` on production, 2026-10-27: **52 pass, 0 fail.** All 11 pages return 200, and en, de, sv and fi at 1366 and 390 embed leapfrog-parts-activity.html at wrapper 9.880. With a real pointer, a card laid on a same-total impostor makes the impostor glow and the hint says "same total"; every card + its true twin gives three twin plates and the round line; the iframe grows with the card. The first run fell in the cache window (some pages still served the old embed); once curl showed 9.880 in every checked locale, the second run was clean.

@@ -70,3 +70,15 @@ Every finding was fixed at the source:
 - **`audit-settings-efficacy`:** numbers and roof are both live.
 - **Other gates:** `audit-activity-next-delay` passes. Content ×11, prose claims, SERP copy, content tells and route preflight all pass.
 - **0 lines** in shared cores or `lcs-shell`.
+
+## Live
+`live-verify-chimney-roof.js` ran on production on 2026-10-27: **60 pass, 0 fail.**
+- All 11 pages return 200.
+- en, de, sv and fi, at 1366 and at 390, embed chimney-roof-activity.html at wrapper 9.882.
+- With a real pointer:
+  - 13 taps pour 13 bricks;
+  - the flat roof on 13 falls with the miss line;
+  - the chimney roof plus 6 and 6 gives "13 = 6 + 6 + 1 … 13 is odd".
+- The iframe grows with the card.
+
+The first run fell in the cache window: three pages still served the old embed. Once curl showed 9.882 everywhere, the second run was clean.

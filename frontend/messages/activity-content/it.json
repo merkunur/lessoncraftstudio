@@ -2270,25 +2270,25 @@
     },
     "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {
       "about": [
-        "Il bambino collega le carte che mostrano lo stesso valore — il numero in cifre (305), il numero in parole (trecentocinque) e la forma scomposta (300 + 5) — toccando una carta e poi una carta che ne ha lo stesso valore, finché il terzetto è collegato. È un gioco di abbinamento di matematica per la classe seconda, interattivo, che si gioca nel browser, senza installare nulla e senza account.",
-        "L'idea importante è che le cifre, il nome del numero e la forma scomposta nominano un solo numero — e i «vuoti» del valore posizionale sono il punto interessante. Numeri come 305 e 208 hanno uno zero nelle decine, quindi la forma scomposta è 300 + 5 e non 300 + 0 + 5, e bisogna leggere con attenzione per abbinare «duecentootto» a 208 e non a 280. In ogni round ci sono tre numeri diversi da sistemare insieme.",
-        "L'attività è allineata alle Indicazioni nazionali: leggere e scrivere i numeri fino a 1000 in cifre, in parole e in forma scomposta. Nessun timer e nessun punteggio: solo pratica serena e giocosa."
+        "Ogni turno distribuisce nove carte: tre numeri in cifre, tre numeri in parole e tre scomposizioni, per tre numeri fatti delle stesse cifre, come 247, 274 e 427. Il bambino mette due carte nel supporto doppio, e ogni carta versa centinaia, decine e unità nei suoi tre tubi di vetro. Due carte si agganciano solo quando le tre coppie di tubi sono alla stessa altezza.",
+        "Un numero in parole si versa nel vetro smerigliato: si vede arrivare il liquido, ma non la sua altezza, quindi leggere duecentosettantaquattro resta compito del bambino. Quando le carte si agganciano, il vetro torna trasparente. Un errore cerchia il tubo diverso e dice che cosa ha la carta con i tubi trasparenti, per esempio «Le decine non sono uguali. La carta con i tubi trasparenti ha 4 decine.» Al secondo errore, ogni parte è scritta sopra il suo tubo. Con gli zeri, i numeri sono 305, 350 e 530, e 300 + 5 lascia vuoto il tubo delle decine. Con l’impostazione «Valore della cifra», il bambino cerca quanto vale una cifra colorata, come il 7 di 721 (700).",
+        "L’attività segue le Indicazioni nazionali per la classe seconda: leggere e scrivere i numeri fino a 1000 in cifre, in parole e in forma scomposta. Funziona senza audio, e non ci sono cronometro né punteggio."
       ],
       "practices": [
-        "Collegare una cifra, il suo nome in parole e la sua forma scomposta.",
-        "Leggere i nomi dei numeri di tre cifre, come novecentoquaranta.",
-        "Scrivere correttamente la forma scomposta quando una posizione ha uno zero, come 600 + 5.",
-        "Distinguere numeri vicini come 208 e 280."
+        "Abbinare un numero in cifre, il suo nome in parole e la sua scomposizione.",
+        "Leggere numeri di tre cifre scritti in parole, come duecentosettantaquattro.",
+        "Distinguere numeri fatti delle stesse cifre, come 247 e 274.",
+        "Scrivere la scomposizione quando un posto è vuoto, come 300 + 5."
       ],
       "howToPlay": [
-        "Il bambino guarda le carte — cifre come 562, parole come cinquecentosessantadue e forme scomposte come 500 + 60 + 2.",
-        "Tocca una carta, poi tocca un'altra carta che mostra lo stesso numero, e guarda la coppia collegarsi.",
-        "Trova tutti e tre i numeri del round: non c'è timer né punteggio, quindi con calma."
+        "Tocca una carta per metterla nel supporto, poi toccane una seconda. Tocca una carta nel supporto per toglierla.",
+        "Quando le tre coppie di tubi sono alla stessa altezza, le due carte si agganciano. Tocca la coppia per metterla nel supporto, poi aggiungi la terza carta.",
+        "Nelle impostazioni scegli tre modi o il valore della cifra, e numeri con o senza zeri."
       ],
       "learningGoals": [
         "Leggere e scrivere i numeri fino a 1000 in cifre, in parole e in forma scomposta.",
-        "Capire che forme diverse possono nominare lo stesso valore.",
-        "Rafforzare il senso del valore posizionale, anche con numeri che hanno uno zero in una posizione."
+        "Vedere che le stesse cifre in posti diversi formano numeri diversi.",
+        "Capire che un posto vuoto non ha parte nella scomposizione, come in 305 = 300 + 5."
       ]
     },
     "money.count-out.2-md-c-8": {

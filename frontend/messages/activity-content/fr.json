@@ -3146,24 +3146,25 @@
     },
     "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {
       "about": [
-        "L'enfant relie les cartes qui montrent la même valeur — le nombre en chiffres (305), le nombre en lettres (trois cent cinq) et la forme décomposée (300 + 5) — en touchant une carte, puis une autre qui a la même valeur, jusqu'à relier le trio. C'est un jeu d'association de cartes interactif pour le CE1, qui se joue directement dans le navigateur : rien à installer, aucun compte.",
-        "L'idée importante, c'est qu'un nombre en chiffres, son nom en lettres et sa forme décomposée désignent un seul et même nombre — et c'est au niveau des chiffres « zéro » que cela devient intéressant. Des nombres comme 305 et 208 ont un zéro à la place des dizaines : la forme décomposée s'écrit donc 300 + 5, et non 300 + 0 + 5, et l'enfant doit lire attentivement pour associer « deux cent huit » à 208, et non à 280. Chaque tour propose trois nombres différents à retrouver en même temps."
+        "Chaque manche distribue neuf cartes : trois nombres en chiffres, trois nombres en lettres et trois décompositions, pour trois nombres faits des mêmes chiffres, comme 247, 274 et 427. L’enfant pose deux cartes dans le double support, et chaque carte verse ses centaines, ses dizaines et ses unités dans ses trois tubes de verre. Deux cartes ne s’attachent que si les trois paires de tubes sont à la même hauteur.",
+        "Un nombre en lettres se verse dans du verre dépoli : on voit le liquide arriver, mais pas sa hauteur, donc lire deux cent soixante-quatorze reste le travail de l’enfant. Quand deux cartes s’attachent, le verre redevient clair. Une erreur entoure le tube inégal et dit ce que contient la carte aux tubes clairs, par exemple « Les dizaines ne sont pas pareilles. La carte aux tubes clairs a 4 dizaines. » À la deuxième erreur, chaque partie est écrite au-dessus de son tube. Avec des zéros, les nombres sont 305, 350 et 530, et 300 + 5 laisse le tube des dizaines vide. Avec le réglage « Valeur du chiffre », l’enfant cherche ce que vaut un chiffre en couleur, comme le 7 de 721 (700).",
+        "L’activité s’appuie sur les programmes officiels du CE1 : lire et écrire les nombres jusqu’à 1000 en chiffres, en lettres et sous forme décomposée. Elle fonctionne sans le son, et il n’y a ni chronomètre ni score."
       ],
       "practices": [
-        "Relier un nombre en chiffres, son nom en lettres et sa forme décomposée.",
-        "Lire des noms de nombres à trois chiffres, comme neuf cent quarante.",
-        "Écrire correctement la forme décomposée quand une place contient un zéro, comme 600 + 5.",
-        "Distinguer des nombres proches, comme 208 et 280."
+        "Associer un nombre en chiffres, son écriture en lettres et sa décomposition.",
+        "Lire des nombres à trois chiffres écrits en lettres, comme deux cent soixante-quatorze.",
+        "Distinguer des nombres faits des mêmes chiffres, comme 247 et 274.",
+        "Écrire la décomposition quand un rang est vide, comme 300 + 5."
       ],
       "howToPlay": [
-        "Regarde les cartes — des nombres comme 562, des mots comme cinq cent soixante-deux, et des formes décomposées comme 500 + 60 + 2.",
-        "Touche une carte, puis une autre qui montre le même nombre, et regarde la paire se relier.",
-        "Retrouve les trois nombres du tour — il n'y a ni chrono ni score, alors prends ton temps."
+        "Touche une carte pour la poser dans le support, puis une deuxième. Touche une carte du support pour la retirer.",
+        "Quand les trois paires de tubes sont à la même hauteur, les deux cartes s’attachent. Touche la paire pour la poser dans le support, puis ajoute la troisième carte.",
+        "Dans les réglages, choisis trois écritures ou la valeur du chiffre, et des nombres avec ou sans zéro."
       ],
       "learningGoals": [
-        "Lire et écrire les nombres jusqu'à 1000 en chiffres, en lettres et en forme décomposée.",
-        "Comprendre que des écritures différentes peuvent désigner la même valeur.",
-        "Renforcer le sens des valeurs de position, y compris pour les nombres ayant un zéro à une place."
+        "Lire et écrire les nombres jusqu’à 1000 en chiffres, en lettres et sous forme décomposée.",
+        "Voir que les mêmes chiffres à des rangs différents forment des nombres différents.",
+        "Comprendre qu’un rang vide n’apparaît pas dans la décomposition, comme 305 = 300 + 5."
       ]
     },
     "money.count-out.2-md-c-8": {

@@ -1226,24 +1226,25 @@
     },
     "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {
       "about": [
-        "Tre måder at vise et tal på lader barnet forbinde de kort, der viser den samme værdi — tallet med cifre (305), tallet med ord (trehundrede og fem) og den udvidede form (300 + 5). Barnet trykker på ét kort og derefter på dets makker, indtil de tre hører sammen. Det er et interaktivt matematikspil til 2. klasse, der spilles direkte i browseren — uden installation og uden konto.",
-        "Den store idé er, at et tal med cifre, dets talord og dets udvidede form alle navngiver ét og samme tal — og det er ved pladsværdiernes huller, det bliver spændende. Tal som 305 og 208 har et nul på tier-pladsen, så den udvidede form er 300 + 5 og ikke 300 + 0 + 5, og barnet skal læse omhyggeligt for at matche \"tohundrede og otte\" til 208 og ikke til 280. Hver runde har tre forskellige tal at få styr på på én gang. Aktiviteten følger Fælles Mål inden for tal og algebra: at læse og skrive tal op til 1000 med cifre, med talord og i udvidet form. Der er ingen timer og ingen point."
+        "Hver runde deler ni kort ud: tre tal med cifre, tre tal med bogstaver og tre tal skrevet ud efter pladsværdi, for tre tal af de samme cifre, for eksempel 247, 274 og 427. Barnet sætter to kort i dobbeltstativet, og hvert kort hælder sine hundreder, tiere og enere i sine egne tre glasrør. To kort klikker kun sammen, når alle tre par rør står lige højt.",
+        "Et tal med bogstaver hælder i matteret glas: Man ser væsken komme, men ikke hvor højt den står, så det er stadig barnets opgave at læse ordet. Ordet hælder også i den rækkefølge, det nævner pladserne: I tohundrede og fireoghalvfjerds kommer enerne før tierne. Når kortene klikker sammen, bliver glasset klart. En fejl sætter ring om det ulige rør og siger, hvad kortet med de klare rør har, for eksempel ”Tierne er ikke ens. Kortet med de klare rør har 4 tiere.” Ved den anden fejl står hver del skrevet over sit rør. Med nuller er tallene 305, 350 og 530, og 300 + 5 lader tierrøret stå tomt. Med indstillingen ”Cifrets værdi” finder barnet ud af, hvad et farvet ciffer er værd, som 7-tallet i 721 (700).",
+        "Aktiviteten følger Fælles Mål i matematik for 1.–3. klasse: at læse og skrive tal op til 1000 med cifre, med bogstaver og opdelt efter pladsværdi. Den virker uden lyd, og der er intet stopur og ingen point."
       ],
       "practices": [
-        "Forbinde et tal med cifre, dets talord og dets udvidede form",
-        "Læse tresifrede talord som nihundrede og fyrre",
-        "Skrive den udvidede form rigtigt, når en plads har et nul, som 600 + 5",
-        "Kende tal, der ligger tæt på hinanden, fra hinanden, som 208 og 280"
+        "Finde et tal med cifre, tallet med bogstaver og tallet opdelt efter pladsværdi.",
+        "Læse trecifrede tal med bogstaver, som tohundrede og fireoghalvfjerds.",
+        "Skelne mellem tal af de samme cifre, som 247 og 274.",
+        "Skrive tallet opdelt, når en plads er tom, som 300 + 5."
       ],
       "howToPlay": [
-        "Barnet kigger på kortene — tal med cifre som 562, ord som femhundrede og toogtres og udvidede former som 500 + 60 + 2.",
-        "Barnet trykker på ét kort og derefter på et andet kort, der viser det samme tal, og ser parret blive forbundet.",
-        "Find alle tre tal i runden — der er ingen timer og ingen point, så man kan tage sig god tid."
+        "Tryk på et kort for at sætte det i stativet, og tryk så på et kort mere. Tryk på et kort i stativet for at tage det ud.",
+        "Når alle tre par rør står lige højt, klikker de to kort sammen. Tryk på parret for at sætte det i stativet, og sæt så det tredje kort ved siden af.",
+        "I indstillingerne vælger du tre måder eller cifrets værdi og tal med eller uden nuller."
       ],
       "learningGoals": [
-        "Barnet kan læse og skrive tal op til 1000 med cifre, med talord og i udvidet form",
-        "Barnet kan forstå, at forskellige former kan navngive den samme værdi",
-        "Barnet styrker sin pladsværdifornemmelse, også for tal med et nul på en plads"
+        "Læse og skrive tal op til 1000 med cifre, med bogstaver og opdelt efter pladsværdi.",
+        "Se, at de samme cifre på forskellige pladser giver forskellige tal.",
+        "Forstå, at en tom plads ikke har nogen del, når tallet opdeles, som i 305 = 300 + 5."
       ]
     },
     "money.count-out.2-md-c-8": {

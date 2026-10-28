@@ -3326,25 +3326,25 @@
     },
     "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {
       "about": [
-        "El niño o la niña enlaza las tarjetas que muestran el mismo valor —el número en cifras (305), el número en palabras (trescientos cinco) y la forma desarrollada (300 + 5)— tocando una tarjeta y luego otra que coincida con su valor, hasta unir el trío. Es un juego de relacionar tarjetas de matemáticas para 2.º de primaria, interactivo, que se juega directo en el navegador, sin instalar nada y sin crear cuenta.",
-        "La idea central es que una cifra, su nombre en palabras y su forma desarrollada nombran un mismo número, y los huecos en el valor posicional son lo interesante. Números como 305 y 208 tienen un cero en las decenas, así que la forma desarrollada es 300 + 5 y no 300 + 0 + 5, y hay que leer con cuidado para enlazar 'doscientos ocho' con 208 y no con 280. Cada ronda tiene tres números distintos que resolver al mismo tiempo.",
-        "Está pensada para el nivel de 2.º de primaria, en el eje de número y operaciones de los planes y programas de estudio (SEP): leer y escribir números hasta 1000 en cifras, en palabras y en forma desarrollada. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+        "Cada ronda reparte nueve tarjetas: tres números en cifras, tres números en palabras y tres formas desarrolladas, para tres números hechos con las mismas cifras, como 247, 274 y 427. El niño pone dos tarjetas en el soporte doble, y cada tarjeta vierte sus centenas, decenas y unidades en sus propios tres tubos de vidrio. Dos tarjetas se enganchan solo cuando las tres parejas de tubos quedan a la misma altura.",
+        "Un número en palabras se vierte en vidrio esmerilado: se ve llegar el líquido, pero no su altura, así que leer doscientos setenta y cuatro sigue siendo tarea del niño. Al engancharse, el vidrio se aclara. Un error rodea el tubo desigual y dice lo que tiene la tarjeta de los tubos transparentes, por ejemplo «Las decenas no son iguales. La tarjeta de los tubos transparentes tiene 4 decenas.» En el segundo error, cada parte aparece escrita sobre su tubo. Con ceros, los números son 305, 350 y 530, y 300 + 5 deja vacío el tubo de las decenas. En el ajuste «Valor de la cifra», el niño busca cuánto vale una cifra de color, como el 7 de 721 (700).",
+        "La actividad se alinea con los planes de estudio de segundo grado: leer y escribir números hasta 1000 con cifras, con palabras y en forma desarrollada. Funciona sin sonido, y no hay cronómetro ni puntuación."
       ],
       "practices": [
-        "Enlazar una cifra, su nombre en palabras y su forma desarrollada.",
-        "Leer nombres de números de tres dígitos, como novecientos cuarenta.",
-        "Escribir bien la forma desarrollada cuando un lugar tiene cero, como 600 + 5.",
-        "Distinguir números parecidos, como 208 y 280."
+        "Relacionar un número en cifras, su nombre en palabras y su forma desarrollada.",
+        "Leer números de tres cifras en palabras, como doscientos setenta y cuatro.",
+        "Distinguir números hechos con las mismas cifras, como 247 y 274.",
+        "Escribir la forma desarrollada cuando un lugar está vacío, como 300 + 5."
       ],
       "howToPlay": [
-        "Mira las tarjetas: cifras como 562, palabras como quinientos sesenta y dos, y formas desarrolladas como 500 + 60 + 2.",
-        "Toca una tarjeta y luego otra que muestre el mismo número, y observa cómo se enlaza la pareja.",
-        "Encuentra los tres números de la ronda: no hay temporizador ni puntuación, así que tómate tu tiempo."
+        "Toca una tarjeta para ponerla en el soporte y luego toca otra. Toca una tarjeta del soporte para sacarla.",
+        "Cuando las tres parejas de tubos quedan a la misma altura, las dos tarjetas se enganchan. Toca la pareja para ponerla en el soporte y luego añade la tercera tarjeta.",
+        "En los ajustes, elige tres formas o el valor de la cifra, y números con o sin ceros."
       ],
       "learningGoals": [
-        "Leer y escribir números hasta 1000 en cifras, en palabras y en forma desarrollada.",
-        "Entender que distintas formas pueden nombrar el mismo valor.",
-        "Reforzar el sentido del valor posicional, incluso en números con un cero en algún lugar."
+        "Leer y escribir números hasta 1000 con cifras, con palabras y en forma desarrollada.",
+        "Ver que las mismas cifras en lugares distintos forman números distintos.",
+        "Entender que un lugar vacío no tiene parte en la forma desarrollada, como en 305 = 300 + 5."
       ]
     },
     "money.count-out.2-md-c-8": {

@@ -95,6 +95,10 @@ function seedScript(row) {
     // 85, 90, [95], [100], 105: the empty pad's ones flap flipped once and checked — the leap meter reads +1 beside Hopper's +5: the invention at work
     return `(function(){var t=window['FlipPadsActivity'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(2);t._render2();t._flip(2,1);t._check();}})();`;
   }
+  if (row.tool === 'twin-tubes-activity') {
+    // 247, 274, 427: 247 against 200 + 70 + 4 in the twin stand — the tens tubes stand uneven, ringed, 4 against 7: the invention at work
+    return `(function(){var t=window['TwinTubesActivity'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(0);t._render2();t._put('n0');t._put('e1');}})();`;
+  }
   if (row.tool === 'winter-piles-activity') {
     // (the tool file is winter-piles-activity but its global is SnowStackActivity) 6 rows of 3 acorns cut after rows 1 and 3 and stacked: piles of 3, 6, 9 — the extra rows stick out coral and the snow lid slides off: the invention at work
     return `(function(){var t=window['SnowStackActivity'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(7);t._render2();t._cut(1);t._cut(3);t._stack();}})();`;

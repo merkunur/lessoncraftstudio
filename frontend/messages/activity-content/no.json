@@ -990,25 +990,25 @@
     },
     "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {
       "about": [
-        "Barnet kobler sammen kortene som viser samme verdi — tallet med sifre (305), tallet med ord (trehundreogfem) og den utvidede formen (300 + 5) — ved å trykke på ett kort og deretter på et kort med samme verdi, til hele trekløveret henger sammen. Dette er et interaktivt korttilkoblingsspill i matematikk for 2. trinn som spilles rett i nettleseren — uten nedlasting og uten konto.",
-        "Den store ideen er at sifrene, tallordet og den utvidede formen alle navngir ett og samme tall — og det er ved hullene i plassverdiene at det blir spennende. Tall som 305 og 208 har et null på tierplassen, så den utvidede formen er 300 + 5 og ikke 300 + 0 + 5, og barnet må lese nøye for å koble «tohundreogåtte» til 208, ikke til 280. Hver runde har tre forskjellige tall å finne ut av på én gang.",
-        "Aktiviteten følger LK20 innenfor tall og regning — å lese og skrive tall opp til 1000 med sifre, med tallord og i utvidet form. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "Hver runde deler ut ni kort: tre tall med sifre, tre tall med bokstaver og tre tall skrevet ut etter plassverdi, for tre tall av de samme sifrene, for eksempel 247, 274 og 427. Barnet setter to kort i dobbeltstativet, og hvert kort heller hundrerne, tierne og enerne sine i sine egne tre glassrør. To kort klikker sammen bare når alle tre rørparene står like høyt.",
+        "Et tall med bokstaver heller i matt glass: Man ser væsken komme, men ikke hvor høyt den står, så det er fortsatt barnets oppgave å lese tohundreogsyttifire. Når kortene klikker sammen, blir glasset klart. En feil setter ring rundt det ujevne røret og sier hva kortet med de klare rørene har, for eksempel «Tierne er ikke like. Kortet med de klare rørene har 4 tiere.» Ved den andre feilen står hver del skrevet over røret sitt. Med nuller er tallene 305, 350 og 530, og 300 + 5 lar tierrøret stå tomt. Med innstillingen «Sifferets verdi» finner barnet ut hva et farget siffer er verdt, som 7-tallet i 721 (700).",
+        "Aktiviteten følger LK20 i matematikk for 2. trinn: å lese og skrive tall opp til 1000 med sifre, med bokstaver og delt opp etter plassverdi. Den fungerer uten lyd, og det er ingen tidtaker og ingen poeng."
       ],
       "practices": [
-        "Koble sammen sifre, tallord og utvidet form for samme tall.",
-        "Lese tresifrede tallord som nihundreogførti.",
-        "Skrive utvidet form riktig når en plass har null, som 600 + 5.",
-        "Skille tall som ligner, som 208 og 280."
+        "Finne et tall med sifre, tallet med bokstaver og tallet delt opp etter plassverdi.",
+        "Lese tresifrede tall med bokstaver, som tohundreogsyttifire.",
+        "Skille mellom tall av de samme sifrene, som 247 og 274.",
+        "Skrive tallet delt opp når en plass er tom, som 300 + 5."
       ],
       "howToPlay": [
-        "Se på kortene — sifre som 562, ord som femhundreogsekstito og utvidede former som 500 + 60 + 2.",
-        "Trykk på ett kort, trykk så på et annet kort som viser samme tall, og se paret koble seg sammen.",
-        "Finn alle tre tallene i runden — det er ingen tidtaker og ingen poeng, så ta den tiden du trenger."
+        "Trykk på et kort for å sette det i stativet, og trykk så på ett til. Trykk på et kort i stativet for å ta det ut.",
+        "Når alle tre rørparene står like høyt, klikker de to kortene sammen. Trykk på paret for å sette det i stativet, og sett så det tredje kortet ved siden av.",
+        "I innstillingene velger du tre måter eller sifferets verdi, og tall med eller uten nuller."
       ],
       "learningGoals": [
-        "Barnet kan lese og skrive tall opp til 1000 med sifre, tallord og i utvidet form.",
-        "Barnet forstår at ulike former kan navngi samme verdi.",
-        "Barnet styrker plassverdiforståelsen, også for tall med null på en plass."
+        "Lese og skrive tall opp til 1000 med sifre, med bokstaver og delt opp etter plassverdi.",
+        "Se at de samme sifrene på ulike plasser gir ulike tall.",
+        "Forstå at en tom plass ikke har noen del når tallet deles opp, som i 305 = 300 + 5."
       ]
     },
     "money.count-out.2-md-c-8": {

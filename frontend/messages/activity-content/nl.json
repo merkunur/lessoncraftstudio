@@ -3986,25 +3986,25 @@
     },
     "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {
       "about": [
-        "Je kind verbindt de kaarten die hetzelfde getal tonen — het getal in cijfers (305), in woorden (driehonderdvijf) en in de uitgebreide vorm (300 + 5) — door op een kaart te tikken en daarna op een kaart met dezelfde waarde, tot het drietal aan elkaar is gekoppeld. Het is een interactief rekenspel voor groep 4 dat zonder installeren en zonder account in de browser speelt.",
-        "Het grote idee is dat een getal in cijfers, zijn getalnaam en zijn uitgebreide vorm allemaal hetzelfde getal benoemen — en juist bij de gaten in de plaatswaarde wordt het interessant. Getallen als 305 en 208 hebben een nul op de plaats van de tientallen, dus de uitgebreide vorm is 300 + 5 en niet 300 + 0 + 5, en je kind moet goed lezen om 'tweehonderdacht' aan 208 te koppelen en niet aan 280. Elke ronde heeft drie verschillende getallen om tegelijk uit te zoeken.",
-        "De activiteit sluit aan bij de kerndoelen binnen het domein Getallen en bewerkingen en bij kinderen in groep 4: getallen tot 1000 lezen en schrijven in cijfers, in woorden en in uitgebreide vorm. Geen timer, geen score — gewoon rustig zoeken en koppelen."
+        "Elke ronde deelt negen kaarten uit: drie getallen in cijfers, drie getallen in woorden en drie splitsingen naar plaatswaarde, voor drie getallen met dezelfde cijfers, zoals 247, 274 en 427. Het kind zet twee kaarten in het dubbele rek, en elke kaart giet haar honderdtallen, tientallen en eenheden in haar eigen drie glazen buisjes. Twee kaarten klikken pas aan elkaar als alle drie de paren buisjes even hoog staan.",
+        "Een getal in woorden giet in matglas: je ziet de vloeistof komen, maar niet hoe hoog ze staat, dus het lezen blijft het werk van het kind. Het woord giet ook in de volgorde waarin het de plaatsen noemt: bij tweehonderdvierenzeventig komen de eenheden vóór de tientallen. Klikken de kaarten aan elkaar, dan wordt het glas helder. Een fout omcirkelt het ongelijke buisje en zegt wat de kaart met de heldere buisjes heeft, bijvoorbeeld 'De tientallen zijn niet gelijk. De kaart met de heldere buisjes heeft 4 tientallen.' Bij de tweede fout staat elk deel boven zijn buisje. Met nullen zijn de getallen 305, 350 en 530, en bij 300 + 5 blijft het buisje van de tientallen leeg. Met de instelling 'Waarde van het cijfer' zoekt het kind hoeveel een gekleurd cijfer waard is, zoals de 7 in 721 (700).",
+        "De activiteit sluit aan bij de SLO-kerndoelen rekenen-wiskunde; in groep 4: getallen tot 1000 lezen en schrijven in cijfers, in woorden en gesplitst naar plaatswaarde. Ze werkt zonder geluid, en er is geen timer en geen score."
       ],
       "practices": [
-        "Een getal in cijfers, de getalnaam en de uitgebreide vorm aan elkaar koppelen",
-        "Getalwoorden van drie cijfers lezen, zoals negenhonderdveertig",
-        "De uitgebreide vorm goed schrijven als er een nul op een plaats staat, zoals 600 + 5",
-        "Getallen die op elkaar lijken uit elkaar houden, zoals 208 en 280"
+        "Een getal in cijfers, het getal in woorden en de splitsing bij elkaar zoeken.",
+        "Driecijferige getallen in woorden lezen, zoals tweehonderdvierenzeventig.",
+        "Getallen met dezelfde cijfers uit elkaar houden, zoals 247 en 274.",
+        "De splitsing schrijven als een plaats leeg is, zoals 300 + 5."
       ],
       "howToPlay": [
-        "Bekijk de kaarten — cijfers zoals 562, woorden zoals vijfhonderdtweeënzestig en uitgebreide vormen zoals 500 + 60 + 2.",
-        "Tik op een kaart en daarna op een andere kaart met hetzelfde getal, en zie het paar verbinden.",
-        "Vind alle drie de getallen in de ronde — er is geen timer en geen score, dus neem rustig de tijd."
+        "Tik op een kaart om haar in het rek te zetten en tik dan op een tweede. Tik op een kaart in het rek om haar eruit te halen.",
+        "Staan alle drie de paren buisjes even hoog, dan klikken de twee kaarten aan elkaar. Tik op het paar om het in het rek te zetten en voeg dan de derde kaart toe.",
+        "Kies in de instellingen drie manieren of de waarde van het cijfer, en getallen met of zonder nullen."
       ],
       "learningGoals": [
-        "Je kind leest en schrijft getallen tot 1000 in cijfers, in woorden en in uitgebreide vorm.",
-        "Je kind begrijpt dat verschillende vormen hetzelfde getal kunnen benoemen.",
-        "Je kind versterkt het plaatswaardegevoel, ook bij getallen met een nul op een plaats."
+        "Getallen tot 1000 lezen en schrijven in cijfers, in woorden en gesplitst naar plaatswaarde.",
+        "Zien dat dezelfde cijfers op andere plaatsen andere getallen maken.",
+        "Begrijpen dat een lege plaats geen deel heeft in de splitsing, zoals bij 305 = 300 + 5."
       ]
     },
     "money.count-out.2-md-c-8": {

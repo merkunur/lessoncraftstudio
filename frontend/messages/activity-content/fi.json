@@ -506,25 +506,25 @@
     },
     "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {
       "about": [
-        "Lapsi yhdistää kortit, joilla on sama luku — luku numeroin (305), luku sanoin (kolmesataaviisi) ja hajautettuna muotona (300 + 5) — napauttamalla yhtä korttia ja sitten korttia, jolla on sama arvo, kunnes kolmikko on liitetty yhteen. Tämä vuorovaikutteinen 2. luokan korttipeli toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
-        "Tärkein oivallus on, että numeroin kirjoitettu luku, sen nimi sanoin ja sen hajautettu muoto tarkoittavat kaikki samaa lukua — ja juuri paikka-arvojen tyhjät kohdat tekevät tehtävästä kiinnostavan. Luvuissa kuten 305 ja 208 on nolla kymmenten paikalla, joten hajautettu muoto on 300 + 5 eikä 300 + 0 + 5, ja lapsen on luettava tarkasti yhdistääkseen \"kaksisataakahdeksan\" lukuun 208 eikä 280. Joka kierroksella on kolme eri lukua selvitettävänä yhtä aikaa.",
-        "Tehtävä on OPS 2014:n mukainen 2. luokan matematiikkaa — lapsi lukee ja kirjoittaa lukuja tuhanteen asti numeroin, sanoin ja hajautetussa muodossa. Ei ajastinta, ei pisteitä."
+        "Joka kierroksella jaetaan yhdeksän korttia: kolme lukua numeroin, kolme lukua sanoin ja kolme lukua hajotelmana, kolmelle luvulle, joissa on samat numerot, esimerkiksi 247, 274 ja 427. Lapsi laittaa kaksi korttia kaksoistelineeseen, ja kumpikin kortti kaataa sadat, kymmenet ja ykköset omiin kolmeen lasiputkeensa. Kaksi korttia napsahtaa yhteen vain, kun kaikki kolme putkiparia ovat yhtä korkealla.",
+        "Sanoin kirjoitetun luvun neste valuu himmeään lasiin: nesteen näkee tulevan, mutta ei sitä, kuinka korkealle se nousee, joten luvun kaksisataaseitsemänkymmentäneljä lukeminen jää lapsen tehtäväksi. Kun kortit napsahtavat yhteen, lasi kirkastuu. Virhe ympyröi eriparisen putken ja kertoo, mitä kirkkaiden putkien kortissa on, esimerkiksi ”Kymmenet eivät ole samat. Kirkkaiden putkien kortissa on 4 kymmentä.” Toisella virheellä jokainen osa kirjoitetaan putkensa yläpuolelle. Nollien kanssa luvut ovat 305, 350 ja 530, ja 300 + 5 jättää kymmenten putken tyhjäksi. Asetuksella ”Numeron arvo” lapsi etsii, paljonko värillinen numero on arvoltaan, kuten 7 luvussa 721 (700).",
+        "Tehtävä noudattaa OPS 2014:n matematiikkaa vuosiluokille 1–2: lukujen lukemista ja kirjoittamista tuhanteen asti numeroin, sanoin ja hajotelmana. Se toimii ilman ääntä, eikä siinä ole ajastinta eikä pisteitä."
       ],
       "practices": [
-        "Yhdistää numeroin kirjoitetun luvun, sen nimen sanoin ja sen hajautetun muodon.",
-        "Lukee kolminumeroisia lukuja sanoin, kuten yhdeksänsataaneljäkymmentä.",
-        "Kirjoittaa hajautetun muodon oikein, kun jollakin paikalla on nolla, kuten 600 + 5.",
-        "Erottaa lähekkäiset luvut toisistaan, kuten 208 ja 280."
+        "Yhdistää luku numeroin, sama luku sanoin ja sen hajotelma.",
+        "Lukea kolminumeroisia lukuja sanoin, kuten kaksisataaseitsemänkymmentäneljä.",
+        "Erottaa luvut, joissa on samat numerot, kuten 247 ja 274.",
+        "Kirjoittaa hajotelma, kun jokin paikka on tyhjä, kuten 300 + 5."
       ],
       "howToPlay": [
-        "Katso kortteja — numeroita kuten 562, sanoja kuten viisisataakuusikymmentäkaksi ja hajautettuja muotoja kuten 500 + 60 + 2.",
-        "Napauta yhtä korttia ja sitten toista korttia, jolla on sama luku, ja katso, miten pari yhdistyy.",
-        "Etsi kierroksen kaikki kolme lukua — ei ajastinta eikä pisteitä, joten ota rauhassa aikaa."
+        "Napauta korttia laittaaksesi sen telineeseen ja napauta sitten toista. Napauta telineessä olevaa korttia ottaaksesi sen pois.",
+        "Kun kaikki kolme putkiparia ovat yhtä korkealla, kortit napsahtavat yhteen. Napauta paria laittaaksesi sen telineeseen ja lisää sitten kolmas kortti.",
+        "Asetuksista valitset kolme tapaa tai numeron arvon sekä luvut nollien kanssa tai ilman nollia."
       ],
       "learningGoals": [
-        "Lapsi osaa lukea ja kirjoittaa lukuja tuhanteen asti numeroin, sanoin ja hajautetussa muodossa.",
-        "Lapsi ymmärtää, että eri esitysmuodot voivat tarkoittaa samaa lukua.",
-        "Lapsi vahvistaa paikka-arvon tajua myös luvuissa, joissa jollakin paikalla on nolla."
+        "Lukea ja kirjoittaa lukuja tuhanteen asti numeroin, sanoin ja hajotelmana.",
+        "Huomata, että samat numerot eri paikoissa muodostavat eri lukuja.",
+        "Ymmärtää, että tyhjällä paikalla ei ole osaa hajotelmassa, kuten 305 = 300 + 5."
       ]
     },
     "money.count-out.2-md-c-8": {

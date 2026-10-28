@@ -2606,25 +2606,25 @@
     },
     "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {
       "about": [
-        "Children link the cards that show the same value — the numeral (305), the number in words (three hundred five), and the expanded form (300 + 5) — tapping one card, then a card that matches its value, until the trio is connected. It's an interactive Grade 2 math card-matching game that plays right in the browser — no install, no account.",
-        "The big idea is that a numeral, its number name, and its expanded form all name one number — and the place-value gaps are where it gets interesting. Numbers like 305 and 208 have a zero in the tens place, so the expanded form is 300 + 5 rather than 300 + 0 + 5, and children must read carefully to match \"two hundred eight\" to 208, not 280. Each round has three different numbers to sort out at once.",
-        "It is aligned to Common Core 2.NBT.A.3 — reading and writing numbers to 1000 using base-ten numerals, number names, and expanded form. No timer, no score — just calm, playful practice."
+        "Each round deals nine cards: three numerals, three number names and three expanded forms, for three numbers made of the same digits, such as 247, 274 and 427. The child puts two cards in the twin stand, and each card pours its hundreds, tens and ones into its own three glass tubes. Two cards clip together only when all three pairs of tubes stand level.",
+        "A number name pours into frosted glass: you see the liquid arrive, but not how high it stands, so reading two hundred seventy-four stays the child's job. A clip melts the frost. A miss rings the uneven tube and says what the card with clear tubes has, for example \"The tens are not the same. The card with clear tubes has 4 tens.\" A second miss writes each part over its tube. With zeros, the numbers are 305, 350 and 530, and 300 + 5 leaves the tens tube empty. In the digit-values setting the child finds what a colored digit is worth, such as the 7 in 721 (700).",
+        "It is aligned to Common Core 2.NBT.A.3: read and write numbers to 1000 as base-ten numerals, number names and expanded form. It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Connect a numeral, its number name, and its expanded form",
-        "Read three-digit number words like nine hundred forty",
-        "Write expanded form correctly when a place has a zero, like 600 + 5",
-        "Tell apart close numbers such as 208 and 280"
+        "Match a numeral, its number name and its expanded form",
+        "Read three-digit number words such as two hundred seventy-four",
+        "Tell apart numbers made of the same digits, such as 247 and 274",
+        "Write expanded form when a place is empty, such as 300 + 5"
       ],
       "howToPlay": [
-        "Look at the cards — numerals like 562, words like five hundred sixty-two, and expanded forms like 500 + 60 + 2.",
-        "Tap one card, then tap another card that shows the same number, and watch the pair link.",
-        "Find all three numbers in the round — there is no timer and no score, so take your time."
+        "Tap a card to put it in the stand, then tap a second card. Tap a card in the stand to take it out.",
+        "When all three pairs of tubes stand level, the two cards clip together. Tap the clipped pair to put it in the stand, then add the third card.",
+        "In the settings, choose three ways or digit values, and numbers with or without zeros."
       ],
       "learningGoals": [
-        "Read and write numbers to 1000 as numerals, number names, and expanded form — the focus of Common Core 2.NBT.A.3",
-        "Understand that different forms can name the same value",
-        "Strengthen place-value sense, including numbers with a zero in a place"
+        "Read and write numbers to 1000 as numerals, number names and expanded form.",
+        "See that the same digits in different places make different numbers.",
+        "Understand that an empty place has no part in the expanded form, as in 305 = 300 + 5."
       ]
     },
     "mending-basket.mend-page.rf-1-4-a": {

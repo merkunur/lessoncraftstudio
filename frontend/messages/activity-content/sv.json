@@ -1099,25 +1099,25 @@
     },
     "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {
       "about": [
-        "Barnet kopplar ihop de kort som visar samma tal — talet med siffror (305), talet med ord (trehundrafem) och den utvecklade formen (300 + 5) — genom att trycka på ett kort och sedan på det kort som visar samma värde, tills hela trion är ihopkopplad. Det är ett interaktivt matchningsspel i matte för årskurs 2 som körs direkt i webbläsaren — utan installation och utan konto.",
-        "Den stora idén är att en siffersymbol, ett talord och en utvecklad form alla namnger ett och samma tal — och det är vid platsvärdets luckor som det blir spännande. Tal som 305 och 208 har en nolla på tiotalsplatsen, så den utvecklade formen blir 300 + 5 i stället för 300 + 0 + 5, och barnet måste läsa noga för att para ihop \"tvåhundraåtta\" med 208 och inte med 280. Varje runda har tre olika tal att reda ut samtidigt.",
-        "Aktiviteten följer Lgr22 inom taluppfattning: att läsa och skriva tal upp till 1000 med siffror, med talord och i utvecklad form. Ingen timer och inga poäng — bara lugn och lekfull övning."
+        "Varje omgång delar ut nio kort: tre tal i siffror, tre tal i ord och tre tal i utvecklad form, för tre tal av samma siffror, till exempel 247, 274 och 427. Barnet sätter två kort i det dubbla stativet, och varje kort häller sina hundratal, tiotal och ental i sina egna tre glasrör. Två kort klickar ihop bara när alla tre rörparen står lika högt.",
+        "Ett tal i ord häller i frostat glas: man ser vätskan komma men inte hur högt den står, så att läsa tvåhundrasjuttiofyra är fortfarande barnets uppgift. När korten klickar ihop blir glaset klart. Ett fel ringar in det ojämna röret och säger vad kortet med de klara rören har, till exempel ”Tiotalen är inte lika. Kortet med de klara rören har 4 tiotal.” Vid det andra felet står varje del skriven över sitt rör. Med nollor är talen 305, 350 och 530, och 300 + 5 lämnar tiotalsröret tomt. Med inställningen ”Siffrans värde” letar barnet efter vad en färgad siffra är värd, som 7:an i 721 (700).",
+        "Aktiviteten följer Lgr22 i matematik för årskurs 1–3: att läsa och skriva tal upp till 1000 med siffror, med ord och i utvecklad form. Den fungerar utan ljud, och det finns ingen tidtagning och inga poäng."
       ],
       "practices": [
-        "Koppla ihop en siffersymbol, dess talord och dess utvecklade form",
-        "Läsa tresiffriga talord som niohundrafyrtio",
-        "Skriva den utvecklade formen rätt när en plats har en nolla, som 600 + 5",
-        "Skilja på närliggande tal som 208 och 280"
+        "Para ihop ett tal i siffror, talet i ord och talet i utvecklad form.",
+        "Läsa tresiffriga tal i ord, som tvåhundrasjuttiofyra.",
+        "Skilja på tal av samma siffror, som 247 och 274.",
+        "Skriva utvecklad form när en position är tom, som 300 + 5."
       ],
       "howToPlay": [
-        "Barnet tittar på korten — siffror som 562, ord som femhundrasextiotvå och utvecklade former som 500 + 60 + 2.",
-        "Det trycker på ett kort och sedan på ett annat kort som visar samma tal, och ser hur paret kopplas ihop.",
-        "Hitta alla tre talen i rundan — det finns ingen timer och inga poäng, så ta god tid på dig."
+        "Tryck på ett kort för att sätta det i stativet och tryck sedan på ett till. Tryck på ett kort i stativet för att ta ut det.",
+        "När alla tre rörparen står lika högt klickar de två korten ihop. Tryck på paret för att sätta det i stativet och lägg sedan till det tredje kortet.",
+        "I inställningarna väljer du tre sätt eller siffrans värde, och tal med eller utan nollor."
       ],
       "learningGoals": [
-        "Barnet kan läsa och skriva tal upp till 1000 med siffror, talord och i utvecklad form",
-        "Barnet förstår att olika former kan namnge samma värde",
-        "Barnet stärker sin platsvärdesförståelse, även för tal med en nolla på en plats"
+        "Läsa och skriva tal upp till 1000 med siffror, med ord och i utvecklad form.",
+        "Se att samma siffror i olika positioner bildar olika tal.",
+        "Förstå att en tom position inte har någon del i den utvecklade formen, som i 305 = 300 + 5."
       ]
     },
     "money.count-out.2-md-c-8": {

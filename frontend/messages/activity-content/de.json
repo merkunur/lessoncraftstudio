@@ -3772,25 +3772,25 @@
     },
     "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {
       "about": [
-        "Kinder verbinden die Karten, die denselben Wert zeigen — die Ziffer (305), die Zahl in Worten (dreihundertfünf) und die Stellenwertschreibweise (300 + 5). Sie tippen auf eine Karte und dann auf eine Karte, die zum gleichen Wert passt, bis das Dreier-Paar verbunden ist. Das interaktive Mathe-Kartenspiel für die 2. Klasse läuft direkt im Browser — ohne Installation, ohne Konto.",
-        "Der Kern dieser Übung ist, dass eine Ziffer, ihr Zahlwort und ihre Stellenwertschreibweise alle dieselbe Zahl benennen — und gerade die leeren Stellen machen es spannend. Bei Zahlen wie 305 und 208 steht an der Zehnerstelle eine Null, sodass die Stellenwertschreibweise 300 + 5 lautet und nicht 300 + 0 + 5. Das Kind muss genau lesen, um „zweihundertacht“ der 208 zuzuordnen und nicht der 280. In jeder Runde gibt es drei verschiedene Zahlen gleichzeitig zu sortieren.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Stellenwert für die 2. Klasse ausgerichtet — Zahlen bis 1000 als Ziffern, als Zahlwörter und in Stellenwertschreibweise lesen und schreiben. Es gibt keinen Timer und keine Punktewertung, nur ruhiges, spielerisches Üben."
+        "Jede Runde teilt neun Karten aus: drei Zahlen in Ziffern, drei Zahlwörter und drei Zerlegungen (wie 200 + 70 + 4), für drei Zahlen aus denselben Ziffern, etwa 247, 274 und 427. Das Kind legt zwei Karten in den Doppelständer, und jede Karte gießt ihre Hunderter, Zehner und Einer in ihre eigenen drei Glasröhren. Zwei Karten klicken nur zusammen, wenn alle drei Röhrenpaare gleich hoch stehen.",
+        "Ein Zahlwort gießt in Milchglas: Man sieht die Flüssigkeit ankommen, aber nicht, wie hoch sie steht. Das Lesen bleibt also Sache des Kindes. Das Zahlwort gießt außerdem in der Reihenfolge, in der es die Stellen nennt: Bei zweihundertvierundsiebzig kommen die Einer vor den Zehnern. Klicken die Karten zusammen, verschwindet das Milchglas. Ein Fehler kreist die ungleiche Röhre ein und sagt, was die Karte mit den klaren Röhren hat, zum Beispiel „Die Zehner sind nicht gleich. Die Karte mit den klaren Röhren hat 4 Zehner.“ Beim zweiten Fehler steht jeder Teil über seiner Röhre. Mit Nullen heißen die Zahlen 305, 350 und 530, und bei 300 + 5 bleibt die Zehnerröhre leer. In der Einstellung „Wert der Ziffer“ sucht das Kind, wie viel eine farbige Ziffer wert ist, etwa die 7 in 721 (700).",
+        "Die Aktivität ist an den Lehrplänen für die 2. Klasse im Bereich Zahlen und Operationen ausgerichtet: Zahlen bis 1000 in Ziffern, als Zahlwort und als Zerlegung lesen und schreiben. Sie funktioniert ohne Ton, und es gibt keinen Timer und keine Punkte."
       ],
       "practices": [
-        "Eine Ziffer, ihr Zahlwort und ihre Stellenwertschreibweise verbinden.",
-        "Dreistellige Zahlwörter wie neunhundertvierzig lesen.",
-        "Die Stellenwertschreibweise richtig schreiben, wenn eine Stelle eine Null hat, etwa 600 + 5.",
-        "Nah beieinander liegende Zahlen wie 208 und 280 auseinanderhalten."
+        "Eine Zahl in Ziffern, ihr Zahlwort und ihre Zerlegung zusammenbringen.",
+        "Dreistellige Zahlwörter wie zweihundertvierundsiebzig lesen.",
+        "Zahlen aus denselben Ziffern unterscheiden, etwa 247 und 274.",
+        "Die Zerlegung schreiben, wenn eine Stelle leer ist, etwa 300 + 5."
       ],
       "howToPlay": [
-        "Schau dir die Karten an — Ziffern wie 562, Wörter wie fünfhundertzweiundsechzig und Stellenwertschreibweisen wie 500 + 60 + 2.",
-        "Tippe auf eine Karte und dann auf eine andere Karte, die dieselbe Zahl zeigt, und sieh zu, wie sich das Paar verbindet.",
-        "Finde alle drei Zahlen der Runde — es gibt keinen Timer und keine Punkte, also lass dir Zeit."
+        "Tippe auf eine Karte, um sie in den Ständer zu legen, dann auf eine zweite. Tippe auf eine Karte im Ständer, um sie herauszunehmen.",
+        "Stehen alle drei Röhrenpaare gleich hoch, klicken die zwei Karten zusammen. Tippe auf das Paar, um es in den Ständer zu legen, und lege dann die dritte Karte dazu.",
+        "In den Einstellungen wählst du drei Arten oder den Wert der Ziffer und Zahlen mit oder ohne Nullen."
       ],
       "learningGoals": [
-        "Zahlen bis 1000 als Ziffern, als Zahlwörter und in Stellenwertschreibweise lesen und schreiben.",
-        "Verstehen, dass verschiedene Schreibweisen denselben Wert benennen können.",
-        "Das Stellenwertverständnis stärken, auch bei Zahlen mit einer Null an einer Stelle."
+        "Zahlen bis 1000 in Ziffern, als Zahlwort und als Zerlegung lesen und schreiben.",
+        "Erkennen, dass dieselben Ziffern an anderen Stellen andere Zahlen ergeben.",
+        "Verstehen, dass eine Null in der Zerlegung keinen Summanden bekommt, wie bei 305 = 300 + 5."
       ]
     },
     "money.count-out.2-md-c-8": {

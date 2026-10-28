@@ -1762,25 +1762,25 @@
     },
     "match-pairs.three-ways-to-show-a-number.2-nbt-a-3": {
       "about": [
-        "A criança liga as cartas que mostram o mesmo valor — o número em algarismos (305), o número por extenso (trezentos e cinco) e a forma decomposta (300 + 5) — tocando em uma carta e depois em outra que tem o mesmo valor, até ligar o trio. É um jogo de combinar cartas de matemática interativo para o 2º ano, que funciona direto no navegador, sem instalar nada e sem conta.",
-        "A grande ideia é que o algarismo, o nome do número e a forma decomposta são, todos, jeitos de escrever um mesmo número — e os buracos do valor posicional são onde fica mais interessante. Números como 305 e 208 têm um zero na casa das dezenas, então a forma decomposta é 300 + 5, e não 300 + 0 + 5, e a criança precisa ler com atenção para combinar 'duzentos e oito' com 208, e não com 280. Cada rodada traz três números diferentes para resolver ao mesmo tempo.",
-        "A atividade está alinhada à BNCC, na unidade temática Números, no trabalho de ler e escrever números até 1000 em algarismos, por extenso e na forma decomposta. Sem cronômetro e sem pontuação — só uma prática calma e divertida."
+        "Cada rodada distribui nove cartas: três números com algarismos, três números por extenso e três decomposições, para três números feitos dos mesmos algarismos, como 247, 274 e 427. A criança coloca duas cartas no suporte duplo, e cada carta despeja suas centenas, dezenas e unidades nos seus três tubos de vidro. Duas cartas só se prendem quando os três pares de tubos ficam na mesma altura.",
+        "Um número por extenso é despejado em vidro fosco: dá para ver o líquido chegar, mas não a sua altura, então ler duzentos e setenta e quatro continua sendo tarefa da criança. Quando as cartas se prendem, o vidro fica transparente. Um erro circula o tubo desigual e diz o que tem a carta dos tubos transparentes, por exemplo \"As dezenas não são iguais. A carta dos tubos transparentes tem 4 dezenas.\" No segundo erro, cada parte aparece escrita sobre o seu tubo. Com zeros, os números são 305, 350 e 530, e 300 + 5 deixa vazio o tubo das dezenas. Na opção \"Valor do algarismo\", a criança descobre quanto vale um algarismo destacado, como o 7 de 721 (700).",
+        "A atividade está alinhada à BNCC do 2º ano: ler e escrever números até 1000 com algarismos, por extenso e na forma decomposta. Funciona sem som, e não há cronômetro nem pontuação."
       ],
       "practices": [
-        "Ligar um número em algarismos, o seu nome por extenso e a sua forma decomposta.",
-        "Ler números de três algarismos por extenso, como novecentos e quarenta.",
-        "Escrever a forma decomposta certinho quando há um zero numa casa, como 600 + 5.",
-        "Diferenciar números parecidos, como 208 e 280."
+        "Relacionar um número com algarismos, sua escrita por extenso e sua decomposição.",
+        "Ler números de três algarismos por extenso, como duzentos e setenta e quatro.",
+        "Diferenciar números feitos dos mesmos algarismos, como 247 e 274.",
+        "Escrever a decomposição quando uma ordem está vazia, como 300 + 5."
       ],
       "howToPlay": [
-        "Olhe as cartas — algarismos como 562, palavras como quinhentos e sessenta e dois, e formas decompostas como 500 + 60 + 2.",
-        "Toque em uma carta e depois em outra que mostra o mesmo número, e veja o par se ligar.",
-        "Encontre os três números da rodada — não há cronômetro nem pontuação, então pode ir com calma."
+        "Toque em uma carta para colocá-la no suporte e depois em outra. Toque em uma carta do suporte para tirá-la.",
+        "Quando os três pares de tubos ficam na mesma altura, as duas cartas se prendem. Toque no par para colocá-lo no suporte e depois junte a terceira carta.",
+        "Nas configurações, escolha três jeitos ou o valor do algarismo, e números com ou sem zeros."
       ],
       "learningGoals": [
-        "Ler e escrever números até 1000 em algarismos, por extenso e na forma decomposta.",
-        "Entender que formas diferentes podem nomear o mesmo valor.",
-        "Fortalecer a noção de valor posicional, inclusive em números com um zero numa casa."
+        "Ler e escrever números até 1000 com algarismos, por extenso e na forma decomposta.",
+        "Perceber que os mesmos algarismos em ordens diferentes formam números diferentes.",
+        "Entender que uma ordem vazia não tem parte na decomposição, como em 305 = 300 + 5."
       ]
     },
     "money.count-out.2-md-c-8": {

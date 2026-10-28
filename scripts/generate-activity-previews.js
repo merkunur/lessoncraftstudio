@@ -107,6 +107,10 @@ function seedScript(row) {
     // 160 + 50: ten of the eleven rods stacked on the vice's bed — the square gauge exactly covered, one rod still in the tens column: the invention at work
     return `(function(){var t=window['SquareViceActivity'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(0);t._render2();t._bay('T',10);}})();`;
   }
+  if (row.tool === 'deciding-gate-activity') {
+    // the invention at work: 389 vs 412 — the race stops at the hundreds gate, the bar in front of 389, the long view
+    return `(function(){var t=window['DecidingGateActivity'];if(!t||!t.api)return;t.FAST=true;t.OK_MS=600000;t.api.settings.job='compare';t.api.settings.digits='three';t._pool=null;t._ensurePool();t._start(0);t._render2();t._predict(0);t._sign('<');t._check();})();`;
+  }
   if (row.tool === 'value-keys-activity') {
     // the invention at work: 305 made with 300 and 5 — no key in the tens, the tape prints 300 + 5
     return `(function(){var t=window['ValueKeysActivity'];if(!t||!t.api)return;t.FAST=true;t.OK_MS=600000;t.api.settings.job='make';t.api.settings.numbers='three';t._pool=null;t._ensurePool();var k=t._pool.findIndex(function(r){return r.n===305});t._start(k);t._render2();t._press('h',3);t._press('o',5);t._crank();})();`;

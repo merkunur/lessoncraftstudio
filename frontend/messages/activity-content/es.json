@@ -3800,25 +3800,25 @@
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {
       "about": [
-        "Tu hijo o hija lee una comparación como 247 ___ 274 o 583 ___ 419 y la relaciona con el símbolo que la hace verdadera —menor que (<) o mayor que (>)— tocando la tarjeta de la comparación y luego el símbolo correcto. Es un juego de relacionar tarjetas, interactivo, de matemáticas para 2.º de primaria que se juega directamente en el navegador, sin instalar nada y sin crear cuenta.",
-        "La idea central es comparar por el valor posicional, empezando por las centenas. Las parejas están elegidas para que no baste una mirada rápida: números como 655 y 658 comparten las mismas centenas y decenas, así que decide la cifra de las unidades, mientras que 480 y 408 obligan a fijarse en las decenas. Trabajar de izquierda a derecha —centenas, luego decenas y por último unidades— es justo el razonamiento que la actividad pone a practicar.",
-        "Está alineada con los planes y programas de estudio (SEP): comparar dos números de tres cifras usando >, = y < según el valor de las centenas, las decenas y las unidades. Sin temporizador y sin puntajes, con un ritmo tranquilo y juguetón."
+        "En «La puerta decisiva», dos números corren por una puerta para cada lugar, primero el lugar más grande. En cada puerta sus cifras aparecen como bloques de verdad (placas para las centenas, barras para las decenas, cubos para las unidades), y las cifras iguales dejan pasar a los dos números. En la primera puerta donde las cifras son distintas, la barrera baja frente al número menor. Antes de la carrera, el niño toca la puerta que cree que va a decidir, o la bandera de meta si los números son iguales, y luego pone <, = o > en el cuadro.",
+        "Con 389 y 412 la carrera se acaba en la primera puerta: tres placas contra cuatro, así que el 8 y el 9, tan grandes, ni siquiera llegan a competir. Las cifras invertidas, como 247 y 274, se separan en la puerta de las decenas, y 504 y 504 corren hasta la bandera. Un error recibe la respuesta de la propia carrera: la barrera baja donde la carrera realmente se decidió, y después de un segundo error las cifras decisivas crecen y la pista las nombra como bloques, por ejemplo 3 centenas contra 4 centenas. En la tarea de ordenar cuatro, el niño pone cuatro números en un podio de cuatro escalones, del menor al mayor. Al acertar, los números aparecen como longitudes reales en una regla de 0 a 1000 (hasta 10 000 con cuatro cifras).",
+        "La actividad sigue los planes y programas de la SEP para segundo grado: comparar números hasta 1000 y usar los signos >, = y <; la opción de cuatro cifras llega hasta 10 000. Funciona sin sonido, sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Comparar números de tres cifras mirando primero las centenas, luego las decenas y por último las unidades.",
-        "Elegir el símbolo correcto, < o >, para que la comparación sea verdadera.",
-        "Distinguir números cercanos como 655 y 658 por la cifra que decide.",
-        "Leer y razonar el valor posicional en números hasta 1000."
+        "Comparar números de tres cifras desde el lugar más grande",
+        "Encontrar el lugar que decide una comparación",
+        "Escribir <, = o > entre dos números",
+        "Ordenar cuatro números del menor al mayor"
       ],
       "howToPlay": [
-        "Lee una tarjeta de comparación como 406 ___ 460 y decide qué número es mayor.",
-        "Toca la comparación, luego toca el símbolo —< o >— que la hace verdadera y mira cómo se enlaza la pareja.",
-        "Relaciona las dos comparaciones de la ronda: no hay temporizador ni puntaje, tómate tu tiempo."
+        "Comparar dos: toca la puerta que crees que decide la carrera, o la bandera si los números son iguales, pon un signo en el cuadro y toca Revisar.",
+        "Ordenar cuatro: toca un número y luego un escalón (o arrástralo ahí) hasta que cada escalón tenga un número, y toca Revisar.",
+        "En la configuración eliges comparar dos u ordenar cuatro, y tres o cuatro cifras."
       ],
       "learningGoals": [
-        "El niño o la niña aprende a comparar dos números de tres cifras usando >, = y <.",
-        "Tu hijo o hija usa el valor posicional, empezando por las centenas, para decidir cuál es mayor.",
-        "Se desarrolla un sentido numérico seguro con números hasta 1000."
+        "Comparar dos números de tres cifras mirando primero las centenas, luego las decenas y luego las unidades.",
+        "Saber que una centena vale más que 9 decenas y 9 unidades juntas, así que 389 es menor que 412.",
+        "Registrar una comparación con <, = o > y ordenar números del menor al mayor."
       ]
     },
     "numberbond.make-ten.k-oa-a-4": {

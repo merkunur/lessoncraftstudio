@@ -979,25 +979,25 @@
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {
       "about": [
-        "Tehtävässä lapsi lukee vertailun, kuten 247 ___ 274 tai 583 ___ 419, ja yhdistää sen symboliin, joka tekee siitä tosen — pienempi kuin (<) tai suurempi kuin (>) — napauttamalla ensin vertailukorttia ja sitten oikeaa symbolia. Tämä on vuorovaikutteinen 2. luokan matematiikan korttipeli, joka toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
-        "Tärkein ajatus on verrata paikka-arvon mukaan, sadat ensin. Parit on valittu niin, ettei lapsi voi luottaa pikaiseen vilkaisuun: luvuilla kuten 655 ja 658 on samat sadat ja kymmenet, joten ykkönen ratkaisee, kun taas 480 ja 408 pakottavat katsomaan kymmeniä. Eteneminen vasemmalta oikealle — sadat, sitten kymmenet, sitten ykköset — on juuri sitä päättelyä, jota yhdistäminen harjoituttaa.",
-        "Harjoitus on OPS 2014:n mukainen: lapsi vertaa kahta kolminumeroista lukua symboleilla >, = ja < satojen, kymmenten ja ykkösten arvon perusteella. Ei ajastinta eikä pisteitä — vain rauhallista ja leikkisää harjoittelua."
+        "Ratkaiseva portti -tehtävässä kaksi lukua kilpailee porttien läpi, yksi portti jokaiselle kohdalle, suurin kohta ensin. Jokaisessa portissa niiden numerot näkyvät oikeina palikoina (satalevyt, kymmensauvat ja ykköskuutiot), ja samat numerot päästävät molemmat luvut läpi. Ensimmäisessä portissa, jossa numerot eroavat, puomi laskeutuu pienemmän luvun eteen. Ennen kisaa lapsi napauttaa porttia, jonka arvelee ratkaisevan, tai maalilippua, jos luvut ovat yhtä suuret, ja laittaa sitten ruutuun <, = tai >.",
+        "Luvuilla 389 ja 412 kisa loppuu jo ensimmäiseen porttiin: kolme levyä neljää vastaan, joten isot numerot 8 ja 9 eivät pääse edes mukaan. Paikkaa vaihtaneet numerot, kuten luvuissa 247 ja 274, erottuvat kymmenten portilla, ja 504 ja 504 ajavat lipulle asti. Virheeseen vastaa kisa itse: puomi laskeutuu siihen kohtaan, jossa kisa todella ratkesi, ja toisen virheen jälkeen ratkaisevat numerot suurenevat ja vihje nimeää ne palikoina, esimerkiksi 3 sataa vastaan 4 sataa. Tehtävässä järjestä neljä lapsi laittaa neljä lukua neliportaiselle palkintokorokkeelle pienimmästä suurimpaan. Oikean vastauksen jälkeen luvut näkyvät oikeina pituuksina viivaimella 0–1000 (nelinumeroisilla 0–10 000).",
+        "Tehtävä tukee OPS 2014 -tavoitteita 2. luokalla: lukujen vertailu lukualueella 0–1000 ja merkkien >, = ja < käyttö; nelinumeroinen asetus jatkaa lukuun 10 000 asti. Se toimii ilman ääntä, eikä siinä ole ajanottoa tai pisteitä."
       ],
       "practices": [
-        "Vertaa kolminumeroisia lukuja katsomalla ensin satoja, sitten kymmeniä ja lopuksi ykkösiä.",
-        "Valitsee oikean symbolin, < tai >, joka tekee vertailusta toden.",
-        "Erottaa lähekkäiset luvut, kuten 655 ja 658, ratkaisevan numeron perusteella.",
-        "Lukee ja päättelee paikka-arvoa tuhanteen asti."
+        "Vertailla kolminumeroisia lukuja suurimmasta kohdasta alkaen",
+        "Löytää kohta, joka ratkaisee vertailun",
+        "Kirjoittaa <, = tai > kahden luvun väliin",
+        "Järjestää neljä lukua pienimmästä suurimpaan"
       ],
       "howToPlay": [
-        "Lue vertailukortti, kuten 406 ___ 460, ja päätä, kumpi luku on suurempi.",
-        "Napauta vertailua ja sitten symbolia — < tai > — joka tekee siitä toden, ja katso, miten pari yhdistyy.",
-        "Yhdistä molemmat vertailut kierroksella — ei ajastinta eikä pisteitä, joten saat tehdä rauhassa."
+        "Vertaa kahta: napauta porttia, jonka arvelet ratkaisevan kisan, tai lippua, jos luvut ovat yhtä suuret, laita merkki ruutuun ja paina Tarkista.",
+        "Järjestä neljä: napauta lukua ja sitten porrasta (tai vedä luku sinne), kunnes jokaisella portaalla on luku, ja paina Tarkista.",
+        "Asetuksista valitset vertaa kahta tai järjestä neljä sekä kolme tai neljä numeroa."
       ],
       "learningGoals": [
-        "Lapsi vertaa kahta kolminumeroista lukua symboleilla >, = ja <.",
-        "Lapsi käyttää paikka-arvoa, sadat ensin, päättääkseen, kumpi luku on suurempi.",
-        "Lapsi kehittää varmaa lukukäsitettä tuhanteen asti."
+        "Vertailla kahta kolminumeroista lukua katsomalla ensin satoja, sitten kymmeniä ja lopuksi ykkösiä.",
+        "Tietää, että yksi sata on enemmän kuin 9 kymmentä ja 9 ykköstä yhteensä, joten 389 on pienempi kuin 412.",
+        "Merkitä vertailu merkeillä <, = tai > ja järjestää luvut pienimmästä suurimpaan."
       ]
     },
     "numberbond.make-ten.k-oa-a-4": {

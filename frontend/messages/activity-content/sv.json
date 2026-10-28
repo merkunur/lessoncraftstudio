@@ -1573,24 +1573,25 @@
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {
       "about": [
-        "Barnet läser en jämförelse som 247 ___ 274 eller 583 ___ 419 och kopplar den sedan till den symbol som gör den sann — mindre än (<) eller större än (>) — genom att trycka på jämförelsekortet och sedan på rätt symbol. Det är ett interaktivt parkopplingsspel i matematik för årskurs 2 som körs direkt i webbläsaren — ingen installation och inget konto.",
-        "Den stora idén är att jämföra med hjälp av positionssystemet, hundratalen först. Talparen är valda så att barnet inte kan klara sig på en snabb blick: tal som 655 och 658 har samma hundratal och tiotal, så entalet avgör, medan 480 och 408 tvingar fram en titt på tiotalen. Att arbeta från vänster till höger — hundratal, sedan tiotal, sedan ental — är precis det resonemang som parkopplingen får barnet att öva. Aktiviteten följer Lgr22 och tränar att jämföra tresiffriga tal med >, = och <. Ingen timer och inga poäng — bara lugn, lekfull övning."
+        "I Den avgörande grinden kör två tal genom en grind för varje position, den största positionen först. Vid varje grind står deras siffror som riktiga block (hundraplattor, tiostavar och entalskuber), och lika siffror släpper igenom båda talen. Vid den första grinden där siffrorna är olika fälls bommen framför det mindre talet. Före loppet trycker barnet på den grind som det tror avgör, eller på målflaggan om talen är lika, och sätter sedan <, = eller > i rutan.",
+        "För 389 och 412 är loppet slut redan vid första grinden: tre plattor mot fyra, så de stora siffrorna 8 och 9 får aldrig vara med. Omkastade siffror som 247 och 274 skiljs åt vid tiotalsgrinden, och 504 och 504 kör ända fram till flaggan. Ett fel besvaras av loppet självt: bommen fälls där loppet verkligen avgjordes, och efter ett andra fel blir de avgörande siffrorna stora och ledtråden nämner dem som block, till exempel 3 hundratal mot 4 hundratal. I uppgiften ordna fyra ställer barnet fyra tal på en prispall med fyra steg, från minst till störst. När det är rätt syns talen som riktiga längder på en linjal från 0 till 1000 (till 10 000 med fyra siffror).",
+        "Aktiviteten följer Lgr22 för åk 1–3 och passar i åk 3: att jämföra tal upp till 1000 och använda tecknen >, = och <; inställningen med fyra siffror går vidare upp till 10 000. Den fungerar utan ljud, och det finns ingen tidtagning och inga poäng."
       ],
       "practices": [
-        "Jämföra tresiffriga tal genom att titta på hundratalen, sedan tiotalen, sedan entalen",
-        "Välja rätt symbol, < eller >, så att jämförelsen blir sann",
-        "Skilja på tal som ligger nära varandra, som 655 och 658, med hjälp av den avgörande siffran",
-        "Läsa och resonera om positionsvärde i tal upp till 1000"
+        "Jämföra tresiffriga tal från den största positionen",
+        "Hitta positionen som avgör en jämförelse",
+        "Sätta <, = eller > mellan två tal",
+        "Ordna fyra tal från minst till störst"
       ],
       "howToPlay": [
-        "Läs ett jämförelsekort som 406 ___ 460 och avgör vilket tal som är störst.",
-        "Tryck på jämförelsen och tryck sedan på symbolen — < eller > — som gör den sann, och se hur paret kopplas ihop.",
-        "Koppla ihop båda jämförelserna i omgången — det finns ingen timer och inga poäng, så ta den tid du behöver."
+        "Jämför två: tryck på grinden du tror avgör loppet, eller på flaggan om talen är lika, sätt ett tecken i rutan och tryck på Kontrollera.",
+        "Ordna fyra: tryck på ett tal och sedan på ett steg (eller dra dit det) tills varje steg har ett tal, och tryck sedan på Kontrollera.",
+        "I inställningarna väljer du jämför två eller ordna fyra, och tre eller fyra siffror."
       ],
       "learningGoals": [
-        "Barnet kan jämföra två tresiffriga tal med symbolerna >, = och <",
-        "Barnet kan använda positionsvärdet, hundratalen först, för att avgöra vilket tal som är störst",
-        "Barnet bygger en trygg taluppfattning med tal upp till 1000"
+        "Jämföra två tresiffriga tal genom att först titta på hundratalen, sedan tiotalen och sist entalen.",
+        "Veta att ett hundratal är mer än 9 tiotal och 9 ental tillsammans, så 389 är mindre än 412.",
+        "Skriva en jämförelse med <, = eller > och ordna tal från minst till störst."
       ]
     },
     "numberbond.make-ten.k-oa-a-4": {

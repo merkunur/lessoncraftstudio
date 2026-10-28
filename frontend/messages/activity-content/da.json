@@ -529,25 +529,25 @@
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {
       "about": [
-        "Barnet læser en sammenligning som 247 ___ 274 eller 583 ___ 419 og forbinder den så med det tegn, der gør den sand — mindre end (<) eller større end (>) — ved at trykke på sammenligningskortet og derefter på det rigtige tegn. Det er et interaktivt kortspil i matematik til 2. klasse, der spiller direkte i browseren uden installation og uden konto.",
-        "Den store idé er at sammenligne ud fra pladsværdi, hundrederne først. Parrene er valgt, så barnet ikke kan klare sig med et hurtigt blik: tal som 655 og 658 har de samme hundreder og tiere, så det er enercifret, der afgør det, mens 480 og 408 tvinger barnet til at se på tierne. At arbejde fra venstre mod højre — hundreder, så tiere, så enere — er netop den tankegang, som forbindelsen af kort træner.",
-        "Aktiviteten er tilpasset Fælles Mål for matematik i 2. klasse: at sammenligne to trecifrede tal med >, = og < ud fra værdien af hundrederne, tierne og enerne. Der er ingen tid og ingen point — bare rolig, legende træning."
+        "I Den afgørende port kører to tal gennem en port for hver plads, den største plads først. Ved hver port står deres cifre som rigtige klodser (plader for hundreder, stænger for tiere og terninger for enere), og ens cifre lukker begge tal igennem. Ved den første port, hvor cifrene er forskellige, falder bommen foran det mindste tal. Før løbet trykker barnet på den port, det tror afgør det, eller på målflaget, hvis tallene er lige store, og sætter så <, = eller > i feltet.",
+        "Ved 389 og 412 er løbet slut allerede ved den første port: tre plader mod fire, så de store cifre 8 og 9 kommer slet ikke til. Byttede cifre som 247 og 274 skilles ved tierporten, og 504 og 504 kører helt frem til flaget. En fejl bliver besvaret af selve løbet: Bommen falder dér, hvor løbet virkelig blev afgjort, og efter anden fejl bliver de afgørende cifre store, og ledetråden nævner dem som klodser, for eksempel 3 hundreder mod 4 hundreder. I opgaven ordne fire stiller barnet fire tal på en sejrsskammel med fire trin, fra mindst til størst. Når det er rigtigt, vises tallene som rigtige længder på en lineal fra 0 til 1000 (til 10 000 med fire cifre).",
+        "Aktiviteten følger Fælles Mål (efter 3. klassetrin) og passer til 2. klasse: at sammenligne tal op til 1000 og bruge tegnene >, = og <; indstillingen med fire cifre fortsætter op til 10 000. Den virker uden lyd, og der er hverken tidtagning eller point."
       ],
       "practices": [
-        "Sammenligne trecifrede tal ved at se på hundrederne, så tierne og så enerne",
-        "Vælge det rigtige tegn, < eller >, så en sammenligning bliver sand",
-        "Skelne tætte tal som 655 og 658 ud fra det afgørende ciffer",
-        "Læse og ræsonnere om pladsværdi i tal op til 1000"
+        "Sammenligne trecifrede tal fra den største plads",
+        "Finde den plads, der afgør en sammenligning",
+        "Sætte <, = eller > mellem to tal",
+        "Ordne fire tal fra mindst til størst"
       ],
       "howToPlay": [
-        "Læs et sammenligningskort som 406 ___ 460, og afgør, hvilket tal der er størst.",
-        "Tryk på sammenligningen, tryk så på tegnet — < eller > — der gør den sand, og se parret blive forbundet.",
-        "Forbind begge sammenligninger i runden — der er ingen tid og ingen point, så tag dig god tid."
+        "Sammenligne to: Tryk på den port, du tror afgør løbet, eller på flaget, hvis tallene er lige store, sæt et tegn i feltet, og tryk på Tjek.",
+        "Ordne fire: Tryk på et tal og så på et trin (eller træk det derhen), indtil hvert trin har et tal, og tryk så på Tjek.",
+        "I indstillingerne vælger du sammenligne to eller ordne fire og tre eller fire cifre."
       ],
       "learningGoals": [
-        "Barnet kan sammenligne to trecifrede tal med >, = og <",
-        "Barnet kan bruge pladsværdi, hundrederne først, til at afgøre, hvilket tal der er størst",
-        "Barnet bygger en tryg talforståelse med tal op til 1000"
+        "Sammenligne to trecifrede tal ved først at se på hundrederne, så tierne og til sidst enerne.",
+        "Vide, at et hundrede er mere end 9 tiere og 9 enere tilsammen, så 389 er mindre end 412.",
+        "Skrive en sammenligning med <, = eller > og ordne tal fra mindst til størst."
       ]
     },
     "numberbond.make-ten.k-oa-a-4": {

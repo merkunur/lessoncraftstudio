@@ -1464,25 +1464,25 @@
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {
       "about": [
-        "Barnet leser en sammenligning som 247 ___ 274 eller 583 ___ 419, og kobler den til symbolet som gjør den sann — mindre enn (<) eller større enn (>) — ved å trykke på sammenligningskortet og deretter på riktig symbol. Det er et interaktivt matematikkspill med kortmatching for 2. trinn, som kjører rett i nettleseren — ingen nedlasting og ingen konto.",
-        "Den store ideen er å sammenligne ut fra plassverdi, hundrerne først. Parene er valgt slik at barnet ikke kan stole på et raskt blikk: tall som 655 og 658 har samme hundrere og tiere, så det er enerne som avgjør, mens 480 og 408 tvinger fram et blikk på tierne. Å jobbe fra venstre mot høyre — hundrere, så tiere, så enere — er nettopp den tenkningen matchingen lar barnet øve på.",
-        "Aktiviteten er tilpasset LK20 — å sammenligne to tresifrede tall med symbolene >, = og < ut fra verdien av hundrerne, tierne og enerne. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "I Den avgjørende porten kjører to tall gjennom en port for hver plass, den største plassen først. Ved hver port står sifrene deres som ekte klosser (plater for hundrere, staver for tiere og kuber for enere), og like sifre slipper begge tallene gjennom. Ved den første porten der sifrene er forskjellige, faller bommen foran det minste tallet. Før løpet trykker barnet på porten det tror avgjør, eller på målflagget hvis tallene er like, og setter så <, = eller > i ruta.",
+        "For 389 og 412 er løpet slutt allerede ved den første porten: tre plater mot fire, så de store sifrene 8 og 9 kommer aldri med. Byttede sifre som 247 og 274 skilles ved tierporten, og 504 og 504 kjører helt fram til flagget. En feil blir besvart av selve løpet: Bommen faller der løpet egentlig ble avgjort, og etter en ny feil blir de avgjørende sifrene store, og hintet nevner dem som klosser, for eksempel 3 hundrere mot 4 hundrere. I oppgaven ordne fire setter barnet fire tall på en seierspall med fire trinn, fra minst til størst. Når det er riktig, vises tallene som ekte lengder på en linjal fra 0 til 1000 (til 10 000 med fire sifre).",
+        "Aktiviteten er knyttet til LK20 (kompetansemål etter 3. trinn): å sammenligne tall opp til 1000 og bruke tegnene >, = og <; innstillingen med fire sifre går videre opp til 10 000. Den virker uten lyd, og det er verken tidtaking eller poeng."
       ],
       "practices": [
-        "Sammenligne tresifrede tall ved å se på hundrerne, så tierne, så enerne.",
-        "Velge riktig symbol, < eller >, så sammenligningen blir sann.",
-        "Skille nære tall som 655 og 658 ved hjelp av sifferet som avgjør.",
-        "Lese og resonnere om plassverdi i tall opp til 1000."
+        "Sammenligne tresifrede tall fra den største plassen",
+        "Finne plassen som avgjør en sammenligning",
+        "Sette <, = eller > mellom to tall",
+        "Ordne fire tall fra minst til størst"
       ],
       "howToPlay": [
-        "Les et sammenligningskort som 406 ___ 460 og avgjør hvilket tall som er størst.",
-        "Trykk på sammenligningen, og trykk så på symbolet — < eller > — som gjør den sann, og se paret kobles.",
-        "Koble begge sammenligningene i runden — det er ingen tidtaker og ingen poeng, så ta deg god tid."
+        "Sammenligne to: Trykk på porten du tror avgjør løpet, eller på flagget hvis tallene er like, sett et tegn i ruta, og trykk på Sjekk.",
+        "Ordne fire: Trykk på et tall og så på et trinn (eller dra det dit) til hvert trinn har et tall, og trykk så på Sjekk.",
+        "I innstillingene velger du sammenligne to eller ordne fire, og tre eller fire sifre."
       ],
       "learningGoals": [
-        "Barnet kan sammenligne to tresifrede tall med symbolene >, = og <.",
-        "Barnet kan bruke plassverdi, hundrerne først, for å avgjøre hvilket tall som er størst.",
-        "Barnet bygger trygg tallforståelse med tall opp til 1000."
+        "Sammenligne to tresifrede tall ved å se på hundrerne først, så tierne og til slutt enerne.",
+        "Vite at en hundrer er mer enn 9 tiere og 9 enere til sammen, så 389 er mindre enn 412.",
+        "Skrive en sammenligning med <, = eller > og ordne tall fra minst til størst."
       ]
     },
     "numberbond.make-ten.k-oa-a-4": {

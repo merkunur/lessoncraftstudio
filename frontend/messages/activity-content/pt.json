@@ -2236,25 +2236,25 @@
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {
       "about": [
-        "A criança lê uma comparação como 247 ___ 274 ou 583 ___ 419 e a combina com o símbolo que a deixa verdadeira — menor que (<) ou maior que (>) — tocando no cartão da comparação e depois no símbolo certo. É um jogo de combinar cartas de matemática, interativo, para o 2º ano, que roda direto no navegador, sem instalar nada e sem precisar de conta.",
-        "A grande ideia é comparar pelo valor posicional, começando pelas centenas. Os pares são escolhidos para que a criança não decida no chute: números como 655 e 658 têm as mesmas centenas e dezenas, então o algarismo das unidades é que decide, enquanto 480 e 408 obrigam a olhar as dezenas. Trabalhar da esquerda para a direita — centenas, depois dezenas, depois unidades — é exatamente o raciocínio que a atividade faz praticar.",
-        "A atividade está alinhada à BNCC, no campo dos números, ao comparar dois números de três algarismos usando os símbolos >, = e < com base no valor das centenas, das dezenas e das unidades. Sem cronômetro e sem pontuação — só uma prática calma e divertida."
+        "No jogo O portão decisivo, dois números apostam corrida passando por um portão para cada ordem, primeiro a ordem maior. Em cada portão os algarismos aparecem como blocos de verdade (placas para as centenas, barras para as dezenas, cubinhos para as unidades), e algarismos iguais deixam os dois números passarem. No primeiro portão em que os algarismos são diferentes, a cancela desce na frente do número menor. Antes da corrida, a criança toca no portão que acha que vai decidir, ou na bandeira de chegada se os números forem iguais, e depois coloca <, = ou > no quadrinho.",
+        "Com 389 e 412 a corrida acaba logo no primeiro portão: três placas contra quatro, e os algarismos grandes 8 e 9 nem chegam a correr. Algarismos trocados, como 247 e 274, se separam no portão das dezenas, e 504 e 504 vão até a bandeira. Um erro recebe a resposta da própria corrida: a cancela desce onde a corrida foi decidida de verdade, e depois de um segundo erro os algarismos decisivos crescem e a dica os nomeia como blocos, por exemplo 3 centenas contra 4 centenas. Na tarefa ordenar quatro, a criança coloca quatro números num pódio de quatro degraus, do menor para o maior. Depois do acerto, os números aparecem como comprimentos reais numa régua de 0 a 1000 (até 10 000 com quatro algarismos).",
+        "A atividade segue a BNCC para o 2º ano, na unidade temática Números: comparar números até 1000 e registrar com os sinais >, = e <; a opção de quatro algarismos vai até 10 000. Funciona sem som, sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Comparar números de três algarismos olhando as centenas, depois as dezenas e por último as unidades.",
-        "Escolher o símbolo certo, < ou >, para deixar a comparação verdadeira.",
-        "Distinguir números próximos, como 655 e 658, pelo algarismo que decide.",
-        "Ler e raciocinar sobre o valor posicional em números até 1000."
+        "Comparar números de três algarismos a partir da ordem maior",
+        "Encontrar a ordem que decide uma comparação",
+        "Escrever <, = ou > entre dois números",
+        "Ordenar quatro números do menor para o maior"
       ],
       "howToPlay": [
-        "Leia um cartão de comparação, como 406 ___ 460, e decida qual número é maior.",
-        "Toque na comparação, depois toque no símbolo — < ou > — que a deixa verdadeira, e veja o par se ligar.",
-        "Combine as duas comparações da rodada — não há cronômetro nem pontuação, então pode ir com calma."
+        "Comparar dois: toque no portão que você acha que decide a corrida, ou na bandeira se os números forem iguais, coloque um sinal no quadrinho e toque em Conferir.",
+        "Ordenar quatro: toque em um número e depois em um degrau (ou arraste até lá) até que cada degrau tenha um número, e toque em Conferir.",
+        "Nas configurações, escolha comparar dois ou ordenar quatro, e três ou quatro algarismos."
       ],
       "learningGoals": [
-        "Comparar dois números de três algarismos usando >, = e <.",
-        "Usar o valor posicional, começando pelas centenas, para decidir qual número é maior.",
-        "Construir um senso numérico seguro com números até 1000."
+        "Comparar dois números de três algarismos olhando primeiro as centenas, depois as dezenas e depois as unidades.",
+        "Saber que uma centena vale mais que 9 dezenas e 9 unidades juntas, então 389 é menor que 412.",
+        "Registrar uma comparação com <, = ou > e ordenar números do menor para o maior."
       ]
     },
     "numberbond.make-ten.k-oa-a-4": {

@@ -2744,25 +2744,25 @@
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {
       "about": [
-        "Il bambino legge un confronto come 247 ___ 274 oppure 583 ___ 419 e lo collega al simbolo che lo rende vero — minore di (<) o maggiore di (>) — toccando la carta del confronto e poi il simbolo giusto. È un gioco interattivo di abbinamento a carte per la seconda elementare, da giocare direttamente nel browser, senza installare nulla e senza account.",
-        "L'idea importante è confrontare in base al valore posizionale, partendo dalle centinaia. Le coppie sono scelte in modo che non basti uno sguardo veloce: numeri come 655 e 658 hanno le stesse centinaia e le stesse decine, quindi a decidere sono le unità, mentre 480 e 408 obbligano a guardare le decine. Procedere da sinistra a destra — prima le centinaia, poi le decine, infine le unità — è proprio il ragionamento che l'abbinamento fa esercitare.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dei numeri: confrontare due numeri a tre cifre usando >, = e < in base al valore di centinaia, decine e unità. Nessun timer e nessun punteggio."
+        "Nel gioco «La porta decisiva» due numeri corrono attraverso una porta per ogni posto, prima il posto più grande. A ogni porta le loro cifre compaiono come blocchi veri (quadrati per le centinaia, barrette per le decine, cubetti per le unità), e cifre uguali lasciano passare tutti e due i numeri. Alla prima porta in cui le cifre sono diverse, la sbarra scende davanti al numero più piccolo. Prima della gara il bambino tocca la porta che secondo lui deciderà, o la bandiera del traguardo se i numeri sono uguali, e poi mette <, = o > nella casella.",
+        "Con 389 e 412 la gara finisce già alla prima porta: tre quadrati contro quattro, e le cifre grandi 8 e 9 non arrivano nemmeno a gareggiare. Cifre scambiate come 247 e 274 si separano alla porta delle decine, e 504 e 504 corrono fino alla bandiera. A un errore risponde la gara stessa: la sbarra scende dove la gara si è decisa davvero, e dopo un secondo errore le cifre decisive diventano grandi e l’aiuto le nomina come blocchi, per esempio 3 centinaia contro 4 centinaia. Nel compito ordinare quattro il bambino mette quattro numeri su un podio di quattro gradini, dal più piccolo al più grande. Dopo la risposta giusta i numeri compaiono come lunghezze vere su un righello da 0 a 1000 (fino a 10 000 con quattro cifre).",
+        "L’attività segue le Indicazioni nazionali per la classe terza, nel nucleo Numeri: confrontare numeri entro il 1000 e usare i segni >, = e <; l’impostazione a quattro cifre arriva fino a 10 000. Funziona senza audio, senza cronometro e senza punteggi."
       ],
       "practices": [
-        "Confrontare numeri a tre cifre guardando prima le centinaia, poi le decine, infine le unità.",
-        "Scegliere il simbolo giusto, < o >, per rendere vero un confronto.",
-        "Distinguere numeri vicini come 655 e 658 dalla cifra che decide.",
-        "Leggere e ragionare sul valore posizionale dei numeri fino a 1000."
+        "Confrontare numeri di tre cifre partendo dal posto più grande",
+        "Trovare il posto che decide un confronto",
+        "Scrivere <, = o > tra due numeri",
+        "Ordinare quattro numeri dal più piccolo al più grande"
       ],
       "howToPlay": [
-        "Il bambino legge una carta del confronto come 406 ___ 460 e decide quale numero è maggiore.",
-        "Tocca il confronto, poi tocca il simbolo — < o > — che lo rende vero e guarda la coppia collegarsi.",
-        "Abbina entrambi i confronti del turno: non c'è timer e non c'è punteggio, quindi con tutta calma."
+        "Confrontare due: tocca la porta che secondo te decide la gara, o la bandiera se i numeri sono uguali, metti un segno nella casella e tocca Controlla.",
+        "Ordinare quattro: tocca un numero e poi un gradino (o trascinalo lì) finché ogni gradino ha un numero, poi tocca Controlla.",
+        "Nelle impostazioni scegli confrontare due oppure ordinare quattro, e tre o quattro cifre."
       ],
       "learningGoals": [
-        "Il bambino è in grado di confrontare due numeri a tre cifre usando >, = e <.",
-        "Impara a usare il valore posizionale, partendo dalle centinaia, per decidere quale numero è maggiore.",
-        "Costruisce un senso del numero sicuro entro il 1000."
+        "Confrontare due numeri di tre cifre guardando prima le centinaia, poi le decine, poi le unità.",
+        "Sapere che un centinaio vale più di 9 decine e 9 unità insieme, quindi 389 è minore di 412.",
+        "Registrare un confronto con <, = o > e ordinare numeri dal più piccolo al più grande."
       ]
     },
     "numberbond.make-ten.k-oa-a-4": {

@@ -819,8 +819,8 @@
   },
   {
     "id": "match-pairs.compare-three-digit-numbers.2-nbt-a-4",
-    "tool": "match-pairs-activity",
-    "task_template": "compare-3digit",
+    "tool": "deciding-gate-activity",
+    "task_template": "deciding-gate",
     "alignment": {
       "framework": "CCSS",
       "code": "2.NBT.A.4",

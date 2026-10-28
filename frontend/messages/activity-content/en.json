@@ -2510,25 +2510,25 @@
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {
       "about": [
-        "Children read a comparison like 247 ___ 274 or 583 ___ 419, then match it to the symbol that makes it true — less than (<) or greater than (>) — by tapping the comparison card and then the right symbol. It's an interactive Grade 2 math card-matching game that plays right in the browser — no install, no account.",
-        "The big idea is to compare by place value, hundreds first. Pairs are chosen so children cannot rely on a quick glance: numbers like 655 and 658 share the same hundreds and tens, so the ones digit decides, while 480 and 408 force a look at the tens. Working left to right — hundreds, then tens, then ones — is exactly the reasoning the matching makes them practice.",
-        "It is aligned to Common Core 2.NBT.A.4 — comparing two three-digit numbers using >, =, and < based on the value of the hundreds, tens, and ones. No timer, no score — just calm, playful practice."
+        "In The Deciding Gate two numbers race through one gate for each place, the biggest place first. At every gate their digits stand as real blocks (flats for hundreds, rods for tens, cubes for ones), and equal digits let both numbers through. At the first gate where the digits differ, the bar drops in front of the smaller number. Before the race the child taps the gate they think will decide, or the finish flag when the numbers are the same, then puts <, = or > in the box.",
+        "For 389 and 412 the race is over at the very first gate: three flats against four, so the big 8 and 9 never get a turn. Swapped digits such as 247 and 274 are split at the tens gate, and 504 and 504 run all the way to the flag. A wrong call is answered by the race itself: the bar falls where the race was really decided, and after a second miss the deciding digits grow and the hint names them as blocks, such as 3 hundreds against 4 hundreds. In the order four job the child puts four numbers on a four-step podium from smallest to greatest. After a win the numbers appear as true lengths on a ruler from 0 to 1000 (to 10,000 with four digits).",
+        "It is aligned to Common Core 2.NBT.A.4 (compare two three-digit numbers using >, = and <); the four-digit setting goes on to numbers up to 10,000. It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Compare three-digit numbers by looking at the hundreds, then the tens, then the ones",
-        "Choose the correct symbol, < or >, to make a comparison true",
-        "Tell apart close numbers like 655 and 658 by the deciding digit",
-        "Read and reason about place value in numbers up to 1000"
+        "Compare three-digit numbers from the biggest place down",
+        "Find the place that decides a comparison",
+        "Write <, = or > between two numbers",
+        "Order four numbers from smallest to greatest"
       ],
       "howToPlay": [
-        "Read a comparison card like 406 ___ 460 and decide which number is larger.",
-        "Tap the comparison, then tap the symbol — < or > — that makes it true, and watch the pair link.",
-        "Match both comparisons in the round — there is no timer and no score, so take your time."
+        "Compare two: tap the gate you think decides the race, or the flag if the numbers are the same, put a sign in the box, then press Check.",
+        "Order four: tap a number, then a step (or drag it there), until every step holds a number, then press Check.",
+        "In the settings, choose compare two or order four, and three or four digits."
       ],
       "learningGoals": [
-        "Compare two three-digit numbers using >, =, and < — the focus of Common Core 2.NBT.A.4",
-        "Use place value, hundreds first, to decide which number is greater",
-        "Build confident number sense with numbers up to 1000"
+        "Compare two three-digit numbers by looking at the hundreds first, then the tens, then the ones — the focus of Common Core 2.NBT.A.4.",
+        "Know that one hundred is more than 9 tens and 9 ones together, so 389 is less than 412.",
+        "Record a comparison with <, = or >, and order numbers from smallest to greatest."
       ]
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {

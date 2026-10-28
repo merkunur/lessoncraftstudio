@@ -4246,25 +4246,25 @@
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {
       "about": [
-        "Das Kind liest einen Vergleich wie 247 ___ 274 oder 583 ___ 419 und verbindet ihn mit dem Symbol, das ihn wahr macht — kleiner als (<) oder größer als (>) —, indem es die Vergleichskarte und danach das richtige Symbol antippt. Dieses interaktive Karten-Zuordnungsspiel für die 2. Klasse läuft direkt im Browser, ohne Installation und ohne Konto.",
-        "Der Kerngedanke: nach dem Stellenwert vergleichen, die Hunderter zuerst. Die Paare sind so gewählt, dass ein flüchtiger Blick nicht reicht: Zahlen wie 655 und 658 haben gleiche Hunderter und Zehner, sodass die Einerstelle entscheidet, während 480 und 408 einen Blick auf die Zehner verlangen. Von links nach rechts arbeiten — Hunderter, dann Zehner, dann Einer — ist genau das Denken, das die Zuordnung übt.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Zahlen und Operationen im Dezimalsystem ausgerichtet — zwei dreistellige Zahlen mit den Symbolen >, = und < vergleichen, ausgehend vom Wert der Hunderter, Zehner und Einer. Es gibt keinen Timer und keine Punktewertung — nur ruhiges, spielerisches Üben."
+        "In „Das entscheidende Tor“ fahren zwei Zahlen durch ein Tor für jede Stelle, die größte Stelle zuerst. An jedem Tor stehen ihre Ziffern als echte Blöcke (Hunderterplatten, Zehnerstangen, Einerwürfel), und gleiche Ziffern lassen beide Zahlen durch. Am ersten Tor, an dem sich die Ziffern unterscheiden, schließt sich die Schranke vor der kleineren Zahl. Vor dem Rennen tippt das Kind das Tor an, das seiner Meinung nach entscheidet, oder die Zielfahne, wenn die Zahlen gleich sind, und setzt dann <, = oder > in das Kästchen.",
+        "Bei 389 und 412 ist das Rennen schon am ersten Tor vorbei: drei Platten gegen vier, die großen Ziffern 8 und 9 kommen gar nicht an die Reihe. Vertauschte Ziffern wie 247 und 274 trennen sich am Zehnertor, und 504 und 504 fahren bis zur Fahne. Auf einen falschen Tipp antwortet das Rennen selbst: Die Schranke fällt dort, wo das Rennen wirklich entschieden wurde, und nach einem zweiten Fehlversuch werden die entscheidenden Ziffern groß und der Hinweis nennt sie als Blöcke, etwa 3 Hunderter gegen 4 Hunderter. Bei der Aufgabe vier ordnen stellt das Kind vier Zahlen auf ein Treppchen mit vier Stufen, von der kleinsten zur größten. Nach dem Lösen erscheinen die Zahlen als echte Längen auf einem Maßstab von 0 bis 1000 (vierstellig bis 10 000).",
+        "Die Aktivität ist an den Lehrplänen für die 3. Klasse im Bereich Zahlen und Operationen ausgerichtet: Zahlen bis 1000 vergleichen und mit <, = und > notieren; die vierstellige Einstellung führt weiter bis 10 000. Sie funktioniert ohne Ton, und es gibt keinen Timer und keine Punkte."
       ],
       "practices": [
-        "Dreistellige Zahlen vergleichen, indem man erst die Hunderter, dann die Zehner, dann die Einer betrachtet.",
-        "Das richtige Symbol < oder > wählen, das einen Vergleich wahr macht.",
-        "Eng beieinanderliegende Zahlen wie 655 und 658 an der entscheidenden Ziffer unterscheiden.",
-        "Den Stellenwert in Zahlen bis 1000 lesen und durchdenken."
+        "Dreistellige Zahlen von der größten Stelle her vergleichen",
+        "Die Stelle finden, die einen Vergleich entscheidet",
+        "<, = oder > zwischen zwei Zahlen setzen",
+        "Vier Zahlen von der kleinsten zur größten ordnen"
       ],
       "howToPlay": [
-        "Lies eine Vergleichskarte wie 406 ___ 460 und entscheide, welche Zahl größer ist.",
-        "Tippe den Vergleich an, dann das Symbol — < oder > —, das ihn wahr macht, und sieh zu, wie sich das Paar verbindet.",
-        "Verbinde beide Vergleiche der Runde — es gibt keinen Timer und keine Punkte, lass dir also Zeit."
+        "Zwei vergleichen: Tipp das Tor an, das deiner Meinung nach entscheidet, oder die Fahne, wenn die Zahlen gleich sind, setz ein Zeichen in das Kästchen und tippe auf Prüfen.",
+        "Vier ordnen: Tipp eine Zahl und dann eine Stufe an (oder zieh sie dorthin), bis auf jeder Stufe eine Zahl steht, und tippe dann auf Prüfen.",
+        "In den Einstellungen wählst du zwei vergleichen oder vier ordnen sowie dreistellig oder vierstellig."
       ],
       "learningGoals": [
-        "Zwei dreistellige Zahlen mit >, = und < vergleichen.",
-        "Den Stellenwert nutzen, die Hunderter zuerst, um zu entscheiden, welche Zahl größer ist.",
-        "Ein sicheres Zahlverständnis für Zahlen bis 1000 aufbauen."
+        "Zwei dreistellige Zahlen vergleichen: zuerst die Hunderter, dann die Zehner, dann die Einer.",
+        "Wissen, dass ein Hunderter mehr ist als 9 Zehner und 9 Einer zusammen, also ist 389 kleiner als 412.",
+        "Einen Vergleich mit <, = oder > notieren und Zahlen von der kleinsten zur größten ordnen."
       ]
     },
     "numberbond.make-ten.k-oa-a-4": {

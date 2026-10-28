@@ -3620,24 +3620,25 @@
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {
       "about": [
-        "L'enfant lit une comparaison comme 247 ___ 274 ou 583 ___ 419, puis la relie au symbole qui la rend vraie — plus petit que (<) ou plus grand que (>) — en touchant la carte de comparaison puis le bon symbole. C'est un jeu d'associations de cartes mathématiques interactif pour le CE1, qui se joue directement dans le navigateur, sans installation et sans compte.",
-        "L'idée importante, c'est de comparer par valeur de position, en commençant par les centaines. Les paires sont choisies pour qu'un simple coup d'œil ne suffise pas : 655 et 658 partagent les mêmes centaines et dizaines, c'est donc le chiffre des unités qui décide, tandis que 480 et 408 obligent à regarder les dizaines. Procéder de gauche à droite — centaines, puis dizaines, puis unités — c'est exactement le raisonnement que l'association fait pratiquer. Cette activité de comparaison de nombres à trois chiffres avec les symboles >, = et < suit les programmes officiels et se pratique sans note ni chrono."
+        "Dans La porte décisive, deux nombres font la course à travers une porte par rang, le plus grand rang d’abord. À chaque porte, leurs chiffres apparaissent en vrais blocs (plaques pour les centaines, barres pour les dizaines, cubes pour les unités), et des chiffres égaux laissent passer les deux nombres. À la première porte où les chiffres diffèrent, la barrière tombe devant le plus petit nombre. Avant la course, l’enfant touche la porte qui, d’après lui, va décider, ou le drapeau d’arrivée si les nombres sont égaux, puis place <, = ou > dans la case.",
+        "Pour 389 et 412, la course est finie dès la première porte : trois plaques contre quatre, et les grands chiffres 8 et 9 n’ont même pas leur tour. Des chiffres inversés comme 247 et 274 se départagent à la porte des dizaines, et 504 et 504 courent jusqu’au drapeau. Une erreur reçoit sa réponse de la course elle-même : la barrière tombe là où la course s’est vraiment décidée, et après une deuxième erreur, les chiffres décisifs grandissent et l’aide les nomme en blocs, comme 3 centaines contre 4 centaines. Dans la tâche ranger quatre nombres, l’enfant place quatre nombres sur un podium de quatre marches, du plus petit au plus grand. Après la réussite, les nombres apparaissent en vraies longueurs sur une règle de 0 à 1 000 (jusqu’à 10 000 avec quatre chiffres).",
+        "L’activité suit les programmes officiels du CE1 : comparer des nombres jusqu’à 1 000 et utiliser les signes <, = et > ; le réglage à quatre chiffres va jusqu’à 10 000. Elle fonctionne sans le son, sans chronomètre et sans score."
       ],
       "practices": [
-        "Comparer des nombres à trois chiffres en regardant les centaines, puis les dizaines, puis les unités.",
-        "Choisir le bon symbole, < ou >, pour rendre une comparaison vraie.",
-        "Distinguer des nombres proches comme 655 et 658 grâce au chiffre qui décide.",
-        "Lire et raisonner sur la valeur de position dans les nombres jusqu'à 1000."
+        "Comparer des nombres à trois chiffres en partant du plus grand rang",
+        "Trouver le rang qui décide d’une comparaison",
+        "Écrire <, = ou > entre deux nombres",
+        "Ranger quatre nombres du plus petit au plus grand"
       ],
       "howToPlay": [
-        "Lis une carte de comparaison comme 406 ___ 460 et décide quel nombre est le plus grand.",
-        "Touche la comparaison, puis touche le symbole — < ou > — qui la rend vraie, et regarde la paire se relier.",
-        "Relie les deux comparaisons de la partie — il n'y a ni chrono ni score, alors prends ton temps."
+        "Comparer deux nombres : touche la porte qui, d’après toi, décide la course, ou le drapeau si les nombres sont égaux, place un signe dans la case, puis touche Vérifier.",
+        "Ranger quatre nombres : touche un nombre, puis une marche (ou fais-le glisser), jusqu’à ce que chaque marche porte un nombre, puis touche Vérifier.",
+        "Dans les réglages, choisis comparer deux nombres ou ranger quatre nombres, et trois ou quatre chiffres."
       ],
       "learningGoals": [
-        "Comparer deux nombres à trois chiffres à l'aide de >, = et <.",
-        "Utiliser la valeur de position, les centaines d'abord, pour décider quel nombre est le plus grand.",
-        "Construire un sens des nombres assuré jusqu'à 1000."
+        "Comparer deux nombres à trois chiffres en regardant d’abord les centaines, puis les dizaines, puis les unités.",
+        "Savoir qu’une centaine vaut plus que 9 dizaines et 9 unités réunies, donc 389 est plus petit que 412.",
+        "Noter une comparaison avec <, = ou > et ranger des nombres du plus petit au plus grand."
       ]
     },
     "numberbond.make-ten.k-oa-a-4": {

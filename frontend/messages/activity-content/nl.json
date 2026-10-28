@@ -3288,25 +3288,25 @@
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {
       "about": [
-        "Je kind leest een vergelijking als 247 ___ 274 of 583 ___ 419 en verbindt die met het teken dat hem waar maakt — kleiner dan (<) of groter dan (>) — door op de vergelijkingskaart te tikken en daarna op het juiste teken. Het is een interactief kaartspel voor rekenen in groep 4 dat direct in de browser speelt — niets installeren, geen account.",
-        "Het grote idee is vergelijken op getalwaarde, eerst de honderdtallen. De paren zijn zo gekozen dat kinderen niet kunnen vertrouwen op één snelle blik: getallen als 655 en 658 hebben dezelfde honderdtallen en tientallen, dus het eental beslist, terwijl 480 en 408 dwingen om naar de tientallen te kijken. Van links naar rechts werken — honderdtallen, dan tientallen, dan eenheden — is precies het redeneren dat het verbinden laat oefenen.",
-        "De activiteit sluit aan bij de SLO-kerndoelen binnen het domein getallen en bewerkingen: twee getallen van drie cijfers vergelijken met de tekens >, = en < op basis van de waarde van de honderdtallen, tientallen en eenheden. Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Bij Het beslissende poortje racen twee getallen door een poortje voor elke plaats, de grootste plaats eerst. Bij elk poortje staan hun cijfers als echte blokken (platen voor honderdtallen, staven voor tientallen, blokjes voor eenheden), en gelijke cijfers laten beide getallen door. Bij het eerste poortje waar de cijfers verschillen, gaat de slagboom dicht voor het kleinere getal. Voor de race tikt het kind op het poortje dat volgens hem beslist, of op de finishvlag als de getallen gelijk zijn, en zet dan <, = of > in het vakje.",
+        "Bij 389 en 412 is de race al bij het eerste poortje voorbij: drie platen tegen vier, dus de grote 8 en 9 komen niet eens aan de beurt. Omgedraaide cijfers zoals 247 en 274 worden bij het tientalpoortje gescheiden, en 504 en 504 rijden door tot de vlag. Op een verkeerde keuze antwoordt de race zelf: de slagboom valt waar de race echt beslist werd, en na een tweede misser worden de beslissende cijfers groot en noemt de hint ze als blokken, bijvoorbeeld 3 honderdtallen tegen 4 honderdtallen. Bij de opdracht vier ordenen zet het kind vier getallen op een podium met vier treden, van klein naar groot. Na het goede antwoord verschijnen de getallen als echte lengtes op een liniaal van 0 tot 1000 (tot 10 000 met vier cijfers).",
+        "De activiteit sluit aan bij de SLO-kerndoelen en past in groep 5: getallen tot 1000 vergelijken en de tekens >, = en < gebruiken; de instelling met vier cijfers gaat door tot 10 000. Ze werkt zonder geluid, zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Getallen van drie cijfers vergelijken via de honderdtallen, dan de tientallen, dan de eenheden",
-        "Het juiste teken kiezen, < of >, om een vergelijking waar te maken",
-        "Getallen die dicht bij elkaar liggen onderscheiden, zoals 655 en 658, aan het beslissende cijfer",
-        "De getalwaarde lezen en erover redeneren bij getallen tot 1000"
+        "Getallen van drie cijfers vergelijken vanaf de grootste plaats",
+        "De plaats vinden die een vergelijking beslist",
+        "<, = of > tussen twee getallen zetten",
+        "Vier getallen ordenen van klein naar groot"
       ],
       "howToPlay": [
-        "Lees een vergelijkingskaart als 406 ___ 460 en bepaal welk getal groter is.",
-        "Tik op de vergelijking en daarna op het teken — < of > — dat hem waar maakt, en kijk hoe het paar verbindt.",
-        "Verbind beide vergelijkingen in de ronde — er is geen timer en geen score, dus neem rustig de tijd."
+        "Twee vergelijken: tik op het poortje dat volgens jou de race beslist, of op de vlag als de getallen gelijk zijn, zet een teken in het vakje en tik op Controleer.",
+        "Vier ordenen: tik op een getal en dan op een trede (of sleep het erheen) tot op elke trede een getal staat, en tik dan op Controleer.",
+        "In de instellingen kies je twee vergelijken of vier ordenen, en drie of vier cijfers."
       ],
       "learningGoals": [
-        "Het kind vergelijkt twee getallen van drie cijfers met >, = en <.",
-        "Het kind gebruikt de getalwaarde, eerst de honderdtallen, om te bepalen welk getal groter is.",
-        "Het kind bouwt een stevig getalbegrip met getallen tot 1000."
+        "Twee getallen van drie cijfers vergelijken door eerst naar de honderdtallen te kijken, dan naar de tientallen en dan naar de eenheden.",
+        "Weten dat één honderdtal meer is dan 9 tientallen en 9 eenheden samen, dus 389 is kleiner dan 412.",
+        "Een vergelijking noteren met <, = of > en getallen ordenen van klein naar groot."
       ]
     },
     "numberbond.make-ten.k-oa-a-4": {

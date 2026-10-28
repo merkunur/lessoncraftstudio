@@ -3696,6 +3696,29 @@
         "Forstå at en tier inneholder ti enere og en hundrer ti tiere.",
         "Koble de overstrøkne sifrene i oppstillingen til ekte veksling."
       ]
+    },
+    "comet-kangaroo.tens-hundreds.2-nbt-b-8": {
+      "about": [
+        "I Komets store hopp bor tallene i en stabel av ti hundreruter av glass. På hver glassplate er et steg mot høyre 1 mer og et steg nedover 10 mer; 100 mer er nøyaktig den samme ruta på plata under. Kenguruen Komet sitter på et tall som 247, oppgaven ber om 10 mer, og barnet skriver hvor hun lander før hun hopper.",
+        "Et feil tall blir ikke bare markert som feil: Et flagg settes på ruta der det tallet bor. Skriver barnet 258 for 247 + 10, står flagget én rute til høyre for Komet, som er på 257: enersifferet flyttet seg selv om det skulle stå stille. Ved 296 + 10 hopper Komet over nederkanten og lander på øverste rad på neste plate, 306; svaret uten hundreovergang, 206, setter flagget en hel plate høyere opp. Etter den andre feilen flytter barnet Komet selv med pilene og leser av ruta der hun lander.",
+        "Aktiviteten er knyttet til LK20 (kompetansemål etter 4. trinn) og passer på 3. trinn: å legge til og trekke fra 10 og 100 i hodet innenfor 1000. Den virker uten lyd, og det er verken tidtaking eller poeng."
+      ],
+      "practices": [
+        "Legge til og trekke fra 10 og 100 med tresifrede tall i hodet",
+        "Se hvert siffer som en retning: enere mot høyre, tiere nedover, hundrere en glassplate dypere",
+        "Gå riktig over hundretallet, som i 296 + 10 = 306",
+        "Følge pilveier og finne ut hvor langt det er mellom to tall"
+      ],
+      "howToPlay": [
+        "Les Komets tall og hoppet, skriv hvor hun lander, og trykk på Sjekk.",
+        "Står flagget på en annen rute, se hvilken retning det står feil, og endre det sifferet; etter den andre feilen flytter du Komet selv med pilene.",
+        "I innstillingene velger du 1 og 10, 10 og 100 eller pilveier, og matt eller klart glass."
+      ],
+      "learningGoals": [
+        "Legge til og trekke fra 10 og 100 i hodet innenfor 1000.",
+        "Vite hvilket siffer som endrer seg ved et hopp på 1, 10 eller 100, og når neste siffer også endrer seg.",
+        "Lese hundreruta som et kart: radene er tiere og kolonnene enere."
+      ]
     }
   }
 }

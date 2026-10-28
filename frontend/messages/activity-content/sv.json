@@ -4011,6 +4011,29 @@
         "Förstå att subtraktion tar bort det addition lagt till, och tvärtom.",
         "Uppskatta en summa genom att avrunda till tiotal och kontrollera att det exakta svaret ligger nära."
       ]
+    },
+    "comet-kangaroo.tens-hundreds.2-nbt-b-8": {
+      "about": [
+        "I Komets stora hopp bor talen i en hög av tio hundrarutor av glas. På varje glasskiva är ett steg åt höger 1 mer och ett steg nedåt 10 mer; 100 mer är exakt samma ruta på skivan under. Kängurun Komet sitter på ett tal som 247, uppgiften ber om 10 mer, och barnet skriver var hon landar innan hon hoppar.",
+        "Ett fel tal markeras inte bara som fel: en flagga sätts på rutan där det talet bor. Skriver barnet 258 för 247 + 10 hamnar flaggan en ruta till höger om Komet, som står på 257: entalssiffran flyttade sig fast den skulle stå still. Vid 296 + 10 hoppar Komet över nederkanten och landar på översta raden på nästa skiva, 306; svaret utan hundratalsövergång, 206, sätter flaggan en hel skiva högre upp. Efter ett andra fel flyttar barnet Komet själv med pilarna och läser av rutan där hon landar.",
+        "Aktiviteten följer Lgr22 för åk 1–3 och passar i åk 3: att i huvudet addera och subtrahera 10 och 100 i talområdet 0–1000. Den fungerar utan ljud, och det finns ingen tidtagning och inga poäng."
+      ],
+      "practices": [
+        "Addera och subtrahera 10 och 100 med tresiffriga tal i huvudet",
+        "Se varje siffra som en riktning: ental åt höger, tiotal nedåt, hundratal en glasskiva djupare",
+        "Gå över ett hundratal rätt, som i 296 + 10 = 306",
+        "Följa pilvägar och ta reda på hur långt det är mellan två tal"
+      ],
+      "howToPlay": [
+        "Läs Komets tal och hoppet, skriv var hon landar och tryck på Kontrollera.",
+        "Hamnar flaggan på en annan ruta, titta åt vilket håll den står fel och ändra den siffran; efter ett andra fel flyttar du Komet själv med pilarna.",
+        "I inställningarna väljer du 1 och 10, 10 och 100 eller pilvägar, och frostat eller klart glas."
+      ],
+      "learningGoals": [
+        "Addera och subtrahera 10 och 100 i huvudet i talområdet 0–1000.",
+        "Veta vilken siffra som ändras vid ett hopp på 1, 10 eller 100, och när nästa siffra också ändras.",
+        "Läsa hundrarutan som en karta: raderna är tiotal och kolumnerna ental."
+      ]
     }
   }
 }

@@ -1,7 +1,7 @@
 [
   {
     "id": "comet-kangaroo.tens-hundreds.2-nbt-b-8",
-    "tool": "comet-kangaroo-activity",
+    "tool": "glass-stack-activity",
     "task_template": "tens-hundreds",
     "alignment": {
       "framework": "CCSS",
@@ -10,53 +10,196 @@
       "strand": "Number & Operations in Base Ten"
     },
     "params": {
-      "rounds": [
-        {
-          "start": 247,
-          "delta": 10,
-          "band": 1
-        },
-        {
-          "start": 362,
-          "delta": -10,
-          "band": 1
-        },
-        {
-          "start": 415,
-          "delta": 100,
-          "band": 1
-        },
-        {
-          "start": 683,
-          "delta": -100,
-          "band": 2
-        },
-        {
-          "start": 538,
-          "delta": 10,
-          "band": 2
-        },
-        {
-          "start": 271,
-          "delta": -10,
-          "band": 2
-        },
-        {
-          "start": 326,
-          "delta": 100,
-          "band": 3
-        },
-        {
-          "start": 754,
-          "delta": -100,
-          "band": 3
-        },
-        {
-          "start": 489,
-          "delta": 10,
-          "band": 3
-        }
-      ]
+      "leaps": [
+        "small",
+        "big",
+        "trails"
+      ],
+      "glass": [
+        "frost",
+        "clear"
+      ],
+      "rounds": {
+        "small": [
+          {
+            "start": 47,
+            "leap": 10
+          },
+          {
+            "start": 35,
+            "leap": 10
+          },
+          {
+            "start": 63,
+            "leap": -10
+          },
+          {
+            "start": 91,
+            "leap": -10
+          },
+          {
+            "start": 29,
+            "leap": 1
+          },
+          {
+            "start": 58,
+            "leap": 1
+          },
+          {
+            "start": 80,
+            "leap": -1
+          },
+          {
+            "start": 64,
+            "leap": -1
+          }
+        ],
+        "big": [
+          {
+            "start": 247,
+            "leap": 10,
+            "band": 1
+          },
+          {
+            "start": 362,
+            "leap": -10,
+            "band": 1
+          },
+          {
+            "start": 415,
+            "leap": 100,
+            "band": 1
+          },
+          {
+            "start": 683,
+            "leap": -100,
+            "band": 2
+          },
+          {
+            "start": 538,
+            "leap": 10,
+            "band": 2
+          },
+          {
+            "start": 271,
+            "leap": -10,
+            "band": 2
+          },
+          {
+            "start": 326,
+            "leap": 100,
+            "band": 3
+          },
+          {
+            "start": 754,
+            "leap": -100,
+            "band": 3
+          },
+          {
+            "start": 489,
+            "leap": 10,
+            "band": 3
+          },
+          {
+            "start": 296,
+            "leap": 10,
+            "band": 3
+          },
+          {
+            "start": 602,
+            "leap": -10,
+            "band": 3
+          }
+        ],
+        "trails": [
+          {
+            "kind": "follow",
+            "a": 34,
+            "chips": [
+              "D",
+              "D",
+              "R"
+            ]
+          },
+          {
+            "kind": "follow",
+            "a": 68,
+            "chips": [
+              "U",
+              "L",
+              "L"
+            ]
+          },
+          {
+            "kind": "follow",
+            "a": 21,
+            "chips": [
+              "D",
+              "R",
+              "R",
+              "D"
+            ]
+          },
+          {
+            "kind": "follow",
+            "a": 79,
+            "chips": [
+              "L",
+              "U",
+              "U"
+            ]
+          },
+          {
+            "kind": "follow",
+            "a": 145,
+            "chips": [
+              "DIVE",
+              "R"
+            ]
+          },
+          {
+            "kind": "mystery",
+            "a": 38,
+            "ca": "D",
+            "b": 47,
+            "cb": "R"
+          },
+          {
+            "kind": "mystery",
+            "a": 82,
+            "ca": "U",
+            "b": 73,
+            "cb": "L"
+          },
+          {
+            "kind": "far",
+            "a": 23,
+            "b": 57
+          },
+          {
+            "kind": "far",
+            "a": 36,
+            "b": 58
+          },
+          {
+            "kind": "mystery",
+            "a": 15,
+            "ca": "D",
+            "b": 26,
+            "cb": "L"
+          },
+          {
+            "kind": "far",
+            "a": 14,
+            "b": 76
+          },
+          {
+            "kind": "far",
+            "a": 52,
+            "b": 83
+          }
+        ]
+      }
     },
     "theme": null,
     "slug": {
@@ -66,7 +209,11 @@
       "es": "10-100-mas-menos-valor-posicional-numeros-hasta-1000-primaria",
       "pt": "10-100-a-mais-a-menos-valor-posicional-ate-1000",
       "it": "10-100-in-piu-in-meno-valore-posizionale-numeri-fino-a-1000",
-      "nl": "springen-met-10-en-100-tot-1000-groep-5"
+      "nl": "springen-met-10-en-100-tot-1000-groep-5",
+      "sv": "komets-stora-hopp-10-och-100-mer-eller-mindre-ak-3",
+      "da": "komets-store-hop-10-og-100-mere-eller-mindre-2-klasse",
+      "no": "komets-store-hopp-10-og-100-mer-eller-mindre-3-trinn",
+      "fi": "komeetan-isot-loikat-10-ja-100-enemman-tai-vahemman-2-luokka"
     },
     "page_title": {
       "en": "Comet's Big Leaps — 10 & 100 More or Less (Grade 2)",
@@ -75,7 +222,11 @@
       "es": "Cometa el canguro: 10 y 100 más o menos hasta 1000 · Valor posicional",
       "pt": "Cometa o canguru: 10 e 100 a mais ou a menos até 1000 · 3º ano",
       "it": "Cometa il canguro: 10 e 100 in più o in meno fino a 1000",
-      "nl": "Komeets grote sprongen: 10 en 100 meer of minder tot 1000, groep 5"
+      "nl": "Komeets grote sprongen: 10 en 100 meer of minder tot 1000, groep 5",
+      "sv": "Komets stora hopp – 10 och 100 mer eller mindre (åk 3)",
+      "da": "Komets store hop – 10 og 100 mere eller mindre (2. klasse)",
+      "no": "Komets store hopp – 10 og 100 mer eller mindre (3. trinn)",
+      "fi": "Komeetan isot loikat – 10 ja 100 enemmän tai vähemmän (2. luokka)"
     },
     "page_intro": {
       "en": "An interactive Grade 2 math activity: Comet the kangaroo makes big leaps along the numbers. See a three-digit number and a leap — 10 more, 10 less, 100 more, or 100 less — work it out in your head and type where Comet lands. Mentally add or subtract 10 or 100, watching how only the tens or hundreds digit changes while the ones stay put. Common Core 2.NBT.B.8.",
@@ -84,7 +235,11 @@
       "es": "Salta con Cometa, el canguro, sumando y restando 10 o 100 en los números hasta 1000 y practica el valor posicional con cálculo mental. Actividad interactiva, sin registro, alineada a los Planes y programas de estudio (SEP).",
       "pt": "Salte pelos números com o Cometa, o canguru! A criança vê um número de três algarismos, como “247”, e um salto — “10 a mais”, “10 a menos”, “100 a mais” ou “100 a menos” — e precisa calcular de cabeça onde ele cai, digitando o número novo. Uma forma leve e divertida de trabalhar o valor posicional e o cálculo mental com números até 1000. Atividade interativa para o 3º ano, alinhada à BNCC.",
       "it": "Salta tra i numeri con Cometa, il canguro! Il bambino vede un numero di tre cifre, per esempio “247”, e un salto — “10 in più”, “10 in meno”, “100 in più” o “100 in meno” — e deve calcolare a mente dove atterra Cometa, scrivendo il numero nuovo. È un modo leggero e divertente per allenare il valore posizionale e il calcolo mentale con numeri fino a 1000, notando che cambia solo la cifra delle decine o delle centinaia, mentre le unità restano uguali. Attività interattiva, senza registrazione, senza timer e senza punteggio: solo tanti salti da fare di testa. Un esercizio pensato per la classe terza, in linea con le Indicazioni nazionali.",
-      "nl": "Komeet de kangoeroe maakt grote sprongen. Je ziet een getal van drie cijfers en een sprong: 10 meer, 10 minder, 100 meer of 100 minder. Reken uit je hoofd waar Komeet landt en typ het nieuwe getal in. Alleen de tientallen of honderdtallen veranderen, de eenheden blijven gelijk. Voor groep 5, volgens de SLO-kerndoelen rekenen."
+      "nl": "Komeet de kangoeroe maakt grote sprongen. Je ziet een getal van drie cijfers en een sprong: 10 meer, 10 minder, 100 meer of 100 minder. Reken uit je hoofd waar Komeet landt en typ het nieuwe getal in. Alleen de tientallen of honderdtallen veranderen, de eenheden blijven gelijk. Voor groep 5, volgens de SLO-kerndoelen rekenen.",
+      "sv": "Talen bor i en hög av glasskivor med hundrarutor: ett mer är ett steg åt höger, tio mer ett steg nedåt och hundra mer samma ruta på nästa skiva. Barnet skriver var kängurun Komet landar, till exempel 10 mer än 247, och ser sedan hoppet – på flaggans plats ser man åt vilket håll svaret blev fel. Tal inom 1000, interaktiv övning för åk 3.",
+      "da": "Tallene bor i en stak glasplader med hundredtavler: én mere er et skridt til højre, ti mere et skridt nedad og hundrede mere det samme felt på næste plade. Barnet skriver, hvor kænguruen Komet lander, fx 10 mere end 247, og ser så springet – en fejl kan aflæses på, i hvilken retning flaget står forkert. Tal inden for 1000, interaktiv opgave til 2. klasse.",
+      "no": "Tallene bor i en stabel glassplater med hundreruter: én mer er ett steg mot høyre, ti mer ett steg nedover og hundre mer den samme ruta på neste plate. Barnet skriver hvor kenguruen Komet lander, for eksempel 10 mer enn 247, og ser så hoppet – en feil kan leses av i hvilken retning flagget står feil. Tall innenfor 1000, interaktiv oppgave for 3. trinn.",
+      "fi": "Luvut asuvat sadan ruudun lasilevyjen pinossa: yksi enemmän on askel oikealle, kymmenen enemmän askel alas ja sata enemmän sama ruutu seuraavalla levyllä. Lapsi kirjoittaa, mihin kenguru Komeetta laskeutuu, esimerkiksi 10 enemmän kuin 247, ja katsoo sitten loikan – virheen suunnasta näkee, mikä numero meni väärin. Luvut 0–1000, interaktiivinen tehtävä 2. luokalle."
     },
     "kid_prompt_template": "tens-hundreds"
   }

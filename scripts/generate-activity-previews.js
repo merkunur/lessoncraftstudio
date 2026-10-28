@@ -107,6 +107,10 @@ function seedScript(row) {
     // 160 + 50: ten of the eleven rods stacked on the vice's bed — the square gauge exactly covered, one rod still in the tens column: the invention at work
     return `(function(){var t=window['SquareViceActivity'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(0);t._render2();t._bay('T',10);}})();`;
   }
+  if (row.tool === 'glass-stack-activity') {
+    // 247 + 10 with 248 typed: Comet leapt to 257, the flag planted where 248 lives — one row up, one column right — the column lit: the invention at work
+    return `(function(){var t=window['GlassStackActivity'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(0);t._render2();t._tap('2');t._tap('4');t._tap('8');t._check();}})();`;
+  }
   if (row.tool === 'takeaway-scoop-activity') {
     // 342 − 5: a ten snapped into ten cubes — all five of the scoop's cups lit over the ones shelf, ready to lift: the invention at work
     return `(function(){var t=window['TakeawayScoopActivity'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(0);t._render2();t._snap('T');}})();`;

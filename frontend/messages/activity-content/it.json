@@ -433,25 +433,25 @@
     },
     "comet-kangaroo.tens-hundreds.2-nbt-b-8": {
       "about": [
-        "Con Cometa il canguro il bambino parte da un numero come “247”, riceve un salto come “100 in meno” e scrive di getto dove atterra: 147.",
-        "Ogni salto — “10 in più”, “10 in meno”, “100 in più”, “100 in meno” — si risolve a mente, osservando che si muove soltanto la cifra delle decine o delle centinaia e che le unità non cambiano mai.",
-        "Un allenamento breve e sereno al valore posizionale e al calcolo mentale con numeri fino a 1000, pensato per la classe terza e in linea con le Indicazioni nazionali."
+        "In I grandi salti di Cometa i numeri abitano in una pila di dieci tabelle del 100 di vetro. Su ogni lastra un passo a destra è 1 in più e un passo in giù è 10 in più; 100 in più è proprio la stessa casella sulla lastra di sotto. La canguro Cometa sta su un numero come 247, la consegna chiede 10 in più e il bambino scrive dove atterrerà prima che salti.",
+        "Un numero sbagliato non viene solo segnato come errore: sulla casella dove abita quel numero si pianta una bandierina. Se il bambino scrive 258 per 247 + 10, la bandierina finisce una casella a destra di Cometa, che è sul 257: la cifra delle unità si è spostata mentre doveva restare ferma. In 296 + 10 Cometa supera il bordo in basso e atterra sulla prima riga della lastra successiva, 306; la risposta senza cambio, 206, pianta la bandierina una lastra intera più su. Dopo il secondo errore il bambino muove Cometa con le frecce e legge la casella d’arrivo.",
+        "L’attività segue le Indicazioni nazionali per la classe terza, nel nucleo Numeri: aggiungere e togliere a mente 10 e 100 con i numeri entro il 1000. Funziona senza audio, senza cronometro e senza punteggi."
       ],
       "practices": [
-        "Aggiungere e togliere 10 a un numero di tre cifre a mente",
-        "Aggiungere e togliere 100 a un numero di tre cifre a mente",
-        "Notare che cambia solo la cifra delle decine o delle centinaia",
-        "Scrivere il risultato invece di scegliere tra opzioni pronte"
+        "Aggiungere e togliere a mente 10 e 100 a numeri di tre cifre",
+        "Vedere ogni cifra come una direzione: unità a destra, decine in giù, centinaia una lastra più sotto",
+        "Superare il centinaio senza errori, come in 296 + 10 = 306",
+        "Seguire percorsi di frecce e trovare quanto dista un numero da un altro"
       ],
       "howToPlay": [
-        "Leggi il numero di partenza, per esempio “247”, e guarda il salto: “10 in più”, “10 in meno”, “100 in più” o “100 in meno”.",
-        "Calcola a mente dove arriva Cometa, cambiando solo le decine o le centinaia.",
-        "Scrivi il numero nuovo e lascia che Cometa faccia il suo salto."
+        "Leggi il numero di Cometa e il salto, scrivi dove atterrerà e premi Controlla.",
+        "Se la bandierina cade su un’altra casella, guarda da che parte è spostata e cambia quella cifra; dopo il secondo errore muovi tu Cometa con le frecce.",
+        "Nelle impostazioni scegli 1 e 10, 10 e 100 o percorsi di frecce, e il vetro smerigliato o trasparente."
       ],
       "learningGoals": [
-        "Aggiungere e sottrarre 10 e 100 a mente entro il 1000.",
-        "Capire il valore posizionale di centinaia, decine e unità.",
-        "Rafforzare il calcolo mentale rapido con i numeri fino a 1000."
+        "Aggiungere e togliere a mente 10 e 100 entro il 1000.",
+        "Sapere quale cifra cambia con un salto di 1, 10 o 100, e quando cambia anche la successiva.",
+        "Leggere la tabella del 100 come una mappa: le righe sono le decine, le colonne le unità."
       ]
     },
     "winter-piles.draw-partition.2-oa-c-4": {

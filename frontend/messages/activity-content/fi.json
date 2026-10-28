@@ -3669,6 +3669,29 @@
         "Ymmärrä, että kympissä on kymmenen ykköstä ja sadassa kymmenen kymppiä.",
         "Yhdistä allekkainlaskun yliviivatut numerot oikeaan vaihtamiseen."
       ]
+    },
+    "comet-kangaroo.tens-hundreds.2-nbt-b-8": {
+      "about": [
+        "Komeetan isoissa loikissa luvut asuvat kymmenen lasisen sadan ruudun taulun pinossa. Jokaisella lasilevyllä askel oikealle on 1 enemmän ja askel alas 10 enemmän; 100 enemmän on täsmälleen sama ruutu alemmalla levyllä. Kenguru Komeetta istuu jollakin luvulla, esimerkiksi luvulla 247, tehtävä pyytää 10 enemmän, ja lapsi kirjoittaa, mihin Komeetta laskeutuu, ennen kuin se loikkaa.",
+        "Väärää lukua ei vain merkitä vääräksi: ruutuun, jossa se luku asuu, pystytetään lippu. Jos lapsi kirjoittaa 247 + 10 -tehtävään 258, lippu pystytetään ruudun verran oikealle Komeetasta, joka on luvulla 257: ykkösten numero liikkui, vaikka sen piti pysyä. Tehtävässä 296 + 10 Komeetta hyppää levyn alareunan yli ja laskeutuu seuraavan levyn ylimmälle riville, 306; ilman sadan ylitystä saatu vastaus 206 pystyttää lipun kokonaisen levyn ylemmäs. Toisen virheen jälkeen lapsi siirtää Komeettaa itse nuolilla ja katsoo, mihin ruutuun se päätyy.",
+        "Tehtävä tukee OPS 2014 -tavoitteita 2. luokalla: lukujen 10 ja 100 lisääminen ja vähentäminen päässä lukualueella 0–1000. Se toimii ilman ääntä, eikä siinä ole ajanottoa tai pisteitä."
+      ],
+      "practices": [
+        "Lisää 10 ja 100 kolminumeroiseen lukuun ja vähennä ne siitä päässä",
+        "Näe jokainen numero suuntana: ykköset oikealle, kympit alas, sadat yhden lasilevyn syvemmälle",
+        "Ylitä sata oikein, kuten 296 + 10 = 306",
+        "Seuraa nuolipolkuja ja selvitä, kuinka kaukana kaksi lukua ovat toisistaan"
+      ],
+      "howToPlay": [
+        "Lue Komeetan luku ja loikka, kirjoita, mihin se laskeutuu, ja paina Tarkista.",
+        "Jos lippu osuu toiseen ruutuun, katso, mihin suuntaan se on sivussa, ja muuta sitä numeroa; toisen virheen jälkeen siirrät Komeettaa itse nuolilla.",
+        "Asetuksista valitset 1 ja 10, 10 ja 100 tai nuolipolut sekä huurretun tai kirkkaan lasin."
+      ],
+      "learningGoals": [
+        "Lisää ja vähennä 10 ja 100 päässä lukualueella 0–1000.",
+        "Tiedä, mikä numero muuttuu loikassa 1, 10 tai 100, ja milloin myös seuraava numero muuttuu.",
+        "Lue sadan ruudun taulua kuin karttaa: rivit ovat kymppejä ja sarakkeet ykkösiä."
+      ]
     }
   }
 }

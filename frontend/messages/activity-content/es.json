@@ -1489,25 +1489,25 @@
     },
     "comet-kangaroo.tens-hundreds.2-nbt-b-8": {
       "about": [
-        "Cometa el canguro salta a lo largo de los números y tu hijo lo acompaña. En la pantalla aparece un número de tres cifras, como «247», junto con un salto: «10 más», «10 menos», «100 más» o «100 menos». El niño o la niña calcula mentalmente dónde cae Cometa y escribe el número nuevo. A veces son saltos pequeños de decenas y a veces son saltos grandes de centenas, así que cada ronda pide una atención distinta.",
-        "Detrás del juego hay una idea matemática clara: al sumar o quitar 10 solo cambia la cifra de las decenas, y al sumar o quitar 100 solo cambia la cifra de las centenas; las unidades se quedan igual. De esta manera tu hijo aprende a «leer» los números de tres cifras por su valor posicional y a moverse con seguridad en el rango hasta 1000. Esto es el valor posicional, una de las bases del cálculo.",
-        "Sin cronómetro, sin puntajes y sin competencia: cada niño avanza a su propio ritmo y repite los saltos que necesite. La actividad está alineada con el programa de primaria mexicano en el eje de Sentido numérico, donde el valor posicional y los números hasta 1000 tienen su lugar natural."
+        "En Los grandes saltos de Cometa los números viven en una pila de diez tablas del 100 de vidrio. En cada hoja, un paso a la derecha es 1 más y un paso hacia abajo es 10 más; 100 más es exactamente la misma casilla en la hoja de abajo. La canguro Cometa está sobre un número como 247, la tarea pide 10 más y el niño escribe dónde va a caer antes de que salte.",
+        "Un número equivocado no solo se marca como error: se clava un banderín en la casilla donde vive ese número. Si el niño escribe 258 para 247 + 10, el banderín queda una casilla a la derecha de Cometa, que está en 257: la cifra de las unidades se movió cuando debía quedarse igual. En 296 + 10, Cometa pasa por el borde de abajo y cae en la fila de arriba de la hoja siguiente, 306; la respuesta sin llevar, 206, pone el banderín una hoja entera más arriba. Después del segundo error, el niño mueve a Cometa con las flechas y lee la casilla de llegada.",
+        "La actividad sigue los planes y programas de la SEP para segundo grado: sumar y restar mentalmente 10 y 100 con números hasta 1000. Funciona sin sonido, sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Calcular mentalmente 10 o 100 más o menos de un número de tres cifras (cálculo mental).",
-        "Reconocer las cifras de un número: centenas, decenas y unidades.",
-        "Entender que en el salto solo cambia una cifra y las demás se quedan igual.",
-        "Orientarse con seguridad en el rango hasta 1000."
+        "Sumar y restar mentalmente 10 y 100 a números de tres cifras",
+        "Ver cada cifra como una dirección: unidades a la derecha, decenas hacia abajo, centenas una hoja más abajo",
+        "Pasar la centena sin error, como en 296 + 10 = 306",
+        "Seguir caminos de flechas y encontrar qué tan lejos está un número de otro"
       ],
       "howToPlay": [
-        "Mira el número y lee el salto de Cometa: «10 más», «10 menos», «100 más» o «100 menos».",
-        "Piensa qué cifra cambia y calcula dónde cae Cometa.",
-        "Escribe el número nuevo; si aciertas, Cometa sigue saltando feliz."
+        "Lee el número de Cometa y el salto, escribe dónde va a caer y presiona Revisar.",
+        "Si el banderín queda en otra casilla, fíjate hacia dónde se desvió y cambia esa cifra; después del segundo error, mueve tú a Cometa con las flechas.",
+        "En la configuración, elige 1 y 10, 10 y 100 o caminos de flechas, y vidrio esmerilado o transparente."
       ],
       "learningGoals": [
-        "Calcula con seguridad 10 o 100 más y menos en el rango hasta 1000.",
-        "Entiende que en el salto solo cambia la cifra de las decenas o la de las centenas.",
-        "Construye una comprensión firme del valor posicional como base del cálculo."
+        "Sumar y restar mentalmente 10 y 100 con números hasta 1000.",
+        "Saber qué cifra cambia con un salto de 1, 10 o 100, y cuándo cambia también la siguiente.",
+        "Leer la tabla del 100 como un mapa: las filas son decenas y las columnas, unidades."
       ]
     },
     "winter-piles.draw-partition.2-oa-c-4": {

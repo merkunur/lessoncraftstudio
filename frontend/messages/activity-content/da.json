@@ -3670,6 +3670,29 @@
         "Forstå, at en tier indeholder ti enere og en hundreder ti tiere.",
         "Kobl de overstregede cifre i opstillingen til rigtig veksling."
       ]
+    },
+    "comet-kangaroo.tens-hundreds.2-nbt-b-8": {
+      "about": [
+        "I Komets store hop bor tallene i en stak af ti hundredtavler af glas. På hver glasplade er et skridt til højre 1 mere og et skridt nedad 10 mere; 100 mere er præcis det samme felt på pladen nedenunder. Kænguruen Komet sidder på et tal som 247, opgaven beder om 10 mere, og barnet skriver, hvor hun lander, før hun hopper.",
+        "Et forkert tal bliver ikke bare markeret som forkert: Der sættes et flag på det felt, hvor tallet bor. Skriver barnet 258 til 247 + 10, står flaget et felt til højre for Komet, som er på 257: enercifferet flyttede sig, selv om det skulle være blevet stående. Ved 296 + 10 hopper Komet ud over den nederste kant og lander på øverste række af næste plade, 306; svaret uden hundredovergang, 206, sætter flaget en hel plade højere oppe. Efter den anden fejl flytter barnet selv Komet med pilene og aflæser feltet, hvor hun lander.",
+        "Aktiviteten følger Fælles Mål (efter 3. klassetrin) og passer til 2. klasse: at lægge 10 og 100 til og trække 10 og 100 fra i hovedet inden for 1000. Den virker uden lyd, og der er hverken tidtagning eller point."
+      ],
+      "practices": [
+        "Lægge 10 og 100 til og trække 10 og 100 fra trecifrede tal i hovedet",
+        "Se hvert ciffer som en retning: enere til højre, tiere nedad, hundreder en glasplade dybere",
+        "Gå rigtigt over et hundrede, som i 296 + 10 = 306",
+        "Følge pileveje og finde ud af, hvor langt der er mellem to tal"
+      ],
+      "howToPlay": [
+        "Læs Komets tal og hoppet, skriv, hvor hun lander, og tryk på Tjek.",
+        "Står flaget på et andet felt, så se, i hvilken retning det står forkert, og ret det ciffer; efter den anden fejl flytter du selv Komet med pilene.",
+        "I indstillingerne vælger du 1 og 10, 10 og 100 eller pileveje, og matteret eller klart glas."
+      ],
+      "learningGoals": [
+        "Lægge 10 og 100 til og trække fra i hovedet inden for 1000.",
+        "Vide, hvilket ciffer der ændrer sig ved et hop på 1, 10 eller 100, og hvornår det næste ciffer også ændrer sig.",
+        "Læse hundredtavlen som et kort: rækkerne er tiere, og søjlerne er enere."
+      ]
     }
   }
 }

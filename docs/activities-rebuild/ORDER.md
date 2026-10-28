@@ -155,7 +155,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 145 | LIVE 2026-10-28 · The Square Vice | 2 | 2.NBT.B.7 | `place-value-regroup.add-compose-hundred.2-nbt-b-7` | place-value-regroup-activity | Tuck Makes a Hundred — Add with Regrouping (Grade 2) |
 | 146 | LIVE 2026-10-28 · The Nested Crates | 2 | 2.NBT.B.7 | `place-value-regroup.subtract-decompose-hundred.2-nbt-b-7` | place-value-regroup-activity | Tuck Breaks a Hundred — Subtract with Regrouping (Grade 2) |
 | 147 | LIVE 2026-10-28 · The Take-Away Scoop | 2 | 2.NBT.B.7 | `place-value-regroup.subtract-decompose.2-nbt-b-7` | place-value-regroup-activity | Tuck Breaks a Ten — Subtract with Regrouping (Grade 2) |
-| 148 |  | 2 | 2.NBT.B.8 | `comet-kangaroo.tens-hundreds.2-nbt-b-8` | comet-kangaroo-activity | Comet's Big Leaps — 10 & 100 More or Less (Grade 2) |
+| 148 | LIVE 2026-10-28 · The Glass Stack | 2 | 2.NBT.B.8 | `comet-kangaroo.tens-hundreds.2-nbt-b-8` | comet-kangaroo-activity | Comet's Big Leaps — 10 & 100 More or Less (Grade 2) |
 | 149 |  | 2 | 2.NBT.A.1 | `place-value.hundreds-tens-and-ones.2-nbt-a-1` | place-value-activity | Hundreds, Tens, and Ones |
 | 150 |  | 2 | 2.NBT.A.3 | `place-value.expanded-form.2-nbt-a-3` | place-value-activity | Expanded Form |
 | 151 | design input: `rebuild-inputs/151-three-door-tunnel.md` | 2 | 2.NBT.A.4 | `match-pairs.compare-three-digit-numbers.2-nbt-a-4` | match-pairs-activity | Compare Three-Digit Numbers |

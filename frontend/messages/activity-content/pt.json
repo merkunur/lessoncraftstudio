@@ -2654,25 +2654,25 @@
     },
     "comet-kangaroo.tens-hundreds.2-nbt-b-8": {
       "about": [
-        "O Cometa é um canguru que adora dar saltos enormes pela reta dos números. A criança vê um número de três algarismos, como “247”, e ao lado um salto: “10 a mais”, “10 a menos”, “100 a mais” ou “100 a menos”. A tarefa é descobrir mentalmente onde o Cometa vai cair e digitar o número novo — sem contar de um em um, só pensando no que muda em cada casa.",
-        "A grande ideia aparece salto após salto: somar ou tirar 10 muda apenas o algarismo das dezenas, e somar ou tirar 100 muda apenas o das centenas — as unidades ficam sempre iguais. Perceber isso é compreender o valor posicional, que é a base de todo o cálculo. Aos poucos, a criança passa a se mover com segurança pelos números até 1000, enxergando cada número como centenas, dezenas e unidades.",
-        "A atividade é interativa, funciona direto no navegador e não pede cadastro. Não há cronômetro nem pontuação: o clima é acolhedor e formativo, para a criança pensar com calma, tentar de novo e ganhar confiança no cálculo mental. Feita para o 3º ano e alinhada à BNCC, dentro da unidade temática Números."
+        "Em Os grandes saltos de Cometa, os números moram numa pilha de dez quadros de 100 de vidro. Em cada folha, um passo para a direita é 1 a mais e um passo para baixo é 10 a mais; 100 a mais é exatamente a mesma casa na folha de baixo. A canguru Cometa está num número como 247, a tarefa pede 10 a mais, e a criança digita onde ela vai cair antes do salto.",
+        "Um número errado não é só marcado como erro: uma bandeirinha é fincada na casa onde esse número mora. Se a criança digita 258 para 247 + 10, a bandeirinha fica uma casa à direita da Cometa, que está no 257: o algarismo das unidades mudou quando devia ficar igual. Em 296 + 10, a Cometa passa pela borda de baixo e cai na primeira linha da folha seguinte, 306; a resposta sem reagrupar, 206, põe a bandeirinha uma folha inteira acima. Depois do segundo erro, a criança move a Cometa com as setas e lê a casa de chegada.",
+        "A atividade segue a BNCC para o 3º ano, na unidade temática Números: somar e subtrair mentalmente 10 e 100 com números até 1000. Funciona sem som, sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Calcular de cabeça 10 ou 100 a mais e a menos, sem contar de um em um.",
-        "Reconhecer as centenas, dezenas e unidades em números até 1000.",
-        "Entender que cada salto muda só um algarismo, e as unidades ficam iguais.",
-        "Orientar-se com segurança pelos números até 1000."
+        "Somar e subtrair mentalmente 10 e 100 a números de três algarismos",
+        "Ver cada algarismo como uma direção: unidades para a direita, dezenas para baixo, centenas uma folha abaixo",
+        "Passar da centena sem erro, como em 296 + 10 = 306",
+        "Seguir caminhos de setas e descobrir a distância entre dois números"
       ],
       "howToPlay": [
-        "Olhe o número que aparece, como “247”, e o salto pedido, como “10 a mais”.",
-        "Calcule mentalmente onde o Cometa cai: pense qual algarismo muda.",
-        "Digite o número novo e confira para onde o Cometa saltou."
+        "Leia o número da Cometa e o salto, digite onde ela vai cair e toque em Conferir.",
+        "Se a bandeirinha cair em outra casa, veja para que lado ela se desviou e mude esse algarismo; depois do segundo erro, mova a Cometa com as setas.",
+        "Nas configurações, escolha 1 e 10, 10 e 100 ou caminhos de setas, e vidro fosco ou transparente."
       ],
       "learningGoals": [
-        "Dominar o cálculo mental de 10 e 100 a mais ou a menos até 1000.",
-        "Compreender o valor posicional de unidades, dezenas e centenas.",
-        "Ganhar segurança para operar com números até 1000 de cabeça."
+        "Somar e subtrair mentalmente 10 e 100 com números até 1000.",
+        "Saber qual algarismo muda num salto de 1, 10 ou 100, e quando o seguinte também muda.",
+        "Ler o quadro de 100 como um mapa: as linhas são dezenas e as colunas, unidades."
       ]
     },
     "mending-fences.mend-board.3-md-d-8": {

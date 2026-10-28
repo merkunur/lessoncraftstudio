@@ -1973,25 +1973,25 @@
     },
     "comet-kangaroo.tens-hundreds.2-nbt-b-8": {
       "about": [
-        "Komet das Känguru liebt weite Sprünge – und in diesem Spiel springt es mitten durch den Zahlenraum bis 1000. Ihr Kind sieht eine dreistellige Zahl, zum Beispiel 247, und einen Sprung: „10 mehr“, „10 weniger“, „100 mehr“ oder „100 weniger“. Im Kopf rechnet es aus, wo Komet landet, und tippt die neue Zahl ein. Mal sind es kleine Zehnersprünge, mal große Hundertersprünge.",
-        "Dahinter steckt eine wichtige Entdeckung über unsere Zahlen: Wenn man 10 dazugibt oder wegnimmt, verändert sich nur die Zehnerstelle – die Einer bleiben gleich. Bei 100 mehr oder weniger ändert sich nur die Hunderterstelle. Ihr Kind lernt so, dreistellige Zahlen nach ihren Stellen zu „lesen“ und sich sicher im Tausenderraum zu bewegen. Genau das nennt man Stellenwertverständnis – und es ist eine der wichtigsten Grundlagen des Rechnens.",
-        "Dieses Spiel lässt sich ganz ohne Punkte, ohne Zeitdruck und ohne Anmeldung spielen. Ihr Kind darf in seinem eigenen Tempo überlegen, ausprobieren und Komet beim Springen begleiten. Hier zählt das Verstehen, nicht das Tempo."
+        "Bei Komets großen Sprüngen wohnen die Zahlen in einem Stapel aus zehn gläsernen Hundertertafeln. Auf jeder Tafel ist ein Schritt nach rechts 1 mehr und ein Schritt nach unten 10 mehr; 100 mehr ist genau dasselbe Feld auf der nächsten Tafel darunter. Das Känguru Komet sitzt auf einer Zahl wie 247, die Aufgabe verlangt 10 mehr, und das Kind tippt ein, wo Komet landet, bevor Komet springt.",
+        "Eine falsche Zahl wird nicht einfach als falsch markiert: Auf das Feld, auf dem diese Zahl wohnt, kommt ein Fähnchen. Wer bei 247 + 10 die Zahl 258 eintippt, sieht das Fähnchen ein Feld rechts neben Komet auf 257 – die Einerziffer hat sich bewegt, obwohl sie bleiben sollte. Bei 296 + 10 springt Komet über den unteren Rand der Tafel und landet in der obersten Reihe der nächsten: 306. Die Antwort ohne Übergang, 206, setzt das Fähnchen eine ganze Tafel höher. Nach dem zweiten Fehler bewegt das Kind Komet selbst mit den Pfeilen und liest das Zielfeld ab.",
+        "Die Aktivität ist an den Lehrplänen für die 3. Klasse im Bereich Zahlen und Operationen ausgerichtet: im Zahlenraum bis 1000 im Kopf 10 und 100 addieren und subtrahieren. Sie funktioniert ohne Ton, und es gibt keinen Timer und keine Punkte."
       ],
       "practices": [
-        "Im Kopf 10 oder 100 zu einer dreistelligen Zahl dazurechnen oder wegnehmen (Kopfrechnen)",
-        "Die Stellen einer Zahl erkennen: Hunderter, Zehner und Einer auseinanderhalten",
-        "Verstehen, dass sich beim Sprung nur eine Stelle ändert – die anderen bleiben gleich",
-        "Sich sicher im Zahlenraum bis 1000 orientieren (Nachbarzehner und Nachbarhunderter finden)"
+        "Im Kopf 10 und 100 zu dreistelligen Zahlen addieren und davon subtrahieren",
+        "Jede Ziffer als Richtung sehen: Einer nach rechts, Zehner nach unten, Hunderter eine Tafel tiefer",
+        "Den Hunderterübergang richtig machen, etwa 296 + 10 = 306",
+        "Pfeilwegen folgen und herausfinden, wie weit zwei Zahlen auseinanderliegen"
       ],
       "howToPlay": [
-        "Schau dir die Zahl an und lies den Sprung von Komet: „10 mehr“, „10 weniger“, „100 mehr“ oder „100 weniger“.",
-        "Überlege im Kopf, welche Stelle sich verändert, und rechne aus, wo Komet landet.",
-        "Tippe die neue Zahl ein – stimmt sie, springt Komet fröhlich weiter."
+        "Lies Komets Zahl und den Sprung, tippe ein, wo Komet landet, und drücke auf Prüfen.",
+        "Steht das Fähnchen auf einem anderen Feld, schau, in welche Richtung es danebenliegt, und ändere diese Ziffer; nach dem zweiten Fehler bewegst du Komet selbst mit den Pfeilen.",
+        "In den Einstellungen wählst du 1 und 10, 10 und 100 oder Pfeilwege und milchiges oder klares Glas."
       ],
       "learningGoals": [
-        "Ihr Kind rechnet sicher 10 oder 100 mehr und weniger im Tausenderraum.",
-        "Es versteht, dass nur die Zehner- oder Hunderterstelle sich beim Sprung ändert.",
-        "Es gewinnt ein festes Stellenwertverständnis als Grundlage für das weitere Rechnen."
+        "Im Zahlenraum bis 1000 im Kopf 10 und 100 addieren und subtrahieren.",
+        "Wissen, welche Ziffer sich bei einem Sprung um 1, 10 oder 100 ändert und wann sich auch die nächste ändert.",
+        "Die Hundertertafel wie eine Karte lesen: Reihen sind Zehner, Spalten sind Einer."
       ]
     },
     "mending-fences.mend-board.3-md-d-8": {

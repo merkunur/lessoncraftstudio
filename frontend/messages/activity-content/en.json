@@ -1577,25 +1577,25 @@
     },
     "comet-kangaroo.tens-hundreds.2-nbt-b-8": {
       "about": [
-        "Comet the kangaroo lands on a three-digit number — 247, 362, 415, 683 — and makes a leap of 10 more, 10 less, 100 more, or 100 less; the child works it out mentally and types where Comet lands on the keypad. Comet's Big Leaps is a Grade 2 math activity about adding and subtracting 10 and 100 in your head that plays right in the browser with no sign-up.",
-        "The activity is designed to build place-value intuition rather than counting. Adding 10 to 247 changes only the tens digit to give 257; subtracting 100 from 683 changes only the hundreds digit to give 583; the ones stay put either way. Because the child types the answer instead of choosing from cards, there is no guessing — they have to find the one digit that moves and leave the rest alone, which is the heart of mental ten- and hundred-jumps.",
-        "It is aligned to Common Core 2.NBT.B.8 — mentally adding 10 or 100 to, and subtracting 10 or 100 from, a number 100 to 900. No timer, no score — just calm, playful practice."
+        "In Comet's Big Leaps the numbers live in a stack of ten glass hundred-charts. On each sheet a step to the right is 1 more and a step down is 10 more, and 100 more is the very same square on the next sheet down. Comet the kangaroo sits on a number such as 247, the task asks for 10 more, and the child types where she will land before she leaps.",
+        "A wrong number is not just marked wrong: a flag is planted on the square where that number lives. Typing 258 for 247 + 10 puts the flag one square to the right of Comet on 257, so the child sees that the ones digit moved when it should have stayed. For 296 + 10 Comet falls off the bottom edge of the sheet and lands on the top row of the next one, 306; the answer that forgets the carry, 206 plants the flag a whole sheet higher. After a second miss the child moves Comet with the arrows and reads off the landing square.",
+        "It is aligned to Common Core 2.NBT.B.8: mentally add 10 or 100 to a number from 100 to 900, and mentally subtract 10 or 100 from it. It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Add and subtract 10 to a three-digit number in your head",
-        "Add and subtract 100 to a three-digit number in your head",
-        "Notice that only the tens or hundreds digit changes while the ones stay the same",
-        "Type a calculated answer rather than choosing from given options"
+        "Add and subtract 10 and 100 to three-digit numbers in your head",
+        "See each digit as a direction: ones across, tens down, hundreds one sheet deeper",
+        "Cross a hundred correctly, as in 296 + 10 = 306",
+        "Follow arrow trails and find how far one number is from another"
       ],
       "howToPlay": [
-        "Read Comet's starting number and the leap — 10 more, 10 less, 100 more, or 100 less.",
-        "Work it out in your head and type where Comet lands on the keypad.",
-        "Enter your answer and try again if needed — there is no timer and no score."
+        "Read Comet's number and the leap, then type where she will land and press Check.",
+        "If the flag lands on another square, look which way it is off and change that digit; after a second miss, move Comet yourself with the arrows.",
+        "In the settings, choose 1 and 10, 10 and 100 or arrow trails, and frosted or clear glass."
       ],
       "learningGoals": [
-        "Mentally add and subtract 10 and 100 with three-digit numbers — the focus of Common Core 2.NBT.B.8.",
-        "Understand which place-value digit changes with each kind of leap.",
-        "Build the mental-math fluency that supports larger addition and subtraction."
+        "Mentally add and subtract 10 and 100 within 1000 — the focus of Common Core 2.NBT.B.8.",
+        "Know which digit a leap of 1, 10 or 100 changes, and when the next digit changes too.",
+        "Read a hundred chart as a map: rows are tens, columns are ones."
       ]
     },
     "comparison-creek.river-steer.k-cc-c-7": {

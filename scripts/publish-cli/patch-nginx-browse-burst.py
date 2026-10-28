@@ -51,7 +51,7 @@ BLOCK = """# Browse burst (2026-10-28): start
 # 40 in a second from ONE real visitor; they get their own per-IP zone.
 map $request_uri $lcs_burst_class {
     default 0;
-    "~(^/api/images(\\?|$)|[?&]_rsc=)" 1;
+    "~(^/api/images([?]|$)|[?&]_rsc=)" 1;
 }
 map "$lcs_burst_class:$lcs_client_ip" $lcs_peri_key {
     default "";
@@ -80,12 +80,17 @@ def selftest():
                "'https://www.lessoncraftstudio.com" + path + "'")
         out = run(["bash", "-c", cmd]).stdout.split()
         return sum(1 for c in out if c == "429"), len(out)
-    r1 = burst("/en/topic/animals?_rsc=selftest", "203.0.113.71")
-    r2 = burst("/api/images?theme=animals&locale=en", "203.0.113.72")
-    r3 = burst("/en/learn", "203.0.113.73")
+    # a fresh test IP per burst, and a pause between them, so no burst inherits another's budget.
+    # The control is a quick uncached API call: slow page renders can space a burst out
+    # under the limit and make the control pass for the wrong reason (it did, first run).
+    r1 = burst("/en/topic/animals?_rsc=selftest", "203.0.113.81")
+    time.sleep(6)
+    r2 = burst("/api/images?theme=animals&locale=en", "203.0.113.82")
+    time.sleep(6)
+    r3 = burst("/api/themes-translated?locale=en", "203.0.113.83")
     print("selftest  _rsc prefetch burst : %d of %d refused (want 0)" % r1)
     print("selftest  /api/images burst   : %d of %d refused (want 0)" % r2)
-    print("selftest  plain page burst    : %d of %d refused (want > 0: the per-IP limit still works)" % r3)
+    print("selftest  plain API burst     : %d of %d refused (want > 0: the per-IP limit still works)" % r3)
     ok = r1[0] == 0 and r2[0] == 0 and r3[0] > 0 and r1[1] == r2[1] == r3[1] == 80
     print("SELFTEST " + ("PASS" if ok else "FAIL"))
     sys.exit(0 if ok else 5)
@@ -102,9 +107,19 @@ def main():
     lines = original.splitlines(keepends=True)
     changed = 0
 
-    # 1. the zones + maps, just before the lcsperip zone
+    # 1. the zones + maps, just before the lcsperip zone. Self-updating: an
+    # installed block that differs from BLOCK is replaced. The first install
+    # carried a backslash-escaped `?`, which nginx read as the PCRE branch-reset
+    # `(?|$)` — so `/api/images?theme=…` never matched. Character classes only.
     if MARKER in original:
-        print("maps + lcsburst zone: already installed")
+        s0 = next(i for i, ln in enumerate(lines) if MARKER in ln)
+        s1 = next(i for i, ln in enumerate(lines) if i >= s0 and ln.strip() == "# Browse burst: end")
+        if "".join(lines[s0:s1 + 1]) == BLOCK:
+            print("maps + lcsburst zone: already installed")
+        else:
+            lines = lines[:s0] + [BLOCK] + lines[s1 + 1:]
+            changed += 1
+            print("maps + lcsburst zone: replaced with the current version")
     else:
         at = next((i for i, ln in enumerate(lines) if ln.strip() in (ZONE_OLD, ZONE_NEW)), None)
         if at is None:

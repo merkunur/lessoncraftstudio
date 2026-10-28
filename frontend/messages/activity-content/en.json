@@ -3434,25 +3434,25 @@
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {
       "about": [
-        "Tap a flat, a rod, or a cube and watch a three-digit number grow as the base-ten blocks stack up — hundreds-flats, ten-rods, and unit-cubes building targets from 108 to 974, including tricky zeros like 200, 305, and 906. It's an interactive Grade 2 math activity that runs right in the browser with no account.",
-        "The big idea is that the three digits of a number stand for hundreds, tens, and ones. To build 463, the child needs four hundreds-flats, six ten-rods, and three unit-cubes, and watching the blocks accumulate ties each digit to a real quantity. Numbers like 305 and 906 quietly teach that a zero means none of that place — no ten-rods at all — which is exactly where place-value confusion usually starts.",
-        "It is aligned to Common Core 2.NBT.A.1 — understanding that the three digits of a three-digit number represent amounts of hundreds, tens, and ones. No timer, no score — just calm, playful practice."
+        "The Capped Mat is a place-value mat with three columns, hundreds, tens and ones, that only closes when every column wears a numeral cap. A cap holds one digit, so a column can take at most nine blocks: the tenth cube is refused, because ten ones make one ten. The child builds a number such as 604 with flats, rods and cubes, and at Check the caps drop onto the columns and read back exactly what was built.",
+        "The heart of it is the empty column. A column with no blocks still needs its 0 cap. Leave it bare and it folds shut, the other caps slide together, and 307 reads 37 on the screen. That is the mistake children make when they write numbers with a zero, made visible. In the read job the child caps a set of blocks, and in the match job she drags the number ticket onto the tray of blocks that shows it. After a second miss, outlines show the missing blocks, crosses mark the extra ones and a faint 0 cap appears on the empty column.",
+        "It is aligned to Common Core 2.NBT.A.1: the three digits of a three-digit number stand for amounts of hundreds, tens and ones, including numbers with a zero such as 307 and 604. It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Build a three-digit number with the right hundreds, tens, and ones",
-        "Connect each digit to a quantity of flats, rods, or cubes",
-        "Understand that a zero in a place means none of that unit",
-        "Read three-digit numbers up to the hundreds"
+        "Build three-digit numbers with flats, rods and cubes",
+        "Read a set of base-ten blocks as a three-digit number",
+        "Use a 0 to show an empty place, as in 307 and 604",
+        "Match a number to the blocks that show it, even when the blocks lie out of order"
       ],
       "howToPlay": [
-        "Read the target number, like 463.",
-        "Tap to add hundreds-flats, ten-rods, and unit-cubes until the blocks make that number.",
-        "Watch the number grow; move on with no timer and no score."
+        "Build: tap + and − under each column until the mat shows the number, then press Check and read the caps.",
+        "Read: tap a column's seat, then the cap with its digit; an empty column gets the 0 cap. With jumbled blocks, first tap each pile to put it in its column.",
+        "Match: drag the ticket onto the tray that shows the number, then press Check. In the settings, choose the job and tidy or jumbled blocks."
       ],
       "learningGoals": [
-        "Understand hundreds, tens, and ones in three-digit numbers — the focus of Common Core 2.NBT.A.1",
-        "Connect each digit to its place value and quantity",
-        "Build the place-value base for adding, subtracting, and comparing larger numbers"
+        "Understand that the digits of a three-digit number stand for hundreds, tens and ones — the focus of Common Core 2.NBT.A.1.",
+        "Know that a place can hold at most nine, and that ten of one place make one of the next.",
+        "Write a 0 for an empty place and see why leaving it out changes the number."
       ]
     },
     "place-value.tens-and-ones.1-nbt-b-2": {

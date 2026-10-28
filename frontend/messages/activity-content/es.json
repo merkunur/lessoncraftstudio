@@ -3159,25 +3159,25 @@
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {
       "about": [
-        "Toca una placa, una barra o un cubo y observa cómo crece un número de tres dígitos mientras se apilan los bloques de base diez: placas de cien, barras de diez y cubos de uno que arman números desde 108 hasta 974, incluyendo ceros engañosos como 200, 305 y 906. Es una actividad de matemáticas interactiva para 2.º de primaria que corre directamente en el navegador, sin cuenta.",
-        "La idea central es que los tres dígitos de un número representan centenas, decenas y unidades. Para construir 463, el niño o la niña necesita cuatro placas de cien, seis barras de diez y tres cubos de uno; ver cómo se acumulan los bloques liga cada dígito con una cantidad real. Números como 305 y 906 enseñan, sin hacer ruido, que un cero significa que no hay nada de ese lugar —ninguna barra de diez—, que es justo donde suele empezar la confusión con el valor posicional. Es una actividad para segundo grado.",
-        "Está alineada con los planes y programas de estudio (SEP): comprender que los tres dígitos de un número de tres cifras representan cantidades de centenas, decenas y unidades. Sin temporizador y sin puntuación, con práctica tranquila."
+        "El tablero de tapas tiene tres columnas, centenas, decenas y unidades, y solo se cierra cuando cada columna lleva una tapa con una cifra. Una tapa solo lleva una cifra, así que una columna admite como máximo nueve bloques: el décimo cubo se rechaza, porque diez unidades forman una decena. El niño construye un número como 604 con placas, barras y cubos, y al revisar, las tapas caen sobre las columnas y leen exactamente lo que se construyó.",
+        "Lo central es la columna vacía. Una columna sin bloques también necesita su tapa del 0. Si se deja sin tapa, se cierra, las demás tapas se juntan y 307 se lee 37 en la pantalla. Es el error que cometen los niños al escribir números con un cero, hecho visible. En la tarea leer, el niño pone las tapas sobre unos bloques dados, y en la tarea emparejar arrastra la etiqueta del número hasta la bandeja que lo muestra. Después de un segundo error, unos contornos muestran los bloques que faltan, unas cruces marcan los que sobran y en la columna vacía aparece una tapa del 0 tenue.",
+        "La actividad sigue los planes y programas de la SEP para segundo grado: comprender que las cifras de un número hasta 1000 representan centenas, decenas y unidades, también en números con un cero como 307 y 604. Funciona sin sonido, sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Construir un número de tres dígitos con las centenas, decenas y unidades correctas.",
-        "Conectar cada dígito con una cantidad de placas, barras o cubos.",
-        "Entender que un cero en un lugar significa que no hay nada de esa unidad.",
-        "Leer números de tres dígitos hasta las centenas."
+        "Construir números de tres cifras con placas, barras y cubos",
+        "Leer un conjunto de bloques como un número de tres cifras",
+        "Escribir un 0 cuando un lugar está vacío, como en 307 y 604",
+        "Emparejar un número con los bloques que lo muestran, aunque estén revueltos"
       ],
       "howToPlay": [
-        "Lee el número que hay que construir, como 463.",
-        "Toca para agregar placas de cien, barras de diez y cubos de uno hasta que los bloques formen ese número.",
-        "Mira cómo crece el número; avanza sin temporizador ni puntuación."
+        "Construir: toca + y − debajo de cada columna hasta que el tablero muestre el número, luego Revisar, y lee las tapas.",
+        "Leer: toca el lugar de una columna y luego la tapa con su cifra; una columna vacía lleva la tapa del 0. Si los bloques están revueltos, primero toca cada montón para que vaya a su columna.",
+        "Emparejar: arrastra la etiqueta hasta la bandeja que muestra el número y toca Revisar. En la configuración eliges la tarea y bloques ordenados o revueltos."
       ],
       "learningGoals": [
-        "Tu hijo o hija puede comprender las centenas, decenas y unidades en los números de tres dígitos.",
-        "El niño o la niña aprende a conectar cada dígito con su valor posicional y su cantidad.",
-        "Construye la base de valor posicional para sumar, restar y comparar números más grandes."
+        "Comprender que las cifras de un número de tres cifras representan centenas, decenas y unidades.",
+        "Saber que en un lugar caben como máximo nueve y que diez de un lugar forman uno del siguiente.",
+        "Escribir un 0 en un lugar vacío y ver por qué el número cambia si falta."
       ]
     },
     "ten-frame.show-the-operation.k-oa-a-1": {

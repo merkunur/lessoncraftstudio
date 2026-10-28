@@ -823,25 +823,25 @@
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {
       "about": [
-        "Trykk på en plate, en stav eller en terning og se et tresifret tall vokse etter hvert som titallsblokkene stables — hundrerplater, tierstaver og enerterninger bygger tall fra 108 til 974, blant annet vanskelige nuller som 200, 305 og 906. Det er en interaktiv matteaktivitet for 2. trinn som kjøres rett i nettleseren uten konto.",
-        "Den store ideen er at de tre sifrene i et tall står for hundrere, tiere og enere. For å bygge 463 trenger barnet fire hundrerplater, seks tierstaver og tre enerterninger, og når blokkene hoper seg opp, knyttes hvert siffer til en virkelig mengde. Tall som 305 og 906 lærer stille at et null betyr ingen av den plassen — ingen tierstaver i det hele tatt — og det er nettopp der forvirringen rundt plassverdi ofte begynner.",
-        "Aktiviteten følger LK20 innenfor tall og regning på 2. trinn — å forstå at de tre sifrene i et tresifret tall står for antall hundrere, tiere og enere. Ingen tidtaker, ingen poeng, bare rolig og lekende øving."
+        "Korkmatta har tre kolonner, hundrere, tiere og enere, og lukker seg først når hver kolonne har en kork med et siffer. En kork har plass til bare ett siffer, så en kolonne tar høyst ni klosser: Den tiende kuben blir avvist, for ti enere er én tier. Barnet bygger et tall som 604 med plater, staver og kuber, og ved Sjekk faller korkene ned på kolonnene og viser nøyaktig det som ble bygd.",
+        "Kjernen er den tomme kolonnen. En kolonne uten klosser trenger likevel korken sin med 0. Står den uten kork, klapper den sammen, de andre korkene glir inntil hverandre, og 307 blir 37 på skjermen. Det er feilen barn gjør når de skriver tall med null, gjort synlig. I oppgaven lese av setter barnet korker på gitte klosser, og i oppgaven pare drar det tallappen bort på brettet som viser tallet. Etter en ny bom viser omriss klossene som mangler, kryss markerer dem det er for mange av, og en blek kork med 0 dukker opp på den tomme kolonnen.",
+        "Aktiviteten er knyttet til LK20 (kompetansemål etter 3. trinn): å forstå at sifrene i et tall opp til 1000 står for hundrere, tiere og enere, også i tall med null som 307 og 604. Den virker uten lyd, og det er verken tidtaking eller poeng."
       ],
       "practices": [
-        "Bygge et tresifret tall med riktige hundrere, tiere og enere.",
-        "Koble hvert siffer til en mengde plater, staver eller terninger.",
-        "Forstå at et null på en plass betyr ingen av den enheten.",
-        "Lese tresifrede tall opp til hundrerne."
+        "Bygge tresifrede tall med plater, staver og kuber",
+        "Lese av en samling klosser som et tresifret tall",
+        "Skrive 0 for en tom plass, som i 307 og 604",
+        "Pare et tall med klossene som viser det, også når klossene ligger hulter til bulter"
       ],
       "howToPlay": [
-        "Les måltallet, for eksempel 463.",
-        "Trykk for å legge til hundrerplater, tierstaver og enerterninger til blokkene viser det tallet.",
-        "Se tallet vokse; gå videre uten tidtaker og uten poeng."
+        "Bygge: Trykk på + og − under hver kolonne til matta viser tallet, trykk så på Sjekk og les korkene.",
+        "Lese av: Trykk på plassen til en kolonne og så på korken med sifferet; en tom kolonne får korken med 0. Ligger klossene hulter til bulter, trykker du først på hver haug så den havner i kolonnen sin.",
+        "Pare: Dra lappen bort på brettet som viser tallet, og trykk på Sjekk. I innstillingene velger du oppgave og ryddige klosser eller klosser hulter til bulter."
       ],
       "learningGoals": [
-        "Barnet forstår hundrere, tiere og enere i tresifrede tall.",
-        "Barnet kan koble hvert siffer til plassverdien og mengden sin.",
-        "Barnet bygger plassverdigrunnlaget for å legge sammen, trekke fra og sammenligne større tall."
+        "Forstå at sifrene i et tresifret tall står for hundrere, tiere og enere.",
+        "Vite at det høyst kan stå ni på en plass, og at ti av én plass blir én av den neste.",
+        "Skrive 0 for en tom plass og se hvorfor tallet endrer seg uten den."
       ]
     },
     "ten-frame.show-the-operation.k-oa-a-1": {

@@ -2982,25 +2982,25 @@
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {
       "about": [
-        "L'enfant touche une plaque, une barre ou un cube et regarde un nombre à trois chiffres grandir à mesure que les blocs de base dix s'empilent — des plaques de cent, des barres de dix et des cubes-unités qui construisent des nombres de 108 à 974, y compris des cas piégeux avec des zéros comme 200, 305 ou 906. C'est une activité de maths interactive pour le CE1, qui se joue directement dans le navigateur, sans compte à créer.",
-        "La grande idée, c'est que les trois chiffres d'un nombre représentent des centaines, des dizaines et des unités. Pour construire 463, l'enfant a besoin de quatre plaques de cent, six barres de dix et trois cubes-unités, et voir les blocs s'accumuler relie chaque chiffre à une vraie quantité. Des nombres comme 305 et 906 enseignent discrètement qu'un zéro signifie « rien à cette place » — aucune barre de dix — ce qui est précisément là où la numération commence souvent à se brouiller.",
-        "Cette activité de CE1 est alignée sur les programmes officiels : comprendre que les trois chiffres d'un nombre à trois chiffres représentent des centaines, des dizaines et des unités. Ni minuteur, ni score — juste une pratique calme et ludique."
+        "Le tableau à bouchons a trois colonnes, centaines, dizaines et unités, et ne se ferme que lorsque chaque colonne porte un bouchon avec un chiffre. Un bouchon ne porte qu’un seul chiffre, donc une colonne accepte au plus neuf blocs : le dixième cube est refusé, car dix unités font une dizaine. L’enfant construit un nombre comme 604 avec des plaques, des barres et des cubes, et au moment de vérifier, les bouchons tombent sur les colonnes et affichent exactement ce qui a été construit.",
+        "Le cœur de l’activité, c’est la colonne vide. Une colonne sans bloc a quand même besoin de son bouchon 0. Si on la laisse sans bouchon, elle se replie, les autres bouchons se rapprochent et 307 devient 37 à l’écran. C’est l’erreur que font les enfants en écrivant un nombre avec un zéro, rendue visible. Dans la tâche lire, l’enfant pose les bouchons sur des blocs donnés, et dans la tâche associer, il fait glisser l’étiquette du nombre sur le plateau qui le montre. Après une deuxième erreur, des contours montrent les blocs qui manquent, des croix marquent ceux qui sont en trop et un bouchon 0 pâle apparaît sur la colonne vide.",
+        "L’activité suit les programmes officiels du CE1 : comprendre que les chiffres d’un nombre jusqu’à 1 000 désignent des centaines, des dizaines et des unités, y compris dans les nombres avec un zéro comme 307 et 604. Elle fonctionne sans le son, sans chronomètre et sans score."
       ],
       "practices": [
-        "Construire un nombre à trois chiffres avec le bon nombre de centaines, dizaines et unités.",
-        "Relier chaque chiffre à une quantité de plaques, de barres ou de cubes.",
-        "Comprendre qu'un zéro à une place signifie « aucune unité de ce rang ».",
-        "Lire les nombres à trois chiffres jusqu'aux centaines."
+        "Construire des nombres à trois chiffres avec des plaques, des barres et des cubes",
+        "Lire une collection de blocs comme un nombre à trois chiffres",
+        "Écrire un 0 pour un rang vide, comme dans 307 et 604",
+        "Associer un nombre aux blocs qui le montrent, même quand ils sont en désordre"
       ],
       "howToPlay": [
-        "Lis le nombre à construire, par exemple 463.",
-        "Touche pour ajouter des plaques de cent, des barres de dix et des cubes-unités jusqu'à ce que les blocs forment ce nombre.",
-        "Regarde le nombre grandir ; passe à la suite sans minuteur ni score."
+        "Construire : touche + et − sous chaque colonne jusqu’à ce que le tableau montre le nombre, puis Vérifier, et lis les bouchons.",
+        "Lire : touche l’emplacement d’une colonne, puis le bouchon avec son chiffre ; une colonne vide reçoit le bouchon 0. Si les blocs sont mélangés, touche d’abord chaque tas pour le ranger dans sa colonne.",
+        "Associer : fais glisser l’étiquette sur le plateau qui montre le nombre, puis Vérifier. Dans les réglages, choisis la tâche et des blocs rangés ou mélangés."
       ],
       "learningGoals": [
-        "Comprendre les centaines, dizaines et unités dans les nombres à trois chiffres.",
-        "Relier chaque chiffre à sa valeur de position et à sa quantité.",
-        "Construire la base de la numération pour additionner, soustraire et comparer de plus grands nombres."
+        "Comprendre que les chiffres d’un nombre à trois chiffres désignent des centaines, des dizaines et des unités.",
+        "Savoir qu’un rang contient au plus neuf et que dix d’un rang font un du rang suivant.",
+        "Écrire un 0 pour un rang vide et voir pourquoi l’oublier change le nombre."
       ]
     },
     "ten-frame.show-the-operation.k-oa-a-1": {

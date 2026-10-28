@@ -2103,25 +2103,25 @@
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {
       "about": [
-        "Tocca una piastra, una barra o un cubo e guarda crescere un numero di tre cifre man mano che si impilano i blocchi in base dieci — piastre da cento, barre da dieci e cubi da uno — costruendo numeri da 108 a 974, compresi gli zeri insidiosi come 200, 305 e 906. È un'attività di matematica interattiva per la classe seconda, che funziona direttamente nel browser senza account.",
-        "L'idea importante è che le tre cifre di un numero rappresentano centinaia, decine e unità. Per costruire 463 servono quattro piastre da cento, sei barre da dieci e tre cubi da uno, e vedere i blocchi accumularsi lega ogni cifra a una quantità reale. Numeri come 305 e 906 insegnano in silenzio che uno zero significa nessuno di quel posto — nessuna barra da dieci — ed è proprio lì che di solito nasce la confusione sul valore posizionale.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito del valore posizionale: comprendere che le tre cifre di un numero di tre cifre rappresentano quantità di centinaia, decine e unità. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
+        "La tabella a tappi ha tre colonne, centinaia, decine e unità, e si chiude solo quando ogni colonna porta un tappo con una cifra. Un tappo porta una sola cifra, quindi una colonna accetta al massimo nove blocchi: il decimo cubetto viene rifiutato, perché dieci unità fanno una decina. Il bambino costruisce un numero come 604 con quadrati, barrette e cubetti e, al controllo, i tappi scendono sulle colonne e mostrano esattamente ciò che è stato costruito.",
+        "Il cuore dell’attività è la colonna vuota. Anche una colonna senza blocchi ha bisogno del suo tappo dello 0. Se resta scoperta si chiude, gli altri tappi si avvicinano e 307 diventa 37 sullo schermo. È l’errore che i bambini fanno scrivendo numeri con lo zero, reso visibile. Nel compito leggere il bambino mette i tappi su blocchi già dati, nel compito abbinare trascina il cartellino del numero sul vassoio che lo mostra. Dopo un secondo errore, delle sagome mostrano i blocchi che mancano, delle croci segnano quelli in più e sulla colonna vuota compare un tappo dello 0 sbiadito.",
+        "L’attività segue le Indicazioni nazionali per la classe terza, nel nucleo Numeri: capire che le cifre di un numero entro il 1000 indicano centinaia, decine e unità, anche nei numeri con lo zero come 307 e 604. Funziona senza audio, senza cronometro e senza punteggi."
       ],
       "practices": [
-        "Costruire un numero di tre cifre con le giuste centinaia, decine e unità.",
-        "Collegare ogni cifra a una quantità di piastre, barre o cubi.",
-        "Capire che uno zero in un posto significa nessuno di quell'unità.",
-        "Leggere numeri di tre cifre fino alle centinaia."
+        "Costruire numeri di tre cifre con quadrati, barrette e cubetti",
+        "Leggere un insieme di blocchi come un numero di tre cifre",
+        "Scrivere uno 0 per un posto vuoto, come in 307 e 604",
+        "Abbinare un numero ai blocchi che lo mostrano, anche quando sono alla rinfusa"
       ],
       "howToPlay": [
-        "Leggi il numero da costruire, come 463.",
-        "Tocca per aggiungere piastre da cento, barre da dieci e cubi da uno finché i blocchi formano quel numero.",
-        "Guarda il numero crescere; vai avanti senza timer e senza punteggio."
+        "Costruire: tocca + e − sotto ogni colonna finché la tabella mostra il numero, poi Controlla, e leggi i tappi.",
+        "Leggere: tocca il posto di una colonna e poi il tappo con la sua cifra; una colonna vuota riceve il tappo dello 0. Con i blocchi alla rinfusa, prima tocca ogni mucchietto perché vada nella sua colonna.",
+        "Abbinare: trascina il cartellino sul vassoio che mostra il numero e tocca Controlla. Nelle impostazioni scegli il compito e blocchi in ordine o alla rinfusa."
       ],
       "learningGoals": [
-        "Comprendere centinaia, decine e unità nei numeri di tre cifre.",
-        "Collegare ogni cifra al suo valore posizionale e alla sua quantità.",
-        "Costruire le basi del valore posizionale per addizionare, sottrarre e confrontare numeri più grandi."
+        "Capire che le cifre di un numero di tre cifre indicano centinaia, decine e unità.",
+        "Sapere che in un posto ci stanno al massimo nove e che dieci di un posto fanno uno del posto successivo.",
+        "Scrivere uno 0 in un posto vuoto e vedere perché senza di esso il numero cambia."
       ]
     },
     "ten-frame.show-the-operation.k-oa-a-1": {

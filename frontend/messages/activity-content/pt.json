@@ -1595,25 +1595,25 @@
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {
       "about": [
-        "Construir um número de três algarismos com placas, barras e cubinhos é o que esta atividade interativa de matemática para o 2º ano propõe. A criança toca em uma placa de cem, uma barra de dez ou um cubinho e vê o número crescer conforme o material dourado se empilha — montando alvos de 108 a 974, incluindo números difíceis com zero, como 200, 305 e 906. Tudo roda no navegador, sem conta.",
-        "A grande ideia é que os três algarismos de um número representam centenas, dezenas e unidades. Para construir 463, a criança precisa de quatro placas de cem, seis barras de dez e três cubinhos, e ver o material se acumular liga cada algarismo a uma quantidade de verdade. Números como 305 e 906 ensinam discretamente que um zero significa nada naquela ordem — nenhuma barra de dez — que é justamente onde costuma começar a confusão com valor posicional.",
-        "A atividade está alinhada à BNCC, no entendimento de que os três algarismos de um número de três dígitos representam quantidades de centenas, dezenas e unidades. Sem cronômetro e sem pontuação — é prática calma e divertida."
+        "O tabuleiro de tampas tem três colunas, centenas, dezenas e unidades, e só se fecha quando cada coluna tem uma tampa com um algarismo. Uma tampa só tem um algarismo, por isso uma coluna aceita no máximo nove blocos: o décimo cubinho é recusado, porque dez unidades formam uma dezena. A criança monta um número como 604 com placas, barras e cubinhos e, ao conferir, as tampas caem sobre as colunas e mostram exatamente o que foi montado.",
+        "O ponto central é a coluna vazia. Uma coluna sem blocos também precisa da tampa do 0. Se ficar sem tampa, ela se fecha, as outras tampas se juntam e 307 vira 37 na tela. É o erro que as crianças cometem ao escrever números com zero, só que visível. Na tarefa ler, a criança coloca as tampas sobre blocos já dados e, na tarefa combinar, arrasta a etiqueta do número até a bandeja que o mostra. Depois de um segundo erro, contornos mostram os blocos que faltam, cruzes marcam os que sobram e uma tampa do 0 bem clarinha aparece na coluna vazia.",
+        "A atividade segue a BNCC para o 2º ano, na unidade temática Números: compor e decompor números de até três ordens em centenas, dezenas e unidades, inclusive números com zero como 307 e 604. Funciona sem som, sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Construir um número de três algarismos com as centenas, dezenas e unidades certas.",
-        "Relacionar cada algarismo a uma quantidade de placas, barras ou cubinhos.",
-        "Entender que um zero numa ordem significa nada daquela unidade.",
-        "Ler números de três algarismos até as centenas."
+        "Montar números de três algarismos com placas, barras e cubinhos",
+        "Ler um conjunto de blocos como um número de três algarismos",
+        "Escrever um 0 para uma ordem vazia, como em 307 e 604",
+        "Combinar um número com os blocos que o mostram, mesmo com os blocos misturados"
       ],
       "howToPlay": [
-        "Leia o número alvo, como 463.",
-        "Toque para acrescentar placas de cem, barras de dez e cubinhos até o material formar esse número.",
-        "Veja o número crescer e siga em frente, sem cronômetro e sem pontuação."
+        "Construir: toque em + e − embaixo de cada coluna até o tabuleiro mostrar o número, depois em Conferir, e leia as tampas.",
+        "Ler: toque no lugar de uma coluna e depois na tampa com o algarismo dela; uma coluna vazia recebe a tampa do 0. Com os blocos misturados, primeiro toque em cada monte para ele ir para a sua coluna.",
+        "Combinar: arraste a etiqueta até a bandeja que mostra o número e toque em Conferir. Nas configurações, escolha a tarefa e blocos organizados ou misturados."
       ],
       "learningGoals": [
-        "A criança entende as centenas, dezenas e unidades nos números de três algarismos.",
-        "A criança relaciona cada algarismo ao seu valor posicional e à sua quantidade.",
-        "A criança constrói a base de valor posicional para somar, subtrair e comparar números maiores."
+        "Compreender que os algarismos de um número de três algarismos representam centenas, dezenas e unidades.",
+        "Saber que uma ordem tem no máximo nove e que dez de uma ordem formam um da ordem seguinte.",
+        "Escrever um 0 numa ordem vazia e ver por que o número muda sem ele."
       ]
     },
     "ten-frame.show-the-operation.k-oa-a-1": {

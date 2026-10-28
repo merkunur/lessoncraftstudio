@@ -92,8 +92,8 @@
   },
   {
     "id": "place-value.hundreds-tens-and-ones.2-nbt-a-1",
-    "tool": "place-value-activity",
-    "task_template": "build-hundreds-tens-and-ones",
+    "tool": "capped-mat-activity",
+    "task_template": "capped-mat",
     "alignment": {
       "framework": "CCSS",
       "code": "2.NBT.A.1",

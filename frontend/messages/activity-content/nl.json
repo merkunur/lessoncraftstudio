@@ -3818,25 +3818,25 @@
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {
       "about": [
-        "Tik op een honderdplaat, een tienstaaf of een blokje en kijk hoe een getal van drie cijfers groeit terwijl de MAB-blokken zich opstapelen — honderdplaten, tienstaven en losse blokjes bouwen getallen van 108 tot 974, met lastige nullen zoals 200, 305 en 906. Het is een interactieve rekenactiviteit voor groep 4 die direct in de browser speelt, zonder account.",
-        "Het grote idee is dat de drie cijfers van een getal staan voor honderdtallen, tientallen en eenheden. Om 463 te bouwen heeft het kind vier honderdplaten, zes tienstaven en drie blokjes nodig, en door de blokken te zien opstapelen wordt elk cijfer aan een echte hoeveelheid gekoppeld. Getallen als 305 en 906 leren stilletjes dat een nul betekent: niets van die plaats — helemaal geen tienstaven. Dat is precies waar verwarring over plaatswaarde meestal begint.",
-        "De activiteit sluit aan bij de SLO-kerndoelen binnen het domein Getallen en bewerkingen: begrijpen dat de drie cijfers van een getal van drie cijfers staan voor honderdtallen, tientallen en eenheden. Dit hoort bij groep 4 (7-8 jaar). Geen timer, geen score — gewoon rustig en speels oefenen."
+        "De doppenmat heeft drie kolommen, honderdtallen, tientallen en eenheden, en gaat pas dicht als elke kolom een dop met een cijfer draagt. Op een dop past maar één cijfer, dus een kolom neemt hoogstens negen blokken: het tiende blokje wordt geweigerd, want tien eenheden zijn één tiental. Het kind bouwt een getal als 604 met platen, staven en blokjes, en na een tik op Controleer vallen de doppen op de kolommen en laten ze precies zien wat er gebouwd is.",
+        "Het draait om de lege kolom. Een kolom zonder blokken heeft toch zijn dop met de 0 nodig. Blijft hij open, dan klapt hij dicht, schuiven de andere doppen tegen elkaar en staat er 37 in plaats van 307. Zo wordt de fout zichtbaar die kinderen maken bij het schrijven van getallen met een nul. Bij aflezen zet het kind doppen op gegeven blokken, bij koppelen sleept het het getalkaartje naar het dienblad dat dat getal laat zien. Na een tweede misser laten omtrekken de ontbrekende blokken zien, markeren kruisjes de blokken te veel en verschijnt er op de lege kolom een vage dop met de 0.",
+        "De activiteit sluit aan bij de SLO-kerndoelen en past in groep 5: begrijpen dat de cijfers van een getal tot 1000 staan voor honderdtallen, tientallen en eenheden, ook bij getallen met een nul zoals 307 en 604. Ze werkt zonder geluid, zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Een getal van drie cijfers bouwen met de juiste honderdtallen, tientallen en eenheden",
-        "Elk cijfer koppelen aan een hoeveelheid platen, staven of blokjes",
-        "Begrijpen dat een nul op een plaats betekent: niets van die eenheid",
-        "Getallen van drie cijfers tot in de honderdtallen lezen"
+        "Getallen van drie cijfers bouwen met platen, staven en blokjes",
+        "Een verzameling blokken aflezen als een getal van drie cijfers",
+        "Een 0 schrijven voor een lege plaats, zoals bij 307 en 604",
+        "Een getal koppelen aan de blokken die het laten zien, ook als ze door elkaar liggen"
       ],
       "howToPlay": [
-        "Lees het doelgetal, zoals 463.",
-        "Tik om honderdplaten, tienstaven en blokjes toe te voegen tot de blokken dat getal vormen.",
-        "Kijk hoe het getal groeit en ga verder — er is geen timer en geen score."
+        "Bouwen: tik onder elke kolom op + en − tot de mat het getal laat zien, tik dan op Controleer en lees de doppen.",
+        "Aflezen: tik op de plek van een kolom en dan op de dop met zijn cijfer; een lege kolom krijgt de dop met de 0. Liggen de blokken door elkaar, tik dan eerst op elk hoopje zodat het naar zijn kolom gaat.",
+        "Koppelen: sleep het kaartje naar het dienblad dat het getal laat zien en tik op Controleer. In de instellingen kies je de opdracht en nette of door elkaar liggende blokken."
       ],
       "learningGoals": [
-        "Het kind begrijpt honderdtallen, tientallen en eenheden in getallen van drie cijfers.",
-        "Het kind koppelt elk cijfer aan zijn plaatswaarde en hoeveelheid.",
-        "Het kind legt de basis in plaatswaarde voor het optellen, aftrekken en vergelijken van grotere getallen."
+        "Begrijpen dat de cijfers van een getal van drie cijfers staan voor honderdtallen, tientallen en eenheden.",
+        "Weten dat er op een plaats hoogstens negen staan en dat tien van een plaats één van de volgende maken.",
+        "Een 0 schrijven op een lege plaats en zien waarom het getal verandert als die ontbreekt."
       ]
     },
     "ten-frame.show-the-operation.k-oa-a-1": {

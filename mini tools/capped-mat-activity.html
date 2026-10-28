@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Hundreds, Tens, and Ones — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- Shell, then the capped-mat core, then this activity (#149 The Capped Mat).
+       NOTE: bump ?v=N on EVERY change to capped-mat-*.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  <script src="/mini-tools/capped-mat-core.js?v=2"></script>
+  <script src="/mini-tools/capped-mat-activity.js?v=7"></script>
+  <script>
+    LCS.mount(CappedMatActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

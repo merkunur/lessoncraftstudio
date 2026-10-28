@@ -1058,25 +1058,25 @@
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {
       "about": [
-        "Hundreder, tiere og enere lader barnet trykke på en plade, en stang eller en terning og se et tresifret tal vokse, efterhånden som titalsklodserne stables — hundrede-plader, tier-stænger og ener-terninger bygger tal fra 108 til 974, også drilske tal med nul som 200, 305 og 906. Det er en interaktiv matematikaktivitet til 2. klasse, der kører direkte i browseren uden konto.",
-        "Den store idé er, at et tals tre cifre står for hundreder, tiere og enere. For at bygge 463 skal barnet bruge fire hundrede-plader, seks tier-stænger og tre ener-terninger, og når klodserne hober sig op, knytter hvert ciffer sig til en virkelig mængde. Tal som 305 og 906 lærer stille og roligt barnet, at et nul betyder ingen af den slags — slet ingen tier-stænger — og det er netop dér, forvirring om pladsværdi som regel begynder.",
-        "Aktiviteten følger Fælles Mål inden for området tal og pladsværdi: at forstå, at et tresifret tals tre cifre står for mængder af hundreder, tiere og enere. Den passer til 2. klasse. Der er ingen timer og ingen point — bare rolig, legende øvelse."
+        "Lågbrættet har tre kolonner, hundreder, tiere og enere, og lukker først, når hver kolonne har et låg med et ciffer. Der er kun plads til ét ciffer på et låg, så en kolonne kan højst rumme ni klodser: Den tiende terning bliver afvist, for ti enere er én tier. Barnet bygger et tal som 604 med plader, stænger og terninger, og ved Tjek falder lågene ned på kolonnerne og viser præcis det, der blev bygget.",
+        "Kernen er den tomme kolonne. En kolonne uden klodser skal stadig have sit låg med 0. Bliver den stående uden låg, klapper den sammen, de andre låg glider sammen, og 307 bliver til 37 på skærmen. Det er den fejl, børn laver, når de skriver tal med et nul, gjort synlig. I opgaven aflæse sætter barnet låg på givne klodser, og i opgaven parre trækker det talsedlen hen på den bakke, der viser tallet. Efter en anden fejl viser omrids de klodser, der mangler, krydser markerer dem, der er for mange, og et svagt låg med 0 kommer frem på den tomme kolonne.",
+        "Aktiviteten følger Fælles Mål (efter 3. klassetrin) og passer til 2. klasse: at forstå, at cifrene i et tal op til 1000 står for hundreder, tiere og enere, også i tal med et nul som 307 og 604. Den virker uden lyd, og der er hverken tidtagning eller point."
       ],
       "practices": [
-        "Bygge et tresifret tal med de rigtige hundreder, tiere og enere",
-        "Forbinde hvert ciffer med en mængde af plader, stænger eller terninger",
-        "Forstå, at et nul på en plads betyder ingen af den slags enhed",
-        "Aflæse tresifrede tal op til hundrederne"
+        "Bygge trecifrede tal med plader, stænger og terninger",
+        "Aflæse en samling klodser som et trecifret tal",
+        "Skrive et 0 for en tom plads, som i 307 og 604",
+        "Parre et tal med de klodser, der viser det, også når klodserne ligger hulter til bulter"
       ],
       "howToPlay": [
-        "Barnet læser måltallet, som 463.",
-        "Barnet trykker for at tilføje hundrede-plader, tier-stænger og ener-terninger, indtil klodserne danner tallet.",
-        "Barnet ser tallet vokse og kan gå videre i ro og mag — der er ingen timer og ingen point."
+        "Bygge: Tryk på + og − under hver kolonne, til brættet viser tallet, tryk så på Tjek, og læs lågene.",
+        "Aflæse: Tryk på en kolonnes plads og så på låget med dens ciffer; en tom kolonne får låget med 0. Ligger klodserne hulter til bulter, trykker du først på hver bunke, så den kommer over i sin kolonne.",
+        "Parre: Træk sedlen hen på den bakke, der viser tallet, og tryk på Tjek. I indstillingerne vælger du opgaven og ryddelige klodser eller klodser hulter til bulter."
       ],
       "learningGoals": [
-        "Barnet kan forstå hundreder, tiere og enere i tresifrede tal",
-        "Barnet kan forbinde hvert ciffer med dets pladsværdi og mængde",
-        "Barnet opbygger det pladsværdi-grundlag, som addition, subtraktion og sammenligning af større tal bygger på"
+        "Forstå, at cifrene i et trecifret tal står for hundreder, tiere og enere.",
+        "Vide, at der højst kan stå ni på en plads, og at ti af en plads giver én af den næste.",
+        "Skrive et 0 for en tom plads og se, hvorfor tallet ændrer sig uden det."
       ]
     },
     "ten-frame.show-the-operation.k-oa-a-1": {

@@ -933,24 +933,25 @@
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {
       "about": [
-        "Barnet trycker på en hundraplatta, en tiostav eller en enhetskub och ser ett tresiffrigt tal växa allteftersom basklossarna staplas — hundraplattor, tiostavar och enhetskuber som bygger upp tal från 108 till 974, inklusive kluriga nollor som 200, 305 och 906. Det är en interaktiv matteövning för årskurs 2 som körs direkt i webbläsaren utan konto.",
-        "Den stora idén är att ett tals tre siffror står för hundratal, tiotal och ental. För att bygga 463 behöver barnet fyra hundraplattor, sex tiostavar och tre enhetskuber, och att se blocken läggas på binder varje siffra till en verklig mängd. Tal som 305 och 906 lär stillsamt ut att en nolla betyder inget av det platsvärdet — inga tiostavar alls — och det är just där platsvärdesförvirring brukar börja. Aktiviteten passar årskurs 2 och följer Lgr22."
+        "Lockbrädan har tre kolumner, hundratal, tiotal och ental, och stängs först när varje kolumn har ett lock med en siffra. Ett lock rymmer bara en siffra, så en kolumn tar högst nio block: den tionde kuben avvisas, eftersom tio ental är ett tiotal. Barnet bygger ett tal som 604 med hundraplattor, tiostavar och entalskuber, och vid Kontrollera faller locken ner på kolumnerna och visar precis det som byggdes.",
+        "Kärnan är den tomma kolumnen. En kolumn utan block behöver ändå sitt lock med 0. Lämnas den utan lock viks den ihop, de andra locken glider ihop och 307 blir 37 på skärmen. Det är felet barn gör när de skriver tal med en nolla, synliggjort. I uppgiften läsa av sätter barnet lock på givna block, och i uppgiften para ihop drar det tallappen till brickan som visar talet. Efter ett andra fel visar konturer de block som saknas, kryss markerar dem som är för många och ett blekt lock med 0 syns på den tomma kolumnen.",
+        "Aktiviteten följer Lgr22 för åk 1–3 och passar i åk 3: att förstå att siffrorna i ett tal upp till 1000 står för hundratal, tiotal och ental, också i tal med en nolla som 307 och 604. Den fungerar utan ljud, och det finns ingen tidtagning och inga poäng."
       ],
       "practices": [
-        "Bygga ett tresiffrigt tal med rätt antal hundratal, tiotal och ental",
-        "Koppla varje siffra till en mängd plattor, stavar eller kuber",
-        "Förstå att en nolla på en plats betyder inget av den enheten",
-        "Läsa tresiffriga tal upp till hundratalen"
+        "Bygga tresiffriga tal med plattor, stavar och kuber",
+        "Läsa av en samling basblock som ett tresiffrigt tal",
+        "Skriva en nolla för en tom position, som i 307 och 604",
+        "Para ihop ett tal med blocken som visar det, även när blocken ligger huller om buller"
       ],
       "howToPlay": [
-        "Läs måltalet, som 463.",
-        "Tryck för att lägga till hundraplattor, tiostavar och enhetskuber tills blocken bildar talet.",
-        "Se talet växa; gå vidare utan tid och utan poäng."
+        "Bygga: tryck på + och − under varje kolumn tills brädan visar talet, tryck sedan på Kontrollera och läs locken.",
+        "Läsa av: tryck på en kolumns plats och sedan på locket med dess siffra; en tom kolumn får locket med 0. Ligger blocken huller om buller trycker du först på varje hög så att den hamnar i sin kolumn.",
+        "Para ihop: dra lappen till brickan som visar talet och tryck på Kontrollera. I inställningarna väljer du uppgift och block i ordning eller huller om buller."
       ],
       "learningGoals": [
-        "Barnet förstår hundratal, tiotal och ental i tresiffriga tal",
-        "Barnet kan koppla varje siffra till sitt platsvärde och sin mängd",
-        "Barnet bygger den platsvärdesgrund som behövs för att addera, subtrahera och jämföra större tal"
+        "Förstå att siffrorna i ett tresiffrigt tal står för hundratal, tiotal och ental.",
+        "Veta att en position rymmer högst nio och att tio av en position blir en av nästa.",
+        "Skriva en nolla för en tom position och se varför talet ändras utan den."
       ]
     },
     "ten-frame.show-the-operation.k-oa-a-1": {

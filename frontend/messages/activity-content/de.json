@@ -3605,25 +3605,25 @@
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {
       "about": [
-        "Tippe auf eine Platte, einen Stab oder einen Würfel und sieh zu, wie eine dreistellige Zahl wächst, während sich die Zehnersystem-Blöcke stapeln — Hunderterplatten, Zehnerstäbe und Einerwürfel bauen Zielzahlen von 108 bis 974 auf, samt kniffliger Nullen wie 200, 305 und 906. Diese interaktive Mathe-Übung für die 2. Klasse läuft ohne Konto direkt im Browser.",
-        "Die große Idee: Die drei Ziffern einer Zahl stehen für Hunderter, Zehner und Einer. Um 463 zu bauen, braucht das Kind vier Hunderterplatten, sechs Zehnerstäbe und drei Einerwürfel — und beim Zusehen, wie sich die Blöcke ansammeln, verbindet sich jede Ziffer mit einer echten Menge. Zahlen wie 305 und 906 zeigen ganz nebenbei, dass eine Null bedeutet: nichts an dieser Stelle — gar keine Zehnerstäbe. Genau dort beginnt sonst die Verwirrung beim Stellenwert.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Stellenwert für die 2. Klasse ausgerichtet — verstehen, dass die drei Ziffern einer dreistelligen Zahl Mengen an Hundertern, Zehnern und Einern darstellen. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+        "Die Deckel-Stellenwerttafel hat drei Spalten, Hunderter, Zehner und Einer, und schließt sich erst, wenn jede Spalte einen Deckel mit einer Ziffer trägt. Auf einen Deckel passt nur eine Ziffer, deshalb nimmt eine Spalte höchstens neun Blöcke: Der zehnte Würfel wird abgewiesen, denn zehn Einer sind ein Zehner. Das Kind baut eine Zahl wie 604 aus Hunderterplatten, Zehnerstangen und Einerwürfeln, und beim Prüfen fallen die Deckel auf die Spalten und zeigen genau das, was gebaut wurde.",
+        "Im Mittelpunkt steht die leere Spalte. Auch eine Spalte ohne Blöcke braucht ihren Deckel mit der 0. Bleibt sie offen, klappt sie zu, die anderen Deckel rücken zusammen, und aus 307 wird 37. So wird der Fehler sichtbar, den Kinder beim Schreiben von Zahlen mit einer Null machen. Beim Ablesen setzt das Kind die Deckel auf vorgegebene Blöcke, beim Zuordnen zieht es das Zahlenkärtchen auf das Tablett, dessen Blöcke diese Zahl zeigen. Nach einem zweiten Fehlversuch zeigen Umrisse die fehlenden Blöcke, Kreuze markieren die überzähligen, und auf der leeren Spalte erscheint ein blasser Deckel mit der 0.",
+        "Die Aktivität ist an den Lehrplänen für die 3. Klasse im Bereich Zahlen und Operationen ausgerichtet: Zahlen im Zahlenraum bis 1000 als Hunderter, Zehner und Einer verstehen, auch Zahlen mit einer Null wie 307 und 604. Sie funktioniert ohne Ton, und es gibt keinen Timer und keine Punkte."
       ],
       "practices": [
-        "Eine dreistellige Zahl mit den richtigen Hundertern, Zehnern und Einern bauen.",
-        "Jede Ziffer mit einer Menge aus Platten, Stäben oder Würfeln verbinden.",
-        "Verstehen, dass eine Null an einer Stelle „nichts davon\" bedeutet.",
-        "Dreistellige Zahlen bis in die Hunderter lesen."
+        "Dreistellige Zahlen mit Platten, Stangen und Würfeln bauen",
+        "Eine Menge aus Zehnersystem-Blöcken als dreistellige Zahl ablesen",
+        "Eine leere Stelle mit 0 schreiben, wie bei 307 und 604",
+        "Eine Zahl den passenden Blöcken zuordnen, auch wenn die Blöcke durcheinanderliegen"
       ],
       "howToPlay": [
-        "Lies die Zielzahl, etwa 463.",
-        "Tippe, um Hunderterplatten, Zehnerstäbe und Einerwürfel hinzuzufügen, bis die Blöcke diese Zahl ergeben.",
-        "Schau zu, wie die Zahl wächst, und mach weiter — ohne Timer und ohne Punkte."
+        "Bauen: Tippe unter jeder Spalte auf + und −, bis die Tafel die Zahl zeigt, dann auf Prüfen, und lies die Deckel.",
+        "Ablesen: Tippe auf den Platz einer Spalte und dann auf den Deckel mit ihrer Ziffer; eine leere Spalte bekommt den Deckel mit der 0. Bei durcheinanderliegenden Blöcken tippst du zuerst jeden Haufen an, damit er in seine Spalte wandert.",
+        "Zuordnen: Zieh das Kärtchen auf das Tablett, das die Zahl zeigt, und tippe auf Prüfen. In den Einstellungen wählst du die Aufgabe und ordentliche oder durcheinanderliegende Blöcke."
       ],
       "learningGoals": [
-        "Hunderter, Zehner und Einer in dreistelligen Zahlen verstehen.",
-        "Jede Ziffer mit ihrem Stellenwert und ihrer Menge verbinden.",
-        "Die Stellenwert-Grundlage für das Addieren, Subtrahieren und Vergleichen größerer Zahlen aufbauen."
+        "Verstehen, dass die Ziffern einer dreistelligen Zahl für Hunderter, Zehner und Einer stehen.",
+        "Wissen, dass an jeder Stelle höchstens neun stehen und dass zehn Einer einen Zehner und zehn Zehner einen Hunderter ergeben.",
+        "Für eine leere Stelle eine 0 schreiben und sehen, warum sich die Zahl ohne sie ändert."
       ]
     },
     "ten-frame.show-the-operation.k-oa-a-1": {

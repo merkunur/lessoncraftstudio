@@ -1464,24 +1464,25 @@
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {
       "about": [
-        "Napauta satalevyä, kymmensauvaa tai ykköskuutiota ja katso, miten kolminumeroinen luku kasvaa kymmenjärjestelmän palikoiden kertyessä — satalevyt, kymmensauvat ja ykköskuutiot rakentavat tavoitelukuja 108:sta 974:ään, mukana hankalia nollia kuten 200, 305 ja 906. Tämä on vuorovaikutteinen 2. luokan matematiikkaharjoitus, joka toimii suoraan selaimessa ilman tiliä.",
-        "Ydinajatus on, että luvun kolme numeroa tarkoittavat satoja, kymmeniä ja ykkösiä. Rakentaakseen luvun 463 lapsi tarvitsee neljä satalevyä, kuusi kymmensauvaa ja kolme ykköskuutiota, ja palikoiden kertymisen seuraaminen sitoo jokaisen numeron todelliseen lukumäärään. Luvut kuten 305 ja 906 opettavat huomaamatta, että nolla tarkoittaa, ettei sitä paikkaa ole lainkaan — ei yhtään kymmensauvaa — ja juuri siitä paikka-arvon sekaannus yleensä alkaa. Harjoitus on OPS 2014:n mukainen — ymmärretään, että kolminumeroisen luvun kolme numeroa esittävät satojen, kymmenten ja ykkösten määriä. 2. luokalle."
+        "Korkkitaulussa on kolme saraketta, sadat, kymmenet ja ykköset, ja se sulkeutuu vasta, kun jokaisessa sarakkeessa on korkki, jossa on numero. Korkkiin mahtuu vain yksi numero, joten sarakkeeseen mahtuu enintään yhdeksän palikkaa: kymmenes kuutio torjutaan, koska kymmenen ykköstä on yksi kymmen. Lapsi rakentaa luvun, esimerkiksi 604, satalevyistä, kymmensauvoista ja ykköskuutioista, ja Tarkista-painalluksella korkit putoavat sarakkeiden päälle ja näyttävät juuri sen, mitä rakennettiin.",
+        "Tärkeintä on tyhjä sarake. Myös sarake, jossa ei ole palikoita, tarvitsee 0-korkin. Jos se jää ilman korkkia, se taittuu kiinni, muut korkit liukuvat yhteen ja luvusta 307 tulee näytöllä 37. Näin näkyy virhe, jonka lapset tekevät kirjoittaessaan lukuja, joissa on nolla. Lue-tehtävässä lapsi laittaa korkit annettujen palikoiden päälle, ja yhdistä-tehtävässä hän vetää lukulapun sille tarjottimelle, joka näyttää luvun. Toisen virheen jälkeen ääriviivat näyttävät puuttuvat palikat, rastit merkitsevät ylimääräiset ja tyhjän sarakkeen päälle ilmestyy haalea 0-korkki.",
+        "Tehtävä tukee OPS 2014 -tavoitteita 2. luokalla: ymmärtää, että luvun numerot lukualueella 0–1000 tarkoittavat satoja, kymmeniä ja ykkösiä, myös luvuissa, joissa on nolla, kuten 307 ja 604. Se toimii ilman ääntä, eikä siinä ole ajanottoa tai pisteitä."
       ],
       "practices": [
-        "Rakentaa kolminumeroisen luvun oikeilla sadoilla, kymmenillä ja ykkösillä.",
-        "Yhdistää jokaisen numeron satalevyjen, kymmensauvojen tai ykköskuutioiden lukumäärään.",
-        "Ymmärtää, että nolla paikalla tarkoittaa, ettei sitä yksikköä ole lainkaan.",
-        "Lukee kolminumeroisia lukuja satoihin asti."
+        "Rakentaa kolminumeroisia lukuja levyistä, sauvoista ja kuutioista",
+        "Lukea palikkajoukko kolminumeroisena lukuna",
+        "Kirjoittaa 0 tyhjään kohtaan, kuten luvuissa 307 ja 604",
+        "Yhdistää luku palikoihin, jotka näyttävät sen, vaikka palikat olisivat sekaisin"
       ],
       "howToPlay": [
-        "Lue tavoiteluku, kuten 463.",
-        "Napauta lisätäksesi satalevyjä, kymmensauvoja ja ykköskuutioita, kunnes palikat muodostavat sen luvun.",
-        "Katso, miten luku kasvaa; etene rauhassa — ei ajastinta eikä pisteitä."
+        "Rakenna: napauta jokaisen sarakkeen alla + ja −, kunnes taulu näyttää luvun, paina sitten Tarkista ja lue korkit.",
+        "Lue: napauta sarakkeen paikkaa ja sitten korkkia, jossa on sen numero; tyhjä sarake saa 0-korkin. Jos palikat ovat sekaisin, napauta ensin jokaista kasaa, jotta se siirtyy omaan sarakkeeseensa.",
+        "Yhdistä: vedä lappu sille tarjottimelle, joka näyttää luvun, ja paina Tarkista. Asetuksista valitset tehtävän ja järjestyksessä olevat tai sekaisin olevat palikat."
       ],
       "learningGoals": [
-        "Lapsi ymmärtää sadat, kymmenet ja ykköset kolminumeroisissa luvuissa.",
-        "Lapsi yhdistää jokaisen numeron sen paikka-arvoon ja lukumäärään.",
-        "Lapsi rakentaa paikka-arvon perustan suurempien lukujen yhteen- ja vähennyslaskulle sekä vertailulle."
+        "Ymmärtää, että kolminumeroisen luvun numerot tarkoittavat satoja, kymmeniä ja ykkösiä.",
+        "Tietää, että yhteen kohtaan mahtuu enintään yhdeksän ja että kymmenen ykköstä on yksi kymmen ja kymmenen kymmentä on yksi sata.",
+        "Kirjoittaa 0 tyhjään kohtaan ja nähdä, miksi luku muuttuu ilman sitä."
       ]
     },
     "ten-frame.show-the-operation.k-oa-a-1": {

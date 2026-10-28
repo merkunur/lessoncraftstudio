@@ -1251,25 +1251,25 @@
     },
     "tally-squirrel.add-four.2-nbt-b-6": {
       "about": [
-        "Tally l’écureuil récolte des glands et remplit deux à quatre paniers. Sur chaque panier est écrit un nombre à deux chiffres — par exemple 23, 14, 11 et 8. Votre enfant additionne tous ces nombres, puis tape le total sur le clavier : une vraie petite histoire de calcul, toujours sous la barre des 100.",
-        "Pour y arriver sans se tromper, l’activité met en avant la bonne stratégie : le calcul par tranches, en ligne. On additionne d’abord toutes les dizaines, puis toutes les unités, et on rassemble le tout. Cette manière de faire s’appuie sur la numération et évite la surcharge de l’addition posée.",
-        "En jouant, votre enfant renforce le sens des dizaines et des unités et gagne en aisance dans le calcul mental — une base solide avant d’aborder l’addition posée à retenue du CE2 et du CM1. L’activité est interactive, pensée pour le CE1 dans le domaine « Nombres et calcul », sans chrono ni points, dans l’esprit des programmes officiels."
+        "Tally l’écureuil range ses glands dans des paniers, et chaque panier contient des godets de dix et quelques glands seuls. L’enfant renverse chaque panier sur le tamis de Tally puis le secoue : les glands seuls tombent par les trous dans un bac à rigoles de dix, tandis que les godets de dix, trop longs, restent dessus. Pour 15 + 22 + 34 + 11, toutes les dizaines se retrouvent ensemble sur le tamis (7 godets, 70) et toutes les unités ensemble dans le bac (12 glands). L’enfant écrit les godets, les glands seuls et le total, 82.",
+        "Une case fausse se voit tout de suite. Si l’enfant écrit 10 glands seuls pour 23 + 14, le bac n’en contient que 7. Après une erreur, les godets se comptent de dix en dix et chaque rigole affiche combien de glands elle contient ; après une deuxième erreur, chaque panier se sépare en dizaines et en unités, et les deux petites sommes s’affichent à côté du tamis et du bac. Une rigole pleine de dix glands se roule en un godet : c’est la dizaine cachée dans les unités. Avec le tissu, le tamis est couvert : l’enfant calcule à partir des nombres, et Vérifier soulève le tissu. Les réglages proposent aussi trois petits paniers (3 + 4 + 3 = 10) et un mur de nombres où chaque brique est la somme des deux en dessous (12, 15, 21 → 27, 36 → 63).",
+        "L’activité suit les programmes officiels du CE1 : additionner plusieurs nombres à deux chiffres en s’appuyant sur les dizaines et les unités. Elle fonctionne sans le son, sans chronomètre et sans score."
       ],
       "practices": [
-        "Additionner plusieurs nombres à deux chiffres, avec des sommes inférieures à 100.",
-        "Calculer par tranches : d’abord toutes les dizaines, puis toutes les unités.",
-        "Regrouper les nombres astucieusement pour aller plus vite.",
-        "Consolider le sens des dizaines et des unités."
+        "Additionner jusqu’à quatre nombres à deux chiffres jusqu’à 100.",
+        "Additionner toutes les dizaines, puis toutes les unités, puis tout réunir.",
+        "Voir que dix unités font une dizaine.",
+        "Compléter un mur de nombres où chaque brique est la somme des deux en dessous."
       ],
       "howToPlay": [
-        "Regarde combien de paniers Tally a remplis, et lis le nombre écrit sur chaque panier.",
-        "Additionne tout — de préférence d’abord les dizaines, puis les unités.",
-        "Tape le total ; si ce n’est pas encore ça, réessaie tranquillement."
+        "Touche chaque panier pour le renverser sur le tamis, puis secoue le tamis par sa poignée.",
+        "Écris combien de godets de dix, combien de glands seuls et combien en tout, puis appuie sur Vérifier.",
+        "Dans les réglages, choisis trois petits paniers, deux ou trois, jusqu’à quatre ou un mur de nombres, et mets le tissu ou enlève-le."
       ],
       "learningGoals": [
-        "Additionner deux à quatre nombres à deux chiffres jusqu’à 100.",
-        "Appliquer le calcul par tranches et comprendre pourquoi on sépare les dizaines et les unités.",
-        "Gagner en aisance et en confiance dans le calcul mental."
+        "Additionner plusieurs nombres à deux chiffres avec les dizaines et les unités.",
+        "Garder les dizaines avec les dizaines et les unités avec les unités, et échanger dix unités contre une dizaine.",
+        "Vérifier un total en voyant où chaque dizaine et chaque unité sont allées."
       ]
     },
     "pond-juice.pour-measure.3-md-a-2": {

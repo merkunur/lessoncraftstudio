@@ -3578,6 +3578,29 @@
         "Forstå, at minus gør plus om, og at plus gør minus om.",
         "Overslå en sum ved at runde af til tiere og tjekke, at det præcise resultat ligger tæt på."
       ]
+    },
+    "tally-squirrel.add-four.2-nbt-b-6": {
+      "about": [
+        "Egernet Tally gemmer agern i kurve, og i hver kurv er der bægre med ti og nogle løse agern. Barnet vælter hver kurv ud på Tallys si og ryster den: De løse agern falder gennem hullerne ned i en bakke med render til ti, mens bægrene med ti er for lange og bliver liggende ovenpå. Ved 15 + 22 + 34 + 11 ender alle tierne sammen på sien (7 bægre, 70) og alle enerne sammen i bakken (12 agern). Barnet skriver bægrene, de løse agern og det samlede antal, 82.",
+        "Et forkert felt kan man se med det samme. Skriver barnet 10 løse agern ved 23 + 14, ligger der kun 7 i bakken. Efter en fejl tæller bægrene sig selv i tiere og renderne i enere; efter en anden fejl deler hver kurv sig i tiere og enere, og de to små summer står ved siden af sien og bakken. En fuld rende med ti agern rulles sammen til et bæger – det er tieren, der gemmer sig i enerne. Med klædet på er sien dækket: Barnet regner ud fra tallene, og når man trykker på Tjek, ryger klædet af. I indstillingerne er der også tre små kurve (3 + 4 + 3 = 10) og en talmur, hvor hver sten er de to under den lagt sammen (12, 15, 21 → 27, 36 → 63).",
+        "Aktiviteten følger Fælles Mål (efter 3. klasse) og passer til 2. klasse: at lægge flere tocifrede tal sammen med tiere og enere. Den virker uden lyd, og der er hverken ur eller point."
+      ],
+      "practices": [
+        "Læg op til fire tocifrede tal sammen inden for 100.",
+        "Læg først alle tierne sammen, så alle enerne, og saml dem til sidst.",
+        "Se, at ti enere bliver til én tier.",
+        "Udfyld en talmur, hvor hver sten er de to under den lagt sammen."
+      ],
+      "howToPlay": [
+        "Tryk på hver kurv, så den vælter ud på sien, og ryst sien i håndtaget.",
+        "Skriv, hvor mange bægre med ti, hvor mange løse agern og hvor mange i alt, og tryk på Tjek.",
+        "I indstillingerne vælger du tre små kurve, to eller tre, op til fire eller en talmur, og slår klædet til eller fra."
+      ],
+      "learningGoals": [
+        "Læg flere tocifrede tal sammen med tiere og enere.",
+        "Hold tiere med tiere og enere med enere, og veksl ti enere til en tier.",
+        "Tjek et resultat ved at se, hvor hver tier og hver ener blev af."
+      ]
     }
   }
 }

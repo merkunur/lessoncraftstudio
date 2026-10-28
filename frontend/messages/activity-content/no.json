@@ -3604,6 +3604,29 @@
         "Forstå at subtraksjon opphever addisjon, og at addisjon opphever subtraksjon.",
         "Gjøre overslag over en sum ved å runde av til tiere og sjekke at det nøyaktige svaret ligger nær."
       ]
+    },
+    "tally-squirrel.add-four.2-nbt-b-6": {
+      "about": [
+        "Ekornet Tally har eikenøtter i kurver, og i hver kurv er det begre med ti og noen løse eikenøtter. Barnet tømmer hver kurv på Tallys sil og rister den: De løse eikenøttene faller gjennom hullene ned på et brett med renner for ti, mens begrene med ti er for lange og blir liggende oppå. Ved 15 + 22 + 34 + 11 havner alle tierne sammen på silen (7 begre, 70) og alle enerne sammen på brettet (12 eikenøtter). Barnet skriver begrene, de løse eikenøttene og summen 82.",
+        "En feil rute ser man med en gang. Skriver barnet 10 løse eikenøtter ved 23 + 14, ligger det bare 7 på brettet. Etter en feil teller begrene seg selv i tiere og rennene i enere; etter en feil til deler hver kurv seg i tiere og enere, og de to små summene står ved siden av silen og brettet. En full renne med ti eikenøtter rulles sammen til et beger – det er tieren som gjemmer seg i enerne. Med kledet på er silen dekket: Barnet regner med tallene, og når man trykker på Sjekk, forsvinner kledet. I innstillingene finnes også tre små kurver (3 + 4 + 3 = 10) og en tallmur der hver stein er de to under den lagt sammen (12, 15, 21 → 27, 36 → 63).",
+        "Aktiviteten er knyttet til LK20 for 2. trinn: legge sammen flere tosifrede tall ved hjelp av tiere og enere. Den virker uten lyd, og det er verken tidtaking eller poeng."
+      ],
+      "practices": [
+        "Legge sammen opptil fire tosifrede tall innenfor 100.",
+        "Legge sammen alle tierne først, så alle enerne, og til slutt slå dem sammen.",
+        "Se at ti enere blir én tier.",
+        "Fylle ut en tallmur der hver stein er de to under den lagt sammen."
+      ],
+      "howToPlay": [
+        "Trykk på hver kurv så den tømmes på silen, og rist silen i håndtaket.",
+        "Skriv hvor mange begre med ti, hvor mange løse eikenøtter og hvor mange til sammen, og trykk på Sjekk.",
+        "I innstillingene velger du tre små kurver, to eller tre, opptil fire eller en tallmur, og slår kledet på eller av."
+      ],
+      "learningGoals": [
+        "Legge sammen flere tosifrede tall med tiere og enere.",
+        "Holde tiere med tiere og enere med enere, og veksle ti enere til en tier.",
+        "Sjekke en sum ved å se hvor hver tier og hver ener ble av."
+      ]
     }
   }
 }

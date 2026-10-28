@@ -4191,25 +4191,25 @@
     },
     "tally-squirrel.add-four.2-nbt-b-6": {
       "about": [
-        "Tally the squirrel lines up two, three, or even four baskets of acorns and asks the child to add the two-digit numbers in all of them. Rounds grow from two baskets (23 + 14) to four full ones (21 + 14 + 32 + 11), and the child types the total on the keypad. It's an interactive Grade 2 math activity that runs right in the browser — nothing to install and no account.",
-        "The big idea is that adding several two-digit numbers is much easier when you lean on place value instead of counting up by ones. A child can add the tens of every basket, then add the ones, then put the parts together — or look for friendly pairs that make a ten. Because there are up to four addends in a single round, guessing falls apart fast; the child has to organize the numbers and keep track of the running total.",
-        "It is aligned to Common Core 2.NBT.B.6 — adding up to four two-digit numbers using strategies based on place value and the properties of operations. No timer, no score — just calm, playful practice."
+        "Tally the squirrel keeps acorns in baskets, and every basket holds cups of ten plus some loose acorns. The child tips each basket onto Tally's sieve and shakes it: the loose acorns drop through the holes into a tray with grooves of ten, while the cups of ten are too long to fit and stay on top. So for 15 + 22 + 34 + 11, all the tens end up together on the sieve (7 cups, 70) and all the ones end up together in the tray (12 acorns). The child writes the cups, the loose acorns and the total, 82.",
+        "A wrong window is easy to see. If the child writes 10 loose acorns for 23 + 14, the tray holds only 7. After a miss the cups count themselves in tens and each groove shows how many acorns it holds; after a second miss every basket splits into its tens and its ones, and the two small sums appear beside the sieve and the tray. A full groove of ten acorns rolls up into a cup, which is the ten hiding inside the ones. With the cloth on, the sieve is covered: the child works it out from the numbers, and Check lifts the cloth. Other settings offer three small baskets (3 + 4 + 3 = 10) and a number wall where each brick is the two below it (12, 15, 21 → 27, 36 → 63).",
+        "It is aligned to Common Core 2.NBT.B.6: add up to four two-digit numbers using strategies based on place value. It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Adding two, three, and four two-digit numbers to find one total",
-        "Adding the tens and the ones separately, then combining the parts",
-        "Spotting addends that pair to make a friendly ten",
-        "Keeping a running total accurate across several baskets"
+        "Adding up to four two-digit numbers within 100.",
+        "Adding all the tens, then all the ones, then putting them together.",
+        "Seeing that ten loose ones make one ten.",
+        "Building a number wall where each brick is the sum of the two below."
       ],
       "howToPlay": [
-        "Look at all of Tally's baskets and read the two-digit number on each one.",
-        "Add the numbers in every basket and type the total on the keypad, then press Check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Tap each basket to tip it onto the sieve, then shake the sieve with its handle.",
+        "Write how many cups of ten, how many loose acorns and how many in all, then press Check.",
+        "In the settings, choose three small baskets, two or three, up to four, or a number wall, and turn the cloth on or off."
       ],
       "learningGoals": [
-        "Add up to four two-digit numbers using place-value strategies — the focus of Common Core 2.NBT.B.6",
-        "Use the structure of tens and ones instead of counting by ones",
-        "Build the addition fluency that later multi-digit and column work depends on"
+        "Add up to four two-digit numbers using place value — the focus of Common Core 2.NBT.B.6.",
+        "Keep tens with tens and ones with ones, and regroup ten ones as a ten.",
+        "Check a total by seeing where every ten and every one actually went."
       ]
     },
     "tempo-day-plan.time-prepositions.l-1-1-i": {

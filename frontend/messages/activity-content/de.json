@@ -1369,25 +1369,25 @@
     },
     "tally-squirrel.add-four.2-nbt-b-6": {
       "about": [
-        "„Tally“ das Eichhörnchen sammelt Eicheln und füllt damit zwei bis vier Körbe. Auf jedem Korb steht eine zweistellige Zahl — zum Beispiel 23, 14, 11 und 8. Die Aufgabe für dein Kind: alle Zahlen in den Körben zusammenzählen und die Summe eintippen. So wird aus dem Sammeln eine echte Rechengeschichte im Zahlenraum bis 100.",
-        "Beim Addieren mehrerer zweistelliger Zahlen lohnt sich eine clevere Strategie: stellenweise rechnen. Dein Kind zählt erst alle Zehner zusammen, dann alle Einer — und fügt beides zum Ergebnis zusammen. Diese halbschriftliche Vorgehensweise stärkt das Stellenwertverständnis und das flexible Kopfrechnen, lange bevor das schriftliche Rechenverfahren in Klasse 3 an die Reihe kommt.",
-        "Die Aktivität ist vollständig interaktiv — passend zum Lehrplan der 2. Klasse im Bereich „Zahlen und Operationen“. Es gibt keinen Zeitdruck, keine Punkte und keine Bestenliste: Dein Kind rechnet in seinem eigenen Tempo, probiert Strategien aus und erlebt das Addieren als ruhige, freundliche Aufgabe."
+        "Tally, das Eichhörnchen, sammelt Eicheln in Körben, und in jedem Korb liegen Zehnerbecher und ein paar lose Eicheln. Das Kind kippt jeden Korb auf Tallys Sieb und schüttelt es: Die losen Eicheln fallen durch die Löcher in eine Schale mit Rinnen für je zehn, die Zehnerbecher sind zu lang und bleiben oben liegen. Bei 15 + 22 + 34 + 11 landen so alle Zehner zusammen auf dem Sieb (7 Becher, 70) und alle Einer zusammen in der Schale (12 Eicheln). Das Kind schreibt die Becher, die losen Eicheln und das Ergebnis 82 auf.",
+        "Ein falsches Kästchen sieht man sofort. Schreibt das Kind bei 23 + 14 zehn lose Eicheln auf, liegen in der Schale nur 7. Nach einem Fehler zählen sich die Becher in Zehnerschritten, und jede Rinne zeigt, wie viele Eicheln darin liegen; nach dem zweiten Fehler zerfällt jeder Korb in seine Zehner und Einer, und neben Sieb und Schale stehen die beiden kleinen Summen. Eine volle Rinne mit zehn Eicheln rollt sich zu einem Becher zusammen – das ist der Zehner, der in den Einern steckt. Mit Tuch ist das Sieb abgedeckt: Das Kind rechnet mit den Zahlen, und beim Prüfen fliegt das Tuch weg. In den Einstellungen gibt es auch drei kleine Körbe (3 + 4 + 3 = 10) und eine Zahlenmauer, in der jeder Stein die Summe der beiden darunter ist (12, 15, 21 → 27, 36 → 63).",
+        "Die Aktivität ist an den Lehrplänen für die 2. Klasse im Bereich Zahlen und Operationen ausgerichtet: mehrere zweistellige Zahlen addieren und dabei Zehner und Einer nutzen. Sie funktioniert ohne Ton, und es gibt keinen Timer und keine Punkte."
       ],
       "practices": [
-        "Mehrere zweistellige Zahlen im Zahlenraum bis 100 addieren.",
-        "Stellenweise (halbschriftlich) rechnen: erst die Zehner, dann die Einer zusammenzählen.",
-        "Zahlen geschickt bündeln und Rechenvorteile nutzen.",
-        "Das Stellenwertverständnis (Zehner und Einer) festigen."
+        "Bis zu vier zweistellige Zahlen bis 100 addieren.",
+        "Erst alle Zehner, dann alle Einer addieren und zum Schluss alles zusammenrechnen.",
+        "Erkennen, dass zehn lose Einer einen Zehner ergeben.",
+        "Eine Zahlenmauer füllen, in der jeder Stein die Summe der beiden darunter ist."
       ],
       "howToPlay": [
-        "Schau dir an, wie viele Körbe Tally gefüllt hat, und lies die Zahl auf jedem Korb.",
-        "Zähle alle Zahlen zusammen — am besten erst die Zehner, dann die Einer.",
-        "Tippe das Ergebnis ein. Stimmt es nicht ganz, probiere es in Ruhe noch einmal."
+        "Tippe jeden Korb an, damit er auf das Sieb kippt, und schüttle das Sieb am Griff.",
+        "Schreib auf, wie viele Zehnerbecher, wie viele lose Eicheln und wie viele es zusammen sind, und drück auf Prüfen.",
+        "In den Einstellungen wählst du drei kleine Körbe, zwei oder drei, bis zu vier oder eine Zahlenmauer und schaltest das Tuch an oder aus."
       ],
       "learningGoals": [
-        "Dein Kind kann zwei bis vier zweistellige Zahlen sicher bis 100 addieren.",
-        "Dein Kind wendet das stellenweise Addieren an und versteht, warum Zehner und Einer getrennt zusammengezählt werden.",
-        "Dein Kind gewinnt Sicherheit im Kopfrechnen und Vertrauen in eigene Rechenstrategien."
+        "Mehrere zweistellige Zahlen mit Zehnern und Einern addieren.",
+        "Zehner zu Zehnern und Einer zu Einern rechnen und zehn Einer zu einem Zehner bündeln.",
+        "Ein Ergebnis prüfen, indem man sieht, wo jeder Zehner und jeder Einer gelandet ist."
       ]
     },
     "sharing-jar.make-fair.1-oa-d-8": {

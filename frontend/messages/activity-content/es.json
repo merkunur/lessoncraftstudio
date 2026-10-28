@@ -2093,25 +2093,25 @@
     },
     "tally-squirrel.add-four.2-nbt-b-6": {
       "about": [
-        "Tally, la ardilla, es una recolectora incansable: cada otoño llena sus canastas de bellotas y las va acomodando por todo el bosque. En esta actividad, Tally junta 2, 3 o 4 canastas, y cada una lleva una etiqueta con un número de dos cifras, como 23, 14 u 11. La niña o el niño solo tiene que sumar todas las canastas y escribir el total.",
-        "Sumar números de dos cifras hasta 100 es más fácil con una idea sencilla: separar las decenas y las unidades. Primero se juntan todas las decenas de cada canasta, después todas las unidades, y al final se unen las dos partes para llegar al total. Así, en lugar de amontonar bellotas al azar, la mente se organiza y el cálculo fluye con calma.",
-        "Esta forma de sumar por valor posicional es propia de segundo grado de primaria (~7–8 años) y prepara el algoritmo formal con llevadas escritas, que en México llega hasta 3.º; aquí todo se resuelve mentalmente y sin llevadas en papel. La actividad funciona en el navegador y no tiene cronómetro ni puntos: solo Tally, sus canastas de bellotas y la satisfacción de encontrar el total."
+        "Tally la ardilla guarda bellotas en canastas, y cada canasta tiene vasitos de diez y algunas bellotas sueltas. El niño voltea cada canasta sobre el colador de Tally y lo sacude: las bellotas sueltas caen por los agujeros a una charola con canales de diez, y los vasitos de diez, que son demasiado largos, se quedan arriba. Así, en 15 + 22 + 34 + 11 todas las decenas quedan juntas en el colador (7 vasitos, 70) y todas las unidades juntas en la charola (12 bellotas). El niño escribe los vasitos, las bellotas sueltas y el total, 82.",
+        "Una ventanita equivocada se nota enseguida. Si el niño escribe 10 bellotas sueltas en 23 + 14, en la charola solo hay 7. Después de un error, los vasitos se cuentan de diez en diez y cada canal muestra cuántas bellotas tiene; después de un segundo error, cada canasta se separa en decenas y unidades, y las dos sumas pequeñas aparecen junto al colador y la charola. Un canal lleno de diez bellotas se convierte en un vasito: es la decena escondida en las unidades. Con la tela puesta, el colador está tapado: el niño lo resuelve con los números y Revisar quita la tela. En los ajustes también hay tres canastas pequeñas (3 + 4 + 3 = 10) y una pirámide de números donde cada ladrillo es la suma de los dos de abajo (12, 15, 21 → 27, 36 → 63).",
+        "La actividad sigue los planes y programas de la SEP para segundo grado: sumar varios números de dos cifras usando decenas y unidades. Funciona sin sonido, sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Sumar varios números de dos cifras, de 2 a 4 canastas a la vez, siempre en el rango hasta 100.",
-        "Usar la estrategia por valor posicional: juntar primero todas las decenas y luego todas las unidades.",
-        "Afianzar el valor posicional al reconocer con claridad las decenas y las unidades de cada número.",
-        "Agrupar con ingenio los números para calcular el total de forma mental y sin apuros."
+        "Sumar hasta cuatro números de dos cifras hasta 100.",
+        "Sumar todas las decenas, luego todas las unidades y después juntarlas.",
+        "Ver que diez unidades forman una decena.",
+        "Completar una pirámide de números donde cada ladrillo es la suma de los dos de abajo."
       ],
       "howToPlay": [
-        "Mira cuántas canastas llenó Tally y lee con calma el número de dos cifras de cada una.",
-        "Suma todos los números: primero junta las decenas y después las unidades para llegar al total.",
-        "Escribe el total en el recuadro y, si no queda a la primera, vuelve a intentarlo sin ninguna prisa."
+        "Toca cada canasta para voltearla sobre el colador y luego sacude el colador con su asa.",
+        "Escribe cuántos vasitos de diez, cuántas bellotas sueltas y cuántas en total, y presiona Revisar.",
+        "En los ajustes elige tres canastas pequeñas, dos o tres, hasta cuatro o una pirámide de números, y pon o quita la tela."
       ],
       "learningGoals": [
-        "Aprender a sumar de dos a cuatro números de dos cifras dentro del rango hasta 100.",
-        "Aplicar la suma por valor posicional y comprender por qué conviene juntar las decenas y las unidades por separado.",
-        "Ganar seguridad en el cálculo mental y confianza en sus propias estrategias para resolver sumas."
+        "Sumar varios números de dos cifras con decenas y unidades.",
+        "Juntar decenas con decenas y unidades con unidades, y cambiar diez unidades por una decena.",
+        "Comprobar un total viendo adónde fue cada decena y cada unidad."
       ]
     },
     "pond-juice.pour-measure.3-md-a-2": {

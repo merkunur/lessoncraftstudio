@@ -3577,6 +3577,29 @@
         "Ymmärtää, että vähennyslasku kumoaa yhteenlaskun ja yhteenlasku vähennyslaskun.",
         "Arvioida summa pyöristämällä kymmeniin ja tarkistaa, että tarkka vastaus on lähellä."
       ]
+    },
+    "tally-squirrel.add-four.2-nbt-b-6": {
+      "about": [
+        "Orava Tally säilyttää tammenterhoja koreissa, ja jokaisessa korissa on kymppikuppeja ja muutama irtonainen tammenterho. Lapsi kaataa jokaisen korin Tallyn seulalle ja ravistaa sitä: irtonaiset tammenterhot putoavat reikien läpi alustalle, jossa on kymmenen paikan kouruja, mutta kymppikupit ovat liian pitkiä ja jäävät päälle. Laskussa 15 + 22 + 34 + 11 kaikki kymmenet päätyvät yhdessä seulalle (7 kuppia, 70) ja kaikki ykköset yhdessä alustalle (12 tammenterhoa). Lapsi kirjoittaa kupit, irtonaiset tammenterhot ja yhteismäärän 82.",
+        "Väärän ruudun näkee heti. Jos lapsi kirjoittaa laskuun 23 + 14 kymmenen irtonaista tammenterhoa, alustalla on vain 7. Virheen jälkeen kupit laskevat itsensä kymmenittäin ja kourut ykkösittäin; toisen virheen jälkeen jokainen kori jakautuu kymmeniin ja ykkösiin, ja kaksi pientä summaa näkyy seulan ja alustan vieressä. Täysi kouru, jossa on kymmenen tammenterhoa, rullautuu kupiksi – se on ykkösiin kätkeytyvä kymmen. Kun liina on päällä, seula on peitossa: lapsi päättelee vastauksen luvuista, ja Tarkista vie liinan pois. Asetuksista löytyvät myös kolme pientä koria (3 + 4 + 3 = 10) ja lukumuuri, jossa jokainen kivi on sen alla olevien kahden summa (12, 15, 21 → 27, 36 → 63).",
+        "Tehtävä tukee OPS 2014 -tavoitteita 2. luokalla: useamman kaksinumeroisen luvun yhteenlasku kymmenten ja ykkösten avulla. Se toimii ilman ääntä, eikä siinä ole ajanottoa tai pisteitä."
+      ],
+      "practices": [
+        "Enintään neljän kaksinumeroisen luvun yhteenlasku 100:aan asti.",
+        "Ensin kaikki kymmenet, sitten kaikki ykköset ja lopuksi ne yhteen.",
+        "Sen huomaaminen, että kymmenen ykköstä on yksi kymmen.",
+        "Lukumuurin täyttäminen, kun jokainen kivi on sen alla olevien kahden summa."
+      ],
+      "howToPlay": [
+        "Napauta jokaista koria, niin se kaatuu seulalle, ja ravista seulaa kahvasta.",
+        "Kirjoita, montako kymppikuppia, montako irtonaista tammenterhoa ja montako yhteensä, ja paina Tarkista.",
+        "Valitse asetuksista kolme pientä koria, kaksi tai kolme, enintään neljä tai lukumuuri, ja laita liina päälle tai pois."
+      ],
+      "learningGoals": [
+        "Laskea yhteen useita kaksinumeroisia lukuja kymmenten ja ykkösten avulla.",
+        "Pitää kymmenet kymmenten ja ykköset ykkösten kanssa ja vaihtaa kymmenen ykköstä yhdeksi kymmeneksi.",
+        "Tarkistaa summa katsomalla, minne jokainen kymmen ja jokainen ykkönen meni."
+      ]
     }
   }
 }

@@ -2086,25 +2086,25 @@
     },
     "tally-squirrel.add-four.2-nbt-b-6": {
       "about": [
-        "Ekorren Kurre har fyllt sina korgar med ekollon, och på varje korg står ett tvåsiffrigt tal. I en omgång står två, tre eller fyra korgar framme — från 23 + 14 till 15 + 22 + 34 + 11 — och barnet lägger ihop alla talen och skriver summan på knappsatsen. Summan håller sig alltid inom 100.",
-        "Den stora idén är att flera tvåsiffriga tal blir mycket lättare att lägga ihop om man använder tiotal och ental i stället för att räkna uppåt ett steg i taget. Barnet kan addera alla tiotal först, sedan alla ental, och till sist sätta ihop delarna — eller leta efter tal som tillsammans blir ett helt tiotal. Med upp till fyra tal i samma omgång håller ingen gissning; talen måste ordnas.",
-        "I fem av de nio omgångarna blir entalen tillsammans fler än tio, så barnet får också öva på att hålla ihop det tiotal som uppstår på vägen. Aktiviteten är anpassad till Lgr22 och tränar naturliga tal och deras egenskaper samt metoder för addition inom talområdet 0–100. Den passar årskurs 2, körs direkt i webbläsaren utan nedladdning och utan konto, och har varken timer eller poäng."
+        "Ekorren Kurre har ekollon i korgar, och i varje korg finns tiomuggar och några lösa ekollon. Barnet tömmer varje korg på Kurres såll och skakar det: de lösa ekollonen faller genom hålen ner i en låda med rännor för tio, medan tiomuggarna är för långa och blir kvar ovanpå. Vid 15 + 22 + 34 + 11 hamnar alla tiotal tillsammans på sållet (7 muggar, 70) och alla ental tillsammans i lådan (12 ekollon). Barnet skriver muggarna, de lösa ekollonen och summan 82.",
+        "En fel ruta syns direkt. Skriver barnet 10 lösa ekollon vid 23 + 14 ligger det bara 7 i lådan. Efter ett fel räknar muggarna sig själva i tiotal och rännorna i ental; efter ett andra fel delar sig varje korg i tiotal och ental, och de två små summorna står bredvid sållet och lådan. En full ränna med tio ekollon rullas ihop till en mugg – det är tiotalet som gömmer sig i entalen. Med duken på är sållet täckt: barnet räknar med talen, och när man trycker på Kontrollera åker duken av. I inställningarna finns också tre små korgar (3 + 4 + 3 = 10) och en talmur där varje sten är de två under den tillsammans (12, 15, 21 → 27, 36 → 63).",
+        "Aktiviteten följer Lgr22 för åk 1–3 och passar i åk 2: addera flera tvåsiffriga tal med hjälp av tiotal och ental. Den fungerar utan ljud, och det finns ingen tidtagning och inga poäng."
       ],
       "practices": [
-        "Addera två, tre eller fyra tvåsiffriga tal till en enda summa",
-        "Lägga ihop tiotalen för sig och entalen för sig och sedan sätta ihop delarna",
-        "Hitta tal som tillsammans bildar ett helt tiotal",
-        "Hålla ordning på summan när entalen tillsammans blir fler än tio, inom talområdet 0–100"
+        "Addera upp till fyra tvåsiffriga tal inom 100.",
+        "Först addera alla tiotal, sedan alla ental och till sist lägga ihop dem.",
+        "Se att tio ental blir ett tiotal.",
+        "Fylla i en talmur där varje sten är de två under den tillsammans."
       ],
       "howToPlay": [
-        "Titta på Kurres korgar och läs det tvåsiffriga talet som står på varje korg.",
-        "Lägg ihop alla talen, skriv summan på knappsatsen och tryck sedan på Kontrollera.",
-        "Stämmer det inte? Pröva en gång till, så många gånger du vill — det finns varken timer eller poäng."
+        "Tryck på varje korg så att den töms på sållet, och skaka sållet i handtaget.",
+        "Skriv hur många tiomuggar, hur många lösa ekollon och hur många det är sammanlagt, och tryck på Kontrollera.",
+        "I inställningarna väljer du tre små korgar, två eller tre, upp till fyra eller en talmur, och sätter duken på eller av."
       ],
       "learningGoals": [
-        "Barnet kan addera upp till fyra tvåsiffriga tal inom talområdet 0–100.",
-        "Barnet kan använda tiotal och ental som strategi i stället för att räkna ett steg i taget.",
-        "Barnet kan hantera en summa där entalen tillsammans blir fler än tio, och bygger den additionsvana som senare uppställd räkning vilar på."
+        "Addera flera tvåsiffriga tal med tiotal och ental.",
+        "Hålla tiotal med tiotal och ental med ental, och växla tio ental till ett tiotal.",
+        "Kontrollera en summa genom att se vart varje tiotal och varje ental tog vägen."
       ]
     },
     "sharing-jar.make-fair.1-oa-d-8": {

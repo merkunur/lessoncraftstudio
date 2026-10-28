@@ -1,26 +1,72 @@
 [
   {
     "id": "tally-squirrel.add-four.2-nbt-b-6",
-    "tool": "tally-squirrel-activity",
+    "tool": "acorn-sieve-activity",
     "task_template": "add-four",
-    "alignment": { "framework": "CCSS", "code": "2.NBT.B.6", "grade": "2", "strand": "Number & Operations in Base Ten" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "2.NBT.B.6",
+      "grade": "2",
+      "strand": "Number & Operations in Base Ten"
+    },
     "params": {
-      "rounds": [
-        { "addends": [23, 14],         "band": 1 },
-        { "addends": [31, 25],         "band": 1 },
-        { "addends": [12, 34, 21],     "band": 1 },
-        { "addends": [42, 15, 23],     "band": 2 },
-        { "addends": [21, 14, 32, 11], "band": 2 },
-        { "addends": [33, 26, 18],     "band": 2 },
-        { "addends": [15, 22, 34, 11], "band": 3 },
-        { "addends": [44, 28],         "band": 3 },
-        { "addends": [13, 21, 32, 24], "band": 3 }
-      ]
+      "baskets": [
+        "small",
+        "few",
+        "four",
+        "wall"
+      ],
+      "cloth": [
+        "on",
+        "off"
+      ],
+      "rounds": {
+        "small": 7,
+        "few": 8,
+        "four": 9,
+        "wall": 8
+      }
     },
     "theme": null,
-    "slug": { "en": "tally-squirrel-add-four", "de": "mehrere-zweistellige-zahlen-addieren-klasse-2", "fr": "additionner-plusieurs-nombres-a-deux-chiffres-ce1", "es": "sumar-numeros-de-dos-cifras-hasta-100-2-primaria", "pt": "somar-numeros-de-dois-algarismos-valor-posicional-2-ano", "it": "sommare-piu-numeri-di-due-cifre-entro-100-classe-seconda", "nl": "meerdere-tweecijferige-getallen-optellen-groep-4", "sv": "addera-flera-tvasiffriga-tal-inom-100-ak-2" },
-    "page_title": { "en": "Tally's Acorn Baskets — Add Up to Four Two-Digit Numbers (Grade 2)", "de": "Tallys Eichelkörbe — mehrere zweistellige Zahlen addieren (Klasse 2)", "fr": "Additionner plusieurs nombres à deux chiffres (CE1) – Tally", "es": "Las canastas de bellotas de Tally — sumar números de dos cifras hasta 100 (2.º primaria)", "pt": "Cestas de Bolotas do Tally: Somar Números de Dois Algarismos — 2º ano", "it": "Tally: sommare numeri di due cifre entro il 100 (classe seconda)", "nl": "Tally’s eikelmandjes — meerdere tweecijferige getallen optellen (groep 4)", "sv": "Kurres ekollonkorgar – addera flera tvåsiffriga tal inom 100 (åk 2)" },
-    "page_intro": { "en": "An interactive Grade 2 math activity: Tally the squirrel fills two, three, or four baskets with acorns. Add the two-digit numbers in all of Tally's baskets and type the total. Adding up to four two-digit numbers using place-value strategies. Common Core 2.NBT.B.6.", "de": "Hilf Tally, die Eicheln zu zählen, und addiere bis zu vier zweistellige Zahlen bis 100. Interaktive Mathe-Übung für Klasse 2 zum Zusammenzählen.", "fr": "Additionne plusieurs nombres à deux chiffres jusqu’à 100 avec Tally l’écureuil. Un jeu de calcul interactif, pensé pour le CE1.", "es": "Las canastas de bellotas de Tally: suma los números de dos cifras de 2, 3 o 4 canastas y escribe el total, siempre hasta 100. Junta primero las decenas y luego las unidades. Juego interactivo de segundo grado, sin registro, alineado a los Planes y programas de estudio (SEP).", "pt": "Ajude o esquilo Tally a somar os números de dois algarismos das cestas usando valor posicional — dezenas e unidades — até o total. Atividade interativa, 2º ano.", "it": "Tally lo scoiattolo ha riempito i suoi cestini di ghiande e chiede il tuo aiuto per contarle tutte. In ogni partita compaiono due, tre o quattro cestini, ognuno con un numero di due cifre scritto sopra: il tuo compito è sommare tutti i numeri e scrivere il totale, sempre entro il 100. Per riuscirci con sicurezza puoi usare una piccola strategia di valore posizionale — metti insieme prima le decine, poi le unità e infine unisci il tutto. Non ci sono punteggi né tempo che scorre, solo tanti calcoli da provare con calma. È un'attività senza registrazione, che si gioca direttamente nel browser, pensata per la classe seconda e allineata alle Indicazioni nazionali, nel nucleo Numeri.", "nl": "Tally de eekhoorn heeft zijn mandjes volgestopt met eikels en op elk mandje staat een getal — help je hem alles bij elkaar op te tellen? Je kind telt twee, drie of vier tweecijferige getallen op tot 100, handig eerst de tientallen en dan de eenheden, en tikt het totaal in. Deze interactieve oefening is zonder tijdsdruk of punten, en sluit aan bij de SLO-kerndoelen voor rekenen.", "sv": "Ekorren Kurre fyller två, tre eller fyra korgar med ekollon. Barnet adderar de tvåsiffriga talen och skriver summan, alltid inom 100. Övning för åk 2 enligt Lgr22." },
+    "slug": {
+      "en": "tally-squirrel-add-four",
+      "de": "mehrere-zweistellige-zahlen-addieren-klasse-2",
+      "fr": "additionner-plusieurs-nombres-a-deux-chiffres-ce1",
+      "es": "sumar-numeros-de-dos-cifras-hasta-100-2-primaria",
+      "pt": "somar-numeros-de-dois-algarismos-valor-posicional-2-ano",
+      "it": "sommare-piu-numeri-di-due-cifre-entro-100-classe-seconda",
+      "nl": "meerdere-tweecijferige-getallen-optellen-groep-4",
+      "sv": "addera-flera-tvasiffriga-tal-inom-100-ak-2",
+      "da": "tallys-agernkurve-laeg-flere-tocifrede-tal-sammen-2-klasse",
+      "no": "tallys-eikenottkurver-legg-sammen-flere-tosifrede-tall-2-trinn",
+      "fi": "tallyn-tammenterhokorit-useamman-kaksinumeroisen-luvun-yhteenlasku-2-luokka"
+    },
+    "page_title": {
+      "en": "Tally's Acorn Baskets — Add Up to Four Two-Digit Numbers (Grade 2)",
+      "de": "Tallys Eichelkörbe — mehrere zweistellige Zahlen addieren (Klasse 2)",
+      "fr": "Additionner plusieurs nombres à deux chiffres (CE1) – Tally",
+      "es": "Las canastas de bellotas de Tally — sumar números de dos cifras hasta 100 (2.º primaria)",
+      "pt": "Cestas de Bolotas do Tally: Somar Números de Dois Algarismos — 2º ano",
+      "it": "Tally: sommare numeri di due cifre entro il 100 (classe seconda)",
+      "nl": "Tally’s eikelmandjes — meerdere tweecijferige getallen optellen (groep 4)",
+      "sv": "Kurres ekollonkorgar – addera flera tvåsiffriga tal inom 100 (åk 2)",
+      "da": "Tallys agernkurve – læg flere tocifrede tal sammen, 2. klasse",
+      "no": "Tallys eikenøttkurver – legg sammen flere tosifrede tall, 2. trinn",
+      "fi": "Tallyn tammenterhokorit – useamman kaksinumeroisen luvun yhteenlasku, 2. luokka"
+    },
+    "page_intro": {
+      "en": "An interactive Grade 2 math activity: Tally the squirrel fills two, three, or four baskets with acorns. Add the two-digit numbers in all of Tally's baskets and type the total. Adding up to four two-digit numbers using place-value strategies. Common Core 2.NBT.B.6.",
+      "de": "Hilf Tally, die Eicheln zu zählen, und addiere bis zu vier zweistellige Zahlen bis 100. Interaktive Mathe-Übung für Klasse 2 zum Zusammenzählen.",
+      "fr": "Additionne plusieurs nombres à deux chiffres jusqu’à 100 avec Tally l’écureuil. Un jeu de calcul interactif, pensé pour le CE1.",
+      "es": "Las canastas de bellotas de Tally: suma los números de dos cifras de 2, 3 o 4 canastas y escribe el total, siempre hasta 100. Junta primero las decenas y luego las unidades. Juego interactivo de segundo grado, sin registro, alineado a los Planes y programas de estudio (SEP).",
+      "pt": "Ajude o esquilo Tally a somar os números de dois algarismos das cestas usando valor posicional — dezenas e unidades — até o total. Atividade interativa, 2º ano.",
+      "it": "Tally lo scoiattolo ha riempito i suoi cestini di ghiande e chiede il tuo aiuto per contarle tutte. In ogni partita compaiono due, tre o quattro cestini, ognuno con un numero di due cifre scritto sopra: il tuo compito è sommare tutti i numeri e scrivere il totale, sempre entro il 100. Per riuscirci con sicurezza puoi usare una piccola strategia di valore posizionale — metti insieme prima le decine, poi le unità e infine unisci il tutto. Non ci sono punteggi né tempo che scorre, solo tanti calcoli da provare con calma. È un'attività senza registrazione, che si gioca direttamente nel browser, pensata per la classe seconda e allineata alle Indicazioni nazionali, nel nucleo Numeri.",
+      "nl": "Tally de eekhoorn heeft zijn mandjes volgestopt met eikels en op elk mandje staat een getal — help je hem alles bij elkaar op te tellen? Je kind telt twee, drie of vier tweecijferige getallen op tot 100, handig eerst de tientallen en dan de eenheden, en tikt het totaal in. Deze interactieve oefening is zonder tijdsdruk of punten, en sluit aan bij de SLO-kerndoelen voor rekenen.",
+      "sv": "Ekorren Kurre fyller två, tre eller fyra korgar med ekollon. Barnet adderar de tvåsiffriga talen och skriver summan, alltid inom 100. Övning för åk 2 enligt Lgr22.",
+      "da": "Tally vælter fra to til fire kurve med agern ud på en si. Når sien rystes, falder de løse agern igennem, mens bægrene med ti bliver liggende – så alle tierne samles for sig og alle enerne for sig. Barnet skriver bægrene, de løse agern og det samlede antal. Plus med flere tocifrede tal til 100, med og uden tieroverskridning. Aktiviteten følger Fælles Mål.",
+      "no": "Tally tømmer fra to til fire kurver med eikenøtter på en sil. Når silen ristes, faller de løse eikenøttene gjennom, mens begrene med ti blir liggende – så alle tierne havner for seg og alle enerne for seg. Barnet skriver begrene, de løse eikenøttene og hvor mange det er til sammen. Pluss med flere tosifrede tall til 100, med og uten tierovergang. Aktiviteten er knyttet til LK20.",
+      "fi": "Tally kaataa kahdesta neljään korillista tammenterhoja seulalle. Kun seulaa ravistetaan, irtonaiset tammenterhot putoavat läpi ja kymppikupit jäävät päälle – niin kaikki kymmenet päätyvät yhteen ja kaikki ykköset yhteen. Lapsi kirjoittaa kupit, irtonaiset tammenterhot ja yhteismäärän. Usean kaksinumeroisen luvun yhteenlaskua 100:aan, kymmenylityksen kanssa ja ilman. Tehtävä tukee OPS 2014 -tavoitteita."
+    },
     "kid_prompt_template": "add-four"
   }
 ]

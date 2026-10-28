@@ -321,25 +321,25 @@
     },
     "tally-squirrel.add-four.2-nbt-b-6": {
       "about": [
-        "O esquilo Tally está enchendo suas cestas de bolotas, e cada cesta ganha uma etiqueta com um número de dois algarismos. Ele monta de 2 a 4 cestas por vez — como 23 e 14 — e a criança precisa somar todas e escrever o total. Uma dica boa é juntar primeiro as dezenas (20 + 10 = 30), depois as unidades (3 + 4 = 7) e, por fim, unir tudo: 30 + 7 dá o total 37.",
-        "Aqui a criança pratica somar vários números de dois algarismos usando a estratégia de valor posicional: primeiro as dezenas, depois as unidades e então o total. Todas as somas ficam dentro de 100 e nada exige a conta armada — a ideia é pensar nos números por partes e calcular de cabeça com tranquilidade.",
-        "A atividade é interativa, sem cronômetro, sem pontos e sem competição — só o Tally, as cestas e o prazer de somar no próprio ritmo. A proposta acompanha a BNCC na unidade temática Números do 2º ano, valorizando o cálculo mental e a compreensão do valor posicional (dezenas e unidades) de um jeito calmo e acolhedor."
+        "O esquilo Tally guarda bolotas em cestas, e cada cesta tem copinhos de dez e algumas bolotas soltas. A criança vira cada cesta na peneira do Tally e sacode: as bolotas soltas caem pelos furos numa bandeja com canaletas de dez, e os copinhos de dez, compridos demais, ficam em cima. Assim, em 15 + 22 + 34 + 11 todas as dezenas ficam juntas na peneira (7 copinhos, 70) e todas as unidades juntas na bandeja (12 bolotas). A criança escreve os copinhos, as bolotas soltas e o total, 82.",
+        "Uma janelinha errada se vê na hora. Se a criança escreve 10 bolotas soltas em 23 + 14, a bandeja tem só 7. Depois de um erro, os copinhos se contam de dez em dez e cada canaleta mostra quantas bolotas tem; depois de um segundo erro, cada cesta se separa em dezenas e unidades, e as duas somas pequenas aparecem ao lado da peneira e da bandeja. Uma canaleta cheia com dez bolotas vira um copinho: é a dezena escondida nas unidades. Com o pano, a peneira fica coberta: a criança resolve pelos números, e Conferir tira o pano. Nas configurações há também três cestas pequenas (3 + 4 + 3 = 10) e uma pirâmide de números em que cada tijolo é a soma dos dois de baixo (12, 15, 21 → 27, 36 → 63).",
+        "A atividade segue a BNCC para o 2º ano: somar vários números de dois algarismos usando dezenas e unidades. Funciona sem som, sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Somar de 2 a 4 números de dois algarismos e chegar a um único total",
-        "Usar a estratégia de valor posicional: somar primeiro as dezenas e depois as unidades",
-        "Encontrar o total das cestas mantendo-se sempre dentro de 100",
-        "Calcular de cabeça, sem precisar da conta armada"
+        "Somar até quatro números de dois algarismos até 100.",
+        "Somar todas as dezenas, depois todas as unidades, e então juntar tudo.",
+        "Perceber que dez unidades formam uma dezena.",
+        "Completar uma pirâmide de números em que cada tijolo é a soma dos dois de baixo."
       ],
       "howToPlay": [
-        "Veja os números de dois algarismos nas cestas de bolotas do Tally",
-        "Some primeiro as dezenas, depois as unidades e digite o total",
-        "Você pode tentar quantas vezes quiser, sem tempo e sem pontos"
+        "Toque em cada cesta para virá-la na peneira e depois sacuda a peneira pela alça.",
+        "Escreva quantos copinhos de dez, quantas bolotas soltas e quantas ao todo, e toque em Conferir.",
+        "Nas configurações, escolha três cestas pequenas, duas ou três, até quatro ou uma pirâmide de números, e ligue ou desligue o pano."
       ],
       "learningGoals": [
-        "Somar vários números de dois algarismos dentro de 100",
-        "Compreender a estratégia de valor posicional, separando dezenas e unidades",
-        "Ganhar segurança no cálculo mental — um objetivo de 2º ano da unidade Números"
+        "Somar vários números de dois algarismos com dezenas e unidades.",
+        "Juntar dezenas com dezenas e unidades com unidades, e trocar dez unidades por uma dezena.",
+        "Conferir um total vendo para onde foi cada dezena e cada unidade."
       ]
     },
     "pond-juice.pour-measure.3-md-a-2": {

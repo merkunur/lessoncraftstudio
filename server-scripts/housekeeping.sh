@@ -24,10 +24,13 @@
 #   3. /root/.pm2/logs/*.log      > 14 d  — pm2-logrotate's retain=7 is per process-index, so
 #                                           logs from a dead index (-0, -2) never rotate out.
 #   4. /root/*.log                > 30 d  — session deploy captures (nt20-deploy.log style).
-#   5. /tmp is NOT handled here — /etc/tmpfiles.d/lcs-tmp-age.conf (14 d) does it daily.
+#   5. releases/current/.next/cache/images entries > 14 d — the resized-image cache deploy.sh
+#                                           now carries forward across releases.
+#   6. /tmp is NOT handled here — /etc/tmpfiles.d/lcs-tmp-age.conf (14 d) does it daily.
 #
 # Never touches: live deck dirs/symlinks, image-library*, worksheet-generators, admin-panels,
-# design-elements, backups/*.tar.gz|*.sql.gz (their own crons), releases/, the DB, nginx.
+# design-elements, backups/*.tar.gz|*.sql.gz (their own crons), releases/ (except the live
+# release's image cache, section 5), the DB, nginx.
 #
 set -u
 DRY=0; [ "${1:-}" = "--dry-run" ] && DRY=1
@@ -108,6 +111,25 @@ echo "4. /root/*.log > 30 d"
 find /root -maxdepth 1 -type f -name '*.log' -mtime +30 -printf '%s\0' | sum_files; echo
 if [ $DRY = 0 ]; then
   find /root -maxdepth 1 -type f -name '*.log' -mtime +30 -delete
+fi
+
+# 5. the live release's resized-image cache, entries older than 14 days. Since 2026-10-28
+#    deploy.sh carries this cache forward into each new release (hard links), so it no
+#    longer resets on deploy and would grow without end (~3.1 GB per 8 days, measured
+#    2026-09-11). Each entry is <key>/<maxAge>.<expireAt>.<etag>.<ext>; an expired entry
+#    is simply re-resized on its next request. Only the LIVE release — retired releases'
+#    caches are already emptied by deploy.sh.
+echo ""
+IMGCACHE="$(readlink -f /opt/lessoncraftstudio/frontend/releases/current 2>/dev/null)/.next/cache/images"
+echo "5. $IMGCACHE entries > 14 d"
+if [ -d "$IMGCACHE" ]; then
+  find "$IMGCACHE" -mindepth 2 -maxdepth 2 -type f -mtime +14 -printf '%s\0' | sum_files; echo
+  if [ $DRY = 0 ]; then
+    find "$IMGCACHE" -mindepth 2 -maxdepth 2 -type f -mtime +14 -delete
+    find "$IMGCACHE" -mindepth 1 -maxdepth 1 -type d -empty -delete
+  fi
+else
+  echo "   (no live image cache)"
 fi
 
 echo ""

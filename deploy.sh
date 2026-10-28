@@ -493,6 +493,23 @@ mkdir -p "$RELEASE_DIR"
 echo "   → Copying .next into staged release (next-start model)"
 cp -a .next "$RELEASE_DIR/.next"
 rm -rf "$RELEASE_DIR/.next/cache"   # build cache stays in frontend/.next only; releases stay slim
+# Carry the live release's resized-image cache forward (2026-10-28). Each release
+# used to start with an EMPTY .next/cache/images, so for hours after every deploy
+# Next re-resized every hub card (~8,600 in the first 2.5 h of the #143 deploy, on
+# top of ~420k /_next/image requests a day) — exactly when the server is busiest.
+# Entries are keyed by image URL + width + quality, not by build, so they stay valid.
+# Hard links (cp -al): instant, no extra disk; the old release's copy is still
+# emptied by the retired-release cleanup below without touching these.
+PREV_IMAGES="$(readlink -f releases/current 2>/dev/null)/.next/cache/images"
+if [ -d "$PREV_IMAGES" ]; then
+    mkdir -p "$RELEASE_DIR/.next/cache"
+    if cp -al "$PREV_IMAGES" "$RELEASE_DIR/.next/cache/images" 2>/dev/null; then
+        echo "   → Carried $(ls "$RELEASE_DIR/.next/cache/images" | wc -l) resized images forward from the live release"
+    else
+        rm -rf "$RELEASE_DIR/.next/cache/images"
+        echo "   WARN: could not carry the image cache forward (the new release starts empty)"
+    fi
+fi
 echo "   → Linking shared node_modules + public into staged release"
 ln -s /opt/lessoncraftstudio/frontend/node_modules "$RELEASE_DIR/node_modules"
 ln -s /opt/lessoncraftstudio/frontend/public "$RELEASE_DIR/public"

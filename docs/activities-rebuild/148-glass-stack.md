@@ -81,3 +81,6 @@ Every finding was fixed at the source:
 - **`audit-settings-efficacy --tool=glass-stack-activity`:** both settings live.
 - **Other gates:** next-delay, content ×11, prose claims, SERP, content tells and route preflight all pass.
 - I read the 360 / 768 / 1024 renders myself (flagged, over-the-edge, miss 2).
+
+## Live
+Deployed 2026-10-28 (commit `6b8bf6a2`; mini-tools and the manifest copied before `deploy.sh`; preview scp'd). `live-verify-glass-stack.js`: **68 pass, 0 fail** (all 11 pages 200; en, de, sv, fi × 1366 / 390 played with a real pointer). The first two runs caught Cloudflare's 5-minute cached copy of the old page, not a defect.

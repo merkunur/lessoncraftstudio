@@ -3581,6 +3581,29 @@
         "Se at 10 til endrer tierne og 100 til endrer hundrerne.",
         "Klare tierovergangen når en telling går over en tier eller en hundrer, som 95, 100."
       ]
+    },
+    "gus-snack-cart.within-100.2-nbt-b-5": {
+      "about": [
+        "Gus selger godsaker fra ei vogn som kjører på en tallvei fra 0 til 100. Hver runde forteller en kort historie – Gus hadde 45 kjekser og solgte 8 – og barnet skriver hvor mange Gus har nå. Så kjører vogna ut til det tallet, snur og kjører historien baklengs: ved 45 − 8 kjører den 8 fram igjen. Bare riktig svar, 37, tar den hjem til flagget på 45.",
+        "Et feil svar blir et lite uhell man kan se. Skriver barnet 47, kjører vogna 8 fram og stopper på 55, og en klamme viser avstanden på 10 mellom vogna og flagget – nøyaktig én tier. Ved den andre feilen vises hoppene i historien fra flagget, først tierne og så enerne, fram til en spøkelsesvogn. Med innstillingen rute følger Gus tre tegn etter hverandre, for eksempel 24 → +30 → −6 → +15, og vogna sjekker hvert stopp. Med «Rund av først» runder barnet av 38 + 21 til 40 + 20, skriver omtrent 60 og finner så det nøyaktige svaret, 59.",
+        "Aktiviteten er knyttet til LK20 i matematikk etter 2. trinn: å legge sammen og trekke fra sikkert opp til 100 og bruke sammenhengen mellom addisjon og subtraksjon. Svaret kan også settes opp i kolonner. Den fungerer uten lyd, og det er ingen tidtaker og ingen poeng."
+      ],
+      "practices": [
+        "Legge sammen og trekke fra tosifrede tall opp til 100.",
+        "Sjekke et minusstykke med pluss og et plusstykke med minus.",
+        "Gå over tieren når man legger til eller trekker fra.",
+        "Runde av til nærmeste tier for å gjøre et overslag over en sum."
+      ],
+      "howToPlay": [
+        "Les historien, skriv på tastaturet hvor mange Gus har nå, og trykk på Sjekk.",
+        "Se vogna kjøre ut til tallet ditt og tilbake. Treffer den ikke flagget, viser avstanden hvor mye du bommet – endre tallet og prøv igjen.",
+        "I innstillingene velger du ett stopp eller en rute med tre stopp, og slår «Rund av først» på eller av."
+      ],
+      "learningGoals": [
+        "Legge sammen og trekke fra opp til 100, med og uten tierovergang.",
+        "Forstå at subtraksjon opphever addisjon, og at addisjon opphever subtraksjon.",
+        "Gjøre overslag over en sum ved å runde av til tiere og sjekke at det nøyaktige svaret ligger nær."
+      ]
     }
   }
 }

@@ -3991,6 +3991,29 @@
         "Skriva lika stora grupper som en addition, till exempel 4 + 4 + 4 = 12.",
         "Börja se att gruppera och dela lika är två sidor av samma idé."
       ]
+    },
+    "gus-snack-cart.within-100.2-nbt-b-5": {
+      "about": [
+        "Gus säljer godsaker från en vagn som rullar på en talväg från 0 till 100. Varje omgång berättar en kort historia – Gus hade 45 kakor och sålde 8 – och barnet skriver hur många Gus har nu. Sedan kör vagnen ut till det talet, vänder och kör historien baklänges: vid 45 − 8 kör den 8 framåt igen. Bara rätt svar, 37, tar den hem till sin flagga på 45.",
+        "Ett fel svar blir en olycka man kan se. Skriver barnet 47 kör vagnen 8 framåt och stannar på 55, och en klammer visar avståndet 10 mellan vagnen och flaggan – precis ett tiotal. Vid det andra felet visas historiens hopp från flaggan, först tiotalen och sedan entalen, fram till en spökvagn. Med inställningen rutt följer Gus tre tecken i rad, till exempel 24 → +30 → −6 → +15, och vagnen kontrollerar varje stopp. Med ”Avrunda först” avrundar barnet 38 + 21 till 40 + 20, skriver ungefär 60 och räknar sedan ut det exakta svaret, 59.",
+        "Aktiviteten följer Lgr22 i matematik för årskurs 1–3: att addera och subtrahera säkert upp till 100 och använda sambandet mellan addition och subtraktion. Svaret kan också skrivas som en uppställning. Den fungerar utan ljud, och det finns ingen tidtagning och inga poäng."
+      ],
+      "practices": [
+        "Addera och subtrahera tvåsiffriga tal upp till 100.",
+        "Kontrollera en subtraktion med addition och en addition med subtraktion.",
+        "Gå över tiotalet vid addition och subtraktion.",
+        "Avrunda till närmaste tiotal för att uppskatta en summa."
+      ],
+      "howToPlay": [
+        "Läs historien, skriv på knappsatsen hur många Gus har nu och tryck på Kontrollera.",
+        "Titta när vagnen kör ut till ditt tal och tillbaka. Missar den sin flagga visar avståndet hur mycket fel det blev – ändra talet och försök igen.",
+        "I inställningarna väljer du ett stopp eller en rutt med tre stopp, och slår på eller av ”Avrunda först”."
+      ],
+      "learningGoals": [
+        "Addera och subtrahera upp till 100, med och utan tiotalsövergång.",
+        "Förstå att subtraktion tar bort det addition lagt till, och tvärtom.",
+        "Uppskatta en summa genom att avrunda till tiotal och kontrollera att det exakta svaret ligger nära."
+      ]
     }
   }
 }

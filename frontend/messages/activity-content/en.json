@@ -2115,25 +2115,25 @@
     },
     "gus-snack-cart.within-100.2-nbt-b-5": {
       "about": [
-        "Gus the gopher is always restocking and selling at his busy snack cart — he sold 45 nuts and gave 8 away, picked 23 berries and 15 more, packed 27 apples with 36 cherries — and the child reads each story, works out the sum or difference within 100, and types the answer on the keypad. It's an interactive Grade 2 math activity that runs right in the browser, with nothing to install and no account.",
-        "The big idea is fluency with two-digit addition and subtraction, including problems that cross a ten — 27 + 36, 19 + 47, 45 − 8, and 60 − 25 all need regrouping, while 23 + 15 and 70 − 40 do not. Because the answer is typed rather than chosen from options, there is no guessing from a list: the child has to actually compute. Wrapping each problem in a real selling-and-restocking story keeps the arithmetic meaningful instead of abstract.",
-        "It is aligned to Common Core 2.NBT.B.5 — fluently adding and subtracting within 100 using strategies based on place value and the properties of operations. No timer, no score — just calm, playful practice."
+        "Gus sells snacks from a cart that rides on a number road from 0 to 100. Each round tells a short story — Gus had 45 cookies and sold 8 — and the child types how many Gus has now. Then the cart drives out to that number, turns round, and drives the story back the other way: for 45 − 8 it drives back up 8. Only the right answer, 37, brings it home to its flag at 45.",
+        "A wrong answer is a mishap you can see. If the child types 47, the cart drives back up 8 and stops at 55, and a bracket shows the gap of 10 between the cart and its flag — exactly one ten. A second miss replays the story's own hops from the flag, tens first and then ones, to a ghost cart. In the route setting Gus follows three signs in a row, such as 24 → +30 → −6 → +15, and the cart checks each stop. With round first on, the child rounds 38 + 21 to 40 + 20, writes about 60, and then finds the exact 59.",
+        "It is aligned to Common Core 2.NBT.B.5: add and subtract within 100 fluently, using the relationship between addition and subtraction. The answer can also be written in columns. It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Adding two-digit numbers within 100, including sums that cross a ten",
-        "Subtracting two-digit numbers within 100, including problems that need regrouping",
-        "Pulling the numbers and the operation out of a short word problem",
-        "Typing an exact answer instead of picking from a list of choices"
+        "Add and subtract two-digit numbers within 100",
+        "Check a subtraction by adding and an addition by subtracting",
+        "Cross a ten when adding or taking away",
+        "Round to the nearest ten to estimate a sum"
       ],
       "howToPlay": [
-        "Read Gus's snack-cart story and look at the number sentence — is he adding or taking away?",
-        "Work out the answer within 100, then type it on the keypad and press Check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Read the story, type how many Gus has now on the keypad, and press Check.",
+        "Watch the cart drive out to your number and back. If it misses its flag, the gap shows how far off you were — change the number and try again.",
+        "In the settings, choose one stop or a route of three stops, and switch round first on or off."
       ],
       "learningGoals": [
-        "Add and subtract two-digit numbers within 100 fluently — the focus of Common Core 2.NBT.B.5",
-        "Decide whether a story calls for adding or subtracting before computing",
-        "Build the place-value strategies that make regrouping feel natural"
+        "Add and subtract within 100, with and without crossing a ten.",
+        "Understand that subtraction undoes addition and addition undoes subtraction.",
+        "Estimate a sum by rounding to tens and check that the exact answer is close."
       ]
     },
     "halfway-harbors.nearest.3-nbt-a-1": {

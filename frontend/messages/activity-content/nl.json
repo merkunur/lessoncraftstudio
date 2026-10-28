@@ -1793,25 +1793,25 @@
     },
     "gus-snack-cart.within-100.2-nbt-b-5": {
       "about": [
-        "Achter de snackkar staat Gus, een pientere eekhoorn die de hele dag hapjes verkoopt. Bij elke ronde lees je een kort verhaaltje bij de kar: soms vult Gus verse voorraad aan, soms verkoopt hij juist iets. Bij het verhaaltje zie je meteen de bijpassende som.",
-        "Krijgt Gus er iets bij? Dan tel je op. Verkoopt of geeft hij iets weg? Dan trek je af. Je typt zelf het antwoord in. Zo oefen je optellen en aftrekken tot 100 – ook als je over het tiental heen moet rekenen, zoals bij 27 + 36 of 45 − 8.",
-        "De sommen sluiten aan bij de rekendoelen van groep 4 (SLO). Er is geen klok, geen score en geen stress: je werkt op je eigen tempo."
+        "Gus verkoopt lekkers vanaf een kar die over een getallenweg van 0 tot 100 rijdt. Elke ronde vertelt een kort verhaaltje – Gus had 45 koekjes en verkocht er 8 – en het kind typt hoeveel Gus er nu heeft. Dan rijdt de kar naar dat getal, keert en rijdt het verhaal achterstevoren: bij 45 − 8 rijdt hij 8 vooruit. Alleen het goede antwoord, 37, brengt hem thuis bij zijn vlag op 45.",
+        "Een fout antwoord is een ongelukje dat je ziet. Typt het kind 47, dan rijdt de kar 8 vooruit en stopt hij op 55, en een haak laat het verschil van 10 tussen kar en vlag zien – precies één tiental. Bij de tweede fout worden de sprongen van het verhaal vanaf de vlag nagespeeld, eerst de tientallen en dan de eenheden, tot aan een spookkar. Met de instelling route volgt Gus drie tekens achter elkaar, zoals 24 → +30 → −6 → +15, en de kar controleert elke stop. Met 'Eerst afronden' rondt het kind 38 + 21 af op 40 + 20, schrijft ongeveer 60 op en zoekt dan het precieze antwoord, 59.",
+        "De activiteit sluit aan bij de SLO-kerndoelen rekenen-wiskunde; in groep 4: vlot optellen en aftrekken tot 100, met gebruik van het verband tussen optellen en aftrekken. Het antwoord kan ook onder elkaar worden geschreven. Ze werkt zonder geluid, en er is geen timer en geen score."
       ],
       "practices": [
-        "Optellen en aftrekken tot 100",
-        "Rekenen met tienoverschrijding (over het tiental heen)",
-        "Een verhaaltje omzetten in de juiste som (plus of min)",
-        "Vlot hoofdrekenen tot 100 oefenen"
+        "Getallen van twee cijfers optellen en aftrekken tot 100.",
+        "Een aftreksom controleren met optellen en een optelsom met aftrekken.",
+        "Over het tiental gaan bij optellen en aftrekken.",
+        "Afronden op het dichtstbijzijnde tiental om een som te schatten."
       ],
       "howToPlay": [
-        "Lees het verhaaltje bij Gus' snackkar.",
-        "Bedenk of je moet optellen of aftrekken.",
-        "Typ je antwoord en kijk of het klopt."
+        "Lees het verhaal, typ op het toetsenblok hoeveel Gus er nu heeft en druk op Controleer.",
+        "Kijk hoe de kar naar jouw getal rijdt en terug. Mist hij zijn vlag, dan laat het verschil zien hoeveel je ernaast zat: verander het getal en probeer het opnieuw.",
+        "Kies in de instellingen één stop of een route met drie stops, en zet 'Eerst afronden' aan of uit."
       ],
       "learningGoals": [
-        "Vlot optellen en aftrekken tot 100.",
-        "Rekenen met tienoverschrijding onder de knie krijgen.",
-        "Een verhaaltje vertalen naar de juiste rekensom."
+        "Optellen en aftrekken tot 100, met en zonder tientaloverschrijding.",
+        "Begrijpen dat aftrekken optellen ongedaan maakt en optellen aftrekken.",
+        "Een som schatten door af te ronden op tientallen en controleren of het precieze antwoord dichtbij ligt."
       ]
     },
     "track-repair.count-to-120.1-nbt-a-1": {

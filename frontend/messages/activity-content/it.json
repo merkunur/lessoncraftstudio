@@ -315,25 +315,25 @@
     },
     "gus-snack-cart.within-100.2-nbt-b-5": {
       "about": [
-        "Lo scoiattolo Gus ha un carretto degli spuntini sempre affollato, e tra noci, ghiande e piccole scorte c’è un continuo andirivieni: a volte arriva un nuovo rifornimento da aggiungere, a volte un cliente compra qualcosa da togliere. Ogni round racconta una breve storia con Gus protagonista, mostra l’operazione corrispondente e chiede al bambino di calcolare entro il 100 e digitare il risultato. Sommare quello che Gus raccoglie e sottrarre quello che vende trasforma un semplice esercizio di calcolo in una situazione viva, facile da immaginare e divertente da risolvere.",
-        "Dietro le storie del carretto c’è un obiettivo preciso: allenare addizioni e sottrazioni con numeri a due cifre entro il 100 fino a raggiungere una vera fluidità. Il bambino impara a riconoscere quando la situazione chiede di sommare e quando invece chiede di sottrarre, mette alla prova strategie di calcolo mentale e prende confidenza con il valore delle decine e delle unità. Ripetere questi calcoli in un contesto concreto rende il ragionamento più rapido e sicuro, senza ridurlo a una serie di operazioni astratte.",
-        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali, così da accompagnare in modo naturale il percorso scolastico. È interattiva, senza registrazione, senza timer e senza punteggio: nessuna fretta, nessuna gara, solo la libertà di provare, sbagliare e riprovare con calma. Un ambiente sereno in cui ogni bambino può esercitarsi al proprio ritmo, a scuola o a casa."
+        "Gus vende spuntini da un carrello che corre su una strada dei numeri da 0 a 100. Ogni turno racconta una piccola storia – Gus aveva 45 biscotti e ne ha venduti 8 – e il bambino scrive quanti ne ha Gus adesso. Poi il carrello va fino a quel numero, fa inversione e rifà la storia al contrario: per 45 − 8 avanza di 8. Solo il risultato giusto, 37, lo riporta a casa, alla sua bandierina sul 45.",
+        "Un errore diventa un piccolo incidente che si vede. Se il bambino scrive 47, il carrello avanza di 8 e si ferma sul 55, e una parentesi mostra la distanza di 10 tra il carrello e la bandierina: proprio una decina. Al secondo errore i salti della storia vengono rifatti dalla bandierina, prima le decine e poi le unità, fino a un carrello fantasma. Con l’impostazione percorso, Gus segue tre segni di fila, come 24 → +30 → −6 → +15, e il carrello controlla ogni fermata. Con «Prima arrotondare» il bambino arrotonda 38 + 21 a 40 + 20, scrive circa 60 e poi trova il risultato esatto, 59.",
+        "L’attività segue le Indicazioni nazionali per la classe seconda: addizionare e sottrarre entro il 100 con sicurezza, usando il legame tra addizione e sottrazione. Il risultato si può anche scrivere in colonna. Funziona senza audio, e non ci sono cronometro né punteggio."
       ],
       "practices": [
-        "Addizioni e sottrazioni entro il 100",
-        "Calcolo con numeri a due cifre",
-        "Distinguere quando sommare e quando sottrarre",
-        "Strategie di calcolo mentale"
+        "Addizionare e sottrarre numeri di due cifre entro il 100.",
+        "Controllare una sottrazione con un’addizione e un’addizione con una sottrazione.",
+        "Superare la decina addizionando o togliendo.",
+        "Arrotondare alla decina più vicina per stimare una somma."
       ],
       "howToPlay": [
-        "Leggi la storia di Gus al carretto degli spuntini",
-        "Decidi se sommare quello che raccoglie o sottrarre quello che vende",
-        "Digita la risposta entro il 100 sulla tastierina"
+        "Leggi la storia, scrivi sulla tastierina quanti ne ha Gus adesso e premi Controlla.",
+        "Guarda il carrello andare fino al tuo numero e tornare. Se manca la bandierina, la distanza mostra di quanto hai sbagliato: cambia il numero e riprova.",
+        "Nelle impostazioni scegli una fermata o un percorso di tre fermate, e attiva o disattiva «Prima arrotondare»."
       ],
       "learningGoals": [
-        "Calcolare con fluidità entro il 100",
-        "Padroneggiare i numeri a due cifre",
-        "Scegliere l’operazione giusta in ogni situazione"
+        "Addizionare e sottrarre entro il 100, con e senza cambio della decina.",
+        "Capire che la sottrazione annulla l’addizione e l’addizione annulla la sottrazione.",
+        "Stimare una somma arrotondando alle decine e controllare che il risultato esatto sia vicino."
       ]
     },
     "track-repair.count-to-120.1-nbt-a-1": {

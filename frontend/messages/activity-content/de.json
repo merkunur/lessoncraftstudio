@@ -2091,25 +2091,25 @@
     },
     "gus-snack-cart.within-100.2-nbt-b-5": {
       "about": [
-        "Gus das Erdhörnchen hat einen kleinen Snackwagen, und an seinem Verkaufsfenster ist immer etwas los: Mal füllt er frische Vorräte nach, mal verkauft er Leckereien an seine Kundschaft. In jeder Runde liest Ihr Kind eine kurze Geschichte vom Snackwagen und sieht dazu die passende Rechenaufgabe.",
-        "Bekommt Gus etwas dazu, wird dazugezählt — Ihr Kind rechnet plus. Verkauft er etwas, wird abgezogen — Ihr Kind nimmt weg. Anschließend tippt Ihr Kind das Ergebnis ein. So wird das Addieren und Subtrahieren im Zahlenraum bis 100 geübt, ganz selbstverständlich auch dann, wenn beim Rechnen ein Zehnerübergang nötig ist (zum Beispiel 27 + 36 oder 45 − 8).",
-        "Diese Aktivität orientiert sich am Lehrplan der Grundschule, Bereich „Zahlen und Operationen“. Sie läuft ohne Zeitdruck und ohne Punkte — Ihr Kind darf in seinem eigenen Tempo rechnen, ausprobieren und Gus an seinem Snackwagen helfen."
+        "Gus verkauft Snacks aus einem Wagen, der auf einer Zahlenstraße von 0 bis 100 fährt. Jede Runde erzählt eine kurze Geschichte – Gus hatte 45 Kekse und hat 8 verkauft – und das Kind tippt ein, wie viele Gus jetzt hat. Dann fährt der Wagen zu dieser Zahl, wendet und fährt die Geschichte rückwärts: Bei 45 − 8 fährt er 8 wieder nach vorn. Nur das richtige Ergebnis, 37, bringt ihn nach Hause zu seiner Fahne bei 45.",
+        "Ein falsches Ergebnis ist ein Missgeschick, das man sieht. Tippt das Kind 47 ein, fährt der Wagen 8 nach vorn und hält bei 55, und eine Klammer zeigt den Abstand von 10 zwischen Wagen und Fahne – genau einen Zehner. Beim zweiten Fehler werden die Sprünge der Geschichte ab der Fahne gezeigt, erst die Zehner, dann die Einer, bis zu einem Geisterwagen. In der Einstellung „Strecke“ folgt Gus drei Zeichen hintereinander, etwa 24 → +30 → −6 → +15, und der Wagen prüft jeden Halt. Mit „Erst runden“ rundet das Kind 38 + 21 auf 40 + 20, schreibt ungefähr 60 auf und findet dann das genaue Ergebnis 59.",
+        "Die Aktivität ist an den Lehrplänen für die 2. Klasse im Bereich Zahlen und Operationen ausgerichtet: Plus und Minus bis 100 sicher rechnen und dabei nutzen, dass Minus die Umkehrung von Plus ist. Das Ergebnis lässt sich auch untereinander schreiben. Sie funktioniert ohne Ton, und es gibt keinen Timer und keine Punkte."
       ],
       "practices": [
-        "Plus rechnen und dazuzählen im Zahlenraum bis 100",
-        "Abziehen und wegnehmen im Zahlenraum bis 100",
-        "Zweistellig rechnen, auch mit Zehnerübergang",
-        "Sachaufgaben verstehen: aus der Geschichte erkennen, ob man dazuzählt oder abzieht"
+        "Zweistellige Zahlen bis 100 addieren und subtrahieren.",
+        "Eine Minusaufgabe mit Plus prüfen und eine Plusaufgabe mit Minus.",
+        "Beim Plus- und Minusrechnen den Zehner überschreiten.",
+        "Auf den nächsten Zehner runden, um eine Summe zu überschlagen."
       ],
       "howToPlay": [
-        "Lies die kurze Geschichte von Gus und seinem Snackwagen",
-        "Schau dir die Rechenaufgabe an und rechne plus oder minus",
-        "Tippe dein Ergebnis ein — und weiter geht's zur nächsten Runde"
+        "Lies die Geschichte, tippe auf dem Tastenfeld ein, wie viele Gus jetzt hat, und drück auf Prüfen.",
+        "Sieh zu, wie der Wagen zu deiner Zahl und zurück fährt. Verfehlt er seine Fahne, zeigt der Abstand, wie weit du daneben warst – ändere die Zahl und versuch es noch einmal.",
+        "In den Einstellungen wählst du einen Halt oder eine Strecke mit drei Halten und schaltest „Erst runden“ an oder aus."
       ],
       "learningGoals": [
-        "Sicher addieren und subtrahieren im Zahlenraum bis 100",
-        "Den Zehnerübergang beim Plus- und Minusrechnen meistern",
-        "Rechnen in kleinen Sachsituationen anwenden und festigen"
+        "Plus und Minus bis 100 rechnen, mit und ohne Zehnerübergang.",
+        "Verstehen, dass Minus Plus rückgängig macht und Plus Minus.",
+        "Eine Summe durch Runden auf Zehner überschlagen und prüfen, ob das genaue Ergebnis nah dran liegt."
       ]
     },
     "bos-berry-pantry.slingshot-tens.1-nbt-b-2": {

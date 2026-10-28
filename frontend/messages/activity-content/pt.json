@@ -220,25 +220,25 @@
     },
     "gus-snack-cart.within-100.2-nbt-b-5": {
       "about": [
-        "O Gus é um esquilo esperto que abriu um carrinho de lanches e vive repondo o estoque e vendendo nozes, sementes e frutinhas. A cada rodada, a criança entra na história dele para descobrir com quantos itens o Gus ficou — uma forma calma e divertida de treinar as contas do dia a dia.",
-        "A brincadeira trabalha somar e subtrair até 100, com e sem reagrupamento. Em cada rodada, a criança lê a historinha, entende se o Gus ganhou ou vendeu itens, monta a conta com os dois números e digita a resposta. Assim ela pratica o valor posicional dos números de dois algarismos e ganha confiança para calcular de cabeça e no papel.",
-        "A atividade é interativa, sem cronômetro, sem pontos e sem competição, no seu ritmo. A proposta segue a BNCC na unidade temática Números do 2º ano, ajudando a criança a compreender as operações de adição e subtração e a resolver problemas simples com quantidades até 100."
+        "O Gus vende lanches num carrinho que anda numa estrada de números de 0 a 100. Cada rodada conta uma historinha – o Gus tinha 45 biscoitos e vendeu 8 – e a criança digita quantos o Gus tem agora. Então o carrinho vai até esse número, dá meia-volta e faz a história ao contrário: para 45 − 8, ele anda 8 para a frente. Só o resultado certo, 37, leva o carrinho para casa, até a bandeira no 45.",
+        "Um erro vira um pequeno tropeço que dá para ver. Se a criança digitar 47, o carrinho anda 8 e para no 55, e um colchete mostra a distância de 10 entre o carrinho e a bandeira – exatamente uma dezena. No segundo erro, os pulos da história são refeitos a partir da bandeira, primeiro as dezenas e depois as unidades, até um carrinho fantasma. Na opção de percurso, o Gus segue três sinais seguidos, como 24 → +30 → −6 → +15, e o carrinho confere cada parada. Com «Arredondar primeiro», a criança arredonda 38 + 21 para 40 + 20, escreve aproximadamente 60 e depois encontra o resultado exato, 59.",
+        "A atividade está alinhada à BNCC do 2º ano: somar e subtrair até 100 com fluência, usando a relação entre a adição e a subtração. O resultado também pode ser armado em colunas. Funciona sem som, e não há cronômetro nem pontuação."
       ],
       "practices": [
         "Somar e subtrair números de dois algarismos até 100.",
-        "Reagrupar (o famoso “vai um” e o empréstimo) quando a conta pede.",
-        "Ler uma historinha e transformá-la em uma conta de adição ou subtração.",
-        "Reconhecer o valor posicional das dezenas e das unidades."
+        "Conferir uma subtração com uma adição e uma adição com uma subtração.",
+        "Passar a dezena ao somar ou ao tirar.",
+        "Arredondar para a dezena mais próxima para estimar uma soma."
       ],
       "howToPlay": [
-        "Leia a historinha do Gus no quadrinho tracejado e veja se ele vendeu ou ganhou itens.",
-        "Some ou subtraia os dois números da conta, com calma.",
-        "Digite a resposta e siga para a próxima rodada, no seu ritmo."
+        "Leia a história, digite no teclado quantos o Gus tem agora e toque em Conferir.",
+        "Veja o carrinho ir até o seu número e voltar. Se ele não chegar à bandeira, a distância mostra quanto você errou: mude o número e tente de novo.",
+        "Nas configurações, escolha uma parada ou um percurso de três paradas e ligue ou desligue «Arredondar primeiro»."
       ],
       "learningGoals": [
-        "Ganhar fluência para somar e subtrair até 100, com e sem reagrupamento.",
-        "Interpretar situações do dia a dia como contas de adição ou subtração.",
-        "Fortalecer a compreensão das dezenas e unidades nos números de dois algarismos."
+        "Somar e subtrair até 100, com e sem passar a dezena.",
+        "Entender que a subtração desfaz a adição e a adição desfaz a subtração.",
+        "Estimar uma soma arredondando para dezenas e conferir se o resultado exato fica perto."
       ]
     },
     "track-repair.count-to-120.1-nbt-a-1": {

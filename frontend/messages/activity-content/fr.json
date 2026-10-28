@@ -1719,24 +1719,25 @@
     },
     "gus-snack-cart.within-100.2-nbt-b-5": {
       "about": [
-        "Gus tient un petit stand de snacks très animé : il n'arrête pas de réapprovisionner et de vendre ! À chaque tour, ton enfant lit une petite histoire — « Gus avait 45 noix. Il en a vendu 8. » — puis regarde l'opération à deux chiffres qui l'accompagne. Il additionne ou soustrait jusqu'à 100 pour trouver la réponse, et la tape sur le clavier. Quand le compte est bon, le « ? » se transforme en résultat.",
-        "Additionner et soustraire jusqu'à 100 avec aisance, y compris avec des retenues, est un attendu du CE1. En calculant à partir de petites situations concrètes, l'enfant construit peu à peu l'automatisation du calcul et le sens des opérations. Le jeu fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Nombres et calcul »)."
+        "Gus vend des en-cas dans un chariot qui roule sur une route des nombres de 0 à 100. Chaque manche raconte une petite histoire – Gus avait 45 biscuits et il en a vendu 8 – et l’enfant écrit combien Gus en a maintenant. Le chariot roule jusqu’à ce nombre, fait demi-tour et refait l’histoire à l’envers : pour 45 − 8, il avance de 8. Seul le bon résultat, 37, le ramène chez lui, à son drapeau sur 45.",
+        "Une erreur devient un petit accident qu’on voit. Si l’enfant écrit 47, le chariot avance de 8 et s’arrête sur 55, et un crochet montre l’écart de 10 entre le chariot et son drapeau – exactement une dizaine. À la deuxième erreur, les bonds de l’histoire sont rejoués depuis le drapeau, les dizaines d’abord puis les unités, jusqu’à un chariot fantôme. Avec le réglage « parcours », Gus suit trois signes à la suite, comme 24 → +30 → −6 → +15, et le chariot vérifie chaque arrêt. Avec « D’abord arrondir », l’enfant arrondit 38 + 21 à 40 + 20, écrit environ 60, puis trouve le résultat exact, 59.",
+        "L’activité s’appuie sur les programmes officiels du CE1 : additionner et soustraire jusqu’à 100 avec aisance, en utilisant le lien entre l’addition et la soustraction. Le calcul peut aussi être posé en colonnes. Elle fonctionne sans le son, et il n’y a ni chronomètre ni score."
       ],
       "practices": [
-        "Additionner deux nombres jusqu'à 100",
-        "Soustraire un nombre jusqu'à 100",
-        "Calculer avec des retenues et des emprunts",
-        "Choisir la bonne opération à partir de l'histoire",
-        "Taper le résultat au clavier et le vérifier"
+        "Additionner et soustraire des nombres à deux chiffres jusqu’à 100.",
+        "Vérifier une soustraction par une addition, et une addition par une soustraction.",
+        "Passer la dizaine en ajoutant ou en retirant.",
+        "Arrondir à la dizaine la plus proche pour estimer une somme."
       ],
       "howToPlay": [
-        "Lis la petite histoire et regarde l'opération à deux chiffres.",
-        "Additionne ou soustrais jusqu'à 100, tape la réponse au clavier, puis vérifie."
+        "Lis l’histoire, écris sur le clavier combien Gus en a maintenant, puis appuie sur Vérifier.",
+        "Regarde le chariot rouler jusqu’à ton nombre et revenir. S’il rate son drapeau, l’écart montre de combien tu t’es trompé : change le nombre et réessaie.",
+        "Dans les réglages, choisis un arrêt ou un parcours de trois arrêts, et active ou non « D’abord arrondir »."
       ],
       "learningGoals": [
-        "Additionner et soustraire jusqu'à 100",
-        "Calculer avec aisance, retenues comprises",
-        "Automatiser le calcul et le sens des opérations"
+        "Additionner et soustraire jusqu’à 100, avec et sans passage de la dizaine.",
+        "Comprendre que la soustraction défait l’addition, et l’addition la soustraction.",
+        "Estimer une somme en arrondissant aux dizaines et vérifier que le résultat exact en est proche."
       ]
     },
     "comet-kangaroo.tens-hundreds.2-nbt-b-8": {

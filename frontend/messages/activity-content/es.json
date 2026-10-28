@@ -1371,25 +1371,25 @@
     },
     "gus-snack-cart.within-100.2-nbt-b-5": {
       "about": [
-        "Gus, la ardilla, tiene un carrito de botanas y en su puesto siempre hay movimiento: a veces surte más productos y a veces les vende golosinas a sus clientes. En cada ronda tu hijo lee una historia corta de lo que pasa en el carrito y ve la operación que le corresponde a esa escena. Así el cálculo aparece dentro de una situación que el niño o la niña puede imaginar.",
-        "La idea matemática es sencilla: si a Gus le llega más mercancía, se suma; si vende, se resta. Después el niño escribe el resultado y avanza. De esta forma practica sumar y restar hasta 100, incluso cuando hay reagrupación, por ejemplo «27 + 36» o «45 − 8», que son los casos en los que hay que llevar o desagrupar.",
-        "Sin cronómetro, sin puntaje y sin competencia, para que cada quien avance a su propio ritmo. Está alineada al programa de primaria mexicano en el eje de Sentido numérico, donde sumar y restar hasta 100 es una de las habilidades centrales de segundo grado."
+        "Gus vende botanas en un carrito que rueda por un camino de números del 0 al 100. Cada ronda cuenta una historia corta –Gus tenía 45 galletas y vendió 8– y el niño escribe cuántas tiene Gus ahora. Luego el carrito va hasta ese número, da la vuelta y recorre la historia al revés: para 45 − 8, avanza 8. Solo el resultado correcto, 37, lo lleva a casa, a su bandera en el 45.",
+        "Un error es un percance que se ve. Si el niño escribe 47, el carrito avanza 8 y se detiene en el 55, y un corchete muestra la distancia de 10 entre el carrito y su bandera: exactamente una decena. En el segundo error se repiten los saltos de la historia desde la bandera, primero las decenas y luego las unidades, hasta un carrito fantasma. Con el ajuste de ruta, Gus sigue tres signos seguidos, como 24 → +30 → −6 → +15, y el carrito revisa cada parada. Con «Primero redondear», el niño redondea 38 + 21 a 40 + 20, escribe aproximadamente 60 y luego encuentra el resultado exacto, 59.",
+        "La actividad se alinea con los planes de estudio de la SEP para segundo grado: sumar y restar hasta 100 con fluidez, usando la relación entre la suma y la resta. El resultado también puede escribirse en columnas. Funciona sin sonido, y no hay cronómetro ni puntuación."
       ],
       "practices": [
-        "Sumar y agregar hasta 100.",
-        "Restar y quitar hasta 100.",
-        "Calcular con números de dos cifras, incluso con reagrupación.",
-        "Entender problemas: reconocer en la historia si hay que sumar o restar."
+        "Sumar y restar números de dos cifras hasta 100.",
+        "Comprobar una resta con una suma y una suma con una resta.",
+        "Pasar a la siguiente decena al sumar o al restar.",
+        "Redondear a la decena más cercana para estimar una suma."
       ],
       "howToPlay": [
-        "Lee la historia corta de Gus y su carrito.",
-        "Mira la operación y calcula, suma o resta.",
-        "Escribe tu resultado y pasa a la siguiente ronda."
+        "Lee la historia, escribe en el teclado cuántos tiene Gus ahora y presiona Revisar.",
+        "Mira cómo el carrito va hasta tu número y regresa. Si no llega a su bandera, la distancia muestra por cuánto te equivocaste: cambia el número y vuelve a intentarlo.",
+        "En los ajustes, elige una parada o una ruta de tres paradas, y activa o desactiva «Primero redondear»."
       ],
       "learningGoals": [
-        "Sumar y restar con seguridad hasta 100.",
-        "Dominar la reagrupación al sumar y restar.",
-        "Aplicar el cálculo en pequeñas situaciones (problemas)."
+        "Sumar y restar hasta 100, con y sin pasar de decena.",
+        "Entender que la resta deshace la suma y la suma deshace la resta.",
+        "Estimar una suma redondeando a decenas y comprobar que el resultado exacto está cerca."
       ]
     },
     "track-repair.count-to-120.1-nbt-a-1": {

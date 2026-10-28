@@ -150,7 +150,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 140 | LIVE 2026-10-27 · The Snow-Lid Stack | 2 | 2.OA.C.4 | `winter-piles.draw-partition.2-oa-c-4` | winter-piles-activity | Squirrel's Fair Winter Piles — Equal Groups & Arrays (Grade 2) |
 | 141 | LIVE 2026-10-27 · The Flip Pads | 2 | 2.NBT.A.2 | `skipcount.fill.2-nbt-a-2` | skipcount-activity | Hopper's Lily Hops — Skip-Counting by 5s, 10s & 100s (Grade 2) |
 | 142 | LIVE 2026-10-28 · The Twin Tubes | 2 | 2.NBT.A.3 | `match-pairs.three-ways-to-show-a-number.2-nbt-a-3` | match-pairs-activity | Three Ways to Show a Number |
-| 143 |  | 2 | 2.NBT.B.5 | `gus-snack-cart.within-100.2-nbt-b-5` | gus-snack-cart-activity | Gus's Snack Cart — Add & Subtract Within 100 (Grade 2) |
+| 143 | LIVE 2026-10-28 · The Round-Trip Cart | 2 | 2.NBT.B.5 | `gus-snack-cart.within-100.2-nbt-b-5` | gus-snack-cart-activity | Gus's Snack Cart — Add & Subtract Within 100 (Grade 2) |
 | 144 |  | 2 | 2.NBT.B.6 | `tally-squirrel.add-four.2-nbt-b-6` | tally-squirrel-activity | Tally's Acorn Baskets — Add Up to Four Two-Digit Numbers (Grade 2) |
 | 145 |  | 2 | 2.NBT.B.7 | `place-value-regroup.add-compose-hundred.2-nbt-b-7` | place-value-regroup-activity | Tuck Makes a Hundred — Add with Regrouping (Grade 2) |
 | 146 |  | 2 | 2.NBT.B.7 | `place-value-regroup.subtract-decompose-hundred.2-nbt-b-7` | place-value-regroup-activity | Tuck Breaks a Hundred — Subtract with Regrouping (Grade 2) |

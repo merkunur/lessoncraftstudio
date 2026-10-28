@@ -3554,6 +3554,29 @@
         "Nähdä, että 10 lisää muuttaa kymmeniä ja 100 lisää muuttaa satoja.",
         "Ylittää tasakymmen tai tasasata laskiessa, kuten 95, 100."
       ]
+    },
+    "gus-snack-cart.within-100.2-nbt-b-5": {
+      "about": [
+        "Gus myy herkkuja kärrystä, joka kulkee lukutiellä 0:sta 100:aan. Jokainen kierros kertoo lyhyen tarinan – Gusilla oli 45 keksiä ja hän myi 8 – ja lapsi kirjoittaa, montako Gusilla on nyt. Sitten kärry ajaa siihen lukuun, kääntyy ja ajaa tarinan takaperin: laskussa 45 − 8 se ajaa 8 eteenpäin. Vain oikea vastaus, 37, vie sen kotiin lippunsa luo lukuun 45.",
+        "Väärä vastaus on kommellus, jonka näkee. Jos lapsi kirjoittaa 47, kärry ajaa 8 eteenpäin ja pysähtyy lukuun 55, ja hakasulje näyttää kärryn ja lipun välin, 10 – tasan yhden kymmenen. Toisella virheellä tarinan hypyt näytetään lipulta alkaen, ensin kymmenet ja sitten ykköset, aavekärryyn asti. Reittiasetuksella Gus seuraa kolmea merkkiä peräkkäin, esimerkiksi 24 → +30 → −6 → +15, ja kärry tarkistaa jokaisen pysähdyksen. Kun ”Pyöristä ensin” on päällä, lapsi pyöristää laskun 38 + 21 muotoon 40 + 20, kirjoittaa noin 60 ja laskee sitten tarkan vastauksen 59.",
+        "Tehtävä noudattaa OPS 2014:n matematiikkaa vuosiluokille 1–2: yhteen- ja vähennyslaskua sujuvasti 100:aan asti ja yhteen- ja vähennyslaskun yhteyden käyttämistä. Laskun voi kirjoittaa myös allekkain. Se toimii ilman ääntä, eikä siinä ole ajastinta eikä pisteitä."
+      ],
+      "practices": [
+        "Laskea yhteen ja vähentää kaksinumeroisia lukuja 100:aan asti.",
+        "Tarkistaa vähennyslasku yhteenlaskulla ja yhteenlasku vähennyslaskulla.",
+        "Ylittää kymmenen yhteen- ja vähennyslaskussa.",
+        "Pyöristää lähimpään kymmeneen ja arvioida summa."
+      ],
+      "howToPlay": [
+        "Lue tarina, kirjoita näppäimistöllä, montako Gusilla on nyt, ja paina Tarkista.",
+        "Katso, kun kärry ajaa lukuusi ja takaisin. Jos se ei osu lippuunsa, väli näyttää, paljonko vastaus heitti – muuta lukua ja yritä uudelleen.",
+        "Asetuksista valitset yhden pysähdyksen tai kolmen pysähdyksen reitin ja kytket ”Pyöristä ensin” päälle tai pois."
+      ],
+      "learningGoals": [
+        "Laskea yhteen ja vähentää 100:aan asti, kymmenylityksen kanssa ja ilman.",
+        "Ymmärtää, että vähennyslasku kumoaa yhteenlaskun ja yhteenlasku vähennyslaskun.",
+        "Arvioida summa pyöristämällä kymmeniin ja tarkistaa, että tarkka vastaus on lähellä."
+      ]
     }
   }
 }

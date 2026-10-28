@@ -121,3 +121,14 @@ Every finding was fixed at the source:
   - The first render had the shelves stretched to the pack button's column; they are now top-aligned.
   - The three-kind slip spilled out of the 200 px order column at desktop; cube cells now go in rows of three there.
 - **0 lines** in shared cores or `lcs-shell`.
+
+## Live
+Deployed 2026-10-28 (commit `aeb7a97f`; mini-tools copied before `deploy.sh`; preview scp'd). `live-verify-nested-crates.js`: **60 pass, 0 fail**.
+- All 11 locale pages return 200.
+- en/de/sv/fi at 1366 and 390:
+  - wrapper 9.891;
+  - a crate and a box opened and five cubes on the slip give 2 · 9 · 7;
+  - typing 287 marks the tens box wrong and shows the first hint;
+  - typing 297 solves the round and shows the success line;
+  - the iframe grows with the card.
+- The first run failed only its iframe lookup (the first page loads after a deploy are slow; the same happened on #145). curl showed the live pages already embedding `nested-crates-activity.html?v=9.891`, and the rerun was clean.

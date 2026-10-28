@@ -11,6 +11,7 @@
    ===================================================================== */
 'use strict';
 const fs = require('fs'), path = require('path'), vm = require('vm');
+const QA = require('./lib/qa-header'); /* passes Cloudflare's bot check with the secret QA header (our host only) */
 const arg = (k, d) => { const m = process.argv.find(a => a.startsWith('--' + k + '=')); return m ? m.slice(k.length + 3) : d; };
 const OUT = arg('out', path.join(__dirname, '..', 'docs', 'audit-results', 'activities-rebuild', '147-takeaway-scoop', 'live'));
 const MT = path.join(__dirname, '..', 'mini tools');
@@ -28,13 +29,13 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
   const browser = await require('puppeteer').launch({ headless: 'new', args: ['--no-sandbox', '--disable-dev-shm-usage'] });
   is(Object.keys(ROW.slug).length === 11, 'the row ships in all 11 locales');
   for (const loc of Object.keys(ROW.slug)) {
-    const page = await browser.newPage();
+    const page = await browser.newPage(); await QA.apply(page);
     const res = await page.goto(`https://www.lessoncraftstudio.com/${loc}/activities/${ROW.slug[loc]}`, { waitUntil: 'domcontentloaded', timeout: 90000 });
     is(res && res.status() === 200, `[${loc}] /${loc}/activities/${ROW.slug[loc]} → ${res && res.status()}`);
     await page.close(); await wait(300);
   }
   for (const loc of ['en', 'de', 'sv', 'fi']) for (const w of [1366, 390]) {
-    const page = await browser.newPage();
+    const page = await browser.newPage(); await QA.apply(page);
     await page.setViewport({ width: w, height: w > 500 ? 1000 : 844 });
     await page.goto(`https://www.lessoncraftstudio.com/${loc}/activities/${ROW.slug[loc]}`, { waitUntil: 'domcontentloaded', timeout: 90000 });
     /* the page hydrates and can rebuild the iframe: settle, then take the iframe that is there now */

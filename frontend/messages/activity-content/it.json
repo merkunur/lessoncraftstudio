@@ -1175,25 +1175,25 @@
     },
     "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7": {
       "about": [
-        "Tuck il criceto affronta la sfida più difficile: sottrarre da un numero come 302 o 403, dove nelle decine c'è uno zero. Non ci sono decine da aprire, quindi in classe terza si impara il doppio cambio, un passaggio alla volta, con i blocchi base dieci.",
-        "Quando la colonna delle decine è a zero, non si può scomporre subito una decina. L'attività mostra la soluzione: prima si scompone un centinaio in 10 decine, poi una di quelle decine in 10 unità. Solo così la sottrazione con il cambio diventa possibile.",
-        "Allineata alle Indicazioni nazionali, nel nucleo Numeri, l'attività chiarisce il caso che confonde di più i bambini: il cambio attraverso lo zero. Vedere i due scambi in sequenza, centinaio e poi decina, rende ogni passaggio comprensibile e concreto."
+        "Nel magazzino del criceto Tuck un centinaio è una cassa con dieci scatole, e in ogni scatola ci sono dieci cubetti: si vedono da una finestrella della cassa e disegnati sul coperchio di ogni scatola. Ogni turno è un ordine: un bigliettino con una casella vuota per ogni cassa, scatola o cubetto da togliere. Si può aprire solo ciò che sta su uno scaffale: una cassa si apre in dieci scatole sullo scaffale delle decine, mai in cubetti sciolti, e una scatola si apre in dieci cubetti sullo scaffale delle unità.",
+        "In 302 − 5 ci sono due cubetti e nessuna scatola. L’ordine chiede cinque cubetti, quindi dopo due lo scaffale delle unità è vuoto. Prima si apre la cassa, poi una delle sue scatole: nove scatole e dodici cubetti, cinque vanno sull’ordine e restano 297. Chi scrive 307 ha preso dieci unità dal nulla: le due casse e le nove scatole rimaste sugli scaffali mostrano il perché. Dopo un errore ogni scaffale con la cifra sbagliata conta ciò che resta in centinaia, decine o unità; dopo un secondo errore compare il calcolo in colonna con i suoi segni: il 3 barrato e cambiato in 2, un 10 sopra lo 0, che viene barrato e cambiato in 9, e un 12 sopra il 2. L’altra impostazione toglie un numero di tre cifre, come 400 − 136 = 264, e il calcolo in colonna può restare sullo schermo e scrivere ogni segno quando si apre un pacco.",
+        "L’attività segue le Indicazioni nazionali per la classe terza, nel nucleo Numeri: sottrarre entro il 1000 usando il valore posizionale e capire che con il cambio un centinaio diventa dieci decine e una decina dieci unità. Funziona senza audio, senza cronometro e senza punteggi."
       ],
       "practices": [
-        "Riconoscere lo zero nelle decine come segnale del doppio cambio.",
-        "Scomporre un centinaio in 10 decine con i blocchi base dieci.",
-        "Scomporre poi una decina in 10 unità per completare la sottrazione con il cambio.",
-        "Calcolare sottrazioni a tre cifre entro il 1000 con lo zero nelle decine."
+        "Sottrarre entro il 1000 quando al posto delle decine c’è uno zero.",
+        "Cambiare un centinaio in dieci decine e poi una decina in dieci unità.",
+        "Capire perché restano nove decine quando si tolgono poche unità da un numero senza decine.",
+        "Collegare ogni cifra barrata del calcolo in colonna a un pacco aperto."
       ],
       "howToPlay": [
-        "Osserva il numero di Tuck: se le decine sono a zero, servono due cambi.",
-        "Tocca un centinaio per scomporlo in 10 decine, poi scomponi una decina in 10 unità.",
-        "Togli le unità richieste e leggi il risultato della sottrazione con il cambio."
+        "Tocca i cubetti per metterli sull’ordine di Tuck (tieni premuto per prenderne una manciata), oppure trascina un pezzo sull’ordine. Non bastano? Tocca una cassa per aprirla in dieci scatole e poi una scatola per aprirla in dieci cubetti.",
+        "Quando l’ordine è pieno, scrivi ciò che resta nelle tre caselle sotto gli scaffali e premi Controlla.",
+        "Nelle impostazioni togli qualche unità o un numero di tre cifre, e mostra o nascondi il calcolo in colonna."
       ],
       "learningGoals": [
-        "Comprendere il cambio quando nelle decine c'è uno zero.",
-        "Eseguire sottrazioni a tre cifre entro il 1000 con doppio scambio.",
-        "Collegare i blocchi base dieci al valore posizionale e alla sequenza dei due cambi."
+        "Sottrarre entro il 1000 con il cambio, anche passando per lo zero.",
+        "Capire che un centinaio contiene dieci decine e ogni decina dieci unità.",
+        "Collegare le cifre barrate del calcolo in colonna a un cambio vero."
       ]
     },
     "place-value-regroup.add-compose-ten.1-nbt-c-4": {

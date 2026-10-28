@@ -818,25 +818,25 @@
     },
     "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7": {
       "about": [
-        "Tuck, o hamster, olha para 302 − 5 e não encontra nenhuma dezena para desagrupar: a coluna das dezenas está zerada. Então ele faz uma dupla troca — primeiro desagrupa 1 centena em 10 dezenas e, em seguida, desagrupa 1 dezena em 10 unidades.",
-        "É a subtração com reagrupamento mais desafiadora do 3º ano, a que aparece quando há um zero no meio da conta, e faz parte da unidade temática Números da BNCC nos anos iniciais.",
-        "Ver as duas trocas passo a passo com o material dourado — uma centena que vira dez dezenas e uma dezena que vira dez unidades — evita o erro clássico de subtrair de trás para a frente quando aparece um zero no caminho da conta armada."
+        "No depósito do hamster Tuck, uma centena é um caixote com dez caixinhas, e cada caixinha tem dez cubinhos — dá para vê-los por uma janela no caixote e desenhados na tampa de cada caixinha. Cada rodada é um pedido: uma folha com um espaço vazio para cada caixote, caixinha ou cubinho a tirar. A criança só pode abrir o que está numa prateleira: um caixote se abre em dez caixinhas na prateleira das dezenas, nunca em cubinhos soltos, e uma caixinha se abre em dez cubinhos na prateleira das unidades.",
+        "Em 302 − 5 há dois cubinhos e nenhuma caixinha. O pedido quer cinco cubinhos, então depois de dois a prateleira das unidades fica vazia. Primeiro é preciso abrir o caixote e depois uma das caixinhas: nove caixinhas e doze cubinhos; cinco vão para o pedido e sobram 297. Quem escreve 307 tirou dez unidades do nada — os dois caixotes e as nove caixinhas que ficaram nas prateleiras mostram por quê. Depois de um erro, cada prateleira com o algarismo errado conta o que sobrou em centenas, dezenas ou unidades; depois de um segundo, aparece a conta armada com suas marcas: o 3 riscado e trocado por 2, um 10 sobre o 0, que é riscado e trocado por 9, e um 12 sobre o 2. A outra opção tira um número de três algarismos, como 400 − 136 = 264, e a conta armada pode ficar na tela, anotando cada marca quando um pacote se abre.",
+        "A atividade segue a BNCC para o 3º ano, na unidade temática Números: subtrair até 1000 usando o valor posicional e entender que uma centena pode ser desagrupada em dez dezenas e uma dezena em dez unidades. Funciona sem som, sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Identificar o caso especial: faltam unidades e também não há dezenas para desagrupar, porque estão zeradas.",
-        "Tocar em «Desagrupar uma centena» para trocar 1 placa de cem por 10 barrinhas de dez e preencher a coluna das dezenas.",
-        "Tocar em «Desagrupar uma dezena» para transformar uma dessas dezenas em 10 unidades e, enfim, conseguir tirar.",
-        "Tirar a quantidade pedida, revisar centenas, dezenas e unidades e escrever o resultado da subtração."
+        "Subtrair até 1000 quando há um zero na casa das dezenas.",
+        "Desagrupar uma centena em dez dezenas e depois uma dezena em dez unidades.",
+        "Entender por que sobram nove dezenas ao tirar algumas unidades de um número sem dezenas.",
+        "Relacionar cada algarismo riscado da conta armada a um pacote que se abriu."
       ],
       "howToPlay": [
-        "Leia uma subtração com um zero no meio, como 302 − 5, e repare que o Tuck não tem barrinhas de dez para desagrupar.",
-        "Toque em «Desagrupar uma centena» e depois em «Desagrupar uma dezena»: cada troca reorganiza o material dourado e os números de cada coluna.",
-        "Tire as unidades e digite a resposta; o Tuck comemora quando a dupla reagrupação fica certa, sem pressa e sem notas."
+        "Toque nos cubinhos para pô-los no pedido do Tuck (segure para pegar um punhado), ou arraste uma peça até o pedido. Faltou? Toque num caixote para abri-lo em dez caixinhas e depois numa caixinha para abri-la em dez cubinhos.",
+        "Quando o pedido estiver completo, digite o que sobrou nas três casinhas embaixo das prateleiras e toque em Conferir.",
+        "Nas configurações, tire algumas unidades ou um número de três algarismos, e mostre ou esconda a conta armada."
       ],
       "learningGoals": [
-        "Resolver subtrações com reagrupamento encadeando duas trocas seguidas com o material dourado.",
-        "Consolidar o valor posicional ao mover quantidades entre centenas, dezenas e unidades sem mudar o número.",
-        "Subtrair com segurança em números de até três algarismos, um aprendizado esperado no 3º ano segundo a BNCC."
+        "Subtrair até 1000 com desagrupamento, inclusive passando por um zero.",
+        "Entender que uma centena tem dez dezenas e cada dezena tem dez unidades.",
+        "Relacionar os algarismos riscados da conta armada a um desagrupamento de verdade."
       ]
     },
     "place-value-regroup.add-compose-ten.1-nbt-c-4": {

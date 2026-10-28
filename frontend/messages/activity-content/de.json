@@ -2827,25 +2827,25 @@
     },
     "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7": {
       "about": [
-        "In dieser interaktiven Übung üben Kinder das Subtrahieren mit doppeltem Entbündeln im Zahlenraum bis 1000 – den anspruchsvollen Übergang über die Null. Wenn von einer dreistelligen Zahl Einer abgezogen werden sollen, aber weder genügend Einer noch Zehner vorhanden sind, muss zuerst ein Hunderter entbündelt werden: aus einer Hunderterplatte werden zehn Zehnerstangen. Anschließend wird ein Zehner in zehn Einer entbündelt.",
-        "Die Aufgabe zeigt zum Beispiel 302 − 5. Das Kind sieht, dass keine Zehner zum Entbündeln da sind, tippt zuerst auf „Hunderter entbündeln“ und dann auf „Zehner entbündeln“. Jetzt sind genug Einer vorhanden, um wegzunehmen und das Ergebnis einzugeben.",
-        "Die Übung ist ohne Anmeldung spielbar und an den Lehrplänen der Grundschule ausgerichtet. Ohne Zeitdruck und ohne Punkte machen die Mehrsystemblöcke den schwierigen Übergang über die Null Schritt für Schritt sichtbar und verständlich."
+        "Im Lager von Hamster Tuck ist ein Hunderter eine Kiste mit zehn Schachteln, und in jeder Schachtel liegen zehn Würfel – durch ein Fenster in der Kiste und als Umrisse auf jedem Schachteldeckel kann man sie sehen. Jede Runde ist eine Bestellung: ein Bestellzettel mit einem leeren Feld für jede Kiste, jede Schachtel und jeden Würfel, die abgezogen werden. Das Kind kann nur öffnen, was auf einem Regal liegt: Eine Kiste öffnet sich zu zehn Schachteln auf dem Zehnerregal, nie zu einzelnen Würfeln, und eine Schachtel zu zehn Würfeln auf dem Einerregal.",
+        "Bei 302 − 5 liegen zwei Würfel da und gar keine Schachteln. Der Zettel will fünf Würfel, also ist das Einerregal nach zwei leer. Zuerst muss die Kiste auf, dann eine ihrer Schachteln: neun Schachteln und zwölf Würfel, fünf kommen auf den Zettel, und übrig bleiben 297. Wer 307 schreibt, hat zehn Einer aus dem Nichts genommen – die zwei Kisten und neun Schachteln auf den Regalen zeigen, warum das nicht stimmt. Nach einem Fehler zählt jedes Regal mit falscher Ziffer, was übrig ist, in Hundertern, Zehnern oder Einern; nach einem zweiten erscheint die schriftliche Subtraktion mit ihren Zeichen: die 3 durchgestrichen und durch eine 2 ersetzt, über der 0 eine 10, die durchgestrichen und durch eine 9 ersetzt wird, und über der 2 eine 12. In der anderen Einstellung wird eine dreistellige Zahl abgezogen, etwa 400 − 136 = 264, und die schriftliche Subtraktion kann stehen bleiben und jedes Zeichen schreiben, sobald sich ein Paket öffnet.",
+        "Die Aktivität ist an den Lehrplänen für die 3. Klasse im Bereich Zahlen und Operationen ausgerichtet: im Zahlenraum bis 1000 über die Null hinweg subtrahieren und verstehen, dass man einen Hunderter in zehn Zehner und einen Zehner in zehn Einer entbündeln kann. Sie funktioniert ohne Ton, und es gibt keinen Timer und keine Punkte."
       ],
       "practices": [
-        "Subtrahieren mit Entbündeln über die Null im Zahlenraum bis 1000",
-        "Über zwei Stellen entbündeln: erst einen Hunderter, dann einen Zehner zerlegen",
-        "Den anspruchsvollsten Fall des schriftlichen Subtrahierens handelnd vorbereiten",
-        "Stellenwertverständnis bei dreistelligen Zahlen mit einer Null"
+        "Im Zahlenraum bis 1000 subtrahieren, wenn an der Zehnerstelle eine Null steht.",
+        "Einen Hunderter in zehn Zehner entbündeln und dann einen Zehner in zehn Einer.",
+        "Verstehen, warum neun Zehner übrig bleiben, wenn man von einer Zahl ohne Zehner ein paar Einer abzieht.",
+        "Jede durchgestrichene Ziffer der schriftlichen Subtraktion einem Paket zuordnen, das aufgegangen ist."
       ],
       "howToPlay": [
-        "Schau dir die Aufgabe an und lege die größere Zahl mit den Blöcken.",
-        "Keine Zehner da? Tippe zuerst auf „Hunderter entbündeln“ – aus einer Hunderterplatte werden zehn Zehner.",
-        "Tippe dann auf „Zehner entbündeln“, nimm die Einer weg und gib das Ergebnis ein."
+        "Tippe die Würfel an, um sie auf Tucks Bestellzettel zu legen (gedrückt halten für eine Handvoll), oder zieh ein Teil auf den Zettel. Zu wenig? Tippe eine Kiste an, dann kommen zehn Schachteln heraus, und dann eine Schachtel für zehn Würfel.",
+        "Wenn der Zettel voll ist, tipp in die drei Kästchen unter den Regalen ein, was übrig ist, und drück auf Prüfen.",
+        "In den Einstellungen ziehst du ein paar Einer oder eine dreistellige Zahl ab und blendest die schriftliche Subtraktion ein oder aus."
       ],
       "learningGoals": [
-        "Den Übergang über die Null beim Subtrahieren verstehen",
-        "Über mehrere Stellen hinweg sicher entbündeln (Hunderter, Zehner, Einer)",
-        "Sich gründlich auf das schriftliche Subtrahieren in schwierigen Fällen vorbereiten"
+        "Im Zahlenraum bis 1000 über die Null hinweg mit Entbündeln subtrahieren.",
+        "Verstehen, dass ein Hunderter zehn Zehner enthält und jeder Zehner zehn Einer.",
+        "Die durchgestrichenen Ziffern der schriftlichen Subtraktion mit echtem Entbündeln verbinden."
       ]
     },
     "place-value-regroup.add-compose-ten.1-nbt-c-4": {

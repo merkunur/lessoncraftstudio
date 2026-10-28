@@ -3624,6 +3624,29 @@
         "Forstå, at ti tiere giver præcis én hundreder og ti enere én tier.",
         "Forbind menten i opstillingen med en rigtig hundreder."
       ]
+    },
+    "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7": {
+      "about": [
+        "I hamsteren Tucks lager er en hundreder en kasse med ti æsker, og i hver æske ligger ti klodser – man kan se dem gennem et vindue i kassen og som omrids på hvert æskelåg. Hver runde er en bestilling: en bestillingsseddel med et tomt felt for hver kasse, æske og klods, der skal trækkes fra. Barnet kan kun åbne det, der ligger på en hylde: en kasse åbnes til ti æsker på tierhylden, aldrig til løse klodser, og en æske åbnes til ti klodser på enerhylden.",
+        "Ved 302 − 5 er der to klodser og slet ingen æsker. Sedlen vil have fem klodser, så efter to er enerhylden tom. Først skal kassen åbnes og så en af dens æsker: ni æsker og tolv klodser, fem kommer på sedlen, og tilbage er 297. Den, der skriver 307, har taget ti enere ud af den blå luft – de to kasser og ni æsker, der ligger tilbage på hylderne, viser hvorfor. Efter en fejl tæller hver hylde med et forkert ciffer det, der er tilbage, i hundreder, tiere eller enere; efter en fejl mere vises opstillingen med sine mærker: 3-tallet streget over og rettet til 2, 10 skrevet over 0'et, streget over og rettet til 9, og 12 over 2-tallet. Den anden indstilling trækker et trecifret tal fra, fx 400 − 136 = 264, og opstillingen kan blive stående på skærmen og skrive hvert mærke, når en pakke åbnes.",
+        "Aktiviteten følger Fælles Mål (efter 3. klasse) og passer til 3. klasse: at trække fra inden for 1000 med positionssystemet og forstå, at en hundreder kan veksles til ti tiere og en tier til ti enere. Den virker uden lyd, og der er hverken ur eller point."
+      ],
+      "practices": [
+        "At trække fra inden for 1000, når der står et nul på tiernes plads.",
+        "At veksle en hundreder til ti tiere og så en tier til ti enere.",
+        "At se, hvorfor der er ni tiere tilbage, når man trækker et par enere fra et tal uden tiere.",
+        "At koble hvert overstreget ciffer i opstillingen til en pakke, der blev åbnet."
+      ],
+      "howToPlay": [
+        "Tryk på klodserne for at lægge dem på Tucks bestillingsseddel (hold inde for en håndfuld), eller træk en brik hen på sedlen. Ikke nok? Tryk på en kasse for at åbne den til ti æsker og så på en æske for ti klodser.",
+        "Når sedlen er fuld, skriver du det, der er tilbage, i de tre felter under hylderne og trykker på Tjek.",
+        "I indstillingerne trækker du nogle enere eller et trecifret tal fra, og viser eller skjuler opstillingen."
+      ],
+      "learningGoals": [
+        "Træk fra inden for 1000 med veksling, også hen over et nul.",
+        "Forstå, at en hundreder indeholder ti tiere og hver tier ti enere.",
+        "Kobl de overstregede cifre i opstillingen til rigtig veksling."
+      ]
     }
   }
 }

@@ -3650,6 +3650,29 @@
         "Forstå at ti tiere blir nøyaktig én hundrer og ti enere én tier.",
         "Knytte minnetallet i oppstillingen til en ekte hundrer."
       ]
+    },
+    "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7": {
+      "about": [
+        "På lageret til hamsteren Tuck er en hundrer en kasse med ti esker, og i hver eske ligger ti klosser – man ser dem gjennom et vindu i kassen og som omriss på hvert eskelokk. Hver runde er en bestilling: en bestillingslapp med en tom rute for hver kasse, eske og kloss som skal trekkes fra. Barnet kan bare åpne det som ligger på en hylle: en kasse åpnes til ti esker på tierhylla, aldri til løse klosser, og en eske åpnes til ti klosser på enerhylla.",
+        "Ved 302 − 5 er det to klosser og ingen esker. Lappen vil ha fem klosser, så etter to er enerhylla tom. Først må kassen åpnes og så en av eskene: ni esker og tolv klosser, fem legges på lappen, og igjen blir 297. Den som skriver 307, har tatt ti enere ut av løse luften – de to kassene og ni eskene som ligger igjen på hyllene, viser hvorfor. Etter en feil teller hver hylle med feil siffer det som er igjen, i hundrere, tiere eller enere; etter enda en feil vises oppstillingen med merkene sine: 3-tallet strøket over og endret til 2, 10 skrevet over 0-en, strøket over og endret til 9, og 12 over 2-tallet. Den andre innstillingen trekker fra et tresifret tall, for eksempel 400 − 136 = 264, og oppstillingen kan bli stående på skjermen og skrive hvert merke når en pakke åpnes.",
+        "Aktiviteten er knyttet til LK20 for 3. trinn: trekke fra innenfor 1000 ved hjelp av plassverdisystemet og forstå at en hundrer kan veksles til ti tiere og en tier til ti enere. Den virker uten lyd, og det er verken tidtaking eller poeng."
+      ],
+      "practices": [
+        "Å trekke fra innenfor 1000 når det står null på tierplassen.",
+        "Å veksle en hundrer til ti tiere og så en tier til ti enere.",
+        "Å se hvorfor det blir ni tiere igjen når man trekker noen enere fra et tall uten tiere.",
+        "Å koble hvert overstrøket siffer i oppstillingen til en pakke som ble åpnet."
+      ],
+      "howToPlay": [
+        "Trykk på klossene for å legge dem på Tucks bestillingslapp (hold inne for en håndfull), eller dra en brikke til lappen. Ikke nok? Trykk på en kasse for å åpne den til ti esker og så på en eske for ti klosser.",
+        "Når lappen er full, skriver du det som er igjen, i de tre rutene under hyllene og trykker på Sjekk.",
+        "I innstillingene trekker du fra noen enere eller et tresifret tall, og viser eller skjuler oppstillingen."
+      ],
+      "learningGoals": [
+        "Trekke fra innenfor 1000 med veksling, også over null.",
+        "Forstå at en hundrer inneholder ti tiere og hver tier ti enere.",
+        "Koble de overstrøkne sifrene i oppstillingen til ekte veksling."
+      ]
     }
   }
 }

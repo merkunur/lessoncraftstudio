@@ -2382,25 +2382,25 @@
     },
     "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7": {
       "about": [
-        "En 302 − 5 no hay decenas de dónde tomar prestado: la columna de las decenas está en cero. Tuck, el hámster, hace una doble reagrupación: primero «Desarmar una centena» en 10 decenas y después «Desarmar una decena» en 10 unidades.",
-        "Es la resta con reagrupación más retadora de tercero, la que cruza el cero, y forma parte del eje «Número, álgebra y variación» de los planes y programas de estudio de la SEP.",
-        "Ver los dos intercambios paso a paso —una centena que se vuelve diez decenas y una decena que se vuelve diez unidades— evita el error clásico de restar al revés cuando aparece un cero de por medio."
+        "En la bodega del hámster Tuck, una centena es una caja grande con diez cajitas, y cada cajita tiene diez cubitos: se ven por una ventana de la caja y dibujados en la tapa de cada cajita. Cada ronda es un pedido: una hoja con una casilla vacía por cada caja grande, cajita o cubito que se quita. Solo se puede abrir lo que está en un estante: una caja grande se abre en diez cajitas en el estante de las decenas, nunca en cubitos sueltos, y una cajita se abre en diez cubitos en el estante de las unidades.",
+        "En 302 − 5 hay dos cubitos y ninguna cajita. La hoja pide cinco cubitos, así que después de dos el estante de las unidades queda vacío. Primero hay que abrir la caja grande y luego una de sus cajitas: nueve cajitas y doce cubitos; cinco van al pedido y quedan 297. Quien escribe 307 sacó diez unidades de la nada; las dos cajas grandes y las nueve cajitas que quedan en los estantes muestran por qué. Después de un error, cada estante con una cifra equivocada cuenta lo que queda en centenas, decenas o unidades; después de un segundo error aparece la resta escrita con sus marcas: el 3 tachado y cambiado por 2, un 10 sobre el 0, que se tacha y se cambia por 9, y un 12 sobre el 2. La otra opción quita un número de tres cifras, como 400 − 136 = 264, y la resta escrita puede quedarse en pantalla y anotar cada marca cuando se abre un paquete.",
+        "La actividad sigue los planes y programas de la SEP para tercer grado: restar hasta 1000 usando el valor posicional y entender que una centena se puede desagrupar en diez decenas y una decena en diez unidades. Funciona sin sonido, sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Detectar el caso especial: no alcanzan las unidades y, además, no hay decenas para prestar porque están en cero.",
-        "Tocar «Desarmar una centena» para cambiar 1 placa de cien por 10 barras de diez y llenar la columna de las decenas.",
-        "Tocar «Desarmar una decena» para convertir una de esas decenas en 10 unidades y por fin poder quitar.",
-        "Quitar la cantidad pedida, revisar centenas, decenas y unidades, y escribir el resultado de la resta."
+        "Restar hasta 1000 cuando en las decenas hay un cero.",
+        "Desagrupar una centena en diez decenas y luego una decena en diez unidades.",
+        "Ver por qué quedan nueve decenas al quitar unas unidades a un número sin decenas.",
+        "Relacionar cada cifra tachada de la resta escrita con un paquete que se abrió."
       ],
       "howToPlay": [
-        "Lee una resta a través del cero, por ejemplo 302 − 5, y fíjate en que Tuck no tiene barras de diez para prestar.",
-        "Toca «Desarmar una centena» y luego «Desarmar una decena»: cada intercambio reacomoda los bloques de base diez y los números de cada columna.",
-        "Quita las unidades y escribe la respuesta; Tuck celebra cuando la doble reagrupación queda correcta."
+        "Toca los cubitos para ponerlos en el pedido de Tuck (mantén presionado para tomar un puñado), o arrastra una pieza al pedido. ¿No alcanza? Toca una caja grande para abrirla en diez cajitas y luego una cajita para abrirla en diez cubitos.",
+        "Cuando el pedido esté lleno, escribe lo que queda en las tres casillas debajo de los estantes y toca Revisar.",
+        "En la configuración, quita unas unidades o un número de tres cifras, y muestra u oculta la resta escrita."
       ],
       "learningGoals": [
-        "Resolver restas con reagrupación cuando hay un cero en las decenas, encadenando dos intercambios seguidos.",
-        "Afianzar el valor posicional al mover cantidades entre centenas, decenas y unidades sin cambiar el número.",
-        "Restar prestando dentro del 1000 con seguridad, un aprendizaje esperado de 3er grado según los programas de la SEP."
+        "Restar hasta 1000 desagrupando, incluso a través de un cero.",
+        "Entender que una centena tiene diez decenas y cada decena diez unidades.",
+        "Relacionar las cifras tachadas de la resta escrita con desagrupar de verdad."
       ]
     },
     "place-value-regroup.add-compose-ten.1-nbt-c-4": {

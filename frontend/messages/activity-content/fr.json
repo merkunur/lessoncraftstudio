@@ -2204,25 +2204,25 @@
     },
     "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7": {
       "about": [
-        "C'est le défi préféré de Tuck : quand il n'a plus aucune dizaine sous la main, il doit d'abord casser une plaque de centaine pour en fabriquer dix ! Dans cette activité votre enfant soustrait des nombres inférieurs à 1000 et découvre l'échange en cascade, le cas le plus délicat du calcul posé.",
-        "On l'appelle souvent soustraire « par-dessus le zéro » : quand la colonne des dizaines est vide, il faut remonter jusqu'aux centaines. Votre enfant voit la plaque devenir dix barres, puis une barre devenir dix cubes, dans un enchaînement clair et logique.",
-        "Réservée au CE2 et conforme aux programmes officiels, dans le domaine « Nombres et calcul », l'activité se déroule en douceur, sans chronomètre, sans points et sans compte. Votre enfant relève le défi tranquillement, main dans la patte avec Tuck."
+        "Dans la réserve du hamster Tuck, une centaine est une caisse qui contient dix boîtes, et chaque boîte contient dix cubes — on les voit par une fenêtre dans la caisse et dessinés sur le couvercle de chaque boîte. Chaque manche est une commande : un bon de commande avec une case vide pour chaque caisse, boîte ou cube à enlever. L’enfant ne peut ouvrir que ce qui est posé sur une étagère : une caisse s’ouvre en dix boîtes sur l’étagère des dizaines, jamais en cubes, et une boîte s’ouvre en dix cubes sur l’étagère des unités.",
+        "Pour 302 − 5, il y a deux cubes et aucune boîte. Le bon demande cinq cubes : après deux, l’étagère des unités est vide. Il faut d’abord ouvrir la caisse, puis une de ses boîtes : neuf boîtes et douze cubes, cinq vont sur le bon, et il reste 297. Celui qui écrit 307 a pris dix unités de nulle part ; les deux caisses et les neuf boîtes restées sur les étagères montrent pourquoi. Après une erreur, chaque étagère dont le chiffre est faux compte ce qui reste en centaines, en dizaines ou en unités ; après une deuxième, la soustraction posée apparaît avec ses marques : le 3 barré et remplacé par un 2, 10 écrit au-dessus du 0 puis barré et remplacé par un 9, et 12 au-dessus du 2. L’autre réglage enlève un nombre à trois chiffres, comme 400 − 136 = 264, et la soustraction posée peut rester affichée et noter chaque marque quand un paquet s’ouvre.",
+        "L’activité suit les programmes officiels du CE2 : soustraire jusqu’à 1 000 en s’appuyant sur la numération, et comprendre qu’on peut casser une centaine en dix dizaines et une dizaine en dix unités. Elle fonctionne sans le son, sans chronomètre et sans score."
       ],
       "practices": [
-        "Soustraire deux nombres inférieurs à 1000 avec un double échange successif.",
-        "Enchaîner deux échanges décimaux : une centaine en dix dizaines, puis une dizaine en dix unités.",
-        "Gérer le cas d'une colonne des dizaines vide, la fameuse soustraction « par-dessus le zéro ».",
-        "Coordonner les trois colonnes unités, dizaines et centaines dans un même calcul."
+        "Soustraire jusqu’à 1 000 quand le chiffre des dizaines est un zéro.",
+        "Casser une centaine en dix dizaines, puis une dizaine en dix unités.",
+        "Comprendre pourquoi il reste neuf dizaines quand on enlève quelques unités à un nombre sans dizaines.",
+        "Relier chaque chiffre barré de la soustraction posée à un paquet ouvert."
       ],
       "howToPlay": [
-        "Tuck affiche une soustraction exigeante, par exemple 302 − 5 : votre enfant constate qu'il n'y a ni assez d'unités, ni aucune dizaine à casser.",
-        "On appuie d'abord sur « Casser une centaine » pour obtenir dix dizaines, puis sur « Casser une dizaine » pour obtenir dix unités.",
-        "Votre enfant retire enfin ce qu'il faut, tape la réponse dans la case, et Tuck le félicite pour avoir réussi l'échange en cascade."
+        "Touche les cubes pour les poser sur le bon de commande de Tuck (reste appuyé pour en prendre une poignée), ou fais glisser une pièce sur le bon. Pas assez ? Touche une caisse pour l’ouvrir en dix boîtes, puis une boîte pour l’ouvrir en dix cubes.",
+        "Quand le bon est rempli, tape ce qui reste dans les trois cases sous les étagères, puis appuie sur Vérifier.",
+        "Dans les réglages, enlève quelques unités ou un nombre à trois chiffres, et affiche ou masque la soustraction posée."
       ],
       "learningGoals": [
-        "Maîtriser l'échange en cascade en soustraction en le construisant pas à pas, sans le subir.",
-        "Approfondir la numération de position jusqu'à 1000, y compris quand un zéro complique le calcul.",
-        "Aborder le cas le plus difficile de la soustraction posée avec confiance et méthode."
+        "Soustraire jusqu’à 1 000 en cassant une centaine ou une dizaine, même en passant par un zéro.",
+        "Comprendre qu’une centaine contient dix dizaines et chaque dizaine dix unités.",
+        "Relier les chiffres barrés de la soustraction posée à des centaines et des dizaines vraiment cassées."
       ]
     },
     "place-value-regroup.add-compose-ten.1-nbt-c-4": {

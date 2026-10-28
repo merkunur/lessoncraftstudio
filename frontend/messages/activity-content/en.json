@@ -3365,25 +3365,25 @@
     },
     "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7": {
       "about": [
-        "Tuck the hamster shows base-ten blocks for the hardest kind of borrowing — subtracting from a three-digit number with no tens to borrow from, like 302 − 5 and 201 − 6 — so children tap 'Break a hundred' for ten ten-rods, then 'Break a ten' for ten ones, take some away, and type the answer. It's an interactive Grade 2 math activity that runs right in the browser with no account.",
-        "The big idea is borrowing across a zero, which trips up many children because the tens place is empty. Seeing the blocks makes it sensible: you cannot break a ten that is not there, so you first break a hundred into ten tens, and THEN break a ten into ten ones. The two-step trade is something the child performs and watches, not a rule to memorize, so 'borrowing across zero' finally makes physical sense.",
-        "It is aligned to Common Core 2.NBT.B.7 — subtracting within 1000 using concrete models and understanding that you sometimes decompose a hundred and a ten. No timer, no score — just calm, playful practice."
+        "In Tuck the hamster's stock room a hundred is a crate packed with ten boxes, and every box is packed with ten cubes — you can see them through a window in the crate and as outlines on each box's lid. Each round is a customer's order: an order slip with one empty cell for every crate, box or cube that is taken away. The child can only open what lies on a shelf: a crate opens into ten boxes on the tens shelf, never into loose cubes, and a box opens into ten cubes on the ones shelf.",
+        "For 302 − 5 there are two cubes and no boxes at all. The slip wants five cubes, so after two the ones shelf is empty. A crate must open first, then one of its boxes: nine boxes and twelve cubes, five go on the slip, and what is left is 297. A child who writes 307 has taken ten ones out of nowhere; the two crates and nine boxes left on the shelves show why. After a miss, each shelf with a wrong digit counts what is left in hundreds, tens or ones; after a second miss the written subtraction appears with its marks — the 3 crossed out to a 2, 10 written over the 0 and crossed out to 9, and 12 over the 2. The other setting takes away a three-digit number, such as 400 − 136 = 264, and the written subtraction can stay on the screen, writing each mark as its package opens.",
+        "It is aligned to Common Core 2.NBT.B.7: subtract within 1000 using models and place value, understanding that sometimes a hundred is decomposed into ten tens and a ten into ten ones. It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Subtract from a three-digit number that has a zero in the tens place",
-        "Break one hundred-flat into ten ten-rods",
-        "Then break one ten-rod into ten ones to take ones away",
-        "Understand borrowing across zero as decomposing a hundred, then a ten"
+        "Subtracting within 1000 when the tens place is zero.",
+        "Opening a hundred into ten tens, and then a ten into ten ones.",
+        "Seeing why nine tens are left after taking a few ones from a number with no tens.",
+        "Matching each crossed-out digit in a written subtraction to a package that opened."
       ],
       "howToPlay": [
-        "Read the subtraction, like 302 − 5, and watch Tuck show the blocks.",
-        "Tap 'Break a hundred' for ten tens, then 'Break a ten' for ten ones, and take some away.",
-        "Type the answer on the keypad; try again any time, with no timer and no score."
+        "Tap the cubes to put them on Tuck's order slip (press and hold for a handful), or drag any piece onto the slip. Not enough? Tap a crate to open it into ten boxes, then tap a box to open it into ten cubes.",
+        "When the slip is full, type what is left on the shelves in the three boxes under them, then press Check.",
+        "In the settings, take away a few ones or a three-digit number, and show or hide the written subtraction."
       ],
       "learningGoals": [
-        "Subtract within 1000 with regrouping across zero — the focus of Common Core 2.NBT.B.7",
-        "Understand that one hundred decomposes into ten tens, and one ten into ten ones",
-        "Build the place-value reasoning behind written subtraction with borrowing"
+        "Subtract within 1000 with regrouping across a zero — the focus of Common Core 2.NBT.B.7.",
+        "Understand that a hundred holds ten tens and each ten holds ten ones.",
+        "Connect the crossed-out digits of written subtraction to real regrouping."
       ]
     },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {

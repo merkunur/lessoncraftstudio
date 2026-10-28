@@ -3623,6 +3623,29 @@
         "Sen ymmärtäminen, että kymmenen kymppiä on täsmälleen yksi sata ja kymmenen ykköstä yksi kymppi.",
         "Allekkainlaskun muistinumeron yhdistäminen oikeaan sataan."
       ]
+    },
+    "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7": {
+      "about": [
+        "Hamsteri Tuckin varastossa satanen on laatikko, jossa on kymmenen rasiaa, ja jokaisessa rasiassa on kymmenen kuutiota – ne näkyvät laatikon ikkunasta ja ääriviivoina jokaisen rasian kannessa. Jokainen kierros on tilaus: tilauslappu, jossa on yksi tyhjä ruutu jokaista vähennettävää laatikkoa, rasiaa ja kuutiota kohti. Lapsi voi avata vain sen, mikä on hyllyllä: laatikko aukeaa kymmeneksi rasiaksi kymppien hyllylle, ei koskaan irtokuutioiksi, ja rasia aukeaa kymmeneksi kuutioksi ykkösten hyllylle.",
+        "Laskussa 302 − 5 on kaksi kuutiota eikä yhtään rasiaa. Lappu pyytää viittä kuutiota, joten kahden jälkeen ykkösten hylly on tyhjä. Ensin on avattava laatikko ja sitten yksi sen rasioista: yhdeksän rasiaa ja kaksitoista kuutiota, viisi menee lapulle ja jäljelle jää 297. Joka kirjoittaa 307, on ottanut kymmenen ykköstä tyhjästä – hyllyille jääneet kaksi laatikkoa ja yhdeksän rasiaa näyttävät miksi. Virheen jälkeen jokainen hylly, jonka numero on väärin, laskee, mitä siihen jäi, satoina, kymppeinä tai ykkösinä; toisen virheen jälkeen näkyviin tulee allekkainlasku merkintöineen: 3 yliviivataan ja tilalle tulee 2, nollan yläpuolelle kirjoitetaan 10, joka yliviivataan ja tilalle tulee 9, ja kakkosen yläpuolelle 12. Toinen asetus vähentää kolminumeroisen luvun, esimerkiksi 400 − 136 = 264, ja allekkainlasku voi jäädä näkyviin ja kirjoittaa jokaisen merkinnän, kun paketti aukeaa.",
+        "Tehtävä tukee OPS 2014 -tavoitteita 3. luokalla: vähennyslasku lukualueella 0–1000 kymmenjärjestelmän avulla ja sen ymmärtäminen, että sadan voi vaihtaa kymmeneksi kympiksi ja kympin kymmeneksi ykköseksi. Se toimii ilman ääntä, eikä siinä ole ajanottoa tai pisteitä."
+      ],
+      "practices": [
+        "Vähennyslasku lukualueella 0–1000, kun kymppien paikalla on nolla.",
+        "Sadan vaihtaminen kymmeneksi kympiksi ja sitten kympin vaihtaminen kymmeneksi ykköseksi.",
+        "Sen näkeminen, miksi jäljelle jää yhdeksän kymppiä, kun luvusta, jossa ei ole kymppejä, vähennetään muutama ykkönen.",
+        "Allekkainlaskun jokaisen yliviivatun numeron yhdistäminen avattuun pakettiin."
+      ],
+      "howToPlay": [
+        "Napauta kuutioita, niin ne siirtyvät Tuckin tilauslapulle (pidä painettuna, niin saat kourallisen), tai vedä pala lapulle. Eikö riitä? Napauta laatikkoa, niin siitä tulee kymmenen rasiaa, ja sitten rasiaa, niin siitä tulee kymmenen kuutiota.",
+        "Kun lappu on täynnä, kirjoita hyllyjen alla oleviin kolmeen ruutuun, paljonko jäi, ja paina Tarkista.",
+        "Asetuksista valitset, vähennetäänkö muutama ykkönen vai kolminumeroinen luku, ja näytätkö allekkainlaskun."
+      ],
+      "learningGoals": [
+        "Vähennä lukualueella 0–1000 vaihtaen, myös nollan yli.",
+        "Ymmärrä, että sadassa on kymmenen kymppiä ja jokaisessa kympissä kymmenen ykköstä.",
+        "Yhdistä allekkainlaskun yliviivatut numerot oikeaan vaihtamiseen."
+      ]
     }
   }
 }

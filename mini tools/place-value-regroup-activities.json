@@ -333,7 +333,7 @@
   },
   {
     "id": "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7",
-    "tool": "place-value-regroup-activity",
+    "tool": "nested-crates-activity",
     "task_template": "subtract-decompose-hundred",
     "alignment": {
       "framework": "CCSS",
@@ -343,48 +343,84 @@
     },
     "theme": null,
     "params": {
-      "rounds": [
-        {
-          "id": "r-302-5",
-          "a": 302,
-          "b": 5
-        },
-        {
-          "id": "r-403-8",
-          "a": 403,
-          "b": 8
-        },
-        {
-          "id": "r-201-6",
-          "a": 201,
-          "b": 6
-        },
-        {
-          "id": "r-402-9",
-          "a": 402,
-          "b": 9
-        },
-        {
-          "id": "r-303-9",
-          "a": 303,
-          "b": 9
-        },
-        {
-          "id": "r-202-8",
-          "a": 202,
-          "b": 8
-        },
-        {
-          "id": "r-301-6",
-          "a": 301,
-          "b": 6
-        },
-        {
-          "id": "r-203-7",
-          "a": 203,
-          "b": 7
-        }
-      ]
+      "take": [
+        "ones",
+        "big"
+      ],
+      "written": [
+        "hidden",
+        "shown"
+      ],
+      "rounds": {
+        "ones": [
+          {
+            "a": 302,
+            "b": 5
+          },
+          {
+            "a": 403,
+            "b": 8
+          },
+          {
+            "a": 201,
+            "b": 6
+          },
+          {
+            "a": 402,
+            "b": 9
+          },
+          {
+            "a": 303,
+            "b": 9
+          },
+          {
+            "a": 202,
+            "b": 8
+          },
+          {
+            "a": 301,
+            "b": 6
+          },
+          {
+            "a": 203,
+            "b": 7
+          }
+        ],
+        "big": [
+          {
+            "a": 400,
+            "b": 136
+          },
+          {
+            "a": 503,
+            "b": 247
+          },
+          {
+            "a": 600,
+            "b": 258
+          },
+          {
+            "a": 702,
+            "b": 365
+          },
+          {
+            "a": 801,
+            "b": 426
+          },
+          {
+            "a": 300,
+            "b": 174
+          },
+          {
+            "a": 905,
+            "b": 368
+          },
+          {
+            "a": 604,
+            "b": 279
+          }
+        ]
+      }
     },
     "slug": {
       "en": "subtract-with-regrouping-break-a-hundred",
@@ -394,7 +430,10 @@
       "pt": "subtracao-com-reagrupamento-desagrupar-uma-centena-3-ano",
       "it": "sottrazione-con-il-cambio-scomporre-un-centinaio-classe-terza",
       "nl": "aftrekken-met-inwisselen-over-de-nul-groep-5",
-      "sv": "subtraktion-med-dubbelvaxling-inom-1000-ak-3"
+      "sv": "subtraktion-med-dubbelvaxling-inom-1000-ak-3",
+      "da": "tuck-veksler-en-hundreder-minus-over-nul-3-klasse",
+      "no": "tuck-veksler-en-hundrer-minus-over-null-3-trinn",
+      "fi": "tuck-vaihtaa-satasen-vahennyslasku-nollan-yli-3-luokka"
     },
     "page_title": {
       "en": "Tuck Breaks a Hundred — Subtract with Regrouping (Grade 2)",
@@ -404,7 +443,10 @@
       "pt": "Tuck desagrupa uma centena: subtração com reagrupamento (3º ano)",
       "it": "Tuck scompone un centinaio: sottrazione con il cambio e lo zero (classe terza)",
       "nl": "Aftrekken over de nul heen tot 1000 — Tuck splitst een honderdtal (Groep 5)",
-      "sv": "Subtraktion med dubbelväxling inom 1000 – när tiotalen är slut (åk 3)"
+      "sv": "Subtraktion med dubbelväxling inom 1000 – när tiotalen är slut (åk 3)",
+      "da": "Tuck veksler en hundreder – minus over nul (3. klasse)",
+      "no": "Tuck veksler en hundrer – subtraksjon med veksling over null (3. trinn)",
+      "fi": "Tuck vaihtaa satasen – vähennyslasku nollan yli (3. luokka)"
     },
     "page_intro": {
       "en": "An interactive Grade 2 math activity: subtract from a three-digit number with no tens to borrow from. Tuck the hamster shows the base-ten blocks; tap “Break a hundred” to turn one hundred into ten tens, then “Break a ten” for ten ones, take some away, and type the answer. A clear, hands-on look at borrowing across zero — decomposing a hundred. Common Core 2.NBT.B.7.",
@@ -414,7 +456,10 @@
       "pt": "Domine a subtração com reagrupamento quando há um zero no meio da conta, no 3º ano: quando não há dezenas para desagrupar, o Tuck, o hamster, desagrupa 1 centena e depois 1 dezena no material dourado, e então subtrai. Atividade interativa, online e sem cadastro, alinhada à BNCC na unidade temática Números.",
       "it": "Tuck il criceto porta i bambini di classe terza dentro la sottrazione con il cambio più impegnativa: quella con uno zero nelle decine. Quando non ci sono decine da aprire, Tuck mostra il doppio passaggio: prima scompone un centinaio in 10 decine, poi una decina in 10 unità, e solo allora toglie. Tutto con i blocchi base dieci in colonne di valore posizionale. Un'attività senza registrazione, direttamente nel browser e allineata alle Indicazioni nazionali, nel nucleo Numeri.",
       "nl": "Oefen aftrekken tot 1000 met inwisselen over de nul heen in een interactieve activiteit — zonder download en zonder account. Je kind splitst samen met Tuck de hamster eerst een plaat en daarna een staafje, in twee stappen. Rustig en speels rekenen met MAB-blokken, helemaal in het Nederlands.",
-      "sv": "Det finns inga tiotal att växla – barnet växlar först ett hundratal, sedan ett tiotal, och räknar ut svaret. Subtraktion inom 0–1000, anpassad till Lgr22 för åk 3."
+      "sv": "Det finns inga tiotal att växla – barnet växlar först ett hundratal, sedan ett tiotal, och räknar ut svaret. Subtraktion inom 0–1000, anpassad till Lgr22 för åk 3.",
+      "da": "Hamsteren Tuck har et lager, hvor en kasse rummer ti æsker, og hver æske rummer ti klodser – og man kan kun åbne det, der ligger på hylden. Når der ingen tiere er, må barnet først åbne en kasse til ti æsker og så en æske til ti klodser, fylde bestillingssedlen og skrive, hvad der er tilbage, i stykker som 302 − 5. Minus med veksling over nul inden for 1000, interaktivt til 3. klasse.",
+      "no": "Hamsteren Tuck har et lager der en kasse rommer ti esker og hver eske ti klosser – og man kan bare åpne det som ligger på hylla. Når det ikke er noen tiere, må barnet først åpne en kasse til ti esker og så en eske til ti klosser, fylle bestillingslappen og skrive hva som er igjen, i stykker som 302 − 5. Subtraksjon med veksling over null innenfor 1000, interaktivt for 3. trinn.",
+      "fi": "Hamsteri Tuckin varastossa laatikossa on kymmenen rasiaa ja jokaisessa rasiassa kymmenen kuutiota – ja avata voi vain sen, mikä on hyllyllä. Kun kymppejä ei ole, lapsi vaihtaa ensin laatikon kymmeneksi rasiaksi ja sitten rasian kymmeneksi kuutioksi, täyttää tilauslapun ja kirjoittaa, paljonko jäi, laskuissa kuten 302 − 5. Vähennyslasku vaihdolla nollan yli lukualueella 0–1000, interaktiivinen tehtävä 3. luokalle."
     },
     "kid_prompt_template": "place-value-regroup"
   }

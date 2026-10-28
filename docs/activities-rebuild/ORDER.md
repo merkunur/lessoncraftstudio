@@ -153,7 +153,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 143 | LIVE 2026-10-28 · The Round-Trip Cart | 2 | 2.NBT.B.5 | `gus-snack-cart.within-100.2-nbt-b-5` | gus-snack-cart-activity | Gus's Snack Cart — Add & Subtract Within 100 (Grade 2) |
 | 144 | LIVE 2026-10-28 · The Acorn Sieve | 2 | 2.NBT.B.6 | `tally-squirrel.add-four.2-nbt-b-6` | tally-squirrel-activity | Tally's Acorn Baskets — Add Up to Four Two-Digit Numbers (Grade 2) |
 | 145 | LIVE 2026-10-28 · The Square Vice | 2 | 2.NBT.B.7 | `place-value-regroup.add-compose-hundred.2-nbt-b-7` | place-value-regroup-activity | Tuck Makes a Hundred — Add with Regrouping (Grade 2) |
-| 146 |  | 2 | 2.NBT.B.7 | `place-value-regroup.subtract-decompose-hundred.2-nbt-b-7` | place-value-regroup-activity | Tuck Breaks a Hundred — Subtract with Regrouping (Grade 2) |
+| 146 | LIVE 2026-10-28 · The Nested Crates | 2 | 2.NBT.B.7 | `place-value-regroup.subtract-decompose-hundred.2-nbt-b-7` | place-value-regroup-activity | Tuck Breaks a Hundred — Subtract with Regrouping (Grade 2) |
 | 147 |  | 2 | 2.NBT.B.7 | `place-value-regroup.subtract-decompose.2-nbt-b-7` | place-value-regroup-activity | Tuck Breaks a Ten — Subtract with Regrouping (Grade 2) |
 | 148 |  | 2 | 2.NBT.B.8 | `comet-kangaroo.tens-hundreds.2-nbt-b-8` | comet-kangaroo-activity | Comet's Big Leaps — 10 & 100 More or Less (Grade 2) |
 | 149 |  | 2 | 2.NBT.A.1 | `place-value.hundreds-tens-and-ones.2-nbt-a-1` | place-value-activity | Hundreds, Tens, and Ones |

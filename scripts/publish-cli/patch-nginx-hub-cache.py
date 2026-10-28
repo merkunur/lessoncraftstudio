@@ -61,16 +61,25 @@ MAIN_LOC_RE = re.compile(r"^\s*location\s+/\s*\{")
 # in a 504 while Next kept rendering them, which froze the server (the #143 deploy
 # hung for an hour on a smoke curl). The cap is a GLOBAL key: every query-bearing
 # page load shares 2 r/s (burst 20), the rest get a cheap 429. Excluded: requests
-# with no query string, and `_rsc=` fetches — a child/teacher clicking a filter on
+# with no query string, search-engine crawlers (see below), and `_rsc=` fetches — a child/teacher clicking a filter on
 # the hub navigates client-side through `_rsc=`, so real use is not capped.
 ZONE_MARKER = "# Facet cap: zone (2026-10-28)"
 ZONE_END = "# Facet cap: end"
 ZONE_ANCHOR_RE = re.compile(r"^\s*limit_req_status\s+429;")
+# Search-engine crawlers are EXEMPT (operator ruling 2026-10-28): they obey the
+# robots.txt rules for these combinations, and a 429 to Googlebot makes Google slow
+# its crawl of the WHOLE site. A forged crawler UA slips through — accepted; the
+# freeze came from a fleet posing as ordinary Chrome browsers.
 FACET_ZONE = """{marker}
-map $args $lcs_facet_key {{
-    default        "facet";
-    ""             "";
-    "~(^|&)_rsc="  "";
+map $http_user_agent $lcs_search_bot {{
+    default 0;
+    "~*(googlebot|google-inspectiontool|googleother|adsbot-google|bingbot|bingpreview|msnbot|duckduckbot|applebot|yandex)" 1;
+}}
+map "$lcs_search_bot:$args" $lcs_facet_key {{
+    default          "facet";
+    "0:"             "";
+    "~^1:"           "";
+    "~^0:(.*&)?_rsc=" "";
 }}
 limit_req_zone $lcs_facet_key zone=lcsfacet:1m rate=2r/s;
 {end}

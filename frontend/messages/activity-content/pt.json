@@ -795,25 +795,25 @@
     },
     "place-value-regroup.add-compose-hundred.2-nbt-b-7": {
       "about": [
-        "Tuck, o hamster, soma 160 + 50 e se depara com 11 dezenas — e onze dezenas já não cabem na coluna delas. A saída é agrupar uma centena: ele junta 10 barrinhas de dez e as troca por uma placa de cem.",
-        "Este é o lado da soma com reagrupamento em que o «vai um» segue para as centenas, um conteúdo da unidade temática Números da BNCC para o 3º ano dos anos iniciais.",
-        "Ao agrupar dez dezenas em uma centena diante dos olhos da criança, fica claro por que se reserva um algarismo na coluna seguinte da conta armada: é uma troca justa com o material dourado, e não uma regra para decorar."
+        "O hamster Tuck tem uma morsa que só trava com um quadrado perfeito. Atrás da base há uma placa quadrada com dez faixas, e uma barra de dez tem exatamente o comprimento da largura do quadrado. A criança toca na coluna das dezenas para pôr barras na base e gira a manivela: a mandíbula desce até a pilha, e a trava só entra no encaixe quando a pilha tem exatamente dez barras de altura. Sai uma placa de cem, que desliza para a coluna das centenas.",
+        "Em 160 + 50 há onze dezenas. Nove barras deixam uma faixa vazia e a morsa não trava; onze passam do topo. Dez formam uma centena e sobra uma barra, então o total é 210. Em 320 + 80 as dezenas dão exatamente dez, e a casinha das dezenas recebe um 0: 400. A criança digita o total em três casinhas embaixo das colunas, e o botão Conferir não aceita uma coluna que ainda tenha dez peças ou mais, porque um só algarismo não consegue descrevê-la. Depois de um erro, cada coluna conta suas peças de cem em cem, de dez em dez ou de uma em uma; depois de um segundo erro, os algarismos certos aparecem a lápis e a conta armada mostra o 1 que vai para a coluna seguinte. Outros ajustes trazem contas em que nada chega a dez (34 + 25 = 59) e contas em que unidades e dezenas se agrupam (268 + 157 = 425), e a conta armada pode aparecer ao lado dos blocos.",
+        "A atividade segue a BNCC para o 3º ano, na unidade temática Números: somar até 1000 usando o valor posicional e entender que dez dezenas formam uma centena. Funciona sem som, sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Somar as dezenas e perceber quando elas chegam a dez ou mais: esse é o sinal para reagrupar em direção às centenas.",
-        "Tocar em «Agrupar uma centena» para trocar 10 barrinhas de dez por 1 placa de cem e ver o número se reorganizar.",
-        "Reconhecer o valor posicional: quantas centenas, dezenas e unidades sobram depois de formar a nova centena.",
-        "Escrever o total da soma e conferir se ele corresponde ao material dourado sobre a mesa do Tuck."
+        "Somar até 1000 quando as dezenas somam dez ou mais.",
+        "Trocar dez dezenas por uma centena e dez unidades por uma dezena.",
+        "Ver por que uma coluna com dez peças ou mais não pode ser escrita com um só algarismo.",
+        "Ligar o 1 que vai para a próxima coluna na conta armada à centena feita na morsa."
       ],
       "howToPlay": [
-        "Observe a soma no alto, como 160 + 50, e olhe as dezenas do Tuck representadas por barrinhas de dez.",
-        "Toque em «Agrupar uma centena» quando juntar 10 dezenas para trocá-las por uma placa de cem; o número se reorganiza sozinho.",
-        "Digite o total; o Tuck comemora quando a soma com reagrupamento para as centenas fica bem resolvida, sem pressa e sem notas."
+        "Toque em uma coluna para pôr suas peças na morsa do Tuck, uma de cada vez (segure para pôr um punhado), e gire a manivela para baixo: ela só trava com dez exatas.",
+        "Digite o total nas três casinhas embaixo das colunas e toque em Conferir.",
+        "Nos ajustes, escolha contas sem agrupar, dezenas que viram centena, ou unidades e dezenas que se agrupam, e mostre ou esconda a conta armada."
       ],
       "learningGoals": [
-        "Entender que reagrupar na soma é trocar 10 dezenas por 1 centena sem mudar a quantidade total.",
-        "Conectar o uso do material dourado à ideia do «vai um» no algoritmo da conta armada.",
-        "Somar com números de até três algarismos compondo centenas, fortalecendo o sentido numérico esperado no 3º ano pela BNCC."
+        "Somar até 1000 com reagrupamento.",
+        "Entender que dez dezenas formam exatamente uma centena, e dez unidades uma dezena.",
+        "Ligar o 1 da conta armada a uma centena de verdade."
       ]
     },
     "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7": {

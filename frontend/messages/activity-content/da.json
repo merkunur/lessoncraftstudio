@@ -3601,6 +3601,29 @@
         "Hold tiere med tiere og enere med enere, og veksl ti enere til en tier.",
         "Tjek et resultat ved at se, hvor hver tier og hver ener blev af."
       ]
+    },
+    "place-value-regroup.add-compose-hundred.2-nbt-b-7": {
+      "about": [
+        "Hamsteren Tuck har en skruestik, der kun låser på et præcist kvadrat. Bag bordet står en kvadratisk plade med ti striber, og en tierstang er præcis lige så lang, som kvadratet er bredt. Barnet trykker på tierkolonnen for at lægge stænger på bordet og drejer på håndtaget: kæben går ned på stakken, og pallen går kun i hak, når stakken er præcis ti stænger høj. Ud kommer en hundredplade, som glider ned i hundrederkolonnen.",
+        "I 160 + 50 er der elleve tiere. Ni stænger lader en stribe stå tom, og skruestikken låser ikke; elleve stikker op over kanten. Ti veksles til en hundreder, og én stang bliver tilbage, så resultatet er 210. I 320 + 80 giver tierne præcis ti, og i tierfeltet kommer et 0: 400. Barnet skriver resultatet i tre felter under kolonnerne, og Tjek tager ikke imod en kolonne, hvor der stadig ligger ti brikker eller flere, for ét ciffer kan ikke beskrive den. Efter en fejl tæller hver kolonne sine brikker i hundreder, tiere eller enere; efter en anden fejl står de rigtige cifre med blyant, og opstillingen viser menten. Andre indstillinger giver stykker, hvor intet når op på ti (34 + 25 = 59), og stykker, hvor både enere og tiere veksles (268 + 157 = 425), og opstillingen kan vises ved siden af klodserne.",
+        "Aktiviteten følger Fælles Mål (efter 3. klasse) og passer til 3. klasse: at lægge sammen inden for 1000 med positionssystemet og forstå, at ti tiere giver en hundreder. Den virker uden lyd, og der er hverken ur eller point."
+      ],
+      "practices": [
+        "At lægge sammen inden for 1000, når tierne bliver ti eller flere.",
+        "At veksle ti tiere til en hundreder og ti enere til en tier.",
+        "At se, hvorfor en kolonne med ti brikker eller flere ikke kan skrives med ét ciffer.",
+        "At forbinde menten i opstillingen med hundrederen fra skruestikken."
+      ],
+      "howToPlay": [
+        "Tryk på en kolonne for at lægge dens brikker i Tucks skruestik én ad gangen (hold nede for en håndfuld), og drej så håndtaget ned – den låser kun ved præcis ti.",
+        "Skriv resultatet i de tre felter under kolonnerne, og tryk på Tjek.",
+        "Vælg i indstillingerne stykker uden veksling, tiere der bliver til hundreder, eller veksling af både enere og tiere, og vis eller skjul opstillingen."
+      ],
+      "learningGoals": [
+        "Læg sammen inden for 1000 med veksling.",
+        "Forstå, at ti tiere giver præcis én hundreder og ti enere én tier.",
+        "Forbind menten i opstillingen med en rigtig hundreder."
+      ]
     }
   }
 }

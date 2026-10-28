@@ -2359,25 +2359,25 @@
     },
     "place-value-regroup.add-compose-hundred.2-nbt-b-7": {
       "about": [
-        "Cuando sumas 160 + 50 aparecen 11 decenas, y once decenas ya no caben en su columna. Tuck, el hámster, resuelve el problema al «Formar una centena»: junta 10 barras de diez y las cambia por una placa de cien.",
-        "Es la cara de la suma con reagrupación en la que se «lleva» hacia las centenas, un contenido del eje «Número, álgebra y variación → Adición y sustracción» de los planes y programas de la SEP para tercero de primaria.",
-        "Al agrupar diez decenas en una centena frente a sus ojos, tu hija o hijo descubre por qué se lleva una a la columna siguiente: es un intercambio justo, no una regla que hay que memorizar."
+        "Tuck, el hámster, tiene una prensa que solo se traba con un cuadrado perfecto. Detrás de su base hay una placa cuadrada con diez franjas, y una barra de diez mide exactamente lo mismo que el ancho del cuadrado. El niño toca la columna de las decenas para poner barras sobre la base y gira la manija: la mordaza baja hasta la pila, y su seguro entra en la muesca solo cuando la pila tiene exactamente diez barras de alto. Sale una placa de cien, que se desliza a la columna de las centenas.",
+        "En 160 + 50 hay once decenas. Nueve barras dejan una franja vacía y la prensa no se traba; once sobresalen por arriba. Diez forman una centena y queda una barra, así que el total es 210. En 320 + 80 las decenas son exactamente diez, y en la casilla de las decenas va un 0: 400. El niño escribe el total en tres casillas debajo de las columnas, y el botón Revisar no acepta una columna que todavía tenga diez piezas o más, porque una sola cifra no puede describirla. Después de un error, cada columna cuenta sus piezas de cien en cien, de diez en diez o de una en una; después de un segundo error, las cifras correctas aparecen a lápiz y la suma escrita muestra la que se lleva. Otros ajustes ofrecen sumas en las que nada llega a diez (34 + 25 = 59) y sumas en las que se reagrupan las unidades y las decenas (268 + 157 = 425), y la suma escrita puede mostrarse junto a los bloques.",
+        "La actividad sigue los planes y programas de la SEP para tercer grado: sumar hasta 1000 usando el valor posicional y entender que diez decenas forman una centena. Funciona sin sonido, sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Sumar las decenas y darse cuenta de cuándo se juntan diez o más: esa es la señal para reagrupar hacia las centenas.",
-        "Tocar «Formar una centena» para cambiar 10 barras de diez por 1 placa de cien y ver cómo se acomoda el número.",
-        "Reconocer el valor posicional: cuántas centenas, decenas y unidades quedan después de formar la nueva centena.",
-        "Escribir el total de la suma y verificar que corresponde a los bloques de base diez que Tuck tiene sobre la mesa."
+        "Sumar hasta 1000 cuando las decenas suman diez o más.",
+        "Cambiar diez decenas por una centena y diez unidades por una decena.",
+        "Ver por qué una columna con diez piezas o más no se puede escribir con una sola cifra.",
+        "Relacionar la que se lleva en la suma escrita con la centena hecha en la prensa."
       ],
       "howToPlay": [
-        "Observa la suma de arriba, por ejemplo 160 + 50, y mira las decenas de Tuck representadas con barras de diez.",
-        "Toca «Formar una centena» cuando se junten 10 decenas para convertirlas en una placa de cien; el número se reacomoda solo.",
-        "Escribe el total; Tuck festeja cuando la suma con reagrupación hacia las centenas queda bien resuelta."
+        "Toca una columna para poner sus piezas de una en una en la prensa de Tuck (mantén presionado para un puñado) y gira la manija hacia abajo: solo se traba con diez exactas.",
+        "Escribe el total en las tres casillas debajo de las columnas y presiona Revisar.",
+        "En los ajustes, elige sumas sin reagrupar, decenas que forman una centena, o unidades y decenas que se reagrupan, y muestra u oculta la suma escrita."
       ],
       "learningGoals": [
-        "Entender que reagrupar en la suma significa cambiar 10 decenas por 1 centena sin alterar la cantidad total.",
-        "Conectar el uso de los bloques de base diez con la idea de «llevar» en el algoritmo de la suma.",
-        "Sumar dentro del 1000 componiendo centenas, fortaleciendo el sentido numérico que proponen los programas de la SEP para 3er grado."
+        "Sumar hasta 1000 con reagrupación.",
+        "Entender que diez decenas forman exactamente una centena, y diez unidades una decena.",
+        "Relacionar la que se lleva en la suma escrita con una centena de verdad."
       ]
     },
     "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7": {

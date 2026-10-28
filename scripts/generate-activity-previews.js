@@ -103,6 +103,10 @@ function seedScript(row) {
     // 15 + 22 + 34 + 11 tipped onto the bare sieve and shaken: 7 cups of ten on top, 12 loose acorns in the tray (one full groove and two): the invention at work
     return `(function(){var t=window['AcornSieveActivity'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t.api.settings.cloth='off';t._start(6);t._render2();t._tip(0);t._tip(1);t._tip(2);t._tip(3);t._shake();}})();`;
   }
+  if (row.tool === 'square-vice-activity') {
+    // 160 + 50: ten of the eleven rods stacked on the vice's bed — the square gauge exactly covered, one rod still in the tens column: the invention at work
+    return `(function(){var t=window['SquareViceActivity'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(0);t._render2();t._bay('T',10);}})();`;
+  }
   if (row.tool === 'round-trip-activity') {
     // Gus had 45 cookies, sold 8: 47 typed and checked — the cart came back to 55, the gap bracket reads 10 (one ten off): the invention at work
     return `(function(){var t=window['RoundTripActivity'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(0);t._render2();t._tap('4');t._tap('7');t._check();}})();`;

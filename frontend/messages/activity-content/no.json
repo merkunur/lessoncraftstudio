@@ -3627,6 +3627,29 @@
         "Holde tiere med tiere og enere med enere, og veksle ti enere til en tier.",
         "Sjekke en sum ved å se hvor hver tier og hver ener ble av."
       ]
+    },
+    "place-value-regroup.add-compose-hundred.2-nbt-b-7": {
+      "about": [
+        "Hamsteren Tuck har en skrustikke som bare låser seg på et nøyaktig kvadrat. Bak benken står en kvadratisk plate med ti striper, og en tierstav er nøyaktig like lang som kvadratet er bredt. Barnet trykker på tierkolonnen for å legge staver på benken og vrir på håndtaket: kjeven går ned på stabelen, og sperren går bare i lås når stabelen er nøyaktig ti staver høy. Ut kommer en hundreplate, som glir ned i hundrerkolonnen.",
+        "I 160 + 50 er det elleve tiere. Ni staver lar en stripe stå tom, og skrustikka låser seg ikke; elleve stikker opp over kanten. Ti veksles til en hundrer, og én stav blir igjen, så summen er 210. I 320 + 80 blir tierne nøyaktig ti, og i tierruta kommer det en 0: 400. Barnet skriver summen i tre ruter under kolonnene, og Sjekk tar ikke imot en kolonne der det fortsatt ligger ti brikker eller flere, for ett siffer kan ikke beskrive den. Etter en feil teller hver kolonne brikkene sine i hundrere, tiere eller enere; etter en ny feil står de riktige sifrene med blyant, og oppstillingen viser minnetallet. Andre innstillinger gir stykker der ingenting når opp i ti (34 + 25 = 59), og stykker der både enere og tiere veksles (268 + 157 = 425), og oppstillingen kan vises ved siden av klossene.",
+        "Aktiviteten er knyttet til LK20 for 3. trinn: legge sammen innenfor 1000 ved hjelp av plassverdisystemet og forstå at ti tiere blir en hundrer. Den virker uten lyd, og det er verken tidtaking eller poeng."
+      ],
+      "practices": [
+        "Legge sammen innenfor 1000 når tierne blir ti eller flere.",
+        "Veksle ti tiere til en hundrer og ti enere til en tier.",
+        "Se hvorfor en kolonne med ti brikker eller flere ikke kan skrives med ett siffer.",
+        "Knytte minnetallet i oppstillingen til hundreren fra skrustikka."
+      ],
+      "howToPlay": [
+        "Trykk på en kolonne for å legge brikkene i Tucks skrustikke én om gangen (hold inne for en håndfull), og vri så håndtaket ned – den låser seg bare ved nøyaktig ti.",
+        "Skriv summen i de tre rutene under kolonnene, og trykk på Sjekk.",
+        "Velg i innstillingene stykker uten veksling, tiere som blir til hundrer, eller veksling av både enere og tiere, og vis eller skjul oppstillingen."
+      ],
+      "learningGoals": [
+        "Legge sammen innenfor 1000 med veksling.",
+        "Forstå at ti tiere blir nøyaktig én hundrer og ti enere én tier.",
+        "Knytte minnetallet i oppstillingen til en ekte hundrer."
+      ]
     }
   }
 }

@@ -1152,25 +1152,25 @@
     },
     "place-value-regroup.add-compose-hundred.2-nbt-b-7": {
       "about": [
-        "Tuck il criceto somma le decine e si accorge che sono diventate più di dieci. Che cosa fare? In classe terza i bambini imparano che 10 decine si raggruppano e formano un centinaio: è il cambio dell'addizione, spiegato con i blocchi base dieci.",
-        "Con numeri come 160 + 50 o 340 + 70, la somma delle decine supera le dieci decine. L'attività fa vedere come quelle decine in eccesso si uniscono in un centinaio nuovo, che sale nella colonna di sinistra del valore posizionale.",
-        "Allineata alle Indicazioni nazionali, nel nucleo Numeri, l'attività rende visibile un passaggio delicato dell'addizione: raggruppare dieci decine per formare un centinaio, così la somma resta ordinata e corretta entro il 1000."
+        "Il criceto Tuck ha una morsa che si blocca solo su un quadrato perfetto. Dietro il piano c’è una piastra quadrata divisa in dieci strisce, e una barra da dieci è lunga esattamente quanto il quadrato è largo. Il bambino tocca la colonna delle decine per mettere le barre sul piano e gira la maniglia: la ganascia scende sulla pila, e il fermo entra nella tacca solo quando la pila è alta esattamente dieci barre. Ne esce una piastra da cento, che scivola nella colonna delle centinaia.",
+        "Con 160 + 50 le decine sono undici. Nove barre lasciano una striscia vuota e la morsa non si blocca; undici sporgono in cima. Dieci formano un centinaio e ne avanza una, quindi il totale è 210. Con 320 + 80 le decine sono esattamente dieci, e nella casella delle decine va uno 0: 400. Il bambino scrive il totale in tre caselle sotto le colonne, e il pulsante Controlla non accetta una colonna che ha ancora dieci pezzi o più, perché una sola cifra non può descriverla. Dopo un errore ogni colonna conta i suoi pezzi di cento in cento, di dieci in dieci o uno alla volta; dopo un secondo errore le cifre giuste compaiono a matita e il calcolo in colonna mostra il riporto. Altre impostazioni offrono addizioni in cui niente arriva a dieci (34 + 25 = 59) e addizioni con il cambio sia delle unità sia delle decine (268 + 157 = 425), e il calcolo in colonna può comparire accanto ai blocchi.",
+        "L’attività segue le Indicazioni nazionali per la classe terza, nel nucleo Numeri: addizionare entro il 1000 usando il valore posizionale e capire che dieci decine formano un centinaio. Funziona senza audio, senza cronometro e senza punteggi."
       ],
       "practices": [
-        "Sommare le decine e riconoscere quando superano le dieci decine.",
-        "Formare un centinaio raggruppando 10 decine con i blocchi base dieci.",
-        "Completare addizioni con il cambio con somme fino a 510.",
-        "Sistemare il nuovo centinaio nella giusta colonna di valore posizionale."
+        "Addizionare entro il 1000 quando le decine sono dieci o più.",
+        "Fare il cambio di dieci decine in un centinaio e di dieci unità in una decina.",
+        "Capire perché una colonna con dieci pezzi o più non si scrive con una sola cifra.",
+        "Collegare il riporto del calcolo in colonna al centinaio formato nella morsa."
       ],
       "howToPlay": [
-        "Somma le decine dei due numeri di Tuck e osserva quanti blocchi si formano.",
-        "Se le decine sono dieci o più, raggruppale per formare un centinaio.",
-        "Sposta il centinaio nella sua colonna e leggi la somma con il cambio."
+        "Tocca una colonna per mettere i suoi pezzi nella morsa di Tuck uno alla volta (tieni premuto per una manciata), poi gira la maniglia verso il basso: si blocca solo con dieci esatti.",
+        "Scrivi il totale nelle tre caselle sotto le colonne e premi Controlla.",
+        "Nelle impostazioni scegli addizioni senza cambio, decine che formano un centinaio, oppure unità e decine con il cambio, e mostra o nascondi il calcolo in colonna."
       ],
       "learningGoals": [
-        "Comprendere il cambio come raggruppamento di 10 decine in un centinaio.",
-        "Eseguire addizioni con il cambio entro il 1000.",
-        "Consolidare il valore posizionale di unità, decine e centinaia con i blocchi base dieci."
+        "Addizionare entro il 1000 con il cambio.",
+        "Capire che dieci decine formano esattamente un centinaio, e dieci unità una decina.",
+        "Collegare il riporto dell’addizione in colonna a un centinaio vero."
       ]
     },
     "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7": {

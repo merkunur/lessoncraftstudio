@@ -1817,26 +1817,25 @@
     },
     "place-value-regroup.add-compose-hundred.2-nbt-b-7": {
       "about": [
-        "Elva tiotal får inte plats i tiotalsrutan. Tuck lägger fram 160 och 50, barnet skjuter ihop tiostavarna och räknar dem: sex plus fem blir elva. Tio av dem byts mot en hundraplatta som flyttar över till hundratalsrutan, en enda tiostav blir kvar, och summan går att läsa av direkt — 210.",
-        "Det är samma byte som när tio ental blir ett tiotal, fast ett steg upp: tio tiotal är precis lika mycket som ett hundratal. I hälften av uppgifterna blir det jämnt tio tiotal och tiotalsrutan står tom efteråt — 320 + 80 blir 400. Alla tal är hela tiotal, så entalsrutan används aldrig, och summorna stannar under 1000.",
-        "Aktiviteten är anpassad till Lgr22 och tränar positionssystemet samt metoder för addition inom talområdet 0–1000. Den här interaktiva övningen passar årskurs 3. Ingen timer, inga poäng och inget att förlora — barnet får räkna tiostavarna två gånger om det vill."
+        "Hamstern Tuck har ett skruvstycke som bara låser sig på en exakt kvadrat. Bakom bädden står en kvadratisk platta med tio ränder, och en tiostav är precis lika lång som kvadraten är bred. Barnet trycker på kolumnen för tiotal för att lägga stavar på bädden och vrider på handtaget: backen går ner på högen, och spärren faller i skåran bara när högen är exakt tio stavar hög. Ut kommer en hundraplatta, som glider ner i kolumnen för hundratal.",
+        "I 160 + 50 finns det elva tiotal. Nio stavar lämnar en rand tom, och skruvstycket låser sig inte; elva sticker upp över kanten. Tio växlas till ett hundratal och en stav blir kvar, så summan är 210. I 320 + 80 blir tiotalen exakt tio, och i rutan för tiotal hamnar en nolla: 400. Barnet skriver summan i tre rutor under kolumnerna, och Kontrollera tar inte emot en kolumn där det fortfarande ligger tio bitar eller fler, eftersom en enda siffra inte kan beskriva den. Efter ett fel räknar varje kolumn sina bitar i hundratal, tiotal eller ental; efter ett andra fel står de rätta siffrorna med blyerts, och uppställningen visar minnessiffran. Andra inställningar ger tal där ingenting blir tio (34 + 25 = 59) och tal där både ental och tiotal växlas (268 + 157 = 425), och uppställningen kan visas bredvid blocken.",
+        "Aktiviteten följer Lgr22 för åk 1–3 och passar i åk 3: addera inom 1000 med hjälp av positionssystemet och förstå att tio tiotal blir ett hundratal. Den fungerar utan ljud, och det finns ingen tidtagning och inga poäng."
       ],
       "practices": [
-        "Addera hela tiotal med hundratalsövergång inom 1000",
-        "Göra ett hundratal av tio tiotal och se att mängden är densamma",
-        "Räkna tiotal i grupper om tio",
-        "Se att tiotalsrutan kan bli tom efter en växling",
-        "Läsa av summan ur hundratal, tiotal och ental"
+        "Addera inom 1000 när tiotalen blir tio eller fler.",
+        "Växla tio tiotal till ett hundratal och tio ental till ett tiotal.",
+        "Se varför en kolumn med tio bitar eller fler inte kan skrivas med en enda siffra.",
+        "Koppla minnessiffran i uppställningen till hundratalet från skruvstycket."
       ],
       "howToPlay": [
-        "Läs uppgiften, till exempel 160 + 50, och räkna tiostavarna i tiotalsrutan.",
-        "Tryck på ”Gör ett hundratal” när de är tio eller fler, och skriv sedan summan på knappsatsen.",
-        "Tryck på Kontrollera för att gå vidare — utan timer och utan poäng."
+        "Tryck på en kolumn för att lägga bitarna i Tucks skruvstycke en i taget (håll inne för en näve) och vrid sedan handtaget nedåt – det låser sig bara vid exakt tio.",
+        "Skriv summan i de tre rutorna under kolumnerna och tryck på Kontrollera.",
+        "Välj i inställningarna tal utan växling, tiotal som blir hundratal eller växling av både ental och tiotal, och visa eller dölj uppställningen."
       ],
       "learningGoals": [
-        "Barnet kan addera hela tiotal inom 1000 när tiotalen räcker till ett hundratal",
-        "Barnet vet att tio tiotal är lika mycket som ett hundratal",
-        "Barnet kan läsa av summan när tiotalsrutan har blivit tom"
+        "Addera inom 1000 med växling.",
+        "Förstå att tio tiotal blir exakt ett hundratal och tio ental ett tiotal.",
+        "Koppla minnessiffran i uppställningen till ett riktigt hundratal."
       ]
     },
     "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7": {

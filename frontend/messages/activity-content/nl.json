@@ -2733,25 +2733,25 @@
     },
     "place-value-regroup.add-compose-hundred.2-nbt-b-7": {
       "about": [
-        "Tuck de hamster legt met MAB-blokken twee getallen neer die je kind bij elkaar optelt, bijvoorbeeld 160 + 50 of 340 + 70. Bij het optellen komen er zoveel staafjes bij dat er meer dan tien tientallen op tafel liggen. Dat is het moment om te bundelen.",
-        "Door op “Maak een honderdtal” te tikken bundelt je kind tien staafjes tot één plaat. Zo verhuist een volle groep tientallen naar de honderdtallen. Daarna telt je kind alle blokken samen en typt het totaal in. Je kind ziet met eigen ogen dat 10 tientallen precies 1 honderdtal maken — hetzelfde bundelen-principe dat in Groep 4 al werd geoefend met tientallen, maar nu een plaats verder.",
-        "De activiteit sluit aan bij de SLO-kerndoelen: binnen het domein Getallen en het tientallig stelsel werken kinderen in Groep 5 aan optellen tot 1000 en aan het inzicht dat ons getalsysteem in groepjes van tien is opgebouwd. Het bundelen met MAB-blokken maakt die opbouw zichtbaar en tastbaar."
+        "Tuck de hamster heeft een bankschroef die alleen vastklikt op een precies vierkant. Achter het werkvlak staat een vierkante plaat met tien stroken, en een staaf van tien is precies even lang als het vierkant breed is. Het kind tikt op de kolom van de tientallen om staven op het werkvlak te leggen en draait aan de hendel: de bek zakt op de stapel, en de pal valt alleen in de inkeping als de stapel precies tien staven hoog is. Er komt een plaat van honderd uit, die naar de kolom van de honderdtallen glijdt.",
+        "Bij 160 + 50 zijn er elf tientallen. Negen staven laten één strook leeg en de bankschroef klikt niet vast; elf steken er bovenuit. Tien worden ingewisseld voor een honderdtal en één staaf blijft over, dus de uitkomst is 210. Bij 320 + 80 zijn de tientallen precies tien, en in het vakje van de tientallen komt een 0: 400. Het kind typt de uitkomst in drie vakjes onder de kolommen, en Controleer neemt geen kolom aan waarin nog tien of meer blokjes liggen, want één cijfer kan dat niet beschrijven. Na een fout telt elke kolom zijn blokjes met sprongen van honderd, van tien of één voor één; na een tweede fout staan de goede cijfers er in potlood bij en laat de cijferende som het onthouden cijfer zien. Andere instellingen geven sommen zonder inwisselen (34 + 25 = 59) en sommen waarin de eenheden én de tientallen worden ingewisseld (268 + 157 = 425), en de cijferende som kan naast de blokken staan.",
+        "De activiteit sluit aan bij de SLO-kerndoelen voor groep 5: optellen tot 1000 met de plaatswaarde en begrijpen dat tien tientallen samen een honderdtal zijn. Ze werkt zonder geluid, zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Optellen tot 1000 met honderdtaloverschrijding.",
-        "Tien staafjes bundelen tot één plaat: 10 tientallen = 1 honderdtal.",
-        "Het bundelen-principe van Groep 4 uitbreiden naar de volgende plaats in het getal.",
-        "Plaatswaarde versterken door blokken echt te verplaatsen tussen tientallen en honderdtallen."
+        "Optellen tot 1000 als de tientallen samen tien of meer zijn.",
+        "Tien tientallen inwisselen voor een honderdtal, en tien eenheden voor een tiental.",
+        "Zien waarom een kolom met tien of meer blokjes niet met één cijfer te schrijven is.",
+        "Het onthouden cijfer in de cijferende som koppelen aan het honderdtal uit de bankschroef."
       ],
       "howToPlay": [
-        "Bekijk de twee getallen die Tuck met MAB-blokken heeft neergelegd en leg de staafjes bij elkaar.",
-        "Tik op “Maak een honderdtal” om tien staafjes te bundelen tot één plaat.",
-        "Tel alle platen, staafjes en blokjes samen en tik het totaal in."
+        "Tik op een kolom om de blokjes één voor één in de bankschroef van Tuck te leggen (lang indrukken voor een handvol), en draai dan de hendel omlaag: hij klikt alleen vast bij precies tien.",
+        "Typ de uitkomst in de drie vakjes onder de kolommen en druk op Controleer.",
+        "Kies in de instellingen sommen zonder inwisselen, tientallen naar een honderdtal, of eenheden én tientallen inwisselen, en laat de cijferende som zien of verberg hem."
       ],
       "learningGoals": [
-        "Je kind kan tot 1000 optellen en daarbij een honderdtal maken.",
-        "Je kind begrijpt dat 10 tientallen samen 1 honderdtal vormen.",
-        "Je kind ziet dat bundelen op elke plaats in het tientallig stelsel op dezelfde manier werkt."
+        "Optellen tot 1000 met inwisselen.",
+        "Begrijpen dat tien tientallen precies één honderdtal zijn, en tien eenheden één tiental.",
+        "Het onthouden cijfer bij cijferend optellen koppelen aan een echt honderdtal."
       ]
     },
     "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7": {

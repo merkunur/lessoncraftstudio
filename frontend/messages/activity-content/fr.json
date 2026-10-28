@@ -2158,25 +2158,25 @@
     },
     "place-value-regroup.add-compose-hundred.2-nbt-b-7": {
       "about": [
-        "Tuck le hamster adore rassembler ses barres de dizaines : dès qu'il en réunit dix, elles forment une belle plaque de centaine ! Dans cette activité votre enfant additionne deux nombres inférieurs à 1000 et découvre le moment magique où les dizaines se regroupent pour « monter » vers les centaines.",
-        "Le principe est concret et rassurant : on manipule d'abord, on calcule ensuite. Votre enfant voit les cubes (unités), les barres (dizaines) et les plaques (centaines) bouger à l'écran, ce qui donne du sens au geste de « la retenue » au lieu de l'apprendre par cœur.",
-        "Conçue pour le CE2 et alignée sur les programmes officiels, dans le domaine « Nombres et calcul », l'activité avance en douceur, sans chronomètre, sans points et sans compte à créer. Votre enfant progresse à son rythme, tranquillement, aux côtés de Tuck."
+        "Tuck le hamster a un étau qui ne se bloque que sur un carré parfait. Derrière son plateau se dresse une plaque carrée rayée de dix bandes, et une barre de dix est exactement aussi longue que le carré est large. L’enfant touche la colonne des dizaines pour poser des barres sur le plateau et tourne la poignée : le mors descend sur la pile, et son cliquet ne tombe dans l’encoche que si la pile fait exactement dix barres de haut. Il en sort une plaque de cent, qui glisse dans la colonne des centaines.",
+        "Pour 160 + 50, il y a onze dizaines. Neuf barres laissent une bande vide et l’étau ne se bloque pas ; onze dépassent en haut. Dix deviennent une centaine et une barre reste, donc le total est 210. Pour 320 + 80, les dizaines font exactement dix, et la case des dizaines reçoit un 0 : 400. L’enfant tape le total dans trois cases sous les colonnes, et le bouton Vérifier refuse une colonne qui contient encore dix pièces ou plus, car un seul chiffre ne peut pas la décrire. Après une erreur, chaque colonne compte ses pièces de cent en cent, de dix en dix ou une par une ; après une deuxième erreur, les bons chiffres apparaissent au crayon et l’opération posée montre sa retenue. D’autres réglages proposent des additions où rien n’arrive à dix (34 + 25 = 59) et des additions où les unités et les dizaines s’échangent toutes les deux (268 + 157 = 425), et l’opération posée peut s’afficher à côté des blocs.",
+        "L’activité suit les programmes officiels du CE2 : additionner jusqu’à 1 000 en s’appuyant sur la numération, et comprendre que dix dizaines font une centaine. Elle fonctionne sans le son, sans chronomètre et sans score."
       ],
       "practices": [
-        "Additionner deux nombres inférieurs à 1000 en s'appuyant sur le matériel de numération.",
-        "Comprendre l'échange décimal : dix dizaines valent exactement une centaine.",
-        "Repérer le moment où il faut « poser une retenue » vers la colonne des centaines.",
-        "Consolider la valeur des positions en distinguant unités, dizaines et centaines."
+        "Additionner jusqu’à 1 000 quand les dizaines font dix ou plus.",
+        "Échanger dix dizaines contre une centaine, et dix unités contre une dizaine.",
+        "Voir pourquoi une colonne de dix pièces ou plus ne s’écrit pas avec un seul chiffre.",
+        "Relier la retenue de l’opération posée à la centaine fabriquée dans l’étau."
       ],
       "howToPlay": [
-        "Tuck présente une addition, par exemple 160 + 50 : votre enfant observe les barres de dizaines qui s'accumulent dans la colonne des dizaines.",
-        "Quand il y a dix dizaines ou plus, on appuie sur le bouton « Grouper une centaine » pour échanger 10 dizaines contre 1 plaque de centaine.",
-        "Une fois l'échange fait, votre enfant tape le total dans la case réponse et Tuck confirme le résultat d'un signe joyeux."
+        "Touche une colonne pour mettre ses pièces une à une dans l’étau de Tuck (appui long pour une poignée), puis tourne la poignée vers le bas : il ne se bloque que sur dix exactement.",
+        "Tape le total dans les trois cases sous les colonnes, puis appuie sur Vérifier.",
+        "Dans les réglages, choisis des additions sans échange, des dizaines qui font une centaine, ou des unités et des dizaines qui s’échangent, et affiche ou masque l’opération posée."
       ],
       "learningGoals": [
-        "Donner du sens à la retenue en addition en la reliant à un échange concret entre dizaines et centaines.",
-        "Renforcer la compréhension de la numération de position jusqu'à 1000.",
-        "Gagner en confiance dans le calcul posé, en s'appuyant sur une image mentale claire du groupement."
+        "Additionner jusqu’à 1 000 avec retenue.",
+        "Comprendre que dix dizaines font exactement une centaine, et dix unités une dizaine.",
+        "Relier la retenue de l’addition posée à une vraie centaine."
       ]
     },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {

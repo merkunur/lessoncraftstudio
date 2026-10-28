@@ -3600,6 +3600,29 @@
         "Pitää kymmenet kymmenten ja ykköset ykkösten kanssa ja vaihtaa kymmenen ykköstä yhdeksi kymmeneksi.",
         "Tarkistaa summa katsomalla, minne jokainen kymmen ja jokainen ykkönen meni."
       ]
+    },
+    "place-value-regroup.add-compose-hundred.2-nbt-b-7": {
+      "about": [
+        "Hamsteri Tuckilla on ruuvipenkki, joka lukittuu vain, kun pino on täsmälleen neliö. Alustan takana seisoo neliön muotoinen levy, jossa on kymmenen raitaa, ja kymppisauva on täsmälleen yhtä pitkä kuin neliö on leveä. Lapsi napauttaa kymmenten saraketta, jolloin sauvoja siirtyy alustalle, ja kiertää kahvaa: leuka laskeutuu pinon päälle, ja salpa osuu loveen vain, kun pino on täsmälleen kymmenen sauvan korkuinen. Ulos tulee satalevy, joka liukuu satojen sarakkeeseen.",
+        "Laskussa 160 + 50 kymppejä on yksitoista. Yhdeksän sauvaa jättää yhden raidan tyhjäksi, eikä ruuvipenkki lukitu; yksitoista nousee reunan yli. Kymmenen vaihdetaan sadaksi ja yksi sauva jää jäljelle, joten summa on 210. Laskussa 320 + 80 kymppejä on täsmälleen kymmenen, ja kymmenten ruutuun tulee 0: 400. Lapsi kirjoittaa summan kolmeen ruutuun sarakkeiden alle, eikä Tarkista hyväksy saraketta, jossa on vielä kymmenen palaa tai enemmän, koska yksi numero ei riitä kuvaamaan sitä. Virheen jälkeen jokainen sarake laskee palansa sadoittain, kymmenittäin tai yksitellen; toisen virheen jälkeen oikeat numerot näkyvät lyijykynällä, ja allekkainlasku näyttää muistinumeron. Muissa asetuksissa on laskuja, joissa mikään ei yllä kymmeneen (34 + 25 = 59), ja laskuja, joissa vaihdetaan sekä ykköset että kympit (268 + 157 = 425), ja allekkainlasku voi näkyä palikoiden vieressä.",
+        "Tehtävä tukee OPS 2014 -tavoitteita 3. luokalla: yhteenlasku lukualueella 0–1000 kymmenjärjestelmän avulla ja sen ymmärtäminen, että kymmenen kymppiä on yksi sata. Se toimii ilman ääntä, eikä siinä ole ajanottoa tai pisteitä."
+      ],
+      "practices": [
+        "Yhteenlasku lukualueella 0–1000, kun kymppejä tulee kymmenen tai enemmän.",
+        "Kymmenen kympin vaihtaminen sadaksi ja kymmenen ykkösen vaihtaminen kympiksi.",
+        "Sen näkeminen, miksi saraketta, jossa on kymmenen palaa tai enemmän, ei voi kirjoittaa yhdellä numerolla.",
+        "Allekkainlaskun muistinumeron yhdistäminen ruuvipenkissä koottuun sataan."
+      ],
+      "howToPlay": [
+        "Napauta saraketta, niin sen palat siirtyvät Tuckin ruuvipenkkiin yksi kerrallaan (pitkä painallus siirtää kourallisen), ja kierrä sitten kahvaa alas – se lukittuu vain, kun paloja on täsmälleen kymmenen.",
+        "Kirjoita summa sarakkeiden alla oleviin kolmeen ruutuun ja paina Tarkista.",
+        "Valitse asetuksista laskut ilman vaihtoa, kympeistä satanen tai sekä ykkösten että kymppien vaihto, ja näytä tai piilota allekkainlasku."
+      ],
+      "learningGoals": [
+        "Yhteenlasku vaihdolla lukualueella 0–1000.",
+        "Sen ymmärtäminen, että kymmenen kymppiä on täsmälleen yksi sata ja kymmenen ykköstä yksi kymppi.",
+        "Allekkainlaskun muistinumeron yhdistäminen oikeaan sataan."
+      ]
     }
   }
 }

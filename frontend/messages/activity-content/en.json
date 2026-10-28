@@ -3316,25 +3316,25 @@
     },
     "place-value-regroup.add-compose-hundred.2-nbt-b-7": {
       "about": [
-        "Tuck the hamster shows base-ten blocks while children add tens that pile up past ten tens — sums like 160 + 50, 280 + 30, and 410 + 90 — tapping 'Make a hundred' to bundle ten ten-rods into a single hundred-flat, then typing the total. It's an interactive Grade 2 math activity that runs right in the browser with no account.",
-        "The big idea is what carrying really means: ten tens are exactly one hundred. Instead of memorizing a written carry, the child sees the ten ten-rods clump together and become a hundred-flat, so 'regrouping into the hundreds' becomes a thing they can watch happen. The blocks make the abstract step concrete before the number is ever written down.",
-        "It is aligned to Common Core 2.NBT.B.7 — adding within 1000, using concrete models, and understanding that you sometimes compose a hundred. No timer, no score — just calm, playful practice."
+        "Tuck the hamster has a vice that only locks shut on a perfect square. Behind its bed stands a square plate ruled into ten stripes, and a ten-rod is exactly as long as the square is wide. The child taps the tens column to lay rods on the bed and cranks the handle: the jaw comes down onto the stack, and its catch drops into the notch only when the stack is exactly ten rods high. Out comes a hundred-flat, which slides into the hundreds column.",
+        "For 160 + 50 there are eleven tens. Nine rods leave one bare stripe and the vice will not lock; eleven stick out over the top. Ten lock into a hundred and one rod stays behind, so the total is 210. For 320 + 80 the tens make exactly ten, and the tens box gets a 0: 400. The child types the total into three boxes under the columns, and Check will not take a column that still holds ten or more, because one digit cannot describe it. After a miss each column counts its pieces in hundreds, tens or ones; after a second miss the right digits appear in pencil and the written sum shows its carried 1. Other settings offer sums where nothing reaches ten (34 + 25 = 59) and sums where both the ones and the tens trade (268 + 157 = 425), and a written column sum can be shown beside the blocks.",
+        "It is aligned to Common Core 2.NBT.B.7: add within 1000 using models and place value, understanding that sometimes you compose a hundred or a ten. It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Add multiples of ten that cross into a new hundred, like 340 + 70",
-        "Bundle ten ten-rods into one hundred-flat",
-        "Understand carrying as composing a hundred from ten tens",
-        "Type the correct total after regrouping"
+        "Adding within 1000 when the tens add up to ten or more.",
+        "Trading ten tens for one hundred, and ten ones for one ten.",
+        "Seeing why a column with ten or more pieces cannot be written with one digit.",
+        "Matching the carried 1 in a written sum to the hundred made in the vice."
       ],
       "howToPlay": [
-        "Read the addition and watch Tuck show the tens as base-ten blocks.",
-        "Tap 'Make a hundred' to bundle ten ten-rods into one hundred-flat.",
-        "Type the total on the keypad; try again any time, with no timer and no score."
+        "Tap a column to move its pieces into Tuck's vice one at a time (press and hold for a handful), then crank the handle down — it locks only on exactly ten.",
+        "Type the total in the three boxes under the columns, then press Check.",
+        "In the settings, choose sums with no trading, tens that make a hundred, or ones and tens that both trade, and show or hide the written sum."
       ],
       "learningGoals": [
-        "Add within 1000 with regrouping into the hundreds — the focus of Common Core 2.NBT.B.7",
-        "Understand that ten tens compose one hundred",
-        "Build place-value understanding that supports written addition"
+        "Add within 1000 with regrouping — the focus of Common Core 2.NBT.B.7.",
+        "Understand that ten tens make exactly one hundred, and ten ones one ten.",
+        "Connect the carried 1 in written addition to a real hundred."
       ]
     },
     "place-value-regroup.add-compose-ten.1-nbt-c-4": {

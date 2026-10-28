@@ -2804,25 +2804,25 @@
     },
     "place-value-regroup.add-compose-hundred.2-nbt-b-7": {
       "about": [
-        "In dieser interaktiven Übung lernen Kinder den Hunderterübergang beim Addieren im Zahlenraum bis 1000. Wenn beim Zusammenzählen mehr als zehn Zehner entstehen, werden zehn Zehnerstangen zu einer Hunderterplatte gebündelt – das Bündeln aus der ersten Klasse wird auf die nächste Stelle übertragen.",
-        "Die Aufgabe zeigt zum Beispiel 160 + 50. Das Kind legt die Zehner, erkennt, dass mehr als zehn Zehner zusammenkommen, und tippt auf „Hunderter bündeln“: Zehn Zehnerstangen werden zu einer Hunderterplatte. Danach gibt das Kind das Ergebnis ein.",
-        "Die Übung ist ohne Anmeldung spielbar und an den Lehrplänen der Grundschule ausgerichtet. Es gibt keine Zeitmessung und keine Punkte – mit den Mehrsystemblöcken erleben die Kinder, dass das Bündeln auf jeder Stelle nach demselben Prinzip funktioniert."
+        "Der Hamster Tuck hat einen Schraubstock, der nur bei einem genauen Quadrat einrastet. Hinter seiner Auflage steht eine quadratische Platte mit zehn Streifen, und eine Zehnerstange ist genau so lang, wie das Quadrat breit ist. Das Kind tippt auf die Zehnerspalte, legt so Stangen auf die Auflage und dreht am Griff: Die Backe senkt sich auf den Stapel, und die Sperre rastet nur ein, wenn der Stapel genau zehn Stangen hoch ist. Heraus kommt eine Hunderterplatte, die in die Hunderterspalte rutscht.",
+        "Bei 160 + 50 sind es elf Zehner. Neun Stangen lassen einen Streifen frei, und der Schraubstock rastet nicht ein; elf ragen oben heraus. Zehn werden zu einem Hunderter gebündelt, eine Stange bleibt übrig, also ist das Ergebnis 210. Bei 320 + 80 ergeben die Zehner genau zehn, und in das Zehnerkästchen kommt eine 0: 400. Das Kind tippt das Ergebnis in drei Kästchen unter den Spalten, und Prüfen nimmt keine Spalte an, in der noch zehn oder mehr Teile liegen, denn eine Ziffer kann das nicht beschreiben. Nach einem Fehler zählt jede Spalte ihre Teile in Hunderter-, Zehner- oder Einerschritten; nach einem zweiten Fehler stehen die richtigen Ziffern mit Bleistift da, und die schriftliche Rechnung zeigt den Übertrag in der Übertragszeile. Weitere Einstellungen bieten Aufgaben, bei denen nicht gebündelt werden muss (34 + 25 = 59), und Aufgaben, bei denen Einer und Zehner gebündelt werden (268 + 157 = 425); die schriftliche Rechnung kann neben den Blöcken stehen.",
+        "Die Aktivität ist an den Lehrplänen für die 3. Klasse im Bereich Zahlen und Operationen ausgerichtet: im Zahlenraum bis 1000 mit Übergang addieren und verstehen, dass zehn Zehner einen Hunderter ergeben. Sie funktioniert ohne Ton, und es gibt keinen Timer und keine Punkte."
       ],
       "practices": [
-        "Hunderterübergang beim Addieren im Zahlenraum bis 1000",
-        "Bündeln: zehn Zehner zu einem Hunderter zusammenfassen",
-        "Das Bündelungsprinzip von der Zehner- auf die Hunderterstelle übertragen",
-        "Zehner und Hunderter sicher unterscheiden (Stellenwertverständnis)"
+        "Im Zahlenraum bis 1000 addieren, wenn die Zehner zusammen zehn oder mehr ergeben.",
+        "Zehn Zehner zu einem Hunderter bündeln und zehn Einer zu einem Zehner.",
+        "Sehen, warum eine Spalte mit zehn oder mehr Teilen nicht mit einer Ziffer geschrieben werden kann.",
+        "Den Übertrag in der schriftlichen Rechnung mit dem Hunderter aus dem Schraubstock verbinden."
       ],
       "howToPlay": [
-        "Schau dir die Aufgabe an und lege beide Zahlen mit den Zehnerstangen.",
-        "Tippe auf „Hunderter bündeln“, wenn zehn Zehner zusammengekommen sind – sie werden zu einer Hunderterplatte.",
-        "Gib zum Schluss das Ergebnis ein."
+        "Tippe auf eine Spalte, um ihre Teile einzeln in Tucks Schraubstock zu legen (lange drücken für eine Handvoll), und dreh dann den Griff nach unten – er rastet nur bei genau zehn ein.",
+        "Tipp das Ergebnis in die drei Kästchen unter den Spalten und drück auf Prüfen.",
+        "Wähle in den Einstellungen Aufgaben ohne Bündeln, Zehner zum Hunderter oder Einer und Zehner bündeln, und blende die schriftliche Rechnung ein oder aus."
       ],
       "learningGoals": [
-        "Den Hunderterübergang beim Addieren verstehen und anwenden",
-        "Zehn Zehner sicher zu einem Hunderter bündeln",
-        "Erkennen, dass das Bündeln im Zehnersystem auf jeder Stelle gleich funktioniert"
+        "Im Zahlenraum bis 1000 mit Übergang addieren.",
+        "Verstehen, dass zehn Zehner genau einen Hunderter ergeben und zehn Einer einen Zehner.",
+        "Den Übertrag beim schriftlichen Addieren mit einem echten Hunderter verbinden."
       ]
     },
     "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7": {

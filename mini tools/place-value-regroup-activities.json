@@ -166,7 +166,7 @@
   },
   {
     "id": "place-value-regroup.add-compose-hundred.2-nbt-b-7",
-    "tool": "place-value-regroup-activity",
+    "tool": "square-vice-activity",
     "task_template": "add-compose-hundred",
     "alignment": {
       "framework": "CCSS",
@@ -176,48 +176,119 @@
     },
     "theme": null,
     "params": {
-      "rounds": [
-        {
-          "id": "r-160-50",
-          "a": 160,
-          "b": 50
-        },
-        {
-          "id": "r-280-30",
-          "a": 280,
-          "b": 30
-        },
-        {
-          "id": "r-340-70",
-          "a": 340,
-          "b": 70
-        },
-        {
-          "id": "r-320-80",
-          "a": 320,
-          "b": 80
-        },
-        {
-          "id": "r-450-60",
-          "a": 450,
-          "b": 60
-        },
-        {
-          "id": "r-130-70",
-          "a": 130,
-          "b": 70
-        },
-        {
-          "id": "r-410-90",
-          "a": 410,
-          "b": 90
-        },
-        {
-          "id": "r-240-60",
-          "a": 240,
-          "b": 60
-        }
-      ]
+      "numbers": [
+        "none",
+        "hundred",
+        "both"
+      ],
+      "written": [
+        "hidden",
+        "shown"
+      ],
+      "rounds": {
+        "none": [
+          {
+            "a": 34,
+            "b": 25
+          },
+          {
+            "a": 52,
+            "b": 36
+          },
+          {
+            "a": 234,
+            "b": 52
+          },
+          {
+            "a": 312,
+            "b": 46
+          },
+          {
+            "a": 125,
+            "b": 63
+          },
+          {
+            "a": 451,
+            "b": 127
+          },
+          {
+            "a": 206,
+            "b": 81
+          },
+          {
+            "a": 343,
+            "b": 215
+          }
+        ],
+        "hundred": [
+          {
+            "a": 160,
+            "b": 50
+          },
+          {
+            "a": 280,
+            "b": 30
+          },
+          {
+            "a": 340,
+            "b": 70
+          },
+          {
+            "a": 320,
+            "b": 80
+          },
+          {
+            "a": 450,
+            "b": 60
+          },
+          {
+            "a": 130,
+            "b": 70
+          },
+          {
+            "a": 410,
+            "b": 90
+          },
+          {
+            "a": 240,
+            "b": 60
+          }
+        ],
+        "both": [
+          {
+            "a": 268,
+            "b": 157
+          },
+          {
+            "a": 349,
+            "b": 276
+          },
+          {
+            "a": 185,
+            "b": 237
+          },
+          {
+            "a": 456,
+            "b": 178
+          },
+          {
+            "a": 297,
+            "b": 135
+          },
+          {
+            "a": 374,
+            "b": 159
+          },
+          {
+            "a": 168,
+            "b": 284
+          },
+          {
+            "a": 529,
+            "b": 193
+          }
+        ]
+      }
     },
     "slug": {
       "en": "add-with-regrouping-make-a-hundred",
@@ -227,7 +298,10 @@
       "pt": "soma-com-reagrupamento-agrupar-uma-centena-3-ano",
       "it": "addizione-con-il-cambio-formare-un-centinaio-classe-terza",
       "nl": "optellen-honderdtal-maken-tot-1000-groep-5",
-      "sv": "addition-med-hundratalsovergang-inom-1000-ak-3"
+      "sv": "addition-med-hundratalsovergang-inom-1000-ak-3",
+      "da": "tuck-veksler-tiere-til-en-hundreder-3-klasse",
+      "no": "tuck-veksler-tiere-til-en-hundrer-3-trinn",
+      "fi": "tuck-kokoaa-satasen-yhteenlasku-3-luokka"
     },
     "page_title": {
       "en": "Tuck Makes a Hundred — Add with Regrouping (Grade 2)",
@@ -237,7 +311,10 @@
       "pt": "Tuck agrupa uma centena: soma com reagrupamento (3º ano)",
       "it": "Tuck forma un centinaio: addizione con il cambio (classe terza)",
       "nl": "Optellen tot 1000: een honderdtal maken — Tuck maakt een honderdtal (Groep 5)",
-      "sv": "Addition med hundratalsövergång inom 1000 – gör ett hundratal (åk 3)"
+      "sv": "Addition med hundratalsövergång inom 1000 – gör ett hundratal (åk 3)",
+      "da": "Tuck laver en hundreder – plus med veksling (3. klasse)",
+      "no": "Tuck lager en hundrer – addisjon med veksling (3. trinn)",
+      "fi": "Tuck kokoaa satasen – yhteenlasku ja vaihto (3. luokka)"
     },
     "page_intro": {
       "en": "An interactive Grade 2 math activity: add tens that make more than ten tens. Tuck the hamster shows the base-ten blocks; tap “Make a hundred” to bundle 10 tens into one hundred-flat, then type the total. A clear, hands-on look at carrying into the hundreds — composing a hundred. Common Core 2.NBT.B.7.",
@@ -247,7 +324,10 @@
       "pt": "Aprenda a soma com reagrupamento no 3º ano: quando as dezenas passam de dez, o Tuck, o hamster, agrupa 10 dezenas para formar 1 centena no material dourado. Atividade interativa, online e sem cadastro, alinhada à BNCC na unidade temática Números.",
       "it": "Tuck il criceto guida i bambini di classe terza nell'addizione con il cambio entro il 1000. Quando sommando le decine si superano le dieci decine, Tuck mostra come formare un centinaio raggruppando 10 decine in un unico blocco: il cambio prende forma sotto gli occhi con i blocchi base dieci, ordinati in colonne di valore posizionale. Un'attività senza registrazione, che si usa direttamente nel browser e allineata alle Indicazioni nazionali, nel nucleo Numeri.",
       "nl": "Oefen optellen tot 1000 met honderdtaloverschrijding in een interactieve activiteit — zonder download en zonder account. Je kind bundelt samen met Tuck de hamster tien staafjes tot één plaat en ziet zo hoe tientallen doorschuiven naar de honderdtallen. Rustig en speels rekenen met MAB-blokken, helemaal in het Nederlands.",
-      "sv": "Tiotalen blir tio och räcker till ett hundratal – tryck, växla och skriv summan. Addition med hundratalsövergång inom 0–1000, anpassad till Lgr22 för åk 3."
+      "sv": "Tiotalen blir tio och räcker till ett hundratal – tryck, växla och skriv summan. Addition med hundratalsövergång inom 0–1000, anpassad till Lgr22 för åk 3.",
+      "da": "Hamsteren Tuck har en skruestik, der kun låser, når stakken er et helt kvadrat: ti tierstænger lagt oven på hinanden er lige så høje, som én stang er lang. Barnet lægger tiere i skruestikken, skruer den i og veksler ti tiere til én hundreder – og skriver så resultatet af stykker som 160 + 50. Plus med veksling inden for 1000, interaktivt til 3. klasse.",
+      "no": "Hamsteren Tuck har en skrustikke som bare låser seg når stabelen er et helt kvadrat: ti tierstaver lagt oppå hverandre er like høye som én stav er lang. Barnet legger tiere i skrustikka, skrur den igjen og veksler ti tiere til én hundrer – og skriver så summen av stykker som 160 + 50. Addisjon med veksling innenfor 1000, interaktivt for 3. trinn.",
+      "fi": "Hamsteri Tuckin ruuvipenkki lukittuu vain, kun pino on täydellinen neliö: kymmenen kymppisauvaa päällekkäin on yhtä korkea kuin yksi sauva on pitkä. Lapsi pinoaa kympit ruuvipenkkiin, kiertää sen kiinni ja vaihtaa kymmenen kymppiä yhdeksi sadaksi – ja kirjoittaa sitten summan laskuihin kuten 160 + 50. Yhteenlasku vaihdolla lukualueella 0–1000, interaktiivinen tehtävä 3. luokalle."
     },
     "kid_prompt_template": "place-value-regroup"
   },

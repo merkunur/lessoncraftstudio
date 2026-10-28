@@ -1171,25 +1171,25 @@
     },
     "place-value.expanded-form.2-nbt-a-3": {
       "about": [
-        "Barnet bygger ett tresiffrigt tal av basklossar — det trycker in hundraplattor, tiostavar och enhetskuber — och när bygget är rätt visar klossarna den utvecklade formen, så 247 blir 200 + 40 + 7. Talen sträcker sig från 108 upp till 974, inklusive kluriga tal som 305. Det är en interaktiv matteövning för årskurs 2 som körs direkt i webbläsaren utan konto.",
-        "Den stora idén är att ett tal är summan av vad varje siffra är värd. När barnet bygger 247 av två hundratal, fyra tiotal och sju ental ser det att 4:an betyder 40, inte bara \"fyra\". Tal med en nolla är de bästa lärarna: 305 visar att en tom tiotalsplats inte lägger till något, så den utvecklade formen blir bara 300 + 5. Klossarna kopplar ihop siffrorna med deras verkliga värde.",
-        "Aktiviteten följer Lgr22 inom taluppfattning: att läsa och skriva tresiffriga tal i utvecklad form. Ingen timer och inga poäng — bara lugn och lekfull övning."
+        "Räknemaskinen med värdetangenter har en kolumn tangenter för varje position, och på varje tangent står vad den är värd: 100 till 900 för hundratalen, 10 till 90 för tiotalen och 1 till 9 för entalen. För att bilda 247 trycker barnet på 200, 40 och 7 och drar i veven; sifferhjulen lägger ihop tangenterna och pappersremsan skriver ut 200 + 40 + 7 = 247. Att bilda talet är att skriva talet i utvecklad form.",
+        "Det finns ingen nolltangent. En position med en nolla är en kolumn där ingenting är nedtryckt: 305 bildas av 300 och 5, och remsan skriver ut 300 + 5. En tangent på den tomma positionen ger ett annat tal (355 i stället för 305), och den som trycker på 30 bland tiotalen i stället för 300 får 35, inte 305. I de andra uppgifterna trycker barnet på tangenterna som givna block är värda, tar reda på vad en färgad siffra är värd (7:an i 472 är värd 70) eller väljer bland tre samlingar tiostavar och entalskuber den som visar ett tvåsiffrigt tal. Efter ett andra fel öppnas lappen i sina positioner med varje siffras block, blocken numreras eller den rätta kolumnen med tangenter lyser.",
+        "Aktiviteten följer Lgr22 för åk 1–3 och passar i åk 3: att dela upp tal upp till 1000 i hundratal, tiotal och ental och skriva dem som en summa; inställningen tiotal och ental passar i åk 1. Den fungerar utan ljud, och det finns ingen tidtagning och inga poäng."
       ],
       "practices": [
-        "Bygga ett tresiffrigt tal av hundratal, tiotal och ental",
-        "Läsa talet i utvecklad form, som 247 = 200 + 40 + 7",
-        "Se att varje siffras värde beror på dess plats",
-        "Hantera tal med en nolla på en plats, som 305 = 300 + 5"
+        "Skriva tresiffriga tal i utvecklad form, som 247 = 200 + 40 + 7",
+        "Hoppa över en position med en nolla: 305 = 300 + 5",
+        "Läsa av basblock som värdena för sina positioner",
+        "Säga vad en siffra är värd på sin position, som 7:an i 472"
       ],
       "howToPlay": [
-        "Barnet trycker för att lägga till hundraplattor, tiostavar och enhetskuber tills det bygger upp det tal som efterfrågas.",
-        "När bygget är rätt visar klossarna den utvecklade formen, som 200 + 40 + 7.",
-        "Gå vidare till nästa tal — det finns ingen timer och inga poäng."
+        "Bilda talet: tryck på en tangent för varje position som talet behöver, dra sedan i veven eller tryck på Kontrollera och läs remsan.",
+        "Läsa av blocken och vad är siffran värd: tryck på tangenterna som blocken eller den färgade siffran är värda. I vilken samling? trycker du på samlingen som visar lappen, och maskinen trycker själv på dess tangenter.",
+        "I inställningarna väljer du tiotal och ental eller hundratal, tiotal och ental, och uppgiften."
       ],
       "learningGoals": [
-        "Barnet kan läsa och skriva tresiffriga tal i utvecklad form",
-        "Barnet förstår att ett tal är summan av sina platsvärden",
-        "Barnet bygger den platsvärdesförståelse som stöder att addera och jämföra tal"
+        "Skriva ett tresiffrigt tal som summan av sina hundratal, tiotal och ental.",
+        "Veta att en position med en nolla inte lägger till något och inte finns med i den utvecklade formen.",
+        "Veta att en siffra är värd det som dess position säger: 7:an i 472 är värd 70."
       ]
     },
     "ten-frame.solve-the-story.k-oa-a-2": {

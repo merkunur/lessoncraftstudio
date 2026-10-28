@@ -577,25 +577,25 @@
     },
     "place-value.expanded-form.2-nbt-a-3": {
       "about": [
-        "Lapsi rakentaa kolminumeroisen luvun kymmenjärjestelmän palikoista — napauttamalla satalevyjä, kymmensauvoja ja ykköskuutioita — ja kun rakennelma on oikein, palikat paljastavat hajautetun muodon, joten 247 muuttuu muotoon 200 + 40 + 7. Tavoitelukuja on 108:sta aina 974:ään, mukana hankalia lukuja kuten 305. Tämä vuorovaikutteinen 2. luokan matematiikkatehtävä toimii suoraan selaimessa ilman tiliä.",
-        "Tärkein ajatus on, että luku on numeroidensa arvojen summa. Kun 247 rakennetaan kahdesta sadasta, neljästä kymmenestä ja seitsemästä ykkösestä, lapsi näkee, että 4 tarkoittaa lukua 40 eikä vain \"neljää\". Nollan sisältävät luvut ovat parhaita opettajia: 305 osoittaa, ettei tyhjä kymmenten paikka lisää mitään, joten hajautettu muoto on vain 300 + 5. Palikat yhdistävät numerot niiden todelliseen arvoon.",
-        "Tehtävä on OPS 2014:n mukainen 2. luokan matematiikkaa — lapsi lukee ja kirjoittaa kolminumeroisia lukuja hajautetussa muodossa. Ei ajastinta, ei pisteitä."
+        "Arvonäppäinlaskukoneessa on jokaiselle kohdalle oma näppäinsarake, ja jokaisessa näppäimessä lukee, mitä se on arvoltaan: satojen kohdassa 100–900, kymmenten kohdassa 10–90 ja ykkösten kohdassa 1–9. Muodostaakseen luvun 247 lapsi painaa näppäimiä 200, 40 ja 7 ja vetää kammesta. Numerorullat laskevat näppäimet yhteen, ja paperinauha tulostaa 200 + 40 + 7 = 247. Luvun muodostaminen on luvun kirjoittamista hajotelmana.",
+        "Nollanäppäintä ei ole. Nollakohta on sarake, jossa mitään ei ole painettu: luku 305 muodostetaan näppäimillä 300 ja 5, ja nauha tulostaa 300 + 5. Tyhjään kohtaan painettu näppäin antaa toisen luvun (355 eikä 305), ja jos kymmenistä painaa 30 eikä 300, tulos on 35 eikä 305. Muissa tehtävissä lapsi painaa näppäimiä, joiden arvoisia annetut palikat ovat, selvittää korostetun numeron arvon (luvun 472 numero 7 on arvoltaan 70) tai valitsee kolmesta kymmensauva- ja ykköskuutioryhmästä sen, joka näyttää kaksinumeroisen luvun. Toisen virheen jälkeen lappu avautuu kohdikseen ja jokaisen numeron palikat näkyvät, palikat numeroidaan tai oikea näppäinsarake syttyy.",
+        "Tehtävä tukee OPS 2014 -tavoitteita 2. luokalla: lukujen hajottaminen lukualueella 0–1000 satoihin, kymmeniin ja ykkösiin ja niiden kirjoittaminen summana; asetus kymmenet ja ykköset sopii 1. luokalle. Se toimii ilman ääntä, eikä siinä ole ajanottoa tai pisteitä."
       ],
       "practices": [
-        "Rakentaa kolminumeroisen luvun sadoista, kymmenistä ja ykkösistä.",
-        "Lukee luvun hajautetussa muodossa, kuten 247 = 200 + 40 + 7.",
-        "Näkee, että kunkin numeron arvo riippuu sen paikasta.",
-        "Käsittelee lukuja, joissa jollakin paikalla on nolla, kuten 305 = 300 + 5."
+        "Kirjoittaa kolminumeroinen luku hajotelmana, kuten 247 = 200 + 40 + 7",
+        "Jättää nollakohta pois: 305 = 300 + 5",
+        "Lukea palikat kohtiensa arvoina",
+        "Kertoa, mitä numero on arvoltaan kohdassaan, kuten luvun 472 numero 7"
       ],
       "howToPlay": [
-        "Napauta lisätäksesi satalevyjä, kymmensauvoja ja ykköskuutioita, kunnes rakennat tavoiteluvun.",
-        "Kun rakennelma on oikein, palikat paljastavat hajautetun muodon, kuten 200 + 40 + 7.",
-        "Siirry seuraavaan lukuun; ei ajastinta eikä pisteitä."
+        "Muodosta luku: paina näppäintä jokaisessa kohdassa, jota luku tarvitsee, vedä sitten kammesta tai paina Tarkista ja lue nauha.",
+        "Lue palikat ja numeron arvo: paina näppäimiä, joiden arvoisia palikat tai korostettu numero ovat. Tehtävässä mikä ryhmä? napautat ryhmää, joka näyttää lapun luvun, ja kone painaa sen näppäimet itse.",
+        "Asetuksista valitset kymmenet ja ykköset tai sadat, kymmenet ja ykköset sekä tehtävän."
       ],
       "learningGoals": [
-        "Lapsi osaa lukea ja kirjoittaa kolminumeroisia lukuja hajautetussa muodossa.",
-        "Lapsi ymmärtää, että luku on paikka-arvojensa summa.",
-        "Lapsi rakentaa paikka-arvon tajua, joka tukee lukujen yhteenlaskua ja vertailua."
+        "Kirjoittaa kolminumeroinen luku satojen, kymmenten ja ykkösten summana.",
+        "Tietää, että nollakohta ei lisää mitään ja jää hajotelmasta pois.",
+        "Tietää, että numeron arvo riippuu sen kohdasta: luvun 472 numero 7 on arvoltaan 70."
       ]
     },
     "ten-frame.solve-the-story.k-oa-a-2": {

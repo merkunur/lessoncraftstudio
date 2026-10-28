@@ -4057,25 +4057,25 @@
     },
     "place-value.expanded-form.2-nbt-a-3": {
       "about": [
-        "Je kind bouwt een getal van drie cijfers met MAB-materiaal — honderdplaten, tienstaven en losse blokjes worden aangetikt — en als de bouw klopt, tonen de blokken de uitgebreide vorm, zodat 247 wordt tot 200 + 40 + 7. De doelen lopen van 108 tot 974, met lastige getallen als 305 erbij. Het is een interactieve rekenactiviteit voor groep 4 die zonder account in de browser draait.",
-        "Het grote idee is dat een getal de som is van wat elk cijfer waard is. Door 247 te bouwen uit twee honderdtallen, vier tientallen en zeven eenheden, ziet je kind dat de 4 voor 40 staat en niet zomaar voor 'vier'. Getallen met een nul zijn de echte leermeesters: 305 laat zien dat een lege plaats van de tientallen niets toevoegt, dus de uitgebreide vorm is gewoon 300 + 5. De blokken verbinden de cijfers met hun echte waarde.",
-        "De activiteit sluit aan bij de kerndoelen binnen het domein Getallen en bewerkingen en bij kinderen in groep 4: getallen van drie cijfers lezen en schrijven in uitgebreide vorm. Geen timer, geen score — gewoon rustig bouwen en lezen."
+        "De optelmachine met waardetoetsen heeft voor elke plaats een kolom toetsen, en op elke toets staat wat hij waard is: 100 tot 900 bij de honderdtallen, 10 tot 90 bij de tientallen, 1 tot 9 bij de eenheden. Voor 247 drukt het kind 200, 40 en 7 in en trekt aan de hendel; de telwieltjes tellen de toetsen op en de papierstrook drukt 200 + 40 + 7 = 247. Het getal maken is het getal splitsen in zijn waarden.",
+        "Er is geen toets voor nul. Een plaats met een nul is een kolom waarin niets is ingedrukt: 305 maak je met 300 en 5, en de strook drukt 300 + 5. Een toets op de lege plaats geeft een ander getal (355 in plaats van 305), en wie bij de tientallen 30 indrukt in plaats van 300, krijgt 35 en niet 305. In de andere opdrachten drukt het kind de toetsen in die gegeven blokken waard zijn, zoekt het uit wat een gekleurd cijfer waard is (de 7 in 472 is 70 waard) of kiest het uit drie groepjes staven en blokjes het groepje dat een getal van twee cijfers laat zien. Na een tweede misser gaat het kaartje open in zijn plaatsen met de blokken van elk cijfer, krijgen de blokken nummers of licht de goede kolom toetsen op.",
+        "De activiteit sluit aan bij de SLO-kerndoelen en past in groep 5: getallen tot 1000 splitsen in honderdtallen, tientallen en eenheden en als som schrijven; de instelling tientallen en eenheden past bij groep 4. Ze werkt zonder geluid, zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Een getal van drie cijfers bouwen met honderdtallen, tientallen en eenheden",
-        "Het getal lezen in uitgebreide vorm, zoals 247 = 200 + 40 + 7",
-        "Zien dat de waarde van elk cijfer afhangt van zijn plaats",
-        "Getallen met een nul op een plaats aankunnen, zoals 305 = 300 + 5"
+        "Getallen van drie cijfers splitsen, zoals 247 = 200 + 40 + 7",
+        "Een plaats met een nul weglaten: 305 = 300 + 5",
+        "Blokken aflezen als de waarden van hun plaatsen",
+        "Zeggen wat een cijfer op zijn plaats waard is, zoals de 7 in 472"
       ],
       "howToPlay": [
-        "Tik om honderdplaten, tienstaven en losse blokjes toe te voegen tot je het doelgetal hebt gebouwd.",
-        "Als de bouw klopt, tonen de blokken de uitgebreide vorm, zoals 200 + 40 + 7.",
-        "Ga door naar het volgende getal — er is geen timer en geen score."
+        "Getal maken: druk op elke plaats die het getal nodig heeft één toets in, trek dan aan de hendel of tik op Controleer, en lees de strook.",
+        "Blokken aflezen en hoeveel is het waard: druk de toetsen in die de blokken of het gekleurde cijfer waard zijn. Bij welk groepje? tik je op het groepje dat het kaartje laat zien, en de machine drukt zelf zijn toetsen in.",
+        "In de instellingen kies je tientallen en eenheden of honderdtallen, tientallen en eenheden, en de opdracht."
       ],
       "learningGoals": [
-        "Je kind leest en schrijft getallen van drie cijfers in uitgebreide vorm.",
-        "Je kind begrijpt dat een getal de som is van zijn plaatswaarden.",
-        "Je kind bouwt het plaatswaardegevoel op dat optellen en vergelijken ondersteunt."
+        "Een getal van drie cijfers schrijven als de som van zijn honderdtallen, tientallen en eenheden.",
+        "Weten dat een plaats met een nul niets toevoegt en uit de splitsing wegvalt.",
+        "Weten dat een cijfer waard is wat zijn plaats zegt: de 7 in 472 is 70 waard."
       ]
     },
     "ten-frame.solve-the-story.k-oa-a-2": {

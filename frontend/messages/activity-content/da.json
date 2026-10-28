@@ -1296,24 +1296,25 @@
     },
     "place-value.expanded-form.2-nbt-a-3": {
       "about": [
-        "Udvidet form lader barnet bygge et tresifret tal af ti-system-klodser — ved at trykke hundrede-plader, tier-stænger og ener-terninger ind — og når byggeriet er rigtigt, viser klodserne den udvidede form, så 247 bliver til 200 + 40 + 7. Målene går fra 108 op til 974 og rummer drilske tal som 305. Det er en interaktiv matematikaktivitet til 2. klasse, der kører direkte i browseren uden konto.",
-        "Den store idé er, at et tal er summen af det, hvert ciffer er værd. Ved at bygge 247 af to hundreder, fire tiere og syv enere ser barnet, at 4-tallet betyder 40 og ikke bare \"fire\". Tallene med et nul er de bedste lærere: 305 viser, at en tom tier-plads ikke tilføjer noget, så den udvidede form er bare 300 + 5. Klodserne forbinder cifrene med deres rigtige værdi. Aktiviteten følger Fælles Mål inden for tal og algebra: at læse og skrive tresifrede tal i udvidet form. Der er ingen timer og ingen point."
+        "Regnemaskinen med værditaster har en kolonne taster for hver plads, og på hver tast står, hvad den er værd: 100 til 900 for hundrederne, 10 til 90 for tierne og 1 til 9 for enerne. For at lave 247 trykker barnet på 200, 40 og 7 og trækker i håndsvinget; tælleværket lægger tasterne sammen, og papirstrimlen skriver 200 + 40 + 7 = 247. At lave tallet er at skrive tallet opløst i sine pladsværdier.",
+        "Der er ingen nultast. En plads med et nul er en kolonne, hvor der ikke er trykket noget: 305 laves af 300 og 5, og strimlen skriver 300 + 5. En tast på den tomme plads giver et andet tal (355 i stedet for 305), og trykker man på 30 ved tierne i stedet for 300, får man 35 og ikke 305. I de andre opgaver trykker barnet på de taster, nogle givne klodser er værd, finder ud af, hvad et farvet ciffer er værd (7-tallet i 472 er 70 værd), eller vælger blandt tre samlinger stænger og terninger den, der viser et tocifret tal. Efter anden fejl folder sedlen sig ud i sine pladser med hvert ciffers klodser, klodserne får numre, eller den rigtige kolonne taster lyser op.",
+        "Aktiviteten følger Fælles Mål (efter 3. klassetrin) og passer til 2. klasse: at opløse tal op til 1000 i hundreder, tiere og enere og skrive dem som en sum; indstillingen tiere og enere passer til 1. klasse. Den virker uden lyd, og der er hverken tidtagning eller point."
       ],
       "practices": [
-        "Bygge et tresifret tal af hundreder, tiere og enere",
-        "Læse tallet i udvidet form, som 247 = 200 + 40 + 7",
-        "Se, at hvert ciffers værdi afhænger af dets plads",
-        "Klare tal med en nul-plads, som 305 = 300 + 5"
+        "Opløse trecifrede tal i pladsværdier, som 247 = 200 + 40 + 7",
+        "Springe en plads med et nul over: 305 = 300 + 5",
+        "Aflæse klodser som værdierne af deres pladser",
+        "Sige, hvad et ciffer er værd på sin plads, som 7-tallet i 472"
       ],
       "howToPlay": [
-        "Barnet trykker for at tilføje hundrede-plader, tier-stænger og ener-terninger, indtil måltallet er bygget.",
-        "Når byggeriet er rigtigt, viser klodserne den udvidede form, som 200 + 40 + 7.",
-        "Gå videre til næste tal — der er ingen timer og ingen point."
+        "Lav tallet: Tryk på én tast for hver plads, tallet skal bruge, træk så i håndsvinget eller tryk på Tjek, og læs strimlen.",
+        "Aflæs klodserne og hvad er cifret værd: Tryk på de taster, klodserne eller det farvede ciffer er værd. Ved hvilken samling? trykker du på den samling, der viser sedlen, og maskinen trykker selv på dens taster.",
+        "I indstillingerne vælger du tiere og enere eller hundreder, tiere og enere og opgaven."
       ],
       "learningGoals": [
-        "Barnet kan læse og skrive tresifrede tal i udvidet form",
-        "Barnet kan forstå, at et tal er summen af sine pladsværdier",
-        "Barnet bygger den pladsværdifornemmelse, der støtter både at lægge sammen og sammenligne tal"
+        "Skrive et trecifret tal som summen af sine hundreder, tiere og enere.",
+        "Vide, at en plads med et nul ikke lægger noget til og ikke kommer med i opløsningen.",
+        "Vide, at et ciffer er det værd, som dets plads siger: 7-tallet i 472 er 70 værd."
       ]
     },
     "ten-frame.solve-the-story.k-oa-a-2": {

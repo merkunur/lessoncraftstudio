@@ -107,6 +107,10 @@ function seedScript(row) {
     // 160 + 50: ten of the eleven rods stacked on the vice's bed — the square gauge exactly covered, one rod still in the tens column: the invention at work
     return `(function(){var t=window['SquareViceActivity'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(0);t._render2();t._bay('T',10);}})();`;
   }
+  if (row.tool === 'value-keys-activity') {
+    // the invention at work: 305 made with 300 and 5 — no key in the tens, the tape prints 300 + 5
+    return `(function(){var t=window['ValueKeysActivity'];if(!t||!t.api)return;t.FAST=true;t.OK_MS=600000;t.api.settings.job='make';t.api.settings.numbers='three';t._pool=null;t._ensurePool();var k=t._pool.findIndex(function(r){return r.n===305});t._start(k);t._render2();t._press('h',3);t._press('o',5);t._crank();})();`;
+  }
   if (row.tool === 'capped-mat-activity') {
     // the invention at work: 307 capped 3 and 7 with the empty tens left bare → it folds, the hint reads 37
     return `(function(){var t=window['CappedMatActivity'];if(!t||!t.api)return;t.FAST=true;t.OK_MS=600000;t.api.settings.job='read';t.api.settings.blocks='tidy';t._pool=null;t._ensurePool();var k=t._pool.findIndex(function(r){return r.n===307});t._start(k);t._render2();t._capTo('h',3);t._capTo('o',7);t._check();})();`;

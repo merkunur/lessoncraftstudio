@@ -3411,25 +3411,25 @@
     },
     "place-value.expanded-form.2-nbt-a-3": {
       "about": [
-        "Children build a three-digit number out of base-ten blocks — tapping in hundreds-flats, ten-rods, and unit-cubes — and when the build is right the blocks reveal the expanded form, so 247 becomes 200 + 40 + 7, with targets from 108 up to 974 including tricky numbers like 305. It's an interactive Grade 2 math activity that runs right in the browser with no account.",
-        "The big idea is that a number is the sum of what each digit is worth. By building 247 from two hundreds, four tens, and seven ones, the child sees that the 4 means 40, not just 'four.' Numbers with a zero are the key teachers: 305 shows that an empty tens place adds nothing, so the expanded form is just 300 + 5. The blocks connect the digits to their real value.",
-        "It is aligned to Common Core 2.NBT.A.3 — reading and writing three-digit numbers in expanded form. No timer, no score — just calm, playful practice."
+        "The Value-Key Adding Machine has a column of keys for each place, and every key is labelled with what it is worth: 100 to 900 in the hundreds, 10 to 90 in the tens, 1 to 9 in the ones. To make 247 the child presses 200, 40 and 7 and pulls the crank; the drums add the keys up and the paper tape prints 200 + 40 + 7 = 247. Making the number is writing its expanded form.",
+        "There is no zero key. A zero place is a column where nothing is pressed, so 305 is made with 300 and 5, and the tape prints 300 + 5. A key pressed in the empty place makes the drums show another number (355 instead of 305), and pressing 30 in the tens instead of 300 gives 35, not 305. In the other jobs the child presses the keys a set of blocks is worth, finds what one bright digit is worth (the 7 in 472 is worth 70), or picks which of three sets of rods and cubes shows a two-digit number. After a second miss the ticket opens into its places with each digit's blocks, the blocks are numbered, or the right column of keys lights up.",
+        "It is aligned to Common Core 2.NBT.A.3 (read and write numbers to 1000 in expanded form), and the tens-and-ones setting covers 1.NBT.B.2. It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Build a three-digit number from hundreds, tens, and ones",
-        "Read the number in expanded form, like 247 = 200 + 40 + 7",
-        "See that each digit's value depends on its place",
-        "Handle numbers with a zero place, like 305 = 300 + 5"
+        "Write three-digit numbers in expanded form, such as 247 = 200 + 40 + 7",
+        "Leave out a zero place: 305 = 300 + 5",
+        "Read base-ten blocks as the values of their places",
+        "Say what a digit is worth in its place, such as the 7 in 472"
       ],
       "howToPlay": [
-        "Tap to add hundreds-flats, ten-rods, and unit-cubes until you build the target number.",
-        "When the build is right, the blocks reveal the expanded form, like 200 + 40 + 7.",
-        "Move on to the next number; there is no timer and no score."
+        "Make: press one key in each place the number needs, then pull the crank or press Check, and read the tape.",
+        "Read the blocks and what is it worth: press the keys the blocks or the bright digit are worth. In which set?, tap the set that shows the ticket and the machine presses its keys by itself.",
+        "In the settings, choose tens and ones or hundreds, tens and ones, and the job."
       ],
       "learningGoals": [
-        "Read and write three-digit numbers in expanded form — the focus of Common Core 2.NBT.A.3",
-        "Understand that a number is the sum of its place values",
-        "Build the place-value sense that supports adding and comparing numbers"
+        "Write a three-digit number as the sum of its hundreds, tens and ones — the focus of Common Core 2.NBT.A.3.",
+        "Know that a zero place adds nothing and is left out of the expanded form.",
+        "Know that a digit is worth its face value times its place: the 7 in 472 is worth 70."
       ]
     },
     "place-value.hundreds-tens-and-ones.2-nbt-a-1": {

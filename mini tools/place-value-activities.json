@@ -166,8 +166,8 @@
   },
   {
     "id": "place-value.expanded-form.2-nbt-a-3",
-    "tool": "place-value-activity",
-    "task_template": "build-expanded-form",
+    "tool": "value-keys-activity",
+    "task_template": "value-keys",
     "alignment": {
       "framework": "CCSS",
       "code": "2.NBT.A.3",

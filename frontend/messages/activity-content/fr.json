@@ -3218,24 +3218,25 @@
     },
     "place-value.expanded-form.2-nbt-a-3": {
       "about": [
-        "L'enfant construit un nombre à trois chiffres avec des blocs de base dix — en touchant pour ajouter des plaques de cent, des barres de dix et des cubes unités — et quand la construction est juste, les blocs révèlent la forme développée : 247 devient 200 + 40 + 7, avec des cibles allant de 108 à 974, dont des nombres délicats comme 305. C'est une activité de mathématiques interactive pour le CE1, qui fonctionne directement dans le navigateur, sans compte.",
-        "L'idée importante, c'est qu'un nombre est la somme de ce que vaut chaque chiffre. En construisant 247 avec deux centaines, quatre dizaines et sept unités, l'enfant voit que le 4 signifie 40, et pas seulement « quatre ». Les nombres avec un zéro sont les meilleurs maîtres : 305 montre qu'une place des dizaines vide n'ajoute rien, et que la forme développée s'écrit simplement 300 + 5. Les blocs relient les chiffres à leur vraie valeur, un apprentissage clé du CE1."
+        "La machine à additionner à touches a une colonne de touches pour chaque rang, et chaque touche porte ce qu’elle vaut : de 100 à 900 pour les centaines, de 10 à 90 pour les dizaines, de 1 à 9 pour les unités. Pour former 247, l’enfant appuie sur 200, 40 et 7, puis tire la manivelle : les tambours additionnent les touches et le ruban de papier imprime 200 + 40 + 7 = 247. Former le nombre, c’est écrire sa décomposition additive.",
+        "Il n’y a pas de touche zéro. Un rang à zéro, c’est une colonne où aucune touche n’est enfoncée : 305 se forme avec 300 et 5, et le ruban imprime 300 + 5. Une touche enfoncée dans le rang vide donne un autre nombre (355 au lieu de 305), et appuyer sur 30 aux dizaines au lieu de 300 donne 35, pas 305. Dans les autres tâches, l’enfant appuie sur les touches que valent des blocs donnés, trouve ce que vaut un chiffre en couleur (le 7 de 472 vaut 70) ou choisit, parmi trois lots de barres et de cubes, celui qui montre un nombre à deux chiffres. Après une deuxième erreur, l’étiquette s’ouvre en rangs avec les blocs de chaque chiffre, les blocs sont numérotés ou la bonne colonne de touches s’allume.",
+        "L’activité suit les programmes officiels du CE1 : décomposer les nombres jusqu’à 1 000 en centaines, dizaines et unités et les écrire sous forme de somme ; le réglage dizaines et unités convient au CP. Elle fonctionne sans le son, sans chronomètre et sans score."
       ],
       "practices": [
-        "Construire un nombre à trois chiffres avec des centaines, des dizaines et des unités.",
-        "Lire le nombre en forme développée, comme 247 = 200 + 40 + 7.",
-        "Comprendre que la valeur de chaque chiffre dépend de sa place.",
-        "Traiter les nombres comportant un zéro, comme 305 = 300 + 5."
+        "Écrire la décomposition d’un nombre à trois chiffres, comme 247 = 200 + 40 + 7",
+        "Laisser de côté un rang à zéro : 305 = 300 + 5",
+        "Lire des blocs comme les valeurs de leurs rangs",
+        "Dire ce que vaut un chiffre selon son rang, comme le 7 de 472"
       ],
       "howToPlay": [
-        "Touche pour ajouter des plaques de cent, des barres de dix et des cubes unités jusqu'à construire le nombre cible.",
-        "Quand la construction est juste, les blocs révèlent la forme développée, comme 200 + 40 + 7.",
-        "Passe au nombre suivant ; il n'y a ni chrono ni score."
+        "Former le nombre : appuie sur une touche à chaque rang dont le nombre a besoin, puis tire la manivelle ou touche Vérifier, et lis le ruban.",
+        "Lire les blocs et combien vaut le chiffre : appuie sur les touches que valent les blocs ou le chiffre en couleur. Pour quel lot ?, touche le lot qui montre l’étiquette et la machine appuie elle-même sur ses touches.",
+        "Dans les réglages, choisis dizaines et unités ou centaines, dizaines et unités, et la tâche."
       ],
       "learningGoals": [
-        "Lire et écrire les nombres à trois chiffres en forme développée.",
-        "Comprendre qu'un nombre est la somme de ses valeurs de position.",
-        "Développer le sens des valeurs de position qui aide à additionner et à comparer les nombres."
+        "Écrire un nombre à trois chiffres comme la somme de ses centaines, dizaines et unités.",
+        "Savoir qu’un rang à zéro n’ajoute rien et disparaît de la décomposition.",
+        "Savoir qu’un chiffre vaut selon son rang : le 7 de 472 vaut 70."
       ]
     },
     "ten-frame.solve-the-story.k-oa-a-2": {

@@ -1061,25 +1061,25 @@
     },
     "place-value.expanded-form.2-nbt-a-3": {
       "about": [
-        "Barnet bygger et tresifret tall med klosser i titallssystemet — det trykker inn hundrerplater, tierstaver og enerterninger — og når byggingen er riktig, viser klossene den utvidede formen, så 247 blir 200 + 40 + 7. Tallene går fra 108 opp til 974, og noen er ekstra lure, som 305. Dette er en interaktiv matteaktivitet for 2. trinn som kjører rett i nettleseren — uten konto.",
-        "Den store ideen er at et tall er summen av det hvert siffer er verdt. Når barnet bygger 247 av to hundrere, fire tiere og sju enere, ser det at 4-tallet betyr 40, ikke bare «fire». Tall med null er de beste lærerne her: 305 viser at en tom tierplass ikke legger til noe, så den utvidede formen er bare 300 + 5. Klossene kobler sifrene til den ekte verdien sin.",
-        "Aktiviteten følger LK20 innenfor tall og regning — å lese og skrive tresifrede tall i utvidet form. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "Regnemaskinen med verditaster har en kolonne taster for hver plass, og på hver tast står det hva den er verdt: 100 til 900 for hundrerne, 10 til 90 for tierne og 1 til 9 for enerne. For å lage 247 trykker barnet på 200, 40 og 7 og drar i sveiven; tellehjulene legger sammen tastene, og papirstrimmelen skriver ut 200 + 40 + 7 = 247. Å lage tallet er å skrive tallet delt opp i plassverdier.",
+        "Det finnes ingen nulltast. En plass med null er en kolonne der ingenting er trykket ned: 305 lages av 300 og 5, og strimmelen skriver ut 300 + 5. En tast på den tomme plassen gir et annet tall (355 i stedet for 305), og trykker man på 30 hos tierne i stedet for 300, får man 35 og ikke 305. I de andre oppgavene trykker barnet på tastene gitte klosser er verdt, finner ut hva et farget siffer er verdt (7-tallet i 472 er verdt 70) eller velger blant tre samlinger staver og kuber den som viser et tosifret tall. Etter en ny bom åpner lappen seg i plassene sine med klossene til hvert siffer, klossene får numre, eller den riktige kolonnen med taster lyser opp.",
+        "Aktiviteten er knyttet til LK20 (kompetansemål etter 3. trinn): å dele opp tall opp til 1000 i hundrere, tiere og enere og skrive dem som en sum; innstillingen tiere og enere passer på 1. trinn. Den virker uten lyd, og det er verken tidtaking eller poeng."
       ],
       "practices": [
-        "Bygge et tresifret tall av hundrere, tiere og enere.",
-        "Lese tallet i utvidet form, som 247 = 200 + 40 + 7.",
-        "Se at verdien til hvert siffer avhenger av plassen det står på.",
-        "Mestre tall med en tom plass, som 305 = 300 + 5."
+        "Dele opp tresifrede tall i plassverdier, som 247 = 200 + 40 + 7",
+        "Hoppe over en plass med null: 305 = 300 + 5",
+        "Lese av klosser som verdiene til plassene sine",
+        "Si hva et siffer er verdt på plassen sin, som 7-tallet i 472"
       ],
       "howToPlay": [
-        "Trykk for å legge til hundrerplater, tierstaver og enerterninger til du bygger måltallet.",
-        "Når byggingen er riktig, viser klossene den utvidede formen, som 200 + 40 + 7.",
-        "Gå videre til neste tall — det er ingen tidtaker og ingen poeng."
+        "Lag tallet: Trykk på én tast for hver plass tallet trenger, dra så i sveiven eller trykk på Sjekk, og les strimmelen.",
+        "Les av klossene og hva er sifferet verdt: Trykk på tastene klossene eller det fargede sifferet er verdt. Ved hvilken samling? trykker du på samlingen som viser lappen, og maskinen trykker selv på tastene.",
+        "I innstillingene velger du tiere og enere eller hundrere, tiere og enere, og oppgaven."
       ],
       "learningGoals": [
-        "Barnet kan lese og skrive tresifrede tall i utvidet form.",
-        "Barnet forstår at et tall er summen av plassverdiene sine.",
-        "Barnet bygger plassverdiforståelsen som støtter å legge sammen og sammenligne tall."
+        "Skrive et tresifret tall som summen av hundrerne, tierne og enerne sine.",
+        "Vite at en plass med null ikke legger til noe og ikke er med når tallet deles opp.",
+        "Vite at et siffer er verdt det plassen sier: 7-tallet i 472 er verdt 70."
       ]
     },
     "ten-frame.solve-the-story.k-oa-a-2": {

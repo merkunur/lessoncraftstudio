@@ -1833,25 +1833,25 @@
     },
     "place-value.expanded-form.2-nbt-a-3": {
       "about": [
-        "A criança monta um número de três algarismos com material dourado — tocando para acrescentar placas de cem, barras de dez e cubinhos de um — e, quando a construção fica certa, os blocos mostram a forma expandida, então 247 vira 200 + 40 + 7, com números-alvo que vão de 108 até 974, incluindo casos espertos como 305. É uma atividade de matemática interativa para o 2º ano, que funciona direto no navegador, sem precisar de conta.",
-        "A grande ideia é que um número é a soma do que cada algarismo vale. Ao montar 247 com duas centenas, quatro dezenas e sete unidades, a criança vê que o 4 quer dizer 40, e não só 'quatro'. Os números com zero são os que mais ensinam: 305 mostra que uma casa das dezenas vazia não acrescenta nada, então a forma expandida é só 300 + 5. Os blocos ligam os algarismos ao valor de verdade de cada um.",
-        "A atividade está alinhada à BNCC, na unidade temática Números, no trabalho de ler e escrever números de três algarismos na forma expandida (composição e decomposição). Sem cronômetro e sem pontuação — só uma prática calma e divertida."
+        "A máquina de somar de teclas tem uma coluna de teclas para cada ordem, e cada tecla mostra quanto vale: de 100 a 900 nas centenas, de 10 a 90 nas dezenas e de 1 a 9 nas unidades. Para formar 247, a criança aperta 200, 40 e 7 e puxa a manivela; os tambores somam as teclas e a fita de papel imprime 200 + 40 + 7 = 247. Formar o número é escrever sua decomposição.",
+        "Não existe tecla do zero. Uma ordem com zero é uma coluna em que nada é apertado: 305 se forma com 300 e 5, e a fita imprime 300 + 5. Uma tecla apertada na ordem vazia dá outro número (355 em vez de 305), e apertar 30 nas dezenas em vez de 300 dá 35, não 305. Nas outras tarefas a criança aperta as teclas que valem blocos já dados, descobre quanto vale um algarismo destacado (o 7 de 472 vale 70) ou escolhe, entre três grupos de barras e cubinhos, o que mostra um número de dois algarismos. Depois de um segundo erro, a etiqueta se abre em suas ordens com os blocos de cada algarismo, os blocos ganham números ou a coluna certa de teclas acende.",
+        "A atividade segue a BNCC para o 2º ano, na unidade temática Números: compor e decompor números de até três ordens em centenas, dezenas e unidades e escrevê-los como soma; a opção dezenas e unidades serve ao 1º ano. Funciona sem som, sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Montar um número de três algarismos com centenas, dezenas e unidades.",
-        "Ler o número na forma expandida, como 247 = 200 + 40 + 7.",
-        "Ver que o valor de cada algarismo depende da casa em que ele está.",
-        "Lidar com números que têm um zero numa casa, como 305 = 300 + 5."
+        "Decompor números de três algarismos, como 247 = 200 + 40 + 7",
+        "Deixar de fora uma ordem com zero: 305 = 300 + 5",
+        "Ler blocos como os valores de suas ordens",
+        "Dizer quanto vale um algarismo pela ordem dele, como o 7 de 472"
       ],
       "howToPlay": [
-        "Toque para acrescentar placas de cem, barras de dez e cubinhos de um até montar o número-alvo.",
-        "Quando a construção estiver certa, os blocos mostram a forma expandida, como 200 + 40 + 7.",
-        "Siga para o próximo número — não há cronômetro nem pontuação."
+        "Formar o número: aperte uma tecla em cada ordem de que o número precisa, depois puxe a manivela ou toque em Conferir, e leia a fita.",
+        "Ler os blocos e quanto vale: aperte as teclas que valem os blocos ou o algarismo destacado. Em qual grupo?, toque no grupo que mostra a etiqueta e a máquina aperta as teclas dele sozinha.",
+        "Nas configurações, escolha dezenas e unidades ou centenas, dezenas e unidades, e a tarefa."
       ],
       "learningGoals": [
-        "Ler e escrever números de três algarismos na forma expandida.",
-        "Entender que um número é a soma dos seus valores posicionais.",
-        "Construir a noção de valor posicional que ajuda a somar e a comparar números."
+        "Escrever um número de três algarismos como a soma de suas centenas, dezenas e unidades.",
+        "Saber que uma ordem com zero não acrescenta nada e fica fora da decomposição.",
+        "Saber que um algarismo vale de acordo com sua ordem: o 7 de 472 vale 70."
       ]
     },
     "ten-frame.solve-the-story.k-oa-a-2": {

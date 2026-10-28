@@ -2341,25 +2341,25 @@
     },
     "place-value.expanded-form.2-nbt-a-3": {
       "about": [
-        "Il bambino costruisce un numero di tre cifre con i blocchi in base dieci — toccando per aggiungere piastre da cento, barre da dieci e cubetti da uno — e quando la costruzione è corretta i blocchi rivelano la forma estesa, così 247 diventa 200 + 40 + 7, con numeri da raggiungere da 108 fino a 974, compresi quelli insidiosi come 305. È un'attività di matematica per la classe seconda, interattiva, che funziona nel browser senza account.",
-        "L'idea importante è che un numero è la somma di quanto vale ciascuna cifra. Costruendo 247 con due centinaia, quattro decine e sette unità, il bambino vede che il 4 significa 40 e non soltanto «quattro». I numeri con uno zero sono i veri maestri: 305 mostra che una decina vuota non aggiunge nulla, quindi la forma estesa è solo 300 + 5. I blocchi collegano le cifre al loro valore reale.",
-        "L'attività è allineata alle Indicazioni nazionali: leggere e scrivere i numeri di tre cifre in forma estesa. Nessun timer e nessun punteggio: solo pratica serena e giocosa."
+        "La macchina addizionatrice a tasti ha una colonna di tasti per ogni posto, e su ogni tasto c’è scritto quanto vale: da 100 a 900 nelle centinaia, da 10 a 90 nelle decine, da 1 a 9 nelle unità. Per formare 247 il bambino preme 200, 40 e 7 e tira la manovella; i rulli sommano i tasti e la striscia di carta stampa 200 + 40 + 7 = 247. Formare il numero è scriverne la scomposizione.",
+        "Non c’è il tasto dello zero. Un posto con lo zero è una colonna in cui non si preme niente: 305 si forma con 300 e 5, e la striscia stampa 300 + 5. Un tasto premuto nel posto vuoto dà un altro numero (355 invece di 305), e premere 30 nelle decine invece di 300 dà 35, non 305. Negli altri compiti il bambino preme i tasti che valgono dei blocchi già dati, scopre quanto vale una cifra evidenziata (il 7 di 472 vale 70) o sceglie, fra tre gruppi di barrette e cubetti, quello che mostra un numero di due cifre. Dopo un secondo errore il cartellino si apre nei suoi posti con i blocchi di ogni cifra, i blocchi vengono numerati oppure si illumina la colonna di tasti giusta.",
+        "L’attività segue le Indicazioni nazionali per la classe terza, nel nucleo Numeri: scomporre i numeri entro il 1000 in centinaia, decine e unità e scriverli come somma; l’impostazione decine e unità va bene per la classe seconda. Funziona senza audio, senza cronometro e senza punteggi."
       ],
       "practices": [
-        "Costruire un numero di tre cifre con centinaia, decine e unità.",
-        "Leggere il numero in forma estesa, come 247 = 200 + 40 + 7.",
-        "Vedere che il valore di ogni cifra dipende dalla sua posizione.",
-        "Gestire i numeri con una posizione a zero, come 305 = 300 + 5."
+        "Scomporre numeri di tre cifre, come 247 = 200 + 40 + 7",
+        "Lasciare fuori un posto con lo zero: 305 = 300 + 5",
+        "Leggere i blocchi come i valori dei loro posti",
+        "Dire quanto vale una cifra secondo il suo posto, come il 7 di 472"
       ],
       "howToPlay": [
-        "Il bambino tocca per aggiungere piastre da cento, barre da dieci e cubetti da uno finché costruisce il numero richiesto.",
-        "Quando la costruzione è corretta, i blocchi rivelano la forma estesa, come 200 + 40 + 7.",
-        "Si passa al numero successivo: non c'è timer né punteggio."
+        "Formare il numero: premi un tasto in ogni posto che serve al numero, poi tira la manovella o tocca Controlla, e leggi la striscia.",
+        "Leggere i blocchi e quanto vale: premi i tasti che valgono i blocchi o la cifra evidenziata. In quale gruppo?, tocca il gruppo che mostra il cartellino e la macchina preme da sola i suoi tasti.",
+        "Nelle impostazioni scegli decine e unità oppure centinaia, decine e unità, e il compito."
       ],
       "learningGoals": [
-        "Leggere e scrivere i numeri di tre cifre in forma estesa.",
-        "Capire che un numero è la somma dei suoi valori posizionali.",
-        "Costruire il senso del valore posizionale che sostiene l'addizione e il confronto tra numeri."
+        "Scrivere un numero di tre cifre come somma di centinaia, decine e unità.",
+        "Sapere che un posto con lo zero non aggiunge niente e resta fuori dalla scomposizione.",
+        "Sapere che una cifra vale secondo il suo posto: il 7 di 472 vale 70."
       ]
     },
     "ten-frame.solve-the-story.k-oa-a-2": {

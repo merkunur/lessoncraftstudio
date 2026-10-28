@@ -3397,25 +3397,25 @@
     },
     "place-value.expanded-form.2-nbt-a-3": {
       "about": [
-        "El niño o la niña construye un número de tres dígitos con bloques de base diez —tocando para añadir placas de cien, barras de diez y cubos de uno— y, cuando la construcción es correcta, los bloques muestran la forma desarrollada, de modo que 247 se convierte en 200 + 40 + 7, con números desde 108 hasta 974, incluyendo casos engañosos como 305. Es una actividad de matemáticas para 2.º de primaria, interactiva, que funciona directo en el navegador, sin crear cuenta.",
-        "La idea central es que un número es la suma de lo que vale cada dígito. Al armar 247 con dos cienes, cuatro dieces y siete unos, el niño o la niña ve que el 4 significa 40 y no solo 'cuatro'. Los números con cero son los grandes maestros: 305 muestra que una decena vacía no agrega nada, así que la forma desarrollada es solo 300 + 5. Los bloques conectan cada dígito con su valor real.",
-        "Está pensada para el nivel de 2.º de primaria, en el eje de número y valor posicional de los planes y programas de estudio (SEP): leer y escribir números de tres dígitos en forma desarrollada. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+        "La máquina sumadora de teclas tiene una columna de teclas para cada lugar, y cada tecla dice cuánto vale: de 100 a 900 en las centenas, de 10 a 90 en las decenas y de 1 a 9 en las unidades. Para formar 247, el niño oprime 200, 40 y 7 y jala la manivela; los tambores suman las teclas y la tira de papel imprime 200 + 40 + 7 = 247. Formar el número es escribir su forma desarrollada.",
+        "No hay tecla del cero. Un lugar con cero es una columna en la que no se oprime nada: 305 se forma con 300 y 5, y la tira imprime 300 + 5. Una tecla oprimida en el lugar vacío da otro número (355 en vez de 305), y oprimir 30 en las decenas en lugar de 300 da 35, no 305. En las otras tareas el niño oprime las teclas que valen unos bloques dados, averigua cuánto vale una cifra resaltada (el 7 de 472 vale 70) o elige, entre tres grupos de barras y cubos, el que muestra un número de dos cifras. Después de un segundo error, la etiqueta se abre en sus lugares con los bloques de cada cifra, los bloques se numeran o se ilumina la columna de teclas correcta.",
+        "La actividad sigue los planes y programas de la SEP para segundo grado: descomponer números hasta 1000 en centenas, decenas y unidades y escribirlos como suma; la opción decenas y unidades sirve para primer grado. Funciona sin sonido, sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Construir un número de tres dígitos con centenas, decenas y unidades.",
-        "Leer el número en forma desarrollada, como 247 = 200 + 40 + 7.",
-        "Ver que el valor de cada dígito depende de su lugar.",
-        "Manejar números con un cero, como 305 = 300 + 5."
+        "Escribir números de tres cifras en forma desarrollada, como 247 = 200 + 40 + 7",
+        "Dejar fuera un lugar con cero: 305 = 300 + 5",
+        "Leer bloques como los valores de sus lugares",
+        "Decir cuánto vale una cifra según su lugar, como el 7 de 472"
       ],
       "howToPlay": [
-        "Toca para añadir placas de cien, barras de diez y cubos de uno hasta construir el número indicado.",
-        "Cuando la construcción es correcta, los bloques muestran la forma desarrollada, como 200 + 40 + 7.",
-        "Pasa al siguiente número: no hay temporizador ni puntuación."
+        "Formar el número: oprime una tecla en cada lugar que necesita el número, luego jala la manivela o toca Revisar, y lee la tira.",
+        "Leer los bloques y cuánto vale: oprime las teclas que valen los bloques o la cifra resaltada. En ¿qué grupo?, toca el grupo que muestra la etiqueta y la máquina oprime sus teclas sola.",
+        "En la configuración eliges decenas y unidades o centenas, decenas y unidades, y la tarea."
       ],
       "learningGoals": [
-        "Leer y escribir números de tres dígitos en forma desarrollada.",
-        "Entender que un número es la suma de sus valores posicionales.",
-        "Construir el sentido del valor posicional que apoya sumar y comparar números."
+        "Escribir un número de tres cifras como la suma de sus centenas, decenas y unidades.",
+        "Saber que un lugar con cero no suma nada y no aparece en la forma desarrollada.",
+        "Saber que una cifra vale según su lugar: el 7 de 472 vale 70."
       ]
     },
     "ten-frame.solve-the-story.k-oa-a-2": {

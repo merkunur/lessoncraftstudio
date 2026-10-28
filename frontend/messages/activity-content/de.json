@@ -3843,25 +3843,25 @@
     },
     "place-value.expanded-form.2-nbt-a-3": {
       "about": [
-        "Kinder bauen eine dreistellige Zahl aus Zehnersystem-Blöcken — sie tippen Hunderterplatten, Zehnerstäbe und Einerwürfel hinzu — und wenn der Aufbau stimmt, zeigen die Blöcke die erweiterte Form: aus 247 wird 200 + 40 + 7. Die Zielzahlen reichen von 108 bis 974 und enthalten auch knifflige Zahlen wie 305. Die interaktive Mathe-Übung für die 2. Klasse läuft direkt im Browser, ohne Konto.",
-        "Der Kern dieser Übung ist, dass eine Zahl die Summe der Werte ihrer einzelnen Ziffern ist. Wenn das Kind 247 aus zwei Hundertern, vier Zehnern und sieben Einern baut, sieht es, dass die 4 für 40 steht und nicht nur für „vier“. Zahlen mit einer Null sind dabei die wichtigsten Lehrmeister: 305 zeigt, dass eine leere Zehnerstelle nichts hinzufügt, sodass die erweiterte Form nur 300 + 5 lautet. Die Blöcke verbinden die Ziffern mit ihrem echten Wert.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Stellenwert für die 2. Klasse ausgerichtet — dreistellige Zahlen in erweiterter Form lesen und schreiben. Es gibt keinen Timer und keine Punktewertung, nur ruhiges, spielerisches Üben."
+        "Die Stellenwert-Rechenmaschine hat für jede Stelle eine Spalte mit Tasten, und auf jeder Taste steht, wie viel sie wert ist: 100 bis 900 bei den Hundertern, 10 bis 90 bei den Zehnern, 1 bis 9 bei den Einern. Für 247 drückt das Kind 200, 40 und 7 und zieht an der Kurbel. Die Zählwerke rechnen die Tasten zusammen, und der Papierstreifen druckt 200 + 40 + 7 = 247. Wer die Zahl bildet, schreibt ihre Zerlegung in Stellenwerte.",
+        "Eine Null-Taste gibt es nicht. Eine Stelle mit Null ist eine Spalte, in der keine Taste gedrückt ist: 305 entsteht aus 300 und 5, und der Streifen druckt 300 + 5. Eine Taste in der leeren Stelle ergibt eine andere Zahl (355 statt 305), und wer bei den Zehnern 30 statt 300 drückt, bekommt 35 und nicht 305. In den anderen Aufgaben drückt das Kind die Tasten, die vorgegebene Blöcke wert sind, findet heraus, was eine leuchtende Ziffer wert ist (die 7 in 472 ist 70 wert), oder sucht aus drei Gruppen aus Zehnerstangen und Einerwürfeln die, die eine zweistellige Zahl zeigt. Nach einem zweiten Fehlversuch öffnet sich das Kärtchen in seine Stellen mit den Blöcken jeder Ziffer, die Blöcke werden nummeriert, oder die richtige Tastenspalte leuchtet.",
+        "Die Aktivität ist an den Lehrplänen für die 3. Klasse im Bereich Zahlen und Operationen ausgerichtet: Zahlen bis 1000 in Hunderter, Zehner und Einer zerlegen und als Summe schreiben; die Einstellung Zehner und Einer passt zur 2. Klasse. Sie funktioniert ohne Ton, und es gibt keinen Timer und keine Punkte."
       ],
       "practices": [
-        "Eine dreistellige Zahl aus Hundertern, Zehnern und Einern bauen.",
-        "Die Zahl in erweiterter Form lesen, etwa 247 = 200 + 40 + 7.",
-        "Sehen, dass der Wert jeder Ziffer von ihrer Stelle abhängt.",
-        "Zahlen mit einer Null an einer Stelle bewältigen, etwa 305 = 300 + 5."
+        "Dreistellige Zahlen in Stellenwerte zerlegen, etwa 247 = 200 + 40 + 7",
+        "Eine Stelle mit Null weglassen: 305 = 300 + 5",
+        "Zehnersystem-Blöcke als Werte ihrer Stellen ablesen",
+        "Sagen, was eine Ziffer an ihrer Stelle wert ist, etwa die 7 in 472"
       ],
       "howToPlay": [
-        "Tippe, um Hunderterplatten, Zehnerstäbe und Einerwürfel hinzuzufügen, bis du die Zielzahl gebaut hast.",
-        "Wenn der Aufbau stimmt, zeigen die Blöcke die erweiterte Form, etwa 200 + 40 + 7.",
-        "Geh weiter zur nächsten Zahl — es gibt keinen Timer und keine Punkte."
+        "Zahl bilden: Drück an jeder Stelle, die die Zahl braucht, eine Taste, zieh dann an der Kurbel oder tippe auf Prüfen und lies den Streifen.",
+        "Blöcke ablesen und Ziffernwert: Drück die Tasten, die die Blöcke oder die leuchtende Ziffer wert sind. Bei welche Gruppe? tippst du die Gruppe an, die das Kärtchen zeigt, und die Maschine drückt ihre Tasten selbst.",
+        "In den Einstellungen wählst du Zehner und Einer oder Hunderter, Zehner und Einer sowie die Aufgabe."
       ],
       "learningGoals": [
-        "Dreistellige Zahlen in erweiterter Form lesen und schreiben.",
-        "Verstehen, dass eine Zahl die Summe ihrer Stellenwerte ist.",
-        "Das Stellenwertverständnis aufbauen, das das Addieren und Vergleichen von Zahlen stützt."
+        "Eine dreistellige Zahl als Summe ihrer Hunderter, Zehner und Einer schreiben.",
+        "Wissen, dass eine Stelle mit Null nichts dazugibt und in der Zerlegung wegfällt.",
+        "Wissen, dass eine Ziffer so viel wert ist, wie ihre Stelle angibt: Die 7 in 472 ist 70 wert."
       ]
     },
     "ten-frame.solve-the-story.k-oa-a-2": {

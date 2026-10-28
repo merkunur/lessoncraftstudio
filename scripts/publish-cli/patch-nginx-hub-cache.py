@@ -53,6 +53,29 @@ DRY = "--dry-run" in sys.argv
 
 MAIN_LOC_RE = re.compile(r"^\s*location\s+/\s*\{")
 
+# FACET CAP (2026-10-28). Measured that morning: the filter/sort/pagination
+# combinations of the /worksheets and /topic hubs (?set=&sort=&type=&page=…) were
+# ~37% of ALL requests (376k of 1.01M the day before), from ~17,000 distinct IPs
+# for 20,000 requests — so the per-IP lcsperip zone never fires. Each combination
+# is a new URL, nothing caches it, and a render took up to 75 s; 82% already ended
+# in a 504 while Next kept rendering them, which froze the server (the #143 deploy
+# hung for an hour on a smoke curl). The cap is a GLOBAL key: every query-bearing
+# page load shares 2 r/s (burst 20), the rest get a cheap 429. Excluded: requests
+# with no query string, and `_rsc=` fetches — a child/teacher clicking a filter on
+# the hub navigates client-side through `_rsc=`, so real use is not capped.
+ZONE_MARKER = "# Facet cap: zone (2026-10-28)"
+ZONE_END = "# Facet cap: end"
+ZONE_ANCHOR_RE = re.compile(r"^\s*limit_req_status\s+429;")
+FACET_ZONE = """{marker}
+map $args $lcs_facet_key {{
+    default        "facet";
+    ""             "";
+    "~(^|&)_rsc="  "";
+}}
+limit_req_zone $lcs_facet_key zone=lcsfacet:1m rate=2r/s;
+{end}
+""".format(marker=ZONE_MARKER, end=ZONE_END)
+
 # NOTE the quoted pattern: nginx's config parser treats a bare {2} as a block
 # delimiter and truncates the regex (learned the hard way on the admin-noindex
 # patch — `nginx -t` fails with "missing ) in ...").
@@ -68,6 +91,9 @@ BLOCK = """    {marker}
     # session/cookie server-side.
     location ~ "^/[a-z]{{2}}(?:/(?:topic|activities|tools|standards|worksheet-makers)(?:/.*)?|/worksheets)?$" {{
         limit_req zone=lcsperip burst=40 nodelay;
+        # Facet cap (2026-10-28): one SHARED budget for full page loads of a
+        # filtered/paginated hub URL (?type=&set=&page=…). See FACET_ZONE below.
+        limit_req zone=lcsfacet burst=20 nodelay;
         proxy_pass http://nextjs;
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade;
@@ -122,6 +148,21 @@ def main():
         removed = end - start + 1
         lines = lines[:start] + lines[end + 1:]
         print("removed the previous hub-cache block (%d lines) — reinstalling current version." % removed)
+
+    # The facet-cap zone lives at http level (before the server block). Same
+    # self-updating rule: drop any installed copy, then re-insert after the
+    # bot-limits `limit_req_status 429;` line.
+    if any(ZONE_MARKER in ln for ln in lines):
+        zs = next(i for i, ln in enumerate(lines) if ZONE_MARKER in ln)
+        ze = next(i for i, ln in enumerate(lines) if ZONE_END in ln and i >= zs)
+        lines = lines[:zs] + lines[ze + 1:]
+        print("removed the previous facet-cap zone — reinstalling current version.")
+    za = next((i for i, ln in enumerate(lines) if ZONE_ANCHOR_RE.match(ln)), None)
+    if za is None:
+        print("FATAL: could not locate `limit_req_status 429;` (patch-nginx-bot-limits.py).")
+        print("       Aborting WITHOUT changes (config untouched).")
+        sys.exit(3)
+    lines = lines[:za + 1] + [FACET_ZONE] + lines[za + 1:]
 
     insert_at = None
     for i, ln in enumerate(lines):

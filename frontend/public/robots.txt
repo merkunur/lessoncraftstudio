@@ -52,6 +52,18 @@ Disallow: /*/bundles
 Disallow: /gallery
 Disallow: /*/gallery
 
+# Filter / sort / pagination combinations of the hubs (2026-10-28).
+# Measured the day before: ~376k of ~1.01M requests (37%) were /worksheets?… and
+# /topic/…? combinations — every one a new uncached render, up to 75 s under load,
+# 82% ending in a 504; they froze the server. The hubs themselves, the single-type
+# hub view (?type=<key>, the sidebar entry) and every landing stay crawlable; only
+# the combinations are dropped. Longest-match: the 3rd rule (21 chars) beats the
+# Allow (19), so ?type=x&page=2 stays blocked while bare ?type=x is allowed.
+Disallow: /*/worksheets?
+Allow: /*/worksheets?type=
+Disallow: /*/worksheets?type=*&
+Disallow: /*/topic/*?
+
 # Allow image crawlers explicit access to worksheet samples
 User-agent: Googlebot-Image
 Allow: /samples/

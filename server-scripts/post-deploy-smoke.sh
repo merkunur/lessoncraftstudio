@@ -34,7 +34,7 @@ EDGE_LOCALES="en de fr"
 # Status check against the local Next.js process. Used for middleware-logic assertions.
 check_local_status() {
     local path="$1"
-    curl -s -o /dev/null -w "%{http_code}" "$BASE_URL$path" 2>/dev/null
+    curl -s --max-time 15 -o /dev/null -w "%{http_code}" "$BASE_URL$path" 2>/dev/null
 }
 
 # Status check against the public CDN edge. On a non-matching status, surfaces the
@@ -50,7 +50,7 @@ check_edge_status() {
     local path="$1"
     local expected="$2"
     local headers status
-    headers=$(curl -sI "$EDGE_URL$path" 2>/dev/null)
+    headers=$(curl -sI --max-time 15 "$EDGE_URL$path" 2>/dev/null)
     status=$(echo "$headers" | head -1 | awk '{print $2}')
     if [ "$status" = "$expected" ]; then
         return 0
@@ -70,7 +70,7 @@ check_edge_status() {
 
 # Test 1: Health endpoint
 echo "Testing health endpoints..."
-HEALTH=$(curl -s -o /dev/null -w "%{http_code}" "$BASE_URL/api/health" 2>/dev/null)
+HEALTH=$(curl -s --max-time 15 -o /dev/null -w "%{http_code}" "$BASE_URL/api/health" 2>/dev/null)
 if [ "$HEALTH" != "200" ]; then
     echo "  FAIL: /api/health returned $HEALTH"
     FAILURES=$((FAILURES + 1))
@@ -79,7 +79,7 @@ else
 fi
 
 # Test 2: Database health
-DB_HEALTH=$(curl -s -o /dev/null -w "%{http_code}" "$BASE_URL/api/health/database" 2>/dev/null)
+DB_HEALTH=$(curl -s --max-time 15 -o /dev/null -w "%{http_code}" "$BASE_URL/api/health/database" 2>/dev/null)
 if [ "$DB_HEALTH" != "200" ]; then
     echo "  FAIL: /api/health/database returned $DB_HEALTH"
     FAILURES=$((FAILURES + 1))
@@ -88,7 +88,7 @@ else
 fi
 
 # Test 3: Samples health
-SAMPLES_HEALTH=$(curl -s -o /dev/null -w "%{http_code}" "$BASE_URL/api/health/samples" 2>/dev/null)
+SAMPLES_HEALTH=$(curl -s --max-time 15 -o /dev/null -w "%{http_code}" "$BASE_URL/api/health/samples" 2>/dev/null)
 if [ "$SAMPLES_HEALTH" != "200" ]; then
     echo "  WARN: /api/health/samples returned $SAMPLES_HEALTH"
     WARNINGS=$((WARNINGS + 1))
@@ -100,7 +100,7 @@ echo ""
 
 # Test 4: Support ticket POST (the bug we just fixed - 405 means missing handler)
 echo "Testing API endpoints..."
-SUPPORT=$(curl -s -o /dev/null -w "%{http_code}" -X POST "$BASE_URL/api/support/tickets" -H "Content-Type: application/json" -d '{}' 2>/dev/null)
+SUPPORT=$(curl -s --max-time 15 -o /dev/null -w "%{http_code}" -X POST "$BASE_URL/api/support/tickets" -H "Content-Type: application/json" -d '{}' 2>/dev/null)
 if [ "$SUPPORT" = "405" ]; then
     echo "  FAIL: /api/support/tickets POST returns 405 (missing handler!)"
     FAILURES=$((FAILURES + 1))
@@ -109,7 +109,7 @@ else
 fi
 
 # Test 5: Contact form POST
-CONTACT=$(curl -s -o /dev/null -w "%{http_code}" -X POST "$BASE_URL/api/contact" -H "Content-Type: application/json" -d '{}' 2>/dev/null)
+CONTACT=$(curl -s --max-time 15 -o /dev/null -w "%{http_code}" -X POST "$BASE_URL/api/contact" -H "Content-Type: application/json" -d '{}' 2>/dev/null)
 if [ "$CONTACT" = "405" ]; then
     echo "  FAIL: /api/contact POST returns 405 (missing handler!)"
     FAILURES=$((FAILURES + 1))
@@ -118,7 +118,7 @@ else
 fi
 
 # Test 6: Homepage samples API
-HOMEPAGE_SAMPLES=$(curl -s -o /dev/null -w "%{http_code}" "$BASE_URL/api/homepage-samples/list" 2>/dev/null)
+HOMEPAGE_SAMPLES=$(curl -s --max-time 15 -o /dev/null -w "%{http_code}" "$BASE_URL/api/homepage-samples/list" 2>/dev/null)
 if [ "$HOMEPAGE_SAMPLES" != "200" ]; then
     echo "  WARN: /api/homepage-samples/list returned $HOMEPAGE_SAMPLES"
     WARNINGS=$((WARNINGS + 1))
@@ -132,7 +132,7 @@ echo ""
 echo "Testing homepage for all languages..."
 LANG_FAILURES=0
 for LANG in en de fr es it pt nl sv da no fi; do
-    STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$BASE_URL/$LANG" 2>/dev/null)
+    STATUS=$(curl -s --max-time 15 -o /dev/null -w "%{http_code}" "$BASE_URL/$LANG" 2>/dev/null)
     if [ "$STATUS" != "200" ]; then
         echo "  FAIL: /$LANG homepage returned $STATUS"
         LANG_FAILURES=$((LANG_FAILURES + 1))
@@ -298,7 +298,7 @@ echo ""
 
 # Test 9: Hero images accessible via nginx
 echo "Testing static assets via nginx..."
-HERO=$(curl -s -o /dev/null -w "%{http_code}" "https://localhost/samples/english/homepage/hero-portrait_preview.webp" 2>/dev/null || echo "000")
+HERO=$(curl -s --max-time 15 -o /dev/null -w "%{http_code}" "https://localhost/samples/english/homepage/hero-portrait_preview.webp" 2>/dev/null || echo "000")
 if [ "$HERO" = "200" ]; then
     echo "  PASS: Hero images accessible via nginx"
 elif [ "$HERO" = "000" ]; then
@@ -310,7 +310,7 @@ else
 fi
 
 # Test 10: Sample thumbnails accessible
-SAMPLE=$(curl -s -o /dev/null -w "%{http_code}" "https://localhost/samples/english/homepage/addition-thumbnail_thumb.webp" 2>/dev/null || echo "000")
+SAMPLE=$(curl -s --max-time 15 -o /dev/null -w "%{http_code}" "https://localhost/samples/english/homepage/addition-thumbnail_thumb.webp" 2>/dev/null || echo "000")
 if [ "$SAMPLE" = "200" ]; then
     echo "  PASS: Sample thumbnails accessible via nginx"
 elif [ "$SAMPLE" = "000" ]; then
@@ -331,7 +331,7 @@ echo ""
 # Test 11: Catalog deck route serves via nginx (positive smoke for the K-3 pivot surface).
 # Hit nginx (port 443) directly because deck assets live at /var/www/lcs-media/decks/ — see CLAUDE.md §15.7.
 # Use --resolve to bypass the cert SAN, then -k to ignore the local cert mismatch.
-DECK_STATUS=$(curl -s -o /dev/null -w "%{http_code}" -k "https://localhost/en/decks/addition-image-image/" -H "Host: www.lessoncraftstudio.com" 2>/dev/null)
+DECK_STATUS=$(curl -s --max-time 15 -o /dev/null -w "%{http_code}" -k "https://localhost/en/decks/addition-image-image/" -H "Host: www.lessoncraftstudio.com" 2>/dev/null)
 if [ "$DECK_STATUS" != "200" ]; then
     echo "  FAIL: /en/decks/addition-image-image/ returned $DECK_STATUS (expected 200 — catalog deck route)"
     FAILURES=$((FAILURES + 1))

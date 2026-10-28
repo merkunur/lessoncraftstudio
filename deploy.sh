@@ -563,7 +563,7 @@ echo ""
 echo "⏳ Waiting for server to become ready..."
 SERVER_UP=false
 for i in $(seq 1 30); do
-    if curl -sf http://localhost:3000 > /dev/null 2>&1; then
+    if curl -sf --max-time 15 http://localhost:3000 > /dev/null 2>&1; then
         echo "   ✅ Server up after ${i}s"
         SERVER_UP=true
         break
@@ -679,7 +679,7 @@ fi
 # Quick HTTP test for sample accessibility (via nginx)
 echo ""
 echo "🌐 Testing sample HTTP access via nginx..."
-SAMPLE_TEST=$(curl -s -o /dev/null -w "%{http_code}" "https://localhost/samples/english/addition/sample-1.jpeg" 2>/dev/null || echo "000")
+SAMPLE_TEST=$(curl -s --max-time 15 -o /dev/null -w "%{http_code}" "https://localhost/samples/english/addition/sample-1.jpeg" 2>/dev/null || echo "000")
 if [ "$SAMPLE_TEST" = "200" ]; then
     echo "✅ Samples accessible via nginx"
 else
@@ -708,7 +708,7 @@ fi
 echo ""
 echo "🗺️  Revalidating sitemap..."
 sleep 3  # Wait for PM2 to fully start
-SITEMAP_RESULT=$(curl -s -X POST http://localhost:3000/api/revalidate-sitemap 2>/dev/null || echo '{"status":"error"}')
+SITEMAP_RESULT=$(curl -s --max-time 120 -X POST http://localhost:3000/api/revalidate-sitemap 2>/dev/null || echo '{"status":"error"}')
 echo "   Sitemap revalidation: $SITEMAP_RESULT"
 
 # ============================================
@@ -762,11 +762,11 @@ echo ""
 echo "🧪 Verifying referenced static chunks resolve..."
 CHUNK_FAIL=0; CHUNK_TOTAL=0
 for route in /en/auth/signin /en; do
-  HTML="$(curl -sf "http://localhost:3000${route}" 2>/dev/null || true)"
+  HTML="$(curl -sf --max-time 15 "http://localhost:3000${route}" 2>/dev/null || true)"
   [ -z "$HTML" ] && { echo "   ⚠️  could not fetch ${route} (skipping)"; continue; }
   for asset in $(printf '%s' "$HTML" | grep -oE '/_next/static/[^"'"'"' ]+\.(js|css)' | sort -u); do
     CHUNK_TOTAL=$((CHUNK_TOTAL+1))
-    code="$(curl -s -o /dev/null -w '%{http_code}' "http://localhost:3000${asset}")"
+    code="$(curl -s --max-time 15 -o /dev/null -w '%{http_code}' "http://localhost:3000${asset}")"
     [ "$code" != "200" ] && { echo "   ❌ ${code} ${asset}"; CHUNK_FAIL=$((CHUNK_FAIL+1)); }
   done
 done

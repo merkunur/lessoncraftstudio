@@ -47,7 +47,25 @@ import { HubSidebar, HubMobileFilters, type HubFiltersVM, type RailLinkVM, type 
 import LevelSetView from '@/components/worksheets/hub/LevelSetView';
 import CatalogTypeIndex, { type TypeIndexItem } from '@/components/catalog/CatalogTypeIndex';
 import WorksheetCatalogCard from '@/components/worksheets/WorksheetCatalogCard';
-import { getMonolingualLandings, deckAssets } from '@/lib/seo/landing-content';
+import { getMonolingualLandings, deckAssets, getLevelSetHubs } from '@/lib/seo/landing-content';
+
+/* The sidebar's "collections" group: the Level Set hub pages (one per searched topic over noindex
+   decks, frontend/content/seo-landing-hubs). Words match the renderer's HUB_STRINGS in
+   scripts/seo-landing/render-landing-html.js (the same native-reviewed heading). */
+const HUB_RAIL_WORDS: Record<string, { heading: string; more: string }> = {
+  en: { heading: 'Worksheet collections', more: 'More collections' },
+  de: { heading: 'Arbeitsblatt-Sammlungen', more: 'Weitere Sammlungen' },
+  fr: { heading: 'Collections de fiches', more: 'Autres collections' },
+  es: { heading: 'Colecciones de hojas de trabajo', more: 'Más colecciones' },
+  pt: { heading: 'Coleções de atividades', more: 'Mais coleções' },
+  it: { heading: 'Raccolte di schede', more: 'Altre raccolte' },
+  nl: { heading: 'Werkbladverzamelingen', more: 'Meer verzamelingen' },
+  sv: { heading: 'Samlingar av arbetsblad', more: 'Fler samlingar' },
+  da: { heading: 'Samlinger af opgaver', more: 'Flere samlinger' },
+  no: { heading: 'Samlinger av arbeidsark', more: 'Flere samlinger' },
+  fi: { heading: 'Tehtäväkokoelmat', more: 'Lisää kokoelmia' },
+};
+const HUB_RAIL_HEAD = 8;
 import { collapsedSheetSlugs, expandHubRows, levelSetRows, rowIsPrintOnly, variationCode, type HubRow, type DeckFacts } from '@/lib/worksheets-sheets';
 import { isPrintOnlyType } from '@/config/interactive-exercise-types';
 import { INTERACTIVE_LEVEL_SET_TYPES, LEVEL_SET_PRINT_ONLY_VARIATIONS } from '@/config/interactive-level-set-types';
@@ -506,6 +524,15 @@ export default async function AllWorksheetsPage({
             items: themeHead.map(themeItem),
             more: themeTail.length > 0 ? { label: tBrowse('moreThemes', { count: themeTail.length }), items: themeTail.map(themeItem) } : undefined,
           },
+      collections: (() => {
+        /* with a worksheet type chosen, only that type's collections; otherwise all of the locale's */
+        const words = HUB_RAIL_WORDS[locale] || HUB_RAIL_WORDS.en;
+        const hubs = getLevelSetHubs(locale).filter((h) => !filters.type || h.type === filters.type);
+        const item = (h: { slug: string; h1: string; decks: unknown[] }): RailLinkVM => ({ key: 'hub-' + h.slug, label: h.h1, href: `/${locale}/worksheets/${h.slug}`, count: h.decks.length, active: false });
+        if (!hubs.length || activeLadder) return undefined;
+        const head = hubs.slice(0, HUB_RAIL_HEAD).map(item), tail = hubs.slice(HUB_RAIL_HEAD).map(item);
+        return { heading: words.heading, items: head, more: tail.length ? { label: words.more + ' (' + tail.length + ')', items: tail } : undefined };
+      })(),
       activeCount: [filters.subject, filters.type, filters.set, filters.level, filters.theme].filter(Boolean).length,
       resultsLabel: '', // set once the result count is known (below)
     };

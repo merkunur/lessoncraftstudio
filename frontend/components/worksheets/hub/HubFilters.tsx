@@ -52,6 +52,8 @@ export interface HubFiltersVM {
   type: { heading: string; subjects?: RailSubjectVM[]; items?: RailTypeVM[]; more?: { label: string; items: RailTypeVM[] } };
   setsHeading: string;
   theme: { heading: string; items: RailLinkVM[]; more?: { label: string; items: RailLinkVM[] } };
+  /** Level Set hub pages (one page per searched topic), shown as their own group below Theme. */
+  collections?: { heading: string; items: RailLinkVM[]; more?: { label: string; items: RailLinkVM[] } };
   /** Number of active filters (shown on the mobile drawer bar). */
   activeCount: number;
   /** The drawer's foot link down to the results, e.g. "90 worksheets". */
@@ -222,6 +224,21 @@ function Groups({ vm }: { vm: HubFiltersVM }) {
                 {vm.theme.more.label}
               </summary>
               <ul className="space-y-px">{vm.theme.more.items.map((t) => <LinkRow key={t.key} item={t} />)}</ul>
+            </details>
+          )}
+        </Group>
+      )}
+
+      {vm.collections && vm.collections.items.length > 0 && (
+        <Group heading={vm.collections.heading}>
+          <ul className="space-y-px">{vm.collections.items.map((t) => <LinkRow key={t.key} item={t} />)}</ul>
+          {vm.collections.more && vm.collections.more.items.length > 0 && (
+            <details className="hub-disc">
+              <summary className={`${ROW} cursor-pointer list-none font-semibold text-lcs-teal/75 hover:text-lcs-teal`}>
+                <Caret />
+                {vm.collections.more.label}
+              </summary>
+              <ul className="space-y-px">{vm.collections.more.items.map((t) => <LinkRow key={t.key} item={t} />)}</ul>
             </details>
           )}
         </Group>

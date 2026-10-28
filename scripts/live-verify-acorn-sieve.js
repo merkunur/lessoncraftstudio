@@ -37,7 +37,10 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
     const page = await browser.newPage();
     await page.setViewport({ width: w, height: w > 500 ? 1000 : 844 });
     await page.goto(`https://www.lessoncraftstudio.com/${loc}/activities/${ROW.slug[loc]}`, { waitUntil: 'domcontentloaded', timeout: 90000 });
-    const frameEl = await page.waitForSelector('iframe[src*="acorn-sieve-activity.html"]', { timeout: 45000 }).catch(() => null);
+    /* the page hydrates and can rebuild the iframe: settle, then take the iframe that is there now */
+    await page.waitForSelector('iframe[src*="acorn-sieve-activity.html"]', { timeout: 45000 }).catch(() => null);
+    await page.waitForNetworkIdle({ idleTime: 800, timeout: 30000 }).catch(() => {}); await wait(1500);
+    const frameEl = await page.$('iframe[src*="acorn-sieve-activity.html"]');
     is(!!frameEl, `[${loc} @${w}] the page embeds acorn-sieve-activity.html`);
     if (!frameEl) { await page.close(); continue; }
     const src = await page.evaluate(f => f.getAttribute('src'), frameEl);

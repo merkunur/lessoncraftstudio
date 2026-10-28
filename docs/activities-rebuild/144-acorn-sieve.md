@@ -103,3 +103,13 @@ Every finding was fixed at the source:
   All fixed.
 - **The local test found a real defect:** the tip and shake animations repainted the whole stage on a timer, which could swallow a tap. Both are now one-shot animations.
 - **0 lines** in shared cores or `lcs-shell`.
+
+## Live
+- Deployed 2026-10-28 (commit c0cae094); `deploy.sh` exited 0, and the new smoke-check time limits held.
+- `node scripts/live-verify-acorn-sieve.js`: **52 pass, 0 fail**.
+  - All 11 pages return 200.
+  - en/de/sv/fi at 1366 and 390 embed `acorn-sieve-activity.html?v=9.889`.
+  - With a real pointer: tip both baskets of 23 + 14 and shake; 3 · 10 · 40 → 3 cups, 7 loose, the cups count 10 20 30, the first hint; 3 · 7 · 37 → solved with the success line.
+  - The iframe grows with the card.
+  - Screenshots are in `docs/audit-results/activities-rebuild/144-acorn-sieve/live/`.
+- The live check first lost its iframe while the page was still loading. It now waits for the network to settle and re-acquires the frame.

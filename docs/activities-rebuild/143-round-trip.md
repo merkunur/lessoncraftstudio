@@ -102,3 +102,7 @@ Every finding was fixed at the source:
 
   All fixed.
 - **0 lines** in shared cores or `lcs-shell`.
+
+## Live
+- Deployed 2026-10-28 (commit 4d36d0a1). During the deploy the Next server froze under a crawl of hub filter combinations (~37% of all traffic, ~17,000 IPs); the smoke test then hung for over an hour on a curl with no time limit. Fixed in 1a7dbd5d: a global nginx cap on query-bearing hub page loads, robots.txt rules for the combinations, and `--max-time` on every deploy/smoke curl. The cap was installed and burst-tested (29 of 30 rapid requests got 429).
+- `node scripts/live-verify-round-trip.js`: **52 pass, 0 fail**. All 11 pages return 200; en/de/sv/fi at 1366 and 390 embed `round-trip-activity.html?v=9.888`; with a real pointer, 47 sends the cart back to 55 with the gap 10, then 37 brings it home with the success line; the iframe grows with the card. Screenshots in `docs/audit-results/activities-rebuild/143-round-trip/live/`.

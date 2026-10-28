@@ -45,7 +45,13 @@ SELFTEST = "--selftest" in sys.argv
 
 MARKER = "# Browse burst (2026-10-28): start"
 ZONE_OLD = "limit_req_zone $lcs_client_ip zone=lcsperip:20m rate=8r/s;"
-ZONE_NEW = "limit_req_zone $lcs_peri_key zone=lcsperip:20m rate=8r/s;"
+# A running nginx REFUSES to change the key of an existing shared zone ("uses the
+# $lcs_peri_key key while previously it used the $lcs_client_ip key") and keeps the
+# old config — while `systemctl reload` still returns 0. A different size makes a
+# fresh zone, so the new key is accepted. ZONE_MID is the rejected 20m version.
+ZONE_MID = "limit_req_zone $lcs_peri_key zone=lcsperip:20m rate=8r/s;"
+ZONE_NEW = "limit_req_zone $lcs_peri_key zone=lcsperip:24m rate=8r/s;"
+ERRLOG = "/var/log/nginx/error.log"
 BLOCK = """# Browse burst (2026-10-28): start
 # Prefetch (`_rsc=`) and maker picture loads (`/api/images`) burst far past
 # 40 in a second from ONE real visitor; they get their own per-IP zone.
@@ -53,13 +59,15 @@ map $request_uri $lcs_burst_class {
     default 0;
     "~(^/api/images([?]|$)|[?&]_rsc=)" 1;
 }
-map "$lcs_burst_class:$lcs_client_ip" $lcs_peri_key {
-    default "";
-    "~^0:(?<lcs_pk>.+)$" $lcs_pk;
+# No regex captures: in the general location the stale-Chrome `if` runs a regex
+# map first, and a capture-built key came out wrong there (live, 2026-10-28).
+map $lcs_burst_class $lcs_peri_key {
+    default $lcs_client_ip;
+    1       "";
 }
-map "$lcs_burst_class:$lcs_client_ip" $lcs_burst_key {
+map $lcs_burst_class $lcs_burst_key {
     default "";
-    "~^1:(?<lcs_bk>.+)$" $lcs_bk;
+    1       $lcs_client_ip;
 }
 limit_req_zone $lcs_burst_key zone=lcsburst:20m rate=20r/s;
 # Browse burst: end
@@ -83,15 +91,20 @@ def selftest():
     # a fresh test IP per burst, and a pause between them, so no burst inherits another's budget.
     # The control is a quick uncached API call: slow page renders can space a burst out
     # under the limit and make the control pass for the wrong reason (it did, first run).
+    # Both prefetch cases: the hub location AND the general location (whose stale-Chrome
+    # `if` broke the first, capture-based version only there — a hub-only test missed it).
     r1 = burst("/en/topic/animals?_rsc=selftest", "203.0.113.81")
+    time.sleep(6)
+    r1b = burst("/en/pricing?_rsc=selftest", "203.0.113.84")
     time.sleep(6)
     r2 = burst("/api/images?theme=animals&locale=en", "203.0.113.82")
     time.sleep(6)
     r3 = burst("/api/themes-translated?locale=en", "203.0.113.83")
-    print("selftest  _rsc prefetch burst : %d of %d refused (want 0)" % r1)
-    print("selftest  /api/images burst   : %d of %d refused (want 0)" % r2)
-    print("selftest  plain API burst     : %d of %d refused (want > 0: the per-IP limit still works)" % r3)
-    ok = r1[0] == 0 and r2[0] == 0 and r3[0] > 0 and r1[1] == r2[1] == r3[1] == 80
+    print("selftest  _rsc prefetch, hub page     : %d of %d refused (want 0)" % r1)
+    print("selftest  _rsc prefetch, general page : %d of %d refused (want 0)" % r1b)
+    print("selftest  /api/images burst           : %d of %d refused (want 0)" % r2)
+    print("selftest  plain API burst             : %d of %d refused (want > 0: the per-IP limit still works)" % r3)
+    ok = r1[0] == 0 and r1b[0] == 0 and r2[0] == 0 and r3[0] > 0 and r1[1] == r1b[1] == r2[1] == r3[1] == 80
     print("SELFTEST " + ("PASS" if ok else "FAIL"))
     sys.exit(0 if ok else 5)
 
@@ -121,7 +134,7 @@ def main():
             changed += 1
             print("maps + lcsburst zone: replaced with the current version")
     else:
-        at = next((i for i, ln in enumerate(lines) if ln.strip() in (ZONE_OLD, ZONE_NEW)), None)
+        at = next((i for i, ln in enumerate(lines) if ln.strip() in (ZONE_OLD, ZONE_MID, ZONE_NEW)), None)
         if at is None:
             print("FATAL: could not find the lcsperip zone line. Aborting WITHOUT changes.")
             sys.exit(3)
@@ -130,11 +143,11 @@ def main():
         print("maps + lcsburst zone: inserted")
 
     # 2. lcsperip keyed on $lcs_peri_key
-    idx = next((i for i, ln in enumerate(lines) if ln.strip() == ZONE_OLD), None)
+    idx = next((i for i, ln in enumerate(lines) if ln.strip() in (ZONE_OLD, ZONE_MID)), None)
     if idx is None:
-        print("lcsperip zone key: already $lcs_peri_key")
+        print("lcsperip zone key: already $lcs_peri_key (24m)")
     else:
-        lines[idx] = lines[idx].replace(ZONE_OLD, ZONE_NEW)
+        lines[idx] = lines[idx].replace(lines[idx].strip(), ZONE_NEW)
         changed += 1
         print("lcsperip zone key: now $lcs_peri_key")
 
@@ -179,14 +192,24 @@ def main():
         print("restored original from " + backup)
         sys.exit(4)
     print("nginx -t OK")
+    # `systemctl reload` returns 0 even when the master rejects the new config while
+    # loading it; the only evidence is an [emerg] line in the error log. Read it.
+    before = os.path.getsize(ERRLOG) if os.path.exists(ERRLOG) else 0
     r2 = run(["systemctl", "reload", "nginx"])
-    if r2.returncode != 0:
-        print("reload FAILED: " + r2.stderr.strip())
+    time.sleep(3)
+    tail = ""
+    if os.path.exists(ERRLOG):
+        with open(ERRLOG, "r", errors="replace") as f:
+            f.seek(before)
+            tail = f.read()
+    emerg = [ln for ln in tail.splitlines() if "[emerg]" in ln]
+    if r2.returncode != 0 or emerg:
+        print("reload REJECTED by nginx: " + (r2.stderr.strip() or "; ".join(emerg)))
         shutil.copy2(backup, CONF)
         run(["systemctl", "reload", "nginx"])
-        print("restored original from " + backup)
-        sys.exit(4)
-    print("nginx reloaded. Run with --selftest to measure.")
+        print("restored original from " + backup + " (the running config never changed)")
+        sys.exit(6)
+    print("nginx reloaded and the master accepted the new config (no [emerg]). Run with --selftest to measure.")
 
 
 if __name__ == "__main__":

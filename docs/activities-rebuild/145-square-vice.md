@@ -112,3 +112,14 @@ Every finding was fixed at the source:
 - **Other gates:** `audit-activity-next-delay` passes; content ×11, prose claims, SERP, content tells and route preflight all pass.
 - **My own reading of the 360 / 768 / 1024 renders and the preview.** The first render showed the screw poking out of the drawing into the header; it is now a separate rod that stretches from the crossbar.
 - **0 lines** in shared cores or `lcs-shell`.
+
+## Live
+Deployed 2026-10-28 (commit `e1da43d4`; mini-tools copied before `deploy.sh`; preview scp'd). `live-verify-square-vice.js`: **60 pass, 0 fail**.
+- All 11 locale pages return 200.
+- en/de/sv/fi at 1366 and 390:
+  - wrapper 9.890;
+  - ten rods cranked shut give 2 flats and 1 rod;
+  - typing 220 marks the tens box wrong and shows the first hint;
+  - typing 210 solves the round and shows the success line;
+  - the iframe grows with the card.
+- A first run failed only its iframe lookup. An immediate probe found the iframe present, and the rerun was clean.

@@ -65,7 +65,7 @@ Every finding was fixed at the source:
   - The ones word hiding inside the tens word (pt *sete* in *setenta*, it *tre* in *trenta*, fr *cinq* in *cinquante*) made those words pour tens and ones as one chunk.
   - In digit values a found pair poured its numeral's digits (721) instead of the value it shows (700), so no digit round could ever be finished.
 - **`mutate-twin-tubes.js`:** 27/27 killed; the control passes.
-- **`local-test-twin-tubes.js`:** real pointer, 11 locales. Results are listed under "Local test" below. It covers:
+- **`local-test-twin-tubes.js`: 7,051 pass, 0 fail** (real pointer, 11 locales). It covers:
   - one card, then the diff hint with 4 and 7 beside the ringed tens;
   - out;
   - the frosted hint;
@@ -88,3 +88,12 @@ Every finding was fixed at the source:
 
   All fixed.
 - **0 lines** in shared cores or `lcs-shell`.
+
+## Live
+`live-verify-twin-tubes.js` ran on production on 2026-10-28: **52 pass, 0 fail.**
+- All 11 pages return 200.
+- en, de, sv and fi, at 1366 and at 390, embed twin-tubes-activity.html at wrapper 9.887.
+- With a real pointer, 247 against 200 + 70 + 4 gives the tens tubes ringed and "4 tens and 7 tens". Every number was then clipped by hand (numeral + word, then the pair + its expanded form), which gave the round line.
+- The iframe grows with the card.
+
+The first run fell in the Cloudflare cache window for sv and fi (the cached pages still embedded the old tool). The rerun was clean.

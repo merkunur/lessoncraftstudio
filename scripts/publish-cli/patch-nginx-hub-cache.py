@@ -100,6 +100,8 @@ BLOCK = """    {marker}
     # session/cookie server-side.
     location ~ "^/[a-z]{{2}}(?:/(?:topic|activities|tools|standards|worksheet-makers)(?:/.*)?|/worksheets)?$" {{
         limit_req zone=lcsperip burst=40 nodelay;
+        # prefetch (`_rsc=`) bursts: their own per-IP zone (patch-nginx-browse-burst.py, install that first)
+        limit_req zone=lcsburst burst=150 nodelay;
         # Facet cap (2026-10-28): one SHARED budget for full page loads of a
         # filtered/paginated hub URL (?type=&set=&page=…). See FACET_ZONE below.
         limit_req zone=lcsfacet burst=20 nodelay;

@@ -58,3 +58,6 @@ Fixed at the source:
 - `scripts/lib/activity-harness.js` holds the shared plumbing of local tests and live checks. This row's two scripts are mostly scenarios.
 - The reviewer starts as soon as the strings and prose exist, while the gates are written.
 - Visual QA runs in the background while the local test runs.
+
+## Live
+Deployed 2026-10-29 (commit `fc5eeaca`; mini-tools and the manifest copied before `deploy.sh`; preview scp'd). `live-verify-value-keys.js`: **52 pass, 0 fail** (all 11 pages 200; en, de, sv, fi × 1366 / 390: 305 with a 50 → drums 355 and the zero hint; the 50 lifted → 300 + 5 = 305). The first run read Cloudflare's cached old page; the rerun after the 5-minute window passed.

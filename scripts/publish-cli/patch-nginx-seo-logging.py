@@ -69,7 +69,8 @@ LOG_FORMAT = """# Managed by scripts/publish-cli/patch-nginx-seo-logging.py — 
 log_format lcs_seo '$http_cf_connecting_ip $remote_addr - $remote_user [$time_local] '
                    '"$request" $status $body_bytes_sent '
                    '"$http_referer" "$http_user_agent" '
-                   'cf=$http_cf_ray cc=$upstream_cache_status rt=$request_time';
+                   'cf=$http_cf_ray cc=$upstream_cache_status rt=$request_time '
+                   'sf=$http_sec_fetch_mode sd=$http_sec_fetch_dest al="$http_accept_language"';
 """
 
 SERVER_ACCESS_LOG = '    access_log /var/log/nginx/access.log lcs_seo;\n'

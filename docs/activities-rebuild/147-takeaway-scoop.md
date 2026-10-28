@@ -118,3 +118,15 @@ Every finding was fixed at the source:
 - **Other gates:** `audit-activity-next-delay` passes; content ×11, prose claims, SERP, content tells and route preflight all pass.
 - **My own reading of the 320 / 360 / 704 / 768 / 1024 renders and the preview.** The desktop scoop was too small for the hero object, so its parts were enlarged; `role="img"` on the ones shelf became a labelled group.
 - **0 lines** in shared cores or `lcs-shell`.
+
+## Live
+Deployed 2026-10-28 (commit `12d913b6`; mini-tools copied before `deploy.sh`; preview scp'd). `live-verify-takeaway-scoop.js`: **68 pass, 0 fail**.
+- All 11 locale pages return 200.
+- en/de/sv/fi at 1366 and 390:
+  - wrapper 9.892;
+  - the scoop is refused with three empty cups blinking;
+  - a ten snapped and the scoop lifts five, giving 3 · 3 · 7;
+  - typing 327 marks the tens box wrong and shows the first hint;
+  - typing 337 solves the round and shows the success line;
+  - the iframe grows with the card.
+- As on #145 and #146, the first run after the deploy failed only its iframe lookup (cold pages). curl showed `takeaway-scoop-activity.html?v=9.892` already embedded, and the rerun was clean.

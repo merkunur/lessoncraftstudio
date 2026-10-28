@@ -39,7 +39,8 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
     await page.setViewport({ width: w, height: w > 500 ? 1000 : 844 });
     await page.goto(`https://www.lessoncraftstudio.com/${loc}/activities/${ROW.slug[loc]}`, { waitUntil: 'domcontentloaded', timeout: 90000 });
     /* the page hydrates and can rebuild the iframe: settle, then take the iframe that is there now */
-    await page.waitForSelector('iframe[src*="square-vice-activity.html"]', { timeout: 45000 }).catch(() => null);
+    /* a cold page right after a deploy can miss the first wait: reload once before calling it a failure */
+    if (!(await page.waitForSelector('iframe[src*="square-vice-activity.html"]', { timeout: 45000 }).catch(() => null))) { await page.reload({ waitUntil: 'domcontentloaded', timeout: 90000 }); await page.waitForSelector('iframe[src*="square-vice-activity.html"]', { timeout: 45000 }).catch(() => null); }
     await page.waitForNetworkIdle({ idleTime: 800, timeout: 30000 }).catch(() => {}); await wait(1500);
     const frameEl = await page.$('iframe[src*="square-vice-activity.html"]');
     is(!!frameEl, `[${loc} @${w}] the page embeds square-vice-activity.html`);

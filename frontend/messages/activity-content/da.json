@@ -3647,6 +3647,29 @@
         "Forstå, at en hundreder indeholder ti tiere og hver tier ti enere.",
         "Kobl de overstregede cifre i opstillingen til rigtig veksling."
       ]
+    },
+    "place-value-regroup.subtract-decompose.2-nbt-b-7": {
+      "about": [
+        "Her er det tal, der trækkes fra, en skovl: en bakke, der er formet efter tallet – et hul for hver ener, en lang rende for hver tier og et firkantet felt for hver hundreder. Over hamsteren Tucks hylder lyser hullerne op, hvor der ligger en brik under, og skovlen løfter sig kun, når hvert hul er fyldt. Så bærer den sit tal hen til Tucks skål, og barnet skriver, hvad der er tilbage på hylderne.",
+        "Ved 342 − 5 ligger der kun to klodser på enerhylden: to huller lyser, tre forbliver mørke, og skovlen løfter sig ikke. Barnet trykker på en tier: den brækker som en chokoladeplade i ti klodser, og nu er alle fem huller fyldt. Skovlen tager fem væk, og tilbage er 337. Den, der svarer 343, har trukket det mindste ciffer fra det største – men skovlen tager altid sine egne fem, så det svar ligger aldrig på hylderne. Efter en fejl tæller hver hylde med et forkert ciffer det, der er tilbage; efter en fejl mere tæller hylderne videre fra de største brikker til den sidste klods, og opstillingen viser sine mærker: 4-tallet streget over og rettet til 3, og 12 over 2-tallet. En opvarmningsindstilling har stykker, hvor intet skal brækkes, fx 58 − 23 = 35, og indstillingen større tal har større, fx 627 − 346 = 281, hvor en hundreder skal veksles til ti tiere.",
+        "Aktiviteten følger Fælles Mål (efter 3. klasse) og passer til 3. klasse: at trække fra inden for 1000 med positionssystemet og forstå, at en tier kan veksles til ti enere og en hundreder til ti tiere. Den virker uden lyd, og der er hverken ur eller point."
+      ],
+      "practices": [
+        "At trække fra inden for 1000, når enerne ikke rækker.",
+        "At veksle en tier til ti enere, eller en hundreder til ti tiere, kun når det er nødvendigt.",
+        "At se, hvorfor man ikke bare kan trække det mindste ciffer fra det største.",
+        "At koble de overstregede cifre i opstillingen til tieren, der blev brækket."
+      ],
+      "howToPlay": [
+        "Tryk på skovlen, eller træk den hen over hylderne, for at tage dens tal væk. Forbliver nogle huller tomme, så tryk først på en tier (eller en hundreder) for at brække den.",
+        "Skriv det, der er tilbage, i de tre felter under hylderne, og tryk på Tjek.",
+        "I indstillingerne vælger du intet at brække, kun enere eller større tal, og viser eller skjuler opstillingen."
+      ],
+      "learningGoals": [
+        "Træk fra inden for 1000 med veksling.",
+        "Forstå, at en tier indeholder ti enere og en hundreder ti tiere.",
+        "Kobl de overstregede cifre i opstillingen til rigtig veksling."
+      ]
     }
   }
 }

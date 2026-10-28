@@ -2181,25 +2181,25 @@
     },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
-        "Parfois, Tuck n'a pas assez de cubes pour retirer ce qu'on lui demande : il doit alors casser une de ses barres pour récupérer dix petites unités ! Dans cette activité votre enfant soustrait des nombres inférieurs à 1000 et comprend, geste après geste, pourquoi et comment on « échange » en soustraction.",
-        "Ici, l'échange n'est plus un mystère : votre enfant voit une dizaine se transformer en dix unités avant de pouvoir enlever ce qu'il faut. Cette manipulation visuelle éclaire ce qu'on appelle souvent « l'emprunt » dans le calcul posé.",
-        "Pensée pour le CE2 et fidèle aux programmes officiels, dans le domaine « Nombres et calcul », l'activité progresse calmement, sans minuteur, sans score et sans inscription. Votre enfant apprend à son rythme, épaulé par Tuck."
+        "Ici, le nombre qu’on enlève est une pelle : un plateau fait sur mesure pour lui — un creux pour chaque unité, une longue rainure pour chaque dizaine, une case carrée pour chaque centaine. Au-dessus des étagères du hamster Tuck, ses creux s’allument là où une pièce se trouve dessous, et la pelle ne se soulève que si chaque creux est rempli. Elle emporte alors son nombre dans le bol de Tuck, et l’enfant tape ce qui reste sur les étagères.",
+        "Pour 342 − 5, l’étagère des unités n’a que deux cubes : deux creux s’allument, trois restent sombres, et la pelle ne se soulève pas. L’enfant touche une dizaine : elle se casse comme une tablette de chocolat en dix cubes, et les cinq creux sont maintenant remplis. La pelle enlève cinq, et il reste 337. Celui qui répond 343 a enlevé le plus petit chiffre du plus grand — mais la pelle enlève toujours ses propres cinq, donc cette réponse n’est jamais sur les étagères. Après une erreur, chaque étagère dont le chiffre est faux compte ce qui reste ; après une deuxième, les étagères comptent en avançant des plus grosses pièces jusqu’au dernier cube, et la soustraction posée montre ses marques : le 4 barré et remplacé par un 3, et 12 au-dessus du 2. Un réglage d’échauffement propose des soustractions sans rien à casser, comme 58 − 23 = 35, et le réglage nombres plus grands en propose de plus grandes, comme 627 − 346 = 281, où il faut casser une centaine en dix dizaines.",
+        "L’activité suit les programmes officiels du CE2 : soustraire jusqu’à 1 000 en s’appuyant sur la numération, et comprendre qu’on peut casser une dizaine en dix unités ou une centaine en dix dizaines. Elle fonctionne sans le son, sans chronomètre et sans score."
       ],
       "practices": [
-        "Soustraire deux nombres inférieurs à 1000 à l'aide du matériel de numération.",
-        "Comprendre l'échange décimal inverse : une dizaine se casse en dix unités.",
-        "Reconnaître le moment où il n'y a « pas assez d'unités » pour retirer.",
-        "Renforcer la lecture des colonnes unités, dizaines et centaines."
+        "Soustraire jusqu’à 1 000 quand il n’y a pas assez d’unités.",
+        "Casser une dizaine en dix unités, ou une centaine en dix dizaines, seulement quand c’est nécessaire.",
+        "Comprendre pourquoi on ne peut pas simplement enlever le plus petit chiffre du plus grand.",
+        "Relier les chiffres barrés de la soustraction posée à la dizaine cassée."
       ],
       "howToPlay": [
-        "Tuck propose une soustraction, par exemple 342 − 5 : votre enfant remarque qu'il n'y a que deux unités, donc pas assez pour en enlever cinq.",
-        "On appuie sur le bouton « Casser une dizaine » : une barre se transforme aussitôt en dix cubes, et la colonne des unités se remplit.",
-        "Votre enfant retire alors ce qu'il faut, tape la réponse dans la case, et Tuck valide le résultat avec un petit clin d'œil."
+        "Touche la pelle, ou fais-la glisser au-dessus des étagères, pour enlever son nombre. Si des creux restent vides, touche d’abord une dizaine (ou une centaine) pour la casser.",
+        "Tape ce qui reste dans les trois cases sous les étagères, puis appuie sur Vérifier.",
+        "Dans les réglages, choisis rien à casser, seulement des unités, ou nombres plus grands, et affiche ou masque la soustraction posée."
       ],
       "learningGoals": [
-        "Comprendre l'échange en soustraction en le vivant comme un geste concret plutôt qu'une règle abstraite.",
-        "Solidifier la numération de position jusqu'à 1000.",
-        "Aborder la soustraction posée avec sérénité et une image mentale fiable de l'emprunt."
+        "Soustraire jusqu’à 1 000 en cassant une dizaine ou une centaine.",
+        "Comprendre qu’une dizaine contient dix unités et une centaine dix dizaines.",
+        "Relier les chiffres barrés de la soustraction posée à des dizaines vraiment cassées."
       ]
     },
     "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7": {

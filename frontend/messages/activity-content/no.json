@@ -3673,6 +3673,29 @@
         "Forstå at en hundrer inneholder ti tiere og hver tier ti enere.",
         "Koble de overstrøkne sifrene i oppstillingen til ekte veksling."
       ]
+    },
+    "place-value-regroup.subtract-decompose.2-nbt-b-7": {
+      "about": [
+        "Her er tallet som skal trekkes fra, en spade: et brett som er formet etter tallet – et hull for hver ener, en lang renne for hver tier og en firkant for hver hundrer. Over hyllene til hamsteren Tuck lyser hullene opp der det ligger en brikke under, og spaden løfter seg bare når hvert hull er fullt. Da bærer den tallet sitt bort til Tucks bolle, og barnet skriver hva som er igjen på hyllene.",
+        "Ved 342 − 5 ligger det bare to klosser på enerhylla: to hull lyser, tre forblir mørke, og spaden løfter seg ikke. Barnet trykker på en tier: den brekker som en sjokoladeplate i ti klosser, og nå er alle fem hullene fulle. Spaden tar bort fem, og igjen blir 337. Den som svarer 343, har trukket det minste sifferet fra det største – men spaden tar alltid sine egne fem, så det svaret ligger aldri på hyllene. Etter en feil teller hver hylle med feil siffer det som er igjen; etter enda en feil teller hyllene videre fra de største brikkene til den siste klossen, og oppstillingen viser merkene sine: 4-tallet strøket over og endret til 3, og 12 over 2-tallet. En oppvarmingsinnstilling har stykker der ingenting må brekkes, for eksempel 58 − 23 = 35, og innstillingen større tall har større, for eksempel 627 − 346 = 281, der en hundrer må veksles til ti tiere.",
+        "Aktiviteten er knyttet til LK20 for 3. trinn: trekke fra innenfor 1000 ved hjelp av plassverdisystemet og forstå at en tier kan veksles til ti enere og en hundrer til ti tiere. Den virker uten lyd, og det er verken tidtaking eller poeng."
+      ],
+      "practices": [
+        "Å trekke fra innenfor 1000 når enerne ikke strekker til.",
+        "Å veksle en tier til ti enere, eller en hundrer til ti tiere, bare når det trengs.",
+        "Å se hvorfor man ikke bare kan trekke det minste sifferet fra det største.",
+        "Å koble de overstrøkne sifrene i oppstillingen til tieren som ble brukket."
+      ],
+      "howToPlay": [
+        "Trykk på spaden, eller dra den over hyllene, for å ta bort tallet dens. Blir noen hull stående tomme, trykk først på en tier (eller en hundrer) for å brekke den.",
+        "Skriv det som er igjen i de tre rutene under hyllene, og trykk på Sjekk.",
+        "I innstillingene velger du ingenting å brekke, bare enere eller større tall, og viser eller skjuler oppstillingen."
+      ],
+      "learningGoals": [
+        "Trekke fra innenfor 1000 med veksling.",
+        "Forstå at en tier inneholder ti enere og en hundrer ti tiere.",
+        "Koble de overstrøkne sifrene i oppstillingen til ekte veksling."
+      ]
     }
   }
 }

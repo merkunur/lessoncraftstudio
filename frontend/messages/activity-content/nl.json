@@ -2710,25 +2710,25 @@
     },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
-        "Bij deze activiteit legt Tuck de hamster een getal tot 1000 neer met MAB-blokken: platen voor de honderdtallen, staafjes voor de tientallen en blokjes voor de eenheden. Je kind moet er een klein getal van aftrekken, bijvoorbeeld 342 − 5 of 213 − 7. Al snel merkt je kind dat er te weinig blokjes liggen om weg te halen. Dan komt het slimme moment: één staafje splitsen in tien blokjes.",
-        "Door op “Splits een tiental” te tikken wisselt je kind één staafje in voor tien losse blokjes. Nu zijn er wél genoeg blokjes om weg te halen. Daarna telt je kind wat er overblijft en typt het antwoord in. Op deze manier zien kinderen precies wat er gebeurt bij inwisselen: 1 tiental is hetzelfde als 10 eenheden. Dit is de eerste betekenis van “lenen” bij het aftrekken — maar dan concreet en zichtbaar met blokken in plaats van met kale cijfers.",
-        "De activiteit sluit aan bij de SLO-kerndoelen: binnen het domein Getallen en het tientallig stelsel werken kinderen in Groep 5 aan aftrekken tot 1000 en aan het begrijpen van de plaatswaarde van cijfers. Het handelen met MAB-blokken legt de stevige basis onder het latere cijferend rekenen, zonder dat je kind nu al de formele rekenregel hoeft te kennen."
+        "Hier is het getal dat eraf gaat een schep, gemaakt op maat van dat getal: een kuiltje voor elke eenheid, een lange gleuf voor elk tiental en een vierkant vak voor elk honderdtal. Boven de planken van hamster Tuck lichten de kuiltjes op waar er een blokje onder ligt, en de schep gaat pas omhoog als elk kuiltje vol is. Dan brengt hij zijn getal naar Tucks bakje, en het kind typt wat er nog op de planken ligt.",
+        "Bij 342 − 5 liggen er op de plank van de eenheden maar twee blokjes: twee kuiltjes lichten op, drie blijven donker, en de schep gaat niet omhoog. Het kind tikt op een tiental: het breekt als een reep chocola in tien blokjes, en nu zijn alle vijf kuiltjes vol. De schep haalt er vijf af en er blijft 337 over. Wie 343 antwoordt, heeft het kleinste cijfer van het grootste afgehaald — maar de schep neemt altijd zijn eigen vijf, dus dat antwoord ligt nooit op de planken. Na een fout telt elke plank met een verkeerd cijfer wat er over is; na een tweede fout tellen de planken door van de grootste stukken tot het laatste blokje en laat de cijferende aftrekking haar tekens zien: de 4 doorgestreept en vervangen door een 3, en een 12 boven de 2. Een opwarmstand heeft sommen waarbij niets afgebroken hoeft te worden, zoals 58 − 23 = 35, en de stand grotere getallen heeft grotere, zoals 627 − 346 = 281, waarbij een honderdtal ingewisseld moet worden voor tien tientallen.",
+        "De activiteit sluit aan bij de SLO-kerndoelen en past in groep 5: aftrekken tot 1000 met de plaatswaarde en begrijpen dat je een tiental kunt inwisselen voor tien eenheden en een honderdtal voor tien tientallen. Ze werkt zonder geluid, zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Aftrekken tot 1000 met inwisselen: één staafje splitsen in tien blokjes.",
-        "Plaatswaarde herkennen: blokjes horen bij de eenheden, staafjes bij de tientallen en platen bij de honderdtallen.",
-        "Inzien dat inwisselen de waarde van het getal niet verandert — alleen de vorm van de blokken.",
-        "Een concreet fundament leggen onder het cijferend aftrekken van later."
+        "Aftrekken tot 1000 als er te weinig eenheden zijn.",
+        "Een tiental inwisselen voor tien eenheden, of een honderdtal voor tien tientallen, alleen als het nodig is.",
+        "Zien waarom je niet zomaar het kleinste cijfer van het grootste kunt afhalen.",
+        "De doorgestreepte cijfers van de cijferende aftrekking koppelen aan het afgebroken tiental."
       ],
       "howToPlay": [
-        "Bekijk het getal dat Tuck met MAB-blokken heeft neergelegd en zie hoeveel je kind moet weghalen.",
-        "Tik op “Splits een tiental” om één staafje in te wisselen voor tien blokjes, zodat er genoeg eenheden zijn.",
-        "Haal de blokjes weg, tel wat er overblijft en tik het antwoord in."
+        "Tik op de schep, of sleep hem over de planken, om zijn getal weg te halen. Blijven er kuiltjes leeg, tik dan eerst op een tiental (of een honderdtal) om het af te breken.",
+        "Typ in de drie vakjes onder de planken wat er over is en tik op Controleer.",
+        "In de instellingen kies je niets afbreken, alleen eenheden of grotere getallen, en zet je de cijferende aftrekking aan of uit."
       ],
       "learningGoals": [
-        "Je kind kan tot 1000 aftrekken door een tiental in te wisselen voor tien eenheden.",
-        "Je kind begrijpt dat 1 tiental gelijk is aan 10 eenheden.",
-        "Je kind koppelt het handelen met blokken aan het uitrekenen op papier."
+        "Aftrekken tot 1000 met inwisselen.",
+        "Begrijpen dat een tiental tien eenheden bevat en een honderdtal tien tientallen.",
+        "De doorgestreepte cijfers van de cijferende aftrekking koppelen aan echt inwisselen."
       ]
     },
     "place-value-regroup.add-compose-hundred.2-nbt-b-7": {

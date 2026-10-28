@@ -79,7 +79,7 @@
   },
   {
     "id": "place-value-regroup.subtract-decompose.2-nbt-b-7",
-    "tool": "place-value-regroup-activity",
+    "tool": "takeaway-scoop-activity",
     "task_template": "subtract-decompose",
     "alignment": {
       "framework": "CCSS",
@@ -89,48 +89,119 @@
     },
     "theme": null,
     "params": {
-      "rounds": [
-        {
-          "id": "r-342-5",
-          "a": 342,
-          "b": 5
-        },
-        {
-          "id": "r-451-8",
-          "a": 451,
-          "b": 8
-        },
-        {
-          "id": "r-213-7",
-          "a": 213,
-          "b": 7
-        },
-        {
-          "id": "r-132-5",
-          "a": 132,
-          "b": 5
-        },
-        {
-          "id": "r-415-9",
-          "a": 415,
-          "b": 9
-        },
-        {
-          "id": "r-124-6",
-          "a": 124,
-          "b": 6
-        },
-        {
-          "id": "r-351-8",
-          "a": 351,
-          "b": 8
-        },
-        {
-          "id": "r-243-5",
-          "a": 243,
-          "b": 5
-        }
-      ]
+      "take": [
+        "none",
+        "ones",
+        "tens"
+      ],
+      "written": [
+        "hidden",
+        "shown"
+      ],
+      "rounds": {
+        "none": [
+          {
+            "a": 58,
+            "b": 23
+          },
+          {
+            "a": 47,
+            "b": 15
+          },
+          {
+            "a": 86,
+            "b": 52
+          },
+          {
+            "a": 79,
+            "b": 46
+          },
+          {
+            "a": 64,
+            "b": 21
+          },
+          {
+            "a": 95,
+            "b": 54
+          },
+          {
+            "a": 38,
+            "b": 14
+          },
+          {
+            "a": 77,
+            "b": 35
+          }
+        ],
+        "ones": [
+          {
+            "a": 342,
+            "b": 5
+          },
+          {
+            "a": 451,
+            "b": 8
+          },
+          {
+            "a": 213,
+            "b": 7
+          },
+          {
+            "a": 132,
+            "b": 5
+          },
+          {
+            "a": 415,
+            "b": 9
+          },
+          {
+            "a": 124,
+            "b": 6
+          },
+          {
+            "a": 351,
+            "b": 8
+          },
+          {
+            "a": 243,
+            "b": 5
+          }
+        ],
+        "tens": [
+          {
+            "a": 52,
+            "b": 27
+          },
+          {
+            "a": 84,
+            "b": 39
+          },
+          {
+            "a": 71,
+            "b": 44
+          },
+          {
+            "a": 345,
+            "b": 128
+          },
+          {
+            "a": 462,
+            "b": 37
+          },
+          {
+            "a": 536,
+            "b": 219
+          },
+          {
+            "a": 93,
+            "b": 58
+          },
+          {
+            "a": 627,
+            "b": 346
+          }
+        ]
+      }
     },
     "slug": {
       "en": "subtract-with-regrouping-break-a-ten",
@@ -140,7 +211,10 @@
       "pt": "subtracao-com-reagrupamento-desagrupar-uma-dezena-3-ano",
       "it": "sottrazione-con-il-cambio-scomporre-una-decina-classe-terza",
       "nl": "aftrekken-met-inwisselen-tot-1000-groep-5",
-      "sv": "subtraktion-med-tiotalsovergang-inom-1000-ak-3"
+      "sv": "subtraktion-med-tiotalsovergang-inom-1000-ak-3",
+      "da": "tuck-veksler-en-tier-minus-med-veksling-3-klasse",
+      "no": "tuck-veksler-en-tier-subtraksjon-med-veksling-3-trinn",
+      "fi": "tuck-vaihtaa-kympin-vahennyslasku-vaihdolla-3-luokka"
     },
     "page_title": {
       "en": "Tuck Breaks a Ten — Subtract with Regrouping (Grade 2)",
@@ -150,7 +224,10 @@
       "pt": "Tuck desagrupa uma dezena: subtração com reagrupamento (3º ano)",
       "it": "Tuck scompone una decina: sottrazione con il cambio (classe terza)",
       "nl": "Aftrekken met inwisselen tot 1000 — Tuck splitst een tiental (Groep 5)",
-      "sv": "Subtraktion med tiotalsövergång inom 1000 – växla ett tiotal (åk 3)"
+      "sv": "Subtraktion med tiotalsövergång inom 1000 – växla ett tiotal (åk 3)",
+      "da": "Tuck veksler en tier – minus med veksling (3. klasse)",
+      "no": "Tuck veksler en tier – subtraksjon med veksling (3. trinn)",
+      "fi": "Tuck vaihtaa kympin – vähennyslasku vaihdolla (3. luokka)"
     },
     "page_intro": {
       "en": "An interactive Grade 2 math activity: subtract a one-digit number from a three-digit number when there are not enough ones. Tuck the hamster shows the base-ten blocks; tap “Break a ten” to turn one ten into ten ones, then take some away and type the answer. A clear, hands-on first look at borrowing — decomposing a ten. Common Core 2.NBT.B.7.",
@@ -160,7 +237,10 @@
       "pt": "Atividade de matemática interativa para o 3º ano: subtração com reagrupamento. Quando não há unidades suficientes para tirar, o Tuck, o hamster, desagrupa 1 dezena em 10 unidades no material dourado e então subtrai. Trabalha unidades, dezenas e centenas de forma concreta, online e sem cadastro, alinhada à BNCC na unidade temática Números.",
       "it": "Tuck il criceto accompagna i bambini di classe terza nella sottrazione con il cambio entro il 1000. Quando nel numero non ci sono abbastanza unità per togliere, Tuck mostra come scomporre una decina in 10 unità: il cambio diventa un gesto concreto con i blocchi base dieci, disposti in colonne di valore posizionale (centinaia, decine, unità). Un'attività senza registrazione, che funziona direttamente nel browser e allineata alle Indicazioni nazionali, nel nucleo Numeri.",
       "nl": "Oefen aftrekken tot 1000 met inwisselen in een interactieve activiteit — zonder download en zonder account. Je kind helpt Tuck de hamster een tiental te splitsen in tien blokjes en ontdekt zo hoe je aftrekt als er te weinig eenheden zijn. Rustig en speels rekenen met MAB-blokken, helemaal in het Nederlands.",
-      "sv": "När entalen inte räcker till växlar barnet ett tiotal till tio enhetskuber och räknar ut svaret. Subtraktion inom talområdet 0–1000, anpassad till Lgr22 för åk 3."
+      "sv": "När entalen inte räcker till växlar barnet ett tiotal till tio enhetskuber och räknar ut svaret. Subtraktion inom talområdet 0–1000, anpassad till Lgr22 för åk 3.",
+      "da": "Hamsteren Tucks skovl er formet efter det tal, der skal trækkes fra – og den løfter sig kun, når hvert hul er fyldt. Er der for få enere, må barnet først brække en tier i ti enere, før skovlen kan tage tallet væk; så skriver barnet, hvad der er tilbage, i stykker som 342 − 5. Minus med veksling inden for 1000, interaktivt til 3. klasse.",
+      "no": "Spaden til hamsteren Tuck er formet etter tallet som skal trekkes fra – og den løfter seg bare når hvert hull er fullt. Er det for få enere, må barnet først brekke en tier i ti enere før spaden kan ta tallet bort; så skriver barnet hva som er igjen, i stykker som 342 − 5. Subtraksjon med veksling innenfor 1000, interaktivt for 3. trinn.",
+      "fi": "Hamsteri Tuckin kauhassa on kolot juuri sille luvulle, joka viedään pois, ja kauha nousee vain, kun jokainen kolo on täynnä. Jos ykkösiä on liian vähän, lapsi katkaisee ensin kympin kymmeneksi ykköseksi, ja sitten kauha vie luvun pois. Lopuksi lapsi kirjoittaa, paljonko jäi, laskuissa kuten 342 − 5. Vähennyslasku vaihdolla lukualueella 0–1000, interaktiivinen tehtävä 3. luokalle."
     },
     "kid_prompt_template": "place-value-regroup"
   },

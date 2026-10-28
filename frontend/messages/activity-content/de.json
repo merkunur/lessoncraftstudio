@@ -2781,25 +2781,25 @@
     },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
-        "In dieser interaktiven Übung üben Kinder das Subtrahieren mit Entbündeln im Zahlenraum bis 1000. Wenn von einer dreistelligen Zahl einige Einer abgezogen werden sollen, aber nicht genügend Einer vorhanden sind, muss zuerst ein Zehner entbündelt werden – aus einer Zehnerstange werden zehn Einerwürfel. Genau das steckt hinter dem „Borgen“ beim schriftlichen Subtrahieren.",
-        "Die Aufgabe zeigt zum Beispiel 342 − 5. Das Kind sieht, dass zwei Einer nicht ausreichen, tippt auf „Zehner entbündeln“ und erhält zehn zusätzliche Einer. Nun können fünf Einer weggenommen und das Ergebnis eingegeben werden.",
-        "Die Übung ist ohne Anmeldung spielbar und an den Lehrplänen der Grundschule ausgerichtet. Ohne Zeitdruck und ohne Punkte begreifen die Kinder mit den Mehrsystemblöcken, warum und wie beim Subtrahieren entbündelt wird."
+        "Hier ist die Zahl, die abgezogen wird, eine Schaufel: eine Schale, die genau zu ihr passt – eine Mulde für jeden Einer, eine lange Rinne für jeden Zehner, ein quadratisches Feld für jeden Hunderter. Über den Regalen von Hamster Tuck leuchten ihre Mulden dort auf, wo darunter ein Teil liegt, und die Schaufel hebt nur ab, wenn jede Mulde voll ist. Dann trägt sie ihre Zahl zu Tucks Schüssel, und das Kind tippt ein, was auf den Regalen übrig ist.",
+        "Bei 342 − 5 liegen auf dem Einerregal nur zwei Würfel: Zwei Mulden leuchten, drei bleiben dunkel, und die Schaufel hebt nicht ab. Das Kind tippt einen Zehner an: Er bricht wie eine Tafel Schokolade in zehn Würfel, und jetzt sind alle fünf Mulden voll. Die Schaufel hebt fünf weg, und 337 bleiben übrig. Wer 343 antwortet, hat die kleinere Ziffer von der größeren abgezogen – aber die Schaufel nimmt immer ihre eigenen fünf, darum liegt diese Antwort nie auf den Regalen. Nach einem Fehler zählt jedes Regal mit falscher Ziffer, was übrig ist; nach einem zweiten zählen die Regale von den größten Teilen bis zum letzten Würfel weiter, und die schriftliche Subtraktion zeigt ihre Zeichen: die 4 durchgestrichen und durch eine 3 ersetzt, über der 2 eine 12. In der Aufwärmstufe muss nichts abgebrochen werden, etwa bei 58 − 23 = 35, und bei größeren Zahlen gibt es Aufgaben wie 627 − 346 = 281, bei der ein Hunderter in zehn Zehner entbündelt werden muss.",
+        "Die Aktivität ist an den Lehrplänen für die 3. Klasse im Bereich Zahlen und Operationen ausgerichtet: im Zahlenraum bis 1000 mit Übergang subtrahieren und verstehen, dass man einen Zehner in zehn Einer oder einen Hunderter in zehn Zehner entbündeln kann. Sie funktioniert ohne Ton, und es gibt keinen Timer und keine Punkte."
       ],
       "practices": [
-        "Subtrahieren mit Entbündeln (Zehnerübergang) im Zahlenraum bis 1000",
-        "Entbündeln: einen Zehner in zehn Einer zerlegen",
-        "Stellenwertverständnis bei dreistelligen Zahlen festigen",
-        "Die Grundlage für das schriftliche Subtrahieren („Borgen“) legen"
+        "Im Zahlenraum bis 1000 subtrahieren, wenn die Einer nicht reichen.",
+        "Einen Zehner in zehn Einer oder einen Hunderter in zehn Zehner entbündeln – nur wenn es nötig ist.",
+        "Verstehen, warum man nicht einfach die kleinere Ziffer von der größeren abziehen kann.",
+        "Die durchgestrichenen Ziffern der schriftlichen Subtraktion dem entbündelten Zehner zuordnen."
       ],
       "howToPlay": [
-        "Schau dir die Aufgabe an und lege die größere Zahl mit den Blöcken.",
-        "Reichen die Einer nicht aus? Tippe auf „Zehner entbündeln“ – eine Zehnerstange wird zu zehn Einern.",
-        "Nimm die geforderten Einer weg und gib das Ergebnis ein."
+        "Tippe die Schaufel an oder zieh sie über die Regale, um ihre Zahl wegzuheben. Bleiben Mulden leer, tippe zuerst einen Zehner (oder Hunderter) an, um ihn abzubrechen.",
+        "Tipp in die drei Kästchen unter den Regalen ein, was übrig ist, und drück auf Prüfen.",
+        "In den Einstellungen wählst du ohne Entbündeln, nur Einer oder größere Zahlen und blendest die schriftliche Subtraktion ein oder aus."
       ],
       "learningGoals": [
-        "Verstehen, wann und warum beim Subtrahieren entbündelt werden muss",
-        "Einen Zehner sicher in zehn Einer zerlegen",
-        "Das Stellenwertverständnis im Zahlenraum bis 1000 vertiefen"
+        "Im Zahlenraum bis 1000 mit Entbündeln subtrahieren.",
+        "Verstehen, dass ein Zehner aus zehn Einern und ein Hunderter aus zehn Zehnern besteht.",
+        "Die durchgestrichenen Ziffern der schriftlichen Subtraktion mit echtem Entbündeln verbinden."
       ]
     },
     "place-value-regroup.add-compose-hundred.2-nbt-b-7": {

@@ -3646,6 +3646,29 @@
         "Ymmärrä, että sadassa on kymmenen kymppiä ja jokaisessa kympissä kymmenen ykköstä.",
         "Yhdistä allekkainlaskun yliviivatut numerot oikeaan vaihtamiseen."
       ]
+    },
+    "place-value-regroup.subtract-decompose.2-nbt-b-7": {
+      "about": [
+        "Tässä pois vietävä luku on kauha: alusta, jossa on kolot juuri tälle luvulle – kolo jokaista ykköstä, pitkä ura jokaista kymppiä ja neliö jokaista sataa kohti. Hamsteri Tuckin hyllyjen yllä kolot syttyvät siellä, missä niiden alla on pala, ja kauha nousee vain, kun jokainen kolo on täynnä. Silloin se vie lukunsa Tuckin kulhoon, ja lapsi kirjoittaa, paljonko hyllyille jäi.",
+        "Laskussa 342 − 5 ykkösten hyllyllä on vain kaksi kuutiota: kaksi koloa syttyy, kolme jää pimeäksi, eikä kauha nouse. Lapsi napauttaa kymppiä: se katkeaa kuin suklaalevy kymmeneksi kuutioksi, ja nyt kaikki viisi koloa ovat täynnä. Kauha vie pois viisi, ja jäljelle jää 337. Joka vastaa 343, on vähentänyt pienemmän numeron suuremmasta – mutta kauha vie aina omat viisi, joten sitä vastausta ei koskaan ole hyllyillä. Virheen jälkeen jokainen hylly, jonka numero on väärin, laskee, mitä siihen jäi; toisen virheen jälkeen hyllyt laskevat eteenpäin suurimmista paloista viimeiseen kuutioon asti, ja allekkainlasku näyttää merkintänsä: 4 yliviivataan ja tilalle tulee 3, ja kakkosen yläpuolelle kirjoitetaan 12. Lämmittelyasetuksessa ei tarvitse katkaista mitään, esimerkiksi 58 − 23 = 35, ja isompien lukujen asetuksessa on isompia laskuja, kuten 627 − 346 = 281, jossa sata on vaihdettava kymmeneksi kympiksi.",
+        "Tehtävä tukee OPS 2014 -tavoitteita 3. luokalla: vähennyslasku lukualueella 0–1000 kymmenjärjestelmän avulla ja sen ymmärtäminen, että kympin voi vaihtaa kymmeneksi ykköseksi ja sadan kymmeneksi kympiksi. Se toimii ilman ääntä, eikä siinä ole ajanottoa tai pisteitä."
+      ],
+      "practices": [
+        "Vähennyslasku lukualueella 0–1000, kun ykköset eivät riitä.",
+        "Kympin vaihtaminen kymmeneksi ykköseksi tai sadan kymmeneksi kympiksi vain silloin, kun sitä tarvitaan.",
+        "Sen näkeminen, miksi pienempää numeroa ei voi vain vähentää suuremmasta.",
+        "Allekkainlaskun yliviivattujen numeroiden yhdistäminen katkaistuun kymppiin."
+      ],
+      "howToPlay": [
+        "Napauta kauhaa tai vedä se hyllyjen ylle, niin se vie lukunsa pois. Jos koloja jää tyhjiksi, napauta ensin kymppiä (tai sataa), niin se katkeaa.",
+        "Kirjoita hyllyjen alla oleviin kolmeen ruutuun, paljonko jäi, ja paina Tarkista.",
+        "Asetuksista valitset ei katkaistavaa, vain ykkösiä tai isompia lukuja, ja sen, näytetäänkö allekkainlasku."
+      ],
+      "learningGoals": [
+        "Vähennä lukualueella 0–1000 vaihtaen.",
+        "Ymmärrä, että kympissä on kymmenen ykköstä ja sadassa kymmenen kymppiä.",
+        "Yhdistä allekkainlaskun yliviivatut numerot oikeaan vaihtamiseen."
+      ]
     }
   }
 }

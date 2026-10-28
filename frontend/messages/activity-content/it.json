@@ -1129,25 +1129,25 @@
     },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
-        "Tuck il criceto ha un problema: deve togliere qualche unità, ma nella colonna delle unità non ce ne sono abbastanza. Con i blocchi base dieci i bambini di classe terza scoprono la soluzione: scomporre una decina in 10 unità. Questo è il cambio, il cuore della sottrazione entro il 1000.",
-        "L'attività mostra numeri come 342 − 5 o 451 − 8, in cui le unità del minuendo non bastano per la sottrazione. Il bambino osserva le tre colonne di valore posizionale e capisce che una decina va aperta e trasformata in 10 unità prima di poter togliere.",
-        "Allineata alle Indicazioni nazionali, nel nucleo Numeri, l'attività trasforma un passaggio spesso difficile in un'esperienza visiva e concreta: si vede la decina che si scompone, le unità che aumentano e la sottrazione che finalmente si può fare."
+        "Qui il numero da togliere è una paletta: un vassoio fatto su misura per lui: un incavo per ogni unità, una scanalatura lunga per ogni decina, un riquadro per ogni centinaio. Sopra gli scaffali del criceto Tuck i suoi incavi si illuminano dove sotto c’è un pezzo, e la paletta si solleva solo se ogni incavo è pieno. Allora porta via il suo numero nella ciotola di Tuck, e il bambino scrive quello che resta sugli scaffali.",
+        "In 342 − 5 lo scaffale delle unità ha solo due cubetti: due incavi si illuminano, tre restano scuri e la paletta non si solleva. Il bambino tocca una decina: si spezza come una tavoletta di cioccolato in dieci cubetti, e ora tutti e cinque gli incavi sono pieni. La paletta toglie cinque e restano 337. Chi risponde 343 ha tolto la cifra più piccola dalla più grande, ma la paletta toglie sempre i suoi cinque, quindi quella risposta non è mai sugli scaffali. Dopo un errore ogni scaffale con la cifra sbagliata conta ciò che resta; dopo un secondo errore gli scaffali contano in avanti dai pezzi più grandi fino all’ultimo cubetto e il calcolo in colonna mostra i suoi segni: il 4 barrato e cambiato in 3, e un 12 sopra il 2. Un’impostazione di riscaldamento ha sottrazioni senza niente da spezzare, come 58 − 23 = 35, e quella con numeri più grandi ne ha di più grandi, come 627 − 346 = 281, dove bisogna cambiare un centinaio in dieci decine.",
+        "L’attività segue le Indicazioni nazionali per la classe terza, nel nucleo Numeri: sottrarre entro il 1000 usando il valore posizionale e capire che con il cambio una decina diventa dieci unità e un centinaio dieci decine. Funziona senza audio, senza cronometro e senza punteggi."
       ],
       "practices": [
-        "Riconoscere quando le unità non bastano e serve il cambio.",
-        "Scomporre una decina in 10 unità usando i blocchi base dieci.",
-        "Eseguire la sottrazione con il cambio di numeri a tre cifre entro il 1000.",
-        "Leggere e interpretare le colonne di valore posizionale: centinaia, decine, unità."
+        "Sottrarre entro il 1000 quando le unità non bastano.",
+        "Cambiare una decina in dieci unità, o un centinaio in dieci decine, solo quando serve.",
+        "Capire perché non si può semplicemente togliere la cifra più piccola dalla più grande.",
+        "Collegare le cifre barrate del calcolo in colonna alla decina spezzata."
       ],
       "howToPlay": [
-        "Guarda il numero di Tuck e conta quante unità servono per la sottrazione.",
-        "Tocca una decina per scomporla in 10 unità: ora la colonna delle unità ha abbastanza blocchi.",
-        "Togli le unità richieste e leggi il risultato della sottrazione con il cambio."
+        "Tocca la paletta, o trascinala sopra gli scaffali, per togliere il suo numero. Se restano incavi vuoti, tocca prima una decina per spezzarla (o un centinaio per spezzarlo).",
+        "Scrivi ciò che resta nelle tre caselle sotto gli scaffali e premi Controlla.",
+        "Nelle impostazioni scegli niente da spezzare, solo unità o numeri più grandi, e mostra o nascondi il calcolo in colonna."
       ],
       "learningGoals": [
-        "Comprendere il cambio come scomposizione di una decina in 10 unità.",
-        "Sottrarre numeri a tre cifre entro il 1000 quando le unità non sono sufficienti.",
-        "Collegare i blocchi base dieci al valore posizionale delle cifre."
+        "Sottrarre entro il 1000 con il cambio.",
+        "Capire che una decina contiene dieci unità e un centinaio dieci decine.",
+        "Collegare le cifre barrate del calcolo in colonna a un cambio vero."
       ]
     },
     "place-value-regroup.add-compose-hundred.2-nbt-b-7": {

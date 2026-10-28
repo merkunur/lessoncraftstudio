@@ -1793,26 +1793,25 @@
     },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
-        "Fem ska bort, och i entalsrutan finns bara två kuber. Tuck har lagt fram 342 som tre hundraplattor, fyra tiostavar och två enhetskuber, i var sin ruta för hundratal, tiotal och ental. Barnet trycker på ”Växla ett tiotal”, ser en av tiostavarna falla isär i tio lösa kuber — nu finns det tolv — och kan ta bort fem. Uppgifterna går från 342 − 5 till 243 − 5 och stannar alltid under 1000.",
-        "Den stora idén är att talet är precis lika stort före och efter växlingen. 342 är fortfarande 342 när det är tre hundratal, tre tiotal och tolv ental — bara uppdelat på ett nytt sätt, och nu går subtraktionen att göra. Hundratalen rörs aldrig i den här övningen, och det som ska bort är alltid ett ensiffrigt tal, så uppmärksamheten kan stanna vid själva växlingen.",
-        "Aktiviteten är anpassad till Lgr22 och tränar naturliga tal och deras egenskaper samt metoder för subtraktion inom talområdet 0–1000. Den här interaktiva övningen passar årskurs 3. Ingen timer, inga poäng och inget att förlora — barnet får pröva, ändra sig och räkna om i sin egen takt."
+        "Här är talet som tas bort en skopa: en bricka gjord precis efter talet – en grop för varje ental, en lång ränna för varje tiotal och en fyrkant för varje hundratal. Över hamstern Tucks hyllor lyser groparna upp där det ligger en bit under, och skopan lyfter bara när varje grop är full. Då bär den bort sitt tal till Tucks skål, och barnet skriver hur mycket som är kvar på hyllorna.",
+        "Vid 342 − 5 ligger det bara två kuber på entalshyllan: två gropar lyser, tre förblir mörka, och skopan lyfter inte. Barnet trycker på ett tiotal: det bryts som en chokladkaka i tio kuber, och nu är alla fem gropar fulla. Skopan tar bort fem och kvar blir 337. Den som svarar 343 har tagit den mindre siffran från den större – men skopan tar alltid sina egna fem, så det svaret ligger aldrig på hyllorna. Efter ett fel räknar varje hylla med fel siffra det som är kvar; efter ett andra fel räknar hyllorna vidare från de största bitarna till den sista kuben, och uppställningen visar sina markeringar: 4:an överstruken och ersatt med en 3:a, och 12 över 2:an. En uppvärmningsinställning har uppgifter där inget behöver brytas, till exempel 58 − 23 = 35, och inställningen större tal har större, till exempel 627 − 346 = 281, där ett hundratal måste växlas till tio tiotal.",
+        "Aktiviteten följer Lgr22 för åk 1–3 och passar i åk 3: subtrahera inom 1000 med hjälp av positionssystemet och förstå att ett tiotal kan växlas till tio ental och ett hundratal till tio tiotal. Den fungerar utan ljud, och det finns ingen tidtagning och inga poäng."
       ],
       "practices": [
-        "Subtrahera ett ensiffrigt tal från ett tresiffrigt tal med växling",
-        "Växla ett tiotal till tio ental när entalen inte räcker",
-        "Hålla isär hundratal, tiotal och ental i var sin ruta",
-        "Se att talet har samma värde före och efter växlingen",
-        "Räkna säkert inom talområdet 0–1000"
+        "Subtrahera inom 1000 när entalen inte räcker.",
+        "Växla ett tiotal till tio ental, eller ett hundratal till tio tiotal, bara när det behövs.",
+        "Se varför man inte bara kan ta den mindre siffran från den större.",
+        "Koppla de överstrukna siffrorna i uppställningen till tiotalet som bröts."
       ],
       "howToPlay": [
-        "Läs uppgiften, till exempel 342 − 5, och titta på klossarna i rutorna för hundratal, tiotal och ental.",
-        "Tryck på ”Växla ett tiotal” när entalen inte räcker, ta bort det som ska bort och skriv svaret på knappsatsen.",
-        "Tryck på Kontrollera för att gå vidare — utan timer och utan poäng."
+        "Tryck på skopan, eller dra den över hyllorna, för att ta bort dess tal. Förblir några gropar tomma, tryck först på ett tiotal (eller ett hundratal) för att bryta det.",
+        "Skriv det som är kvar i de tre rutorna under hyllorna och tryck på Kontrollera.",
+        "I inställningarna väljer du inget att bryta, bara ental eller större tal, och visar eller döljer uppställningen."
       ],
       "learningGoals": [
-        "Barnet kan växla ett tiotal till tio ental när entalen inte räcker",
-        "Barnet vet att talet är lika stort före och efter växlingen",
-        "Barnet kan subtrahera ett ensiffrigt tal från ett tresiffrigt tal inom 1000"
+        "Subtrahera inom 1000 med växling.",
+        "Förstå att ett tiotal innehåller tio ental och ett hundratal tio tiotal.",
+        "Koppla de överstrukna siffrorna i uppställningen till riktig växling."
       ]
     },
     "place-value-regroup.add-compose-hundred.2-nbt-b-7": {

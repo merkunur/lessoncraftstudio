@@ -2336,25 +2336,25 @@
     },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
-        "Restar 342 − 5 parece sencillo, hasta que descubres que solo hay 2 unidades y necesitas quitar 5. Aquí es donde Tuck, el hámster, aprende a «Desarmar una decena»: convierte una barra de diez en 10 cubitos sueltos para que sí alcancen las unidades.",
-        "Esta actividad trabaja la resta con reagrupación dentro del 1000, uno de los aprendizajes clave del eje «Número, álgebra y variación» de los planes y programas de estudio de la SEP para tercero de primaria.",
-        "Como los bloques de base diez se ven y se mueven en pantalla, tu hija o hijo entiende de dónde sale ese diez prestado: no es un truco de «pedir prestado», es intercambiar una decena por diez unidades reales."
+        "Aquí el número que se quita es una cuchara grande: una bandeja hecha a su medida: un hueco por cada unidad, una ranura larga por cada decena y una casilla cuadrada por cada centena. Sobre los estantes del hámster Tuck, sus huecos se iluminan donde hay una pieza debajo, y la cuchara solo se levanta si cada hueco está lleno. Entonces lleva su número al tazón de Tuck, y luego se escribe lo que queda en los estantes.",
+        "En 342 − 5 el estante de las unidades solo tiene dos cubitos: se iluminan dos huecos, tres quedan oscuros y la cuchara no se levanta. Al tocar una decena, esta se parte como una barra de chocolate en diez cubitos, y ahora los cinco huecos están llenos. La cuchara quita cinco y quedan 337. Quien responde 343 restó la cifra menor de la mayor, pero la cuchara siempre quita sus propios cinco, así que esa respuesta nunca está en los estantes. Después de un error, cada estante con una cifra equivocada cuenta lo que queda; después de un segundo error, los estantes siguen contando desde las piezas más grandes hasta el último cubito, y la resta escrita muestra sus marcas: el 4 tachado y cambiado por 3, y un 12 sobre el 2. Una opción de calentamiento tiene restas sin nada que partir, como 58 − 23 = 35, y la opción de números más grandes tiene otras más grandes, como 627 − 346 = 281, donde hay que desagrupar una centena en diez decenas.",
+        "La actividad sigue los planes y programas de la SEP para tercer grado: restar hasta 1000 usando el valor posicional y entender que una decena se puede desagrupar en diez unidades y una centena en diez decenas. Funciona sin sonido, sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Identificar cuándo hace falta reagrupar: si las unidades de arriba son menos que las de abajo, toca desarmar una decena antes de restar.",
-        "Tocar «Desarmar una decena» para cambiar 1 barra de diez por 10 cubitos y ver cómo las unidades pasan de 2 a 12.",
-        "Quitar la cantidad indicada de las unidades ya reagrupadas y contar lo que queda en cada columna: unidades, decenas y centenas.",
-        "Escribir el resultado de la resta y comprobar que coincide con los bloques que quedan en la mesa de Tuck."
+        "Restar hasta 1000 cuando no alcanzan las unidades.",
+        "Desagrupar una decena en diez unidades, o una centena en diez decenas, solo cuando hace falta.",
+        "Ver por qué no se puede restar simplemente la cifra menor de la mayor.",
+        "Relacionar las cifras tachadas de la resta escrita con la decena que se partió."
       ],
       "howToPlay": [
-        "Lee la resta que aparece arriba, por ejemplo 342 − 5, y observa los bloques de base diez de Tuck: placas de cien, barras de diez y cubitos.",
-        "Toca «Desarmar una decena» para convertir una decena en 10 unidades; verás cómo cambian los bloques y el número de cada columna.",
-        "Quita las unidades que pide el problema y escribe la respuesta; Tuck celebra cuando la resta con reagrupación queda correcta."
+        "Toca la cuchara grande, o arrástrala sobre los estantes, para quitar su número. Si quedan huecos vacíos, primero toca una decena (o una centena) para partirla.",
+        "Escribe lo que queda en las tres casillas debajo de los estantes y toca Revisar.",
+        "En la configuración, elige nada que partir, solo unidades o números más grandes, y muestra u oculta la resta escrita."
       ],
       "learningGoals": [
-        "Comprender la reagrupación en la resta: desarmar una decena para tener suficientes unidades sin cambiar el valor total del número.",
-        "Relacionar el material concreto (bloques de base diez) con el algoritmo de restar prestando, fortaleciendo el sentido numérico.",
-        "Restar con soltura un número de una cifra a uno de tres cifras dentro del 1000, tal como lo plantean los programas de la SEP para 3er grado."
+        "Restar hasta 1000 desagrupando.",
+        "Entender que una decena tiene diez unidades y una centena diez decenas.",
+        "Relacionar las cifras tachadas de la resta escrita con desagrupar de verdad."
       ]
     },
     "place-value-regroup.add-compose-hundred.2-nbt-b-7": {

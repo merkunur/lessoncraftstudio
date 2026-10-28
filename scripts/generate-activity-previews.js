@@ -107,6 +107,10 @@ function seedScript(row) {
     // 160 + 50: ten of the eleven rods stacked on the vice's bed — the square gauge exactly covered, one rod still in the tens column: the invention at work
     return `(function(){var t=window['SquareViceActivity'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(0);t._render2();t._bay('T',10);}})();`;
   }
+  if (row.tool === 'takeaway-scoop-activity') {
+    // 342 − 5: a ten snapped into ten cubes — all five of the scoop's cups lit over the ones shelf, ready to lift: the invention at work
+    return `(function(){var t=window['TakeawayScoopActivity'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(0);t._render2();t._snap('T');}})();`;
+  }
   if (row.tool === 'nested-crates-activity') {
     // 302 − 5: a crate opened into ten boxes and a box into ten cubes, the five cubes on Tuck's order slip — 2 crates, 9 boxes, 7 cubes left: the invention at work
     return `(function(){var t=window['NestedCratesActivity'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(0);t._render2();t._shelf('H',1);t._shelf('T',1);t._slip('O',5);}})();`;

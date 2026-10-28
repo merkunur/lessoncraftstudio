@@ -3388,25 +3388,25 @@
     },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
-        "Tuck the hamster shows base-ten blocks while children subtract a one-digit number from a three-digit number when there are not enough ones — problems like 342 − 5 and 213 − 7 — tapping 'Break a ten' to turn one ten-rod into ten ones, then taking some away and typing the answer. It's an interactive Grade 2 math activity that runs right in the browser with no account.",
-        "The big idea is the first meaning of borrowing: when you do not have enough ones, you trade one ten for ten ones. Instead of crossing out and writing a little 1, the child watches a ten-rod break apart into ten unit-cubes, joining the ones already there so there are now plenty to take away. The blocks make the trade real before the written subtraction algorithm is introduced.",
-        "It is aligned to Common Core 2.NBT.B.7 — subtracting within 1000 using concrete models and understanding that you sometimes decompose a ten. No timer, no score — just calm, playful practice."
+        "In this activity the number you take away is a scoop: a tray built to match it — one cup for every one, a long slot for every ten, a square slot for every hundred. Held over Tuck the hamster's shelves, its cups light up where they find a block underneath, and the scoop only lifts when every cup is full. Then it carries its number away to Tuck's bowl, and the child types what is left on the shelves.",
+        "For 342 − 5 the ones shelf holds only two cubes, so two cups light up, three stay dark, and the scoop will not lift. The child taps a ten on the tens shelf: it snaps like a chocolate bar into ten cubes, and now all five cups are full. The scoop lifts five away and 337 is left. A child who answers 343 has taken the smaller digit from the bigger one — but the scoop always takes its own five, so that answer never lies on the shelves. After a miss, each shelf with a wrong digit counts what is left; after a second miss the shelves count on from the biggest pieces to the last cube, and the written subtraction shows its marks: the 4 crossed out and replaced by 3, and 12 written over the 2. A warm-up setting has take-aways with nothing to snap, such as 58 − 23 = 35, and the bigger-numbers setting has bigger take-aways, such as 627 − 346 = 281, where a hundred must be snapped into ten tens.",
+        "It is aligned to Common Core 2.NBT.B.7: subtract within 1000 using models and place value, understanding that sometimes a ten is decomposed into ten ones or a hundred into ten tens. It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Subtract a one-digit number when there are not enough ones",
-        "Break one ten-rod into ten unit-cubes",
-        "Understand borrowing as decomposing a ten into ten ones",
-        "Type the correct answer after regrouping"
+        "Subtracting within 1000 when there are not enough ones.",
+        "Snapping a ten into ten ones, or a hundred into ten tens, only when it is needed.",
+        "Seeing why the smaller digit cannot simply be taken from the bigger one.",
+        "Matching the crossed-out digits of written subtraction to the snapped ten."
       ],
       "howToPlay": [
-        "Read the subtraction, like 342 − 5, and watch Tuck show the blocks.",
-        "Tap 'Break a ten' to turn one ten into ten ones, then take some away.",
-        "Type the answer on the keypad; try again any time, with no timer and no score."
+        "Tap the scoop, or drag it over the shelves, to lift its number away. If some cups stay empty, tap a ten (or a hundred) to snap it first.",
+        "Type what is left on the shelves in the three boxes under them, then press Check.",
+        "In the settings, choose nothing to snap, ones only, or bigger numbers, and show or hide the written subtraction."
       ],
       "learningGoals": [
-        "Subtract within 1000 with regrouping — the focus of Common Core 2.NBT.B.7",
-        "Understand that one ten decomposes into ten ones",
-        "Build the place-value meaning behind written subtraction with borrowing"
+        "Subtract within 1000 with regrouping — the focus of Common Core 2.NBT.B.7.",
+        "Understand that a ten can be broken into ten ones and a hundred into ten tens.",
+        "Connect the crossed-out digits of written subtraction to real regrouping."
       ]
     },
     "place-value.expanded-form.2-nbt-a-3": {

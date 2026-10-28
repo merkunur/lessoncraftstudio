@@ -1,0 +1,1342 @@
+{
+ "_note": "Level Set hub pages (build-level-set-hubs.js). decks are recomputed on every run; copy, slug and exclude are kept.",
+ "hubs": [
+  {
+   "slug": "schwunguebungen-ostern",
+   "type": "pre-writing",
+   "topic": "ostern",
+   "kind": "theme",
+   "phrases": [
+    "schwungübungen ostern",
+    "schwungübungen ostern kostenlos",
+    "schwungübungen ostern zum ausdrucken"
+   ],
+   "demand": 24,
+   "decks": [
+    {
+     "slug": "schwunguebungen-leicht-ostern-k236-38",
+     "title": "Schwungübungen — Ostern",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "schwunguebungen-leicht-ostern-sw-2-k236-6",
+     "title": "Schwungübungen — Ostern SW 2",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "schwunguebungen-leicht-ostern-sw-k236-5",
+     "title": "Schwungübungen — Ostern SW",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "schwunguebungen-leicht-ostern-sw-k386-4",
+     "title": "Schwungübungen: Kreise, Quadrate und Dreiecke — Ostern SW",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "schwunguebungen-ostern-k236-136",
+     "title": "Schwungübungen — Ostern",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "schwunguebungen-ostern-k385-2",
+     "title": "Schwungübungen: Striche und Kreuze — Ostern",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "schwunguebungen-ostern-sw-2-k236-105",
+     "title": "Schwungübungen — Ostern SW 2",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "schwunguebungen-ostern-sw-k236-104",
+     "title": "Schwungübungen — Ostern SW",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "schwunguebungen-schwer-ostern-k236-235",
+     "title": "Schwungübungen — Ostern",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "schwunguebungen-schwer-ostern-k248-3",
+     "title": "Schwungübungen: Wiederholung — Ostern",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "schwunguebungen-schwer-ostern-sw-2-k236-203",
+     "title": "Schwungübungen — Ostern SW 2",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "schwunguebungen-schwer-ostern-sw-k236-202",
+     "title": "Schwungübungen — Ostern SW",
+     "level": "hard",
+     "bw": true
+    }
+   ],
+   "deckTotal": 12,
+   "exclude": [],
+   "h1": "Schwungübungen zu Ostern",
+   "title": "Schwungübungen Ostern zum Ausdrucken – drei Stufen",
+   "metaDescription": "Schwungübungen mit Ostermotiven: zwölf Blätter in drei Stufen, in Farbe und schwarz-weiß, für Kindergarten, Vorschule und Klasse 1. Als PDF.",
+   "p1": "Hase, Ostereier und Küken: Auf diesen Blättern üben Kinder die ersten Linien mit Motiven aus der Osterzeit. In jeder Reihe fährt das Kind Bögen, Wellen, Zacken oder Schleifen mit dem Stift nach – je nach Stufe auf gestrichelten Spuren oder nach einer Vorlage. Genau diese Bewegungen braucht es später für die Buchstaben, und wer sie oft und locker wiederholt, schreibt später flüssiger.",
+   "p2": "Die zwölf Blätter sind in drei Stufen geordnet, und die Stufen unterscheiden sich darin, wie viel Hilfe das Blatt gibt. In der leichten Stufe ist jede Wiederholung gestrichelt vorgezeichnet und hat ihren eigenen Startpunkt. In der mittleren Stufe steht eine Vorlage am Anfang, danach folgen gestrichelte Spuren. In der schweren Stufe gibt es nach der Vorlage nur noch eine gestrichelte Spur und dann nur Startpunkte: Den Rest zieht das Kind selbst. Neben den Grundblättern gibt es Varianten mit Strichen und Kreuzen, mit Kreisen, Quadraten und Dreiecken und ein Wiederholungsblatt mit allen Formen.",
+   "p3": "Die Grundblätter gibt es in Farbe und als schwarz-weiße Fassung, die die Kinder nach dem Nachspuren ausmalen können. Im Kindergarten und in der Vorschule eignen sich die leichten Blätter als ruhige Tischaufgabe in der Osterzeit. In Klasse 1 helfen die mittleren und schweren Blätter, die Bewegungen zu sichern, bevor die Buchstaben kommen. Am besten werden die Schwünge zuerst groß in der Luft oder mit dem Finger auf dem Tisch geübt. Wer eine Stufe sicher schafft, bekommt dasselbe Motiv eine Stufe höher und merkt selbst, wie die Hilfen weniger werden."
+  },
+  {
+   "slug": "lese-mal-blaetter-weihnachten",
+   "type": "read-and-color",
+   "topic": "weihnachten",
+   "kind": "theme",
+   "phrases": [
+    "lese mal blätter weihnachten",
+    "lese mal blätter weihnachten klasse 1",
+    "lese mal blätter klasse 2 weihnachten"
+   ],
+   "demand": 24,
+   "decks": [
+    {
+     "slug": "lese-mal-blaetter-leicht-weihnachten-s-w-2-g1242-2",
+     "title": "Lesen und Malen — Weihnachten S/W 2",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "lese-mal-blaetter-leicht-weihnachten-s-w-2-g1410-3",
+     "title": "Lesen und Malen: alles durcheinander — Weihnachten S/W 2",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "lese-mal-blaetter-leicht-weihnachten-s-w-g1242",
+     "title": "Lesen und Malen — Weihnachten S/W",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "lese-mal-blaetter-weihnachten-s-w-2-g1242-48",
+     "title": "Lesen und Malen — Weihnachten S/W 2",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "lese-mal-blaetter-weihnachten-s-w-g1242-47",
+     "title": "Lesen und Malen — Weihnachten S/W",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "lese-mal-blaetter-weihnachten-s-w-g1409-2",
+     "title": "Lesen und Malen: zwei Sätze — Weihnachten S/W",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "lese-mal-blaetter-schwer-weihnachten-s-w-2-g1242-91",
+     "title": "Lesen und Malen — Weihnachten S/W 2",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "lese-mal-blaetter-schwer-weihnachten-s-w-g1242-90",
+     "title": "Lesen und Malen — Weihnachten S/W",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "lese-mal-blaetter-schwer-weihnachten-s-w-g1409-5",
+     "title": "Lesen und Malen: zwei Sätze — Weihnachten S/W",
+     "level": "hard",
+     "bw": true
+    }
+   ],
+   "deckTotal": 9,
+   "exclude": [],
+   "h1": "Lese-Mal-Blätter zu Weihnachten",
+   "title": "Lese-Mal-Blätter Weihnachten – Klasse 1 und 2",
+   "metaDescription": "Lese-Mal-Blätter für die Weihnachtszeit: Sätze lesen, zählen und richtig ausmalen. Neun schwarz-weiße Blätter in drei Stufen für Klasse 1 und 2.",
+   "p1": "Auf einem Lese-Mal-Blatt sagt ein kurzer Satz genau, was gemalt werden soll, zum Beispiel wie viele Sterne welche Farbe bekommen. Das Kind liest den Satz, zählt die passenden Bilder ab und malt sie richtig an. So wird aus dem Ausmalen eine echte Leseaufgabe: Wer nicht genau liest oder sich verzählt, malt das Falsche aus. Die Bilder zeigen Weihnachtsmotive wie Tannenbaum, Geschenke, Kerzen und Glocken.",
+   "p2": "Die Sammlung enthält neun schwarz-weiße Blätter in drei Stufen. Die Stufen verändern die Lesearbeit: In der leichten Stufe gibt es weniger Bilder und kleinere Zahlen; in der schweren Stufe kommen größere Zahlen vor, und zwischen den gesuchten Bildern stehen auch andere Dinge, die nicht angemalt werden dürfen. Dazu kommen Varianten: ein Blatt, auf dem die Sätze durcheinander stehen, und Blätter mit zwei Sätzen pro Feld, sodass das Kind zwei Angaben auseinanderhalten muss.",
+   "p3": "In Klasse 1 eignen sich die leichten Blätter, sobald die Kinder kurze Sätze selbstständig lesen. In Klasse 2 fordern die schweren Blätter genaues Lesen und Zählen zugleich. Die Blätter passen in die Adventszeit als Wochenplanaufgabe oder als stille Arbeit vor den Ferien. Ob genau gelesen wurde, sieht man sofort: Jede angemalte Gruppe muss in Anzahl und Farbe zum Satz passen. Bei unsicheren Lesern kann man den Satz zuerst gemeinsam lesen und das Kind dann allein zählen und malen lassen."
+  },
+  {
+   "slug": "bildkarten-kleidung",
+   "type": "picture-word-cards",
+   "topic": "kleidung",
+   "kind": "theme",
+   "phrases": [
+    "bildkarten kleidung kostenlos ausdrucken",
+    "bildkarten kleidung pdf",
+    "bildkarten kleidung"
+   ],
+   "demand": 21,
+   "decks": [
+    {
+     "slug": "bildkarten-leicht-kleidung-k324-33",
+     "title": "Bildkarten mit Wort — Kleidung",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "bildkarten-leicht-kleidung-sw-k324-16",
+     "title": "Bildkarten mit Wort — Kleidung SW",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "bildkarten-leicht-kleidung-sw-k348-4",
+     "title": "Der, die oder das? Wortkarten mit Artikel — Kleidung SW",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "bildkarten-kleidung-k324-131",
+     "title": "Bildkarten mit Wort — Kleidung",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "bildkarten-kleidung-sw-k324-114",
+     "title": "Bildkarten mit Wort — Kleidung SW",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "bildkarten-kleidung-sw-k349-4",
+     "title": "Einzahl und Mehrzahl: Kartenpaare — Kleidung SW",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "bildkarten-schwer-kleidung-k324-225",
+     "title": "Bildkarten mit Wort — Kleidung",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "bildkarten-schwer-kleidung-k348-5",
+     "title": "Der, die oder das? Wortkarten mit Artikel — Kleidung",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "bildkarten-schwer-kleidung-sw-k324-209",
+     "title": "Bildkarten mit Wort — Kleidung SW",
+     "level": "hard",
+     "bw": true
+    }
+   ],
+   "deckTotal": 9,
+   "exclude": [],
+   "h1": "Bildkarten Kleidung",
+   "title": "Bildkarten Kleidung zum Ausdrucken (PDF)",
+   "metaDescription": "Bildkarten zum Thema Kleidung mit Bild und Wort: Wortkarten, Artikelkarten und Karten für Einzahl und Mehrzahl, in Farbe und S/W, als PDF.",
+   "p1": "Hose, Jacke, Mütze, Schal: Kleidung ist eines der ersten Wortfelder, die Kinder im Kindergarten und in der Schule lernen. Diese Bildkarten zeigen jedes Kleidungsstück als klares Bild mit dem Wort dazu. Man druckt sie aus, schneidet sie auseinander und kann sie für Benennspiele, Zuordnungsaufgaben, Memory oder als Wortwand verwenden.",
+   "p2": "Die Sammlung umfasst neun Blätter. Die Bildkarten mit Wort gibt es in drei Stufen: In der leichten Stufe sind es vier große Karten zum Benennen, in der mittleren acht Karten, und in der schweren Stufe zwölf Lesekarten, bei denen das Wort im Vordergrund steht. Jede Stufe gibt es in Farbe und schwarz-weiß zum Ausmalen. Dazu kommen Wortkarten mit Artikel: auf der leichten Stufe steht der, die oder das dabei, auf der schweren Stufe schreiben die Kinder den Artikel selbst, und Kartenpaare für Einzahl und Mehrzahl, mit denen die Kinder zum Beispiel einen Schuh und zwei Schuhe zusammenlegen.",
+   "p3": "Im Kindergarten und in der Vorschule helfen die großen Karten beim Sprechen und Benennen, besonders bei Kindern, die Deutsch als Zweitsprache lernen. In Klasse 1 stützen die Lesekarten das erste Lesen. Die Artikel- und Mehrzahlkarten eignen sich für die Sprachförderung und für kurze Übungsrunden im Sitzkreis. Beim Thema Wetter oder Jahreszeiten lassen sich die Karten gut einsetzen: Die Kinder suchen heraus, was man bei Regen, Schnee oder Sonne anzieht, und begründen ihre Wahl."
+  },
+  {
+   "slug": "lese-mal-blaetter-ostern",
+   "type": "read-and-color",
+   "topic": "ostern",
+   "kind": "theme",
+   "phrases": [
+    "lese mal blätter ostern",
+    "lese mal blätter klasse 1 ostern"
+   ],
+   "demand": 19,
+   "decks": [
+    {
+     "slug": "lese-mal-blaetter-leicht-ostern-sw-2-g1242-4",
+     "title": "Lesen und Malen — Ostern SW 2",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "lese-mal-blaetter-leicht-ostern-sw-g1242-3",
+     "title": "Lesen und Malen — Ostern SW",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "lese-mal-blaetter-leicht-ostern-sw-g1411-4",
+     "title": "Lesen und Malen: Stopp bei der Zahl — Ostern SW",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "lese-mal-blaetter-ostern-sw-2-g1242-50",
+     "title": "Lesen und Malen — Ostern SW 2",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "lese-mal-blaetter-ostern-sw-2-g1251-3",
+     "title": "Lesen und Malen: vier Sätze — Ostern SW 2",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "lese-mal-blaetter-ostern-sw-g1242-49",
+     "title": "Lesen und Malen — Ostern SW",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "lese-mal-blaetter-schwer-ostern-sw-2-g1242-93",
+     "title": "Lesen und Malen — Ostern SW 2",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "lese-mal-blaetter-schwer-ostern-sw-2-g1252-3",
+     "title": "Lesen und Malen: sechs Sätze — Ostern SW 2",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "lese-mal-blaetter-schwer-ostern-sw-g1242-92",
+     "title": "Lesen und Malen — Ostern SW",
+     "level": "hard",
+     "bw": true
+    }
+   ],
+   "deckTotal": 9,
+   "exclude": [],
+   "h1": "Lese-Mal-Blätter zu Ostern",
+   "title": "Lese-Mal-Blätter Ostern – lesen, zählen, ausmalen",
+   "metaDescription": "Lese-Mal-Blätter für Ostern: Sätze lesen, Bilder zählen und passend ausmalen. Neun schwarz-weiße Blätter in drei Stufen für Klasse 1 und 2.",
+   "p1": "Hase, Ostereier, Korb und Küken: Auf diesen Blättern wird das Ausmalen zur Leseübung. Neben dem Osterbild stehen Sätze, die sagen, wie viele Dinge welche Farbe bekommen. Das Kind liest, zählt ab und malt richtig an. Am Ende zeigt das fertige Blatt sofort, ob jeder Satz verstanden und jede Anzahl beachtet wurde.",
+   "p2": "Die Sammlung enthält neun schwarz-weiße Blätter in drei Stufen. Die Stufen verändern die Lesearbeit: In der leichten Stufe gibt es weniger Bilder und kleine Zahlen, in der schweren Stufe größere Zahlen und dazwischen auch Bilder anderer Dinge, die nicht angemalt werden. Eine Variante heißt Stopp bei der Zahl: Es sind mehr Bilder abgebildet, als der Satz verlangt, und das Kind muss genau bei der richtigen Anzahl aufhören. Dazu kommen Blätter mit vier und mit sechs Sätzen zu einem großen Bild.",
+   "p3": "In Klasse 1 eignen sich die leichten Blätter, sobald die Kinder einfache Sätze erlesen können; in Klasse 2 trainieren die schweren Blätter das genaue, sinnentnehmende Lesen. In der Osterzeit sind die Blätter eine ruhige Aufgabe für die Freiarbeit, den Wochenplan oder die letzten Tage vor den Ferien. Besonders das Blatt Stopp bei der Zahl zeigt, ob ein Kind wirklich liest oder nur ausmalt. Für schwächere Leser kann man die Sätze zuerst gemeinsam lesen und erst dann malen lassen."
+  },
+  {
+   "slug": "bildkarten-wetter",
+   "type": "picture-word-cards",
+   "topic": "wetter",
+   "kind": "theme",
+   "phrases": [
+    "bildkarten wetter zum ausdrucken",
+    "bildkarten wetter",
+    "bildkarten wetter kindergarten"
+   ],
+   "demand": 19,
+   "decks": [
+    {
+     "slug": "bildkarten-leicht-wetter-k324-96",
+     "title": "Bildkarten mit Wort — Wetter",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "bildkarten-wetter-k324-193",
+     "title": "Bildkarten mit Wort — Wetter",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "bildkarten-schwer-wetter-k324-272",
+     "title": "Bildkarten mit Wort — Wetter",
+     "level": "hard",
+     "bw": false
+    }
+   ],
+   "deckTotal": 3,
+   "exclude": [],
+   "h1": "Bildkarten Wetter",
+   "title": "Bildkarten Wetter zum Ausdrucken für Kita und Schule",
+   "metaDescription": "Bildkarten zum Wetter mit Bild und Wort: Sonne, Regen, Wolke, Schnee und mehr, in drei Stufen für Kindergarten, Vorschule und Klasse 1. Als PDF.",
+   "p1": "Sonne, Regen, Wolke, Gewitter, Schnee und Regenbogen: Das Wetter ist im Kindergarten und in der Grundschule ein Thema, das jeden Tag neu besprochen wird. Diese Bildkarten zeigen die Wetterbegriffe als klare Bilder mit dem passenden Wort. Sie eignen sich für den Wetterkalender im Morgenkreis, für Benennspiele und als Wortkarten an der Tafel.",
+   "p2": "Die Sammlung umfasst drei Blätter, eines für jede Stufe. Auf dem leichten Blatt stehen vier große Karten, die sich gut zum Zeigen und Benennen in der Gruppe eignen. Das mittlere Blatt hat acht Karten. Das schwere Blatt hat zwölf Lesekarten, bei denen das Wort im Vordergrund steht und das Bild nur noch hilft. So lässt sich dasselbe Wetterthema vom ersten Benennen bis zum Lesen der Wörter nutzen. Die Karten werden ausgedruckt und auseinandergeschnitten; laminiert halten sie auch den täglichen Gebrauch im Morgenkreis aus.",
+   "p3": "Im Kindergarten unterstützen die großen Karten das Sprechen über das Wetter: Die Kinder schauen aus dem Fenster und suchen die passende Karte. In der Vorschule und in Klasse 1 helfen die Lesekarten beim ersten Lesen, und die Karten lassen sich mit einer Wettertabelle für die Woche verbinden. Kinder, die Deutsch als Zweitsprache lernen, bekommen so einen festen Wortschatz für ein Thema, das im Alltag ständig vorkommt. Zusammen mit den Bildkarten zu Kleidung lässt sich gut besprechen, was man bei welchem Wetter anzieht."
+  },
+  {
+   "slug": "leseverstaendnis-herbst",
+   "type": "reading-comprehension",
+   "topic": "herbst",
+   "kind": "theme",
+   "phrases": [
+    "leseverständnis herbst",
+    "leseverständnis herbst klasse 2"
+   ],
+   "demand": 19,
+   "decks": [
+    {
+     "slug": "leseverstaendnis-leicht-g2273-8",
+     "title": "Lesen und verstehen: Drachensteigen im Herbst",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "leseverstaendnis-g2273-2",
+     "title": "Lesen und verstehen: Drachensteigen im Herbst",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "leseverstaendnis-schwer-g2273-13",
+     "title": "Lesen und verstehen: Drachensteigen im Herbst",
+     "level": "hard",
+     "bw": false
+    }
+   ],
+   "deckTotal": 3,
+   "exclude": [],
+   "h1": "Leseverständnis Herbst: Drachensteigen im Herbst",
+   "title": "Leseverständnis Herbst – ein Text in drei Stufen",
+   "metaDescription": "Leseverständnis zum Herbst: die Geschichte Drachensteigen im Herbst mit Fragen in drei Stufen, für Klasse 2 und sichere Leser in Klasse 1. Als PDF.",
+   "p1": "Wenn im Herbst der Wind über die Felder weht, steigen die Drachen. Davon erzählt die Geschichte Drachensteigen im Herbst. Die Kinder lesen den Text und beantworten danach Fragen dazu. Dabei üben sie, Informationen im Text wiederzufinden, den Ablauf zu verstehen und aus dem Gelesenen eigene Schlüsse zu ziehen.",
+   "p2": "Die Geschichte bleibt in allen drei Stufen dieselbe; die Stufe verändert die Fragen. In der leichten Stufe sind die Sätze des Textes nummeriert, und die Fragen lassen sich direkt im Text beantworten, mit einem Hinweis, in welchem Satz die Antwort steht. In der mittleren Stufe fehlen diese Hilfen. In der schweren Stufe gibt es zwei Fragen, bei denen die Antwort nicht wörtlich im Text steht und die Kinder nachdenken müssen, und eine Frage, die sie in einem eigenen Satz beantworten. Weil alle dieselbe Geschichte lesen, kann die ganze Klasse gemeinsam darüber sprechen, auch wenn jedes Kind auf seiner Stufe arbeitet.",
+   "p3": "In Klasse 2 ist die mittlere Stufe ein guter Einstieg, und die schwere Stufe fordert geübte Leser. Sichere Leser in Klasse 1 kommen mit der leichten Stufe gut zurecht, weil die nummerierten Sätze beim Suchen helfen. Der Text passt in eine Herbsteinheit, zusammen mit Gesprächen über Wind, Wetter und Herbstspiele. Am Ende können die Kinder erzählen, wie sie selbst schon einmal einen Drachen steigen ließen."
+  },
+  {
+   "slug": "sachaufgaben-ostern",
+   "type": "word-problems",
+   "topic": "ostern",
+   "kind": "theme",
+   "phrases": [
+    "sachaufgaben ostern",
+    "sachaufgaben ostern klasse 2",
+    "sachaufgaben ostern klasse 3"
+   ],
+   "demand": 18,
+   "decks": [
+    {
+     "slug": "sachaufgaben-leicht-ostern-g1213",
+     "title": "Rechengeschichten mit Bildern — Ostern",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "sachaufgaben-leicht-ostern-g1239-5",
+     "title": "Rechengeschichten: Minusaufgaben — Ostern",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "sachaufgaben-leicht-ostern-g3370",
+     "title": "Sachaufgaben: Malnehmen und Teilen — Ostern",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "sachaufgaben-leicht-ostern-g3372-5",
+     "title": "Sachaufgaben zum Verteilen — Ostern",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "sachaufgaben-leicht-ostern-g3376-3",
+     "title": "Sachaufgaben: drei gemischte Aufgaben — Ostern",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "sachaufgaben-leicht-ostern-sw-g1241-4",
+     "title": "Drei kleine Rechengeschichten — Ostern SW",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "sachaufgaben-leicht-ostern-sw-g3374-4",
+     "title": "Sachaufgaben: Teilen auf zwei Wegen — Ostern SW",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "sachaufgaben-ostern-g1240-5",
+     "title": "Rechengeschichten bis 10 — Ostern",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "sachaufgaben-ostern-g3373-5",
+     "title": "Sachaufgaben: Gruppen bilden — Ostern",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "sachaufgaben-ostern-sw-g1213-4",
+     "title": "Rechengeschichten mit Bildern — Ostern SW",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "sachaufgaben-ostern-sw-g1241-2",
+     "title": "Drei kleine Rechengeschichten — Ostern SW",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "sachaufgaben-ostern-sw-g3370-4",
+     "title": "Sachaufgaben: Malnehmen und Teilen — Ostern SW",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "sachaufgaben-ostern-sw-g3374-2",
+     "title": "Sachaufgaben: Teilen auf zwei Wegen — Ostern SW",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "sachaufgaben-ostern-sw-g3375-6",
+     "title": "Sachaufgaben: Mal und Gruppen — Ostern SW",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "sachaufgaben-schwer-ostern-g1239",
+     "title": "Rechengeschichten: Minusaufgaben — Ostern",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "sachaufgaben-schwer-ostern-g1241-5",
+     "title": "Drei kleine Rechengeschichten — Ostern",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "sachaufgaben-schwer-ostern-g3372",
+     "title": "Sachaufgaben zum Verteilen — Ostern",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "sachaufgaben-schwer-ostern-g3374-5",
+     "title": "Sachaufgaben: Teilen auf zwei Wegen — Ostern",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "sachaufgaben-schwer-ostern-sw-g1213-2",
+     "title": "Rechengeschichten mit Bildern — Ostern SW",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "sachaufgaben-schwer-ostern-sw-g3370-2",
+     "title": "Sachaufgaben: Malnehmen und Teilen — Ostern SW",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "sachaufgaben-schwer-ostern-sw-g3375-4",
+     "title": "Sachaufgaben: Mal und Gruppen — Ostern SW",
+     "level": "hard",
+     "bw": true
+    }
+   ],
+   "deckTotal": 21,
+   "exclude": [],
+   "h1": "Sachaufgaben zu Ostern",
+   "title": "Sachaufgaben Ostern – Klasse 1 bis 3 zum Ausdrucken",
+   "metaDescription": "Sachaufgaben und Rechengeschichten zu Ostern: Plus, Minus, Mal und Teilen, in drei Stufen für Klasse 1 bis 3. 21 Blätter in Farbe und S/W als PDF.",
+   "p1": "Wie viele Eier hat der Hase versteckt, und wie viele sind noch im Korb? Sachaufgaben verbinden das Rechnen mit kleinen Geschichten, und zu Ostern sind die Geschichten besonders anschaulich. Die Kinder lesen die Aufgabe, entscheiden, welche Rechnung passt, und schreiben das Ergebnis auf. So lernen sie, Mathematik in Alltagssituationen zu erkennen.",
+   "p2": "Die 21 Blätter haben zwei Schwerpunkte. Die Rechengeschichten zum Plus- und Minusrechnen gibt es mit Bildern, nur mit Minusaufgaben, bis 10 und als drei kleine Geschichten auf einer Seite. In der leichten Stufe bleiben die Zahlen im Zahlenraum bis 10; in der schweren Stufe ist mal die Veränderung unbekannt (7 + ? = 12, nur der Anfang ist abgebildet), mal werden zwei Mengen verglichen. Die Sachaufgaben zum Malnehmen und Teilen umfassen Gruppen bilden, gerecht verteilen, Teilen auf zwei Wegen und gemischte Aufgaben. Hier hat die leichte Stufe kleine Zahlen mit großen Bildern, die schwere Stufe größere Zahlen und auf dem gemischten Blatt keine Bilder, damit das Bild nicht verrät, welche Rechenart gemeint ist.",
+   "p3": "In Klasse 1 passen die Rechengeschichten mit Bildern und die Aufgaben bis 10. In Klasse 2 sind die Aufgaben zum Malnehmen und Gruppenbilden ein guter Übergang zum Einmaleins, und in Klasse 3 fordern die gemischten Aufgaben genaues Lesen und Überlegen. Hilfreich ist es, die Kinder vor dem Rechnen kurz erzählen zu lassen, worum es in der Geschichte geht."
+  },
+  {
+   "slug": "sachaufgaben-weihnachten",
+   "type": "word-problems",
+   "topic": "weihnachten",
+   "kind": "theme",
+   "phrases": [
+    "sachaufgaben weihnachten klasse 3",
+    "sachaufgaben weihnachten",
+    "sachaufgaben weihnachten 4 klasse"
+   ],
+   "demand": 17,
+   "decks": [
+    {
+     "slug": "sachaufgaben-leicht-weihnachten-g1213-5",
+     "title": "Rechengeschichten mit Bildern — Weihnachten",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "sachaufgaben-leicht-weihnachten-g1238",
+     "title": "Rechengeschichten: Plusaufgaben — Weihnachten",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "sachaufgaben-leicht-weihnachten-g3370-5",
+     "title": "Sachaufgaben: Malnehmen und Teilen — Weihnachten",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "sachaufgaben-leicht-weihnachten-g3371",
+     "title": "Sachaufgaben zum Malnehmen — Weihnachten",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "sachaufgaben-leicht-weihnachten-s-w-g1239-4",
+     "title": "Rechengeschichten: Minusaufgaben — Weihnachten S/W",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "sachaufgaben-leicht-weihnachten-s-w-g1240-4",
+     "title": "Rechengeschichten bis 10 — Weihnachten S/W",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "sachaufgaben-leicht-weihnachten-s-w-g3372-4",
+     "title": "Sachaufgaben zum Verteilen — Weihnachten S/W",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "sachaufgaben-leicht-weihnachten-s-w-g3373-4",
+     "title": "Sachaufgaben: Gruppen bilden — Weihnachten S/W",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "sachaufgaben-weihnachten-g1241-5",
+     "title": "Drei kleine Rechengeschichten — Weihnachten",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "sachaufgaben-weihnachten-g3374-5",
+     "title": "Sachaufgaben: Teilen auf zwei Wegen — Weihnachten",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "sachaufgaben-weihnachten-s-w-g1239-6",
+     "title": "Rechengeschichten: Minusaufgaben — Weihnachten S/W",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "sachaufgaben-weihnachten-s-w-g1240-2",
+     "title": "Rechengeschichten bis 10 — Weihnachten S/W",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "sachaufgaben-weihnachten-s-w-g3372-6",
+     "title": "Sachaufgaben zum Verteilen — Weihnachten S/W",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "sachaufgaben-weihnachten-s-w-g3373-2",
+     "title": "Sachaufgaben: Gruppen bilden — Weihnachten S/W",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "sachaufgaben-weihnachten-s-w-g3376-4",
+     "title": "Sachaufgaben: drei gemischte Aufgaben — Weihnachten S/W",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "sachaufgaben-schwer-weihnachten-g1240",
+     "title": "Rechengeschichten bis 10 — Weihnachten",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "sachaufgaben-schwer-weihnachten-g3373",
+     "title": "Sachaufgaben: Gruppen bilden — Weihnachten",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "sachaufgaben-schwer-weihnachten-g3375-5",
+     "title": "Sachaufgaben: Mal und Gruppen — Weihnachten",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "sachaufgaben-schwer-weihnachten-s-w-g1241-4",
+     "title": "Drei kleine Rechengeschichten — Weihnachten S/W",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "sachaufgaben-schwer-weihnachten-s-w-g3374-4",
+     "title": "Sachaufgaben: Teilen auf zwei Wegen — Weihnachten S/W",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "sachaufgaben-schwer-weihnachten-s-w-g3376-2",
+     "title": "Sachaufgaben: drei gemischte Aufgaben — Weihnachten S/W",
+     "level": "hard",
+     "bw": true
+    }
+   ],
+   "deckTotal": 21,
+   "exclude": [],
+   "h1": "Sachaufgaben zu Weihnachten",
+   "title": "Sachaufgaben Weihnachten – Klasse 1 bis 3 als PDF",
+   "metaDescription": "Sachaufgaben zu Weihnachten: Rechengeschichten mit Plus und Minus, Mal, Gruppen und Verteilen, in drei Stufen. 21 Blätter in Farbe und S/W.",
+   "p1": "Geschenke verteilen, Plätzchen zählen, Kerzen am Adventskranz: Weihnachten steckt voller Rechenanlässe. In diesen Sachaufgaben werden daraus kleine Geschichten, die die Kinder lesen, verstehen und in eine Rechnung übersetzen. Gerade in der Adventszeit sind solche Aufgaben motivierend, weil die Situationen den Kindern vertraut sind.",
+   "p2": "Die 21 Blätter haben zwei Schwerpunkte. Für das Plus- und Minusrechnen gibt es Rechengeschichten mit Bildern, reine Plus- oder Minusaufgaben, Geschichten bis 10 und drei kleine Geschichten auf einer Seite. Die leichte Stufe bleibt im Zahlenraum bis 10; in der schweren Stufe ist mal die Veränderung unbekannt (7 + ? = 12), mal werden zwei Mengen verglichen. Für das Malnehmen und Teilen gibt es Sachaufgaben zum Malnehmen, zum Gruppenbilden, zum Verteilen, zum Teilen auf zwei Wegen und gemischte Aufgaben. Dort arbeitet die leichte Stufe mit kleinen Zahlen und großen Bildern, die schwere mit größeren Zahlen.",
+   "p3": "In Klasse 1 eignen sich die Rechengeschichten mit Bildern und bis 10, in Klasse 2 die Aufgaben zum Malnehmen und Gruppenbilden, und in Klasse 3 die gemischten Aufgaben und das Verteilen. Viele Blätter liegen in Farbe und in Schwarz-Weiß vor. Sie passen in den Wochenplan der Adventszeit oder in einen Adventskalender mit einer Aufgabe pro Tag. Ein guter Ablauf ist: Geschichte lesen, das Wichtige unterstreichen, eine Rechnung aufschreiben und zum Schluss einen Antwortsatz formulieren."
+  },
+  {
+   "slug": "bildkarten-essen",
+   "type": "picture-word-cards",
+   "topic": "essen",
+   "kind": "theme",
+   "phrases": [
+    "bildkarten essen",
+    "bildkarten essen pdf"
+   ],
+   "demand": 14,
+   "decks": [
+    {
+     "slug": "bildkarten-leicht-essen-sw-2-k324-47",
+     "title": "Bildkarten mit Wort — Essen SW 2",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "bildkarten-leicht-essen-sw-2-k350-2-en",
+     "title": "Zweisprachige Bildkarten: Deutsch und Englisch — Essen SW 2",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "bildkarten-leicht-essen-sw-3-k324-48",
+     "title": "Bildkarten mit Wort — Essen SW 3",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "bildkarten-leicht-essen-sw-k324-46",
+     "title": "Bildkarten mit Wort — Essen SW",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "bildkarten-essen-sw-2-k324-145",
+     "title": "Bildkarten mit Wort — Essen SW 2",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "bildkarten-essen-sw-3-k324-146",
+     "title": "Bildkarten mit Wort — Essen SW 3",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "bildkarten-essen-sw-k324-144",
+     "title": "Bildkarten mit Wort — Essen SW",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "bildkarten-essen-sw-k349-6",
+     "title": "Einzahl und Mehrzahl: Kartenpaare — Essen SW",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "bildkarten-schwer-essen-sw-2-k324-237",
+     "title": "Bildkarten mit Wort — Essen SW 2",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "bildkarten-schwer-essen-sw-3-k324-238",
+     "title": "Bildkarten mit Wort — Essen SW 3",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "bildkarten-schwer-essen-sw-k324-236",
+     "title": "Bildkarten mit Wort — Essen SW",
+     "level": "hard",
+     "bw": true
+    }
+   ],
+   "deckTotal": 11,
+   "exclude": [],
+   "h1": "Bildkarten Essen",
+   "title": "Bildkarten Essen und Lebensmittel zum Ausdrucken",
+   "metaDescription": "Bildkarten zum Thema Essen: Lebensmittel mit Bild und Wort, Karten für Einzahl und Mehrzahl und zweisprachige Karten, schwarz-weiß, als PDF.",
+   "p1": "Brot, Käse, Brezel, Pizza: Essen ist ein Wortfeld, über das Kinder jeden Tag sprechen. Diese Bildkarten zeigen Lebensmittel als klare Strichzeichnungen mit dem Wort dazu. Weil sie schwarz-weiß sind, können die Kinder die Karten vor dem Spielen selbst ausmalen und machen sie so zu ihren eigenen.",
+   "p2": "Die Sammlung umfasst elf schwarz-weiße Blätter. Die Bildkarten mit Wort gibt es in drei Stufen und mit drei verschiedenen Kartensätzen: In der leichten Stufe vier große Karten zum Benennen, in der mittleren acht Karten und in der schweren Stufe zwölf Lesekarten, bei denen das Wort im Vordergrund steht. Dazu gibt es Kartenpaare für Einzahl und Mehrzahl, bei denen eine Brezel zu mehreren Brezeln gelegt wird, und zweisprachige Bildkarten auf Deutsch und Englisch. Die Karten lassen sich für Memory, Einkaufsspiele, Sortieraufgaben oder eine Wortwand verwenden.",
+   "p3": "Im Kindergarten und in der Vorschule eignen sich die Karten für Gespräche über Essen und Ernährung, für Rollenspiele im Kaufladen und zum Benennen. In Klasse 1 unterstützen die Lesekarten das Lesen der ersten Wörter, und die Mehrzahlkarten üben eine Form, die vielen Kindern noch schwerfällt. Die zweisprachigen Karten helfen in mehrsprachigen Gruppen und beim frühen Englisch. Man kann die Karten auch nach süßen und herzhaften Lebensmitteln sortieren lassen. Laminiert halten die Karten lange."
+  },
+  {
+   "slug": "schwunguebungen-weihnachten",
+   "type": "pre-writing",
+   "topic": "weihnachten",
+   "kind": "theme",
+   "phrases": [
+    "schwungübungen weihnachten",
+    "schwungübungen weihnachten kostenlos"
+   ],
+   "demand": 12,
+   "decks": [
+    {
+     "slug": "schwunguebungen-leicht-weihnachten-k236-29",
+     "title": "Schwungübungen — Weihnachten",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "schwunguebungen-leicht-weihnachten-s-w-2-k236-4",
+     "title": "Schwungübungen — Weihnachten S/W 2",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "schwunguebungen-leicht-weihnachten-s-w-k236-3",
+     "title": "Schwungübungen — Weihnachten S/W",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "schwunguebungen-leicht-weihnachten-s-w-k385-2",
+     "title": "Schwungübungen: Striche und Kreuze — Weihnachten S/W",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "schwunguebungen-weihnachten-k236-127",
+     "title": "Schwungübungen — Weihnachten",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "schwunguebungen-weihnachten-s-w-2-k236-103",
+     "title": "Schwungübungen — Weihnachten S/W 2",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "schwunguebungen-weihnachten-s-w-2-k247-6",
+     "title": "Schwungübungen für Profis — Weihnachten S/W 2",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "schwunguebungen-weihnachten-s-w-k236-102",
+     "title": "Schwungübungen — Weihnachten S/W",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "schwunguebungen-schwer-weihnachten-k236-226",
+     "title": "Schwungübungen — Weihnachten",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "schwunguebungen-schwer-weihnachten-s-w-2-k236-201",
+     "title": "Schwungübungen — Weihnachten S/W 2",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "schwunguebungen-schwer-weihnachten-s-w-k236-200",
+     "title": "Schwungübungen — Weihnachten S/W",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "schwunguebungen-schwer-weihnachten-s-w-k387-2",
+     "title": "Schwungübungen: Von Bild zu Bild — Weihnachten S/W",
+     "level": "hard",
+     "bw": true
+    }
+   ],
+   "deckTotal": 12,
+   "exclude": [],
+   "h1": "Schwungübungen zu Weihnachten",
+   "title": "Schwungübungen Weihnachten zum Ausdrucken – 3 Stufen",
+   "metaDescription": "Schwungübungen mit Weihnachtsmotiven: zwölf Blätter in drei Stufen, in Farbe und schwarz-weiß, für Kindergarten, Vorschule und Klasse 1. Als PDF.",
+   "p1": "Mit dem Stift vom Schlitten zum Geschenk, vom Stern zum Tannenbaum: Diese Schwungübungen verbinden das Üben der ersten Linien mit Weihnachtsmotiven. In jeder Reihe fährt das Kind Bögen, Wellen, Zacken und Schleifen nach – je nach Stufe auf gestrichelten Spuren oder nach einer Vorlage. Dabei lernt es, den Stift locker zu halten und die Bewegung gleichmäßig zu wiederholen.",
+   "p2": "Die zwölf Blätter sind in drei Stufen geordnet, und die Stufen unterscheiden sich darin, wie viel Hilfe das Blatt gibt. In der leichten Stufe ist jede Wiederholung gestrichelt und hat ihren eigenen Startpunkt. In der mittleren Stufe folgen auf die Vorlage gestrichelte Spuren. In der schweren Stufe gibt es nach der Vorlage nur noch eine gestrichelte Spur und dann nur Startpunkte. Dazu kommen Varianten mit Strichen und Kreuzen, Schwungübungen für Profis mit anspruchsvollen Formen und ein Blatt, auf dem der Stift von Bild zu Bild geführt wird.",
+   "p3": "Die Grundblätter gibt es in Farbe und als schwarz-weiße Fassung zum Ausmalen. Im Kindergarten und in der Vorschule sind die leichten Blätter eine ruhige Adventsaufgabe, die gleichzeitig die Feinmotorik fördert. In Klasse 1 helfen die mittleren und schweren Blätter, Bewegungsabläufe zu festigen, die später beim Schreiben gebraucht werden. Es lohnt sich, die Schwünge vorher groß in der Luft oder mit dem Finger auf dem Tisch zu üben. Wer eine Stufe sicher schafft, bekommt dasselbe Motiv eine Stufe höher."
+  },
+  {
+   "slug": "schwunguebungen-dinosaurier",
+   "type": "pre-writing",
+   "topic": "dinosaurier",
+   "kind": "theme",
+   "phrases": [
+    "schwungübungen dinosaurier"
+   ],
+   "demand": 10,
+   "decks": [
+    {
+     "slug": "schwunguebungen-leicht-dinosaurier-k236-37",
+     "title": "Schwungübungen — Dinosaurier",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "schwunguebungen-leicht-dinosaurier-k386-3",
+     "title": "Schwungübungen: Kreise, Quadrate und Dreiecke — Dinosaurier",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "schwunguebungen-dinosaurier-k236-135",
+     "title": "Schwungübungen — Dinosaurier",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "schwunguebungen-dinosaurier-k247-3",
+     "title": "Schwungübungen für Profis — Dinosaurier",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "schwunguebungen-schwer-dinosaurier-k236-234",
+     "title": "Schwungübungen — Dinosaurier",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "schwunguebungen-schwer-dinosaurier-k244-3",
+     "title": "Schwungübungen: Zacken und Zickzack — Dinosaurier",
+     "level": "hard",
+     "bw": false
+    }
+   ],
+   "deckTotal": 6,
+   "exclude": [],
+   "h1": "Schwungübungen mit Dinosauriern",
+   "title": "Schwungübungen Dinosaurier zum Ausdrucken (PDF)",
+   "metaDescription": "Schwungübungen mit Dinosauriern: Schwünge, Kreise, Quadrate, Dreiecke und Zickzack in drei Stufen für Vorschule und Klasse 1. Sechs Blätter.",
+   "p1": "Dinosaurier begeistern viele Kinder, und genau deshalb eignen sie sich gut, um die ersten Linien zu üben. Auf diesen Blättern führt der Stift über Bögen, Wellen und Zacken, mit Dinosauriern als Motiv. In jeder Reihe übt das Kind, die Bewegung ruhig und gleichmäßig zu wiederholen – je nach Stufe auf gestrichelten Spuren oder nach einer Vorlage. Kinder, die sonst wenig Lust auf Stiftübungen haben, lassen sich mit den Dinosauriern oft leichter dafür gewinnen.",
+   "p2": "Die sechs Blätter sind in drei Stufen geordnet. In der leichten Stufe ist jede Wiederholung gestrichelt vorgezeichnet und hat ihren eigenen Startpunkt; in der mittleren folgen auf die Vorlage gestrichelte Spuren; in der schweren gibt es nach der Vorlage nur eine gestrichelte Spur und danach nur Startpunkte, sodass das Kind die Linie selbst zieht. Neben den allgemeinen Schwungübungen gibt es ein leichtes Blatt mit Kreisen, Quadraten und Dreiecken, ein Blatt Schwungübungen für Profis mit anspruchsvolleren Formen und ein schweres Blatt mit Zacken und Zickzack.",
+   "p3": "In der Vorschule und im Kindergarten fördern die leichten Blätter die Hand-Auge-Koordination und die Stifthaltung. In Klasse 1 bereiten die schweren Blätter mit Zacken und den wenigen Hilfen auf das freie Schreiben vor. Es hilft, jede Bahn erst mit dem Finger nachzufahren und dann mit dem Stift. Die Blätter passen gut zu einem Dinosaurierprojekt, zusammen mit Büchern und Bildern aus der Urzeit."
+  },
+  {
+   "slug": "schwunguebungen-winter",
+   "type": "pre-writing",
+   "topic": "winter",
+   "kind": "theme",
+   "phrases": [
+    "schwungübungen winter",
+    "schwungübungen winter kostenlos"
+   ],
+   "demand": 10,
+   "decks": [
+    {
+     "slug": "schwunguebungen-leicht-winter-k236-97",
+     "title": "Schwungübungen — Winter",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "schwunguebungen-leicht-winter-k247",
+     "title": "Schwungübungen für Profis — Winter",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "schwunguebungen-winter-k236-195",
+     "title": "Schwungübungen — Winter",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "schwunguebungen-schwer-winter-k236-294",
+     "title": "Schwungübungen — Winter",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "schwunguebungen-schwer-winter-k245",
+     "title": "Schwungübungen: Wellen und Bögen — Winter",
+     "level": "hard",
+     "bw": false
+    }
+   ],
+   "deckTotal": 5,
+   "exclude": [],
+   "h1": "Schwungübungen zum Winter",
+   "title": "Schwungübungen Winter zum Ausdrucken – drei Stufen",
+   "metaDescription": "Schwungübungen mit Wintermotiven: Schwünge, Wellen und Bögen in drei Stufen für Kindergarten, Vorschule und Klasse 1. Fünf Blätter als PDF.",
+   "p1": "Schneeflocken, Schlitten und Schneemänner: Im Winter laden viele Motive zum Üben der ersten Linien ein. Auf diesen Schwungübungen fährt das Kind in jeder Reihe Bögen, Wellen und Schleifen nach – je nach Stufe auf gestrichelten Spuren oder nach einer Vorlage. Die Bewegungen werden flüssiger, je öfter sie wiederholt werden, und genau diese Sicherheit braucht es später beim Schreiben der Buchstaben.",
+   "p2": "Die fünf Blätter verteilen sich auf drei Stufen, die sich in der Hilfe unterscheiden. In der leichten Stufe ist jede Wiederholung gestrichelt und hat einen eigenen Startpunkt. In der mittleren Stufe folgen auf die Vorlage gestrichelte Spuren. In der schweren Stufe gibt es nach der Vorlage nur eine gestrichelte Spur, danach nur Startpunkte. Für jede Stufe gibt es ein Grundblatt mit Winterschwüngen; dazu kommen ein Blatt Schwungübungen für Profis in der leichten Stufe und ein schweres Blatt mit Wellen und Bögen, das gleichmäßige Wiederholungen trainiert.",
+   "p3": "Im Kindergarten und in der Vorschule sind die leichten Blätter eine gute ruhige Aufgabe nach dem Spielen draußen. In Klasse 1 helfen die schwereren Blätter, Rhythmus und Gleichmaß in die Schreibbewegung zu bringen. Man kann die Schwünge auch erst groß an die Tafel malen oder mit dem Arm in die Luft zeichnen, bevor die Kinder sie auf dem Blatt nachfahren. Sobald eine Stufe gut gelingt, geht es mit der nächsten weiter."
+  },
+  {
+   "slug": "schuettelsaetze-bauernhof",
+   "type": "sentence-building",
+   "topic": "bauernhof",
+   "kind": "theme",
+   "phrases": [
+    "schüttelsätze bauernhof"
+   ],
+   "demand": 10,
+   "decks": [
+    {
+     "slug": "schuettelsaetze-leicht-bauernhoftiere-sw-g1282-4",
+     "title": "Schüttelsätze mit Hilfen — Bauernhoftiere SW",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "schuettelsaetze-schwer-bauernhoftiere-g1282-3",
+     "title": "Schüttelsätze mit Hilfen — Bauernhoftiere",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "schuettelsaetze-schwer-bauernhoftiere-sw-g1302-4",
+     "title": "Schüttelsätze: Wo beginnt der Satz? — Bauernhoftiere SW",
+     "level": "hard",
+     "bw": true
+    }
+   ],
+   "deckTotal": 3,
+   "exclude": [],
+   "h1": "Schüttelsätze zum Bauernhof",
+   "title": "Schüttelsätze Bauernhof – Sätze ordnen mit Hilfen",
+   "metaDescription": "Schüttelsätze rund um Bauernhoftiere: Wörter in die richtige Reihenfolge bringen, mit Hilfen, in zwei Stufen für Klasse 1 und 2. Drei Blätter.",
+   "p1": "Bei einem Schüttelsatz sind die Wörter durcheinandergeraten, und das Kind bringt sie wieder in die richtige Reihenfolge. Auf diesen Blättern geht es um Tiere auf dem Bauernhof: die Kuh, das Schwein, die Henne und ihre Freunde. Wer den Satz richtig ordnet, schreibt ihn auf, liest ihn laut vor und prüft, ob er Sinn ergibt.",
+   "p2": "Die Sammlung umfasst drei Blätter. Zwei davon sind Schüttelsätze mit Hilfen, einmal leicht und einmal schwer. In der leichten Stufe stehen drei Sätze mit drei bis vier Wörtern auf dem Blatt, in der schweren Stufe vier Sätze mit fünf bis sieben Wörtern. Die Hilfen zeigen, welches Wort am Anfang steht, weil es großgeschrieben ist, und wo der Punkt hingehört. Das dritte Blatt fragt gezielt, wo der Satz beginnt, und übt so die Großschreibung am Satzanfang. Das leichte Blatt und das Satzanfangsblatt sind schwarz-weiß und können ausgemalt werden.",
+   "p3": "In Klasse 1 eignet sich die leichte Stufe, sobald die Kinder einzelne Wörter sicher lesen. In Klasse 2 trainiert die schwere Stufe den Satzbau mit längeren Sätzen. Schüttelsätze lassen sich gut als Partnerarbeit einsetzen: Ein Kind legt die Wörter, das andere liest den Satz vor und prüft. Wer mag, schneidet die Wörter aus und legt sie, bevor der Satz ins Heft geschrieben wird."
+  },
+  {
+   "slug": "bildkarten-berufe",
+   "type": "picture-word-cards",
+   "topic": "berufe",
+   "kind": "theme",
+   "phrases": [
+    "bildkarten berufe",
+    "bildkarten berufe kostenlos"
+   ],
+   "demand": 8,
+   "decks": [
+    {
+     "slug": "bildkarten-leicht-berufe-k324-66",
+     "title": "Bildkarten mit Wort — Berufe",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "bildkarten-berufe-k324-164",
+     "title": "Bildkarten mit Wort — Berufe",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "bildkarten-schwer-berufe-k324-253",
+     "title": "Bildkarten mit Wort — Berufe",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "bildkarten-schwer-berufe-k350-3-en",
+     "title": "Zweisprachige Bildkarten: Deutsch und Englisch — Berufe",
+     "level": "hard",
+     "bw": false
+    }
+   ],
+   "deckTotal": 4,
+   "exclude": [],
+   "h1": "Bildkarten Berufe",
+   "title": "Bildkarten Berufe zum Ausdrucken für Kita und Schule",
+   "metaDescription": "Bildkarten zu Berufen mit Bild und Wort, in drei Stufen, dazu zweisprachige Karten auf Deutsch und Englisch. Für Kindergarten und Klasse 1.",
+   "p1": "Ärztin, Bäcker, Feuerwehrmann, Polizistin: Berufe sind ein Thema, über das Kinder gern sprechen, weil sie viele davon aus ihrem Alltag kennen. Diese Bildkarten zeigen verschiedene Berufe als klares Bild mit dem passenden Wort. Sie eignen sich für Gespräche im Sitzkreis, für Ratespiele und für Rollenspiele.",
+   "p2": "Die Sammlung umfasst vier Blätter. Die Bildkarten mit Wort gibt es in drei Stufen: In der leichten Stufe sind es vier große Karten zum Zeigen und Benennen, in der mittleren acht Karten und in der schweren Stufe zwölf Lesekarten, bei denen das Wort im Vordergrund steht und das Bild nur noch hilft. Dazu kommt ein Blatt mit zweisprachigen Bildkarten auf Deutsch und Englisch. Die Karten werden ausgedruckt und ausgeschnitten und lassen sich gut laminieren, wenn sie öfter verwendet werden.",
+   "p3": "Im Kindergarten und in der Vorschule helfen die Karten, Wortschatz aufzubauen und über Arbeit und Alltag zu sprechen: Wer braucht welches Werkzeug, wer trägt welche Kleidung? In Klasse 1 unterstützen die Lesekarten das Lesen, und die Kinder können zu jedem Beruf einen kurzen Satz bilden. Die zweisprachigen Karten sind in mehrsprachigen Gruppen hilfreich. Ein schönes Spiel: Ein Kind zieht eine Karte und spielt den Beruf vor, die anderen raten und suchen die passende Karte heraus. So wird aus dem Wortschatz schnell ein Gesprächsanlass."
+  },
+  {
+   "slug": "bildkarten-natur",
+   "type": "picture-word-cards",
+   "topic": "natur",
+   "kind": "theme",
+   "phrases": [
+    "bildkarten natur"
+   ],
+   "demand": 7,
+   "decks": [
+    {
+     "slug": "bildkarten-leicht-haus-und-natur-sw-k324-54",
+     "title": "Bildkarten mit Wort — Haus und Natur SW",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "bildkarten-leicht-natur-sw-k324-64",
+     "title": "Bildkarten mit Wort — Natur SW",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "bildkarten-haus-und-natur-sw-k324-152",
+     "title": "Bildkarten mit Wort — Haus und Natur SW",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "bildkarten-natur-sw-k324-162",
+     "title": "Bildkarten mit Wort — Natur SW",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "bildkarten-schwer-haus-und-natur-sw-k324-243",
+     "title": "Bildkarten mit Wort — Haus und Natur SW",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "bildkarten-schwer-natur-sw-k324-251",
+     "title": "Bildkarten mit Wort — Natur SW",
+     "level": "hard",
+     "bw": true
+    }
+   ],
+   "deckTotal": 6,
+   "exclude": [],
+   "h1": "Bildkarten Natur",
+   "title": "Bildkarten Natur zum Ausdrucken und Ausmalen",
+   "metaDescription": "Bildkarten zur Natur mit Bild und Wort: schwarz-weiße Karten in drei Stufen zum Ausmalen, Sätze „Natur“ und „Haus und Natur“. Sechs Blätter.",
+   "p1": "Baum, Blatt, Blume, Pilz und Mond: Diese Bildkarten bringen die Natur ins Klassenzimmer. Jede Karte zeigt ein Bild mit dem Wort dazu. Weil die Karten schwarz-weiß sind, können die Kinder sie vorher ausmalen, und schon das Ausmalen ist ein Anlass, über die Dinge zu sprechen und sie genau anzuschauen.",
+   "p2": "Die Sammlung umfasst sechs schwarz-weiße Blätter in drei Stufen. Es gibt zwei Kartensätze: einen zur Natur draußen und einen mit Haus und Natur, der Dinge rund ums Haus und den Garten verbindet. In der leichten Stufe sind es vier große Karten zum Benennen, in der mittleren acht Karten und in der schweren Stufe zwölf Lesekarten, bei denen das Wort im Vordergrund steht. Mit beiden Sätzen hat man genug Karten für ein ganzes Naturthema.",
+   "p3": "Im Kindergarten passen die Karten zu Spaziergängen und Naturtagen: Die Kinder suchen draußen, was sie auf den Karten sehen, und legen die passende Karte dazu. In der Vorschule und in Klasse 1 unterstützen die Lesekarten das erste Lesen, und die Kinder können die Karten sortieren, zum Beispiel nach Pflanzen und Dingen, die nicht wachsen. Auch für Kinder, die Deutsch als Zweitsprache lernen, sind die Karten ein guter Grundwortschatz zu einem Thema, das in Sachunterricht und Alltag immer wieder vorkommt."
+  },
+  {
+   "slug": "leseverstaendnis-ostern",
+   "type": "reading-comprehension",
+   "topic": "ostern",
+   "kind": "theme",
+   "phrases": [
+    "leseverständnis ostern"
+   ],
+   "demand": 7,
+   "decks": [
+    {
+     "slug": "leseverstaendnis-leicht-g2273-10",
+     "title": "Lesen und verstehen: Die Ostereiersuche",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "leseverstaendnis-g2273-4",
+     "title": "Lesen und verstehen: Die Ostereiersuche",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "leseverstaendnis-schwer-g2273-15",
+     "title": "Lesen und verstehen: Die Ostereiersuche",
+     "level": "hard",
+     "bw": false
+    }
+   ],
+   "deckTotal": 3,
+   "exclude": [],
+   "h1": "Leseverständnis Ostern: Die Ostereiersuche",
+   "title": "Leseverständnis Ostern – ein Text in drei Stufen",
+   "metaDescription": "Leseverständnis zu Ostern: die Geschichte Die Ostereiersuche mit Fragen in drei Stufen, für Klasse 2 und sichere Leser in Klasse 1. Als PDF.",
+   "p1": "Am Ostermorgen beginnt die Suche nach den versteckten Eiern. Davon erzählt die Geschichte Die Ostereiersuche, und die Kinder beantworten danach Fragen dazu. Sie üben dabei, im Text gezielt nach Informationen zu suchen, den Ablauf der Geschichte zu verstehen und Antworten zu finden, die zwischen den Zeilen stehen.",
+   "p2": "Die Geschichte bleibt in allen drei Stufen dieselbe; die Stufe verändert die Fragen. In der leichten Stufe sind die Sätze des Textes nummeriert, und die Fragen lassen sich direkt im Text beantworten, mit einem Hinweis, in welchem Satz die Antwort steht. In der mittleren Stufe fehlen diese Hilfen. In der schweren Stufe gibt es zwei Fragen, deren Antwort die Kinder selbst erschließen müssen, und eine Frage, die sie mit einem eigenen Satz beantworten. Da alle dieselbe Geschichte lesen, kann die ganze Klasse anschließend gemeinsam darüber sprechen.",
+   "p3": "In Klasse 2 ist die mittlere Stufe ein guter Einstieg, und die schwere Stufe fordert geübte Leser. Sichere Leser in Klasse 1 kommen mit der leichten Stufe gut zurecht. Der Text eignet sich für die Wochen vor Ostern, als Lesehausaufgabe oder in der Lesezeit. Zur Differenzierung bekommt jedes Kind die Fassung, die zu seinem Lesestand passt, und alle sprechen danach über dieselbe Geschichte. Zum Abschluss können die Kinder erzählen, wie bei ihnen zu Hause Ostern gefeiert wird."
+  },
+  {
+   "slug": "bildkarten-koerperteile",
+   "type": "picture-word-cards",
+   "topic": "korperteile",
+   "kind": "theme",
+   "phrases": [
+    "bildkarten körperteile zum ausdrucken pdf",
+    "bildkarten körperteile"
+   ],
+   "demand": 6,
+   "decks": [
+    {
+     "slug": "bildkarten-leicht-korperteile-k324-26",
+     "title": "Bildkarten mit Wort — Körperteile",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "bildkarten-leicht-korperteile-k349",
+     "title": "Einzahl und Mehrzahl: Kartenpaare — Körperteile",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "bildkarten-korperteile-k324-124",
+     "title": "Bildkarten mit Wort — Körperteile",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "bildkarten-schwer-korperteile-g1324",
+     "title": "Silbenkarten: Lies das Wort in Silben — Körperteile",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "bildkarten-schwer-korperteile-k324-218",
+     "title": "Bildkarten mit Wort — Körperteile",
+     "level": "hard",
+     "bw": false
+    }
+   ],
+   "deckTotal": 5,
+   "exclude": [],
+   "h1": "Bildkarten Körperteile",
+   "title": "Bildkarten Körperteile zum Ausdrucken (PDF)",
+   "metaDescription": "Bildkarten zu Körperteilen mit Bild und Wort, Karten für Einzahl und Mehrzahl und Silbenkarten. Fünf Blätter für Kita, Vorschule und Klasse 1.",
+   "p1": "Kopf, Arm, Hand, Bein und Fuß: Die Körperteile gehören zu den ersten Wörtern, die Kinder benennen. Diese Bildkarten zeigen sie als klare Bilder mit dem Wort dazu. Die Karten eignen sich für Lieder und Bewegungsspiele, für Gespräche über den eigenen Körper und als Wortkarten im Sachunterricht.",
+   "p2": "Die Sammlung umfasst fünf Blätter. Die Bildkarten mit Wort gibt es in drei Stufen: vier große Karten zum Benennen in der leichten Stufe, acht Karten in der mittleren und zwölf Lesekarten in der schweren, bei denen das Wort im Vordergrund steht. Dazu kommen Kartenpaare für Einzahl und Mehrzahl, mit denen die Kinder zum Beispiel ein Auge und zwei Augen zusammenlegen, und Silbenkarten, auf denen die Kinder die Silbenbögen selbst unter jedes Wort zeichnen. So lässt sich dasselbe Wortfeld zum Sprechen, zum Lesen und für die Grammatik nutzen.",
+   "p3": "Im Kindergarten und in der Vorschule helfen die großen Karten beim Benennen und bei Spielen wie „Zeig mir deinen Ellenbogen!“. In Klasse 1 unterstützen die Silbenkarten das Lesen, und die Mehrzahlkarten machen auf Formen aufmerksam, die vielen Kindern noch schwerfallen. Für Kinder, die Deutsch als Zweitsprache lernen, ist dieser Grundwortschatz besonders wichtig, weil er im Alltag, beim Sport und beim Arzt immer wieder gebraucht wird. Laminiert halten die Karten lange."
+  },
+  {
+   "slug": "schwunguebungen-sommer",
+   "type": "pre-writing",
+   "topic": "sommer",
+   "kind": "theme",
+   "phrases": [
+    "schwungübungen sommer"
+   ],
+   "demand": 6,
+   "decks": [
+    {
+     "slug": "schwunguebungen-leicht-sommer-k236-79",
+     "title": "Schwungübungen — Sommer",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "schwunguebungen-sommer-k236-177",
+     "title": "Schwungübungen — Sommer",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "schwunguebungen-schwer-sommer-k236-276",
+     "title": "Schwungübungen — Sommer",
+     "level": "hard",
+     "bw": false
+    }
+   ],
+   "deckTotal": 3,
+   "exclude": [],
+   "h1": "Schwungübungen zum Sommer",
+   "title": "Schwungübungen Sommer zum Ausdrucken – drei Stufen",
+   "metaDescription": "Schwungübungen mit Sommermotiven in drei Stufen, von gestrichelten Spuren bis zu freien Schwüngen. Drei Blätter für Vorschule und Klasse 1.",
+   "p1": "Strand, Eis, Sandburgen und Muscheln: Auf diesen Schwungübungen führt der Stift durch den Sommer. In jeder Reihe fährt das Kind Bögen, Wellen und Schleifen nach – je nach Stufe auf gestrichelten Spuren oder nach einer Vorlage. So übt es die Bewegungen, die später für die Buchstaben gebraucht werden. Die Sommermotive machen die Übung freundlich und abwechslungsreich, gerade in den letzten Wochen vor den Ferien.",
+   "p2": "Die Sammlung umfasst drei Blätter mit demselben Sommermotiv, eines für jede Stufe. Die Stufen unterscheiden sich in der Hilfe, die das Blatt gibt. In der leichten Stufe ist jede Wiederholung gestrichelt vorgezeichnet und hat ihren eigenen Startpunkt. In der mittleren Stufe folgen auf die Vorlage gestrichelte Spuren. In der schweren Stufe gibt es nach der Vorlage nur eine gestrichelte Spur und dann nur Startpunkte, von denen aus das Kind die Linie selbst zieht. Weil das Motiv gleich bleibt, sieht das Kind, wie es von Blatt zu Blatt weniger Hilfe braucht.",
+   "p3": "Im Kindergarten und in der Vorschule eignen sich die Blätter für die Zeit vor den Sommerferien und als ruhige Aufgabe an heißen Tagen. In Klasse 1 helfen sie, die Stiftführung zu festigen, und lassen sich auch als Ferienblatt mitgeben. Vor dem Nachfahren können die Kinder die Wellen mit dem Arm in die Luft malen."
+  },
+  {
+   "slug": "gerade-und-ungerade-zahlen-blumen",
+   "type": "odd-and-even",
+   "topic": "blumen",
+   "kind": "theme",
+   "phrases": [
+    "gerade und ungerade zahlen blumen"
+   ],
+   "demand": 5,
+   "decks": [
+    {
+     "slug": "gerade-und-ungerade-zahlen-leicht-blumen-g1369-3",
+     "title": "Gerecht teilen: gerade oder ungerade? — Blumen",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "gerade-und-ungerade-zahlen-leicht-blumen-g1370",
+     "title": "Gerade oder ungerade? Bilder paarweise zählen — Blumen",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "gerade-und-ungerade-zahlen-blumen-g1369-6",
+     "title": "Gerecht teilen: gerade oder ungerade? — Blumen",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "gerade-und-ungerade-zahlen-blumen-g1370-5",
+     "title": "Gerade oder ungerade? Bilder paarweise zählen — Blumen",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "gerade-und-ungerade-zahlen-schwer-blumen-g1369-4",
+     "title": "Gerecht teilen: gerade oder ungerade? — Blumen",
+     "level": "hard",
+     "bw": false
+    }
+   ],
+   "deckTotal": 5,
+   "exclude": [],
+   "h1": "Gerade und ungerade Zahlen mit Blumen",
+   "title": "Gerade und ungerade Zahlen – Blumen paarweise zählen",
+   "metaDescription": "Gerade oder ungerade? Blumen paarweise zählen und gerecht teilen, um zu erkennen, ob eine Zahl gerade ist. Fünf Blätter in drei Stufen als PDF.",
+   "p1": "Ob eine Zahl gerade oder ungerade ist, sieht man am besten, wenn man Dinge zu Paaren zusammenlegt. Auf diesen Blättern zählen die Kinder Blumen paarweise oder teilen sie gerecht auf zwei Kinder auf. Bleibt eine Blume übrig, ist die Zahl ungerade; geht alles auf, ist sie gerade. So bekommt ein abstrakter Begriff eine anschauliche Bedeutung, die die Kinder selbst überprüfen können.",
+   "p2": "Die Sammlung umfasst fünf Blätter mit zwei Aufgabenarten. Bei Gerade oder ungerade? Bilder paarweise zählen verbinden die Kinder die Blumen zu Paaren und schauen, ob eine übrig bleibt. Bei Gerecht teilen verteilen sie die Blumen auf zwei Seiten. In der leichten Stufe sind die Blumenhaufen klein, in der schweren Stufe größer und auf zwei Reihen verteilt. Jede Reihe hat ihre eigene Breite, damit die Form eines Haufens nicht verrät, ob die Anzahl gerade ist: Die Kinder müssen wirklich zählen oder Paare bilden.",
+   "p3": "In Klasse 1 und 2 eignen sich die Blätter, um gerade und ungerade Zahlen einzuführen oder zu wiederholen. Besonders hilfreich ist es, die Aufgabe zuerst mit echten Gegenständen wie Steinen oder Plättchen zu legen und erst danach auf dem Blatt zu arbeiten. Wer die Regel verstanden hat, kann anschließend die Zahlen von 1 bis 20 in gerade und ungerade sortieren und das Muster entdecken."
+  },
+  {
+   "slug": "bildkarten-wald",
+   "type": "picture-word-cards",
+   "topic": "wald",
+   "kind": "theme",
+   "phrases": [
+    "bildkarten wald"
+   ],
+   "demand": 5,
+   "decks": [
+    {
+     "slug": "bildkarten-leicht-waldtiere-k324-49",
+     "title": "Bildkarten mit Wort — Waldtiere",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "bildkarten-waldtiere-k324-147",
+     "title": "Bildkarten mit Wort — Waldtiere",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "bildkarten-schwer-waldtiere-k324-239",
+     "title": "Bildkarten mit Wort — Waldtiere",
+     "level": "hard",
+     "bw": false
+    }
+   ],
+   "deckTotal": 3,
+   "exclude": [],
+   "h1": "Bildkarten Wald: Waldtiere",
+   "title": "Bildkarten Waldtiere zum Ausdrucken (PDF)",
+   "metaDescription": "Bildkarten mit Waldtieren: Fuchs, Igel, Eichhörnchen, Reh und mehr, mit Bild und Wort in drei Stufen. Für Kindergarten, Vorschule und Klasse 1.",
+   "p1": "Fuchs, Igel, Eichhörnchen und Eule: Im Wald leben viele Tiere, die Kinder aus Büchern und von Spaziergängen kennen. Diese Bildkarten zeigen die Waldtiere als klare Bilder mit dem Namen dazu. Sie eignen sich für eine Waldeinheit im Kindergarten oder im Sachunterricht, für Ratespiele und als Wortkarten an der Tafel.",
+   "p2": "Die Sammlung umfasst drei Blätter, eines für jede Stufe. In der leichten Stufe sind es vier große Karten, die sich gut zum Zeigen und Benennen in der Gruppe eignen. Das mittlere Blatt hat acht Karten. Das schwere Blatt hat zwölf Lesekarten, bei denen der Tiername im Vordergrund steht und das Bild nur noch hilft. Die Karten werden ausgedruckt und ausgeschnitten; doppelt ausgedruckt werden sie zu einem Memory, bei dem die Kinder die Tiere benennen, sobald sie ein Paar finden.",
+   "p3": "Im Kindergarten passen die Karten zu einem Waldtag oder zu Geschichten über Tiere im Herbst und Winter. In der Vorschule und in Klasse 1 helfen die Lesekarten beim Lesen der Tiernamen, und die Kinder können die Karten sortieren, zum Beispiel nach Tieren, die Winterschlaf halten, und solchen, die wach bleiben. Ein beliebtes Spiel: Ein Kind beschreibt ein Tier, ohne den Namen zu sagen, und die anderen suchen die richtige Karte. Dabei lernen die Kinder ganz nebenbei, die Tiere genau zu beschreiben."
+  }
+ ]
+}

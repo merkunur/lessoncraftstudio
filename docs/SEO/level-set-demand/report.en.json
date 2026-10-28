@@ -1,0 +1,3769 @@
+{
+ "locale": "en",
+ "harvested": 2430,
+ "clusters": 6777,
+ "candidates": [
+  {
+   "type": "maze-puzzles",
+   "topic": "hard",
+   "stem": "hard",
+   "demand": 56,
+   "phrases": [
+    "maze puzzles difficult",
+    "maze puzzles hard",
+    "mazes difficult",
+    "mazes hard",
+    "mazes hard printable",
+    "maze worksheets hard"
+   ],
+   "phraseCount": 7,
+   "supply": 67,
+   "supplySample": [
+    "maze-puzzles-hard-g1420-10 — Help the Seahorse Find the Seaweed",
+    "maze-puzzles-hard-g1420-11 — Help the Llama Find the Cabin",
+    "maze-puzzles-hard-g1420-12 — Help the Dinosaur Find the Big Tree",
+    "maze-puzzles-hard-g1420-13 — Help the Garbage Truck Find the Trash Can"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "dot-to-dot",
+   "topic": "hard",
+   "stem": "hard",
+   "demand": 41,
+   "phrases": [
+    "dot to dot hard",
+    "dot to dot difficult",
+    "dot to dot difficult free printable",
+    "dot to dot free printables hard",
+    "dot to dot free printables pdf hard",
+    "dot to dot hard free printable"
+   ],
+   "phraseCount": 8,
+   "supply": 56,
+   "supplySample": [
+    "dot-to-dot-hard-g1285-11 — Dot-to-Dot: Count by Twos",
+    "dot-to-dot-hard-g1285-12 — Dot-to-Dot: Count by Twos",
+    "dot-to-dot-hard-g1285-13 — Dot-to-Dot: Count by Twos",
+    "dot-to-dot-hard-g1285-14 — Dot-to-Dot: Count by Twos"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "capitals-punctuation",
+   "topic": "class",
+   "stem": "class",
+   "demand": 41,
+   "phrases": [
+    "capital letters and punctuation class 2",
+    "capital letters and punctuation class 5",
+    "capital letters and punctuation worksheet for class 2",
+    "capital letters and punctuation worksheet for class 5",
+    "capital letters and punctuation worksheet for class 3",
+    "capital letters and punctuation for class 2"
+   ],
+   "phraseCount": 6,
+   "supply": 2,
+   "supplySample": [
+    "capitals-punctuation-classroom-g2274-3 — Fix the Sentence — Classroom",
+    "capitals-punctuation-easy-classroom-g2307-3 — Fix the Sentence: Where Does It End? — Classroom"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "find-the-differences",
+   "topic": "easy",
+   "stem": "easy",
+   "demand": 38,
+   "phrases": [
+    "find the differences easy",
+    "spot the difference easy",
+    "spot the difference easy for kids",
+    "find the difference easy for kids",
+    "find the difference easy"
+   ],
+   "phraseCount": 5,
+   "supply": 64,
+   "supplySample": [
+    "find-the-differences-easy-g1412-2 — Find 7 Differences: On the Farm",
+    "find-the-differences-easy-g1412-3 — Find 7 Differences: Under the Sea",
+    "find-the-differences-easy-g1412-4 — Find 7 Differences: In the Snow",
+    "find-the-differences-easy-g1412-5 — Find 7 Differences: In the Jungle"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "easy",
+   "stem": "easy",
+   "demand": 32,
+   "phrases": [
+    "color by number easy",
+    "color by number easy kids",
+    "color by number easy printable",
+    "color by number easy free printable"
+   ],
+   "phraseCount": 4,
+   "supply": 75,
+   "supplySample": [
+    "color-by-number-easy-k393-21-seaseahorse — Color by Number: Seahorse in the Sea",
+    "color-by-number-easy-k393-28-beachswimring — Color by Number: Swim Ring on the Beach",
+    "color-by-number-easy-k393-6-forestfox — Color by Number: Fox in the Forest",
+    "color-by-number-easy-k393-36-wintersleigh — Color by Number: Sleigh in the Snow"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "classes",
+   "stem": "class",
+   "demand": 30,
+   "phrases": [
+    "reading comprehension classes",
+    "reading comprehension classes for adults",
+    "reading comprehension class x",
+    "reading comprehension class xi"
+   ],
+   "phraseCount": 4,
+   "supply": 4,
+   "supplySample": [
+    "reading-comprehension-easy-g2272-8 — Reading Comprehension: The Class Trip",
+    "reading-comprehension-g2272-2 — Reading Comprehension: The Class Trip",
+    "reading-comprehension-hard-g2272-13 — Reading Comprehension: The Class Trip",
+    "reading-comprehension-g2271-6 — Reading Comprehension: The Class Goldfish"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "singular-plural",
+   "topic": "class",
+   "stem": "class",
+   "demand": 29,
+   "phrases": [
+    "singular and plural class 2",
+    "singular and plural class 1",
+    "singular and plural class 3",
+    "singular and plural class 2 worksheets",
+    "singular and plural class 4",
+    "singular and plural for class 1"
+   ],
+   "phraseCount": 6,
+   "supply": 3,
+   "supplySample": [
+    "singular-plural-easy-classroom-k313-3 — Many and One — Classroom",
+    "singular-plural-easy-classroom-b-w-k316-4 — Write the Word for One — Classroom (B&W)",
+    "singular-plural-classroom-k287-3 — Singular and Plural — Classroom"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "unicorn",
+   "stem": "unicor",
+   "demand": 27,
+   "phrases": [
+    "color by number unicorn",
+    "color by number unicorn printable",
+    "color by number unicorn free printable"
+   ],
+   "phraseCount": 3,
+   "supply": 1,
+   "supplySample": [
+    "color-by-number-k394-42-unicorn — Color by Number: Unicorn"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "logic-puzzles",
+   "topic": "hard",
+   "stem": "hard",
+   "demand": 27,
+   "phrases": [
+    "logic grid puzzles difficult",
+    "logic grid puzzles hard",
+    "logic puzzles for kids hard"
+   ],
+   "phraseCount": 3,
+   "supply": 30,
+   "supplySample": [
+    "logic-puzzles-hard-farm-animals-g1349-3 — Picture Clue Logic Puzzles: Cross Out and Find — Farm Animals",
+    "logic-puzzles-hard-fruits-g1349-2 — Picture Clue Logic Puzzles: Cross Out and Find — Fruits",
+    "logic-puzzles-hard-pets-g1349-5 — Picture Clue Logic Puzzles: Cross Out and Find — Pets",
+    "logic-puzzles-hard-vehicles-g1349-4 — Picture Clue Logic Puzzles: Cross Out and Find — Vehicles"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "maze-puzzles",
+   "topic": "easy",
+   "stem": "easy",
+   "demand": 25,
+   "phrases": [
+    "maze puzzles easy",
+    "maze puzzles for kids easy",
+    "mazes easy",
+    "maze worksheets easy"
+   ],
+   "phraseCount": 4,
+   "supply": 69,
+   "supplySample": [
+    "maze-puzzles-easy-g1420-2 — Help the Monkey Find the Banana",
+    "maze-puzzles-easy-g1420-3 — Help the Badger Find the Chestnut Tree",
+    "maze-puzzles-easy-g1420-4 — Help the Rhino Find the Hippo",
+    "maze-puzzles-easy-g1420-5 — Help the Bear Find the Honey"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "sight-words",
+   "topic": "sentence",
+   "stem": "sentenc",
+   "demand": 24,
+   "phrases": [
+    "sight words in a sentence",
+    "sight words sentences",
+    "sight words sentences for grade 1 pdf",
+    "sight words sentences for grade 1"
+   ],
+   "phraseCount": 4,
+   "supply": 900,
+   "supplySample": [
+    "sight-words-k389-134-in — Sight Word in Sentences: in",
+    "sight-words-k389-135-is — Sight Word in Sentences: is",
+    "sight-words-k389-136-it — Sight Word in Sentences: it",
+    "sight-words-k390-107-play — Sight Word Sentence: play"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "maze-puzzles",
+   "topic": "monsters",
+   "stem": "monster",
+   "demand": 22,
+   "phrases": [
+    "mazes and monsters",
+    "mazes and monsters book",
+    "mazes monsters"
+   ],
+   "phraseCount": 3,
+   "supply": 1,
+   "supplySample": [
+    "maze-puzzles-hard-k409-10 — Take the Monster Truck to the Big Rock from A to Z"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "division-with-remainder",
+   "topic": "class",
+   "stem": "class",
+   "demand": 19,
+   "phrases": [
+    "division with remainders class 3",
+    "division with remainders class 2",
+    "division with remainders for class 2"
+   ],
+   "phraseCount": 3,
+   "supply": 4,
+   "supplySample": [
+    "division-with-remainder-easy-classroom-g3377-14 — Division with Remainders: Ring the Groups — Classroom",
+    "division-with-remainder-classroom-g3377-58 — Division with Remainders: Ring the Groups — Classroom",
+    "division-with-remainder-hard-classroom-g3377-102 — Division with Remainders: Ring the Groups — Classroom",
+    "division-with-remainder-hard-classroom-g3380 — Share It Out: What Is Left Over? — Classroom"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-tracing",
+   "topic": "easy",
+   "stem": "easy",
+   "demand": 18,
+   "phrases": [
+    "tracing pictures easy",
+    "tracing worksheets easy"
+   ],
+   "phraseCount": 2,
+   "supply": 100,
+   "supplySample": [
+    "picture-tracing-easy-k428-3 — The Doll’s House",
+    "picture-tracing-easy-g1429-2 — The Village Bakery",
+    "picture-tracing-easy-g1429-3 — The Rainy Crossing",
+    "picture-tracing-easy-g1429-4 — The Harbour Wall"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "unicorn",
+   "stem": "unicor",
+   "demand": 18,
+   "phrases": [
+    "how to draw unicorn",
+    "how to draw unicorn for kids"
+   ],
+   "phraseCount": 2,
+   "supply": 1,
+   "supplySample": [
+    "how-to-draw-hard-g2390-17 — Draw a Unicorn, Then Write About It"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "music",
+   "stem": "music",
+   "demand": 17,
+   "phrases": [
+    "line tracing music",
+    "line tracing to music"
+   ],
+   "phraseCount": 2,
+   "supply": 4,
+   "supplySample": [
+    "pre-writing-easy-music-k236-63 — Pencil Path Practice — Music",
+    "pre-writing-music-k236-161 — Pencil Path Practice — Music",
+    "pre-writing-hard-music-k236-260 — Pencil Path Practice — Music",
+    "pre-writing-easy-music-k248 — Pencil Path Review — Music"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-tracing",
+   "topic": "hard",
+   "stem": "hard",
+   "demand": 17,
+   "phrases": [
+    "tracing pictures hard",
+    "tracing worksheets hard"
+   ],
+   "phraseCount": 2,
+   "supply": 100,
+   "supplySample": [
+    "picture-tracing-hard-k426-12 — Where Do I Start?",
+    "picture-tracing-hard-g1429-12 — The Busy Harbour",
+    "picture-tracing-hard-g1429-13 — The Repair Garage",
+    "picture-tracing-hard-g1429-16 — At the Zoo Gate"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "class",
+   "stem": "class",
+   "demand": 17,
+   "phrases": [
+    "ordinal numbers class 1",
+    "ordinal numbers class 2",
+    "ordinal numbers class 2 worksheet",
+    "ordinal numbers class 1 worksheet",
+    "ordinal numbers for class 1",
+    "ordinal numbers worksheet for class 1"
+   ],
+   "phraseCount": 6,
+   "supply": 5,
+   "supplySample": [
+    "ordinal-numbers-easy-classroom-g1315-4 — Write the Missing Ordinal Numbers — Classroom",
+    "ordinal-numbers-hard-classroom-g1317-2 — Which Place? Write the Ordinal Number — Classroom",
+    "ordinal-numbers-easy-classroom-k320-16 — Ordinal Numbers: Find the Place — Classroom",
+    "ordinal-numbers-classroom-k320-65 — Ordinal Numbers: Find the Place — Classroom"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "multiplication-tables",
+   "topic": "easy",
+   "stem": "easy",
+   "demand": 15,
+   "phrases": [
+    "multiplication tables easy",
+    "times tables worksheets easy"
+   ],
+   "phraseCount": 2,
+   "supply": 23,
+   "supplySample": [
+    "multiplication-tables-easy-g3358-10 — Times Tables Practice",
+    "multiplication-tables-easy-g3358-11 — Times Tables Practice",
+    "multiplication-tables-easy-g3358-7 — Times Tables Practice",
+    "multiplication-tables-easy-g3358-8 — Times Tables Practice"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "multiplication-tables",
+   "topic": "hard",
+   "stem": "hard",
+   "demand": 15,
+   "phrases": [
+    "multiplication tables hard",
+    "times tables worksheets hard"
+   ],
+   "phraseCount": 2,
+   "supply": 50,
+   "supplySample": [
+    "multiplication-tables-hard-g3358-12 — Times Tables Practice",
+    "multiplication-tables-hard-g3358-13 — Times Tables Practice",
+    "multiplication-tables-hard-g3358-14 — Times Tables Practice",
+    "multiplication-tables-hard-g3358-15 — Times Tables Practice"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "division-with-remainder",
+   "topic": "easy",
+   "stem": "easy",
+   "demand": 14,
+   "phrases": [
+    "division with remainders easy",
+    "division with remainders easy worksheet"
+   ],
+   "phraseCount": 2,
+   "supply": 70,
+   "supplySample": [
+    "division-with-remainder-easy-g3384-8 — Hop Back on the Number Line: What Is Left?",
+    "division-with-remainder-easy-g3384-9 — Hop Back on the Number Line: What Is Left?",
+    "division-with-remainder-easy-g3383-8 — Find the Error: The Remainder Is Too Big",
+    "division-with-remainder-easy-g3382-7 — Exact or Not? Divisions With and Without a Remainder"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "ice cream",
+   "stem": "ice cream",
+   "demand": 13,
+   "phrases": [
+    "color by number ice cream",
+    "color by number ice cream printable"
+   ],
+   "phraseCount": 2,
+   "supply": 2,
+   "supplySample": [
+    "color-by-number-hard-k394-87-icecreamsundae — Color by Number: Ice Cream Sundae",
+    "color-by-number-hard-k393-12-townicecreamtruck — Color by Number: Ice Cream Truck"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "easy",
+   "stem": "easy",
+   "demand": 13,
+   "phrases": [
+    "how to draw easy",
+    "how to draw videos easy"
+   ],
+   "phraseCount": 2,
+   "supply": 72,
+   "supplySample": [
+    "how-to-draw-easy-g1416-5 — Draw a Turkey with the Grid",
+    "how-to-draw-easy-g1416-6 — Draw a Mouse with the Grid",
+    "how-to-draw-easy-g1416-7 — Draw a Dog with the Grid",
+    "how-to-draw-easy-g1416-2 — Draw a Camper with the Grid"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "dot-to-dot",
+   "topic": "easy",
+   "stem": "easy",
+   "demand": 13,
+   "phrases": [
+    "dot to dot easy",
+    "dot to dot easy printable"
+   ],
+   "phraseCount": 2,
+   "supply": 52,
+   "supplySample": [
+    "dot-to-dot-easy-g2304-10 — Dot-to-Dot: Count by Fives",
+    "dot-to-dot-easy-g2304-6 — Dot-to-Dot: Count by Fives",
+    "dot-to-dot-easy-g2304-7 — Dot-to-Dot: Count by Fives",
+    "dot-to-dot-easy-g1285-10 — Dot-to-Dot: Count by Twos"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "compound-words",
+   "topic": "hard",
+   "stem": "hard",
+   "demand": 13,
+   "phrases": [
+    "compound words difficult",
+    "compound words hard"
+   ],
+   "phraseCount": 2,
+   "supply": 10,
+   "supplySample": [
+    "compound-words-hard-g2332-3 — Compound Detective",
+    "compound-words-hard-g2332-4 — Compound Detective",
+    "compound-words-hard-g2332-5 — Compound Detective",
+    "compound-words-hard-g2332-6 — Compound Detective"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "sight-words",
+   "topic": "you",
+   "stem": "you",
+   "demand": 10,
+   "phrases": [
+    "sight words you",
+    "sight word worksheets you"
+   ],
+   "phraseCount": 2,
+   "supply": 15,
+   "supplySample": [
+    "sight-words-easy-k388-4-you — Sight Word of the Day: you",
+    "sight-words-k388-104-you — Sight Word of the Day: you",
+    "sight-words-hard-k388-204-you — Sight Word of the Day: you",
+    "sight-words-easy-k389-4-you — Sight Word in Sentences: you"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "sight-words",
+   "topic": "like",
+   "stem": "like",
+   "demand": 10,
+   "phrases": [
+    "sight word worksheets like"
+   ],
+   "phraseCount": 1,
+   "supply": 15,
+   "supplySample": [
+    "sight-words-easy-k388-67-like — Sight Word of the Day: like",
+    "sight-words-k388-167-like — Sight Word of the Day: like",
+    "sight-words-hard-k388-267-like — Sight Word of the Day: like",
+    "sight-words-easy-k389-67-like — Sight Word in Sentences: like"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "german",
+   "stem": "germa",
+   "demand": 10,
+   "phrases": [
+    "vocabulary cards german"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "picture-word-cards-hard-emotions-k350-de — Bilingual Picture Cards: English and German — Emotions",
+    "picture-word-cards-easy-toys-k350-de — Bilingual Picture Cards: English and German — Toys"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-tracing",
+   "topic": "light",
+   "stem": "light",
+   "demand": 10,
+   "phrases": [
+    "picture tracing light"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "picture-tracing-easy-k418-3 — Lighthouse Bay",
+    "picture-tracing-easy-k431-3 — Lighthouse Bay"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "doubles-halves",
+   "topic": "poster",
+   "stem": "post",
+   "demand": 10,
+   "phrases": [
+    "doubles and halves poster"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "doubles-halves-easy-post-office-g1247-34 — Doubles and Halves — Post Office",
+    "doubles-halves-post-office-g1247-82 — Doubles and Halves — Post Office",
+    "doubles-halves-post-office-g1288-3 — Halves to 12 — Post Office",
+    "doubles-halves-hard-post-office-g1288 — Halves to 12 — Post Office"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "read-and-color",
+   "topic": "easter",
+   "stem": "east",
+   "demand": 10,
+   "phrases": [
+    "read and color easter"
+   ],
+   "phraseCount": 1,
+   "supply": 8,
+   "supplySample": [
+    "read-and-color-easy-easter-bw-g1242-3 — Read and Color — Easter BW",
+    "read-and-color-easter-bw-g1242-51 — Read and Color — Easter BW",
+    "read-and-color-hard-easter-bw-g1242-93 — Read and Color — Easter BW",
+    "read-and-color-easy-easter-bw-2-g1242-4 — Read and Color — Easter BW 2"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "find-the-differences",
+   "topic": "zoo",
+   "stem": "zoo",
+   "demand": 10,
+   "phrases": [
+    "spot the difference zoo"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "find-the-differences-g1412-16 — Find 7 Differences: At the Zoo",
+    "find-the-differences-hard-g1412-19 — Find 7 Differences: At the Zoo",
+    "find-the-differences-hard-g1412-26 — Find 7 Differences: At the Zoo"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "house",
+   "stem": "house",
+   "demand": 10,
+   "phrases": [
+    "geometry house"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "geometry-easy-around-the-house-g2247 — Mirror Line? — Around the House",
+    "geometry-hard-around-the-house-g2247-4 — Mirror Line? — Around the House",
+    "geometry-around-the-house-g2248-4 — Find the Symmetric Picture — Around the House"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-problems",
+   "topic": "class",
+   "stem": "class",
+   "demand": 10,
+   "phrases": [
+    "word problems class 2",
+    "word problems class 3",
+    "word problems class 1",
+    "word problems class 4"
+   ],
+   "phraseCount": 4,
+   "supply": 17,
+   "supplySample": [
+    "word-problems-classroom-g1213-3 — Picture Word Problems — Classroom",
+    "word-problems-hard-classroom-b-w-g1213-4 — Picture Word Problems — Classroom (B&W)",
+    "word-problems-hard-classroom-g1238-3 — Addition Word Problems — Classroom",
+    "word-problems-hard-classroom-b-w-g1239-2 — Subtraction Word Problems — Classroom (B&W)"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-problems",
+   "topic": "hard",
+   "stem": "hard",
+   "demand": 10,
+   "phrases": [
+    "word problems hard"
+   ],
+   "phraseCount": 1,
+   "supply": 60,
+   "supplySample": [
+    "word-problems-hard-christmas-b-w-g1213-2 — Picture Word Problems — Christmas B&W",
+    "word-problems-hard-classroom-b-w-g1213-4 — Picture Word Problems — Classroom (B&W)",
+    "word-problems-hard-desserts-and-sweets-g1213-5 — Picture Word Problems — Desserts and Sweets",
+    "word-problems-hard-kitchen-tools-g1213-3 — Picture Word Problems — Kitchen Tools"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-problems",
+   "topic": "multiplication class",
+   "stem": "multiplicatio class",
+   "demand": 10,
+   "phrases": [
+    "word problems on multiplication for class 3"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "word-problems-classroom-g3370-3 — Multiplication and Division Word Problems — Classroom",
+    "word-problems-hard-classroom-b-w-g3370-4 — Multiplication and Division Word Problems — Classroom (B&W)",
+    "word-problems-hard-classroom-g3371-3 — Multiplication Word Problems — Classroom",
+    "word-problems-classroom-g3376-5 — Multiplication and Division: Mixed Problems — Classroom"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "singular-plural",
+   "topic": "zoo",
+   "stem": "zoo",
+   "demand": 10,
+   "phrases": [
+    "singular and plural zoo"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "singular-plural-zoo-animals-bw-k314-6 — One and Many: Write It Yourself — Zoo Animals BW"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "logic-puzzles",
+   "topic": "easy",
+   "stem": "easy",
+   "demand": 10,
+   "phrases": [
+    "logic grid puzzles easy"
+   ],
+   "phraseCount": 1,
+   "supply": 26,
+   "supplySample": [
+    "logic-puzzles-easy-farm-animals-g1349 — Picture Clue Logic Puzzles: Cross Out and Find — Farm Animals",
+    "logic-puzzles-easy-fruits-g1349-3 — Picture Clue Logic Puzzles: Cross Out and Find — Fruits",
+    "logic-puzzles-easy-pets-g1349-4 — Picture Clue Logic Puzzles: Cross Out and Find — Pets",
+    "logic-puzzles-easy-vehicles-g1349-5 — Picture Clue Logic Puzzles: Cross Out and Find — Vehicles"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "alphabetical-order",
+   "topic": "tool",
+   "stem": "tool",
+   "demand": 10,
+   "phrases": [
+    "alphabetical order tool"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "alphabetical-order-easy-tools-g1245 — ABC Order — Tools",
+    "alphabetical-order-easy-kitchen-tools-g1262 — ABC Order: Number the Words — Kitchen Tools",
+    "alphabetical-order-hard-tools-g1263 — ABC Order: Number Them, Then Write Them — Tools"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "dinosaur",
+   "stem": "dinosaur",
+   "demand": 9,
+   "phrases": [
+    "color by number dinosaur",
+    "color by number dinosaur printable"
+   ],
+   "phraseCount": 2,
+   "supply": 1,
+   "supplySample": [
+    "color-by-number-easy-k394-2-dinosaur — Color by Number: Dinosaur"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "circles",
+   "stem": "circl",
+   "demand": 9,
+   "phrases": [
+    "pre writing worksheets circles"
+   ],
+   "phraseCount": 1,
+   "supply": 15,
+   "supplySample": [
+    "pre-writing-easy-tools-bw-k386-4 — Circles, Squares and More Shapes — Tools BW",
+    "pre-writing-hard-accessories-k386-5 — Circles, Squares and More Shapes — Accessories",
+    "pre-writing-birds-2-k386-2 — Circles, Squares and More Shapes — Birds 2",
+    "pre-writing-easy-body-parts-k386 — Circles, Squares and More Shapes — Body Parts"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "read-and-color",
+   "topic": "house",
+   "stem": "house",
+   "demand": 9,
+   "phrases": [
+    "read and color the house"
+   ],
+   "phraseCount": 1,
+   "supply": 6,
+   "supplySample": [
+    "read-and-color-easy-household-bw-g1242-30 — Read and Color — Household BW",
+    "read-and-color-household-bw-g1242-77 — Read and Color — Household BW",
+    "read-and-color-hard-household-bw-g1242-120 — Read and Color — Household BW",
+    "read-and-color-easy-household-bw-g1251 — Read and Color: Four Sentences — Household BW"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "find-the-differences",
+   "topic": "under sea",
+   "stem": "under sea",
+   "demand": 9,
+   "phrases": [
+    "spot the difference under the sea"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "find-the-differences-easy-g1412-3 — Find 7 Differences: Under the Sea",
+    "find-the-differences-easy-g1412-8 — Find 7 Differences: Under the Sea",
+    "find-the-differences-easy-k397-4 — Find 3 Differences: Submarine under the Sea"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "poster",
+   "stem": "post",
+   "demand": 9,
+   "phrases": [
+    "word classes poster"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "word-classes-post-office-g2275-2 — Nouns, Verbs, and Adjectives — Post Office",
+    "word-classes-easy-post-office-g2287-2 — Word Classes: Sort Fifteen Words — Post Office"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "opposites",
+   "topic": "hard",
+   "stem": "hard",
+   "demand": 9,
+   "phrases": [
+    "opposites hard"
+   ],
+   "phraseCount": 1,
+   "supply": 17,
+   "supplySample": [
+    "opposites-hard-g1335-12 — Opposites in a Sentence",
+    "opposites-hard-g1307-12 — Opposites: Write the Opposite Word",
+    "opposites-hard-g1307-13 — Opposites: Write the Opposite Word",
+    "opposites-hard-g1307-14 — Opposites: Write the Opposite Word"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "elephant",
+   "stem": "elephant",
+   "demand": 8,
+   "phrases": [
+    "color by number elephant",
+    "color by number elephant printable"
+   ],
+   "phraseCount": 2,
+   "supply": 2,
+   "supplySample": [
+    "color-by-number-k393-68-elephantsavanna — Color by Number: Elephant on the Savanna",
+    "color-by-number-hard-k394-4-elephant — Color by Number: Elephant"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "hard",
+   "stem": "hard",
+   "demand": 8,
+   "phrases": [
+    "color by number hard"
+   ],
+   "phraseCount": 1,
+   "supply": 49,
+   "supplySample": [
+    "color-by-number-hard-k393-6-gardendog — Color by Number: Dog in the Garden",
+    "color-by-number-hard-k393-7-pondturtle — Color by Number: Turtle at the Pond",
+    "color-by-number-hard-k394-6-hippo — Color by Number: Hippo",
+    "color-by-number-hard-k394-7-rooster — Color by Number: Rooster"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "lion",
+   "stem": "lion",
+   "demand": 8,
+   "phrases": [
+    "color by number lion"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "color-by-number-k393-43-lionsavanna — Color by Number: Lion on the Savanna",
+    "color-by-number-k394-11-lion — Color by Number: Lion"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "race car",
+   "stem": "race car",
+   "demand": 8,
+   "phrases": [
+    "color by number race car"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "color-by-number-hard-k393-18-townracecar — Color by Number: Race Car"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-tracing",
+   "topic": "dinosaur",
+   "stem": "dinosaur",
+   "demand": 8,
+   "phrases": [
+    "tracing worksheets dinosaur"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "picture-tracing-k423-10 — Dinosaur Valley"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "bat",
+   "stem": "bat",
+   "demand": 8,
+   "phrases": [
+    "how to draw a bat"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "how-to-draw-hard-g1416-16 — Draw a Bat with the Grid",
+    "how-to-draw-easy-g2390-6 — Draw a Bat, Then Write About It"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "fire",
+   "stem": "fire",
+   "demand": 8,
+   "phrases": [
+    "how to draw fire"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "how-to-draw-hard-g1417-13 — Draw a Fire Truck in the Picture"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "ice cream",
+   "stem": "ice cream",
+   "demand": 8,
+   "phrases": [
+    "how to draw ice cream"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "how-to-draw-hard-g1419-13 — Copy Each Step: Draw an Ice Cream Truck",
+    "how-to-draw-hard-k396-29 — How to Draw an Ice Cream Truck Step by Step"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "class",
+   "stem": "class",
+   "demand": 8,
+   "phrases": [
+    "geometry class"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "geometry-classroom-g2247-4 — Mirror Line? — Classroom"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "easy",
+   "stem": "easy",
+   "demand": 8,
+   "phrases": [
+    "telling time worksheets easy"
+   ],
+   "phraseCount": 1,
+   "supply": 74,
+   "supplySample": [
+    "telling-time-easy-g1148-2 — On the Hour",
+    "telling-time-easy-g1148-3 — On the Hour",
+    "telling-time-easy-g1148-4 — On the Hour",
+    "telling-time-easy-g1148-5 — On the Hour"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "kitchen",
+   "stem": "kitch",
+   "demand": 8,
+   "phrases": [
+    "measurement kitchen"
+   ],
+   "phraseCount": 1,
+   "supply": 6,
+   "supplySample": [
+    "measurement-easy-kitchen-bw-g2236-4 — How Much Longer? — Kitchen BW",
+    "measurement-easy-kitchen-tools-g2252-4 — Measuring Jugs and Scales — Kitchen Tools",
+    "measurement-kitchen-tools-g2252-5 — Measuring Jugs and Scales — Kitchen Tools",
+    "measurement-hard-kitchen-tools-g2261-2 — Balance Scales in Grams — Kitchen Tools"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rhyming-words",
+   "topic": "easy",
+   "stem": "easy",
+   "demand": 8,
+   "phrases": [
+    "rhyming words easy"
+   ],
+   "phraseCount": 1,
+   "supply": 30,
+   "supplySample": [
+    "rhyming-words-easy-g1309-10-og — Rhyming Words: Rhyme and Write",
+    "rhyming-words-easy-g1309-11-og — Rhyming Words: Rhyme and Write",
+    "rhyming-words-easy-g1309-7 — Rhyming Words: Rhyme and Write",
+    "rhyming-words-easy-g1309-8-at — Rhyming Words: Rhyme and Write"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rhyming-words",
+   "topic": "hard",
+   "stem": "hard",
+   "demand": 8,
+   "phrases": [
+    "rhyming words hard"
+   ],
+   "phraseCount": 1,
+   "supply": 30,
+   "supplySample": [
+    "rhyming-words-hard-g1309-12 — Rhyming Words: Rhyme and Write",
+    "rhyming-words-hard-g1309-13-at — Rhyming Words: Rhyme and Write",
+    "rhyming-words-hard-g1309-15-at — Rhyming Words: Rhyme and Write",
+    "rhyming-words-hard-g1309-16-at — Rhyming Words: Rhyme and Write"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-of-the-day",
+   "topic": "easy",
+   "stem": "easy",
+   "demand": 8,
+   "phrases": [
+    "number of the day easy"
+   ],
+   "phraseCount": 1,
+   "supply": 20,
+   "supplySample": [
+    "number-of-the-day-easy-g1243-10 — Number of the Day",
+    "number-of-the-day-easy-g1243-11 — Number of the Day",
+    "number-of-the-day-easy-g1243-7 — Number of the Day",
+    "number-of-the-day-easy-g1243-8 — Number of the Day"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "articles",
+   "topic": "furniture",
+   "stem": "furnitur",
+   "demand": 8,
+   "phrases": [
+    "articles furniture"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "articles-easy-furniture-g1292-5 — Sort the Words — Furniture"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "robot",
+   "stem": "robot",
+   "demand": 7,
+   "phrases": [
+    "color by number robot"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "color-by-number-hard-k394-16-robot — Color by Number: Robot"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "sight-words",
+   "topic": "easy",
+   "stem": "easy",
+   "demand": 7,
+   "phrases": [
+    "sight words easy"
+   ],
+   "phraseCount": 1,
+   "supply": 539,
+   "supplySample": [
+    "sight-words-easy-k239-27 — Sight Words: Read, Trace, Write",
+    "sight-words-easy-k239-28 — Sight Words: Read, Trace, Write",
+    "sight-words-easy-k239-29 — Sight Words: Read, Trace, Write",
+    "sight-words-easy-k239-30 — Sight Words: Read, Trace, Write"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "read-and-color",
+   "topic": "christmas",
+   "stem": "christma",
+   "demand": 7,
+   "phrases": [
+    "read and color christmas"
+   ],
+   "phraseCount": 1,
+   "supply": 9,
+   "supplySample": [
+    "read-and-color-easy-christmas-b-w-g1242 — Read and Color — Christmas B&W",
+    "read-and-color-christmas-b-w-g1242-49 — Read and Color — Christmas B&W",
+    "read-and-color-hard-christmas-b-w-g1242-91 — Read and Color — Christmas B&W",
+    "read-and-color-easy-christmas-b-w-2-g1242-2 — Read and Color — Christmas B&W 2"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "find-the-differences",
+   "topic": "kitchen",
+   "stem": "kitch",
+   "demand": 7,
+   "phrases": [
+    "find the differences kitchen"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "find-the-differences-easy-g1412-6 — Find 7 Differences: In the Kitchen",
+    "find-the-differences-hard-g2388-8 — Find 10 Differences: In the Kitchen",
+    "find-the-differences-easy-k397-10 — Find 3 Differences: Mice in the Kitchen"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "find-the-differences",
+   "topic": "room",
+   "stem": "room",
+   "demand": 7,
+   "phrases": [
+    "find the differences room",
+    "spot the difference room"
+   ],
+   "phraseCount": 2,
+   "supply": 1,
+   "supplySample": [
+    "find-the-differences-k397-18 — Find 3 Differences: Living Room Fun"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "tools",
+   "stem": "tools",
+   "demand": 7,
+   "phrases": [
+    "geometry tools"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "geometry-easy-kitchen-tools-g2248-4 — Find the Symmetric Picture — Kitchen Tools"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-problems",
+   "topic": "easy",
+   "stem": "easy",
+   "demand": 7,
+   "phrases": [
+    "word problems easy"
+   ],
+   "phraseCount": 1,
+   "supply": 60,
+   "supplySample": [
+    "word-problems-easy-accessories-g1213-3 — Picture Word Problems — Accessories",
+    "word-problems-easy-christmas-g1213 — Picture Word Problems — Christmas",
+    "word-problems-easy-food-bw-2-g1213-4 — Picture Word Problems — Food BW 2",
+    "word-problems-easy-toys-g1213-5 — Picture Word Problems — Toys"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "mental-math",
+   "topic": "hard",
+   "stem": "hard",
+   "demand": 7,
+   "phrases": [
+    "mental math hard"
+   ],
+   "phraseCount": 1,
+   "supply": 30,
+   "supplySample": [
+    "mental-math-hard-g1208-12 — Mental Math to 20",
+    "mental-math-hard-g1208-13 — Mental Math to 20",
+    "mental-math-hard-g1208-14 — Mental Math to 20",
+    "mental-math-hard-g1208-15 — Mental Math to 20"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "camp",
+   "stem": "camp",
+   "demand": 7,
+   "phrases": [
+    "reading comprehension camp"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "reading-comprehension-g2270-3 — Reading Comprehension: Camping in the Backyard",
+    "reading-comprehension-easy-g2270-9 — Reading Comprehension: Camping in the Backyard",
+    "reading-comprehension-hard-g2270-14 — Reading Comprehension: Camping in the Backyard"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "verb-forms",
+   "topic": "hard",
+   "stem": "hard",
+   "demand": 7,
+   "phrases": [
+    "verb forms difficult",
+    "verb forms hard"
+   ],
+   "phraseCount": 2,
+   "supply": 30,
+   "supplySample": [
+    "verb-forms-hard-g2334-12 — Match the Verb to Its Past Form",
+    "verb-forms-hard-g2335-13 — Verb Forms in Sentences with Pictures",
+    "verb-forms-hard-g2336-12 — The Irregular Verbs: be, have, do, go",
+    "verb-forms-hard-g2336-14 — The Irregular Verbs: be, have, do, go"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "synonyms",
+   "topic": "hard",
+   "stem": "hard",
+   "demand": 7,
+   "phrases": [
+    "synonyms difficult",
+    "synonyms hard"
+   ],
+   "phraseCount": 2,
+   "supply": 30,
+   "supplySample": [
+    "synonyms-hard-g1395-10 — Synonyms with Pictures: Two Words, One Picture",
+    "synonyms-hard-g1395-12 — Synonyms with Pictures: Two Words, One Picture",
+    "synonyms-hard-g1395-13 — Synonyms with Pictures: Two Words, One Picture",
+    "synonyms-hard-g1396-13 — Shades of Meaning: From a Little to a Lot"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "alphabetical-order",
+   "topic": "hard",
+   "stem": "hard",
+   "demand": 7,
+   "phrases": [
+    "alphabetical order hard",
+    "alphabetical order hard example"
+   ],
+   "phraseCount": 2,
+   "supply": 20,
+   "supplySample": [
+    "alphabetical-order-hard-desserts-and-sweets-g1245 — ABC Order — Desserts and Sweets",
+    "alphabetical-order-hard-ocean-life-g1264 — ABC Order: When Words Start the Same — Ocean Life",
+    "alphabetical-order-hard-apparel-bw-g1245-4 — ABC Order — Apparel BW",
+    "alphabetical-order-hard-furniture-g1245-3 — ABC Order — Furniture"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "alphabetical-order",
+   "topic": "vegetables",
+   "stem": "vegetabl",
+   "demand": 7,
+   "phrases": [
+    "alphabetical order vegetables"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "alphabetical-order-vegetables-g1263-5 — ABC Order: Number Them, Then Write Them — Vegetables",
+    "alphabetical-order-easy-vegetables-bw-g1264-4 — ABC Order: When Words Start the Same — Vegetables BW"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "all-about-me",
+   "topic": "easy",
+   "stem": "easy",
+   "demand": 7,
+   "phrases": [
+    "all about me worksheet easy"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "all-about-me-easy-k344 — This Is Me: Label the Face"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "butterfly",
+   "stem": "butterfly",
+   "demand": 6,
+   "phrases": [
+    "color by number butterfly"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "color-by-number-k393-10-gardenbutterfly — Color by Number: Butterfly in the Garden"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "dog",
+   "stem": "dog",
+   "demand": 6,
+   "phrases": [
+    "color by number dog"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "color-by-number-hard-k393-6-gardendog — Color by Number: Dog in the Garden"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "jellyfish",
+   "stem": "jellyfish",
+   "demand": 6,
+   "phrases": [
+    "color by number jellyfish"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "color-by-number-easy-k393-29-jellyfishsea — Color by Number: Jellyfish in the Sea"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "sight-words",
+   "topic": "hard",
+   "stem": "hard",
+   "demand": 6,
+   "phrases": [
+    "sight words hard"
+   ],
+   "phraseCount": 1,
+   "supply": 525,
+   "supplySample": [
+    "sight-words-hard-k262-3 — Sight Words Practice Set 5",
+    "sight-words-hard-k263-3 — Sight Words Practice Set 6",
+    "sight-words-hard-k239-61 — Sight Words: Read, Trace, Write",
+    "sight-words-hard-k239-62 — Sight Words: Read, Trace, Write"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "easy",
+   "stem": "easy",
+   "demand": 6,
+   "phrases": [
+    "line tracing easy"
+   ],
+   "phraseCount": 1,
+   "supply": 139,
+   "supplySample": [
+    "pre-writing-easy-tools-bw-k386-4 — Circles, Squares and More Shapes — Tools BW",
+    "pre-writing-easy-beach-k236-19 — Pencil Path Practice — Beach",
+    "pre-writing-easy-accessories-k236-8 — Pencil Path Practice — Accessories",
+    "pre-writing-easy-activities-k236-9 — Pencil Path Practice — Activities"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "money",
+   "topic": "easy",
+   "stem": "easy",
+   "demand": 6,
+   "phrases": [
+    "counting money easy",
+    "counting money easy worksheets"
+   ],
+   "phraseCount": 2,
+   "supply": 74,
+   "supplySample": [
+    "money-easy-g1211-10 — Counting Coins",
+    "money-easy-g1211-11 — Counting Coins",
+    "money-easy-g1211-8 — Counting Coins",
+    "money-easy-g1211-9 — Counting Coins"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "flames",
+   "stem": "flam",
+   "demand": 6,
+   "phrases": [
+    "how to draw flames"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "how-to-draw-hard-g2390-13 — Draw a Flamingo, Then Write About It",
+    "how-to-draw-hard-k396-27 — How to Draw a Flamingo Step by Step"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "hard",
+   "stem": "hard",
+   "demand": 6,
+   "phrases": [
+    "telling time worksheets hard"
+   ],
+   "phraseCount": 1,
+   "supply": 59,
+   "supplySample": [
+    "telling-time-hard-g1148-10 — On the Hour",
+    "telling-time-hard-g1148-11 — On the Hour",
+    "telling-time-hard-g1148-7 — On the Hour",
+    "telling-time-hard-g1148-8 — On the Hour"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "how many",
+   "stem": "how many",
+   "demand": 6,
+   "phrases": [
+    "question words how many"
+   ],
+   "phraseCount": 1,
+   "supply": 5,
+   "supplySample": [
+    "question-words-hard-g1353-13 — Question Words: Who, What, Where, When, How Many",
+    "question-words-hard-g1353-14 — Question Words: Who, What, Where, When, How Many",
+    "question-words-hard-g1353-15 — Question Words: Who, What, Where, When, How Many",
+    "question-words-hard-g1353-16 — Question Words: Who, What, Where, When, How Many"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "synonyms",
+   "topic": "easy",
+   "stem": "easy",
+   "demand": 6,
+   "phrases": [
+    "synonyms for easy",
+    "synonyms easy"
+   ],
+   "phraseCount": 2,
+   "supply": 30,
+   "supplySample": [
+    "synonyms-easy-g1395-7 — Synonyms with Pictures: Two Words, One Picture",
+    "synonyms-easy-g1395-8 — Synonyms with Pictures: Two Words, One Picture",
+    "synonyms-easy-g1395-5 — Synonyms with Pictures: Two Words, One Picture",
+    "synonyms-easy-g1395-6 — Synonyms with Pictures: Two Words, One Picture"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "cursive-writing",
+   "topic": "easy",
+   "stem": "easy",
+   "demand": 6,
+   "phrases": [
+    "cursive writing easy"
+   ],
+   "phraseCount": 1,
+   "supply": 31,
+   "supplySample": [
+    "cursive-writing-easy-g2385-8 — Cursive Connecting Letters: Joining Two Letters",
+    "cursive-writing-easy-g2377-10 — Cursive Letters: e, l and b",
+    "cursive-writing-easy-g2377-11 — Cursive Letters: h, f and k",
+    "cursive-writing-easy-g2377-12 — Cursive Letters: r, s, j and p"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "opposites",
+   "topic": "easy",
+   "stem": "easy",
+   "demand": 6,
+   "phrases": [
+    "opposites easy"
+   ],
+   "phraseCount": 1,
+   "supply": 26,
+   "supplySample": [
+    "opposites-easy-g1307-10 — Opposites: Write the Opposite Word",
+    "opposites-easy-g1307-11 — Opposites: Write the Opposite Word",
+    "opposites-easy-g1307-7 — Opposites: Write the Opposite Word",
+    "opposites-easy-g1307-8 — Opposites: Write the Opposite Word"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "rabbit",
+   "stem": "rabbit",
+   "demand": 5,
+   "phrases": [
+    "color by number rabbit"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "color-by-number-k393-7-farmrabbit — Color by Number: Rabbit on the Farm",
+    "color-by-number-easy-k393-10-forestrabbit — Color by Number: Rabbit in the Forest",
+    "color-by-number-k394-20-rabbit — Color by Number: Rabbit"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "train",
+   "stem": "train",
+   "demand": 5,
+   "phrases": [
+    "color by number train"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "color-by-number-hard-k394-71-toytrain — Color by Number: Toy Train",
+    "color-by-number-hard-k393-16-towntrain — Color by Number: Train in Town"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "sight-words",
+   "topic": "help",
+   "stem": "help",
+   "demand": 5,
+   "phrases": [
+    "sight words help"
+   ],
+   "phraseCount": 1,
+   "supply": 15,
+   "supplySample": [
+    "sight-words-easy-k388-32-help — Sight Word of the Day: help",
+    "sight-words-k388-132-help — Sight Word of the Day: help",
+    "sight-words-hard-k388-232-help — Sight Word of the Day: help",
+    "sight-words-easy-k389-32-help — Sight Word in Sentences: help"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-tracing",
+   "topic": "create",
+   "stem": "creat",
+   "demand": 5,
+   "phrases": [
+    "word tracing create"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "word-tracing-easy-forest-creatures-k284-46 — Trace and Write the Words — Forest Creatures",
+    "word-tracing-forest-creatures-k284-140 — Trace and Write the Words — Forest Creatures",
+    "word-tracing-hard-forest-creatures-k284-235 — Trace and Write the Words — Forest Creatures",
+    "word-tracing-hard-forest-creatures-k311-219 — Copy the Word — Forest Creatures"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "maze-puzzles",
+   "topic": "corn",
+   "stem": "corn",
+   "demand": 5,
+   "phrases": [
+    "mazes corn"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "maze-puzzles-hard-g1424-10 — Help the Hen Pick Up Every Ear of Corn",
+    "maze-puzzles-k405-22 — Help the Turkey Reach the Corn",
+    "maze-puzzles-easy-k406-5 — Help the Hen Get to the Corn"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "singular-plural",
+   "topic": "house",
+   "stem": "house",
+   "demand": 5,
+   "phrases": [
+    "singular and plural house"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "singular-plural-easy-household-bw-k287-4 — Singular and Plural — Household BW",
+    "singular-plural-household-bw-k302-4 — One and Many: First Words — Household BW",
+    "singular-plural-hard-household-bw-k303-4 — One and Many: Longer Words — Household BW",
+    "singular-plural-easy-around-the-house-k313 — Many and One — Around the House"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "articles",
+   "topic": "clothing",
+   "stem": "clothing",
+   "demand": 5,
+   "phrases": [
+    "articles clothing"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "articles-easy-clothing-g1292-3 — Sort the Words — Clothing"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "horses",
+   "stem": "hors",
+   "demand": 4,
+   "phrases": [
+    "color by number horses"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "color-by-number-k393-4-farmhorse — Color by Number: Horse on the Farm",
+    "color-by-number-hard-k394-17-rockinghorse — Color by Number: Rocking Horse"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "turtle",
+   "stem": "turtl",
+   "demand": 4,
+   "phrases": [
+    "color by number turtle"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "color-by-number-hard-k393-7-pondturtle — Color by Number: Turtle at the Pond",
+    "color-by-number-hard-k393-9-seaturtleswim — Color by Number: Sea Turtle Swimming",
+    "color-by-number-hard-k394-14-seaturtle — Color by Number: Sea Turtle",
+    "color-by-number-hard-k394-8-turtle — Color by Number: Turtle"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "umbrella",
+   "stem": "umbrell",
+   "demand": 4,
+   "phrases": [
+    "color by number umbrella"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "color-by-number-easy-k393-26-beachumbrella — Color by Number: Beach Umbrella"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-charts",
+   "topic": "music",
+   "stem": "music",
+   "demand": 4,
+   "phrases": [
+    "number charts music"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "number-charts-easy-music-g1125 — Count by Twos — Music",
+    "number-charts-hard-music-g3329-3 — Big Skip Counting — Music"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-tracing",
+   "topic": "house",
+   "stem": "house",
+   "demand": 4,
+   "phrases": [
+    "tracing worksheets house"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "picture-tracing-easy-k428-3 — The Doll’s House",
+    "picture-tracing-easy-k430-3 — The Shape House",
+    "picture-tracing-hard-k424-15 — The Reptile House"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-tracing",
+   "topic": "winter",
+   "stem": "wint",
+   "demand": 4,
+   "phrases": [
+    "tracing worksheets winter"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "picture-tracing-hard-k429-12 — The Winter Concert"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "class",
+   "stem": "class",
+   "demand": 4,
+   "phrases": [
+    "fractions class 5 worksheet with answers"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "fractions-classroom-g3320-3 — Fraction of the Group — Classroom",
+    "fractions-hard-classroom-g3320 — Fraction of the Group — Classroom"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "jellyfish",
+   "stem": "jellyfish",
+   "demand": 4,
+   "phrases": [
+    "how to draw jellyfish"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "how-to-draw-g2390-11 — Draw a Jellyfish, Then Write About It"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "cat",
+   "stem": "cat",
+   "demand": 3,
+   "phrases": [
+    "color by number cat"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "color-by-number-easy-k393-21-catgarden — Color by Number: Cat in the Garden",
+    "color-by-number-easy-k393-45-nightcat — Color by Number: Cat at Night",
+    "color-by-number-k394-2-cat — Color by Number: Cat"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "truck",
+   "stem": "truck",
+   "demand": 3,
+   "phrases": [
+    "color by number truck"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "color-by-number-hard-k393-85-firetruck — Color by Number: Fire Truck",
+    "color-by-number-hard-k394-92-dumptruck — Color by Number: Dump Truck",
+    "color-by-number-hard-k393-12-townicecreamtruck — Color by Number: Ice Cream Truck",
+    "color-by-number-hard-k393-14-towngarbagetruck — Color by Number: Garbage Truck in Town"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "read-and-color",
+   "topic": "food",
+   "stem": "food",
+   "demand": 3,
+   "phrases": [
+    "read and color food"
+   ],
+   "phraseCount": 1,
+   "supply": 12,
+   "supplySample": [
+    "read-and-color-easy-food-bw-g1242-22 — Read and Color — Food BW",
+    "read-and-color-food-bw-g1242-70 — Read and Color — Food BW",
+    "read-and-color-hard-food-bw-g1242-112 — Read and Color — Food BW",
+    "read-and-color-easy-food-bw-2-g1242-23 — Read and Color — Food BW 2"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "car",
+   "stem": "car",
+   "demand": 3,
+   "phrases": [
+    "how to draw car"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "how-to-draw-hard-k396-26 — How to Draw a Police Car Step by Step",
+    "how-to-draw-hard-k403-14 — Finish the Police Car Drawing"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "leopard",
+   "stem": "leopard",
+   "demand": 3,
+   "phrases": [
+    "how to draw leopard print"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "how-to-draw-g1418-10 — Order the Steps: Drawing a Leopard",
+    "how-to-draw-hard-g2391-14 — Draw a Leopard from Memory"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "maze-puzzles",
+   "topic": "chicken",
+   "stem": "chick",
+   "demand": 3,
+   "phrases": [
+    "mazes chicken"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "maze-puzzles-k406-8 — Help the Chick Get to the Egg"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "singular-plural",
+   "topic": "life",
+   "stem": "life",
+   "demand": 3,
+   "phrases": [
+    "singular and plural life"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "singular-plural-sea-life-bw-2-k287-2 — Singular and Plural — Sea Life BW 2"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "easy",
+   "stem": "easy",
+   "demand": 3,
+   "phrases": [
+    "reading comprehension easy"
+   ],
+   "phraseCount": 1,
+   "supply": 30,
+   "supplySample": [
+    "reading-comprehension-easy-g2254-10 — Read and Answer",
+    "reading-comprehension-easy-g2254-11 — Read and Answer",
+    "reading-comprehension-easy-g2254-8 — Read and Answer",
+    "reading-comprehension-easy-g2269-11 — Reading Comprehension: The Sack Race"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "verb-forms",
+   "topic": "easy",
+   "stem": "easy",
+   "demand": 3,
+   "phrases": [
+    "verb forms easy"
+   ],
+   "phraseCount": 1,
+   "supply": 30,
+   "supplySample": [
+    "verb-forms-easy-g2335-8 — Verb Forms in Sentences with Pictures",
+    "verb-forms-easy-g2336-9 — The Irregular Verbs: be, have, do, go",
+    "verb-forms-easy-g2317-11 — Verb Forms: Today and Yesterday",
+    "verb-forms-easy-g2317-8 — Verb Forms: Today and Yesterday"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "house",
+   "stem": "house",
+   "demand": 2,
+   "phrases": [
+    "color by number house"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "color-by-number-hard-k394-27-house — Color by Number: House",
+    "color-by-number-k393-33-wintergingerbread — Color by Number: Gingerbread House"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "tiger",
+   "stem": "tiger",
+   "demand": 2,
+   "phrases": [
+    "color by number tiger"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "color-by-number-easy-k394-16-tiger — Color by Number: Tiger"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "division-with-remainder",
+   "topic": "poster",
+   "stem": "post",
+   "demand": 2,
+   "phrases": [
+    "division with remainders poster"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "division-with-remainder-easy-post-office-g3377-32 — Division with Remainders: Ring the Groups — Post Office",
+    "division-with-remainder-post-office-g3377-76 — Division with Remainders: Ring the Groups — Post Office",
+    "division-with-remainder-hard-post-office-g3377-120 — Division with Remainders: Ring the Groups — Post Office"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "ice",
+   "stem": "ice",
+   "demand": 2,
+   "phrases": [
+    "how to draw ice"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "how-to-draw-hard-g1419-13 — Copy Each Step: Draw an Ice Cream Truck",
+    "how-to-draw-hard-k396-29 — How to Draw an Ice Cream Truck Step by Step"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "tiger",
+   "stem": "tiger",
+   "demand": 2,
+   "phrases": [
+    "how to draw tiger"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "how-to-draw-hard-g2390-15 — Draw a Tiger, Then Write About It",
+    "how-to-draw-hard-k401-13 — Draw a Tiger with Simple Shapes"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "kitchen",
+   "stem": "kitch",
+   "demand": 2,
+   "phrases": [
+    "geometry kitchen"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "geometry-easy-kitchen-tools-g2248-4 — Find the Symmetric Picture — Kitchen Tools"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "letter-tracing",
+   "topic": "easy",
+   "stem": "easy",
+   "demand": 2,
+   "phrases": [
+    "letter tracing easy"
+   ],
+   "phraseCount": 1,
+   "supply": 29,
+   "supplySample": [
+    "letter-tracing-easy-k238-28-a — Trace the Letter A a",
+    "letter-tracing-easy-k238-29-b — Trace the Letter B b",
+    "letter-tracing-easy-k238-30-c — Trace the Letter C c",
+    "letter-tracing-easy-k238-31-d — Trace the Letter D d"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "giraffe",
+   "stem": "giraff",
+   "demand": 1,
+   "phrases": [
+    "color by number giraffe"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "color-by-number-k393-28-savannagiraffe — Color by Number: Giraffe on the Savanna"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-charts",
+   "topic": "classroom",
+   "stem": "classroom",
+   "demand": 1,
+   "phrases": [
+    "number charts for classroom"
+   ],
+   "phraseCount": 1,
+   "supply": 6,
+   "supplySample": [
+    "number-charts-easy-classroom-g1123-3 — Count by Tens — Classroom",
+    "number-charts-easy-classroom-b-w-g1125-4 — Count by Twos — Classroom (B&W)",
+    "number-charts-classroom-b-w-g1126-4 — Count in Groups — Classroom (B&W)",
+    "number-charts-hard-classroom-b-w-g1129-4 — The Hundreds Chart — Classroom (B&W)"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "find-the-differences",
+   "topic": "pictures hard",
+   "stem": "pictur hard",
+   "demand": 1,
+   "phrases": [
+    "find the differences pictures hard"
+   ],
+   "phraseCount": 1,
+   "supply": 14,
+   "supplySample": [
+    "find-the-differences-hard-g1415-20 — Mirror Pictures: Fold and Check",
+    "find-the-differences-hard-g1415-21 — Mirror Pictures: Fold and Check",
+    "find-the-differences-hard-g1415-22 — Mirror Pictures: Fold and Check",
+    "find-the-differences-hard-g1415-23 — Mirror Pictures: Fold and Check"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "find-the-differences",
+   "topic": "cat",
+   "stem": "cat",
+   "demand": 1,
+   "phrases": [
+    "spot the difference cat"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "find-the-differences-easy-k395-4 — Find 5 Differences: Cat on the Rug"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "mental-math",
+   "topic": "easy",
+   "stem": "easy",
+   "demand": 1,
+   "phrases": [
+    "mental math easy"
+   ],
+   "phraseCount": 1,
+   "supply": 30,
+   "supplySample": [
+    "mental-math-easy-g1208-10 — Mental Math to 20",
+    "mental-math-easy-g1208-11 — Mental Math to 20",
+    "mental-math-easy-g1208-7 — Mental Math to 20",
+    "mental-math-easy-g1208-8 — Mental Math to 20"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "singular-plural",
+   "topic": "things",
+   "stem": "thing",
+   "demand": 1,
+   "phrases": [
+    "singular and plural things"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "singular-plural-easy-things-that-fly-k287-3 — Singular and Plural — Things That Fly",
+    "singular-plural-hard-things-that-fly-k313-5 — Many and One — Things That Fly"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "articles",
+   "topic": "nature",
+   "stem": "natur",
+   "demand": 1,
+   "phrases": [
+    "articles nature"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "articles-nature-bw-k307-4 — Circle the Right Word: Eight Pictures — Nature BW"
+   ],
+   "covered": false,
+   "coveredBy": null
+  }
+ ],
+ "contentIdeas": [
+  {
+   "type": "verb-forms",
+   "topic": "class",
+   "stem": "class",
+   "demand": 70,
+   "phrases": [
+    "verb forms class 9",
+    "verb forms class 8",
+    "verb forms class 5",
+    "verb forms class 10",
+    "verb forms class 6",
+    "verb forms for class 5"
+   ],
+   "phraseCount": 16,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "find-the-differences",
+   "topic": "roblox",
+   "stem": "roblox",
+   "demand": 66,
+   "phrases": [
+    "find the differences on roblox",
+    "find the differences roblox answers",
+    "find the differences roblox",
+    "find the differences roblox game",
+    "spot the difference roblox",
+    "spot the difference roblox answers"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "spanish",
+   "stem": "spanish",
+   "demand": 60,
+   "phrases": [
+    "telling time in spanish",
+    "telling time in spanish practice",
+    "telling time in spanish worksheets",
+    "telling time practice spanish",
+    "telling time spanish",
+    "telling time spanish worksheet pdf"
+   ],
+   "phraseCount": 10,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "find-the-differences",
+   "topic": "level",
+   "stem": "level",
+   "demand": 59,
+   "phrases": [
+    "find the differences level 16",
+    "find the differences level 75",
+    "find the differences level 40",
+    "spot the difference level 30",
+    "find the difference level 33",
+    "find the difference level 15"
+   ],
+   "phraseCount": 10,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "september",
+   "stem": "septemb",
+   "demand": 58,
+   "phrases": [
+    "calendar september 2026",
+    "calendar for september 2026",
+    "calendar for september",
+    "calendar of september 2026",
+    "calendar of september",
+    "calendar september"
+   ],
+   "phraseCount": 9,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "verb-forms",
+   "topic": "hindi",
+   "stem": "hindi",
+   "demand": 56,
+   "phrases": [
+    "verb forms hindi",
+    "verb forms hindi meaning",
+    "verb forms in hindi",
+    "verb forms list with hindi meaning",
+    "verb forms list pdf with hindi meaning",
+    "verb forms meaning in hindi"
+   ],
+   "phraseCount": 9,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "spelling-rules",
+   "topic": "english",
+   "stem": "english",
+   "demand": 56,
+   "phrases": [
+    "spelling rules in english",
+    "spelling rules english",
+    "spelling rules english pdf",
+    "spelling rules in english pdf",
+    "spelling rules in english with examples",
+    "spelling rules in english book"
+   ],
+   "phraseCount": 9,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "find-the-differences",
+   "topic": "text",
+   "stem": "text",
+   "demand": 55,
+   "phrases": [
+    "find the differences in text",
+    "find the differences text",
+    "spot the difference in text",
+    "spot the difference text",
+    "find the difference in text",
+    "find the difference text"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "find-the-differences",
+   "topic": "roblox level",
+   "stem": "roblox level",
+   "demand": 55,
+   "phrases": [
+    "find the differences roblox level 33",
+    "find the differences roblox level 21",
+    "find the differences roblox level 75",
+    "find the differences roblox level 26",
+    "find the differences roblox level 36",
+    "find the difference roblox level 21"
+   ],
+   "phraseCount": 11,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "alphabetical-order",
+   "topic": "states",
+   "stem": "stat",
+   "demand": 55,
+   "phrases": [
+    "alphabetical order of states",
+    "alphabetical order list of states",
+    "alphabetical order list of us states",
+    "alphabetical order of us states",
+    "alphabetical order of the 50 states",
+    "alphabetical order states"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-tracing",
+   "topic": "letter",
+   "stem": "lett",
+   "demand": 52,
+   "phrases": [
+    "tracing worksheets letter i",
+    "tracing worksheets letter j",
+    "tracing worksheets letter b",
+    "tracing worksheets letter c",
+    "tracing worksheets letter m",
+    "tracing worksheets letter e"
+   ],
+   "phraseCount": 10,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "all-about-me",
+   "topic": "high school",
+   "stem": "high school",
+   "demand": 52,
+   "phrases": [
+    "all about me high school worksheet",
+    "all about me high school",
+    "all about me worksheet high school",
+    "all about me worksheet high school pdf free",
+    "all about me worksheet high school pdf free download",
+    "all about me worksheet high school pdf free printable"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "decimals",
+   "stem": "decimal",
+   "demand": 51,
+   "phrases": [
+    "fractions to decimals",
+    "fractions to decimals chart",
+    "fractions as decimals",
+    "fractions and decimals worksheets",
+    "fractions as decimals chart",
+    "fractions decimals"
+   ],
+   "phraseCount": 9,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "articles",
+   "topic": "grammar",
+   "stem": "grammar",
+   "demand": 50,
+   "phrases": [
+    "articles in grammar",
+    "articles definition grammar",
+    "articles examples grammar",
+    "articles grammar",
+    "articles grammar definition",
+    "articles grammar list"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "find-the-differences",
+   "topic": "meme",
+   "stem": "meme",
+   "demand": 49,
+   "phrases": [
+    "find the differences meme",
+    "find the differences meme template",
+    "spot the difference meme",
+    "spot the difference meme template",
+    "spot the difference template meme",
+    "find the difference meme"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "hindi",
+   "stem": "hindi",
+   "demand": 49,
+   "phrases": [
+    "question words hindi",
+    "question words hindi meaning",
+    "question words list with hindi meaning",
+    "question words meaning in hindi",
+    "question words in hindi",
+    "question words of hindi"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "digraphs",
+   "topic": "blends",
+   "stem": "blend",
+   "demand": 48,
+   "phrases": [
+    "digraphs and blends",
+    "digraphs vs blends",
+    "digraphs and blends list",
+    "digraphs and blends worksheets",
+    "digraphs and blends chart",
+    "digraphs blends"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "nearest minutes",
+   "stem": "nearest minut",
+   "demand": 47,
+   "phrases": [
+    "telling time nearest 5 minutes",
+    "telling time nearest minute",
+    "telling time nearest minute worksheet",
+    "telling time nearest 5 minutes worksheet",
+    "telling time to the nearest 5 minutes",
+    "telling time to the nearest minute"
+   ],
+   "phraseCount": 9,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "maps",
+   "topic": "class",
+   "stem": "class",
+   "demand": 47,
+   "phrases": [
+    "map skills book class 9",
+    "map skills class 10",
+    "map skills class 7 pdf",
+    "map skills class 6",
+    "map skills class 9",
+    "map skills class 8 pdf"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "letter-of-the-week",
+   "topic": "crafts",
+   "stem": "craft",
+   "demand": 46,
+   "phrases": [
+    "letter of the week crafts",
+    "letter of the week a craft",
+    "letter of the week craft free printables",
+    "letter of the week d craft",
+    "letter of the week e craft",
+    "letter of the week g craft"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fact-families",
+   "topic": "addition subtraction",
+   "stem": "additio subtractio",
+   "demand": 46,
+   "phrases": [
+    "fact families addition and subtraction",
+    "fact families addition and subtraction grade 1",
+    "fact families addition and subtraction free printables",
+    "fact families addition and subtraction worksheets",
+    "fact families addition and subtraction grade 3",
+    "fact families addition and subtraction grade 2"
+   ],
+   "phraseCount": 10,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "august",
+   "stem": "august",
+   "demand": 46,
+   "phrases": [
+    "calendar august 2026",
+    "calendar august",
+    "calendar august 2026 printable",
+    "calendar august 2026 printable free",
+    "calendar for august 2026",
+    "calendar for august"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "write-the-word",
+   "topic": "hindi",
+   "stem": "hindi",
+   "demand": 45,
+   "phrases": [
+    "write the word hindi meaning",
+    "write the word hindi",
+    "write the word in hindi",
+    "write the word ka hindi",
+    "write the word ka hindi meaning",
+    "write the word meaning in hindi"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "singular-plural",
+   "topic": "verbs",
+   "stem": "verbs",
+   "demand": 44,
+   "phrases": [
+    "singular and plural verbs",
+    "singular and plural be verbs list",
+    "singular and plural verbs list",
+    "singular and plural verbs worksheet",
+    "singular and plural verbs examples",
+    "singular and plural verbs chart"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "all-about-me",
+   "topic": "middle school",
+   "stem": "middl school",
+   "demand": 43,
+   "phrases": [
+    "all about me middle school",
+    "all about me middle school worksheet",
+    "all about me worksheet middle school",
+    "all about me worksheet middle school pdf",
+    "all about me worksheet middle school free printable",
+    "all about me worksheet middle school pdf free download"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "find-the-differences",
+   "topic": "images",
+   "stem": "imag",
+   "demand": 42,
+   "phrases": [
+    "find the differences images",
+    "spot the difference images",
+    "spot the difference images for adults",
+    "spot the difference images with answers",
+    "spot the difference images for kids",
+    "find the difference hd images"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "money",
+   "topic": "dream",
+   "stem": "dream",
+   "demand": 41,
+   "phrases": [
+    "counting money dream meaning",
+    "counting money dream number",
+    "counting money dream",
+    "counting money in dream meaning",
+    "counting money in dream"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pronouns",
+   "topic": "class",
+   "stem": "class",
+   "demand": 41,
+   "phrases": [
+    "personal pronouns class 3 worksheets",
+    "personal pronouns class 3",
+    "personal pronouns class 5",
+    "personal pronouns class 4",
+    "personal pronouns class 6",
+    "personal pronouns class 6 worksheet"
+   ],
+   "phraseCount": 9,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "articles",
+   "topic": "constitution",
+   "stem": "constitutio",
+   "demand": 41,
+   "phrases": [
+    "articles of the constitution",
+    "articles constitution",
+    "articles in the constitution",
+    "articles to the constitution",
+    "articles us constitution",
+    "articles and constitution"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "sight-words",
+   "topic": "jack hartmann",
+   "stem": "jack hartman",
+   "demand": 40,
+   "phrases": [
+    "sight words jack hartmann",
+    "sight words jack hartmann 2",
+    "sight words jack hartmann 3",
+    "sight words jack hartmann kindergarten",
+    "sight words jack hartmann 1"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "english",
+   "stem": "english",
+   "demand": 40,
+   "phrases": [
+    "word classes in english",
+    "word classes in english with examples",
+    "word classes english",
+    "word classes examples in english",
+    "word classes in english pdf",
+    "word classes in english worksheets"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "holidays",
+   "stem": "holiday",
+   "demand": 40,
+   "phrases": [
+    "calendar holidays",
+    "calendar holidays 2026",
+    "calendar holidays 2027",
+    "calendar with holidays",
+    "calendar with holidays 2026"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "feelings",
+   "topic": "wheel",
+   "stem": "wheel",
+   "demand": 40,
+   "phrases": [
+    "feelings wheel",
+    "feelings wheel pdf",
+    "feelings wheel for adults",
+    "feelings wheel for kids",
+    "feelings wheel printable",
+    "feelings wheel printable pdf"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "singular-plural",
+   "topic": "nouns",
+   "stem": "nouns",
+   "demand": 39,
+   "phrases": [
+    "singular and plural nouns",
+    "singular and plural nouns worksheet",
+    "singular and plural nouns examples",
+    "singular and plural nouns for kids",
+    "singular and plural nouns first grade",
+    "singular and plural nouns video"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "negative positive",
+   "stem": "negativ positiv",
+   "demand": 38,
+   "phrases": [
+    "number lines with negative and positive numbers",
+    "number lines negative and positive",
+    "number lines negative and positive to 20",
+    "number lines positive and negative",
+    "number lines positive and negative printable"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "ks2",
+   "stem": "ks2",
+   "demand": 38,
+   "phrases": [
+    "word classes ks2",
+    "word classes for ks2",
+    "word classes game ks2",
+    "word classes ks2 worksheet",
+    "word classes ks2 video",
+    "word classes video ks2"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "synonyms",
+   "topic": "beautiful",
+   "stem": "beautiful",
+   "demand": 37,
+   "phrases": [
+    "synonyms for beautiful",
+    "synonyms beautiful",
+    "synonyms of beautiful",
+    "synonyms to beautiful"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "find-the-differences",
+   "topic": "hard level",
+   "stem": "hard level",
+   "demand": 36,
+   "phrases": [
+    "find the differences hard level",
+    "spot the difference difficult level",
+    "spot the difference hard level",
+    "spot the difference level hard",
+    "find the difference difficult level",
+    "find the difference hard level"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "dot-to-dot",
+   "topic": "extreme",
+   "stem": "extrem",
+   "demand": 36,
+   "phrases": [
+    "dot to dot extreme",
+    "dot to dot extreme printables",
+    "dot to dot extreme printable",
+    "dot to dot extreme printable free",
+    "dot to dot extreme free printable pdf"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "singular-plural",
+   "topic": "rules",
+   "stem": "rules",
+   "demand": 36,
+   "phrases": [
+    "singular and plural rules",
+    "singular and plural rules with examples",
+    "singular and plural rules chart",
+    "singular and plural rules pdf",
+    "singular and plural rules worksheet"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pronouns",
+   "topic": "hindi",
+   "stem": "hindi",
+   "demand": 36,
+   "phrases": [
+    "personal pronouns hindi",
+    "personal pronouns hindi meaning",
+    "personal pronouns hindi me",
+    "personal pronouns ka hindi",
+    "personal pronouns meaning in hindi"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "markers",
+   "stem": "marker",
+   "demand": 35,
+   "phrases": [
+    "color by number book with markers",
+    "color by number books for adults with markers",
+    "color by number for adults with markers",
+    "color by number markers",
+    "color by number with markers for adults",
+    "color by number with markers"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-tracing",
+   "topic": "generator",
+   "stem": "generator",
+   "demand": 35,
+   "phrases": [
+    "word tracing generator",
+    "word tracing worksheet generator",
+    "word tracing generator free printable",
+    "word tracing generator printable",
+    "word tracing generator pdf",
+    "word tracing practice generator"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "division-with-remainder",
+   "topic": "decimals",
+   "stem": "decimal",
+   "demand": 35,
+   "phrases": [
+    "division with remainders as decimals",
+    "division with remainders as decimals worksheet",
+    "division with remainders decimals",
+    "division with remainders to decimals"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "odd-and-even",
+   "topic": "class",
+   "stem": "class",
+   "demand": 35,
+   "phrases": [
+    "odd and even numbers class 2",
+    "odd and even numbers class 1",
+    "odd and even numbers chart for class 2",
+    "odd and even numbers class 4",
+    "odd and even numbers definition for class 2",
+    "odd and even numbers for class 1"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "cursive-writing",
+   "topic": "class",
+   "stem": "class",
+   "demand": 35,
+   "phrases": [
+    "cursive writing a to z for class 1",
+    "cursive writing class",
+    "cursive writing classes near me",
+    "cursive writing worksheets class 1",
+    "cursive writing worksheets class 2",
+    "cursive writing worksheets class 3"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-problems",
+   "topic": "linear equations",
+   "stem": "linear equation",
+   "demand": 34,
+   "phrases": [
+    "word problems linear equations",
+    "word problems linear equations worksheet",
+    "word problems linear equations pdf",
+    "word problems on linear equations pdf"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "class",
+   "stem": "class",
+   "demand": 34,
+   "phrases": [
+    "question words class 2",
+    "question words class 3",
+    "question words class 2 worksheet",
+    "question words for class 1",
+    "question words for class 2",
+    "question words for class 3"
+   ],
+   "phraseCount": 9,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fact-families",
+   "topic": "ks1",
+   "stem": "ks1",
+   "demand": 34,
+   "phrases": [
+    "fact families game ks1",
+    "fact families ks1",
+    "fact families ks1 worksheet",
+    "fact families ks1 video",
+    "fact families video ks1"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "feelings",
+   "topic": "emotions",
+   "stem": "emotion",
+   "demand": 34,
+   "phrases": [
+    "feelings and emotions",
+    "feelings emotions",
+    "feelings emotions chart",
+    "feelings vs emotions",
+    "feelings vs emotions chart"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "questions",
+   "stem": "question",
+   "demand": 33,
+   "phrases": [
+    "geometry math questions",
+    "geometry questions",
+    "geometry questions and answers",
+    "geometry questions and answers pdf",
+    "geometry questions grade 10"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "unit",
+   "stem": "unit",
+   "demand": 33,
+   "phrases": [
+    "geometry unit 1",
+    "geometry unit 1 practice test",
+    "geometry unit 2",
+    "geometry unit 1 test",
+    "geometry unit 1 test with answers pdf"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "analog clock",
+   "stem": "analog clock",
+   "demand": 33,
+   "phrases": [
+    "telling time analog clock",
+    "telling time analog clock worksheets",
+    "telling time on an analog clock",
+    "telling time on analog clock worksheets",
+    "telling time worksheets analog clocks"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "maps",
+   "topic": "geography",
+   "stem": "geography",
+   "demand": 33,
+   "phrases": [
+    "map skills geography",
+    "map skills geography grade 9",
+    "map skills geography grade 9 pdf download",
+    "map skills in geography",
+    "map skills in geography pdf"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "hindi",
+   "stem": "hindi",
+   "demand": 32,
+   "phrases": [
+    "ordinal numbers hindi meaning",
+    "ordinal numbers hindi",
+    "ordinal numbers ka hindi",
+    "ordinal numbers meaning in hindi"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "multiplication-tables",
+   "topic": "learning",
+   "stem": "learning",
+   "demand": 32,
+   "phrases": [
+    "multiplication tables k5 learning",
+    "multiplication tables learning",
+    "multiplication tables learning game",
+    "multiplication tables learning app"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "all-about-me",
+   "topic": "one pager",
+   "stem": "one pager",
+   "demand": 32,
+   "phrases": [
+    "all about me one pager",
+    "all about me one pager examples",
+    "all about me one pager ideas",
+    "all about me one pager template"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "find-the-differences",
+   "topic": "meme office",
+   "stem": "meme offic",
+   "demand": 31,
+   "phrases": [
+    "spot the difference meme the office",
+    "spot the difference office meme",
+    "spot the difference the office meme",
+    "find the difference office meme",
+    "find the difference the office meme"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "spanish",
+   "stem": "spanish",
+   "demand": 31,
+   "phrases": [
+    "question words in spanish",
+    "question words for spanish",
+    "question words in spanish list",
+    "question words spanish"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "english",
+   "stem": "english",
+   "demand": 31,
+   "phrases": [
+    "question words in english",
+    "question words english",
+    "question words meaning in english",
+    "question words of english",
+    "question words test english"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "sanskrit",
+   "stem": "sanskrit",
+   "demand": 31,
+   "phrases": [
+    "question words meaning in sanskrit",
+    "question words in sanskrit",
+    "question words of sanskrit",
+    "question words of sanskrit with meaning",
+    "question words sanskrit",
+    "question words sanskrit with meaning"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rhyming-words",
+   "topic": "rap",
+   "stem": "rap",
+   "demand": 31,
+   "phrases": [
+    "rhyming words for rap",
+    "rhyming words list for rap",
+    "rhyming words rap",
+    "rhyming words rap game",
+    "rhyming words to rap"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "odd-and-even",
+   "topic": "hindi",
+   "stem": "hindi",
+   "demand": 31,
+   "phrases": [
+    "odd and even numbers hindi",
+    "odd and even numbers hindi meaning",
+    "odd and even numbers in hindi",
+    "odd and even numbers meaning in hindi"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "synonyms",
+   "topic": "antonyms",
+   "stem": "antonym",
+   "demand": 31,
+   "phrases": [
+    "synonyms and antonyms",
+    "synonyms and antonyms meaning",
+    "synonyms and antonyms worksheets",
+    "synonyms and antonyms examples"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "days-and-months",
+   "topic": "spanish",
+   "stem": "spanish",
+   "demand": 31,
+   "phrases": [
+    "days and months in spanish",
+    "days and months of the year in spanish",
+    "days and months spanish",
+    "days and months in spanish video"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "all-about-me",
+   "topic": "questions",
+   "stem": "question",
+   "demand": 31,
+   "phrases": [
+    "all about me questions",
+    "all about me questions for kids",
+    "all about me questions for adults",
+    "all about me questions for toddlers",
+    "all about me worksheet questions"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "name",
+   "stem": "name",
+   "demand": 30,
+   "phrases": [
+    "ordinal numbers name",
+    "ordinal numbers name 1 to 20",
+    "ordinal numbers name 1 to 100",
+    "ordinal numbers name 1 to 50",
+    "ordinal numbers name 11 to 20"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "exercises",
+   "stem": "exercis",
+   "demand": 30,
+   "phrases": [
+    "question words exercises",
+    "question words exercises pdf",
+    "question words exercises with answers",
+    "question words exercises with answers pdf",
+    "question words online exercises"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "singular-plural",
+   "topic": "hindi",
+   "stem": "hindi",
+   "demand": 30,
+   "phrases": [
+    "singular and plural hindi",
+    "singular and plural hindi meaning",
+    "singular and plural hindi words",
+    "singular and plural in hindi",
+    "singular and plural meaning in hindi"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "syllable-reading",
+   "topic": "english",
+   "stem": "english",
+   "demand": 30,
+   "phrases": [
+    "word families english",
+    "word families in english",
+    "word families in english pdf",
+    "word families in english a to z",
+    "word families in english pdf free download",
+    "word families meaning in english"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "syllable-split",
+   "topic": "rules",
+   "stem": "rules",
+   "demand": 30,
+   "phrases": [
+    "syllable division rules",
+    "syllable division rules pdf",
+    "syllable division rules chart",
+    "syllable division rules pdf free download",
+    "syllable division rules for kids",
+    "syllable division rules with examples"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "maps",
+   "topic": "today",
+   "stem": "today",
+   "demand": 30,
+   "phrases": [
+    "map skills for today grade 2",
+    "map skills for today",
+    "map skills for today grade 4",
+    "map skills for today grade 6",
+    "map skills for today grade 3",
+    "map skills for today grade 1"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "november",
+   "stem": "novemb",
+   "demand": 30,
+   "phrases": [
+    "calendar november 2026",
+    "calendar for november",
+    "calendar november",
+    "calendar november 2026 printable",
+    "calendar november 2025",
+    "calendar november 2026 printable free"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "sentence-building",
+   "topic": "exercises",
+   "stem": "exercis",
+   "demand": 30,
+   "phrases": [
+    "sentence building exercises",
+    "sentence building exercises pdf",
+    "sentence building exercises for beginners",
+    "sentence building exercises for kids",
+    "sentence building exercises a2"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "digraphs",
+   "topic": "english",
+   "stem": "english",
+   "demand": 30,
+   "phrases": [
+    "digraphs english",
+    "digraphs examples in english",
+    "digraphs in english",
+    "digraphs in english for kids",
+    "digraphs meaning in english"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "all-about-me",
+   "topic": "poster",
+   "stem": "post",
+   "demand": 30,
+   "phrases": [
+    "all about me poster",
+    "all about me kindergarten poster",
+    "all about me kids poster",
+    "all about me poster ideas",
+    "all about me poster for kids"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "preschoolers",
+   "stem": "preschooler",
+   "demand": 29,
+   "phrases": [
+    "pre writing practice for preschoolers",
+    "pre writing worksheets for preschoolers pdf",
+    "line tracing activities for preschoolers",
+    "line tracing sheets for preschoolers"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "find-the-differences",
+   "topic": "halloween",
+   "stem": "hallowe",
+   "demand": 29,
+   "phrases": [
+    "find the differences halloween",
+    "spot the difference halloween",
+    "spot the difference halloween printable",
+    "find the difference halloween"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-problems",
+   "topic": "algebra",
+   "stem": "algebr",
+   "demand": 29,
+   "phrases": [
+    "word problems algebra",
+    "word problems algebra 1",
+    "word problems algebra 2",
+    "word problems in algebra"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "digital clock",
+   "stem": "digital clock",
+   "demand": 29,
+   "phrases": [
+    "telling time digital clock",
+    "telling time digital clock worksheets",
+    "telling time digital clock worksheets printable",
+    "telling time worksheets digital clocks"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  }
+ ],
+ "covered": 215
+}

@@ -1,0 +1,2763 @@
+{
+ "locale": "nl",
+ "harvested": 1971,
+ "clusters": 3297,
+ "candidates": [
+  {
+   "type": "word-problems",
+   "topic": "kerst",
+   "stem": "kerst",
+   "demand": 33,
+   "phrases": [
+    "verhaaltjessommen groep 3 kerst",
+    "verhaaltjessommen kerst",
+    "verhaaltjessommen kerst groep 4",
+    "verhaaltjessommen kerst groep 5",
+    "verhaaltjessommen kerst groep 6",
+    "verhaaltjessommen kerst groep 7"
+   ],
+   "phraseCount": 6,
+   "supply": 21,
+   "supplySample": [
+    "verhaaltjessommen-moeilijk-kerstmis-g1213-5 — Verhaaltjessommen met plaatjes — Kerstmis",
+    "verhaaltjessommen-moeilijk-kerstmis-g1238-5 — Verhaaltjessommen: optellen — Kerstmis",
+    "verhaaltjessommen-makkelijk-kerstmis-z-w-g1238-2 — Verhaaltjessommen: optellen — Kerstmis Z/W",
+    "verhaaltjessommen-makkelijk-kerstmis-g1239-3 — Verhaaltjessommen: aftrekken — Kerstmis"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "lente",
+   "stem": "lente",
+   "demand": 22,
+   "phrases": [
+    "schrijfpatronen kleuters lente",
+    "schrijfpatronen lente",
+    "schrijfpatronen lente kleuters",
+    "schrijfpatronen lente groep 2"
+   ],
+   "phraseCount": 4,
+   "supply": 4,
+   "supplySample": [
+    "schrijfpatronen-makkelijk-lente-k236-78 — Schrijfpatronen oefenen — Lente",
+    "schrijfpatronen-lente-k236-176 — Schrijfpatronen oefenen — Lente",
+    "schrijfpatronen-moeilijk-lente-k236-275 — Schrijfpatronen oefenen — Lente",
+    "schrijfpatronen-moeilijk-lente-k387 — Van plaatje naar plaatje — Lente"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "winter",
+   "stem": "wint",
+   "demand": 18,
+   "phrases": [
+    "schrijfpatronen kleuters winter",
+    "schrijfpatronen winter",
+    "schrijfpatronen winter kleuters",
+    "schrijfpatronen winter groep 2"
+   ],
+   "phraseCount": 4,
+   "supply": 5,
+   "supplySample": [
+    "schrijfpatronen-makkelijk-winter-k236-97 — Schrijfpatronen oefenen — Winter",
+    "schrijfpatronen-winter-k236-195 — Schrijfpatronen oefenen — Winter",
+    "schrijfpatronen-moeilijk-winter-k236-294 — Schrijfpatronen oefenen — Winter",
+    "schrijfpatronen-moeilijk-winter-k247-3 — Moeilijke schrijfpatronen — Winter"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "winter",
+   "stem": "wint",
+   "demand": 18,
+   "phrases": [
+    "woordkaartjes winter",
+    "woordkaartjes winter kleuters"
+   ],
+   "phraseCount": 2,
+   "supply": 4,
+   "supplySample": [
+    "woordkaartjes-makkelijk-winter-k324-97 — Woordkaartjes met plaatjes — Winter",
+    "woordkaartjes-winter-k324-194 — Woordkaartjes met plaatjes — Winter",
+    "woordkaartjes-moeilijk-winter-k324-274 — Woordkaartjes met plaatjes — Winter",
+    "woordkaartjes-moeilijk-winter-k350-3-no — Tweetalige woordkaartjes: Nederlands en Noors — Winter"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "zomer",
+   "stem": "zomer",
+   "demand": 16,
+   "phrases": [
+    "schrijfpatronen zomer",
+    "schrijfpatronen kleuters zomer",
+    "schrijfpatronen zomer kleuters"
+   ],
+   "phraseCount": 3,
+   "supply": 3,
+   "supplySample": [
+    "schrijfpatronen-zomer-k236-177 — Schrijfpatronen oefenen — Zomer",
+    "schrijfpatronen-makkelijk-zomer-k236-79 — Schrijfpatronen oefenen — Zomer",
+    "schrijfpatronen-moeilijk-zomer-k236-276 — Schrijfpatronen oefenen — Zomer"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "muziek",
+   "stem": "muziek",
+   "demand": 15,
+   "phrases": [
+    "schrijfpatronen muziek",
+    "schrijfpatronen op muziek"
+   ],
+   "phraseCount": 2,
+   "supply": 6,
+   "supplySample": [
+    "schrijfpatronen-muziek-k236-161 — Schrijfpatronen oefenen — Muziek",
+    "schrijfpatronen-makkelijk-muziek-k236-63 — Schrijfpatronen oefenen — Muziek",
+    "schrijfpatronen-moeilijk-muziek-k236-260 — Schrijfpatronen oefenen — Muziek",
+    "schrijfpatronen-moeilijk-muziek-k245-5 — Golven en boogjes — Muziek"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "ruimte",
+   "stem": "ruimt",
+   "demand": 13,
+   "phrases": [
+    "schrijfpatronen de ruimte",
+    "schrijfpatronen ruimte"
+   ],
+   "phraseCount": 2,
+   "supply": 9,
+   "supplySample": [
+    "schrijfpatronen-makkelijk-ruimte-k236-74 — Schrijfpatronen oefenen — Ruimte",
+    "schrijfpatronen-ruimte-k236-172 — Schrijfpatronen oefenen — Ruimte",
+    "schrijfpatronen-moeilijk-ruimte-k236-271 — Schrijfpatronen oefenen — Ruimte",
+    "schrijfpatronen-makkelijk-ruimte-zw-k236-75 — Schrijfpatronen oefenen — Ruimte ZW"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "bakker",
+   "stem": "bakk",
+   "demand": 13,
+   "phrases": [
+    "woordkaartjes bakker",
+    "woordkaartjes de bakker"
+   ],
+   "phraseCount": 2,
+   "supply": 5,
+   "supplySample": [
+    "woordkaartjes-makkelijk-bakkerij-k324-18 — Woordkaartjes met plaatjes — Bakkerij",
+    "woordkaartjes-bakkerij-k324-116 — Woordkaartjes met plaatjes — Bakkerij",
+    "woordkaartjes-moeilijk-bakkerij-k324-212 — Woordkaartjes met plaatjes — Bakkerij",
+    "woordkaartjes-makkelijk-bakkerij-k348-5 — Woordkaartjes met de of het — Bakkerij"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "kerst",
+   "stem": "kerst",
+   "demand": 13,
+   "phrases": [
+    "woordkaartjes kerst",
+    "woordkaartjes kerst kleuters"
+   ],
+   "phraseCount": 2,
+   "supply": 10,
+   "supplySample": [
+    "woordkaartjes-makkelijk-kerstmis-k324-29 — Woordkaartjes met plaatjes — Kerstmis",
+    "woordkaartjes-kerstmis-k324-127 — Woordkaartjes met plaatjes — Kerstmis",
+    "woordkaartjes-moeilijk-kerstmis-k324-222 — Woordkaartjes met plaatjes — Kerstmis",
+    "woordkaartjes-makkelijk-kerstmis-z-w-k324-3 — Woordkaartjes met plaatjes — Kerstmis Z/W"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "kerst",
+   "stem": "kerst",
+   "demand": 13,
+   "phrases": [
+    "kleuren op code kerst",
+    "kleuren op code kerst groep 3",
+    "kleuren op code kerst groep 4"
+   ],
+   "phraseCount": 3,
+   "supply": 1,
+   "supplySample": [
+    "kleuren-op-code-makkelijk-k393-35-wintersanta — Kleuren op nummer: Kerstman in de sneeuw"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "lichaam",
+   "stem": "lichaam",
+   "demand": 12,
+   "phrases": [
+    "woordkaartjes het lichaam",
+    "woordkaartjes lichaam"
+   ],
+   "phraseCount": 2,
+   "supply": 6,
+   "supplySample": [
+    "woordkaartjes-makkelijk-lichaamsdelen-g1324-3 — Lettergreepkaartjes: lees het woord in stukjes — Lichaamsdelen",
+    "woordkaartjes-makkelijk-lichaamsdelen-k324-26 — Woordkaartjes met plaatjes — Lichaamsdelen",
+    "woordkaartjes-lichaamsdelen-k324-124 — Woordkaartjes met plaatjes — Lichaamsdelen",
+    "woordkaartjes-moeilijk-lichaamsdelen-k324-219 — Woordkaartjes met plaatjes — Lichaamsdelen"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "arrays-multiplication",
+   "topic": "kleuren",
+   "stem": "kleur",
+   "demand": 11,
+   "phrases": [
+    "keersommen en kleuren",
+    "keersommen kleuren"
+   ],
+   "phraseCount": 2,
+   "supply": 6,
+   "supplySample": [
+    "keersommen-makkelijk-kleuren-g2211-18 — Rijen en kolommen — Kleuren",
+    "keersommen-kleuren-g2211-70 — Rijen en kolommen — Kleuren",
+    "keersommen-moeilijk-kleuren-g2211-120 — Rijen en kolommen — Kleuren",
+    "keersommen-kleuren-g2216-3 — Eerlijk delen — Kleuren"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "weer",
+   "stem": "weer",
+   "demand": 11,
+   "phrases": [
+    "woordkaartjes het weer",
+    "woordkaartjes weer"
+   ],
+   "phraseCount": 2,
+   "supply": 5,
+   "supplySample": [
+    "woordkaartjes-makkelijk-weer-k324-96 — Woordkaartjes met plaatjes — Weer",
+    "woordkaartjes-weer-k324-193 — Woordkaartjes met plaatjes — Weer",
+    "woordkaartjes-moeilijk-weer-k324-273 — Woordkaartjes met plaatjes — Weer",
+    "woordkaartjes-makkelijk-weer-k348-3 — Woordkaartjes met de of het — Weer"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "insecten",
+   "stem": "insect",
+   "demand": 10,
+   "phrases": [
+    "schrijfpatronen insecten"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "schrijfpatronen-makkelijk-insecten-en-beestjes-k236-59 — Schrijfpatronen oefenen — Insecten en beestjes",
+    "schrijfpatronen-insecten-en-beestjes-k236-157 — Schrijfpatronen oefenen — Insecten en beestjes",
+    "schrijfpatronen-moeilijk-insecten-en-beestjes-k236-256 — Schrijfpatronen oefenen — Insecten en beestjes"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "pasen",
+   "stem": "pasen",
+   "demand": 10,
+   "phrases": [
+    "schrijfpatronen pasen"
+   ],
+   "phraseCount": 1,
+   "supply": 12,
+   "supplySample": [
+    "schrijfpatronen-pasen-k236-136 — Schrijfpatronen oefenen — Pasen",
+    "schrijfpatronen-makkelijk-pasen-k236-38 — Schrijfpatronen oefenen — Pasen",
+    "schrijfpatronen-moeilijk-pasen-k236-235 — Schrijfpatronen oefenen — Pasen",
+    "schrijfpatronen-makkelijk-pasen-zw-k236-5 — Schrijfpatronen oefenen — Pasen ZW"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "arrays-multiplication",
+   "topic": "poster",
+   "stem": "post",
+   "demand": 10,
+   "phrases": [
+    "keersommen poster"
+   ],
+   "phraseCount": 1,
+   "supply": 6,
+   "supplySample": [
+    "keersommen-makkelijk-postkantoor-g2211-37 — Rijen en kolommen — Postkantoor",
+    "keersommen-postkantoor-g2211-88 — Rijen en kolommen — Postkantoor",
+    "keersommen-moeilijk-postkantoor-g2211-139 — Rijen en kolommen — Postkantoor",
+    "keersommen-moeilijk-postkantoor-g2213-3 — Makkelijke groepen — Postkantoor"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "beroepen",
+   "stem": "beroep",
+   "demand": 10,
+   "phrases": [
+    "woordkaartjes beroepen"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "woordkaartjes-beroepen-g1324-5 — Lettergreepkaartjes: lees het woord in stukjes — Beroepen",
+    "woordkaartjes-makkelijk-beroepen-k324-66 — Woordkaartjes met plaatjes — Beroepen",
+    "woordkaartjes-beroepen-k324-164 — Woordkaartjes met plaatjes — Beroepen",
+    "woordkaartjes-moeilijk-beroepen-k324-253 — Woordkaartjes met plaatjes — Beroepen"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "insecten",
+   "stem": "insect",
+   "demand": 10,
+   "phrases": [
+    "woordkaartjes insecten"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "woordkaartjes-makkelijk-insecten-en-beestjes-k324-59 — Woordkaartjes met plaatjes — Insecten en beestjes",
+    "woordkaartjes-insecten-en-beestjes-k324-157 — Woordkaartjes met plaatjes — Insecten en beestjes",
+    "woordkaartjes-moeilijk-insecten-en-beestjes-k324-247 — Woordkaartjes met plaatjes — Insecten en beestjes"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "ruimte",
+   "stem": "ruimt",
+   "demand": 10,
+   "phrases": [
+    "woordkaartjes ruimte"
+   ],
+   "phraseCount": 1,
+   "supply": 6,
+   "supplySample": [
+    "woordkaartjes-ruimte-k324-172 — Woordkaartjes met plaatjes — Ruimte",
+    "woordkaartjes-makkelijk-ruimte-k324-74 — Woordkaartjes met plaatjes — Ruimte",
+    "woordkaartjes-moeilijk-ruimte-k324-259 — Woordkaartjes met plaatjes — Ruimte",
+    "woordkaartjes-makkelijk-ruimte-zw-k324-75 — Woordkaartjes met plaatjes — Ruimte ZW"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "zomer",
+   "stem": "zomer",
+   "demand": 10,
+   "phrases": [
+    "woordkaartjes zomer"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "woordkaartjes-makkelijk-zomer-k324-79 — Woordkaartjes met plaatjes — Zomer",
+    "woordkaartjes-zomer-k324-176 — Woordkaartjes met plaatjes — Zomer",
+    "woordkaartjes-moeilijk-zomer-k324-262 — Woordkaartjes met plaatjes — Zomer"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "dobbelsteen",
+   "stem": "dobbelste",
+   "demand": 10,
+   "phrases": [
+    "kleuren op code dobbelsteen"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "kleuren-op-code-k394-35-dice — Kleuren op nummer: Dobbelsteen"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-problems",
+   "topic": "pasen",
+   "stem": "pasen",
+   "demand": 10,
+   "phrases": [
+    "verhaaltjessommen pasen"
+   ],
+   "phraseCount": 1,
+   "supply": 12,
+   "supplySample": [
+    "verhaaltjessommen-pasen-g1239-3 — Verhaaltjessommen: aftrekken — Pasen",
+    "verhaaltjessommen-makkelijk-pasen-g1238-3 — Verhaaltjessommen: optellen — Pasen",
+    "verhaaltjessommen-makkelijk-pasen-zw-g1239-2 — Verhaaltjessommen: aftrekken — Pasen ZW",
+    "verhaaltjessommen-pasen-zw-g1240-4 — Verhaaltjessommen tot 10 — Pasen ZW"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "sound-boxes",
+   "topic": "zomer",
+   "stem": "zomer",
+   "demand": 10,
+   "phrases": [
+    "hakken en plakken zomer"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "hakken-en-plakken-zomer-g1313-3 — Lettergrepen en klanken — Zomer",
+    "hakken-en-plakken-zomer-g1314-5 — Plakken en lezen: welk plaatje hoort erbij? — Zomer",
+    "hakken-en-plakken-makkelijk-zomer-k318-2 — Hakken en plakken: één klank per hokje — Zomer"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "articles",
+   "topic": "strand",
+   "stem": "strand",
+   "demand": 10,
+   "phrases": [
+    "de of het strand"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "de-of-het-strand-zw-k288-4 — De of het? — Strand ZW",
+    "de-of-het-makkelijk-strand-k306-3 — De of het? Vier plaatjes — Strand"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "lichaamsdelen",
+   "stem": "lichaamsdel",
+   "demand": 9,
+   "phrases": [
+    "woordkaartjes lichaamsdelen"
+   ],
+   "phraseCount": 1,
+   "supply": 6,
+   "supplySample": [
+    "woordkaartjes-makkelijk-lichaamsdelen-g1324-3 — Lettergreepkaartjes: lees het woord in stukjes — Lichaamsdelen",
+    "woordkaartjes-makkelijk-lichaamsdelen-k324-26 — Woordkaartjes met plaatjes — Lichaamsdelen",
+    "woordkaartjes-lichaamsdelen-k324-124 — Woordkaartjes met plaatjes — Lichaamsdelen",
+    "woordkaartjes-moeilijk-lichaamsdelen-k324-219 — Woordkaartjes met plaatjes — Lichaamsdelen"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "activiteit",
+   "stem": "activiteit",
+   "demand": 9,
+   "phrases": [
+    "rangtelwoorden activiteit kleuters"
+   ],
+   "phraseCount": 1,
+   "supply": 5,
+   "supplySample": [
+    "rangtelwoorden-makkelijk-activiteiten-g1315-3 — Vul de ontbrekende rangtelwoorden in — Activiteiten",
+    "rangtelwoorden-makkelijk-activiteiten-k320-5 — Rangtelwoorden: op welke plaats? — Activiteiten",
+    "rangtelwoorden-activiteiten-k320-55 — Rangtelwoorden: op welke plaats? — Activiteiten",
+    "rangtelwoorden-moeilijk-activiteiten-k320-104 — Rangtelwoorden: op welke plaats? — Activiteiten"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "winter",
+   "stem": "wint",
+   "demand": 9,
+   "phrases": [
+    "kleuren op code winter"
+   ],
+   "phraseCount": 1,
+   "supply": 10,
+   "supplySample": [
+    "kleuren-op-code-makkelijk-k393-36-wintersleigh — Kleuren op nummer: Slee in de sneeuw",
+    "kleuren-op-code-makkelijk-k393-39-winterseal — Kleuren op nummer: Zeehond op het ijs",
+    "kleuren-op-code-makkelijk-k393-33-wintersnowman — Kleuren op nummer: Sneeuwpop in de sneeuw",
+    "kleuren-op-code-k393-33-wintergingerbread — Kleuren op nummer: Peperkoekhuis"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "klas",
+   "stem": "klas",
+   "demand": 9,
+   "phrases": [
+    "meetkunde klas 6"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "meetkunde-klaslokaal-g2247-4 — Spiegellijn? — Klaslokaal"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "die",
+   "stem": "die",
+   "demand": 9,
+   "phrases": [
+    "woordsoorten die"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "woordsoorten-makkelijk-dingen-die-vliegen-g1293-4 — Zelfstandig naamwoord of werkwoord — Dingen die vliegen",
+    "woordsoorten-dingen-die-vliegen-g1300-4 — Zelfstandig of bijvoeglijk naamwoord — Dingen die vliegen",
+    "woordsoorten-dingen-die-vliegen-g2285-4 — Woordsoorten: negen woorden — Dingen die vliegen",
+    "woordsoorten-moeilijk-dingen-die-vliegen-g2286-4 — Woordsoorten zonder plaatjes — Dingen die vliegen"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "articles",
+   "topic": "huis",
+   "stem": "huis",
+   "demand": 9,
+   "phrases": [
+    "de of het huis"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "de-of-het-huis-zw-g1292-4 — De of het? Sorteer de woorden — Huis ZW",
+    "de-of-het-makkelijk-huis-en-natuur-zw-k306-2 — De of het? Vier plaatjes — Huis en Natuur ZW",
+    "de-of-het-huis-en-natuur-zw-k307-2 — De of het? Acht plaatjes — Huis en Natuur ZW"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "boerderij",
+   "stem": "boerderij",
+   "demand": 8,
+   "phrases": [
+    "schrijfpatronen boerderij"
+   ],
+   "phraseCount": 1,
+   "supply": 12,
+   "supplySample": [
+    "schrijfpatronen-makkelijk-boerderijdieren-k236-42 — Schrijfpatronen oefenen — Boerderijdieren",
+    "schrijfpatronen-boerderijdieren-k236-140 — Schrijfpatronen oefenen — Boerderijdieren",
+    "schrijfpatronen-moeilijk-boerderijdieren-k236-239 — Schrijfpatronen oefenen — Boerderijdieren",
+    "schrijfpatronen-makkelijk-boerderijdieren-zw-k236-43 — Schrijfpatronen oefenen — Boerderijdieren ZW"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "huis",
+   "stem": "huis",
+   "demand": 8,
+   "phrases": [
+    "schrijfpatronen huis"
+   ],
+   "phraseCount": 1,
+   "supply": 26,
+   "supplySample": [
+    "schrijfpatronen-makkelijk-rond-het-huis-k236-17 — Schrijfpatronen oefenen — Rond het huis",
+    "schrijfpatronen-rond-het-huis-k236-115 — Schrijfpatronen oefenen — Rond het huis",
+    "schrijfpatronen-moeilijk-rond-het-huis-k236-214 — Schrijfpatronen oefenen — Rond het huis",
+    "schrijfpatronen-makkelijk-huis-en-natuur-zw-k236-54 — Schrijfpatronen oefenen — Huis en Natuur ZW"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "boerderij",
+   "stem": "boerderij",
+   "demand": 8,
+   "phrases": [
+    "woordkaartjes boerderij"
+   ],
+   "phraseCount": 1,
+   "supply": 10,
+   "supplySample": [
+    "woordkaartjes-makkelijk-boerderijdieren-k324-42 — Woordkaartjes met plaatjes — Boerderijdieren",
+    "woordkaartjes-boerderijdieren-k324-140 — Woordkaartjes met plaatjes — Boerderijdieren",
+    "woordkaartjes-moeilijk-boerderijdieren-k324-233 — Woordkaartjes met plaatjes — Boerderijdieren",
+    "woordkaartjes-makkelijk-boerderijdieren-zw-k324-43 — Woordkaartjes met plaatjes — Boerderijdieren ZW"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "frans",
+   "stem": "frans",
+   "demand": 8,
+   "phrases": [
+    "woordkaartjes frans"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "woordkaartjes-groenten-k350-5-fr — Tweetalige woordkaartjes: Nederlands en Frans — Groenten"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "huisdieren",
+   "stem": "huisdier",
+   "demand": 8,
+   "phrases": [
+    "woordkaartjes huisdieren"
+   ],
+   "phraseCount": 1,
+   "supply": 5,
+   "supplySample": [
+    "woordkaartjes-makkelijk-huisdieren-k324-68 — Woordkaartjes met plaatjes — Huisdieren",
+    "woordkaartjes-huisdieren-k324-166 — Woordkaartjes met plaatjes — Huisdieren",
+    "woordkaartjes-moeilijk-huisdieren-k324-255 — Woordkaartjes met plaatjes — Huisdieren",
+    "woordkaartjes-moeilijk-huisdieren-k347-3 — Plaatjeskaartjes en woordkaartjes: zoek de paren — Huisdieren"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "muziek",
+   "stem": "muziek",
+   "demand": 8,
+   "phrases": [
+    "woordkaartjes muziek"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "woordkaartjes-makkelijk-muziek-k324-63 — Woordkaartjes met plaatjes — Muziek",
+    "woordkaartjes-muziek-k324-161 — Woordkaartjes met plaatjes — Muziek",
+    "woordkaartjes-moeilijk-muziek-k324-250 — Woordkaartjes met plaatjes — Muziek",
+    "woordkaartjes-moeilijk-muziek-k348-5 — Woordkaartjes met de of het — Muziek"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "ziekenhuis",
+   "stem": "ziekenhui",
+   "demand": 8,
+   "phrases": [
+    "woordkaartjes ziekenhuis"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "woordkaartjes-moeilijk-ziekenhuis-g1324 — Lettergreepkaartjes: lees het woord in stukjes — Ziekenhuis",
+    "woordkaartjes-makkelijk-ziekenhuis-k324-57 — Woordkaartjes met plaatjes — Ziekenhuis",
+    "woordkaartjes-ziekenhuis-k324-155 — Woordkaartjes met plaatjes — Ziekenhuis"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "boerderij",
+   "stem": "boerderij",
+   "demand": 8,
+   "phrases": [
+    "kleuren op code boerderij"
+   ],
+   "phraseCount": 1,
+   "supply": 10,
+   "supplySample": [
+    "kleuren-op-code-k393-3-farmsheep — Kleuren op nummer: Schaap op de boerderij",
+    "kleuren-op-code-k393-4-farmhorse — Kleuren op nummer: Paard op de boerderij",
+    "kleuren-op-code-k393-6-farmgoat — Kleuren op nummer: Geit op de boerderij",
+    "kleuren-op-code-moeilijk-k393-2-farmpig — Kleuren op nummer: Varken op de boerderij"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "dino",
+   "stem": "dino",
+   "demand": 7,
+   "phrases": [
+    "woordkaartjes dino"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "woordkaartjes-makkelijk-dinosaurussen-k324-37 — Woordkaartjes met plaatjes — Dinosaurussen",
+    "woordkaartjes-dinosaurussen-k324-135 — Woordkaartjes met plaatjes — Dinosaurussen",
+    "woordkaartjes-moeilijk-dinosaurussen-k349-5 — Eén en meer: kaartjes met enkelvoud en meervoud — Dinosaurussen"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "vakantie",
+   "stem": "vakanti",
+   "demand": 7,
+   "phrases": [
+    "woordkaartjes vakantie"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "woordkaartjes-makkelijk-reizen-en-vakantie-zw-k324-86 — Woordkaartjes met plaatjes — Reizen en Vakantie ZW",
+    "woordkaartjes-reizen-en-vakantie-zw-k324-183 — Woordkaartjes met plaatjes — Reizen en Vakantie ZW",
+    "woordkaartjes-moeilijk-reizen-en-vakantie-zw-k324-267 — Woordkaartjes met plaatjes — Reizen en Vakantie ZW"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "kerst",
+   "stem": "kerst",
+   "demand": 7,
+   "phrases": [
+    "rangtelwoorden kerst"
+   ],
+   "phraseCount": 1,
+   "supply": 5,
+   "supplySample": [
+    "rangtelwoorden-moeilijk-kerstmis-g1317-3 — Welke plaats? Schrijf het rangtelwoord — Kerstmis",
+    "rangtelwoorden-makkelijk-kerstmis-k320-15 — Rangtelwoorden: op welke plaats? — Kerstmis",
+    "rangtelwoorden-kerstmis-k320-64 — Rangtelwoorden: op welke plaats? — Kerstmis",
+    "rangtelwoorden-moeilijk-kerstmis-k320-114 — Rangtelwoorden: op welke plaats? — Kerstmis"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "hoe teken hond",
+   "stem": "hoe teken hond",
+   "demand": 7,
+   "phrases": [
+    "leren tekenen hoe teken je een hond"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "leren-tekenen-makkelijk-k396-9 — Hoe teken je een hond: stap voor stap"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "dino",
+   "stem": "dino",
+   "demand": 7,
+   "phrases": [
+    "kleuren op code dino"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "kleuren-op-code-makkelijk-k394-2-dinosaur — Kleuren op nummer: Dinosaurus"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "kerst",
+   "stem": "kerst",
+   "demand": 7,
+   "phrases": [
+    "woordsoorten kerst"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "woordsoorten-kerstmis-g1293-4 — Zelfstandig naamwoord of werkwoord — Kerstmis",
+    "woordsoorten-moeilijk-kerstmis-g2285-4 — Woordsoorten: negen woorden — Kerstmis"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "dieren",
+   "stem": "dier",
+   "demand": 7,
+   "phrases": [
+    "begrijpend lezen dieren"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "begrijpend-lezen-makkelijk-g2272-11 — Begrijpend lezen: Vera in de dierentuin",
+    "begrijpend-lezen-g2272-5 — Begrijpend lezen: Vera in de dierentuin",
+    "begrijpend-lezen-moeilijk-g2272-16 — Begrijpend lezen: Vera in de dierentuin"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "sound-boxes",
+   "topic": "lente",
+   "stem": "lente",
+   "demand": 7,
+   "phrases": [
+    "hakken en plakken lente"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "hakken-en-plakken-makkelijk-lente-g1312-3 — Klankstrook: hoeveel klanken? — Lente",
+    "hakken-en-plakken-makkelijk-lente-g1314-4 — Plakken en lezen: welk plaatje hoort erbij? — Lente",
+    "hakken-en-plakken-makkelijk-lente-k330 — Hakken en plakken: de eerste klank staat er al — Lente"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "articles",
+   "topic": "natuur",
+   "stem": "natuur",
+   "demand": 7,
+   "phrases": [
+    "de of het natuur"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "de-of-het-makkelijk-huis-en-natuur-zw-k306-2 — De of het? Vier plaatjes — Huis en Natuur ZW",
+    "de-of-het-huis-en-natuur-zw-k307-2 — De of het? Acht plaatjes — Huis en Natuur ZW"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "bloemen",
+   "stem": "bloem",
+   "demand": 6,
+   "phrases": [
+    "schrijfpatronen bloemen"
+   ],
+   "phraseCount": 1,
+   "supply": 6,
+   "supplySample": [
+    "schrijfpatronen-makkelijk-bloemen-k236-45 — Schrijfpatronen oefenen — Bloemen",
+    "schrijfpatronen-bloemen-k236-143 — Schrijfpatronen oefenen — Bloemen",
+    "schrijfpatronen-moeilijk-bloemen-k236-242 — Schrijfpatronen oefenen — Bloemen",
+    "schrijfpatronen-bloemen-k248-3 — Schrijfpatronen herhalen — Bloemen"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "dino",
+   "stem": "dino",
+   "demand": 6,
+   "phrases": [
+    "schrijfpatronen dino"
+   ],
+   "phraseCount": 1,
+   "supply": 6,
+   "supplySample": [
+    "schrijfpatronen-makkelijk-dinosaurussen-k236-37 — Schrijfpatronen oefenen — Dinosaurussen",
+    "schrijfpatronen-dinosaurussen-k236-135 — Schrijfpatronen oefenen — Dinosaurussen",
+    "schrijfpatronen-moeilijk-dinosaurussen-k236-234 — Schrijfpatronen oefenen — Dinosaurussen",
+    "schrijfpatronen-moeilijk-dinosaurussen-k246-5 — Lussen, achtjes en spiralen — Dinosaurussen"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "lichaam",
+   "stem": "lichaam",
+   "demand": 6,
+   "phrases": [
+    "schrijfpatronen lichaam"
+   ],
+   "phraseCount": 1,
+   "supply": 6,
+   "supplySample": [
+    "schrijfpatronen-makkelijk-lichaamsdelen-k236-26 — Schrijfpatronen oefenen — Lichaamsdelen",
+    "schrijfpatronen-lichaamsdelen-k236-124 — Schrijfpatronen oefenen — Lichaamsdelen",
+    "schrijfpatronen-moeilijk-lichaamsdelen-k236-223 — Schrijfpatronen oefenen — Lichaamsdelen",
+    "schrijfpatronen-lichaamsdelen-k246-5 — Lussen, achtjes en spiralen — Lichaamsdelen"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "ziekenhuis",
+   "stem": "ziekenhui",
+   "demand": 6,
+   "phrases": [
+    "schrijfpatronen ziekenhuis"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "schrijfpatronen-makkelijk-ziekenhuis-k236-57 — Schrijfpatronen oefenen — Ziekenhuis",
+    "schrijfpatronen-ziekenhuis-k236-155 — Schrijfpatronen oefenen — Ziekenhuis",
+    "schrijfpatronen-moeilijk-ziekenhuis-k236-254 — Schrijfpatronen oefenen — Ziekenhuis",
+    "schrijfpatronen-ziekenhuis-k386-4 — Rondjes, vierkanten en driehoeken — Ziekenhuis"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "lente",
+   "stem": "lente",
+   "demand": 6,
+   "phrases": [
+    "woordkaartjes lente"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "woordkaartjes-makkelijk-lente-k324-78 — Woordkaartjes met plaatjes — Lente",
+    "woordkaartjes-moeilijk-lente-k324-261 — Woordkaartjes met plaatjes — Lente",
+    "woordkaartjes-lente-k324-175 — Woordkaartjes met plaatjes — Lente"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "pasen",
+   "stem": "pasen",
+   "demand": 6,
+   "phrases": [
+    "woordkaartjes pasen"
+   ],
+   "phraseCount": 1,
+   "supply": 10,
+   "supplySample": [
+    "woordkaartjes-makkelijk-pasen-k324-38 — Woordkaartjes met plaatjes — Pasen",
+    "woordkaartjes-pasen-k324-136 — Woordkaartjes met plaatjes — Pasen",
+    "woordkaartjes-moeilijk-pasen-k324-229 — Woordkaartjes met plaatjes — Pasen",
+    "woordkaartjes-makkelijk-pasen-zw-k324-5 — Woordkaartjes met plaatjes — Pasen ZW"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "vogels",
+   "stem": "vogel",
+   "demand": 6,
+   "phrases": [
+    "woordkaartjes vogels"
+   ],
+   "phraseCount": 1,
+   "supply": 12,
+   "supplySample": [
+    "woordkaartjes-makkelijk-vogels-k324-22 — Woordkaartjes met plaatjes — Vogels",
+    "woordkaartjes-vogels-k324-120 — Woordkaartjes met plaatjes — Vogels",
+    "woordkaartjes-makkelijk-vogels-2-k324-23 — Woordkaartjes met plaatjes — Vogels 2",
+    "woordkaartjes-vogels-2-k324-121 — Woordkaartjes met plaatjes — Vogels 2"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-charts",
+   "topic": "poster",
+   "stem": "post",
+   "demand": 6,
+   "phrases": [
+    "honderdveld poster"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "honderdveld-moeilijk-postkantoor-g1125-3 — Tel met tweetallen — Postkantoor",
+    "honderdveld-makkelijk-postkantoor-g1129-3 — Het honderdveld — Postkantoor",
+    "honderdveld-postkantoor-g2207-3 — Tel met drietallen — Postkantoor",
+    "honderdveld-makkelijk-postkantoor-g3327-3 — Naar beneden — Postkantoor"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "read-and-color",
+   "topic": "kerst",
+   "stem": "kerst",
+   "demand": 6,
+   "phrases": [
+    "lees en kleur kerst"
+   ],
+   "phraseCount": 1,
+   "supply": 9,
+   "supplySample": [
+    "lees-en-kleur-makkelijk-kerstmis-z-w-g1242 — Lees en kleur — Kerstmis Z/W",
+    "lees-en-kleur-kerstmis-z-w-g1242-48 — Lees en kleur — Kerstmis Z/W",
+    "lees-en-kleur-moeilijk-kerstmis-z-w-g1242-94 — Lees en kleur — Kerstmis Z/W",
+    "lees-en-kleur-makkelijk-kerstmis-z-w-2-g1242-2 — Lees en kleur — Kerstmis Z/W 2"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "eenhoorn",
+   "stem": "eenhoor",
+   "demand": 6,
+   "phrases": [
+    "leren tekenen eenhoorn"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "leren-tekenen-moeilijk-g2390-17 — Teken een eenhoorn en schrijf erover"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "dierentuin",
+   "stem": "dierentui",
+   "demand": 5,
+   "phrases": [
+    "schrijfpatronen dierentuin"
+   ],
+   "phraseCount": 1,
+   "supply": 7,
+   "supplySample": [
+    "schrijfpatronen-makkelijk-dierentuindieren-k236-98 — Schrijfpatronen oefenen — Dierentuindieren",
+    "schrijfpatronen-dierentuindieren-k236-196 — Schrijfpatronen oefenen — Dierentuindieren",
+    "schrijfpatronen-moeilijk-dierentuindieren-k236-295 — Schrijfpatronen oefenen — Dierentuindieren",
+    "schrijfpatronen-makkelijk-dierentuindieren-zw-k236-99 — Schrijfpatronen oefenen — Dierentuindieren ZW"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "post",
+   "stem": "post",
+   "demand": 5,
+   "phrases": [
+    "schrijfpatronen post"
+   ],
+   "phraseCount": 1,
+   "supply": 5,
+   "supplySample": [
+    "schrijfpatronen-makkelijk-postkantoor-k236-69 — Schrijfpatronen oefenen — Postkantoor",
+    "schrijfpatronen-postkantoor-k236-167 — Schrijfpatronen oefenen — Postkantoor",
+    "schrijfpatronen-moeilijk-postkantoor-k236-266 — Schrijfpatronen oefenen — Postkantoor",
+    "schrijfpatronen-moeilijk-postkantoor-k244-3 — Rechte lijnen en zigzaglijnen — Postkantoor"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "boerderijdieren",
+   "stem": "boerderijdier",
+   "demand": 5,
+   "phrases": [
+    "woordkaartjes boerderijdieren"
+   ],
+   "phraseCount": 1,
+   "supply": 7,
+   "supplySample": [
+    "woordkaartjes-makkelijk-boerderijdieren-k324-42 — Woordkaartjes met plaatjes — Boerderijdieren",
+    "woordkaartjes-boerderijdieren-k324-140 — Woordkaartjes met plaatjes — Boerderijdieren",
+    "woordkaartjes-moeilijk-boerderijdieren-k324-233 — Woordkaartjes met plaatjes — Boerderijdieren",
+    "woordkaartjes-makkelijk-boerderijdieren-zw-k324-43 — Woordkaartjes met plaatjes — Boerderijdieren ZW"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "vormen",
+   "stem": "vorm",
+   "demand": 5,
+   "phrases": [
+    "woordkaartjes vormen"
+   ],
+   "phraseCount": 1,
+   "supply": 5,
+   "supplySample": [
+    "woordkaartjes-moeilijk-vormen-g1324-3 — Lettergreepkaartjes: lees het woord in stukjes — Vormen",
+    "woordkaartjes-makkelijk-vormen-k324-73 — Woordkaartjes met plaatjes — Vormen",
+    "woordkaartjes-vormen-k324-171 — Woordkaartjes met plaatjes — Vormen",
+    "woordkaartjes-moeilijk-vormen-k324-258 — Woordkaartjes met plaatjes — Vormen"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "read-and-color",
+   "topic": "pasen",
+   "stem": "pasen",
+   "demand": 5,
+   "phrases": [
+    "lees en kleur pasen"
+   ],
+   "phraseCount": 1,
+   "supply": 9,
+   "supplySample": [
+    "lees-en-kleur-makkelijk-pasen-zw-g1242-3 — Lees en kleur — Pasen ZW",
+    "lees-en-kleur-pasen-zw-g1242-50 — Lees en kleur — Pasen ZW",
+    "lees-en-kleur-moeilijk-pasen-zw-g1242-96 — Lees en kleur — Pasen ZW",
+    "lees-en-kleur-makkelijk-pasen-zw-2-g1242-4 — Lees en kleur — Pasen ZW 2"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rhyming-words",
+   "topic": "drie",
+   "stem": "drie",
+   "demand": 5,
+   "phrases": [
+    "rijmwoorden drie"
+   ],
+   "phraseCount": 1,
+   "supply": 5,
+   "supplySample": [
+    "rijmwoorden-moeilijk-g1345-12 — Rijmrijen: drie rijmwoorden per plaatje",
+    "rijmwoorden-moeilijk-g1345-13-as — Rijmrijen: drie rijmwoorden per plaatje",
+    "rijmwoorden-moeilijk-g1345-14-as — Rijmrijen: drie rijmwoorden per plaatje",
+    "rijmwoorden-moeilijk-g1345-15-as — Rijmrijen: drie rijmwoorden per plaatje"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "vormen",
+   "stem": "vorm",
+   "demand": 4,
+   "phrases": [
+    "schrijfpatronen vormen"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "schrijfpatronen-makkelijk-vormen-k236-73 — Schrijfpatronen oefenen — Vormen",
+    "schrijfpatronen-vormen-k236-171 — Schrijfpatronen oefenen — Vormen",
+    "schrijfpatronen-moeilijk-vormen-k236-270 — Schrijfpatronen oefenen — Vormen",
+    "schrijfpatronen-makkelijk-vormen-k385 — Streepjes en kruisjes — Vormen"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "huis",
+   "stem": "huis",
+   "demand": 4,
+   "phrases": [
+    "woordkaartjes huis"
+   ],
+   "phraseCount": 1,
+   "supply": 25,
+   "supplySample": [
+    "woordkaartjes-moeilijk-huis-zw-g1324-2 — Lettergreepkaartjes: lees het woord in stukjes — Huis ZW",
+    "woordkaartjes-makkelijk-rond-het-huis-k324-17 — Woordkaartjes met plaatjes — Rond het huis",
+    "woordkaartjes-rond-het-huis-k324-115 — Woordkaartjes met plaatjes — Rond het huis",
+    "woordkaartjes-moeilijk-rond-het-huis-k324-211 — Woordkaartjes met plaatjes — Rond het huis"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "articles",
+   "topic": "weer",
+   "stem": "weer",
+   "demand": 4,
+   "phrases": [
+    "de of het weer"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "de-of-het-weer-k288-5 — De of het? — Weer",
+    "de-of-het-makkelijk-weer-k307-3 — De of het? Acht plaatjes — Weer"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "kerst",
+   "stem": "kerst",
+   "demand": 3,
+   "phrases": [
+    "schrijfpatronen kerst"
+   ],
+   "phraseCount": 1,
+   "supply": 12,
+   "supplySample": [
+    "schrijfpatronen-makkelijk-kerstmis-k236-29 — Schrijfpatronen oefenen — Kerstmis",
+    "schrijfpatronen-kerstmis-k236-127 — Schrijfpatronen oefenen — Kerstmis",
+    "schrijfpatronen-moeilijk-kerstmis-k236-226 — Schrijfpatronen oefenen — Kerstmis",
+    "schrijfpatronen-makkelijk-kerstmis-z-w-k236-3 — Schrijfpatronen oefenen — Kerstmis Z/W"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "sport",
+   "stem": "sport",
+   "demand": 3,
+   "phrases": [
+    "schrijfpatronen sport"
+   ],
+   "phraseCount": 1,
+   "supply": 9,
+   "supplySample": [
+    "schrijfpatronen-makkelijk-sport-zw-k236-76 — Schrijfpatronen oefenen — Sport ZW",
+    "schrijfpatronen-sport-zw-k236-174 — Schrijfpatronen oefenen — Sport ZW",
+    "schrijfpatronen-moeilijk-sport-zw-k236-273 — Schrijfpatronen oefenen — Sport ZW",
+    "schrijfpatronen-makkelijk-sport-zw-2-k236-77 — Schrijfpatronen oefenen — Sport ZW 2"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "bloemen",
+   "stem": "bloem",
+   "demand": 3,
+   "phrases": [
+    "woordkaartjes bloemen"
+   ],
+   "phraseCount": 1,
+   "supply": 5,
+   "supplySample": [
+    "woordkaartjes-bloemen-g1324-3 — Lettergreepkaartjes: lees het woord in stukjes — Bloemen",
+    "woordkaartjes-makkelijk-bloemen-g1324-5 — Lettergreepkaartjes: lees het woord in stukjes — Bloemen",
+    "woordkaartjes-makkelijk-bloemen-k324-45 — Woordkaartjes met plaatjes — Bloemen",
+    "woordkaartjes-bloemen-k324-143 — Woordkaartjes met plaatjes — Bloemen"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "kleding",
+   "stem": "kleding",
+   "demand": 3,
+   "phrases": [
+    "woordkaartjes kleding"
+   ],
+   "phraseCount": 1,
+   "supply": 8,
+   "supplySample": [
+    "woordkaartjes-makkelijk-kleding-zw-k324-16 — Woordkaartjes met plaatjes — Kleding ZW",
+    "woordkaartjes-kleding-zw-k324-114 — Woordkaartjes met plaatjes — Kleding ZW",
+    "woordkaartjes-moeilijk-kleding-zw-k324-210 — Woordkaartjes met plaatjes — Kleding ZW",
+    "woordkaartjes-makkelijk-kleding-k324-33 — Woordkaartjes met plaatjes — Kleding"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "panda",
+   "stem": "panda",
+   "demand": 3,
+   "phrases": [
+    "leren tekenen panda"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "leren-tekenen-makkelijk-k396-6 — Hoe teken je een panda: stap voor stap",
+    "leren-tekenen-makkelijk-k404-7 — Een panda tekenen en het woord schrijven",
+    "leren-tekenen-makkelijk-k401-6 — Een panda tekenen met simpele vormen"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "bakker",
+   "stem": "bakk",
+   "demand": 2,
+   "phrases": [
+    "schrijfpatronen bakker"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "schrijfpatronen-makkelijk-bakkerij-k236-18 — Schrijfpatronen oefenen — Bakkerij",
+    "schrijfpatronen-bakkerij-k236-116 — Schrijfpatronen oefenen — Bakkerij",
+    "schrijfpatronen-moeilijk-bakkerij-k236-215 — Schrijfpatronen oefenen — Bakkerij",
+    "schrijfpatronen-moeilijk-bakkerij-k247-5 — Moeilijke schrijfpatronen — Bakkerij"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "arrays-multiplication",
+   "topic": "klas",
+   "stem": "klas",
+   "demand": 2,
+   "phrases": [
+    "keersommen oefenen in de klas"
+   ],
+   "phraseCount": 1,
+   "supply": 6,
+   "supplySample": [
+    "keersommen-klaslokaal-z-w-g2210-2 — Van optellen naar keer — Klaslokaal (Z/W)",
+    "keersommen-makkelijk-klaslokaal-g2211-16 — Rijen en kolommen — Klaslokaal",
+    "keersommen-klaslokaal-g2211-68 — Rijen en kolommen — Klaslokaal",
+    "keersommen-moeilijk-klaslokaal-z-w-g2212-2 — Kies het rooster — Klaslokaal (Z/W)"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "arrays-multiplication",
+   "topic": "kerst",
+   "stem": "kerst",
+   "demand": 1,
+   "phrases": [
+    "keersommen kerst"
+   ],
+   "phraseCount": 1,
+   "supply": 6,
+   "supplySample": [
+    "keersommen-makkelijk-kerstmis-g2211-15 — Rijen en kolommen — Kerstmis",
+    "keersommen-kerstmis-g2211-67 — Rijen en kolommen — Kerstmis",
+    "keersommen-moeilijk-kerstmis-g2211-117 — Rijen en kolommen — Kerstmis",
+    "keersommen-kerstmis-z-w-g2212-2 — Kies het rooster — Kerstmis Z/W"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "arrays-multiplication",
+   "topic": "pasen",
+   "stem": "pasen",
+   "demand": 1,
+   "phrases": [
+    "keersommen pasen"
+   ],
+   "phraseCount": 1,
+   "supply": 6,
+   "supplySample": [
+    "keersommen-makkelijk-pasen-g2211-21 — Rijen en kolommen — Pasen",
+    "keersommen-moeilijk-pasen-g2211-123 — Rijen en kolommen — Pasen",
+    "keersommen-pasen-g2217-5 — Hoeveel groepen? — Pasen",
+    "keersommen-makkelijk-pasen-zw-g2217-2 — Hoeveel groepen? — Pasen ZW"
+   ],
+   "covered": false,
+   "coveredBy": null
+  }
+ ],
+ "contentIdeas": [
+  {
+   "type": "reading-comprehension",
+   "topic": "teksten",
+   "stem": "tekst",
+   "demand": 49,
+   "phrases": [
+    "begrijpend lezen teksten",
+    "begrijpend lezen tekst groep 6",
+    "begrijpend lezen teksten groep 7",
+    "begrijpend lezen tekst groep 4",
+    "begrijpend lezen teksten groep 8",
+    "begrijpend lezen teksten groep 5"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "verb-forms",
+   "topic": "frans",
+   "stem": "frans",
+   "demand": 47,
+   "phrases": [
+    "werkwoorden vervoegen frans",
+    "werkwoorden vervoegen er frans",
+    "werkwoorden vervoegen op er in het frans",
+    "werkwoorden vervoegen frans er",
+    "werkwoorden vervoegen frans re",
+    "werkwoorden vervoegen frans op er"
+   ],
+   "phraseCount": 9,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "frans",
+   "stem": "frans",
+   "demand": 39,
+   "phrases": [
+    "klokkijken frans",
+    "klokkijken frans oefenen",
+    "klokkijken frans werkblad",
+    "klokkijken in het frans",
+    "klokkijken in het frans oefenen"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "multiplication-tables",
+   "topic": "spelletjes",
+   "stem": "spelletj",
+   "demand": 39,
+   "phrases": [
+    "tafels oefenen spelletjes",
+    "tafels oefenen groep 4 spelletjes",
+    "tafels oefenen groep 5 spelletjes",
+    "tafels oefenen met spelletjes",
+    "tafels oefenen nl spelletjes",
+    "tafels oefenen online spelletjes"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "uitleg",
+   "stem": "uitleg",
+   "demand": 38,
+   "phrases": [
+    "breuken uitleg",
+    "breuken uitleg groep 6",
+    "breuken uitleg groep 7",
+    "breuken uitleg groep 8",
+    "breuken uitleg youtube"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "arrays-multiplication",
+   "topic": "spelletjes",
+   "stem": "spelletj",
+   "demand": 36,
+   "phrases": [
+    "keersommen spelletjes",
+    "keersommen nl spelletjes",
+    "keersommen oefenen spelletjes",
+    "keersommen spelletjes online",
+    "keersommen spelletjes groep 5"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "procenten",
+   "stem": "procent",
+   "demand": 36,
+   "phrases": [
+    "breuken en procenten",
+    "breuken en procenten oefenen",
+    "breuken en procenten groep 8",
+    "breuken en procenten werkblad",
+    "breuken en procenten groep 7",
+    "breuken in procenten"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "leren",
+   "stem": "leren",
+   "demand": 36,
+   "phrases": [
+    "breuken leren",
+    "breuken leren groep 6",
+    "breuken leren groep 7",
+    "breuken leren groep 8",
+    "breuken leren groep 5"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "junior einstein",
+   "stem": "junior einstei",
+   "demand": 36,
+   "phrases": [
+    "begrijpend lezen junior einstein",
+    "begrijpend lezen junior einstein groep 7",
+    "begrijpend lezen junior einstein groep 6",
+    "begrijpend lezen junior einstein groep 5",
+    "begrijpend lezen junior einstein groep 4"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "sommen",
+   "stem": "somm",
+   "demand": 34,
+   "phrases": [
+    "breuken sommen",
+    "breuken sommen groep 7",
+    "breuken sommen groep 8",
+    "breuken sommen groep 6",
+    "breuken x sommen"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "engels",
+   "stem": "engel",
+   "demand": 32,
+   "phrases": [
+    "rangtelwoorden engels",
+    "rangtelwoorden engels 1 100",
+    "rangtelwoorden engels oefenen",
+    "rangtelwoorden in het engels"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-problems",
+   "topic": "breuken",
+   "stem": "breuk",
+   "demand": 32,
+   "phrases": [
+    "verhaaltjessommen breuken",
+    "verhaaltjessommen breuken groep 7",
+    "verhaaltjessommen breuken groep 6",
+    "verhaaltjessommen met breuken"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "engels",
+   "stem": "engel",
+   "demand": 32,
+   "phrases": [
+    "klokkijken engels",
+    "klokkijken engels werkblad",
+    "klokkijken in het engels",
+    "klokkijken in het engels oefenen"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "cito",
+   "stem": "cito",
+   "demand": 32,
+   "phrases": [
+    "begrijpend lezen cito oefenen",
+    "begrijpend lezen cito",
+    "begrijpend lezen cito groep 8",
+    "begrijpend lezen cito oefenen groep 6 werkbladen",
+    "begrijpend lezen cito oefenen groep 7",
+    "begrijpend lezen cito groep 7"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-bonds",
+   "topic": "rekenen",
+   "stem": "reken",
+   "demand": 31,
+   "phrases": [
+    "splitsen rekenen",
+    "splitsen rekenen groep 6",
+    "splitsen rekenen groep 4",
+    "splitsen rekenen groep 5"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-problems",
+   "topic": "sinterklaas",
+   "stem": "sinterklaa",
+   "demand": 30,
+   "phrases": [
+    "verhaaltjessommen sinterklaas",
+    "verhaaltjessommen sinterklaas groep 3",
+    "verhaaltjessommen sinterklaas groep 4",
+    "verhaaltjessommen sinterklaas groep 6",
+    "verhaaltjessommen sinterklaas groep 7",
+    "verhaaltjessommen sinterklaas groep 5"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "iphone",
+   "stem": "iphon",
+   "demand": 30,
+   "phrases": [
+    "meten met iphone",
+    "meten app iphone",
+    "meten iphone",
+    "meten met je iphone",
+    "meten op iphone"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "klas",
+   "stem": "klas",
+   "demand": 29,
+   "phrases": [
+    "getallenlijn in de klas",
+    "getallenlijn klas",
+    "getallenlijn voor in de klas"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "benoemen",
+   "stem": "benoem",
+   "demand": 29,
+   "phrases": [
+    "woordsoorten benoemen",
+    "woordsoorten benoemen werkblad",
+    "woordsoorten benoemen groep 8",
+    "woordsoorten benoemen groep 6",
+    "woordsoorten benoemen oefenen"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "kommagetallen procenten",
+   "stem": "kommagetall procent",
+   "demand": 28,
+   "phrases": [
+    "breuken kommagetallen procenten",
+    "breuken procenten kommagetallen",
+    "breuken procenten kommagetallen werkblad groep 7",
+    "breuken procenten kommagetallen werkblad"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "jaar",
+   "stem": "jaar",
+   "demand": 28,
+   "phrases": [
+    "leren tekenen 5 jaar",
+    "leren tekenen 4 jaar",
+    "leren tekenen 6 jaar",
+    "leren tekenen 7 jaar",
+    "leren tekenen 8 jaar",
+    "leren tekenen 3 jaar"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "vwo wiskunde",
+   "stem": "vwo wiskund",
+   "demand": 28,
+   "phrases": [
+    "meetkunde vwo wiskunde b",
+    "meetkunde wiskunde b vwo 6",
+    "meetkunde wiskunde b vwo 4",
+    "meetkunde wiskunde b vwo oefenen",
+    "meetkunde wiskunde b vwo"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "all-about-me",
+   "topic": "blad",
+   "stem": "blad",
+   "demand": 28,
+   "phrases": [
+    "dit ben ik blad",
+    "dit ben ik blad groep 4",
+    "dit ben ik blad kleuters",
+    "dit ben ik blad groep 5",
+    "dit ben ik blad groep 3",
+    "dit ben ik blad groep 8"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "tot",
+   "stem": "tot",
+   "demand": 27,
+   "phrases": [
+    "rangtelwoorden tot 10",
+    "rangtelwoorden tot 20",
+    "rangtelwoorden tot 5"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "zinsdelen",
+   "stem": "zinsdel",
+   "demand": 27,
+   "phrases": [
+    "woordsoorten en zinsdelen",
+    "woordsoorten en zinsdelen oefenen",
+    "woordsoorten zinsdelen"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "duits",
+   "stem": "duits",
+   "demand": 27,
+   "phrases": [
+    "vraagwoorden duits",
+    "vraagwoorden duits oefenen",
+    "vraagwoorden in het duits",
+    "vraagwoorden oefenen duits"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "verb-forms",
+   "topic": "spaans",
+   "stem": "spaan",
+   "demand": 27,
+   "phrases": [
+    "werkwoorden vervoegen spaans",
+    "werkwoorden vervoegen in het spaans",
+    "werkwoorden vervoegen spaans oefenen"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "telefoon",
+   "stem": "telefoo",
+   "demand": 26,
+   "phrases": [
+    "meten met telefoon",
+    "meten met je telefoon",
+    "meten met telefoon gratis",
+    "meten op telefoon",
+    "meten telefoon"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "multiplication-tables",
+   "topic": "rekenen",
+   "stem": "reken",
+   "demand": 26,
+   "phrases": [
+    "tafels oefenen nl rekenen",
+    "tafels oefenen rekenen",
+    "tafels oefenen rekenen groep 4 werkbladen printen"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "frans",
+   "stem": "frans",
+   "demand": 26,
+   "phrases": [
+    "vraagwoorden frans",
+    "vraagwoorden in het frans",
+    "vraagwoorden in frans",
+    "vraagwoorden oefenen frans"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "maken",
+   "stem": "maken",
+   "demand": 25,
+   "phrases": [
+    "woordkaartjes maken",
+    "woordkaartjes maken online",
+    "woordkaartjes maken in word",
+    "woordkaartjes online maken"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "rekenen",
+   "stem": "reken",
+   "demand": 25,
+   "phrases": [
+    "getallenlijn rekenen",
+    "getallenlijn rekenen groep 4",
+    "getallenlijn rekenen groep 3"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "duits",
+   "stem": "duits",
+   "demand": 25,
+   "phrases": [
+    "rangtelwoorden duits",
+    "rangtelwoorden duits oefenen",
+    "rangtelwoorden in het duits",
+    "rangtelwoorden duits 1 tm 100"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "rekenen",
+   "stem": "reken",
+   "demand": 25,
+   "phrases": [
+    "kleuren op code rekenen",
+    "kleuren op code rekenen groep 4",
+    "kleuren op code rekenen groep 3",
+    "kleuren op code rekenen groep 5"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "herfst",
+   "stem": "herfst",
+   "demand": 25,
+   "phrases": [
+    "kleuren op code herfst",
+    "kleuren op code herfst kleuters",
+    "kleuren op code groep 3 herfst"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "rekenen",
+   "stem": "reken",
+   "demand": 25,
+   "phrases": [
+    "klokkijken rekenen",
+    "klokkijken rekenen nl",
+    "klokkijken rekenen groep 4"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "alphabetical-order",
+   "topic": "engels",
+   "stem": "engel",
+   "demand": 25,
+   "phrases": [
+    "alfabetische volgorde engels",
+    "alfabetische volgorde in het engels",
+    "alfabetische volgorde in engels"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "herfst",
+   "stem": "herfst",
+   "demand": 24,
+   "phrases": [
+    "schrijfpatronen herfst",
+    "schrijfpatronen kleuters herfst",
+    "schrijfpatronen herfst kleuters",
+    "schrijfpatronen herfst groep 2"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "kind jaar",
+   "stem": "kind jaar",
+   "demand": 24,
+   "phrases": [
+    "leren tekenen kind 8 jaar",
+    "leren tekenen kind 10 jaar",
+    "leren tekenen kind 4 jaar",
+    "leren tekenen kind 6 jaar",
+    "leren tekenen kind 9 jaar",
+    "leren tekenen kind 7 jaar"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "spaans",
+   "stem": "spaan",
+   "demand": 24,
+   "phrases": [
+    "klokkijken in het spaans",
+    "klokkijken in spaans",
+    "klokkijken in het spaans oefenen",
+    "klokkijken spaans"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "google maps",
+   "stem": "googl maps",
+   "demand": 24,
+   "phrases": [
+    "meten in google maps",
+    "meten op google maps",
+    "meten google maps",
+    "meten met google maps"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "juf milou",
+   "stem": "juf milou",
+   "demand": 24,
+   "phrases": [
+    "woordsoorten juf milou",
+    "woordsoorten juf milou groep 8",
+    "woordsoorten juf milou groep 6",
+    "woordsoorten oefenen juf milou",
+    "woordsoorten werkblad juf milou"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "mental-math",
+   "topic": "tot zonder brug",
+   "stem": "tot zond brug",
+   "demand": 24,
+   "phrases": [
+    "hoofdrekenen tot 100 zonder brug",
+    "hoofdrekenen tot 1000 zonder brug",
+    "hoofdrekenen tot 20 zonder brug"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "leeg",
+   "stem": "leeg",
+   "demand": 23,
+   "phrases": [
+    "getallenlijn leeg",
+    "getallenlijn leeg werkblad",
+    "getallenlijn werkblad leeg"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-problems",
+   "topic": "eind",
+   "stem": "eind",
+   "demand": 23,
+   "phrases": [
+    "verhaaltjessommen eind groep 3",
+    "verhaaltjessommen eind groep 5",
+    "verhaaltjessommen eind groep 6",
+    "verhaaltjessommen eind 3",
+    "verhaaltjessommen eind groep 4"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "all-about-me",
+   "topic": "jaar",
+   "stem": "jaar",
+   "demand": 23,
+   "phrases": [
+    "dit ben ik en 100 jaar",
+    "dit ben ik 100 jaar",
+    "dit ben ik of 100 jaar"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "arrays-multiplication",
+   "topic": "door elkaar",
+   "stem": "door elkaar",
+   "demand": 22,
+   "phrases": [
+    "keersommen door elkaar",
+    "keersommen door elkaar werkblad",
+    "keersommen door elkaar oefenen"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "arrays-multiplication",
+   "topic": "leren",
+   "stem": "leren",
+   "demand": 22,
+   "phrases": [
+    "keersommen leren",
+    "keersommen leren groep 4",
+    "keersommen leren groep 5"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "arrays-multiplication",
+   "topic": "tot",
+   "stem": "tot",
+   "demand": 22,
+   "phrases": [
+    "keersommen tot 10",
+    "keersommen tot en met 10",
+    "keersommen tot 100"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "junior einstein",
+   "stem": "junior einstei",
+   "demand": 22,
+   "phrases": [
+    "breuken junior einstein",
+    "breuken junior einstein groep 6",
+    "breuken junior einstein groep 8"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "digitaal",
+   "stem": "digitaal",
+   "demand": 22,
+   "phrases": [
+    "klokkijken digitaal",
+    "klokkijken digitaal oefenen",
+    "klokkijken digitaal werkblad",
+    "klokkijken oefenen digitaal"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-bonds",
+   "topic": "bewegend leren",
+   "stem": "bewegend leren",
+   "demand": 22,
+   "phrases": [
+    "splitsen bewegend leren",
+    "splitsen bewegend leren groep 3",
+    "splitsen groep 3 bewegend leren"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "nederlands",
+   "stem": "nederland",
+   "demand": 22,
+   "phrases": [
+    "woordsoorten nederlands",
+    "woordsoorten in het nederlands",
+    "woordsoorten nederlands oefenen"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "mental-math",
+   "topic": "volwassenen",
+   "stem": "volwassen",
+   "demand": 22,
+   "phrases": [
+    "hoofdrekenen oefenen volwassenen",
+    "hoofdrekenen oefenen volwassenen app",
+    "hoofdrekenen voor volwassenen"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "mental-math",
+   "topic": "engels",
+   "stem": "engel",
+   "demand": 22,
+   "phrases": [
+    "hoofdrekenen engels",
+    "hoofdrekenen in het engels",
+    "hoofdrekenen in engels"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "verb-forms",
+   "topic": "duits",
+   "stem": "duits",
+   "demand": 22,
+   "phrases": [
+    "werkwoorden vervoegen duits",
+    "werkwoorden vervoegen duits oefenen",
+    "werkwoorden vervoegen in het duits",
+    "werkwoorden vervoegen in duits"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "compound-words",
+   "topic": "afleidingen",
+   "stem": "afleiding",
+   "demand": 22,
+   "phrases": [
+    "samenstellingen afleidingen",
+    "samenstellingen en afleidingen",
+    "samenstellingen en afleidingen werkblad"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-bonds",
+   "topic": "herfst",
+   "stem": "herfst",
+   "demand": 21,
+   "phrases": [
+    "splitsen herfst",
+    "splitsen herfst groep 3",
+    "splitsen herfst kleuters"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "mental-math",
+   "topic": "rwt",
+   "stem": "rwt",
+   "demand": 21,
+   "phrases": [
+    "hoofdrekenen oefenen rwt",
+    "hoofdrekenen rwt oefenen",
+    "hoofdrekenen rwt"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "frans",
+   "stem": "frans",
+   "demand": 21,
+   "phrases": [
+    "begrijpend lezen frans",
+    "begrijpend lezen frans oefenen",
+    "begrijpend lezen in het frans"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "verb-forms",
+   "topic": "nederlands",
+   "stem": "nederland",
+   "demand": 21,
+   "phrases": [
+    "werkwoorden vervoegen nederlands",
+    "werkwoorden vervoegen in het nederlands",
+    "werkwoorden vervoegen nederlands werkblad",
+    "werkwoorden vervoegen oefenen nederlands"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "all-about-me",
+   "topic": "tekening",
+   "stem": "tekening",
+   "demand": 21,
+   "phrases": [
+    "dit ben ik tekening",
+    "dit ben ik tekening kleuters",
+    "dit ben ik tekening groep 3"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "arrays-multiplication",
+   "topic": "engels",
+   "stem": "engel",
+   "demand": 20,
+   "phrases": [
+    "keersommen engels",
+    "keersommen in het engels"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "invullen",
+   "stem": "invull",
+   "demand": 20,
+   "phrases": [
+    "getallenlijn invullen",
+    "getallenlijn invullen groep 3",
+    "getallenlijn invullen werkblad"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "maken",
+   "stem": "maken",
+   "demand": 20,
+   "phrases": [
+    "getallenlijn maken in word",
+    "getallenlijn maken",
+    "getallenlijn maken online",
+    "getallenlijn werkblad maken"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "engels",
+   "stem": "engel",
+   "demand": 20,
+   "phrases": [
+    "breuken engels",
+    "breuken in engels"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "ipad",
+   "stem": "ipad",
+   "demand": 20,
+   "phrases": [
+    "leren tekenen app ipad",
+    "leren tekenen ipad",
+    "leren tekenen op ipad"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "leren",
+   "stem": "leren",
+   "demand": 20,
+   "phrases": [
+    "klokkijken leren",
+    "klokkijken leren groep 6",
+    "klokkijken leren groep 4",
+    "klokkijken leren groep 3"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "analoog",
+   "stem": "analoog",
+   "demand": 20,
+   "phrases": [
+    "klokkijken analoog",
+    "klokkijken analoog werkblad",
+    "klokkijken analoog oefenen"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "meetkunde",
+   "stem": "meetkund",
+   "demand": 20,
+   "phrases": [
+    "meten en meetkunde",
+    "meten en meetkunde oefenen",
+    "meten en meetkunde groep 8",
+    "meten en meetkunde kleuters"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-bonds",
+   "topic": "automatiseren",
+   "stem": "automatiser",
+   "demand": 20,
+   "phrases": [
+    "splitsen automatiseren",
+    "splitsen automatiseren groep 3",
+    "splitsen automatiseren groep 4"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "spelling-rules",
+   "topic": "staal",
+   "stem": "staal",
+   "demand": 20,
+   "phrases": [
+    "spellingregels staal",
+    "spellingregels staal groep 4",
+    "spellingregels staal groep 6",
+    "spellingregels staal groep 5",
+    "spellingregels staal 2"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "days-and-months",
+   "topic": "frans",
+   "stem": "frans",
+   "demand": 20,
+   "phrases": [
+    "dagen en maanden in het frans",
+    "dagen en maanden frans"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "opposites",
+   "topic": "nederlands",
+   "stem": "nederland",
+   "demand": 20,
+   "phrases": [
+    "tegenstellingen in het nederlands",
+    "tegenstellingen nederlands",
+    "tegenstellingen nederlands oefenen"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "opposites",
+   "topic": "nt2",
+   "stem": "nt2",
+   "demand": 20,
+   "phrases": [
+    "tegenstellingen nt2",
+    "tegenstellingen nt2 werkblad",
+    "tegenstellingen oefenen nt2"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "compound-words",
+   "topic": "nederlands",
+   "stem": "nederland",
+   "demand": 20,
+   "phrases": [
+    "samenstellingen nederlands",
+    "samenstellingen in het nederlands",
+    "samenstellingen nederlands oefenen"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "namen",
+   "stem": "namen",
+   "demand": 19,
+   "phrases": [
+    "schrijfpatronen namen",
+    "schrijfpatronen kleuters namen"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "arrays-multiplication",
+   "topic": "automatiseren",
+   "stem": "automatiser",
+   "demand": 19,
+   "phrases": [
+    "keersommen automatiseren",
+    "keersommen automatiseren werkblad",
+    "keersommen automatiseren online"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "sprongen van",
+   "stem": "sprong van",
+   "demand": 19,
+   "phrases": [
+    "getallenlijn sprongen van 10",
+    "getallenlijn sprongen van 2",
+    "getallenlijn sprongen van 5"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "noemer teller",
+   "stem": "noem tell",
+   "demand": 19,
+   "phrases": [
+    "breuken noemer en teller",
+    "breuken teller en noemer"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  }
+ ],
+ "covered": 122
+}

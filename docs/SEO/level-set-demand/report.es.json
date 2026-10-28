@@ -1,0 +1,2074 @@
+{
+ "locale": "es",
+ "harvested": 1971,
+ "clusters": 5930,
+ "candidates": [
+  {
+   "type": "maze-puzzles",
+   "topic": "monstruos",
+   "stem": "monstruo",
+   "demand": 19,
+   "phrases": [
+    "juegos de laberinto con monstruos",
+    "juegos de laberinto de monstruos"
+   ],
+   "phraseCount": 2,
+   "supply": 1,
+   "supplySample": [
+    "juegos-de-laberinto-dificil-k409-10 — Lleva el camión monstruo de la A a la Z hasta la roca grande"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "singular-plural",
+   "topic": "que",
+   "stem": "que",
+   "demand": 17,
+   "phrases": [
+    "singular y plural que es",
+    "singular y plural que es para niños"
+   ],
+   "phraseCount": 2,
+   "supply": 1,
+   "supplySample": [
+    "singular-y-plural-dificil-cosas-que-vuelan-k303 — Singular y plural: palabras largas — Cosas que vuelan"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "alphabetical-order",
+   "topic": "que",
+   "stem": "que",
+   "demand": 16,
+   "phrases": [
+    "orden alfabético que es",
+    "orden alfabetico que es para niños"
+   ],
+   "phraseCount": 2,
+   "supply": 1,
+   "supplySample": [
+    "orden-alfabetico-cosas-que-vuelan-g1263-5 — Orden alfabético: numera y copia — Cosas que vuelan"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "dibujos",
+   "stem": "dibujo",
+   "demand": 14,
+   "phrases": [
+    "grafomotricidad con dibujos",
+    "grafomotricidad dibujos"
+   ],
+   "phraseCount": 2,
+   "supply": 15,
+   "supplySample": [
+    "grafomotricidad-facil-accesorios-k387 — Caminos de un dibujo a otro — Accesorios",
+    "grafomotricidad-accesorios-k387-4 — Caminos de un dibujo a otro — Accesorios",
+    "grafomotricidad-dificil-animales-bn-3-k387-2 — Caminos de un dibujo a otro — Animales BN 3",
+    "grafomotricidad-animales-bn-4-k387 — Caminos de un dibujo a otro — Animales BN 4"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "write-the-word",
+   "topic": "gracias",
+   "stem": "gracia",
+   "demand": 10,
+   "phrases": [
+    "escribir la palabra gracias"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "escribir-la-palabra-facil-dia-de-accion-de-gracias-g1301 — Dictado mudo: banco y recuadros — Día de Acción de Gracias"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "jirafas",
+   "stem": "jirafa",
+   "demand": 10,
+   "phrases": [
+    "cómo dibujar jirafas"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "como-dibujar-dificil-g2391-15 — Dibuja una jirafa de memoria",
+    "como-dibujar-dificil-k404-18 — Dibuja una jirafa y escribe la palabra"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "unicornio",
+   "stem": "unicorni",
+   "demand": 10,
+   "phrases": [
+    "colorear por numeros unicornio"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "colorear-por-numeros-k394-42-unicorn — Colorea por números: Unicornio"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "que",
+   "stem": "que",
+   "demand": 10,
+   "phrases": [
+    "geometría que es"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "geometria-facil-cosas-que-vuelan-g2247-2 — ¿Eje de simetría? — Cosas que vuelan",
+    "geometria-dificil-cosas-que-vuelan-g2247-3 — ¿Eje de simetría? — Cosas que vuelan",
+    "geometria-cosas-que-vuelan-g2248-6 — Halla el dibujo simétrico — Cosas que vuelan"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "que",
+   "stem": "que",
+   "demand": 10,
+   "phrases": [
+    "medición que es"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "medicion-facil-cosas-que-vuelan-g1139 — Cuadro a cuadro — Cosas que vuelan",
+    "medicion-dificil-cosas-que-vuelan-g1139-3 — Cuadro a cuadro — Cosas que vuelan",
+    "medicion-cosas-que-vuelan-g1140-5 — De corto a largo — Cosas que vuelan"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "musica",
+   "stem": "music",
+   "demand": 9,
+   "phrases": [
+    "grafomotricidad con musica"
+   ],
+   "phraseCount": 1,
+   "supply": 6,
+   "supplySample": [
+    "grafomotricidad-facil-musica-k236-63 — Trazos de grafomotricidad — Música",
+    "grafomotricidad-musica-k236-161 — Trazos de grafomotricidad — Música",
+    "grafomotricidad-dificil-musica-k236-260 — Trazos de grafomotricidad — Música",
+    "grafomotricidad-dificil-musica-k244-5 — Grafomotricidad: rectas y zigzag — Música"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "estrellas",
+   "stem": "estrella",
+   "demand": 9,
+   "phrases": [
+    "cómo dibujar estrellas"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "como-dibujar-facil-k402-6 — Repasa una estrella de mar paso a paso"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "singular-plural",
+   "topic": "objetos",
+   "stem": "objeto",
+   "demand": 9,
+   "phrases": [
+    "singular y plural objetos"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "singular-y-plural-dificil-objetos-bn-k303-2 — Singular y plural: palabras largas — Objetos BN"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "koalas",
+   "stem": "koala",
+   "demand": 8,
+   "phrases": [
+    "cómo dibujar koalas"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "como-dibujar-k401-9 — Dibuja un koala con figuras simples",
+    "como-dibujar-dificil-k404-17 — Dibuja un koala y escribe la palabra"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "tortugas",
+   "stem": "tortuga",
+   "demand": 8,
+   "phrases": [
+    "cómo dibujar tortugas"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "como-dibujar-dificil-g1418-13 — Ordena los pasos: dibujar una tortuga",
+    "como-dibujar-k396-14 — Cómo dibujar una tortuga paso a paso"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "flores",
+   "stem": "flor",
+   "demand": 8,
+   "phrases": [
+    "colorear por numeros flores"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "colorear-por-numeros-dificil-k394-28-flowerpot — Colorea por números: Maceta con flores"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "syllable-split",
+   "topic": "flor",
+   "stem": "flor",
+   "demand": 8,
+   "phrases": [
+    "separar en sílabas flor"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "separar-en-silabas-facil-flores-g1305-5 — Separa las palabras en sílabas — Flores",
+    "separar-en-silabas-flores-g1305-3 — Separa las palabras en sílabas — Flores",
+    "separar-en-silabas-flores-g1327-6 — Ordena las sílabas y escribe la palabra — Flores",
+    "separar-en-silabas-dificil-flores-g1329-3 — La vocal de cada sílaba — Flores"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-tracing",
+   "topic": "pintar",
+   "stem": "pintar",
+   "demand": 7,
+   "phrases": [
+    "dibujos para repasar y pintar"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "dibujos-para-repasar-g1431-9 — ¿Qué vas a pintar?"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "globos",
+   "stem": "globo",
+   "demand": 7,
+   "phrases": [
+    "cómo dibujar globos"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "como-dibujar-g1417-12 — Dibuja un globo aerostático en la escena"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "zorros",
+   "stem": "zorro",
+   "demand": 7,
+   "phrases": [
+    "cómo dibujar zorros"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "como-dibujar-facil-g1419-2 — Copia cada paso: dibuja un zorro",
+    "como-dibujar-dificil-k403-16 — Completa el dibujo de un zorro"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "singular-plural",
+   "topic": "zoologico",
+   "stem": "zoologic",
+   "demand": 7,
+   "phrases": [
+    "singular y plural en el zoologico"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "singular-y-plural-facil-animales-del-zoologico-k287 — Singular y plural: uno y muchos — Animales del zoológico",
+    "singular-y-plural-dificil-animales-del-zoologico-k313-3 — Singular y plural: de muchos a uno — Animales del zoológico",
+    "singular-y-plural-animales-del-zoologico-bn-k314-4 — Singular y plural sin punteado — Animales del zoológico BN"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "verano",
+   "stem": "veran",
+   "demand": 6,
+   "phrases": [
+    "grafomotricidad verano"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "grafomotricidad-facil-verano-k236-79 — Trazos de grafomotricidad — Verano",
+    "grafomotricidad-verano-k236-177 — Trazos de grafomotricidad — Verano",
+    "grafomotricidad-dificil-verano-k236-276 — Trazos de grafomotricidad — Verano"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "educacion",
+   "stem": "educacio",
+   "demand": 6,
+   "phrases": [
+    "medición en educación"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "medicion-educacion-bn-g2235-6 — Mídelo — Educación BN"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "primero",
+   "stem": "primer",
+   "demand": 6,
+   "phrases": [
+    "comprensión lectora grado primero"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "comprension-lectora-g2272-3 — Comprensión lectora: El primer vuelo",
+    "comprension-lectora-facil-g2272-9 — Comprensión lectora: El primer vuelo",
+    "comprension-lectora-dificil-g2272-14 — Comprensión lectora: El primer vuelo"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "lineas",
+   "stem": "linea",
+   "demand": 5,
+   "phrases": [
+    "grafomotricidad lineas"
+   ],
+   "phraseCount": 1,
+   "supply": 15,
+   "supplySample": [
+    "grafomotricidad-dificil-accesorios-k385 — Líneas verticales, inclinadas y cruces — Accesorios",
+    "grafomotricidad-dificil-desayuno-k385-3 — Líneas verticales, inclinadas y cruces — Desayuno",
+    "grafomotricidad-pascua-k385-2 — Líneas verticales, inclinadas y cruces — Pascua",
+    "grafomotricidad-facil-pascua-bn-k385-2 — Líneas verticales, inclinadas y cruces — Pascua BN"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "helados",
+   "stem": "helado",
+   "demand": 5,
+   "phrases": [
+    "cómo dibujar helados"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "como-dibujar-dificil-g1419-13 — Copia cada paso: dibuja un camión de helados",
+    "como-dibujar-k396-21 — Cómo dibujar una copa de helado paso a paso",
+    "como-dibujar-dificil-k396-29 — Cómo dibujar un camión de helados paso a paso",
+    "como-dibujar-k402-12 — Repasa y luego dibuja una copa de helado"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "dinosaurios",
+   "stem": "dinosaurio",
+   "demand": 4,
+   "phrases": [
+    "colorear por numeros dinosaurios"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "colorear-por-numeros-facil-k394-2-dinosaur — Colorea por números: Dinosaurio"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "singular-plural",
+   "topic": "flor",
+   "stem": "flor",
+   "demand": 4,
+   "phrases": [
+    "singular y plural de flor"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "singular-y-plural-dificil-flores-k302-3 — Singular y plural: palabras cortas — Flores",
+    "singular-y-plural-dificil-flores-k316-3 — De muchos a uno, sin punteado — Flores"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "invierno",
+   "stem": "inviern",
+   "demand": 3,
+   "phrases": [
+    "grafomotricidad invierno"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "grafomotricidad-facil-invierno-k236-97 — Trazos de grafomotricidad — Invierno",
+    "grafomotricidad-invierno-k236-195 — Trazos de grafomotricidad — Invierno",
+    "grafomotricidad-dificil-invierno-k236-294 — Trazos de grafomotricidad — Invierno",
+    "grafomotricidad-dificil-invierno-k246-3 — Bucles, espirales y ochos — Invierno"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "basura",
+   "stem": "basur",
+   "demand": 3,
+   "phrases": [
+    "cómo dibujar basura"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "como-dibujar-dificil-g2391-16 — Dibuja un camión de basura de memoria",
+    "como-dibujar-dificil-k403-15 — Completa el dibujo de un camión de basura"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "plantas",
+   "stem": "planta",
+   "demand": 3,
+   "phrases": [
+    "cómo dibujar plantas"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "como-dibujar-k404-12 — Dibuja una planta y escribe la palabra",
+    "como-dibujar-k396-24 — Cómo dibujar una planta paso a paso"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "herramientas",
+   "stem": "herramienta",
+   "demand": 3,
+   "phrases": [
+    "medicion herramientas"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "medicion-facil-herramientas-bn-g2235-2 — Mídelo — Herramientas BN",
+    "medicion-herramientas-bn-g2236-2 — ¿Cuánto más largo? — Herramientas BN"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "circulos",
+   "stem": "circulo",
+   "demand": 2,
+   "phrases": [
+    "grafomotricidad circulos"
+   ],
+   "phraseCount": 1,
+   "supply": 15,
+   "supplySample": [
+    "grafomotricidad-facil-campamento-k386 — Grafomotricidad: círculos, cuadrados y triángulos — Campamento",
+    "grafomotricidad-colores-k386-2 — Grafomotricidad: círculos, cuadrados y triángulos — Colores",
+    "grafomotricidad-dificil-colores-k386-5 — Grafomotricidad: círculos, cuadrados y triángulos — Colores",
+    "grafomotricidad-dificil-educacion-bn-k386-2 — Grafomotricidad: círculos, cuadrados y triángulos — Educación BN"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "mar",
+   "stem": "mar",
+   "demand": 2,
+   "phrases": [
+    "cómo dibujar el mar"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "como-dibujar-facil-g1418-6 — Ordena los pasos: dibujar un caballito de mar",
+    "como-dibujar-facil-k402-6 — Repasa una estrella de mar paso a paso",
+    "como-dibujar-k403-10 — Completa el dibujo de un caballito de mar"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "gallinas",
+   "stem": "gallina",
+   "demand": 2,
+   "phrases": [
+    "cómo dibujar gallinas"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "como-dibujar-facil-k404-5 — Dibuja una gallina y escribe la palabra"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "ratones",
+   "stem": "raton",
+   "demand": 2,
+   "phrases": [
+    "cómo dibujar ratones"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "como-dibujar-facil-g1416-6 — Dibuja un ratón en cuadrícula",
+    "como-dibujar-dificil-g1418-14 — Ordena los pasos: dibujar un ratón"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "tiburones",
+   "stem": "tiburon",
+   "demand": 2,
+   "phrases": [
+    "cómo dibujar tiburones"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "como-dibujar-facil-k404-6 — Dibuja un tiburón y escribe la palabra"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "alphabetical-order",
+   "topic": "navidad",
+   "stem": "navidad",
+   "demand": 2,
+   "phrases": [
+    "orden alfabetico navidad"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "orden-alfabetico-facil-navidad-g1245-5 — Orden alfabético — Navidad",
+    "orden-alfabetico-navidad-g1262-5 — Orden alfabético: numera las tarjetas — Navidad",
+    "orden-alfabetico-dificil-navidad-g1263-5 — Orden alfabético: numera y copia — Navidad"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "insectos",
+   "stem": "insecto",
+   "demand": 1,
+   "phrases": [
+    "grafomotricidad insectos"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "grafomotricidad-facil-insectos-y-bichos-k236-59 — Trazos de grafomotricidad — Insectos y bichos",
+    "grafomotricidad-insectos-y-bichos-k236-157 — Trazos de grafomotricidad — Insectos y bichos",
+    "grafomotricidad-dificil-insectos-y-bichos-k236-256 — Trazos de grafomotricidad — Insectos y bichos"
+   ],
+   "covered": false,
+   "coveredBy": null
+  }
+ ],
+ "contentIdeas": [
+  {
+   "type": "number-lines",
+   "topic": "fracciones",
+   "stem": "fraccion",
+   "demand": 79,
+   "phrases": [
+    "recta numérica de fracciones",
+    "recta numérica con fracciones",
+    "recta numérica con fracciones ejercicios",
+    "recta numérica en fracciones",
+    "recta numérica fracciones",
+    "recta numérica fracciones pdf"
+   ],
+   "phraseCount": 11,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "ingles del",
+   "stem": "ingl del",
+   "demand": 68,
+   "phrases": [
+    "números ordinales en inglés del 1 al 100",
+    "números ordinales en inglés del 1 al 31",
+    "números ordinales del 1 al 20 en inglés",
+    "números ordinales del 1 al 100 en inglés",
+    "números ordinales del 1 al 31 en inglés",
+    "números ordinales del 1 al 30 en inglés"
+   ],
+   "phraseCount": 13,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "adultos",
+   "stem": "adulto",
+   "demand": 63,
+   "phrases": [
+    "colorear por números para adultos gratis pdf",
+    "colorear por números para adultos gratis",
+    "colorear por números para adultos",
+    "colorear por números para adultos gratis online",
+    "colorear por números adultos",
+    "colorear por números adultos online"
+   ],
+   "phraseCount": 10,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "hasta",
+   "stem": "hasta",
+   "demand": 51,
+   "phrases": [
+    "números ordinales hasta el 20",
+    "números ordinales hasta el 100",
+    "números ordinales hasta el 30",
+    "números ordinales hasta el 5",
+    "números ordinales hasta el 50",
+    "números ordinales hasta el 31"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-of-the-day",
+   "topic": "once",
+   "stem": "once",
+   "demand": 48,
+   "phrases": [
+    "el número del día 15 de la once",
+    "el número del día de la once",
+    "el número del día 11 de la once",
+    "el número del día 22 de la once",
+    "el número del día 13 de la once",
+    "el número del día 3 de la once"
+   ],
+   "phraseCount": 10,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "sentence-building",
+   "topic": "ingles",
+   "stem": "ingl",
+   "demand": 47,
+   "phrases": [
+    "ordenar frases en inglés ejercicios pdf",
+    "ordenar frases en ingles",
+    "ordenar frases de ingles",
+    "ordenar frases en inglés online",
+    "ordenar frases en inglés ejercicios",
+    "ordenar frases en ingles 6 primaria"
+   ],
+   "phraseCount": 9,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "decimales",
+   "stem": "decimal",
+   "demand": 46,
+   "phrases": [
+    "fracciones decimales",
+    "fracciones a decimales",
+    "fracciones a decimales ejercicios",
+    "fracciones con decimales",
+    "fracciones no decimales",
+    "fracciones o decimales"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "multiplication-tables",
+   "topic": "llavero",
+   "stem": "llaver",
+   "demand": 45,
+   "phrases": [
+    "tablas de multiplicar en llavero",
+    "tablas de multiplicar en llavero para imprimir",
+    "tablas de multiplicar llavero",
+    "tablas de multiplicar llavero para imprimir",
+    "tablas de multiplicar llavero pdf",
+    "tablas de multiplicar para llavero pdf"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-words",
+   "topic": "del uno",
+   "stem": "del uno",
+   "demand": 45,
+   "phrases": [
+    "números en letras del uno al 20",
+    "números en letras del uno al 100",
+    "números en letras del uno al 50",
+    "números en letras del uno al 30",
+    "números en letras del uno al 10",
+    "números en letras del uno al 40"
+   ],
+   "phraseCount": 9,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-problems",
+   "topic": "quinto",
+   "stem": "quint",
+   "demand": 44,
+   "phrases": [
+    "problemas de suma y resta grado quinto",
+    "problemas de suma y resta para quinto grado pdf",
+    "problemas de suma y resta para quinto grado",
+    "problemas de suma y resta quinto grado",
+    "problemas de suma y resta quinto grado primaria",
+    "problemas de suma y resta quinto"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "vocales",
+   "stem": "vocal",
+   "demand": 43,
+   "phrases": [
+    "grafomotricidad de las vocales",
+    "grafomotricidad vocal u",
+    "grafomotricidad vocales para imprimir pdf",
+    "grafomotricidad vocales",
+    "grafomotricidad vocales pdf",
+    "grafomotricidad vocales para imprimir"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "letras",
+   "stem": "letra",
+   "demand": 43,
+   "phrases": [
+    "grafomotricidad de letras",
+    "grafomotricidad de letras pdf",
+    "grafomotricidad letras",
+    "grafomotricidad letras pdf",
+    "grafomotricidad letra m",
+    "grafomotricidad letra u"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "mental-math",
+   "topic": "cuarto",
+   "stem": "cuart",
+   "demand": 43,
+   "phrases": [
+    "cálculo mental cuarto grado",
+    "cálculo mental cuarto grado pdf",
+    "cálculo mental de cuarto grado",
+    "calculo mental grado cuarto",
+    "cálculo mental para cuarto grado de primaria",
+    "cálculo mental para niños de cuarto grado"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "quinto",
+   "stem": "quint",
+   "demand": 43,
+   "phrases": [
+    "comprensión lectora de quinto grado",
+    "comprensión lectora grado quinto",
+    "comprensión lectora quinto grado",
+    "comprensión lectora quinto grado pdf",
+    "comprensión lectora quinto grado de primaria",
+    "comprensión lectora quinto"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "secundaria",
+   "stem": "secundari",
+   "demand": 40,
+   "phrases": [
+    "comprensión lectora actividades secundaria",
+    "comprensión lectora de secundaria",
+    "comprensión lectora ejercicios secundaria",
+    "comprensión lectora online secundaria",
+    "comprensión lectora secundaria",
+    "comprensión lectora segundo grado de secundaria"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-walls",
+   "topic": "multiplicacion",
+   "stem": "multiplicacio",
+   "demand": 39,
+   "phrases": [
+    "pirámides numéricas con multiplicación",
+    "pirámides numéricas de multiplicación",
+    "pirámides numéricas de multiplicación pdf",
+    "pirámides numéricas de la multiplicación",
+    "pirámides numéricas multiplicacion"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "valenciano",
+   "stem": "valencian",
+   "demand": 39,
+   "phrases": [
+    "comprensión lectora valenciano 5 primaria",
+    "comprensión lectora valenciano 2 primaria pdf",
+    "comprensión lectora valenciano 3 primaria",
+    "comprensión lectora valenciano 4 primària pdf",
+    "comprensión lectora valenciano",
+    "comprensión lectora valenciano 4 primaria"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-parts",
+   "topic": "ejemplos",
+   "stem": "ejemplo",
+   "demand": 39,
+   "phrases": [
+    "palabras primitivas y derivadas ejemplos",
+    "palabras primitivas y derivadas con ejemplos",
+    "palabras primitivas y derivadas ejemplos para niños",
+    "palabras primitivas y derivadas ejemplos 4 primaria",
+    "palabras primitivas y derivadas y ejemplos"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "ingles",
+   "stem": "ingl",
+   "demand": 38,
+   "phrases": [
+    "números ordinales en inglés",
+    "números ordinales inglés",
+    "números ordinales inglés 1 al 200",
+    "números ordinales inglés 31",
+    "números ordinales inglés 1 al 20",
+    "números ordinales s en inglés"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pronouns",
+   "topic": "ingles",
+   "stem": "ingl",
+   "demand": 38,
+   "phrases": [
+    "pronombres personales en ingles",
+    "pronombres personales de inglés",
+    "pronombres personales inglés",
+    "pronombres personales inglés ejercicios",
+    "pronombres personales ingles pdf"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-problems",
+   "topic": "cuarto",
+   "stem": "cuart",
+   "demand": 35,
+   "phrases": [
+    "problemas de suma y resta para cuarto grado",
+    "problemas de suma y resta cuarto grado",
+    "problemas de suma y resta cuarto grado de primaria",
+    "problemas de suma y resta cuarto de primaria",
+    "problemas de suma y resta grado cuarto",
+    "problemas de suma y resta para cuarto de primaria pdf"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "multiplication-tables",
+   "topic": "hasta",
+   "stem": "hasta",
+   "demand": 35,
+   "phrases": [
+    "tablas de multiplicar hasta el 12",
+    "tablas de multiplicar hasta el 20",
+    "tablas de multiplicar hasta el 15",
+    "tablas de multiplicar hasta el 10",
+    "tablas de multiplicar hasta el 100",
+    "tablas de multiplicar hasta el 12 para imprimir"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-bonds",
+   "topic": "cifras",
+   "stem": "cifra",
+   "demand": 35,
+   "phrases": [
+    "descomposición de números de 6 cifras",
+    "descomposición de números de 4 cifras",
+    "descomposición de números de 5 cifras",
+    "descomposición de números de 4 cifras ejercicios",
+    "descomposición de números de 9 cifras",
+    "descomposición de números de 7 cifras"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "arrays-multiplication",
+   "topic": "fracciones",
+   "stem": "fraccion",
+   "demand": 34,
+   "phrases": [
+    "multiplicación de fracciones",
+    "multiplicación con fracciones",
+    "multiplicación en fracciones",
+    "multiplicación fracciones"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "find-the-differences",
+   "topic": "adultos",
+   "stem": "adulto",
+   "demand": 34,
+   "phrases": [
+    "busca las diferencias para adultos",
+    "busca las diferencias adultos",
+    "busca las diferencias adultos pdf",
+    "busca las diferencias para imprimir adultos",
+    "busca las diferencias para adultos pdf"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "mental-math",
+   "topic": "sexto",
+   "stem": "sexto",
+   "demand": 34,
+   "phrases": [
+    "cálculo mental sexto grado",
+    "cálculo mental de sexto grado",
+    "cálculo mental para sexto grado",
+    "cálculo mental sexto grado pdf"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "verb-forms",
+   "topic": "frances",
+   "stem": "franc",
+   "demand": 34,
+   "phrases": [
+    "conjugar verbos en frances",
+    "conjugar verbos frances",
+    "conjugar verbos frances ejercicios",
+    "conjugar verbos frances online",
+    "conjugar verbos frances er"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "days-and-months",
+   "topic": "ingles",
+   "stem": "ingl",
+   "demand": 34,
+   "phrases": [
+    "días y meses en inglés",
+    "dias y meses ingles",
+    "días y meses en inglés para niños",
+    "dias y meses en ingles para imprimir",
+    "dias y meses en ingles worksheet"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "opposites",
+   "topic": "ejemplos",
+   "stem": "ejemplo",
+   "demand": 34,
+   "phrases": [
+    "antónimos ejemplos",
+    "antónimos con ejemplos",
+    "antonimos ejemplos para niños",
+    "antónimos ejemplos 10",
+    "antónimos y ejemplos"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "synonyms",
+   "topic": "antonimos",
+   "stem": "antonimo",
+   "demand": 33,
+   "phrases": [
+    "sinónimos y antónimos",
+    "sinónimos antónimos",
+    "sinonimos y antonimos para niños",
+    "sinónimos y antónimos ejercicios",
+    "sinónimos y antónimos pdf"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "sentence-building",
+   "topic": "desordenadas",
+   "stem": "desordenada",
+   "demand": 33,
+   "phrases": [
+    "ordenar frases desordenadas pdf",
+    "ordenar frases desordenadas",
+    "ordenar frases desordenadas online",
+    "ordenar frases desordenadas primaria",
+    "ordenar frases desordenadas para niños"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "all-about-me",
+   "topic": "madre",
+   "stem": "madre",
+   "demand": 33,
+   "phrases": [
+    "todo sobre mí madre",
+    "todo sobre mi madre online",
+    "todo sobre mi madre ok",
+    "todo sobre mi madre vk",
+    "todo sobre mi madre youtube"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "numeros positivos negativos",
+   "stem": "numero positivo negativo",
+   "demand": 32,
+   "phrases": [
+    "recta numérica con números positivos y negativos",
+    "recta numérica de números positivos y negativos",
+    "recta numérica números positivos y negativos",
+    "recta numérica números positivos y negativos para imprimir"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-problems",
+   "topic": "fracciones",
+   "stem": "fraccion",
+   "demand": 32,
+   "phrases": [
+    "problemas de suma y resta de fracciones",
+    "problemas de suma y resta de fracciones pdf",
+    "problemas de suma y resta en fracciones",
+    "problemas de suma y resta fracciones"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "ingles",
+   "stem": "ingl",
+   "demand": 32,
+   "phrases": [
+    "aprender la hora en ingles para niños",
+    "aprender la hora en inglés",
+    "aprender la hora ingles",
+    "aprender la hora en ingles ejercicios",
+    "aprender la hora en inglés pdf"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-bonds",
+   "topic": "quinto",
+   "stem": "quint",
+   "demand": 32,
+   "phrases": [
+    "descomposicion de numeros grado quinto",
+    "descomposición de números quinto grado",
+    "descomposición de números quinto de primaria",
+    "descomposicion de numeros quinto",
+    "descomposicion de numeros para quinto primaria"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "bachillerato",
+   "stem": "bachillerat",
+   "demand": 32,
+   "phrases": [
+    "clases de palabras bachillerato pdf",
+    "clases de palabras bachillerato",
+    "clases de palabras 1 bachillerato",
+    "clases de palabras 2 bachillerato"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "synonyms",
+   "topic": "ejemplos",
+   "stem": "ejemplo",
+   "demand": 32,
+   "phrases": [
+    "sinónimos ejemplos",
+    "sinónimos ejemplos para niños",
+    "sinónimos ejemplos primaria",
+    "sinónimos ejemplos 10",
+    "sinónimos y ejemplos"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "equivalentes",
+   "stem": "equivalent",
+   "demand": 31,
+   "phrases": [
+    "fracciones equivalentes",
+    "fracciones equivalentes ejercicios",
+    "fracciones equivalentes para niños",
+    "fracciones equivalentes a 1/2",
+    "fracciones equivalentes a 2/3",
+    "fracciones equivalentes 5 primaria"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-bonds",
+   "topic": "valor posicional",
+   "stem": "valor posicional",
+   "demand": 31,
+   "phrases": [
+    "descomposición de números valor posicional",
+    "descomposición de números y valor posicional ejercicios",
+    "descomposición de números y valor posicional ejercicios pdf",
+    "descomposición de números y valor posicional"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pronouns",
+   "topic": "verbo ingles",
+   "stem": "verbo ingl",
+   "demand": 30,
+   "phrases": [
+    "pronombres personales con el verbo to be en inglés",
+    "pronombres personales inglés con el verbo to be",
+    "pronombres personales verbo to be en inglés",
+    "pronombres personales y verbo to be en inglés"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "multiplication-tables",
+   "topic": "juegos",
+   "stem": "juego",
+   "demand": 29,
+   "phrases": [
+    "tablas de multiplicar juegos",
+    "tablas de multiplicar juego gratis",
+    "tablas de multiplicar juegos para niños",
+    "tablas de multiplicar online juegos"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rounding",
+   "topic": "numeros decimales",
+   "stem": "numero decimal",
+   "demand": 29,
+   "phrases": [
+    "redondeo de números decimales",
+    "redondeo los numeros decimales",
+    "redondeo numeros decimales",
+    "redondeo numeros decimales 5 primaria",
+    "redondeo numeros decimales 4 primaria",
+    "redondeo numeros decimales 6 primaria"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rounding",
+   "topic": "truncamiento",
+   "stem": "truncamient",
+   "demand": 29,
+   "phrases": [
+    "redondeo o truncamiento",
+    "redondeo truncamiento",
+    "redondeo y truncamiento",
+    "redondeo y truncamiento ejercicios"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "santillana",
+   "stem": "santillan",
+   "demand": 29,
+   "phrases": [
+    "comprensión lectora 2 primaria santillana pdf",
+    "comprensión lectora 4 primaria santillana pdf",
+    "comprensión lectora 3 primaria santillana pdf",
+    "comprensión lectora 5 primaria santillana pdf",
+    "comprensión lectora santillana pdf"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "verb-forms",
+   "topic": "presente pasado futuro",
+   "stem": "present pasad futur",
+   "demand": 29,
+   "phrases": [
+    "conjugar verbos en presente pasado y futuro",
+    "conjugar verbos futuro pasado y presente",
+    "conjugar verbos presente pasado y futuro",
+    "conjugar verbos pasado presente y futuro"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "digraphs",
+   "topic": "atividades ano",
+   "stem": "atividad ano",
+   "demand": 29,
+   "phrases": [
+    "digrafos atividades 4 ano",
+    "digrafos atividades 5 ano",
+    "digrafos atividade 2 ano",
+    "digrafos atividades 3 ano",
+    "dígrafos atividades 4 ano",
+    "dígrafos atividades 5 ano"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "feelings",
+   "topic": "intensamente",
+   "stem": "intensament",
+   "demand": 29,
+   "phrases": [
+    "las emociones de intensamente",
+    "las emociones de intensamente 2",
+    "las emociones intensamente",
+    "las emociones intensamente 2",
+    "las emociones intensamente para imprimir"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "anos",
+   "stem": "anos",
+   "demand": 28,
+   "phrases": [
+    "grafomotricidad para niños de 7 a 8 años pdf",
+    "grafomotricidad 4 años para imprimir pdf",
+    "grafomotricidad para niños de 6 a 7 años pdf",
+    "grafomotricidad de 4 años",
+    "grafomotricidad niños de 3 años",
+    "grafomotricidad niños de 2 años"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "find-the-differences",
+   "topic": "blanco negro",
+   "stem": "blanc negro",
+   "demand": 28,
+   "phrases": [
+    "busca las diferencias blanco y negro",
+    "busca las diferencias blanco y negro pdf",
+    "busca las diferencias en blanco y negro"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "euclidiana",
+   "stem": "euclidian",
+   "demand": 28,
+   "phrases": [
+    "geometría euclidiana",
+    "geometría euclidiana pdf",
+    "geometría no euclidiana",
+    "geometría no euclidiana pdf"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "kinder",
+   "stem": "kind",
+   "demand": 28,
+   "phrases": [
+    "comprensión lectora kinder",
+    "comprensión lectora kinder pdf",
+    "comprensión lectora kinder para imprimir",
+    "comprension lectora para kinder"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "escolar",
+   "stem": "escolar",
+   "demand": 28,
+   "phrases": [
+    "el calendario escolar",
+    "el calendario escolar 2026 2027",
+    "el calendario escolar 2026",
+    "el calendario escolar 2627"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "nombre",
+   "stem": "nombr",
+   "demand": 26,
+   "phrases": [
+    "números ordinales con nombre",
+    "números ordinales nombres",
+    "números ordinales nombre"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "multiplication-tables",
+   "topic": "guerreras kpop",
+   "stem": "guerrera kpop",
+   "demand": 26,
+   "phrases": [
+    "tablas de multiplicar guerreras kpop para imprimir",
+    "tablas de multiplicar guerreras kpop",
+    "tablas de multiplicar guerreras kpop pdf",
+    "tablas de multiplicar guerreras kpop para imprimir pdf"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "singular-plural",
+   "topic": "ejemplos",
+   "stem": "ejemplo",
+   "demand": 26,
+   "phrases": [
+    "singular y plural ejemplos",
+    "singular y plural con ejemplos",
+    "singular y plural ejemplos para niños",
+    "singular y plural y ejemplos"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "cursive-writing",
+   "topic": "manuscrita",
+   "stem": "manuscrit",
+   "demand": 26,
+   "phrases": [
+    "letra cursiva manuscrita",
+    "letra cursiva o manuscrita",
+    "letra cursiva vs manuscrita",
+    "letra cursiva y manuscrita"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "compound-words",
+   "topic": "ejemplos",
+   "stem": "ejemplo",
+   "demand": 26,
+   "phrases": [
+    "familias de palabras ejemplos",
+    "familias de palabras ejemplos para niños",
+    "familias de palabras y ejemplos"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "arrays-multiplication",
+   "topic": "japonesa",
+   "stem": "japones",
+   "demand": 25,
+   "phrases": [
+    "multiplicación japonesa",
+    "multiplicación japonesa para niños",
+    "multiplicación japonesa pdf"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "juegos",
+   "stem": "juego",
+   "demand": 25,
+   "phrases": [
+    "recta numérica juegos online",
+    "recta numerica juegos",
+    "recta numerica para niños juegos"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "money",
+   "topic": "suenos",
+   "stem": "sueno",
+   "demand": 25,
+   "phrases": [
+    "contar dinero en sueños",
+    "contar dinero sueño",
+    "contar dinero en un sueño"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "unidades medida",
+   "stem": "unidad medid",
+   "demand": 25,
+   "phrases": [
+    "medición unidades de medida",
+    "medición unidad de medida",
+    "medición y unidades de medida"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "verb-forms",
+   "topic": "ingles",
+   "stem": "ingl",
+   "demand": 25,
+   "phrases": [
+    "conjugar verbos en ingles",
+    "conjugar verbos inglés",
+    "conjugar verbos to be en ingles"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "bienestar",
+   "stem": "bienestar",
+   "demand": 25,
+   "phrases": [
+    "el calendario de bienestar",
+    "el calendario bienestar",
+    "el calendario bienestar 2026"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "opposites",
+   "topic": "juegos",
+   "stem": "juego",
+   "demand": 25,
+   "phrases": [
+    "antónimos juegos",
+    "antónimos juegos para niños",
+    "antonimos juegos online"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "all-about-me",
+   "topic": "letras",
+   "stem": "letra",
+   "demand": 25,
+   "phrases": [
+    "todo sobre mi en letras",
+    "todo sobre mi letras",
+    "todo sobre mi letras para imprimir"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "fina",
+   "stem": "fina",
+   "demand": 24,
+   "phrases": [
+    "grafomotricidad fina",
+    "grafomotricidad fina pdf",
+    "grafomotricidad fina para niños"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "unir puntos",
+   "stem": "unir punto",
+   "demand": 24,
+   "phrases": [
+    "grafomotricidad unir puntos para niños",
+    "grafomotricidad unir puntos preescolar",
+    "grafomotricidad unir puntos"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "numeros enteros",
+   "stem": "numero entero",
+   "demand": 24,
+   "phrases": [
+    "recta numérica los números enteros",
+    "recta numérica números enteros",
+    "recta numérica números enteros ejercicios"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "juego",
+   "stem": "juego",
+   "demand": 24,
+   "phrases": [
+    "geometría juego",
+    "geometría juegos gratis",
+    "geometria juegos online"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "dot-to-dot",
+   "topic": "lineas",
+   "stem": "linea",
+   "demand": 24,
+   "phrases": [
+    "unir los puntos con 4 lineas",
+    "unir los puntos con 3 lineas",
+    "unir los puntos con lineas",
+    "unir los puntos en linea"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-bonds",
+   "topic": "factores primos",
+   "stem": "factor primo",
+   "demand": 24,
+   "phrases": [
+    "descomposición de números en factores primos",
+    "descomposición de números a factores primos",
+    "descomposición de números en factores primos ejercicios",
+    "descomposición de números factores primos"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-bonds",
+   "topic": "centenas decenas unidades",
+   "stem": "centena decena unidad",
+   "demand": 24,
+   "phrases": [
+    "descomposición de números en centenas decenas y unidades",
+    "descomposición de números centenas decenas y unidades",
+    "descomposición de números unidades decenas y centenas"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "cuarto",
+   "stem": "cuart",
+   "demand": 24,
+   "phrases": [
+    "comprensión lectora cuarto grado",
+    "comprensión lectora cuarto grado de primaria",
+    "comprensión lectora de cuarto grado",
+    "comprensión lectora grado cuarto",
+    "comprensión lectora grado cuarto de primaria",
+    "comprensión lectora para cuarto grado pdf"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "wordwall",
+   "stem": "wordwall",
+   "demand": 24,
+   "phrases": [
+    "comprensión lectora wordwall",
+    "comprension lectora wordwall",
+    "comprension lectora wordwall 2 primaria",
+    "comprension lectora wordwall 4 primaria"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rhyming-words",
+   "topic": "amor",
+   "stem": "amor",
+   "demand": 24,
+   "phrases": [
+    "palabras que riman con amor",
+    "palabras que riman amor",
+    "palabras que riman de amor"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "digraphs",
+   "topic": "que",
+   "stem": "que",
+   "demand": 24,
+   "phrases": [
+    "dígrafos que es",
+    "dígrafos que gu",
+    "digrafos o que é"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "arrays-multiplication",
+   "topic": "cifras",
+   "stem": "cifra",
+   "demand": 23,
+   "phrases": [
+    "multiplicación de 3 cifras",
+    "multiplicación x 2 cifras",
+    "multiplicación x 3 cifras",
+    "multiplicación x 1 cifra"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "decimales",
+   "stem": "decimal",
+   "demand": 23,
+   "phrases": [
+    "recta numérica con decimales",
+    "recta numérica de decimales",
+    "recta numérica en decimales",
+    "recta numérica decimales online"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "basicas",
+   "stem": "basica",
+   "demand": 23,
+   "phrases": [
+    "fracciones basicas",
+    "fracciones basicas ejercicios",
+    "fracciones basicas para niños"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  }
+ ],
+ "covered": 248
+}

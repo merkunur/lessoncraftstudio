@@ -1,0 +1,141 @@
+{
+ "_note": "Level Set hub pages (build-level-set-hubs.js). decks are recomputed on every run; copy, slug and exclude are kept.",
+ "hubs": [
+  {
+   "slug": "kuvakortit-joulu",
+   "type": "picture-word-cards",
+   "topic": "joulu",
+   "kind": "theme",
+   "phrases": [
+    "kuvakortit joulu"
+   ],
+   "demand": 10,
+   "decks": [
+    {
+     "slug": "kuvakortit-helppo-joulu-k324-29",
+     "title": "Kuvakortit ja sanakortit — Joulu",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "kuvakortit-helppo-joulu-m-v-2-k324-4",
+     "title": "Kuvakortit ja sanakortit — Joulu M/V 2",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "kuvakortit-helppo-joulu-m-v-k324-3",
+     "title": "Kuvakortit ja sanakortit — Joulu M/V",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "kuvakortit-helppo-joulu-m-v-k350-2-en",
+     "title": "Kaksikieliset kuvakortit: suomi ja englanti — Joulu M/V",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "kuvakortit-joulu-k324-125",
+     "title": "Kuvakortit ja sanakortit — Joulu",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "kuvakortit-joulu-m-v-2-k324-101",
+     "title": "Kuvakortit ja sanakortit — Joulu M/V 2",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "kuvakortit-joulu-m-v-2-k347-2",
+     "title": "Kuvakortit ja sanakortit: parit — Joulu M/V 2",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "kuvakortit-joulu-m-v-k324-100",
+     "title": "Kuvakortit ja sanakortit — Joulu M/V",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "kuvakortit-vaikea-joulu-k324-205",
+     "title": "Kuvakortit ja sanakortit — Joulu",
+     "level": "hard",
+     "bw": false
+    }
+   ],
+   "deckTotal": 9,
+   "exclude": [],
+   "h1": "Kuvakortit: joulu",
+   "title": "Kuvakortit joulu – tulostettavat kortit (PDF)",
+   "metaDescription": "Joulun kuvakortit: joulukuusi, lahja, kynttilä, tähti, poro ja muita, kuva ja sana kolmella tasolla, väreissä ja mustavalkoisina. Yhdeksän sivua.",
+   "p1": "Joulukuusi, lahja, kynttilä, tähti ja poro: joulukuussa lapsilla on paljon kerrottavaa. Näissä kuvakorteissa joulun sanat näkyvät selkeinä kuvina, ja sana on kirjoitettu kuvan alle. Kortit tulostetaan, leikataan irti ja niitä käytetään aamupiirissä, nimeämisleikeissä, muistipelissä tai luokan sanaseinällä.",
+   "p2": "Kokoelmassa on yhdeksän sivua. Kuva- ja sanakortit ovat kolmella tasolla, väreissä ja mustavalkoisina: helpolla tasolla neljä isoa korttia nimeämiseen, keskitasolla kahdeksan korttia ja vaikealla tasolla kaksitoista lukukorttia, joissa sana on etualalla ja kuva vain tukee. Lisäksi mukana on parit-sivu, jossa lapsi yhdistää kuvakortin ja sanakortin, sekä kaksikieliset kuvakortit suomeksi ja englanniksi. Mustavalkoiset kortit lapset voivat värittää itse ennen leikkiä.",
+   "p3": "Varhaiskasvatuksessa ja esiopetuksessa isot kortit tukevat joulusta puhumista: mitä kuuseen ripustetaan, kuka tuo lahjat? Ensimmäisellä luokalla lukukortit ja parit-sivu auttavat ensimmäisten sanojen lukemisessa. Kaksikieliset kortit sopivat monikielisiin ryhmiin ja englannin alkuopetukseen. Kortteja voi käyttää myös joulukalenterina: joka päivä yksi uusi sana, jonka lapset lukevat ja jota he harjoittelevat yhdessä. Isoja kortteja voi käyttää myös arvausleikissä: yksi lapsi kuvailee joulusanaa sanomatta sitä ääneen, ja muut etsivät oikean kortin. Näin lapset harjoittelevat sekä sanastoa että suullista kerrontaa. Valmiista korteista voi koota joulun sanaseinän, joka on esillä koko joulukuun, ja lapset voivat lisätä siihen omia piirustuksiaan ja kirjoittamiaan sanoja. Laminoidut kortit kestävät päivittäisen käytön aamupiirissä ja säilyvät seuraavaksi jouluksi."
+  },
+  {
+   "slug": "kuvakortit-vaatteet",
+   "type": "picture-word-cards",
+   "topic": "vaatteet",
+   "kind": "theme",
+   "phrases": [
+    "kuvakortit vaatteet"
+   ],
+   "demand": 7,
+   "decks": [
+    {
+     "slug": "kuvakortit-helppo-vaatteet-k324-33",
+     "title": "Kuvakortit ja sanakortit — Vaatteet",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "kuvakortit-helppo-vaatteet-mv-k324-16",
+     "title": "Kuvakortit ja sanakortit — Vaatteet MV",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "kuvakortit-helppo-vaatteet-mv-k350-4-en",
+     "title": "Kaksikieliset kuvakortit: suomi ja englanti — Vaatteet MV",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "kuvakortit-vaatteet-k324-129",
+     "title": "Kuvakortit ja sanakortit — Vaatteet",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "kuvakortit-vaatteet-mv-k324-112",
+     "title": "Kuvakortit ja sanakortit — Vaatteet MV",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "kuvakortit-vaatteet-mv-k347-4",
+     "title": "Kuvakortit ja sanakortit: parit — Vaatteet MV",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "kuvakortit-vaikea-vaatteet-k324-209",
+     "title": "Kuvakortit ja sanakortit — Vaatteet",
+     "level": "hard",
+     "bw": false
+    }
+   ],
+   "deckTotal": 7,
+   "exclude": [],
+   "h1": "Kuvakortit: vaatteet",
+   "title": "Kuvakortit vaatteet – tulostettavat kortit (PDF)",
+   "metaDescription": "Vaatteiden kuvakortit: housut, takki, pipo, kaulaliina, kenkä ja muita, kuva ja sana kolmella tasolla, parit ja kaksikieliset kortit. Seitsemän sivua.",
+   "p1": "Housut, takki, pipo, kaulaliina ja kenkä: vaatteet kuuluvat ensimmäisiin sanoihin, joita lapset oppivat varhaiskasvatuksessa ja koulussa. Näissä kuvakorteissa jokainen vaate näkyy selkeänä kuvana, ja sana on kirjoitettu kuvan alle. Kortit tulostetaan, leikataan irti ja niitä käytetään nimeämisleikeissä, lajittelussa, muistipelissä tai sanaseinällä.",
+   "p2": "Kokoelmassa on seitsemän sivua. Kuva- ja sanakortit ovat kolmella tasolla, väreissä ja mustavalkoisina: helpolla tasolla neljä isoa korttia nimeämiseen, keskitasolla kahdeksan korttia ja vaikealla tasolla kaksitoista lukukorttia, joissa sana on etualalla. Lisäksi mukana on parit-sivu, jossa lapsi yhdistää kuvan ja sanan, sekä kaksikieliset kuvakortit suomeksi ja englanniksi.",
+   "p3": "Varhaiskasvatuksessa ja esiopetuksessa isot kortit auttavat nimeämään vaatteita esimerkiksi eteisessä ennen ulos lähtemistä. Ensimmäisellä luokalla lukukortit tukevat ensimmäisten sanojen lukemista. Suomea toisena kielenä oppiville lapsille vaatesanat ovat erityisen tärkeitä, koska niitä tarvitaan joka päivä pukeutuessa. Kortit sopivat hyvin yhteen sääteeman kanssa: mitä puemme päälle sateella ja mitä pakkasella? Lapset voivat valita kortit ja perustella valintansa. Isoja kortteja voi käyttää myös arvausleikissä: yksi lapsi kuvailee vaatetta sanomatta sen nimeä, ja muut etsivät oikean kortin. Parit-sivu toimii myös muistipelinä, jossa jokainen löydetty pari sanotaan ääneen. Mustavalkoiset kortit voi värittää ennen leikkiä, ja valmiista korteista voi koota vaatteiden sanaseinän. Laminoidut kortit kestävät päivittäisen käytön eteisessä ja luokassa koko lukuvuoden ajan. Näin uudet sanat jäävät hyvin mieleen."
+  }
+ ]
+}

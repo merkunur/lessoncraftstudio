@@ -1,0 +1,1294 @@
+{
+ "locale": "da",
+ "harvested": 1971,
+ "clusters": 1744,
+ "candidates": [
+  {
+   "type": "reading-comprehension",
+   "topic": "spil",
+   "stem": "spil",
+   "demand": 10,
+   "phrases": [
+    "læseforståelse spil"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "laeseforstaaelse-let-g2270-10 — Læseforståelse: Frederik spiller fodbold",
+    "laeseforstaaelse-g2270-4 — Læseforståelse: Frederik spiller fodbold",
+    "laeseforstaaelse-svaer-g2270-15 — Læseforståelse: Frederik spiller fodbold"
+   ],
+   "covered": false,
+   "coveredBy": null
+  }
+ ],
+ "contentIdeas": [
+  {
+   "type": "number-words",
+   "topic": "bogstaver",
+   "stem": "bogstav",
+   "demand": 90,
+   "phrases": [
+    "talord 8 bogstaver",
+    "talord 6 bogstaver",
+    "talord 5 bogstaver",
+    "talord bogstaver",
+    "talord 2 bogstaver",
+    "talord 4 bogstaver"
+   ],
+   "phraseCount": 16,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "syllable-reading",
+   "topic": "bogstaver",
+   "stem": "bogstav",
+   "demand": 74,
+   "phrases": [
+    "lydrette ord 2 bogstaver",
+    "lydrette ord 3 bogstaver",
+    "lydrette ord 4 bogstaver",
+    "lydrette ord 6 bogstaver",
+    "lydrette ord 5 bogstaver",
+    "lydrette ord med to bogstaver"
+   ],
+   "phraseCount": 11,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "bogstaver",
+   "stem": "bogstav",
+   "demand": 46,
+   "phrases": [
+    "ordenstal 6 bogstaver",
+    "ordenstal 5 bogstaver",
+    "ordenstal 7 bogstaver",
+    "ordenstal 9 bogstaver",
+    "ordenstal på 8 bogstaver",
+    "ordenstal på 6 bogstaver"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "dansk latin",
+   "stem": "dansk latin",
+   "demand": 42,
+   "phrases": [
+    "ordklasser dansk og latin",
+    "ordklasser dansk latin",
+    "ordklasser dansk til latin",
+    "ordklasser latin til dansk",
+    "ordklasser latin dansk",
+    "ordklasser på dansk og latin"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "usa",
+   "stem": "usa",
+   "demand": 37,
+   "phrases": [
+    "hvad er klokken i usa",
+    "hvad er klokken j usa",
+    "hvad er klokken nu i usa",
+    "hvad er klokken usa",
+    "hvad er klokken usa nu"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "danmark",
+   "stem": "danmark",
+   "demand": 34,
+   "phrases": [
+    "hvad er klokken i danmark",
+    "hvad er klokken danmark",
+    "hvad er klokken danmark nu",
+    "hvad er klokken j danmark",
+    "hvad er klokken nu i danmark"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "washington",
+   "stem": "washingto",
+   "demand": 32,
+   "phrases": [
+    "hvad er klokken washington",
+    "hvad er klokken washington dc",
+    "hvad er klokken i washington dc nu",
+    "hvad er klokken i washington nu"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "decimaltal procent",
+   "stem": "decimaltal procent",
+   "demand": 31,
+   "phrases": [
+    "brøker decimaltal og procent",
+    "brøker decimaltal og procent opgaver",
+    "brøker decimaltal procent",
+    "brøker procent og decimaltal opgaver",
+    "brøker procenter og decimaltal"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "dot-to-dot",
+   "topic": "voksne",
+   "stem": "voksn",
+   "demand": 29,
+   "phrases": [
+    "prik til prik for voksne",
+    "prik til prik voksne print",
+    "prik til prik voksne"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 28,
+   "phrases": [
+    "ordklasser engelsk",
+    "ordklasser engelsk pdf",
+    "ordklasser i engelsk",
+    "ordklasser på engelsk"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "synonyms",
+   "topic": "glad",
+   "stem": "glad",
+   "demand": 28,
+   "phrases": [
+    "synonymer for glad",
+    "synonymer glad",
+    "synonymer på glad",
+    "synonymer til glad"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "latin",
+   "stem": "latin",
+   "demand": 27,
+   "phrases": [
+    "ordklasser på latin",
+    "ordklasser i latin",
+    "ordklasser latin"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "japan",
+   "stem": "japan",
+   "demand": 26,
+   "phrases": [
+    "hvad er klokken i japan",
+    "hvad er klokken japan",
+    "hvad er klokken i japan nu",
+    "hvad er klokken nu i japan"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "dot-to-dot",
+   "topic": "tegninger",
+   "stem": "tegning",
+   "demand": 26,
+   "phrases": [
+    "prik til prik tegninger",
+    "prik til prik tegninger print",
+    "prik til prik tegninger gratis",
+    "prik til prik tegninger 1 20",
+    "prik til prik tegninger 1 100"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "dansk",
+   "stem": "dansk",
+   "demand": 25,
+   "phrases": [
+    "ordklasser dansk",
+    "ordklasser dansk øvelser",
+    "ordklasser i dansk",
+    "ordklasser på dansk"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "eksempler",
+   "stem": "eksempl",
+   "demand": 25,
+   "phrases": [
+    "ordklasser eksempler",
+    "ordklasser med eksempler",
+    "ordklasser og eksempler"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "decimaltal",
+   "stem": "decimaltal",
+   "demand": 24,
+   "phrases": [
+    "brøker til decimaltal",
+    "brøker decimaltal",
+    "brøker og decimaltal",
+    "brøker og decimaltal opgaver",
+    "brøker til decimaltal opgaver"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "multiplication-tables",
+   "topic": "spil",
+   "stem": "spil",
+   "demand": 23,
+   "phrases": [
+    "gangetabeller spil",
+    "gangetabeller dk spil",
+    "gangetabeller spil dk"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "arbetsblad",
+   "stem": "arbetsblad",
+   "demand": 22,
+   "phrases": [
+    "tallinje arbetsblad",
+    "tallinje arbetsblad åk 3",
+    "tallinje arbetsblad gratis",
+    "tallinje arbetsblad åk 3 gratis"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "spil",
+   "stem": "spil",
+   "demand": 22,
+   "phrases": [
+    "brøker på spil",
+    "brøker spil",
+    "brøker spil online"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "gmt",
+   "stem": "gmt",
+   "demand": 22,
+   "phrases": [
+    "hvad er klokken gmt",
+    "hvad er klokken gmt nu",
+    "hvad er klokken gmt+1",
+    "hvad er klokken gmt 2"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rhyming-words",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 22,
+   "phrases": [
+    "rimord engelsk",
+    "rimord engelska",
+    "rimord på engelsk"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "synonyms",
+   "topic": "god",
+   "stem": "god",
+   "demand": 22,
+   "phrases": [
+    "synonymer for god",
+    "synonymer god",
+    "synonymer til god"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 21,
+   "phrases": [
+    "tallinje engelsk",
+    "tallinje på engelska",
+    "tallinje på engelsk"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "new york",
+   "stem": "new york",
+   "demand": 21,
+   "phrases": [
+    "hvad er klokken i new york",
+    "hvad er klokken nu i new york",
+    "hvad er klokken new york",
+    "hvad er klokken i new york nu"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rounding",
+   "topic": "decimaltal",
+   "stem": "decimaltal",
+   "demand": 21,
+   "phrases": [
+    "afrunding af decimaltal",
+    "afrunding af decimaltal opgaver",
+    "afrunding decimaltal"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "synonyms",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 21,
+   "phrases": [
+    "synonymer engelsk",
+    "synonymer engelska",
+    "synonymer på engelsk"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "compound-words",
+   "topic": "norsk",
+   "stem": "norsk",
+   "demand": 21,
+   "phrases": [
+    "sammensatte ord i norsk",
+    "sammensatte ord norsk",
+    "sammensatte ord på norsk"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "procent",
+   "stem": "procent",
+   "demand": 20,
+   "phrases": [
+    "brøker til procent",
+    "brøker i procent",
+    "brøker og procent"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "blodtryk",
+   "stem": "blodtryk",
+   "demand": 20,
+   "phrases": [
+    "måling af blodtryk",
+    "måling blodtryk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 20,
+   "phrases": [
+    "måling engelsk",
+    "måling på engelsk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "iphone",
+   "stem": "iphon",
+   "demand": 20,
+   "phrases": [
+    "måling iphone",
+    "måling med iphone",
+    "måling på iphone"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-words",
+   "topic": "krydsord",
+   "stem": "krydsord",
+   "demand": 20,
+   "phrases": [
+    "talord krydsord",
+    "talord i krydsord"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "feelings",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 20,
+   "phrases": [
+    "følelser engelsk",
+    "følelser på engelsk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "negative tal",
+   "stem": "negativ tal",
+   "demand": 19,
+   "phrases": [
+    "tallinje med negative tal",
+    "tallinje negative tal",
+    "tallinje med negative tal print"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "vagg",
+   "stem": "vagg",
+   "demand": 19,
+   "phrases": [
+    "tallinje vägg",
+    "tallinje 0 100 vägg"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "lommeregner",
+   "stem": "lommeregn",
+   "demand": 19,
+   "phrases": [
+    "brøker lommeregner",
+    "brøker lommeregner online",
+    "brøker på lommeregner"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "dansk",
+   "stem": "dansk",
+   "demand": 19,
+   "phrases": [
+    "ordenstal dansk",
+    "ordenstal på dansk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "find-the-differences",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 19,
+   "phrases": [
+    "find fem fejl engelsk",
+    "find fem fejl på engelsk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "thailand",
+   "stem": "thailand",
+   "demand": 19,
+   "phrases": [
+    "hvad er klokken i thailand",
+    "hvad er klokken thailand",
+    "hvad er klokken thailand nu"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "sekunder",
+   "stem": "sekund",
+   "demand": 19,
+   "phrases": [
+    "hvad er klokken med sekunder",
+    "hvad er klokken sekunder"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "utc",
+   "stem": "utc",
+   "demand": 19,
+   "phrases": [
+    "hvad er klokken utc",
+    "hvad er klokken utc nu"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "mental-math",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 19,
+   "phrases": [
+    "hovedregning engelsk",
+    "hovedregning på engelsk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "singular-plural",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 19,
+   "phrases": [
+    "ental og flertal engelsk",
+    "ental og flertal på engelsk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rounding",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 19,
+   "phrases": [
+    "afrunding engelsk",
+    "afrunding på engelsk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "syllable-split",
+   "topic": "dansk",
+   "stem": "dansk",
+   "demand": 19,
+   "phrases": [
+    "stavelser dansk",
+    "stavelser på dansk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "opposites",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 19,
+   "phrases": [
+    "modsætninger engelsk",
+    "modsætninger på engelsk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "feelings",
+   "topic": "tysk",
+   "stem": "tysk",
+   "demand": 19,
+   "phrases": [
+    "følelser på tysk",
+    "følelser tysk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "compound-words",
+   "topic": "dansk",
+   "stem": "dansk",
+   "demand": 19,
+   "phrases": [
+    "sammensatte ord dansk",
+    "sammensatte ord på dansk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "nævner tæller",
+   "stem": "nævn tæll",
+   "demand": 18,
+   "phrases": [
+    "brøker nævner og tæller",
+    "brøker tæller og nævner"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-problems",
+   "topic": "ligninger",
+   "stem": "ligning",
+   "demand": 18,
+   "phrases": [
+    "regnehistorier ligninger",
+    "regnehistorier med ligninger"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "australien",
+   "stem": "australi",
+   "demand": 18,
+   "phrases": [
+    "hvad er klokken i australien",
+    "hvad er klokken australien",
+    "hvad er klokken nu i australien"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "blodsukker",
+   "stem": "blodsukk",
+   "demand": 18,
+   "phrases": [
+    "måling af blodsukker",
+    "måling blodsukker"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-bonds",
+   "topic": "oppgaver",
+   "stem": "oppgav",
+   "demand": 18,
+   "phrases": [
+    "tiervenner oppgaver",
+    "tiervenner oppgaver pdf"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "fantastiske fire",
+   "stem": "fantastisk fire",
+   "demand": 18,
+   "phrases": [
+    "læseforståelse de fantastiske fire",
+    "læseforståelse fantastiske fire"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-words",
+   "topic": "latin",
+   "stem": "latin",
+   "demand": 18,
+   "phrases": [
+    "talord på latin",
+    "talord latin"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pronouns",
+   "topic": "tysk",
+   "stem": "tysk",
+   "demand": 18,
+   "phrases": [
+    "personlige stedord på tysk",
+    "personlige stedord tysk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "odd-and-even",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 18,
+   "phrases": [
+    "lige og ulige tal engelsk",
+    "lige og ulige tal på engelsk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "2d-shapes",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 18,
+   "phrases": [
+    "geometriske figurer engelsk",
+    "geometriske figurer på engelsk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "2d-shapes",
+   "topic": "norsk",
+   "stem": "norsk",
+   "demand": 18,
+   "phrases": [
+    "geometriske figurer norsk",
+    "geometriske figurer 3d norsk",
+    "geometriske figurer på norsk"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "syllable-split",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 18,
+   "phrases": [
+    "stavelser engelsk",
+    "stavelser på engelsk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "opposites",
+   "topic": "tysk",
+   "stem": "tysk",
+   "demand": 18,
+   "phrases": [
+    "modsætninger på tysk",
+    "modsætninger tysk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "alphabetical-order",
+   "topic": "excel",
+   "stem": "excel",
+   "demand": 18,
+   "phrases": [
+    "alfabetisk rækkefølge excel",
+    "alfabetisk rækkefølge i excel"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "decimaltal",
+   "stem": "decimaltal",
+   "demand": 17,
+   "phrases": [
+    "tallinje decimaltal",
+    "tallinje med decimaltal"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "minus",
+   "stem": "minus",
+   "demand": 17,
+   "phrases": [
+    "brøker minus",
+    "brøker med minus"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "cet",
+   "stem": "cet",
+   "demand": 17,
+   "phrases": [
+    "hvad er klokken cet",
+    "hvad er klokken cet nu"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "skimmelsvamp",
+   "stem": "skimmelsvamp",
+   "demand": 17,
+   "phrases": [
+    "måling af skimmelsvamp",
+    "måling for skimmelsvamp",
+    "måling skimmelsvamp"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "tysk",
+   "stem": "tysk",
+   "demand": 17,
+   "phrases": [
+    "hv ord på tysk",
+    "hv ord tysk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "nynorsk",
+   "stem": "nynorsk",
+   "demand": 17,
+   "phrases": [
+    "hv ord nynorsk",
+    "hv ord på nynorsk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "singular-plural",
+   "topic": "latin",
+   "stem": "latin",
+   "demand": 17,
+   "phrases": [
+    "ental og flertal på latin",
+    "ental og flertal latin"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rounding",
+   "topic": "dansk",
+   "stem": "dansk",
+   "demand": 17,
+   "phrases": [
+    "afrunding dansk",
+    "afrunding i dansk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rounding",
+   "topic": "matematik",
+   "stem": "matematik",
+   "demand": 17,
+   "phrases": [
+    "afrunding matematik opgaver",
+    "afrunding matematik"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rhyming-words",
+   "topic": "barn",
+   "stem": "barn",
+   "demand": 17,
+   "phrases": [
+    "rimord barn",
+    "rimord för barn"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rhyming-words",
+   "topic": "liv",
+   "stem": "liv",
+   "demand": 17,
+   "phrases": [
+    "rimord liv",
+    "rimord på liv"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pronouns",
+   "topic": "spansk",
+   "stem": "spansk",
+   "demand": 17,
+   "phrases": [
+    "personlige stedord spansk",
+    "personlige stedord på spansk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pronouns",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 17,
+   "phrases": [
+    "personlige stedord på engelsk",
+    "personlige stedord engelsk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "synonyms",
+   "topic": "dansk",
+   "stem": "dansk",
+   "demand": 17,
+   "phrases": [
+    "synonymer dansk",
+    "synonymer på dansk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "synonyms",
+   "topic": "fantastisk",
+   "stem": "fantastisk",
+   "demand": 17,
+   "phrases": [
+    "synonymer for fantastisk",
+    "synonymer til fantastisk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "2d-shapes",
+   "topic": "barn",
+   "stem": "barn",
+   "demand": 17,
+   "phrases": [
+    "geometriske figurer barn",
+    "geometriske figurer for barn"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "opposites",
+   "topic": "eventyr",
+   "stem": "eventyr",
+   "demand": 17,
+   "phrases": [
+    "modsætninger eventyr",
+    "modsætninger i eventyr"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  }
+ ],
+ "covered": 60
+}

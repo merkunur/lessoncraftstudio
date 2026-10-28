@@ -1,0 +1,1043 @@
+{
+ "locale": "fi",
+ "harvested": 1971,
+ "clusters": 1392,
+ "candidates": [
+  {
+   "type": "picture-word-cards",
+   "topic": "joulu",
+   "stem": "joulu",
+   "demand": 10,
+   "phrases": [
+    "kuvakortit joulu"
+   ],
+   "phraseCount": 1,
+   "supply": 9,
+   "supplySample": [
+    "kuvakortit-joulu-k324-125 — Kuvakortit ja sanakortit — Joulu",
+    "kuvakortit-helppo-joulu-k324-29 — Kuvakortit ja sanakortit — Joulu",
+    "kuvakortit-vaikea-joulu-k324-205 — Kuvakortit ja sanakortit — Joulu",
+    "kuvakortit-helppo-joulu-m-v-k324-3 — Kuvakortit ja sanakortit — Joulu M/V"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "vaatteet",
+   "stem": "vaatte",
+   "demand": 7,
+   "phrases": [
+    "kuvakortit vaatteet"
+   ],
+   "phraseCount": 1,
+   "supply": 7,
+   "supplySample": [
+    "kuvakortit-helppo-vaatteet-mv-k324-16 — Kuvakortit ja sanakortit — Vaatteet MV",
+    "kuvakortit-vaatteet-mv-k324-112 — Kuvakortit ja sanakortit — Vaatteet MV",
+    "kuvakortit-helppo-vaatteet-k324-33 — Kuvakortit ja sanakortit — Vaatteet",
+    "kuvakortit-vaatteet-k324-129 — Kuvakortit ja sanakortit — Vaatteet"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "vaikeaa",
+   "stem": "vaikea",
+   "demand": 3,
+   "phrases": [
+    "luetun ymmärtäminen vaikeaa"
+   ],
+   "phraseCount": 1,
+   "supply": 28,
+   "supplySample": [
+    "luetun-ymmartaminen-vaikea-g2254-12 — Lue ja vastaa",
+    "luetun-ymmartaminen-vaikea-g2254-13 — Lue ja vastaa",
+    "luetun-ymmartaminen-vaikea-g2254-15 — Lue ja vastaa",
+    "luetun-ymmartaminen-vaikea-g2254-16 — Lue ja vastaa"
+   ],
+   "covered": false,
+   "coveredBy": null
+  }
+ ],
+ "contentIdeas": [
+  {
+   "type": "cursive-writing",
+   "topic": "iso",
+   "stem": "iso",
+   "demand": 60,
+   "phrases": [
+    "kaunokirjoitus iso e",
+    "kaunokirjoitus iso g",
+    "kaunokirjoitus iso b",
+    "kaunokirjoitus iso d",
+    "kaunokirjoitus iso l",
+    "kaunokirjoitus iso i"
+   ],
+   "phraseCount": 12,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "cursive-writing",
+   "topic": "kirjain",
+   "stem": "kirjai",
+   "demand": 53,
+   "phrases": [
+    "kaunokirjoitus s kirjain",
+    "kaunokirjoitus r kirjain",
+    "kaunokirjoitus e kirjain",
+    "kaunokirjoitus i kirjain",
+    "kaunokirjoitus m kirjain",
+    "kaunokirjoitus n kirjain"
+   ],
+   "phraseCount": 9,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "elokuu",
+   "stem": "elokuu",
+   "demand": 38,
+   "phrases": [
+    "kalenteri elokuu 2024",
+    "kalenteri elokuu 1988",
+    "kalenteri elokuu 1997",
+    "kalenteri elokuu 1976",
+    "kalenteri elokuu 2020",
+    "kalenteri elokuu 2017"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "cursive-writing",
+   "topic": "pieni",
+   "stem": "pieni",
+   "demand": 26,
+   "phrases": [
+    "kaunokirjoitus pieni p",
+    "kaunokirjoitus pieni r",
+    "kaunokirjoitus pieni f",
+    "kaunokirjoitus pieni z",
+    "kaunokirjoitus pieni s"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "feelings",
+   "topic": "kirja",
+   "stem": "kirja",
+   "demand": 25,
+   "phrases": [
+    "tunnetaidot kirja",
+    "tunnetaidot kirja lapsille",
+    "tunnetaidot lapsille kirja"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "ruotsiksi",
+   "stem": "ruotsiks",
+   "demand": 24,
+   "phrases": [
+    "järjestysluvut ruotsiksi 1 100",
+    "järjestysluvut ruotsiksi 1 20",
+    "järjestysluvut ruotsiksi 1 30",
+    "järjestysluvut ruotsiksi"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "trigonometria",
+   "stem": "trigonometri",
+   "demand": 24,
+   "phrases": [
+    "geometria ja trigonometria",
+    "geometria trigonometria",
+    "geometria y trigonometria",
+    "geometria y trigonometria pdf"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "heinakuu",
+   "stem": "heinakuu",
+   "demand": 24,
+   "phrases": [
+    "kalenteri heinäkuu 2024",
+    "kalenteri heinäkuu 26",
+    "kalenteri heinäkuu 2022",
+    "kalenteri heinäkuu 2021",
+    "kalenteri heinäkuu 2026"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "dot-to-dot",
+   "topic": "aikuisille",
+   "stem": "aikuisill",
+   "demand": 23,
+   "phrases": [
+    "pisteestä pisteeseen aikuisille",
+    "pisteestä pisteeseen aikuisille tulostettava",
+    "pisteestä pisteeseen tehtävät aikuisille"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "wordwall",
+   "stem": "wordwall",
+   "demand": 19,
+   "phrases": [
+    "kysymyssanat wordwall s2",
+    "kysymyssanat wordwall"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "synonyms",
+   "topic": "karhu sanalle",
+   "stem": "karhu sanall",
+   "demand": 19,
+   "phrases": [
+    "synonyymit karhu sanalle",
+    "synonyymit sanalle karhu"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "muumi",
+   "stem": "muumi",
+   "demand": 19,
+   "phrases": [
+    "kalenteri 2027 muumi",
+    "kalenteri muumi"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "font",
+   "stem": "font",
+   "demand": 18,
+   "phrases": [
+    "geometria font",
+    "geometria font download"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "englanniksi",
+   "stem": "englanniks",
+   "demand": 18,
+   "phrases": [
+    "kellonajat englanniksi harjoituksia",
+    "kellonajat englanniksi",
+    "kellonajat englanniksi am pm"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "syllable-split",
+   "topic": "englanniksi",
+   "stem": "englanniks",
+   "demand": 18,
+   "phrases": [
+    "tavutus englanniksi",
+    "tavutus englanniksi word",
+    "tavutus word englanniksi"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "excel",
+   "stem": "excel",
+   "demand": 17,
+   "phrases": [
+    "kalenteri excel",
+    "kalenteri excel 2026"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "kesakuu",
+   "stem": "kesakuu",
+   "demand": 17,
+   "phrases": [
+    "kalenteri kesäkuu",
+    "kalenteri kesäkuu 2025",
+    "kalenteri kesäkuu 2024"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "syyskuu",
+   "stem": "syyskuu",
+   "demand": 17,
+   "phrases": [
+    "kalenteri syyskuu 2020",
+    "kalenteri syyskuu 2022",
+    "kalenteri syyskuu 2026 tulostettava",
+    "kalenteri syyskuu 2021"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "trigonometria baldor",
+   "stem": "trigonometri baldor",
+   "demand": 16,
+   "phrases": [
+    "geometria y trigonometria baldor",
+    "geometría y trigonometría baldor pdf"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "google",
+   "stem": "googl",
+   "demand": 16,
+   "phrases": [
+    "kalenteri google",
+    "kalenteri google sheets"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "lokakuu",
+   "stem": "lokakuu",
+   "demand": 16,
+   "phrases": [
+    "kalenteri lokakuu 2026 tulostettava",
+    "kalenteri lokakuu 2026",
+    "kalenteri lokakuu 2027"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "wordwall",
+   "stem": "wordwall",
+   "demand": 15,
+   "phrases": [
+    "järjestysluvut wordwall",
+    "järjestysluvut s2 wordwall"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "ruotsi",
+   "stem": "ruots",
+   "demand": 15,
+   "phrases": [
+    "järjestysluvut ruotsi",
+    "järjestysluvut ruotsi harjoituksia"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "analitica",
+   "stem": "analitic",
+   "demand": 15,
+   "phrases": [
+    "geometria analitica",
+    "geometria analítica pdf"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "kuvasta",
+   "stem": "kuvast",
+   "demand": 15,
+   "phrases": [
+    "mittaaminen pdf kuvasta",
+    "mittaaminen kuvasta"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "dot-to-dot",
+   "topic": "tulostettavia",
+   "stem": "tulostettavi",
+   "demand": 15,
+   "phrases": [
+    "pisteestä pisteeseen tulostettavia tehtäviä lapsille",
+    "pisteestä pisteeseen tulostettavia tehtäviä"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "synonyms",
+   "topic": "sanalle tytto",
+   "stem": "sanall tytto",
+   "demand": 15,
+   "phrases": [
+    "synonyymit sanalle tyttö",
+    "synonyymit tyttö sanalle"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "suomi",
+   "stem": "suomi",
+   "demand": 15,
+   "phrases": [
+    "kalenteri suomi",
+    "kalenteri suomi 2026",
+    "kalenteri suomi 2027"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "burde",
+   "stem": "burde",
+   "demand": 15,
+   "phrases": [
+    "kalenteri burde",
+    "kalenteri burde 2026"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "feelings",
+   "topic": "nuorille",
+   "stem": "nuorill",
+   "demand": 15,
+   "phrases": [
+    "tunnetaidot nuorille",
+    "tunnetaidot video nuorille"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "ingles",
+   "stem": "ingl",
+   "demand": 14,
+   "phrases": [
+    "geometria en ingles",
+    "geometria ingles"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "euclidiana",
+   "stem": "euclidian",
+   "demand": 14,
+   "phrases": [
+    "geometria euclidiana",
+    "geometría no euclidiana"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "trigonometria conamat",
+   "stem": "trigonometri conamat",
+   "demand": 14,
+   "phrases": [
+    "geometria y trigonometria conamat pdf",
+    "geometria y trigonometria conamat"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "ylakoulu",
+   "stem": "ylakoulu",
+   "demand": 14,
+   "phrases": [
+    "luetun ymmärtäminen harjoituksia yläkoulu",
+    "luetun ymmärtäminen yläkoulu"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-words",
+   "topic": "ruotsi",
+   "stem": "ruots",
+   "demand": 14,
+   "phrases": [
+    "lukusanat ruotsi",
+    "lukusanat ruotsi harjoituksia"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "yliopisto",
+   "stem": "yliopist",
+   "demand": 14,
+   "phrases": [
+    "kalenteri yliopisto",
+    "kalenteri yliopisto 2025"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "spelling-rules",
+   "topic": "tarkistus",
+   "stem": "tarkistu",
+   "demand": 14,
+   "phrases": [
+    "oikeinkirjoitus tarkistus word",
+    "oikeinkirjoitus tarkistus"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "plana",
+   "stem": "plana",
+   "demand": 13,
+   "phrases": [
+    "geometria plana",
+    "geometria plana pdf"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "ruotsiksi",
+   "stem": "ruotsiks",
+   "demand": 13,
+   "phrases": [
+    "kellonajat ruotsiksi harjoituksia",
+    "kellonajat ruotsiksi"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "multiplication-tables",
+   "topic": "peli",
+   "stem": "peli",
+   "demand": 13,
+   "phrases": [
+    "kertotaulut peli",
+    "kertotaulut peli lapsille 5 7"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "synonyms",
+   "topic": "ihana sanalle",
+   "stem": "ihana sanall",
+   "demand": 13,
+   "phrases": [
+    "synonyymit ihana sanalle",
+    "synonyymit sanalle ihana"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "syllable-split",
+   "topic": "pois",
+   "stem": "pois",
+   "demand": 13,
+   "phrases": [
+    "tavutus pois word",
+    "tavutus pois"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "feelings",
+   "topic": "materiaali",
+   "stem": "materiaal",
+   "demand": 13,
+   "phrases": [
+    "tunnetaidot ilmainen materiaali",
+    "tunnetaidot materiaali"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "sagrada",
+   "stem": "sagrad",
+   "demand": 12,
+   "phrases": [
+    "geometria sagrada",
+    "geometria sagrada pdf"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "multiplication-tables",
+   "topic": "com",
+   "stem": "com",
+   "demand": 12,
+   "phrases": [
+    "kertotaulut com",
+    "kertotaulut com tulostettava"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "lumbreras",
+   "stem": "lumbrera",
+   "demand": 11,
+   "phrases": [
+    "geometria lumbreras",
+    "geometria lumbreras pdf"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "quarta elementare",
+   "stem": "quart elementar",
+   "demand": 11,
+   "phrases": [
+    "geometria quarta elementare pdf",
+    "geometria quarta elementare"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "paivakirja",
+   "stem": "paivakirj",
+   "demand": 11,
+   "phrases": [
+    "kalenteri päiväkirja",
+    "kalenteri päiväkirja 2027"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "ruotsi",
+   "stem": "ruots",
+   "demand": 10,
+   "phrases": [
+    "kysymyssanat ruotsi",
+    "kysymyssanat ruotsi harjoituksia"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "ajasto",
+   "stem": "ajast",
+   "demand": 10,
+   "phrases": [
+    "kalenteri ajasto",
+    "kalenteri ajasto 2026"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "maaliskuu",
+   "stem": "maaliskuu",
+   "demand": 10,
+   "phrases": [
+    "kalenteri maaliskuu 2026",
+    "kalenteri maaliskuu 2022"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "cursive-writing",
+   "topic": "english",
+   "stem": "english",
+   "demand": 9,
+   "phrases": [
+    "kaunokirjoitus english",
+    "kaunokirjoitus in english"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "business",
+   "stem": "busines",
+   "demand": 9,
+   "phrases": [
+    "kalenteri business 2026",
+    "kalenteri business"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "easy",
+   "stem": "easy",
+   "demand": 8,
+   "phrases": [
+    "geometria facil",
+    "geometria facile pdf"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "octaedrica",
+   "stem": "octaedric",
+   "demand": 8,
+   "phrases": [
+    "geometria octaédrica",
+    "geometria octaedrica"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "zadania maturalne",
+   "stem": "zadani maturaln",
+   "demand": 8,
+   "phrases": [
+    "geometria zadania maturalne pdf",
+    "geometria zadania maturalne"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "org",
+   "stem": "org",
+   "demand": 8,
+   "phrases": [
+    "kalenteri org",
+    "kalenteri org 2026"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "cursive-writing",
+   "topic": "luvulla",
+   "stem": "luvull",
+   "demand": 7,
+   "phrases": [
+    "kaunokirjoitus 2000 luvulla",
+    "kaunokirjoitus 1800 luvulla"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "balanceamento",
+   "stem": "balanceament",
+   "demand": 6,
+   "phrases": [
+    "geometria e balanceamento",
+    "geometria x balanceamento"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "quinta elementare",
+   "stem": "quint elementar",
+   "demand": 6,
+   "phrases": [
+    "geometria quinta elementare",
+    "geometria quinta elementare pdf"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "windows",
+   "stem": "window",
+   "demand": 6,
+   "phrases": [
+    "kalenteri windows 11",
+    "kalenteri windows"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "synonyms",
+   "topic": "kaunis sanalle",
+   "stem": "kauni sanall",
+   "demand": 5,
+   "phrases": [
+    "synonyymit kaunis sanalle",
+    "synonyymit sanalle kaunis"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "joulukuu",
+   "stem": "joulukuu",
+   "demand": 5,
+   "phrases": [
+    "kalenteri joulukuu 26",
+    "kalenteri joulukuu 2021"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  }
+ ],
+ "covered": 23
+}

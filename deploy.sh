@@ -186,6 +186,11 @@ node scripts/seo-landing/augment-landings-levels.js --locales=all \
   && echo "   ✅ landing Level Set augment refreshed" \
   || echo "   ⚠️  landing Level Set augment failed (landings render without the three-levels block)"
 
+# 1b-iii. Level Set HUB pages (2026-10-28): one indexable page per searched topic over noindex decks
+# (frontend/content/seo-landing-hubs/, rendered by the same script below). HARD gate: a hub that fails
+# the landing similarity / genericness / free-claim / deck-count checks must never be written to disk.
+node scripts/seo-landing/verify-level-set-hubs.js || { echo "ERROR: a Level Set hub page fails its content gate — see scripts/seo-landing/verify-level-set-hubs.js"; exit 1; }
+
 echo "📄 Regenerating static worksheet landings..."
 node scripts/seo-landing/render-landing-html.js --out=/var/www/lcs-media/landings \
   && echo "   ✅ static landings regenerated" \

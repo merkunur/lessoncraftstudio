@@ -80,6 +80,21 @@ function loadFile(locale) {
   return data;
 }
 function getAllLandings(locale) { const f = loadFile(locale); return f ? f.landings : []; }
+
+/* -------- Level Set HUB pages (2026-10-28) --------
+ * frontend/content/seo-landing-hubs/<locale>.json (scripts/seo-research/build-level-set-hubs.js):
+ * one indexable page per searched topic that only noindex Level Set decks answer. Kept OUT of
+ * getAllLandings on purpose — a hub lists several decks, so it must never enter the landing
+ * repoint map, the /worksheets rail counts or the landing hreflang clusters. A hub with no
+ * authored copy yet is skipped (never rendered half-empty). */
+const _hubCache = {};
+function getAllHubs(locale) {
+  if (locale in _hubCache) return _hubCache[locale];
+  const p = path.join(ROOT, 'frontend', 'content', 'seo-landing-hubs', `${locale}.json`);
+  const hubs = fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')).hubs || [] : [];
+  _hubCache[locale] = hubs.filter((h) => h.h1 && h.title && h.metaDescription && h.p1 && h.p2 && h.p3 && h.decks && h.decks.length >= 3);
+  return _hubCache[locale];
+}
 function getLandingBySlug(locale, slug) {
   const f = loadFile(locale);
   return f ? (f.landings.find((l) => l.slug === slug) || null) : null;
@@ -1394,7 +1409,7 @@ ${printOnly ? '' : `    <section class="play-section">
 ${versionsHtml}
 ${carouselHtml}
 ${meshHtml}
-${relatedActivitiesHtml}
+${relatedActivitiesHtml}${xlang ? '' : landingHubsBlock(locale, l.coordinate.type)}
 ${(() => {
     const hubs = [subjectHubFor(locale, l), seasonalHubFor(locale, l)].filter(Boolean);
     return hubs.map((hub) => `
@@ -1435,6 +1450,180 @@ ${siteChrome.footer(locale, 'landing')}
 </html>
 `;
 }
+
+/* ============================== render one Level Set HUB ============================== */
+
+/* The few words a hub page adds around its authored copy (native-reviewed with the hub copy). */
+const HUB_STRINGS = {
+  en: { grid: 'The worksheets in this collection', more: 'More collections', all: (t) => `All ${t} worksheets`, count: (n) => `${n} worksheets`, bw: 'B&W', collections: 'Worksheet collections' },
+  de: { grid: 'Die Arbeitsblätter dieser Sammlung', more: 'Weitere Sammlungen', all: (t) => `Alle Arbeitsblätter: ${t}`, count: (n) => `${n} Arbeitsblätter`, bw: 'S/W', collections: 'Arbeitsblatt-Sammlungen' },
+  fr: { grid: 'Les fiches de cette collection', more: 'Autres collections', all: (t) => `Toutes les fiches : ${t}`, count: (n) => `${n} fiches`, bw: 'N&B', collections: 'Collections de fiches' },
+  es: { grid: 'Las hojas de trabajo de esta colección', more: 'Más colecciones', all: (t) => `Todas las hojas de trabajo: ${t}`, count: (n) => `${n} hojas de trabajo`, bw: 'B/N', collections: 'Colecciones de hojas de trabajo' },
+  pt: { grid: 'As atividades desta coleção', more: 'Mais coleções', all: (t) => `Todas as atividades: ${t}`, count: (n) => `${n} atividades`, bw: 'P&B', collections: 'Coleções de atividades' },
+  it: { grid: 'Le schede di questa raccolta', more: 'Altre raccolte', all: (t) => `Tutte le schede: ${t}`, count: (n) => `${n} schede`, bw: 'B/N', collections: 'Raccolte di schede' },
+  nl: { grid: 'De werkbladen in deze verzameling', more: 'Meer verzamelingen', all: (t) => `Alle werkbladen: ${t}`, count: (n) => `${n} werkbladen`, bw: 'Z/W', collections: 'Werkbladverzamelingen' },
+  sv: { grid: 'Arbetsbladen i den här samlingen', more: 'Fler samlingar', all: (t) => `Alla arbetsblad: ${t}`, count: (n) => `${n} arbetsblad`, bw: 'S/V', collections: 'Samlingar av arbetsblad' },
+  da: { grid: 'Opgaverne i denne samling', more: 'Flere samlinger', all: (t) => `Alle opgaver: ${t}`, count: (n) => `${n} opgaver`, bw: 'S/H', collections: 'Samlinger af opgaver' },
+  no: { grid: 'Arbeidsarkene i denne samlingen', more: 'Flere samlinger', all: (t) => `Alle arbeidsark: ${t}`, count: (n) => `${n} arbeidsark`, bw: 'S/H', collections: 'Samlinger av arbeidsark' },
+  fi: { grid: 'Tämän kokoelman tehtävät', more: 'Lisää kokoelmia', all: (t) => `Kaikki tehtävät: ${t}`, count: (n) => `${n} tehtävää`, bw: 'MV', collections: 'Tehtäväkokoelmat' },
+};
+function typeName(type, locale) {
+  const e = TAXONOMY.axes && TAXONOMY.axes['exercise-type'] && TAXONOMY.axes['exercise-type'][type];
+  return (e && e.name && (e.name[locale] || e.name.en)) || cap(type);
+}
+/** The Level Set sub-category of a type on the /worksheets hub (where its sets live). */
+function typeSetsUrl(locale, type) { return `${localePath(locale, 'worksheets')}?type=${encodeURIComponent(type)}`; }
+/** Up to n other hubs of the same locale: same type first, then the same topic. */
+function siblingHubs(locale, hub, n) {
+  const all = getAllHubs(locale).filter((h) => h.slug !== hub.slug);
+  const sameType = all.filter((h) => h.type === hub.type);
+  const sameTopic = all.filter((h) => h.type !== hub.type && h.topic === hub.topic);
+  return [...sameType, ...sameTopic].slice(0, n);
+}
+/** The "collections" link block a landing carries for its type's hubs ('' when none). */
+function landingHubsBlock(locale, type) {
+  const hubs = getAllHubs(locale).filter((h) => h.type === type).slice(0, 3);
+  if (!hubs.length) return '';
+  const hs = HUB_STRINGS[locale] || HUB_STRINGS.en;
+  return `
+<section class="mesh">
+  <div>
+    <h2>${esc(hs.collections)}</h2>
+    <ul>
+${hubs.map((h) => `      <li><a href="${esc(localePath(locale, 'worksheets', h.slug))}">${esc(h.h1)}</a></li>`).join('\n')}
+    </ul>
+  </div>
+</section>`;
+}
+
+function renderHub(locale, hub) {
+  const ui = UI_STRINGS[locale] || UI_STRINGS.en;
+  const hs = HUB_STRINGS[locale] || HUB_STRINGS.en;
+  const canonical = canonicalUrl(localePath(locale, 'worksheets', hub.slug));
+  const tName = typeName(hub.type, locale);
+  const setsUrl = typeSetsUrl(locale, hub.type);
+  const og = deckAssets(locale, hub.decks[0].slug).thumbnail;
+  // A hub is a per-locale page: it declares itself, plus x-default only when it is English (§21.8-A).
+  const languages = { [getHreflangCode(locale)]: canonical };
+  if (locale === 'en') languages['x-default'] = canonical;
+  const hreflangLinks = Object.entries(languages)
+    .map(([code, url]) => `<link rel="alternate" hreflang="${esc(code)}" href="${esc(url)}"/>`).join('\n');
+
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: ui.worksheets, path: localePath(locale, 'worksheets') },
+    { name: tName, path: setsUrl },
+    { name: hub.h1, path: localePath(locale, 'worksheets', hub.slug) },
+  ]);
+  const deckName = (d) => d.title;
+  const collection = {
+    '@context': 'https://schema.org', '@type': 'CollectionPage',
+    name: hub.h1, description: hub.metaDescription, url: canonical, inLanguage: locale,
+    isAccessibleForFree: true, image: og,
+    publisher: { '@type': 'Organization', name: 'LessonCraftStudio', url: CANONICAL_HOST },
+    mainEntity: {
+      '@type': 'ItemList', numberOfItems: hub.decks.length,
+      itemListElement: hub.decks.map((d, i) => ({ '@type': 'ListItem', position: i + 1, name: deckName(d), url: deckLadder.deckUrl(locale, d.slug) })),
+    },
+  };
+
+  const cards = hub.decks.map((d) => {
+    const a = deckAssets(locale, d.slug);
+    const lvl = deckLadder.rungWord(d.level, locale);
+    return `    <a class="ccard" href="${esc(deckLadder.deckUrl(locale, d.slug))}">
+      <div class="cimg"><img src="${esc(wwwImg(a.thumbnail))}" alt="${esc(deckName(d))}" loading="lazy"/></div>
+      <p>${esc(deckName(d))}<span class="hubchips"><span>${esc(lvl)}</span>${d.bw ? `<span>${esc(hs.bw)}</span>` : ''}</span></p>
+    </a>`;
+  }).join('\n');
+
+  const sibs = siblingHubs(locale, hub, 6);
+  const sibHtml = sibs.length === 0 ? '' : `
+<section class="mesh">
+  <div>
+    <h2>${esc(hs.more)}</h2>
+    <ul>
+${sibs.map((h) => `      <li><a href="${esc(localePath(locale, 'worksheets', h.slug))}">${esc(h.h1)}</a></li>`).join('\n')}
+    </ul>
+  </div>
+</section>`;
+
+  return `<!DOCTYPE html>
+<html lang="${esc(getHreflangCode(locale))}">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>${esc(hub.title)} · LessonCraftStudio</title>
+<meta name="description" content="${esc(hub.metaDescription)}"/>
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
+<link rel="canonical" href="${esc(canonical)}"/>
+${hreflangLinks}
+<meta property="og:title" content="${esc(hub.h1)}"/>
+<meta property="og:description" content="${esc(hub.metaDescription)}"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="${esc(canonical)}"/>
+<meta property="og:site_name" content="LessonCraftStudio"/>
+<meta property="og:locale" content="${esc(ogLocaleMap[locale] || locale)}"/>
+<meta property="og:image" content="${esc(og)}"/>
+<meta property="og:image:alt" content="${esc(hub.h1)}"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="${esc(hub.h1)}"/>
+<meta name="twitter:description" content="${esc(hub.metaDescription)}"/>
+<meta name="twitter:image" content="${esc(og)}"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet"/>
+<style>${PAGE_CSS}${HUB_CSS}</style>
+<script type="application/ld+json">${jsonLd(collection)}</script>
+<script type="application/ld+json">${jsonLd(breadcrumbSchema)}</script>
+</head>
+<body>
+${siteChrome.header(locale, 'landing')}
+<main>
+  <div class="container">
+
+    <nav aria-label="Breadcrumb" class="crumbs">
+<a href="${esc(localePath(locale, 'worksheets'))}">${esc(ui.worksheets)}</a>
+<span class="sep" aria-hidden="true">›</span>
+<a href="${esc(setsUrl)}">${esc(tName)}</a>
+<span class="sep" aria-hidden="true">›</span>
+<span class="here" aria-current="page">${esc(hub.h1)}</span>
+    </nav>
+
+    <p class="eyebrow"><span class="bar"></span>${esc(tName)}</p>
+    <h1>${esc(hub.h1)}</h1>
+    <div class="chips"><span class="chip">${esc(hs.count(hub.decks.length))}</span></div>
+
+    <section class="body-copy">
+      <p>${esc(hub.p1)}</p>
+    </section>
+
+    <section class="section">
+      <h2>${esc(hs.grid)}</h2>
+      <div class="carousel hubgrid">
+${cards}
+      </div>
+    </section>
+
+    <section class="body-copy">
+      <p>${esc(hub.p2)}</p>
+      <p>${esc(hub.p3)}</p>
+      <p><a class="huball" href="${esc(setsUrl)}">${esc(hs.all(tName))} →</a></p>
+    </section>
+${sibHtml}
+  </div>
+</main>
+${siteChrome.footer(locale, 'landing')}
+</body>
+</html>
+`;
+}
+const HUB_CSS = `
+.hubgrid .ccard .cimg{aspect-ratio:480/620}
+.hubgrid .ccard .cimg img{object-fit:contain;background:#fff}
+.hubchips{display:flex;flex-wrap:wrap;gap:.375rem;margin-top:.5rem}
+.hubchips span{font-family:'Nunito',system-ui,sans-serif;font-weight:600;font-size:.8125rem;background:var(--teal-soft);color:var(--teal-deep);border-radius:9999px;padding:.125rem .5rem}
+.huball{color:var(--teal-text);font-weight:700}
+.huball:hover{text-decoration:underline}
+`;
 
 /* messages loader (learnPage namespace for cross-language landings) */
 const _msgsCache = {};
@@ -1477,10 +1666,11 @@ function main() {
   if (args.slug) {
     const locale = args.locales[0];
     const l = getLandingBySlug(locale, args.slug);
-    if (!l) { console.error(`landing not found: ${locale}/${args.slug}`); process.exit(1); }
-    const html = renderLanding(locale, l);
+    const hub = l ? null : getAllHubs(locale).find((h) => h.slug === args.slug);
+    if (!l && !hub) { console.error(`landing or hub not found: ${locale}/${args.slug}`); process.exit(1); }
+    const html = l ? renderLanding(locale, l) : renderHub(locale, hub);
     if (args.stdout) { process.stdout.write(html); return; }
-    const file = path.join(args.out, locale, l.slug, 'index.html');
+    const file = path.join(args.out, locale, args.slug, 'index.html');
     writeAtomic(file, html);
     console.log(`wrote ${file}`);
     return;
@@ -1497,6 +1687,18 @@ function main() {
       if (args.limit && n >= args.limit) break;
     }
     console.log(`${locale}: ${n} landings written`);
+    // Level Set hubs share the URL family and the output tree; a hub slug that a landing
+    // already owns is refused (the landing would be overwritten on disk).
+    if (!args.limit) {
+      const landingSlugs = new Set(landings.map((x) => x.slug));
+      let h = 0;
+      for (const hub of getAllHubs(locale)) {
+        if (landingSlugs.has(hub.slug)) { console.error(`  hub ${locale}/${hub.slug} collides with a landing — skipped`); continue; }
+        writeAtomic(path.join(args.out, locale, hub.slug, 'index.html'), renderHub(locale, hub));
+        h++; total++;
+      }
+      if (h) console.log(`${locale}: ${h} hubs written`);
+    }
   }
   console.log(`DONE: ${total} pages in ${((Date.now() - t0) / 1000).toFixed(1)}s → ${args.out}`);
 }

@@ -1,0 +1,2682 @@
+{
+ "locale": "fr",
+ "harvested": 1971,
+ "clusters": 3831,
+ "candidates": [
+  {
+   "type": "picture-writing",
+   "topic": "vacances",
+   "stem": "vacanc",
+   "demand": 28,
+   "phrases": [
+    "production d'écrit vacances",
+    "production d écrit vacances ce1",
+    "production d'écrit vacances cp",
+    "production d écrit vacances ce2",
+    "production d écrit vacances cycle 3"
+   ],
+   "phraseCount": 5,
+   "supply": 3,
+   "supplySample": [
+    "production-d-ecrit-facile-voyages-et-vacances-nb-g2278-86 — Production d'écrit : écrire à partir d'une image — Voyages et Vacances NB",
+    "production-d-ecrit-voyages-et-vacances-nb-g2278-185 — Production d'écrit : écrire à partir d'une image — Voyages et Vacances NB",
+    "production-d-ecrit-difficile-voyages-et-vacances-nb-g2278-283 — Production d'écrit : écrire à partir d'une image — Voyages et Vacances NB"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "traits verticaux",
+   "stem": "trait verticaux",
+   "demand": 26,
+   "phrases": [
+    "graphisme traits verticaux",
+    "graphisme traits verticaux ms",
+    "graphisme traits verticaux gs"
+   ],
+   "phraseCount": 3,
+   "supply": 15,
+   "supplySample": [
+    "graphisme-difficile-boulangerie-k385 — Graphisme : traits verticaux, obliques et croix — Boulangerie",
+    "graphisme-plage-nb-k385-3 — Graphisme : traits verticaux, obliques et croix — Plage NB",
+    "graphisme-facile-salle-de-classe-n-b-k385-4 — Graphisme : traits verticaux, obliques et croix — Salle de classe (N&B)",
+    "graphisme-dessert-n-b-k385-5 — Graphisme : traits verticaux, obliques et croix — Dessert (N&B)"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-writing",
+   "topic": "noel",
+   "stem": "noel",
+   "demand": 26,
+   "phrases": [
+    "production d'écrit noel cp",
+    "production d écrit noel ce1",
+    "production d'écrit noel",
+    "production d écrit noël ce2",
+    "production d écrit noël cm1",
+    "production d écrit noel cycle 3"
+   ],
+   "phraseCount": 6,
+   "supply": 10,
+   "supplySample": [
+    "production-d-ecrit-facile-noel-g2278-29 — Production d'écrit : écrire à partir d'une image — Noël",
+    "production-d-ecrit-noel-g2278-128 — Production d'écrit : écrire à partir d'une image — Noël",
+    "production-d-ecrit-difficile-noel-g2278-226 — Production d'écrit : écrire à partir d'une image — Noël",
+    "production-d-ecrit-facile-noel-n-b-g2278-3 — Production d'écrit : écrire à partir d'une image — Noël N&B"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-charts",
+   "topic": "acces",
+   "stem": "acces",
+   "demand": 25,
+   "phrases": [
+    "tableau des nombres acces",
+    "tableau des nombres acces ce1",
+    "tableau des nombres acces cp"
+   ],
+   "phraseCount": 3,
+   "supply": 4,
+   "supplySample": [
+    "tableau-des-nombres-facile-accessoires-g1124 — Compter par cinq — Accessoires",
+    "tableau-des-nombres-facile-accessoires-g2208-3 — Compter par quatre — Accessoires",
+    "tableau-des-nombres-accessoires-g3326-3 — Trouve le motif — Accessoires",
+    "tableau-des-nombres-difficile-accessoires-g3327-3 — Ça descend ! — Accessoires"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "vetement",
+   "stem": "vetement",
+   "demand": 20,
+   "phrases": [
+    "imagier vetement",
+    "imagier vêtements à imprimer",
+    "imagier vêtements maternelle",
+    "imagier vêtement pdf"
+   ],
+   "phraseCount": 4,
+   "supply": 9,
+   "supplySample": [
+    "imagier-facile-vetements-nb-k324-16 — Imagier à découper — Vêtements NB",
+    "imagier-vetements-nb-k324-114 — Imagier à découper — Vêtements NB",
+    "imagier-difficile-vetements-nb-k324-210 — Imagier à découper — Vêtements NB",
+    "imagier-facile-vetements-k324-33 — Imagier à découper — Vêtements"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "bonhomme",
+   "stem": "bonhomm",
+   "demand": 20,
+   "phrases": [
+    "apprendre à dessiner bonhomme maternelle",
+    "apprendre à dessiner bonhomme",
+    "apprendre à dessiner un bonhomme",
+    "apprendre à dessiner un bonhomme maternelle"
+   ],
+   "phraseCount": 4,
+   "supply": 4,
+   "supplySample": [
+    "apprendre-a-dessiner-facile-g1418-7 — Remets les étapes dans l'ordre : dessiner un bonhomme de neige",
+    "apprendre-a-dessiner-facile-k396-7 — Apprendre à dessiner un bonhomme de neige étape par étape",
+    "apprendre-a-dessiner-difficile-k403-17 — Termine le dessin : un bonhomme de neige à compléter",
+    "apprendre-a-dessiner-facile-g2391-2 — Dessine un bonhomme de neige de mémoire"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "ustensiles cuisine",
+   "stem": "ustensil cuisin",
+   "demand": 19,
+   "phrases": [
+    "imagier ustensiles de cuisine maternelle",
+    "imagier ustensiles de cuisine"
+   ],
+   "phraseCount": 2,
+   "supply": 3,
+   "supplySample": [
+    "imagier-facile-ustensiles-de-cuisine-k324-61 — Imagier à découper — Ustensiles de cuisine",
+    "imagier-ustensiles-de-cuisine-k324-159 — Imagier à découper — Ustensiles de cuisine",
+    "imagier-difficile-ustensiles-de-cuisine-k324-252 — Imagier à découper — Ustensiles de cuisine"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "rond",
+   "stem": "rond",
+   "demand": 17,
+   "phrases": [
+    "graphisme rond",
+    "graphisme rond gs",
+    "graphisme rond ms"
+   ],
+   "phraseCount": 3,
+   "supply": 15,
+   "supplySample": [
+    "graphisme-difficile-accessoires-k386-3 — Graphisme : ronds, carrés et triangles — Accessoires",
+    "graphisme-parties-du-corps-k386-2 — Graphisme : ronds, carrés et triangles — Parties du corps",
+    "graphisme-difficile-petit-dejeuner-k386-5 — Graphisme : ronds, carrés et triangles — Petit-déjeuner",
+    "graphisme-facile-couleurs-k386 — Graphisme : ronds, carrés et triangles — Couleurs"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "write-the-word",
+   "topic": "noel",
+   "stem": "noel",
+   "demand": 17,
+   "phrases": [
+    "dictée muette noel",
+    "dictée muette noel cp"
+   ],
+   "phraseCount": 2,
+   "supply": 6,
+   "supplySample": [
+    "dictee-muette-facile-noel-g1244-11 — Dictée muette : écris le nom de l'image — Noël",
+    "dictee-muette-noel-g1244-45 — Dictée muette : écris le nom de l'image — Noël",
+    "dictee-muette-difficile-noel-g1244-81 — Dictée muette : écris le nom de l'image — Noël",
+    "dictee-muette-facile-noel-n-b-g1260-4 — Dictée muette sans liste de mots — Noël N&B"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "legumes",
+   "stem": "legum",
+   "demand": 15,
+   "phrases": [
+    "imagier légumes",
+    "imagier légumes à imprimer"
+   ],
+   "phraseCount": 2,
+   "supply": 9,
+   "supplySample": [
+    "imagier-facile-legumes-k324-89 — Imagier à découper — Légumes",
+    "imagier-legumes-k324-185 — Imagier à découper — Légumes",
+    "imagier-difficile-legumes-k324-271 — Imagier à découper — Légumes",
+    "imagier-facile-legumes-nb-k324-90 — Imagier à découper — Légumes NB"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "emotions",
+   "stem": "emotion",
+   "demand": 14,
+   "phrases": [
+    "imagier des émotions",
+    "imagier des émotions pdf",
+    "imagier émotions"
+   ],
+   "phraseCount": 3,
+   "supply": 5,
+   "supplySample": [
+    "imagier-facile-emotions-k324-40 — Imagier à découper — Émotions",
+    "imagier-emotions-k324-138 — Imagier à découper — Émotions",
+    "imagier-difficile-emotions-k324-232 — Imagier à découper — Émotions",
+    "imagier-emotions-k347-5 — Memory : cartes images et cartes mots — Émotions"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-writing",
+   "topic": "voyage",
+   "stem": "voyag",
+   "demand": 14,
+   "phrases": [
+    "production d'écrit voyage",
+    "production d'écrit voyage cm"
+   ],
+   "phraseCount": 2,
+   "supply": 3,
+   "supplySample": [
+    "production-d-ecrit-facile-voyages-et-vacances-nb-g2278-86 — Production d'écrit : écrire à partir d'une image — Voyages et Vacances NB",
+    "production-d-ecrit-voyages-et-vacances-nb-g2278-185 — Production d'écrit : écrire à partir d'une image — Voyages et Vacances NB",
+    "production-d-ecrit-difficile-voyages-et-vacances-nb-g2278-283 — Production d'écrit : écrire à partir d'une image — Voyages et Vacances NB"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "couleurs",
+   "stem": "couleur",
+   "demand": 13,
+   "phrases": [
+    "imagier couleurs",
+    "imagier des couleurs"
+   ],
+   "phraseCount": 2,
+   "supply": 3,
+   "supplySample": [
+    "imagier-couleurs-k324-132 — Imagier à découper — Couleurs",
+    "imagier-facile-couleurs-k324-34 — Imagier à découper — Couleurs",
+    "imagier-difficile-couleurs-k324-227 — Imagier à découper — Couleurs"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "hiver",
+   "stem": "hiver",
+   "demand": 13,
+   "phrases": [
+    "imagier hiver",
+    "imagier hiver maternelle"
+   ],
+   "phraseCount": 2,
+   "supply": 5,
+   "supplySample": [
+    "imagier-facile-hiver-k324-97 — Imagier à découper — Hiver",
+    "imagier-hiver-k324-193 — Imagier à découper — Hiver",
+    "imagier-difficile-hiver-k324-277 — Imagier à découper — Hiver",
+    "imagier-facile-hiver-k348-5 — Le ou la : cartes avec l'article — Hiver"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "insectes",
+   "stem": "insect",
+   "demand": 12,
+   "phrases": [
+    "imagier insectes",
+    "imagier insectes maternelle"
+   ],
+   "phraseCount": 2,
+   "supply": 3,
+   "supplySample": [
+    "imagier-facile-insectes-et-bestioles-k324-59 — Imagier à découper — Insectes et bestioles",
+    "imagier-insectes-et-bestioles-k324-157 — Imagier à découper — Insectes et bestioles",
+    "imagier-difficile-insectes-et-bestioles-k324-250 — Imagier à découper — Insectes et bestioles"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "animaux ferme",
+   "stem": "animaux ferme",
+   "demand": 11,
+   "phrases": [
+    "imagier animaux de la ferme",
+    "imagier animaux de la ferme à imprimer pdf"
+   ],
+   "phraseCount": 2,
+   "supply": 7,
+   "supplySample": [
+    "imagier-facile-animaux-de-la-ferme-k324-42 — Imagier à découper — Animaux de la ferme",
+    "imagier-animaux-de-la-ferme-k324-140 — Imagier à découper — Animaux de la ferme",
+    "imagier-difficile-animaux-de-la-ferme-k324-234 — Imagier à découper — Animaux de la ferme",
+    "imagier-facile-animaux-de-la-ferme-nb-k324-43 — Imagier à découper — Animaux de la ferme NB"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "oblique",
+   "stem": "obliqu",
+   "demand": 10,
+   "phrases": [
+    "graphisme oblique gs",
+    "graphisme oblique"
+   ],
+   "phraseCount": 2,
+   "supply": 15,
+   "supplySample": [
+    "graphisme-difficile-boulangerie-k385 — Graphisme : traits verticaux, obliques et croix — Boulangerie",
+    "graphisme-plage-nb-k385-3 — Graphisme : traits verticaux, obliques et croix — Plage NB",
+    "graphisme-facile-salle-de-classe-n-b-k385-4 — Graphisme : traits verticaux, obliques et croix — Salle de classe (N&B)",
+    "graphisme-dessert-n-b-k385-5 — Graphisme : traits verticaux, obliques et croix — Dessert (N&B)"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "write-the-word",
+   "topic": "hiver",
+   "stem": "hiver",
+   "demand": 10,
+   "phrases": [
+    "dictée muette hiver"
+   ],
+   "phraseCount": 1,
+   "supply": 6,
+   "supplySample": [
+    "dictee-muette-facile-hiver-g1244-30 — Dictée muette : écris le nom de l'image — Hiver",
+    "dictee-muette-hiver-g1244-68 — Dictée muette : écris le nom de l'image — Hiver",
+    "dictee-muette-difficile-hiver-g1244-104 — Dictée muette : écris le nom de l'image — Hiver",
+    "dictee-muette-facile-hiver-g1259-5 — Dictée muette : choisis dans la liste — Hiver"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "read-and-color",
+   "topic": "noel",
+   "stem": "noel",
+   "demand": 10,
+   "phrases": [
+    "lis et colorie noel"
+   ],
+   "phraseCount": 1,
+   "supply": 9,
+   "supplySample": [
+    "lis-et-colorie-facile-noel-n-b-g1242 — Lis et colorie — Noël N&B",
+    "lis-et-colorie-noel-n-b-g1242-48 — Lis et colorie — Noël N&B",
+    "lis-et-colorie-difficile-noel-n-b-g1242-92 — Lis et colorie — Noël N&B",
+    "lis-et-colorie-facile-noel-n-b-2-g1242-2 — Lis et colorie — Noël N&B 2"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "maze-puzzles",
+   "topic": "boule",
+   "stem": "boule",
+   "demand": 10,
+   "phrases": [
+    "jeux de labyrinthe boule"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "jeux-de-labyrinthe-facile-k407-4 — Aide le castor à nager jusqu'au bouleau"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "italien",
+   "stem": "itali",
+   "demand": 9,
+   "phrases": [
+    "imagier italien",
+    "imagier italie",
+    "imagier italie maternelle"
+   ],
+   "phraseCount": 3,
+   "supply": 2,
+   "supplySample": [
+    "imagier-difficile-plage-nb-k350-2-it — Imagier bilingue : français et italien — Plage NB",
+    "imagier-facile-cuisine-nb-k350-2-it — Imagier bilingue : français et italien — Cuisine NB"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "metier",
+   "stem": "meti",
+   "demand": 9,
+   "phrases": [
+    "imagier metier"
+   ],
+   "phraseCount": 1,
+   "supply": 5,
+   "supplySample": [
+    "imagier-metiers-g1324-5 — Cartes de lecture : mots découpés en syllabes — Métiers",
+    "imagier-difficile-metiers-g1324-3 — Cartes de lecture : mots découpés en syllabes — Métiers",
+    "imagier-facile-metiers-k324-66 — Imagier à découper — Métiers",
+    "imagier-difficile-metiers-k324-256 — Imagier à découper — Métiers"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "nourriture",
+   "stem": "nourritur",
+   "demand": 9,
+   "phrases": [
+    "imagier nourriture",
+    "imagier nourriture maternelle"
+   ],
+   "phraseCount": 2,
+   "supply": 10,
+   "supplySample": [
+    "imagier-nourriture-nb-g1324-6 — Cartes de lecture : mots découpés en syllabes — Nourriture NB",
+    "imagier-facile-nourriture-nb-k324-46 — Imagier à découper — Nourriture NB",
+    "imagier-nourriture-nb-k324-144 — Imagier à découper — Nourriture NB",
+    "imagier-difficile-nourriture-nb-k324-238 — Imagier à découper — Nourriture NB"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "oiseaux",
+   "stem": "oiseaux",
+   "demand": 9,
+   "phrases": [
+    "imagier oiseaux maternelle",
+    "imagier oiseaux"
+   ],
+   "phraseCount": 2,
+   "supply": 15,
+   "supplySample": [
+    "imagier-facile-oiseaux-2-g1324-5 — Cartes de lecture : mots découpés en syllabes — Oiseaux 2",
+    "imagier-difficile-oiseaux-n-b-2-g1324-2 — Cartes de lecture : mots découpés en syllabes — Oiseaux N&B 2",
+    "imagier-facile-oiseaux-k324-22 — Imagier à découper — Oiseaux",
+    "imagier-oiseaux-k324-120 — Imagier à découper — Oiseaux"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "noel",
+   "stem": "noel",
+   "demand": 9,
+   "phrases": [
+    "apprendre à dessiner noel"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "apprendre-a-dessiner-g1416-9 — Un père Noël à dessiner sur quadrillage"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "alphabetical-order",
+   "topic": "outil",
+   "stem": "outil",
+   "demand": 9,
+   "phrases": [
+    "ordre alphabétique outil"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "ordre-alphabetique-facile-outils-nb-g1245-4 — Ranger dans l'ordre alphabétique — Outils NB",
+    "ordre-alphabetique-outils-nb-g1262-4 — Ordre alphabétique : numéroter — Outils NB",
+    "ordre-alphabetique-difficile-outils-nb-g1263-4 — Ordre alphabétique : quatre mots — Outils NB"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "image",
+   "stem": "image",
+   "demand": 8,
+   "phrases": [
+    "graphisme image"
+   ],
+   "phraseCount": 1,
+   "supply": 15,
+   "supplySample": [
+    "graphisme-difficile-plage-nb-k387-2 — Graphisme : d'une image à l'autre — Plage NB",
+    "graphisme-couleurs-k387-4 — Graphisme : d'une image à l'autre — Couleurs",
+    "graphisme-facile-dinosaures-k387 — Graphisme : d'une image à l'autre — Dinosaures",
+    "graphisme-difficile-emotions-k387-5 — Graphisme : d'une image à l'autre — Émotions"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "traits",
+   "stem": "trait",
+   "demand": 8,
+   "phrases": [
+    "graphisme traits gs",
+    "graphisme trait",
+    "graphisme traits ms"
+   ],
+   "phraseCount": 3,
+   "supply": 15,
+   "supplySample": [
+    "graphisme-difficile-boulangerie-k385 — Graphisme : traits verticaux, obliques et croix — Boulangerie",
+    "graphisme-plage-nb-k385-3 — Graphisme : traits verticaux, obliques et croix — Plage NB",
+    "graphisme-facile-salle-de-classe-n-b-k385-4 — Graphisme : traits verticaux, obliques et croix — Salle de classe (N&B)",
+    "graphisme-dessert-n-b-k385-5 — Graphisme : traits verticaux, obliques et croix — Dessert (N&B)"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "read-and-color",
+   "topic": "paques",
+   "stem": "paqu",
+   "demand": 8,
+   "phrases": [
+    "lis et colorie paques"
+   ],
+   "phraseCount": 1,
+   "supply": 8,
+   "supplySample": [
+    "lis-et-colorie-facile-paques-nb-g1242-3 — Lis et colorie — Pâques NB",
+    "lis-et-colorie-paques-nb-g1242-50 — Lis et colorie — Pâques NB",
+    "lis-et-colorie-difficile-paques-nb-g1242-94 — Lis et colorie — Pâques NB",
+    "lis-et-colorie-facile-paques-nb-2-g1242-4 — Lis et colorie — Pâques NB 2"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "licorne",
+   "stem": "licorn",
+   "demand": 8,
+   "phrases": [
+    "coloriage magique licorne"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "coloriage-magique-k394-42-unicorn — Coloriage magique : Licorne"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "voiture",
+   "stem": "voitur",
+   "demand": 8,
+   "phrases": [
+    "coloriage magique voiture"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "coloriage-magique-k393-37-towncar — Coloriage magique : Voiture en ville",
+    "coloriage-magique-difficile-k393-18-townracecar — Coloriage magique : Voiture de course",
+    "coloriage-magique-k394-8-policecar — Coloriage magique : Voiture de police"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "fleur",
+   "stem": "fleur",
+   "demand": 8,
+   "phrases": [
+    "nature des mots fleur"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "nature-des-mots-fleurs-g1300-5 — Nature des mots : nom et adjectif — Fleurs",
+    "nature-des-mots-fleurs-g2285-5 — Nature des mots : neuf étiquettes — Fleurs",
+    "nature-des-mots-difficile-fleurs-g2286-5 — Nature des mots : douze étiquettes — Fleurs"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "qui",
+   "stem": "qui",
+   "demand": 8,
+   "phrases": [
+    "nature des mots qui"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "nature-des-mots-choses-qui-volent-g1300-6 — Nature des mots : nom et adjectif — Choses qui volent",
+    "nature-des-mots-facile-choses-qui-volent-g2275 — Nature des mots : nom, verbe, adjectif — Choses qui volent",
+    "nature-des-mots-choses-qui-volent-g2285-6 — Nature des mots : neuf étiquettes — Choses qui volent",
+    "nature-des-mots-difficile-choses-qui-volent-g2287-3 — Nature des mots : quinze étiquettes — Choses qui volent"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "articles",
+   "topic": "vacance",
+   "stem": "vacanc",
+   "demand": 8,
+   "phrases": [
+    "le ou la vacance"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "le-ou-la-facile-voyages-et-vacances-nb-g1292-2 — Un ou une : classer les mots — Voyages et Vacances NB"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "class",
+   "stem": "class",
+   "demand": 7,
+   "phrases": [
+    "fractions for class 5 worksheet with answers",
+    "fractions worksheet class 5 with answers"
+   ],
+   "phraseCount": 2,
+   "supply": 1,
+   "supplySample": [
+    "fractions-difficile-salle-de-classe-n-b-g2233-4 — Partager la collection — Salle de classe (N&B)"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "voiture",
+   "stem": "voitur",
+   "demand": 7,
+   "phrases": [
+    "apprendre à dessiner voiture"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "apprendre-a-dessiner-difficile-k396-26 — Apprendre à dessiner une voiture de police étape par étape",
+    "apprendre-a-dessiner-difficile-k403-14 — Termine le dessin : une voiture de police à compléter"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "dinosaure",
+   "stem": "dinosaur",
+   "demand": 7,
+   "phrases": [
+    "coloriage magique dinosaure"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "coloriage-magique-facile-k394-2-dinosaur — Coloriage magique : Dinosaure"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "marines",
+   "stem": "marin",
+   "demand": 7,
+   "phrases": [
+    "mesures marines"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "mesures-vie-marine-nb-g1140-6 — Du plus court au plus long — Vie marine NB"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "dinosaure",
+   "stem": "dinosaur",
+   "demand": 6,
+   "phrases": [
+    "imagier dinosaure"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "imagier-facile-dinosaures-k324-37 — Imagier à découper — Dinosaures",
+    "imagier-dinosaures-k324-135 — Imagier à découper — Dinosaures"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "noel",
+   "stem": "noel",
+   "demand": 6,
+   "phrases": [
+    "imagier noel",
+    "imagier noel maternelle"
+   ],
+   "phraseCount": 2,
+   "supply": 10,
+   "supplySample": [
+    "imagier-noel-k324-127 — Imagier à découper — Noël",
+    "imagier-facile-noel-k324-29 — Imagier à découper — Noël",
+    "imagier-difficile-noel-n-b-k324-198 — Imagier à découper — Noël N&B",
+    "imagier-facile-noel-n-b-2-k324-4 — Imagier à découper — Noël N&B 2"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "koala",
+   "stem": "koala",
+   "demand": 6,
+   "phrases": [
+    "coloriage magique koala"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "coloriage-magique-k394-58-koala — Coloriage magique : Koala",
+    "coloriage-magique-k393-25-forestkoala — Coloriage magique : Koala dans la forêt"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "articles",
+   "topic": "noel",
+   "stem": "noel",
+   "demand": 6,
+   "phrases": [
+    "le ou la noel"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "le-ou-la-facile-noel-n-b-g1292-4 — Un ou une : classer les mots — Noël N&B",
+    "le-ou-la-noel-n-b-2-k288-4 — Le ou la, un ou une : entoure l'article — Noël N&B 2"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "noel",
+   "stem": "noel",
+   "demand": 5,
+   "phrases": [
+    "graphisme noel"
+   ],
+   "phraseCount": 1,
+   "supply": 12,
+   "supplySample": [
+    "graphisme-facile-noel-k236-29 — Graphisme : les chemins du crayon — Noël",
+    "graphisme-noel-k236-127 — Graphisme : les chemins du crayon — Noël",
+    "graphisme-difficile-noel-k236-226 — Graphisme : les chemins du crayon — Noël",
+    "graphisme-facile-noel-n-b-k236-3 — Graphisme : les chemins du crayon — Noël N&B"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "nature",
+   "stem": "natur",
+   "demand": 5,
+   "phrases": [
+    "imagier nature"
+   ],
+   "phraseCount": 1,
+   "supply": 6,
+   "supplySample": [
+    "imagier-facile-maison-et-nature-nb-k324-54 — Imagier à découper — Maison et Nature NB",
+    "imagier-maison-et-nature-nb-k324-152 — Imagier à découper — Maison et Nature NB",
+    "imagier-difficile-maison-et-nature-nb-k324-245 — Imagier à découper — Maison et Nature NB",
+    "imagier-facile-nature-nb-k324-64 — Imagier à découper — Nature NB"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "oiseau",
+   "stem": "oiseau",
+   "demand": 5,
+   "phrases": [
+    "coloriage magique oiseau"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "coloriage-magique-facile-k393-2-gardenbird — Coloriage magique : Oiseau au jardin"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "fleurs",
+   "stem": "fleur",
+   "demand": 4,
+   "phrases": [
+    "graphisme fleurs"
+   ],
+   "phraseCount": 1,
+   "supply": 6,
+   "supplySample": [
+    "graphisme-fleurs-k236-143 — Graphisme : les chemins du crayon — Fleurs",
+    "graphisme-facile-fleurs-k236-45 — Graphisme : les chemins du crayon — Fleurs",
+    "graphisme-difficile-fleurs-k236-242 — Graphisme : les chemins du crayon — Fleurs",
+    "graphisme-fleurs-k248-5 — Graphisme : la grande révision — Fleurs"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "nature",
+   "stem": "natur",
+   "demand": 4,
+   "phrases": [
+    "graphisme nature"
+   ],
+   "phraseCount": 1,
+   "supply": 9,
+   "supplySample": [
+    "graphisme-facile-maison-et-nature-nb-k236-54 — Graphisme : les chemins du crayon — Maison et Nature NB",
+    "graphisme-maison-et-nature-nb-k236-152 — Graphisme : les chemins du crayon — Maison et Nature NB",
+    "graphisme-difficile-maison-et-nature-nb-k236-251 — Graphisme : les chemins du crayon — Maison et Nature NB",
+    "graphisme-facile-nature-nb-k236-64 — Graphisme : les chemins du crayon — Nature NB"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "traits obliques",
+   "stem": "trait obliqu",
+   "demand": 4,
+   "phrases": [
+    "graphisme traits obliques"
+   ],
+   "phraseCount": 1,
+   "supply": 15,
+   "supplySample": [
+    "graphisme-difficile-boulangerie-k385 — Graphisme : traits verticaux, obliques et croix — Boulangerie",
+    "graphisme-plage-nb-k385-3 — Graphisme : traits verticaux, obliques et croix — Plage NB",
+    "graphisme-facile-salle-de-classe-n-b-k385-4 — Graphisme : traits verticaux, obliques et croix — Salle de classe (N&B)",
+    "graphisme-dessert-n-b-k385-5 — Graphisme : traits verticaux, obliques et croix — Dessert (N&B)"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "cuisine",
+   "stem": "cuisin",
+   "demand": 4,
+   "phrases": [
+    "imagier cuisine maternelle"
+   ],
+   "phraseCount": 1,
+   "supply": 9,
+   "supplySample": [
+    "imagier-facile-cuisine-nb-k324-60 — Imagier à découper — Cuisine NB",
+    "imagier-cuisine-nb-k324-158 — Imagier à découper — Cuisine NB",
+    "imagier-difficile-cuisine-nb-k324-251 — Imagier à découper — Cuisine NB",
+    "imagier-facile-ustensiles-de-cuisine-k324-61 — Imagier à découper — Ustensiles de cuisine"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "foret",
+   "stem": "foret",
+   "demand": 4,
+   "phrases": [
+    "imagier foret"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "imagier-facile-creatures-de-la-foret-k324-49 — Imagier à découper — Créatures de la forêt",
+    "imagier-creatures-de-la-foret-k324-147 — Imagier à découper — Créatures de la forêt",
+    "imagier-difficile-creatures-de-la-foret-k324-241 — Imagier à découper — Créatures de la forêt"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "bateau",
+   "stem": "bateau",
+   "demand": 4,
+   "phrases": [
+    "coloriage magique bateau"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "coloriage-magique-facile-k393-27-beachboat — Coloriage magique : Bateau à la plage"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "noel",
+   "stem": "noel",
+   "demand": 4,
+   "phrases": [
+    "coloriage magique noel"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "coloriage-magique-facile-k393-35-wintersanta — Coloriage magique : Père Noël dans la neige"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "fleurs",
+   "stem": "fleur",
+   "demand": 3,
+   "phrases": [
+    "imagier fleurs"
+   ],
+   "phraseCount": 1,
+   "supply": 5,
+   "supplySample": [
+    "imagier-fleurs-g1324-3 — Cartes de lecture : mots découpés en syllabes — Fleurs",
+    "imagier-difficile-fleurs-k324-237 — Imagier à découper — Fleurs",
+    "imagier-difficile-fleurs-g1324 — Cartes de lecture : mots découpés en syllabes — Fleurs",
+    "imagier-facile-fleurs-k324-45 — Imagier à découper — Fleurs"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "renard",
+   "stem": "renard",
+   "demand": 3,
+   "phrases": [
+    "apprendre à dessiner renard"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "apprendre-a-dessiner-facile-g1419-2 — Recopie chaque étape : dessine un renard",
+    "apprendre-a-dessiner-difficile-k403-16 — Termine le dessin : un renard à compléter"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "musique",
+   "stem": "musiqu",
+   "demand": 3,
+   "phrases": [
+    "mesures musique"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "mesures-facile-musique-g2235-5 — Mesure-le ! — Musique"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "outils",
+   "stem": "outil",
+   "demand": 2,
+   "phrases": [
+    "imagier outils"
+   ],
+   "phraseCount": 1,
+   "supply": 7,
+   "supplySample": [
+    "imagier-facile-outils-nb-k324-82 — Imagier à découper — Outils NB",
+    "imagier-outils-nb-k324-178 — Imagier à découper — Outils NB",
+    "imagier-outils-k324-177 — Imagier à découper — Outils",
+    "imagier-difficile-outils-nb-k324-266 — Imagier à découper — Outils NB"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-writing",
+   "topic": "hiver",
+   "stem": "hiver",
+   "demand": 2,
+   "phrases": [
+    "production d écrit hiver ce1"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "production-d-ecrit-facile-hiver-g2278-97 — Production d'écrit : écrire à partir d'une image — Hiver",
+    "production-d-ecrit-hiver-g2278-195 — Production d'écrit : écrire à partir d'une image — Hiver",
+    "production-d-ecrit-difficile-hiver-g2278-294 — Production d'écrit : écrire à partir d'une image — Hiver"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-writing",
+   "topic": "maison",
+   "stem": "maiso",
+   "demand": 2,
+   "phrases": [
+    "production d écrit maison"
+   ],
+   "phraseCount": 1,
+   "supply": 12,
+   "supplySample": [
+    "production-d-ecrit-facile-autour-de-la-maison-g2278-17 — Production d'écrit : écrire à partir d'une image — Autour de la maison",
+    "production-d-ecrit-autour-de-la-maison-g2278-116 — Production d'écrit : écrire à partir d'une image — Autour de la maison",
+    "production-d-ecrit-difficile-autour-de-la-maison-g2278-214 — Production d'écrit : écrire à partir d'une image — Autour de la maison",
+    "production-d-ecrit-facile-maison-et-nature-nb-g2278-54 — Production d'écrit : écrire à partir d'une image — Maison et Nature NB"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "une voiture",
+   "stem": "une voitur",
+   "demand": 2,
+   "phrases": [
+    "apprendre à dessiner une voiture"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "apprendre-a-dessiner-difficile-k396-26 — Apprendre à dessiner une voiture de police étape par étape",
+    "apprendre-a-dessiner-difficile-k403-14 — Termine le dessin : une voiture de police à compléter"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "baleine",
+   "stem": "balein",
+   "demand": 2,
+   "phrases": [
+    "coloriage magique baleine"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "coloriage-magique-facile-k393-15-seawhale — Coloriage magique : Baleine dans la mer"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "voiture course",
+   "stem": "voitur cours",
+   "demand": 2,
+   "phrases": [
+    "coloriage magique voiture de course"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "coloriage-magique-difficile-k393-18-townracecar — Coloriage magique : Voiture de course"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "ferme",
+   "stem": "ferme",
+   "demand": 1,
+   "phrases": [
+    "imagier ferme"
+   ],
+   "phraseCount": 1,
+   "supply": 11,
+   "supplySample": [
+    "imagier-facile-animaux-de-la-ferme-k324-42 — Imagier à découper — Animaux de la ferme",
+    "imagier-animaux-de-la-ferme-k324-140 — Imagier à découper — Animaux de la ferme",
+    "imagier-difficile-animaux-de-la-ferme-k324-234 — Imagier à découper — Animaux de la ferme",
+    "imagier-facile-animaux-de-la-ferme-nb-k324-43 — Imagier à découper — Animaux de la ferme NB"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "write-the-word",
+   "topic": "printemps",
+   "stem": "printemp",
+   "demand": 1,
+   "phrases": [
+    "dictée muette printemps"
+   ],
+   "phraseCount": 1,
+   "supply": 5,
+   "supplySample": [
+    "dictee-muette-printemps-g1244-62 — Dictée muette : écris le nom de l'image — Printemps",
+    "dictee-muette-facile-printemps-g1244-24 — Dictée muette : écris le nom de l'image — Printemps",
+    "dictee-muette-difficile-printemps-g1244-99 — Dictée muette : écris le nom de l'image — Printemps",
+    "dictee-muette-facile-printemps-g1258 — Dictée muette avec lettre de départ — Printemps"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "requin",
+   "stem": "requi",
+   "demand": 1,
+   "phrases": [
+    "apprendre à dessiner un requin"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "apprendre-a-dessiner-facile-k404-6 — Dessine un requin et écris le mot"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "une vache",
+   "stem": "une vache",
+   "demand": 1,
+   "phrases": [
+    "apprendre à dessiner une vache"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "apprendre-a-dessiner-facile-k396-4 — Apprendre à dessiner une vache étape par étape",
+    "apprendre-a-dessiner-k404-9 — Dessine une vache et écris le mot",
+    "apprendre-a-dessiner-facile-g2391-7 — Dessine une vache de mémoire",
+    "apprendre-a-dessiner-facile-k401-4 — Dessiner une vache avec des formes simples"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "fleur",
+   "stem": "fleur",
+   "demand": 1,
+   "phrases": [
+    "coloriage magique fleur"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "coloriage-magique-difficile-k394-28-flowerpot — Coloriage magique : Pot de fleurs"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "meuble",
+   "stem": "meubl",
+   "demand": 1,
+   "phrases": [
+    "mesures meuble"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "mesures-meubles-nb-g1140-4 — Du plus court au plus long — Meubles NB",
+    "mesures-difficile-meubles-nb-g2235-4 — Mesure-le ! — Meubles NB",
+    "mesures-facile-meubles-g2236-5 — Combien plus long ? — Meubles",
+    "mesures-meubles-g2236-3 — Combien plus long ? — Meubles"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "alphabetical-order",
+   "topic": "activite",
+   "stem": "activit",
+   "demand": 1,
+   "phrases": [
+    "ordre alphabétique activité"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "ordre-alphabetique-facile-activites-g1262-5 — Ordre alphabétique : numéroter — Activités",
+    "ordre-alphabetique-activites-g1263-5 — Ordre alphabétique : quatre mots — Activités",
+    "ordre-alphabetique-difficile-activites-g1264-5 — Ordre alphabétique : même initiale — Activités"
+   ],
+   "covered": false,
+   "coveredBy": null
+  }
+ ],
+ "contentIdeas": [
+  {
+   "type": "write-the-word",
+   "topic": "son",
+   "stem": "son",
+   "demand": 88,
+   "phrases": [
+    "dictée muette son ou",
+    "dictée muette son an",
+    "dictée muette son b",
+    "dictée muette son d",
+    "dictée muette son eu",
+    "dictée muette son f"
+   ],
+   "phraseCount": 18,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-writing",
+   "topic": "rentree",
+   "stem": "rentre",
+   "demand": 63,
+   "phrases": [
+    "production d'écrit de rentrée",
+    "production d'écrit de rentrée ce1",
+    "production d'écrit de rentrée ce2",
+    "production d'écrit de rentrée cm1",
+    "production d'écrit la rentrée",
+    "production d'écrit la rentrée ce1"
+   ],
+   "phraseCount": 12,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "anglais",
+   "stem": "anglai",
+   "demand": 59,
+   "phrases": [
+    "les nombres ordinaux en anglais",
+    "les nombres ordinaux de 1 à 31 en anglais",
+    "les nombres ordinaux en anglais pdf",
+    "les nombres ordinaux anglais",
+    "les nombres ordinaux de 1 à 30 en anglais",
+    "les nombres ordinaux de 1 à 100 en anglais"
+   ],
+   "phraseCount": 11,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "year",
+   "stem": "year",
+   "demand": 55,
+   "phrases": [
+    "fractions year 3",
+    "fractions year 4",
+    "fractions year 6",
+    "fractions year 2",
+    "fractions year 5",
+    "fractions year 5 worksheets"
+   ],
+   "phraseCount": 10,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-bonds",
+   "topic": "lecon",
+   "stem": "lecon",
+   "demand": 50,
+   "phrases": [
+    "compléments à 10 leçon",
+    "compléments à 10 ce1 leçon",
+    "compléments à 10 cp leçon",
+    "compléments à 10 leçon ce2",
+    "compléments à 10 leçon ce1",
+    "compléments à 10 leçon cp"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "grade",
+   "stem": "grade",
+   "demand": 46,
+   "phrases": [
+    "fractions grade 4",
+    "fractions grade 3",
+    "fractions grade 5",
+    "fractions grade 2",
+    "fractions grade 6",
+    "fractions grade 4 with answers"
+   ],
+   "phraseCount": 9,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "decimales",
+   "stem": "decimal",
+   "demand": 42,
+   "phrases": [
+    "fractions décimales",
+    "fractions décimales cm1",
+    "fractions décimales exercices",
+    "fractions of decimals",
+    "fractions to decimals",
+    "fractions with decimals"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "rentree",
+   "stem": "rentre",
+   "demand": 42,
+   "phrases": [
+    "coloriage magique rentrée ce1",
+    "coloriage magique rentrée cp",
+    "coloriage magique rentrée",
+    "coloriage magique rentrée gs",
+    "coloriage magique rentrée maternelle",
+    "coloriage magique rentrée ce2"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "sight-words",
+   "topic": "taoki",
+   "stem": "taoki",
+   "demand": 41,
+   "phrases": [
+    "mots outils taoki",
+    "mots outils cp taoki",
+    "mots outils de taoki",
+    "mots outils taoki à imprimer",
+    "mots outils taoki cp à imprimer",
+    "mots outils taoki pdf"
+   ],
+   "phraseCount": 9,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "espagnol",
+   "stem": "espagnol",
+   "demand": 41,
+   "phrases": [
+    "les nombres ordinaux en espagnol de 1 à 100",
+    "les nombres ordinaux en espagnol",
+    "les nombres ordinaux de 1 à 20 en espagnol",
+    "les nombres ordinaux de 0 à 100 en espagnol",
+    "les nombres ordinaux de 1 à 10 en espagnol",
+    "les nombres ordinaux de 1 à 100 en espagnol"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "automne",
+   "stem": "automn",
+   "demand": 40,
+   "phrases": [
+    "graphisme automne gs",
+    "graphisme automne",
+    "graphisme automne ms",
+    "graphisme automne maternelle",
+    "graphisme automne cp",
+    "graphisme gs automne"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "bout gomme",
+   "stem": "bout gomme",
+   "demand": 40,
+   "phrases": [
+    "géométrie bout de gomme",
+    "géométrie bout de gomme ce1",
+    "géométrie bout de gomme ce2",
+    "géométrie bout de gomme cm1",
+    "géométrie bout de gomme cp"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "story-sequencing",
+   "topic": "noel",
+   "stem": "noel",
+   "demand": 40,
+   "phrases": [
+    "images séquentielles de noel",
+    "images séquentielles noel",
+    "images séquentielles noel ce1",
+    "images séquentielles noel maternelle",
+    "images séquentielles noel cp",
+    "images séquentielles noel gs"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "doubles-halves",
+   "topic": "lecon",
+   "stem": "lecon",
+   "demand": 39,
+   "phrases": [
+    "doubles et moitiés ce2 leçon",
+    "doubles et moitiés cm1 leçon",
+    "doubles et moitiés leçon",
+    "doubles et moitiés leçon ce2",
+    "doubles et moitiés leçon ce1",
+    "doubles et moitiés leçon cm1"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "dot-to-dot",
+   "topic": "adulte",
+   "stem": "adult",
+   "demand": 39,
+   "phrases": [
+    "points à relier adulte pdf gratuit",
+    "points à relier adulte",
+    "points à relier adulte à imprimer",
+    "points à relier adulte à imprimer gratuit",
+    "points à relier adulte gratuit",
+    "points à relier adulte pdf"
+   ],
+   "phraseCount": 9,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-of-the-day",
+   "topic": "rituel",
+   "stem": "rituel",
+   "demand": 39,
+   "phrases": [
+    "le nombre du jour rituel",
+    "le nombre du jour rituel ce1",
+    "le nombre du jour rituel ce2",
+    "le nombre du jour rituel cp",
+    "le nombre du jour rituel cm1"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "rentree",
+   "stem": "rentre",
+   "demand": 38,
+   "phrases": [
+    "graphisme de rentrée gs",
+    "graphisme rentrée gs",
+    "graphisme rentrée ms",
+    "graphisme rentrée",
+    "graphisme rentrée cp",
+    "graphisme rentrée maternelle"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "lettres",
+   "stem": "lettr",
+   "demand": 38,
+   "phrases": [
+    "coloriage magique gs lettres",
+    "coloriage magique lettres",
+    "coloriage magique lettres cp",
+    "coloriage magique lettres gs",
+    "coloriage magique lettres cp à imprimer",
+    "coloriage magique lettre y"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "dot-to-dot",
+   "topic": "regle",
+   "stem": "regle",
+   "demand": 38,
+   "phrases": [
+    "points à relier à la règle cp",
+    "points à relier à la règle gs",
+    "points à relier à la règle",
+    "points à relier à la règle ce1",
+    "points à relier règle cp",
+    "points à relier règle"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "story-sequencing",
+   "topic": "journee",
+   "stem": "journe",
+   "demand": 38,
+   "phrases": [
+    "images séquentielles de la journée en maternelle",
+    "images séquentielles journée maternelle",
+    "images séquentielles journée cp",
+    "images séquentielles journée",
+    "images séquentielles journée gs"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "story-sequencing",
+   "topic": "roule galette",
+   "stem": "roule galett",
+   "demand": 36,
+   "phrases": [
+    "images séquentielles de roule galette",
+    "images séquentielles roule galette",
+    "images séquentielles roule galette ms",
+    "images séquentielles roule galette ps",
+    "images séquentielles roule galette gs",
+    "images séquentielles roule galette maternelle"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "anglais",
+   "stem": "anglai",
+   "demand": 36,
+   "phrases": [
+    "les mots interrogatifs en anglais",
+    "les mots interrogatifs en anglais pdf",
+    "les mots interrogatifs anglais",
+    "les mots interrogatifs en anglais exercices",
+    "les mots interrogatifs en wh en anglais"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "mental-math",
+   "topic": "quotidien",
+   "stem": "quotidi",
+   "demand": 36,
+   "phrases": [
+    "calcul mental quotidien ce2",
+    "calcul mental quotidien cm1",
+    "calcul mental quotidien",
+    "calcul mental quotidien ce1",
+    "calcul mental quotidien ce1 ce2",
+    "calcul mental quotidien ce2 cm1"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "enfant ans",
+   "stem": "enfant ans",
+   "demand": 35,
+   "phrases": [
+    "apprendre à dessiner enfant 8 ans",
+    "apprendre à dessiner enfant 6 ans",
+    "apprendre à dessiner enfant 10 ans",
+    "apprendre à dessiner enfant 3 ans",
+    "apprendre à dessiner enfant 7 ans",
+    "apprendre à dessiner enfant 4 ans"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-writing",
+   "topic": "zaubette",
+   "stem": "zaubett",
+   "demand": 34,
+   "phrases": [
+    "production d écrit zaubette",
+    "production d écrit zaubette ce1",
+    "production d écrit zaubette cp",
+    "production d écrit zaubette ce2"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "dot-to-dot",
+   "topic": "noel",
+   "stem": "noel",
+   "demand": 34,
+   "phrases": [
+    "points à relier gs noel",
+    "points à relier noel",
+    "points à relier noel cp",
+    "points à relier noel maternelle",
+    "points à relier noel ce1",
+    "points à relier noel gs"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "days-and-months",
+   "topic": "anglais",
+   "stem": "anglai",
+   "demand": 33,
+   "phrases": [
+    "jours et mois en anglais",
+    "jours et mois en anglais cm1",
+    "jours et mois en anglais a imprimer",
+    "jours et mois en anglais pdf",
+    "jours et mois anglais",
+    "jours et mois en anglais ce2"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "texte",
+   "stem": "texte",
+   "demand": 32,
+   "phrases": [
+    "lecture et compréhension de texte ce2",
+    "lecture et compréhension de texte cm1",
+    "lecture et comprehension de texte pdf",
+    "lecture et compréhension de texte"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "quadrillage",
+   "stem": "quadrillag",
+   "demand": 31,
+   "phrases": [
+    "graphisme quadrillage gs",
+    "graphisme quadrillage",
+    "graphisme quadrillage maternelle",
+    "graphisme quadrillage maternelle gs"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-writing",
+   "topic": "bordas",
+   "stem": "borda",
+   "demand": 31,
+   "phrases": [
+    "production d'écrit bordas",
+    "production d'écrit bordas ce1",
+    "production d'écrit bordas ce2",
+    "production d'écrit bordas cm1"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "write-the-word",
+   "topic": "lecture piano",
+   "stem": "lectur piano",
+   "demand": 31,
+   "phrases": [
+    "dictée muette cp lecture piano",
+    "dictée muette lecture piano cp",
+    "dictée muette lecture piano ce1",
+    "dictée muette lecture piano"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "cursive-writing",
+   "topic": "telecharger",
+   "stem": "telecharg",
+   "demand": 31,
+   "phrases": [
+    "écriture cursive à télécharger",
+    "écriture cursive cp à télécharger",
+    "écriture cursive gs à télécharger",
+    "écriture cursive télécharger",
+    "écriture cursive word télécharger"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "family",
+   "topic": "anglais",
+   "stem": "anglai",
+   "demand": 31,
+   "phrases": [
+    "les membres de la famille en anglais",
+    "les membres de la famille en anglais pdf",
+    "les membres de la famille en anglais exercices",
+    "les membres de la famille anglais"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "feuille automne",
+   "stem": "feuill automn",
+   "demand": 30,
+   "phrases": [
+    "graphisme feuille automne",
+    "graphisme feuille automne gs",
+    "graphisme feuille automne maternelle",
+    "graphisme feuille d'automne"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "numeration",
+   "stem": "numeratio",
+   "demand": 30,
+   "phrases": [
+    "coloriage magique numération ce1",
+    "coloriage magique numération ce2",
+    "coloriage magique numération",
+    "coloriage magique numération cp"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "dot-to-dot",
+   "topic": "halloween",
+   "stem": "hallowe",
+   "demand": 30,
+   "phrases": [
+    "points à relier halloween",
+    "points à relier halloween cp",
+    "points à relier halloween ce1",
+    "points à relier halloween maternelle",
+    "points à relier halloween à imprimer"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "feelings",
+   "topic": "anglais",
+   "stem": "anglai",
+   "demand": 30,
+   "phrases": [
+    "les émotions en anglais",
+    "les émotions anglais",
+    "les émotions anglais cm1",
+    "les émotions en anglais cm1",
+    "les émotions en anglais ce2"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "halloween",
+   "stem": "hallowe",
+   "demand": 29,
+   "phrases": [
+    "coloriage magique halloween",
+    "coloriage magique halloween maternelle",
+    "coloriage magique halloween à imprimer pdf gratuit",
+    "coloriage magique halloween ce2",
+    "coloriage magique halloween à imprimer",
+    "coloriage magique halloween ce1"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "mental-math",
+   "topic": "hatier",
+   "stem": "hati",
+   "demand": 29,
+   "phrases": [
+    "calcul mental hatier",
+    "calcul mental hatier ce1",
+    "calcul mental hatier cm1",
+    "calcul mental hatier ce2"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-parts",
+   "topic": "corriges",
+   "stem": "corrig",
+   "demand": 29,
+   "phrases": [
+    "préfixes et suffixes exercices corrigés",
+    "préfixes et suffixes exercices corrigés pdf",
+    "préfixes et suffixes exercices corrigés pdf ce1",
+    "préfixes et suffixes exercices corrigés cm1",
+    "préfixes et suffixes exercices corrigés ce2",
+    "préfixes et suffixes exercices corrigés pdf cm1"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "feelings",
+   "topic": "vice versa",
+   "stem": "vice versa",
+   "demand": 29,
+   "phrases": [
+    "les émotions vice-versa 2",
+    "les émotions vice versa",
+    "les émotions vice-versa 1",
+    "les émotions vice versa 2 pdf"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-writing",
+   "topic": "halloween",
+   "stem": "hallowe",
+   "demand": 28,
+   "phrases": [
+    "production d'écrit halloween",
+    "production d'écrit halloween ce2",
+    "production d'écrit halloween ce1",
+    "production d'écrit halloween cp",
+    "production d écrit halloween cycle 3",
+    "production d écrit halloween cm1"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "enfant",
+   "stem": "enfant",
+   "demand": 28,
+   "phrases": [
+    "apprendre à dessiner enfant",
+    "apprendre à dessiner enfant pdf",
+    "apprendre à dessiner pour enfant",
+    "apprendre à dessiner pdf enfant",
+    "apprendre à dessiner enfant youtube"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "find-the-differences",
+   "topic": "noel",
+   "stem": "noel",
+   "demand": 28,
+   "phrases": [
+    "jeu des différences à imprimer noel",
+    "jeu des différences de noel à imprimer",
+    "jeu des différences noel",
+    "jeu des différences noel à imprimer"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "story-sequencing",
+   "topic": "petit chaperon rouge",
+   "stem": "petit chapero rouge",
+   "demand": 28,
+   "phrases": [
+    "images séquentielles du petit chaperon rouge",
+    "images séquentielles le petit chaperon rouge",
+    "images séquentielles petit chaperon rouge",
+    "images séquentielles petit chaperon rouge gs"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "synonyms",
+   "topic": "lecon",
+   "stem": "lecon",
+   "demand": 28,
+   "phrases": [
+    "les synonymes leçon",
+    "les synonymes leçon ce1",
+    "les synonymes leçon cm1",
+    "les synonymes leçon ce2"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "cursive-writing",
+   "topic": "scripte",
+   "stem": "script",
+   "demand": 28,
+   "phrases": [
+    "écriture cursive et scripte",
+    "écriture cursive ou scripte",
+    "écriture cursive vs script"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-tracing",
+   "topic": "lettres",
+   "stem": "lettr",
+   "demand": 28,
+   "phrases": [
+    "écriture des chiffres en lettres",
+    "écriture des chiffres en lettres cp",
+    "écriture des chiffres en lettres ce1",
+    "écriture des chiffres en lettres de 0 à 1000",
+    "ecriture des chiffres en lettre"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "halloween",
+   "stem": "hallowe",
+   "demand": 27,
+   "phrases": [
+    "graphisme halloween gs",
+    "graphisme halloween",
+    "graphisme halloween ms",
+    "graphisme halloween maternelle"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "septembre",
+   "stem": "septembr",
+   "demand": 27,
+   "phrases": [
+    "graphisme septembre",
+    "graphisme septembre gs",
+    "graphisme septembre ms"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "bonds",
+   "stem": "bonds",
+   "demand": 27,
+   "phrases": [
+    "droite numérique bonds de 5",
+    "droite numérique bonds de 10",
+    "droite numérique bonds de 2"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "addition",
+   "stem": "additio",
+   "demand": 27,
+   "phrases": [
+    "fractions addition",
+    "fractions for addition",
+    "fractions of addition",
+    "fractions with addition"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "write-the-word",
+   "topic": "piano",
+   "stem": "piano",
+   "demand": 27,
+   "phrases": [
+    "dictée muette piano cp",
+    "dictée muette piano",
+    "dictée muette piano ce1"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "mental-math",
+   "topic": "retz",
+   "stem": "retz",
+   "demand": 27,
+   "phrases": [
+    "calcul mental retz",
+    "calcul mental retz ce2",
+    "calcul mental retz cm1",
+    "calcul mental retz ce1"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "octobre",
+   "stem": "octobr",
+   "demand": 26,
+   "phrases": [
+    "graphisme octobre",
+    "graphisme octobre gs",
+    "graphisme octobre ms",
+    "graphisme octobre maternelle"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "bebe",
+   "stem": "bebe",
+   "demand": 26,
+   "phrases": [
+    "imagier bébé",
+    "imagier bébé 1 an",
+    "imagier bébé à imprimer",
+    "imagier bébé pdf"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "jusqu anglais",
+   "stem": "jusqu anglai",
+   "demand": 26,
+   "phrases": [
+    "les nombres ordinaux jusqu'à 31 en anglais",
+    "les nombres ordinaux en anglais jusqu à 100",
+    "les nombres ordinaux en anglais jusqu'à 30",
+    "les nombres ordinaux jusqu à 31 en anglais"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "letter-tracing",
+   "topic": "cursive",
+   "stem": "cursiv",
+   "demand": 26,
+   "phrases": [
+    "écriture des lettres en cursive",
+    "écriture des lettres cursives",
+    "ecriture des lettres cursives gs",
+    "écriture des lettres en cursive cp"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pronouns",
+   "topic": "lecon",
+   "stem": "lecon",
+   "demand": 26,
+   "phrases": [
+    "les pronoms personnels sujets ce2 leçon",
+    "les pronoms personnels sujets leçon",
+    "les pronoms personnels sujets leçon ce2",
+    "les pronoms personnels sujets leçon ce1"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "maps",
+   "topic": "geographie",
+   "stem": "geographi",
+   "demand": 26,
+   "phrases": [
+    "lire une carte en géographie cycle 3",
+    "lire une carte en géographie",
+    "lire une carte géographie cycle 3",
+    "lire une carte géographie cm1"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "spelling-rules",
+   "topic": "neerlandais",
+   "stem": "neerlandai",
+   "demand": 26,
+   "phrases": [
+    "règles d'orthographe neerlandais",
+    "règles d orthographe néerlandais pdf",
+    "règles d orthographe néerlandais",
+    "règles d orthographe en néerlandais",
+    "règles d orthographe néerlandais exercices"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "alphabetical-order",
+   "topic": "pays",
+   "stem": "pays",
+   "demand": 26,
+   "phrases": [
+    "ordre alphabétique des pays",
+    "ordre alphabétique pays",
+    "ordre alphabétique pays en e"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "alphabetical-order",
+   "topic": "lecon",
+   "stem": "lecon",
+   "demand": 26,
+   "phrases": [
+    "ordre alphabétique leçon",
+    "ordre alphabétique leçon ce2",
+    "ordre alphabétique leçon ce1",
+    "ordre alphabétique leçon cm1"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "affichage",
+   "stem": "affichag",
+   "demand": 25,
+   "phrases": [
+    "droite numérique ce1 affichage",
+    "droite numérique affichage",
+    "droite numérique cp affichage",
+    "droite numérique ce2 affichage"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "questions class",
+   "stem": "question class",
+   "demand": 25,
+   "phrases": [
+    "fractions questions for class 6",
+    "fractions questions for class 5",
+    "fractions questions for class 7",
+    "fractions questions for class 4",
+    "fractions questions for class 3"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "francais",
+   "stem": "francai",
+   "demand": 25,
+   "phrases": [
+    "les nombres ordinaux francais",
+    "les nombres ordinaux en français de 1 à 100",
+    "les nombres ordinaux en français pdf",
+    "les nombres ordinaux en français exercices pdf",
+    "les nombres ordinaux en français de 1 à 100 pdf"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "table multiplication",
+   "stem": "table multiplicatio",
+   "demand": 25,
+   "phrases": [
+    "coloriage magique table de multiplication",
+    "coloriage magique table de multiplication 6 7 8 9",
+    "coloriage magique table de multiplication 2 3 4 5 pdf"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "trace ecrite",
+   "stem": "trace ecrit",
+   "demand": 25,
+   "phrases": [
+    "lire l heure trace écrite",
+    "lire l heure trace écrite ce2",
+    "lire l heure trace écrite ce1",
+    "lire l heure cm1 trace écrite"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "letter-tracing",
+   "topic": "rondes",
+   "stem": "rond",
+   "demand": 25,
+   "phrases": [
+    "écriture des lettres rondes gs",
+    "ecriture des lettres rondes",
+    "écriture des lettres rondes ms"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "mental-math",
+   "topic": "bordas",
+   "stem": "borda",
+   "demand": 25,
+   "phrases": [
+    "calcul mental bordas",
+    "calcul mental bordas cm1",
+    "calcul mental bordas ce1",
+    "calcul mental bordas ce2"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "mental-math",
+   "topic": "doubles",
+   "stem": "doubl",
+   "demand": 25,
+   "phrases": [
+    "calcul mental les doubles ce2",
+    "calcul mental les doubles",
+    "calcul mental les doubles ce1",
+    "calcul mental les doubles cm1"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pronouns",
+   "topic": "toniques",
+   "stem": "toniqu",
+   "demand": 25,
+   "phrases": [
+    "les pronoms personnels sujets toniques",
+    "les pronoms personnels sujets et toniques exercices",
+    "les pronoms personnels sujets et toniques exercices pdf"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "digraphs",
+   "topic": "francais",
+   "stem": "francai",
+   "demand": 25,
+   "phrases": [
+    "les sons complexes en français",
+    "les sons complexes du français",
+    "les sons complexes en français pdf",
+    "les sons complexes francais"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "sight-words",
+   "topic": "liste officielle",
+   "stem": "liste officiell",
+   "demand": 24,
+   "phrases": [
+    "mots outils cp liste officielle 2025",
+    "mots outils cp liste officielle 2023",
+    "mots outils ce2 liste officielle 2020",
+    "mots outils cp liste officielle 2024"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "jusqu",
+   "stem": "jusqu",
+   "demand": 24,
+   "phrases": [
+    "les nombres ordinaux jusqu à 100",
+    "les nombres ordinaux jusqu'à 20",
+    "les nombres ordinaux jusqu'à 10"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "mangas",
+   "stem": "manga",
+   "demand": 24,
+   "phrases": [
+    "apprendre à dessiner des mangas",
+    "apprendre à dessiner les mangas",
+    "apprendre à dessiner manga"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "doubles",
+   "stem": "doubl",
+   "demand": 24,
+   "phrases": [
+    "coloriage magique doubles",
+    "coloriage magique doubles ce1",
+    "coloriage magique les doubles ce1",
+    "coloriage magique les doubles",
+    "coloriage magique les doubles cp"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "ordre alphabetique",
+   "stem": "ordre alphabetiqu",
+   "demand": 24,
+   "phrases": [
+    "coloriage magique ordre alphabétique ce1",
+    "coloriage magique ordre alphabétique",
+    "coloriage magique ordre alphabétique ce2"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "parallelisme",
+   "stem": "parallelism",
+   "demand": 24,
+   "phrases": [
+    "géométrie et parallélisme",
+    "geometrie ou parallélisme",
+    "géométrie parallélisme"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "jocatop",
+   "stem": "jocatop",
+   "demand": 24,
+   "phrases": [
+    "géométrie jocatop cm1",
+    "géométrie jocatop ce1",
+    "géométrie jocatop"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  }
+ ],
+ "covered": 120
+}

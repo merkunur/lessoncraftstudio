@@ -1,0 +1,125 @@
+{
+ "_note": "Level Set hub pages (build-level-set-hubs.js). decks are recomputed on every run; copy, slug and exclude are kept.",
+ "hubs": [
+  {
+   "slug": "singular-y-plural-en-el-zoologico",
+   "type": "singular-plural",
+   "topic": "zoologico",
+   "kind": "theme",
+   "phrases": [
+    "singular y plural en el zoologico"
+   ],
+   "demand": 7,
+   "decks": [
+    {
+     "slug": "singular-y-plural-facil-animales-del-zoologico-k287",
+     "title": "Singular y plural: uno y muchos — Animales del zoológico",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "singular-y-plural-animales-del-zoologico-bn-k314-4",
+     "title": "Singular y plural sin punteado — Animales del zoológico BN",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "singular-y-plural-dificil-animales-del-zoologico-k313-3",
+     "title": "Singular y plural: de muchos a uno — Animales del zoológico",
+     "level": "hard",
+     "bw": false
+    }
+   ],
+   "deckTotal": 3,
+   "exclude": [],
+   "h1": "Singular y plural en el zoológico",
+   "title": "Singular y plural en el zoológico – hojas de trabajo",
+   "metaDescription": "Singular y plural con animales del zoológico: uno y muchos, de muchos a uno y sin punteado, en tres niveles para preescolar y primero de primaria.",
+   "p1": "Un león y dos leones, una jirafa y tres jirafas: en estas hojas de trabajo, los animales del zoológico ayudan a practicar el singular y el plural. Junto a cada dibujo, el niño escribe la palabra para uno o para varios y descubre cómo cambia la palabra cuando hay más de un animal. Así, una regla gramatical se vuelve algo que se ve y se cuenta.",
+   "p2": "La colección tiene tres hojas en tres niveles. En el nivel fácil, singular y plural: uno y muchos, hay tres filas con palabras cortas y dos dibujos cada una, y el niño pasa del singular al plural. En el nivel intermedio, singular y plural sin punteado, en blanco y negro, el niño escribe la palabra sin letras punteadas que lo guíen. En el nivel difícil, singular y plural: de muchos a uno, hay cuatro filas con palabras más largas y el niño hace el camino contrario, del plural al singular.",
+   "p3": "Las hojas son adecuadas para tercero de preescolar y primero de primaria. Antes de escribir, cuenten juntos los animales en voz alta y digan la palabra para uno y para varios: un mono, dos monos. Muchos niños notan solos que a veces se agrega -s y a veces -es, como en león y leones. Cada hoja tiene además una versión en pantalla, en la que el niño arma la palabra con fichas de letras. Las hojas combinan bien con un proyecto sobre los animales del zoológico."
+  },
+  {
+   "slug": "grafomotricidad-verano",
+   "type": "pre-writing",
+   "topic": "verano",
+   "kind": "theme",
+   "phrases": [
+    "grafomotricidad verano"
+   ],
+   "demand": 6,
+   "decks": [
+    {
+     "slug": "grafomotricidad-facil-verano-k236-79",
+     "title": "Trazos de grafomotricidad — Verano",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "grafomotricidad-verano-k236-177",
+     "title": "Trazos de grafomotricidad — Verano",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "grafomotricidad-dificil-verano-k236-276",
+     "title": "Trazos de grafomotricidad — Verano",
+     "level": "hard",
+     "bw": false
+    }
+   ],
+   "deckTotal": 3,
+   "exclude": [],
+   "h1": "Grafomotricidad de verano",
+   "title": "Grafomotricidad verano – trazos para preescolar",
+   "metaDescription": "Fichas de grafomotricidad con dibujos de verano en tres niveles, de trazos punteados a trazar solo. Tres hojas para preescolar y primero, en PDF.",
+   "p1": "Playa, helados, castillos de arena y conchas: en estas fichas de grafomotricidad, el lápiz recorre el verano. En cada fila, el niño repasa curvas, ondas y bucles, siguiendo el punteado o un modelo según el nivel. Así practica los movimientos que más adelante necesitará para escribir las letras, con dibujos alegres que invitan a empezar.",
+   "p2": "La colección tiene tres hojas con el mismo motivo de verano, una por nivel. Los niveles se distinguen por la ayuda que da la hoja. En el nivel fácil, cada repetición está punteada y tiene su propio punto de inicio. En el nivel intermedio, al modelo le siguen trazos punteados. En el nivel difícil aparecen el modelo, un solo trazo punteado y después solo puntos de inicio, desde donde el niño traza por su cuenta. Como el motivo no cambia, el niño ve por sí mismo cómo necesita cada vez menos ayuda.",
+   "p3": "Las hojas son adecuadas para preescolar y para primero de primaria. Funcionan bien en las últimas semanas antes de las vacaciones o como tarea tranquila en días de calor, y también se pueden enviar a casa para el verano. Antes de usar el lápiz, dibujen las ondas en el aire con todo el brazo y luego con el dedo sobre la mesa. Cuando el niño domina un nivel, puede pasar al siguiente."
+  },
+  {
+   "slug": "como-dibujar-helados",
+   "type": "how-to-draw",
+   "topic": "helados",
+   "kind": "theme",
+   "phrases": [
+    "cómo dibujar helados"
+   ],
+   "demand": 5,
+   "decks": [
+    {
+     "slug": "como-dibujar-k396-21",
+     "title": "Cómo dibujar una copa de helado paso a paso",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "como-dibujar-k402-12",
+     "title": "Repasa y luego dibuja una copa de helado",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "como-dibujar-dificil-g1419-13",
+     "title": "Copia cada paso: dibuja un camión de helados",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "como-dibujar-dificil-k396-29",
+     "title": "Cómo dibujar un camión de helados paso a paso",
+     "level": "hard",
+     "bw": false
+    }
+   ],
+   "deckTotal": 4,
+   "exclude": [],
+   "h1": "Cómo dibujar helados",
+   "title": "Cómo dibujar helados paso a paso – para niños",
+   "metaDescription": "Cómo dibujar helados paso a paso: una copa de helado y un camión de helados, repasar y luego dibujar, y copiar cada paso. Cuatro hojas para primaria.",
+   "p1": "Un helado alegra a cualquiera, y también se puede dibujar paso a paso. En estas hojas, los niños aprenden a dibujar una copa de helado y un camión de helados. Cada paso muestra con claridad qué líneas son nuevas, para que el niño vea exactamente qué debe agregar, y al final la copa o el camión quedan completos en el papel.",
+   "p2": "La colección tiene cuatro hojas. En el nivel intermedio hay dos hojas: cómo dibujar una copa de helado paso a paso y una hoja en la que el niño primero repasa la copa de helado y después la dibuja solo. En el nivel difícil está el camión de helados: cómo dibujar un camión de helados paso a paso y una hoja en la que el niño copia cada paso. El camión tiene más detalles y exige más precisión que la copa, así que lo natural es empezar por la copa.",
+   "p3": "Las hojas son adecuadas para primero y segundo de primaria, y también para niños más pequeños a los que les gusta dibujar. Dibujar paso a paso entrena la observación cuidadosa y el control del lápiz, y los niños descubren que un dibujo se construye con líneas sencillas. Al terminar, pueden colorear el helado con sus sabores favoritos. Las hojas sirven además como punto de partida para escribir: ¿qué helado comprarías en el camión de helados?"
+  }
+ ]
+}

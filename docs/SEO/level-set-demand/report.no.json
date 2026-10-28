@@ -1,0 +1,1504 @@
+{
+ "locale": "no",
+ "harvested": 1971,
+ "clusters": 1857,
+ "candidates": [
+  {
+   "type": "rhyming-words",
+   "topic": "opp",
+   "stem": "opp",
+   "demand": 11,
+   "phrases": [
+    "rimord opp",
+    "rimord på opp"
+   ],
+   "phraseCount": 2,
+   "supply": 19,
+   "supplySample": [
+    "rimord-g1309-5-opp — Rimord: Finn rimet og skriv ordet",
+    "rimord-lett-g1343-10-opp — Sorter rimordene",
+    "rimord-lett-g1343-11-opp — Sorter rimordene",
+    "rimord-lett-g1343-9-opp — Sorter rimordene"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "paske",
+   "stem": "paske",
+   "demand": 10,
+   "phrases": [
+    "bildekort påske"
+   ],
+   "phraseCount": 1,
+   "supply": 9,
+   "supplySample": [
+    "bildekort-lett-paske-k324-38 — Bildekort med ord — Påske",
+    "bildekort-paske-k324-136 — Bildekort med ord — Påske",
+    "bildekort-vanskelig-paske-k324-230 — Bildekort med ord — Påske",
+    "bildekort-lett-paske-sh-k324-5 — Bildekort med ord — Påske SH"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "fotball",
+   "stem": "fotball",
+   "demand": 10,
+   "phrases": [
+    "leseforståelse fotball"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "leseforstaelse-lett-g2270-10 — Leseforståelse: Live spiller fotballkamp",
+    "leseforstaelse-g2270-4 — Leseforståelse: Live spiller fotballkamp",
+    "leseforstaelse-vanskelig-g2270-15 — Leseforståelse: Live spiller fotballkamp"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "mat",
+   "stem": "mat",
+   "demand": 9,
+   "phrases": [
+    "bildekort mat"
+   ],
+   "phraseCount": 1,
+   "supply": 11,
+   "supplySample": [
+    "bildekort-lett-mat-sh-k324-46 — Bildekort med ord — Mat SH",
+    "bildekort-mat-sh-k324-144 — Bildekort med ord — Mat SH",
+    "bildekort-vanskelig-mat-sh-k324-238 — Bildekort med ord — Mat SH",
+    "bildekort-lett-mat-sh-2-k324-47 — Bildekort med ord — Mat SH 2"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "vinter",
+   "stem": "vint",
+   "demand": 9,
+   "phrases": [
+    "bildekort vinter"
+   ],
+   "phraseCount": 1,
+   "supply": 5,
+   "supplySample": [
+    "bildekort-vinter-g1324-5 — Stavelseskort: Les ordet stavelse for stavelse — Vinter",
+    "bildekort-lett-vinter-k324-97 — Bildekort med ord — Vinter",
+    "bildekort-vinter-k324-194 — Bildekort med ord — Vinter",
+    "bildekort-vanskelig-vinter-k324-276 — Bildekort med ord — Vinter"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "skolen",
+   "stem": "skol",
+   "demand": 9,
+   "phrases": [
+    "leseforståelse i skolen"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "leseforstaelse-lett-g2273-10 — Leseforståelse: Yasmin i skoleforestillingen",
+    "leseforstaelse-g2273-4 — Leseforståelse: Yasmin i skoleforestillingen",
+    "leseforstaelse-vanskelig-g2273-15 — Leseforståelse: Yasmin i skoleforestillingen"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "klær",
+   "stem": "klær",
+   "demand": 8,
+   "phrases": [
+    "bildekort klær"
+   ],
+   "phraseCount": 1,
+   "supply": 9,
+   "supplySample": [
+    "bildekort-lett-klaer-sh-k324-16 — Bildekort med ord — Klær SH",
+    "bildekort-vanskelig-klaer-sh-k324-211 — Bildekort med ord — Klær SH",
+    "bildekort-lett-klaer-k324-33 — Bildekort med ord — Klær",
+    "bildekort-klaer-k324-131 — Bildekort med ord — Klær"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "kroppen",
+   "stem": "kropp",
+   "demand": 7,
+   "phrases": [
+    "bildekort kroppen"
+   ],
+   "phraseCount": 1,
+   "supply": 5,
+   "supplySample": [
+    "bildekort-lett-kroppsdeler-g1324 — Stavelseskort: Les ordet stavelse for stavelse — Kroppsdeler",
+    "bildekort-lett-kroppsdeler-k324-26 — Bildekort med ord — Kroppsdeler",
+    "bildekort-kroppsdeler-k324-124 — Bildekort med ord — Kroppsdeler",
+    "bildekort-vanskelig-kroppsdeler-k324-220 — Bildekort med ord — Kroppsdeler"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-writing",
+   "topic": "vinter",
+   "stem": "vint",
+   "demand": 7,
+   "phrases": [
+    "skriv til bildet vinter"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "skriv-til-bildet-lett-vinter-g2278-97 — Skriv til bildet — Vinter",
+    "skriv-til-bildet-vinter-g2278-195 — Skriv til bildet — Vinter",
+    "skriv-til-bildet-vanskelig-vinter-g2278-294 — Skriv til bildet — Vinter"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "jul",
+   "stem": "jul",
+   "demand": 7,
+   "phrases": [
+    "geometri jul"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "geometri-jul-g2247-3 — Symmetrilinje? — Jul",
+    "geometri-lett-jul-g2248-3 — Finn det symmetriske bildet — Jul",
+    "geometri-vanskelig-jul-g2248 — Finn det symmetriske bildet — Jul"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-writing",
+   "topic": "jul",
+   "stem": "jul",
+   "demand": 6,
+   "phrases": [
+    "skriv til bildet jul"
+   ],
+   "phraseCount": 1,
+   "supply": 11,
+   "supplySample": [
+    "skriv-til-bildet-jul-g2278-128 — Skriv til bildet — Jul",
+    "skriv-til-bildet-lett-jul-g2278-29 — Skriv til bildet — Jul",
+    "skriv-til-bildet-vanskelig-jul-g2278-226 — Skriv til bildet — Jul",
+    "skriv-til-bildet-lett-jul-s-h-g2278-3 — Skriv til bildet — Jul S/H"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "følelser",
+   "stem": "følels",
+   "demand": 3,
+   "phrases": [
+    "bildekort følelser"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "bildekort-folelser-k324-138 — Bildekort med ord — Følelser",
+    "bildekort-lett-folelser-k324-40 — Bildekort med ord — Følelser",
+    "bildekort-vanskelig-folelser-k324-232 — Bildekort med ord — Følelser",
+    "bildekort-lett-folelser-k350-en — Tospråklige bildekort: Norsk og engelsk — Følelser"
+   ],
+   "covered": false,
+   "coveredBy": null
+  }
+ ],
+ "contentIdeas": [
+  {
+   "type": "syllable-reading",
+   "topic": "bogstaver",
+   "stem": "bogstav",
+   "demand": 47,
+   "phrases": [
+    "lydrette ord 2 bogstaver",
+    "lydrette ord 3 bogstaver",
+    "lydrette ord 4 bogstaver",
+    "lydrette ord 6 bogstaver",
+    "lydrette ord 5 bogstaver",
+    "lydrette ord på to bogstaver"
+   ],
+   "phraseCount": 9,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 44,
+   "phrases": [
+    "leseforståelse engelsk",
+    "leseforståelse engelsk 5 trinn",
+    "leseforståelse engelsk 4 trinn",
+    "leseforståelse engelsk 7 trinn",
+    "leseforståelse engelsk 3 trinn",
+    "leseforståelse på engelsk"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-words",
+   "topic": "bokstaver",
+   "stem": "bokstav",
+   "demand": 39,
+   "phrases": [
+    "tallord 3 bokstaver",
+    "tallord 5 bokstaver",
+    "tallord 4 bokstaver",
+    "tallord 2 bokstaver",
+    "tallord 7 bokstaver",
+    "tallord 6 bokstaver"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "norsk",
+   "stem": "norsk",
+   "demand": 34,
+   "phrases": [
+    "ordenstall norsk",
+    "ordenstall i norsk",
+    "ordenstall norsk oppgaver",
+    "ordenstall på norsk"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "norsk",
+   "stem": "norsk",
+   "demand": 34,
+   "phrases": [
+    "ordklasser norsk",
+    "ordklasser i norsk",
+    "ordklasser norsk oppgaver",
+    "ordklasser på norsk"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "sight-words",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 32,
+   "phrases": [
+    "høyfrekvente ord engelsk",
+    "høyfrekvente ord engelsk oppgaver",
+    "høyfrekvente ord på engelsk",
+    "høyfrekvente ord i engelsk"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "multiplication-tables",
+   "topic": "spill",
+   "stem": "spill",
+   "demand": 32,
+   "phrases": [
+    "gangetabellen spill",
+    "gangetabellen.no spill",
+    "gangetabellen spill app",
+    "gangetabellen no spill",
+    "gangetabellen spill.no",
+    "gangetabellen spill 1 10"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "kryssord",
+   "stem": "kryssord",
+   "demand": 29,
+   "phrases": [
+    "ordenstall kryssord",
+    "ordenstall til en kryssord",
+    "ordenstall i kryssord"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "spelling-rules",
+   "topic": "norsk",
+   "stem": "norsk",
+   "demand": 28,
+   "phrases": [
+    "rettskriving norsk",
+    "rettskriving norsk app",
+    "rettskriving i norsk",
+    "rettskriving norsk oppgaver",
+    "rettskriving på norsk"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "norsk",
+   "stem": "norsk",
+   "demand": 27,
+   "phrases": [
+    "spørreord på norsk",
+    "spørreord norsk",
+    "spørreord norsk oppgaver",
+    "spørreord oppgaver norsk"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "negative tall",
+   "stem": "negativ tall",
+   "demand": 26,
+   "phrases": [
+    "tallinje med negative tall",
+    "tallinje med negative tall til 20",
+    "tallinje negative tall"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "desimaltall prosent",
+   "stem": "desimaltall prosent",
+   "demand": 26,
+   "phrases": [
+    "brøk desimaltall og prosent",
+    "brøk desimaltall og prosent oppgaver pdf",
+    "brøk desimaltall og prosent oppgaver",
+    "brøk prosent og desimaltall",
+    "brøk prosent og desimaltall oppgaver"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "hummer",
+   "stem": "humm",
+   "demand": 26,
+   "phrases": [
+    "måling av hummer",
+    "måling hummer",
+    "måling hummer 2026"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "dansk latin",
+   "stem": "dansk latin",
+   "demand": 26,
+   "phrases": [
+    "ordklasser dansk og latin",
+    "ordklasser dansk latin",
+    "ordklasser dansk til latin",
+    "ordklasser latin og dansk",
+    "ordklasser latin til dansk",
+    "ordklasser latin dansk"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "tysk",
+   "stem": "tysk",
+   "demand": 26,
+   "phrases": [
+    "spørreord på tysk",
+    "spørreord i tysk",
+    "spørreord tysk"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "klasse",
+   "stem": "klass",
+   "demand": 26,
+   "phrases": [
+    "leseforståelse 1 klasse",
+    "leseforståelse 2 klasse",
+    "leseforståelse 4 klasse",
+    "leseforståelse 3.klasse"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "sight-words",
+   "topic": "norsk",
+   "stem": "norsk",
+   "demand": 25,
+   "phrases": [
+    "høyfrekvente ord norsk",
+    "høyfrekvente ord i norsk",
+    "høyfrekvente ord norsk oppgaver"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "negative positive tall",
+   "stem": "negativ positiv tall",
+   "demand": 24,
+   "phrases": [
+    "tallinje negative og positive tall",
+    "tallinje med positive og negative tall",
+    "tallinje positive og negative tall"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "desimaltall",
+   "stem": "desimaltall",
+   "demand": 24,
+   "phrases": [
+    "tallinje desimaltall",
+    "tallinje desimaltall oppgaver",
+    "tallinje med desimaltall"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 24,
+   "phrases": [
+    "ordklasser engelsk",
+    "ordklasser i engelsk",
+    "ordklasser på engelsk"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rounding",
+   "topic": "tegn",
+   "stem": "tegn",
+   "demand": 24,
+   "phrases": [
+    "avrunding tegn",
+    "avrunding tegn på pc",
+    "avrunding tegn word"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rounding",
+   "topic": "desimaltall",
+   "stem": "desimaltall",
+   "demand": 23,
+   "phrases": [
+    "avrunding av desimaltall",
+    "avrunding desimaltall",
+    "avrunding med desimaltall"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "synonyms",
+   "topic": "norsk",
+   "stem": "norsk",
+   "demand": 23,
+   "phrases": [
+    "synonymer norsk",
+    "synonymer i norsk",
+    "synonymer på norsk"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "synonyms",
+   "topic": "kryssord",
+   "stem": "kryssord",
+   "demand": 23,
+   "phrases": [
+    "synonymer kryssord",
+    "synonymer gratis kryssord",
+    "synonymer i kryssord"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "synonyms",
+   "topic": "bra",
+   "stem": "bra",
+   "demand": 23,
+   "phrases": [
+    "synonymer bra",
+    "synonymer for bra",
+    "synonymer til bra"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "feelings",
+   "topic": "emosjoner",
+   "stem": "emosjon",
+   "demand": 23,
+   "phrases": [
+    "følelser emosjoner",
+    "følelser og emosjoner",
+    "følelser vs emosjoner"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "dansk",
+   "stem": "dansk",
+   "demand": 22,
+   "phrases": [
+    "ordklasser dansk",
+    "ordklasser dansk øvelser",
+    "ordklasser i dansk",
+    "ordklasser på dansk"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "hanne solem",
+   "stem": "hanne solem",
+   "demand": 22,
+   "phrases": [
+    "leseforståelse hanne solem",
+    "leseforståelse 5 hanne solem",
+    "leseforståelse 2 hanne solem"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "synonyms",
+   "topic": "viktig",
+   "stem": "viktig",
+   "demand": 22,
+   "phrases": [
+    "synonymer for viktig",
+    "synonymer til viktig",
+    "synonymer viktig"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "potens",
+   "stem": "poten",
+   "demand": 21,
+   "phrases": [
+    "brøk i potens",
+    "brøk med potens",
+    "brøk potens"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "multiplication-tables",
+   "topic": "net spill",
+   "stem": "net spill",
+   "demand": 21,
+   "phrases": [
+    "gangetabellen.net spill",
+    "gangetabellen net spill",
+    "gangetabellen spill net"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "svenska",
+   "stem": "svensk",
+   "demand": 21,
+   "phrases": [
+    "ordklasser i svenska",
+    "ordklasser svenska",
+    "ordklasser svenska 2"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "odd-and-even",
+   "topic": "uker",
+   "stem": "uker",
+   "demand": 21,
+   "phrases": [
+    "partall og oddetall uker",
+    "partall og oddetall uker 2026",
+    "partall og oddetall uker 2025"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "synonyms",
+   "topic": "god",
+   "stem": "god",
+   "demand": 21,
+   "phrases": [
+    "synonymer for god",
+    "synonymer god",
+    "synonymer til god"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "compound-words",
+   "topic": "norsk",
+   "stem": "norsk",
+   "demand": 21,
+   "phrases": [
+    "sammensatte ord norsk",
+    "sammensatte ord i norsk",
+    "sammensatte ord på norsk"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "blodsukker",
+   "stem": "blodsukk",
+   "demand": 20,
+   "phrases": [
+    "måling av blodsukker",
+    "måling blodsukker"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 20,
+   "phrases": [
+    "måling engelsk",
+    "måling på engelsk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "nynorsk",
+   "stem": "nynorsk",
+   "demand": 20,
+   "phrases": [
+    "spørreord nynorsk",
+    "spørreord nynorsk oppgaver",
+    "spørreord på nynorsk"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "spansk",
+   "stem": "spansk",
+   "demand": 20,
+   "phrases": [
+    "spørreord på spansk",
+    "spørreord spansk",
+    "spørreord i spansk"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "mental-math",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 20,
+   "phrases": [
+    "hoderegning engelsk",
+    "hoderegning på engelsk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-words",
+   "topic": "kryssord",
+   "stem": "kryssord",
+   "demand": 20,
+   "phrases": [
+    "tallord kryssord",
+    "tallord i kryssord"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "odd-and-even",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 20,
+   "phrases": [
+    "partall og oddetall engelsk",
+    "partall og oddetall på engelsk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "sight-words",
+   "topic": "dobbel konsonant",
+   "stem": "dobbel konsonant",
+   "demand": 19,
+   "phrases": [
+    "høyfrekvente ord dobbel konsonant",
+    "høyfrekvente ord med dobbel konsonant"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 19,
+   "phrases": [
+    "tallinje engelsk",
+    "tallinje på engelska",
+    "tallinje på engelsk"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "find-the-differences",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 19,
+   "phrases": [
+    "finn fem feil engelsk",
+    "finn fem feil på engelsk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "kart",
+   "stem": "kart",
+   "demand": 19,
+   "phrases": [
+    "måling i kart",
+    "måling kart",
+    "måling på kart"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "singular-plural",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 19,
+   "phrases": [
+    "entall og flertall engelsk",
+    "entall og flertall på engelsk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rounding",
+   "topic": "excel",
+   "stem": "excel",
+   "demand": 19,
+   "phrases": [
+    "avrunding excel",
+    "avrunding i excel"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pronouns",
+   "topic": "spansk",
+   "stem": "spansk",
+   "demand": 19,
+   "phrases": [
+    "personlige pronomen spansk",
+    "personlige pronomen på spansk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pronouns",
+   "topic": "akkusativ tysk",
+   "stem": "akkusativ tysk",
+   "demand": 19,
+   "phrases": [
+    "personlige pronomen akkusativ tysk",
+    "personlige pronomen tysk akkusativ"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "spelling-rules",
+   "topic": "rettskrivning",
+   "stem": "rettskrivning",
+   "demand": 19,
+   "phrases": [
+    "rettskriving rettskrivning",
+    "rettskriving vs rettskrivning"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "klasse",
+   "stem": "klass",
+   "demand": 18,
+   "phrases": [
+    "tallinje 1.klasse",
+    "tallinje 3 klasse",
+    "tallinje 2 klasse"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "kryssord",
+   "stem": "kryssord",
+   "demand": 18,
+   "phrases": [
+    "brøk kryssord",
+    "brøk i kryssord"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 18,
+   "phrases": [
+    "brøk engelsk",
+    "brøk på engelsk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "nevner teller",
+   "stem": "nevn tell",
+   "demand": 18,
+   "phrases": [
+    "brøk nevner og teller",
+    "brøk nevner teller",
+    "brøk teller og nevner"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "desimaltall",
+   "stem": "desimaltall",
+   "demand": 18,
+   "phrases": [
+    "brøk og desimaltall",
+    "brøk om til desimaltall",
+    "brøk til desimaltall"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 18,
+   "phrases": [
+    "ordenstall engelsk",
+    "ordenstall på engelsk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "kuralı",
+   "stem": "kuralı",
+   "demand": 18,
+   "phrases": [
+    "geometri m kuralı",
+    "geometri u kuralı",
+    "geometri x kuralı",
+    "geometri z kuralı"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "støttestrømper",
+   "stem": "støttestrømp",
+   "demand": 18,
+   "phrases": [
+    "måling støttestrømper",
+    "måling til støttestrømper"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "sverige valg",
+   "stem": "sverig valg",
+   "demand": 18,
+   "phrases": [
+    "måling sverige valg",
+    "måling valg sverige"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "dot-to-dot",
+   "topic": "jul",
+   "stem": "jul",
+   "demand": 18,
+   "phrases": [
+    "prikk til prikk jul",
+    "prikk til prikk oppgaver jul"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "eksempler",
+   "stem": "eksempl",
+   "demand": 18,
+   "phrases": [
+    "ordklasser eksempler",
+    "ordklasser med eksempler"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rounding",
+   "topic": "python",
+   "stem": "pytho",
+   "demand": 18,
+   "phrases": [
+    "avrunding i python",
+    "avrunding python"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "2d-shapes",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 18,
+   "phrases": [
+    "geometriske figurer engelsk",
+    "geometriske figurer på engelsk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "opposites",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 18,
+   "phrases": [
+    "motsetninger engelsk",
+    "motsetninger på engelsk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "vagg",
+   "stem": "vagg",
+   "demand": 17,
+   "phrases": [
+    "tallinje vägg",
+    "tallinje 0 100 vägg"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "spansk",
+   "stem": "spansk",
+   "demand": 17,
+   "phrases": [
+    "ordenstall på spansk",
+    "ordenstall spansk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "dot-to-dot",
+   "topic": "tall",
+   "stem": "tall",
+   "demand": 17,
+   "phrases": [
+    "prikk til prikk med tall",
+    "prikk til prikk tall"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "multiplication-tables",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 17,
+   "phrases": [
+    "gangetabellen engelsk",
+    "gangetabellen på engelsk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rounding",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 17,
+   "phrases": [
+    "avrunding engelsk",
+    "avrunding på engelsk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "syllable-reading",
+   "topic": "engelsk",
+   "stem": "engelsk",
+   "demand": 17,
+   "phrases": [
+    "lydrette ord engelsk",
+    "lydrette ord på engelsk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "syllable-reading",
+   "topic": "tre bogstaver",
+   "stem": "tre bogstav",
+   "demand": 17,
+   "phrases": [
+    "lydrette ord på tre bogstaver",
+    "lydrette ord tre bogstaver"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pronouns",
+   "topic": "tysk",
+   "stem": "tysk",
+   "demand": 17,
+   "phrases": [
+    "personlige pronomen tysk",
+    "personlige pronomen på tysk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "2d-shapes",
+   "topic": "formler",
+   "stem": "forml",
+   "demand": 17,
+   "phrases": [
+    "geometriske figurer formler",
+    "geometriske figurer og formler"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "spelling-rules",
+   "topic": "grammatikk",
+   "stem": "grammatikk",
+   "demand": 17,
+   "phrases": [
+    "rettskriving grammatikk",
+    "rettskriving og grammatikk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "ulik nevner",
+   "stem": "ulik nevn",
+   "demand": 16,
+   "phrases": [
+    "brøk med ulik nevner",
+    "brøk ulik nevner"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "prosent",
+   "stem": "prosent",
+   "demand": 16,
+   "phrases": [
+    "brøk og prosent",
+    "brøk til prosent"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "tegn",
+   "stem": "tegn",
+   "demand": 16,
+   "phrases": [
+    "brøk tegn",
+    "brøk tegn i word"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "fransk",
+   "stem": "fransk",
+   "demand": 16,
+   "phrases": [
+    "ordenstall fransk",
+    "ordenstall på fransk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "blodtrykk",
+   "stem": "blodtrykk",
+   "demand": 16,
+   "phrases": [
+    "måling av blodtrykk",
+    "måling blodtrykk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  }
+ ],
+ "covered": 70
+}

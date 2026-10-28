@@ -1,0 +1,281 @@
+{
+ "_note": "Level Set hub pages (build-level-set-hubs.js). decks are recomputed on every run; copy, slug and exclude are kept.",
+ "hubs": [
+  {
+   "slug": "mala-efter-siffror-katt",
+   "type": "color-by-number",
+   "topic": "katt",
+   "kind": "theme",
+   "phrases": [
+    "måla efter siffror katt"
+   ],
+   "demand": 10,
+   "decks": [
+    {
+     "slug": "mala-efter-siffror-latt-k393-21-catgarden",
+     "title": "Måla efter nummer: Katt i trädgården",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "mala-efter-siffror-latt-k393-45-nightcat",
+     "title": "Måla efter nummer: Katt på natten",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "mala-efter-siffror-k394-2-cat",
+     "title": "Måla efter nummer: Katt",
+     "level": "core",
+     "bw": false
+    }
+   ],
+   "deckTotal": 3,
+   "exclude": [],
+   "h1": "Måla efter siffror: katt",
+   "title": "Måla efter siffror katt – tre katter att måla",
+   "metaDescription": "Måla efter siffror med katter: katt i trädgården, katt på natten och en stor kattbild, på lätt nivå och mellannivå. Tre arbetsblad med skärmversion.",
+   "p1": "När man målar efter siffror har varje fält i bilden en siffra, och färgnyckeln visar vilken färg som hör till vilken siffra. Barnet letar upp siffran i nyckeln och målar fältet i rätt färg, och bit för bit växer bilden fram. På de här arbetsbladen är det katter som står i centrum: en katt i trädgården, en katt på natten och en stor kattbild.",
+   "p2": "Samlingen består av tre arbetsblad med var sin bild. Katten i trädgården och katten på natten är på den lätta nivån, med stora fält och tre till fem färger, så att även yngre barn håller ordning på nyckeln. Den stora kattbilden är på mellannivån, med fem till sju färger och fler fält att måla. Till varje blad finns också en skärmversion där barnet trycker på ett fält för att färga det, vilket passar bra på en surfplatta eller en interaktiv tavla.",
+   "p3": "Arbetsbladen passar i förskoleklass och årskurs 1, när barnen lär sig känna igen siffror och färger. Peka gärna på varje siffra i nyckeln och säg färgen högt tillsammans innan barnet börjar måla. Börja med de två lätta bladen och gå sedan vidare till mellannivån. Bladen fungerar som en lugn uppgift i slutet av dagen eller för barn som är klara med sitt arbete, och en färdig katt blir en fin bild att ta med hem."
+  },
+  {
+   "slug": "rita-steg-for-steg-panda",
+   "type": "how-to-draw",
+   "topic": "panda",
+   "kind": "theme",
+   "phrases": [
+    "rita steg för steg panda"
+   ],
+   "demand": 9,
+   "decks": [
+    {
+     "slug": "rita-steg-for-steg-latt-k396-6",
+     "title": "Hur man ritar en panda steg för steg",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "rita-steg-for-steg-latt-k401-6",
+     "title": "Rita en panda av enkla former",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "rita-steg-for-steg-latt-k404-7",
+     "title": "Rita en panda och skriv ordet",
+     "level": "easy",
+     "bw": false
+    }
+   ],
+   "deckTotal": 3,
+   "exclude": [],
+   "h1": "Rita steg för steg: panda",
+   "title": "Rita steg för steg panda – för barn (PDF)",
+   "metaDescription": "Rita en panda steg för steg: följ stegen, bygg pandan av enkla former eller rita och skriv ordet. Tre lätta arbetsblad för förskoleklass och åk 1.",
+   "p1": "En panda är en tacksam första teckning: den är rund, svart och vit och känns igen direkt. På de här arbetsbladen lär sig barnen rita en panda steg för steg. Varje steg visar tydligt vilka linjer som är nya, så att barnet ser exakt vad som ska läggas till, och efter några steg sitter pandan där på papperet.",
+   "p2": "Samlingen består av tre arbetsblad, alla på den lätta nivån. På bladet hur man ritar en panda steg för steg följer barnet stegen ett i taget. På bladet rita en panda av enkla former byggs pandan upp av cirklar och ovaler, vilket visar att en teckning består av enkla former. På bladet rita en panda och skriv ordet ritar barnet pandan och skriver sedan ordet panda, så att teckningen blir en liten skrivövning.",
+   "p3": "Arbetsbladen passar i förskoleklass och årskurs 1. Att rita steg för steg tränar noggrant seende, formuppfattning och pennkontroll, och många barn som tror att de inte kan rita blir överraskade av vad de klarar när stegen är tydliga. Låt barnen färglägga pandan när den är klar, eller rita en bambuskog runt den. Teckningen kan också bli en skrivuppgift: rita pandan och skriv en mening om den. Spara gärna teckningarna."
+  },
+  {
+   "slug": "rita-steg-for-steg-glass",
+   "type": "how-to-draw",
+   "topic": "glass",
+   "kind": "theme",
+   "phrases": [
+    "rita steg för steg glass"
+   ],
+   "demand": 8,
+   "decks": [
+    {
+     "slug": "rita-steg-for-steg-k396-21",
+     "title": "Hur man ritar en glassbägare steg för steg",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "rita-steg-for-steg-k402-12",
+     "title": "Rita över en glassbägare, rita sedan själv",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "rita-steg-for-steg-svar-g1419-13",
+     "title": "Rita steg för steg: en glassbil",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "rita-steg-for-steg-svar-k396-29",
+     "title": "Hur man ritar en glassbil steg för steg",
+     "level": "hard",
+     "bw": false
+    }
+   ],
+   "deckTotal": 4,
+   "exclude": [],
+   "h1": "Rita steg för steg: glass",
+   "title": "Rita steg för steg glass – glassbägare och glassbil",
+   "metaDescription": "Rita glass steg för steg: en glassbägare och en glassbil, rita över och sedan själv, och kopiera varje steg, på mellannivå och svår nivå. Fyra blad.",
+   "p1": "Glass gör alla glada, och den går att rita steg för steg. På de här arbetsbladen lär sig barnen rita en glassbägare och en glassbil. Varje steg visar tydligt vilka linjer som är nya, så att barnet ser exakt vad som ska läggas till, och till slut står en glassbägare eller en hel glassbil färdig på papperet.",
+   "p2": "Samlingen består av fyra arbetsblad. På mellannivån finns hur man ritar en glassbägare steg för steg och ett blad där barnet först ritar över glassbägaren och sedan ritar den själv. På den svåra nivån finns glassbilen: dels hur man ritar en glassbil steg för steg, dels ett blad där barnet kopierar varje steg. Glassbilen har fler detaljer och kräver mer noggrannhet än bägaren, så det är naturligt att börja med bägaren.",
+   "p3": "Arbetsbladen passar i årskurs 1 och 2 och för yngre barn som tycker om att rita. Att rita steg för steg tränar noggrant seende och pennkontroll, och barnen märker hur en teckning byggs upp av enkla linjer. När teckningen är klar kan barnen färglägga glassen i sina favoritfärger. Bladen passar fint till ett sommartema eller som en lugn uppgift innan sommarlovet, och de kan bli en skrivuppgift: vilken glass skulle du köpa från glassbilen?"
+  },
+  {
+   "slug": "rita-steg-for-steg-snogubbe",
+   "type": "how-to-draw",
+   "topic": "snogubbe",
+   "kind": "theme",
+   "phrases": [
+    "rita steg för steg snögubbe"
+   ],
+   "demand": 7,
+   "decks": [
+    {
+     "slug": "rita-steg-for-steg-latt-g1418-7",
+     "title": "Ordna stegen: rita en snögubbe",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "rita-steg-for-steg-latt-g2391-2",
+     "title": "Rita en snögubbe ur minnet",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "rita-steg-for-steg-latt-k396-7",
+     "title": "Hur man ritar en snögubbe steg för steg",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "rita-steg-for-steg-svar-k403-17",
+     "title": "Gör färdigt teckningen av en snögubbe",
+     "level": "hard",
+     "bw": false
+    }
+   ],
+   "deckTotal": 4,
+   "exclude": [],
+   "h1": "Rita steg för steg: snögubbe",
+   "title": "Rita steg för steg snögubbe – för barn (PDF)",
+   "metaDescription": "Rita en snögubbe steg för steg: ordna stegen, rita ur minnet, steg för steg och gör färdigt teckningen. Fyra arbetsblad för förskoleklass till åk 2.",
+   "p1": "En snögubbe är en av de enklaste figurerna att börja rita med: tre cirklar, en morotsnäsa och en hatt. På de här arbetsbladen ritar barnen en snögubbe steg för steg, och varje steg visar tydligt vilka linjer som är nya. Bladen erbjuder flera olika sätt att arbeta med samma teckning.",
+   "p2": "Samlingen består av fyra arbetsblad. Tre är på den lätta nivån: hur man ritar en snögubbe steg för steg, där barnet följer stegen ett i taget; ordna stegen, där barnet först lägger stegen i rätt ordning och sedan ritar; och rita en snögubbe ur minnet, där barnet tittar på stegen, vänder bladet och ritar själv. Det fjärde bladet är på den svåra nivån: gör färdigt teckningen, där en del av snögubben redan finns och barnet ritar resten.",
+   "p3": "Arbetsbladen passar i förskoleklass och årskurs 1 och 2 och fungerar fint under vintern. Att ordna stegen tränar logiskt tänkande, och att rita ur minnet tränar visuellt minne, två förmågor som också behövs i läsning och skrivning. Låt barnen färglägga snögubben och rita ett vinterlandskap runt den. En färdig snögubbe blir en fin bild att sätta upp i klassrummet under vintermånaderna, eller att skriva en kort berättelse till. Spara gärna teckningarna i en mapp."
+  },
+  {
+   "slug": "las-och-mala-jul",
+   "type": "read-and-color",
+   "topic": "jul",
+   "kind": "theme",
+   "phrases": [
+    "läs och måla jul"
+   ],
+   "demand": 6,
+   "decks": [
+    {
+     "slug": "las-och-mala-latt-jul-s-v-2-g1242-2",
+     "title": "Läs och måla — Jul S/V 2",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "las-och-mala-latt-jul-s-v-g1242",
+     "title": "Läs och måla — Jul S/V",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "las-och-mala-latt-jul-s-v-g1251",
+     "title": "Läs och måla: fyra meningar — Jul S/V",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "las-och-mala-jul-s-v-2-g1242-49",
+     "title": "Läs och måla — Jul S/V 2",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "las-och-mala-jul-s-v-g1242-48",
+     "title": "Läs och måla — Jul S/V",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "las-och-mala-jul-s-v-g1251-4",
+     "title": "Läs och måla: fyra meningar — Jul S/V",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "las-och-mala-svar-jul-s-v-2-g1242-90",
+     "title": "Läs och måla — Jul S/V 2",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "las-och-mala-svar-jul-s-v-g1242-89",
+     "title": "Läs och måla — Jul S/V",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "las-och-mala-svar-jul-s-v-g1252-4",
+     "title": "Läs och måla: sex meningar — Jul S/V",
+     "level": "hard",
+     "bw": true
+    }
+   ],
+   "deckTotal": 9,
+   "exclude": [],
+   "h1": "Läs och måla: jul",
+   "title": "Läs och måla jul – åk 1 och 2 (PDF)",
+   "metaDescription": "Läs och måla med jultema: läs meningarna, räkna bilderna och måla i rätt färg. Nio svartvita arbetsblad i tre nivåer för årskurs 1 och 2.",
+   "p1": "På ett läs och måla-blad säger en kort mening exakt vad som ska målas, till exempel hur många stjärnor som ska bli gula. Barnet läser meningen, räknar fram rätt bilder och målar dem i rätt färg. Så blir målandet en riktig läsuppgift: den som läser för snabbt eller räknar fel målar fel bild. Bilderna har julmotiv: julgranar, paket, ljus och klockor.",
+   "p2": "Samlingen består av nio svartvita arbetsblad i tre nivåer. Nivåerna ändrar läsmängden: på den lätta nivån finns färre bilder och mindre tal; på den svåra nivån större tal, och mellan bilderna som ska målas finns också andra saker som inte ska målas. Dessutom finns blad med fyra meningar och med sex meningar till en stor bild, där barnet måste hålla isär flera uppdrag.",
+   "p3": "Den lätta nivån passar i årskurs 1, när barnen läser korta meningar på egen hand. Den svåra nivån passar i årskurs 2 och kräver noggrann läsning och räkning på samma gång. Bladen är en lugn uppgift för stationer eller veckoplanering under december. Det syns direkt om barnet har läst noga: varje målad grupp ska stämma med meningen, både i antal och i färg. För osäkra läsare kan ni läsa meningarna tillsammans först. Det färdiga bladet kan sättas upp."
+  },
+  {
+   "slug": "rita-steg-for-steg-pingvin",
+   "type": "how-to-draw",
+   "topic": "pingvin",
+   "kind": "theme",
+   "phrases": [
+    "rita steg för steg pingvin"
+   ],
+   "demand": 6,
+   "decks": [
+    {
+     "slug": "rita-steg-for-steg-latt-g2390-7",
+     "title": "Rita en pingvin och skriv några meningar om teckningen",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "rita-steg-for-steg-latt-k404-2",
+     "title": "Rita en pingvin och skriv ordet",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "rita-steg-for-steg-k396-15",
+     "title": "Hur man ritar en pingvin steg för steg",
+     "level": "core",
+     "bw": false
+    }
+   ],
+   "deckTotal": 3,
+   "exclude": [],
+   "h1": "Rita steg för steg: pingvin",
+   "title": "Rita steg för steg pingvin – för barn (PDF)",
+   "metaDescription": "Rita en pingvin steg för steg: steg för steg, rita och skriv ordet och rita och skriv några meningar. Tre arbetsblad för förskoleklass till åk 2.",
+   "p1": "En pingvin är rolig att rita: en rund kropp, små vingar, en näbb och två fötter. På de här arbetsbladen lär sig barnen rita en pingvin steg för steg, och varje steg visar tydligt vilka linjer som är nya. Bladen kopplar dessutom ihop teckningen med skrivande, så att bilden blir en start för både ord och meningar.",
+   "p2": "Samlingen består av tre arbetsblad. På mellannivån finns hur man ritar en pingvin steg för steg, där barnet följer stegen ett i taget. På den lätta nivån finns två blad som kombinerar teckning och skrivande: rita en pingvin och skriv ordet, där barnet ritar och sedan skriver ordet pingvin, och rita en pingvin och skriv några meningar om teckningen, där barnet berättar om sin pingvin i några korta meningar.",
+   "p3": "Arbetsbladen passar i förskoleklass och årskurs 1 och 2, och de passar fint till ett tema om vinter, djur eller Antarktis. Att rita steg för steg tränar noggrant seende och pennkontroll, och att skriva till teckningen ger en naturlig anledning att skriva. Prata gärna om pingviner innan barnen börjar: var bor de, vad äter de, kan de flyga? Då har barnen mer att skriva om när teckningen är klar. Läs gärna en faktabok om pingviner tillsammans."
+  }
+ ]
+}

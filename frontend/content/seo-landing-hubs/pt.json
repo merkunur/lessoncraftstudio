@@ -1,0 +1,49 @@
+{
+ "_note": "Level Set hub pages (build-level-set-hubs.js). decks are recomputed on every run; copy, slug and exclude are kept.",
+ "hubs": [
+  {
+   "slug": "como-desenhar-vaca",
+   "type": "how-to-draw",
+   "topic": "vaca",
+   "kind": "theme",
+   "phrases": [
+    "como desenhar vaca"
+   ],
+   "demand": 10,
+   "decks": [
+    {
+     "slug": "como-desenhar-facil-g2391-7",
+     "title": "Desenhe uma vaca de memória",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "como-desenhar-facil-k396-4",
+     "title": "Como desenhar uma vaca passo a passo",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "como-desenhar-facil-k401-4",
+     "title": "Desenhe uma vaca com formas simples",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "como-desenhar-k404-9",
+     "title": "Desenhe uma vaca e escreva a palavra",
+     "level": "core",
+     "bw": false
+    }
+   ],
+   "deckTotal": 4,
+   "exclude": [],
+   "h1": "Como desenhar uma vaca",
+   "title": "Como desenhar vaca passo a passo – para crianças",
+   "metaDescription": "Como desenhar uma vaca: passo a passo, com formas simples, de memória e desenhe e escreva a palavra. Quatro atividades para educação infantil e 1º ano.",
+   "p1": "A vaca é um desenho que as crianças adoram: tem manchas, chifres, um focinho grande e um rabo. Nestas atividades, as crianças aprendem a desenhar uma vaca passo a passo. Cada passo mostra com clareza quais linhas são novas, para que a criança veja exatamente o que acrescentar, e depois de alguns passos a vaca aparece inteira no papel.",
+   "p2": "A coleção tem quatro atividades. Três estão no nível fácil: como desenhar uma vaca passo a passo, em que a criança segue os passos um a um; desenhe uma vaca com formas simples, em que a vaca é construída com círculos, ovais e retângulos; e desenhe uma vaca de memória, em que a criança observa os passos, vira a folha e desenha sozinha. A quarta está no nível intermediário: desenhe uma vaca e escreva a palavra, que junta o desenho e a escrita da palavra vaca.",
+   "p3": "As atividades são indicadas para a educação infantil e o 1º ano do ensino fundamental. Desenhar passo a passo treina a observação cuidadosa, a noção de forma e o controle do lápis, e muitas crianças que acham que não sabem desenhar se surpreendem com o resultado quando os passos são claros. Depois, a criança pode colorir a vaca e desenhar o pasto e a fazenda em volta. As atividades combinam bem com um projeto sobre os animais da fazenda."
+  }
+ ]
+}

@@ -1,0 +1,1899 @@
+{
+ "locale": "pt",
+ "harvested": 1971,
+ "clusters": 5040,
+ "candidates": [
+  {
+   "type": "reading-comprehension",
+   "topic": "quinto",
+   "stem": "quint",
+   "demand": 12,
+   "phrases": [
+    "interpretação de texto quinto ano",
+    "interpretação de texto quinto ano fundamental"
+   ],
+   "phraseCount": 2,
+   "supply": 3,
+   "supplySample": [
+    "interpretacao-de-texto-facil-g2271-9 — Interpretação: O acampamento no quintal",
+    "interpretacao-de-texto-g2271-3 — Interpretação: O acampamento no quintal",
+    "interpretacao-de-texto-dificil-g2271-14 — Interpretação: O acampamento no quintal"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "aula",
+   "stem": "aula",
+   "demand": 10,
+   "phrases": [
+    "frações video aula"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "fracoes-sala-de-aula-2-p-b-g2233-6 — Reparta o conjunto — Sala de aula 2 (P&B)"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "carro",
+   "stem": "carro",
+   "demand": 10,
+   "phrases": [
+    "como desenhar um carro",
+    "como desenhar carro"
+   ],
+   "phraseCount": 2,
+   "supply": 2,
+   "supplySample": [
+    "como-desenhar-dificil-k396-26 — Como desenhar um carro de polícia passo a passo",
+    "como-desenhar-dificil-k403-14 — Complete o desenho de um carro de polícia"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "estrela",
+   "stem": "estrel",
+   "demand": 10,
+   "phrases": [
+    "como desenhar estrela"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "como-desenhar-facil-k402-6 — Cubra uma estrela-do-mar passo a passo"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "vaca",
+   "stem": "vaca",
+   "demand": 10,
+   "phrases": [
+    "como desenhar vaca"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "como-desenhar-facil-k401-4 — Desenhe uma vaca com formas simples",
+    "como-desenhar-k404-9 — Desenhe uma vaca e escreva a palavra",
+    "como-desenhar-facil-g2391-7 — Desenhe uma vaca de memória",
+    "como-desenhar-facil-k396-4 — Como desenhar uma vaca passo a passo"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "syllable-split",
+   "topic": "flor",
+   "stem": "flor",
+   "demand": 10,
+   "phrases": [
+    "separação de silabas flor"
+   ],
+   "phraseCount": 1,
+   "supply": 7,
+   "supplySample": [
+    "separacao-de-silabas-flores-g1305-6 — Separação de sílabas: bata palmas e marque — Flores",
+    "separacao-de-silabas-facil-flores-g1305-3 — Separação de sílabas: bata palmas e marque — Flores",
+    "separacao-de-silabas-facil-flores-g1326-4 — Qual sílaba está faltando? — Flores",
+    "separacao-de-silabas-flores-g1327-4 — Sílabas embaralhadas: monte a palavra — Flores"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "que",
+   "stem": "que",
+   "demand": 9,
+   "phrases": [
+    "frações o que é"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "fracoes-coisas-que-voam-g2233-5 — Reparta o conjunto — Coisas que voam",
+    "fracoes-facil-coisas-que-voam-g3320 — Fração do grupo — Coisas que voam"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "boneca",
+   "stem": "bonec",
+   "demand": 9,
+   "phrases": [
+    "como desenhar boneca"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "como-desenhar-facil-g1418-7 — Coloque os passos em ordem e desenhe um boneco de neve",
+    "como-desenhar-facil-k396-7 — Como desenhar um boneco de neve passo a passo",
+    "como-desenhar-dificil-k403-17 — Complete o desenho de um boneco de neve",
+    "como-desenhar-facil-g2391-2 — Desenhe um boneco de neve de memória"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "leao",
+   "stem": "leao",
+   "demand": 9,
+   "phrases": [
+    "como desenhar leão"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "como-desenhar-g1416-10 — Desenhe um leão com a ajuda da grade",
+    "como-desenhar-dificil-g1418-16 — Coloque os passos em ordem e desenhe um leão"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "tartaruga",
+   "stem": "tartarug",
+   "demand": 9,
+   "phrases": [
+    "como desenhar tartaruga"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "como-desenhar-dificil-g1418-13 — Coloque os passos em ordem e desenhe uma tartaruga",
+    "como-desenhar-k396-14 — Como desenhar uma tartaruga passo a passo"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "que",
+   "stem": "que",
+   "demand": 9,
+   "phrases": [
+    "geometria o que é"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "geometria-facil-coisas-que-voam-g2247 — Eixo de simetria? — Coisas que voam",
+    "geometria-dificil-coisas-que-voam-g2247-4 — Eixo de simetria? — Coisas que voam"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "alphabetical-order",
+   "topic": "que",
+   "stem": "que",
+   "demand": 9,
+   "phrases": [
+    "ordem alfabética o que é"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "ordem-alfabetica-facil-coisas-que-voam-g1262-3 — Ordem alfabética: só numere — Coisas que voam",
+    "ordem-alfabetica-coisas-que-voam-g1263-3 — Ordem alfabética: numere e copie — Coisas que voam"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "alphabetical-order",
+   "topic": "music",
+   "stem": "music",
+   "demand": 9,
+   "phrases": [
+    "ordem alfabética youtube music"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "ordem-alfabetica-facil-musica-g1263 — Ordem alfabética: numere e copie — Música"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-tracing",
+   "topic": "dinossauro",
+   "stem": "dinossaur",
+   "demand": 8,
+   "phrases": [
+    "desenhos pontilhados dinossauro"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "desenhos-pontilhados-k423-10 — O vale dos dinossauros"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "galinha",
+   "stem": "galinh",
+   "demand": 8,
+   "phrases": [
+    "como desenhar galinha"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "como-desenhar-facil-k404-5 — Desenhe uma galinha e escreva a palavra"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "tubarao",
+   "stem": "tubara",
+   "demand": 8,
+   "phrases": [
+    "como desenhar tubarão"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "como-desenhar-facil-k404-6 — Desenhe um tubarão e escreva a palavra"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-tracing",
+   "topic": "fazer",
+   "stem": "fazer",
+   "demand": 7,
+   "phrases": [
+    "desenhos pontilhados para fazer"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "desenhos-pontilhados-facil-k429-2 — Dia de fazer biscoitos"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "musica",
+   "stem": "music",
+   "demand": 6,
+   "phrases": [
+    "numeros ordinais musica"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "numeros-ordinais-facil-musica-g1315-4 — Escreva os números ordinais que faltam — Música",
+    "numeros-ordinais-facil-musica-k320-31 — Números ordinais: encontre o lugar — Música",
+    "numeros-ordinais-musica-k320-80 — Números ordinais: encontre o lugar — Música",
+    "numeros-ordinais-dificil-musica-k320-130 — Números ordinais: encontre o lugar — Música"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "macaco",
+   "stem": "macac",
+   "demand": 5,
+   "phrases": [
+    "como desenhar macaco"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "como-desenhar-dificil-k396-30 — Como desenhar um macaco passo a passo",
+    "como-desenhar-dificil-k404-13 — Desenhe um macaco e escreva a palavra"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "tigre",
+   "stem": "tigre",
+   "demand": 4,
+   "phrases": [
+    "como desenhar tigre"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "como-desenhar-dificil-g2390-15 — Desenhe um tigre e escreva sobre o seu desenho",
+    "como-desenhar-dificil-k401-13 — Desenhe um tigre com formas simples"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "girafa",
+   "stem": "giraf",
+   "demand": 3,
+   "phrases": [
+    "como desenhar girafa"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "como-desenhar-dificil-g2391-15 — Desenhe uma girafa de memória",
+    "como-desenhar-dificil-k404-18 — Desenhe uma girafa e escreva a palavra"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "livro",
+   "stem": "livro",
+   "demand": 3,
+   "phrases": [
+    "interpretação de texto livro"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "interpretacao-de-texto-facil-g2270-8 — Interpretação: O livro da biblioteca",
+    "interpretacao-de-texto-g2270-2 — Interpretação: O livro da biblioteca",
+    "interpretacao-de-texto-dificil-g2270-13 — Interpretação: O livro da biblioteca"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "rato",
+   "stem": "rato",
+   "demand": 2,
+   "phrases": [
+    "como desenhar rato"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "como-desenhar-facil-g1416-6 — Desenhe um rato com a ajuda da grade",
+    "como-desenhar-dificil-g1418-14 — Coloque os passos em ordem e desenhe um rato"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "sorvete",
+   "stem": "sorvet",
+   "demand": 2,
+   "phrases": [
+    "como desenhar sorvete"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "como-desenhar-dificil-g1419-13 — Copie cada passo e desenhe um caminhão de sorvete",
+    "como-desenhar-k396-21 — Como desenhar uma taça de sorvete passo a passo",
+    "como-desenhar-dificil-k396-29 — Como desenhar um caminhão de sorvete passo a passo",
+    "como-desenhar-k402-12 — Cubra uma taça de sorvete e depois desenhe sozinho"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "bolo",
+   "stem": "bolo",
+   "demand": 1,
+   "phrases": [
+    "como desenhar bolo"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "como-desenhar-facil-g1417-7 — Desenhe um bolo na cena"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "moto",
+   "stem": "moto",
+   "demand": 1,
+   "phrases": [
+    "como desenhar moto"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "como-desenhar-facil-g1416-2 — Desenhe um motorhome com a ajuda da grade"
+   ],
+   "covered": false,
+   "coveredBy": null
+  }
+ ],
+ "contentIdeas": [
+  {
+   "type": "ordinal-numbers",
+   "topic": "ingles",
+   "stem": "ingl",
+   "demand": 79,
+   "phrases": [
+    "números ordinais em inglês",
+    "números ordinais em inglês do 1 ao 100",
+    "números ordinais em inglês do 1 ao 30",
+    "números ordinais em inglês de 1 a 1000",
+    "números ordinais de 1 a 100 em inglês",
+    "números ordinais de 1 a 20 em inglês"
+   ],
+   "phraseCount": 15,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "logic-puzzles",
+   "topic": "matematico",
+   "stem": "matematic",
+   "demand": 72,
+   "phrases": [
+    "raciocínio lógico matemático",
+    "raciocínio lógico atividades de matemática 5 ano",
+    "raciocínio lógico de matemática",
+    "raciocínio lógico e matemática",
+    "raciocínio lógico matemático pdf",
+    "raciocínio lógico matemático exercícios"
+   ],
+   "phraseCount": 11,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "family",
+   "topic": "ingles",
+   "stem": "ingl",
+   "demand": 70,
+   "phrases": [
+    "membros da família em inglês",
+    "membros da família em inglês atividades",
+    "membros da família em inglês atividades para imprimir",
+    "membros da familia atividade em ingles",
+    "membros da família em inglês atividades 4 ano",
+    "membros da família inglês"
+   ],
+   "phraseCount": 13,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-tracing",
+   "topic": "ate",
+   "stem": "ate",
+   "demand": 62,
+   "phrases": [
+    "números pontilhados até 20",
+    "numeros pontilhados ate 10",
+    "numeros pontilhados ate 50",
+    "numeros pontilhados ate 30",
+    "numeros pontilhados ate 10 para imprimir",
+    "numeros pontilhados ate 20 para imprimir"
+   ],
+   "phraseCount": 10,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "fracao",
+   "stem": "fraca",
+   "demand": 61,
+   "phrases": [
+    "reta numérica com fração",
+    "reta numérica com fração exercícios",
+    "reta numérica com fração exercícios pdf",
+    "reta numérica de fração",
+    "reta numérica e fração",
+    "reta numerica fração"
+   ],
+   "phraseCount": 11,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "ate",
+   "stem": "ate",
+   "demand": 61,
+   "phrases": [
+    "números ordinais até 100",
+    "números ordinais até 10",
+    "números ordinais até 20",
+    "números ordinais até 1000",
+    "números ordinais até 50",
+    "números ordinais até 30"
+   ],
+   "phraseCount": 10,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "polegadas",
+   "stem": "polegada",
+   "demand": 57,
+   "phrases": [
+    "medidas em polegadas",
+    "medidas tv 65 polegadas",
+    "medidas tv 50 polegadas",
+    "medidas tv 55 polegadas",
+    "medidas tv 75 polegadas",
+    "medidas tv 32 polegadas"
+   ],
+   "phraseCount": 9,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "money",
+   "topic": "brasileiro",
+   "stem": "brasileir",
+   "demand": 56,
+   "phrases": [
+    "sistema monetário brasileiro",
+    "sistema monetário brasileiro 3 ano",
+    "sistema monetário brasileiro 4 ano",
+    "sistema monetário brasileiro 2 ano",
+    "sistema monetário brasileiro 5 ano",
+    "sistema monetário brasileiro 1 ano"
+   ],
+   "phraseCount": 11,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "letter-tracing",
+   "topic": "letra cursiva",
+   "stem": "letra cursiv",
+   "demand": 56,
+   "phrases": [
+    "alfabeto pontilhado de letra cursiva",
+    "alfabeto pontilhado em letra cursiva para imprimir",
+    "alfabeto pontilhado em letra cursiva",
+    "alfabeto pontilhado letra cursiva para imprimir",
+    "alfabeto pontilhado letra cursiva",
+    "alfabeto pontilhado letra cursiva pdf"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "iguais",
+   "stem": "iguai",
+   "demand": 55,
+   "phrases": [
+    "ver as horas iguais",
+    "ver as horas iguais 1616",
+    "ver as horas iguais 1313",
+    "ver as horas iguais 1212",
+    "ver as horas iguais 1717",
+    "ver as horas iguais 1111"
+   ],
+   "phraseCount": 10,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "synonyms",
+   "topic": "antonimos",
+   "stem": "antonimo",
+   "demand": 55,
+   "phrases": [
+    "sinônimos antônimos",
+    "sinônimos e antônimos",
+    "sinônimos e antônimos exercícios",
+    "sinônimos e antônimos exercícios 7 ano",
+    "sinônimos e antonimos 2 ano",
+    "sinônimos e antônimos 4 ano"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "syllable-reading",
+   "topic": "letra",
+   "stem": "letra",
+   "demand": 53,
+   "phrases": [
+    "familia silabica letra k",
+    "família silábica letra l",
+    "família silábica letra c",
+    "família silábica letra q",
+    "família silábica letra p",
+    "família silábica letra r"
+   ],
+   "phraseCount": 12,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "syllable-reading",
+   "topic": "cursiva",
+   "stem": "cursiv",
+   "demand": 50,
+   "phrases": [
+    "família silábica cursiva para imprimir",
+    "família silábica cursiva",
+    "família silábica cursiva pdf",
+    "familia silabica h cursiva",
+    "familia silabica j cursiva",
+    "familia silabica k cursiva"
+   ],
+   "phraseCount": 11,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "arrays-multiplication",
+   "topic": "wordwall",
+   "stem": "wordwall",
+   "demand": 49,
+   "phrases": [
+    "multiplicação wordwall",
+    "multiplicação wordwall 3 ano",
+    "multiplicação wordwall 4 ano",
+    "multiplicação wordwall 5 ano",
+    "multiplicação wordwall 2 ano",
+    "multiplicação wordwall 1 ano"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "wordwall",
+   "stem": "wordwall",
+   "demand": 48,
+   "phrases": [
+    "interpretação de texto wordwall",
+    "interpretação de texto wordwall 5 ano",
+    "interpretação de texto wordwall 4 ano",
+    "interpretação de texto wordwall 3 ano",
+    "interpretação de texto wordwall 2 ano",
+    "interpretação de texto wordwall 1 ano"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pronouns",
+   "topic": "obliquo",
+   "stem": "obliqu",
+   "demand": 46,
+   "phrases": [
+    "pronomes pessoais do caso reto e oblíquo",
+    "pronomes pessoais do caso reto e oblíquo 4 ano",
+    "pronomes pessoais do caso reto e oblíquo 5 ano",
+    "pronomes pessoais do caso reto e oblíquo 6 ano",
+    "pronomes pessoais do caso reto e oblíquo exercícios",
+    "pronomes pessoais do caso reto e obliquo atividades 4 ano"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-problems",
+   "topic": "adicao subtracao",
+   "stem": "adica subtraca",
+   "demand": 45,
+   "phrases": [
+    "situações problema adição e subtração 3 ano",
+    "situações problema adição e subtração 2 ano",
+    "situações problema adição e subtração 4 ano",
+    "situações problema adição e subtração",
+    "situações problema adição e subtração 5 ano",
+    "situações problema de adição e subtração"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-bonds",
+   "topic": "decimais",
+   "stem": "decimai",
+   "demand": 43,
+   "phrases": [
+    "decomposição de números decimais",
+    "decomposição de números decimais 5 ano",
+    "decomposição de números decimais 2 ano",
+    "decomposição de numeros decimais 6 ano",
+    "decomposição de números decimais 5 ano pdf",
+    "decomposição de numeros decimais 4 ano"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "folclore",
+   "stem": "folclor",
+   "demand": 43,
+   "phrases": [
+    "interpretação de texto folclore 3 ano",
+    "interpretação de texto folclore",
+    "interpretação de texto folclore 1 ano",
+    "interpretação de texto folclore 2 ano",
+    "interpretação de texto folclore 5 ano",
+    "interpretação de texto folclore 4 ano"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "setembro",
+   "stem": "setembr",
+   "demand": 42,
+   "phrases": [
+    "calendário setembro 2026",
+    "calendário de setembro de 2026",
+    "calendário setembro",
+    "calendário setembro 2026 para imprimir",
+    "calendário setembro 2025",
+    "calendário setembro 26"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "rolamento",
+   "stem": "rolament",
+   "demand": 41,
+   "phrases": [
+    "medidas rolamento 6202",
+    "medidas rolamento 6205",
+    "medidas rolamento 6204",
+    "medidas rolamento 6203",
+    "medidas rolamento 6206",
+    "medidas rolamento 6004"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "multiplication-tables",
+   "topic": "ate",
+   "stem": "ate",
+   "demand": 41,
+   "phrases": [
+    "tabuada até o 10",
+    "tabuada até o 20",
+    "tabuada até o 100",
+    "tabuada até o 30",
+    "tabuada até o 12",
+    "tabuada até o 15"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "2d-shapes",
+   "topic": "lados",
+   "stem": "lados",
+   "demand": 41,
+   "phrases": [
+    "figuras geométricas planas com 7 lados",
+    "figuras geométricas planas de 4 lados",
+    "figuras geométricas planas de 6 lados",
+    "figuras geométricas planas de 3 lados",
+    "figuras geométricas planas lados",
+    "figuras geométricas planas 5 lados"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "money",
+   "topic": "wordwall",
+   "stem": "wordwall",
+   "demand": 40,
+   "phrases": [
+    "sistema monetário wordwall",
+    "sistema monetário wordwall 3 ano",
+    "sistema monetário wordwall 2 ano",
+    "sistema monetario wordwall 1 ano",
+    "sistema monetario wordwall 4 ano"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "historia quadrinhos",
+   "stem": "histori quadrinho",
+   "demand": 38,
+   "phrases": [
+    "interpretação de texto história em quadrinhos 3 ano",
+    "interpretação de texto história em quadrinhos 2 ano",
+    "interpretação de texto história em quadrinhos 4 ano",
+    "interpretação de texto historia em quadrinhos 5 ano",
+    "interpretação de texto história em quadrinhos",
+    "interpretação de texto história em quadrinhos 6 ano"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "outubro",
+   "stem": "outubr",
+   "demand": 38,
+   "phrases": [
+    "calendário outubro 2026",
+    "calendário de outubro de 2026",
+    "calendário outubro",
+    "calendário outubro 2026 para imprimir",
+    "calendário outubro 2025",
+    "calendário outubro 2027"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "bncc",
+   "stem": "bncc",
+   "demand": 37,
+   "phrases": [
+    "numeros ordinais bncc",
+    "numeros ordinais bncc 2 ano",
+    "numeros ordinais bncc 1 ano",
+    "numeros ordinais bncc 3 ano",
+    "numeros ordinais bncc 4 ano"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "unitarias",
+   "stem": "unitaria",
+   "demand": 36,
+   "phrases": [
+    "frações unitárias",
+    "frações unitarias 4 ano",
+    "frações unitárias 4o ano atividades",
+    "frações unitárias 4o ano",
+    "frações unitárias exercícios"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "que significa",
+   "stem": "que signific",
+   "demand": 36,
+   "phrases": [
+    "ver as horas 17 17 o que significa",
+    "ver as horas 11 11 o que significa",
+    "ver as horas 13 13 o que significa",
+    "ver as horas 14 14 o que significa",
+    "ver as horas 12 12 o que significa",
+    "ver as horas 10 10 o que significa"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "multiplication-tables",
+   "topic": "vezes",
+   "stem": "vezes",
+   "demand": 36,
+   "phrases": [
+    "tabuada vezes",
+    "tabuada vezes 2",
+    "tabuada vezes 4",
+    "tabuada vezes 3",
+    "tabuada vezes 5",
+    "tabuada vezes 8"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rounding",
+   "topic": "decimais",
+   "stem": "decimai",
+   "demand": 36,
+   "phrases": [
+    "arredondamento de números decimais",
+    "arredondamento de números decimais 6 ano",
+    "arredondamento de números decimais exercícios",
+    "arredondamento de números decimais 5 ano",
+    "arredondamento de números decimais exercícios pdf",
+    "arredondamento de números decimais exercícios 7 ano"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "all-about-me",
+   "topic": "jogo",
+   "stem": "jogo",
+   "demand": 36,
+   "phrases": [
+    "quem sou eu jogo",
+    "quem sou eu jogo online",
+    "quem sou eu jogo grátis",
+    "quem sou eu jogo online grátis",
+    "quem sou eu online jogo",
+    "quem sou eu o jogo"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "novembro",
+   "stem": "novembr",
+   "demand": 35,
+   "phrases": [
+    "calendário novembro 2026",
+    "calendário de novembro de 2026",
+    "calendário de novembro",
+    "calendário novembro",
+    "calendário novembro 2025",
+    "calendário novembro 2027"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-charts",
+   "topic": "completar",
+   "stem": "completar",
+   "demand": 34,
+   "phrases": [
+    "quadro numérico de 1 a 100 para completar",
+    "quadro numerico para completar",
+    "quadro numérico de 100 a 200 para completar",
+    "quadro numérico de 0 a 100 para completar",
+    "quadro numérico para completar",
+    "quadro numérico para completar de 100 a 200"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "dot-to-dot",
+   "topic": "rogerio vilela",
+   "stem": "rogeri vilel",
+   "demand": 34,
+   "phrases": [
+    "ligue os pontos rogério vilela pdf",
+    "ligue os pontos rogerio vilela",
+    "ligue os pontos rogério vilela pdf download",
+    "ligue os pontos rogério vilela download"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "concurso",
+   "stem": "concurs",
+   "demand": 34,
+   "phrases": [
+    "interpretação de texto concurso",
+    "interpretação de texto para concurso",
+    "interpretação de texto concurso youtube",
+    "interpretação de texto para concurso youtube"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "odd-and-even",
+   "topic": "bncc",
+   "stem": "bncc",
+   "demand": 34,
+   "phrases": [
+    "números pares e ímpares atividades 2o ano bncc",
+    "numeros pares e impares bncc",
+    "numeros pares e impares bncc 3 ano",
+    "numeros pares e impares 2 ano bncc"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "logic-puzzles",
+   "topic": "concurso",
+   "stem": "concurs",
+   "demand": 34,
+   "phrases": [
+    "raciocínio lógico para concurso",
+    "raciocínio lógico para concurso pdf",
+    "raciocínio lógico concurso",
+    "raciocínio lógico concurso pdf",
+    "raciocínio lógico para concurso pdf grátis",
+    "raciocínio lógico para concurso youtube"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "vacinal",
+   "stem": "vacinal",
+   "demand": 34,
+   "phrases": [
+    "calendário vacinal 2026",
+    "calendário vacinal infantil",
+    "calendário vacinal",
+    "calendário vacinal infantil 2026"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "numeros racionais",
+   "stem": "numero racionai",
+   "demand": 33,
+   "phrases": [
+    "reta numérica com números racionais exercícios",
+    "reta numérica com números racionais",
+    "reta numérica dos números racionais",
+    "reta numérica numeros racionais",
+    "reta numérica números racionais exercícios",
+    "reta numerica numeros racionais atividades"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-tracing",
+   "topic": "letra cursiva",
+   "stem": "letra cursiv",
+   "demand": 33,
+   "phrases": [
+    "palavras pontilhadas em letra cursiva para imprimir",
+    "palavras pontilhadas com letra cursiva",
+    "palavras pontilhadas em letra cursiva",
+    "palavras pontilhadas letra cursiva"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "significado",
+   "stem": "significad",
+   "demand": 33,
+   "phrases": [
+    "ver as horas 1010 significado",
+    "ver as horas 2121 significado",
+    "ver as horas 0000 significado",
+    "ver as horas 0808 significado",
+    "ver as horas 0909 significado",
+    "ver as horas 11 11 significado"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "multiplication-tables",
+   "topic": "wordwall",
+   "stem": "wordwall",
+   "demand": 33,
+   "phrases": [
+    "tabuada wordwall",
+    "tabuada wordwall 3 ano",
+    "tabuada wordwall 4 ano",
+    "tabuada wordwall 5 ano",
+    "tabuada wordwall 6 ano"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rounding",
+   "topic": "naturais",
+   "stem": "naturai",
+   "demand": 33,
+   "phrases": [
+    "arredondamento de números naturais",
+    "arredondamento de números naturais exercícios",
+    "arredondamento de números naturais 5 ano",
+    "arredondamento de números naturais 6 ano",
+    "arredondamento de numeros naturais 5o ano exercicios",
+    "arredondamento de números naturais 4 ano"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-problems",
+   "topic": "fracao",
+   "stem": "fraca",
+   "demand": 32,
+   "phrases": [
+    "situações problema com fração 5 ano",
+    "situações problema fração 5 ano",
+    "situações problema fração",
+    "situações problema com fração 6 ano"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "ingles",
+   "stem": "ingl",
+   "demand": 32,
+   "phrases": [
+    "interpretação de texto em inglês",
+    "interpretação de texto ingles",
+    "interpretação de texto ingles 7 ano",
+    "interpretação de texto ingles 8 ano",
+    "interpretação de texto ingles 6 ano"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "agosto",
+   "stem": "agost",
+   "demand": 32,
+   "phrases": [
+    "calendário agosto 2026",
+    "calendário agosto",
+    "calendário agosto 2026 para imprimir",
+    "calendário agosto 26",
+    "calendário de agosto de 2026"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "numeros decimais",
+   "stem": "numero decimai",
+   "demand": 31,
+   "phrases": [
+    "reta numérica com números decimais",
+    "reta numérica com números decimais exercícios",
+    "reta numérica com números decimais 5 ano",
+    "reta numérica de números decimais",
+    "reta numérica números decimais"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "cursive-writing",
+   "topic": "minuscula",
+   "stem": "minuscul",
+   "demand": 31,
+   "phrases": [
+    "letra cursiva minúscula",
+    "letra cursiva h minuscula",
+    "letra cursiva j minúscula",
+    "letra cursiva k minuscula",
+    "letra cursiva y minúscula",
+    "letra cursiva z minúscula"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "money",
+   "topic": "habilidade",
+   "stem": "habilidad",
+   "demand": 30,
+   "phrases": [
+    "sistema monetário habilidade 4 ano",
+    "sistema monetario habilidade 3 ano",
+    "sistema monetário habilidades",
+    "sistema monetario habilidade 5 ano",
+    "sistema monetario habilidade 2 ano"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-bonds",
+   "topic": "naturais",
+   "stem": "naturai",
+   "demand": 30,
+   "phrases": [
+    "decomposição de números naturais",
+    "decomposição de números naturais 2 ano",
+    "decomposição de números naturais 3 ano",
+    "decomposição de números naturais 5 ano",
+    "decomposição de numeros naturais 6 ano",
+    "decomposição de números naturais pdf"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "mental-math",
+   "topic": "wordwall",
+   "stem": "wordwall",
+   "demand": 30,
+   "phrases": [
+    "calculo mental en wordwall",
+    "cálculo mental wordwall",
+    "calculo mental wordwall 3 ano",
+    "calculo mental wordwall 5 ano"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "alphabetical-order",
+   "topic": "bncc",
+   "stem": "bncc",
+   "demand": 30,
+   "phrases": [
+    "ordem alfabética bncc",
+    "ordem alfabética bncc 2 ano",
+    "ordem alfabética bncc 3 ano",
+    "ordem alfabética bncc 1 ano"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "arrays-multiplication",
+   "topic": "simples",
+   "stem": "simpl",
+   "demand": 29,
+   "phrases": [
+    "multiplicação simples",
+    "multiplicação simples 3 ano",
+    "multiplicação simples 2 ano",
+    "multiplicação simples 4 ano"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-tracing",
+   "topic": "numeros",
+   "stem": "numero",
+   "demand": 29,
+   "phrases": [
+    "desenhos pontilhados com números para imprimir",
+    "desenhos pontilhados com numeros",
+    "desenhos pontilhados de numeros",
+    "desenhos pontilhados numeros"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "folha",
+   "stem": "folha",
+   "demand": 29,
+   "phrases": [
+    "medidas folha a4",
+    "medidas folha a3",
+    "medidas folha a1",
+    "medidas folha a5",
+    "medidas folha a2"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "verb-forms",
+   "topic": "presente passado futuro",
+   "stem": "present passad futur",
+   "demand": 29,
+   "phrases": [
+    "conjugação de verbos presente passado e futuro 4 ano",
+    "conjugação de verbos no presente passado e futuro",
+    "conjugação de verbos passado presente e futuro",
+    "conjugação de verbos presente passado e futuro 3 ano",
+    "conjugação de verbos presente passado e futuro 5 ano"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "arrays-multiplication",
+   "topic": "fracao",
+   "stem": "fraca",
+   "demand": 28,
+   "phrases": [
+    "multiplicação de fração",
+    "multiplicação com fração",
+    "multiplicação fração",
+    "multiplicação de fração youtube"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "tudo sala aula",
+   "stem": "tudo sala aula",
+   "demand": 28,
+   "phrases": [
+    "frações tudo sala de aula",
+    "frações tudo sala de aula 5 ano",
+    "frações tudo sala de aula 4 ano",
+    "frações tudo sala de aula 6 ano"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-problems",
+   "topic": "numeros decimais",
+   "stem": "numero decimai",
+   "demand": 28,
+   "phrases": [
+    "situações problema com numeros decimais 5 ano",
+    "situações problema numeros decimais 5 ano",
+    "situações problema numeros decimais",
+    "situações problema com números decimais 4 ano"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-bonds",
+   "topic": "fatores primos",
+   "stem": "fator primo",
+   "demand": 28,
+   "phrases": [
+    "decomposição de números em fatores primos",
+    "decomposição de numeros em fatores primos 6 ano",
+    "decomposição de números em fatores primos exercicios",
+    "decomposição de numeros fatores primos"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "wordwall",
+   "stem": "wordwall",
+   "demand": 27,
+   "phrases": [
+    "frações wordwall",
+    "frações wordwall 4 ano",
+    "frações wordwall 6 ano"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "multiplication-tables",
+   "topic": "grande",
+   "stem": "grand",
+   "demand": 27,
+   "phrases": [
+    "tabuada grande",
+    "tabuada grande para imprimir pdf",
+    "tabuada grande para imprimir"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "multiplication-tables",
+   "topic": "zero",
+   "stem": "zero",
+   "demand": 27,
+   "phrases": [
+    "tabuada zero",
+    "tabuada do zero ao 10",
+    "tabuada do zero ao 20",
+    "tabuada do zero ao 100",
+    "tabuada do zero ao 15"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "singular-plural",
+   "topic": "bncc",
+   "stem": "bncc",
+   "demand": 27,
+   "phrases": [
+    "singular e plural bncc",
+    "singular e plural bncc 3 ano",
+    "singular e plural bncc 2 ano"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "verb-forms",
+   "topic": "terminados",
+   "stem": "terminado",
+   "demand": 27,
+   "phrases": [
+    "conjugação de verbos terminados em or",
+    "conjugação de verbos terminados em ar er ir",
+    "conjugação de verbos terminados em ir",
+    "conjugação de verbos terminados em er"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "arrays-multiplication",
+   "topic": "divisao",
+   "stem": "divisa",
+   "demand": 26,
+   "phrases": [
+    "multiplicação e divisão",
+    "multiplicação e divisão 5 ano",
+    "multiplicação e divisão 4 ano",
+    "multiplicação x divisão"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "arrays-multiplication",
+   "topic": "habilidades",
+   "stem": "habilidad",
+   "demand": 26,
+   "phrases": [
+    "multiplicação habilidades 4 ano",
+    "multiplicação habilidades",
+    "multiplicação habilidade 5 ano",
+    "multiplicação habilidade 3 ano"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "cardinais",
+   "stem": "cardinai",
+   "demand": 26,
+   "phrases": [
+    "números ordinais e cardinais",
+    "números ordinais cardinais",
+    "numeros ordinais ou cardinais"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-problems",
+   "topic": "envolvendo quatro operacoes",
+   "stem": "envolvend quatr operaco",
+   "demand": 26,
+   "phrases": [
+    "situações problema envolvendo as quatro operações",
+    "situações problema envolvendo as quatro operações 4 ano",
+    "situações problema envolvendo as quatro operações 5 ano",
+    "situações problema envolvendo as quatro operações 3 ano",
+    "situações problema envolvendo as quatro operações 6 ano"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "mental-math",
+   "topic": "adicao subtracao",
+   "stem": "adica subtraca",
+   "demand": 26,
+   "phrases": [
+    "cálculo mental adição e subtração 2 ano",
+    "cálculo mental adição e subtração 3o ano",
+    "cálculo mental de adição e subtração"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "mental-math",
+   "topic": "juegos",
+   "stem": "juego",
+   "demand": 26,
+   "phrases": [
+    "cálculo mental juegos",
+    "calculo mental juego online",
+    "calculo mental juego",
+    "calculo mental online juego"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "singular-plural",
+   "topic": "ingles",
+   "stem": "ingl",
+   "demand": 26,
+   "phrases": [
+    "singular e plural em inglês",
+    "singular e plural ingles",
+    "singular e plural no inglês"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "genero noticia",
+   "stem": "gener notici",
+   "demand": 26,
+   "phrases": [
+    "interpretação de texto gênero notícia",
+    "interpretação de texto genero noticia 4 ano",
+    "interpretação de texto genero noticia 5 ano",
+    "interpretação de texto genero noticia 6 ano",
+    "interpretação de texto genero noticia 8 ano"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "noticia",
+   "stem": "notici",
+   "demand": 26,
+   "phrases": [
+    "interpretação de texto notícia 4 ano",
+    "interpretação de texto notícia 7 ano",
+    "interpretação de texto notícia 2 ano",
+    "interpretação de texto notícia 3 ano fundamental",
+    "interpretação de texto noticia"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "digraphs",
+   "topic": "exemplos",
+   "stem": "exemplo",
+   "demand": 26,
+   "phrases": [
+    "dígrafos exemplos",
+    "dígrafos rr exemplos",
+    "dígrafos ss exemplos",
+    "digrafos xc exemplos",
+    "digrafos xs exemplos"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "arrays-multiplication",
+   "topic": "malha quadriculada",
+   "stem": "malha quadriculad",
+   "demand": 25,
+   "phrases": [
+    "multiplicação malha quadriculada",
+    "multiplicação na malha quadriculada 3 ano",
+    "multiplicação na malha quadriculada",
+    "multiplicação na malha quadriculada 4 ano",
+    "multiplicação na malha quadriculada 2o ano"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "numeros inteiros",
+   "stem": "numero inteiro",
+   "demand": 25,
+   "phrases": [
+    "reta numérica dos números inteiros",
+    "reta numérica números inteiros exercícios",
+    "reta numérica números inteiros",
+    "reta numérica números inteiros 7 ano"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-bonds",
+   "topic": "bncc",
+   "stem": "bncc",
+   "demand": 25,
+   "phrases": [
+    "decomposição de numeros bncc",
+    "decomposição de números 4 ano bncc",
+    "decomposição de números 3 ano bncc"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-bonds",
+   "topic": "primos",
+   "stem": "primo",
+   "demand": 25,
+   "phrases": [
+    "decomposição de numeros primos",
+    "decomposição de numeros primos exercicios 6 ano",
+    "decomposição de numeros primos 6 ano"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  }
+ ],
+ "covered": 173
+}

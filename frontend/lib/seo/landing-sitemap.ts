@@ -48,7 +48,7 @@ function shardOf(key: string, partCount: number): number {
  */
 export async function landingShardXml(partIndex: number, partCount: number): Promise<NextResponse> {
   try {
-    const { getLandingLocales, getAllLandings, getSiblingLandingsByCoordinate, deckAssets, getLandingAugment, landingContentMtimeMs } = await import(
+    const { getLandingLocales, getAllLandings, getSiblingLandingsByCoordinate, deckAssets, getLandingAugment, landingContentMtimeMs, getLevelSetHubs, levelSetHubsMtimeMs } = await import(
       '@/lib/seo/landing-content'
     );
     const { buildHreflangAlternates } = await import('@/lib/seo/hreflang');
@@ -113,6 +113,36 @@ export async function landingShardXml(partIndex: number, partCount: number): Pro
             `    <image:loc>${xmlEscape(thumbnailUrl)}</image:loc>`,
             title ? `    <image:title>${xmlEscape(title)}</image:title>` : '',
             caption ? `    <image:caption>${xmlEscape(caption)}</image:caption>` : '',
+            '  </image:image>',
+            '</url>',
+          ]
+            .filter(Boolean)
+            .join('\n'),
+        );
+      }
+
+      /* Level Set hubs (2026-10-28): same URL family and the same stable partition. A hub is a
+       * per-locale page, so it declares only itself (plus x-default when English, the §21.8-A
+       * rule) and carries the first listed deck's thumbnail as its image. */
+      const hubMs = levelSetHubsMtimeMs(locale);
+      const hubIso = hubMs ? new Date(hubMs).toISOString() : '';
+      for (const h of getLevelSetHubs(locale)) {
+        if (shardOf(`${locale}/${h.slug}`, partCount) !== partIndex) continue;
+        const hubUrl = `${BASE_URL}/${locale}/worksheets/${h.slug}`;
+        const thumb = deckAssets(locale, h.decks[0].slug).thumbnail;
+        urls.push(
+          [
+            '<url>',
+            `  <loc>${xmlEscape(hubUrl)}</loc>`,
+            `  <xhtml:link rel="alternate" hreflang="${xmlEscape(locale === 'pt' ? 'pt-BR' : locale)}" href="${xmlEscape(hubUrl)}"/>`,
+            locale === 'en' ? `  <xhtml:link rel="alternate" hreflang="x-default" href="${xmlEscape(hubUrl)}"/>` : '',
+            hubIso ? `  <lastmod>${hubIso}</lastmod>` : '',
+            '  <changefreq>monthly</changefreq>',
+            '  <priority>0.6</priority>',
+            '  <image:image>',
+            `    <image:loc>${xmlEscape(thumb)}</image:loc>`,
+            `    <image:title>${xmlEscape(h.title)}</image:title>`,
+            `    <image:caption>${xmlEscape(h.metaDescription)}</image:caption>`,
             '  </image:image>',
             '</url>',
           ]

@@ -1,0 +1,2529 @@
+{
+ "locale": "de",
+ "harvested": 1971,
+ "clusters": 5492,
+ "candidates": [
+  {
+   "type": "pre-writing",
+   "topic": "ostern",
+   "stem": "oster",
+   "demand": 24,
+   "phrases": [
+    "schwungübungen ostern",
+    "schwungübungen ostern kostenlos",
+    "schwungübungen ostern zum ausdrucken",
+    "schwungübungen vorschule ostern"
+   ],
+   "phraseCount": 4,
+   "supply": 12,
+   "supplySample": [
+    "schwunguebungen-leicht-ostern-k236-38 — Schwungübungen — Ostern",
+    "schwunguebungen-ostern-k236-136 — Schwungübungen — Ostern",
+    "schwunguebungen-schwer-ostern-k236-235 — Schwungübungen — Ostern",
+    "schwunguebungen-leicht-ostern-sw-k236-5 — Schwungübungen — Ostern SW"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "read-and-color",
+   "topic": "weihnachten",
+   "stem": "weihnacht",
+   "demand": 24,
+   "phrases": [
+    "lese mal blätter weihnachten",
+    "lese mal blätter weihnachten klasse 1",
+    "lese mal blätter klasse 2 weihnachten"
+   ],
+   "phraseCount": 3,
+   "supply": 9,
+   "supplySample": [
+    "lese-mal-blaetter-leicht-weihnachten-s-w-g1242 — Lesen und Malen — Weihnachten S/W",
+    "lese-mal-blaetter-weihnachten-s-w-g1242-47 — Lesen und Malen — Weihnachten S/W",
+    "lese-mal-blaetter-schwer-weihnachten-s-w-g1242-90 — Lesen und Malen — Weihnachten S/W",
+    "lese-mal-blaetter-leicht-weihnachten-s-w-2-g1242-2 — Lesen und Malen — Weihnachten S/W 2"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "kleidung",
+   "stem": "kleidung",
+   "demand": 21,
+   "phrases": [
+    "bildkarten kleidung kostenlos ausdrucken",
+    "bildkarten kleidung pdf",
+    "bildkarten kleidung"
+   ],
+   "phraseCount": 3,
+   "supply": 9,
+   "supplySample": [
+    "bildkarten-leicht-kleidung-sw-k324-16 — Bildkarten mit Wort — Kleidung SW",
+    "bildkarten-kleidung-sw-k324-114 — Bildkarten mit Wort — Kleidung SW",
+    "bildkarten-schwer-kleidung-sw-k324-209 — Bildkarten mit Wort — Kleidung SW",
+    "bildkarten-leicht-kleidung-k324-33 — Bildkarten mit Wort — Kleidung"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "wetter",
+   "stem": "wett",
+   "demand": 19,
+   "phrases": [
+    "bildkarten wetter zum ausdrucken",
+    "bildkarten wetter",
+    "bildkarten wetter kindergarten"
+   ],
+   "phraseCount": 3,
+   "supply": 3,
+   "supplySample": [
+    "bildkarten-leicht-wetter-k324-96 — Bildkarten mit Wort — Wetter",
+    "bildkarten-wetter-k324-193 — Bildkarten mit Wort — Wetter",
+    "bildkarten-schwer-wetter-k324-272 — Bildkarten mit Wort — Wetter"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "read-and-color",
+   "topic": "ostern",
+   "stem": "oster",
+   "demand": 19,
+   "phrases": [
+    "lese mal blätter ostern",
+    "lese mal blätter klasse 1 ostern"
+   ],
+   "phraseCount": 2,
+   "supply": 9,
+   "supplySample": [
+    "lese-mal-blaetter-leicht-ostern-sw-g1242-3 — Lesen und Malen — Ostern SW",
+    "lese-mal-blaetter-ostern-sw-g1242-49 — Lesen und Malen — Ostern SW",
+    "lese-mal-blaetter-schwer-ostern-sw-g1242-92 — Lesen und Malen — Ostern SW",
+    "lese-mal-blaetter-leicht-ostern-sw-2-g1242-4 — Lesen und Malen — Ostern SW 2"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "herbst",
+   "stem": "herbst",
+   "demand": 19,
+   "phrases": [
+    "leseverständnis herbst",
+    "leseverständnis herbst klasse 2"
+   ],
+   "phraseCount": 2,
+   "supply": 3,
+   "supplySample": [
+    "leseverstaendnis-g2273-2 — Lesen und verstehen: Drachensteigen im Herbst",
+    "leseverstaendnis-leicht-g2273-8 — Lesen und verstehen: Drachensteigen im Herbst",
+    "leseverstaendnis-schwer-g2273-13 — Lesen und verstehen: Drachensteigen im Herbst"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-problems",
+   "topic": "ostern",
+   "stem": "oster",
+   "demand": 18,
+   "phrases": [
+    "sachaufgaben ostern",
+    "sachaufgaben ostern klasse 2",
+    "sachaufgaben ostern klasse 3",
+    "sachaufgaben ostern klasse 4"
+   ],
+   "phraseCount": 4,
+   "supply": 21,
+   "supplySample": [
+    "sachaufgaben-leicht-ostern-g1213 — Rechengeschichten mit Bildern — Ostern",
+    "sachaufgaben-ostern-sw-g1213-4 — Rechengeschichten mit Bildern — Ostern SW",
+    "sachaufgaben-schwer-ostern-sw-g1213-2 — Rechengeschichten mit Bildern — Ostern SW",
+    "sachaufgaben-leicht-ostern-g1239-5 — Rechengeschichten: Minusaufgaben — Ostern"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-problems",
+   "topic": "weihnachten",
+   "stem": "weihnacht",
+   "demand": 17,
+   "phrases": [
+    "sachaufgaben weihnachten klasse 3",
+    "sachaufgaben weihnachten",
+    "sachaufgaben weihnachten 4 klasse",
+    "sachaufgaben weihnachten klasse 2"
+   ],
+   "phraseCount": 4,
+   "supply": 21,
+   "supplySample": [
+    "sachaufgaben-leicht-weihnachten-g1213-5 — Rechengeschichten mit Bildern — Weihnachten",
+    "sachaufgaben-leicht-weihnachten-g1238 — Rechengeschichten: Plusaufgaben — Weihnachten",
+    "sachaufgaben-leicht-weihnachten-s-w-g1239-4 — Rechengeschichten: Minusaufgaben — Weihnachten S/W",
+    "sachaufgaben-weihnachten-s-w-g1239-6 — Rechengeschichten: Minusaufgaben — Weihnachten S/W"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "essen",
+   "stem": "essen",
+   "demand": 17,
+   "phrases": [
+    "messen essen",
+    "messen essen 2026",
+    "messen essen 2027"
+   ],
+   "phraseCount": 3,
+   "supply": 4,
+   "supplySample": [
+    "messen-leicht-essen-sw-g1139-4 — Kästchen für Kästchen — Essen SW",
+    "messen-essen-sw-g1140-4 — Von kurz nach lang — Essen SW",
+    "messen-schwer-essen-sw-g2235-4 — Messen mit dem Lineal — Essen SW",
+    "messen-leicht-essen-sw-2-g2236-2 — Wie viel länger? — Essen SW 2"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "essen",
+   "stem": "essen",
+   "demand": 14,
+   "phrases": [
+    "bildkarten essen",
+    "bildkarten essen pdf"
+   ],
+   "phraseCount": 2,
+   "supply": 11,
+   "supplySample": [
+    "bildkarten-leicht-essen-sw-k324-46 — Bildkarten mit Wort — Essen SW",
+    "bildkarten-essen-sw-k324-144 — Bildkarten mit Wort — Essen SW",
+    "bildkarten-schwer-essen-sw-k324-236 — Bildkarten mit Wort — Essen SW",
+    "bildkarten-leicht-essen-sw-2-k324-47 — Bildkarten mit Wort — Essen SW 2"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "weihnachten",
+   "stem": "weihnacht",
+   "demand": 12,
+   "phrases": [
+    "schwungübungen weihnachten",
+    "schwungübungen weihnachten kostenlos"
+   ],
+   "phraseCount": 2,
+   "supply": 12,
+   "supplySample": [
+    "schwunguebungen-leicht-weihnachten-k236-29 — Schwungübungen — Weihnachten",
+    "schwunguebungen-weihnachten-k236-127 — Schwungübungen — Weihnachten",
+    "schwunguebungen-schwer-weihnachten-k236-226 — Schwungübungen — Weihnachten",
+    "schwunguebungen-leicht-weihnachten-s-w-k236-3 — Schwungübungen — Weihnachten S/W"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "spiel",
+   "stem": "spiel",
+   "demand": 11,
+   "phrases": [
+    "ordnungszahlen grundschule spiel",
+    "ordnungszahlen klasse 1 spiel",
+    "ordnungszahlen spiel"
+   ],
+   "phraseCount": 3,
+   "supply": 4,
+   "supplySample": [
+    "ordnungszahlen-schwer-spielzeug-g1316 — Ordnungszahl-Wörter mit dem Bild verbinden — Spielzeug",
+    "ordnungszahlen-leicht-spielzeug-k320-44 — Ordnungszahlen: Finde den Platz — Spielzeug",
+    "ordnungszahlen-spielzeug-k320-93 — Ordnungszahlen: Finde den Platz — Spielzeug",
+    "ordnungszahlen-schwer-spielzeug-k320-143 — Ordnungszahlen: Finde den Platz — Spielzeug"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "dinosaurier",
+   "stem": "dinosauri",
+   "demand": 10,
+   "phrases": [
+    "schwungübungen dinosaurier"
+   ],
+   "phraseCount": 1,
+   "supply": 6,
+   "supplySample": [
+    "schwunguebungen-leicht-dinosaurier-k236-37 — Schwungübungen — Dinosaurier",
+    "schwunguebungen-dinosaurier-k236-135 — Schwungübungen — Dinosaurier",
+    "schwunguebungen-schwer-dinosaurier-k236-234 — Schwungübungen — Dinosaurier",
+    "schwunguebungen-schwer-dinosaurier-k244-3 — Schwungübungen: Zacken und Zickzack — Dinosaurier"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "winter",
+   "stem": "wint",
+   "demand": 10,
+   "phrases": [
+    "schwungübungen winter",
+    "schwungübungen winter kostenlos"
+   ],
+   "phraseCount": 2,
+   "supply": 5,
+   "supplySample": [
+    "schwunguebungen-leicht-winter-k236-97 — Schwungübungen — Winter",
+    "schwunguebungen-winter-k236-195 — Schwungübungen — Winter",
+    "schwunguebungen-schwer-winter-k236-294 — Schwungübungen — Winter",
+    "schwunguebungen-schwer-winter-k245 — Schwungübungen: Wellen und Bögen — Winter"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-charts",
+   "topic": "bild",
+   "stem": "bild",
+   "demand": 10,
+   "phrases": [
+    "hundertertafel bild"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "hundertertafel-leicht-bildung-sw-g1125-4 — In Zweierschritten zählen — Bildung SW",
+    "hundertertafel-bildung-sw-g1126-4 — Zählen in Gruppen — Bildung SW",
+    "hundertertafel-schwer-bildung-sw-g1129-4 — Die Hundertertafel — Bildung SW"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "maze-puzzles",
+   "topic": "weihnachten",
+   "stem": "weihnacht",
+   "demand": 10,
+   "phrases": [
+    "labyrinth rätsel weihnachten"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "labyrinth-raetsel-g1420-7 — Hilf dem Weihnachtsmann zum Schlitten",
+    "labyrinth-raetsel-g2392-5 — Zähl in Fünferschritten bis zum Weihnachtsbaum"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "sentence-building",
+   "topic": "bauernhof",
+   "stem": "bauernhof",
+   "demand": 10,
+   "phrases": [
+    "schüttelsätze bauernhof"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "schuettelsaetze-leicht-bauernhoftiere-sw-g1282-4 — Schüttelsätze mit Hilfen — Bauernhoftiere SW",
+    "schuettelsaetze-schwer-bauernhoftiere-g1282-3 — Schüttelsätze mit Hilfen — Bauernhoftiere",
+    "schuettelsaetze-schwer-bauernhoftiere-sw-g1302-4 — Schüttelsätze: Wo beginnt der Satz? — Bauernhoftiere SW"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "sight-words",
+   "topic": "worter",
+   "stem": "wort",
+   "demand": 9,
+   "phrases": [
+    "lernwörter wörter mit y grundschule"
+   ],
+   "phraseCount": 1,
+   "supply": 900,
+   "supplySample": [
+    "lernwoerter-k392-109-sie — Finde das Wort: sie",
+    "lernwoerter-k392-110-mit — Finde das Wort: mit",
+    "lernwoerter-k392-111-auf — Finde das Wort: auf",
+    "lernwoerter-k392-130-zu — Finde das Wort: zu"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "division-with-remainder",
+   "topic": "spiel",
+   "stem": "spiel",
+   "demand": 9,
+   "phrases": [
+    "teilen mit rest spiel"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "teilen-mit-rest-leicht-spielzeug-g3377-40 — Teilen mit Rest: Gruppen einkreisen — Spielzeug",
+    "teilen-mit-rest-spielzeug-g3377-83 — Teilen mit Rest: Gruppen einkreisen — Spielzeug",
+    "teilen-mit-rest-schwer-spielzeug-g3377-127 — Teilen mit Rest: Gruppen einkreisen — Spielzeug",
+    "teilen-mit-rest-schwer-spielzeug-g3380-5 — Verteilen mit Rest: Was bleibt übrig? — Spielzeug"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "maze-puzzles",
+   "topic": "ostern",
+   "stem": "oster",
+   "demand": 9,
+   "phrases": [
+    "labyrinth rätsel ostern"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "labyrinth-raetsel-leicht-g1424-5 — Hilf dem kleinen Mädchen, alle Ostereier zu sammeln",
+    "labyrinth-raetsel-schwer-k405-29 — Hilf dem Hasen zum Osternest"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "odd-and-even",
+   "topic": "spiel",
+   "stem": "spiel",
+   "demand": 9,
+   "phrases": [
+    "gerade und ungerade zahlen spiel"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "gerade-und-ungerade-zahlen-spielzeug-g1370-2 — Gerade oder ungerade? Bilder paarweise zählen — Spielzeug",
+    "gerade-und-ungerade-zahlen-leicht-spielzeug-g1369-4 — Gerecht teilen: gerade oder ungerade? — Spielzeug",
+    "gerade-und-ungerade-zahlen-schwer-spielzeug-g1369-5 — Gerecht teilen: gerade oder ungerade? — Spielzeug"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "sight-words",
+   "topic": "oder",
+   "stem": "oder",
+   "demand": 8,
+   "phrases": [
+    "lernwörter i oder ie",
+    "lernwörter mit d oder t"
+   ],
+   "phraseCount": 2,
+   "supply": 15,
+   "supplySample": [
+    "lernwoerter-leicht-k388-49-oder — Wort des Tages: oder",
+    "lernwoerter-k388-149-oder — Wort des Tages: oder",
+    "lernwoerter-schwer-k388-249-oder — Wort des Tages: oder",
+    "lernwoerter-leicht-k389-49-oder — Häufige Wörter in Sätzen: oder"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "bild",
+   "stem": "bild",
+   "demand": 8,
+   "phrases": [
+    "schwungübungen bild"
+   ],
+   "phraseCount": 1,
+   "supply": 20,
+   "supplySample": [
+    "schwunguebungen-leicht-bildung-sw-k236-39 — Schwungübungen — Bildung SW",
+    "schwunguebungen-bildung-sw-k236-137 — Schwungübungen — Bildung SW",
+    "schwunguebungen-schwer-bildung-sw-k236-236 — Schwungübungen — Bildung SW",
+    "schwunguebungen-bildung-sw-k386 — Schwungübungen: Kreise, Quadrate und Dreiecke — Bildung SW"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "berufe",
+   "stem": "beruf",
+   "demand": 8,
+   "phrases": [
+    "bildkarten berufe",
+    "bildkarten berufe kostenlos"
+   ],
+   "phraseCount": 2,
+   "supply": 4,
+   "supplySample": [
+    "bildkarten-leicht-berufe-k324-66 — Bildkarten mit Wort — Berufe",
+    "bildkarten-berufe-k324-164 — Bildkarten mit Wort — Berufe",
+    "bildkarten-schwer-berufe-k324-253 — Bildkarten mit Wort — Berufe",
+    "bildkarten-schwer-berufe-k350-3-en — Zweisprachige Bildkarten: Deutsch und Englisch — Berufe"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "rund ums haus",
+   "stem": "rund ums haus",
+   "demand": 8,
+   "phrases": [
+    "messen rund ums haus"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "messen-schwer-rund-ums-haus-g2235-5 — Messen mit dem Lineal — Rund ums Haus"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "wald",
+   "stem": "wald",
+   "demand": 8,
+   "phrases": [
+    "leseverständnis wald"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "leseverstaendnis-g2270-6 — Lesen und verstehen: Beim Förster im Wald"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "natur",
+   "stem": "natur",
+   "demand": 7,
+   "phrases": [
+    "bildkarten natur"
+   ],
+   "phraseCount": 1,
+   "supply": 6,
+   "supplySample": [
+    "bildkarten-leicht-haus-und-natur-sw-k324-54 — Bildkarten mit Wort — Haus und Natur SW",
+    "bildkarten-haus-und-natur-sw-k324-152 — Bildkarten mit Wort — Haus und Natur SW",
+    "bildkarten-schwer-haus-und-natur-sw-k324-243 — Bildkarten mit Wort — Haus und Natur SW",
+    "bildkarten-leicht-natur-sw-k324-64 — Bildkarten mit Wort — Natur SW"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-charts",
+   "topic": "poster",
+   "stem": "post",
+   "demand": 7,
+   "phrases": [
+    "hundertertafel poster"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "hundertertafel-schwer-postamt-g1123 — In Zehnerschritten zählen — Postamt",
+    "hundertertafel-leicht-postamt-g2208 — In Viererschritten zählen — Postamt",
+    "hundertertafel-schwer-postamt-g3329-3 — Zählen in großen Schritten — Postamt"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "find-the-differences",
+   "topic": "spielen",
+   "stem": "spiel",
+   "demand": 7,
+   "phrases": [
+    "fehlersuchbilder online spielen gratis",
+    "fehlersuchbilder kostenlos spielen"
+   ],
+   "phraseCount": 2,
+   "supply": 3,
+   "supplySample": [
+    "fehlersuchbilder-schwer-k395-10 — Finde 5 Unterschiede: Regale im Spielzeugladen",
+    "fehlersuchbilder-schwer-k395-11 — Finde 5 Unterschiede: Spielecke",
+    "fehlersuchbilder-schwer-k397-27 — Finde 3 Unterschiede: Spielzeugeisenbahn"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "singular-plural",
+   "topic": "blume",
+   "stem": "blume",
+   "demand": 7,
+   "phrases": [
+    "einzahl und mehrzahl blume"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "einzahl-und-mehrzahl-schwer-blumen-k287 — Einzahl und Mehrzahl — Blumen",
+    "einzahl-und-mehrzahl-schwer-blumen-k316-3 — Einzahl ohne Vorlage — Blumen",
+    "einzahl-und-mehrzahl-schwer-blumen-k303-5 — Einzahl und Mehrzahl: lange Wörter — Blumen",
+    "einzahl-und-mehrzahl-schwer-blumen-k314 — Mehrzahl ohne Vorlage — Blumen"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "ostern",
+   "stem": "oster",
+   "demand": 7,
+   "phrases": [
+    "leseverständnis ostern"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "leseverstaendnis-leicht-g2273-10 — Lesen und verstehen: Die Ostereiersuche",
+    "leseverstaendnis-g2273-4 — Lesen und verstehen: Die Ostereiersuche",
+    "leseverstaendnis-schwer-g2273-15 — Lesen und verstehen: Die Ostereiersuche"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "syllable-split",
+   "topic": "vogel",
+   "stem": "vogel",
+   "demand": 7,
+   "phrases": [
+    "silbenbögen vogel"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "silbenboegen-schwer-vogel-2-g1325 — Wörter in Silben schreiben — Vögel 2",
+    "silbenboegen-leicht-vogel-2-g1326-4 — Fehlende Silbe eintragen — Vögel 2",
+    "silbenboegen-leicht-vogel-2-g1327 — Silbensalat: Silben ordnen — Vögel 2",
+    "silbenboegen-vogel-2-g1328-6 — Zwei oder drei Silben? Schwingen und sortieren — Vögel 2"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "sommer",
+   "stem": "somm",
+   "demand": 6,
+   "phrases": [
+    "schwungübungen sommer"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "schwunguebungen-sommer-k236-177 — Schwungübungen — Sommer",
+    "schwunguebungen-leicht-sommer-k236-79 — Schwungübungen — Sommer",
+    "schwunguebungen-schwer-sommer-k236-276 — Schwungübungen — Sommer"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "korperteile",
+   "stem": "korperteil",
+   "demand": 6,
+   "phrases": [
+    "bildkarten körperteile zum ausdrucken pdf",
+    "bildkarten körperteile"
+   ],
+   "phraseCount": 2,
+   "supply": 5,
+   "supplySample": [
+    "bildkarten-schwer-korperteile-g1324 — Silbenkarten: Lies das Wort in Silben — Körperteile",
+    "bildkarten-leicht-korperteile-k349 — Einzahl und Mehrzahl: Kartenpaare — Körperteile",
+    "bildkarten-leicht-korperteile-k324-26 — Bildkarten mit Wort — Körperteile",
+    "bildkarten-korperteile-k324-124 — Bildkarten mit Wort — Körperteile"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "weihnachten",
+   "stem": "weihnacht",
+   "demand": 6,
+   "phrases": [
+    "zeichnen lernen weihnachten"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "zeichnen-lernen-g1416-9 — Einen Weihnachtsmann mit dem Raster zeichnen"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "poster",
+   "stem": "post",
+   "demand": 6,
+   "phrases": [
+    "wortarten poster"
+   ],
+   "phraseCount": 1,
+   "supply": 5,
+   "supplySample": [
+    "wortarten-leicht-postamt-g1293-4 — Nomen und Verben sortieren — Postamt",
+    "wortarten-leicht-postamt-g1300 — Nomen und Adjektive sortieren — Postamt",
+    "wortarten-leicht-postamt-g2275-4 — Nomen, Verben und Adjektive — Postamt",
+    "wortarten-postamt-g2285-4 — Wortarten sortieren: neun Wörter — Postamt"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "sight-words",
+   "topic": "spiel",
+   "stem": "spiel",
+   "demand": 5,
+   "phrases": [
+    "lernwörter spiel"
+   ],
+   "phraseCount": 1,
+   "supply": 15,
+   "supplySample": [
+    "lernwoerter-leicht-k388-73-spielt — Wort des Tages: spielt",
+    "lernwoerter-k388-173-spielt — Wort des Tages: spielt",
+    "lernwoerter-schwer-k388-273-spielt — Wort des Tages: spielt",
+    "lernwoerter-leicht-k389-73-spielt — Häufige Wörter in Sätzen: spielt"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "wald",
+   "stem": "wald",
+   "demand": 5,
+   "phrases": [
+    "bildkarten wald"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "bildkarten-leicht-waldtiere-k324-49 — Bildkarten mit Wort — Waldtiere",
+    "bildkarten-waldtiere-k324-147 — Bildkarten mit Wort — Waldtiere",
+    "bildkarten-schwer-waldtiere-k324-239 — Bildkarten mit Wort — Waldtiere"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-charts",
+   "topic": "weihnachten",
+   "stem": "weihnacht",
+   "demand": 5,
+   "phrases": [
+    "hundertertafel weihnachten"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "hundertertafel-weihnachten-s-w-2-g1124-6 — In Fünferschritten zählen — Weihnachten S/W 2",
+    "hundertertafel-weihnachten-s-w-g3329-6 — Zählen in großen Schritten — Weihnachten S/W",
+    "hundertertafel-leicht-weihnachten-k019-5 — Fehlende Zahlen bis 10 — Weihnachten",
+    "hundertertafel-schwer-weihnachten-s-w-k019-2 — Fehlende Zahlen bis 10 — Weihnachten S/W"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "lowe",
+   "stem": "lowe",
+   "demand": 5,
+   "phrases": [
+    "zeichnen lernen löwe"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "zeichnen-lernen-g1416-10 — Einen Löwen mit dem Raster zeichnen",
+    "zeichnen-lernen-schwer-g1418-16 — Schritte ordnen und einen Löwen zeichnen"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "maze-puzzles",
+   "topic": "spiel",
+   "stem": "spiel",
+   "demand": 5,
+   "phrases": [
+    "labyrinth rätsel spiel"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "labyrinth-raetsel-g1425-8 — Bring das Spielzeugauto sicher zur Garage",
+    "labyrinth-raetsel-k406-9 — Hilf dem Spielzeug-Dino zum Kuchen",
+    "labyrinth-raetsel-leicht-k409-3 — Von A bis Z mit der Spielzeugeisenbahn zum Wohnmobil",
+    "labyrinth-raetsel-k409-6 — Von A bis Z mit dem Fahrrad zum Spielplatz"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "odd-and-even",
+   "topic": "blumen",
+   "stem": "blum",
+   "demand": 5,
+   "phrases": [
+    "gerade und ungerade zahlen blumen"
+   ],
+   "phraseCount": 1,
+   "supply": 5,
+   "supplySample": [
+    "gerade-und-ungerade-zahlen-leicht-blumen-g1370 — Gerade oder ungerade? Bilder paarweise zählen — Blumen",
+    "gerade-und-ungerade-zahlen-blumen-g1370-5 — Gerade oder ungerade? Bilder paarweise zählen — Blumen",
+    "gerade-und-ungerade-zahlen-leicht-blumen-g1369-3 — Gerecht teilen: gerade oder ungerade? — Blumen",
+    "gerade-und-ungerade-zahlen-blumen-g1369-6 — Gerecht teilen: gerade oder ungerade? — Blumen"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "articles",
+   "topic": "haus",
+   "stem": "haus",
+   "demand": 5,
+   "phrases": [
+    "der die das haus"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "der-die-das-leicht-rund-ums-haus-k288-3 — Der, die oder das? — Rund ums Haus",
+    "der-die-das-rund-ums-haus-k306-3 — Der, die oder das? Vier Bilder — Rund ums Haus"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "singular-plural",
+   "topic": "von gemuse",
+   "stem": "von gemus",
+   "demand": 4,
+   "phrases": [
+    "einzahl und mehrzahl von gemüse"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "einzahl-und-mehrzahl-schwer-gemuse-k313-3 — Von der Mehrzahl zur Einzahl — Gemüse"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "emotionen",
+   "stem": "emotion",
+   "demand": 3,
+   "phrases": [
+    "bildkarten emotionen"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "bildkarten-leicht-emotionen-k324-40 — Bildkarten mit Wort — Emotionen",
+    "bildkarten-emotionen-k324-138 — Bildkarten mit Wort — Emotionen",
+    "bildkarten-schwer-emotionen-k324-230 — Bildkarten mit Wort — Emotionen"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "waldtiere",
+   "stem": "waldtier",
+   "demand": 3,
+   "phrases": [
+    "bildkarten waldtiere"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "bildkarten-leicht-waldtiere-k324-49 — Bildkarten mit Wort — Waldtiere",
+    "bildkarten-waldtiere-k324-147 — Bildkarten mit Wort — Waldtiere",
+    "bildkarten-schwer-waldtiere-k324-239 — Bildkarten mit Wort — Waldtiere"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "syllable-split",
+   "topic": "winter",
+   "stem": "wint",
+   "demand": 3,
+   "phrases": [
+    "silbenbögen winter"
+   ],
+   "phraseCount": 1,
+   "supply": 5,
+   "supplySample": [
+    "silbenboegen-winter-g1305-4 — Silbenbögen: Wörter in Silben schwingen — Winter",
+    "silbenboegen-schwer-winter-g1326 — Fehlende Silbe eintragen — Winter",
+    "silbenboegen-leicht-winter-g1327-4 — Silbensalat: Silben ordnen — Winter",
+    "silbenboegen-leicht-winter-g1329-3 — Silbenkönig: Der Vokal in jeder Silbe — Winter"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "bauernhof",
+   "stem": "bauernhof",
+   "demand": 2,
+   "phrases": [
+    "schwungübungen bauernhof"
+   ],
+   "phraseCount": 1,
+   "supply": 12,
+   "supplySample": [
+    "schwunguebungen-leicht-bauernhoftiere-k236-42 — Schwungübungen — Bauernhoftiere",
+    "schwunguebungen-bauernhoftiere-k236-140 — Schwungübungen — Bauernhoftiere",
+    "schwunguebungen-schwer-bauernhoftiere-k236-239 — Schwungübungen — Bauernhoftiere",
+    "schwunguebungen-leicht-bauernhoftiere-sw-k236-43 — Schwungübungen — Bauernhoftiere SW"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "erntedank",
+   "stem": "erntedank",
+   "demand": 2,
+   "phrases": [
+    "bildkarten erntedank"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "bildkarten-erntedankfest-k349-5 — Einzahl und Mehrzahl: Kartenpaare — Erntedankfest",
+    "bildkarten-leicht-erntedankfest-k324-80 — Bildkarten mit Wort — Erntedankfest",
+    "bildkarten-erntedankfest-k324-177 — Bildkarten mit Wort — Erntedankfest",
+    "bildkarten-schwer-erntedankfest-k350-5-en — Zweisprachige Bildkarten: Deutsch und Englisch — Erntedankfest"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "sommer",
+   "stem": "somm",
+   "demand": 2,
+   "phrases": [
+    "bildkarten sommer"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "bildkarten-leicht-sommer-k324-79 — Bildkarten mit Wort — Sommer",
+    "bildkarten-sommer-k324-176 — Bildkarten mit Wort — Sommer",
+    "bildkarten-schwer-sommer-k324-261 — Bildkarten mit Wort — Sommer"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "haus",
+   "stem": "haus",
+   "demand": 2,
+   "phrases": [
+    "zeichnen lernen haus"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "zeichnen-lernen-g1418-12 — Schritte ordnen und ein Haus zeichnen",
+    "zeichnen-lernen-schwer-k396-28 — Haus zeichnen lernen Schritt für Schritt"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "dreieck",
+   "stem": "dreieck",
+   "demand": 1,
+   "phrases": [
+    "schwungübungen dreieck"
+   ],
+   "phraseCount": 1,
+   "supply": 15,
+   "supplySample": [
+    "schwunguebungen-aktivitaten-k386-2 — Schwungübungen: Kreise, Quadrate und Dreiecke — Aktivitäten",
+    "schwunguebungen-tiere-sw-k386-5 — Schwungübungen: Kreise, Quadrate und Dreiecke — Tiere SW",
+    "schwunguebungen-leicht-camping-k386 — Schwungübungen: Kreise, Quadrate und Dreiecke — Camping",
+    "schwunguebungen-schwer-camping-k386-5 — Schwungübungen: Kreise, Quadrate und Dreiecke — Camping"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "sport",
+   "stem": "sport",
+   "demand": 1,
+   "phrases": [
+    "schwungübungen sport"
+   ],
+   "phraseCount": 1,
+   "supply": 9,
+   "supplySample": [
+    "schwunguebungen-sport-sw-k236-174 — Schwungübungen — Sport SW",
+    "schwunguebungen-leicht-sport-sw-k236-76 — Schwungübungen — Sport SW",
+    "schwunguebungen-schwer-sport-sw-k236-273 — Schwungübungen — Sport SW",
+    "schwunguebungen-leicht-sport-sw-2-k236-77 — Schwungübungen — Sport SW 2"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "gemuse",
+   "stem": "gemus",
+   "demand": 1,
+   "phrases": [
+    "bildkarten gemüse zum ausdrucken"
+   ],
+   "phraseCount": 1,
+   "supply": 10,
+   "supplySample": [
+    "bildkarten-leicht-gemuse-k324-89 — Bildkarten mit Wort — Gemüse",
+    "bildkarten-gemuse-k324-186 — Bildkarten mit Wort — Gemüse",
+    "bildkarten-schwer-gemuse-k324-267 — Bildkarten mit Wort — Gemüse",
+    "bildkarten-leicht-gemuse-sw-k324-90 — Bildkarten mit Wort — Gemüse SW"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "pflanzen",
+   "stem": "pflanz",
+   "demand": 1,
+   "phrases": [
+    "zeichnen lernen pflanzen"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "zeichnen-lernen-k404-12 — Eine Pflanze zeichnen und das Wort schreiben",
+    "zeichnen-lernen-k396-24 — Pflanze zeichnen lernen Schritt für Schritt"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "ostern",
+   "stem": "oster",
+   "demand": 1,
+   "phrases": [
+    "wortarten ostern"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "wortarten-schwer-ostern-g1300-3 — Nomen und Adjektive sortieren — Ostern",
+    "wortarten-ostern-g2287-6 — Wortarten sortieren: fünfzehn Wörter — Ostern"
+   ],
+   "covered": false,
+   "coveredBy": null
+  }
+ ],
+ "contentIdeas": [
+  {
+   "type": "letter-of-the-week",
+   "topic": "geschichte",
+   "stem": "geschicht",
+   "demand": 187,
+   "phrases": [
+    "buchstabeneinführung a geschichte",
+    "buchstabeneinführung b geschichte",
+    "buchstabeneinführung c geschichte",
+    "buchstabeneinführung ch geschichte",
+    "buchstabeneinführung ck geschichte",
+    "buchstabeneinführung d geschichte"
+   ],
+   "phraseCount": 34,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "cloze",
+   "topic": "deutsch",
+   "stem": "deutsch",
+   "demand": 78,
+   "phrases": [
+    "lückentext deutsch",
+    "lückentext a2 deutsch pdf",
+    "lückentext a1 deutsch pdf",
+    "lückentext b1 deutsch pdf",
+    "lückentext b1 deutsch",
+    "lückentext c test deutsch"
+   ],
+   "phraseCount": 15,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "logic-puzzles",
+   "topic": "erwachsene",
+   "stem": "erwachsen",
+   "demand": 65,
+   "phrases": [
+    "logicals erwachsene",
+    "logicals erwachsene kostenlos pdf",
+    "logicals erwachsene kostenlos",
+    "logicals erwachsene online",
+    "logicals erwachsene pdf",
+    "logicals erwachsene zum ausdrucken"
+   ],
+   "phraseCount": 12,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "dot-to-dot",
+   "topic": "erwachsene",
+   "stem": "erwachsen",
+   "demand": 63,
+   "phrases": [
+    "punkt zu punkt erwachsene",
+    "punkt zu punkt erwachsene ausdrucken",
+    "punkt zu punkt erwachsene pdf",
+    "punkt zu punkt erwachsene pdf kostenlos",
+    "punkt zu punkt erwachsene kostenlos",
+    "punkt zu punkt für erwachsene zum ausdrucken kostenlos"
+   ],
+   "phraseCount": 9,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "maze-puzzles",
+   "topic": "jahre",
+   "stem": "jahre",
+   "demand": 62,
+   "phrases": [
+    "labyrinth rätsel 6 jahre",
+    "labyrinth rätsel 5 jahre",
+    "labyrinth rätsel 4 jahre",
+    "labyrinth rätsel 7 jahre",
+    "labyrinth rätsel 8 jahre",
+    "labyrinth rätsel 3 jahre"
+   ],
+   "phraseCount": 10,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "frau locke",
+   "stem": "frau locke",
+   "demand": 61,
+   "phrases": [
+    "bildkarten c frau locke",
+    "bildkarten ch frau locke",
+    "bildkarten frau locke",
+    "bildkarten j frau locke",
+    "bildkarten l frau locke",
+    "bildkarten n frau locke"
+   ],
+   "phraseCount": 12,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pronouns",
+   "topic": "englisch",
+   "stem": "englisch",
+   "demand": 55,
+   "phrases": [
+    "personalpronomen englisch 5 klasse",
+    "personalpronomen englisch übungen pdf",
+    "personalpronomen englisch übungen",
+    "personalpronomen englisch übungen klasse 5 zum ausdrucken",
+    "personalpronomen englisch übungen klasse 5 zum ausdrucken kostenlos",
+    "personalpronomen englisch übungen 5 klasse pdf kostenlos"
+   ],
+   "phraseCount": 11,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "letter-of-the-week",
+   "topic": "ideen",
+   "stem": "ideen",
+   "demand": 51,
+   "phrases": [
+    "buchstabeneinführung ideen",
+    "buchstabeneinführung j ideen",
+    "buchstabeneinführung klasse 1 ideen",
+    "buchstabeneinführung n ideen",
+    "buchstabeneinführung o ideen",
+    "buchstabeneinführung r ideen"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "bestimmen",
+   "stem": "bestimm",
+   "demand": 51,
+   "phrases": [
+    "wortarten bestimmen",
+    "wortarten bestimmen übungen",
+    "wortarten bestimmen übungen mit lösungen pdf",
+    "wortarten bestimmen übungen pdf",
+    "wortarten bestimmen arbeitsblätter 7 klasse pdf",
+    "wortarten bestimmen 4 klasse übungen pdf"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "deutsch",
+   "stem": "deutsch",
+   "demand": 51,
+   "phrases": [
+    "wortarten deutsch",
+    "wortarten deutsch klasse 5",
+    "wortarten deutsch klasse 3",
+    "wortarten deutsch 4 klasse",
+    "wortarten deutsch klasse 6",
+    "wortarten deutsch pdf"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "englisch",
+   "stem": "englisch",
+   "demand": 49,
+   "phrases": [
+    "leseverständnis englisch",
+    "leseverständnis englisch klasse 7",
+    "leseverständnis englisch klasse 6",
+    "leseverständnis englisch klasse 9 pdf",
+    "leseverständnis englisch klasse 5",
+    "leseverständnis englisch klasse 8 pdf"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "sight-words",
+   "topic": "jojo",
+   "stem": "jojo",
+   "demand": 46,
+   "phrases": [
+    "lernwörter jojo klasse 3",
+    "lernwörter jojo klasse 2",
+    "lernwörter jojo 3",
+    "lernwörter jojo klasse 4",
+    "lernwörter jojo 4",
+    "lernwörter jojo 2"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "all-about-me",
+   "topic": "vorlage",
+   "stem": "vorlag",
+   "demand": 46,
+   "phrases": [
+    "das bin ich vorlage",
+    "das bin ich kindergarten vorlagen",
+    "das bin ich vorlage pdf kostenlos",
+    "das bin ich vorlage pdf",
+    "das bin ich vorlage zum ausdrucken",
+    "das bin ich vorlage kita"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "find-the-differences",
+   "topic": "erwachsene",
+   "stem": "erwachsen",
+   "demand": 45,
+   "phrases": [
+    "fehlersuchbilder erwachsene",
+    "fehlersuchbilder erwachsene zum ausdrucken",
+    "fehlersuchbilder zum ausdrucken für erwachsene",
+    "fehlersuchbilder erwachsene pdf",
+    "fehlersuchbilder erwachsene online",
+    "fehlersuchbilder für erwachsene kostenlos"
+   ],
+   "phraseCount": 9,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "letter-of-the-week",
+   "topic": "frau locke",
+   "stem": "frau locke",
+   "demand": 45,
+   "phrases": [
+    "buchstabeneinführung frau locke",
+    "buchstabeneinführung c frau locke",
+    "buchstabeneinführung j frau locke",
+    "buchstabeneinführung m frau locke",
+    "buchstabeneinführung o frau locke",
+    "buchstabeneinführung qu frau locke"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "englisch",
+   "stem": "englisch",
+   "demand": 45,
+   "phrases": [
+    "w-fragen englisch",
+    "w fragen englisch übungen pdf",
+    "w fragen englisch übungen",
+    "w fragen englisch 5 klasse",
+    "w-fragen in englisch",
+    "w fragen englisch"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "doubles-halves",
+   "topic": "zahlenraum",
+   "stem": "zahlenraum",
+   "demand": 44,
+   "phrases": [
+    "verdoppeln und halbieren im zahlenraum 100",
+    "verdoppeln und halbieren im zahlenraum 20",
+    "verdoppeln und halbieren zahlenraum 100",
+    "verdoppeln und halbieren zahlenraum 10000",
+    "verdoppeln und halbieren zahlenraum 20",
+    "verdoppeln und halbieren zahlenraum 10"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "englisch",
+   "stem": "englisch",
+   "demand": 44,
+   "phrases": [
+    "uhrzeit lernen englisch 4 klasse",
+    "uhrzeit lernen englisch",
+    "uhrzeit lernen englisch arbeitsblatt",
+    "uhrzeit lernen englisch 5 klasse",
+    "uhrzeit lernen englisch übungen",
+    "uhrzeit lernen in englisch"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "erstellen",
+   "stem": "erstell",
+   "demand": 43,
+   "phrases": [
+    "zahlenstrahl erstellen",
+    "zahlenstrahl erstellen online",
+    "zahlenstrahl erstellen word",
+    "zahlenstrahl in word erstellen",
+    "zahlenstrahl online erstellen",
+    "zahlenstrahl word erstellen"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "cloze",
+   "topic": "englisch",
+   "stem": "englisch",
+   "demand": 43,
+   "phrases": [
+    "lückentext englisch",
+    "lückentext englisch klasse 5",
+    "lückentext englisch klasse 6",
+    "lückentext englisch klasse 7",
+    "lückentext in englisch",
+    "lückentext to be englisch"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "oktober",
+   "stem": "oktob",
+   "demand": 42,
+   "phrases": [
+    "kalender oktober 2026",
+    "kalender oktober",
+    "kalender oktober 26",
+    "kalender oktober 2026 zum ausdrucken",
+    "kalender oktober 2027",
+    "kalender oktober 2026 zum ausdrucken kostenlos"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "september",
+   "stem": "septemb",
+   "demand": 42,
+   "phrases": [
+    "kalender september 2026",
+    "kalender september",
+    "kalender september 26",
+    "kalender september 2026 zum ausdrucken",
+    "kalender september 2027",
+    "kalender september 2026 pdf"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-problems",
+   "topic": "mathe",
+   "stem": "mathe",
+   "demand": 41,
+   "phrases": [
+    "sachaufgaben mathe klasse 3",
+    "sachaufgaben mathe klasse 4",
+    "sachaufgaben in mathe",
+    "sachaufgaben klasse 3 mathe",
+    "sachaufgaben mathe klasse 2",
+    "sachaufgaben mathe"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "cloze",
+   "topic": "erstellen",
+   "stem": "erstell",
+   "demand": 41,
+   "phrases": [
+    "lückentext erstellen",
+    "lückentext in word erstellen",
+    "lückentext online erstellen",
+    "lückentext quiz erstellen",
+    "lückentext zu youtube video erstellen"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "money",
+   "topic": "textaufgaben",
+   "stem": "textaufgab",
+   "demand": 39,
+   "phrases": [
+    "rechnen mit geld textaufgaben pdf",
+    "rechnen mit geld textaufgaben",
+    "rechnen mit geld klasse 3 textaufgaben",
+    "rechnen mit geld klasse 5 textaufgaben",
+    "rechnen mit geld klasse 4 textaufgaben",
+    "rechnen mit geld 2 klasse textaufgaben"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "deutschland",
+   "stem": "deutschland",
+   "demand": 39,
+   "phrases": [
+    "messen deutschland 2026",
+    "messen deutschland",
+    "messen deutschland 2027",
+    "messen in deutschland",
+    "messen in deutschland 2026"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "erwachsene",
+   "stem": "erwachsen",
+   "demand": 38,
+   "phrases": [
+    "schwungübungen erwachsene",
+    "schwungübungen erwachsene pdf kostenlos",
+    "schwungübungen erwachsene pdf",
+    "schwungübungen für erwachsene zum ausdrucken",
+    "schwungübungen für erwachsene",
+    "schwungübungen zum ausdrucken pdf erwachsene"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "negativen zahlen",
+   "stem": "negativ zahl",
+   "demand": 38,
+   "phrases": [
+    "zahlenstrahl mit negativen zahlen",
+    "zahlenstrahl mit negativen zahlen zum ausdrucken",
+    "zahlenstrahl negative zahlen",
+    "zahlenstrahl negative zahlen pdf",
+    "zahlenstrahl negative zahlen arbeitsblatt"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "franzosisch",
+   "stem": "franzosisch",
+   "demand": 38,
+   "phrases": [
+    "ordnungszahlen französisch",
+    "ordnungszahlen französisch pdf",
+    "ordnungszahlen französisch 1 20",
+    "ordnungszahlen französisch 1 100",
+    "ordnungszahlen französisch übungen",
+    "ordnungszahlen im französischen"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "uhrzeit",
+   "stem": "uhrzeit",
+   "demand": 38,
+   "phrases": [
+    "kalender uhrzeit 2027",
+    "kalender uhrzeit 2027 zum ausdrucken",
+    "kalender uhrzeit",
+    "kalender uhrzeit.de",
+    "kalender uhrzeit 2026"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "sight-words",
+   "topic": "zebra",
+   "stem": "zebra",
+   "demand": 37,
+   "phrases": [
+    "lernwörter zebra klasse 3",
+    "lernwörter zebra klasse 2",
+    "lernwörter zebra",
+    "lernwörter zebra 4",
+    "lernwörter zebra klasse 4"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "herbst",
+   "stem": "herbst",
+   "demand": 37,
+   "phrases": [
+    "schwungübungen herbst",
+    "schwungübungen herbst kostenlos",
+    "schwungübungen herbst kostenlos pdf",
+    "schwungübungen herbst kindergarten",
+    "schwungübungen herbst vorschule",
+    "schwungübungen im herbst"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "rationale zahlen",
+   "stem": "rational zahl",
+   "demand": 37,
+   "phrases": [
+    "zahlenstrahl für rationale zahlen",
+    "zahlenstrahl rationale zahlen",
+    "zahlenstrahl rationale zahlen pdf",
+    "zahlenstrahl rationale zahlen zum ausdrucken",
+    "zahlenstrahl rationale zahlen klasse 7"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-problems",
+   "topic": "quadratische funktionen",
+   "stem": "quadratisch funktion",
+   "demand": 37,
+   "phrases": [
+    "sachaufgaben quadratische funktionen",
+    "sachaufgaben quadratische funktionen pdf",
+    "sachaufgaben quadratische funktionen klasse 9",
+    "sachaufgaben quadratische funktionen mit lösungen",
+    "sachaufgaben zu quadratischen funktionen"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "deutsch",
+   "stem": "deutsch",
+   "demand": 37,
+   "phrases": [
+    "w-fragen deutsch",
+    "w-fragen deutsch pdf",
+    "w-fragen deutsch 5 klasse",
+    "w fragen deutsch übungen",
+    "w fragen deutsch a1",
+    "w fragen deutsch 6 klasse"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "logic-puzzles",
+   "topic": "deutsch",
+   "stem": "deutsch",
+   "demand": 37,
+   "phrases": [
+    "logicals deutsch",
+    "logicals deutsch 3 klasse",
+    "logicals deutsch 7 klasse",
+    "logicals deutsch 5 klasse",
+    "logicals deutsch 6 klasse",
+    "logicals deutsch grundschule"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "november",
+   "stem": "novemb",
+   "demand": 36,
+   "phrases": [
+    "kalender november 2026",
+    "kalender november",
+    "kalender november 26",
+    "kalender november 2026 zum ausdrucken",
+    "kalender november 2025"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-of-the-day",
+   "topic": "pikas",
+   "stem": "pikas",
+   "demand": 36,
+   "phrases": [
+    "zahl des tages pikas",
+    "zahl des tages klasse 2 pikas",
+    "zahl des tages klasse 1 pikas",
+    "zahl des tages pikas 100",
+    "zahl des tages pikas klasse 3",
+    "zahl des tages pikas klasse 2"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "heft",
+   "stem": "heft",
+   "demand": 35,
+   "phrases": [
+    "geometrie heft",
+    "geometrie heft klasse 1",
+    "geometrie heft a4",
+    "geometrie heft a5",
+    "geometrie heft 3 klasse"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "august",
+   "stem": "august",
+   "demand": 35,
+   "phrases": [
+    "kalender august 2026",
+    "kalender august",
+    "kalender august 2026 zum ausdrucken",
+    "kalender august 26",
+    "kalender august 2027"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-of-the-day",
+   "topic": "vorlage",
+   "stem": "vorlag",
+   "demand": 35,
+   "phrases": [
+    "zahl des tages grundschule vorlage",
+    "zahl des tages vorlage",
+    "zahl des tages vorlage kostenlos",
+    "zahl des tages klasse 1 vorlage"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "linkshander",
+   "stem": "linkshand",
+   "demand": 34,
+   "phrases": [
+    "schwungübungen für linkshänder",
+    "schwungübungen linkshänder pdf",
+    "schwungübungen linkshänder",
+    "schwungübungen linkshänder kostenlos"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "bruche",
+   "stem": "bruch",
+   "demand": 34,
+   "phrases": [
+    "zahlenstrahl brüche",
+    "zahlenstrahl für brüche",
+    "zahlenstrahl in brüche",
+    "zahlenstrahl mit brüchen",
+    "zahlenstrahl mit brüchen übungen",
+    "zahlenstrahl und brüche"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "aufgaben",
+   "stem": "aufgab",
+   "demand": 34,
+   "phrases": [
+    "zahlenstrahl aufgaben",
+    "zahlenstrahl aufgaben klasse 5",
+    "zahlenstrahl aufgaben pdf",
+    "zahlenstrahl aufgaben klasse 5 pdf",
+    "zahlenstrahl aufgaben 4 klasse"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "erweitern kurzen",
+   "stem": "erweiter kurz",
+   "demand": 34,
+   "phrases": [
+    "brüche erweitern und kürzen",
+    "brüche erweitern und kürzen übungen pdf",
+    "brüche erweitern und kürzen arbeitsblatt mit lösungen",
+    "brüche erweitern und kürzen arbeitsblatt pdf 6 klasse",
+    "brüche kürzen und erweitern",
+    "brüche kürzen und erweitern übungen pdf"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-walls",
+   "topic": "rechner",
+   "stem": "rechn",
+   "demand": 34,
+   "phrases": [
+    "zahlenmauern rechner",
+    "zahlenmauern rechnen 3 klasse",
+    "zahlenmauern rechnen 2 klasse",
+    "zahlenmauern rechnen 4 klasse",
+    "zahlenmauern rechnen 5 klasse",
+    "zahlenmauern rechnen 1 klasse"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fact-families",
+   "topic": "mathe",
+   "stem": "mathe",
+   "demand": 34,
+   "phrases": [
+    "aufgabenfamilien mathe",
+    "aufgabenfamilien mathe grundschule",
+    "aufgabenfamilien in mathe",
+    "aufgabenfamilien mathe klasse 1",
+    "aufgabenfamilien mathe klasse 3",
+    "aufgabenfamilien mathe klasse 4"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "spanisch",
+   "stem": "spanisch",
+   "demand": 33,
+   "phrases": [
+    "ordnungszahlen spanisch",
+    "ordnungszahlen im spanischen",
+    "ordnungszahlen spanisch 1 100",
+    "ordnungszahlen spanisch 1-10",
+    "ordnungszahlen spanisch übungen"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "wiederholen",
+   "stem": "wiederhol",
+   "demand": 33,
+   "phrases": [
+    "wortarten wiederholen",
+    "wortarten wiederholen klasse 3",
+    "wortarten wiederholen klasse 4",
+    "wortarten wiederholen klasse 2",
+    "wortarten wiederholen klasse 6"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "opposites",
+   "topic": "englisch",
+   "stem": "englisch",
+   "demand": 33,
+   "phrases": [
+    "gegenteile englisch",
+    "gegenteile englisch 6 klasse",
+    "gegenteile englisch übungen",
+    "gegenteile englisch 5. klasse",
+    "gegenteile in englisch"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-charts",
+   "topic": "leer",
+   "stem": "leer",
+   "demand": 32,
+   "phrases": [
+    "hundertertafel leer",
+    "hundertertafel leer zum ausdrucken",
+    "hundertertafel leer zum ausdrucken pdf",
+    "hundertertafel leer zum ausdrucken kostenlos"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "englisch",
+   "stem": "englisch",
+   "demand": 32,
+   "phrases": [
+    "ordnungszahlen englisch",
+    "ordnungszahlen englisch pdf",
+    "ordnungszahlen englisch 1 100",
+    "ordnungszahlen englisch 1 100 pdf",
+    "ordnungszahlen englisch übungen pdf",
+    "ordnungszahlen in englisch"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pronouns",
+   "topic": "franzosisch",
+   "stem": "franzosisch",
+   "demand": 32,
+   "phrases": [
+    "personalpronomen französisch",
+    "personalpronomen französisch übungen pdf",
+    "personalpronomen französisch pdf",
+    "personalpronomen französisch übungen",
+    "personalpronomen im französischen"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "quartal",
+   "stem": "quartal",
+   "demand": 32,
+   "phrases": [
+    "kalender quartal 2026",
+    "kalender quartal 2026 zum ausdrucken",
+    "kalender quartal",
+    "kalender quartal 2027",
+    "kalender quartal 4 2026"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "opposites",
+   "topic": "deutsch",
+   "stem": "deutsch",
+   "demand": 32,
+   "phrases": [
+    "gegenteile deutsch",
+    "gegenteile deutsch übungen pdf",
+    "gegenteile deutsch übungen",
+    "gegenteile deutsch a1",
+    "gegenteile in deutsch"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "buchstaben",
+   "stem": "buchstab",
+   "demand": 31,
+   "phrases": [
+    "schwungübungen buchstaben pdf kostenlos",
+    "schwungübungen buchstaben",
+    "schwungübungen buchstaben zum ausdrucken",
+    "schwungübungen zum ausdrucken pdf buchstaben"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "schreibschrift",
+   "stem": "schreibschrift",
+   "demand": 31,
+   "phrases": [
+    "schwungübungen für schreibschrift",
+    "schwungübungen schreibschrift",
+    "schwungübungen schreibschrift pdf kostenlos",
+    "schwungübungen schreibschrift kostenlos"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "russisch",
+   "stem": "russisch",
+   "demand": 31,
+   "phrases": [
+    "ordnungszahlen russisch",
+    "ordnungszahlen russisch 1-10",
+    "ordnungszahlen russisch 1 31",
+    "ordnungszahlen russisch 1-20",
+    "ordnungszahlen russisch 1 100"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "verb-forms",
+   "topic": "deutsch",
+   "stem": "deutsch",
+   "demand": 31,
+   "phrases": [
+    "verbformen deutsch",
+    "verbformen deutsch übungen",
+    "verbformen deutsch pdf",
+    "verbformen deutsch 5 klasse",
+    "verbformen deutsch 3 klasse",
+    "verbformen im deutschen"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "sight-words",
+   "topic": "stationen",
+   "stem": "station",
+   "demand": 30,
+   "phrases": [
+    "lernwörter an stationen",
+    "lernwörter stationen",
+    "lernwörter stationen grundschule",
+    "lernwörter stationen klasse 2",
+    "lernwörter stationen klasse 3"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "sight-words",
+   "topic": "herbst",
+   "stem": "herbst",
+   "demand": 30,
+   "phrases": [
+    "lernwörter herbst",
+    "lernwörter herbst klasse 3",
+    "lernwörter herbst klasse 4",
+    "lernwörter herbst klasse 2"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "ordnen",
+   "stem": "ordn",
+   "demand": 30,
+   "phrases": [
+    "brüche ordnen",
+    "brüche ordnen arbeitsblatt mit lösungen",
+    "brüche ordnen arbeitsblatt",
+    "brüche ordnen klasse 6",
+    "brüche ordnen pdf",
+    "brüche ordnen klasse 6 arbeitsblätter"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "berlin",
+   "stem": "berli",
+   "demand": 30,
+   "phrases": [
+    "messen berlin",
+    "messen berlin 2026",
+    "messen berlin 2027",
+    "messen in berlin"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "mental-math",
+   "topic": "spiele",
+   "stem": "spiel",
+   "demand": 30,
+   "phrases": [
+    "kopfrechnen grundschule spiele",
+    "kopfrechnen online spiel",
+    "kopfrechnen online spiel grundschule",
+    "kopfrechnen spiel",
+    "kopfrechnen spiele grundschule",
+    "kopfrechnen spiel online"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "dezember",
+   "stem": "dezemb",
+   "demand": 30,
+   "phrases": [
+    "kalender dezember 2026",
+    "kalender dezember 26",
+    "kalender dezember 2027",
+    "kalender dezember",
+    "kalender dezember 2025",
+    "kalender dezember 2026 zum ausdrucken"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "herbst",
+   "stem": "herbst",
+   "demand": 29,
+   "phrases": [
+    "bildkarten herbst",
+    "bildkarten herbst kostenlos",
+    "bildkarten herbst grundschule",
+    "bildkarten herbst zum ausdrucken",
+    "bildkarten herbst pdf"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "wordwall",
+   "stem": "wordwall",
+   "demand": 29,
+   "phrases": [
+    "w fragen a1 wordwall",
+    "w-fragen wordwall",
+    "w fragen wordwall a1",
+    "w fragen wordwall a2"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "deutsch",
+   "stem": "deutsch",
+   "demand": 29,
+   "phrases": [
+    "leseverständnis b2 deutsch",
+    "leseverständnis deutsch 4. klasse",
+    "leseverständnis deutsch",
+    "leseverständnis deutsch a2",
+    "leseverständnis deutsch 3 klasse übungen kostenlos",
+    "leseverständnis deutsch pdf"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "marchen",
+   "stem": "march",
+   "demand": 29,
+   "phrases": [
+    "leseverständnis märchen",
+    "leseverständnis märchen klasse 3",
+    "leseverständnis märchen 5 klasse",
+    "leseverständnis märchen klasse 4"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-words",
+   "topic": "groß oder klein",
+   "stem": "groß oder klein",
+   "demand": 29,
+   "phrases": [
+    "zahlwörter groß oder klein",
+    "zahlwörter groß oder klein übungen",
+    "zahlwörter groß oder klein übungen pdf",
+    "zahlwörter klein oder groß"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "logic-puzzles",
+   "topic": "ratsel",
+   "stem": "ratsel",
+   "demand": 29,
+   "phrases": [
+    "logicals rätsel",
+    "logicals rätsel online",
+    "logicals rätsel zum ausdrucken",
+    "logicals rätsel pdf"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "juli",
+   "stem": "juli",
+   "demand": 29,
+   "phrases": [
+    "kalender juli 2026",
+    "kalender juli",
+    "kalender juli 2027",
+    "kalender juli 26",
+    "kalender juli 2026 zum ausdrucken"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "spelling-rules",
+   "topic": "deutsch",
+   "stem": "deutsch",
+   "demand": 29,
+   "phrases": [
+    "rechtschreibregeln deutsch",
+    "rechtschreibregeln deutsch 5 klasse",
+    "rechtschreibregeln deutsch 3 klasse",
+    "rechtschreibregeln deutsch grundschule",
+    "rechtschreibregeln deutsch 6 klasse",
+    "rechtschreibregeln im deutschen"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-word-cards",
+   "topic": "buchstabe",
+   "stem": "buchstab",
+   "demand": 28,
+   "phrases": [
+    "bildkarten buchstabe a",
+    "bildkarten buchstabe m",
+    "bildkarten buchstabe o",
+    "bildkarten buchstabe l",
+    "bildkarten buchstabe x",
+    "bildkarten buchstabe y"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "vorlage",
+   "stem": "vorlag",
+   "demand": 28,
+   "phrases": [
+    "zahlenstrahl vorlage",
+    "zahlenstrahl vorlage pdf",
+    "zahlenstrahl vorlage word",
+    "zahlenstrahl word vorlage"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "darstellen",
+   "stem": "darstell",
+   "demand": 28,
+   "phrases": [
+    "brüche darstellen",
+    "brüche darstellen klasse 6",
+    "brüche darstellen arbeitsblatt pdf",
+    "brüche darstellen klasse 6 pdf"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "aufgaben",
+   "stem": "aufgab",
+   "demand": 28,
+   "phrases": [
+    "geometrie aufgaben",
+    "geometrie aufgaben mit lösungen pdf",
+    "geometrie aufgaben klasse 5 mit lösungen",
+    "geometrie aufgaben klasse 5 mit lösungen kostenlos",
+    "geometrie aufgaben pdf",
+    "geometrie aufgaben klasse 4"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "koln",
+   "stem": "koln",
+   "demand": 28,
+   "phrases": [
+    "messen in köln 2026",
+    "messen köln 2026",
+    "messen köln",
+    "messen köln 2027"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "multiplication-tables",
+   "topic": "welcher",
+   "stem": "welch",
+   "demand": 28,
+   "phrases": [
+    "kleines einmaleins in welcher klasse",
+    "kleines einmaleins welche klasse",
+    "kleines einmaleins ab welcher klasse"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "prapositionen",
+   "stem": "praposition",
+   "demand": 28,
+   "phrases": [
+    "w-fragen mit präpositionen",
+    "w fragen mit präpositionen übungen pdf",
+    "w fragen mit präpositionen übungen",
+    "w fragen mit präpositionen a2"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  }
+ ],
+ "covered": 286
+}

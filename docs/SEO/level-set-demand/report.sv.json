@@ -1,0 +1,1646 @@
+{
+ "locale": "sv",
+ "harvested": 1971,
+ "clusters": 2393,
+ "candidates": [
+  {
+   "type": "fractions",
+   "topic": "form",
+   "stem": "form",
+   "demand": 10,
+   "phrases": [
+    "bråk form"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "brak-svar-former-g3320 — Del av gruppen — Former"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "enhorning",
+   "stem": "enhorning",
+   "demand": 10,
+   "phrases": [
+    "rita steg för steg enhörning"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "rita-steg-for-steg-svar-g2390-17 — Rita en enhörning och skriv några meningar om teckningen"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "katt",
+   "stem": "katt",
+   "demand": 10,
+   "phrases": [
+    "måla efter siffror katt"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "mala-efter-siffror-latt-k393-45-nightcat — Måla efter nummer: Katt på natten",
+    "mala-efter-siffror-k394-2-cat — Måla efter nummer: Katt",
+    "mala-efter-siffror-latt-k393-21-catgarden — Måla efter nummer: Katt i trädgården"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "panda",
+   "stem": "panda",
+   "demand": 9,
+   "phrases": [
+    "rita steg för steg panda"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "rita-steg-for-steg-latt-k401-6 — Rita en panda av enkla former",
+    "rita-steg-for-steg-latt-k404-7 — Rita en panda och skriv ordet",
+    "rita-steg-for-steg-latt-k396-6 — Hur man ritar en panda steg för steg"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "rav",
+   "stem": "rav",
+   "demand": 9,
+   "phrases": [
+    "rita steg för steg räv"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "rita-steg-for-steg-latt-g1419-2 — Rita steg för steg: en räv",
+    "rita-steg-for-steg-svar-k403-16 — Gör färdigt teckningen av en räv"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "glass",
+   "stem": "glass",
+   "demand": 8,
+   "phrases": [
+    "rita steg för steg glass"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "rita-steg-for-steg-svar-g1419-13 — Rita steg för steg: en glassbil",
+    "rita-steg-for-steg-k396-21 — Hur man ritar en glassbägare steg för steg",
+    "rita-steg-for-steg-svar-k396-29 — Hur man ritar en glassbil steg för steg",
+    "rita-steg-for-steg-k402-12 — Rita över en glassbägare, rita sedan själv"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "lejon",
+   "stem": "lejon",
+   "demand": 8,
+   "phrases": [
+    "rita steg för steg lejon"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "rita-steg-for-steg-g1416-10 — Rita ett lejon ruta för ruta",
+    "rita-steg-for-steg-svar-g1418-16 — Ordna stegen: rita ett lejon"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "ren",
+   "stem": "ren",
+   "demand": 8,
+   "phrases": [
+    "rita steg för steg ren"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "rita-steg-for-steg-latt-g1419-6 — Rita steg för steg: en ren",
+    "rita-steg-for-steg-k403-12 — Gör färdigt teckningen av en ren"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "snogubbe",
+   "stem": "snogubb",
+   "demand": 7,
+   "phrases": [
+    "rita steg för steg snögubbe"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "rita-steg-for-steg-latt-g1418-7 — Ordna stegen: rita en snögubbe",
+    "rita-steg-for-steg-latt-k396-7 — Hur man ritar en snögubbe steg för steg",
+    "rita-steg-for-steg-svar-k403-17 — Gör färdigt teckningen av en snögubbe",
+    "rita-steg-for-steg-latt-g2391-2 — Rita en snögubbe ur minnet"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "var",
+   "stem": "var",
+   "demand": 7,
+   "phrases": [
+    "ordklasser var"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "ordklasser-svar-var-g1300-3 — Substantiv och adjektiv — Vår",
+    "ordklasser-latt-var-g2286 — Ordklasser utan bildstöd — Vår"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "articles",
+   "topic": "aktivitet",
+   "stem": "aktivit",
+   "demand": 7,
+   "phrases": [
+    "en eller ett aktivitet"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "en-eller-ett-latt-aktiviteter-g1292-5 — Sortera en-ord och ett-ord — Aktiviteter"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "read-and-color",
+   "topic": "jul",
+   "stem": "jul",
+   "demand": 6,
+   "phrases": [
+    "läs och måla jul"
+   ],
+   "phraseCount": 1,
+   "supply": 9,
+   "supplySample": [
+    "las-och-mala-latt-jul-s-v-g1242 — Läs och måla — Jul S/V",
+    "las-och-mala-jul-s-v-g1242-48 — Läs och måla — Jul S/V",
+    "las-och-mala-svar-jul-s-v-g1242-89 — Läs och måla — Jul S/V",
+    "las-och-mala-latt-jul-s-v-2-g1242-2 — Läs och måla — Jul S/V 2"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "hus",
+   "stem": "hus",
+   "demand": 6,
+   "phrases": [
+    "rita steg för steg hus"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "rita-steg-for-steg-g1418-12 — Ordna stegen: rita ett hus",
+    "rita-steg-for-steg-svar-k396-28 — Hur man ritar ett hus steg för steg"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "pingvin",
+   "stem": "pingvi",
+   "demand": 6,
+   "phrases": [
+    "rita steg för steg pingvin"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "rita-steg-for-steg-latt-g2390-7 — Rita en pingvin och skriv några meningar om teckningen",
+    "rita-steg-for-steg-k396-15 — Hur man ritar en pingvin steg för steg",
+    "rita-steg-for-steg-latt-k404-2 — Rita en pingvin och skriv ordet"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "fotboll",
+   "stem": "fotboll",
+   "demand": 6,
+   "phrases": [
+    "läsförståelse fotboll"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "lasforstaelse-latt-g2271-8 — Läsförståelse: Ture tränar fotboll",
+    "lasforstaelse-g2271-2 — Läsförståelse: Ture tränar fotboll",
+    "lasforstaelse-svar-g2271-13 — Läsförståelse: Ture tränar fotboll"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "read-and-color",
+   "topic": "pask",
+   "stem": "pask",
+   "demand": 4,
+   "phrases": [
+    "läs och måla påsk"
+   ],
+   "phraseCount": 1,
+   "supply": 9,
+   "supplySample": [
+    "las-och-mala-latt-pask-sv-g1242-3 — Läs och måla — Påsk SV",
+    "las-och-mala-pask-sv-g1242-50 — Läs och måla — Påsk SV",
+    "las-och-mala-svar-pask-sv-g1242-91 — Läs och måla — Påsk SV",
+    "las-och-mala-latt-pask-sv-2-g1242-4 — Läs och måla — Påsk SV 2"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "till",
+   "stem": "till",
+   "demand": 4,
+   "phrases": [
+    "ordklasser till"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "ordklasser-latt-tillbehor-g1300 — Substantiv och adjektiv — Tillbehör",
+    "ordklasser-latt-tillbehor-g2275-4 — Substantiv, verb och adjektiv — Tillbehör"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "bilder",
+   "stem": "bild",
+   "demand": 3,
+   "phrases": [
+    "rita steg för steg bilder"
+   ],
+   "phraseCount": 1,
+   "supply": 17,
+   "supplySample": [
+    "rita-steg-for-steg-latt-g1417-2 — Rita en papegoja i bilden",
+    "rita-steg-for-steg-latt-g1417-3 — Rita en skåpbil i bilden",
+    "rita-steg-for-steg-latt-g1417-4 — Rita en uggla i bilden",
+    "rita-steg-for-steg-latt-g1417-5 — Rita en anka i bilden"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "poster",
+   "stem": "post",
+   "demand": 3,
+   "phrases": [
+    "ordklasser poster"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "ordklasser-postkontor-g1300-5 — Substantiv och adjektiv — Postkontor",
+    "ordklasser-svar-postkontor-g2286-5 — Ordklasser utan bildstöd — Postkontor"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "lucia",
+   "stem": "lucia",
+   "demand": 2,
+   "phrases": [
+    "läsförståelse lucia"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "lasforstaelse-latt-g2270-9 — Läsförståelse: Liv är lucia",
+    "lasforstaelse-g2270-3 — Läsförståelse: Liv är lucia",
+    "lasforstaelse-svar-g2270-14 — Läsförståelse: Liv är lucia"
+   ],
+   "covered": false,
+   "coveredBy": null
+  }
+ ],
+ "contentIdeas": [
+  {
+   "type": "reading-comprehension",
+   "topic": "engelska",
+   "stem": "engelsk",
+   "demand": 68,
+   "phrases": [
+    "läsförståelse engelska",
+    "läsförståelse engelska åk 7 övningar pdf",
+    "läsförståelse engelska åk 6",
+    "läsförståelse engelska åk 4",
+    "läsförståelse engelska åk 9",
+    "läsförståelse engelska åk 5"
+   ],
+   "phraseCount": 11,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "svenska",
+   "stem": "svensk",
+   "demand": 49,
+   "phrases": [
+    "läsförståelse svenska",
+    "läsförståelse svenska övningar pdf",
+    "läsförståelse np åk 9 svenska",
+    "läsförståelse svenska åk 7 övningar pdf",
+    "läsförståelse svenska övningar pdf åk 3",
+    "läsförståelse svenska övningar pdf åk 2"
+   ],
+   "phraseCount": 10,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "valet",
+   "stem": "valet",
+   "demand": 47,
+   "phrases": [
+    "mätning valet 2026",
+    "mätning valet",
+    "mätning för valet",
+    "mätning i valet",
+    "mätning i valet 2026",
+    "mätning om valet"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "korsord bokstaver",
+   "stem": "korsord bokstav",
+   "demand": 42,
+   "phrases": [
+    "ordningstal korsord 6 bokstäver",
+    "ordningstal korsord 7 bokstäver",
+    "ordningstal korsord 8 bokstäver",
+    "ordningstal 6 bokstäver korsord",
+    "ordningstal 7 bokstäver korsord",
+    "ordningstal korsord 2 bokstäver"
+   ],
+   "phraseCount": 9,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "column-arithmetic",
+   "topic": "multiplikation",
+   "stem": "multiplikatio",
+   "demand": 36,
+   "phrases": [
+    "uppställning multiplikation",
+    "uppställning av multiplikation",
+    "uppställning i multiplikation",
+    "uppställning med multiplikation",
+    "uppställning multiplikation åk 4",
+    "uppställning multiplikation åk 5"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "jul",
+   "stem": "jul",
+   "demand": 34,
+   "phrases": [
+    "läsförståelse jul",
+    "läsförståelse jul gratis",
+    "läsförståelse jul åk 3",
+    "läsförståelse jul åk 1"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "uppgifter",
+   "stem": "uppgift",
+   "demand": 34,
+   "phrases": [
+    "läsförståelse uppgifter",
+    "läsförståelse uppgifter åk 2",
+    "läsförståelse uppgifter åk 3",
+    "läsförståelse uppgifter åk 6",
+    "läsförståelse uppgifter åk 1",
+    "läsförståelse uppgifter åk 4"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "negativa positiva tal",
+   "stem": "negativ positiv tal",
+   "demand": 33,
+   "phrases": [
+    "tallinje med negativa och positiva tal",
+    "tallinje negativa och positiva tal",
+    "tallinje negativa och positiva tal skriva ut",
+    "tallinje positiva och negativa tal"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "spanska",
+   "stem": "spansk",
+   "demand": 31,
+   "phrases": [
+    "frågeord spanska",
+    "frågeord i spanska",
+    "frågeord på spanska",
+    "frågeord spanska övningar"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "korsord bokstaver",
+   "stem": "korsord bokstav",
+   "demand": 28,
+   "phrases": [
+    "frågeord korsord 4 bokstäver",
+    "frågeord 4 bokstäver korsord",
+    "frågeord 3 bokstäver korsord",
+    "frågeord korsord 2 bokstäver",
+    "frågeord korsord 3 bokstäver"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "decimaltal",
+   "stem": "decimaltal",
+   "demand": 27,
+   "phrases": [
+    "tallinje decimaltal",
+    "tallinje decimaltal skriva ut",
+    "tallinje med decimaltal"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "matte",
+   "stem": "matte",
+   "demand": 27,
+   "phrases": [
+    "bråk matte",
+    "bråk i matte",
+    "bråk matte åk 3",
+    "bråk matte åk 5",
+    "bråk matte åk 9"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "korsord bokstaver",
+   "stem": "korsord bokstav",
+   "demand": 27,
+   "phrases": [
+    "bråk korsord 6 bokstäver",
+    "bråk korsord 3 bokstäver",
+    "bråk korsord 8 bokstäver",
+    "bråk korsord 5 bokstäver",
+    "bråk korsord 4 bokstäver",
+    "bråk korsord 2 bokstäver"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "stodstrumpor",
+   "stem": "stodstrumpor",
+   "demand": 27,
+   "phrases": [
+    "mätning av stödstrumpor",
+    "mätning för stödstrumpor",
+    "mätning stödstrumpor"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "usa",
+   "stem": "usa",
+   "demand": 26,
+   "phrases": [
+    "klockan i usa",
+    "klockan nu i usa",
+    "klockan usa",
+    "klockan usa nu"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "engelska",
+   "stem": "engelsk",
+   "demand": 26,
+   "phrases": [
+    "ordklasser engelska",
+    "ordklasser engelsk pdf",
+    "ordklasser i engelsk",
+    "ordklasser på engelska"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "bokstaver",
+   "stem": "bokstav",
+   "demand": 26,
+   "phrases": [
+    "frågeord 4 bokstäver",
+    "frågeord 2 bokstäver",
+    "frågeord 3 bokstäver",
+    "frågeord 5 bokstäver"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "svenska",
+   "stem": "svensk",
+   "demand": 25,
+   "phrases": [
+    "ordklasser svenska",
+    "ordklasser på svenska",
+    "ordklasser svenska övningar",
+    "ordklasser svenska 2"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "cursive-writing",
+   "topic": "litet",
+   "stem": "litet",
+   "demand": 25,
+   "phrases": [
+    "skrivstil litet r",
+    "skrivstil litet t",
+    "skrivstil litet f",
+    "skrivstil litet z",
+    "skrivstil litet k"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "compound-words",
+   "topic": "svenska",
+   "stem": "svensk",
+   "demand": 25,
+   "phrases": [
+    "sammansatta ord i svenska",
+    "sammansatta ord på svenska",
+    "sammansatta ord svenska"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "engelska",
+   "stem": "engelsk",
+   "demand": 24,
+   "phrases": [
+    "frågeord engelska",
+    "frågeord engelska arbetsblad",
+    "frågeord engelska övningar",
+    "frågeord på engelska"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "question-words",
+   "topic": "svenska",
+   "stem": "svensk",
+   "demand": 24,
+   "phrases": [
+    "frågeord svenska",
+    "frågeord i svenska",
+    "frågeord på svenska",
+    "frågeord svenska pdf",
+    "frågeord svenska övningar"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "nationella prov",
+   "stem": "nationell prov",
+   "demand": 24,
+   "phrases": [
+    "läsförståelse nationella prov åk 3",
+    "läsförståelse nationella prov åk 9",
+    "läsförståelse nationella prov"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "sekunder",
+   "stem": "sekund",
+   "demand": 23,
+   "phrases": [
+    "klockan nu med sekunder",
+    "klockan med sekunder",
+    "klockan sekunder"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "column-arithmetic",
+   "topic": "division",
+   "stem": "divisio",
+   "demand": 22,
+   "phrases": [
+    "uppställning division",
+    "uppställning av division",
+    "uppställning division åk 6",
+    "uppställning division åk 5",
+    "uppställning med division"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "feelings",
+   "topic": "bilder",
+   "stem": "bild",
+   "demand": 22,
+   "phrases": [
+    "känslor bilder",
+    "känslor bilder för barn",
+    "känslor bilder förskola"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "decimaltal",
+   "stem": "decimaltal",
+   "demand": 21,
+   "phrases": [
+    "bråk decimaltal",
+    "bråk med decimaltal",
+    "bråk och decimaltal",
+    "bråk och decimaltal åk 5"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "final",
+   "stem": "final",
+   "demand": 21,
+   "phrases": [
+    "bråk final vm",
+    "bråk vm final",
+    "bråk vm final 2026"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "texter fragor",
+   "stem": "text fragor",
+   "demand": 21,
+   "phrases": [
+    "läsförståelse texter med frågor åk 2 gratis",
+    "läsförståelse texter med frågor åk 6 gratis",
+    "läsförståelse texter med frågor åk 2",
+    "läsförståelse texter med frågor åk 3"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-of-the-day",
+   "topic": "klasse",
+   "stem": "klass",
+   "demand": 21,
+   "phrases": [
+    "dagens tal 1 klasse",
+    "dagens tal 0 klasse",
+    "dagens tal 3 klasse"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "engelska",
+   "stem": "engelsk",
+   "demand": 20,
+   "phrases": [
+    "bråk engelska",
+    "bråk på engelska"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "efter finalen",
+   "stem": "efter final",
+   "demand": 20,
+   "phrases": [
+    "bråk efter vm finalen",
+    "bråk efter finalen",
+    "bråk efter vm finalen 2026"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "korsord",
+   "stem": "korsord",
+   "demand": 20,
+   "phrases": [
+    "ordningstal korsord",
+    "ordningstal i korsord"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "kuralı",
+   "stem": "kuralı",
+   "demand": 20,
+   "phrases": [
+    "geometri u kuralı",
+    "geometri z kuralı"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "column-arithmetic",
+   "topic": "schack",
+   "stem": "schack",
+   "demand": 20,
+   "phrases": [
+    "uppställning schack",
+    "uppställning i schack"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "column-arithmetic",
+   "topic": "engelska",
+   "stem": "engelsk",
+   "demand": 20,
+   "phrases": [
+    "uppställning engelska",
+    "uppställning på engelska"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "japan",
+   "stem": "japan",
+   "demand": 20,
+   "phrases": [
+    "klockan i japan",
+    "klockan japan",
+    "klockan japan nu",
+    "klockan nu i japan"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "ipsos",
+   "stem": "ipsos",
+   "demand": 20,
+   "phrases": [
+    "mätning dn ipsos",
+    "mätning dn/ipsos",
+    "mätning ipsos"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "feelings",
+   "topic": "engelska",
+   "stem": "engelsk",
+   "demand": 20,
+   "phrases": [
+    "känslor engelska",
+    "känslor på engelska"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "datum",
+   "stem": "datum",
+   "demand": 19,
+   "phrases": [
+    "ordningstal datum",
+    "ordningstal och datum"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "matte",
+   "stem": "matte",
+   "demand": 19,
+   "phrases": [
+    "geometri matte",
+    "geometri matte 2b"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "los angeles",
+   "stem": "los angel",
+   "demand": 19,
+   "phrases": [
+    "klockan i los angeles",
+    "klockan los angeles",
+    "klockan los angeles nu"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "hemblodtryck",
+   "stem": "hemblodtryck",
+   "demand": 19,
+   "phrases": [
+    "mätning av hemblodtryck",
+    "mätning hemblodtryck"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "infor valet",
+   "stem": "infor valet",
+   "demand": 19,
+   "phrases": [
+    "mätning inför valet 2026",
+    "mätning inför valet"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "novus tv4",
+   "stem": "novus tv4",
+   "demand": 19,
+   "phrases": [
+    "mätning novus tv4",
+    "mätning tv4 novus"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "dot-to-dot",
+   "topic": "jul",
+   "stem": "jul",
+   "demand": 19,
+   "phrases": [
+    "prick till prick jul",
+    "prick till prick jul gratis"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "mental-math",
+   "topic": "engelska",
+   "stem": "engelsk",
+   "demand": 19,
+   "phrases": [
+    "huvudräkning engelska",
+    "huvudräkning på engelska"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "compound-words",
+   "topic": "jul",
+   "stem": "jul",
+   "demand": 19,
+   "phrases": [
+    "sammansatta ord jul",
+    "sammansatta ord med jul"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "goteborg",
+   "stem": "goteborg",
+   "demand": 18,
+   "phrases": [
+    "bråk göteborg",
+    "bråk i göteborg"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "engelska",
+   "stem": "engelsk",
+   "demand": 18,
+   "phrases": [
+    "ordningstal engelska",
+    "ordningstal på engelska"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "spanska",
+   "stem": "spansk",
+   "demand": 18,
+   "phrases": [
+    "ordningstal på spanska",
+    "ordningstal spanska"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "graphing-data",
+   "topic": "valet",
+   "stem": "valet",
+   "demand": 18,
+   "phrases": [
+    "diagram för valet 2026",
+    "diagram valet 2026"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "graphing-data",
+   "topic": "google",
+   "stem": "googl",
+   "demand": 18,
+   "phrases": [
+    "diagram google",
+    "diagram google sheets"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "color-by-number",
+   "topic": "vuxna",
+   "stem": "vuxna",
+   "demand": 18,
+   "phrases": [
+    "måla efter siffror vuxna",
+    "måla efter siffror för vuxna"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "cypern",
+   "stem": "cyper",
+   "demand": 18,
+   "phrases": [
+    "klockan cypern",
+    "klockan på cypern"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "word-classes",
+   "topic": "latin",
+   "stem": "latin",
+   "demand": 18,
+   "phrases": [
+    "ordklasser i latin",
+    "ordklasser latin"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rounding",
+   "topic": "gallande siffror",
+   "stem": "galland siffror",
+   "demand": 18,
+   "phrases": [
+    "avrundning gällande siffror",
+    "avrundning och gällande siffror"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "prov",
+   "stem": "prov",
+   "demand": 18,
+   "phrases": [
+    "läsförståelse prov åk 8",
+    "läsförståelse prov åk 9",
+    "läsförståelse prov åk 7",
+    "läsförståelse prov"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "synonyms",
+   "topic": "korsord",
+   "stem": "korsord",
+   "demand": 18,
+   "phrases": [
+    "synonymer korsord",
+    "synonymer.se korsord",
+    "synonymer korsord gratis"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "sentence-building",
+   "topic": "engelska",
+   "stem": "engelsk",
+   "demand": 18,
+   "phrases": [
+    "meningsbyggnad engelska",
+    "meningsbyggnad på engelska"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "compound-words",
+   "topic": "raket",
+   "stem": "raket",
+   "demand": 18,
+   "phrases": [
+    "sammansatta ord med raket",
+    "sammansatta ord raket"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "graphing-data",
+   "topic": "excel",
+   "stem": "excel",
+   "demand": 17,
+   "phrases": [
+    "diagram excel",
+    "diagram i excel"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "new york",
+   "stem": "new york",
+   "demand": 17,
+   "phrases": [
+    "klockan i new york",
+    "klockan nu i new york",
+    "klockan new york",
+    "klockan new york nu"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "telling-time",
+   "topic": "washington",
+   "stem": "washingto",
+   "demand": 17,
+   "phrases": [
+    "klockan washington dc",
+    "klockan washington"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "partierna",
+   "stem": "partiern",
+   "demand": 17,
+   "phrases": [
+    "mätning av partierna",
+    "mätning partierna"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "efter valet",
+   "stem": "efter valet",
+   "demand": 17,
+   "phrases": [
+    "mätning efter valet",
+    "mätning efter valet 2026"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rounding",
+   "topic": "engelska",
+   "stem": "engelsk",
+   "demand": 17,
+   "phrases": [
+    "avrundning engelska",
+    "avrundning på engelska"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rounding",
+   "topic": "faktura",
+   "stem": "faktur",
+   "demand": 17,
+   "phrases": [
+    "avrundning faktura",
+    "avrundning på faktura"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "facit",
+   "stem": "facit",
+   "demand": 17,
+   "phrases": [
+    "läsförståelse c facit",
+    "läsförståelse d facit"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "synonyms",
+   "topic": "engelska",
+   "stem": "engelsk",
+   "demand": 17,
+   "phrases": [
+    "synonymer engelska",
+    "synonymer på engelska"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "cursive-writing",
+   "topic": "engelska",
+   "stem": "engelsk",
+   "demand": 17,
+   "phrases": [
+    "skrivstil engelska",
+    "skrivstil på engelska"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "cursive-writing",
+   "topic": "stort",
+   "stem": "stort",
+   "demand": 17,
+   "phrases": [
+    "skrivstil stort i",
+    "skrivstil stort f",
+    "skrivstil stort t",
+    "skrivstil stort y"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "opposites",
+   "topic": "korsord bokstaver",
+   "stem": "korsord bokstav",
+   "demand": 17,
+   "phrases": [
+    "motsatsord korsord 5 bokstäver",
+    "motsatsord korsord 7 bokstäver"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "feelings",
+   "topic": "insidan",
+   "stem": "insida",
+   "demand": 17,
+   "phrases": [
+    "känslor insidan ut 2",
+    "känslor i insidan ut"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "compound-words",
+   "topic": "forskolan",
+   "stem": "forskola",
+   "demand": 17,
+   "phrases": [
+    "sammansatta ord förskolan",
+    "sammansatta ord i förskolan"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "compound-words",
+   "topic": "hus",
+   "stem": "hus",
+   "demand": 17,
+   "phrases": [
+    "sammansatta ord hus",
+    "sammansatta ord med hus"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "brak",
+   "stem": "brak",
+   "demand": 16,
+   "phrases": [
+    "tallinje bråk",
+    "tallinje med bråk"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "engelska",
+   "stem": "engelsk",
+   "demand": 16,
+   "phrases": [
+    "tallinje engelska",
+    "tallinje på engelska"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "curling",
+   "stem": "curling",
+   "demand": 16,
+   "phrases": [
+    "bråk curling",
+    "bråk curling os",
+    "bråk curling os 2026"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "graphing-data",
+   "topic": "creator",
+   "stem": "creator",
+   "demand": 16,
+   "phrases": [
+    "diagram creator",
+    "diagram creator ai"
+   ],
+   "phraseCount": 2,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  }
+ ],
+ "covered": 83
+}

@@ -1,0 +1,1497 @@
+{
+ "_note": "Level Set hub pages (build-level-set-hubs.js). decks are recomputed on every run; copy, slug and exclude are kept.",
+ "hubs": [
+  {
+   "slug": "production-d-ecrit-vacances",
+   "type": "picture-writing",
+   "topic": "vacances",
+   "kind": "theme",
+   "phrases": [
+    "production d'écrit vacances",
+    "production d écrit vacances ce1",
+    "production d'écrit vacances cp",
+    "production d'écrit voyage",
+    "production d'écrit voyage cm"
+   ],
+   "demand": 42,
+   "decks": [
+    {
+     "slug": "production-d-ecrit-facile-voyages-et-vacances-nb-g2278-86",
+     "title": "Production d'écrit : écrire à partir d'une image — Voyages et Vacances NB",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "production-d-ecrit-voyages-et-vacances-nb-g2278-185",
+     "title": "Production d'écrit : écrire à partir d'une image — Voyages et Vacances NB",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "production-d-ecrit-difficile-voyages-et-vacances-nb-g2278-283",
+     "title": "Production d'écrit : écrire à partir d'une image — Voyages et Vacances NB",
+     "level": "hard",
+     "bw": true
+    }
+   ],
+   "deckTotal": 3,
+   "exclude": [],
+   "h1": "Production d'écrit : les vacances",
+   "title": "Production d'écrit vacances – CP et CE1 (PDF)",
+   "metaDescription": "Production d'écrit sur les vacances et les voyages : écrire à partir d'une image, avec banque de mots et débuts de phrase, en trois niveaux. PDF.",
+   "p1": "Une valise, une tente, un avion, une carte : les vacances donnent envie de raconter. Sur ces fiches de production d'écrit, l'enfant regarde des images sur le thème des voyages et des vacances et écrit à partir de ce qu'il voit. Une banque de mots illustrée l'aide à trouver le vocabulaire, pour qu'il puisse se concentrer sur la construction de ses phrases.",
+   "p2": "La collection comprend trois fiches en noir et blanc, une par niveau. Au niveau facile, la page propose quatre images avec un début de phrase pour chacune, que l'enfant n'a plus qu'à compléter. Au niveau moyen, il y a six images et deux débuts d'histoire pour lancer l'écriture. Au niveau difficile, l'enfant écrit sur six images sans aucun début de phrase. Les images en noir et blanc peuvent être coloriées une fois le texte écrit, ce qui fait de la fiche un petit document à garder.",
+   "p3": "Les fiches conviennent au CP pour le niveau facile, dès que les élèves écrivent des phrases courtes, et au CE1 pour les niveaux moyen et difficile. Elles se prêtent bien au retour des vacances, quand chacun a quelque chose à raconter, ou aux dernières semaines avant l'été. Avant d'écrire, on peut décrire les images à l'oral en groupe : ce qui a été dit à voix haute s'écrit ensuite beaucoup plus facilement. Pour les élèves qui progressent, passer d'un niveau au suivant montre bien comment on apprend à écrire de plus en plus seul."
+  },
+  {
+   "slug": "graphisme-traits-verticaux",
+   "type": "pre-writing",
+   "topic": "traits verticaux",
+   "kind": "theme",
+   "phrases": [
+    "graphisme traits verticaux",
+    "graphisme traits verticaux ms",
+    "graphisme traits verticaux gs",
+    "graphisme oblique gs",
+    "graphisme oblique"
+   ],
+   "demand": 36,
+   "decks": [
+    {
+     "slug": "graphisme-facile-divers-k385",
+     "title": "Graphisme : traits verticaux, obliques et croix — Divers",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "graphisme-facile-espace-k385-3",
+     "title": "Graphisme : traits verticaux, obliques et croix — Espace",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "graphisme-facile-hiver-k385-5",
+     "title": "Graphisme : traits verticaux, obliques et croix — Hiver",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "graphisme-facile-paques-nb-k385-2",
+     "title": "Graphisme : traits verticaux, obliques et croix — Pâques NB",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "graphisme-facile-salle-de-classe-n-b-k385-4",
+     "title": "Graphisme : traits verticaux, obliques et croix — Salle de classe (N&B)",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "graphisme-divers-k385-4",
+     "title": "Graphisme : traits verticaux, obliques et croix — Divers",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "graphisme-hopital-k385-2",
+     "title": "Graphisme : traits verticaux, obliques et croix — Hôpital",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "graphisme-dessert-n-b-k385-5",
+     "title": "Graphisme : traits verticaux, obliques et croix — Dessert (N&B)",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "graphisme-jouets-nb-2-k385",
+     "title": "Graphisme : traits verticaux, obliques et croix — Jouets NB 2",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "graphisme-plage-nb-k385-3",
+     "title": "Graphisme : traits verticaux, obliques et croix — Plage NB",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "graphisme-difficile-boulangerie-k385",
+     "title": "Graphisme : traits verticaux, obliques et croix — Boulangerie",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "graphisme-difficile-dinosaures-k385-3",
+     "title": "Graphisme : traits verticaux, obliques et croix — Dinosaures",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "graphisme-difficile-fleurs-k385-5",
+     "title": "Graphisme : traits verticaux, obliques et croix — Fleurs",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "graphisme-difficile-nature-nb-k385-2",
+     "title": "Graphisme : traits verticaux, obliques et croix — Nature NB",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "graphisme-difficile-sports-nb-k385-4",
+     "title": "Graphisme : traits verticaux, obliques et croix — Sports NB",
+     "level": "hard",
+     "bw": true
+    }
+   ],
+   "deckTotal": 15,
+   "exclude": [],
+   "h1": "Graphisme : traits verticaux et obliques",
+   "title": "Graphisme traits verticaux et obliques – MS et GS",
+   "metaDescription": "Fiches de graphisme pour les traits verticaux, les obliques et les croix, en trois niveaux et sur de nombreux thèmes. Pour la MS et la GS, en PDF.",
+   "p1": "Tracer un trait vertical bien droit, puis une oblique, puis une croix : ces gestes simples sont la base de nombreuses lettres, comme le l, le t, le v ou le x. Sur ces fiches de graphisme, sur chaque ligne, l'enfant reproduit les traits verticaux, les obliques et les croix, en suivant des pointillés ou un modèle selon le niveau, avec de petites images sur des thèmes variés.",
+   "p2": "Les quinze fiches sont réparties en trois niveaux, qui se distinguent par l'aide apportée. Au niveau facile, chaque répétition est tracée en pointillés et possède son propre point de départ. Au niveau moyen, le modèle est suivi de traits en pointillés. Au niveau difficile, il y a le modèle, un seul tracé en pointillés, puis uniquement des points de départ : l'enfant trace le reste seul. Les fiches couvrent de nombreux thèmes, de l'espace et de l'hiver aux dinosaures, aux fleurs et à la boulangerie, et une partie est en noir et blanc pour être coloriée ensuite.",
+   "p3": "Ces fiches conviennent à la moyenne et à la grande section de maternelle. Avant de prendre le crayon, on peut faire les gestes en grand, dans l'air ou au tableau, en insistant sur le sens du tracé : les traits verticaux se tracent de haut en bas. Quand un niveau est bien réussi, l'enfant passe au même thème un niveau plus haut et voit lui-même l'aide diminuer. Les obliques et les croix préparent directement l'écriture des premières lettres en capitales."
+  },
+  {
+   "slug": "production-d-ecrit-noel",
+   "type": "picture-writing",
+   "topic": "noel",
+   "kind": "theme",
+   "phrases": [
+    "production d'écrit noel cp",
+    "production d écrit noel ce1",
+    "production d'écrit noel"
+   ],
+   "demand": 26,
+   "decks": [
+    {
+     "slug": "production-d-ecrit-facile-noel-g2278-29",
+     "title": "Production d'écrit : écrire à partir d'une image — Noël",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "production-d-ecrit-facile-noel-n-b-2-g2278-4",
+     "title": "Production d'écrit : écrire à partir d'une image — Noël N&B 2",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "production-d-ecrit-facile-noel-n-b-g2278-3",
+     "title": "Production d'écrit : écrire à partir d'une image — Noël N&B",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "production-d-ecrit-noel-g2278-128",
+     "title": "Production d'écrit : écrire à partir d'une image — Noël",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "production-d-ecrit-noel-n-b-2-g2278-103",
+     "title": "Production d'écrit : écrire à partir d'une image — Noël N&B 2",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "production-d-ecrit-noel-n-b-g2278-102",
+     "title": "Production d'écrit : écrire à partir d'une image — Noël N&B",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "production-d-ecrit-difficile-noel-g2278-226",
+     "title": "Production d'écrit : écrire à partir d'une image — Noël",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "production-d-ecrit-difficile-noel-n-b-2-g2278-201",
+     "title": "Production d'écrit : écrire à partir d'une image — Noël N&B 2",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "production-d-ecrit-difficile-noel-n-b-2-g2299-4",
+     "title": "Production d'écrit : débuts de phrase — Noël N&B 2",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "production-d-ecrit-difficile-noel-n-b-g2278-200",
+     "title": "Production d'écrit : écrire à partir d'une image — Noël N&B",
+     "level": "hard",
+     "bw": true
+    }
+   ],
+   "deckTotal": 10,
+   "exclude": [],
+   "h1": "Production d'écrit : Noël",
+   "title": "Production d'écrit Noël – CP et CE1 (PDF)",
+   "metaDescription": "Production d'écrit sur Noël : écrire à partir d'une image, avec banque de mots et débuts de phrase, en trois niveaux pour le CP et le CE1. En PDF.",
+   "p1": "Le sapin, les cadeaux, les bougies, le traîneau du père Noël : en décembre, les élèves ont plein de choses à dire. Sur ces fiches de production d'écrit, ils écrivent à partir d'images de Noël, avec une banque de mots illustrée pour trouver le vocabulaire. Ils peuvent ainsi se concentrer sur l'essentiel : construire des phrases qui ont du sens et qui décrivent ce qu'ils voient.",
+   "p2": "La collection comprend dix fiches en trois niveaux, en couleur et en noir et blanc. Au niveau facile, quatre images sont accompagnées d'un début de phrase chacune. Au niveau moyen, il y a six images et deux débuts d'histoire. Au niveau difficile, l'enfant écrit sur six images sans début de phrase. S'y ajoute une fiche de débuts de phrase au niveau difficile, qui propose des amorces variées pour écrire des phrases plus longues et mieux construites.",
+   "p3": "Le niveau facile convient au CP, dès que les élèves écrivent seuls quelques mots ou une phrase courte ; les niveaux moyen et difficile conviennent au CE1. Les fiches trouvent leur place dans les semaines avant les vacances de Noël, en atelier d'écriture ou en travail autonome. Commencez par décrire les images à l'oral, puis laissez écrire. Les versions en noir et blanc peuvent être coloriées une fois le texte terminé, ce qui en fait un joli souvenir de la période de Noël."
+  },
+  {
+   "slug": "imagier-vetement",
+   "type": "picture-word-cards",
+   "topic": "vetement",
+   "kind": "theme",
+   "phrases": [
+    "imagier vetement",
+    "imagier vêtements à imprimer",
+    "imagier vêtements maternelle"
+   ],
+   "demand": 20,
+   "decks": [
+    {
+     "slug": "imagier-facile-vetements-k324-33",
+     "title": "Imagier à découper — Vêtements",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "imagier-facile-vetements-k349",
+     "title": "Cartes singulier et pluriel : un ou plusieurs — Vêtements",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "imagier-facile-vetements-nb-k324-16",
+     "title": "Imagier à découper — Vêtements NB",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "imagier-vetements-k324-131",
+     "title": "Imagier à découper — Vêtements",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "imagier-vetements-nb-k324-114",
+     "title": "Imagier à découper — Vêtements NB",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "imagier-vetements-nb-k350-6-es",
+     "title": "Imagier bilingue : français et espagnol — Vêtements NB",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "imagier-difficile-vetements-k324-226",
+     "title": "Imagier à découper — Vêtements",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "imagier-difficile-vetements-k347",
+     "title": "Memory : cartes images et cartes mots — Vêtements",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "imagier-difficile-vetements-nb-k324-210",
+     "title": "Imagier à découper — Vêtements NB",
+     "level": "hard",
+     "bw": true
+    }
+   ],
+   "deckTotal": 9,
+   "exclude": [],
+   "h1": "Imagier des vêtements",
+   "title": "Imagier vêtements à imprimer – maternelle (PDF)",
+   "metaDescription": "Imagier des vêtements à imprimer : cartes image et mot, memory, singulier et pluriel et imagier bilingue, en couleur et en noir et blanc. En PDF.",
+   "p1": "Pantalon, veste, bonnet, écharpe, chaussure : les vêtements font partie du premier vocabulaire que les enfants apprennent à l'école maternelle. Cet imagier présente chaque vêtement sous forme d'une image claire avec le mot écrit. On l'imprime, on découpe les cartes et on peut les utiliser pour nommer, trier, jouer au memory ou décorer un mur de mots.",
+   "p2": "La collection comprend neuf fiches. L'imagier à découper existe en trois niveaux, en couleur et en noir et blanc : quatre grandes cartes pour nommer au niveau facile, huit cartes au niveau moyen et douze cartes de lecture au niveau difficile, où le mot passe au premier plan et l'image ne sert plus que d'aide. On y trouve aussi des cartes singulier et pluriel, pour associer une chaussure et deux chaussures, un memory avec cartes images et cartes mots, et un imagier bilingue français et espagnol.",
+   "p3": "En petite et moyenne section, les grandes cartes aident à nommer les vêtements, par exemple au moment de s'habiller pour sortir. En grande section et au CP, les cartes de lecture accompagnent les premiers mots lus. Le memory et les cartes singulier-pluriel se prêtent bien aux ateliers de langage. Pour les enfants qui apprennent le français comme langue seconde, ce vocabulaire du quotidien est particulièrement utile, car il revient chaque jour."
+  },
+  {
+   "slug": "imagier-ustensiles-de-cuisine",
+   "type": "picture-word-cards",
+   "topic": "ustensiles cuisine",
+   "kind": "theme",
+   "phrases": [
+    "imagier ustensiles de cuisine maternelle",
+    "imagier ustensiles de cuisine"
+   ],
+   "demand": 19,
+   "decks": [
+    {
+     "slug": "imagier-facile-ustensiles-de-cuisine-k324-61",
+     "title": "Imagier à découper — Ustensiles de cuisine",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "imagier-ustensiles-de-cuisine-k324-159",
+     "title": "Imagier à découper — Ustensiles de cuisine",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "imagier-difficile-ustensiles-de-cuisine-k324-252",
+     "title": "Imagier à découper — Ustensiles de cuisine",
+     "level": "hard",
+     "bw": false
+    }
+   ],
+   "deckTotal": 3,
+   "exclude": [],
+   "h1": "Imagier des ustensiles de cuisine",
+   "title": "Imagier ustensiles de cuisine – maternelle (PDF)",
+   "metaDescription": "Imagier des ustensiles de cuisine : fouet, louche, casserole, rouleau à pâtisserie et plus, avec image et mot en trois niveaux pour la maternelle.",
+   "p1": "Fouet, louche, casserole, rouleau à pâtisserie, passoire : les ustensiles de cuisine sont un vocabulaire concret, que les enfants peuvent voir et toucher. Cet imagier présente chaque ustensile sous forme d'une image claire avec son nom. Il accompagne parfaitement un atelier cuisine, le coin dînette ou une séquence sur les aliments et les recettes.",
+   "p2": "La collection comprend trois fiches, une par niveau. Au niveau facile, quatre grandes cartes pour montrer et nommer en groupe. Au niveau moyen, huit cartes. Au niveau difficile, douze cartes de lecture où le mot passe au premier plan et l'image ne sert plus que d'aide. Les cartes s'impriment et se découpent facilement ; plastifiées, elles résistent bien à une utilisation répétée dans le coin cuisine. Imprimées deux fois, elles se transforment en memory, où chaque paire trouvée doit être nommée.",
+   "p3": "En maternelle, les grandes cartes aident à enrichir le vocabulaire avant ou pendant un atelier cuisine : quel ustensile faut-il pour mélanger, pour verser, pour étaler la pâte ? En grande section et au CP, les cartes de lecture accompagnent les premiers mots lus. On peut aussi trier les cartes selon leur usage, ce qui sert à couper, à cuire ou à mesurer, et faire ainsi travailler la catégorisation."
+  },
+  {
+   "slug": "graphisme-rond",
+   "type": "pre-writing",
+   "topic": "rond",
+   "kind": "theme",
+   "phrases": [
+    "graphisme rond",
+    "graphisme rond gs",
+    "graphisme rond ms"
+   ],
+   "demand": 17,
+   "decks": [
+    {
+     "slug": "graphisme-facile-bureau-de-poste-k386-5",
+     "title": "Graphisme : ronds, carrés et triangles — Bureau de poste",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "graphisme-facile-couleurs-k386",
+     "title": "Graphisme : ronds, carrés et triangles — Couleurs",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "graphisme-facile-musique-k386-3",
+     "title": "Graphisme : ronds, carrés et triangles — Musique",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "graphisme-facile-jouets-nb-2-k386-2",
+     "title": "Graphisme : ronds, carrés et triangles — Jouets NB 2",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "graphisme-facile-maison-nb-k386-4",
+     "title": "Graphisme : ronds, carrés et triangles — Maison NB",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "graphisme-dinosaures-k386-4",
+     "title": "Graphisme : ronds, carrés et triangles — Dinosaures",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "graphisme-parties-du-corps-k386-2",
+     "title": "Graphisme : ronds, carrés et triangles — Parties du corps",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "graphisme-maison-nb-k386-5",
+     "title": "Graphisme : ronds, carrés et triangles — Maison NB",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "graphisme-nourriture-nb-3-k386",
+     "title": "Graphisme : ronds, carrés et triangles — Nourriture NB 3",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "graphisme-objets-nb-k386-3",
+     "title": "Graphisme : ronds, carrés et triangles — Objets NB",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "graphisme-difficile-accessoires-k386-3",
+     "title": "Graphisme : ronds, carrés et triangles — Accessoires",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "graphisme-difficile-jouets-k386",
+     "title": "Graphisme : ronds, carrés et triangles — Jouets",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "graphisme-difficile-petit-dejeuner-k386-5",
+     "title": "Graphisme : ronds, carrés et triangles — Petit-déjeuner",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "graphisme-difficile-nourriture-nb-k386-2",
+     "title": "Graphisme : ronds, carrés et triangles — Nourriture NB",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "graphisme-difficile-objets-nb-k386-4",
+     "title": "Graphisme : ronds, carrés et triangles — Objets NB",
+     "level": "hard",
+     "bw": true
+    }
+   ],
+   "deckTotal": 15,
+   "exclude": [],
+   "h1": "Graphisme : les ronds et les formes",
+   "title": "Graphisme ronds, carrés et triangles – maternelle",
+   "metaDescription": "Fiches de graphisme pour tracer des ronds, des carrés et des triangles, en trois niveaux et sur de nombreux thèmes. Pour la MS et la GS, en PDF.",
+   "p1": "Le rond est l'un des tracés les plus difficiles pour de petites mains : le crayon doit tourner régulièrement et revenir à son point de départ. Sur ces fiches de graphisme, l'enfant trace des ronds, des carrés et des triangles, les formes qui préparent l'écriture de lettres comme le o, le a, le d et le g. Sur chaque ligne, l'enfant reproduit la forme, en suivant des pointillés ou un modèle selon le niveau.",
+   "p2": "Les quinze fiches sont réparties en trois niveaux, qui se distinguent par l'aide apportée. Au niveau facile, chaque forme est en pointillés avec son propre point de départ. Au niveau moyen, le modèle est suivi de formes en pointillés. Au niveau difficile, il y a le modèle, une seule forme en pointillés, puis uniquement des points de départ. Les fiches couvrent de nombreux thèmes, du bureau de poste et de la musique aux dinosaures, aux jouets et au petit-déjeuner, et une partie est en noir et blanc pour être coloriée.",
+   "p3": "Ces fiches conviennent à la moyenne et à la grande section de maternelle. Faites tracer les ronds en grand dans l'air, puis du doigt sur la table, avant de prendre le crayon, en observant où l'enfant commence : partir du haut et tourner dans le sens inverse des aiguilles d'une montre prépare l'écriture des lettres rondes. Quand un niveau est réussi, l'enfant passe au même thème un niveau plus haut."
+  },
+  {
+   "slug": "dictee-muette-noel",
+   "type": "write-the-word",
+   "topic": "noel",
+   "kind": "theme",
+   "phrases": [
+    "dictée muette noel",
+    "dictée muette noel cp"
+   ],
+   "demand": 17,
+   "decks": [
+    {
+     "slug": "dictee-muette-facile-noel-g1244-11",
+     "title": "Dictée muette : écris le nom de l'image — Noël",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "dictee-muette-facile-noel-n-b-g1260-4",
+     "title": "Dictée muette sans liste de mots — Noël N&B",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "dictee-muette-noel-g1244-45",
+     "title": "Dictée muette : écris le nom de l'image — Noël",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "dictee-muette-noel-n-b-g1291-4",
+     "title": "Dictée muette : la première lettre — Noël N&B",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "dictee-muette-difficile-noel-g1244-81",
+     "title": "Dictée muette : écris le nom de l'image — Noël",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "dictee-muette-difficile-noel-n-b-g1301-4",
+     "title": "Dictée muette : liste et cases — Noël N&B",
+     "level": "hard",
+     "bw": true
+    }
+   ],
+   "deckTotal": 6,
+   "exclude": [],
+   "h1": "Dictée muette de Noël",
+   "title": "Dictée muette Noël – CP et CE1 (PDF)",
+   "metaDescription": "Dictées muettes de Noël : écrire le nom de l'image avec ou sans liste de mots, avec la première lettre, en trois niveaux pour le CP et le CE1.",
+   "p1": "Dans une dictée muette, personne ne dicte : ce sont les images qui disent le mot. L'enfant regarde l'image, trouve le mot et l'écrit seul. Sur ces fiches, les images sont celles de Noël, le sapin, le cadeau, la bougie, l'étoile, le renne, et l'enfant s'entraîne à écrire ces mots du quotidien de décembre en s'appuyant sur ce qu'il entend et ce qu'il connaît des sons.",
+   "p2": "La collection comprend six fiches, en couleur et en noir et blanc, réparties en trois niveaux. La fiche de base, écris le nom de l'image, change d'aide selon le niveau : liste de mots et première lettre au niveau facile, cases pour chaque lettre au niveau moyen, simples lignes au niveau difficile. S'y ajoutent des variantes : une dictée muette sans liste de mots, une fiche où la première lettre est donnée, et une fiche qui combine liste et cases. Le niveau change aussi le nombre de cartes et la longueur des mots.",
+   "p3": "Le niveau facile convient au CP, quand les élèves commencent à encoder des mots simples ; les niveaux moyen et difficile conviennent au CE1. Les fiches trouvent leur place dans les semaines avant Noël, en travail autonome ou en atelier. Avant d'écrire, on peut nommer les images à voix haute ensemble et compter les syllabes en frappant dans les mains. Une dictée muette montre très bien quels sons l'enfant sait déjà écrire et lesquels demandent encore du travail."
+  },
+  {
+   "slug": "imagier-legumes",
+   "type": "picture-word-cards",
+   "topic": "legumes",
+   "kind": "theme",
+   "phrases": [
+    "imagier légumes",
+    "imagier légumes à imprimer"
+   ],
+   "demand": 15,
+   "decks": [
+    {
+     "slug": "imagier-facile-legumes-k324-89",
+     "title": "Imagier à découper — Légumes",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "imagier-facile-legumes-nb-2-k324-91",
+     "title": "Imagier à découper — Légumes NB 2",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "imagier-facile-legumes-nb-k324-90",
+     "title": "Imagier à découper — Légumes NB",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "imagier-legumes-k324-185",
+     "title": "Imagier à découper — Légumes",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "imagier-legumes-nb-2-k324-187",
+     "title": "Imagier à découper — Légumes NB 2",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "imagier-legumes-nb-k324-186",
+     "title": "Imagier à découper — Légumes NB",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "imagier-difficile-legumes-k324-271",
+     "title": "Imagier à découper — Légumes",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "imagier-difficile-legumes-nb-k324-272",
+     "title": "Imagier à découper — Légumes NB",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "imagier-difficile-legumes-nb-k347-2",
+     "title": "Memory : cartes images et cartes mots — Légumes NB",
+     "level": "hard",
+     "bw": true
+    }
+   ],
+   "deckTotal": 9,
+   "exclude": [],
+   "h1": "Imagier des légumes",
+   "title": "Imagier légumes à imprimer – maternelle (PDF)",
+   "metaDescription": "Imagier des légumes à imprimer : carotte, tomate, poireau, brocoli et plus, avec image et mot en trois niveaux, en couleur et en noir et blanc, et memory.",
+   "p1": "Carotte, tomate, poireau, brocoli, potiron : les légumes sont un thème idéal pour enrichir le vocabulaire, surtout quand la classe parle d'alimentation, du jardin ou du marché. Cet imagier présente chaque légume sous forme d'une image claire avec son nom. Les cartes servent à nommer, à trier, à jouer au marchand ou à composer un mur de mots.",
+   "p2": "La collection comprend neuf fiches. L'imagier à découper existe en trois niveaux et en deux séries de légumes, en couleur et en noir et blanc : quatre grandes cartes pour nommer au niveau facile, huit cartes au niveau moyen et douze cartes de lecture au niveau difficile, où le mot passe au premier plan. S'y ajoute un memory avec cartes images et cartes mots, dans lequel l'enfant associe chaque légume à son nom écrit. Les cartes en noir et blanc peuvent être coloriées avant de jouer.",
+   "p3": "En petite et moyenne section, les grandes cartes aident à reconnaître et nommer les légumes, par exemple avant de goûter une soupe ou de planter des graines. En grande section et au CP, les cartes de lecture et le memory accompagnent les premiers mots lus. On peut aussi faire trier les cartes selon que le légume pousse sous la terre ou au-dessus, ce qui ouvre une petite discussion sur le jardin."
+  },
+  {
+   "slug": "imagier-des-emotions",
+   "type": "picture-word-cards",
+   "topic": "emotions",
+   "kind": "theme",
+   "phrases": [
+    "imagier des émotions",
+    "imagier des émotions pdf",
+    "imagier émotions"
+   ],
+   "demand": 14,
+   "decks": [
+    {
+     "slug": "imagier-facile-emotions-k324-40",
+     "title": "Imagier à découper — Émotions",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "imagier-facile-emotions-k350-5-da",
+     "title": "Imagier bilingue : français et danois — Émotions",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "imagier-emotions-k324-138",
+     "title": "Imagier à découper — Émotions",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "imagier-emotions-k347-5",
+     "title": "Memory : cartes images et cartes mots — Émotions",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "imagier-difficile-emotions-k324-232",
+     "title": "Imagier à découper — Émotions",
+     "level": "hard",
+     "bw": false
+    }
+   ],
+   "deckTotal": 5,
+   "exclude": [],
+   "h1": "Imagier des émotions",
+   "title": "Imagier des émotions à imprimer – maternelle (PDF)",
+   "metaDescription": "Imagier des émotions : content, triste, en colère, surpris, fatigué et plus, en trois niveaux, avec memory et imagier bilingue. En PDF.",
+   "p1": "Content, triste, en colère, surpris, fatigué : mettre un mot sur ce que l'on ressent est une étape importante pour les jeunes enfants. Cet imagier présente des visages qui expriment différentes émotions, chacun avec le mot qui correspond. Il accompagne les moments d'accueil, les discussions sur les sentiments et l'apprentissage de la vie en groupe.",
+   "p2": "La collection comprend cinq fiches. L'imagier à découper existe en trois niveaux : quatre grandes cartes pour montrer et nommer au niveau facile, huit cartes au niveau moyen et douze cartes de lecture au niveau difficile, où le mot passe au premier plan. S'y ajoutent un memory avec cartes images et cartes mots et un imagier bilingue français et danois. Les cartes s'impriment, se découpent et se plastifient facilement pour servir tout au long de l'année.",
+   "p3": "En maternelle, les grandes cartes peuvent servir chaque matin : chaque enfant choisit la carte qui montre comment il se sent. Elles aident aussi à résoudre les petits conflits, quand un enfant a du mal à dire ce qu'il ressent. En grande section et au CP, les cartes de lecture accompagnent les premiers mots lus. On peut aussi jouer à mimer une émotion et faire deviner aux autres la carte correspondante."
+  },
+  {
+   "slug": "imagier-hiver",
+   "type": "picture-word-cards",
+   "topic": "hiver",
+   "kind": "theme",
+   "phrases": [
+    "imagier hiver",
+    "imagier hiver maternelle"
+   ],
+   "demand": 13,
+   "decks": [
+    {
+     "slug": "imagier-facile-hiver-k324-97",
+     "title": "Imagier à découper — Hiver",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "imagier-facile-hiver-k348-5",
+     "title": "Le ou la : cartes avec l'article — Hiver",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "imagier-hiver-k324-193",
+     "title": "Imagier à découper — Hiver",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "imagier-difficile-hiver-k324-277",
+     "title": "Imagier à découper — Hiver",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "imagier-difficile-hiver-k350-5-da",
+     "title": "Imagier bilingue : français et danois — Hiver",
+     "level": "hard",
+     "bw": false
+    }
+   ],
+   "deckTotal": 5,
+   "exclude": [],
+   "h1": "Imagier de l'hiver",
+   "title": "Imagier hiver à imprimer – maternelle (PDF)",
+   "metaDescription": "Imagier de l'hiver : bonhomme de neige, luge, moufles, flocon et plus, en trois niveaux, avec cartes le ou la et imagier bilingue. En PDF.",
+   "p1": "Bonhomme de neige, luge, moufles, flocon, igloo : l'hiver apporte tout un vocabulaire que les enfants adorent. Cet imagier présente chaque mot de l'hiver sous forme d'une image claire avec le mot écrit. On l'utilise au coin regroupement, pour un thème sur les saisons, pour des jeux de nomination ou sur un mur de mots.",
+   "p2": "La collection comprend cinq fiches. L'imagier à découper existe en trois niveaux : quatre grandes cartes pour nommer au niveau facile, huit cartes au niveau moyen et douze cartes de lecture au niveau difficile, où le mot passe au premier plan et l'image ne sert plus que d'aide. S'y ajoutent des cartes le ou la, sur lesquelles l'article accompagne chaque mot, et un imagier bilingue français et danois.",
+   "p3": "En maternelle, les grandes cartes aident à parler de l'hiver : que met-on pour sortir dans le froid, à quoi joue-t-on dans la neige ? Les cartes le ou la sont précieuses pour les enfants qui apprennent le français comme langue seconde, car le genre des mots ne se devine pas. En grande section et au CP, les cartes de lecture accompagnent les premiers mots lus. L'imagier s'associe bien aux fiches de dictée muette sur l'hiver. Bon hiver en classe !"
+  },
+  {
+   "slug": "imagier-couleurs",
+   "type": "picture-word-cards",
+   "topic": "couleurs",
+   "kind": "theme",
+   "phrases": [
+    "imagier couleurs",
+    "imagier des couleurs"
+   ],
+   "demand": 13,
+   "decks": [
+    {
+     "slug": "imagier-facile-couleurs-k324-34",
+     "title": "Imagier à découper — Couleurs",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "imagier-couleurs-k324-132",
+     "title": "Imagier à découper — Couleurs",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "imagier-difficile-couleurs-k324-227",
+     "title": "Imagier à découper — Couleurs",
+     "level": "hard",
+     "bw": false
+    }
+   ],
+   "deckTotal": 3,
+   "exclude": [],
+   "h1": "Imagier des couleurs",
+   "title": "Imagier des couleurs à imprimer – maternelle",
+   "metaDescription": "Imagier des couleurs : rouge, bleu, jaune, vert et bien d'autres, avec le nom de chaque couleur, en trois niveaux pour la maternelle. En PDF.",
+   "p1": "Rouge, bleu, jaune, vert, rose, violet : reconnaître et nommer les couleurs fait partie des premiers apprentissages de la maternelle. Cet imagier présente chaque couleur avec son nom écrit. Il sert au coin regroupement, aux jeux de tri, aux ateliers de peinture et à toutes les activités où les enfants doivent nommer une couleur.",
+   "p2": "La collection comprend trois fiches, une par niveau. Au niveau facile, quatre grandes cartes pour montrer et nommer les couleurs de base. Au niveau moyen, huit cartes. Au niveau difficile, douze cartes de lecture, où le mot passe au premier plan. Les cartes s'impriment et se découpent ; plastifiées, elles résistent bien aux manipulations de la classe.",
+   "p3": "En petite et moyenne section, les grandes cartes servent à des jeux simples : trouver dans la classe un objet de la même couleur que la carte. En grande section et au CP, les cartes de lecture permettent de lire le nom des couleurs, une compétence utile pour toutes les fiches où il faut colorier selon une consigne écrite. On peut aussi faire classer les couleurs du plus clair au plus foncé. Enfin, les cartes se prêtent très bien aux jeux de Kim : on retire une carte en secret, et les enfants doivent retrouver la couleur qui manque."
+  },
+  {
+   "slug": "imagier-insectes",
+   "type": "picture-word-cards",
+   "topic": "insectes",
+   "kind": "theme",
+   "phrases": [
+    "imagier insectes",
+    "imagier insectes maternelle"
+   ],
+   "demand": 12,
+   "decks": [
+    {
+     "slug": "imagier-facile-insectes-et-bestioles-k324-59",
+     "title": "Imagier à découper — Insectes et bestioles",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "imagier-insectes-et-bestioles-k324-157",
+     "title": "Imagier à découper — Insectes et bestioles",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "imagier-difficile-insectes-et-bestioles-k324-250",
+     "title": "Imagier à découper — Insectes et bestioles",
+     "level": "hard",
+     "bw": false
+    }
+   ],
+   "deckTotal": 3,
+   "exclude": [],
+   "h1": "Imagier des insectes",
+   "title": "Imagier insectes à imprimer – maternelle (PDF)",
+   "metaDescription": "Imagier des insectes et petites bêtes : fourmi, abeille, papillon, coccinelle, escargot et plus, avec image et mot en trois niveaux. En PDF.",
+   "p1": "Fourmi, abeille, papillon, coccinelle, araignée, escargot : les petites bêtes fascinent les enfants, et on les trouve partout dehors. Cet imagier présente insectes et petites bêtes sous forme d'images claires avec leur nom. Il accompagne un projet sur les petites bêtes, une sortie au jardin ou un élevage en classe.",
+   "p2": "La collection comprend trois fiches, une par niveau. Au niveau facile, quatre grandes cartes pour montrer et nommer en groupe. Au niveau moyen, huit cartes. Au niveau difficile, douze cartes de lecture où le mot passe au premier plan et l'image ne sert plus que d'aide. Les cartes s'impriment et se découpent ; imprimées deux fois, elles deviennent un memory où chaque paire trouvée doit être nommée.",
+   "p3": "En maternelle, les grandes cartes aident à nommer ce que les enfants observent dehors : quelle petite bête as-tu vue aujourd'hui ? En grande section et au CP, les cartes de lecture accompagnent les premiers mots lus. On peut aussi trier les cartes entre les petites bêtes qui volent et celles qui rampent, ou compter les pattes, ce qui permet de distinguer les insectes des araignées et des escargots. Une loupe et une boîte à insectes complètent idéalement le travail avec les cartes, pour passer de l'image à l'observation réelle."
+  },
+  {
+   "slug": "imagier-animaux-de-la-ferme",
+   "type": "picture-word-cards",
+   "topic": "animaux ferme",
+   "kind": "theme",
+   "phrases": [
+    "imagier animaux de la ferme",
+    "imagier animaux de la ferme à imprimer pdf"
+   ],
+   "demand": 11,
+   "decks": [
+    {
+     "slug": "imagier-facile-animaux-de-la-ferme-k324-42",
+     "title": "Imagier à découper — Animaux de la ferme",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "imagier-facile-animaux-de-la-ferme-nb-k324-43",
+     "title": "Imagier à découper — Animaux de la ferme NB",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "imagier-animaux-de-la-ferme-k324-140",
+     "title": "Imagier à découper — Animaux de la ferme",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "imagier-animaux-de-la-ferme-nb-k324-141",
+     "title": "Imagier à découper — Animaux de la ferme NB",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "imagier-difficile-animaux-de-la-ferme-k324-234",
+     "title": "Imagier à découper — Animaux de la ferme",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "imagier-difficile-animaux-de-la-ferme-k348-5",
+     "title": "Le ou la : cartes avec l'article — Animaux de la ferme",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "imagier-difficile-animaux-de-la-ferme-nb-k324-235",
+     "title": "Imagier à découper — Animaux de la ferme NB",
+     "level": "hard",
+     "bw": true
+    }
+   ],
+   "deckTotal": 7,
+   "exclude": [],
+   "h1": "Imagier des animaux de la ferme",
+   "title": "Imagier animaux de la ferme à imprimer (PDF)",
+   "metaDescription": "Imagier des animaux de la ferme : vache, cochon, mouton, poule et plus, en trois niveaux, en couleur et en noir et blanc, avec cartes le ou la.",
+   "p1": "Vache, cochon, mouton, chèvre, poule et cheval : les animaux de la ferme font partie des tout premiers mots des enfants. Cet imagier présente chaque animal sous forme d'une image claire avec son nom. Il accompagne un projet sur la ferme, une visite à la ferme pédagogique, les comptines et les jeux de cris d'animaux.",
+   "p2": "La collection comprend sept fiches. L'imagier à découper existe en trois niveaux, en couleur et en noir et blanc : quatre grandes cartes pour nommer au niveau facile, huit cartes au niveau moyen et douze cartes de lecture au niveau difficile, où le mot passe au premier plan. S'y ajoute une fiche de cartes le ou la, où l'enfant écrit lui-même le bon article devant chaque nom d'animal. Les cartes en noir et blanc peuvent être coloriées avant de jouer.",
+   "p3": "En petite et moyenne section, les grandes cartes servent aux jeux de nomination et de devinettes : quel animal fait meuh ? En grande section et au CP, les cartes de lecture accompagnent les premiers mots lus. Les cartes le ou la aident les enfants qui apprennent le français comme langue seconde à retenir le genre de chaque mot. On peut aussi associer chaque animal à son petit, au produit qu'il donne ou au lieu où il vit à la ferme."
+  },
+  {
+   "slug": "lis-et-colorie-noel",
+   "type": "read-and-color",
+   "topic": "noel",
+   "kind": "theme",
+   "phrases": [
+    "lis et colorie noel"
+   ],
+   "demand": 10,
+   "decks": [
+    {
+     "slug": "lis-et-colorie-facile-noel-n-b-2-g1242-2",
+     "title": "Lis et colorie — Noël N&B 2",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "lis-et-colorie-facile-noel-n-b-g1242",
+     "title": "Lis et colorie — Noël N&B",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "lis-et-colorie-facile-noel-n-b-g1409-2",
+     "title": "Lis et colorie : deux phrases — Noël N&B",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "lis-et-colorie-noel-n-b-2-g1242-49",
+     "title": "Lis et colorie — Noël N&B 2",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "lis-et-colorie-noel-n-b-g1242-48",
+     "title": "Lis et colorie — Noël N&B",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "lis-et-colorie-noel-n-b-g1252-3",
+     "title": "Lis et colorie : la page bien remplie — Noël N&B",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "lis-et-colorie-difficile-noel-n-b-2-g1242-93",
+     "title": "Lis et colorie — Noël N&B 2",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "lis-et-colorie-difficile-noel-n-b-2-g1251-4",
+     "title": "Lis et colorie : quatre phrases — Noël N&B 2",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "lis-et-colorie-difficile-noel-n-b-g1242-92",
+     "title": "Lis et colorie — Noël N&B",
+     "level": "hard",
+     "bw": true
+    }
+   ],
+   "deckTotal": 9,
+   "exclude": [],
+   "h1": "Lis et colorie : Noël",
+   "title": "Lis et colorie Noël – CP et CE1 (PDF)",
+   "metaDescription": "Fiches lis et colorie de Noël : lire les phrases, compter les images et colorier de la bonne couleur. Neuf fiches noir et blanc en trois niveaux.",
+   "p1": "Sur une fiche lis et colorie, une courte phrase indique exactement ce qu'il faut colorier : combien d'étoiles et de quelle couleur, par exemple. L'enfant lit la phrase, compte les images et les colorie de la bonne couleur. Le coloriage devient ainsi une vraie lecture : si l'on lit trop vite ou si l'on se trompe en comptant, on colorie la mauvaise image. Les images montrent Noël : sapin, cadeaux, bougies, cloches.",
+   "p2": "La collection comprend neuf fiches en noir et blanc, en trois niveaux. Les niveaux modifient la charge de lecture : au niveau facile, il y a moins d'images et de petits nombres ; au niveau difficile, les nombres sont plus grands et d'autres images, qu'il ne faut pas colorier, sont mêlées à celles demandées. S'y ajoutent des variantes : deux phrases par case, une page bien remplie avec une grande image et une liste de phrases, et une fiche à quatre phrases.",
+   "p3": "Le niveau facile convient au CP, dès que les élèves lisent seuls de courtes phrases ; le niveau difficile convient au CE1 et demande de lire et de compter avec précision. Les fiches trouvent leur place dans les semaines avant Noël, en travail autonome ou en atelier. Pour vérifier, il suffit de regarder : chaque groupe colorié doit correspondre à la phrase, en nombre comme en couleur. Pour les lecteurs encore hésitants, on peut lire les phrases ensemble avant de laisser l'enfant compter et colorier seul."
+  },
+  {
+   "slug": "dictee-muette-hiver",
+   "type": "write-the-word",
+   "topic": "hiver",
+   "kind": "theme",
+   "phrases": [
+    "dictée muette hiver"
+   ],
+   "demand": 10,
+   "decks": [
+    {
+     "slug": "dictee-muette-facile-hiver-g1244-30",
+     "title": "Dictée muette : écris le nom de l'image — Hiver",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "dictee-muette-facile-hiver-g1259-5",
+     "title": "Dictée muette : choisis dans la liste — Hiver",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "dictee-muette-hiver-g1244-68",
+     "title": "Dictée muette : écris le nom de l'image — Hiver",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "dictee-muette-hiver-g1260-5",
+     "title": "Dictée muette sans liste de mots — Hiver",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "dictee-muette-difficile-hiver-g1244-104",
+     "title": "Dictée muette : écris le nom de l'image — Hiver",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "dictee-muette-difficile-hiver-g1303-5",
+     "title": "Dictée muette : une case par lettre — Hiver",
+     "level": "hard",
+     "bw": false
+    }
+   ],
+   "deckTotal": 6,
+   "exclude": [],
+   "h1": "Dictée muette de l'hiver",
+   "title": "Dictée muette hiver – CP et CE1 (PDF)",
+   "metaDescription": "Dictées muettes de l'hiver : écrire le nom de l'image, choisir dans une liste, sans liste ou une case par lettre, en trois niveaux. Six fiches en PDF.",
+   "p1": "Une dictée muette, c'est une dictée sans dicteur : l'image dit le mot, et l'enfant l'écrit seul. Sur ces fiches, les images parlent de l'hiver, le bonhomme de neige, la luge, les moufles, le flocon, et l'enfant s'entraîne à écrire ces mots en s'appuyant sur les sons qu'il entend et sur ce qu'il sait déjà de l'écriture des mots.",
+   "p2": "La collection comprend six fiches réparties en trois niveaux. La fiche de base, écris le nom de l'image, change d'aide selon le niveau : liste de mots et première lettre au niveau facile, cases pour chaque lettre au niveau moyen, simples lignes au niveau difficile. S'y ajoutent des variantes : choisis dans la liste, où l'enfant recopie le bon mot, une dictée muette sans liste de mots et une fiche avec une case par lettre. Le niveau change aussi le nombre de cartes et la longueur des mots.",
+   "p3": "Le niveau facile convient au CP, quand les élèves commencent à encoder des mots simples ; les niveaux moyen et difficile conviennent au CE1. En période d'hiver, ces fiches peuvent servir en travail autonome, en atelier d'écriture ou en devoirs. Nommez d'abord les images ensemble et frappez les syllabes dans les mains. Les fiches avec une case par lettre aident beaucoup les élèves qui oublient des lettres, car chaque case vide montre qu'il en manque une."
+  },
+  {
+   "slug": "imagier-oiseaux",
+   "type": "picture-word-cards",
+   "topic": "oiseaux",
+   "kind": "theme",
+   "phrases": [
+    "imagier oiseaux maternelle",
+    "imagier oiseaux"
+   ],
+   "demand": 9,
+   "decks": [
+    {
+     "slug": "imagier-facile-oiseaux-2-g1324-5",
+     "title": "Cartes de lecture : mots découpés en syllabes — Oiseaux 2",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "imagier-facile-oiseaux-2-k324-23",
+     "title": "Imagier à découper — Oiseaux 2",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "imagier-facile-oiseaux-k324-22",
+     "title": "Imagier à découper — Oiseaux",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "imagier-facile-oiseaux-n-b-2-k324-25",
+     "title": "Imagier à découper — Oiseaux N&B 2",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "imagier-facile-oiseaux-n-b-2-k348-4",
+     "title": "Le ou la : cartes avec l'article — Oiseaux N&B 2",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "imagier-facile-oiseaux-n-b-k324-24",
+     "title": "Imagier à découper — Oiseaux N&B",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "imagier-oiseaux-2-k324-121",
+     "title": "Imagier à découper — Oiseaux 2",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "imagier-oiseaux-k324-120",
+     "title": "Imagier à découper — Oiseaux",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "imagier-oiseaux-k348-5",
+     "title": "Le ou la : cartes avec l'article — Oiseaux",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "imagier-oiseaux-n-b-2-k324-123",
+     "title": "Imagier à découper — Oiseaux N&B 2",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "imagier-oiseaux-n-b-k324-122",
+     "title": "Imagier à découper — Oiseaux N&B",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "imagier-difficile-oiseaux-2-k324-216",
+     "title": "Imagier à découper — Oiseaux 2",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "imagier-difficile-oiseaux-n-b-2-g1324-2",
+     "title": "Cartes de lecture : mots découpés en syllabes — Oiseaux N&B 2",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "imagier-difficile-oiseaux-n-b-2-k324-218",
+     "title": "Imagier à découper — Oiseaux N&B 2",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "imagier-difficile-oiseaux-n-b-k324-217",
+     "title": "Imagier à découper — Oiseaux N&B",
+     "level": "hard",
+     "bw": true
+    }
+   ],
+   "deckTotal": 15,
+   "exclude": [],
+   "h1": "Imagier des oiseaux",
+   "title": "Imagier oiseaux à imprimer – maternelle (PDF)",
+   "metaDescription": "Imagier des oiseaux : hibou, perroquet, paon, flamant et plus, en trois niveaux, en couleur et noir et blanc, avec cartes le ou la et syllabes.",
+   "p1": "Hibou, perroquet, paon, flamant rose, manchot : il existe des oiseaux de toutes les formes et de toutes les couleurs, et les enfants en connaissent souvent déjà beaucoup. Cet imagier présente des oiseaux sous forme d'images claires avec leur nom. Il accompagne un projet sur les oiseaux, le printemps ou l'observation de la nature.",
+   "p2": "La collection comprend quinze fiches. L'imagier à découper existe en trois niveaux et en deux séries d'oiseaux, en couleur et en noir et blanc : quatre grandes cartes au niveau facile, huit cartes au niveau moyen et douze cartes de lecture au niveau difficile, où le mot passe au premier plan. S'y ajoutent des cartes le ou la, où l'article accompagne chaque nom, et des cartes de lecture en syllabes (au niveau difficile, l'enfant trace lui-même les arcs sous les syllabes), pour aider à lire des noms parfois longs.",
+   "p3": "En maternelle, les grandes cartes aident à nommer et comparer : quel oiseau nage, lequel ne vole pas ? En grande section et au CP, les cartes en syllabes accompagnent le déchiffrage. Les cartes en noir et blanc peuvent être coloriées en observant les vraies couleurs de l'oiseau sur une photo. Au printemps, on peut afficher les cartes près de la fenêtre et noter les oiseaux aperçus dans la cour."
+  },
+  {
+   "slug": "imagier-nourriture",
+   "type": "picture-word-cards",
+   "topic": "nourriture",
+   "kind": "theme",
+   "phrases": [
+    "imagier nourriture",
+    "imagier nourriture maternelle"
+   ],
+   "demand": 9,
+   "decks": [
+    {
+     "slug": "imagier-facile-nourriture-nb-2-k324-47",
+     "title": "Imagier à découper — Nourriture NB 2",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "imagier-facile-nourriture-nb-3-k324-48",
+     "title": "Imagier à découper — Nourriture NB 3",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "imagier-facile-nourriture-nb-k324-46",
+     "title": "Imagier à découper — Nourriture NB",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "imagier-nourriture-nb-2-k324-145",
+     "title": "Imagier à découper — Nourriture NB 2",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "imagier-nourriture-nb-3-k324-146",
+     "title": "Imagier à découper — Nourriture NB 3",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "imagier-nourriture-nb-g1324-6",
+     "title": "Cartes de lecture : mots découpés en syllabes — Nourriture NB",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "imagier-nourriture-nb-k324-144",
+     "title": "Imagier à découper — Nourriture NB",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "imagier-difficile-nourriture-nb-2-k324-239",
+     "title": "Imagier à découper — Nourriture NB 2",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "imagier-difficile-nourriture-nb-3-k324-240",
+     "title": "Imagier à découper — Nourriture NB 3",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "imagier-difficile-nourriture-nb-k324-238",
+     "title": "Imagier à découper — Nourriture NB",
+     "level": "hard",
+     "bw": true
+    }
+   ],
+   "deckTotal": 10,
+   "exclude": [],
+   "h1": "Imagier de la nourriture",
+   "title": "Imagier nourriture à imprimer – maternelle (PDF)",
+   "metaDescription": "Imagier de la nourriture : pain, fromage, pizza, gâteau et plus, en noir et blanc et en trois niveaux, avec cartes de lecture en syllabes.",
+   "p1": "Pain, fromage, croissant, pizza, gâteau : la nourriture est un sujet dont les enfants parlent tous les jours. Cet imagier présente des aliments sous forme de dessins clairs en noir et blanc avec leur nom. Comme les cartes sont en noir et blanc, les enfants peuvent les colorier avant de jouer, ce qui est déjà une occasion d'en parler.",
+   "p2": "La collection comprend dix fiches en noir et blanc. L'imagier à découper existe en trois niveaux et en trois séries d'aliments : quatre grandes cartes au niveau facile, huit cartes au niveau moyen et douze cartes de lecture au niveau difficile, où le mot passe au premier plan. S'y ajoute une fiche de cartes de lecture avec les mots découpés en syllabes, qui aide à lire les noms d'aliments plus longs.",
+   "p3": "En maternelle, les cartes servent aux jeux de marchande, aux discussions sur les repas et aux jeux de tri : ce que l'on mange au petit-déjeuner, ce qui est sucré, ce qui est salé. En grande section et au CP, les cartes de lecture accompagnent les premiers mots lus, et les cartes en syllabes aident au déchiffrage. Pour les enfants qui apprennent le français comme langue seconde, ce vocabulaire du quotidien est précieux, car il revient à chaque repas."
+  },
+  {
+   "slug": "imagier-metier",
+   "type": "picture-word-cards",
+   "topic": "metier",
+   "kind": "theme",
+   "phrases": [
+    "imagier metier"
+   ],
+   "demand": 9,
+   "decks": [
+    {
+     "slug": "imagier-facile-metiers-k324-66",
+     "title": "Imagier à découper — Métiers",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "imagier-metiers-g1324-5",
+     "title": "Cartes de lecture : mots découpés en syllabes — Métiers",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "imagier-metiers-k324-164",
+     "title": "Imagier à découper — Métiers",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "imagier-difficile-metiers-g1324-3",
+     "title": "Cartes de lecture : mots découpés en syllabes — Métiers",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "imagier-difficile-metiers-k324-256",
+     "title": "Imagier à découper — Métiers",
+     "level": "hard",
+     "bw": false
+    }
+   ],
+   "deckTotal": 5,
+   "exclude": [],
+   "h1": "Imagier des métiers",
+   "title": "Imagier métiers à imprimer – maternelle et CP (PDF)",
+   "metaDescription": "Imagier des métiers : boulanger, médecin, pompier, pilote et plus, avec image et mot en trois niveaux et cartes de lecture en syllabes. En PDF.",
+   "p1": "Boulanger, médecin, pompier, pilote, infirmière : les métiers intéressent beaucoup les enfants, qui en connaissent souvent plusieurs grâce à leur entourage. Cet imagier présente des métiers sous forme d'images claires avec le nom du métier. Il accompagne un projet sur les métiers, les jeux d'imitation et les discussions sur ce que l'on veut faire plus tard.",
+   "p2": "La collection comprend cinq fiches. L'imagier à découper existe en trois niveaux : quatre grandes cartes pour nommer au niveau facile, huit cartes au niveau moyen et douze cartes de lecture au niveau difficile, où le mot passe au premier plan. S'y ajoutent des cartes de lecture avec les mots découpés en syllabes, au niveau moyen, et au niveau difficile avec les arcs de syllabes à tracer par l'enfant, qui aident à lire des noms longs comme boulangère ou photographe.",
+   "p3": "En maternelle, les grandes cartes servent aux discussions et aux devinettes : qui utilise un stéthoscope, qui conduit un avion ? Elles enrichissent aussi les jeux d'imitation au coin poupées ou au coin marchand. En grande section et au CP, les cartes en syllabes accompagnent le déchiffrage. Un jeu simple : un enfant tire une carte et mime le métier, les autres devinent et retrouvent la bonne carte. Les enfants racontent volontiers le métier de leurs parents."
+  },
+  {
+   "slug": "lis-et-colorie-paques",
+   "type": "read-and-color",
+   "topic": "paques",
+   "kind": "theme",
+   "phrases": [
+    "lis et colorie paques"
+   ],
+   "demand": 8,
+   "decks": [
+    {
+     "slug": "lis-et-colorie-facile-paques-nb-2-g1242-4",
+     "title": "Lis et colorie — Pâques NB 2",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "lis-et-colorie-facile-paques-nb-g1242-3",
+     "title": "Lis et colorie — Pâques NB",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "lis-et-colorie-facile-paques-nb-g1409-4",
+     "title": "Lis et colorie : deux phrases — Pâques NB",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "lis-et-colorie-paques-nb-2-g1242-51",
+     "title": "Lis et colorie — Pâques NB 2",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "lis-et-colorie-paques-nb-g1242-50",
+     "title": "Lis et colorie — Pâques NB",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "lis-et-colorie-difficile-paques-nb-2-g1242-95",
+     "title": "Lis et colorie — Pâques NB 2",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "lis-et-colorie-difficile-paques-nb-g1242-94",
+     "title": "Lis et colorie — Pâques NB",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "lis-et-colorie-difficile-paques-nb-g1252",
+     "title": "Lis et colorie : la page bien remplie — Pâques NB",
+     "level": "hard",
+     "bw": true
+    }
+   ],
+   "deckTotal": 8,
+   "exclude": [],
+   "h1": "Lis et colorie : Pâques",
+   "title": "Lis et colorie Pâques – CP et CE1 (PDF)",
+   "metaDescription": "Fiches lis et colorie de Pâques : lire les phrases, compter les images et colorier de la bonne couleur. Huit fiches noir et blanc en trois niveaux.",
+   "p1": "Lapins, œufs, poussins et paniers : sur ces fiches de Pâques, le coloriage devient une lecture. Près des images, des phrases indiquent combien d'objets colorier et de quelle couleur. L'enfant lit, compte et colorie les bonnes images. À la fin, la fiche montre tout de suite si chaque phrase a été bien comprise et si chaque nombre a été respecté.",
+   "p2": "La collection comprend huit fiches en noir et blanc, en trois niveaux. Les niveaux modifient la charge de lecture : au niveau facile, il y a moins d'images et de petits nombres ; au niveau difficile, les nombres sont plus grands et d'autres images, à ne pas colorier, sont mêlées aux images demandées. S'y ajoutent des variantes : deux phrases par case, que l'enfant doit bien distinguer, et une page bien remplie, avec une grande image et une liste de phrases à suivre.",
+   "p3": "Le niveau facile convient au CP, dès que les élèves lisent seuls des phrases simples ; le niveau difficile convient au CE1 et entraîne une lecture précise et attentive. Dans les semaines avant Pâques, ces fiches sont une activité calme pour le travail autonome ou les derniers jours avant les vacances. Pour les lecteurs encore hésitants, lisez les phrases ensemble avant de laisser l'enfant compter et colorier seul."
+  },
+  {
+   "slug": "coloriage-magique-voiture",
+   "type": "color-by-number",
+   "topic": "voiture",
+   "kind": "theme",
+   "phrases": [
+    "coloriage magique voiture"
+   ],
+   "demand": 8,
+   "decks": [
+    {
+     "slug": "coloriage-magique-k393-37-towncar",
+     "title": "Coloriage magique : Voiture en ville",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "coloriage-magique-k394-8-policecar",
+     "title": "Coloriage magique : Voiture de police",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "coloriage-magique-difficile-k393-18-townracecar",
+     "title": "Coloriage magique : Voiture de course",
+     "level": "hard",
+     "bw": false
+    }
+   ],
+   "deckTotal": 3,
+   "exclude": [],
+   "h1": "Coloriage magique : les voitures",
+   "title": "Coloriage magique voiture – voiture de course et plus",
+   "metaDescription": "Coloriages magiques de voitures : voiture en ville, voiture de police et voiture de course, aux niveaux moyen et difficile. Trois fiches en PDF.",
+   "p1": "Dans un coloriage magique, chaque zone du dessin porte un numéro, et une légende indique quelle couleur correspond à chaque numéro. L'enfant cherche le numéro dans la légende et colorie la zone de la bonne couleur. Peu à peu, le dessin apparaît. Sur ces fiches, ce sont des voitures : une voiture en ville, une voiture de police et une voiture de course.",
+   "p2": "La collection comprend trois fiches, chacune avec un dessin différent. La voiture en ville et la voiture de police sont au niveau moyen, avec cinq à sept couleurs. La voiture de course est au niveau difficile : six à huit couleurs et beaucoup de petites zones, ce qui demande de la patience et un coloriage précis. Chaque fiche existe aussi en version à l'écran, sur laquelle l'enfant touche une zone pour la colorier, pratique sur tablette ou au tableau interactif.",
+   "p3": "Ces coloriages conviennent à la grande section, au CP et au CE1, aux enfants qui reconnaissent bien les nombres et aiment les voitures. Ils font une activité calme en fin de journée ou pour ceux qui ont fini leur travail. Conseillez de colorier un numéro à la fois sur tout le dessin plutôt que zone par zone : c'est plus rapide et on se trompe moins. Des crayons bien taillés aident pour les plus petites zones."
+  },
+  {
+   "slug": "imagier-noel",
+   "type": "picture-word-cards",
+   "topic": "noel",
+   "kind": "theme",
+   "phrases": [
+    "imagier noel",
+    "imagier noel maternelle"
+   ],
+   "demand": 6,
+   "decks": [
+    {
+     "slug": "imagier-facile-noel-k324-29",
+     "title": "Imagier à découper — Noël",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "imagier-facile-noel-n-b-2-k324-4",
+     "title": "Imagier à découper — Noël N&B 2",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "imagier-facile-noel-n-b-k324-3",
+     "title": "Imagier à découper — Noël N&B",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "imagier-facile-noel-n-b-k349-4",
+     "title": "Cartes singulier et pluriel : un ou plusieurs — Noël N&B",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "imagier-noel-k324-127",
+     "title": "Imagier à découper — Noël",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "imagier-noel-n-b-2-k324-103",
+     "title": "Imagier à découper — Noël N&B 2",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "imagier-noel-n-b-k324-102",
+     "title": "Imagier à découper — Noël N&B",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "imagier-noel-n-b-k350-4-en",
+     "title": "Imagier bilingue : français et anglais — Noël N&B",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "imagier-difficile-noel-k324-222",
+     "title": "Imagier à découper — Noël",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "imagier-difficile-noel-n-b-k324-198",
+     "title": "Imagier à découper — Noël N&B",
+     "level": "hard",
+     "bw": true
+    }
+   ],
+   "deckTotal": 10,
+   "exclude": [],
+   "h1": "Imagier de Noël",
+   "title": "Imagier Noël à imprimer – maternelle (PDF)",
+   "metaDescription": "Imagier de Noël : sapin, cadeau, bougie, étoile, renne et plus, en trois niveaux, en couleur et noir et blanc, avec cartes singulier-pluriel.",
+   "p1": "Sapin, cadeau, bougie, étoile, renne, bonhomme de neige : en décembre, les enfants parlent de Noël avec enthousiasme. Cet imagier présente le vocabulaire de Noël sous forme d'images claires avec le mot écrit. Il accompagne le coin regroupement, les décorations de la classe, les jeux de memory et le mur de mots de la période.",
+   "p2": "La collection comprend dix fiches. L'imagier à découper existe en trois niveaux, en couleur et en noir et blanc : quatre grandes cartes au niveau facile, huit cartes au niveau moyen et douze cartes de lecture au niveau difficile, où le mot passe au premier plan. S'y ajoutent des cartes singulier et pluriel, pour associer une étoile et trois étoiles, et un imagier bilingue français et anglais. Les cartes en noir et blanc peuvent être coloriées par les enfants.",
+   "p3": "En maternelle, les grandes cartes aident à nommer et à raconter : que met-on sur le sapin, qui apporte les cadeaux ? En grande section et au CP, les cartes de lecture accompagnent les premiers mots lus, et les cartes singulier-pluriel font remarquer le s du pluriel. L'imagier bilingue est utile dans les classes où l'on commence l'anglais. On peut aussi utiliser une carte par jour comme mot du jour de l'Avent."
+  },
+  {
+   "slug": "graphisme-noel",
+   "type": "pre-writing",
+   "topic": "noel",
+   "kind": "theme",
+   "phrases": [
+    "graphisme noel"
+   ],
+   "demand": 5,
+   "decks": [
+    {
+     "slug": "graphisme-facile-noel-k236-29",
+     "title": "Graphisme : les chemins du crayon — Noël",
+     "level": "easy",
+     "bw": false
+    },
+    {
+     "slug": "graphisme-facile-noel-n-b-2-k236-4",
+     "title": "Graphisme : les chemins du crayon — Noël N&B 2",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "graphisme-facile-noel-n-b-k236-3",
+     "title": "Graphisme : les chemins du crayon — Noël N&B",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "graphisme-facile-noel-n-b-k246-4",
+     "title": "Graphisme : boucles et spirales — Noël N&B",
+     "level": "easy",
+     "bw": true
+    },
+    {
+     "slug": "graphisme-noel-k236-127",
+     "title": "Graphisme : les chemins du crayon — Noël",
+     "level": "core",
+     "bw": false
+    },
+    {
+     "slug": "graphisme-noel-n-b-2-k236-103",
+     "title": "Graphisme : les chemins du crayon — Noël N&B 2",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "graphisme-noel-n-b-k236-102",
+     "title": "Graphisme : les chemins du crayon — Noël N&B",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "graphisme-noel-n-b-k247-4",
+     "title": "Graphisme : les tracés difficiles — Noël N&B",
+     "level": "core",
+     "bw": true
+    },
+    {
+     "slug": "graphisme-difficile-noel-k236-226",
+     "title": "Graphisme : les chemins du crayon — Noël",
+     "level": "hard",
+     "bw": false
+    },
+    {
+     "slug": "graphisme-difficile-noel-n-b-2-k236-201",
+     "title": "Graphisme : les chemins du crayon — Noël N&B 2",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "graphisme-difficile-noel-n-b-2-k244-4",
+     "title": "Graphisme : lignes droites et zigzags — Noël N&B 2",
+     "level": "hard",
+     "bw": true
+    },
+    {
+     "slug": "graphisme-difficile-noel-n-b-k236-200",
+     "title": "Graphisme : les chemins du crayon — Noël N&B",
+     "level": "hard",
+     "bw": true
+    }
+   ],
+   "deckTotal": 12,
+   "exclude": [],
+   "h1": "Graphisme de Noël",
+   "title": "Graphisme Noël – maternelle, trois niveaux (PDF)",
+   "metaDescription": "Fiches de graphisme de Noël : chemins du crayon, boucles et spirales, lignes droites et zigzags, en trois niveaux, en couleur et noir et blanc.",
+   "p1": "Du traîneau au cadeau, de l'étoile au sapin : ces fiches de graphisme associent les premiers tracés aux images de Noël. Sur chaque ligne, l'enfant reproduit les ponts, les vagues, les boucles et les zigzags avec son crayon, en suivant des pointillés ou un modèle selon le niveau. Ces gestes préparent directement l'écriture des lettres, et les répéter souvent permet de gagner en régularité et en aisance.",
+   "p2": "Les douze fiches sont réparties en trois niveaux, qui se distinguent par l'aide apportée. Au niveau facile, chaque répétition est en pointillés et possède son propre point de départ. Au niveau moyen, le modèle est suivi de tracés en pointillés. Au niveau difficile, il y a le modèle, un seul tracé en pointillés, puis uniquement des points de départ. S'y ajoutent des variantes : les boucles et spirales, les lignes droites et zigzags et une fiche de tracés difficiles pour les enfants les plus à l'aise.",
+   "p3": "Ces fiches conviennent à la maternelle, de la moyenne à la grande section. Elles font une activité calme pendant la période de l'Avent tout en travaillant la motricité fine. Faites d'abord les gestes en grand dans l'air ou au tableau, puis passez au crayon. La plupart des fiches existent aussi en noir et blanc : une fois les tracés terminés, l'enfant peut colorier les images de Noël, ce qui fait de la fiche un petit dessin à emporter à la maison."
+  }
+ ]
+}

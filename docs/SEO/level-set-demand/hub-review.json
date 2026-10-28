@@ -1,0 +1,28 @@
+{
+  "_note": "Hand review of the wave-1 hub deck lists (2026-10-28). build-level-set-hubs.js applies it: drop = no hub; merge = fold the row's phrases into another hub (same decks); exclude = deck-slug substrings removed from a hub.",
+  "drop": {
+    "fr|how-to-draw|bonhomme": "the search means a stick figure / person; the decks are snowmen",
+    "pt|how-to-draw|boneca": "the search means a doll; the decks are snowmen",
+    "de|singular-plural|blume": "the search asks for the plural of Blume, not a flower theme",
+    "nl|articles|huis": "the search asks de or het for the word huis, not a house theme",
+    "de|number-charts|weihnachten": "two of the four decks are not hundred charts",
+    "nl|arrays-multiplication|kleuren": "the search means colour-by-multiplication; the decks are arrays with a colour theme",
+    "it|syllable-split|spiaggia": "the search asks how to split this one word into syllables, not for a theme",
+    "it|syllable-split|estate": "the search asks how to split this one word into syllables, not for a theme",
+    "es|syllable-split|flor": "the search asks how to split this one word into syllables, not for a theme",
+    "pt|syllable-split|flor": "the search asks how to split this one word into syllables, not for a theme",
+    "de|syllable-split|vogel": "the search asks how to split this one word into syllables, not for a theme"
+  },
+  "merge": {
+    "fr|picture-writing|voyage": "fr|picture-writing|vacances",
+    "fr|pre-writing|oblique": "fr|pre-writing|traits verticaux",
+    "nl|picture-word-cards|lichaamsdelen": "nl|picture-word-cards|lichaam",
+    "nl|picture-word-cards|boerderijdieren": "nl|picture-word-cards|boerderij"
+  },
+  "exclude": {
+    "nl|pre-writing|huis": [
+      "huisdieren",
+      "huishouden"
+    ]
+  }
+}

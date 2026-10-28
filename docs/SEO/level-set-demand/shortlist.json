@@ -1,0 +1,4740 @@
+[
+ {
+  "locale": "en",
+  "type": "maze-puzzles",
+  "topic": "hard",
+  "kind": "level",
+  "demand": 56,
+  "decks": 67,
+  "strength": "strong",
+  "phrases": [
+   "maze puzzles difficult",
+   "maze puzzles hard",
+   "mazes difficult"
+  ],
+  "sample": [
+   "maze-puzzles-hard-g1420-10 — Help the Seahorse Find the Seaweed",
+   "maze-puzzles-hard-g1420-11 — Help the Llama Find the Cabin"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "dot-to-dot",
+  "topic": "hard",
+  "kind": "level",
+  "demand": 41,
+  "decks": 56,
+  "strength": "strong",
+  "phrases": [
+   "dot to dot hard",
+   "dot to dot difficult",
+   "dot to dot difficult free printable"
+  ],
+  "sample": [
+   "dot-to-dot-hard-g1285-11 — Dot-to-Dot: Count by Twos",
+   "dot-to-dot-hard-g1285-12 — Dot-to-Dot: Count by Twos"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "find-the-differences",
+  "topic": "easy",
+  "kind": "level",
+  "demand": 38,
+  "decks": 64,
+  "strength": "strong",
+  "phrases": [
+   "find the differences easy",
+   "spot the difference easy",
+   "spot the difference easy for kids"
+  ],
+  "sample": [
+   "find-the-differences-easy-g1412-2 — Find 7 Differences: On the Farm",
+   "find-the-differences-easy-g1412-3 — Find 7 Differences: Under the Sea"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "word-problems",
+  "topic": "kerst",
+  "kind": "topic",
+  "demand": 33,
+  "decks": 21,
+  "strength": "strong",
+  "phrases": [
+   "verhaaltjessommen groep 3 kerst",
+   "verhaaltjessommen kerst",
+   "verhaaltjessommen kerst groep 4"
+  ],
+  "sample": [
+   "verhaaltjessommen-moeilijk-kerstmis-g1213-5 — Verhaaltjessommen met plaatjes — Kerstmis",
+   "verhaaltjessommen-moeilijk-kerstmis-g1238-5 — Verhaaltjessommen: optellen — Kerstmis"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "color-by-number",
+  "topic": "easy",
+  "kind": "level",
+  "demand": 32,
+  "decks": 75,
+  "strength": "strong",
+  "phrases": [
+   "color by number easy",
+   "color by number easy kids",
+   "color by number easy printable"
+  ],
+  "sample": [
+   "color-by-number-easy-k393-21-seaseahorse — Color by Number: Seahorse in the Sea",
+   "color-by-number-easy-k393-28-beachswimring — Color by Number: Swim Ring on the Beach"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "picture-writing",
+  "topic": "vacances",
+  "kind": "topic",
+  "demand": 28,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "production d'écrit vacances",
+   "production d écrit vacances ce1",
+   "production d'écrit vacances cp"
+  ],
+  "sample": [
+   "production-d-ecrit-facile-voyages-et-vacances-nb-g2278-86 — Production d'écrit : écrire à partir d'une image — Voyages et Vacances NB",
+   "production-d-ecrit-voyages-et-vacances-nb-g2278-185 — Production d'écrit : écrire à partir d'une image — Voyages et Vacances NB"
+  ]
+ },
+ {
+  "locale": "it",
+  "type": "color-by-number",
+  "topic": "natale",
+  "kind": "topic",
+  "demand": 28,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "conta e colora natale",
+   "conta e colora classe prima natale",
+   "conta e colora di natale"
+  ],
+  "sample": [
+   "conta-e-colora-facile-k393-35-wintersanta — Colora con i numeri: Babbo Natale sulla neve"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "logic-puzzles",
+  "topic": "hard",
+  "kind": "level",
+  "demand": 27,
+  "decks": 30,
+  "strength": "strong",
+  "phrases": [
+   "logic grid puzzles difficult",
+   "logic grid puzzles hard",
+   "logic puzzles for kids hard"
+  ],
+  "sample": [
+   "logic-puzzles-hard-farm-animals-g1349-3 — Picture Clue Logic Puzzles: Cross Out and Find — Farm Animals",
+   "logic-puzzles-hard-fruits-g1349-2 — Picture Clue Logic Puzzles: Cross Out and Find — Fruits"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "color-by-number",
+  "topic": "unicorn",
+  "kind": "topic",
+  "demand": 27,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "color by number unicorn",
+   "color by number unicorn printable",
+   "color by number unicorn free printable"
+  ],
+  "sample": [
+   "color-by-number-k394-42-unicorn — Color by Number: Unicorn"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "pre-writing",
+  "topic": "traits verticaux",
+  "kind": "topic",
+  "demand": 26,
+  "decks": 15,
+  "strength": "strong",
+  "phrases": [
+   "graphisme traits verticaux",
+   "graphisme traits verticaux ms",
+   "graphisme traits verticaux gs"
+  ],
+  "sample": [
+   "graphisme-difficile-boulangerie-k385 — Graphisme : traits verticaux, obliques et croix — Boulangerie",
+   "graphisme-plage-nb-k385-3 — Graphisme : traits verticaux, obliques et croix — Plage NB"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "picture-writing",
+  "topic": "noel",
+  "kind": "topic",
+  "demand": 26,
+  "decks": 10,
+  "strength": "strong",
+  "phrases": [
+   "production d'écrit noel cp",
+   "production d écrit noel ce1",
+   "production d'écrit noel"
+  ],
+  "sample": [
+   "production-d-ecrit-facile-noel-g2278-29 — Production d'écrit : écrire à partir d'une image — Noël",
+   "production-d-ecrit-noel-g2278-128 — Production d'écrit : écrire à partir d'une image — Noël"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "maze-puzzles",
+  "topic": "easy",
+  "kind": "level",
+  "demand": 25,
+  "decks": 69,
+  "strength": "strong",
+  "phrases": [
+   "maze puzzles easy",
+   "maze puzzles for kids easy",
+   "mazes easy"
+  ],
+  "sample": [
+   "maze-puzzles-easy-g1420-2 — Help the Monkey Find the Banana",
+   "maze-puzzles-easy-g1420-3 — Help the Badger Find the Chestnut Tree"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "sight-words",
+  "topic": "sentence",
+  "kind": "topic",
+  "demand": 24,
+  "decks": 900,
+  "strength": "strong",
+  "phrases": [
+   "sight words in a sentence",
+   "sight words sentences",
+   "sight words sentences for grade 1 pdf"
+  ],
+  "sample": [
+   "sight-words-k389-134-in — Sight Word in Sentences: in",
+   "sight-words-k389-135-is — Sight Word in Sentences: is"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "pre-writing",
+  "topic": "ostern",
+  "kind": "topic",
+  "demand": 24,
+  "decks": 12,
+  "strength": "strong",
+  "phrases": [
+   "schwungübungen ostern",
+   "schwungübungen ostern kostenlos",
+   "schwungübungen ostern zum ausdrucken"
+  ],
+  "sample": [
+   "schwunguebungen-leicht-ostern-k236-38 — Schwungübungen — Ostern",
+   "schwunguebungen-ostern-k236-136 — Schwungübungen — Ostern"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "read-and-color",
+  "topic": "weihnachten",
+  "kind": "topic",
+  "demand": 24,
+  "decks": 9,
+  "strength": "strong",
+  "phrases": [
+   "lese mal blätter weihnachten",
+   "lese mal blätter weihnachten klasse 1",
+   "lese mal blätter klasse 2 weihnachten"
+  ],
+  "sample": [
+   "lese-mal-blaetter-leicht-weihnachten-s-w-g1242 — Lesen und Malen — Weihnachten S/W",
+   "lese-mal-blaetter-weihnachten-s-w-g1242-47 — Lesen und Malen — Weihnachten S/W"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "pre-writing",
+  "topic": "lente",
+  "kind": "topic",
+  "demand": 22,
+  "decks": 4,
+  "strength": "strong",
+  "phrases": [
+   "schrijfpatronen kleuters lente",
+   "schrijfpatronen lente",
+   "schrijfpatronen lente kleuters"
+  ],
+  "sample": [
+   "schrijfpatronen-makkelijk-lente-k236-78 — Schrijfpatronen oefenen — Lente",
+   "schrijfpatronen-lente-k236-176 — Schrijfpatronen oefenen — Lente"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "picture-word-cards",
+  "topic": "kleidung",
+  "kind": "topic",
+  "demand": 21,
+  "decks": 9,
+  "strength": "strong",
+  "phrases": [
+   "bildkarten kleidung kostenlos ausdrucken",
+   "bildkarten kleidung pdf",
+   "bildkarten kleidung"
+  ],
+  "sample": [
+   "bildkarten-leicht-kleidung-sw-k324-16 — Bildkarten mit Wort — Kleidung SW",
+   "bildkarten-kleidung-sw-k324-114 — Bildkarten mit Wort — Kleidung SW"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "picture-word-cards",
+  "topic": "vetement",
+  "kind": "topic",
+  "demand": 20,
+  "decks": 9,
+  "strength": "strong",
+  "phrases": [
+   "imagier vetement",
+   "imagier vêtements à imprimer",
+   "imagier vêtements maternelle"
+  ],
+  "sample": [
+   "imagier-facile-vetements-nb-k324-16 — Imagier à découper — Vêtements NB",
+   "imagier-vetements-nb-k324-114 — Imagier à découper — Vêtements NB"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "how-to-draw",
+  "topic": "bonhomme",
+  "kind": "topic",
+  "demand": 20,
+  "decks": 4,
+  "strength": "strong",
+  "phrases": [
+   "apprendre à dessiner bonhomme maternelle",
+   "apprendre à dessiner bonhomme",
+   "apprendre à dessiner un bonhomme"
+  ],
+  "sample": [
+   "apprendre-a-dessiner-facile-g1418-7 — Remets les étapes dans l'ordre : dessiner un bonhomme de neige",
+   "apprendre-a-dessiner-facile-k396-7 — Apprendre à dessiner un bonhomme de neige étape par étape"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "read-and-color",
+  "topic": "ostern",
+  "kind": "topic",
+  "demand": 19,
+  "decks": 9,
+  "strength": "strong",
+  "phrases": [
+   "lese mal blätter ostern",
+   "lese mal blätter klasse 1 ostern"
+  ],
+  "sample": [
+   "lese-mal-blaetter-leicht-ostern-sw-g1242-3 — Lesen und Malen — Ostern SW",
+   "lese-mal-blaetter-ostern-sw-g1242-49 — Lesen und Malen — Ostern SW"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "picture-word-cards",
+  "topic": "wetter",
+  "kind": "topic",
+  "demand": 19,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "bildkarten wetter zum ausdrucken",
+   "bildkarten wetter",
+   "bildkarten wetter kindergarten"
+  ],
+  "sample": [
+   "bildkarten-leicht-wetter-k324-96 — Bildkarten mit Wort — Wetter",
+   "bildkarten-wetter-k324-193 — Bildkarten mit Wort — Wetter"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "reading-comprehension",
+  "topic": "herbst",
+  "kind": "topic",
+  "demand": 19,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "leseverständnis herbst",
+   "leseverständnis herbst klasse 2"
+  ],
+  "sample": [
+   "leseverstaendnis-g2273-2 — Lesen und verstehen: Drachensteigen im Herbst",
+   "leseverstaendnis-leicht-g2273-8 — Lesen und verstehen: Drachensteigen im Herbst"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "picture-word-cards",
+  "topic": "ustensiles cuisine",
+  "kind": "topic",
+  "demand": 19,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "imagier ustensiles de cuisine maternelle",
+   "imagier ustensiles de cuisine"
+  ],
+  "sample": [
+   "imagier-facile-ustensiles-de-cuisine-k324-61 — Imagier à découper — Ustensiles de cuisine",
+   "imagier-ustensiles-de-cuisine-k324-159 — Imagier à découper — Ustensiles de cuisine"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "picture-tracing",
+  "topic": "easy",
+  "kind": "level",
+  "demand": 18,
+  "decks": 100,
+  "strength": "strong",
+  "phrases": [
+   "tracing pictures easy",
+   "tracing worksheets easy"
+  ],
+  "sample": [
+   "picture-tracing-easy-k428-3 — The Doll’s House",
+   "picture-tracing-easy-g1429-2 — The Village Bakery"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "word-problems",
+  "topic": "ostern",
+  "kind": "topic",
+  "demand": 18,
+  "decks": 21,
+  "strength": "strong",
+  "phrases": [
+   "sachaufgaben ostern",
+   "sachaufgaben ostern klasse 2",
+   "sachaufgaben ostern klasse 3"
+  ],
+  "sample": [
+   "sachaufgaben-leicht-ostern-g1213 — Rechengeschichten mit Bildern — Ostern",
+   "sachaufgaben-ostern-sw-g1213-4 — Rechengeschichten mit Bildern — Ostern SW"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "pre-writing",
+  "topic": "winter",
+  "kind": "topic",
+  "demand": 18,
+  "decks": 5,
+  "strength": "strong",
+  "phrases": [
+   "schrijfpatronen kleuters winter",
+   "schrijfpatronen winter",
+   "schrijfpatronen winter kleuters"
+  ],
+  "sample": [
+   "schrijfpatronen-makkelijk-winter-k236-97 — Schrijfpatronen oefenen — Winter",
+   "schrijfpatronen-winter-k236-195 — Schrijfpatronen oefenen — Winter"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "picture-word-cards",
+  "topic": "winter",
+  "kind": "topic",
+  "demand": 18,
+  "decks": 4,
+  "strength": "strong",
+  "phrases": [
+   "woordkaartjes winter",
+   "woordkaartjes winter kleuters"
+  ],
+  "sample": [
+   "woordkaartjes-makkelijk-winter-k324-97 — Woordkaartjes met plaatjes — Winter",
+   "woordkaartjes-winter-k324-194 — Woordkaartjes met plaatjes — Winter"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "how-to-draw",
+  "topic": "unicorn",
+  "kind": "topic",
+  "demand": 18,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "how to draw unicorn",
+   "how to draw unicorn for kids"
+  ],
+  "sample": [
+   "how-to-draw-hard-g2390-17 — Draw a Unicorn, Then Write About It"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "picture-tracing",
+  "topic": "hard",
+  "kind": "level",
+  "demand": 17,
+  "decks": 100,
+  "strength": "strong",
+  "phrases": [
+   "tracing pictures hard",
+   "tracing worksheets hard"
+  ],
+  "sample": [
+   "picture-tracing-hard-k426-12 — Where Do I Start?",
+   "picture-tracing-hard-g1429-12 — The Busy Harbour"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "word-problems",
+  "topic": "weihnachten",
+  "kind": "topic",
+  "demand": 17,
+  "decks": 21,
+  "strength": "strong",
+  "phrases": [
+   "sachaufgaben weihnachten klasse 3",
+   "sachaufgaben weihnachten",
+   "sachaufgaben weihnachten 4 klasse"
+  ],
+  "sample": [
+   "sachaufgaben-leicht-weihnachten-g1213-5 — Rechengeschichten mit Bildern — Weihnachten",
+   "sachaufgaben-leicht-weihnachten-g1238 — Rechengeschichten: Plusaufgaben — Weihnachten"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "pre-writing",
+  "topic": "rond",
+  "kind": "topic",
+  "demand": 17,
+  "decks": 15,
+  "strength": "strong",
+  "phrases": [
+   "graphisme rond",
+   "graphisme rond gs",
+   "graphisme rond ms"
+  ],
+  "sample": [
+   "graphisme-difficile-accessoires-k386-3 — Graphisme : ronds, carrés et triangles — Accessoires",
+   "graphisme-parties-du-corps-k386-2 — Graphisme : ronds, carrés et triangles — Parties du corps"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "write-the-word",
+  "topic": "noel",
+  "kind": "topic",
+  "demand": 17,
+  "decks": 6,
+  "strength": "strong",
+  "phrases": [
+   "dictée muette noel",
+   "dictée muette noel cp"
+  ],
+  "sample": [
+   "dictee-muette-facile-noel-g1244-11 — Dictée muette : écris le nom de l'image — Noël",
+   "dictee-muette-noel-g1244-45 — Dictée muette : écris le nom de l'image — Noël"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "pre-writing",
+  "topic": "zomer",
+  "kind": "topic",
+  "demand": 16,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "schrijfpatronen zomer",
+   "schrijfpatronen kleuters zomer",
+   "schrijfpatronen zomer kleuters"
+  ],
+  "sample": [
+   "schrijfpatronen-zomer-k236-177 — Schrijfpatronen oefenen — Zomer",
+   "schrijfpatronen-makkelijk-zomer-k236-79 — Schrijfpatronen oefenen — Zomer"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "multiplication-tables",
+  "topic": "hard",
+  "kind": "level",
+  "demand": 15,
+  "decks": 50,
+  "strength": "strong",
+  "phrases": [
+   "multiplication tables hard",
+   "times tables worksheets hard"
+  ],
+  "sample": [
+   "multiplication-tables-hard-g3358-12 — Times Tables Practice",
+   "multiplication-tables-hard-g3358-13 — Times Tables Practice"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "multiplication-tables",
+  "topic": "easy",
+  "kind": "level",
+  "demand": 15,
+  "decks": 23,
+  "strength": "strong",
+  "phrases": [
+   "multiplication tables easy",
+   "times tables worksheets easy"
+  ],
+  "sample": [
+   "multiplication-tables-easy-g3358-10 — Times Tables Practice",
+   "multiplication-tables-easy-g3358-11 — Times Tables Practice"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "picture-word-cards",
+  "topic": "legumes",
+  "kind": "topic",
+  "demand": 15,
+  "decks": 9,
+  "strength": "strong",
+  "phrases": [
+   "imagier légumes",
+   "imagier légumes à imprimer"
+  ],
+  "sample": [
+   "imagier-facile-legumes-k324-89 — Imagier à découper — Légumes",
+   "imagier-legumes-k324-185 — Imagier à découper — Légumes"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "division-with-remainder",
+  "topic": "easy",
+  "kind": "level",
+  "demand": 14,
+  "decks": 70,
+  "strength": "strong",
+  "phrases": [
+   "division with remainders easy",
+   "division with remainders easy worksheet"
+  ],
+  "sample": [
+   "division-with-remainder-easy-g3384-8 — Hop Back on the Number Line: What Is Left?",
+   "division-with-remainder-easy-g3384-9 — Hop Back on the Number Line: What Is Left?"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "picture-word-cards",
+  "topic": "essen",
+  "kind": "topic",
+  "demand": 14,
+  "decks": 11,
+  "strength": "strong",
+  "phrases": [
+   "bildkarten essen",
+   "bildkarten essen pdf"
+  ],
+  "sample": [
+   "bildkarten-leicht-essen-sw-k324-46 — Bildkarten mit Wort — Essen SW",
+   "bildkarten-essen-sw-k324-144 — Bildkarten mit Wort — Essen SW"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "picture-word-cards",
+  "topic": "emotions",
+  "kind": "topic",
+  "demand": 14,
+  "decks": 5,
+  "strength": "strong",
+  "phrases": [
+   "imagier des émotions",
+   "imagier des émotions pdf",
+   "imagier émotions"
+  ],
+  "sample": [
+   "imagier-facile-emotions-k324-40 — Imagier à découper — Émotions",
+   "imagier-emotions-k324-138 — Imagier à découper — Émotions"
+  ]
+ },
+ {
+  "locale": "it",
+  "type": "pre-writing",
+  "topic": "estate",
+  "kind": "topic",
+  "demand": 14,
+  "decks": 4,
+  "strength": "strong",
+  "phrases": [
+   "pregrafismo estate",
+   "pregrafismo estate infanzia"
+  ],
+  "sample": [
+   "pregrafismo-estate-k236-177 — Percorsi di pregrafismo — Estate",
+   "pregrafismo-facile-estate-k236-79 — Percorsi di pregrafismo — Estate"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "picture-writing",
+  "topic": "voyage",
+  "kind": "topic",
+  "demand": 14,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "production d'écrit voyage",
+   "production d'écrit voyage cm"
+  ],
+  "sample": [
+   "production-d-ecrit-facile-voyages-et-vacances-nb-g2278-86 — Production d'écrit : écrire à partir d'une image — Voyages et Vacances NB",
+   "production-d-ecrit-voyages-et-vacances-nb-g2278-185 — Production d'écrit : écrire à partir d'une image — Voyages et Vacances NB"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "how-to-draw",
+  "topic": "easy",
+  "kind": "level",
+  "demand": 13,
+  "decks": 72,
+  "strength": "strong",
+  "phrases": [
+   "how to draw easy",
+   "how to draw videos easy"
+  ],
+  "sample": [
+   "how-to-draw-easy-g1416-5 — Draw a Turkey with the Grid",
+   "how-to-draw-easy-g1416-6 — Draw a Mouse with the Grid"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "dot-to-dot",
+  "topic": "easy",
+  "kind": "level",
+  "demand": 13,
+  "decks": 52,
+  "strength": "strong",
+  "phrases": [
+   "dot to dot easy",
+   "dot to dot easy printable"
+  ],
+  "sample": [
+   "dot-to-dot-easy-g2304-10 — Dot-to-Dot: Count by Fives",
+   "dot-to-dot-easy-g2304-6 — Dot-to-Dot: Count by Fives"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "compound-words",
+  "topic": "hard",
+  "kind": "level",
+  "demand": 13,
+  "decks": 10,
+  "strength": "strong",
+  "phrases": [
+   "compound words difficult",
+   "compound words hard"
+  ],
+  "sample": [
+   "compound-words-hard-g2332-3 — Compound Detective",
+   "compound-words-hard-g2332-4 — Compound Detective"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "picture-word-cards",
+  "topic": "kerst",
+  "kind": "topic",
+  "demand": 13,
+  "decks": 10,
+  "strength": "strong",
+  "phrases": [
+   "woordkaartjes kerst",
+   "woordkaartjes kerst kleuters"
+  ],
+  "sample": [
+   "woordkaartjes-makkelijk-kerstmis-k324-29 — Woordkaartjes met plaatjes — Kerstmis",
+   "woordkaartjes-kerstmis-k324-127 — Woordkaartjes met plaatjes — Kerstmis"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "pre-writing",
+  "topic": "ruimte",
+  "kind": "topic",
+  "demand": 13,
+  "decks": 9,
+  "strength": "strong",
+  "phrases": [
+   "schrijfpatronen de ruimte",
+   "schrijfpatronen ruimte"
+  ],
+  "sample": [
+   "schrijfpatronen-makkelijk-ruimte-k236-74 — Schrijfpatronen oefenen — Ruimte",
+   "schrijfpatronen-ruimte-k236-172 — Schrijfpatronen oefenen — Ruimte"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "picture-word-cards",
+  "topic": "hiver",
+  "kind": "topic",
+  "demand": 13,
+  "decks": 5,
+  "strength": "strong",
+  "phrases": [
+   "imagier hiver",
+   "imagier hiver maternelle"
+  ],
+  "sample": [
+   "imagier-facile-hiver-k324-97 — Imagier à découper — Hiver",
+   "imagier-hiver-k324-193 — Imagier à découper — Hiver"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "picture-word-cards",
+  "topic": "bakker",
+  "kind": "topic",
+  "demand": 13,
+  "decks": 5,
+  "strength": "strong",
+  "phrases": [
+   "woordkaartjes bakker",
+   "woordkaartjes de bakker"
+  ],
+  "sample": [
+   "woordkaartjes-makkelijk-bakkerij-k324-18 — Woordkaartjes met plaatjes — Bakkerij",
+   "woordkaartjes-bakkerij-k324-116 — Woordkaartjes met plaatjes — Bakkerij"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "picture-word-cards",
+  "topic": "couleurs",
+  "kind": "topic",
+  "demand": 13,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "imagier couleurs",
+   "imagier des couleurs"
+  ],
+  "sample": [
+   "imagier-couleurs-k324-132 — Imagier à découper — Couleurs",
+   "imagier-facile-couleurs-k324-34 — Imagier à découper — Couleurs"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "color-by-number",
+  "topic": "ice cream",
+  "kind": "topic",
+  "demand": 13,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "color by number ice cream",
+   "color by number ice cream printable"
+  ],
+  "sample": [
+   "color-by-number-hard-k394-87-icecreamsundae — Color by Number: Ice Cream Sundae",
+   "color-by-number-hard-k393-12-townicecreamtruck — Color by Number: Ice Cream Truck"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "color-by-number",
+  "topic": "kerst",
+  "kind": "topic",
+  "demand": 13,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "kleuren op code kerst",
+   "kleuren op code kerst groep 3",
+   "kleuren op code kerst groep 4"
+  ],
+  "sample": [
+   "kleuren-op-code-makkelijk-k393-35-wintersanta — Kleuren op nummer: Kerstman in de sneeuw"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "pre-writing",
+  "topic": "weihnachten",
+  "kind": "topic",
+  "demand": 12,
+  "decks": 12,
+  "strength": "strong",
+  "phrases": [
+   "schwungübungen weihnachten",
+   "schwungübungen weihnachten kostenlos"
+  ],
+  "sample": [
+   "schwunguebungen-leicht-weihnachten-k236-29 — Schwungübungen — Weihnachten",
+   "schwunguebungen-weihnachten-k236-127 — Schwungübungen — Weihnachten"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "picture-word-cards",
+  "topic": "lichaam",
+  "kind": "topic",
+  "demand": 12,
+  "decks": 6,
+  "strength": "strong",
+  "phrases": [
+   "woordkaartjes het lichaam",
+   "woordkaartjes lichaam"
+  ],
+  "sample": [
+   "woordkaartjes-makkelijk-lichaamsdelen-g1324-3 — Lettergreepkaartjes: lees het woord in stukjes — Lichaamsdelen",
+   "woordkaartjes-makkelijk-lichaamsdelen-k324-26 — Woordkaartjes met plaatjes — Lichaamsdelen"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "picture-word-cards",
+  "topic": "insectes",
+  "kind": "topic",
+  "demand": 12,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "imagier insectes",
+   "imagier insectes maternelle"
+  ],
+  "sample": [
+   "imagier-facile-insectes-et-bestioles-k324-59 — Imagier à découper — Insectes et bestioles",
+   "imagier-insectes-et-bestioles-k324-157 — Imagier à découper — Insectes et bestioles"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "picture-word-cards",
+  "topic": "animaux ferme",
+  "kind": "topic",
+  "demand": 11,
+  "decks": 7,
+  "strength": "strong",
+  "phrases": [
+   "imagier animaux de la ferme",
+   "imagier animaux de la ferme à imprimer pdf"
+  ],
+  "sample": [
+   "imagier-facile-animaux-de-la-ferme-k324-42 — Imagier à découper — Animaux de la ferme",
+   "imagier-animaux-de-la-ferme-k324-140 — Imagier à découper — Animaux de la ferme"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "arrays-multiplication",
+  "topic": "kleuren",
+  "kind": "topic",
+  "demand": 11,
+  "decks": 6,
+  "strength": "strong",
+  "phrases": [
+   "keersommen en kleuren",
+   "keersommen kleuren"
+  ],
+  "sample": [
+   "keersommen-makkelijk-kleuren-g2211-18 — Rijen en kolommen — Kleuren",
+   "keersommen-kleuren-g2211-70 — Rijen en kolommen — Kleuren"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "picture-word-cards",
+  "topic": "weer",
+  "kind": "topic",
+  "demand": 11,
+  "decks": 5,
+  "strength": "strong",
+  "phrases": [
+   "woordkaartjes het weer",
+   "woordkaartjes weer"
+  ],
+  "sample": [
+   "woordkaartjes-makkelijk-weer-k324-96 — Woordkaartjes met plaatjes — Weer",
+   "woordkaartjes-weer-k324-193 — Woordkaartjes met plaatjes — Weer"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "word-problems",
+  "topic": "hard",
+  "kind": "level",
+  "demand": 10,
+  "decks": 60,
+  "strength": "strong",
+  "phrases": [
+   "word problems hard"
+  ],
+  "sample": [
+   "word-problems-hard-christmas-b-w-g1213-2 — Picture Word Problems — Christmas B&W",
+   "word-problems-hard-classroom-b-w-g1213-4 — Picture Word Problems — Classroom (B&W)"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "logic-puzzles",
+  "topic": "easy",
+  "kind": "level",
+  "demand": 10,
+  "decks": 26,
+  "strength": "strong",
+  "phrases": [
+   "logic grid puzzles easy"
+  ],
+  "sample": [
+   "logic-puzzles-easy-farm-animals-g1349 — Picture Clue Logic Puzzles: Cross Out and Find — Farm Animals",
+   "logic-puzzles-easy-fruits-g1349-3 — Picture Clue Logic Puzzles: Cross Out and Find — Fruits"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "pre-writing",
+  "topic": "oblique",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 15,
+  "strength": "strong",
+  "phrases": [
+   "graphisme oblique gs",
+   "graphisme oblique"
+  ],
+  "sample": [
+   "graphisme-difficile-boulangerie-k385 — Graphisme : traits verticaux, obliques et croix — Boulangerie",
+   "graphisme-plage-nb-k385-3 — Graphisme : traits verticaux, obliques et croix — Plage NB"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "pre-writing",
+  "topic": "pasen",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 12,
+  "strength": "strong",
+  "phrases": [
+   "schrijfpatronen pasen"
+  ],
+  "sample": [
+   "schrijfpatronen-pasen-k236-136 — Schrijfpatronen oefenen — Pasen",
+   "schrijfpatronen-makkelijk-pasen-k236-38 — Schrijfpatronen oefenen — Pasen"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "word-problems",
+  "topic": "pasen",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 12,
+  "strength": "strong",
+  "phrases": [
+   "verhaaltjessommen pasen"
+  ],
+  "sample": [
+   "verhaaltjessommen-pasen-g1239-3 — Verhaaltjessommen: aftrekken — Pasen",
+   "verhaaltjessommen-makkelijk-pasen-g1238-3 — Verhaaltjessommen: optellen — Pasen"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "read-and-color",
+  "topic": "noel",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 9,
+  "strength": "strong",
+  "phrases": [
+   "lis et colorie noel"
+  ],
+  "sample": [
+   "lis-et-colorie-facile-noel-n-b-g1242 — Lis et colorie — Noël N&B",
+   "lis-et-colorie-noel-n-b-g1242-48 — Lis et colorie — Noël N&B"
+  ]
+ },
+ {
+  "locale": "no",
+  "type": "picture-word-cards",
+  "topic": "paske",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 9,
+  "strength": "strong",
+  "phrases": [
+   "bildekort påske"
+  ],
+  "sample": [
+   "bildekort-lett-paske-k324-38 — Bildekort med ord — Påske",
+   "bildekort-paske-k324-136 — Bildekort med ord — Påske"
+  ]
+ },
+ {
+  "locale": "fi",
+  "type": "picture-word-cards",
+  "topic": "joulu",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 9,
+  "strength": "strong",
+  "phrases": [
+   "kuvakortit joulu"
+  ],
+  "sample": [
+   "kuvakortit-joulu-k324-125 — Kuvakortit ja sanakortit — Joulu",
+   "kuvakortit-helppo-joulu-k324-29 — Kuvakortit ja sanakortit — Joulu"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "read-and-color",
+  "topic": "easter",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 8,
+  "strength": "strong",
+  "phrases": [
+   "read and color easter"
+  ],
+  "sample": [
+   "read-and-color-easy-easter-bw-g1242-3 — Read and Color — Easter BW",
+   "read-and-color-easter-bw-g1242-51 — Read and Color — Easter BW"
+  ]
+ },
+ {
+  "locale": "pt",
+  "type": "syllable-split",
+  "topic": "flor",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 7,
+  "strength": "strong",
+  "phrases": [
+   "separação de silabas flor"
+  ],
+  "sample": [
+   "separacao-de-silabas-flores-g1305-6 — Separação de sílabas: bata palmas e marque — Flores",
+   "separacao-de-silabas-facil-flores-g1305-3 — Separação de sílabas: bata palmas e marque — Flores"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "pre-writing",
+  "topic": "dinosaurier",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 6,
+  "strength": "strong",
+  "phrases": [
+   "schwungübungen dinosaurier"
+  ],
+  "sample": [
+   "schwunguebungen-leicht-dinosaurier-k236-37 — Schwungübungen — Dinosaurier",
+   "schwunguebungen-dinosaurier-k236-135 — Schwungübungen — Dinosaurier"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "write-the-word",
+  "topic": "hiver",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 6,
+  "strength": "strong",
+  "phrases": [
+   "dictée muette hiver"
+  ],
+  "sample": [
+   "dictee-muette-facile-hiver-g1244-30 — Dictée muette : écris le nom de l'image — Hiver",
+   "dictee-muette-hiver-g1244-68 — Dictée muette : écris le nom de l'image — Hiver"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "picture-word-cards",
+  "topic": "ruimte",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 6,
+  "strength": "strong",
+  "phrases": [
+   "woordkaartjes ruimte"
+  ],
+  "sample": [
+   "woordkaartjes-ruimte-k324-172 — Woordkaartjes met plaatjes — Ruimte",
+   "woordkaartjes-makkelijk-ruimte-k324-74 — Woordkaartjes met plaatjes — Ruimte"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "pre-writing",
+  "topic": "winter",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 5,
+  "strength": "strong",
+  "phrases": [
+   "schwungübungen winter",
+   "schwungübungen winter kostenlos"
+  ],
+  "sample": [
+   "schwunguebungen-leicht-winter-k236-97 — Schwungübungen — Winter",
+   "schwunguebungen-winter-k236-195 — Schwungübungen — Winter"
+  ]
+ },
+ {
+  "locale": "pt",
+  "type": "how-to-draw",
+  "topic": "vaca",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 4,
+  "strength": "strong",
+  "phrases": [
+   "como desenhar vaca"
+  ],
+  "sample": [
+   "como-desenhar-facil-k401-4 — Desenhe uma vaca com formas simples",
+   "como-desenhar-k404-9 — Desenhe uma vaca e escreva a palavra"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "picture-word-cards",
+  "topic": "beroepen",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 4,
+  "strength": "strong",
+  "phrases": [
+   "woordkaartjes beroepen"
+  ],
+  "sample": [
+   "woordkaartjes-beroepen-g1324-5 — Lettergreepkaartjes: lees het woord in stukjes — Beroepen",
+   "woordkaartjes-makkelijk-beroepen-k324-66 — Woordkaartjes met plaatjes — Beroepen"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "find-the-differences",
+  "topic": "zoo",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "spot the difference zoo"
+  ],
+  "sample": [
+   "find-the-differences-g1412-16 — Find 7 Differences: At the Zoo",
+   "find-the-differences-hard-g1412-19 — Find 7 Differences: At the Zoo"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "sentence-building",
+  "topic": "bauernhof",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "schüttelsätze bauernhof"
+  ],
+  "sample": [
+   "schuettelsaetze-leicht-bauernhoftiere-sw-g1282-4 — Schüttelsätze mit Hilfen — Bauernhoftiere SW",
+   "schuettelsaetze-schwer-bauernhoftiere-g1282-3 — Schüttelsätze mit Hilfen — Bauernhoftiere"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "pre-writing",
+  "topic": "insecten",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "schrijfpatronen insecten"
+  ],
+  "sample": [
+   "schrijfpatronen-makkelijk-insecten-en-beestjes-k236-59 — Schrijfpatronen oefenen — Insecten en beestjes",
+   "schrijfpatronen-insecten-en-beestjes-k236-157 — Schrijfpatronen oefenen — Insecten en beestjes"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "picture-word-cards",
+  "topic": "insecten",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "woordkaartjes insecten"
+  ],
+  "sample": [
+   "woordkaartjes-makkelijk-insecten-en-beestjes-k324-59 — Woordkaartjes met plaatjes — Insecten en beestjes",
+   "woordkaartjes-insecten-en-beestjes-k324-157 — Woordkaartjes met plaatjes — Insecten en beestjes"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "picture-word-cards",
+  "topic": "zomer",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "woordkaartjes zomer"
+  ],
+  "sample": [
+   "woordkaartjes-makkelijk-zomer-k324-79 — Woordkaartjes met plaatjes — Zomer",
+   "woordkaartjes-zomer-k324-176 — Woordkaartjes met plaatjes — Zomer"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "sound-boxes",
+  "topic": "zomer",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "hakken en plakken zomer"
+  ],
+  "sample": [
+   "hakken-en-plakken-zomer-g1313-3 — Lettergrepen en klanken — Zomer",
+   "hakken-en-plakken-zomer-g1314-5 — Plakken en lezen: welk plaatje hoort erbij? — Zomer"
+  ]
+ },
+ {
+  "locale": "sv",
+  "type": "color-by-number",
+  "topic": "katt",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "måla efter siffror katt"
+  ],
+  "sample": [
+   "mala-efter-siffror-latt-k393-45-nightcat — Måla efter nummer: Katt på natten",
+   "mala-efter-siffror-k394-2-cat — Måla efter nummer: Katt"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "maze-puzzles",
+  "topic": "weihnachten",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "labyrinth rätsel weihnachten"
+  ],
+  "sample": [
+   "labyrinth-raetsel-g1420-7 — Hilf dem Weihnachtsmann zum Schlitten",
+   "labyrinth-raetsel-g2392-5 — Zähl in Fünferschritten bis zum Weihnachtsbaum"
+  ]
+ },
+ {
+  "locale": "es",
+  "type": "how-to-draw",
+  "topic": "jirafas",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "cómo dibujar jirafas"
+  ],
+  "sample": [
+   "como-dibujar-dificil-g2391-15 — Dibuja una jirafa de memoria",
+   "como-dibujar-dificil-k404-18 — Dibuja una jirafa y escribe la palabra"
+  ]
+ },
+ {
+  "locale": "pt",
+  "type": "how-to-draw",
+  "topic": "carro",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "como desenhar um carro",
+   "como desenhar carro"
+  ],
+  "sample": [
+   "como-desenhar-dificil-k396-26 — Como desenhar um carro de polícia passo a passo",
+   "como-desenhar-dificil-k403-14 — Complete o desenho de um carro de polícia"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "articles",
+  "topic": "strand",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "de of het strand"
+  ],
+  "sample": [
+   "de-of-het-strand-zw-k288-4 — De of het? — Strand ZW",
+   "de-of-het-makkelijk-strand-k306-3 — De of het? Vier plaatjes — Strand"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "singular-plural",
+  "topic": "zoo",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "singular and plural zoo"
+  ],
+  "sample": [
+   "singular-plural-zoo-animals-bw-k314-6 — One and Many: Write It Yourself — Zoo Animals BW"
+  ]
+ },
+ {
+  "locale": "es",
+  "type": "color-by-number",
+  "topic": "unicornio",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "colorear por numeros unicornio"
+  ],
+  "sample": [
+   "colorear-por-numeros-k394-42-unicorn — Colorea por números: Unicornio"
+  ]
+ },
+ {
+  "locale": "pt",
+  "type": "how-to-draw",
+  "topic": "estrela",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "como desenhar estrela"
+  ],
+  "sample": [
+   "como-desenhar-facil-k402-6 — Cubra uma estrela-do-mar passo a passo"
+  ]
+ },
+ {
+  "locale": "it",
+  "type": "picture-tracing",
+  "topic": "autunno",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "disegni tratteggiati autunno"
+  ],
+  "sample": [
+   "disegni-tratteggiati-facile-k423-2 — Foglie d'autunno"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "color-by-number",
+  "topic": "dobbelsteen",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "kleuren op code dobbelsteen"
+  ],
+  "sample": [
+   "kleuren-op-code-k394-35-dice — Kleuren op nummer: Dobbelsteen"
+  ]
+ },
+ {
+  "locale": "sv",
+  "type": "how-to-draw",
+  "topic": "enhorning",
+  "kind": "topic",
+  "demand": 10,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "rita steg för steg enhörning"
+  ],
+  "sample": [
+   "rita-steg-for-steg-svar-g2390-17 — Rita en enhörning och skriv några meningar om teckningen"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "opposites",
+  "topic": "hard",
+  "kind": "level",
+  "demand": 9,
+  "decks": 17,
+  "strength": "strong",
+  "phrases": [
+   "opposites hard"
+  ],
+  "sample": [
+   "opposites-hard-g1335-12 — Opposites in a Sentence",
+   "opposites-hard-g1307-12 — Opposites: Write the Opposite Word"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "pre-writing",
+  "topic": "circles",
+  "kind": "topic",
+  "demand": 9,
+  "decks": 15,
+  "strength": "strong",
+  "phrases": [
+   "pre writing worksheets circles"
+  ],
+  "sample": [
+   "pre-writing-easy-tools-bw-k386-4 — Circles, Squares and More Shapes — Tools BW",
+   "pre-writing-hard-accessories-k386-5 — Circles, Squares and More Shapes — Accessories"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "picture-word-cards",
+  "topic": "oiseaux",
+  "kind": "topic",
+  "demand": 9,
+  "decks": 15,
+  "strength": "strong",
+  "phrases": [
+   "imagier oiseaux maternelle",
+   "imagier oiseaux"
+  ],
+  "sample": [
+   "imagier-facile-oiseaux-2-g1324-5 — Cartes de lecture : mots découpés en syllabes — Oiseaux 2",
+   "imagier-difficile-oiseaux-n-b-2-g1324-2 — Cartes de lecture : mots découpés en syllabes — Oiseaux N&B 2"
+  ]
+ },
+ {
+  "locale": "no",
+  "type": "picture-word-cards",
+  "topic": "mat",
+  "kind": "topic",
+  "demand": 9,
+  "decks": 11,
+  "strength": "strong",
+  "phrases": [
+   "bildekort mat"
+  ],
+  "sample": [
+   "bildekort-lett-mat-sh-k324-46 — Bildekort med ord — Mat SH",
+   "bildekort-mat-sh-k324-144 — Bildekort med ord — Mat SH"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "picture-word-cards",
+  "topic": "nourriture",
+  "kind": "topic",
+  "demand": 9,
+  "decks": 10,
+  "strength": "strong",
+  "phrases": [
+   "imagier nourriture",
+   "imagier nourriture maternelle"
+  ],
+  "sample": [
+   "imagier-nourriture-nb-g1324-6 — Cartes de lecture : mots découpés en syllabes — Nourriture NB",
+   "imagier-facile-nourriture-nb-k324-46 — Imagier à découper — Nourriture NB"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "color-by-number",
+  "topic": "winter",
+  "kind": "topic",
+  "demand": 9,
+  "decks": 10,
+  "strength": "strong",
+  "phrases": [
+   "kleuren op code winter"
+  ],
+  "sample": [
+   "kleuren-op-code-makkelijk-k393-36-wintersleigh — Kleuren op nummer: Slee in de sneeuw",
+   "kleuren-op-code-makkelijk-k393-39-winterseal — Kleuren op nummer: Zeehond op het ijs"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "picture-word-cards",
+  "topic": "lichaamsdelen",
+  "kind": "topic",
+  "demand": 9,
+  "decks": 6,
+  "strength": "strong",
+  "phrases": [
+   "woordkaartjes lichaamsdelen"
+  ],
+  "sample": [
+   "woordkaartjes-makkelijk-lichaamsdelen-g1324-3 — Lettergreepkaartjes: lees het woord in stukjes — Lichaamsdelen",
+   "woordkaartjes-makkelijk-lichaamsdelen-k324-26 — Woordkaartjes met plaatjes — Lichaamsdelen"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "picture-word-cards",
+  "topic": "metier",
+  "kind": "topic",
+  "demand": 9,
+  "decks": 5,
+  "strength": "strong",
+  "phrases": [
+   "imagier metier"
+  ],
+  "sample": [
+   "imagier-metiers-g1324-5 — Cartes de lecture : mots découpés en syllabes — Métiers",
+   "imagier-difficile-metiers-g1324-3 — Cartes de lecture : mots découpés en syllabes — Métiers"
+  ]
+ },
+ {
+  "locale": "no",
+  "type": "picture-word-cards",
+  "topic": "vinter",
+  "kind": "topic",
+  "demand": 9,
+  "decks": 5,
+  "strength": "strong",
+  "phrases": [
+   "bildekort vinter"
+  ],
+  "sample": [
+   "bildekort-vinter-g1324-5 — Stavelseskort: Les ordet stavelse for stavelse — Vinter",
+   "bildekort-lett-vinter-k324-97 — Bildekort med ord — Vinter"
+  ]
+ },
+ {
+  "locale": "pt",
+  "type": "how-to-draw",
+  "topic": "boneca",
+  "kind": "topic",
+  "demand": 9,
+  "decks": 4,
+  "strength": "strong",
+  "phrases": [
+   "como desenhar boneca"
+  ],
+  "sample": [
+   "como-desenhar-facil-g1418-7 — Coloque os passos em ordem e desenhe um boneco de neve",
+   "como-desenhar-facil-k396-7 — Como desenhar um boneco de neve passo a passo"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "find-the-differences",
+  "topic": "under sea",
+  "kind": "topic",
+  "demand": 9,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "spot the difference under the sea"
+  ],
+  "sample": [
+   "find-the-differences-easy-g1412-3 — Find 7 Differences: Under the Sea",
+   "find-the-differences-easy-g1412-8 — Find 7 Differences: Under the Sea"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "articles",
+  "topic": "huis",
+  "kind": "topic",
+  "demand": 9,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "de of het huis"
+  ],
+  "sample": [
+   "de-of-het-huis-zw-g1292-4 — De of het? Sorteer de woorden — Huis ZW",
+   "de-of-het-makkelijk-huis-en-natuur-zw-k306-2 — De of het? Vier plaatjes — Huis en Natuur ZW"
+  ]
+ },
+ {
+  "locale": "sv",
+  "type": "how-to-draw",
+  "topic": "panda",
+  "kind": "topic",
+  "demand": 9,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "rita steg för steg panda"
+  ],
+  "sample": [
+   "rita-steg-for-steg-latt-k401-6 — Rita en panda av enkla former",
+   "rita-steg-for-steg-latt-k404-7 — Rita en panda och skriv ordet"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "maze-puzzles",
+  "topic": "ostern",
+  "kind": "topic",
+  "demand": 9,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "labyrinth rätsel ostern"
+  ],
+  "sample": [
+   "labyrinth-raetsel-leicht-g1424-5 — Hilf dem kleinen Mädchen, alle Ostereier zu sammeln",
+   "labyrinth-raetsel-schwer-k405-29 — Hilf dem Hasen zum Osternest"
+  ]
+ },
+ {
+  "locale": "pt",
+  "type": "how-to-draw",
+  "topic": "leao",
+  "kind": "topic",
+  "demand": 9,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "como desenhar leão"
+  ],
+  "sample": [
+   "como-desenhar-g1416-10 — Desenhe um leão com a ajuda da grade",
+   "como-desenhar-dificil-g1418-16 — Coloque os passos em ordem e desenhe um leão"
+  ]
+ },
+ {
+  "locale": "pt",
+  "type": "how-to-draw",
+  "topic": "tartaruga",
+  "kind": "topic",
+  "demand": 9,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "como desenhar tartaruga"
+  ],
+  "sample": [
+   "como-desenhar-dificil-g1418-13 — Coloque os passos em ordem e desenhe uma tartaruga",
+   "como-desenhar-k396-14 — Como desenhar uma tartaruga passo a passo"
+  ]
+ },
+ {
+  "locale": "sv",
+  "type": "how-to-draw",
+  "topic": "rav",
+  "kind": "topic",
+  "demand": 9,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "rita steg för steg räv"
+  ],
+  "sample": [
+   "rita-steg-for-steg-latt-g1419-2 — Rita steg för steg: en räv",
+   "rita-steg-for-steg-svar-k403-16 — Gör färdigt teckningen av en räv"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "color-by-number",
+  "topic": "dinosaur",
+  "kind": "topic",
+  "demand": 9,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "color by number dinosaur",
+   "color by number dinosaur printable"
+  ],
+  "sample": [
+   "color-by-number-easy-k394-2-dinosaur — Color by Number: Dinosaur"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "how-to-draw",
+  "topic": "noel",
+  "kind": "topic",
+  "demand": 9,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "apprendre à dessiner noel"
+  ],
+  "sample": [
+   "apprendre-a-dessiner-g1416-9 — Un père Noël à dessiner sur quadrillage"
+  ]
+ },
+ {
+  "locale": "es",
+  "type": "how-to-draw",
+  "topic": "estrellas",
+  "kind": "topic",
+  "demand": 9,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "cómo dibujar estrellas"
+  ],
+  "sample": [
+   "como-dibujar-facil-k402-6 — Repasa una estrella de mar paso a paso"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "telling-time",
+  "topic": "easy",
+  "kind": "level",
+  "demand": 8,
+  "decks": 74,
+  "strength": "strong",
+  "phrases": [
+   "telling time worksheets easy"
+  ],
+  "sample": [
+   "telling-time-easy-g1148-2 — On the Hour",
+   "telling-time-easy-g1148-3 — On the Hour"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "color-by-number",
+  "topic": "hard",
+  "kind": "level",
+  "demand": 8,
+  "decks": 49,
+  "strength": "strong",
+  "phrases": [
+   "color by number hard"
+  ],
+  "sample": [
+   "color-by-number-hard-k393-6-gardendog — Color by Number: Dog in the Garden",
+   "color-by-number-hard-k393-7-pondturtle — Color by Number: Turtle at the Pond"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "rhyming-words",
+  "topic": "easy",
+  "kind": "level",
+  "demand": 8,
+  "decks": 30,
+  "strength": "strong",
+  "phrases": [
+   "rhyming words easy"
+  ],
+  "sample": [
+   "rhyming-words-easy-g1309-10-og — Rhyming Words: Rhyme and Write",
+   "rhyming-words-easy-g1309-11-og — Rhyming Words: Rhyme and Write"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "rhyming-words",
+  "topic": "hard",
+  "kind": "level",
+  "demand": 8,
+  "decks": 30,
+  "strength": "strong",
+  "phrases": [
+   "rhyming words hard"
+  ],
+  "sample": [
+   "rhyming-words-hard-g1309-12 — Rhyming Words: Rhyme and Write",
+   "rhyming-words-hard-g1309-13-at — Rhyming Words: Rhyme and Write"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "pre-writing",
+  "topic": "huis",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 26,
+  "strength": "strong",
+  "phrases": [
+   "schrijfpatronen huis"
+  ],
+  "sample": [
+   "schrijfpatronen-makkelijk-rond-het-huis-k236-17 — Schrijfpatronen oefenen — Rond het huis",
+   "schrijfpatronen-rond-het-huis-k236-115 — Schrijfpatronen oefenen — Rond het huis"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "number-of-the-day",
+  "topic": "easy",
+  "kind": "level",
+  "demand": 8,
+  "decks": 20,
+  "strength": "strong",
+  "phrases": [
+   "number of the day easy"
+  ],
+  "sample": [
+   "number-of-the-day-easy-g1243-10 — Number of the Day",
+   "number-of-the-day-easy-g1243-11 — Number of the Day"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "pre-writing",
+  "topic": "boerderij",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 12,
+  "strength": "strong",
+  "phrases": [
+   "schrijfpatronen boerderij"
+  ],
+  "sample": [
+   "schrijfpatronen-makkelijk-boerderijdieren-k236-42 — Schrijfpatronen oefenen — Boerderijdieren",
+   "schrijfpatronen-boerderijdieren-k236-140 — Schrijfpatronen oefenen — Boerderijdieren"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "picture-word-cards",
+  "topic": "boerderij",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 10,
+  "strength": "strong",
+  "phrases": [
+   "woordkaartjes boerderij"
+  ],
+  "sample": [
+   "woordkaartjes-makkelijk-boerderijdieren-k324-42 — Woordkaartjes met plaatjes — Boerderijdieren",
+   "woordkaartjes-boerderijdieren-k324-140 — Woordkaartjes met plaatjes — Boerderijdieren"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "color-by-number",
+  "topic": "boerderij",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 10,
+  "strength": "strong",
+  "phrases": [
+   "kleuren op code boerderij"
+  ],
+  "sample": [
+   "kleuren-op-code-k393-3-farmsheep — Kleuren op nummer: Schaap op de boerderij",
+   "kleuren-op-code-k393-4-farmhorse — Kleuren op nummer: Paard op de boerderij"
+  ]
+ },
+ {
+  "locale": "no",
+  "type": "picture-word-cards",
+  "topic": "klær",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 9,
+  "strength": "strong",
+  "phrases": [
+   "bildekort klær"
+  ],
+  "sample": [
+   "bildekort-lett-klaer-sh-k324-16 — Bildekort med ord — Klær SH",
+   "bildekort-vanskelig-klaer-sh-k324-211 — Bildekort med ord — Klær SH"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "read-and-color",
+  "topic": "paques",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 8,
+  "strength": "strong",
+  "phrases": [
+   "lis et colorie paques"
+  ],
+  "sample": [
+   "lis-et-colorie-facile-paques-nb-g1242-3 — Lis et colorie — Pâques NB",
+   "lis-et-colorie-paques-nb-g1242-50 — Lis et colorie — Pâques NB"
+  ]
+ },
+ {
+  "locale": "it",
+  "type": "syllable-split",
+  "topic": "spiaggia",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 5,
+  "strength": "strong",
+  "phrases": [
+   "divisione in sillabe spiaggia"
+  ],
+  "sample": [
+   "divisione-in-sillabe-spiaggia-g1305-4 — Divisione in sillabe — Spiaggia",
+   "divisione-in-sillabe-difficile-spiaggia-g1325-4 — Scrivi la parola divisa in sillabe — Spiaggia"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "picture-word-cards",
+  "topic": "huisdieren",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 5,
+  "strength": "strong",
+  "phrases": [
+   "woordkaartjes huisdieren"
+  ],
+  "sample": [
+   "woordkaartjes-makkelijk-huisdieren-k324-68 — Woordkaartjes met plaatjes — Huisdieren",
+   "woordkaartjes-huisdieren-k324-166 — Woordkaartjes met plaatjes — Huisdieren"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "picture-word-cards",
+  "topic": "berufe",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 4,
+  "strength": "strong",
+  "phrases": [
+   "bildkarten berufe",
+   "bildkarten berufe kostenlos"
+  ],
+  "sample": [
+   "bildkarten-leicht-berufe-k324-66 — Bildkarten mit Wort — Berufe",
+   "bildkarten-berufe-k324-164 — Bildkarten mit Wort — Berufe"
+  ]
+ },
+ {
+  "locale": "es",
+  "type": "syllable-split",
+  "topic": "flor",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 4,
+  "strength": "strong",
+  "phrases": [
+   "separar en sílabas flor"
+  ],
+  "sample": [
+   "separar-en-silabas-facil-flores-g1305-5 — Separa las palabras en sílabas — Flores",
+   "separar-en-silabas-flores-g1305-3 — Separa las palabras en sílabas — Flores"
+  ]
+ },
+ {
+  "locale": "it",
+  "type": "syllable-split",
+  "topic": "estate",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 4,
+  "strength": "strong",
+  "phrases": [
+   "divisione in sillabe estate"
+  ],
+  "sample": [
+   "divisione-in-sillabe-facile-estate-g1305-2 — Divisione in sillabe — Estate",
+   "divisione-in-sillabe-difficile-estate-g1305-3 — Divisione in sillabe — Estate"
+  ]
+ },
+ {
+  "locale": "sv",
+  "type": "how-to-draw",
+  "topic": "glass",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 4,
+  "strength": "strong",
+  "phrases": [
+   "rita steg för steg glass"
+  ],
+  "sample": [
+   "rita-steg-for-steg-svar-g1419-13 — Rita steg för steg: en glassbil",
+   "rita-steg-for-steg-k396-21 — Hur man ritar en glassbägare steg för steg"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "color-by-number",
+  "topic": "voiture",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "coloriage magique voiture"
+  ],
+  "sample": [
+   "coloriage-magique-k393-37-towncar — Coloriage magique : Voiture en ville",
+   "coloriage-magique-difficile-k393-18-townracecar — Coloriage magique : Voiture de course"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "picture-word-cards",
+  "topic": "ziekenhuis",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "woordkaartjes ziekenhuis"
+  ],
+  "sample": [
+   "woordkaartjes-moeilijk-ziekenhuis-g1324 — Lettergreepkaartjes: lees het woord in stukjes — Ziekenhuis",
+   "woordkaartjes-makkelijk-ziekenhuis-k324-57 — Woordkaartjes met plaatjes — Ziekenhuis"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "color-by-number",
+  "topic": "elephant",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "color by number elephant",
+   "color by number elephant printable"
+  ],
+  "sample": [
+   "color-by-number-k393-68-elephantsavanna — Color by Number: Elephant on the Savanna",
+   "color-by-number-hard-k394-4-elephant — Color by Number: Elephant"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "color-by-number",
+  "topic": "lion",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "color by number lion"
+  ],
+  "sample": [
+   "color-by-number-k393-43-lionsavanna — Color by Number: Lion on the Savanna",
+   "color-by-number-k394-11-lion — Color by Number: Lion"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "how-to-draw",
+  "topic": "bat",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "how to draw a bat"
+  ],
+  "sample": [
+   "how-to-draw-hard-g1416-16 — Draw a Bat with the Grid",
+   "how-to-draw-easy-g2390-6 — Draw a Bat, Then Write About It"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "how-to-draw",
+  "topic": "ice cream",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "how to draw ice cream"
+  ],
+  "sample": [
+   "how-to-draw-hard-g1419-13 — Copy Each Step: Draw an Ice Cream Truck",
+   "how-to-draw-hard-k396-29 — How to Draw an Ice Cream Truck Step by Step"
+  ]
+ },
+ {
+  "locale": "es",
+  "type": "how-to-draw",
+  "topic": "koalas",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "cómo dibujar koalas"
+  ],
+  "sample": [
+   "como-dibujar-k401-9 — Dibuja un koala con figuras simples",
+   "como-dibujar-dificil-k404-17 — Dibuja un koala y escribe la palabra"
+  ]
+ },
+ {
+  "locale": "es",
+  "type": "how-to-draw",
+  "topic": "tortugas",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "cómo dibujar tortugas"
+  ],
+  "sample": [
+   "como-dibujar-dificil-g1418-13 — Ordena los pasos: dibujar una tortuga",
+   "como-dibujar-k396-14 — Cómo dibujar una tortuga paso a paso"
+  ]
+ },
+ {
+  "locale": "sv",
+  "type": "how-to-draw",
+  "topic": "lejon",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "rita steg för steg lejon"
+  ],
+  "sample": [
+   "rita-steg-for-steg-g1416-10 — Rita ett lejon ruta för ruta",
+   "rita-steg-for-steg-svar-g1418-16 — Ordna stegen: rita ett lejon"
+  ]
+ },
+ {
+  "locale": "sv",
+  "type": "how-to-draw",
+  "topic": "ren",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "rita steg för steg ren"
+  ],
+  "sample": [
+   "rita-steg-for-steg-latt-g1419-6 — Rita steg för steg: en ren",
+   "rita-steg-for-steg-k403-12 — Gör färdigt teckningen av en ren"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "color-by-number",
+  "topic": "race car",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "color by number race car"
+  ],
+  "sample": [
+   "color-by-number-hard-k393-18-townracecar — Color by Number: Race Car"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "picture-tracing",
+  "topic": "dinosaur",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "tracing worksheets dinosaur"
+  ],
+  "sample": [
+   "picture-tracing-k423-10 — Dinosaur Valley"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "color-by-number",
+  "topic": "licorne",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "coloriage magique licorne"
+  ],
+  "sample": [
+   "coloriage-magique-k394-42-unicorn — Coloriage magique : Licorne"
+  ]
+ },
+ {
+  "locale": "es",
+  "type": "color-by-number",
+  "topic": "flores",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "colorear por numeros flores"
+  ],
+  "sample": [
+   "colorear-por-numeros-dificil-k394-28-flowerpot — Colorea por números: Maceta con flores"
+  ]
+ },
+ {
+  "locale": "pt",
+  "type": "picture-tracing",
+  "topic": "dinossauro",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "desenhos pontilhados dinossauro"
+  ],
+  "sample": [
+   "desenhos-pontilhados-k423-10 — O vale dos dinossauros"
+  ]
+ },
+ {
+  "locale": "pt",
+  "type": "how-to-draw",
+  "topic": "galinha",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "como desenhar galinha"
+  ],
+  "sample": [
+   "como-desenhar-facil-k404-5 — Desenhe uma galinha e escreva a palavra"
+  ]
+ },
+ {
+  "locale": "pt",
+  "type": "how-to-draw",
+  "topic": "tubarao",
+  "kind": "topic",
+  "demand": 8,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "como desenhar tubarão"
+  ],
+  "sample": [
+   "como-desenhar-facil-k404-6 — Desenhe um tubarão e escreva a palavra"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "sight-words",
+  "topic": "easy",
+  "kind": "level",
+  "demand": 7,
+  "decks": 539,
+  "strength": "strong",
+  "phrases": [
+   "sight words easy"
+  ],
+  "sample": [
+   "sight-words-easy-k239-27 — Sight Words: Read, Trace, Write",
+   "sight-words-easy-k239-28 — Sight Words: Read, Trace, Write"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "word-problems",
+  "topic": "easy",
+  "kind": "level",
+  "demand": 7,
+  "decks": 60,
+  "strength": "strong",
+  "phrases": [
+   "word problems easy"
+  ],
+  "sample": [
+   "word-problems-easy-accessories-g1213-3 — Picture Word Problems — Accessories",
+   "word-problems-easy-christmas-g1213 — Picture Word Problems — Christmas"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "mental-math",
+  "topic": "hard",
+  "kind": "level",
+  "demand": 7,
+  "decks": 30,
+  "strength": "strong",
+  "phrases": [
+   "mental math hard"
+  ],
+  "sample": [
+   "mental-math-hard-g1208-12 — Mental Math to 20",
+   "mental-math-hard-g1208-13 — Mental Math to 20"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "verb-forms",
+  "topic": "hard",
+  "kind": "level",
+  "demand": 7,
+  "decks": 30,
+  "strength": "strong",
+  "phrases": [
+   "verb forms difficult",
+   "verb forms hard"
+  ],
+  "sample": [
+   "verb-forms-hard-g2334-12 — Match the Verb to Its Past Form",
+   "verb-forms-hard-g2335-13 — Verb Forms in Sentences with Pictures"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "synonyms",
+  "topic": "hard",
+  "kind": "level",
+  "demand": 7,
+  "decks": 30,
+  "strength": "strong",
+  "phrases": [
+   "synonyms difficult",
+   "synonyms hard"
+  ],
+  "sample": [
+   "synonyms-hard-g1395-10 — Synonyms with Pictures: Two Words, One Picture",
+   "synonyms-hard-g1395-12 — Synonyms with Pictures: Two Words, One Picture"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "alphabetical-order",
+  "topic": "hard",
+  "kind": "level",
+  "demand": 7,
+  "decks": 20,
+  "strength": "strong",
+  "phrases": [
+   "alphabetical order hard",
+   "alphabetical order hard example"
+  ],
+  "sample": [
+   "alphabetical-order-hard-desserts-and-sweets-g1245 — ABC Order — Desserts and Sweets",
+   "alphabetical-order-hard-ocean-life-g1264 — ABC Order: When Words Start the Same — Ocean Life"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "read-and-color",
+  "topic": "christmas",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 9,
+  "strength": "strong",
+  "phrases": [
+   "read and color christmas"
+  ],
+  "sample": [
+   "read-and-color-easy-christmas-b-w-g1242 — Read and Color — Christmas B&W",
+   "read-and-color-christmas-b-w-g1242-49 — Read and Color — Christmas B&W"
+  ]
+ },
+ {
+  "locale": "fi",
+  "type": "picture-word-cards",
+  "topic": "vaatteet",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 7,
+  "strength": "strong",
+  "phrases": [
+   "kuvakortit vaatteet"
+  ],
+  "sample": [
+   "kuvakortit-helppo-vaatteet-mv-k324-16 — Kuvakortit ja sanakortit — Vaatteet MV",
+   "kuvakortit-vaatteet-mv-k324-112 — Kuvakortit ja sanakortit — Vaatteet MV"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "picture-word-cards",
+  "topic": "natur",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 6,
+  "strength": "strong",
+  "phrases": [
+   "bildkarten natur"
+  ],
+  "sample": [
+   "bildkarten-leicht-haus-und-natur-sw-k324-54 — Bildkarten mit Wort — Haus und Natur SW",
+   "bildkarten-haus-und-natur-sw-k324-152 — Bildkarten mit Wort — Haus und Natur SW"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "ordinal-numbers",
+  "topic": "kerst",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 5,
+  "strength": "strong",
+  "phrases": [
+   "rangtelwoorden kerst"
+  ],
+  "sample": [
+   "rangtelwoorden-moeilijk-kerstmis-g1317-3 — Welke plaats? Schrijf het rangtelwoord — Kerstmis",
+   "rangtelwoorden-makkelijk-kerstmis-k320-15 — Rangtelwoorden: op welke plaats? — Kerstmis"
+  ]
+ },
+ {
+  "locale": "no",
+  "type": "picture-word-cards",
+  "topic": "kroppen",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 5,
+  "strength": "strong",
+  "phrases": [
+   "bildekort kroppen"
+  ],
+  "sample": [
+   "bildekort-lett-kroppsdeler-g1324 — Stavelseskort: Les ordet stavelse for stavelse — Kroppsdeler",
+   "bildekort-lett-kroppsdeler-k324-26 — Bildekort med ord — Kroppsdeler"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "singular-plural",
+  "topic": "blume",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 4,
+  "strength": "strong",
+  "phrases": [
+   "einzahl und mehrzahl blume"
+  ],
+  "sample": [
+   "einzahl-und-mehrzahl-schwer-blumen-k287 — Einzahl und Mehrzahl — Blumen",
+   "einzahl-und-mehrzahl-schwer-blumen-k316-3 — Einzahl ohne Vorlage — Blumen"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "syllable-split",
+  "topic": "vogel",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 4,
+  "strength": "strong",
+  "phrases": [
+   "silbenbögen vogel"
+  ],
+  "sample": [
+   "silbenboegen-schwer-vogel-2-g1325 — Wörter in Silben schreiben — Vögel 2",
+   "silbenboegen-leicht-vogel-2-g1326-4 — Fehlende Silbe eintragen — Vögel 2"
+  ]
+ },
+ {
+  "locale": "it",
+  "type": "write-the-word",
+  "topic": "primavera",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 4,
+  "strength": "strong",
+  "phrases": [
+   "dettato muto primavera"
+  ],
+  "sample": [
+   "dettato-muto-facile-primavera-g1244-24 — Dettato muto: scrivi la parola — Primavera",
+   "dettato-muto-primavera-g1244-61 — Dettato muto: scrivi la parola — Primavera"
+  ]
+ },
+ {
+  "locale": "sv",
+  "type": "how-to-draw",
+  "topic": "snogubbe",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 4,
+  "strength": "strong",
+  "phrases": [
+   "rita steg för steg snögubbe"
+  ],
+  "sample": [
+   "rita-steg-for-steg-latt-g1418-7 — Ordna stegen: rita en snögubbe",
+   "rita-steg-for-steg-latt-k396-7 — Hur man ritar en snögubbe steg för steg"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "find-the-differences",
+  "topic": "kitchen",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "find the differences kitchen"
+  ],
+  "sample": [
+   "find-the-differences-easy-g1412-6 — Find 7 Differences: In the Kitchen",
+   "find-the-differences-hard-g2388-8 — Find 10 Differences: In the Kitchen"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "reading-comprehension",
+  "topic": "ostern",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "leseverständnis ostern"
+  ],
+  "sample": [
+   "leseverstaendnis-leicht-g2273-10 — Lesen und verstehen: Die Ostereiersuche",
+   "leseverstaendnis-g2273-4 — Lesen und verstehen: Die Ostereiersuche"
+  ]
+ },
+ {
+  "locale": "es",
+  "type": "singular-plural",
+  "topic": "zoologico",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "singular y plural en el zoologico"
+  ],
+  "sample": [
+   "singular-y-plural-facil-animales-del-zoologico-k287 — Singular y plural: uno y muchos — Animales del zoológico",
+   "singular-y-plural-dificil-animales-del-zoologico-k313-3 — Singular y plural: de muchos a uno — Animales del zoológico"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "picture-word-cards",
+  "topic": "dino",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "woordkaartjes dino"
+  ],
+  "sample": [
+   "woordkaartjes-makkelijk-dinosaurussen-k324-37 — Woordkaartjes met plaatjes — Dinosaurussen",
+   "woordkaartjes-dinosaurussen-k324-135 — Woordkaartjes met plaatjes — Dinosaurussen"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "picture-word-cards",
+  "topic": "vakantie",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "woordkaartjes vakantie"
+  ],
+  "sample": [
+   "woordkaartjes-makkelijk-reizen-en-vakantie-zw-k324-86 — Woordkaartjes met plaatjes — Reizen en Vakantie ZW",
+   "woordkaartjes-reizen-en-vakantie-zw-k324-183 — Woordkaartjes met plaatjes — Reizen en Vakantie ZW"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "reading-comprehension",
+  "topic": "dieren",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "begrijpend lezen dieren"
+  ],
+  "sample": [
+   "begrijpend-lezen-makkelijk-g2272-11 — Begrijpend lezen: Vera in de dierentuin",
+   "begrijpend-lezen-g2272-5 — Begrijpend lezen: Vera in de dierentuin"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "sound-boxes",
+  "topic": "lente",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "hakken en plakken lente"
+  ],
+  "sample": [
+   "hakken-en-plakken-makkelijk-lente-g1312-3 — Klankstrook: hoeveel klanken? — Lente",
+   "hakken-en-plakken-makkelijk-lente-g1314-4 — Plakken en lezen: welk plaatje hoort erbij? — Lente"
+  ]
+ },
+ {
+  "locale": "no",
+  "type": "picture-writing",
+  "topic": "vinter",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "skriv til bildet vinter"
+  ],
+  "sample": [
+   "skriv-til-bildet-lett-vinter-g2278-97 — Skriv til bildet — Vinter",
+   "skriv-til-bildet-vinter-g2278-195 — Skriv til bildet — Vinter"
+  ]
+ },
+ {
+  "locale": "no",
+  "type": "geometry",
+  "topic": "jul",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "geometri jul"
+  ],
+  "sample": [
+   "geometri-jul-g2247-3 — Symmetrilinje? — Jul",
+   "geometri-lett-jul-g2248-3 — Finn det symmetriske bildet — Jul"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "how-to-draw",
+  "topic": "voiture",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "apprendre à dessiner voiture"
+  ],
+  "sample": [
+   "apprendre-a-dessiner-difficile-k396-26 — Apprendre à dessiner une voiture de police étape par étape",
+   "apprendre-a-dessiner-difficile-k403-14 — Termine le dessin : une voiture de police à compléter"
+  ]
+ },
+ {
+  "locale": "es",
+  "type": "how-to-draw",
+  "topic": "zorros",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "cómo dibujar zorros"
+  ],
+  "sample": [
+   "como-dibujar-facil-g1419-2 — Copia cada paso: dibuja un zorro",
+   "como-dibujar-dificil-k403-16 — Completa el dibujo de un zorro"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "word-classes",
+  "topic": "kerst",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "woordsoorten kerst"
+  ],
+  "sample": [
+   "woordsoorten-kerstmis-g1293-4 — Zelfstandig naamwoord of werkwoord — Kerstmis",
+   "woordsoorten-moeilijk-kerstmis-g2285-4 — Woordsoorten: negen woorden — Kerstmis"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "articles",
+  "topic": "natuur",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "de of het natuur"
+  ],
+  "sample": [
+   "de-of-het-makkelijk-huis-en-natuur-zw-k306-2 — De of het? Vier plaatjes — Huis en Natuur ZW",
+   "de-of-het-huis-en-natuur-zw-k307-2 — De of het? Acht plaatjes — Huis en Natuur ZW"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "color-by-number",
+  "topic": "robot",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "color by number robot"
+  ],
+  "sample": [
+   "color-by-number-hard-k394-16-robot — Color by Number: Robot"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "find-the-differences",
+  "topic": "room",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "find the differences room",
+   "spot the difference room"
+  ],
+  "sample": [
+   "find-the-differences-k397-18 — Find 3 Differences: Living Room Fun"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "all-about-me",
+  "topic": "easy",
+  "kind": "level",
+  "demand": 7,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "all about me worksheet easy"
+  ],
+  "sample": [
+   "all-about-me-easy-k344 — This Is Me: Label the Face"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "color-by-number",
+  "topic": "dinosaure",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "coloriage magique dinosaure"
+  ],
+  "sample": [
+   "coloriage-magique-facile-k394-2-dinosaur — Coloriage magique : Dinosaure"
+  ]
+ },
+ {
+  "locale": "es",
+  "type": "how-to-draw",
+  "topic": "globos",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "cómo dibujar globos"
+  ],
+  "sample": [
+   "como-dibujar-g1417-12 — Dibuja un globo aerostático en la escena"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "color-by-number",
+  "topic": "dino",
+  "kind": "topic",
+  "demand": 7,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "kleuren op code dino"
+  ],
+  "sample": [
+   "kleuren-op-code-makkelijk-k394-2-dinosaur — Kleuren op nummer: Dinosaurus"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "sight-words",
+  "topic": "hard",
+  "kind": "level",
+  "demand": 6,
+  "decks": 525,
+  "strength": "strong",
+  "phrases": [
+   "sight words hard"
+  ],
+  "sample": [
+   "sight-words-hard-k262-3 — Sight Words Practice Set 5",
+   "sight-words-hard-k263-3 — Sight Words Practice Set 6"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "pre-writing",
+  "topic": "easy",
+  "kind": "level",
+  "demand": 6,
+  "decks": 139,
+  "strength": "strong",
+  "phrases": [
+   "line tracing easy"
+  ],
+  "sample": [
+   "pre-writing-easy-tools-bw-k386-4 — Circles, Squares and More Shapes — Tools BW",
+   "pre-writing-easy-beach-k236-19 — Pencil Path Practice — Beach"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "money",
+  "topic": "easy",
+  "kind": "level",
+  "demand": 6,
+  "decks": 74,
+  "strength": "strong",
+  "phrases": [
+   "counting money easy",
+   "counting money easy worksheets"
+  ],
+  "sample": [
+   "money-easy-g1211-10 — Counting Coins",
+   "money-easy-g1211-11 — Counting Coins"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "telling-time",
+  "topic": "hard",
+  "kind": "level",
+  "demand": 6,
+  "decks": 59,
+  "strength": "strong",
+  "phrases": [
+   "telling time worksheets hard"
+  ],
+  "sample": [
+   "telling-time-hard-g1148-10 — On the Hour",
+   "telling-time-hard-g1148-11 — On the Hour"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "cursive-writing",
+  "topic": "easy",
+  "kind": "level",
+  "demand": 6,
+  "decks": 31,
+  "strength": "strong",
+  "phrases": [
+   "cursive writing easy"
+  ],
+  "sample": [
+   "cursive-writing-easy-g2385-8 — Cursive Connecting Letters: Joining Two Letters",
+   "cursive-writing-easy-g2377-10 — Cursive Letters: e, l and b"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "opposites",
+  "topic": "easy",
+  "kind": "level",
+  "demand": 6,
+  "decks": 26,
+  "strength": "strong",
+  "phrases": [
+   "opposites easy"
+  ],
+  "sample": [
+   "opposites-easy-g1307-10 — Opposites: Write the Opposite Word",
+   "opposites-easy-g1307-11 — Opposites: Write the Opposite Word"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "picture-word-cards",
+  "topic": "vogels",
+  "kind": "topic",
+  "demand": 6,
+  "decks": 12,
+  "strength": "strong",
+  "phrases": [
+   "woordkaartjes vogels"
+  ],
+  "sample": [
+   "woordkaartjes-makkelijk-vogels-k324-22 — Woordkaartjes met plaatjes — Vogels",
+   "woordkaartjes-vogels-k324-120 — Woordkaartjes met plaatjes — Vogels"
+  ]
+ },
+ {
+  "locale": "no",
+  "type": "picture-writing",
+  "topic": "jul",
+  "kind": "topic",
+  "demand": 6,
+  "decks": 11,
+  "strength": "strong",
+  "phrases": [
+   "skriv til bildet jul"
+  ],
+  "sample": [
+   "skriv-til-bildet-jul-g2278-128 — Skriv til bildet — Jul",
+   "skriv-til-bildet-lett-jul-g2278-29 — Skriv til bildet — Jul"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "picture-word-cards",
+  "topic": "noel",
+  "kind": "topic",
+  "demand": 6,
+  "decks": 10,
+  "strength": "strong",
+  "phrases": [
+   "imagier noel",
+   "imagier noel maternelle"
+  ],
+  "sample": [
+   "imagier-noel-k324-127 — Imagier à découper — Noël",
+   "imagier-facile-noel-k324-29 — Imagier à découper — Noël"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "picture-word-cards",
+  "topic": "pasen",
+  "kind": "topic",
+  "demand": 6,
+  "decks": 10,
+  "strength": "strong",
+  "phrases": [
+   "woordkaartjes pasen"
+  ],
+  "sample": [
+   "woordkaartjes-makkelijk-pasen-k324-38 — Woordkaartjes met plaatjes — Pasen",
+   "woordkaartjes-pasen-k324-136 — Woordkaartjes met plaatjes — Pasen"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "read-and-color",
+  "topic": "kerst",
+  "kind": "topic",
+  "demand": 6,
+  "decks": 9,
+  "strength": "strong",
+  "phrases": [
+   "lees en kleur kerst"
+  ],
+  "sample": [
+   "lees-en-kleur-makkelijk-kerstmis-z-w-g1242 — Lees en kleur — Kerstmis Z/W",
+   "lees-en-kleur-kerstmis-z-w-g1242-48 — Lees en kleur — Kerstmis Z/W"
+  ]
+ },
+ {
+  "locale": "sv",
+  "type": "read-and-color",
+  "topic": "jul",
+  "kind": "topic",
+  "demand": 6,
+  "decks": 9,
+  "strength": "strong",
+  "phrases": [
+   "läs och måla jul"
+  ],
+  "sample": [
+   "las-och-mala-latt-jul-s-v-g1242 — Läs och måla — Jul S/V",
+   "las-och-mala-jul-s-v-g1242-48 — Läs och måla — Jul S/V"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "pre-writing",
+  "topic": "bloemen",
+  "kind": "topic",
+  "demand": 6,
+  "decks": 6,
+  "strength": "strong",
+  "phrases": [
+   "schrijfpatronen bloemen"
+  ],
+  "sample": [
+   "schrijfpatronen-makkelijk-bloemen-k236-45 — Schrijfpatronen oefenen — Bloemen",
+   "schrijfpatronen-bloemen-k236-143 — Schrijfpatronen oefenen — Bloemen"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "pre-writing",
+  "topic": "dino",
+  "kind": "topic",
+  "demand": 6,
+  "decks": 6,
+  "strength": "strong",
+  "phrases": [
+   "schrijfpatronen dino"
+  ],
+  "sample": [
+   "schrijfpatronen-makkelijk-dinosaurussen-k236-37 — Schrijfpatronen oefenen — Dinosaurussen",
+   "schrijfpatronen-dinosaurussen-k236-135 — Schrijfpatronen oefenen — Dinosaurussen"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "pre-writing",
+  "topic": "lichaam",
+  "kind": "topic",
+  "demand": 6,
+  "decks": 6,
+  "strength": "strong",
+  "phrases": [
+   "schrijfpatronen lichaam"
+  ],
+  "sample": [
+   "schrijfpatronen-makkelijk-lichaamsdelen-k236-26 — Schrijfpatronen oefenen — Lichaamsdelen",
+   "schrijfpatronen-lichaamsdelen-k236-124 — Schrijfpatronen oefenen — Lichaamsdelen"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "picture-word-cards",
+  "topic": "korperteile",
+  "kind": "topic",
+  "demand": 6,
+  "decks": 5,
+  "strength": "strong",
+  "phrases": [
+   "bildkarten körperteile zum ausdrucken pdf",
+   "bildkarten körperteile"
+  ],
+  "sample": [
+   "bildkarten-schwer-korperteile-g1324 — Silbenkarten: Lies das Wort in Silben — Körperteile",
+   "bildkarten-leicht-korperteile-k349 — Einzahl und Mehrzahl: Kartenpaare — Körperteile"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "pre-writing",
+  "topic": "ziekenhuis",
+  "kind": "topic",
+  "demand": 6,
+  "decks": 4,
+  "strength": "strong",
+  "phrases": [
+   "schrijfpatronen ziekenhuis"
+  ],
+  "sample": [
+   "schrijfpatronen-makkelijk-ziekenhuis-k236-57 — Schrijfpatronen oefenen — Ziekenhuis",
+   "schrijfpatronen-ziekenhuis-k236-155 — Schrijfpatronen oefenen — Ziekenhuis"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "pre-writing",
+  "topic": "sommer",
+  "kind": "topic",
+  "demand": 6,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "schwungübungen sommer"
+  ],
+  "sample": [
+   "schwunguebungen-sommer-k236-177 — Schwungübungen — Sommer",
+   "schwunguebungen-leicht-sommer-k236-79 — Schwungübungen — Sommer"
+  ]
+ },
+ {
+  "locale": "es",
+  "type": "pre-writing",
+  "topic": "verano",
+  "kind": "topic",
+  "demand": 6,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "grafomotricidad verano"
+  ],
+  "sample": [
+   "grafomotricidad-facil-verano-k236-79 — Trazos de grafomotricidad — Verano",
+   "grafomotricidad-verano-k236-177 — Trazos de grafomotricidad — Verano"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "picture-word-cards",
+  "topic": "lente",
+  "kind": "topic",
+  "demand": 6,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "woordkaartjes lente"
+  ],
+  "sample": [
+   "woordkaartjes-makkelijk-lente-k324-78 — Woordkaartjes met plaatjes — Lente",
+   "woordkaartjes-moeilijk-lente-k324-261 — Woordkaartjes met plaatjes — Lente"
+  ]
+ },
+ {
+  "locale": "sv",
+  "type": "how-to-draw",
+  "topic": "pingvin",
+  "kind": "topic",
+  "demand": 6,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "rita steg för steg pingvin"
+  ],
+  "sample": [
+   "rita-steg-for-steg-latt-g2390-7 — Rita en pingvin och skriv några meningar om teckningen",
+   "rita-steg-for-steg-k396-15 — Hur man ritar en pingvin steg för steg"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "picture-word-cards",
+  "topic": "dinosaure",
+  "kind": "topic",
+  "demand": 6,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "imagier dinosaure"
+  ],
+  "sample": [
+   "imagier-facile-dinosaures-k324-37 — Imagier à découper — Dinosaures",
+   "imagier-dinosaures-k324-135 — Imagier à découper — Dinosaures"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "color-by-number",
+  "topic": "koala",
+  "kind": "topic",
+  "demand": 6,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "coloriage magique koala"
+  ],
+  "sample": [
+   "coloriage-magique-k394-58-koala — Coloriage magique : Koala",
+   "coloriage-magique-k393-25-forestkoala — Coloriage magique : Koala dans la forêt"
+  ]
+ },
+ {
+  "locale": "sv",
+  "type": "how-to-draw",
+  "topic": "hus",
+  "kind": "topic",
+  "demand": 6,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "rita steg för steg hus"
+  ],
+  "sample": [
+   "rita-steg-for-steg-g1418-12 — Ordna stegen: rita ett hus",
+   "rita-steg-for-steg-svar-k396-28 — Hur man ritar ett hus steg för steg"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "color-by-number",
+  "topic": "butterfly",
+  "kind": "topic",
+  "demand": 6,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "color by number butterfly"
+  ],
+  "sample": [
+   "color-by-number-k393-10-gardenbutterfly — Color by Number: Butterfly in the Garden"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "color-by-number",
+  "topic": "dog",
+  "kind": "topic",
+  "demand": 6,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "color by number dog"
+  ],
+  "sample": [
+   "color-by-number-hard-k393-6-gardendog — Color by Number: Dog in the Garden"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "color-by-number",
+  "topic": "jellyfish",
+  "kind": "topic",
+  "demand": 6,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "color by number jellyfish"
+  ],
+  "sample": [
+   "color-by-number-easy-k393-29-jellyfishsea — Color by Number: Jellyfish in the Sea"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "how-to-draw",
+  "topic": "weihnachten",
+  "kind": "topic",
+  "demand": 6,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "zeichnen lernen weihnachten"
+  ],
+  "sample": [
+   "zeichnen-lernen-g1416-9 — Einen Weihnachtsmann mit dem Raster zeichnen"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "how-to-draw",
+  "topic": "eenhoorn",
+  "kind": "topic",
+  "demand": 6,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "leren tekenen eenhoorn"
+  ],
+  "sample": [
+   "leren-tekenen-moeilijk-g2390-17 — Teken een eenhoorn en schrijf erover"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "pre-writing",
+  "topic": "noel",
+  "kind": "topic",
+  "demand": 5,
+  "decks": 12,
+  "strength": "strong",
+  "phrases": [
+   "graphisme noel"
+  ],
+  "sample": [
+   "graphisme-facile-noel-k236-29 — Graphisme : les chemins du crayon — Noël",
+   "graphisme-noel-k236-127 — Graphisme : les chemins du crayon — Noël"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "read-and-color",
+  "topic": "pasen",
+  "kind": "topic",
+  "demand": 5,
+  "decks": 9,
+  "strength": "strong",
+  "phrases": [
+   "lees en kleur pasen"
+  ],
+  "sample": [
+   "lees-en-kleur-makkelijk-pasen-zw-g1242-3 — Lees en kleur — Pasen ZW",
+   "lees-en-kleur-pasen-zw-g1242-50 — Lees en kleur — Pasen ZW"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "pre-writing",
+  "topic": "dierentuin",
+  "kind": "topic",
+  "demand": 5,
+  "decks": 7,
+  "strength": "strong",
+  "phrases": [
+   "schrijfpatronen dierentuin"
+  ],
+  "sample": [
+   "schrijfpatronen-makkelijk-dierentuindieren-k236-98 — Schrijfpatronen oefenen — Dierentuindieren",
+   "schrijfpatronen-dierentuindieren-k236-196 — Schrijfpatronen oefenen — Dierentuindieren"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "picture-word-cards",
+  "topic": "boerderijdieren",
+  "kind": "topic",
+  "demand": 5,
+  "decks": 7,
+  "strength": "strong",
+  "phrases": [
+   "woordkaartjes boerderijdieren"
+  ],
+  "sample": [
+   "woordkaartjes-makkelijk-boerderijdieren-k324-42 — Woordkaartjes met plaatjes — Boerderijdieren",
+   "woordkaartjes-boerderijdieren-k324-140 — Woordkaartjes met plaatjes — Boerderijdieren"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "odd-and-even",
+  "topic": "blumen",
+  "kind": "topic",
+  "demand": 5,
+  "decks": 5,
+  "strength": "strong",
+  "phrases": [
+   "gerade und ungerade zahlen blumen"
+  ],
+  "sample": [
+   "gerade-und-ungerade-zahlen-leicht-blumen-g1370 — Gerade oder ungerade? Bilder paarweise zählen — Blumen",
+   "gerade-und-ungerade-zahlen-blumen-g1370-5 — Gerade oder ungerade? Bilder paarweise zählen — Blumen"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "number-charts",
+  "topic": "weihnachten",
+  "kind": "topic",
+  "demand": 5,
+  "decks": 4,
+  "strength": "strong",
+  "phrases": [
+   "hundertertafel weihnachten"
+  ],
+  "sample": [
+   "hundertertafel-weihnachten-s-w-2-g1124-6 — In Fünferschritten zählen — Weihnachten S/W 2",
+   "hundertertafel-weihnachten-s-w-g3329-6 — Zählen in großen Schritten — Weihnachten S/W"
+  ]
+ },
+ {
+  "locale": "es",
+  "type": "how-to-draw",
+  "topic": "helados",
+  "kind": "topic",
+  "demand": 5,
+  "decks": 4,
+  "strength": "strong",
+  "phrases": [
+   "cómo dibujar helados"
+  ],
+  "sample": [
+   "como-dibujar-dificil-g1419-13 — Copia cada paso: dibuja un camión de helados",
+   "como-dibujar-k396-21 — Cómo dibujar una copa de helado paso a paso"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "color-by-number",
+  "topic": "rabbit",
+  "kind": "topic",
+  "demand": 5,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "color by number rabbit"
+  ],
+  "sample": [
+   "color-by-number-k393-7-farmrabbit — Color by Number: Rabbit on the Farm",
+   "color-by-number-easy-k393-10-forestrabbit — Color by Number: Rabbit in the Forest"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "picture-word-cards",
+  "topic": "wald",
+  "kind": "topic",
+  "demand": 5,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "bildkarten wald"
+  ],
+  "sample": [
+   "bildkarten-leicht-waldtiere-k324-49 — Bildkarten mit Wort — Waldtiere",
+   "bildkarten-waldtiere-k324-147 — Bildkarten mit Wort — Waldtiere"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "color-by-number",
+  "topic": "train",
+  "kind": "topic",
+  "demand": 5,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "color by number train"
+  ],
+  "sample": [
+   "color-by-number-hard-k394-71-toytrain — Color by Number: Toy Train",
+   "color-by-number-hard-k393-16-towntrain — Color by Number: Train in Town"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "how-to-draw",
+  "topic": "lowe",
+  "kind": "topic",
+  "demand": 5,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "zeichnen lernen löwe"
+  ],
+  "sample": [
+   "zeichnen-lernen-g1416-10 — Einen Löwen mit dem Raster zeichnen",
+   "zeichnen-lernen-schwer-g1418-16 — Schritte ordnen und einen Löwen zeichnen"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "articles",
+  "topic": "haus",
+  "kind": "topic",
+  "demand": 5,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "der die das haus"
+  ],
+  "sample": [
+   "der-die-das-leicht-rund-ums-haus-k288-3 — Der, die oder das? — Rund ums Haus",
+   "der-die-das-rund-ums-haus-k306-3 — Der, die oder das? Vier Bilder — Rund ums Haus"
+  ]
+ },
+ {
+  "locale": "pt",
+  "type": "how-to-draw",
+  "topic": "macaco",
+  "kind": "topic",
+  "demand": 5,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "como desenhar macaco"
+  ],
+  "sample": [
+   "como-desenhar-dificil-k396-30 — Como desenhar um macaco passo a passo",
+   "como-desenhar-dificil-k404-13 — Desenhe um macaco e escreva a palavra"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "color-by-number",
+  "topic": "oiseau",
+  "kind": "topic",
+  "demand": 5,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "coloriage magique oiseau"
+  ],
+  "sample": [
+   "coloriage-magique-facile-k393-2-gardenbird — Coloriage magique : Oiseau au jardin"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "picture-word-cards",
+  "topic": "huis",
+  "kind": "topic",
+  "demand": 4,
+  "decks": 25,
+  "strength": "strong",
+  "phrases": [
+   "woordkaartjes huis"
+  ],
+  "sample": [
+   "woordkaartjes-moeilijk-huis-zw-g1324-2 — Lettergreepkaartjes: lees het woord in stukjes — Huis ZW",
+   "woordkaartjes-makkelijk-rond-het-huis-k324-17 — Woordkaartjes met plaatjes — Rond het huis"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "pre-writing",
+  "topic": "traits obliques",
+  "kind": "topic",
+  "demand": 4,
+  "decks": 15,
+  "strength": "strong",
+  "phrases": [
+   "graphisme traits obliques"
+  ],
+  "sample": [
+   "graphisme-difficile-boulangerie-k385 — Graphisme : traits verticaux, obliques et croix — Boulangerie",
+   "graphisme-plage-nb-k385-3 — Graphisme : traits verticaux, obliques et croix — Plage NB"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "picture-word-cards",
+  "topic": "cuisine",
+  "kind": "topic",
+  "demand": 4,
+  "decks": 9,
+  "strength": "strong",
+  "phrases": [
+   "imagier cuisine maternelle"
+  ],
+  "sample": [
+   "imagier-facile-cuisine-nb-k324-60 — Imagier à découper — Cuisine NB",
+   "imagier-cuisine-nb-k324-158 — Imagier à découper — Cuisine NB"
+  ]
+ },
+ {
+  "locale": "sv",
+  "type": "read-and-color",
+  "topic": "pask",
+  "kind": "topic",
+  "demand": 4,
+  "decks": 9,
+  "strength": "strong",
+  "phrases": [
+   "läs och måla påsk"
+  ],
+  "sample": [
+   "las-och-mala-latt-pask-sv-g1242-3 — Läs och måla — Påsk SV",
+   "las-och-mala-pask-sv-g1242-50 — Läs och måla — Påsk SV"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "pre-writing",
+  "topic": "fleurs",
+  "kind": "topic",
+  "demand": 4,
+  "decks": 6,
+  "strength": "strong",
+  "phrases": [
+   "graphisme fleurs"
+  ],
+  "sample": [
+   "graphisme-fleurs-k236-143 — Graphisme : les chemins du crayon — Fleurs",
+   "graphisme-facile-fleurs-k236-45 — Graphisme : les chemins du crayon — Fleurs"
+  ]
+ },
+ {
+  "locale": "it",
+  "type": "pre-writing",
+  "topic": "dinosauri",
+  "kind": "topic",
+  "demand": 4,
+  "decks": 6,
+  "strength": "strong",
+  "phrases": [
+   "pregrafismo dinosauri"
+  ],
+  "sample": [
+   "pregrafismo-facile-dinosauri-k236-37 — Percorsi di pregrafismo — Dinosauri",
+   "pregrafismo-dinosauri-k236-135 — Percorsi di pregrafismo — Dinosauri"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "color-by-number",
+  "topic": "turtle",
+  "kind": "topic",
+  "demand": 4,
+  "decks": 4,
+  "strength": "strong",
+  "phrases": [
+   "color by number turtle"
+  ],
+  "sample": [
+   "color-by-number-hard-k393-7-pondturtle — Color by Number: Turtle at the Pond",
+   "color-by-number-hard-k393-9-seaturtleswim — Color by Number: Sea Turtle Swimming"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "picture-word-cards",
+  "topic": "foret",
+  "kind": "topic",
+  "demand": 4,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "imagier foret"
+  ],
+  "sample": [
+   "imagier-facile-creatures-de-la-foret-k324-49 — Imagier à découper — Créatures de la forêt",
+   "imagier-creatures-de-la-foret-k324-147 — Imagier à découper — Créatures de la forêt"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "color-by-number",
+  "topic": "horses",
+  "kind": "topic",
+  "demand": 4,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "color by number horses"
+  ],
+  "sample": [
+   "color-by-number-k393-4-farmhorse — Color by Number: Horse on the Farm",
+   "color-by-number-hard-k394-17-rockinghorse — Color by Number: Rocking Horse"
+  ]
+ },
+ {
+  "locale": "es",
+  "type": "singular-plural",
+  "topic": "flor",
+  "kind": "topic",
+  "demand": 4,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "singular y plural de flor"
+  ],
+  "sample": [
+   "singular-y-plural-dificil-flores-k302-3 — Singular y plural: palabras cortas — Flores",
+   "singular-y-plural-dificil-flores-k316-3 — De muchos a uno, sin punteado — Flores"
+  ]
+ },
+ {
+  "locale": "pt",
+  "type": "how-to-draw",
+  "topic": "tigre",
+  "kind": "topic",
+  "demand": 4,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "como desenhar tigre"
+  ],
+  "sample": [
+   "como-desenhar-dificil-g2390-15 — Desenhe um tigre e escreva sobre o seu desenho",
+   "como-desenhar-dificil-k401-13 — Desenhe um tigre com formas simples"
+  ]
+ },
+ {
+  "locale": "it",
+  "type": "syllable-split",
+  "topic": "oceano",
+  "kind": "topic",
+  "demand": 4,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "divisione in sillabe oceano"
+  ],
+  "sample": [
+   "divisione-in-sillabe-difficile-vita-oceanica-g1328 — Bisillabe o trisillabe? Dividi e classifica — Vita oceanica",
+   "divisione-in-sillabe-difficile-vita-oceanica-g1327-4 — Sillabe in disordine: rimettile in ordine — Vita oceanica"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "articles",
+  "topic": "weer",
+  "kind": "topic",
+  "demand": 4,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "de of het weer"
+  ],
+  "sample": [
+   "de-of-het-weer-k288-5 — De of het? — Weer",
+   "de-of-het-makkelijk-weer-k307-3 — De of het? Acht plaatjes — Weer"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "color-by-number",
+  "topic": "umbrella",
+  "kind": "topic",
+  "demand": 4,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "color by number umbrella"
+  ],
+  "sample": [
+   "color-by-number-easy-k393-26-beachumbrella — Color by Number: Beach Umbrella"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "picture-tracing",
+  "topic": "winter",
+  "kind": "topic",
+  "demand": 4,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "tracing worksheets winter"
+  ],
+  "sample": [
+   "picture-tracing-hard-k429-12 — The Winter Concert"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "how-to-draw",
+  "topic": "jellyfish",
+  "kind": "topic",
+  "demand": 4,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "how to draw jellyfish"
+  ],
+  "sample": [
+   "how-to-draw-g2390-11 — Draw a Jellyfish, Then Write About It"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "color-by-number",
+  "topic": "bateau",
+  "kind": "topic",
+  "demand": 4,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "coloriage magique bateau"
+  ],
+  "sample": [
+   "coloriage-magique-facile-k393-27-beachboat — Coloriage magique : Bateau à la plage"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "color-by-number",
+  "topic": "noel",
+  "kind": "topic",
+  "demand": 4,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "coloriage magique noel"
+  ],
+  "sample": [
+   "coloriage-magique-facile-k393-35-wintersanta — Coloriage magique : Père Noël dans la neige"
+  ]
+ },
+ {
+  "locale": "es",
+  "type": "color-by-number",
+  "topic": "dinosaurios",
+  "kind": "topic",
+  "demand": 4,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "colorear por numeros dinosaurios"
+  ],
+  "sample": [
+   "colorear-por-numeros-facil-k394-2-dinosaur — Colorea por números: Dinosaurio"
+  ]
+ },
+ {
+  "locale": "it",
+  "type": "how-to-draw",
+  "topic": "babbo natale",
+  "kind": "topic",
+  "demand": 4,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "disegno guidato babbo natale"
+  ],
+  "sample": [
+   "disegno-guidato-g1416-9 — Disegna Babbo Natale con la griglia"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "verb-forms",
+  "topic": "easy",
+  "kind": "level",
+  "demand": 3,
+  "decks": 30,
+  "strength": "strong",
+  "phrases": [
+   "verb forms easy"
+  ],
+  "sample": [
+   "verb-forms-easy-g2335-8 — Verb Forms in Sentences with Pictures",
+   "verb-forms-easy-g2336-9 — The Irregular Verbs: be, have, do, go"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "read-and-color",
+  "topic": "food",
+  "kind": "topic",
+  "demand": 3,
+  "decks": 12,
+  "strength": "strong",
+  "phrases": [
+   "read and color food"
+  ],
+  "sample": [
+   "read-and-color-easy-food-bw-g1242-22 — Read and Color — Food BW",
+   "read-and-color-food-bw-g1242-70 — Read and Color — Food BW"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "pre-writing",
+  "topic": "kerst",
+  "kind": "topic",
+  "demand": 3,
+  "decks": 12,
+  "strength": "strong",
+  "phrases": [
+   "schrijfpatronen kerst"
+  ],
+  "sample": [
+   "schrijfpatronen-makkelijk-kerstmis-k236-29 — Schrijfpatronen oefenen — Kerstmis",
+   "schrijfpatronen-kerstmis-k236-127 — Schrijfpatronen oefenen — Kerstmis"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "picture-word-cards",
+  "topic": "kleding",
+  "kind": "topic",
+  "demand": 3,
+  "decks": 8,
+  "strength": "strong",
+  "phrases": [
+   "woordkaartjes kleding"
+  ],
+  "sample": [
+   "woordkaartjes-makkelijk-kleding-zw-k324-16 — Woordkaartjes met plaatjes — Kleding ZW",
+   "woordkaartjes-kleding-zw-k324-114 — Woordkaartjes met plaatjes — Kleding ZW"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "syllable-split",
+  "topic": "winter",
+  "kind": "topic",
+  "demand": 3,
+  "decks": 5,
+  "strength": "strong",
+  "phrases": [
+   "silbenbögen winter"
+  ],
+  "sample": [
+   "silbenboegen-winter-g1305-4 — Silbenbögen: Wörter in Silben schwingen — Winter",
+   "silbenboegen-schwer-winter-g1326 — Fehlende Silbe eintragen — Winter"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "picture-word-cards",
+  "topic": "fleurs",
+  "kind": "topic",
+  "demand": 3,
+  "decks": 5,
+  "strength": "strong",
+  "phrases": [
+   "imagier fleurs"
+  ],
+  "sample": [
+   "imagier-fleurs-g1324-3 — Cartes de lecture : mots découpés en syllabes — Fleurs",
+   "imagier-difficile-fleurs-k324-237 — Imagier à découper — Fleurs"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "picture-word-cards",
+  "topic": "bloemen",
+  "kind": "topic",
+  "demand": 3,
+  "decks": 5,
+  "strength": "strong",
+  "phrases": [
+   "woordkaartjes bloemen"
+  ],
+  "sample": [
+   "woordkaartjes-bloemen-g1324-3 — Lettergreepkaartjes: lees het woord in stukjes — Bloemen",
+   "woordkaartjes-makkelijk-bloemen-g1324-5 — Lettergreepkaartjes: lees het woord in stukjes — Bloemen"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "color-by-number",
+  "topic": "truck",
+  "kind": "topic",
+  "demand": 3,
+  "decks": 4,
+  "strength": "strong",
+  "phrases": [
+   "color by number truck"
+  ],
+  "sample": [
+   "color-by-number-hard-k393-85-firetruck — Color by Number: Fire Truck",
+   "color-by-number-hard-k394-92-dumptruck — Color by Number: Dump Truck"
+  ]
+ },
+ {
+  "locale": "es",
+  "type": "pre-writing",
+  "topic": "invierno",
+  "kind": "topic",
+  "demand": 3,
+  "decks": 4,
+  "strength": "strong",
+  "phrases": [
+   "grafomotricidad invierno"
+  ],
+  "sample": [
+   "grafomotricidad-facil-invierno-k236-97 — Trazos de grafomotricidad — Invierno",
+   "grafomotricidad-invierno-k236-195 — Trazos de grafomotricidad — Invierno"
+  ]
+ },
+ {
+  "locale": "no",
+  "type": "picture-word-cards",
+  "topic": "følelser",
+  "kind": "topic",
+  "demand": 3,
+  "decks": 4,
+  "strength": "strong",
+  "phrases": [
+   "bildekort følelser"
+  ],
+  "sample": [
+   "bildekort-folelser-k324-138 — Bildekort med ord — Følelser",
+   "bildekort-lett-folelser-k324-40 — Bildekort med ord — Følelser"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "color-by-number",
+  "topic": "cat",
+  "kind": "topic",
+  "demand": 3,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "color by number cat"
+  ],
+  "sample": [
+   "color-by-number-easy-k393-21-catgarden — Color by Number: Cat in the Garden",
+   "color-by-number-easy-k393-45-nightcat — Color by Number: Cat at Night"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "picture-word-cards",
+  "topic": "emotionen",
+  "kind": "topic",
+  "demand": 3,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "bildkarten emotionen"
+  ],
+  "sample": [
+   "bildkarten-leicht-emotionen-k324-40 — Bildkarten mit Wort — Emotionen",
+   "bildkarten-emotionen-k324-138 — Bildkarten mit Wort — Emotionen"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "picture-word-cards",
+  "topic": "waldtiere",
+  "kind": "topic",
+  "demand": 3,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "bildkarten waldtiere"
+  ],
+  "sample": [
+   "bildkarten-leicht-waldtiere-k324-49 — Bildkarten mit Wort — Waldtiere",
+   "bildkarten-waldtiere-k324-147 — Bildkarten mit Wort — Waldtiere"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "how-to-draw",
+  "topic": "panda",
+  "kind": "topic",
+  "demand": 3,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "leren tekenen panda"
+  ],
+  "sample": [
+   "leren-tekenen-makkelijk-k396-6 — Hoe teken je een panda: stap voor stap",
+   "leren-tekenen-makkelijk-k404-7 — Een panda tekenen en het woord schrijven"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "how-to-draw",
+  "topic": "car",
+  "kind": "topic",
+  "demand": 3,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "how to draw car"
+  ],
+  "sample": [
+   "how-to-draw-hard-k396-26 — How to Draw a Police Car Step by Step",
+   "how-to-draw-hard-k403-14 — Finish the Police Car Drawing"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "how-to-draw",
+  "topic": "renard",
+  "kind": "topic",
+  "demand": 3,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "apprendre à dessiner renard"
+  ],
+  "sample": [
+   "apprendre-a-dessiner-facile-g1419-2 — Recopie chaque étape : dessine un renard",
+   "apprendre-a-dessiner-difficile-k403-16 — Termine le dessin : un renard à compléter"
+  ]
+ },
+ {
+  "locale": "pt",
+  "type": "how-to-draw",
+  "topic": "girafa",
+  "kind": "topic",
+  "demand": 3,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "como desenhar girafa"
+  ],
+  "sample": [
+   "como-desenhar-dificil-g2391-15 — Desenhe uma girafa de memória",
+   "como-desenhar-dificil-k404-18 — Desenhe uma girafa e escreva a palavra"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "letter-tracing",
+  "topic": "easy",
+  "kind": "level",
+  "demand": 2,
+  "decks": 29,
+  "strength": "strong",
+  "phrases": [
+   "letter tracing easy"
+  ],
+  "sample": [
+   "letter-tracing-easy-k238-28-a — Trace the Letter A a",
+   "letter-tracing-easy-k238-29-b — Trace the Letter B b"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "pre-writing",
+  "topic": "bauernhof",
+  "kind": "topic",
+  "demand": 2,
+  "decks": 12,
+  "strength": "strong",
+  "phrases": [
+   "schwungübungen bauernhof"
+  ],
+  "sample": [
+   "schwunguebungen-leicht-bauernhoftiere-k236-42 — Schwungübungen — Bauernhoftiere",
+   "schwunguebungen-bauernhoftiere-k236-140 — Schwungübungen — Bauernhoftiere"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "picture-writing",
+  "topic": "maison",
+  "kind": "topic",
+  "demand": 2,
+  "decks": 12,
+  "strength": "strong",
+  "phrases": [
+   "production d écrit maison"
+  ],
+  "sample": [
+   "production-d-ecrit-facile-autour-de-la-maison-g2278-17 — Production d'écrit : écrire à partir d'une image — Autour de la maison",
+   "production-d-ecrit-autour-de-la-maison-g2278-116 — Production d'écrit : écrire à partir d'une image — Autour de la maison"
+  ]
+ },
+ {
+  "locale": "it",
+  "type": "read-and-color",
+  "topic": "natale",
+  "kind": "topic",
+  "demand": 2,
+  "decks": 9,
+  "strength": "strong",
+  "phrases": [
+   "leggi e colora natale"
+  ],
+  "sample": [
+   "leggi-e-colora-facile-natale-b-n-g1242 — Leggi e colora — Natale B&N",
+   "leggi-e-colora-natale-b-n-g1242-47 — Leggi e colora — Natale B&N"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "picture-word-cards",
+  "topic": "outils",
+  "kind": "topic",
+  "demand": 2,
+  "decks": 7,
+  "strength": "strong",
+  "phrases": [
+   "imagier outils"
+  ],
+  "sample": [
+   "imagier-facile-outils-nb-k324-82 — Imagier à découper — Outils NB",
+   "imagier-outils-nb-k324-178 — Imagier à découper — Outils NB"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "picture-word-cards",
+  "topic": "erntedank",
+  "kind": "topic",
+  "demand": 2,
+  "decks": 4,
+  "strength": "strong",
+  "phrases": [
+   "bildkarten erntedank"
+  ],
+  "sample": [
+   "bildkarten-erntedankfest-k349-5 — Einzahl und Mehrzahl: Kartenpaare — Erntedankfest",
+   "bildkarten-leicht-erntedankfest-k324-80 — Bildkarten mit Wort — Erntedankfest"
+  ]
+ },
+ {
+  "locale": "pt",
+  "type": "how-to-draw",
+  "topic": "sorvete",
+  "kind": "topic",
+  "demand": 2,
+  "decks": 4,
+  "strength": "strong",
+  "phrases": [
+   "como desenhar sorvete"
+  ],
+  "sample": [
+   "como-desenhar-dificil-g1419-13 — Copie cada passo e desenhe um caminhão de sorvete",
+   "como-desenhar-k396-21 — Como desenhar uma taça de sorvete passo a passo"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "pre-writing",
+  "topic": "bakker",
+  "kind": "topic",
+  "demand": 2,
+  "decks": 4,
+  "strength": "strong",
+  "phrases": [
+   "schrijfpatronen bakker"
+  ],
+  "sample": [
+   "schrijfpatronen-makkelijk-bakkerij-k236-18 — Schrijfpatronen oefenen — Bakkerij",
+   "schrijfpatronen-bakkerij-k236-116 — Schrijfpatronen oefenen — Bakkerij"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "picture-word-cards",
+  "topic": "sommer",
+  "kind": "topic",
+  "demand": 2,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "bildkarten sommer"
+  ],
+  "sample": [
+   "bildkarten-leicht-sommer-k324-79 — Bildkarten mit Wort — Sommer",
+   "bildkarten-sommer-k324-176 — Bildkarten mit Wort — Sommer"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "picture-writing",
+  "topic": "hiver",
+  "kind": "topic",
+  "demand": 2,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "production d écrit hiver ce1"
+  ],
+  "sample": [
+   "production-d-ecrit-facile-hiver-g2278-97 — Production d'écrit : écrire à partir d'une image — Hiver",
+   "production-d-ecrit-hiver-g2278-195 — Production d'écrit : écrire à partir d'une image — Hiver"
+  ]
+ },
+ {
+  "locale": "es",
+  "type": "alphabetical-order",
+  "topic": "navidad",
+  "kind": "topic",
+  "demand": 2,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "orden alfabetico navidad"
+  ],
+  "sample": [
+   "orden-alfabetico-facil-navidad-g1245-5 — Orden alfabético — Navidad",
+   "orden-alfabetico-navidad-g1262-5 — Orden alfabético: numera las tarjetas — Navidad"
+  ]
+ },
+ {
+  "locale": "it",
+  "type": "alphabetical-order",
+  "topic": "vacanze",
+  "kind": "topic",
+  "demand": 2,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "ordine alfabetico delle vacanze"
+  ],
+  "sample": [
+   "ordine-alfabetico-difficile-viaggi-e-vacanze-bn-g1263-4 — Ordine alfabetico: numera e scrivi — Viaggi e Vacanze BN",
+   "ordine-alfabetico-facile-viaggi-e-vacanze-bn-g1245-4 — Ordine alfabetico — Viaggi e Vacanze BN"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "how-to-draw",
+  "topic": "tiger",
+  "kind": "topic",
+  "demand": 2,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "how to draw tiger"
+  ],
+  "sample": [
+   "how-to-draw-hard-g2390-15 — Draw a Tiger, Then Write About It",
+   "how-to-draw-hard-k401-13 — Draw a Tiger with Simple Shapes"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "how-to-draw",
+  "topic": "haus",
+  "kind": "topic",
+  "demand": 2,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "zeichnen lernen haus"
+  ],
+  "sample": [
+   "zeichnen-lernen-g1418-12 — Schritte ordnen und ein Haus zeichnen",
+   "zeichnen-lernen-schwer-k396-28 — Haus zeichnen lernen Schritt für Schritt"
+  ]
+ },
+ {
+  "locale": "es",
+  "type": "how-to-draw",
+  "topic": "ratones",
+  "kind": "topic",
+  "demand": 2,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "cómo dibujar ratones"
+  ],
+  "sample": [
+   "como-dibujar-facil-g1416-6 — Dibuja un ratón en cuadrícula",
+   "como-dibujar-dificil-g1418-14 — Ordena los pasos: dibujar un ratón"
+  ]
+ },
+ {
+  "locale": "pt",
+  "type": "how-to-draw",
+  "topic": "rato",
+  "kind": "topic",
+  "demand": 2,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "como desenhar rato"
+  ],
+  "sample": [
+   "como-desenhar-facil-g1416-6 — Desenhe um rato com a ajuda da grade",
+   "como-desenhar-dificil-g1418-14 — Coloque os passos em ordem e desenhe um rato"
+  ]
+ },
+ {
+  "locale": "it",
+  "type": "syllable-split",
+  "topic": "uccello",
+  "kind": "topic",
+  "demand": 2,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "divisione in sillabe uccello"
+  ],
+  "sample": [
+   "divisione-in-sillabe-facile-uccelli-2-g1326-2 — La sillaba mancante — Uccelli 2",
+   "divisione-in-sillabe-difficile-uccelli-2-g1329-4 — La vocale di ogni sillaba — Uccelli 2"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "color-by-number",
+  "topic": "tiger",
+  "kind": "topic",
+  "demand": 2,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "color by number tiger"
+  ],
+  "sample": [
+   "color-by-number-easy-k394-16-tiger — Color by Number: Tiger"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "color-by-number",
+  "topic": "baleine",
+  "kind": "topic",
+  "demand": 2,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "coloriage magique baleine"
+  ],
+  "sample": [
+   "coloriage-magique-facile-k393-15-seawhale — Coloriage magique : Baleine dans la mer"
+  ]
+ },
+ {
+  "locale": "es",
+  "type": "how-to-draw",
+  "topic": "gallinas",
+  "kind": "topic",
+  "demand": 2,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "cómo dibujar gallinas"
+  ],
+  "sample": [
+   "como-dibujar-facil-k404-5 — Dibuja una gallina y escribe la palabra"
+  ]
+ },
+ {
+  "locale": "es",
+  "type": "how-to-draw",
+  "topic": "tiburones",
+  "kind": "topic",
+  "demand": 2,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "cómo dibujar tiburones"
+  ],
+  "sample": [
+   "como-dibujar-facil-k404-6 — Dibuja un tiburón y escribe la palabra"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "mental-math",
+  "topic": "easy",
+  "kind": "level",
+  "demand": 1,
+  "decks": 30,
+  "strength": "strong",
+  "phrases": [
+   "mental math easy"
+  ],
+  "sample": [
+   "mental-math-easy-g1208-10 — Mental Math to 20",
+   "mental-math-easy-g1208-11 — Mental Math to 20"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "picture-word-cards",
+  "topic": "ferme",
+  "kind": "topic",
+  "demand": 1,
+  "decks": 11,
+  "strength": "strong",
+  "phrases": [
+   "imagier ferme"
+  ],
+  "sample": [
+   "imagier-facile-animaux-de-la-ferme-k324-42 — Imagier à découper — Animaux de la ferme",
+   "imagier-animaux-de-la-ferme-k324-140 — Imagier à découper — Animaux de la ferme"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "picture-word-cards",
+  "topic": "gemuse",
+  "kind": "topic",
+  "demand": 1,
+  "decks": 10,
+  "strength": "strong",
+  "phrases": [
+   "bildkarten gemüse zum ausdrucken"
+  ],
+  "sample": [
+   "bildkarten-leicht-gemuse-k324-89 — Bildkarten mit Wort — Gemüse",
+   "bildkarten-gemuse-k324-186 — Bildkarten mit Wort — Gemüse"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "arrays-multiplication",
+  "topic": "kerst",
+  "kind": "topic",
+  "demand": 1,
+  "decks": 6,
+  "strength": "strong",
+  "phrases": [
+   "keersommen kerst"
+  ],
+  "sample": [
+   "keersommen-makkelijk-kerstmis-g2211-15 — Rijen en kolommen — Kerstmis",
+   "keersommen-kerstmis-g2211-67 — Rijen en kolommen — Kerstmis"
+  ]
+ },
+ {
+  "locale": "nl",
+  "type": "arrays-multiplication",
+  "topic": "pasen",
+  "kind": "topic",
+  "demand": 1,
+  "decks": 6,
+  "strength": "strong",
+  "phrases": [
+   "keersommen pasen"
+  ],
+  "sample": [
+   "keersommen-makkelijk-pasen-g2211-21 — Rijen en kolommen — Pasen",
+   "keersommen-moeilijk-pasen-g2211-123 — Rijen en kolommen — Pasen"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "write-the-word",
+  "topic": "printemps",
+  "kind": "topic",
+  "demand": 1,
+  "decks": 5,
+  "strength": "strong",
+  "phrases": [
+   "dictée muette printemps"
+  ],
+  "sample": [
+   "dictee-muette-printemps-g1244-62 — Dictée muette : écris le nom de l'image — Printemps",
+   "dictee-muette-facile-printemps-g1244-24 — Dictée muette : écris le nom de l'image — Printemps"
+  ]
+ },
+ {
+  "locale": "es",
+  "type": "pre-writing",
+  "topic": "insectos",
+  "kind": "topic",
+  "demand": 1,
+  "decks": 3,
+  "strength": "strong",
+  "phrases": [
+   "grafomotricidad insectos"
+  ],
+  "sample": [
+   "grafomotricidad-facil-insectos-y-bichos-k236-59 — Trazos de grafomotricidad — Insectos y bichos",
+   "grafomotricidad-insectos-y-bichos-k236-157 — Trazos de grafomotricidad — Insectos y bichos"
+  ]
+ },
+ {
+  "locale": "de",
+  "type": "word-classes",
+  "topic": "ostern",
+  "kind": "topic",
+  "demand": 1,
+  "decks": 2,
+  "strength": "thin",
+  "phrases": [
+   "wortarten ostern"
+  ],
+  "sample": [
+   "wortarten-schwer-ostern-g1300-3 — Nomen und Adjektive sortieren — Ostern",
+   "wortarten-ostern-g2287-6 — Wortarten sortieren: fünfzehn Wörter — Ostern"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "color-by-number",
+  "topic": "giraffe",
+  "kind": "topic",
+  "demand": 1,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "color by number giraffe"
+  ],
+  "sample": [
+   "color-by-number-k393-28-savannagiraffe — Color by Number: Giraffe on the Savanna"
+  ]
+ },
+ {
+  "locale": "en",
+  "type": "find-the-differences",
+  "topic": "cat",
+  "kind": "topic",
+  "demand": 1,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "spot the difference cat"
+  ],
+  "sample": [
+   "find-the-differences-easy-k395-4 — Find 5 Differences: Cat on the Rug"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "how-to-draw",
+  "topic": "requin",
+  "kind": "topic",
+  "demand": 1,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "apprendre à dessiner un requin"
+  ],
+  "sample": [
+   "apprendre-a-dessiner-facile-k404-6 — Dessine un requin et écris le mot"
+  ]
+ },
+ {
+  "locale": "fr",
+  "type": "color-by-number",
+  "topic": "fleur",
+  "kind": "topic",
+  "demand": 1,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "coloriage magique fleur"
+  ],
+  "sample": [
+   "coloriage-magique-difficile-k394-28-flowerpot — Coloriage magique : Pot de fleurs"
+  ]
+ },
+ {
+  "locale": "pt",
+  "type": "how-to-draw",
+  "topic": "bolo",
+  "kind": "topic",
+  "demand": 1,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "como desenhar bolo"
+  ],
+  "sample": [
+   "como-desenhar-facil-g1417-7 — Desenhe um bolo na cena"
+  ]
+ },
+ {
+  "locale": "pt",
+  "type": "how-to-draw",
+  "topic": "moto",
+  "kind": "topic",
+  "demand": 1,
+  "decks": 1,
+  "strength": "thin",
+  "phrases": [
+   "como desenhar moto"
+  ],
+  "sample": [
+   "como-desenhar-facil-g1416-2 — Desenhe um motorhome com a ajuda da grade"
+  ]
+ }
+]

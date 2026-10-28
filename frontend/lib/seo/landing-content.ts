@@ -126,6 +126,52 @@ export function getLandingLocales(): string[] {
   return LANDING_LOCALES.slice();
 }
 
+/* Level Set HUB pages (2026-10-28) — frontend/content/seo-landing-hubs/<locale>.json, built by
+ * scripts/seo-research/build-level-set-hubs.js and rendered to static HTML by
+ * scripts/seo-landing/render-landing-html.js. A hub lists several noindex Level Set decks under one
+ * indexable URL in the landing URL family (/<locale>/worksheets/<slug>). Deliberately NOT part of
+ * getAllLandings: a hub has no canonical deck, so it must never enter landingSlugForDeck (deck
+ * canonicals and card links), the /worksheets rail counts or the landing hreflang clusters.
+ * Consumed only by the sitemap. A hub without finished copy is skipped, as the renderer does. */
+export interface LevelSetHub {
+  slug: string;
+  type: string;
+  topic: string;
+  h1: string;
+  title: string;
+  metaDescription: string;
+  p1: string;
+  p2: string;
+  p3: string;
+  decks: { slug: string; title: string; level: string; bw: boolean }[];
+}
+const _HUB_DIRS = _LANDING_DIRS.map((d) => d.replace(/seo-landing$/, 'seo-landing-hubs'));
+const _hubCache: Record<string, LevelSetHub[]> = {};
+export function getLevelSetHubs(locale: string): LevelSetHub[] {
+  if (locale in _hubCache) return _hubCache[locale];
+  let hubs: LevelSetHub[] = [];
+  if (LANDING_LOCALES.includes(locale)) {
+    for (const dir of _HUB_DIRS) {
+      const p = path.join(dir, `${locale}.json`);
+      try {
+        if (fs.existsSync(p)) { hubs = (JSON.parse(fs.readFileSync(p, 'utf8')).hubs || []) as LevelSetHub[]; break; }
+      } catch { /* try next candidate */ }
+    }
+  }
+  _hubCache[locale] = hubs.filter((h) => h.h1 && h.title && h.metaDescription && h.p1 && h.p2 && h.p3 && h.decks && h.decks.length >= 3);
+  return _hubCache[locale];
+}
+/** When this locale's hub copy last changed, in epoch ms, or 0 if unreadable. */
+export function levelSetHubsMtimeMs(locale: string): number {
+  for (const dir of _HUB_DIRS) {
+    const p = path.join(dir, `${locale}.json`);
+    try {
+      if (fs.existsSync(p)) return fs.statSync(p).mtimeMs;
+    } catch { /* try next candidate */ }
+  }
+  return 0;
+}
+
 /* Real-content augment (Unit 3, 2026-07-06) — per-landing contentDate (+word banks etc.)
  * produced server-side by scripts/seo-landing/augment-landings-real-content.js.
  * Consumed here ONLY for the sitemap <lastmod>; OPTIONAL by design (absent file →

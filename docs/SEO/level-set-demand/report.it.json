@@ -1,0 +1,1822 @@
+{
+ "locale": "it",
+ "harvested": 1971,
+ "clusters": 3251,
+ "candidates": [
+  {
+   "type": "color-by-number",
+   "topic": "natale",
+   "stem": "natal",
+   "demand": 28,
+   "phrases": [
+    "conta e colora natale",
+    "conta e colora classe prima natale",
+    "conta e colora di natale",
+    "conta e colora il natale"
+   ],
+   "phraseCount": 4,
+   "supply": 1,
+   "supplySample": [
+    "conta-e-colora-facile-k393-35-wintersanta — Colora con i numeri: Babbo Natale sulla neve"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "alphabetical-order",
+   "topic": "attivita",
+   "stem": "attivit",
+   "demand": 19,
+   "phrases": [
+    "ordine alfabetico attività",
+    "ordine alfabetico attività classe terza"
+   ],
+   "phraseCount": 2,
+   "supply": 1,
+   "supplySample": [
+    "ordine-alfabetico-difficile-attivita-g1263 — Ordine alfabetico: numera e scrivi — Attività"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "estate",
+   "stem": "estat",
+   "demand": 14,
+   "phrases": [
+    "pregrafismo estate",
+    "pregrafismo estate infanzia"
+   ],
+   "phraseCount": 2,
+   "supply": 4,
+   "supplySample": [
+    "pregrafismo-estate-k236-177 — Percorsi di pregrafismo — Estate",
+    "pregrafismo-facile-estate-k236-79 — Percorsi di pregrafismo — Estate",
+    "pregrafismo-difficile-estate-k236-276 — Percorsi di pregrafismo — Estate",
+    "pregrafismo-estate-k246-3 — Pregrafismo: occhielli, otto e spirali — Estate"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-tracing",
+   "topic": "autunno",
+   "stem": "autunn",
+   "demand": 10,
+   "phrases": [
+    "disegni tratteggiati autunno"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "disegni-tratteggiati-facile-k423-2 — Foglie d'autunno"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "measurement",
+   "topic": "vita",
+   "stem": "vita",
+   "demand": 9,
+   "phrases": [
+    "misurazione vita"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "misurazione-vita-marina-bn-g1139-2 — Quadretto per quadretto — Vita marina BN",
+    "misurazione-difficile-vita-marina-bn-g1140-2 — Dal corto al lungo — Vita marina BN",
+    "misurazione-facile-vita-oceanica-k038-2 — Pesante o leggero? — Vita oceanica",
+    "misurazione-vita-oceanica-k038-3 — Pesante o leggero? — Vita oceanica"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rhyming-words",
+   "topic": "ino",
+   "stem": "ino",
+   "demand": 9,
+   "phrases": [
+    "parole in rima con ino"
+   ],
+   "phraseCount": 1,
+   "supply": 46,
+   "supplySample": [
+    "parole-in-rima-g1346-4-ino — Inventa le tue rime",
+    "parole-in-rima-facile-g1309-10-ino — Parole in rima: trova la rima e scrivila",
+    "parole-in-rima-facile-g1309-8-ino — Parole in rima: trova la rima e scrivila",
+    "parole-in-rima-facile-g1309-9-ino — Parole in rima: trova la rima e scrivila"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "disegni",
+   "stem": "disegn",
+   "demand": 8,
+   "phrases": [
+    "pregrafismo disegni"
+   ],
+   "phraseCount": 1,
+   "supply": 15,
+   "supplySample": [
+    "pregrafismo-attivita-k387-2 — Pregrafismo: da un disegno all'altro — Attività",
+    "pregrafismo-difficile-animali-bn-2-k387-2 — Pregrafismo: da un disegno all'altro — Animali BN 2",
+    "pregrafismo-parti-del-corpo-k387-4 — Pregrafismo: da un disegno all'altro — Parti del corpo",
+    "pregrafismo-facile-colori-k387 — Pregrafismo: da un disegno all'altro — Colori"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "musica",
+   "stem": "music",
+   "demand": 8,
+   "phrases": [
+    "pregrafismo e musica",
+    "pregrafismo in musica"
+   ],
+   "phraseCount": 2,
+   "supply": 4,
+   "supplySample": [
+    "pregrafismo-facile-musica-k236-63 — Percorsi di pregrafismo — Musica",
+    "pregrafismo-musica-k236-161 — Percorsi di pregrafismo — Musica",
+    "pregrafismo-difficile-musica-k236-260 — Percorsi di pregrafismo — Musica",
+    "pregrafismo-facile-musica-k385 — Pregrafismo: linee verticali, oblique e croci — Musica"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-charts",
+   "topic": "spia",
+   "stem": "spia",
+   "demand": 8,
+   "phrases": [
+    "tabella dei numeri spia"
+   ],
+   "phraseCount": 1,
+   "supply": 6,
+   "supplySample": [
+    "tabella-dei-numeri-spiaggia-bn-g1124-6 — Conta per cinque — Spiaggia BN",
+    "tabella-dei-numeri-difficile-spiaggia-g1126 — Conta a gruppi — Spiaggia",
+    "tabella-dei-numeri-facile-spiaggia-bn-2-g3326-4 — Scopri la regola — Spiaggia BN 2",
+    "tabella-dei-numeri-spiaggia-bn-2-g3327-4 — Si scende! — Spiaggia BN 2"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "syllable-split",
+   "topic": "estate",
+   "stem": "estat",
+   "demand": 8,
+   "phrases": [
+    "divisione in sillabe estate"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "divisione-in-sillabe-facile-estate-g1305-2 — Divisione in sillabe — Estate",
+    "divisione-in-sillabe-difficile-estate-g1305-3 — Divisione in sillabe — Estate",
+    "divisione-in-sillabe-estate-g1327-3 — Sillabe in disordine: rimettile in ordine — Estate",
+    "divisione-in-sillabe-facile-estate-g1326-3 — La sillaba mancante — Estate"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "syllable-split",
+   "topic": "spiaggia",
+   "stem": "spiaggi",
+   "demand": 8,
+   "phrases": [
+    "divisione in sillabe spiaggia"
+   ],
+   "phraseCount": 1,
+   "supply": 5,
+   "supplySample": [
+    "divisione-in-sillabe-spiaggia-g1305-4 — Divisione in sillabe — Spiaggia",
+    "divisione-in-sillabe-difficile-spiaggia-g1325-4 — Scrivi la parola divisa in sillabe — Spiaggia",
+    "divisione-in-sillabe-difficile-spiaggia-g1326 — La sillaba mancante — Spiaggia",
+    "divisione-in-sillabe-facile-spiaggia-g1327-4 — Sillabe in disordine: rimettile in ordine — Spiaggia"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "attivita",
+   "stem": "attivit",
+   "demand": 7,
+   "phrases": [
+    "numeri ordinali attività"
+   ],
+   "phraseCount": 1,
+   "supply": 5,
+   "supplySample": [
+    "numeri-ordinali-attivita-g1315-6 — Scrivi i numeri ordinali che mancano — Attività",
+    "numeri-ordinali-difficile-attivita-g1317-3 — In che posto è? Scrivi il numero ordinale — Attività",
+    "numeri-ordinali-facile-attivita-k320-5 — Numeri ordinali: trova il posto — Attività",
+    "numeri-ordinali-attivita-k320-55 — Numeri ordinali: trova il posto — Attività"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "write-the-word",
+   "topic": "primavera",
+   "stem": "primaver",
+   "demand": 7,
+   "phrases": [
+    "dettato muto primavera"
+   ],
+   "phraseCount": 1,
+   "supply": 4,
+   "supplySample": [
+    "dettato-muto-facile-primavera-g1244-24 — Dettato muto: scrivi la parola — Primavera",
+    "dettato-muto-primavera-g1244-61 — Dettato muto: scrivi la parola — Primavera",
+    "dettato-muto-difficile-primavera-g1244-97 — Dettato muto: scrivi la parola — Primavera",
+    "dettato-muto-facile-primavera-g1259-3 — Dettato muto: scegli la parola — Primavera"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rhyming-words",
+   "topic": "ello",
+   "stem": "ello",
+   "demand": 7,
+   "phrases": [
+    "parole in rima con ello"
+   ],
+   "phraseCount": 1,
+   "supply": 6,
+   "supplySample": [
+    "parole-in-rima-facile-g1309-11-ello — Parole in rima: trova la rima e scrivila",
+    "parole-in-rima-difficile-g1346-16-ello — Inventa le tue rime",
+    "parole-in-rima-k352-6-ello — Fanno rima o no?",
+    "parole-in-rima-difficile-k352-14-ello — Fanno rima o no?"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "dinosauri",
+   "stem": "dinosaur",
+   "demand": 4,
+   "phrases": [
+    "pregrafismo dinosauri"
+   ],
+   "phraseCount": 1,
+   "supply": 6,
+   "supplySample": [
+    "pregrafismo-facile-dinosauri-k236-37 — Percorsi di pregrafismo — Dinosauri",
+    "pregrafismo-dinosauri-k236-135 — Percorsi di pregrafismo — Dinosauri",
+    "pregrafismo-difficile-dinosauri-k236-234 — Percorsi di pregrafismo — Dinosauri",
+    "pregrafismo-difficile-dinosauri-k244 — Pregrafismo: linee rette e zigzag — Dinosauri"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "how-to-draw",
+   "topic": "babbo natale",
+   "stem": "babbo natal",
+   "demand": 4,
+   "phrases": [
+    "disegno guidato babbo natale"
+   ],
+   "phraseCount": 1,
+   "supply": 1,
+   "supplySample": [
+    "disegno-guidato-g1416-9 — Disegna Babbo Natale con la griglia"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "syllable-split",
+   "topic": "oceano",
+   "stem": "ocean",
+   "demand": 4,
+   "phrases": [
+    "divisione in sillabe oceano"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "divisione-in-sillabe-difficile-vita-oceanica-g1328 — Bisillabe o trisillabe? Dividi e classifica — Vita oceanica",
+    "divisione-in-sillabe-difficile-vita-oceanica-g1327-4 — Sillabe in disordine: rimettile in ordine — Vita oceanica"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "verticale",
+   "stem": "vertical",
+   "demand": 3,
+   "phrases": [
+    "pregrafismo verticale"
+   ],
+   "phraseCount": 1,
+   "supply": 15,
+   "supplySample": [
+    "pregrafismo-difficile-parti-del-corpo-k385 — Pregrafismo: linee verticali, oblique e croci — Parti del corpo",
+    "pregrafismo-difficile-emozioni-k385-3 — Pregrafismo: linee verticali, oblique e croci — Emozioni",
+    "pregrafismo-mobili-k385-2 — Pregrafismo: linee verticali, oblique e croci — Mobili",
+    "pregrafismo-difficile-ospedale-k385-5 — Pregrafismo: linee verticali, oblique e croci — Ospedale"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "forme",
+   "stem": "forme",
+   "demand": 2,
+   "phrases": [
+    "pregrafismo forme"
+   ],
+   "phraseCount": 1,
+   "supply": 6,
+   "supplySample": [
+    "pregrafismo-facile-forme-k236-73 — Percorsi di pregrafismo — Forme",
+    "pregrafismo-forme-k236-171 — Percorsi di pregrafismo — Forme",
+    "pregrafismo-difficile-forme-k236-270 — Percorsi di pregrafismo — Forme",
+    "pregrafismo-difficile-forme-k244-5 — Pregrafismo: linee rette e zigzag — Forme"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "read-and-color",
+   "topic": "natale",
+   "stem": "natal",
+   "demand": 2,
+   "phrases": [
+    "leggi e colora natale"
+   ],
+   "phraseCount": 1,
+   "supply": 9,
+   "supplySample": [
+    "leggi-e-colora-facile-natale-b-n-g1242 — Leggi e colora — Natale B&N",
+    "leggi-e-colora-natale-b-n-g1242-47 — Leggi e colora — Natale B&N",
+    "leggi-e-colora-difficile-natale-b-n-g1242-90 — Leggi e colora — Natale B&N",
+    "leggi-e-colora-facile-natale-b-n-2-g1242-2 — Leggi e colora — Natale B&N 2"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "syllable-split",
+   "topic": "uccello",
+   "stem": "uccell",
+   "demand": 2,
+   "phrases": [
+    "divisione in sillabe uccello"
+   ],
+   "phraseCount": 1,
+   "supply": 2,
+   "supplySample": [
+    "divisione-in-sillabe-facile-uccelli-2-g1326-2 — La sillaba mancante — Uccelli 2",
+    "divisione-in-sillabe-difficile-uccelli-2-g1329-4 — La vocale di ogni sillaba — Uccelli 2"
+   ],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "alphabetical-order",
+   "topic": "vacanze",
+   "stem": "vacanz",
+   "demand": 2,
+   "phrases": [
+    "ordine alfabetico delle vacanze"
+   ],
+   "phraseCount": 1,
+   "supply": 3,
+   "supplySample": [
+    "ordine-alfabetico-difficile-viaggi-e-vacanze-bn-g1263-4 — Ordine alfabetico: numera e scrivi — Viaggi e Vacanze BN",
+    "ordine-alfabetico-facile-viaggi-e-vacanze-bn-g1245-4 — Ordine alfabetico — Viaggi e Vacanze BN",
+    "ordine-alfabetico-viaggi-e-vacanze-bn-g1262-4 — Numera in ordine alfabetico — Viaggi e Vacanze BN"
+   ],
+   "covered": false,
+   "coveredBy": null
+  }
+ ],
+ "contentIdeas": [
+  {
+   "type": "ordinal-numbers",
+   "topic": "inglese",
+   "stem": "ingles",
+   "demand": 100,
+   "phrases": [
+    "numeri ordinali inglese",
+    "numeri ordinali in inglese da 1 a 100",
+    "numeri ordinali in inglese da 1 a 31",
+    "numeri ordinali inglese bambini",
+    "numeri ordinali da 1 a 31 in inglese",
+    "numeri ordinali da 1 a 100 in inglese"
+   ],
+   "phraseCount": 14,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "column-arithmetic",
+   "topic": "elementare",
+   "stem": "elementar",
+   "demand": 78,
+   "phrases": [
+    "operazioni in colonna seconda elementare",
+    "operazioni in colonna 5 elementare",
+    "operazioni in colonna terza elementare",
+    "operazioni in colonna 3 elementare",
+    "operazioni in colonna elementari",
+    "operazioni in colonna per bambini di seconda elementare"
+   ],
+   "phraseCount": 13,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-writing",
+   "topic": "italiano",
+   "stem": "italian",
+   "demand": 72,
+   "phrases": [
+    "produzione scritta italiano b1",
+    "produzione scritta a2 italiano",
+    "produzione scritta a1 italiano l2",
+    "produzione scritta a1 italiano",
+    "produzione scritta a2 italiano l2",
+    "produzione scritta b2 italiano"
+   ],
+   "phraseCount": 11,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "logic-puzzles",
+   "topic": "anni",
+   "stem": "anni",
+   "demand": 60,
+   "phrases": [
+    "giochi di logica bambini 8 anni",
+    "giochi di logica bambini 10 anni",
+    "giochi di logica bambini 6 anni",
+    "giochi di logica bambini 5 anni",
+    "giochi di logica bambini 7 anni",
+    "giochi di logica bambini 3 anni"
+   ],
+   "phraseCount": 13,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "articles",
+   "topic": "indeterminativi",
+   "stem": "indeterminativ",
+   "demand": 57,
+   "phrases": [
+    "articoli determinativi e indeterminativi",
+    "articoli determinativi e indeterminativi scuola primaria",
+    "articoli determinativi e indeterminativi esercizi pdf",
+    "articoli determinativi indeterminativi",
+    "articoli determinativi o indeterminativi",
+    "articoli determinativi o indeterminativi esercizi"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "media",
+   "stem": "media",
+   "demand": 55,
+   "phrases": [
+    "comprensione del testo prima media pdf",
+    "comprensione del testo prima media",
+    "comprensione del testo esercizi pdf scuola media",
+    "comprensione del testo esercizi pdf terza media",
+    "comprensione del testo online scuola media",
+    "comprensione del testo online prima media"
+   ],
+   "phraseCount": 12,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "logic-puzzles",
+   "topic": "adulti",
+   "stem": "adult",
+   "demand": 51,
+   "phrases": [
+    "giochi di logica adulti",
+    "giochi di logica adulti online",
+    "giochi di logica adulti gratis online",
+    "giochi di logica adulti app",
+    "giochi di logica da stampare adulti",
+    "giochi di logica gratis per adulti"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "numeri",
+   "stem": "numer",
+   "demand": 48,
+   "phrases": [
+    "pregrafismo numeri da 1 a 10 pdf",
+    "pregrafismo numeri",
+    "pregrafismo numeri da 1 a 10",
+    "pregrafismo numero 1",
+    "pregrafismo numeri da stampare",
+    "pregrafismo numeri classe prima"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "logic-puzzles",
+   "topic": "matematica",
+   "stem": "matematic",
+   "demand": 48,
+   "phrases": [
+    "giochi di logica matematica",
+    "giochi di logica e matematica",
+    "giochi di logica e matematica gratis online",
+    "giochi di logica e matematica per bambini",
+    "giochi di logica matematica pdf",
+    "giochi di logica matematica online gratis"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "multiplication-tables",
+   "topic": "fino",
+   "stem": "fino",
+   "demand": 46,
+   "phrases": [
+    "tabelline fino al 10",
+    "tabelline fino al 100 da stampare pdf gratis",
+    "tabelline fino a 100",
+    "tabelline fino al 100 da stampare pdf",
+    "tabelline fino al 12",
+    "tabelline fino al 20"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "elementare",
+   "stem": "elementar",
+   "demand": 44,
+   "phrases": [
+    "comprensione del testo seconda elementare",
+    "comprensione del testo elementari",
+    "comprensione del testo prima elementare",
+    "comprensione del testo seconda elementare pdf",
+    "comprensione del testo terza elementare",
+    "comprensione del testo terza elementare da stampare"
+   ],
+   "phraseCount": 8,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "multiplication-tables",
+   "topic": "wordwall",
+   "stem": "wordwall",
+   "demand": 40,
+   "phrases": [
+    "tabelline online wordwall",
+    "tabelline quiz wordwall",
+    "tabelline wordwall",
+    "tabelline wordwall classe seconda",
+    "tabelline wordwall 3",
+    "tabelline wordwall classe terza"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pronouns",
+   "topic": "inglese",
+   "stem": "ingles",
+   "demand": 40,
+   "phrases": [
+    "pronomi personali soggetto inglese",
+    "pronomi personali soggetto inglese per bambini",
+    "pronomi personali soggetto inglese schede didattiche",
+    "pronomi personali soggetto in inglese scuola primaria",
+    "pronomi personali soggetto inglese esercizi",
+    "pronomi personali soggetto inglese pdf"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pronouns",
+   "topic": "francese",
+   "stem": "frances",
+   "demand": 39,
+   "phrases": [
+    "pronomi personali soggetto in francese",
+    "pronomi personali soggetto francese",
+    "pronomi personali soggetto francese esercizi pdf",
+    "pronomi personali soggetto francese esercizi",
+    "pronomi personali soggetto francese pdf"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "entro",
+   "stem": "entro",
+   "demand": 38,
+   "phrases": [
+    "linea dei numeri entro il 20",
+    "linea dei numeri entro il 100",
+    "linea dei numeri entro il 20 da stampare",
+    "linea dei numeri entro il 30 da stampare",
+    "linea dei numeri entro il 30",
+    "linea dei numeri entro il 10"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "alphabetical-order",
+   "topic": "italiano",
+   "stem": "italian",
+   "demand": 37,
+   "phrases": [
+    "ordine alfabetico italiano",
+    "ordine alfabetico italiano esercizi",
+    "ordine alfabetico italiano online",
+    "ordine alfabetico italiano classe seconda",
+    "ordine alfabetico italiano classe terza",
+    "ordine alfabetico italiano j"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-writing",
+   "topic": "francese",
+   "stem": "frances",
+   "demand": 36,
+   "phrases": [
+    "produzione scritta b2 francese",
+    "produzione scritta b1 francese",
+    "produzione scritta francese b2",
+    "produzione scritta francese",
+    "produzione scritta francese b1",
+    "produzione scritta francese a2"
+   ],
+   "phraseCount": 7,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pronouns",
+   "topic": "complemento",
+   "stem": "complement",
+   "demand": 36,
+   "phrases": [
+    "pronomi personali soggetto e complemento",
+    "pronomi personali soggetto o complemento",
+    "pronomi personali soggetto complemento",
+    "pronomi personali soggetto e complemento scuola primaria",
+    "pronomi personali soggetto o complemento esercizi",
+    "pronomi personali soggetto e complemento video"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "lettere",
+   "stem": "letter",
+   "demand": 35,
+   "phrases": [
+    "pregrafismo da stampare lettere",
+    "pregrafismo lettere",
+    "pregrafismo lettera a",
+    "pregrafismo lettere da stampare",
+    "pregrafismo lettera a da stampare",
+    "pregrafismo lettera z"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-writing",
+   "topic": "guidata",
+   "stem": "guidat",
+   "demand": 35,
+   "phrases": [
+    "produzione scritta guidata scuola primaria pdf",
+    "produzione scritta guidata scuola primaria classe terza",
+    "produzione scritta guidata scuola primaria",
+    "produzione scritta guidata scuola primaria classe seconda",
+    "produzione scritta guidata scuola primaria classe prima",
+    "produzione scritta guidata"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "superiori",
+   "stem": "superior",
+   "demand": 35,
+   "phrases": [
+    "comprensione del testo esercizi pdf superiori",
+    "comprensione del testo online scuola superiore",
+    "comprensione del testo prima superiore pdf",
+    "comprensione del testo prima superiore",
+    "comprensione del testo superiori pdf",
+    "comprensione del testo terza superiore"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-writing",
+   "topic": "livello",
+   "stem": "livell",
+   "demand": 34,
+   "phrases": [
+    "produzione scritta livello a1",
+    "produzione scritta livello a2",
+    "produzione scritta livello b1",
+    "produzione scritta livello b2"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "bortolato",
+   "stem": "bortolat",
+   "demand": 34,
+   "phrases": [
+    "linea dei numeri bortolato",
+    "linea dei numeri bortolato da stampare",
+    "linea dei numeri bortolato amazon",
+    "linea dei numeri di bortolato"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "dot-to-dot",
+   "topic": "tabelline",
+   "stem": "tabellin",
+   "demand": 33,
+   "phrases": [
+    "unisci i puntini con le tabelline",
+    "unisci i puntini tabellina del 2",
+    "unisci i puntini tabelline",
+    "unisci i puntini tabellina del 3",
+    "unisci i puntini tabellina del 4"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-writing",
+   "topic": "delf",
+   "stem": "delf",
+   "demand": 32,
+   "phrases": [
+    "produzione scritta delf b2",
+    "produzione scritta delf b1",
+    "produzione scritta delf a1",
+    "produzione scritta delf a2"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "proprie improprie apparenti",
+   "stem": "propri impropri apparent",
+   "demand": 32,
+   "phrases": [
+    "frazioni proprie improprie apparenti",
+    "frazioni apparenti proprie e improprie",
+    "frazioni improprie proprie e apparenti",
+    "frazioni proprie improprie apparenti scuola primaria",
+    "frazioni proprie improprie apparenti pdf",
+    "frazioni proprie improprie apparenti esercizi"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "cardinali",
+   "stem": "cardinal",
+   "demand": 31,
+   "phrases": [
+    "numeri ordinali e cardinali",
+    "numeri ordinali cardinali",
+    "numeri ordinali e cardinali scuola primaria",
+    "numeri ordinali o cardinali"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "dot-to-dot",
+   "topic": "adulti",
+   "stem": "adult",
+   "demand": 31,
+   "phrases": [
+    "unisci i puntini per adulti",
+    "unisci i puntini da stampare pdf per adulti",
+    "unisci i puntini adulti",
+    "unisci i puntini adulti pdf",
+    "unisci i puntini per adulti pdf",
+    "unisci i puntini per adulti da stampare"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "articles",
+   "topic": "francese",
+   "stem": "frances",
+   "demand": 31,
+   "phrases": [
+    "articoli determinativi in francese",
+    "articoli determinativi di francese",
+    "articoli determinativi francese",
+    "articoli determinativi francese esercizi",
+    "articoli determinativi in francese video"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "autunno",
+   "stem": "autunn",
+   "demand": 30,
+   "phrases": [
+    "pregrafismo autunno",
+    "pregrafismo autunno classe prima",
+    "pregrafismo autunno scuola infanzia",
+    "pregrafismo d'autunno",
+    "pregrafismo infanzia autunno"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "multiplication-tables",
+   "topic": "giochi",
+   "stem": "gioch",
+   "demand": 30,
+   "phrases": [
+    "tabelline.it giochi",
+    "tabelline giochi online",
+    "tabelline giochi gratis",
+    "tabelline giochi da stampare",
+    "tabelline it giochi"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "cursive-writing",
+   "topic": "font",
+   "stem": "font",
+   "demand": 30,
+   "phrases": [
+    "corsivo font",
+    "corsivo font online",
+    "corsivo online font",
+    "corsivo primaria font",
+    "corsivo primaria font download",
+    "corsivo word font"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "digraphs",
+   "topic": "trigrammi",
+   "stem": "trigramm",
+   "demand": 30,
+   "phrases": [
+    "digrammi e trigrammi",
+    "digrammi e trigrammi pdf",
+    "digrammi e trigrammi esercizi",
+    "digrammi e trigrammi classe prima",
+    "digrammi e trigrammi scuola primaria",
+    "digrammi trigrammi"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "all-about-me",
+   "topic": "numeri",
+   "stem": "numer",
+   "demand": 30,
+   "phrases": [
+    "mi presento con i numeri",
+    "mi presento con i numeri classe prima",
+    "mi presento con i numeri classe terza",
+    "mi presento con i numeri classe seconda",
+    "mi presento in numeri"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "anni",
+   "stem": "anni",
+   "demand": 29,
+   "phrases": [
+    "pregrafismo 5 anni",
+    "pregrafismo 4 anni",
+    "pregrafismo bambini 5 anni",
+    "pregrafismo bambini 3 anni",
+    "pregrafismo infanzia 5 anni"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "rhyming-words",
+   "topic": "mare",
+   "stem": "mare",
+   "demand": 29,
+   "phrases": [
+    "parole in rima con mare",
+    "parole in rima di mare",
+    "parole in rima mare"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "serie",
+   "stem": "serie",
+   "demand": 29,
+   "phrases": [
+    "il calendario della serie a",
+    "il calendario per serie a",
+    "il calendario serie a",
+    "il calendario serie b"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "natale",
+   "stem": "natal",
+   "demand": 28,
+   "phrases": [
+    "comprensione del testo di natale",
+    "comprensione del testo natale classe seconda",
+    "comprensione del testo natale classe terza",
+    "comprensione del testo natale",
+    "comprensione del testo natale classe prima"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "logic-puzzles",
+   "topic": "elementari",
+   "stem": "elementar",
+   "demand": 28,
+   "phrases": [
+    "giochi di logica elementari",
+    "giochi di logica seconda elementare",
+    "giochi di logica terza elementare"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "cursive-writing",
+   "topic": "whatsapp",
+   "stem": "whatsapp",
+   "demand": 28,
+   "phrases": [
+    "corsivo su whatsapp",
+    "corsivo con whatsapp",
+    "corsivo in whatsapp",
+    "corsivo whatsapp"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-charts",
+   "topic": "romani",
+   "stem": "roman",
+   "demand": 27,
+   "phrases": [
+    "tabella dei numeri romani",
+    "tabella dei numeri romani da stampare",
+    "tabella dei numeri romani da 1 a 1000",
+    "tabella dei numeri romani da 1 a 100"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "negativi positivi",
+   "stem": "negativ positiv",
+   "demand": 27,
+   "phrases": [
+    "linea dei numeri negativi e positivi",
+    "linea dei numeri positivi negativi",
+    "linea dei numeri positivi e negativi da stampare",
+    "linea dei numeri positivi e negativi"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "mental-math",
+   "topic": "elementare",
+   "stem": "elementar",
+   "demand": 27,
+   "phrases": [
+    "calcolo mentale prima elementare",
+    "calcolo mentale seconda elementare",
+    "calcolo mentale terza elementare"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "cursive-writing",
+   "topic": "elementare",
+   "stem": "elementar",
+   "demand": 27,
+   "phrases": [
+    "corsivo bambini prima elementare",
+    "corsivo elementare",
+    "corsivo elementari",
+    "corsivo prima elementare",
+    "corsivo prima elementare pdf"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "tabellina",
+   "stem": "tabellin",
+   "demand": 26,
+   "phrases": [
+    "linea dei numeri tabellina del 3",
+    "linea dei numeri tabelline",
+    "linea dei numeri tabellina del 2"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "column-arithmetic",
+   "topic": "virgola",
+   "stem": "virgol",
+   "demand": 26,
+   "phrases": [
+    "operazioni in colonna con la virgola",
+    "operazioni in colonna con la virgola online",
+    "operazioni in colonna virgola",
+    "operazioni in colonna con virgola",
+    "operazioni in colonna con la virgola esercizi"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "dot-to-dot",
+   "topic": "natale",
+   "stem": "natal",
+   "demand": 26,
+   "phrases": [
+    "unisci i puntini natale",
+    "unisci i puntini natale da 1 a 10",
+    "unisci i puntini natale da stampare",
+    "unisci i puntini natale classe prima",
+    "unisci i puntini natale da stampare pdf"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "logic-puzzles",
+   "topic": "media",
+   "stem": "media",
+   "demand": 26,
+   "phrases": [
+    "giochi di logica scuola media",
+    "giochi di logica scuola media pdf",
+    "giochi di logica seconda media",
+    "giochi di logica terza media"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "positivo",
+   "stem": "positiv",
+   "demand": 26,
+   "phrases": [
+    "il calendario positivo",
+    "il calendario positivo 2026",
+    "il calendario positivo 2027"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "feelings",
+   "topic": "inside out",
+   "stem": "insid out",
+   "demand": 26,
+   "phrases": [
+    "le emozioni di inside out",
+    "le emozioni di inside out 2",
+    "le emozioni inside out",
+    "le emozioni inside out 2"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "vocali",
+   "stem": "vocal",
+   "demand": 25,
+   "phrases": [
+    "pregrafismo vocali",
+    "pregrafismo vocali pdf",
+    "pregrafismo vocali da stampare",
+    "pregrafismo vocale e"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "oltre",
+   "stem": "oltre",
+   "demand": 25,
+   "phrases": [
+    "linea dei numeri oltre il 20",
+    "linea dei numeri oltre il 100",
+    "linea dei numeri oltre il 1000"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "division-with-remainder",
+   "topic": "elementare",
+   "stem": "elementar",
+   "demand": 25,
+   "phrases": [
+    "divisioni con il resto terza elementare",
+    "divisioni con il resto seconda elementare",
+    "divisioni con il resto elementari"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "halloween",
+   "stem": "hallowe",
+   "demand": 25,
+   "phrases": [
+    "comprensione del testo halloween",
+    "comprensione del testo halloween classe terza",
+    "comprensione del testo halloween classe seconda primaria",
+    "comprensione del testo halloween classe seconda"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "logic-puzzles",
+   "topic": "wordwall",
+   "stem": "wordwall",
+   "demand": 25,
+   "phrases": [
+    "giochi di logica wordwall classe seconda primaria",
+    "giochi di logica per bambini wordwall",
+    "giochi di logica classe prima wordwall"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "cursive-writing",
+   "topic": "stampatello",
+   "stem": "stampatell",
+   "demand": 25,
+   "phrases": [
+    "corsivo e stampatello",
+    "corsivo o stampatello",
+    "corsivo stampatello",
+    "corsivo stampatello e"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "calendar",
+   "topic": "filosofico",
+   "stem": "filosofic",
+   "demand": 25,
+   "phrases": [
+    "il calendario filosofico",
+    "il calendario filosofico 2026",
+    "il calendario filosofico 2027"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "italiano",
+   "stem": "italian",
+   "demand": 24,
+   "phrases": [
+    "pregrafismo classe prima italiano",
+    "pregrafismo italiano classe prima",
+    "pregrafismo italiano"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "pre-writing",
+   "topic": "corsivo",
+   "stem": "corsiv",
+   "demand": 24,
+   "phrases": [
+    "pregrafismo corsivo",
+    "pregrafismo corsivo da stampare",
+    "pregrafismo corsivo pdf",
+    "pregrafismo per il corsivo"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "nomi",
+   "stem": "nomi",
+   "demand": 24,
+   "phrases": [
+    "forme geometriche nomi",
+    "forme geometriche e nomi",
+    "forme geometriche nomi 3d"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "multiplication-tables",
+   "topic": "bortolato",
+   "stem": "bortolat",
+   "demand": 24,
+   "phrases": [
+    "tabelline bortolato",
+    "tabelline bortolato da stampare",
+    "tabelline bortolato pdf"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "italiano",
+   "stem": "italian",
+   "demand": 24,
+   "phrases": [
+    "comprensione del testo a1 italiano l2",
+    "comprensione del testo b1 italiano",
+    "comprensione del testo b2 italiano",
+    "comprensione del testo b1 italiano pdf",
+    "comprensione del testo italiano",
+    "comprensione del testo italiano pdf"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-words",
+   "topic": "cifre",
+   "stem": "cifre",
+   "demand": 24,
+   "phrases": [
+    "numeri in lettere e cifre",
+    "numeri in lettere o cifre",
+    "numeri in lettere e in cifre"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "synonyms",
+   "topic": "contrari",
+   "stem": "contrar",
+   "demand": 24,
+   "phrases": [
+    "i sinonimi e i contrari",
+    "i sinonimi ei contrari scuola primaria",
+    "i sinonimi ei contrari",
+    "i sinonimi e contrari"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "dot-to-dot",
+   "topic": "halloween",
+   "stem": "hallowe",
+   "demand": 23,
+   "phrases": [
+    "unisci i puntini halloween",
+    "unisci i puntini da stampare halloween",
+    "unisci i puntini da 1 a 100 halloween",
+    "unisci i puntini da 1 a 30 halloween",
+    "unisci i puntini da 1 a 10 halloween"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "logic-puzzles",
+   "topic": "nintendo switch",
+   "stem": "nintend switch",
+   "demand": 23,
+   "phrases": [
+    "giochi di logica nintendo switch",
+    "giochi di logica nintendo switch 2",
+    "giochi di logica per nintendo switch",
+    "giochi di logica per nintendo switch 2"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "syllable-split",
+   "topic": "latino",
+   "stem": "latin",
+   "demand": 23,
+   "phrases": [
+    "divisione in sillabe latino",
+    "divisione in sillabe in latino",
+    "divisione in sillabe latino pdf",
+    "divisione in sillabe latino app",
+    "divisione in sillabe latino online"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-writing",
+   "topic": "media",
+   "stem": "media",
+   "demand": 22,
+   "phrases": [
+    "produzione scritta prima media",
+    "produzione scritta terza media",
+    "produzione scritta scuola media",
+    "produzione scritta seconda media"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-charts",
+   "topic": "primi",
+   "stem": "primi",
+   "demand": 22,
+   "phrases": [
+    "tabella dei numeri primi",
+    "tabella dei numeri primi da 1 a 100",
+    "tabella dei numeri primi da 1 a 1000",
+    "tabella dei numeri primi da stampare"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "ordinal-numbers",
+   "topic": "uno inglese",
+   "stem": "uno ingles",
+   "demand": 22,
+   "phrases": [
+    "numeri ordinali da uno a 100 in inglese",
+    "numeri ordinali in inglese da uno a 31",
+    "numeri ordinali in inglese da uno a 30"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "geometry",
+   "topic": "elementari",
+   "stem": "elementar",
+   "demand": 22,
+   "phrases": [
+    "forme geometriche elementari",
+    "forme geometriche prima elementare",
+    "forme geometriche terza elementare"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "column-arithmetic",
+   "topic": "entro",
+   "stem": "entro",
+   "demand": 22,
+   "phrases": [
+    "operazioni in colonna entro il 100",
+    "operazioni in colonna entro il 1000",
+    "operazioni in colonna entro il 20",
+    "operazioni in colonna entro il 30",
+    "operazioni in colonna entro il 999",
+    "operazioni in colonna entro il 9999"
+   ],
+   "phraseCount": 6,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "mental-math",
+   "topic": "rapido",
+   "stem": "rapid",
+   "demand": 22,
+   "phrases": [
+    "calcolo mentale rapido pdf",
+    "calcolo mentale rapido",
+    "calcolo mentale rapido per bambini",
+    "calcolo mentale rapido esercizi"
+   ],
+   "phraseCount": 4,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "livello",
+   "stem": "livell",
+   "demand": 22,
+   "phrases": [
+    "comprensione del testo livello a2",
+    "comprensione del testo livello b1",
+    "comprensione del testo livello a1"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "reading-comprehension",
+   "topic": "zanichelli",
+   "stem": "zanichell",
+   "demand": 22,
+   "phrases": [
+    "comprensione del testo zanichelli",
+    "comprensione del testo zanichelli pdf",
+    "comprensione del testo scuola primaria zanichelli"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "all-about-me",
+   "topic": "media",
+   "stem": "media",
+   "demand": 22,
+   "phrases": [
+    "mi presento scuola media",
+    "mi presento prima media",
+    "mi presento scuola media scheda"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "picture-writing",
+   "topic": "cils",
+   "stem": "cils",
+   "demand": 21,
+   "phrases": [
+    "produzione scritta b2 cils",
+    "produzione scritta b1 cils",
+    "produzione scritta cils b2",
+    "produzione scritta cils b1",
+    "produzione scritta cils c1"
+   ],
+   "phraseCount": 5,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "number-lines",
+   "topic": "relativi",
+   "stem": "relativ",
+   "demand": 21,
+   "phrases": [
+    "linea dei numeri relativi",
+    "linea dei numeri relativi da stampare",
+    "linea dei numeri relativi pdf"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "elementari",
+   "stem": "elementar",
+   "demand": 21,
+   "phrases": [
+    "frazioni elementari",
+    "frazioni terza elementare",
+    "frazioni terza elementare pdf"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  },
+  {
+   "type": "fractions",
+   "topic": "generatrici",
+   "stem": "generatric",
+   "demand": 21,
+   "phrases": [
+    "frazioni generatrici",
+    "frazioni generatrici esercizi",
+    "frazioni generatrici esercizi pdf"
+   ],
+   "phraseCount": 3,
+   "supply": 0,
+   "supplySample": [],
+   "covered": false,
+   "coveredBy": null
+  }
+ ],
+ "covered": 98
+}

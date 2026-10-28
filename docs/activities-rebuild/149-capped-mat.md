@@ -65,3 +65,6 @@ Fixed at the source:
 - `audit-settings-efficacy`: both settings live.
 - Also passing: next-delay; content ×11; prose claims; SERP; tells; route preflight.
 - Read by me: the 360 / 768 / 1024 renders (rest, help, fold, tray, solved).
+
+## Live
+Deployed 2026-10-28 (commit `c4bf683b`; mini-tools and the manifest copied before `deploy.sh`; preview scp'd). `live-verify-capped-mat.js`: **68 pass, 0 fail** (all 11 pages 200; en, de, sv, fi × 1366 / 390: a wrong build read by the caps, the right build closes the lid, the 307 fold, the 0 cap). The first run caught Cloudflare's cached copy of the old page, not a defect.

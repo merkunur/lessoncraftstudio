@@ -56,3 +56,6 @@ ORDER row 161 · id `clock-digital.read-five-minute.2-md-c-7` (kept). Design: `d
   - `local-test-minute-train.js` 1,694/0 in 11 locales: real taps on the tunnel, +/−, the pad and the keyboard, plus 4 states × 8 widths.
   - visual-qa 216 renders each in en/de/fi; hierarchy 380/0; settings efficacy 2 live.
 - **Content:** prose claims, SERP copy, content tells, next delay and preflight routes all pass.
+
+## Live (2026-10-29, commit 83d536a4d)
+- `live-verify-minute-train.js` 60/0 on production: real taps in en/de/sv/fi at 1366 and 390 px, 11 pages 200.

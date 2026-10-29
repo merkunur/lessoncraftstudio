@@ -1052,25 +1052,25 @@
     },
     "choice-board.read-ruler.2-md-a-1": {
       "about": [
-        "An object lies along a centimeter ruler — a pencil, a ribbon, a crayon, a marker — and the child reads how long it is and taps the answer in centimeters, with lengths running from a short 5-cm crayon to a 14-cm marker or a 17-cm stick. It's an interactive Grade 2 measurement activity that plays right in the browser with no account.",
-        "The big idea is reading a ruler correctly: line the left end of the object up with the 0, follow it to its other end, and read the mark there. A child is not estimating; they are reading an exact length off the scale. Because the answer choices are nearby numbers, lining up at 1 instead of 0 — a classic measuring slip — shows up, which builds the habit of starting every measurement at zero.",
-        "It is aligned to Common Core 2.MD.A.1 — measuring the length of an object by selecting and using an appropriate tool such as a ruler. No timer, no score — just calm, playful practice."
+        "In The Glow Ruler a picture lies on a glass centimeter ruler with its left end exactly on 0: a snail, a seashell, a toy car, a lemon, a key, a centipede, a glue bottle, an ice pop, a kiwi half, a toy train or a toy airplane, each shown at a length the real thing has. The child slides a glow marker under the ruler to where the object ends and presses Check. Then light fills the centimeter spaces one by one from 0, and each lit space shows its count, so the child sees that the number on a ruler counts the spaces before it.",
+        "If the marker is too far, the extra spaces glow coral with no object above them. If it is too short, the end of the object stays unlit. This answers the two classic ruler mistakes: counting the lines instead of the spaces, and stopping at a number before the end. After a second miss, a dashed line drops from the end of the object to the ruler. In the setting with only 0, 5, 10 and 15 printed, the child reads an end such as 12 by counting on from the 10, as on a ruler that prints only some of its numbers. Each object measured joins a small chart of today's lengths, shortest first.",
+        "It is aligned to Common Core 2.MD.A.1 (measure the length of an object with a ruler). It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Read the length of an object in centimeters off a ruler",
-        "Line the object's left end up with 0 before reading the other end",
-        "Find the centimeter mark where the object ends",
-        "Avoid the common slip of starting a measurement at 1 instead of 0"
+        "Read where an object ends on a centimeter ruler that starts at 0",
+        "Count centimeter spaces, not tick lines",
+        "Count on from 5 or 10 to read an unnumbered mark",
+        "Say a length in centimeters"
       ],
       "howToPlay": [
-        "Look at the object on the ruler and check that its left end is at 0.",
-        "Follow it to its other end, read the centimeter mark, and tap that number, then press Check.",
-        "Try again any time; there is no timer and no score."
+        "Drag the glow marker under the ruler, or tap the ruler, to put the marker where the object ends; the arrow buttons move it one centimeter.",
+        "Press Check and watch the light count the spaces from 0.",
+        "In the settings, choose whether the ruler shows every number or only 0, 5, 10 and 15, and whether the light shows a count in every space or only at the end."
       ],
       "learningGoals": [
-        "Measure length in centimeters with a ruler — the focus of Common Core 2.MD.A.1",
-        "Read a measuring scale starting from zero",
-        "Build accurate measuring habits for longer lengths and other tools"
+        "Measure the length of an object with a centimeter ruler, the focus of Common Core 2.MD.A.1.",
+        "Understand that the number at a mark tells how many centimeter spaces lie between 0 and that mark.",
+        "Read a mark with no number printed by counting on from the nearest 5 or 10."
       ]
     },
     "choice-board.read-sight-word.rf-k-3-c": {

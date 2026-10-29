@@ -3277,25 +3277,25 @@
     },
     "choice-board.read-ruler.2-md-a-1": {
       "about": [
-        "Un objeto está colocado sobre una regla en centímetros —un lápiz, un listón, una crayola, un marcador— y el niño o la niña lee cuánto mide y toca la respuesta en centímetros, con longitudes que van desde una crayola corta de 5 cm hasta un marcador de 14 cm o un palito de 17 cm. Es una actividad de medición para 2.º de primaria, interactiva, que se juega directo en el navegador, sin crear cuenta.",
-        "La idea central es leer bien una regla: alinea el extremo izquierdo del objeto con el 0, síguelo hasta su otro extremo y lee la marca que cae ahí. Aquí no se estima, se lee una longitud exacta en la escala. Como las opciones son números cercanos, empezar a medir desde el 1 en lugar del 0 —un error clásico— se nota enseguida, y así se forma el hábito de iniciar toda medición en cero.",
-        "Está pensada para el nivel de 2.º de primaria, en el eje de medición de los planes y programas de estudio (SEP): medir la longitud de un objeto eligiendo y usando una herramienta adecuada, como la regla. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+        "En La regla luminosa, un dibujo está sobre una regla de vidrio en centímetros, con su extremo izquierdo justo en el 0: un caracol, una concha, un carrito de juguete, un limón, una llave, un ciempiés, una botella de pegamento, una paleta helada, medio kiwi, un trencito o un avioncito de juguete, cada uno del largo que tiene la cosa real. El niño desliza un marcador luminoso debajo de la regla hasta donde termina el objeto y toca Revisar. Entonces la luz llena los espacios de un centímetro uno por uno desde el 0, y cada espacio iluminado muestra su número; así ve que el número de la regla cuenta los espacios que hay antes de él.",
+        "Si el marcador se pasa, los últimos espacios brillan en color coral sin nada encima. Si se queda corto, el final del objeto queda sin luz. Así se atienden los dos errores típicos con la regla: contar las rayitas en lugar de los espacios y detenerse antes del final. Después de un segundo error, una línea punteada baja desde el final del objeto hasta la regla. En la opción donde solo están impresos el 0, el 5, el 10 y el 15, el niño lee un final como el 12 contando a partir del 10, como en una regla que solo muestra algunos números. Cada objeto medido se suma a una pequeña gráfica de las longitudes del día, del más corto al más largo.",
+        "La actividad sigue los planes y programas de la SEP para segundo grado, en el campo formativo Saberes y pensamiento científico (medición de longitudes): medir longitudes en centímetros con una regla. Funciona sin sonido, sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Leer en centímetros la longitud de un objeto sobre una regla.",
-        "Alinear el extremo izquierdo del objeto con el 0 antes de leer el otro extremo.",
-        "Encontrar la marca en centímetros donde termina el objeto.",
-        "Evitar el error común de empezar a medir desde el 1 en lugar del 0."
+        "Leer dónde termina un objeto en una regla en centímetros que empieza en 0",
+        "Contar los espacios de un centímetro, no las rayitas",
+        "Contar a partir del 5 o del 10 para leer una marca sin número",
+        "Decir una longitud en centímetros"
       ],
       "howToPlay": [
-        "Mira el objeto sobre la regla y comprueba que su extremo izquierdo está en el 0.",
-        "Síguelo hasta el otro extremo, lee la marca en centímetros y toca ese número; después pulsa Comprobar.",
-        "Vuelve a intentarlo cuando quieras: no hay temporizador ni puntuación."
+        "Arrastra el marcador luminoso debajo de la regla, o toca la regla, para ponerlo donde termina el objeto; las flechas lo mueven un centímetro.",
+        "Toca Revisar y mira cómo la luz cuenta los espacios desde el 0.",
+        "En la configuración, elige si la regla muestra todos los números o solo 0, 5, 10 y 15, y si la luz muestra un número en cada espacio o solo al final."
       ],
       "learningGoals": [
-        "Medir longitudes en centímetros con una regla.",
-        "Leer una escala de medición empezando desde el cero.",
-        "Formar hábitos de medición precisos para longitudes más grandes y otras herramientas."
+        "Medir la longitud de un objeto con una regla en centímetros.",
+        "Entender que el número de una marca dice cuántos espacios de un centímetro hay entre el 0 y esa marca.",
+        "Leer una marca sin número contando a partir del 5 o del 10 más cercano."
       ]
     },
     "fractions.partition-equal-shares.1-g-a-3": {

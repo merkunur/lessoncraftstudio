@@ -3699,25 +3699,25 @@
     },
     "choice-board.read-ruler.2-md-a-1": {
       "about": [
-        "Een voorwerp ligt langs een liniaal in centimeters — een potlood, een lint, een kleurkrijtje, een stift — en het kind leest af hoe lang het is en tikt op het antwoord in centimeters. De lengtes lopen van een kort krijtje van 5 cm tot een stift van 14 cm of een stok van 17 cm. Het is een interactieve meetactiviteit voor groep 4 die direct in de browser speelt, zonder account.",
-        "Het grote idee is een liniaal goed aflezen: leg de linkerkant van het voorwerp netjes bij de 0, volg het tot het andere einde en lees daar het streepje af. Het kind schat niet, maar leest een precieze lengte van de schaal. Doordat de antwoordkeuzes dicht bij elkaar liggen, valt het meteen op als je per ongeluk bij 1 in plaats van bij 0 begint — een klassieke meetfout. Zo went het kind eraan om elke meting bij nul te starten.",
-        "De activiteit sluit aan bij de SLO-kerndoelen voor groep 4: de lengte van een voorwerp meten met een geschikt meetinstrument zoals een liniaal. Meten met de liniaal hoort bij groep 4 (7-8 jaar). Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Bij De lichtliniaal ligt een plaatje op een glazen centimeterliniaal, met het linkeruiteinde precies op de 0: een slak, een schelp, een speelgoedautootje, een citroen, een sleutel, een duizendpoot, een lijmfles, een ijslolly, een halve kiwi, een speelgoedtreintje of een speelgoedvliegtuigje, elk zo lang als het echte ding kan zijn. Het kind schuift een lichtwijzer onder de liniaal naar de plek waar het voorwerp eindigt en tikt op Controleer. Dan vult licht de stukjes van een centimeter een voor een vanaf 0, en elk verlicht stukje laat zijn getal zien. Zo ziet het kind dat het getal op de liniaal de stukjes ervoor telt.",
+        "Staat de wijzer te ver, dan lichten de laatste stukjes oranje op terwijl er niets boven ligt. Staat hij te kort, dan blijft het einde van het voorwerp donker. Zo komen de twee bekende fouten met een liniaal aan bod: streepjes tellen in plaats van stukjes, en stoppen vóór het einde. Na een tweede fout valt een stippellijn van het einde van het voorwerp naar de liniaal. In de instelling waarin alleen 0, 5, 10 en 15 gedrukt zijn, leest het kind een einde zoals 12 af door verder te tellen vanaf de 10, net als op een liniaal waarop maar een paar getallen staan. Elk gemeten voorwerp komt in een kleine grafiek van de lengtes van vandaag, van kort naar lang.",
+        "De activiteit sluit aan bij de SLO-kerndoelen en past in groep 4: lengtes in centimeters meten met een liniaal. Ze werkt zonder geluid, zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "De lengte van een voorwerp in centimeters aflezen van een liniaal",
-        "De linkerkant van het voorwerp bij 0 leggen voordat je het andere einde afleest",
-        "Het centimeterstreepje vinden waar het voorwerp eindigt",
-        "De veelgemaakte fout vermijden om een meting bij 1 in plaats van bij 0 te beginnen"
+        "Op een centimeterliniaal die bij 0 begint aflezen waar een voorwerp eindigt",
+        "Stukjes van een centimeter tellen, geen streepjes",
+        "Verder tellen vanaf 5 of 10 om een streepje zonder getal af te lezen",
+        "Een lengte in centimeters zeggen"
       ],
       "howToPlay": [
-        "Bekijk het voorwerp op de liniaal en controleer of de linkerkant bij 0 ligt.",
-        "Volg het tot het andere einde, lees het centimeterstreepje af en tik op dat getal, en druk daarna op Controleer.",
-        "Probeer het wanneer je maar wilt opnieuw — er is geen timer en geen score."
+        "Sleep de lichtwijzer onder de liniaal, of tik op de liniaal, om de wijzer te zetten waar het voorwerp eindigt; met de pijlen gaat hij één centimeter verder of terug.",
+        "Tik op Controleer en kijk hoe het licht de stukjes vanaf 0 telt.",
+        "Kies in de instellingen of de liniaal alle getallen laat zien of alleen 0, 5, 10 en 15, en of het licht in elk stukje een getal laat zien of alleen aan het eind."
       ],
       "learningGoals": [
-        "Het kind meet lengte in centimeters met een liniaal.",
-        "Het kind leest een meetschaal af vanaf nul.",
-        "Het kind bouwt nauwkeurige meetgewoontes op voor langere lengtes en andere meetinstrumenten."
+        "De lengte van een voorwerp meten met een centimeterliniaal.",
+        "Begrijpen dat het getal bij een streepje zegt hoeveel stukjes van een centimeter er tussen 0 en dat streepje liggen.",
+        "Een streepje zonder getal aflezen door verder te tellen vanaf de dichtstbijzijnde 5 of 10."
       ]
     },
     "clock.tell-time-5-min.2-md-c-7": {

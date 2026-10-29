@@ -107,6 +107,10 @@ function seedScript(row) {
     // 160 + 50: ten of the eleven rods stacked on the vice's bed — the square gauge exactly covered, one rod still in the tens column: the invention at work
     return `(function(){var t=window['SquareViceActivity'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(0);t._render2();t._bay('T',10);}})();`;
   }
+  if (row.tool === 'glow-ruler-activity') {
+    // the invention at work: the 7-cm lemon with the marker one past its end — the light counted 8 spaces, the 8th glows coral under nothing
+    return `(function(){var t=window['GlowRulerActivity'];if(!t||!t.api)return;var go=function(){if(!t._picsReady){setTimeout(go,50);return;}t.FAST=true;t.OK_MS=600000;t.api.settings.numbers='every';t._pool=null;t._ensurePool();t._start(3);t._render2();t._move(8);t._check();};go();})();`;
+  }
   if (row.tool === 'deciding-gate-activity') {
     // the invention at work: 389 vs 412 — the race stops at the hundreds gate, the bar in front of 389, the long view
     return `(function(){var t=window['DecidingGateActivity'];if(!t||!t.api)return;t.FAST=true;t.OK_MS=600000;t.api.settings.job='compare';t.api.settings.digits='three';t._pool=null;t._ensurePool();t._start(0);t._render2();t._predict(0);t._sign('<');t._check();})();`;

@@ -159,7 +159,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 149 | LIVE 2026-10-28 · The Capped Mat | 2 | 2.NBT.A.1 | `place-value.hundreds-tens-and-ones.2-nbt-a-1` | place-value-activity | Hundreds, Tens, and Ones |
 | 150 | LIVE 2026-10-29 · The Value-Key Adding Machine | 2 | 2.NBT.A.3 | `place-value.expanded-form.2-nbt-a-3` | place-value-activity | Expanded Form |
 | 151 | LIVE 2026-10-29 · The Deciding Gate | 2 | 2.NBT.A.4 | `match-pairs.compare-three-digit-numbers.2-nbt-a-4` | match-pairs-activity | Compare Three-Digit Numbers |
-| 152 |  | 2 | 2.MD.A.1 | `choice-board.read-ruler.2-md-a-1` | choice-board-activity | Read the Ruler — Measure Length in Centimeters |
+| 152 | LIVE 2026-10-29 · The Glow Ruler | 2 | 2.MD.A.1 | `choice-board.read-ruler.2-md-a-1` | choice-board-activity | Read the Ruler — Measure Length in Centimeters |
 | 153 |  | 2 | 2.MD.A.1 | `tildy.measure-ruler.2-md-a-1` | tildy-activity | Tildy's Tailor Shop — Measure with a Ruler |
 | 154 |  | 2 | 2.MD.A.3 | `gauge-good-guess.estimate.2-md-a-3` | gauge-good-guess-activity | Gauge's Good Guess — Estimate the Length (Grade 2) |
 | 155 |  | 2 | 2.MD.A.4 | `span-length-gap.how-much-longer.2-md-a-4` | span-length-gap-activity | Span's Length Gap — How Much Longer? (Grade 2) |

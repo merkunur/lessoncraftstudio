@@ -2221,25 +2221,25 @@
     },
     "choice-board.read-ruler.2-md-a-1": {
       "about": [
-        "Un oggetto è appoggiato lungo un righello in centimetri — una matita, un nastro, un pastello, un pennarello — e il bambino legge quanto è lungo e tocca la risposta in centimetri, con lunghezze che vanno da un pastello corto di 5 cm a un pennarello di 14 cm o un bastoncino di 17 cm. È un'attività di misura per la classe seconda, interattiva, che si gioca nel browser senza account.",
-        "L'idea importante è leggere bene il righello: allineare l'estremità sinistra dell'oggetto allo zero, seguirlo fino all'altra estremità e leggere la tacca lì. Il bambino non stima: legge una lunghezza esatta sulla scala. Poiché le risposte sono numeri vicini tra loro, partire da 1 invece che da 0 — il classico errore di misura — viene allo scoperto, e così si costruisce l'abitudine di iniziare ogni misura dallo zero.",
-        "L'attività è allineata alle Indicazioni nazionali: misurare la lunghezza di un oggetto scegliendo e usando uno strumento adatto come il righello. Nessun timer e nessun punteggio: solo pratica serena e giocosa."
+        "Nel Righello luminoso un’immagine è appoggiata su un righello di vetro in centimetri, con l’estremità sinistra esattamente sullo 0: una chiocciola, una conchiglia, una macchinina, un limone, una chiave, un centopiedi, un flacone di colla, un ghiacciolo, mezzo kiwi, un trenino o un aeroplanino, ciascuno lungo quanto può esserlo la cosa vera. Il bambino fa scorrere un cursore luminoso sotto il righello fin dove finisce l’oggetto e tocca Controlla. Allora la luce riempie gli spazi di un centimetro uno alla volta a partire da 0, e ogni spazio illuminato mostra il suo numero: il bambino vede che il numero sul righello conta gli spazi che vengono prima.",
+        "Se il cursore va troppo avanti, gli ultimi spazi si accendono di corallo senza niente sopra. Se resta troppo indietro, la fine dell’oggetto rimane al buio. Così si affrontano i due errori tipici con il righello: contare le tacche invece degli spazi e fermarsi prima della fine. Dopo un secondo errore, una linea tratteggiata scende dalla fine dell’oggetto fino al righello. Nell’impostazione in cui sono stampati solo 0, 5, 10 e 15, il bambino legge una fine come il 12 contando a partire dal 10, come su un righello che riporta solo alcuni numeri. Ogni oggetto misurato entra in un piccolo grafico delle lunghezze del giorno, dalla più corta alla più lunga.",
+        "L’attività segue le Indicazioni nazionali (traguardi al termine della classe terza) ed è adatta alla classe seconda, nel nucleo Relazioni, dati e previsioni: misurare lunghezze in centimetri con il righello. Funziona senza audio, senza cronometro e senza punteggi."
       ],
       "practices": [
-        "Leggere la lunghezza di un oggetto in centimetri sul righello.",
-        "Allineare l'estremità sinistra dell'oggetto allo 0 prima di leggere l'altra estremità.",
-        "Trovare la tacca in centimetri dove finisce l'oggetto.",
-        "Evitare l'errore comune di iniziare la misura da 1 invece che da 0."
+        "Leggere dove finisce un oggetto su un righello in centimetri che parte da 0",
+        "Contare gli spazi di un centimetro, non le tacche",
+        "Contare andando avanti dal 5 o dal 10 per leggere una tacca senza numero",
+        "Dire una lunghezza in centimetri"
       ],
       "howToPlay": [
-        "Il bambino guarda l'oggetto sul righello e controlla che l'estremità sinistra sia sullo 0.",
-        "Lo segue fino all'altra estremità, legge la tacca in centimetri e tocca quel numero, poi tocca Controlla.",
-        "Si può riprovare in qualsiasi momento, senza timer e senza punteggio."
+        "Trascina il cursore luminoso sotto il righello, oppure tocca il righello, per mettere il cursore dove finisce l’oggetto; le frecce lo spostano di un centimetro.",
+        "Tocca Controlla e guarda la luce contare gli spazi a partire da 0.",
+        "Nelle impostazioni scegli se il righello mostra tutti i numeri o solo 0, 5, 10 e 15, e se la luce mostra un numero in ogni spazio o solo alla fine."
       ],
       "learningGoals": [
-        "Misurare la lunghezza in centimetri con il righello.",
-        "Leggere una scala di misura partendo dallo zero.",
-        "Costruire abitudini di misura precise, utili per lunghezze maggiori e per altri strumenti."
+        "Misurare la lunghezza di un oggetto con un righello in centimetri.",
+        "Capire che il numero di una tacca dice quanti spazi di un centimetro ci sono tra lo 0 e quella tacca.",
+        "Leggere una tacca senza numero contando in avanti dal 5 o dal 10 più vicino."
       ]
     },
     "fractions.partition-equal-shares.1-g-a-3": {

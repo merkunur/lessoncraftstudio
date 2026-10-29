@@ -3100,24 +3100,25 @@
     },
     "choice-board.read-ruler.2-md-a-1": {
       "about": [
-        "Un objet est posé le long d'une règle graduée en centimètres — un crayon, un ruban, un feutre — et l'enfant lit sa longueur, puis touche la bonne réponse en centimètres, avec des longueurs allant d'un petit crayon de 5 cm à un feutre de 14 cm ou un bâton de 17 cm. C'est une activité de mesure interactive pour le CE1, qui se joue directement dans le navigateur, sans compte.",
-        "Le point essentiel, c'est de lire une règle correctement : aligner l'extrémité gauche de l'objet sur le 0, suivre l'objet jusqu'à son autre bout, et lire la graduation à cet endroit. L'enfant n'estime pas : il lit une longueur exacte sur la règle. Comme les réponses proposées sont des nombres voisins, le fait de partir du 1 au lieu du 0 — l'erreur de mesure classique — se voit tout de suite, ce qui ancre l'habitude de commencer chaque mesure à zéro. Une activité conforme aux programmes officiels pour le CE1."
+        "Dans La règle lumineuse, une image est posée sur une règle en verre graduée en centimètres, son bout gauche exactement sur le 0 : un escargot, un coquillage, une petite voiture, un citron, une clé, un mille-pattes, un flacon de colle, une glace à l’eau, un demi-kiwi, un petit train ou un petit avion, chacun à une longueur que l’objet réel peut avoir. L’enfant fait glisser un curseur lumineux sous la règle jusqu’à l’endroit où l’objet se termine, puis touche Vérifier. La lumière remplit alors les intervalles d’un centimètre un par un à partir de 0, et chaque intervalle éclairé affiche son numéro : l’enfant voit que le nombre sur la règle compte les intervalles qui le précèdent.",
+        "Si le curseur va trop loin, les derniers intervalles s’allument en orange, sans objet au-dessus. S’il est trop court, le bout de l’objet reste dans l’ombre. Cela répond aux deux erreurs classiques avec une règle : compter les traits au lieu des intervalles, et s’arrêter avant le bout. Après une deuxième erreur, une ligne pointillée descend du bout de l’objet jusqu’à la règle. Dans le réglage où seuls 0, 5, 10 et 15 sont écrits, l’enfant lit un bout comme 12 en comptant à partir de 10, comme sur une règle qui n’affiche que certains nombres. Chaque objet mesuré rejoint un petit graphique des longueurs du jour, du plus court au plus long.",
+        "L’activité suit les programmes officiels du CE1, dans le domaine Grandeurs et mesures : mesurer des longueurs en centimètres avec une règle graduée. Elle fonctionne sans le son, sans chronomètre et sans score."
       ],
       "practices": [
-        "Lire la longueur d'un objet en centimètres sur une règle graduée.",
-        "Aligner l'extrémité gauche de l'objet sur le 0 avant de lire l'autre bout.",
-        "Repérer la graduation en centimètres où l'objet se termine.",
-        "Éviter l'erreur courante qui consiste à commencer la mesure au 1 plutôt qu'au 0."
+        "Lire où un objet se termine sur une règle graduée en centimètres qui commence à 0",
+        "Compter les intervalles d’un centimètre, pas les traits",
+        "Compter à partir de 5 ou de 10 pour lire une graduation sans nombre",
+        "Donner une longueur en centimètres"
       ],
       "howToPlay": [
-        "Regarde l'objet posé sur la règle et vérifie que son extrémité gauche est bien sur le 0.",
-        "Suis-le jusqu'à son autre bout, lis la graduation en centimètres et touche ce nombre, puis appuie sur Vérifier.",
-        "Recommence quand tu veux ; il n'y a ni chrono ni score."
+        "Fais glisser le curseur lumineux sous la règle, ou touche la règle, pour placer le curseur là où l’objet se termine ; les flèches le déplacent d’un centimètre.",
+        "Touche Vérifier et regarde la lumière compter les intervalles à partir de 0.",
+        "Dans les réglages, choisis si la règle montre tous les nombres ou seulement 0, 5, 10 et 15, et si la lumière affiche un numéro dans chaque intervalle ou seulement à la fin."
       ],
       "learningGoals": [
-        "Mesurer une longueur en centimètres avec une règle.",
-        "Lire une graduation en partant de zéro.",
-        "Acquérir des gestes de mesure précis, utiles pour de plus grandes longueurs et d'autres instruments."
+        "Mesurer la longueur d’un objet avec une règle graduée en centimètres.",
+        "Comprendre que le nombre écrit à une graduation indique combien d’intervalles d’un centimètre il y a entre 0 et cette graduation.",
+        "Lire une graduation sans nombre en comptant à partir du 5 ou du 10 le plus proche."
       ]
     },
     "fractions.partition-equal-shares.1-g-a-3": {

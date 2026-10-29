@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Read the Ruler — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- Shell, the library pictures, the glow-ruler core, then this activity (#152 The Glow Ruler).
+       NOTE: bump ?v=N on EVERY change to glow-ruler-*.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  <script src="/mini-tools/lcs-pictures.js?v=1"></script>
+  <script src="/mini-tools/glow-ruler-core.js?v=3"></script>
+  <script src="/mini-tools/glow-ruler-activity.js?v=4"></script>
+  <script>
+    LCS.mount(GlowRulerActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

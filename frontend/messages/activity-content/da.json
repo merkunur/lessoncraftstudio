@@ -939,25 +939,25 @@
     },
     "choice-board.read-ruler.2-md-a-1": {
       "about": [
-        "Læs linealen er en rolig måleaktivitet, hvor en ting ligger langs en centimeter-lineal, og barnet aflæser, hvor lang den er, og trykker på svaret i centimeter. Tingene kan være en blyant, et bånd, en farveblyant eller en tusch, og længderne går fra en kort farveblyant på 5 cm til en tusch på 14 cm eller en pind på 17 cm. Det er en interaktiv aktivitet til 2. klasse, der kører direkte i browseren uden konto.",
-        "Den store idé er at aflæse en lineal rigtigt: læg tingens venstre ende ud for 0, følg den til den anden ende, og aflæs stregen dér. Barnet gætter ikke en cirka-længde, men aflæser en præcis længde på skalaen. Fordi svarmulighederne er nabotal, dukker den klassiske fejl op, hvor man begynder ved 1 i stedet for 0 — og det opbygger vanen med altid at starte en måling ved nul.",
-        "Aktiviteten følger Fælles Mål inden for området måling: at måle en tings længde ved at vælge og bruge et passende redskab som en lineal. Den passer til måling i 1.-2. klasse. Der er ingen timer og ingen point — bare rolig, legende øvelse."
+        "I Lyslinealen ligger et billede på en centimeterlineal af glas, med venstre ende præcis på 0: en snegl, en muslingeskal, en legetøjsbil, en citron, en nøgle, et tusindben, en limflaske, en ispind, en halv kiwi, et legetøjstog eller en legetøjsflyver, hver så lang som den rigtige ting kan være. Barnet skubber en lysmarkør under linealen derhen, hvor tingen slutter, og trykker på Tjek. Så fylder lyset centimetermellemrummene ét ad gangen fra 0, og hvert oplyst mellemrum viser sit tal. Sådan ser barnet, at tallet på linealen tæller mellemrummene før det.",
+        "Står markøren for langt, lyser de sidste mellemrum koralrøde uden noget over sig. Står den for kort, forbliver tingens ende mørk. Det svarer på de to klassiske fejl med en lineal: at tælle stregerne i stedet for mellemrummene og at stoppe før enden. Efter en anden fejl falder en stiplet linje fra tingens ende ned til linealen. I indstillingen, hvor kun 0, 5, 10 og 15 er trykt, aflæser barnet en ende som 12 ved at tælle videre fra 10, som på en lineal, hvor kun nogle af tallene står. Hver målt ting kommer med i et lille diagram over dagens længder, den korteste først.",
+        "Aktiviteten følger Fælles Mål (efter 3. klassetrin) og passer til 2. klasse: at måle længder i centimeter med en lineal. Den virker uden lyd, og der er hverken tidtagning eller point."
       ],
       "practices": [
-        "Aflæse en tings længde i centimeter på en lineal",
-        "Lægge tingens venstre ende ud for 0, før man aflæser den anden ende",
-        "Finde den centimeterstreg, hvor tingen slutter",
-        "Undgå den almindelige fejl at begynde målingen ved 1 i stedet for 0"
+        "Aflæse, hvor en ting slutter på en centimeterlineal, der begynder ved 0",
+        "Tælle centimetermellemrum, ikke streger",
+        "Tælle videre fra 5 eller 10 for at aflæse en streg uden tal",
+        "Sige en længde i centimeter"
       ],
       "howToPlay": [
-        "Barnet ser på tingen på linealen og tjekker, at dens venstre ende er ud for 0.",
-        "Barnet følger tingen til den anden ende, aflæser centimeterstregen, trykker på det tal og trykker derefter på Tjek.",
-        "Man kan prøve igen når som helst — der er ingen timer og ingen point."
+        "Træk lysmarkøren under linealen, eller tryk på linealen, så markøren står, hvor tingen slutter; pileknapperne flytter den en centimeter.",
+        "Tryk på Tjek, og se lyset tælle mellemrummene fra 0.",
+        "I indstillingerne vælger du, om linealen viser alle tal eller kun 0, 5, 10 og 15, og om lyset viser et tal i hvert mellemrum eller kun til sidst."
       ],
       "learningGoals": [
-        "Barnet kan måle længde i centimeter med en lineal",
-        "Barnet kan aflæse en måleskala startende fra nul",
-        "Barnet opbygger sikre målevaner til længere længder og andre redskaber"
+        "Måle en tings længde med en centimeterlineal.",
+        "Forstå, at tallet ved en streg fortæller, hvor mange centimetermellemrum der er mellem 0 og stregen.",
+        "Aflæse en streg uden tal ved at tælle videre fra nærmeste 5 eller 10."
       ]
     },
     "clock.tell-time-5-min.2-md-c-7": {

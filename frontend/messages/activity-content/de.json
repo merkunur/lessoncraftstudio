@@ -3723,25 +3723,25 @@
     },
     "choice-board.read-ruler.2-md-a-1": {
       "about": [
-        "Ein Gegenstand liegt an einem Zentimeter-Lineal — ein Bleistift, ein Band, ein Buntstift, ein Filzstift — und das Kind liest ab, wie lang er ist, und tippt die Länge in Zentimetern an. Die Längen reichen von einem kurzen 5-cm-Buntstift bis zu einem 14-cm-Filzstift oder einem 17-cm-Stab. Die interaktive Mathe-Übung für die 2. Klasse läuft direkt im Browser, ohne Anmeldung.",
-        "Der Kern dieser Übung ist das richtige Ablesen eines Lineals: das linke Ende des Gegenstands genau auf die Null legen, dem Gegenstand bis zum anderen Ende folgen und dort die Markierung ablesen. Das Kind schätzt nicht, sondern liest eine genaue Länge von der Skala ab. Weil die Antwortmöglichkeiten nahe beieinander liegende Zahlen sind, fällt der klassische Mess-Fehler auf — bei der 1 statt bei der 0 anzulegen. So entsteht die Gewohnheit, jede Messung bei null zu beginnen.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Größen und Messen für die 2. Klasse ausgerichtet — die Länge eines Gegenstands mit einem passenden Werkzeug wie dem Lineal messen. Es gibt keinen Timer und keine Punktewertung, nur ruhiges, spielerisches Üben."
+        "Beim Leuchtlineal liegt ein Bild auf einem gläsernen Zentimeterlineal, das linke Ende genau auf der 0: eine Schnecke, eine Muschel, ein Spielzeugauto, eine Zitrone, ein Schlüssel, ein Tausendfüßler, eine Kleberflasche, ein Eis am Stiel, eine halbe Kiwi, eine Spielzeuglok oder ein Spielzeugflugzeug, jedes so lang, wie es in Wirklichkeit ist. Das Kind schiebt einen Leuchtzeiger unter dem Lineal dorthin, wo der Gegenstand endet, und tippt auf Prüfen. Dann füllt Licht die Zentimeterabstände einen nach dem anderen ab 0, und jeder beleuchtete Abstand zeigt seine Zahl. So sieht das Kind: Die Zahl am Lineal zählt die Abstände davor.",
+        "Steht der Zeiger zu weit, leuchten die letzten Abstände orange, obwohl darüber nichts liegt. Steht er zu kurz, bleibt das Ende des Gegenstands dunkel. So werden die zwei typischen Fehler beim Messen aufgegriffen: Striche statt Abstände zählen und vor dem Ende aufhören. Nach dem zweiten Fehlversuch fällt eine gestrichelte Linie vom Ende des Gegenstands auf das Lineal. In der Einstellung, in der nur 0, 5, 10 und 15 gedruckt sind, liest das Kind ein Ende wie 12 ab, indem es von der 10 aus weiterzählt, wie auf einem Lineal, das nur einige Zahlen zeigt. Jeder gemessene Gegenstand kommt in ein kleines Diagramm der heutigen Längen, vom kürzesten an.",
+        "Die Aktivität ist an den Lehrplänen für die 2. Klasse im Bereich Größen und Messen ausgerichtet: Längen mit dem Lineal in Zentimetern messen. Sie funktioniert ohne Ton, und es gibt keinen Timer und keine Punkte."
       ],
       "practices": [
-        "Die Länge eines Gegenstands in Zentimetern am Lineal ablesen.",
-        "Das linke Ende des Gegenstands bei der 0 anlegen, bevor man das andere Ende abliest.",
-        "Die Zentimeter-Markierung finden, bei der der Gegenstand endet.",
-        "Den häufigen Fehler vermeiden, eine Messung bei der 1 statt bei der 0 zu beginnen."
+        "Am Zentimeterlineal ablesen, wo ein Gegenstand endet",
+        "Zentimeterabstände zählen, nicht Striche",
+        "Von 5 oder 10 aus weiterzählen, um einen Strich ohne Zahl abzulesen",
+        "Eine Länge in Zentimetern angeben"
       ],
       "howToPlay": [
-        "Schau dir den Gegenstand auf dem Lineal an und prüfe, ob sein linkes Ende bei der 0 liegt.",
-        "Folge ihm bis zum anderen Ende, lies die Zentimeter-Markierung ab und tippe diese Zahl an. Tippe dann auf Prüfen.",
-        "Probiere es jederzeit erneut — es gibt keinen Timer und keine Punkte."
+        "Zieh den Leuchtzeiger unter dem Lineal oder tipp auf das Lineal, damit der Zeiger dort steht, wo der Gegenstand endet; die Pfeiltasten bewegen ihn um einen Zentimeter.",
+        "Tipp auf Prüfen und schau zu, wie das Licht die Abstände ab 0 zählt.",
+        "In den Einstellungen wählst du, ob das Lineal alle Zahlen oder nur 0, 5, 10 und 15 zeigt und ob das Licht in jedem Abstand oder nur am Ende zählt."
       ],
       "learningGoals": [
-        "Längen in Zentimetern mit einem Lineal messen.",
-        "Eine Mess-Skala richtig ab der Null ablesen.",
-        "Sichere Mess-Gewohnheiten für längere Strecken und andere Werkzeuge aufbauen."
+        "Die Länge eines Gegenstands mit dem Zentimeterlineal messen.",
+        "Verstehen, dass die Zahl an einem Strich angibt, wie viele Zentimeterabstände zwischen 0 und diesem Strich liegen.",
+        "Einen Strich ohne Zahl ablesen, indem man von der nächsten 5 oder 10 aus weiterzählt."
       ]
     },
     "fractions.partition-equal-shares.1-g-a-3": {

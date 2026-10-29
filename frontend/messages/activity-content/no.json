@@ -941,25 +941,25 @@
     },
     "choice-board.read-ruler.2-md-a-1": {
       "about": [
-        "En ting ligger langs en linjal med centimeter — en blyant, et bånd, en fargestift, en tusj — og barnet leser hvor lang den er og trykker på svaret i centimeter. Lengdene går fra en kort fargestift på 5 cm til en tusj på 14 cm eller en pinne på 17 cm. Dette er en interaktiv måleaktivitet for 2. trinn som spilles rett i nettleseren — uten konto.",
-        "Den store ideen er å lese linjalen riktig: legg venstre ende av tingen på 0, følg den til den andre enden, og les av streken der. Barnet anslår ikke; det leser av en nøyaktig lengde på skalaen. Fordi svaralternativene er nærliggende tall, blir den klassiske målefeilen — å legge starten på 1 i stedet for 0 — synlig, og det bygger vanen med å starte hver måling ved null.",
-        "Aktiviteten følger LK20 innenfor måling — å måle lengden av en ting med en passende enhet som en linjal. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "I Lyslinjalen ligger et bilde på en centimeterlinjal av glass, med venstre ende nøyaktig på 0: en snegle, et skjell, en lekebil, en sitron, en nøkkel, et tusenbein, en limflaske, en ispinne, en halv kiwi, et leketog eller et lekefly, hver så lang som den ekte tingen kan være. Barnet skyver en lysmarkør under linjalen dit tingen slutter, og trykker på Sjekk. Da fyller lyset centimetermellomrommene ett etter ett fra 0, og hvert opplyst mellomrom viser tallet sitt. Slik ser barnet at tallet på linjalen teller mellomrommene før det.",
+        "Står markøren for langt, lyser de siste mellomrommene korallrødt uten noe over seg. Står den for kort, forblir enden av tingen mørk. Det svarer på de to vanlige feilene med linjal: å telle strekene i stedet for mellomrommene og å stoppe før enden. Etter en ny feil faller en stiplet linje fra enden av tingen ned til linjalen. I innstillingen der bare 0, 5, 10 og 15 er trykt, leser barnet av en ende som 12 ved å telle videre fra 10, som på en linjal der bare noen av tallene står. Hver ting som blir målt, havner i et lite diagram over dagens lengder, den korteste først.",
+        "Aktiviteten er knyttet til LK20 (kompetansemål etter 2. trinn): å måle lengder i centimeter med linjal. Den virker uten lyd, og det er verken tidtaking eller poeng."
       ],
       "practices": [
-        "Lese lengden av en ting i centimeter på en linjal.",
-        "Legge tingens venstre ende på 0 før du leser av den andre enden.",
-        "Finne centimeterstreken der tingen slutter.",
-        "Unngå den vanlige feilen med å starte målingen på 1 i stedet for 0."
+        "Lese av hvor en ting slutter på en centimeterlinjal som begynner på 0",
+        "Telle centimetermellomrom, ikke streker",
+        "Telle videre fra 5 eller 10 for å lese av en strek uten tall",
+        "Si en lengde i centimeter"
       ],
       "howToPlay": [
-        "Se på tingen på linjalen og sjekk at venstre ende ligger på 0.",
-        "Følg den til den andre enden, les av centimeterstreken, trykk på det tallet, og trykk så på Sjekk.",
-        "Prøv igjen når du vil — det er ingen tidtaker og ingen poeng."
+        "Dra lysmarkøren under linjalen, eller trykk på linjalen, slik at markøren står der tingen slutter; pilknappene flytter den én centimeter.",
+        "Trykk på Sjekk, og se lyset telle mellomrommene fra 0.",
+        "I innstillingene velger du om linjalen viser alle tall eller bare 0, 5, 10 og 15, og om lyset viser et tall i hvert mellomrom eller bare til slutt."
       ],
       "learningGoals": [
-        "Barnet kan måle lengde i centimeter med en linjal.",
-        "Barnet kan lese av en måleskala som starter på null.",
-        "Barnet bygger nøyaktige målevaner for lengre lengder og andre måleverktøy."
+        "Måle lengden av en ting med en centimeterlinjal.",
+        "Forstå at tallet ved en strek forteller hvor mange centimetermellomrom det er mellom 0 og streken.",
+        "Lese av en strek uten tall ved å telle videre fra nærmeste 5 eller 10."
       ]
     },
     "fractions.partition-equal-shares.1-g-a-3": {

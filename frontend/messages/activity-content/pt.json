@@ -1713,25 +1713,25 @@
     },
     "choice-board.read-ruler.2-md-a-1": {
       "about": [
-        "Um objeto aparece deitado sobre uma régua em centímetros — um lápis, uma fita, um giz de cera, uma caneta — e a criança lê quanto ele mede e toca na resposta em centímetros, com comprimentos que vão de um giz curto de 5 cm a uma caneta de 14 cm ou um graveto de 17 cm. É uma atividade de medidas interativa para o 2º ano, que funciona direto no navegador, sem precisar de conta.",
-        "A grande ideia é ler a régua do jeito certo: alinhar a ponta esquerda do objeto com o zero, seguir até a outra ponta e ler a marca que está ali. A criança não está estimando; ela está lendo um comprimento exato na escala. Como as opções são números próximos, alinhar no 1 em vez de no 0 — um deslize bem comum ao medir — acaba aparecendo, o que ajuda a criar o hábito de começar toda medida no zero.",
-        "A atividade está alinhada à BNCC, na unidade temática Grandezas e Medidas, no trabalho de medir o comprimento de um objeto escolhendo e usando um instrumento adequado, como a régua. Sem cronômetro e sem pontuação — só uma prática calma e no ritmo de cada criança."
+        "Na Régua luminosa, uma figura fica deitada sobre uma régua de vidro em centímetros, com a ponta esquerda exatamente no 0: um caracol, uma concha, um carrinho, um limão, uma chave, uma centopeia, um tubo de cola, um picolé, meio kiwi, um trenzinho ou um aviãozinho, cada um com um comprimento que a coisa de verdade tem. A criança desliza um marcador luminoso embaixo da régua até onde o objeto termina e toca em Conferir. Então a luz enche os espaços de um centímetro um por um a partir do 0, e cada espaço aceso mostra o seu número: a criança vê que o número da régua conta os espaços que vêm antes dele.",
+        "Se o marcador passar do ponto, os últimos espaços brilham em coral sem nada em cima. Se ficar curto, a ponta do objeto continua apagada. Isso responde aos dois erros clássicos com a régua: contar os tracinhos em vez dos espaços e parar antes do fim. Depois de um segundo erro, uma linha tracejada desce da ponta do objeto até a régua. Na opção em que só 0, 5, 10 e 15 estão impressos, a criança lê uma ponta como 12 contando a partir do 10, como numa régua que mostra só alguns números. Cada objeto medido entra num pequeno gráfico dos comprimentos do dia, do mais curto para o mais comprido.",
+        "A atividade segue a BNCC para o 2º ano, na unidade temática Grandezas e medidas: medir comprimentos em centímetros usando a régua. Funciona sem som, sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Ler em centímetros o comprimento de um objeto na régua.",
-        "Alinhar a ponta esquerda do objeto com o 0 antes de ler a outra ponta.",
-        "Encontrar a marca de centímetro onde o objeto termina.",
-        "Evitar o deslize comum de começar a medida no 1 em vez do 0."
+        "Ler onde um objeto termina numa régua em centímetros que começa no 0",
+        "Contar os espaços de um centímetro, não os tracinhos",
+        "Contar a partir do 5 ou do 10 para ler uma marca sem número",
+        "Dizer um comprimento em centímetros"
       ],
       "howToPlay": [
-        "Olhe o objeto sobre a régua e confira se a ponta esquerda dele está no 0.",
-        "Siga até a outra ponta, leia a marca de centímetro e toque nesse número, depois toque em Verificar.",
-        "Pode tentar de novo a hora que quiser — não há cronômetro nem pontuação."
+        "Arraste o marcador luminoso embaixo da régua, ou toque na régua, para colocar o marcador onde o objeto termina; as setas o movem um centímetro.",
+        "Toque em Conferir e veja a luz contar os espaços a partir do 0.",
+        "Nas configurações, escolha se a régua mostra todos os números ou só 0, 5, 10 e 15, e se a luz mostra um número em cada espaço ou só no fim."
       ],
       "learningGoals": [
-        "Medir comprimentos em centímetros com a régua.",
-        "Ler uma escala de medida começando sempre do zero.",
-        "Criar hábitos de medição precisos para comprimentos maiores e outros instrumentos."
+        "Medir o comprimento de um objeto com uma régua em centímetros.",
+        "Entender que o número de uma marca diz quantos espaços de um centímetro há entre o 0 e essa marca.",
+        "Ler uma marca sem número contando a partir do 5 ou do 10 mais próximo."
       ]
     },
     "fractions.partition-equal-shares.1-g-a-3": {

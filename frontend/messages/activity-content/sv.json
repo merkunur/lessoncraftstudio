@@ -1051,25 +1051,25 @@
     },
     "choice-board.read-ruler.2-md-a-1": {
       "about": [
-        "Ett föremål ligger längs en linjal med centimeterskala — en penna, ett band, en krita eller en tuschpenna — och barnet läser av hur långt det är och trycker på svaret i centimeter. Längderna sträcker sig från en kort krita på 5 cm till en tuschpenna på 14 cm eller en pinne på 17 cm. Det är en interaktiv mätövning för årskurs 2 som körs direkt i webbläsaren utan konto.",
-        "Den stora idén är att läsa av en linjal rätt: lägg föremålets vänstra kant vid 0, följ det till andra änden och läs av strecket där. Barnet gissar inte, utan läser av en exakt längd på skalan. Eftersom svarsalternativen är tal som ligger nära varandra blir det tydligt om man råkar börja vid 1 i stället för vid 0 — det klassiska mätmisstaget — och barnet får in vanan att alltid börja varje mätning vid noll.",
-        "Aktiviteten följer Lgr22 inom mätning och längd: att mäta längden på ett föremål med ett lämpligt verktyg som en linjal. Ingen timer och inga poäng — bara lugn och lekfull övning."
+        "I Ljuslinjalen ligger en bild på en centimeterlinjal av glas, med vänstra änden precis på 0: en snigel, en snäcka, en leksaksbil, en citron, en nyckel, en tusenfoting, en limflaska, en isglass, en halv kiwi, ett leksakståg eller ett leksaksflygplan, var och en så lång som den riktiga saken kan vara. Barnet drar en ljusmarkör under linjalen dit där saken slutar och trycker på Kontrollera. Då fyller ljuset centimetermellanrummen ett i taget från 0, och varje upplyst mellanrum visar sitt tal. Så ser barnet att talet på linjalen räknar mellanrummen före det.",
+        "Står markören för långt lyser de sista mellanrummen korallröda utan något ovanför. Står den för kort förblir sakens ände mörk. Det svarar på de två vanliga felen med linjal: att räkna strecken i stället för mellanrummen och att sluta före änden. Efter ett andra fel faller en streckad linje från sakens ände ner till linjalen. I inställningen där bara 0, 5, 10 och 15 är tryckta läser barnet av en ände som 12 genom att räkna vidare från 10, som på en linjal där bara några av talen är utskrivna. Varje uppmätt sak hamnar i ett litet diagram över dagens längder, kortast först.",
+        "Aktiviteten följer Lgr22 för åk 1–3 och passar i åk 2: att mäta längder i centimeter med linjal. Den fungerar utan ljud, och det finns ingen tidtagning och inga poäng."
       ],
       "practices": [
-        "Läsa av ett föremåls längd i centimeter på en linjal",
-        "Lägga föremålets vänstra kant vid 0 innan man läser av andra änden",
-        "Hitta det centimeterstreck där föremålet slutar",
-        "Undvika det vanliga misstaget att börja en mätning vid 1 i stället för vid 0"
+        "Läsa av var en sak slutar på en centimeterlinjal som börjar på 0",
+        "Räkna centimetermellanrum, inte streck",
+        "Räkna vidare från 5 eller 10 för att läsa av ett streck utan tal",
+        "Säga en längd i centimeter"
       ],
       "howToPlay": [
-        "Barnet tittar på föremålet på linjalen och kontrollerar att den vänstra kanten ligger vid 0.",
-        "Det följer föremålet till andra änden, läser av centimeterstrecket och trycker på det talet, och trycker sedan på Kontrollera.",
-        "Det går alltid att försöka igen — det finns ingen timer och inga poäng."
+        "Dra ljusmarkören under linjalen, eller tryck på linjalen, så att markören står där saken slutar; pilknapparna flyttar den en centimeter.",
+        "Tryck på Kontrollera och se ljuset räkna mellanrummen från 0.",
+        "I inställningarna väljer du om linjalen visar alla tal eller bara 0, 5, 10 och 15, och om ljuset visar ett tal i varje mellanrum eller bara i slutet."
       ],
       "learningGoals": [
-        "Barnet kan mäta längd i centimeter med en linjal",
-        "Barnet kan läsa av en mätskala med start från noll",
-        "Barnet bygger noggranna mätvanor för längre längder och andra verktyg"
+        "Mäta en saks längd med en centimeterlinjal.",
+        "Förstå att talet vid ett streck anger hur många centimetermellanrum det är mellan 0 och strecket.",
+        "Läsa av ett streck utan tal genom att räkna vidare från närmaste 5 eller 10."
       ]
     },
     "fractions.partition-equal-shares.1-g-a-3": {

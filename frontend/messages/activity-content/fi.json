@@ -457,25 +457,25 @@
     },
     "choice-board.read-ruler.2-md-a-1": {
       "about": [
-        "Esine on aseteltu senttimetriviivaimen viereen — kynä, nauha, värikynä tai tussi — ja lapsi lukee, kuinka pitkä se on, ja napauttaa vastauksen senttimetreinä. Pituudet vaihtelevat lyhyestä 5 cm:n värikynästä 14 cm:n tussiin ja 17 cm:n keppiin. Tämä vuorovaikutteinen 2. luokan mittaustehtävä toimii suoraan selaimessa ilman tiliä.",
-        "Tärkein taito on viivaimen oikea lukeminen: aseta esineen vasen pää nollakohtaan, seuraa esinettä sen toiseen päähän ja lue siitä kohdasta mittajako. Lapsi ei arvaa, vaan lukee tarkan pituuden asteikolta. Koska vastausvaihtoehdot ovat lähekkäisiä lukuja, nollan sijasta ykkösen kohdalle asettaminen — tuttu mittausvirhe — paljastuu, ja näin syntyy tapa aloittaa jokainen mittaus nollasta.",
-        "Tehtävä on OPS 2014:n mukainen 2. luokan mittaamista — lapsi mittaa esineen pituuden valitsemalla ja käyttämällä sopivaa välinettä, kuten viivainta. Ei ajastinta, ei pisteitä — vain rauhallista harjoittelua."
+        "Valoviivaimessa kuva on lasisen senttimetriviivaimen päällä niin, että sen vasen pää on tarkalleen nollan kohdalla: etana, simpukankuori, leikkiauto, sitruuna, avain, tuhatjalkainen, liimapullo, mehujää, puolikas kiivi, leikkijuna tai leikkilentokone, jokainen sen pituinen kuin oikea esine voi olla. Lapsi liu’uttaa viivaimen alla olevan valomerkin kohtaan, jossa esine loppuu, ja painaa Tarkista. Silloin valo täyttää senttimetrin välit yksi kerrallaan nollasta alkaen, ja jokainen valaistu väli näyttää lukunsa. Näin lapsi näkee, että viivaimen luku laskee sitä edeltävät välit.",
+        "Jos merkki on liian pitkällä, viimeiset välit hehkuvat korallinpunaisina, vaikka niiden yläpuolella ei ole mitään. Jos se jää liian lyhyeksi, esineen loppupää jää pimeäksi. Näin tulevat esiin kaksi tavallista virhettä viivaimen kanssa: viivojen laskeminen välien sijaan ja pysähtyminen ennen loppua. Toisen virheen jälkeen katkoviiva laskeutuu esineen lopusta viivaimelle. Asetuksessa, jossa painettuina ovat vain 0, 5, 10 ja 15, lapsi lukee esimerkiksi lopun 12 laskemalla eteenpäin luvusta 10, kuten viivaimessa, johon on painettu vain osa luvuista. Jokainen mitattu esine lisätään pieneen kaavioon päivän pituuksista lyhimmästä alkaen.",
+        "Tehtävä tukee OPS 2014 -tavoitteita 2. luokalla: pituuksien mittaaminen senttimetreinä viivaimella. Se toimii ilman ääntä, eikä siinä ole ajanottoa tai pisteitä."
       ],
       "practices": [
-        "Lukee esineen pituuden senttimetreinä viivaimelta.",
-        "Asettaa esineen vasemman pään nollakohtaan ennen toisen pään lukemista.",
-        "Etsii senttimetrijaon, jonka kohdalle esine päättyy.",
-        "Välttää tutun virheen, jossa mittaus aloitetaan ykkösestä nollan sijaan."
+        "Lukea, missä esine loppuu nollasta alkavalla senttimetriviivaimella",
+        "Laskea senttimetrin välejä, ei viivoja",
+        "Laskea eteenpäin luvusta 5 tai 10, kun viivan kohdalla ei ole lukua",
+        "Kertoa pituus senttimetreinä"
       ],
       "howToPlay": [
-        "Katso viivaimella olevaa esinettä ja varmista, että sen vasen pää on nollakohdassa.",
-        "Seuraa esinettä toiseen päähän, lue senttimetrijako ja napauta sitä lukua, ja paina sitten Tarkista.",
-        "Voit yrittää uudelleen milloin vain — ei ajastinta eikä pisteitä."
+        "Vedä valomerkkiä viivaimen alla tai napauta viivainta, niin että merkki on kohdassa, jossa esine loppuu; nuolinäppäimet siirtävät sitä senttimetrin.",
+        "Paina Tarkista ja katso, miten valo laskee välit nollasta alkaen.",
+        "Asetuksista valitset, näyttääkö viivain kaikki luvut vai vain 0, 5, 10 ja 15, ja näyttääkö valo luvun joka välissä vai vain lopussa."
       ],
       "learningGoals": [
-        "Lapsi osaa mitata pituuden senttimetreinä viivaimella.",
-        "Lapsi osaa lukea mitta-asteikkoa nollasta alkaen.",
-        "Lapsi rakentaa tarkan mittaamisen tavat pidempiä pituuksia ja muita välineitä varten."
+        "Mitata esineen pituus senttimetriviivaimella.",
+        "Ymmärtää, että viivan kohdalla oleva luku kertoo, montako senttimetrin väliä on nollan ja viivan välissä.",
+        "Lukea viiva, jonka kohdalla ei ole lukua, laskemalla eteenpäin lähimmästä viitosesta tai kympistä."
       ]
     },
     "fractions.partition-equal-shares.1-g-a-3": {

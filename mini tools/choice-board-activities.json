@@ -707,8 +707,8 @@
   },
   {
     "id": "choice-board.read-ruler.2-md-a-1",
-    "tool": "choice-board-activity",
-    "task_template": "read-ruler",
+    "tool": "glow-ruler-activity",
+    "task_template": "glow-ruler",
     "alignment": {
       "framework": "CCSS",
       "code": "2.MD.A.1",

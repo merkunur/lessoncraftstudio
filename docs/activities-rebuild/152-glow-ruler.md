@@ -59,3 +59,6 @@ ORDER row 152 · id `choice-board.read-ruler.2-md-a-1` (kept). Design: `designs/
 - `audit-settings-efficacy`: 2 live.
 - Also passing: next-delay, content ×11, prose claims, SERP, tells, preflight.
 - I read the 360 / 768 / 1024 renders myself. That caught the desktop "15" touching the glass and the marker line crossing its numeral; the marker's numeral now turns coral instead.
+
+## Live
+Deployed 2026-10-29 (commit `13f69460`; mini-tools and the manifest copied before `deploy.sh`; preview scp'd). `live-verify-glow-ruler.js`: **52 pass, 0 fail** (all 11 pages 200; en, de, sv, fi × 1366 / 390: the arrows to 10 on the 8-cm key → two coral spaces and hintOver; back to 8 → solved with the «8 cm» tag). The first run read Cloudflare's cached page; the origin already served `?v=9.897`, and the rerun after the cache turned over passed. The frozen page intro still describes the old activity ("choose the length from four numbers").

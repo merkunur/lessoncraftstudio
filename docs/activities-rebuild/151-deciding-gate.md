@@ -53,3 +53,6 @@ Fixed at the source:
 - `audit-settings-efficacy`: 2 live.
 - Also passing: next-delay; content ×11; prose claims; SERP; tells; preflight.
 - I read the 360 / 768 / 1024 renders myself.
+
+## Live
+Deployed 2026-10-29 (commit `220f269d`; mini-tools and the manifest copied before `deploy.sh`; preview scp'd). `live-verify-deciding-gate.js`: **52 pass, 0 fail** (all 11 pages 200; en, de, sv, fi × 1366 / 390: the tens called for 389/412 → the race stops at the hundreds; the hundreds gate and < → solved with the long view). The first run read Cloudflare's cached page; the rerun passed.

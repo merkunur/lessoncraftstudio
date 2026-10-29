@@ -59,3 +59,6 @@ ORDER row 162 · id `clock-digital.read-quarter-hour.2-md-c-7` (kept). Design: `
   - `local-test-hour-ball.js` 1,650/0 in 11 locales: real taps on the cards, a real drag of the long hand back across the 12, the keyboard, plus 4 states × 8 widths.
   - visual-qa 240 renders each in en/de/fi/fr; hierarchy 302/0; settings efficacy 2 live.
 - **Content:** prose claims, SERP copy, content tells, next delay and preflight routes all pass.
+
+## Live (2026-10-29, commit 0c240130f)
+- `live-verify-hour-ball.js` on production: 54/55 in one browser (fi @390, the eighth page opened, timed out finding the iframe: the known harness flake), then `--locales=fi` 24/0. Real taps in en/de/sv/fi at 1366 and 390 px, 11 pages 200.

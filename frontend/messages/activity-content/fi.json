@@ -3831,6 +3831,29 @@
         "Sen huomaaminen, että jokainen kellonaika tulee kahdesti vuorokaudessa, kerran ennen keskipäivää ja kerran sen jälkeen.",
         "Tasatuntien ja puolien tuntien lukeminen ja asettaminen."
       ]
+    },
+    "clock-convert.12-24.2-md-c-7": {
+      "about": [
+        "Saman kellonajan voi kirjoittaa kahdella tavalla. 12 tunnin kellossa kellotaulun luvut toistuvat, joten aikaan tarvitaan merkintä ap. tai ip.; 24 tunnin kellossa tunnit jatkuvat keskipäivän jälkeen, ja kello 3 ip. on 15.00. Sprocketin vuorokausikello näyttää ajan avoimessa kortissa jommallakummalla tavalla, ja lapsi kirjoittaa saman ajan toisella tavalla: tunnin, minuutit ja 12 tunnin kellossa myös ap. tai ip.",
+        "Sitten kello esittää vastauksen. Viisarit kulkevat keskiyöstä siihen aikaan, jonka lapsi kirjoitti, ja tuntiviisarissa on laskeva lappu. Ensimmäisellä kierroksella lappu näyttää kellotaulun luvut; keskipäivällä 12:n yläpuolelle ilmestyy aurinko, ja toisella kierroksella lappu jatkaa laskemista, 13, 14, 15, ja pudottaa jokaisen luvun tyhjään koloon kellotaulun luvun alle. Annettu aika jää kellotauluun katkoviivaisiksi ääriviivoiksi: oikea vastaus osuu tarkalleen niihin, ja sen luku jää sisärenkaaseen. Näin lapsi rakentaa vähitellen 24 tunnin kellotaulun. Jos kirjoittaa 20.00 ajalle 8 ap., kello kiertää kaksi kierrosta, vaikka avoimen kortin aika ei koskaan mennyt keskipäivän ohi; väärä tunti, muutetut minuutit, keskipäivä ja keskiyö saavat kukin oman vihjeensä, ja toisen virheen jälkeen kello näyttää annetun ajan reitin niin, että viimeinen luku on piilossa.",
+        "Tasoja on kaksi: tasatunnit ja puolitunnit sekä viiden minuutin ajat keskipäivän ja keskiyön kanssa. Asetuksesta sisärengas joko säilyy tai tyhjenee joka tehtävässä. Tehtävä tukee OPS 2014 -tavoitteita: kellonajan lukeminen ja kirjoittaminen 24 tunnin kellona. Se toimii ilman ääntä, eikä siinä ole ajanottoa tai pisteitä."
+      ],
+      "practices": [
+        "12 tunnin ajan kirjoittaminen 24 tunnin aikana ja takaisin",
+        "12:n lisääminen tai vähentäminen keskipäivän jälkeisissä ajoissa",
+        "Aamupäivän tunnin ja aina minuuttien pitäminen samoina",
+        "Keskipäivän ja keskiyön kirjoittaminen kummallakin tavalla"
+      ],
+      "howToPlay": [
+        "Lue avoin kortti. Napauta tuntiruutua ja minuuttiruutua ja kirjoita sama aika toisella tavalla numeronäppäimillä; 12 tunnin kellossa valitset myös ap. tai ip.",
+        "Paina Tarkista. Kello kulkee keskiyöstä sinun aikaasi; jos viisarisi osuvat katkoviivaisiin ääriviivoihin, vastaus on oikein.",
+        "Asetuksista valitset ajat (tasatunnit ja puolitunnit tai viisi minuuttia keskipäivän ja keskiyön kanssa) ja sen, säilyykö toinen rengas."
+      ],
+      "learningGoals": [
+        "Kellonaikojen muuntaminen 12 tunnin ja 24 tunnin kellon välillä.",
+        "Sen huomaaminen, että tunnit jatkuvat keskipäivän jälkeen: 13, 14, 15.",
+        "Keskipäivän kirjoittaminen 12.00 ja keskiyön 0.00."
+      ]
     }
   }
 }

@@ -4128,6 +4128,29 @@
         "Se att varje klockslag kommer två gånger om dygnet, en gång före och en gång efter klockan tolv på dagen.",
         "Läsa av och ställa hela och halva timmar."
       ]
+    },
+    "clock-convert.12-24.2-md-c-7": {
+      "about": [
+        "Samma tid kan skrivas på två sätt. Med 12 timmar kommer klockans tal tillbaka, så tiden behöver fm eller em; med 24 timmar fortsätter timmarna att räknas efter klockan tolv på dagen, och klockan 3 em är 15.00. Sprockets dygnsklocka visar en tid på ett öppet kort, på det ena eller det andra sättet, och barnet skriver samma tid på det andra sättet: timme, minuter och, med 12 timmar, fm eller em.",
+        "Sedan spelar klockan upp svaret. Visarna går från midnatt till tiden som barnet skrev, och timvisaren bär en lapp som räknar. På första varvet visar lappen urtavlans tal; klockan tolv på dagen dyker en sol upp ovanför 12, och på andra varvet räknar lappen vidare, 13, 14, 15, och lägger varje tal i ett tomt fack under urtavlans tal. Den givna tiden står kvar som streckade konturer: ett rätt svar landar precis i dem, och dess tal stannar i den inre ringen. Så bygger barnet under passet en 24-timmarsklocka. Skriver man 20.00 för 8 fm går klockan två varv fast det öppna kortet aldrig gick förbi klockan tolv; fel timme, ändrade minuter, mitt på dagen och midnatt får var sin ledtråd, och efter två missar visar klockan den givna tidens väg med det sista talet dolt.",
+        "Det finns två nivåer: hela och halva timmar, och femminuterstider med mitt på dagen och midnatt. En inställning behåller den inre ringen eller tömmer den varje runda. Aktiviteten följer Lgr22 för åk 1–3: att läsa av klockan och skriva tider med 24 timmar. Den fungerar utan ljud, och det finns ingen tidtagning och inga poäng."
+      ],
+      "practices": [
+        "Skriva en tid med 12 timmar som en tid med 24 timmar och tillbaka",
+        "Lägga till eller ta bort 12 för tider efter klockan tolv på dagen",
+        "Låta förmiddagens timme och alltid minuterna vara desamma",
+        "Skriva mitt på dagen och midnatt på båda sätten"
+      ],
+      "howToPlay": [
+        "Läs det öppna kortet. Tryck på timrutan och minutrutan och skriv samma tid på det andra sättet med sifferknapparna; med 12 timmar väljer du också fm eller em.",
+        "Tryck på Kolla. Klockan går från midnatt till din tid; landar dina visare i de streckade konturerna är det rätt.",
+        "I inställningarna väljer du tiderna (hela och halva timmar, eller fem minuter med mitt på dagen och midnatt) och om den andra ringen behåller det du byggt."
+      ],
+      "learningGoals": [
+        "Omvandla tider mellan 12 timmar och 24 timmar.",
+        "Se att timmarna fortsätter att räknas efter klockan tolv på dagen: 13, 14, 15.",
+        "Skriva mitt på dagen som 12.00 och midnatt som 00.00."
+      ]
     }
   }
 }

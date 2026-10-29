@@ -1242,25 +1242,25 @@
     },
     "clock-convert.12-24.2-md-c-7": {
       "about": [
-        "A time appears written one way — 3:00 PM, or 20:00 — and the child taps the same time written the other way from three number choices. Sprocket the rooster cheers along in this interactive Grade 2 time activity about converting between 12-hour and 24-hour notation, all running in the browser with nothing to install and no sign-up.",
-        "The key idea is that after noon, 24-hour time keeps counting upward: 1:00 PM becomes 13:00, 3:00 PM becomes 15:00, and 8:00 PM becomes 20:00. The choices are built around the common slip-ups — forgetting to add the twelve, or adding it the wrong way — so a child has to actually do the conversion rather than guess. Working both directions, twelve-hour to twenty-four and back, makes the relationship between the two ways of writing time stick.",
-        "It builds on Common Core 2.MD.C.7 — telling time using a.m. and p.m. — extended to 24-hour notation for a fuller picture of how time is written. No timer, no score — just calm, playful practice."
+        "One time of day can be written two ways. In the 12-hour way the clock's numbers repeat, so the time needs a.m. or p.m.; in the 24-hour way the hours keep counting after noon, so 3 p.m. is 15:00. Sprocket's Clock shows a time on an open card, one way or the other, and the child writes the same time the other way: an hour, minutes, and for the 12-hour way, a.m. or p.m.",
+        "Then the clock acts the answer out. The hands run from midnight to the time the child wrote, and the hour hand carries a counting tag. On the first lap the tag says the face's own numbers; at noon a sun pops up over the 12, and on the second lap the tag keeps counting 13, 14, 15 and drops each number into an empty socket under the face's numeral. The given time stays on the face as dashed outlines, so a right answer lands exactly in them, and its number stays in the inner ring: across a session the child builds a 24-hour clock face. Writing 20:00 for 8 a.m. makes the run go round twice, though the open card's time never passed noon; a wrong hour, changed minutes, noon and midnight each get their own hint, and a second miss shows the given time's run with its last number face-down.",
+        "There are two levels: o'clock and half past, and five-minute times with noon and midnight. A setting keeps the inner ring or empties it every round, for teachers who want the child to work every answer out. It builds on Common Core 2.MD.C.7 (tell and write time using a.m. and p.m.), extended to the 24-hour clock. It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Converting an afternoon or evening time from 12-hour to 24-hour notation",
-        "Converting a 24-hour time back to 12-hour with a.m. or p.m.",
-        "Understanding that hours after noon keep counting up to 24",
-        "Avoiding the common slip of forgetting, or wrongly adding, the twelve"
+        "Write a 12-hour time the 24-hour way and back",
+        "Add or take away 12 for times after noon",
+        "Keep morning times and the minutes the same",
+        "Write noon and midnight both ways"
       ],
       "howToPlay": [
-        "Read the time shown and notice which way it is written — 12-hour or 24-hour.",
-        "Work out the same time in the other notation, then tap the matching choice.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Read the open card. Tap the hour box and the minute box and write the same time the other way with the number pad; for the 12-hour way, choose a.m. or p.m.",
+        "Press Check. The clock runs from midnight to your time; if your hands land in the dashed outlines, you are right.",
+        "In the settings, choose the times (o'clock and half past, or five minutes with noon and midnight) and whether the second ring keeps what you built."
       ],
       "learningGoals": [
-        "Convert times between 12-hour and 24-hour notation in both directions.",
-        "Understand that after noon, 24-hour time continues counting past twelve.",
-        "Extend the a.m./p.m. work of Common Core 2.MD.C.7 to the way time is written on schedules and devices."
+        "Convert times between the 12-hour and the 24-hour clock, building on Common Core 2.MD.C.7.",
+        "See that after noon the 24-hour clock keeps counting: 13, 14, 15.",
+        "Write noon as 12:00 and midnight as 00:00."
       ]
     },
     "clock-digital.match-clocks.2-md-c-7": {

@@ -4085,25 +4085,25 @@
     },
     "clock-convert.12-24.2-md-c-7": {
       "about": [
-        "Nesta atividade quem acompanha seu aluno é Kiko, um galo animado que canta a cada acerto. A criança lê uma hora escrita de um jeito e toca na mesma hora escrita do outro — de “15:00” para “3:00 da tarde”, ou de “8:00 da noite” para “20:00”. É a hora do dia contada de duas formas, no ritmo dela.",
-        "No Brasil, a hora em 24 horas está em todo lugar: na TV, no ônibus, no celular e nos horários da escola. Aqui seu aluno descobre a grande sacada — depois do meio-dia, a hora não volta para o 1: ela continua contando (13, 14, 15…). E cada hora combina com um período do dia: manhã, tarde, noite ou madrugada.",
-        "Não existe relógio correndo, cronômetro nem placar. Se a criança se confunde, Kiko dá uma dica com carinho e nunca diz “errado”. Tudo é lido em voz alta, do começo ao fim, para que ela aprenda com calma e confiança. Uma atividade alinhada à BNCC."
+        "Uma mesma hora pode ser escrita de dois jeitos. No formato de 12 horas os números do relógio se repetem, então a hora precisa do período do dia, da manhã ou da tarde; no formato de 24 horas as horas continuam contando depois do meio-dia, e 3 da tarde são 15:00. O relógio do Kiko mostra uma hora num cartão aberto, de um jeito ou do outro, e a criança escreve a mesma hora do outro jeito: a hora, os minutos e, no formato de 12 horas, o período do dia.",
+        "Depois o relógio mostra a resposta. Os ponteiros andam da meia-noite até a hora que a criança escreveu, e o ponteiro das horas carrega uma etiqueta que conta. Na primeira volta a etiqueta mostra os números do mostrador; ao meio-dia um sol aparece em cima do 12, e na segunda volta a etiqueta continua contando 13, 14, 15 e coloca cada número num espaço vazio embaixo do número do mostrador. A hora dada fica no mostrador como contorno pontilhado: uma resposta certa cai exatamente nele, e o seu número fica no anel de dentro. Assim, ao longo da sessão, a criança monta um mostrador de 24 horas. Escrever 20:00 para 8 da manhã faz o relógio dar duas voltas, embora o cartão aberto nunca tenha passado do meio-dia; uma hora errada, minutos trocados, o meio-dia e a meia-noite têm cada um a sua dica, e depois de um segundo erro o relógio mostra o caminho da hora dada com o último número escondido.",
+        "Há dois níveis: horas exatas e meias horas, e horas de cinco em cinco minutos com meio-dia e meia-noite. Uma configuração guarda o anel de dentro ou o esvazia a cada rodada. A atividade segue a BNCC, na unidade temática Grandezas e medidas: ler horas e escrevê-las no formato de 24 horas. Funciona sem som, sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Ler a hora no formato de 24 horas",
-        "Converter a hora entre os dois formatos",
-        "Relacionar a hora ao período do dia (manhã, tarde, noite)",
-        "Entender que depois do meio-dia a hora continua contando"
+        "Escrever uma hora de 12 horas no formato de 24 horas e voltar",
+        "Somar ou tirar 12 nas horas depois do meio-dia",
+        "Deixar igual a hora da manhã e sempre os minutos",
+        "Escrever o meio-dia e a meia-noite dos dois jeitos"
       ],
       "howToPlay": [
-        "Leia a hora que aparece, por exemplo “15:00”.",
-        "Procure a mesma hora escrita do outro jeito — “3:00 da tarde”.",
-        "Toque na carta certa — Kiko canta a cada acerto!"
+        "Leia o cartão aberto. Toque no quadradinho da hora e no dos minutos e escreva a mesma hora do outro jeito com o teclado; no formato de 12 horas, escolha também o período do dia.",
+        "Aperte Conferir. O relógio anda da meia-noite até a sua hora; se os seus ponteiros caírem no contorno pontilhado, está certo.",
+        "Nas configurações, escolha as horas (exatas e meias, ou de cinco em cinco minutos com meio-dia e meia-noite) e se o segundo anel guarda o que você construiu."
       ],
       "learningGoals": [
-        "Ler a hora no formato de 24 horas com segurança",
-        "Converter a hora entre “15:00” e “3:00 da tarde” sem se atrapalhar",
-        "Relacionar cada hora ao seu período do dia, com objetivos alinhados à BNCC"
+        "Converter horas entre o formato de 12 horas e o de 24 horas.",
+        "Ver que depois do meio-dia as horas continuam contando: 13, 14, 15.",
+        "Escrever o meio-dia como 12:00 e a meia-noite como 00:00."
       ]
     },
     "sound-boxes.phoneme-position.rf-k-2-d": {

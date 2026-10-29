@@ -1,8 +1,8 @@
 [
   {
     "id": "clock-convert.12-24.2-md-c-7",
-    "tool": "clock-convert-activity",
-    "task_template": "convert-time",
+    "tool": "second-ring-activity",
+    "task_template": "second-ring",
     "alignment": {
       "framework": "CCSS",
       "code": "2.MD.C.7",
@@ -120,7 +120,11 @@
       "es": "reloj-de-24-horas-leer-la-hora-tercer-grado",
       "pt": "relogio-de-24-horas-ler-a-hora-terceiro-ano",
       "it": "orologio-24-ore-leggere-e-convertire-l-ora-classe-terza",
-      "nl": "24-uursnotatie-tijd-omrekenen-groep-5"
+      "nl": "24-uursnotatie-tijd-omrekenen-groep-5",
+      "sv": "24-timmarsklockan-omvandla-tider-ak-3",
+      "da": "24-timers-ur-omregn-klokkeslaet-3-klasse",
+      "no": "24-timersklokka-gjor-om-klokkeslett-3-trinn",
+      "fi": "24-tunnin-kello-ajan-muuntaminen-3-luokka"
     },
     "page_title": {
       "en": "Sprocket's Clock — 12-Hour & 24-Hour Time Conversion (Grade 2)",
@@ -129,7 +133,11 @@
       "es": "El reloj de 24 horas: leer y convertir la hora – 3.º grado",
       "pt": "O relógio do Kiko: ler e converter a hora em 24 horas (3º ano)",
       "it": "Orologio 24 ore: leggere e convertire l’ora con Chicco – classe terza",
-      "nl": "Kukel de haan: 24-uursnotatie omrekenen (groep 5)"
+      "nl": "Kukel de haan: 24-uursnotatie omrekenen (groep 5)",
+      "sv": "24-timmarsklockan – omvandla tider (åk 3)",
+      "da": "24-timers ur – omregn klokkeslæt (3. klasse)",
+      "no": "24-timersklokka – gjør om klokkeslett (3. trinn)",
+      "fi": "24 tunnin kello – ajan muuntaminen (3. lk)"
     },
     "page_intro": {
       "en": "An interactive Grade 2 time activity: convert times between 12-hour (a.m./p.m.) and 24-hour notation. Children read a time in one way of writing it and tap the same time in the other — learning that after noon, 24-hour time keeps counting (3:00 PM is 15:00). Sprocket the rooster cheers them on. Builds on Common Core 2.MD.C.7 (telling time using a.m. and p.m.), extended to 24-hour time.",
@@ -138,7 +146,11 @@
       "es": "Actividad interactiva: los niños aprenden a leer el reloj de 24 horas y a convertirlo a las horas del día —las 15:00 son las 3 de la tarde—. Ideal para 3.º grado.",
       "pt": "Com Kiko, o galo, seu aluno pratica a hora no formato de 24 horas de um jeito leve e divertido, aprendendo a converter — de “15:00” para “3:00 da tarde”. A cada acerto, Kiko canta! Tudo é lido em voz alta e sem pressa, sem relógio correndo nem pontos. Uma atividade alinhada à BNCC para os anos iniciais.",
       "it": "Con Chicco il gallo tuo figlio impara a leggere l’orologio delle 24 ore e a convertire l’ora nei due formati: da «15:00» a «le 3 del pomeriggio» e viceversa. Legge un orario e tocca la stessa ora nell’altro formato, con calma e senza fretta. È un’attività senza registrazione, senza timer e senza punteggio, allineata alle «Indicazioni nazionali» per la misura del tempo in classe terza.",
-      "nl": "Kukel de haan wijst een tijd aan op zijn klok en jij zoekt dezelfde tijd in de andere schrijfwijze. De ene keer lees je een tijd in de 12-uurstijd met een dagdeel (\"3:00 's middags\") en tik je op de 24-uursnotatie (\"15:00\"), de andere keer andersom. Interactief oefenen, afgestemd op de SLO-kerndoelen voor rekenen (tijd) voor groep 5."
+      "nl": "Kukel de haan wijst een tijd aan op zijn klok en jij zoekt dezelfde tijd in de andere schrijfwijze. De ene keer lees je een tijd in de 12-uurstijd met een dagdeel (\"3:00 's middags\") en tik je op de 24-uursnotatie (\"15:00\"), de andere keer andersom. Interactief oefenen, afgestemd op de SLO-kerndoelen voor rekenen (tijd) voor groep 5.",
+      "sv": "Samma tid på två sätt: klockan 3 em är 15.00. Barnet skriver tiden på det andra sättet, och klockan går från midnatt till svaret. Efter klockan tolv på dagen räknar timvisaren vidare, 13, 14, 15, och fyller en andra ring. Klockan och tid i åk 1–3 enligt Lgr22.",
+      "da": "Det samme klokkeslæt på to måder: klokken 3 om eftermiddagen er 15.00. Barnet skriver klokkeslættet på den anden måde, og uret kører fra midnat til svaret. Efter klokken tolv midt på dagen tæller viseren videre, 13, 14, 15, og fylder en anden ring. I tråd med Fælles Mål.",
+      "no": "Det samme klokkeslettet på to måter: klokka 3 på ettermiddagen er 15.00. Barnet skriver klokkeslettet på den andre måten, og klokka går fra midnatt til svaret. Etter klokka tolv på dagen teller viseren videre, 13, 14, 15, og fyller en andre ring. I tråd med LK20.",
+      "fi": "Sama aika kahdella tavalla: kello 3 ip. on 15.00. Lapsi kirjoittaa ajan toisella tavalla, ja kello kulkee keskiyöstä vastaukseen. Keskipäivän jälkeen viisari jatkaa laskemista, 13, 14, 15, ja täyttää toisen renkaan. Perusopetuksen opetussuunnitelman (OPS 2014) mukainen."
     },
     "kid_prompt_template": "clock-convert"
   }

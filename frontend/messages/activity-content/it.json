@@ -4085,25 +4085,25 @@
     },
     "clock-convert.12-24.2-md-c-7": {
       "about": [
-        "Le 15:00 e le 3 del pomeriggio sono davvero la stessa ora?",
-        "Chicco il gallo mostra un orario in un formato: il bambino lo legge, pensa alla stessa ora nell’altro formato e tocca la risposta giusta, passando dall’orologio delle 24 ore alla forma colloquiale e ritorno.",
-        "L’attività è allineata alle «Indicazioni nazionali» per la misura del tempo ed è senza registrazione, senza timer e senza punteggio: ogni bambino procede al proprio ritmo."
+        "La stessa ora si può scrivere in due modi. Nel formato 12 ore i numeri dell’orologio si ripetono, quindi l’ora ha bisogno del momento della giornata, di mattina o del pomeriggio; nel formato 24 ore le ore continuano a contare dopo mezzogiorno, e le 3 del pomeriggio sono le 15:00. L’orologio di Chicco mostra un’ora su un cartellino aperto, in un modo o nell’altro, e il bambino scrive la stessa ora nell’altro modo: l’ora, i minuti e, nel formato 12 ore, il momento della giornata.",
+        "Poi l’orologio mette in scena la risposta. Le lancette corrono da mezzanotte fino all’ora scritta dal bambino, e la lancetta delle ore porta un’etichetta che conta. Al primo giro l’etichetta dice i numeri del quadrante; a mezzogiorno spunta un sole sopra il 12, e al secondo giro l’etichetta continua a contare 13, 14, 15 e lascia ogni numero in un incavo vuoto sotto il numero del quadrante. L’ora data resta sul quadrante come contorno tratteggiato: una risposta giusta ci cade dentro esattamente, e il suo numero resta nell’anello interno. Così, nel corso della sessione, il bambino costruisce un quadrante di 24 ore. Scrivere 20:00 per le 8 di mattina fa girare l’orologio due volte anche se il cartellino aperto non ha mai superato mezzogiorno; un’ora sbagliata, minuti cambiati, mezzogiorno e mezzanotte hanno ciascuno il proprio suggerimento, e dopo un secondo errore l’orologio mostra il percorso dell’ora data con l’ultimo numero coperto.",
+        "Ci sono due livelli: ore esatte e mezz’ore, e orari di cinque in cinque minuti con mezzogiorno e mezzanotte. Un’impostazione tiene l’anello interno oppure lo svuota a ogni turno. L’attività segue le Indicazioni nazionali, nel nucleo Relazioni, dati e previsioni: leggere l’ora e scriverla nel formato 24 ore. Funziona senza audio, senza cronometro e senza punteggi."
       ],
       "practices": [
-        "Leggere l’orologio delle 24 ore",
-        "Convertire l’ora tra i due formati",
-        "Collegare l’ora alla fascia del giorno",
-        "Consolidare la misura del tempo"
+        "Scrivere un’ora del formato 12 ore nel formato 24 ore e viceversa",
+        "Aggiungere o togliere 12 per le ore dopo mezzogiorno",
+        "Lasciare uguale l’ora del mattino e sempre i minuti",
+        "Scrivere mezzogiorno e mezzanotte nei due modi"
       ],
       "howToPlay": [
-        "Leggi l’ora che ti mostra Chicco",
-        "Pensa alla stessa ora nell’altro formato",
-        "Tocca la risposta giusta"
+        "Leggi il cartellino aperto. Tocca la casella dell’ora e quella dei minuti e scrivi la stessa ora nell’altro modo con il tastierino; nel formato 12 ore scegli anche il momento della giornata.",
+        "Premi Controlla. L’orologio corre da mezzanotte fino alla tua ora; se le tue lancette cadono nel contorno tratteggiato, è giusto.",
+        "Nelle impostazioni scegli gli orari (ore esatte e mezz’ore, oppure cinque minuti con mezzogiorno e mezzanotte) e se il secondo anello tiene quello che hai costruito."
       ],
       "learningGoals": [
-        "Leggere e interpretare l’orario sull’orologio delle 24 ore",
-        "Convertire un’ora dal formato 24 ore alla forma delle 12 ore e viceversa",
-        "Associare ogni orario alla fascia della giornata (mattina, pomeriggio, sera)"
+        "Convertire gli orari tra il formato 12 ore e il formato 24 ore.",
+        "Vedere che dopo mezzogiorno le ore continuano a contare: 13, 14, 15.",
+        "Scrivere mezzogiorno come 12:00 e mezzanotte come 00:00."
       ]
     },
     "sound-boxes.phoneme-position.rf-k-2-d": {

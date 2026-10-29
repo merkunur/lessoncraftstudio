@@ -3832,6 +3832,29 @@
         "Se, at hvert klokkeslæt kommer to gange i døgnet, én gang før og én gang efter klokken tolv om dagen.",
         "Aflæse og stille hele og halve timer."
       ]
+    },
+    "clock-convert.12-24.2-md-c-7": {
+      "about": [
+        "Det samme klokkeslæt kan skrives på to måder. Med 12 timer kommer urets tal igen, så klokkeslættet har brug for tiden på dagen, fx om morgenen eller om eftermiddagen; med 24 timer tæller timerne videre efter klokken tolv midt på dagen, og klokken 3 om eftermiddagen er 15.00. Sprockets døgnur viser et klokkeslæt på et åbent kort, på den ene eller den anden måde, og barnet skriver det samme klokkeslæt på den anden måde: time, minutter og, med 12 timer, tiden på dagen.",
+        "Så spiller uret svaret. Viserne kører fra midnat til det klokkeslæt, barnet har skrevet, og den lille viser bærer et mærke, der tæller. I første omgang viser mærket urskivens tal; klokken tolv midt på dagen dukker en sol op over 12, og i anden omgang tæller mærket videre, 13, 14, 15, og lægger hvert tal i et tomt hul under urskivens tal. Det givne klokkeslæt bliver stående som stiplede omrids: et rigtigt svar lander præcis i dem, og dets tal bliver i den indre ring. Sådan bygger barnet efterhånden en 24-timers urskive. Skriver man 20.00 for klokken 8 om morgenen, kører uret to omgange, selv om det åbne kort aldrig kom forbi klokken tolv; en forkert time, ændrede minutter, midt på dagen og midnat får hver sin hjælp, og efter endnu et forkert forsøg viser uret det givne klokkeslæts vej med det sidste tal skjult.",
+        "Der er to niveauer: hele og halve timer, og femminutterstider med midt på dagen og midnat. En indstilling beholder den indre ring eller tømmer den hver runde. Aktiviteten følger Fælles Mål (efter 3. klassetrin): at aflæse uret og skrive klokkeslæt med 24 timer. Den virker uden lyd, og der er hverken tidtagning eller point."
+      ],
+      "practices": [
+        "Skrive et klokkeslæt med 12 timer som 24 timer og tilbage",
+        "Lægge 12 til eller trække 12 fra for klokkeslæt efter klokken tolv midt på dagen",
+        "Lade timen om morgenen og altid minutterne være de samme",
+        "Skrive midt på dagen og midnat på begge måder"
+      ],
+      "howToPlay": [
+        "Læs det åbne kort. Tryk på timefeltet og minutfeltet, og skriv det samme klokkeslæt på den anden måde med taltasterne; med 12 timer vælger du også tiden på dagen.",
+        "Tryk på Tjek. Uret kører fra midnat til dit klokkeslæt; lander dine visere i de stiplede omrids, er det rigtigt.",
+        "I indstillingerne vælger du klokkeslættene (hele og halve timer, eller fem minutter med midt på dagen og midnat), og om den anden ring beholder det, du har bygget."
+      ],
+      "learningGoals": [
+        "Omsætte klokkeslæt mellem 12 timer og 24 timer.",
+        "Se, at timerne tæller videre efter klokken tolv midt på dagen: 13, 14, 15.",
+        "Skrive midt på dagen som 12.00 og midnat som 00.00."
+      ]
     }
   }
 }

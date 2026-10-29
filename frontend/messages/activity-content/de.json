@@ -381,25 +381,25 @@
     },
     "clock-convert.12-24.2-md-c-7": {
       "about": [
-        "Kiko der Hahn kräht nicht nur morgens – er kennt die Uhr rund um die Uhr! Dein Kind liest eine Zeit wie „15:00“ und sucht dann unter drei Karten die passende Uhrzeit mit Tageszeit: „3:00 nachmittags“. Tippt es die richtige Karte an, freut sich Kiko lautstark – ein kleines Kikeriki für jede erkannte Zeit.",
-        "Die 24-Stunden-Zeit begegnet Kindern in Deutschland überall: auf dem Busfahrplan, im Fernsehprogramm und auf jeder digitalen Uhr. Der Knackpunkt ist, dass die Uhr nach dem Mittag einfach weiterzählt – 13, 14, 15 Uhr statt wieder von vorne bei 1. Wer das einmal verstanden hat, liest „18:00“ ganz selbstverständlich als „6:00 abends“.",
-        "Diese Übung gehört in die Klasse 2, in den Bereich „Größen und Messen“ rund um die Zeit. Kiko sagt dabei nie „falsch“ – wenn eine Karte nicht passt, gibt er einen kleinen Tipp und dein Kind darf in Ruhe noch einmal überlegen. Jede Aufgabe wird vorgelesen, sodass auch Kinder mitmachen können, die noch nicht sicher lesen."
+        "Eine Uhrzeit kann man auf zwei Arten schreiben. Mit 12 Stunden wiederholen sich die Zahlen der Uhr, darum braucht die Uhrzeit eine Tageszeit wie morgens oder nachmittags; mit 24 Stunden zählen die Stunden nach 12 Uhr mittags weiter, und 3 Uhr nachmittags ist 15:00. Kikos Uhr zeigt eine Uhrzeit auf einer offenen Karte, auf die eine oder die andere Art, und das Kind schreibt dieselbe Uhrzeit auf die andere Art: Stunde, Minuten und, mit 12 Stunden, die Tageszeit.",
+        "Dann spielt die Uhr die Antwort vor. Die Zeiger laufen von Mitternacht bis zu der Uhrzeit, die das Kind geschrieben hat, und der Stundenzeiger trägt ein Zählschild. In der ersten Runde zeigt das Schild die Zahlen des Zifferblatts; um 12 Uhr mittags taucht über der 12 eine Sonne auf, und in der zweiten Runde zählt das Schild weiter, 13, 14, 15, und legt jede Zahl in ein leeres Fach unter der Zahl des Zifferblatts. Die vorgegebene Uhrzeit bleibt als gestrichelter Umriss stehen, eine richtige Antwort landet genau darin, und ihre Zahl bleibt im inneren Ring: So baut das Kind im Lauf der Zeit eine 24-Stunden-Uhr. Wer 20:00 für 8 Uhr morgens schreibt, lässt die Uhr zweimal herumlaufen, obwohl die offene Karte nie über Mittag ging; eine falsche Stunde, veränderte Minuten, Mittag und Mitternacht bekommen jeweils einen eigenen Hinweis, und nach einem zweiten Fehlversuch zeigt die Uhr den Lauf der vorgegebenen Uhrzeit mit verdeckter letzter Zahl.",
+        "Es gibt zwei Stufen: volle und halbe Stunden, und Fünf-Minuten-Zeiten mit Mittag und Mitternacht. Eine Einstellung behält den inneren Ring oder leert ihn in jeder Aufgabe. Die Aktivität ist an den Lehrplänen im Bereich Größen und Messen ausgerichtet: Uhrzeiten lesen und mit 24 Stunden schreiben. Sie funktioniert ohne Ton, und es gibt keinen Timer und keine Punkte."
       ],
       "practices": [
-        "Die 24-Stunden-Zeit lesen",
-        "Uhrzeiten in beide Formen umrechnen",
-        "Tageszeiten zuordnen: vormittags, nachmittags und abends",
-        "Verstehen, dass die Uhr nach Mittag weiterzählt"
+        "Eine Uhrzeit mit 12 Stunden in 24 Stunden umschreiben und zurück",
+        "Nach 12 Uhr mittags 12 dazuzählen oder abziehen",
+        "Morgens die Stunde und immer die Minuten gleich lassen",
+        "Mittag und Mitternacht auf beide Arten schreiben"
       ],
       "howToPlay": [
-        "Lies die vorgegebene Zeit, zum Beispiel „15:00“.",
-        "Suche dieselbe Zeit in der anderen Form – „3:00 nachmittags“.",
-        "Tippe die passende Karte an – Kiko kräht bei jeder richtigen Zeit."
+        "Lies die offene Karte. Tipp auf das Stundenfeld und das Minutenfeld und schreib dieselbe Uhrzeit mit dem Zahlenfeld auf die andere Art; mit 12 Stunden wählst du auch die Tageszeit.",
+        "Drück auf Prüfen. Die Uhr läuft von Mitternacht bis zu deiner Uhrzeit; landen deine Zeiger im gestrichelten Umriss, stimmt es.",
+        "In den Einstellungen wählst du die Uhrzeiten (volle und halbe Stunden, oder fünf Minuten mit Mittag und Mitternacht) und ob der zweite Ring behält, was du gebaut hast."
       ],
       "learningGoals": [
-        "Die 24-Stunden-Zeit sicher lesen und verstehen",
-        "Zwischen „15:00“ und „3:00 nachmittags“ umrechnen",
-        "Die Tageszeit einer Uhrzeit richtig zuordnen"
+        "Uhrzeiten zwischen der 12-Stunden- und der 24-Stunden-Schreibweise umwandeln.",
+        "Sehen, dass die Stunden nach 12 Uhr mittags weiterzählen: 13, 14, 15.",
+        "Mittag als 12:00 und Mitternacht als 00:00 schreiben."
       ]
     },
     "penny-alphabet-trace.letter-formation.l-k-1-a": {

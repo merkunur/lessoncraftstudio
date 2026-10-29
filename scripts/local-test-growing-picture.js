@@ -95,6 +95,16 @@ const K = (level, obj) => C.rounds(level).find((r) => r.obj === obj).k;
     const nb = await L.nextShown(page); await wait(900);
     is(s.done && !nb && await L.nextShown(page) && sp(await L.bubble(page)) === sp(T(loc, 'ok1_ant')), loc + ' solved: ok1_ant and Next 0.5 s later');
     is((await count(page, '.gp-athumb')) === 1 && (await count(page, '.gp-stamp')) === 1, loc + ' the ant in the album, the size stamp on the frame');
+    const stampOk = () => page.evaluate(() => {
+      const t = document.querySelector('.gp-stamp').getBoundingClientRect(), f = document.querySelector('.gp-frame').getBoundingClientRect();
+      const hit = (a, b) => a.left < b.right && b.left < a.right && a.top < b.bottom && b.top < a.bottom;
+      const inside = t.left >= f.left && t.right <= f.right && t.top >= f.top && t.bottom <= f.bottom;
+      const over = [...document.querySelectorAll('.gp-sizebar, .gp-chip')].some((e) => hit(t, e.getBoundingClientRect()));
+      return inside && !over;
+    });
+    is(await stampOk(), loc + ' the size stamp sits inside the frame and covers neither the bar nor its label');
+    for (const w of [320, 360, 412, 768]) { await page.setViewport({ width: w, height: 900 }); await wait(150); is(await stampOk(), loc + ' @' + w + ': the stamp clear of the bar and the label'); }
+    await page.setViewport({ width: 1024, height: 900 }); await wait(150);
     await page.evaluate(() => { window.GrowingPictureActivity.OK_MS = 600000; });
     /* ---- the truck: the metre stick only; miss 2 → the comparison ---- */
     await force(page, 'estimate', K('estimate', 'truck'), [0, 1, 2]);

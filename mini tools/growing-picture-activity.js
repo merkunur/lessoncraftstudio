@@ -261,7 +261,13 @@ var GrowingPictureActivity = {
         frame.insertAdjacentHTML('beforeend', '<svg class="gp-art gp-leader" width="' + fw + '" height="' + fh + '" viewBox="0 0 ' + fw + ' ' + fh + '" aria-hidden="true"><path d="M' + ax.toFixed(1) + ' ' + ay.toFixed(1) + 'L' + (chx + cw / 2).toFixed(1) + ' ' + (chy + cw).toFixed(1) + '"/><circle cx="' + ax.toFixed(1) + '" cy="' + ay.toFixed(1) + '" r="3"/></svg>');
       }
       if (ghostLayer) frame.insertAdjacentHTML('beforeend', ghostLayer);
-      if (st.done && v.win) { var tag = document.createElement('div'); tag.className = 'gp-stamp'; tag.textContent = '≈ ' + (r.level === 'unit' ? r.n + ' ' + r.answer : this._cardText(r, r.answer)); tag.style.left = (tall ? x0 + 8 : x0 + Math.min(along, fw - 2 * pad) / 2) + 'px'; tag.style.top = (tall ? floorY - Math.min(along, fh) + 8 : floorY - 34) + 'px'; frame.appendChild(tag); }
+      if (st.done && v.win) { var tag = document.createElement('div'); tag.className = 'gp-stamp'; tag.textContent = '≈ ' + (r.level === 'unit' ? r.n + ' ' + r.answer : this._cardText(r, r.answer)); tag.style.left = (tall ? x0 + 8 : x0 + Math.min(along, fw - 2 * pad) / 2) + 'px'; tag.style.top = (tall ? floorY - Math.min(along, fh) + 8 : floorY - 34) + 'px'; frame.appendChild(tag);
+        /* the stamp never covers the thing: beside the label for a size bar, over the picture otherwise; always inside the frame */
+        var tw = tag.offsetWidth, thh = tag.offsetHeight, tx, ty;
+        if (along < floorPx) { tx = chx + cw + 8 + tw <= fw - pad ? chx + cw + 8 : chx - 8 - tw; ty = chy + (cw - thh) / 2; }
+        else if (tall) { tx = x0 + 8; ty = floorY - Math.min(along, fh) + 8; }
+        else { tx = x0 + Math.min(along, fw - 2 * pad) / 2 - tw / 2; ty = floorY - 34; }
+        tag.style.left = Math.max(pad, Math.min(fw - pad - tw, tx)).toFixed(1) + 'px'; tag.style.top = Math.max(pad, Math.min(fh - pad - thh, ty)).toFixed(1) + 'px'; }
     } else {
       var nx = tall ? x0 + 12 : Math.max(pad, (fw - (wide ? 150 : 110)) / 2), ny = floorY - (wide ? 150 : 110);
       var box = document.createElement('div'); box.className = 'gp-neutral'; box.setAttribute('data-neutral', '1');
@@ -407,7 +413,7 @@ function injectGrowingPictureCSS() {
   + '.gp-sizebar{position:absolute;background:#F2784B;border-radius:3px;} .gp-chip{position:absolute;padding:4px;border-radius:12px;background:#FFFDF6;box-shadow:inset 0 0 0 2px #F2784B;} .gp-label{display:block;object-fit:contain;} .gp-leader{position:absolute;left:0;top:0;pointer-events:none;} .gp-leader path{stroke:#F2784B;stroke-width:2;stroke-dasharray:4 3;fill:none;} .gp-leader circle{fill:#F2784B;}'
   + '.gp-neutral{position:absolute;border:3px dashed #9AB8B1;border-radius:14px;box-sizing:border-box;} .gp-npic{width:100%;height:100%;object-fit:contain;display:block;opacity:.9;}'
   + '.gp-q{position:absolute;right:6px;top:2px;font-family:' + H + ';font-weight:800;font-size:28px;color:#146B5E;line-height:1;}'
-  + '.gp-stamp{position:absolute;transform:translate(-50%,0);padding:2px 10px;border-radius:10px;background:#FFE9C9;box-shadow:inset 0 0 0 2px #F2B33D;font-family:' + H + ';font-weight:800;font-size:20px;color:' + INK + ';white-space:nowrap;}'
+  + '.gp-stamp{position:absolute;padding:2px 10px;border-radius:10px;background:#FFE9C9;box-shadow:inset 0 0 0 2px #F2B33D;font-family:' + H + ';font-weight:800;font-size:20px;color:' + INK + ';white-space:nowrap;}'
   + '.gp-side{display:flex;flex-direction:column;gap:12px;flex:1;min-width:0;} .gp-wrap.is-narrow .gp-side{width:100%;gap:8px;}'
   + '.gp-head{display:flex;align-items:flex-start;gap:8px;} .gp-question{margin:0;flex:1;font-family:' + B + ';font-weight:800;font-size:22px;line-height:1.3;color:' + INK + ';} .gp-wrap.is-narrow .gp-question{font-size:19px;}'
   + '.gp-gauge{display:block;width:96px;height:96px;object-fit:contain;flex:none;} .gp-wrap.is-narrow .gp-gauge{width:64px;height:64px;} .gp-gauge.is-nod{animation:gpNod .6s ease-in-out 2;}'

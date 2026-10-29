@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Sprocket's Clock — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- Shell, the library pictures, the hour-ball core, then this activity (#162 The Hour Ball).
+       NOTE: bump ?v=N on EVERY change to hour-ball-*.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  <script src="/mini-tools/lcs-pictures.js?v=1"></script>
+  <script src="/mini-tools/hour-ball-core.js?v=1"></script>
+  <script src="/mini-tools/hour-ball-activity.js?v=1"></script>
+  <script>
+    LCS.mount(HourBallActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

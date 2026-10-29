@@ -4685,6 +4685,29 @@
         "Per 5 tellen vanaf de 12 om de minuten te vinden.",
         "Weten dat het uur het getal is waar de kleine wijzer al voorbij is, ook als hij bijna bij het volgende is."
       ]
+    },
+    "clock-digital.read-quarter-hour.2-md-c-7": {
+      "about": [
+        "Het lastigste aan kwart voor is het uur. Om 3.45 staat de kleine wijzer bijna op de 4, dus schrijven kinderen 4.45. De klok van Kukel antwoordt met een machine. Op de klok staat een knikkerbaan: elke keer dat de grote wijzer bij de 12 komt, rolt een bal met een getal door de goot het bakje in. De bal in het bakje is altijd het uur dat al begonnen is: om kwart voor vier wacht bal 4 nog bovenaan en ligt bal 3 nog in het bakje.",
+        "Elke opdracht laat een klok en vier digitale kaarten zien: het goede uur of het uur ernaast, met de goede minuten of hun spiegelbeeld (3.15 en 3.45). Elke foute kaart is een echte leesfout. Tik je op een kaart, dan komt het antwoord van die kaart op de klok: het uur als bal boven het dichte deksel van het bakje, de minuten als vlaggetje op de rand. Controleer opent het bakje. Een fout uur stuit af op de bal in het bakje: een later uur wacht nog boven in de goot, een vroeger uur ligt al op het plankje met voorbije uren. Foute minuten laten het vlaggetje los van de grote wijzer staan, en een stippellijn laat de afstand zien. Na een tweede misser loopt de klok door tot de 12, zodat je kind ziet dat de volgende bal pas dan valt, en daarna weer terug.",
+        "Er zijn twee niveaus: kwartieren, daarna tijden per 5 minuten. Met een instelling zet je het plankje met voorbije uren aan of uit. Is een tijd gelezen, dan kun je de grote wijzer rondslepen, en bij elke 12 valt er een bal. De activiteit sluit aan bij de SLO-kerndoelen voor meten: klokkijken op een wijzerklok en een digitale klok. Ze werkt zonder geluid, zonder tijdsdruk en zonder punten."
+      ],
+      "practices": [
+        "Kwart over en kwart voor lezen op een wijzerklok",
+        "Het uur vinden: het laatste getal waar de kleine wijzer al voorbij is",
+        "De grote wijzer op de 3 en op de 9 uit elkaar houden",
+        "Een wijzerklok koppelen aan een digitale tijd"
+      ],
+      "howToPlay": [
+        "Kijk naar de klok en tik op de kaart met dezelfde tijd. Het uur zweeft boven het bakje en de minuten komen als vlaggetje op de rand.",
+        "Druk op Controleer. Het bakje gaat open: passen de bal in het bakje en jouw bal bij elkaar en raakt de grote wijzer je vlaggetje, dan klopt het.",
+        "Kies in de instellingen de tijden (kwartieren of per 5 minuten) en of het plankje met voorbije uren te zien is."
+      ],
+      "learningGoals": [
+        "Tijden lezen op een wijzerklok op het kwartier en per 5 minuten, en ze koppelen aan een digitale tijd.",
+        "Weten dat je kwart voor 4 schrijft als 3.45, omdat het uur pas verandert als de grote wijzer bij de 12 komt.",
+        "De minuten aflezen aan de grote wijzer: op de 3 is het 15 minuten, op de 9 is het 45."
+      ]
     }
   }
 }

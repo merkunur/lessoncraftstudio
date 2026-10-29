@@ -4589,6 +4589,29 @@
         "Contare di 5 in 5 dal 12 per trovare i minuti.",
         "Sapere che l’ora è il numero che la lancetta corta ha superato, anche quando è quasi arrivata al successivo."
       ]
+    },
+    "clock-digital.read-quarter-hour.2-md-c-7": {
+      "about": [
+        "La cosa più difficile di «meno un quarto» è l’ora. Alle 3:45 la lancetta corta è quasi sul 4, così i bambini scrivono 4:45. L’orologio di Sprocket risponde con una macchina. Sopra l’orologio c’è una pista per palline: ogni volta che la lancetta lunga arriva sul 12, una pallina numerata scende lungo lo scivolo fino alla coppa. La pallina nella coppa è sempre l’ora che è cominciata: alle quattro meno un quarto la pallina 4 aspetta ancora in alto e nella coppa c’è ancora la 3.",
+        "Ogni turno mostra un orologio e quattro cartellini digitali: l’ora giusta o quella vicina, con i minuti giusti o il loro specchio (3:15 e 3:45). Ogni cartellino sbagliato è un vero errore di lettura. Toccando un cartellino, la sua risposta compare sull’orologio: l’ora come pallina sopra il coperchio chiuso della coppa, i minuti come bandierina sul bordo. Controlla apre la coppa. Un’ora sbagliata rimbalza sulla pallina nella coppa: un’ora successiva aspetta ancora in cima allo scivolo, una precedente è già sul vassoio delle ore passate. Minuti sbagliati lasciano la bandierina lontana dalla lancetta lunga, e una linea tratteggiata mostra la distanza. Dopo un secondo errore, l’orologio va avanti fino al 12 perché il bambino veda che la pallina dopo cade solo allora, e poi torna indietro.",
+        "Ci sono due livelli: i quarti d’ora e poi i minuti di 5 in 5. Un’impostazione mostra o nasconde il vassoio delle ore passate. Quando un’ora è stata letta, si può trascinare la lancetta lunga, e a ogni 12 cade una pallina. L’attività è in linea con le Indicazioni nazionali, nel nucleo Relazioni, dati e previsioni: leggere l’ora su orologi a lancette e digitali. Funziona senza audio, senza cronometro e senza punteggio."
+      ],
+      "practices": [
+        "Leggere «e un quarto» e «meno un quarto» su un orologio a lancette",
+        "Trovare l’ora: l’ultimo numero che la lancetta corta ha superato",
+        "Distinguere la lancetta lunga sul 3 e sul 9",
+        "Abbinare un orologio a un orario digitale"
+      ],
+      "howToPlay": [
+        "Guarda l’orologio e tocca il cartellino che segna la stessa ora. La sua ora fluttua sopra la coppa e i suoi minuti si piantano come bandierina sul bordo.",
+        "Premi Controlla. La coppa si apre: se la pallina nella coppa e la tua coincidono e la lancetta lunga tocca la tua bandierina, è giusto.",
+        "Nelle impostazioni scegli gli orari (quarti d’ora o minuti di 5 in 5) e se il vassoio delle ore passate si vede."
+      ],
+      "learningGoals": [
+        "Leggere l’ora su orologi a lancette ai quarti d’ora e di 5 in 5 minuti, e abbinarla all’orario digitale.",
+        "Sapere che le 4 meno un quarto si scrivono 3:45, perché l’ora cambia solo quando la lancetta lunga arriva sul 12.",
+        "Leggere i minuti sulla lancetta lunga: sul 3 sono 15 minuti, sul 9 sono 45."
+      ]
     }
   }
 }

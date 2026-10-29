@@ -4612,6 +4612,29 @@
         "Contar de 5 en 5 desde el 12 para encontrar los minutos.",
         "Saber que la hora es el número que la manecilla corta ya pasó, aunque casi llegue al siguiente."
       ]
+    },
+    "clock-digital.read-quarter-hour.2-md-c-7": {
+      "about": [
+        "Lo más difícil de «un cuarto para» es la hora. A las 3:45 la manecilla corta está casi en el 4, así que los niños escriben 4:45. El reloj de Sprocket responde con una máquina. Sobre el reloj hay una pista de canicas: cada vez que la manecilla larga llega al 12, una canica con un número baja por el tobogán hasta el vaso. La canica del vaso siempre es la hora que ya empezó; por eso, a un cuarto para las cuatro, la canica 4 todavía espera arriba y el vaso sigue teniendo la 3.",
+        "Cada ronda muestra un reloj y cuatro tarjetas digitales: la hora correcta o la de al lado, con los minutos correctos o su espejo (3:15 y 3:45). Cada tarjeta equivocada es un error real de lectura. Al tocar una tarjeta, su respuesta aparece en el reloj: su hora como una canica sobre la tapa cerrada del vaso y sus minutos como una banderita en el borde. Revisar abre el vaso. Una hora equivocada rebota en la canica del vaso: una hora más tarde todavía espera arriba del tobogán y una más temprana ya está en la charola de las horas pasadas. Unos minutos equivocados dejan la banderita lejos de la manecilla larga, y una línea punteada muestra la distancia. Tras un segundo error, el reloj avanza hasta el 12 para que el niño vea que la siguiente canica cae solo entonces, y luego regresa.",
+        "Hay dos niveles: cuartos de hora y luego de 5 en 5 minutos. Un ajuste muestra u oculta la charola de las horas pasadas. Cuando ya se leyó una hora, se puede arrastrar la manecilla larga, y en cada 12 cae una canica. La actividad sigue los planes y programas de la SEP, en el campo formativo Saberes y pensamiento científico: leer la hora en relojes de manecillas y digitales. Funciona sin sonido, sin cronómetro y sin puntos."
+      ],
+      "practices": [
+        "Leer «y cuarto» y «un cuarto para» en un reloj de manecillas",
+        "Encontrar la hora: el último número que ya pasó la manecilla corta",
+        "Distinguir la manecilla larga en el 3 y en el 9",
+        "Relacionar un reloj con una hora digital"
+      ],
+      "howToPlay": [
+        "Mira el reloj y toca la tarjeta que marca la misma hora. Su hora flota sobre el vaso y sus minutos se clavan como banderita en el borde.",
+        "Presiona Revisar. El vaso se abre: si la canica del vaso coincide con la tuya y la manecilla larga llega a tu banderita, es correcto.",
+        "En los ajustes, elige las horas (cuartos de hora o de 5 en 5 minutos) y si se ve la charola de las horas pasadas."
+      ],
+      "learningGoals": [
+        "Leer la hora en relojes de manecillas a los cuartos de hora y de 5 en 5 minutos, y relacionarla con la hora digital.",
+        "Saber que un cuarto para las 4 se escribe 3:45, porque la hora solo cambia cuando la manecilla larga llega al 12.",
+        "Leer los minutos en la manecilla larga: en el 3 son 15 minutos; en el 9 son 45."
+      ]
     }
   }
 }

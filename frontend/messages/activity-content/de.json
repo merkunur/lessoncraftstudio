@@ -4685,6 +4685,29 @@
         "In Fünferschritten ab der 12 die Minuten finden.",
         "Wissen, dass die Stunde die Zahl ist, an der der kleine Zeiger vorbei ist – auch wenn er fast bei der nächsten ist."
       ]
+    },
+    "clock-digital.read-quarter-hour.2-md-c-7": {
+      "about": [
+        "Das Schwierigste an „Viertel vor“ ist die Stunde. Um 3:45 steht der kleine Zeiger fast auf der 4, also schreiben Kinder 4:45. Sprockets Uhr antwortet darauf mit einer Maschine. Auf der Uhr sitzt eine Kugelbahn: Jedes Mal, wenn der große Zeiger bei der 12 ankommt, rollt eine Kugel mit einer Zahl die Rinne hinunter in den Becher. Die Kugel im Becher ist immer die Stunde, die schon begonnen hat. Um Viertel vor vier wartet die Kugel mit der 4 also noch oben, und im Becher liegt noch die 3.",
+        "Jede Aufgabe zeigt eine Uhr und vier Digitalkarten: die richtige Stunde oder ihre Nachbarstunde, mit den richtigen Minuten oder den gespiegelten (3:15 und 3:45). Jede falsche Karte ist ein echter Lesefehler. Tippt das Kind auf eine Karte, zeigt die Uhr den Vorschlag: die Stunde als Kugel über dem geschlossenen Becher, die Minuten als Fähnchen am Rand. Prüfen öffnet den Becher. Eine falsche Stunde prallt von der Kugel im Becher ab: Eine spätere Stunde wartet noch oben in der Rinne, eine frühere liegt schon auf der Ablage der vergangenen Stunden. Falsche Minuten lassen das Fähnchen fern vom großen Zeiger stehen, und eine gepunktete Linie zeigt den Abstand. Nach dem zweiten Fehlversuch läuft die Uhr bis zur 12 weiter, damit das Kind sieht, dass die nächste Kugel erst dann fällt, und wieder zurück.",
+        "Es gibt zwei Stufen: Viertelstunden, dann 5-Minuten-Schritte. Eine Einstellung zeigt oder versteckt die Ablage der vergangenen Stunden. Ist eine Uhrzeit gelesen, kann man den großen Zeiger herumziehen, und bei jeder 12 fällt eine Kugel. Die Aktivität orientiert sich am Lehrplan im Bereich Größen und Messen: Uhrzeiten an analogen und digitalen Uhren lesen. Sie funktioniert ohne Ton, und es gibt keinen Timer und keine Punkte."
+      ],
+      "practices": [
+        "Viertel nach und Viertel vor an einer Zeigeruhr lesen",
+        "Die Stunde finden: die letzte Zahl, an der der kleine Zeiger vorbei ist",
+        "Den großen Zeiger auf der 3 und auf der 9 unterscheiden",
+        "Eine Zeigeruhr einer Digitaluhrzeit zuordnen"
+      ],
+      "howToPlay": [
+        "Schau auf die Uhr und tippe auf die Karte mit derselben Uhrzeit. Ihre Stunde schwebt über dem Becher, ihre Minuten stecken als Fähnchen am Rand.",
+        "Drück auf Prüfen. Der Becher öffnet sich: Passen die Kugel im Becher und deine Kugel zusammen und trifft der große Zeiger dein Fähnchen, ist es richtig.",
+        "In den Einstellungen wählst du die Uhrzeiten (Viertelstunden oder 5-Minuten-Schritte) und ob die Ablage der vergangenen Stunden zu sehen ist."
+      ],
+      "learningGoals": [
+        "Uhrzeiten an Zeigeruhren auf die Viertelstunde und auf fünf Minuten genau lesen und Digitaluhrzeiten zuordnen.",
+        "Wissen, dass man Viertel vor 4 als 3:45 schreibt, weil die Stunde erst wechselt, wenn der große Zeiger bei der 12 ankommt.",
+        "Die Minuten am großen Zeiger ablesen: auf der 3 sind es 15 Minuten, auf der 9 sind es 45."
+      ]
     }
   }
 }

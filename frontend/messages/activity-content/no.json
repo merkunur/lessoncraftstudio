@@ -3926,6 +3926,29 @@
         "Telle fem om gangen fra 12-tallet for å finne minuttene.",
         "Vite at timen er tallet den lille viseren har passert, også når den nesten er ved det neste."
       ]
+    },
+    "clock-digital.read-quarter-hour.2-md-c-7": {
+      "about": [
+        "Det vanskeligste med kvart på er timen. Klokka 3.45 står den lille viseren nesten på 4-tallet, så barna skriver 4.45. Sprockets klokke svarer med en maskin. Oppå klokka sitter en kulebane: hver gang den store viseren kommer til 12-tallet, triller en kule med et tall ned renna og ned i koppen. Kula i koppen er alltid timen som har begynt, så når klokka er kvart på fire, venter kule nummer 4 fortsatt øverst, og i koppen ligger fortsatt 3-tallet.",
+        "Hver oppgave viser en klokke og fire digitale kort: riktig time eller nabotimen, med riktige minutter eller speilbildet deres (3.15 og 3.45). Hvert feil kort er en ekte lesefeil. Når barnet trykker på et kort, kommer forslaget opp på klokka: timen som en kule over koppens lukkede lokk og minuttene som et lite flagg på kanten. Sjekk åpner koppen. En feil time spretter av kula i koppen: en senere time venter fortsatt øverst i renna, en tidligere ligger allerede på brettet med timer som har gått. Feil minutter lar flagget stå langt fra den store viseren, og en prikket linje viser avstanden. Etter den andre feilen går klokka fram til 12-tallet, så barnet ser at neste kule faller først da, og så tilbake.",
+        "Det er to nivåer: kvarter og deretter hvert femte minutt. En innstilling viser eller skjuler brettet med timer som har gått. Når et klokkeslett er lest, kan man dra den store viseren rundt, og ved hvert 12-tall faller en kule. Aktiviteten er i tråd med LK20 om måling og tid: å lese av analoge og digitale klokker. Den virker uten lyd, og det er ingen tidtaking og ingen poeng."
+      ],
+      "practices": [
+        "Lese kvart over og kvart på på en klokke med visere",
+        "Finne timen: det siste tallet den lille viseren har passert",
+        "Skille den store viseren på 3-tallet fra den på 9-tallet",
+        "Koble en klokke til et digitalt klokkeslett"
+      ],
+      "howToPlay": [
+        "Se på klokka og trykk på kortet som viser det samme klokkeslettet. Timen svever over koppen, og minuttene settes som et lite flagg på kanten.",
+        "Trykk på Sjekk. Koppen åpner seg: hvis kula i koppen og kula di passer sammen og den store viseren treffer flagget ditt, er det riktig.",
+        "I innstillingene velger du klokkeslettene (kvarter eller hvert femte minutt) og om brettet med timer som har gått, skal vises."
+      ],
+      "learningGoals": [
+        "Lese av klokkeslett på en klokke med visere på kvarteret og på fem minutter nær og koble det til digital tid.",
+        "Vite at kvart på 4 skrives 3.45, fordi timen først skifter når den store viseren kommer til 12-tallet.",
+        "Lese minuttene på den store viseren: på 3-tallet er det 15 minutter, på 9-tallet er det 45."
+      ]
     }
   }
 }

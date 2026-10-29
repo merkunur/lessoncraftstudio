@@ -1,8 +1,8 @@
 [
   {
     "id": "clock-digital.read-quarter-hour.2-md-c-7",
-    "tool": "clock-digital-activity",
-    "task_template": "read-time",
+    "tool": "hour-ball-activity",
+    "task_template": "hour-ball",
     "alignment": { "framework": "CCSS", "code": "2.MD.C.7", "grade": "2", "strand": "Measurement & Data" },
     "theme": null,
     "params": {
@@ -21,15 +21,42 @@
     },
     "slug": {
       "en": "read-clock-to-the-quarter-hour",
-      "fr": "lire-lheure-quarts-dheure-ce2"
+      "fr": "lire-lheure-quarts-dheure-ce2",
+      "de": "uhrzeit-viertelstunden-lesen-klasse-2",
+      "es": "leer-el-reloj-cuartos-de-hora-segundo-grado",
+      "pt": "ler-as-horas-quartos-de-hora-2-ano",
+      "it": "leggere-l-orologio-quarti-d-ora-classe-seconda",
+      "nl": "klokkijken-kwart-over-en-kwart-voor-groep-4",
+      "sv": "lasa-klockan-kvart-over-och-kvart-i-ak-2",
+      "da": "laes-uret-kvart-over-og-kvart-i-2-klasse",
+      "no": "les-klokka-kvart-over-og-kvart-pa-2-trinn",
+      "fi": "kellonaika-vartti-yli-ja-varttia-vaille-2-luokka"
     },
     "page_title": {
       "en": "Sprocket's Clock — Read the Clock to the Quarter-Hour (Grade 2)",
-      "fr": "L'horloge de Sprocket — Lire les quarts d'heure (CE2)"
+      "fr": "L'horloge de Sprocket — Lire les quarts d'heure (CE2)",
+      "de": "Uhrzeit lesen: Viertel nach und Viertel vor – Klasse 2 | Sprockets Uhr",
+      "es": "Leer el reloj: «y cuarto» y «cuarto para» (2.º grado de primaria)",
+      "pt": "Ler as horas: «e quinze» e «quinze para» — 2º ano",
+      "it": "Leggere l’orologio: e un quarto e meno un quarto – classe seconda",
+      "nl": "Klokkijken: kwart over en kwart voor – groep 4",
+      "sv": "Tores klocka – läs kvart över och kvart i (åk 2)",
+      "da": "Sprockets ur – læs kvart over og kvart i (2. klasse)",
+      "no": "Sprockets klokke – les kvart over og kvart på (2. trinn)",
+      "fi": "Sprocketin kello – vartti yli ja varttia vaille (2. lk)"
     },
     "page_intro": {
       "en": "An interactive Grade 2 time activity: read an analog clock at quarter past and quarter to, then tap the matching digital time. Children learn that the long hand on the 3 means quarter past (3:15) and on the 9 means quarter to (3:45) — and that quarter to 4 is written 3:45, not 4:45. Sprocket the rooster cheers them on. A friendly step toward telling time to the nearest five minutes. Common Core 2.MD.C.7.",
-      "fr": "Avec Sprocket le coq, votre enfant lit l'horloge à aiguilles pour dire les quarts d'heure, « et quart », « et demie » et « moins le quart », comme « 3 h 15 » ou « 3 h 45 » (« quatre heures moins le quart »). Activité interactive, CE2, « Grandeurs et mesures »."
+      "fr": "Avec Sprocket le coq, votre enfant lit l'horloge à aiguilles pour dire les quarts d'heure, « et quart », « et demie » et « moins le quart », comme « 3 h 15 » ou « 3 h 45 » (« quatre heures moins le quart »). Activité interactive, CE2, « Grandeurs et mesures ».",
+      "de": "Ihr Kind liest eine Uhr mit Zeigern zur Viertelstunde und tippt auf die passende Digitalkarte. Bei jeder vollen Stunde fällt eine Kugel mit der neuen Stunde in den Becher: Um Viertel vor 4 wartet die Kugel mit der 4 noch oben, im Becher liegt die 3 – deshalb schreibt man 3:45. Vier Karten pro Aufgabe, jede falsche Karte ist ein typischer Lesefehler. Danach auch 5-Minuten-Schritte. Interaktiv, Klasse 2, passend zum Lehrplan.",
+      "es": "Tu hijo lee un reloj de manecillas a los cuartos de hora y toca la tarjeta digital que corresponde. Cada vez que la manecilla larga llega al 12, cae en el vaso una canica con la hora nueva: a un cuarto para las 4, la canica 4 todavía espera arriba y el vaso tiene la 3; por eso se escribe 3:45. Cuatro tarjetas por ronda, y cada tarjeta equivocada es un error típico de lectura. Luego, de 5 en 5 minutos. Actividad interactiva de segundo grado, alineada con los programas de la SEP.",
+      "pt": "A criança lê um relógio de ponteiros nos quartos de hora e toca no cartão digital certo. Cada vez que o ponteiro grande chega ao 12, cai no copinho uma bolinha com a nova hora: às quinze para as 4, a bolinha 4 ainda espera lá em cima e o copinho tem a 3; por isso se escreve 3:45. Quatro cartões por rodada, e cada cartão errado é um erro comum de leitura. Depois, de 5 em 5 minutos. Atividade interativa para o 2º ano, alinhada à BNCC.",
+      "it": "Il bambino legge un orologio a lancette ai quarti d’ora e tocca il cartellino digitale giusto. Ogni volta che la lancetta lunga arriva sul 12, nella coppa cade una pallina con la nuova ora: alle 4 meno un quarto la pallina 4 aspetta ancora in alto e nella coppa c’è la 3; per questo si scrive 3:45. Quattro cartellini per turno, e ogni cartellino sbagliato è un errore di lettura tipico. Poi anche i minuti di 5 in 5. Attività interattiva per la classe seconda, in linea con le Indicazioni nazionali.",
+      "nl": "Je kind leest een wijzerklok op het kwartier en tikt op de goede digitale kaart. Elke keer dat de grote wijzer bij de 12 komt, valt er een bal met het nieuwe uur in het bakje: om kwart voor 4 wacht bal 4 nog bovenaan en ligt bal 3 in het bakje – daarom schrijf je 3.45. Vier kaarten per opdracht, en elke foute kaart is een bekende leesfout. Daarna ook tijden per 5 minuten. Interactief, groep 4, passend bij de kerndoelen.",
+      "sv": "Barnet läser en klocka med visare på kvarten och trycker på rätt digitalt kort. Varje gång stora visaren kommer till 12:an trillar en kula med den nya timmen ner i koppen: när klockan är kvart i 4 väntar kula nummer 4 fortfarande högst upp och i koppen ligger 3:an – därför skriver man 3.45. Fyra kort per uppgift, och varje fel kort är ett vanligt läsfel. Sedan även var femte minut. Interaktivt, åk 2, i linje med Lgr22.",
+      "da": "Barnet læser et ur med visere på kvarteret og trykker på det rigtige digitale kort. Hver gang den store viser når 12-tallet, falder en kugle med den nye time ned i bægeret: når klokken er kvart i 4, venter kugle nummer 4 stadig øverst, og i bægeret ligger 3-tallet – derfor skriver man 3.45. Fire kort pr. opgave, og hvert forkert kort er en typisk læsefejl. Derefter også hvert femte minut. Interaktivt, 2. klasse, i tråd med Fælles Mål.",
+      "no": "Barnet leser en klokke med visere på kvarteret og trykker på riktig digitalt kort. Hver gang den store viseren kommer til 12-tallet, faller en kule med den nye timen ned i koppen: når klokka er kvart på 4, venter kule nummer 4 fortsatt øverst, og i koppen ligger 3-tallet – derfor skriver man 3.45. Fire kort per oppgave, og hvert feil kort er en vanlig lesefeil. Deretter også hvert femte minutt. Interaktivt, 2. trinn, i tråd med LK20.",
+      "fi": "Lapsi lukee viisarikellon vartin tarkkuudella ja napauttaa oikeaa digitaalista korttia. Aina kun pitkä viisari tulee numeron 12 kohdalle, kuppiin putoaa pallo, jossa on uusi tunti: kun kello on varttia vaille 4, pallo numero 4 odottaa vielä ylhäällä ja kupissa on 3 – siksi kirjoitetaan 3.45. Neljä korttia joka tehtävässä, ja jokainen väärä kortti on tavallinen lukuvirhe. Sitten myös viiden minuutin ajat. Interaktiivinen, 2. luokka, perusopetuksen opetussuunnitelman (OPS 2014) mukainen."
     },
     "kid_prompt_template": "clock-digital"
   },

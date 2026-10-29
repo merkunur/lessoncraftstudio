@@ -4613,6 +4613,29 @@
         "Contar de 5 em 5 a partir do 12 para achar os minutos.",
         "Saber que a hora é o número pelo qual o ponteiro pequeno já passou, mesmo quando ele quase chega ao próximo."
       ]
+    },
+    "clock-digital.read-quarter-hour.2-md-c-7": {
+      "about": [
+        "O mais difícil do «quinze para» é a hora. Às 3:45 o ponteiro pequeno está quase no 4, e a criança escreve 4:45. O relógio do Sprocket responde com uma máquina. Em cima do relógio há uma pista de bolinhas: cada vez que o ponteiro grande chega ao 12, uma bolinha numerada desce pelo escorregador até o copinho. A bolinha no copinho é sempre a hora que já começou; por isso, às quinze para as quatro, a bolinha 4 ainda espera lá em cima e o copinho continua com a 3.",
+        "Cada rodada mostra um relógio e quatro cartões digitais: a hora certa ou a vizinha, com os minutos certos ou o espelho deles (3:15 e 3:45). Cada cartão errado é um erro real de leitura. Ao tocar num cartão, a resposta dele aparece no relógio: a hora como uma bolinha sobre a tampa fechada do copinho e os minutos como uma bandeirinha na borda. Conferir abre o copinho. Uma hora errada quica na bolinha do copinho: uma hora mais tarde ainda espera no alto do escorregador, e uma mais cedo já está na bandeja das horas passadas. Minutos errados deixam a bandeirinha longe do ponteiro grande, e uma linha pontilhada mostra a distância. Depois de um segundo erro, o relógio anda até o 12 para a criança ver que a próxima bolinha só cai nessa hora, e depois volta.",
+        "Há dois níveis: quartos de hora e depois de 5 em 5 minutos. Um ajuste mostra ou esconde a bandeja das horas passadas. Depois que a hora é lida, dá para arrastar o ponteiro grande, e em cada 12 cai uma bolinha. A atividade está alinhada à BNCC, na unidade temática Grandezas e medidas: ler horas em relógios de ponteiros e digitais. Funciona sem som, sem cronômetro e sem pontuação."
+      ],
+      "practices": [
+        "Ler «e quinze» e «quinze para» num relógio de ponteiros",
+        "Achar a hora: o último número pelo qual o ponteiro pequeno já passou",
+        "Diferenciar o ponteiro grande no 3 e no 9",
+        "Ligar um relógio a uma hora digital"
+      ],
+      "howToPlay": [
+        "Olhe o relógio e toque no cartão que mostra a mesma hora. A hora dele flutua sobre o copinho, e os minutos viram uma bandeirinha na borda.",
+        "Aperte Conferir. O copinho se abre: se a bolinha do copinho combina com a sua e o ponteiro grande chega à sua bandeirinha, está certo.",
+        "Nos ajustes, escolha as horas (quartos de hora ou de 5 em 5 minutos) e se a bandeja das horas passadas aparece."
+      ],
+      "learningGoals": [
+        "Ler horas em relógios de ponteiros nos quartos de hora e de 5 em 5 minutos, e ligá-las à hora digital.",
+        "Saber que quinze para as 4 se escreve 3:45, porque a hora só muda quando o ponteiro grande chega ao 12.",
+        "Ler os minutos no ponteiro grande: no 3 são 15 minutos; no 9 são 45."
+      ]
     }
   }
 }

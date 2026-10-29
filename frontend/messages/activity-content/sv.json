@@ -4197,6 +4197,29 @@
         "Räkna med fem i taget från 12:an för att hitta minuterna.",
         "Veta att timmen är den siffra som lilla visaren har passerat, även när den nästan är framme vid nästa."
       ]
+    },
+    "clock-digital.read-quarter-hour.2-md-c-7": {
+      "about": [
+        "Det svåraste med kvart i är timmen. Klockan 3.45 står lilla visaren nästan på 4:an, så barn skriver 4.45. Tores klocka svarar med en maskin. På klockan sitter en kulbana: varje gång stora visaren kommer till 12:an rullar en kula med en siffra ner i rännan och in i koppen. Kulan i koppen är alltid timmen som har börjat, så när klockan är kvart i fyra väntar kula nummer 4 fortfarande högst upp och i koppen ligger fortfarande 3:an.",
+        "Varje uppgift visar en klocka och fyra digitala kort: rätt timme eller grannen, med rätt minuter eller spegelbilden (3.15 och 3.45). Varje fel kort är ett riktigt läsfel. När barnet trycker på ett kort hamnar förslaget på klockan: timmen som en kula ovanför koppens stängda lock och minuterna som en flagga på kanten. Kolla öppnar koppen. En fel timme studsar mot kulan i koppen: en senare timme väntar fortfarande högst upp i rännan, en tidigare ligger redan på brickan med timmar som gått. Fel minuter lämnar flaggan långt från stora visaren, och en prickad linje visar avståndet. Efter ett andra fel går klockan fram till 12:an så att barnet ser att nästa kula trillar ner först då, och sedan tillbaka.",
+        "Det finns två nivåer: kvartar och sedan var femte minut. En inställning visar eller döljer brickan med timmar som gått. När en tid är läst kan man dra stora visaren runt, och vid varje 12 trillar en kula ner. Aktiviteten följer Lgr22, centralt innehåll om mätning och tid: att läsa av analoga och digitala klockor. Den fungerar utan ljud, och det finns ingen tidtagning och inga poäng."
+      ],
+      "practices": [
+        "Läsa kvart över och kvart i på en klocka med visare",
+        "Hitta timmen: det sista talet som lilla visaren har passerat",
+        "Skilja stora visaren på 3:an från stora visaren på 9:an",
+        "Para ihop en klocka med en digital tid"
+      ],
+      "howToPlay": [
+        "Titta på klockan och tryck på kortet som visar samma tid. Timmen svävar ovanför koppen och minuterna sätts som en flagga på kanten.",
+        "Tryck på Kolla. Koppen öppnas: om kulan i koppen och din kula passar ihop och stora visaren når din flagga är det rätt.",
+        "I inställningarna väljer du tiderna (kvartar eller var femte minut) och om brickan med timmar som gått syns."
+      ],
+      "learningGoals": [
+        "Läsa av tiden på en klocka med visare på kvarten och på fem minuter när, och para ihop den med digital tid.",
+        "Veta att kvart i 4 skrivs 3.45, eftersom timmen byts först när stora visaren kommer till 12:an.",
+        "Läsa minuterna på stora visaren: på 3:an är det 15 minuter, på 9:an är det 45."
+      ]
     }
   }
 }

@@ -3900,6 +3900,29 @@
         "Minuuttien löytäminen laskemalla viisi kerrallaan numerosta 12.",
         "Tietää, että tunti on se numero, jonka lyhyt viisari on ohittanut, vaikka se olisi melkein seuraavan kohdalla."
       ]
+    },
+    "clock-digital.read-quarter-hour.2-md-c-7": {
+      "about": [
+        "Vaikeinta varttia vaille -ajoissa on tunti. Kun kello on 3.45, lyhyt viisari on melkein numeron 4 kohdalla, joten lapset kirjoittavat 4.45. Sprocketin kello vastaa tähän koneella. Kellon päällä on kuularata: aina kun pitkä viisari tulee numeron 12 kohdalle, numeroitu pallo vierii kourua pitkin kuppiin. Kupissa oleva pallo on aina se tunti, joka on alkanut, joten kun kello on varttia vaille neljä, pallo numero 4 odottaa vielä ylhäällä ja kupissa on yhä 3.",
+        "Jokaisessa tehtävässä on kello ja neljä digitaalista korttia: oikea tunti tai sen naapuri, oikeilla minuuteilla tai niiden peilikuvalla (3.15 ja 3.45). Jokainen väärä kortti on todellinen lukuvirhe. Kun lapsi napauttaa korttia, sen ehdotus näkyy kellossa: tunti pallona kupin suljetun kannen yllä ja minuutit pienenä lippuna reunassa. Tarkista avaa kupin. Väärä tunti kimpoaa kupissa olevasta pallosta: myöhempi tunti odottaa vielä kourun yläpäässä, aikaisempi on jo menneiden tuntien tarjottimella. Väärät minuutit jättävät lipun kauas pitkästä viisarista, ja pisteviiva näyttää välin. Toisen virheen jälkeen kello kulkee numeroon 12 asti, jotta lapsi näkee seuraavan pallon putoavan vasta silloin, ja sitten takaisin.",
+        "Tasoja on kaksi: vartit ja sitten viiden minuutin ajat. Asetuksesta menneiden tuntien tarjotin näkyy tai on piilossa. Kun aika on luettu, pitkää viisaria voi vetää ympäri, ja aina kun pitkä viisari tulee numeron 12 kohdalle, putoaa pallo. Tehtävä tukee OPS 2014 -tavoitteita mittaamisessa: ajan lukeminen viisarikellosta ja digitaalisesta kellosta. Se toimii ilman ääntä, eikä siinä ole ajanottoa tai pisteitä."
+      ],
+      "practices": [
+        "Vartti yli ja varttia vaille -aikojen lukeminen viisarikellosta",
+        "Tunnin löytäminen: viimeinen numero, jonka lyhyt viisari on ohittanut",
+        "Pitkän viisarin erottaminen numeroiden 3 ja 9 kohdalla",
+        "Kellon yhdistäminen digitaaliseen aikaan"
+      ],
+      "howToPlay": [
+        "Katso kelloa ja napauta korttia, joka näyttää saman ajan. Sen tunti leijuu kupin yllä, ja minuutit tulevat lipuksi reunaan.",
+        "Paina Tarkista. Kuppi aukeaa: jos kupissa oleva pallo ja sinun pallosi sopivat yhteen ja pitkä viisari osuu lippuusi, vastaus on oikein.",
+        "Valitse asetuksista ajat (vartit tai viiden minuutin ajat) ja näkyykö menneiden tuntien tarjotin."
+      ],
+      "learningGoals": [
+        "Ajan lukeminen viisarikellosta vartin ja viiden minuutin tarkkuudella sekä sen yhdistäminen digitaaliseen aikaan.",
+        "Tietää, että varttia vaille 4 kirjoitetaan 3.45, koska tunti vaihtuu vasta, kun pitkä viisari tulee numeron 12 kohdalle.",
+        "Minuuttien lukeminen pitkästä viisarista: numeron 3 kohdalla on 15 minuuttia, numeron 9 kohdalla 45."
+      ]
     }
   }
 }

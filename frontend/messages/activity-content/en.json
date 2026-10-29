@@ -1386,25 +1386,25 @@
     },
     "clock-digital.read-quarter-hour.2-md-c-7": {
       "about": [
-        "An analog clock shows a time like 3:15, 9:45, 6:15, or 1:45, and the child reads the hands and taps the matching digital time from three choices. Sprocket the rooster cheers along in this interactive Grade 2 time activity about reading quarter past and quarter to, all in the browser with nothing to install and no sign-up.",
-        "The two ideas it builds are that the long hand on the 3 means quarter past — fifteen minutes in — and on the 9 means quarter to. The trickier one is that quarter to 4 is written 3:45, not 4:45, because the hour has not arrived yet, and the activity pairs each right answer against that exact mix-up so the child has to read the hour hand carefully. Telling 3:15 from 3:45 is the heart of quarter-hour reading.",
-        "It is aligned to Common Core 2.MD.C.7 — telling and writing time from analog clocks to the nearest five minutes, including the quarter hours. No timer, no score — just calm, playful practice."
+        "The hardest thing about quarter to is the hour. At 3:45 the short hand is nearly on the 4, so children write 4:45. Sprocket's Clock answers that with a machine. A marble run sits on the clock: every time the long hand reaches the 12, a numbered ball rolls down the chute into the cup. The ball in the cup is always the hour that has begun, so at quarter to four the 4-ball is still waiting at the top and the cup still holds the 3.",
+        "Each round shows a clock and four flip-clock cards: the right hour or its neighbour, with the right minutes or their mirror (3:15 and 3:45). Every wrong card is a real reading mistake. Tapping a card posts its guess on the clock: its hour as a marble over the cup's closed lid, its minutes as a little pin in the rim. Check opens the lid. A wrong hour bounces off the ball in the cup: a later hour is still waiting at the top of the chute, an earlier one is already in the tray of past hours. Wrong minutes leave the pin standing away from the long hand, with a dotted line showing the gap. After a second miss, the clock runs on to the 12 so the child sees the next ball drop only then, and runs back.",
+        "There are two levels: quarter hours, then five-minute times. A setting shows or hides the tray of past hours. Once a time is read, the long hand can be dragged round, and a ball drops at every 12. It follows Common Core 2.MD.C.7 (tell and write time from analog and digital clocks to the nearest five minutes). It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Reading the long hand on the 3 as quarter past and on the 9 as quarter to",
-        "Understanding that quarter to 4 is written 3:45, not 4:45",
-        "Reading the hour hand carefully near the next hour",
-        "Telling quarter past apart from quarter to for the same hour"
+        "Read quarter past and quarter to on a clock with hands",
+        "Find the hour: the last number the short hand has passed",
+        "Tell the long hand on the 3 from the long hand on the 9",
+        "Match a clock to a digital time"
       ],
       "howToPlay": [
-        "Look at the clock and read whether it is quarter past or quarter to, then which hour.",
-        "Tap the digital time that matches, then check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Look at the clock, then tap the card that shows the same time. Its hour floats over the cup and its minutes go in the rim as a pin.",
+        "Press Check. The cup opens: if the ball in the cup and your ball match, and the long hand meets your pin, you are right.",
+        "In the settings, choose the times (quarter hours or five minutes) and whether the tray of past hours is shown."
       ],
       "learningGoals": [
-        "Read an analog clock at quarter past and quarter to — part of Common Core 2.MD.C.7.",
-        "Understand that quarter to the next hour is still written with the current hour, like 3:45.",
-        "Build the quarter-hour reading that leads into telling time to the nearest five minutes."
+        "Tell time from analog clocks to the quarter hour and to five minutes, and match it to digital time (Common Core 2.MD.C.7).",
+        "Know that quarter to 4 is written 3:45, because the hour changes only when the long hand reaches the 12.",
+        "Read the minutes from the long hand: on the 3 it is 15 minutes, on the 9 it is 45."
       ]
     },
     "clock-elapsed.add-subtract.3-md-a-1": {

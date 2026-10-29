@@ -2116,25 +2116,25 @@
     },
     "clock-digital.read-quarter-hour.2-md-c-7": {
       "about": [
-        "Sprocket le coq a besoin d'un coup de main pour lire l'horloge au quart d'heure près ! Votre enfant regarde les aiguilles, puis touche l'heure qui correspond : « 3 h 15 » se dit « trois heures et quart », et « 3 h 45 » se dit « quatre heures moins le quart ». C'ça se joue directement dans le navigateur et il n'y a rien à installer.",
-        "L'activité travaille les trois repères clés du cadran : « et quart » quand la grande aiguille marque le quart, « et demie » à la demi-heure, et « moins le quart » aux trois quarts. C'est l'occasion de découvrir une particularité du français : « moins le quart » regarde vers l'heure suivante, si bien que 3 h 45 se lit « quatre heures moins le quart ».",
-        "Tout se fait en douceur : pas de chronomètre, pas de points, pas de pression. Votre enfant avance à son rythme, essaie et recommence autant qu'il le souhaite. L'activité est alignée sur « les programmes officiels », domaine « Grandeurs et mesures »."
+        "Le plus difficile, avec « moins le quart », c’est l’heure. À 3 h 45, la petite aiguille est presque sur le 4, alors les enfants écrivent 4 h 45. L’horloge de Sprocket répond par une machine. Un circuit de billes est posé sur l’horloge : chaque fois que la grande aiguille arrive au 12, une bille numérotée descend le toboggan jusque dans le gobelet. La bille dans le gobelet est toujours l’heure qui a commencé : à quatre heures moins le quart, la bille 4 attend encore en haut et le gobelet contient toujours la 3.",
+        "Chaque tour montre une horloge et quatre cartes numériques : la bonne heure ou sa voisine, avec les bonnes minutes ou leur miroir (3 h 15 et 3 h 45). Chaque mauvaise carte est une vraie erreur de lecture. Toucher une carte pose sa proposition sur l’horloge : son heure en bille au-dessus du gobelet fermé, ses minutes en petit drapeau sur le bord. Vérifier ouvre le gobelet. Une mauvaise heure rebondit sur la bille du gobelet : une heure plus tard attend encore en haut du toboggan, une heure plus tôt est déjà sur le plateau des heures passées. De mauvaises minutes laissent le drapeau loin de la grande aiguille, et une ligne en pointillés montre l’écart. Après une deuxième erreur, l’horloge avance jusqu’au 12 pour que l’enfant voie la bille suivante tomber seulement à ce moment-là, puis elle revient en arrière.",
+        "Il y a deux niveaux : les quarts d’heure, puis les minutes de 5 en 5. Un réglage montre ou cache le plateau des heures passées. Une fois l’heure lue, on peut faire tourner la grande aiguille, et une bille tombe à chaque 12. L’activité suit les programmes officiels, dans le domaine Grandeurs et mesures : lire l’heure sur une horloge à aiguilles et sur un affichage numérique. Elle fonctionne sans son, sans chronomètre et sans score."
       ],
       "practices": [
-        "Lire l'heure sur une horloge à aiguilles au quart d'heure près",
-        "Comprendre « et quart », « et demie » et « moins le quart »",
-        "Découvrir que « moins le quart » annonce l'heure suivante (3 h 45 = quatre heures moins le quart)",
-        "Associer l'horloge à aiguilles à l'heure écrite qui correspond"
+        "Lire « et quart » et « moins le quart » sur une horloge à aiguilles",
+        "Trouver l’heure : le dernier nombre que la petite aiguille a dépassé",
+        "Distinguer la grande aiguille sur le 3 et sur le 9",
+        "Associer une horloge à une heure numérique"
       ],
       "howToPlay": [
-        "Regarde bien l'horloge de Sprocket et la position des deux aiguilles",
-        "Lis l'heure indiquée : est-ce « et quart », « et demie » ou « moins le quart » ?",
-        "Touche l'heure écrite qui correspond"
+        "Regarde l’horloge, puis touche la carte qui montre la même heure. Son heure flotte au-dessus du gobelet, ses minutes se plantent en drapeau sur le bord.",
+        "Appuie sur Vérifier. Le gobelet s’ouvre : si la bille du gobelet va avec ta bille et que la grande aiguille touche ton drapeau, c’est juste.",
+        "Dans les réglages, choisis les heures (quarts d’heure ou minutes de 5 en 5) et si le plateau des heures passées est affiché."
       ],
       "learningGoals": [
-        "Votre enfant lit l'heure au quart d'heure près sur une horloge à aiguilles",
-        "Votre enfant reconnaît et nomme « et quart », « et demie » et « moins le quart »",
-        "Votre enfant comprend que « moins le quart » se lit avec l'heure suivante"
+        "Lire l’heure sur une horloge à aiguilles au quart d’heure et à cinq minutes près, et l’associer à l’heure numérique.",
+        "Savoir que quatre heures moins le quart s’écrit 3 h 45, parce que l’heure ne change que quand la grande aiguille arrive au 12.",
+        "Lire les minutes sur la grande aiguille : sur le 3, c’est 15 minutes ; sur le 9, c’est 45."
       ]
     },
     "graph-it.bar-graph.2-md-d-10": {

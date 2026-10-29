@@ -3901,6 +3901,29 @@
         "Tælle fem ad gangen fra 12-tallet for at finde minutterne.",
         "Vide, at timen er det tal, den lille viser er gået forbi, også når den næsten er ved det næste."
       ]
+    },
+    "clock-digital.read-quarter-hour.2-md-c-7": {
+      "about": [
+        "Det sværeste ved kvart i er timen. Klokken 3.45 står den lille viser næsten på 4-tallet, så børn skriver 4.45. Sprockets ur svarer med en maskine. Oven på uret sidder en kuglebane: hver gang den store viser når 12-tallet, triller en kugle med et tal ned ad renden og ned i bægeret. Kuglen i bægeret er altid den time, der er begyndt, så når klokken er kvart i fire, venter kugle nummer 4 stadig øverst, og i bægeret ligger stadig 3-tallet.",
+        "Hver opgave viser et ur og fire digitale kort: den rigtige time eller nabotimen, med de rigtige minutter eller deres spejlbillede (3.15 og 3.45). Hvert forkert kort er en rigtig læsefejl. Når barnet trykker på et kort, kommer forslaget op på uret: timen som en kugle over bægerets lukkede låg og minutterne som et lille flag på kanten. Tjek åbner bægeret. En forkert time preller af på kuglen i bægeret: en senere time venter stadig øverst i renden, en tidligere ligger allerede i bakken med timer, der er gået. Forkerte minutter lader flaget stå langt fra den store viser, og en prikket linje viser afstanden. Efter den anden fejl kører uret frem til 12-tallet, så barnet ser, at den næste kugle først falder dér, og derefter tilbage.",
+        "Der er to niveauer: kvarterer og derefter hvert femte minut. En indstilling viser eller skjuler bakken med timer, der er gået. Når et klokkeslæt er læst, kan man trække den store viser rundt, og ved hvert 12-tal falder en kugle. Aktiviteten er i tråd med Fælles Mål inden for geometri og måling: at aflæse analoge og digitale ure. Den virker uden lyd, og der er ingen tidtagning og ingen point."
+      ],
+      "practices": [
+        "Aflæse kvart over og kvart i på et ur med visere",
+        "Finde timen: det sidste tal, den lille viser er gået forbi",
+        "Kende forskel på den store viser på 3-tallet og på 9-tallet",
+        "Sætte et ur sammen med et digitalt klokkeslæt"
+      ],
+      "howToPlay": [
+        "Se på uret, og tryk på det kort, der viser det samme klokkeslæt. Timen svæver over bægeret, og minutterne sættes som et lille flag på kanten.",
+        "Tryk på Tjek. Bægeret åbner sig: hvis kuglen i bægeret og din kugle passer sammen, og den store viser rammer dit flag, er det rigtigt.",
+        "I indstillingerne vælger du klokkeslæt (kvarterer eller hvert femte minut), og om bakken med timer, der er gået, skal vises."
+      ],
+      "learningGoals": [
+        "Aflæse klokkeslæt på et ur med visere på kvarteret og på fem minutter nær og sætte det sammen med digital tid.",
+        "Vide, at kvart i 4 skrives 3.45, fordi timen først skifter, når den store viser når 12-tallet.",
+        "Aflæse minutterne på den store viser: på 3-tallet er det 15 minutter, på 9-tallet er det 45."
+      ]
     }
   }
 }

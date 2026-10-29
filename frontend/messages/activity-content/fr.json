@@ -1765,24 +1765,25 @@
     },
     "tildy.measure-ruler.2-md-a-1": {
       "about": [
-        "Dans l'atelier de Tildy la couturière, ton enfant mesure des rubans et des cordes avec une vraie règle graduée. Il fait glisser la règle pour aligner le 0 sur le début de la bande, appuie sur « Mesurer », puis lit le nombre inscrit à l'autre bout. Attention au petit piège : si on commence au 1 au lieu du 0, la mesure indique un centimètre de trop peu — le jeu le montre avec douceur, jamais en rouge, et invite à replacer la règle. D'autres défis viennent enrichir le jeu : une règle cassée qui commence à 2, repérer ce qui a mal tourné dans une mesure, ou choisir la règle assez longue.",
-        "Mesurer une longueur avec la règle graduée (aligner le 0, lire les centimètres), choisir l'instrument adapté et raisonner sur les erreurs de mesure est un attendu du CE1. En plaçant lui-même la règle, l'enfant comprend pourquoi le 0 doit être au départ et construit un vrai sens de la mesure. Le jeu fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Grandeurs et mesures »)."
+        "Dans L’atelier de couture, une bande est posée sur la table de coupe : un ruban, une bande de cuir, un fil de laine, un cordon, du feutre, de la dentelle ou un élastique. Le chat vient de pousser la règle. L’enfant fait glisser la règle jusqu’à ce que son 0 soit au début de la bande, puis touche le nombre à l’autre bout. Quand il touche Vérifier, la roulette de coupe de la couturière avance le long de la règle depuis le 0 et coupe à chaque centimètre : les morceaux tombent dans le bocal, et ce que la règle n’a pas mesuré reste sur la table.",
+        "Les deux erreurs classiques deviennent visibles. Si le 0 était à l’intérieur de la bande, il reste un bout avant lui. Si le 0 était avant la bande, la roulette coupe d’abord dans le vide. Avec le réglage « règles piégées », on trouve des règles cassées qui ne commencent pas à 0 : l’enfant touche alors chaque intervalle d’un centimètre que la bande recouvre. La couturière se trompe aussi et l’enfant la corrige, et sur un présentoir, une seule règle est assez longue. Chaque bande terminée est accrochée avec sa longueur.",
+        "L’activité suit les programmes officiels du CE1, dans le domaine Grandeurs et mesures : mesurer des longueurs en centimètres avec une règle graduée. Rien ne s’allume quand la règle est presque bien placée : le résultat n’apparaît qu’après Vérifier. Elle fonctionne sans son, sans chronomètre et sans score."
       ],
       "practices": [
-        "Aligner le 0 de la règle sur le début de la bande",
-        "Lire la mesure en centimètres à l'autre bout",
-        "Comprendre qu'un mauvais placement fausse la mesure",
-        "Lire une longueur sur une règle cassée",
-        "Choisir une règle assez longue pour mesurer"
+        "Placer le 0 de la règle au début d’un objet",
+        "Lire la longueur en centimètres au bout de l’objet",
+        "Mesurer avec une règle cassée en comptant les intervalles d’un centimètre",
+        "Choisir une règle assez longue"
       ],
       "howToPlay": [
-        "Fais glisser la règle pour aligner le 0 sur le début de la bande.",
-        "Appuie sur « Mesurer », puis lis le nombre de cm à l'autre bout."
+        "Fais glisser la règle sur la table jusqu’à ce que son 0 soit au début de la bande, puis touche le nombre de la règle au bout de la bande.",
+        "Sur une règle cassée, touche chaque intervalle d’un centimètre que la bande recouvre ; avec un présentoir, touche d’abord une règle pour la poser sur la table.",
+        "Touche Vérifier et regarde la roulette. Dans les réglages, choisis « aligner le 0 » ou « règles piégées », et si la règle montre tous les nombres ou seulement 0, 5, 10 et 15."
       ],
       "learningGoals": [
-        "Mesurer des longueurs avec la règle graduée",
-        "Choisir le bon instrument de mesure",
-        "Repérer et comprendre les erreurs de mesure"
+        "Mesurer la longueur d’un objet avec une règle graduée, en partant de 0.",
+        "Comprendre qu’on trouve une mauvaise longueur si l’on part du 1 ou du bord de la règle.",
+        "Mesurer à partir de n’importe quelle graduation en comptant les intervalles d’un centimètre, et choisir une règle qui va jusqu’au bout de l’objet."
       ]
     },
     "coin-stall.money.2-md-c-8": {

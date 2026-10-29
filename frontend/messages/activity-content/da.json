@@ -3694,6 +3694,29 @@
         "Vide, hvilket ciffer der ændrer sig ved et hop på 1, 10 eller 100, og hvornår det næste ciffer også ændrer sig.",
         "Læse hundredtavlen som et kort: rækkerne er tiere, og søjlerne er enere."
       ]
+    },
+    "tildy.measure-ruler.2-md-a-1": {
+      "about": [
+        "I Tildes systue ligger en strimmel på tilskærebordet: et bånd, en læderstrimmel, garn, en snor, filt, blonde eller elastik. Katten har lige skubbet linealen ud af stilling. Barnet flytter linealen, til dens 0 ligger lige ved strimlens begyndelse, og trykker så på tallet i den anden ende. Når barnet trykker på Tjek, kører Tildes rullekniv langs linealen fra 0 og klipper ved hver centimeter: Stykkerne falder ned i glasset, og det, linealen ikke nåede, bliver liggende på bordet.",
+        "Så bliver de to klassiske fejl med en lineal synlige. Lå 0 inde på strimlen, bliver der et stykke tilbage før den. Lå 0 før strimlen, skærer rullekniven først i luften. I indstillingen drilske linealer er der knækkede linealer, der ikke begynder ved 0; her trykker barnet på hvert centimetermellemrum, som strimlen dækker. Tilde laver også fejl, som barnet retter, og på en hylde er kun én lineal lang nok. Hver færdig strimmel hænges op med sin længde.",
+        "Aktiviteten følger Fælles Mål (efter 3. klassetrin) og passer til 2. klasse: at måle længder i centimeter med en lineal. Intet lyser op, når linealen næsten ligger rigtigt: Resultatet ses først efter Tjek. Den virker uden lyd, og der er hverken tidtagning eller point."
+      ],
+      "practices": [
+        "Lægge linealens 0 ved begyndelsen af en ting",
+        "Aflæse længden i centimeter ved tingens ende",
+        "Måle med en knækket lineal ved at tælle centimetermellemrum",
+        "Vælge en lineal, der er lang nok"
+      ],
+      "howToPlay": [
+        "Træk linealen hen over bordet, til dens 0 ligger ved strimlens begyndelse, og tryk så på tallet på linealen, hvor strimlen slutter.",
+        "På en knækket lineal trykker du på hvert centimetermellemrum, som strimlen dækker; ved en hylde med linealer trykker du først på en lineal, så den kommer på bordet.",
+        "Tryk på Tjek, og se rullekniven. I indstillingerne vælger du læg 0 rigtigt eller drilske linealer, og om linealen viser alle tal eller kun 0, 5, 10 og 15."
+      ],
+      "learningGoals": [
+        "Måle en tings længde med en lineal og begynde ved 0.",
+        "Forstå, at længden bliver forkert, hvis man begynder ved 1 eller ved linealens kant.",
+        "Måle fra en hvilken som helst streg ved at tælle centimetermellemrummene og vælge en lineal, der når hele vejen."
+      ]
     }
   }
 }

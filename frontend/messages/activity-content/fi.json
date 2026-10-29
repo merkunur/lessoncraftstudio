@@ -3693,6 +3693,29 @@
         "Tiedä, mikä numero muuttuu loikassa 1, 10 tai 100, ja milloin myös seuraava numero muuttuu.",
         "Lue sadan ruudun taulua kuin karttaa: rivit ovat kymppejä ja sarakkeet ykkösiä."
       ]
+    },
+    "tildy.measure-ruler.2-md-a-1": {
+      "about": [
+        "Tiinan ompelimossa leikkuupöydällä on suikale: nauha, nahkasuikale, lanka, naru, huopasuikale, pitsi tai kuminauha. Kissa on juuri tönäissyt viivaimen pois paikaltaan. Lapsi siirtää viivainta, kunnes sen 0 on tarkalleen suikaleen alussa, ja napauttaa sitten lukua toisessa päässä. Kun lapsi painaa Tarkista, Tiinan leikkuri kulkee viivainta pitkin nollasta alkaen ja leikkaa jokaisen senttimetrin kohdalta: palat putoavat purkkiin, ja se, mihin viivain ei yltänyt, jää pöydälle.",
+        "Näin kaksi tavallista virhettä viivaimen kanssa tulee näkyviin. Jos 0 oli suikaleen sisällä, sen eteen jää pala. Jos 0 oli ennen suikaletta, leikkuri leikkaa ensin ilmaa. Asetuksessa hankalat viivaimet on katkenneita viivaimia, jotka eivät ala nollasta; niissä lapsi napauttaa jokaista senttimetrin väliä, jonka suikale peittää. Myös Tiina tekee virheitä, jotka lapsi korjaa, ja hyllyssä vain yksi viivain on tarpeeksi pitkä. Jokainen valmis suikale ripustetaan esille pituutensa kanssa.",
+        "Tehtävä tukee OPS 2014 -tavoitteita 2. luokalla: pituuksien mittaaminen senttimetreinä viivaimella. Mikään ei syty, kun viivain on melkein oikeassa kohdassa: tulos näkyy vasta Tarkista-painalluksen jälkeen. Se toimii ilman ääntä, eikä siinä ole ajanottoa tai pisteitä."
+      ],
+      "practices": [
+        "Asettaa viivaimen 0 esineen alkuun",
+        "Lukea pituus senttimetreinä esineen lopusta",
+        "Mitata katkenneella viivaimella laskemalla senttimetrin välit",
+        "Valita tarpeeksi pitkä viivain"
+      ],
+      "howToPlay": [
+        "Vedä viivainta pöydällä, kunnes sen 0 on suikaleen alussa, ja napauta sitten viivaimen lukua kohdassa, jossa suikale loppuu.",
+        "Katkenneessa viivaimessa napautat jokaista senttimetrin väliä, jonka suikale peittää; viivainhyllyn kohdalla napautat ensin viivainta, jotta se tulee pöydälle.",
+        "Paina Tarkista ja katso leikkuria. Asetuksista valitset 0 kohdalleen tai hankalat viivaimet ja sen, näyttääkö viivain kaikki luvut vai vain 0, 5, 10 ja 15."
+      ],
+      "learningGoals": [
+        "Mitata esineen pituus viivaimella nollasta alkaen.",
+        "Ymmärtää, että pituus menee väärin, jos aloittaa ykkösestä tai viivaimen reunasta.",
+        "Mitata mistä tahansa viivasta laskemalla senttimetrin välit ja valita viivain, joka ulottuu koko esineen mitalle."
+      ]
     }
   }
 }

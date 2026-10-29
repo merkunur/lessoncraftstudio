@@ -3719,6 +3719,29 @@
         "Vite hvilket siffer som endrer seg ved et hopp på 1, 10 eller 100, og når neste siffer også endrer seg.",
         "Lese hundreruta som et kart: radene er tiere og kolonnene enere."
       ]
+    },
+    "tildy.measure-ruler.2-md-a-1": {
+      "about": [
+        "I Tildes syverksted ligger en remse på tilskjæringsbordet: et bånd, en lærremse, garn, en snor, filt, blonde eller strikk. Katten har akkurat dyttet linjalen ut av stilling. Barnet skyver linjalen til 0 ligger helt ved starten av remsen, og trykker så på tallet i den andre enden. Når barnet trykker på Sjekk, kjører Tildes rullekniv langs linjalen fra 0 og klipper ved hver centimeter: Bitene faller ned i glasset, og det linjalen ikke rakk, blir liggende igjen på bordet.",
+        "Da blir de to vanlige feilene med linjal synlige. Lå 0 inne på remsen, blir det en bit igjen før den. Lå 0 før remsen, skjærer rullekniven først i lufta. I innstillingen lure linjaler finnes knekte linjaler som ikke begynner på 0; der trykker barnet på hvert centimetermellomrom som remsen dekker. Tilde gjør også feil som barnet retter, og på en hylle er bare én linjal lang nok. Hver ferdig remse henges opp med lengden sin.",
+        "Aktiviteten er knyttet til LK20 (kompetansemål etter 2. trinn): å måle lengder i centimeter med linjal. Ingenting lyser opp når linjalen ligger nesten riktig: Resultatet vises først etter Sjekk. Den virker uten lyd, og det er verken tidtaking eller poeng."
+      ],
+      "practices": [
+        "Legge linjalens 0 ved starten av en ting",
+        "Lese av lengden i centimeter ved enden av tingen",
+        "Måle med en knekt linjal ved å telle centimetermellomrom",
+        "Velge en linjal som er lang nok"
+      ],
+      "howToPlay": [
+        "Dra linjalen over bordet til 0 ligger ved starten av remsen, og trykk så på tallet på linjalen der remsen slutter.",
+        "På en knekt linjal trykker du på hvert centimetermellomrom som remsen dekker; ved en hylle med linjaler trykker du først på en linjal så den kommer på bordet.",
+        "Trykk på Sjekk og se på rullekniven. I innstillingene velger du legg 0 riktig eller lure linjaler, og om linjalen viser alle tall eller bare 0, 5, 10 og 15."
+      ],
+      "learningGoals": [
+        "Måle lengden av en ting med linjal og begynne på 0.",
+        "Forstå at lengden blir feil hvis man begynner på 1 eller ved kanten av linjalen.",
+        "Måle fra hvilken som helst strek ved å telle centimetermellomrommene, og velge en linjal som rekker hele veien."
+      ]
     }
   }
 }

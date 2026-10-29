@@ -241,25 +241,25 @@
     },
     "tildy.measure-ruler.2-md-a-1": {
       "about": [
-        "Tildy la sarta ha bisogno di strisce precise: un nastro per un fiocco, un cordoncino per un bordo, un filo di lana per una toppa. Nella sua sartoria il bambino prende il righello e misura, mentre Nodo il gatto gironzola sul tavolo e sposta il righello con la zampa. Per misurare bene, fai scorrere il righello finché lo 0 è all’inizio della striscia, poi leggi il numero all’altra estremità: ecco quanti centimetri è lunga.",
-        "Qui si impara il gesto che conta davvero: allineare lo 0 con l’inizio della striscia e leggere il numero all’estremità opposta. Si scopre l’errore classico di partire dall’1 invece che dallo 0, si affronta il righello rotto che comincia da 2, e si impara a scegliere il righello abbastanza lungo per la striscia da misurare. In poche parole, si impara a usare il righello correttamente.",
-        "L’attività è pensata per la classe terza ed è allineata alle Indicazioni nazionali. È interattiva e senza registrazione, senza timer e senza punteggio: il bambino misura con calma, prova e riprova, e prende confidenza con i centimetri senza alcuna pressione."
+        "Nella sartoria di Tildy c’è una striscia sul tavolo da taglio: un nastro, una striscia di cuoio, un filo di lana, un cordoncino, feltro, pizzo o un elastico. Il gatto ha appena spostato il righello. Il bambino fa scorrere il righello finché lo 0 è all’inizio della striscia, poi tocca il numero all’altra estremità. Quando tocca Controlla, la taglierina di Tildy scorre lungo il righello a partire dallo 0 e taglia a ogni centimetro: i pezzi cadono nel barattolo, e quello che il righello non ha misurato resta sul tavolo.",
+        "Così si vedono i due errori tipici con il righello. Se lo 0 era dentro la striscia, prima dello 0 avanza un pezzo. Se lo 0 era prima della striscia, la taglierina taglia prima l’aria. Con l’impostazione dei righelli difficili ci sono righelli rotti che non partono da 0: il bambino tocca ogni spazio di un centimetro coperto dalla striscia. Anche Tildy sbaglia, e il bambino la corregge; su un ripiano c’è un solo righello abbastanza lungo. Ogni striscia finita viene appesa con la sua misura.",
+        "L’attività segue le Indicazioni nazionali (traguardi al termine della classe terza) ed è adatta alla classe seconda, nel nucleo Relazioni, dati e previsioni: misurare lunghezze in centimetri con il righello. Non si accende niente quando il righello è quasi al posto giusto: il risultato compare solo dopo Controlla. Funziona senza audio, senza cronometro e senza punteggi."
       ],
       "practices": [
-        "Allineare lo 0 del righello con l’inizio della striscia",
-        "Leggere la misura all’altra estremità",
-        "Misurare lunghezze in centimetri",
-        "Usare anche un righello rotto e sceglierne uno abbastanza lungo"
+        "Mettere lo 0 del righello all’inizio di un oggetto",
+        "Leggere la lunghezza in centimetri alla fine dell’oggetto",
+        "Misurare con un righello rotto contando gli spazi di un centimetro",
+        "Scegliere un righello abbastanza lungo"
       ],
       "howToPlay": [
-        "Fai scorrere il righello finché lo 0 è all’inizio della striscia",
-        "Leggi il numero all’altra estremità della striscia",
-        "Digita quanti centimetri è lunga"
+        "Trascina il righello sul tavolo finché lo 0 è all’inizio della striscia, poi tocca il numero del righello dove finisce la striscia.",
+        "Con un righello rotto, tocca ogni spazio di un centimetro coperto dalla striscia; con un ripiano di righelli, tocca prima un righello per metterlo sul tavolo.",
+        "Tocca Controlla e guarda la taglierina. Nelle impostazioni scegli allineare lo 0 o righelli difficili, e se il righello mostra tutti i numeri o solo 0, 5, 10 e 15."
       ],
       "learningGoals": [
-        "Allineare correttamente lo zero del righello",
-        "Leggere la lunghezza in centimetri all’estremità",
-        "Evitare l’errore di partire dall’1"
+        "Misurare la lunghezza di un oggetto con il righello, partendo da 0.",
+        "Capire che partendo dall’1 o dal bordo del righello la misura è sbagliata.",
+        "Misurare da qualsiasi tacca contando gli spazi di un centimetro, e scegliere un righello che arrivi fino in fondo all’oggetto."
       ]
     },
     "vet-diagnosis.word-problems.1-oa-a-1": {

@@ -4381,25 +4381,25 @@
     },
     "tildy.measure-ruler.2-md-a-1": {
       "about": [
-        "Tildy the tailor measures ribbons, cords, and yarn — but Knot the cat keeps bumping the ruler off the mark, so the child slides it until its 0 lines up with the start of the strip, then reads the centimeter number at the other end. Later rounds add a broken ruler and a \"what went wrong?\" check. It's an interactive Grade 2 measurement activity that runs in the browser with no account.",
-        "The whole point is the part of measuring that children most often get wrong: lining up the zero. If you start at the 1 instead of the 0, the answer comes out one short, and this activity makes that mistake real and then fixes it. Because the child positions the tool and chooses the right ruler, they are doing the genuine work of measuring, not just reading a number someone else lined up for them.",
-        "It is aligned to Common Core 2.MD.A.1 — measuring the length of an object by selecting and using an appropriate tool such as a ruler. No timer, no score — just calm, playful practice."
+        "In Tildy's Tailor Shop a strip of ribbon, leather, yarn, cord, denim, felt, lace, braid or elastic lies on the cutting table, and Knot the cat has just bumped the ruler off its place. The child slides the ruler until its 0 meets the start of the strip, then taps the number at the other end. On Check, Tildy's cutter rides along the ruler from its 0 and snips at every centimeter: the pieces drop into the jar, and whatever the ruler missed stays lying on the table.",
+        "That makes the two classic ruler mistakes visible. If the 0 sat inside the strip, a stub is left over before it. If the 0 sat before the strip, the cutter snips thin air first. In the Tricky rulers setting there are broken rulers that do not start at 0, where the child taps each centimeter space the strip covers. Tildy also makes mistakes for the child to fix, and on a shelf of rulers only one is long enough. Each finished strip is hung on Tildy's rail with its length.",
+        "It is aligned to Common Core 2.MD.A.1 (measure the length of an object by selecting and using a ruler). Nothing lights up when the ruler is close: the result shows only after Check. It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Lining up the 0 of a ruler with the start of an object",
-        "Reading the length in centimeters at the other end",
-        "Spotting why a measurement came out one short",
-        "Choosing a measuring tool long enough for the object"
+        "Line up a ruler's 0 with the start of an object",
+        "Read the number at the end of an object in centimeters",
+        "Measure with a broken ruler by counting centimeter spaces",
+        "Choose a ruler that is long enough"
       ],
       "howToPlay": [
-        "Slide the ruler so its 0 sits exactly at the start of the ribbon or cord.",
-        "Read the centimeter number at the far end and enter how long it is, then press Check.",
-        "Not quite? Reposition the ruler and try again — there is no timer and no score."
+        "Drag the ruler along the table until its 0 is at the start of the strip, then tap the number on the ruler at the strip's end.",
+        "On a broken ruler, tap each centimeter space the strip covers; with a shelf of rulers, tap a ruler to put it on the table first.",
+        "Press Check and watch the cutter. In the settings, choose Line up the 0 or Tricky rulers, and whether the ruler shows every number or only 0, 5, 10 and 15."
       ],
       "learningGoals": [
-        "Measure length with a ruler by choosing and using the tool correctly — the focus of Common Core 2.MD.A.1",
-        "Understand that measuring starts at zero, not at one",
-        "Build the careful measuring habits that all later length work depends on"
+        "Measure the length of an object with a ruler, starting at 0, the focus of Common Core 2.MD.A.1.",
+        "Understand that starting at the 1 or at the ruler's edge gives the wrong length.",
+        "Measure from any mark by counting the centimeter spaces, and choose a ruler that reaches the whole object."
       ]
     },
     "track-repair.count-to-120.1-nbt-a-1": {

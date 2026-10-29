@@ -1297,25 +1297,25 @@
     },
     "tildy.measure-ruler.2-md-a-1": {
       "about": [
-        "En el taller de Tildy, la costurera, siempre hay retazos de cinta, cordón, hilo y cuero esperando su turno sobre la mesa. Para que un moño quede parejo o un dobladillo caiga bien, Tildy necesita el trozo justo: ni un centímetro de más, ni uno de menos. En esta actividad el niño la ayuda a medir. Desliza la regla hasta poner el 0 justo al inicio de la tira, presiona «Medir» y lee cuántos centímetros hay en el otro extremo. Medir se vuelve un gesto tranquilo y cuidadoso, como el de quien trabaja con las manos.",
-        "El truco de medir bien está en el arranque: el 0 —no el 1— debe quedar exactamente al inicio de la tira. Quien empieza en el 1 mide siempre un centímetro de menos; es el error de alineación más común, y aquí el niño lo reconoce, entiende por qué pasa y aprende a evitarlo con calma. Algunas rondas ofrecen una regla «rota» que empieza en el 2: entonces la longitud no es el número del extremo, sino la cantidad de centímetros que la tira cubre entre el inicio y el final. Otras rondas piden elegir una regla lo bastante larga para el trozo que Tildy va a cortar. Así el niño no solo lee números: comprende qué significa la longitud.",
-        "Sin cronómetro, sin puntaje y sin competencia: nadie corre ni pierde, solo se mide con cuidado y se vuelve a intentar sin pena. Está alineada al programa de primaria mexicano (Planes y programas de estudio de la Nueva Escuela Mexicana, SEP), dentro del eje «Magnitudes y medida», para el aprendizaje de la medición de longitudes con regla y centímetros."
+        "En El taller de costura de Tildy hay una tira sobre la mesa de corte: un listón, una tira de piel, estambre, un cordón, fieltro, encaje o un elástico. El gato acaba de mover la regla de su lugar. El niño desliza la regla hasta que su 0 quede al inicio de la tira y luego toca el número del otro extremo. Al tocar Revisar, la cortadora de Tildy recorre la regla desde el 0 y corta en cada centímetro: los pedazos caen en el frasco, y lo que la regla no alcanzó se queda sobre la mesa.",
+        "Así se ven los dos errores típicos con la regla. Si el 0 quedó dentro de la tira, sobra un pedazo antes de él. Si el 0 quedó antes de la tira, la cortadora corta primero aire. En la opción de reglas engañosas hay reglas rotas que no empiezan en 0; ahí el niño toca cada espacio de un centímetro que cubre la tira. Tildy también se equivoca para que el niño la corrija, y en un estante solo una regla es lo suficientemente larga. Cada tira terminada se cuelga con su medida.",
+        "La actividad sigue los planes y programas de la SEP para segundo grado, en el campo formativo Saberes y pensamiento científico (medición de longitudes). Nada se ilumina cuando la regla está casi en su lugar: el resultado aparece solo después de Revisar. Funciona sin sonido, sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Alinear el 0 de la regla exactamente con el inicio de la tira.",
-        "Leer el otro extremo de la tira en centímetros.",
-        "Reconocer y evitar el error de empezar en el 1 (que mide un centímetro de menos).",
-        "Medir con una regla desplazada o «rota» contando los centímetros que la tira cubre, y elegir una regla lo bastante larga."
+        "Poner el 0 de la regla al inicio de un objeto",
+        "Leer la longitud en centímetros al final del objeto",
+        "Medir con una regla rota contando los espacios de un centímetro",
+        "Elegir una regla que sea lo suficientemente larga"
       ],
       "howToPlay": [
-        "Desliza la regla hasta que el 0 quede justo al inicio de la tira.",
-        "Presiona «Medir».",
-        "Lee el número que marca el otro extremo y tócalo."
+        "Arrastra la regla por la mesa hasta que su 0 esté al inicio de la tira y luego toca el número de la regla donde termina la tira.",
+        "En una regla rota, toca cada espacio de un centímetro que cubre la tira; con un estante de reglas, primero toca una regla para ponerla en la mesa.",
+        "Toca Revisar y mira la cortadora. En la configuración, elige alinear el 0 o reglas engañosas, y si la regla muestra todos los números o solo 0, 5, 10 y 15."
       ],
       "learningGoals": [
-        "Medir con seguridad en centímetros usando la regla.",
-        "Entender que la longitud es la cantidad de centímetros que hay entre el inicio y el final.",
-        "Reconocer los errores típicos al medir y elegir la regla adecuada."
+        "Medir la longitud de un objeto con una regla, empezando en 0.",
+        "Entender que si se empieza en el 1 o en la orilla de la regla, la medida sale mal.",
+        "Medir desde cualquier marca contando los espacios de un centímetro, y elegir una regla que alcance todo el objeto."
       ]
     },
     "vet-diagnosis.word-problems.1-oa-a-1": {

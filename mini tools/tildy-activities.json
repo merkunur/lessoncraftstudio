@@ -1,8 +1,8 @@
 [
   {
     "id": "tildy.measure-ruler.2-md-a-1",
-    "tool": "tildy-activity",
-    "task_template": "tildy",
+    "tool": "cm-cutter-activity",
+    "task_template": "cm-cutter",
     "alignment": {
       "framework": "CCSS",
       "code": "2.MD.A.1",
@@ -17,7 +17,11 @@
       "es": "medir-longitudes-con-regla-centimetros-primaria",
       "pt": "medir-comprimentos-com-regua-centimetros-2-ano",
       "it": "misurare-lunghezze-con-il-righello-in-centimetri-classe-terza",
-      "nl": "meten-met-de-liniaal-in-cm-groep-4"
+      "nl": "meten-met-de-liniaal-in-cm-groep-4",
+      "sv": "mata-med-linjal-i-cm-ak-2",
+      "da": "maal-med-lineal-i-cm-2-klasse",
+      "no": "mal-med-linjal-i-cm-2-trinn",
+      "fi": "mittaa-viivaimella-senttimetreina-2-luokka"
     },
     "page_title": {
       "en": "Tildy's Tailor Shop — Measure with a Ruler",
@@ -26,7 +30,11 @@
       "es": "Medir con regla: longitudes en centímetros (2.º primaria)",
       "pt": "Medir com Régua em Centímetros – Comprimento no 2º Ano | Tildy",
       "it": "Misurare con il righello in cm | Classe terza",
-      "nl": "Meten met de liniaal: lengtes in cm – groep 4 | Fien"
+      "nl": "Meten met de liniaal: lengtes in cm – groep 4 | Fien",
+      "sv": "Mät med linjal i cm – åk 2 | Tilda",
+      "da": "Mål med lineal i cm – 2. klasse | Tilde",
+      "no": "Mål med linjal i cm – 2. trinn | Tilde",
+      "fi": "Mittaa viivaimella senttimetreinä – 2. luokka | Tiina"
     },
     "page_intro": {
       "en": "Help Tildy measure ribbons and cords: slide the ruler so its 0 lines up with the start of the strip, then read the number at the other end. Knot the cat keeps nudging the ruler, so YOU place it — if you start at the 1 instead of the 0, it reads one short. Common Core 2.MD.A.1.",
@@ -35,7 +43,11 @@
       "es": "Mide listones y cordones con regla en centímetros junto a Tildy: alinea el 0 y lee el final. Interactiva, sin registro. 2.º de primaria, alineada a la SEP.",
       "pt": "Meça comprimentos com a régua em centímetros: encoste o 0 no começo e leia o cm na outra ponta. Atividade sem cadastro, alinhada à BNCC — 2º ano.",
       "it": "Nella sartoria di Tildy si misura per davvero! Tildy la sarta deve tagliare strisce di nastro, cordoncino e filo della lunghezza giusta, e Nodo il gatto la aiuta a modo suo, spostando il righello sul tavolo. Il compito del bambino è semplice ma prezioso: fai scorrere il righello finché lo 0 è esattamente all’inizio della striscia, poi leggi il numero all’altra estremità. Attento a NON partire dall’1! Così si impara a usare il righello correttamente, ad allineare lo zero e a misurare le lunghezze in centimetri, affrontando anche il righello rotto e la scelta dello strumento giusto. Un’attività interattiva, senza registrazione, senza timer e senza punteggio: solo tempo per capire con calma. Pensata per la classe terza e allineata alle Indicazioni nazionali.",
-      "nl": "In Fiens naaiatelier meet je linten, koorden en garen met de liniaal. Schuif de liniaal zo dat de 0 precies bij het begin van het lint ligt en lees dan aan het andere eind af hoeveel centimeter het is. De truc: begin bij de 0, niet bij de 1 — anders meet je een centimeter te kort. Interactief, op je eigen tempo, voor groep 4."
+      "nl": "In Fiens naaiatelier meet je linten, koorden en garen met de liniaal. Schuif de liniaal zo dat de 0 precies bij het begin van het lint ligt en lees dan aan het andere eind af hoeveel centimeter het is. De truc: begin bij de 0, niet bij de 1 — anders meet je een centimeter te kort. Interactief, op je eigen tempo, voor groep 4.",
+      "sv": "I Tildas syateljé mäter du band, snören och garn med linjalen. Katten har knuffat linjalen, så du drar den tills linjalens 0 ligger precis vid remsans början och trycker sedan på talet vid slutet. Tildas rullkniv skär en bit för varje centimeter – ligger en bit kvar före 0, låg linjalen fel. Övningen följer Lgr22 och passar i åk 2.",
+      "da": "I Tildes systue måler du bånd, snore og garn med linealen. Katten har skubbet til linealen, så du flytter den, til dens 0 ligger lige ved strimlens begyndelse, og trykker så på tallet ved enden. Tildes rullekniv skærer et stykke for hver centimeter – ligger der et stykke tilbage før 0, lå linealen forkert. Aktiviteten passer til måling i 2. klasse efter Fælles Mål.",
+      "no": "I Tildes syverksted måler du bånd, snorer og garn med linjalen. Katten har dyttet borti linjalen, så du skyver den til 0 ligger helt ved starten av remsen, og trykker så på tallet ved enden. Tildes rullekniv skjærer en bit for hver centimeter – ligger det en bit igjen foran 0, lå linjalen feil. Aktiviteten følger LK20 (kompetansemål etter 2. trinn).",
+      "fi": "Tiinan ompelimossa mitataan nauhoja, naruja ja lankoja viivaimella. Kissa on tönäissyt viivainta, joten siirrä se niin, että viivaimen 0 on tarkalleen suikaleen alussa, ja napauta sitten lukua lopussa. Tiinan leikkuri leikkaa palan jokaisesta senttimetristä – jos nollan eteen jää pala, viivain oli väärässä kohdassa. Tehtävä tukee OPS 2014 -tavoitteita 2. luokalla."
     },
     "kid_prompt_template": "tildy",
     "params": {

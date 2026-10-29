@@ -2165,25 +2165,25 @@
     },
     "tildy.measure-ruler.2-md-a-1": {
       "about": [
-        "Willkommen in Tildys Schneiderei! Tildy braucht für jedes Kleidungsstück genau das richtige Stück Band, Schnur, Garn oder Leder – und dafür misst sie mit dem Lineal. Du hilfst ihr: Schieb das Lineal so, dass die Null genau am Anfang des Streifens liegt, und lies dann am anderen Ende ab, wie viele Zentimeter es sind.",
-        "Der wichtigste Trick beim Messen ist das richtige Anlegen: Die Null muss an den Anfang – nicht die Eins! Wer beim Einer beginnt, misst immer einen Zentimeter zu wenig. Genau dieser kleine Anlegefehler passiert ganz vielen Kindern. Hier darfst du ihn erkennen, verstehen und vermeiden. Und Vorsicht: Tildys Katze stupst das Lineal gerne mal an, dann musst du noch einmal genau hinschauen.",
-        "Diese Übung gehört zum Bereich „Größen und Messen“ des Lehrplans der Grundschule. Es gibt keine Zeit, die läuft, und keine Punkte – du kannst in Ruhe so oft messen, wie du möchtest."
+        "In Tildys Schneiderei liegt ein Streifen auf dem Zuschneidetisch: ein Band, ein Lederstreifen, ein Wollfaden, eine Kordel, Filz, Spitze oder ein Gummiband. Die Katze hat das Lineal gerade verschoben. Das Kind schiebt das Lineal, bis seine 0 genau am Anfang des Streifens liegt, und tippt dann auf die Zahl am anderen Ende. Beim Prüfen fährt Tildys Rollschneider von der 0 aus am Lineal entlang und schneidet bei jedem Zentimeter: Die Stücke fallen ins Glas, und was das Lineal nicht erfasst hat, bleibt auf dem Tisch liegen.",
+        "So werden die zwei typischen Fehler beim Messen sichtbar. Lag die 0 im Streifen, bleibt davor ein Reststück übrig. Lag die 0 vor dem Streifen, schneidet der Rollschneider zuerst in die Luft. In der Einstellung „knifflige Lineale“ gibt es abgebrochene Lineale, die nicht bei 0 anfangen; dort tippt das Kind jeden Zentimeterabstand an, den der Streifen bedeckt. Außerdem macht Tildy Fehler, die das Kind verbessert, und in einem Regal ist nur ein Lineal lang genug. Jeder fertige Streifen hängt mit seiner Länge an Tildys Stange.",
+        "Die Aktivität ist an den Lehrplänen für die 2. Klasse im Bereich Größen und Messen ausgerichtet: Längen mit dem Lineal in Zentimetern messen. Nichts leuchtet auf, wenn das Lineal fast richtig liegt: Das Ergebnis zeigt sich erst beim Prüfen. Sie funktioniert ohne Ton, und es gibt keinen Timer und keine Punkte."
       ],
       "practices": [
-        "das Lineal richtig anlegen – die Null an den Anfang des Streifens",
-        "am anderen Ende in Zentimetern ablesen",
-        "den Anlegefehler erkennen und vermeiden (nicht bei der Eins beginnen)",
-        "eine Länge auch mit einem verschobenen oder „kaputten“ Lineal bestimmen – die Zentimeter zwischen Anfang und Ende zählen – und ein passend langes Lineal auswählen"
+        "Die 0 des Lineals an den Anfang eines Gegenstands legen",
+        "Am Ende eines Gegenstands die Länge in Zentimetern ablesen",
+        "Mit einem abgebrochenen Lineal messen, indem man die Zentimeterabstände zählt",
+        "Ein Lineal wählen, das lang genug ist"
       ],
       "howToPlay": [
-        "Schieb das Lineal, bis die Null genau am Anfang des Streifens liegt",
-        "Tippe auf „Messen“",
-        "Lies die Zahl am anderen Ende ab und tippe sie an"
+        "Zieh das Lineal über den Tisch, bis seine 0 am Anfang des Streifens liegt, und tipp dann auf die Zahl am Lineal, wo der Streifen endet.",
+        "Bei einem abgebrochenen Lineal tippst du jeden Zentimeterabstand an, den der Streifen bedeckt; bei einem Regal mit Linealen tippst du zuerst ein Lineal an, damit es auf den Tisch kommt.",
+        "Tipp auf Prüfen und schau dem Rollschneider zu. In den Einstellungen wählst du „die 0 anlegen“ oder „knifflige Lineale“ und ob das Lineal alle Zahlen oder nur 0, 5, 10 und 15 zeigt."
       ],
       "learningGoals": [
-        "mit dem Lineal sicher in Zentimetern messen",
-        "verstehen, dass die Länge die Anzahl der Zentimeter zwischen Anfang und Ende ist",
-        "typische Messfehler erkennen und das passende Lineal wählen"
+        "Die Länge eines Gegenstands mit dem Lineal messen und dabei bei 0 anfangen.",
+        "Verstehen, dass man eine falsche Länge erhält, wenn man bei der 1 oder an der Kante des Lineals anfängt.",
+        "Von jedem Strich aus messen, indem man die Zentimeterabstände zählt, und ein Lineal wählen, das bis zum Ende reicht."
       ]
     },
     "fox-forge.fraction.3-nf-a-1": {

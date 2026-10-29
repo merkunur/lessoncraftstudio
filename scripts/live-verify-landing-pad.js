@@ -36,8 +36,14 @@ const WRAPPER = H.WRAPPER(), K = C.rounds('20').findIndex((r) => r.start === 4 &
     const settle = async () => { let a = await o.off(); for (let i = 0; i < 20; i++) { await H.wait(120); const b = await o.off(); if (Math.abs(b.x - a.x) < 0.5 && Math.abs(b.y - a.y) < 0.5) return; a = b; } };
     const into = async (sel) => { await o.frame.evaluate((s) => document.querySelector(s).scrollIntoView({ block: 'center' }), sel); await settle(); };
     const tap = async (k) => { await into('[data-k="' + k + '"]'); const e = await o.xy('[data-k="' + k + '"]'), off = await o.off(); await o.page.mouse.click(off.x + e.x, off.y + e.y); await H.wait(90); };
+    /* a freshly loaded page can still be growing its iframe: settle, drag, and re-drag once if the piece did not land (the state says) */
     const drag = async (k, stone) => {
-      await into('[data-k="' + k + '"]'); const a = await o.xy('[data-k="' + k + '"]'), b = await o.xy('[data-stone="' + stone + '"]'), off = await o.off();
+      await drag1(k, stone);
+      const at = await o.frame.evaluate((k) => { const st = window.LandingPadActivity.st; return k === 'frog' ? st.frogAt : st.padAt; }, k);
+      if (at !== stone) { await H.wait(400); await drag1(k, stone); }
+    };
+    const drag1 = async (k, stone) => {
+      await into('[data-k="' + k + '"]'); await into('[data-stone="' + stone + '"]'); await into('[data-k="' + k + '"]'); const a = await o.xy('[data-k="' + k + '"]'), b = await o.xy('[data-stone="' + stone + '"]'), off = await o.off();
       await o.page.mouse.move(off.x + a.x, off.y + a.y); await o.page.mouse.down();
       for (let i = 1; i <= 10; i++) await o.page.mouse.move(off.x + a.x + (b.x - a.x) * i / 10, off.y + a.y + (b.y - a.y) * i / 10);
       await o.page.mouse.up(); await H.wait(120);

@@ -3716,6 +3716,29 @@
         "Ymmärtää, että pituus menee väärin, jos aloittaa ykkösestä tai viivaimen reunasta.",
         "Mitata mistä tahansa viivasta laskemalla senttimetrin välit ja valita viivain, joka ulottuu koko esineen mitalle."
       ]
+    },
+    "gauge-good-guess.estimate.2-md-a-3": {
+      "about": [
+        "Vuohen hyvässä arviossa jokainen arvio on lupaus koosta. Lapsi lukee kysymyksen, kuten ”Suunnilleen kuinka pitkä muurahainen on?”, ja napauttaa yhtä kolmesta arviosta. Silloin kuva kasvaa tai kutistuu juuri sen kokoiseksi 30 senttimetrin kouluviivaimen tai metrin mittakepin vieressä, samassa mittakaavassa piirrettynä. Kun muurahaiselle valitsee 30 cm, siitä tulee koko viivaimen pituinen; kun kuorma-autolle valitsee 2 m, se näyttää lelulta mittakepin vieressä. Väärä arvio näyttää väärältä.",
+        "Arvioitavina ovat muurahainen, kotilo, lusikka, lyijykynä, banaani, sänky, ovi, talo, kuorma-auto, majakka, matkustajakone, lautta ja valas; jokaiselle sopii vain yksi vaihtoehto. Väärän arvion jälkeen katkoviivainen ääriviiva näyttää oikean koon arvion vieressä ilman lukua; toisen jälkeen auttaa vertailu, kuten ”Kuorma-auto on suunnilleen yhtä pitkä kuin neljä sänkyä.” Asetuksessa ”valitse yksikkö” luku on valmiina, ja lapsi valitsee cm tai m, kun sekä viivain että mittakeppi näkyvät. Jokainen ratkaistu asia päätyy vuohen kokoalbumiin pienimmästä suurimpaan.",
+        "Tehtävä tukee OPS 2014 -tavoitteita 2. luokalla: pituuksien arvioiminen senttimetreinä ja metreinä. Se toimii ilman ääntä, eikä siinä ole ajanottoa tai pisteitä."
+      ],
+      "practices": [
+        "Arvioida tuttujen asioiden pituus tai korkeus senttimetreinä ja metreinä",
+        "Verrata arviota 30 senttimetrin viivaimeen ja metrin mittakeppiin",
+        "Valita sopiva yksikkö: senttimetrit pienille asioille, metrit suurille",
+        "Nähdä kokoalbumissa ratkaistut asiat koon mukaan järjestyksessä"
+      ],
+      "howToPlay": [
+        "Lue kysymys, napauta arviota ja katso, miten kuva kasvaa tai kutistuu sen kokoiseksi viivaimen tai mittakepin vieressä.",
+        "Napauta toista arviota vertaillaksesi ja paina sitten Tarkista.",
+        "Asetuksista valitset arvion tai yksikön valitsemisen ja sen, kasvaako kuva napautuksesta vai vasta Tarkista-painalluksen jälkeen."
+      ],
+      "learningGoals": [
+        "Arvioida pituuksia senttimetreinä ja metreinä.",
+        "Käyttää viivainta ja mittakeppiä vertailukohtana, kun arvioi, onko arvio järkevä.",
+        "Tietää, mikä yksikkö sopii: senttimetrit pienille asioille, metrit suurille."
+      ]
     }
   }
 }

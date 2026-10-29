@@ -107,6 +107,10 @@ function seedScript(row) {
     // 160 + 50: ten of the eleven rods stacked on the vice's bed — the square gauge exactly covered, one rod still in the tens column: the invention at work
     return `(function(){var t=window['SquareViceActivity'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(0);t._render2();t._bay('T',10);}})();`;
   }
+  if (row.tool === 'growing-picture-activity') {
+    // the invention at work: 30 cm tapped for an ant — the ant grown as long as the whole 30-cm ruler, checked: the dashed ghost of its real 1 cm
+    return `(function(){var t=window['GrowingPictureActivity'];if(!t||!t.api)return;var go=function(){if(!t._picsReady){setTimeout(go,50);return;}t.FAST=true;t.OK_MS=600000;t.api.settings.level='estimate';t.api.settings.grow='tap';t._pool=null;t._ensurePool();t._cards={0:[0,1,2]};t._start(0);t._render2();t._choose(2);t._check();};go();})();`;
+  }
   if (row.tool === 'cm-cutter-activity') {
     // the invention at work: the ribbon read with the 0 left at 3 — the cutter snipped 4 pieces into the jar and a 3-cm stub lies on the table
     return `(function(){var t=window['CmCutterActivity'];if(!t||!t.api)return;var go=function(){if(!t._picsReady){setTimeout(go,50);return;}t.FAST=true;t.OK_MS=600000;t.api.settings.level='align';t._pool=null;t._ensurePool();t._start(0);t._render2();t._read(4);t._check();};go();})();`;

@@ -1443,25 +1443,25 @@
     },
     "gauge-good-guess.estimate.2-md-a-3": {
       "about": [
-        "Con Gauge, la cabra, tu hijo ve una pregunta como «¿Cuánto mide aproximadamente una hormiga?» o «¿Qué tan alta es una puerta?» y toca la mejor de tres estimaciones, por ejemplo «1 cm», «12 cm» o «2 m». En lugar de adivinar al azar, el niño o la niña se detiene a pensar qué tamaño sí tiene sentido. Así la adivinanza se convierte en una estimación razonada.",
-        "La idea matemática es construir una verdadera noción del tamaño usando puntos de referencia familiares. Cuando el niño recuerda que «una regla mide unos 30 centímetros» o que «una puerta mide como 2 metros», tiene anclas mentales para estimar sin necesidad de medir. Con esos referentes en mente aprende también a distinguir los centímetros de los metros y a elegir la unidad correcta.",
-        "Sin cronómetro, sin calificación y sin competencia, para que cada quien avance a su propio ritmo. Está alineada al programa de primaria mexicano dentro del eje Magnitudes y medida, donde estimar longitudes en centímetros y metros forma parte de lo que se aprende. Tu hijo practica con calma mientras acompaña a Gauge en cada estimación."
+        "En La buena estimación de Gauge, cada estimación es una promesa sobre un tamaño. El niño lee una pregunta como «¿Más o menos cuánto mide una hormiga?» y toca una de tres estimaciones. Entonces el dibujo crece o se encoge exactamente a ese tamaño junto a una regla escolar de 30 cm para los centímetros o un metro para los metros, dibujados a la misma escala. Con 30 cm, la hormiga queda tan larga como toda la regla; con 2 m, el camión de carga parece un juguete junto al metro. Una estimación equivocada se ve equivocada.",
+        "Hay que estimar una hormiga, un caracol, una cuchara, un lápiz, un plátano, una cama, una puerta, una casa, un camión de carga, un faro, un avión de pasajeros, un ferri y una ballena; para cada uno solo una opción tiene sentido. Después de un error, un contorno punteado muestra el tamaño real junto a la estimación, sin número; después de un segundo, ayuda una comparación como «Un camión de carga mide más o menos lo que cuatro camas». En la opción de elegir la unidad, el número ya viene dado y el niño elige cm o m, con la regla y el metro a la vista. Cada cosa resuelta entra al álbum de tamaños de Gauge, de la más pequeña a la más grande.",
+        "La actividad sigue los planes y programas de la SEP para segundo grado, en el campo formativo Saberes y pensamiento científico (medición de longitudes). Funciona sin sonido, sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Estimar longitudes eligiendo una magnitud sensata en cm o metros.",
-        "Construir una noción de tamaño con puntos de referencia familiares («del tamaño de una puerta»).",
-        "Distinguir centímetros de metros y usar la unidad correcta.",
-        "Estimar y comparar el tamaño de objetos cotidianos."
+        "Estimar el largo o la altura de cosas conocidas en centímetros y metros",
+        "Comparar una estimación con una regla de 30 cm y un metro",
+        "Elegir la unidad que va: centímetros para lo pequeño, metros para lo grande",
+        "Ver en el álbum de tamaños las cosas resueltas en fila, de la más pequeña a la más grande"
       ],
       "howToPlay": [
-        "Lee la pregunta de Gauge, por ejemplo «¿Cuánto mide una hormiga?».",
-        "Mira las tres estimaciones y piensa cuál tamaño sí tiene sentido.",
-        "Toca la estimación sensata y sigue estimando con Gauge."
+        "Lee la pregunta, toca una estimación y mira cómo el dibujo crece o se encoge a ese tamaño junto a la regla o el metro.",
+        "Toca otra estimación para comparar y luego toca Revisar.",
+        "En la configuración, elige estimación o unidad, y si el dibujo crece al tocar o solo después de Revisar."
       ],
       "learningGoals": [
-        "Desarrollar un sentido firme de las longitudes en cm y metros.",
-        "Usar puntos de referencia para estimar tamaños sin medir.",
-        "Practicar la estimación con calma, sin calificación."
+        "Estimar longitudes en centímetros y metros.",
+        "Usar una regla y un metro como referencia para saber si una estimación tiene sentido.",
+        "Saber qué unidad va con cada cosa: centímetros para lo pequeño, metros para lo grande."
       ]
     },
     "mending-fences.mend-board.3-md-d-8": {

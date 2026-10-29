@@ -3742,6 +3742,29 @@
         "Forstå at lengden blir feil hvis man begynner på 1 eller ved kanten av linjalen.",
         "Måle fra hvilken som helst strek ved å telle centimetermellomrommene, og velge en linjal som rekker hele veien."
       ]
+    },
+    "gauge-good-guess.estimate.2-md-a-3": {
+      "about": [
+        "I Geitas gode gjetning er hvert anslag et løfte om en størrelse. Barnet leser et spørsmål som «Omtrent hvor lang er en maur?» og trykker på ett av tre anslag. Da vokser eller krymper bildet til nøyaktig den størrelsen ved siden av en skolelinjal på 30 cm for centimeter eller en meterstokk for meter, tegnet i samme målestokk. Velger man 30 cm for mauren, blir den like lang som hele linjalen; velger man 2 m for lastebilen, ser den ut som en leke ved siden av meterstokken. Et feil anslag ser feil ut.",
+        "Barnet anslår en maur, en snegle, en skje, en blyant, en banan, en seng, en dør, et hus, en lastebil, et fyrtårn, et passasjerfly, en ferge og en hval; for hver ting passer bare ett svar. Etter et feil anslag viser et stiplet omriss den ekte størrelsen ved siden av anslaget, uten tall; etter et nytt hjelper en sammenligning som «En lastebil er omtrent like lang som fire senger.» I innstillingen «velg enheten» er tallet gitt, og barnet velger cm eller m, med både linjalen og meterstokken synlige. Hver løste ting havner i geitas størrelsesalbum, fra den minste til den største.",
+        "Aktiviteten er knyttet til LK20 (kompetansemålet etter 2. trinn om å måle og sammenligne lengder) og øver på å anslå lengder i centimeter og meter. Den virker uten lyd, og det er verken tidtaking eller poeng."
+      ],
+      "practices": [
+        "Anslå lengden eller høyden på kjente ting i centimeter og meter",
+        "Sammenligne et anslag med en linjal på 30 cm og en meterstokk",
+        "Velge enheten som passer: centimeter for små ting, meter for store",
+        "Se de løste tingene stilt opp etter størrelse i størrelsesalbumet"
+      ],
+      "howToPlay": [
+        "Les spørsmålet, trykk på et anslag, og se bildet vokse eller krympe til den størrelsen ved siden av linjalen eller meterstokken.",
+        "Trykk på et annet anslag for å sammenligne, og trykk så på Sjekk.",
+        "I innstillingene velger du «velg anslaget» eller «velg enheten», og om bildet vokser når du trykker, eller først etter Sjekk."
+      ],
+      "learningGoals": [
+        "Anslå lengder i centimeter og meter.",
+        "Bruke en linjal og en meterstokk som sammenligning for å vurdere om et anslag er rimelig.",
+        "Vite hvilken enhet som passer: centimeter for små ting, meter for store."
+      ]
     }
   }
 }

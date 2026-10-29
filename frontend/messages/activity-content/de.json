@@ -2019,25 +2019,25 @@
     },
     "gauge-good-guess.estimate.2-md-a-3": {
       "about": [
-        "Gauge die Ziege hat ein besonderes Talent: Sie schätzt Größen mit einem einzigen Blick — und Ihr Kind macht mit. „Wie lang ist ungefähr eine Ameise?“, „Wie hoch ist ungefähr eine Tür?“ Bei jeder Frage wählt Ihr Kind aus drei Möglichkeiten die Schätzung, die am besten passt, zum Beispiel „1 cm“, „12 cm“ oder „2 m“. So wird aus reinem Raten ein begründetes, sinnvolles Schätzen.",
-        "Dahinter steckt eine wichtige Idee aus dem Lehrplan der Grundschule, Bereich „Größen und Messen“: der Aufbau einer echten Größenvorstellung. Ihr Kind lernt, sich an vertrauten Stützpunkten zu orientieren — „Ein Lineal ist etwa 30 Zentimeter lang“, „Eine Tür ist ungefähr einen Meter breit“. Mit solchen Ankern im Kopf kann Ihr Kind die Größe von Dingen einschätzen, ohne nachzumessen. Diese Vorstellung von Zentimetern und Metern ist genau das, was in der zweiten Klasse beim Thema Längen aufgebaut wird.",
-        "Und das alles ganz ohne Druck: Es gibt keine Punkte, keine Zeit und keine Bestnote zu erreichen. Ihr Kind probiert aus, denkt nach und darf einfach neugierig sein."
+        "Bei Gauges guter Schätzung ist jede Schätzung ein Versprechen über eine Größe. Das Kind liest eine Frage wie „Wie lang ist ungefähr eine Ameise?“ und tippt auf eine von drei Schätzungen. Dann wächst oder schrumpft das Bild genau auf diese Größe – neben einem 30-cm-Schullineal für Zentimeter oder einem Meterstab für Meter, im selben Maßstab gezeichnet. Tippt man bei der Ameise auf 30 cm, wird sie so lang wie das ganze Lineal; tippt man beim Lastwagen auf 2 m, wirkt er neben dem Meterstab wie ein Spielzeug. Eine falsche Schätzung sieht falsch aus.",
+        "Zu schätzen sind eine Ameise, eine Schnecke, ein Löffel, ein Bleistift, eine Banane, ein Bett, eine Tür, ein Haus, ein Lastwagen, ein Leuchtturm, ein Passagierflugzeug, eine Fähre und ein Wal; zu jedem passt genau eine Schätzung. Nach einer falschen Schätzung zeigt ein gestrichelter Umriss die echte Größe neben der Schätzung, ohne Zahl; nach einer zweiten hilft ein Vergleich wie „Ein Lastwagen ist ungefähr so lang wie vier Betten.“ In der Einstellung „die Einheit wählen“ ist die Zahl vorgegeben, und das Kind wählt cm oder m, mit Lineal und Meterstab im Blick. Alles Gelöste kommt in Gauges Größenalbum, vom Kleinsten zum Größten.",
+        "Die Aktivität ist an den Lehrplänen für die 2. Klasse im Bereich Größen und Messen ausgerichtet: Längen in Zentimetern und Metern schätzen. Sie funktioniert ohne Ton, und es gibt keinen Timer und keine Punkte."
       ],
       "practices": [
-        "Längen sinnvoll schätzen und eine passende Größenordnung in Zentimeter oder Meter wählen",
-        "Eine tragfähige Größenvorstellung mithilfe vertrauter Stützpunkte aufbauen („so groß wie eine Tür“)",
-        "Die Einheiten Zentimeter und Meter unterscheiden und der richtigen Situation zuordnen",
-        "Alltagsgegenstände der Größe nach einschätzen und vergleichen"
+        "Länge oder Höhe bekannter Dinge in Zentimetern und Metern schätzen",
+        "Eine Schätzung mit einem 30-cm-Lineal und einem Meterstab vergleichen",
+        "Die passende Einheit wählen: Zentimeter für kleine Dinge, Meter für große",
+        "Im Größenalbum sehen, wie die gelösten Dinge der Größe nach aufgereiht sind"
       ],
       "howToPlay": [
-        "Lies die Frage von Gauge der Ziege, zum Beispiel „Wie lang ist ungefähr eine Ameise?“.",
-        "Schau dir die drei Schätzungen an und überlege, welche Größe wirklich passt.",
-        "Tippe auf die sinnvolle Schätzung — und schätze mit Gauge munter weiter."
+        "Lies die Frage, tipp auf eine Schätzung und schau zu, wie das Bild neben dem Lineal oder dem Meterstab auf diese Größe wächst oder schrumpft.",
+        "Tipp zum Vergleichen auf eine andere Schätzung und dann auf Prüfen.",
+        "In den Einstellungen wählst du „die Schätzung wählen“ oder „die Einheit wählen“ und ob das Bild beim Antippen wächst oder erst nach Prüfen."
       ],
       "learningGoals": [
-        "Ihr Kind entwickelt ein sicheres Gefühl für Längen in Zentimeter und Meter.",
-        "Ihr Kind nutzt Stützpunktvorstellungen, um Größen ohne Messen einzuschätzen.",
-        "Ihr Kind übt entspannt das Schätzen — ganz ohne Notendruck."
+        "Längen in Zentimetern und Metern schätzen.",
+        "Lineal und Meterstab als Vergleichsgrößen nutzen, um zu prüfen, ob eine Schätzung passt.",
+        "Wissen, welche Einheit passt: Zentimeter für kleine Dinge, Meter für große."
       ]
     },
     "bram-board-shop.length-word-problems.2-md-b-5": {

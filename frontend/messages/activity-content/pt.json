@@ -2700,25 +2700,25 @@
     },
     "gauge-good-guess.estimate.2-md-a-3": {
       "about": [
-        "A cabra Palmira adora adivinhar tamanhos sem usar régua nenhuma. A criança lê uma pergunta como “Quanto mede mais ou menos uma formiga?” ou “Qual a altura de uma porta?” e toca a melhor de três estimativas, como “1 cm”, “12 cm” ou “2 m”. Antes de responder, vale a pena parar para pensar: qual desses tamanhos faz sentido de verdade?",
-        "A ideia central é construir a noção de tamanho usando pontos de referência familiares — “uma régua tem uns 30 cm”, “uma porta tem uns 2 m” — para estimar comprimentos e alturas sem precisar medir. Ao comparar cada objeto com essas referências, a criança também aprende a distinguir centímetros de metros e a escolher a unidade certa para cada situação.",
-        "A atividade é interativa e roda direto no navegador, sem cadastro, sem cronômetro e sem pontuação — o clima é tranquilo e acolhedor, do jeito que a aprendizagem no 2º ano deve ser. Cada resposta é uma chance de pensar e conversar sobre tamanhos, sempre com um retorno gentil. O conteúdo está alinhado à BNCC, dentro da unidade temática Grandezas e medidas."
+        "No bom palpite da cabra, cada estimativa é uma promessa sobre um tamanho. A criança lê uma pergunta como “Mais ou menos quanto mede uma formiga?” e toca numa de três estimativas. Então a figura cresce ou encolhe exatamente até esse tamanho, ao lado de uma régua escolar de 30 cm para os centímetros ou de um metro para os metros, desenhados na mesma escala. Com 30 cm, a formiga fica do tamanho da régua inteira; com 2 m, o caminhão parece um brinquedo ao lado do metro. Uma estimativa errada parece errada.",
+        "É preciso estimar uma formiga, um caracol, uma colher, um lápis, uma banana, uma cama, uma porta, uma casa, um caminhão, um farol, um avião de passageiros, uma balsa e uma baleia; para cada um, só uma opção faz sentido. Depois de um erro, um contorno tracejado mostra o tamanho de verdade ao lado da estimativa, sem número; depois do segundo, uma comparação ajuda, como “Um caminhão mede mais ou menos o mesmo que quatro camas.” Na opção de escolher a unidade, o número já vem dado e a criança escolhe cm ou m, com a régua e o metro à vista. Cada coisa resolvida entra no álbum de tamanhos da cabra, da menor para a maior.",
+        "A atividade segue a BNCC para o 2º ano, na unidade temática Grandezas e medidas: estimar comprimentos em centímetros e metros. Funciona sem som, sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Estimar comprimentos e alturas usando pontos de referência do dia a dia",
-        "Escolher a unidade certa: centímetros (cm) para objetos pequenos, metros (m) para os grandes",
-        "Comparar tamanhos reais, como os de uma formiga, um lápis, um trem ou um ônibus",
-        "Pensar antes de responder, ganhando confiança para fazer estimativas"
+        "Estimar o comprimento ou a altura de coisas conhecidas em centímetros e metros",
+        "Comparar uma estimativa com uma régua de 30 cm e um metro",
+        "Escolher a unidade certa: centímetros para o que é pequeno, metros para o que é grande",
+        "Ver no álbum de tamanhos as coisas resolvidas em fila, da menor para a maior"
       ],
       "howToPlay": [
-        "Leia a pergunta sobre o objeto e imagine o tamanho real dele.",
-        "Compare com uma referência conhecida — uma régua tem uns 30 cm, uma porta tem uns 2 m.",
-        "Toque a estimativa que faz mais sentido, em cm ou em m."
+        "Leia a pergunta, toque numa estimativa e veja a figura crescer ou encolher até esse tamanho ao lado da régua ou do metro.",
+        "Toque em outra estimativa para comparar e depois toque em Conferir.",
+        "Nas configurações, escolha estimativa ou unidade, e se a figura cresce ao tocar ou só depois de Conferir."
       ],
       "learningGoals": [
-        "Estimar comprimentos e alturas sem medir, usando referências familiares",
-        "Reconhecer quando usar centímetros e quando usar metros",
-        "Desenvolver a percepção de tamanho com objetos do mundo real"
+        "Estimar comprimentos em centímetros e metros.",
+        "Usar a régua e o metro como referência para ver se uma estimativa faz sentido.",
+        "Saber qual unidade combina com cada coisa: centímetros para o que é pequeno, metros para o que é grande."
       ]
     },
     "bram-board-shop.length-word-problems.2-md-b-5": {

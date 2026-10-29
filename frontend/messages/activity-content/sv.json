@@ -4059,6 +4059,29 @@
         "Förstå att längden blir fel om man börjar vid 1 eller vid linjalens kant.",
         "Mäta från vilket streck som helst genom att räkna centimetermellanrummen, och välja en linjal som räcker hela vägen."
       ]
+    },
+    "gauge-good-guess.estimate.2-md-a-3": {
+      "about": [
+        "I Getens goda gissning är varje uppskattning ett löfte om en storlek. Barnet läser en fråga som ”Ungefär hur lång är en myra?” och trycker på en av tre uppskattningar. Då växer eller krymper bilden till exakt den storleken bredvid en skollinjal på 30 cm för centimeter, eller en meterstock för meter, ritade i samma skala. Väljer man 30 cm för myran blir den lika lång som hela linjalen; väljer man 2 m för lastbilen ser den ut som en leksak bredvid meterstocken. En felaktig uppskattning ser fel ut.",
+        "Barnet uppskattar en myra, en snäcka, en sked, en blyertspenna, en banan, en säng, en dörr, ett hus, en lastbil, en fyr, ett passagerarflygplan, en färja och en val; för varje sak passar bara ett alternativ. Efter en felaktig uppskattning visar en streckad kontur den riktiga storleken bredvid gissningen, utan tal; efter en andra hjälper en jämförelse som ”En lastbil är ungefär lika lång som fyra sängar.” I inställningen ”välj enheten” är talet givet och barnet väljer cm eller m, med både linjalen och meterstocken synliga. Varje löst sak hamnar i getens storleksalbum, från den minsta till den största.",
+        "Aktiviteten följer Lgr22 för åk 1–3 och passar i åk 2: att uppskatta längder i centimeter och meter. Den fungerar utan ljud, och det finns ingen tidtagning och inga poäng."
+      ],
+      "practices": [
+        "Uppskatta längden eller höjden på välkända saker i centimeter och meter",
+        "Jämföra en uppskattning med en linjal på 30 cm och en meterstock",
+        "Välja den enhet som passar: centimeter för små saker, meter för stora",
+        "Se de lösta sakerna i storleksordning i storleksalbumet"
+      ],
+      "howToPlay": [
+        "Läs frågan, tryck på en uppskattning och se bilden växa eller krympa till den storleken bredvid linjalen eller meterstocken.",
+        "Tryck på en annan uppskattning för att jämföra och tryck sedan på Kontrollera.",
+        "I inställningarna väljer du ”välj uppskattningen” eller ”välj enheten”, och om bilden växer när du trycker eller först efter Kontrollera."
+      ],
+      "learningGoals": [
+        "Uppskatta längder i centimeter och meter.",
+        "Använda en linjal och en meterstock som jämförelse för att avgöra om en uppskattning är rimlig.",
+        "Veta vilken enhet som passar: centimeter för små saker, meter för stora."
+      ]
     }
   }
 }

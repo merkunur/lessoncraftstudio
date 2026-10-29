@@ -1,8 +1,8 @@
 [
   {
     "id": "gauge-good-guess.estimate.2-md-a-3",
-    "tool": "gauge-good-guess-activity",
-    "task_template": "estimate",
+    "tool": "growing-picture-activity",
+    "task_template": "growing-picture",
     "alignment": {
       "framework": "CCSS",
       "code": "2.MD.A.3",
@@ -619,7 +619,11 @@
       "es": "estimar-longitudes-cm-y-metros-2-primaria",
       "pt": "estimar-comprimentos-cm-e-metros-2-ano",
       "it": "stimare-lunghezze-cm-e-metri-classe-terza",
-      "nl": "lengtes-schatten-cm-en-meter-groep-5"
+      "nl": "lengtes-schatten-cm-en-meter-groep-5",
+      "sv": "uppskatta-langd-i-cm-och-meter-ak-2",
+      "da": "skon-over-laengder-i-cm-og-meter-2-klasse",
+      "no": "ansla-lengder-i-cm-og-meter-2-trinn",
+      "fi": "arvioi-pituuksia-senttimetreina-ja-metreina-2-luokka"
     },
     "page_title": {
       "en": "Gauge's Good Guess — Estimate the Length (Grade 2)",
@@ -628,7 +632,11 @@
       "es": "Estimar longitudes en cm y metros con Gauge | 2.º primaria",
       "pt": "Estimar comprimentos em cm e metros com Palmira | 2º ano",
       "it": "Stimare lunghezze in cm e metri con Spanna | Classe terza",
-      "nl": "Lengtes schatten met geit Maatje – cm en meter, groep 5"
+      "nl": "Lengtes schatten met geit Maatje – cm en meter, groep 5",
+      "sv": "Uppskatta längd i cm och meter – åk 2",
+      "da": "Skøn over længder i cm og meter – 2. klasse",
+      "no": "Anslå lengder i cm og meter – 2. trinn",
+      "fi": "Arvioi pituuksia senttimetreinä ja metreinä – 2. luokka"
     },
     "page_intro": {
       "en": "Gauge the goat guesses sizes just by looking! Read the question, picture how big the real thing is, and tap the estimate that makes sense — in centimeters or meters. A Grade 2 math game about estimating lengths with sensible units, aligned to Common Core 2.MD.A.3.",
@@ -637,7 +645,11 @@
       "es": "Con Gauge, la cabra, tu peque estima longitudes en centímetros y metros: mira un objeto y elige cuánto mide. Actividad de 2.º de primaria, interactiva y sin registro, alineada a los Planes y programas de estudio (SEP).",
       "pt": "Conheça a Palmira, uma cabra curiosa que adivinha tamanhos só de olhar! Nesta atividade, a criança lê uma pergunta sobre um objeto de verdade, imagina o tamanho real dele e toca a estimativa que faz sentido — em centímetros ou em metros. É uma forma divertida de estimar comprimentos, interativa, pensada para o 2º ano e alinhada à BNCC.",
       "it": "Conosci Spanna, la capra curiosa che indovina le dimensioni delle cose solo guardandole! In questa attività il bambino legge una domanda su un oggetto reale, immagina quanto è grande davvero e tocca la stima che ha più senso — in centimetri o in metri. È un modo divertente per imparare a stimare le lunghezze e a scegliere l’unità giusta a occhio, senza righello e senza misurare. Si gioca subito nel browser: interattiva, senza registrazione, senza timer e senza punteggio. Pensata per la classe terza e allineata alle Indicazioni nazionali.",
-      "nl": "Geit Maatje schat lengtes met het oog, van een mier tot een vlaggenmast. Je leest een vraag zoals 'Hoe lang is een mier ongeveer?', stelt je het echte voorwerp voor en tikt de zinnige schatting in cm of meter aan. Zo bouw je spelenderwijs je maatgevoel en referentiematen op. Interactief, voor groep 5 – meten en meetkunde (SLO)."
+      "nl": "Geit Maatje schat lengtes met het oog, van een mier tot een vlaggenmast. Je leest een vraag zoals 'Hoe lang is een mier ongeveer?', stelt je het echte voorwerp voor en tikt de zinnige schatting in cm of meter aan. Zo bouw je spelenderwijs je maatgevoel en referentiematen op. Interactief, voor groep 5 – meten en meetkunde (SLO).",
+      "sv": "Hur lång är en myra, en lastbil eller en val? Barnet trycker på en uppskattning och bilden växer till just den storleken bredvid en skollinjal på 30 cm eller en meterstock – en orimlig gissning syns direkt. Barnet väljer också rätt enhet, centimeter eller meter. Övningen följer Lgr22 och passar i åk 2.",
+      "da": "Hvor lang er en myre, en lastbil eller en hval? Barnet trykker på et skøn, og billedet vokser til netop den størrelse ved siden af en skolelineal på 30 cm eller en meterstok – et urimeligt gæt ses med det samme. Barnet vælger også den rigtige enhed, centimeter eller meter. Aktiviteten passer til måling i 2. klasse efter Fælles Mål.",
+      "no": "Hvor lang er en maur, en lastebil eller en hval? Barnet trykker på et anslag, og bildet vokser til akkurat den størrelsen ved siden av en skolelinjal på 30 cm eller en meterstokk – en urimelig gjetning ser du med en gang. Barnet velger også riktig enhet, centimeter eller meter. Aktiviteten er knyttet til LK20 (kompetansemålet etter 2. trinn om å måle og sammenligne lengder).",
+      "fi": "Kuinka pitkä on muurahainen, kuorma-auto tai valas? Lapsi napauttaa arviota, ja kuva kasvaa juuri sen kokoiseksi 30 senttimetrin kouluviivaimen tai metrin mittakepin vieressä – järjetön arvio näkyy heti. Lapsi valitsee myös oikean yksikön, senttimetrin tai metrin. Tehtävä tukee OPS 2014 -tavoitteita 2. luokalla."
     },
     "kid_prompt_template": "Picture the real size, then tap the estimate that makes sense."
   }

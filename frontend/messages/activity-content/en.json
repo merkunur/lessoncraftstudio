@@ -2069,25 +2069,25 @@
     },
     "gauge-good-guess.estimate.2-md-a-3": {
       "about": [
-        "Gauge the goat estimates how big real things are just by picturing them — the child reads a question, like about how long is an ant, a crayon, or a train, or how tall is a door, a school bus, or a flagpole, and taps the estimate that makes sense in centimeters or meters. It's an interactive Grade 2 math game that plays in the browser, with no sign-up.",
-        "The big idea is that good estimating means knowing the size of familiar things and choosing a sensible unit. Each round offers three numbers, and the wrong ones are believable distractors: an ant could be 1, 12, or 30 centimeters, and only 1 cm is reasonable; a door is 1, 2, or 9 meters, and 2 m fits. The child has to picture the real object and decide which number and unit actually match, rather than measuring anything.",
-        "It is aligned to Common Core 2.MD.A.3 — estimating lengths using units of centimeters and meters. No timer, no score — just calm, playful practice."
+        "In Gauge's Good Guess every estimate is a promise about size. The child reads a question such as \"About how long is an ant?\" and taps one of three estimates. The picture then grows or shrinks to exactly that size beside a 30-cm school ruler for centimeters, or a 1-meter stick for meters, drawn to the same scale. Tap 30 cm for an ant and the ant becomes as long as the whole ruler; tap 2 m for a truck and it looks like a toy beside the meter stick. A wrong estimate looks wrong.",
+        "The things are an ant, a snail, a spoon, a pencil, a banana, a bed, a door, a house, a truck, a lighthouse, a passenger plane, a ferry and a whale, each with one option that fits the real thing. After a wrong guess, a dashed outline shows the real size next to the guess, with no number on it; after a second, a comparison helps, such as \"A truck is about as long as four beds.\" In the Pick the unit setting the number is given and the child chooses cm or m, with both the ruler and the meter stick in view. Every thing that is solved joins Gauge's size album, ordered from the smallest to the biggest.",
+        "It is aligned to Common Core 2.MD.A.3 (estimate lengths using units of centimeters and meters). It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Picturing the real size of a familiar object",
-        "Choosing a sensible length estimate from believable choices",
-        "Knowing when to think in centimeters and when in meters",
-        "Building a mental sense of how long a centimeter and a meter are"
+        "Estimate the length or height of familiar things in centimeters and meters",
+        "Compare an estimate with a 30-cm ruler and a 1-meter stick",
+        "Choose the unit that fits: centimeters for small things, meters for big ones",
+        "See the solved things lined up by size in the size album"
       ],
       "howToPlay": [
-        "Read the question, like 'About how long is a crayon?'",
-        "Picture how big the real thing is.",
-        "Tap the estimate that makes sense — there is no timer and no score."
+        "Read the question, tap an estimate, and watch the picture grow or shrink to that size beside the ruler or the meter stick.",
+        "Tap another estimate to compare, then press Check.",
+        "In the settings, choose Pick the estimate or Pick the unit, and whether the picture grows when you tap or only after Check."
       ],
       "learningGoals": [
-        "Estimate lengths in centimeters and meters — the focus of Common Core 2.MD.A.3",
-        "Match objects to a reasonable size and the right unit",
-        "Build the measurement intuition that makes later measuring meaningful"
+        "Estimate lengths using units of centimeters and meters, the focus of Common Core 2.MD.A.3.",
+        "Use a ruler and a meter stick as benchmarks to judge whether an estimate makes sense.",
+        "Know which unit fits a thing: centimeters for small things, meters for big ones."
       ]
     },
     "graph-it.bar-graph.2-md-d-10": {

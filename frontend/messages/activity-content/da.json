@@ -3717,6 +3717,29 @@
         "Forstå, at længden bliver forkert, hvis man begynder ved 1 eller ved linealens kant.",
         "Måle fra en hvilken som helst streg ved at tælle centimetermellemrummene og vælge en lineal, der når hele vejen."
       ]
+    },
+    "gauge-good-guess.estimate.2-md-a-3": {
+      "about": [
+        "I Gedens gode gæt er hvert skøn et løfte om en størrelse. Barnet læser et spørgsmål som »Cirka hvor lang er en myre?« og trykker på et af tre skøn. Så vokser eller krymper billedet til præcis den størrelse ved siden af en skolelineal på 30 cm for centimeter eller en meterstok for meter, tegnet i samme målestok. Vælger man 30 cm til myren, bliver den lige så lang som hele linealen; vælger man 2 m til lastbilen, ligner den legetøj ved siden af meterstokken. Et forkert skøn ser forkert ud.",
+        "Barnet skønner en myre, en snegl, en ske, en blyant, en banan, en seng, en dør, et hus, en lastbil, et fyrtårn, et passagerfly, en færge og en hval; for hver ting passer kun ét svar. Efter et forkert skøn viser et stiplet omrids den rigtige størrelse ved siden af skønnet, uden tal; efter et andet hjælper en sammenligning som »En lastbil er cirka lige så lang som fire senge.« I indstillingen »vælg enheden« er tallet givet, og barnet vælger cm eller m, med både linealen og meterstokken i syne. Hver løst ting kommer i gedens størrelsesalbum, fra den mindste til den største.",
+        "Aktiviteten følger Fælles Mål (efter 3. klassetrin) og passer til 2. klasse: at skønne længder i centimeter og meter. Den virker uden lyd, og der er hverken tidtagning eller point."
+      ],
+      "practices": [
+        "Skønne længden eller højden af kendte ting i centimeter og meter",
+        "Sammenligne et skøn med en lineal på 30 cm og en meterstok",
+        "Vælge den enhed, der passer: centimeter til små ting, meter til store",
+        "Se de løste ting stillet op efter størrelse i størrelsesalbummet"
+      ],
+      "howToPlay": [
+        "Læs spørgsmålet, tryk på et skøn, og se billedet vokse eller krympe til den størrelse ved siden af linealen eller meterstokken.",
+        "Tryk på et andet skøn for at sammenligne, og tryk så på Tjek.",
+        "I indstillingerne vælger du »vælg skønnet« eller »vælg enheden«, og om billedet vokser, når du trykker, eller først efter Tjek."
+      ],
+      "learningGoals": [
+        "Skønne længder i centimeter og meter.",
+        "Bruge en lineal og en meterstok som sammenligning til at vurdere, om et skøn giver mening.",
+        "Vide, hvilken enhed der passer: centimeter til små ting, meter til store."
+      ]
     }
   }
 }

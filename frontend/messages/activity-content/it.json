@@ -387,25 +387,25 @@
     },
     "gauge-good-guess.estimate.2-md-a-3": {
       "about": [
-        "Spanna, la capra dall’occhio allenato, sfida il bambino a indovinare quanto sono lunghe le cose vere: una formica lunga circa 1 centimetro, un pastello, una porta, un treno lungo quasi 200 metri.",
-        "Per ogni domanda ci sono tre stime possibili e il bambino tocca quella sensata, imparando a capire quando pensare in centimetri e quando in metri.",
-        "È un’attività di misura e stima delle lunghezze, pensata per la classe terza e allineata alle Indicazioni nazionali."
+        "Nella buona stima della capra, ogni stima è una promessa su una grandezza. Il bambino legge una domanda come «Più o meno quanto è lunga una formica?» e tocca una di tre stime. Allora l’immagine cresce o si rimpicciolisce proprio fino a quella grandezza, accanto a un righello di scuola da 30 cm per i centimetri o a un metro per i metri, disegnati nella stessa scala. Con 30 cm la formica diventa lunga quanto tutto il righello; con 2 m il camion sembra un giocattolo accanto al metro. Una stima sbagliata si vede.",
+        "Bisogna stimare una formica, una chiocciola, un cucchiaio, una matita, una banana, un letto, una porta, una casa, un camion, un faro, un aereo di linea, un traghetto e una balena; per ognuno una sola stima ha senso. Dopo un errore, un contorno tratteggiato mostra la grandezza vera accanto alla stima, senza numero; dopo il secondo aiuta un confronto come «Un camion è lungo più o meno come quattro letti». Con l’impostazione «scegliere l’unità» il numero è dato e il bambino sceglie cm o m, con il righello e il metro sotto gli occhi. Ogni cosa risolta entra nell’album delle grandezze della capra, dalla più piccola alla più grande.",
+        "L’attività segue le Indicazioni nazionali (traguardi al termine della classe terza) ed è adatta alla classe seconda, nel nucleo Relazioni, dati e previsioni: stimare lunghezze in centimetri e metri. Funziona senza audio, senza cronometro e senza punteggi."
       ],
       "practices": [
-        "Immaginare la dimensione reale di un oggetto conosciuto",
-        "Scegliere una stima sensata tra tre possibilità",
-        "Capire quando pensare in centimetri e quando in metri",
-        "Farsi un’idea di quanto è lungo un centimetro e un metro"
+        "Stimare la lunghezza o l’altezza di cose conosciute in centimetri e metri",
+        "Confrontare una stima con un righello da 30 cm e un metro",
+        "Scegliere l’unità giusta: centimetri per le cose piccole, metri per quelle grandi",
+        "Vedere nell’album delle grandezze le cose risolte in fila, dalla più piccola alla più grande"
       ],
       "howToPlay": [
-        "Leggi la domanda sull’oggetto reale.",
-        "Immagina quanto è grande davvero.",
-        "Tocca la stima sensata, in centimetri o in metri."
+        "Leggi la domanda, tocca una stima e guarda l’immagine crescere o rimpicciolirsi fino a quella grandezza accanto al righello o al metro.",
+        "Tocca un’altra stima per confrontare, poi tocca Controlla.",
+        "Nelle impostazioni scegli la stima o l’unità, e se l’immagine cresce quando tocchi o solo dopo Controlla."
       ],
       "learningGoals": [
-        "Stimare le lunghezze a occhio, senza misurare.",
-        "Scegliere l’unità di misura giusta: centimetri o metri.",
-        "Confrontare le dimensioni degli oggetti di tutti i giorni."
+        "Stimare lunghezze in centimetri e metri.",
+        "Usare il righello e il metro come riferimento per capire se una stima ha senso.",
+        "Sapere quale unità va bene: centimetri per le cose piccole, metri per quelle grandi."
       ]
     },
     "mending-fences.mend-board.3-md-d-8": {

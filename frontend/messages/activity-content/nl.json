@@ -1865,25 +1865,25 @@
     },
     "gauge-good-guess.estimate.2-md-a-3": {
       "about": [
-        "Geit Maatje schat alle lengtes met het oog. Je krijgt vragen als 'Hoe lang is een mier ongeveer?' of 'Hoe hoog is een deur ongeveer?' en kiest uit drie schattingen – bijvoorbeeld '1 cm', '12 cm' of '2 m' – de meest zinnige. Zo ga je stap voor stap van zomaar gokken naar beredeneerd schatten.",
-        "De kern is dat je een goed maatgevoel opbouwt met referentiematen die je al kent: een liniaal is ongeveer 30 cm en een deur is ongeveer 2 meter hoog. Je leert ook het verschil tussen centimeter en meter en wanneer je welke maat gebruikt. Dat past bij het SLO-domein meten en meetkunde voor groep 5.",
-        "Er is geen klok, geen score en geen stress. Je werkt lekker in je eigen tempo en mag zo vaak schatten als je wilt."
+        "Bij De goede schatting van Maatje is elke schatting een belofte over een grootte. Het kind leest een vraag zoals ‘Hoe lang is een mier ongeveer?’ en tikt op een van drie schattingen. Dan groeit of krimpt het plaatje precies tot die grootte, naast een schoolliniaal van 30 cm voor centimeters of een meterlat voor meters, op dezelfde schaal getekend. Bij 30 cm wordt de mier zo lang als de hele liniaal; bij 2 m lijkt de vrachtwagen naast de meterlat op speelgoed. Een verkeerde schatting ziet er verkeerd uit.",
+        "Te schatten zijn een mier, een slak, een lepel, een potlood, een banaan, een bed, een deur, een huis, een vrachtwagen, een vuurtoren, een passagiersvliegtuig, een veerboot en een walvis; bij elk past maar één schatting. Na een verkeerde schatting laat een gestippelde omtrek de echte grootte naast de schatting zien, zonder getal; na een tweede helpt een vergelijking, zoals ‘Een vrachtwagen is ongeveer zo lang als vier bedden.’ Bij de instelling de eenheid kiezen staat het getal er al en kiest het kind cm of m, met de liniaal en de meterlat in beeld. Alles wat opgelost is, komt in het groottealbum van Maatje, van klein naar groot.",
+        "De activiteit sluit aan bij de SLO-kerndoelen en past in groep 4: lengtes schatten in centimeters en meters. Ze werkt zonder geluid, zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Lengtes zinnig schatten in cm of meter",
-        "Maatgevoel opbouwen met referentiematen",
-        "Centimeter en meter onderscheiden en bij de juiste situatie kiezen",
-        "Alledaagse voorwerpen op grootte inschatten"
+        "De lengte of hoogte van bekende dingen schatten in centimeters en meters",
+        "Een schatting vergelijken met een liniaal van 30 cm en een meterlat",
+        "De passende eenheid kiezen: centimeters voor kleine dingen, meters voor grote",
+        "In het groottealbum zien hoe de opgeloste dingen op grootte op een rij staan"
       ],
       "howToPlay": [
-        "Lees de vraag en stel je het echte voorwerp voor",
-        "Bekijk de drie schattingen in cm of meter",
-        "Tik de meest zinnige schatting aan"
+        "Lees de vraag, tik op een schatting en kijk hoe het plaatje naast de liniaal of de meterlat tot die grootte groeit of krimpt.",
+        "Tik op een andere schatting om te vergelijken en tik dan op Controleer.",
+        "Kies in de instellingen de schatting kiezen of de eenheid kiezen, en of het plaatje groeit bij het tikken of pas na Controleer."
       ],
       "learningGoals": [
-        "Je schat lengtes en hoogtes met een zinnige maat",
-        "Je gebruikt referentiematen om beter te schatten",
-        "Je kiest de juiste eenheid: centimeter of meter"
+        "Lengtes schatten in centimeters en meters.",
+        "Een liniaal en een meterlat als referentie gebruiken om te zien of een schatting klopt.",
+        "Weten welke eenheid past: centimeters voor kleine dingen, meters voor grote."
       ]
     },
     "mending-fences.mend-board.3-md-d-8": {

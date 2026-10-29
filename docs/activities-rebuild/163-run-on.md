@@ -66,3 +66,4 @@ ORDER row 163 · id `clock.tell-time-5-min.2-md-c-7` (kept). Design: `designs/16
   - `local-test-run-on.js` 1,672/0 in 11 locales: real drags of both grips, the keyboard, the readout staying empty while hands are set, 9:20-on-the-9 → readout 9:20 + crooked, help, ten bell strokes, settings, plus 4 states × 8 widths.
   - visual-qa 240 renders each in en/de/fi/fr; hierarchy 242/0; settings efficacy 2 live.
 - **Content gates:** prose-claims, SERP copy, content tells, preflight routes, next-delay all PASS.
+- **Live (2026-10-30):** live-verify-run-on 37/0 (en/de/sv, 1366 + 390, real drags) + fi 13/0; all 11 pages 200; deploy payment canary OK.

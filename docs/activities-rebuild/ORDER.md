@@ -170,7 +170,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 160 | LIVE 2026-10-29 · The Drive Cables | 2 | 2.MD.C.7 | `clock-digital.match-clocks.2-md-c-7` | clock-digital-activity | Sprocket's Clock — Match Analog and Digital Clocks (Grade 2) |
 | 161 | LIVE 2026-10-29 · The Minute Train | 2 | 2.MD.C.7 | `clock-digital.read-five-minute.2-md-c-7` | clock-digital-activity | Sprocket's Clock — Read the Clock to Five Minutes (Grade 2) |
 | 162 | LIVE 2026-10-29 · The Hour Ball | 2 | 2.MD.C.7 | `clock-digital.read-quarter-hour.2-md-c-7` | clock-digital-activity | Sprocket's Clock — Read the Clock to the Quarter-Hour (Grade 2) |
-| 163 |  | 2 | 2.MD.C.7 | `clock.tell-time-5-min.2-md-c-7` | clock-activity | Tell Time to the Nearest 5 Minutes — Set the Clock (Grade 2) |
+| 163 | LIVE 2026-10-30 · The Run-On Test | 2 | 2.MD.C.7 | `clock.tell-time-5-min.2-md-c-7` | clock-activity | Tell Time to the Nearest 5 Minutes — Set the Clock (Grade 2) |
 | 164 |  | 2 | 2.MD.C.8 | `coin-stall.money.2-md-c-8` | coin-stall-activity | Pip's Market Stall — Counting Coins & Making Change |
 | 165 |  | 2 | 2.MD.C.8 | `money.count-out.2-md-c-8` | money-activity | Count Out the Money — Coins to a Target Amount (Grade 2) |
 | 166 |  | 2 | 2.MD.C.8 | `money.make-change.2-md-c-8` | money-activity | Make Change with Coins — Money Word Problems (Grade 2) |

@@ -3739,6 +3739,29 @@
         "Käyttää viivainta ja mittakeppiä vertailukohtana, kun arvioi, onko arvio järkevä.",
         "Tietää, mikä yksikkö sopii: senttimetrit pienille asioille, metrit suurille."
       ]
+    },
+    "span-length-gap.how-much-longer.2-md-a-4": {
+      "about": [
+        "Tehtävässä Kuinka paljon pidempi? kaksi oikeaa esinettä on kahdella radalla, molemmat puisen nollaseinän vieressä, ja niiden välissä on yksi keltainen mittanauha. Lapsi liu’uttaa oranssin pyykkipojan ylemmän esineen päähän ja vihreän pyykkipojan alemman esineen päähän. Jokaisesta pyykkipojasta kulkee katkoviiva sen omaan esineeseen, joten lapsi näkee, osuuko pyykkipoika aivan päähän. Heti kun molemmat pyykkipojat ovat mittanauhassa, niiden välinen pala alkaa hehkua: eron näkee jo ennen kuin sille on lukua.",
+        "Lapsi kirjoittaa, montako senttimetriä pidempi pitkä esine on, ja painaa Tarkista. Silloin hehkuva pala leikataan irti mittanauhasta, se putoaa tarjottimelle ja laskee itsensä nollasta alkaen. Jos luku on väärä, palan viereen ilmestyy kirjoitetun luvun mittainen katkoviivainen suikale: vastaus, kuten pidemmän esineen pituus tai molempien summa, ulottuu paljon palan ohi; toisen virheen jälkeen palan jokaiseen yhden senttimetrin väliin tulee piste. Väärässä kohdassa oleva pyykkipoika värittää sen osan esineestä, joka siltä jäi. Asetuksella ”erillään seinästä” esineet alkavat kauempaa seinästä, eikä mitään tarkisteta, ennen kuin molemmat on työnnetty seinää vasten: pituuksia verrataan samasta alusta.",
+        "Tehtävä tukee OPS 2014 -tavoitteita 2. luokalla: pituuksien mittaaminen ja vertaileminen senttimetreinä. Se toimii ilman ääntä, eikä siinä ole ajanottoa tai pisteitä."
+      ],
+      "practices": [
+        "Kahden esineen mittaaminen senttimetreinä samalla mittanauhalla",
+        "Sen selvittäminen, montako senttimetriä pidempi yksi esine on kuin toinen",
+        "Eron näkeminen mittanauhan palana: pidempi pituus miinus lyhyempi",
+        "Pituuksien vertaaminen samasta alkukohdasta"
+      ],
+      "howToPlay": [
+        "Liu’uta oranssi pyykkipoika ylemmän esineen päähän ja vihreä alemman esineen päähän, tai siirrä niitä napauttamalla mittanauhaa.",
+        "Kirjoita näppäimistöllä, montako senttimetriä pidempi pitkä esine on, ja paina Tarkista.",
+        "Asetuksista valitset mittanauhan 0–12 cm tai 0–20 cm ja sen, alkavatko esineet seinää vasten vai erillään seinästä."
+      ],
+      "learningGoals": [
+        "Kahden esineen mittaaminen senttimetreinä ja sen selvittäminen, kuinka paljon pidempi toinen on.",
+        "Eron ymmärtäminen pidemmän pituuden osana, johon lyhyempi ei yllä.",
+        "Pituuksien asettaminen samaan alkukohtaan ennen vertaamista."
+      ]
     }
   }
 }

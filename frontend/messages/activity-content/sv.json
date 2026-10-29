@@ -2016,25 +2016,25 @@
     },
     "span-length-gap.how-much-longer.2-md-a-4": {
       "about": [
-        "Två remsor ligger under varandra, en orange och en grön. Framför varje remsa står vad den föreställer — en penna och en krita, en halsduk och ett bälte, en gren och en kvist — och på själva remsan står hur många centimeter lång den är. Barnet ser genast vilken som är längst och svarar sedan på hur mycket längre den är genom att trycka in skillnaden på knappsatsen. En interaktiv matteövning för årskurs 2, direkt i webbläsaren, utan nedladdning och utan konto.",
-        "Det här är ingen mätövning. Det finns ingen linjal, ingen skala och ingenting att läsa av — båda längderna är redan kända och står skrivna på remsorna. Arbetet ligger i subtraktionen: att ta bort den kortare längden från den längre. Att remsorna samtidigt är olika långa gör skillnaden synlig som en bild, den lilla biten som sticker ut i änden, så barnet kan se att talet stämmer med det ögat visar.",
-        "Aktiviteten följer Lgr22 inom området mätning och jämförelse av längder, och den kommer efter att barnet har lärt sig mäta med linjal — att mäta är en annan övning, här är längderna redan givna. De åtta omgångarna växer i svårighet: från korta remsor som 8 och 5 centimeter till 20 mot 8, och till det kluriga 11 mot 9 där skillnaden bara är 2 centimeter. Omgångarna blandas om inom varje nivå, så de kommer i ny ordning varje gång, men de lättaste kommer alltid först. Ingen timer, inga poäng — bara lugn, lekfull träning."
+        "I Hur mycket längre? ligger två riktiga saker på två banor, båda mot en nollvägg av trä, med ett enda gult måttband mellan sig. Barnet skjuter den orange klämman till slutet av den övre saken och den gröna klämman till slutet av den nedre. Från varje klämma går en streckad linje till dess egen sak, så barnet ser om klämman når ända fram till slutet. Så fort båda klämmorna sitter på måttbandet lyser biten mellan dem: skillnaden går att se innan den har ett tal.",
+        "Barnet skriver hur många centimeter längre den långa saken är och trycker på Kontrollera. Då klipps den lysande biten ut ur måttbandet, landar i brickan och räknar sig själv från 0. Är talet fel läggs en streckad remsa, lika lång som det skrivna talet, bredvid biten: ett svar som den längre längden eller summan av båda sticker ut långt förbi den; efter det andra felet syns en prick i varje mellanrum på en centimeter i biten. En klämma på fel ställe färgar den del av saken som den missade. I inställningen ”lösa” börjar sakerna en bit från väggen, och ingenting kontrolleras förrän båda är skjutna mot den: längder jämförs från samma start.",
+        "Aktiviteten följer Lgr22 för åk 1–3 och passar i åk 2: att mäta och jämföra längder i centimeter. Den fungerar utan ljud, och det finns ingen tidtagning och inga poäng."
       ],
       "practices": [
-        "Läsa två längder som står skrivna i centimeter och avgöra vilken som är längst",
-        "Räkna ut hur mycket längre det ena föremålet är än det andra — skillnaden mellan de två längderna",
-        "Använda subtraktion för att jämföra längder, med tal inom 20 centimeter",
-        "Svara med skillnaden i centimeter, inte med någon av de två längderna som står på remsorna"
+        "Mäta två saker i centimeter på ett och samma måttband",
+        "Ta reda på hur många centimeter längre en sak är än en annan",
+        "Se skillnaden som en bit av måttbandet: den längre längden minus den kortare",
+        "Jämföra längder från samma startpunkt"
       ],
       "howToPlay": [
-        "Titta på de två remsorna: framför varje remsa står vad den är, och på remsan står hur många centimeter lång den är.",
-        "Räkna ut hur mycket längre den längsta remsan är, tryck in talet på knappsatsen och tryck sedan på Kontrollera.",
-        "Blev det inte rätt? Försök igen så många gånger du vill — det finns ingen timer och inga poäng."
+        "Skjut den orange klämman till slutet av den övre saken och den gröna till slutet av den nedre, eller tryck på måttbandet för att flytta dem.",
+        "Skriv på knappsatsen hur många centimeter längre den långa saken är och tryck på Kontrollera.",
+        "I inställningarna väljer du ett måttband från 0 till 12 cm eller från 0 till 20 cm, och om sakerna börjar mot väggen eller lösa."
       ],
       "learningGoals": [
-        "Barnet kan räkna ut hur mycket längre det ena av två föremål är än det andra",
-        "Barnet förstår att jämföra två längder betyder att hitta skillnaden mellan dem",
-        "Barnet går från att mäta en enskild längd med linjal till att räkna med två kända längder — grunden för längd- och diagramuppgifter längre fram"
+        "Mäta två föremål i centimeter och ta reda på hur mycket längre det ena är.",
+        "Förstå skillnaden som den del av den längre längden som den kortare inte når.",
+        "Ställa längder vid samma start innan de jämförs."
       ]
     },
     "mosaic-menders.area-match.3-md-c-6": {

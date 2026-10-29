@@ -3765,6 +3765,29 @@
         "Bruke en linjal og en meterstokk som sammenligning for å vurdere om et anslag er rimelig.",
         "Vite hvilken enhet som passer: centimeter for små ting, meter for store."
       ]
+    },
+    "span-length-gap.how-much-longer.2-md-a-4": {
+      "about": [
+        "I Hvor mye lengre? ligger to ekte ting på to baner, begge inntil en nullvegg av tre, med ett gult målebånd mellom seg. Barnet skyver den oransje klypa bort til enden av den øverste tingen og den grønne klypa bort til enden av den nederste. Fra hver klype går en stiplet linje ned til tingen den hører til, så barnet ser om klypa treffer enden. Så snart begge klypene sitter på målebåndet, lyser biten mellom dem: Forskjellen kan ses før den har et tall.",
+        "Barnet skriver hvor mange centimeter lengre den lengste tingen er, og trykker på Sjekk. Da klippes den lysende biten ut av målebåndet, lander i brettet og teller seg selv fra 0. Er tallet feil, legges en stiplet stripe, like lang som det skrevne tallet, ved siden av biten: Et svar som den lengste lengden eller summen av begge stikker langt forbi den; etter den andre feilen kommer det en prikk i hvert mellomrom på én centimeter i biten. En klype på feil sted farger den delen av tingen den bommet på. I innstillingen «løse» starter tingene et stykke fra veggen, og ingenting blir sjekket før begge er skjøvet inntil den: Lengder sammenlignes fra samme start.",
+        "Aktiviteten er knyttet til LK20 (kompetansemålet etter 2. trinn om å måle og sammenligne lengder) og øver på å finne hvor mye lengre noe er, i centimeter. Den virker uten lyd, og det er verken tidtaking eller poeng."
+      ],
+      "practices": [
+        "Måle to ting i centimeter på ett målebånd",
+        "Finne ut hvor mange centimeter lengre den ene tingen er enn den andre",
+        "Se forskjellen som en bit av målebåndet: den lengste lengden minus den korteste",
+        "Sammenligne lengder fra samme startpunkt"
+      ],
+      "howToPlay": [
+        "Skyv den oransje klypa bort til enden av den øverste tingen og den grønne bort til enden av den nederste, eller trykk på målebåndet for å flytte dem.",
+        "Skriv på tastaturet hvor mange centimeter lengre den lengste tingen er, og trykk på Sjekk.",
+        "I innstillingene velger du et målebånd fra 0 til 12 cm eller fra 0 til 20 cm, og om tingene starter inntil veggen eller løse."
+      ],
+      "learningGoals": [
+        "Måle to gjenstander i centimeter og finne ut hvor mye lengre den ene er.",
+        "Forstå forskjellen som den delen av den lengste lengden som den korteste ikke når.",
+        "Stille lengder opp ved samme start før de sammenlignes."
+      ]
     }
   }
 }

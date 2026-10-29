@@ -1300,25 +1300,25 @@
     },
     "span-length-gap.how-much-longer.2-md-a-4": {
       "about": [
-        "Span ist eine neugierige kleine Spannerraupe, die für ihr Leben gern Dinge nebeneinanderlegt und vergleicht. In dieser Aufgabe zeigt dir Span zwei Streifen von unterschiedlicher Länge – zum Beispiel ein Band mit 8 cm und eine Schnur mit 5 cm. Jeder Streifen ist mit seinem Namen und seiner Länge in Zentimetern beschriftet.",
-        "Deine Aufgabe: Lies beide Längen ab und finde heraus, um wie viel länger der längere Streifen ist. Dazu ziehst du die kürzere Länge von der längeren ab – aus 8 cm und 5 cm wird so der Längenunterschied von 3 cm. Die Zahl tippst du anschließend ein. Alle Längen liegen zwischen 1 cm und 20 cm, sodass du im vertrauten Zahlenraum bis 20 rechnest.",
-        "„Wie viel länger?“ ist eine interaktive Übung für die 2. Klasse aus dem Bereich „Größen und Messen – Längen“ und passt zu den Inhalten des Lehrplans. Es gibt keine Zeituhr und keine Punktewertung – Span lässt dir alle Zeit, in Ruhe abzulesen, zu vergleichen und nachzudenken."
+        "Bei „Wie viel länger?“ liegen zwei echte Dinge auf zwei Bahnen, beide an einer hölzernen Nullwand, und dazwischen liegt ein gelbes Maßband. Das Kind schiebt die orange Klammer ans Ende des oberen Dings und die grüne Klammer ans Ende des unteren. Von jeder Klammer führt eine gestrichelte Linie zu ihrem Ding, so sieht das Kind, ob die Klammer das Ende trifft. Sobald beide Klammern am Maßband sitzen, leuchtet das Stück dazwischen: Den Unterschied kann man sehen, bevor man eine Zahl dafür hat.",
+        "Das Kind tippt ein, wie viele Zentimeter das längere Ding länger ist, und drückt auf Prüfen. Dann wird das leuchtende Stück aus dem Maßband ausgeschnitten, fällt in die Schale und zählt sich selbst ab 0. Ist die Zahl falsch, liegt neben dem Stück ein gestrichelter Streifen, so lang wie die eingetippte Zahl – wer die längere Länge oder die Summe eintippt, sieht den Streifen weit überstehen; nach dem zweiten Fehler steht in jedem Zentimeter-Abstand des Stücks ein Punkt. Sitzt eine Klammer falsch, wird der Teil des Dings markiert, den sie verfehlt hat. In der Einstellung „lose“ liegen die Dinge zuerst weg von der Wand, und geprüft wird erst, wenn beide angeschoben sind: Längen vergleicht man vom selben Anfang aus.",
+        "Die Aktivität ist an den Lehrplänen für die 2. Klasse im Bereich Größen und Messen ausgerichtet: Längen in Zentimetern messen und herausfinden, um wie viel eine Länge länger ist. Sie funktioniert ohne Ton, und es gibt keinen Timer und keine Punkte."
       ],
       "practices": [
-        "Zwei gegebene Längen in Zentimetern sicher ablesen und einander zuordnen.",
-        "Den längeren und den kürzeren Streifen erkennen und benennen.",
-        "Den Längenunterschied bestimmen, indem die kürzere Länge von der längeren abgezogen wird.",
-        "Das Ergebnis als Größe mit Einheit angeben („… cm“) und so die Größenvorstellung für Längen festigen."
+        "Zwei Dinge an einem Maßband in Zentimetern messen",
+        "Herausfinden, wie viele Zentimeter ein Ding länger ist als ein anderes",
+        "Den Unterschied als Stück des Maßbands sehen: längere Länge minus kürzere",
+        "Längen vom selben Anfang aus vergleichen"
       ],
       "howToPlay": [
-        "Schau dir Spans zwei Streifen an und lies bei jedem die Länge in cm ab.",
-        "Überlege: Welcher Streifen ist länger? Ziehe die kürzere Länge von der längeren ab.",
-        "Tippe ein, um wie viel länger der längere Streifen ist (in cm) – Span sagt dir, ob es passt."
+        "Schieb die orange Klammer ans Ende des oberen Dings und die grüne ans Ende des unteren, oder tipp aufs Maßband, um sie zu setzen.",
+        "Tipp auf dem Ziffernfeld ein, wie viele Zentimeter das längere Ding länger ist, und drück auf Prüfen.",
+        "In den Einstellungen wählst du ein Maßband von 0 bis 12 cm oder von 0 bis 20 cm und ob die Dinge an der Wand oder lose anfangen."
       ],
       "learningGoals": [
-        "Kinder vergleichen zwei gegebene Längen und bestimmen ihren Unterschied – ein Kerninhalt aus „Größen und Messen – Längen“ der 2. Klasse.",
-        "Kinder verknüpfen das Sachthema „Länge“ mit dem Rechnen im Zahlenraum bis 20 und üben das Abziehen in einem sinnvollen Sachzusammenhang.",
-        "Kinder bauen eine tragfähige Größenvorstellung für Zentimeter auf und lernen, Ergebnisse stets mit der passenden Einheit anzugeben."
+        "Zwei Gegenstände in Zentimetern messen und herausfinden, um wie viel einer länger ist.",
+        "Den Unterschied als den Teil der längeren Länge verstehen, den die kürzere nicht erreicht.",
+        "Längen vor dem Vergleichen am selben Anfang ausrichten."
       ]
     },
     "mosaic-menders.area-match.3-md-c-6": {

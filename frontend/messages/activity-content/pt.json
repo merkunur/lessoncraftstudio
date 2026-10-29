@@ -390,25 +390,25 @@
     },
     "span-length-gap.how-much-longer.2-md-a-4": {
       "about": [
-        "O Palmo é uma lagarta-mede-palmos que adora comparar comprimentos: ele mostra duas barras na tela, cada uma com um objeto e o seu comprimento em centímetros (cm). Por exemplo, uma fita de 8 cm e uma corda de 5 cm — a criança percebe que a fita tem 3 cm a mais que a corda. Assim, medir e comparar comprimentos vira uma brincadeira tranquila e cheia de descobertas.",
-        "A criança lê os dois comprimentos em cm e descobre quanto o objeto mais comprido tem a mais — a diferença de comprimento — tirando o menor do maior. É só digitar esse número. Desse jeito, ela completa o caminho de medir e comparar comprimentos, entendendo o que significa um objeto ser mais comprido que o outro.",
-        "Esta é uma atividade interativa, sem cronômetro, sem pontos e sem competição — só o prazer calmo de medir e pensar. A proposta acompanha a BNCC, na unidade temática Grandezas e medidas do 2º ano, trabalhando comprimento, centímetros e diferença de comprimento no ritmo de cada criança."
+        "Em Quanto mede a mais? duas coisas de verdade ficam em duas pistas, as duas encostadas numa parede de madeira que marca o zero, com uma única fita métrica amarela entre elas. A criança arrasta o pregador laranja até o fim da coisa de cima e o pregador verde até o fim da coisa de baixo. De cada pregador desce uma linha tracejada até a sua coisa, assim a criança vê se o pregador encostou bem no fim. Assim que os dois pregadores estão na fita, o trecho entre eles se acende: dá para ver a diferença antes de ter um número.",
+        "A criança digita quantos centímetros a mais a mais comprida mede e toca em Conferir. Então o pedaço aceso é recortado da fita, cai na bandeja e se conta sozinho a partir do 0. Se o número estiver errado, uma tira tracejada do tamanho do número digitado aparece ao lado do pedaço: uma resposta como o comprimento maior ou a soma dos dois passa muito do pedaço; depois do segundo erro, aparece um ponto em cada espaço de um centímetro do pedaço. Um pregador no lugar errado pinta a parte da coisa que ele não alcançou. Na opção “soltas”, as coisas começam longe da parede, e nada é conferido até as duas serem empurradas até ela: os comprimentos são comparados a partir do mesmo início.",
+        "A atividade segue a BNCC para o 2º ano, na unidade temática Grandezas e medidas: medir comprimentos em centímetros e descobrir quanto um mede a mais que o outro. Funciona sem som, sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Ler o comprimento de dois objetos em centímetros (cm)",
-        "Comparar os objetos e descobrir qual é o mais comprido",
-        "Achar a diferença de comprimento tirando o menor do maior",
-        "Entender a diferença como \"quantos centímetros a mais\""
+        "Medir duas coisas em centímetros com uma só fita métrica",
+        "Descobrir quantos centímetros a mais uma coisa mede que a outra",
+        "Ver a diferença como um pedaço da fita: o comprimento maior menos o menor",
+        "Comparar comprimentos a partir do mesmo ponto de início"
       ],
       "howToPlay": [
-        "Leia os dois comprimentos mostrados nas barras, em centímetros (cm)",
-        "Descubra quanto o objeto mais comprido tem a mais e digite esse número",
-        "Você pode tentar quantas vezes quiser, sem tempo e sem pontos"
+        "Arraste o pregador laranja até o fim da coisa de cima e o verde até o fim da coisa de baixo, ou toque na fita para mudá-los de lugar.",
+        "Digite no teclado quantos centímetros a mais a mais comprida mede e toque em Conferir.",
+        "Nas configurações, escolha uma fita de 0 a 12 cm ou de 0 a 20 cm, e se as coisas começam encostadas na parede ou soltas."
       ],
       "learningGoals": [
-        "Medir e comparar comprimentos em centímetros",
-        "Achar a diferença de comprimento entre dois objetos",
-        "Compreender \"quanto a mais\" como uma subtração, tirando o menor do maior — objetivo de 2º ano da unidade Grandezas e medidas"
+        "Medir dois objetos em centímetros e descobrir quanto um mede a mais que o outro.",
+        "Entender a diferença como a parte do comprimento maior que o menor não alcança.",
+        "Alinhar os comprimentos no mesmo início antes de compará-los."
       ]
     },
     "comparison-creek.river-steer.k-cc-c-7": {

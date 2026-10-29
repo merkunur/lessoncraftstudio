@@ -1342,25 +1342,25 @@
     },
     "span-length-gap.how-much-longer.2-md-a-4": {
       "about": [
-        "Span, la chenille arpenteuse, adore mesurer. Elle montre à votre enfant deux bandes proportionnelles, chacune avec son nom et sa longueur en centimètres — par exemple un ruban de 8 cm et une ficelle de 5 cm.",
-        "Votre enfant lit les deux longueurs, repère la plus longue, puis cherche de combien de centimètres elle dépasse la plus courte. Ici, il suffit de retirer la plus courte de la plus longue : 8 − 5 = 3 cm. Le ruban mesure donc 3 cm de plus que la ficelle.",
-        "Toutes les longueurs vont de 1 à 20 cm, si bien que le calcul reste toujours dans les 20 — juste à la portée d’un enfant de CE1. Cette activité interactive travaille le domaine « Grandeurs et mesures – Longueurs », sans chrono ni points, dans l’esprit des programmes officiels."
+        "Dans « Combien de cm de plus ? », deux vrais objets sont posés sur deux couloirs, tous les deux contre un mur du zéro en bois, avec un seul ruban à mesurer jaune entre eux. L’enfant fait glisser la pince orange jusqu’au bout de l’objet du haut et la pince verte jusqu’au bout de l’objet du bas. Une ligne en pointillé descend de chaque pince vers son objet : l’enfant voit si la pince touche bien le bout. Dès que les deux pinces sont sur le ruban, le morceau entre elles s’allume : on voit l’écart avant d’avoir un nombre.",
+        "L’enfant tape de combien de centimètres le plus long dépasse et touche Vérifier. Le morceau lumineux est alors découpé dans le ruban, tombe dans le plateau et se compte tout seul à partir de 0. Si le nombre est faux, une bande en pointillés aussi longue que le nombre tapé se pose à côté du morceau : une réponse comme la plus grande longueur ou la somme des deux dépasse de beaucoup ; après une deuxième erreur, un point apparaît dans chaque espace d’un centimètre du morceau. Une pince mal placée colore la partie de l’objet qu’elle a manquée. Avec le réglage « décalés », les objets commencent loin du mur, et rien n’est vérifié tant qu’ils ne sont pas poussés contre lui : on compare des longueurs à partir du même point.",
+        "L’activité suit les programmes officiels du CE1, dans le domaine Grandeurs et mesures : mesurer des longueurs en centimètres et trouver de combien l’une dépasse l’autre. Elle fonctionne sans son, sans chronomètre et sans score."
       ],
       "practices": [
-        "Lire deux longueurs exprimées en centimètres.",
-        "Repérer la bande la plus longue et la bande la plus courte.",
-        "Déterminer la différence en retirant la plus courte de la plus longue.",
-        "Donner le résultat avec son unité : « … cm »."
+        "Mesurer deux objets en centimètres sur un même ruban",
+        "Trouver de combien de centimètres un objet est plus long qu’un autre",
+        "Voir l’écart comme un morceau du ruban : la plus grande longueur moins la plus petite",
+        "Comparer des longueurs à partir du même point de départ"
       ],
       "howToPlay": [
-        "Regarde les deux bandes de Span et lis chaque longueur.",
-        "Laquelle est la plus longue ? Retire la plus courte de la plus longue.",
-        "Tape de combien de cm elle est plus longue."
+        "Fais glisser la pince orange jusqu’au bout de l’objet du haut et la verte jusqu’au bout de l’objet du bas, ou touche le ruban pour les déplacer.",
+        "Tape sur le pavé de combien de centimètres le plus long dépasse, puis touche Vérifier.",
+        "Dans les réglages, choisis un ruban de 0 à 12 cm ou de 0 à 20 cm, et si les objets commencent contre le mur ou décalés."
       ],
       "learningGoals": [
-        "Comparer deux longueurs et déterminer leur différence : le cœur du domaine « Grandeurs et mesures – Longueurs » en CE1.",
-        "Relier la longueur au calcul, en restant dans les nombres jusqu’à 20.",
-        "Construire la notion de centimètre et prendre l’habitude de toujours préciser l’unité."
+        "Mesurer deux objets en centimètres et trouver de combien l’un est plus long que l’autre.",
+        "Comprendre l’écart comme la partie de la plus grande longueur que la plus petite n’atteint pas.",
+        "Aligner les longueurs au même point de départ avant de les comparer."
       ]
     },
     "comparison-creek.river-steer.k-cc-c-7": {

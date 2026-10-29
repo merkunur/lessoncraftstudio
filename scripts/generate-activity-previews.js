@@ -107,6 +107,10 @@ function seedScript(row) {
     // 160 + 50: ten of the eleven rods stacked on the vice's bed — the square gauge exactly covered, one rod still in the tens column: the invention at work
     return `(function(){var t=window['SquareViceActivity'];if(t&&t.st&&t._start){t.FAST=true;t.OK_MS=600000;t._start(0);t._render2();t._bay('T',10);}})();`;
   }
+  if (row.tool === 'snip-tape-activity') {
+    // the invention at work: caterpillar 5 and centipede 7 clipped, 12 (the sum) typed and checked — the 2-cm piece snipped into the tray beside the 12-cm dashed strip
+    return "(function(){var t=window['SnipTapeActivity'];if(!t||!t.api)return;var go=function(){if(!t._picsReady){setTimeout(go,50);return;}t.FAST=true;t.OK_MS=600000;t.api.settings.ruler='12';t.api.settings.starts='lined';t._pool=null;t._ensurePool();t._start(0);t._render2();t._clip('a',5);t._clip('b',7);t._type('1');t._type('2');t._check();};go();})();";
+  }
   if (row.tool === 'growing-picture-activity') {
     // the invention at work: 30 cm tapped for an ant — the ant grown as long as the whole 30-cm ruler, checked: the dashed ghost of its real 1 cm
     return `(function(){var t=window['GrowingPictureActivity'];if(!t||!t.api)return;var go=function(){if(!t._picsReady){setTimeout(go,50);return;}t.FAST=true;t.OK_MS=600000;t.api.settings.level='estimate';t.api.settings.grow='tap';t._pool=null;t._ensurePool();t._cards={0:[0,1,2]};t._start(0);t._render2();t._choose(2);t._check();};go();})();`;

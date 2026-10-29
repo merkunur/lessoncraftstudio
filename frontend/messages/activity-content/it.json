@@ -1106,25 +1106,25 @@
     },
     "span-length-gap.how-much-longer.2-md-a-4": {
       "about": [
-        "Spanna, il bruco geometra, ama misurare il mondo a spanne e si ferma davanti a due oggetti chiedendosi di quanto uno superi l'altro.",
-        "È un'attività di matematica online per la classe seconda (7-8 anni): il bambino legge la lunghezza in centimetri di due barre e scopre quanto è più lungo il più lungo, cioè la loro differenza, sempre entro i 20 cm e senza righello.",
-        "L'attività è allineata alle Indicazioni nazionali, nel nucleo Relazioni, dati e previsioni: niente punteggio e niente cronometro, solo un percorso sereno in cui confrontare lunghezze e ragionare con calma, anche con semplici materiali manipolabili."
+        "In questa attività due cose vere stanno su due corsie, tutte e due contro un muro di legno che segna lo zero, con un solo metro a nastro giallo in mezzo. Il bambino fa scorrere la molletta arancione fino alla fine della cosa in alto e la molletta verde fino alla fine della cosa in basso. Da ogni molletta scende una linea tratteggiata fino alla sua cosa, così il bambino vede se la molletta tocca proprio la fine. Appena tutte e due le mollette sono sul metro, il tratto tra loro si illumina: la differenza si vede prima ancora di avere un numero.",
+        "Il bambino scrive di quanti centimetri è più lunga quella più lunga e tocca Controlla. Allora il pezzo illuminato viene ritagliato dal metro, finisce nel vassoio e si conta da solo partendo da 0. Se il numero è sbagliato, accanto al pezzo compare una striscia tratteggiata lunga come il numero scritto: una risposta come la lunghezza maggiore o la somma delle due va molto oltre; dopo il secondo errore compare un puntino in ogni spazio di un centimetro del pezzo. Una molletta messa male colora la parte della cosa che non ha raggiunto. Con l’impostazione «spostate» le cose partono lontane dal muro, e non si controlla niente finché non sono spinte tutte e due contro il muro: le lunghezze si confrontano dallo stesso punto di partenza.",
+        "L’attività segue le Indicazioni nazionali (traguardi al termine della classe terza) ed è adatta alla classe seconda, nel nucleo Relazioni, dati e previsioni: misurare lunghezze in centimetri e trovare di quanto una è più lunga dell’altra. Funziona senza audio, senza cronometro e senza punteggi."
       ],
       "practices": [
-        "Confrontare due lunghezze espresse in centimetri e capire quale oggetto è più lungo.",
-        "Trovare la differenza di lunghezza: di quanti centimetri in più è lungo il più lungo.",
-        "Leggere le misure già segnate sulle barre, senza usare il righello.",
-        "Usare la sottrazione entro il 20 per rispondere alla domanda «quanto è più lungo?»."
+        "Misurare due cose in centimetri con un solo metro a nastro",
+        "Trovare di quanti centimetri una cosa è più lunga di un’altra",
+        "Vedere la differenza come un pezzo del metro: la lunghezza maggiore meno quella minore",
+        "Confrontare lunghezze dallo stesso punto di partenza"
       ],
       "howToPlay": [
-        "Guarda le due barre e leggi quanti centimetri è lunga ciascuna.",
-        "Trova di quanti centimetri in più è lungo il più lungo e digita il numero.",
-        "Se il numero non torna, arriva un suggerimento gentile: nessun punteggio, si riprova con calma."
+        "Fai scorrere la molletta arancione fino alla fine della cosa in alto e quella verde fino alla fine della cosa in basso, oppure tocca il metro per spostarle.",
+        "Scrivi sul tastierino di quanti centimetri è più lunga quella più lunga, poi tocca Controlla.",
+        "Nelle impostazioni scegli un metro da 0 a 12 cm o da 0 a 20 cm, e se le cose partono contro il muro o spostate."
       ],
       "learningGoals": [
-        "Confrontare lunghezze in centimetri e riconoscere quella maggiore.",
-        "Calcolare la differenza di lunghezza tra due oggetti, entro i 20 cm.",
-        "Avvicinarsi agli obiettivi sulla misura previsti dalle Indicazioni nazionali, nel nucleo Relazioni, dati e previsioni."
+        "Misurare due oggetti in centimetri e trovare di quanto uno è più lungo dell’altro.",
+        "Capire la differenza come la parte della lunghezza maggiore che quella minore non raggiunge.",
+        "Allineare le lunghezze allo stesso punto di partenza prima di confrontarle."
       ]
     },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {

@@ -4027,25 +4027,25 @@
     },
     "span-length-gap.how-much-longer.2-md-a-4": {
       "about": [
-        "Span the inchworm shows two labeled bars with their lengths in centimeters — a ribbon 8 cm beside a string 5 cm — and the child works out how much LONGER the longer one is, then types the difference on the keypad. It's an interactive Grade 2 measurement activity that runs in the browser with no account.",
-        "The skill is finding the difference between two measurements, which is subtraction wearing a measurement hat. The child reads both lengths, decides which is longer, and figures the gap (8 and 5 means 3 centimeters longer). Keeping the lengths visible as bars helps the child see the extra piece they are measuring, so the answer is grounded in a picture and not just a number sentence.",
-        "It is aligned to Common Core 2.MD.A.4 — measuring to determine how much longer one object is than another, expressed in a standard length unit. No timer, no score — just calm, playful practice."
+        "In Span's Length Gap two real things lie on two lanes, both against a wooden zero wall, with one yellow tape measure between them. The child slides the orange clip to the end of the top thing and the green clip to the end of the bottom thing. A dashed line drops from each clip to its own thing, so the child sees the clip meet the end. As soon as both clips are on the tape, the stretch of tape between them glows: the gap is something to look at before it has a number.",
+        "The child types how many centimeters longer the longer one is and presses Check. The glowing piece is snipped out of the tape and lands in the tray, where it counts itself from 0. If the number is wrong, a dashed strip as long as the typed number lies beside the piece, so an answer such as the longer length or the sum of both sticks out far past it; after a second miss, one dot appears in every centimeter space of the piece. A clip in the wrong place shades the part of the thing it missed. In the loose setting the things start away from the wall, and nothing is checked until both are pushed against it: lengths are compared from the same start.",
+        "It is aligned to Common Core 2.MD.A.4 (measure to find how much longer one object is than another, in a standard unit). It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Read two lengths given in centimeters and decide which is longer",
-        "Find how much longer one object is than another by taking the difference",
-        "Use subtraction to compare two measurements within 100",
-        "Type a measured answer in the correct unit"
+        "Measure two things in centimeters on one tape measure",
+        "Find how many centimeters longer one thing is than another",
+        "See the difference as a piece of the tape: the longer length minus the shorter one",
+        "Compare lengths from the same starting point"
       ],
       "howToPlay": [
-        "Read how long each bar is in centimeters.",
-        "Work out how much longer the longer one is, then type that difference on the keypad and press Check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Slide the orange clip to the end of the top thing and the green clip to the end of the bottom thing, or tap the tape to move them.",
+        "Type on the keypad how many centimeters longer the longer one is, then press Check.",
+        "In the settings, choose a ruler from 0 to 12 cm or from 0 to 20 cm, and whether the things start at the wall or loose."
       ],
       "learningGoals": [
-        "Find how much longer one object is than another — the focus of Common Core 2.MD.A.4.",
-        "Understand that comparing two lengths means finding the difference between them.",
-        "Build the measure-and-compare skill that later length and data work depend on."
+        "Measure two objects in centimeters and find how much longer one is, the focus of Common Core 2.MD.A.4.",
+        "Understand the difference as the part of the longer length that the shorter one does not reach.",
+        "Line lengths up at the same start before comparing them."
       ]
     },
     "star-stitcher.connect-sequence.k-cc-a-2": {

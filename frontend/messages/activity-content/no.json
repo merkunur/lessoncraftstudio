@@ -726,26 +726,25 @@
     },
     "clock.tell-time-5-min.2-md-c-7": {
       "about": [
-        "Et klokkeslett står skrevet — 3:15, 7:45, 6:10, 9:20, 4:40, 1:50, 10:05 eller 12:25 — og barnet drar viserne på en analog klokke til å vise det, mens en digital visning oppdaterer seg underveis. Denne matteaktiviteten for 2. trinn løfter klokkearbeidet opp til fem-minutters tider og kjøres i nettleseren uten konto.",
-        "Når man skal lese og stille klokka til fem minutter, begynner minuttviseren for alvor å bety noe: kvart over setter den på 3, kvart på setter den på 9, og ti over setter den på 2. Barnet teller med fem rundt urskiva for å lande nøyaktig. De vanskeligere tidene — som 7:45, der kvart på åtte skrives 7:45 og ikke 8:45 — får barnet til å lese timeviseren idet den sniker seg mot neste tall. Den digitale visningen bekrefter hver plassering, slik at det å telle med fem henger sammen med det skrevne klokkeslettet.",
-        "Aktiviteten følger LK20 innenfor måling og data på 2. trinn — å lese og stille klokka til nærmeste fem minutter på analog og digital klokke. Ingen tidtaker, ingen poeng, bare rolig og lekende øving."
+        "Å stille en klokke er å plassere to visere, og den lille er den vanskelige: klokka 9.20 står den ikke på 9-tallet, men en tredjedel av veien mot 10-tallet. En digital visning merker ikke den feilen, for en klokke med den lille viseren på 9-tallet viser likevel 9.20. Her merker klokka selv feilen.",
+        "På et kort står et klokkeslett, med tall og med ord. Barnet drar den store viseren til minuttene og den lille viseren til timen; viserne er løse, og ingenting leser dem av på forhånd. Ved Sjekk viser displayet klokkeslettet viserne gir, et tannhjul av messing glir inn i midten, og klokka går fram til neste hele time. En riktig stilt klokke kommer fram med den lille viseren rett på et tall, og klokka slår den timen, ett merke per slag. Stod den lille viseren feil, kommer klokka skjevt fram, mellom to tall, og det låter dumpt. Hver feil får sin egen hjelp: en ring der den store viseren skal stå, eller riktig felt for den lille viseren, farget. Etter den andre feilen kommer det en minuttring utenfor tallene, og stiplede spor viser hvor begge viserne skal stå.",
+        "Det er fire nivåer: hele og halve timer, kvarter, hvert femte minutt og blandet. En innstilling viser minuttringen (05, 10, 15 … 55) for barn som er nye med femminutterstider. Aktiviteten er i tråd med LK20 om måling og tid: å stille en klokke med visere. Den virker uten lyd, og det er ingen tidtaking og ingen poeng."
       ],
       "practices": [
-        "Stille minuttviseren til et fem-minutters merke ved å telle med fem.",
-        "Plassere kvart over, kvart på og ti over på riktig sted.",
-        "Lese over og på halv, som ti over halv og fem på halv.",
-        "Lese timeviseren idet den beveger seg mot neste tall på slutten av en time.",
-        "Koble den analoge innstillingen til det skrevne, digitale klokkeslettet."
+        "Stille den store viseren på minuttene ved å telle fem om gangen",
+        "Stille den lille viseren et stykke forbi timen",
+        "Stille kvart over, halv og kvart på",
+        "Sjekke en klokke ved å la den gå fram til neste time"
       ],
       "howToPlay": [
-        "Les det skrevne klokkeslettet over klokka.",
-        "Dra minutt- og timeviseren slik at klokka viser det til nærmeste fem minutter, og følg med på den digitale visningen.",
-        "Finjuster viserne så ofte du vil — det er ingen tidtaker og ingen poeng."
+        "Les klokkeslettet på kortet, og dra den store og den lille viseren (eller velg en viser og bruk piltastene).",
+        "Trykk på Sjekk. Klokka går fram til neste time: lander den lille viseren rett på et tall og displayet stemmer med kortet, er det riktig.",
+        "I innstillingene velger du klokkeslettene og om minuttringen skal vises."
       ],
       "learningGoals": [
-        "Barnet kan lese og stille klokka til nærmeste fem minutter.",
-        "Barnet kan telle med fem rundt klokka for å plassere minuttviseren nøyaktig.",
-        "Barnet kan lese tider som kvart på åtte riktig som 7:45 og ikke 8:45."
+        "Stille en klokke med visere på fem minutter nær.",
+        "Stille den lille viseren så langt forbi timen som minuttene sier.",
+        "Telle fem om gangen fra 12-tallet for å stille den store viseren."
       ]
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {

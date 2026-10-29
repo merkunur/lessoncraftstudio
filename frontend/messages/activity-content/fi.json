@@ -1370,24 +1370,25 @@
     },
     "clock.tell-time-5-min.2-md-c-7": {
       "about": [
-        "Ruudulle ilmestyy kirjoitettu kellonaika — 3.15, 7.45, 6.10, 9.20, 4.40, 1.50, 10.05 tai 12.25 — ja lapsi vetää analogisen kellon viisarit näyttämään sen, samalla kun digitaalinen näyttö päivittyy viisarien liikkuessa. Tämä 2. luokan matematiikkaharjoitus vie kellon asettamisen viiden minuutin tarkkuuteen ja toimii selaimessa ilman tiliä.",
-        "Viiden minuutin tarkkuudella lukeminen ja asettaminen tarkoittaa, että minuuttiviisari alkaa vihdoin merkitä tarkasti: vartti yli vie sen kolmosen kohdalle, varttia vaille ysin kohdalle ja kymmenen yli kakkosen kohdalle, ja lapsi laskee viisin viiden askelin kellotaulua pitkin osuakseen täsmälleen oikeaan. Hankalimmat ajat — kuten 7.45, jossa varttia vaille kahdeksan kirjoitetaan muodossa 7.45 eikä 8.45 — opettavat lukemaan tuntiviisaria, joka hivuttautuu kohti seuraavaa numeroa. Digitaalinen näyttö vahvistaa joka asetuksen, joten viisin laskemisen ajatus yhdistyy kirjoitettuun aikaan. Harjoitus on OPS 2014:n mukainen — kellonaikojen lukeminen ja kirjoittaminen viiden minuutin tarkkuudella analogisessa ja digitaalisessa kellossa. 2. luokalle."
+        "Kellon asettaminen tarkoittaa kahden viisarin asettamista, ja lyhyt on se vaikea: kun kello on 9.20, lyhyt viisari ei ole numeron 9 kohdalla vaan kolmanneksen matkasta kohti numeroa 10. Digitaalinen näyttö ei huomaa tätä virhettä, sillä kello, jonka lyhyt viisari on numeron 9 kohdalla, näyttää silti 9.20. Tässä virheen huomaa kello itse.",
+        "Kortissa on aika numeroina ja sanoina. Lapsi vetää pitkän viisarin minuuteille ja lyhyen viisarin tunnille; viisarit ovat irrallaan, eikä mikään lue niitä etukäteen. Kun lapsi painaa Tarkista, näyttö kertoo viisarien näyttämän ajan, messinkinen hammaspyörä liukuu keskelle ja kello kulkee seuraavaan tasatuntiin. Oikein asetettu kello pysähtyy niin, että lyhyt viisari on täsmälleen numeron kohdalla, ja kello lyö sen tunnin, yksi merkki lyöntiä kohden. Jos lyhyt viisari oli väärässä kohdassa, kello pysähtyy vinoon kahden numeron väliin, ja kuuluu kumea ääni. Jokaiseen virheeseen on oma apunsa: rengas pitkän viisarin oikeaan kohtaan tai lyhyen viisarin oikea väli värillä merkittynä. Toisen virheen jälkeen numeroiden ulkopuolelle ilmestyy minuuttirengas, ja katkoviivaiset urat näyttävät, minne kumpikin viisari kuuluu.",
+        "Tasoja on neljä: tasa- ja puolitunnit, vartit, viiden minuutin ajat ja sekaisin. Asetuksesta saa näkyviin minuuttirenkaan (05, 10, 15 … 55) lapsille, jotka vasta harjoittelevat viiden minuutin aikoja. Tehtävä tukee OPS 2014 -tavoitteita mittaamisessa: ajan asettaminen viisarikelloon. Se toimii ilman ääntä, eikä siinä ole ajanottoa tai pisteitä."
       ],
       "practices": [
-        "Asettaa minuuttiviisarin viiden minuutin kohdalle laskemalla viisin viiden askelin.",
-        "Sijoittaa vartti yli-, varttia vaille- ja kymmenen yli -ajat oikeille kohdille.",
-        "Lukee tuntiviisaria, kun se liikkuu kohti seuraavaa numeroa tunnin lopussa.",
-        "Yhdistää analogisen asetuksen sitä vastaavaan kirjoitettuun digitaaliseen aikaan."
+        "Pitkän viisarin asettaminen minuuteille laskemalla viisi kerrallaan",
+        "Lyhyen viisarin asettaminen vähän tunnin ohi",
+        "Vartti yli, puoli ja varttia vaille -aikojen asettaminen",
+        "Kellon tarkistaminen antamalla sen kulkea seuraavaan tasatuntiin"
       ],
       "howToPlay": [
-        "Lue kellon yläpuolella oleva kirjoitettu kellonaika.",
-        "Vedä minuutti- ja tuntiviisaria näyttämään se viiden minuutin tarkkuudella ja seuraa digitaalista näyttöä.",
-        "Hienosäädä viisareita niin usein kuin haluat — ei ajastinta eikä pisteitä."
+        "Lue kortin aika ja vedä pitkää ja lyhyttä viisaria (tai valitse viisari ja käytä nuolinäppäimiä).",
+        "Paina Tarkista. Kello kulkee seuraavaan tasatuntiin: jos lyhyt viisari osuu täsmälleen numeron kohdalle ja näyttö vastaa korttia, vastaus on oikein.",
+        "Valitse asetuksista ajat ja näkyykö minuuttirengas."
       ],
       "learningGoals": [
-        "Lapsi osaa lukea ja asettaa kellonajan viiden minuutin tarkkuudella.",
-        "Lapsi laskee viisin viiden askelin kellotaulua pitkin sijoittaakseen minuuttiviisarin täsmälleen.",
-        "Lapsi lukee oikein ajat kuten varttia vaille kahdeksan muodossa 7.45 eikä 8.45."
+        "Ajan asettaminen viisarikelloon viiden minuutin tarkkuudella.",
+        "Lyhyen viisarin asettaminen niin pitkälle tunnin ohi kuin minuutit kertovat.",
+        "Laskeminen viisi kerrallaan numerosta 12 pitkän viisarin asettamiseksi."
       ]
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {

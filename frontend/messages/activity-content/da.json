@@ -962,25 +962,25 @@
     },
     "clock.tell-time-5-min.2-md-c-7": {
       "about": [
-        "Stil uret på 5 minutter viser en tid med tal — som 3:15, 7:45, 6:10, 9:20, 4:40, 1:50, 10:05 eller 12:25 — og barnet trækker viserne på det analoge ur, så de viser tiden, mens en digital visning opdateres undervejs. Det er en matematikaktivitet til 2. klasse, der løfter klokken op til femminutters-tider og kører i browseren uden konto.",
-        "At aflæse og indstille til fem minutter betyder, at minutviseren endelig får betydning i detaljen: kvart over peger på 3, kvart i peger på 9, ti over på 2, og barnet tæller med fem ad gangen rundt om skiven for at ramme præcist. De sværere tider — som 7:45, der jo er kvart i otte — får barnet til at aflæse timeviseren, mens den lister sig hen mod næste tal. Den digitale visning bekræfter hver placering, så det at tælle med fem hænger sammen med tiden i tal.",
-        "Aktiviteten følger Fælles Mål inden for området måling: at aflæse og skrive tiden til nærmeste fem minutter på analoge og digitale ure. Den passer til 2. klasse. Der er ingen timer og ingen point — bare rolig, legende øvelse."
+        "At stille et ur er at placere to visere, og den lille er den svære: klokken 9.20 står den ikke på 9-tallet, men en tredjedel af vejen hen mod 10-tallet. En digital visning opdager ikke den fejl, for et ur med den lille viser på 9-tallet viser stadig 9.20. Her opdager uret selv fejlen.",
+        "På et kort står et klokkeslæt, med tal og med ord. Barnet trækker den store viser til minutterne og den lille viser til timen; viserne er løse, og intet aflæser dem på forhånd. Ved Tjek viser displayet det klokkeslæt, viserne giver, et tandhjul af messing glider ind i midten, og uret går frem til næste hele time. Et rigtigt stillet ur kommer frem med den lille viser lige på et tal, og klokken slår den time, ét mærke pr. slag. Stod den lille viser forkert, kommer uret skævt frem, mellem to tal, og det lyder dumpt. Hver fejl får sin egen hjælp: en ring, hvor den store viser skal stå, eller det rigtige felt til den lille viser, farvet. Efter den anden fejl kommer der en minutring uden om tallene, og stiplede spor viser, hvor begge visere skal stå.",
+        "Der er fire niveauer: hele og halve timer, kvarterer, hvert femte minut og blandet. En indstilling viser minutringen (05, 10, 15 … 55) for børn, der lige er begyndt med femminutterstider. Aktiviteten er i tråd med Fælles Mål inden for geometri og måling: at stille et ur med visere. Den virker uden lyd, og der er ingen tidtagning og ingen point."
       ],
       "practices": [
-        "Stille minutviseren på en femminutters-streg ved at tælle med fem",
-        "Placere kvart over, kvart i og ti over de rigtige steder",
-        "Aflæse timeviseren, mens den nærmer sig næste tal sidst på timen",
-        "Få den analoge indstilling til at passe med tiden skrevet med tal"
+        "Stille den store viser på minutterne ved at tælle fem ad gangen",
+        "Stille den lille viser et stykke forbi timen",
+        "Stille kvart over, halv og kvart i",
+        "Tjekke et ur ved at lade det gå frem til næste time"
       ],
       "howToPlay": [
-        "Barnet læser tiden, der står over uret.",
-        "Barnet trækker minutviseren og timeviseren, så de viser tiden til nærmeste fem minutter, og holder øje med den digitale visning.",
-        "Man kan justere viserne så mange gange, man vil — der er ingen timer og ingen point."
+        "Læs klokkeslættet på kortet, og træk den store og den lille viser (eller vælg en viser, og brug piletasterne).",
+        "Tryk på Tjek. Uret går frem til næste time: hvis den lille viser lander lige på et tal, og displayet passer med kortet, er det rigtigt.",
+        "I indstillingerne vælger du klokkeslæt, og om minutringen skal vises."
       ],
       "learningGoals": [
-        "Barnet kan aflæse og indstille tiden til nærmeste fem minutter",
-        "Barnet kan tælle med fem rundt om uret for at placere minutviseren præcist",
-        "Barnet kan aflæse tider som kvart i otte rigtigt som 7:45 og ikke 8:45"
+        "Stille et ur med visere på fem minutter nær.",
+        "Stille den lille viser så langt forbi timen, som minutterne siger.",
+        "Tælle fem ad gangen fra 12-tallet for at stille den store viser."
       ]
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {

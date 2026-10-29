@@ -1499,25 +1499,25 @@
     },
     "clock.tell-time-5-min.2-md-c-7": {
       "about": [
-        "Ler a hora de 5 em 5 minutos e mostrá-la no relógio é o que esta atividade de matemática para o 2º ano propõe. Aparece um horário por extenso — 3:15, 7:45, 6:10, 9:20, 4:40, 1:50, 10:05 ou 12:25 — e a criança arrasta os ponteiros do relógio analógico para representá-lo, com um mostrador digital que se atualiza enquanto ela mexe. Tudo roda no navegador, sem precisar de conta.",
-        "Ler e marcar de cinco em cinco minutos faz o ponteiro dos minutos finalmente importar nos detalhes: e quinze coloca o ponteiro no 3, e quarenta e cinco coloca no 9, e dez no 2, e a criança conta de 5 em 5 ao redor do relógio para acertar a posição exata. Os horários mais difíceis — como 7:45, que é um quarto para as oito mas se escreve 7:45, e não 8:45 — exigem ler o ponteiro das horas avançando em direção ao próximo número. O mostrador digital confirma cada posição e conecta o contar de 5 em 5 ao horário escrito.",
-        "A atividade está alinhada à BNCC, na leitura e na escrita de horas em relógios analógicos e digitais de 5 em 5 minutos. Sem cronômetro e sem pontuação — é prática calma e divertida."
+        "Acertar um relógio é colocar dois ponteiros, e o pequeno é o difícil: às 9:20 ele não está no 9, mas a um terço do caminho até o 10. Um mostrador digital não percebe esse erro, porque um relógio com o ponteiro pequeno no 9 ainda mostra 9:20. Aqui, quem percebe é o próprio relógio.",
+        "Num cartão aparece uma hora, em números e em palavras. A criança arrasta o ponteiro grande para os minutos e o pequeno para a hora; os ponteiros ficam soltos e nada os lê antes da conferência. Ao apertar Conferir, o visor indica a hora que os ponteiros formam, uma engrenagem de latão desliza para o centro e o relógio anda até a próxima hora exata. Um relógio acertado chega com o ponteiro pequeno bem em cima de um número, e o sino toca essa hora, uma marca por badalada. Se o ponteiro pequeno estava errado, o relógio chega torto, entre dois números, e o sino faz um som abafado. Cada erro tem a sua ajuda: um anel onde fica o ponteiro grande, ou o espaço certo para o pequeno, sombreado. Depois de um segundo erro, aparece um anel de minutos em volta dos números e encaixes tracejados mostram onde vão os dois ponteiros.",
+        "Há quatro níveis: horas exatas e meias horas, quartos de hora, de 5 em 5 minutos e uma mistura. Um ajuste mostra o anel de minutos (05, 10, 15… 55) para crianças que estão começando com os minutos de 5 em 5. A atividade está alinhada à BNCC, na unidade temática Grandezas e medidas: marcar horas num relógio de ponteiros. Funciona sem som, sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Marcar o ponteiro dos minutos numa posição de 5 em 5 minutos contando de cinco em cinco.",
-        "Colocar e quinze, um quarto para a hora e e dez nos lugares certos.",
-        "Ler o ponteiro das horas avançando em direção ao próximo número perto do fim da hora.",
-        "Relacionar a posição no relógio analógico ao horário digital escrito."
+        "Colocar o ponteiro grande nos minutos contando de 5 em 5",
+        "Colocar o ponteiro pequeno um pouco depois da hora",
+        "Marcar horas e quinze, e meia e quinze para",
+        "Conferir um relógio fazendo-o andar até a próxima hora"
       ],
       "howToPlay": [
-        "Leia o horário escrito acima do relógio.",
-        "Arraste os ponteiros dos minutos e das horas para mostrá-lo de 5 em 5 minutos, observando o mostrador digital.",
-        "Ajuste os ponteiros quantas vezes quiser — não há cronômetro nem pontuação."
+        "Leia a hora no cartão e arraste o ponteiro grande e o pequeno (ou escolha um ponteiro e use as setas).",
+        "Aperte Conferir. O relógio anda até a próxima hora: se o ponteiro pequeno cai bem em cima de um número e o mostrador combina com o cartão, está certo.",
+        "Nos ajustes, escolha as horas e se o anel de minutos aparece."
       ],
       "learningGoals": [
-        "A criança aprende a ler e a marcar a hora de 5 em 5 minutos.",
-        "A criança conta de 5 em 5 ao redor do relógio para posicionar o ponteiro dos minutos com exatidão.",
-        "A criança lê corretamente horários como um quarto para as oito, escrito 7:45 e não 8:45."
+        "Marcar horas num relógio de ponteiros de 5 em 5 minutos.",
+        "Avançar o ponteiro pequeno além da hora tanto quanto os minutos indicam.",
+        "Contar de 5 em 5 a partir do 12 para colocar o ponteiro grande."
       ]
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {

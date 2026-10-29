@@ -3063,25 +3063,25 @@
     },
     "clock.tell-time-5-min.2-md-c-7": {
       "about": [
-        "Aparece una hora escrita —3:15, 7:45, 6:10, 9:20, 4:40, 1:50, 10:05 o 12:25— y tu hijo o hija arrastra las manecillas del reloj de carátula para mostrarla, con un marcador digital que se actualiza conforme las mueve. Es una actividad de matemáticas para 2.º de primaria que lleva el ajuste del reloj hasta las horas de cinco en cinco minutos, y corre en el navegador sin crear cuenta.",
-        "Leer y poner la hora a los cinco minutos hace que la manecilla larga por fin importe con detalle: cuarto de hora deja la manecilla en el 3, cuarto para la hora la deja en el 9, y diez pasados en el 2; el niño o la niña cuenta de cinco en cinco alrededor de la carátula para colocarla justo. Las horas más difíciles —como 7:45, donde 'cuarto para las ocho' se escribe 7:45 y no 8:45— invitan a leer la manecilla corta mientras avanza hacia el número siguiente. El marcador digital confirma cada colocación, así la idea de contar de cinco en cinco se conecta con la hora escrita. Es una actividad para segundo grado (7-8 años).",
-        "Está alineada con los planes y programas de estudio (SEP): leer y escribir la hora a los cinco minutos más cercanos en relojes de carátula y digitales. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+        "Poner un reloj en hora es colocar dos manecillas, y la corta es la difícil: a las 9:20 no está en el 9, sino a un tercio del camino hacia el 10. Una pantalla digital no detecta ese error, porque un reloj con la manecilla corta en el 9 igual marca 9:20. Aquí lo detecta el propio reloj.",
+        "En una tarjeta aparece una hora, con números y con palabras. El niño arrastra la manecilla larga a los minutos y la corta a la hora; las manecillas están sueltas y nada las lee antes de revisar. Al presionar Revisar, la pantalla muestra la hora que forman las manecillas, un engranaje de latón se coloca en el centro y el reloj avanza hasta la siguiente hora en punto. Un reloj bien puesto llega con la manecilla corta justo en un número, y la campana toca esa hora, una marca por campanada. Si la manecilla corta estaba mal, el reloj llega chueco, entre dos números, y la campana suena apagada. Cada error tiene su propia ayuda: un anillo donde va la manecilla larga, o el espacio correcto para la corta, sombreado. Tras un segundo error, aparece un anillo de minutos alrededor de los números y unas ranuras punteadas muestran dónde van las dos manecillas.",
+        "Hay cuatro niveles: horas en punto y medias horas, cuartos de hora, de 5 en 5 minutos y una mezcla. Un ajuste muestra el anillo de minutos (05, 10, 15… 55) para los niños que empiezan con los minutos de 5 en 5. La actividad sigue los planes y programas de la SEP, en el campo formativo Saberes y pensamiento científico: poner la hora en un reloj de manecillas. Funciona sin sonido, sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Colocar la manecilla larga en una marca de cinco minutos contando de cinco en cinco.",
-        "Ubicar cuarto de hora, cuarto para la hora y diez pasados en su lugar correcto.",
-        "Leer la manecilla corta mientras avanza hacia el número siguiente al terminar la hora.",
-        "Hacer coincidir la posición del reloj de carátula con su hora digital escrita."
+        "Poner la manecilla larga en los minutos contando de 5 en 5",
+        "Poner la manecilla corta un poco después de la hora",
+        "Poner horas y cuarto, y media y cuarto para",
+        "Revisar un reloj haciéndolo avanzar hasta la siguiente hora"
       ],
       "howToPlay": [
-        "Lee la hora escrita arriba del reloj.",
-        "Arrastra la manecilla larga y la corta para mostrarla a los cinco minutos más cercanos, mirando el marcador digital.",
-        "Ajusta las manecillas las veces que quieras: no hay temporizador ni puntuación."
+        "Lee la hora de la tarjeta y arrastra la manecilla larga y la corta (o elige una manecilla y usa las flechas).",
+        "Presiona Revisar. El reloj avanza hasta la siguiente hora: si la manecilla corta cae justo en un número y la pantalla coincide con la tarjeta, es correcto.",
+        "En los ajustes, elige las horas y si se ve el anillo de minutos."
       ],
       "learningGoals": [
-        "Tu hijo o hija puede leer y poner la hora a los cinco minutos más cercanos.",
-        "El niño o la niña aprende a contar de cinco en cinco alrededor del reloj para colocar la manecilla larga justo.",
-        "Lee correctamente horas como 'cuarto para las ocho' como 7:45 y no 8:45."
+        "Poner la hora en un reloj de manecillas de 5 en 5 minutos.",
+        "Colocar la manecilla corta tan lejos de la hora como dicen los minutos.",
+        "Contar de 5 en 5 desde el 12 para colocar la manecilla larga."
       ]
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {

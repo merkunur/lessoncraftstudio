@@ -3509,25 +3509,25 @@
     },
     "clock.tell-time-5-min.2-md-c-7": {
       "about": [
-        "Eine geschriebene Uhrzeit erscheint — 3:15, 7:45, 6:10, 9:20, 4:40, 1:50, 10:05 oder 12:25 — und das Kind zieht die Zeiger der analogen Uhr an die richtige Stelle, während eine digitale Anzeige beim Bewegen mitläuft. Diese Mathe-Übung für die 2. Klasse bringt das Uhrstellen auf 5-Minuten-Zeiten und läuft ohne Anmeldung im Browser.",
-        "Auf fünf Minuten genau zu lesen und zu stellen heißt: Jetzt kommt es auf den Minutenzeiger genau an. Viertel nach setzt ihn auf die 3, Viertel vor auf die 9, zehn nach auf die 2 — und das Kind zählt in Fünferschritten um das Zifferblatt, um ihn genau zu treffen. Die kniffligeren Zeiten — etwa 7:45, wo Viertel vor acht als 7:45 und nicht als 8:45 geschrieben wird — bringen Kinder dazu, den Stundenzeiger zu lesen, während er sich der nächsten Zahl nähert. Die digitale Anzeige bestätigt jede Stellung, sodass das Zählen in Fünferschritten mit der geschriebenen Zeit zusammenkommt.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Größen und Messen für die 2. Klasse ausgerichtet — die Uhrzeit auf 5 Minuten genau an der analogen und der digitalen Uhr ablesen und schreiben. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+        "Eine Uhr stellen heißt, zwei Zeiger zu setzen, und der kleine ist der schwierige: Um 9:20 steht er nicht auf der 9, sondern ein Drittel des Wegs zur 10. Eine Digitalanzeige merkt diesen Fehler nicht, denn eine Uhr mit dem kleinen Zeiger auf der 9 zeigt trotzdem 9:20. Hier erkennt ihn die Uhr selbst.",
+        "Auf einer Karte steht eine Uhrzeit, in Ziffern und in Worten. Das Kind zieht den großen Zeiger zu den Minuten und den kleinen Zeiger zur Stunde; die Zeiger sind lose, und nichts liest sie vorher ab. Beim Prüfen zeigt die Anzeige die Uhrzeit, die die Zeiger ergeben, ein Messingzahnrad gleitet in die Mitte, und die Uhr läuft bis zur nächsten vollen Stunde weiter. Eine richtig gestellte Uhr kommt mit dem kleinen Zeiger genau auf einer Zahl an, und die Glocke schlägt diese Stunde, ein Zeichen pro Schlag. Stand der kleine Zeiger falsch, kommt die Uhr schief zwischen zwei Zahlen an, und die Glocke scheppert. Jeder Fehler bekommt seine eigene Hilfe: ein Ring dort, wo der große Zeiger hingehört, oder die richtige Lücke für den kleinen Zeiger, farbig markiert. Nach dem zweiten Fehlversuch erscheint ein Minutenring außerhalb der Zahlen, und gestrichelte Schlitze zeigen, wohin beide Zeiger gehören.",
+        "Es gibt vier Stufen: volle und halbe Stunden, Viertelstunden, 5-Minuten-Schritte und gemischt. Eine Einstellung zeigt den Minutenring (05, 10, 15 … 55) für Kinder, die mit 5-Minuten-Schritten anfangen. Die Aktivität orientiert sich am Lehrplan im Bereich Größen und Messen: Uhrzeiten an der analogen Uhr einstellen. Sie funktioniert ohne Ton, und es gibt keinen Timer und keine Punkte."
       ],
       "practices": [
-        "Den Minutenzeiger durch Zählen in Fünferschritten auf eine 5-Minuten-Marke setzen.",
-        "Viertel nach, Viertel vor und zehn nach an die richtige Stelle bringen.",
-        "Den Stundenzeiger lesen, während er sich gegen Ende einer Stunde der nächsten Zahl nähert.",
-        "Die analoge Einstellung mit der geschriebenen digitalen Zeit abgleichen."
+        "Den großen Zeiger in Fünferschritten auf die Minuten stellen",
+        "Den kleinen Zeiger ein Stück hinter die Stunde stellen",
+        "Viertel nach, halb und Viertel vor einstellen",
+        "Eine Uhr prüfen, indem sie bis zur nächsten Stunde weiterläuft"
       ],
       "howToPlay": [
-        "Lies die geschriebene Uhrzeit über der Uhr.",
-        "Ziehe den Minuten- und den Stundenzeiger so, dass sie die Zeit auf 5 Minuten genau zeigen, und beobachte dabei die digitale Anzeige.",
-        "Stelle die Zeiger so oft nach, wie du möchtest — es gibt keinen Timer und keine Punkte."
+        "Lies die Uhrzeit auf der Karte und zieh den großen und den kleinen Zeiger (oder wähle einen Zeiger und nimm die Pfeiltasten).",
+        "Drück auf Prüfen. Die Uhr läuft bis zur nächsten Stunde weiter: Landet der kleine Zeiger genau auf einer Zahl und passt die Anzeige zur Karte, ist es richtig.",
+        "In den Einstellungen wählst du die Uhrzeiten und ob der Minutenring zu sehen ist."
       ],
       "learningGoals": [
-        "Die Uhrzeit auf 5 Minuten genau ablesen und einstellen.",
-        "In Fünferschritten um die Uhr zählen, um den Minutenzeiger genau zu setzen.",
-        "Zeiten wie Viertel vor acht richtig als 7:45 statt als 8:45 lesen."
+        "Uhrzeiten auf fünf Minuten genau an einer analogen Uhr einstellen.",
+        "Den kleinen Zeiger so weit hinter die Stunde stellen, wie die Minuten sagen.",
+        "In Fünferschritten ab der 12 zählen, um den großen Zeiger zu setzen."
       ]
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {

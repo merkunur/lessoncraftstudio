@@ -2889,25 +2889,25 @@
     },
     "clock.tell-time-5-min.2-md-c-7": {
       "about": [
-        "Une heure écrite apparaît — 3:15, 7:45, 6:10, 9:20, 4:40, 1:50, 10:05 ou 12:25 — et l'enfant fait glisser les aiguilles d'une horloge analogique pour la représenter, avec un affichage numérique qui se met à jour au fur et à mesure. Cette activité de maths pour le CE1 fait passer le réglage de l'horloge aux heures à 5 minutes près et se joue dans le navigateur, sans inscription.",
-        "Lire et régler à 5 minutes près, c'est le moment où la petite aiguille des minutes compte vraiment dans le détail : « et quart » la place sur le 3, « moins le quart » sur le 9, « et dix » sur le 2, et l'enfant compte de 5 en 5 autour du cadran pour tomber juste. Les heures plus délicates — comme 7:45, où « huit heures moins le quart » s'écrit 7:45 et non 8:45 — invitent l'enfant à lire la petite aiguille des heures qui se rapproche du chiffre suivant. L'affichage numérique confirme chaque placement pour relier le comptage de 5 en 5 à l'heure écrite.",
-        "Cette activité de CE1 est alignée sur les programmes officiels : lire et écrire l'heure à 5 minutes près sur des horloges à aiguilles et numériques. Ni minuteur, ni score — juste une pratique calme et ludique."
+        "Régler une horloge, c’est placer deux aiguilles, et la petite est la plus difficile : à 9 h 20, elle n’est pas sur le 9 mais au tiers du chemin vers le 10. Un affichage numérique ne voit pas cette erreur, car une horloge avec la petite aiguille sur le 9 indique quand même 9 h 20. Ici, c’est l’horloge elle-même qui la repère.",
+        "Une heure apparaît sur une carte, en chiffres et en mots. L’enfant fait glisser la grande aiguille sur les minutes et la petite aiguille sur l’heure ; les aiguilles sont libres et rien ne les lit avant la vérification. Quand on appuie sur Vérifier, l’affichage montre l’heure que donnent les aiguilles, un engrenage en laiton se place au centre, et l’horloge avance jusqu’à l’heure pile suivante. Une horloge bien réglée arrive avec la petite aiguille pile sur un nombre, et la cloche sonne cette heure, une marque par coup. Si la petite aiguille était mal placée, l’horloge arrive de travers, entre deux nombres, et la cloche fait un bruit sourd. Chaque erreur a son aide : un anneau là où va la grande aiguille, ou le bon espace pour la petite aiguille, coloré. Après une deuxième erreur, un anneau des minutes apparaît autour des nombres et des fentes en pointillés montrent où vont les deux aiguilles.",
+        "Il y a quatre niveaux : heures pile et demies, quarts d’heure, minutes de 5 en 5, et un mélange. Un réglage affiche l’anneau des minutes (05, 10, 15… 55) pour les enfants qui découvrent les minutes de 5 en 5. L’activité suit les programmes officiels, dans le domaine Grandeurs et mesures : placer les aiguilles d’une horloge. Elle fonctionne sans son, sans chronomètre et sans score."
       ],
       "practices": [
-        "Placer la grande aiguille sur une graduation de 5 minutes en comptant de 5 en 5.",
-        "Placer « et quart », « moins le quart » et « et dix » aux bons endroits.",
-        "Lire la petite aiguille qui se rapproche du chiffre suivant en fin d'heure.",
-        "Faire correspondre le réglage des aiguilles à son heure écrite."
+        "Placer la grande aiguille sur les minutes en comptant de 5 en 5",
+        "Placer la petite aiguille un peu après l’heure",
+        "Placer les aiguilles pour et quart, et demie et moins le quart",
+        "Vérifier une horloge en la faisant avancer jusqu’à l’heure suivante"
       ],
       "howToPlay": [
-        "Lis l'heure écrite au-dessus de l'horloge.",
-        "Fais glisser la grande et la petite aiguille pour la montrer à 5 minutes près, en observant l'affichage numérique.",
-        "Ajuste les aiguilles autant de fois que tu veux — il n'y a ni minuteur, ni score."
+        "Lis l’heure sur la carte, puis fais glisser la grande et la petite aiguille (ou choisis une aiguille et utilise les flèches).",
+        "Appuie sur Vérifier. L’horloge avance jusqu’à l’heure suivante : si la petite aiguille arrive pile sur un nombre et que l’affichage correspond à la carte, c’est juste.",
+        "Dans les réglages, choisis les heures et si l’anneau des minutes est affiché."
       ],
       "learningGoals": [
-        "Lire et régler l'heure à 5 minutes près.",
-        "Compter de 5 en 5 autour du cadran pour placer la grande aiguille exactement.",
-        "Lire correctement des heures comme « huit heures moins le quart », écrite 7:45 et non 8:45."
+        "Placer les aiguilles d’une horloge à cinq minutes près.",
+        "Placer la petite aiguille aussi loin après l’heure que les minutes l’indiquent.",
+        "Compter de 5 en 5 depuis le 12 pour placer la grande aiguille."
       ]
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {

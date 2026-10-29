@@ -839,24 +839,25 @@
     },
     "clock.tell-time-5-min.2-md-c-7": {
       "about": [
-        "En skriven tid visas — 3:15, 7:45, 6:10, 9:20, 4:40, 1:50, 10:05 eller 12:25 — och barnet drar den analoga klockans visare så att de visar tiden, medan en digital avläsning uppdateras allteftersom visarna flyttas. Den här mattaktiviteten för årskurs 2 tar klockläsningen vidare till tider på fem minuter och körs direkt i webbläsaren utan konto.",
-        "Att läsa och ställa till fem minuter innebär att minutvisaren äntligen spelar roll i detalj: kvart över sätter den på trean, kvart i sätter den på nian, och tio över på tvåan — och barnet räknar i femsteg runt urtavlan för att landa exakt rätt. De kluriga tiderna — som 7:45, där kvart i åtta skrivs 7:45 och inte 8:45 — får barnet att läsa timvisaren när den smyger sig mot nästa siffra. Den digitala avläsningen bekräftar varje placering så att femstegsräknandet kopplas till den skrivna tiden. Aktiviteten passar årskurs 2 och följer Lgr22."
+        "Att ställa en klocka är att placera två visare, och den lilla är den svåra: klockan 9.20 står den inte på 9:an utan en tredjedel av vägen mot 10:an. En digital visning märker inte det felet, för en klocka med lilla visaren på 9:an visar ändå 9.20. Här märker klockan själv felet.",
+        "På ett kort står en tid, med siffror och med ord. Barnet drar stora visaren till minuterna och lilla visaren till timmen; visarna är lösa och ingenting läser av dem i förväg. När barnet trycker på Kolla visar displayen den tid som visarna gör, ett kugghjul av mässing glider in i mitten och klockan går fram till nästa hela timme. En rätt ställd klocka kommer fram med lilla visaren precis på en siffra, och klockan slår den timmen, ett märke per slag. Stod lilla visaren fel kommer klockan fram snett, mellan två siffror, och det låter dovt. Varje fel får sin egen hjälp: en ring där stora visaren ska stå, eller rätt lucka för lilla visaren, färgad. Efter ett andra fel syns en minutring utanför siffrorna, och streckade spår visar var båda visarna ska stå.",
+        "Det finns fyra nivåer: hela och halva timmar, kvartar, var femte minut och blandat. En inställning visar minutringen (05, 10, 15 … 55) för barn som är nya med femminuterstider. Aktiviteten följer Lgr22, centralt innehåll om mätning och tid: att ställa en klocka med visare. Den fungerar utan ljud, och det finns ingen tidtagning och inga poäng."
       ],
       "practices": [
-        "Ställa minutvisaren på en femminutersmarkering genom att räkna i femsteg",
-        "Placera kvart över, kvart i och tio över på rätt ställe",
-        "Läsa timvisaren när den rör sig mot nästa siffra i slutet av en timme",
-        "Koppla den analoga inställningen till sin skrivna digitala tid"
+        "Ställa stora visaren på minuterna genom att räkna med fem i taget",
+        "Ställa lilla visaren en bit förbi timmen",
+        "Ställa kvart över, halv och kvart i",
+        "Kolla en klocka genom att låta den gå fram till nästa timme"
       ],
       "howToPlay": [
-        "Läs den skrivna tiden ovanför klockan.",
-        "Dra minutvisaren och timvisaren så att de visar tiden till närmaste fem minuter, och följ den digitala avläsningen.",
-        "Finjustera visarna så ofta du vill — det finns ingen tid och inga poäng."
+        "Läs tiden på kortet och dra stora och lilla visaren (eller välj en visare och använd piltangenterna).",
+        "Tryck på Kolla. Klockan går fram till nästa timme: hamnar lilla visaren precis på en siffra och stämmer displayen med kortet är det rätt.",
+        "I inställningarna väljer du tiderna och om minutringen syns."
       ],
       "learningGoals": [
-        "Barnet kan läsa och ställa klockan till närmaste fem minuter",
-        "Barnet kan räkna i femsteg runt urtavlan för att placera minutvisaren exakt",
-        "Barnet kan läsa tider som kvart i åtta korrekt som 7:45 i stället för 8:45"
+        "Ställa en klocka med visare på fem minuter när.",
+        "Ställa lilla visaren så långt förbi timmen som minuterna säger.",
+        "Räkna med fem i taget från 12:an för att ställa stora visaren."
       ]
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {

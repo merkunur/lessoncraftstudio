@@ -3722,25 +3722,25 @@
     },
     "clock.tell-time-5-min.2-md-c-7": {
       "about": [
-        "Er verschijnt een tijd in cijfers — 3:15, 7:45, 6:10, 9:20, 4:40, 1:50, 10:05 of 12:25 — en het kind sleept de wijzers van de analoge klok naar die stand, terwijl een digitale weergave meebeweegt. Deze rekenactiviteit voor groep 4 brengt klokkijken naar tijden op 5 minuten nauwkeurig en speelt in de browser zonder account.",
-        "Klokkijken tot op 5 minuten betekent dat de grote wijzer er nu echt toe doet: kwart over zet hem op de 3, kwart voor op de 9 en tien over op de 2, en het kind telt met sprongen van vijf rond de wijzerplaat om hem precies goed te zetten. De lastigere tijden — zoals 7:45, waarbij kwart voor acht wordt geschreven als 7:45 en niet als 8:45 — vragen het kind om de kleine wijzer goed te lezen terwijl die naar het volgende getal kruipt. De digitale weergave bevestigt elke stand, zodat het tellen met vijven verbonden raakt aan de geschreven tijd.",
-        "De activiteit sluit aan bij de SLO-kerndoelen voor groep 4: de tijd lezen en zetten tot op 5 minuten nauwkeurig op de analoge en digitale klok. Dit hoort bij groep 4 (7-8 jaar). Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Een klok zetten is twee wijzers plaatsen, en de kleine is de lastige: om 9.20 staat hij niet op de 9, maar een derde van de weg naar de 10. Een digitale weergave ziet die fout niet, want een klok met de kleine wijzer op de 9 geeft nog steeds 9.20. Hier merkt de klok het zelf.",
+        "Op een kaart staat een tijd, in cijfers en in woorden. Het kind sleept de grote wijzer naar de minuten en de kleine wijzer naar het uur; de wijzers zijn los en niets leest ze vooraf af. Bij Controleer laat de weergave de tijd zien die de wijzers maken, een messing tandwiel schuift naar het midden en de klok loopt door tot het volgende hele uur. Een goed gezette klok komt aan met de kleine wijzer precies op een getal, en de bel slaat dat uur, één teken per slag. Stond de kleine wijzer verkeerd, dan komt de klok scheef aan, tussen twee getallen, en de bel klinkt dof. Elke fout krijgt zijn eigen hulp: een ring waar de grote wijzer hoort, of het goede vak voor de kleine wijzer, gekleurd. Na een tweede misser verschijnt een minutenring buiten de getallen en laten gestippelde gleufjes zien waar beide wijzers horen.",
+        "Er zijn vier niveaus: hele en halve uren, kwartieren, tijden per 5 minuten en gemengd. Met een instelling zet je de minutenring (05, 10, 15 … 55) aan voor kinderen die net met tijden per 5 minuten beginnen. De activiteit sluit aan bij de SLO-kerndoelen voor meten: de tijd zetten op een wijzerklok. Ze werkt zonder geluid, zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "De grote wijzer op een streepje van vijf minuten zetten door met sprongen van vijf te tellen",
-        "Kwart over, kwart voor en tien over op de juiste plek zetten",
-        "De kleine wijzer lezen terwijl die naar het volgende getal beweegt aan het einde van een uur",
-        "De analoge stand koppelen aan de geschreven digitale tijd"
+        "De grote wijzer op de minuten zetten door per 5 te tellen",
+        "De kleine wijzer een stukje voorbij het uur zetten",
+        "Kwart over, half en kwart voor zetten",
+        "Een klok controleren door hem door te laten lopen tot het volgende uur"
       ],
       "howToPlay": [
-        "Lees de tijd in cijfers boven de klok.",
-        "Sleep de grote en de kleine wijzer naar die tijd, tot op 5 minuten nauwkeurig, en kijk naar de digitale weergave.",
-        "Stel de wijzers zo vaak bij als je wilt — er is geen timer en geen score."
+        "Lees de tijd op de kaart en sleep de grote en de kleine wijzer (of kies een wijzer en gebruik de pijltjestoetsen).",
+        "Druk op Controleer. De klok loopt door tot het volgende uur: komt de kleine wijzer precies op een getal en klopt de weergave met de kaart, dan is het goed.",
+        "Kies in de instellingen de tijden en of de minutenring te zien is."
       ],
       "learningGoals": [
-        "Het kind leest en zet de tijd tot op 5 minuten nauwkeurig.",
-        "Het kind telt met sprongen van vijf rond de klok om de grote wijzer precies te plaatsen.",
-        "Het kind leest tijden als kwart voor acht correct als 7:45 en niet als 8:45."
+        "Tijden per 5 minuten zetten op een wijzerklok.",
+        "De kleine wijzer zo ver voorbij het uur zetten als de minuten zeggen.",
+        "Per 5 tellen vanaf de 12 om de grote wijzer te zetten."
       ]
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {

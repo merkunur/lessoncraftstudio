@@ -1,8 +1,8 @@
 [
   {
     "id": "clock.tell-time-5-min.2-md-c-7",
-    "tool": "clock-activity",
-    "task_template": "set-clock",
+    "tool": "run-on-activity",
+    "task_template": "run-on",
     "alignment": {
       "framework": "CCSS",
       "code": "2.MD.C.7",

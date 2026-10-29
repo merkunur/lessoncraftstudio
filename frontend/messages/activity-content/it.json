@@ -2007,25 +2007,25 @@
     },
     "clock.tell-time-5-min.2-md-c-7": {
       "about": [
-        "Appare un'ora scritta — 3:15, 7:45, 6:10, 9:20, 4:40, 1:50, 10:05 o 12:25 — e il bambino trascina le lancette dell'orologio analogico fino a mostrarla, con un display digitale che si aggiorna mentre le muove. È un'attività di matematica per la classe seconda che porta la lettura dell'ora ai cinque minuti e funziona nel browser, senza account.",
-        "Leggere e impostare l'ora ai cinque minuti significa che la lancetta dei minuti conta finalmente nei dettagli: «e un quarto» la mette sul 3, «meno un quarto» la mette sul 9, «e dieci» sul 2, e il bambino conta di cinque in cinque attorno al quadrante per fermarla nel punto esatto. Le ore più insidiose — come 7:45, dove «le otto meno un quarto» si scrive 7:45 e non 8:45 — spingono a leggere la lancetta delle ore mentre avanza verso il numero successivo. Il display digitale conferma ogni posizione, così il conteggio di cinque in cinque si collega all'ora scritta.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito della misura del tempo: leggere e scrivere l'ora ai cinque minuti su orologi analogici e digitali. Nessun timer, nessun punteggio: solo esercizio sereno e giocoso."
+        "Regolare un orologio vuol dire mettere due lancette, e quella corta è la difficile: alle 9:20 non è sul 9 ma a un terzo della strada verso il 10. Un display digitale non vede questo errore, perché un orologio con la lancetta corta sul 9 segna comunque 9:20. Qui se ne accorge l’orologio stesso.",
+        "Su un cartellino compare un’ora, in cifre e in parole. Il bambino trascina la lancetta lunga sui minuti e quella corta sull’ora; le lancette sono libere e niente le legge prima del controllo. Premendo Controlla, il display mostra l’ora formata dalle lancette, un ingranaggio di ottone scivola al centro e l’orologio va avanti fino all’ora esatta successiva. Un orologio regolato bene arriva con la lancetta corta proprio su un numero, e la campana batte quell’ora, un segno per rintocco. Se la lancetta corta era nel posto sbagliato, l’orologio arriva storto, tra due numeri, e la campana fa un suono sordo. Ogni errore ha il suo aiuto: un anello dove va la lancetta lunga, oppure lo spazio giusto per quella corta, colorato. Dopo un secondo errore compare un anello dei minuti intorno ai numeri, e delle fessure tratteggiate mostrano dove vanno le due lancette.",
+        "Ci sono quattro livelli: ore esatte e mezze ore, quarti d’ora, minuti di 5 in 5 e un misto. Un’impostazione mostra l’anello dei minuti (05, 10, 15… 55) per i bambini che iniziano con i minuti di 5 in 5. L’attività è in linea con le Indicazioni nazionali, nel nucleo Relazioni, dati e previsioni: regolare un orologio a lancette. Funziona senza audio, senza cronometro e senza punteggio."
       ],
       "practices": [
-        "Posizionare la lancetta dei minuti su un segno dei cinque minuti contando di cinque in cinque.",
-        "Collocare «e un quarto», «meno un quarto» e «e dieci» nei punti giusti.",
-        "Leggere la lancetta delle ore mentre avanza verso il numero successivo a fine ora.",
-        "Far corrispondere l'orologio analogico alla sua ora scritta in formato digitale."
+        "Mettere la lancetta lunga sui minuti contando di 5 in 5",
+        "Mettere la lancetta corta un po’ dopo l’ora",
+        "Regolare e un quarto, e mezza e meno un quarto",
+        "Controllare un orologio facendolo andare avanti fino all’ora dopo"
       ],
       "howToPlay": [
-        "Leggi l'ora scritta sopra l'orologio.",
-        "Trascina le lancette dei minuti e delle ore fino a mostrarla ai cinque minuti, guardando il display digitale.",
-        "Regola le lancette quante volte vuoi — non c'è timer e non c'è punteggio."
+        "Leggi l’ora sul cartellino, poi trascina la lancetta lunga e quella corta (oppure scegli una lancetta e usa le frecce).",
+        "Premi Controlla. L’orologio va avanti fino all’ora dopo: se la lancetta corta arriva proprio su un numero e il display coincide con il cartellino, è giusto.",
+        "Nelle impostazioni scegli gli orari e se l’anello dei minuti si vede."
       ],
       "learningGoals": [
-        "Leggere e impostare l'ora ai cinque minuti.",
-        "Contare di cinque in cinque attorno al quadrante per posizionare la lancetta dei minuti con precisione.",
-        "Leggere correttamente ore come «le otto meno un quarto» scritte 7:45 e non 8:45."
+        "Regolare un orologio a lancette di 5 in 5 minuti.",
+        "Mettere la lancetta corta tanto oltre l’ora quanto indicano i minuti.",
+        "Contare di 5 in 5 dal 12 per mettere la lancetta lunga."
       ]
     },
     "match-pairs.addition-and-subtraction-pairs.1-oa-d-7": {

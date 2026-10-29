@@ -1507,25 +1507,25 @@
     },
     "clock.tell-time-5-min.2-md-c-7": {
       "about": [
-        "A written time appears — 3:15, 7:45, 6:10, 9:20, 4:40, 1:50, 10:05, or 12:25 — and the child drags the analog clock's hands to show it, with a digital readout updating as they move. This Grade 2 math activity moves clock-setting up to five-minute times and runs in the browser with no account needed.",
-        "Reading and setting to five minutes means the minute hand finally matters in detail: quarter past puts it on the 3, quarter to puts it on the 9, ten past on the 2, and the child counts by fives around the face to land it exactly. The trickier times — like 7:45, where quarter to eight is written 7:45 rather than 8:45 — push children to read the hour hand as it creeps toward the next number. The digital readout confirms each placement so the count-by-fives idea connects to the written time.",
-        "It is aligned to Common Core 2.MD.C.7 — telling and writing time to the nearest five minutes on analog and digital clocks. No timer, no score — just calm, playful practice."
+        "Setting a clock means placing two hands, and the short one is the hard one: at 9:20 it is not on the 9 but a third of the way to the 10. A digital readout cannot catch that mistake, because a clock with the short hand on the 9 still reads 9:20. Set the Clock catches it with the clock itself.",
+        "A time appears on a card, in digits and in words. The child drags the long hand to the minutes and the short hand to the hour; the hands are loose and nothing reads them back. At Check, the readout shows the time the hands make, a brass gear slides into the centre, and the clock runs on to the next o'clock. A clock set right arrives with the short hand exactly on a number, and the bell strikes that hour, one mark per stroke. If the short hand was in the wrong place, the clock arrives crooked, between two numbers, and the bell clanks. Each kind of mistake gets its own help: a ring where the long hand belongs, or the right gap for the short hand shaded. After a second miss, a ring of minutes appears outside the numbers and dashed slots show where both hands go.",
+        "There are four levels: o'clock and half past, quarter hours, five-minute times, and a mix. A setting shows the ring of minutes (05, 10, 15 … 55) for children who are new to five-minute times. It follows Common Core 2.MD.C.7 (tell and write time from analog and digital clocks to the nearest five minutes). It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Set the minute hand to a five-minute mark by counting by fives",
-        "Place quarter past, quarter to, and ten past in the right spots",
-        "Read the hour hand as it moves toward the next number near the end of an hour",
-        "Match the analog setting to its written digital time"
+        "Set the long hand to the minutes, counting by fives",
+        "Set the short hand part of the way past the hour",
+        "Set quarter past, half past and quarter to",
+        "Check a clock by running it on to the next hour"
       ],
       "howToPlay": [
-        "Read the written time above the clock.",
-        "Drag the minute and hour hands to show it to the nearest five minutes, watching the digital readout.",
-        "Fine-tune the hands as often as you like — there is no timer and no score."
+        "Read the time on the card, then drag the long hand and the short hand (or select a hand and use the arrow keys).",
+        "Press Check. The clock runs on to the next hour: if the short hand lands exactly on a number and the readout matches the card, you are right.",
+        "In the settings, choose the times and whether the ring of minutes is shown."
       ],
       "learningGoals": [
-        "Tell and set time to the nearest five minutes — the focus of Common Core 2.MD.C.7.",
-        "Count by fives around the clock to place the minute hand exactly.",
-        "Read times like quarter to eight correctly as 7:45 rather than 8:45."
+        "Show times on an analog clock to the nearest five minutes (Common Core 2.MD.C.7).",
+        "Place the short hand as far past the hour as the minutes say.",
+        "Count by fives from the 12 to place the long hand."
       ]
     },
     "clunks-lost-lunch.make-total.k-oa-a-3": {

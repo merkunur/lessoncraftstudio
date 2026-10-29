@@ -115,6 +115,10 @@ function seedScript(row) {
     // the invention at work: "3:00 p.m." written as 17:00 — the clock ran to 17: the tag says 17, tokens 13…17 dropped in the second ring, the given 3 o'clock left as dashed outlines
     return "(function(){var t=window['SecondRingActivity'];if(!t||!t.api)return;var go=function(){if(!t._picsReady){setTimeout(go,50);return;}t.FAST=true;t.OK_MS=600000;t.api.settings.times='1';t.api.settings.ring='keep';t._pool=null;t._ensurePool();t._start(0);t._render2();t._type('1');t._type('7');t._type('0');t._type('0');t._check();};go();})();";
   }
+  if (row.tool === 'run-on-activity') {
+    // the invention at work: 9:20 with the short hand ON the 9 — the readout says 9:20, yet the run-on arrives crooked between 9 and 10
+    return "(function(){var t=window['RunOnActivity'];if(!t||!t.api)return;t.FAST=true;t.OK_MS=600000;t.api.settings.times='five';t._pool=null;t._ensurePool();t._start(3);t._render2();t._setLong(120);t._setShort(270);t._check();})();";
+  }
   if (row.tool === 'hour-ball-activity') {
     // the invention at work: 9:45 read as 10:45 — the cup opens on ball 9, the 10-marble bounces off, ball 10 is still waiting at the top of the chute
     return "(function(){var t=window['HourBallActivity'];if(!t||!t.api)return;var go=function(){if(!t._picsReady){setTimeout(go,50);return;}t.FAST=true;t.OK_MS=600000;t.api.settings.times='1';t.api.settings.tray='show';t._pool=null;t._ensurePool();t._start(1);t._render2();var r=t.st.round,i=r.cards.findIndex(function(c){return c.h===10&&c.m===45;});t._post(i);t._check();};go();})();";

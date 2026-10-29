@@ -111,6 +111,10 @@ function seedScript(row) {
     // the invention at work: 45 on the top rail, 15 on the bottom, 60 (the keyword sum) typed and checked — the saw cut a 60, the level leans, the 30-cm overhang shaded
     return "(function(){var t=window['SpiritBenchActivity'];if(!t||!t.api)return;var go=function(){if(!t._picsReady){setTimeout(go,50);return;}t.FAST=true;t.OK_MS=600000;t.api.settings.numbers='80';t.api.settings.ruler='shown';t._pool=null;t._ensurePool();t._start(3);t._render2();t._put(2,'top');t._put(1,'bottom');t._type('6');t._type('0');t._check();};go();})();";
   }
+  if (row.tool === 'day-wheel-activity') {
+    // the invention at work: breakfast at 7:00 wound one lap too far — the same 7:00 on the face, but the day wheel shows violet in the window and the lap hint asks before or after noon
+    return "(function(){var t=window['DayWheelActivity'];if(!t||!t.api)return;var go=function(){if(!t._picsReady){setTimeout(go,50);return;}t.FAST=true;t.OK_MS=600000;t.api.settings.times='1';t.api.settings.clue='what';t._pool=null;t._ensurePool();t._start(1);t._render2();t._wind(1140);t._check();};go();})();";
+  }
   if (row.tool === 'landing-pad-activity') {
     // the invention at work: Hopper on 4, the spring loaded with a ten and two ones, the pad floated on 15 (the start counted) — he hops 1 long + 2 short arcs to 16 and splashes beside the pad
     return "(function(){var t=window['LandingPadActivity'];if(!t||!t.api)return;var go=function(){if(!t._picsReady){setTimeout(go,50);return;}t.FAST=true;t.OK_MS=600000;t.api.settings.line='20';t.api.settings.labels='some';t._pool=null;t._ensurePool();t._start(6);t._render2();t._frog(4);t._coil(10);t._coil(1);t._coil(1);t._pad(15);t._check();};go();})();";

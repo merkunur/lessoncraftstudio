@@ -2563,25 +2563,25 @@
     },
     "clock-ampm.morning-or-night.2-md-c-7": {
       "about": [
-        "Der Hahn Sprocket kennt sich mit dem ganzen Tag aus: Am Morgen kräht er, wenn die Sonne aufgeht, und am Abend macht er die Augen zu, wenn der Mond am Himmel steht. In dieser Aktivität zeigt dir Sprocket eine Sache aus dem Tag – zum Beispiel „frühstücken um 7 Uhr“ oder „die Sterne anschauen um 9 Uhr“ – und du überlegst gemeinsam mit ihm: Passt das eher in den Vormittag, wenn der Tag beginnt, oder in den Nachmittag und Abend, wenn es später wird?",
-        "So lernst du ganz nebenbei, Uhrzeiten und alltägliche Dinge einer Tageszeit zuzuordnen. Du spürst den Unterschied zwischen „vor dem Mittag“ und „nach dem Mittag“ und merkst, wie dein eigener Tagesablauf aufgebaut ist – vom Aufstehen über die Schule bis zum Zähneputzen vor dem Schlafengehen. Du tippst einfach auf die Sonne für den Vormittag oder auf den Mond für den Nachmittag und Abend.",
-        "Hier tickt keine Uhr, es gibt keine Punkte und keinen Wettkampf. Du darfst in deinem eigenen Tempo überlegen, ruhig noch einmal nachdenken und so oft probieren, wie du magst. Diese Aktivität orientiert sich am Lehrplan der Grundschule und an der Leitidee „Größen und Messen“. Sprocket freut sich über jede Runde mit dir – ganz ohne Eile."
+        "Sprockets Uhr ist eine große Uhr mit einem Fenster bei der 12. Hinter dem Zifferblatt dreht sich ein Tagesrad, halb so schnell wie der Stundenzeiger: Die eine Hälfte ist goldgelb, die Runde von Mitternacht bis 12 Uhr mittags, die andere lila, die Runde von 12 Uhr mittags bis Mitternacht. Der Mond fährt bei Mitternacht auf dem Rad mit, die Sonne um 12 Uhr mittags. Jede Aufgabe beginnt um Mitternacht, und das Kind dreht den Stundenzeiger bis zur Uhrzeit auf der Karte: „Du frühstückst. 7:00.“",
+        "Die Zeiger gehen zweimal am Tag herum, darum kommt jede Uhrzeit zweimal. Beim ersten Mal 7:00 ist das Fenster goldgelb, und das Schild zeigt „morgens“; eine Runde weiter stehen die Zeiger wieder auf 7:00, aber jetzt ist das Fenster lila, und das Schild zeigt „abends“. Dieselben Bilder und Uhrzeiten kommen in beiden Runden vor (das Bett beim Aufstehen und beim Schlafengehen, die Zahnbürste nach dem Frühstück und vor dem Schlafen), also entscheidet die Uhr allein nie: Das Kind muss überlegen, wann es passiert. Eine falsche Uhrzeit bekommt einen Hinweis, der Karte und Uhr vergleicht; die richtige Uhrzeit in der falschen Runde fragt, ob es vor oder nach dem Mittag passiert; nach einem zweiten Fehlversuch zeigt ein gestrichelter Pfeil den Weg, eine Runde weiter oder eine zurück.",
+        "Es gibt zwei Stufen: volle Stunden und halbe Stunden mit zwei Uhr-Rätseln, eine halbe Stunde nach Mitternacht und eine halbe Stunde nach 12 Uhr mittags. Eine Einstellung versteckt das Bild und zeigt stattdessen die Tageszeit auf der Karte. Die Aktivität ist an den Lehrplänen im Bereich Größen und Messen ausgerichtet: Uhrzeiten lesen und einstellen und den Tag in Vormittag und Nachmittag einteilen. Sie funktioniert ohne Ton, und es gibt keinen Timer und keine Punkte."
       ],
       "practices": [
-        "Tageszeiten unterscheiden: Vormittag, Nachmittag und Abend",
-        "Alltägliche Tätigkeiten einer passenden Tageszeit zuordnen",
-        "Volle Uhrzeiten lesen und in den Tag einordnen",
-        "Den eigenen Tagesablauf von morgens bis abends bewusst wahrnehmen"
+        "Vormittag und Nachmittag unterscheiden: vor oder nach 12 Uhr mittags",
+        "Verstehen, dass der Stundenzeiger zweimal am Tag herumgeht",
+        "Volle und halbe Stunden an einer Zeigeruhr lesen und einstellen",
+        "Alltägliche Dinge der richtigen Tageszeit zuordnen"
       ],
       "howToPlay": [
-        "Lies, was Sprocket gerade tut, und schau dir die Uhrzeit dazu an.",
-        "Überlege: Ist das am Vormittag oder am Nachmittag und Abend?",
-        "Tippe auf die Sonne (Vormittag) oder auf den Mond (Nachmittag und Abend)."
+        "Lies die Karte. Zieh den Stundenzeiger ab Mitternacht um die Uhr; das Tagesrad im Fenster dreht sich mit.",
+        "Halte bei der Uhrzeit der Karte in der richtigen Runde an: goldgelb vor dem Mittag, lila nach dem Mittag. Dann drück auf Prüfen.",
+        "In den Einstellungen wählst du volle oder halbe Stunden und ob die Karte zeigt, was passiert, oder die Tageszeit."
       ],
       "learningGoals": [
-        "Ich kann Tätigkeiten dem Vormittag oder dem Nachmittag und Abend zuordnen.",
-        "Ich kann volle Uhrzeiten einer Tageszeit zuordnen.",
-        "Ich verstehe, wie mein Tag von morgens bis abends verläuft."
+        "Uhrzeiten dem Vormittag oder dem Nachmittag und Abend zuordnen.",
+        "Sehen, dass jede Uhrzeit zweimal am Tag vorkommt, einmal vor und einmal nach 12 Uhr mittags.",
+        "Volle und halbe Stunden lesen und einstellen."
       ]
     },
     "nesting-pots.seriate.k-cc-c-7": {

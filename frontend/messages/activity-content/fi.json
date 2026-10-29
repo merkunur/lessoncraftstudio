@@ -3808,6 +3808,29 @@
         "Yhteenlasku hyppäämällä eteenpäin ja vähennyslasku hyppäämällä taaksepäin ilman lähtökohdan laskemista.",
         "Yhtä pitkien hyppyjen näkeminen toistuvana yhteenlaskuna ja hyppyjen laskeminen takaisin nollaan."
       ]
+    },
+    "clock-ampm.morning-or-night.2-md-c-7": {
+      "about": [
+        "Sprocketin kello on iso kello, jossa on ikkuna 12:n kohdalla. Kellotaulun takana pyörii päiväpyörä puolet hitaammin kuin tuntiviisari: toinen puolikas on keltainen, kierros keskiyöstä keskipäivään, ja toinen violetti, kierros keskipäivästä keskiyöhön. Kuu kulkee pyörän mukana keskiyöllä ja aurinko keskipäivällä. Jokainen tehtävä alkaa keskiyöstä, ja lapsi kiertää tuntiviisarin kortin aikaan: ”Syöt aamupalaa. 7.00.”",
+        "Viisarit kiertävät kaksi kierrosta vuorokaudessa, joten jokainen kellonaika tulee kahdesti. Ensimmäisellä kerralla 7.00 ikkuna on keltainen ja kyltissä lukee ap.; kierrosta myöhemmin viisarit ovat taas kohdassa 7.00, mutta nyt ikkuna on violetti ja kyltissä lukee ip. Samat kuvat ja ajat ovat molemmilla kierroksilla (sänky noustessa ja nukkumaan mennessä, hammasharja aamupalan jälkeen ja ennen nukkumaanmenoa), joten kello yksin ei koskaan ratkaise: lapsen täytyy miettiä, milloin asia tapahtuu. Väärä aika saa vihjeen, joka vertaa korttia ja kelloa; oikea aika väärällä kierroksella kysyy, tapahtuuko se ennen keskipäivää vai sen jälkeen; toisen virheen jälkeen katkoviivanuoli näyttää suunnan, kierros eteenpäin tai kierros taaksepäin.",
+        "Tasoja on kaksi: tasatunnit, sekä puolitunnit ja kaksi kelloarvoitusta, puoli tuntia keskiyön jälkeen ja puoli tuntia keskipäivän jälkeen. Asetus piilottaa kuvan ja näyttää kortissa sen sijaan merkinnän ap. tai ip. Tehtävä tukee OPS 2014 -tavoitteita: kellonajan lukeminen ja vuorokauden jakaminen. Se toimii ilman ääntä, eikä siinä ole ajanottoa tai pisteitä."
+      ],
+      "practices": [
+        "Aamupäivän ja iltapäivän erottaminen: ennen keskipäivää vai sen jälkeen",
+        "Sen ymmärtäminen, että tuntiviisari kiertää kaksi kierrosta vuorokaudessa",
+        "Tasatuntien ja puolien tuntien lukeminen ja asettaminen viisarikellosta",
+        "Arjen asioiden sijoittaminen oikeaan vuorokaudenaikaan"
+      ],
+      "howToPlay": [
+        "Lue kortti. Vedä tuntiviisaria kellon ympäri keskiyöstä alkaen; ikkunan päiväpyörä pyörii mukana.",
+        "Pysähdy kortin aikaan oikealla kierroksella: keltainen ennen keskipäivää, violetti sen jälkeen. Paina sitten Tarkista.",
+        "Asetuksista valitset tasatunnit tai puolitunnit sekä sen, näyttääkö kortti tapahtuman vai merkinnän ap./ip."
+      ],
+      "learningGoals": [
+        "Merkintöjen ap. ja ip. käyttäminen kellonaikojen kanssa.",
+        "Sen huomaaminen, että jokainen kellonaika tulee kahdesti vuorokaudessa, kerran ennen keskipäivää ja kerran sen jälkeen.",
+        "Tasatuntien ja puolien tuntien lukeminen ja asettaminen."
+      ]
     }
   }
 }

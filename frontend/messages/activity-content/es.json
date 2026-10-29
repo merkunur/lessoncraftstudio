@@ -899,25 +899,25 @@
     },
     "clock-ampm.morning-or-night.2-md-c-7": {
       "about": [
-        "Sprocket, el gallo, conoce el día entero: canta en la mañana cuando sale el sol y cierra los ojos en la noche cuando aparece la luna. En esta actividad te muestra algo que haces durante el día —como «desayunas» a las 7 o «miras las estrellas» a las 9— junto con la hora en el reloj, y tú decides con él: ¿esto pasa en la mañana, antes del mediodía, o en la tarde y noche, después del mediodía?",
-        "Así aprendes, poco a poco, a ubicar las actividades de tu rutina diaria en la parte del día que les toca y a leer la hora en punto. El mediodía es la frontera: antes es la mañana; después vienen la tarde y la noche, que van juntas porque las dos pasan después del mediodía —aunque en la tarde todavía haya luz de sol—. Tocas el sol para la mañana o la luna para la tarde y noche. (Las personas grandes escriben a.m. para la mañana y p.m. para la tarde y noche.)",
-        "No hay cronómetro, ni puntaje, ni competencia: observas y clasificas con calma, a tu propio ritmo, y puedes pensarlo las veces que quieras. La actividad está alineada a los Planes y programas de estudio de la Nueva Escuela Mexicana (SEP) para primer grado de primaria, dentro del eje de Magnitudes y medida, donde el tiempo se aprende como una magnitud que ordena el día. Sprocket se alegra con cada ronda, sin prisa."
+        "El reloj de Sprocket es un reloj grande con una ventana junto al 12. Detrás de la carátula gira una rueda del día, a la mitad de velocidad que la manecilla de las horas: una mitad es amarilla, la vuelta de la medianoche al mediodía, y la otra morada, la vuelta del mediodía a la medianoche. La luna va en la rueda a la medianoche y el sol al mediodía. Cada ronda empieza a la medianoche, y el niño gira la manecilla de las horas hasta la hora de la tarjeta: «Desayunas. 7:00».",
+        "Las manecillas dan dos vueltas al día, así que cada hora llega dos veces. En el primer 7:00 la ventana es amarilla y la etiqueta dice a. m.; una vuelta después, las manecillas vuelven a las 7:00, pero la ventana es morada y la etiqueta dice p. m. Las mismas imágenes y las mismas horas aparecen en las dos vueltas (la cama al levantarte y al acostarte, el cepillo de dientes después del desayuno y antes de dormir), así que el reloj solo nunca decide: el niño tiene que pensar cuándo pasa. Una hora equivocada recibe una pista que compara la tarjeta y el reloj; la hora correcta en la vuelta equivocada pregunta si pasa antes o después del mediodía; después de un segundo error, una flecha punteada muestra el camino, una vuelta más o una vuelta atrás.",
+        "Hay dos niveles: horas en punto, y medias horas con dos adivinanzas de reloj, media hora después de la medianoche y media hora después del mediodía. Un ajuste esconde la imagen y muestra en la tarjeta la etiqueta a. m. o p. m. La actividad sigue los planes y programas de la SEP, en el campo formativo Saberes y pensamiento científico: leer la hora y usar a. m. y p. m. Funciona sin sonido, sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Distinguir las dos grandes partes del día: la mañana (antes del mediodía) y la tarde y noche (después del mediodía).",
-        "Relacionar las actividades de tu rutina diaria con la hora en punto en que suelen ocurrir.",
-        "Leer la hora en punto en el reloj (las 7, las 9).",
-        "Usar el mediodía como punto de referencia para decidir a qué parte del día pertenece cada momento."
+        "Distinguir a. m. de p. m.: antes o después del mediodía",
+        "Entender que la manecilla de las horas da dos vueltas al día",
+        "Leer y marcar horas en punto y medias horas en un reloj de manecillas",
+        "Ubicar las actividades del día en la parte correcta del día"
       ],
       "howToPlay": [
-        "Sprocket, el gallo, te muestra una actividad y una hora en el reloj.",
-        "Piensa: ¿esto pasa antes o después del mediodía?",
-        "Toca el sol para la mañana, o la luna para la tarde y noche."
+        "Lee la tarjeta. Arrastra la manecilla de las horas desde la medianoche; la rueda del día gira con ella en la ventana.",
+        "Detente en la hora de la tarjeta, en la vuelta correcta: amarilla antes del mediodía, morada después del mediodía. Luego presiona Revisar.",
+        "En los ajustes, elige horas en punto o medias horas, y si la tarjeta muestra lo que pasa o la etiqueta a. m./p. m."
       ],
       "learningGoals": [
-        "Ubicar acciones cotidianas en la mañana o en la tarde y noche, tomando el mediodía como la frontera entre ambas.",
-        "Comprender que la tarde y la noche van juntas porque las dos ocurren después del mediodía, aunque en la tarde todavía haya luz de sol.",
-        "Fortalecer la noción del tiempo como una magnitud que organiza y da orden a tu día."
+        "Usar a. m. y p. m. con las horas del reloj.",
+        "Ver que cada hora del reloj pasa dos veces al día, una antes y otra después del mediodía.",
+        "Leer y marcar horas en punto y medias horas."
       ]
     },
     "digby-number-trace.numeral-formation.k-cc-a-3": {

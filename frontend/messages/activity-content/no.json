@@ -3834,6 +3834,29 @@
         "Legge sammen ved å hoppe framover og trekke fra ved å hoppe bakover, uten å telle starten.",
         "Se like lange hopp som gjentatt addisjon og telle hoppene tilbake til 0."
       ]
+    },
+    "clock-ampm.morning-or-night.2-md-c-7": {
+      "about": [
+        "Sprockets klokke er en stor klokke med et vindu ved 12. Bak urskiva snurrer et dagshjul, halvparten så fort som timeviseren: den ene halvdelen er gul, runden fra midnatt til klokka tolv på dagen, og den andre halvdelen er lilla, runden fra klokka tolv på dagen til midnatt. Månen sitter på hjulet ved midnatt og sola klokka tolv på dagen. Hver oppgave begynner ved midnatt, og barnet vrir timeviseren til tiden på kortet: «Du spiser frokost. 7.00.»",
+        "Viserne går to runder i døgnet, så hvert klokkeslett kommer to ganger. Ved den første 7.00 er vinduet gult, og skiltet sier «om morgenen»; én runde til, og viserne står på 7.00 igjen, men nå er vinduet lilla, og skiltet sier «om kvelden». De samme bildene og tidene finnes i begge rundene (senga når du står opp og når du legger deg, tannbørsten etter frokost og før leggetid), så klokka alene bestemmer aldri: barnet må tenke på når det skjer. Et feil klokkeslett får et hint som sammenligner kortet og klokka; riktig klokkeslett i feil runde spør om det skjer før eller etter klokka tolv på dagen; etter et nytt feil forsøk viser en stiplet pil veien, én runde fram eller én runde tilbake.",
+        "Det er to nivåer: hele timer, og halve timer med to klokkegåter, en halvtime etter midnatt og en halvtime etter klokka tolv på dagen. En innstilling skjuler bildet og viser i stedet tiden på døgnet på kortet. Aktiviteten er knyttet til LK20 og øver på å lese av klokka og dele inn døgnet. Den virker uten lyd, og det er verken tidtaking eller poeng."
+      ],
+      "practices": [
+        "Skille formiddag fra ettermiddag og kveld: før eller etter klokka tolv på dagen",
+        "Forstå at timeviseren går to runder i døgnet",
+        "Lese av og stille hele og halve timer på en analog klokke",
+        "Plassere hverdagslige ting på riktig tid av døgnet"
+      ],
+      "howToPlay": [
+        "Les kortet. Dra timeviseren rundt klokka fra midnatt; dagshjulet i vinduet snurrer med.",
+        "Stopp ved tiden på kortet i riktig runde: gul før klokka tolv på dagen, lilla etter. Trykk så på Sjekk.",
+        "I innstillingene velger du hele eller halve timer, og om kortet viser hva som skjer eller tiden på døgnet."
+      ],
+      "learningGoals": [
+        "Plassere et klokkeslett på formiddagen eller på ettermiddagen og kvelden.",
+        "Se at hvert klokkeslett kommer to ganger i døgnet, én gang før og én gang etter klokka tolv på dagen.",
+        "Lese av og stille hele og halve timer."
+      ]
     }
   }
 }

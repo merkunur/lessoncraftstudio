@@ -4072,23 +4072,25 @@
     },
     "clock-ampm.morning-or-night.2-md-c-7": {
       "about": [
-        "Sprocket le coq accompagne ton enfant tout au long de la journée : chaque geste — le petit-déjeuner, le dîner, regarder les étoiles — se passe le matin, ou bien l'après-midi et le soir. L'enfant lit ce qu'il fait et l'heure affichée, puis touche le bon moment de la journée : le soleil pour le matin, la lune pour l'après-midi et le soir.",
-        "Distinguer le matin de l'après-midi et du soir, c'est apprendre à se repérer dans la journée — un attendu du CP. Le jeu se joue sans minuteur et sans points : l'enfant relie une activité familière à son moment, dans le domaine « Grandeurs et mesures » des programmes officiels de l'école."
+        "L’horloge de Sprocket est une grande horloge avec une fenêtre près du 12. Derrière le cadran tourne une roue du jour, deux fois moins vite que la petite aiguille : une moitié est jaune, le tour de minuit à midi, et l’autre violette, le tour de midi à minuit. La lune est sur la roue à minuit, le soleil à midi. Chaque partie commence à minuit, et l’enfant fait tourner la petite aiguille jusqu’à l’heure de la carte : « Tu prends le petit-déjeuner. 7 h. »",
+        "Les aiguilles font deux tours par jour, alors chaque heure revient deux fois. Au premier 7 h, la fenêtre est jaune et l’étiquette dit « du matin » ; un tour plus loin, les aiguilles reviennent sur 7 h, mais la fenêtre est violette et l’étiquette dit « du soir ». Les mêmes images et les mêmes heures reviennent dans les deux tours (le lit au lever et au coucher, la brosse à dents après le petit-déjeuner et avant le coucher) : l’horloge seule ne décide jamais, l’enfant doit réfléchir au moment où la chose se passe. Une mauvaise heure reçoit un indice qui compare la carte et l’horloge ; la bonne heure dans le mauvais tour demande si cela se passe avant ou après midi ; après une deuxième erreur, une flèche en pointillés montre le chemin, un tour de plus ou un tour en arrière.",
+        "Il y a deux niveaux : les heures pile, et les demi-heures avec deux devinettes d’horloge, une demi-heure après minuit et une demi-heure après midi. Un réglage cache l’image et montre à la place le moment de la journée sur la carte. L’activité suit les programmes officiels, dans le domaine Grandeurs et mesures : lire et placer l’heure et se repérer dans la journée. Elle fonctionne sans son, sans chronomètre et sans score."
       ],
       "practices": [
-        "Reconnaître le matin et l'après-midi",
-        "Relier une activité au bon moment de la journée",
-        "Se repérer dans la journée : matin, après-midi, soir",
-        "Lire l'heure d'une activité quotidienne"
+        "Distinguer le matin de l’après-midi et du soir : avant ou après midi",
+        "Comprendre que la petite aiguille fait deux tours par jour",
+        "Lire et placer les heures pile et les demi-heures sur une horloge à aiguilles",
+        "Placer les moments de la vie quotidienne dans la bonne partie de la journée"
       ],
       "howToPlay": [
-        "Lis ce que tu fais et regarde l'heure.",
-        "Touche le matin, ou l'après-midi et le soir."
+        "Lis la carte. Fais tourner la petite aiguille depuis minuit ; la roue du jour tourne avec elle dans la fenêtre.",
+        "Arrête-toi à l’heure de la carte, dans le bon tour : jaune avant midi, violet après midi. Puis appuie sur Vérifier.",
+        "Dans les réglages, choisis les heures pile ou les demi-heures, et si la carte montre ce qui se passe ou le moment de la journée."
       ],
       "learningGoals": [
-        "Distinguer le matin de l'après-midi et du soir",
-        "Relier une activité quotidienne à son moment",
-        "Se repérer dans les moments de la journée"
+        "Placer une heure le matin, ou l’après-midi et le soir.",
+        "Voir que chaque heure de l’horloge arrive deux fois par jour, une fois avant midi et une fois après.",
+        "Lire et placer les heures pile et les demi-heures."
       ]
     },
     "inky-book-workshop.author-illustrator.rl-k-6": {

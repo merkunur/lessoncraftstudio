@@ -3809,6 +3809,29 @@
         "Lægge sammen ved at hoppe frem og trække fra ved at hoppe tilbage uden at tælle starten med.",
         "Se lige store hop som gentagen addition og tælle hoppene tilbage til 0."
       ]
+    },
+    "clock-ampm.morning-or-night.2-md-c-7": {
+      "about": [
+        "Sprockets ur er et stort ur med et vindue ved 12. Bag urskiven drejer et dagshjul, halvt så hurtigt som den lille viser: den ene halvdel er gul, omgangen fra midnat til klokken tolv om dagen, og den anden halvdel er lilla, omgangen fra klokken tolv om dagen til midnat. Månen kører med på hjulet ved midnat og solen klokken tolv om dagen. Hver runde begynder ved midnat, og barnet drejer den lille viser hen til tiden på kortet: »Du spiser morgenmad. 7.00.«",
+        "Viserne går to omgange i døgnet, så hvert klokkeslæt kommer to gange. Ved det første 7.00 er vinduet gult, og skiltet siger »om morgenen«; en omgang mere, og viserne står på 7.00 igen, men nu er vinduet lilla, og skiltet siger »om aftenen«. De samme billeder og tider findes i begge omgange (sengen, når du står op, og når du går i seng, tandbørsten efter morgenmaden og før sengetid), så uret alene afgør aldrig noget: barnet må tænke over, hvornår det sker. Et forkert klokkeslæt får en hjælp, der sammenligner kortet og uret; det rigtige klokkeslæt i den forkerte omgang spørger, om det sker før eller efter klokken tolv om dagen; efter endnu et forkert forsøg viser en stiplet pil vejen, en omgang frem eller en omgang tilbage.",
+        "Der er to niveauer: hele timer, og halve timer med to urgåder, en halv time efter midnat og en halv time efter klokken tolv om dagen. En indstilling skjuler billedet og viser i stedet tiden på døgnet på kortet. Aktiviteten følger Fælles Mål (efter 3. klassetrin): at aflæse uret og inddele døgnet. Den virker uden lyd, og der er hverken tidtagning eller point."
+      ],
+      "practices": [
+        "Skelne formiddag fra eftermiddag og aften: før eller efter klokken tolv om dagen",
+        "Forstå, at den lille viser går to omgange i døgnet",
+        "Aflæse og stille hele og halve timer på et ur med visere",
+        "Placere hverdagens ting på det rigtige tidspunkt af døgnet"
+      ],
+      "howToPlay": [
+        "Læs kortet. Træk den lille viser rundt om uret fra midnat; dagshjulet i vinduet drejer med.",
+        "Stop ved kortets tid i den rigtige omgang: gul før klokken tolv om dagen, lilla efter. Tryk så på Tjek.",
+        "I indstillingerne vælger du hele eller halve timer, og om kortet viser, hvad der sker, eller tiden på døgnet."
+      ],
+      "learningGoals": [
+        "Placere et klokkeslæt om formiddagen eller om eftermiddagen og aftenen.",
+        "Se, at hvert klokkeslæt kommer to gange i døgnet, én gang før og én gang efter klokken tolv om dagen.",
+        "Aflæse og stille hele og halve timer."
+      ]
     }
   }
 }

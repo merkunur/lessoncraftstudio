@@ -1219,25 +1219,25 @@
     },
     "clock-ampm.morning-or-night.2-md-c-7": {
       "about": [
-        "An everyday event is paired with a time — you eat breakfast at 7:00, the sun comes up at 6:00, you eat dinner at 6:00, you look at the stars at 9:00 — and the child decides whether it happens in the a.m. (morning) or p.m. (afternoon or evening). Sprocket the rooster cheers along in this interactive Grade 2 time activity that plays right in the browser with no account.",
-        "The big idea is that the clock face alone cannot tell you a.m. from p.m. — 6:00 in the morning and 6:00 in the evening look identical, so the child has to think about the time of day the event really happens. Breakfast and the sunrise land in the a.m.; dinner, the stars, and brushing teeth before bed land in the p.m. Tying a.m. and p.m. to real daily routines makes the labels meaningful instead of memorized.",
-        "It is aligned to Common Core 2.MD.C.7 — telling time and using a.m. and p.m. for the time of day. No timer, no score — just calm, playful practice."
+        "Sprocket's Clock is a big clock with a window near the 12. Behind the face turns a day wheel, geared at half the speed of the hour hand: one half is gold, the lap from midnight to noon, and the other half is violet, the lap from noon to midnight. The moon rides the wheel at midnight and the sun at noon. Every round starts at midnight, and the child winds the hour hand round to the time on the card: \"You eat breakfast. 7:00.\"",
+        "The hands go round twice a day, so every time on the clock comes round twice. Wind to the first 7:00 and the window is gold, with the badge reading a.m.; wind one more lap and the hands are back at 7:00, but now the window is violet and the badge reads p.m. The same pictures and the same times appear in both laps (the bed when you get up and when you go to bed, the toothbrush after breakfast and before bed), so the clock alone never decides: the child has to think about when the thing happens. A wrong time gets a hint that compares the card and the clock; the right time in the wrong lap asks whether it happens before or after noon; after a second miss a dashed arrow shows the way, one lap on or one lap back.",
+        "There are two levels: o'clock times, and half hours with two clock riddles, half an hour after midnight and half an hour after noon. A setting hides the picture and shows the a.m./p.m. label on the card instead, so the child must place the label on the wheel. It is aligned to Common Core 2.MD.C.7 (tell and write time to the nearest five minutes, using a.m. and p.m.). It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Connecting a.m. to the morning and p.m. to the afternoon and evening",
-        "Deciding when an everyday event happens during the day",
-        "Understanding that the same clock time can be a.m. or p.m.",
-        "Linking time labels to real daily routines like breakfast, dinner, and bedtime"
+        "Tell a.m. from p.m.: before noon or after noon",
+        "Understand that the hour hand goes round twice a day",
+        "Read and set o'clock and half-past times on an analog clock",
+        "Place everyday events in the right part of the day"
       ],
       "howToPlay": [
-        "Read the everyday event and the time shown with it.",
-        "Decide whether it happens in the morning or the afternoon or evening, then tap a.m. or p.m.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Read the card. Drag the hour hand round the clock from midnight; the day wheel in the window turns with it.",
+        "Stop at the card's time in the right lap: gold before noon, violet after noon. Then press Check.",
+        "In the settings, choose o'clock or half-past times, and whether the card shows what happens or the a.m./p.m. label."
       ],
       "learningGoals": [
-        "Use a.m. and p.m. correctly with the time of day — the focus of Common Core 2.MD.C.7.",
-        "Understand that the same hour can be a.m. or p.m. depending on the time of day.",
-        "Build the everyday time sense that reading schedules and telling time depend on."
+        "Use a.m. and p.m. with clock times, the a.m./p.m. part of Common Core 2.MD.C.7.",
+        "See that every clock time happens twice a day, once before noon and once after noon.",
+        "Read and set times to the hour and the half hour."
       ]
     },
     "clock-convert.12-24.2-md-c-7": {

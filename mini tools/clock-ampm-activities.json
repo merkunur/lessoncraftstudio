@@ -1,8 +1,8 @@
 [
   {
     "id": "clock-ampm.morning-or-night.2-md-c-7",
-    "tool": "clock-ampm-activity",
-    "task_template": "am-or-pm",
+    "tool": "day-wheel-activity",
+    "task_template": "day-wheel",
     "alignment": {
       "framework": "CCSS",
       "code": "2.MD.C.7",
@@ -147,7 +147,11 @@
       "es": "partes-del-dia-manana-tarde-y-noche-primer-grado",
       "pt": "partes-do-dia-manha-tarde-e-noite-1-ano",
       "it": "momenti-della-giornata-mattina-pomeriggio-sera-classe-prima",
-      "nl": "dagdelen-ochtend-middag-avond-groep-3"
+      "nl": "dagdelen-ochtend-middag-avond-groep-3",
+      "sv": "formiddag-och-eftermiddag-klockan-ak-2",
+      "da": "foer-og-efter-klokken-tolv-om-dagen-2-klasse",
+      "no": "for-og-etter-klokka-tolv-pa-dagen-2-trinn",
+      "fi": "aamupaiva-vai-iltapaiva-ap-ja-ip-2-luokka"
     },
     "page_title": {
       "en": "Sprocket's Clock — A.M. or P.M.? (Grade 2)",
@@ -156,7 +160,11 @@
       "es": "Partes del día: mañana, tarde y noche (1.º de primaria)",
       "pt": "Períodos do Dia com o Sprocket: Manhã ou Tarde? — 1º ano",
       "it": "Momenti della giornata: mattina, pomeriggio e sera – classe prima",
-      "nl": "Dagdelen: ochtend of avond? – dagritme voor groep 3"
+      "nl": "Dagdelen: ochtend of avond? – dagritme voor groep 3",
+      "sv": "Sprockets klocka – förmiddag eller eftermiddag? (åk 2)",
+      "da": "Sprockets ur – før eller efter klokken tolv? (2. klasse)",
+      "no": "Sprockets klokke – før eller etter klokka tolv? (2. trinn)",
+      "fi": "Sprocketin kello – aamupäivä vai iltapäivä? (2. lk)"
     },
     "page_intro": {
       "en": "An interactive Grade 2 time activity: decide whether an everyday thing happens in the a.m. (morning) or p.m. (afternoon or evening). Children learn that breakfast is a.m. and dinner is p.m. — using a.m. and p.m. with the time of day. Sprocket the rooster cheers them on. Common Core 2.MD.C.7.",
@@ -165,7 +173,11 @@
       "es": "Actividad interactiva: los niños clasifican las actividades del día en mañana, tarde y noche y aprenden a leer la hora, sin registro, alineada a la SEP.",
       "pt": "Ajude o galo Sprocket a decidir se cada coisa do dia acontece de manhã ou de tarde e à noite, olhando a hora no relógio. Sem cadastro. BNCC, 1º ano.",
       "it": "Il gallo Sprocket mostra un momento della giornata: la colazione, i compiti, le stelle prima di andare a dormire. Il bambino guarda l’evento e l’ora, poi sceglie se accade di mattina oppure di pomeriggio e sera. Un’attività senza registrazione e senza timer, pensata per la classe prima e allineata alle Indicazioni nazionali.",
-      "nl": "Sprocket de haan laat een gebeurtenis uit de dag zien — je eet je ontbijt om 7 uur, of je kijkt naar de sterren om 9 uur — en jouw kind kiest het juiste dagdeel: de ochtend, of de middag en avond. Zo leert je kind gebeurtenissen aan dagdelen koppelen. Kloklezen hoeft niet, gewoon goed nadenken en kijken. Interactief."
+      "nl": "Sprocket de haan laat een gebeurtenis uit de dag zien — je eet je ontbijt om 7 uur, of je kijkt naar de sterren om 9 uur — en jouw kind kiest het juiste dagdeel: de ochtend, of de middag en avond. Zo leert je kind gebeurtenissen aan dagdelen koppelen. Kloklezen hoeft niet, gewoon goed nadenken en kijken. Interactief.",
+      "sv": "Visarna går två varv om dygnet. Barnet vrider klockan från midnatt, och dagshjulet i fönstret visar varvet: gult före klockan tolv på dagen, lila efter. Stanna vid frukosten på morgonen och godnattsagan på kvällen. Klockan och tid i åk 1–3 enligt Lgr22.",
+      "da": "Viserne går to omgange i døgnet. Barnet drejer uret fra midnat, og dagshjulet i vinduet viser omgangen: gul før klokken tolv om dagen, lilla efter. Stop ved morgenmaden om morgenen og godnathistorien om aftenen. Klokken i 2. klasse, i tråd med Fælles Mål.",
+      "no": "Viserne går to runder i døgnet. Barnet vrir klokka fra midnatt, og dagshjulet i vinduet viser runden: gul før klokka tolv på dagen, lilla etter. Stopp ved frokosten om morgenen og godnatthistorien om kvelden. Klokka på 2. trinn, i tråd med LK20.",
+      "fi": "Viisarit kiertävät kaksi kierrosta vuorokaudessa. Lapsi kiertää kelloa keskiyöstä, ja ikkunan päiväpyörä näyttää kierroksen: keltainen ennen keskipäivää (ap.), violetti sen jälkeen (ip.). Pysähdy aamupalaan aamulla ja iltasatuun illalla. Kello 2. luokalla, perusopetuksen opetussuunnitelman (OPS 2014) mukaisesti."
     },
     "kid_prompt_template": "clock-ampm"
   }

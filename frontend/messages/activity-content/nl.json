@@ -4662,6 +4662,29 @@
         "Het uur lezen aan de kleine wijzer en de minuten aan de grote wijzer.",
         "Weten dat de kleine wijzer bij 30 minuten precies tussen twee getallen staat."
       ]
+    },
+    "clock-digital.read-five-minute.2-md-c-7": {
+      "about": [
+        "Klokkijken per 5 minuten is twee dingen lezen: de minuten zeggen hoe ver de grote wijzer vanaf de 12 is rondgegaan, vijf voor elk getal, en het uur is het getal waar de kleine wijzer op staat of al voorbij is. De klok van Kukel maakt van de minuten iets wat een kind kan bouwen. Aan de binnenkant van de wijzerplaat rijdt een speelgoedtrein rond, en elke wagon is precies zo lang als de afstand tussen twee getallen: vijf minuten.",
+        "Het kind tikt op de tunnel bij de 12 om de wagons een voor een te laten uitrijden. Elke nieuwe wagon koppelt achter de vorige en laat zijn getal op het dak oplichten, zo telt de trein 5, 10, 15. De grote wijzer is een slagboom bij een overweg: de trein kan er niet voorbij, dus het getal op het laatste dak zijn de minuten. Daarna schrijft het kind de tijd op een digitale kaart, in lege vakjes: het uur en de minuten. Een fout antwoord laat zijn eigen fout zien. Minuten zoals 04 geven een trein die nog geen wagon lang is. Wie het volgende uur leest (5.55 in plaats van 4.55), ziet de trein zijn rondje afmaken met lichte wagons: de kleine wijzer komt pas bij het volgende getal als de ring rond is. Elk ander fout uur krijgt een rand om de kleine wijzer. Na een tweede misser staat de goede trein er, met een vraagteken op het laatste dak, en het getal waar de kleine wijzer al voorbij is, wordt dik.",
+        "Er zijn twee niveaus: kwartieren, daarna tijden per 5 minuten. Met een instelling zet je de getallen op de daken aan of uit, zodat kinderen de wagons zelf per 5 tellen. Is een tijd gelezen, dan wordt de trein speelgoed: elke wagon duwt de klok vijf minuten verder, en als de twaalfde de ring sluit, stapt de kleine wijzer naar het volgende getal. De activiteit sluit aan bij de SLO-kerndoelen voor meten: klokkijken op een wijzerklok. Ze werkt zonder geluid, zonder tijdsdruk en zonder punten."
+      ],
+      "practices": [
+        "De minuten lezen door per 5 te tellen vanaf de 12",
+        "Het uur lezen aan het getal waar de kleine wijzer op staat of voorbij is",
+        "Kwart over, half en kwart voor lezen",
+        "Een tijd op een digitale kaart schrijven"
+      ],
+      "howToPlay": [
+        "Tik op de tunnel of op + om wagons te laten uitrijden tot de trein bij de grote wijzer is; met − rijdt de laatste terug.",
+        "Tik op het vakje voor het uur en het vakje voor de minuten, schrijf de tijd met de cijfertoetsen en druk op Controleer.",
+        "Kies in de instellingen de tijden (kwartieren of per 5 minuten) en of er getallen op de daken staan."
+      ],
+      "learningGoals": [
+        "Tijden lezen en schrijven op een wijzerklok, per 5 minuten.",
+        "Per 5 tellen vanaf de 12 om de minuten te vinden.",
+        "Weten dat het uur het getal is waar de kleine wijzer al voorbij is, ook als hij bijna bij het volgende is."
+      ]
     }
   }
 }

@@ -4662,6 +4662,29 @@
         "Die Stunde am kleinen Zeiger und die Minuten am großen Zeiger ablesen.",
         "Wissen, dass der kleine Zeiger bei 30 Minuten genau zwischen zwei Zahlen steht."
       ]
+    },
+    "clock-digital.read-five-minute.2-md-c-7": {
+      "about": [
+        "Eine Uhr auf fünf Minuten genau zu lesen heißt, zwei Dinge zu lesen: Die Minuten zeigen, wie weit der große Zeiger von der 12 aus herumgegangen ist, fünf für jede Zahl, und die Stunde ist die Zahl, auf der der kleine Zeiger steht oder an der er schon vorbei ist. Sprockets Uhr macht die Minuten zu etwas, das ein Kind bauen kann. Innen am Zifferblatt fährt eine Spielzeugeisenbahn, und jeder Wagen ist genau einen Zahlenabstand lang: fünf Minuten.",
+        "Das Kind tippt auf den Tunnel an der 12, und die Wagen fahren einer nach dem anderen heraus. Jeder neue Wagen hängt sich hinten an und zeigt seine Zahl auf dem Dach, so zählt der Zug 5, 10, 15. Der große Zeiger ist eine Bahnschranke: Der Zug kommt nicht daran vorbei, also steht auf dem letzten Dach die Minutenzahl. Dann schreibt das Kind die Uhrzeit in leere Felder auf einer Digitalkarte, Stunde und Minuten. Eine falsche Antwort zeigt ihren eigenen Fehler. Minuten wie 04 ergeben einen Zug, der nicht einmal einen Wagen lang ist. Wer die nächste Stunde liest (5:55 statt 4:55), sieht den Zug seine Runde in blassen Wagen zu Ende fahren: Der kleine Zeiger erreicht die nächste Zahl erst, wenn der Ring geschlossen ist. Jede andere falsche Stunde umrandet den kleinen Zeiger. Nach dem zweiten Fehlversuch steht der richtige Zug da, mit einem Fragezeichen auf dem letzten Dach, und die Zahl, an der der kleine Zeiger vorbei ist, wird fett.",
+        "Es gibt zwei Stufen: Viertelstunden, dann 5-Minuten-Schritte. Eine Einstellung zeigt oder versteckt die Zahlen auf den Dächern, damit Kinder die Wagen selbst in Fünferschritten zählen. Ist eine Uhrzeit gelesen, wird der Zug zum Spielzeug: Jeder Wagen schiebt die Uhr fünf Minuten weiter, und wenn der zwölfte den Ring schließt, rückt der kleine Zeiger auf die nächste Zahl. Die Aktivität orientiert sich am Lehrplan im Bereich Größen und Messen: Uhrzeiten an analogen Uhren lesen. Sie funktioniert ohne Ton, und es gibt keinen Timer und keine Punkte."
+      ],
+      "practices": [
+        "Die Minuten in Fünferschritten ab der 12 ablesen",
+        "Die Stunde an der Zahl ablesen, auf der der kleine Zeiger steht oder an der er vorbei ist",
+        "Viertel nach, halb und Viertel vor lesen",
+        "Eine Uhrzeit auf eine Digitalkarte schreiben"
+      ],
+      "howToPlay": [
+        "Tippe auf den Tunnel oder auf +, bis der Zug den großen Zeiger erreicht; mit − fährt der letzte Wagen zurück.",
+        "Tippe auf das Stundenfeld und das Minutenfeld, schreib die Uhrzeit mit den Zahlentasten und drück auf Prüfen.",
+        "In den Einstellungen wählst du die Uhrzeiten (Viertelstunden oder 5-Minuten-Schritte) und ob auf den Dächern Zahlen stehen."
+      ],
+      "learningGoals": [
+        "Uhrzeiten an analogen Uhren auf fünf Minuten genau lesen und schreiben.",
+        "In Fünferschritten ab der 12 die Minuten finden.",
+        "Wissen, dass die Stunde die Zahl ist, an der der kleine Zeiger vorbei ist – auch wenn er fast bei der nächsten ist."
+      ]
     }
   }
 }

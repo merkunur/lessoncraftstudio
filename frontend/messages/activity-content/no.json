@@ -3903,6 +3903,29 @@
         "Lese timen på den lille viseren og minuttene på den store viseren.",
         "Vite at den lille viseren står midt mellom to tall når den store viseren står på 6-tallet."
       ]
+    },
+    "clock-digital.read-five-minute.2-md-c-7": {
+      "about": [
+        "Å lese klokka på fem minutter nær er å lese to ting: minuttene sier hvor langt den store viseren har gått rundt fra 12-tallet, fem for hvert tall, og timen er tallet den lille viseren står på eller allerede har passert. Sprockets klokke gjør minuttene til noe et barn kan bygge. Et leketøystog kjører rundt på innsiden av urskiva, og hver vogn er nøyaktig like lang som avstanden mellom to tall: fem minutter.",
+        "Barnet trykker på tunnelen ved 12-tallet for å sende ut vognene én om gangen. Hver ny vogn kobles på bak den forrige og tenner tallet sitt på taket, så toget teller 5, 10, 15. Den store viseren er en jernbanebom: toget kan ikke kjøre forbi den, så tallet på det siste taket er minuttene. Etterpå skriver barnet klokkeslettet på et digitalt kort, i tomme ruter: timen og minuttene. Et feil svar viser sin egen feil. Minutter som 04 gir et tog som ikke engang er én vogn langt. Leser barnet neste time (5.55 i stedet for 4.55), kjører toget runden ferdig med bleke vogner: den lille viseren kommer først til neste tall når ringen er lukket. Alle andre feil timer får en kant rundt den lille viseren. Etter en ny feil bygges det riktige toget med et spørsmålstegn på det siste taket, og tallet den lille viseren har passert, blir fet.",
+        "Det er to nivåer: kvarter og deretter hvert femte minutt. En innstilling viser eller skjuler tallene på takene, slik at barna selv teller vognene fem om gangen. Når et klokkeslett er lest, blir toget en leke: hver vogn skyver klokka fem minutter fram, og når den tolvte lukker ringen, flytter den lille viseren seg til neste tall. Aktiviteten er i tråd med LK20 om måling og tid: å lese av en klokke med visere. Den virker uten lyd, og det er ingen tidtaking og ingen poeng."
+      ],
+      "practices": [
+        "Lese minuttene ved å telle fem om gangen fra 12-tallet",
+        "Lese timen på tallet den lille viseren står på eller har passert",
+        "Lese kvart over, halv og kvart på",
+        "Skrive et klokkeslett på et digitalt kort"
+      ],
+      "howToPlay": [
+        "Trykk på tunnelen eller + for å sende ut vogner til toget når den store viseren; − sender den siste tilbake.",
+        "Trykk på ruten for timen og ruten for minuttene, skriv klokkeslettet med talltastene og trykk på Sjekk.",
+        "I innstillingene velger du klokkeslettene (kvarter eller hvert femte minutt) og om takene viser tallene sine."
+      ],
+      "learningGoals": [
+        "Lese av og skrive klokkeslett på en klokke med visere med fem minutters nøyaktighet.",
+        "Telle fem om gangen fra 12-tallet for å finne minuttene.",
+        "Vite at timen er tallet den lille viseren har passert, også når den nesten er ved det neste."
+      ]
     }
   }
 }

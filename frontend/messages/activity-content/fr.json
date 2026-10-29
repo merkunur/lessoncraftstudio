@@ -2093,25 +2093,25 @@
     },
     "clock-digital.read-five-minute.2-md-c-7": {
       "about": [
-        "Sprocket le coq a besoin d'un coup de main pour lire son horloge à aiguilles ! Quand la grande aiguille pointe sur le 4, cela fait 20 minutes : votre enfant lit alors « 3 h 20 » et touche l'heure écrite qui correspond. Tout se passe directement dans le navigateur, sans installation.",
-        "Pour lire l'heure au cinq minutes près, on compte les minutes de 5 en 5 tout autour du cadran : 5, 10, 15, 20, 25… Votre enfant s'entraîne à repérer où pointe la grande aiguille, à lire les minutes exactes et à associer l'horloge à aiguilles à l'heure écrite. Les repères « et quart » et « et demie » existent, mais ici on se concentre sur la lecture des minutes précises.",
-        "L'activité se joue sans chrono et sans points : votre enfant avance à son rythme, autant de fois qu'il le souhaite. Elle accompagne « les programmes officiels » dans le domaine « Grandeurs et mesures »."
+        "Lire l’heure de 5 en 5 minutes, c’est lire deux choses : les minutes disent jusqu’où la grande aiguille a tourné depuis le 12, cinq pour chaque nombre, et l’heure est le nombre où se trouve la petite aiguille, ou celui qu’elle a déjà dépassé. L’horloge de Sprocket fait des minutes quelque chose qu’un enfant peut construire. Un petit chemin de fer fait le tour du cadran à l’intérieur, et chaque wagon mesure exactement l’écart entre deux nombres : cinq minutes.",
+        "L’enfant touche le tunnel au 12 pour faire sortir les wagons un par un. Chaque nouveau wagon s’accroche derrière le précédent et allume son nombre sur le toit : le train compte 5, 10, 15. La grande aiguille est une barrière de passage à niveau : le train ne peut pas la dépasser, donc le nombre sur le dernier toit, ce sont les minutes. Ensuite, l’enfant écrit l’heure sur une carte numérique, dans des cases vides : l’heure et les minutes. Une mauvaise réponse montre sa propre erreur. Des minutes comme 04 font un train qui ne fait même pas un wagon. Lire l’heure suivante (5 h 55 pour 4 h 55) fait terminer son tour au train avec des wagons pâles : la petite aiguille n’atteint le nombre suivant que quand l’anneau se ferme. Toute autre mauvaise heure entoure la petite aiguille. Après une deuxième erreur, le bon train se construit avec un point d’interrogation sur le dernier toit, et le nombre que la petite aiguille a dépassé passe en gras.",
+        "Il y a deux niveaux : les quarts d’heure, puis les minutes de 5 en 5. Un réglage affiche ou cache les nombres sur les toits, pour que les enfants comptent eux-mêmes les wagons de 5 en 5. Une fois l’heure lue, le train devient un jouet : chaque wagon fait avancer l’horloge de cinq minutes, et quand le douzième ferme l’anneau, la petite aiguille passe au nombre suivant. L’activité suit les programmes officiels, dans le domaine Grandeurs et mesures : lire l’heure sur une horloge à aiguilles. Elle fonctionne sans son, sans chronomètre et sans score."
       ],
       "practices": [
-        "Lire l'heure de 5 en 5, au cinq minutes près",
-        "Compter les minutes de 5 en 5 sur le cadran",
-        "Associer l'horloge à aiguilles à l'heure écrite",
-        "Lire des heures comme « 3 h 20 » ou « 10 h 40 »"
+        "Lire les minutes en comptant de 5 en 5 depuis le 12",
+        "Lire l’heure au nombre où se trouve la petite aiguille ou qu’elle a dépassé",
+        "Lire et quart, et demie, moins le quart",
+        "Écrire une heure sur une carte numérique"
       ],
       "howToPlay": [
-        "Regarde l'horloge à aiguilles de Sprocket",
-        "Compte les minutes de 5 en 5 autour du cadran",
-        "Touche l'heure écrite qui correspond"
+        "Touche le tunnel ou + pour faire sortir des wagons jusqu’à la grande aiguille ; − fait rentrer le dernier.",
+        "Touche la case des heures et la case des minutes, écris l’heure avec le pavé de chiffres, puis appuie sur Vérifier.",
+        "Dans les réglages, choisis les heures (quarts d’heure ou minutes de 5 en 5) et si les toits montrent leurs nombres."
       ],
       "learningGoals": [
-        "Votre enfant lit l'heure au cinq minutes près sur une horloge à aiguilles",
-        "Votre enfant compte les minutes de 5 en 5 pour trouver l'heure exacte",
-        "Votre enfant relie l'horloge à aiguilles à l'heure écrite comme « 7 h 05 »"
+        "Lire et écrire l’heure sur une horloge à aiguilles, à cinq minutes près.",
+        "Compter de 5 en 5 depuis le 12 pour trouver les minutes.",
+        "Savoir que l’heure est le nombre que la petite aiguille a dépassé, même quand elle arrive presque au suivant."
       ]
     },
     "clock-digital.read-quarter-hour.2-md-c-7": {

@@ -4589,6 +4589,29 @@
         "Leer la hora en la manecilla corta y los minutos en la manecilla larga.",
         "Saber que a la media hora la manecilla corta está a la mitad entre dos números."
       ]
+    },
+    "clock-digital.read-five-minute.2-md-c-7": {
+      "about": [
+        "Leer el reloj de 5 en 5 minutos es leer dos cosas: los minutos dicen cuánto ha avanzado la manecilla larga desde el 12, cinco por cada número, y la hora es el número en el que está la manecilla corta o el que ya pasó. El reloj de Sprocket convierte los minutos en algo que un niño puede construir. Un trenecito de juguete recorre el borde del reloj por dentro, y cada vagón mide exactamente lo que hay entre dos números: cinco minutos.",
+        "El niño toca el túnel del 12 para sacar los vagones uno por uno. Cada vagón nuevo se engancha detrás del anterior y enciende su número en el techo, así el tren cuenta 5, 10, 15. La manecilla larga es una barrera de paso a nivel: el tren no puede pasarla, así que el número del último techo son los minutos. Luego el niño escribe la hora en una tarjeta digital, en casillas vacías: la hora y los minutos. Una respuesta equivocada muestra su propio error. Unos minutos como 04 forman un tren que ni siquiera mide un vagón. Leer la hora siguiente (5:55 en vez de 4:55) hace que el tren termine su vuelta con vagones pálidos: la manecilla corta solo llega al siguiente número cuando se cierra el anillo. Cualquier otra hora equivocada marca la manecilla corta con un contorno. Tras un segundo error, se arma el tren correcto con un signo de interrogación en el último techo, y el número que la manecilla corta ya pasó se pone en negrita.",
+        "Hay dos niveles: cuartos de hora y luego de 5 en 5 minutos. Un ajuste muestra u oculta los números de los techos, para que los niños cuenten los vagones de 5 en 5 por su cuenta. Cuando ya se leyó una hora, el tren se vuelve un juguete: cada vagón adelanta el reloj cinco minutos y, cuando el duodécimo cierra el anillo, la manecilla corta pasa al siguiente número. La actividad sigue los planes y programas de la SEP, en el campo formativo Saberes y pensamiento científico: leer la hora en relojes de manecillas. Funciona sin sonido, sin cronómetro y sin puntos."
+      ],
+      "practices": [
+        "Leer los minutos contando de 5 en 5 desde el 12",
+        "Leer la hora en el número en el que está la manecilla corta o que ya pasó",
+        "Leer y cuarto, y media, cuarto para",
+        "Escribir una hora en una tarjeta digital"
+      ],
+      "howToPlay": [
+        "Toca el túnel o + para sacar vagones hasta llegar a la manecilla larga; − regresa el último.",
+        "Toca la casilla de la hora y la de los minutos, escribe la hora con el teclado de números y presiona Revisar.",
+        "En los ajustes, elige las horas (cuartos de hora o de 5 en 5 minutos) y si los techos muestran sus números."
+      ],
+      "learningGoals": [
+        "Leer y escribir la hora en relojes de manecillas, de 5 en 5 minutos.",
+        "Contar de 5 en 5 desde el 12 para encontrar los minutos.",
+        "Saber que la hora es el número que la manecilla corta ya pasó, aunque casi llegue al siguiente."
+      ]
     }
   }
 }

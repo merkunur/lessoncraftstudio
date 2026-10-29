@@ -4566,6 +4566,29 @@
         "Leggere l’ora sulla lancetta corta e i minuti sulla lancetta lunga.",
         "Sapere che alla mezz’ora la lancetta corta è a metà tra due numeri."
       ]
+    },
+    "clock-digital.read-five-minute.2-md-c-7": {
+      "about": [
+        "Leggere l’orologio di 5 in 5 minuti vuol dire leggere due cose: i minuti dicono quanto la lancetta lunga ha girato dal 12, cinque per ogni numero, e l’ora è il numero su cui si trova la lancetta corta o quello che ha già superato. L’orologio di Sprocket trasforma i minuti in qualcosa che il bambino può costruire. Un trenino giocattolo corre lungo il bordo interno del quadrante, e ogni vagone è lungo esattamente quanto lo spazio tra due numeri: cinque minuti.",
+        "Il bambino tocca la galleria sul 12 per far uscire i vagoni uno alla volta. Ogni vagone nuovo si aggancia dietro il precedente e accende il suo numero sul tetto, così il treno conta 5, 10, 15. La lancetta lunga è la sbarra di un passaggio a livello: il treno non può superarla, quindi il numero sull’ultimo tetto sono i minuti. Poi il bambino scrive l’ora su un cartellino digitale, in caselle vuote: le ore e i minuti. Una risposta sbagliata mostra il proprio errore. Minuti come 04 formano un treno che non è lungo nemmeno un vagone. Leggere l’ora dopo (5:55 invece di 4:55) fa finire il giro al treno con vagoni chiari: la lancetta corta arriva al numero dopo solo quando l’anello si chiude. Ogni altra ora sbagliata contorna la lancetta corta. Dopo un secondo errore si forma il treno giusto con un punto di domanda sull’ultimo tetto, e il numero che la lancetta corta ha superato compare in grassetto.",
+        "Ci sono due livelli: i quarti d’ora e poi i minuti di 5 in 5. Un’impostazione mostra o nasconde i numeri sui tetti, così i bambini contano da soli i vagoni di 5 in 5. Quando un’ora è stata letta, il treno diventa un giocattolo: ogni vagone fa avanzare l’orologio di cinque minuti e, quando il dodicesimo chiude l’anello, la lancetta corta passa al numero dopo. L’attività è in linea con le Indicazioni nazionali, nel nucleo Relazioni, dati e previsioni: leggere l’ora su un orologio a lancette. Funziona senza audio, senza cronometro e senza punteggio."
+      ],
+      "practices": [
+        "Leggere i minuti contando di 5 in 5 dal 12",
+        "Leggere l’ora dal numero su cui si trova la lancetta corta o che ha superato",
+        "Leggere e un quarto, e mezza, meno un quarto",
+        "Scrivere un orario su un cartellino digitale"
+      ],
+      "howToPlay": [
+        "Tocca la galleria o + per far uscire i vagoni finché il treno arriva alla lancetta lunga; − fa rientrare l’ultimo.",
+        "Tocca la casella delle ore e quella dei minuti, scrivi l’ora con la tastiera dei numeri e premi Controlla.",
+        "Nelle impostazioni scegli gli orari (quarti d’ora o minuti di 5 in 5) e se i tetti mostrano i numeri."
+      ],
+      "learningGoals": [
+        "Leggere e scrivere l’ora su un orologio a lancette, di 5 in 5 minuti.",
+        "Contare di 5 in 5 dal 12 per trovare i minuti.",
+        "Sapere che l’ora è il numero che la lancetta corta ha superato, anche quando è quasi arrivata al successivo."
+      ]
     }
   }
 }

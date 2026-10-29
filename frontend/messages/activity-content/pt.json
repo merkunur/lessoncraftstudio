@@ -4590,6 +4590,29 @@
         "Ler a hora no ponteiro pequeno e os minutos no ponteiro grande.",
         "Saber que, na meia hora, o ponteiro pequeno fica no meio entre dois números."
       ]
+    },
+    "clock-digital.read-five-minute.2-md-c-7": {
+      "about": [
+        "Ler as horas de 5 em 5 minutos é ler duas coisas: os minutos dizem quanto o ponteiro grande já andou a partir do 12, cinco para cada número, e a hora é o número em que o ponteiro pequeno está ou pelo qual ele já passou. O relógio do Sprocket transforma os minutos em algo que a criança pode montar. Um trenzinho de brinquedo corre por dentro da borda do relógio, e cada vagão tem exatamente o tamanho do espaço entre dois números: cinco minutos.",
+        "A criança toca no túnel do 12 para soltar os vagões um por um. Cada vagão novo se engata atrás do anterior e acende o número no teto, e assim o trem conta 5, 10, 15. O ponteiro grande é uma cancela de passagem de nível: o trem não pode passar dele, então o número do último teto são os minutos. Depois a criança escreve a hora num cartão digital, em caixas vazias: a hora e os minutos. Uma resposta errada mostra o próprio erro. Minutos como 04 formam um trem que não tem nem um vagão inteiro. Ler a hora seguinte (5:55 em vez de 4:55) faz o trem terminar a volta com vagões claros: o ponteiro pequeno só chega ao próximo número quando o anel se fecha. Com qualquer outra hora errada, o ponteiro pequeno ganha um contorno. Depois de um segundo erro, o trem certo é montado com um ponto de interrogação no último teto, e o número pelo qual o ponteiro pequeno já passou fica em negrito.",
+        "Há dois níveis: quartos de hora e depois de 5 em 5 minutos. Um ajuste mostra ou esconde os números dos tetos, para a criança contar os vagões de 5 em 5 sozinha. Depois que a hora é lida, o trem vira brinquedo: cada vagão adianta o relógio cinco minutos e, quando o décimo segundo fecha o anel, o ponteiro pequeno passa para o próximo número. A atividade está alinhada à BNCC, na unidade temática Grandezas e medidas: ler horas em relógios de ponteiros. Funciona sem som, sem cronômetro e sem pontuação."
+      ],
+      "practices": [
+        "Ler os minutos contando de 5 em 5 a partir do 12",
+        "Ler a hora no número em que o ponteiro pequeno está ou pelo qual já passou",
+        "Ler e quinze, e meia, quinze para",
+        "Escrever uma hora num cartão digital"
+      ],
+      "howToPlay": [
+        "Toque no túnel ou no + para soltar vagões até o trem chegar ao ponteiro grande; o − manda o último de volta.",
+        "Toque na caixa da hora e na dos minutos, escreva a hora com o teclado de números e aperte Conferir.",
+        "Nos ajustes, escolha as horas (quartos de hora ou de 5 em 5 minutos) e se os tetos mostram os números."
+      ],
+      "learningGoals": [
+        "Ler e escrever horas em relógios de ponteiros, de 5 em 5 minutos.",
+        "Contar de 5 em 5 a partir do 12 para achar os minutos.",
+        "Saber que a hora é o número pelo qual o ponteiro pequeno já passou, mesmo quando ele quase chega ao próximo."
+      ]
     }
   }
 }

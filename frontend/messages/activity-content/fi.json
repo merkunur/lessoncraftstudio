@@ -3877,6 +3877,29 @@
         "Tunnin lukeminen lyhyestä viisarista ja minuuttien lukeminen pitkästä viisarista.",
         "Tietää, että lyhyt viisari on kahden numeron puolivälissä, kun pitkä viisari on numeron 6 kohdalla."
       ]
+    },
+    "clock-digital.read-five-minute.2-md-c-7": {
+      "about": [
+        "Kellon lukeminen viiden minuutin tarkkuudella on kahden asian lukemista: minuutit kertovat, kuinka pitkälle pitkä viisari on kiertänyt numerosta 12, viisi jokaista numeroa kohden, ja tunti on se numero, jonka kohdalla lyhyt viisari on tai jonka se on jo ohittanut. Sprocketin kello tekee minuuteista jotain, minkä lapsi voi rakentaa. Lelujuna kulkee kellotaulun reunaa pitkin sisäpuolella, ja jokainen vaunu on tasan kahden numeron välin mittainen: viisi minuuttia.",
+        "Lapsi napauttaa tunnelia numeron 12 kohdalla, ja vaunut lähtevät liikkeelle yksi kerrallaan. Jokainen uusi vaunu kytkeytyy edellisen perään ja sytyttää katollaan numeronsa, joten juna laskee 5, 10, 15. Pitkä viisari on tasoristeyksen puomi: juna ei pääse sen ohi, joten viimeisen katon numero kertoo minuutit. Sitten lapsi kirjoittaa ajan digitaaliseen korttiin tyhjiin ruutuihin: tunnit ja minuutit. Väärä vastaus näyttää oman virheensä. Minuutit kuten 04 tekevät junan, joka ei ole edes yhden vaunun mittainen. Jos lapsi lukee seuraavan tunnin (5.55, vaikka kello on 4.55), juna ajaa kierroksensa loppuun vaaleilla vaunuilla: lyhyt viisari pääsee seuraavaan numeroon vasta, kun rengas sulkeutuu. Jos tunti on muuten väärin, lyhyt viisari saa ääriviivan. Toisen virheen jälkeen oikea juna rakentuu, ja sen viimeisessä katossa on kysymysmerkki, ja numero, jonka lyhyt viisari on ohittanut, lihavoituu.",
+        "Tasoja on kaksi: vartit ja sitten viiden minuutin ajat. Asetuksesta kattojen numerot näkyvät tai ovat piilossa, jolloin lapset laskevat vaunut itse viisi kerrallaan. Kun aika on luettu, junasta tulee lelu: jokainen vaunu siirtää kelloa viisi minuuttia eteenpäin, ja kun kahdestoista sulkee renkaan, lyhyt viisari siirtyy seuraavaan numeroon. Tehtävä tukee OPS 2014 -tavoitteita mittaamisessa: ajan lukeminen viisarikellosta. Se toimii ilman ääntä, eikä siinä ole ajanottoa tai pisteitä."
+      ],
+      "practices": [
+        "Minuuttien lukeminen laskemalla viisi kerrallaan numerosta 12",
+        "Tunnin lukeminen numerosta, jonka kohdalla lyhyt viisari on tai jonka se on ohittanut",
+        "Varttia yli, puoli ja varttia vaille",
+        "Ajan kirjoittaminen digitaaliseen korttiin"
+      ],
+      "howToPlay": [
+        "Napauta tunnelia tai +-painiketta, niin vaunuja lähtee, kunnes juna on pitkän viisarin kohdalla; − lähettää viimeisen takaisin.",
+        "Napauta tuntiruutua ja minuuttiruutua, kirjoita aika numeronäppäimillä ja paina Tarkista.",
+        "Valitse asetuksista ajat (vartit tai viiden minuutin ajat) ja näkyvätkö katoissa numerot."
+      ],
+      "learningGoals": [
+        "Ajan lukeminen ja kirjoittaminen viisarikellosta viiden minuutin tarkkuudella.",
+        "Minuuttien löytäminen laskemalla viisi kerrallaan numerosta 12.",
+        "Tietää, että tunti on se numero, jonka lyhyt viisari on ohittanut, vaikka se olisi melkein seuraavan kohdalla."
+      ]
     }
   }
 }

@@ -4174,6 +4174,29 @@
         "Läsa timmen på lilla visaren och minuterna på stora visaren.",
         "Veta att lilla visaren står mitt emellan två siffror när stora visaren står på 6:an."
       ]
+    },
+    "clock-digital.read-five-minute.2-md-c-7": {
+      "about": [
+        "Att läsa klockan på fem minuter när är att läsa två saker: minuterna säger hur långt stora visaren har gått från 12:an, fem för varje siffra, och timmen är den siffra som lilla visaren står på eller redan har passerat. Tores klocka gör minuterna till något barnet kan bygga. Ett leksakståg kör runt på insidan av urtavlan, och varje vagn är exakt lika lång som avståndet mellan två siffror: fem minuter.",
+        "Barnet trycker på tunneln vid 12:an för att skicka ut vagnarna en i taget. Varje ny vagn kopplas på bakom den förra och tänder sin siffra på taket, så tåget räknar 5, 10, 15. Stora visaren är en järnvägsbom: tåget kan inte åka förbi den, så siffran på det sista taket är minuterna. Sedan skriver barnet tiden på ett digitalt kort, i tomma rutor: timmen och minuterna. Ett fel svar visar sitt eget misstag. Minuter som 04 ger ett tåg som inte ens är en vagn långt. Den som läser nästa timme (5.55 i stället för 4.55) ser tåget köra klart varvet med bleka vagnar: lilla visaren kommer fram till nästa siffra först när ringen sluts. Alla andra fel timmar ringar in lilla visaren. Efter ett andra fel byggs det rätta tåget med ett frågetecken på det sista taket, och siffran som lilla visaren har passerat blir fet.",
+        "Det finns två nivåer: kvartar och sedan var femte minut. En inställning visar eller döljer siffrorna på taken, så att barnen själva räknar vagnarna med fem i taget. När en tid är läst blir tåget en leksak: varje vagn skjuter klockan fem minuter framåt, och när den tolfte sluter ringen flyttar sig lilla visaren till nästa siffra. Aktiviteten följer Lgr22, centralt innehåll om mätning och tid: att läsa av en klocka med visare. Den fungerar utan ljud, och det finns ingen tidtagning och inga poäng."
+      ],
+      "practices": [
+        "Läsa minuterna genom att räkna med fem i taget från 12:an",
+        "Läsa timmen på siffran som lilla visaren står på eller har passerat",
+        "Läsa kvart över, halv och kvart i",
+        "Skriva en tid på ett digitalt kort"
+      ],
+      "howToPlay": [
+        "Tryck på tunneln eller + för att skicka ut vagnar tills tåget når stora visaren; − skickar tillbaka den sista.",
+        "Tryck på rutan för timmen och rutan för minuterna, skriv tiden med sifferknapparna och tryck på Kolla.",
+        "I inställningarna väljer du tiderna (kvartar eller var femte minut) och om taken visar sina siffror."
+      ],
+      "learningGoals": [
+        "Läsa av och skriva tiden på en klocka med visare med fem minuters noggrannhet.",
+        "Räkna med fem i taget från 12:an för att hitta minuterna.",
+        "Veta att timmen är den siffra som lilla visaren har passerat, även när den nästan är framme vid nästa."
+      ]
     }
   }
 }

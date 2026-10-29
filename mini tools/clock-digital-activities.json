@@ -35,8 +35,8 @@
   },
   {
     "id": "clock-digital.read-five-minute.2-md-c-7",
-    "tool": "clock-digital-activity",
-    "task_template": "read-time",
+    "tool": "minute-train-activity",
+    "task_template": "minute-train",
     "alignment": { "framework": "CCSS", "code": "2.MD.C.7", "grade": "2", "strand": "Measurement & Data" },
     "theme": null,
     "params": {
@@ -55,15 +55,42 @@
     },
     "slug": {
       "en": "read-clock-to-the-five-minute",
-      "fr": "lire-lheure-de-5-en-5-ce2"
+      "fr": "lire-lheure-de-5-en-5-ce2",
+      "de": "uhr-lesen-in-5-minuten-schritten-klasse-2",
+      "es": "leer-el-reloj-de-5-en-5-minutos-segundo-grado",
+      "pt": "ler-as-horas-de-5-em-5-minutos-2-ano",
+      "it": "leggere-l-orologio-di-5-in-5-minuti-classe-seconda",
+      "nl": "klokkijken-per-5-minuten-groep-4",
+      "sv": "lasa-klockan-pa-fem-minuter-nar-ak-2",
+      "da": "laes-uret-paa-fem-minutter-2-klasse",
+      "no": "les-klokka-pa-fem-minutter-naer-2-trinn",
+      "fi": "kellonaika-viiden-minuutin-tarkkuudella-2-luokka"
     },
     "page_title": {
       "en": "Sprocket's Clock — Read the Clock to Five Minutes (Grade 2)",
-      "fr": "L'horloge de Sprocket — Lire l'heure de 5 en 5 (CE2)"
+      "fr": "L'horloge de Sprocket — Lire l'heure de 5 en 5 (CE2)",
+      "de": "Uhr lesen in 5-Minuten-Schritten – Klasse 2 | Sprockets Uhr",
+      "es": "Leer el reloj de 5 en 5 minutos (2.º grado de primaria)",
+      "pt": "Ler as horas de 5 em 5 minutos — 2º ano",
+      "it": "Leggere l’orologio di 5 in 5 minuti – classe seconda",
+      "nl": "Klokkijken per 5 minuten – groep 4",
+      "sv": "Tores klocka – läs klockan på fem minuter när (åk 2)",
+      "da": "Sprockets ur – læs uret på fem minutter nær (2. klasse)",
+      "no": "Sprockets klokke – les klokka på fem minutter nær (2. trinn)",
+      "fi": "Sprocketin kello – kellonaika viiden minuutin tarkkuudella (2. lk)"
     },
     "page_intro": {
       "en": "An interactive Grade 2 time activity: read an analog clock to the nearest five minutes, then tap the matching digital time. Children learn to count by fives around the clock — the long hand on the 4 means 20 minutes, on the 7 means 35 — and to read times like 3:20 and 7:05. Sprocket the rooster cheers them on. Common Core 2.MD.C.7.",
-      "fr": "Avec Sprocket le coq, votre enfant apprend à lire l'heure de 5 en 5 : il compte les minutes autour du cadran et lit des heures comme « 3 h 20 » ou « 7 h 05 ». Activité interactive, CE2, « Grandeurs et mesures »."
+      "fr": "Avec Sprocket le coq, votre enfant apprend à lire l'heure de 5 en 5 : il compte les minutes autour du cadran et lit des heures comme « 3 h 20 » ou « 7 h 05 ». Activité interactive, CE2, « Grandeurs et mesures ».",
+      "de": "Ihr Kind liest eine Uhr mit Zeigern auf fünf Minuten genau. Eine kleine Eisenbahn fährt innen am Zifferblatt entlang: Jeder Wagen ist genau fünf Minuten lang, und der Zug hält am großen Zeiger – auf dem letzten Dach stehen die Minuten. Die Stunde ist die Zahl, auf der der kleine Zeiger steht oder an der er schon vorbei ist. Ihr Kind schreibt die Uhrzeit selbst auf die Karte. Viertelstunden und 5-Minuten-Schritte. Interaktiv, Klasse 2, passend zum Lehrplan.",
+      "es": "Tu hijo lee un reloj de manecillas de 5 en 5 minutos. Un trenecito recorre el borde del reloj por dentro: cada vagón mide exactamente cinco minutos, y el tren se detiene en la manecilla larga; el último techo dice los minutos. La hora es el número en el que está la manecilla corta o el que ya pasó. Tu hijo escribe la hora en la tarjeta. Cuartos de hora y de 5 en 5 minutos. Actividad interactiva de segundo grado, alineada con los programas de la SEP.",
+      "pt": "A criança lê um relógio de ponteiros de 5 em 5 minutos. Um trenzinho corre por dentro da borda do relógio: cada vagão vale exatamente cinco minutos, e o trem para no ponteiro grande; o último teto mostra os minutos. A hora é o número em que o ponteiro pequeno está ou pelo qual ele já passou. A própria criança escreve a hora no cartão. Quartos de hora e de 5 em 5 minutos. Atividade interativa para o 2º ano, alinhada à BNCC.",
+      "it": "Il bambino legge un orologio a lancette di 5 in 5 minuti. Un trenino corre lungo il bordo del quadrante: ogni vagone vale esattamente cinque minuti, e il treno si ferma alla lancetta lunga; l’ultimo tetto dice i minuti. L’ora è il numero su cui si trova la lancetta corta o quello che ha già superato. Il bambino scrive l’ora sul cartellino. Quarti d’ora e minuti di 5 in 5. Attività interattiva per la classe seconda, in linea con le Indicazioni nazionali.",
+      "nl": "Je kind leest een wijzerklok per 5 minuten. Een treintje rijdt aan de binnenkant langs de wijzerplaat: elke wagon is precies vijf minuten lang, en de trein stopt bij de grote wijzer; op het laatste dak staan de minuten. Het uur is het getal waar de kleine wijzer op staat of al voorbij is. Je kind schrijft de tijd zelf op de kaart. Kwartieren en tijden per 5 minuten. Interactief, groep 4, passend bij de kerndoelen.",
+      "sv": "Barnet läser en klocka med visare på fem minuter när. Ett litet tåg kör runt på insidan av urtavlan: varje vagn är exakt fem minuter lång, och tåget stannar vid stora visaren – på det sista taket står minuterna. Timmen är den siffra som lilla visaren står på eller redan har passerat. Barnet skriver själv tiden på kortet. Kvartar och var femte minut. Interaktivt, åk 2, i linje med Lgr22.",
+      "da": "Barnet læser et ur med visere på fem minutter nær. Et lille tog kører rundt på indersiden af urskiven: hver vogn er præcis fem minutter lang, og toget stopper ved den store viser – på det sidste tag står minutterne. Timen er det tal, den lille viser står på eller allerede er gået forbi. Barnet skriver selv klokkeslættet på kortet. Kvarterer og hvert femte minut. Interaktivt, 2. klasse, i tråd med Fælles Mål.",
+      "no": "Barnet leser en klokke med visere på fem minutter nær. Et lite tog kjører rundt på innsiden av urskiva: hver vogn er nøyaktig fem minutter lang, og toget stopper ved den store viseren – på det siste taket står minuttene. Timen er tallet den lille viseren står på eller allerede har passert. Barnet skriver selv klokkeslettet på kortet. Kvarter og hvert femte minutt. Interaktivt, 2. trinn, i tråd med LK20.",
+      "fi": "Lapsi lukee viisarikellon viiden minuutin tarkkuudella. Pieni juna kulkee kellotaulun reunaa pitkin: jokainen vaunu on tasan viiden minuutin mittainen, ja juna pysähtyy pitkän viisarin kohdalle – viimeisessä katossa lukee minuutit. Tunti on se numero, jonka kohdalla lyhyt viisari on tai jonka se on jo ohittanut. Lapsi kirjoittaa ajan itse korttiin. Vartit ja viiden minuutin ajat. Interaktiivinen, 2. luokka, perusopetuksen opetussuunnitelman (OPS 2014) mukainen."
     },
     "kid_prompt_template": "clock-digital"
   },

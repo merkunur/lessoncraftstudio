@@ -3878,6 +3878,29 @@
         "Aflæse timen på den lille viser og minutterne på den store viser.",
         "Vide, at den lille viser står midt mellem to tal, når den store viser står på 6-tallet."
       ]
+    },
+    "clock-digital.read-five-minute.2-md-c-7": {
+      "about": [
+        "At læse uret på fem minutter nær er at læse to ting: minutterne siger, hvor langt den store viser er gået rundt fra 12-tallet, fem for hvert tal, og timen er det tal, den lille viser står på eller allerede er gået forbi. Sprockets ur gør minutterne til noget, et barn kan bygge. Et legetøjstog kører rundt på indersiden af urskiven, og hver vogn er præcis lige så lang som afstanden mellem to tal: fem minutter.",
+        "Barnet trykker på tunnelen ved 12-tallet for at sende vognene ud én ad gangen. Hver ny vogn kobles på bag den forrige og tænder sit tal på taget, så toget tæller 5, 10, 15. Den store viser er en jernbanebom: toget kan ikke køre forbi den, så tallet på det sidste tag er minutterne. Bagefter skriver barnet klokkeslættet på et digitalt kort, i tomme felter: timen og minutterne. Et forkert svar viser sin egen fejl. Minutter som 04 giver et tog, der ikke engang er én vogn langt. Hvis barnet læser den næste time (5.55 i stedet for 4.55), kører toget runden færdig med blege vogne: den lille viser når først det næste tal, når ringen er lukket. Alle andre forkerte timer får en kant om den lille viser. Efter en anden fejl bygges det rigtige tog med et spørgsmålstegn på det sidste tag, og det tal, den lille viser er gået forbi, bliver fedt.",
+        "Der er to niveauer: kvarterer og derefter hvert femte minut. En indstilling viser eller skjuler tallene på tagene, så børnene selv tæller vognene fem ad gangen. Når et klokkeslæt er læst, bliver toget legetøj: hver vogn skubber uret fem minutter frem, og når den tolvte lukker ringen, rykker den lille viser til det næste tal. Aktiviteten er i tråd med Fælles Mål for måling: at aflæse et ur med visere. Den virker uden lyd, og der er ingen tidtagning og ingen point."
+      ],
+      "practices": [
+        "Aflæse minutterne ved at tælle fem ad gangen fra 12-tallet",
+        "Aflæse timen ved det tal, den lille viser står på eller er gået forbi",
+        "Aflæse kvart over, halv og kvart i",
+        "Skrive et klokkeslæt på et digitalt kort"
+      ],
+      "howToPlay": [
+        "Tryk på tunnelen eller + for at sende vogne ud, til toget når den store viser; − sender den sidste tilbage.",
+        "Tryk på feltet til timen og feltet til minutterne, skriv klokkeslættet med taltasterne, og tryk på Tjek.",
+        "I indstillingerne vælger du klokkeslæt (kvarterer eller hvert femte minut), og om tagene viser deres tal."
+      ],
+      "learningGoals": [
+        "Aflæse og skrive klokkeslæt på et ur med visere med fem minutters nøjagtighed.",
+        "Tælle fem ad gangen fra 12-tallet for at finde minutterne.",
+        "Vide, at timen er det tal, den lille viser er gået forbi, også når den næsten er ved det næste."
+      ]
     }
   }
 }

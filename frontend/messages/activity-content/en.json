@@ -1288,25 +1288,25 @@
     },
     "clock-digital.read-five-minute.2-md-c-7": {
       "about": [
-        "An analog clock shows a time like 3:20, 7:05, 10:40, or 5:50, and the child reads the hands and taps the matching digital time from three choices. Sprocket the rooster cheers along in this interactive Grade 2 time activity about reading a clock to the nearest five minutes, all in the browser with no sign-up.",
-        "The skill it builds is counting by fives around the clock: the long hand on the 4 means 20 minutes, on the 7 means 35, on the 11 means 55. The wrong choices sit just five minutes on either side of the right time, so a child cannot estimate — they have to land on the exact five-minute mark. Reading the short hand for the hour and counting the long hand by fives together is what makes times like 7:05 and 10:40 readable.",
-        "It is aligned to Common Core 2.MD.C.7 — telling and writing time from analog clocks to the nearest five minutes. No timer, no score — just calm, playful practice."
+        "Reading a clock to five minutes means two different readings: the minutes are how far the long hand has gone round from the 12, five for every number, and the hour is the number the short hand is on or has already passed. Sprocket's Clock turns the minutes into something a child can build. A toy railway runs round the inside of the rim, and every carriage is exactly one number-gap long: five minutes.",
+        "The child taps the tunnel at the 12 to send carriages out one by one. Each new carriage couples behind the last and lights its roof number, so the train counts 5, 10, 15. The long hand is a level-crossing barrier: the train cannot go past it, so the number on the last roof is the minutes. Then the child writes the time on a digital card, hour and minutes, from empty boxes. A wrong answer shows its own mistake. Minutes like 04 make a train that is not even one carriage long. Reading the next hour (5:55 for 4:55) makes the train finish its lap in pale carriages: the short hand only reaches the next number when the ring closes. Any other wrong hour outlines the short hand. After a second miss, the right train is built with a question mark on its last roof, and the number the short hand has passed turns bold.",
+        "There are two levels: quarter hours, then five-minute times. A setting shows or hides the numbers on the roofs, so children can count the carriages by fives themselves. Once a time is read, the train becomes a toy: every carriage pushes the clock on five minutes, and when the twelfth closes the ring, the short hand steps to the next number. It follows Common Core 2.MD.C.7 (tell and write time from analog and digital clocks to the nearest five minutes). It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Counting the minutes by fives around the clock face",
-        "Reading the hour hand and the minute hand together",
-        "Matching the time on the clock to the right digital time",
-        "Landing on the exact five-minute mark instead of estimating"
+        "Read the minutes by counting fives from the 12",
+        "Read the hour from the number the short hand is on or has passed",
+        "Read quarter past, half past and quarter to",
+        "Write a clock time on a digital card"
       ],
       "howToPlay": [
-        "Look at the clock and read the hour from the short hand and the minutes by counting the long hand in fives.",
-        "Tap the digital time that matches, then check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Tap the tunnel or + to send out carriages until the train reaches the long hand; − sends the last one back.",
+        "Tap the hour box and the minute box and write the time with the number pad, then press Check.",
+        "In the settings, choose the times (quarter hours or five minutes) and whether the roofs show their numbers."
       ],
       "learningGoals": [
-        "Read an analog clock to the nearest five minutes — the focus of Common Core 2.MD.C.7.",
-        "Count minutes by fives and combine them with the hour to read times like 3:20 and 7:05.",
-        "Build the clock-reading fluency that telling time in everyday life depends on."
+        "Tell and write time from analog clocks to the nearest five minutes (Common Core 2.MD.C.7).",
+        "Count by fives from the 12 to find the minutes.",
+        "Know that the hour is the number the short hand has passed, even when it is nearly at the next one."
       ]
     },
     "clock-digital.read-half-hour.1-md-b-3": {

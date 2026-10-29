@@ -56,3 +56,8 @@ ORDER row 160 · id `clock-digital.match-clocks.2-md-c-7` (kept). Design: `desig
   - `local-test-drive-cables.js` 1,705/0 in 11 locales: real taps, real drags and the keyboard, plus 4 states × 8 widths.
   - visual-qa 192 renders each in en/fi/de/sv; hierarchy 386/0; settings efficacy 2 live.
 - **Content:** prose claims, SERP copy, content tells, next delay and preflight routes all pass.
+
+## Live (2026-10-29, commit 53dcc21f3)
+- **`live-verify-drive-cables.js` 61/1, then Finnish alone 26/0.** It plugs real taps on production in en/de/sv/fi at 1366 and 390 px.
+- **The one failure was the harness, not the site.** fi @390 is always the eighth page opened in one browser, and opening it there failed to find the iframe. The same page in a fresh browser, and `--locales=fi`, pass. The script now takes `--locales`.
+- **#157 Hopper** live-verified 60/0 with the fixes served (`landing-pad-activity.js?v=2`).

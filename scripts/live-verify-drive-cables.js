@@ -24,7 +24,7 @@ const WRAPPER = H.WRAPPER();
   const { is } = V.C;
   is(Object.keys(ROW.slug).length === 11, 'the row ships in all 11 locales');
   for (const loc of Object.keys(ROW.slug)) { const s = await V.status(`https://www.lessoncraftstudio.com/${loc}/activities/${ROW.slug[loc]}`); is(s === 200, `[${loc}] /${loc}/activities/${ROW.slug[loc]} → ${s}`); }
-  for (const loc of ['en', 'de', 'sv', 'fi']) for (const w of [1366, 390]) {
+  for (const loc of H.arg('locales', 'en,de,sv,fi').split(',')) for (const w of [1366, 390]) {
     const tag = `[${loc} @${w}]`;
     const o = await V.open(`https://www.lessoncraftstudio.com/${loc}/activities/${ROW.slug[loc]}`, w);
     is(!!o.frameEl, tag + ' the page embeds drive-cables-activity.html');

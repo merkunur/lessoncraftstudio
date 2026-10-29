@@ -308,3 +308,7 @@ docs/audit-results/**/*.gif
 # Generator renders and big audit dumps: regenerable, never committed (operator 2026-10-29)
 scripts/worksheet-gen/*.png
 docs/audit-results/seo-100pct-*.json
+
+# Backup copies never live in git (operator 2026-10-29): the PC archive holds old versions
+*.bak-*
+*.bak

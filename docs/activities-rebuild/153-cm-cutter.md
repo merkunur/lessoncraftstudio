@@ -54,3 +54,10 @@ Fixed at the source:
 - `audit-settings-efficacy`: 2 live.
 - Also passing: content ×11 (including the new sv / da / no / fi pages), prose claims, SERP, tells, preflight, next-delay.
 - I read the 360 / 768 / 1024 renders myself.
+
+## Live
+Deployed 2026-10-29 (commit `4c042a44`; mini-tools and the manifest copied before `deploy.sh`; preview scp'd). `live-verify-cm-cutter.js`: **52 pass, 0 fail**.
+- All 11 pages return 200, including the four new sv / da / no / fi pages.
+- Played in en, de, sv and fi × 1366 / 390: 4 read with the 0 at 3 → the stub, 4 pieces, hintStub; the 0 slid to the strip and 7 tapped → solved with 7 pieces.
+
+The first run read Cloudflare's cached page; the rerun after the cache turned over passed. Live screenshots are written outside the repo and never committed.

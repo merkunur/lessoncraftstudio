@@ -3788,6 +3788,29 @@
         "Forstå forskjellen som den delen av den lengste lengden som den korteste ikke når.",
         "Stille lengder opp ved samme start før de sammenlignes."
       ]
+    },
+    "bram-board-shop.length-word-problems.2-md-b-5": {
+      "about": [
+        "I Brams snekkerverksted er hver bestilling en regnefortelling om lengder: et skjerf som vokser, en planke som blir saget, en hylle som er lengre enn en planke. Barnet legger fortellingens to lengder på Brams benk. Den lengste lengden i fortellingen kommer på den øverste skinnen, og bitene kommer etter hverandre på den nederste. Slik blir hver fortelling, uansett type, det samme bildet: to skinner som må slutte likt. I stativet ligger også en tredje planke – den man får hvis man bare legger sammen eller trekker fra på grunn av et ord som «lengre» eller «sager av».",
+        "Når benken er klar, skriver barnet den hemmelige planken og trykker på Sjekk. Sagen sager en planke som er akkurat så lang, og legger den på den tomme plassen, og et vater stiller seg inntil endene av de to skinnene. Slutter skinnene likt, står vateret rett og boblen ligger i midten. Ellers heller det, og gapet eller det som stikker ut, blir farget. En planke som ikke er med i fortellingen, eller en lengde på feil skinne, får et eget hint – også når tallene tilfeldigvis går opp. Etter den andre feilen viser linjalen på benken hvor den hemmelige planken starter og hvor langt den må nå, og sluttmeldingen viser likheten i fortellingens form.",
+        "Aktiviteten er knyttet til LK20 (kompetansemålene etter 2. trinn om å måle og sammenligne lengder og om å bruke addisjon og subtraksjon i problemløsing) og øver på regnefortellinger med lengder opp til 100. Den virker uten lyd, og det er verken tidtaking eller poeng."
+      ],
+      "practices": [
+        "Løse regnefortellinger med lengder der starten, endringen eller resultatet mangler",
+        "Vise en fortelling med en tegning av en linjal: helheten øverst, delene nederst",
+        "Legge sammen og trekke fra lengder i centimeter opp til 100",
+        "Ikke la seg lure av ord som «lengre», men forstå fortellingen"
+      ],
+      "howToPlay": [
+        "Les bestillingen, trykk så på en planke og på en skinne for å legge den der, eller dra den dit: den lengste lengden på den øverste skinnen, bitene på den nederste.",
+        "Skriv den hemmelige planken på tastaturet, og trykk på Sjekk. Trykk på vateret når du vil, for å teste benken.",
+        "I innstillingene velger du tall opp til 80 i femmer eller opp til 100, og om linjalen på benken vises."
+      ],
+      "learningGoals": [
+        "Løse regnefortellinger med lengder opp til 100 der det ukjente tallet kan stå hvor som helst.",
+        "Vise en fortelling om lengder som to like lange strekninger: helheten og delene etter hverandre.",
+        "Skrive likheten som passer til fortellingen, med det ukjente tallet der fortellingen setter det."
+      ]
     }
   }
 }

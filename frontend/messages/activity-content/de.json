@@ -2042,25 +2042,25 @@
     },
     "bram-board-shop.length-word-problems.2-md-b-5": {
       "about": [
-        "In Brams Bretter-Werkstatt wird gemessen, gesägt und verglichen — und genau dort darf Ihr Kind dem fleißigen Biber zur Hand gehen. Bei jeder Runde erzählt Bram eine kleine Längen-Geschichte: Zwei Bretter werden zusammengelegt, ein Stück wird abgesägt, oder es soll herausgefunden werden, um wie viele Zentimeter ein Brett länger ist als ein anderes. Ihr Kind liest die Aufgabe, legt die bekannten Längen auf dem Maßband ab und sucht die fehlende Länge.",
-        "Das Besondere: Die gesuchte Zahl steckt mal am Ende, mal mitten in der Geschichte und manchmal sogar ganz am Anfang. Mal muss man dazugeben, mal wegnehmen, mal zwei Längen vergleichen. So lernt Ihr Kind, eine Sachaufgabe wirklich zu verstehen und am Maßband sichtbar zu machen — und nicht nur eine Rechnung abzuarbeiten. Das ist gelebtes Sachrechnen mit Längen im Zahlenraum bis 100, ganz im Sinne des Lehrplans der Grundschule, Bereich „Größen und Messen“.",
-        "Es gibt keine Uhr, keine Punkte und kein Richtig-oder-falsch-Drama. Ihr Kind probiert in Ruhe, schiebt die Marke am Maßband hin und her und tippt am Ende die Länge in Zentimetern ein. Alles läuft ohne Druck — Bram freut sich über jeden Versuch, und jedes Stück Holz darf zweimal gemessen werden."
+        "In Brams Bretter-Werkstatt ist jeder Auftrag eine Rechengeschichte mit Längen: ein Schal, der wächst, ein Brett, das gesägt wird, ein Regal, das länger ist als ein Brett. Das Kind legt die zwei Längen aus der Geschichte auf Brams Werkbank. Die längste Länge der Geschichte kommt auf die obere Schiene, die Teile kommen hintereinander auf die untere. So wird jede Geschichte, egal welcher Art, zum selben Bild: zwei Schienen, die gleich enden müssen. Im Brettständer liegt außerdem ein drittes Brett – das, was herauskommt, wenn man wegen eines Wortes wie „länger“ oder „sägt ab“ einfach rechnet.",
+        "Steht die Werkbank, tippt das Kind das Rätselbrett ein und drückt auf Prüfen. Die Säge schneidet ein Brett von genau dieser Länge und legt es an die leere Stelle, und eine Wasserwaage stellt sich an die beiden Schienenenden. Enden die Schienen gleich, steht die Wasserwaage gerade und die Blase sitzt in der Mitte. Sonst kippt sie, und die Lücke oder der Überstand wird markiert. Ein Brett, das nicht in der Geschichte vorkommt, oder eine Länge auf der falschen Schiene bekommt einen eigenen Hinweis – auch wenn die Zahlen zufällig aufgehen. Nach dem zweiten Fehler zeigt das Lineal an der Werkbank, wo das Rätselbrett beginnt und bis wohin es reichen muss, und am Ende steht die Gleichung so, wie die Geschichte sie erzählt.",
+        "Die Aktivität ist an den Lehrplänen für die 2. Klasse im Bereich Größen und Messen ausgerichtet: Sachaufgaben mit Längen im Zahlenraum bis 100 lösen. Sie funktioniert ohne Ton, und es gibt keinen Timer und keine Punkte."
       ],
       "practices": [
-        "Sachaufgaben zu Längen lesen, verstehen und am Maßband modellieren",
-        "Addieren und Subtrahieren im Zahlenraum bis 100 mit Zentimetern",
-        "Die unbekannte Länge in jeder Position finden — am Ende, in der Mitte oder am Anfang einer Geschichte",
-        "Längen vergleichen und den Unterschied „so viel länger / kürzer“ bestimmen"
+        "Sachaufgaben mit Längen lösen, bei denen der Anfang, die Änderung oder das Ergebnis gesucht ist",
+        "Eine Geschichte mit einem Lineal-Bild darstellen: das Ganze oben, die Teile unten",
+        "Längen in Zentimetern bis 100 addieren und subtrahieren",
+        "Nicht auf Signalwörter wie „länger“ hereinfallen, sondern die Geschichte verstehen"
       ],
       "howToPlay": [
-        "Lies Brams Geschichte und lege die bekannten Längen auf dem Maßband ab",
-        "Markiere die gesuchte Stelle und überlege: dazugeben, wegnehmen oder vergleichen?",
-        "Tippe die fehlende Länge in Zentimetern ein — und sieh, ob das Brett passt"
+        "Lies den Auftrag, tipp dann auf ein Brett und auf eine Schiene, oder zieh es hin: die längste Länge auf die obere Schiene, die Teile auf die untere.",
+        "Tipp das Rätselbrett auf dem Ziffernfeld ein und drück auf Prüfen. Mit einem Tipp auf die Wasserwaage kannst du die Werkbank jederzeit testen.",
+        "In den Einstellungen wählst du Zahlen bis 80 in Fünferschritten oder bis 100 und ob das Lineal an der Werkbank zu sehen ist."
       ],
       "learningGoals": [
-        "Längen-Sachaufgaben sicher mathematisieren und am Maßband veranschaulichen",
-        "Beweglich rechnen, wenn die Unbekannte an unterschiedlichen Stellen steht",
-        "Ein tragfähiges Größenverständnis für Längen im Zahlenraum bis 100 aufbauen"
+        "Sachaufgaben mit Längen bis 100 lösen, bei denen die gesuchte Zahl an jeder Stelle stehen kann.",
+        "Eine Längengeschichte als zwei gleich lange Strecken darstellen: das Ganze und die Teile hintereinander.",
+        "Die passende Gleichung aufschreiben, mit der gesuchten Zahl dort, wo die Geschichte sie hinstellt."
       ]
     },
     "track-repair.count-to-120.1-nbt-a-1": {

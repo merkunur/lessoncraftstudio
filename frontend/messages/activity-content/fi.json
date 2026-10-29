@@ -3762,6 +3762,29 @@
         "Eron ymmärtäminen pidemmän pituuden osana, johon lyhyempi ei yllä.",
         "Pituuksien asettaminen samaan alkukohtaan ennen vertaamista."
       ]
+    },
+    "bram-board-shop.length-word-problems.2-md-b-5": {
+      "about": [
+        "Bramin puuverstaalla jokainen tilaus on pituuksista kertova sanallinen tehtävä: kaulaliina kasvaa, lautaa sahataan, hylly on pidempi kuin lauta. Lapsi laittaa tarinan kaksi pituutta Bramin höyläpenkille. Tarinan pisin pituus tulee ylempään kiskoon, ja palat tulevat peräkkäin alempaan kiskoon. Näin jokaisesta tarinasta, oli se millainen tahansa, tulee sama kuva: kaksi kiskoa, joiden pitää päättyä samaan kohtaan. Telineessä on myös kolmas lauta – se, jonka saa, jos laskee yhteen tai vähentää vain sanan ”pidempi” tai ”sahaa pois” takia.",
+        "Kun penkki on valmis, lapsi kirjoittaa salaisen laudan ja painaa Tarkista. Saha sahaa juuri sen mittaisen laudan ja laittaa sen tyhjään kohtaan, ja vesivaaka asettuu kiskojen päitä vasten. Jos kiskot päättyvät samaan kohtaan, vesivaaka on suorassa ja kupla on keskellä. Muuten se kallistuu, ja aukko tai yli menevä osa väritetään. Lauta, jota ei ole tarinassa, tai pituus väärässä kiskossa saa oman vihjeensä – silloinkin, kun luvut sattuvat menemään tasan. Toisen virheen jälkeen penkin viivain näyttää, mistä salainen lauta alkaa ja mihin sen pitää ulottua, ja lopuksi näkyy tarinan muotoinen yhtälö.",
+        "Tehtävä tukee OPS 2014 -tavoitteita 2. luokalla: pituuksia koskevien sanallisten tehtävien ratkaiseminen 100:aan asti. Se toimii ilman ääntä, eikä siinä ole ajanottoa tai pisteitä."
+      ],
+      "practices": [
+        "Pituustehtävien ratkaiseminen, kun alku, muutos tai tulos puuttuu",
+        "Tarinan esittäminen viivainkuvana: kokonaisuus ylhäällä, osat alhaalla",
+        "Pituuksien yhteen- ja vähennyslasku senttimetreinä 100:aan asti",
+        "Tarinan ymmärtäminen sen sijaan, että luottaisi sanoihin kuten ”pidempi”"
+      ],
+      "howToPlay": [
+        "Lue tilaus, napauta sitten lautaa ja kiskoa, niin lauta siirtyy sinne, tai vedä se: pisin pituus ylempään kiskoon, palat alempaan.",
+        "Kirjoita salainen lauta näppäimistöllä ja paina Tarkista. Napauta vesivaakaa milloin vain, niin voit testata penkin.",
+        "Asetuksista valitset luvut 80:een asti viitosin tai 100:aan asti ja sen, näkyykö penkin viivain."
+      ],
+      "learningGoals": [
+        "Pituustehtävien ratkaiseminen 100:aan asti, kun tuntematon luku voi olla missä kohdassa tahansa.",
+        "Pituustarinan esittäminen kahtena yhtä pitkänä janana: kokonaisuus ja osat peräkkäin.",
+        "Tarinaan sopivan yhtälön kirjoittaminen niin, että tuntematon on siinä kohdassa, johon tarina sen laittaa."
+      ]
     }
   }
 }

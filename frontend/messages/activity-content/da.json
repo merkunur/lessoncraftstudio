@@ -3763,6 +3763,29 @@
         "Forstå forskellen som den del af den længste længde, som den korteste ikke når.",
         "Stille længder op ved samme start, før de sammenlignes."
       ]
+    },
+    "bram-board-shop.length-word-problems.2-md-b-5": {
+      "about": [
+        "I Brams snedkerværksted er hver bestilling en regnehistorie om længder: et halstørklæde, der vokser, et bræt, der saves, en hylde, der er længere end et bræt. Barnet lægger historiens to længder på Brams bænk. Den længste længde i historien kommer på den øverste skinne, og stykkerne kommer efter hinanden på den nederste. Så bliver hver historie, uanset slags, det samme billede: to skinner, der skal ende samme sted. I stativet ligger også et tredje bræt – det, man får, hvis man bare lægger til eller trækker fra på grund af et ord som »længere« eller »saver af«.",
+        "Når bænken er klar, skriver barnet det hemmelige bræt og trykker på Tjek. Saven saver et bræt, der er præcis så langt, og lægger det på den tomme plads, og et vaterpas stiller sig op ad enderne af de to skinner. Ender skinnerne samme sted, står vaterpasset lige, og boblen ligger i midten. Ellers hælder det, og hullet eller det, der stikker ud, bliver farvet. Et bræt, der ikke er med i historien, eller en længde på den forkerte skinne får sit eget tip – også når tallene tilfældigvis går op. Efter den anden fejl viser bænkens lineal, hvor det hemmelige bræt starter, og hvor langt det skal nå, og slutbeskeden viser regnestykket i historiens form.",
+        "Aktiviteten følger Fælles Mål (efter 3. klassetrin) og passer til 2. klasse: at løse regnehistorier med længder op til 100. Den virker uden lyd, og der er hverken tidtagning eller point."
+      ],
+      "practices": [
+        "Løse regnehistorier med længder, hvor starten, ændringen eller resultatet mangler",
+        "Vise en historie med en tegning af en lineal: det hele øverst, delene nederst",
+        "Lægge længder i centimeter sammen og trække dem fra hinanden op til 100",
+        "Ikke lade sig narre af ord som »længere«, men forstå historien"
+      ],
+      "howToPlay": [
+        "Læs bestillingen, tryk så på et bræt og på en skinne for at lægge det der, eller træk det derhen: den længste længde på den øverste skinne, stykkerne på den nederste.",
+        "Skriv det hemmelige bræt på tastaturet, og tryk på Tjek. Tryk på vaterpasset, når du vil, for at teste bænken.",
+        "I indstillingerne vælger du tal op til 80 i 5’ere eller op til 100, og om bænkens lineal vises."
+      ],
+      "learningGoals": [
+        "Løse regnehistorier med længder op til 100, hvor det ukendte tal kan stå hvor som helst.",
+        "Vise en historie om længder som to lige lange stræk: det hele og delene efter hinanden.",
+        "Skrive det regnestykke, der passer til historien, med det ukendte tal dér, hvor historien sætter det."
+      ]
     }
   }
 }

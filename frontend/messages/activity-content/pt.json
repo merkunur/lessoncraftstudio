@@ -2723,25 +2723,25 @@
     },
     "bram-board-shop.length-word-problems.2-md-b-5": {
       "about": [
-        "O castor Bram tem uma marcenaria cheia de tábuas, e cada pedido que chega é uma pequena história de comprimentos. Às vezes é preciso juntar duas tábuas para formar uma maior, às vezes serrar um pedaço de uma tábua comprida, e às vezes comparar duas para descobrir qual é a mais comprida. A criança lê o problema sem pressa, coloca na fita métrica os comprimentos que já conhece, marca o comprimento que falta e depois dá a resposta ao Bram em centímetros.",
-        "A ideia central é que o valor que falta — a incógnita — pode aparecer em qualquer lugar da história: no fim (quanto ficou no total), no meio (quanto foi acrescentado ou tirado) ou até no começo (com quanto tudo começou). Dependendo do pedido, é preciso juntar, tirar ou comparar comprimentos, sempre trabalhando até 100 cm. O importante não é fazer uma conta rápida, e sim entender a situação e representá-la na fita métrica, enxergando o que é conhecido e o que precisa ser descoberto.",
-        "A atividade é interativa, funciona direto no navegador e não pede cadastro. Não há cronômetro nem pontuação: a criança pode pensar, testar e tentar de novo no seu próprio ritmo, num clima acolhedor e sem cobrança. A proposta é do 2º ano e está alinhada à Base Nacional Comum Curricular (BNCC), dentro da unidade temática Grandezas e medidas."
+        "Na marcenaria do Bram, cada pedido é um problema de comprimento: um cachecol que cresce, uma tábua que é serrada, uma prateleira mais comprida que uma tábua. A criança coloca na bancada do Bram os dois comprimentos que a história dá. O maior comprimento da história vai no trilho de cima, e as partes vão uma depois da outra no trilho de baixo. Assim, toda história, de qualquer tipo, vira a mesma imagem: dois trilhos que precisam terminar juntos. No suporte há também uma terceira tábua: a que sai quando a criança soma ou subtrai só por causa de uma palavra como “mais comprida” ou “serra”.",
+        "Com a bancada montada, a criança digita a tábua misteriosa e toca em Conferir. O serrote corta uma tábua exatamente desse tamanho e a coloca no lugar vazio, e um nível de bolha encosta nas pontas dos dois trilhos. Se os trilhos terminam juntos, o nível fica reto e a bolha fica no meio. Se não, ele inclina, e o espaço que falta ou o que sobra fica marcado. Uma tábua que não está na história, ou um comprimento no trilho errado, ganha uma dica própria, mesmo quando os números batem por acaso. Depois do segundo erro, a régua da bancada mostra onde a tábua misteriosa começa e até onde ela precisa chegar, e a mensagem final mostra a igualdade do jeito da história.",
+        "A atividade segue a BNCC para o 2º ano, na unidade temática Grandezas e medidas: resolver problemas de comprimento até 100. Funciona sem som, sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Somar e subtrair comprimentos até 100 cm para resolver problemas do dia a dia.",
-        "Encontrar a incógnita em qualquer posição: no resultado, na mudança ou no início da história.",
-        "Modelar o problema na fita métrica antes de calcular, ligando o número ao comprimento real.",
-        "Comparar dois comprimentos para descobrir qual é o maior e por quanto."
+        "Resolver problemas de comprimento em que se procura o início, a mudança ou o resultado",
+        "Representar uma história com o desenho de uma régua: o todo em cima e as partes embaixo",
+        "Somar e subtrair comprimentos em centímetros até 100",
+        "Não se guiar por palavras como “mais comprida”, mas entender a história"
       ],
       "howToPlay": [
-        "Leia o pedido do Bram com calma e veja quais comprimentos já são conhecidos.",
-        "Coloque esses comprimentos na fita métrica e marque o comprimento que falta.",
-        "Digite a resposta em centímetros para conferir se ajudou o Bram direitinho."
+        "Leia o pedido; depois toque numa tábua e num trilho para colocá-la ali, ou arraste: o maior comprimento no trilho de cima e as partes no de baixo.",
+        "Digite a tábua misteriosa no teclado e toque em Conferir. Toque no nível de bolha quando quiser para testar a bancada.",
+        "Nas configurações, escolha números até 80 de 5 em 5 ou até 100, e se a régua da bancada aparece."
       ],
       "learningGoals": [
-        "Resolver problemas de soma e subtração com comprimentos até 100 cm.",
-        "Representar situações de medida na fita métrica, mesmo com a incógnita no meio ou no início.",
-        "Ganhar confiança para ler, interpretar e explicar problemas de comprimento com as próprias palavras."
+        "Resolver problemas de comprimento até 100 com o valor desconhecido em qualquer posição.",
+        "Representar uma história de comprimentos como dois comprimentos iguais: o todo e as partes uma depois da outra.",
+        "Escrever a igualdade que combina com a história, com o desconhecido onde a história o coloca."
       ]
     },
     "vet-diagnosis.word-problems.1-oa-a-1": {

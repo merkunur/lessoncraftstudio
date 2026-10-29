@@ -163,7 +163,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 153 | LIVE 2026-10-29 · The CM Cutter | 2 | 2.MD.A.1 | `tildy.measure-ruler.2-md-a-1` | tildy-activity | Tildy's Tailor Shop — Measure with a Ruler |
 | 154 | LIVE 2026-10-29 · The Growing Picture | 2 | 2.MD.A.3 | `gauge-good-guess.estimate.2-md-a-3` | gauge-good-guess-activity | Gauge's Good Guess — Estimate the Length (Grade 2) |
 | 155 | LIVE 2026-10-29 · The Snip-Out Tape | 2 | 2.MD.A.4 | `span-length-gap.how-much-longer.2-md-a-4` | span-length-gap-activity | Span's Length Gap — How Much Longer? (Grade 2) |
-| 156 |  | 2 | 2.MD.B.5 | `bram-board-shop.length-word-problems.2-md-b-5` | bram-board-shop-activity | Bram's Board Shop — Measure & Cut Word Problems (Grade 2) |
+| 156 | LIVE 2026-10-29 · The Spirit Level | 2 | 2.MD.B.5 | `bram-board-shop.length-word-problems.2-md-b-5` | bram-board-shop-activity | Bram's Board Shop — Measure & Cut Word Problems (Grade 2) |
 | 157 |  | 2 | 2.MD.B.6 | `hoppers-number-line.jump-sums.2-md-b-6` | hoppers-number-line-activity | Hopper's Number Line — Add & Subtract by Hopping (Grade 2) |
 | 158 |  | 2 | 2.MD.C.7 | `clock-ampm.morning-or-night.2-md-c-7` | clock-ampm-activity | Sprocket's Clock — A.M. or P.M.? (Grade 2) |
 | 159 |  | 2 | 2.MD.C.7 | `clock-convert.12-24.2-md-c-7` | clock-convert-activity | Sprocket's Clock — 12-Hour & 24-Hour Time Conversion (Grade 2) |

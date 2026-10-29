@@ -1675,24 +1675,25 @@
     },
     "bram-board-shop.length-word-problems.2-md-b-5": {
       "about": [
-        "Dans la menuiserie de Bram le castor, chaque commande est une histoire de longueur ! Tantôt il faut coller deux planches bout à bout, tantôt scier un morceau, tantôt mesurer de combien l'étagère est plus longue que le bureau. Ton enfant lit la commande, puis la modélise sur le mètre-ruban de Bram : il place chaque longueur à sa place, marque la longueur mystère, et compose enfin la réponse en centimètres. L'inconnue se cache à toutes les places — au résultat, au changement, au départ, ou dans l'écart entre deux objets.",
-        "Résoudre des problèmes d'addition et de soustraction portant sur des longueurs en centimètres jusqu'à 100, avec l'inconnue dans toutes les positions, est un attendu du CE1 (« résoudre des problèmes impliquant des longueurs et des grandeurs »). Au CP, l'enfant mesure et compare des longueurs à la règle ; au CE1, il CALCULE avec les longueurs. Modéliser l'histoire avant de calculer développe le sens des grandeurs et la compréhension des structures additives. Le jeu fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Grandeurs et mesures »)."
+        "Dans La menuiserie de Bram, chaque commande est un problème de longueurs : une écharpe qui grandit, une planche qu’on scie, une étagère plus longue qu’une planche. L’enfant pose sur l’établi de Bram les deux longueurs que donne l’histoire. La plus grande longueur de l’histoire va sur le rail du haut, les morceaux bout à bout sur le rail du bas. Chaque histoire, quelle que soit sa forme, devient donc la même image : deux rails qui doivent finir au même endroit. Le râtelier contient aussi une troisième planche, celle qu’on obtient en additionnant ou en soustrayant à cause d’un mot comme « plus longue » ou « scie ».",
+        "Une fois l’établi monté, l’enfant tape la planche mystère et touche Vérifier. La scie coupe une planche exactement de cette longueur et la pose à la place vide, puis un niveau à bulle se place contre les bouts des deux rails. Si les rails finissent au même endroit, le niveau est droit et la bulle est au milieu. Sinon, il penche, et l’écart ou le dépassement est colorié. Une planche qui n’est pas dans l’histoire, ou une longueur sur le mauvais rail, reçoit son propre indice, même si les nombres tombent juste par hasard. Après une deuxième erreur, la règle de l’établi montre où commence la planche mystère et jusqu’où elle doit aller, et le message final donne l’égalité dans la forme de l’histoire.",
+        "L’activité suit les programmes officiels du CE1, dans le domaine Grandeurs et mesures : résoudre des problèmes de longueurs jusqu’à 100. Elle fonctionne sans son, sans chronomètre et sans score."
       ],
       "practices": [
-        "Résoudre des problèmes de longueurs en additionnant et en soustrayant des cm",
-        "Trouver l'inconnue au résultat, au changement ou au départ",
-        "Comparer deux longueurs et calculer de combien l'une est plus longue",
-        "Modéliser une histoire sur le mètre-ruban avant de calculer",
-        "Écarter la longueur intruse pour ne garder que les nombres utiles"
+        "Résoudre des problèmes de longueurs où l’on cherche l’état initial, la transformation ou l’état final",
+        "Représenter une histoire avec un dessin de règle : le tout en haut, les parties en bas",
+        "Additionner et soustraire des longueurs en centimètres jusqu’à 100",
+        "Ne pas se fier aux mots-pièges comme « plus longue », mais comprendre l’histoire"
       ],
       "howToPlay": [
-        "Lis la commande, puis pose chaque longueur à sa place et marque la longueur mystère.",
-        "Compose la réponse en centimètres, puis touche Mesurer pour vérifier."
+        "Lis la commande, puis touche une planche et un rail pour l’y poser, ou fais-la glisser : la plus grande longueur sur le rail du haut, les morceaux sur le rail du bas.",
+        "Tape la planche mystère sur le pavé, puis touche Vérifier. Touche le niveau à bulle quand tu veux pour tester l’établi.",
+        "Dans les réglages, choisis des nombres jusqu’à 80 de 5 en 5 ou jusqu’à 100, et si la règle de l’établi est visible."
       ],
       "learningGoals": [
-        "Résoudre des problèmes de longueurs jusqu'à 100",
-        "Additionner et soustraire des longueurs en cm",
-        "Comprendre les structures additives avec l'inconnue à toutes les places"
+        "Résoudre des problèmes de longueurs jusqu’à 100 où l’inconnue peut être à n’importe quelle place.",
+        "Représenter une histoire de longueurs par deux longueurs égales : le tout, et les parties bout à bout.",
+        "Écrire l’égalité qui correspond à l’histoire, avec l’inconnue là où l’histoire la place."
       ]
     },
     "gauge-good-guess.estimate.2-md-a-3": {

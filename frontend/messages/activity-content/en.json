@@ -694,25 +694,25 @@
     },
     "bram-board-shop.length-word-problems.2-md-b-5": {
       "about": [
-        "Bram the beaver runs a board shop where every order is a length story the child models on a measuring tape — gluing two boards together, sawing a piece off a 50 cm plank, or measuring how much longer a 60 cm shelf is than a 45 cm desk. The stories add and subtract lengths within 100 centimeters. It's a Grade 2 measurement activity that runs in the browser with nothing to install and no account.",
-        "What makes it more than arithmetic is that the unknown moves around. Sometimes the result is missing, sometimes a part, sometimes the change, the start, or the difference. The child reads the order, places each known length into the right spot on a bar, change, or compare diagram — leaving out the decoy tile that doesn't belong — marks the mystery length, and dials the answer in centimeters. Mapping the words onto the diagram is the modeling skill this round builds.",
-        "It is aligned to Common Core 2.MD.B.5 — using addition and subtraction within 100 to solve word problems involving lengths in the same units. No timer, no score — just calm, playful practice."
+        "In Bram's Board Shop every order is a length story: a scarf that grows, a board that is sawn, a shelf that is longer than a board. The child puts the two lengths the story gives on Bram's bench. The longest length of the story goes on the top rail, and the pieces go end to end on the bottom rail. Every story, whatever its shape, becomes the same picture: two rails that have to end together. The rack also holds a third board, the one a child gets by just adding or subtracting because of a word like \"longer\" or \"saws off\".",
+        "Once the bench is built, the child types how long the mystery board is and presses Check. The saw cuts a board exactly that long and drops it into the empty place, and a spirit level stands against the two rail ends. If the rails end together, the level stands straight and the bubble sits in the middle. If not, it leans, and the gap or the overhang is shaded. A board that is not in the story, or a length on the wrong rail, gets its own hint, even when the numbers happen to balance. After a second miss the bench ruler marks where the mystery board starts and where it has to reach. When the story balances, the success line shows the equation in the story's own shape.",
+        "It is aligned to Common Core 2.MD.B.5 (use addition and subtraction within 100 to solve word problems involving lengths given in the same units). It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Reading a length word problem and picturing it on a measuring tape",
-        "Placing the known lengths into the right spots on a part, change, or compare diagram",
-        "Finding the unknown whether it is the result, a part, the change, the start, or the difference",
-        "Ignoring the decoy length that does not belong in the problem"
+        "Solve length word problems with the unknown at the start, the change or the result",
+        "Model a story with a drawing of a ruler: the whole on top, the parts below",
+        "Add and subtract lengths in centimeters within 100",
+        "Look past keywords like \"longer\" to the structure of the story"
       ],
       "howToPlay": [
-        "Read Bram's order and decide what each length is — a whole, a part, a start, a change, or a difference.",
-        "Place each known length on Bram's diagram, mark the mystery length, and dial the answer in centimeters.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Read the order, then tap a board and tap a rail to put it there, or drag it: the longest length on the top rail (it can be the mystery board), the pieces on the bottom rail.",
+        "Type how long the mystery board is on the keypad and press Check. Tap the spirit level at any time to test the bench.",
+        "In the settings, choose numbers within 80 in fives or within 100, and whether the bench ruler is shown."
       ],
       "learningGoals": [
-        "Solve length word problems by adding and subtracting within 100 — the focus of Common Core 2.MD.B.5.",
-        "Model a problem with a diagram and find the unknown in any position.",
-        "Build the problem-modeling habit that supports measurement and multi-step word problems."
+        "Solve length word problems within 100 with the unknown in any position, the focus of Common Core 2.MD.B.5.",
+        "Represent a length story as two equal lengths: the whole, and the parts end to end.",
+        "Write the equation that matches the story, with the unknown where the story puts it."
       ]
     },
     "bramble.holds-more.k-md-a-2": {

@@ -1842,25 +1842,25 @@
     },
     "bram-board-shop.length-word-problems.2-md-b-5": {
       "about": [
-        "Bram de bever heeft een gezellige houtwerkplaats waar hij de hele dag planken zaagt en linten op maat maakt. Bij elke ronde vertelt Bram een korte verhaalsom over lengtes: twee stukken worden samen zo lang, een stuk wordt van een plank afgezaagd, of het ene lint is zoveel langer dan het andere. Jij leest de som, legt de bekende lengtes op de meetlat en zoekt de lengte die nog ontbreekt.",
-        "De gezochte lengte staat niet altijd op dezelfde plek: mal aan het eind, mal in het midden, en mal aan het begin – dan reken je de som eigenlijk omgekeerd terug. Zo oefen je optellen, aftrekken en vergelijken tot 100 in echte centimeters. Doordat je de lengtes op de getallenlijn zichtbaar maakt, ga je zo'n verhaalsom – ook wel redactiesom genoemd – écht begrijpen in plaats van alleen een kale som uit te rekenen. Dit past mooi bij het rekenen met lengtes in groep 4 volgens de SLO-doelen.",
-        "Er is geen klok, geen score en geen stress. Je werkt rustig in je eigen tempo en probeert gewoon opnieuw als het niet meteen lukt. Zo vaak als je wilt."
+        "In Brams houtwerkplaats is elke bestelling een verhaalsom over lengtes: een sjaal die groeit, een plank die wordt gezaagd, een wandplank die langer is dan een plank. Het kind legt de twee lengtes uit het verhaal op Brams werkbank. De langste lengte uit het verhaal komt op de bovenste rail, de stukken komen achter elkaar op de onderste rail. Zo wordt elk verhaal, van welke soort ook, hetzelfde plaatje: twee rails die gelijk moeten eindigen. In het rek ligt ook een derde plank: die krijg je als je alleen optelt of aftrekt door een woord als ‘langer’ of ‘zaagt af’.",
+        "Staat de werkbank klaar, dan typt het kind de geheime plank en drukt op Controleer. De zaag zaagt een plank van precies die lengte en legt hem op de lege plek, en een waterpas gaat tegen de uiteinden van de twee rails staan. Eindigen de rails gelijk, dan staat de waterpas recht en zit de luchtbel in het midden. Zo niet, dan helt hij over en wordt het gat of het stuk dat uitsteekt gekleurd. Een plank die niet in het verhaal staat, of een lengte op de verkeerde rail, krijgt een eigen hint, ook als de getallen toevallig kloppen. Na de tweede fout laat de liniaal van de werkbank zien waar de geheime plank begint en tot waar hij moet reiken, en het slotbericht geeft de som in de vorm van het verhaal.",
+        "De activiteit sluit aan bij de SLO-kerndoelen en past in groep 4: verhaalsommen met lengtes tot 100 oplossen. Ze werkt zonder geluid, zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Verhaalsommen over lengtes lezen en op de getallenlijn modelleren",
-        "Optellen en aftrekken tot 100 met centimeters",
-        "De onbekende lengte op elke positie vinden: aan het eind, in het midden of aan het begin",
-        "Lengtes vergelijken en het verschil bepalen: hoeveel langer of korter"
+        "Verhaalsommen met lengtes oplossen waarbij het begin, de verandering of de uitkomst ontbreekt",
+        "Een verhaal tekenen als liniaal: het geheel boven, de delen onder",
+        "Lengtes in centimeters optellen en aftrekken tot 100",
+        "Niet blindvaren op woorden als ‘langer’, maar het verhaal begrijpen"
       ],
       "howToPlay": [
-        "Lees Brams verhaalsom en zoek op welke lengtes je al weet.",
-        "Leg de bekende lengtes op de meetlat en kijk waar de gezochte lengte hoort.",
-        "Tik het ontbrekende aantal centimeters in en controleer je antwoord."
+        "Lees de bestelling, tik dan op een plank en op een rail om hem daar te leggen, of sleep hem: de langste lengte op de bovenste rail, de stukken op de onderste.",
+        "Typ de geheime plank op het toetsenblok en druk op Controleer. Tik op de waterpas wanneer je wilt om de werkbank te testen.",
+        "Kies in de instellingen getallen tot 80 met sprongen van 5 of tot 100, en of de liniaal aan de werkbank zichtbaar is."
       ],
       "learningGoals": [
-        "Ik kan een verhaalsom over lengtes lezen en op een getallenlijn weergeven.",
-        "Ik kan lengtes tot 100 cm optellen, aftrekken en vergelijken.",
-        "Ik kan de ontbrekende lengte vinden, ook als ik de som omgekeerd moet terugrekenen."
+        "Verhaalsommen met lengtes tot 100 oplossen waarbij het onbekende getal op elke plek kan staan.",
+        "Een verhaal over lengtes weergeven als twee even lange stukken: het geheel en de delen achter elkaar.",
+        "De som opschrijven die bij het verhaal past, met het onbekende getal waar het verhaal het zet."
       ]
     },
     "gauge-good-guess.estimate.2-md-a-3": {

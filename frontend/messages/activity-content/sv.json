@@ -4082,6 +4082,29 @@
         "Använda en linjal och en meterstock som jämförelse för att avgöra om en uppskattning är rimlig.",
         "Veta vilken enhet som passar: centimeter för små saker, meter för stora."
       ]
+    },
+    "bram-board-shop.length-word-problems.2-md-b-5": {
+      "about": [
+        "I Brams snickeri är varje beställning en räknehändelse om längder: en halsduk som växer, en bräda som sågas, en hylla som är längre än en bräda. Barnet lägger berättelsens två längder på Brams bänk. Den längsta längden i berättelsen läggs på den övre skenan, och bitarna läggs efter varandra på den nedre. Så blir varje berättelse, vilken sort den än är, samma bild: två skenor som ska sluta lika. I brädstället finns också en tredje bräda – den man får om man bara adderar eller subtraherar på grund av ett ord som ”längre” eller ”sågar av”.",
+        "När bänken är klar skriver barnet hur lång den hemliga brädan är och trycker på Kontrollera. Sågen sågar en bräda som är exakt så lång och lägger den på den tomma platsen, och ett vattenpass ställer sig mot skenornas ändar. Slutar skenorna lika står vattenpasset rakt och bubblan ligger i mitten. Annars lutar det, och glappet eller det som sticker ut markeras. En bräda som inte finns i berättelsen, eller en längd på fel skena, får en egen ledtråd – även när talen råkar gå jämnt ut. Efter det andra felet visar bänklinjalen var den hemliga brädan börjar och hur långt den ska räcka, och slutmeddelandet visar likheten i berättelsens form.",
+        "Aktiviteten följer Lgr22 för åk 1–3 och passar i åk 2: att lösa problem med längder inom 100. Den fungerar utan ljud, och det finns ingen tidtagning och inga poäng."
+      ],
+      "practices": [
+        "Lösa problem med längder där början, ändringen eller resultatet söks",
+        "Visa en berättelse med en linjalbild: helheten överst, delarna under",
+        "Addera och subtrahera längder i centimeter inom 100",
+        "Inte gå på ord som ”längre”, utan förstå berättelsen"
+      ],
+      "howToPlay": [
+        "Läs beställningen, tryck sedan på en bräda och på en skena för att lägga den där, eller dra den dit: den längsta längden på den övre skenan, bitarna på den nedre.",
+        "Skriv hur lång den hemliga brädan är på knappsatsen och tryck på Kontrollera. Tryck på vattenpasset när du vill för att testa bänken.",
+        "I inställningarna väljer du tal upp till 80 i femtal eller upp till 100, och om bänklinjalen visas."
+      ],
+      "learningGoals": [
+        "Lösa problem med längder inom 100 där det okända talet kan stå var som helst.",
+        "Visa en berättelse om längder som två lika långa sträckor: helheten och delarna efter varandra.",
+        "Skriva den likhet som passar berättelsen, med det okända talet där berättelsen sätter det."
+      ]
     }
   }
 }

@@ -243,7 +243,7 @@
       "about": [
         "Nella sartoria di Tildy c’è una striscia sul tavolo da taglio: un nastro, una striscia di cuoio, un filo di lana, un cordoncino, feltro, pizzo o un elastico. Il gatto ha appena spostato il righello. Il bambino fa scorrere il righello finché lo 0 è all’inizio della striscia, poi tocca il numero all’altra estremità. Quando tocca Controlla, la taglierina di Tildy scorre lungo il righello a partire dallo 0 e taglia a ogni centimetro: i pezzi cadono nel barattolo, e quello che il righello non ha misurato resta sul tavolo.",
         "Così si vedono i due errori tipici con il righello. Se lo 0 era dentro la striscia, prima dello 0 avanza un pezzo. Se lo 0 era prima della striscia, la taglierina taglia prima l’aria. Con l’impostazione dei righelli difficili ci sono righelli rotti che non partono da 0: il bambino tocca ogni spazio di un centimetro coperto dalla striscia. Anche Tildy sbaglia, e il bambino la corregge; su un ripiano c’è un solo righello abbastanza lungo. Ogni striscia finita viene appesa con la sua misura.",
-        "L’attività segue le Indicazioni nazionali (traguardi al termine della classe terza) ed è adatta alla classe seconda, nel nucleo Relazioni, dati e previsioni: misurare lunghezze in centimetri con il righello. Non si accende niente quando il righello è quasi al posto giusto: il risultato compare solo dopo Controlla. Funziona senza audio, senza cronometro e senza punteggi."
+        "L’attività segue le Indicazioni nazionali (obiettivi di apprendimento al termine della classe terza) ed è adatta alla classe seconda, nel nucleo Relazioni, dati e previsioni: misurare lunghezze in centimetri con il righello. Non si accende niente quando il righello è quasi al posto giusto: il risultato compare solo dopo Controlla. Funziona senza audio, senza cronometro e senza punteggi."
       ],
       "practices": [
         "Mettere lo 0 del righello all’inizio di un oggetto",
@@ -364,32 +364,32 @@
     },
     "bram-board-shop.length-word-problems.2-md-b-5": {
       "about": [
-        "Nella falegnameria di Bram, il castoro carpentiere, ogni giornata comincia con un’ordinazione da preparare: un ripiano da montare, un’asse da accorciare, due tavole da unire. I bambini leggono la richiesta del cliente, appoggiano le lunghezze note sul lungo metro di Bram e cercano il pezzo misterioso — quanto misura l’asse che manca, quanta parte è stata segata via, quanto una tavola supera l’altra. Ogni round è un piccolo problema di lunghezze in centimetri, da modellare con le mani prima ancora che con i numeri, proprio come farebbe un vero falegname davanti al suo banco da lavoro.",
-        "Il valore di questa attività sta nel far leggere e capire il problema, non solo nel calcolare. Il bambino si allena ad addizionare e sottrarre lunghezze entro il 100, ma soprattutto impara a riconoscere dove si nasconde l’incognita: a volte manca il totale, a volte una delle parti, a volte la differenza tra due assi. Decidere se aggiungere, togliere o confrontare — e poi dire la lunghezza esatta in centimetri — allena il ragionamento e dà un senso concreto alle misure di tutti i giorni.",
-        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali. È interattiva e senza registrazione, senza timer e senza punteggio: nessuna fretta e nessuna pressione, solo il piacere di risolvere l’ordinazione di Bram al proprio ritmo, con la possibilità di riprovare tutte le volte che serve."
+        "Nella falegnameria di Bram ogni ordine è un problema di lunghezze: una sciarpa che cresce, un’asse che viene segata, una mensola più lunga di un’asse. Il bambino mette sul banco di Bram le due lunghezze che il problema dà. La lunghezza più lunga va sulla guida in alto, i pezzi uno dopo l’altro sulla guida in basso. Così ogni problema, di qualunque tipo, diventa la stessa immagine: due guide che devono finire insieme. Nella rastrelliera c’è anche una terza asse: quella che si ottiene sommando o sottraendo solo per una parola come «più lunga» o «sega via».",
+        "Quando il banco è pronto, il bambino scrive l’asse misteriosa e tocca Controlla. La sega taglia un’asse lunga esattamente così e la mette al posto vuoto, poi una livella si appoggia alle estremità delle due guide. Se le guide finiscono insieme, la livella sta dritta e la bolla resta al centro. Se no, pende, e il vuoto o la parte in più viene colorato. Un’asse che non è nel problema, o una lunghezza sulla guida sbagliata, ha un suo suggerimento, anche quando i numeri tornano per caso. Dopo il secondo errore il righello del banco mostra dove comincia l’asse misteriosa e fin dove deve arrivare, e il messaggio finale scrive l’uguaglianza nella forma del problema.",
+        "L’attività segue le Indicazioni nazionali (obiettivi di apprendimento al termine della classe terza) ed è adatta alla classe seconda, nel nucleo Relazioni, dati e previsioni: risolvere problemi di lunghezze entro il 100. Funziona senza audio, senza cronometro e senza punteggi."
       ],
       "practices": [
-        "Leggere e modellare problemi di lunghezza sul metro",
-        "Addizionare e sottrarre lunghezze entro il 100 in centimetri",
-        "Trovare l’incognita in ogni posizione del problema",
-        "Confrontare le lunghezze: quanto più lungo o più corto"
+        "Risolvere problemi di lunghezze in cui si cerca l’inizio, il cambiamento o il risultato",
+        "Rappresentare un problema con il disegno di un righello: il tutto in alto, le parti in basso",
+        "Addizionare e sottrarre lunghezze in centimetri entro il 100",
+        "Non farsi guidare da parole come «più lunga», ma capire il problema"
       ],
       "howToPlay": [
-        "Leggi la storia dell’ordinazione e appoggia sul metro le lunghezze che già conosci.",
-        "Segna il pezzo misterioso e scegli se aggiungere, togliere o confrontare le assi.",
-        "Digita la lunghezza mancante in centimetri per completare l’ordinazione di Bram."
+        "Leggi l’ordine, poi tocca un’asse e una guida per metterla lì, oppure trascinala: la lunghezza più lunga sulla guida in alto, i pezzi sulla guida in basso.",
+        "Scrivi l’asse misteriosa sul tastierino e tocca Controlla. Tocca la livella quando vuoi per provare il banco.",
+        "Nelle impostazioni scegli numeri fino a 80 di 5 in 5 o fino a 100, e se il righello del banco si vede."
       ],
       "learningGoals": [
-        "Risolvere problemi di addizione e sottrazione con le lunghezze entro il 100",
-        "Capire il testo del problema e individuare l’incognita in ogni posizione",
-        "Confrontare lunghezze in centimetri e trovare la differenza"
+        "Risolvere problemi di lunghezze entro il 100 con l’incognita in qualsiasi posizione.",
+        "Rappresentare un problema di lunghezze come due lunghezze uguali: il tutto e le parti una dopo l’altra.",
+        "Scrivere l’uguaglianza che corrisponde al problema, con l’incognita dove il problema la mette."
       ]
     },
     "gauge-good-guess.estimate.2-md-a-3": {
       "about": [
         "Nella buona stima della capra, ogni stima è una promessa su una grandezza. Il bambino legge una domanda come «Più o meno quanto è lunga una formica?» e tocca una di tre stime. Allora l’immagine cresce o si rimpicciolisce proprio fino a quella grandezza, accanto a un righello di scuola da 30 cm per i centimetri o a un metro per i metri, disegnati nella stessa scala. Con 30 cm la formica diventa lunga quanto tutto il righello; con 2 m il camion sembra un giocattolo accanto al metro. Una stima sbagliata si vede.",
         "Bisogna stimare una formica, una chiocciola, un cucchiaio, una matita, una banana, un letto, una porta, una casa, un camion, un faro, un aereo di linea, un traghetto e una balena; per ognuno una sola stima ha senso. Dopo un errore, un contorno tratteggiato mostra la grandezza vera accanto alla stima, senza numero; dopo il secondo aiuta un confronto come «Un camion è lungo più o meno come quattro letti». Con l’impostazione «scegliere l’unità» il numero è dato e il bambino sceglie cm o m, con il righello e il metro sotto gli occhi. Ogni cosa risolta entra nell’album delle grandezze della capra, dalla più piccola alla più grande.",
-        "L’attività segue le Indicazioni nazionali (traguardi al termine della classe terza) ed è adatta alla classe seconda, nel nucleo Relazioni, dati e previsioni: stimare lunghezze in centimetri e metri. Funziona senza audio, senza cronometro e senza punteggi."
+        "L’attività segue le Indicazioni nazionali (obiettivi di apprendimento al termine della classe terza) ed è adatta alla classe seconda, nel nucleo Relazioni, dati e previsioni: stimare lunghezze in centimetri e metri. Funziona senza audio, senza cronometro e senza punteggi."
       ],
       "practices": [
         "Stimare la lunghezza o l’altezza di cose conosciute in centimetri e metri",
@@ -1108,7 +1108,7 @@
       "about": [
         "In questa attività due cose vere stanno su due corsie, tutte e due contro un muro di legno che segna lo zero, con un solo metro a nastro giallo in mezzo. Il bambino fa scorrere la molletta arancione fino alla fine della cosa in alto e la molletta verde fino alla fine della cosa in basso. Da ogni molletta scende una linea tratteggiata fino alla sua cosa, così il bambino vede se la molletta tocca proprio la fine. Appena tutte e due le mollette sono sul metro, il tratto tra loro si illumina: la differenza si vede prima ancora di avere un numero.",
         "Il bambino scrive di quanti centimetri è più lunga quella più lunga e tocca Controlla. Allora il pezzo illuminato viene ritagliato dal metro, finisce nel vassoio e si conta da solo partendo da 0. Se il numero è sbagliato, accanto al pezzo compare una striscia tratteggiata lunga come il numero scritto: una risposta come la lunghezza maggiore o la somma delle due va molto oltre; dopo il secondo errore compare un puntino in ogni spazio di un centimetro del pezzo. Una molletta messa male colora la parte della cosa che non ha raggiunto. Con l’impostazione «spostate» le cose partono lontane dal muro, e non si controlla niente finché non sono spinte tutte e due contro il muro: le lunghezze si confrontano dallo stesso punto di partenza.",
-        "L’attività segue le Indicazioni nazionali (traguardi al termine della classe terza) ed è adatta alla classe seconda, nel nucleo Relazioni, dati e previsioni: misurare lunghezze in centimetri e trovare di quanto una è più lunga dell’altra. Funziona senza audio, senza cronometro e senza punteggi."
+        "L’attività segue le Indicazioni nazionali (obiettivi di apprendimento al termine della classe terza) ed è adatta alla classe seconda, nel nucleo Relazioni, dati e previsioni: misurare lunghezze in centimetri e trovare di quanto una è più lunga dell’altra. Funziona senza audio, senza cronometro e senza punteggi."
       ],
       "practices": [
         "Misurare due cose in centimetri con un solo metro a nastro",
@@ -2223,7 +2223,7 @@
       "about": [
         "Nel Righello luminoso un’immagine è appoggiata su un righello di vetro in centimetri, con l’estremità sinistra esattamente sullo 0: una chiocciola, una conchiglia, una macchinina, un limone, una chiave, un centopiedi, un flacone di colla, un ghiacciolo, mezzo kiwi, un trenino o un aeroplanino, ciascuno lungo quanto può esserlo la cosa vera. Il bambino fa scorrere un cursore luminoso sotto il righello fin dove finisce l’oggetto e tocca Controlla. Allora la luce riempie gli spazi di un centimetro uno alla volta a partire da 0, e ogni spazio illuminato mostra il suo numero: il bambino vede che il numero sul righello conta gli spazi che vengono prima.",
         "Se il cursore va troppo avanti, gli ultimi spazi si accendono di corallo senza niente sopra. Se resta troppo indietro, la fine dell’oggetto rimane al buio. Così si affrontano i due errori tipici con il righello: contare le tacche invece degli spazi e fermarsi prima della fine. Dopo un secondo errore, una linea tratteggiata scende dalla fine dell’oggetto fino al righello. Nell’impostazione in cui sono stampati solo 0, 5, 10 e 15, il bambino legge una fine come il 12 contando a partire dal 10, come su un righello che riporta solo alcuni numeri. Ogni oggetto misurato entra in un piccolo grafico delle lunghezze del giorno, dalla più corta alla più lunga.",
-        "L’attività segue le Indicazioni nazionali (traguardi al termine della classe terza) ed è adatta alla classe seconda, nel nucleo Relazioni, dati e previsioni: misurare lunghezze in centimetri con il righello. Funziona senza audio, senza cronometro e senza punteggi."
+        "L’attività segue le Indicazioni nazionali (obiettivi di apprendimento al termine della classe terza) ed è adatta alla classe seconda, nel nucleo Relazioni, dati e previsioni: misurare lunghezze in centimetri con il righello. Funziona senza audio, senza cronometro e senza punteggi."
       ],
       "practices": [
         "Leggere dove finisce un oggetto su un righello in centimetri che parte da 0",

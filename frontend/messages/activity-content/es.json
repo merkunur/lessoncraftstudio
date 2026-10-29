@@ -1420,25 +1420,25 @@
     },
     "bram-board-shop.length-word-problems.2-md-b-5": {
       "about": [
-        "Bram, el castor, tiene un taller de tablas y siempre trae una pequeña historia de longitudes para tu hijo: dos tablas se juntan, se corta un pedazo, o hay que averiguar cuántos centímetros más larga es una tabla que otra. El niño o la niña lee la historia con calma y coloca en la cinta métrica las longitudes que ya conoce. Después busca la longitud que falta y la marca sobre la cinta, como si midiera una tabla de verdad en el taller de Bram.",
-        "Lo interesante es dónde se esconde la incógnita: a veces está al final de la historia, a veces en medio y a veces hasta al inicio. Según el problema, hay que agregar dos longitudes, quitar un pedazo o comparar dos tablas para ver cuál es más larga. Así el niño o la niña aprende a ENTENDER el problema y a representarlo en la cinta, no solo a hacer una cuenta rápida; es cálculo con longitudes hasta 100.",
-        "Sin cronómetro, sin puntaje y sin competencia, para que cada niño o niña avance a su propio ritmo. Está alineada con el programa de primaria mexicano dentro del eje Magnitudes y medida, donde viven los problemas con longitudes. El único objetivo es que tu hijo piense, mida y resuelva con confianza."
+        "En El taller de tablas de Bram cada pedido es un problema de longitudes: una bufanda que crece, una tabla que se corta, una repisa más larga que una tabla. El niño pone en el banco de Bram las dos longitudes que da el problema. La longitud más larga va en el riel de arriba y las partes van una tras otra en el riel de abajo. Así, cada problema, sea del tipo que sea, se convierte en la misma imagen: dos rieles que tienen que terminar juntos. En el soporte hay además una tercera tabla: la que sale si uno suma o resta solo por una palabra como “más larga” o “corta”.",
+        "Cuando el banco está listo, el niño escribe la tabla misteriosa y oprime Revisar. El serrucho corta una tabla de esa longitud exacta y la pone en el lugar vacío, y un nivel de burbuja se apoya en los extremos de los dos rieles. Si los rieles terminan juntos, el nivel queda derecho y la burbuja se queda en medio. Si no, se inclina y se marca el hueco o lo que sobra. Una tabla que no está en el problema, o una longitud en el riel equivocado, tiene su propia pista, aunque los números cuadren por casualidad. Después del segundo error, la regla del banco marca dónde empieza la tabla misteriosa y hasta dónde tiene que llegar, y el mensaje final muestra la igualdad con la forma del problema.",
+        "La actividad sigue los planes y programas de la SEP para segundo grado, en el campo formativo Saberes y pensamiento científico (problemas de longitud hasta 100). Funciona sin sonido, sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Leer, entender y modelar en la cinta métrica problemas de longitudes.",
-        "Sumar y restar hasta 100 con centímetros.",
-        "Encontrar la longitud desconocida en cualquier posición: al final, en medio o al inicio.",
-        "Comparar longitudes y hallar cuánto más larga o más corta es una que otra."
+        "Resolver problemas de longitud en los que se busca el inicio, el cambio o el resultado",
+        "Representar un problema con el dibujo de una regla: el total arriba y las partes abajo",
+        "Sumar y restar longitudes en centímetros hasta 100",
+        "No dejarse llevar por palabras como “más larga”, sino entender el problema"
       ],
       "howToPlay": [
-        "Lee la historia de Bram y coloca las longitudes conocidas en la cinta métrica.",
-        "Marca el lugar de la longitud que falta y piensa: ¿hay que agregar, quitar o comparar?",
-        "Escribe la longitud que falta en centímetros y revisa si la tabla queda bien."
+        "Lee el pedido; luego toca una tabla y un riel para ponerla ahí, o arrástrala: la longitud más larga en el riel de arriba y las partes en el de abajo.",
+        "Escribe la tabla misteriosa en el teclado y oprime Revisar. Toca el nivel de burbuja cuando quieras para probar el banco.",
+        "En la configuración, elige números hasta 80 de 5 en 5 o hasta 100, y si se ve la regla del banco."
       ],
       "learningGoals": [
-        "Resolver y representar problemas de longitudes en la cinta métrica.",
-        "Calcular con flexibilidad cuando la incógnita cambia de lugar.",
-        "Construir un sentido firme de las longitudes en centímetros hasta 100."
+        "Resolver problemas de longitud hasta 100 con la incógnita en cualquier lugar.",
+        "Representar un problema de longitudes como dos longitudes iguales: el total y las partes una tras otra.",
+        "Escribir la igualdad que corresponde al problema, con la incógnita donde el problema la pone."
       ]
     },
     "gauge-good-guess.estimate.2-md-a-3": {

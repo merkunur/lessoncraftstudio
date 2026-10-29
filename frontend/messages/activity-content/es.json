@@ -4566,6 +4566,29 @@
         "Elegir la palabra que mejor va en una oración.",
         "Reconocer palabras que significan lo mismo."
       ]
+    },
+    "clock-digital.match-clocks.2-md-c-7": {
+      "about": [
+        "Un reloj digital y un reloj de manecillas pueden marcar la misma hora, y los niños tienen que aprender a verlo. El reloj de Sprocket es un pequeño tablero de conexiones: cuatro relojes de manecillas, cada uno con un enchufe y una lámpara, y tres tarjetas digitales, cada una con un cable. El niño conecta cada tarjeta al reloj que, según él, marca la misma hora. Un reloj no va con ninguna tarjeta: es una trampa para un error común, como confundir las manecillas o poner la manecilla corta en el número equivocado.",
+        "Cuando el niño presiona Revisar, cada tarjeta dibuja su hora con manecillas punteadas sobre el reloj donde está conectada. Donde las manecillas punteadas quedan justo sobre las del reloj, se enciende la lámpara y la pareja se queda conectada. Donde no, dos pares de manecillas comparten la misma carátula, y la manecilla que no coincide parpadea: la corta si la hora está mal, la larga si los minutos están mal. La pista dice dónde mirar; en el segundo intento fallido aparecen puntos de 5 en 5 minutos a lo largo de la manecilla larga punteada, y los números junto a la manecilla corta punteada se ven en negrita. Los dígitos de la hora y las manecillas cortas son coral; los dígitos de los minutos y las manecillas largas, verde azulado: la tarjeta y el reloj usan el mismo código de color.",
+        "Hay dos niveles: horas en punto y medias horas, y luego cuartos de hora y de 5 en 5 minutos. Un ajuste muestra los doce números en los relojes o solo el 12, el 3, el 6 y el 9. La actividad sigue los planes y programas de la SEP, en el campo formativo Saberes y pensamiento científico: leer la hora en relojes de manecillas y digitales. Funciona sin sonido, sin cronómetro y sin puntos."
+      ],
+      "practices": [
+        "Relacionar una hora digital con un reloj de manecillas",
+        "Distinguir la manecilla corta de la larga",
+        "Ver dónde queda la manecilla corta entre dos números",
+        "Contar de 5 en 5 desde el 12 para leer los minutos"
+      ],
+      "howToPlay": [
+        "Toca una tarjeta y luego el reloj que marca la misma hora, o arrastra la tarjeta hasta el reloj. Toca dos veces una tarjeta conectada para desconectarla.",
+        "Conecta las tres tarjetas y presiona Revisar. Se enciende una lámpara donde las manecillas punteadas quedan sobre las del reloj; cambia las parejas que siguen apagadas.",
+        "En los ajustes, elige las horas (en punto y medias horas, o cuartos de hora y de 5 en 5 minutos) y si los relojes muestran los doce números."
+      ],
+      "learningGoals": [
+        "Leer la hora en relojes de manecillas y digitales, de 5 en 5 minutos.",
+        "Leer la hora en la manecilla corta y los minutos en la manecilla larga.",
+        "Saber que a la media hora la manecilla corta está a la mitad entre dos números."
+      ]
     }
   }
 }

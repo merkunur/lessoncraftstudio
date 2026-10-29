@@ -3098,7 +3098,7 @@
     "hoppers-number-line.jump-sums.2-md-b-6": {
       "about": [
         "Hopper de kikker zit op een rij stapstenen in een vijver, en die stenen zijn een getallenlijn: ze liggen even ver uit elkaar en sommige hebben hun getal. Elk verhaal geeft een start en een sprong, bijvoorbeeld 'Hopper zit op 43. Hij springt 12 vooruit.' Het kind sleept Hopper naar zijn startsteen en tikt op hem om hem de kant van het verhaal op te draaien, want hij springt alleen de kant op waar zijn neus naar wijst. Daarna laadt het zijn veer met de lengte van de sprong, gemaakt van dikke tienringen en dunne eenringen: 12 is één tiental en twee eenheden.",
-        "Voor de sprong sleept het kind een leliblad naar de steen waar Hopper volgens hem landt. Bij Spring schiet de veer los: één boog per ring, elke boog van een steen naar een andere steen, zodat de startsteen nooit wordt meegeteld. Ligt het leliblad onder zijn laatste landing, dan landt hij erop en gaat er een lotusbloem open. Zo niet, dan plonst hij in het water en krijgen de stenen tussen hem en het leliblad kringen, die precies laten zien hoe ver de voorspelling ernaast zat. Een verkeerde start, de verkeerde kant of de verkeerde lading krijgen elk een eigen hint. Na een tweede misser laten gestippelde sprongen de goede weg zien, zonder de laatste steen te noemen.",
+        "Voor de sprong sleept het kind een lelieblad naar de steen waar Hopper volgens hem landt. Bij Spring schiet de veer los: één boog per ring, elke boog van een steen naar een andere steen, zodat de startsteen nooit wordt meegeteld. Ligt het lelieblad onder zijn laatste landing, dan landt hij erop en gaat er een lotusbloem open. Zo niet, dan plonst hij in het water en krijgen de stenen tussen hem en het lelieblad kringen, die precies laten zien hoe ver de voorspelling ernaast zat. Een verkeerde start, de verkeerde kant of de verkeerde lading krijgen elk een eigen hint. Na een tweede misser laten gestippelde sprongen de goede weg zien, zonder de laatste steen te noemen.",
         "Er is een getallenlijn tot 20, een tot 100 (stukken zoals 40 tot 60, waarop maar elke vijfde steen een getal heeft, en een lijn met sprongen van 10) en gelijke sprongen vanaf 0 of terug naar de kant, als voorbereiding op vermenigvuldigen en delen. De activiteit sluit aan bij de SLO-kerndoelen en past in groep 4: optellen en aftrekken tot 100 laten zien op de getallenlijn. Ze werkt zonder geluid, zonder tijdsdruk en zonder punten."
       ],
       "practices": [
@@ -3109,7 +3109,7 @@
       ],
       "howToPlay": [
         "Lees het verhaal. Sleep Hopper naar zijn startsteen en tik op hem om hem vooruit of achteruit te draaien.",
-        "Tik op tien en één om zijn veer met de lengte van de sprong te laden en sleep dan het leliblad naar de plek waar hij landt. Bij gelijke sprongen tik je aan hoeveel sprongen hij maakt.",
+        "Tik op tien en één om zijn veer met de lengte van de sprong te laden en sleep dan het lelieblad naar de plek waar hij landt. Bij gelijke sprongen tik je aan hoeveel sprongen hij maakt.",
         "Druk op Spring. In de instellingen kies je de getallenlijn (tot 20, tot 100 of gelijke sprongen) en hoeveel getallen er bij de stenen staan."
       ],
       "learningGoals": [
@@ -4638,6 +4638,29 @@
         "Woorden ordenen naar sterkte.",
         "Het woord kiezen dat het best in een zin past.",
         "Woorden herkennen die hetzelfde betekenen."
+      ]
+    },
+    "clock-digital.match-clocks.2-md-c-7": {
+      "about": [
+        "Een digitale klok en een wijzerklok kunnen dezelfde tijd laten zien, en een kind moet leren dat te zien. De klok van Kukel is een klein schakelbord: vier wijzerklokken, elk met een stopcontact en een lampje, en drie digitale kaarten, elk met een snoer. Het kind steekt elke kaart in de klok die volgens hem dezelfde tijd laat zien. Eén klok past bij geen enkele kaart: dat is een valkuil voor een bekende fout, zoals verwisselde wijzers of een kleine wijzer bij het verkeerde getal.",
+        "Als het kind op Controleer drukt, tekent elke kaart haar tijd als stippelwijzers op de klok waar ze in zit. Waar de stippelwijzers precies op de wijzers van de klok vallen, gaat het lampje aan en blijft het paar zitten. Waar dat niet zo is, staan er twee paar wijzers op één wijzerplaat, en de wijzer die niet klopt knippert: de kleine wijzer als het uur niet klopt, de grote als de minuten niet kloppen. De hint zegt waar je moet kijken; bij een tweede misser verschijnen stippen per 5 minuten langs de grote stippelwijzer en worden de getallen naast de kleine stippelwijzer dikgedrukt. De uurcijfers en de kleine wijzers zijn koraalrood, de minutencijfers en de grote wijzers blauwgroen: kaart en klok gebruiken dezelfde kleuren.",
+        "Er zijn twee niveaus: hele en halve uren, daarna kwartieren en tijden per 5 minuten. Met een instelling staan alle twaalf getallen op de klokken of alleen 12, 3, 6 en 9. De activiteit sluit aan bij de SLO-kerndoelen voor meten: klokkijken op een wijzerklok en een digitale klok. Ze werkt zonder geluid, zonder tijdsdruk en zonder punten."
+      ],
+      "practices": [
+        "Een digitale tijd koppelen aan een wijzerklok",
+        "De kleine en de grote wijzer uit elkaar houden",
+        "Zien waar de kleine wijzer tussen twee getallen staat",
+        "Per 5 tellen vanaf de 12 om de minuten te lezen"
+      ],
+      "howToPlay": [
+        "Tik op een kaart en dan op de klok met dezelfde tijd, of sleep de kaart naar de klok. Tik twee keer op een kaart die vastzit om de stekker eruit te halen.",
+        "Steek alle drie de kaarten in en druk op Controleer. Een lampje gaat aan waar de stippelwijzers op de wijzers van de klok vallen; verplaats de paren die donker blijven.",
+        "Kies in de instellingen de tijden (hele en halve uren, of kwartieren en per 5 minuten) en of de klokken alle twaalf getallen laten zien."
+      ],
+      "learningGoals": [
+        "Tijden lezen op een wijzerklok en een digitale klok, per 5 minuten.",
+        "Het uur lezen aan de kleine wijzer en de minuten aan de grote wijzer.",
+        "Weten dat de kleine wijzer bij 30 minuten precies tussen twee getallen staat."
       ]
     }
   }

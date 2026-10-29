@@ -1265,25 +1265,25 @@
     },
     "clock-digital.match-clocks.2-md-c-7": {
       "about": [
-        "The child reads a digital time — like 3:00, 7:30, 10:15, or 5:20 — then taps the analog clock whose hands match it from three clock faces. Sprocket the rooster cheers along in this interactive Grade 2 time activity that connects the two ways a clock shows time, right in the browser with nothing to install and no account.",
-        "The big idea is that a digital time and a clock face say the same thing in two languages, and the child has to translate between them. The wrong choices are close clocks — the same hour at the half-hour instead of o'clock, or quarter to instead of quarter past — so a quick glance is not enough; the child has to read both hands on each face to find the true match. Times run from o'clock and half past to quarter and five-minute marks, covering the full range of Grade 2 clock reading.",
-        "It is aligned to Common Core 2.MD.C.7 — telling and writing time from analog and digital clocks to the nearest five minutes. No timer, no score — just calm, playful practice."
+        "A digital clock and a clock with hands can show the same time, and a child has to learn to see that they do. Sprocket's Clock is a small switchboard: four clocks with hands, each with a socket and a lamp, and three digital cards, each with a cable. The child plugs every card into the clock it thinks shows the same time. One clock matches no card: it is a trap built for one common mistake, such as swapped hands or a short hand drawn on the wrong number.",
+        "When the child presses Check, each card draws its own time as dashed hands on the clock it is plugged into. Where the dashed hands sit exactly on the clock's hands, the lamp lights and that pair stays plugged in. Where they do not, two sets of hands share one face, and the hand that disagrees blinks: the short hand when the hour is wrong, the long hand when the minutes are wrong. The hint names what to look at, and a second miss adds dots every five minutes along the dashed long hand and makes the numbers beside the dashed short hand bold. Hour digits and short hands are coral, minute digits and long hands are teal, so the card and the clock use one colour code.",
+        "There are two levels: o'clock and half past, then quarter hours and five-minute times. A setting shows all twelve numbers on the clocks or only 12, 3, 6 and 9. It follows Common Core 2.MD.C.7 (tell and write time from analog and digital clocks to the nearest five minutes). It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Reading a digital time accurately, including the minutes",
-        "Reading both hands on an analog clock face",
-        "Matching a digital time to the clock face that shows it",
-        "Telling close clock faces apart — o'clock from half past, quarter past from quarter to"
+        "Match a digital time to a clock with hands",
+        "Tell the short hand from the long hand",
+        "See where the short hand sits at half past and quarter to",
+        "Count by fives from the 12 to read the minutes"
       ],
       "howToPlay": [
-        "Read the digital time shown at the top.",
-        "Look at the three analog clocks and tap the one whose hands match, then check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Tap a card, then the clock that shows the same time, or drag the card onto the clock. Tap a plugged card twice to pull its plug out.",
+        "Plug in all three cards and press Check. A lamp lights where the dashed hands land on the clock's hands; fix the pairs that stay dark.",
+        "In the settings, choose the times (o'clock and half past, or quarter hours and five minutes) and whether the clocks show all twelve numbers."
       ],
       "learningGoals": [
-        "Match a digital time to its analog clock face to the nearest five minutes — the focus of Common Core 2.MD.C.7.",
-        "Read both clock hands to tell similar times apart.",
-        "Build the fluent back-and-forth between digital and analog clocks that everyday time reading depends on."
+        "Tell and write time from analog and digital clocks to the nearest five minutes (Common Core 2.MD.C.7).",
+        "Read the hour from the short hand and the minutes from the long hand.",
+        "Know that at half past the short hand sits halfway between two numbers."
       ]
     },
     "clock-digital.read-five-minute.2-md-c-7": {

@@ -3855,6 +3855,29 @@
         "Se, at timerne tæller videre efter klokken tolv midt på dagen: 13, 14, 15.",
         "Skrive midt på dagen som 12.00 og midnat som 00.00."
       ]
+    },
+    "clock-digital.match-clocks.2-md-c-7": {
+      "about": [
+        "Et digitalt ur og et ur med visere kan vise det samme klokkeslæt, og barnet skal lære at se det. Sprockets ur er en lille tavle med stikkontakter: fire ure med visere, hver med en stikkontakt og en lampe, og tre digitale kort, hver med en ledning. Barnet sætter hvert kort i det ur, som det tror viser det samme klokkeslæt. Et af urene passer ikke til noget kort: det er en fælde for en typisk fejl, fx at viserne bytter plads, eller at den lille viser står ved det forkerte tal.",
+        "Når barnet trykker på Tjek, tegner hvert kort sit klokkeslæt som stiplede visere på det ur, det sidder i. Hvor de stiplede visere lander præcis på urets visere, tænder lampen, og parret bliver siddende. Hvor de ikke gør, står der to sæt visere på den samme urskive, og den viser, der ikke passer, blinker: den lille viser, når timen er forkert, den store, når minutterne er forkerte. Ledetråden siger, hvad barnet skal se på. Ved den anden fejl kommer der prikker for hvert femte minut langs den stiplede store viser, og tallene ved siden af den stiplede lille viser bliver fede. Timetallene og de små visere er koralrøde, minuttallene og de store visere blågrønne: kortet og uret bruger de samme farver.",
+        "Der er to niveauer: hele og halve timer, derefter kvarterer og hvert femte minut. En indstilling viser alle tolv tal på urene eller kun 12, 3, 6 og 9. Aktiviteten er i tråd med Fælles Mål for måling: at aflæse analoge og digitale ure. Den virker uden lyd, og der er ingen tidtagning og ingen point."
+      ],
+      "practices": [
+        "Sætte et digitalt klokkeslæt sammen med et ur med visere",
+        "Kende forskel på den lille og den store viser",
+        "Se, hvor den lille viser står mellem to tal",
+        "Tælle fem ad gangen fra 12-tallet for at aflæse minutterne"
+      ],
+      "howToPlay": [
+        "Tryk på et kort og så på det ur, der viser det samme klokkeslæt, eller træk kortet hen til uret. Tryk to gange på et kort, der sidder i, for at trække stikket ud.",
+        "Sæt alle tre kort i, og tryk på Tjek. En lampe tænder, hvor de stiplede visere lander på urets visere; flyt de par, der forbliver mørke.",
+        "I indstillingerne vælger du klokkeslæt (hele og halve timer eller kvarterer og hvert femte minut), og om urene viser alle tolv tal."
+      ],
+      "learningGoals": [
+        "Aflæse klokkeslæt på analoge og digitale ure med fem minutters nøjagtighed.",
+        "Aflæse timen på den lille viser og minutterne på den store viser.",
+        "Vide, at den lille viser står midt mellem to tal, når den store viser står på 6-tallet."
+      ]
     }
   }
 }

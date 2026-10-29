@@ -4567,6 +4567,29 @@
         "Escolher a palavra que combina melhor com uma frase.",
         "Reconhecer palavras que querem dizer a mesma coisa."
       ]
+    },
+    "clock-digital.match-clocks.2-md-c-7": {
+      "about": [
+        "Um relógio digital e um relógio de ponteiros podem mostrar a mesma hora, e a criança precisa aprender a enxergar isso. O relógio do Sprocket é um pequeno painel de ligações: quatro relógios de ponteiros, cada um com uma tomada e uma lâmpada, e três cartões digitais, cada um com um cabo. A criança liga cada cartão ao relógio que, para ela, mostra a mesma hora. Um relógio não combina com nenhum cartão: é uma armadilha para um erro comum, como trocar os ponteiros ou colocar o ponteiro pequeno no número errado.",
+        "Quando a criança aperta Conferir, cada cartão desenha a sua hora com ponteiros tracejados no relógio em que está ligado. Onde os ponteiros tracejados ficam bem em cima dos ponteiros do relógio, a lâmpada acende e o par continua ligado. Onde não ficam, dois pares de ponteiros dividem o mesmo mostrador, e o ponteiro que não combina pisca: o pequeno quando a hora está errada, o grande quando os minutos estão errados. A dica diz para onde olhar; no segundo erro aparecem pontos de 5 em 5 minutos ao longo do ponteiro grande tracejado, e os números ao lado do ponteiro pequeno tracejado ficam em negrito. Os algarismos das horas e os ponteiros pequenos são coral; os dos minutos e os ponteiros grandes, verde-azulados: o cartão e o relógio usam o mesmo código de cores.",
+        "Há dois níveis: horas exatas e meias horas, depois quartos de hora e de 5 em 5 minutos. Um ajuste mostra os doze números nos relógios ou só o 12, o 3, o 6 e o 9. A atividade está alinhada à BNCC, na unidade temática Grandezas e medidas: ler horas em relógios analógicos e digitais. Funciona sem som, sem cronômetro e sem pontuação."
+      ],
+      "practices": [
+        "Ligar uma hora digital a um relógio de ponteiros",
+        "Diferenciar o ponteiro pequeno do ponteiro grande",
+        "Ver onde fica o ponteiro pequeno entre dois números",
+        "Contar de 5 em 5 a partir do 12 para ler os minutos"
+      ],
+      "howToPlay": [
+        "Toque em um cartão e depois no relógio que mostra a mesma hora, ou arraste o cartão até o relógio. Toque duas vezes em um cartão ligado para desligá-lo.",
+        "Ligue os três cartões e aperte Conferir. Uma lâmpada acende onde os ponteiros tracejados ficam em cima dos ponteiros do relógio; troque os pares que continuam apagados.",
+        "Nos ajustes, escolha as horas (horas exatas e meias horas, ou quartos de hora e de 5 em 5 minutos) e se os relógios mostram os doze números."
+      ],
+      "learningGoals": [
+        "Ler horas em relógios analógicos e digitais, de 5 em 5 minutos.",
+        "Ler a hora no ponteiro pequeno e os minutos no ponteiro grande.",
+        "Saber que, na meia hora, o ponteiro pequeno fica no meio entre dois números."
+      ]
     }
   }
 }

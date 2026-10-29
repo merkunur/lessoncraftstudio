@@ -80,6 +80,8 @@
     if (!st.coils.length) return { result: 'note', key: 'hintLoad' };
     if (!st.countSet) return { result: 'note', key: 'hintMarks' };
     if (st.padAt === null) return { result: 'note', key: 'hintPad' };
+    /* nothing changed since the last Let go (every move clears the verdict): the same build lands on the same stone — remind, never count a miss */
+    if (st.verdict) return { result: 'note', key: st.verdict.kind === 'splash' ? 'hintMovePad' : 'hintSame' };
     if (st.frogAt !== r.start) { st.misses++; st.help = st.misses >= 2; st.verdict = { kind: 'start' }; return { result: 'miss', kind: 'start' }; }
     var R = run(st), dirOk = st.facing === r.dir, sizeOk = size(st) === r.size, countOk = st.count === r.count;
     var onPad = R.final === st.padAt, right = dirOk && sizeOk && countOk;

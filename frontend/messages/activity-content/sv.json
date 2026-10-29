@@ -4151,6 +4151,29 @@
         "Se att timmarna fortsätter att räknas efter klockan tolv på dagen: 13, 14, 15.",
         "Skriva mitt på dagen som 12.00 och midnatt som 00.00."
       ]
+    },
+    "clock-digital.match-clocks.2-md-c-7": {
+      "about": [
+        "En digital klocka och en klocka med visare kan visa samma tid, och barnet behöver lära sig att se det. Tores klocka är en liten kopplingstavla: fyra klockor med visare, var och en med ett uttag och en lampa, och tre digitala kort, vart och ett med en sladd. Barnet kopplar in varje kort i den klocka som det tror visar samma tid. En klocka passar inte ihop med något kort: den är en fälla för ett vanligt fel, till exempel att visarna byter plats eller att lilla visaren står vid fel siffra.",
+        "När barnet trycker på Kolla ritar varje kort sin tid som streckade visare på klockan som det är inkopplat i. Där de streckade visarna hamnar precis på klockans visare tänds lampan, och paret sitter kvar. Där de inte gör det står två par visare på samma urtavla, och visaren som inte stämmer blinkar: lilla visaren när timmen är fel, stora visaren när minuterna är fel. Ledtråden säger vad barnet ska titta på. Vid det andra felet syns prickar för var femte minut längs den streckade stora visaren, och siffrorna bredvid den streckade lilla visaren blir feta. Timsiffrorna och de små visarna är korallröda, minutsiffrorna och de stora visarna blågröna: kortet och klockan har samma färger.",
+        "Det finns två nivåer: hela och halva timmar, sedan kvartar och var femte minut. En inställning visar alla tolv siffror på klockorna eller bara 12, 3, 6 och 9. Aktiviteten följer Lgr22, centralt innehåll om mätning och tid: att läsa av analoga och digitala klockor. Den fungerar utan ljud, och det finns ingen tidtagning och inga poäng."
+      ],
+      "practices": [
+        "Para ihop en digital tid med en klocka med visare",
+        "Skilja lilla visaren från stora visaren",
+        "Se var lilla visaren står mellan två siffror",
+        "Räkna med fem i taget från 12:an för att läsa minuterna"
+      ],
+      "howToPlay": [
+        "Tryck på ett kort och sedan på klockan som visar samma tid, eller dra kortet till klockan. Tryck två gånger på ett inkopplat kort för att dra ur kontakten.",
+        "Koppla in alla tre korten och tryck på Kolla. En lampa tänds där de streckade visarna hamnar på klockans visare; flytta de par som förblir mörka.",
+        "I inställningarna väljer du tiderna (hela och halva timmar, eller kvartar och var femte minut) och om klockorna visar alla tolv siffror."
+      ],
+      "learningGoals": [
+        "Läsa av tiden på analoga och digitala klockor med fem minuters noggrannhet.",
+        "Läsa timmen på lilla visaren och minuterna på stora visaren.",
+        "Veta att lilla visaren står mitt emellan två siffror när stora visaren står på 6:an."
+      ]
     }
   }
 }

@@ -103,8 +103,8 @@
   },
   {
     "id": "clock-digital.match-clocks.2-md-c-7",
-    "tool": "clock-digital-activity",
-    "task_template": "match-time",
+    "tool": "drive-cables-activity",
+    "task_template": "drive-cables",
     "alignment": { "framework": "CCSS", "code": "2.MD.C.7", "grade": "2", "strand": "Measurement & Data" },
     "theme": null,
     "params": {
@@ -124,15 +124,42 @@
     },
     "slug": {
       "en": "match-analog-and-digital-clocks",
-      "fr": "associer-heure-numerique-et-horloge-a-aiguilles-ce2"
+      "fr": "associer-heure-numerique-et-horloge-a-aiguilles-ce2",
+      "de": "analoge-und-digitale-uhr-zuordnen-klasse-2",
+      "es": "relacionar-reloj-de-manecillas-y-reloj-digital-segundo-grado",
+      "pt": "relacionar-relogio-de-ponteiros-e-relogio-digital-2-ano",
+      "it": "abbinare-orologio-analogico-e-digitale-classe-seconda",
+      "nl": "analoge-en-digitale-klok-koppelen-groep-4",
+      "sv": "para-ihop-analog-och-digital-klocka-ak-2",
+      "da": "saet-analogt-og-digitalt-ur-sammen-2-klasse",
+      "no": "koble-analog-og-digital-klokke-2-trinn",
+      "fi": "yhdista-viisarikello-ja-digikello-2-luokka"
     },
     "page_title": {
       "en": "Sprocket's Clock — Match Analog and Digital Clocks (Grade 2)",
-      "fr": "L'horloge de Sprocket — Associer l'heure numérique et l'horloge à aiguilles (CE2)"
+      "fr": "L'horloge de Sprocket — Associer l'heure numérique et l'horloge à aiguilles (CE2)",
+      "de": "Analoge und digitale Uhr zuordnen – Klasse 2 | Sprockets Uhr",
+      "es": "Reloj de manecillas y reloj digital: relaciona la hora (2.º grado de primaria)",
+      "pt": "Relógio de ponteiros e relógio digital: ligue as horas — 2º ano",
+      "it": "Orologio analogico e digitale: abbina le ore – classe seconda",
+      "nl": "Analoge en digitale klok koppelen – klokkijken groep 4",
+      "sv": "Tores klocka – para ihop analog och digital tid (åk 2)",
+      "da": "Sprockets ur – sæt analogt og digitalt ur sammen (2. klasse)",
+      "no": "Sprockets klokke – koble analog og digital tid (2. trinn)",
+      "fi": "Sprocketin kello – yhdistä viisarikello ja digikello (2. lk)"
     },
     "page_intro": {
       "en": "An interactive Grade 2 time activity: read a digital time, then tap the analog clock whose hands match it. Children connect the two ways to show time — o'clock, half past, quarter past and to, and five-minute times — by reading each clock face. Sprocket the rooster cheers them on. Common Core 2.MD.C.7.",
-      "fr": "Avec Sprocket le coq, votre enfant lit une heure écrite en chiffres et touche l'horloge à aiguilles qui montre cette heure : il voit « 3 h 00 » et choisit l'horloge dont la grande aiguille est sur le 12. Activité interactive, CE2, « Grandeurs et mesures »."
+      "fr": "Avec Sprocket le coq, votre enfant lit une heure écrite en chiffres et touche l'horloge à aiguilles qui montre cette heure : il voit « 3 h 00 » et choisit l'horloge dont la grande aiguille est sur le 12. Activité interactive, CE2, « Grandeurs et mesures ».",
+      "de": "Ihr Kind liest die Uhrzeit auf drei Digitalkarten und steckt jede Karte in die passende Uhr mit Zeigern. Beim Prüfen zeichnet jede Karte ihre Uhrzeit als gestrichelte Zeiger auf die Uhr: Nur wo sie genau auf den Zeigern liegen, leuchtet die Lampe. Die vierte Uhr ist eine Falle für einen typischen Fehler, zum Beispiel vertauschte Zeiger. Volle und halbe Stunden, dann Viertelstunden und 5-Minuten-Schritte. Interaktiv, Klasse 2, passend zum Lehrplan.",
+      "es": "Tu hijo lee la hora en tres tarjetas digitales y conecta cada una al reloj de manecillas que marca la misma hora. Al revisar, cada tarjeta dibuja su hora con manecillas punteadas sobre el reloj: la lámpara solo se enciende si quedan justo sobre las manecillas. El cuarto reloj es una trampa para un error típico, como confundir las manecillas. Horas en punto y medias horas, luego cuartos de hora y de 5 en 5 minutos. Actividad interactiva de segundo grado, alineada con los programas de la SEP.",
+      "pt": "A criança lê a hora em três cartões digitais e liga cada um ao relógio de ponteiros que mostra a mesma hora. Ao conferir, cada cartão desenha a sua hora com ponteiros tracejados no relógio: a lâmpada só acende quando eles ficam bem em cima dos ponteiros. O quarto relógio é uma armadilha para um erro comum, como trocar os ponteiros. Horas exatas e meias horas, depois quartos de hora e de 5 em 5 minutos. Atividade interativa para o 2º ano, alinhada à BNCC.",
+      "it": "Il bambino legge l’ora su tre cartellini digitali e collega ognuno all’orologio a lancette che segna la stessa ora. Al controllo, ogni cartellino disegna la sua ora con lancette tratteggiate sull’orologio: la lampadina si accende solo se cadono proprio sulle lancette. Il quarto orologio è una trappola per un errore tipico, come scambiare le lancette. Ore esatte e mezze ore, poi quarti d’ora e minuti di 5 in 5. Attività interattiva per la classe seconda, in linea con le Indicazioni nazionali.",
+      "nl": "Je kind leest de tijd op drie digitale kaarten en steekt elke kaart in de wijzerklok die dezelfde tijd laat zien. Bij het controleren tekent elke kaart haar tijd als stippelwijzers op de klok: alleen waar ze precies op de wijzers vallen, gaat het lampje aan. De vierde klok is een valkuil voor een bekende fout, zoals de wijzers omdraaien. Hele en halve uren, daarna kwartieren en tijden per 5 minuten. Interactief, groep 4, passend bij de kerndoelen.",
+      "sv": "Barnet läser tiden på tre digitala kort och kopplar in varje kort i den analoga klocka som visar samma tid. När barnet trycker på Kolla ritar varje kort sin tid som streckade visare på klockan: lampan tänds bara där de hamnar precis på visarna. Den fjärde klockan är en fälla för ett vanligt fel, till exempel att visarna byter plats. Hela och halva timmar, sedan kvartar och var femte minut. Interaktivt, åk 2, i linje med Lgr22.",
+      "da": "Barnet læser klokkeslættet på tre digitale kort og sætter hvert kort i det analoge ur, der viser det samme klokkeslæt. Når barnet trykker på Tjek, tegner hvert kort sit klokkeslæt som stiplede visere på uret: lampen tænder kun, hvor de lander præcis på viserne. Det fjerde ur er en fælde for en typisk fejl, fx at viserne bytter plads. Hele og halve timer, derefter kvarterer og hvert femte minut. Interaktivt, 2. klasse, i tråd med Fælles Mål.",
+      "no": "Barnet leser klokkeslettet på tre digitale kort og kobler hvert kort til den analoge klokka som viser det samme klokkeslettet. Når barnet trykker på Sjekk, tegner hvert kort klokkeslettet sitt som stiplede visere på klokka: lampen lyser bare der de havner akkurat på viserne. Den fjerde klokka er en felle for en vanlig feil, for eksempel at viserne bytter plass. Hele og halve timer, deretter kvarter og hvert femte minutt. Interaktivt, 2. trinn, i tråd med LK20.",
+      "fi": "Lapsi lukee ajan kolmesta digitaalisesta kortista ja kytkee jokaisen kortin viisarikelloon, joka näyttää saman ajan. Tarkistaessa jokainen kortti piirtää aikansa katkoviivaisina viisareina kelloon: lamppu syttyy vain, jos ne osuvat juuri viisarien päälle. Neljäs kello on ansa tavalliselle virheelle, esimerkiksi viisarien sekoittamiselle. Tasa- ja puolitunnit, sitten vartit ja viiden minuutin ajat. Interaktiivinen, 2. luokka, perusopetuksen opetussuunnitelman (OPS 2014) mukainen."
     },
     "kid_prompt_template": "clock-digital"
   }

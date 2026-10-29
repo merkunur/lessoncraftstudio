@@ -127,6 +127,13 @@ ok(graded > 200000, 'C: graded ' + graded + ' builds');
   ok(s5.padAt === 0 && !C.placePad(s5, 5) && s5.padAt === 0, 'D: a division round keeps the pad at the bank');
   const s6 = C.newState('20', 0); C.placeFrog(s6, 6); C.addCoil(s6, 1); C.placePad(s6, 3); C.check(s6);
   ok(!!s6.verdict, 'D: a miss leaves its verdict'); C.addCoil(s6, 1); ok(s6.verdict === null, 'D: a new move clears it');
+  /* Let go again with nothing changed: the same build lands on the same stone — a reminder, never a miss (operator 2026-10-29: "remind the user to move the pad") */
+  const sp8 = C.newState('20', 0); C.placeFrog(sp8, 6); for (let a = 0; a < 8; a++) C.addCoil(sp8, 1); C.placePad(sp8, 11);
+  ok(C.check(sp8).kind === 'splash' && sp8.misses === 1, 'D: a pad off his landing → a splash, one miss');
+  const again = C.check(sp8); ok(again.result === 'note' && again.key === 'hintMovePad' && sp8.misses === 1 && !sp8.help && sp8.verdict && sp8.verdict.kind === 'splash', 'D: Let go again without moving the pad → "move your pad first", no miss, the splash stays');
+  C.placePad(sp8, 14); ok(C.check(sp8).result === 'ok', 'D: the pad moved under his landing → he lands on it');
+  const sp9 = C.newState('20', 0); C.placeFrog(sp9, 5); C.addCoil(sp9, 1); C.placePad(sp9, 6); C.check(sp9);
+  const same = C.check(sp9); ok(same.result === 'note' && same.key === 'hintSame' && sp9.misses === 1, 'D: any other unchanged Let go → "change something first", no miss');
   const s7 = C.newState('20', 0); C.placeFrog(s7, 6); for (let a = 0; a < 8; a++) C.addCoil(s7, 1); C.placePad(s7, 14);
   ok(C.check(s7).result === 'ok' && s7.done, 'D: the true build wins');
   ok(!C.placeFrog(s7, 3) && !C.turn(s7) && !C.addCoil(s7, 1) && !C.undoCoil(s7) && !C.placePad(s7, 3) && C.check(s7).result === 'no', 'D: a solved round is locked');
@@ -242,6 +249,9 @@ ok(/if \(C\.labelled\(r, s, g\.every\)\)/.test(ACT_BODY), 'I: numerals follow th
 ok(/_byHop: function \(stops, per\) \{ if \(this\.st\.round\.level !== 'eq' \|\| !per\) return stops; return stops\.filter\(function \(v, j\) \{ return j % per === 0; \}\); \}/.test(ACT_BODY) && (ACT_BODY.match(/this\._byHop\(/g) || []).length >= 4, 'I: on equal hops each hop is one arc, wherever arcs are drawn');
 ok(/var e = every === 'every' \? 1 : every === 'ten' \? 10 : r\.level === '100' \? 5 : 2;/.test(CORE), 'I: some = every 2nd (every 5th within 100); every; every 10');
 
+/* a splash must read as a fall INTO the water, never as standing on the right stone (operator report 2026-10-29) */
+{ const m = ACT_BODY.match(/\.lp-frog\.is-splash img\{clip-path:inset\(0 0 (\d+)% 0\);transform:translateY\((\d+)%\)/); ok(m && +m[1] >= 50 && +m[2] >= 50, 'I: on a splash Hopper’s PICTURE sinks to his eyes, his button stays whole and tappable (clip ' + (m && m[1]) + '%, drop ' + (m && m[2]) + '%)'); }
+ok(/class="lp-drop" data-drop="1"/.test(ACT_BODY) && /if \(!anim && \(vk === 'splash'\)\)/.test(ACT_BODY), 'I: a splash throws spray around Hopper');
 /* ---------- J. the manifest row ---------- */
 const man = JSON.parse(fs.readFileSync(MAN_PATH, 'utf8')), list = Array.isArray(man) ? man : man.activities;
 const row = list.find((x) => x.id === 'hoppers-number-line.jump-sums.2-md-b-6');

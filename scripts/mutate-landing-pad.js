@@ -15,6 +15,7 @@ const FILES = { core: path.join(MINI, 'landing-pad-core.js'), act: path.join(MIN
 const read = (f) => fs.readFileSync(f, 'utf8').replace(/\r\n/g, '\n');
 const M = [
   /* the design's list (§12) */
+  ['an unchanged Let go counts a miss (no pad reminder)', 'core', "    if (st.verdict) return { result: 'note', key: st.verdict.kind === 'splash' ? 'hintMovePad' : 'hintSame' };", ''],
   ['the start stone counted as hop 1', 'core', 'var at = st.frogAt, stops = [at]', 'var at = st.frogAt - st.facing, stops = [at]'],
   ['facing ignored (always forward)', 'core', 'order.forEach(function (c) { at += st.facing * c; stops.push(at); });', 'order.forEach(function (c) { at += c; stops.push(at); });'],
   ['coils counted as 1 each', 'core', 'st.coils.forEach(function (c) { s += c; }); return s;', 'st.coils.forEach(function (c) { s += 1; }); return s;'],

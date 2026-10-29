@@ -56,3 +56,19 @@ ORDER row 157 · id `hoppers-number-line.jump-sums.2-md-b-6` (kept). Design: `de
   - `local-test-landing-pad.js`, 11 locales, real drags and taps: the scenarios in its header, plus 5 states × 8 widths.
   - `visual-qa-activity.js` passes; hierarchy 542/0; settings efficacy 2 live.
 - **Content:** prose claims, SERP copy, content tells, next delay and preflight routes all pass.
+
+## Fixes after the operator's play-through (2026-10-29)
+- **A splash read as a landing.** A wrong pad left Hopper drawn standing dry on the right stone, so the miss looked like a right answer marked wrong.
+  - His picture now sinks to his eyes with spray around him.
+  - His button stays whole, so he can still be tapped to turn.
+- **Let go again with nothing changed** used to count a second miss and jump to the dotted-hop help.
+  - Now an unchanged re-press after a splash says "Move your lily pad first. With the same spring, Hopper lands on the same stone."
+  - After any other kind of miss it says "Change something first".
+  - Neither counts as a miss (core `check`, gated + mutated).
+- **Turning was hidden** (tap Hopper).
+  - A ⇄ button now sits in the control row.
+  - A teal arrow on the water points the way his nose points.
+  - The wrong-direction hint ends with "Tap ⇄ to turn him around".
+  - On the narrowest phones the buttons are 48 px, so the pad and Let go stay above the fold.
+- **Reviewer (the 4 new strings ×11):** fr «pour qu’il se retourne» / «Faire demi-tour à Hopper»; pt «para onde o nariz dele aponta»; nl «lelieblad» (was «leliblad», now fixed in every string and the prose).
+- **Gates:** verify 1,293,338/0 · mutate 33/33 · local-test 2,211/0 · visual-qa 270 each in en/fi · hierarchy 596/0 · settings 2 live.

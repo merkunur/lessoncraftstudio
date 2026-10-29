@@ -3854,6 +3854,29 @@
         "Sen huomaaminen, että tunnit jatkuvat keskipäivän jälkeen: 13, 14, 15.",
         "Keskipäivän kirjoittaminen 12.00 ja keskiyön 0.00."
       ]
+    },
+    "clock-digital.match-clocks.2-md-c-7": {
+      "about": [
+        "Digitaalinen kello ja viisarikello voivat näyttää saman ajan, ja lapsen täytyy oppia näkemään se. Sprocketin kello on pieni kytkentätaulu: neljä viisarikelloa, joissa kussakin on pistorasia ja lamppu, ja kolme digitaalista korttia, joissa kussakin on johto. Lapsi kytkee jokaisen kortin siihen kelloon, joka hänen mielestään näyttää saman ajan. Yksi kelloista ei sovi yhteenkään korttiin: se on ansa tavalliselle virheelle, esimerkiksi viisarien sekoittamiselle tai lyhyelle viisarille väärän numeron kohdalla.",
+        "Kun lapsi painaa Tarkista, jokainen kortti piirtää aikansa katkoviivaisina viisareina siihen kelloon, johon se on kytketty. Kun katkoviivaiset viisarit osuvat juuri kellon viisarien päälle, lamppu syttyy ja pari jää paikalleen. Muuten samassa kellotaulussa on kaksi viisariparia, ja viisari, joka ei täsmää, vilkkuu: lyhyt viisari, kun tunti on väärin, ja pitkä viisari, kun minuutit ovat väärin. Vihje kertoo, mitä katsoa. Toisen virheen jälkeen katkoviivaisen pitkän viisarin matkalle tulee pisteet viiden minuutin välein, ja katkoviivaisen lyhyen viisarin vieressä olevat numerot lihavoituvat. Tuntien numerot ja lyhyet viisarit ovat korallinpunaisia, minuuttien numerot ja pitkät viisarit sinivihreitä: kortissa ja kellossa on samat värit.",
+        "Tasoja on kaksi: tasa- ja puolitunnit, sitten vartit ja viiden minuutin ajat. Asetuksesta kelloissa näkyvät kaikki kaksitoista numeroa tai vain 12, 3, 6 ja 9. Tehtävä tukee OPS 2014 -tavoitteita mittaamisessa: ajan lukeminen viisarikellosta ja digitaalisesta kellosta. Se toimii ilman ääntä, eikä siinä ole ajanottoa tai pisteitä."
+      ],
+      "practices": [
+        "Digitaalisen ajan yhdistäminen viisarikelloon",
+        "Lyhyen ja pitkän viisarin erottaminen",
+        "Lyhyen viisarin paikan näkeminen kahden numeron välissä",
+        "Minuuttien lukeminen laskemalla viisi kerrallaan numerosta 12"
+      ],
+      "howToPlay": [
+        "Napauta korttia ja sitten kelloa, joka näyttää saman ajan, tai vedä kortti kellon luo. Napauta kytkettyä korttia kahdesti, niin pistoke irtoaa.",
+        "Kytke kaikki kolme korttia ja paina Tarkista. Lamppu syttyy, kun katkoviivaiset viisarit osuvat kellon viisarien päälle; siirrä parit, jotka jäävät pimeiksi.",
+        "Valitse asetuksista ajat (tasa- ja puolitunnit tai vartit ja viiden minuutin ajat) ja näkyvätkö kelloissa kaikki kaksitoista numeroa."
+      ],
+      "learningGoals": [
+        "Ajan lukeminen viisarikellosta ja digitaalisesta kellosta viiden minuutin tarkkuudella.",
+        "Tunnin lukeminen lyhyestä viisarista ja minuuttien lukeminen pitkästä viisarista.",
+        "Tietää, että lyhyt viisari on kahden numeron puolivälissä, kun pitkä viisari on numeron 6 kohdalla."
+      ]
     }
   }
 }

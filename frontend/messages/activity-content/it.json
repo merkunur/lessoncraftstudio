@@ -4543,6 +4543,29 @@
         "Scegliere la parola più adatta a una frase.",
         "Riconoscere parole che vogliono dire la stessa cosa."
       ]
+    },
+    "clock-digital.match-clocks.2-md-c-7": {
+      "about": [
+        "Un orologio digitale e un orologio a lancette possono segnare la stessa ora, e il bambino deve imparare a vederlo. L’orologio di Sprocket è un piccolo quadro di collegamento: quattro orologi a lancette, ognuno con una presa e una lampadina, e tre cartellini digitali, ognuno con un cavo. Il bambino collega ogni cartellino all’orologio che, secondo lui, segna la stessa ora. Un orologio non va con nessun cartellino: è una trappola per un errore tipico, come scambiare le lancette o mettere la lancetta corta sul numero sbagliato.",
+        "Quando il bambino preme Controlla, ogni cartellino disegna la sua ora con lancette tratteggiate sull’orologio a cui è collegato. Dove le lancette tratteggiate cadono proprio sulle lancette dell’orologio, la lampadina si accende e la coppia resta collegata. Dove non succede, due coppie di lancette stanno sullo stesso quadrante, e la lancetta che non coincide lampeggia: la corta se l’ora è sbagliata, la lunga se sono sbagliati i minuti. Il suggerimento dice dove guardare; al secondo errore compaiono puntini ogni 5 minuti lungo la lancetta lunga tratteggiata, e i numeri accanto alla lancetta corta tratteggiata compaiono in grassetto. Le cifre delle ore e le lancette corte sono color corallo, le cifre dei minuti e le lancette lunghe verde petrolio: cartellino e orologio usano lo stesso codice di colori.",
+        "Ci sono due livelli: ore esatte e mezze ore, poi quarti d’ora e minuti di 5 in 5. Un’impostazione mostra tutti e dodici i numeri sugli orologi oppure solo 12, 3, 6 e 9. L’attività è in linea con le Indicazioni nazionali, nel nucleo Relazioni, dati e previsioni: leggere l’ora su orologi analogici e digitali. Funziona senza audio, senza cronometro e senza punteggio."
+      ],
+      "practices": [
+        "Abbinare un’ora digitale a un orologio a lancette",
+        "Distinguere la lancetta corta da quella lunga",
+        "Vedere dove sta la lancetta corta tra due numeri",
+        "Contare di 5 in 5 dal 12 per leggere i minuti"
+      ],
+      "howToPlay": [
+        "Tocca un cartellino e poi l’orologio che segna la stessa ora, oppure trascina il cartellino sull’orologio. Tocca due volte un cartellino collegato per staccarlo.",
+        "Collega tutti e tre i cartellini e premi Controlla. Una lampadina si accende dove le lancette tratteggiate cadono su quelle dell’orologio; cambia le coppie rimaste spente.",
+        "Nelle impostazioni scegli le ore (ore esatte e mezze ore, oppure quarti d’ora e di 5 in 5 minuti) e se gli orologi mostrano tutti e dodici i numeri."
+      ],
+      "learningGoals": [
+        "Leggere l’ora su orologi analogici e digitali, di 5 in 5 minuti.",
+        "Leggere l’ora sulla lancetta corta e i minuti sulla lancetta lunga.",
+        "Sapere che alla mezz’ora la lancetta corta è a metà tra due numeri."
+      ]
     }
   }
 }

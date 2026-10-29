@@ -3880,6 +3880,29 @@
         "Se at timene teller videre etter klokka tolv på dagen: 13, 14, 15.",
         "Skrive midt på dagen som 12.00 og midnatt som 00.00."
       ]
+    },
+    "clock-digital.match-clocks.2-md-c-7": {
+      "about": [
+        "En digital klokke og en klokke med visere kan vise det samme klokkeslettet, og barnet må lære å se det. Sprockets klokke er en liten koblingstavle: fire klokker med visere, hver med en stikkontakt og en lampe, og tre digitale kort, hvert med en ledning. Barnet kobler hvert kort til den klokka som det tror viser det samme klokkeslettet. Én av klokkene passer ikke til noe kort: den er en felle for en vanlig feil, for eksempel at viserne bytter plass, eller at den lille viseren står ved feil tall.",
+        "Når barnet trykker på Sjekk, tegner hvert kort klokkeslettet sitt som stiplede visere på klokka det står i. Der de stiplede viserne havner akkurat på klokkas visere, lyser lampen, og paret blir stående. Der de ikke gjør det, står det to par visere på den samme urskiva, og viseren som ikke stemmer, blinker: den lille viseren når timen er feil, den store når minuttene er feil. Tipset sier hva barnet skal se på. Ved den andre feilen kommer det prikker for hvert femte minutt langs den stiplede store viseren, og tallene ved siden av den stiplede lille viseren blir tykke. Timetallene og de små viserne er korallrøde, minuttallene og de store viserne blågrønne: kortet og klokka bruker de samme fargene.",
+        "Det er to nivåer: hele og halve timer, deretter kvarter og hvert femte minutt. En innstilling viser alle tolv tallene på klokkene eller bare 12, 3, 6 og 9. Aktiviteten er i tråd med LK20 om måling og tid: å lese av analoge og digitale klokker. Den virker uten lyd, og det er ingen tidtaking og ingen poeng."
+      ],
+      "practices": [
+        "Koble et digitalt klokkeslett til en klokke med visere",
+        "Skille den lille viseren fra den store",
+        "Se hvor den lille viseren står mellom to tall",
+        "Telle fem om gangen fra 12-tallet for å lese minuttene"
+      ],
+      "howToPlay": [
+        "Trykk på et kort og så på klokka som viser det samme klokkeslettet, eller dra kortet bort til klokka. Trykk to ganger på et kort som står i, for å trekke ut støpselet.",
+        "Koble til alle tre kortene og trykk på Sjekk. En lampe lyser der de stiplede viserne havner på klokkas visere; flytt parene som forblir mørke.",
+        "I innstillingene velger du klokkeslettene (hele og halve timer, eller kvarter og hvert femte minutt) og om klokkene viser alle tolv tallene."
+      ],
+      "learningGoals": [
+        "Lese av klokkeslett på analoge og digitale klokker med fem minutters nøyaktighet.",
+        "Lese timen på den lille viseren og minuttene på den store viseren.",
+        "Vite at den lille viseren står midt mellom to tall når den store viseren står på 6-tallet."
+      ]
     }
   }
 }

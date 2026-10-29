@@ -68,6 +68,11 @@ const R100 = C.rounds('100'), KTENS = R100.findIndex((r) => r.step === 10), KWIN
     s = await S(page); is(s.frogAt === 4, tag + ' a real drag puts Hopper on 4 (' + s.frogAt + ')');
     await L.click(page, 'frog', 'turn'); s = await S(page); is(s.facing === -1, tag + ' a tap turns him back');
     await L.click(page, 'frog', 'turn'); s = await S(page); is(s.facing === 1, tag + ' another tap turns him forward');
+    /* turning must be SEEN, not guessed (operator 2026-10-29): a ⇄ button and an arrow ahead of his nose */
+    is(await page.evaluate(() => document.querySelector('[data-face]').getAttribute('data-face')) === 'fwd', tag + ' the arrow on the water points forward');
+    await L.click(page, 'turn', 'the turn button'); s = await S(page);
+    is(s.facing === -1 && await page.evaluate(() => document.querySelector('[data-face]').getAttribute('data-face')) === 'back', tag + ' the ⇄ button turns him, and the arrow turns with him');
+    await L.click(page, 'turn', 'the turn button'); s = await S(page); is(s.facing === 1, tag + ' ⇄ again: forward');
     await load(page, 1, 2);
     s = await S(page);
     is(s.coils.length === 3 && await page.evaluate(() => { const w = document.querySelector('.lp-springwrap'); return w.getAttribute('data-tens') + '/' + w.getAttribute('data-ones'); }) === '1/2', tag + ' the spring holds 1 ten, 2 ones');
@@ -80,6 +85,9 @@ const R100 = C.rounds('100'), KTENS = R100.findIndex((r) => r.step === 10), KWIN
     is(await count(page, '[data-splash]') === 1 && await overArcs(page) === 3, tag + ' one arc per coil (3) and the splash rings');
     is(await page.evaluate(() => document.querySelector('[data-k="frog"]').getAttribute('data-at')) === '16', tag + ' Hopper is drawn where he really landed');
     is(sp(await note(page)) === sp(T(loc, 'hintPadOff')), tag + ' hintPadOff');
+    is(await count(page, '[data-drop]') >= 4, tag + ' the splash throws spray (he is in the water, not on the stone)');
+    await L.click(page, 'check', 'let go again'); await H.wait(40); s = await S(page);
+    is(s.misses === 1 && !s.help && sp(await note(page)) === sp(T(loc, 'hintMovePad')), tag + ' Let go again without moving the pad → "move your pad first", no second miss');
     await padTo(page, 17, 'move the pad'); await L.click(page, 'check', 'check'); await H.wait(40);
     s = await S(page);
     is(s.help && await count(page, '[data-ghost]') === 3 && sp(await note(page)) === sp(T(loc, 'hintGhost')), tag + ' miss 2 → three dotted hops + hintGhost');

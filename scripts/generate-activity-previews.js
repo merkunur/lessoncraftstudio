@@ -115,6 +115,10 @@ function seedScript(row) {
     // the invention at work: "3:00 p.m." written as 17:00 — the clock ran to 17: the tag says 17, tokens 13…17 dropped in the second ring, the given 3 o'clock left as dashed outlines
     return "(function(){var t=window['SecondRingActivity'];if(!t||!t.api)return;var go=function(){if(!t._picsReady){setTimeout(go,50);return;}t.FAST=true;t.OK_MS=600000;t.api.settings.times='1';t.api.settings.ring='keep';t._pool=null;t._ensurePool();t._start(0);t._render2();t._type('1');t._type('7');t._type('0');t._type('0');t._check();};go();})();";
   }
+  if (row.tool === 'drive-cables-activity') {
+    // the invention at work: 12:45 plugged into the 1:45 lure and checked — the card's dashed hands sit beside the clock's own, two lamps lit, the cables running to their sockets
+    return "(function(){var t=window['DriveCablesActivity'];if(!t||!t.api)return;var go=function(){if(!t._picsReady){setTimeout(go,50);return;}t.FAST=true;t.OK_MS=600000;t.api.settings.times='2';t.api.settings.nums='all';t._pool=null;t._ensurePool();t._start(7);t._render2();var r=t.st.round;t._plug(0,r.layout.indexOf('L'));t._plug(1,r.layout.indexOf(1));t._plug(2,r.layout.indexOf(2));t._check();};go();})();";
+  }
   if (row.tool === 'day-wheel-activity') {
     // the invention at work: breakfast at 7:00 wound one lap too far — the same 7:00 on the face, but the day wheel shows violet in the window and the lap hint asks before or after noon
     return "(function(){var t=window['DayWheelActivity'];if(!t||!t.api)return;var go=function(){if(!t._picsReady){setTimeout(go,50);return;}t.FAST=true;t.OK_MS=600000;t.api.settings.times='1';t.api.settings.clue='what';t._pool=null;t._ensurePool();t._start(1);t._render2();t._wind(1140);t._check();};go();})();";

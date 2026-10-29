@@ -4639,6 +4639,29 @@
         "Das Wort wählen, das am besten in einen Satz passt.",
         "Wörter erkennen, die dasselbe bedeuten."
       ]
+    },
+    "clock-digital.match-clocks.2-md-c-7": {
+      "about": [
+        "Eine Digitaluhr und eine Uhr mit Zeigern können dieselbe Uhrzeit zeigen, und Kinder müssen erst lernen, das zu erkennen. Sprockets Uhr ist ein kleines Schaltbrett: vier Uhren mit Zeigern, jede mit einer Steckdose und einer Lampe, und drei Digitalkarten, jede mit einem Kabel. Das Kind steckt jede Karte in die Uhr, die seiner Meinung nach dieselbe Uhrzeit zeigt. Eine Uhr passt zu keiner Karte: Sie ist eine Falle für einen typischen Fehler, zum Beispiel vertauschte Zeiger oder einen kleinen Zeiger an der falschen Zahl.",
+        "Drückt das Kind auf Prüfen, zeichnet jede Karte ihre Uhrzeit als gestrichelte Zeiger auf die Uhr, in der sie steckt. Wo die gestrichelten Zeiger genau auf den Zeigern der Uhr liegen, leuchtet die Lampe, und das Paar bleibt eingesteckt. Wo nicht, stehen zwei Zeigerpaare auf einem Zifferblatt, und der Zeiger, der nicht passt, blinkt: der kleine Zeiger bei einer falschen Stunde, der große bei falschen Minuten. Der Hinweis sagt, worauf das Kind schauen soll. Beim zweiten Fehlversuch erscheinen Punkte in Fünf-Minuten-Schritten am gestrichelten großen Zeiger, und die Zahlen neben dem gestrichelten kleinen Zeiger werden fett. Stundenziffern und kleine Zeiger sind korallenrot, Minutenziffern und große Zeiger petrolgrün: Karte und Uhr sprechen dieselbe Farbsprache.",
+        "Es gibt zwei Stufen: volle und halbe Stunden, dann Viertelstunden und 5-Minuten-Schritte. Eine Einstellung zeigt alle zwölf Zahlen auf den Uhren oder nur 12, 3, 6 und 9. Die Aktivität orientiert sich am Lehrplan im Bereich Größen und Messen: Uhrzeiten auf analogen und digitalen Uhren lesen. Sie funktioniert ohne Ton, und es gibt keinen Timer und keine Punkte."
+      ],
+      "practices": [
+        "Eine digitale Uhrzeit der passenden Zeigeruhr zuordnen",
+        "Den kleinen und den großen Zeiger unterscheiden",
+        "Sehen, wo der kleine Zeiger zwischen zwei Zahlen steht",
+        "In Fünferschritten ab der 12 die Minuten ablesen"
+      ],
+      "howToPlay": [
+        "Tippe auf eine Karte und dann auf die Uhr mit derselben Uhrzeit, oder zieh die Karte auf die Uhr. Tippe zweimal auf eine eingesteckte Karte, um den Stecker herauszuziehen.",
+        "Steck alle drei Karten ein und drück auf Prüfen. Wo die gestrichelten Zeiger auf den Zeigern der Uhr liegen, leuchtet die Lampe; stecke die dunklen Paare um.",
+        "In den Einstellungen wählst du die Uhrzeiten (volle und halbe Stunden oder Viertelstunden und 5-Minuten-Schritte) und ob die Uhren alle zwölf Zahlen zeigen."
+      ],
+      "learningGoals": [
+        "Uhrzeiten auf analogen und digitalen Uhren auf fünf Minuten genau lesen und zuordnen.",
+        "Die Stunde am kleinen Zeiger und die Minuten am großen Zeiger ablesen.",
+        "Wissen, dass der kleine Zeiger bei 30 Minuten genau zwischen zwei Zahlen steht."
+      ]
     }
   }
 }

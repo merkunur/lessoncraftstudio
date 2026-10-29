@@ -304,3 +304,7 @@ docs/audit-results/**/*.jpg
 docs/audit-results/**/*.jpeg
 docs/audit-results/**/*.webp
 docs/audit-results/**/*.gif
+
+# Generator renders and big audit dumps: regenerable, never committed (operator 2026-10-29)
+scripts/worksheet-gen/*.png
+docs/audit-results/seo-100pct-*.json

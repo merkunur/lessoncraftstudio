@@ -2207,25 +2207,25 @@
     },
     "hoppers-number-line.jump-sums.2-md-b-6": {
       "about": [
-        "Hopper the frog adds and subtracts by hopping along a number line of lily pads — Hopper sits on 6 and hops forward 8, or sits on 80 and hops back 50 — and the child builds the move: place the start, point the hop forward to add or back to take away, choose the hop size, and find where Hopper lands. It's an interactive Grade 2 math activity that runs in the browser, with no account.",
-        "The big idea is representing a sum or difference as a jump on a number line, the model behind 2.MD.B.6. Because the child sets the direction and the size of the hop themselves, the number line stops being a picture to look at and becomes a tool they operate — and the decoy landing spots mean they have to track the actual jump, not guess a nearby number. The activity scales from hops of 2 and 3 up to hops of 10 across a line to 100.",
-        "It is aligned to Common Core 2.MD.B.6 — representing whole-number sums and differences within 100 on a number-line diagram. No timer, no score — just calm, playful practice."
+        "Hopper the frog sits on a row of stepping stones across a pond, and the stones are a number line: equally spaced, some with their numbers. Each story gives a start and a hop, such as \"Hopper sits on 43. He hops 12 forward.\" The child drags Hopper onto his start stone and taps him to turn him the way the story goes, because he only hops the way his nose points. Then the child loads his spring with the size of the hop, built from fat ten-coils and thin one-coils, so 12 is one ten and two ones.",
+        "Before he jumps, the child drags a lily pad to the stone where they think Hopper will land. On Let go the spring fires: one arc for every coil, each from one stone to another, so the start stone is never counted. If the pad is under his last landing he lands on it and a lotus opens. If not, he splashes into the pond, and the stones between him and the pad ripple, which shows exactly how far off the guess was. A wrong start, the wrong direction or the wrong load each get their own hint. After a second miss, dotted hops show the true path without naming the last stone.",
+        "The lines run within 20, within 100 (windows such as 40 to 60, where only every fifth stone has its number, and a line counted in tens), and equal hops from 0 or back to the bank for multiplication and division. It is aligned to Common Core 2.MD.B.6 (represent whole numbers as lengths on a number line diagram with equally spaced points, and sums and differences within 100). It works with the sound off, and there is no timer and no score."
       ],
       "practices": [
-        "Showing addition as a forward hop and subtraction as a hop back",
-        "Choosing the correct hop size and starting point on the number line",
-        "Finding the landing number after a jump within 100",
-        "Reading a number line as a tool for computing, not just a picture"
+        "Count on and count back on a number line, starting from the next stone",
+        "Build a hop as tens and ones: jump a ten, then the ones",
+        "Find numbers between labels on a line that starts at 40, 60 or 80",
+        "Predict a landing before checking it"
       ],
       "howToPlay": [
-        "Read Hopper's hop and place him on the starting lily pad.",
-        "Point the hop forward to add or back to take away, set the hop size, and find where he lands; then press Check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Read the story. Drag Hopper onto his start stone and tap him to turn him forward or back.",
+        "Tap ten and one to load his spring with the size of the hop, then drag the lily pad to where he will land. On equal hops, tap how many hops he makes.",
+        "Press Let go. In the settings, choose the line (within 20, within 100 or equal hops) and how many numbers the stones show."
       ],
       "learningGoals": [
-        "Represent sums and differences within 100 on a number-line diagram — the focus of Common Core 2.MD.B.6",
-        "Connect adding to forward jumps and subtracting to backward jumps",
-        "Build the number-line model that supports later mental math"
+        "Represent sums and differences within 100 as hops on a number line with equally spaced points, the focus of Common Core 2.MD.B.6.",
+        "Add by hopping forward and subtract by hopping back, without counting the start.",
+        "See equal hops as repeated addition and count the hops back to 0."
       ]
     },
     "inky-book-workshop.author-illustrator.rl-k-6": {

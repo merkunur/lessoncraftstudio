@@ -3785,6 +3785,29 @@
         "Pituustarinan esittäminen kahtena yhtä pitkänä janana: kokonaisuus ja osat peräkkäin.",
         "Tarinaan sopivan yhtälön kirjoittaminen niin, että tuntematon on siinä kohdassa, johon tarina sen laittaa."
       ]
+    },
+    "hoppers-number-line.jump-sums.2-md-b-6": {
+      "about": [
+        "Hopper-sammakko istuu lammen poikki kulkevalla kivirivillä, ja kivet ovat lukusuora: ne ovat yhtä kaukana toisistaan, ja joissakin on niiden luku. Jokaisessa tarinassa on lähtökohta ja hyppy, esimerkiksi ”Hopper on luvun 43 kohdalla. Hän hyppää 12 eteenpäin.” Lapsi vetää Hopperin lähtökivelle ja napauttaa häntä, niin hän kääntyy tarinan suuntaan, sillä hän hyppää vain sinne, mihin hänen nenänsä osoittaa. Sitten lapsi lataa hänen jousensa hypyn pituudella, joka rakennetaan paksuista kymppirenkaista ja ohuista ykkösrenkaista: 12 on yksi kymmenen ja kaksi ykköstä.",
+        "Ennen hyppyä lapsi vetää lumpeenlehden sille kivelle, jolle Hopper hänen mielestään laskeutuu. Kun lapsi painaa Hyppää, jousi laukeaa: yksi kaari jokaista rengasta kohti, jokainen kaari kiveltä toiselle, joten lähtökiveä ei koskaan lasketa. Jos lehti on viimeisen laskeutumisen kohdalla, Hopper laskeutuu sille ja lootus aukeaa. Muuten hän molskahtaa veteen, ja hänen ja lehden välissä olevien kivien ympärille syntyy renkaita, jotka näyttävät tarkasti, kuinka paljon arvaus meni ohi. Väärä lähtökohta, väärä suunta tai väärä lataus saavat kukin oman vihjeensä. Toisen virheen jälkeen pisteviivahypyt näyttävät oikean reitin, mutta viimeistä kiveä ei kerrota.",
+        "Valittavana on lukusuora 20:een asti, lukusuora 100:aan asti (osia kuten 40–60, joissa vain joka viidennessä kivessä on luku, sekä kymmenittäin etenevä suora) ja yhtä pitkät hypyt nollasta tai takaisin rantaan kertolaskun ja jakolaskun pohjaksi. Tehtävä tukee OPS 2014 -tavoitteita 2. luokalla: yhteen- ja vähennyslaskujen esittäminen lukusuoralla 100:aan asti. Se toimii ilman ääntä, eikä siinä ole ajanottoa tai pisteitä."
+      ],
+      "practices": [
+        "Laskeminen eteen- ja taaksepäin lukusuoralla seuraavasta kivestä alkaen",
+        "Hypyn rakentaminen kymmenistä ja ykkösistä: ensin kymmenen, sitten ykköset",
+        "Lukujen löytäminen merkittyjen lukujen välistä suoralla, joka alkaa luvusta 40, 60 tai 80",
+        "Laskeutumiskohdan ennustaminen ennen tarkistamista"
+      ],
+      "howToPlay": [
+        "Lue tarina. Vedä Hopper lähtökivelle ja napauta häntä, niin hän kääntyy eteen- tai taaksepäin.",
+        "Napauta kymppiä ja ykköstä ladataksesi jouseen hypyn pituuden, ja vedä sitten lumpeenlehti sinne, mihin hän laskeutuu. Yhtä pitkissä hypyissä napautat, montako hyppyä hän tekee.",
+        "Paina Hyppää. Asetuksista valitset lukusuoran (20:een asti, 100:aan asti tai yhtä pitkät hypyt) ja sen, montako lukua kivissä näkyy."
+      ],
+      "learningGoals": [
+        "Yhteen- ja vähennyslaskujen esittäminen 100:aan asti hyppyinä lukusuoralla, jonka välit ovat yhtä pitkiä.",
+        "Yhteenlasku hyppäämällä eteenpäin ja vähennyslasku hyppäämällä taaksepäin ilman lähtökohdan laskemista.",
+        "Yhtä pitkien hyppyjen näkeminen toistuvana yhteenlaskuna ja hyppyjen laskeminen takaisin nollaan."
+      ]
     }
   }
 }

@@ -3811,6 +3811,29 @@
         "Vise en fortelling om lengder som to like lange strekninger: helheten og delene etter hverandre.",
         "Skrive likheten som passer til fortellingen, med det ukjente tallet der fortellingen setter det."
       ]
+    },
+    "hoppers-number-line.jump-sums.2-md-b-6": {
+      "about": [
+        "Frosken Hopper sitter på en rad med steiner i en dam, og steinene er en tallinje: de ligger like langt fra hverandre, og noen har tallet sitt. Hver historie gir en start og et hopp, for eksempel «Hopper sitter på 43. Han hopper 12 framover.» Barnet drar Hopper til startsteinen hans og trykker på ham for å snu ham den veien historien går, for han hopper bare den veien nesen peker. Så fyller barnet fjæren hans med lengden på hoppet, bygd av tykke tierringer og tynne enerringer: 12 er én tier og to enere.",
+        "Før han hopper, drar barnet et vannliljeblad til steinen der det tror Hopper lander. Når barnet trykker på Hopp, spretter fjæren: én bue for hver ring, hver bue fra en stein til en annen, så startsteinen blir aldri telt med. Ligger bladet under den siste landingen hans, lander han på det, og en lotus springer ut. Ellers plasker han ut i vannet, og steinene mellom ham og bladet får ringer i vannet, som viser nøyaktig hvor langt unna gjetningen var. En feil start, feil retning eller feil fylling får hvert sitt hint. Etter et nytt feil forsøk viser prikkete hopp den riktige veien, uten å si hvilken stein som er den siste.",
+        "Det finnes en tallinje opp til 20, en opp til 100 (biter som 40 til 60, der bare hver femte stein har tallet sitt, og en linje i tiere) og like lange hopp fra 0 eller tilbake til bredden, som forberedelse til multiplikasjon og divisjon. Aktiviteten er knyttet til LK20 (kompetansemålene etter 2. trinn om å bruke tallinjen og om addisjon og subtraksjon) og øver på addisjon og subtraksjon opp til 100 på tallinjen. Den virker uten lyd, og det er verken tidtaking eller poeng."
+      ],
+      "practices": [
+        "Telle framover og bakover på tallinjen, fra neste stein",
+        "Bygge et hopp av tiere og enere: først tieren, så enerne",
+        "Finne tall mellom tallene som står på steinene, på en linje som begynner på 40, 60 eller 80",
+        "Gjette hvor han lander før det blir sjekket"
+      ],
+      "howToPlay": [
+        "Les historien. Dra Hopper til startsteinen hans, og trykk på ham for å snu ham framover eller bakover.",
+        "Trykk på ti og en for å fylle fjæren hans med lengden på hoppet, og dra så vannliljebladet dit han lander. Ved like lange hopp trykker du på hvor mange hopp han gjør.",
+        "Trykk på Hopp. I innstillingene velger du tallinjen (opp til 20, opp til 100 eller like lange hopp) og hvor mange tall som står ved steinene."
+      ],
+      "learningGoals": [
+        "Vise addisjon og subtraksjon opp til 100 som hopp på en tallinje med like store avstander.",
+        "Legge sammen ved å hoppe framover og trekke fra ved å hoppe bakover, uten å telle starten.",
+        "Se like lange hopp som gjentatt addisjon og telle hoppene tilbake til 0."
+      ]
     }
   }
 }

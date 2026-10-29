@@ -2183,25 +2183,25 @@
     },
     "hoppers-number-line.jump-sums.2-md-b-6": {
       "about": [
-        "Grodan Hopper sitter på tallinjen och ska hoppa till ett nytt tal. Barnet läser vad som ska hända — till exempel att Hopper sitter på 45 och hoppar 20 bakåt — och bygger sedan hoppet självt: var han börjar, åt vilket håll han hoppar och hur långt hoppet är. Sist knappas talet han landar på in.",
-        "Det som gör det här till årskurs 2 är inte räkningen utan modellen. Hoppet görs i ETT enda språng, inte som en rad små steg, och tallinjen är graderad så att långtifrån alla tal är utsatta: linjen kan vara märkt varannat, var tredje, var femte eller vart tionde tal. Barnet måste alltså läsa skalan för att veta var 45 ligger, och räkna ut landningen i huvudet i stället för att stega sig fram.",
-        "Nio omgångar inom talområdet 0–100, fem framåt och fyra bakåt. Allt fyra måste stämma — start, riktning, hopplängd och landning — så det räcker inte att veta att 30 plus 40 är 70 om hoppet byggs från fel tal. Hopper läser upp uppgiften, och den går att höra igen. Aktiviteten följer Lgr22, körs direkt i webbläsaren utan nedladdning och har varken timer eller poäng."
+        "Grodan Hopper sitter på en rad stenar i en damm, och stenarna är en tallinje: de ligger lika långt från varandra och några har sitt tal. Varje berättelse ger en start och ett hopp, till exempel ”Hopper sitter på 43. Han hoppar 12 framåt.” Barnet drar Hopper till hans startsten och trycker på honom för att vända honom åt berättelsens håll, eftersom han bara hoppar åt det håll som nosen pekar. Sedan laddar barnet hans fjäder med hur långt hoppet är, byggt av tjocka tiotalsringar och tunna entalsringar: 12 är ett tiotal och två ental.",
+        "Innan han hoppar drar barnet ett näckrosblad till stenen där det tror att Hopper landar. När barnet trycker på Hoppa slår fjädern ut: en båge för varje ring, varje båge från en sten till en annan, så startstenen räknas aldrig. Ligger bladet under hans sista landning landar han på det och en lotus slår ut. Annars plaskar han ner i vattnet, och stenarna mellan honom och bladet får ringar på vattnet, som visar exakt hur långt ifrån gissningen var. En fel start, fel håll eller fel laddning får var sin ledtråd. Efter två missar visar prickade hopp den rätta vägen, utan att säga vilken den sista stenen är.",
+        "Det finns en tallinje upp till 20, en upp till 100 (avsnitt som 40 till 60, där bara var femte sten har sitt tal, och en linje i tiotal) och lika långa hopp från 0 eller tillbaka till stranden, som förberedelse för multiplikation och division. Aktiviteten följer Lgr22 för åk 1–3 och passar i åk 2: att visa addition och subtraktion upp till 100 på tallinjen. Den fungerar utan ljud, och det finns ingen tidtagning och inga poäng."
       ],
       "practices": [
-        "Addera och subtrahera inom talområdet 0–100 i ett enda hopp på tallinjen",
-        "Läsa av en graderad tallinje där varannat, var tredje, var femte eller vart tionde tal är utsatt",
-        "Skilja på att hoppa framåt och att hoppa bakåt, och välja rätt håll utifrån vad som händer",
-        "Bygga hela hoppet självt och kontrollera att start, håll och längd hänger ihop med landningen"
+        "Räkna framåt och bakåt på tallinjen, från nästa sten",
+        "Bygga ett hopp av tiotal och ental: först tiotalet, sedan entalen",
+        "Hitta tal mellan de utskrivna talen på en tallinje som börjar på 40, 60 eller 80",
+        "Gissa var han landar innan det kontrolleras"
       ],
       "howToPlay": [
-        "Läs vad som ska hända, eller tryck på 🔊 Lyssna igen för att höra det en gång till.",
-        "Välj var Hopper börjar, åt vilket håll han ska hoppa och hur långt hoppet är.",
-        "Knappa in talet han landar på och tryck sedan på Hoppa! Blev det inte rätt hoppar ni bara en gång till."
+        "Läs berättelsen. Dra Hopper till hans startsten och tryck på honom för att vända honom framåt eller bakåt.",
+        "Tryck på tio och en för att ladda hans fjäder med hur långt hoppet är, och dra sedan näckrosbladet dit där han landar. Vid lika långa hopp trycker du på hur många hopp han gör.",
+        "Tryck på Hoppa. I inställningarna väljer du tallinje (upp till 20, upp till 100 eller lika långa hopp) och hur många tal som står vid stenarna."
       ],
       "learningGoals": [
-        "Barnet kan addera och subtrahera inom 0–100 med tallinjen som modell",
-        "Barnet kan läsa av en tallinje även när alla tal inte är utsatta",
-        "Barnet kan visa ett helt hopp med start, riktning och längd, och säga var det landar"
+        "Visa addition och subtraktion upp till 100 som hopp på en tallinje med lika långa avstånd.",
+        "Addera genom att hoppa framåt och subtrahera genom att hoppa bakåt, utan att räkna starten.",
+        "Se lika långa hopp som upprepad addition och räkna hoppen tillbaka till 0."
       ]
     },
     "affix.apply.l-2-4-b": {

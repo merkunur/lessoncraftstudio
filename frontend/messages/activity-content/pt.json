@@ -588,25 +588,25 @@
     },
     "hoppers-number-line.jump-sums.2-md-b-6": {
       "about": [
-        "O Saltão, um sapo curioso que adora saltar de folha em folha, mora numa lagoa onde as vitórias-régias formam uma reta numérica flutuante. Cada folha guarda um número, e o Saltão pula sobre elas para somar e subtrair até 100. Nesta atividade, a criança lê uma pequena história de pulo e depois mostra, na própria reta numérica, para onde o sapo vai parar.",
-        "A ideia central é usar a reta numérica como um modelo para representar uma soma ou uma diferença. Em vez de decorar contas, a criança escolhe o ponto de partida, decide a direção (para frente quando é somar, para trás quando é subtrair) e o tamanho do pulo. Assim ela enxerga a operação acontecendo: o resultado é simplesmente a vitória-régia onde o Saltão cai.",
-        "Tudo acontece no seu ritmo, sem cronômetro, sem pontos e sem comparação com ninguém. A criança pode tentar, observar onde ele vai parar e ajustar com calma. É um jeito acolhedor de fortalecer o cálculo até 100 e de conectar os números às distâncias percorridas na reta, um apoio importante para o 2º ano dentro da unidade temática Números da BNCC."
+        "O Saltão, o sapo, está sentado numa fileira de pedras que atravessa uma lagoa, e as pedras são uma reta numérica: ficam à mesma distância umas das outras e algumas têm o seu número. Cada história dá uma saída e um pulo, por exemplo \"O Saltão está no 43. Ele pula 12 para frente.\" A criança arrasta o Saltão até a pedra de saída e toca nele para virá-lo para o lado da história, porque ele só pula para onde o nariz aponta. Depois carrega a mola com o tamanho do pulo, feito de anéis grossos de dez e anéis finos de um: 12 é uma dezena e duas unidades.",
+        "Antes do pulo, a criança arrasta uma vitória-régia até a pedra onde acha que o Saltão vai parar. Ao apertar Pula, a mola dispara: um arco para cada anel, cada um de uma pedra para outra, então a pedra de saída nunca é contada. Se a vitória-régia estiver embaixo do último pulo, ele pousa nela e uma flor de lótus se abre. Se não, ele cai na água, e as pedras entre ele e a vitória-régia fazem ondinhas, que mostram exatamente quanto o palpite errou. Uma saída errada, o lado errado ou a carga errada têm cada um a sua dica. Depois de um segundo erro, pulos pontilhados mostram o caminho certo sem dizer a última pedra.",
+        "Há uma reta até 20, uma até 100 (trechos como de 40 a 60, em que só uma pedra a cada cinco tem número, e uma reta de 10 em 10) e pulos iguais a partir do 0 ou de volta à margem, preparando a multiplicação e a divisão. A atividade segue a BNCC para o 2º ano, na unidade temática Números: representar somas e subtrações até 100 na reta numérica. Funciona sem som, sem cronômetro e sem pontuação."
       ],
       "practices": [
-        "Representa somas e diferenças até 100 usando a reta numérica como modelo.",
-        "Relaciona somar a pular para frente e subtrair a pular para trás.",
-        "Escolhe o ponto de partida e o tamanho do pulo para chegar ao resultado.",
-        "Confere onde o sapo cai e conversa sobre o porquê do resultado."
+        "Contar para frente e para trás na reta numérica, a partir da pedra seguinte",
+        "Montar um pulo com dezenas e unidades: primeiro a dezena, depois as unidades",
+        "Achar números entre as marcações numa reta que começa em 40, 60 ou 80",
+        "Prever onde ele vai parar antes de conferir"
       ],
       "howToPlay": [
-        "Leia a história do pulo e toque na vitória-régia do número de partida.",
-        "Escolha a direção: para frente para somar ou para trás para subtrair, e o tamanho do pulo.",
-        "Veja onde o Saltão vai parar e descubra o número em que ele cai."
+        "Leia a história. Arraste o Saltão até a pedra de saída e toque nele para virá-lo para frente ou para trás.",
+        "Toque em dez e um para carregar a mola com o tamanho do pulo e depois arraste a vitória-régia até onde ele vai parar. Nos pulos iguais, toque em quantos pulos ele dá.",
+        "Aperte Pula. Nas configurações, escolha a reta (até 20, até 100 ou pulos iguais) e quantos números as pedras mostram."
       ],
       "learningGoals": [
-        "Somar e subtrair até 100 apoiando-se na reta numérica.",
-        "Entender a reta numérica como modelo de uma soma ou de uma diferença.",
-        "Interpretar a direção e o tamanho do pulo para localizar onde ele cai."
+        "Representar somas e subtrações até 100 como pulos numa reta numérica com distâncias iguais.",
+        "Somar pulando para frente e subtrair pulando para trás, sem contar a saída.",
+        "Ver pulos iguais como uma soma repetida e contar os pulos até o 0."
       ]
     },
     "plural.irregular.l-2-1-b": {

@@ -1,8 +1,8 @@
 [
   {
     "id": "hoppers-number-line.jump-sums.2-md-b-6",
-    "tool": "hoppers-number-line-activity",
-    "task_template": "hoppers-number-line",
+    "tool": "landing-pad-activity",
+    "task_template": "landing-pad",
     "alignment": {
       "framework": "CCSS",
       "code": "2.MD.B.6",
@@ -228,7 +228,7 @@
       "es": "sumar-y-restar-en-la-recta-numerica-hasta-100-2-primaria",
       "pt": "somar-e-subtrair-na-reta-numerica-ate-100-2-ano",
       "it": "sommare-e-sottrarre-sulla-linea-dei-numeri-entro-100-classe-seconda",
-      "nl": "optellen-en-aftrekken-op-de-getallenlijn-tot-100-groep-4", "sv": "addition-och-subtraktion-till-100-ak-2"
+      "nl": "optellen-en-aftrekken-op-de-getallenlijn-tot-100-groep-4", "sv": "addition-och-subtraktion-till-100-ak-2", "da": "plus-og-minus-paa-tallinjen-op-til-100-2-klasse", "no": "pluss-og-minus-pa-tallinjen-opp-til-100-2-trinn", "fi": "yhteen-ja-vahennyslasku-lukusuoralla-100-aan-2-luokka"
     },
     "page_title": {
       "en": "Hopper's Number Line — Add & Subtract by Hopping (Grade 2)",
@@ -237,7 +237,7 @@
       "es": "La recta numérica de Hopper — sumar y restar hasta 100 (2.º primaria)",
       "pt": "Saltão na reta numérica: somar e subtrair até 100 (2º ano)",
       "it": "Sommare e sottrarre entro il 100 con Hopper (classe seconda)",
-      "nl": "Hopper op de getallenlijn – Optellen en aftrekken tot 100 (groep 4)", "sv": "Addition och subtraktion till 100 – ett hopp på tallinjen (åk 2)"
+      "nl": "Hopper op de getallenlijn – Optellen en aftrekken tot 100 (groep 4)", "sv": "Addition och subtraktion till 100 – ett hopp på tallinjen (åk 2)", "da": "Hoppers tallinje – plus og minus op til 100 (2. klasse)", "no": "Hoppers tallinje – pluss og minus opp til 100 (2. trinn)", "fi": "Hopperin lukusuora – yhteen- ja vähennyslasku 100:aan (2. lk)"
     },
     "page_intro": {
       "en": "Hopper the frog adds and subtracts by HOPPING along a number line of lily pads. Read each hop, then model it: put Hopper on the start, point the hop forward (to add) or back (to take away), pick the right hop size, and work out which number Hopper lands on. A warm Grade 2 game about representing sums and differences within 100 on a number-line diagram, aligned to Common Core 2.MD.B.6.",
@@ -246,7 +246,7 @@
       "es": "Con Hopper, la rana, brinca en la recta numérica: toca el número inicial, elige hacia adelante para sumar o hacia atrás para restar, escoge el tamaño del brinco y descubre dónde cae. Suma y resta hasta 100. Juego interactivo de segundo grado, sin registro, alineado a los Planes y programas de estudio (SEP).",
       "pt": "Ajude o Saltão, o sapo, a pular pelas vitórias-régias e some ou subtraia até 100 na reta numérica. Descubra onde ele vai parar. Atividade de 2º ano.",
       "it": "Hopper è una rana che somma e sottrae saltando lungo la linea dei numeri, da una ninfea all'altra. Tu leggi il salto — un numero di partenza e una lunghezza — poi lo costruisci insieme a lui: metti Hopper sulla ninfea di partenza, scegli in avanti per sommare o indietro per sottrarre, indica quanto è lungo il salto e il balzo si disegna sulla linea. Poi scopri su quale numero va a finire. È un modo tranquillo per rappresentare somme e sottrazioni entro il 100 sulla linea dei numeri, per bambini di 7 e 8 anni. L'attività è senza registrazione, direttamente nel browser, ed è allineata alle Indicazioni nazionali, nel nucleo Numeri.",
-      "nl": "Spring mee met Hopper de kikker over de waterlelies! Op deze interactieve getallenlijn maakt je kind een som of een aftrekking als één duidelijke sprong: vooruit als je erbij doet, achteruit als je eraf haalt. Zo oefent je kind spelenderwijs met optellen en aftrekken tot 100 — bijvoorbeeld 6 + 8, 24 − 9 of 80 − 50 — en ziet het meteen waar Hopper landt. De activiteit sluit aan bij de SLO-kerndoelen voor groep 4.", "sv": "Hopper sitter på tallinjen. Barnet väljer start, riktning och hur långt hoppet är, och räknar ut var han landar. Addition och subtraktion till 100, åk 2 enligt Lgr22."
+      "nl": "Spring mee met Hopper de kikker over de waterlelies! Op deze interactieve getallenlijn maakt je kind een som of een aftrekking als één duidelijke sprong: vooruit als je erbij doet, achteruit als je eraf haalt. Zo oefent je kind spelenderwijs met optellen en aftrekken tot 100 — bijvoorbeeld 6 + 8, 24 − 9 of 80 − 50 — en ziet het meteen waar Hopper landt. De activiteit sluit aan bij de SLO-kerndoelen voor groep 4.", "sv": "Hopper sitter på tallinjen. Barnet väljer start, riktning och hur långt hoppet är, och räknar ut var han landar. Addition och subtraktion till 100, åk 2 enligt Lgr22.", "da": "Frøen Hopper hopper hen ad en tallinje af sten i en dam. Barnet sætter ham på starten, fylder hans fjeder med tiere og enere og lægger et åkandeblad der, hvor han lander. Plus og minus op til 100 på tallinjen i 2. klasse, i tråd med Fælles Mål.", "no": "Frosken Hopper hopper bortover en tallinje av steiner i en dam. Barnet setter ham på starten, fyller fjæren hans med tiere og enere og legger et vannliljeblad der han lander. Addisjon og subtraksjon opp til 100 på tallinjen på 2. trinn, i tråd med LK20.", "fi": "Hopper-sammakko hyppii lammen kivistä tehdyllä lukusuoralla. Lapsi laittaa hänet lähtökivelle, lataa hänen jousensa kymmenillä ja ykkösillä ja vie lumpeenlehden sinne, mihin hän laskeutuu. Yhteen- ja vähennyslaskua 100:aan asti lukusuoralla 2. luokalla, perusopetuksen opetussuunnitelman (OPS 2014) mukaisesti."
     },
     "kid_prompt_template": "hoppers-number-line"
   }

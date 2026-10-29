@@ -1467,25 +1467,25 @@
     },
     "hoppers-number-line.jump-sums.2-md-b-6": {
       "about": [
-        "Bei „Hopper am Zahlenstrahl“ wird der Zahlenstrahl zum Rechenmodell: Hopper der Frosch zeigt, wie eine Additions- oder Subtraktionsaufgabe als Sprung sichtbar wird. Dein Kind tippt die Startzahl an, wählt die Richtung — vorwärts für „plus“, rückwärts für „minus“ —, bestimmt die Sprungweite und liest ab, wo Hopper landet. So wird aus einer abstrakten Aufgabe wie 24 − 9 oder 30 + 40 eine anschauliche Bewegung im Zahlenraum bis 100.",
-        "Diese Übung ergänzt „Hoppers Seerosen-Sprünge“: Dort zählt dein Kind in gleich großen Schritten (5er-, 10er- und 100er-Schritten), hier stellt es eine einzelne Rechnung als gerichteten Sprung dar. Beide nutzen denselben Zahlenstrahl, schulen aber unterschiedliche Vorstellungen — das Zählen in Schritten und das Rechnen als Bewegung. Gemeinsam bauen sie ein tragfähiges Bild vom Zahlenraum bis 100 auf.",
-        "Die Aktivität ist ganz ohne Zeitdruck, Punkte oder Wettbewerb — dein Kind darf in seinem eigenen Tempo ausprobieren. Sie ist am Lehrplan der Grundschule ausgerichtet und gehört zur Leitidee „Zahlen und Rechnen im Zehnersystem“."
+        "Der Frosch Hopper sitzt auf einer Reihe von Steinen in einem Teich, und die Steine sind ein Zahlenstrahl: gleichmäßig verteilt, manche mit ihrer Zahl. Jede Geschichte nennt einen Start und einen Sprung, zum Beispiel „Hopper sitzt auf der 43. Er hüpft 12 nach vorne.“ Das Kind zieht Hopper auf seinen Startstein und tippt ihn an, damit er in die Richtung der Geschichte schaut, denn er hüpft nur dorthin, wohin seine Nase zeigt. Dann lädt es seine Feder mit der Sprunglänge, aus dicken Zehnerringen und dünnen Einerringen: 12 ist ein Zehner und zwei Einer.",
+        "Bevor er springt, zieht das Kind ein Seerosenblatt auf den Stein, auf dem Hopper seiner Meinung nach landet. Bei Los löst sich die Feder: ein Bogen für jeden Ring, jeder von einem Stein zum nächsten Landeplatz, so dass der Startstein nie mitgezählt wird. Liegt das Blatt unter seiner letzten Landung, landet er darauf und eine Lotosblume geht auf. Wenn nicht, plumpst er ins Wasser, und die Steine zwischen ihm und dem Blatt bekommen Wellenringe. So sieht man genau, wie weit die Vermutung daneben lag. Ein falscher Start, die falsche Richtung oder die falsche Ladung bekommen jeweils einen eigenen Hinweis. Nach einem zweiten Fehlversuch zeigen gepunktete Sprünge den richtigen Weg, ohne den letzten Stein zu verraten.",
+        "Es gibt einen Zahlenstrahl bis 20, einen bis 100 (Ausschnitte wie 40 bis 60, auf denen nur jeder fünfte Stein beschriftet ist, und einen Strahl in Zehnerschritten) und gleich große Sprünge ab 0 oder zurück zum Ufer, als Vorbereitung auf Malnehmen und Teilen. Die Aktivität ist an den Lehrplänen für die 2. Klasse ausgerichtet: Plus- und Minusaufgaben bis 100 am Zahlenstrahl darstellen. Sie funktioniert ohne Ton, und es gibt keinen Timer und keine Punkte."
       ],
       "practices": [
-        "Addition und Subtraktion im Zahlenraum bis 100 am Zahlenstrahl darstellen.",
-        "Die Richtung eines Sprungs bewusst wählen: vorwärts beim Addieren, rückwärts beim Subtrahieren.",
-        "Zehnersprünge sicher ausführen (z. B. 45 − 20, 80 − 50, 30 + 40) und das Stellenwertdenken festigen.",
-        "Das Ergebnis einer Rechnung als Zielzahl am Zahlenstrahl ablesen und überprüfen."
+        "Am Zahlenstrahl weiterzählen und zurückzählen, ab dem nächsten Stein",
+        "Einen Sprung aus Zehnern und Einern bauen: erst den Zehner, dann die Einer",
+        "Zahlen zwischen den Beschriftungen finden, auf einem Strahl ab 40, 60 oder 80",
+        "Eine Landung vorhersagen, bevor man sie prüft"
       ],
       "howToPlay": [
-        "Tippe die Startzahl auf dem Zahlenstrahl an.",
-        "Wähle die Richtung — vorwärts (plus) oder rückwärts (minus) — und die Sprungweite.",
-        "Gib ein, wo Hopper landet, und schau, ob es passt."
+        "Lies die Geschichte. Zieh Hopper auf seinen Startstein und tipp ihn an, damit er nach vorne oder zurück schaut.",
+        "Tipp auf Zehner und Einer, um seine Feder mit der Sprunglänge zu laden, und zieh dann das Seerosenblatt dorthin, wo er landet. Bei gleich großen Sprüngen tippst du an, wie viele Sprünge er macht.",
+        "Drück auf Los. In den Einstellungen wählst du den Zahlenstrahl (bis 20, bis 100 oder gleich große Sprünge) und wie viele Zahlen an den Steinen stehen."
       ],
       "learningGoals": [
-        "Dein Kind versteht den Zahlenstrahl als Modell zum Rechnen — nicht nur zum Zählen.",
-        "Es verbindet Addition und Subtraktion mit einer klaren Richtung und Bewegung im Zahlenraum bis 100.",
-        "Es gewinnt Sicherheit beim Rechnen mit vollen Zehnern und festigt sein Verständnis des Zehnersystems."
+        "Plus- und Minusaufgaben bis 100 als Sprünge am Zahlenstrahl mit gleichen Abständen darstellen.",
+        "Durch Sprünge nach vorne addieren und durch Sprünge zurück subtrahieren, ohne den Start mitzuzählen.",
+        "Gleich große Sprünge als wiederholte Addition sehen und die Sprünge zurück bis 0 zählen."
       ]
     },
     "plural.irregular.l-2-1-b": {

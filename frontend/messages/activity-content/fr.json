@@ -1153,25 +1153,25 @@
     },
     "hoppers-number-line.jump-sums.2-md-b-6": {
       "about": [
-        "Hopper la grenouille adore sauter, mais ici ses sauts servent à calculer. La droite graduée devient un véritable modèle de calcul : votre enfant touche le nombre de départ, choisit la direction du saut, puis choisit sa longueur et lit le nombre d’arrivée.",
-        "En avant, on ajoute ; en arrière, on enlève. Ainsi 24 − 9 ou 30 + 40 ne restent pas des opérations abstraites : ils deviennent un déplacement que l’on voit, un saut de Hopper dans les nombres inférieurs à 100. L’enfant relie le calcul à un mouvement clair sur la droite graduée.",
-        "Cette activité complète l’activité de comptage de Hopper : là-bas, le même personnage enchaîne des bonds réguliers pour compter de 2 en 2 ou de 10 en 10 ; ici, il fait un seul saut dirigé pour additionner ou soustraire. Interactive, pensée pour le CE1 et le domaine « Nombres et calculs », elle avance sans chronomètre et sans points, dans l’esprit des programmes officiels."
+        "Hopper la grenouille est assise sur une rangée de pierres au milieu d’une mare, et ces pierres forment une droite graduée : elles sont régulièrement espacées et certaines portent leur nombre. Chaque histoire donne un départ et un saut, par exemple « Hopper est sur le 43. Il saute 12 en avant. » L’enfant fait glisser Hopper sur sa pierre de départ et le touche pour le tourner dans le sens de l’histoire, car il ne saute que du côté où pointe son nez. Puis il charge son ressort avec la longueur du saut, faite d’anneaux épais de dix et d’anneaux fins de un : 12, c’est une dizaine et deux unités.",
+        "Avant le saut, l’enfant pose un nénuphar sur la pierre où il pense que Hopper va arriver. Quand il appuie sur Saute, le ressort se détend : un bond par anneau, chacun d’une pierre à une autre, si bien que la pierre de départ n’est jamais comptée. Si le nénuphar est sous sa dernière arrivée, Hopper se pose dessus et un lotus s’ouvre. Sinon, il tombe dans l’eau, et les pierres entre lui et le nénuphar font des ronds dans l’eau, ce qui montre exactement l’écart. Un mauvais départ, le mauvais sens ou la mauvaise charge ont chacun leur indice. Après une deuxième erreur, des sauts en pointillés montrent le bon chemin sans nommer la dernière pierre.",
+        "On peut choisir une droite jusqu’à 20, une droite jusqu’à 100 (des morceaux comme de 40 à 60, où seule une pierre sur cinq porte son nombre, et une droite graduée de 10 en 10) et des sauts égaux à partir de 0 ou jusqu’à la rive, pour préparer la multiplication et la division. L’activité suit les programmes officiels du CE1, dans le domaine Nombres et calculs : représenter des sommes et des différences jusqu’à 100 sur une droite graduée. Elle fonctionne sans son, sans chronomètre et sans score."
       ],
       "practices": [
-        "Représenter une addition ou une soustraction inférieure à 100 sur la droite graduée.",
-        "Choisir la direction du saut : en avant pour additionner, en arrière pour soustraire.",
-        "Faire des sauts de dizaines entières (45 − 20, 80 − 50, 30 + 40) et renforcer le sens des dizaines.",
-        "Lire le résultat comme le nombre d’arrivée du saut."
+        "Compter en avant et en arrière sur une droite graduée, à partir de la pierre suivante",
+        "Construire un saut avec des dizaines et des unités : d’abord la dizaine, puis les unités",
+        "Trouver des nombres entre les repères sur une droite qui commence à 40, 60 ou 80",
+        "Prévoir l’arrivée avant de vérifier"
       ],
       "howToPlay": [
-        "Touche le nombre de départ sur la droite graduée.",
-        "Choisis la direction — en avant (plus) ou en arrière (moins) — et la longueur du saut.",
-        "Tape le nombre où Hopper arrive, puis vérifie."
+        "Lis l’histoire. Fais glisser Hopper sur sa pierre de départ et touche-le pour le tourner en avant ou en arrière.",
+        "Touche dix et un pour charger son ressort avec la longueur du saut, puis pose le nénuphar là où il va arriver. Pour les sauts égaux, touche le nombre de sauts.",
+        "Appuie sur Saute. Dans les réglages, choisis la droite (jusqu’à 20, jusqu’à 100 ou sauts égaux) et combien de nombres les pierres affichent."
       ],
       "learningGoals": [
-        "Comprendre la droite graduée comme un modèle pour calculer, et pas seulement pour compter.",
-        "Relier l’addition et la soustraction à une direction et à un mouvement dans les nombres inférieurs à 100.",
-        "Gagner en aisance avec les dizaines entières."
+        "Représenter des sommes et des différences jusqu’à 100 par des sauts sur une droite graduée régulière.",
+        "Ajouter en sautant en avant et soustraire en sautant en arrière, sans compter la pierre de départ.",
+        "Voir des sauts égaux comme une addition répétée et compter les sauts jusqu’à 0."
       ]
     },
     "line-plot.read.2-md-d-9": {

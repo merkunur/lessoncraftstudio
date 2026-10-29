@@ -939,25 +939,25 @@
     },
     "hoppers-number-line.jump-sums.2-md-b-6": {
       "about": [
-        "Hopper è una rana che attraversa lo stagno saltando lungo la linea dei numeri, da una ninfea numerata all'altra: a ogni balzo in avanti somma, a ogni balzo indietro sottrae, e tu lo aiuti a scoprire dove va a finire. In questa attività di matematica per la classe seconda, pensata per bambini di 7 e 8 anni, si rappresentano somme e sottrazioni entro il 100 sulla linea dei numeri.",
-        "L'attività si gioca online nel browser, senza registrazione e senza scaricare nulla. Non ci sono punteggi né tempo che corre: puoi provare, sbagliare e riprovare con calma, seguendo con lo sguardo il salto di Hopper sulle ninfee.",
-        "Muovere Hopper in avanti e indietro sulla linea dei numeri dà un'immagine concreta all'addizione e alla sottrazione ed è un passaggio importante verso il calcolo mentale entro il 100, in linea con le Indicazioni nazionali per il nucleo Numeri. A casa o in classe puoi rinforzarlo con semplici materiali manipolabili, contando i passi lungo una striscia di numeri disegnata su un foglio."
+        "Hopper, il ranocchio, è seduto su una fila di sassi che attraversa uno stagno, e i sassi sono una linea dei numeri: sono alla stessa distanza e alcuni hanno il loro numero. Ogni storia dà una partenza e un salto, per esempio «Hopper è sul numero 43. Salta di 12 in avanti.» Il bambino trascina Hopper sul sasso di partenza e lo tocca per girarlo nella direzione della storia, perché salta solo dalla parte in cui punta il naso. Poi carica la sua molla con la lunghezza del salto, fatta di anelli grossi da dieci e anelli sottili da uno: 12 è una decina e due unità.",
+        "Prima del salto, il bambino porta una ninfea sul sasso dove pensa che Hopper atterrerà. Quando preme Salta, la molla scatta: un arco per ogni anello, ciascuno da un sasso a un altro, così il sasso di partenza non viene mai contato. Se la ninfea è sotto l’ultimo atterraggio, Hopper ci si posa sopra e si apre un fiore di loto. Altrimenti cade nell’acqua, e i sassi tra lui e la ninfea fanno dei cerchi, che mostrano esattamente di quanto ha sbagliato la previsione. Una partenza sbagliata, la direzione sbagliata o la carica sbagliata hanno ciascuna il proprio suggerimento. Dopo un secondo errore, dei salti tratteggiati mostrano la strada giusta senza dire l’ultimo sasso.",
+        "Ci sono una linea fino a 20, una fino a 100 (tratti come da 40 a 60, dove solo un sasso ogni cinque ha il suo numero, e una linea di 10 in 10) e salti uguali a partire da 0 o all’indietro fino alla riva, per preparare la moltiplicazione e la divisione. L’attività segue le Indicazioni nazionali (obiettivi di apprendimento al termine della classe terza) ed è adatta alla classe seconda, nel nucleo Numeri: rappresentare somme e differenze entro il 100 sulla linea dei numeri. Funziona senza audio, senza cronometro e senza punteggi."
       ],
       "practices": [
-        "Rappresentare addizioni e sottrazioni entro il 100 sulla linea dei numeri",
-        "Saltare in avanti per sommare e indietro per sottrarre",
-        "Trovare il numero di arrivo partendo da un numero e da un salto",
-        "Costruire salti di diversa lunghezza e leggerli sulla linea dei numeri"
+        "Contare in avanti e all’indietro sulla linea dei numeri, partendo dal sasso successivo",
+        "Costruire un salto con decine e unità: prima la decina, poi le unità",
+        "Trovare numeri tra le etichette su una linea che parte da 40, 60 o 80",
+        "Prevedere l’atterraggio prima di controllare"
       ],
       "howToPlay": [
-        "Metti Hopper sulla ninfea del numero di partenza",
-        "Scegli in avanti per sommare o indietro per sottrarre, poi scegli la lunghezza del salto e guarda il balzo disegnarsi sulla linea",
-        "Osserva su quale ninfea atterra Hopper per scoprire dove va a finire, e se sbagli ricevi un suggerimento gentile per riprovare con calma, senza punteggio"
+        "Leggi la storia. Trascina Hopper sul sasso di partenza e toccalo per girarlo in avanti o indietro.",
+        "Tocca dieci e uno per caricare la molla con la lunghezza del salto, poi porta la ninfea dove atterrerà. Nei salti uguali, tocca quanti salti fa.",
+        "Premi Salta. Nelle impostazioni scegli la linea (fino a 20, fino a 100 o salti uguali) e quanti numeri mostrano i sassi."
       ],
       "learningGoals": [
-        "Rappresentare somme e sottrazioni entro il 100 sulla linea dei numeri",
-        "Contare in avanti e indietro per sommare e sottrarre",
-        "Consolidare il calcolo entro il 100 in linea con le Indicazioni nazionali, nel nucleo Numeri"
+        "Rappresentare somme e differenze entro il 100 come salti su una linea dei numeri con distanze uguali.",
+        "Sommare saltando in avanti e sottrarre saltando indietro, senza contare la partenza.",
+        "Vedere i salti uguali come un’addizione ripetuta e contare i salti fino a 0."
       ]
     },
     "line-plot.read.2-md-d-9": {

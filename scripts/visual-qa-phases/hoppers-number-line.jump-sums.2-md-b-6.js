@@ -1,99 +1,89 @@
 /* =====================================================================
-   visual-qa phase driver — hoppers-number-line (2.MD.B.6)
-   ---------------------------------------------------------------------
-   This activity has THREE screens and the sweep had only ever seen the first:
+   visual-qa phase driver — hops on a number line (2.MD.B.6).
+   #157 of the one-by-one rebuild: THE SPRING AND THE LANDING PAD
+   (landing-pad-activity).
 
-     open   — the story + a bare number line + direction/size controls
-     dial   — start+dir+size set: the hop SPAN and the landing LILY appear on the
-              line, the story and controls collapse to a recap, and a 0-9 KEYPAD
-              plus the "Hoppa! 🐸" commit button render. None of this had ever
-              been photographed at any width.
-     solved — the win screen (.hnl-done). Also never photographed.
+     open     — the story, the pond of stones, Hopper and the pad waiting.
+     built    — Hopper on his start facing the story's way, the spring
+                loaded with the hop, the pad floated on the landing.
+     missed   — the pad one stone short (the start counted): Hopper hops
+                and splashes, the ripples, the hint.
+     helped   — a second miss: the dotted hops.
+     resolved — the pad on the landing: Hopper lands, the lotus, the
+                stamp, the success line, Next 0.5 s later.
 
-   Steps are COARSE on purpose. Each one must change the rendered control set, or
-   the harness fails it as a no-op (#39). Tapping a tick alone does NOT change the
-   control set — same 11 tick hits, same 2 direction buttons, same 3 size chips —
-   so a per-tap step would fail a CORRECT tool. Set the whole model in one step.
-
-   The model is read from the tool rather than assumed, so 'solved' commits the
-   ACTUAL landing and the win screen is real rather than a forced class toggle.
+   ⚠ STATES ARE SET THROUGH THE ACTIVITY'S OWN HANDS (_frog/_turn/_coil/
+     _count/_pad/_check, the same functions the taps call). FAST is set.
    ===================================================================== */
 'use strict';
 
-const G = 'HoppersNumberLineActivity';
-
-/* click the nth match, re-querying every time — each tap re-renders and stales handles */
-async function clickNth(page, sel, n) {
-  const els = await page.$$(sel);
-  if (!els[n]) throw new Error('no ' + sel + '[' + n + '] (found ' + els.length + ')');
-  await els[n].click();
-  await new Promise(r => setTimeout(r, 90));
+const G = 'LandingPadActivity';
+const wait = (ms) => new Promise((r) => setTimeout(r, ms));
+async function back(page, k) {
+  await page.evaluate((g, k) => { const t = window[g]; t.FAST = true; t._pool = null; t._ensurePool(); t._start(k); t._render2(); }, G, k);
+  await wait(150);
 }
+const state = (page) => page.evaluate((g) => {
+  const t = window[g].st;
+  return { verdict: t.verdict ? t.verdict.kind : null, help: t.help, done: t.done, frog: t.frogAt, pad: t.padAt, coils: t.coils.length,
+    splash: document.querySelectorAll('[data-splash]').length, ghost: document.querySelectorAll('[data-ghost]').length,
+    lotus: document.querySelectorAll('[data-lotus]').length, stamp: document.querySelectorAll('[data-stamp]').length };
+}, G);
+const act = (page, fn) => page.evaluate((g, src) => { const t = window[g], st = t.st, r = st.round, C = window.LandingPadCore; (new Function('t', 'st', 'r', 'C', src))(t, st, r, C); }, G, fn);
+/* the story's build with the activity's own hands: start, facing, the coils, the count */
+const BUILD = 't._frog(r.start); if (t.st.facing !== r.dir) t._turn(); for (var i = 0; i < Math.floor(r.size / 10); i++) t._coil(10); for (var j = 0; j < r.size % 10; j++) t._coil(1); if (r.level === "eq") t._count(r.count);';
+const PAD = (expr) => 'if (r.kind !== "div") t._pad(' + expr + ');';
+/* a division round has no pad to misplace: one hop too few is its miss */
+const MISS = 'if (r.kind === "div") t._count(r.count - 1); else t._pad(r.answer - r.dir * r.step);';
 
 module.exports = {
-  /* The tick hit areas sit on ONE shared axis, so the flat 44px answer-card floor is the
-     wrong instrument: 11 ticks across a 320px card is 29px edge-to-edge before any margin,
-     and RAISING them to 44 makes the real defect — adjacent targets overlapping, so a tap
-     near a boundary selects the wrong start — strictly worse. Measured for overlap instead. */
-  axisControls: {
-    selector: '.hnl-tickhit',
-    why: '11 number-line ticks share one axis; the pitch, not a flat floor, bounds the width',
-  },
   steps: [
     {
-      name: 'dial',
-      /* set start + direction + size -> the DIAL screen (span, lily, recap, keypad, Hoppa) */
+      name: 'built',
       async drive(page) {
-        const plan = await page.evaluate((g) => {
-          const t = window[g];
-          if (!t || !t.round || !t.snap) return null;
-          const ticks = t.snap.ticks || [];
-          const startIdx = ticks.indexOf(t.round.start);
-          const sizeIdx = (t._chips || []).indexOf(t.round.size);
-          return { startIdx, sizeIdx, dirIdx: t.round.dir === 'back' ? 1 : 0 };
-        }, G);
-        if (!plan) throw new Error('could not read the round off window.' + G);
-        if (plan.startIdx < 0) throw new Error('the round start is not one of the ticks');
-        if (plan.sizeIdx < 0) throw new Error('the round size is not one of the offered chips');
-
-        await clickNth(page, '.hnl-tickhit', plan.startIdx);
-        await clickNth(page, '.hnl-dir', plan.dirIdx);
-        await clickNth(page, '.hnl-size', plan.sizeIdx);
-
-        /* assert we actually arrived — the keypad only exists in the DIAL phase */
-        const keys = await page.$$('.hnl-key');
-        if (!keys.length) throw new Error('no keypad after setting start+dir+size — the DIAL phase was not reached');
-        return true;
-      },
+        const k = await page.evaluate((g) => (window.__lpK = window[g].st.k), G); await back(page, k);
+        await act(page, BUILD + PAD('r.answer')); await wait(150);
+        const s = await state(page);
+        if (s.frog === null || !s.coils || s.pad === null) throw new Error('the build did not take');
+        return { restore: async () => back(page, k) };
+      }
     },
     {
-      name: 'solved',
-      /* the win screen carries no TOOL control by design — the child advances with the
-         shell's own Check/Next. Asserted here, explicitly, rather than by loosening a gate. */
-      terminal: true,
-      /* type the true landing and commit -> the win screen */
+      name: 'missed',
       async drive(page) {
-        const land = await page.evaluate((g) => {
-          const t = window[g];
-          if (!t || !t.round || !window.NumberlineJumpCore) return null;
-          return window.NumberlineJumpCore.landing(t.round);
-        }, G);
-        if (land == null) throw new Error('could not compute the landing');
-
-        for (const ch of String(land)) {
-          const d = Number(ch);
-          await clickNth(page, '.hnl-key', d === 0 ? 9 : d - 1);
-        }
-        const hop = await page.$('.hnl-hop');
-        if (!hop) throw new Error('no commit button in the DIAL phase');
-        if (await page.evaluate(el => el.disabled, hop)) throw new Error('the commit button is still disabled after dialling ' + land);
-        await hop.click();
-        await new Promise(r => setTimeout(r, 220));
-
-        const solved = await page.evaluate((g) => !!(window[g] && window[g].solved), G);
-        if (!solved) throw new Error('committed the true landing ' + land + ' and the tool did not mark it solved');
-        return true;
-      },
+        const k = await page.evaluate(() => window.__lpK); await back(page, k);
+        await act(page, BUILD + MISS + ' t._check();'); await wait(150);
+        const s = await state(page);
+        if (!s.verdict || s.verdict === 'start') throw new Error('the near miss did not hop');
+        return { restore: async () => back(page, k) };
+      }
     },
-  ],
+    {
+      name: 'helped',
+      async drive(page) {
+        const k = await page.evaluate(() => window.__lpK); await back(page, k);
+        await act(page, BUILD + MISS + ' t._check(); ' + 'if (r.kind === "div") t._count(r.count + 1); else t._pad(r.answer + r.dir * r.step);' + ' t._check();'); await wait(150);
+        const s = await state(page);
+        if (!s.help || s.ghost < 1) throw new Error('a second miss showed no dotted hops');
+        return { restore: async () => back(page, k) };
+      }
+    },
+    {
+      name: 'resolved',
+      terminal: true,
+      async drive(page) {
+        const k = await page.evaluate(() => window.__lpK); await back(page, k);
+        await page.evaluate((g) => { window[g].OK_MS = 500; }, G);
+        await act(page, BUILD + PAD('r.answer') + ' t._check();');
+        await wait(900);
+        const s = await state(page), sh = await page.evaluate(() => {
+          const p = document.querySelector('.lcs-activity-prompt'), nxt = document.querySelector('.lcs-activity-next');
+          return { celebrated: !!(p && p.classList.contains('celebrate')), next: !!(nxt && nxt.offsetParent !== null) };
+        });
+        if (!s.done || s.stamp !== 1) throw new Error('the round did not finish stamped');
+        if (!sh.celebrated || !sh.next) throw new Error('the shell did not celebrate / show Next 0.5 s after the result');
+        return true;
+      }
+    }
+  ]
 };

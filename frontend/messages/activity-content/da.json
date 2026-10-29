@@ -3786,6 +3786,29 @@
         "Vise en historie om længder som to lige lange stræk: det hele og delene efter hinanden.",
         "Skrive det regnestykke, der passer til historien, med det ukendte tal dér, hvor historien sætter det."
       ]
+    },
+    "hoppers-number-line.jump-sums.2-md-b-6": {
+      "about": [
+        "Frøen Hopper sidder på en række trædesten i en dam, og stenene er en tallinje: de ligger lige langt fra hinanden, og nogle har deres tal. Hver historie giver en start og et hop, for eksempel »Hopper sidder på 43. Han hopper 12 frem.« Barnet trækker Hopper hen på hans startsten og trykker på ham for at vende ham den vej, historien går, for han hopper kun den vej, hans næse peger. Så fylder barnet hans fjeder med hoppets længde, bygget af tykke tierringe og tynde enerringe: 12 er én tier og to enere.",
+        "Før han hopper, trækker barnet et åkandeblad hen på den sten, hvor det tror, Hopper lander. Når barnet trykker på Hop, springer fjederen: én bue for hver ring, hver bue fra en sten til en anden, så startstenen bliver aldrig talt med. Ligger åkandebladet under hans sidste landing, lander han på det, og en lotus springer ud. Ellers plasker han i vandet, og stenene mellem ham og bladet får ringe i vandet, som viser præcis, hvor langt gættet var fra. En forkert start, den forkerte vej eller den forkerte fyldning får hver sin hjælp. Efter endnu et forkert forsøg viser prikkede hop den rigtige vej uden at sige, hvilken sten der er den sidste.",
+        "Der er en tallinje op til 20, en op til 100 (stykker som 40 til 60, hvor kun hver femte sten har sit tal, og en linje i tiere) og lige store hop fra 0 eller tilbage til bredden som forberedelse til multiplikation og division. Aktiviteten følger Fælles Mål (efter 3. klassetrin) og passer til 2. klasse: at vise addition og subtraktion op til 100 på tallinjen. Den virker uden lyd, og der er hverken tidtagning eller point."
+      ],
+      "practices": [
+        "Tælle frem og tilbage på tallinjen, fra den næste sten",
+        "Bygge et hop af tiere og enere: først tieren, så enerne",
+        "Finde tal mellem de tal, der står på stenene, på en linje der begynder ved 40, 60 eller 80",
+        "Gætte, hvor han lander, før det bliver tjekket"
+      ],
+      "howToPlay": [
+        "Læs historien. Træk Hopper hen på hans startsten, og tryk på ham for at vende ham frem eller tilbage.",
+        "Tryk på ti og en for at fylde hans fjeder med hoppets længde, og træk så åkandebladet derhen, hvor han lander. Ved lige store hop trykker du på, hvor mange hop han laver.",
+        "Tryk på Hop. I indstillingerne vælger du tallinjen (op til 20, op til 100 eller lige store hop), og hvor mange tal der står ved stenene."
+      ],
+      "learningGoals": [
+        "Vise addition og subtraktion op til 100 som hop på en tallinje med lige store afstande.",
+        "Lægge sammen ved at hoppe frem og trække fra ved at hoppe tilbage uden at tælle starten med.",
+        "Se lige store hop som gentagen addition og tælle hoppene tilbage til 0."
+      ]
     }
   }
 }

@@ -1995,25 +1995,25 @@
     },
     "hoppers-number-line.jump-sums.2-md-b-6": {
       "about": [
-        "Hopper, la rana, brinca sobre una recta numérica y convierte cada cuenta en un movimiento con dirección. En esta actividad tu peque toca el número inicial, elige hacia dónde va Hopper —hacia adelante para sumar o hacia atrás para restar—, escoge el tamaño del brinco y descubre el número donde cae. La recta numérica deja de ser solo una fila de números y se vuelve el modelo con el que se calcula.",
-        "Así, sumar y restar hasta 100 se ve como lo que es: un brinco en una dirección. Por ejemplo, 24−9 es brincar nueve lugares hacia atrás, y 30+40 es un brinco de cuatro decenas completas hacia adelante que cae en 70. La niña o el niño no aplica ningún algoritmo escrito; en cambio, entiende de dónde parte, hacia dónde se mueve y en qué número termina el brinco.",
-        "Esta actividad complementa la otra de Hopper, donde la rana avanza a brincos iguales de 5, 10 o 100 sobre la misma recta numérica: aquella practica el conteo por grupos y esta muestra una suma o una resta como un solo brinco dirigido. Se juega en el navegador, sin cronómetro ni puntos, para que cada quien avance con calma y a su propio ritmo."
+        "Hopper, la rana, está sobre una fila de piedras que cruzan un estanque, y las piedras son una recta numérica: están a la misma distancia y algunas tienen su número. Cada historia da una salida y un brinco, por ejemplo «Hopper está en el 43. Brinca 12 hacia adelante». El niño arrastra a Hopper a su piedra de salida y lo toca para voltearlo hacia donde va la historia, porque solo brinca hacia donde apunta su nariz. Luego carga su resorte con el tamaño del brinco, hecho de anillos gruesos de diez y anillos delgados de uno: 12 es una decena y dos unidades.",
+        "Antes del brinco, el niño arrastra un nenúfar a la piedra donde cree que va a caer Hopper. Al presionar Suelta, el resorte se dispara: un arco por cada anillo, cada uno de una piedra a otra, así que la piedra de salida nunca se cuenta. Si el nenúfar está bajo su último brinco, Hopper cae en él y se abre una flor de loto. Si no, cae al agua, y en las piedras entre él y el nenúfar se forman ondas, que muestran exactamente cuánto falló la predicción. Una salida equivocada, la dirección equivocada o la carga equivocada tienen cada una su pista. Después de un segundo error, unos brincos punteados muestran el camino correcto sin decir la última piedra.",
+        "Hay una recta hasta 20, una hasta 100 (tramos como de 40 a 60, donde solo una de cada cinco piedras tiene su número, y una recta de 10 en 10) y brincos iguales desde 0 o de regreso a la orilla, para preparar la multiplicación y la división. La actividad sigue los planes y programas de la SEP para segundo grado, en el campo formativo Saberes y pensamiento científico: representar sumas y restas hasta 100 en la recta numérica. Funciona sin sonido, sin cronómetro y sin puntos."
       ],
       "practices": [
-        "Representar sumas y restas hasta 100 sobre la recta numérica, viendo cada operación como un brinco con dirección.",
-        "Elegir hacia dónde brinca Hopper: hacia adelante cuando se suma y hacia atrás cuando se resta.",
-        "Dar brincos de decenas completas, como 45−20, 80−50 o 30+40, para moverse rápido por la recta.",
-        "Leer el número donde cae Hopper y comprobar si el resultado del brinco es el correcto."
+        "Contar hacia adelante y hacia atrás en la recta numérica, desde la piedra siguiente",
+        "Armar un brinco con decenas y unidades: primero la decena, luego las unidades",
+        "Encontrar números entre las etiquetas en una recta que empieza en 40, 60 u 80",
+        "Predecir dónde cae antes de comprobarlo"
       ],
       "howToPlay": [
-        "Toca el número inicial en la recta numérica, el lugar desde donde Hopper va a brincar.",
-        "Elige la dirección —hacia adelante para sumar o hacia atrás para restar— y el tamaño del brinco.",
-        "Escribe dónde cae Hopper y de inmediato verás si acertaste."
+        "Lee la historia. Arrastra a Hopper a su piedra de salida y tócalo para voltearlo hacia adelante o hacia atrás.",
+        "Toca diez y uno para cargar su resorte con el tamaño del brinco y luego arrastra el nenúfar adonde va a caer. En los brincos iguales, toca cuántos brincos da.",
+        "Presiona Suelta. En los ajustes, elige la recta (hasta 20, hasta 100 o brincos iguales) y cuántos números muestran las piedras."
       ],
       "learningGoals": [
-        "Comprender la recta numérica como un modelo para calcular, y no únicamente como una herramienta para contar.",
-        "Conectar el sumar y el restar hasta 100 con una dirección y un movimiento concretos sobre la recta.",
-        "Ganar seguridad al brincar de decenas completas y afianzar el valor posicional, tal como se trabaja en segundo grado de primaria (~7 a 8 años) según los Planes y programas de estudio (SEP) de la Nueva Escuela Mexicana."
+        "Representar sumas y restas hasta 100 como brincos en una recta numérica con distancias iguales.",
+        "Sumar brincando hacia adelante y restar brincando hacia atrás, sin contar la salida.",
+        "Ver los brincos iguales como una suma repetida y contar los brincos hasta 0."
       ]
     },
     "line-plot.read.2-md-d-9": {

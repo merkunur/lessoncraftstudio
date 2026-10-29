@@ -3097,25 +3097,25 @@
     },
     "hoppers-number-line.jump-sums.2-md-b-6": {
       "about": [
-        "Hopper de kikker rekent met zijn poten: elke som of aftrekking wordt één sprong over de waterlelies.",
-        "Je kind kiest het startgetal, de richting en de sprongafstand, en leest daarna af waar Hopper landt.",
-        "Zo wordt de getallenlijn een echt rekenmodel — je ziet de som gebeuren in plaats van hem alleen uit te rekenen."
+        "Hopper de kikker zit op een rij stapstenen in een vijver, en die stenen zijn een getallenlijn: ze liggen even ver uit elkaar en sommige hebben hun getal. Elk verhaal geeft een start en een sprong, bijvoorbeeld 'Hopper zit op 43. Hij springt 12 vooruit.' Het kind sleept Hopper naar zijn startsteen en tikt op hem om hem de kant van het verhaal op te draaien, want hij springt alleen de kant op waar zijn neus naar wijst. Daarna laadt het zijn veer met de lengte van de sprong, gemaakt van dikke tienringen en dunne eenringen: 12 is één tiental en twee eenheden.",
+        "Voor de sprong sleept het kind een leliblad naar de steen waar Hopper volgens hem landt. Bij Spring schiet de veer los: één boog per ring, elke boog van een steen naar een andere steen, zodat de startsteen nooit wordt meegeteld. Ligt het leliblad onder zijn laatste landing, dan landt hij erop en gaat er een lotusbloem open. Zo niet, dan plonst hij in het water en krijgen de stenen tussen hem en het leliblad kringen, die precies laten zien hoe ver de voorspelling ernaast zat. Een verkeerde start, de verkeerde kant of de verkeerde lading krijgen elk een eigen hint. Na een tweede misser laten gestippelde sprongen de goede weg zien, zonder de laatste steen te noemen.",
+        "Er is een getallenlijn tot 20, een tot 100 (stukken zoals 40 tot 60, waarop maar elke vijfde steen een getal heeft, en een lijn met sprongen van 10) en gelijke sprongen vanaf 0 of terug naar de kant, als voorbereiding op vermenigvuldigen en delen. De activiteit sluit aan bij de SLO-kerndoelen en past in groep 4: optellen en aftrekken tot 100 laten zien op de getallenlijn. Ze werkt zonder geluid, zonder tijdsdruk en zonder punten."
       ],
       "practices": [
-        "Optellen en aftrekken tot 100 op de getallenlijn",
-        "Bewust de richting kiezen: vooruit bij plus, achteruit bij min",
-        "Vlot springen met hele tientallen (bijvoorbeeld 45 − 20, 80 − 50, 30 + 40)",
-        "Het antwoord aflezen als het landingsgetal"
+        "Doortellen en terugtellen op de getallenlijn, vanaf de volgende steen",
+        "Een sprong maken uit tientallen en eenheden: eerst het tiental, dan de eenheden",
+        "Getallen vinden tussen de getallen die erbij staan, op een lijn die begint bij 40, 60 of 80",
+        "Een landing voorspellen voordat je het controleert"
       ],
       "howToPlay": [
-        "Tik het startgetal aan op de getallenlijn",
-        "Kies de richting (vooruit of achteruit) en de sprongafstand",
-        "Tik in waar Hopper landt — dat is het antwoord"
+        "Lees het verhaal. Sleep Hopper naar zijn startsteen en tik op hem om hem vooruit of achteruit te draaien.",
+        "Tik op tien en één om zijn veer met de lengte van de sprong te laden en sleep dan het leliblad naar de plek waar hij landt. Bij gelijke sprongen tik je aan hoeveel sprongen hij maakt.",
+        "Druk op Spring. In de instellingen kies je de getallenlijn (tot 20, tot 100 of gelijke sprongen) en hoeveel getallen er bij de stenen staan."
       ],
       "learningGoals": [
-        "De getallenlijn gebruiken als rekenmodel, niet alleen om te tellen",
-        "Optellen en aftrekken koppelen aan richting en beweging",
-        "Vlot leren rekenen met hele tientallen"
+        "Optellen en aftrekken tot 100 laten zien als sprongen op een getallenlijn met gelijke afstanden.",
+        "Optellen door vooruit te springen en aftrekken door achteruit te springen, zonder de start mee te tellen.",
+        "Gelijke sprongen zien als herhaald optellen en de sprongen terug naar 0 tellen."
       ]
     },
     "plural.irregular.l-2-1-b": {

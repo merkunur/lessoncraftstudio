@@ -180,7 +180,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 170 | LIVE 2026-10-30 · The Stamp Sheet | 2 | 2.G.A.2 | `fractions.make-and-count-squares.2-g-a-2` | fractions-activity | Make and Count Squares — Partition a Rectangle into a Grid |
 | 171 | LIVE 2026-10-30 · The Dough Press | 2 | 2.G.A.3 | `choice-board.fraction-noncongruent.2-g-a-3` | choice-board-activity | Same Size, Different Shape — Equal Shares Can Look Different / Grade 2 Geometry |
 | 172 | LIVE 2026-10-30 · The Rain Table | 2 | 2.G.A.3 | `fractions.partition-thirds.2-g-a-3` | fractions-activity | Make Thirds — Partition Shapes into 3 Equal Parts (Grade 2) |
-| 173 |  | 2 | RI.2.2 | `marina-headline-desk.main-topic.ri-2-2` | marina-headline-desk-activity | Marina's Headline Desk — What's It Mostly About? (Grade 2) |
+| 173 | LIVE 2026-10-31 · The Stapler | 2 | RI.2.2 | `marina-headline-desk.main-topic.ri-2-2` | marina-headline-desk-activity | Marina's Headline Desk — What's It Mostly About? (Grade 2) |
 | 174 |  | 2 | RI.2.6 | `author-purpose.why-wrote.ri-2-6` | author-purpose-activity | The Harbor Post — Author's Purpose: Inform, Entertain & Instruct (Grade 2) |
 | 175 |  | 2 | RI.2.8 | `pearl-opinion-page.back-it-up.ri-2-8` | pearl-opinion-page-activity | Pearl's Opinion Page — Back It Up (Grade 2) |
 | 176 |  | 2 | L.2.1 | `sentence-clinic.fix-it.l-2-1` | sentence-clinic-activity | Dr. Plume's Sentence Clinic — Fix-the-Sentence Grammar (Grade 2) |

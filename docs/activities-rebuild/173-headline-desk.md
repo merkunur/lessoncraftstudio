@@ -50,3 +50,8 @@ ORDER row 173 · id `marina-headline-desk.main-topic.ri-2-2` (kept). Design: `de
 - Visual QA ×11 locales: 192 renders each (4 phases × 8 rounds × 6 viewports), all PASS.
 - Other audits: hierarchy 291/0; settings efficacy 2 live; prose claims, SERP copy, content tells, route preflight and Next delay all PASS.
 - **The hierarchy audit first failed 56 checks**, all of them picture size: the stapler (64 px) and the fan (48 px) were under the 96 px floor on wide screens, and the otter, stapler and fan were under 64 px on phones. The data-mark exemption is for graph marks, so it does not apply. All three were raised to the floor (stapler 112×96 wide / 64 phone, fan 96 / 64, otter 64 on phones from 360 up). At 320 the bigger pictures pushed the cards and Check 7–34 px below the fold in pt and nl (local-test caught it), so the 320 layout alone keeps the smaller pictures (otter 44, stapler 58×46, fan 44); the audit's phone floor is measured at 360. Local-test and visual QA were re-run in all 11 locales.
+
+## Live (2026-10-31)
+- Deployed with `4eb376db2`; payment canary OK. The page serves `marina-headline-desk-activity.html?v=9.919`.
+- `live-verify-headline-desk.js --locales=en,de,sv,fi`: 52/0. All 11 pages return 200. At 1366 and 390, a real tap on the detail card + the stapler staples one strip and blows two onto the floor; the topic card + the stapler staples every strip, solved; the iframe grows with the card.
+- The first run reported 403 for all 11 pages: Cloudflare's Super Bot Fight Mode (2026-10-28) challenges plain node/curl requests as "definitely automated", while the origin answered 200 and the browser plays passed. `scripts/lib/qa-header.js` now also exports `headers()` for plain https status checks to our own host, and this script sends it.

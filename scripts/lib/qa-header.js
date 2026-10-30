@@ -36,4 +36,7 @@ async function apply(page) {
   return true;
 }
 
-module.exports = { apply, hasSecret: () => !!secret() };
+/* the same header for a plain https request to our own host (status checks): curl/node are "definitely automated" to SBFM */
+function headers() { const s = secret(); return s ? { 'x-lcs-qa': s } : {}; }
+
+module.exports = { apply, headers, hasSecret: () => !!secret() };

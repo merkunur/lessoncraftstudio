@@ -16,7 +16,7 @@ const H = require('./lib/activity-harness');
 const OUT = H.arg('out', path.join(os.tmpdir(), 'lcs-live', '173-headline-desk'));
 const ROW = H.row('marina-headline-desk-activities.json', 'marina-headline-desk.main-topic.ri-2-2');
 const WRAPPER = H.WRAPPER();
-const status = (url) => new Promise((res) => { https.get(url, { headers: { 'User-Agent': 'Mozilla/5.0 Chrome/130' } }, (r) => { r.resume(); res(r.statusCode); }).on('error', () => res(0)); });
+const status = (url) => new Promise((res) => { https.get(url, { headers: Object.assign({ 'User-Agent': 'Mozilla/5.0 Chrome/130' }, require('./lib/qa-header').headers()) }, (r) => { r.resume(); res(r.statusCode); }).on('error', () => res(0)); });
 (async () => {
   fs.mkdirSync(OUT, { recursive: true });
   const V = await H.live({ html: 'marina-headline-desk-activity.html', global: 'MarinaHeadlineDeskActivity', ready: '.hd-wrap' });

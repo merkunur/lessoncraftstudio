@@ -3997,6 +3997,30 @@
         "Å sammenligne data: den vanligste lengden, lengre og kortere, hvor mange flere, forskjellen.",
         "Å måle lengder og vise dem i et diagram."
       ]
+    },
+    "graph-it.bar-graph.2-md-d-10": {
+      "about": [
+        "Et søylediagram leses av mot skalaen, og det er der barn gjør feil: Øyet glir ned til tallene og havner en linje for høyt eller for lavt, og på «hvor mange flere blader enn bringebær er det?» svarer de med tallet til den høyeste søylen i stedet for forskjellen. Pips stabelgjerde gir barnet et ekte verktøy for begge deler.",
+        "Diagrammet er Pips gjerde: en stolpe med tall og opptil fire søyler av planker, én planke for hver ting som er telt. På stolpen henger et vaterpass på en glider, og den andre enden hviler på toppen av en søyle. Barnet skyver enden opp eller ned langs stolpen til boblen er i midten: Først da ligger vaterpasset vannrett, stolpen viser tallet til søylen, og hver planke i en høyere søyle over vaterpasset blir stripete. Den stripete delen er hvor mange flere det er. Søyler kan stables oppå hverandre (til sammen), og planker kan legges i kurven til Pip (hvor mange som er igjen).",
+        "Tre nivåer: bygge (dra hver søyle opp etter tellestreker, et bildekort eller en tabell, eller rett den søylen som er feil), lese av (hvor mange flere, hvor mange færre, til sammen, hva det er flest av, hvor mange som er igjen, sant eller usant) og med skala, der stolpen teller 2, 5 eller 10 om gangen og ett bilde betyr 2 eller 5. Etter første feil legger vaterpasset seg der det hjelper, etter andre feil telles det sammen. Uten tidspress og uten poeng, i tråd med LK20."
+      ],
+      "practices": [
+        "Bygge et søylediagram og et bildediagram fra tellestreker, et kort eller en tabell",
+        "Lese av verdien til en søyle på skalaen med et vannrett vaterpass",
+        "Finne hvor mange flere, hvor mange færre, til sammen og hvor mange som er igjen ut fra et diagram",
+        "Lese diagrammer der skalaen teller 2, 5 eller 10 om gangen"
+      ],
+      "howToPlay": [
+        "Når du bygger, drar du hver søyle opp til den passer med kortet.",
+        "Når du leser av, drar du enden av vaterpasset til en søyle og skyver den andre enden langs stolpen til boblen er i midten.",
+        "Trykk på en søyle og så på en annen for å stable dem; dra planker til kurven til Pip for å ta bort noen.",
+        "Drei hjulene, trykk på Sant eller Usant eller på en søyle, og trykk så på Sjekk."
+      ],
+      "learningGoals": [
+        "Lage søylediagrammer og bildediagrammer med opptil fire kategorier.",
+        "Løse oppgaver om å sammenligne, legge sammen og ta bort med dataene i et diagram.",
+        "Lese diagrammer der skalaen teller med større steg."
+      ]
     }
   }
 }

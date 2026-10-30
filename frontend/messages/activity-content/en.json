@@ -2092,25 +2092,26 @@
     },
     "graph-it.bar-graph.2-md-d-10": {
       "about": [
-        "Working from tally marks or picture icons, children stack bars for forest finds — leaves, berries, acorns, pinecones, and mushrooms — across up to four categories, then read the graph to answer questions like how many more leaves than berries or how many in two categories together. It's an interactive Grade 2 data activity that runs in the browser, with nothing to install and no account.",
-        "The big idea is that a graph is a tool you build and then use. First the child turns counts into bars of the right height, even fixing a bar that is off; then they interpret the finished graph to compare, put together, and take apart amounts — and one round asks them to pick the graph that matches the data, proving they can read it back. Building before reading makes the bars meaningful instead of decorative.",
-        "It is aligned to Common Core 2.MD.D.10 — drawing a bar graph for up to four categories and solving simple put-together, take-apart, and compare problems using the information in the graph. No timer, no score — just calm, playful practice."
+        "A bar graph is read against its scale, and that is where children slip: the eye drifts down to the numbers and lands a line too high or too low, and \"how many more leaves than raspberries?\" gets the taller bar's number instead of the difference. Pip's Stacking Fence gives the child a real tool for both.",
+        "The graph is Pip's fence: a number post and up to four pickets of planks, one plank for each one counted. A spirit-level rail hangs on a slider on the post, and its other end rests on a picket's top. Slide the post end up or down until the bubble sits in the middle: only then is the rail level, the post reads that picket's number, and every plank of a taller picket above the rail is striped. That striped part is how many more. Pickets can be stacked to find how many altogether, and planks dropped into Pip's basket to find how many are left.",
+        "Three levels: build (pull each picket up to match a tally, a picture card or a table, or fix the one picket that is wrong), read (how many more, how many fewer, altogether, which is the most, how many are left, true or false), and scaled, where the post counts by 2, 5 or 10 and one picture can stand for 2 or 5. The first miss lays the rail where it helps; the second counts it out with the child. No timer, no score."
       ],
       "practices": [
-        "Turning tally marks or picture counts into bars of the right height",
-        "Building and fixing a bar graph for up to four categories",
-        "Reading the graph to find how many more or how many fewer",
-        "Putting two categories together to find a total from the graph"
+        "Building a bar graph and a picture graph from a tally, a picture card or a table",
+        "Reading a bar's value against the scale with a level straightedge",
+        "Solving how many more, how many fewer, altogether and how many are left from a graph",
+        "Reading graphs whose scale counts by 2, 5 or 10"
       ],
       "howToPlay": [
-        "Read the tallies or icons and stack each bar one unit at a time.",
-        "Build the graph so every bar shows the right amount.",
-        "Read the finished graph to answer the question — there is no timer and no score."
+        "In a build round, pull each picket up until it matches the card.",
+        "In a read round, drag the rail's end onto a picket, then slide its other end up or down the post until the bubble sits in the middle.",
+        "Tap one picket and then another to stack them; drag planks into Pip's basket to take some away.",
+        "Turn the dial, tap True or False, or tap a picket, then press Check."
       ],
       "learningGoals": [
-        "Draw a bar graph for up to four categories — the focus of Common Core 2.MD.D.10",
-        "Solve compare, put-together, and take-apart problems using a graph",
-        "Build the data sense that connects counting to reading charts and graphs"
+        "Drawing a bar graph and a picture graph for up to four categories.",
+        "Solving compare, put-together and take-apart problems with the information in a graph.",
+        "Reading graphs whose scale counts by more than one."
       ]
     },
     "gus-snack-cart.within-100.2-nbt-b-5": {

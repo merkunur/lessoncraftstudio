@@ -3974,6 +3974,30 @@
         "At sammenligne data: den hyppigste længde, længere og kortere, hvor mange flere, forskellen.",
         "At måle længder og vise dem i et diagram."
       ]
+    },
+    "graph-it.bar-graph.2-md-d-10": {
+      "about": [
+        "Et søjlediagram aflæses på skalaen, og det er dér, børn tager fejl: Øjet glider ned til tallene og rammer en linje for højt eller for lavt, og til ”hvor mange flere blade end hindbær er der?” siger de tallet for den højeste søjle i stedet for forskellen. Pips stabelhegn giver barnet et rigtigt redskab til begge dele.",
+        "Diagrammet er Pips hegn: en pæl med tal og op til fire søjler af brædder, ét bræt for hver ting, der er talt. På pælen hænger et vaterpas på en skyder, og dets anden ende hviler på toppen af en søjle. Barnet skubber enden op eller ned ad pælen, til boblen er i midten: Først da ligger vaterpasset vandret, pælen viser søjlens tal, og hvert bræt i en højere søjle over vaterpasset bliver stribet. Den stribede del er, hvor mange flere der er. Søjler kan stables oven på hinanden (i alt), og brædder kan lægges i Pips kurv (hvor mange der er tilbage).",
+        "Tre niveauer: bygge (træk hver søjle op efter tællestreger, et billedkort eller en tabel, eller ret den søjle, der er forkert), aflæse (hvor mange flere, hvor mange færre, i alt, hvad der er flest af, hvor mange der er tilbage, sandt eller falsk) og med skala, hvor pælen tæller 2, 5 eller 10 ad gangen, og et billede betyder 2 eller 5. Efter første fejl lægger vaterpasset sig, hvor det hjælper, og efter anden fejl tælles der sammen. Uden tidspres og uden point, efter Fælles Mål."
+      ],
+      "practices": [
+        "Bygge et søjlediagram og et billeddiagram ud fra tællestreger, et kort eller en tabel",
+        "Aflæse en søjles værdi på skalaen med et vandret vaterpas",
+        "Finde hvor mange flere, hvor mange færre, i alt og hvor mange der er tilbage ud fra et diagram",
+        "Aflæse diagrammer, hvor skalaen tæller 2, 5 eller 10 ad gangen"
+      ],
+      "howToPlay": [
+        "Når du bygger, trækker du hver søjle op, til den passer med kortet.",
+        "Når du aflæser, trækker du vaterpassets ende hen på en søjle og skubber den anden ende op eller ned ad pælen, til boblen er i midten.",
+        "Tryk på en søjle og så på en anden for at stable dem; træk brædder hen i Pips kurv for at fjerne nogle.",
+        "Drej hjulene, tryk på Sandt eller Falsk eller på en søjle, og tryk så på Tjek."
+      ],
+      "learningGoals": [
+        "Lave søjlediagrammer og billeddiagrammer med op til fire kategorier.",
+        "Løse opgaver om at sammenligne, lægge sammen og tage væk med data fra et diagram.",
+        "Aflæse diagrammer, hvor skalaen tæller i større spring."
+      ]
     }
   }
 }

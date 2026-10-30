@@ -3973,6 +3973,30 @@
         "Vertailla tietoja: yleisin pituus, pidemmät ja lyhyemmät, montako enemmän, ero.",
         "Mitata pituuksia ja esittää ne kaaviossa."
       ]
+    },
+    "graph-it.bar-graph.2-md-d-10": {
+      "about": [
+        "Pylväsdiagrammi luetaan asteikolta, ja juuri siinä lapset erehtyvät: katse liukuu alas lukuihin ja osuu viivan liian ylös tai alas, ja kysymykseen ”kuinka monta lehteä on enemmän kuin vadelmia?” vastataan korkeimman pylvään luvulla eikä erotuksella. Pipin pinoaita antaa lapselle kumpaankin oikean välineen.",
+        "Diagrammi on Pipin aita: numeroitu tolppa ja enintään neljä laudoista koottua pylvästä, yksi lauta jokaista laskettua kohti. Tolpassa on liukuvaan pidikkeeseen kiinnitetty vesivaaka, jonka toinen pää lepää pylvään huipulla. Lapsi liu’uttaa tolpan päätä ylös tai alas, kunnes kupla on keskellä: vasta silloin vaaka on vaakasuorassa, tolppa näyttää pylvään luvun ja jokainen korkeamman pylvään lauta vaa’an yläpuolella muuttuu raidalliseksi. Raidallinen osa kertoo, kuinka monta enemmän. Pylväitä voi pinota päällekkäin (yhteensä) ja lautoja voi siirtää Pipin koriin (kuinka monta jää jäljelle).",
+        "Kolme tasoa: rakenna (vedä jokainen pylväs ylös tukkimiehen kirjanpidon, kuvakortin tai taulukon mukaan tai korjaa väärä pylväs), lue (kuinka monta enemmän, kuinka monta vähemmän, yhteensä, mitä on eniten, kuinka monta jää jäljelle, totta vai ei totta) ja asteikolla, jossa tolpan luvut kasvavat kahden, viiden tai kymmenen välein ja yksi kuva tarkoittaa lukua 2 tai 5. Ensimmäisen virheen jälkeen vesivaaka asettuu kohtaan, josta on apua, toisen jälkeen lasketaan yhdessä. Ilman kiirettä ja ilman pisteitä, perusopetuksen opetussuunnitelman perusteiden mukaisesti."
+      ],
+      "practices": [
+        "Rakentaa pylväsdiagrammi ja kuvadiagrammi tukkimiehen kirjanpidon, kortin tai taulukon mukaan",
+        "Lukea pylvään arvo asteikolta vaakavaakasuoran vesivaa’an avulla",
+        "Ratkaista diagrammin avulla, kuinka monta enemmän, kuinka monta vähemmän, yhteensä ja kuinka monta jää jäljelle",
+        "Lukea diagrammeja, joiden asteikko etenee kahden, viiden tai kymmenen välein"
+      ],
+      "howToPlay": [
+        "Rakentaessa vedä jokaista pylvästä ylös, kunnes se vastaa korttia.",
+        "Lukiessa vedä vesivaa’an pää pylvään päälle ja liu’uta toista päätä tolppaa pitkin, kunnes kupla on keskellä.",
+        "Napauta yhtä pylvästä ja sitten toista pinotaksesi ne; vedä lautoja Pipin koriin ottaaksesi niitä pois.",
+        "Pyöritä rattaita, napauta Totta tai Ei totta tai napauta pylvästä ja paina sitten Tarkista."
+      ],
+      "learningGoals": [
+        "Laatia pylväs- ja kuvadiagrammeja, joissa on enintään neljä luokkaa.",
+        "Ratkaista vertailu-, yhdistämis- ja poistamistehtäviä diagrammin tietojen avulla.",
+        "Lukea diagrammeja, joiden asteikko etenee suuremmin askelin."
+      ]
     }
   }
 }

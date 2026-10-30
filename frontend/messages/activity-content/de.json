@@ -1149,25 +1149,26 @@
     },
     "graph-it.bar-graph.2-md-d-10": {
       "about": [
-        "Bei „Pips Stapelzaun“ baut dein Kind ein Säulendiagramm Schritt für Schritt selbst auf: Aus einer Strichliste der Waldfunde – Blätter, Beeren, Eicheln, Tannenzapfen und Pilze – stapelt es jede Säule genau so hoch, wie die Anzahl es vorgibt. So erlebt es ganz konkret, wie aus gesammelten Daten ein Diagramm entsteht.",
-        "Danach geht es ums Ablesen und Vergleichen: Wie viele Eicheln sind es mehr als Beeren? Wie viele Pilze und Blätter sind es zusammen? Stimmt die Aussage – richtig oder falsch? Dein Kind ordnet außerdem die passende Strichliste dem Diagramm zu und verbessert eine falsch gebaute Säule. Daten sammeln, darstellen und auswerten – diese Übung deckt den ganzen Weg ab.",
-        "Die Aktivität ist eine interaktive Mathe-Übung für die 2. Klasse und orientiert sich am Lehrplan der Grundschule (Leitidee „Daten und Häufigkeit“). Es gibt keinen Zeitdruck, keine Punkte und keine Wertung – dein Kind arbeitet in seinem eigenen Tempo. Direkt im Browser spielbar, ohne Anmeldung."
+        "Ein Säulendiagramm liest man an seiner Skala ab, und genau da passieren die Fehler: Das Auge rutscht zu den Zahlen hinunter und landet eine Linie zu hoch oder zu tief, und bei „Wie viele Blätter gibt es mehr als Himbeeren?“ wird die Zahl der höheren Säule genannt statt des Unterschieds. Pips Stapelzaun gibt dem Kind für beides ein echtes Werkzeug.",
+        "Das Diagramm ist Pips Zaun: ein Zahlenpfosten und bis zu vier Säulen aus Brettern, ein Brett für jedes Gezählte. Am Pfosten hängt eine Wasserwaage auf einem Schieber, ihr freies Ende liegt auf der Spitze einer Säule. Das Kind schiebt das Ende am Pfosten hoch oder runter, bis die Blase in der Mitte sitzt: Nur dann liegt die Waage waagerecht, der Pfosten zeigt die Zahl dieser Säule, und jedes Brett einer höheren Säule über der Waage wird gestreift. Der gestreifte Teil ist das „mehr“. Säulen lassen sich aufeinanderstapeln (zusammen) und Bretter in Pips Korb legen (übrig).",
+        "Drei Stufen: Bauen (jede Säule nach Strichliste, Bildkarte oder Tabelle hochziehen oder die eine falsche Säule berichtigen), Ablesen (wie viele mehr, wie viele weniger, zusammen, wovon am meisten, wie viele übrig, stimmt oder stimmt nicht) und mit Maßstab, wo der Pfosten in Zweier-, Fünfer- oder Zehnerschritten zählt und ein Bild für 2 oder 5 steht. Nach dem ersten Fehler legt sich die Wasserwaage dorthin, wo sie hilft, nach dem zweiten wird gemeinsam gezählt. Ohne Zeitdruck und ohne Punkte, passend zum Lehrplan."
       ],
       "practices": [
-        "Ein einfaches Säulendiagramm aus einer Strichliste selbst aufbauen",
-        "Daten ablesen und vergleichen: „wie viele mehr/weniger“ und „zusammen“",
-        "Eine falsch gebaute Säule erkennen und verbessern",
-        "Strichliste und Diagramm einander zuordnen und Aussagen auf richtig/falsch prüfen"
+        "Ein Säulen- und ein Bilddiagramm nach Strichliste, Bildkarte oder Tabelle bauen",
+        "Den Wert einer Säule mit einer waagerechten Wasserwaage an der Skala ablesen",
+        "Aus einem Diagramm wie viele mehr, wie viele weniger, zusammen und übrig bestimmen",
+        "Diagramme mit einer Skala in Zweier-, Fünfer- oder Zehnerschritten lesen"
       ],
       "howToPlay": [
-        "Schau dir die Strichliste an und baue jede Säule so hoch, wie die Anzahl es zeigt.",
-        "Verbessere die Säule, die nicht passt, und ordne die richtige Strichliste zu.",
-        "Lies das fertige Diagramm ab und beantworte die Fragen zum Vergleichen und Zusammenzählen."
+        "Beim Bauen ziehst du jede Säule hoch, bis sie zur Karte passt.",
+        "Beim Ablesen ziehst du das Ende der Wasserwaage auf eine Säule und schiebst das andere Ende am Pfosten, bis die Blase in der Mitte sitzt.",
+        "Tippe eine Säule und dann eine zweite an, um sie zu stapeln; zieh Bretter in Pips Korb, um welche wegzunehmen.",
+        "Dreh die Zahlenrädchen, tippe auf Stimmt oder Stimmt nicht oder tippe eine Säule an und dann auf Prüfen."
       ],
       "learningGoals": [
-        "Dein Kind kann Daten in einem Säulendiagramm darstellen und ein einfaches Diagramm sicher ablesen.",
-        "Es vergleicht Anzahlen („mehr“, „weniger“, „zusammen“) und begründet einfache Aussagen mit „richtig“ oder „falsch“.",
-        "Es versteht den Zusammenhang zwischen Strichliste und Diagramm als zwei Darstellungen derselben Daten."
+        "Säulen- und Bilddiagramme für bis zu vier Kategorien erstellen.",
+        "Vergleichs-, Zusammenfüge- und Wegnehmaufgaben mit den Daten eines Diagramms lösen.",
+        "Diagramme lesen, deren Skala in größeren Schritten zählt."
       ]
     },
     "clock-digital.read-hour.1-md-b-3": {

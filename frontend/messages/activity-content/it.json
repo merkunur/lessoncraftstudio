@@ -1325,25 +1325,26 @@
     },
     "graph-it.bar-graph.2-md-d-10": {
       "about": [
-        "Pip lo scoiattolo ha raccolto tante cose nel bosco e ha bisogno di una mano per metterle in ordine: questa attività trasforma un semplice conteggio in un diagramma a barre da costruire e leggere insieme.",
-        "I bambini impilano le assi di una staccionata fino a far corrispondere l'altezza di ogni barra al numero di foglie, bacche, ghiande, pigne, funghi o fiori raccolti.",
-        "Una volta pronto il grafico a barre, si imparano a leggere i dati: quante ce ne sono di più, quante di meno, quante in tutto, e si risponde a un confronto vero o falso."
+        "Un diagramma a barre si legge sulla sua scala, ed è lì che i bambini sbagliano: l’occhio scende verso i numeri e si ferma una riga più su o più giù, e a «quante foglie ci sono in più rispetto ai lamponi?» rispondono con il numero della barra più alta invece che con la differenza. La staccionata di Pip dà al bambino uno strumento vero per tutte e due le cose.",
+        "Il diagramma è la staccionata di Pip: un palo numerato e fino a quattro barre fatte di assi, un’asse per ogni cosa contata. Sul palo c’è una livella a bolla appesa a un cursore, con l’altra estremità appoggiata in cima a una barra. Il bambino fa salire o scendere l’estremità sul palo finché la bolla è nel mezzo: solo allora la livella è in bolla, il palo indica il numero di quella barra e ogni asse di una barra più alta sopra la livella si riga. La parte rigata è «quante in più». Le barre si possono impilare (in tutto) e le assi si possono mettere nel cestino di Pip (quante restano).",
+        "Tre livelli: costruire (tirare su ogni barra come nel conteggio a stanghette, in una scheda di figure o in una tabella, o correggere la barra sbagliata), leggere (quante in più, quante in meno, in tutto, di che cosa ce n’è di più, quante restano, vero o falso) e con scala, dove il palo conta di 2 in 2, di 5 in 5 o di 10 in 10 e una figura vale 2 o 5. Al primo errore la livella si mette dove aiuta; al secondo si conta insieme. Senza tempo e senza punti, secondo le Indicazioni nazionali."
       ],
       "practices": [
-        "Costruire un diagramma a barre a partire da un conteggio o da una tabella di dati.",
-        "Leggere e interpretare un grafico a barre per confrontare quantità diverse.",
-        "Ragionare su «di più», «di meno» e «in tutto» osservando l'altezza delle barre.",
-        "Rappresentare e confrontare dati, un primo passo verso il nucleo Relazioni, dati e previsioni delle Indicazioni nazionali."
+        "Costruire un diagramma a barre e un ideogramma da un conteggio, una scheda o una tabella",
+        "Leggere il valore di una barra sulla scala con una livella in bolla",
+        "Trovare quante in più, quante in meno, in tutto e quante restano da un diagramma",
+        "Leggere diagrammi con una scala che conta di 2 in 2, di 5 in 5 o di 10 in 10"
       ],
       "howToPlay": [
-        "Guarda quante cose ha trovato Pip per ogni categoria e impila le assi della staccionata per costruire la barra giusta.",
-        "Continua finché ogni barra non corrisponde al conteggio: il diagramma a barre è completo.",
-        "Ora leggi i dati e rispondi alle domande di Pip su quante in più, quante in meno e quante in tutto."
+        "Per costruire, tira su ogni barra finché corrisponde alla scheda.",
+        "Per leggere, trascina l’estremità della livella su una barra, poi fai scorrere l’altra estremità sul palo finché la bolla è nel mezzo.",
+        "Tocca una barra e poi un’altra per impilarle; trascina le assi nel cestino di Pip per toglierne alcune.",
+        "Gira le rotelle, tocca Vero o Falso oppure una barra, poi premi Verifica."
       ],
       "learningGoals": [
-        "Saper costruire un diagramma a barre semplice rappresentando i dati raccolti.",
-        "Saper leggere un grafico a barre e confrontare le quantità (di più, di meno, in tutto).",
-        "Avvicinarsi alla lettura e al confronto dei dati con materiali manipolabili, senza voti e senza tempo, in un clima sereno."
+        "Costruire diagrammi a barre e ideogrammi con al massimo quattro categorie.",
+        "Risolvere problemi di confronto, di unione e di sottrazione con i dati di un diagramma.",
+        "Leggere diagrammi con una scala che avanza di più di uno alla volta."
       ]
     },
     "clock-digital.read-hour.1-md-b-3": {

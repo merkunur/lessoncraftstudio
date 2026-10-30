@@ -123,6 +123,10 @@ function seedScript(row) {
     // the invention at work: a quarter already in the box, the counter turned on to 35, the dime held over the slot — the child says the total BEFORE the coin goes in
     return "(function(){var t=window['SayItSlotActivity'];if(!t||!t.api)return;var go=function(){if(!t._picsReady){setTimeout(go,50);return;}var C=window.SayItSlotCore;t.FAST=true;t.OK_MS=600000;t.api.settings.level='1';t.api.settings.coins='purse';t._pool=null;t._ensurePool();t._start(5);t._render2();var st=t.st,q=C.where(st,'cloth').filter(function(c){return c.v===25;})[0];st.counter=25;t._drop(q.id);var d=C.where(st,'cloth').filter(function(c){return c.v===10;})[0];C.roll(st,1,1);t._view.sel=d.id;t._paint();};go();})();";
   }
+  if (row.tool === 'level-rail-activity') {
+    // the invention at work: "how many more leaves than raspberries?" — the rail lies level on the raspberry picket, the post reads 4, the leaves' overhang striped
+    return "(function(){var t=window['LevelRailActivity'];if(!t||!t.api)return;var go=function(){if(!t._picsReady){setTimeout(go,50);return;}var C=window.LevelRailCore;t.FAST=true;t.OK_MS=600000;t.api.settings.level='read';t.api.settings.rail='show';t._pool=null;t._ensurePool();t._start(0);t.st.cats=['leaf','raspberry','acorn'];t._render2();C.layRail(t.st,'raspberry');C.setSlider(t.st,4);t._paint();};go();})();";
+  }
   if (row.tool === 'tide-plot-activity') {
     // the invention at work: "longer than 4 cm?" — the left wave pushed in over the 2s, 3s and 4s, so only the longer shells stay dry above the sand
     return "(function(){var t=window['TidePlotActivity'];if(!t||!t.api)return;var go=function(){if(!t._picsReady){setTimeout(go,50);return;}var C=window.TidePlotCore;t.FAST=true;t.OK_MS=600000;t.api.settings.level='read';t._pool=null;t._ensurePool();t._start(2);t._render2();C.setShore(t.st,'L',4);t._paint();};go();})();";

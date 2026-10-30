@@ -2314,25 +2314,26 @@
     },
     "graph-it.bar-graph.2-md-d-10": {
       "about": [
-        "Pip, el amiguito del bosque, salió a recolectar hojas, bayas, bellotas, piñas de pino y hongos, y anotó cada hallazgo en una tabla de conteo. Aquí el niño le ayuda a convertir ese conteo en una gráfica de barras, subiendo cada barra unidad por unidad hasta que coincida con lo que Pip encontró.",
-        "La idea central es que los datos se recopilan, se representan y se interpretan: primero se cuenta, luego se dibuja la gráfica y al final se lee. Con las barras a la vista, el niño compara categorías —cuántas hojas más que bayas—, suma cuántas hay en total y decide si una afirmación es verdadera o falsa, todo sin presión por contar rápido.",
-        "Esta actividad trabaja el eje de análisis de datos (manejo de la información) de los planes y programas de estudio de la SEP, dentro de la Nueva Escuela Mexicana: leer tablas de conteo, pictogramas y gráficas de barras es una de las bases del pensamiento matemático en la primaria baja."
+        "Una gráfica de barras se lee en su escala, y ahí es donde los niños se equivocan: la vista baja a los números y cae una línea más arriba o más abajo, y en «¿cuántas hojas hay más que frambuesas?» dicen el número de la barra más alta en vez de la diferencia. La cerca apilada de Pip le da al niño una herramienta de verdad para las dos cosas.",
+        "La gráfica es la cerca de Pip: un poste con números y hasta cuatro barras hechas de tablones, un tablón por cada cosa contada. En el poste cuelga un nivel de burbuja sobre un deslizador, y su otro extremo se apoya en la punta de una barra. El niño sube o baja el extremo del poste hasta que la burbuja queda en medio: solo entonces el nivel está derecho, el poste marca el número de esa barra y cada tablón de una barra más alta que queda encima del nivel se raya. La parte rayada es «cuántas más». Las barras se pueden apilar (en total) y los tablones se pueden echar en la canasta de Pip (cuántas quedan).",
+        "Tres niveles: construir (subir cada barra según una tabla de conteo, una tarjeta de dibujos o una tabla, o arreglar la barra que está mal), leer (cuántas más, cuántas menos, en total, de qué hay más, cuántas quedan, verdadero o falso) y con escala, donde el poste cuenta de 2 en 2, de 5 en 5 o de 10 en 10 y un dibujo vale 2 o 5. Al primer error el nivel se coloca donde ayuda; al segundo se cuenta junto con el niño. Sin reloj y sin puntos, alineada con los programas de la SEP."
       ],
       "practices": [
-        "Construir una gráfica de barras a partir de una tabla de conteo, una unidad a la vez",
-        "Leer y comparar los datos: cuántas más, cuántas menos y cuántas en total",
-        "Corregir una barra mal construida para que coincida con el conteo de Pip",
-        "Relacionar la tabla de conteo con la gráfica correcta y decidir si una afirmación es verdadera o falsa"
+        "Construir una gráfica de barras y un pictograma a partir de una tabla de conteo, una tarjeta o una tabla",
+        "Leer el valor de una barra en la escala con un nivel bien derecho",
+        "Resolver cuántas más, cuántas menos, en total y cuántas quedan con una gráfica",
+        "Leer gráficas cuya escala cuenta de 2 en 2, de 5 en 5 o de 10 en 10"
       ],
       "howToPlay": [
-        "Observa la tabla de conteo de Pip y toca cada barra para subirla, colocando una unidad por cada hallazgo hasta que la gráfica quede completa.",
-        "Cuando la gráfica esté lista, responde las preguntas: cuántas hojas más que bayas, cuántos hongos en total o si la afirmación es verdadera o falsa.",
-        "Si algo no cuadra, usa «Deshacer» para quitar la última unidad y ajustar la barra: aquí se aprende explorando, sin prisas ni marcadores."
+        "Para construir, sube cada barra hasta que coincida con la tarjeta.",
+        "Para leer, arrastra el extremo del nivel sobre una barra y luego desliza el otro extremo por el poste hasta que la burbuja quede en medio.",
+        "Toca una barra y luego otra para apilarlas; arrastra tablones a la canasta de Pip para quitar algunas.",
+        "Gira las ruedas, toca Verdadero o Falso o toca una barra, y luego toca Comprobar."
       ],
       "learningGoals": [
-        "Representar datos organizando la información de un conteo en una gráfica de barras clara",
-        "Interpretar la gráfica para comparar categorías y calcular totales dentro del eje de análisis de datos",
-        "Fortalecer el manejo de la información que proponen los programas de estudio de la SEP, leyendo tablas y gráficas con confianza"
+        "Hacer gráficas de barras y pictogramas de hasta cuatro categorías.",
+        "Resolver problemas de comparar, juntar y quitar con los datos de una gráfica.",
+        "Leer gráficas cuya escala avanza de más de uno en uno."
       ]
     },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {

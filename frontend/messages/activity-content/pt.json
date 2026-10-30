@@ -541,26 +541,26 @@
     },
     "graph-it.bar-graph.2-md-d-10": {
       "about": [
-        "Pip, o esquilo, passou o dia no bosque juntando folhas, bagas, bolotas, pinhas e cogumelos, e anotou cada achado em uma tabela de contagem. Aqui a criança ajuda Pip a transformar essa contagem em um gráfico de barras, subindo cada coluna de uma unidade por vez até ela combinar com tudo o que o esquilo encontrou.",
-        "A ideia central é que os dados se coletam, se representam e se leem: primeiro se conta, depois se constrói o gráfico e, por fim, ele é interpretado. Com as barras à vista, a criança compara categorias — quantas folhas a mais que bagas —, junta as categorias para descobrir quantas há no total e decide se uma afirmação é verdadeira ou falsa, tudo sem pressa por contar rápido.",
-        "Esta é a primeira atividade de dados da plataforma e trabalha a unidade temática Probabilidade e estatística da BNCC no 2º ano: ler uma tabela de contagem e construir e interpretar um gráfico de colunas é uma das bases do letramento matemático nos anos iniciais do ensino fundamental."
+        "Um gráfico de barras se lê na sua escala, e é aí que as crianças erram: o olho desce até os números e cai uma linha acima ou abaixo, e em «quantas folhas há a mais do que framboesas?» elas dizem o número da barra mais alta em vez da diferença. A cerca empilhada do Pip dá à criança uma ferramenta de verdade para as duas coisas.",
+        "O gráfico é a cerca do Pip: um poste com números e até quatro barras feitas de tábuas, uma tábua para cada coisa contada. No poste fica um nível de bolha preso num cursor, com a outra ponta apoiada no topo de uma barra. A criança sobe ou desce a ponta do poste até a bolha ficar no meio: só então o nível fica reto, o poste mostra o número daquela barra e cada tábua de uma barra mais alta acima do nível fica listrada. A parte listrada é «quantas a mais». Dá para empilhar barras (ao todo) e colocar tábuas na cesta do Pip (quantas sobram).",
+        "Três níveis: construir (puxar cada barra conforme a contagem de tracinhos, um cartão de figuras ou uma tabela, ou consertar a barra errada), ler (quantos a mais, quantos a menos, ao todo, do que há mais, quantos sobram, verdadeiro ou falso) e com escala, em que o poste conta de 2 em 2, de 5 em 5 ou de 10 em 10 e uma figura vale 2 ou 5. No primeiro erro o nível se coloca onde ajuda; no segundo, a contagem é feita junto com a criança. Sem cronômetro e sem pontos, de acordo com a BNCC."
       ],
       "practices": [
-        "Construir um gráfico de barras a partir de uma tabela de contagem, uma unidade de cada vez",
-        "Ler o gráfico e comparar as quantidades: quantos a mais e quantos a menos entre as categorias",
-        "Juntar categorias para descobrir quantos há no total",
-        "Relacionar a tabela de contagem com o gráfico correto e decidir se uma afirmação sobre os dados é verdadeira ou falsa",
-        "Interpretar os dados representados para responder a perguntas simples"
+        "Construir um gráfico de barras e um gráfico de figuras a partir de uma contagem, um cartão ou uma tabela",
+        "Ler o valor de uma barra na escala com um nível bem reto",
+        "Resolver quantos a mais, quantos a menos, ao todo e quantos sobram com um gráfico",
+        "Ler gráficos cuja escala conta de 2 em 2, de 5 em 5 ou de 10 em 10"
       ],
       "howToPlay": [
-        "Observe a tabela de contagem de Pip e toque em cada coluna para subi-la, colocando uma unidade para cada achado até o gráfico de barras ficar completo.",
-        "Quando o gráfico estiver pronto, responda às perguntas: quantas folhas a mais que bagas, quantos cogumelos no total ou se a afirmação é verdadeira ou falsa.",
-        "Se algo não bater, use «Desfazer» para tirar a última unidade e ajustar a coluna: aqui se aprende explorando, sem pressa e sem pontuação."
+        "Para construir, puxe cada barra para cima até combinar com o cartão.",
+        "Para ler, arraste a ponta do nível sobre uma barra e depois deslize a outra ponta no poste até a bolha ficar no meio.",
+        "Toque em uma barra e depois em outra para empilhá-las; arraste tábuas para a cesta do Pip para tirar algumas.",
+        "Gire as rodas, toque em Verdadeiro ou Falso ou toque numa barra e depois em Verificar."
       ],
       "learningGoals": [
-        "Representar dados organizando as informações de uma contagem em um gráfico de barras claro",
-        "Interpretar o gráfico para comparar categorias e calcular totais",
-        "Desenvolver o trabalho com a unidade temática Probabilidade e estatística da BNCC, lendo tabelas e gráficos com confiança no 2º ano"
+        "Construir gráficos de barras e de figuras com até quatro categorias.",
+        "Resolver problemas de comparar, juntar e retirar com os dados de um gráfico.",
+        "Ler gráficos cuja escala avança de mais de um em um."
       ]
     },
     "line-plot.read.2-md-d-9": {

@@ -48,20 +48,23 @@ interface StatsData {
   total: number;
   active: number;
   unverified: number;
+  byTier: Record<string, number>;
 }
 
 interface SearchFilters {
   query: string;
+  tier: 'all' | 'full' | 'core' | 'free';
   sortBy: string;
   sortOrder: 'asc' | 'desc';
 }
 
 export default function UserControlPage() {
   const [users, setUsers] = useState<UserData[]>([]);
-  const [stats, setStats] = useState<StatsData>({ total: 0, active: 0, unverified: 0 });
+  const [stats, setStats] = useState<StatsData>({ total: 0, active: 0, unverified: 0, byTier: {} });
   const [loading, setLoading] = useState(false);
   const [filters, setFilters] = useState<SearchFilters>({
     query: '',
+    tier: 'all',
     sortBy: 'createdAt',
     sortOrder: 'desc',
   });
@@ -92,6 +95,7 @@ export default function UserControlPage() {
         page: currentPage.toString(),
         limit: '20',
         search: filters.query,
+        tier: filters.tier,
         sortBy: filters.sortBy,
         sortOrder: filters.sortOrder,
       });
@@ -103,8 +107,13 @@ export default function UserControlPage() {
 
       const data = await response.json();
       setUsers(data.users);
+      // stats.total follows the filters (it is the filtered count); the card shows ALL users,
+      // which byTier (computed over every user) adds up to.
+      const byTier: Record<string, number> = data.stats?.byTier ?? {};
+      const allUsers = Object.values(byTier).reduce((a, b) => a + b, 0);
       setStats({
-        total: data.stats?.total ?? 0,
+        byTier,
+        total: allUsers || (data.stats?.total ?? 0),
         active: data.stats?.active ?? 0,
         unverified: data.stats?.unverified ?? 0,
       });
@@ -206,7 +215,7 @@ export default function UserControlPage() {
 
   const exportUsers = async () => {
     try {
-      const response = await fetch(`/api/admin/user-control/export`, {
+      const response = await fetch(`/api/admin/user-control/export?tier=${filters.tier}`, {
         headers: getAuthHeaders(),
       });
       if (!response.ok) throw new Error('Export failed');
@@ -214,7 +223,7 @@ export default function UserControlPage() {
       const url = window.URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = `users-${new Date().toISOString().split('T')[0]}.csv`;
+      a.download = `users-${filters.tier === 'all' ? '' : filters.tier + '-tier-'}${new Date().toISOString().split('T')[0]}.csv`;
       document.body.appendChild(a);
       a.click();
       window.URL.revokeObjectURL(url);
@@ -334,6 +343,21 @@ export default function UserControlPage() {
 
               <div className="flex gap-4">
                 <select
+                  aria-label="Filter by tier"
+                  value={filters.tier}
+                  onChange={(e) => {
+                    setFilters({ ...filters, tier: e.target.value as SearchFilters['tier'] });
+                    setCurrentPage(1);
+                  }}
+                  className="block pl-3 pr-10 py-2 text-sm border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 rounded-lg"
+                >
+                  <option value="all">All tiers ({stats.total})</option>
+                  <option value="full">Full tier ({stats.byTier.full ?? 0})</option>
+                  <option value="core">Core tier ({stats.byTier.core ?? 0})</option>
+                  <option value="free">Free tier ({stats.byTier.free ?? 0})</option>
+                </select>
+                <select
+                  aria-label="Sort users"
                   value={`${filters.sortBy}-${filters.sortOrder}`}
                   onChange={(e) => {
                     const [sortBy, sortOrder] = e.target.value.split('-');

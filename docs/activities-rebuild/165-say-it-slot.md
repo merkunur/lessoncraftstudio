@@ -36,3 +36,4 @@ ORDER row 165 · id `money.count-out.2-md-c-8` (kept). Design: `designs/165-mone
 - `mutate-say-it-slot.js` 33/33 killed, control passes.
 - `local-test-say-it-slot.js` 3,436/0 in 11 locales: real taps on the wheels, the coin and the slot, a real drag, keyboard; every level; 9 states × 8 widths with the box and every coin above the fold at rest.
 - visual-qa 192 renders each in en/de/fr/da/fi (and pt); hierarchy 536/0; settings efficacy 2 live; prose-claims, SERP copy, content tells, preflight routes, next-delay all PASS.
+- **Live (2026-10-30):** live-verify-say-it-slot 60/0 (en/de/sv/fi, 1366 + 390: a wrong count by real wheel taps is spat back, then biggest-first by real taps to the price, the parade replays the count) + all 11 pages 200; deploy payment canary OK. First deploy after the NVMe reboot: a stale 2025 systemd unit (lessoncraftstudio.service) had taken port 3000 at boot and kept pm2 errored; disabled by the operator, pm2 restarted and saved.

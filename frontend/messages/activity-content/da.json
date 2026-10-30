@@ -3950,6 +3950,30 @@
         "At tælle penge ved at tælle videre fra den mønt, der er mest værd.",
         "At løse opgaver med penge: betale, give byttepenge og sammenligne beløb."
       ]
+    },
+    "line-plot.read.2-md-d-9": {
+      "about": [
+        "Når man læser et prikdiagram, skal man afgøre, hvilke krydser spørgsmålet handler om. „Hvor mange skaller er længere end 5 cm?“ handler om alle krydser efter 5, ikke om 5 selv, og „Hvilken længde er der flest af?“ svarer man på med en længde, ikke med hvor mange krydser den har. På Shellys tidevandslinje træffer barnet den beslutning med hænderne.",
+        "Diagrammet ligger på en strand. To bølgehåndtag skubber havet ind fra venstre og højre (de stopper kun i mellemrummene mellem tallene), og en bøje hæver vandet én række ad gangen. Skaller under vand bliver blå, men kan stadig ses. Barnet lader præcis de skaller, spørgsmålet handler om, ligge tørt og svarer så. Når man tjekker, tæller vandet først: „længere end 5“ med femmerne stadig tørre er ikke rigtigt, heller ikke med det rigtige tal.",
+        "Tre niveauer: aflæs tidevandslinjen (hvor mange ved en længde, længere, kortere, den hyppigste længde, den længste minus den korteste, hvor mange flere); mål og sæt ind, hvor rigtige skaller måles fra linealens 0 (de ligger ikke altid der) og slippes som krydser; og halve centimeter, på en strand med halve centimeter. Efter anden fejl stiller vandet sig selv rigtigt, det, der skal tælles, bliver nummereret, og der kommer en ring om svaret. Uden tidspres og uden point, i tråd med Fælles Mål."
+      ],
+      "practices": [
+        "Aflæse, hvor mange målinger der er lig med, længere eller kortere end en længde",
+        "Finde den hyppigste længde og forskellen mellem den længste og den korteste",
+        "Måle længder fra linealens 0 til hele og halve centimeter",
+        "Sætte hver måling ind som et kryds over sit tal"
+      ],
+      "howToPlay": [
+        "Træk i bølgehåndtagene for at skubbe havet ind fra siderne, og træk i bøjen for at hæve vandet.",
+        "Lad kun de skaller, spørgsmålet handler om, ligge tørt, og tryk så på svaret på en sten.",
+        "Når du måler, skubber du skallen hen til linealens 0, aflæser, hvor den slutter, og slipper den på sin længde.",
+        "Tryk på Tjek. Efter anden fejl stiller vandet sig selv rigtigt."
+      ],
+      "learningGoals": [
+        "At aflæse et prikdiagram med målinger.",
+        "At sammenligne data: den hyppigste længde, længere og kortere, hvor mange flere, forskellen.",
+        "At måle længder og vise dem i et diagram."
+      ]
     }
   }
 }

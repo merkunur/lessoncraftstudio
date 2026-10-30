@@ -1176,25 +1176,26 @@
     },
     "line-plot.read.2-md-d-9": {
       "about": [
-        "Shelly le bernard-l’ermite mesure des coquillages sur la plage, le long de la ligne de marée. Chaque coquillage a une longueur en centimètres, et votre enfant le place sur la droite graduée : un X apparaît au-dessus du bon nombre. Peu à peu, les X s’empilent et forment un diagramme des effectifs.",
-        "D’un seul coup d’œil, votre enfant apprend à lire ce diagramme : quelle est la longueur qui revient le plus souvent, combien de coquillages sont plus longs qu’une longueur donnée, et quel est l’écart entre le plus long et le plus court. Mesurer n’est plus une fin en soi : cela sert à construire des données, puis à les interroger.",
-        "Cette activité est interactive et pensée pour le CE1. Il n’y a ni chronomètre ni points : votre enfant avance à son rythme, dans le domaine « Organisation et gestion de données » des programmes officiels."
+        "Lire un diagramme, c’est décider de quelles croix parle la question. « Combien de coquillages mesurent plus de 5 cm ? » concerne toutes les croix après le 5, pas le 5 lui-même, et « Quelle longueur revient le plus souvent ? » se répond par une longueur, pas par un nombre de croix. Avec la ligne de marée de Shelly, l’enfant prend cette décision avec ses mains.",
+        "Le diagramme est dessiné sur une plage. Deux poignées de vague poussent la mer depuis la gauche et la droite (elles ne s’arrêtent que dans les espaces entre les nombres), et une bouée fait monter la mer rangée par rangée. Les coquillages sous l’eau deviennent bleus mais restent visibles. L’enfant garde au sec exactement les coquillages de la question, puis répond. À la vérification, la mer compte d’abord : « plus de 5 » avec les 5 encore au sec n’est pas juste, même avec le bon nombre.",
+        "Trois niveaux : lire la ligne de marée (combien pour une longueur, plus longs, plus courts, la longueur la plus fréquente, le plus long moins le plus court, combien de plus) ; mesurer et placer, où de vrais coquillages sont mesurés à partir du 0 de la règle (ils n’y arrivent pas toujours) puis posés en croix ; et les demi-centimètres, sur une plage graduée en demi-centimètres. Après la deuxième erreur, la mer se place d’elle-même, ce qu’il faut compter est numéroté et la réponse est entourée. Sans chronomètre ni score, en lien avec les programmes officiels."
       ],
       "practices": [
-        "Mesurer et lire des longueurs en centimètres.",
-        "Représenter des données sur un diagramme (un X au-dessus de la droite graduée).",
-        "Lire des effectifs : combien ? combien de plus ?",
-        "Comparer des longueurs : plus long que, l’écart entre deux coquillages."
+        "Lire combien de mesures sont égales, supérieures ou inférieures à une longueur",
+        "Trouver la longueur la plus fréquente et l’écart entre le plus long et le plus court",
+        "Mesurer des longueurs à partir du 0 de la règle, au centimètre et au demi-centimètre près",
+        "Noter chaque mesure par une croix au-dessus de son nombre"
       ],
       "howToPlay": [
-        "Regarde le coquillage et lis sa longueur, puis touche le bon nombre : un X apparaît sur la droite graduée.",
-        "En mode lecture, réponds aux questions sur le diagramme, par exemple quelle longueur revient le plus souvent.",
-        "Prends ton temps : il n’y a ni chronomètre ni points."
+        "Fais glisser les poignées de vague pour pousser la mer depuis les côtés, et la bouée pour faire monter la mer.",
+        "Garde au sec seulement les coquillages de la question, puis touche la réponse sur un galet.",
+        "Pour mesurer, fais glisser le coquillage jusqu’au 0 de la règle, lis où il se termine et pose-le sur sa longueur.",
+        "Appuie sur Vérifier. Après la deuxième erreur, la mer se place d’elle-même au bon endroit."
       ],
       "learningGoals": [
-        "Représenter des longueurs mesurées sur un diagramme des effectifs.",
-        "Lire la longueur la plus fréquente et combien de coquillages sont plus longs qu’une longueur donnée.",
-        "Déterminer l’écart entre le coquillage le plus long et le plus court."
+        "Lire un diagramme de mesures.",
+        "Comparer des données : la longueur la plus fréquente, plus long et plus court, combien de plus, l’écart.",
+        "Mesurer des longueurs et les représenter sur un diagramme."
       ]
     },
     "bundle-bot.bundle-machine.1-nbt-b-2-a": {

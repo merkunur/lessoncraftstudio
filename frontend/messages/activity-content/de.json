@@ -1444,25 +1444,26 @@
     },
     "line-plot.read.2-md-d-9": {
       "about": [
-        "Bei „Shellys Gezeitenlinie“ lernen die Kinder, Daten zu ordnen und abzulesen. Jede gemessene Muschel wird mit einem X über der passenden Zahl eingetragen – so entsteht ein einfaches Häufigkeitsdiagramm. Die Kinder erkennen auf einen Blick, welche Länge am häufigsten vorkommt, wie viele Muscheln länger als eine bestimmte Länge sind und wie groß der Unterschied zwischen der längsten und der kürzesten Muschel ist.",
-        "Bevor gezählt und verglichen wird, wird gemessen: Jede Muschel hat eine Länge in Zentimetern. Die Kinder lesen die Länge ab und tragen sie an der richtigen Stelle des Zahlenstrahls ein. So verbinden sie das Messen mit dem Darstellen von Daten – zwei Fähigkeiten, die im Alltag immer zusammengehören.",
-        "Die Aktivität läuft ohne Zeitdruck und ohne Punkte. Kein Timer, keine Wertung – die Kinder dürfen in Ruhe ausprobieren, ablesen und vergleichen. „Shellys Gezeitenlinie“ orientiert sich am Lehrplan der Grundschule und gehört zur Leitidee „Daten und Häufigkeit“."
+        "Wer ein Häufigkeitsdiagramm liest, muss entscheiden, um welche Kreuze es in der Frage geht. „Wie viele Muscheln sind länger als 5 cm?“ meint alle Kreuze nach der 5, nicht die 5 selbst, und „Welche Länge kommt am häufigsten vor?“ beantwortet man mit einer Länge, nicht mit der Zahl der Kreuze. Bei Shellys Gezeitenlinie trifft das Kind diese Entscheidung mit den Händen.",
+        "Das Diagramm liegt an einem Strand. Zwei Wellengriffe schieben das Meer von links und rechts herein (sie halten nur in den Lücken zwischen den Zahlen), und eine Boje lässt das Wasser Reihe für Reihe steigen. Muscheln unter Wasser werden blau, bleiben aber sichtbar. Das Kind lässt genau die Muscheln trocken, um die es geht, und antwortet dann. Beim Prüfen zählt zuerst das Wasser: „länger als 5“ mit noch trockenen 5ern ist nicht richtig, auch wenn die Zahl stimmt.",
+        "Drei Stufen: die Gezeitenlinie lesen (wie viele bei einer Länge, länger, kürzer, die häufigste Länge, die längste minus die kürzeste, wie viele mehr); messen und eintragen, wobei echte Muscheln am Lineal ab der 0 gemessen werden (sie liegen nicht immer an der 0) und als Kreuz auf ihre Länge kommen; und halbe Zentimeter auf einem Strand mit halben Zentimetern. Nach dem zweiten Fehler stellt sich das Wasser selbst richtig, das Zählbare wird nummeriert und die Antwort eingekreist. Ohne Zeitdruck und ohne Punkte, passend zum Lehrplan."
       ],
       "practices": [
-        "Muschellängen in Zentimetern messen und ablesen.",
-        "Daten in einem Häufigkeitsdiagramm darstellen.",
-        "Häufigkeiten ablesen: Wie viele? Wie viele mehr?",
-        "Längen vergleichen – länger als, kürzer als, der Unterschied."
+        "Ablesen, wie viele Messwerte bei, über oder unter einer Länge liegen",
+        "Die häufigste Länge und den Unterschied zwischen der längsten und der kürzesten finden",
+        "Längen ab der 0 des Lineals auf ganze und halbe Zentimeter messen",
+        "Jeden Messwert als Kreuz über seiner Zahl eintragen"
       ],
       "howToPlay": [
-        "Schau dir die Muschel an und lies ihre Länge ab. Tippe dann auf die passende Zahl – dort erscheint ein X.",
-        "Im Lese-Modus beantwortest du Fragen zum fertigen Diagramm, zum Beispiel: Welche Länge kommt am häufigsten vor?",
-        "Nimm dir Zeit. Es gibt keinen Timer und keine Punkte – du kannst alles in Ruhe ausprobieren."
+        "Zieh die Wellengriffe, um das Meer von den Seiten hereinzuschieben, und zieh die Boje, um das Wasser steigen zu lassen.",
+        "Lass nur die Muscheln trocken, um die es in der Frage geht, und tippe dann die Antwort auf einem Kieselstein an.",
+        "Beim Messen schiebst du die Muschel an die 0 des Lineals, liest ab, wo sie endet, und legst sie auf ihre Länge.",
+        "Tippe auf Prüfen. Nach dem zweiten Fehler stellt sich das Wasser von selbst richtig."
       ],
       "learningGoals": [
-        "Dein Kind kann gemessene Längen in einem Häufigkeitsdiagramm darstellen.",
-        "Dein Kind kann ablesen, welche Länge am häufigsten vorkommt und wie viele Muscheln länger als eine bestimmte Länge sind.",
-        "Dein Kind kann den Unterschied zwischen der längsten und der kürzesten Länge bestimmen."
+        "Ein Häufigkeitsdiagramm mit Messwerten lesen.",
+        "Daten vergleichen: häufigste Länge, länger und kürzer, wie viele mehr, der Unterschied.",
+        "Längen messen und in einem Diagramm darstellen."
       ]
     },
     "hoppers-number-line.jump-sums.2-md-b-6": {

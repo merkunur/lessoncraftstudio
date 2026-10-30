@@ -962,25 +962,26 @@
     },
     "line-plot.read.2-md-d-9": {
       "about": [
-        "Sulla linea di marea, Shelly il granchio eremita ha bisogno di una mano per mettere in ordine le sue conchiglie: questa attività trasforma la misura di ogni conchiglia in un diagramma delle frequenze fatto di X impilate, da costruire e leggere insieme.",
-        "Il bambino misura ogni conchiglia e segna la sua lunghezza con una X sulla linea dei numeri, impilando le X finché tutte le conchiglie non trovano il loro posto.",
-        "Quando il diagramma delle frequenze è completo, si imparano a leggere i dati: quante conchiglie hanno una certa lunghezza, quale lunghezza compare più spesso e di quanto la più lunga supera la più corta, in cm."
+        "Per leggere un diagramma delle frequenze bisogna decidere di quali X parla la domanda. «Quante conchiglie sono più lunghe di 5 cm?» riguarda tutte le X dopo il 5, non il 5 stesso, e «Quale lunghezza compare più spesso?» si risponde con una lunghezza, non con quante X ha. Con la linea di marea di Shelly il bambino prende questa decisione con le mani.",
+        "Il diagramma è disegnato su una spiaggia. Due maniglie a onda spingono il mare da sinistra e da destra (si fermano solo negli spazi tra i numeri) e una boa alza il livello del mare fila dopo fila. Le conchiglie sott’acqua diventano azzurre ma restano visibili. Il bambino lascia all’asciutto proprio le conchiglie della domanda, poi risponde. Al controllo conta prima il mare: «più lunghe di 5» con i 5 ancora all’asciutto non è giusto, anche con il numero giusto.",
+        "Tre livelli: leggere la linea di marea (quante di una lunghezza, più lunghe, più corte, la lunghezza più frequente, la più lunga meno la più corta, quante in più); misurare e segnare, dove vere conchiglie si misurano sul righello dallo 0 (non sempre ci arrivano) e si lasciano cadere come X; e mezzi centimetri, su una spiaggia segnata in mezzi centimetri. Dopo il secondo errore il mare si sistema da solo, ciò che va contato viene numerato e la risposta viene cerchiata. Senza cronometro e senza punteggi, in linea con le Indicazioni nazionali."
       ],
       "practices": [
-        "Segnare la lunghezza di ogni conchiglia con una X sulla linea dei numeri per costruire il diagramma delle frequenze.",
-        "Leggere e interpretare il diagramma delle frequenze per contare quante conchiglie misurano una certa lunghezza.",
-        "Individuare la lunghezza che compare più spesso e confrontare la più lunga con la più corta.",
-        "Rappresentare e leggere semplici dati, un primo passo verso il nucleo Relazioni, dati e previsioni."
+        "Leggere quante misure sono uguali, maggiori o minori di una lunghezza",
+        "Trovare la lunghezza più frequente e la differenza tra la più lunga e la più corta",
+        "Misurare lunghezze dallo 0 del righello, al centimetro e al mezzo centimetro",
+        "Registrare ogni misura con una X sopra il suo numero"
       ],
       "howToPlay": [
-        "Guarda la lunghezza di ogni conchiglia che Shelly ti mostra e segna una X sulla linea dei numeri, sul numero giusto in cm.",
-        "Continua a impilare le X finché tutte le conchiglie non sono sul diagramma delle frequenze.",
-        "Ora leggi il diagramma e rispondi alle domande di Shelly: se sbagli, puoi riprovare con calma."
+        "Trascina le maniglie a onda per spingere il mare dai lati, e la boa per alzare il livello del mare.",
+        "Lascia all’asciutto solo le conchiglie della domanda, poi tocca la risposta su un sassolino.",
+        "Per misurare, fai scorrere la conchiglia fino allo 0 del righello, leggi dove finisce e lasciala sulla sua lunghezza.",
+        "Premi Verifica. Dopo il secondo errore il mare si sistema da solo al posto giusto."
       ],
       "learningGoals": [
-        "Saper segnare le lunghezze delle conchiglie sulla linea dei numeri e costruire un semplice diagramma delle frequenze.",
-        "Saper leggere il diagramma delle frequenze per rispondere a domande su quante conchiglie, quale lunghezza compare più spesso e di quanto la più lunga supera la più corta.",
-        "Avvicinarsi alla lettura e all'interpretazione dei dati con materiali manipolabili, senza voti e senza tempo, in linea con le Indicazioni nazionali, nel nucleo Relazioni, dati e previsioni."
+        "Leggere un diagramma delle frequenze con misure.",
+        "Confrontare dati: la lunghezza più frequente, più lunghe e più corte, quante in più, la differenza.",
+        "Misurare lunghezze e rappresentarle in un diagramma."
       ]
     },
     "bundle-bot.bundle-machine.1-nbt-b-2-a": {

@@ -1,53 +1,55 @@
 [
-  {
-    "id": "line-plot.read.2-md-d-9",
-    "tool": "line-plot-activity",
-    "task_template": "line-plot",
-    "alignment": { "framework": "CCSS", "code": "2.MD.D.9", "grade": "2", "strand": "Measurement & Data" },
-    "theme": null,
-    "params": {
-      "rounds": [
-        { "id": "lp-at-5",   "cog": "read", "scale": {"min":1,"max":8}, "marks": [2,3,5,5,5,6,8], "question": {"type":"atN","n":5}, "foilRank": "lo" },
-        { "id": "lp-at-4",   "cog": "read", "scale": {"min":1,"max":8}, "marks": [3,4,4,4,6,7],   "question": {"type":"atN","n":4}, "foilRank": "hi" },
-        { "id": "lp-longer-5","cog": "read", "scale": {"min":1,"max":8}, "marks": [2,3,5,5,5,6,8], "question": {"type":"longerN","n":5}, "foilRank": "mid" },
-        { "id": "lp-mode",   "cog": "read", "scale": {"min":1,"max":8}, "marks": [2,2,4,6,6,6,7], "question": {"type":"mode"} },
-        { "id": "lp-diff-1", "cog": "read", "scale": {"min":1,"max":8}, "marks": [2,3,5,5,5,6,8], "question": {"type":"maxMinusMin"}, "foilRank": "hi" },
-        { "id": "lp-diff-2", "cog": "read", "scale": {"min":1,"max":8}, "marks": [2,2,4,6,6,6,7], "question": {"type":"maxMinusMin"}, "foilRank": "lo" },
-        { "id": "lp-more-56","cog": "read", "scale": {"min":1,"max":8}, "marks": [2,3,5,5,5,6,8], "question": {"type":"moreAB","a":5,"b":6}, "foilRank": "lo" },
-        { "id": "lp-more-46","cog": "read", "scale": {"min":1,"max":8}, "marks": [3,4,4,4,6,7],   "question": {"type":"moreAB","a":4,"b":6}, "foilRank": "mid" },
-
-        { "id": "lp-plot-6", "cog": "plot", "scale": {"min":1,"max":8}, "marks": [3,4,4,4,6,7],   "placeLength": 6, "foilRank": "hi" },
-        { "id": "lp-plot-4", "cog": "plot", "scale": {"min":1,"max":8}, "marks": [2,2,6,6,6,7],   "placeLength": 4, "foilRank": "lo" },
-        { "id": "lp-plot-7", "cog": "plot", "scale": {"min":1,"max":8}, "marks": [2,3,5,5,5,6,8], "placeLength": 7, "foilRank": "mid" }
-      ]
-    },
-    "slug": {
-      "en": "measurement-line-plot",
-      "de": "haeufigkeitsdiagramm-ablesen-klasse-2",
-      "fr": "lire-un-diagramme-de-donnees-ce1",
-      "es": "diagrama-de-frecuencias-leer-datos-2-primaria",
-      "pt": "ler-diagrama-de-frequencias-dados-conchas-2-ano",
-      "it": "diagramma-delle-frequenze-leggere-i-dati-classe-seconda",
-      "nl": "kruisjesdiagram-aflezen-gegevens-groep-4", "sv": "kryss-pa-tallinjen-vanligaste-langden-ak-2"
-    },
-    "page_title": {
-      "en": "Shelly's Tide-Line — Measurement Line Plots (Grade 2)",
-      "de": "Shellys Gezeitenlinie – Häufigkeiten ablesen (Klasse 2)",
-      "fr": "Lire un diagramme de données — CE1 (longueurs en cm)",
-      "es": "Shelly y la línea de marea — leer un diagrama de frecuencias (2.º primaria)",
-      "pt": "Shelly e as Conchas: Ler Diagrama de Frequências e Dados — 2º ano",
-      "it": "Shelly: leggere il diagramma delle frequenze (classe seconda)",
-      "nl": "Shelly’s getijdenlijn – frequenties aflezen (groep 4)", "sv": "Snäckis strandlinje – längder som kryss på tallinjen (åk 2)"
-    },
-    "page_intro": {
-      "en": "An interactive Grade 2 math activity: help Shelly the hermit crab measure shells and plot their lengths on a tide-line. Read the X's stacked over each number to find how many shells are a given length, how many are longer, the most common length, and how much longer the longest shell is than the shortest. A clear, friendly introduction to measurement line plots. Common Core 2.MD.D.9.",
-      "de": "Miss mit Shelly Muscheln und trage sie in das Häufigkeitsdiagramm ein: Wie viele sind gleich lang? Welche Länge kommt am häufigsten vor? Interaktiv – Klasse 2.",
-      "fr": "Lis et représente des données en CE1 : Shelly le bernard-l’ermite mesure des coquillages et place chaque longueur sur un diagramme. Interactif.",
-      "es": "Con Shelly, el cangrejo ermitaño, mide conchas en centímetros y regístralas en un diagrama de frecuencias sobre la recta numérica. Lee cuántas hay de cada longitud, cuál se repite más y la diferencia entre la más larga y la más corta. Juego interactivo de segundo grado, sin registro, alineado a los Planes y programas de estudio (SEP).",
-      "pt": "Com a Shelly, o caranguejo-ermitão, meça conchas em centímetros e marque cada comprimento em um diagrama de frequências sobre a reta numérica. Leia quantas conchas há de cada comprimento, qual mais aparece e quantos cm a mais tem a mais comprida que a mais curta. Atividade interativa do 2º ano, sem cadastro, alinhada à BNCC (Probabilidade e estatística).",
-      "it": "Sulla linea di marea, Shelly il granchio eremita ha raccolto una manciata di conchiglie di tutte le misure e ha bisogno del tuo aiuto per metterle in ordine. Misura ogni conchiglia e segna la sua lunghezza con una X sulla linea dei numeri: mano a mano che le X si impilano, prende forma il diagramma delle frequenze. Quando il diagramma è pronto, lo leggi insieme a Shelly per rispondere alle sue domande: quante conchiglie misurano una certa lunghezza in cm, qual è la lunghezza che compare più spesso e quanto è più lunga la più lunga rispetto alla più corta. È un modo tranquillo per imparare a leggere e interpretare semplici dati, senza registrazione, direttamente nel browser. L'attività è allineata alle Indicazioni nazionali, nel nucleo Relazioni, dati e previsioni.",
-      "nl": "Meet samen met Shelly de heremietkreeft schelpjes op en zet ze in een kruisjesdiagram: voor elke schelp komt er een kruisje boven het juiste getal op de getallenlijn. Zo ontstaat een overzichtelijk beeld van alle lengtes, en leert je kind de frequenties aflezen: hoeveel schelpen zijn even lang, welke lengte komt het vaakst voor en hoeveel schelpen zijn langer dan een bepaald aantal centimeter? Deze activiteit is interactief, en sluit aan bij de SLO-kerndoelen voor groep 4.", "sv": "Snäckis mäter snäckor och sätter ett kryss över varje längd på tallinjen. Läs av hur många, vilken längd som är vanligast och hur mycket som skiljer. Åk 2, Lgr22."
-    },
-    "kid_prompt_template": "line-plot"
-  }
+    {
+        "id": "line-plot.read.2-md-d-9",
+        "tool": "tide-plot-activity",
+        "task_template": "tide-plot",
+        "alignment": {
+            "framework": "CCSS",
+            "code": "2.MD.D.9",
+            "grade": "2",
+            "strand": "Measurement & Data"
+        },
+        "theme": null,
+        "params": {},
+        "slug": {
+            "en": "measurement-line-plot",
+            "de": "haeufigkeitsdiagramm-ablesen-klasse-2",
+            "fr": "lire-un-diagramme-de-donnees-ce1",
+            "es": "diagrama-de-frecuencias-leer-datos-2-primaria",
+            "pt": "ler-diagrama-de-frequencias-dados-conchas-2-ano",
+            "it": "diagramma-delle-frequenze-leggere-i-dati-classe-seconda",
+            "nl": "kruisjesdiagram-aflezen-gegevens-groep-4",
+            "sv": "kryss-pa-tallinjen-vanligaste-langden-ak-2",
+            "da": "laes-et-prikdiagram-skaller-2-klasse",
+            "no": "les-et-prikkdiagram-skjell-2-trinn",
+            "fi": "lue-pistekaaviota-simpukat-2-luokka"
+        },
+        "page_title": {
+            "en": "Shelly's Tide-Line — Measurement Line Plots (Grade 2)",
+            "de": "Shellys Gezeitenlinie – Häufigkeiten ablesen (Klasse 2)",
+            "fr": "Lire un diagramme de données — CE1 (longueurs en cm)",
+            "es": "Shelly y la línea de marea — leer un diagrama de frecuencias (2.º primaria)",
+            "pt": "Shelly e as Conchas: Ler Diagrama de Frequências e Dados — 2º ano",
+            "it": "Shelly: leggere il diagramma delle frequenze (classe seconda)",
+            "nl": "Shelly’s getijdenlijn – frequenties aflezen (groep 4)",
+            "sv": "Snäckis strandlinje – längder som kryss på tallinjen (åk 2)",
+            "da": "Shellys tidevandslinje – læs et prikdiagram (2. klasse)",
+            "no": "Shellys tidevannslinje – les et prikkdiagram (2. trinn)",
+            "fi": "Shellyn rantaviiva – lue pistekaaviota (2. luokka)"
+        },
+        "page_intro": {
+            "en": "An interactive Grade 2 math activity: help Shelly the hermit crab measure shells and plot their lengths on a tide-line. Read the X's stacked over each number to find how many shells are a given length, how many are longer, the most common length, and how much longer the longest shell is than the shortest. A clear, friendly introduction to measurement line plots. Common Core 2.MD.D.9.",
+            "de": "Miss mit Shelly Muscheln und trage sie in das Häufigkeitsdiagramm ein: Wie viele sind gleich lang? Welche Länge kommt am häufigsten vor? Interaktiv – Klasse 2.",
+            "fr": "Lis et représente des données en CE1 : Shelly le bernard-l’ermite mesure des coquillages et place chaque longueur sur un diagramme. Interactif.",
+            "es": "Con Shelly, el cangrejo ermitaño, mide conchas en centímetros y regístralas en un diagrama de frecuencias sobre la recta numérica. Lee cuántas hay de cada longitud, cuál se repite más y la diferencia entre la más larga y la más corta. Juego interactivo de segundo grado, sin registro, alineado a los Planes y programas de estudio (SEP).",
+            "pt": "Com a Shelly, o caranguejo-ermitão, meça conchas em centímetros e marque cada comprimento em um diagrama de frequências sobre a reta numérica. Leia quantas conchas há de cada comprimento, qual mais aparece e quantos cm a mais tem a mais comprida que a mais curta. Atividade interativa do 2º ano, sem cadastro, alinhada à BNCC (Probabilidade e estatística).",
+            "it": "Sulla linea di marea, Shelly il granchio eremita ha raccolto una manciata di conchiglie di tutte le misure e ha bisogno del tuo aiuto per metterle in ordine. Misura ogni conchiglia e segna la sua lunghezza con una X sulla linea dei numeri: mano a mano che le X si impilano, prende forma il diagramma delle frequenze. Quando il diagramma è pronto, lo leggi insieme a Shelly per rispondere alle sue domande: quante conchiglie misurano una certa lunghezza in cm, qual è la lunghezza che compare più spesso e quanto è più lunga la più lunga rispetto alla più corta. È un modo tranquillo per imparare a leggere e interpretare semplici dati, senza registrazione, direttamente nel browser. L'attività è allineata alle Indicazioni nazionali, nel nucleo Relazioni, dati e previsioni.",
+            "nl": "Meet samen met Shelly de heremietkreeft schelpjes op en zet ze in een kruisjesdiagram: voor elke schelp komt er een kruisje boven het juiste getal op de getallenlijn. Zo ontstaat een overzichtelijk beeld van alle lengtes, en leert je kind de frequenties aflezen: hoeveel schelpen zijn even lang, welke lengte komt het vaakst voor en hoeveel schelpen zijn langer dan een bepaald aantal centimeter? Deze activiteit is interactief, en sluit aan bij de SLO-kerndoelen voor groep 4.",
+            "sv": "Snäckis mäter snäckor och sätter ett kryss över varje längd på tallinjen. Läs av hur många, vilken längd som är vanligast och hur mycket som skiljer. Åk 2, Lgr22.",
+            "da": "Mål muslingeskaller sammen med Shelly, og sæt et kryds over hver længde på tallinjen. Skub havet ind, så kun de skaller, spørgsmålet handler om, ligger tørt – og aflæs så, hvor mange der er af hver længde, hvilken længde der er flest af, og hvor meget længere den længste skal er end den korteste. I tråd med Fælles Mål for 2. klasse.",
+            "no": "Mål skjell sammen med Shelly, og sett et kryss over hver lengde på tallinja. Skyv havet inn, så bare skjellene spørsmålet handler om, ligger tørt – og les av hvor mange det er av hver lengde, hvilken lengde det er flest av, og hvor mye lengre det lengste skjellet er enn det korteste. I tråd med LK20 for 2. trinn.",
+            "fi": "Mittaa simpukoita Shellyn kanssa ja merkitse jokaisen pituus rastilla lukusuoralle. Työnnä merta sisään niin, että vain kysymyksen simpukat jäävät kuiville – ja lue sitten, montako simpukkaa on kunkin pituisia, mikä pituus on yleisin ja kuinka paljon pidempi pisin simpukka on kuin lyhyin. Opetussuunnitelman mukainen tehtävä 2. luokalle."
+        },
+        "kid_prompt_template": "line-plot"
+    }
 ]

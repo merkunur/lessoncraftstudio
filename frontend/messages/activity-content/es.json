@@ -2018,25 +2018,26 @@
     },
     "line-plot.read.2-md-d-9": {
       "about": [
-        "Shelly, el cangrejo ermitaño, camina por la orilla del mar recogiendo conchas de todos los tamaños. En esta actividad tu peque la acompaña a medir cada concha en centímetros con una recta numérica y a registrar su longitud colocando una X justo encima del número que le corresponde. Poco a poco, esas X apiladas van formando un diagrama de frecuencias que muestra de un vistazo cuántas conchas hay de cada tamaño.",
-        "Cuando el diagrama está completo, la niña o el niño aprende a leerlo como un pequeño detective de datos: cuenta cuántas conchas miden cierta cantidad de centímetros, descubre cuál es la longitud más frecuente, averigua cuántas son más largas que otra medida y calcula la diferencia entre la concha más larga y la más corta. Todo se resuelve contando y comparando, sin operaciones complicadas.",
-        "Pensada para segundo grado de primaria (aproximadamente 7 a 8 años), esta experiencia conecta dos ideas clave del análisis de datos: medir en centímetros y representar esa información para poder leerla. Es una actividad funciona en el navegador y no tiene cronómetro ni puntos, así que tu peque explora con calma y a su propio ritmo."
+        "Para leer un diagrama de frecuencias hay que decidir de qué cruces habla la pregunta. «¿Cuántas conchas miden más de 5 cm?» se refiere a todas las cruces después del 5, no al 5, y «¿Qué longitud se repite más?» se contesta con una longitud, no con cuántas cruces tiene. En la línea de marea de Shelly, el niño toma esa decisión con las manos.",
+        "El diagrama está dibujado en una playa. Dos agarraderas de ola empujan el mar desde la izquierda y la derecha (solo se detienen en los espacios entre los números), y una boya sube el nivel del mar fila por fila. Las conchas bajo el agua se vuelven azules, pero siguen viéndose. El niño deja secas justo las conchas de la pregunta y luego contesta. Al comprobar cuenta primero el mar: «más de 5» con los 5 todavía secos no está bien, aunque el número sea correcto.",
+        "Tres niveles: leer la línea de marea (cuántas de una longitud, más largas, más cortas, la longitud que más se repite, la más larga menos la más corta, cuántas más); medir y anotar, donde conchas de verdad se miden con una regla desde el 0 (no siempre llegan ahí) y se sueltan como cruces; y medios centímetros, en una playa marcada en medios centímetros. Después del segundo error, el mar se coloca solo en su lugar, lo que hay que contar se numera y la respuesta queda rodeada con un círculo. Sin reloj ni puntos, de acuerdo con los planes y programas de estudio."
       ],
       "practices": [
-        "Medir longitudes de conchas en centímetros usando la recta numérica.",
-        "Registrar los datos en un diagrama de frecuencias colocando una X sobre cada medida.",
-        "Leer frecuencias del diagrama: cuántas conchas hay de una longitud y cuántas más de otra.",
-        "Comparar longitudes para saber cuál concha es más larga y cuál es la diferencia entre ellas."
+        "Leer cuántas medidas son iguales, mayores o menores que una longitud",
+        "Encontrar la longitud que más se repite y la diferencia entre la más larga y la más corta",
+        "Medir longitudes desde el 0 de la regla, al centímetro y al medio centímetro",
+        "Anotar cada medida con una cruz sobre su número"
       ],
       "howToPlay": [
-        "Observa la concha de Shelly y lee con atención cuántos centímetros mide sobre la recta numérica.",
-        "Toca el número correcto y verás aparecer una X que se suma al diagrama de frecuencias.",
-        "En el modo de lectura, responde preguntas sobre el diagrama, por ejemplo cuál es la longitud más frecuente; tómate tu tiempo, aquí no hay cronómetro ni puntos."
+        "Arrastra las agarraderas de ola para empujar el mar desde los lados, y la boya para subir el nivel del mar.",
+        "Deja secas solo las conchas de la pregunta y toca la respuesta en una piedrita.",
+        "Para medir, desliza la concha hasta el 0 de la regla, lee dónde termina y suéltala sobre su longitud.",
+        "Toca Comprobar. Después del segundo error, el mar se coloca solo en su lugar."
       ],
       "learningGoals": [
-        "Representar longitudes medidas en centímetros dentro de un diagrama de frecuencias sobre una recta numérica.",
-        "Leer el diagrama para identificar cuál es la longitud más frecuente y cuántas conchas miden más de cierta cantidad de centímetros.",
-        "Determinar la diferencia entre la concha más larga y la más corta comparando los datos representados."
+        "Leer un diagrama de frecuencias con medidas.",
+        "Comparar datos: la longitud más frecuente, más largas y más cortas, cuántas más, la diferencia.",
+        "Medir longitudes y mostrarlas en un diagrama."
       ]
     },
     "bundle-bot.bundle-machine.1-nbt-b-2-a": {

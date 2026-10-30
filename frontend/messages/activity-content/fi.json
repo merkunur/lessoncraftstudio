@@ -3949,6 +3949,30 @@
         "Rahan laskeminen eteenpäin arvokkaimmasta kolikosta alkaen.",
         "Rahatehtävien ratkaiseminen: maksaminen, vaihtorahan antaminen ja summien vertailu."
       ]
+    },
+    "line-plot.read.2-md-d-9": {
+      "about": [
+        "Pistekaaviota luettaessa pitää päättää, mistä rasteista kysymys kertoo. ”Montako simpukkaa on pidempiä kuin 5 cm?” koskee kaikkia rasteja luvun 5 jälkeen, ei itse viitosta, ja kysymykseen ”Mikä pituus on yleisin?” vastataan pituudella, ei rastien määrällä. Shellyn rantaviivalla lapsi tekee tämän päätöksen käsillään.",
+        "Kaavio on piirretty rannalle. Kaksi aaltokahvaa työntää merta sisään vasemmalta ja oikealta (ne pysähtyvät vain lukujen välisiin kohtiin), ja poiju nostaa vettä rivi kerrallaan. Veden alla olevat simpukat muuttuvat sinisiksi mutta näkyvät edelleen. Lapsi jättää kuiville juuri kysymyksen simpukat ja vastaa sitten. Tarkistettaessa vesi ratkaisee ensin: ”pidempiä kuin 5” ei ole oikein, jos viitoset ovat yhä kuivilla, vaikka luku olisi oikea.",
+        "Kolme tasoa: lue rantaviivaa (montako tietyn pituisia, pidempiä, lyhyempiä, yleisin pituus, pisin miinus lyhyin, montako enemmän); mittaa ja merkitse, jolloin oikeat simpukat mitataan viivaimen nollasta (ne eivät aina ole siinä) ja pudotetaan rasteiksi; sekä puolikkaat senttimetrit rannalla, jossa on puolen senttimetrin merkit. Toisen virheen jälkeen vesi asettuu itse oikeaan kohtaan, laskettavat numeroidaan ja vastaus ympyröidään. Ilman kiirettä ja ilman pisteitä, opetussuunnitelman mukaisesti."
+      ],
+      "practices": [
+        "Lukea, montako mitattua pituutta on yhtä suuria, suurempia tai pienempiä kuin tietty pituus",
+        "Löytää yleisin pituus ja pisimmän ja lyhyimmän ero",
+        "Mitata pituuksia viivaimen nollasta senttimetrin ja puolen senttimetrin tarkkuudella",
+        "Merkitä jokainen mittaus rastilla lukunsa yläpuolelle"
+      ],
+      "howToPlay": [
+        "Vedä aaltokahvoja työntääksesi merta sisään sivuilta, ja vedä poijua nostaaksesi vettä.",
+        "Jätä kuiville vain kysymyksen simpukat ja napauta sitten oikeaa kiveä.",
+        "Mitatessa liu’uta simpukka viivaimen nollaan, katso, mihin se päättyy, ja pudota se pituutensa kohdalle.",
+        "Paina Tarkista. Toisen virheen jälkeen vesi asettuu itse oikeaan kohtaan."
+      ],
+      "learningGoals": [
+        "Lukea mittaustuloksista tehtyä pistekaaviota.",
+        "Vertailla tietoja: yleisin pituus, pidemmät ja lyhyemmät, montako enemmän, ero.",
+        "Mitata pituuksia ja esittää ne kaaviossa."
+      ]
     }
   }
 }

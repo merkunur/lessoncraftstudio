@@ -2163,25 +2163,26 @@
     },
     "line-plot.read.2-md-d-9": {
       "about": [
-        "Eremitkräftan Snäckis går längs strandlinjen och mäter snäckorna den hittar. Varje snäcka blir ett kryss över sitt eget tal på tallinjen, som går från 1 till 8 centimeter, och kryssen staplas på varandra så att högen visar hur många snäckor som är just den längden. I tre av omgångarna ligger en ny snäcka som en orange stapel längs linjen, och barnet trycker på hur många centimeter den är så att krysset hamnar rätt.",
-        "Det stora i det här är att ett kryss står för en mätning. Åtta av de elva omgångarna handlar om att läsa av den färdiga bilden: hur många snäckor som är 5 centimeter, hur många som är längre än 5, vilken längd som är vanligast, hur mycket längre den längsta är än den kortaste och hur många fler som är 5 centimeter än 6. De frågorna går inte att svara på genom att räkna en enda hög — barnet måste jämföra två högar, hitta den högsta eller ta skillnaden mellan ytterkanterna. Att det saknas kryss över några tal mitt i, som över 4 och 7, hör till: en lucka betyder att ingen snäcka hade just den längden.",
-        "Elva omgångar som blandas om till en ny ordning varje gång, med tre svarsalternativ åt gången. Trycker barnet på ett tal som inte stämmer tonas det ner och Snäckis ber vänligt om en titt till, och knappen Kontrollera dyker upp först när svaret är rätt. Aktiviteten följer Lgr22 och hör hemma i området sannolikhet och statistik, där barnet arbetar med enkla tabeller och diagram. Ingen timer, inga poäng och ingen som vinner."
+        "Den som läser ett diagram med kryss måste bestämma vilka kryss frågan gäller. ”Hur många snäckor är längre än 5 cm?” gäller alla kryss efter 5, inte 5 själv, och ”Vilken längd är vanligast?” besvarar man med en längd, inte med hur många kryss den har. På Snäckis strandlinje fattar barnet det beslutet med händerna.",
+        "Diagrammet ligger på en strand. Två våghandtag skjuter in havet från vänster och höger (de stannar bara i mellanrummen mellan talen), och en boj höjer vattnet en rad i taget. Snäckor under vatten blir blå men syns fortfarande. Barnet låter precis de snäckor som frågan gäller ligga torrt och svarar sedan. När man kontrollerar räknas vattnet först: ”längre än 5” med femmorna fortfarande torra är inte rätt, inte ens med rätt tal.",
+        "Tre nivåer: läs av strandlinjen (hur många vid en längd, längre, kortare, den vanligaste längden, den längsta minus den kortaste, hur många fler); mät och sätt ut, där riktiga snäckor mäts från linjalens 0 (de ligger inte alltid där) och släpps som kryss; och halva centimeter, på en strand med halva centimeter. Efter andra felet ställer sig vattnet själv rätt, det som ska räknas numreras och svaret ringas in. Utan tidspress och utan poäng, i linje med Lgr22."
       ],
       "practices": [
-        "Läsa av hur många kryss som står över ett tal, och hur många snäckor som är längre än en viss längd",
-        "Hitta den längd som är vanligast genom att se vilken hög med kryss som når högst",
-        "Räkna ut hur många fler snäckor som är en längd än en annan, och hur mycket längre den längsta är än den kortaste",
-        "Sätta ett eget kryss över rätt tal på tallinjen när en ny snäcka har mätts"
+        "Läsa av hur många mätvärden som är lika med, längre eller kortare än en längd",
+        "Hitta den vanligaste längden och skillnaden mellan den längsta och den kortaste",
+        "Mäta längder från linjalens 0 till hela och halva centimeter",
+        "Sätta ut varje mätvärde som ett kryss över sitt tal"
       ],
       "howToPlay": [
-        "Titta på kryssen över tallinjen: varje kryss är en snäcka, och hur högt högen når visar hur många som är just den längden.",
-        "Läs Snäckis fråga och tryck på det av de tre talen som stämmer — eller, när en ny snäcka ligger som en stapel längs linjen, på hur många centimeter den är.",
-        "Ett tal som inte stämmer tonas ner och Snäckis ber dig titta en gång till; när svaret är rätt trycker du på Kontrollera för att gå vidare. Ingen timer och inga poäng."
+        "Dra i våghandtagen för att skjuta in havet från sidorna, och dra bojen för att höja vattnet.",
+        "Låt bara snäckorna som frågan gäller ligga torrt och tryck sedan på svaret på en sten.",
+        "När du mäter skjuter du snäckan till linjalens 0, läser av var den slutar och släpper den på sin längd.",
+        "Tryck på Kontrollera. Efter andra felet ställer sig vattnet själv rätt."
       ],
       "learningGoals": [
-        "Barnet kan läsa av ett diagram där varje mätning är ett kryss över sitt tal på tallinjen",
-        "Barnet kan svara på hur många, hur många fler och vilken längd som är vanligast utifrån kryssen",
-        "Barnet förstår att en lucka i diagrammet betyder att ingen snäcka hade just den längden"
+        "Läsa av ett diagram med mätvärden.",
+        "Jämföra data: den vanligaste längden, längre och kortare, hur många fler, skillnaden.",
+        "Mäta längder och visa dem i ett diagram."
       ]
     },
     "hoppers-number-line.jump-sums.2-md-b-6": {

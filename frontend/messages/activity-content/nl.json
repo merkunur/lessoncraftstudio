@@ -3074,25 +3074,26 @@
     },
     "line-plot.read.2-md-d-9": {
       "about": [
-        "Shelly de heremietkreeft verzamelt schelpjes op het strand en meet ze allemaal netjes op in centimeters.",
-        "Elke schelp krijgt een kruisje boven het juiste getal, en samen vormen die kruisjes een kruisjesdiagram waarin je in één oogopslag ziet welke lengte het vaakst voorkomt.",
-        "Zo ontdekt je kind spelenderwijs hoe je gemeten gegevens kunt ordenen en aflezen."
+        "Wie een kruisjesdiagram leest, moet beslissen over welke kruisjes de vraag gaat. „Hoeveel schelpen zijn langer dan 5 cm?” gaat over alle kruisjes na de 5, niet over de 5 zelf, en „Welke lengte komt het vaakst voor?” beantwoord je met een lengte, niet met hoeveel kruisjes er staan. Bij Shelly’s getijdenlijn neemt het kind die beslissing met zijn handen.",
+        "Het diagram staat op een strand. Twee golfhendels duwen de zee van links en rechts naar binnen (ze stoppen alleen in de ruimtes tussen de getallen), en een boei laat het water rij voor rij stijgen. Schelpen onder water worden blauw, maar blijven zichtbaar. Het kind houdt precies de schelpen uit de vraag droog en geeft dan antwoord. Bij Controleer telt eerst het water: „langer dan 5” met de vijven nog droog is niet goed, ook niet met het goede getal.",
+        "Drie niveaus: de getijdenlijn aflezen (hoeveel bij een lengte, langer, korter, de lengte die het vaakst voorkomt, de langste min de kortste, hoeveel meer); meten en uitzetten, waarbij echte schelpen vanaf de 0 van een liniaal worden gemeten (ze liggen niet altijd bij de 0) en als kruisje worden neergelegd; en halve centimeters, op een strand met halve centimeters. Na de tweede fout gaat het water vanzelf op de goede plek staan, krijgt wat je moet tellen een nummer en komt er een cirkel om het antwoord. Zonder tijdsdruk en zonder punten, passend bij de kerndoelen."
       ],
       "practices": [
-        "Schelpen opmeten in centimeters",
-        "Gemeten gegevens in een kruisjesdiagram zetten",
-        "Frequenties aflezen: hoeveel zijn even lang, en hoeveel meer?",
-        "Lengtes vergelijken: langer dan, korter dan en het verschil"
+        "Aflezen hoeveel metingen gelijk aan, langer of korter dan een lengte zijn",
+        "De lengte die het vaakst voorkomt en het verschil tussen de langste en de kortste vinden",
+        "Lengtes meten vanaf de 0 van de liniaal, op hele en halve centimeters",
+        "Elke meting als kruisje boven het getal zetten"
       ],
       "howToPlay": [
-        "Bekijk de schelp van Shelly en lees af hoe lang die is.",
-        "Tik op het juiste getal op de getallenlijn — er komt meteen een kruisje boven te staan.",
-        "In de leesmodus beantwoord je vragen over het diagram: welke lengte komt het vaakst voor, en wat is het verschil tussen de langste en de kortste schelp?"
+        "Sleep de golfhendels om de zee van opzij naar binnen te duwen, en sleep de boei om het water te laten stijgen.",
+        "Houd alleen de schelpen uit de vraag droog en tik dan het antwoord aan op een kiezelsteen.",
+        "Bij het meten schuif je de schelp naar de 0 van de liniaal, lees je af waar hij eindigt en leg je hem op zijn lengte.",
+        "Tik op Controleer. Na de tweede fout gaat het water vanzelf op de goede plek staan."
       ],
       "learningGoals": [
-        "Meetgegevens weergeven in een kruisjesdiagram op een getallenlijn",
-        "Frequenties aflezen en met elkaar vergelijken",
-        "Lengtes ordenen en het verschil tussen langste en kortste bepalen"
+        "Een kruisjesdiagram met metingen aflezen.",
+        "Gegevens vergelijken: de vaakste lengte, langer en korter, hoeveel meer, het verschil.",
+        "Lengtes meten en in een diagram zetten."
       ]
     },
     "hoppers-number-line.jump-sums.2-md-b-6": {

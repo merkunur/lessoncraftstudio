@@ -2348,25 +2348,26 @@
     },
     "line-plot.read.2-md-d-9": {
       "about": [
-        "Shelly the hermit crab measures shells and shows their lengths on a tide-line — a line plot scaled from 1 to 8 — and the child reads the X's stacked over each number to answer how many are 5 long, which length is most common, or how much longer the longest is than the shortest, and in other rounds places a new X. It's an interactive Grade 2 math activity that runs in the browser, with no account.",
-        "The big idea is reading and building a measurement line plot, the focus of 2.MD.D.9. The questions push past simple counting: comparing two columns, finding the mode, and taking the difference between the longest and shortest all ask the child to interpret the picture of the data, not just tally one stack. Because some rounds have the child place an X, they also learn that each measurement becomes one mark at its length.",
-        "It is aligned to Common Core 2.MD.D.9 — generating measurement data and showing it on a line plot marked in whole-number units. No timer, no score — just calm, playful practice."
+        "A line plot is read by deciding which of its X's a question is about. \"How many shells are longer than 5 cm?\" is about every X after the 5, not the 5 itself, and \"which length is the most common?\" is answered with a length, not with how many X's it has. Shelly's Tide-Line puts that decision in the child's hands.",
+        "The plot is drawn on a beach. Two wave handles push the sea in from the left and the right (they stop only in the gaps between numbers), and a buoy raises the sea level one row at a time. Shells under water turn blue but stay visible. The child keeps dry exactly the shells the question is about, then answers. Check looks at the tide first, so \"longer than 5\" with the 5s still dry is not right, even with the right number.",
+        "Three levels: read the tide-line (how many at a length, longer, shorter, the most common length, the longest minus the shortest, how many more); measure and plot, where real shells are measured on a ruler from 0 (they do not always arrive there) and dropped as X's; and halves, on a beach marked in half centimetres. A second miss moves the sea to the right place, numbers what to count and rings the answer. No timer, no score."
       ],
       "practices": [
-        "Counting the X's above a number to find how many shells are that length",
-        "Comparing two lengths to see how many more are at one than another",
-        "Finding the most common length (the mode) on the plot",
-        "Placing a new measurement as an X above the right number"
+        "Read how many measurements are at, above or below a length on a line plot",
+        "Find the most common length and the difference between the longest and the shortest",
+        "Measure lengths from the 0 of a ruler to the nearest centimetre and half centimetre",
+        "Record each measurement as an X above its number"
       ],
       "howToPlay": [
-        "Read the X's stacked over each number on Shelly's tide-line.",
-        "Answer the question — how many, how many longer, the most common, or the difference — or place the new X, then press Check.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Drag the wave handles to push the sea in from the sides, and drag the buoy to raise the sea level.",
+        "Keep dry only the shells the question is about, then tap the answer on a pebble.",
+        "In the measuring rounds, slide the shell to the 0 of the ruler, read where it ends and drop it on its length.",
+        "Press Check. After a second miss the sea moves to the right place by itself."
       ],
       "learningGoals": [
-        "Read and build a measurement line plot in whole-number units — the focus of Common Core 2.MD.D.9",
-        "Compare lengths and find the most common length from the data",
-        "Connect each measurement to a single mark on the plot"
+        "Reading a line plot of measurement data.",
+        "Comparing data: the most common length, longer and shorter, how many more, the difference.",
+        "Measuring lengths and showing them on a line plot."
       ]
     },
     "mamas-roll-call.numeral-trace.k-cc-b-5": {

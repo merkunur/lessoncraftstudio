@@ -565,25 +565,26 @@
     },
     "line-plot.read.2-md-d-9": {
       "about": [
-        "O caranguejo-ermitão Shelly adora medir conchas na beira do mar. Ele mede cada concha em centímetros e marca o comprimento com um X sobre a reta numérica, formando aos poucos um diagrama de frequências. Por exemplo, se três conchas medem 5 cm, aparecem três X em cima do 5 — e é só olhar o diagrama para saber quantas conchas têm cada comprimento.",
-        "Nesta atividade, a criança faz duas coisas. Primeiro ela marca: lê o comprimento de uma concha e toca no número certo da reta numérica para colocar o X no lugar. Depois ela lê o diagrama de frequências para responder — quantas conchas medem um certo comprimento, qual comprimento mais aparece, quantas conchas a mais e quantos centímetros a mais mede a concha mais comprida em relação à mais curta.",
-        "Tudo é interativo, sem cronômetro, sem pontos e sem competição — a criança pode tentar quantas vezes quiser, no seu ritmo. Assim ela dá os primeiros passos na leitura de dados de um jeito calmo e concreto, trabalhando a unidade de Probabilidade e estatística da BNCC, própria do 2º ano: ler e interpretar informações apresentadas em um diagrama de frequências."
+        "Para ler um diagrama de frequências, é preciso decidir de quais X a pergunta fala. «Quantas conchas medem mais de 5 cm?» fala de todos os X depois do 5, não do próprio 5, e «Qual comprimento aparece mais vezes?» se responde com um comprimento, não com quantos X ele tem. Na linha da maré da Shelly, a criança toma essa decisão com as mãos.",
+        "O diagrama está desenhado numa praia. Duas alças de onda empurram o mar pela esquerda e pela direita (elas só param nos espaços entre os números), e uma boia sobe o nível do mar fileira por fileira. As conchas debaixo da água ficam azuis, mas continuam visíveis. A criança deixa secas exatamente as conchas da pergunta e depois responde. Ao verificar, o mar conta primeiro: «mais de 5» com os 5 ainda secos não está certo, mesmo com o número certo.",
+        "Três níveis: ler a linha da maré (quantas de um comprimento, mais compridas, mais curtas, o comprimento que mais aparece, a mais comprida menos a mais curta, quantas a mais); medir e marcar, em que conchas de verdade são medidas na régua a partir do 0 (nem sempre chegam lá) e soltas como X; e meios centímetros, numa praia marcada em meios centímetros. Depois do segundo erro, o mar vai sozinho para o lugar certo, o que é preciso contar é numerado e a resposta fica circulada. Sem cronômetro e sem pontos, alinhado à BNCC."
       ],
       "practices": [
-        "Marcar o comprimento de uma concha na reta numérica, tocando no número certo para colocar o X",
-        "Contar quantas conchas medem um certo comprimento, lendo o diagrama de frequências",
-        "Achar o comprimento que mais aparece no diagrama",
-        "Comparar os dados: quantas conchas a mais e quantos centímetros a mais mede a concha mais comprida que a mais curta"
+        "Ler quantas medidas são iguais, maiores ou menores que um comprimento",
+        "Encontrar o comprimento que mais aparece e a diferença entre a mais comprida e a mais curta",
+        "Medir comprimentos a partir do 0 da régua, em centímetros e meios centímetros",
+        "Registrar cada medida com um X acima do seu número"
       ],
       "howToPlay": [
-        "Veja o comprimento da concha e toque no número certo da reta numérica para marcar o X",
-        "Leia o diagrama de frequências e responda tocando no número certo",
-        "Você pode tentar quantas vezes quiser, sem tempo e sem pontos"
+        "Arraste as alças de onda para empurrar o mar pelos lados, e a boia para subir o nível do mar.",
+        "Deixe secas só as conchas da pergunta e toque na resposta numa pedrinha.",
+        "Para medir, deslize a concha até o 0 da régua, veja onde ela termina e solte-a sobre o comprimento dela.",
+        "Toque em Verificar. Depois do segundo erro, o mar vai sozinho para o lugar certo."
       ],
       "learningGoals": [
-        "Ler e interpretar dados apresentados em um diagrama de frequências",
-        "Achar o comprimento que mais aparece e comparar quantidades no diagrama",
-        "Dar os primeiros passos na leitura de dados — um objetivo de Probabilidade e estatística do 2º ano, segundo a BNCC"
+        "Ler um diagrama de frequências com medidas.",
+        "Comparar dados: o comprimento mais frequente, mais compridas e mais curtas, quantas a mais, a diferença.",
+        "Medir comprimentos e mostrá-los num diagrama."
       ]
     },
     "hoppers-number-line.jump-sums.2-md-b-6": {

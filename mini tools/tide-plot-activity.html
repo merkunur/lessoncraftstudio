@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Shelly's Tide-Line — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- Shell, the library pictures, the tide-plot core, then this activity (#167 The Tide You Push).
+       NOTE: bump ?v=N on EVERY change to tide-plot-*.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  <script src="/mini-tools/lcs-pictures.js?v=1"></script>
+  <script src="/mini-tools/tide-plot-core.js?v=1"></script>
+  <script src="/mini-tools/tide-plot-activity.js?v=1"></script>
+  <script>
+    LCS.mount(TidePlotActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

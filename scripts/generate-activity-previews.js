@@ -123,6 +123,10 @@ function seedScript(row) {
     // the invention at work: a quarter already in the box, the counter turned on to 35, the dime held over the slot — the child says the total BEFORE the coin goes in
     return "(function(){var t=window['SayItSlotActivity'];if(!t||!t.api)return;var go=function(){if(!t._picsReady){setTimeout(go,50);return;}var C=window.SayItSlotCore;t.FAST=true;t.OK_MS=600000;t.api.settings.level='1';t.api.settings.coins='purse';t._pool=null;t._ensurePool();t._start(5);t._render2();var st=t.st,q=C.where(st,'cloth').filter(function(c){return c.v===25;})[0];st.counter=25;t._drop(q.id);var d=C.where(st,'cloth').filter(function(c){return c.v===10;})[0];C.roll(st,1,1);t._view.sel=d.id;t._paint();};go();})();";
   }
+  if (row.tool === 'tide-plot-activity') {
+    // the invention at work: "longer than 4 cm?" — the left wave pushed in over the 2s, 3s and 4s, so only the longer shells stay dry above the sand
+    return "(function(){var t=window['TidePlotActivity'];if(!t||!t.api)return;var go=function(){if(!t._picsReady){setTimeout(go,50);return;}var C=window.TidePlotCore;t.FAST=true;t.OK_MS=600000;t.api.settings.level='read';t._pool=null;t._ensurePool();t._start(2);t._render2();C.setShore(t.st,'L',4);t._paint();};go();})();";
+  }
   if (row.tool === 'change-box-activity') {
     // the invention at work: a robot at 70¢ paid with $1 — two quarters given back, so Pip's count stops at 50¢, short of the 70¢ tag (ringed): too much went back
     return "(function(){var t=window['ChangeBoxActivity'];if(!t||!t.api)return;var go=function(){if(!t._picsReady){setTimeout(go,50);return;}var C=window.ChangeBoxCore;t.FAST=true;t.OK_MS=600000;t.api.settings.shop='change';t.api.settings.count='check';t._pool=null;t._ensurePool();t._start(0,7);t._render2();var st=t.st;C.where(st,'pile').filter(function(c){return c.v===25;}).slice(0,2).forEach(function(c){C.move(st,c.id);});t._check();t._paint();};go();})();";

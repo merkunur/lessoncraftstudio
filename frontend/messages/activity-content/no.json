@@ -3973,6 +3973,30 @@
         "Å telle penger ved å telle videre fra mynten som er verdt mest.",
         "Å løse oppgaver med penger: betale, gi vekslepenger og sammenligne beløp."
       ]
+    },
+    "line-plot.read.2-md-d-9": {
+      "about": [
+        "Når man leser et prikkdiagram, må man avgjøre hvilke kryss spørsmålet handler om. «Hvor mange skjell er lengre enn 5 cm?» handler om alle kryss etter 5, ikke om 5 selv, og «Hvilken lengde er det flest av?» svarer man på med en lengde, ikke med hvor mange kryss den har. På Shellys tidevannslinje tar barnet den avgjørelsen med hendene.",
+        "Diagrammet ligger på en strand. To bølgehåndtak skyver havet inn fra venstre og høyre (de stopper bare i mellomrommene mellom tallene), og en bøye hever vannet én rad om gangen. Skjell under vann blir blå, men synes fortsatt. Barnet lar akkurat de skjellene spørsmålet handler om, ligge tørt, og svarer så. Når man sjekker, teller vannet først: «lengre enn 5» med femmerne fortsatt tørre er ikke riktig, heller ikke med riktig tall.",
+        "Tre nivåer: les av tidevannslinja (hvor mange ved en lengde, lengre, kortere, den vanligste lengden, den lengste minus den korteste, hvor mange flere); mål og sett inn, der ekte skjell måles fra 0 på linjalen (de ligger ikke alltid der) og slippes som kryss; og halve centimeter, på en strand med halve centimeter. Etter andre feil stiller vannet seg riktig av seg selv, det som skal telles, blir nummerert, og svaret får en ring rundt seg. Uten tidspress og uten poeng, i tråd med LK20."
+      ],
+      "practices": [
+        "Lese av hvor mange målinger som er lik, lengre eller kortere enn en lengde",
+        "Finne den vanligste lengden og forskjellen mellom den lengste og den korteste",
+        "Måle lengder fra 0 på linjalen til hele og halve centimeter",
+        "Sette inn hver måling som et kryss over tallet sitt"
+      ],
+      "howToPlay": [
+        "Dra i bølgehåndtakene for å skyve havet inn fra sidene, og dra i bøyen for å heve vannet.",
+        "La bare skjellene spørsmålet handler om, ligge tørt, og trykk så på svaret på en stein.",
+        "Når du måler, skyver du skjellet til 0 på linjalen, leser av hvor det slutter, og slipper det på lengden sin.",
+        "Trykk på Sjekk. Etter andre feil stiller vannet seg riktig av seg selv."
+      ],
+      "learningGoals": [
+        "Å lese av et prikkdiagram med målinger.",
+        "Å sammenligne data: den vanligste lengden, lengre og kortere, hvor mange flere, forskjellen.",
+        "Å måle lengder og vise dem i et diagram."
+      ]
     }
   }
 }

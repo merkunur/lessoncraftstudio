@@ -114,6 +114,21 @@ function post(bodyObj, eventId, { badSig = false } = {}) {
       fails.push(`subscriptionTier not bridged to 'full' (got '${after && after.subscriptionTier}')`);
     }
 
+    // 2b. a renewal payment on a past_due subscription → 200 + active again, and the period
+    //     end is untouched. The smoke id is not a real LS id, so the renews_at lookup
+    //     returns nothing: this proves a failed lookup never blocks a renewal (2026-10-30).
+    if (after && after.subscription) {
+      const periodBefore = after.subscription.currentPeriodEnd;
+      await prisma.subscription.update({ where: { id: after.subscription.id }, data: { status: 'past_due', pastDueAt: new Date() } });
+      const pay = { meta: { event_name: 'subscription_payment_success', test_mode: false }, data: { id: `inv-${stamp}`, attributes: { subscription_id: lsSubId, status: 'paid' } } };
+      const r3 = await post(pay, `${stamp}-paid`);
+      if (r3.code !== 200) fails.push(`signed subscription_payment_success → HTTP ${r3.code} (expected 200): ${r3.body}`);
+      await new Promise((r) => setTimeout(r, 800));
+      const paid = await prisma.subscription.findUnique({ where: { id: after.subscription.id } });
+      if (!paid || paid.status !== 'active' || paid.pastDueAt !== null) fails.push(`renewal payment did not reactivate (status=${paid && paid.status})`);
+      if (paid && String(paid.currentPeriodEnd) !== String(periodBefore)) fails.push('renewal payment changed the period end although the LS lookup cannot succeed');
+    }
+
     // 3. bad signature → must be rejected 401 (forgery protection intact)
     const r2 = await post(evt, `${stamp}-badsig`, { badSig: true });
     if (r2.code !== 401) fails.push(`bad-signature event → HTTP ${r2.code} (expected 401)`);
@@ -124,7 +139,7 @@ function post(bodyObj, eventId, { badSig = false } = {}) {
     await prisma.user.update({ where: { id: user.id }, data: { subscriptionTier: 'free' } });
     try {
       await prisma.lSWebhookEvent.deleteMany({
-        where: { eventId: { in: [`ls_event_${stamp}-created`, `ls_event_${stamp}-badsig`] } },
+        where: { eventId: { in: [`ls_event_${stamp}-created`, `ls_event_${stamp}-paid`, `ls_event_${stamp}-badsig`] } },
       });
     } catch (_) { /* event-log cleanup is best-effort */ }
   } catch (e) {
@@ -137,6 +152,6 @@ function post(bodyObj, eventId, { badSig = false } = {}) {
     console.error('PAYMENT CANARY FAILED:\n  - ' + fails.join('\n  - '));
     process.exit(1);
   }
-  console.log('PAYMENT CANARY: OK — signed activation + tier-bridge + bad-signature rejection all verified.');
+  console.log('PAYMENT CANARY: OK — signed activation + tier-bridge + renewal reactivation + bad-signature rejection all verified.');
   process.exit(0);
 })();

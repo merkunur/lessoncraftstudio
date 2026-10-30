@@ -429,6 +429,38 @@ async function handleSubscriptionCancelled(payload: any, eventId: string) {
   }
 }
 
+/**
+ * The subscription's next renewal date, read from the LS API (`renews_at`).
+ * Returns null — never throws — on a missing key, a non-200, a timeout or a bad date,
+ * so a renewal payment is never blocked by this lookup.
+ */
+async function fetchLsRenewsAt(lsSubscriptionId: string): Promise<Date | null> {
+  const key = process.env.LEMONSQUEEZY_API_KEY;
+  if (!key || !/^\d+$/.test(lsSubscriptionId)) return null;
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), 8000);
+  try {
+    const res = await fetch(`https://api.lemonsqueezy.com/v1/subscriptions/${lsSubscriptionId}`, {
+      headers: { Authorization: `Bearer ${key}`, Accept: 'application/vnd.api+json' },
+      signal: ctrl.signal,
+      cache: 'no-store',
+    });
+    if (!res.ok) {
+      console.warn(`LS renews_at lookup: HTTP ${res.status} for subscription ${lsSubscriptionId}`);
+      return null;
+    }
+    const json: any = await res.json();
+    const raw = json?.data?.attributes?.renews_at;
+    const d = raw ? new Date(raw) : null;
+    return d && !isNaN(d.getTime()) ? d : null;
+  } catch (e: any) {
+    console.warn(`LS renews_at lookup failed for subscription ${lsSubscriptionId}: ${e?.message || e}`);
+    return null;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 async function handleSubscriptionPaymentSuccess(payload: any, eventId: string) {
   try {
     const attrs = payload.data?.attributes || {};
@@ -442,14 +474,22 @@ async function handleSubscriptionPaymentSuccess(payload: any, eventId: string) {
     }
 
     // On successful renewal payment, ensure the subscription is marked active and clear any
-    // past_due status. The associated subscription_updated event also fires with the new
-    // renews_at; this handler is defensive in case ordering is unreliable.
+    // past_due status.
+    //
+    // [2026-10-30] The renewal date is fetched here. This handler used to assume a
+    // subscription_updated event "also fires with the new renews_at"; measured on every
+    // renewal since August, LS sends ONLY subscription_payment_success, so currentPeriodEnd
+    // never advanced and the workspace showed "Renews on" a date already past. The lookup
+    // never throws: if the API is slow or down, the subscription still turns active and only
+    // the date waits for the next event (scripts/payments/resync-period-end.js repairs rows).
+    const renewsAt = await fetchLsRenewsAt(lsSubscriptionId);
     const result = await (prisma.subscription as any).updateMany({
       where: { lsSubscriptionId },
       data: {
         status: 'active',
         pastDueAt: null,
         unpaidInvoiceId: null,
+        ...(renewsAt ? { currentPeriodEnd: renewsAt } : {}),
       },
     });
 

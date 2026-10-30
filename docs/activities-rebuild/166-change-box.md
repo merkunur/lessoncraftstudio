@@ -26,3 +26,4 @@ ORDER row 166 · id `money.make-change.2-md-c-8` (kept). Design: `designs/166-mo
 - `mutate-change-box.js` 24/24 killed, control passes.
 - `local-test-change-box.js` 3,411/0 in 11 locales: real taps on pile, tray, side tray, tags and Check, the keyboard; every shop; 10 states × 8 widths with Check above the fold at rest.
 - visual-qa 192 renders × 11 locales (all pass); hierarchy 776/0; settings efficacy 2 live; prose-claims, SERP copy, content tells, preflight routes, next-delay all PASS.
+- **Live (2026-10-30):** live-verify-change-box en 1366 + 390 (almost all given back by real taps → Pip short of the tag; tray coins tapped back; the right change by real taps → solved) + all 11 pages 200, then de/sv/fi 37/0 once the edge cache turned over; deploy payment canary OK.

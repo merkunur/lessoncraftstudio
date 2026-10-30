@@ -6,9 +6,10 @@
  * leave currentPeriodEnd at the PREVIOUS period, so the workspace showed "Renews on" a past date.
  * The webhook now fetches renews_at on every renewal; this script repairs the rows written before.
  *
- * Target date per LS status: active / on_trial / past_due / unpaid / paused → renews_at;
- * cancelled / expired → ends_at. Only currentPeriodEnd is written; status, tier and everything
- * else are left alone. Rows whose LS lookup fails are reported and skipped.
+ * Only rows ACTIVE on both sides are written (LS active/on_trial, ours active), with LS renews_at.
+ * Unpaid / past_due rows are left alone on purpose: a future date on a row that later turns
+ * 'canceled' would grant paid-through access (entitlements.ts) that was never paid. Only
+ * currentPeriodEnd is written; status, tier and everything else are untouched.
  *
  * Usage (on the server, env loaded the way deploy.sh loads it):
  *   ( set -a; . /opt/lessoncraftstudio/frontend/.env.production; set +a; node scripts/payments/resync-period-end.js [--apply] )
@@ -38,7 +39,8 @@ async function lsSubscription(id) {
     for (const r of rows) {
       let a;
       try { a = await lsSubscription(r.lsSubscriptionId); } catch (e) { failed++; console.log(`${r.lsSubscriptionId}  LOOKUP FAILED (${e.message}) — skipped`); continue; }
-      const raw = ['cancelled', 'expired'].includes(a.status) ? a.ends_at : a.renews_at;
+      if (!['active', 'on_trial'].includes(a.status) || r.status !== 'active') { same++; continue; }
+      const raw = a.renews_at;
       const target = raw ? new Date(raw) : null;
       if (!target || isNaN(target.getTime())) { failed++; console.log(`${r.lsSubscriptionId}  LS ${a.status} has no usable date — skipped`); continue; }
       if (r.currentPeriodEnd && new Date(r.currentPeriodEnd).getTime() === target.getTime()) { same++; continue; }
@@ -46,7 +48,7 @@ async function lsSubscription(id) {
       console.log(`${r.lsSubscriptionId}  LS ${a.status} / ours ${r.status}: ${DAY(r.currentPeriodEnd)} → ${DAY(target)}${APPLY ? '' : '  (dry run)'}`);
       if (APPLY) await prisma.subscription.update({ where: { id: r.id }, data: { currentPeriodEnd: target } });
     }
-    console.log(`resync-period-end: ${rows.length} LS subscriptions — ${changed} ${APPLY ? 'updated' : 'would change'}, ${same} already right, ${failed} skipped`);
+    console.log(`resync-period-end: ${rows.length} LS subscriptions — ${changed} ${APPLY ? 'updated' : 'would change'}, ${same} already right or not active, ${failed} skipped`);
   } finally {
     await prisma.$disconnect();
   }

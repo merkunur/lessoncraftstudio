@@ -2293,25 +2293,26 @@
     },
     "money.count-out.2-md-c-8": {
       "about": [
-        "Il bambino compone un importo, moneta dopo moneta, toccando le monete in euro per metterle nel vassoio finché il totale corrisponde — per esempio 30 centesimi con una moneta da 20 e una da 10 centesimi, oppure 15 centesimi con una da 10 e una da 5. È un'attività di matematica per la classe seconda, interattiva, che si gioca nel browser senza installare nulla e senza account.",
-        "L'idea importante è che il valore di una moneta non si vede dalla sua grandezza: bisogna sapere quanto vale ciascuna e sommare man mano. Una moneta da 5 centesimi è più grande di una da 10 ma vale meno, e una sola moneta da 50 centesimi può valere più di una manciata di monete da 1 e 2 centesimi. Raggiungere ogni importo scegliendo e aggiungendo monete costruisce il conteggio con il totale che cresce, proprio come quando si maneggiano i soldi veri.",
-        "L'attività è allineata alle Indicazioni nazionali: risolvere problemi con gli euro e i centesimi, usando il simbolo dell'euro (€). Nessun timer e nessun punteggio: solo pratica serena e giocosa."
+        "Contare le monete vuol dire andare avanti a contare: 20, 30, 35, 37. Molti giochi con i soldi fanno la somma al posto del bambino e mostrano un totale che sale da solo, così il bambino guarda soltanto un numero che cresce. Qui la somma lascia lo schermo e torna nelle mani del bambino.",
+        "La cassetta delle monete della panetteria ha una fessura, un contatore con le rotelle dei numeri e un piolo con il prezzo. Una moneta entra solo se il bambino ha già girato il contatore su quanto avrà la cassetta con quella moneta dentro; con qualsiasi altro numero la moneta esce di nuovo. Le rotelle si fermano al prezzo, quindi pagare troppo è impossibile, e le monete vengono da un vero borsellino: chi spende prima le monete piccole può restare con monete che non ci stanno più. Le monete sono disegnate con la loro misura e il loro colore veri, e come nella realtà la moneta da 1 euro è più piccola di quella da 50 cent.",
+        "Tre livelli: pagare un prezzo esatto; pagarlo con meno monete possibile; poi completare i soldi già nella cassetta, oppure contare due vassoi per scoprire quale contiene più soldi. Un numero sbagliato compare su un foglietto e le rotelle tornano indietro; la seconda volta la cassetta mostra il conteggio passo per passo. Senza cronometro e senza punteggi, in linea con le Indicazioni nazionali."
       ],
       "practices": [
-        "Conoscere il valore delle monete in euro, dai centesimi fino a 1 € e 2 €.",
-        "Sommare il valore delle monete per raggiungere un importo esatto.",
-        "Tenere il totale che cresce mentre si scelgono le monete.",
-        "Capire che il valore di una moneta non dipende dalla sua grandezza."
+        "Contare monete miste andando avanti dalla più grande",
+        "Pagare una somma esatta, anche con meno monete possibile",
+        "Trovare quanti soldi mancano per arrivare a un prezzo",
+        "Decidere quale di due gruppi di monete vale di più"
       ],
       "howToPlay": [
-        "Il bambino legge l'importo da comporre nel round, per esempio 40 centesimi.",
-        "Tocca le monete in euro per metterle nel vassoio — da 1, 2, 5, 10, 20 e 50 centesimi e da 1 € e 2 € — finché il totale corrisponde.",
-        "Non torna? Aggiunge o toglie monete e riprova: non c'è timer né punteggio."
+        "Gira il contatore su quanto avrà la cassetta con la tua moneta, poi tocca la moneta e la fessura, oppure trascina la moneta fino alla fessura.",
+        "Con un numero sbagliato la moneta esce. La leva restituisce l’ultima moneta, l’anello le rovescia tutte.",
+        "Con i vassoi, tocca prima quello che secondo te contiene più soldi, poi conta tutti e due nella cassetta.",
+        "La campanella suona quando nella cassetta c’è esattamente il prezzo."
       ],
       "learningGoals": [
-        "Contare le monete per comporre un importo dato in euro.",
-        "Usare il simbolo dell'euro (€) e conoscere il valore di ogni moneta.",
-        "Costruire il senso del denaro utile per contare e fare la spesa ogni giorno."
+        "Andare avanti a contare secondo il valore di ogni moneta.",
+        "Comporre una somma con le monete, anche con meno monete possibile.",
+        "Risolvere problemi con i soldi: quanto manca e quale somma è maggiore."
       ]
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {

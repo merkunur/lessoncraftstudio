@@ -1012,25 +1012,26 @@
     },
     "money.count-out.2-md-c-8": {
       "about": [
-        "Barnet bygger opp et bestemt beløp mynt for mynt og trykker norske kronemynter — 1, 5, 10 og 20 kroner — ned i skålen til pengene stemmer, for eksempel 15 kr lagd av en tier og en femmer, eller 30 kr lagd av en tjuekroning og en tier. Dette er en interaktiv matteaktivitet for 2. trinn som spilles rett i nettleseren — uten nedlasting og uten konto.",
-        "Den store ideen er at verdien til en mynt ikke står å lese på størrelsen, så barnet må kunne hva hver mynt er verdt og legge sammen underveis. En liten tikrone kan være verdt mer enn en større mynt, og to femmere er det samme som en tier. Når barnet når hvert beløp ved å velge og legge til mynter, bygger det den løpende sammenleggingen som ekte pengehåndtering krever.",
-        "Aktiviteten følger LK20 innenfor måling — å løse oppgaver med penger og bruke norske kronemynter. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "Å telle mynter er å telle videre: 20, 30, 35, 36. Mange pengespill legger sammen beløpet for barnet og viser en sum som vokser av seg selv, så barnet bare ser et tall bli større. Her forsvinner summeringen fra skjermen og havner hos barnet.",
+        "Bakeriets myntkasse har en sprekk, et telleverk med tallhjul og en prispinne. En mynt faller bare ned hvis barnet allerede har vridd telleverket til det kassa vil inneholde med den mynten i; med alle andre tall kommer mynten ut igjen. Hjulene stopper ved prisen, så det går ikke an å betale for mye, og myntene kommer fra en ekte lommebok: Den som bruker de små myntene først, kan bli sittende igjen med mynter som ikke lenger passer. Myntene er tegnet i riktig størrelse og farge, og akkurat som i virkeligheten er tikroningen mindre enn femkroningen.",
+        "Tre nivåer: betal en pris nøyaktig; betal den med så få mynter som mulig; fyll så på det som allerede ligger i kassa, eller tell to brett for å finne ut hvilket som har mest penger. Et feil tall vises på en lapp, og hjulene ruller tilbake; andre gang viser kassa opptellingen trinn for trinn. Uten tidspress og uten poeng, i tråd med LK20."
       ],
       "practices": [
-        "Kunne verdien til mynter på 1, 5, 10 og 20 kroner.",
-        "Legge sammen myntverdier for å nå et nøyaktig beløp.",
-        "Holde en løpende sum mens man velger mynter.",
-        "Forstå at verdien til en mynt ikke henger sammen med størrelsen."
+        "Telle blandede mynter ved å telle videre fra den største mynten",
+        "Betale et beløp nøyaktig, også med så få mynter som mulig",
+        "Finne ut hvor mye penger som mangler opp til en pris",
+        "Avgjøre hvilken av to samlinger mynter som er verdt mest"
       ],
       "howToPlay": [
-        "Les beløpet for runden, for eksempel 40 kr.",
-        "Trykk mynter ned i skålen — 1, 5, 10 og 20 kroner — til summen stemmer.",
-        "Ikke helt riktig? Legg til eller ta bort mynter og prøv igjen — det er ingen tidtaker og ingen poeng."
+        "Vri telleverket til det kassa vil inneholde med mynten din i, og trykk så på mynten og sprekken, eller dra mynten til sprekken.",
+        "Med et feil tall kommer mynten ut igjen. Spaken gir tilbake den siste mynten, ringen heller ut alle.",
+        "Med brettene trykker du først på det du tror har mest penger, og teller så begge inn i kassa.",
+        "Klokka ringer når kassa inneholder nøyaktig prisen."
       ],
       "learningGoals": [
-        "Barnet kan telle ut mynter for å lage et gitt beløp i kroner.",
-        "Barnet kjenner verdien til de norske kronemyntene.",
-        "Barnet bygger pengeforståelsen som trengs i hverdagen og når man handler."
+        "Å telle videre med verdien til hver mynt.",
+        "Å legge et beløp med mynter, også med så få mynter som mulig.",
+        "Å løse problemer med penger: hvor mye som mangler, og hvilket beløp som er størst."
       ]
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {

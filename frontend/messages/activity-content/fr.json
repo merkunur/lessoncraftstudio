@@ -3176,24 +3176,26 @@
     },
     "money.count-out.2-md-c-8": {
       "about": [
-        "L'enfant constitue un montant pièce par pièce, en touchant des pièces en euros pour les mettre dans le bac jusqu'à atteindre la somme demandée — 30 centimes avec une pièce de 20 ct et une de 10 ct, ou 1,50 € avec une pièce de 1 € et une de 50 ct. C'est une activité de mathématiques interactive pour le CE1, qui se joue directement dans le navigateur, sans installation et sans compte.",
-        "L'idée importante, c'est que la valeur d'une pièce ne se lit pas sur sa taille : l'enfant doit donc connaître la valeur de chaque pièce et additionner au fur et à mesure. Une petite pièce de 50 ct peut valoir plus qu'une plus grosse pièce de 20 ct, et il faut parfois plusieurs petites pièces pour égaler une seule grande. Atteindre chaque montant en choisissant et en ajoutant des pièces développe le comptage par totaux successifs qu'exige le maniement réel de la monnaie. Une activité conforme aux programmes officiels pour le CE1."
+        "Compter des pièces, c’est compter en avançant : 20, 30, 35, 37. Beaucoup de jeux d’argent font l’addition à la place de l’enfant et affichent un total qui grimpe tout seul ; l’enfant ne fait que regarder. Ici, l’addition quitte l’écran et revient dans les mains de l’enfant.",
+        "La caisse à monnaie de la boulangerie a une fente, un compteur à roues chiffrées et un taquet du prix. Une pièce n’entre que si l’enfant a déjà tourné le compteur sur ce que la caisse contiendra avec cette pièce ; avec tout autre nombre, la pièce ressort. Les roues s’arrêtent au taquet du prix : impossible de payer trop. Et les pièces viennent d’un vrai porte-monnaie : qui dépense d’abord les petites pièces peut se retrouver avec des pièces trop grosses. Les pièces sont dessinées à leur vraie taille et dans leur vraie couleur ; comme dans la vraie vie, la pièce de 1 € est plus petite que celle de 50 centimes.",
+        "Trois niveaux : payer un prix exact ; le payer avec le moins de pièces possible ; puis compléter l’argent déjà dans la caisse, ou compter deux plateaux pour trouver celui qui contient le plus d’argent. Un nombre faux s’affiche sur un papier et les roues reviennent en arrière ; la deuxième fois, la caisse montre le comptage pas à pas. Sans chronomètre ni score, en lien avec les programmes officiels."
       ],
       "practices": [
-        "Connaître la valeur des pièces en euros, des centimes jusqu'à 1 € et 2 €.",
-        "Additionner la valeur des pièces pour atteindre un montant exact.",
-        "Garder un total en tête en choisissant les pièces.",
-        "Comprendre que la valeur d'une pièce ne dépend pas de sa taille."
+        "Compter un mélange de pièces en avançant à partir de la plus grande",
+        "Payer une somme exacte, et avec le moins de pièces possible",
+        "Trouver combien il manque pour atteindre un prix",
+        "Dire lequel de deux ensembles de pièces vaut le plus"
       ],
       "howToPlay": [
-        "Lis le montant demandé pour le tour, par exemple 70 centimes.",
-        "Touche les pièces pour les mettre dans le bac — centimes, pièces de 1 € et de 2 € — jusqu'à atteindre le total.",
-        "Pas tout à fait ? Ajoute ou retire des pièces et réessaie — il n'y a ni chrono ni score."
+        "Tourne le compteur sur ce que la caisse contiendra avec ta pièce, puis touche la pièce et la fente, ou fais glisser la pièce jusqu’à la fente.",
+        "Avec un nombre faux, la pièce ressort. Le levier rend la dernière pièce, l’anneau les vide toutes.",
+        "Avec les plateaux, touche d’abord celui qui, selon toi, contient le plus d’argent, puis compte les deux dans la caisse.",
+        "La cloche sonne quand la caisse contient exactement le prix."
       ],
       "learningGoals": [
-        "Compter des pièces pour former un montant donné en euros.",
-        "Utiliser le symbole € et connaître la valeur de chaque pièce.",
-        "Développer le sens de la monnaie utile pour compter et faire ses courses au quotidien."
+        "Compter en avançant selon la valeur de chaque pièce.",
+        "Faire une somme avec des pièces, et avec le moins de pièces possible.",
+        "Résoudre des problèmes de monnaie : combien il manque, quelle somme est la plus grande."
       ]
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {

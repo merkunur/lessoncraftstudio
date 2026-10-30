@@ -2722,25 +2722,26 @@
     },
     "money.count-out.2-md-c-8": {
       "about": [
-        "Children build a target amount coin by coin, tapping pennies, nickels, dimes, and quarters into the tray until the money matches — 30 cents made from a quarter and a nickel, or 15 cents from a dime and a nickel. It's an interactive Grade 2 math activity that plays right in the browser with no install and no account.",
-        "The big idea is that a coin's worth is not printed on its size, so children have to know what each coin is worth and add as they go. A tiny dime is worth more than a bigger nickel, and a single quarter can outweigh a handful of pennies. Reaching each target by choosing and adding coins builds the running-total counting that real money handling requires.",
-        "It is aligned to Common Core 2.MD.C.8 — solving word problems with dollars, quarters, dimes, nickels, and pennies, using the ¢ and $ symbols. No timer, no score — just calm, playful practice."
+        "Counting a handful of coins means counting on: 25, 35, 40, 41. Most coin games add the money up for the child and show a running total, so the child only watches a number climb. Count Out the Money takes the adding off the screen and puts it in the child's hands.",
+        "The bakery's coin box has a slot, a counter with number wheels and a price pin. A coin drops in only when the child has already turned the counter to what the box will hold with that coin inside; any other number flips the coin back out. The wheels stop at the price pin, so paying too much cannot happen, and the coins come from a real purse, so a child who spends the small coins first can be left with coins that no longer fit. The coins are drawn true to the real coins' sizes and metals, and the US coins carry no numbers, just like the real ones.",
+        "Three levels: pay an exact price; pay it with the fewest coins; then top up the coins already in the box, or count two trays to find which holds more money. A wrong count shows the child's number and rolls the wheels back; a second shows the count-on step by step. No timer, no score."
       ],
       "practices": [
-        "Know the value of a penny, nickel, dime, and quarter",
-        "Add coin values to reach an exact target amount",
-        "Keep a running total while choosing coins",
-        "Understand that a coin's value is not tied to its size"
+        "Count a mixed set of coins by counting on from the biggest coin",
+        "Pay an exact amount, and pay it with the fewest coins",
+        "Find how much more money is needed to reach a price",
+        "Decide which of two sets of coins is worth more"
       ],
       "howToPlay": [
-        "Read the target amount for the round, such as 40 cents.",
-        "Tap coins into the tray — pennies, nickels, dimes, quarters — until the total matches.",
-        "Not quite? Add or remove coins and try again — there is no timer and no score."
+        "Turn the counter to what the box will hold with your coin in it, then tap the coin and the slot, or drag the coin to the slot.",
+        "A wrong number sends the coin back out. The lever gives back the last coin; the ring tips them all out.",
+        "In the tray rounds, tap the tray you think holds more money, then count both trays into the box.",
+        "The bell rings when the box holds exactly the price."
       ],
       "learningGoals": [
-        "Count coins to make a given amount — the focus of Common Core 2.MD.C.8",
-        "Use the ¢ and $ symbols and know each coin's value",
-        "Build the money sense needed for everyday counting and shopping"
+        "Counting on by the worth of each coin.",
+        "Making an amount with coins, and with the fewest coins.",
+        "Solving money problems: how much more is needed, and which amount is more."
       ]
     },
     "money.make-change.2-md-c-8": {

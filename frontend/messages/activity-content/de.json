@@ -3795,25 +3795,26 @@
     },
     "money.count-out.2-md-c-8": {
       "about": [
-        "Kinder bauen einen vorgegebenen Betrag Münze für Münze auf und tippen Cent- und Euro-Münzen in die Schale, bis das Geld genau stimmt — 30 Cent aus einer 20-Cent- und einer 10-Cent-Münze oder 15 Cent aus einer 10-Cent- und einer 5-Cent-Münze. Die interaktive Mathe-Übung für die 2. Klasse läuft direkt im Browser, ohne Installation und ohne Konto.",
-        "Der Kern dieser Übung ist, dass der Wert einer Münze nicht an ihrer Größe abzulesen ist. Das Kind muss wissen, was jede Münze wert ist, und beim Legen mitrechnen. Eine kleine Münze kann mehr wert sein als eine größere, und eine einzige große Münze kann eine ganze Handvoll kleiner Münzen aufwiegen. Jeden Betrag durch das Auswählen und Hinzufügen von Münzen zu erreichen, baut genau das fortlaufende Zusammenzählen auf, das man beim echten Umgang mit Geld braucht.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Rechnen mit Geld für die 2. Klasse ausgerichtet — Sachaufgaben mit Euro und Cent lösen und die Zeichen € und Cent verwenden. Es gibt keinen Timer und keine Punktewertung, nur ruhiges, spielerisches Üben."
+        "Wer Münzen zählt, zählt weiter: 20, 30, 35, 37. Viele Geldspiele rechnen den Betrag für das Kind zusammen und zeigen eine laufende Summe, sodass das Kind nur zusieht, wie eine Zahl wächst. Hier verschwindet das Zusammenrechnen vom Bildschirm und landet beim Kind.",
+        "Die Münzkasse der Bäckerei hat einen Schlitz, ein Zählwerk mit Zahlenrädern und einen Preisstift. Eine Münze fällt nur hinein, wenn das Kind das Zählwerk schon auf den Betrag gestellt hat, der mit dieser Münze in der Kasse ist; bei jeder anderen Zahl springt die Münze wieder heraus. Die Räder bleiben am Preisstift stehen, zu viel bezahlen geht also gar nicht, und die Münzen kommen aus einem echten Geldbeutel: Wer zuerst die kleinen Münzen ausgibt, hat am Ende manchmal nur noch Münzen, die nicht mehr passen. Die Münzen sind in echter Größe und Farbe gezeichnet, und wie im Portemonnaie ist die 1-€-Münze kleiner als die 50-Cent-Münze.",
+        "Drei Stufen: einen Preis genau bezahlen; ihn mit möglichst wenig Münzen bezahlen; dann die Münzen in der Kasse auffüllen oder zwei Tabletts zählen und herausfinden, wo mehr Geld liegt. Eine falsche Zahl erscheint auf einem Zettel, und die Räder drehen zurück; beim zweiten Mal zeigt die Kasse das Weiterzählen Schritt für Schritt. Ohne Zeitdruck und ohne Punkte, passend zum Lehrplan."
       ],
       "practices": [
-        "Den Wert der Cent- und Euro-Münzen kennen.",
-        "Münzwerte zusammenzählen, um einen genauen Betrag zu erreichen.",
-        "Beim Auswählen der Münzen einen laufenden Gesamtbetrag im Kopf behalten.",
-        "Verstehen, dass der Wert einer Münze nicht von ihrer Größe abhängt."
+        "Gemischte Münzen zählen, von der größten Münze aus weiterzählend",
+        "Einen Betrag genau bezahlen, auch mit möglichst wenig Münzen",
+        "Herausfinden, wie viel Geld bis zu einem Preis noch fehlt",
+        "Entscheiden, welche von zwei Münzmengen mehr wert ist"
       ],
       "howToPlay": [
-        "Lies den Zielbetrag der Runde, zum Beispiel 40 Cent.",
-        "Tippe Münzen in die Schale — Cent- und Euro-Münzen —, bis der Gesamtbetrag stimmt.",
-        "Noch nicht ganz? Lege Münzen dazu oder nimm welche weg und probiere es erneut — es gibt keinen Timer und keine Punkte."
+        "Stell das Zählwerk auf den Betrag, der mit deiner Münze in der Kasse ist, und tippe dann die Münze und den Schlitz an oder zieh die Münze zum Schlitz.",
+        "Bei einer falschen Zahl springt die Münze heraus. Der Hebel holt die letzte Münze zurück, der Ring schüttet alle aus.",
+        "Bei den Tabletts tippst du zuerst das an, auf dem du mehr Geld vermutest, und zählst dann beide in die Kasse.",
+        "Die Glocke klingelt, wenn genau der Preis in der Kasse ist."
       ],
       "learningGoals": [
-        "Münzen abzählen, um einen vorgegebenen Betrag zu legen.",
-        "Die Zeichen € und Cent verwenden und den Wert jeder Münze kennen.",
-        "Das Geldverständnis aufbauen, das man beim Abzählen und Einkaufen im Alltag braucht."
+        "Mit dem Wert jeder Münze weiterzählen.",
+        "Einen Betrag mit Münzen legen, auch mit möglichst wenig Münzen.",
+        "Sachaufgaben mit Geld lösen: wie viel noch fehlt und welcher Betrag größer ist."
       ]
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {

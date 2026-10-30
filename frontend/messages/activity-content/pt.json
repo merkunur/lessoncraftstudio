@@ -1785,25 +1785,26 @@
     },
     "money.count-out.2-md-c-8": {
       "about": [
-        "A criança forma o valor pedido moeda por moeda, tocando nas moedas de 5, 10, 25 e 50 centavos e de R$ 1 para colocá-las na bandeja até o dinheiro bater certinho — 15 centavos feitos com uma moeda de 10 e uma de 5, ou R$ 1,00 feito com uma de 50 e duas de 25. É uma atividade de matemática interativa para o 2º ano, que funciona direto no navegador, sem instalar nada e sem precisar de conta.",
-        "A grande ideia é que o valor de uma moeda não está no tamanho dela, então a criança precisa saber quanto vale cada moeda e ir somando conforme escolhe. Uma moeda pequena de 50 centavos vale mais do que uma maior de 25, e várias moedas de 5 centavos podem não chegar perto de uma só de R$ 1. Chegar a cada valor escolhendo e somando moedas desenvolve a contagem com total acumulado que o uso do dinheiro de verdade exige.",
-        "A atividade está alinhada à BNCC, na unidade temática Grandezas e Medidas, no trabalho com o sistema monetário brasileiro: reconhecer cédulas e moedas e somar quantias em reais e centavos. Sem cronômetro e sem pontuação — só uma prática leve e acolhedora."
+        "Contar moedas é continuar contando: 50, 75, 85, 90. Muitos jogos de dinheiro fazem a soma pela criança e mostram um total que sobe sozinho, e a criança só olha um número crescer. Aqui a soma sai da tela e fica nas mãos da criança.",
+        "O cofrinho da padaria tem uma fenda, um contador com rodas de números e um pino com o preço. Uma moeda só entra se a criança já girou o contador até o valor que o cofrinho vai ter com essa moeda dentro; com qualquer outro número, a moeda volta. As rodas param no preço, então pagar a mais é impossível, e as moedas vêm de um porta-moedas de verdade: quem gasta primeiro as moedas pequenas pode ficar só com moedas que não cabem mais. As moedas de real são desenhadas no tamanho e na cor verdadeiros, e, como na vida real, a moeda de 10 centavos é menor que a de 5.",
+        "Três níveis: pagar um preço exato; pagá-lo com o menor número de moedas; depois completar o que já está no cofrinho, ou contar duas bandejas para descobrir qual tem mais dinheiro. Um número errado aparece num papelzinho e as rodas voltam; na segunda vez, o cofrinho mostra a contagem passo a passo. Sem cronômetro e sem pontos, alinhado à BNCC."
       ],
       "practices": [
-        "Saber o valor das moedas de 5, 10, 25 e 50 centavos e de R$ 1.",
-        "Somar os valores das moedas para chegar a uma quantia exata.",
-        "Manter o total acumulado enquanto escolhe as moedas.",
-        "Entender que o valor de uma moeda não tem a ver com o tamanho dela."
+        "Contar moedas misturadas, continuando a partir da maior",
+        "Pagar um valor exato, também com o menor número de moedas",
+        "Descobrir quanto dinheiro falta para chegar a um preço",
+        "Decidir qual de dois grupos de moedas vale mais"
       ],
       "howToPlay": [
-        "Leia o valor que a rodada pede, como 35 centavos.",
-        "Toque nas moedas para colocá-las na bandeja — 5, 10, 25 e 50 centavos e R$ 1 — até o total bater certinho.",
-        "Não foi dessa vez? Acrescente ou tire moedas e tente de novo — não há cronômetro nem pontuação."
+        "Gire o contador até o valor que o cofrinho vai ter com a sua moeda e depois toque na moeda e na fenda, ou arraste a moeda até a fenda.",
+        "Com um número errado, a moeda volta. A alavanca tira a última moeda; o anel esvazia todas.",
+        "Nas rodadas das bandejas, toque primeiro na que você acha que tem mais dinheiro e depois conte as duas no cofrinho.",
+        "O sino toca quando o cofrinho tem exatamente o preço."
       ],
       "learningGoals": [
-        "Contar moedas de real para formar uma quantia pedida.",
-        "Reconhecer o valor de cada moeda e usar o sistema monetário brasileiro.",
-        "Construir a noção de dinheiro necessária para contar e fazer compras no dia a dia."
+        "Continuar contando pelo valor de cada moeda.",
+        "Formar um valor com moedas, e com o menor número de moedas.",
+        "Resolver problemas com dinheiro: quanto falta e qual valor é maior."
       ]
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {

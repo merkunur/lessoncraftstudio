@@ -119,6 +119,10 @@ function seedScript(row) {
     // the invention at work: a spilled till half sorted, a nickel bouncing off the 10 cup (the bigger coin is not worth more)
     return "(function(){var t=window['WorthTillActivity'];if(!t||!t.api)return;var go=function(){if(!t._picsReady){setTimeout(go,50);return;}var C=window.WorthTillCore;t.FAST=true;t.OK_MS=600000;t.api.settings.level='1';t.api.settings.key='on';t._pool=null;t._ensurePool();t._start(5);t._render2();var st=t.st,n=0;st.coins.forEach(function(c){if(c.v!==5&&n<3){C.drop(st,c.id,c.v);n++;}});var nk=st.coins.filter(function(c){return c.v===5&&c.at==='counter';})[0];if(nk)t._dropTo(nk.id,10);t._paint();};go();})();";
   }
+  if (row.tool === 'say-it-slot-activity') {
+    // the invention at work: a quarter already in the box, the counter turned on to 35, the dime held over the slot — the child says the total BEFORE the coin goes in
+    return "(function(){var t=window['SayItSlotActivity'];if(!t||!t.api)return;var go=function(){if(!t._picsReady){setTimeout(go,50);return;}var C=window.SayItSlotCore;t.FAST=true;t.OK_MS=600000;t.api.settings.level='1';t.api.settings.coins='purse';t._pool=null;t._ensurePool();t._start(5);t._render2();var st=t.st,q=C.where(st,'cloth').filter(function(c){return c.v===25;})[0];st.counter=25;t._drop(q.id);var d=C.where(st,'cloth').filter(function(c){return c.v===10;})[0];C.roll(st,1,1);t._view.sel=d.id;t._paint();};go();})();";
+  }
   if (row.tool === 'run-on-activity') {
     // the invention at work: 9:20 with the short hand ON the 9 — the readout says 9:20, yet the run-on arrives crooked between 9 and 10
     return "(function(){var t=window['RunOnActivity'];if(!t||!t.api)return;t.FAST=true;t.OK_MS=600000;t.api.settings.times='five';t._pool=null;t._ensurePool();t._start(3);t._render2();t._setLong(120);t._setShort(270);t._check();})();";

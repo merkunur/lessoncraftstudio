@@ -1249,24 +1249,26 @@
     },
     "money.count-out.2-md-c-8": {
       "about": [
-        "Tæl pengene lader barnet bygge et bestemt beløb mønt for mønt og lægge danske kroner i bakken, indtil pengene passer — for eksempel 30 kr lavet af en 20-krone, en 5-krone og en 5-krone, eller 7 kr lavet af en 5-krone og en 2-krone. Det er en interaktiv matematikaktivitet til 2. klasse, der spilles direkte i browseren uden installation og uden konto.",
-        "Den store idé er, at en mønts værdi ikke kan ses på dens størrelse, så barnet skal kende, hvad hver mønt er værd, og lægge sammen undervejs. En lille mønt kan være mere værd end en større, og en enkelt 20-krone kan veje tungere end en håndfuld 1-kroner. At nå hvert beløb ved at vælge og lægge mønter sammen bygger den løbende sammentælling, som rigtig pengehåndtering kræver. Aktiviteten følger Fælles Mål inden for måling og data: at regne med penge i danske kroner og øre. Der er ingen timer og ingen point."
+        "At tælle mønter er at tælle videre: 20, 30, 35, 37. Mange pengespil lægger beløbet sammen for barnet og viser en sum, der vokser af sig selv, så barnet kun ser et tal blive større. Her forsvinder sammenlægningen fra skærmen og havner hos barnet.",
+        "Bageriets møntkasse har en sprække, et tælleværk med talhjul og en prispind. En mønt falder kun ned, hvis barnet allerede har drejet tælleværket hen på det, kassen vil indeholde med den mønt i; med alle andre tal kommer mønten ud igen. Hjulene stopper ved prisen, så man kan ikke betale for meget, og mønterne kommer fra en rigtig pung: Den, der bruger de små mønter først, kan stå tilbage med mønter, der ikke længere passer. Mønterne er tegnet i rigtig størrelse og farve, og ligesom i virkeligheden er tikronen mindre end femkronen og tokronen.",
+        "Tre niveauer: betal en pris præcist; betal den med så få mønter som muligt; fyld derefter op på det, der allerede er i kassen, eller tæl to bakker for at finde ud af, hvilken der har flest penge. Et forkert tal vises på en seddel, og hjulene drejer tilbage; anden gang viser kassen optællingen trin for trin. Uden tidspres og uden point, i tråd med Fælles Mål."
       ],
       "practices": [
-        "Kende værdien af mønterne 1, 2, 5, 10 og 20 kroner samt 50 øre",
-        "Lægge møntværdier sammen, så de rammer et bestemt beløb",
-        "Holde en løbende sum, mens man vælger mønter",
-        "Forstå, at en mønts værdi ikke hænger sammen med dens størrelse"
+        "Tælle blandede mønter ved at tælle videre fra den største mønt",
+        "Betale et beløb præcist, også med så få mønter som muligt",
+        "Finde ud af, hvor mange penge der mangler op til en pris",
+        "Afgøre, hvilken af to samlinger mønter der er mest værd"
       ],
       "howToPlay": [
-        "Barnet læser rundens beløb, for eksempel 40 kr.",
-        "Barnet trykker mønter ned i bakken — 1, 2, 5, 10 og 20 kroner — indtil summen passer.",
-        "Passer det ikke? Læg flere mønter til eller tag nogle væk og prøv igen — der er ingen timer og ingen point."
+        "Drej tælleværket hen på det, kassen vil indeholde med din mønt i, og tryk så på mønten og sprækken, eller træk mønten hen til sprækken.",
+        "Med et forkert tal kommer mønten ud igen. Håndtaget giver den sidste mønt tilbage, ringen hælder dem alle ud.",
+        "Ved bakkerne trykker du først på den, du tror har flest penge, og tæller så begge ind i kassen.",
+        "Klokken ringer, når kassen indeholder præcis prisen."
       ],
       "learningGoals": [
-        "Barnet kan tælle mønter sammen, så de giver et bestemt beløb i kroner",
-        "Barnet kan kende værdien af de danske mønter og regne med kroner og øre",
-        "Barnet bygger den pengefornemmelse, der skal bruges i hverdagen og når man handler"
+        "At tælle videre med hver mønts værdi.",
+        "At lægge et beløb med mønter, også med så få mønter som muligt.",
+        "At løse problemer med penge: hvor meget der mangler, og hvilket beløb der er størst."
       ]
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {

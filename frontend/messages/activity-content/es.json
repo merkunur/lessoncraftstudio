@@ -3349,25 +3349,26 @@
     },
     "money.count-out.2-md-c-8": {
       "about": [
-        "El niño o la niña forma una cantidad exacta moneda por moneda, tocando monedas de pesos y centavos para irlas poniendo en la charola hasta que el dinero coincida: por ejemplo, $30 con una moneda de $20 y una de $10, o $15 con una de $10 y una de $5. Es una actividad de matemáticas para 2.º de primaria, interactiva, que se juega directo en el navegador, sin instalar nada y sin crear cuenta.",
-        "La idea central es que el valor de una moneda no depende de su tamaño, así que hay que saber cuánto vale cada una e ir sumando sobre la marcha. Una moneda chiquita puede valer más que una más grande, y una sola moneda puede valer lo mismo que un puñado de monedas pequeñas. Llegar a cada cantidad eligiendo y sumando monedas construye el conteo acumulado que se necesita para manejar dinero de verdad.",
-        "Está pensada para el nivel de 2.º de primaria, en el eje de medición y manejo de dinero de los planes y programas de estudio (SEP): resolver problemas con pesos y centavos usando los símbolos $ y ¢. Sin temporizador y sin puntuación, con un ritmo tranquilo."
+        "Contar monedas es seguir contando: 10, 20, 25, 27. Muchos juegos de dinero hacen la suma por el niño y muestran un total que sube solo, así que el niño solo mira cómo crece un número. Aquí la suma sale de la pantalla y queda en manos del niño.",
+        "La alcancía de la panadería tiene una ranura, un contador con ruedas de números y un tope con el precio. Una moneda solo entra si el niño ya giró el contador hasta lo que tendrá la alcancía con esa moneda adentro; con cualquier otro número, la moneda sale de nuevo. Las ruedas se detienen en el precio, así que pagar de más es imposible, y las monedas salen de un monedero de verdad: quien gasta primero las monedas chicas puede quedarse solo con monedas que ya no caben. Las monedas son pesos mexicanos dibujados con su tamaño y su color reales.",
+        "Tres niveles: pagar un precio exacto; pagarlo con la menor cantidad de monedas; luego completar lo que ya hay en la alcancía, o contar dos charolas para saber cuál tiene más dinero. Un número equivocado aparece en un papelito y las ruedas regresan; la segunda vez, la alcancía muestra el conteo paso a paso. Sin reloj ni puntos, de acuerdo con los planes y programas de estudio."
       ],
       "practices": [
-        "Conocer el valor de las monedas de pesos y centavos.",
-        "Sumar el valor de las monedas para llegar a una cantidad exacta.",
-        "Llevar la cuenta acumulada mientras se eligen las monedas.",
-        "Entender que el valor de una moneda no se relaciona con su tamaño."
+        "Contar monedas mezcladas, siguiendo desde la moneda más grande",
+        "Pagar una cantidad exacta, también con la menor cantidad de monedas",
+        "Encontrar cuánto dinero falta para llegar a un precio",
+        "Decidir cuál de dos grupos de monedas vale más"
       ],
       "howToPlay": [
-        "Lee la cantidad de la ronda, por ejemplo $40.",
-        "Toca monedas para ponerlas en la charola —de pesos y de centavos— hasta que el total coincida.",
-        "¿No salió a la primera? Agrega o quita monedas y vuelve a intentarlo: no hay temporizador ni puntuación."
+        "Gira el contador hasta lo que tendrá la alcancía con tu moneda y luego toca la moneda y la ranura, o arrastra la moneda hasta la ranura.",
+        "Con un número equivocado, la moneda sale. La palanca saca la última moneda; el aro las vacía todas.",
+        "En las rondas de charolas, toca primero la que crees que tiene más dinero y luego cuenta las dos en la alcancía.",
+        "La campana suena cuando la alcancía tiene exactamente el precio."
       ],
       "learningGoals": [
-        "Contar monedas para formar una cantidad dada.",
-        "Usar los símbolos $ y ¢ y conocer el valor de cada moneda.",
-        "Desarrollar el sentido del dinero que se necesita para contar y comprar todos los días."
+        "Seguir contando según el valor de cada moneda.",
+        "Formar una cantidad con monedas, y con la menor cantidad de monedas.",
+        "Resolver problemas de dinero: cuánto falta y qué cantidad es mayor."
       ]
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {

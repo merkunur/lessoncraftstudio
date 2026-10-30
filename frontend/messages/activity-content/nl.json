@@ -4009,25 +4009,26 @@
     },
     "money.count-out.2-md-c-8": {
       "about": [
-        "Je kind bouwt een bedrag muntje voor muntje op door euromunten in de bak te leggen tot het geld klopt — 30 cent gemaakt van 20 cent en 10 cent, of 15 cent van 10 cent en 5 cent. Het is een interactieve rekenactiviteit voor groep 4 die zonder installeren en zonder account in de browser speelt.",
-        "Het grote idee is dat de waarde van een munt niet aan zijn grootte af te lezen is, dus je kind moet weten wat elke euromunt waard is en al doende optellen. Een muntje van 10 cent kan meer waard zijn dan een grotere munt van 5 cent, en één muntje van 50 cent weegt op tegen een handvol kleine centen. Door elk bedrag te bereiken met gekozen munten oefent je kind het doortellen dat echt geld tellen vraagt.",
-        "De activiteit sluit aan bij de SLO-kerndoelen voor groep 4: bedragen maken en tellen met euromunten en het euroteken (€) gebruiken. Geen timer, geen score — gewoon rustig kiezen en tellen."
+        "Munten tellen is doortellen: 20, 30, 35, 40. Veel geldspelletjes rekenen het bedrag voor het kind uit en laten een lopend totaal zien, zodat het kind alleen een getal ziet groeien. Hier verdwijnt het optellen van het scherm en komt het bij het kind te liggen.",
+        "Het muntenkistje van de bakker heeft een gleuf, een teller met cijferwieltjes en een prijspin. Een munt valt er alleen in als het kind de teller al heeft gedraaid naar wat er in het kistje zit met die munt erbij; bij elk ander getal komt de munt er weer uit. De wieltjes stoppen bij de prijspin, dus te veel betalen kan niet, en de munten komen uit een echte portemonnee: wie eerst de kleine munten uitgeeft, houdt soms alleen munten over die niet meer passen. De munten zijn op ware grootte en in hun echte kleur getekend, en net als in het echt is de munt van 1 euro kleiner dan die van 50 cent.",
+        "Drie niveaus: een prijs precies betalen; hem betalen met zo min mogelijk munten; daarna aanvullen wat al in het kistje zit, of twee schaaltjes tellen om te ontdekken waar meer geld op ligt. Een verkeerd getal verschijnt op een briefje en de wieltjes draaien terug; de tweede keer laat het kistje het doortellen stap voor stap zien. Zonder tijdsdruk en zonder punten, passend bij de kerndoelen."
       ],
       "practices": [
-        "De waarde kennen van euromunten van 1, 2, 5, 10, 20 en 50 cent",
-        "Muntwaarden optellen tot een precies bedrag",
-        "Een lopend totaal bijhouden tijdens het kiezen van munten",
-        "Begrijpen dat de waarde van een munt niet samenhangt met de grootte"
+        "Gemengde munten tellen door door te tellen vanaf de grootste munt",
+        "Een bedrag precies betalen, ook met zo min mogelijk munten",
+        "Uitzoeken hoeveel geld er nog ontbreekt tot een prijs",
+        "Beslissen welke van twee groepjes munten meer waard is"
       ],
       "howToPlay": [
-        "Lees het doelbedrag voor de ronde, bijvoorbeeld 40 cent.",
-        "Tik euromunten in de bak — 1, 2, 5, 10, 20 en 50 cent — tot het totaal klopt.",
-        "Niet goed? Voeg munten toe of haal ze weg en probeer opnieuw — er is geen timer en geen score."
+        "Draai de teller naar wat er in het kistje zit met jouw munt erbij en tik dan op de munt en de gleuf, of sleep de munt naar de gleuf.",
+        "Bij een verkeerd getal komt de munt eruit. De hendel geeft de laatste munt terug, de ring schudt ze allemaal uit.",
+        "Bij de schaaltjes tik je eerst op het schaaltje waarvan je denkt dat er meer geld op ligt, en dan tel je ze allebei in het kistje.",
+        "Het belletje rinkelt als er precies de prijs in het kistje zit."
       ],
       "learningGoals": [
-        "Je kind telt euromunten om een gegeven bedrag te maken.",
-        "Je kind gebruikt het euroteken (€) en kent de waarde van elke munt.",
-        "Je kind bouwt het geldgevoel op dat nodig is voor alledaags tellen en boodschappen doen."
+        "Doortellen met de waarde van elke munt.",
+        "Een bedrag leggen met munten, ook met zo min mogelijk munten.",
+        "Rekenverhalen met geld oplossen: hoeveel er nog ontbreekt en welk bedrag groter is."
       ]
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {

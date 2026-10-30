@@ -1124,25 +1124,26 @@
     },
     "money.count-out.2-md-c-8": {
       "about": [
-        "Barnet bygger upp en bestämd summa mynt för mynt genom att trycka in 1-, 2-, 5- och 10-kronor i facket tills pengarna stämmer — 7 kronor av en femma och två enkronor, eller 15 kronor av en tia och en femma. Det är en interaktiv matteövning för årskurs 2 som körs direkt i webbläsaren utan installation och utan konto.",
-        "Den stora idén är att ett mynts värde inte syns på dess storlek, så barnet måste veta vad varje mynt är värt och lägga ihop allteftersom. En liten tia är värd mer än en stor femma, och en enda tia kan väga upp en hel hög enkronor. Att nå varje summa genom att välja och lägga till mynt bygger den löpande summering som riktig pengahantering kräver.",
-        "Aktiviteten följer Lgr22 inom området pengar och tal i vardagen: att lösa vardagsproblem med svenska kronor. Ingen timer och inga poäng — bara lugn och lekfull övning."
+        "Att räkna mynt är att räkna vidare: 10, 15, 17, 19. Många pengaspel räknar ihop beloppet åt barnet och visar en summa som växer av sig själv, så att barnet bara tittar på ett tal som blir större. Här försvinner additionen från skärmen och hamnar hos barnet.",
+        "Bageriets myntlåda har en springa, ett räkneverk med sifferhjul och en prispinne. Ett mynt åker bara ner om barnet redan har vridit räkneverket till det som finns i lådan med det myntet i; med alla andra tal kommer myntet ut igen. Hjulen stannar vid priset, så det går inte att betala för mycket, och mynten kommer ur en riktig plånbok: den som lägger de små mynten först kan bli kvar med mynt som inte längre passar. Mynten är ritade i sin riktiga storlek och färg, och precis som i verkligheten är 10-kronan mindre än 2-kronan.",
+        "Tre nivåer: betala ett pris precis; betala det med så få mynt som möjligt; fyll sedan på det som redan finns i lådan, eller räkna två brickor för att ta reda på vilken som har mest pengar. Ett fel tal syns på en lapp och hjulen rullar tillbaka; andra gången visar lådan uppräkningen steg för steg. Utan tidspress och utan poäng, i linje med Lgr22."
       ],
       "practices": [
-        "Känna till värdet på en enkrona, tvåkrona, femkrona och tiokrona",
-        "Lägga ihop myntens värden för att nå en exakt summa",
-        "Hålla en löpande summa medan man väljer mynt",
-        "Förstå att ett mynts värde inte hänger ihop med dess storlek"
+        "Räkna blandade mynt genom att räkna vidare från det största myntet",
+        "Betala ett belopp precis, även med så få mynt som möjligt",
+        "Ta reda på hur mycket pengar som fattas till ett pris",
+        "Avgöra vilken av två samlingar mynt som är värd mest"
       ],
       "howToPlay": [
-        "Barnet läser rundans summa, till exempel 40 kronor.",
-        "Det trycker in mynt i facket — enkronor, tvåkronor, femkronor och tiokronor — tills summan stämmer.",
-        "Blev det inte rätt? Lägg till eller ta bort mynt och försök igen — det finns ingen timer och inga poäng."
+        "Vrid räkneverket till det som finns i lådan med ditt mynt i, och tryck sedan på myntet och springan eller dra myntet till springan.",
+        "Med fel tal kommer myntet ut igen. Spaken ger tillbaka det sista myntet, ringen häller ut alla.",
+        "Med brickorna trycker du först på den som du tror har mest pengar och räknar sedan in båda i lådan.",
+        "Klockan ringer när lådan har precis priset."
       ],
       "learningGoals": [
-        "Barnet kan räkna mynt för att få ihop en given summa i kronor",
-        "Barnet känner till värdet på de svenska mynten",
-        "Barnet bygger den pengaförståelse som behövs för att räkna och handla i vardagen"
+        "Räkna vidare med varje mynts värde.",
+        "Lägga ett belopp med mynt, även med så få mynt som möjligt.",
+        "Lösa problem med pengar: hur mycket som fattas och vilket belopp som är störst."
       ]
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {

@@ -529,25 +529,26 @@
     },
     "money.count-out.2-md-c-8": {
       "about": [
-        "Lapsi kokoaa annetun rahasumman kolikko kerrallaan napauttamalla eurokolikoita lokeroon, kunnes summa täsmää — esimerkiksi 30 senttiä kahdestakymmenestä ja kymmenestä sentistä tai 15 senttiä kymmenestä ja viidestä sentistä. Tämä vuorovaikutteinen 2. luokan matematiikkatehtävä toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
-        "Tärkein ajatus on, ettei kolikon arvo näy sen koosta, joten lapsen on tiedettävä kunkin kolikon arvo ja laskettava summaa sitä mukaa. Pieni kolikko voi olla arvokkaampi kuin suurempi kolikko, ja yksi euron kolikko voi olla arvokkaampi kuin kourallinen senttejä. Kun jokainen summa saavutetaan valitsemalla ja lisäämällä kolikoita, lapselle karttuu juokseva yhteenlasku, jota oikeakin rahankäsittely vaatii.",
-        "Tehtävä on OPS 2014:n mukainen 2. luokan rahankäsittelyä — lapsi ratkaisee euroihin ja sentteihin liittyviä tehtäviä ja käyttää euron (€) ja sentin merkintöjä. Ei ajastinta, ei pisteitä — vain rauhallista harjoittelua."
+        "Kolikoiden laskeminen on eteenpäin laskemista: 20, 30, 35, 40. Monessa rahapelissä summa lasketaan lapsen puolesta ja ruudulla näkyy itsestään kasvava luku, joten lapsi vain katsoo sen kasvua. Tässä yhteenlasku lähtee ruudulta ja siirtyy lapsen käsiin.",
+        "Leipomon rahalippaassa on rako, numerorullilla toimiva laskuri ja hintatappi. Kolikko putoaa sisään vain, jos lapsi on jo kääntänyt laskurin siihen summaan, joka lippaassa on tämän kolikon kanssa; millä tahansa muulla luvulla kolikko tulee takaisin ulos. Rullat pysähtyvät hintaan, joten liikaa ei voi maksaa, ja kolikot tulevat oikeasta kukkarosta: joka käyttää ensin pienet kolikot, voi jäädä vain sellaisten kolikoiden kanssa, jotka eivät enää mahdu. Kolikot on piirretty oikean kokoisina ja värisinä, ja kuten oikeasti, euron kolikko on pienempi kuin 50 sentin kolikko.",
+        "Kolme tasoa: maksa hinta tasan; maksa se mahdollisimman vähillä kolikoilla; täydennä sitten lippaassa jo olevaa summaa tai laske kaksi tarjotinta ja selvitä, kummalla on enemmän rahaa. Väärä luku näkyy lapulla ja rullat pyörähtävät takaisin; toisella kerralla lipas näyttää laskemisen vaihe vaiheelta. Ilman kiirettä ja ilman pisteitä, opetussuunnitelman mukaisesti."
       ],
       "practices": [
-        "Tietää eri eurokolikoiden ja senttikolikoiden arvon.",
-        "Laskee kolikoiden arvoja yhteen saavuttaakseen tarkan summan.",
-        "Pitää juoksevaa summaa kolikoita valitessaan.",
-        "Ymmärtää, ettei kolikon arvo riipu sen koosta."
+        "Laskea sekaisin olevia kolikoita eteenpäin suurimmasta alkaen",
+        "Maksaa summa tasan, myös mahdollisimman vähillä kolikoilla",
+        "Selvittää, paljonko rahaa puuttuu hintaan",
+        "Päättää, kumpi kahdesta kolikkojoukosta on arvokkaampi"
       ],
       "howToPlay": [
-        "Lue kierroksen tavoitesumma, esimerkiksi 40 senttiä.",
-        "Napauta kolikoita lokeroon — sentin kolikoita ja euron kolikoita — kunnes summa täsmää.",
-        "Menikö pieleen? Lisää tai poista kolikoita ja yritä uudelleen — ei ajastinta eikä pisteitä."
+        "Käännä laskuri siihen summaan, joka lippaassa on kolikkosi kanssa, ja napauta sitten kolikkoa ja rakoa tai vedä kolikko rakoon.",
+        "Väärällä luvulla kolikko tulee ulos. Vipu antaa viimeisen kolikon takaisin, rengas kaataa kaikki ulos.",
+        "Tarjotinkierroksilla napauta ensin sitä, jolla arvelet olevan enemmän rahaa, ja laske sitten molemmat lippaaseen.",
+        "Kello soi, kun lippaassa on tasan hinta."
       ],
       "learningGoals": [
-        "Lapsi osaa laskea kolikoita kootakseen annetun summan.",
-        "Lapsi käyttää euron (€) ja sentin merkintöjä ja tietää kunkin kolikon arvon.",
-        "Lapsi rakentaa rahataitoa, jota tarvitaan arjen laskemisessa ja kaupassa asioinnissa."
+        "Laskea eteenpäin kunkin kolikon arvon verran.",
+        "Koota summa kolikoista, myös mahdollisimman vähillä kolikoilla.",
+        "Ratkaista rahatehtäviä: paljonko puuttuu ja kumpi summa on suurempi."
       ]
     },
     "numberbond.subtraction-unknown-addend.1-oa-b-4": {

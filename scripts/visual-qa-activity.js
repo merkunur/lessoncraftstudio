@@ -603,6 +603,14 @@ function controlSignature() {
     failed.forEach(r => console.error(`  • r${r.round}${r.phase && r.phase !== 'open' ? '/' + r.phase : ''} @${r.w}×${r.h} — ${r.fails.join(' | ')}`));
     process.exit(1);
   }
+  /* TABLET REACH (2026-10-30): the sweep above measures the activity as the
+     site's growing iframe shows it. A landscape tablet that opens it on its own,
+     in fullscreen or from a student link has a 768/820px screen instead — Mama's
+     Roll Call had Check below that screen and every gate here was green. Run the
+     reach audit for THIS activity (opening round, 3 modes × 1024×768/1180×820). */
+  const reach = require('child_process').spawnSync(process.execPath, [path.join(__dirname, 'audit-activity-tablet-reach.js'), '--only=' + ACTIVITY], { encoding: 'utf8' });
+  process.stdout.write(reach.stdout || ''); process.stderr.write(reach.stderr || '');
+  if (reach.status !== 0) { console.error('VISUAL-QA FAILED — TABLET REACH: a control cannot be reached on a landscape tablet (see above).'); process.exit(1); }
   const phaseCount = new Set(records.map(r => r.phase)).size;
   console.log(`\nVISUAL-QA PASSED — ${records.length} renders across ${N} round(s) × ${phaseCount} phase(s) × ${VIEWPORTS.length} viewports: FITS (no cut-off) + no overflow + content ≥${MIN_CONTENT_PX}px + not sparse + tap ≥${MIN_TAP}px at EVERY width incl. desktop 768/1024.`);
   process.exit(0);

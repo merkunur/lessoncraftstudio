@@ -52,6 +52,26 @@
 /* ============================== RESET ================================ */
 *, *::before, *::after { box-sizing: border-box; }
 html, body { margin: 0; height: 100%; overflow: hidden; background: var(--lcs-bg); }
+/* An ACTIVITY page may scroll vertically when it is taller than its screen.
+   [2026-10-30, operator-authorized.] The rule above clipped every activity
+   whose page IS the screen — opened directly, in fullscreen (also from
+   inside the site's iframe), or in the student play-link frame, which is
+   fixed at 100% of the screen — so on a 1024×768 landscape tablet 25 of 204
+   activities had Check below the screen with no way to reach it. On the
+   site the iframe has scrolling="no" and grows to fit, so nothing changes
+   there. The scrollbar is hidden so no layout ever shifts by its width; a
+   wheel, a trackpad and a finger still scroll.
+   Gate: scripts/audit-activity-tablet-reach.js. */
+html:has(.lcs-app.activity) { overflow: visible; scrollbar-width: none; }
+html:has(.lcs-app.activity) body { overflow-x: hidden; overflow-y: auto; scrollbar-width: none; }
+html:has(.lcs-app.activity)::-webkit-scrollbar,
+html:has(.lcs-app.activity) body::-webkit-scrollbar { display: none; }
+/* In fullscreen the BODY is the scroller, not the viewport: the site's
+   iframe carries scrolling="no", which still blocks scrolling the frame's
+   viewport after its document goes fullscreen (measured: a wheel moved
+   nothing). An element scroller is not affected by that attribute. */
+html:fullscreen:has(.lcs-app.activity) { overflow: hidden; }
+html:fullscreen:has(.lcs-app.activity) body { height: 100%; overflow-y: auto; }
 button { font: inherit; color: inherit; cursor: pointer; border: 0; background: none; }
 :focus-visible { outline: 3px solid var(--lcs-focus); outline-offset: 2px; }
 

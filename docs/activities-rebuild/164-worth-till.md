@@ -64,3 +64,4 @@ ORDER row 164 · id `coin-stall.money.2-md-c-8` (kept). Design: `designs/164-coi
   - `local-test-worth-till.js` 3,179/0 in 11 locales: real drags (a wrong cup bounces), real taps, the keyboard, every level, plus 8 states × 8 widths.
   - visual-qa 192 renders each in en/de/fi/fr/da; hierarchy 866/0; settings efficacy 2 live.
 - **Content gates:** prose-claims, SERP copy, content tells, preflight routes, next-delay all PASS.
+- **Live (2026-10-30):** live-verify-worth-till 37/0 (en/de/sv, 1366 + 390: a real drag bounces off a wrong cup, real taps sort and set the dial) + fi 13/0 + all 11 pages 200; deploy payment canary OK.

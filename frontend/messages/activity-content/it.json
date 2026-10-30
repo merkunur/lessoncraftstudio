@@ -2487,25 +2487,25 @@
     },
     "fractions.partition-thirds.2-g-a-3": {
       "about": [
-        "Compare un cerchio, un triangolo, un esagono, un quadrato, un rettangolo, un rombo o un'ellisse, e il bambino tocca le linee di taglio per dividerlo in tre parti uguali: i terzi. È un'attività di geometria interattiva per la classe seconda della scuola primaria, che funziona nel browser su qualsiasi dispositivo, senza installare nulla e senza account.",
-        "L'idea importante è che i terzi sono più difficili delle metà, perché tre parti uguali non cadono su una linea di mezzo evidente. Un cerchio si divide con tre linee dal centro, un rettangolo in tre strisce uguali, un triangolo in tre parti corrispondenti: così il bambino impara che «terzi» significa tre parti della stessa grandezza, comunque sia tagliata la forma. Fare i tagli da sé costruisce quel senso della divisione in parti uguali che la sola osservazione di un'immagine non può dare.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dello spazio e delle figure: dividere cerchi e rettangoli in due, tre o quattro parti uguali e descrivere le parti con la parola terzi. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
+        "Fare i terzi a occhio è difficile. I bambini tagliano un triangolo in tre strisce della stessa altezza e le chiamano terzi, oppure tracciano una linea attraverso un cerchio e un’altra dal centro e contano tre parti. Con il tavolo della pioggia è la figura stessa a mostrare se le parti sono davvero uguali.",
+        "La figura è un piccolo tavolo della pioggia. Toccando una tacca del bordo, una paretina scende dritta da una parte all’altra; toccando un piolo del bordo, una paretina parte dal perno al centro. Poi si verifica e piove in modo uniforme sul tavolo: ogni parte scola nella sua provetta, così parti uguali riempiono le loro provette fino alla stessa linea dorata. Una parte più grande trabocca, una più piccola resta sotto e una parte senza provetta finisce nella vaschetta della pozzanghera. Strisce della stessa altezza in un triangolo riempiono 1 : 3 : 5, e l’errore si vede da solo.",
+        "Le figure sono un cerchio, un triangolo, un esagono, un quadrato, un rettangolo, un quadrato appoggiato su un vertice e un ovale. In un turno, tre paretine dal centro di un quadrato formano tre pezzi che non si somigliano per niente ma riempiono tre provette fino alla stessa linea. Si scelgono metà, terzi o quarti e, con la colorazione attiva, si colora poi una frazione come due terzi della figura. Dopo un secondo errore, delle paretine tratteggiate mostrano un modo per farlo. Niente cronometro, niente punteggio."
       ],
       "practices": [
-        "Dividere una forma in 3 parti uguali.",
-        "Realizzare i terzi su cerchi, rettangoli, triangoli e altre figure.",
-        "Mantenere i tre pezzi della stessa grandezza.",
-        "Usare la parola terzi per indicare tre parti uguali."
+        "Dividere una figura in 3 parti uguali: i terzi",
+        "Fare metà e quarti di cerchi, rettangoli e altre figure",
+        "Distinguere parti uguali da parti che sembrano soltanto uguali",
+        "Colorare una frazione come un terzo o due terzi"
       ],
       "howToPlay": [
-        "Il bambino guarda la forma da dividere in 3 parti uguali.",
-        "Tocca le linee di taglio per ottenere i terzi.",
-        "Controlla che i tre pezzi siano uguali: non c'è timer né punteggio."
+        "Tocca le tacche del bordo o i pioli per mettere le paretine. Toccali di nuovo per togliere la paretina.",
+        "Premi Verifica per far piovere: ogni parte riempie la sua provetta.",
+        "Se una provetta trabocca o resta sotto la linea dorata, togli una paretina, mettila da un’altra parte e riprova."
       ],
       "learningGoals": [
-        "Dividere le forme in tre parti uguali e nominarle terzi.",
-        "Capire che i terzi devono essere tre parti della stessa grandezza, comunque sia tagliata la forma.",
-        "Rafforzare il senso della divisione in parti uguali su cui si costruiscono le frazioni."
+        "Dividere cerchi, rettangoli e altre figure in due, tre o quattro parti uguali",
+        "Chiamare le parti metà, terzi e quarti, e l’intero tre terzi",
+        "Capire che parti uguali dello stesso intero non devono avere la stessa forma"
       ]
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {

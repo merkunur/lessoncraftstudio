@@ -3989,25 +3989,25 @@
     },
     "fractions.partition-thirds.2-g-a-3": {
       "about": [
-        "Ein Kreis, ein Dreieck, ein Sechseck, ein Quadrat, ein Rechteck, eine Raute oder eine Ellipse erscheint, und das Kind tippt auf die Schnittlinien, um die Form in drei gleiche Teile zu teilen — in Drittel. Diese interaktive Geometrie-Übung für die 2. Klasse läuft im Browser auf jedem Gerät, ohne Installation und ohne Konto.",
-        "Der Kern: Drittel sind kniffliger als Hälften, weil drei gleiche Teile nicht auf eine offensichtliche Mittellinie fallen. Ein Kreis wird mit drei Linien aus der Mitte geteilt, ein Rechteck in drei gleich breite Streifen, ein Dreieck in drei passende Teile — so lernt das Kind, dass „Drittel“ drei gleich große Anteile bedeutet, egal wie die Form geschnitten wird. Die Schnitte selbst zu setzen baut ein Gefühl für gleiches Teilen auf, das bloßes Anschauen eines Bildes nicht vermitteln kann.",
-        "Die Aktivität ist am Lehrplan ausgerichtet — Kreise und Rechtecke in zwei, drei oder vier gleiche Anteile teilen und die Anteile mit dem Wort Drittel beschreiben. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+        "Drittel nach Augenmaß zu teilen ist schwer. Kinder schneiden ein Dreieck in drei gleich hohe Streifen und nennen sie Drittel, oder sie ziehen eine Linie durch einen Kreis und eine weitere von der Mitte aus und zählen drei Teile. Beim Regentisch zeigt die Form selbst, ob die Teile wirklich gleich groß sind.",
+        "Die Form ist ein kleiner Regentisch. Tippt man auf eine Kerbe am Rand, fällt eine Wand quer hinüber; tippt man auf einen Stift am Rand, läuft eine Wand vom Mittelstift aus nach außen. Beim Prüfen regnet es gleichmäßig auf den Tisch: Jeder Teil läuft in sein eigenes Glasröhrchen, also füllen gleich große Teile ihre Röhrchen bis zur selben goldenen Linie. Ein größerer Teil läuft über, ein kleinerer bleibt darunter, und ein Teil ohne Röhrchen läuft in die Pfützenschale. Gleich hohe Streifen in einem Dreieck füllen 1 : 3 : 5 – der Fehler zeigt sich von selbst.",
+        "Die Formen sind ein Kreis, ein Dreieck, ein Sechseck, ein Quadrat, ein Rechteck, ein auf die Ecke gedrehtes Quadrat und ein Oval. In einer Runde machen drei Wände von der Mitte eines Quadrats aus drei Stücke, die ganz verschieden aussehen und trotzdem drei Röhrchen bis zur selben Linie füllen. Man wählt Hälften, Drittel oder Viertel, und mit dem Anmalen färbt man danach einen Bruch wie zwei Drittel der fertigen Form. Nach dem zweiten Fehlversuch zeigen gepunktete Wände einen möglichen Weg. Ohne Zeitdruck, ohne Punkte."
       ],
       "practices": [
-        "Eine Form in 3 gleiche Teile schneiden.",
-        "Drittel bei Kreisen, Rechtecken, Dreiecken und mehr bilden.",
-        "Alle drei Teile gleich groß halten.",
-        "Das Wort Drittel für drei gleiche Anteile verwenden."
+        "Eine Form in 3 gleich große Teile teilen – Drittel",
+        "Hälften und Viertel von Kreisen, Rechtecken und anderen Formen machen",
+        "Gleich große Teile von Teilen unterscheiden, die nur gleich aussehen",
+        "Einen Bruch wie ein Drittel oder zwei Drittel anmalen"
       ],
       "howToPlay": [
-        "Schau dir die Form an, die du in 3 gleiche Teile schneiden sollst.",
-        "Tippe auf die Schnittlinien, um Drittel zu bilden.",
-        "Prüfe, ob die drei Teile gleich groß sind — es gibt keinen Timer und keine Punkte."
+        "Tipp auf die Kerben am Rand oder auf die Stifte, um Wände aufzustellen. Tippst du noch einmal darauf, verschwindet die Wand wieder.",
+        "Drück auf Prüfen, dann regnet es: Jeder Teil füllt sein eigenes Röhrchen.",
+        "Läuft ein Röhrchen über oder bleibt es unter der goldenen Linie, nimm eine Wand weg, stell sie woanders auf und versuch es noch einmal."
       ],
       "learningGoals": [
-        "Formen in drei gleiche Anteile teilen und sie Drittel nennen.",
-        "Verstehen, dass Drittel drei gleich große Teile sein müssen, egal wie die Form geschnitten ist.",
-        "Das Gefühl für gleiches Teilen stärken, auf dem die Bruchrechnung aufbaut."
+        "Kreise, Rechtecke und andere Formen in zwei, drei oder vier gleich große Teile teilen",
+        "Die Teile als Hälften, Drittel und Viertel benennen und das Ganze als drei Drittel",
+        "Sehen, dass gleich große Teile desselben Ganzen nicht gleich aussehen müssen"
       ]
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {

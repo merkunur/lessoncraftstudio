@@ -4203,25 +4203,25 @@
     },
     "fractions.partition-thirds.2-g-a-3": {
       "about": [
-        "Een cirkel, driehoek, zeshoek, vierkant, rechthoek, ruit of ovaal verschijnt, en je kind tikt op de kniplijnen om de vorm in drie gelijke stukken te verdelen — derden. Het is een interactieve meetkunde-activiteit voor groep 4 die op elk apparaat in de browser werkt, zonder installatie en zonder account.",
-        "Het grote idee is dat derden lastiger zijn dan helften, omdat drie gelijke stukken niet op een voor de hand liggende middellijn vallen. Een cirkel wordt verdeeld met drie lijnen vanuit het midden, een rechthoek in drie even brede stroken, een driehoek in drie passende delen — zo leert je kind dat 'derden' drie even grote stukken betekent, hoe de vorm ook wordt geknipt. Door zelf de sneden te maken bouwt je kind een gevoel voor gelijk verdelen op dat alleen kijken niet geeft.",
-        "De activiteit sluit aan bij de SLO-kerndoelen binnen het domein meetkunde: cirkels en rechthoeken verdelen in twee, drie of vier gelijke delen en die delen benoemen met het woord derden. Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Derde delen maken op het oog is lastig. Kinderen knippen een driehoek in drie stroken van dezelfde hoogte en noemen dat derde delen, of ze trekken een lijn door een cirkel en nog een vanuit het midden en tellen drie delen. Bij de regentafel laat de vorm zelf zien of de delen echt gelijk zijn.",
+        "De vorm is een kleine regentafel. Tik op een inkeping in de rand en er valt een schotje recht dwars over; tik op een pinnetje op de rand en er loopt een schotje vanaf de pin in het midden. Bij Controleer regent het gelijkmatig op de tafel: elk deel loopt leeg in zijn eigen buisje, dus gelijke delen vullen hun buisjes tot dezelfde gouden lijn. Een groter deel loopt over, een kleiner deel blijft eronder en een deel zonder buisje loopt weg in de plassenbak. Stroken van dezelfde hoogte in een driehoek vullen 1 : 3 : 5, zo laat de fout zich vanzelf zien.",
+        "De vormen zijn een cirkel, een driehoek, een zeshoek, een vierkant, een rechthoek, een vierkant dat op een punt staat en een ovaal. In één ronde maken drie schotjes vanuit het midden van een vierkant drie stukken die helemaal niet op elkaar lijken, maar toch drie buisjes tot dezelfde lijn vullen. Je kiest helften, derde delen of kwarten, en met kleuren aan kleur je daarna een breuk zoals twee derde van de vorm. Na een tweede misser laten gestippelde schotjes een manier zien. Geen klok, geen punten."
       ],
       "practices": [
-        "Een vorm in 3 gelijke delen knippen",
-        "Derden maken in cirkels, rechthoeken, driehoeken en meer",
-        "Alle drie de stukken even groot houden",
-        "Het woord derden gebruiken voor drie gelijke delen"
+        "Een vorm in 3 gelijke delen verdelen: derde delen",
+        "Helften en kwarten maken van cirkels, rechthoeken en andere vormen",
+        "Gelijke delen onderscheiden van delen die alleen gelijk lijken",
+        "Een breuk kleuren, zoals een derde of twee derde"
       ],
       "howToPlay": [
-        "Bekijk de vorm die je in 3 gelijke delen moet knippen.",
-        "Tik op de kniplijnen om derden te maken.",
-        "Controleer of de drie stukken even groot zijn — er is geen timer en geen score."
+        "Tik op de inkepingen in de rand of op de pinnetjes om schotjes neer te zetten. Tik er nog een keer op om het schotje weg te halen.",
+        "Druk op Controleer om het te laten regenen: elk deel vult zijn eigen buisje.",
+        "Loopt een buisje over of blijft het onder de gouden lijn, haal dan een schotje weg, zet het ergens anders neer en probeer het opnieuw."
       ],
       "learningGoals": [
-        "Het kind verdeelt vormen in drie gelijke delen en benoemt ze als derden.",
-        "Het kind begrijpt dat derden drie even grote delen zijn, hoe de vorm ook wordt geknipt.",
-        "Het kind versterkt het gevoel voor gelijk verdelen waar breuken op voortbouwen."
+        "Cirkels, rechthoeken en andere vormen in twee, drie of vier gelijke delen verdelen",
+        "De delen benoemen als helften, derde delen en kwarten, en het geheel als drie derde",
+        "Zien dat gelijke delen van hetzelfde geheel niet dezelfde vorm hoeven te hebben"
       ]
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {

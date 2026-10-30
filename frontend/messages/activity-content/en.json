@@ -2001,25 +2001,25 @@
     },
     "fractions.partition-thirds.2-g-a-3": {
       "about": [
-        "A circle, triangle, hexagon, square, rectangle, diamond, or ellipse appears, and the child taps the cutting lines to divide it into three equal pieces — thirds. It's an interactive Grade 2 geometry activity that runs in the browser on any device, with nothing to install and no account.",
-        "The big idea is that thirds are trickier than halves because three equal pieces do not fall on an obvious middle line. A circle is split with three lines from the center, a rectangle into three equal strips, a triangle into three matching parts — so the child learns that 'thirds' means three same-size shares however the shape is cut. Making the cuts themselves builds the feel for equal partitioning that just looking at a picture cannot.",
-        "It is aligned to Common Core 2.G.A.3 — partitioning circles and rectangles into two, three, or four equal shares and describing the shares using the word thirds. No timer, no score — just calm, playful practice."
+        "Thirds are hard to make by eye. Children cut a triangle into three strips of the same height and call them thirds, or draw a line across a circle and one more from the centre and count three parts. The Rain Table lets the shape itself show whether the parts are really equal.",
+        "The shape is a little rain table. Tap a notch on its edge and a wall drops straight across; tap a peg on its rim and a wall runs in from the centre pin. Then press Check and it rains evenly over the table: every part drains into its own glass tube, so equal parts fill their tubes to the same gold line. A bigger part spills over, a smaller one stops short, and a part with no tube runs off into the puddle tray. Strips of the same height in a triangle fill 1 : 3 : 5, so the mistake shows itself.",
+        "The shapes are a circle, a triangle, a hexagon, a square, a rectangle, a square turned on its corner and an oval, and in one round three walls from the middle of a square make three pieces that look nothing alike but fill three tubes to the same line. Choose halves, thirds or fourths, and turn on coloring to color a fraction such as two thirds of the finished shape. After a second miss, dotted walls show one way to do it. No timer, no score."
       ],
       "practices": [
-        "Cutting a shape into 3 equal parts",
-        "Making thirds across circles, rectangles, triangles, and more",
-        "Keeping all three pieces the same size",
-        "Using the word thirds for three equal shares"
+        "Cutting a shape into 3 equal parts — thirds",
+        "Making halves and fourths of circles, rectangles and other shapes",
+        "Telling equal parts from parts that only look even",
+        "Coloring a fraction such as one third or two thirds"
       ],
       "howToPlay": [
-        "Look at the shape you need to cut into 3 equal parts.",
-        "Tap the cutting lines to make thirds.",
-        "Check that the three pieces are equal — there is no timer and no score."
+        "Tap the notches on the edge or the pegs on the rim to put up walls. Tap a wall's notch or peg again to lift it.",
+        "Press Check to make it rain: each part fills its own tube.",
+        "If a tube spills over or stays below the gold line, lift a wall, put it up somewhere else and try again."
       ],
       "learningGoals": [
-        "Partition shapes into three equal shares and name them thirds — the focus of Common Core 2.G.A.3",
-        "Understand that thirds must be three same-size parts, however the shape is cut",
-        "Strengthen the equal-partitioning sense that fractions build on"
+        "Partitioning circles, rectangles and other shapes into two, three or four equal shares — the focus of Common Core 2.G.A.3",
+        "Describing the shares as halves, thirds and fourths, and the whole as three thirds",
+        "Seeing that equal shares of the same whole need not have the same shape"
       ]
     },
     "friendship-bridge.compare-balance.k-cc-c-6": {

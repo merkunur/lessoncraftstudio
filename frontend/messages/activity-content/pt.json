@@ -1978,25 +1978,25 @@
     },
     "fractions.partition-thirds.2-g-a-3": {
       "about": [
-        "Surge um círculo, um triângulo, um hexágono, um quadrado, um retângulo, um losango ou uma elipse, e a criança toca nas linhas de corte para dividir a forma em três partes iguais — os terços. É uma atividade de geometria interativa para os anos iniciais, que roda no navegador em qualquer aparelho, sem instalar nada e sem conta.",
-        "A grande ideia é que os terços são mais difíceis do que as metades, porque três partes iguais não caem em uma linha do meio óbvia. O círculo é dividido com três linhas a partir do centro, o retângulo em três faixas iguais, o triângulo em três partes que combinam — assim a criança aprende que «terços» significa três partes do mesmo tamanho, não importa como a forma é cortada. Fazer os cortes com as próprias mãos constrói o senso de divisão igual que só olhar uma figura não dá.",
-        "A atividade está alinhada à BNCC, na unidade temática Geometria e na ideia de dividir círculos, quadrados e retângulos em duas, três ou quatro partes iguais, chamando essas partes de metades, terços e quartos. Sem cronômetro e sem pontuação — só prática tranquila e divertida."
+        "Fazer terços a olho é difícil. As crianças cortam um triângulo em três faixas da mesma altura e as chamam de terços, ou traçam uma linha atravessando um círculo e outra a partir do centro e contam três partes. Na mesa da chuva, a própria figura mostra se as partes são mesmo iguais.",
+        "A figura é uma pequena mesa da chuva. Tocando num entalhe da borda, uma divisória cai reta de um lado ao outro; tocando num pino da borda, uma divisória sai do pino do centro. Depois é só verificar e chove por igual sobre a mesa: cada parte escorre para o seu próprio tubo, então partes iguais enchem seus tubos até a mesma linha dourada. Uma parte maior transborda, uma menor fica abaixo da linha e uma parte sem tubo escorre para a bandeja da poça. Faixas da mesma altura num triângulo enchem 1 : 3 : 5, e o erro aparece sozinho.",
+        "As figuras são um círculo, um triângulo, um hexágono, um quadrado, um retângulo, um quadrado apoiado numa ponta e um oval. Numa rodada, três divisórias saindo do meio de um quadrado formam três pedaços que não se parecem nada, mas enchem três tubos até a mesma linha. Dá para escolher metades, terços ou quartos e, com a opção de colorir, pintar depois uma fração como dois terços da figura. Depois do segundo erro, divisórias pontilhadas mostram um jeito de fazer. Sem cronômetro e sem pontos."
       ],
       "practices": [
-        "Cortar uma forma em 3 partes iguais.",
-        "Fazer terços em círculos, retângulos, triângulos e outras formas.",
-        "Manter as três partes com o mesmo tamanho.",
-        "Usar a palavra terços para falar de três partes iguais."
+        "Dividir uma figura em 3 partes iguais: os terços",
+        "Fazer metades e quartos de círculos, retângulos e outras figuras",
+        "Distinguir partes iguais de partes que só parecem iguais",
+        "Pintar uma fração como um terço ou dois terços"
       ],
       "howToPlay": [
-        "Olhe a forma que você precisa dividir em 3 partes iguais.",
-        "Toque nas linhas de corte para fazer os terços.",
-        "Confira se as três partes ficaram iguais — não há cronômetro nem pontuação."
+        "Toque nos entalhes da borda ou nos pinos para colocar divisórias. Toque de novo para tirar a divisória.",
+        "Aperte Verificar para fazer chover: cada parte enche o seu próprio tubo.",
+        "Se um tubo transbordar ou ficar abaixo da linha dourada, tire uma divisória, coloque em outro lugar e tente de novo."
       ],
       "learningGoals": [
-        "Dividir formas em três partes iguais e nomeá-las como terços.",
-        "Entender que os terços precisam ser três partes do mesmo tamanho, não importa como a forma é cortada.",
-        "Fortalecer o senso de divisão igual sobre o qual as frações são construídas."
+        "Dividir círculos, retângulos e outras figuras em duas, três ou quatro partes iguais",
+        "Nomear as partes como metades, terços e quartos, e o inteiro como três terços",
+        "Perceber que partes iguais do mesmo inteiro não precisam ter a mesma forma"
       ]
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {

@@ -3543,25 +3543,25 @@
     },
     "fractions.partition-thirds.2-g-a-3": {
       "about": [
-        "Se presenta un círculo, un triángulo, un hexágono, un cuadrado, un rectángulo, un rombo o una elipse, y el niño o la niña toca las líneas de corte para dividir la figura en tres partes iguales: los tercios. Es una actividad de geometría para 2.º de primaria, interactiva, que corre en el navegador de cualquier dispositivo, sin instalar nada y sin crear cuenta.",
-        "Lo interesante es que los tercios son más difíciles que las mitades, porque tres partes iguales no caen sobre una línea de en medio tan obvia. El círculo se parte con tres líneas desde el centro, el rectángulo en tres tiras iguales y el triángulo en tres partes que coinciden, así el niño o la niña aprende que «tercios» significa tres partes del mismo tamaño, sin importar cómo se corte la figura. Hacer los cortes con sus propias manos construye un sentido de las partes iguales que mirar un dibujo no alcanza a dar.",
-        "Está alineada con los planes y programas de estudio (SEP): dividir círculos y rectángulos en dos, tres o cuatro partes iguales y describir las partes con la palabra tercios. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+        "Hacer tercios a ojo es difícil. Los niños cortan un triángulo en tres franjas de la misma altura y las llaman tercios, o trazan una línea a través de un círculo y otra desde el centro y cuentan tres partes. Con la mesa de lluvia, la propia figura muestra si las partes son de verdad iguales.",
+        "La figura es una pequeña mesa de lluvia. Al tocar una muesca del borde, una pared cae recta de lado a lado; al tocar una clavija del borde, una pared sale desde la clavija del centro. Luego se comprueba y llueve de forma pareja sobre la mesa: cada parte desagua en su propio tubo, así que las partes iguales llenan sus tubos hasta la misma línea dorada. Una parte más grande se desborda, una más pequeña se queda corta y una parte sin tubo va a parar a la bandeja del charco. Las franjas de la misma altura en un triángulo llenan 1 : 3 : 5, y el error se ve solo.",
+        "Las figuras son un círculo, un triángulo, un hexágono, un cuadrado, un rectángulo, un cuadrado apoyado en una esquina y un óvalo. En una ronda, tres paredes desde el centro de un cuadrado forman tres pedazos que no se parecen en nada, pero llenan tres tubos hasta la misma línea. Se eligen mitades, tercios o cuartos, y al activar el coloreado se colorea después una fracción como dos tercios de la figura. Tras un segundo error, unas paredes punteadas muestran una forma de hacerlo. Sin reloj ni puntos."
       ],
       "practices": [
-        "Cortar una figura en 3 partes iguales.",
-        "Formar tercios en círculos, rectángulos, triángulos y más figuras.",
-        "Mantener las tres partes del mismo tamaño.",
-        "Usar la palabra tercios para nombrar tres partes iguales."
+        "Dividir una figura en 3 partes iguales: los tercios",
+        "Hacer mitades y cuartos de círculos, rectángulos y otras figuras",
+        "Distinguir partes iguales de partes que solo lo parecen",
+        "Colorear una fracción como un tercio o dos tercios"
       ],
       "howToPlay": [
-        "Mira la figura que tienes que cortar en 3 partes iguales.",
-        "Toca las líneas de corte para formar los tercios.",
-        "Revisa que las tres partes queden iguales: no hay temporizador ni puntuación."
+        "Toca las muescas del borde o las clavijas para poner paredes. Vuelve a tocarlas para quitar la pared.",
+        "Pulsa Comprobar para que llueva: cada parte llena su propio tubo.",
+        "Si un tubo se desborda o queda por debajo de la línea dorada, quita una pared, ponla en otro lugar y vuelve a intentarlo."
       ],
       "learningGoals": [
-        "Dividir figuras en tres partes iguales y nombrarlas tercios.",
-        "Entender que los tercios deben ser tres partes del mismo tamaño, sin importar cómo se corte la figura.",
-        "Reforzar el sentido de las partes iguales sobre el que se construyen las fracciones."
+        "Dividir círculos, rectángulos y otras figuras en dos, tres o cuatro partes iguales",
+        "Nombrar las partes como mitades, tercios y cuartos, y el entero como tres tercios",
+        "Ver que las partes iguales de un mismo entero no tienen que tener la misma forma"
       ]
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {

@@ -720,25 +720,25 @@
     },
     "fractions.partition-thirds.2-g-a-3": {
       "about": [
-        "Ruudulle ilmestyy ympyrä, kolmio, kuusikulmio, neliö, suorakulmio, vinoneliö tai ellipsi, ja lapsi napauttaa jakoviivoja jakaakseen sen kolmeen yhtä suureen osaan eli kolmasosiin. Tämä on vuorovaikutteinen geometriatehtävä, joka toimii selaimessa millä tahansa laitteella ilman asennusta ja ilman tiliä.",
-        "Tärkein ajatus on, että kolmasosat ovat pulmallisempia kuin puolikkaat, koska kolme yhtä suurta osaa ei osu mihinkään selvään keskiviivaan. Ympyrä jaetaan kolmella viivalla keskeltä, suorakulmio kolmeen yhtä suureen kaistaan ja kolmio kolmeen yhtä suureen osaan — niin lapsi oppii, että \"kolmasosat\" tarkoittaa kolmea yhtä suurta osuutta, jaettiinpa muoto miten tahansa. Jakoviivojen tekeminen itse rakentaa tuntumaa yhtä suureen jakamiseen tavalla, johon pelkkä kuvan katsominen ei pysty.",
-        "Tehtävä on OPS 2014:n mukainen geometrian osa-alueella: lapsi jakaa ympyröitä ja suorakulmioita kahteen, kolmeen tai neljään yhtä suureen osaan ja kuvaa osia sanalla kolmasosat. Alkuopetukseen, 2. luokalle — ei ajastinta eikä pisteitä, vaan rauhallista ja leikkisää harjoittelua."
+        "Kolmasosien tekeminen silmämääräisesti on vaikeaa. Lapset jakavat kolmion kolmeen yhtä korkeaan raitaan ja kutsuvat niitä kolmasosiksi, tai he vetävät ympyrän poikki viivan ja toisen keskeltä ja laskevat kolme osaa. Sadepöydässä kuvio itse näyttää, ovatko osat todella yhtä suuria.",
+        "Kuvio on pieni sadepöytä. Kun napauttaa reunan lovea, väliseinä putoaa suoraan poikki; kun napauttaa reunan nastaa, väliseinä kulkee keskinastasta reunalle. Kun painaa Tarkista, koko pöydälle sataa tasaisesti: jokainen osa valuu omaan lasiputkeensa, joten yhtä suuret osat täyttävät putkensa samaan kultaiseen viivaan asti. Suurempi osa tulvii yli, pienempi jää viivan alle, ja osa, jolla ei ole putkea, valuu lätäkköalustalle. Kolmion yhtä korkeat raidat täyttävät putkensa suhteessa 1 : 3 : 5, ja virhe näkyy itsestään.",
+        "Kuviot ovat ympyrä, kolmio, kuusikulmio, neliö, suorakulmio, kulmalleen käännetty neliö ja soikio. Yhdellä kierroksella kolme väliseinää neliön keskeltä tekee kolme palaa, jotka eivät näytä lainkaan samanlaisilta mutta täyttävät kolme putkea samaan viivaan asti. Valittavana ovat puolikkaat, kolmasosat tai neljäsosat, ja värityksen ollessa päällä väritetään lopuksi murtoluku, kuten kaksi kolmasosaa kuviosta. Toisen virheen jälkeen pisteviivaiset väliseinät näyttävät yhden tavan. Ei ajanottoa, ei pisteitä."
       ],
       "practices": [
-        "Jakaa muodon kolmeen yhtä suureen osaan.",
-        "Tekee kolmasosia ympyröihin, suorakulmioihin, kolmioihin ja muihin muotoihin.",
-        "Pitää kaikki kolme osaa yhtä suurina.",
-        "Käyttää sanaa kolmasosat kolmesta yhtä suuresta osuudesta."
+        "Kuvion jakaminen 3 yhtä suureen osaan – kolmasosat",
+        "Puolikkaiden ja neljäsosien tekeminen ympyröistä, suorakulmioista ja muista kuvioista",
+        "Yhtä suurten osien erottaminen osista, jotka vain näyttävät yhtä suurilta",
+        "Murtoluvun, kuten yhden tai kahden kolmasosan, värittäminen"
       ],
       "howToPlay": [
-        "Katso muotoa, joka sinun täytyy jakaa kolmeen yhtä suureen osaan.",
-        "Napauta jakoviivoja tehdäksesi kolmasosat.",
-        "Tarkista, että kaikki kolme osaa ovat yhtä suuret — ei ajastinta eikä pisteitä."
+        "Napauta reunan loveja tai nastoja, niin saat väliseiniä. Napauta uudelleen, niin väliseinä poistuu.",
+        "Paina Tarkista, niin alkaa sataa: jokainen osa täyttää oman putkensa.",
+        "Jos putki tulvii yli tai jää kultaisen viivan alle, poista yksi väliseinä, rakenna se toiseen kohtaan ja yritä uudelleen."
       ],
       "learningGoals": [
-        "Lapsi jakaa muotoja kolmeen yhtä suureen osuuteen ja nimeää ne kolmasosiksi.",
-        "Lapsi ymmärtää, että kolmasosat ovat kolme yhtä suurta osaa, jaettiinpa muoto miten tahansa.",
-        "Lapsi vahvistaa yhtä suureen jakamisen tuntumaa, jolle murtoluvut rakentuvat."
+        "Ympyröiden, suorakulmioiden ja muiden kuvioiden jakaminen kahteen, kolmeen tai neljään yhtä suureen osaan",
+        "Osien nimeäminen puolikkaiksi, kolmasosiksi ja neljäsosiksi ja kokonaisuuden kolmeksi kolmasosaksi",
+        "Sen huomaaminen, että saman kokonaisuuden yhtä suurten osien ei tarvitse olla samanmuotoisia"
       ]
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {

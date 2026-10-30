@@ -131,6 +131,10 @@ function seedScript(row) {
     // the invention at work: the model's quarters on the tray and the mixed fourths (two rectangles + two triangles) pressed onto them — four patties that fit exactly
     return "(function(){var t=window['DoughPressActivity'];if(!t||!t.api)return;var C=window.DoughPressCore;t.FAST=true;t.OK_MS=600000;t.api.settings.board='match';t.api.settings.read='words';t._pool=null;t._ensurePool();t._start(12,0);t._render2();var i=t.st.tiles.findIndex(function(x){return x.fig==='sq-fourths-mixed';});t._tap(i);t.st.done=true;t._view.pressed=true;t._view.glaze=true;t._paint();})();";
   }
+  if (row.tool === 'rain-table-activity') {
+    // the invention at work: the square surprise — three walls from the centre pin, three pieces that look nothing alike, three tubes at the same gold line under the rainbow
+    return "(function(){var t=window['RainTableActivity'];if(!t||!t.api)return;t.FAST=true;t.OK_MS=600000;t.api.settings.parts='3';t.api.settings.colour='off';t._pool=null;t._ensurePool();t._start(7,0);t._render2();['p:0','p:8','p:16'].forEach(function(id){t._toggle(id);});t._check();t._view.note='';t._paint();})();";
+  }
   if (row.tool === 'stamp-sheet-activity') {
     // the invention at work: a 3-by-4 stamp sheet perforated with one line out of place, the press down — true stamps where the squares are true, a torn edge and spare paper where they are not
     return "(function(){var t=window['StampSheetActivity'];if(!t||!t.api)return;var C=window.StampSheetCore;t.FAST=true;t.OK_MS=600000;t.api.settings.board='numbers';t.api.settings.card='rowsOf';t._pool=null;t._ensurePool();t._start(4,0);t._render2();[2,4,7].forEach(function(h){C.toggleCut(t.st,'col',h);});[2,4].forEach(function(h){C.toggleCut(t.st,'row',h);});t._check();t._view.note='';t._paint();})();";

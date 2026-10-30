@@ -1441,25 +1441,25 @@
     },
     "fractions.partition-thirds.2-g-a-3": {
       "about": [
-        "En cirkel, trekant, sekskant, kvadrat, rektangel, rude eller ellipse dukker op, og barnet trykker på skærelinjerne for at dele den i tre lige store stykker — tredjedele. Det er en interaktiv geometriøvelse til 2. klasse, der kører i browseren på enhver enhed, uden at man skal installere noget, og uden konto.",
-        "Den store idé er, at tredjedele er sværere end halvdele, fordi tre lige store stykker ikke falder på en oplagt midterlinje. En cirkel deles med tre linjer fra midten, et rektangel i tre lige store striber, en trekant i tre ens dele — så barnet lærer, at \"tredjedele\" betyder tre lige store stykker, uanset hvordan formen skæres. At lave snittene selv giver en fornemmelse for ligedeling, som det at kigge på et billede ikke kan.",
-        "Aktiviteten følger Fælles Mål inden for geometri og måling: at dele cirkler og rektangler i to, tre eller fire lige store dele og beskrive dem med ordet tredjedele. Der er ingen timer og ingen point — kun rolig og legende træning."
+        "Det er svært at dele i tredjedele på øjemål. Børn deler en trekant i tre lige høje strimler og kalder dem tredjedele, eller de tegner en streg gennem en cirkel og en til fra midten og tæller tre dele. På regnbordet viser figuren selv, om delene virkelig er lige store.",
+        "Figuren er et lille regnbord. Tryk på et hak i kanten, så falder en væg lige på tværs; tryk på en pind på kanten, så går en væg ud fra pinden i midten. Tryk så på Tjek, og det regner jævnt over bordet: hver del løber ned i sit eget glasrør, så lige store dele fylder deres rør op til den samme guldstreg. En større del løber over, en mindre bliver under stregen, og en del uden rør løber ud i pølbakken. Lige høje strimler i en trekant fylder 1 : 3 : 5, og fejlen viser sig selv.",
+        "Figurerne er en cirkel, en trekant, en sekskant, et kvadrat, et rektangel, et kvadrat, der står på et hjørne, og en oval. I én runde laver tre vægge fra midten af et kvadrat tre stykker, der slet ikke ligner hinanden, men alligevel fylder tre rør op til den samme streg. Man vælger halvdele, tredjedele eller fjerdedele, og med farvelægning slået til farvelægger man bagefter en brøk som to tredjedele af figuren. Efter det andet forkerte forsøg viser prikkede vægge én måde at gøre det på. Intet ur, ingen point."
       ],
       "practices": [
-        "Klippe en form i 3 lige store dele",
-        "Lave tredjedele i cirkler, rektangler, trekanter og flere former",
-        "Holde alle tre stykker lige store",
-        "Bruge ordet tredjedele om tre lige store dele"
+        "Dele en figur i 3 lige store dele – tredjedele",
+        "Lave halvdele og fjerdedele af cirkler, rektangler og andre figurer",
+        "Skelne lige store dele fra dele, der kun ser lige store ud",
+        "Farvelægge en brøk som en tredjedel eller to tredjedele"
       ],
       "howToPlay": [
-        "Barnet ser den form, der skal deles i 3 lige store dele.",
-        "Barnet trykker på skærelinjerne for at lave tredjedele.",
-        "Tjek at de tre stykker er lige store — der er ingen timer og ingen point, så barnet kan tage sig god tid."
+        "Tryk på hakkene i kanten eller på pindene for at sætte vægge op. Tryk igen for at fjerne væggen.",
+        "Tryk på Tjek, så regner det: hver del fylder sit eget rør.",
+        "Hvis et rør løber over eller bliver under guldstregen, så fjern en væg, sæt den op et andet sted og prøv igen."
       ],
       "learningGoals": [
-        "Barnet kan dele former i tre lige store dele og kalde dem tredjedele",
-        "Barnet kan forstå, at tredjedele skal være tre lige store dele, uanset hvordan formen skæres",
-        "Barnet kan styrke den fornemmelse for ligedeling, som brøker bygger på"
+        "Dele cirkler, rektangler og andre figurer i to, tre eller fire lige store dele",
+        "Kalde delene halvdele, tredjedele og fjerdedele, og det hele tre tredjedele",
+        "Se, at lige store dele af det samme hele ikke behøver at have samme form"
       ]
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {

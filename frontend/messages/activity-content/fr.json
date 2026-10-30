@@ -3370,25 +3370,25 @@
     },
     "fractions.partition-thirds.2-g-a-3": {
       "about": [
-        "Un cercle, un triangle, un hexagone, un carré, un rectangle, un losange ou une ellipse apparaît, et l'enfant touche les lignes de découpe pour le partager en trois parts égales : les tiers. C'est une activité de géométrie interactive pour le CP et le CE1, qui se joue dans le navigateur sur n'importe quel appareil, sans rien installer et sans compte.",
-        "La grande idée, c'est que les tiers sont plus délicats que les moitiés, car trois parts égales ne tombent pas sur une ligne du milieu évidente. Un cercle se partage par trois lignes parties du centre, un rectangle en trois bandes égales, un triangle en trois parts identiques — l'enfant apprend ainsi que « les tiers » signifient toujours trois parts de même taille, quelle que soit la façon de couper la forme. Faire les découpes soi-même développe le sens du partage équitable qu'une simple image ne peut pas donner.",
-        "Cette activité est alignée sur les programmes officiels, dans le domaine Espace et géométrie : partager un cercle ou un rectangle en deux, trois ou quatre parts égales et décrire ces parts avec le mot « tiers ». Les enfants avancent à leur rythme, avec un retour doux et immédiat — ni minuteur, ni score."
+        "Partager en tiers à l’œil, c’est difficile. Les enfants coupent un triangle en trois bandes de même hauteur et les appellent des tiers, ou tracent un trait à travers un cercle et un autre depuis le centre et comptent trois parts. Avec la table à pluie, c’est la forme elle-même qui montre si les parts sont vraiment égales.",
+        "La forme est une petite table à pluie. On touche une encoche du bord et une cloison tombe tout droit en travers ; on touche une cheville du bord et une cloison part de la cheville du centre. Puis on vérifie et il pleut de façon régulière sur la table : chaque part s’écoule dans son propre tube, donc des parts égales remplissent leurs tubes jusqu’à la même ligne dorée. Une part plus grande déborde, une plus petite reste en dessous, et une part sans tube s’écoule dans le bac à flaque. Des bandes de même hauteur dans un triangle remplissent 1 : 3 : 5, et l’erreur se voit d’elle-même.",
+        "Les formes sont un cercle, un triangle, un hexagone, un carré, un rectangle, un carré posé sur la pointe et un ovale. Dans une manche, trois cloisons partant du milieu d’un carré font trois morceaux qui ne se ressemblent pas du tout mais remplissent trois tubes jusqu’à la même ligne. On choisit des moitiés, des tiers ou des quarts, et avec le coloriage on colorie ensuite une fraction comme deux tiers de la forme. Après une deuxième erreur, des cloisons en pointillés montrent une façon de faire. Pas de chronomètre, pas de score."
       ],
       "practices": [
-        "Couper une forme en 3 parts égales.",
-        "Construire des tiers dans des cercles, des rectangles, des triangles et bien d'autres formes.",
-        "Garder les trois morceaux de la même taille.",
-        "Employer le mot « tiers » pour trois parts égales."
+        "Partager une forme en 3 parts égales : les tiers",
+        "Faire des moitiés et des quarts de cercles, de rectangles et d’autres formes",
+        "Distinguer des parts égales de parts qui en ont seulement l’air",
+        "Colorier une fraction comme un tiers ou deux tiers"
       ],
       "howToPlay": [
-        "Regarde la forme à partager en 3 parts égales.",
-        "Touche les lignes de découpe pour faire des tiers.",
-        "Vérifie que les trois morceaux sont égaux — il n'y a ni minuteur, ni score."
+        "Touche les encoches du bord ou les chevilles pour poser des cloisons. Touche-les encore une fois pour enlever la cloison.",
+        "Appuie sur Vérifier pour faire pleuvoir : chaque part remplit son propre tube.",
+        "Si un tube déborde ou reste sous la ligne dorée, enlève une cloison, pose-la ailleurs et réessaie."
       ],
       "learningGoals": [
-        "Partager des formes en trois parts égales et les nommer « tiers ».",
-        "Comprendre que les tiers doivent être trois parts de même taille, quelle que soit la façon de couper la forme.",
-        "Renforcer le sens du partage équitable sur lequel se construisent les fractions."
+        "Partager des cercles, des rectangles et d’autres formes en deux, trois ou quatre parts égales",
+        "Nommer les parts : moitiés, tiers et quarts, et le tout : trois tiers",
+        "Voir que des parts égales d’un même tout n’ont pas besoin d’avoir la même forme"
       ]
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {

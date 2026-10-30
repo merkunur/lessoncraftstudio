@@ -1204,25 +1204,25 @@
     },
     "fractions.partition-thirds.2-g-a-3": {
       "about": [
-        "En sirkel, trekant, sekskant, kvadrat, rektangel, rombe eller ellipse vises, og barnet trykker på snittlinjene for å dele den i tre like store deler — tredeler. Dette er en interaktiv geometriaktivitet for 1.–2. trinn som spilles i nettleseren på alle enheter, uten nedlasting og uten konto.",
-        "Den store ideen er at tredeler er vanskeligere enn halvdeler, fordi tre like store deler ikke faller på en opplagt midtlinje. En sirkel deles med tre linjer fra midten, et rektangel i tre like striper, en trekant i tre like store deler — slik lærer barnet at «tredeler» betyr tre like store deler uansett hvordan formen er delt. Å gjøre snittene selv bygger en følelse for like deling som det å bare se på et bilde ikke kan gi.",
-        "Aktiviteten følger LK20 innenfor geometri — å dele sirkler, kvadrater og rektangler i to, tre og fire like store deler og bruke ordet tredeler om delene. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving for 1. og 2. trinn."
+        "Det er vanskelig å dele i tredeler på øyemål. Barn deler en trekant i tre like høye strimler og kaller dem tredeler, eller de trekker en strek gjennom en sirkel og en til fra midten og teller tre deler. På regnbordet viser figuren selv om delene virkelig er like store.",
+        "Figuren er et lite regnbord. Trykk på et hakk i kanten, så faller en vegg rett på tvers; trykk på en pinne på kanten, så går en vegg ut fra pinnen i midten. Trykk så på Sjekk, og det regner jevnt over bordet: hver del renner ned i sitt eget glassrør, så like store deler fyller rørene sine opp til den samme gullstreken. En større del renner over, en mindre blir under streken, og en del uten rør renner ut i pyttbrettet. Like høye strimler i en trekant fyller 1 : 3 : 5, og feilen viser seg selv.",
+        "Figurene er en sirkel, en trekant, en sekskant, et kvadrat, et rektangel, et kvadrat som står på et hjørne, og en oval. I én runde lager tre vegger fra midten av et kvadrat tre biter som slett ikke ligner hverandre, men likevel fyller tre rør opp til den samme streken. Man velger halvdeler, tredeler eller firedeler, og med fargelegging slått på fargelegger man etterpå en brøk som to tredeler av figuren. Etter andre feilforsøk viser prikkete vegger én måte å gjøre det på. Ingen klokke, ingen poeng."
       ],
       "practices": [
-        "Dele en form i 3 like store deler.",
-        "Lage tredeler i sirkler, rektangler, trekanter og flere former.",
-        "Holde alle tre delene like store.",
-        "Bruke ordet tredeler om tre like store deler."
+        "Dele en figur i 3 like store deler – tredeler",
+        "Lage halvdeler og firedeler av sirkler, rektangler og andre figurer",
+        "Skille like store deler fra deler som bare ser like ut",
+        "Fargelegge en brøk som en tredel eller to tredeler"
       ],
       "howToPlay": [
-        "Se på formen du skal dele i 3 like store deler.",
-        "Trykk på snittlinjene for å lage tredeler.",
-        "Sjekk at de tre delene er like store — det er ingen tidtaker og ingen poeng."
+        "Trykk på hakkene i kanten eller på pinnene for å sette opp vegger. Trykk en gang til for å ta bort veggen.",
+        "Trykk på Sjekk, så regner det: hver del fyller sitt eget rør.",
+        "Hvis et rør renner over eller blir under gullstreken, ta bort en vegg, sett den opp et annet sted og prøv igjen."
       ],
       "learningGoals": [
-        "Barnet kan dele former i tre like store deler og kalle dem tredeler.",
-        "Barnet forstår at tredeler må være tre like store deler, uansett hvordan formen er delt.",
-        "Barnet styrker forståelsen av like deling som brøk bygger videre på."
+        "Dele sirkler, rektangler og andre figurer i to, tre eller fire like store deler",
+        "Kalle delene halvdeler, tredeler og firedeler, og det hele tre tredeler",
+        "Se at like store deler av det samme hele ikke trenger å ha samme form"
       ]
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {

@@ -1,61 +1,15 @@
 [
   {
     "id": "fractions.partition-thirds.2-g-a-3",
-    "tool": "fractions-activity",
-    "task_template": "partition-equal-shares",
+    "tool": "rain-table-activity",
+    "task_template": "rain-table",
     "alignment": {
       "framework": "CCSS",
       "code": "2.G.A.3",
       "grade": "2",
       "strand": "Geometry"
     },
-    "params": {
-      "rounds": [
-        {
-          "shape": "circle",
-          "n": 3,
-          "cut": "radii",
-          "rot": 0,
-          "seed": 101
-        },
-        {
-          "shape": "triangle",
-          "n": 3,
-          "cut": "v",
-          "seed": 103
-        },
-        {
-          "shape": "hexagon",
-          "n": 3,
-          "cut": "v",
-          "seed": 107
-        },
-        {
-          "shape": "square",
-          "n": 3,
-          "cut": "v",
-          "seed": 127
-        },
-        {
-          "shape": "rect",
-          "n": 3,
-          "cut": "h",
-          "seed": 113
-        },
-        {
-          "shape": "diamond",
-          "n": 3,
-          "cut": "edge",
-          "seed": 131
-        },
-        {
-          "shape": "ellipse",
-          "n": 3,
-          "cut": "radii",
-          "seed": 137
-        }
-      ]
-    },
+    "params": {},
     "theme": null,
     "slug": {
       "en": "make-thirds",

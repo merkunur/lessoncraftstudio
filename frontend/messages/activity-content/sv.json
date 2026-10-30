@@ -1316,25 +1316,25 @@
     },
     "fractions.partition-thirds.2-g-a-3": {
       "about": [
-        "En cirkel, triangel, sexhörning, kvadrat, rektangel, romb eller ellips dyker upp, och barnet trycker på delningslinjerna för att dela den i tre lika stora delar — tredjedelar. Det är en interaktiv geometriövning för årskurs 2 som körs i webbläsaren på vilken enhet som helst, utan installation och utan konto.",
-        "Den stora idén är att tredjedelar är klurigare än halvor, eftersom tre lika stora delar inte hamnar på en självklar mittlinje. En cirkel delas med tre linjer från mitten, en rektangel i tre lika breda remsor, en triangel i tre lika delar — så barnet lär sig att \"tredjedelar\" betyder tre lika stora delar oavsett hur formen delas. Att göra själva delningen bygger en känsla för lika delar som man inte får av att bara titta på en bild.",
-        "Aktiviteten följer Lgr22 inom geometri: att dela cirklar och rektanglar i två, tre eller fyra lika stora delar och att använda ordet tredjedelar om delarna. Ingen tid, inga poäng — bara lugn och lekfull träning."
+        "Det är svårt att dela i tredjedelar på ögonmått. Barn delar en triangel i tre lika höga remsor och kallar dem tredjedelar, eller drar en linje genom en cirkel och en till från mitten och räknar tre delar. På regnbordet visar formen själv om delarna verkligen är lika stora.",
+        "Formen är ett litet regnbord. Tryck på en skåra i kanten så faller en vägg rakt tvärs över; tryck på en pinne på kanten så går en vägg ut från pinnen i mitten. Tryck sedan på Kontrollera, så regnar det jämnt över bordet: varje del rinner ner i sitt eget glasrör, så lika stora delar fyller sina rör upp till samma guldlinje. En större del rinner över, en mindre stannar under och en del utan rör rinner ut i pölbrickan. Lika höga remsor i en triangel fyller 1 : 3 : 5, och felet syns av sig självt.",
+        "Formerna är en cirkel, en triangel, en sexhörning, en kvadrat, en rektangel, en kvadrat som står på ett hörn och en oval. I en omgång gör tre väggar från mitten av en kvadrat tre bitar som inte alls liknar varandra men ändå fyller tre rör upp till samma linje. Man väljer halvor, tredjedelar eller fjärdedelar, och med Färglägg efteråt påslaget färglägger man sedan ett bråk som två tredjedelar av formen. Efter ett andra misslyckat försök visar prickade väggar ett sätt att göra det. Ingen tidtagning, inga poäng."
       ],
       "practices": [
-        "Dela en form i 3 lika stora delar",
-        "Göra tredjedelar i cirklar, rektanglar, trianglar och fler former",
-        "Hålla alla tre delarna lika stora",
-        "Använda ordet tredjedelar om tre lika stora delar"
+        "Dela en form i 3 lika stora delar – tredjedelar",
+        "Göra halvor och fjärdedelar av cirklar, rektanglar och andra former",
+        "Skilja lika stora delar från delar som bara ser lika ut",
+        "Färglägga ett bråk som en tredjedel eller två tredjedelar"
       ],
       "howToPlay": [
-        "Titta på formen som ska delas i 3 lika stora delar.",
-        "Tryck på delningslinjerna för att göra tredjedelar.",
-        "Kontrollera att de tre delarna är lika stora — det finns ingen tid och inga poäng."
+        "Tryck på skårorna i kanten eller på pinnarna för att sätta upp väggar. Tryck en gång till för att ta bort väggen.",
+        "Tryck på Kontrollera så regnar det: varje del fyller sitt eget rör.",
+        "Om ett rör rinner över eller stannar under guldlinjen, ta bort en vägg, sätt upp den någon annanstans och försök igen."
       ],
       "learningGoals": [
-        "Barnet kan dela former i tre lika stora delar och kalla dem tredjedelar",
-        "Barnet förstår att tredjedelar måste vara tre lika stora delar, oavsett hur formen delas",
-        "Barnet stärker den känsla för lika delar som bråk senare bygger på"
+        "Dela cirklar, rektanglar och andra former i två, tre eller fyra lika stora delar",
+        "Kalla delarna halvor, tredjedelar och fjärdedelar, och helheten tre tredjedelar",
+        "Se att lika stora delar av samma helhet inte behöver ha samma form"
       ]
     },
     "match-pairs.find-the-missing-number.1-oa-d-8": {

@@ -174,7 +174,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 164 | LIVE 2026-10-30 · The Worth Till | 2 | 2.MD.C.8 | `coin-stall.money.2-md-c-8` | coin-stall-activity | Pip's Market Stall — Counting Coins & Making Change |
 | 165 | LIVE 2026-10-30 · The Say-It Slot | 2 | 2.MD.C.8 | `money.count-out.2-md-c-8` | money-activity | Count Out the Money — Coins to a Target Amount (Grade 2) |
 | 166 | LIVE 2026-10-30 · The Change Box | 2 | 2.MD.C.8 | `money.make-change.2-md-c-8` | money-activity | Make Change with Coins — Money Word Problems (Grade 2) |
-| 167 |  | 2 | 2.MD.D.9 | `line-plot.read.2-md-d-9` | line-plot-activity | Shelly's Tide-Line — Measurement Line Plots (Grade 2) |
+| 167 | LIVE 2026-10-30 · The Tide You Push | 2 | 2.MD.D.9 | `line-plot.read.2-md-d-9` | line-plot-activity | Shelly's Tide-Line — Measurement Line Plots (Grade 2) |
 | 168 |  | 2 | 2.MD.D.10 | `graph-it.bar-graph.2-md-d-10` | graph-it-activity | Pip's Stacking Fence — Build & Read a Bar Graph |
 | 169 |  | 2 | 2.G.A.1 | `sort-bins.sort-by-sides.2-g-a-1` | sort-bins-activity | Sort Shapes by Sides — Triangles, Quadrilaterals, Pentagons & Hexagons (Grade 2) |
 | 170 |  | 2 | 2.G.A.2 | `fractions.make-and-count-squares.2-g-a-2` | fractions-activity | Make and Count Squares — Partition a Rectangle into a Grid |

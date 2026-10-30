@@ -59,3 +59,4 @@ ORDER row 167 · id `line-plot.read.2-md-d-9` (kept). Design: `designs/167-line-
   
   Then 9 states × 8 widths with Check above the fold at rest.
 - visual-qa 240 renders × 11 locales; hierarchy 1,214/0 (the painted sky is now its own layer, so the gate measures the drawn beach); settings efficacy 2 live; prose-claims, SERP copy, content tells, preflight routes, next-delay all PASS.
+- **Live (2026-10-30):** live-verify-tide-plot en/de/sv/fi × 1366 + 390, 65/0. Each run: the left wave pushed in by the keyboard; a wrong pebble by a real tap → miss on the answer; the right pebble → solved; a measuring round (Home, Enter per shell) → solved; the iframe grows with the card. All 11 pages 200. Deploy payment canary OK; pm2 holds port 3000. (Plain curl gets a Cloudflare 403: poll the edge with a browser user agent.)

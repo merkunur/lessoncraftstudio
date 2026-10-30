@@ -72,3 +72,10 @@ ORDER row 171 · id `choice-board.fraction-noncongruent.2-g-a-3` (kept). Design:
   - 7 states × 8 widths with Check above the fold.
 - **Visual QA** ×11 locales (4 phases × 16 rounds × 6 viewports, plus tablet reach).
 - **Other audits:** hierarchy 640/0, settings efficacy 2 live; prose-claims, SERP copy, content tells, preflight routes and next-delay all PASS.
+
+## Live (2026-10-30)
+- Deployed with `71ff65d9f`; payment canary OK; the page serves `dough-press-activity.html?v=9.917` in every locale.
+- `live-verify-dough-press.js`:
+  - all 11 pages 200;
+  - en/de/sv/fi at 1366 and 390: the uneven fourths → a miss with a coral rim and a pale gap; the mixed fourths → four patties fit, solved; the iframe grows with the card.
+- The full run lost the iframe on its last three page loads (sv 390, fi ×2) twice. Run alone, sv and fi pass 21/0, so every check has passed live.

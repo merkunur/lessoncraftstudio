@@ -178,7 +178,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 168 | LIVE 2026-10-30 · The Level Rail | 2 | 2.MD.D.10 | `graph-it.bar-graph.2-md-d-10` | graph-it-activity | Pip's Stacking Fence — Build & Read a Bar Graph |
 | 169 | LIVE 2026-10-30 · The Trundle Wheel | 2 | 2.G.A.1 | `sort-bins.sort-by-sides.2-g-a-1` | sort-bins-activity | Sort Shapes by Sides — Triangles, Quadrilaterals, Pentagons & Hexagons (Grade 2) |
 | 170 | LIVE 2026-10-30 · The Stamp Sheet | 2 | 2.G.A.2 | `fractions.make-and-count-squares.2-g-a-2` | fractions-activity | Make and Count Squares — Partition a Rectangle into a Grid |
-| 171 |  | 2 | 2.G.A.3 | `choice-board.fraction-noncongruent.2-g-a-3` | choice-board-activity | Same Size, Different Shape — Equal Shares Can Look Different / Grade 2 Geometry |
+| 171 | LIVE 2026-10-30 · The Dough Press | 2 | 2.G.A.3 | `choice-board.fraction-noncongruent.2-g-a-3` | choice-board-activity | Same Size, Different Shape — Equal Shares Can Look Different / Grade 2 Geometry |
 | 172 |  | 2 | 2.G.A.3 | `fractions.partition-thirds.2-g-a-3` | fractions-activity | Make Thirds — Partition Shapes into 3 Equal Parts (Grade 2) |
 | 173 |  | 2 | RI.2.2 | `marina-headline-desk.main-topic.ri-2-2` | marina-headline-desk-activity | Marina's Headline Desk — What's It Mostly About? (Grade 2) |
 | 174 |  | 2 | RI.2.6 | `author-purpose.why-wrote.ri-2-6` | author-purpose-activity | The Harbor Post — Author's Purpose: Inform, Entertain & Instruct (Grade 2) |

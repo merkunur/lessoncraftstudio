@@ -708,25 +708,25 @@
     },
     "marina-headline-desk.main-topic.ri-2-2": {
       "about": [
-        "Marina, der Otter, sitzt an ihrem Nachrichtentisch und schreibt Schlagzeilen. Dein Kind liest – oder hört über den Knopf „📖 Vorlesen“ – einen kurzen Sachtext aus drei Sätzen und tippt dann auf die Karte, die sagt, worum es in dem Text geht. Bei einem kleinen Text über Bienen wäre das zum Beispiel „Wie Bienen Honig machen.“ – und nicht die Karte, auf der nur ein einzelner Nebensatz oder ein fremder Fakt steht.",
-        "Das Hauptthema ist das, worum es in einem Sachtext HAUPTSÄCHLICH geht – der rote Faden, der alle Sätze zusammenhält. Es ist NICHT ein einzelnes Detail, das nur einen kleinen Teil des Textes ausmacht, und auch NICHT ein Fakt, der gar nicht dazugehört. Wenn dein Kind lernt, das Hauptthema vom Detail zu unterscheiden, lernt es, das Wesentliche eines Sachtexts zu erfassen – eine Fähigkeit, die es beim Lesen ein Leben lang braucht.",
-        "Diese Aktivität läuft ohne Zeitdruck und ohne Punkte – dein Kind kann in Ruhe lesen, überlegen und ausprobieren. Mit dem Knopf „📖 Vorlesen“ wird jeder Text vorgelesen, sodass auch Kinder mitmachen können, die noch nicht flüssig lesen. Die Aktivität gehört zum Lehrplan-Bereich „Sachtexte verstehen“ (Teil von „Lesen“)."
+        "Eine Schlagzeile muss sagen, worum es in einem Artikel VOR ALLEM geht – nicht um eine spannende Kleinigkeit und nicht um etwas, das gar nicht im Text steht. Marina, der Otter, leitet die Nachrichtenredaktion, und ihr großer Hefter prüft jede Wahl: Er heftet nur die Streifen fest, um die es in der Schlagzeile wirklich geht.",
+        "Der Artikel liegt als lose Papierstreifen auf dem Tisch, ein Satz pro Streifen. Das Kind legt eine Schlagzeilenkarte obendrauf und drückt auf den Hefter. Das Hauptthema hält alle Streifen zusammen, und der Artikel wird zur Titelseite. Eine Einzelheit hält nur ihren eigenen Streifen, die anderen weht der Ventilator vom Tisch, und eine Schlagzeile zu einem benachbarten Thema hält gar nichts.",
+        "Es gibt drei Stufen: einen kurzen Text aus drei Sätzen, einen Artikel mit zwei Absätzen, bei dem die Schlagzeile eines Absatzes die Hälfte des Artikels zurücklässt, und einen gelb markierten Absatz, zu dem das Kind die passende Schlagzeile findet. Wählbar sind drei oder vier Schlagzeilenkarten. Nach dem zweiten Fehlversuch werden die Wörter unterstrichen, die sich durch alle Streifen ziehen. Ohne Zeitdruck, ohne Punkte."
       ],
       "practices": [
-        "Das Hauptthema eines kurzen Sachtexts erkennen",
-        "Hauptthema und einzelnes Detail unterscheiden",
-        "Fremde, unpassende Fakten aussortieren",
-        "Das Wesentliche eines Textes in Worte fassen"
+        "Das Hauptthema eines kurzen Sachtextes finden",
+        "Das Hauptthema von einer Einzelheit unterscheiden",
+        "Das Hauptthema eines Textes mit zwei Absätzen finden",
+        "Herausfinden, worum es in einem Absatz geht"
       ],
       "howToPlay": [
-        "Lies den kurzen Sachtext – oder tippe auf „📖 Vorlesen“.",
-        "Überlege: Worum geht es HAUPTSÄCHLICH?",
-        "Tippe auf die Karte mit dem passenden Hauptthema."
+        "Lies die Streifen auf Marinas Tisch.",
+        "Tipp auf eine Schlagzeilenkarte, um sie obendrauf zu legen, und drück dann auf den Hefter oder auf Prüfen.",
+        "Wenn Streifen wegfliegen, lies, was darauf steht, und wähl eine andere Schlagzeile."
       ],
       "learningGoals": [
-        "Dein Kind erkennt, worum es in einem kurzen Sachtext hauptsächlich geht.",
-        "Dein Kind unterscheidet das Hauptthema von einem kleinen Detail und von einem fremden Fakt.",
-        "Dein Kind erfasst nach und nach sicherer das Wesentliche von Sachtexten."
+        "Das Hauptthema eines Textes mit mehreren Absätzen erkennen",
+        "Erkennen, worum es in einem einzelnen Absatz geht",
+        "Das Hauptthema von einer Einzelheit und von einem verwandten Thema unterscheiden, das nicht im Text steht"
       ]
     },
     "wobble-museum.catch-drift.w-k-2": {

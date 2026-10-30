@@ -3764,25 +3764,25 @@
     },
     "marina-headline-desk.main-topic.ri-2-2": {
       "about": [
-        "Na mesa de manchetes da Marina, uma lontra chamada Marina cuida das notícias do dia. Em cada rodada, você lê (ou ouve, no botão 🔊) um textinho curto de três frases sobre um assunto de verdade — as abelhas, a chuva, os dentes. Depois, você toca na carta que diz do que o texto fala na maior parte. Por exemplo, se o texto conta que as abelhas juntam néctar nas flores e fazem mel, o assunto principal é \"como as abelhas fazem o mel\", e não uma frase solta copiada do texto.",
-        "O assunto principal é o fio que costura o texto inteiro — a ideia que aparece do começo ao fim. Ele é diferente de um detalhe, que é só um pedacinho verdadeiro do texto (como \"elas voam de flor em flor\"), e é bem diferente de um fato de fora, que nem está ali (como \"as aranhas tecem teias\"). Na mesa da Marina, a carta mais parecida com o texto quase sempre é só um detalhe, então é preciso pensar no todo, não na frase mais parecida. Perceber essa diferença ajuda a criança a entender qualquer texto de verdade, e não só a repetir palavras.",
-        "A mesa de manchetes da Marina não pede cadastro nem login. Não tem relógio, não tem pontos e não tem corrida — cada criança vai no seu tempo, sem pressa e sem medo de errar. Quem ainda está aprendendo a ler pode tocar no botão 🔊 e ouvir o texto em voz alta antes de escolher. A atividade segue a BNCC, no eixo de compreensão de textos informativos e identificação do assunto principal, e é pensada para os primeiros anos."
+        "Uma manchete precisa dizer do que um texto trata NA MAIOR PARTE — não um detalhe curioso, nem algo que nem está no texto. A lontra Marina cuida da mesa de notícias, e o grampeador grandão dela confere cada escolha: ele só grampeia as tiras de que a manchete realmente fala.",
+        "O texto fica na mesa em tiras de papel soltas, uma frase em cada tira. A criança coloca um cartão de manchete por cima e aperta o grampeador. O assunto principal junta todas as tiras, e o texto vira primeira página. Um detalhe segura só a própria tira, enquanto as outras voam com o vento do ventilador, e uma manchete sobre um assunto vizinho não segura nenhuma.",
+        "São três níveis: um texto curto de três frases, um texto de dois parágrafos em que a manchete de um só parágrafo deixa metade de fora, e um parágrafo marcado em amarelo, para o qual a criança encontra a manchete certa. Dá para escolher três ou quatro cartões. Depois do segundo erro, as palavras que aparecem em todas as tiras ficam sublinhadas. Sem cronômetro e sem pontos."
       ],
       "practices": [
-        "Ler um texto informativo curto e dizer do que ele trata na maior parte.",
-        "Diferenciar o assunto principal de um detalhe copiado do texto.",
-        "Perceber que um fato de fora não faz parte do texto, mesmo sendo verdade.",
-        "Escolher uma manchete que resume o texto inteiro em poucas palavras."
+        "Encontrar o assunto principal de um texto informativo curto",
+        "Diferenciar o assunto principal de um detalhe",
+        "Encontrar o assunto principal de um texto com dois parágrafos",
+        "Descobrir do que trata um parágrafo"
       ],
       "howToPlay": [
-        "Toque em 📖 para ler o texto de três frases (ou ouça no botão 🔊).",
-        "Pense: do que este texto fala na maior parte?",
-        "Toque na carta que diz o assunto principal — se errar, é só ler de novo com calma."
+        "Leia as tiras na mesa da Marina.",
+        "Toque num cartão de manchete para colocá-lo por cima e depois aperte o grampeador ou Verificar.",
+        "Se algumas tiras voarem, leia o que elas dizem e escolha outra manchete."
       ],
       "learningGoals": [
-        "Eu consigo dizer do que trata um texto na maior parte.",
-        "Eu sei diferenciar o assunto principal de um detalhe pequeno.",
-        "Eu percebo quando um fato não faz parte do texto."
+        "Identificar o assunto principal de um texto com vários parágrafos",
+        "Identificar do que trata um parágrafo dentro de um texto",
+        "Diferenciar o assunto principal de um detalhe e de um assunto parecido que não está no texto"
       ]
     },
     "story-spine.role.rl-k-3": {

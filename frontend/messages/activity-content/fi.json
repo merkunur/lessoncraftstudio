@@ -4000,6 +4000,29 @@
         "Ratkaista vertailu-, yhdistämis- ja poistamistehtäviä diagrammin tietojen avulla.",
         "Lukea diagrammeja, joiden asteikko etenee suuremmin askelin."
       ]
+    },
+    "marina-headline-desk.main-topic.ri-2-2": {
+      "about": [
+        "Otsikon pitää kertoa, mistä juttu PÄÄASIASSA kertoo – ei yhdestä hauskasta yksityiskohdasta eikä jostain, mitä tekstissä ei ole. Saukko Marina hoitaa uutispöytää, ja hänen iso nitojansa tarkistaa jokaisen valinnan: se nitoo kiinni vain ne suikaleet, joista otsikko todella kertoo.",
+        "Juttu on pöydällä irrallisina paperisuikaleina, yksi lause kussakin. Lapsi laittaa otsikkokortin päälle ja painaa nitojaa. Pääaihe pitää kaikki suikaleet koossa, ja jutusta tulee etusivu. Yksityiskohta pitää kiinni vain omasta suikaleestaan, kun muut lentävät tuulettimen puhalluksessa pöydältä, eikä läheisestä aiheesta kertova otsikko pidä kiinni mistään.",
+        "Tasoja on kolme: kolmen lauseen lyhyt teksti, kahden kappaleen juttu, jossa yhden kappaleen otsikko jättää puolet jutusta pois, sekä keltaiseksi korostettu kappale, jolle lapsi etsii oman otsikon. Kortteja voi valita kolme tai neljä. Toisen virheen jälkeen alleviivataan sanat, jotka toistuvat jokaisessa suikaleessa. Ei ajanottoa, ei pisteitä."
+      ],
+      "practices": [
+        "Lyhyen tietotekstin pääaiheen löytäminen",
+        "Pääaiheen erottaminen yksityiskohdasta",
+        "Kahden kappaleen tekstin pääaiheen löytäminen",
+        "Yhden kappaleen aiheen selvittäminen"
+      ],
+      "howToPlay": [
+        "Lue Marinan pöydällä olevat suikaleet.",
+        "Napauta otsikkokorttia, niin se menee päälle, ja paina sitten nitojaa tai Tarkista.",
+        "Jos suikaleita lentää pois, lue, mitä niissä lukee, ja valitse toinen otsikko."
+      ],
+      "learningGoals": [
+        "Useamman kappaleen tekstin pääaiheen tunnistaminen",
+        "Yhden kappaleen aiheen tunnistaminen tekstistä",
+        "Pääaiheen erottaminen yksityiskohdasta ja läheisestä aiheesta, jota tekstissä ei ole"
+      ]
     }
   }
 }

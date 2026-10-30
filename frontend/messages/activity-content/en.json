@@ -2445,25 +2445,25 @@
     },
     "marina-headline-desk.main-topic.ri-2-2": {
       "about": [
-        "At Marina the otter's news desk, a good headline says what a story is mostly about — the child reads a short three-sentence article, like how bees make honey or how a frog grows up, then taps the card that names its main topic. It's an interactive Grade 2 reading activity that plays in the browser, with no account.",
-        "The big idea is finding the main topic, which means seeing the whole point rather than one part. The three cards are built to test it: one states the topic, one is a true detail pulled from the article, and one is off the page entirely — spiders spin webs, camels rarely drink. So the child cannot win by tapping the sentence that 'sounds like the story'; they have to decide what all of it is about, not just one fact it mentions.",
-        "It is aligned to Common Core RI.2.2 — identifying the main topic of a multi-paragraph text. No timer, no score — just calm, playful practice."
+        "A headline has to say what an article is MOSTLY about — not one interesting detail, and not something that is not on the page. Marina the otter runs the news desk, and her big stapler checks each choice: it only staples down the strips a headline is really about.",
+        "The article lies on the desk as loose paper strips, one sentence each. The child puts a headline card on top and presses the stapler. The main topic holds every strip together, and the article becomes a front page. A detail holds just its own strip while the others blow off the desk in the fan's breeze, and a headline about a neighboring topic holds nothing at all.",
+        "There are three levels: a short article of three sentences, a two-paragraph article where one paragraph's headline leaves half the article behind, and one paragraph lit up in yellow, where the child finds the headline for just that paragraph. Choose three or four headline cards. After a second miss, the words that run through every strip are underlined. No timer, no score."
       ],
       "practices": [
-        "Reading a short informational passage for its overall point",
-        "Naming what the whole text is mostly about",
-        "Telling the main topic apart from a single supporting detail",
-        "Rejecting a choice that is off-topic, even if it sounds factual"
+        "Finding the main topic of a short informational text",
+        "Telling the main topic apart from one detail",
+        "Finding the main topic of a text with two paragraphs",
+        "Finding what one paragraph is about"
       ],
       "howToPlay": [
-        "Read Marina's short article all the way through.",
-        "Tap the card that names its main topic — not a small detail, not something off the page — then press Check.",
-        "A warm check confirms a correct choice and offers an easy retry when needed."
+        "Read the strips on Marina's desk.",
+        "Tap a headline card to put it on top, then press the stapler or Check.",
+        "If strips blow away, read what they say and choose another headline."
       ],
       "learningGoals": [
-        "Identify the main topic of an informational text — the focus of Common Core RI.2.2",
-        "Separate the main topic from the details that support it",
-        "Build the comprehension habit of summarizing what a text is about"
+        "Identifying the main topic of a multiparagraph text — the focus of Common Core RI.2.2",
+        "Identifying the focus of one paragraph within a text",
+        "Telling a main topic apart from a detail and from a related topic that is not in the text"
       ]
     },
     "marlo-magnifier.trait-evidence.rl-1-3": {

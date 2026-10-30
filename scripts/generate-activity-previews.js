@@ -135,6 +135,10 @@ function seedScript(row) {
     // the invention at work: the square surprise — three walls from the centre pin, three pieces that look nothing alike, three tubes at the same gold line under the rainbow
     return "(function(){var t=window['RainTableActivity'];if(!t||!t.api)return;t.FAST=true;t.OK_MS=600000;t.api.settings.parts='3';t.api.settings.colour='off';t._pool=null;t._ensurePool();t._start(7,0);t._render2();['p:0','p:8','p:16'].forEach(function(id){t._toggle(id);});t._check();t._view.note='';t._paint();})();";
   }
+  if (row.tool === 'marina-headline-desk-activity') {
+    // the invention at work: the main-topic headline in the slot, the stapler pressed — every strip stapled under it, the front page out
+    return "(function(){var t=window['MarinaHeadlineDeskActivity'];if(!t||!t.api)return;t.FAST=true;t.OK_MS=600000;t.api.settings.level='story';t.api.settings.cards='3';t._pool=null;t._ensurePool();t._start(0,0);t._render2();t._choose(t.st.cards.findIndex(function(c){return c.role==='topic';}));t._check();})();";
+  }
   if (row.tool === 'stamp-sheet-activity') {
     // the invention at work: a 3-by-4 stamp sheet perforated with one line out of place, the press down — true stamps where the squares are true, a torn edge and spare paper where they are not
     return "(function(){var t=window['StampSheetActivity'];if(!t||!t.api)return;var C=window.StampSheetCore;t.FAST=true;t.OK_MS=600000;t.api.settings.board='numbers';t.api.settings.card='rowsOf';t._pool=null;t._ensurePool();t._start(4,0);t._render2();[2,4,7].forEach(function(h){C.toggleCut(t.st,'col',h);});[2,4].forEach(function(h){C.toggleCut(t.st,'row',h);});t._check();t._view.note='';t._paint();})();";

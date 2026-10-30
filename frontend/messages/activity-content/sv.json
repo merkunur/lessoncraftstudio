@@ -4251,6 +4251,29 @@
         "Att räkna pengar genom att räkna vidare från myntet som är värt mest.",
         "Att lösa problem med pengar: betala, ge växel och jämföra summor."
       ]
+    },
+    "marina-headline-desk.main-topic.ri-2-2": {
+      "about": [
+        "En rubrik ska säga vad en artikel MEST handlar om – inte en rolig detalj och inte något som inte står i texten. Uttern Marina sköter nyhetsdesken, och hennes stora häftapparat kontrollerar varje val: den häftar bara fast de remsor som rubriken verkligen handlar om.",
+        "Artikeln ligger på bordet som lösa pappersremsor, en mening på varje. Barnet lägger ett rubrikkort överst och trycker på häftapparaten. Huvudämnet håller ihop alla remsor, och artikeln blir en förstasida. En detalj håller bara fast sin egen remsa medan de andra blåser av bordet i fläktens vind, och en rubrik om ett närliggande ämne håller inte fast någonting.",
+        "Det finns tre nivåer: en kort text på tre meningar, en artikel med två stycken där rubriken för ett enda stycke lämnar halva artikeln kvar, och ett gulmarkerat stycke där barnet hittar rubriken för just det stycket. Man väljer tre eller fyra rubrikkort. Efter andra missen stryks de ord under som finns i alla remsor. Ingen tidtagning, inga poäng."
+      ],
+      "practices": [
+        "Hitta huvudämnet i en kort faktatext",
+        "Skilja huvudämnet från en detalj",
+        "Hitta huvudämnet i en text med två stycken",
+        "Ta reda på vad ett stycke handlar om"
+      ],
+      "howToPlay": [
+        "Läs remsorna på Marinas bord.",
+        "Tryck på ett rubrikkort för att lägga det överst, och tryck sedan på häftapparaten eller på Kontrollera.",
+        "Om remsor blåser iväg, läs vad de säger och välj en annan rubrik."
+      ],
+      "learningGoals": [
+        "Hitta huvudämnet i en text med flera stycken",
+        "Ta reda på vad ett enskilt stycke i en text handlar om",
+        "Skilja huvudämnet från en detalj och från ett närliggande ämne som inte finns i texten"
+      ]
     }
   }
 }

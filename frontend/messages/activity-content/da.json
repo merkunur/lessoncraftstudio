@@ -4001,6 +4001,29 @@
         "Løse opgaver om at sammenligne, lægge sammen og tage væk med data fra et diagram.",
         "Aflæse diagrammer, hvor skalaen tæller i større spring."
       ]
+    },
+    "marina-headline-desk.main-topic.ri-2-2": {
+      "about": [
+        "En overskrift skal sige, hvad en artikel MEST handler om – ikke en sjov detalje og ikke noget, der slet ikke står i teksten. Odderen Marina passer nyhedsbordet, og hendes store hæftemaskine tjekker hvert valg: Den hæfter kun de strimler fast, som overskriften virkelig handler om.",
+        "Artiklen ligger på bordet som løse papirstrimler med én sætning på hver. Barnet lægger et overskriftskort øverst og trykker på hæftemaskinen. Hovedemnet holder alle strimlerne sammen, og artiklen bliver til en forside. En detalje holder kun sin egen strimmel fast, mens de andre blæser ned fra bordet i ventilatorens blæst, og en overskrift om et nabo-emne holder slet ingenting.",
+        "Der er tre niveauer: en kort tekst på tre sætninger, en artikel med to afsnit, hvor overskriften til ét afsnit efterlader halvdelen af artiklen, og ét gult afsnit, som barnet finder overskriften til. Man vælger tre eller fire overskriftskort. Efter andet forkerte forsøg bliver de ord understreget, der går igen i alle strimlerne. Intet ur, ingen point."
+      ],
+      "practices": [
+        "Finde hovedemnet i en kort faktatekst",
+        "Skelne hovedemnet fra en detalje",
+        "Finde hovedemnet i en tekst med to afsnit",
+        "Finde ud af, hvad et afsnit handler om"
+      ],
+      "howToPlay": [
+        "Læs strimlerne på Marinas bord.",
+        "Tryk på et overskriftskort for at lægge det øverst, og tryk så på hæftemaskinen eller på Tjek.",
+        "Hvis strimler blæser væk, så læs, hvad der står på dem, og vælg en anden overskrift."
+      ],
+      "learningGoals": [
+        "Finde hovedemnet i en tekst med flere afsnit",
+        "Finde ud af, hvad et enkelt afsnit i en tekst handler om",
+        "Skelne hovedemnet fra en detalje og fra et beslægtet emne, der ikke står i teksten"
+      ]
     }
   }
 }

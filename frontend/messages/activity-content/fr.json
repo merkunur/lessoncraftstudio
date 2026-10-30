@@ -4153,23 +4153,25 @@
     },
     "marina-headline-desk.main-topic.ri-2-2": {
       "about": [
-        "À la rédaction, Marina la loutre écrit les titres — et un titre doit dire de quoi une histoire parle SURTOUT. Ton enfant lit ou écoute un court article, puis touche la carte qui nomme son sujet principal : pas un petit détail que le texte cite, ni quelque chose qui n'y est pas.",
-        "Trouver le sujet principal d'un texte documentaire et le distinguer d'un simple détail = une compétence de lecture du CE2. Le jeu se joue sans minuteur et sans points : l'enfant lit, compare les cartes et choisit l'idée qui résume tout le texte, dans le domaine « Lecture et compréhension de l'écrit » des programmes officiels de l'école."
+        "Un titre doit dire de quoi un article parle SURTOUT — pas d’un détail amusant, ni de quelque chose qui n’est pas dans le texte. Marina la loutre dirige la rédaction, et sa grande agrafeuse vérifie chaque choix : elle n’agrafe que les bandes dont le titre parle vraiment.",
+        "L’article est posé sur le bureau en bandes de papier, une phrase par bande. L’enfant pose une carte titre dessus et appuie sur l’agrafeuse. Le sujet principal rassemble toutes les bandes, et l’article fait la une. Un détail ne retient que sa propre bande, les autres s’envolent avec le ventilateur, et un titre sur un sujet voisin ne retient rien du tout.",
+        "Il y a trois niveaux : un texte court de trois phrases, un article de deux paragraphes où le titre d’un seul paragraphe laisse la moitié de l’article de côté, et un paragraphe surligné en jaune dont l’enfant trouve le titre. On choisit trois ou quatre cartes titres. Après une deuxième erreur, les mots qui reviennent dans chaque bande sont soulignés. Pas de chronomètre, pas de score."
       ],
       "practices": [
-        "Trouver le sujet principal d'un texte",
-        "Distinguer le sujet d'un simple détail",
-        "Lire un court texte documentaire",
-        "Écarter une carte hors-sujet"
+        "Trouver le sujet principal d’un court texte documentaire",
+        "Distinguer le sujet principal d’un détail",
+        "Trouver le sujet principal d’un texte de deux paragraphes",
+        "Trouver de quoi parle un paragraphe"
       ],
       "howToPlay": [
-        "Lis ou écoute le petit article.",
-        "Touche la carte qui dit de quoi ça parle surtout."
+        "Lis les bandes posées sur le bureau de Marina.",
+        "Touche une carte titre pour la poser dessus, puis appuie sur l’agrafeuse ou sur Vérifier.",
+        "Si des bandes s’envolent, relis-les et choisis un autre titre."
       ],
       "learningGoals": [
-        "Identifier le sujet principal d'un texte",
-        "Distinguer l'essentiel d'un détail",
-        "Comprendre un court texte documentaire"
+        "Identifier le sujet principal d’un texte de plusieurs paragraphes",
+        "Identifier de quoi parle un paragraphe dans un texte",
+        "Distinguer le sujet principal d’un détail et d’un sujet voisin absent du texte"
       ]
     },
     "linc-fact-chain.connect.ri-k-3": {

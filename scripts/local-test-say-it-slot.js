@@ -151,7 +151,7 @@ const G = 'SayItSlotActivity', sp = H.sp;
     await go(page, '1', 0, 'endless'); s = await S(page);
     is((await cloth(page, 'supply')).length === C.kinds(fam).length, tag + ' endless: one pile per coin');
     { const c = (await cloth(page, 'supply')).filter((x) => x.v < s.round.price).sort((a, b) => b.v - a.v)[0]; await dropBy(page, c.id, c.v); s = await S(page); is(s.box.length === 1 && (await cloth(page, 'supply')).length === C.kinds(fam).length, tag + ' endless: a pile is never used up'); }
-    is(await page.evaluate(() => document.querySelectorAll('.si-cloth .si-coinsvg text').length) === (loc === 'en' ? 0 : C.kinds(fam).length), tag + ' coin faces: ' + (loc === 'en' ? 'no numerals (US coins)' : 'the worth numerals'));
+    is(await page.evaluate(() => document.querySelectorAll('.si-cloth .si-coinsvg text').length) === C.kinds(fam).length, tag + ' coin faces: the worth numerals (the US coins too)');
     await go(page, '1', 0); s = await S(page);
     { const c = (await cloth(page)).filter((x) => x.v < s.round.price).sort((a, b) => b.v - a.v)[0];
       await page.focus('[data-k="coin-' + c.id + '"]'); await page.keyboard.press('Enter');

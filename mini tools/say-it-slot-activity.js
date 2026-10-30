@@ -228,7 +228,7 @@ var SayItSlotActivity = {
     if (!this._picsReady || typeof LCSPictures === 'undefined' || !this._themes[theme]) { var d = this.api.el('div', cls + ' si-picwait'); d.style.width = size + 'px'; d.style.height = size + 'px'; return d; }
     var im = LCSPictures.img(this._themes[theme], noun, loc, { size: size }); im.className = cls; im.style.width = size + 'px'; im.style.height = size + 'px'; return im;
   },
-  /* a coin, true to size: metal, rim, reeded edge, centre hole; the worth numeral on every coin except the US ones (they carry none) — a ghost of it on a second miss */
+  /* a coin, true to size: metal, rim, reeded edge, centre hole; the worth numeral on every coin, the US ones too (operator ruling 2026-10-30) */
   _coinSvg: function (v, px, opt) {
     opt = opt || {};
     var c = SayItSlotCore.coin(this._fam(), v), loc = this._loc();
@@ -244,7 +244,7 @@ var SayItSlotActivity = {
     }
     if (c.hole) o += '<circle cx="50" cy="50" r="12" fill="#FFF8E7" stroke="' + (M[c.metal] || M.silver)[1] + '" stroke-width="2"/>';
     var num = v >= 100 ? String(v / 100) : String(v);
-    if (loc !== 'en' || opt.ghost) o += '<text x="50" y="' + (c.hole ? 23 : 50) + '" dy=".35em" text-anchor="middle" class="si-coinnum' + (loc === 'en' ? ' is-ghost' : '') + '" font-size="' + (c.hole ? 22 : 38) + '">' + num + '</text>';
+    o += '<text x="50" y="' + (c.hole ? 23 : 50) + '" dy=".35em" text-anchor="middle" class="si-coinnum" font-size="' + (c.hole ? 22 : 38) + '">' + num + '</text>';
     return o + '</svg>';
   },
   _coinPx: function (v) { return Math.round(SayItSlotCore.coin(this._fam(), v).d * this._g.k); },

@@ -2724,7 +2724,7 @@
     "money.count-out.2-md-c-8": {
       "about": [
         "Counting a handful of coins means counting on: 25, 35, 40, 41. Most coin games add the money up for the child and show a running total, so the child only watches a number climb. Count Out the Money takes the adding off the screen and puts it in the child's hands.",
-        "The bakery's coin box has a slot, a counter with number wheels and a price pin. A coin drops in only when the child has already turned the counter to what the box will hold with that coin inside; any other number flips the coin back out. The wheels stop at the price pin, so paying too much cannot happen, and the coins come from a real purse, so a child who spends the small coins first can be left with coins that no longer fit. The coins are drawn true to the real coins' sizes and metals, and the US coins carry no numbers, just like the real ones.",
+        "The bakery's coin box has a slot, a counter with number wheels and a price pin. A coin drops in only when the child has already turned the counter to what the box will hold with that coin inside; any other number flips the coin back out. The wheels stop at the price pin, so paying too much cannot happen, and the coins come from a real purse, so a child who spends the small coins first can be left with coins that no longer fit. The coins are drawn true to the real coins' sizes and metals, each with its worth on it.",
         "Three levels: pay an exact price; pay it with the fewest coins; then top up the coins already in the box, or count two trays to find which holds more money. A wrong count shows the child's number and rolls the wheels back; a second shows the count-on step by step. No timer, no score."
       ],
       "practices": [
@@ -2748,7 +2748,7 @@
     "money.make-change.2-md-c-8": {
       "about": [
         "Change is the part of the customer's money that is not the price. Children who are still learning it often hand back the price itself, or count coins instead of their worth. Make Change with Coins shows change as what it is: money taken out of the customer's own payment.",
-        "The customer's payment goes into Pip's change box, which rattles and pours out the same money in small coins. The child taps the change into the customer's tray; whatever is left belongs to Pip. At Check, Pip counts his coins onto the price tag: he comes up short if too much went back, and goes past the price if too little did. Pip's count is the only total on the screen, and it appears only at Check. The coins are drawn true to the real coins' sizes, and the US coins carry no numerals, just like the real ones.",
+        "The customer's payment goes into Pip's change box, which rattles and pours out the same money in small coins. The child taps the change into the customer's tray; whatever is left belongs to Pip. At Check, Pip counts his coins onto the price tag: he comes up short if too much went back, and goes past the price if too little did. Pip's count is the only total on the screen, and it appears only at Check. The coins are drawn true to the real coins' sizes, each with its worth on it.",
         "Four shops: give change; decide whether a purse holds enough and add what it still needs; buy two or three toys and give change; or all of them mixed. After a second miss the count runs up from the price to the payment, and the change coins are outlined in the pile. The \"as you go\" setting shows Pip's count all the time, for a first lesson. No timer, no score."
       ],
       "practices": [

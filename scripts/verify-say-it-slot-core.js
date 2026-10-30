@@ -282,10 +282,10 @@ is(!/\.counter\s*=[^=]/.test(src), 'the activity never writes the counter itself
     b._paint = () => {}; b._success = function () { line = this._t(this._okKey(), this._args()); };
     for (const v of desc(sb.round.purse)) { const gap = sb.round.price - C.inBox(sb); if (v > gap) continue; const cc = C.where(sb, 'cloth').find((x) => x.v === v); sb.counter = C.inBox(sb) + v; b._drop(cc.id); if (sb.done) break; }
     is(sb.done && line.indexOf(sb.said.map((x) => b._money(x)).join(', ')) >= 0 && !/\{\w+\}/.test(line) && !/kr\.\./.test(line), '[' + loc + '] success names the child\'s own chain: ' + line);
-    /* coin faces: none on the US coins, the worth numeral elsewhere */
+    /* coin faces: the worth numeral on every coin, the US ones too (operator ruling 2026-10-30) */
     const face = a._coinSvg(C.kinds(LOCFAM[loc])[0], 40);
-    is(loc === 'en' ? !/<text/.test(face) : /<text/.test(face), '[' + loc + '] coin faces: ' + (loc === 'en' ? 'no numeral, like the real US coins' : 'the worth numeral'));
-    is(/<text[^>]*is-ghost/.test(a._coinSvg(10, 40, { ghost: true })) === (loc === 'en'), '[' + loc + '] the ghost numeral appears only on the en second miss');
+    is(/<text[^>]*>[\d.]+<\/text>/.test(face),'[' + loc + '] coin faces: the worth numeral (the US coins too)');
+    is(!/is-ghost/.test(a._coinSvg(C.kinds(LOCFAM[loc])[0], 40)), '[' + loc + '] the numeral is drawn full, never a pale ghost');
   }
   /* the compare hint: «more coins is not always more money» only when the wrongly picked tray holds MORE coins */
   for (const loc of LOC) for (const k of [6, 7]) {

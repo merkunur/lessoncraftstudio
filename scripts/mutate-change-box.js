@@ -23,7 +23,7 @@ const M = [
   ['enough always yes', 'core', "function enoughAnswer(r) { return sum(r.purse) >= r.price ? 'yes' : 'no'; }", "function enoughAnswer(r) { return 'yes'; }"],
   ['nl/fi coins with 1 c and 2 c', 'core', 'EURR: EUR.filter(function (c) { return c.v >= 5; }),', 'EURR: EUR.slice(),'],
   ['the SEK 50-pile with a 20 kr coin', 'core', "fam === 'SEK' ? [10, 10, 10, 10, 5, 2, 2, 1]", "fam === 'SEK' ? [20, 10, 10, 5, 2, 2, 1]"],
-  ['en coins with numerals', 'act', "if (loc !== 'en') o += '<text", "if (true) o += '<text"],
+  ['en coins without numerals', 'act', "    o += '<text", "    if (loc !== 'en') o += '<text"],
   /* the rest of the model */
   ['the count-up starts from 0, not the price', 'core', "return { start: r.price, ids: ids, steps: count(ix ? ix.map(function (i) { return pileC[i].v; }) : [], r.price), end: paid(r) };", "return { start: 0, ids: ids, steps: count(ix ? ix.map(function (i) { return pileC[i].v; }) : [], 0), end: paid(r) };"],
   ['Check again unchanged counts a miss', 'core', "if (st.verdict) return { result: 'note', key: 'hintAgain' };", ''],

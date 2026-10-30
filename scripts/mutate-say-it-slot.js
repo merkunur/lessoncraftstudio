@@ -28,7 +28,7 @@ const M = [
   ['nl/fi get the 1 c coin back', 'core', 'EURR: EUR.filter(function (c) { return c.v >= 5; }),', 'EURR: EUR.slice(),'],
   ['sv gets a 20 kr coin', 'core', "SEK: [C(1, 19.5, 'silver'), C(2, 22.5, 'silver'), C(5, 23.75, 'gold'), C(10, 20.5, 'gold')],", "SEK: [C(1, 19.5, 'silver'), C(2, 22.5, 'silver'), C(5, 23.75, 'gold'), C(10, 20.5, 'gold'), C(20, 25, 'gold')],"],
   ['pt gets a 1-centavo coin', 'core', "BRL: [C(5, 22, 'copper'),", "BRL: [C(1, 17, 'copper'), C(5, 22, 'copper'),"],
-  ['the US coins drawn with their numeral', 'act', "if (loc !== 'en' || opt.ghost) o +=", 'if (true) o +='],
+  ['the US coins drawn without their numeral', 'act', "o += '<text x=\"50\" y=\"' + (c.hole ? 23", "if (loc !== 'en') o += '<text x=\"50\" y=\"' + (c.hole ? 23"],
   ['compare R8 swapped to more-coins-lose', 'core', 'K(cat(X(8, 1), [5, 5]), [10, 10]), K([10, 10, 10], [25])],\n    EURF', 'K(cat(X(8, 1), [5, 5]), [10, 10]), K([10, 10], [25])],\n    EURF'],
   ['endless mode uses up its coins', 'core', "if (c.at === 'supply') { inC =", 'if (false) { inC ='],
   ['the miss-2 count-on leaves the wheels on the answer', 'act', 'this._later(function () { v.show = null; if (self._wrap) self._paint(); }, this.FAST ? 10 : 350 * (steps.length + 2));', 'v.show = steps[steps.length - 1];'],

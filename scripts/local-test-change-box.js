@@ -11,7 +11,7 @@
        starts at the price, the fewest change coins are outlined; those
        coins tapped into the tray → success, the success line, Next 0.5 s;
      · no running total before Check; "as you go" shows Pip's live count
-       and it follows the taps; the US coins carry no numeral;
+       and it follows the taps; every coin carries its worth numeral;
      · basket: two or three different toys and tags, the change by real
        taps → okBasket; enough: the wrong tag → the hint naming the right
        answer, the right tag → success; how much more: Check with nothing
@@ -54,7 +54,7 @@ const ways = (target, coins) => { const out = []; const n = coins.length; for (l
     await L.click(page, 'check', 'check');
     is(sp(await note(page)) === sp(T(loc, 'hintTrayEmpty')) && (await S(page)).misses === 0, tag + ' an empty tray → hintTrayEmpty, no miss');
     is(await page.evaluate(() => document.querySelectorAll('.cb-pile .cb-coin').length) === r.pile.length && await page.evaluate(() => !document.querySelector('.cb-rail') || getComputedStyle(document.querySelector('.cb-rail')).display === 'none'), tag + ' the pile = the payment\'s ' + r.pile.length + ' coins; no count shown before Check');
-    if (loc === 'en') is(await page.evaluate(() => document.querySelectorAll('.cb-pile svg text').length) === 0, tag + ' US coins carry no numeral');
+    is(await page.evaluate(() => document.querySelectorAll('.cb-pile svg text').length) === r.pile.length, tag + ' every coin carries its worth numeral (the US coins too)');
     const small = Math.min(...r.pile), allButSmall = r.pile.slice().sort((a, b) => b - a); allButSmall.splice(allButSmall.lastIndexOf(small), 1);
     await give(page, allButSmall);
     await L.click(page, 'check', 'check'); s = await S(page);

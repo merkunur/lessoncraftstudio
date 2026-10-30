@@ -234,7 +234,7 @@ var ChangeBoxActivity = {
     if (!this._picsReady || typeof LCSPictures === 'undefined' || !this._themes[theme]) { var d = this.api.el('div', cls + ' cb-picwait'); d.style.width = size + 'px'; d.style.height = size + 'px'; return d; }
     var im = LCSPictures.img(this._themes[theme], noun, loc, { size: size }); im.className = cls; im.style.width = size + 'px'; im.style.height = size + 'px'; return im;
   },
-  /* a coin, true to size (no numeral on the US coins, like the real ones); a note: a rectangle with its numeral and sign only */
+  /* a coin, true to size, its worth numeral on it (the US coins too, operator ruling 2026-10-30); a note: a rectangle with its numeral and sign only */
   _coinSvg: function (v, px, note) {
     var C = ChangeBoxCore, fam = this._fam(), loc = this._loc();
     if (note) {
@@ -254,7 +254,7 @@ var ChangeBoxActivity = {
     }
     if (c.hole) o += '<circle cx="50" cy="50" r="12" fill="#FFF8E7" stroke="' + (M[c.metal] || M.silver)[1] + '" stroke-width="2"/>';
     var num = v >= 100 ? String(v / 100) : String(v);
-    if (loc !== 'en') o += '<text x="50" y="' + (c.hole ? 23 : 50) + '" dy=".35em" text-anchor="middle" class="cb-coinnum" font-size="' + (c.hole ? 22 : 38) + '">' + num + '</text>';
+    o += '<text x="50" y="' + (c.hole ? 23 : 50) + '" dy=".35em" text-anchor="middle" class="cb-coinnum" font-size="' + (c.hole ? 22 : 38) + '">' + num + '</text>';
     return o + '</svg>';
   },
   _coinPx: function (v) { return Math.round(ChangeBoxCore.coin(this._fam(), v).d * this._g.k); },

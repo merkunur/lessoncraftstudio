@@ -20,7 +20,7 @@
        miss 2 = the count-up (the fewest change coins from the pile, from
        the price to the payment); the plan (incl. a stuck random source);
      · the activity layer in node: no running total before Check, the live
-       setting shows Pip's count, en coins carry no numeral, the success
+       setting shows Pip's count, every coin carries its numeral, the success
        and help lines, no 0 on the enough count;
      · the strings (11 locales, placeholders, no "free"), the manifest row.
    Env overrides (the mutation script): CB_CORE, CB_ACT, CB_MAN.
@@ -206,7 +206,7 @@ for (const loc of LOC) {
   { const z = mk(loc, 'change', 0); C.where(z.st, 'pile').forEach((c) => C.move(z.st, c.id)); z._check();
     is(z._view.note === z._t('hintNothing', z._args()) && !/(^|[^\d,])0(?![\d,])/.test(z._view.note), '[' + loc + '] everything given back → hintNothing, no «0»: ' + z._view.note); }
   /* coin faces */
-  is(loc === 'en' ? !/<text/.test(a._coinSvg(10, 40)) : /<text/.test(a._coinSvg(C.kinds(LOCFAM[loc])[2], 40)), '[' + loc + '] coin faces: ' + (loc === 'en' ? 'no numeral (US coins)' : 'the worth numeral'));
+  is(/<text/.test(a._coinSvg(C.kinds(LOCFAM[loc])[2], 40)), '[' + loc + '] coin faces: the worth numeral (the US coins too)');
 }
 { const de = mk('de', 'change', 3); is(de._money(175) === '1 € 75 ct' && de._dec(175) === ' (1,75 €)' && de._money(200) === '2 €' && de._dec(200) === '', 'de: «1 € 75 ct (1,75 €)», «2 €»');
   const pt = mk('pt', 'change', 6); is(pt._money(135) === '1 real e 35 centavos' && pt._money(200) === '2 reais' && pt._dec(135) === ' (R$ 1,35)', 'pt: «1 real e 35 centavos (R$ 1,35)», «2 reais»');

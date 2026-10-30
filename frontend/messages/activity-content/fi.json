@@ -959,25 +959,26 @@
     },
     "fractions.make-and-count-squares.2-g-a-2": {
       "about": [
-        "Tässä tehtävässä lapsi napauttaa pisteviivoja jakaakseen suorakulmion samankokoisten neliöiden riveihin ja sarakkeisiin — 2 riviä ja 3 saraketta, 3 riviä ja 4 saraketta, aina 4 riviin ja 5 sarakkeeseen asti — ja kirjoittaa sitten, montako neliötä on yhteensä. Tämä on vuorovaikutteinen 2. luokan geometriaharjoitus, joka toimii selaimessa millä tahansa laitteella ilman asennusta ja ilman tiliä.",
-        "Tärkein ajatus on, että suorakulmio voidaan jakaa samankokoisiin neliöihin, jotka asettuvat siisteihin riveihin ja sarakkeisiin, ja että tämä rakenne auttaa laskemaan ne. Kun lapsi rakentaa ruudukon itse ja laskee sitten neliöt, hän alkaa tuntea, että 3 riviä, joissa kussakin on 4 neliötä, tarkoittaa laskemista yhtä suurissa ryhmissä — se on hiljainen alku ruudukoille ja kertolaskulle. Neliöt ovat tarkoituksella saman kokoiset, joten lukumäärä on todellinen yhtä suurten osien yhteismäärä.",
-        "Harjoitus on OPS 2014:n mukainen geometrian osa-alueella: lapsi jakaa suorakulmion samankokoisten neliöiden riveihin ja sarakkeisiin ja laskee neliöiden kokonaismäärän. Ei ajastinta eikä pisteitä — vain rauhallista ja leikkisää harjoittelua."
+        "Lapsi voi vetää viivoja suorakulmion poikki saamatta silti neliöitä: silmämääräisesti vedetyt viivat tekevät erikokoisia paloja, ja neljä viivaa neljää saraketta varten tekee viisi kapeaa. Postimerkkiarkissa paperi itse näyttää, mikä meni pieleen.",
+        "Suorakulmio on postimerkkiarkki. Pieni rei’itysratas kulkee yläreunan kiskolla ja toisella kiskolla vasemmalla. Kiskoissa on lovi jokaisen puolen ruudun kohdalla, ja kaikki lovet näyttävät samanlaisilta, joten ne eivät koskaan paljasta, missä ruudut ovat. Jokainen lapsen tekemä reikäviiva kulkee reunasta reunaan. Tarkistettaessa painokone painaa neliönmuotoisen laattansa jokaiseen palaan: oikeasta neliöstä tulee täydellinen postimerkki, liian kapea pala saa repeytyneen reunan ja liian ison palan ympärille jää ylimääräistä paperia.",
+        "Kun kaikki postimerkit on painettu täydellisesti, lapsi laskee ne ja kirjoittaa, montako niitä on. Kortti näyttää suunnitelman riveinä, yhteenlaskuna kuten 4 + 4 + 4 tai kertolaskuna kuten 3 · 4, ja toisella pelilaudalla kysytään, mikä kolmesta valmiista arkista vastaa korttia. Toisen virheen jälkeen pisteviivaruudut näyttävät, mihin viivat kuuluvat, tai jokainen rivi saa välisummansa. Ei kelloa, ei pisteitä."
       ],
       "practices": [
-        "Jakaa suorakulmion yhtä suuriin riveihin ja sarakkeisiin samankokoisista neliöistä.",
-        "Rakentaa ruudukon napauttamalla jakoviivoja.",
-        "Laskee neliöt selvittääkseen suorakulmion kokonaismäärän.",
-        "Huomaa rivien ja sarakkeiden rakenteen, joka johdattaa kohti ruudukoita."
+        "Suorakulmion jakaminen samankokoisten ruutujen riveiksi ja sarakkeiksi",
+        "Viivojen asettaminen niin, että jokainen pala on sama neliö",
+        "Ruutujen laskeminen rivi kerrallaan kokonaismäärän löytämiseksi",
+        "Ruudukon lukeminen riveinä, toistettuna yhteenlaskuna ja kertolaskuna"
       ],
       "howToPlay": [
-        "Napauta pisteviivoja muodostaaksesi rivejä ja sarakkeita samankokoisista neliöistä.",
-        "Rakenna ruudukko, jota tehtävä pyytää, esimerkiksi 3 riviä ja 4 saraketta.",
-        "Kirjoita, montako neliötä on yhteensä — ei ajastinta eikä pisteitä."
+        "Napauta ylä- tai vasenta kiskoa, niin ratas siirtyy lovelle, tai vedä ratasta kiskoa pitkin.",
+        "Jokainen reikäviiva jakaa arkin; napauta viivaa uudelleen, niin se umpeutuu.",
+        "Paina Tarkista: painokone painaa postimerkin jokaiseen palaan. Kun kaikki on painettu täydellisesti, kirjoita, montako postimerkkiä on.",
+        "Arkkia valitessa napauta korttia vastaavaa arkkia ja paina Tarkista."
       ],
       "learningGoals": [
-        "Lapsi jakaa suorakulmion samankokoisiin neliöihin ja laskee kokonaismäärän.",
-        "Lapsi näkee suorakulmion riveinä ja sarakkeina yhtä suuria osia.",
-        "Lapsi rakentaa ruudukkopohjaa, joka valmistaa kertolaskuun."
+        "Suorakulmion jakaminen samankokoisten ruutujen riveiksi ja sarakkeiksi ja niiden laskeminen.",
+        "Huomata, että yhtä pitkät rivit voi laskea lisäämällä samaa lukua yhä uudelleen.",
+        "Ruudukon yhdistäminen riveihin, yhteenlaskuun ja kertolaskuun."
       ]
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {

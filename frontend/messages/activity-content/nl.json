@@ -3267,25 +3267,26 @@
     },
     "fractions.make-and-count-squares.2-g-a-2": {
       "about": [
-        "Je kind tikt op de stippellijnen om een rechthoek te verdelen in rijen en kolommen van even grote vierkanten — 2 rijen en 3 kolommen, 3 rijen en 4 kolommen, tot wel 4 rijen en 5 kolommen — en typt daarna in hoeveel vierkanten het er samen zijn. Het is een interactieve meetkunde-activiteit voor groep 4 die in de browser op elk apparaat werkt, zonder iets te installeren en zonder account.",
-        "Het grote idee is dat een rechthoek in gelijke vierkanten kan worden verdeeld, netjes in rijen en kolommen, en dat die opbouw helpt om ze te tellen. Doordat je kind het rooster zelf maakt en daarna telt, gaat het voelen dat 3 rijen van 4 vierkanten tellen in gelijke groepen betekent — het rustige begin van roosters en vermenigvuldigen. De vierkanten zijn met opzet allemaal even groot, zodat 'hoeveel' een echt totaal van gelijke delen is.",
-        "De activiteit sluit aan bij de SLO-kerndoelen binnen het domein meetkunde: een rechthoek verdelen in rijen en kolommen van even grote vierkanten en tellen hoeveel het er in totaal zijn. Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Een kind kan lijnen door een rechthoek trekken en toch geen vierkanten krijgen: op het oog getrokken lijnen geven stukken van verschillende grootte, en vier lijnen voor vier kolommen geven er vijf dunne. Bij het postzegelvel laat het papier zelf zien wat er misging.",
+        "De rechthoek is een vel postzegels. Een klein perforatiewieltje rijdt over een rail bovenaan en over een andere links. De rails hebben bij elk half vierkant een inkeping en alle inkepingen zien er hetzelfde uit, dus ze verraden nooit waar de vierkanten zitten. Elke lijn van gaatjes die het kind maakt loopt van rand tot rand. Bij Controleer drukt de pers zijn vierkante plaat in elk stuk: een echt vierkant geeft een perfecte postzegel, een te smal stuk krijgt een gescheurde rand en rond een te groot stuk blijft papier over.",
+        "Als alle postzegels precies gedrukt zijn, telt het kind ze en typt het aantal. Een kaart toont het plan als rijen van een getal, als optelsom zoals 4 + 4 + 4 of als keersom zoals 3 × 4, en een ander speelbord vraagt welk van drie afgemaakte vellen bij de kaart past. Na een tweede misser laten gestippelde vierkanten zien waar de lijnen horen, of krijgt elke rij zijn tussentotaal. Geen klok, geen punten."
       ],
       "practices": [
-        "Een rechthoek verdelen in gelijke rijen en kolommen van even grote vierkanten",
-        "Een rooster bouwen door op de scheidingslijnen te tikken",
-        "De vierkanten tellen om het totaal in de rechthoek te vinden",
-        "De opbouw van rijen en kolommen opmerken die naar roosters leidt"
+        "Een rechthoek verdelen in rijen en kolommen van even grote vierkanten",
+        "De lijnen zo zetten dat elk stuk hetzelfde vierkant is",
+        "De vierkanten rij voor rij tellen om het totaal te vinden",
+        "Een rooster lezen als rijen van een getal, als herhaald optellen en als keersom"
       ],
       "howToPlay": [
-        "Tik op de stippellijnen om rijen en kolommen van gelijke vierkanten te maken.",
-        "Bouw het rooster dat de ronde vraagt, zoals 3 rijen en 4 kolommen.",
-        "Typ in hoeveel vierkanten het er samen zijn — er is geen timer en geen score."
+        "Tik op de bovenste of de linker rail om het wieltje naar een inkeping te sturen, of sleep het wieltje langs de rail.",
+        "Elke lijn van gaatjes verdeelt het vel; tik op een lijn van gaatjes om hem weer weg te halen.",
+        "Druk op Controleer: de pers drukt een postzegel in elk stuk. Als ze allemaal precies gedrukt zijn, typ je hoeveel postzegels het zijn.",
+        "Bij het kiezen tik je op het vel dat bij de kaart past en druk je op Controleer."
       ],
       "learningGoals": [
-        "Het kind verdeelt een rechthoek in even grote vierkanten en telt het totaal.",
-        "Het kind ziet een rechthoek als rijen en kolommen van gelijke delen.",
-        "Het kind bouwt de roosterbasis die het voorbereidt op vermenigvuldigen."
+        "Een rechthoek verdelen in rijen en kolommen van even grote vierkanten en ze tellen.",
+        "Zien dat je gelijke rijen kunt tellen door steeds hetzelfde getal erbij te doen.",
+        "Een rooster van vierkanten koppelen aan rijen van een getal, aan een optelsom en aan een keersom."
       ]
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {

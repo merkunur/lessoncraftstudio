@@ -1443,25 +1443,26 @@
     },
     "fractions.make-and-count-squares.2-g-a-2": {
       "about": [
-        "Barnet trykker på de stiplede linjene for å dele et rektangel i rader og kolonner med like store kvadrater — 2 rader og 3 kolonner, 3 rader og 4 kolonner, opp til 4 rader og 5 kolonner — og skriver deretter hvor mange kvadrater det er til sammen. Det er en interaktiv geometriaktivitet for 2. trinn som kjører i nettleseren på alle enheter, uten noe å installere og uten konto.",
-        "Den store ideen er at et rektangel kan deles i like store kvadrater som ligger i ryddige rader og kolonner, og at akkurat denne strukturen hjelper deg å telle dem. Fordi barnet lager rutenettet selv og deretter teller, begynner det å kjenne at 3 rader med 4 kvadrater betyr å telle med like store grupper — den stille starten på rutenett og multiplikasjon. Alle kvadratene er like store med vilje, så «hvor mange» blir en ekte total av like store deler.",
-        "Aktiviteten er tilpasset kompetansemålene i matematikk for 2. trinn i LK20 — å dele et rektangel i rader og kolonner med like store kvadrater og telle hvor mange det er til sammen. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving."
+        "Et barn kan tegne streker gjennom et rektangel og likevel ikke få kvadrater: streker satt på øyemål gir biter i forskjellig størrelse, og fire streker til fire kolonner gir fem tynne. På frimerkearket viser papiret selv hva som gikk galt.",
+        "Rektangelet er et ark frimerker. Et lite perforeringshjul kjører på en skinne øverst og på en annen til venstre. Skinnene har et hakk ved hver halve rute, og alle hakkene ser like ut, så de røper aldri hvor rutene er. Hver hullinje barnet lager, går fra kant til kant. Når man sjekker, trykker pressen den firkantede platen sin ned i hver bit: en ekte rute gir et perfekt frimerke, en for smal bit får en revet kant, og rundt en for stor bit blir det papir til overs.",
+        "Når alle frimerkene er trykt helt riktig, teller barnet dem og skriver hvor mange det er. Et kort viser planen som rader med et tall, som et plusstykke som 4 + 4 + 4 eller som et gangestykke som 3 · 4, og et annet spillebrett spør hvilket av tre ferdige ark som passer til kortet. Etter to feil viser prikkede ruter hvor strekene skal gå, eller hver rad får sin delsum. Ingen klokke, ingen poeng."
       ],
       "practices": [
-        "Dele et rektangel i like store rader og kolonner med kvadrater.",
-        "Lage et rutenett ved å trykke på delelinjene.",
-        "Telle kvadratene for å finne totalen i rektangelet.",
-        "Legge merke til rad- og kolonnestrukturen som leder mot rutenett og multiplikasjon."
+        "Dele et rektangel i rader og kolonner av like store ruter",
+        "Sette strekene slik at hver bit blir den samme ruten",
+        "Telle rutene rad for rad for å finne antallet",
+        "Lese et rutemønster som rader med et tall, som gjentatt addisjon og som multiplikasjon"
       ],
       "howToPlay": [
-        "Trykk på de stiplede linjene for å lage rader og kolonner med like store kvadrater.",
-        "Bygg det rutenettet runden ber om, for eksempel 3 rader og 4 kolonner.",
-        "Skriv hvor mange kvadrater det er til sammen — det er ingen tidtaker og ingen poeng."
+        "Trykk på den øverste eller den venstre skinnen for å sende hjulet til et hakk, eller dra hjulet langs skinnen.",
+        "Hver hullinje deler arket; trykk på en linje igjen for å lukke den.",
+        "Trykk på Sjekk: pressen trykker et frimerke i hver bit. Når alle er trykt helt riktig, skriver du hvor mange frimerker det er.",
+        "Når du velger ark, trykker du på det som passer til kortet, og så på Sjekk."
       ],
       "learningGoals": [
-        "Barnet kan dele et rektangel i like store kvadrater og telle totalen.",
-        "Barnet kan se et rektangel som rader og kolonner med like store deler.",
-        "Barnet bygger grunnlaget for rutenett som forbereder det på multiplikasjon."
+        "Dele et rektangel i rader og kolonner av like store ruter og telle dem.",
+        "Se at like lange rader kan telles ved å legge til det samme tallet igjen og igjen.",
+        "Koble et rutemønster til rader med et tall, til et plusstykke og til et gangestykke."
       ]
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {

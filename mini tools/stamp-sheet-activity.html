@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Stamp Sheet — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=21">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- Shell, the stamp-sheet core, then this activity (#170 The Stamp Sheet).
+       NOTE: bump ?v=N on EVERY change to stamp-sheet-*.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  <script src="/mini-tools/stamp-sheet-core.js?v=1"></script>
+  <script src="/mini-tools/stamp-sheet-activity.js?v=1"></script>
+  <script>
+    LCS.mount(StampSheetActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

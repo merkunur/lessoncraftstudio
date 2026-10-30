@@ -506,25 +506,26 @@
     },
     "fractions.make-and-count-squares.2-g-a-2": {
       "about": [
-        "Barnet trykker på de stiplede linjer for at dele et rektangel op i rækker og kolonner med lige store kvadrater — 2 rækker og 3 kolonner, 3 rækker og 4 kolonner og videre op til 4 rækker og 5 kolonner — og skriver så, hvor mange kvadrater der er i alt. Det er en interaktiv geometriaktivitet til 2. klasse, der kører i browseren på enhver enhed, uden noget at installere og uden konto.",
-        "Den store idé er, at et rektangel kan deles op i lige store kvadrater, der ligger i pæne rækker og kolonner, og at netop rækker-og-kolonner-strukturen hjælper med at tælle dem. Fordi barnet selv laver gitteret og bagefter tæller, begynder det at mærke, at 3 rækker med 4 kvadrater betyder, at man kan tælle i lige store grupper — den stille begyndelse på gitre og gange. Kvadraterne er med vilje lige store, så \"hvor mange\" bliver et ægte antal af lige store dele.",
-        "Aktiviteten er tilpasset Fælles Mål for matematik i indskolingen: at dele et rektangel op i rækker og kolonner med lige store kvadrater og tælle dem for at finde det samlede antal. Der er ingen tid og ingen point — bare rolig, legende træning."
+        "Et barn kan tegne streger hen over et rektangel og alligevel ikke få kvadrater: streger sat på øjemål giver stykker i forskellig størrelse, og fire streger til fire kolonner giver fem tynde. På frimærkearket viser papiret selv, hvad der gik galt.",
+        "Rektanglet er et ark frimærker. Et lille perforeringshjul kører på en skinne foroven og på en anden til venstre. Skinnerne har et hak ved hvert halve felt, og alle hakkene ser ens ud, så de afslører aldrig, hvor felterne er. Hver hullinje, barnet laver, går fra kant til kant. Når man tjekker, trykker pressen sin firkantede plade ned i hvert stykke: et rigtigt kvadrat giver et perfekt frimærke, et for smalt stykke får en flænset kant, og omkring et for stort stykke bliver der papir tilovers.",
+        "Når alle frimærker er trykt helt rigtigt, tæller barnet dem og skriver, hvor mange der er. Et kort viser planen som rækker med et tal, som et plusstykke som 4 + 4 + 4 eller som et gangestykke som 3 · 4, og en anden spilleplade spørger, hvilket af tre færdige ark der passer til kortet. Efter to fejl viser prikkede felter, hvor stregerne skal gå, eller hver række får sin mellemsum. Intet ur, ingen point."
       ],
       "practices": [
-        "Dele et rektangel op i lige store rækker og kolonner med ens kvadrater",
-        "Bygge et gitter ved at trykke på delelinjerne",
-        "Tælle kvadraterne for at finde det samlede antal i rektanglet",
-        "Lægge mærke til rækker-og-kolonner-strukturen, der peger frem mod gitre"
+        "Dele et rektangel i rækker og kolonner af lige store kvadrater",
+        "Sætte stregerne, så hvert stykke bliver det samme kvadrat",
+        "Tælle felterne række for række for at finde antallet",
+        "Læse et mønster af felter som rækker med et tal, som gentaget plus og som gange"
       ],
       "howToPlay": [
-        "Tryk på de stiplede linjer for at lave rækker og kolonner med lige store kvadrater.",
-        "Byg det gitter, runden beder om, for eksempel 3 rækker og 4 kolonner.",
-        "Skriv, hvor mange kvadrater der er i alt — der er ingen tid og ingen point."
+        "Tryk på den øverste eller den venstre skinne for at sende hjulet hen til et hak, eller træk hjulet langs skinnen.",
+        "Hver hullinje deler arket; tryk på en linje igen for at lukke den.",
+        "Tryk på Tjek: pressen trykker et frimærke i hvert stykke. Når alle er trykt helt rigtigt, skriver du, hvor mange frimærker der er.",
+        "Når du vælger ark, trykker du på det, der passer til kortet, og så på Tjek."
       ],
       "learningGoals": [
-        "Barnet kan dele et rektangel op i lige store kvadrater og tælle det samlede antal",
-        "Barnet kan se et rektangel som rækker og kolonner af lige store dele",
-        "Barnet bygger det grundlag af gitre, der forbereder det på gange"
+        "Dele et rektangel i rækker og kolonner af lige store kvadrater og tælle dem.",
+        "Se, at lige lange rækker kan tælles ved at lægge det samme tal til igen og igen.",
+        "Koble et mønster af felter til rækker med et tal, til et plusstykke og til et gangestykke."
       ]
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {

@@ -2217,25 +2217,26 @@
     },
     "fractions.make-and-count-squares.2-g-a-2": {
       "about": [
-        "A criança toca nas linhas pontilhadas para dividir um retângulo em fileiras e colunas de quadradinhos do mesmo tamanho — 2 fileiras e 3 colunas, 3 fileiras e 4 colunas, até chegar a 4 fileiras e 5 colunas — e depois digita quantos quadradinhos há ao todo. É uma atividade de geometria interativa para o 2º ano, que funciona no navegador em qualquer aparelho, sem instalar nada e sem precisar de conta.",
-        "A grande ideia é que um retângulo pode ser dividido em quadradinhos iguais, organizados em fileiras e colunas bem certinhas, e essa organização ajuda a contar. Como a própria criança monta a grade e depois conta, ela começa a sentir que 3 fileiras de 4 quadradinhos significam contar de grupo em grupo igual — o começo tranquilo das organizações retangulares e da multiplicação. Os quadradinhos têm todos o mesmo tamanho de propósito, então o 'quantos há' é um total verdadeiro de partes iguais.",
-        "A atividade está alinhada à BNCC, na unidade temática Geometria, ao dividir um retângulo em fileiras e colunas de quadradinhos do mesmo tamanho e contar para achar o total. Sem cronômetro e sem pontuação — só uma prática calma e divertida."
+        "Uma criança pode traçar linhas num retângulo e mesmo assim não formar quadrados: linhas colocadas a olho deixam pedaços de tamanhos diferentes, e quatro linhas para quatro colunas deixam cinco fininhas. Na cartela de selos, o próprio papel mostra o que deu errado.",
+        "O retângulo é uma cartela de selos. Uma rodinha de picotar corre num trilho em cima e em outro à esquerda. Os trilhos têm uma marca a cada meio quadrado, e todas as marcas são iguais, então elas nunca contam onde estão os quadrados. Cada linha de furinhos que a criança faz vai de uma borda à outra. Ao verificar, a prensa imprime sua placa quadrada em cada pedaço: um quadrado de verdade dá um selo perfeito, um pedaço fino demais fica com a borda rasgada e em volta de um pedaço grande demais sobra papel.",
+        "Quando todos os selos saem certinhos, a criança conta os selos e digita quantos são. Um cartão mostra o plano como fileiras de um número, como uma adição, por exemplo 4 + 4 + 4, ou uma multiplicação, por exemplo 3 × 4, e outro tabuleiro pergunta qual de três cartelas prontas combina com o cartão. Depois do segundo erro, quadrados pontilhados mostram onde ficam as linhas, ou cada fileira ganha seu total acumulado. Sem cronômetro, sem pontos."
       ],
       "practices": [
-        "Dividir um retângulo em fileiras e colunas iguais de quadradinhos do mesmo tamanho.",
-        "Montar uma grade tocando nas linhas que dividem.",
-        "Contar os quadradinhos para achar o total no retângulo.",
-        "Perceber a organização em fileiras e colunas que leva às organizações retangulares."
+        "Dividir um retângulo em fileiras e colunas de quadrados do mesmo tamanho",
+        "Colocar as linhas para que cada pedaço seja o mesmo quadrado",
+        "Contar os quadrados fileira por fileira para achar o total",
+        "Ler uma disposição retangular como fileiras de um número, como adição de parcelas iguais e como multiplicação"
       ],
       "howToPlay": [
-        "Toque nas linhas pontilhadas para formar fileiras e colunas de quadradinhos iguais.",
-        "Monte a grade que a rodada pede, como 3 fileiras e 4 colunas.",
-        "Digite quantos quadradinhos há ao todo — não há cronômetro nem pontuação."
+        "Toque no trilho de cima ou no da esquerda para mandar a rodinha a uma marca, ou arraste a rodinha pelo trilho.",
+        "Cada linha de furinhos divide a cartela; toque de novo numa linha para fechá-la.",
+        "Aperte Verificar: a prensa imprime um selo em cada pedaço. Quando todos saírem certinhos, digite quantos selos há.",
+        "Para escolher a cartela, toque na que combina com o cartão e aperte Verificar."
       ],
       "learningGoals": [
-        "Dividir um retângulo em quadradinhos do mesmo tamanho e contar o total.",
-        "Enxergar um retângulo como fileiras e colunas de partes iguais.",
-        "Construir a base das organizações retangulares que prepara para a multiplicação."
+        "Dividir um retângulo em fileiras e colunas de quadrados do mesmo tamanho e contá-los.",
+        "Perceber que fileiras iguais podem ser contadas somando o mesmo número várias vezes.",
+        "Relacionar uma disposição de quadrados com fileiras de um número, com uma adição e com uma multiplicação."
       ]
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {

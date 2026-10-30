@@ -3609,24 +3609,26 @@
     },
     "fractions.make-and-count-squares.2-g-a-2": {
       "about": [
-        "L'enfant touche les pointillés pour partager un rectangle en rangées et en colonnes de carrés tous de la même taille — 2 rangées et 3 colonnes, 3 rangées et 4 colonnes, jusqu'à 4 rangées et 5 colonnes — puis tape combien il y a de carrés en tout. C'est une activité de géométrie interactive pour le CE1, qui fonctionne dans le navigateur sur n'importe quel appareil, sans rien à installer et sans compte.",
-        "L'idée importante, c'est qu'un rectangle peut être partagé en carrés égaux bien rangés en lignes et en colonnes, et que cette structure aide à les compter. Comme l'enfant construit la grille lui-même avant de compter, il commence à sentir que 3 rangées de 4 carrés revient à compter par groupes égaux — le tout début des dispositions rectangulaires et de la multiplication. Les carrés sont volontairement tous de la même taille, pour que « combien » soit un vrai total de parts égales. Cette activité de partage d'un rectangle en carrés suit les programmes officiels et se pratique sans note ni chrono."
+        "Un enfant peut tracer des lignes dans un rectangle sans obtenir de carrés : des lignes placées à l’œil donnent des morceaux de tailles différentes, et quatre lignes pour quatre colonnes en donnent cinq toutes fines. Avec la planche de timbres, c’est le papier lui-même qui montre ce qui ne va pas.",
+        "Le rectangle est une planche de timbres. Une petite roulette à perforer roule sur un rail en haut et sur un autre à gauche. Les rails ont une encoche à chaque demi-carré, et toutes les encoches se ressemblent : elles ne disent donc jamais où sont les carrés. Chaque ligne de trous que fait l’enfant va d’un bord à l’autre. Quand on vérifie, la presse imprime sa plaque carrée dans chaque morceau : un vrai carré donne un timbre parfait, un morceau trop fin a un bord déchiré, et autour d’un morceau trop grand il reste du papier en trop.",
+        "Quand tous les timbres sont bien imprimés, l’enfant les compte et tape leur nombre. Une carte montre le plan en rangées égales, en addition comme 4 + 4 + 4 ou en multiplication comme 3 × 4, et un autre plateau demande laquelle de trois planches terminées va avec la carte. Après une deuxième erreur, des carrés en pointillés montrent où vont les lignes, ou chaque rangée reçoit son total. Pas de chrono, pas de score."
       ],
       "practices": [
-        "Partager un rectangle en rangées et colonnes égales de carrés de même taille.",
-        "Construire une grille en touchant les lignes de partage.",
-        "Compter les carrés pour trouver le total dans le rectangle.",
-        "Remarquer la structure en lignes et colonnes qui mène vers les dispositions rectangulaires."
+        "Partager un rectangle en rangées et en colonnes de carrés tous pareils",
+        "Placer les lignes pour que chaque morceau soit le même carré",
+        "Compter les carrés rangée après rangée pour trouver le total",
+        "Lire un quadrillage comme des rangées égales, comme une addition répétée et comme une multiplication"
       ],
       "howToPlay": [
-        "Touche les pointillés pour créer des rangées et des colonnes de carrés égaux.",
-        "Construis la grille demandée par la partie, par exemple 3 rangées et 4 colonnes.",
-        "Tape combien il y a de carrés en tout — il n'y a ni chrono ni score."
+        "Touche le rail du haut ou celui de gauche pour envoyer la roulette sur une encoche, ou fais glisser la roulette le long du rail.",
+        "Chaque ligne de trous partage la planche ; touche une ligne encore une fois pour la refermer.",
+        "Appuie sur Vérifier : la presse imprime un timbre dans chaque morceau. Quand tous sont bien imprimés, tape combien il y a de timbres.",
+        "Pour choisir la planche, touche celle qui va avec la carte et appuie sur Vérifier."
       ],
       "learningGoals": [
-        "Partager un rectangle en carrés de même taille et compter le total.",
-        "Voir un rectangle comme des lignes et des colonnes de parts égales.",
-        "Construire la base des dispositions rectangulaires qui prépare la multiplication."
+        "Partager un rectangle en rangées et en colonnes de carrés tous pareils et les compter.",
+        "Voir qu’on peut compter des rangées égales en ajoutant le même nombre encore et encore.",
+        "Associer un quadrillage à des rangées égales, à une addition et à une multiplication."
       ]
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {

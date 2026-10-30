@@ -1555,24 +1555,26 @@
     },
     "fractions.make-and-count-squares.2-g-a-2": {
       "about": [
-        "Barnet trycker på de prickade linjerna för att dela in en rektangel i rader och kolumner med lika stora rutor — 2 rader och 3 kolumner, 3 rader och 4 kolumner, ända upp till 4 rader och 5 kolumner — och skriver sedan hur många rutor det blir sammanlagt. Det är en interaktiv geometriövning för årskurs 2 som körs i webbläsaren på vilken enhet som helst, utan något att installera och utan konto.",
-        "Den stora idén är att en rektangel kan delas in i lika stora rutor i prydliga rader och kolumner, och att just rad-och-kolumn-strukturen hjälper en att räkna dem. Eftersom barnet bygger rutnätet själv och sedan räknar börjar det känna att 3 rader med 4 rutor betyder att räkna i lika stora grupper — den tysta början på rutnät och multiplikation. Rutorna är medvetet lika stora, så att 'hur många' blir ett riktigt totalantal av lika stora delar. Aktiviteten följer Lgr22 inom geometri. Ingen timer och inga poäng — bara lugn, lekfull övning."
+        "Ett barn kan dra linjer genom en rektangel och ändå inte få rutor: linjer som dras på ett ungefär ger bitar av olika storlek, och fyra linjer för fyra kolumner ger fem smala. På frimärksarket visar papperet självt vad som gick snett.",
+        "Rektangeln är ett ark frimärken. Ett litet perforeringshjul rullar på en skena upptill och på en annan till vänster. Skenorna har en skåra vid varje halv ruta, och alla skåror ser likadana ut, så de avslöjar aldrig var rutorna är. Varje hålremsa som barnet gör går från kant till kant. När man kontrollerar trycker pressen sin fyrkantiga plåt i varje bit: en riktig ruta blir ett perfekt frimärke, en för smal bit får en trasig kant och runt en för stor bit blir det papper över.",
+        "När alla frimärken har blivit perfekta räknar barnet dem och skriver hur många det är. Ett kort visar planen som rader med ett tal, som en addition som 4 + 4 + 4 eller som en multiplikation som 3 · 4, och ett annat spelbräde frågar vilket av tre färdiga ark som passar till kortet. Efter två missar visar prickade rutor var linjerna ska gå, eller så får varje rad sin delsumma. Ingen klocka, inga poäng."
       ],
       "practices": [
-        "Dela in en rektangel i lika stora rader och kolumner med lika stora rutor",
-        "Bygga ett rutnät genom att trycka på delningslinjerna",
-        "Räkna rutorna för att hitta hela antalet i rektangeln",
-        "Lägga märke till rad-och-kolumn-strukturen som leder vidare mot rutnät"
+        "Dela in en rektangel i rader och kolumner av lika stora rutor",
+        "Sätta linjerna så att varje bit blir samma ruta",
+        "Räkna rutorna rad för rad för att hitta antalet",
+        "Läsa ett rutmönster som rader med ett tal, som upprepad addition och som multiplikation"
       ],
       "howToPlay": [
-        "Tryck på de prickade linjerna för att skapa rader och kolumner med lika stora rutor.",
-        "Bygg det rutnät som omgången ber om, till exempel 3 rader och 4 kolumner.",
-        "Skriv hur många rutor det blir sammanlagt — det finns ingen timer och inga poäng."
+        "Tryck på den övre eller den vänstra skenan för att skicka hjulet till en skåra, eller dra hjulet längs skenan.",
+        "Varje hålremsa delar arket; tryck på en hålremsa för att ta bort den.",
+        "Tryck på Kontrollera: pressen trycker ett frimärke i varje bit. När alla blir perfekta skriver du hur många frimärken det är.",
+        "När du väljer ark trycker du på det som passar till kortet och sedan på Kontrollera."
       ],
       "learningGoals": [
-        "Barnet kan dela in en rektangel i lika stora rutor och räkna hela antalet",
-        "Barnet kan se en rektangel som rader och kolumner av lika stora delar",
-        "Barnet bygger den rutnätsförståelse som förbereder för multiplikation"
+        "Dela in en rektangel i rader och kolumner av lika stora rutor och räkna dem.",
+        "Se att lika långa rader kan räknas genom att lägga till samma tal om och om igen.",
+        "Koppla ett rutmönster till rader med ett tal, till en addition och till en multiplikation."
       ]
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {

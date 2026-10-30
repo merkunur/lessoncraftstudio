@@ -3782,25 +3782,26 @@
     },
     "fractions.make-and-count-squares.2-g-a-2": {
       "about": [
-        "Tu hijo o hija toca las líneas punteadas para dividir un rectángulo en filas y columnas de cuadrados del mismo tamaño —2 filas y 3 columnas, 3 filas y 4 columnas, hasta 4 filas y 5 columnas— y luego escribe cuántos cuadrados hay en total. Es una actividad de geometría interactiva para 2.º de primaria que funciona en el navegador, en cualquier dispositivo, sin instalar nada y sin crear cuenta.",
-        "La idea central es que un rectángulo se puede dividir en cuadrados iguales acomodados en filas y columnas ordenadas, y que esa estructura ayuda a contarlos. Como el propio niño o niña forma la cuadrícula y después cuenta, empieza a sentir que 3 filas de 4 cuadrados significa contar de grupos iguales: el inicio tranquilo de los arreglos y de la multiplicación. Los cuadrados son todos del mismo tamaño a propósito, para que “cuántos hay” sea un verdadero total de partes iguales.",
-        "Está alineada con los planes y programas de estudio (SEP): dividir un rectángulo en filas y columnas de cuadrados del mismo tamaño y contar para hallar el total. Sin temporizador y sin puntajes, con un ritmo tranquilo y juguetón."
+        "Un niño puede trazar líneas en un rectángulo y aun así no formar cuadrados: las líneas puestas a ojo dejan pedazos de distintos tamaños, y cuatro líneas para cuatro columnas dejan cinco delgaditas. En la hoja de timbres, el mismo papel muestra qué salió mal.",
+        "El rectángulo es una hoja de timbres. Una ruedita perforadora corre por un riel arriba y por otro a la izquierda. Los rieles tienen una muesca cada medio cuadrado y todas las muescas se ven iguales, así que nunca dicen dónde están los cuadrados. Cada línea de agujeros que hace el niño va de orilla a orilla. Al comprobar, la prensa imprime su placa cuadrada en cada pedazo: un cuadrado de verdad da un timbre perfecto, un pedazo demasiado delgado queda con la orilla rota y alrededor de un pedazo demasiado grande sobra papel.",
+        "Cuando todos los timbres salen perfectos, el niño los cuenta y escribe cuántos hay. Una tarjeta muestra el plan como filas de un número, como una suma, por ejemplo 4 + 4 + 4, o como una multiplicación, por ejemplo 3 × 4, y otro tablero pregunta cuál de tres hojas terminadas va con la tarjeta. Después del segundo error, unos cuadrados punteados muestran dónde van las líneas, o cada fila recibe su total acumulado. Sin reloj y sin puntos."
       ],
       "practices": [
-        "Dividir un rectángulo en filas y columnas iguales de cuadrados del mismo tamaño.",
-        "Formar una cuadrícula tocando las líneas que dividen la figura.",
-        "Contar los cuadrados para encontrar el total en el rectángulo.",
-        "Notar la estructura de filas y columnas que lleva hacia los arreglos."
+        "Dividir un rectángulo en filas y columnas de cuadrados del mismo tamaño",
+        "Poner las líneas para que cada pedazo sea el mismo cuadrado",
+        "Contar los cuadrados fila por fila para encontrar el total",
+        "Leer un arreglo como filas de un número, como una suma repetida y como una multiplicación"
       ],
       "howToPlay": [
-        "Toca las líneas punteadas para formar filas y columnas de cuadrados iguales.",
-        "Arma la cuadrícula que pide la ronda, como 3 filas y 4 columnas.",
-        "Escribe cuántos cuadrados hay en total: no hay temporizador ni puntaje."
+        "Toca el riel de arriba o el de la izquierda para mandar la ruedita a una muesca, o arrastra la ruedita por el riel.",
+        "Cada línea de agujeros divide la hoja; toca otra vez una línea para cerrarla.",
+        "Oprime Comprobar: la prensa imprime un timbre en cada pedazo. Cuando todos salgan perfectos, escribe cuántos timbres hay.",
+        "Para elegir la hoja, toca la que va con la tarjeta y oprime Comprobar."
       ],
       "learningGoals": [
-        "El niño o la niña aprende a dividir un rectángulo en cuadrados del mismo tamaño y contar el total.",
-        "Tu hijo o hija ve un rectángulo como filas y columnas de partes iguales.",
-        "Se construye la base de los arreglos que prepara para la multiplicación."
+        "Dividir un rectángulo en filas y columnas de cuadrados del mismo tamaño y contarlos.",
+        "Ver que las filas iguales se pueden contar sumando el mismo número una y otra vez.",
+        "Relacionar un arreglo de cuadrados con filas de un número, con una suma y con una multiplicación."
       ]
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {

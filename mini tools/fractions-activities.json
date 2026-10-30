@@ -100,58 +100,15 @@
   },
   {
     "id": "fractions.make-and-count-squares.2-g-a-2",
-    "tool": "fractions-activity",
-    "task_template": "grid-count",
+    "tool": "stamp-sheet-activity",
+    "task_template": "stamp-sheet",
     "alignment": {
       "framework": "CCSS",
       "code": "2.G.A.2",
       "grade": "2",
       "strand": "Geometry"
     },
-    "params": {
-      "rounds": [
-        {
-          "rows": 2,
-          "cols": 3,
-          "seed": 11
-        },
-        {
-          "rows": 2,
-          "cols": 4,
-          "seed": 23
-        },
-        {
-          "rows": 3,
-          "cols": 3,
-          "seed": 31
-        },
-        {
-          "rows": 2,
-          "cols": 5,
-          "seed": 41
-        },
-        {
-          "rows": 3,
-          "cols": 4,
-          "seed": 53
-        },
-        {
-          "rows": 4,
-          "cols": 4,
-          "seed": 59
-        },
-        {
-          "rows": 3,
-          "cols": 5,
-          "seed": 67
-        },
-        {
-          "rows": 4,
-          "cols": 5,
-          "seed": 71
-        }
-      ]
-    },
+    "params": {},
     "theme": null,
     "slug": {
       "en": "make-and-count-squares",

@@ -2726,25 +2726,26 @@
     },
     "fractions.make-and-count-squares.2-g-a-2": {
       "about": [
-        "Il bambino tocca le linee tratteggiate per dividere un rettangolo in righe e colonne di quadrati tutti della stessa grandezza — 2 righe e 3 colonne, 3 righe e 4 colonne, fino a 4 righe e 5 colonne — e poi scrive quanti quadrati ci sono in tutto. È un'attività interattiva di geometria per la seconda elementare, da fare nel browser su qualsiasi dispositivo, senza installare nulla e senza account.",
-        "L'idea importante è che un rettangolo si può dividere in quadrati uguali disposti in righe e colonne ordinate, e che questa struttura aiuta a contarli. Poiché è il bambino stesso a costruire la griglia e poi a contare, comincia a sentire che 3 righe di 4 quadrati significano contare per gruppi uguali: l'inizio silenzioso degli schieramenti e della moltiplicazione. I quadrati sono tutti uguali apposta, così il \"quanti\" è davvero un totale di parti uguali.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dello spazio e delle figure: dividere un rettangolo in righe e colonne di quadrati uguali e contarli per trovare il totale. Nessun timer e nessun punteggio, solo gioco tranquillo."
+        "Un bambino può tracciare linee in un rettangolo senza ottenere dei quadrati: linee messe a occhio danno pezzi di grandezze diverse, e quattro linee per quattro colonne danno cinque striscioline. Con il foglio di francobolli è la carta stessa a mostrare che cosa non va.",
+        "Il rettangolo è un foglio di francobolli. Una piccola rotella per forare scorre su un binario in alto e su un altro a sinistra. I binari hanno una tacca a ogni mezzo quadrato e tutte le tacche sono uguali, quindi non dicono mai dove sono i quadrati. Ogni linea di fori che fa il bambino va da un bordo all’altro. Alla verifica la pressa stampa la sua lastra quadrata in ogni pezzo: un quadrato vero dà un francobollo perfetto, un pezzo troppo sottile ha il bordo strappato e intorno a un pezzo troppo grande resta carta in più.",
+        "Quando tutti i francobolli sono stampati bene, il bambino li conta e scrive quanti sono. Una scheda mostra il piano come righe da un numero, come un’addizione tipo 4 + 4 + 4 o come una moltiplicazione tipo 3 × 4, e un altro tabellone chiede quale di tre fogli finiti va con la scheda. Dopo il secondo errore, dei quadrati tratteggiati mostrano dove vanno le linee, oppure ogni riga riceve il suo totale. Niente cronometro, niente punteggio."
       ],
       "practices": [
-        "Dividere un rettangolo in righe e colonne di quadrati della stessa grandezza.",
-        "Costruire una griglia toccando le linee di divisione.",
-        "Contare i quadrati per trovare il totale nel rettangolo.",
-        "Notare la struttura a righe e colonne che porta verso gli schieramenti."
+        "Dividere un rettangolo in righe e colonne di quadrati tutti uguali",
+        "Mettere le linee in modo che ogni pezzo sia lo stesso quadrato",
+        "Contare i quadrati riga per riga per trovare il totale",
+        "Leggere uno schieramento come righe da un numero, come addizione ripetuta e come moltiplicazione"
       ],
       "howToPlay": [
-        "Il bambino tocca le linee tratteggiate per formare righe e colonne di quadrati uguali.",
-        "Costruisce la griglia richiesta dal turno, per esempio 3 righe e 4 colonne.",
-        "Scrive quanti quadrati ci sono in tutto: non c'è timer e non c'è punteggio."
+        "Tocca il binario in alto o quello a sinistra per mandare la rotella su una tacca, oppure trascina la rotella lungo il binario.",
+        "Ogni linea di fori divide il foglio; tocca di nuovo una linea per richiuderla.",
+        "Premi Verifica: la pressa stampa un francobollo in ogni pezzo. Quando sono tutti stampati bene, scrivi quanti francobolli ci sono.",
+        "Per scegliere il foglio, tocca quello che va con la scheda e premi Verifica."
       ],
       "learningGoals": [
-        "Il bambino è in grado di dividere un rettangolo in quadrati uguali e contarne il totale.",
-        "Impara a vedere un rettangolo come righe e colonne di parti uguali.",
-        "Costruisce la base degli schieramenti che prepara alla moltiplicazione."
+        "Dividere un rettangolo in righe e colonne di quadrati tutti uguali e contarli.",
+        "Vedere che righe uguali si possono contare aggiungendo lo stesso numero più volte.",
+        "Collegare uno schieramento di quadrati a righe da un numero, a un’addizione e a una moltiplicazione."
       ]
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {

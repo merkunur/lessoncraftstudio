@@ -127,6 +127,10 @@ function seedScript(row) {
     // the invention at work: the house pentagon tumbling along the lane, three sides printed (coral start, two teal), a square-corner mark on the strip
     return "(function(){var t=window['TrundleWheelActivity'];if(!t||!t.api)return;var C=window.TrundleWheelCore;t.FAST=true;t.OK_MS=600000;t.api.settings.board='sides';t.api.settings.crates='both';t._pool=null;t._ensurePool();t._start(0);t._render2();var it=t.st.items.filter(function(x){return x.id==='pent_house';})[0];C.put(t.st,it.key,'dock');C.roll(t.st,1);C.roll(t.st,1);t._view.t=0.45;t._paint();})();";
   }
+  if (row.tool === 'stamp-sheet-activity') {
+    // the invention at work: a 3-by-4 stamp sheet perforated with one line out of place, the press down — true stamps where the squares are true, a torn edge and spare paper where they are not
+    return "(function(){var t=window['StampSheetActivity'];if(!t||!t.api)return;var C=window.StampSheetCore;t.FAST=true;t.OK_MS=600000;t.api.settings.board='numbers';t.api.settings.card='rowsOf';t._pool=null;t._ensurePool();t._start(4,0);t._render2();[2,4,7].forEach(function(h){C.toggleCut(t.st,'col',h);});[2,4].forEach(function(h){C.toggleCut(t.st,'row',h);});t._check();t._view.note='';t._paint();})();";
+  }
   if (row.tool === 'level-rail-activity') {
     // the invention at work: "how many more leaves than raspberries?" — the rail lies level on the raspberry picket, the post reads 4, the leaves' overhang striped
     return "(function(){var t=window['LevelRailActivity'];if(!t||!t.api)return;var go=function(){if(!t._picsReady){setTimeout(go,50);return;}var C=window.LevelRailCore;t.FAST=true;t.OK_MS=600000;t.api.settings.level='read';t.api.settings.rail='show';t._pool=null;t._ensurePool();t._start(0);t.st.cats=['leaf','raspberry','acorn'];t._render2();C.layRail(t.st,'raspberry');C.setSlider(t.st,4);t._paint();};go();})();";

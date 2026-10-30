@@ -4228,25 +4228,26 @@
     },
     "fractions.make-and-count-squares.2-g-a-2": {
       "about": [
-        "Das Kind tippt auf die gepunkteten Linien, um ein Rechteck in Reihen und Spalten aus gleich großen Quadraten zu teilen — 2 Reihen und 3 Spalten, 3 Reihen und 4 Spalten, bis zu 4 Reihen und 5 Spalten —, und tippt dann ein, wie viele Quadrate insgesamt entstehen. Diese interaktive Geometrie-Übung für die 2. Klasse läuft im Browser auf jedem Gerät, ohne Installation und ohne Konto.",
-        "Der Kerngedanke: Ein Rechteck lässt sich in gleiche Quadrate teilen, die ordentlich in Reihen und Spalten liegen, und genau diese Struktur hilft beim Zählen. Weil das Kind das Gitter selbst baut und dann zählt, beginnt es zu spüren, dass 3 Reihen mit je 4 Quadraten bedeutet, in gleichen Gruppen zu zählen — der ruhige Anfang von Punktefeldern und Multiplikation. Alle Quadrate sind absichtlich gleich groß, sodass die Antwort auf „wie viele“ eine echte Gesamtzahl gleicher Teile ist.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Geometrie ausgerichtet — ein Rechteck in Reihen und Spalten aus gleich großen Quadraten teilen und die Gesamtzahl durch Zählen finden. Es gibt keinen Timer und keine Punktewertung — nur ruhiges, spielerisches Üben."
+        "Ein Kind kann Linien durch ein Rechteck ziehen und trotzdem keine Quadrate bekommen: Nach Augenmaß gezogene Linien machen verschieden große Stücke, und vier Linien für vier Spalten machen fünf schmale. Beim Briefmarkenbogen zeigt das Papier selbst, was schiefgegangen ist.",
+        "Das Rechteck ist ein Bogen Briefmarken. Ein kleines Lochrädchen fährt auf einer Schiene oben und auf einer zweiten links. Die Schienen haben bei jedem halben Quadrat eine Kerbe, und alle Kerben sehen gleich aus – sie verraten also nie, wo die Quadrate sind. Jede Lochlinie, die das Kind stanzt, geht von Rand zu Rand. Beim Prüfen druckt die Presse ihre quadratische Platte in jedes Stück: Ein echtes Quadrat gibt eine perfekte Briefmarke, ein zu schmales Stück bekommt einen ausgerissenen Rand, und um ein zu großes Stück bleibt Papier übrig.",
+        "Wenn alle Briefmarken sauber gedruckt sind, zählt das Kind sie und tippt die Anzahl ein. Eine Karte zeigt den Plan als Reihen mit je einer Zahl, als Plusaufgabe wie 4 + 4 + 4 oder als Malaufgabe wie 3 · 4, und auf einem anderen Spielfeld wird gefragt, welcher von drei fertigen Bögen zur Karte passt. Nach dem zweiten Fehlversuch zeigen gepunktete Quadrate, wo die Linien hingehören, oder jede Reihe bekommt ihre Zwischensumme. Ohne Zeitdruck, ohne Punkte."
       ],
       "practices": [
-        "Ein Rechteck in gleiche Reihen und Spalten aus gleich großen Quadraten teilen.",
-        "Ein Gitter bauen, indem man auf die Trennlinien tippt.",
-        "Die Quadrate zählen, um die Gesamtzahl im Rechteck zu finden.",
-        "Die Reihen-und-Spalten-Struktur bemerken, die zu Punktefeldern hinführt."
+        "Ein Rechteck in Reihen und Spalten aus gleich großen Quadraten einteilen",
+        "Die Linien so setzen, dass jedes Stück dasselbe Quadrat ist",
+        "Die Quadrate Reihe für Reihe zählen, um die Anzahl zu finden",
+        "Ein Feld aus Quadraten als Reihen mit je einer Zahl, als wiederholtes Plus und als Malaufgabe lesen"
       ],
       "howToPlay": [
-        "Tippe auf die gepunkteten Linien, um Reihen und Spalten aus gleichen Quadraten zu machen.",
-        "Baue das Gitter, das die Runde verlangt, zum Beispiel 3 Reihen und 4 Spalten.",
-        "Tippe ein, wie viele Quadrate es insgesamt sind — es gibt keinen Timer und keine Punkte."
+        "Tipp auf die obere oder die linke Schiene, dann fährt das Rädchen zu einer Kerbe – oder zieh das Rädchen an der Schiene entlang.",
+        "Jede Lochlinie teilt den Bogen; tipp noch einmal auf eine Linie, um sie wieder zu schließen.",
+        "Drück auf Prüfen: Die Presse druckt in jedes Stück eine Briefmarke. Wenn alle sauber gedruckt sind, tipp ein, wie viele Briefmarken es sind.",
+        "Beim Aussuchen tippst du auf den Bogen, der zur Karte passt, und drückst auf Prüfen."
       ],
       "learningGoals": [
-        "Ein Rechteck in gleich große Quadrate teilen und die Gesamtzahl zählen.",
-        "Ein Rechteck als Reihen und Spalten gleicher Teile sehen.",
-        "Die Grundlage für Punktefelder aufbauen, die Kinder auf die Multiplikation vorbereitet."
+        "Ein Rechteck in Reihen und Spalten aus gleich großen Quadraten einteilen und sie zählen.",
+        "Erkennen, dass man gleich lange Reihen zählen kann, indem man immer wieder dieselbe Zahl addiert.",
+        "Ein Feld aus Quadraten den Reihen mit je einer Zahl, einer Plusaufgabe und einer Malaufgabe zuordnen."
       ]
     },
     "match-pairs.compare-three-digit-numbers.2-nbt-a-4": {

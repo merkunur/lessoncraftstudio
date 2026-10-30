@@ -1950,25 +1950,26 @@
     },
     "fractions.make-and-count-squares.2-g-a-2": {
       "about": [
-        "Children tap the dotted lines to split a rectangle into rows and columns of same-size squares — 2 rows and 3 columns, 3 rows and 4 columns, on up to 4 rows and 5 columns — then type how many squares there are in all. It's an interactive Grade 2 geometry activity that runs in the browser on any device, with nothing to install and no account.",
-        "The big idea is that a rectangle can be split into equal squares laid out in neat rows and columns, and the rows-and-columns structure helps you count them. Because the child makes the grid themselves and then counts, they begin to feel that 3 rows of 4 squares means counting by equal groups — the quiet beginning of arrays and multiplication. The squares are all the same size on purpose, so 'how many' is a true total of equal parts.",
-        "It is aligned to Common Core 2.G.A.2 — partitioning a rectangle into rows and columns of same-size squares and counting to find the total number. No timer, no score — just calm, playful practice."
+        "A child can draw lines across a rectangle and still not make squares: lines spaced by eye make pieces of different sizes, and four lines for four columns make five thin ones. The Stamp Sheet lets the paper itself show what went wrong.",
+        "The rectangle is a sheet of stamps. A little perforating wheel runs along a rail at the top and another on the left. The rails have a notch every half square and every notch looks the same, so they never tell where the squares are. Each line of holes the child makes runs from edge to edge. On Check the press prints its square plate into every piece: a true square prints a perfect stamp, a piece that is too thin gets a torn edge, and a piece that is too big is left with spare paper around its stamp.",
+        "Once every stamp prints true, the child counts the stamps and types the total. A card shows the plan as equal rows (3 rows of 4), as an addition like 4 + 4 + 4 or as a multiplication like 3 × 4, and another board asks which of three finished sheets matches the card. After a second miss, dotted squares show where the lines belong, or each row gets its running total. No timer, no score."
       ],
       "practices": [
-        "Splitting a rectangle into equal rows and columns of same-size squares",
-        "Building a grid by tapping the dividing lines",
-        "Counting the squares to find the total in the rectangle",
-        "Noticing the rows-and-columns structure that leads toward arrays"
+        "Partitioning a rectangle into rows and columns of same-size squares",
+        "Spacing the lines so every piece is the same square",
+        "Counting the squares row by row to find the total",
+        "Reading an array as equal rows, as repeated adding and as a multiplication"
       ],
       "howToPlay": [
-        "Tap the dotted lines to make rows and columns of equal squares.",
-        "Build the grid the round asks for, like 3 rows and 4 columns.",
-        "Type how many squares there are in all — there is no timer and no score."
+        "Tap the top rail or the left rail to send the wheel to a notch, or drag the wheel along the rail.",
+        "Each line of holes splits the sheet; tap a line of holes to take it away.",
+        "Press Check: the press prints a stamp into every piece. When every stamp prints true, type how many stamps there are.",
+        "On the pick board, tap the sheet that matches the card and press Check."
       ],
       "learningGoals": [
-        "Partition a rectangle into same-size squares and count the total — the focus of Common Core 2.G.A.2",
-        "See a rectangle as rows and columns of equal parts",
-        "Build the array foundation that prepares children for multiplication"
+        "Partitioning a rectangle into rows and columns of same-size squares and counting them.",
+        "Seeing that equal rows can be counted by adding the same number again and again.",
+        "Matching a grid of squares to equal rows, to an addition and to a multiplication."
       ]
     },
     "fractions.partition-equal-shares.1-g-a-3": {

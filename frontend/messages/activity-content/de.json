@@ -2978,25 +2978,26 @@
     },
     "choice-board.fraction-noncongruent.2-g-a-3": {
       "about": [
-        "Zuerst erscheint eine Form, die in gleiche Teile geteilt ist, und das Kind sucht dann eine zweite Form, die in genauso viele gleiche Teile geteilt ist — auch wenn die Teile ganz anders geformt sind. Diese interaktive Geometrie-Übung für die 2. Klasse läuft direkt im Browser, ohne Installation und ohne Anmeldung.",
-        "Die neue Idee in dieser Aktivität: Gleiche Teile müssen nicht gleich aussehen. Ein Quadrat, das in der Mitte geteilt ist, und ein Quadrat, das von Ecke zu Ecke geteilt ist, zeigen beide zwei gleiche Hälften — auch wenn die Teile unterschiedlich geformt sind. Das Kind teilt die Form nicht selbst, sondern erkennt, dass gleiche Teile unterschiedlich aussehen können. Die falschen Antworten zeigen ungleiche Teile, die falsche Anzahl von Teilen oder eine Form, die gar nicht geteilt ist.",
-        "Die Aktivität ist an den Lehrplänen im Bereich Geometrie ausgerichtet — gleiche Teile erkennen und zwei gleiche Teile als Hälften, drei gleiche Teile als Drittel und vier gleiche Teile als Viertel benennen. Es gibt keinen Timer, keine Punktewertung — nur ruhiges, geduldiges Ausprobieren."
+        "Viele Kinder glauben, dass gleich große Teile auch gleich aussehen müssen: Zwei Dreiecke sind Hälften, ein Dreieck und ein Rechteck aber nicht. Und zwei Stücke gelten als Hälften, auch wenn eines viel größer ist. Die Teigpresse macht sichtbar, wie viel in jedem Stück steckt.",
+        "Jede geteilte Form ist ein Stück Teig. Unter der Presse wird jedes Stück zu einem runden Fladen mit genau gleich viel Teig gedrückt, so dass ein langer Streifen und ein dickes Dreieck mit gleich viel Teig gleich große Fladen geben. Die Fladen vom Muster liegen auf einem Blech; beim Prüfen landen die Fladen der ausgesuchten Form darauf. Gleich viel passt genau aufeinander, ein größerer Fladen zeigt einen orangefarbenen Rand, ein kleinerer lässt einen hellen Ring frei, und ein Fladen zu viel oder zu wenig fällt sofort auf.",
+        "Drei Spielfelder: wie das Muster (eine andere Form finden, die in dieselben gleich großen Teile geteilt ist, auch wenn die Stücke anders aussehen), gerecht geteilt (jede Form, die in gleich große Teile geteilt ist, bekommt eine Schleife) und welche Form einen Bruch wie ein Drittel oder drei Viertel zeigt; dort rollen die orangefarbenen Stücke zu einem Klumpen, der genau den Teil auf der Karte füllen muss. Brüche können als Wörter oder als Zahlen erscheinen. Nach dem zweiten Fehlversuch zeigt jede Form ihre Fladen. Ohne Zeitdruck, ohne Punkte."
       ],
       "practices": [
-        "Erkennen, dass zwei Formen gleich viele gleiche Teile haben können, obwohl die Teile unterschiedlich aussehen.",
-        "Erkennen, wann ein Quadrat oder ein Rechteck in gleiche Teile geteilt ist und wann nicht.",
-        "Die Anzahl gleicher Teile vergleichen und Hälften, Drittel und Viertel auseinanderhalten.",
-        "Genau hinschauen und ungleiche Teile oder eine nicht geteilte Form als falsche Wahl ausschließen."
+        "Hälften, Drittel und Viertel einer Form erkennen",
+        "Sehen, dass gleich große Teile verschieden aussehen können",
+        "Gleich große von verschieden großen Teilen unterscheiden, auch wenn es gleich viele sind",
+        "Einen gefärbten Teil einem Bruch nach seiner Menge zuordnen"
       ],
       "howToPlay": [
-        "Schau dir zuerst die obere Form an und merke dir, in wie viele gleiche Teile sie geteilt ist.",
-        "Tippe dann auf die Form, die in genauso viele gleiche Teile geteilt ist — auch wenn die Teile anders geformt sind als oben.",
-        "Tippe auf Prüfen. Wenn es noch nicht stimmt, schau in Ruhe noch einmal hin und probiere es erneut — so oft du möchtest."
+        "Schau dir das Muster an oder lies die Karte.",
+        "Tipp auf die Form, die du für richtig hältst. Beim gerechten Teilen tippst du jede gerecht geteilte Form an, dann bekommt sie eine Schleife.",
+        "Drück auf Prüfen: Die Presse drückt die Stücke zu Fladen und vergleicht sie.",
+        "Wenn die Fladen nicht passen, schau dir die Ränder und Ringe an und such noch einmal aus."
       ],
       "learningGoals": [
-        "Verstehen, dass gleiche Teile unterschiedlich aussehen können und trotzdem gleich groß sind.",
-        "Zwei gleiche Teile als Hälften, drei gleiche Teile als Drittel und vier gleiche Teile als Viertel erkennen und benennen.",
-        "Eine geteilte Form mit gleichen Teilen sicher von einer mit ungleichen Teilen, der falschen Anzahl von Teilen oder einer gar nicht geteilten Form unterscheiden."
+        "Erkennen, wann eine Form in gleich große Teile geteilt ist: in Hälften, Drittel und Viertel.",
+        "Verstehen, dass gleich große Teile desselben Ganzen nicht gleich aussehen müssen.",
+        "Einen Bruch wie ein Drittel oder zwei Viertel in einem Bild an seiner Menge erkennen."
       ]
     },
     "choice-board.fraction-equal-shares.1-g-a-3": {

@@ -194,25 +194,26 @@
   "prose": {
     "choice-board.fraction-noncongruent.2-g-a-3": {
       "about": [
-        "Lige store dele, der ser forskellige ud, er en rolig aktivitet, som barnet kan spille direkte i browseren. Der skal ikke installeres noget, og man behøver ikke en konto. Barnet ser en form, der er delt i et bestemt antal lige store dele, og skal finde en anden form, der er delt i lige så mange lige store dele.",
-        "Den store idé er, at lige store dele ikke behøver at se ens ud. Et kvadrat, der er delt ned gennem midten, og et kvadrat, der er delt fra hjørne til hjørne, viser begge to halvdele — selvom stykkerne har forskellig form. Barnet skal vælge den form, der viser det samme antal lige store dele, og lade de forkerte muligheder ligge: en form med dele, der ikke er lige store, en form med et forkert antal dele, eller en form, der slet ikke er delt. Barnet deler ikke selv formen, men genkender, at lige store dele kan se forskellige ud.",
-        "Aktiviteten følger Fælles Mål inden for området geometri og måling: at genkende former, der er delt i to, tre og fire lige store dele, og at kende dem som halvdele, tredjedele og fjerdedele. Der er ingen timer og ingen point — barnet får ro til at se godt efter og sammenligne i sit eget tempo."
+        "Mange børn tror, at lige store dele også skal se ens ud: to trekanter er halvdele, men en trekant og et rektangel kan ikke være det. Og to stykker tæller som halvdele, selv når det ene er meget større. Dejpressen gør det synligt, hvor meget der er i hvert stykke.",
+        "Hver delt figur er et stykke dej. Under pressen bliver hvert stykke presset til en rund dejklat med præcis lige så meget dej, så en lang strimmel og en tyk trekant med lige meget dej bliver til ens klatter. Forbilledets klatter ligger på en bageplade; når man tjekker, lander klatterne fra den valgte figur ovenpå. Lige meget passer præcist, en større klat viser en orange kant, en mindre efterlader en lys ring, og en klat for meget eller for lidt ses med det samme.",
+        "Tre spilleplader: som forbilledet (find en anden figur, der er delt i de samme lige store dele, selv om stykkerne ser forskellige ud), retfærdigt delt (bind et bånd om hver figur, der er delt i lige store dele) og hvilken figur der viser en brøk som en tredjedel eller tre fjerdedele; dér ruller de orange stykker sammen til én klump, der skal fylde kortets del. Brøkerne kan stå som ord eller som tal. Efter to fejl viser hver figur sine klatter. Intet ur, ingen point."
       ],
       "practices": [
-        "Genkende, hvornår et kvadrat eller et rektangel er delt i lige store dele",
-        "Se, at lige store dele kan have forskellig form og stadig være lige store",
-        "Sammenligne to former og finde den, der er delt i lige så mange lige store dele",
-        "Tælle, om en form er delt i to, tre eller fire lige store dele"
+        "Genkende halvdele, tredjedele og fjerdedele af en figur",
+        "Se at lige store dele kan have forskellig form",
+        "Skelne lige store dele fra forskelligt store dele med samme antal stykker",
+        "Koble en farvet del til en brøk efter, hvor meget den er"
       ],
       "howToPlay": [
-        "Barnet ser øverst en form, der er delt i lige store dele, og kigger godt på, hvor mange dele der er.",
-        "Barnet trykker på den anden form, der er delt i lige så mange lige store dele — også selvom delene ser anderledes ud.",
-        "Tryk på Tjek for at se, om det passer. Er det ikke rigtigt, kan barnet roligt prøve igen."
+        "Se på forbilledet, eller læs kortet.",
+        "Tryk på den figur, du tror er rigtig. Når du deler retfærdigt, trykker du på hver retfærdigt delt figur, så den får et bånd.",
+        "Tryk på Tjek: pressen trykker stykkerne flade til klatter og sammenligner dem.",
+        "Hvis klatterne ikke passer, så se på kanterne og ringene, og vælg igen."
       ],
       "learningGoals": [
-        "Barnet kan genkende lige store dele, også når de har forskellig form",
-        "Barnet kan kende former, der er delt i halvdele, tredjedele og fjerdedele",
-        "Barnet kan sammenligne to former og finde dem, der har lige så mange lige store dele"
+        "Genkende, hvornår en figur er delt i lige store dele: halvdele, tredjedele og fjerdedele.",
+        "Forstå, at lige store dele af den samme helhed ikke behøver at have samme form.",
+        "Genkende en brøk som en tredjedel eller to fjerdedele i et billede ud fra, hvor meget den viser."
       ]
     },
     "choice-board.fraction-equal-shares.1-g-a-3": {

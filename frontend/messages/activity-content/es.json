@@ -2533,25 +2533,26 @@
     },
     "choice-board.fraction-noncongruent.2-g-a-3": {
       "about": [
-        "El niño o la niña ve una figura dividida en partes iguales —un cuadrado o un rectángulo— y elige otra figura partida en ese mismo número de partes iguales, aunque los trozos tengan otra forma. Es una actividad de geometría interactiva para 2.º de primaria que funciona en el navegador, sin instalar nada y sin crear cuenta.",
-        "La idea nueva es sencilla y poderosa: las partes iguales no tienen por qué verse igual. Un cuadrado dividido por la mitad y un cuadrado dividido de esquina a esquina muestran las dos mitades iguales, aunque los trozos tengan formas distintas. El niño o la niña ve una figura dividida en cierto número de partes iguales y elige otra figura dividida en ese mismo número de partes iguales, pero de otra manera. Las opciones que no sirven tienen partes desiguales, un número de partes equivocado o no están divididas. Aquí no se divide la figura, sino que se reconoce que las partes iguales pueden tener formas distintas.",
-        "Está alineada con los planes y programas de estudio (SEP), en el eje de geometría: reconocer figuras divididas en dos, en tres y en cuatro partes iguales y nombrarlas como mitades, tercios y cuartos. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+        "Muchos niños creen que las partes iguales deben verse iguales: dos triángulos son mitades, pero un triángulo y un rectángulo no podrían serlo. Y dos pedazos pasan por mitades aunque uno sea mucho más grande. La prensa de masa hace visible cuánta masa tiene cada pedazo.",
+        "Cada figura dividida es un trozo de masa. Bajo la prensa, cada pedazo se aplasta en un disco redondo con exactamente la misma cantidad de masa, así que una tira larga y un triángulo gordo con la misma cantidad de masa dan discos idénticos. Los discos del modelo esperan en una charola; al comprobar, los discos de la figura elegida caen encima. Las cantidades iguales coinciden justo, un disco más grande muestra un borde naranja, uno más pequeño deja un anillo claro, y un disco de más o de menos se ve enseguida.",
+        "Tres tableros: igual que el modelo (buscar otra figura dividida en las mismas partes iguales, aunque los pedazos se vean distintos), partes iguales (poner un listón en cada figura dividida en partes iguales) y qué figura muestra una fracción como un tercio o tres cuartos, donde los pedazos naranjas ruedan en una sola bola que debe llenar la parte de la tarjeta. Las fracciones se pueden leer con palabras o con números. Después del segundo error, cada figura muestra sus discos. Sin reloj y sin puntos."
       ],
       "practices": [
-        "Reconocer cuándo un cuadrado o un rectángulo está dividido en partes iguales.",
-        "Descubrir que una misma figura se puede dividir en partes iguales de varias maneras.",
-        "Identificar la figura dividida en el mismo número de partes iguales, aunque los trozos tengan otra forma.",
-        "Nombrar las partes iguales como mitades, tercios y cuartos."
+        "Reconocer mitades, tercios y cuartos de una figura",
+        "Ver que las partes iguales pueden tener formas distintas",
+        "Distinguir partes iguales de partes desiguales con la misma cantidad de pedazos",
+        "Relacionar una parte coloreada con una fracción por su cantidad"
       ],
       "howToPlay": [
-        "Mira la primera figura y fíjate en cuántas partes iguales tiene.",
-        "Toca la otra figura que también está dividida en ese mismo número de partes iguales, aunque los trozos se vean diferentes.",
-        "Cuando hayas elegido, pulsa Comprobar para ver tu respuesta, con calma y sin prisa."
+        "Mira el modelo o lee la tarjeta.",
+        "Toca la figura que crees que es la correcta. En partes iguales, toca cada figura bien repartida para ponerle un listón.",
+        "Oprime Comprobar: la prensa aplasta los pedazos en discos y los compara.",
+        "Si los discos no coinciden, mira los bordes y los anillos y vuelve a elegir."
       ],
       "learningGoals": [
-        "Entender que las partes iguales no tienen por qué verse igual.",
-        "Reconocer figuras divididas en dos, en tres o en cuatro partes iguales.",
-        "Empezar a usar las palabras mitades, tercios y cuartos al hablar de las partes."
+        "Reconocer cuándo una figura está dividida en partes iguales: mitades, tercios y cuartos.",
+        "Comprender que las partes iguales de un mismo entero no tienen que tener la misma forma.",
+        "Reconocer una fracción como un tercio o dos cuartos en un dibujo por la cantidad que muestra."
       ]
     },
     "choice-board.fraction-equal-shares.1-g-a-3": {

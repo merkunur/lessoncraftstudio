@@ -2371,25 +2371,26 @@
     },
     "choice-board.fraction-noncongruent.2-g-a-3": {
       "about": [
-        "Bovenaan verschijnt een vorm die al in gelijke delen is verdeeld — bijvoorbeeld een vierkant in twee helften — en je kind kiest uit de vormen eronder die ene vorm met precies evenveel gelijke delen. Het is een interactieve meetkunde-activiteit voor groep 4 die direct in de browser speelt, zonder installatie en zonder account.",
-        "Het kind ziet een vorm die in gelijke delen is verdeeld en zoekt daarna een andere vorm die in evenveel gelijke delen is verdeeld. Het bijzondere is dit keer: gelijke delen hoeven er niet hetzelfde uit te zien. Een vierkant dat door het midden is verdeeld en een vierkant dat van hoek naar hoek is verdeeld, laten allebei twee gelijke helften zien, ook al hebben de stukken een andere vorm. De andere keuzes kloppen niet: de delen zijn niet even groot, het zijn er te veel of te weinig, of de vorm is helemaal niet verdeeld. Het kind verdeelt de vorm dus niet zelf, maar herkent dat gelijke delen er anders uit kunnen zien.",
-        "De activiteit sluit aan bij de kerndoelen binnen het domein Meetkunde en bij kinderen in groep 4: herkennen dat een vorm in twee, drie of vier gelijke delen is verdeeld en die delen benoemen als helften, derden en vierden. Geen timer, geen score, geen druk; gewoon rustig kijken, vergelijken en ontdekken."
+        "Veel kinderen denken dat gelijke delen er ook hetzelfde uit moeten zien: twee driehoeken zijn helften, maar een driehoek en een rechthoek niet. En twee stukken gelden als helften, ook als het ene veel groter is. De deegpers laat zien hoeveel er in elk stuk zit.",
+        "Elke verdeelde vorm is een lap deeg. Onder de pers wordt elk stuk platgedrukt tot een rond deegrondje met precies evenveel deeg, dus een lange strook en een dikke driehoek met evenveel deeg worden precies dezelfde rondjes. De rondjes van het voorbeeld liggen op een bakplaat; bij Controleer vallen de rondjes van de gekozen vorm erbovenop. Gelijke hoeveelheden passen precies, een groter rondje toont een oranje rand, een kleiner rondje laat een lichte ring vrij, en een rondje te veel of te weinig valt meteen op.",
+        "Drie speelborden: zoals het voorbeeld (een andere vorm zoeken die in dezelfde gelijke delen verdeeld is, ook als de stukken er anders uitzien), eerlijk verdeeld (een lint om elke vorm die in gelijke delen verdeeld is) en welke vorm een breuk zoals een derde of drie kwart laat zien; daar rollen de oranje stukken samen tot één bal die precies het deel op de kaart moet vullen. Breuken kunnen als woorden of als getallen staan. Na een tweede misser laat elke vorm zijn rondjes zien. Geen klok, geen punten."
       ],
       "practices": [
-        "Herkennen wanneer een vierkant of rechthoek in gelijke delen is verdeeld",
-        "Zien dat twee vormen evenveel gelijke delen kunnen hebben, ook al zien de stukken er anders uit",
-        "Onderscheid maken tussen gelijke en ongelijke delen, en tussen het juiste en het verkeerde aantal delen",
-        "Gelijke delen benoemen als helften, derden en vierden"
+        "Helften, derde delen en kwarten van een vorm herkennen",
+        "Zien dat gelijke delen een verschillende vorm kunnen hebben",
+        "Gelijke delen onderscheiden van ongelijke delen met hetzelfde aantal stukken",
+        "Een gekleurd deel aan een breuk koppelen op hoeveelheid"
       ],
       "howToPlay": [
-        "Het kind bekijkt eerst de bovenste vorm en telt in hoeveel gelijke delen die is verdeeld.",
-        "Daarna zoekt het kind tussen de andere vormen die ene vorm die in evenveel gelijke delen is verdeeld, ook al ziet de verdeling er anders uit.",
-        "Tik op die vorm en controleer je antwoord."
+        "Kijk naar het voorbeeld of lees de kaart.",
+        "Tik op de vorm die volgens jou klopt. Bij eerlijk verdelen tik je op elke eerlijk verdeelde vorm om er een lint om te strikken.",
+        "Druk op Controleer: de pers drukt de stukken plat tot rondjes en vergelijkt ze.",
+        "Passen de rondjes niet, kijk dan naar de randen en ringen en kies opnieuw."
       ],
       "learningGoals": [
-        "Het kind herkent dat gelijke delen niet altijd dezelfde vorm hebben.",
-        "Het kind koppelt twee vormen die in evenveel gelijke delen zijn verdeeld aan elkaar.",
-        "Het kind benoemt gelijke delen als helften, derden of vierden."
+        "Herkennen wanneer een vorm in gelijke delen verdeeld is: in helften, derde delen en kwarten.",
+        "Begrijpen dat gelijke delen van hetzelfde geheel niet dezelfde vorm hoeven te hebben.",
+        "Een breuk zoals een derde of twee kwart in een plaatje herkennen aan de hoeveelheid die het laat zien."
       ]
     },
     "choice-board.fraction-equal-shares.1-g-a-3": {

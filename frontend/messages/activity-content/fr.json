@@ -2360,25 +2360,26 @@
     },
     "choice-board.fraction-noncongruent.2-g-a-3": {
       "about": [
-        "Une forme de départ partagée en parts égales s'affiche, puis quatre autres formes : l'enfant touche celle qui montre le même partage, en autant de parts égales — même si les morceaux n'ont pas tout à fait la même allure. C'est une activité de géométrie interactive pour le CE1, qui se joue directement dans le navigateur, sans rien à installer et sans compte.",
-        "La grande idée, nouvelle ici, c'est que des parts égales ne sont pas obligées de se ressembler. Un carré partagé par le milieu et un carré partagé d'un coin à l'autre montrent tous les deux deux moitiés égales, même si les morceaux n'ont pas la même forme. L'enfant ne partage pas la forme lui-même : il reconnaît que des parts égales peuvent avoir des formes différentes. Les mauvaises réponses montrent des parts inégales, le mauvais nombre de parts, ou une forme entière qui n'est pas partagée du tout.",
-        "Cette activité est alignée sur les programmes officiels, dans le domaine Espace et géométrie : reconnaître qu'un carré ou un rectangle peut être partagé en deux, trois ou quatre parts égales de plusieurs manières, et nommer le résultat « moitiés », « tiers » et « quarts ». Les enfants avancent à leur rythme, avec un retour doux et immédiat — ni minuteur, ni score."
+        "Beaucoup d’enfants pensent que des parts égales doivent se ressembler : deux triangles sont des moitiés, mais un triangle et un rectangle ne le seraient pas. Et deux morceaux passent pour des moitiés même quand l’un est bien plus grand. La presse à pâte rend visible la quantité de chaque morceau.",
+        "Chaque forme coupée est un morceau de pâte. Sous la presse, chaque morceau s’écrase en une galette ronde qui contient exactement la même quantité de pâte : une longue bande et un gros triangle avec la même quantité de pâte donnent des galettes identiques. Les galettes du modèle attendent sur un plateau ; quand on vérifie, celles de la forme choisie se posent dessus. Des quantités égales se superposent exactement, une galette plus grande montre un bord orange, une plus petite laisse un anneau clair, et une galette en trop ou en moins se voit tout de suite.",
+        "Trois plateaux : comme le modèle (trouver une autre forme coupée en parts égales de la même façon, même si les morceaux ne se ressemblent pas), parts égales (mettre un ruban sur chaque forme coupée en parts égales) et quelle forme montre une fraction comme un tiers ou trois quarts ; les morceaux orange y roulent en une seule boule qui doit remplir la part de la carte. Les fractions s’écrivent en mots ou en nombres. Après une deuxième erreur, chaque forme montre ses galettes. Pas de chrono, pas de score."
       ],
       "practices": [
-        "Reconnaître quand un carré ou un rectangle est partagé en parts égales, même si les morceaux ont des formes différentes.",
-        "Comprendre que deux partages égaux d'une même forme peuvent ne pas se ressembler — ce sont quand même des parts égales.",
-        "Remarquer le nombre de parts égales : deux (des moitiés), trois (des tiers) ou quatre (des quarts).",
-        "Distinguer un partage en parts égales d'un partage inégal, du mauvais nombre de parts, ou d'une forme non partagée."
+        "Reconnaître les moitiés, les tiers et les quarts d’une forme",
+        "Voir que des parts égales peuvent avoir des formes différentes",
+        "Distinguer des parts égales de parts inégales en même nombre",
+        "Associer une part coloriée à une fraction d’après sa quantité"
       ],
       "howToPlay": [
-        "Regarde la forme de départ : observe comment elle est partagée en parts égales.",
-        "Touche la forme qui montre le même partage en parts égales — même si les morceaux n'ont pas exactement la même forme.",
-        "Reçois un retour doux tout de suite, puis passe à la forme suivante à ton rythme."
+        "Regarde le modèle ou lis la carte.",
+        "Touche la forme qui te semble juste. Pour les parts égales, touche chaque forme bien partagée pour lui mettre un ruban.",
+        "Appuie sur Vérifier : la presse écrase les morceaux en galettes et les compare.",
+        "Si les galettes ne vont pas, regarde les bords et les anneaux, puis choisis à nouveau."
       ],
       "learningGoals": [
-        "Comprendre que des parts égales peuvent avoir des formes différentes tout en restant égales.",
-        "Reconnaître une même forme partagée en deux, trois ou quatre parts égales de plusieurs manières, et la nommer en moitiés, tiers ou quarts.",
-        "Construire la base du partage équitable qui prépare les fractions plus tard."
+        "Reconnaître quand une forme est coupée en parts égales : en moitiés, en tiers et en quarts.",
+        "Comprendre que des parts égales d’un même tout n’ont pas besoin d’avoir la même forme.",
+        "Reconnaître une fraction comme un tiers ou deux quarts dans une image d’après la quantité montrée."
       ]
     },
     "choice-board.fraction-equal-shares.1-g-a-3": {

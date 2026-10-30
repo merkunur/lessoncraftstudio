@@ -194,25 +194,26 @@
   "prose": {
     "choice-board.fraction-noncongruent.2-g-a-3": {
       "about": [
-        "Dette er en rolig gjenkjenningsaktivitet om like store deler. Barnet ser en form som allerede er delt i like store deler, og skal kjenne igjen en annen form som er delt i like mange like store deler. Alt skjer i nettleseren — ingen nedlasting, ingen konto, ingen innlogging.",
-        "Den store ideen i denne aktiviteten er at like store deler ikke trenger å se like ut. Et kvadrat som er delt rett over midten, og et kvadrat som er delt fra hjørne til hjørne, viser begge to like store deler — selv om bitene har ulik form. Barnet velger den formen som er delt i like mange like store deler, men på en annen måte. De gale valgene er former som er delt i ulike store deler, delt i feil antall deler, eller ikke delt i det hele tatt. Barnet deler ikke formen selv, men kjenner igjen at like store deler kan se forskjellige ut.",
-        "Aktiviteten følger LK20 innenfor området geometri — å kjenne igjen kvadrater og rektangler som er delt i to, tre og fire like store deler, og å navngi dem som halvdeler, tredjedeler og fjerdedeler. Det er ingen tidtaker, ingen poeng, bare lekende øving."
+        "Mange barn tror at like store deler også må se like ut: to trekanter er halvdeler, men en trekant og et rektangel kan ikke være det. Og to biter regnes som halvdeler selv når den ene er mye større. Deigpressen gjør det synlig hvor mye det er i hver bit.",
+        "Hver delt figur er en bit deig. Under pressen blir hver bit presset til en rund deigklatt med nøyaktig like mye deig, så en lang stripe og en tykk trekant med like mye deig blir like klatter. Forbildets klatter ligger på et stekebrett; når man sjekker, lander klattene fra den valgte figuren oppå. Like mye passer nøyaktig, en større klatt viser en oransje kant, en mindre etterlater en lys ring, og en klatt for mye eller for lite synes med en gang.",
+        "Tre spillebrett: som forbildet (finn en annen figur som er delt i de samme like store delene, selv om bitene ser forskjellige ut), rettferdig delt (knyt et bånd rundt hver figur som er delt i like store deler) og hvilken figur som viser en brøk som en tredel eller tre firedeler; der ruller de oransje bitene sammen til én klump som skal fylle kortets del. Brøkene kan stå som ord eller som tall. Etter to feil viser hver figur klattene sine. Ingen klokke, ingen poeng."
       ],
       "practices": [
-        "Kjenne igjen når et kvadrat eller et rektangel er delt i like store deler.",
-        "Se at like store deler kan ha ulik form og likevel være like store — for eksempel delt over midten eller fra hjørne til hjørne.",
-        "Skille mellom former som er delt i like store deler og former som er delt i ulike store deler eller ikke delt i det hele tatt.",
-        "Bruke ordene halvdeler, tredjedeler og fjerdedeler om to, tre og fire like store deler."
+        "Kjenne igjen halvdeler, tredeler og firedeler av en figur",
+        "Se at like store deler kan ha forskjellig form",
+        "Skille like store deler fra ulike store deler med samme antall biter",
+        "Koble en farget del til en brøk etter hvor mye den er"
       ],
       "howToPlay": [
-        "Barnet ser først en form som er delt i like store deler, og ser hvor mange deler den har.",
-        "Barnet kjenner igjen den andre formen som er delt i like mange like store deler — men på en annen måte enn den første.",
-        "Når barnet har valgt, trykk så på Sjekk for å se om de like store delene stemmer."
+        "Se på forbildet, eller les kortet.",
+        "Trykk på figuren du tror er riktig. Når du deler rettferdig, trykker du på hver rettferdig delt figur, så den får et bånd.",
+        "Trykk på Sjekk: pressen trykker bitene flate til klatter og sammenligner dem.",
+        "Hvis klattene ikke passer, se på kantene og ringene og velg på nytt."
       ],
       "learningGoals": [
-        "Barnet kan kjenne igjen at en form er delt i like store deler.",
-        "Barnet forstår at like store deler kan se forskjellige ut og likevel være like store.",
-        "Barnet kan navngi to, tre og fire like store deler som halvdeler, tredjedeler og fjerdedeler."
+        "Kjenne igjen når en figur er delt i like store deler: halvdeler, tredeler og firedeler.",
+        "Forstå at like store deler av den samme helheten ikke trenger å ha samme form.",
+        "Kjenne igjen en brøk som en tredel eller to firedeler i et bilde ut fra hvor mye den viser."
       ]
     },
     "choice-board.fraction-equal-shares.1-g-a-3": {

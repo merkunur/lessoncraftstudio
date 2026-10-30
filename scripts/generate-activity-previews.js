@@ -127,6 +127,10 @@ function seedScript(row) {
     // the invention at work: the house pentagon tumbling along the lane, three sides printed (coral start, two teal), a square-corner mark on the strip
     return "(function(){var t=window['TrundleWheelActivity'];if(!t||!t.api)return;var C=window.TrundleWheelCore;t.FAST=true;t.OK_MS=600000;t.api.settings.board='sides';t.api.settings.crates='both';t._pool=null;t._ensurePool();t._start(0);t._render2();var it=t.st.items.filter(function(x){return x.id==='pent_house';})[0];C.put(t.st,it.key,'dock');C.roll(t.st,1);C.roll(t.st,1);t._view.t=0.45;t._paint();})();";
   }
+  if (row.tool === 'dough-press-activity') {
+    // the invention at work: the model's quarters on the tray and the mixed fourths (two rectangles + two triangles) pressed onto them — four patties that fit exactly
+    return "(function(){var t=window['DoughPressActivity'];if(!t||!t.api)return;var C=window.DoughPressCore;t.FAST=true;t.OK_MS=600000;t.api.settings.board='match';t.api.settings.read='words';t._pool=null;t._ensurePool();t._start(12,0);t._render2();var i=t.st.tiles.findIndex(function(x){return x.fig==='sq-fourths-mixed';});t._tap(i);t.st.done=true;t._view.pressed=true;t._view.glaze=true;t._paint();})();";
+  }
   if (row.tool === 'stamp-sheet-activity') {
     // the invention at work: a 3-by-4 stamp sheet perforated with one line out of place, the press down — true stamps where the squares are true, a torn edge and spare paper where they are not
     return "(function(){var t=window['StampSheetActivity'];if(!t||!t.api)return;var C=window.StampSheetCore;t.FAST=true;t.OK_MS=600000;t.api.settings.board='numbers';t.api.settings.card='rowsOf';t._pool=null;t._ensurePool();t._start(4,0);t._render2();[2,4,7].forEach(function(h){C.toggleCut(t.st,'col',h);});[2,4].forEach(function(h){C.toggleCut(t.st,'row',h);});t._check();t._view.note='';t._paint();})();";

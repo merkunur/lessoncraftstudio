@@ -1477,25 +1477,26 @@
     },
     "choice-board.fraction-noncongruent.2-g-a-3": {
       "about": [
-        "Questa è un'attività di geometria per bambini dai 6 agli 8 anni, da fare direttamente nel browser: non serve installare nulla e non serve alcun account. Il bambino vede una forma divisa in parti uguali e poi tocca un'altra forma che mostra lo stesso numero di parti uguali.",
-        "L'idea nuova è semplice e importante: parti uguali non devono per forza avere la stessa forma. Un quadrato diviso a metà con una linea dritta e un quadrato diviso da un angolo all'angolo opposto mostrano entrambi due metà uguali, anche se i pezzi hanno forme diverse. Le scelte sbagliate sono forme con parti non uguali, con un numero di parti diverso, oppure non divise affatto. Il bambino non divide la forma, ma riconosce che parti uguali possono avere forme diverse.",
-        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dello spazio e delle figure: riconoscere quadrati e rettangoli divisi in due, tre o quattro parti uguali e nominarli come metà, terzi e quarti. Nessun timer, nessun punteggio: il bambino osserva con calma, confronta e sceglie."
+        "Molti bambini credono che le parti uguali debbano anche sembrare uguali: due triangoli sono metà, ma un triangolo e un rettangolo no. E due pezzi passano per metà anche quando uno è molto più grande. La pressa per l’impasto rende visibile quanto impasto c’è in ogni pezzo.",
+        "Ogni figura divisa è un pezzo di impasto. Sotto la pressa ogni pezzo viene schiacciato in un disco rotondo con esattamente la stessa quantità di impasto, così una striscia lunga e un triangolo cicciotto con la stessa quantità di impasto diventano dischi identici. I dischi del modello aspettano su un vassoio; alla verifica, i dischi della figura scelta ci si appoggiano sopra. Quantità uguali combaciano esattamente, un disco più grande mostra un bordo arancione, uno più piccolo lascia un anello chiaro, e un disco in più o in meno si vede subito.",
+        "Tre tabelloni: come il modello (trovare un’altra figura divisa nelle stesse parti uguali, anche se i pezzi sembrano diversi), parti uguali (legare un nastro a ogni figura divisa in parti uguali) e quale figura mostra una frazione come un terzo o tre quarti, dove i pezzi arancioni rotolano in un’unica palla che deve riempire la parte della scheda. Le frazioni si leggono in parole o in numeri. Dopo il secondo errore ogni figura mostra i suoi dischi. Niente cronometro, niente punteggio."
       ],
       "practices": [
-        "Riconoscere quando un quadrato o un rettangolo è diviso in parti uguali.",
-        "Capire che due forme possono mostrare lo stesso numero di parti uguali pur avendo i pezzi di forma diversa.",
-        "Nominare le parti uguali come metà, terzi e quarti.",
-        "Confrontare con attenzione e scartare le forme con parti non uguali, con un numero di parti sbagliato o non divise."
+        "Riconoscere metà, terzi e quarti di una figura",
+        "Vedere che parti uguali possono avere forme diverse",
+        "Distinguere parti uguali da parti disuguali con lo stesso numero di pezzi",
+        "Collegare una parte colorata a una frazione in base alla quantità"
       ],
       "howToPlay": [
-        "Il bambino guarda la forma di partenza e conta in quante parti uguali è divisa.",
-        "Poi osserva le altre forme e tocca quella divisa nello stesso numero di parti uguali, anche se i pezzi hanno una forma diversa.",
-        "Con la conferma, il bambino vede se la scelta mostra davvero parti uguali e può riprovare con calma."
+        "Guarda il modello o leggi la scheda.",
+        "Tocca la figura che secondo te è giusta. Nelle parti uguali, tocca ogni figura divisa in parti uguali per legarle un nastro.",
+        "Premi Verifica: la pressa schiaccia i pezzi in dischi e li confronta.",
+        "Se i dischi non combaciano, guarda i bordi e gli anelli e scegli di nuovo."
       ],
       "learningGoals": [
-        "Riconoscere forme divise in due, tre o quattro parti uguali e nominarle come metà, terzi e quarti.",
-        "Comprendere che parti uguali possono avere forme diverse pur restando uguali tra loro.",
-        "Distinguere le divisioni in parti uguali da quelle in parti non uguali."
+        "Riconoscere quando una figura è divisa in parti uguali: metà, terzi e quarti.",
+        "Capire che parti uguali dello stesso intero non devono per forza avere la stessa forma.",
+        "Riconoscere una frazione come un terzo o due quarti in un disegno dalla quantità che mostra."
       ]
     },
     "choice-board.fraction-equal-shares.1-g-a-3": {

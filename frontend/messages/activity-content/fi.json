@@ -194,25 +194,26 @@
   "prose": {
     "choice-board.fraction-noncongruent.2-g-a-3": {
       "about": [
-        "Tässä harjoituksessa lapsi katselee kuviota, joka on jaettu yhtä suuriin osiin, ja etsii toisen kuvion, joka on jaettu yhtä moneen yhtä suureen osaan. Harjoitus toimii suoraan selaimessa — mitään ei tarvitse asentaa eikä tiliä tarvita.",
-        "Tärkein uusi ajatus on, että yhtä suuret osat eivät aina näytä samanlaisilta. Neliö voidaan jakaa kahteen yhtä suureen osaan keskeltä viivalla tai kulmasta kulmaan, ja molemmissa on kaksi yhtä suurta puolikasta, vaikka palat ovat eri muotoiset. Lapsi valitsee kuvion, jossa on yhtä monta yhtä suurta osaa, ja jättää valitsematta kuviot, joissa osat ovat eri kokoiset, osia on väärä määrä tai kuviota ei ole jaettu lainkaan. Lapsi ei jaa muotoa itse, vaan tunnistaa, mikä muoto on jaettu yhtä suuriin osiin.",
-        "Harjoitus on OPS 2014:n mukainen geometrian osa-alueella — lapsi tunnistaa kahteen, kolmeen ja neljään yhtä suureen osaan jaetut neliöt ja suorakulmiot ja kutsuu niitä puolikkaiksi, kolmasosiksi ja neljäsosiksi. Lapsi saa edetä rauhassa omaan tahtiinsa: ei ajastinta, ei pisteitä."
+        "Moni lapsi uskoo, että yhtä suurten osien täytyy myös näyttää samanlaisilta: kaksi kolmiota ovat puolikkaita, mutta kolmio ja suorakulmio eivät voisi olla. Ja kaksi palaa käy puolikkaista, vaikka toinen olisi paljon suurempi. Taikinapuristin näyttää, kuinka paljon kussakin palassa on.",
+        "Jokainen jaettu kuvio on pala taikinaa. Puristimen alla jokainen pala litistyy pyöreäksi taikinakiekoksi, jossa on täsmälleen yhtä paljon taikinaa. Niinpä pitkä suikale ja paksu kolmio, joissa on yhtä paljon taikinaa, tulevat ulos samanlaisina kiekkoina. Mallin kiekot odottavat pellillä; tarkistettaessa valitun kuvion kiekot laskeutuvat niiden päälle. Yhtä suuret määrät osuvat täsmälleen päällekkäin, suurempi kiekko näyttää oranssin reunan, pienempi jättää vaalean renkaan, ja ylimääräinen tai puuttuva kiekko näkyy heti.",
+        "Kolme pelilautaa: mallin mukaan (etsi toinen kuvio, joka on jaettu samoihin yhtä suuriin osiin, vaikka palat näyttäisivät erilaisilta), reilusti jaettu (sido nauha jokaiseen kuvioon, joka on jaettu yhtä suuriin osiin) ja mikä kuvio näyttää murtoluvun, kuten yhden kolmasosan tai kolme neljäsosaa. Siinä oranssit palat vierivät yhdeksi palloksi, jonka täytyy täyttää kortin osa. Murtoluvut voi lukea sanoina tai lukuina. Toisen virheen jälkeen jokainen kuvio näyttää kiekkonsa. Ei kelloa, ei pisteitä."
       ],
       "practices": [
-        "Tunnistaa, milloin neliö tai suorakulmio on jaettu yhtä suuriin osiin ja milloin osat ovat eri kokoiset.",
-        "Huomaa, että yhtä suuret osat voivat näyttää erilaisilta — sama kokonaisuus voidaan jakaa monella tavalla yhtä suuriin osiin.",
-        "Laskee, moneenko yhtä suureen osaan kuvio on jaettu, ja vertaa osien määrää toiseen kuvioon.",
-        "Nimeää osat puolikkaiksi, kolmasosiksi ja neljäsosiksi."
+        "Kuvion puolikkaiden, kolmasosien ja neljäsosien tunnistaminen",
+        "Sen huomaaminen, että yhtä suurilla osilla voi olla eri muoto",
+        "Yhtä suurten osien erottaminen eri suurista osista, kun paloja on yhtä monta",
+        "Väritetyn osan yhdistäminen murtolukuun sen määrän perusteella"
       ],
       "howToPlay": [
-        "Katso ensin ylhäällä olevaa kuviota ja huomaa, moneenko yhtä suureen osaan se on jaettu.",
-        "Napauta sitä kuviota, joka on jaettu yhtä moneen yhtä suureen osaan — muista, että osat voivat näyttää erilaisilta vaikka ne ovat yhtä suuret.",
-        "Tarkista valintasi painikkeesta. Jos haluat, voit yrittää uudelleen ja kokeilla toista kuviota."
+        "Katso mallia tai lue kortti.",
+        "Napauta kuviota, jonka uskot olevan oikea. Reilussa jaossa napauta jokaista reilusti jaettua kuviota, niin se saa nauhan.",
+        "Paina Tarkista: puristin litistää palat kiekoiksi ja vertaa niitä.",
+        "Jos kiekot eivät sovi yhteen, katso reunoja ja renkaita ja valitse uudelleen."
       ],
       "learningGoals": [
-        "Lapsi ymmärtää, että yhtä suuret osat eivät aina ole samannäköisiä, vaikka ne ovat saman kokoiset.",
-        "Lapsi tunnistaa kahteen, kolmeen ja neljään yhtä suureen osaan jaetut neliöt ja suorakulmiot.",
-        "Lapsi osaa nimetä osat puolikkaiksi, kolmasosiksi ja neljäsosiksi."
+        "Tunnistaa, milloin kuvio on jaettu yhtä suuriin osiin: puolikkaisiin, kolmasosiin ja neljäsosiin.",
+        "Ymmärtää, että saman kokonaisuuden yhtä suurilla osilla ei tarvitse olla samaa muotoa.",
+        "Tunnistaa kuvasta murtoluku, kuten yksi kolmasosa tai kaksi neljäsosaa, sen näyttämän määrän perusteella."
       ]
     },
     "choice-board.fraction-equal-shares.1-g-a-3": {

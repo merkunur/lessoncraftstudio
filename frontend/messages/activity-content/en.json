@@ -194,25 +194,26 @@
   "prose": {
     "choice-board.fraction-noncongruent.2-g-a-3": {
       "about": [
-        "An example shape already split into equal parts appears, and the child taps another shape split into the same number of equal parts — even when the pieces are shaped differently, like a square cut corner-to-corner and a square cut straight down the middle that both show two equal halves. It's an interactive Grade 2 geometry activity that plays right in the browser with no sign-up.",
-        "The big idea is that equal shares of the same whole do not have to look alike. The other choices show the shape split into unequal parts, split into the wrong number of parts, or not split at all, so the child has to focus on the count of equal pieces rather than on the picture matching exactly. The child recognizes the matching partition; the child does not cut the shapes.",
-        "It is aligned to Common Core 2.G.A.3 — recognizing that equal shares of identical wholes need not have the same shape, and naming shares as halves, thirds, and fourths. No timer, no score — just calm, playful practice."
+        "Children often believe that equal parts must look the same: two triangles are halves, but a triangle and a rectangle cannot be. And two pieces count as halves even when one is much bigger. The Dough Press makes the amount of each piece something you can see.",
+        "Every cut shape is a slab of dough. Under the press each piece squashes into a round patty holding exactly that piece’s dough, so a long strip and a fat triangle with the same amount of dough come out as identical patties. The model’s patties wait on a tray; on Check the chosen shape’s patties land on top of them. Equal amounts match exactly, a bigger patty shows a coral rim, a smaller one leaves a pale ring, and an extra or missing patty is plain to see.",
+        "Three boards: match the model (find another shape cut into the same equal parts, even when the pieces look different), fair shares (tie a ribbon on every shape cut into equal parts) and which shape shows a fraction such as one third or three fourths, where the coral pieces roll into one lump that must fill the card’s share. Fractions can be read as words or as numbers. After a second miss every shape shows its patties. No timer, no score."
       ],
       "practices": [
-        "Recognize that equal shares of one shape can look different and still be equal",
-        "Match by the number of equal parts, not by pictures that look identical",
-        "Tell equal parts from unequal parts, and the right number from the wrong number",
-        "Use the words halves, thirds, and fourths for equal shares"
+        "Recognising halves, thirds and fourths of a shape",
+        "Seeing that equal shares can have different shapes",
+        "Telling equal parts from unequal parts with the same count",
+        "Matching a shaded share to a fraction by its amount"
       ],
       "howToPlay": [
-        "Look at the example shape and see how many equal parts it is split into.",
-        "Tap the other shape split into the same number of equal parts, even if the pieces look different, then press Check.",
-        "Try again any time; there is no timer and no score."
+        "Look at the model, or read the card.",
+        "Tap the shape you think is right. On the fair board, tap every fair shape to tie a ribbon on it.",
+        "Press Check: the press squashes the pieces into patties and compares them.",
+        "If the patties do not match, look at the rims and gaps and choose again."
       ],
       "learningGoals": [
-        "Recognize shapes split into two, three, or four equal shares — the focus of Common Core 2.G.A.3",
-        "Understand that equal shares can have different shapes as long as the parts are the same size",
-        "Strengthen the fair-share thinking that names and compares fractions later"
+        "Recognising when a shape is cut into equal shares: halves, thirds and fourths.",
+        "Understanding that equal shares of the same whole do not need to have the same shape.",
+        "Recognising a fraction such as one third or two fourths in a picture by the amount it shows."
       ]
     },
     "choice-board.fraction-equal-shares.1-g-a-3": {

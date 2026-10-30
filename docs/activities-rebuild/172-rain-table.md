@@ -66,3 +66,8 @@ ORDER row 172 · id `fractions.partition-thirds.2-g-a-3` (kept). Design: `design
 - `local-test-rain-table.js` 2,904/0 in 11 locales. It covers real taps on notches and pegs, the keyboard, every hint, the tube read-outs, the puddle, the surprise, the settings and the color step. It also checks: every mark of the circle and the oval reached by a real tap at 320; the press-and-slide; the real rain once; Check beside the tubes on phones; Next above the fold when solved; and 7 states × 8 widths with Check above the fold.
 - Visual QA ×11 locales: 216 renders each (4 phases × 9 rounds × 6 viewports), all PASS; tablet reach 20/0.
 - Other audits: hierarchy 326/0; settings efficacy 2 live; prose claims, SERP copy, content tells, route preflight and Next delay all PASS.
+
+## Live (2026-10-30)
+- Deployed with `6d60072e1`; payment canary OK. The page serves `rain-table-activity.html?v=9.918`, and all 11 pages return 200 (curl).
+- `live-verify-rain-table.js --locales=en,de,sv,fi`: 41/0. At 1366 and 390, real taps on the middle notch give a count miss (two tubes over, one dry); lifting it and tapping the 4/12 and 8/12 notches puts every tube at the gold line, solved; the iframe grows with the card.
+- The first full run, which loads all 11 pages in a browser before the four plays, lost the activity on every play afterwards (the row 171 pattern, worse). A fresh browser saw the page and its activity correctly. Re-run without that sweep: 41/0. For the next rows, check page statuses with curl and the plays separately.

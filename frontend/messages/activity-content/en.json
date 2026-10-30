@@ -1554,25 +1554,25 @@
     },
     "coin-stall.money.2-md-c-8": {
       "about": [
-        "Pip the otter runs a seaside stall, and each round is a short word problem with real U.S. coins — penny, nickel, dime, and quarter: count a pile (two dimes and three pennies make 23¢), pay an exact price, make change when cheese costs 70¢ and you pay a dollar, or trade a quarter for smaller coins of equal value. It's a Grade 2 money game that runs in the browser with no account.",
-        "The catch that makes it real money sense: the value is not printed on the coin, so a child has to know that a dime is worth 10¢ even though it is smaller than the 5¢ nickel. That breaks the natural habit of judging worth by size, and the variety of jobs — counting, paying exactly, making change, trading equal values — means children practice the meaning of each coin instead of one memorized routine. A scaffolded legend fades from full help to none across the rounds.",
-        "It is aligned to Common Core 2.MD.C.8 — solving word problems with dollars and cents using the symbols for the four coins. No timer, no score — just calm, playful practice."
+        "Knowing what a coin is worth is the whole of money sense, and in the United States it is hard: the coins carry no numbers, and the dime is smaller than the nickel although it is worth twice as much. Pip's Market Stall makes that knowledge the way in.",
+        "Pip's till has a cup for every coin's worth — 25¢, 10¢, 5¢ and 1¢ — and a cup takes only the coin it is named for. Drop a nickel into the 10¢ cup and it bounces straight back, however big it looks. Once the money is in the till it already lies biggest worth first, so counting on is the natural way to count. The coins are drawn true to the real coins' sizes and metals.",
+        "Three levels: count a spilled till and set the total; pay Pip an exact price, with the fewest coins, in a fair trade or in a second way; then give change, decide whether a purse holds enough, and find the purse with more money. A first miss lines the coins up, worth first; a second adds the running totals. No timer, no score."
       ],
       "practices": [
-        "Know the value of a penny, nickel, dime, and quarter without it being written on the coin",
-        "Count a mixed pile of coins and pay an exact price",
-        "Make change and make the same amount more than one way",
-        "Trade a coin for smaller coins of equal value"
+        "Know the worth of a penny, nickel, dime and quarter without a number on the coin",
+        "Count a mixed handful of coins by counting on from the coin worth the most",
+        "Pay an exact amount, with the fewest coins, and in more than one way",
+        "Give change, and decide whether there is enough money"
       ],
       "howToPlay": [
-        "Read Pip's word problem — count, pay exactly, make change, or trade.",
-        "Tap the coins you need from the purse to solve it.",
-        "Submit your answer and try again as needed — there is no timer and no score."
+        "Drag each coin (or tap it, then tap a cup) into the till cup for its worth; the wrong cup sends it back.",
+        "Set the total, choose an answer, or give the change, then press Check.",
+        "After a miss the coins line up worth first; after a second, with the running totals."
       ],
       "learningGoals": [
-        "Solve money word problems with pennies, nickels, dimes, and quarters — the focus of Common Core 2.MD.C.8.",
-        "Understand that a coin's worth is not the same as its size, so a dime beats a nickel.",
-        "Build the coin sense children use to count money and make change in real life."
+        "Knowing the worth of each U.S. coin.",
+        "Counting a collection of coins by counting on from the largest worth.",
+        "Solving money problems: paying, making change, and comparing amounts."
       ]
     },
     "comet-kangaroo.tens-hundreds.2-nbt-b-8": {

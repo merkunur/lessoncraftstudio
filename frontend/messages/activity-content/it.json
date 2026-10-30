@@ -4200,25 +4200,25 @@
     },
     "coin-stall.money.2-md-c-8": {
       "about": [
-        "Quante monete servono per pagare 30 centesimi? E se il cliente ti dà 1 euro, quanto resto gli devi dare?",
-        "Alla bancarella di Otto il bambino legge il prezzo, conta le monete in euro e centesimi, compone l’importo esatto per pagare e impara a dare il resto scambiando le monete quando serve.",
-        "L’attività è allineata alle «Indicazioni nazionali» ed è: senza registrazione, senza timer e senza punteggio, così ogni bambino può imparare al proprio ritmo."
+        "Per contare i soldi bisogna sapere quanto vale ogni moneta. È più difficile di quanto sembri: la moneta da 10 centesimi è più piccola di quella da 5 centesimi, eppure vale il doppio.",
+        "La cassa di Otto ha uno scomparto per ogni valore di moneta, e ogni scomparto accetta solo la sua moneta: una moneta da 5 centesimi nello scomparto da 10 rimbalza subito fuori, per quanto sembri grande. Dentro la cassa i soldi sono già in ordine, dalla moneta che vale di più a quella che vale di meno, e contare andando avanti viene spontaneo. Le monete sono disegnate nella loro grandezza e nel loro colore reali.",
+        "Tre livelli: contare una cassa rovesciata e indicare il totale; pagare Otto con l’importo esatto, con meno monete possibile, cambiando una moneta o in un altro modo; poi dare il resto, decidere se i soldi di un borsellino bastano e trovare il borsellino con più soldi. Dopo un errore le monete si mettono in fila per valore; dopo il secondo, con le somme parziali. Senza tempo e senza punteggio, in linea con le Indicazioni nazionali."
       ],
       "practices": [
-        "Contare le monete in euro e centesimi",
-        "Comporre un importo esatto",
-        "Dare il resto",
-        "Riconoscere il valore delle monete"
+        "Conoscere il valore di ogni moneta in euro e in centesimi",
+        "Contare le monete cominciando da quella che vale di più",
+        "Pagare un importo esatto, con meno monete possibile e in modi diversi",
+        "Dare il resto e decidere se i soldi bastano"
       ],
       "howToPlay": [
-        "Leggi quanto costa alla bancarella di Otto",
-        "Scegli le monete giuste per pagare l’importo esatto",
-        "Paga Otto e, se serve, calcola il resto"
+        "Trascina ogni moneta nello scomparto del suo valore (oppure toccala e poi tocca lo scomparto); in quello sbagliato rimbalza fuori.",
+        "Indica il totale, scegli una risposta o dai il resto, poi premi Controlla.",
+        "Dopo un errore le monete si mettono in fila per valore; dopo il secondo, con le somme parziali."
       ],
       "learningGoals": [
-        "Riconoscere le monete dell’euro e il loro valore, da 1 centesimo a 2 euro",
-        "Pagare una cifra componendo l’importo esatto con più monete",
-        "Calcolare e dare il resto in semplici situazioni di acquisto"
+        "Conoscere il valore delle monete in euro e centesimi.",
+        "Contare una somma cominciando dalla moneta che vale di più.",
+        "Risolvere problemi con il denaro: pagare, dare il resto, confrontare somme."
       ]
     },
     "domino-two-part.two-syllable.rf-1-3-e": {

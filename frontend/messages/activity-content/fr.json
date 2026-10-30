@@ -1790,24 +1790,25 @@
     },
     "coin-stall.money.2-md-c-8": {
       "about": [
-        "Filou la loutre tient un petit étal au bord de la mer, et ton enfant vient y faire ses achats ! À chaque tour, il lit un petit problème, puis choisit de vraies pièces en euros et en centimes : parfois pour payer le prix exact, parfois pour compter un tas de pièces, rendre la monnaie, faire une somme d'une autre façon, ou échanger des pièces de même valeur. Le vrai piège du jeu : la valeur n'est pas écrite sur la pièce ! Il faut connaître ce que vaut chacune — et découvrir que la petite pièce de 10 centimes vaut plus que la plus grosse de 5 centimes.",
-        "Compter, payer, rendre la monnaie et décomposer une somme avec des euros et des centimes est un attendu du CE1. En manipulant de vraies pièces, l'enfant apprend à reconnaître leur valeur et à calculer avec la monnaie, une compétence utile pour la vie de tous les jours. Le jeu fonctionne directement dans le navigateur, sans minuteur, sans points et sans compte à créer, et laisse l'enfant avancer à son rythme, en accord avec les programmes officiels de l'école (domaine « Grandeurs et mesures »)."
+        "Pour compter avec l’argent, il faut savoir combien vaut chaque pièce. C’est plus difficile qu’il n’y paraît : la pièce de 10 centimes est plus petite que celle de 5 centimes, et pourtant elle vaut deux fois plus.",
+        "La caisse de Filou a un compartiment pour chaque valeur de pièce, et un compartiment ne prend que la pièce qui lui correspond. Une pièce de 5 centimes posée dans le compartiment de 10 centimes rebondit aussitôt, même si elle paraît grosse. Une fois dans la caisse, l’argent est déjà rangé de la pièce qui vaut le plus à celle qui vaut le moins : compter en avançant devient naturel. Les pièces sont dessinées à leur vraie taille et dans leur vraie couleur.",
+        "Trois niveaux : compter une caisse renversée et afficher le total ; payer Filou le prix exact, avec le moins de pièces possible, en faisant la monnaie ou d’une deuxième façon ; puis rendre la monnaie, dire si un porte-monnaie contient assez d’argent et trouver celui qui en contient le plus. Après une erreur, les pièces s’alignent par valeur ; après la deuxième, avec les sommes successives. Sans chronomètre ni score, en lien avec les programmes officiels."
       ],
       "practices": [
-        "Reconnaître la valeur des pièces en euros et centimes",
-        "Payer un prix avec le bon compte de pièces",
-        "Rendre la monnaie sur une somme",
-        "Faire une somme de plusieurs façons différentes",
-        "Échanger des pièces de même valeur"
+        "Connaître la valeur de chaque pièce en euros et en centimes",
+        "Compter des pièces en commençant par celle qui vaut le plus",
+        "Payer une somme exacte, avec le moins de pièces possible et de plusieurs façons",
+        "Rendre la monnaie et dire s’il y a assez d’argent"
       ],
       "howToPlay": [
-        "Lis le petit problème et regarde le prix à payer.",
-        "Touche les pièces pour les mettre dans le plateau, puis appuie sur Payer."
+        "Fais glisser chaque pièce dans le compartiment de sa valeur (ou touche-la, puis le compartiment) ; dans le mauvais, elle rebondit.",
+        "Affiche le total, choisis une réponse ou rends la monnaie, puis appuie sur Vérifier.",
+        "Après une erreur, les pièces s’alignent par valeur ; après la deuxième, avec les sommes successives."
       ],
       "learningGoals": [
-        "Connaître la valeur des pièces",
-        "Payer et rendre la monnaie",
-        "Calculer avec les euros et les centimes"
+        "Connaître la valeur des pièces en euros et en centimes.",
+        "Compter une somme en commençant par la pièce qui vaut le plus.",
+        "Résoudre des problèmes de monnaie : payer, rendre la monnaie, comparer des sommes."
       ]
     },
     "ten-tank.ten-frame-tank.k-nbt-a-1": {

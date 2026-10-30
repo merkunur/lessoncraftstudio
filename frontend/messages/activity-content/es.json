@@ -4176,25 +4176,25 @@
     },
     "coin-stall.money.2-md-c-8": {
       "about": [
-        "En el puesto de Otto la nutria, su hijo/a paga con monedas. Ve un precio —por ejemplo, una paleta de $3— y elige las monedas justas: una de $2 y una de $1.",
-        "La actividad practica contar dinero de muchas maneras: pagar el precio exacto, usar las menos monedas, dar el cambio, decir si alcanza y cambiar una moneda por otras. Usa monedas mexicanas: 50 centavos, $1, $2, $5 y $10.",
-        "Contar y usar dinero es parte de las magnitudes y la medida. Corresponde al eje «Magnitudes y medida». Sin presiones: sin cronómetro, sin puntaje, sin perder; su hijo/a aprende con calma con Otto."
+        "Para contar dinero hay que saber cuánto vale cada moneda. Las monedas mexicanas crecen con su valor, y eso ayuda; lo difícil es contar un puñado mezclado sin perderse.",
+        "La caja de Otto tiene un compartimento para cada valor de moneda, y cada compartimento solo acepta la moneda que le corresponde: una moneda de $5 en el compartimento de $10 rebota de inmediato. Ya dentro de la caja, el dinero queda ordenado de la moneda que vale más a la que vale menos, y así contar hacia adelante sale solo. Las monedas están dibujadas con su tamaño y color reales.",
+        "Tres niveles: contar una caja volteada y marcar el total; pagarle a Otto el precio exacto, con la menor cantidad de monedas, cambiando una moneda o de otra manera; luego dar el cambio, decidir si alcanza el dinero de un monedero y encontrar el monedero con más dinero. Tras un error, las monedas se forman por valor; tras el segundo, con las sumas parciales. Sin reloj ni puntos, alineado con los planes de estudio."
       ],
       "practices": [
-        "Pagar un precio con las monedas justas",
-        "Usar las menos monedas posibles",
-        "Dar el cambio",
-        "Decir si el dinero alcanza"
+        "Conocer el valor de las monedas de $1, $2, $5 y $10",
+        "Contar monedas empezando por la que vale más",
+        "Pagar una cantidad exacta, con la menor cantidad de monedas y de varias maneras",
+        "Dar el cambio y decidir si alcanza el dinero"
       ],
       "howToPlay": [
-        "Mira el precio",
-        "Toca las monedas para ponerlas en la bandeja",
-        "Toca Pagar"
+        "Arrastra cada moneda al compartimento de su valor (o tócala y luego el compartimento); en el equivocado, rebota.",
+        "Marca el total, elige una respuesta o da el cambio, y luego presiona Revisar.",
+        "Tras un error, las monedas se forman por valor; tras el segundo, con las sumas parciales."
       ],
       "learningGoals": [
-        "Su hijo/a cuenta y usa dinero",
-        "Paga, da cambio y compara cantidades",
-        "Reconoce las monedas mexicanas"
+        "Conocer el valor de las monedas mexicanas.",
+        "Contar dinero empezando por la moneda de mayor valor.",
+        "Resolver problemas con dinero: pagar, dar el cambio y comparar cantidades."
       ]
     },
     "nila-pond.main-idea-net.ri-k-2": {

@@ -3924,6 +3924,29 @@
         "Tietää, että varttia vaille 4 kirjoitetaan 3.45, koska tunti vaihtuu vasta, kun pitkä viisari tulee numeron 12 kohdalle.",
         "Minuuttien lukeminen pitkästä viisarista: numeron 3 kohdalla on 15 minuuttia, numeron 9 kohdalla 45."
       ]
+    },
+    "coin-stall.money.2-md-c-8": {
+      "about": [
+        "Rahalla laskeminen alkaa siitä, että tietää, paljonko kukin kolikko on arvoltaan. Se on vaikeampaa kuin luulisi: 10 sentin kolikko on pienempi kuin 5 sentin kolikko, mutta sen arvo on kaksinkertainen.",
+        "Oton kassassa on lokero jokaiselle kolikon arvolle, ja lokero ottaa vain oman kolikkonsa: 5 sentin kolikko 10 sentin lokerossa pomppaa heti takaisin, vaikka näyttäisi isolta. Kassassa rahat ovat sitten valmiiksi järjestyksessä, arvokkain kolikko vasemmalla, ja eteenpäin laskeminen tulee luontevasti. Kolikot on piirretty oikean kokoisiksi ja värisiksi.",
+        "Kolme tasoa: kaatuneen kassan laskeminen ja summan näyttäminen; Otolle maksaminen tasan, mahdollisimman vähillä kolikoilla, vaihtamalla tai toisella tavalla; sitten vaihtorahan antaminen, sen päättäminen, riittävätkö kukkaron rahat, ja sen kukkaron etsiminen, jossa on enemmän rahaa. Virheen jälkeen kolikot asettuvat riviin arvon mukaan, toisen jälkeen välisummien kanssa. Ilman ajanottoa ja pisteitä, perusopetuksen opetussuunnitelman (OPS 2014) mukainen."
+      ],
+      "practices": [
+        "Tuntea 5, 10, 20 ja 50 sentin kolikoiden arvo",
+        "Laskea kolikoita aloittaen arvokkaimmasta",
+        "Maksaa tasan, mahdollisimman vähillä kolikoilla ja eri tavoin",
+        "Antaa vaihtorahaa ja päättää, riittävätkö rahat"
+      ],
+      "howToPlay": [
+        "Vedä jokainen kolikko sen arvon lokeroon (tai napauta kolikkoa ja sitten lokeroa); väärästä lokerosta se pomppaa takaisin.",
+        "Näytä summa, valitse vastaus tai anna vaihtorahat ja paina sitten Tarkista.",
+        "Virheen jälkeen kolikot asettuvat riviin arvon mukaan, toisen jälkeen välisummien kanssa."
+      ],
+      "learningGoals": [
+        "Eurokolikoiden arvon tunteminen.",
+        "Rahan laskeminen eteenpäin arvokkaimmasta kolikosta alkaen.",
+        "Rahatehtävien ratkaiseminen: maksaminen, vaihtorahan antaminen ja summien vertailu."
+      ]
     }
   }
 }

@@ -3924,6 +3924,29 @@
         "Vide, at kvart i 4 skrives 3.45, fordi timen først skifter, når den store viser når 12-tallet.",
         "Aflæse minutterne på den store viser: på 3-tallet er det 15 minutter, på 9-tallet er det 45."
       ]
+    },
+    "coin-stall.money.2-md-c-8": {
+      "about": [
+        "Den, der vil regne med penge, skal vide, hvad hver mønt er værd. Det er sværere, end det lyder: tikronen er mindre end femkronen og alligevel dobbelt så meget værd.",
+        "Ottos kasse har et rum til hver møntværdi, og et rum tager kun sin egen mønt: en femkrone i rummet til 10 kr. hopper straks tilbage, hvor stor den end ser ud. Inde i kassen ligger pengene så allerede i orden, den mønt, der er mest værd, til venstre, og så bliver det naturligt at tælle videre. Mønterne er tegnet i deres rigtige størrelse og farve, med hul i 1-, 2- og 5-kronen.",
+        "Tre niveauer: tælle en væltet kasse og indstille beløbet; betale Otto præcist, med så få mønter som muligt, ved at bytte eller på en anden måde; give så byttepenge, afgøre, om pengene i en pung er nok, og finde pungen med flest penge. Efter en fejl stiller mønterne sig på række efter værdi, efter den anden med delsummerne. Uden tidspres og uden point, i tråd med Fælles Mål."
+      ],
+      "practices": [
+        "Kende værdien af 1-, 2-, 5-, 10- og 20-kronen",
+        "Tælle mønter ved at begynde med den mønt, der er mest værd",
+        "Betale et præcist beløb, med så få mønter som muligt og på forskellige måder",
+        "Give byttepenge og afgøre, om pengene er nok"
+      ],
+      "howToPlay": [
+        "Træk hver mønt hen i rummet til dens værdi (eller tryk på mønten og så på rummet); i det forkerte rum hopper den tilbage.",
+        "Indstil beløbet, vælg et svar eller giv byttepenge, og tryk så på Tjek.",
+        "Efter en fejl stiller mønterne sig på række efter værdi, efter den anden med delsummerne."
+      ],
+      "learningGoals": [
+        "At kende værdien af de danske mønter.",
+        "At tælle penge ved at tælle videre fra den mønt, der er mest værd.",
+        "At løse opgaver med penge: betale, give byttepenge og sammenligne beløb."
+      ]
     }
   }
 }

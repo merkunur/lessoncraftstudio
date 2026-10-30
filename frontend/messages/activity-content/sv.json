@@ -4221,6 +4221,29 @@
         "Veta att kvart i 4 skrivs 3.45, eftersom timmen byts först när stora visaren kommer till 12:an.",
         "Läsa minuterna på stora visaren: på 3:an är det 15 minuter, på 9:an är det 45."
       ]
+    },
+    "coin-stall.money.2-md-c-8": {
+      "about": [
+        "Den som ska räkna med pengar måste veta vad varje mynt är värt. Det är svårare än det låter: tiokronan är mindre än tvåkronan och ändå värd fem gånger så mycket.",
+        "Ottos kassa har ett fack för varje myntvärde, och ett fack tar bara sitt eget mynt: en tvåkrona i facket för 10 kr studsar genast tillbaka, hur stor den än ser ut. I kassan ligger pengarna sedan redan i ordning, myntet som är värt mest till vänster, och då blir det naturligt att räkna vidare. Mynten är ritade i sin riktiga storlek och färg.",
+        "Tre nivåer: räkna en vält kassa och ställa in summan; betala Otto exakt, med så få mynt som möjligt, genom att växla eller på ett annat sätt; sedan ge växel, avgöra om pengarna i en plånbok räcker och hitta plånboken med mest pengar. Efter ett fel ställer sig mynten på rad efter värde, efter det andra med delsummorna. Utan tidtagning och utan poäng, i linje med Lgr22."
+      ],
+      "practices": [
+        "Känna till värdet av 1-, 2-, 5- och 10-kronorsmynten",
+        "Räkna mynt genom att börja med myntet som är värt mest",
+        "Betala en exakt summa, med så få mynt som möjligt och på olika sätt",
+        "Ge växel och avgöra om pengarna räcker"
+      ],
+      "howToPlay": [
+        "Dra varje mynt till facket för dess värde (eller tryck på myntet och sedan på facket); i fel fack studsar det tillbaka.",
+        "Ställ in summan, välj ett svar eller ge växel och tryck sedan på Kolla.",
+        "Efter ett fel ställer sig mynten på rad efter värde, efter det andra med delsummorna."
+      ],
+      "learningGoals": [
+        "Att känna till värdet av de svenska mynten.",
+        "Att räkna pengar genom att räkna vidare från myntet som är värt mest.",
+        "Att lösa problem med pengar: betala, ge växel och jämföra summor."
+      ]
     }
   }
 }

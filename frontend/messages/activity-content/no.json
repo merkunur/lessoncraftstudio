@@ -3948,6 +3948,29 @@
         "Vite at kvart på 4 skrives 3.45, fordi timen først skifter når den store viseren kommer til 12-tallet.",
         "Lese minuttene på den store viseren: på 3-tallet er det 15 minutter, på 9-tallet er det 45."
       ]
+    },
+    "coin-stall.money.2-md-c-8": {
+      "about": [
+        "Den som skal regne med penger, må vite hva hver mynt er verdt. Det er vanskeligere enn det høres ut: tikroningen er mindre enn femkroningen og likevel dobbelt så mye verdt.",
+        "Ottos kasse har et rom for hver myntverdi, og et rom tar bare sin egen mynt: en femkroning i rommet for 10 kr spretter straks tilbake, uansett hvor stor den ser ut. Inne i kassen ligger pengene allerede i rekkefølge, mynten som er verdt mest, til venstre, og da blir det naturlig å telle videre. Myntene er tegnet i riktig størrelse og farge, med hull i 1- og 5-kroningen.",
+        "Tre nivåer: telle en veltet kasse og stille inn beløpet; betale Otto nøyaktig, med så få mynter som mulig, ved å veksle eller på en annen måte; gi så vekslepenger, avgjøre om pengene i en lommebok er nok, og finne lommeboka med mest penger. Etter en feil stiller myntene seg på rad etter verdi, etter den andre med delsummene. Uten tidspress og uten poeng, i tråd med LK20."
+      ],
+      "practices": [
+        "Kjenne verdien av 1-, 5-, 10- og 20-kroningen",
+        "Telle mynter ved å begynne med mynten som er verdt mest",
+        "Betale et nøyaktig beløp, med så få mynter som mulig og på ulike måter",
+        "Gi vekslepenger og avgjøre om pengene er nok"
+      ],
+      "howToPlay": [
+        "Dra hver mynt til rommet for verdien sin (eller trykk på mynten og så på rommet); i feil rom spretter den tilbake.",
+        "Still inn beløpet, velg et svar eller gi vekslepenger, og trykk så på Sjekk.",
+        "Etter en feil stiller myntene seg på rad etter verdi, etter den andre med delsummene."
+      ],
+      "learningGoals": [
+        "Å kjenne verdien av de norske myntene.",
+        "Å telle penger ved å telle videre fra mynten som er verdt mest.",
+        "Å løse oppgaver med penger: betale, gi vekslepenger og sammenligne beløp."
+      ]
     }
   }
 }

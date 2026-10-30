@@ -335,25 +335,25 @@
     },
     "coin-stall.money.2-md-c-8": {
       "about": [
-        "An Ottos Marktstand liegt heute eine glänzende Muschel, und daran hängt ein kleines Schild: 30 Cent. Dein Kind soll genau diesen Betrag bezahlen. Es sucht in seinem Münzvorrat und legt ein 20-Cent-Stück und ein 10-Cent-Stück hin – zusammen sind das genau 30 Cent. Otto nimmt die Münzen freundlich entgegen, und die Muschel wechselt den Besitzer.",
-        "Mit Geld zu rechnen ist echte Alltagsmathematik: Beim Bezahlen zählt dein Kind Münzwerte zusammen, überlegt, welche Münzen genau passen, und gibt manchmal Wechselgeld heraus. Mal soll es einen Preis genau bezahlen, mal einen Haufen Münzen zählen, mal mit möglichst wenigen Münzen auskommen oder denselben Betrag auf eine neue Art legen. So bekommt dein Kind ein Gefühl für Euro und Cent, das ihm auch im echten Laden hilft.",
-        "Die Aufgaben sind für Klasse 2 gedacht – es gibt keinen Zeitdruck und keine Punkte. Otto sagt nie „falsch“: Hat dein Kind zu viel Geld hingelegt, nimmt es einfach eine Münze wieder zurück und probiert es erneut. Wer möchte, lässt sich die Sachaufgabe mit der Vorlese-Funktion laut vorlesen, sodass auch Kinder mitmachen können, die noch nicht sicher lesen."
+        "Wer mit Geld rechnen will, muss wissen, wie viel jede Münze wert ist. Das ist schwerer, als es aussieht: Die 10-Cent-Münze ist kleiner als die 5-Cent-Münze und trotzdem doppelt so viel wert.",
+        "Ottos Kasse hat ein Fach für jeden Münzwert, und ein Fach nimmt nur die Münze, für die es da ist. Wer eine 5-Cent-Münze in das 10-Cent-Fach legt, sieht sie sofort zurückspringen, egal wie groß sie ist. In der Kasse liegt das Geld dann schon nach Wert geordnet, die wertvollste Münze links, und das Weiterzählen ergibt sich von selbst. Die Münzen sind in echter Größe und Farbe gezeichnet.",
+        "Drei Stufen: eine ausgekippte Kasse zählen und den Betrag einstellen; Otto genau bezahlen, mit möglichst wenig Münzen, beim Wechseln oder auf eine zweite Art; dann Wechselgeld geben, entscheiden, ob das Geld im Geldbeutel reicht, und den Geldbeutel mit mehr Geld finden. Nach einem Fehler stellen sich die Münzen nach Wert auf, nach dem zweiten mit den Zwischensummen. Ohne Zeitdruck und ohne Punkte, passend zum Lehrplan."
       ],
       "practices": [
-        "Münzwerte zusammenzählen",
-        "einen Betrag genau bezahlen",
-        "Wechselgeld herausgeben",
-        "mit möglichst wenigen Münzen zahlen"
+        "Den Wert jeder Euro- und Cent-Münze kennen",
+        "Münzen zählen, mit der wertvollsten Münze anfangen und weiterzählen",
+        "Einen Betrag genau bezahlen, mit möglichst wenig Münzen und auf verschiedene Arten",
+        "Wechselgeld geben und entscheiden, ob das Geld reicht"
       ],
       "howToPlay": [
-        "Lies die Sachaufgabe an Ottos Marktstand – oder lass sie dir vorlesen.",
-        "Tippe die Euro- und Cent-Münzen an, bis der Betrag genau stimmt.",
-        "Zu viel gelegt? Nimm eine Münze zurück und probier es noch einmal."
+        "Zieh jede Münze in das Kassenfach für ihren Wert (oder tippe sie an und dann das Fach); im falschen Fach springt sie zurück.",
+        "Stell den Betrag ein, wähle eine Antwort oder gib das Wechselgeld, dann tippe auf Prüfen.",
+        "Nach einem Fehler stellen sich die Münzen nach Wert auf, nach dem zweiten mit den Zwischensummen."
       ],
       "learningGoals": [
-        "Euro- und Cent-Münzen erkennen und ihre Werte zusammenzählen",
-        "einen genauen Betrag legen und Wechselgeld bestimmen",
-        "Beträge geschickt mit wenigen Münzen zusammensetzen"
+        "Den Wert der Euro- und Cent-Münzen kennen.",
+        "Geldbeträge zählen, von der wertvollsten Münze aus weiterzählend.",
+        "Sachaufgaben mit Geld lösen: bezahlen, Wechselgeld geben, Beträge vergleichen."
       ]
     },
     "domino-two-part.two-syllable.rf-1-3-e": {

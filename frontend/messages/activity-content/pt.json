@@ -4200,25 +4200,25 @@
     },
     "coin-stall.money.2-md-c-8": {
       "about": [
-        "O Otto é uma lontra simpática que cuida de uma barraquinha cheia de lanchinhos. Na banca dele, você usa o dinheiro do Brasil — moedas de 25 e 50 centavos e de R$1, além das cédulas de R$2 e R$5 — para pagar o que o Otto pede. É como brincar de mercadinho, só que aprendendo de verdade.",
-        "A cada rodada, você faz uma tarefa diferente: conta quanto tem no caixa, paga o valor certinho de um lanche, dá o troco, usa as menos moedas possíveis ou troca uma moeda maior por outras menores. Aos poucos, você vai pegando o jeito de lidar com dinheiro como na padaria ou na feira.",
-        "Aqui a ideia é entender que cada moeda e cada cédula tem um valor — e esse valor a gente precisa saber de cabeça, porque nem sempre está escrito de um jeito fácil. Se algo não sair certo, o Otto nunca diz que você errou: ele dá uma dica e convida a tentar de novo. Não tem relógio, não tem cronômetro nem placar. Tudo alinhado à BNCC, no seu tempo."
+        "Para contar dinheiro, é preciso saber quanto vale cada moeda. Isso é mais difícil do que parece: a moeda de 10 centavos é menor que a de 5 centavos e, mesmo assim, vale o dobro.",
+        "O caixa do Otto tem um compartimento para cada valor de moeda, e cada compartimento só aceita a moeda que é dele: uma moeda de 5 centavos no compartimento de 10 centavos pula de volta na hora, por maior que pareça. Dentro do caixa, o dinheiro já fica em ordem, da moeda que vale mais para a que vale menos, e contar para a frente vira o caminho natural. As moedas são desenhadas no tamanho e na cor reais.",
+        "Três níveis: contar um caixa virado e mostrar o total; pagar o Otto com o valor exato, com o menor número de moedas, trocando uma moeda ou de outro jeito; depois dar o troco, decidir se o dinheiro de um porta-moedas dá e achar o porta-moedas com mais dinheiro. Depois de um erro, as moedas se enfileiram por valor; depois do segundo, com as somas parciais. Sem cronômetro nem pontos, alinhado à BNCC."
       ],
       "practices": [
-        "Contar quanto vale um punhado de moedas",
-        "Pagar o valor certo com moedas e cédulas",
-        "Dar o troco certinho",
-        "Usar as menos moedas possíveis"
+        "Conhecer o valor das moedas de 5, 10, 25 e 50 centavos",
+        "Contar moedas começando pela que vale mais",
+        "Pagar um valor exato, com o menor número de moedas e de vários jeitos",
+        "Dar o troco e decidir se o dinheiro dá"
       ],
       "howToPlay": [
-        "Leia o que o Otto pede.",
-        "Escolha as moedas e cédulas certas.",
-        "Toque para pagar ou dar o troco."
+        "Arraste cada moeda para o compartimento do valor dela (ou toque na moeda e depois no compartimento); no errado, ela pula de volta.",
+        "Mostre o total, escolha uma resposta ou dê o troco e depois toque em Conferir.",
+        "Depois de um erro, as moedas se enfileiram por valor; depois do segundo, com as somas parciais."
       ],
       "learningGoals": [
-        "Contar quanto dinheiro há juntando moedas e cédulas",
-        "Pagar o valor certo e dar o troco",
-        "Saber quanto vale cada moeda e cada cédula, com objetivos alinhados à BNCC"
+        "Conhecer o valor das moedas do real.",
+        "Contar dinheiro começando pela moeda de maior valor.",
+        "Resolver problemas com dinheiro: pagar, dar o troco e comparar valores."
       ]
     },
     "domino-two-part.two-syllable.rf-1-3-e": {

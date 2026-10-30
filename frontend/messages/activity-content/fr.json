@@ -3467,25 +3467,26 @@
     },
     "sort-bins.sort-by-sides.2-g-a-1": {
       "about": [
-        "À chaque tour, un assortiment de formes apparaît — triangles rectangles et obtusangles, carrés, losanges, pentagones et hexagones irréguliers — et l'enfant compte les côtés de chacune pour la glisser dans la bonne boîte. C'est une activité de géométrie interactive pour le CE1, qui se joue dans le navigateur, sans inscription.",
-        "Le geste clé, c'est de compter les côtés plutôt que de reconnaître une image apprise par cœur, car une forme à cinq côtés étirée ou penchée reste un pentagone. En rencontrant des formes irrégulières et tournées à côté des formes bien régulières, l'enfant s'entraîne à utiliser le nombre de côtés comme la règle qui nomme un polygone. Cela construit le vocabulaire — quadrilatère, pentagone, hexagone — et l'habitude d'analyser les formes par leurs parties.",
-        "Cette activité est alignée sur les programmes officiels : reconnaître et tracer des formes selon des attributs donnés, comme un nombre de côtés précis, et identifier les triangles, quadrilatères, pentagones et hexagones. Les enfants avancent à leur rythme, avec un retour doux et immédiat — ni minuteur, ni score."
+        "Compter les côtés d’une forme, c’est compter en boucle, et l’erreur vient de là : l’enfant part de quelque part, fait le tour, compte deux fois le premier côté ou s’arrête un trop tôt. Et un carré tourné, un triangle à l’envers ou un hexagone tordu ne ressemble souvent pas à son nom. Rouler et trier transforme la boucle en une rangée.",
+        "Chaque forme est une roue bancale. Posée sur la piste, elle bascule sur son coin avant vers le côté suivant, encore et encore, et chaque côté qui se pose imprime un trait sur une bande de papier, aussi long que ce côté, avec une marque pour le coin franchi : un point, ou un petit carré ouvert pour un angle droit. Le premier côté est corail ; quand il revient en bas, le ticket est fini, et l’enfant sait toujours d’où il est parti. Une forme tournée imprime le même ticket à partir d’un autre trait : tourner ne change rien.",
+        "L’enfant range ensuite les formes d’après leurs tickets sur l’un des trois plateaux : des caisses pour 3, 4, 5 et 6 côtés ; une armoire pour les quadrilatères, selon les côtés égaux et les angles droits, où le carré se trouve dans la colonne du rectangle et dans la rangée du losange ; et deux cerceaux, quatre côtés et un angle droit. Après une erreur, la roue fait rouler chaque forme mal placée ; après la deuxième, les traits sont numérotés. Sans chrono et sans points, en lien avec les programmes officiels."
       ],
       "practices": [
-        "Compter les côtés d'une forme pour décider à quel groupe de polygones elle appartient.",
-        "Distinguer triangles, quadrilatères, pentagones et hexagones par leur nombre de côtés.",
-        "Reconnaître le même polygone quand il est irrégulier, étiré ou tourné.",
-        "Employer correctement les mots quadrilatère, pentagone et hexagone."
+        "Reconnaître triangles, quadrilatères, pentagones et hexagones par leur nombre de côtés",
+        "Compter les côtés et les sommets sans perdre le point de départ",
+        "Trier des quadrilatères selon les côtés égaux et les angles droits",
+        "Trier des formes selon deux règles à la fois"
       ],
       "howToPlay": [
-        "Regarde chaque forme et compte combien de côtés elle a.",
-        "Glisse-la dans la bonne boîte — triangles, quadrilatères, pentagones ou hexagones.",
-        "Pas tout à fait ? Recommence autant de fois que tu veux — il n'y a ni minuteur, ni score."
+        "Fais glisser une forme sur la piste, ou touche-la puis touche la piste.",
+        "Glisse le long de la piste, ou touche la forme, pour la faire basculer sur le côté suivant jusqu’à ce que le côté corail revienne.",
+        "Lis le ticket, puis fais glisser la forme dans sa caisse, son tiroir ou son cerceau.",
+        "Appuie sur Vérifier quand chaque forme a sa place."
       ],
       "learningGoals": [
-        "Identifier les triangles, quadrilatères, pentagones et hexagones d'après leurs côtés.",
-        "Comprendre que c'est le nombre de côtés, et non l'allure, qui nomme un polygone.",
-        "Construire le vocabulaire des formes et l'habitude de compter les côtés sur lesquels s'appuie la géométrie plus tard."
+        "Reconnaître des formes qui ont un nombre donné de côtés et de sommets.",
+        "Découvrir pourquoi un carré est aussi un rectangle et un losange.",
+        "Classer des formes selon un critère, puis selon deux."
       ]
     },
     "ten-frame.quick-facts-to-5.k-oa-a-5": {

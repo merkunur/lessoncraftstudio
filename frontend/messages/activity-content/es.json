@@ -3640,25 +3640,26 @@
     },
     "sort-bins.sort-by-sides.2-g-a-1": {
       "about": [
-        "En cada ronda cae un montón de figuras (triángulos rectángulos y obtusángulos, cuadrados, rombos, pentágonos y hexágonos irregulares) y el niño o la niña cuenta los lados de cada una y la arrastra a la caja que le corresponde. Es una actividad de geometría para 2.º de primaria, interactiva, que se juega en el navegador, sin crear cuenta.",
-        "Lo importante es contar los lados en lugar de comparar con una figura memorizada, porque una figura de cinco lados estirada o inclinada sigue siendo un pentágono. Al enfrentar figuras irregulares y giradas junto a las más ordenadas, el niño o la niña practica usar el número de lados como la regla que nombra a un polígono. Eso construye el vocabulario (cuadrilátero, pentágono, hexágono) y el hábito de analizar figuras por sus partes.",
-        "Está alineada con los planes y programas de estudio (SEP): reconocer y dibujar figuras con atributos dados, como un número de lados determinado, e identificar triángulos, cuadriláteros, pentágonos y hexágonos. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+        "Contar los lados de una figura es contar en círculo, y ahí está el error: el niño empieza en algún lado, da la vuelta y cuenta dos veces el primer lado o se detiene uno antes. Y un cuadrado girado, un triángulo de cabeza o un hexágono chueco a menudo no parece lo que es. Rueda y ordena convierte el círculo en una fila.",
+        "Cada figura es una rueda chueca. En la pista se inclina sobre su esquina delantera hacia su siguiente lado, una y otra vez, y cada lado que se apoya imprime una raya en una tira de papel, tan larga como ese lado, con una marca por la esquina que pasó: un punto, o un cuadradito abierto si es un ángulo recto. El primer lado es coral; cuando vuelve a quedar abajo, el boleto está listo, y el niño siempre sabe dónde empezó. Una figura girada imprime el mismo boleto desde otra raya: girarla no cambia nada.",
+        "Luego el niño ordena las figuras según sus boletos en uno de tres tableros: cajas para 3, 4, 5 y 6 lados; un mueble para cuadriláteros, según lados iguales y ángulos rectos, donde el cuadrado está en la columna del rectángulo y en la fila del rombo; y dos aros, cuatro lados y un ángulo recto. Tras un error, la rueda hace rodar cada figura mal colocada; tras el segundo, las rayas llevan números. Sin reloj y sin puntos, alineada con los programas de la SEP."
       ],
       "practices": [
-        "Contar los lados de una figura para decidir a qué grupo de polígonos pertenece.",
-        "Distinguir triángulos, cuadriláteros, pentágonos y hexágonos por su número de lados.",
-        "Reconocer el mismo polígono cuando es irregular, está estirado o girado.",
-        "Usar correctamente las palabras cuadrilátero, pentágono y hexágono."
+        "Reconocer triángulos, cuadriláteros, pentágonos y hexágonos por su número de lados",
+        "Contar lados y esquinas sin perder el punto de partida",
+        "Clasificar cuadriláteros por lados iguales y ángulos rectos",
+        "Clasificar figuras con dos reglas a la vez"
       ],
       "howToPlay": [
-        "Mira cada figura y cuenta cuántos lados tiene.",
-        "Arrástrala a la caja que le corresponde: triángulos, cuadriláteros, pentágonos o hexágonos.",
-        "¿No salió a la primera? Inténtalo las veces que quieras: no hay temporizador ni puntuación."
+        "Arrastra una figura a la pista, o tócala y luego toca la pista.",
+        "Arrastra a lo largo de la pista, o toca la figura, para que se voltee sobre su siguiente lado hasta que vuelva el lado coral.",
+        "Lee el boleto y arrastra la figura a su caja, su cajón o su aro.",
+        "Toca Comprobar cuando cada figura tenga su lugar."
       ],
       "learningGoals": [
-        "Identificar triángulos, cuadriláteros, pentágonos y hexágonos por sus lados.",
-        "Entender que el número de lados, y no la apariencia, es lo que nombra a un polígono.",
-        "Formar el vocabulario de figuras y el hábito de contar lados que sostiene la geometría posterior."
+        "Reconocer figuras con un número dado de lados y esquinas.",
+        "Descubrir por qué un cuadrado también es un rectángulo y un rombo.",
+        "Clasificar figuras por una y por dos características."
       ]
     },
     "ten-frame.quick-facts-to-5.k-oa-a-5": {

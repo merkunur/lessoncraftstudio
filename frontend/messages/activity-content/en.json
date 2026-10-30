@@ -3985,25 +3985,26 @@
     },
     "sort-bins.sort-by-sides.2-g-a-1": {
       "about": [
-        "Each round drops a jumble of shapes — right and obtuse triangles, squares, rhombuses, irregular pentagons and hexagons — and the child counts the sides of each and drags it into the matching bin. It's an interactive Grade 2 geometry activity that plays in the browser with no sign-up.",
-        "The key move is counting the sides rather than matching a remembered picture, because a stretched or tilted five-sided shape is still a pentagon. By facing irregular and rotated shapes alongside the tidy ones, the child practices using the number of sides as the rule that names a polygon. That builds the vocabulary — quadrilateral, pentagon, hexagon — and the habit of analyzing shapes by their parts.",
-        "It is aligned to Common Core 2.G.A.1 — recognizing and drawing shapes with specified attributes such as a given number of sides, and identifying triangles, quadrilaterals, pentagons, and hexagons. No timer, no score — just calm, playful practice."
+        "Counting the sides of a shape goes wrong in a loop: a child starts somewhere, goes round, and counts the first side twice or stops one short. And a turned square, an upside-down triangle or a lopsided hexagon often does not look like its name. Roll and Sort turns the loop into a row.",
+        "Every shape is a wonky trundle wheel. Dropped on the lane, it tips over its front corner onto its next side, again and again, and each side that lands prints a dash on a paper strip, as long as that side, with a mark for the corner it tipped over: a dot, or a little open square for a square corner. The first side is coral; when it comes down again the ticket is done, so the child always knows where they started. A turned shape prints the same ticket from a different dash: turning changes nothing.",
+        "The child then sorts the shapes by their tickets on one of three boards: crates for 3, 4, 5 and 6 sides; a cabinet for four-sided shapes, by equal sides and square corners, where the square sits in the rectangle column and in the rhombus row; and two rings, four sides and a square corner. After a miss, the wheel rolls each misplaced shape for the child; after a second miss, the dashes get numbers. No timer, no score."
       ],
       "practices": [
-        "Count the sides of a shape to decide which polygon group it belongs to",
-        "Tell triangles, quadrilaterals, pentagons, and hexagons apart by their number of sides",
-        "Recognize the same polygon when it is irregular, stretched, or rotated",
-        "Use the words quadrilateral, pentagon, and hexagon correctly"
+        "Naming triangles, quadrilaterals, pentagons and hexagons by their number of sides",
+        "Counting sides and corners without losing the starting place",
+        "Sorting four-sided shapes by equal sides and square corners",
+        "Sorting shapes by two rules at once"
       ],
       "howToPlay": [
-        "Look at each shape and count how many sides it has.",
-        "Drag it into the matching bin — triangles, quadrilaterals, pentagons, or hexagons.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Drag a shape onto the lane, or tap it and then the lane.",
+        "Drag along the lane, or tap the shape, to tip it onto its next side until the coral side comes round again.",
+        "Read the ticket, then drag the shape to its crate, drawer or ring.",
+        "Press Check when every shape has a place."
       ],
       "learningGoals": [
-        "Identify triangles, quadrilaterals, pentagons, and hexagons by their sides — the focus of Common Core 2.G.A.1.",
-        "Understand that the number of sides, not the look, names a polygon.",
-        "Build the shape vocabulary and side-counting habit that later geometry depends on."
+        "Recognising shapes with a given number of sides and corners.",
+        "Discovering why a square is also a rectangle and a rhombus.",
+        "Classifying shapes by one and by two attributes."
       ]
     },
     "sound-boxes.phoneme-position.rf-k-2-d": {

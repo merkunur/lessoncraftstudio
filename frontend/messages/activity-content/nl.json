@@ -4299,25 +4299,26 @@
     },
     "sort-bins.sort-by-sides.2-g-a-1": {
       "about": [
-        "Elke ronde valt er een verzameling vormen op het scherm — scherphoekige en stomphoekige driehoeken, vierkanten, ruiten, onregelmatige vijfhoeken en zeshoeken — en je kind telt van elke vorm de zijden en sleept hem in de juiste bak. Het is een interactieve meetkunde-activiteit voor groep 4 die in de browser speelt, zonder registratie.",
-        "De kern is dat je kind de zijden telt in plaats van een onthouden plaatje te herkennen, want een uitgerekte of gekantelde vorm met vijf zijden blijft een vijfhoek. Door onregelmatige en gedraaide vormen naast de nette vormen te zetten, oefent je kind om het aantal zijden te gebruiken als de regel die een veelhoek benoemt. Dat bouwt de woordenschat op — vierhoek, vijfhoek, zeshoek — en de gewoonte om vormen te bekijken aan de hand van hun onderdelen.",
-        "De activiteit sluit aan bij de SLO-kerndoelen binnen het domein meetkunde: vormen herkennen aan kenmerken zoals een bepaald aantal zijden, en driehoeken, vierhoeken, vijfhoeken en zeshoeken benoemen. Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Zijden tellen gaat in een rondje, en daar zit de fout: het kind begint ergens, gaat rond en telt de eerste zijde twee keer of stopt er één te vroeg. En een gedraaid vierkant, een driehoek op zijn kop of een scheve zeshoek lijkt vaak niet op zijn naam. Rollen en sorteren maakt van het rondje een rij.",
+        "Elke vorm is een hobbelig wiel. Op de baan kantelt hij over zijn voorste hoek op zijn volgende zijde, telkens weer, en elke zijde die neerkomt drukt een streepje op een papierstrook, even lang als die zijde, met een teken voor de hoek waarover hij kantelde: een stip, of een open vierkantje voor een rechte hoek. De eerste zijde is koraalrood; als die weer onder ligt, is het kaartje klaar, en het kind weet altijd waar het begon. Een gedraaide vorm drukt hetzelfde kaartje vanaf een ander streepje: draaien verandert niets.",
+        "Daarna sorteert het kind de vormen op hun kaartjes op een van drie speelborden: kisten voor 3, 4, 5 en 6 zijden; een kast voor vierhoeken, op gelijke zijden en rechte hoeken, waarin het vierkant in de kolom van de rechthoek en in de rij van de ruit staat; en twee ringen, vier zijden en een rechte hoek. Na een fout rolt het wiel elke verkeerd gelegde vorm voor; na de tweede krijgen de streepjes nummers. Zonder tijdsdruk en zonder punten, passend bij de kerndoelen."
       ],
       "practices": [
-        "De zijden van een vorm tellen om te bepalen in welke groep veelhoeken hij hoort",
-        "Driehoeken, vierhoeken, vijfhoeken en zeshoeken uit elkaar houden aan het aantal zijden",
-        "Dezelfde veelhoek herkennen als hij onregelmatig, uitgerekt of gedraaid is",
-        "De woorden vierhoek, vijfhoek en zeshoek juist gebruiken"
+        "Driehoeken, vierhoeken, vijfhoeken en zeshoeken herkennen aan hun aantal zijden",
+        "Zijden en hoeken tellen zonder het begin kwijt te raken",
+        "Vierhoeken sorteren op gelijke zijden en rechte hoeken",
+        "Vormen sorteren op twee regels tegelijk"
       ],
       "howToPlay": [
-        "Bekijk elke vorm en tel hoeveel zijden hij heeft.",
-        "Sleep hem in de juiste bak — driehoeken, vierhoeken, vijfhoeken of zeshoeken.",
-        "Net niet? Probeer het zo vaak als je wilt opnieuw — er is geen timer en geen score."
+        "Sleep een vorm naar de baan, of tik hem aan en dan de baan.",
+        "Sleep langs de baan, of tik de vorm aan, zodat hij op zijn volgende zijde kantelt, tot de koraalrode zijde weer onder ligt.",
+        "Lees het kaartje en sleep de vorm naar zijn kist, zijn laatje of zijn ring.",
+        "Tik op Controleer als elke vorm een plek heeft."
       ],
       "learningGoals": [
-        "Het kind benoemt driehoeken, vierhoeken, vijfhoeken en zeshoeken aan hun zijden.",
-        "Het kind begrijpt dat het aantal zijden, niet hoe de vorm eruitziet, een veelhoek benoemt.",
-        "Het kind bouwt de vormwoordenschat en de gewoonte van zijden tellen op waar latere meetkunde op steunt."
+        "Vormen herkennen met een gegeven aantal zijden en hoeken.",
+        "Ontdekken waarom een vierkant ook een rechthoek en een ruit is.",
+        "Vormen ordenen op één en op twee kenmerken."
       ]
     },
     "ten-frame.quick-facts-to-5.k-oa-a-5": {

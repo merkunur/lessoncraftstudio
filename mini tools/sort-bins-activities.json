@@ -1,144 +1,15 @@
 [
   {
     "id": "sort-bins.sort-by-sides.2-g-a-1",
-    "tool": "sort-bins-activity",
-    "task_template": "sort-by-sides",
+    "tool": "trundle-wheel-activity",
+    "task_template": "trundle-wheel",
     "alignment": {
       "framework": "CCSS",
       "code": "2.G.A.1",
       "grade": "2",
       "strand": "Geometry"
     },
-    "params": {
-      "rounds": [
-        {
-          "bins": [
-            "triangle",
-            "quadrilateral",
-            "pentagon"
-          ],
-          "items": [
-            "tri_equi",
-            "tri_right",
-            "quad_square",
-            "quad_rect",
-            "pent_reg",
-            "pent_house"
-          ],
-          "seed": 11
-        },
-        {
-          "bins": [
-            "triangle",
-            "quadrilateral",
-            "hexagon"
-          ],
-          "items": [
-            "tri_equi",
-            "tri_obtuse",
-            "quad_rhombus",
-            "quad_trap",
-            "hex_reg",
-            "hex_irreg"
-          ],
-          "seed": 23
-        },
-        {
-          "bins": [
-            "quadrilateral",
-            "pentagon",
-            "hexagon"
-          ],
-          "items": [
-            "quad_square",
-            "quad_para",
-            "pent_reg",
-            "pent_house",
-            "hex_reg",
-            "hex_irreg"
-          ],
-          "seed": 31
-        },
-        {
-          "bins": [
-            "triangle",
-            "quadrilateral"
-          ],
-          "items": [
-            "tri_equi",
-            "tri_right",
-            "tri_obtuse",
-            "quad_square",
-            "quad_rect",
-            "quad_rhombus",
-            "quad_trap"
-          ],
-          "seed": 41
-        },
-        {
-          "bins": [
-            "triangle",
-            "quadrilateral",
-            "pentagon",
-            "hexagon"
-          ],
-          "items": [
-            "tri_equi",
-            "quad_trap",
-            "pent_reg",
-            "hex_reg",
-            "quad_rect",
-            "hex_irreg"
-          ],
-          "seed": 53
-        },
-        {
-          "bins": [
-            "triangle",
-            "pentagon"
-          ],
-          "items": [
-            "tri_equi",
-            "tri_right",
-            "tri_obtuse",
-            "pent_reg",
-            "pent_house"
-          ],
-          "seed": 61
-        },
-        {
-          "bins": [
-            "quadrilateral",
-            "hexagon"
-          ],
-          "items": [
-            "quad_square",
-            "quad_rect",
-            "quad_rhombus",
-            "hex_reg",
-            "hex_irreg"
-          ],
-          "seed": 67
-        },
-        {
-          "bins": [
-            "triangle",
-            "quadrilateral",
-            "pentagon",
-            "hexagon"
-          ],
-          "items": [
-            "tri_obtuse",
-            "quad_para",
-            "pent_house",
-            "hex_irreg",
-            "quad_rect",
-            "pent_reg"
-          ],
-          "seed": 71
-        }
-      ]
-    },
+    "params": {},
     "theme": null,
     "slug": {
       "en": "sort-shapes-by-sides",

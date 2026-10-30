@@ -1537,25 +1537,26 @@
     },
     "sort-bins.sort-by-sides.2-g-a-1": {
       "about": [
-        "I hver runde falder en bunke figurer ned — rette og stumpe trekanter, kvadrater, ruder, uregelmæssige femkanter og sekskanter — og barnet tæller siderne på hver figur og trækker den over i den rigtige kasse. Det er en interaktiv geometriøvelse til 2. klasse, der kører i browseren, uden oprettelse.",
-        "Det vigtige er at tælle siderne i stedet for at matche et husket billede, for en strakt eller drejet femsidet figur er stadig en femkant. Ved at møde uregelmæssige og drejede figurer side om side med de pæne træner barnet at bruge antallet af sider som den regel, der navngiver en figur. Det opbygger ordene — firkant, femkant, sekskant — og vanen med at se på figurer ud fra deres dele.",
-        "Aktiviteten følger Fælles Mål inden for geometri: at genkende figurer ud fra bestemte egenskaber, for eksempel et givet antal sider, og at kende trekanter, firkanter, femkanter og sekskanter. Der er ingen timer og ingen point — kun rolig og legende træning."
+        "At tælle en figurs sider er at tælle rundt, og det er dér, det går galt: barnet starter et sted, går rundt og tæller den første side to gange eller stopper én for tidligt. Og et drejet kvadrat, en trekant på hovedet eller en skæv sekskant ligner ofte ikke sit navn. Rul og sortér laver runden om til en række.",
+        "Hver figur er et skævt hjul. På banen vipper den over sit forreste hjørne ned på den næste side, igen og igen, og hver side, der lander, trykker en streg på en papirstrimmel, lige så lang som siden, med et mærke for hjørnet, den vippede over: en prik eller et lille åbent kvadrat for en ret vinkel. Den første side er koralrød; når den lander igen, er sedlen færdig, og barnet ved altid, hvor det startede. En drejet figur trykker den samme seddel fra en anden streg: at dreje ændrer intet.",
+        "Bagefter sorterer barnet figurerne efter sedlerne på en af tre spilleplader: kasser til 3, 4, 5 og 6 sider; et skab til firkanter efter lige lange sider og rette vinkler, hvor kvadratet står i rektanglets søjle og i rombens række; og to ringe, fire sider og en ret vinkel. Efter en fejl ruller hjulet hver forkert placeret figur; efter den anden får stregerne tal. Uden tidspres og uden point, efter Fælles Mål."
       ],
       "practices": [
-        "Tælle siderne på en figur for at finde den rigtige gruppe",
-        "Skelne trekanter, firkanter, femkanter og sekskanter ud fra antallet af sider",
-        "Genkende den samme figur, når den er uregelmæssig, strakt eller drejet",
-        "Bruge ordene firkant, femkant og sekskant rigtigt"
+        "Genkende trekanter, firkanter, femkanter og sekskanter på antallet af sider",
+        "Tælle sider og hjørner uden at miste startpunktet",
+        "Sortere firkanter efter lige lange sider og rette vinkler",
+        "Sortere figurer efter to regler på én gang"
       ],
       "howToPlay": [
-        "Barnet ser hver figur og tæller, hvor mange sider den har.",
-        "Barnet trækker figuren over i den rigtige kasse — trekanter, firkanter, femkanter eller sekskanter.",
-        "Passer det ikke? Barnet kan roligt prøve igen, så mange gange det vil — der er ingen timer og ingen point."
+        "Træk en figur hen på banen, eller tryk på den og så på banen.",
+        "Træk langs banen, eller tryk på figuren, så den vipper ned på næste side, til den koralrøde side lander igen.",
+        "Læs sedlen, og træk figuren hen i dens kasse, skuffe eller ring.",
+        "Tryk på Tjek, når hver figur har en plads."
       ],
       "learningGoals": [
-        "Barnet kan kende trekanter, firkanter, femkanter og sekskanter ud fra deres sider",
-        "Barnet kan forstå, at det er antallet af sider, ikke udseendet, der navngiver en figur",
-        "Barnet kan opbygge de ord og den vane med at tælle sider, som senere geometri afhænger af"
+        "Genkende figurer med et bestemt antal sider og hjørner.",
+        "Opdage, hvorfor et kvadrat også er et rektangel og en rombe.",
+        "Sortere figurer efter én og efter to egenskaber."
       ]
     },
     "ten-frame.quick-facts-to-5.k-oa-a-5": {

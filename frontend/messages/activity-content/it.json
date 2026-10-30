@@ -2584,25 +2584,26 @@
     },
     "sort-bins.sort-by-sides.2-g-a-1": {
       "about": [
-        "A ogni giro cade un insieme disordinato di figure — triangoli rettangoli e ottusangoli, quadrati, rombi, pentagoni ed esagoni irregolari — e il bambino conta i lati di ciascuna e la trascina nel contenitore giusto. È un'attività di geometria interattiva per la classe seconda della scuola primaria, che si gioca nel browser, senza registrazione.",
-        "La mossa decisiva è contare i lati invece di abbinare un'immagine già vista, perché una figura a cinque lati allungata o inclinata è comunque un pentagono. Affrontando le forme irregolari e ruotate accanto a quelle ordinate, il bambino impara a usare il numero di lati come la regola che dà il nome a un poligono. Così costruisce il lessico — quadrilatero, pentagono, esagono — e l'abitudine ad analizzare le figure attraverso le loro parti.",
-        "L'attività è allineata alle Indicazioni nazionali: riconoscere e disegnare figure con attributi indicati, come un dato numero di lati, e identificare triangoli, quadrilateri, pentagoni ed esagoni. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
+        "Contare i lati di una figura vuol dire contare in giro, ed è lì l’errore: il bambino parte da un punto, fa il giro e conta due volte il primo lato o si ferma uno prima. E un quadrato girato, un triangolo capovolto o un esagono storto spesso non sembra quello che è. Rotola e ordina trasforma il giro in una fila.",
+        "Ogni figura è una ruota sbilenca. Sulla pista si ribalta sull’angolo davanti verso il lato successivo, ancora e ancora, e ogni lato che si appoggia stampa un trattino su una striscia di carta, lungo come quel lato, con un segno per l’angolo superato: un punto, o un quadratino aperto per un angolo retto. Il primo lato è corallo; quando torna giù il biglietto è pronto, e il bambino sa sempre da dove è partito. Una figura girata stampa lo stesso biglietto a partire da un altro trattino: girarla non cambia niente.",
+        "Poi il bambino ordina le figure in base ai biglietti su uno di tre tabelloni: scatole per 3, 4, 5 e 6 lati; un mobile per i quadrilateri, secondo lati uguali e angoli retti, dove il quadrato sta nella colonna del rettangolo e nella riga del rombo; e due anelli, quattro lati e un angolo retto. Dopo un errore la ruota fa rotolare ogni figura messa male; dopo il secondo, i trattini vengono numerati. Senza tempo e senza punti, secondo le Indicazioni nazionali."
       ],
       "practices": [
-        "Contare i lati di una figura per decidere a quale gruppo di poligoni appartiene.",
-        "Distinguere triangoli, quadrilateri, pentagoni ed esagoni dal loro numero di lati.",
-        "Riconoscere lo stesso poligono quando è irregolare, allungato o ruotato.",
-        "Usare correttamente le parole quadrilatero, pentagono ed esagono."
+        "Riconoscere triangoli, quadrilateri, pentagoni ed esagoni dal numero di lati",
+        "Contare lati e vertici senza perdere il punto di partenza",
+        "Classificare quadrilateri per lati uguali e angoli retti",
+        "Classificare figure con due regole insieme"
       ],
       "howToPlay": [
-        "Il bambino guarda ogni figura e conta quanti lati ha.",
-        "La trascina nel contenitore giusto: triangoli, quadrilateri, pentagoni o esagoni.",
-        "Se non è corretto, può riprovare quante volte vuole: non c'è timer né punteggio."
+        "Trascina una figura sulla pista, oppure toccala e poi tocca la pista.",
+        "Trascina lungo la pista, o tocca la figura, per farla ribaltare sul lato successivo finché torna il lato corallo.",
+        "Leggi il biglietto, poi trascina la figura nella sua scatola, nel suo cassetto o nel suo anello.",
+        "Premi Verifica quando ogni figura ha il suo posto."
       ],
       "learningGoals": [
-        "Identificare triangoli, quadrilateri, pentagoni ed esagoni dai loro lati.",
-        "Capire che è il numero di lati, e non l'aspetto, a dare il nome a un poligono.",
-        "Costruire il lessico delle figure e l'abitudine a contare i lati su cui poggia la geometria successiva."
+        "Riconoscere figure con un numero dato di lati e vertici.",
+        "Scoprire perché un quadrato è anche un rettangolo e un rombo.",
+        "Classificare figure secondo uno e due criteri."
       ]
     },
     "ten-frame.quick-facts-to-5.k-oa-a-5": {

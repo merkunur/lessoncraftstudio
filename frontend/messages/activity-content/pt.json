@@ -2075,25 +2075,26 @@
     },
     "sort-bins.sort-by-sides.2-g-a-1": {
       "about": [
-        "A cada rodada cai um monte de figuras embaralhadas — triângulos retângulos e obtusângulos, quadrados, losangos, pentágonos e hexágonos irregulares — e a criança conta os lados de cada uma e arrasta para a caixa correta. É uma atividade de geometria interativa para o 2º ano, que roda no navegador, sem cadastro.",
-        "O passo principal é contar os lados, em vez de comparar com uma figura que ficou na memória, porque uma forma de cinco lados, mesmo esticada ou inclinada, continua sendo um pentágono. Ao encontrar figuras irregulares e giradas ao lado das bem certinhas, a criança pratica usar o número de lados como a regra que nomeia um polígono. Isso constrói o vocabulário — quadrilátero, pentágono, hexágono — e o hábito de analisar as formas pelas suas partes.",
-        "A atividade está alinhada à BNCC, na unidade temática Geometria, na ideia de reconhecer figuras por atributos como o número de lados e de identificar triângulos, quadriláteros, pentágonos e hexágonos. Sem cronômetro e sem pontuação — só prática tranquila e divertida."
+        "Contar os lados de uma figura é contar em volta, e o erro está aí: a criança começa em algum ponto, dá a volta e conta o primeiro lado duas vezes ou para um antes. E um quadrado girado, um triângulo de ponta-cabeça ou um hexágono torto muitas vezes não parece o que é. Role e organize transforma a volta numa fila.",
+        "Cada figura é uma roda torta. Na pista, ela tomba sobre o canto da frente para o lado seguinte, de novo e de novo, e cada lado que encosta imprime um tracinho numa tira de papel, do tamanho desse lado, com uma marca para o canto que passou: um ponto, ou um quadradinho aberto se for um ângulo reto. O primeiro lado é coral; quando ele volta para baixo, o bilhete está pronto, e a criança sempre sabe onde começou. Uma figura girada imprime o mesmo bilhete a partir de outro tracinho: girar não muda nada.",
+        "Depois a criança organiza as figuras pelos bilhetes em um de três tabuleiros: caixas para 3, 4, 5 e 6 lados; um armário para quadriláteros, por lados iguais e ângulos retos, em que o quadrado fica na coluna do retângulo e na fileira do losango; e dois aros, quatro lados e um ângulo reto. Depois de um erro, a roda faz rolar cada figura no lugar errado; depois do segundo, os tracinhos ganham números. Sem cronômetro e sem pontos, de acordo com a BNCC."
       ],
       "practices": [
-        "Contar os lados de uma figura para decidir a qual grupo de polígonos ela pertence.",
-        "Diferenciar triângulos, quadriláteros, pentágonos e hexágonos pelo número de lados.",
-        "Reconhecer o mesmo polígono quando ele está irregular, esticado ou girado.",
-        "Usar corretamente as palavras quadrilátero, pentágono e hexágono."
+        "Reconhecer triângulos, quadriláteros, pentágonos e hexágonos pelo número de lados",
+        "Contar lados e cantos sem perder o ponto de partida",
+        "Classificar quadriláteros por lados iguais e ângulos retos",
+        "Classificar figuras por duas regras ao mesmo tempo"
       ],
       "howToPlay": [
-        "Olhe cada figura e conte quantos lados ela tem.",
-        "Arraste para a caixa correta — triângulos, quadriláteros, pentágonos ou hexágonos.",
-        "Não acertou? Tente de novo quantas vezes quiser — não há cronômetro nem pontuação."
+        "Arraste uma figura para a pista, ou toque nela e depois na pista.",
+        "Arraste ao longo da pista, ou toque na figura, para ela tombar sobre o lado seguinte até o lado coral voltar.",
+        "Leia o bilhete e arraste a figura para a caixa, a gaveta ou o aro dela.",
+        "Toque em Verificar quando cada figura tiver seu lugar."
       ],
       "learningGoals": [
-        "Identificar triângulos, quadriláteros, pentágonos e hexágonos pelos seus lados.",
-        "Entender que é o número de lados, e não a aparência, que nomeia um polígono.",
-        "Construir o vocabulário das formas e o hábito de contar lados, base da geometria que vem mais adiante."
+        "Reconhecer figuras com um número dado de lados e cantos.",
+        "Descobrir por que um quadrado também é um retângulo e um losango.",
+        "Classificar figuras por uma e por duas características."
       ]
     },
     "ten-frame.quick-facts-to-5.k-oa-a-5": {

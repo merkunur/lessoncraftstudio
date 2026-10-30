@@ -104,7 +104,8 @@ Every crate gets 1–4 shapes (A4's quadrilateral crate holds 4 — the crate st
 |---|---|---|
 | Q1 | quad_square@0 · quad_rect@0 · quad_rhombus60@0 · quad_trap@0 · quad_square45@0 | — |
 | Q2 | quad_square45@0 · quad_rect_thin@30 · quad_rhombus60@90 · quad_para@0 · quad_kite@0 | — |
-| Q3 | quad_square@15 · quad_rect@90 · quad_rhombus60@30 · quad_irreg@0 · quad_right_trap@0 | — |
+| Q3 | quad_square@15 · quad_rect@90 · quad_rhombus60@30 · quad_irreg@0 · quad_kite@30 | — |
+(Build 2026-10-30: Q3's quad_right_trap (2 square corners) is replaced by quad_kite@30 — the cabinet's right column is "no square corner", and a shape with 2 square corners matches neither column header; every cabinet shape now has 0 or 4 square corners. quad_right_trap stays in the rings.)
 | Q4 | quad_square@0 (size 0.6) · quad_square45@0 · quad_rect@60 · quad_rhombus60@150 · quad_para@120 | — |
 | Q5 | quad_rect@0 · quad_rhombus60@0 · quad_trap@0 → top-left (square) empty | quad_square@45 ✓ · quad_rhombus60@45 · quad_rect_thin@0 |
 | Q6 | quad_square@0 · quad_rhombus60@0 · quad_kite@0 → bottom-left (rectangle, not all equal) empty | quad_rect_thin@45 ✓ · quad_para@0 · quad_kite@90 |

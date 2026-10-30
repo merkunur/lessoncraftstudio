@@ -1301,25 +1301,26 @@
     },
     "sort-bins.sort-by-sides.2-g-a-1": {
       "about": [
-        "Hver runde slipper ned en bunke former — rette og butte trekanter, kvadrater, romber, uregelmessige femkanter og sekskanter — og barnet teller sidene på hver enkelt og drar den ned i riktig boks. Dette er en interaktiv geometriaktivitet for 2. trinn som spilles i nettleseren, uten konto.",
-        "Det viktigste grepet er å telle sidene i stedet for å kjenne igjen et bilde fra hukommelsen, for en strukket eller skråstilt femsidet form er fortsatt en femkant. Ved å møte uregelmessige og roterte former ved siden av de pene øver barnet på å bruke antall sider som regelen som navngir en mangekant. Det bygger ordforrådet — firkant, femkant, sekskant — og vanen med å undersøke former ut fra delene deres.",
-        "Aktiviteten følger LK20 innenfor geometri — å kjenne igjen og tegne former med bestemte egenskaper som et gitt antall sider, og å gjenkjenne trekanter, firkanter, femkanter og sekskanter. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving for 2. trinn."
+        "Å telle sidene til en figur er å telle rundt, og det er der det går galt: barnet begynner et sted, går rundt og teller den første siden to ganger eller stopper én for tidlig. Og et dreid kvadrat, en trekant på hodet eller en skjev sekskant ligner ofte ikke på navnet sitt. Rull og sorter gjør runden om til en rekke.",
+        "Hver figur er et skjevt hjul. På banen vipper den over det fremste hjørnet ned på neste side, igjen og igjen, og hver side som lander, trykker en strek på en papirstrimmel, like lang som siden, med et merke for hjørnet den vippet over: en prikk eller et lite, åpent kvadrat for en rett vinkel. Den første siden er korallrød; når den lander igjen, er lappen ferdig, og barnet vet alltid hvor det begynte. En dreid figur trykker den samme lappen fra en annen strek: å dreie endrer ingenting.",
+        "Etterpå sorterer barnet figurene etter lappene på ett av tre spillebrett: kasser for 3, 4, 5 og 6 sider; et skap for firkanter etter like lange sider og rette vinkler, der kvadratet står i rektangelets kolonne og i rombens rad; og to ringer, fire sider og en rett vinkel. Etter en feil ruller hjulet hver figur som ligger feil; etter den andre får strekene tall. Uten tidspress og uten poeng, i tråd med LK20."
       ],
       "practices": [
-        "Telle sidene på en form for å avgjøre hvilken mangekantgruppe den hører til.",
-        "Skille trekanter, firkanter, femkanter og sekskanter fra hverandre ut fra antall sider.",
-        "Kjenne igjen den samme mangekanten når den er uregelmessig, strukket eller rotert.",
-        "Bruke ordene firkant, femkant og sekskant riktig."
+        "Kjenne igjen trekanter, firkanter, femkanter og sekskanter på antall sider",
+        "Telle sider og hjørner uten å miste startpunktet",
+        "Sortere firkanter etter like lange sider og rette vinkler",
+        "Sortere figurer etter to regler samtidig"
       ],
       "howToPlay": [
-        "Se på hver form og tell hvor mange sider den har.",
-        "Dra den ned i riktig boks — trekanter, firkanter, femkanter eller sekskanter.",
-        "Ikke helt riktig? Prøv igjen så mange ganger du vil — det er ingen tidtaker og ingen poeng."
+        "Dra en figur til banen, eller trykk på den og så på banen.",
+        "Dra langs banen, eller trykk på figuren, så den vipper ned på neste side til den korallrøde siden lander igjen.",
+        "Les lappen, og dra figuren til kassen, skuffen eller ringen sin.",
+        "Trykk på Sjekk når hver figur har en plass."
       ],
       "learningGoals": [
-        "Barnet kan gjenkjenne trekanter, firkanter, femkanter og sekskanter ut fra sidene.",
-        "Barnet forstår at antall sider, ikke utseendet, navngir en mangekant.",
-        "Barnet bygger formordforrådet og tellevanen som senere geometri hviler på."
+        "Kjenne igjen figurer med et bestemt antall sider og hjørner.",
+        "Oppdage hvorfor et kvadrat også er et rektangel og en rombe.",
+        "Sortere figurer etter én og etter to egenskaper."
       ]
     },
     "ten-frame.quick-facts-to-5.k-oa-a-5": {

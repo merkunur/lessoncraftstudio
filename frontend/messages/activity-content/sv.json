@@ -1413,25 +1413,26 @@
     },
     "sort-bins.sort-by-sides.2-g-a-1": {
       "about": [
-        "I varje omgång ramlar en hög med former ner — rätvinkliga och trubbiga trianglar, kvadrater, romber, oregelbundna femhörningar och sexhörningar — och barnet räknar sidorna på varje form och drar den till rätt låda. Det är en interaktiv geometriövning för årskurs 2 som spelas i webbläsaren utan registrering.",
-        "Det viktiga draget är att räkna sidorna i stället för att matcha en bild man minns, för en utdragen eller lutande femsidig form är fortfarande en femhörning. Genom att möta oregelbundna och vridna former sida vid sida med de prydliga övar barnet på att använda antalet sidor som regeln som namnger en månghörning. Det bygger orden — fyrhörning, femhörning, sexhörning — och vanan att beskriva former utifrån deras delar.",
-        "Aktiviteten följer Lgr22: att känna igen och rita former med bestämda egenskaper, som ett visst antal sidor, och att skilja på trianglar, fyrhörningar, femhörningar och sexhörningar. Ingen tid, inga poäng — bara lugn och lekfull träning."
+        "Att räkna en forms sidor är att räkna runt, och där blir det fel: barnet börjar någonstans, går runt och räknar första sidan två gånger eller slutar en för tidigt. Och en vriden kvadrat, en triangel upp och ner eller en sned sexhörning ser ofta inte ut som sitt namn. Rulla och sortera gör om varvet till en rad.",
+        "Varje form är ett knöligt hjul. På banan tippar den över sitt främre hörn ner på nästa sida, om och om igen, och varje sida som landar trycker ett streck på en pappersremsa, lika långt som sidan, med ett märke för hörnet den tippade över: en prick, eller en liten öppen kvadrat för en rät vinkel. Första sidan är korallröd; när den kommer ner igen är lappen klar, och barnet vet alltid var det började. En vriden form trycker samma lapp från ett annat streck: att vrida ändrar ingenting.",
+        "Sedan sorterar barnet formerna efter lapparna på ett av tre spelbräden: backar för 3, 4, 5 och 6 sidor; ett skåp för fyrhörningar, efter lika långa sidor och räta vinklar, där kvadraten står i rektangelns kolumn och i rombens rad; och två ringar, fyra sidor och en rät vinkel. Efter ett fel rullar hjulet varje felplacerad form; efter det andra får strecken siffror. Utan tidspress och utan poäng, i linje med Lgr22."
       ],
       "practices": [
-        "Räkna sidorna på en form för att avgöra vilken grupp av månghörningar den hör till",
-        "Skilja trianglar, fyrhörningar, femhörningar och sexhörningar åt utifrån antalet sidor",
-        "Känna igen samma månghörning när den är oregelbunden, utdragen eller vriden",
-        "Använda orden fyrhörning, femhörning och sexhörning rätt"
+        "Känna igen trianglar, fyrhörningar, femhörningar och sexhörningar på antalet sidor",
+        "Räkna sidor och hörn utan att tappa startpunkten",
+        "Sortera fyrhörningar efter lika långa sidor och räta vinklar",
+        "Sortera former efter två regler samtidigt"
       ],
       "howToPlay": [
-        "Titta på varje form och räkna hur många sidor den har.",
-        "Dra den till rätt låda — trianglar, fyrhörningar, femhörningar eller sexhörningar.",
-        "Inte riktigt rätt? Försök igen så många gånger du vill — det finns ingen tid och inga poäng."
+        "Dra en form till banan, eller tryck på den och sedan på banan.",
+        "Dra längs banan, eller tryck på formen, så tippar den ner på nästa sida tills den korallröda sidan kommer ner igen.",
+        "Läs lappen och dra formen till sin back, sin låda eller sin ring.",
+        "Tryck på Kontrollera när varje form har en plats."
       ],
       "learningGoals": [
-        "Barnet kan känna igen trianglar, fyrhörningar, femhörningar och sexhörningar utifrån deras sidor",
-        "Barnet förstår att antalet sidor, inte utseendet, namnger en månghörning",
-        "Barnet bygger de formord och den vana att räkna sidor som senare geometri vilar på"
+        "Känna igen former med ett visst antal sidor och hörn.",
+        "Upptäcka varför en kvadrat också är en rektangel och en romb.",
+        "Sortera former efter en och efter två egenskaper."
       ]
     },
     "ten-frame.quick-facts-to-5.k-oa-a-5": {

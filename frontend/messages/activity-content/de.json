@@ -4086,25 +4086,26 @@
     },
     "sort-bins.sort-by-sides.2-g-a-1": {
       "about": [
-        "In jeder Runde fällt ein Durcheinander aus Formen herunter — rechtwinklige und stumpfwinklige Dreiecke, Quadrate, Rauten, unregelmäßige Fünf- und Sechsecke —, und das Kind zählt bei jeder die Ecken und zieht sie in den passenden Korb. Diese interaktive Geometrie-Übung für die 2. Klasse läuft im Browser, ganz ohne Anmeldung.",
-        "Entscheidend ist, die Ecken zu zählen, statt ein eingeprägtes Bild abzugleichen — denn eine in die Länge gezogene oder gekippte Form mit fünf Ecken bleibt ein Fünfeck. Indem das Kind unregelmäßigen und gedrehten Formen neben den ordentlichen begegnet, übt es, die Anzahl der Ecken als Regel zu nutzen, die ein Vieleck benennt. Das baut die Begriffe — Viereck, Fünfeck, Sechseck — und die Gewohnheit auf, Formen nach ihren Teilen zu untersuchen.",
-        "Die Aktivität ist am Lehrplan ausgerichtet — Formen mit bestimmten Merkmalen wie einer vorgegebenen Anzahl von Ecken erkennen und Dreiecke, Vierecke, Fünfecke und Sechsecke benennen. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+        "Beim Zählen der Seiten einer Form passiert der Fehler im Kreis: Das Kind fängt irgendwo an, geht herum und zählt die erste Seite doppelt oder hört eine zu früh auf. Und ein gedrehtes Quadrat, ein Dreieck auf der Spitze oder ein schiefes Sechseck sieht oft nicht nach seinem Namen aus. Rollen und sortieren macht aus dem Kreis eine Reihe.",
+        "Jede Form ist ein holpriges Rad. Auf der Bahn kippt sie über ihre vordere Ecke auf die nächste Seite, immer wieder, und jede Seite, die aufsetzt, druckt einen Strich auf einen Papierstreifen, so lang wie die Seite, dazu ein Zeichen für die Ecke, über die sie gekippt ist: einen Punkt oder ein kleines offenes Quadrat für einen rechten Winkel. Die erste Seite ist korallenrot; wenn sie wieder unten liegt, ist der Zettel fertig, und das Kind weiß immer, wo es angefangen hat. Eine gedrehte Form druckt denselben Zettel, nur ab einem anderen Strich: Drehen ändert nichts.",
+        "Danach sortiert das Kind die Formen nach ihren Zetteln auf einem von drei Spielfeldern: Kisten für 3, 4, 5 und 6 Seiten; ein Schrank für Vierecke nach gleich langen Seiten und rechten Winkeln, in dem das Quadrat in der Rechteck-Spalte und in der Rauten-Reihe steht; und zwei Ringe, vier Seiten und ein rechter Winkel. Nach einem Fehler rollt das Rad jede falsch abgelegte Form vor, nach dem zweiten bekommen die Striche Zahlen. Ohne Zeitdruck und ohne Punkte, passend zum Lehrplan."
       ],
       "practices": [
-        "Die Ecken einer Form zählen, um zu entscheiden, zu welcher Vielecke-Gruppe sie gehört.",
-        "Dreiecke, Vierecke, Fünfecke und Sechsecke an ihrer Eckenzahl unterscheiden.",
-        "Dasselbe Vieleck wiedererkennen, auch wenn es unregelmäßig, gestreckt oder gedreht ist.",
-        "Die Wörter Viereck, Fünfeck und Sechseck richtig verwenden."
+        "Dreiecke, Vierecke, Fünfecke und Sechsecke an der Zahl ihrer Seiten erkennen",
+        "Seiten und Ecken zählen, ohne den Anfang zu verlieren",
+        "Vierecke nach gleich langen Seiten und rechten Winkeln sortieren",
+        "Formen nach zwei Regeln zugleich sortieren"
       ],
       "howToPlay": [
-        "Schau dir jede Form an und zähle, wie viele Ecken sie hat.",
-        "Zieh sie in den passenden Korb — Dreiecke, Vierecke, Fünfecke oder Sechsecke.",
-        "Stimmt es noch nicht? Probiere es so oft du möchtest — es gibt keinen Timer und keine Punkte."
+        "Zieh eine Form auf die Bahn oder tippe sie an und dann die Bahn.",
+        "Zieh entlang der Bahn oder tippe die Form an, damit sie auf die nächste Seite kippt, bis die korallenrote Seite wieder unten ist.",
+        "Lies den Zettel und zieh die Form in ihre Kiste, ihr Fach oder ihren Ring.",
+        "Tippe auf Prüfen, wenn jede Form ihren Platz hat."
       ],
       "learningGoals": [
-        "Dreiecke, Vierecke, Fünfecke und Sechsecke an ihren Ecken erkennen.",
-        "Verstehen, dass die Anzahl der Ecken ein Vieleck benennt, nicht sein Aussehen.",
-        "Den Form-Wortschatz und die Gewohnheit des Eckenzählens aufbauen, auf denen spätere Geometrie aufbaut."
+        "Formen mit einer bestimmten Zahl von Seiten und Ecken erkennen.",
+        "Entdecken, warum ein Quadrat auch ein Rechteck und eine Raute ist.",
+        "Formen nach einem und nach zwei Merkmalen ordnen."
       ]
     },
     "ten-frame.quick-facts-to-5.k-oa-a-5": {

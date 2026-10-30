@@ -817,25 +817,26 @@
     },
     "sort-bins.sort-by-sides.2-g-a-1": {
       "about": [
-        "Joka kierroksella putoaa sekalainen joukko kuvioita — suora- ja tylppäkulmaisia kolmioita, neliöitä, vinoneliöitä sekä epäsäännöllisiä viisi- ja kuusikulmioita — ja lapsi laskee kunkin kuvion sivut ja vetää sen oikeaan laatikkoon. Tämä on vuorovaikutteinen geometriatehtävä, joka toimii selaimessa ilman rekisteröitymistä.",
-        "Tärkein taito on laskea sivut sen sijaan, että vertaisi muistettuun kuvaan, sillä venytetty tai kallistettu viisisivuinen kuvio on yhä viisikulmio. Kun lapsi kohtaa epäsäännöllisiä ja käännettyjä kuvioita siistien rinnalla, hän harjoittelee käyttämään sivujen lukumäärää sääntönä, joka nimeää monikulmion. Näin karttuu sanavarasto — nelikulmio, viisikulmio, kuusikulmio — ja tapa eritellä kuvioita niiden osien mukaan.",
-        "Tehtävä on OPS 2014:n mukainen geometrian osa-alueella: lapsi tunnistaa ja piirtää kuvioita annettujen ominaisuuksien, kuten tietyn sivumäärän, mukaan ja tunnistaa kolmiot, nelikulmiot, viisikulmiot ja kuusikulmiot. 2. luokalle — ei ajastinta eikä pisteitä, vaan rauhallista ja leikkisää harjoittelua."
+        "Kuvion sivujen laskeminen on laskemista ympäri, ja siinä tulee virhe: lapsi aloittaa jostain, kiertää ympäri ja laskee ensimmäisen sivun kahdesti tai lopettaa yhtä liian aikaisin. Eikä käännetty neliö, ylösalainen kolmio tai vino kuusikulmio aina näytä siltä, mikä se on. Vieritä ja lajittele tekee kierroksesta rivin.",
+        "Jokainen kuvio on kuoppainen pyörä. Radalla se kierähtää etukulmansa yli seuraavalle sivulleen yhä uudelleen, ja jokainen maahan osuva sivu tulostaa paperinauhaan viivan, yhtä pitkän kuin sivu, sekä merkin kulmasta, jonka yli se kallistui: pisteen tai pienen avoimen neliön, jos kulma on suora. Ensimmäinen sivu on korallinpunainen; kun se osuu taas alas, lappu on valmis, ja lapsi tietää aina, mistä aloitti. Käännetty kuvio tulostaa saman lapun toisesta viivasta alkaen: kääntäminen ei muuta mitään.",
+        "Sitten lapsi lajittelee kuviot lappujen mukaan yhdellä kolmesta pelilaudasta: laatikot 3, 4, 5 ja 6 sivulle; kaappi nelikulmioille yhtä pitkien sivujen ja suorien kulmien mukaan, jossa neliö on suorakulmion sarakkeessa ja neljäkkään rivillä; ja kaksi rengasta, neljä sivua ja suora kulma. Virheen jälkeen pyörä vierittää jokaisen väärin laitetun kuvion; toisen jälkeen viivat saavat numerot. Ilman kiirettä ja ilman pisteitä, perusopetuksen opetussuunnitelman perusteiden mukaisesti."
       ],
       "practices": [
-        "Laskee kuvion sivut päättääkseen, mihin monikulmioryhmään se kuuluu.",
-        "Erottaa kolmiot, nelikulmiot, viisikulmiot ja kuusikulmiot niiden sivumäärän mukaan.",
-        "Tunnistaa saman monikulmion, vaikka se on epäsäännöllinen, venytetty tai käännetty.",
-        "Käyttää sanoja nelikulmio, viisikulmio ja kuusikulmio oikein."
+        "Tunnistaa kolmiot, nelikulmiot, viisikulmiot ja kuusikulmiot sivujen määrästä",
+        "Laskea sivut ja kulmat kadottamatta aloituskohtaa",
+        "Lajitella nelikulmioita yhtä pitkien sivujen ja suorien kulmien mukaan",
+        "Lajitella kuvioita kahden säännön mukaan yhtä aikaa"
       ],
       "howToPlay": [
-        "Katso jokaista kuviota ja laske, kuinka monta sivua sillä on.",
-        "Vedä se oikeaan laatikkoon — kolmiot, nelikulmiot, viisikulmiot tai kuusikulmiot.",
-        "Meneekö pieleen? Voit yrittää uudelleen niin monta kertaa kuin haluat — ei ajastinta eikä pisteitä."
+        "Vedä kuvio radalle tai napauta sitä ja sitten rataa.",
+        "Vedä rataa pitkin tai napauta kuviota, niin se kierähtää seuraavalle sivulleen, kunnes korallinpunainen sivu osuu taas alas.",
+        "Lue lappu ja vedä kuvio oikeaan laatikkoon, lokeroon tai renkaaseen.",
+        "Paina Tarkista, kun jokaisella kuviolla on paikka."
       ],
       "learningGoals": [
-        "Lapsi tunnistaa kolmiot, nelikulmiot, viisikulmiot ja kuusikulmiot niiden sivujen mukaan.",
-        "Lapsi ymmärtää, että monikulmion nimeää sivujen lukumäärä, ei ulkonäkö.",
-        "Lapsi kehittää muotojen sanavarastoa ja sivujen laskemisen tapaa, joihin myöhempi geometria nojaa."
+        "Tunnistaa kuvioita, joilla on tietty määrä sivuja ja kulmia.",
+        "Huomata, miksi neliö on myös suorakulmio ja neljäkäs.",
+        "Luokitella kuvioita yhden ja kahden ominaisuuden mukaan."
       ]
     },
     "ten-frame.quick-facts-to-5.k-oa-a-5": {

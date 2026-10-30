@@ -1252,25 +1252,26 @@
     },
     "money.make-change.2-md-c-8": {
       "about": [
-        "Noe koster 70 kr og du betaler 100 kr — barnet gir tilbake riktige vekslepenger, her 30 kr som en 20-krone og en 10-krone, ved å trykke mynter ned i skålen. Å regne ut differansen og bygge den opp av 1-, 5-, 10- og 20-kroner kobler subtraksjon sammen med å telle ekte mynter, i en interaktiv pengeaktivitet for 2. trinn som spilles rett i nettleseren, uten nedlasting og uten konto.",
-        "Den store ideen er at vekslepenger er differansen mellom det som ble betalt og det noe koster. Barnet regner først ut hvor mye som skal tilbake, og bygger så det beløpet opp av mynter det velger selv — 1, 5, 10 og 20 kroner. Fordi verdien ikke står skrevet på hver mynt, må barnet vite hva hver enkelt er verdt og telle seg opp til vekslepengene det skylder.",
-        "Aktiviteten følger LK20 innenfor måling og praktisk pengeregning — å løse pengeoppgaver med norske kroner og mynter. Det er ingen tidtaker og ingen poeng, bare rolig og lekende øving for 2. trinn."
+        "Vekslepenger er den delen av kundens penger som ikke er prisen. Barn som fortsatt lærer det, gir ofte tilbake selve prisen, eller teller mynter i stedet for verdien deres. Her blir vekslepengene det de egentlig er: penger som tas ut av kundens egen betaling.",
+        "Kundens penger går inn i Ottos vekslekasse, som skrangler og heller ut det samme beløpet i små mynter. Barnet trykker vekslepengenes mynter over i kundens skål; det som blir igjen, er Ottos. Når man sjekker, teller Otto myntene sine opp til prislappen: Han mangler noe hvis det gikk for mye tilbake, og han kommer over prisen hvis det gikk for lite tilbake. Ottos opptelling er den eneste summen på skjermen, og den vises først når man sjekker. Myntene er tegnet i riktig størrelsesforhold og farge.",
+        "Fire butikker: gi tilbake vekslepenger; avgjør om pengene i lommeboka er nok, og legg til det som mangler; kjøp to eller tre leker og gi tilbake vekslepenger; eller alt blandet. Etter andre feil teller kassa videre fra prisen til beløpet som ble betalt, og vekslepengenes mynter får en ring rundt i haugen. Innstillingen «Underveis» viser Ottos opptelling hele tiden, til en første time. Uten tidspress og uten poeng, i tråd med LK20."
       ],
       "practices": [
-        "Finne vekslepengene som differansen mellom det betalte og det noe koster.",
-        "Bygge et vekslebeløp opp av 1-, 5-, 10- og 20-kroner.",
-        "Koble subtraksjon sammen med å telle ekte mynter.",
-        "Telle seg opp fra prisen til beløpet som ble betalt."
+        "Gi tilbake vekslepenger ved å telle videre fra prisen til beløpet som ble betalt",
+        "Legge sammen to eller tre priser og så gi tilbake vekslepenger",
+        "Avgjøre om pengene i en lommebok er nok til en pris",
+        "Finne ut hvor mye penger som mangler opp til en pris"
       ],
       "howToPlay": [
-        "Les hva varen koster og hva du betaler, for eksempel at den koster 85 kr og du betaler 100 kr.",
-        "Regn ut vekslepengene, og trykk så mynter ned i skålen for å gi tilbake riktig beløp.",
-        "Ikke helt riktig? Juster myntene og prøv igjen — det er ingen tidtaker og ingen poeng."
+        "Se hvordan vekslekassa gjør om kundens penger til små mynter.",
+        "Trykk mynter over i kundens skål som vekslepenger; trykk på en mynt i skålen for å legge den tilbake.",
+        "Trykk på Sjekk: Otto teller myntene han sitter igjen med, opp til prisen.",
+        "Ved lommeboka trykker du på Nok eller Ikke nok, eller du legger mynter på Ottos fat til han har prisen."
       ],
       "learningGoals": [
-        "Barnet kan gi tilbake riktige vekslepenger med mynter i pengeoppgaver.",
-        "Barnet forstår vekslepenger som differansen mellom pris og beløpet som ble betalt.",
-        "Barnet styrker subtraksjon og myntelling sammen, med norske kroner."
+        "Å gi tilbake vekslepenger ved å telle videre fra prisen.",
+        "Å legge sammen priser og gi tilbake vekslepenger fra summen.",
+        "Å sammenligne et pengebeløp med en pris og finne ut hvor mye som mangler."
       ]
     },
     "numberbond.add-three.1-oa-a-2": {

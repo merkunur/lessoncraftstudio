@@ -2025,25 +2025,26 @@
     },
     "money.make-change.2-md-c-8": {
       "about": [
-        "Um item custa 70 centavos e a criança paga com R$ 1 — então ela devolve o troco certo, neste caso 30 centavos, tocando nas moedas para colocá-las na bandeja. Descobrir a diferença e montá-la com moedas une a subtração à contagem de dinheiro de mão, em uma atividade de matemática interativa para o 2º ano, que roda direto no navegador, sem instalar nada e sem conta.",
-        "A grande ideia é que o troco é a diferença entre o que foi pago e o que o item custa. A criança primeiro calcula quanto deve devolver e depois monta esse valor com as moedas que escolhe — de 5, 10, 25 e 50 centavos e de 1 real — o que junta a subtração com a contagem prática do dinheiro. Como o valor não vem escrito em cada moeda, ela precisa saber quanto cada uma vale e ir contando até chegar ao troco devido, sempre em reais e centavos.",
-        "A atividade está alinhada à BNCC, na unidade temática Grandezas e medidas, na ideia de resolver problemas com o sistema monetário brasileiro (real), usando moedas e cédulas e os símbolos R$ e centavos. Sem cronômetro e sem pontuação — só prática tranquila e divertida."
+        "Troco é a parte do dinheiro do cliente que não é o preço. Crianças que ainda estão aprendendo costumam devolver o próprio preço, ou contam moedas em vez do valor delas. Aqui o troco é o que ele realmente é: dinheiro tirado do pagamento do próprio cliente.",
+        "O dinheiro do cliente entra na caixa de troco do Otto, que chacoalha e despeja o mesmo valor em moedas pequenas. A criança toca nas moedas do troco para colocá-las na bandeja do cliente; o que sobra é do Otto. Ao verificar, o Otto conta as moedas dele até a etiqueta do preço: falta dinheiro se foi devolvido troco demais, e passa do preço se foi devolvido de menos. A conta do Otto é o único total na tela, e só aparece ao verificar. As moedas de real são desenhadas nas proporções e na cor verdadeiras.",
+        "Quatro lojas: dar o troco; decidir se o dinheiro do porta-moedas dá e completar o que falta; comprar dois ou três brinquedos e dar o troco; ou tudo misturado. Depois do segundo erro, a conta sobe do preço até o valor pago, e as moedas do troco ficam contornadas no montinho. O ajuste «Enquanto você joga» mostra a conta do Otto o tempo todo, para uma primeira aula. Sem cronômetro e sem pontos, alinhado à BNCC."
       ],
       "practices": [
-        "Encontrar o troco como a diferença entre o que foi pago e o que custa.",
-        "Montar o valor do troco com moedas de 5, 10, 25 e 50 centavos e de 1 real.",
-        "Ligar a subtração à contagem de moedas de verdade.",
-        "Contar para cima, do preço até o valor pago."
+        "Dar o troco contando do preço até o valor pago",
+        "Somar dois ou três preços e depois dar o troco",
+        "Decidir se o dinheiro de um porta-moedas dá para um preço",
+        "Descobrir quanto dinheiro falta para chegar a um preço"
       ],
       "howToPlay": [
-        "Leia quanto o item custa e quanto você paga, por exemplo: custa 85 centavos e você paga R$ 1.",
-        "Calcule o troco e depois toque nas moedas para colocar na bandeja o valor certo.",
-        "Não acertou? Ajuste as moedas e tente de novo — não há cronômetro nem pontuação."
+        "Veja a caixa de troco transformar o dinheiro do cliente em moedas pequenas.",
+        "Toque em moedas para colocar o troco na bandeja do cliente; toque numa moeda da bandeja para devolvê-la.",
+        "Toque em Verificar: o Otto conta as moedas que ficam com ele até o preço.",
+        "Com o porta-moedas, toque em Dá ou Não dá, ou coloque moedas no pratinho do Otto até ele ter o preço."
       ],
       "learningGoals": [
-        "Dar o troco com moedas em problemas com dinheiro.",
-        "Entender o troco como a diferença entre o preço e o valor pago.",
-        "Fortalecer a subtração e a contagem de moedas juntas, em reais e centavos."
+        "Dar o troco contando a partir do preço.",
+        "Somar preços e dar o troco do total.",
+        "Comparar uma quantia de dinheiro com um preço e descobrir quanto falta."
       ]
     },
     "numberbond.add-three.1-oa-a-2": {

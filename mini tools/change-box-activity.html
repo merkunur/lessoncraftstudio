@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Make Change with Coins — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=20">
+  <style>
+    html, body { background: transparent !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- Shell, the library pictures, the change-box core, then this activity (#166 The Change Box).
+       NOTE: bump ?v=N on EVERY change to change-box-*.js (§A.13.42). -->
+  <script src="/mini-tools/lcs-shell.js?v=9"></script>
+  <script src="/mini-tools/lcs-pictures.js?v=1"></script>
+  <script src="/mini-tools/change-box-core.js?v=1"></script>
+  <script src="/mini-tools/change-box-activity.js?v=1"></script>
+  <script>
+    LCS.mount(ChangeBoxActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

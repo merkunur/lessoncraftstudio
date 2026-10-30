@@ -2533,25 +2533,26 @@
     },
     "money.make-change.2-md-c-8": {
       "about": [
-        "Un oggetto costa 70 centesimi e si paga con 1 euro: il bambino deve dare il resto giusto, qui 30 centesimi, toccando le monete e mettendole nel vassoio. Calcolare la differenza e comporla con le monete in euro unisce la sottrazione al conteggio concreto del denaro, in un'attività di matematica interattiva per la classe seconda della scuola primaria, che si gioca direttamente nel browser, senza installare nulla e senza account.",
-        "L'idea importante è che il resto è la differenza tra quanto si è pagato e quanto costa l'oggetto. Il bambino prima calcola quanto deve restituire, poi compone quella cifra scegliendo tra le monete da 1, 2, 5, 10, 20 e 50 centesimi e da 1 e 2 euro. Poiché il valore non è scritto su ogni moneta, deve conoscere quanto vale ciascuna e contare fino ad arrivare al resto dovuto.",
-        "L'attività è allineata alle Indicazioni nazionali, sul tema del denaro: risolvere problemi con gli euro e i centesimi e usare il simbolo €. Nessun timer, nessun punteggio: solo pratica tranquilla e serena."
+        "Il resto è la parte dei soldi del cliente che non è il prezzo. I bambini che lo stanno imparando spesso restituiscono il prezzo stesso, oppure contano le monete invece del loro valore. Qui il resto è quello che è davvero: soldi presi dal pagamento del cliente.",
+        "I soldi del cliente entrano nella cassetta del resto di Otto, che sobbalza e fa uscire la stessa somma in monete piccole. Il bambino tocca le monete del resto per metterle nel piattino del cliente; quello che resta è di Otto. Quando si controlla, Otto conta le sue monete fino al cartellino del prezzo: gli manca qualcosa se è stato dato troppo resto, e supera il prezzo se ne è stato dato troppo poco. Il conto di Otto è l’unico totale sullo schermo, e compare solo al controllo. Le monete sono disegnate nelle giuste proporzioni e nel loro colore vero.",
+        "Quattro negozi: dare il resto; decidere se i soldi nel borsellino bastano e aggiungere quello che manca; comprare due o tre giocattoli e dare il resto; oppure tutto mescolato. Dopo il secondo errore il conto sale dal prezzo fino alla somma pagata, e le monete del resto vengono contornate nel mucchio. L’impostazione «Man mano» mostra il conto di Otto tutto il tempo, per una prima lezione. Senza cronometro e senza punteggi, in linea con le Indicazioni nazionali."
       ],
       "practices": [
-        "Calcolare il resto come differenza tra quanto si paga e quanto costa.",
-        "Comporre una cifra di resto con monete da 1, 2, 5, 10, 20 e 50 centesimi e da 1 e 2 euro.",
-        "Collegare la sottrazione al conteggio di monete vere.",
-        "Contare in avanti dal prezzo fino alla cifra pagata."
+        "Dare il resto contando dal prezzo fino alla somma pagata",
+        "Sommare due o tre prezzi e poi dare il resto",
+        "Decidere se i soldi di un borsellino bastano per un prezzo",
+        "Trovare quanti soldi mancano per arrivare a un prezzo"
       ],
       "howToPlay": [
-        "Il bambino legge quanto costa l'oggetto e quanto paga, ad esempio costa 85 centesimi e paga con 1 euro.",
-        "Calcola il resto, poi tocca le monete e le mette nel vassoio per restituire la cifra giusta.",
-        "Se non è corretto, può sistemare le monete e riprovare: non c'è timer né punteggio."
+        "Guarda la cassetta del resto cambiare i soldi del cliente in monete piccole.",
+        "Tocca le monete per mettere il resto nel piattino del cliente; tocca una moneta nel piattino per rimetterla a posto.",
+        "Premi Verifica: Otto conta le monete che gli restano fino al prezzo.",
+        "Con il borsellino, tocca Bastano o Non bastano, oppure metti monete nella ciotola di Otto finché ha il prezzo."
       ],
       "learningGoals": [
-        "Dare il resto con le monete in euro nei problemi sul denaro.",
-        "Capire il resto come differenza tra il costo e la cifra pagata.",
-        "Rafforzare insieme la sottrazione e il conteggio delle monete, usando euro e centesimi (€)."
+        "Dare il resto contando a partire dal prezzo.",
+        "Sommare prezzi e dare il resto sul totale.",
+        "Confrontare una somma di denaro con un prezzo e trovare quanto manca."
       ]
     },
     "numberbond.add-three.1-oa-a-2": {

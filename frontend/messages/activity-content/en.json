@@ -2746,25 +2746,26 @@
     },
     "money.make-change.2-md-c-8": {
       "about": [
-        "Something costs 70 cents and you pay one dollar — children give back the right change, here 30 cents as a quarter and a nickel, by tapping coins into the tray. Working out the difference and building it from pennies, nickels, dimes, and quarters joins subtraction with hands-on coin counting, in an interactive Grade 2 money activity that plays right in the browser with no install and no account.",
-        "The big idea is that change is the difference between what was paid and what something costs. Children first work out how much is owed, then build that amount from coins they choose — pennies, nickels, dimes, and quarters — which joins subtraction with hands-on coin counting. Because the value is not written on each coin, they have to know what each one is worth and count up to the change they owe.",
-        "It is aligned to Common Core 2.MD.C.8 — solving money word problems with dollars, quarters, dimes, nickels, and pennies, using the ¢ and $ symbols. No timer, no score — just calm, playful practice."
+        "Change is the part of the customer's money that is not the price. Children who are still learning it often hand back the price itself, or count coins instead of their worth. Make Change with Coins shows change as what it is: money taken out of the customer's own payment.",
+        "The customer's payment goes into Pip's change box, which rattles and pours out the same money in small coins. The child taps the change into the customer's tray; whatever is left belongs to Pip. At Check, Pip counts his coins onto the price tag: he comes up short if too much went back, and goes past the price if too little did. Pip's count is the only total on the screen, and it appears only at Check. The coins are drawn true to the real coins' sizes, and the US coins carry no numerals, just like the real ones.",
+        "Four shops: give change; decide whether a purse holds enough and add what it still needs; buy two or three toys and give change; or all of them mixed. After a second miss the count runs up from the price to the payment, and the change coins are outlined in the pile. The \"as you go\" setting shows Pip's count all the time, for a first lesson. No timer, no score."
       ],
       "practices": [
-        "Find the change owed as the difference between paid and cost",
-        "Build a change amount from pennies, nickels, dimes, and quarters",
-        "Connect subtraction with counting real coins",
-        "Count up from the price to the amount paid"
+        "Give change by counting up from the price to the money paid",
+        "Add up two or three prices, then give change",
+        "Decide whether a purse holds enough money for a price",
+        "Find how much more money is needed to reach a price"
       ],
       "howToPlay": [
-        "Read what the item costs and what you pay, such as it costs 85 cents and you pay one dollar.",
-        "Work out the change, then tap coins into the tray to give back the right amount.",
-        "Not quite? Adjust the coins and try again — there is no timer and no score."
+        "Watch the change box turn the customer's money into small coins.",
+        "Tap coins into the customer's tray for the change; tap a coin in the tray to put it back.",
+        "Press Check: Pip counts the coins left for him against the price.",
+        "In the purse rounds, tap Enough or Not enough, or add coins to Pip's dish until he has the price."
       ],
       "learningGoals": [
-        "Make change with coins in money word problems — the focus of Common Core 2.MD.C.8",
-        "Understand change as the difference between cost and amount paid",
-        "Strengthen subtraction and coin-counting together with ¢ and $"
+        "Making change by counting up from the price.",
+        "Adding prices and giving change from the total.",
+        "Comparing an amount of money with a price, and finding how much more is needed."
       ]
     },
     "mosaic-menders.area-match.3-md-c-6": {

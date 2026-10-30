@@ -3416,25 +3416,26 @@
     },
     "money.make-change.2-md-c-8": {
       "about": [
-        "Un objet coûte 70 centimes et l'enfant paie avec 1 euro : il doit rendre la bonne monnaie, ici 30 centimes, en touchant des pièces pour les déposer dans le plateau. Calculer la différence puis la composer avec des pièces de 1, 2, 5, 10 et 20 centimes relie la soustraction au comptage concret de la monnaie. C'est une activité de calcul interactive pour le CE1, qui se joue directement dans le navigateur, sans rien installer et sans compte.",
-        "La grande idée, c'est que la monnaie rendue est la différence entre ce qui a été payé et ce que l'objet coûte. L'enfant calcule d'abord la somme à rendre, puis la construit avec les pièces de son choix — ce qui associe la soustraction au comptage des pièces, geste à l'appui. Comme la valeur n'est pas marquée sur chaque pièce, il doit savoir ce que vaut chacune et compter jusqu'à la somme à rendre.",
-        "Cette activité est alignée sur les programmes officiels : résoudre des problèmes de monnaie en euros et en centimes, en utilisant les symboles € et c. Les enfants avancent à leur rythme, avec un retour doux et immédiat — ni minuteur, ni score."
+        "La monnaie, c’est la partie de l’argent du client qui dépasse le prix. Les enfants qui l’apprennent rendent souvent le prix lui-même, ou comptent les pièces au lieu de leur valeur. Ici, la monnaie devient ce qu’elle est vraiment : de l’argent pris dans le paiement du client.",
+        "L’argent du client entre dans la boîte à monnaie de Filou, qui tremble et ressort la même somme en petites pièces. L’enfant touche les pièces de la monnaie pour les mettre dans le plateau du client ; ce qui reste est à Filou. Quand on vérifie, Filou compte ses pièces jusqu’à l’étiquette du prix : il lui en manque si on a rendu trop, et il dépasse le prix si on n’a pas rendu assez. Le compte de Filou est le seul total à l’écran, et il n’apparaît qu’à la vérification. Les pièces sont dessinées dans leurs vraies proportions et leur vraie couleur.",
+        "Quatre boutiques : rendre la monnaie ; dire si le porte-monnaie contient assez et ajouter ce qui manque ; acheter deux ou trois jouets et rendre la monnaie ; ou tout mélangé. Après la deuxième erreur, la caisse compte du prix jusqu’à la somme payée, et les pièces de la monnaie sont entourées dans le tas. Le réglage « Au fur et à mesure » montre le compte de Filou tout le temps, pour une première séance. Sans chronomètre ni score, en lien avec les programmes officiels."
       ],
       "practices": [
-        "Trouver la monnaie à rendre comme la différence entre la somme payée et le prix.",
-        "Composer une somme à rendre avec des pièces de 1, 2, 5, 10 et 20 centimes.",
-        "Relier la soustraction au comptage de vraies pièces.",
-        "Compter en avançant, du prix jusqu'à la somme payée."
+        "Rendre la monnaie en comptant du prix jusqu’à la somme payée",
+        "Additionner deux ou trois prix, puis rendre la monnaie",
+        "Dire si un porte-monnaie contient assez d’argent pour un prix",
+        "Trouver combien d’argent il manque pour atteindre un prix"
       ],
       "howToPlay": [
-        "Lis le prix de l'objet et la somme que tu paies, par exemple il coûte 85 centimes et tu paies 1 euro.",
-        "Calcule la monnaie, puis touche les pièces pour les déposer dans le plateau et rendre la bonne somme.",
-        "Pas tout à fait ? Ajuste les pièces et recommence — il n'y a ni minuteur, ni score."
+        "Regarde la boîte à monnaie changer l’argent du client en petites pièces.",
+        "Touche des pièces pour mettre la monnaie dans le plateau du client ; touche une pièce du plateau pour la remettre.",
+        "Appuie sur Vérifier : Filou compte les pièces qui lui restent jusqu’au prix.",
+        "Avec le porte-monnaie, touche Assez ou Pas assez, ou ajoute des pièces dans la coupelle de Filou jusqu’à ce qu’il ait le prix."
       ],
       "learningGoals": [
-        "Rendre la monnaie avec des pièces dans des problèmes de monnaie.",
-        "Comprendre la monnaie rendue comme la différence entre le prix et la somme payée.",
-        "Renforcer ensemble la soustraction et le comptage des pièces, avec les symboles € et c."
+        "Rendre la monnaie en comptant à partir du prix.",
+        "Additionner des prix et rendre la monnaie sur le total.",
+        "Comparer une somme d’argent à un prix et trouver combien il manque."
       ]
     },
     "numberbond.add-three.1-oa-a-2": {

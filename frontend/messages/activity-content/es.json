@@ -3589,25 +3589,26 @@
     },
     "money.make-change.2-md-c-8": {
       "about": [
-        "Algo cuesta $0.80, pagas con $1.00 y el niño o la niña tiene que dar el cambio correcto, en este caso $0.20 con dos monedas de 10 centavos, tocando las monedas para ponerlas en la charola. Calcular la diferencia y armarla con monedas une la resta con el conteo de dinero, en una actividad de dinero para 2.º de primaria, interactiva, que se juega directo en el navegador, sin instalar nada y sin crear cuenta.",
-        "La idea central es que el cambio es la diferencia entre lo que se pagó y lo que cuesta algo. Primero el niño o la niña calcula cuánto se debe de cambio y luego lo arma con las monedas que elige (de 5, 10, 20 y 50 centavos, y de 1, 2 y 5 pesos), uniendo así la resta con el conteo de monedas mexicanas. Como cada moneda no trae escrito su valor, hay que saber cuánto vale cada una y contar hasta completar el cambio que se debe.",
-        "Está alineada con los planes y programas de estudio (SEP): resolver problemas de dinero con pesos y centavos, usando los símbolos $ y ¢. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+        "El cambio es la parte del dinero del cliente que no es el precio. Los niños que lo están aprendiendo suelen devolver el precio mismo, o cuentan monedas en lugar de su valor. Aquí el cambio es lo que de verdad es: dinero que se saca del pago del propio cliente.",
+        "El dinero del cliente entra en la caja de cambio de Otto, que traquetea y suelta la misma cantidad en monedas chicas. El niño toca las monedas del cambio para ponerlas en la charola del cliente; lo que queda es de Otto. Al comprobar, Otto cuenta sus monedas hasta la etiqueta del precio: le falta si se devolvió de más, y se pasa del precio si se devolvió de menos. La cuenta de Otto es el único total en la pantalla, y solo aparece al comprobar. Las monedas son pesos mexicanos dibujados con sus tamaños proporcionales y su color reales.",
+        "Cuatro tiendas: dar el cambio; decidir si alcanza el dinero del monedero y agregar lo que falta; comprar dos o tres juguetes y dar el cambio; o todo mezclado. Después del segundo error, la cuenta sube del precio hasta lo que se pagó, y las monedas del cambio quedan marcadas en el montón. El ajuste «Mientras juegas» muestra la cuenta de Otto todo el tiempo, para una primera clase. Sin reloj ni puntos, de acuerdo con los planes y programas de estudio."
       ],
       "practices": [
-        "Encontrar el cambio que se debe como la diferencia entre lo pagado y el costo.",
-        "Armar la cantidad del cambio con monedas de centavos y de pesos.",
-        "Conectar la resta con el conteo de monedas de verdad.",
-        "Contar hacia adelante desde el precio hasta la cantidad que se pagó."
+        "Dar el cambio contando desde el precio hasta lo que se pagó",
+        "Sumar dos o tres precios y luego dar el cambio",
+        "Decidir si el dinero de un monedero alcanza para un precio",
+        "Encontrar cuánto dinero falta para llegar a un precio"
       ],
       "howToPlay": [
-        "Lee cuánto cuesta el artículo y cuánto pagas; por ejemplo, cuesta $0.85 y pagas $1.00.",
-        "Calcula el cambio y toca las monedas para ponerlas en la charola hasta dar la cantidad correcta.",
-        "¿No salió a la primera? Ajusta las monedas e inténtalo de nuevo: no hay temporizador ni puntuación."
+        "Mira cómo la caja de cambio convierte el dinero del cliente en monedas chicas.",
+        "Toca monedas para poner el cambio en la charola del cliente; toca una moneda de la charola para regresarla.",
+        "Toca Comprobar: Otto cuenta las monedas que le quedan hasta el precio.",
+        "Con el monedero, toca Alcanza o No alcanza, o pon monedas en el platito de Otto hasta que tenga el precio."
       ],
       "learningGoals": [
-        "Dar el cambio con monedas en problemas de dinero.",
-        "Entender el cambio como la diferencia entre el costo y la cantidad pagada.",
-        "Reforzar al mismo tiempo la resta y el conteo de monedas con los símbolos $ y ¢."
+        "Dar el cambio contando a partir del precio.",
+        "Sumar precios y dar el cambio del total.",
+        "Comparar una cantidad de dinero con un precio y encontrar cuánto falta."
       ]
     },
     "numberbond.add-three.1-oa-a-2": {

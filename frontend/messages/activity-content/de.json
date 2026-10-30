@@ -4035,25 +4035,26 @@
     },
     "money.make-change.2-md-c-8": {
       "about": [
-        "Etwas kostet 70 Cent, und du bezahlst mit 1 Euro — das Kind gibt das richtige Wechselgeld heraus, hier 30 Cent, indem es passende Münzen in die Ablage tippt. Den Unterschied auszurechnen und ihn aus Münzen zusammenzustellen verbindet das Minusrechnen mit handfestem Münzenzählen. Diese interaktive Geld-Übung für die 2. Klasse läuft direkt im Browser, ohne Installation und ohne Konto.",
-        "Der Kern: Wechselgeld ist der Unterschied zwischen dem, was bezahlt wurde, und dem, was etwas kostet. Das Kind rechnet zuerst aus, wie viel zurückkommt, und baut diesen Betrag dann aus selbst gewählten Münzen zusammen. Weil der Wert nicht auf jeder Münze geschrieben steht, muss das Kind wissen, wie viel jede Münze wert ist, und vom Preis bis zum bezahlten Betrag hochzählen.",
-        "Die Aktivität ist am Lehrplan ausgerichtet — Sachaufgaben mit Geld lösen und mit Euro und Cent rechnen. Kein Timer, keine Punkte — nur ruhiges, spielerisches Üben."
+        "Wechselgeld ist der Teil des Geldes, der über den Preis hinausgeht. Kinder, die es noch lernen, geben oft den Preis selbst zurück oder zählen Münzen statt ihres Werts. Hier wird Wechselgeld zu dem, was es ist: Geld, das aus dem Geld des Kunden herausgenommen wird.",
+        "Das Geld des Kunden wandert in Ottos Wechselkasse, die rattert und denselben Betrag in kleinen Münzen ausschüttet. Das Kind tippt das Wechselgeld in die Schale des Kunden; was übrig bleibt, gehört Otto. Beim Prüfen zählt Otto seine Münzen bis zum Preisschild: Es fehlt ihm etwas, wenn zu viel zurückging, und er kommt über den Preis, wenn zu wenig zurückging. Ottos Zählung ist die einzige Summe auf dem Bildschirm, und sie erscheint erst beim Prüfen. Die Münzen sind im richtigen Größenverhältnis und in ihrer echten Farbe gezeichnet.",
+        "Vier Läden: Wechselgeld herausgeben; entscheiden, ob das Geld im Geldbeutel reicht, und dazulegen, was noch fehlt; zwei oder drei Spielsachen kaufen und herausgeben; oder alles gemischt. Nach dem zweiten Fehler zählt die Kasse vom Preis bis zum bezahlten Betrag weiter, und die Münzen des Wechselgelds werden im Haufen umrandet. Mit der Einstellung „Laufend“ zeigt Otto seine Zählung die ganze Zeit, für die ersten Stunden. Ohne Zeitdruck und ohne Punkte, passend zum Lehrplan."
       ],
       "practices": [
-        "Das fällige Wechselgeld als Unterschied zwischen bezahltem Betrag und Preis bestimmen.",
-        "Einen Wechselgeldbetrag aus einzelnen Münzen zusammenstellen.",
-        "Das Minusrechnen mit dem Zählen echter Münzen verbinden.",
-        "Vom Preis bis zum bezahlten Betrag hochzählen."
+        "Wechselgeld herausgeben: vom Preis bis zum bezahlten Betrag weiterzählen",
+        "Zwei oder drei Preise addieren und dann herausgeben",
+        "Entscheiden, ob das Geld im Geldbeutel für einen Preis reicht",
+        "Herausfinden, wie viel Geld bis zum Preis noch fehlt"
       ],
       "howToPlay": [
-        "Lies, was der Gegenstand kostet und womit du bezahlst, zum Beispiel: er kostet 85 Cent und du zahlst mit 1 Euro.",
-        "Rechne das Wechselgeld aus und tippe dann Münzen in die Ablage, um den richtigen Betrag herauszugeben.",
-        "Stimmt es noch nicht? Ändere die Münzen und versuch es erneut — es gibt keinen Timer und keine Punkte."
+        "Schau, wie die Wechselkasse das Geld des Kunden in kleine Münzen umtauscht.",
+        "Tippe Münzen für das Wechselgeld in die Schale des Kunden; tippe eine Münze in der Schale an, um sie zurückzulegen.",
+        "Tippe auf Prüfen: Otto zählt die Münzen, die ihm bleiben, bis zum Preis.",
+        "Beim Geldbeutel tippst du auf Reicht oder Reicht nicht, oder du legst Münzen auf Ottos Teller, bis er den Preis hat."
       ],
       "learningGoals": [
-        "In Sachaufgaben mit Münzen Wechselgeld herausgeben.",
-        "Wechselgeld als Unterschied zwischen Preis und bezahltem Betrag verstehen.",
-        "Minusrechnen und Münzenzählen mit Euro und Cent zugleich stärken."
+        "Wechselgeld durch Weiterzählen vom Preis aus bestimmen.",
+        "Preise addieren und vom Gesamtbetrag herausgeben.",
+        "Einen Geldbetrag mit einem Preis vergleichen und bestimmen, wie viel noch fehlt."
       ]
     },
     "numberbond.add-three.1-oa-a-2": {

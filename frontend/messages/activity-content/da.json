@@ -1488,25 +1488,26 @@
     },
     "money.make-change.2-md-c-8": {
       "about": [
-        "Noget koster 7 kr, og barnet betaler 10 kr — så skal det give de rigtige byttepenge tilbage, her 3 kr, ved at trykke mønter ned i bakken. At regne forskellen ud og bygge den op af 1-, 2-, 5-, 10- og 20-kroner samler minus med konkret møntoptælling, i en interaktiv pengeøvelse til 2. klasse, der kører direkte i browseren, uden at man skal installere noget, og uden konto.",
-        "Den store idé er, at byttepenge er forskellen mellem det, man har betalt, og det, varen koster. Barnet regner først ud, hvor meget der skal tilbage, og bygger så beløbet op af de mønter, det vælger — 50 øre, 1, 2, 5, 10 og 20 kroner. Fordi værdien ikke står skrevet på hver mønt, skal barnet kende, hvad hver mønt er værd, og tælle op til de byttepenge, det skylder.",
-        "Aktiviteten følger Fælles Mål inden for måling: at løse tekstopgaver med penge i danske kroner og øre. Der er ingen timer og ingen point — kun rolig og legende træning."
+        "Byttepenge er den del af kundens penge, der ikke er prisen. Børn, der stadig er ved at lære det, giver ofte selve prisen tilbage, eller tæller mønter i stedet for deres værdi. Her bliver byttepenge det, de virkelig er: penge, der tages ud af kundens egen betaling.",
+        "Kundens penge ryger ind i Ottos byttekasse, som rasler og hælder det samme beløb ud i små mønter. Barnet trykker byttepengenes mønter over i kundens skål; det, der bliver tilbage, er Ottos. Når man tjekker, tæller Otto sine mønter op til prisskiltet: Han mangler noget, hvis der gik for meget tilbage, og han kommer over prisen, hvis der gik for lidt tilbage. Ottos optælling er den eneste sum på skærmen, og den vises først, når man tjekker. Mønterne er tegnet i rigtigt størrelsesforhold og farve.",
+        "Fire butikker: giv byttepenge tilbage; afgør, om pengene i pungen er nok, og læg det til, der mangler; køb to eller tre stykker legetøj og giv byttepenge tilbage; eller det hele blandet. Efter anden fejl tæller kassen videre fra prisen til det betalte beløb, og byttepengenes mønter får en ring om i bunken. Indstillingen “Undervejs” viser Ottos optælling hele tiden, til en første lektion. Uden tidspres og uden point, i tråd med Fælles Mål."
       ],
       "practices": [
-        "Finde byttepengene som forskellen mellem det betalte og prisen",
-        "Bygge et byttebeløb op af 50 øre, 1, 2, 5, 10 og 20 kroner",
-        "Forbinde minus med at tælle rigtige mønter",
-        "Tælle op fra prisen til det betalte beløb"
+        "Give byttepenge tilbage ved at tælle videre fra prisen til det betalte beløb",
+        "Lægge to eller tre priser sammen og så give byttepenge tilbage",
+        "Afgøre, om pengene i en pung er nok til en pris",
+        "Finde ud af, hvor mange penge der mangler op til en pris"
       ],
       "howToPlay": [
-        "Barnet læser, hvad varen koster, og hvad det betaler — for eksempel den koster 8 kr, og du betaler 10 kr.",
-        "Barnet regner byttepengene ud og trykker så mønter ned i bakken for at give det rigtige beløb tilbage.",
-        "Passer det ikke? Barnet kan rette mønterne og prøve igen — der er ingen timer og ingen point."
+        "Se, hvordan byttekassen laver kundens penge om til små mønter.",
+        "Tryk mønter over i kundens skål som byttepenge; tryk på en mønt i skålen for at lægge den tilbage.",
+        "Tryk på Tjek: Otto tæller de mønter, der bliver tilbage til ham, op til prisen.",
+        "Ved pungen trykker du på Nok eller Ikke nok, eller du lægger mønter på Ottos fad, til han har prisen."
       ],
       "learningGoals": [
-        "Barnet kan give byttepenge tilbage med mønter i tekstopgaver om penge",
-        "Barnet kan forstå byttepenge som forskellen mellem pris og betalt beløb",
-        "Barnet kan styrke minus og møntoptælling sammen med danske kroner og øre"
+        "At give byttepenge tilbage ved at tælle videre fra prisen.",
+        "At lægge priser sammen og give byttepenge tilbage fra summen.",
+        "At sammenligne et pengebeløb med en pris og finde ud af, hvor meget der mangler."
       ]
     },
     "numberbond.add-three.1-oa-a-2": {

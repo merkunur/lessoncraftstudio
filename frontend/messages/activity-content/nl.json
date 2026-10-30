@@ -4248,25 +4248,26 @@
     },
     "money.make-change.2-md-c-8": {
       "about": [
-        "Iets kost 70 cent en je betaalt met één euro — je kind geeft het juiste wisselgeld terug, hier 30 cent, door munten in het bakje te tikken. Het verschil uitrekenen en daarna opbouwen met munten van 1, 2, 5, 10, 20 en 50 cent verbindt aftrekken met echt geld tellen, in een interactieve geldactiviteit voor groep 4 die direct in de browser speelt, zonder installatie en zonder account.",
-        "Het grote idee is dat wisselgeld het verschil is tussen wat er betaald is en wat iets kost. Je kind rekent eerst uit hoeveel het terugkrijgt en bouwt dat bedrag daarna op met munten die het zelf kiest. Omdat de waarde niet op elke munt staat geschreven, moet je kind weten hoeveel elke euromunt waard is en doortellen tot het juiste bedrag.",
-        "De activiteit sluit aan bij de SLO-kerndoelen voor rekenen met geld: geldverhalen oplossen met euro's en centen en het € en cent-teken gebruiken. Geen timer, geen score — gewoon rustig en speels oefenen."
+        "Wisselgeld is het deel van het geld van de klant dat niet de prijs is. Kinderen die het nog leren, geven vaak de prijs zelf terug, of tellen munten in plaats van hun waarde. Hier is wisselgeld wat het echt is: geld dat uit de betaling van de klant zelf komt.",
+        "Het geld van de klant gaat in het wisselbakje van Otto, dat rammelt en hetzelfde bedrag in kleine munten uitstort. Het kind tikt de munten van het wisselgeld op het schaaltje van de klant; wat overblijft, is van Otto. Bij Controleer telt Otto zijn munten tot het prijskaartje: hij komt tekort als er te veel terugging, en komt boven de prijs als er te weinig terugging. Otto's telling is het enige totaal op het scherm, en die verschijnt pas bij Controleer. De munten zijn in de juiste verhouding en in hun echte kleur getekend.",
+        "Vier winkels: wisselgeld geven; beslissen of het geld in de portemonnee genoeg is en bijleggen wat nog ontbreekt; twee of drie speelgoedjes kopen en wisselgeld geven; of alles door elkaar. Na de tweede fout telt het bakje verder van de prijs tot het betaalde bedrag, en de munten van het wisselgeld worden in de stapel omlijnd. Met de instelling ‘Meteen mee’ laat Otto zijn telling de hele tijd zien, voor een eerste les. Zonder tijdsdruk en zonder punten, passend bij de kerndoelen."
       ],
       "practices": [
-        "Het wisselgeld vinden als het verschil tussen betaald en de prijs",
-        "Een bedrag aan wisselgeld opbouwen met euromunten",
-        "Aftrekken verbinden met het tellen van echte munten",
-        "Doortellen vanaf de prijs tot het betaalde bedrag"
+        "Wisselgeld geven door verder te tellen van de prijs tot het betaalde bedrag",
+        "Twee of drie prijzen optellen en dan wisselgeld geven",
+        "Beslissen of het geld in een portemonnee genoeg is voor een prijs",
+        "Uitzoeken hoeveel geld er nog ontbreekt tot een prijs"
       ],
       "howToPlay": [
-        "Lees wat het voorwerp kost en wat je betaalt, bijvoorbeeld het kost 85 cent en je betaalt met één euro.",
-        "Reken het wisselgeld uit en tik daarna munten in het bakje om het juiste bedrag terug te geven.",
-        "Net niet? Pas de munten aan en probeer opnieuw — er is geen timer en geen score."
+        "Kijk hoe het wisselbakje het geld van de klant in kleine munten omwisselt.",
+        "Tik munten op het schaaltje van de klant voor het wisselgeld; tik op een munt op het schaaltje om hem terug te leggen.",
+        "Tik op Controleer: Otto telt de munten die hij overhoudt tot de prijs.",
+        "Bij de portemonnee tik je op Genoeg of Niet genoeg, of je legt munten op het bordje van Otto tot hij de prijs heeft."
       ],
       "learningGoals": [
-        "Het kind geeft wisselgeld met munten in geldverhalen.",
-        "Het kind begrijpt wisselgeld als het verschil tussen de prijs en het betaalde bedrag.",
-        "Het kind versterkt aftrekken en het tellen van euromunten samen, met € en cent."
+        "Wisselgeld bepalen door verder te tellen vanaf de prijs.",
+        "Prijzen optellen en wisselgeld geven van het totaal.",
+        "Een geldbedrag vergelijken met een prijs en uitzoeken hoeveel er nog ontbreekt."
       ]
     },
     "numberbond.add-three.1-oa-a-2": {

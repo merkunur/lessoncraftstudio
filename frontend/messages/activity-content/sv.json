@@ -1364,25 +1364,26 @@
     },
     "money.make-change.2-md-c-8": {
       "about": [
-        "Något kostar 7 kronor och du betalar med 10 kronor — barnet ger tillbaka rätt växel, här 3 kronor som en tvåkrona och en enkrona, genom att trycka mynt till brickan. Att räkna ut skillnaden och bygga upp den av en-, två-, fem- och tiokronor förenar subtraktion med praktisk mynträkning, i en interaktiv pengaövning för årskurs 2 som spelas direkt i webbläsaren utan installation och utan konto.",
-        "Den stora idén är att växel är skillnaden mellan det man betalar och det något kostar. Barnet räknar först ut hur mycket som ska tillbaka och bygger sedan upp beloppet av mynt det väljer själv — 1, 2, 5 och 10 kronor — vilket förenar subtraktion med konkret mynträkning. Eftersom värdet inte står skrivet på varje mynt måste barnet veta vad varje mynt är värt och räkna uppåt till växeln som ska tillbaka.",
-        "Aktiviteten följer Lgr22: att lösa vardagsproblem med pengar i hela kronor och att räkna växel. Ingen tid, inga poäng — bara lugn och lekfull träning."
+        "Växel är den del av kundens pengar som inte är priset. Barn som håller på att lära sig det ger ofta tillbaka själva priset, eller räknar mynt i stället för deras värde. Här blir växeln det den verkligen är: pengar som tas ur kundens egen betalning.",
+        "Kundens pengar åker in i Ottos växelkassa, som skramlar och häller ut samma belopp i små mynt. Barnet flyttar växelns mynt till kundens skål med ett tryck; det som blir kvar är Ottos. När man kontrollerar räknar Otto sina mynt upp till prislappen: det fattas något om för mycket gick tillbaka, och han kommer över priset om för lite gick tillbaka. Ottos räkning är den enda summan på skärmen, och den syns först när man kontrollerar. Mynten är ritade i rätt storlek i förhållande till varandra och i sin riktiga färg.",
+        "Fyra affärer: ge tillbaka växel; avgöra om pengarna i plånboken räcker och lägga till det som fattas; köpa två eller tre leksaker och ge tillbaka växel; eller allt blandat. Efter andra felet räknar kassan vidare från priset till det betalda beloppet, och växelns mynt ringas in i högen. Inställningen ”Medan du spelar” visar Ottos räkning hela tiden, för en första lektion. Utan tidspress och utan poäng, i linje med Lgr22."
       ],
       "practices": [
-        "Räkna ut växeln som skillnaden mellan det betalda och priset",
-        "Bygga ett växelbelopp av en-, två-, fem- och tiokronor",
-        "Koppla ihop subtraktion med att räkna riktiga mynt",
-        "Räkna uppåt från priset till det belopp man betalade"
+        "Ge tillbaka växel genom att räkna vidare från priset till det betalda beloppet",
+        "Addera två eller tre priser och sedan ge tillbaka växel",
+        "Avgöra om pengarna i en plånbok räcker till ett pris",
+        "Ta reda på hur mycket pengar som fattas till ett pris"
       ],
       "howToPlay": [
-        "Läs vad varan kostar och vad du betalar, till exempel att den kostar 8 kronor och du betalar med 10 kronor.",
-        "Räkna ut växeln och tryck sedan mynt till brickan för att ge tillbaka rätt belopp.",
-        "Inte riktigt rätt? Ändra mynten och försök igen — det finns ingen tid och inga poäng."
+        "Titta när växelkassan gör om kundens pengar till små mynt.",
+        "Tryck på mynt för att lägga dem i kundens skål som växel; tryck på ett mynt i skålen för att lägga tillbaka det.",
+        "Tryck på Kontrollera: Otto räknar mynten som blir kvar hos honom upp till priset.",
+        "Med plånboken trycker du på Räcker eller Räcker inte, eller lägger mynt på Ottos fat tills han har priset."
       ],
       "learningGoals": [
-        "Barnet kan ge tillbaka växel med mynt i vardagsproblem om pengar",
-        "Barnet förstår växel som skillnaden mellan priset och det belopp man betalar",
-        "Barnet stärker subtraktion och mynträkning tillsammans, i hela kronor"
+        "Ge tillbaka växel genom att räkna vidare från priset.",
+        "Addera priser och ge tillbaka växel på summan.",
+        "Jämföra ett belopp med ett pris och ta reda på hur mycket som fattas."
       ]
     },
     "numberbond.add-three.1-oa-a-2": {

@@ -768,25 +768,26 @@
     },
     "money.make-change.2-md-c-8": {
       "about": [
-        "Jokin maksaa 70 senttiä ja maksat yhden euron — lapsi antaa oikean vaihtorahan, tässä 30 senttiä, napauttamalla kolikoita lokeroon: 20 sentin ja 10 sentin kolikon. Erotuksen päättely ja sen kokoaminen 5, 10, 20 ja 50 sentin kolikoista sekä euron kolikoista yhdistää vähennyslaskun käytännön kolikkojen laskemiseen. Tämä on vuorovaikutteinen rahatehtävä, joka toimii suoraan selaimessa ilman asennusta ja ilman tiliä.",
-        "Tärkein ajatus on, että vaihtoraha on se erotus, joka jää maksetun ja hinnan välille. Lapsi päättelee ensin, paljonko rahaa on jäätävä takaisin, ja kokoaa sitten sen summan itse valitsemistaan kolikoista — 5, 10, 20 ja 50 sentin kolikoista sekä 1 ja 2 euron kolikoista. Koska arvoa ei ole kirjoitettu jokaiseen kolikkoon, lapsen on tunnettava jokaisen kolikon arvo ja laskettava ylöspäin annettavaan vaihtorahaan asti.",
-        "Tehtävä on OPS 2014:n mukainen: lapsi ratkaisee rahaan liittyviä sanallisia tehtäviä euroilla ja senteillä käyttäen €- ja sentti-merkintöjä. 2. luokan oppilaille — ei ajastinta eikä pisteitä, vaan rauhallista ja leikkisää harjoittelua."
+        "Vaihtoraha on se osa asiakkaan rahoista, joka ei ole hinta. Sitä opettelevat lapset antavat usein takaisin itse hinnan tai laskevat kolikoiden määrää niiden arvon sijaan. Tässä vaihtoraha on sitä, mitä se oikeasti on: rahaa, joka otetaan asiakkaan omasta maksusta.",
+        "Asiakkaan rahat menevät Oton vaihtokoneeseen, joka kolisee ja kaataa ulos saman summan pieninä kolikoina. Lapsi napauttaa vaihtorahan kolikot asiakkaan lautaselle; se, mikä jää, on Oton. Tarkistettaessa Otto laskee kolikkonsa hintalappuun asti: häneltä puuttuu, jos takaisin annettiin liikaa, ja hinta ylittyy, jos takaisin annettiin liian vähän. Oton laskema summa on ainoa summa ruudulla, ja se näkyy vasta tarkistettaessa. Kolikot on piirretty oikeassa kokosuhteessa ja oikean värisinä.",
+        "Neljä kauppaa: anna vaihtoraha; päätä, riittävätkö kukkaron rahat, ja lisää se, mikä puuttuu; osta kaksi tai kolme lelua ja anna vaihtoraha; tai kaikki sekaisin. Toisen virheen jälkeen kone laskee eteenpäin hinnasta maksettuun summaan, ja vaihtorahan kolikot ympyröidään kasassa. Asetus ”Koko ajan” näyttää Oton laskeman summan koko ajan ensimmäisille tunneille. Ilman kiirettä ja ilman pisteitä, opetussuunnitelman mukaisesti."
       ],
       "practices": [
-        "Päättelee annettavan vaihtorahan maksetun ja hinnan erotuksena.",
-        "Kokoaa vaihtorahan 5, 10, 20 ja 50 sentin kolikoista sekä euron kolikoista.",
-        "Yhdistää vähennyslaskun todellisten kolikoiden laskemiseen.",
-        "Laskee ylöspäin hinnasta maksettuun summaan asti."
+        "Antaa vaihtoraha laskemalla eteenpäin hinnasta maksettuun summaan",
+        "Laskea yhteen kaksi tai kolme hintaa ja antaa sitten vaihtoraha",
+        "Päättää, riittävätkö kukkaron rahat hintaan",
+        "Selvittää, paljonko rahaa puuttuu hintaan"
       ],
       "howToPlay": [
-        "Lue, mitä tavara maksaa ja kuinka paljon maksat, esimerkiksi se maksaa 70 senttiä ja maksat yhden euron.",
-        "Päättele vaihtoraha ja napauta sitten kolikoita lokeroon antaaksesi oikean summan.",
-        "Meneekö pieleen? Korjaa kolikoita ja yritä uudelleen — ei ajastinta eikä pisteitä."
+        "Katso, kun vaihtokone vaihtaa asiakkaan rahat pieniksi kolikoiksi.",
+        "Napauta vaihtorahan kolikot asiakkaan lautaselle; napauta lautasella olevaa kolikkoa, niin se palaa kasaan.",
+        "Paina Tarkista: Otto laskee itselleen jäävät kolikot hintaan asti.",
+        "Kukkarokierroksilla napauta Riittää tai Ei riitä, tai laita kolikoita Oton kulhoon, kunnes hänellä on hinta."
       ],
       "learningGoals": [
-        "Lapsi antaa vaihtorahan kolikoilla rahaan liittyvissä sanallisissa tehtävissä.",
-        "Lapsi ymmärtää vaihtorahan hinnan ja maksetun summan erotuksena.",
-        "Lapsi vahvistaa vähennyslaskua ja kolikoiden laskemista yhdessä euroilla ja senteillä."
+        "Antaa vaihtoraha laskemalla eteenpäin hinnasta.",
+        "Laskea hinnat yhteen ja antaa vaihtoraha yhteissummasta.",
+        "Verrata rahasummaa hintaan ja selvittää, paljonko puuttuu."
       ]
     },
     "numberbond.add-three.1-oa-a-2": {

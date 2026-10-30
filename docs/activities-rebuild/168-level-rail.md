@@ -80,3 +80,4 @@ ORDER row 168 · id `graph-it.bar-graph.2-md-d-10` (kept). Design: `designs/168-
   
   Then 11 states × 8 widths with Check above the fold at rest.
 - visual-qa × 11 locales; hierarchy 702/0; settings efficacy 2 live; prose-claims, SERP copy, content tells, preflight routes, next-delay all PASS.
+- **Live (2026-10-30):** live-verify-level-rail 68/0. Every one of the 11 pages answers 200. In en, de, sv and fi × 1366 + 390: the rail laid by the keyboard and levelled; a wrong dial by real taps → a miss; the right dial → solved; a build round by the keyboard → solved; the iframe grows with the card. Deploy: payment canary OK, pm2 holds port 3000. Test screenshots deleted after the row.

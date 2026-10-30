@@ -84,3 +84,6 @@ ORDER row 170 · id `fractions.make-and-count-squares.2-g-a-2` (kept). Design: `
   - the notches identical at rest; the lattice above the misprints and gone after a move;
   - 9 states × 8 widths with Check above the fold.
 - `local-test-stamp-sheet.js` final run 3,641/0. Visual QA ×11 locales PASSED (324 renders each: 6 phases × 9 rounds × 6 viewports, plus tablet reach). Hierarchy 416/0. Settings efficacy: 2 live. Prose-claims, SERP copy, content tells, preflight routes and next-delay all PASS.
+
+## Live
+- LIVE 2026-10-30 (commit 2511d677e): `live-verify-stamp-sheet.js` 68/0 on production (11 pages 200; en/de/sv/fi at 1366 and 390: real rail taps, a misplaced line → misprints, heal, the true grid → count, 12 on the keypad → solved, iframe grows with the card).

@@ -176,7 +176,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 166 | LIVE 2026-10-30 · The Change Box | 2 | 2.MD.C.8 | `money.make-change.2-md-c-8` | money-activity | Make Change with Coins — Money Word Problems (Grade 2) |
 | 167 | LIVE 2026-10-30 · The Tide You Push | 2 | 2.MD.D.9 | `line-plot.read.2-md-d-9` | line-plot-activity | Shelly's Tide-Line — Measurement Line Plots (Grade 2) |
 | 168 | LIVE 2026-10-30 · The Level Rail | 2 | 2.MD.D.10 | `graph-it.bar-graph.2-md-d-10` | graph-it-activity | Pip's Stacking Fence — Build & Read a Bar Graph |
-| 169 |  | 2 | 2.G.A.1 | `sort-bins.sort-by-sides.2-g-a-1` | sort-bins-activity | Sort Shapes by Sides — Triangles, Quadrilaterals, Pentagons & Hexagons (Grade 2) |
+| 169 | LIVE 2026-10-30 · The Trundle Wheel | 2 | 2.G.A.1 | `sort-bins.sort-by-sides.2-g-a-1` | sort-bins-activity | Sort Shapes by Sides — Triangles, Quadrilaterals, Pentagons & Hexagons (Grade 2) |
 | 170 |  | 2 | 2.G.A.2 | `fractions.make-and-count-squares.2-g-a-2` | fractions-activity | Make and Count Squares — Partition a Rectangle into a Grid |
 | 171 |  | 2 | 2.G.A.3 | `choice-board.fraction-noncongruent.2-g-a-3` | choice-board-activity | Same Size, Different Shape — Equal Shares Can Look Different / Grade 2 Geometry |
 | 172 |  | 2 | 2.G.A.3 | `fractions.partition-thirds.2-g-a-3` | fractions-activity | Make Thirds — Partition Shapes into 3 Equal Parts (Grade 2) |

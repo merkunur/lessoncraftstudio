@@ -60,3 +60,6 @@ ORDER row 169 · id `sort-bins.sort-by-sides.2-g-a-1` (kept). Design: `designs/1
 - `mutate-trundle-wheel.js` 23/23 killed, control passes.
 - `local-test-trundle-wheel.js` in 11 locales: real drags to the lane, along the lane and into crates and drawers; tap-then-tap; the keyboard; the crate settings; misses, help and success; then 9 states × 8 widths with Check above the fold at rest.
 - Visual QA × 11 locales; hierarchy 686/0; settings efficacy 2 live; prose-claims, SERP copy, content tells, preflight routes and next-delay all PASS.
+
+## Live
+- LIVE 2026-10-30 (commit 047796515): `live-verify-trundle-wheel.js` 68/0 on production (11 pages 200; en/de/sv/fi at 1366 and 390: dock, roll by taps, a miss sends the shape home, solved, iframe grows with the card).

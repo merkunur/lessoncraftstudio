@@ -1,5 +1,5 @@
 {
-  "tapHint": "Tocca o fai clic su un’immagine, una parola, il titolo o la consegna per modificarli.",
+  "tapHint": "Tocca o fai clic su un’immagine, su una parola, sul titolo o sulla consegna per modificarli.",
   "choosePicture": "Scegli un’immagine",
   "chooseWord": "Scegli una parola",
   "close": "Chiudi",
@@ -55,8 +55,8 @@
   "border_dotted": "Punteggiata",
   "border_double": "Doppia",
   "draw": "Disegna",
-  "stopDrawing": "Fine del disegno",
-  "undo": "Annulla",
+  "stopDrawing": "Termina il disegno",
+  "undo": "Annulla il tratto",
   "clearDrawing": "Cancella il disegno",
   "ink_black": "Nero",
   "ink_blue": "Blu",

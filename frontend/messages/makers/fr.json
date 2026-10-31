@@ -56,7 +56,7 @@
   "border_double": "Double",
   "draw": "Dessiner",
   "stopDrawing": "Terminer le dessin",
-  "undo": "Annuler",
+  "undo": "Annuler le trait",
   "clearDrawing": "Effacer le dessin",
   "ink_black": "Noir",
   "ink_blue": "Bleu",

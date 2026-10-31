@@ -10,7 +10,9 @@ Answers brief §N of `docs/makers/FABLE-BRIEF.md` ("enrich each worksheet maker 
 
 ---
 
-## Summary — 303 new templates across 60 makers
+## Summary — 297 new templates across 60 makers
+
+> **F3 (2026-10-31): 303 → 297.** Six entries were removed as not genuinely new by this document's own rule: 6-T2 (the make-ten bridge is 5-T3's task in a second model — the child fills the same three boxes), 13-T6 (a value of 6-T6's *Operation* control), 20-T4 / 32-T4 / 33-T3 ("fading rows" is the *Rows* control of ARCHITECTURE §4.2, present on every tracing template, and `primitives/trace-path.js:336 fadedStrokeLane` already draws it), 51-T4 (the number-word search is 57-T5, owned by word-search — counted once). Each keeps its text below, marked REMOVED, so the build can still read the reasoning. Also changed in place: no 0 in any counting range (CLAUDE.md "counting never includes 0" — 1-T6, 4-T3, 6-T1, 6-T5, 20-T1, 20-T2, 51-T5), write screens where a box is written (7-T6, 28-T4), two-right-answer fixes (18-T6, 23-T4), grade fit (13-T1), and the native review = ONE reviewer over all 11 locales (D).
 
 | # | maker | new | top 3 (rank order) |
 |---|---|---|---|
@@ -19,21 +21,21 @@ Answers brief §N of `docs/makers/FABLE-BRIEF.md` ("enrich each worksheet maker 
 | 3 | spelling | 6 | Word scramble · Word guess (blanks + picture) · Look-cover-write-check list |
 | 4 | number-sequences | 5 | 120 chart · Hidden picture on the hundreds chart · Blank chart to fill |
 | 5 | number-lines | 6 | Open number line · Missing labels on the line · Make-ten bridge on the line |
-| 6 | number-bonds | 6 | Zahlenhaus / splitshuis (all pairs of N) · Make-ten bridge · Hidden counters |
+| 6 | number-bonds | 5 | Zahlenhaus / splitshuis (all pairs of N) · Bonds to 100 in tens · Hidden counters |
 | 7 | addition-subtraction | 8 | Facts drill page · True or false equations · Write the whole number sentence |
 | 8 | doubles-halves | 5 | Near doubles · Draw the double · Is it a double? |
 | 9 | compare-numbers | 5 | Crocodile mouth · Compare expressions · Make it true (open middle) |
 | 10 | odd-even | 4 | Odd/even stripes on the chart · Discover the rule · Odd/even card sort to cut |
 | 11 | place-value | 5 | Expanded form both ways · How many tens? · Non-standard blocks |
 | 12 | fractions | 5 | Fraction wall to cut · Partition it yourself · Colour a fraction of the set |
-| 13 | multiplication-division | 7 | Multiplication square · Division facts drill · Table of the day |
+| 13 | multiplication-division | 6 | Multiplication square · Division facts drill · Table of the day |
 | 14 | money | 6 | Make the amount · Fewest coins · Which coin is it? |
 | 15 | telling-time | 6 | Time words ↔ clocks · Daily routine timeline · Elapsed time on a time line |
 | 16 | measurement | 6 | Estimate, then measure · Ruler to cut out · Which unit? |
 | 17 | graphs-data | 5 | Class survey sheet · Count the scene, then graph · Build the pictograph |
 | 18 | shapes-geometry | 6 | Rectangles of a given area · Nets to cut and fold · Which two shapes make it? |
 | 19 | patterns | 5 | Find the core · Make your own pattern · Fix the pattern |
-| 20 | number-tracing | 5 | Number + quantity tracing · Trace the number word · Dotted numbers to 50/100 |
+| 20 | number-tracing | 4 | Number + quantity tracing · Trace the number word · Dotted numbers to 50/100 |
 | 21 | symmetry-grids | 5 | Grid copy of a drawing · Two-axis symmetry · Enlarge on the grid |
 | 22 | logic-puzzles | 6 | Code addition · Number sudoku · Who am I? number riddles |
 | 23 | same-different | 5 | Missing piece · Rebuild the picture · Match the close-up |
@@ -45,8 +47,8 @@ Answers brief §N of `docs/makers/FABLE-BRIEF.md` ("enrich each worksheet maker 
 | 29 | find-the-differences | 5 | Odd panel out · Count the kinds · Look, fold, find |
 | 30 | how-to-draw | 5 | Shapes-only drawing · Draw it bigger · Draw the other half |
 | 31 | picture-tracing | 4 | Trace any library picture · Trace and colour by number · Trace, then write the word |
-| 32 | pre-writing | 4 | Cutting lines · Letter-shape strokes · Fading rows |
-| 33 | letter-tracing | 5 | Name tracing · Letter + picture · Fading rows |
+| 32 | pre-writing | 3 | Cutting lines · Letter-shape strokes · Dot-grid patterns |
+| 33 | letter-tracing | 4 | Name tracing · Letter + picture · Capital and small together |
 | 34 | word-writing | 4 | Own-sentence tracing · Label the picture · Word shape boxes |
 | 35 | cursive | 4 | Own words and sentences · Cursive letter of the day · Print ↔ cursive match |
 | 36 | tangram | 4 | Make your own figure · Three-piece first puzzles · Which figure can you build? |
@@ -64,7 +66,7 @@ Answers brief §N of `docs/makers/FABLE-BRIEF.md` ("enrich each worksheet maker 
 | 48 | reading | 4 | My passage, my questions · True or false on a passage · Best title |
 | 49 | stories-writing | 6 | Story map · Comic strip · Roll a story |
 | 50 | word-problems | 4 | Compare problems · Two-step problems · Match the story to the number sentence |
-| 51 | number-of-the-day | 5 | Number of the day to 1000 · Write it both ways · Numeral–word–quantity match |
+| 51 | number-of-the-day | 4 | Number of the day to 1000 · Write it both ways · Numeral–word–quantity match |
 | 52 | ordinal-numbers | 4 | Ordinal words to 31 (dates) · Which floor? · Numeral ↔ word match |
 | 53 | calendar | 4 | Blank month to fill · Birthday graph · Today's date three ways |
 | 54 | maps-grids | 5 | Treasure hunt · Give the directions · Draw your own map |
@@ -75,7 +77,7 @@ Answers brief §N of `docs/makers/FABLE-BRIEF.md` ("enrich each worksheet maker 
 | 59 | secret-code | 5 | Number code A = 1 · Picture code · Sum code |
 | 60 | bingo | 6 | Sum bingo · Sight-word bingo · Clock bingo |
 
-Below 5 (18 makers): each section opens with the reason — a narrow topic already covered by its faces (odd-even, rhyming, syllables, tangram, cursive, ordinals), a bank-bound topic where every new face needs ×11 native authoring (word-problems, reading, nouns-articles, word-meaning), or a maker whose new value is a *freedom* (any library picture, own words) rather than new tasks (picture-tracing, word-writing). Cross-link cards (a gallery card that opens another maker's template — odd/even maze, sight-word bingo, number-word search) are listed where they belong and counted once, in the maker that owns the type (topic-map: one maker per type).
+Below 5 (21 makers after F3 — number-bonds stays at 5; number-tracing, pre-writing, letter-tracing and number-of-the-day joined the list when their "fading rows" / cross-link entries were removed): each section opens with the reason — a narrow topic already covered by its faces (odd-even, rhyming, syllables, tangram, cursive, ordinals), a bank-bound topic where every new face needs ×11 native authoring (word-problems, reading, nouns-articles, word-meaning), or a maker whose new value is a *freedom* (any library picture, own words) rather than new tasks (picture-tracing, word-writing). Cross-link cards (a gallery card that opens another maker's template — odd/even maze, sight-word bingo, number-word search) are listed where they belong and counted once, in the maker that owns the type (topic-map: one maker per type).
 
 Data the new templates need that does not exist today (native authoring; sizes are string counts per locale): two-step word-problem frames (~12) · daily-routine words (~12) · adjective triples (~20) · present-tense person forms where the verb bank lacks them · diminutive pairs (~20; en/fr/sv/da/no refused) · definite-article table (10 rows; Nordic as literals) · number-riddle frames (~8) · fraction words (~8, gendered) · ordinals 11th–31st · emergency numbers + helper words (3) · weekday-schedule activity words (~10) · vowel-length flags (fi/nl/de/en, from the approved words) · caller strings. Each is named in its template and totalled in §"For the operator" D.
 
@@ -162,7 +164,7 @@ Data the new templates need that does not exist today (native authoring; sizes a
  └──────────┴──────────┘
 ```
 - Child/teacher: cut the cards; flash for subitizing; back page optional numerals (mirrored so a duplex print lines up).
-- Settings: Range (0–10 / 11–20 double frames) · Numerals on the back (on/off).
+- Settings: Range (1–10 / 11–20 double frames — F3: no empty "0" card; counting never includes 0) · Numerals on the back (on/off).
 - Band K · Point K.CC.B.5 fluency with the five/ten structure.
 - Reuse `ten-frame.js`; the cut lines of K-240 (`types/k/K-240-cut-and-paste.js`, the dashed scissor line component per ENGINES #24).
 - Screen material (no key) · Locales 11 (no words) · Key: none (the gallery card says "classroom material").
@@ -376,7 +378,7 @@ Data the new templates need that does not exist today (native authoring; sizes a
  │ 1│  │  │  │ …   (or 101 … 200, or fully empty)
 ```
 - Child: writes every number of the chart from the printed start (level 3: only the first number given; range 101–200 or 201–300).
-- Settings: Start (1 / 0 / 101 / 201 …) · Given cells (first row / first column / first only) · Step (1 / 10 for a 10-200 by tens chart).
+- Settings: Start (1 / 101 / 201 … — F3: the 0–99 chart is not offered; counting ranges start at 1) · Given cells (first row / first column / first only) · Step (1 / 10 for a 10-200 by tens chart).
 - Band G1–G2 · Point 1.NBT.A.1, 2.NBT.A.2 (count within 1000); demand-named in five locales.
 - Reuse `hundredsChart({start, missing: all})`; the per-cell screen of `lib/hundreds-screen.js`.
 - Screen type-number (every cell) · Locales 11 · Key: the full chart.
@@ -442,7 +444,7 @@ Data the new templates need that does not exist today (native authoring; sizes a
  8 + 5:   8 ──╮2╭── 10 ──╮3╭── 13      8 + [2] + [3] = [13]
 ```
 - Child: draws two jumps — to the next ten, then the rest — and fills the three boxes.
-- Settings: Range (to 20 / 100) · Operation (+ / −: 13 − 5 = 13 − 3 − 2).
+- Settings: Range (to 20 / 100) · Operation (+ / −: 13 − 5 = 13 − 3 − 2) · **Model (number line / bond under the addend — F3: absorbs the removed number-bonds T2; a cross-link card in number-bonds opens this template with `model: bond`)**.
 - Band G1–G2 · Point 1.OA.C.6 (make ten), 2.NBT.B.5; de "Zehnerübergang mit Zerlegung", nl "met brug".
 - Reuse `number-line.js jumps` (two arcs), three `answerBox` cells; the decomposition is computed (next ten − a).
 - Screen type-number ×3 · Locales 11 · Key: the three numbers and both arcs.
@@ -489,7 +491,7 @@ Data the new templates need that does not exist today (native authoring; sizes a
 - Risks: none; the 2-cm footer check square keeps the laminated strip true to scale.
 - Evidence: "linea dei numeri fino 20 e plastificare" (it), "getallenlijn voor in de klas" (nl), "tallinje vägg / 0 100 vägg" (da/sv), "number lines to 20" (en head term).
 
-### 6. Number Bonds & Fact Families (`number-bonds`) — 6 new
+### 6. Number Bonds & Fact Families (`number-bonds`) — 5 new (F3: was 6; T2 merged into number-lines T3)
 
 **T1 · Zahlenhaus / splitshuis — every pair of N** — rank 1
 ```
@@ -504,11 +506,13 @@ Data the new templates need that does not exist today (native authoring; sizes a
 - Settings: Whole (5 … 10 / 20) · Floors given (all left / some / none) · Dots beside numerals (on/off).
 - Band K–G1 · Point K.OA.A.3 (decompose in more than one way; record each); de "Zahlenhaus", nl "splitshuis", fr "maisons des nombres".
 - Reuse `primitives/number-bond.js` for the roof (`blankText`, `partDots`, `number-bond.js:9-12`); a new house body = rows of two `answerBox` cells.
-- Screen type-number (each blank) · Locales 11 · Key: the full table. 0 + 7 is kept: the decomposition table legitimately includes 0 (A16 is about *counting* pages, ENGINES #6 names this house).
-- Risks: the order 0,1,2… makes the right column predictable → level 3 shuffles the given left numbers; A4: each row has one right answer by the fixed left part.
+- Screen type-number (each blank) · Locales 11 · Key: the full table. **F3: the 0 + N floor is NOT printed — the house runs 1 … N−1 (the standing rule "counting never includes 0" applies to every quantity a child counts; K.OA.A.3 does not require the zero pair, and the de/nl panels may re-add it as a level-3 option only if they rule it the school convention).**
+- Risks: the order 1,2,3… makes the right column predictable → level 3 shuffles the given left numbers; A4: each row has one right answer by the fixed left part.
 - Evidence: "zahlzerlegung haus" (de), "splitsen groep 3 / splitsen tot 10" (nl), "maisons des nombres"-class (fr); COVERAGE.md K row 15.
 
-**T2 · Make-ten bridge (8 + 5 = 8 + 2 + 3)** — rank 2
+**T2 · Make-ten bridge (8 + 5 = 8 + 2 + 3)** — ~~rank 2~~ **REMOVED (F3)**
+
+> F3: not a new task — the child fills the same three boxes as number-lines T3 (same strategy, same answer cells); only the drawing beside them differs (a bond instead of a line). It becomes a *Model: line / bond* value on number-lines T3 and a cross-link card in this maker (decision G). Text kept for the record; not counted.
 ```
  8 + 5 = 8 + [2] + [3] = [13]
          ╱ ╲
@@ -556,7 +560,7 @@ Data the new templates need that does not exist today (native authoring; sizes a
    ╰───────────────────────────────────────╯
        ╰───────────────────────────────╯   …  (child draws the arcs)
 ```
-- Child: draws arcs joining the pairs that make N (0–10 in a row); level 3: N = 20 with numbers 0–20 shuffled.
+- Child: draws arcs joining the pairs that make N (1–9 in a row for 10 — F3: no 0 and no bare N on the row, counting never includes 0); level 3: N = 20 with numbers 1–19 shuffled.
 - Settings: Whole (10 / 20) · Order (in order / shuffled) · Arcs given (none / one example).
 - Band K–G1 · Point K.OA.A.4; it "arcobaleno degli amici del 10" (demand), sv "tiokompisar", da/no "tiervenner".
 - Reuse the row of numerals + `primitives/syllable-arcs.js` arc geometry (arcs under a row — the same drawing), the pair screen of the matching family.
@@ -651,7 +655,7 @@ Data the new templates need that does not exist today (native authoring; sizes a
 - Settings: Range (to 20 / 100) · Wrong answers per page (2 / 4 / 6) · Error kind (±1 / digit swap / wrong operation).
 - Band G1–G3 · Point 1.OA.D.7 / 2.NBT.B.9 (explain why strategies work; check); Lehrplan "Rechenfehler finden", Lgr22 "rimlighetsbedömning".
 - Reuse the mental card with a printed (sometimes wrong) answer + a ☐ and a correction box; `G3-383`'s find-the-error precedent (`types/g3/G3-383-division-with-remainder-find-the-error.js`).
-- Screen tap-select (the wrong ones; the correction is printable + key) · Locales 11 · Key: marked rows with the right answers.
+- Screen tap-select (the wrong ones) **+ type-number for each correction box** (F3: a box the child writes in gets a write screen, D6) · Locales 11 · Key: marked rows with the right answers.
 - Risks: a wrong answer that equals another correct fact (7+5=13, 13 is right for 7+6) is fine — the row is still wrong; every wrong answer stays within ±2 of the truth so the task is checking, not spotting absurdities.
 - Evidence: topic seed; "find the error" is the one checking strategy in every national framework.
 
@@ -958,7 +962,7 @@ Narrow topic (one concept; six faces cover pairing, two equal addends, the ones 
 - Child: draws the lines that cut each shape into N equal parts (production; G2-232/234 only recognise equal parts).
 - Settings: Parts (2 / 3 / 4 / 6) · Shapes (rectangle / square / circle; triangle and hexagon for thirds/sixths) · Shade one part after (on/off).
 - Band G1–G2 · Point 1.G.A.3, 2.G.A.3 (partition circles and rectangles into equal shares); SLO "breuken: verdelen in gelijke delen".
-- Reuse `fraction.js` outlines (`d: 1`); the key draws the partition — only shapes with an exact equal-area construction for N are offered (the §A.13.60 rule: circle/triangle/hexagon/square/rect for thirds).
+- Reuse `fraction.js` outlines (`d: 1`; F3: the primitive draws `circle | bar | square` only, `fraction.js:3` — the triangle and hexagon outlines are an additive `shape` extension with the exact-thirds construction of `scripts/verify-fractions-core.js`, ≈ 0.3 session); the key draws the partition — only shapes with an exact equal-area construction for N are offered (the §A.13.60 rule: circle/triangle/hexagon/square/rect for thirds).
 - Screen printable (drawing; the gallery says so) · Locales 11 · Key: one valid partition per shape (the key says "or any other equal cut").
 - Risks: several correct partitions (a square into halves by a diagonal or a midline) → the key states this; nothing is graded on screen.
 - Evidence: 1.G.A.3 verbatim ("partition … into two and four equal shares"); "fair shares?" (G2-232) recognises — the drawing face is the production.
@@ -999,7 +1003,7 @@ Narrow topic (one concept; six faces cover pairing, two equal addends, the ones 
 - Risks: "half" vs "halves" number → the picture decides (one shaded half → singular); the panel owns the register (en-US: "fourths" in CCSS, "quarter" in daily speech → both printed where the panel says).
 - Evidence: 1.G.A.3 names the words explicitly; demand "breuken uitleg" (nl), "fractions ce1" (fr).
 
-### 13. Multiplication & Division (`multiplication-division`) — 7 new
+### 13. Multiplication & Division (`multiplication-division`) — 6 new (F3: was 7; T6 is a control value of number-bonds T6)
 
 **T1 · Multiplication square to fill** — rank 1
 ```
@@ -1009,7 +1013,7 @@ Narrow topic (one concept; six faces cover pairing, two equal addends, the ones 
   2 │ 2  [ ] 6 …
 ```
 - Child: fills a 10×10 (or 5×5, or one table's row/column) multiplication grid; level 3 gives only the headers.
-- Settings: Size (5 / 10 / 12) · Given (most / diagonal / headers only) · Tables (chips; the others greyed in the key).
+- Settings: Size (5 / 10 — F3: the 12 × 12 square is dropped; products to 144 sit above the K-3 ceiling, 3.OA.C.7 is "within 100" and every one of the 11 curricula's Einmaleins/tabuada/tables runs 1–10) · Given (most / diagonal / headers only) · Tables (chips; the others greyed in the key).
 - Band G2–G3 · Point 3.OA.C.7 (fluency), 3.OA.B.5 (commutativity visible in the symmetry); de "Einmaleins-Tafel", pt "tabuada completa", it "tabelline formato a4".
 - Reuse `hundreds-chart.js` cell engine with header row/column (an additive `headers` option) or a 12-line SVG grid; `lib/times-tables-screen.js` takes the `glyph` (per ENGINES Q1).
 - Screen type-number · Locales 11 (the × / · glyph from `notation.js:16-22` in the corner) · Key: the full square.
@@ -1070,7 +1074,8 @@ Narrow topic (one concept; six faces cover pairing, two equal addends, the ones 
 - Risks: a child who knows the fact writes the end without the chain → every cell is an answer; the first cell is graded too.
 - Evidence: "times tables tips / strategies" (en), "tabelline metodo bortolato" (it), "tafels … automatiseren" (nl) — strategy demand around the tables.
 
-**T6 · Fact triangle cards ×/÷ to cut** — rank 6
+**T6 · Fact triangle cards ×/÷ to cut** — ~~rank 6~~ **REMOVED (F3)**
+> F3: this is the `Operation (+− / ×÷)` control value of number-bonds T6, which already declares it — the same page with another sign. Appears here as a cross-link card only (decision G); not counted.
 - As number-bonds T6 with `×` on top: cover a corner, say the fact; sets per table. Reuse `frame-tree.js`, `notation.js` glyphs; material; Locales 11; Risks: sv `/`. Evidence: "fact families multiplication and division" (en), "aufgabenfamilien mal und geteilt" (de).
 
 **T7 · Keyring table cards (tablas en llavero)** — rank 7
@@ -1465,7 +1470,7 @@ Narrow topic (one concept; six faces cover pairing, two equal addends, the ones 
 - Band G3 · Point 3.G.A.1 (shapes in different categories share attributes; quadrilaterals that are not rectangles, rhombuses, squares).
 - Reuse `flat-shape.js` (`sub`, `aspect`, `rot`), `types/_shared/sort-to-bins.js`, `data/geometry-words.js`.
 - Screen tap-select (strict per bin, A14) · Locales 11 · Key: the bins.
-- Risks: a square is also a rectangle and a rhombus → the bin labels say "rectangle (not a square)" (the `data-lcs-alts` precedent of G3-340 per ENGINES #18); the native word for rhombus per locale ("Raute", "losange", "rombo") from geometry-words.
+- Risks: a square is also a rectangle AND a rhombus → the bin labels say "rectangle (not a square)" **and "rhombus (not a square)"** (F3: with a bare "rhombus" bin every square had two right bins; the `data-lcs-alts` precedent of G3-340 per ENGINES #18); the native word for rhombus per locale ("Raute", "losange", "rombo") from geometry-words.
 - Evidence: 3.G.A.1 verbatim; "geometriske figurer rombe" (da/no), "figuras geométricas planas de 4 lados" (pt).
 
 ### 19. Patterns (`patterns`) — 5 new
@@ -1531,7 +1536,7 @@ Narrow topic (one concept; six faces cover pairing, two equal addends, the ones 
 - Risks: exactly as many pieces as blanks hands over the answer → +2 decoy pieces (gate 8).
 - Evidence: topic seed; the pattern-train app's train format (OLD-APPS keep list).
 
-### 20. Number Tracing (`number-tracing`) — 5 new
+### 20. Number Tracing (`number-tracing`) — 4 new (F3: was 5; T4 is the Rows control)
 
 **T1 · Trace the number with its quantity** — rank 1
 ```
@@ -1539,11 +1544,11 @@ Narrow topic (one concept; six faces cover pairing, two equal addends, the ones 
                 │●●●●●│   (ten-frame or 5 pictures beside each number)
 ```
 - Child: traces the numeral and counts the quantity drawn beside it (symbol ↔ amount on one line).
-- Settings: Numbers (chips 0–20) · Quantity (frame / pictures) · Rows (trace / trace + write).
+- Settings: Numbers (chips 1–20 — F3: no 0 row on a page that pairs a numeral with a counted quantity; the digit 0 is traced on T5, the formation poster, without a quantity) · Quantity (frame / pictures) · Rows (trace / trace + write).
 - Band K · Point K.CC.A.3 + K.CC.B.4 (write numerals and connect to quantities).
 - Reuse `primitives/trace-path.js` digit lanes, `data/tracing/digit-strokes.js FORM_BY_LOCALE` (the locale's 1 and 7, per ENGINES [number-tracing-Q1]), `ten-frame.js` / `iconRows`.
 - Screen printable (the K-252/253 raster verify stays build-time, ENGINES #20) · Locales 11 · Key: none (tracing).
-- Risks: 0 with a quantity → the 0 row shows an empty frame (the one honest picture of zero; A16 is about counting tasks).
+- Risks: none positional; the quantity beside each numeral is drawn by `iconRows` (never a count of 0 — the standing rule).
 - Evidence: topic seed; "números punteados del 1 al 10" (es), "números pontilhados até 20" (pt 62, report), "numeri tratteggiati 1 10" (it).
 
 **T2 · Trace the number word** — rank 2
@@ -1551,7 +1556,7 @@ Narrow topic (one concept; six faces cover pairing, two equal addends, the ones 
   3   t̲h̲r̲e̲e̲   three   ______        (dashed word, model, empty line)
 ```
 - Child: traces the number word under its numeral, then writes it.
-- Settings: Numbers (chips 0–20) · Rows (trace / trace + write) · Case (small / capital first).
+- Settings: Numbers (chips 1–20 — F3: ranges start at 1) · Rows (trace / trace + write) · Case (small / capital first).
 - Band K–G1 · Point K.CC.A.3 + the national number words; es "números en letras", fr "nombres en lettres cp" (demand).
 - Reuse `lib/number-words.js` ×11, `data/tracing/letter-strokes.js` word layout (`:22-28` per ENGINES [letter-tracing-Q1]); the locale's print model (`print-us` now; `print-eu`/`print-nordic` overrides when signed).
 - Screen printable · Locales: en/es/pt now (print-us model); de/fr/it/nl/sv/da/no/fi after their override files are signed (refused until then — the letter-tracing rule) · Key: none.
@@ -1571,7 +1576,8 @@ Narrow topic (one concept; six faces cover pairing, two equal addends, the ones 
 - Risks: 100 traced numerals on one page are too small → ≤ 50 per page at the K glyph floor; "to 100" is two pages.
 - Evidence: "números punteados del 1 al 50 / al 100" (es), "numeros pontilhados ate 50" (pt), "unisci i puntini 1 100" (it) adjacent.
 
-**T4 · Fading rows (trace · trace lighter · write)** — rank 4
+**T4 · Fading rows (trace · trace lighter · write)** — ~~rank 4~~ **REMOVED (F3)**
+> F3: the row editor is a *setting* (`settings.rows`, ARCHITECTURE §4.2), exposed as the *Rows* control on every number-tracing template (K-237 family); `primitives/trace-path.js:336 fadedStrokeLane` already draws faded lanes. A control is not a template. Text kept; not counted.
 ```
   7   7̇ 7̇ 7̇   7̣ 7̣ 7̣   ___ ___ ___      (dashed → dotted → empty)
 ```
@@ -1790,9 +1796,9 @@ Narrow topic (one concept; six faces cover pairing, two equal addends, the ones 
 
 **T4 · Find the twin among look-alikes (turned and flipped)** — rank 4
 ```
- 🐟   →   [🐟] [🐠-flipped] [🐟-rotated] [🐟]     circle the exact twin
+ 🐟   →   [🐟-flipped] [🐟-rotated] [🐟] [🐟-flipped+rotated]     circle the exact twin (exactly ONE unchanged copy)
 ```
-- Child: finds the identical copy among transforms of the same picture (mirror, rotation, a small change) — the b/d/p/q readiness task.
+- Child: finds the identical copy among transforms of the same picture (mirror, rotation, both) — the b/d/p/q readiness task. F3: the earlier sketch showed two unchanged copies (two right answers); every distractor is a transform of the target, and "a small change" is the find-the-differences maker's task, not this one's.
 - Settings: Transforms (flip / rotate / both) · Choices (3 / 4).
 - Band K–G1 · Point visual discrimination of orientation (RF.K.1 readiness; COVERAGE.md K row "mirror image" gap).
 - Reuse CSS transforms on the same 512-px picture; `chipRow`.
@@ -1835,7 +1841,7 @@ Narrow topic (one concept; six faces cover pairing, two equal addends, the ones 
 ```
 - Child: places pictures in the left ring, right ring, overlap or outside, by two rules (two picture kinds, or kind × a reviewed attribute).
 - Settings: Rules (kind A × kind B / kind × attribute) · Pictures (8 / 12) · Outside allowed (on/off).
-- Band G1–G3 · Point 3.MD (classify by two attributes; COVERAGE.md G3 row "two-circle Venn" gap).
+- Band G1–G3 · Point classification by two attributes — no CCSS code (F3: 3.MD is measurement and data, not classification); the national frameworks' "ordnen und klassifizieren" / "classificar" rows; COVERAGE.md G3 row "two-circle Venn" gap.
 - Reuse `G3-353`'s `venn-sort` (`types/g3/G3-353-venn-sort.js`), the reviewed attribute slice (456 keys, sorting-Q1 tier 3).
 - Screen tap-select per region (strict, A14) · Locales 11 · Key: the four regions.
 - Risks: a picture whose attribute is unreviewed → not drawn (the slice makes it invisible); the overlap must be non-empty (≥ 2) by construction.
@@ -2157,7 +2163,7 @@ Grid mazes are generated live (`lib/maze.js`, unique by construction); scene maz
 - Settings: Grid (5 / 7) · Write (arrows + counts / turns only) · Compass words (on at level 3: N/E/S/W).
 - Band G1–G2 · Point 2.G/maps readiness; the treasure-hunt move frames per locale (A7, maps-grids T1).
 - Reuse `lib/maze.js` solution path, arrow glyphs (language-free), `answerBox` cells.
-- Screen type-number (turns) + the arrow steps as `tap-order`? → kept printable for the steps (key shows them) with `type-number` for the turn count · Locales 11 · Key: the route + turns.
+- Screen type-number for every step count and for the turn count, the arrow of each step as tap-choice (F3: the steps are written boxes, so they get a write screen — D6; the same wiring as maps-grids T2) · Locales 11 · Key: the route + turns.
 - Risks: a route description with two valid segmentations ("→ 3" vs "→ 1, → 2") → the key counts turns, and steps are maximal straight runs (stated in the instruction).
 - Evidence: F2-art gap "count the turns"; "karten himmelsrichtungen" (de), the treasure-hunt app's directions.
 
@@ -2380,7 +2386,7 @@ Twenty faces already cover the band ladder; the new value is **freedom** (any of
 
 ## B4 — writing
 
-### 32. Pencil Control Lines (`pre-writing`) — 4 new
+### 32. Pencil Control Lines (`pre-writing`) — 3 new (F3: was 4; T4 is the Rows control)
 
 Nine faces already cover every stroke family (lines, zigzags, waves, loops, spirals, shapes, picture-to-picture). Four new *tasks*; the much-searched left-handed variant is a layout control, not a template (§"For the operator" A).
 
@@ -2422,7 +2428,8 @@ Nine faces already cover every stroke family (lines, zigzags, waves, loops, spir
 - Risks: none.
 - Evidence: "graphisme quadrillage gs" (fr 31, report), "pre writing … patterns".
 
-**T4 · Fading rows (model → dashed → dotted → alone)** — rank 4
+**T4 · Fading rows (model → dashed → dotted → alone)** — ~~rank 4~~ **REMOVED (F3)**
+> F3: the *Rows* control (`settings.rows`, ARCHITECTURE §4.2) on the existing stroke templates (K-236, K-244…248); `trace-path.js:336 fadedStrokeLane` exists. Not a template; not counted.
 ```
  ∿∿∿∿  ∿̇∿̇∿̇∿̇  ∿̣∿̣∿̣∿̣  ____________      each stroke family on one line that fades to nothing
 ```
@@ -2434,7 +2441,7 @@ Nine faces already cover every stroke family (lines, zigzags, waves, loops, spir
 - Risks: faint rows on copiers → the ≥ 2.5 px floor.
 - Evidence: the old `writing` app's row kinds (OLD-APP-LESSONS §E); "schwungübungen … vorschule" (de), "schrijfpatronen kleuters" (nl).
 
-### 33. Letter Tracing (`letter-tracing`) — 5 new
+### 33. Letter Tracing (`letter-tracing`) — 4 new (F3: was 5; T3 is the Rows control)
 
 **T1 · Name tracing** — rank 1
 ```
@@ -2460,7 +2467,8 @@ Nine faces already cover every stroke family (lines, zigzags, waves, loops, spir
 - Risks: en "knife" for K → the deny-onset list; a letter with no reviewed picture → the letter is offered without a picture (the chart's "letter alone" convention).
 - Evidence: topic seed; "letter of the week b / d" (en), "buchstabeneinführung m / l / o" (de), "veckans bokstav s / m" (sv).
 
-**T3 · Fading rows (trace · fade · guided · empty)** — rank 3
+**T3 · Fading rows (trace · fade · guided · empty)** — ~~rank 3~~ **REMOVED (F3)**
+> F3: this IS the old writing app's row editor, which ARCHITECTURE §4.2 makes the *Rows* control of the letter-tracing templates (K-238, K-254…258, K-278…283) — the four row kinds verbatim. A control is not a gallery card. Not counted.
 ```
  a̲ a̲ a̲ a̲   ạ ạ ạ ạ   a . . . .   ____________
 ```
@@ -3442,7 +3450,7 @@ Frames are native per locale (`data/word-problems/frames.js`); every new story k
 - Child: solves compare-type stories (the hardest K-2 type; COVERAGE.md names it) with a side-by-side picture.
 - Settings: Range (to 10 / 20 / 100) · Direction (more / fewer / both) · Pictures (on/off) · Names (my class).
 - Band G1–G2 · Point 1.OA.A.1 (compare with unknown difference), 2.OA.A.1; Lehrplan "Vergleichsaufgaben".
-- Reuse the `compare` kind of the level set (`lib/word-problems-levelset.js:230,241` per ENGINES #50), `iconRows` ×2, own names per word-problems-Q1 (fr gender chip).
+- Reuse the `compare` kind of the level set (`lib/word-problems-levelset.js:137` the kind, `:165` the two-row compare strip — F3: corrected line numbers, the file is 203 lines), `iconRows` ×2, own names per word-problems-Q1 (fr gender chip).
 - Screen type-number · Locales 11 · Key: the difference.
 - Risks: the two groups' pictures drawn in rows make the answer countable without reading — intended at level 1 (the bar-model logic); level 3 hides pictures.
 - Evidence: topic seed; "problemas de suma y resta … primer grado" (es), "situações problema adição e subtração 2 ano" (pt 45, report), "räknehändelser åk 1" (sv), "regnehistorier 1 klasse" (da), "regnefortellinger 2 trinn" (no).
@@ -3484,7 +3492,7 @@ Frames are native per locale (`data/word-problems/frames.js`); every new story k
 - Risks: none (open).
 - Evidence: topic seed; "egna räknehändelser" (sv), "lage regnefortellinger" (no), "rechengeschichten schreiben" (de).
 
-### 51. Number of the Day & Number Words (`number-of-the-day`) — 5 new
+### 51. Number of the Day & Number Words (`number-of-the-day`) — 4 new (F3: was 5; T4 is word-search's 57-T5, counted there)
 
 **T1 · Number of the day to 1000** — rank 1
 ```
@@ -3523,7 +3531,8 @@ Frames are native per locale (`data/word-problems/frames.js`); every new story k
 - Risks: column order tells → shuffled per column (gate 8).
 - Evidence: "number chart number words" (en), "numeri in lettere 1 20" (it), "lukusanat" (fi head).
 
-**T4 · Number-word word search** — rank 4 (cross-link: the word-search engine)
+**T4 · Number-word word search** — ~~rank 4~~ **CROSS-LINK CARD, NOT COUNTED (F3)**
+> F3: the type is owned by the word-search maker (57-T5) and this document's own rule counts a template once, in the owner; this entry is the gallery card that opens 57-T5 preset to number words (decision G).
 - The word-search factory (ENGINES Part 3 §A) with the number words of the range as the list; the clue column shows numerals (so the child must read the word to find it). Settings: Range (1–10 / 1–20 / tens) · Grid · Case. Band K–G1 · Point K.CC.A.3. Locales 11 (fi long words → grid ≥ 12). Key: the grid. Evidence: topic seed; "talord krydsord / tallord kryssord" (da/no — number words in puzzles are a head term), "number words 1-20" (en).
 
 **T5 · Number-word cards (word wall / matching)** — rank 5
@@ -3531,7 +3540,7 @@ Frames are native per locale (`data/word-problems/frames.js`); every new story k
  ✂ [ 7 ] [seven] [●●●●●●●]   cards per number: numeral · word · dots — match or wall
 ```
 - Teacher: prints number-word cards (numeral, word, quantity) for the wall or for matching games.
-- Settings: Range (0–10 / 11–20 / tens to 100) · Cards (numeral+word / +dots) · Size.
+- Settings: Range (1–10 / 11–20 / tens to 100 — F3: no "0 / zero / empty dots" card; counting never includes 0) · Cards (numeral+word / +dots) · Size.
 - Band K–G1 · Point K.CC.A.3; material.
 - Reuse `number-words.js`, `ten-frame.js`, K-240 cut lines.
 - Screen material · Locales 11 · Key: none.
@@ -4074,7 +4083,7 @@ The engine (Part 3 §D) makes unique cards + caller cards from any item pool; ea
 - Band PreK–K · Point K.G.A.2 (name shapes), colour words.
 - Reuse `primitives/flat-shape.js` items, `color-words.js`; the caller card prints the word pair ("un triángulo rojo" — gender agreement: the colour adjective follows the shape noun's gender → literals from the geometry-words + colour-words tables, panel-checked per pair).
 - Screen tap-select + caller · Locales 11 · Key: the pool.
-- Risks: adjective agreement in Romance locales → literal pairs, never concatenation (A6).
+- Risks: adjective agreement in Romance locales → literal pairs, never concatenation (A6). **F3: level 2 carries meaning by HUE alone, which a classroom copier destroys (the `coins.js:4-5` "never by hue" rule) → the colour word is printed under every shape on the card and the gallery card says "print in colour"; level 1 (shape only) has no such dependency.**
 - Evidence: "2d shapes kindergarten / 2d shapes song" (en), "geometrische formen … spiel"-class de, "formas geométricas … juego" (es).
 
 ---
@@ -4087,11 +4096,11 @@ Only real choices; each with my recommendation and the cost of each option. Noth
 
 **B. Finnish (and Swedish) cursive demand vs the refusal.** "kaunokirjoitus iso e / pieni r / kirjain" are the top three fi cursive phrases (60 · 53 · 26) and sv "skrivstil litet r/t/f" exists, but OPS 2014 teaches only print ("tekstaus") and the sv Lgr22 has no joined script — the cursive maker is refused in sv/fi by data (ENGINES #35). (B1, recommended) keep the refusal; the landing page in fi/sv says why and points to the print letter-tracing maker — cost: a visible refusal on a searched term; (B2) offer a "kaunokirjoitus" page from a vendored joined font as an *optional* craft — cost: a font licence + the panel's objection that it is not the school script; I do not recommend it.
 
-**C. Gallery thumbnails: the template count roughly doubles.** ARCHITECTURE §11.3 budgets 755 × 11 ≈ 8,300 WebP ≈ 100 MB (its decision E). With the 303 templates here: ≈ 1,058 × 11 ≈ 11,600 files ≈ **140 MB** and ≈ 30 min per full rebuild. (C1, recommended) keep per-locale thumbnails (E1) at the new size — cost: +40 MB served disk; (C2) English thumbnails with a localised caption (E2) — cost: a Finnish teacher sees English sheets. The 140 MB is still a served-file class (CLAUDE.md §A.14.12 exempt list).
+**C. Gallery thumbnails: the template count roughly doubles.** ARCHITECTURE §11.3 budgets 755 × 11 ≈ 8,300 WebP ≈ 100 MB (its decision E). With the 297 templates here (F3): ≈ 1,052 × 11 ≈ 11,600 files ≈ **140 MB** and ≈ 30 min per full rebuild. (C1, recommended) keep per-locale thumbnails (E1) at the new size — cost: +40 MB served disk; (C2) English thumbnails with a localised caption (E2) — cost: a Finnish teacher sees English sheets. The 140 MB is still a served-file class (CLAUDE.md §A.14.12 exempt list).
 
-**D. The native authoring the new templates need — fund it as one batch or per maker.** Fourteen data items, each a native-panel deliverable (sizes = strings per locale): two-step word-problem frames (~12 × 11) · daily-routine words (~12) · school-activity words (~10) · adjective triples (~20 × 11) · present-tense person forms (~15 verbs × 6; shape per locale) · adjective agreement tables (×9) · diminutive pairs (~20 × 6) · definite-article table (×10, Nordic as literals) · number/place-value riddle frames (~8 × 11, shared by two makers) · fraction words (~8 × 11) · ordinals 11th–31st (×11) · emergency numbers + helper words (×11, dated) · vowel-length flags (fi/nl/de/en/sv/da/no, from the approved words) · bingo caller strings + reading-log/story-map/feelings prompts (~30 small strings × 11). Estimated ≈ 1,400 strings ≈ 3–4 panel sessions in total (one reviewer per locale over a compact dump, never a fan-out — CLAUDE.md #1/#2). (D1, recommended) author per maker inside its batch (the template is refused per locale until its data is signed — the standing mechanism, so nothing ships half-authored) — cost: spread, no extra sessions beyond the ×11 work already counted in ENGINES' per-maker effort; (D2) one up-front authoring batch before B1 — cost: 3–4 sessions early, the benefit that every template ships in 11 locales on day one.
+**D. The native authoring the new templates need — fund it as one batch or per maker.** Fourteen data items, each a native-panel deliverable (sizes = strings per locale): two-step word-problem frames (~12 × 11) · daily-routine words (~12) · school-activity words (~10) · adjective triples (~20 × 11) · present-tense person forms (~15 verbs × 6; shape per locale) · adjective agreement tables (×9) · diminutive pairs (~20 × 6) · definite-article table (×10, Nordic as literals) · number/place-value riddle frames (~8 × 11, shared by two makers) · fraction words (~8 × 11) · ordinals 11th–31st (×11) · emergency numbers + helper words (×11, dated) · vowel-length flags (fi/nl/de/en/sv/da/no, from the approved words) · bingo caller strings + reading-log/story-map/feelings prompts (~30 small strings × 11). Estimated ≈ 1,400 strings ≈ 3–4 sessions in total (F3: drafted in-session, then **ONE reviewer agent over the compact dump of all 11 locales in one pass** — never one agent per locale, never a fan-out — CLAUDE.md #1/#2). (D1, recommended) author per maker inside its batch (the template is refused per locale until its data is signed — the standing mechanism, so nothing ships half-authored) — cost: spread, no extra sessions beyond the ×11 work already counted in ENGINES' per-maker effort; (D2) one up-front authoring batch before B1 — cost: 3–4 sessions early, the benefit that every template ships in 11 locales on day one.
 
-**E. Classroom MATERIALS as templates.** About 55 of the 303 are cut-outs, cards, posters, games or open frames with no answer key and no screen (flash cards, word walls, play money, nets, fact triangles, bingo callers, booklets …). The harvest supports them strongly ("bildkarten", "flitswoorden", "tablas en llavero", "woordkaartjes maken", "imagier", "kuvakortit"). (E1, recommended) ship them as gallery cards with a "classroom material" badge (no key, no share-to-students; download metered like any page) — cost: the badge + a gate rule that a material template declares `screen: none` and prints no answer box; (E2) exclude materials from the makers — cost: the most-searched card formats stay unavailable, and teachers keep using Canva for them.
+**E. Classroom MATERIALS as templates.** About 54 of the 297 (F3) are cut-outs, cards, posters, games or open frames with no answer key and no screen (flash cards, word walls, play money, nets, fact triangles, bingo callers, booklets …). The harvest supports them strongly ("bildkarten", "flitswoorden", "tablas en llavero", "woordkaartjes maken", "imagier", "kuvakortit"). (E1, recommended) ship them as gallery cards with a "classroom material" badge (no key, no share-to-students; download metered like any page) — cost: the badge + a gate rule that a material template declares `screen: none` and prints no answer box; (E2) exclude materials from the makers — cost: the most-searched card formats stay unavailable, and teachers keep using Canva for them.
 
 **F. The es-MX week start.** `primitives/calendar.js:7-8` has en and pt-BR Sunday-first and the other nine Monday-first. Mexican printed calendars are very commonly Sunday-first (US convention), while ISO/Monday-first also circulates; the SEP's own school calendar graphics vary. (F1, recommended) ask the es-MX panel to rule and encode it as the locale fact — cost: one panel question; (F2) keep Monday — cost: a possible convention mismatch on every es calendar page.
 
@@ -4101,4 +4110,4 @@ Only real choices; each with my recommendation and the cost of each option. Noth
 
 **I. Two templates that touch own photos beyond the ARCHITECTURE B1 rule.** Comic strip (49-T2), family tree (55-T3), grid maze hero (28-T1) and the coloring frame use own photos *whole*; all are refused on student links until the B2 photo store exists (ARCHITECTURE §18-B). (I1, recommended) ship them with the refusal sentence — cost: none; (I2) hold them until B2 — cost: three of the most personal templates wait on a storage decision.
 
-**Total new templates: 303** (median 5 per maker; min 3 — rhyming, syllables; max 8 — addition-subtraction). Eighteen makers are below five, each with its reason at the top of its section. Every template's first-shipped version carries the standing gates: 11-locale render, settings-space/guessability, collision, write-screen, one native + one pedagogy reviewer over the rendered text — before publish, never after.
+**Total new templates: 297** (F3: 303 minus six removed as controls, duplicates or double-counted cross-links — listed under the Summary; median 5 per maker; min 3 — rhyming, syllables, pre-writing; max 8 — addition-subtraction). Twenty-one makers are below five, each with its reason at the top of its section. Effort: ≈ 160 sessions for the 297 (≈ 0.5 each, +1 per new primitive), counted in the reconciled ≈ 450-session programme figure (ARCHITECTURE §14.3). Every template's first-shipped version carries the standing gates: 11-locale render, settings-space/guessability, collision, write-screen, one native + one pedagogy reviewer over the rendered text — before publish, never after.

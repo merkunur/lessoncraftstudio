@@ -8,6 +8,8 @@ Vocabulary used below: *template* = a worksheet-gen type module exposed in a mak
 
 ## Part 1 — answers to the per-maker questions
 
+> **F3 (2026-10-31), two standing corrections for every card below.** (1) Wherever this document says "native panel" / "the panel confirms" / "native-panel pass", the mechanism is **ONE reviewer agent reading the compact 11-locale dump in one sequential pass** (CLAUDE.md #1 rule: no per-locale fan-outs, ≤ 1–2 agents per task; #2 rule: the native + pedagogy check is never skipped) — never eleven panels. (2) Three code defects this run found were **fixed the same day**: G2-211 and G3-328 now use `mulGlyph` (commit `e934eb54a`), G3-349 gained `uniquelySolvable` (commit `9f7ec9973`); G3-358's duplicate `DOT_LOCALES` table is still open. Details at the items.
+
 ### [counting-Q1] I-spy scenes with the teacher's own pictures
 
 **What the engine does today.** `types/_shared/scene-count.js` (K-013 legend mode, K-060 I spy, K-059 find-and-circle) samples `d.nouns` nouns from the theme (`:31`), gives each a count `n` in `[minN,maxN]` (`:32`; level 3 = 4 nouns × 4–9), and calls `mixedScatter({w:600, h:sceneH-20, iconPx:58})` (`:37`). `templates/components.js:68-92` places the `total` icons on a **shuffled grid of cells** (`cols = ceil(sqrt(total·w/h))`, `rows = ceil(total/cols)`, `:70-75`) with a jitter bounded to `(cell − icon)/2 − 2` (`:79-84`) and a ±8° rotation (`:85`). Non-overlap is therefore **by construction** as long as `iconPx ≤ min(cellW, cellH)`: at the worst case (36 icons, 600×500) cols = 7, rows = 6, cells 85.7 × 83 px > 58 px. `verify()` recounts `[data-lcs-scatter]` per `vocabKey` against the legend's `data-lcs-answer` (`scene-count.js:66-89`), so a count can never be printed wrong.
@@ -57,9 +59,9 @@ Cost: ≈ 0.5 session code + one native-panel pass on the 11-row table (part of 
 
 | file | defect | fix (mechanical) |
 |---|---|---|
-| `types/g2/G2-211-array-multiplication.js:62,64` | literal `OP('×')` in every locale | `mulGlyph(locale)` |
-| `types/g3/G3-358-times-tables.js:90` | a **second table** `DOT_LOCALES` (same content today, will drift) | import `mulGlyph`; delete the set |
-| `types/g3/G3-328-input-output-table.js:20,32` | `'×' → 'x'` printed as a letter x in the machine rule | `mulGlyph(locale)` |
+| `types/g2/G2-211-array-multiplication.js:62,64` | literal `OP('×')` in every locale | **F3: FIXED** — `:63` reads `OP(mulGlyph(locale))` (commit `e934eb54a`, 2026-10-31) |
+| `types/g3/G3-358-times-tables.js:90` | a **second table** `DOT_LOCALES` (same content today, will drift) | import `mulGlyph`; delete the set — **F3: still open at `:25` + `:90`** |
+| `types/g3/G3-328-input-output-table.js:20,32` | `'×' → 'x'` printed as a letter x in the machine rule | **F3: FIXED** — `:12` imports `mulGlyph`, `:46` uses it (commit `e934eb54a`); the `OPQ` map at `:21` still carries `'×': 'x'` as a key alias only |
 
 `lib/times-tables-screen.js:27-35,69` already takes `glyph` as a parameter — the screen prints whatever the page passes, so fixing the page fixes the screen. G3-377's verify already asserts the sign per locale and bans `÷` from every Swedish text node (`:447,527,681,891`); that assertion is promoted to **gate 15** for the whole maker (`no-foreign-sign`: every `[data-lcs-op]` and every text node of a multiplication/division page carries only the locale's glyphs). Add the gate before the first new template.
 
@@ -74,7 +76,7 @@ What the table does **not** cover and the new templates will need: (1) the *rema
 1. **A name is a proper noun in the nominative and nothing agrees with it** in 10 of 11 frame sets: no article, no adjective, no pronoun, no case ending refers to `{name}` (de "{name} hat … Wie viele … hat {name} jetzt?" `:53`; fi "{name} saa … Kuinka monta … {name} saa yhteensä?" `:74` — the name is the subject in every slot, never in a case that inflects it). The only agreement in the whole bank is fr `{il}` (one frame). So in en, de, es, pt, it, nl, sv, da, no, fi a typed name drops in **unchanged** and the sentence stays grammatical by construction. (es/pt/it `{Q}` agrees with the noun, not the name.)
 2. **fr:** a frame containing `{il}` is used with an own name only if the teacher has given the name's gender. The shell's *Names* control is a list of `{name, gender?}` chips; for fr the chip asks "il / elle" once per name (two radio glyphs, no text); for the other ten the gender field is hidden. A fr name without gender simply excludes the `{il}` frames (3 of 4 add-frames remain, `:107-110`) — never a guess.
 
-Refusals and limits (gate 9 `own-input`): a name is 2–14 letters of the locale's letter set (`\p{L}`, hyphen, apostrophe — "Jean-Luc", "D'Angelo"), printed as typed (never case-folded; the frame never sentence-cases a name, `sentence-bank.js:7` "it never inflects, capitalises or re-orders a word"); ≥ 2 names per page when a frame has `{name2}` (`word-problems-levelset.js:226-230`); duplicates collapse; a name that equals a noun of the bank in that locale (fr "Rose", en "Daisy") is allowed — it is capitalised and a proper noun. The recipe stores the list in `words[]` with `kind:'name'` (ARCHITECTURE §5.1). Pictures: a name never gets a picture (no `own[]`); the story's picture is the noun's.
+Refusals and limits (gate 9 `own-input`): a name is 2–14 letters of the locale's letter set (`\p{L}`, hyphen, apostrophe — "Jean-Luc", "D'Angelo"), printed as typed (never case-folded; the frame never sentence-cases a name, `sentence-bank.js:7` "it never inflects, capitalises or re-orders a word"); ≥ 2 names per page when a frame has `{name2}` (`word-problems-levelset.js:16-17` — F3: the earlier `:226-230` is past the file's 203 lines); duplicates collapse; a name that equals a noun of the bank in that locale (fr "Rose", en "Daisy") is allowed — it is capitalised and a proper noun. The recipe stores the list in `words[]` with `kind:'name'` (ARCHITECTURE §5.1). Pictures: a name never gets a picture (no `own[]`); the story's picture is the noun's.
 
 What stays bank-only: the *nouns* (plural forms from `image-vocabulary.js`; fi from the curated partitive table `frames.js:290-350` — an own noun is refused in every locale because the frame's number agreement is on the noun), and the frame text itself.
 
@@ -116,9 +118,9 @@ Gate: a snapshot test of 1..1000 ×11 reviewed by the native panel (as the 0..10
 
 ### [telling-time-Q1] Where the native time words live, and reuse
 
-**Finding.** The activities' `mini tools/clock-core.js` holds worded times as a **table of 8 canonical clock times × 11 locales** (`strings.timeExpr`, `:61-82`: "3:00", "7:30" = de "halb 8" / nl "half 8" / sv "halv 8" / fi "puoli 8"; "9:20" = nl "tien voor half tien", da "ti i halv ti", fi "kymmentä vaille puoli kymmenen"), native-owned and ensemble-verified (`:46-51`). It is **not an engine**: `clock-read-core.js:35,100` has `wordFor` for English only. Nothing in worksheet-gen prints a time word (grep for halb/halv/puoli over types/lib/data: no clock type). So the brief's "the activities clock-core has it" is true for 8 times only.
+**Finding.** The activities' `mini tools/clock-core.js` holds worded times as a **table of 16 canonical clock times × 11 locales** (F3: 8 hour/half-hour rows + 8 five-minute rows, `strings.timeExpr`, `:61-82`; "3:00", "7:30" = de "halb 8" / nl "half 8" / sv "halv 8" / fi "puoli 8"; "9:20" = nl "tien voor half tien", da "ti i halv ti", fi "kymmentä vaille puoli kymmenen"), native-owned and ensemble-verified (`:46-51`). It is **not an engine**: `clock-read-core.js:35,100` has `wordFor` for English only. Nothing in worksheet-gen prints a time word (grep for halb/halv/puoli over types/lib/data: no clock type). So the brief's "the activities clock-core has it" is true for 16 times only (F3).
 
-**Decision: one new `lib/time-words.js`, data-driven, ×11, seeded from the 8 verified rows, covering every 5-minute time.** A worded time is `frame[minuteSlot](hourWord(h), hourWord(h+1))` with 12 minute slots (0,5,…,55) per locale and a per-locale hour-word table (en/sv/da/no/fi numerals "3"/"8"; de "3 Uhr" vs bare "halb 8"; es/pt/fr/it hour words with gender/number: es "la una" / "las dos", fr "une heure" / "deux heures", it "l'una" / "le due", pt "uma hora" / "duas horas", plus noon/midnight words). The frames encode the idioms already proven in the 8 rows: toward-the-next-hour "half" for de/nl/sv/da/no/fi; current-hour-plus-half for es/pt/fr/it/en; the half-relative 20/25/35/40 forms for nl/da/no/fi (and de "fünf vor halb"), subtractive "menos" / "moins" / "para as" for es/fr/pt after :30. **Every frame row is authored and signed by the native panel; the 8 clock-core rows are the regression fixtures** (the module must reproduce them byte-for-byte — gate 15). Until a locale's 12 rows are signed, the templates that print words are refused there; the 8 canonical times are available everywhere from day one (a "Hour and half-hour words" template needs only slots 0 and 30).
+**Decision: one new `lib/time-words.js`, data-driven, ×11, seeded from the 16 verified rows, covering every 5-minute time.** A worded time is `frame[minuteSlot](hourWord(h), hourWord(h+1))` with 12 minute slots (0,5,…,55) per locale and a per-locale hour-word table (en/sv/da/no/fi numerals "3"/"8"; de "3 Uhr" vs bare "halb 8"; es/pt/fr/it hour words with gender/number: es "la una" / "las dos", fr "une heure" / "deux heures", it "l'una" / "le due", pt "uma hora" / "duas horas", plus noon/midnight words). The frames encode the idioms already proven in the 8 rows: toward-the-next-hour "half" for de/nl/sv/da/no/fi; current-hour-plus-half for es/pt/fr/it/en; the half-relative 20/25/35/40 forms for nl/da/no/fi (and de "fünf vor halb"), subtractive "menos" / "moins" / "para as" for es/fr/pt after :30. **Every frame row is authored and signed by the native reviewer; the 16 clock-core rows are the regression fixtures** (the module must reproduce them byte-for-byte — gate 15). Until a locale's 12 slots are signed, the templates that print words are refused there; the 16 canonical times are available everywhere from day one (a "Hour and half-hour words" template needs only slots 0 and 30, both fully covered).
 
 Also reuse: the analog clock primitive `primitives/clock.js` and `types/_shared/clock-tasks.js` (15 templates), the `set-clock` screen kind (`emit/interactive-set-clock.js`), a.m./p.m. and 12/24 h from `G3-355` (en-US is the only 12-hour-first locale; the *Clock style* control hides 24 h for en level 1). Do **not** import `clock-core.js` into the bundle (it is an activity core, 0-line rule); import its `timeExpr` table as data into `time-words.js`'s fixture.
 
@@ -158,7 +160,7 @@ Templates: the existing 10 stay (pixel figures); the "rooster" new template is t
 | 6×6 `G3-348` | same with `limit 2` early exit (`:10-28,90`; `verify :163`); clues 24/20/17 (`:71-73`) | solver with early exit over a 6×6 from 17 clues: tens of ms worst case; fine | none; add `number` variant = same engine with numerals (the new template) |
 | logic grids `G2-319` family (G1-349, G2-344/345, G3-378/379) | exhaustive: `solutionsOf = permutations(n).filter(holds)` must be exactly 1, every clue necessary, propagation reaches the full solution (`:40-53,115-130,184-218`); two-attribute: `states2 = P×P` (`:366-376`) | n ≤ 4 → 24 permutations (576 states for two-attribute): microseconds | none |
 | number walls `G1-246` family | propagation solver, build refuses, verify re-implements (`:6-8,247-258`) | trivial | none |
-| **magic squares `G3-349`** | **none.** It transforms one base square (`:9-20`), blanks 3–5 cells avoiding an all-blank row/column (`:45-53`); `verify` checks sums only (`:70-80`). With 5 blanks of 9 and only the constant given, the solution is NOT always unique (two blank cells in one row + two in a column leave a free parameter) | — | **fix before exposing**: add `countSolutions` over the blank cells (values 1–9+offset, distinct, rows/cols/diagonals = constant), keep a blank only while count = 1 (the sudoku pattern) and assert it in `verify`. Top-priority content fix under the standing rule — the live decks must be re-audited: run the counter over every published G3-349 instance and republish any non-unique page |
+| **magic squares `G3-349`** | **F3: FIXED in code the same day** (commit `9f7ec9973`): `uniquelySolvable(blanks)` (`:19`) requires the rank of the six sum equations over the blank cells to equal the number of blanks (the rectangle +1/−1 trade that left a second filling — measured 11 % of level-2 and 21 % of level-3 squares); `build` redraws until it holds (`:81-82`). Was: no proof, `verify` checked sums only | trivial (3×3 rank test) | **remaining under the standing rule: confirm the published G3-349 decks were republished** (the fix reaches new pages; a republish in place of the live decks is what the rule demands — not re-verified by F3, which edits documents only); make `verify` re-run `uniquelySolvable` on the rendered blanks so gate 15 `unique-solution` covers it |
 | balance `G3-350` | one unknown per equation → unique by construction | — | none |
 | code addition (old `code-addition.html`) | the old app assigns distinct values to symbols, picks sums for the unique letters + 3 distractors and refuses when the combination space is too small (`:1529-1614`) — but symbols-with-values + a sum table is uniquely decodable only if **every symbol appears in at least one equation whose other symbols are already known** (a chain). The old app does not prove that | new type: build the equation set as a *chain* (first equation uses one symbol twice or a symbol + a known digit; each later equation adds exactly one new symbol); uniqueness is then by construction; `verify` re-solves greedily | design in F2b, engine note here |
 | picture matrix `G3-351`, analogy `G1-157`, missing piece `K-068` | one correct chip by construction + distinct distractors | — | none |
@@ -187,7 +189,7 @@ Templates: the existing 10 stay (pixel figures); the "rooster" new template is t
 |---|---|---|---|
 | 1 | *by kind* (K-042, G1-160, K-240/K-264 cut-and-paste, Venn by two picture kinds) | theme nouns — the bin **is** the picture | all 11, every theme (`minNouns` = bins + 2) |
 | 2 | *named categories* (K-235 category-vocab bins, K-203 foods, K-206/K-210 transport, K-212 wants/needs, K-213 helpers, G1-207 food groups) | the per-sheet reviewed lists, unchanged | all 11 (labels ×11 exist in `category-vocab.json`) |
-| 3 | *sort by an attribute* (living / not living, natural / made, moves by itself…) | `object-attributes.json`, **reviewed entries only** (`reviewed:true` filter at bundle time → a 456-key slice) | yes, with the 456 — a theme whose reviewed keys cannot fill both bins at the level's `perBin` is refused for that attribute; the unreviewed 477 are never drawn (they do not exist to the maker) |
+| 3 | *sort by an attribute* (**F3: edible / not, moves by itself / is moved — the two NON-science attributes; `living` and `natural` are the excluded science domain and are never offered**) | `object-attributes.json`, **reviewed entries only**. **F3 — a build prerequisite, not a toggle: the file records the review as a COUNT only (top level `count: 933, reviewed: 456`); a key is `{living, natural, edible, moves, size_band, habitat}` with NO per-key `reviewed` flag, so "the 456" cannot be selected from the file as it stands. Tier 3 ships only after a per-key `reviewed: true` flag (or a sibling list of the 456 keys) is recorded by the review's owner; until then tier 3 is refused in every locale** | after the flag lands — a theme whose reviewed keys cannot fill both bins at the level's `perBin` is refused for that attribute; the unreviewed 477 are never drawn (they do not exist to the maker) |
 | own labels | *sort by the teacher's own two labels* (the new template) | the teacher types the two labels and **assigns every picture to a bin herself** in the picker (drag chips into A or B); the maker verifies only structure (≥ 2 per bin, no picture in both) | all 11; the page carries the "teacher-made" chip; strict scoring (A14) because the teacher defined the truth |
 
 What is **not** offered: any automatic category for an unreviewed key; "edible" for anything with `reviewed:false`; size_band as a sort criterion before a native panel confirms the three bands read the same in every locale (hand / person / bigger is culture-neutral, but the labels are strings ×11 that do not exist yet). The review backlog (477 keys) is an offline task that grows tier 3 without a code change (re-bundle the slice).
@@ -284,6 +286,8 @@ Answered in full in **Part 3 §B**. Summary: the old app's first-word-centred, s
 
 ## Found in ARCHITECTURE.md and the brief (for F3)
 
+> **F3: every row below was verified against the code and resolved IN PLACE in `ARCHITECTURE.md` (marked "F3" there): batches (B1 +fractions, B3 +sorting, B7 "(8)"), `distinct-pictures.js` + `letter-strokes.js` platform rows and the `new Function` lint ban, the `controls` allowlist, the pilot note (§14.2 / §18-G → OPEN-DECISIONS #2). The G3-349 and notation rows are now code fixes (see the Part 1 header).**
+
 | where | finding | consequence |
 |---|---|---|
 | ARCHITECTURE §14.3 | the batches list 58 makers: **fractions** and **sorting** appear in no batch (B1 names 9, B3 names 9 under "(8)") | Part 2 puts fractions in B1 (after place-value) and sorting in B3 (with same-different, it retires picture-sort); totals unchanged |
@@ -367,7 +371,7 @@ Shared across every card and not repeated: the common libs (`templates/layouts/c
 | bundles | `number-lines` (G1-116–119, G1-138, G1-248, G1-274–281, G1-295, G2-221, G2-305/310, G3-308/310/323); `_shared/number-line-tasks.js` (reads `notation.js` ✓); primitive `number-line.js`; `lib/number-lines-screen.js` |
 | data ×11 | none. New: open number line (no numbers = language-free), fraction line (shares `primitives/fraction.js`), vertical line (a `vertical` flag on `number-line.js`) |
 | controls | Level · How many · *Start / End* · *Tick step* · *Labels* (all / every 5 / every 10 / ends only) · *Task* collapses into gallery cards (locate / hop / round / multiply) = 5 |
-| screens | `type-number` (21/21 today); open number line = printable |
+| screens | `type-number` (21/21 today); open number line → **`type-number` for the written result** (F3: the page has an answer box, so D6 requires a write screen — the drawn jumps stay the child's work; NEW-TEMPLATES 5-T1) |
 | keep | — |
 | risks | label density vs page width at step 1 to 120 — the type's `withLayoutFit` handles it (§6.2 step 1) |
 | effort | 2 |
@@ -603,20 +607,20 @@ Shared across every card and not repeated: the common libs (`templates/layouts/c
 | controls | Level · Pictures · How many (per bin) · *Bins* (2 / 3 / 4) · *Sort by* (kind / named category / attribute / my labels) · *Answer* (draw lines / cut and paste / write) = 6 |
 | screens | none today → `tap-select` strict scoring per bin (A14) |
 | keep | picture-sort: left/right category themes ✓ (kind sort with two themes), auto generation ✓, Custom Words → *my labels* with the teacher's assignment, editable category labels ✓ (`edits[op:'word']` on bin labels) |
-| risks | the 456/933 review boundary is enforced by the bundle slice, not by code at run time — re-bundle when the review grows |
+| risks | the 456/933 review boundary is enforced by the bundle slice, not by code at run time — re-bundle when the review grows. **F3: the file has no per-key `reviewed` flag (only a count), so tier 3 cannot be built until the review state is recorded per key — see [sorting-Q1]; tier 1/2 and "my labels" are unaffected** |
 | effort | 3 + 1 (retired) = **4** |
 
 #### 25. Dot to Dot (`dot-to-dot`) — B3 · little · 10 templates · **F2-art**
 
 | | |
 |---|---|
-| bundles | `dot-to-dot` (K-285, K-294–296, K-308/309, G1-285, G1-294, G2-304, G2-314); `data/d2d/` 30 MB precomputed figures; primitive `dot-figure.js` |
+| bundles | `dot-to-dot` (K-285, K-294–296, K-308/309, G1-285, G1-294, G2-304, G2-314); `data/d2d/` 30 MB raw = **4.3 MB gz, 10 KB per scene (F3, per ENGINES-ART §1.1)** precomputed figures; primitives `dot-figure.js`, `scene-dot-figure.js` |
 | data ×11 | figures language-free; the ABC face uses `data/b2/collation.js` alphabets (å ä ö / æ ø å after z) — the new "alphabet of the chosen language" template is a data switch. Sums face: numbers |
 | controls | Level · *Picture* (figure picker) · *Sequence* (1–10 / 1–20 / 11–30 / back / by 2 / 5 / 10 / letters) · *Dots* (how many) = 4 |
-| screens | printable; a `tap-order` screen (tap the dots in order) is the natural kind — F2-art decides |
+| screens | `tap-order` (tap the dots in order; the kind exists, new wiring — ENGINES-ART §4.2) |
 | keep | — |
-| risks | F2-art: any-picture dot placement, legibility, growth of the set |
-| effort | 3 + 2 (section H) = **5** |
+| risks | F2-art: the alphabet yield (29 letters → 5 scenes today, ENGINES-ART §4.3 / operator E); the precomputed placeability index replaces a 200-file run-time scan |
+| effort | 3 + 2 (section H) = **5** (unchanged by ENGINES-ART) |
 
 #### 26. Color by Number & Code (`color-by-number`) — B3 · little · 8 templates · **F2-art**
 
@@ -624,11 +628,11 @@ Shared across every card and not repeated: the common libs (`templates/layouts/c
 |---|---|
 | bundles | `color-by-number` (K-241, K-265–269, K-393/394); `data/cbn/` 47 MB regions + keys; `lib/cbn-render.js`, `cbn-type.js`, `cbn-lineart.js` (offline); `tap-paint` screen reads `path[data-lcs-region]` |
 | data ×11 | colour words ×11 (`data/color-words.js`) ✓; sight-word / letter-sound keys need the sight-words and letter-of-the-week banks (exist) |
-| controls | Level · *Picture* · *Key* (numbers / sums / differences / shapes / letters / words) · *Colours* (2–8) · *Range* = 5 |
+| controls | Level · *Picture* · *Key* (numbers / sums / differences / shapes / letters / words) · *Range* (arithmetic keys) = 4 — **F3: *Colours* is NOT a knob; the colour count is the design's level (`LEVEL_CAPS`, `lib/cbn-render.js:31`; `cbn-type.js:96` refuses a design at another level), per ENGINES-ART §5** |
 | screens | `tap-paint` (K-393/394 today) |
 | keep | — |
-| risks | F2-art: any-picture region detection, label placement, fully-painted rule |
-| effort | 3 + 2 = **5** |
+| risks | code keys (sums/differences/×) fit only ≈ 20 of 200 designs (`r ≥ 15` units — ENGINES-ART §5.1); a wider set needs offline review (operator F); own photos refused |
+| effort | 3 + 2 + 1 (code keys on art + the live labeller path) = **6** (F3: per ENGINES-ART) |
 
 #### 27. Coloring Pages (`coloring-pages`) — B3 · little · 0 templates · retires `coloring` · **photo→line-art question is F2-art's**
 
@@ -647,12 +651,12 @@ Shared across every card and not repeated: the common libs (`templates/layouts/c
 | | |
 |---|---|
 | bundles | `mazes` (K-242, K-270–272; `lib/maze.js` grid mazes), `maze-puzzles` (K-405–413, G1-420–428, G2-392/393; `lib/hm-*.js`, `data/hm`, `hmx`; raster oracle `hm-verify.js`) |
-| data ×11 | rule-maze banks (letters/numbers/sounds) ×11 via `data/hmx/text/<loc>.js` (an explicit index per ARCHITECTURE §2.2) |
-| controls | Level · Pictures (start / goal) · *Maze* (grid / scene / rule) · *Size* · *Rule* (letters / numbers / sums / sounds) = 5 |
-| screens | `trace-path` (all maze-puzzles) |
+| data ×11 | rule-maze banks (letters/numbers/sounds) ×11 via `data/hmx/text/<loc>.js` (an explicit index per ARCHITECTURE §2.2); **F3: `hm/pins.json` — pinned fast seeds per (scene, level[, locale]), because the hand-made generator is a retry search measured at 0.4–30 s per page (ENGINES-ART §8.2); grid mazes stay live** |
+| controls | Level · Pictures (start / goal) · *Maze* (grid / scene / rule) · *Scene* · *Rule* (letters / numbers / sums / sounds) = 5 (size = the Level presets, never a free knob) |
+| screens | `trace-path` (all maze-puzzles; grid mazes gain it over the cell graph) |
 | keep | picture-path: grid path through pictures, collectibles, distractors, end picture, copies min–max, game modes → "step only on pictures of a kind" rule maze (new template) |
-| risks | F2-art: the oracle in the browser (class B of ARCHITECTURE §17.3) |
-| effort | 3 + 2 + 1 (retired) = **6** |
+| risks | the retry tail (settled by pins); label faces × 11 pins; the oracle port (class B) must be poisoned with `hm-scene-poison.js`'s five cases |
+| effort | 3 + 2 + 1 (retired) + 1 (pins + oracle port) = **7** (F3: per ENGINES-ART) |
 
 #### 29. Find the Differences (`find-the-differences`) — B3 · little · 11 templates · **F2-art**
 
@@ -672,23 +676,23 @@ Shared across every card and not repeated: the common libs (`templates/layouts/c
 |---|---|
 | bundles | `how-to-draw` (K-396, K-401–404, G1-416–419, G2-390/391); `data/htd` 53 MB, `htdx` 127 MB, `htdv` 23 vector lessons; `lib/htd-steps.js`, `htd-vector.js`; `templates/components-b7/how-to-draw.js` |
 | data ×11 | `{L}` article+noun tokens ×11 from the b7 bank ✓; sentence starters ×11 (G2-390) ✓ |
-| controls | Level · *Picture* · *Steps* (4–6) · *Task* = gallery cards · *Step layers* (toggle/reorder — F2-art) = 3–4 |
+| controls | Level · *Picture* · *Steps* (4–6, only the counts built AND read per lesson) · *Hide a step* (finish face; only steps with a shipped `keep` variant) = 3–4; task = gallery cards. **F3: free toggle/reorder is NOT offered — toggle = a shipped `keep` lookup, reorder = inner steps only, gated live by the greyscale law (ENGINES-ART §6.1, operator H)** |
 | screens | printable |
 | keep | — |
-| risks | F2-art: precomputed layers vs live derivation; own image |
-| effort | 3 + 2 = **5** |
+| risks | the "editable layers" expectation vs the structural rule; htdx file size without the `keep` split; own image refused |
+| effort | 3 + 2 + 1 (layer toggle/reorder with its live greyscale gate) = **6** (F3: per ENGINES-ART) |
 
 #### 31. Picture Tracing (`picture-tracing`) — B3 (moved from B4) · little · 20 templates · **F2-art**
 
 | | |
 |---|---|
-| bundles | `picture-tracing` (K-418–432, G1-429–433); `data/pt`, `ptx` (~1 MB scenes); `lib/pt-*.js` (tracer offline, `pt-verify.js` sharp) |
+| bundles | `picture-tracing` (K-418–432, G1-429–433); `data/pt`, `ptx` (~1 MB scenes); `lib/pt-*.js`. **F3: the tracer runs LIVE at build today (`lib/pt-scene.js:24-28 traceOf`, 0.13–0.34 s per drawing) and `data/pt` holds no traces; the maker needs the NEW trace store `pt/<theme>/<noun>.json` for the 1,302 traceable drawings (≈ 13 MB gz, built offline by `tools/pt-trace-all.js`, ENGINES-ART §7.2)**; `pt-verify.js` (sharp) stays offline for the store |
 | data ×11 | the word face (G1-430) uses vocab ✓ |
 | controls | Level · *Picture / scene* · *Line* (dashed / dotted) · *Thickness* (by age) = 4 |
 | screens | printable |
 | keep | — |
-| risks | F2-art: precompute the BW library vs live |
-| effort | 3 + 2 = **5** |
+| risks | the trace store is new (build + contact-sheet review ≈ 1 session); the composer's dash alignment must stay byte-identical (gate 3 on the 220 published) |
+| effort | 3 + 2 + 1 (trace store + the canvas law port for the gate suite) = **6** (F3: per ENGINES-ART) |
 
 ### B4 — writing
 
@@ -917,7 +921,7 @@ Shared across every card and not repeated: the common libs (`templates/layouts/c
 | | |
 |---|---|
 | bundles | `word-problems` (G1-213, G1-238–241, G3-370–376; `data/word-problems/frames.js`, `data/b2/wp-muldiv-frames.js`, `word-problems-levelset.json`; `lib/word-problems-levelset.js` (names, `{Q}`, `{il}`); reads `notation.js` ✓ (G3-370)) |
-| data ×11 | frames ×11 ✓, names 8 ×11 ✓, fr `nameGender` 16 ✓. Own names per Q1 (fr gender chip). New: two-step problems (new frames ×11 — author), write your own story for 7 + 5 (open, printable), compare problems ("how many more" — the `compare` kind exists in the level set, `word-problems-levelset.js:230,241`) |
+| data ×11 | frames ×11 ✓, names 8 ×11 ✓, fr `nameGender` 16 ✓. Own names per Q1 (fr gender chip). New: two-step problems (new frames ×11 — author), write your own story for 7 + 5 (open, printable), compare problems ("how many more" — the `compare` kind exists in the level set, `word-problems-levelset.js:137` (the kind), `:165` (the two-row compare strip) — F3: the file is 203 lines; the earlier `:230,241` did not exist) |
 | controls | Level · Pictures · How many · *Operation* (+ / − / × / ÷ / mixed) · *Range* · *Story kinds* (join / take away / compare / groups / sharing chips) · *Names* (my class) = 7 |
 | screens | `type-number` (12/12) |
 | keep | — |
@@ -1048,7 +1052,7 @@ Shared across every card and not repeated: the common libs (`templates/layouts/c
 
 ### Effort total (Part 2)
 
-Pilot 14 · B1 30 · B2 30 · S6 3 · B3 53 · B4 21 · B5 37 · B6 32 · B7 42 = **262 maker sessions**, against ARCHITECTURE's 182 + 12 pilot + 3 spike = 197. The difference (≈ 65) is the retirement count applied per app (33 retired apps land in 20 makers — several makers carry 3–5), the five new engines (+7), and the per-maker native data items this run found (written methods, time words, customary units, letter models, 1000 words, sight lists, blocklists, figure pools). With the 25 platform sessions: **≈ 287 sessions**. The brief asked for an honest number; ARCHITECTURE's "≈ 230" should be read as the floor.
+Pilot 14 · B1 30 · B2 30 · S6 3 · B3 53 · B4 21 · B5 37 · B6 32 · B7 42 = **262 maker sessions**, against ARCHITECTURE's 182 + 12 pilot + 3 spike = 197. The difference (≈ 65) is the retirement count applied per app (33 retired apps land in 20 makers — several makers carry 3–5), the five new engines (+7), and the per-maker native data items this run found (written methods, time words, customary units, letter models, 1000 words, sight lists, blocklists, figure pools). With the 25 platform sessions: ≈ 287 sessions. **F3 — the ONE reconciled figure (also written into ARCHITECTURE §0/§14.3): 25 platform + 266 makers (this Part 2's 262 + ENGINES-ART's +4 on #26/#28/#30/#31) + ≈ 160 for the 297 new templates of NEW-TEMPLATES (≈ 0.5 each on an existing factory, +1 for each of the ≈ 10 new primitives — rekenrek, bar-model, compare-mouth, net, letter-heights, room-plan, cut-line, code-addition chain, KenKen cages, riddle solver) ≈ 450 sessions.** Neither this run's 287 nor ARCHITECTURE's 230 counted the new templates; ARCHITECTURE's per-maker rule claimed to include them, which was impossible at 2–4 sessions per maker.
 
 ---
 
@@ -1174,8 +1178,8 @@ Each item: the options, my recommendation, the cost of each. Nothing here blocks
 8. **Syllables: the open clapping sheet** (own words, no split, no count, no key) — optional template; *recommend* adding it in F2b only if teachers ask; cost ≈ 0.4 session.
 9. **A numeral-style control for bilingual classes** (plain / flag / crossed) — *recommend no*: the locale's school form is applied silently (`FORM_BY_LOCALE`); a control invites a wrong form. Cost of yes: one control + one gate case.
 10. **Dropped old-app features** (need your yes, with ARCHITECTURE §18-F): math-worksheet "allow negative results" (above the K-3 ceiling); bingo "chip fill" style → drawer; wordsearch/crossword free text box; the old apps' 7-font text tool. Cost of keeping any: a free layer the gates cannot judge.
-11. **G3-349 Magic Squares has no uniqueness proof** — under the standing rule this is fixed at once (solver + re-audit + republish of any non-unique live deck), not a decision; I list it so you know it is coming: ≈ 0.5 session.
+11. **G3-349 Magic Squares has no uniqueness proof** — **F3: DONE in code** (commit `9f7ec9973`, 2026-10-31: `uniquelySolvable`, rank test). What remains under the standing rule is the republish-in-place of the live G3-349 decks, which F3 did not verify (documents only).
 12. **Thin banks the makers will expose faster than the catalogue did** — sight words (24 per locale → ≥ 60), reading passages (8 per locale), pixel figures (4 per size), cryptogram phrases (0). *Recommend* authoring sight words + figures inside their maker's batch (already counted), passages as a separate content programme (not counted; ≈ 0.3 session per 8 passages per locale with native review).
 13. **The 1000-range number words** (number-of-the-day): offered per locale only after its 101–1000 table is panel-signed (≈ 0.1 session per locale). Alternative: cap the maker at 100 — cost: the "to 1000" control is missing in all 11.
 14. **Long division / written division layout**: not in this programme (no primitive, differs per country, above K-3 core). *Recommend* leaving it out; cost of including: ≈ 2 sessions + an 11-locale layout table.
-15. **Effort**: this run's maker total is ≈ 262 sessions (+25 platform ≈ 287) against ARCHITECTURE's ≈ 230. The gap is the per-app retirement work and the native data items listed per card; no single item is optional without dropping a feature the brief asked for.
+15. **Effort**: this run's maker total is ≈ 262 sessions (+25 platform ≈ 287) against ARCHITECTURE's ≈ 230. The gap is the per-app retirement work and the native data items listed per card; no single item is optional without dropping a feature the brief asked for. **F3: the reconciled programme figure, including the 297 new templates, is ≈ 450 sessions (OPEN-DECISIONS #1).**

@@ -12,7 +12,7 @@ Answers G1–G15 of `docs/makers/FABLE-BRIEF.md`. Written 2026-10-31 from the co
 
 **Why it scales when it goes viral.** The worksheet is made inside the teacher's own browser from small program files and word/picture files that sit on the Cloudflare network, not on our server. Our server does only four tiny things: check who she is, save her recipe (a few KB of text: which maker, which settings, which words and pictures), hand out share links, and count downloads for the free tier. A million people making worksheets costs us Cloudflare bandwidth, not server work. Saved worksheets and student links are *rebuilt* from the recipe every time, so we never store a single rendered page.
 
-**What it costs to build.** Roughly: 25 sessions for the shared platform (the browser engine, the editor shell in 11 languages, accounts/sharing, downloads, the gate suite), then about 2 sessions per simple maker, 3 per maker with some word data, 4 per language-bound maker, plus extra for the eight makers with heavy picture engines. Order of magnitude: **≈ 230 Claude Code sessions for all 60 makers**, front-loaded on the platform and a 3-maker pilot (one per language group) that proves the whole chain — gallery → page → PDF on an iPad → student link — before the other 57 are built on it. Four short measuring spikes (PDF quality on iPad, image export, cross-browser identical layout, bundle size) come first, because those are the only things this design cannot promise from the code alone.
+**What it costs to build.** Roughly: 25 sessions for the shared platform (the browser engine, the editor shell in 11 languages, accounts/sharing, downloads, the gate suite), then about 2 sessions per simple maker, 3 per maker with some word data, 4 per language-bound maker, plus extra for the eight makers with heavy picture engines. Order of magnitude: ~~≈ 230 Claude Code sessions~~ **F3 (2026-10-31): the reconciled programme figure is ≈ 450 sessions** — 25 platform + 266 maker work (ENGINES Part 2 incl. the picture-engine additions) + ≈ 160 for the 297 new templates (≈ 0.5 each, +1 per new primitive). The 230 counted the ≥ 5 new templates per maker *inside* 2–4 sessions per maker, which is arithmetically impossible (§11.2 prices them at ≈ 3 sessions per maker). The operator's lever is the template count: shipping only each maker's top-3 templates first brings the first full release to ≈ 390. Front-loaded on the platform and a 3-maker pilot (one per language group) that proves the whole chain — gallery → page → PDF on an iPad → student link — before the other 57 are built on it. Four short measuring spikes (PDF quality on iPad, image export, cross-browser identical layout, bundle size) come first, because those are the only things this design cannot promise from the code alone.
 
 **Growing the collection.** Your goal is an *exhaustive* collection, and the brief now asks for at least five brand-new templates per maker on top of today's 755. The design treats a template as the cheapest thing in the system: one file with the same contract the 831 existing types use, its words in the existing language files, and everything else — the gallery entry, the thumbnail in 11 languages, the settings panel, the quality gates, the student screen — is produced from that file automatically. A new template costs roughly half a session; the six picture-heavy makers (find the differences, dot-to-dot, colour by number, how to draw, picture tracing, mazes) get their own deep design run and a measuring slot before they are built.
 
@@ -65,7 +65,7 @@ Reuse, not rewrite: the worksheet engine under `scripts/worksheet-gen/` keeps pr
 | Lints and `verify(page)` run **inside the rendered page** via `page.evaluate` (622 call sites) | `qa/lints.js:22`, `K-002:77-78`, grep of `page.evaluate(` |
 | The screen version and the answer key are rebuilt from the same seed and asserted identical in `meta` | `render-instance.js:68-73` |
 | The screen's tap geometry is captured as % of the page box from `getBoundingClientRect` | `render-instance.js:289-342` |
-| Node-only touch points: `fs`/`path` in 43 engine files (loaders), `crypto` in rng, `vm` for translations-shared, `sharp` in 9 lib files (raster oracles + art precompute), `file://` image URIs | grep; `rng.js:11`; `emit/interactive-runtime.js:53-71`; `image-cache/resolve.js:33-47`; `lib/hm-verify.js:23`, `lib/fd-scene.js:343` |
+| Node-only touch points: `fs`/`path` in 43 engine files (loaders), `crypto` in rng **and in `lib/distinct-pictures.js:21` (md5 of picture files — F3)**, `vm` for translations-shared, **`new Function` over a file read in `data/tracing/letter-strokes.js:75-83` (F3)**, `sharp` in **6 `lib/` files** (`cbn-lineart`, `fd-scene`, `hm-verify`, `htd-vector`, `pt-trace`, `pt-verify` — F3: measured by grep, not 9) plus `image-cache/silhouette.js`/`derive.js` and the tools, `file://` image URIs | grep; `rng.js:11`; `emit/interactive-runtime.js:53-71`; `image-cache/resolve.js:33-47`; `lib/hm-verify.js:23`, `lib/fd-scene.js:343` |
 | Images: `cache/manifest.json` → 100 themes, 2,837 nouns; the 512 px derived set is 63 MB, the @3x set 276 MB | `image-cache/resolve.js:10-11`, `du` |
 | Text sizes at build time come from **measured tables**, never from a live canvas: `primitives/font-metrics.json`, `bankword-nunito800.advances.json`, `cursive-metrics.json` | `lib/key-on-row.js:13, 33-36`, `primitives/bankword-width.js:12-24` |
 
@@ -90,6 +90,9 @@ Mechanical edits, one pattern each, gated by a lint (§2.5):
 | `crypto.createHash('sha1')` | `platform.sha1` | `lib/rng.js:11-14` |
 | `fileUri(theme, noun)` → `file://` | unchanged signature; the Node platform returns `file://`, the browser platform returns the CDN URL | `image-cache/resolve.js:33-47`; callers (`templates/components.js:18`) untouched |
 | `vm.runInContext(translations-shared.js)` | `platform.sharedTranslations()`; the browser build ships the 11-locale `runtime*` subset as JSON (36 KB source → ~6 KB) | `emit/interactive-runtime.js:62-71` |
+| **F3** `crypto.createHash('md5')` over `fs.readFileSync(picture)` (picture distinctness by file hash) | `platform.pictureHash(theme, noun)` — Node: md5 of the file; browser: a lookup in the per-theme slice of `data/picture-signatures.json` (718 KB today → ≈ 7 KB per theme) | `lib/distinct-pictures.js:7,21` (found by ENGINES) |
+| **F3** `fs.readFileSync(mini tools/alphabet-trace-core.js)` + `new Function('window', src)` at module load | bundle `alphabet-trace-core.js` as a module (esbuild alias from the string path); the lint (§2.5) also bans `new Function(` / `eval(` | `data/tracing/letter-strokes.js:42-45, 75-83` (found by ENGINES) |
+| **F3** pure functions that live in `sharp`-importing files (`cbn-lineart.js`, `fd-scene.js`, `htd-steps.js`, `pt-trace.js`, `hm-verify.js`, `pt-render.js`, `hm-scene.js`) | the module split of ENGINES-ART §2.2 (one `-core` / `-render` / `-geom` file each, no logic change) — **a prerequisite for the §2.5 lint to pass on any picture maker** | ENGINES-ART §2.2 |
 | `page/shell.js` reads `page.css` + `fonts.css` with `file://` rewrites | `platform.readText` for both; the browser platform serves `fonts.css` with `url()` rewritten to `ASSET_BASE/fonts/` | `shell.js:11-16` |
 
 Everything else — primitives, templates, layouts, every `build()`, every `verify()` body — is untouched.
@@ -123,7 +126,7 @@ Plus per load: strings slice ≤ 20 KB, fonts 1.1 MB total but only the weights 
 
 ### 2.5 Gate: `scripts/makers/lint-browser-safe.js`
 
-Fails the build when any file reachable from a maker entry (esbuild metafile) (a) imports `fs`, `path` outside `lib/platform/`, `crypto`, `vm`, `sharp`, `child_process`, `puppeteer`; (b) calls `require(` with a non-literal argument; (c) references `__dirname` outside a `path.join(__dirname, …)` passed to `platform.*`. Poisoned both ways on every run (a synthetic offender must fail; the clean tree must pass).
+Fails the build when any file reachable from a maker entry (esbuild metafile) (a) imports `fs`, `path` outside `lib/platform/`, `crypto`, `vm`, `sharp`, `child_process`, `puppeteer`; (b) calls `require(` with a non-literal argument; (c) references `__dirname` outside a `path.join(__dirname, …)` passed to `platform.*`; **(d) F3: calls `new Function(` or `eval(` (the `letter-strokes.js:78` loader), or reaches `Date.now`/`Math.random` from a `build()` path (§16).** F3: as written the lint fails every picture maker until the ENGINES-ART §2.2 module split lands; poison it with `lib/cbn-lineart.js` reachable (must fail) and `lib/cbn-lineart-core.js` (must pass). Poisoned both ways on every run (a synthetic offender must fail; the clean tree must pass).
 
 ---
 
@@ -172,7 +175,7 @@ Rules that follow: (1) the `__PDF_URL__` celebration link (`interactive-runtime.
 
 ### 4.2 The old apps' two special editors
 
-- **Writing row editor** (old `writing`): becomes a *template whose settings are the rows*: `settings.rows = [{kind:'trace'|'fade'|'guided'|'empty', text}]`. The `word-writing` / `letter-tracing` makers expose an "Rows" list control (add / delete / reorder / type); the type module builds from the list; every row goes through the tracing primitives and `key-on-row.js` seating. Same for name tracing (F2 decides the per-locale stroke models).
+- **Writing row editor** (old `writing`): becomes a *template whose settings are the rows*: `settings.rows = [{kind:'trace'|'fade'|'guided'|'empty', text}]`. **F3: therefore "fading rows" is a *control* on the tracing templates, never a gallery card of its own — NEW-TEMPLATES 20-T4 / 32-T4 / 33-T3 were removed on that ground; the primitive already draws faded lanes (`primitives/trace-path.js:336 fadedStrokeLane`).** The `word-writing` / `letter-tracing` makers expose an "Rows" list control (add / delete / reorder / type); the type module builds from the list; every row goes through the tracing primitives and `key-on-row.js` seating. Same for name tracing (F2 decides the per-locale stroke models).
 - **Colouring brush** (old `coloring`): the `ink` layer above. Printing includes it (PDF, PNG); the screen version shows it; gates ignore it. Brush = width + colour + eraser, pointer events, stored as simplified polylines (RDP ε 0.5 px, cap 2,000 points per page → < 30 KB).
 
 ### 4.3 Content edits without breaking determinism
@@ -291,7 +294,7 @@ The recipe → version resolution is one pure function `lib/makers/resolve-versi
 
 ### 6.1 The Page shim
 
-`lib/platform/page-shim.js` runs *inside the preview iframe* and exposes `{ evaluate(fnOrSrc, ...args), $(sel), $$(sel), addStyleTag }`. The host posts `{ fn: fn.toString(), args }` and receives the JSON result — the same serialisation boundary Puppeteer imposes, so every existing `verify` keeps its constraints (no closures) by construction. The 4 types whose verify uses `page.screenshot`/`page.$` for a raster oracle (`G2-377`, `K-252`, `K-253`, `K-405`) are the build-time-only group above.
+`lib/platform/page-shim.js` runs *inside the preview iframe* and exposes `{ evaluate(fnOrSrc, ...args), $(sel), $$(sel), addStyleTag }`. The host posts `{ fn: fn.toString(), args }` and receives the JSON result — the same serialisation boundary Puppeteer imposes, so every existing `verify` keeps its constraints (no closures) by construction. The 4 type *files* whose verify uses `page.screenshot`/`page.$` for a raster oracle (`G2-377`, `K-252`, `K-253`, `K-405`) — **F3: 23 types in all, because the 19 scene-maze faces (`K-406…413`, `G1-420…428`, `G2-392/393`) are spread specs `{...base}` of `K-405` and inherit its screenshot verify (`K-405:256`)** — are the build-time-only group above; for the mazes the oracle goes live as class B (`platform.rasterSvg`, ENGINES-ART §2.1/§8.2), so only `G2-377`, `K-252`, `K-253` stay build-time-only.
 
 ### 6.2 What happens when a page fails
 
@@ -374,8 +377,8 @@ No view counters in Postgres (a write per view is the one thing that would not s
 | URL | serves | cache |
 |---|---|---|
 | `/s/<linkId>` (student) | nginx `alias` → `/var/www/lcs-media/makers/play/<v>/index.html` (static shell, noindex meta + `X-Robots-Tag: noindex`) | immutable shell; the link id is read from `location.pathname` |
-| `GET /api/makers/links/<linkId>` | `{ recipe, makerVersion, locale, kind }` for a non-revoked link | `Cache-Control: public, max-age=300, s-maxage=300` → Cloudflare edge; a revoke or an edit propagates within 5 min (the hosted-worksheet precedent, `play/w/[linkId]/route.ts:13`) |
-| `/<loc>/tools/<slug>?m=<linkId>` (colleague) | the maker landing opens the recipe read-only; "Save a copy" clones it into the colleague's account | the landing is ISR 3600 (`tools/[tool]/page.tsx:50`); the recipe fetch as above |
+| `GET /api/makers/links/<linkId>` | `{ recipe, makerVersion, locale, kind }` for a non-revoked link | `Cache-Control: public, max-age=300, s-maxage=300` → Cloudflare edge; a revoke or an edit propagates within 5 min. **F3: the hosted-worksheet precedent (`play/w/[linkId]/route.ts:13`) is `private, max-age=300` — *no* CDN cache; this design deliberately departs from it (a recipe is content the link already exposes, and edge caching is what keeps a viral student link off the origin). The 5-minute propagation is the same** |
+| `/<loc>/tools/<slug>?m=<linkId>` (colleague) | the maker landing opens the recipe read-only; "Save a copy" clones it into the colleague's account | the landing is ISR 3600 (`tools/[tool]/page.tsx:48` — F3: line 48, not 50); the recipe fetch as above |
 | `POST /api/makers/recipes` · `PUT …/<id>` · `GET …?mine` · `DELETE` | the teacher's own recipes (Bearer or refresh cookie, `quota.ts:101-134` precedent) | `no-store` |
 | `POST /api/makers/links` | mint a link for a recipe the caller owns | `no-store` |
 
@@ -449,7 +452,7 @@ Cloudflare cache-hit ratio on `/makers*` (target ≥ 98 %); origin req/s on `/ap
   "thumb": "thumbs/{loc}/K-002.webp" }
 ```
 
-- `controls` come from the type's `difficulty` keys and `params` (`K-002:20-24`); a param becomes a control only when the build-time setting-space gate (§6) passes for every value; otherwise the level alone drives it.
+- `controls` come from the type's `difficulty` keys and `params` (`K-002:20-24`); a param becomes a control only when the build-time setting-space gate (§6) passes for every value; otherwise the level alone drives it. **F3 (found by ENGINES): `params` is `Object.keys(difficulty[2])` (`scripts/makers/extract-type-inventory.js:78`) and holds layout internals (`cols, rows, glyphH, rulingW, pic`), so `build-templates.js` needs a per-type allowlist — `controls:` declared in the module, default none; ENGINES Part 2 names them per maker. Never expose a `difficulty` key as a control by default.**
 - `locales`/`refused` come from the recorded render: a template exists in a locale only where its strings exist (`i18n/strings.<loc>.json`, resolved by `i18n/strings.js:25-39` — the maker never falls back to English on a non-English page) and the 11-locale render passed.
 - A type with `interactive` (`render-instance.js:68`) gets `screen` = its kind; otherwise the student link shows the printable.
 
@@ -462,20 +465,20 @@ What makes it cheap at 300+:
 | lever | mechanism |
 |---|---|
 | one contract, no registration | the entry generator (§2.3) and `build-templates.js` (§11.1) read `topic-map.js` + the type file; nothing else is hand-maintained (the `MANIFEST_FILES` lesson of CLAUDE.md §21.5 is designed out) |
-| factories, not pages | most new tasks are a parameterisation of an existing factory under `types/_shared/` (31 today: `compare-groups.js`, `picture-equation.js`, `sort-to-bins.js`, `lit-word-build.js`, …) or a `templates/components-b*` builder; a new template is often 60–150 lines (K-002 is 94 lines including `verify`) |
+| factories, not pages | most new tasks are a parameterisation of an existing factory under `types/_shared/` (32 today — F3 count: `compare-groups.js`, `picture-equation.js`, `sort-to-bins.js`, `lit-word-build.js`, …) or a `templates/components-b*` builder; a new template is often 60–150 lines (K-002 is 94 lines including `verify`) |
 | strings pipeline exists | `i18n/build-en.js` → `apply-locale.js` → `lint-locale.js` and `check-template-string-parity` (generalised from `tools/check-b*-string-parity.js`) |
-| screen kinds are a menu | 11 kinds (`emit/interactive-runtime.js:60`); a template declares `interactive: { kind, item, answerAttr, … }` and the geometry capture, runtime and gate are shared |
+| screen kinds are a menu | 11 kinds (`emit/interactive-runtime.js:60`) **+ the 12th, `type-cross` (shared cells for crosswords, ENGINES Part 3 §B — the one runtime addition, ≈ 0.5 session; F3)**; a template declares `interactive: { kind, item, answerAttr, … }` and the geometry capture, runtime and gate are shared |
 | gates are generic | lints, pageFill, settings-space, 11-locale render, thumbnails and the html-parity hash cover a new file with zero configuration; only a *new primitive* needs its own verify |
 | scaffold | `node scripts/makers/new-template.js --maker=counting --grade=K --slug=count-then-draw-one-more --skill="…" --screen=type-number` writes the file skeleton, the `strings.en.json` entry, the inventory row and the topic-map line (the `scripts/new-activity.js` precedent, memory `project_activity_coverage_plan`) |
 | spec → file | F2's `NEW-TEMPLATES.md` spec fields (sketch, child's action, settings, teaching point, reused engine, screen kind, locales, key rule, risks) map 1:1 onto the module fields `i18n`, `difficulty`, `interactive`, `themeAxis`, `verify`, and the `templates.json` `controls`/`refused` — the spec *is* the build ticket |
 
-Cost: ≈ 0.4–0.6 session per new template on an existing factory (design → native panel pass on its 2 strings ×11 → gates), 1–1.5 when it needs a new primitive. A maker's ≥ 5 new templates ≈ 3 sessions, already inside the per-maker figures of §14.3.
+Cost: ≈ 0.4–0.6 session per new template on an existing factory (design → native review of its 2 strings ×11 → gates), 1–1.5 when it needs a new primitive. A maker's ≥ 5 new templates ≈ 3 sessions. **F3: these were NOT inside the per-maker figures of §14.3 (a "none" maker at 2 sessions cannot contain 3 sessions of templates); they are counted separately there — 297 templates ≈ 160 sessions in all.**
 
 Gallery scale: a maker with 30 templates shows ≤ 8 per sub-topic row with "more"; the per-template lazy chunk (§2.3) keeps first load flat; thumbnails are generated per template on hash change only (§11.3).
 
 ### 11.3 Gallery thumbnails
 
-Generated at build time by the existing Node renderer (`render-instance.js` → `.png` → `sharp` → 320 px WebP, q 70, ≈ 12 KB), **per locale** at level 2 with a fixed seed and a fixed per-template theme: 755 × 11 ≈ 8,300 files ≈ 100 MB in `makers/<maker>/<v>/thumbs/<loc>/`. Per locale because the sheet's title is on the picture and a Finnish teacher must see Finnish. Regenerated only for templates whose bundle hash changed.
+Generated at build time by the existing Node renderer (`render-instance.js` → `.png` → `sharp` → 320 px WebP, q 70, ≈ 12 KB), **per locale** at level 2 with a fixed seed and a fixed per-template theme: 755 × 11 ≈ 8,300 files ≈ 100 MB in `makers/<maker>/<v>/thumbs/<loc>/` — **F3: with the 297 new templates ≈ 1,052 × 11 ≈ 11,600 files ≈ 140 MB and ≈ 30 min per full rebuild (NEW-TEMPLATES decision C).** Per locale because the sheet's title is on the picture and a Finnish teacher must see Finnish. Regenerated only for templates whose bundle hash changed.
 
 ### 11.4 Grouping
 
@@ -487,7 +490,7 @@ By `skill` (the inventory's sub-topic sentence, `types.json` rows) inside a make
 
 | strings | where | who authors | gate |
 |---|---|---|---|
-| Maker shell UI (≈ 160 keys: controls, buttons, gate sentences, sign-in sheet, share sheet, photo warning) | `frontend/messages/makers/<locale>.json` ×11, sliced into the shell bundle at build | drafted in en-US, then **one native reviewer per locale before publish** (CLAUDE.md #2 rule; §21.3 native ensemble for a new content TYPE) — the English source is handed over as a *source to audit* | key parity ×11 (`lint-i18n-parity`), no English on a non-English page (DOM scan in the 11-locale render gate), no "free" claim |
+| Maker shell UI (≈ 160 keys: controls, buttons, gate sentences, sign-in sheet, share sheet, photo warning) | `frontend/messages/makers/<locale>.json` ×11, sliced into the shell bundle at build | drafted in en-US, then native-reviewed before publish — **F3: as ONE reviewer agent reading the compact dump of all 11 locales in one pass (CLAUDE.md #1 rule: no per-locale fan-out, ≤ 1–2 agents per task; #2 rule: the check itself is never skipped), never "one reviewer per locale" (11 agents)** — the English source is handed over as a *source to audit* | key parity ×11 (`lint-i18n-parity`), no English on a non-English page (DOM scan in the 11-locale render gate), no "free" claim |
 | Per-template title / instruction / printTitle | existing `scripts/worksheet-gen/i18n/strings.<loc>.json` (136–140 KB each), sliced per maker → `strings.<loc>.json` (≤ 20 KB) | already native-authored per batch; new templates follow the batch process | the existing `i18n/lint-locale.js` + the parity check of `tools/check-b*-string-parity.js` generalised to `check-template-string-parity.js` |
 | Screen instructions, level instructions | `i18n/interactive-instructions.json`, `level-instructions.json`, sliced | as today | a locale without the string = the template is refused in that locale for the screen (`cli.js:34-36` behaviour kept) |
 | Runtime words (Check, Try again…) | `translations-shared.js` `runtime*` keys → JSON slice | exist ×11 | `runtimeStrings` throws on a missing key (`interactive-runtime.js:74-85`) — kept |
@@ -523,28 +526,30 @@ Order = the build order (§14); an app is retired only with its maker: `find-and
 | P5 gate suite + deploy wiring (`deploy.sh` build step, nginx patch, housekeeping exemption) | §15 | 3 |
 | P6 thumbnails pipeline, `templates.json` builder, migrations resolver | §11, §5.3 | 1 |
 
+**F3 — every spike has a named fallback, so a miss never stalls the order.** S1 (print-engine PDF): miss on iPad → the raster PDF (§3, decision A); miss elsewhere → the raster PDF becomes the default on that platform only. **S2 (DOM→PNG, previously no fallback):** miss → "Save image" is rasterised from the vector PDF in the browser with `pdf.js` (pure JS; a runtime dependency, so it needs the operator's §10.3 approval — OPEN-DECISIONS #3b) or, failing that, ships as JPEG-in-PDF only. S3 (cross-browser layout): a failing class gets a slack rule, never a per-browser branch (§16). **S4 (bundle size, previously no fallback):** miss → split the maker into per-gallery-row chunks and lazy-load the hm/fd/htd engines per picture; the 250 KB line is raised only against a measured 3G first-load time. **S5 (gate time ≤ 150 ms p95, previously no fallback):** miss → run lints + verify in a Web Worker behind a 250 ms edit debounce with a progress hint; live gating is never disabled for content (only the `ink` layer is ungated by design). S6: per-line fallbacks in ENGINES-ART §11. **Order dependency made explicit:** the ENGINES-ART §2.2 module split is P1 work (it is what lets the §2.5 lint pass on B3), the pinned-maze tool (`mzl-pin` + timer) and the picture-tracing trace store are S6-slot deliverables, and `object-attributes.json` needs a per-key review flag before sorting tier 3 (ENGINES [sorting-Q1]).
+
 ### 14.2 Pilot — one maker per language group (≈ 12 sessions)
 
 | maker | group | why this one |
 |---|---|---|
 | **ten-frames** (none, 10 templates) | none | smallest surface; proves gallery → page → PDF → screen on all four platforms |
 | **counting** (little, 14 templates, retires `find-and-count` + `find-objects`) | little | first app retirement; picture swapping and the I-spy scene (F2 counting-Q1) |
-| **spelling** (bound, 8 templates, retires `word-scramble` + `word-guess`) | bound | own words, exact-vocab picture matching, grammar refusal, a tap-spell screen |
+| **spelling** (bound, 8 templates, retires `word-scramble` + `word-guess`) | bound | own words, exact-vocab picture matching, grammar refusal, a tap-spell screen. **F3: both retirements are NEW engines (scramble, guess — NEW-TEMPLATES 3-T1/T2), so this pilot builds two engines before the chain is proven; ENGINES recommends swapping the bound pilot to `sight-words` (bank-only, no new engine) — operator decision, OPEN-DECISIONS #2** |
 
 ### 14.3 Batches (after the pilot proves the chain)
 
 | batch | makers | sessions |
 |---|---|---|
-| B1 numbers (none/little, 9) | number-sequences, number-lines, number-bonds, addition-subtraction (retires 3 apps), doubles-halves, compare-numbers, odd-even, place-value, multiplication-division | 22 |
+| B1 numbers (none/little, **10** — F3: fractions was in no batch) | number-sequences, number-lines, number-bonds, addition-subtraction (retires 3 apps), doubles-halves, compare-numbers, odd-even, place-value, **fractions**, multiplication-division | 22 → **30** (ENGINES Part 2) |
 | B2 measure & shapes (8) | money, telling-time, measurement, graphs-data, shapes-geometry, patterns, number-tracing, symmetry-grids | 20 |
 | **S6 spike slot — picture engines** (after B2, before B3; F2-art has delivered by then) | art delivery + browser oracles measured on iPad/Chromebook (§17.4) | 3 |
-| B3 picture engines (8; the six section-H makers + two neighbours) | logic-puzzles, same-different (5 apps), dot-to-dot, color-by-number, coloring-pages, mazes, find-the-differences, how-to-draw; picture-tracing moves here from B4 | 36 |
+| B3 picture engines (**10** — F3: the list already held 9; sorting was in no batch) | logic-puzzles, same-different (5 apps), **sorting (retires picture-sort)**, dot-to-dot, color-by-number, coloring-pages, mazes, find-the-differences, how-to-draw; picture-tracing moves here from B4 | 36 → **57** (ENGINES Part 2 53 + ENGINES-ART +4) |
 | B4 writing (5) | pre-writing, letter-tracing, word-writing, cursive, tangram | 15 |
 | B5 literacy A (8) | alphabet, phonics, rhyming, syllables, sight-words, nouns-articles, picture-cards, position-words | 30 |
 | B6 literacy B (8) | grammar, word-meaning, sentences, reading, stories-writing, word-problems, number-of-the-day, ordinal-numbers | 30 |
-| B7 social + puzzles (7) | calendar, maps-grids, me-family-feelings, health-safety, word-search, crossword, secret-code, bingo | 26 |
+| B7 social + puzzles (**8** — F3: the list has eight) | calendar, maps-grids, me-family-feelings, health-safety, word-search, crossword, secret-code, bingo | 26 → **42** (ENGINES Part 2) |
 
-Effort rule per maker: **none 2 · little 3 · bound 4** (each including its ≥ 5 new templates, §11.2), +2 for a section-H picture engine (after F2-art's design and the S6 spike), +1 per retired app (feature mapping + shadow period). Total ≈ 25 + 12 + 3 + 182 ≈ **220–240 sessions**. Each maker = one plan-mode session for its contract (templates, controls, drops, F2 engine notes) + build + gates + native review of any new strings; one maker at a time, never parallel fan-outs (CLAUDE.md #1 rule).
+Effort rule per maker: **none 2 · little 3 · bound 4** (F3: **excluding** the new templates — see §11.2), +2 for a section-H picture engine (after F2-art's design and the S6 spike), +1 per retired app (feature mapping + shadow period), plus the per-maker engine/data additions ENGINES Part 2 found (written methods, time words, customary units, letter models, blocklists, the five new puzzle/colouring factories). ~~Total ≈ 25 + 12 + 3 + 182 ≈ 220–240 sessions.~~ **F3 — the ONE reconciled figure: 25 platform + 266 makers (ENGINES Part 2's 262 + ENGINES-ART's +4 on the picture makers; the pilot's 14 and the S6 slot's 3 are inside the 266) + ≈ 160 templates (297 × ≈ 0.5 + ≈ 10 new primitives × +1) ≈ 450 sessions.** Ship-first option: top-3 templates per maker (≈ 180) ≈ 390 for the first full release, the rest additive. Each maker = one plan-mode session for its contract (templates, controls, drops, F2 engine notes) + build + gates + native review of any new strings; one maker at a time, never parallel fan-outs (CLAUDE.md #1 rule).
 
 ---
 
@@ -563,7 +568,7 @@ All scripts under `scripts/makers/gates/`, run by `node scripts/makers/gate.js -
 | 7 | `screen-geometry` | the student shell's live capture vs `render-instance.js` capture for the same seed: every item rect within 0.5 % | all items |
 | 8 | `settings-space` | guessability + answer-position over every exposed control value (§6) | no tell; failing values removed from `controls` |
 | 9 | `own-input` | the refusal paths: a 40-glyph word, a title of 4 lines, a word with no picture, a frame lcs-grammar refuses, a BW theme mixed with colour | every case refused with its sentence |
-| 10 | `native-pedagogy` | ONE reviewer per locale over the compact text dump of every template's title/instruction/controls/gate sentences in that locale + the shell strings; findings fixed at source and re-run | 0 open findings |
+| 10 | `native-pedagogy` | **ONE reviewer agent** over the compact text dump of every template's title/instruction/controls/gate sentences **in all 11 locales in one pass** + the shell strings, plus a pedagogy read of a rendered sample (F3: CLAUDE.md #1/#2 — sequential, never a per-locale fan-out); findings fixed at source and re-run | 0 open findings |
 | 11 | `i18n-parity` | shell keys ×11, template string slices ×11, interactive instructions where `screen` | 0 missing |
 | 12 | `scale-smoke` | `autocannon` 200 r/s for 60 s on `/makers/<id>/<v>/bundle.js` (nginx) + 20 r/s on `/api/makers/links/<id>` through Cloudflare + 5 r/s on `check-and-increment` | p95 < 50 ms origin for the API; 0 errors; cache-hit ≥ 98 % on static |
 | 13 | `registration` | landing slug ×11 in `maker-content`, `makerGeneratorUrl` repointed, `versions.json` current, thumbnails present ×11, housekeeping exemption | 0 missing (the `preflight-tool-registration.js` shape) |
@@ -592,7 +597,7 @@ All scripts under `scripts/makers/gates/`, run by `node scripts/makers/gate.js -
 | A14 named bins are strictly scored | **S** `tap-select`/sort kinds grade exactly (`interactive-runtime.js` JS_SELECT); F2 sorting-Q1 |
 | A15 the chosen theme is the theme on the page | **C** the picture picker is bound to `settings.theme`'s manifest slice; an off-theme pick is impossible; the title's `{THEME}` resolves from the same manifest (`unit-axis` token precedent) |
 | A16 counts never include 0 | **G15** `min ≥ 1` on every count param in `templates.json`; **G2** no `0` in `meta.items` of counting templates |
-| A17 odd-one-out density | F2 same-different-Q1; **G2** `cardFill` + **G14** collision bound it from both sides |
+| A17 odd-one-out density | ENGINES #23 (F3: same-different-Q1 is the silhouette question; the density rule is on the maker card); **G2** `cardFill` + **G14** collision bound it from both sides; the 50 px floor / 15-pair cap become `templates.json` limits of the odd-one-out template |
 | A18 names from the reviewed vocabulary, never a file name | **C** labels come only from the per-locale vocab slice (`resolve.js labels()`); own photos carry no label (`own[]` has none), and a template that prints a label refuses an own photo in that slot (§7.2) |
 | B1 text never overlaps a picture | **G14** collision |
 | B2 no wasted band | **G2** `pageFill` (`page-fill.js:28-29`: ≥ 55 % covered, band ≤ 20 %) + the fill-the-body rule |
@@ -659,12 +664,12 @@ find-the-differences, dot-to-dot, color-by-number, how-to-draw, picture-tracing,
 | how-to-draw | `data/htd/` 53 MB (201 files, ~290 KB each) + `htdx/` 127 MB; steps derived from ink by `lib/htd-steps.js` (uses `cbn-lineart.js`, which uses `sharp`) | the family verify + visual read |
 | color-by-number | `data/cbn/` 47 MB: regions + keys per picture (`designs*.js`) | fully-painted check (> 95 % small-cell area, CLAUDE.md §29 trap 8) on the rendered SVG; `tap-paint` screen reads `path[data-lcs-region]` (`render-instance.js:128-147`) |
 | dot-to-dot | `data/d2d/` 30 MB, precomputed figures | per-type verify |
-| picture-tracing | `data/pt/` + `ptx/` ~1 MB (scenes) + the tracer `lib/pt-trace.js` (chamfer, Zhang-Suen thinning, RDP — heavy CPU, run offline) | `lib/pt-verify.js` (`sharp`) |
-| mazes | `data/hm/` + `hmx/` ~1.8 MB; generated live by `lib/hm-maze.js` + `hm-scene.js` | `lib/hm-verify.js` raster oracle: `sharp` rasterises the declared corridors (`:23-35`); the morphology, clustering and flood fill are **pure JS** (`:35-73`; `sharp` returns only at `:74` to decode the screenshot) |
+| picture-tracing | `data/pt/` + `ptx/` ~1 MB (scenes) + the tracer `lib/pt-trace.js` (chamfer, Zhang-Suen thinning, RDP — heavy CPU). **F3 (ENGINES-ART §7.2): the tracer runs LIVE at every build today (`lib/pt-scene.js:24-28 traceOf`, `:116`), 0.13–0.34 s per drawing in Node; `data/pt/` holds only `index.json` + `symmetry.json`, no trace files. The maker needs a NEW precomputed trace store (1,302 drawings, ≈ 13 MB gz)** | `lib/pt-verify.js` (`sharp`) |
+| mazes | `data/hm/` + `hmx/` ~1.8 MB; ~~generated live~~ **F3 (ENGINES-ART §8.2): the hand-made generator is a retry search measured at 0.4–30 s per page on the PC, so the maker ships PINNED fast seeds per (scene, level[, locale]) and rebuilds one deterministically; grid mazes (`lib/maze.js`) stay live** | `lib/hm-verify.js` raster oracle: `sharp` rasterises the declared corridors (`:23-35`); the morphology, clustering and flood fill are **pure JS** (`:35-70`; `sharp` returns only at `:74` to decode the screenshot) |
 
 ### 17.2 How hundreds of MB of art are split, versioned and delivered
 
-- **One file per picture, fetched on demand, never the catalogue.** `/var/www/lcs-media/makers-art/<artVersion>/<family>/<pictureId>.json` (+ `.rich` variants as separate files). The browser downloads only the picture the teacher picked: an FD scene ≈ 200–400 KB raw → ~60–100 KB after nginx `gzip_static`/brotli (path strings compress well); an htd drawing ≈ 290 KB → ~70 KB; a cbn design a few KB. Pass line for the format: ≤ 120 KB transferred per picture, measured in S6; a picture over the line is re-encoded (quantised coordinates, shared ink) in the offline pipeline, never at load.
+- **One file per picture, fetched on demand, never the catalogue.** `/var/www/lcs-media/makers-art/<artVersion>/<family>/<pictureId>.json` (+ `.rich` variants as separate files). The browser downloads only the picture the teacher picked: an FD scene ≈ 200–400 KB raw → ~60–100 KB after nginx `gzip_static`/brotli (path strings compress well; **F3: the measured tail is 1.68 MB raw ≈ 450 KB gz for the largest scene — ENGINES-ART §2.3 rounds coordinates to 0.1 unit and splits `cands` into its own file**); an htd drawing ≈ 290 KB → ~70–84 KB (htdx with `keep` 186 KB → split); a cbn design ≈ 66 KB gz. Pass line for the format: ≤ 120 KB transferred per picture, measured in S6; a picture over the line is re-encoded (quantised coordinates, shared ink) in the offline pipeline, never at load.
 - **One small index per family per version**: `makers-art/<artVersion>/<family>/index.json` — `{ id, theme, names ×11, bytes, flags (rich, bw, level) }` ≈ 40–60 KB for 667 scenes; the gallery and the picture picker read only the index; thumbnails come from the same thumbnail pipeline as templates (§11.3), 120 px per picture.
 - **Versioned like data**: `artVersion` joins `dataVersion` in the recipe (§5.1); the offline pipeline (today's `fd-build.js`, `htd-steps.js`, `pt-trace.js`, `cbn-lineart.js` — unchanged, still Node + sharp) writes a *new* version directory when pictures are added or re-reviewed; old versions stay (a few hundred MB each; served disk, exempt from housekeeping). Growth = add files + regenerate the index + human picture review on contact sheets (`tools/contact-sheet.js`, memory "a word review cannot see a picture"); a picture enters the index only with `reviewed: true`.
 - **Cache**: immutable headers; Cloudflare's free-tier cache takes files up to 512 MB, so every picture is edge-cached after its first request; total art on disk ~700 MB is the one new storage class, planned in `housekeeping.sh` as exempt and in the disk budget (CLAUDE.md §A.14.12).
@@ -675,7 +680,7 @@ Three classes, decided per check, not per maker:
 
 | class | rule | examples |
 |---|---|---|
-| **A. already browser-native** | run live, unchanged, through the Page shim (§6.1) | `fd-browser-diff` (canvas); cbn fully-painted check when expressed over the rendered SVG's `path[data-lcs-region]` areas (DOM `getTotalLength`/`getBBox` + the same > 95 % rule) |
+| **A. already browser-native** | run live, unchanged, through the Page shim (§6.1) | `fd-browser-diff` (canvas); **F3 (ENGINES-ART §2.1): the live CBN checks are the labeller `labelArt` + `checkSolid` (`lib/cbn-render.js:75-137, 189-228`, canvas in-page) and `labelsAndGate`; the fully-painted rule is enforced OFFLINE by the colour-sheet read (the CBN keys keep white cells by design, METHOD-fd §9) and the FD colour face paints small cells at build (`fd-scene.js:58`) — there is no live "fill test"**; `K-285.verify` (dot legibility, DOM + `measureText`); grid-maze uniqueness (`lib/maze.js`) |
 | **B. sharp-only because of rasterisation** | the *only* thing `sharp` does in these oracles is SVG → pixels; replace it by one platform function `platform.rasterSvg(svgString, w, h) → Uint8ClampedArray` (Node: sharp; browser: `Blob` → `Image` → `canvas.getImageData`, the exact code `fd-browser-diff.js:26-41` already uses). The oracle logic (`hm-verify.js` morph/clusters/flood) is pure JS and bundles as is; `pt-verify` is checked for the same split in S6. Live maze generation then carries its live oracle — the rule of §6: **no live generation without its live oracle** | `hm-verify`, `pt-verify`, `cbn-lineart` checks |
 | **C. offline only** | heavy derivation (tracing skeletons, htd step derivation, FD scene densification) runs in the offline pipeline and ships *verified* data; the browser re-verifies only what the teacher's choice changes (which differences are placed, which colours are keyed, which steps are shown) | `pt-trace.js`, `htd-steps.js`, `fd-scene.buildLayers` (`fd-scene.js:343-345`) |
 
@@ -689,6 +694,8 @@ On a 2019 iPad and a mid-range Chromebook: (1) fetch + parse one FD rich scene, 
 
 ## 18. For the operator
 
+> **F3:** every item below is consolidated, deduplicated across the four documents and ordered by what blocks the build first in **`docs/makers/OPEN-DECISIONS.md`** — that file is the list to decide from; this section is kept as F1's record.
+
 Each with my recommendation and the cost of each option. Nothing here blocks the spikes or the platform work; A and B block the pilot's download and share buttons respectively.
 
 **A. The PDF on iPad.** Spike S1 decides whether iPad Safari's print sheet can save our vector PDF to Files. If it cannot: (A1, recommended) iPad gets the raster PDF (crisp print, text not selectable) and desktop keeps vector — cost: nothing extra, one sentence of help text; (A2) iPad users print only, no file — cost: iPad teachers cannot email a worksheet; (A3) a server Puppeteer PDF for iPad only — cost: server CPU on exactly the path we promised to keep off the server; rejected unless A1 fails the spike.
@@ -699,10 +706,10 @@ Each with my recommendation and the cost of each option. Nothing here blocks the
 
 **D. Anonymous downloads. — DECIDED 2026-10-31: D1, keep the code (anonymous visitors cannot download; free accounts 3/month; subscribers unlimited).** The code requires a free account for any download (`quota.ts:170-172`); the brief says anonymous teachers get 3 a month. (D1, recommended) keep the code: making is free and unlimited for everyone, the first download asks for a free account — the acquisition funnel the metering was built for; (D2) allow 3 anonymous downloads keyed on the `lcs_anon_id` cookie — cost: a 4-line change to `checkAndIncrementQuota` and weaker sign-up conversion.
 
-**E. Gallery thumbnails per language.** (E1, recommended) ~8,300 WebP ≈ 100 MB, every teacher sees her language — cost: 100 MB of served disk + ~20 min of render per full rebuild; (E2) English thumbnails with a localised caption — cost: Finnish teachers see English sheets in the gallery.
+**E. Gallery thumbnails per language.** (E1, recommended) ~8,300 WebP ≈ 100 MB (**F3: ≈ 11,600 ≈ 140 MB with the 297 new templates**), every teacher sees her language — cost: 140 MB of served disk + ~30 min of render per full rebuild; (E2) English thumbnails with a localised caption — cost: Finnish teachers see English sheets in the gallery.
 
 **F. Old-app features to drop on purpose** (each needs your yes): the free text box with 7 fonts and outline colours; custom page sizes beyond Letter/A4 (portrait and landscape are kept, §3 rule 6); element lock/align/bring-forward/send-back. Everything else in `OLD-APPS.md` and in `OLD-APP-LESSONS.md` §E maps to a template, a control, a recipe field or an export option (grayscale stays as a whole-page export filter). Cost of keeping any of the three: a free-canvas layer the gates cannot judge — the thing this design exists to remove.
 
-**G. The pilot trio.** ten-frames · counting · spelling (§14.2). Alternative: swap spelling for sentences (more templates, heavier) — cost: +2 sessions before the chain is proven.
+**G. The pilot trio.** ten-frames · counting · spelling (§14.2). Alternative: swap spelling for sentences (more templates, heavier) — cost: +2 sessions before the chain is proven. **F3: ENGINES "For the operator" 2 recommends swapping spelling for `sight-words` instead (bank-only, own words as letters, no new engine) — see OPEN-DECISIONS #2; this F1 alternative is superseded.**
 
 **H. One new build dependency. — APPROVED 2026-10-31: `esbuild` as a dev dependency.** `esbuild` as a dev dependency (CLAUDE.md §10.3 requires your approval). No runtime dependency is added; `pdf-lib` is already in `package.json`.

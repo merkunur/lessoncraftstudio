@@ -63,3 +63,7 @@ ORDER row 174 · id `author-purpose.why-wrote.ri-2-6` (kept). Design: `designs/1
 - `local-test-harbor-machines.js` 1,619/0 in all 11 locales.
 - Visual QA ×11 locales: 288 renders each (4 phases × 12 rounds × 6 viewports), all PASS; tablet reach included. One locale run (sv) once printed nothing — a silent crash; it passed on rerun, and the PASSED lines are counted against 11, never the absence of FAIL.
 - Other audits: hierarchy 1,191/0; settings efficacy 2 live (notes, machines); prose claims, SERP copy, content tells, route preflight and Next delay all PASS.
+
+## Live (2026-10-31)
+- Deployed with `086a7a400`; payment canary OK. The page serves `author-purpose-activity.html?v=9.920`.
+- `live-verify-harbor-machines.js --locales=en,de,sv,fi`: 52/0. All 11 pages return 200 (HTTPS with the QA header). At 1366 and 390, a real tap on the stage with the snails note is a miss (it sputters, a shape on every sentence); a real tap on the lighthouse runs it, solved; the iframe grows with the card.

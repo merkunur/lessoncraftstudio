@@ -182,6 +182,24 @@ The `newTemplates` in each topics/<id>.md are only seeds (121 across 60 makers).
   - the risks: two right answers, answer tells, a wrong picture.
 - **Rank the templates within each maker** by teacher value, so the build can ship the strongest first.
 
+
+### H — THE PICTURE-ENGINE MAKERS get their own deep run (operator 2026-10-31: "they will be the most challenging tasks")
+
+**The makers:** find-the-differences, dot-to-dot, color-by-number, plus the three that share their art pipeline: how-to-draw, picture-tracing and mazes.
+
+Each is built today on heavy precomputed art: fd 427 MB, htd + htdx 180 MB, cbn 47 MB, d2d 30 MB, plus the pt-* and hm-* engines. Each also has a verification that runs on the rendered page. A dedicated Fable run (F2-art) answers, per maker:
+
+1. **What a teacher can choose**, and how the result can still be proven correct:
+   - scene, number of differences, dots, colours, steps, maze size;
+   - every difference visible, every region colourable and fully painted, numbers legible, one solution.
+2. **Precomputed vs live in the browser.**
+   - What ships as data, at what size, split how, and cached how.
+   - What is generated live, with a measured time budget on an iPad and a Chromebook.
+3. **Growth.** How the picture set grows over time (offline pipeline + human picture review), never at the cost of correctness.
+4. **The teacher's own photo:** possible / partly / refused, with the reason.
+5. **The spike** to run before building: what to measure and the pass line.
+6. **Its new templates**, as in section N.
+
 ### Per-maker questions (F2 answers all of them, inside the F1 architecture)
 
 - **[counting-Q1]** (Counting, see docs/makers/topics/counting.md) Scene layout for "I spy" sheets with the teacher's own pictures: how to place N mixed pictures without overlap and keep every count exactly right when the teacher swaps pictures after generation.

@@ -27,7 +27,7 @@ const el = (tag, attrs = {}, kids = []) => {
 
 let mod, tj, strings, picManifest;
 const typeCache = {};
-const state = { id: null, level: 2, theme: null, unit: null, answerKey: false, paper: LANG === 'en' ? 'letter' : 'a4', pages: [1], edits: [{}], units: [], texts: [{}], border: 'none', more: false };
+const state = { id: null, level: 2, theme: null, unit: null, answerKey: false, paper: LANG === 'en' ? 'letter' : 'a4', pages: [1], edits: [{}], units: [], texts: [{}], ink: [], border: 'none', more: false };
 
 /*
  * Who may make what (operator ruling 2026-10-31; frontend/lib/quota.ts kind 'make'):
@@ -111,7 +111,7 @@ async function boot() {
   choose((offered.find((t) => t.id === want) || offered[0]).id, true);
   buildGallery(offered);
   // New version is new content: the teacher's picture/word choices belong to the old content and are dropped
-  $('mk-new').addEventListener('click', () => { state.pages = state.pages.map(() => nextVariant()); state.edits = state.pages.map(() => ({})); render(); });
+  $('mk-new').addEventListener('click', () => { state.pages = state.pages.map(() => nextVariant()); state.edits = state.pages.map(() => ({})); state.ink = []; drawingPage = null; render(); });
   $('mk-add').addEventListener('click', () => {
     state.pages.push(nextVariant()); state.edits.push({}); state.texts.push({});
     const t = tj.templates.find((x) => x.id === state.id);
@@ -143,7 +143,8 @@ function choose(id, first) {
   if (t.themed) { if (!t.themes.includes(state.theme)) state.theme = t.themes[0]; } else state.theme = null;
   const units = t.units && t.units[LANG];
   state.unit = units && units.length ? (units.some((u) => u.id === state.unit) ? state.unit : units[0].id) : null;
-  if (!first) { state.pages = [state.pages[0] || 1]; state.edits = [{}]; state.texts = [{}]; }
+  if (!first) { state.pages = [state.pages[0] || 1]; state.edits = [{}]; state.texts = [{}]; state.ink = []; drawingPage = null; }
+  drawingPage = null;
   state.units = state.unit ? state.pages.map((_, i) => (i === 0 ? state.unit : state.units[i] || state.unit)) : [];
   document.querySelectorAll('.mk-card').forEach((c) => c.setAttribute('aria-current', String(c.dataset.id === id)));
   buildControls(t);
@@ -155,14 +156,18 @@ function choose(id, first) {
  * settings. Where it does not (a sight word of the day), the pages are consecutive words from the chosen one.
  */
 /*
- * A page is four parallel things: its copy (pages), its picture/word swaps (edits), its word (units, one-word templates)
- * and its title/instruction (texts). They always move together — never touch one array alone.
+ * A page is five parallel things: its copy (pages), its picture/word swaps (edits), its word (units, one-word templates),
+ * its title/instruction (texts) and its drawing (ink). They always move together — never touch one array alone.
+ * The optional ones may be shorter than pages (nothing typed, nothing drawn): they are padded to the page count before
+ * any move, so a drawing never stays behind on the wrong page.
  */
-const PAGE_ARRAYS = ['pages', 'edits', 'units', 'texts'];
+const PAGE_ARRAYS = ['pages', 'edits', 'units', 'texts', 'ink'];
+const clone = (x) => (x === undefined ? undefined : JSON.parse(JSON.stringify(x)));
+function padPages() { for (const k of PAGE_ARRAYS) if (k !== 'units' || state.units.length) while (state[k].length < state.pages.length) state[k].push(undefined); }
 const pageOps = {
-  remove(i) { for (const k of PAGE_ARRAYS) state[k].splice(i, 1); },
-  duplicate(i) { for (const k of PAGE_ARRAYS) if (state[k].length > i) state[k].splice(i + 1, 0, JSON.parse(JSON.stringify(state[k][i]))); },
-  move(i, j) { if (j < 0 || j >= state.pages.length) return; for (const k of PAGE_ARRAYS) if (state[k].length > Math.max(i, j)) { const [x] = state[k].splice(i, 1); state[k].splice(j, 0, x); } },
+  remove(i) { drawingPage = null; padPages(); for (const k of PAGE_ARRAYS) state[k].splice(i, 1); },
+  duplicate(i) { drawingPage = null; padPages(); for (const k of PAGE_ARRAYS) if (state[k].length > i) state[k].splice(i + 1, 0, clone(state[k][i])); },
+  move(i, j) { if (j < 0 || j >= state.pages.length) return; drawingPage = null; padPages(); for (const k of PAGE_ARRAYS) if (state[k].length > Math.max(i, j)) { const [x] = state[k].splice(i, 1); state[k].splice(j, 0, x); } },
 };
 
 /** The strings of page i: the worksheet's own, with the teacher's title / instruction when she typed one. */
@@ -234,10 +239,66 @@ function withBorder(html) {
   return html.replace('</head>', `<style data-lcs-decor>@page{margin:0}html,body{margin:0}.ws-page{margin:${my}mm ${mx}mm ${(my - 1).toFixed(2)}mm;outline:${BORDERS[state.border]} #3A3530;outline-offset:${off}px}</style></head>`);
 }
 
+/*
+ * A drawing (ink) is a list of strokes per page, in the page box's own 703 × 945 px coordinates. It is drawn in an svg
+ * laid over the page box (absolute: it takes no space, so the page's layout and its gates never see it) and printed with
+ * the page. Not on the answer key: the key is the worksheet's, the drawing is the teacher's page.
+ */
+const INK = { black: '#3A3530', blue: '#2A6FDB', red: '#D9443A', green: '#2E9E5B', orange: '#F28C28' };
+const INK_WIDTH = 5;
+let drawingPage = null;
+let inkColor = 'black';
+const strokePath = (pts) => (pts.length === 1 ? `M${pts[0][0]} ${pts[0][1]}l0.1 0` : 'M' + pts.map((p) => p.join(' ')).join('L'));
+const inkPathHtml = (st) => `<path d="${strokePath(st.pts)}" stroke="${INK[st.c] || INK.black}"/>`;
+const INK_SVG_OPEN = `<svg data-lcs-ink viewBox="0 0 703 945" style="position:absolute;left:0;top:0;width:703px;height:945px;z-index:20;pointer-events:none;overflow:visible" fill="none" stroke-width="${INK_WIDTH}" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">`;
+function withInk(html, i, always) {
+  const strokes = state.ink[i] || [];
+  if (!strokes.length && !always) return html;
+  const tag = '<div class="ws-page" data-lcs-page>';
+  if (!html.includes(tag)) return html;
+  return html.replace(tag, tag + INK_SVG_OPEN + strokes.map(inkPathHtml).join('') + '</svg>');
+}
+
 async function makeHtml(i, key) {
   const r = await pageResult(i);
   if (!r.ok) { const e = new Error('refused'); e.fails = r.fails; throw e; }
-  return withBorder(key ? r.keyHtml : r.html);
+  return withBorder(key ? r.keyHtml : withInk(r.html, i, drawingPage === i));
+}
+
+/** Drawing on page i's preview: the svg takes the pointer (mouse, pen, finger); each stroke is kept on lift. */
+function attachInk(f, i, onChange) {
+  const d = f.contentDocument;
+  const svg = d.querySelector('svg[data-lcs-ink]');
+  if (!svg) return;
+  svg.style.pointerEvents = 'auto';
+  svg.style.cursor = 'crosshair';
+  svg.style.touchAction = 'none';
+  let cur = null;
+  const at = (e) => { const r = svg.getBoundingClientRect(); return [Math.round(((e.clientX - r.left) * 703) / r.width * 2) / 2, Math.round(((e.clientY - r.top) * 945) / r.height * 2) / 2]; };
+  svg.addEventListener('pointerdown', (e) => {
+    e.preventDefault();
+    svg.setPointerCapture(e.pointerId);
+    cur = { c: inkColor, pts: [at(e)] };
+    cur.el = d.createElementNS('http://www.w3.org/2000/svg', 'path');
+    cur.el.setAttribute('stroke', INK[inkColor]);
+    cur.el.setAttribute('d', strokePath(cur.pts));
+    svg.append(cur.el);
+  });
+  svg.addEventListener('pointermove', (e) => {
+    if (!cur) return;
+    const p = at(e), q = cur.pts[cur.pts.length - 1];
+    if (Math.abs(p[0] - q[0]) + Math.abs(p[1] - q[1]) < 1.5) return;
+    cur.pts.push(p);
+    cur.el.setAttribute('d', strokePath(cur.pts));
+  });
+  const end = () => {
+    if (!cur) return;
+    (state.ink[i] = state.ink[i] || []).push({ c: cur.c, pts: cur.pts });
+    cur = null;
+    onChange();
+  };
+  svg.addEventListener('pointerup', end);
+  svg.addEventListener('pointercancel', end);
 }
 
 /**
@@ -258,7 +319,7 @@ function guardFrame(f) {
   });
 }
 
-function sheet(html, pageIndex = null) {
+function sheet(html, pageIndex = null, onInk = null) {
   const P = paperPx();
   const box = el('div', { class: 'mk-sheet', style: `aspect-ratio:${P.w} / ${P.h}` });
   // (with a border the page already carries its margin — withBorder — so the preview adds none)
@@ -267,7 +328,8 @@ function sheet(html, pageIndex = null) {
   const f = el('iframe', { title: UI.page, srcdoc: shown, scrolling: 'no', style: `width:${P.w}px;height:${P.h}px` });
   guardFrame(f);
   box.append(f);
-  if (pageIndex !== null) {
+  if (onInk) f.addEventListener('load', () => attachInk(f, pageIndex, onInk), { once: true });
+  else if (pageIndex !== null) {
     f.addEventListener('load', () => {
       const d = f.contentDocument;
       // the affordance lives only in the on-screen preview (print and PDF are built from the html string, not this frame)
@@ -300,7 +362,7 @@ async function render() {
   const open = isOpen(state.id);
   $('mk-new').hidden = !open || !differ;
   $('mk-add').hidden = !open || (!differ && !((t.units && t.units[LANG]) || []).length);
-  if (!open) { state.pages = [state.pages[0] || 1]; state.edits = [{}]; }
+  if (!open) { state.pages = [state.pages[0] || 1]; state.edits = [{}]; state.ink = []; drawingPage = null; }
   const out = [];
   let refused = 0;
   $('mk-print').disabled = true;
@@ -310,7 +372,7 @@ async function render() {
       const head = el('div', { class: 'mk-page-head' }, [el('span', { text: `${UI.page} ${i + 1} ${UI.of} ${state.pages.length}` })]);
       const pageUnits = (t.units && t.units[LANG]) || [];
       if (isOpen(state.id) && pageUnits.length) {
-        const sel = el('select', { class: 'mk-select', 'aria-label': `${UI.word} · ${UI.page} ${i + 1}`, on: { change: (e) => { state.units[i] = e.target.value; state.edits[i] = {}; state.texts[i] = {}; if (i === 0) state.unit = e.target.value; render(); } } });
+        const sel = el('select', { class: 'mk-select', 'aria-label': `${UI.word} · ${UI.page} ${i + 1}`, on: { change: (e) => { state.units[i] = e.target.value; state.edits[i] = {}; state.texts[i] = {}; state.ink[i] = undefined; drawingPage = null; if (i === 0) state.unit = e.target.value; render(); } } });
         for (const u of pageUnits) sel.append(el('option', { value: u.id, selected: u.id === state.units[i], text: u.word }));
         head.append(el('label', { class: 'mk-page-word' }, [el('span', { text: UI.word }), sel]));
       }
@@ -319,11 +381,27 @@ async function render() {
         const n = state.pages.length;
         tools.append(el('button', { class: 'mk-icon', type: 'button', 'data-act': 'up', title: UI.moveUp, 'aria-label': `${UI.moveUp} · ${UI.page} ${i + 1}`, disabled: i === 0, text: '↑', on: { click: () => { pageOps.move(i, i - 1); render(); } } }));
         tools.append(el('button', { class: 'mk-icon', type: 'button', 'data-act': 'down', title: UI.moveDown, 'aria-label': `${UI.moveDown} · ${UI.page} ${i + 1}`, disabled: i === n - 1, text: '↓', on: { click: () => { pageOps.move(i, i + 1); render(); } } }));
+        tools.append(el('button', { class: 'mk-link', type: 'button', 'data-act': 'draw', 'aria-pressed': String(drawingPage === i), text: drawingPage === i ? UI.stopDrawing : UI.draw, on: { click: () => { drawingPage = drawingPage === i ? null : i; render(); } } }));
         tools.append(el('button', { class: 'mk-link', type: 'button', 'data-act': 'duplicate', text: UI.duplicatePage, on: { click: () => { pageOps.duplicate(i); render(); } } }));
         if (n > 1) tools.append(el('button', { class: 'mk-link', type: 'button', 'data-act': 'remove', text: UI.removePage, on: { click: () => { pageOps.remove(i); render(); } } }));
         head.append(tools);
       }
-      out.push(el('div', { class: 'mk-page' }, [head, sheet(html, isOpen(state.id) ? i : null)]));
+      let inkBar = null, onInk = null;
+      if (isOpen(state.id) && drawingPage === i) {
+        inkBar = el('div', { class: 'mk-ink-bar', role: 'toolbar', 'aria-label': UI.draw });
+        const undo = el('button', { type: 'button', class: 'mk-link', 'data-act': 'undo', text: UI.undo });
+        const clear = el('button', { type: 'button', class: 'mk-link', 'data-act': 'clear', text: UI.clearDrawing });
+        const live = () => inkBar.parentElement && inkBar.parentElement.querySelector('.mk-sheet iframe').contentDocument.querySelector('svg[data-lcs-ink]');
+        onInk = () => { undo.disabled = clear.disabled = !(state.ink[i] || []).length; };
+        undo.addEventListener('click', () => { const st = state.ink[i] || []; if (!st.length) return; st.pop(); const sv = live(); if (sv && sv.lastElementChild) sv.lastElementChild.remove(); onInk(); });
+        clear.addEventListener('click', () => { state.ink[i] = undefined; const sv = live(); if (sv) sv.replaceChildren(); onInk(); });
+        for (const c of Object.keys(INK)) {
+          inkBar.append(el('button', { type: 'button', class: 'mk-ink', 'data-ink': c, 'aria-pressed': String(c === inkColor), 'aria-label': UI['ink_' + c], title: UI['ink_' + c], style: `--ink:${INK[c]}`, on: { click: (e) => { inkColor = c; inkBar.querySelectorAll('.mk-ink').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.ink === c))); } } }));
+        }
+        inkBar.append(undo, clear);
+        onInk();
+      }
+      out.push(el('div', { class: 'mk-page' }, [head, ...(inkBar ? [inkBar] : []), sheet(html, isOpen(state.id) ? i : null, onInk)]));
       if (state.answerKey && t.interactive) {
         const key = await makeHtml(i, true);
         if (key) out.push(el('div', { class: 'mk-page' }, [el('div', { class: 'mk-page-head' }, [el('span', { text: `${UI.answerKey} · ${UI.page} ${i + 1}` })]), sheet(key)]));
@@ -431,7 +509,7 @@ function buildControls(t) {
   const c = $('mk-controls');
   if (!isOpen(t.id)) { c.replaceChildren(el('span', { class: 'mk-label', text: UI.sample }), accessCard()); return; }
   const kids = [];
-  if (t.levels.length > 1) kids.push(chipGroup(UI.level, t.levels, state.level, (v) => { state.level = v; buildControls(t); render(); }));
+  if (t.levels.length > 1) kids.push(chipGroup(UI.level, t.levels, state.level, (v) => { if (v !== state.level) state.ink = []; drawingPage = null; state.level = v; buildControls(t); render(); }));
   if (t.themed && t.themes.length > 1) {
     const g = el('div', { class: 'mk-group', role: 'group', 'aria-label': UI.pictures }, [el('span', { class: 'mk-label', text: UI.pictures })]);
     // colour or black-and-white: a switch picks which strip is shown (a page uses one theme, never a mix); inside the
@@ -448,7 +526,7 @@ function buildControls(t) {
           const base = state.theme.replace(/\s+bw(\s+\d+)?$/i, '');
           const pool = on ? bwThemes : colorThemes;
           state.theme = pool.find((x) => (on ? x.replace(/\s+bw(\s+\d+)?$/i, '') === base : x === base)) || pool[0];
-          state.edits = state.pages.map(() => ({}));
+          state.edits = state.pages.map(() => ({})); state.ink = []; drawingPage = null;
           buildControls(t); render();
         } } }));
       }
@@ -458,7 +536,7 @@ function buildControls(t) {
     for (const th of (bwOn ? bwThemes : colorThemes)) {
       const full = (tj.themeNames[LANG] && tj.themeNames[LANG][th]) || th;
       const name = isBw(th) ? full.replace(/\s+(BW|SW|BN|ZW|NB|PB|SV|SH|MV)(?=(\s+\d+)?$)/, '') : full;
-      row.append(el('button', { type: 'button', class: 'mk-theme', 'aria-pressed': String(th === state.theme), title: name, on: { click: () => { if (th !== state.theme) state.edits = state.pages.map(() => ({})); state.theme = th; buildControls(t); render(); } } },
+      row.append(el('button', { type: 'button', class: 'mk-theme', 'aria-pressed': String(th === state.theme), title: name, on: { click: () => { if (th !== state.theme) state.edits = state.pages.map(() => ({})); state.ink = []; drawingPage = null; state.theme = th; buildControls(t); render(); } } },
         [el('span', { class: 'mk-theme-pic', style: `background-image:url("${themePicture(th)}")` }), el('span', { class: 'mk-theme-name', text: name })]));
     }
     g.append(row); kids.push(g);

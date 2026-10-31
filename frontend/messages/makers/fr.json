@@ -53,5 +53,14 @@
   "border_line": "Trait",
   "border_dashed": "Tirets",
   "border_dotted": "Pointillés",
-  "border_double": "Double"
+  "border_double": "Double",
+  "draw": "Dessiner",
+  "stopDrawing": "Terminer le dessin",
+  "undo": "Annuler",
+  "clearDrawing": "Effacer le dessin",
+  "ink_black": "Noir",
+  "ink_blue": "Bleu",
+  "ink_red": "Rouge",
+  "ink_green": "Vert",
+  "ink_orange": "Orange"
 }

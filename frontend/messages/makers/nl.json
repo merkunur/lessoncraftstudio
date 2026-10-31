@@ -53,5 +53,14 @@
   "border_line": "Lijn",
   "border_dashed": "Gestreept",
   "border_dotted": "Gestippeld",
-  "border_double": "Dubbel"
+  "border_double": "Dubbel",
+  "draw": "Tekenen",
+  "stopDrawing": "Klaar met tekenen",
+  "undo": "Ongedaan maken",
+  "clearDrawing": "Tekening wissen",
+  "ink_black": "Zwart",
+  "ink_blue": "Blauw",
+  "ink_red": "Rood",
+  "ink_green": "Groen",
+  "ink_orange": "Oranje"
 }

@@ -51,6 +51,44 @@ const puppeteer = require('puppeteer'); const http = require('http'); const { ha
   // back to two pages for the checks below
   await p.evaluate(() => document.querySelectorAll('.mk-page [data-act=remove]')[1].click()); await settle();
   b5 = await pageHtml();
+  // drawing (ink): real mouse strokes on the preview; kept per page, moved with the page, printed, dropped with new content
+  const liveInk = (n = 0) => p.evaluate((n) => { const s = document.querySelectorAll('.mk-sheet iframe')[n].contentDocument.querySelector('svg[data-lcs-ink]'); return s ? [...s.querySelectorAll('path')].map((x) => x.getAttribute('stroke')) : null; }, n);
+  const stroke = async (fx, fy) => {
+    const r = await p.evaluate(() => { const fr = document.querySelector('.mk-sheet iframe'); fr.scrollIntoView({ block: 'center' }); const b = fr.getBoundingClientRect(); return { x: b.left, y: b.top, w: b.width, h: b.height }; });
+    await p.mouse.move(r.x + r.w * fx, r.y + r.h * fy); await p.mouse.down();
+    for (let k = 1; k <= 8; k++) await p.mouse.move(r.x + r.w * (fx + k * 0.02), r.y + r.h * (fy + k * 0.01));
+    await p.mouse.up(); await settle(150);
+  };
+  const inkIn = (h) => (h.match(/<svg data-lcs-ink[\s\S]*?<\/svg>/) || [''])[0];
+  await p.evaluate(() => document.querySelectorAll('.mk-page [data-act=draw]')[0].click()); await settle();
+  const bar = await p.evaluate(() => ({ bar: !!document.querySelector('.mk-ink-bar'), colours: document.querySelectorAll('.mk-ink').length, undoOff: document.querySelector('[data-act=undo]').disabled }));
+  check('Draw opens the drawing bar on page 1 (5 colours, nothing to undo yet)', bar.bar && bar.colours === 5 && bar.undoOff, bar);
+  await stroke(0.3, 0.4);
+  check('a mouse stroke draws a line on page 1', JSON.stringify(await liveInk()) === JSON.stringify(['#3A3530']), await liveInk());
+  await p.evaluate(() => document.querySelector('.mk-ink[data-ink=red]').click());
+  await stroke(0.3, 0.55);
+  check('a second stroke in red', JSON.stringify(await liveInk()) === JSON.stringify(['#3A3530', '#D9443A']), await liveInk());
+  const noTap = await p.evaluate(() => { const d = document.querySelector('.mk-sheet iframe').contentDocument; return !d.querySelector('[data-lcs-slot][role=button]') && !(document.getElementById('mk-picker') || {}).open; });
+  check('while drawing, the page is not tappable (no picker opens)', noTap);
+  await p.click('[data-act=undo]'); await settle(150);
+  check('Undo removes the last stroke', JSON.stringify(await liveInk()) === JSON.stringify(['#3A3530']), await liveInk());
+  await p.evaluate(() => document.querySelectorAll('.mk-page [data-act=draw]')[0].click()); await settle();
+  let ink1 = await pageHtml();
+  check('Done drawing: page 1 keeps its line, page 2 has none, the bar is gone', (inkIn(ink1[0]).match(/<path/g) || []).length === 1 && !inkIn(ink1[1]) && !(await p.$('.mk-ink-bar')));
+  await p.evaluate(() => document.querySelectorAll('.mk-page [data-act=down]')[0].click()); await settle();
+  ink1 = await pageHtml();
+  check('moving page 1 down takes its drawing with it', !inkIn(ink1[0]) && (inkIn(ink1[1]).match(/<path/g) || []).length === 1);
+  await p.click('#mk-print'); await settle(800);
+  check('the drawing is printed', await p.evaluate(() => /<svg data-lcs-ink[\s\S]*?<path/.test(document.querySelector('#mk-print-host iframe').getAttribute('srcdoc'))));
+  await p.evaluate(() => document.querySelectorAll('.mk-page [data-act=draw]')[1].click()); await settle();
+  await p.click('[data-act=clear]'); await settle(150);
+  await p.evaluate(() => document.querySelectorAll('.mk-page [data-act=draw]')[1].click()); await settle();
+  check('Clear drawing removes every stroke', !(await pageHtml()).some((h) => /<svg data-lcs-ink[\s\S]*?<path/.test(h)));
+  await p.evaluate(() => document.querySelectorAll('.mk-page [data-act=draw]')[0].click()); await settle();
+  await stroke(0.4, 0.5);
+  await p.evaluate(() => [...document.querySelectorAll('.mk-chip')].find((x) => x.textContent === '2').click()); await settle();
+  check('a new level (new content) drops the drawing and leaves drawing mode', !(await pageHtml()).some((h) => /data-lcs-ink/.test(h)) && !(await p.$('.mk-ink-bar')));
+  b5 = await pageHtml();
   // "More options": paper + border (ARCHITECTURE §4.1 decor — drawn in the paper margin, printed)
   const closed = await p.$$eval('.mk-group', (gs) => gs.map((g) => g.getAttribute('aria-label')));
   check('More options is closed at first (Paper is not on the first screen)', !closed.includes('Papier'), closed);

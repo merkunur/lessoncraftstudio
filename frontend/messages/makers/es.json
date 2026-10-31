@@ -53,5 +53,14 @@
   "border_line": "Línea",
   "border_dashed": "Guiones",
   "border_dotted": "Puntos",
-  "border_double": "Doble"
+  "border_double": "Doble",
+  "draw": "Dibujar",
+  "stopDrawing": "Terminar de dibujar",
+  "undo": "Deshacer",
+  "clearDrawing": "Borrar el dibujo",
+  "ink_black": "Negro",
+  "ink_blue": "Azul",
+  "ink_red": "Rojo",
+  "ink_green": "Verde",
+  "ink_orange": "Naranja"
 }

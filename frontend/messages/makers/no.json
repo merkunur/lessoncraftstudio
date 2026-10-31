@@ -53,5 +53,14 @@
   "border_line": "Strek",
   "border_dashed": "Stiplet",
   "border_dotted": "Prikket",
-  "border_double": "Dobbel"
+  "border_double": "Dobbel",
+  "draw": "Tegn",
+  "stopDrawing": "Ferdig med å tegne",
+  "undo": "Angre",
+  "clearDrawing": "Slett tegningen",
+  "ink_black": "Svart",
+  "ink_blue": "Blå",
+  "ink_red": "Rød",
+  "ink_green": "Grønn",
+  "ink_orange": "Oransje"
 }

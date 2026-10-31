@@ -53,5 +53,14 @@
   "border_line": "Linha",
   "border_dashed": "Tracejada",
   "border_dotted": "Pontilhada",
-  "border_double": "Dupla"
+  "border_double": "Dupla",
+  "draw": "Desenhar",
+  "stopDrawing": "Concluir desenho",
+  "undo": "Desfazer",
+  "clearDrawing": "Apagar o desenho",
+  "ink_black": "Preto",
+  "ink_blue": "Azul",
+  "ink_red": "Vermelho",
+  "ink_green": "Verde",
+  "ink_orange": "Laranja"
 }

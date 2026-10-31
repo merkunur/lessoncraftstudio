@@ -53,5 +53,14 @@
   "border_line": "Linje",
   "border_dashed": "Streckad",
   "border_dotted": "Prickad",
-  "border_double": "Dubbel"
+  "border_double": "Dubbel",
+  "draw": "Rita",
+  "stopDrawing": "Klar med ritningen",
+  "undo": "Ångra",
+  "clearDrawing": "Sudda ut ritningen",
+  "ink_black": "Svart",
+  "ink_blue": "Blå",
+  "ink_red": "Röd",
+  "ink_green": "Grön",
+  "ink_orange": "Orange"
 }

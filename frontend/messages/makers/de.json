@@ -53,5 +53,14 @@
   "border_line": "Linie",
   "border_dashed": "Gestrichelt",
   "border_dotted": "Gepunktet",
-  "border_double": "Doppelt"
+  "border_double": "Doppelt",
+  "draw": "Zeichnen",
+  "stopDrawing": "Fertig gezeichnet",
+  "undo": "Rückgängig",
+  "clearDrawing": "Zeichnung löschen",
+  "ink_black": "Schwarz",
+  "ink_blue": "Blau",
+  "ink_red": "Rot",
+  "ink_green": "Grün",
+  "ink_orange": "Orange"
 }

@@ -25,7 +25,7 @@ const OUT = path.join(REPO, 'out', 'makers', 'ui-strings.js');
 const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
 // the same as English on purpose: in every language (paper names), or in one language where the word is the same
 const SAME_EVERYWHERE = new Set(['a4', 'letter']);
-const SAME_IN = { fr: new Set(['page', 'border_double']), es: new Set(['color']) };
+const SAME_IN = { fr: new Set(['page', 'border_double', 'ink_orange']), es: new Set(['color']), de: new Set(['ink_orange']), sv: new Set(['ink_orange']), da: new Set(['ink_orange']) };
 
 const flat = (o, pre = '') => Object.entries(o).flatMap(([k, v]) => (v && typeof v === 'object' ? flat(v, pre + k + '.') : [[pre + k, v]]));
 

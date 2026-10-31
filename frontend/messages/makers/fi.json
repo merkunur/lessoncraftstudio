@@ -53,5 +53,14 @@
   "border_line": "Viiva",
   "border_dashed": "Katkoviiva",
   "border_dotted": "Pisteviiva",
-  "border_double": "Kaksoisviiva"
+  "border_double": "Kaksoisviiva",
+  "draw": "Piirrä",
+  "stopDrawing": "Lopeta piirtäminen",
+  "undo": "Kumoa",
+  "clearDrawing": "Pyyhi piirros",
+  "ink_black": "Musta",
+  "ink_blue": "Sininen",
+  "ink_red": "Punainen",
+  "ink_green": "Vihreä",
+  "ink_orange": "Oranssi"
 }

@@ -53,5 +53,14 @@
   "border_line": "Line",
   "border_dashed": "Dashed",
   "border_dotted": "Dotted",
-  "border_double": "Double"
+  "border_double": "Double",
+  "draw": "Draw",
+  "stopDrawing": "Done drawing",
+  "undo": "Undo",
+  "clearDrawing": "Clear drawing",
+  "ink_black": "Black",
+  "ink_blue": "Blue",
+  "ink_red": "Red",
+  "ink_green": "Green",
+  "ink_orange": "Orange"
 }

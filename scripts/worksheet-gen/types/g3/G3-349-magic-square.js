@@ -9,6 +9,34 @@ const { answerBox } = require('../../templates/components.js');
 // classic 3x3 magic square base (constant 15) — rotations/reflections via rng
 const BASE = [2, 7, 6, 9, 5, 1, 4, 3, 8];
 
+/**
+ * True when the row and column sums fix every blank to ONE value. Blanks that
+ * form a rectangle (two rows × two columns) can trade +1/−1 around its corners,
+ * so a second correct filling exists and the key would mark it wrong (2026-10-31:
+ * 11 % of level-2 and 21 % of level-3 squares had that). Rank of the 6 sum
+ * equations over the blank cells must equal the number of blanks.
+ */
+function uniquelySolvable(blanks) {
+  const M = [];
+  for (let q = 0; q < 3; q++) {
+    M.push(blanks.map((b) => (Math.floor(b / 3) === q ? 1 : 0)));
+    M.push(blanks.map((b) => (b % 3 === q ? 1 : 0)));
+  }
+  let rank = 0;
+  for (let c = 0; c < blanks.length && rank < M.length; c++) {
+    const p = M.findIndex((row, i) => i >= rank && row[c] !== 0);
+    if (p < 0) continue;
+    [M[rank], M[p]] = [M[p], M[rank]];
+    for (let i = 0; i < M.length; i++) {
+      if (i === rank || M[i][c] === 0) continue;
+      const f = M[i][c] / M[rank][c];
+      for (let j = 0; j < blanks.length; j++) M[i][j] -= f * M[rank][j];
+    }
+    rank++;
+  }
+  return rank === blanks.length;
+}
+
 function transform(sq, rng) {
   let g = sq.slice();
   const rot = (a) => [a[6], a[3], a[0], a[7], a[4], a[1], a[8], a[5], a[2]];
@@ -48,9 +76,10 @@ module.exports = {
       do {
         blanks = rng.sample(sq.map((_, k) => k), d.blanks);
         guard++;
-      } while (guard < 60 && [0, 1, 2].some((r) =>
+      } while (guard < 500 && ([0, 1, 2].some((r) =>
         [0, 1, 2].every((c) => blanks.includes(r * 3 + c)) ||
-        [0, 1, 2].every((c) => blanks.includes(c * 3 + r))));
+        [0, 1, 2].every((c) => blanks.includes(c * 3 + r))) || !uniquelySolvable(blanks)));
+      if (!uniquelySolvable(blanks)) throw new Error('G3-349: no uniquely solvable blank set found');
       const cells = sq.map((v, k) => blanks.includes(k)
         ? `<span style="display:flex;align-items:center;justify-content:center">${answerBox({ w: 74, h: 74, answer: v })}</span>`
         : `<span class="ws-pattern-slot" style="width:84px;height:84px;font-family:'Baloo 2';font-weight:700;font-size:30px;color:#3A3530" data-lcs-cell="${v}">${v}</span>`
@@ -77,6 +106,16 @@ module.exports = {
           return box ? +box.dataset.lcsAnswer : +el.dataset.lcsCell;
         });
         if (grid.length !== 9) { fails.push(`card ${i + 1}: not 3x3`); return; }
+        // one answer only: the blank cells (edges row→col) must form no cycle,
+        // or a +1/−1 trade around it gives a second correct filling
+        const blanksAt = [...stage.querySelector('[data-lcs-grid]').children].map((el, k) => (el.querySelector('[data-lcs-answer]') ? k : -1)).filter((k) => k >= 0);
+        const parent = [0, 1, 2, 3, 4, 5];
+        const find = (x) => (parent[x] === x ? x : (parent[x] = find(parent[x])));
+        for (const b of blanksAt) {
+          const a = find(Math.floor(b / 3)), c = find(3 + (b % 3));
+          if (a === c) { fails.push(`card ${i + 1}: blanks admit more than one correct filling`); break; }
+          parent[a] = c;
+        }
         for (let r = 0; r < 3; r++) {
           const rs = grid[r * 3] + grid[r * 3 + 1] + grid[r * 3 + 2];
           const cs = grid[r] + grid[r + 3] + grid[r + 6];

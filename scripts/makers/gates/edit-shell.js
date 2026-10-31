@@ -116,9 +116,11 @@ const { handler } = require('../serve.js');
   check('title: "Original text" restores the worksheet\'s own title', (await titleOf()) === t0, await titleOf());
 
   // New version is new content: the choice is dropped
+  const editsBefore = await p.evaluate(() => window.__lcsMaker.state().edits);
   await p.click('#mk-new'); await settle(1200);
-  const fresh = await cards(p);
-  check('K-002: New version drops the choice (new content)', !fresh.some((c) => c.noun === after[0].noun) || fresh[0].noun !== after[0].noun);
+  // read the worksheet's own state (the pictures alone cannot say it: a new copy may draw the chosen picture by chance)
+  const editsAfter = await p.evaluate(() => window.__lcsMaker.state().edits);
+  check('K-002: New version drops the choice (new content)', Object.keys(editsBefore[0] || {}).length > 0 && editsAfter.every((e) => !e || !Object.keys(e).length), { editsBefore, editsAfter });
 
   // words: sight words
   await p.goto(`${base}/makers/app/?maker=sight-words&lang=de&t=K-239`, { waitUntil: 'networkidle0' }); await settle(1200);

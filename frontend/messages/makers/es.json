@@ -65,5 +65,9 @@
   "ink_orange": "Naranja",
   "maxPages": "Una hoja de trabajo puede tener hasta {n} páginas.",
   "morePagesPlan": "Para agregar páginas necesitas una suscripción.",
-  "pageNumbers": "Números de página"
+  "pageNumbers": "Números de página",
+  "saveImage": "Guardar como imagen",
+  "downloadPdf": "Descargar PDF",
+  "preparing": "Preparando…",
+  "downloadFailed": "No se pudo preparar la descarga. Inténtalo de nuevo."
 }

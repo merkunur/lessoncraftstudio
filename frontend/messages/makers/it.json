@@ -65,5 +65,9 @@
   "ink_orange": "Arancione",
   "maxPages": "Una scheda può avere fino a {n} pagine.",
   "morePagesPlan": "Per aggiungere pagine serve un abbonamento.",
-  "pageNumbers": "Numeri di pagina"
+  "pageNumbers": "Numeri di pagina",
+  "saveImage": "Salva come immagine",
+  "downloadPdf": "Scarica il PDF",
+  "preparing": "Preparazione…",
+  "downloadFailed": "Non è stato possibile preparare il download. Riprova."
 }

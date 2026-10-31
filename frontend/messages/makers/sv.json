@@ -65,5 +65,9 @@
   "ink_orange": "Orange",
   "maxPages": "Ett arbetsblad kan ha upp till {n} sidor.",
   "morePagesPlan": "Med ett abonnemang kan du lägga till sidor.",
-  "pageNumbers": "Sidnummer"
+  "pageNumbers": "Sidnummer",
+  "saveImage": "Spara som bild",
+  "downloadPdf": "Ladda ner pdf",
+  "preparing": "Förbereder …",
+  "downloadFailed": "Det gick inte att skapa filen. Försök igen."
 }

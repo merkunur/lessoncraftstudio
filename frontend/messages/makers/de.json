@@ -65,5 +65,9 @@
   "ink_orange": "Orange",
   "maxPages": "Ein Arbeitsblatt kann bis zu {n} Seiten haben.",
   "morePagesPlan": "Mit einem Abo können Sie Seiten hinzufügen.",
-  "pageNumbers": "Seitenzahlen"
+  "pageNumbers": "Seitenzahlen",
+  "saveImage": "Als Bild speichern",
+  "downloadPdf": "PDF herunterladen",
+  "preparing": "Wird vorbereitet …",
+  "downloadFailed": "Der Download hat nicht geklappt. Bitte versuchen Sie es noch einmal."
 }

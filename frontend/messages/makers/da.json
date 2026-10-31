@@ -65,5 +65,9 @@
   "ink_orange": "Orange",
   "maxPages": "Et arbejdsark kan have op til {n} sider.",
   "morePagesPlan": "Med et abonnement kan du tilføje sider.",
-  "pageNumbers": "Sidetal"
+  "pageNumbers": "Sidetal",
+  "saveImage": "Gem som billede",
+  "downloadPdf": "Download pdf",
+  "preparing": "Gør klar …",
+  "downloadFailed": "Filen kunne ikke laves. Prøv igen."
 }

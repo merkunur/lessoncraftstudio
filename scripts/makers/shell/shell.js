@@ -7,6 +7,8 @@
  *   ≤ 7 controls (level · pictures · word · answer key · paper) → New version · Add page · Print or save PDF.
  * The teacher never moves anything on the page (§4.1): every change re-makes the page from its settings.
  */
+import * as exportMod from './export.js';
+
 const BASE = '/makers';
 const params = new URLSearchParams(location.search);
 const MAKER = params.get('maker') || 'ten-frames';
@@ -93,7 +95,7 @@ async function loadType(id) { if (!typeCache[id]) { const m = await mod.template
 async function boot() {
   $('mk-name').textContent = (UI.makers && UI.makers[MAKER]) || MAKER;
   document.title = $('mk-name').textContent;
-  $('mk-new').textContent = UI.newVersion; $('mk-add').textContent = UI.addPage; $('mk-print').textContent = UI.print;
+  $('mk-new').textContent = UI.newVersion; $('mk-add').textContent = UI.addPage; $('mk-print').textContent = UI.print; $('mk-pdf').textContent = UI.downloadPdf;
   $('mk-gallery').setAttribute('aria-label', UI.templates);
   $('mk-pages').append(el('p', { class: 'mk-note', text: UI.loading }));
   gateFrame = el('iframe', { title: 'gate', tabindex: '-1' });
@@ -113,7 +115,7 @@ async function boot() {
   const offered = tj.templates.filter((t) => t.locales.includes(LANG));
   if (!offered.length) { $('mk-pages').replaceChildren(el('p', { class: 'mk-note', text: UI.notInLanguage })); return; }
   // test hook for scripts/makers/gates/live-gate.js (the same objects the screen uses; nothing a teacher can reach)
-  window.__lcsMaker = { mod, tj, strings, LANG, loadType, mount: (html) => mod.mountHtml(gateFrame, html) };
+  window.__lcsMaker = { mod, tj, strings, LANG, loadType, mount: (html) => mod.mountHtml(gateFrame, html), state: () => JSON.parse(JSON.stringify(state)) };
   await loadAccess();
   document.body.setAttribute('data-print-hint', UI.printHint);
   const want = params.get('t');
@@ -134,6 +136,7 @@ async function boot() {
     render();
   });
   $('mk-print').addEventListener('click', printAll);
+  $('mk-pdf').addEventListener('click', downloadPdf);
 }
 
 let variantCounter = 1;
@@ -347,12 +350,19 @@ function guardFrame(f) {
   });
 }
 
+/** A page's html as the whole sheet of paper (the preview and the image / raster-PDF downloads draw the same sheet). */
+function paperDoc(html) {
+  const P = paperPx();
+  // (with a border the page already carries its margin — withBorder — so no padding is added)
+  const pad = /data-lcs-decor/.test(html) ? '0' : `${P.my}px ${P.mx}px`;
+  return html.replace('</head>', `<style>html,body{margin:0;background:#fff}body{padding:${pad};box-sizing:border-box;width:${P.w}px;height:${P.h}px;overflow:hidden}</style></head>`);
+}
+
 function sheet(html, pageIndex = null, onInk = null) {
   const P = paperPx();
   const box = el('div', { class: 'mk-sheet', style: `aspect-ratio:${P.w} / ${P.h}` });
   // (with a border the page already carries its margin — withBorder — so the preview adds none)
-  const pad = /data-lcs-decor/.test(html) ? '0' : `${P.my}px ${P.mx}px`;
-  const shown = html.replace('</head>', `<style>html,body{margin:0;background:#fff}body{padding:${pad};box-sizing:border-box;width:${P.w}px;height:${P.h}px}</style></head>`);
+  const shown = paperDoc(html);
   const f = el('iframe', { title: UI.page, srcdoc: shown, scrolling: 'no', style: `width:${P.w}px;height:${P.h}px` });
   guardFrame(f);
   box.append(f);
@@ -411,6 +421,7 @@ async function render() {
         const n = state.pages.length;
         tools.append(el('button', { class: 'mk-icon', type: 'button', 'data-act': 'up', title: UI.moveUp, 'aria-label': `${UI.moveUp} · ${UI.page} ${i + 1}`, disabled: i === 0, text: '↑', on: { click: () => { pageOps.move(i, i - 1); render(); } } }));
         tools.append(el('button', { class: 'mk-icon', type: 'button', 'data-act': 'down', title: UI.moveDown, 'aria-label': `${UI.moveDown} · ${UI.page} ${i + 1}`, disabled: i === n - 1, text: '↓', on: { click: () => { pageOps.move(i, i + 1); render(); } } }));
+        tools.append(el('button', { class: 'mk-link', type: 'button', 'data-act': 'image', text: UI.saveImage, on: { click: (e) => saveImage(i, e.currentTarget) } }));
         tools.append(el('button', { class: 'mk-link', type: 'button', 'data-act': 'draw', 'aria-pressed': String(drawingPage === i), text: drawingPage === i ? UI.stopDrawing : UI.draw, on: { click: () => { drawingPage = drawingPage === i ? null : i; render(); } } }));
         if (canAddPages()) tools.append(el('button', { class: 'mk-link', type: 'button', 'data-act': 'duplicate', disabled: pagesFull(), text: UI.duplicatePage, on: { click: () => { pageOps.duplicate(i); render(); } } }));
         if (n > 1) tools.append(el('button', { class: 'mk-link', type: 'button', 'data-act': 'remove', text: UI.removePage, on: { click: () => { pageOps.remove(i); render(); } } }));
@@ -452,6 +463,8 @@ async function render() {
   $('mk-print').disabled = refused > 0;
   // a sample page is never printed: no Print button at all (a button that cannot be used explains nothing; the card does)
   $('mk-print').hidden = !isOpen(state.id);
+  $('mk-pdf').hidden = !isOpen(state.id) || !showRasterPdf();
+  $('mk-pdf').disabled = refused > 0;
 }
 
 /**
@@ -622,17 +635,66 @@ function buildGallery(offered) {
 }
 
 /** All pages (+ answer keys) in one hidden frame, then the browser's print dialog ("Save as PDF" makes a vector PDF). */
-async function printAll() {
-  if (!isOpen(state.id)) return;
+/** Every download (print, image, PDF) is one download for the meter; false = not allowed (the screen said why). */
+async function spendDownload() {
   if (access.makesLeft !== Infinity || access.kind === 'anon') {
     const r = await fetch('/api/quota/check-and-increment', { method: 'POST', credentials: 'same-origin', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ kind: 'download' }) }).catch(() => null);
-    if (r && r.status === 401) return goTo(signInUrl());
-    if (r && r.status === 402) { $('mk-controls').prepend(el('p', { class: 'mk-access-note', text: UI.noDownloadsLeft })); return; }
+    if (r && r.status === 401) { goTo(signInUrl()); return false; }
+    if (r && r.status === 402) { $('mk-controls').prepend(el('p', { class: 'mk-access-note', text: UI.noDownloadsLeft })); return false; }
   }
+  return true;
+}
+
+/** The worksheet's pages (+ answer keys) as html documents, in print order. */
+async function allDocs() {
   const t = tj.templates.find((x) => x.id === state.id);
   const docs = [];
   for (let i = 0; i < state.pages.length; i++) docs.push(await makeHtml(i, false));
   if (state.answerKey && t.interactive) for (let i = 0; i < state.pages.length; i++) { const k = await makeHtml(i, true); if (k) docs.push(k); }
+  return docs;
+}
+
+const PAPER_PT = { letter: { wPt: 612, hPt: 792 }, a4: { wPt: 595.28, hPt: 841.89 } };
+/** A long job on a button: the button says so and cannot be pressed twice. */
+async function busy(btn, job) {
+  const label = btn.textContent;
+  btn.disabled = true; btn.textContent = UI.preparing;
+  try { await job(); } catch (e) { console.error(e); $('mk-controls').prepend(el('p', { class: 'mk-access-note', text: UI.downloadFailed })); }
+  finally { btn.disabled = false; btn.textContent = label; }
+}
+
+/** "Save as image": page i as a PNG of the whole sheet of paper at 2×. */
+async function saveImage(i, btn) {
+  if (!isOpen(state.id) || !(await spendDownload())) return;
+  await busy(btn, async () => {
+    const P = paperPx();
+    const canvas = await exportMod.rasterize(paperDoc(await makeHtml(i, false)), { w: P.w, h: P.h, scale: 2 });
+    await exportMod.savePng(canvas, exportMod.fileName(pageStrings(i).title, state.pages.length > 1 ? `-${i + 1}.png` : '.png'));
+  });
+}
+
+/** "Download PDF": every page drawn at 3× and put in a PDF at exact Letter/A4 (the iPad path, §3 / OPEN-DECISIONS 3a). */
+async function downloadPdf() {
+  if (!isOpen(state.id) || !(await spendDownload())) return;
+  await busy($('mk-pdf'), async () => {
+    const P = paperPx();
+    const canvases = [];
+    for (const d of await allDocs()) canvases.push(await exportMod.rasterize(paperDoc(d), { w: P.w, h: P.h, scale: 3 }));
+    await exportMod.rasterPdf(canvases, PAPER_PT[state.paper] || PAPER_PT.a4, exportMod.fileName(pageStrings(0).title, '.pdf'), pageStrings(0).title);
+  });
+}
+
+/*
+ * The raster PDF button is shown on iPad / iPhone (where the print sheet may not save a file — spike S1 decides) and
+ * with ?pdf=raster for testing on a desktop. Everywhere else Print makes the vector PDF ("Save as PDF").
+ */
+const isAppleTouch = () => /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+const showRasterPdf = () => params.get('pdf') === 'raster' || isAppleTouch();
+
+async function printAll() {
+  if (!isOpen(state.id)) return;
+  if (!(await spendDownload())) return;
+  const docs = await allDocs();
   const head = docs[0].match(/<head>([\s\S]*?)<\/head>/)[1];
   const bodies = docs.map((d) => d.match(/<body[^>]*>([\s\S]*?)<\/body>/)[1]);
   const html = `<!doctype html><html lang="${LANG}"><head>${head}<style>.mk-break{break-after:page}.mk-break:last-child{break-after:auto}</style></head><body>${bodies.map((b) => `<div class="mk-break">${b}</div>`).join('')}</body></html>`;

@@ -18,6 +18,7 @@ const REPO = path.resolve(__dirname, '..', '..');
 const PORT = Number((process.argv.find((a) => a.startsWith('--port=')) || '--port=8490').slice(7));
 const ROUTES = [
   ['/makers/app/ui-strings.js', path.join(REPO, 'out', 'makers', 'ui-strings.js')],   // generated: build-ui-strings.js
+  ['/makers/app/vendor/', path.join(REPO, 'out', 'makers', 'vendor')],             // generated: build-bundles.js (pdf-lib)
   ['/makers/app/', path.join(__dirname, 'shell')],
   ['/makers-assets/themes-512/', path.join(REPO, 'scripts', 'worksheet-gen', 'cache', 'themes-512')],
   ['/makers-assets/fonts/', path.join(REPO, 'scripts', 'worksheet-gen', 'assets', 'fonts')],
@@ -89,7 +90,14 @@ function hubData() {
     }
     return { order: i + 1, id: m.id, name: m.name, group: m.group, oldApps: m.oldApps || [], templatesToday: types.length, plannedNew: planned[m.id] || 0, built };
   });
-  return { as: dev.as, makers };
+  return { as: dev.as, makers, lan: lanUrls() };
+}
+
+/** This PC's addresses on the home network (for opening the makers on an iPad on the same Wi-Fi). */
+function lanUrls() {
+  const out = [];
+  for (const list of Object.values(require('os').networkInterfaces())) for (const a of list || []) if (a.family === 'IPv4' && !a.internal && !a.address.startsWith('169.254.')) out.push(`http://${a.address}:${PORT}/`);
+  return out;
 }
 
 function handler(req, res) {
@@ -110,5 +118,5 @@ function handler(req, res) {
   res.writeHead(404); res.end('not found');
 }
 
-if (require.main === module) http.createServer(handler).listen(PORT, () => console.log(`makers preview: http://localhost:${PORT}/makers/app/?maker=counting&lang=en`));
+if (require.main === module) http.createServer(handler).listen(PORT, () => console.log(`makers preview: http://localhost:${PORT}/  (iPad on the same Wi-Fi: ${lanUrls().join(' ') || 'no network address'})`));
 module.exports = { handler };

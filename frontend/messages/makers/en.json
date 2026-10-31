@@ -65,5 +65,9 @@
   "ink_orange": "Orange",
   "maxPages": "A worksheet can have up to {n} pages.",
   "morePagesPlan": "You can add pages with a subscription.",
-  "pageNumbers": "Page numbers"
+  "pageNumbers": "Page numbers",
+  "saveImage": "Save as image",
+  "downloadPdf": "Download PDF",
+  "preparing": "Preparing…",
+  "downloadFailed": "The file could not be created. Please try again."
 }

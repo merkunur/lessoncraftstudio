@@ -65,5 +65,9 @@
   "ink_orange": "Oranje",
   "maxPages": "Een werkblad kan maximaal {n} pagina’s hebben.",
   "morePagesPlan": "Met een abonnement kun je pagina’s toevoegen.",
-  "pageNumbers": "Paginanummers"
+  "pageNumbers": "Paginanummers",
+  "saveImage": "Opslaan als afbeelding",
+  "downloadPdf": "Pdf downloaden",
+  "preparing": "Voorbereiden…",
+  "downloadFailed": "Het downloaden is niet gelukt. Probeer het opnieuw."
 }

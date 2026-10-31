@@ -106,3 +106,12 @@ button { font: inherit; cursor: pointer; }
 .mk-ink { width: 40px; height: 40px; border-radius: 50%; border: 3px solid #fff; background: var(--ink); box-shadow: 0 0 0 2px var(--line); }
 .mk-ink[aria-pressed="true"] { box-shadow: 0 0 0 3px var(--teal); }
 .mk-ink-bar .mk-link:disabled { opacity: .4; cursor: default; }
+/* phone: the action buttons two per row, and the header scrolls with the page (a sticky header of four buttons took a
+   quarter of a 390 px screen) — the buttons are one swipe up */
+@media (max-width: 600px) {
+  .mk-top { position: static; }
+  .mk-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .mk-actions .mk-btn { padding: 8px 10px; line-height: 1.2; }
+  .mk-actions .mk-btn[hidden] { display: none; }
+  .mk-actions:has(#mk-pdf[hidden]) #mk-print { grid-column: 1 / -1; }
+}

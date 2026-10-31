@@ -3,9 +3,29 @@
 The design is in this folder (ARCHITECTURE, ENGINES, ENGINES-ART, NEW-TEMPLATES, REVIEW-F3, OPEN-DECISIONS). This log
 records what is BUILT, measured and committed, step by step, so any session can resume. Order: ARCHITECTURE §14.
 
-**NEXT:** P3 — real outputs (PDF/PNG/play link, iPad test link, spikes S1–S3/S5), then P4 accounts/recipes/sharing, P5 deploy wiring, P6 thumbnails; then build ALL 60 makers locally.
+**NEXT:** P3 remainder — the operator's iPad test (S1: does Safari save the print PDF to Files? if not, iPads keep the picture PDF, OPEN-DECISIONS 3a) and the student play page (proved on the first maker with a screen version — none of the pilot trio has one); then P4 accounts/recipes/sharing, P5 deploy wiring (prepared, not run), P6 thumbnails; then build ALL 60 makers locally.
 
 > 🛑 **NO DEPLOY (operator 2026-10-31):** no worksheet maker goes live until all 60 are built, tested and finalized locally. The pilot trio is a LOCAL pilot (built + reviewed at http://localhost:8490/), not a go-live. Everything is committed; nothing maker-related is deployed. The launch is one release of all 60.
+
+## P3 (part 1) — downloads in the browser + spikes S2, S3, S5 (2026-10-31)
+
+- `shell/export.js`: page html → SVG foreignObject → canvas, every font and picture inlined as a data URI first; white
+  background; WebKit draws pictures late, so it redraws until two draws match (before: picture-less PNGs in 1 of 4 WebKit runs).
+- **Save as image** (page tools): PNG of the whole sheet at 2×. **Download PDF** (top bar; iPad/iPhone, or `?pdf=raster`):
+  one 3× JPEG per page at exact Letter/A4 via pdf-lib (already a dependency; bundled to `out/makers/vendor/`, loaded on
+  first use, 431 KB). Both are one download on the meter. Print stays the vector PDF everywhere else.
+- **iPad link:** the hub shows this PC's Wi-Fi address (http://192.168.10.240:8490/ today); the firewall already allows Node.
+- Phone header: buttons two per row and the header scrolls away (a sticky four-button header took a quarter of 390 px).
+- Gate `gates/exports-shell.js` (Playwright Chromium, Firefox, WebKit): PNG size + white paper, PDF pages at exact A4
+  points, metering, and **S2** against the browser's own render (pixels differing beyond a 1-px neighbourhood):
+  **Chromium 0.05 % · Firefox 0.01 % · WebKit 0.03 %** (line 0.5 %). Poison: an export without pictures → 5.9 % / 6.9 % FAIL.
+- **S3** (`spikes/s3-layout.js`, report `docs/makers/spikes/S3-layout.md`): 13 pages × 3 engines, HTML byte-identical,
+  lints/verify identical, max rect Δ 0.50 px (line 1.0), after measuring SVG by its geometry box (Firefox's client rect
+  includes the stroke). **PASS** on this PC; Safari on a real iPad/Mac and ChromeOS still owed.
+- **S5** (`spikes/s5-gate-time.js`, report `S5-gate-time.md`): gate p95 2 / 9 / 12 ms at 1× / 4× / 6× CPU throttle
+  (6× ≈ 2019 iPad): **PASS** (line 150 ms). The whole new page (build + mount + gate) is p95 151 ms at 6×.
+- Edit gate: "New version drops the choice" now reads the worksheet state, not the pictures (it failed by chance when a
+  new copy drew the chosen picture). New strings × 11 native-reviewed (6 fixes).
 
 ## P2 (part 3) — the rest of the maker screen (2026-10-31, commits `3b2102860` → `e21e04a95`)
 

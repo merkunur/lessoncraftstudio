@@ -65,5 +65,9 @@
   "ink_orange": "Laranja",
   "maxPages": "Uma atividade pode ter até {n} páginas.",
   "morePagesPlan": "Para adicionar páginas, é preciso ter uma assinatura.",
-  "pageNumbers": "Números de página"
+  "pageNumbers": "Números de página",
+  "saveImage": "Salvar como imagem",
+  "downloadPdf": "Baixar PDF",
+  "preparing": "Preparando…",
+  "downloadFailed": "Não foi possível preparar o download. Tente de novo."
 }

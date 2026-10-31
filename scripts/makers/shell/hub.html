@@ -58,6 +58,11 @@ a.open { color: var(--teal); font-weight: 800; }
     <p class="note">Switch, then open (or reload) a maker. A free account remembers the worksheets it opened for the browser tab — open a new tab to start fresh.</p>
   </div>
 
+  <h2>On your iPad</h2>
+  <div class="panel">
+    <p class="note">With the iPad on the same Wi-Fi as this computer, open this address in Safari: <strong id="lan">—</strong>. To test the PDF on the iPad: open a maker, tap <em>Print or save as PDF</em> (the iPad print sheet) and also <em>Download PDF</em> (the picture PDF), then try to save each to Files. If the iPad cannot open the address, allow Node.js on private networks in Windows Firewall.</p>
+  </div>
+
   <div class="stats" id="stats"></div>
 
   <h2>Built makers</h2>
@@ -77,7 +82,7 @@ const GROUP_NAMES = { math: 'Math', literacy: 'Reading & language', writing: 'Ha
 let data, group = 'all', asKey = null;
 const el = (tag, attrs = {}, kids = []) => { const e = document.createElement(tag); for (const [k, v] of Object.entries(attrs)) { if (k === 'text') e.textContent = v; else if (k === 'on') Object.entries(v).forEach(([ev, fn]) => e.addEventListener(ev, fn)); else e.setAttribute(k, v); } (Array.isArray(kids) ? kids : [kids]).forEach((c) => c && e.append(c)); return e; };
 
-async function load() { data = await (await fetch('/hub.json', { cache: 'no-store' })).json(); render(); }
+async function load() { data = await (await fetch('/hub.json', { cache: 'no-store' })).json(); $('lan').textContent = (data.lan || []).join('  ·  ') || 'no network address found'; render(); }
 
 function render() {
   // who am I testing as

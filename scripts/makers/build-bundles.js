@@ -170,6 +170,10 @@ async function main() {
   // the screen's own words (frontend/messages/makers/<loc>.json, checked: parity, no empty, no untranslated)
   const ui = require('./build-ui-strings.js').build();
   console.log(`ui strings: ${ui.keys} keys × ${ui.locales} languages`);
+  // pdf-lib for the raster PDF (ARCHITECTURE §3), loaded by the screen only when a PDF is downloaded
+  const vendor = path.join(OUT, 'vendor');
+  fs.mkdirSync(vendor, { recursive: true });
+  await esbuild.build({ stdin: { contents: "export { PDFDocument } from 'pdf-lib';", resolveDir: REPO }, bundle: true, format: 'esm', platform: 'browser', minify: true, outfile: path.join(vendor, 'pdf-lib.js'), logLevel: 'warning' });
   const allData = new Set();
   const report = [];
   for (const id of makers) {

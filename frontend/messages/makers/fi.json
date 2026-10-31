@@ -65,5 +65,9 @@
   "ink_orange": "Oranssi",
   "maxPages": "Monisteessa voi olla enintään {n} sivua.",
   "morePagesPlan": "Sivuja voi lisätä tilauksella.",
-  "pageNumbers": "Sivunumerot"
+  "pageNumbers": "Sivunumerot",
+  "saveImage": "Tallenna kuvana",
+  "downloadPdf": "Lataa PDF",
+  "preparing": "Valmistellaan…",
+  "downloadFailed": "Tiedostoa ei voitu luoda. Yritä uudelleen."
 }

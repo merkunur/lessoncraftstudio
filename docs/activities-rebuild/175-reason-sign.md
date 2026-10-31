@@ -50,3 +50,14 @@ ORDER row 175 · id `pearl-opinion-page.back-it-up.ri-2-8` (kept). Design: `desi
   - fr elision was confirmed in the render ("parce qu’un casque").
 - **MINOR, fixed:** sv garden point, da dogs point (*luftes*), da/no "for ingenting" calques, fi spellings and phrasing, it overclaim ("Si può cadere"), several strings and prose lines, and the da intro ("holder sig tørt").
 - **Found by me:** the de restatement "Kinder brauchen…" kept its noun capital after *denn* in the help (gated).
+
+## Gates
+- `verify-reason-sign-core.js` 8,952/0 — its own truth (roles from the card keys, its own modal / evaluative / stem tables, the frozen kept points, its own copy of the signed Level 2 pairs); the bots under measured ceilings; every round of every level and pass; the slot table; the hand; the reshuffle; the strings; the "because" assembly run through the activity (fr elision).
+- `mutate-reason-sign.js` 26/26 killed; the control passes.
+- `local-test-reason-sign.js` 1,839/0 in all 11 locales (real taps and keys, every miss, the because help, success lines, Next 0.5 s, the speaker, Levels 2–3, the fold at 320/360, every state resized through 320…1366).
+- Visual QA ×11 locales: 288 renders each (6 phases × 8 rounds × 6 viewports), all PASS; tablet reach included. pt r6 solved @320 failed twice only while another browser suite ran in parallel; alone it passes (Next at 557/640) — load timing, not layout.
+- Hierarchy 243/0; settings efficacy 2 live (level, bridge); prose claims, SERP copy, content tells, route preflight and Next delay all PASS.
+
+## Live (2026-10-31)
+- Deployed with `a4c87192f`; payment canary OK. Wrapper 9.921.
+- `live-verify-reason-sign.js --locales=en,de,sv,fi`: 60/0. All 11 pages return 200. At 1366 and 390 a real tap on the restatement + the tide is a miss (a soaked copy of the sign); the copy taps back; the reason + the tide stands the sign dry, solved; the iframe grows with the card.

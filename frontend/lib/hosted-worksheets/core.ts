@@ -25,7 +25,10 @@ export function hostedUrls(linkId: string) {
 
 export const HOSTED_LIMITS = {
   MAX_WORKSHEETS_PER_TEACHER: 300,
-  MAX_TOTAL_BYTES_PER_TEACHER: 1024 * 1024 * 1024, // 1 GB
+  // 200 MB (operator 2026-10-31, was 1 GB): the new makers save recipes, not pages,
+  // so hosted pages stay a small legacy store. Lowering never deletes — a teacher
+  // already above it keeps every page and simply cannot add more until under.
+  MAX_TOTAL_BYTES_PER_TEACHER: 200 * 1024 * 1024,
   MAX_SINGLE_BYTES: 15 * 1024 * 1024, // 15 MB (self-contained inline HTML runs ~1-8 MB)
   DELETED_RETENTION_DAYS: 30,
 } as const;

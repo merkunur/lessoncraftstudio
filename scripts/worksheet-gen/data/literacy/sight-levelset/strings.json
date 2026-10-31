@@ -643,7 +643,7 @@
  "da": {
   "K-388": {
    "title": "Dagens ord: {UNIT}",
-   "instruction": "Læs ordet. Tegn det op, skriv det og brug det i sætninger."
+   "instruction": "Læs ordet. Skriv det efter, skriv det selv, og brug det i sætninger."
   },
   "K-389": {
    "title": "Hyppige ord i sætninger: {UNIT}",
@@ -654,8 +654,8 @@
    "instruction": "Arbejd med én sætning, trin for trin."
   },
   "K-391": {
-   "title": "Tegn sætningerne op: {UNIT}",
-   "instruction": "Tegn hver sætning op. Skriv den så på stregen nedenunder."
+   "title": "Skriv sætningerne efter: {UNIT}",
+   "instruction": "Skriv hver sætning efter. Skriv den så selv på stregen nedenunder."
   },
   "K-392": {
    "title": "Find ordet: {UNIT}",
@@ -663,37 +663,37 @@
   },
   "labels": {
    "read": "Læs ordet",
-   "trace": "Tegn ordet op",
+   "trace": "Skriv ordet efter",
    "write": "Skriv ordet",
    "complete": "Skriv ordet i hver sætning",
    "own": "Skriv din egen sætning",
    "readSentence": "Læs sætningen",
    "completeSentence": "Skriv sætningen færdig",
-   "traceSentence": "Tegn sætningen op",
+   "traceSentence": "Skriv sætningen efter",
    "circle": "Sæt ring om ordet",
    "writeSentence": "Skriv sætningen",
    "count": "Hvor mange?",
    "capital": "En sætning starter med stort bogstav.",
    "colRead": "Læs",
-   "colTrace": "Tegn op",
+   "colTrace": "Skriv efter",
    "colWrite": "Skriv",
-   "draw": "Lav en tegning af det, sætningen fortæller",
+   "draw": "Tegn det, sætningen fortæller",
    "glue": "Lim bogstaverne på i den rigtige rækkefølge",
    "cut": "Klip bogstaverne ud",
-   "rainbow": "Tegn hvert ord op tre gange, en gang med hver farve",
+   "rainbow": "Skriv hvert ord efter tre gange, en gang med hver farve",
    "countTimes": "Hvor mange gange?"
   },
   "K-433": {
-   "title": "Læs, tegn op, skriv: {UNIT}",
-   "instruction": "Læs ordet. Tegn det op. Skriv det. Skriv det derefter i hver sætning."
+   "title": "Læs, skriv efter, skriv: {UNIT}",
+   "instruction": "Læs ordet. Skriv det efter. Skriv det selv. Skriv det derefter i hver sætning."
   },
   "K-434": {
-   "title": "Tegn ordet og sætningen op: {UNIT}",
-   "instruction": "Tegn ordet op. Tegn derefter sætningen op på hver linje."
+   "title": "Skriv ordet og sætningen efter: {UNIT}",
+   "instruction": "Skriv ordet efter. Skriv derefter sætningen efter på hver linje."
   },
   "K-435": {
    "title": "Læs og tegn: {UNIT}",
-   "instruction": "Læs sætningen. Tegn den op. Lav derefter en tegning af det, sætningen fortæller."
+   "instruction": "Læs sætningen. Skriv den efter. Tegn derefter det, sætningen fortæller."
   },
   "K-436": {
    "title": "Find og tæl: {UNIT}",
@@ -709,7 +709,7 @@
   },
   "K-439": {
    "title": "Regnbueskrivning: {UNIT}",
-   "instruction": "Tegn hvert ord op tre gange, med en ny farve hver gang. Skriv det derefter."
+   "instruction": "Skriv hvert ord efter tre gange, med en ny farve hver gang. Skriv det derefter selv."
   },
   "K-440": {
    "title": "Slå og læs",

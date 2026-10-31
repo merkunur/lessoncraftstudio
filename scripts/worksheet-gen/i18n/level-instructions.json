@@ -3759,11 +3759,86 @@
       "es": "Lee el número. Dibuja esa cantidad en el marco de diez, uno en cada cuadrito.",
       "pt": "Leia o número. Desenhe essa quantidade no quadro de dez, uma em cada quadradinho.",
       "it": "Leggi il numero. Disegnane nella griglia del dieci tante quante dice il numero, una in ogni casella.",
-      "nl": "Lees het getal. Teken er zoveel in het tienveld, één in elk hokje.",
+      "nl": "Lees het getal. Teken er zoveel in het tienraam, één in elk hokje.",
       "sv": "Läs talet. Rita så många i tiorutan, en i varje ruta.",
       "da": "Læs tallet. Tegn så mange i tierrammen, én i hvert felt.",
-      "no": "Les tallet. Tegn så mange i tierrammen, én i hver rute.",
+      "no": "Les tallet. Tegn så mange i tierruten, én i hver rute.",
       "fi": "Lue luku. Piirrä kymppiruudukkoon niin monta kuin luku kertoo, yksi jokaiseen ruutuun."
+    }
+  },
+  "K-448": {
+    "1": {
+      "en": "Count what is in the two ten-frames. Write how many.",
+      "de": "Zähle, was in den beiden Zehnerfeldern ist. Schreibe auf, wie viele es sind.",
+      "fr": "Compte ce qu’il y a dans les deux grilles. Écris combien il y en a.",
+      "es": "Cuenta lo que hay en los dos marcos de diez. Escribe cuántos hay.",
+      "pt": "Conte o que há nos dois quadros de dez. Escreva quantos são.",
+      "it": "Conta che cosa c’è nelle due griglie. Scrivi quanti sono.",
+      "nl": "Tel wat er in de twee tienramen staat. Schrijf op hoeveel het er zijn.",
+      "sv": "Räkna det som finns i de två tiorutorna. Skriv hur många det är.",
+      "da": "Tæl, hvad der er i de to tierrammer. Skriv, hvor mange der er.",
+      "no": "Tell det som er i de to tierrutene. Skriv hvor mange det er.",
+      "fi": "Laske, mitä kahdessa kymppiruudukossa on. Kirjoita, montako niitä on."
+    }
+  },
+  "K-450": {
+    "3": {
+      "en": "Don’t count one by one! Look quickly and circle how many dots are on the domino.",
+      "de": "Zähle nicht einzeln! Schau schnell hin und kreise ein, wie viele Punkte der Dominostein hat.",
+      "fr": "Ne compte pas un à un ! Regarde vite et entoure combien il y a de points sur le domino.",
+      "es": "¡No cuentes de uno en uno! Mira rápido y encierra cuántos puntos tiene el dominó.",
+      "pt": "Não conte um por um! Olhe rápido e circule quantos pontos tem o dominó.",
+      "it": "Non contare uno a uno! Guarda al volo e cerchia quanti puntini ha il domino.",
+      "nl": "Tel niet één voor één! Kijk snel en omcirkel hoeveel stippen de dominosteen heeft.",
+      "sv": "Räkna inte en och en! Titta snabbt och ringa in hur många prickar dominobrickan har.",
+      "da": "Tæl ikke en for en! Kig hurtigt, og sæt ring om, hvor mange prikker dominobrikken har.",
+      "no": "Ikke tell en og en! Se raskt og sett ring rundt hvor mange prikker dominobrikken har.",
+      "fi": "Älä laske yksitellen! Vilkaise nopeasti ja ympyröi, montako pistettä dominossa on."
+    }
+  },
+  "K-451": {
+    "3": {
+      "en": "Write the take-away sentence: how many dots, how many crossed out, how many are left.",
+      "de": "Schreibe die Minusaufgabe: wie viele Punkte, wie viele durchgestrichen, wie viele übrig.",
+      "fr": "Écris la soustraction : combien de points, combien de barrés, combien il en reste.",
+      "es": "Escribe la resta: cuántos puntos hay, cuántos están tachados y cuántos quedan.",
+      "pt": "Escreva a subtração: quantos pontos, quantos riscados e quantos sobram.",
+      "it": "Scrivi la sottrazione: quanti puntini, quanti barrati, quanti ne restano.",
+      "nl": "Schrijf de minsom: hoeveel stippen, hoeveel doorgestreept, hoeveel er over zijn.",
+      "sv": "Skriv subtraktionen: hur många prickar, hur många överstrukna, hur många som är kvar.",
+      "da": "Skriv minusstykket: hvor mange prikker, hvor mange overstreget, hvor mange der er tilbage.",
+      "no": "Skriv minusstykket: hvor mange prikker, hvor mange overstreket, hvor mange som er igjen.",
+      "fi": "Kirjoita vähennyslasku: montako pistettä, montako yliviivattua, montako jää jäljelle."
+    }
+  },
+  "K-453": {
+    "3": {
+      "en": "Cut out the cards. Find the pairs: each number and its ten-frame.",
+      "de": "Schneide die Karten aus. Finde die Paare: jede Zahl und ihr Zehnerfeld.",
+      "fr": "Découpe les cartes. Trouve les paires : chaque nombre et sa grille.",
+      "es": "Recorta las tarjetas. Encuentra los pares: cada número y su marco de diez.",
+      "pt": "Recorte os cartões. Encontre os pares: cada número e seu quadro de dez.",
+      "it": "Ritaglia le carte. Trova le coppie: ogni numero e la sua griglia.",
+      "nl": "Knip de kaarten uit. Zoek de paren: elk getal en zijn tienraam.",
+      "sv": "Klipp ut korten. Hitta paren: varje tal och dess tioruta.",
+      "da": "Klip kortene ud. Find parrene: hvert tal og dets tierramme.",
+      "no": "Klipp ut kortene. Finn parene: hvert tall og tierruten som hører til.",
+      "fi": "Leikkaa kortit irti. Etsi parit: jokainen luku ja sen kymppiruudukko."
+    }
+  },
+  "K-454": {
+    "3": {
+      "en": "Find a different way to make 10 in each frame. Color some squares red and the rest blue. Write the red number, then the blue number.",
+      "de": "Finde in jedem Zehnerfeld eine andere Zerlegung der Zehn. Male einige Kästchen rot und den Rest blau an. Schreibe zuerst die rote Zahl, dann die blaue.",
+      "fr": "Trouve une façon différente de faire 10 dans chaque grille. Colorie des cases en rouge et les autres en bleu. Écris le nombre rouge, puis le nombre bleu.",
+      "es": "Encuentra una manera diferente de formar 10 en cada marco. Colorea algunos cuadros de rojo y los demás de azul. Escribe primero el número rojo y luego el azul.",
+      "pt": "Descubra um jeito diferente de formar 10 em cada quadro. Pinte alguns quadradinhos de vermelho e os outros de azul. Escreva primeiro o número vermelho e depois o azul.",
+      "it": "Trova un modo diverso di fare 10 in ogni griglia. Colora alcune caselle di rosso e le altre di blu. Scrivi prima il numero rosso, poi quello blu.",
+      "nl": "Zoek in elk tienraam een andere manier om 10 te maken. Kleur een deel van de vakjes rood en de rest blauw. Schrijf eerst het rode getal, dan het blauwe.",
+      "sv": "Hitta ett nytt sätt att göra 10 i varje tioruta. Färglägg några rutor röda och resten blå. Skriv först det röda talet, sedan det blå.",
+      "da": "Find en ny måde at lave 10 på i hver tierramme. Farvelæg nogle felter røde og resten blå. Skriv først det røde tal, så det blå.",
+      "no": "Finn en ny måte å lage 10 på i hver tierrute. Fargelegg noen ruter røde og resten blå. Skriv først det røde tallet, så det blå.",
+      "fi": "Keksi jokaiseen kymppiruudukkoon eri tapa tehdä 10. Väritä osa ruuduista punaiseksi ja loput siniseksi. Kirjoita ensin punainen luku, sitten sininen."
     }
   }
 }

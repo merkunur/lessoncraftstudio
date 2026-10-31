@@ -3387,5 +3387,33 @@
   "K-447": {
     "title": "Mikä ryhmä sopii lukuun?",
     "instruction": "Lue luku. Ympyröi ryhmä, jossa on täsmälleen niin monta kuin luku kertoo."
+  },
+  "K-448": {
+    "title": "Luvut 20:een kahdessa kymppiruudukossa",
+    "instruction": "Laske, mitä kahdessa kymppiruudukossa on. Kirjoita luku ja täydennä lasku."
+  },
+  "K-449": {
+    "title": "Helmitaulu: montako helmeä?",
+    "instruction": "Montako helmeä on työnnetty vasemmalle? Kirjoita luku."
+  },
+  "K-450": {
+    "title": "Pikavilkaisu: nopat ja dominot",
+    "instruction": "Älä laske yksitellen! Vilkaise nopeasti ja ympyröi, montako pistettä on."
+  },
+  "K-451": {
+    "title": "Vähennä kymppiruudukossa",
+    "instruction": "Laske pisteet. Yliviivatut pisteet otetaan pois. Kirjoita, montako jää jäljelle."
+  },
+  "K-452": {
+    "title": "Luku kolmella tavalla",
+    "instruction": "Jokainen rivi näyttää luvun yhdellä tavalla. Näytä se kahdella muulla tavalla: kirjoita luku, piirrä pisteet kymppiruudukkoon ja piirrä tukkimiehet."
+  },
+  "K-453": {
+    "title": "Kymppiruudukon salamakortit",
+    "instruction": "Leikkaa kortit irti katkoviivoja pitkin. Näytä kortti: montako pistettä?"
+  },
+  "K-454": {
+    "title": "Väritä osat",
+    "instruction": "Väritä ruudut: yhtä monta punaiseksi kuin punainen luku ja yhtä monta siniseksi kuin sininen luku."
   }
 }

@@ -1,6 +1,7 @@
 /**
  * tenFrame — parametric ten-frame primitive (SVG).
- * params: { a, b=0, cell=58, fillStyle='dot' }
+ * params: { a, b=0, cell=58, fillStyle='dot', crossed=0 }
+ *   crossed = how many of the LAST counters carry a coral cross (take-away, 2026-10-31); 0 draws exactly as before
  *   a = first-color counters (teal), b = second-color counters (coral) —
  *   a single-count frame is just b=0. a+b ≤ 10; fill order is left-to-right,
  *   top row first (the canonical ten-frame reading order).
@@ -10,7 +11,7 @@
 const tokens = require('./_tokens.js');
 const { svgRoot, roundedRect, circle, el } = require('./_svg.js');
 
-function tenFrame({ a, b = 0, cell = 58, iconHref }, ctx) {
+function tenFrame({ a, b = 0, cell = 58, iconHref, crossed = 0 }, ctx) {
   const t = (ctx && ctx.tokens) || tokens;
   if (a + b > 10 || a < 0 || b < 0) throw new Error(`tenFrame: invalid counts a=${a} b=${b}`);
   const cols = 5, rows = 2;
@@ -44,6 +45,12 @@ function tenFrame({ a, b = 0, cell = 58, iconHref }, ctx) {
         data: { 'data-lcs-counter': isA ? 'a' : 'b' },
       }));
     }
+  }
+
+  // the cross: two coral strokes ≥ 2.5 px over each of the last 'crossed' counters (legible on a copier)
+  for (let i = a + b - crossed; i < a + b && crossed > 0; i++) {
+    const cx = pad + (i % cols) * cell + cell / 2, cy = pad + Math.floor(i / cols) * cell + cell / 2, h = cell * 0.36;
+    for (const [dx1, dy1, dx2, dy2] of [[-h, -h, h, h], [-h, h, h, -h]]) parts.push(el('line', { x1: cx + dx1, y1: cy + dy1, x2: cx + dx2, y2: cy + dy2, stroke: t.color.coral, 'stroke-width': 4, 'stroke-linecap': 'round', 'data-lcs-cross': 1 }));
   }
 
   return {

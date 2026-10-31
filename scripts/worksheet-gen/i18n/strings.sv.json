@@ -3377,5 +3377,33 @@
   "K-447": {
     "title": "Vilken grupp har så många?",
     "instruction": "Läs talet. Ringa in den grupp som har exakt så många."
+  },
+  "K-448": {
+    "title": "Tal till 20 i två tiorutor",
+    "instruction": "Räkna det som finns i de två tiorutorna. Skriv talet och fyll i additionen."
+  },
+  "K-449": {
+    "title": "Kulram: hur många kulor?",
+    "instruction": "Hur många kulor är skjutna åt vänster? Skriv talet."
+  },
+  "K-450": {
+    "title": "Snabbtitt: tärningar och domino",
+    "instruction": "Räkna inte en och en! Titta snabbt och ringa in hur många prickar det är."
+  },
+  "K-451": {
+    "title": "Ta bort i tiorutan",
+    "instruction": "Räkna prickarna. De överstrukna prickarna tas bort. Skriv hur många som är kvar."
+  },
+  "K-452": {
+    "title": "Ett tal på tre sätt",
+    "instruction": "Varje rad visar ett tal på ett sätt. Visa det på de två andra sätten: skriv talet, rita prickar i tiorutan, rita räknestreck."
+  },
+  "K-453": {
+    "title": "Blixtkort med tioruta",
+    "instruction": "Klipp ut korten längs de streckade linjerna. Visa ett kort: hur många prickar?"
+  },
+  "K-454": {
+    "title": "Färglägg delarna",
+    "instruction": "Färglägg rutorna: lika många röda som det röda talet, lika många blå som det blå talet."
   }
 }

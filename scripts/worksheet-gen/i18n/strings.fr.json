@@ -3411,5 +3411,33 @@
   "K-447": {
     "title": "Quel groupe a ce nombre ?",
     "instruction": "Lis le nombre. Entoure le groupe qui a exactement ce nombre d’images."
+  },
+  "K-448": {
+    "title": "Les nombres jusqu’à 20 sur deux grilles",
+    "instruction": "Compte ce qu’il y a dans les deux grilles. Écris le nombre, puis complète l’égalité."
+  },
+  "K-449": {
+    "title": "Boulier : combien de perles ?",
+    "instruction": "Combien de perles sont poussées à gauche ? Écris le nombre."
+  },
+  "K-450": {
+    "title": "Coup d’œil : dés et dominos",
+    "instruction": "Ne compte pas un à un ! Regarde vite et entoure combien il y a de points."
+  },
+  "K-451": {
+    "title": "Enlever sur la grille de dix",
+    "instruction": "Compte les points. Les points barrés sont enlevés. Écris combien il en reste."
+  },
+  "K-452": {
+    "title": "Un nombre de trois façons",
+    "instruction": "Chaque ligne montre un nombre d’une façon. Montre-le des deux autres façons : écris le nombre, dessine des points dans la grille, trace des bâtons."
+  },
+  "K-453": {
+    "title": "Cartes-éclair : grilles de dix",
+    "instruction": "Découpe les cartes en suivant les pointillés. Montre une carte : combien de points ?"
+  },
+  "K-454": {
+    "title": "Colorie les parties",
+    "instruction": "Colorie les cases : autant en rouge que le nombre rouge, autant en bleu que le nombre bleu."
   }
 }

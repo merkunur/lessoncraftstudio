@@ -3405,5 +3405,33 @@
   "K-447": {
     "title": "Hvilken gruppe har så mange?",
     "instruction": "Les tallet. Sett ring rundt gruppen som har nøyaktig så mange."
+  },
+  "K-448": {
+    "title": "Tall til 20 i to tierruter",
+    "instruction": "Tell det som er i de to tierrutene. Skriv tallet og fullfør regnestykket."
+  },
+  "K-449": {
+    "title": "Kuleramme: hvor mange kuler?",
+    "instruction": "Hvor mange kuler er skjøvet til venstre? Skriv tallet."
+  },
+  "K-450": {
+    "title": "Raskt blikk: terninger og domino",
+    "instruction": "Ikke tell en og en! Se raskt og sett ring rundt hvor mange prikker det er."
+  },
+  "K-451": {
+    "title": "Ta bort i tierruten",
+    "instruction": "Tell prikkene. De overstrøkne prikkene er tatt bort. Skriv hvor mange som er igjen."
+  },
+  "K-452": {
+    "title": "Et tall på tre måter",
+    "instruction": "Hver rad viser et tall på én måte. Vis det på de to andre måtene: Skriv tallet, tegn prikker i tierruten og lag tellestreker."
+  },
+  "K-453": {
+    "title": "Lynkort med tierrute",
+    "instruction": "Klipp ut kortene langs de stiplede linjene. Vis et kort: Hvor mange prikker er det?"
+  },
+  "K-454": {
+    "title": "Fargelegg delene",
+    "instruction": "Fargelegg rutene: like mange røde som det røde tallet, like mange blå som det blå tallet."
   }
 }

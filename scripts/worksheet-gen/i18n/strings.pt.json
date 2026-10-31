@@ -3416,5 +3416,33 @@
   "K-447": {
     "title": "Qual grupo tem essa quantidade?",
     "instruction": "Leia o número. Circule o grupo que tem exatamente essa quantidade."
+  },
+  "K-448": {
+    "title": "Números até 20 em dois quadros de dez",
+    "instruction": "Conte o que há nos dois quadros de dez. Escreva o número e complete a conta."
+  },
+  "K-449": {
+    "title": "Ábaco: quantas contas?",
+    "instruction": "Quantas contas foram empurradas para a esquerda? Escreva o número."
+  },
+  "K-450": {
+    "title": "Olhada rápida: dados e dominós",
+    "instruction": "Não conte um por um! Olhe rápido e circule quantos pontos há."
+  },
+  "K-451": {
+    "title": "Tirar no quadro de dez",
+    "instruction": "Conte os pontos. Os pontos riscados foram tirados. Escreva quantos sobram."
+  },
+  "K-452": {
+    "title": "Um número de três jeitos",
+    "instruction": "Cada linha mostra um número de um jeito. Mostre-o dos outros dois jeitos: escreva o número, desenhe pontos no quadro de dez e faça tracinhos."
+  },
+  "K-453": {
+    "title": "Cartões de quadro de dez",
+    "instruction": "Recorte os cartões pelas linhas tracejadas. Mostre um cartão: quantos pontos há?"
+  },
+  "K-454": {
+    "title": "Pinte as partes",
+    "instruction": "Pinte os quadradinhos: tantos de vermelho quanto o número vermelho e tantos de azul quanto o número azul."
   }
 }

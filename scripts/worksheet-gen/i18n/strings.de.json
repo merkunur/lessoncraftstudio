@@ -3421,5 +3421,33 @@
   "K-447": {
     "title": "Welche Gruppe passt zur Zahl?",
     "instruction": "Lies die Zahl. Kreise die Gruppe ein, in der genau so viele sind."
+  },
+  "K-448": {
+    "title": "Zahlen bis 20 im Doppel-Zehnerfeld",
+    "instruction": "Zähle, was in den beiden Zehnerfeldern ist. Schreibe die Zahl auf und ergänze die Aufgabe."
+  },
+  "K-449": {
+    "title": "Rechenrahmen: Wie viele Perlen?",
+    "instruction": "Wie viele Perlen sind nach links geschoben? Schreibe die Zahl auf."
+  },
+  "K-450": {
+    "title": "Blitzblick: Würfel und Dominos",
+    "instruction": "Zähle nicht einzeln! Schau schnell hin und kreise ein, wie viele Punkte es sind."
+  },
+  "K-451": {
+    "title": "Wegnehmen im Zehnerfeld",
+    "instruction": "Zähle die Punkte. Die durchgestrichenen Punkte werden weggenommen. Schreibe auf, wie viele übrig bleiben."
+  },
+  "K-452": {
+    "title": "Eine Zahl auf drei Arten",
+    "instruction": "Jede Reihe zeigt eine Zahl auf eine Art. Zeige sie auf die anderen zwei Arten: Schreibe die Zahl, male Punkte ins Zehnerfeld, mache eine Strichliste."
+  },
+  "K-453": {
+    "title": "Blitzkarten mit Zehnerfeld",
+    "instruction": "Schneide die Karten an den gestrichelten Linien aus. Zeige eine Karte: Wie viele Punkte sind es?"
+  },
+  "K-454": {
+    "title": "Zerlegen im Zehnerfeld",
+    "instruction": "Male die Kästchen an: so viele rot wie die rote Zahl, so viele blau wie die blaue Zahl."
   }
 }

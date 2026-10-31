@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-31",
- "count": 846,
+ "count": 853,
  "failures": [],
  "rows": [
   {
@@ -9105,6 +9105,193 @@
    "teachingPoint": "K:count-out-n",
    "skill": "Make a set of a given number (fill the frame, colour exactly N)",
    "strand": "Counting & Cardinality",
+   "science": false
+  },
+  {
+   "id": "K-448",
+   "file": "scripts/worksheet-gen/types/k/K-448-teen-numbers-two-ten-frames.js",
+   "grade": "K",
+   "slug": "teen-numbers-two-ten-frames",
+   "family": "counting-frames",
+   "variationOf": null,
+   "title": "Teen Numbers on Two Ten-Frames",
+   "instruction": "Count what is in the two ten-frames. Write the number, then finish the sentence: ten and how many more.",
+   "assetClass": "ten-frames",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "lo",
+    "hi",
+    "cards",
+    "sentence",
+    "pics"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/frame-more.js"
+   ],
+   "teachingPoint": "K:teen-numbers",
+   "skill": "Teen numbers as ten ones and some more ones (two ten-frames: 13 = 10 + 3)",
+   "strand": "Number & Operations in Base Ten",
+   "science": false
+  },
+  {
+   "id": "K-449",
+   "file": "scripts/worksheet-gen/types/k/K-449-rekenrek-how-many-beads.js",
+   "grade": "K",
+   "slug": "rekenrek-how-many-beads",
+   "family": "counting-frames",
+   "variationOf": null,
+   "title": "Rekenrek: How Many Beads?",
+   "instruction": "How many beads are pushed to the left? Write the number.",
+   "assetClass": "ten-frames",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "rows",
+    "lo",
+    "hi",
+    "cards",
+    "split"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/frame-more.js"
+   ],
+   "teachingPoint": "K:count-how-many",
+   "skill": "Count a set (scattered, framed, in an array) and name / write / match the number, to 10–20",
+   "strand": "Counting & Cardinality",
+   "science": false
+  },
+  {
+   "id": "K-450",
+   "file": "scripts/worksheet-gen/types/k/K-450-quick-look-dice-dominoes.js",
+   "grade": "K",
+   "slug": "quick-look-dice-dominoes",
+   "family": "counting-frames",
+   "variationOf": null,
+   "title": "Quick Look: Dice and Dominoes",
+   "instruction": "Don’t count one by one! Look quickly and circle how many dots.",
+   "assetClass": "ten-frames",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "kind",
+    "max",
+    "cards",
+    "choices"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/frame-more.js"
+   ],
+   "teachingPoint": "K:subitize",
+   "skill": "Subitize: recognise small quantities and dot / dice / frame arrangements at a glance",
+   "strand": "Counting & Cardinality",
+   "science": false
+  },
+  {
+   "id": "K-451",
+   "file": "scripts/worksheet-gen/types/k/K-451-ten-frame-take-away.js",
+   "grade": "K",
+   "slug": "ten-frame-take-away",
+   "family": "counting-frames",
+   "variationOf": null,
+   "title": "Take Away on the Ten-Frame",
+   "instruction": "Count the dots. The crossed-out dots are taken away. Write how many are left.",
+   "assetClass": "ten-frames",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "lo",
+    "hi",
+    "cards",
+    "sentence"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/frame-more.js"
+   ],
+   "teachingPoint": "K:take-away",
+   "skill": "Take away: cross out some and count how many are left (on a ten-frame)",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "K-452",
+   "file": "scripts/worksheet-gen/types/k/K-452-three-ways-to-show-a-number.js",
+   "grade": "K",
+   "slug": "three-ways-to-show-a-number",
+   "family": "counting-frames",
+   "variationOf": null,
+   "title": "Three Ways to Show a Number",
+   "instruction": "Each row shows a number one way. Show it the other two ways: write the number, draw dots in the ten-frame, draw tally marks.",
+   "assetClass": "ten-frames",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "lo",
+    "hi",
+    "rows",
+    "given"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/frame-more.js"
+   ],
+   "teachingPoint": "K:tally-marks",
+   "skill": "Represent a count with tally marks (bundles of five) and read a tally back as a number",
+   "strand": "Counting & Cardinality",
+   "science": false
+  },
+  {
+   "id": "K-453",
+   "file": "scripts/worksheet-gen/types/k/K-453-ten-frame-flash-cards.js",
+   "grade": "K",
+   "slug": "ten-frame-flash-cards",
+   "family": "counting-frames",
+   "variationOf": null,
+   "title": "Ten-Frame Flash Cards",
+   "instruction": "Cut out the cards along the dashed lines. Show a card: how many dots?",
+   "assetClass": "ten-frames",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "set"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/frame-more.js"
+   ],
+   "teachingPoint": "K:subitize",
+   "skill": "Subitize: recognise small quantities and dot / dice / frame arrangements at a glance",
+   "strand": "Counting & Cardinality",
+   "science": false
+  },
+  {
+   "id": "K-454",
+   "file": "scripts/worksheet-gen/types/k/K-454-colour-the-parts-ten-frame.js",
+   "grade": "K",
+   "slug": "colour-the-parts-ten-frame",
+   "family": "counting-frames",
+   "variationOf": null,
+   "title": "Color the Parts",
+   "instruction": "Color the squares: as many red as the red number, as many blue as the blue number.",
+   "assetClass": "ten-frames",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "whole",
+    "cards",
+    "find"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/frame-more.js"
+   ],
+   "teachingPoint": "K:number-bonds-k",
+   "skill": "Number bonds: decompose numbers to 10 into two parts, find the missing part or the whole, make ten",
+   "strand": "Operations & Algebraic Thinking",
    "science": false
   },
   {

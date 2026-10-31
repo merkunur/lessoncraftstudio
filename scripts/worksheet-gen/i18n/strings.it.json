@@ -3392,5 +3392,33 @@
   "K-447": {
     "title": "Quale gruppo corrisponde al numero?",
     "instruction": "Leggi il numero. Cerchia il gruppo che ne ha esattamente quante dice il numero."
+  },
+  "K-448": {
+    "title": "I numeri fino a 20 in due griglie",
+    "instruction": "Conta che cosa c’è nelle due griglie. Scrivi il numero e completa l’uguaglianza."
+  },
+  "K-449": {
+    "title": "Pallottoliere: quante palline?",
+    "instruction": "Quante palline sono spinte a sinistra? Scrivi il numero."
+  },
+  "K-450": {
+    "title": "Colpo d’occhio: dadi e domino",
+    "instruction": "Non contare uno a uno! Guarda al volo e cerchia quanti puntini ci sono."
+  },
+  "K-451": {
+    "title": "Togliere nella griglia del dieci",
+    "instruction": "Conta i puntini. I puntini barrati sono tolti. Scrivi quanti ne restano."
+  },
+  "K-452": {
+    "title": "Un numero in tre modi",
+    "instruction": "Ogni riga mostra un numero in un modo. Mostralo negli altri due modi: scrivi il numero, disegna i puntini nella griglia, fai le stanghette."
+  },
+  "K-453": {
+    "title": "Carte lampo con la griglia",
+    "instruction": "Ritaglia le carte lungo le linee tratteggiate. Mostra una carta: quanti puntini ci sono?"
+  },
+  "K-454": {
+    "title": "Colora le parti",
+    "instruction": "Colora le caselle: tante in rosso quante dice il numero rosso, tante in blu quante dice il numero blu."
   }
 }

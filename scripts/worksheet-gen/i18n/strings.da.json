@@ -3396,5 +3396,33 @@
   "K-447": {
     "title": "Hvilken gruppe har så mange?",
     "instruction": "Læs tallet. Sæt ring om den gruppe, der har præcis så mange."
+  },
+  "K-448": {
+    "title": "Tal til 20 i to tierrammer",
+    "instruction": "Tæl, hvad der er i de to tierrammer. Skriv tallet, og gør regnestykket færdigt."
+  },
+  "K-449": {
+    "title": "Kugleramme: hvor mange kugler?",
+    "instruction": "Hvor mange kugler er skubbet til venstre? Skriv tallet."
+  },
+  "K-450": {
+    "title": "Hurtigt blik: terninger og domino",
+    "instruction": "Tæl ikke en for en! Kig hurtigt, og sæt ring om, hvor mange prikker der er."
+  },
+  "K-451": {
+    "title": "Tag væk i tierrammen",
+    "instruction": "Tæl prikkerne. De overstregede prikker er taget væk. Skriv, hvor mange der er tilbage."
+  },
+  "K-452": {
+    "title": "Et tal på tre måder",
+    "instruction": "Hver række viser et tal på én måde. Vis det på de to andre måder: Skriv tallet, tegn prikker i tierrammen, og lav tællestreger."
+  },
+  "K-453": {
+    "title": "Lynkort med tierramme",
+    "instruction": "Klip kortene ud langs de stiplede linjer. Vis et kort: Hvor mange prikker er der?"
+  },
+  "K-454": {
+    "title": "Farvelæg delene",
+    "instruction": "Farvelæg felterne: lige så mange røde som det røde tal, lige så mange blå som det blå tal."
   }
 }

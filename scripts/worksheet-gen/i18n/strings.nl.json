@@ -3410,5 +3410,33 @@
   "K-447": {
     "title": "Welke groep heeft er zoveel?",
     "instruction": "Lees het getal. Omcirkel de groep die er precies zoveel heeft."
+  },
+  "K-448": {
+    "title": "Getallen tot 20 in twee tienramen",
+    "instruction": "Tel wat er in de twee tienramen staat. Schrijf het getal op en maak de som af."
+  },
+  "K-449": {
+    "title": "Rekenrek: hoeveel kralen?",
+    "instruction": "Hoeveel kralen zijn naar links geschoven? Schrijf het getal op."
+  },
+  "K-450": {
+    "title": "Snel zien: dobbelstenen en domino",
+    "instruction": "Tel niet één voor één! Kijk snel en omcirkel hoeveel stippen het zijn."
+  },
+  "K-451": {
+    "title": "Weghalen in het tienraam",
+    "instruction": "Tel de stippen. De doorgestreepte stippen zijn weggehaald. Schrijf op hoeveel er over zijn."
+  },
+  "K-452": {
+    "title": "Een getal op drie manieren",
+    "instruction": "Elke rij laat een getal op één manier zien. Laat het op de andere twee manieren zien: schrijf het getal, teken stippen in het tienraam, zet turfjes."
+  },
+  "K-453": {
+    "title": "Flitskaarten met het tienraam",
+    "instruction": "Knip de kaarten uit langs de stippellijnen. Laat een kaart zien: hoeveel stippen?"
+  },
+  "K-454": {
+    "title": "Kleur de delen",
+    "instruction": "Kleur de vakjes: zoveel rood als het rode getal, zoveel blauw als het blauwe getal."
   }
 }

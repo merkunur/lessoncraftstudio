@@ -3426,5 +3426,33 @@
   "K-447": {
     "title": "Which Group Has That Many?",
     "instruction": "Read the number. Circle the group that has exactly that many."
+  },
+  "K-448": {
+    "title": "Teen Numbers on Two Ten-Frames",
+    "instruction": "Count what is in the two ten-frames. Write the number, then finish the number sentence."
+  },
+  "K-449": {
+    "title": "Rekenrek: How Many Beads?",
+    "instruction": "How many beads are pushed to the left? Write the number."
+  },
+  "K-450": {
+    "title": "Quick Look: Dice and Dominoes",
+    "instruction": "Don’t count one by one! Look quickly and circle how many dots."
+  },
+  "K-451": {
+    "title": "Take Away on the Ten-Frame",
+    "instruction": "Count the dots. The crossed-out dots are taken away. Write how many are left."
+  },
+  "K-452": {
+    "title": "Three Ways to Show a Number",
+    "instruction": "Each row shows a number one way. Show it the other two ways: write the number, draw dots in the ten-frame, draw tally marks."
+  },
+  "K-453": {
+    "title": "Ten-Frame Flash Cards",
+    "instruction": "Cut out the cards along the dashed lines. Show a card: how many dots?"
+  },
+  "K-454": {
+    "title": "Color the Parts of 5 and 10",
+    "instruction": "Color the squares: as many red as the red number, as many blue as the blue number."
   }
 }

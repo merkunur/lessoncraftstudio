@@ -16,7 +16,8 @@
         "K-024",
         "K-027",
         "K-343",
-        "K-442"
+        "K-442",
+        "K-449"
       ],
       "verdict": "covered",
       "activities": [
@@ -137,7 +138,8 @@
       "worksheets": [
         "K-014",
         "K-015",
-        "K-025"
+        "K-025",
+        "K-452"
       ],
       "verdict": "gap",
       "activities": [],
@@ -170,7 +172,9 @@
       "strand": "Counting & Cardinality",
       "worksheets": [
         "K-017",
-        "K-018"
+        "K-018",
+        "K-450",
+        "K-453"
       ],
       "verdict": "covered",
       "activities": [
@@ -293,6 +297,20 @@
       "note": "The Bug Jar (#16)."
     },
     {
+      "tp": "K:teen-numbers",
+      "grade": "K",
+      "skill": "Teen numbers as ten ones and some more ones (two ten-frames: 13 = 10 + 3)",
+      "code": "K.NBT.A.1",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "K-448"
+      ],
+      "verdict": "covered",
+      "activities": [],
+      "planned": [],
+      "note": "Ten Frames maker 2026-10-31 (NEW-TEMPLATES 1-T1)."
+    },
+    {
       "tp": "K:combine-groups",
       "grade": "K",
       "skill": "How many altogether: put two groups together and count all",
@@ -310,6 +328,20 @@
       "note": "ORDER rows 23–24 (not yet rebuilt) teach putting together on a ten frame."
     },
     {
+      "tp": "K:take-away",
+      "grade": "K",
+      "skill": "Take away: cross out some and count how many are left (on a ten-frame)",
+      "code": "K.OA.A.1",
+      "strand": "Operations & Algebraic Thinking",
+      "worksheets": [
+        "K-451"
+      ],
+      "verdict": "covered",
+      "activities": [],
+      "planned": [],
+      "note": "Ten Frames maker 2026-10-31 (NEW-TEMPLATES 1-T4)."
+    },
+    {
       "tp": "K:number-bonds-k",
       "grade": "K",
       "skill": "Number bonds: decompose numbers to 10 into two parts, find the missing part or the whole, make ten",
@@ -324,7 +356,8 @@
         "K-414",
         "K-415",
         "K-416",
-        "K-417"
+        "K-417",
+        "K-454"
       ],
       "verdict": "covered",
       "activities": [

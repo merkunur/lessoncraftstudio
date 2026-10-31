@@ -3401,5 +3401,33 @@
   "K-447": {
     "title": "¿Qué grupo tiene esa cantidad?",
     "instruction": "Lee el número. Encierra el grupo que tiene exactamente esa cantidad."
+  },
+  "K-448": {
+    "title": "Números hasta 20 en dos marcos de diez",
+    "instruction": "Cuenta lo que hay en los dos marcos de diez. Escribe el número y completa la suma."
+  },
+  "K-449": {
+    "title": "Ábaco: ¿cuántas cuentas?",
+    "instruction": "¿Cuántas cuentas están del lado izquierdo? Escribe el número."
+  },
+  "K-450": {
+    "title": "Vistazo rápido: dados y dominós",
+    "instruction": "¡No cuentes de uno en uno! Mira rápido y encierra cuántos puntos hay."
+  },
+  "K-451": {
+    "title": "Quitar en el marco de diez",
+    "instruction": "Cuenta los puntos. Los puntos tachados se quitan. Escribe cuántos quedan."
+  },
+  "K-452": {
+    "title": "Un número de tres formas",
+    "instruction": "Cada fila muestra un número de una forma. Muéstralo de las otras dos formas: escribe el número, dibuja puntos en el marco de diez y haz marcas."
+  },
+  "K-453": {
+    "title": "Tarjetas de marcos de diez",
+    "instruction": "Recorta las tarjetas por las líneas punteadas. Muestra una tarjeta: ¿cuántos puntos hay?"
+  },
+  "K-454": {
+    "title": "Colorea las partes",
+    "instruction": "Colorea los cuadros: tantos en rojo como el número rojo y tantos en azul como el número azul."
   }
 }

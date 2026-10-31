@@ -3,8 +3,34 @@
 The design is in this folder (ARCHITECTURE, ENGINES, ENGINES-ART, NEW-TEMPLATES, REVIEW-F3, OPEN-DECISIONS). This log
 records what is BUILT, measured and committed, step by step, so any session can resume. Order: ARCHITECTURE §14.
 
-**NEXT:** P2 — the maker shell (gallery, settings panel, page preview, generate / retry / refuse, pages, edits),
-starting with the pilot makers ten-frames · counting · sight-words.
+**NEXT:** P2 remainder — content edits (`ctx.overrides` + `lib/slot.js` + `data-lcs-slot`, ARCHITECTURE §4.3),
+title/instruction edits (§4.4), pages duplicate/reorder, decor, ink, strings moved to `frontend/messages/makers/<loc>.json`
+with a parity gate, the controls-budget gate (≤ 7). Then P3.
+
+## P2 (part 1) — the maker screen + live gates (2026-10-31, commits `21b24d9c1`, `6c52f5996`, `578aca897`)
+
+**Built**
+- `scripts/makers/shell/` — the screen (Direction A): gallery with live miniatures, level · pictures · word · answer key
+  · paper, scaled page previews, add/remove page, print-all frame. `serve.js` previews it like production
+  (`node scripts/makers/serve.js` → http://localhost:8490/makers/app/?maker=counting&lang=de).
+- `copiesDiffer` (build-bundles): per template, the levels where a new copy changes the page; elsewhere "New version"
+  is hidden and "Add page" adds the next word (sight word of the day) — a button that changes nothing is a defect.
+- Live gates: `lib/platform/page-shim.js` (Puppeteer-shaped page over the same-origin gate iframe) + `runtime.js`
+  `gatePage`/`generate` (lints + verify; the type's qaRetries; 4 fresh seeds; refuse). Print is disabled while a page
+  is refused; the gate's English reasons go to the console, never to the teacher.
+- UI strings ×11 native-reviewed once (one reviewer, all locales).
+- Gates: `gates/click-shell.js` (real clicks; poison: an always-shown New version fails it), `gates/live-gate.js`
+  (every template × level × 2 copies × 11 locales live; poisons: unshrinkable overflow, broken picture, failing verify).
+
+**Measured**
+- Live gate: **2,310 pages, 0 failing, 0 needed a retry; p95 24 ms/page** on the PC (iPad number = spike S5).
+- 390 px: no control overflows, no sideways page scroll (the theme strip had widened the page by ~3,700 px — fixed).
+
+**Found and fixed at the source**
+- `types/_shared/scene-count.js` (K-013/K-059/K-060/K-070 — none published): the blank-page lint did not recognise
+  the scene (Node refused them too); K-060 level 3's legend ran past the page; the scatter sat in a 500 px band of a
+  740 px card. Stamped as content, compact legend above four items, scatter fills the card, fewer pictures → bigger.
+
 
 ## P1 — platform layer + bundles (2026-10-31, commit `1307be86a`; its message wrongly repeats the previous commit's
 subject — the content is P1, described here)

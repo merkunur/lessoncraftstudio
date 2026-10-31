@@ -23,6 +23,7 @@ button { font: inherit; cursor: pointer; }
   background: var(--paper); box-shadow: var(--shadow); text-align: left; color: var(--ink); }
 .mk-card[aria-current="true"] { border-color: var(--coral); }
 .mk-card .mk-thumb { width: 100%; aspect-ratio: 703 / 945; overflow: hidden; border-radius: 8px; background: #fff; position: relative; border: 1px solid var(--line); }
+.mk-card .mk-thumb img { display: block; width: 100%; height: 100%; object-fit: cover; -webkit-user-drag: none; user-select: none; -webkit-touch-callout: none; }
 .mk-card .mk-thumb iframe { position: absolute; left: 0; top: 0; width: 703px; height: 945px; border: 0; transform-origin: 0 0; pointer-events: none; }
 .mk-card .mk-title { font-weight: 800; font-size: 13px; line-height: 1.25; }
 .mk-work { display: flex; flex-direction: column; gap: 16px; min-width: 0; }

@@ -133,7 +133,9 @@ async function boot() {
   const offered = tj.templates.filter((t) => t.locales.includes(LANG));
   if (!offered.length) { $('mk-pages').replaceChildren(el('p', { class: 'mk-note', text: UI.notInLanguage })); return; }
   // test hook for scripts/makers/gates/live-gate.js (the same objects the screen uses; nothing a teacher can reach)
-  window.__lcsMaker = { mod, tj, strings, LANG, loadType, mount: (html) => mod.mountHtml(gateFrame, html), state: () => JSON.parse(JSON.stringify(state)), version: () => ({ makerVersion, dataVersion }) };
+  window.__lcsMaker = { mod, tj, strings, LANG, loadType, mount: (html) => mod.mountHtml(gateFrame, html), state: () => JSON.parse(JSON.stringify(state)), version: () => ({ makerVersion, dataVersion }),
+    // build-thumbs.js: the sample page of template id, made and gated exactly as the screen makes it
+    sample: async (id) => { const t = tj.templates.find((x) => x.id === id); const r = await mod.generate({ ...sampleOptions(t), type: await loadType(id) }, (html) => mod.mountHtml(gateFrame, html)); return r.ok ? r.html : null; } };
   await loadAccess();
   document.body.setAttribute('data-print-hint', UI.printHint);
   const want = params.get('t');
@@ -247,12 +249,21 @@ let gateFrame;
 let gateQueue = Promise.resolve();
 const results = new Map();
 
+/**
+ * The SAMPLE page of a template: what a visitor sees before making it, and its gallery thumbnail (scripts/makers/
+ * build-thumbs.js draws the thumbnails from exactly this). Level 2 (or the first level), the first theme, the first
+ * word, copy 1, the worksheet's own strings.
+ */
+function sampleOptions(t) {
+  return { strings: strings[t.id], locale: LANG, difficulty: t.levels.includes(2) ? 2 : t.levels[0], theme: t.themed ? t.themes[0] : null, unit: ((t.units && t.units[LANG]) || [])[0] ? t.units[LANG][0].id : null, variant: 1, pageSize: state.paper, answerKey: false, answerKeySuffix: tj.answerKey[LANG] };
+}
+
 function pageResult(i) {
   const t = tj.templates.find((x) => x.id === state.id);
   const ps = pageSpec(i);
   const o = canView()   // a colleague's shared worksheet is built from its recipe, not the sample
     ? { strings: pageStrings(i), locale: LANG, difficulty: state.level, theme: state.theme, unit: ps.unit, variant: ps.variant, pageSize: state.paper, answerKey: state.answerKey && t.interactive, answerKeySuffix: tj.answerKey[LANG], overrides: state.edits[i] && Object.keys(state.edits[i]).length ? state.edits[i] : null }
-    : { strings: strings[state.id], locale: LANG, difficulty: t.levels.includes(2) ? 2 : t.levels[0], theme: t.themed ? t.themes[0] : null, unit: ((t.units && t.units[LANG]) || [])[0] ? t.units[LANG][0].id : null, variant: 1, pageSize: state.paper, answerKey: false, answerKeySuffix: tj.answerKey[LANG] };
+    : sampleOptions(t);
   const id = state.id;
   const cacheKey = JSON.stringify([id, o.difficulty, o.theme, o.unit, o.variant, o.pageSize, o.answerKey, o.overrides || null, o.strings.title, o.strings.instruction]);
   if (!results.has(cacheKey)) {
@@ -651,16 +662,19 @@ function buildGallery(offered) {
   const g = $('mk-gallery');
   for (const t of offered) {
     const thumb = el('div', { class: 'mk-thumb' });
+    const img = el('img', { src: `${BASE}/${MAKER}/${makerVersion}/thumbs/${LANG}/${t.id}.webp`, alt: '', loading: 'lazy', decoding: 'async', draggable: 'false' });
+    img.addEventListener('contextmenu', (e) => e.preventDefault());
+    thumb.append(img);
     const card = el('button', { type: 'button', class: 'mk-card', 'data-id': t.id, 'aria-current': String(t.id === state.id), on: { click: () => choose(t.id) } }, [thumb, el('span', { class: 'mk-title', text: cardTitle(t.id) })]);
     g.append(card);
     // the miniature is made when the card scrolls into view (cheap: the same build, scaled down)
-    new IntersectionObserver(async (entries, obs) => {
+    // no built thumbnail (a version built without them): the miniature is made live when the card scrolls into view
+    img.addEventListener('error', () => { img.remove(); liveMiniature(); }, { once: true });
+    const liveMiniature = () => new IntersectionObserver(async (entries, obs) => {
       if (!entries.some((e) => e.isIntersecting)) return;
       obs.disconnect();
       try {
-        const type = await loadType(t.id);
-        const units = t.units && t.units[LANG];
-        const r = mod.makePage({ type, strings: strings[t.id], locale: LANG, difficulty: t.levels.includes(2) ? 2 : t.levels[0], theme: t.themed ? t.themes[0] : null, unit: units && units[0] ? units[0].id : null, variant: 1, pageSize: state.paper });
+        const r = mod.makePage({ ...sampleOptions(t), type: await loadType(t.id) });
         const f = el('iframe', { srcdoc: r.html, tabindex: '-1', 'aria-hidden': 'true', scrolling: 'no' });
         guardFrame(f);
         thumb.append(f);

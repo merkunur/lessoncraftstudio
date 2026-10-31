@@ -4023,6 +4023,29 @@
         "Yhden kappaleen aiheen tunnistaminen tekstistä",
         "Pääaiheen erottaminen yksityiskohdasta ja läheisestä aiheesta, jota tekstissä ei ole"
       ]
+    },
+    "author-purpose.why-wrote.ri-2-6": {
+      "about": [
+        "Marlow’n satamapostissa pelikaani Marlow pitää lyhyttä lappua, ja laiturilla on kolme konetta: majakka, joka sytyttää lampun jokaisesta tiedosta, näyttämö, joka sytyttää valon jokaisesta tarinan palasta, ja nosturi, joka nostaa laatikon jokaisesta ohjeen vaiheesta. Lapsi napauttaa konetta, jota varten lappu on kirjoitettu, ja kone lukee lapun lause lauseelta.",
+        "Kone käynnistyy vain, kun suurin osa lauseista on sen omaa lajia: majakan valo kiertää, esirippu nousee tai laiva lähtee. Väärässä koneessa lappu pätkii, ja jokainen lause saa sen koneen kuvion, jonka se saisi käyntiin. Näin tekstin tarkoituksen tunnistaa siitä, mitä kukin lause tekee lukijalle, eikä pintavihjeistä: tietotekstissä voi olla huutomerkki, ja tarina voi alkaa sanalla ”Ensin”.",
+        "Kaksi tasoa: ensi kurkistus kahden lauseen lapuilla ja laput, joissa yksi lause voi olla pieni lisä. Asetus Kaksi konetta jättää vain tiedon ja tarinat, kun aihe on uusi. Harjoitus perustuu perusopetuksen opetussuunnitelman tekstien tulkintaan. Ei ajanottoa eikä pisteitä."
+      ],
+      "practices": [
+        "Päätellä, kertooko lappu tietoa, kertooko se hauskan tarinan vai neuvooko se, miten jokin tehdään",
+        "Erottaa maailmaa koskeva tieto siitä, mitä tarinan hahmolle tapahtuu",
+        "Tunnistaa ohjeen vaihe: lause, joka kertoo lukijalle, mitä tehdä",
+        "Löytää tekstin päätarkoitus, kun yksi lause on erilainen"
+      ],
+      "howToPlay": [
+        "Lue lappu, jota Marlow pitää.",
+        "Napauta konetta, jonka lappu saa käyntiin: majakkaa tiedosta, näyttämöä tarinasta, nosturia vaiheista.",
+        "Jos kone pätkii, katso lapun kuvioita: jokainen kuvio näyttää, minkä koneen lause saisi käyntiin."
+      ],
+      "learningGoals": [
+        "Tunnistaa, miksi teksti on kirjoitettu: kertomaan tietoa, viihdyttämään vai neuvomaan.",
+        "Päätellä, mitä kukin lause tekee lukijalle: kertoo tiedon, kertoo tarinaa vai neuvoo, mitä tehdä.",
+        "Ymmärtää, että tekstin päätarkoitus on se, mitä suurin osa tekstistä tekee, vaikka yksi lause olisi erilainen."
+      ]
     }
   }
 }

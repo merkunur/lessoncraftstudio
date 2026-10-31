@@ -7,17 +7,17 @@
   <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=21">
   <style>
     html, body { background: transparent !important; }
-    html, body, #lcs-root { height: 100% !important; }
   </style>
 </head>
 <body>
   <div id="lcs-root"></div>
 
-  <!-- Shell, then the locale-neutral author-purpose core, then this activity.
-       NOTE: bump ?v=N on EVERY change to author-purpose-activity.js / -core.js (§A.13.42). -->
+  <!-- Shell, the harbor-machines notes and core, then this activity (#174 The Three Harbor Machines).
+       NOTE: bump ?v=N on EVERY change to harbor-machines-*.js / author-purpose-activity.js (§A.13.42). -->
   <script src="/mini-tools/lcs-shell.js?v=9"></script>
-  <script src="/mini-tools/author-purpose-core.js?v=1"></script>
-  <script src="/mini-tools/author-purpose-activity.js?v=8"></script>
+  <script src="/mini-tools/harbor-machines-data.js?v=1"></script>
+  <script src="/mini-tools/harbor-machines-core.js?v=1"></script>
+  <script src="/mini-tools/author-purpose-activity.js?v=12"></script>
   <script>
     LCS.mount(AuthorPurposeActivity, { mount: '#lcs-root' });
   </script>

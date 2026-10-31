@@ -240,22 +240,25 @@
     },
     "author-purpose.why-wrote.ri-2-6": {
       "about": [
-        "Au port, Marlow le pélican reçoit un sac de notes et ne sait plus dans quelle boîte les ranger : votre enfant vient l'aider en devinant pourquoi chaque message a été écrit. Derrière ce petit tri se cache une vraie compétence de lecture : comprendre qu'un texte est toujours écrit dans un but. En lisant chaque note, l'enfant se demande si l'auteur veut informer, distraire ou expliquer comment faire, puis il tape la bonne boîte.",
-        "Pour choisir, il apprend à s'appuyer sur les indices du texte : des faits vrais quand l'auteur veut informer, une histoire drôle ou surprenante quand il veut distraire, des étapes à suivre quand il veut expliquer comment faire. Peu à peu, votre enfant reconnaît l'intention de l'auteur et comprend mieux ce qu'il lit. L'activité se joue sans minuteur ni score, et suit les programmes officiels de l'école : chacun avance à son rythme, sans pression."
+        "Au courrier du port, Marlow le pélican tient une courte note, et trois machines attendent sur le quai : un phare qui allume une lampe pour chaque information vraie, une scène qui allume un projecteur pour chaque morceau d’histoire, et une grue qui soulève une caisse pour chaque étape à suivre. Votre enfant touche la machine pour laquelle la note a été écrite, et la machine la lit phrase après phrase.",
+        "Une machine ne démarre que si la plupart des phrases sont de son genre : le faisceau du phare tourne, le rideau se lève, le bateau prend la mer. Dans la mauvaise machine, la note crachote, et chaque phrase reçoit la forme de la machine qu’elle ferait marcher. L’intention de l’auteur se reconnaît donc à ce que fait chaque phrase pour le lecteur, et non à des indices de surface : un texte documentaire peut avoir un point d’exclamation, une histoire peut commencer par « D’abord ».",
+        "Deux niveaux : un premier coup d’œil avec des notes de deux phrases, puis des notes où une phrase peut n’être qu’un petit plus. Le réglage « Deux machines » ne garde que les informations et les histoires pour une première découverte. L’activité suit les programmes officiels de l’école, en lecture et compréhension de l’écrit. Sans minuteur et sans score."
       ],
       "practices": [
-        "Reconnaître l'intention de l'auteur d'un texte",
-        "Distinguer informer, distraire et expliquer comment faire",
-        "S'appuyer sur les indices du texte : des faits, une histoire, des étapes",
-        "Mieux comprendre ce qu'on lit"
+        "Reconnaître si une note donne des informations, raconte une histoire ou explique comment faire",
+        "Distinguer une information vraie sur le monde de ce qui arrive à un personnage",
+        "Reconnaître une étape : une phrase qui dit au lecteur ce qu’il doit faire",
+        "Trouver l’intention principale quand une phrase est différente"
       ],
       "howToPlay": [
-        "Lis la note que Marlow te montre.",
-        "Envoie-la dans la boîte qui dit pourquoi l'auteur l'a écrite : informer, distraire ou expliquer comment faire."
+        "Lis la note que tient Marlow.",
+        "Touche la machine qu’elle fait marcher : le phare pour les informations, la scène pour une histoire, la grue pour les étapes.",
+        "Si la machine crachote, regarde les formes sur la note : chacune montre la machine que la phrase ferait marcher."
       ],
       "learningGoals": [
-        "Votre enfant apprend à reconnaître pourquoi un texte a été écrit : pour informer, pour distraire ou pour expliquer.",
-        "Votre enfant apprend à s'appuyer sur les indices d'un texte pour deviner l'intention de son auteur."
+        "Votre enfant apprend à reconnaître pourquoi un texte a été écrit : pour informer, pour distraire ou pour expliquer comment faire.",
+        "Il décide ce que fait chaque phrase pour le lecteur : donner une information, raconter, ou dire quoi faire.",
+        "Il comprend que l’intention principale d’un texte, c’est ce que fait la plus grande partie du texte."
       ]
     },
     "pearl-opinion-page.back-it-up.ri-2-8": {

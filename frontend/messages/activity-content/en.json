@@ -577,25 +577,25 @@
     },
     "author-purpose.why-wrote.ri-2-6": {
       "about": [
-        "At The Harbor Post, Marlow the pelican hands the child short notes to sort by why their author wrote them: a note about owls hunting at night is there to inform, one about Pip the puppy chasing his tail is there to entertain, and one that begins 'To make a paper boat, first fold the paper in half' is there to instruct. It's a Grade 2 reading activity that plays in the browser with no sign-up.",
-        "The three bins — 'To tell facts,' 'To tell a fun story,' and 'To show how to do it' — make the author's job visible. The child reads each note and decides its purpose from how it is written: real-world facts, a silly little tale, or step-by-step directions with words like first, next, and then. They are judging the writer's intent, not just the topic, which is what makes author's purpose a thinking skill rather than a guess.",
-        "It is aligned to Common Core RI.2.6 — identifying the main purpose of a text, including what the author wants to answer, explain, or describe. No timer, no score — just calm, playful practice."
+        "At The Harbor Post, Marlow the pelican holds a short note, and three machines stand on the quay: a lighthouse that lights a lamp for every fact, a stage that lights a footlight for every bit of story, and a crane that lifts a crate for every step you can follow. The child taps the machine the note was written for, and the machine reads it sentence by sentence.",
+        "A machine runs only when most of the note's sentences are its kind — the lighthouse beam sweeps, the curtain opens, the ship sails off. In the wrong machine the note sputters, and every sentence gets the shape of the machine it would power. That makes the author's purpose a matter of what each sentence does for the reader, not of surface clues: a facts note can have an exclamation mark, a story can begin with 'First', and a facts note with one tip at the end is still mostly facts.",
+        "Two levels: a first look with two-sentence notes, and 'Mostly …' notes where one sentence may be a little extra. A Two machines setting keeps only facts and stories for a first meeting with the idea. It is aligned to Common Core RI.2.6 — identifying the main purpose of a text. No timer, no score."
       ],
       "practices": [
-        "Deciding whether a note is meant to inform, entertain, or instruct",
-        "Spotting real facts versus a made-up, playful story",
-        "Recognizing how-to directions by their step words like first, next, and then",
-        "Judging why a writer wrote something, not just what it is about"
+        "Deciding whether a note is written to tell facts, to tell a story, or to show how to do something",
+        "Telling a fact about the world from something that happens to a character",
+        "Recognizing a step as a sentence that tells the reader what to do",
+        "Finding the main purpose when one sentence is a little extra"
       ],
       "howToPlay": [
-        "Read the short harbor note Marlow hands you.",
-        "Send it to the right bin — to tell facts, to tell a fun story, or to show how to do it.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Read the note Marlow is holding.",
+        "Tap the machine you think it powers: the lighthouse for facts, the stage for a story, the crane for steps.",
+        "If it sputters, look at the shapes on the note: each one shows the machine that sentence would power."
       ],
       "learningGoals": [
-        "Identify whether a text is written to inform, entertain, or instruct — the focus of Common Core RI.2.6.",
-        "Use clues in the writing, such as facts or step-by-step directions, to find the author's purpose.",
-        "Build the reader's awareness of why authors write, which supports comprehension across texts."
+        "Identify the main purpose of a short text — to inform, to entertain, or to instruct (Common Core RI.2.6).",
+        "Decide what each sentence does for the reader: tells a fact, tells a story, or tells you what to do.",
+        "Understand that a text's main purpose is what most of it does, even when one sentence is different."
       ]
     },
     "bea-two-bookshelves.story-or-fact.rl-1-5": {

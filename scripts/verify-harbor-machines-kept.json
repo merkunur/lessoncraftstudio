@@ -1,0 +1,118 @@
+{
+ "labels": {
+  "en": {
+   "inform": "To tell facts",
+   "entertain": "To tell a fun story",
+   "instruct": "To show how to do it"
+  },
+  "de": {
+   "inform": "Es nennt Fakten",
+   "entertain": "Es erzählt eine Geschichte",
+   "instruct": "Es zeigt, wie es geht"
+  },
+  "fr": {
+   "inform": "Pour donner des informations",
+   "entertain": "Pour raconter une histoire drôle",
+   "instruct": "Pour expliquer comment faire"
+  },
+  "es": {
+   "inform": "Para dar información",
+   "entertain": "Para contar algo chistoso",
+   "instruct": "Para decir cómo se hace"
+  },
+  "pt": {
+   "inform": "Para dar informação",
+   "entertain": "Para contar algo divertido",
+   "instruct": "Para mostrar como se faz"
+  },
+  "it": {
+   "inform": "Per dare informazioni",
+   "entertain": "Per raccontare una storia divertente",
+   "instruct": "Per mostrare come si fa"
+  },
+  "nl": {
+   "inform": "Het geeft feiten",
+   "entertain": "Het vertelt een verhaal",
+   "instruct": "Het laat zien hoe het moet"
+  }
+ },
+ "notes": {
+  "en": {
+   "i1": "Owls sleep in the daytime and hunt at night. Their soft feathers help them fly without making a sound.",
+   "i2": "The sun is a giant ball of hot, glowing gas! It gives our planet light and warmth every day.",
+   "i3": "Long ago, huge dinosaurs walked on the Earth. Then, millions of years ago, they all died out.",
+   "e1": "Pip the puppy chased his tail round and round. He spun so fast he flopped into the leaves!",
+   "e2": "First, a silly frog tries to catch the moon in the pond. Then he splashes all night, but the moon just winks.",
+   "e3": "Mabel the cat thought she was a lion. She roared at a feather and pounced on a sock.",
+   "s1": "To make a paper boat, first fold the paper in half. Next, fold the corners down. Then shape the boat.",
+   "s2": "Dig a small hole in the soil. Drop a seed in and give it some water.",
+   "s3": "Wet your hands and scrub them with soap. Rinse them well, dry them, and your hands are clean!"
+  },
+  "de": {
+   "i1": "Eulen schlafen am Tag und jagen in der Nacht. Ihre weichen Federn helfen ihnen, ganz leise zu fliegen.",
+   "i2": "Vor langer Zeit lebten riesige Dinosaurier auf der Erde. Dann, vor Millionen von Jahren, starben sie aus.",
+   "i3": "Die Sonne ist ein riesiger, heißer Stern! Sie gibt uns jeden Tag Licht und Wärme.",
+   "e1": "Pip der Hund jagte seinen Schwanz im Kreis herum. Er drehte sich so schnell, dass er kichernd in die Blätter plumpste!",
+   "e2": "Zuerst will ein kleiner Frosch bis zum Mond hüpfen. Dann springt er so hoch, dass er auf einer weichen Wolke landet.",
+   "e3": "Mira die Katze kletterte in den großen Wäschekorb. Als die Socken flogen, kullerte sie lachend wieder heraus.",
+   "s1": "So faltest du ein Papierboot: Zuerst faltest du das Papier in der Mitte. Dann klappst du die Ecken nach unten. Zuletzt formst du das Boot.",
+   "s2": "Füll Erde in einen Topf und leg eine Bohne hinein. Gieß sie jeden Tag mit etwas Wasser.",
+   "s3": "Mach deine Hände nass und reib sie gut mit Seife ein. Spül sie ab und trockne sie – schon sind sie sauber!"
+  },
+  "fr": {
+   "i1": "Les hiboux dorment le jour et chassent la nuit. Leurs plumes très douces les aident à voler sans faire le moindre bruit.",
+   "i2": "Il y a très longtemps, d’énormes dinosaures vivaient sur la Terre. Puis, il y a des millions d’années, ils ont disparu.",
+   "i3": "Le soleil est une étoile immense et brûlante ! Chaque jour, il donne de la lumière et de la chaleur à notre planète.",
+   "e1": "Pip le chiot a couru après sa queue en tournant de plus en plus vite. Il a tourné si fort qu’il a plongé dans le tas de feuilles !",
+   "e2": "D’abord, la petite grenouille essaie d’attraper la lune dans la mare. Ensuite, elle saute toute la nuit, mais la lune lui fait juste un clin d’œil.",
+   "e3": "Mira la chatte se prenait pour une grande lionne. Elle a rugi devant une plume et a bondi sur une vieille chaussette.",
+   "s1": "Pour plier un bateau en papier : d’abord, plie la feuille en deux. Ensuite, rabats les coins vers le bas. Enfin, ouvre et forme le bateau.",
+   "s2": "Remplis un pot de terre et dépose une graine au creux. Arrose-la avec un peu d’eau tous les jours.",
+   "s3": "Mouille tes mains et frotte-les bien avec du savon. Rince-les, essuie-les, et voilà des mains toutes propres !"
+  },
+  "es": {
+   "i1": "Las mariposas monarca viajan miles de kilómetros cada otoño. Pasan el invierno en los bosques de oyamel de Michoacán.",
+   "i2": "Hace muchísimo tiempo, enormes dinosaurios vivían en la Tierra. Luego, hace millones de años, desaparecieron.",
+   "i3": "¡El sol es una estrella enorme que arde sin parar! Todos los días le da luz y calor a nuestro planeta.",
+   "e1": "Firulais el perrito corrió tras su cola tan rápido que se volvió un remolino. ¡Las hojas del jardín aplaudieron y le pidieron otra vuelta!",
+   "e2": "Primero, una ranita quiere atrapar la luna en el charco del patio. Después salta toda la noche, pero la luna solo le guiña un ojo.",
+   "e3": "Michi el gato se creía un león enorme de la selva. Rugió frente a una pluma, y los calcetines salieron corriendo solos.",
+   "s1": "Para hacer un barquito de papel: primero, dobla la hoja a la mitad. Después, dobla las esquinas hacia abajo. Al final, ábrelo y forma el barquito.",
+   "s2": "Llena una maceta con tierra y pon un frijol adentro. Riégalo con un poquito de agua todos los días.",
+   "s3": "Moja tus manos y tállalas muy bien con jabón. ¡Enjuágalas, sécalas y quedan limpiecitas!"
+  },
+  "pt": {
+   "i1": "As tartarugas marinhas nascem na areia da praia e correm para o mar. Elas podem viver muitos anos e nadam por milhares de quilômetros no oceano.",
+   "i2": "Há muito tempo, dinossauros enormes viviam na Terra. Depois, há milhões de anos, eles desapareceram.",
+   "i3": "O sol é uma estrela muito grande e quente! Ele fica no centro do nosso sistema solar e nos dá luz e calor todos os dias.",
+   "e1": "O cachorrinho Totó correu atrás do próprio rabo tão rápido que virou um redemoinho. As folhas do jardim começaram a aplaudir!",
+   "e2": "Primeiro, a pequena rã vê a lua brilhando numa poça e pensa que pode pegá-la. Depois ela pula, pula e só molha as patinhas.",
+   "e3": "O gato Frajola olhou no espelho e achou que era um leão enorme. Ele soltou um miado tão fraquinho que até o rato riu.",
+   "s1": "Para fazer um barquinho de papel: primeiro, dobre a folha ao meio. Depois, dobre os cantos para dentro. No final, abra a base e forme o barquinho.",
+   "s2": "Coloque terra num copinho e ponha um feijão dentro. Regue com um pouco de água todos os dias.",
+   "s3": "Molhe as mãos e esfregue bem os dedinhos com sabão. Enxágue, seque com a toalha e pronto: mãos limpinhas!"
+  },
+  "it": {
+   "i1": "I gufi dormono di giorno e cacciano di notte. I loro grandi occhi vedono bene anche al buio.",
+   "i2": "Tanto tempo fa, sulla Terra vivevano enormi dinosauri. Poi, milioni di anni fa, sono scomparsi.",
+   "i3": "Il sole è una stella enorme! La sua luce riscalda la terra, il mare e l’aria.",
+   "e1": "Il cucciolo Pippo ha rubato una pantofola e l’ha nascosta in giardino! Poi si è addormentato dentro il cesto del gatto.",
+   "e2": "Prima la rana Rosa vuole volare come una rondine. Poi fa un salto enorme e finisce dritta nel secchio della nonna.",
+   "e3": "Il gatto Leo si crede un leone feroce. Ha ruggito allo specchio e poi è scappato davanti a una foglia.",
+   "s1": "Per fare una barchetta di carta: prima piega il foglio a metà. Poi ripiega gli angoli, e infine apri la base con le dita.",
+   "s2": "Metti un po’ di terra in un vasetto e infila un fagiolo. Bagnalo con un filo d’acqua ogni giorno.",
+   "s3": "Bagna le mani e strofinale bene con il sapone. Sciacqua, asciuga, ed ecco le mani pulite!"
+  },
+  "nl": {
+   "i1": "Uilen slapen overdag en jagen 's nachts. Hun zachte veren helpen hen om heel stil te vliegen.",
+   "i2": "Lang geleden leefden er enorme dinosaurussen op aarde. Daarna, miljoenen jaren geleden, stierven ze uit.",
+   "i3": "De zon is een reusachtige, hete ster! Elke dag geeft ze ons licht en warmte op aarde.",
+   "e1": "Pip de hond joeg zijn eigen staart achterna. Hij draaide zo snel rond dat hij giechelend in de bladeren plofte!",
+   "e2": "Eerst wil een kleine kikker tot aan de maan springen. Daarna springt hij zo hoog dat hij op een zachte wolk landt.",
+   "e3": "Mira de kat klom in de grote wasmand. Toen de sokken in het rond vlogen, rolde ze lachend weer naar buiten.",
+   "s1": "Zo vouw je een bootje van papier: Eerst vouw je het papier dubbel. Daarna vouw je de hoeken naar beneden. Tot slot vouw je het bootje af.",
+   "s2": "Doe aarde in een pot en leg er een boon in. Geef de boon elke dag een beetje water.",
+   "s3": "Maak je handen nat en wrijf ze goed in met zeep. Spoel ze af, droog ze, en je handen zijn schoon!"
+  }
+ }
+}

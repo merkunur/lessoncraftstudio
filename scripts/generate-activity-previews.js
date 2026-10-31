@@ -135,6 +135,10 @@ function seedScript(row) {
     // the invention at work: the square surprise — three walls from the centre pin, three pieces that look nothing alike, three tubes at the same gold line under the rainbow
     return "(function(){var t=window['RainTableActivity'];if(!t||!t.api)return;t.FAST=true;t.OK_MS=600000;t.api.settings.parts='3';t.api.settings.colour='off';t._pool=null;t._ensurePool();t._start(7,0);t._render2();['p:0','p:8','p:16'].forEach(function(id){t._toggle(id);});t._check();t._view.note='';t._paint();})();";
   }
+  if (row.tool === 'author-purpose-activity') {
+    // the invention at work: the snails note posted in the lighthouse — two lamps lit by the two facts, the tip is extra, the beam sweeps
+    return "(function(){var t=window['AuthorPurposeActivity'];if(!t||!t.api)return;t.FAST=true;t.OK_MS=600000;t.api.settings.notes='mostly';t.api.settings.machines='three';t._pool=null;t._ensurePool();t._start(t._pool.findIndex(function(n){return n.id==='i5';}));t._render2();t._post('inform');})();";
+  }
   if (row.tool === 'marina-headline-desk-activity') {
     // the invention at work: the main-topic headline in the slot, the stapler pressed — every strip stapled under it, the front page out
     return "(function(){var t=window['MarinaHeadlineDeskActivity'];if(!t||!t.api)return;t.FAST=true;t.OK_MS=600000;t.api.settings.level='story';t.api.settings.cards='3';t._pool=null;t._ensurePool();t._start(0,0);t._render2();t._choose(t.st.cards.findIndex(function(c){return c.role==='topic';}));t._check();})();";

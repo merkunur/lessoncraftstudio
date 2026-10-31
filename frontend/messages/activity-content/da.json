@@ -4024,6 +4024,29 @@
         "Finde ud af, hvad et enkelt afsnit i en tekst handler om",
         "Skelne hovedemnet fra en detalje og fra et beslægtet emne, der ikke står i teksten"
       ]
+    },
+    "author-purpose.why-wrote.ri-2-6": {
+      "about": [
+        "I Marlows havnepost holder pelikanen Marlow en kort seddel, og på kajen står tre maskiner: et fyrtårn, der tænder en lampe for hver kendsgerning, en scene, der tænder et rampelys for hvert stykke af en fortælling, og en kran, der løfter en kasse for hvert trin, man kan følge. Barnet trykker på den maskine, sedlen er skrevet til, og maskinen læser den sætning for sætning.",
+        "En maskine kører kun, når de fleste sætninger er af dens slags: fyrtårnets lys fejer rundt, tæppet går op, eller skibet sejler ud. I den forkerte maskine hakker sedlen, og hver sætning får formen på den maskine, den ville få til at køre. Så genkender man tekstens formål på, hvad hver sætning gør for læseren, og ikke på ydre tegn: en faktatekst kan have et udråbstegn, og en fortælling kan begynde med »Først«.",
+        "To niveauer: et første kig med sedler på to sætninger og sedler, hvor én sætning kan være lidt ekstra. Indstillingen To maskiner har kun fakta og fortællinger til det første møde med idéen. Øvelsen bygger på Fælles Mål for dansk: læsning og tekstens formål. Uden tidtagning og uden point."
+      ],
+      "practices": [
+        "Afgøre, om en seddel fortæller fakta, fortæller en sjov historie eller viser, hvordan man gør",
+        "Skelne en kendsgerning om verden fra noget, der sker for en figur",
+        "Genkende et trin: en sætning, der siger til læseren, hvad man skal gøre",
+        "Finde hovedformålet, når én sætning er anderledes"
+      ],
+      "howToPlay": [
+        "Læs sedlen, som Marlow holder.",
+        "Tryk på den maskine, sedlen får til at køre: fyrtårnet for fakta, scenen for en fortælling, kranen for trin.",
+        "Hakker maskinen, så se på figurerne på sedlen: hver figur viser, hvilken maskine sætningen ville få til at køre."
+      ],
+      "learningGoals": [
+        "Genkende, hvorfor en tekst er skrevet: for at informere, underholde eller vejlede.",
+        "Afgøre, hvad hver sætning gør for læseren: giver en kendsgerning, fortæller eller siger, hvad man skal gøre.",
+        "Forstå, at en teksts formål er det, som det meste af teksten gør, også når én sætning er anderledes."
+      ]
     }
   }
 }

@@ -4274,6 +4274,29 @@
         "Ta reda på vad ett enskilt stycke i en text handlar om",
         "Skilja huvudämnet från en detalj och från ett närliggande ämne som inte finns i texten"
       ]
+    },
+    "author-purpose.why-wrote.ri-2-6": {
+      "about": [
+        "I Marlows hamnpost håller pelikanen Marlow en kort lapp, och på kajen står tre maskiner: en fyr som tänder en lampa för varje faktauppgift, en scen som tänder en strålkastare för varje bit av en berättelse och en kran som lyfter en låda för varje steg man kan följa. Barnet trycker på den maskin som lappen skrevs för, och maskinen läser lappen mening för mening.",
+        "En maskin går bara igång när de flesta meningarna är av dess sort: fyrens ljus sveper runt, ridån går upp eller fartyget lägger ut. I fel maskin hackar lappen, och varje mening får formen av den maskin den skulle få igång. Då känner man igen textens syfte på vad varje mening gör för läsaren, inte på yttre ledtrådar: en faktatext kan ha ett utropstecken, och en berättelse kan börja med ”Först”.",
+        "Två nivåer: en första titt med lappar på två meningar, och lappar där en mening kan vara lite extra. Inställningen Två maskiner har bara fakta och berättelser, för ett första möte med idén. Övningen bygger på Lgr22:s centrala innehåll i svenska om olika texttyper och deras syften. Ingen tidtagning, inga poäng."
+      ],
+      "practices": [
+        "Avgöra om en lapp berättar fakta, berättar en rolig historia eller visar hur man gör",
+        "Skilja en faktauppgift om världen från något som händer en person eller ett djur i en berättelse",
+        "Känna igen ett steg: en mening som säger åt läsaren vad den ska göra",
+        "Hitta det viktigaste syftet när en mening är annorlunda"
+      ],
+      "howToPlay": [
+        "Läs lappen som Marlow håller i.",
+        "Tryck på maskinen som lappen får igång: fyren för fakta, scenen för en berättelse, kranen för steg.",
+        "Om maskinen hackar, titta på formerna på lappen: varje form visar vilken maskin meningen skulle få igång."
+      ],
+      "learningGoals": [
+        "Känna igen varför en text är skriven: för att berätta fakta, för att underhålla eller för att instruera.",
+        "Avgöra vad varje mening gör för läsaren: ger fakta, berättar eller säger vad man ska göra.",
+        "Förstå att en texts syfte är det som största delen av texten gör, även när en mening är annorlunda."
+      ]
     }
   }
 }

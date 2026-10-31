@@ -4047,6 +4047,29 @@
         "Finne ut hva ett avsnitt i en tekst handler om",
         "Skille hovedemnet fra en detalj og fra et beslektet tema som ikke står i teksten"
       ]
+    },
+    "author-purpose.why-wrote.ri-2-6": {
+      "about": [
+        "I Marlows havnepost holder pelikanen Marlow en kort lapp, og på kaia står tre maskiner: et fyr som tenner en lampe for hvert faktum, en scene som tenner et rampelys for hver bit av en fortelling, og en kran som løfter en kasse for hvert trinn man kan følge. Barnet trykker på maskinen lappen er skrevet for, og maskinen leser den setning for setning.",
+        "En maskin går bare når de fleste setningene er av dens sort: lyset fra fyret sveiper rundt, teppet går opp, eller skipet seiler ut. I feil maskin hakker lappen, og hver setning får formen til maskinen den ville ha satt i gang. Slik kjenner man igjen tekstens formål på hva hver setning gjør for leseren, og ikke på ytre tegn: en faktatekst kan ha utropstegn, og en fortelling kan begynne med «Først».",
+        "To nivåer: en første titt med lapper på to setninger, og lapper der én setning kan være litt ekstra. Innstillingen To maskiner har bare fakta og fortellinger, til det første møtet med ideen. Øvingen bygger på LK20 i norsk: å lese tekster og forstå hva de er skrevet for. Ingen tidtaking, ingen poeng."
+      ],
+      "practices": [
+        "Avgjøre om en lapp forteller fakta, forteller en morsom historie eller viser hvordan man gjør noe",
+        "Skille et faktum om verden fra noe som skjer med en figur",
+        "Kjenne igjen et trinn: en setning som sier til leseren hva den skal gjøre",
+        "Finne hovedformålet når én setning er annerledes"
+      ],
+      "howToPlay": [
+        "Les lappen Marlow holder.",
+        "Trykk på maskinen den får i gang: fyret for fakta, scenen for en fortelling, kranen for trinn.",
+        "Hakker maskinen, se på formene på lappen: hver form viser hvilken maskin setningen ville ha satt i gang."
+      ],
+      "learningGoals": [
+        "Kjenne igjen hvorfor en tekst er skrevet: for å informere, underholde eller instruere.",
+        "Avgjøre hva hver setning gjør for leseren: gir et faktum, forteller eller sier hva man skal gjøre.",
+        "Forstå at formålet med en tekst er det som det meste av teksten gjør, også når én setning er annerledes."
+      ]
     }
   }
 }

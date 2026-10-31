@@ -2,7 +2,7 @@
   {
     "id": "author-purpose.why-wrote.ri-2-6",
     "tool": "author-purpose-activity",
-    "task_template": "author-purpose",
+    "task_template": "harbor-machines",
     "alignment": {
       "framework": "CCSS",
       "code": "RI.2.6",
@@ -10,450 +10,7 @@
       "strand": "Reading: Informational Text"
     },
     "theme": null,
-    "params": {
-      "binLabels": {
-        "inform": "To tell facts",
-        "entertain": "To tell a fun story",
-        "instruct": "To show how to do it"
-      },
-      "binLabelsL10n": {
-        "de": {
-          "inform": "Es nennt Fakten",
-          "entertain": "Es erzählt eine Geschichte",
-          "instruct": "Es zeigt, wie es geht"
-        },
-        "fr": {
-          "inform": "Pour donner des informations",
-          "entertain": "Pour raconter une histoire drôle",
-          "instruct": "Pour expliquer comment faire"
-        },
-        "es": {
-          "inform": "Para dar información",
-          "entertain": "Para contar algo chistoso",
-          "instruct": "Para decir cómo se hace"
-        },
-        "pt": {
-          "inform": "Para dar informação",
-          "entertain": "Para contar algo divertido",
-          "instruct": "Para mostrar como se faz"
-        },
-        "it": {
-          "inform": "Per dare informazioni",
-          "entertain": "Per raccontare una storia divertente",
-          "instruct": "Per mostrare come si fa"
-        },
-        "nl": {
-          "inform": "Het geeft feiten",
-          "entertain": "Het vertelt een verhaal",
-          "instruct": "Het laat zien hoe het moet"
-        }
-      },
-      "roundsL10n": {
-        "de": [
-          {
-            "id": "ap-i1",
-            "note": {
-              "purpose": "inform",
-              "text": "Eulen schlafen am Tag und jagen in der Nacht. Ihre weichen Federn helfen ihnen, ganz leise zu fliegen."
-            }
-          },
-          {
-            "id": "ap-i2",
-            "note": {
-              "purpose": "inform",
-              "text": "Vor langer Zeit lebten riesige Dinosaurier auf der Erde. Dann, vor Millionen von Jahren, starben sie aus."
-            }
-          },
-          {
-            "id": "ap-i3",
-            "note": {
-              "purpose": "inform",
-              "text": "Die Sonne ist ein riesiger, heißer Stern! Sie gibt uns jeden Tag Licht und Wärme."
-            }
-          },
-          {
-            "id": "ap-e1",
-            "note": {
-              "purpose": "entertain",
-              "text": "Pip der Hund jagte seinen Schwanz im Kreis herum. Er drehte sich so schnell, dass er kichernd in die Blätter plumpste!"
-            }
-          },
-          {
-            "id": "ap-e2",
-            "note": {
-              "purpose": "entertain",
-              "text": "Zuerst will ein kleiner Frosch bis zum Mond hüpfen. Dann springt er so hoch, dass er auf einer weichen Wolke landet."
-            }
-          },
-          {
-            "id": "ap-e3",
-            "note": {
-              "purpose": "entertain",
-              "text": "Mira die Katze kletterte in den großen Wäschekorb. Als die Socken flogen, kullerte sie lachend wieder heraus."
-            }
-          },
-          {
-            "id": "ap-s1",
-            "note": {
-              "purpose": "instruct",
-              "text": "So faltest du ein Papierboot: Zuerst faltest du das Papier in der Mitte. Dann klappst du die Ecken nach unten. Zuletzt formst du das Boot."
-            }
-          },
-          {
-            "id": "ap-s2",
-            "note": {
-              "purpose": "instruct",
-              "text": "Füll Erde in einen Topf und leg eine Bohne hinein. Gieß sie jeden Tag mit etwas Wasser."
-            }
-          },
-          {
-            "id": "ap-s3",
-            "note": {
-              "purpose": "instruct",
-              "text": "Mach deine Hände nass und reib sie gut mit Seife ein. Spül sie ab und trockne sie – schon sind sie sauber!"
-            }
-          }
-        ],
-        "fr": [
-          {
-            "id": "ap-i1",
-            "note": {
-              "purpose": "inform",
-              "text": "Les hiboux dorment le jour et chassent la nuit. Leurs plumes très douces les aident à voler sans faire le moindre bruit."
-            }
-          },
-          {
-            "id": "ap-i2",
-            "note": {
-              "purpose": "inform",
-              "text": "Il y a très longtemps, d’énormes dinosaures vivaient sur la Terre. Puis, il y a des millions d’années, ils ont disparu."
-            }
-          },
-          {
-            "id": "ap-i3",
-            "note": {
-              "purpose": "inform",
-              "text": "Le soleil est une étoile immense et brûlante ! Chaque jour, il donne de la lumière et de la chaleur à notre planète."
-            }
-          },
-          {
-            "id": "ap-e1",
-            "note": {
-              "purpose": "entertain",
-              "text": "Pip le chiot a couru après sa queue en tournant de plus en plus vite. Il a tourné si fort qu’il a plongé dans le tas de feuilles !"
-            }
-          },
-          {
-            "id": "ap-e2",
-            "note": {
-              "purpose": "entertain",
-              "text": "D’abord, la petite grenouille essaie d’attraper la lune dans la mare. Ensuite, elle saute toute la nuit, mais la lune lui fait juste un clin d’œil."
-            }
-          },
-          {
-            "id": "ap-e3",
-            "note": {
-              "purpose": "entertain",
-              "text": "Mira la chatte se prenait pour une grande lionne. Elle a rugi devant une plume et a bondi sur une vieille chaussette."
-            }
-          },
-          {
-            "id": "ap-s1",
-            "note": {
-              "purpose": "instruct",
-              "text": "Pour plier un bateau en papier : d’abord, plie la feuille en deux. Ensuite, rabats les coins vers le bas. Enfin, ouvre et forme le bateau."
-            }
-          },
-          {
-            "id": "ap-s2",
-            "note": {
-              "purpose": "instruct",
-              "text": "Remplis un pot de terre et dépose une graine au creux. Arrose-la avec un peu d’eau tous les jours."
-            }
-          },
-          {
-            "id": "ap-s3",
-            "note": {
-              "purpose": "instruct",
-              "text": "Mouille tes mains et frotte-les bien avec du savon. Rince-les, essuie-les, et voilà des mains toutes propres !"
-            }
-          }
-        ],
-        "es": [
-          {
-            "id": "ap-i1",
-            "note": {
-              "purpose": "inform",
-              "text": "Las mariposas monarca viajan miles de kilómetros cada otoño. Pasan el invierno en los bosques de oyamel de Michoacán."
-            }
-          },
-          {
-            "id": "ap-i2",
-            "note": {
-              "purpose": "inform",
-              "text": "Hace muchísimo tiempo, enormes dinosaurios vivían en la Tierra. Luego, hace millones de años, desaparecieron."
-            }
-          },
-          {
-            "id": "ap-i3",
-            "note": {
-              "purpose": "inform",
-              "text": "¡El sol es una estrella enorme que arde sin parar! Todos los días le da luz y calor a nuestro planeta."
-            }
-          },
-          {
-            "id": "ap-e1",
-            "note": {
-              "purpose": "entertain",
-              "text": "Firulais el perrito corrió tras su cola tan rápido que se volvió un remolino. ¡Las hojas del jardín aplaudieron y le pidieron otra vuelta!"
-            }
-          },
-          {
-            "id": "ap-e2",
-            "note": {
-              "purpose": "entertain",
-              "text": "Primero, una ranita quiere atrapar la luna en el charco del patio. Después salta toda la noche, pero la luna solo le guiña un ojo."
-            }
-          },
-          {
-            "id": "ap-e3",
-            "note": {
-              "purpose": "entertain",
-              "text": "Michi el gato se creía un león enorme de la selva. Rugió frente a una pluma, y los calcetines salieron corriendo solos."
-            }
-          },
-          {
-            "id": "ap-s1",
-            "note": {
-              "purpose": "instruct",
-              "text": "Para hacer un barquito de papel: primero, dobla la hoja a la mitad. Después, dobla las esquinas hacia abajo. Al final, ábrelo y forma el barquito."
-            }
-          },
-          {
-            "id": "ap-s2",
-            "note": {
-              "purpose": "instruct",
-              "text": "Llena una maceta con tierra y pon un frijol adentro. Riégalo con un poquito de agua todos los días."
-            }
-          },
-          {
-            "id": "ap-s3",
-            "note": {
-              "purpose": "instruct",
-              "text": "Moja tus manos y tállalas muy bien con jabón. ¡Enjuágalas, sécalas y quedan limpiecitas!"
-            }
-          }
-        ],
-        "pt": [
-          {
-            "id": "ap-i1",
-            "note": {
-              "purpose": "inform",
-              "text": "As tartarugas marinhas nascem na areia da praia e correm para o mar. Elas podem viver muitos anos e nadam por milhares de quilômetros no oceano."
-            }
-          },
-          {
-            "id": "ap-i2",
-            "note": {
-              "purpose": "inform",
-              "text": "Há muito tempo, dinossauros enormes viviam na Terra. Depois, há milhões de anos, eles desapareceram."
-            }
-          },
-          {
-            "id": "ap-i3",
-            "note": {
-              "purpose": "inform",
-              "text": "O sol é uma estrela muito grande e quente! Ele fica no centro do nosso sistema solar e nos dá luz e calor todos os dias."
-            }
-          },
-          {
-            "id": "ap-e1",
-            "note": {
-              "purpose": "entertain",
-              "text": "O cachorrinho Totó correu atrás do próprio rabo tão rápido que virou um redemoinho. As folhas do jardim começaram a aplaudir!"
-            }
-          },
-          {
-            "id": "ap-e2",
-            "note": {
-              "purpose": "entertain",
-              "text": "Primeiro, a pequena rã vê a lua brilhando numa poça e pensa que pode pegá-la. Depois ela pula, pula e só molha as patinhas."
-            }
-          },
-          {
-            "id": "ap-e3",
-            "note": {
-              "purpose": "entertain",
-              "text": "O gato Frajola olhou no espelho e achou que era um leão enorme. Ele soltou um miado tão fraquinho que até o rato riu."
-            }
-          },
-          {
-            "id": "ap-s1",
-            "note": {
-              "purpose": "instruct",
-              "text": "Para fazer um barquinho de papel: primeiro, dobre a folha ao meio. Depois, dobre os cantos para dentro. No final, abra a base e forme o barquinho."
-            }
-          },
-          {
-            "id": "ap-s2",
-            "note": {
-              "purpose": "instruct",
-              "text": "Coloque terra num copinho e ponha um feijão dentro. Regue com um pouco de água todos os dias."
-            }
-          },
-          {
-            "id": "ap-s3",
-            "note": {
-              "purpose": "instruct",
-              "text": "Molhe as mãos e esfregue bem os dedinhos com sabão. Enxágue, seque com a toalha e pronto: mãos limpinhas!"
-            }
-          }
-        ],
-        "it": [
-          {
-            "id": "ap-i1",
-            "note": {
-              "purpose": "inform",
-              "text": "I gufi dormono di giorno e cacciano di notte. I loro grandi occhi vedono bene anche al buio."
-            }
-          },
-          {
-            "id": "ap-i2",
-            "note": {
-              "purpose": "inform",
-              "text": "Tanto tempo fa, sulla Terra vivevano enormi dinosauri. Poi, milioni di anni fa, sono scomparsi."
-            }
-          },
-          {
-            "id": "ap-i3",
-            "note": {
-              "purpose": "inform",
-              "text": "Il sole è una stella enorme! La sua luce riscalda la terra, il mare e l’aria."
-            }
-          },
-          {
-            "id": "ap-e1",
-            "note": {
-              "purpose": "entertain",
-              "text": "Il cucciolo Pippo ha rubato una pantofola e l’ha nascosta in giardino! Poi si è addormentato dentro il cesto del gatto."
-            }
-          },
-          {
-            "id": "ap-e2",
-            "note": {
-              "purpose": "entertain",
-              "text": "Prima la rana Rosa vuole volare come una rondine. Poi fa un salto enorme e finisce dritta nel secchio della nonna."
-            }
-          },
-          {
-            "id": "ap-e3",
-            "note": {
-              "purpose": "entertain",
-              "text": "Il gatto Leo si crede un leone feroce. Ha ruggito allo specchio e poi è scappato davanti a una foglia."
-            }
-          },
-          {
-            "id": "ap-s1",
-            "note": {
-              "purpose": "instruct",
-              "text": "Per fare una barchetta di carta: prima piega il foglio a metà. Poi ripiega gli angoli, e infine apri la base con le dita."
-            }
-          },
-          {
-            "id": "ap-s2",
-            "note": {
-              "purpose": "instruct",
-              "text": "Metti un po’ di terra in un vasetto e infila un fagiolo. Bagnalo con un filo d’acqua ogni giorno."
-            }
-          },
-          {
-            "id": "ap-s3",
-            "note": {
-              "purpose": "instruct",
-              "text": "Bagna le mani e strofinale bene con il sapone. Sciacqua, asciuga, ed ecco le mani pulite!"
-            }
-          }
-        ],
-        "nl": [
-          { "id": "ap-i1", "note": { "purpose": "inform",    "text": "Uilen slapen overdag en jagen 's nachts. Hun zachte veren helpen hen om heel stil te vliegen." } },
-          { "id": "ap-i2", "note": { "purpose": "inform",    "text": "Lang geleden leefden er enorme dinosaurussen op aarde. Daarna, miljoenen jaren geleden, stierven ze uit." } },
-          { "id": "ap-i3", "note": { "purpose": "inform",    "text": "De zon is een reusachtige, hete ster! Elke dag geeft ze ons licht en warmte op aarde." } },
-
-          { "id": "ap-e1", "note": { "purpose": "entertain", "text": "Pip de hond joeg zijn eigen staart achterna. Hij draaide zo snel rond dat hij giechelend in de bladeren plofte!" } },
-          { "id": "ap-e2", "note": { "purpose": "entertain", "text": "Eerst wil een kleine kikker tot aan de maan springen. Daarna springt hij zo hoog dat hij op een zachte wolk landt." } },
-          { "id": "ap-e3", "note": { "purpose": "entertain", "text": "Mira de kat klom in de grote wasmand. Toen de sokken in het rond vlogen, rolde ze lachend weer naar buiten." } },
-
-          { "id": "ap-s1", "note": { "purpose": "instruct",  "text": "Zo vouw je een bootje van papier: Eerst vouw je het papier dubbel. Daarna vouw je de hoeken naar beneden. Tot slot vouw je het bootje af." } },
-          { "id": "ap-s2", "note": { "purpose": "instruct",  "text": "Doe aarde in een pot en leg er een boon in. Geef de boon elke dag een beetje water." } },
-          { "id": "ap-s3", "note": { "purpose": "instruct",  "text": "Maak je handen nat en wrijf ze goed in met zeep. Spoel ze af, droog ze, en je handen zijn schoon!" } }
-        ]
-      },
-      "rounds": [
-        {
-          "id": "ap-i1",
-          "note": {
-            "purpose": "inform",
-            "text": "Owls sleep in the daytime and hunt at night. Their soft feathers help them fly without making a sound."
-          }
-        },
-        {
-          "id": "ap-i2",
-          "note": {
-            "purpose": "inform",
-            "text": "The sun is a giant ball of hot, glowing gas! It gives our planet light and warmth every day."
-          }
-        },
-        {
-          "id": "ap-i3",
-          "note": {
-            "purpose": "inform",
-            "text": "Long ago, huge dinosaurs walked on the Earth. Then, millions of years ago, they all died out."
-          }
-        },
-        {
-          "id": "ap-e1",
-          "note": {
-            "purpose": "entertain",
-            "text": "Pip the puppy chased his tail round and round. He spun so fast he flopped into the leaves!"
-          }
-        },
-        {
-          "id": "ap-e2",
-          "note": {
-            "purpose": "entertain",
-            "text": "First, a silly frog tries to catch the moon in the pond. Then he splashes all night, but the moon just winks."
-          }
-        },
-        {
-          "id": "ap-e3",
-          "note": {
-            "purpose": "entertain",
-            "text": "Mabel the cat thought she was a lion. She roared at a feather and pounced on a sock."
-          }
-        },
-        {
-          "id": "ap-s1",
-          "note": {
-            "purpose": "instruct",
-            "text": "To make a paper boat, first fold the paper in half. Next, fold the corners down. Then shape the boat."
-          }
-        },
-        {
-          "id": "ap-s2",
-          "note": {
-            "purpose": "instruct",
-            "text": "Dig a small hole in the soil. Drop a seed in and give it some water."
-          }
-        },
-        {
-          "id": "ap-s3",
-          "note": {
-            "purpose": "instruct",
-            "text": "Wet your hands and scrub them with soap. Rinse them well, dry them, and your hands are clean!"
-          }
-        }
-      ]
-    },
+    "params": {},
     "slug": {
       "en": "authors-purpose-inform-entertain-instruct",
       "de": "textabsicht-informieren-unterhalten-anleiten-klasse-3",
@@ -461,7 +18,11 @@
       "es": "proposito-del-texto-informar-entretener-instruir-segundo-grado",
       "pt": "proposito-do-texto-informar-divertir-instruir-2-ano",
       "it": "scopo-del-testo-informare-divertire-istruire-classe-seconda",
-      "nl": "tekstdoel-waarom-is-een-tekst-geschreven-informeren-vermaken-uitleggen-groep-4"
+      "nl": "tekstdoel-waarom-is-een-tekst-geschreven-informeren-vermaken-uitleggen-groep-4",
+      "sv": "varfor-skrev-forfattaren-texten",
+      "da": "hvorfor-skrev-forfatteren-teksten",
+      "no": "hvorfor-skrev-forfatteren-teksten",
+      "fi": "miksi-kirjoittaja-kirjoitti-tekstin"
     },
     "page_title": {
       "en": "The Harbor Post — Author's Purpose: Inform, Entertain & Instruct (Grade 2)",
@@ -470,7 +31,11 @@
       "es": "Propósito del texto: informar, entretener o instruir",
       "pt": "Para que serve o texto? Informar, divertir ou ensinar · 2º ano",
       "it": "Scopo del testo: informare, divertire o istruire — classe seconda",
-      "nl": "Waarom schreef de schrijver dit? Tekstdoel herkennen (groep 4)"
+      "nl": "Waarom schreef de schrijver dit? Tekstdoel herkennen (groep 4)",
+      "sv": "Varför skrev författaren texten? Fakta, berättelse eller instruktion",
+      "da": "Hvorfor skrev forfatteren teksten? Fakta, fortælling eller vejledning",
+      "no": "Hvorfor skrev forfatteren teksten? Fakta, fortelling eller instruksjon",
+      "fi": "Miksi kirjoittaja kirjoitti tekstin? Tietoa, tarina vai ohje"
     },
     "page_intro": {
       "en": "An interactive Grade 2 reading activity: help Marlow the pelican sort harbor notes by why the author wrote them. Read each short note, then send it to the right bin — to tell facts, to tell a fun story, or to show you how to do something. A friendly first look at the author's purpose. Common Core RI.2.6.",
@@ -479,7 +44,11 @@
       "es": "Actividad en línea de 2.º de primaria: lee una nota corta y toca para qué se escribió: informar, entretener o instruir. Sin registro ni calificación.",
       "pt": "Com o pelicano Marujo, a criança lê bilhetinhos no correio do porto e descobre para que cada um foi escrito — para informar, divertir ou ensinar a fazer. Uma atividade de leitura para reconhecer a finalidade dos textos. Sem cadastro. BNCC, 2º ano.",
       "it": "Il pellicano postino Marino smista bigliettini del porto e invita il bambino a leggerne uno breve — che può anche ascoltare — per scoprire perché è stato scritto: per informare, per divertire o per istruire; un’attività senza registrazione, allineata alle Indicazioni nazionali per la classe seconda.",
-      "nl": "Help Marlow de pelikaan in zijn havenpost! Je kind leest korte briefjes en ontdekt het doel van de schrijver: wil de tekst informeren, vermaken of uitleggen? Zo oefent het tekstdoel herkennen — interactief, afgestemd op de SLO-kerndoelen voor groep 4."
+      "nl": "Help Marlow de pelikaan in zijn havenpost! Je kind leest korte briefjes en ontdekt het doel van de schrijver: wil de tekst informeren, vermaken of uitleggen? Zo oefent het tekstdoel herkennen — interactief, afgestemd op de SLO-kerndoelen voor groep 4.",
+      "sv": "Pelikanen Marlow har korta lappar i hamnen. Barnet läser en lapp och lägger den i den maskin den får igång: fakta tänder fyren, en berättelse drar upp ridån på scenen och steg att följa lastar kranen. Så syns varför författaren skrev texten. Utan konto och utan poäng.",
+      "da": "Pelikanen Marlow har korte sedler på havnen. Barnet læser en seddel og putter den i den maskine, den får til at køre: fakta tænder fyrtårnet, en fortælling trækker tæppet op på scenen, og trin, man kan følge, læsser kranen. Så kan man se, hvorfor forfatteren skrev teksten. Uden login og uden point.",
+      "no": "Pelikanen Marlow har korte lapper på havna. Barnet leser en lapp og legger den i maskinen den får i gang: fakta tenner fyret, en fortelling drar opp teppet på scenen, og trinn man kan følge, laster kranen. Slik ser man hvorfor forfatteren skrev teksten. Uten innlogging og uten poeng.",
+      "fi": "Pelikaani Marlow’lla on satamassa lyhyitä lappuja. Lapsi lukee lapun ja panee sen koneeseen, jonka se saa käyntiin: tieto sytyttää majakan, tarina nostaa näyttämön esiripun ja ohjeen vaiheet lastaavat nosturin. Näin näkee, miksi kirjoittaja kirjoitti tekstin. Ilman kirjautumista ja ilman pisteitä."
     },
     "kid_prompt_template": "author-purpose"
   }

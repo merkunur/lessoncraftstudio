@@ -56,6 +56,15 @@ async function loadAccess() {
 function goTo(url) { try { window.top.location.href = url; } catch (e) { location.href = url; } }
 const signInUrl = () => `/${LANG}/auth/signin?redirect=${encodeURIComponent(location.pathname + location.search)}`;
 
+/*
+ * Pages (operator 2026-10-31): a subscriber's worksheet has up to ten pages; a free account's worksheet has one —
+ * no Add page, no Duplicate (both add a page). The screen-side limit is a deterrent like the rest of the free tier: what
+ * is counted on the server is the make and the download.
+ */
+const MAX_PAGES = 10;
+const canAddPages = () => access.kind !== 'anon' && access.makesLeft === Infinity;
+const pagesFull = () => state.pages.length >= MAX_PAGES;
+
 async function spendMake() {
   const r = await fetch('/api/quota/check-and-increment', { method: 'POST', credentials: 'same-origin', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ kind: 'make' }) });
   if (r.status === 401) return goTo(signInUrl());
@@ -113,6 +122,7 @@ async function boot() {
   // New version is new content: the teacher's picture/word choices belong to the old content and are dropped
   $('mk-new').addEventListener('click', () => { state.pages = state.pages.map(() => nextVariant()); state.edits = state.pages.map(() => ({})); state.ink = []; drawingPage = null; render(); });
   $('mk-add').addEventListener('click', () => {
+    if (!canAddPages() || pagesFull()) return;
     state.pages.push(nextVariant()); state.edits.push({}); state.texts.push({});
     const t = tj.templates.find((x) => x.id === state.id);
     const units = (t.units && t.units[LANG]) || [];
@@ -166,7 +176,7 @@ const clone = (x) => (x === undefined ? undefined : JSON.parse(JSON.stringify(x)
 function padPages() { for (const k of PAGE_ARRAYS) if (k !== 'units' || state.units.length) while (state[k].length < state.pages.length) state[k].push(undefined); }
 const pageOps = {
   remove(i) { drawingPage = null; padPages(); for (const k of PAGE_ARRAYS) state[k].splice(i, 1); },
-  duplicate(i) { drawingPage = null; padPages(); for (const k of PAGE_ARRAYS) if (state[k].length > i) state[k].splice(i + 1, 0, clone(state[k][i])); },
+  duplicate(i) { if (!canAddPages() || pagesFull()) return; drawingPage = null; padPages(); for (const k of PAGE_ARRAYS) if (state[k].length > i) state[k].splice(i + 1, 0, clone(state[k][i])); },
   move(i, j) { if (j < 0 || j >= state.pages.length) return; drawingPage = null; padPages(); for (const k of PAGE_ARRAYS) if (state[k].length > Math.max(i, j)) { const [x] = state[k].splice(i, 1); state[k].splice(j, 0, x); } },
 };
 
@@ -361,7 +371,9 @@ async function render() {
   const differ = t.copiesDiffer.includes(state.level);
   const open = isOpen(state.id);
   $('mk-new').hidden = !open || !differ;
-  $('mk-add').hidden = !open || (!differ && !((t.units && t.units[LANG]) || []).length);
+  const addable = open && (differ || ((t.units && t.units[LANG]) || []).length > 0);
+  $('mk-add').hidden = !addable || !canAddPages();
+  $('mk-add').disabled = pagesFull();
   if (!open) { state.pages = [state.pages[0] || 1]; state.edits = [{}]; state.ink = []; drawingPage = null; }
   const out = [];
   let refused = 0;
@@ -382,7 +394,7 @@ async function render() {
         tools.append(el('button', { class: 'mk-icon', type: 'button', 'data-act': 'up', title: UI.moveUp, 'aria-label': `${UI.moveUp} · ${UI.page} ${i + 1}`, disabled: i === 0, text: '↑', on: { click: () => { pageOps.move(i, i - 1); render(); } } }));
         tools.append(el('button', { class: 'mk-icon', type: 'button', 'data-act': 'down', title: UI.moveDown, 'aria-label': `${UI.moveDown} · ${UI.page} ${i + 1}`, disabled: i === n - 1, text: '↓', on: { click: () => { pageOps.move(i, i + 1); render(); } } }));
         tools.append(el('button', { class: 'mk-link', type: 'button', 'data-act': 'draw', 'aria-pressed': String(drawingPage === i), text: drawingPage === i ? UI.stopDrawing : UI.draw, on: { click: () => { drawingPage = drawingPage === i ? null : i; render(); } } }));
-        tools.append(el('button', { class: 'mk-link', type: 'button', 'data-act': 'duplicate', text: UI.duplicatePage, on: { click: () => { pageOps.duplicate(i); render(); } } }));
+        if (canAddPages()) tools.append(el('button', { class: 'mk-link', type: 'button', 'data-act': 'duplicate', disabled: pagesFull(), text: UI.duplicatePage, on: { click: () => { pageOps.duplicate(i); render(); } } }));
         if (n > 1) tools.append(el('button', { class: 'mk-link', type: 'button', 'data-act': 'remove', text: UI.removePage, on: { click: () => { pageOps.remove(i); render(); } } }));
         head.append(tools);
       }
@@ -414,6 +426,9 @@ async function render() {
     }
   }
   if (token !== renderToken) return;   // a newer render (the teacher clicked again) owns the screen
+  // say why a page cannot be added, once, under the pages (a hidden or greyed button explains nothing)
+  if (addable && canAddPages() && pagesFull()) out.push(el('p', { class: 'mk-note', 'data-note': 'max-pages', text: UI.maxPages.replace('{n}', MAX_PAGES) }));
+  if (addable && !canAddPages() && access.kind !== 'anon') out.push(el('p', { class: 'mk-note', 'data-note': 'pages-plan' }, [UI.morePagesPlan + ' ', el('a', { href: `/${LANG}/pricing`, text: UI.seePlans, on: { click: (e) => { e.preventDefault(); goTo(`/${LANG}/pricing`); } } })]));
   host.replaceChildren(...out);
   // never ship a page that failed a gate: no printing while any page is refused
   $('mk-print').disabled = refused > 0;

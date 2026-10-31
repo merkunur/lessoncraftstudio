@@ -62,5 +62,7 @@
   "ink_blue": "Bleu",
   "ink_red": "Rouge",
   "ink_green": "Vert",
-  "ink_orange": "Orange"
+  "ink_orange": "Orange",
+  "maxPages": "Une fiche peut compter jusqu’à {n} pages.",
+  "morePagesPlan": "L’ajout de pages est inclus dans l’abonnement."
 }

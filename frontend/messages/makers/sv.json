@@ -62,5 +62,7 @@
   "ink_blue": "Blå",
   "ink_red": "Röd",
   "ink_green": "Grön",
-  "ink_orange": "Orange"
+  "ink_orange": "Orange",
+  "maxPages": "Ett arbetsblad kan ha upp till {n} sidor.",
+  "morePagesPlan": "Med ett abonnemang kan du lägga till sidor."
 }

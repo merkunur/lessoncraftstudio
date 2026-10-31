@@ -62,5 +62,7 @@
   "ink_blue": "Blauw",
   "ink_red": "Rood",
   "ink_green": "Groen",
-  "ink_orange": "Oranje"
+  "ink_orange": "Oranje",
+  "maxPages": "Een werkblad kan maximaal {n} pagina’s hebben.",
+  "morePagesPlan": "Met een abonnement kun je pagina’s toevoegen."
 }

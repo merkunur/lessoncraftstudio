@@ -35,6 +35,9 @@ const { handler } = require('../serve.js');
     printDisabled: document.getElementById('mk-print').disabled,
     printHidden: document.getElementById('mk-print').hidden,
     pages: document.querySelectorAll('.mk-sheet iframe').length,
+    dupButtons: document.querySelectorAll('.mk-page [data-act=duplicate]').length,
+    note: (document.querySelector('[data-note]') || {}).getAttribute ? document.querySelector('[data-note]').getAttribute('data-note') : null,
+    addDisabled: document.getElementById('mk-add').disabled,
     page: (document.querySelector('.mk-sheet iframe') || { getAttribute: () => '' }).getAttribute('srcdoc'),
   }));
   const open = async (p, maker = 'counting') => { await p.goto(`${base}/makers/app/?maker=${maker}&lang=en`, { waitUntil: 'networkidle0' }); await settle(); };
@@ -62,6 +65,7 @@ const { handler } = require('../serve.js');
   s = await snap(p);
   let d = await set('');
   check('free: Make spends exactly one and opens the controls', d.made === 1 && s.levelChips > 0 && !s.printDisabled && !s.card, { made: d.made, s });
+  check('free: one page only — no Add page, no Duplicate, a line says pages come with a subscription', s.addHidden && s.dupButtons === 0 && s.note === 'pages-plan', { addHidden: s.addHidden, dup: s.dupButtons, note: s.note });
   await p.evaluate(() => { const b = [...document.querySelectorAll('#mk-controls .mk-chip')].find((x) => x.textContent === '3'); if (b) b.click(); }); await settle();
   s = await snap(p);
   check('free: inside the opened worksheet a change is free', (await set('')).made === 1 && s.page !== samplePage, { made: (await set('')).made });
@@ -96,6 +100,16 @@ const { handler } = require('../serve.js');
   await open(p);
   s = await snap(p);
   check('subscriber: controls at once, no card, nothing metered', !s.card && s.levelChips > 0 && !s.printDisabled && (await set('')).made === 0, s);
+  check('subscriber: Add page and Duplicate offered, no pages note', !s.addHidden && !s.addDisabled && s.dupButtons === 1 && !s.note, s);
+  for (let k = 0; k < 12; k++) { await p.evaluate(() => document.getElementById('mk-add').click()); await settle(250); }
+  await settle(1500);
+  s = await snap(p);
+  check('subscriber: ten pages at most — Add page and Duplicate greyed, the limit is said', s.pages === 10 && s.addDisabled && s.note === 'max-pages' && (await p.$eval('.mk-page [data-act=duplicate]', (b) => Array.from(b).every((x) => x.disabled))), { pages: s.pages, addDisabled: s.addDisabled, note: s.note });
+  await p.evaluate(() => document.querySelectorAll('.mk-page [data-act=duplicate]')[0].click()); await settle(800);
+  check('subscriber: a forced Duplicate at ten adds nothing', (await snap(p)).pages === 10);
+  await p.evaluate(() => document.querySelectorAll('.mk-page [data-act=remove]')[0].click()); await settle(1200);
+  s = await snap(p);
+  check('subscriber: removing one page frees Add page again', s.pages === 9 && !s.addDisabled && !s.note, { pages: s.pages, addDisabled: s.addDisabled, note: s.note });
   await p.close();
 
   await browser.close(); srv.close();

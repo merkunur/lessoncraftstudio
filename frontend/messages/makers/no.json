@@ -62,5 +62,7 @@
   "ink_blue": "Blå",
   "ink_red": "Rød",
   "ink_green": "Grønn",
-  "ink_orange": "Oransje"
+  "ink_orange": "Oransje",
+  "maxPages": "Et arbeidsark kan ha opptil {n} sider.",
+  "morePagesPlan": "Med et abonnement kan du legge til sider."
 }

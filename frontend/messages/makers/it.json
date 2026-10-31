@@ -62,5 +62,7 @@
   "ink_blue": "Blu",
   "ink_red": "Rosso",
   "ink_green": "Verde",
-  "ink_orange": "Arancione"
+  "ink_orange": "Arancione",
+  "maxPages": "Una scheda può avere fino a {n} pagine.",
+  "morePagesPlan": "Per aggiungere pagine serve un abbonamento."
 }

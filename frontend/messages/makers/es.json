@@ -62,5 +62,7 @@
   "ink_blue": "Azul",
   "ink_red": "Rojo",
   "ink_green": "Verde",
-  "ink_orange": "Naranja"
+  "ink_orange": "Naranja",
+  "maxPages": "Una hoja de trabajo puede tener hasta {n} páginas.",
+  "morePagesPlan": "Para agregar páginas necesitas una suscripción."
 }

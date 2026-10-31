@@ -37,6 +37,8 @@ async function boot() {
   $('mk-new').textContent = UI.newVersion; $('mk-add').textContent = UI.addPage; $('mk-print').textContent = UI.print;
   $('mk-gallery').setAttribute('aria-label', UI.templates);
   $('mk-pages').append(el('p', { class: 'mk-note', text: UI.loading }));
+  gateFrame = el('iframe', { title: 'gate', tabindex: '-1' });
+  $('mk-gate-host').append(gateFrame);
   const ver = (await (await fetch(`${BASE}/${MAKER}/current.txt`)).text()).trim();
   const dv = (await (await fetch(`${BASE}/data/current.txt`)).text()).trim();
   [mod, tj, strings] = await Promise.all([
@@ -51,6 +53,8 @@ async function boot() {
   picManifest = JSON.parse(files['scripts/worksheet-gen/cache/manifest.json'] || '{"themes":{}}');
   const offered = tj.templates.filter((t) => t.locales.includes(LANG));
   if (!offered.length) { $('mk-pages').replaceChildren(el('p', { class: 'mk-note', text: UI.notInLanguage })); return; }
+  // test hook for scripts/makers/gates/live-gate.js (the same objects the screen uses; nothing a teacher can reach)
+  window.__lcsMaker = { mod, tj, strings, LANG, loadType, mount: (html) => mod.mountHtml(gateFrame, html) };
   const want = params.get('t');
   choose((offered.find((t) => t.id === want) || offered[0]).id, true);
   buildGallery(offered);
@@ -94,11 +98,32 @@ function pageSpec(i) {
   return { variant: 1, unit: units[(at + i) % units.length].id };
 }
 
-async function makeHtml(i, key) {
+/*
+ * Every page is gated before it is shown (ARCHITECTURE §6.2): made, mounted in the off-screen gate frame at the
+ * catalogue's 703 × 945 viewport, run through the catalogue's lints + the type's verify, retried, or refused. One page is
+ * gated at a time (one frame); results are cached per settings, so re-rendering does not re-gate.
+ */
+let gateFrame;
+let gateQueue = Promise.resolve();
+const results = new Map();
+
+function pageResult(i) {
   const t = tj.templates.find((x) => x.id === state.id);
-  const type = await loadType(state.id);
   const ps = pageSpec(i);
-  const r = mod.makePage({ type, strings: strings[state.id], locale: LANG, difficulty: state.level, theme: state.theme, unit: ps.unit, variant: ps.variant, pageSize: state.paper, answerKey: key && t.interactive, answerKeySuffix: tj.answerKey[LANG] });
+  const o = { strings: strings[state.id], locale: LANG, difficulty: state.level, theme: state.theme, unit: ps.unit, variant: ps.variant, pageSize: state.paper, answerKey: state.answerKey && t.interactive, answerKeySuffix: tj.answerKey[LANG] };
+  const id = state.id;
+  const cacheKey = JSON.stringify([id, o.difficulty, o.theme, o.unit, o.variant, o.pageSize, o.answerKey]);
+  if (!results.has(cacheKey)) {
+    gateQueue = gateQueue.then(async () => mod.generate({ ...o, type: await loadType(id) }, (html) => mod.mountHtml(gateFrame, html)))
+      .catch((e) => ({ ok: false, fails: ['error: ' + e.message] }));
+    results.set(cacheKey, gateQueue);
+  }
+  return results.get(cacheKey);
+}
+
+async function makeHtml(i, key) {
+  const r = await pageResult(i);
+  if (!r.ok) { const e = new Error('refused'); e.fails = r.fails; throw e; }
   return key ? r.keyHtml : r.html;
 }
 
@@ -111,7 +136,9 @@ function sheet(html) {
   return box;
 }
 
+let renderToken = 0;
 async function render() {
+  const token = ++renderToken;
   const host = $('mk-pages');
   const t = tj.templates.find((x) => x.id === state.id);
   // a button that changes nothing is a defect: where copies at this level are all the same page there is no
@@ -120,6 +147,8 @@ async function render() {
   $('mk-new').hidden = !differ;
   $('mk-add').hidden = !differ && !((t.units && t.units[LANG]) || []).length;
   const out = [];
+  let refused = 0;
+  $('mk-print').disabled = true;
   for (let i = 0; i < state.pages.length; i++) {
     try {
       const html = await makeHtml(i, false);
@@ -131,11 +160,16 @@ async function render() {
         if (key) out.push(el('div', { class: 'mk-page' }, [el('div', { class: 'mk-page-head' }, [el('span', { text: `${UI.answerKey} · ${UI.page} ${i + 1}` })]), sheet(key)]));
       }
     } catch (e) {
-      console.warn(e);
+      // the gate's reasons are for us, not the teacher (they are English): the page says it could not be made
+      console.warn('page refused', e.fails || e);
+      refused++;
       out.push(el('p', { class: 'mk-note', text: UI.failed }));
     }
   }
+  if (token !== renderToken) return;   // a newer render (the teacher clicked again) owns the screen
   host.replaceChildren(...out);
+  // never ship a page that failed a gate: no printing while any page is refused
+  $('mk-print').disabled = refused > 0;
 }
 
 function chipGroup(label, values, current, onPick, fmt) {

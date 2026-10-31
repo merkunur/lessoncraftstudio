@@ -31,18 +31,26 @@ function makeSceneCountType(cfg) {
       const picked = rng.sample(labelSafeNouns(theme), mode === 'find' ? d.nouns + 1 : d.nouns);
       const items = picked.slice(0, d.nouns).map((p) => ({ ...p, n: rng.int(d.minN, d.maxN) }));
 
-      const sceneH = mode === 'find' ? 600 : 520;
+      // the scatter fills the scene card, which grows to the body (page.css .ws-scene flex 1): measured 2026-10-31 — the old
+      // 600 / 520 left a ~240 px empty band above and below the pictures (none of these types was published at that size)
+      const sceneH = mode === 'find' ? 660 : 720;
+      // fewer pictures → bigger pictures (a level-1 scene of six is not six small icons in an empty card); 58 px floor
+      const total = items.reduce((a, it) => a + it.n, 0);
+      const iconPx = Math.min(96, Math.max(58, Math.floor(Math.sqrt((600 * (sceneH - 20)) / total) * 0.55)));
       const scene =
-        `<div class="ws-scene" data-lcs-scene>` +
-        mixedScatter({ theme, items, w: 600, h: sceneH - 20, iconPx: 58, rng }) +
+        `<div class="ws-scene" data-lcs-scene data-ws-content>` +
+        mixedScatter({ theme, items, w: 600, h: sceneH - 20, iconPx, rng }) +
         `</div>`;
 
       let below;
       if (mode === 'legend') {
+        // five kinds (K-060 level 3) do not fit one row at 48 px + a 64 px box (~750 px > the page): a compact item; ≤ 4 kinds
+        // keep the original markup byte for byte
+        const tight = items.length > 4;
         below = `<div class="ws-scene-legend">` + items.map((it) =>
-          `<span class="ws-scene-legend-item" data-lcs-noun="${it.vocabKey}">` +
-          `<img class="ws-icon" src="${fileUri(theme, it.noun)}" alt="" style="width:48px;height:48px">` +
-          answerBox({ w: 64, h: 48, answer: it.n }) +
+          `<span class="ws-scene-legend-item" data-lcs-noun="${it.vocabKey}"${tight ? ' style="gap:6px;padding:6px 8px"' : ''}>` +
+          `<img class="ws-icon" src="${fileUri(theme, it.noun)}" alt="" style="width:${tight ? 42 : 48}px;height:${tight ? 42 : 48}px">` +
+          answerBox({ w: tight ? 52 : 64, h: tight ? 44 : 48, answer: it.n }) +
           `</span>`).join('') + `</div>`;
       } else {
         // find-and-circle: the target is the FIRST item; banner shows it big

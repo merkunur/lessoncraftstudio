@@ -145,6 +145,29 @@ Write **`docs/makers/ARCHITECTURE.md`** (run F1) and **`docs/makers/ENGINES.md`*
   - scale smoke.
 - **G15 Determinism across browsers.** The same recipe must give the same page on Windows, Mac, iPad and Chromebook: fonts, text measurement, layout-fit code that measures text today.
 
+
+### N — NEW TEMPLATES for every maker (F2 delivers them; operator 2026-10-31: "enrich each worksheet maker with brand new extra templates")
+
+The `newTemplates` in each topics/<id>.md are only seeds (121 across 60 makers). F2 designs the full set, in **`docs/makers/NEW-TEMPLATES.md`**:
+- **Target: at least 5 genuinely new templates per maker** where the topic supports it (fewer only with a stated reason). They must be new TASKS, not the same page with different numbers, a different theme or a different count.
+- **Ground every template in evidence:**
+  - teacher search demand: `docs/SEO/level-set-demand/` holds an 11-market Google autocomplete harvest, `harvest.<loc>.json`;
+  - what each country's curriculum asks for: CCSS (en-US), Lehrplan, programmes officiels, SEP/NEM (es-MX), BNCC (pt-BR), Indicazioni nazionali, SLO kerndoelen, Lgr22, Fælles Mål, LK20, OPS 2014;
+  - the gaps already listed in `docs/activities-rebuild/coverage/COVERAGE.md`.
+- **One spec per template:**
+  - name;
+  - what the page shows, as an ASCII sketch;
+  - what the child does;
+  - the teacher's settings;
+  - grade band;
+  - the teaching point (and code where one exists);
+  - which existing engine, primitive or component it reuses (cite the path) or what new primitive it needs;
+  - the screen-version kind;
+  - the locales it works in, and why any are refused;
+  - the answer-key rule;
+  - the risks: two right answers, answer tells, a wrong picture.
+- **Rank the templates within each maker** by teacher value, so the build can ship the strongest first.
+
 ### Per-maker questions (F2 answers all of them, inside the F1 architecture)
 
 - **[counting-Q1]** (Counting, see docs/makers/topics/counting.md) Scene layout for "I spy" sheets with the teacher's own pictures: how to place N mixed pictures without overlap and keep every count exactly right when the teacher swaps pictures after generation.

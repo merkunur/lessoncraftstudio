@@ -3,9 +3,15 @@
 The design is in this folder (ARCHITECTURE, ENGINES, ENGINES-ART, NEW-TEMPLATES, REVIEW-F3, OPEN-DECISIONS). This log
 records what is BUILT, measured and committed, step by step, so any session can resume. Order: ARCHITECTURE §14.
 
-**NEXT:** P2 remainder — content edits (`ctx.overrides` + `lib/slot.js` + `data-lcs-slot`, ARCHITECTURE §4.3),
-title/instruction edits (§4.4), pages duplicate/reorder, decor, ink, strings moved to `frontend/messages/makers/<loc>.json`
-with a parity gate, the controls-budget gate (≤ 7). Then P3.
+**NEXT:** P2 remainder — title/instruction edits (§4.4), pages duplicate/reorder, decor, ink, strings moved to `frontend/messages/makers/<loc>.json` with a parity gate, the controls-budget gate (≤ 7). Then P3.
+
+## P2 (part 2) — access + tap-to-edit (2026-10-31, commits `c12fa0845`, `9eba9a60b`, `a20bf0b2d`)
+
+- Any picture theme, colour or B&W (Color | Black & white switch; one theme per page).
+- Making metered (operator ruling): free accounts 3 worksheets/month (one make = one worksheet opened), anonymous = gallery + sample page, subscribers unlimited; Print = a download; Ctrl+P prints a hint. `frontend/lib/quota.ts` kind `make`. Gate `gates/access-shell.js`.
+- Tap-to-edit: `lib/slot.js` (pick-level override, catalogue byte-identical), 22 pilot templates exposed; picker of the type's own pool; refused choices undone with a sentence. Gates `gates/slots.js`, `gates/edit-shell.js`.
+- Previews/thumbnails/picker cancel right-click save + drag (operator report).
+- Every new string x11 native-reviewed (one reviewer per batch).
 
 ## P2 (part 1) — the maker screen + live gates (2026-10-31, commits `21b24d9c1`, `6c52f5996`, `578aca897`)
 

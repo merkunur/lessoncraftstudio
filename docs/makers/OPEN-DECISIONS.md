@@ -4,6 +4,22 @@ Every operator-only decision from the four design documents (`ARCHITECTURE.md` �
 
 Nothing below needs to be decided before the five measuring spikes (S1–S5) and the platform work (P1–P6) start. #1–#4 must be decided before the pilot ships; #5–#12 before the first batch; the rest can wait for the batch they belong to.
 
+## ✅ OPERATOR RULINGS 2026-10-31 (after F3): every item below is DECIDED
+
+- **#1 Programme: (1b) everything at once.** About 450 sessions; every maker ships with ALL its new templates. Not two releases.
+- **#2 Pilot: ten-frames · counting · sight-words.** Spelling is swapped for sight-words; word-scramble and word-guess retire with the literacy batch.
+- **#6 Old-app features dropped:**
+  - the free text box with 7 fonts;
+  - custom page sizes (Letter/A4 portrait + landscape kept);
+  - lock / align / layer order;
+  - negative results in math;
+  - the free title box, by the recommendation.
+  - Bingo chip fill stays, in the advanced drawer.
+- **#3–#5 and #7–#27: every recommendation below is ACCEPTED as written.** Items that depend on a measurement are decided by that measurement, using the recommended fallback:
+  - #3 iPad PDF after S1, and #3b pdf.js only if S2 misses;
+  - #20 maze pins vs graphs after S6.
+  - #19 (es-MX week start) is asked of the native reviewer.
+
 ---
 
 ## Already decided (do not reopen)

@@ -165,6 +165,9 @@ async function bundle(makerId, templates, outDir) {
 async function main() {
   const makers = String(args.makers || 'ten-frames,counting,sight-words').split(',');
   fs.mkdirSync(OUT, { recursive: true });
+  // the screen's own words (frontend/messages/makers/<loc>.json, checked: parity, no empty, no untranslated)
+  const ui = require('./build-ui-strings.js').build();
+  console.log(`ui strings: ${ui.keys} keys × ${ui.locales} languages`);
   const allData = new Set();
   const report = [];
   for (const id of makers) {

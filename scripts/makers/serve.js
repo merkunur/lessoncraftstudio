@@ -17,6 +17,7 @@ const path = require('path');
 const REPO = path.resolve(__dirname, '..', '..');
 const PORT = Number((process.argv.find((a) => a.startsWith('--port=')) || '--port=8490').slice(7));
 const ROUTES = [
+  ['/makers/app/ui-strings.js', path.join(REPO, 'out', 'makers', 'ui-strings.js')],   // generated: build-ui-strings.js
   ['/makers/app/', path.join(__dirname, 'shell')],
   ['/makers-assets/themes-512/', path.join(REPO, 'scripts', 'worksheet-gen', 'cache', 'themes-512')],
   ['/makers-assets/fonts/', path.join(REPO, 'scripts', 'worksheet-gen', 'assets', 'fonts')],

@@ -56,3 +56,26 @@ ORDER row 176 · id `sentence-clinic.fix-it.l-2-1` (kept). Design: `designs/176-
   - fi qThree, sävelmä;
   - fr "les outils pour les mots";
   - it prose framework line.
+
+## Gates
+- `verify-sentence-clinic-core.js` 4,680/0, its own truth:
+  - the authors' sentences with their real capitals and the reviewer-signed option lists (`scripts/verify-sentence-clinic-authored.json`);
+  - the frozen old repairs (`scripts/verify-sentence-clinic-kept.json`; two recorded replacements);
+  - its own cured-text rules.
+- What it checks, every round × every level × 11 locales:
+  - the Level 1 patterns, the Level 2 spread (≤ 3/10 per length, runs ≤ 13 words, no capital tell);
+  - every Listening Line event on the untouched, the cured and each single wrong move;
+  - exactly one right option, the start-word capital, the rising capital;
+  - the hand, the reshuffle, the strings, prose, manifest and html.
+- `mutate-sentence-clinic.js` 26/26 killed; the control passes.
+- `local-test-listening-line.js` 1,595/0 in all 11 locales: real taps and keys through all three levels, every Level 3 kind mended by taps, the fold at 320/360 at rest and solved, every state resized through 320…1366.
+- Visual QA ×11 locales: 360 renders each (6 phases × 10 rounds × 6 viewports), all PASS; tablet reach included.
+- Hierarchy 1,387/0; settings efficacy 2 live (level, line); prose claims, SERP copy, content tells, route preflight and Next delay all PASS.
+
+## Live (2026-10-31)
+- Deployed with `b1534fed3`; payment canary OK. Wrapper 9.922.
+- `live-verify-listening-line.js --locales=en,de,sv,fi`: 52/0.
+  - All 11 pages return 200.
+  - At 1366 and 390, real taps putting only the end mark → a knot at the seam (a miss).
+  - The stop in the seam → cured, the bed sits up.
+  - The iframe grows with the card.

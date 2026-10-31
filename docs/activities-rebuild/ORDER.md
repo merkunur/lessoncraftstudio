@@ -183,7 +183,7 @@ Generated 2026-10-15 from `mini tools/*-activities.json` (204 rows): grade K →
 | 173 | LIVE 2026-10-31 · The Stapler | 2 | RI.2.2 | `marina-headline-desk.main-topic.ri-2-2` | marina-headline-desk-activity | Marina's Headline Desk — What's It Mostly About? (Grade 2) |
 | 174 | LIVE 2026-10-31 · The Three Harbor Machines | 2 | RI.2.6 | `author-purpose.why-wrote.ri-2-6` | author-purpose-activity | The Harbor Post — Author's Purpose: Inform, Entertain & Instruct (Grade 2) |
 | 175 | LIVE 2026-10-31 · The Sign That Stands on Its Reasons | 2 | RI.2.8 | `pearl-opinion-page.back-it-up.ri-2-8` | pearl-opinion-page-activity | Pearl's Opinion Page — Back It Up (Grade 2) |
-| 176 |  | 2 | L.2.1 | `sentence-clinic.fix-it.l-2-1` | sentence-clinic-activity | Dr. Plume's Sentence Clinic — Fix-the-Sentence Grammar (Grade 2) |
+| 176 | LIVE 2026-10-31 · The Listening Line | 2 | L.2.1 | `sentence-clinic.fix-it.l-2-1` | sentence-clinic-activity | Dr. Plume's Sentence Clinic — Fix-the-Sentence Grammar (Grade 2) |
 | 177 |  | 2 | L.2.1.a | `mango-animal-groups.collective-nouns.l-2-1-a` | mango-animal-groups-activity | Mango's Animal Groups — Name the Group (Grade 2) |
 | 178 |  | 2 | L.2.1.b | `plural.irregular.l-2-1-b` | plural-activity | The Doubling Pond — Irregular Plural Nouns (Grade 2) |
 | 179 |  | 2 | L.2.1.c | `robin-mirror.reflexive.l-2-1-c` | robin-mirror-activity | Robin's Mirror — All By Myself (Grade 2) |

@@ -240,7 +240,7 @@ var WorthTillActivity = {
     if (!this._picsReady || typeof LCSPictures === 'undefined' || !this._themes[theme]) { var d = this.api.el('div', cls + ' wt-picwait'); d.style.width = size + 'px'; d.style.height = size + 'px'; return d; }
     var im = LCSPictures.img(this._themes[theme], noun, loc, { size: size }); im.className = cls; im.style.width = size + 'px'; im.style.height = size + 'px'; return im;
   },
-  /* a coin, true to size: metal, rim, reeded edge, centre hole; the worth numeral on every coin except the US ones (they carry none) — a ghost of it after two bounces */
+  /* a coin, true to size: metal, rim, reeded edge, centre hole; the worth numeral on every coin, the US ones too (operator ruling 2026-10-30, extended to this activity 2026-10-31) */
   _coinSvg: function (v, px, opt) {
     opt = opt || {};
     var C = WorthTillCore, c = C.coin(this._fam(), v), loc = this._loc();
@@ -261,7 +261,7 @@ var WorthTillActivity = {
     }
     if (c.hole) o += '<circle cx="50" cy="50" r="12" fill="#FFF8E7" stroke="' + (M[c.metal] || M.silver)[1] + '" stroke-width="2"/>';
     var num = v >= 100 ? String(v / 100) : String(v);
-    if (loc !== 'en' || opt.ghost) o += '<text x="50" y="' + (c.hole ? 36 : 50) + '" dy=".35em" text-anchor="middle" class="wt-coinnum' + (loc === 'en' ? ' is-ghost' : '') + '" font-size="' + (c.hole ? 22 : 38) + '">' + num + '</text>';
+    o += '<text x="50" y="' + (c.hole ? 36 : 50) + '" dy=".35em" text-anchor="middle" class="wt-coinnum" font-size="' + (c.hole ? 22 : 38) + '">' + num + '</text>';
     return o + '</svg>';
   },
   _coinPx: function (v) { var c = WorthTillCore.coin(this._fam(), v); return c.note ? Math.round(30 * this._g.k / 2.5 * 1.4) : Math.round(c.d * this._g.k); },
@@ -353,7 +353,7 @@ var WorthTillActivity = {
       var b = self._btn('wt-cup' + (v.nod === cv ? ' is-nod' : '') + (lid ? ' is-lid' : ''), 'cup-' + cv, self._t('aCup', { amt: self._money(cv) }), '');
       b.setAttribute('data-cup', cv); b.setAttribute('data-n', inTill.length); b.disabled = st.done || lid;
       b.style.width = cw + 'px'; b.style.flex = 'none';
-      /* the key: the coin itself on the cup's lip (its own face — no numeral where the real coin has none) */
+      /* the key: the coin itself on the cup's lip (its own face, numeral and all) */
       /* the stack: each coin an edge-on slab, 0.6 × its counter size, capped at the cup */
       var c = C.coin(st.fam, cv), sw = Math.min(cw - 8, Math.round(c.d * g.k * 0.6)), H = g.cramp ? 50 : 66, o = '<svg class="wt-cupsvg" viewBox="0 0 ' + cw + ' ' + H + '" width="' + cw + '" height="' + H + '" aria-hidden="true">';
       o += '<rect x="2" y="6" width="' + (cw - 4) + '" height="' + (H - 8) + '" rx="10" class="wt-well"/>';

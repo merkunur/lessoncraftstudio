@@ -16,7 +16,7 @@ const read = (f) => fs.readFileSync(f, 'utf8').replace(/\r\n/g, '\n');
 const M = [
   /* the design's list (§12) */
   ['a cup accepting by size, not worth', 'core', 'if (c.v !== cupV) {', 'if (Math.abs(coin(st.fam, c.v).d - coin(st.fam, cupV).d) > 1.5 && c.v !== cupV) {'],
-  ['the US coins drawn with their numeral', 'act', "if (loc !== 'en' || opt.ghost) o +=", 'if (true) o +='],
+  ['the US coins drawn without their numeral', 'act', "o += '<text x=\"50\" y=\"' + (c.hole ? 36 : 50)", "if (loc !== 'en') o += '<text x=\"50\" y=\"' + (c.hole ? 36 : 50)"],
   ['nl/fi get the 1 c coin back', 'core', "EURR: { cups: [5, 10, 20, 50], coins: EUR },", "EURR: { cups: [1, 5, 10, 20, 50], coins: EUR },"],
   ['the enough rounds all yes (the old en)', 'core', "[60, [25, 10, 10, 10, 1, 1, 1]]", "[60, [25, 25, 10, 10, 1, 1, 1]]"],
   ['a trade purse holding the offered coin', 'core', "P('trade', 25, [10, 10, 5, 5, 1, 10, 5, 1])", "P('trade', 25, [10, 10, 5, 5, 1, 25, 5, 1])"],

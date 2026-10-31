@@ -231,7 +231,7 @@ const CORE_SRC = fs.readFileSync(CORE_PATH, 'utf8');
 ok(LIT.filter((k) => /^(hint|help|ok)/.test(k) && !/First$|^hintDial$|^hintAgain$|^hintLid$/.test(k)).every((k) => CORE_SRC.indexOf("'" + k + "'") >= 0), 'H: every hint / help / ok key is a literal in the core');
 ok(keys.every((k) => !/ [?:!;]/.test(STR[k].fr)), 'H: fr uses U+202F before ? : ! ;');
 ok(keys.every((k) => LOCALES.every((l) => !/\b(free|gratis|gratuit|gratuito|kostenlos|ilmai)/i.test(STR[k][l]))), 'H: nothing says "free"');
-ok(/if \(loc !== 'en' \|\| opt\.ghost\)/.test(SRC), 'H: the US coins carry no numeral (only a ghost after two bounces)');
+ok(!/loc !== 'en' \|\| opt\.ghost/.test(SRC) && /\n[ \t]+o \+=\s'<text x="50" y="' \+ \(c\.hole \? 36 : 50\) \+ '" dy=".35em" text-anchor="middle" class="wt-coinnum"/.test(SRC), 'H: every coin carries its worth numeral, the US ones too (operator ruling)');
 ok(/self\._coinSvg\(cv, Math\.round\(Math\.min\(30, c\.d \* g\.k \* 0\.4\)\)\)/.test(SRC), 'H: the key coin is the coin itself, never its numeral');
 ok((SRC.match(/b\.style\.width = Math\.max\(44, px\) \+ 'px'; b\.style\.height = Math\.max\(44, px\) \+ 'px';/g) || []).length === 2, 'H: every loose coin and every tray coin is a ≥ 44 px target');
 ok(/OK_MS: 500/.test(SRC) && /\.lcs-activity-check\{display:none !important;\}/.test(SRC) && /chk\.click\(\); \}, this\.OK_MS\)/.test(SRC), 'H: the shell\'s Check is hidden and pressed 0.5 s after success');

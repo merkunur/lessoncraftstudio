@@ -3,7 +3,18 @@
 The design is in this folder (ARCHITECTURE, ENGINES, ENGINES-ART, NEW-TEMPLATES, REVIEW-F3, OPEN-DECISIONS). This log
 records what is BUILT, measured and committed, step by step, so any session can resume. Order: ARCHITECTURE §14.
 
-**NEXT:** P2 remainder — title/instruction edits (§4.4), pages duplicate/reorder, decor, ink, strings moved to `frontend/messages/makers/<loc>.json` with a parity gate, the controls-budget gate (≤ 7). Then P3.
+**NEXT:** P3 — real outputs (PDF/PNG/play link, iPad test link, spikes S1–S3/S5), then P4 accounts/recipes/sharing, P5 deploy wiring, P6 thumbnails, pilot go-live.
+
+## P2 (part 3) — the rest of the maker screen (2026-10-31, commits `3b2102860` → `e21e04a95`)
+
+- Screen strings live in `frontend/messages/makers/<loc>.json` (62 keys × 11), checked on every build (`build-ui-strings.js`: parity, empty, untranslated-English with an explicit SAME_IN list).
+- Title + instruction editable per page (three-line limit measured on the page; "Original text" restores).
+- Pages: duplicate, move up/down (`pageOps` moves pages/edits/units/texts/ink together, padding the optional arrays first). **Page limit (operator): subscribers up to 10; free accounts one page — no Add page, no Duplicate, one line + See plans.**
+- More options (closed at first): answer key, paper, border. The preview is the whole sheet of paper; a border is an outline in the margin and prints on one page (`@page{margin:0}` + margin on `.ws-page`).
+- Drawing on a page: 5 colours, undo, clear; printed; dropped with new content (new version, template, level, theme, word).
+- Gate 15 `gates/controls-budget.js`: ≤ 7 controls on a first screen, declared (429 cells) and shown (78 screens) — poisoned both ways.
+- Every new string × 11 native-reviewed (one reviewer, 18 + 2 fixes applied).
+
 
 ## Sight Words maker: 9 new templates (2026-10-31, commit `dc8aa53a4`)
 

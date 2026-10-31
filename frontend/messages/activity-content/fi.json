@@ -4069,6 +4069,29 @@
         "Ymmärtää, että mielipiteen toistaminen tai samasta aiheesta puhuminen ei tue sitä.",
         "Käyttää sanaa ”koska” ja testata, onko lause perustelu."
       ]
+    },
+    "sentence-clinic.fix-it.l-2-1": {
+      "about": [
+        "Tohtori Sulan lauseklinikalla lause makaa hoitopöydällä. Lapsi valitsee työkalun – pisteen, kysymysmerkin, sakset ja ylimmällä tasolla sanatyökalut –, korjaa lauseen, ja sitten Tohtori Sulka kuuntelee. Kynä piirtää kuunteluviivan sanojen alle, yhden lyönnin jokaista sanaa kohti.",
+        "Jokaisessa lopussa viiva tekee sen, mitä merkki sanoo: pisteen kohdalla se lepää, kysymysmerkin kohdalla se jää auki ja huutomerkin kohdalla se hyppää. Jos merkki ei sovi lauseen sävelmään, viivaan tulee mutka; jos merkki puuttuu, viiva jatkuu; jos kahden ajatuksen välissä ei ole pistettä, viiva solmiutuu; piste kesken ajatuksen saa sen notkahtamaan. Näin lapsi näkee, missä lause on vielä kipeä. Pisteen jälkeen seuraava sana saa ison alkukirjaimen itsestään.",
+        "Kolme tasoa: Mikä merkki? (kolme lyhyttä lausetta, joista jokainen tarvitsee pisteen tai kysymysmerkin), Mihin lause loppuu? (kaksi yhteen sulanutta lausetta) ja Kuulostaako lause oikealta? (väärä taivutusmuoto, puuttuva sana, sana liikaa, sekava järjestys tai puuttuva huutomerkki). Asetus näyttää sävelmän jo ennen tarkistusta. Harjoitus perustuu perusopetuksen opetussuunnitelman kielitiedon tavoitteisiin. Ei ajanottoa eikä pisteitä."
+      ],
+      "practices": [
+        "Päättää kertova lause pisteeseen ja kysymys kysymysmerkkiin",
+        "Löytää, mihin yksi lause loppuu ja mistä seuraava alkaa",
+        "Kuulla, kun lauseesta puuttuu sana, siinä on sana liikaa tai sanat ovat väärässä järjestyksessä",
+        "Valita taivutusmuoto, joka sopii lauseeseen"
+      ],
+      "howToPlay": [
+        "Lue lause Tohtori Sulan hoitopöydältä.",
+        "Napauta työkalua ja sitten korjattavaa kohtaa: väliä merkille tai saksille, sanaa sanatyökaluille.",
+        "Napauta Tarkista ja katso kuunteluviivaa. Siellä, missä viiva mutkittelee, solmiutuu, notkahtaa tai jatkuu, lause tarvitsee vielä apua."
+      ],
+      "learningGoals": [
+        "Käyttää lauseen lopetusmerkkejä oikein: piste, kysymysmerkki ja huutomerkki.",
+        "Jakaa kaksi yhteen sulanutta ajatusta kahdeksi lauseeksi.",
+        "Korjata lauseita niin, että ne ovat kokonaisia, oikeassa järjestyksessä ja oikein taivutettuja."
+      ]
     }
   }
 }

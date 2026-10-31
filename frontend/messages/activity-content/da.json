@@ -4070,6 +4070,29 @@
         "Forstå, at det ikke støtter en mening at gentage den eller at tale om det samme emne.",
         "Bruge »for« til at teste, om en sætning er en grund."
       ]
+    },
+    "sentence-clinic.fix-it.l-2-1": {
+      "about": [
+        "På Doktor Fjers sætningsklinik ligger en sætning på briksen. Barnet vælger et værktøj – et punktum, et spørgsmålstegn, en saks og på det højeste niveau ordværktøjerne –, retter sætningen, og så lytter Doktor Fjer. En pen tegner lyttelinjen under ordene, et slag for hvert ord.",
+        "Ved hver slutning gør linjen det, tegnet siger: Den hviler ved et punktum, står åben ved et spørgsmålstegn og hopper op ved et udråbstegn. Passer et tegn ikke til sætningens melodi, får linjen et knæk; mangler der et tegn, fortsætter den; står to tanker uden punktum imellem, slår den en knude; et punktum midt i en tanke får den til at synke. Så kan barnet se, hvor sætningen stadig gør ondt. Efter et punktum får det næste ord sit store begyndelsesbogstav af sig selv.",
+        "Tre niveauer: Hvilket tegn? (tre korte sætninger, der hver skal have sit punktum eller spørgsmålstegn), Hvor slutter sætningen? (to sætninger, der hænger sammen) og Lyder sætningen rigtigt? (en forkert ordform, et ord der mangler, et ord for meget, forkert rækkefølge eller et udråbstegn der mangler). En indstilling viser melodien, allerede før man tjekker. Øvelsen bygger på Fælles Mål for dansk om sprog og sætninger. Ingen tidtagning og ingen point."
+      ],
+      "practices": [
+        "Afslutte en fortællende sætning med punktum og et spørgsmål med spørgsmålstegn",
+        "Finde ud af, hvor en sætning slutter, og den næste begynder",
+        "Høre, når der mangler et ord, er et ord for meget, eller ordene står i forkert rækkefølge",
+        "Vælge den ordform, der passer i sætningen"
+      ],
+      "howToPlay": [
+        "Læs sætningen på Doktor Fjers briks.",
+        "Tryk på et værktøj og så på stedet, der skal rettes: et mellemrum til et tegn eller saksen, et ord til ordværktøjerne.",
+        "Tryk på Tjek, og se lyttelinjen. Hvor den knækker, slår knude, synker eller fortsætter, har sætningen stadig brug for hjælp."
+      ],
+      "learningGoals": [
+        "Bruge tegn i slutningen af en sætning: punktum, spørgsmålstegn og udråbstegn.",
+        "Dele to tanker, der hænger sammen, op i to sætninger.",
+        "Rette sætninger, så de er hele, står i den rigtige rækkefølge og passer sammen."
+      ]
     }
   }
 }

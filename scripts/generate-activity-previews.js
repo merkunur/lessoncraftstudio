@@ -139,6 +139,10 @@ function seedScript(row) {
     // the invention at work: the snails note posted in the lighthouse — two lamps lit by the two facts, the tip is extra, the beam sweeps
     return "(function(){var t=window['AuthorPurposeActivity'];if(!t||!t.api)return;t.FAST=true;t.OK_MS=600000;t.api.settings.notes='mostly';t.api.settings.machines='three';t._pool=null;t._ensurePool();t._start(t._pool.findIndex(function(n){return n.id==='i5';}));t._render2();t._post('inform');})();";
   }
+  if (row.tool === 'sentence-clinic-activity') {
+    // the invention at work: a run-on with only its end mark, checked — the Listening Line drawn under every word, knotted at the seam where the first thought never stopped
+    return "(function(){var t=window['SentenceClinicActivity'];if(!t||!t.api)return;var C=window.SentenceClinicCore;t.FAST=true;t.OK_MS=600000;t.api.settings.level='two';t.api.settings.line='check';t._ensurePool();t._start(0);t._render2();var u=t.st.round.units[1];C.setMark(t.st,u.to,u.tune==='A'?'?':'.');t._check();t._view.note='';t._paint();})();";
+  }
   if (row.tool === 'pearl-opinion-page-activity') {
     // the invention at work: Pearl's park sign standing level on its two reason posts after the tide, dry, the restatement and the off-topic card left in the tray
     return "(function(){var t=window['PearlOpinionPageActivity'];if(!t||!t.api)return;var C=window.ReasonSignCore;t.FAST=true;t.OK_MS=600000;t.api.settings.level='legs';t.api.settings.bridge='off';t._start(0,0,0);t._render2();t.st.round.cards.filter(function(c){return c.role==='reason';}).forEach(function(c){C.place(t.st,c.id);});t._tide();})();";

@@ -4093,6 +4093,29 @@
         "Forstå at det ikke støtter en mening å gjenta den eller å snakke om det samme emnet.",
         "Bruke «for» til å teste om en setning er en grunn."
       ]
+    },
+    "sentence-clinic.fix-it.l-2-1": {
+      "about": [
+        "På Doktor Fjærs setningsklinikk ligger en setning på benken. Barnet velger et verktøy – et punktum, et spørsmålstegn, en saks og på det høyeste nivået ordverktøyene –, retter setningen, og så lytter Doktor Fjær. En penn tegner lyttelinja under ordene, ett slag for hvert ord.",
+        "Ved hver slutt gjør linja det tegnet sier: Den hviler ved et punktum, står åpen ved et spørsmålstegn og hopper opp ved et utropstegn. Passer ikke et tegn til melodien i setningen, får linja en knekk; mangler det et tegn, fortsetter den; står to tanker uten punktum imellom, slår den en knute; et punktum midt i en tanke får den til å synke. Slik ser barnet hvor setningen fortsatt gjør vondt. Etter et punktum får neste ord stor forbokstav av seg selv.",
+        "Tre nivåer: Hvilket tegn? (tre korte setninger som hver trenger sitt punktum eller spørsmålstegn), Hvor slutter setningen? (to setninger som henger sammen) og Høres setningen riktig ut? (feil ordform, et ord som mangler, et ord for mye, feil rekkefølge eller et utropstegn som mangler). En innstilling viser melodien før man sjekker. Øvelsen bygger på LK20 i norsk om språk og setninger. Ingen tidtaking og ingen poeng."
+      ],
+      "practices": [
+        "Avslutte en fortellende setning med punktum og et spørsmål med spørsmålstegn",
+        "Finne hvor en setning slutter og den neste begynner",
+        "Høre når det mangler et ord, er et ord for mye eller ordene står i feil rekkefølge",
+        "Velge den ordformen som passer i setningen"
+      ],
+      "howToPlay": [
+        "Les setningen på Doktor Fjærs benk.",
+        "Trykk på et verktøy og så på stedet som skal rettes: et mellomrom for et tegn eller saksen, et ord for ordverktøyene.",
+        "Trykk på Sjekk og se på lyttelinja. Der den knekker, slår knute, synker eller fortsetter, trenger setningen fortsatt hjelp."
+      ],
+      "learningGoals": [
+        "Bruke tegn på slutten av en setning: punktum, spørsmålstegn og utropstegn.",
+        "Dele to tanker som henger sammen, i to setninger.",
+        "Rette setninger så de blir hele, står i riktig rekkefølge og stemmer."
+      ]
     }
   }
 }

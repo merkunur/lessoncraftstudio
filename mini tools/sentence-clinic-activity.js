@@ -1,614 +1,455 @@
 /* =====================================================================
-   DR. PLUME'S SENTENCE CLINIC — ACTIVITY  (sentence-clinic-activity.js)
+   sentence-clinic-activity.js — ACTIVITY #176 of the one-by-one rebuild:
+   "Dr. Plume's Sentence Clinic" (L.2.1 · L.2.2) → THE LISTENING LINE.
+   Model: sentence-clinic-core.js; patients: sentence-clinic-data.js.
+   Design: docs/activities-rebuild/designs/176-sentence-clinic.md
    ---------------------------------------------------------------------
-   CCSS L.2.1 — Grade 2 grammar/usage. A muddled sentence arrives "not
-   quite itself"; the child helps it SOUND RIGHT again by performing the
-   right repair. DIAGNOSE (find the trouble) → REPAIR (the action) →
-   sounds-right. The repair affordance for a SWAP appears only AFTER a
-   correct diagnosis → blind-swapping is structurally impossible.
-
-   COGNITION reused from mini tools/fix-it-core.js (window.FixItCore:
-   diagnoseCorrect / repairOptions / repairCorrect / applyRepair, the 7
-   distinct ACTIONS). Full lcs-shell tool. answerType:'state'.
-
-   Warm treehouse checkup-nook — NO surgery/scalpel/bandage language. A
-   wrong move = the sentence GIGGLES + undoes (never a red X); the trouble
-   cue is a soft thinking-GLOW (not a bandage); progress is a sounds-right
-   pulse that only ever climbs. Dr. Plume (grandmother-owl) = SVG
-   PLACEHOLDER via the _setPose CA5 seam. Words ALWAYS DOM (per-locale
-   content never touches art). Fully playable audio-off.
-
-   0 lines to the 6 protected cores + lcs-shell.{js,css}.
+   A sentence card lies on Dr. Plume's clinic bed. The child picks a tool
+   from the tray — a full stop, a question mark (Level 3 also "!"),
+   scissors (Level 2), and at Level 3 the word tools: add a word, take a
+   word out, swap two words, change a word — and mends the sentence. Check
+   is the LISTEN: a pen draws the Listening Line under the words, one beat
+   per word; at every end it does what is there against the sentence's
+   tune — it RESTS on a full stop, HOLDS OPEN on a question mark, SPIKES on
+   "!", KINKS on the wrong mark, RUNS OFF where no mark is, KNOTS where two
+   thoughts have no stop between them, SAGS where a stop cuts a thought;
+   at Level 3 it leaves a FLAT gap for a missing word, a DOUBLE beat for a
+   word too many, a BACKWARD beat for a word out of place, an OFF-KEY beat
+   for a wrong form. Miss 1 freezes those marks; miss 2 spotlights the
+   first one and wiggles the tool that mends it. A stop's next word gets
+   its capital by itself (capitals are never the task — row 182).
+   Next appears .OK_MS after success.
    ===================================================================== */
-(function (global) {
-  'use strict';
+var SentenceClinicActivity = {
+  id: 'sentence-clinic-activity',
+  /* the drawn apparatus (the bed, the word tiles, the line, the tools): declared for the hierarchy audit */
+  apparatusClasses: ['sc-'],
+  /*STRINGS-BEGIN*/strings: {
+    title: {"en":"Dr. Plume's Sentence Clinic","de":"Dr. Plumes Satzklinik","fr":"La clinique des phrases du Dr Plume","es":"La clínica de oraciones de la Dra. Plume","pt":"A Clínica de Frases da Dra. Plume","it":"La clinica delle frasi della Dott.ssa Plume","nl":"Dr. Plumes zinnenkliniek","sv":"Doktor Fjäders meningsklinik","da":"Doktor Fjers sætningsklinik","no":"Doktor Fjærs setningsklinikk","fi":"Tohtori Sulan lauseklinikka"},
+    instruction: {"en":"Pick a tool, mend the sentence, then let Dr. Plume listen.","de":"Wähle ein Werkzeug, verbessere den Satz und lass Dr. Plume zuhören.","fr":"Choisis un outil, soigne la phrase, puis laisse le Dr Plume écouter.","es":"Elige una herramienta, cura la oración y deja que la Dra. Plume escuche.","pt":"Escolha uma ferramenta, cure a frase e deixe a Dra. Plume escutar.","it":"Scegli uno strumento, cura la frase e lascia ascoltare la Dott.ssa Plume.","nl":"Kies een gereedschap, maak de zin beter en laat Dr. Plume luisteren.","sv":"Välj ett verktyg, laga meningen och låt Doktor Fjäder lyssna.","da":"Vælg et værktøj, ret sætningen, og lad Doktor Fjer lytte.","no":"Velg et verktøy, rett setningen og la Doktor Fjær lytte.","fi":"Valitse työkalu, korjaa lause ja anna Tohtori Sulan kuunnella."},
+    instrBubble: {"en":"{msg}","de":"{msg}","fr":"{msg}","es":"{msg}","pt":"{msg}","it":"{msg}","nl":"{msg}","sv":"{msg}","da":"{msg}","no":"{msg}","fi":"{msg}"},
+    okBubble: {"en":"{msg}","de":"{msg}","fr":"{msg}","es":"{msg}","pt":"{msg}","it":"{msg}","nl":"{msg}","sv":"{msg}","da":"{msg}","no":"{msg}","fi":"{msg}"},
+    checkBtn: {"en":"Check","de":"Prüfen","fr":"Vérifier","es":"Comprobar","pt":"Verificar","it":"Verifica","nl":"Controleer","sv":"Kontrollera","da":"Tjek","no":"Sjekk","fi":"Tarkista"},
+    qOne: {"en":"Listen with Dr. Plume: give every sentence the mark it needs.","de":"Hör mit Dr. Plume zu: Gib jedem Satz das Zeichen, das er braucht.","fr":"Écoute avec le Dr Plume : donne à chaque phrase le signe qu’il lui faut.","es":"Escucha con la Dra. Plume: ponle a cada oración el signo que necesita.","pt":"Escute com a Dra. Plume: dê a cada frase o sinal de que ela precisa.","it":"Ascolta con la Dott.ssa Plume: dai a ogni frase il segno che le serve.","nl":"Luister met Dr. Plume: geef elke zin het teken dat hij nodig heeft.","sv":"Lyssna med Doktor Fjäder: ge varje mening det tecken den behöver.","da":"Lyt med Doktor Fjer: giv hver sætning det tegn, den skal have.","no":"Lytt med Doktor Fjær: gi hver setning tegnet den trenger.","fi":"Kuuntele Tohtori Sulan kanssa: anna jokaiselle lauseelle sen tarvitsema merkki."},
+    qTwo: {"en":"Listen with Dr. Plume: where does the first sentence stop?","de":"Hör mit Dr. Plume zu: Wo hört der erste Satz auf?","fr":"Écoute avec le Dr Plume : où s’arrête la première phrase ?","es":"Escucha con la Dra. Plume: ¿dónde termina la primera oración?","pt":"Escute com a Dra. Plume: onde termina a primeira frase?","it":"Ascolta con la Dott.ssa Plume: dove finisce la prima frase?","nl":"Luister met Dr. Plume: waar houdt de eerste zin op?","sv":"Lyssna med Doktor Fjäder: var slutar den första meningen?","da":"Lyt med Doktor Fjer: hvor slutter den første sætning?","no":"Lytt med Doktor Fjær: hvor slutter den første setningen?","fi":"Kuuntele Tohtori Sulan kanssa: mihin ensimmäinen lause loppuu?"},
+    qThree: {"en":"Listen with Dr. Plume: make the sentence sound right.","de":"Hör mit Dr. Plume zu: Sorg dafür, dass der Satz richtig klingt.","fr":"Écoute avec le Dr Plume : répare la phrase pour qu’elle sonne juste.","es":"Escucha con la Dra. Plume: arregla la oración para que suene bien.","pt":"Escute com a Dra. Plume: conserte a frase para ela soar certa.","it":"Ascolta con la Dott.ssa Plume: sistema la frase perché suoni giusta.","nl":"Luister met Dr. Plume: zorg dat de zin goed klinkt.","sv":"Lyssna med Doktor Fjäder: gör så att meningen låter rätt.","da":"Lyt med Doktor Fjer: få sætningen til at lyde rigtigt.","no":"Lytt med Doktor Fjær: få setningen til å høres riktig ut.","fi":"Kuuntele Tohtori Sulan kanssa: korjaa lause niin, että se kuulostaa oikealta."},
+    hintEmpty: {"en":"Pick a tool first — Dr. Plume needs to hear a change.","de":"Wähl zuerst ein Werkzeug – Dr. Plume muss eine Änderung hören.","fr":"Choisis d’abord un outil : le Dr Plume doit entendre un changement.","es":"Primero elige una herramienta: la Dra. Plume necesita oír un cambio.","pt":"Primeiro escolha uma ferramenta: a Dra. Plume precisa ouvir uma mudança.","it":"Prima scegli uno strumento: la Dott.ssa Plume deve sentire un cambiamento.","nl":"Kies eerst een gereedschap: Dr. Plume moet een verandering horen.","sv":"Välj ett verktyg först – Doktor Fjäder behöver höra en ändring.","da":"Vælg først et værktøj – Doktor Fjer skal høre en ændring.","no":"Velg et verktøy først – Doktor Fjær må høre en endring.","fi":"Valitse ensin työkalu – Tohtori Sulan pitää kuulla muutos."},
+    hintMiss1: {"en":"Listen again: the line stumbles where the sentence still hurts.","de":"Hör noch einmal hin: Die Linie stolpert, wo der Satz noch wehtut.","fr":"Écoute encore : la ligne trébuche là où la phrase a encore mal.","es":"Escucha otra vez: la línea tropieza donde la oración todavía duele.","pt":"Escute de novo: a linha tropeça onde a frase ainda dói.","it":"Ascolta di nuovo: la linea inciampa dove la frase fa ancora male.","nl":"Luister nog eens: de lijn struikelt waar de zin nog pijn doet.","sv":"Lyssna igen: linjen snubblar där meningen fortfarande gör ont.","da":"Lyt igen: linjen snubler, hvor sætningen stadig gør ondt.","no":"Lytt igjen: linja snubler der setningen fortsatt gjør vondt.","fi":"Kuuntele uudestaan: viiva kompastuu siinä, missä lause on vielä kipeä."},
+    hintKnot: {"en":"Two thoughts are squashed together here. Where does the first one end?","de":"Hier sind zwei Gedanken zusammengequetscht. Wo endet der erste?","fr":"Deux idées sont collées ici. Où finit la première ?","es":"Aquí hay dos ideas apretadas. ¿Dónde termina la primera?","pt":"Aqui tem duas ideias espremidas juntas. Onde termina a primeira?","it":"Qui due pensieri sono schiacciati insieme. Dove finisce il primo?","nl":"Hier zitten twee gedachten tegen elkaar. Waar houdt de eerste op?","sv":"Här är två tankar hopklämda. Var slutar den första?","da":"Her er to tanker klemt sammen. Hvor slutter den første?","no":"Her er to tanker klemt sammen. Hvor slutter den første?","fi":"Tässä on kaksi ajatusta puristettu yhteen. Mihin ensimmäinen loppuu?"},
+    hintMiss2: {"en":"Try the tool that is wiggling, right here.","de":"Probier das Werkzeug, das wackelt – genau hier.","fr":"Essaie l’outil qui bouge, juste ici.","es":"Prueba la herramienta que se mueve, justo aquí.","pt":"Tente a ferramenta que está balançando, bem aqui.","it":"Prova lo strumento che si muove, proprio qui.","nl":"Probeer het gereedschap dat wiebelt, precies hier.","sv":"Prova verktyget som vickar, precis här.","da":"Prøv værktøjet, der vrikker, lige her.","no":"Prøv verktøyet som vrikker, akkurat her.","fi":"Kokeile heiluvaa työkalua juuri tässä."},
+    hintSag: {"en":"This stop cuts a thought in half. Tap it to take it away.","de":"Dieses Zeichen schneidet einen Gedanken entzwei. Tipp es an, um es wegzunehmen.","fr":"Ce signe coupe une idée en deux. Touche-le pour l’enlever.","es":"Este signo corta una idea a la mitad. Tócalo para quitarlo.","pt":"Este sinal corta uma ideia no meio. Toque nele para tirar.","it":"Questo segno taglia un pensiero a metà. Toccalo per toglierlo.","nl":"Dit teken knipt een gedachte doormidden. Tik erop om het weg te halen.","sv":"Det här tecknet klipper en tanke mitt itu. Tryck på det för att ta bort det.","da":"Dette tegn klipper en tanke over. Tryk på det for at fjerne det.","no":"Dette tegnet klipper en tanke i to. Trykk på det for å ta det bort.","fi":"Tämä merkki katkaisee ajatuksen kahtia. Poista se napauttamalla."},
+    hintPick: {"en":"Choose the word that fits.","de":"Wähle das Wort, das passt.","fr":"Choisis le mot qui convient.","es":"Elige la palabra que va.","pt":"Escolha a palavra que combina.","it":"Scegli la parola giusta.","nl":"Kies het woord dat past.","sv":"Välj ordet som passar.","da":"Vælg det ord, der passer.","no":"Velg ordet som passer.","fi":"Valitse sana, joka sopii."},
+    hintSwap: {"en":"Now tap the word to swap it with.","de":"Tipp jetzt das Wort an, mit dem es tauschen soll.","fr":"Touche maintenant le mot avec lequel l’échanger.","es":"Ahora toca la palabra con la que la cambias.","pt":"Agora toque na palavra que vai trocar de lugar com ela.","it":"Ora tocca la parola con cui scambiarla.","nl":"Tik nu op het woord waarmee het moet ruilen.","sv":"Tryck nu på ordet det ska byta plats med.","da":"Tryk nu på det ord, det skal bytte plads med.","no":"Trykk nå på ordet det skal bytte plass med.","fi":"Napauta nyt sanaa, jonka kanssa se vaihtaa paikkaa."},
+    ok: {"en":"Now it sounds right: “{s}”","de":"Jetzt klingt es richtig: „{s}“","fr":"Maintenant, ça sonne juste : « {s} »","es":"Ahora suena bien: «{s}»","pt":"Agora soa certo: “{s}”","it":"Ora suona giusta: «{s}»","nl":"Nu klinkt het goed: ‘{s}’","sv":"Nu låter det rätt: ”{s}”","da":"Nu lyder det rigtigt: »{s}«","no":"Nå høres det riktig ut: «{s}»","fi":"Nyt se kuulostaa oikealta: ”{s}”"},
+    okTwo: {"en":"Two thoughts, two sentences.","de":"Zwei Gedanken, zwei Sätze.","fr":"Deux idées, deux phrases.","es":"Dos ideas, dos oraciones.","pt":"Duas ideias, duas frases.","it":"Due pensieri, due frasi.","nl":"Twee gedachten, twee zinnen.","sv":"Två tankar, två meningar.","da":"To tanker, to sætninger.","no":"To tanker, to setninger.","fi":"Kaksi ajatusta, kaksi lausetta."},
+    setLevel: {"en":"What to fix","de":"Was verbessern","fr":"Quoi soigner","es":"Qué arreglar","pt":"O que consertar","it":"Cosa sistemare","nl":"Wat verbeteren","sv":"Vad ska lagas","da":"Hvad skal rettes","no":"Hva skal rettes","fi":"Mitä korjataan"},
+    lvOne: {"en":"Which mark?","de":"Welches Zeichen?","fr":"Quel signe ?","es":"¿Qué signo?","pt":"Qual sinal?","it":"Quale segno?","nl":"Welk teken?","sv":"Vilket tecken?","da":"Hvilket tegn?","no":"Hvilket tegn?","fi":"Mikä merkki?"},
+    lvTwo: {"en":"Where does it end?","de":"Wo endet der Satz?","fr":"Où finit la phrase ?","es":"¿Dónde termina?","pt":"Onde termina?","it":"Dove finisce?","nl":"Waar eindigt de zin?","sv":"Var slutar meningen?","da":"Hvor slutter sætningen?","no":"Hvor slutter setningen?","fi":"Mihin lause loppuu?"},
+    lvThree: {"en":"Does it sound right?","de":"Klingt der Satz richtig?","fr":"Ça sonne juste ?","es":"¿Suena bien?","pt":"Soa certo?","it":"Suona giusta?","nl":"Klinkt de zin goed?","sv":"Låter meningen rätt?","da":"Lyder sætningen rigtigt?","no":"Høres setningen riktig ut?","fi":"Kuulostaako lause oikealta?"},
+    setLine: {"en":"The line","de":"Die Linie","fr":"La ligne","es":"La línea","pt":"A linha","it":"La linea","nl":"De lijn","sv":"Linjen","da":"Linjen","no":"Linja","fi":"Viiva"},
+    lnCheck: {"en":"Plays when I check","de":"Läuft beim Prüfen","fr":"Joue quand je vérifie","es":"Suena al comprobar","pt":"Toca quando eu verifico","it":"Parte quando verifico","nl":"Speelt als ik controleer","sv":"Spelas när jag kontrollerar","da":"Spiller, når jeg tjekker","no":"Spilles når jeg sjekker","fi":"Soi, kun tarkistan"},
+    lnFirst: {"en":"Shows the tune first","de":"Zeigt zuerst die Melodie","fr":"Montre d’abord la mélodie","es":"Muestra primero la melodía","pt":"Mostra a melodia antes","it":"Mostra prima la melodia","nl":"Laat eerst de melodie zien","sv":"Visar melodin först","da":"Viser melodien først","no":"Viser melodien først","fi":"Näyttää sävelmän ensin"},
+    aFull: {"en":"Period","de":"Punkt","fr":"Point","es":"Punto","pt":"Ponto final","it":"Punto","nl":"Punt","sv":"Punkt","da":"Punktum","no":"Punktum","fi":"Piste"},
+    aQuest: {"en":"Question mark","de":"Fragezeichen","fr":"Point d’interrogation","es":"Signos de interrogación","pt":"Ponto de interrogação","it":"Punto interrogativo","nl":"Vraagteken","sv":"Frågetecken","da":"Spørgsmålstegn","no":"Spørsmålstegn","fi":"Kysymysmerkki"},
+    aExcl: {"en":"Exclamation mark","de":"Ausrufezeichen","fr":"Point d’exclamation","es":"Signos de exclamación","pt":"Ponto de exclamação","it":"Punto esclamativo","nl":"Uitroepteken","sv":"Utropstecken","da":"Udråbstegn","no":"Utropstegn","fi":"Huutomerkki"},
+    aCut: {"en":"Scissors","de":"Schere","fr":"Ciseaux","es":"Tijeras","pt":"Tesoura","it":"Forbici","nl":"Schaar","sv":"Sax","da":"Saks","no":"Saks","fi":"Sakset"},
+    aIns: {"en":"Add a word","de":"Wort einfügen","fr":"Ajouter un mot","es":"Agregar una palabra","pt":"Pôr uma palavra","it":"Aggiungere una parola","nl":"Woord toevoegen","sv":"Lägg till ett ord","da":"Tilføj et ord","no":"Legg til et ord","fi":"Lisää sana"},
+    aLift: {"en":"Take a word out","de":"Wort herausnehmen","fr":"Enlever un mot","es":"Quitar una palabra","pt":"Tirar uma palavra","it":"Togliere una parola","nl":"Woord weghalen","sv":"Ta bort ett ord","da":"Fjern et ord","no":"Ta bort et ord","fi":"Poista sana"},
+    aSwap: {"en":"Change the order","de":"Reihenfolge ändern","fr":"Changer l’ordre","es":"Cambiar el orden","pt":"Trocar a ordem","it":"Cambiare l’ordine","nl":"Volgorde veranderen","sv":"Byt ordning","da":"Byt rækkefølge","no":"Bytt rekkefølge","fi":"Vaihda järjestystä"},
+    aWheel: {"en":"Change the word","de":"Wort verändern","fr":"Changer le mot","es":"Cambiar la palabra","pt":"Trocar a palavra","it":"Cambiare la parola","nl":"Woord veranderen","sv":"Byt ord","da":"Skift ordet","no":"Bytt ordet","fi":"Vaihda sanan muoto"},
+    aWord: {"en":"Word: {w}","de":"Wort: {w}","fr":"Mot : {w}","es":"Palabra: {w}","pt":"Palavra: {w}","it":"Parola: {w}","nl":"Woord: {w}","sv":"Ord: {w}","da":"Ord: {w}","no":"Ord: {w}","fi":"Sana: {w}"},
+    aGap: {"en":"After “{w}”","de":"Nach „{w}“","fr":"Après « {w} »","es":"Después de «{w}»","pt":"Depois de “{w}”","it":"Dopo «{w}»","nl":"Na ‘{w}’","sv":"Efter ”{w}”","da":"Efter »{w}«","no":"Etter «{w}»","fi":"Sanan ”{w}” jälkeen"},
+    aPutBack: {"en":"Put back “{w}”","de":"„{w}“ zurücklegen","fr":"Remettre « {w} »","es":"Devolver «{w}»","pt":"Pôr de volta “{w}”","it":"Rimettere «{w}»","nl":"‘{w}’ terugzetten","sv":"Lägg tillbaka ”{w}”","da":"Læg »{w}« tilbage","no":"Legg «{w}» tilbake","fi":"Palauta ”{w}”"},
+    aTrouble: {"en":"The line stumbles after “{w}”.","de":"Die Linie stolpert nach „{w}“.","fr":"La ligne trébuche après « {w} ».","es":"La línea tropieza después de «{w}».","pt":"A linha tropeça depois de “{w}”.","it":"La linea inciampa dopo «{w}».","nl":"De lijn struikelt na ‘{w}’.","sv":"Linjen snubblar efter ”{w}”.","da":"Linjen snubler efter »{w}«.","no":"Linja snubler etter «{w}».","fi":"Viiva kompastuu sanan ”{w}” jälkeen."}
+  },/*STRINGS-END*/
+  defaults: { level: 'two', line: 'check' },
+  settings: [
+    { key: 'level', type: 'choice', labelKey: 'setLevel', options: [{ value: 'one', labelKey: 'lvOne' }, { value: 'two', labelKey: 'lvTwo' }, { value: 'three', labelKey: 'lvThree' }] },
+    { key: 'line', type: 'choice', labelKey: 'setLine', options: [{ value: 'check', labelKey: 'lnCheck' }, { value: 'first', labelKey: 'lnFirst' }] }
+  ],
+  OK_MS: 500, FAST: false,
+  BEAT_MS: 260,
+  Q_KEY: { one: 'qOne', two: 'qTwo', three: 'qThree' },
+  TOOL_KEY: { '.': 'aFull', '?': 'aQuest', '!': 'aExcl', cut: 'aCut', ins: 'aIns', lift: 'aLift', swap: 'aSwap', wheel: 'aWheel' },
 
-  var Core = global.FixItCore;
-  var LANG = 'en';
+  init: function (api) {
+    this.api = api;
+    this.st = null; this._pool = null; this._poolKey = null; this._order = null; this._orderForPool = null; this._prev = null; this._pass = 0;
+    this._timers = []; this._ro = null; this._view = {};
+    injectSentenceClinicCSS();
+  },
+  destroy: function () { this._clearTimers(); if (this._ro) { try { this._ro.disconnect(); } catch (e) {} this._ro = null; } },
+  onSettings: function () {
+    if (this._poolKey !== this._level()) { this._pool = null; this._order = null; if (window.LCS_reloadFirstTask) window.LCS_reloadFirstTask(); }
+    else if (this._wrap) this._paint();
+  },
+  _later: function (fn, ms) { var self = this, id = setTimeout(function () { self._timers = self._timers.filter(function (x) { return x !== id; }); fn(); }, ms); this._timers.push(id); return id; },
+  _clearTimers: function () { for (var i = 0; i < this._timers.length; i++) clearTimeout(this._timers[i]); this._timers = []; },
+  _t: function (k, a) { var s = this.api && this.api.t ? this.api.t(k) : k; a = a || {}; return String(s).replace(/\{(\w+)\}/g, function (m, x) { return x in a ? a[x] : m; }); },
+  _setting: function (k) { return this.api && this.api.settings ? this.api.settings[k] : null; },
+  _level: function () { return SentenceClinicCore.levelOf(this._setting('level')); },
+  _tuneFirst: function () { return this._setting('line') === 'first'; },
+  _loc: function () { return SentenceClinicCore.locOf(this.api && this.api.lang); },
+  _esc: function (s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); },
 
-  var C = {
-    T: '#146B5E', T2: '#1B7E6E', CORAL: '#F2784B', CORAL2: '#D9572F',
-    CREAM: '#FBF3E4', INK: '#2A2A35', RIM: '#FFFFFF', GOOD: '#2FA56A', WOOD: '#C7956A',
-    /* text-only coral. COMPUTED, not eyeballed: CORAL2 #D9572F on CREAM is 3.56:1 (below the
-       4.5 AA floor) and my first replacement guess, #C24A22, measured 4.43 and would have
-       shipped still failing. This is 4.94:1. */
-    MISS: '#B8431C'
-  };
+  /* ---------------- tasks ---------------- */
+  _ensurePool: function () {
+    var lv = this._level();
+    if (!this._pool || this._poolKey !== lv) { var n = SentenceClinicCore.pool(this._loc(), lv).length, p = []; for (var i = 0; i < n; i++) p.push(i); this._pool = p; this._poolKey = lv; this._order = null; this._orderForPool = null; this._pass = 0; this._prev = null; }
+    return this._pool;
+  },
+  nextTask: function (opts) {
+    var C = SentenceClinicCore, pool = this._ensurePool(), n = pool.length, index = (opts && opts.index) || 0, pass = Math.floor(index / n), at = index % n;
+    var fresh = !this._order || this._orderForPool !== pool || this._order.length !== n;
+    if (fresh || pass !== this._pass) { this._order = C.plan(n, Math.random, fresh ? null : this._prev); this._prev = this._order.slice(); this._orderForPool = pool; this._pass = pass; }
+    var k = this._order[at], pa = { msg: '' }, lv = this._level(); this._pa = pa;
+    return {
+      id: 'sentence-clinic.' + lv + '.' + k, promptKey: 'instrBubble', promptArgs: pa, celebrateKey: 'okBubble', answerType: 'state',
+      setup: function (tool) { tool._start(k); },
+      check: function (tool) { return !!(tool.st && tool.st.done); }
+    };
+  },
+  _setPrompt: function () { if (!this.st || this.st.done) return; var line = this._t(this.Q_KEY[this.st.level]); if (this._pa) this._pa.msg = line; var pe = typeof document !== 'undefined' && document.querySelector('.lcs-activity-prompt-text'); if (pe) pe.textContent = line; },
+  _start: function (k) {
+    this._clearTimers();
+    this.st = SentenceClinicCore.newState(this._loc(), this._level(), k);
+    var r = this.st.round, opts = r.options ? r.options.slice() : null;
+    if (opts) for (var i = opts.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = opts[i]; opts[i] = opts[j]; opts[j] = t; }
+    this._view = { tool: null, swapFrom: null, drawer: null, opts: opts, playing: false, events: null, frozen: false, spot: null, wiggle: null, note: '', soft: false };
+    this._setPrompt();
+    if (this._wrap) this._paint();
+  },
 
-  function esc(s) {
-    return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
-      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+  /* ---------------- render ---------------- */
+  render: function () { this._ensurePool(); if (!this.st) { var t = this.nextTask({ index: 0 }); t.setup(this); } this._render2(); this._watchWidth(); },
+  _width: function () {
+    var s = this.api && this.api.stage, w = 0;
+    if (this._wrap && this._wrap.isConnected) w = Math.floor(this._wrap.getBoundingClientRect().width);
+    else if (s) { var cs = getComputedStyle(s); w = s.clientWidth - (parseFloat(cs.paddingLeft) || 0) - (parseFloat(cs.paddingRight) || 0); }
+    return w > 160 ? w : 600;
+  },
+  _watchWidth: function () {
+    if (this._ro || typeof ResizeObserver === 'undefined' || !this.api || !this.api.stage) return;
+    var self = this, last = this._width();
+    this._ro = new ResizeObserver(function () { var w = self._width(); if (Math.abs(w - last) < 2 || !self._wrap || !self._wrap.isConnected) return; last = w; self._paint(); });
+    this._ro.observe(this.api.stage);
+  },
+  _render2: function () {
+    var api = this.api, self = this;
+    api.stage.innerHTML = '';
+    var wrap = api.el('div', 'sc-wrap'); this._wrap = wrap; wrap.tabIndex = -1;
+    wrap.innerHTML = '<div class="sc-bed" data-qa="bed"></div><div class="sc-drawer" data-qa="drawer"></div><div class="sc-tray" data-qa="tray"></div><p class="sc-hint" data-qa="hint" aria-live="polite"></p>';
+    this._qs = function (s) { return wrap.querySelector(s); };
+    wrap.addEventListener('click', function (e) {
+      var b = e.target.closest && e.target.closest('[data-k]'); if (!b || b.disabled || !wrap.contains(b)) return;
+      var k = b.getAttribute('data-k');
+      if (k === 'listen') self._check();
+      else if (k.indexOf('tool-') === 0) self._pickTool(k.slice(5));
+      else if (k.indexOf('gap-') === 0) self._tapGap(k.slice(4) === 'end' ? 'end' : +k.slice(4));
+      else if (k.indexOf('w-') === 0) self._tapWord(+k.slice(2));
+      else if (k.indexOf('opt-') === 0) self._pickOption(+k.slice(4));
+      else if (k.indexOf('back-') === 0) self._putBack(+k.slice(5));
     });
-  }
-  function interp(t, args) { return String(t || '').replace(/\{(\w+)\}/g, function (m, k) { return (k in args) ? args[k] : m; }); }
-  function shuffledOrder(n, prev) {
-    var idx = [], i, j, t; for (i = 0; i < n; i++) idx.push(i);
-    if (n < 2) return idx;
-    function same(a, b) { if (!b) return false; for (var k = 0; k < a.length; k++) if (a[k] !== b[k]) return false; return true; }
-    do { for (i = n - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = idx[i]; idx[i] = idx[j]; idx[j] = t; } } while (same(idx, prev));
-    return idx;
-  }
-  /* BCP-47 voice per locale. ⚠ A TABLE, never a ternary chain: the chain this replaces ended in
-     'en-US', so every locale added after it was silently read aloud in English. */
-  var VOICE = { en: 'en-US', de: 'de-DE', fr: 'fr-FR', es: 'es-MX', pt: 'pt-BR', it: 'it-IT', nl: 'nl-NL', sv: 'sv-SE' };
-
-  /* Accessible names for the three affordances that carry NO text of their own. ⚠ All three were
-     hard-coded English or absent in all seven shipped locales. The seam is the PRIMARY control of
-     the split round — and in that round the ONLY one — yet every seam carried the identical label,
-     so a blind child could not tell seam 1 from seam 4. Position is appended, exactly as
-     sentence-builder's EMPTY_SLOT/emptySlotLabel(i) already does. */
-  var A11Y = {
-    seam: { en: 'split here', de: 'hier trennen', fr: 'couper ici', es: 'separar aquí', pt: 'separar aqui', it: 'dividi qui', nl: 'hier splitsen', sv: 'dela här' },
-    gap:  { en: 'empty slot', de: 'leere Lücke', fr: 'case vide', es: 'espacio vacío', pt: 'espaço vazio', it: 'spazio vuoto', nl: 'leeg vakje', sv: 'tom ruta' },
-    owl:  { en: 'Dr. Plume the owl', de: 'Dr. Plume, die Eule', fr: 'Dr Plume, la chouette', es: 'la Dra. Plume, el búho', pt: 'a Dra. Plume, a coruja', it: 'la Dott.ssa Plume, la civetta', nl: 'Dr. Plume de uil', sv: 'Doktor Fjäder, ugglan' }
-  };
-  function a11y(k, i) { var t = (A11Y[k][LANG] || A11Y[k].en); return i == null ? t : t + ' ' + i; }
-
-  function speak(text) {
-    try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'ui', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG), rate: 0.92 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) {
-        var u = new global.SpeechSynthesisUtterance(text); u.lang = VOICE[LANG] || 'en-US'; u.rate = 0.92; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u);
-      }
-    } catch (e) { /* audio is a scaffold; visual is the spine */ }
-  }
-
-  /* Dr. Plume — gentle grandmother-owl SVG PLACEHOLDER (CA5 swaps in via _setPose).
-     Round body, a soft coral shawl, big spectacles, ear tufts, a knitted cap. */
-  function plumeSVG() {
-    return '<svg class="sc-plume-svg" viewBox="0 0 120 120" role="img" aria-label="' + esc(a11y('owl')) + '">' +
-      '<ellipse cx="60" cy="114" rx="33" ry="6" fill="rgba(0,0,0,.08)"/>' +
-      /* ear tufts (clear triangles) */
-      '<path d="M30 40 L22 18 L46 32 Z" fill="' + C.T + '"/><path d="M90 40 L98 18 L74 32 Z" fill="' + C.T + '"/>' +
-      /* body */
-      '<path d="M24 62 Q24 26 60 26 Q96 26 96 62 Q96 100 60 102 Q24 100 24 62 Z" fill="' + C.T + '"/>' +
-      /* coral shawl at the bottom */
-      '<path d="M26 90 Q60 78 94 90 Q90 106 60 108 Q30 106 26 90 Z" fill="' + C.CORAL + '" stroke="' + C.CORAL2 + '" stroke-width="2"/>' +
-      /* big LIGHT face disc (so the face reads at small size) */
-      '<ellipse cx="60" cy="56" rx="34" ry="32" fill="#FBF3E4"/>' +
-      /* knitted cap across the brow */
-      '<path d="M27 40 Q60 18 93 40 Q93 50 60 46 Q27 50 27 40 Z" fill="' + C.T2 + '"/>' +
-      '<path d="M27 40 Q60 30 93 40" fill="none" stroke="' + C.RIM + '" stroke-width="2" opacity=".4"/>' +
-      '<circle cx="60" cy="22" r="6" fill="' + C.CORAL + '"/>' +
-      /* BIG spectacle eyes — the owl read */
-      '<circle cx="46" cy="58" r="16" fill="#fff" stroke="' + C.CORAL2 + '" stroke-width="3"/>' +
-      '<circle cx="74" cy="58" r="16" fill="#fff" stroke="' + C.CORAL2 + '" stroke-width="3"/>' +
-      '<line x1="62" y1="58" x2="58" y2="58" stroke="' + C.CORAL2 + '" stroke-width="3"/>' +
-      '<g class="sc-pl-eyes-open"><circle cx="46" cy="59" r="6.5" fill="' + C.INK + '"/><circle cx="74" cy="59" r="6.5" fill="' + C.INK + '"/><circle cx="49" cy="56" r="2.2" fill="#fff"/><circle cx="77" cy="56" r="2.2" fill="#fff"/></g>' +
-      '<g class="sc-pl-eyes-happy"><path d="M38 59 Q46 50 54 59" stroke="' + C.INK + '" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M66 59 Q74 50 82 59" stroke="' + C.INK + '" stroke-width="4" fill="none" stroke-linecap="round"/></g>' +
-      /* beak */
-      '<path d="M60 66 L52 76 L68 76 Z" fill="' + C.CORAL + '" stroke="' + C.CORAL2 + '" stroke-width="1.5"/>' +
-      '<ellipse cx="34" cy="70" rx="5" ry="3.4" fill="' + C.CORAL + '" opacity=".45"/><ellipse cx="86" cy="70" rx="5" ry="3.4" fill="' + C.CORAL + '" opacity=".45"/>' +
-      '</svg>';
-  }
-  function leafSVG() {
-    return '<svg viewBox="0 0 40 60" aria-hidden="true"><line x1="20" y1="0" x2="20" y2="34" stroke="' + C.T2 + '" stroke-width="2"/>' +
-      '<path d="M20 30 Q6 30 8 44 Q22 44 20 30 Z" fill="' + C.T2 + '"/><path d="M20 22 Q34 22 32 36 Q18 36 20 22 Z" fill="' + C.T + '"/>' +
-      '<path d="M20 40 Q10 42 12 52 Q22 50 20 40 Z" fill="' + C.GOOD + '"/></svg>';
-  }
-
-  global.SentenceClinicActivity = {
-    id: 'sentence-clinic-activity',
-
-    strings: {
-      /* sv (#25 — Lgr22, årskurs 2, «Språkliga strukturer och normer»). REBUILT, not translated:
-         Swedish has NO subject–verb agreement (barnet/barnen/jag springer are one form), so the
-         swap round could not be the family's agreement round — it teaches å → och instead.
-         ⚠⚠ THE FRAME IS `rätt skriven`, NEVER `låter rätt`. Two of the seven English faults are
-         inaudible (a missing capital, a missing full stop), and in Swedish it is three, because
-         å and och are HOMOPHONES — that is the whole teaching point. So promptSwap says `fel
-         skrivet`, soundsRight says `rätt skriven`, and giggle says `Titta`, never `Lyssna`.
-         ⚠ Check button = `Kontrollera` (the shell's sv label) in instruction + hintCheck.
-         ⚠ `Hoppsan` over `Fniss`: this string fires at the child's moment of failure and fniss
-         carries a note of being laughed AT. It also differs from the shell's `Inte än — försök igen!`.
-         ⚠ alright says `leta vidare` (wrong PLACE) and giggle says `titta igen` (right place, wrong
-         CHOICE) — matching where each actually fires: _alright on a bad diagnosis, _giggle on a
-         bad repair chip.
-         ⚠ NO ordklass metalanguage reaches the child: Lgr22 names none in åk 1–3 (they enter åk
-         4–6), so nothing says `verb` or `substantiv`. The metalanguage lives in page_title /
-         page_intro, which adults read.
-         ⚠ `mening`, NEVER `sats`: Swedish `sats` is a CLAUSE (huvudsats/bisats, åk 4+) and also
-         `batch`. Pattern-matching de's `Satzklinik` would be wrong Swedish AND wrong band. */
-      /* it (#25 fan-out — 5th it literacy, Indicazioni «riflessione linguistica», classe seconda): the 7-action
-         fix-it clinic. ⚠ Check button = «Verifica» (shell it label) in instruction + hintCheck; giggle = «Ih ih»
-         (it onomatopoeia, not en «Hi hi»); character «Dott.ssa Plume» (feminine title abbrev). «...» caporali. */
-      title:        { en: "Dr. Plume's Sentence Clinic", de: 'Dr. Plumes Satzklinik', fr: 'La clinique des phrases du Dr. Plume', es: 'La clínica de oraciones de la Dra. Plume', pt: 'A Clínica de Frases da Dra. Plume', it: 'La clinica delle frasi della Dott.ssa Plume', nl: 'Dr. Plumes zinnenkliniek', sv: 'Doktor Fjäders meningsklinik' },
-      instruction:  { en: 'Help each muddled sentence sound right again. Tap Check when it sounds good.', de: 'Hilf jedem verdrehten Satz, wieder richtig zu klingen. Tippe auf Prüfen, wenn er gut klingt.', fr: 'Aide chaque phrase mélangée à sonner juste. Touche Vérifier quand elle sonne bien.', es: 'Ayuda a que cada oración enredada suene bien otra vez. Toca Comprobar cuando suene bien.', pt: 'Ajude cada frase bagunçada a ficar certinha. Toque em Verificar quando ela ficar boa.', it: 'Aiuta ogni frase pasticciata a suonare bene. Poi tocca Verifica.', nl: 'Help elke verdraaide zin weer goed te klinken. Tik op Controleer als hij goed klinkt.', sv: 'Varje mening är lite trasslig. Laga den och tryck sedan på Kontrollera.' },
-      promptCap:    { en: 'Tap the word that needs a capital letter.', de: 'Tippe das Wort an, das einen großen Buchstaben braucht.', fr: 'Touche le mot qui a besoin d’une majuscule.', es: 'Toca la palabra que necesita mayúscula.', pt: 'Toque na palavra que precisa de letra maiúscula.', it: 'Tocca la parola che ha bisogno della lettera maiuscola.', nl: 'Tik op het woord dat een hoofdletter nodig heeft.', sv: 'Tryck på ordet som ska ha stor bokstav.' },
-      promptPunct:  { en: 'Tap the mark that finishes the sentence.', de: 'Tippe das Satzzeichen an, das den Satz beendet.', fr: 'Touche le signe qui termine la phrase.', es: 'Toca el signo que termina la oración.', pt: 'Toque no sinal que termina a frase.', it: 'Tocca il segno che chiude la frase.', nl: 'Tik op het leesteken dat de zin afmaakt.', sv: 'Tryck på tecknet som avslutar meningen.' },
-      promptSwap:   { en: "Tap the word that sounds wrong, then pick the right one.", de: 'Tippe das falsche Wort an und wähle das richtige.', fr: 'Touche le mot qui sonne faux, puis choisis le bon.', es: 'Toca la palabra que suena mal y luego elige la correcta.', pt: 'Toque na palavra que soa errada e depois escolha a certa.', it: 'Tocca la parola che suona male, poi scegli quella giusta.', nl: 'Tik op het foute woord en kies het juiste.', sv: 'Tryck på ordet som är fel skrivet. Välj sedan rätt ord.' },
-      promptInsert: { en: 'Tap the word that fills the gap.', de: 'Wähle das Wort, das in die Lücke passt.', fr: 'Choisis le mot qui remplit le trou.', es: 'Toca la palabra que llena el espacio.', pt: 'Toque na palavra que preenche o espaço.', it: 'Tocca la parola che riempie lo spazio.', nl: 'Kies het woord dat in het gaatje past.', sv: 'Tryck på ordet som passar i luckan.' },
-      promptReorder:{ en: 'Tap the words in order to build the sentence.', de: 'Tippe die Wörter der Reihe nach an, um den Satz zu bauen.', fr: 'Touche les mots dans l’ordre pour construire la phrase.', es: 'Toca las palabras en orden para formar la oración.', pt: 'Toque nas palavras em ordem para montar a frase.', it: 'Tocca le parole in ordine per costruire la frase.', nl: 'Tik de woorden op volgorde aan om de zin te bouwen.', sv: 'Tryck på orden i rätt ordning och bygg meningen.' },
-      promptDelete: { en: "Tap the word that doesn't belong.", de: 'Tippe das Wort an, das zu viel ist.', fr: 'Touche le mot qui est en trop.', es: 'Toca la palabra que sobra.', pt: 'Toque na palavra que está sobrando.', it: 'Tocca la parola che è di troppo.', nl: 'Tik op het woord dat te veel is.', sv: 'Tryck på ordet som är för mycket.' },
-      promptSplit:  { en: 'Tap where two sentences bump together.', de: 'Tippe dort, wo zwei Sätze zusammenstoßen.', fr: 'Touche l’endroit où deux phrases se cognent.', es: 'Toca donde se juntan dos oraciones.', pt: 'Toque onde duas frases se esbarram.', it: 'Tocca dove due frasi si scontrano.', nl: 'Tik waar twee zinnen tegen elkaar botsen.', sv: 'Tryck där två meningar krockar.' },
-      alright:      { en: "That one's alright — look again!", de: 'Der ist schon richtig — schau noch mal!', fr: 'C’est déjà correct — regarde encore !', es: '¡Esa está bien, mira otra vez!', pt: 'Essa aí já está certa — olhe de novo!', it: 'Quella è già giusta — guarda di nuovo!', nl: 'Die is al goed — kijk nog eens!', sv: 'Där är det redan rätt — leta vidare!' },
-      giggle:       { en: 'Hee hee — not quite. Listen again!', de: 'Hi hi — nicht ganz. Hör noch mal hin!', fr: 'Hi hi — presque ! Écoute encore.', es: '¡Ji ji, casi! ¡Escucha otra vez!', pt: 'Hi hi — quase! Escute de novo!', it: 'Ih ih — quasi! Ascolta di nuovo!', nl: 'Hihi — net niet. Luister nog eens!', sv: 'Hoppsan — inte riktigt. Titta igen!' },
-      soundsRight:  { en: 'Yes! Now it sounds right.', de: 'Ja! Jetzt klingt er richtig.', fr: 'Oui ! Maintenant, ça sonne juste.', es: '¡Sí! Ahora sí suena bien.', pt: 'Isso! Agora ficou certinho.', it: 'Sì! Adesso suona bene.', nl: 'Ja! Nu klinkt hij goed.', sv: 'Precis! Nu är meningen rätt skriven.' },
-      hintCheck:    { en: "Keep helping the sentence — then tap Check.", de: 'Hilf dem Satz weiter — tippe dann auf Prüfen.', fr: 'Aide la phrase — puis touche Vérifier.', es: 'Sigue ayudando a la oración y luego toca Comprobar.', pt: 'Continue ajudando a frase — depois toque em Verificar.', it: 'Continua ad aiutare la frase — poi tocca Verifica.', nl: 'Help de zin verder — tik dan op Controleer.', sv: 'Fortsätt laga meningen — tryck sedan på Kontrollera.' }
-    },
-
-    defaults: {},
-
-    init: function (api) {
-      this.api = api;
-      LANG = (api && api.lang) || 'en';
-      this._pool = makeTasks(Core.buildRounds()); this._order = null; this._curPass = 0; this._orderForPool = null;
-      this.round = null; this.phase = 'diagnose'; this.tokens = []; this.placed = []; this.diagnosed = -1;
-      this.readOnly = false; this.solved = 0;
-      var params = (global.location) ? new URLSearchParams(global.location.search) : null;
-      this._activityId = params ? params.get('activity') : null;
-      if (this._activityId) { this._loadActivity(); }
-    },
-
-    setupTask: function (round) {
-      this.round = round;
-      this.tokens = round.tokens.slice();
-      this.diagnosed = -1; this.placed = []; this.readOnly = false; this.solvedNow = false;
-      this._fixedIndex = -1;
-      // insert actions show the gap + option chips from the start; reorder = arrange; rest = diagnose
-      this.phase = (round.action === 'insert-punct' || round.action === 'insert-word') ? 'repair'
-        : (round.action === 'reorder') ? 'arrange' : 'diagnose';
-      var seed = 0; for (var i = 0; i < round.id.length; i++) seed = (seed * 31 + round.id.charCodeAt(i)) | 0;
-      this._optOrder = null; this._reorderTray = null; this._seed = seed;
-      if (this._msgEl) { this._msgEl.textContent = ''; this._msgEl.classList.remove('miss'); }
-    },
-
-    render: function () {
-      this.injectCSS();
-      var api = this.api, stage = api.stage; stage.innerHTML = '';
-      var wrap = api.el('div', 'sc-wrap');
-      var scene = api.el('div', 'sc-scene');
-
-      /* nook counter — a warm wood header where Dr. Plume (the host) sits, with
-         a hanging leaf sprig (treehouse-nook warmth, not a bare rectangle) */
-      var nook = api.el('div', 'sc-nook');
-      var leaf = api.el('div', 'sc-leaf'); leaf.innerHTML = leafSVG();
-      var plume = api.el('div', 'sc-plume'); plume.setAttribute('data-pose', 'idle'); plume.innerHTML = plumeSVG();
-      this._plumeEl = plume;
-      nook.append(leaf, plume);
-
-      var card = api.el('div', 'sc-card'); this._cardEl = card;
-
-      /* The feedback line — see the note above. It is also what enrolls this activity in the
-         visual-qa SCALE gate, which locates the feedback region as `.lcs-stage [aria-live]` and
-         SKIPS the check entirely when there is none: this deck has never been measured by it. */
-      var msg = api.el('p', 'sc-msg'); msg.setAttribute('aria-live', 'polite'); this._msgEl = msg;
-      card.appendChild(msg);
-
-      /* sounds-right pulse meter (only climbs) */
-      var pulse = api.el('div', 'sc-pulse');
-      var fill = api.el('div', 'sc-pulse-fill'); this._pulseFill = fill;
-      pulse.appendChild(fill);
-
-      scene.append(nook, card, pulse);
-      wrap.appendChild(scene);
-      stage.appendChild(wrap);
-      this._renderCard();
-      this._paintPulse();
-      this._setPose('idle');
-    },
-
-    _renderCard: function () {
-      var self = this, api = this.api, card = this._cardEl; card.innerHTML = '';
-      if (!this.round) return;                                   // mount-time render before the first task loads
-      if (this.round.action === 'reorder') { this._renderReorder(card); return; }
-
-      if (this._msgEl) card.appendChild(this._msgEl);
-      var sent = api.el('div', 'sc-sentence');
-      var action = this.round.action, gapIndex = this.round.gapIndex;
-      var isInsert = (action === 'insert-punct' || action === 'insert-word');
-
-      /* ⚠⚠ WRAPPING IS A TEACHING SURFACE IN THIS ACTIVITY, so the row cannot break wherever it
-         likes. Two defects came out of the 360px renders, both from free wrapping:
-           • the split round broke the line between `det` and `var` — and a line break is the
-             strongest "a sentence ends here" cue a seven-year-old has, so the LAYOUT was pointing
-             at the wrong boundary while the real seam sat mid-line. A coral seam tick was also
-             left dangling at the end of a line with no word after it.
-           • the final full stop wrapped ONTO ITS OWN LINE, centred and alone above the option
-             tray, where a narrow tall pill reads as a fourth option rather than as punctuation.
-         So chips are emitted in NON-BREAKING GROUPS: punctuation is glued to the word before it,
-         and a seam is glued to the word after it (a seam belongs to the boundary it opens). The
-         row still wraps between groups, which is the only place a break is honest. */
-      var grp = null;
-      function group(startNew) {
-        if (startNew || !grp) { grp = api.el('span', 'sc-grp'); sent.appendChild(grp); }
-        return grp;
-      }
-
-      for (var i = 0; i <= this.tokens.length; i++) {
-        // gap slot for insert actions (at gapIndex)
-        if (isInsert && i === gapIndex && !this.readOnly) {
-          var slot = api.el('span', 'sc-gap' + (this._gapFilled ? ' is-filled' : ''));
-          slot.textContent = this._gapFilled ? this._gapFilled : '';
-          slot.setAttribute('aria-label', a11y('gap'));
-          group(true).appendChild(slot);
-        }
-        if (i === this.tokens.length) break;
-        // seam (split action): a tappable gap BEFORE each word except the first
-        /* ⚠ and NEVER before a punctuation mark: a seam there offers to end the first sentence
-           immediately before the full stop, which is not a split any child should weigh. */
-        if (action === 'split' && i > 0 && !this.readOnly && /[\p{L}\p{N}]/u.test(this.tokens[i])) {
-          (function (seam) {
-            var s = api.el('button', 'sc-seam'); s.type = 'button'; s.setAttribute('aria-label', a11y('seam', i));
-            s.innerHTML = '<span class="sc-seam-mark"></span>';
-            s.addEventListener('click', function () { self._tapSeam(seam - 1); }); // seam BEFORE word i ⇒ after word i-1
-            group(true).appendChild(s);                 // opens the group its word will join
-          }(i));
-        }
-        var tok = this.tokens[i];
-        /* ⚠ A PUNCTUATION MARK IS NOT A WORD. Every token used to become a <button> in the
-           capitalize/swap/delete rounds, so tapping the full stop answered ‘that one is already
-           right’ — the activity calling a mark a word, in a deck that teaches punctuation. It was
-           also the narrowest control on screen (23px at 320, 37px at desktop) and so the thing
-           that failed the 44px tap floor in every locale. No round diagnoses a punctuation token,
-           so excluding it costs nothing and lets the mark stay narrow — which is what keeps the
-           six-token Swedish sentence on ONE row at desktop. */
-        var isWord = /[\p{L}\p{N}]/u.test(tok);
-        var chip = api.el(this._tappableWord(action) && !this.readOnly && isWord ? 'button' : 'span', 'sc-chip' + (isWord ? '' : ' sc-punct'));
-        if (chip.tagName === 'BUTTON') chip.type = 'button';
-        chip.textContent = tok;
-        /* ⚠ COral MUST MEAN EXACTLY ONE THING — "look again". `is-target` is the coral pulsing ring
-           on the word the child diagnosed, and `diagnosed` is never cleared, so it survived onto the
-           SOLVED card: a coral ring around `och` directly under the words "Precis! Nu är meningen
-           rätt skriven." Once the round is done the same word is marked GREEN, matching `.sc-placed`,
-           so green says repaired and coral only ever says look again. */
-        if (this.readOnly && i === this._fixedIndex) chip.classList.add('is-fixed');
-        else if (this.diagnosed === i && action === 'swap') chip.classList.add('is-target');
-        if (this._tappableWord(action) && !this.readOnly && isWord) {
-          (function (idx) { chip.addEventListener('click', function () { self._tapWord(idx); }); }(i));
-        }
-        /* a WORD opens a group unless a seam just opened one for it; PUNCTUATION always joins the
-           group already open, so a mark can never wrap away from the word it belongs to */
-        group(isWord && !(action === 'split' && i > 0 && !this.readOnly)).appendChild(chip);
-      }
-      card.appendChild(sent);
-
-      /* repair chip tray — swap (after diagnosis) or insert (always) */
-      var showOpts = (action === 'swap' && this.phase === 'repair') || isInsert;
-      if (showOpts && !this.readOnly) {
-        var opts = Core.repairOptions(this.round) || [];
-        if (!this._optOrder || this._optOrder.length !== opts.length) this._optOrder = shuffledOrder(opts.length, null).map(function (k) { return k; });
-        var tray = api.el('div', 'sc-tray');
-        this._optOrder.forEach(function (k) {
-          var val = opts[k];
-          var b = api.el('button', 'sc-opt'); b.type = 'button'; b.textContent = val;
-          b.addEventListener('click', function () { self._tapOption(val); });
-          tray.appendChild(b);
-        });
-        card.appendChild(tray);
-      }
-
-      /* the kid-rule caption (shown once solved — teaching rides the success) */
-      if (this.readOnly) {
-        var rule = api.el('div', 'sc-rule'); rule.textContent = this.round.convention; card.appendChild(rule);
-      }
-    },
-
-    _renderReorder: function (card) {
-      var self = this, api = this.api, total = this.round.tokens.length;
-      if (this._msgEl) card.appendChild(this._msgEl);
-      /* a row of slots (one per word) — filled slots show the placed word, empty
-         slots glow as clear "drop a word here" targets (the tray→line wiring). */
-      var build = api.el('div', 'sc-sentence sc-build');
-      for (var pos = 0; pos < total; pos++) {
-        if (pos < this.placed.length) {
-          var ti = this.placed[pos];
-          var b = api.el('button', 'sc-chip sc-placed'); b.type = 'button'; b.textContent = this.round.tokens[ti];
-          if (!this.readOnly) (function (p) { b.addEventListener('click', function () { self._unplace(p); }); }(pos));
-          build.appendChild(b);
-        } else {
-          var slot = api.el('span', 'sc-slot' + (pos === this.placed.length && !this.readOnly ? ' is-next' : ''));
-          slot.setAttribute('aria-label', a11y('gap', pos + 1));
-          build.appendChild(slot);
-        }
-      }
-      card.appendChild(build);
-
-      if (!this.readOnly) {
-        var tray = api.el('div', 'sc-tray');
-        this.round.tokens.forEach(function (tok, ti) {
-          if (self.placed.indexOf(ti) >= 0) return;       // already placed
-          var b = api.el('button', 'sc-opt'); b.type = 'button'; b.textContent = tok;
-          b.addEventListener('click', function () { self._place(ti); });
-          tray.appendChild(b);
-        });
-        card.appendChild(tray);
-      }
-      if (this.readOnly) { var rule = api.el('div', 'sc-rule'); rule.textContent = this.round.convention; card.appendChild(rule); }
-    },
-
-    _tappableWord: function (action) { return action === 'capitalize' || action === 'swap' || action === 'delete'; },
-
-    _tapWord: function (i) {
-      if (this.readOnly) return;
-      var a = this.round.action;
-      if (a === 'swap' && this.phase === 'repair') { return; } // words locked once diagnosed
-      if (Core.diagnoseCorrect(this.round, i)) {
-        if (a === 'capitalize' || a === 'delete') {
-          if (a === 'capitalize') this._fixedIndex = this.round.targetIndex;   // delete removes a token: nothing to mark
-          this.tokens = Core.applyRepair(this.round); this._win();
-        } else if (a === 'swap') {
-          this.diagnosed = i; this.phase = 'repair'; this._setPose('examine'); this.api.sound && this.api.sound(660);
-          this._renderCard();
-        }
-      } else { this._alright(); }
-    },
-
-    _tapSeam: function (afterIndex) {
-      if (this.readOnly) return;
-      if (Core.diagnoseCorrect(this.round, afterIndex)) { this._fixedIndex = this.round.seamIndex + 1; this.tokens = Core.applyRepair(this.round); this._win(); }
-      else this._alright();
-    },
-
-    _tapOption: function (val) {
-      if (this.readOnly) return;
-      if (Core.repairCorrect(this.round, val)) {
-        if (this.round.action === 'swap') { this._fixedIndex = this.round.targetIndex; this.tokens = Core.applyRepair(this.round); }
-        else { this._gapFilled = val; this._fixedIndex = this.round.gapIndex; this.tokens = Core.applyRepair(this.round); }
-        this._win();
-      } else { this._giggle(); }
-    },
-
-    _place: function (ti) { if (this.readOnly) return; this.placed.push(ti); this.api.sound && this.api.sound(620); this._renderCard(); this._maybeReorderDone(); },
-    _unplace: function (pos) { if (this.readOnly) return; this.placed.splice(pos, 1); this._renderCard(); },
-    _maybeReorderDone: function () {
-      if (this.placed.length !== this.round.tokens.length) return;
-      if (Core.repairCorrect(this.round, this.placed.slice())) { this.tokens = Core.applyRepair(this.round); this._win(); }
-      else { this._giggle(); var self = this; setTimeout(function () { self.placed = []; self._renderCard(); }, 600); }
-    },
-
-    _win: function () {
-      this.readOnly = true; this.solvedNow = true; this.phase = 'done';
-      this._gapFilled = null;
-      this._setPose('happy'); this.api.sound && this.api.sound(880);
-      this.solved = Math.min(this.solved + 1, (this._pool && this._pool.length) || 7);
-      this._renderCard(); this._paintPulse(); this._sparkle();
-      this._say(this.api.t('soundsRight'), false);
-      speak(Core.applyRepair(this.round).join(' ').replace(/ \./g, '.').replace(/ ,/g, ',').replace(/ \?/g, '?').replace(/ !/g, '!'));
-    },
-    _alright: function () { this._setPose('examine'); this.api.sound && this.api.sound(520); this._say(this.api.t('alright'), false); },
-    _giggle: function () {
-      this._setPose('examine'); this.api.sound && this.api.sound(360);
-      this._say(interp(this.api.t('giggle'), {}), true);
-      var card = this._cardEl; if (card) { card.classList.add('sc-giggle'); var self = this; setTimeout(function () { card.classList.remove('sc-giggle'); }, 480); }
-    },
-
-    _paintPulse: function () { if (this._pulseFill) { var n = (this._pool && this._pool.length) || 7; this._pulseFill.style.width = Math.round(100 * this.solved / n) + '%'; } },
-    /* ONE place paints the line, so the visible and the announced text can never disagree.
-       `miss` is reserved for a wrong REPAIR: _alright is informational ("that one is already
-       right"), not an error, and colouring it as one would contradict its own sentence. */
-    _say: function (text, miss) {
-      var m = this._msgEl; if (m) { m.textContent = text; m.classList.toggle('miss', !!miss); }
-      if (this.api.announce) this.api.announce(text);
-    },
-    _setPose: function (name) { if (this._plumeEl) this._plumeEl.setAttribute('data-pose', name === 'happy' ? 'happy' : 'idle'); },
-    _sparkle: function () {
-      if (global.matchMedia && global.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-      var card = this._cardEl; if (!card) return;
-      var s = document.createElement('span'); s.className = 'sc-sparkle'; s.textContent = '✦';
-      card.appendChild(s); setTimeout(function () { if (s.parentNode) s.parentNode.removeChild(s); }, 700);
-    },
-    isCorrect: function () { return this.phase === 'done'; },
-    reset: function () { this.setupTask(this.round); this.render(); },
-
-    nextTask: function (opts) {
-      var pool = (this._pool && this._pool.length) ? this._pool : makeTasks(Core.buildRounds());
-      var n = pool.length, i = (opts && opts.index) || 0;
-      if (!this._order || this._orderForPool !== pool || this._order.length !== n) { this._order = bandOrder(pool, null); this._orderForPool = pool; this._curPass = 0; }
-      var pass = (n > 0) ? Math.floor(i / n) : 0;
-      if (pass > this._curPass) { this._order = bandOrder(pool, this._order); this._curPass = pass; }
-      return pool[this._order[i % n]];
-    },
-
-    _loadActivity: function () {
-      var self = this;
-      fetch('/mini-tools/sentence-clinic-activities.json').then(function (r) {
-        if (!r.ok) throw new Error('manifest ' + r.status); return r.json();
-      }).then(function (rows) {
-        var row = rows.find(function (r) { return r.id === self._activityId; });
-        if (!row) return;
-        self._activityRow = row;
-        self._pool = self._buildTasksFromRow(row);
-        self._order = null;
-        if (typeof global.LCS_reloadFirstTask === 'function') global.LCS_reloadFirstTask();
-      }).catch(function (e) { if (global.console && console.warn) console.warn('[sentence-clinic] manifest load failed; fallback:', e.message); });
-    },
-
-    _buildTasksFromRow: function (row) {
-      if (row.params && Array.isArray(row.params.rounds)) {
-        var rs = (row.params.roundsL10n && row.params.roundsL10n[LANG]) || row.params.rounds;
-        return makeTasks(rs.map(function (r) { return JSON.parse(JSON.stringify(r)); }));
-      }
-      return makeTasks(Core.buildRounds());
-    },
-
-    injectCSS: function () {
-      if (this._cssInjected) return; this._cssInjected = true;
-      var css = ''
-        + '.sc-wrap{display:flex;flex-direction:column;align-items:center;gap:clamp(5px,1.4vw,9px);width:100%;max-width:min(96vw,640px);margin:0 auto;}'
-        /* the nook HUGS its content (no wide empty desktop band) */
-        + '.sc-scene{position:relative;display:flex;flex-direction:column;align-items:stretch;gap:clamp(6px,1.6vw,10px);width:fit-content;max-width:min(94vw,500px);margin:0 auto;'
-        +   'background:linear-gradient(180deg,#FBF3E4,#F4E7CF);border:2.5px solid rgba(20,107,94,.18);border-radius:24px;padding:0 clamp(11px,2.6vw,20px) clamp(10px,2.4vw,16px);'
-        +   'box-shadow:0 6px 0 rgba(20,107,94,.10),inset 0 2px 0 rgba(255,255,255,.5);overflow:visible;}'
-        /* wood counter where Dr. Plume (the host) sits */
-        /* the wood is only a SHELF at the base (transparent above) so Dr. Plume\'s
-           full body + shawl show — she stands ON the counter, not behind it. */
-        + '.sc-nook{position:relative;display:flex;justify-content:center;align-items:flex-end;background:linear-gradient(180deg,transparent 0,transparent 62%,#D8AE7C 62%,#BE8B5E 100%);border-radius:0 0 16px 16px;margin:0 calc(clamp(11px,2.6vw,20px) * -0.6) clamp(2px,1vw,5px);padding-top:clamp(3px,1vw,6px);}'
-        + '.sc-plume{width:clamp(72px,15.5vw,94px);flex:0 0 auto;margin-bottom:-2px;}'
-        + '.sc-plume-svg{width:100%;height:auto;display:block;overflow:visible;}'
-        + '.sc-leaf{position:absolute;top:-12px;right:6px;width:clamp(20px,5.5vw,30px);}'
-        + '.sc-leaf svg{width:100%;height:auto;display:block;}'
-        + '.sc-card{position:relative;display:flex;flex-direction:column;align-items:center;gap:clamp(6px,1.6vw,11px);background:var(--lcs-card,#FBF3E4);border:2px solid rgba(20,107,94,.16);border-radius:16px;padding:clamp(9px,2.2vw,15px);min-height:52px;}'
-        + '.sc-card.sc-giggle{animation:scGiggle .46s ease;}'
-        + '@keyframes scGiggle{0%,100%{transform:translateX(0) rotate(0);}25%{transform:translateX(-4px) rotate(-1.5deg);}75%{transform:translateX(4px) rotate(1.5deg);}}'
-        /* the sentence — word chips */
-        + '.sc-sentence{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:clamp(5px,1.4vw,9px);}'
-        /* a non-breaking group: punctuation stays with its word, a seam with the word it opens */
-        + '.sc-grp{display:inline-flex;align-items:center;gap:clamp(5px,1.4vw,9px);}'
-        + '.sc-chip{font-family:"Baloo 2",var(--lcs-font-display,sans-serif);font-weight:700;font-size:clamp(16px,4.4vw,22px);color:' + C.T + ';'
-        +   'background:#FFFDF7;border:2px solid rgba(20,107,94,.2);border-radius:12px;padding:clamp(6px,1.6vw,10px) clamp(9px,2.4vw,14px);line-height:1;min-height:44px;min-width:44px;display:inline-flex;align-items:center;justify-content:center;cursor:default;}'
-        + 'button.sc-chip{cursor:pointer;-webkit-tap-highlight-color:transparent;touch-action:manipulation;transition:transform .1s,border-color .15s,box-shadow .15s;}'
-        + 'button.sc-chip:active{transform:scale(.96);}'
-        + 'button.sc-chip:focus-visible,.sc-opt:focus-visible,.sc-seam:focus-visible{outline:3px solid var(--lcs-focus,#1E8FD4);outline-offset:2px;}'
-        + '.sc-chip.is-target{border-color:' + C.GOOD + ';box-shadow:0 0 0 3px rgba(47,165,106,.25),0 0 12px rgba(47,165,106,.4);animation:scFound 1.2s ease-in-out infinite;}'
-        + '@keyframes scFound{0%,100%{box-shadow:0 0 0 3px rgba(47,165,106,.22),0 0 8px rgba(47,165,106,.3);}50%{box-shadow:0 0 0 3px rgba(47,165,106,.32),0 0 16px rgba(47,165,106,.5);}}'
-        + '@keyframes scGlow{0%,100%{box-shadow:0 0 0 3px rgba(242,120,75,.22),0 0 8px rgba(242,120,75,.3);}50%{box-shadow:0 0 0 3px rgba(242,120,75,.32),0 0 16px rgba(242,120,75,.5);}}'
-        /* a mark is not a control, so the 44px floor does not apply to it — and keeping it
-           narrow is what stops the sentence wrapping to a second row. */
-        + '.sc-chip.sc-punct{min-width:0;padding-left:clamp(5px,1.4vw,8px);padding-right:clamp(5px,1.4vw,8px);}'
-        + '.sc-chip.is-fixed{background:#EAF7EF;border-color:' + C.GOOD + ';box-shadow:0 0 0 2px rgba(47,165,106,.28);}'
-        + '.sc-placed{background:#EAF7EF;border-color:' + C.GOOD + ';}'
-        + '.sc-build{min-height:48px;}'
-        /* reorder empty slots — clear "drop a word here" targets */
-        + '.sc-slot{min-width:clamp(44px,11vw,58px);min-height:44px;border-radius:12px;background:rgba(20,107,94,.06);box-shadow:inset 0 0 0 2px rgba(20,107,94,.18);display:inline-block;}'
-        + '.sc-slot.is-next{box-shadow:inset 0 0 0 2px rgba(242,120,75,.55),inset 0 0 10px rgba(242,120,75,.3);animation:scGlow 1.3s ease-in-out infinite;}'
-        /* gap slot (insert) — a soft empty notch with a glow (no dashed ghost) */
-        + '.sc-gap{min-width:clamp(44px,9vw,46px);min-height:44px;display:inline-flex;align-items:center;justify-content:center;border-radius:12px;'
-        +   'background:rgba(20,107,94,.07);box-shadow:inset 0 0 0 2px rgba(242,120,75,.4),0 0 10px rgba(242,120,75,.25) inset;font-weight:800;color:' + C.T + ';font-size:clamp(16px,4.4vw,22px);animation:scGlow 1.3s ease-in-out infinite;}'
-        + '.sc-gap.is-filled{background:#EAF7EF;box-shadow:inset 0 0 0 2px ' + C.GOOD + ';animation:none;}'
-        /* seam (split) — a tappable hairline between words */
-        /* ⚠ THE SEAM IS 44px TO THE FINGER AND 14px TO THE LAYOUT. It shipped at 14px wide — the
-           only control of the split round, and far under the tap floor. But a split sentence has
-           one seam before every word except the first, so five honest 44px boxes eat 220px of a
-           320px screen and wrapped the sentence into rows that pushed Check past the fold in three
-           locales. The negative margin gives the element a real 44px hit box while it contributes
-           only 14px of width, and it is safe BY CONSTRUCTION rather than by tuning: `_tappableWord`
-           is false for `split`, so in the only round where seams exist the neighbouring chips are
-           <span>s and there is no control for the overhang to steal a tap from. */
-        + '.sc-seam{align-self:stretch;min-width:44px;min-height:44px;margin-left:-15px;margin-right:-15px;background:none;border:0;padding:0 1px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;-webkit-tap-highlight-color:transparent;}'
-        + '.sc-seam-mark{width:4px;height:60%;border-radius:3px;background:rgba(242,120,75,.45);animation:scSeam 1.2s ease-in-out infinite;}'
-        + '@keyframes scSeam{0%,100%{opacity:.4;}50%{opacity:.9;}}'
-        /* repair option chips */
-        + '.sc-tray{display:flex;flex-wrap:wrap;justify-content:center;gap:clamp(6px,1.8vw,12px);padding-top:2px;}'
-        + '.sc-opt{font-family:"Baloo 2",var(--lcs-font-display,sans-serif);font-weight:700;font-size:clamp(15px,4vw,20px);color:#fff;background:' + C.T + ';border:0;border-radius:12px;'
-        +   'padding:clamp(8px,2vw,11px) clamp(12px,3vw,18px);min-height:44px;min-width:44px;cursor:pointer;box-shadow:0 3px 0 rgba(20,107,94,.4);-webkit-tap-highlight-color:transparent;touch-action:manipulation;transition:transform .1s,box-shadow .1s;}'
-        + '.sc-opt:active{transform:translateY(2px);box-shadow:0 1px 0 rgba(20,107,94,.4);}'
-        + '.sc-rule{font-family:"Nunito",sans-serif;font-weight:700;font-size:clamp(12px,3vw,15px);color:' + C.T + ';text-align:center;}'
-        /* the feedback line. min-height reserves the row so appearing text cannot shift the
-           layout under the FITS gate; the size GROWS with the card (the SCALE gate). */
-        + '.sc-msg{margin:0;min-height:1.15em;text-align:center;font-family:"Nunito",sans-serif;font-weight:700;font-size:clamp(13px,3.2vw,17px);line-height:1.3;padding:0 6px;color:' + C.T + ';}'
-        + '.sc-msg.miss{color:' + C.MISS + ';}'
-        /* pulse meter */
-        + '.sc-pulse{width:min(86%,320px);align-self:center;height:10px;border-radius:6px;background:rgba(20,107,94,.12);overflow:hidden;}'
-        + '.sc-pulse-fill{height:100%;width:0;border-radius:6px;background:linear-gradient(90deg,' + C.T2 + ',' + C.GOOD + ');transition:width .4s var(--lcs-ease,ease);}'
-        /* Plume pose */
-        + '.sc-pl-eyes-happy{display:none;} .sc-plume[data-pose="happy"] .sc-pl-eyes-open{display:none;} .sc-plume[data-pose="happy"] .sc-pl-eyes-happy{display:inline;}'
-        + '.sc-sparkle{position:absolute;left:50%;top:2px;transform:translateX(-50%);color:' + C.CORAL + ';font-size:20px;animation:scSpark .7s ease forwards;pointer-events:none;}'
-        + '@keyframes scSpark{0%{opacity:0;transform:translate(-50%,6px) scale(.5);}30%{opacity:1;}100%{opacity:0;transform:translate(-50%,-22px) scale(1.1);}}'
-        /* ⚠ DESKTOP HEADROOM. The .sc-msg feedback line added in this build costs a real 31px
-           (a 20px reserved row + the card's own gap), measured en 762→793 / 831→862 at 1024×900.
-           English clears 900 with it; Swedish does not, because the sv prompt wraps to more lines
-           — the recorded 'Swedish copy is the longest in the family' trap, which already left a
-           sibling 3px from an overflow. Reclaim the 31px from this activity's own generous
-           desktop padding rather than shrinking the owl (sv #24: the mascot reading as a stray
-           emoji at desktop was itself a defect) and rather than touching the shell.
-           ⚠ This block sits AFTER the rules it overrides — a media query adds NO specificity, so
-           placing it earlier would silently lose. It is disjoint from the max-width:360 block. */
-        + '@media (min-width:768px){'
-        /* ⚠ AND GIVE THE SENTENCE ROOM. The scene is capped at 500px even on a 1366px screen, and
-           `Jag och min bror cyklar .` measures ~467px against ~455px of content width — so it
-           wrapped to a SECOND ROW, and that row, not the message line, is what pushed Check below
-           a 900px fold. The horizontal room was there and unused; widening is the honest fix,
-           where shaving the type or the owl would have been shaving to pass. */
-        +   '.sc-scene{max-width:min(94vw,580px);gap:6px;padding-bottom:10px;}'
-        /* ⚠⚠ AND BRING THE PROMPT DOWN TO MEET THE CONTENT. The shell gives the prompt
-           clamp(22px,6vh,48px), which pins to 48px on a desktop viewport while the sentence chips
-           are 22px — the INVARIANT question rendered nearly twice the size of the only thing on
-           screen the child has to read to answer it, and taking more vertical space than the whole
-           card. This is the sv #24 inverted-hierarchy defect, and no gate can see it: the SCALE
-           check only asks whether the feedback line grows. Read off the render, not measured by an
-           instrument. 28px still leads the 22px chips, so the prompt stays the heading it is. */
-        +   '.lcs-app.activity .lcs-activity-prompt{font-size:clamp(24px,2.6vw,30px);}'
-        +   '.sc-card{gap:7px;}'
-        +   '.sc-nook{margin-bottom:2px;}'
-        + '}'
-        /* narrowest phones (Galaxy Fold cover ~320px) — the tray rounds add a
-           second chip row; shave the panel so the card + Check clear the fold. */
-        + '@media (max-width:360px){'
-        /* ⚠ WIDTH, NOT HEIGHT, IS WHAT BREAKS THE FOLD COVER. Measured at 320: the scene renders
-           243px (the shell's own padding takes 77 of the 320), leaving the card ~211px of inner
-           width against a 227px three-option tray — so the tray wrapped to a second row, and it is
-           that row, not the type size, that pushed Check past 640. Giving the two boxes back 20px
-           of horizontal padding un-wraps it and buys ~48px of height, without shrinking a single
-           thing the child reads or taps. */
-        +   '.sc-scene{padding:6px 2px;gap:3px;} .sc-board{gap:5px;} .sc-plume{width:38px;} .sc-card{padding:6px 2px;gap:4px;}'
-        +   '.sc-chip,.sc-opt{font-size:15px;min-height:44px;padding:4px 6px;} .sc-gap,.sc-seam{min-height:44px;} .sc-pulse{height:7px;}'
-        /* ⚠ AND SCOPE THE SHELL PROMPT DOWN — on the Fold cover only. The prompt is
-           clamp(22px,4.2vmin,32px), so at 320 it pins to 22px while the sentence chips are 15px:
-           the INVARIANT question rendered half again the size of the one thing on screen the child
-           must read to answer it, wrapping to four lines and pushing Check past the fold in
-           fr/pt/it. That is the sv #24 inverted-hierarchy finding at the other end of the range.
-           18px still sits above the 15px chips, so the hierarchy is preserved, not flipped.
-           ⚠ 0 lines to lcs-shell.css: this is a same-specificity override in the activity's own
-           injected stylesheet, which the document head loads AFTER the shell's. */
-        /* ⚠⚠ AND IT MUST CARRY THE SHELL'S OWN SPECIFICITY. The strongest shell rule is
-           `.lcs-app.activity .lcs-activity-prompt` — TWO classes — so a single-class override loses
-           however late it is injected, and it loses SILENTLY: the computed size stayed put while
-           the declaration sat in the stylesheet looking applied. Same family as the recorded
-           "a media query adds no specificity" trap. Matched here, not forced with !important. */
-        +   '.lcs-app.activity .lcs-activity-prompt{font-size:17px;line-height:1.12;padding-top:2px;}'
-        + '}'
-        + '@media (prefers-reduced-motion: reduce){.sc-chip.is-target,.sc-gap,.sc-seam-mark,.sc-giggle,.sc-sparkle{animation:none;}}';
-      var tag = document.createElement('style'); tag.setAttribute('data-sentence-clinic', ''); tag.textContent = css;
-      document.head.appendChild(tag);
+    wrap.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') { self._view.tool = null; self._view.swapFrom = null; self._view.drawer = null; self._paint(); }
+      if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) { e.preventDefault(); self._check(); }
+    });
+    api.stage.appendChild(wrap);
+    this._paint();
+  },
+  _paint: function () {
+    if (!this._wrap) return;
+    var a = document.activeElement, had = !!(a && this._wrap.contains(a)), sel = null;
+    if (had && a !== this._wrap && a.getAttribute && a.getAttribute('data-k')) sel = '[data-k="' + a.getAttribute('data-k') + '"]';
+    this._paint_();
+    if (had) { var nx = sel ? this._wrap.querySelector(sel) : null; (nx && !nx.disabled ? nx : this._wrap).focus(); }
+  },
+  _paint_: function () {
+    var st = this.st, v = this._view, W = this._width(), wide = W >= 600, cramp = W < 340;
+    this._g = { W: W, wide: wide, cramp: cramp };
+    this._wrap.setAttribute('lang', this._loc());
+    this._wrap.className = 'sc-wrap is-' + st.level + (wide ? ' is-wide' : ' is-narrow') + (cramp ? ' is-cramp' : '') + (st.done ? ' is-done' : '') + (v.tool ? ' has-tool tool-' + this._toolCls(v.tool) : '') + (v.spot != null ? ' is-spot' : '') + (v.playing ? ' is-playing' : '');
+    this._paintBed(); this._paintDrawer(); this._paintTray();
+    var h = this._qs('.sc-hint');
+    h.textContent = v.note || ''; h.className = 'sc-hint' + (v.note && !v.soft ? ' is-hint' : '');
+    this._setPrompt();
+  },
+  _toolCls: function (t) { return { '.': 'stop', '?': 'ask', '!': 'excl' }[t] || t; },
+  /* the words as they read now: capitals rise after a stop; es ¿ ¡ open a sentence that ends in ? ! */
+  _words: function () {
+    var st = this.st, loc = st.loc, C = SentenceClinicCore, out = [];
+    if (st.level === 'three') {
+      st.words.forEach(function (w, i) { out.push({ w: w.w, i: i, lead: '' }); });
+      if (loc === 'es' && (st.mark === '?' || st.mark === '!') && out.length) out[0].lead = st.mark === '?' ? '¿' : '¡';
+      return out;
     }
-  };
-
-  var PROMPT_FOR = {
-    capitalize: 'promptCap', 'insert-punct': 'promptPunct', swap: 'promptSwap',
-    'insert-word': 'promptInsert', reorder: 'promptReorder', delete: 'promptDelete', split: 'promptSplit'
-  };
-  function makeTasks(rounds) {
-    return rounds.map(function (r) {
-      return {
-        id: 'sentence-clinic.' + r.id,
-        band: r.band,
-        promptKey: PROMPT_FOR[r.action] || 'promptSwap',         // static per-action prompt (covers the whole action)
-        promptArgs: {},
-        answerType: 'state',
-        setup: function (tool) { tool.setupTask(r); },
-        check: function (tool) { var ok = tool.isCorrect(); if (ok) { tool.readOnly = true; } return ok; },
-        hintKey: function () { return 'hintCheck'; }
-      };
+    var r = st.round, start = 0;
+    r.tokens.forEach(function (t, i) {
+      var cap = i === 0 || !!st.marks[i - 1];
+      out.push({ w: cap ? C.cap(t, loc) : t, i: i, lead: '' });
+      if (st.marks[i] || i === r.tokens.length - 1) {
+        if (loc === 'es' && (st.marks[i] === '?' || st.marks[i] === '!')) out[start].lead = st.marks[i] === '?' ? '¿' : '¡';
+        start = i + 1;
+      }
     });
-  }
-
-  /* band-grouped reshuffle (keep the band ramp; shuffle within band per pass). */
-  function bandOrder(pool, prev) {
-    var byBand = {};
-    pool.forEach(function (t, i) { (byBand[t.band] = byBand[t.band] || []).push(i); });
-    var bands = Object.keys(byBand).sort(function (a, b) { return a - b; });
-    var out, attempts = 0;
-    do {
-      out = [];
-      bands.forEach(function (b) {
-        var g = byBand[b].slice();
-        for (var i = g.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = g[i]; g[i] = g[j]; g[j] = t; }
-        out = out.concat(g);
-      });
-      attempts++;
-    } while (prev && out.join(',') === prev.join(',') && attempts < 12 && pool.length > 1);
     return out;
-  }
+  },
+  /* the events of the last listen, by place */
+  _evAt: function () {
+    var v = this._view, gap = {}, word = {};
+    (v.events || []).forEach(function (e, n) { e.n = n; if (e.type === 'offkey' || e.type === 'backbeat' || e.type === 'doublebeat') word[e.at] = e; else gap[e.at] = e; });
+    return { gap: gap, word: word };
+  },
+  _isTrouble: function (e) { return !!e && ['kink', 'runoff', 'knot', 'sag', 'flatgap', 'doublebeat', 'backbeat', 'offkey'].indexOf(e.type) >= 0; },
+  /* the tune drawn faintly before Check (setting "Shows the tune first") */
+  _tuneAt: function () {
+    var st = this.st, o = {};
+    if (!this._tuneFirst() || st.level === 'three') return o;
+    st.round.units.forEach(function (u) { o[u.to] = u.tune; });
+    return o;
+  },
+  _paintBed: function () {
+    var st = this.st, v = this._view, el = this._qs('.sc-bed'), self = this, C = SentenceClinicCore;
+    var words = this._words(), ev = this._evAt(), show = !!v.events, n = words.length, tune = this._tuneAt();
+    var targets = st.level === 'three' ? null : C.targets(st);
+    var html = '<div class="sc-line-row">';
+    words.forEach(function (x, idx) {
+      var i = x.i, we = show ? ev.word[i] : null, order = idx;
+      var beat = self._beat(we, show, order);
+      var isTile = st.level === 'three';
+      var tcls = 'sc-tile' + (v.swapFrom === i ? ' is-sel' : '') + (st.level === 'three' && C.wheelAt(st) === i && v.tool === 'wheel' ? ' is-target' : '') + (we && self._isTrouble(we) && (v.frozen || v.playing) ? ' is-bad' : '') + (v.spot === 'w' + i ? ' is-spot' : '');
+      html += '<span class="sc-u"><span class="sc-w">' + (isTile
+        ? '<button type="button" class="' + tcls + '" data-k="w-' + i + '" aria-label="' + self._esc(self._t('aWord', { w: x.w })) + '"' + (st.done ? ' disabled' : '') + '>' + self._esc(x.lead + x.w) + '</button>'
+        : '<span class="' + tcls + '">' + self._esc(x.lead + x.w) + '</span>') + beat + '</span>';
+      /* the gap after this word */
+      var g = i, isEnd = idx === n - 1, key = st.level === 'three' ? (isEnd ? 'end' : g) : g;
+      var ge = show ? ev.gap[st.level === 'three' ? (isEnd ? 'end' : g) : g] : null;
+      var mark = st.level === 'three' ? (isEnd ? st.mark : null) : st.marks[g];
+      var cutHere = st.level === 'two' && st.cuts[g];
+      var clickable = !st.done && (st.level === 'three' ? (isEnd || v.tool === 'ins') : targets.indexOf(g) >= 0);
+      var piece = self._end(ge, show, order + 0.5, tune[g]);
+      var mk = mark ? (st.loc === 'fr' && mark !== '.' ? ' ' : '') + mark : '';
+      var gcls = 'sc-gap' + (mark ? ' has-mark' : '') + (cutHere ? ' is-cut' : '') + (clickable ? ' is-live' : '') + (isEnd ? ' is-end' : '') + (ge && self._isTrouble(ge) && (v.frozen || v.playing) ? ' is-bad' : '') + (v.spot === 'g' + key ? ' is-spot' : '');
+      var lab = self._t('aGap', { w: x.w }) + (mark ? ' ' + mark : '');
+      html += clickable
+        ? '<button type="button" class="' + gcls + '" data-k="gap-' + key + '" aria-label="' + self._esc(lab) + '"><span class="sc-mk">' + self._esc(mk) + '</span>' + piece + '</button>'
+        : '<span class="' + gcls + '"><span class="sc-mk">' + self._esc(mk) + '</span>' + piece + '</span>';
+      html += '</span>';
+    });
+    html += '</div>';
+    if (st.level === 'three' && st.lifted.length) {
+      html += '<div class="sc-lifted">' + st.lifted.map(function (x, j) { return '<button type="button" class="sc-ghost" data-k="back-' + j + '" aria-label="' + self._esc(self._t('aPutBack', { w: x.w })) + '"' + (st.done ? ' disabled' : '') + '>' + self._esc(x.w) + '</button>'; }).join('') + '</div>';
+    }
+    el.innerHTML = '<div class="sc-badge" aria-hidden="true"><svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="19" fill="#146B5E"/><path d="M6 21h7l3-7 5 14 4-10 3 3h6" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>' + html;
+    el.className = 'sc-bed' + (st.done ? ' is-cured' : '');
+  },
+  /* one beat under a word: a bump; off-key = jagged; backward = an arrowhead pointing back; double = two bumps */
+  _beat: function (e, show, order) {
+    var t = e ? e.type : 'beat', bad = this._isTrouble(e), d;
+    if (t === 'offkey') d = 'M0 14 L18 6 L32 15 L48 3 L64 15 L80 5 L100 14';
+    else if (t === 'backbeat') d = 'M100 14 Q50 2 0 14 M14 6 L0 14 L16 18';
+    else if (t === 'doublebeat') d = 'M0 14 Q25 2 50 14 Q75 2 100 14';
+    else d = 'M0 14 Q50 4 100 14';
+    var cls = 'sc-beat' + (show ? ' is-drawn' : '') + (bad ? ' is-bad' : '');
+    return '<svg class="' + cls + '" viewBox="0 0 100 22" preserveAspectRatio="none" aria-hidden="true" style="animation-delay:' + (this.FAST ? 0 : Math.round(order * this.BEAT_MS)) + 'ms"><path d="' + d + '"/></svg>';
+  },
+  /* the line in a gap: rest-curl, open hook, spike, kink, run-off, knot, sag, flat gap — or the faint tune before Check */
+  _end: function (e, show, order, tune) {
+    var t = e ? e.type : null, d = 'M0 14 H100', cls = 'sc-end';
+    if (show && t) {
+      d = { rest: 'M0 14 C30 14 50 16 62 12 C74 7 90 9 84 15 C80 19 70 16 74 13', hook: 'M0 14 C30 14 55 8 72 3 C82 0 92 3 88 9', spike: 'M0 14 L40 1 L58 16 L100 14',
+        kink: 'M0 14 L20 3 L40 18 L60 2 L80 16 L100 6', runoff: 'M0 14 H100', knot: 'M0 14 C30 14 70 -4 56 10 C44 22 20 8 50 6 C76 4 80 14 100 14', sag: 'M0 14 Q50 30 100 14',
+        flatgap: 'M0 14 H100' }[t] || d;
+      cls += ' is-drawn is-' + t + (this._isTrouble(e) ? ' is-bad' : '');
+    } else if (show) cls += ' is-drawn';
+    else if (tune) { d = tune === 'A' ? 'M0 14 C40 14 70 6 92 2' : 'M0 10 C40 10 70 16 92 16'; cls += ' is-tune'; }
+    return '<svg class="' + cls + '" viewBox="0 0 100 26" preserveAspectRatio="none" aria-hidden="true" style="animation-delay:' + (this.FAST ? 0 : Math.round(order * this.BEAT_MS)) + 'ms"><path d="' + d + '"/></svg>';
+  },
+  /* the word drawer (add a word / change a word) */
+  _paintDrawer: function () {
+    var v = this._view, el = this._qs('.sc-drawer'), self = this;
+    if (!v.drawer || this.st.done) { el.innerHTML = ''; el.className = 'sc-drawer'; return; }
+    el.className = 'sc-drawer is-open';
+    el.innerHTML = v.opts.map(function (o, j) { return '<button type="button" class="sc-opt" data-k="opt-' + j + '">' + self._esc(o) + '</button>'; }).join('');
+  },
+  _tools: function () {
+    var st = this.st;
+    if (st.level === 'one') return ['.', '?'];
+    if (st.level === 'two') return ['.', '?', 'cut'];
+    return ['.', '?', '!', 'ins', 'lift', 'swap', 'wheel'];
+  },
+  _toolOn: function (t) { var k = this.st.round.kind; return !(t === 'ins' && k !== 'ins') && !(t === 'wheel' && k !== 'form'); },
+  _glyph: function (t) {
+    if (t === '.' || t === '?' || t === '!') return '<span class="sc-glyph">' + t + '</span>';
+    var d = { cut: '<circle cx="8" cy="18" r="4"/><circle cx="8" cy="6" r="4"/><path d="M11 8 L22 17 M11 16 L22 7"/>',
+      ins: '<path d="M5 17 L12 6 L19 17"/><path d="M12 6 V2"/>',
+      lift: '<path d="M12 20 V6 M6 11 L12 5 L18 11"/><path d="M5 22 H19" stroke-dasharray="2 3"/>',
+      swap: '<path d="M4 9 H18 M14 5 L18 9 L14 13"/><path d="M20 15 H6 M10 11 L6 15 L10 19"/>',
+      wheel: '<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2 V5 M12 19 V22 M2 12 H5 M19 12 H22"/>' }[t];
+    return '<svg class="sc-ico" viewBox="0 0 24 24" aria-hidden="true">' + d + '</svg>';
+  },
+  _paintTray: function () {
+    var st = this.st, v = this._view, el = this._qs('.sc-tray'), self = this;
+    var html = '<div class="sc-tools">' + this._tools().map(function (t) {
+      var on = self._toolOn(t);
+      return '<button type="button" class="sc-tool tool-' + self._toolCls(t) + (v.tool === t ? ' is-held' : '') + (v.wiggle === t ? ' is-wiggle' : '') + '" data-k="tool-' + t + '" aria-label="' + self._esc(self._t(self.TOOL_KEY[t])) + '" aria-pressed="' + (v.tool === t) + '"' + (st.done || !on || v.playing ? ' disabled' : '') + '>' + self._glyph(t) + '</button>';
+    }).join('') + '</div>';
+    html += '<button type="button" class="sc-listen" data-k="listen"' + (st.done || v.playing ? ' disabled' : '') + '><svg viewBox="0 0 34 20" aria-hidden="true"><path d="M1 14 Q6 4 11 14 Q16 4 21 14 C25 14 28 12 30 9 C32 6 34 8 32 12" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"/></svg><span>' + this._esc(this._t('checkBtn')) + '</span></button>';
+    el.innerHTML = html;
+  },
 
-}(typeof window !== 'undefined' ? window : this));
+  /* ---------------- the hand ---------------- */
+  _clearShown: function () { var v = this._view; v.events = null; v.frozen = false; v.spot = null; v.wiggle = null; v.note = ''; },
+  _pickTool: function (t) {
+    var v = this._view; if (this.st.done || v.playing) return;
+    v.tool = v.tool === t ? null : t; v.swapFrom = null; v.drawer = null;
+    v.note = ''; this.api.sound(500); this._paint();
+  },
+  _tapGap: function (g) {
+    var st = this.st, v = this._view, C = SentenceClinicCore;
+    if (st.done || v.playing) return;
+    var t = v.tool, changed = false;
+    if (st.level === 'three') {
+      if (t === 'ins' && g !== 'end') { v.drawer = { type: 'ins', g: g }; v.note = this._t('hintPick'); v.soft = true; this._paint(); return; }
+      if (t === 'ins' && g === 'end') { v.drawer = { type: 'ins', g: st.words.length - 1 }; v.note = this._t('hintPick'); v.soft = true; this._paint(); return; }
+      if (g === 'end' && (t === '.' || t === '?' || t === '!')) changed = C.setMark(st, 'end', t);
+      else if (g === 'end' && !t && st.mark) changed = C.setMark(st, 'end', st.mark);
+    } else if (t === 'cut') changed = C.cut(st, g);
+    else if (t === '.' || t === '?') changed = C.setMark(st, g, t);
+    else if (!t && st.marks[g]) changed = C.setMark(st, g, st.marks[g]);
+    else if (!t && st.cuts[g]) changed = C.cut(st, g);
+    if (changed) { this._clearShown(); this.api.sound(t === 'cut' ? 260 : 420); }
+    this._paint();
+  },
+  _tapWord: function (i) {
+    var st = this.st, v = this._view, C = SentenceClinicCore, changed = false;
+    if (st.done || v.playing || st.level !== 'three') return;
+    if (v.tool === 'lift') changed = C.lift(st, i);
+    else if (v.tool === 'swap') {
+      if (v.swapFrom == null) { v.swapFrom = i; v.note = this._t('hintSwap'); v.soft = true; this._paint(); return; }
+      changed = C.swap(st, v.swapFrom, i); v.swapFrom = null;
+    } else if (v.tool === 'wheel' && C.wheelAt(st) === i) { v.drawer = { type: 'wheel' }; v.note = this._t('hintPick'); v.soft = true; this._paint(); return; }
+    if (changed) { this._clearShown(); this.api.sound(380); }
+    this._paint();
+  },
+  _pickOption: function (j) {
+    var st = this.st, v = this._view, C = SentenceClinicCore, w = v.opts[j], changed = false;
+    if (!v.drawer || st.done) return;
+    if (v.drawer.type === 'wheel') changed = C.setForm(st, w); else changed = C.insertAt(st, v.drawer.g, w);
+    v.drawer = null;
+    if (changed) { this._clearShown(); this.api.sound(440); }
+    this._paint();
+  },
+  _putBack: function (j) { if (SentenceClinicCore.unlift(this.st, j)) { this._clearShown(); this.api.sound(360); } this._paint(); },
+
+  /* ---------------- Check = the listen ---------------- */
+  _wordBefore: function (e) {
+    var st = this.st, w = this._words();
+    if (!e) return '';
+    if (e.at === 'end') return w.length ? w[w.length - 1].w : '';
+    var x = w.filter(function (y) { return y.i === e.at; })[0];
+    return x ? x.w : (w[0] ? w[0].w : '');
+  },
+  _check: function () {
+    var st = this.st, v = this._view, C = SentenceClinicCore, self = this;
+    if (st.done || v.playing) return;
+    var res = C.check(st);
+    if (res.result === 'no') return;
+    if (res.result === 'empty') { v.note = this._t('hintEmpty'); v.soft = false; this.api.sound(200); this._paint(); return; }
+    v.tool = null; v.swapFrom = null; v.drawer = null; v.note = ''; v.events = res.events; v.frozen = false; v.spot = null; v.wiggle = null;
+    var beats = this._words().length;
+    var finish = function () {
+      v.playing = false;
+      if (res.result === 'ok') { self._success(); return; }
+      var f = res.first;
+      v.frozen = true; v.soft = false;
+      if (st.help) {
+        v.spot = f ? (f.type === 'offkey' || f.type === 'backbeat' || f.type === 'doublebeat' ? 'w' + f.at : 'g' + f.at) : null;
+        v.wiggle = C.toolFor(st, f);
+        v.note = f && f.type === 'sag' ? self._t('hintSag') : self._t('hintMiss2');
+      } else v.note = f && f.type === 'knot' ? self._t('hintKnot') : f && f.type === 'sag' ? self._t('hintSag') : self._t('hintMiss1');
+      self.api.sound(150); self._paint();
+      self.api.announce(self._t('aTrouble', { w: self._wordBefore(f) }) + ' ' + v.note);
+    };
+    this.api.sound(300);
+    if (this.FAST) { finish(); return; }
+    v.playing = true; this._paint();
+    this._later(finish, this.BEAT_MS * (beats + 1) + 200);
+  },
+  _success: function () {
+    var st = this.st, v = this._view, self = this;
+    var s = SentenceClinicCore.render(st);
+    var msg = this._t('ok', { s: s }) + (st.level === 'two' ? ' ' + this._t('okTwo') : '');
+    v.note = ''; v.frozen = false;
+    if (this._pa) this._pa.msg = msg;
+    this._paint(); this.api.announce(msg); this.api.sound(660); this._later(function () { self.api.sound(880); }, 160);
+    if (typeof LCSAudio !== 'undefined' && LCSAudio.speak) { try { LCSAudio.speak({ type: 'ui', text: s, lang: this.api.lang, rate: 0.9 }); } catch (e) {} }
+    this._later(function () { var chk = document.querySelector('.lcs-activity-check'); if (chk && !chk.disabled) chk.click(); }, this.OK_MS);
+  }
+};
+
+function injectSentenceClinicCSS() {
+  if (typeof document === 'undefined' || document.getElementById('sc-css')) return;
+  var H = "'Baloo 2', 'Nunito', sans-serif", B = "'Nunito', sans-serif";
+  var css = ''
+  + '.lcs-activity-check{display:none !important;}'
+  + '.sc-wrap{position:relative;width:100%;max-width:900px;margin:0 auto;display:flex;flex-direction:column;align-items:stretch;gap:12px;} .sc-wrap:focus{outline:none;}'
+  /* the bed: a cream card on two teal legs, lying a little tilted; cured, it sits up */
+  + '.sc-bed{position:relative;padding:18px 18px 22px 64px;border-radius:16px;background:#FFFDF6;box-shadow:0 0 0 3px #146B5E,0 10px 0 -4px #D9CFB8;transform:rotate(-1.2deg);transition:transform .45s ease;min-height:150px;}'
+  + '.sc-bed::before,.sc-bed::after{content:"";position:absolute;bottom:-16px;width:12px;height:16px;background:#146B5E;border-radius:0 0 4px 4px;} .sc-bed::before{left:40px;} .sc-bed::after{right:40px;}'
+  + '.sc-bed.is-cured{transform:rotate(0) translateY(-6px);}'
+  + '.sc-badge{position:absolute;left:14px;top:16px;width:40px;height:40px;} .sc-badge svg{width:100%;height:100%;} .sc-bed.is-cured .sc-badge{animation:scPulse 1.8s ease-in-out 3;} @keyframes scPulse{50%{transform:scale(1.12)}}'
+  + '.sc-line-row{display:flex;flex-wrap:wrap;align-items:flex-start;row-gap:8px;}'
+  + '.sc-u{display:inline-flex;align-items:flex-start;flex:0 0 auto;} .sc-w{position:relative;display:inline-block;padding-bottom:24px;}'
+  + '.sc-tile{display:inline-block;padding:2px 7px;border:2px solid #2B2B2B;border-radius:10px;background:#FFF8EA;font:800 30px/1.25 ' + B + ';color:#2B2B2B;white-space:nowrap;min-height:44px;}'
+  + 'button.sc-tile{cursor:pointer;min-width:44px;text-align:center;} button.sc-tile:focus-visible{outline:3px solid #F2784B;outline-offset:2px;} button.sc-tile:disabled{cursor:default;}'
+  + '.sc-tile.is-sel{background:#E3F2EE;box-shadow:0 0 0 3px #146B5E;} .sc-tile.is-target{box-shadow:0 0 0 3px #146B5E;}'
+  + '.sc-wrap.tool-lift button.sc-tile,.sc-wrap.tool-swap button.sc-tile{box-shadow:0 0 0 2px rgba(20,107,94,.45);}'
+  /* the gaps: invisible until a tool is held; the mark sits in them; tap zone 44 px */
+  + '.sc-gap{position:relative;display:inline-block;min-width:14px;padding:0 0 24px;border:0;background:none;font:inherit;color:#146B5E;text-align:center;vertical-align:top;}'
+  + 'button.sc-gap{min-width:44px;min-height:44px;margin:0 -15px;z-index:2;cursor:pointer;border-radius:8px;} button.sc-gap:focus-visible{outline:3px solid #F2784B;outline-offset:-2px;}'
+  + '.sc-wrap.has-tool button.sc-gap.is-live{background:rgba(20,107,94,.10);box-shadow:inset 0 0 0 2px rgba(20,107,94,.55);}'
+  + '.sc-wrap.is-one button.sc-gap.is-live,.sc-wrap.is-three button.sc-gap.is-end{box-shadow:inset 0 0 0 2px rgba(20,107,94,.35);}'
+  + '.sc-mk{display:block;height:44px;font:900 34px/44px ' + H + ';color:#146B5E;white-space:pre;}'
+  + '.sc-gap.is-cut .sc-mk::before{content:"";display:inline-block;width:2px;height:30px;margin:7px 6px 0;border-left:3px dashed #146B5E;}'
+  + '.sc-gap.has-mark,.sc-gap.is-cut{min-width:30px;} button.sc-gap.has-mark,button.sc-gap.is-cut{min-width:44px;margin:0 -4px 0 -6px;} .sc-gap.has-mark .sc-mk{text-align:left;padding-left:9px;}'
+  /* the Listening Line: a beat under every word, a shape in every gap */
+  + '.sc-beat{position:absolute;left:0;right:0;bottom:0;width:100%;height:22px;overflow:visible;} .sc-end{position:absolute;left:0;right:0;bottom:-2px;width:100%;height:26px;overflow:visible;}'
+  + '.sc-beat path,.sc-end path{fill:none;stroke:#C9C1AE;stroke-width:3;stroke-dasharray:3 6;vector-effect:non-scaling-stroke;stroke-linecap:round;stroke-linejoin:round;}'
+  + '.sc-beat.is-drawn path,.sc-end.is-drawn path{stroke:#146B5E;stroke-width:4;stroke-dasharray:none;}'
+  + '.sc-wrap.is-playing .sc-beat.is-drawn,.sc-wrap.is-playing .sc-end.is-drawn{opacity:0;animation:scDraw .26s ease forwards;}'
+  + '@keyframes scDraw{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}'
+  + '.sc-beat.is-bad path,.sc-end.is-bad path{stroke:#E2603A;}'
+  + '.sc-end.is-runoff path{stroke-dasharray:4 5;} .sc-gap.is-end .sc-end.is-runoff{right:-60%;width:auto;}'
+  + '.sc-end.is-tune path{stroke:#9FC7BE;stroke-dasharray:2 5;}'
+  + '.sc-gap.is-bad::after,.sc-tile.is-bad::after{content:"";position:absolute;left:50%;bottom:-6px;width:30px;height:30px;margin-left:-15px;border:3px solid rgba(226,96,58,.55);border-radius:50%;animation:scRing 1.4s ease-in-out infinite;pointer-events:none;}'
+  + '.sc-tile{position:relative;} @keyframes scRing{50%{transform:scale(1.25);opacity:.4}}'
+  + '.sc-wrap.is-spot .sc-line-row .sc-w,.sc-wrap.is-spot .sc-line-row .sc-gap{opacity:.55;transition:opacity .3s;} .sc-wrap.is-spot .sc-line-row .sc-w:has(.is-spot),.sc-wrap.is-spot .sc-line-row .sc-gap.is-spot{opacity:1;}'
+  + '.sc-gap.is-spot,.sc-tile.is-spot{box-shadow:0 0 0 3px #F2784B;border-radius:8px;} button.sc-gap.is-spot{min-width:44px;margin:0 4px;}'
+  + '.sc-lifted{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;} .sc-ghost{min-height:44px;padding:4px 12px;border:2px dashed #8A7A5C;border-radius:10px;background:none;font:700 20px/1 ' + B + ';color:#8A7A5C;cursor:pointer;}'
+  /* the drawer */
+  + '.sc-drawer{display:none;} .sc-drawer.is-open{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;}'
+  + '.sc-opt{min-height:52px;min-width:96px;padding:6px 16px;border:0;border-radius:12px;background:#FFFDF6;box-shadow:0 0 0 2px #146B5E,0 4px 0 #146B5E;font:800 24px/1 ' + B + ';color:#2B2B2B;cursor:pointer;} .sc-opt:focus-visible{outline:3px solid #F2784B;outline-offset:3px;}'
+  /* the tray */
+  + '.sc-tray{display:flex;gap:12px;align-items:center;justify-content:center;flex-wrap:wrap;}'
+  + '.sc-tools{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;}'
+  + '.sc-tool{width:56px;height:56px;border:0;border-radius:14px;background:#FFFDF6;box-shadow:0 0 0 2px #C9A26E,0 4px 0 #C9A26E;color:#146B5E;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:transform .06s;}'
+  + '.sc-tool:focus-visible{outline:3px solid #F2784B;outline-offset:3px;} .sc-tool:disabled{opacity:.35;cursor:default;}'
+  + '.sc-tool.is-held{transform:translateY(-8px);box-shadow:0 0 0 3px #146B5E,0 8px 0 #146B5E;background:#E3F2EE;}'
+  + '.sc-tool.is-wiggle{animation:scWiggle .5s ease-in-out infinite;} @keyframes scWiggle{25%{transform:rotate(-9deg)}75%{transform:rotate(9deg)}}'
+  + '.sc-glyph{font:900 38px/1 ' + H + ';} .sc-ico{width:30px;height:30px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;}'
+  + '.sc-listen{display:flex;align-items:center;gap:8px;min-height:52px;padding:8px 22px;border:0;border-radius:999px;background:#146B5E;color:#fff;font:800 19px/1 ' + H + ';cursor:pointer;box-shadow:0 3px 0 #0C4A41;} .sc-listen svg{width:34px;height:20px;} .sc-listen:disabled{opacity:.5;cursor:default;} .sc-listen:focus-visible{outline:3px solid #F2784B;outline-offset:3px;}'
+  + '.sc-hint{margin:0;min-height:1.3em;font:700 clamp(14px, 1.4vw + 9.5px, 20px)/1.3 ' + B + ';color:#146B5E;text-align:center;} .sc-hint.is-hint{color:#A3401F;} .sc-hint:empty{display:none;}'
+  /* phones */
+  + '.sc-wrap.is-narrow{gap:9px;} .sc-wrap.is-narrow .sc-bed{padding:12px 10px 16px 50px;min-height:0;} .sc-wrap.is-narrow .sc-badge{left:8px;top:12px;width:34px;height:34px;}'
+  + '.sc-wrap.is-narrow .sc-tile{font-size:24px;padding:3px 6px;} .sc-wrap.is-narrow .sc-mk{font-size:30px;}'
+  + '.sc-wrap.is-narrow .sc-tool{width:50px;height:50px;} .sc-wrap.is-narrow .sc-tools{gap:8px;} .sc-wrap.is-narrow .sc-opt{font-size:20px;min-width:80px;}'
+  + '.sc-wrap.is-cramp .sc-w,.sc-wrap.is-cramp .sc-gap{padding-bottom:20px;} .sc-wrap.is-cramp .sc-beat{height:18px;} .sc-wrap.is-cramp .sc-line-row{row-gap:5px;} .sc-wrap.is-cramp .sc-tile{font-size:21px;padding:1px 5px;} .sc-wrap.is-cramp span.sc-tile{min-height:40px;} .sc-wrap.is-cramp .sc-bed{padding:10px 8px 14px 8px;} .sc-wrap.is-cramp .sc-badge{display:none;} .sc-wrap.is-cramp .sc-tool{width:44px;height:44px;} .sc-wrap.is-cramp .sc-tools{gap:6px;} .sc-wrap.is-cramp .sc-tray{gap:8px;} .sc-wrap.is-cramp .sc-glyph{font-size:30px;} .sc-wrap.is-cramp .sc-ico{width:26px;height:26px;} .sc-wrap.is-cramp .sc-listen{min-height:48px;padding:6px 12px;font-size:16px;gap:6px;} .sc-wrap.is-cramp .sc-listen svg{width:26px;}'
+  /* solved on a phone: the tray steps back so the success line and Next stay above the fold */
+  + '.sc-wrap.is-narrow.is-done .sc-tray{display:none;}'
+  + '.sc-wrap.is-narrow.is-done .sc-tile{font-size:18px;padding:0 2px;min-height:0;border-color:transparent;background:none;} .sc-wrap.is-narrow.is-done .sc-mk{height:26px;font-size:22px;line-height:26px;} .sc-wrap.is-narrow.is-done .sc-w,.sc-wrap.is-narrow.is-done .sc-gap{padding-bottom:14px;} .sc-wrap.is-narrow.is-done .sc-beat{height:12px;} .sc-wrap.is-narrow.is-done .sc-end{height:16px;} .sc-wrap.is-narrow.is-done .sc-bed{padding-top:8px;padding-bottom:12px;}'
+  + '@media (prefers-reduced-motion:reduce){.sc-wrap *{animation:none !important;transition:none !important;opacity:1 !important;}}';
+  var s = document.createElement('style'); s.id = 'sc-css'; s.textContent = css; document.head.appendChild(s);
+}
+
+if (typeof window !== 'undefined') window.SentenceClinicActivity = SentenceClinicActivity;

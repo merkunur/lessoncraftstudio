@@ -1019,25 +1019,25 @@
     },
     "sentence-clinic.fix-it.l-2-1": {
       "about": [
-        "Le Dr. Plume, un hibou plein de patience, tient une petite clinique des phrases. Dans chaque phrase, une seule chose s’est cachée de travers : une majuscule oubliée, un point manquant, ou un verbe qui ne va pas encore avec son sujet.",
-        "Votre enfant lit la phrase, cherche ce qui cloche, puis la répare tranquillement : il met la majuscule au début, le point à la fin, choisit le bon verbe (le chien court, pas « courent ») ou remet les mots dans le bon ordre. Une seule erreur par phrase, une seule chose à la fois — sans stress.",
-        "Cette activité est interactive et pensée pour le CE1, dans le domaine « Étude de la langue ». Sans chronomètre et sans points, votre enfant révise une phrase à son rythme, en accord avec les programmes officiels."
+        "Dans la clinique des phrases du Dr Plume, une phrase est allongée sur le lit. L’enfant choisit un outil – un point, un point d’interrogation, des ciseaux et, au dernier niveau, les outils pour les mots –, soigne la phrase, puis le Dr Plume écoute. Un crayon trace la ligne d’écoute sous les mots, un battement par mot.",
+        "À chaque fin, la ligne fait ce que dit le signe : elle se pose sur un point, reste ouverte sur un point d’interrogation et bondit sur un point d’exclamation. Quand un signe contredit la mélodie de la phrase, elle se tord ; quand il manque un signe, elle continue ; quand deux idées n’ont pas de point entre elles, elle fait un nœud ; un point au milieu d’une idée la fait s’affaisser. L’enfant voit ainsi où la phrase a encore mal. Après un point, le mot suivant prend sa majuscule tout seul.",
+        "Trois niveaux : Quel signe ? (trois phrases courtes, chacune avec son point ou son point d’interrogation), Où finit la phrase ? (deux phrases collées) et Ça sonne juste ? (une forme du verbe fausse, un mot qui manque, un mot de trop, un ordre mélangé ou un point d’exclamation qui manque). Un réglage montre la mélodie avant la vérification. L’activité s’appuie sur les programmes officiels du cycle 2 : étude de la langue. Sans chronomètre, sans score."
       ],
       "practices": [
-        "Réviser une phrase : trouver et corriger une seule erreur.",
-        "Mettre la majuscule au début et le point à la fin.",
-        "Accorder le verbe avec le sujet (le chat dort).",
-        "Remettre les mots dans le bon ordre."
+        "Terminer une phrase qui raconte par un point et une question par un point d’interrogation",
+        "Trouver où une phrase s’arrête et où la suivante commence",
+        "Entendre quand il manque un mot, quand il y en a un de trop ou quand les mots sont dans le désordre",
+        "Choisir la forme du verbe qui va avec le sujet"
       ],
       "howToPlay": [
-        "Lis la phrase et cherche ce qui ne va pas.",
-        "Corrige-la : une majuscule, un point, le bon verbe ou le bon ordre.",
-        "Touche Vérifier ; si ce n’est pas encore ça, réessaie tranquillement."
+        "Lis la phrase sur le lit du Dr Plume.",
+        "Touche un outil, puis l’endroit à soigner : un espace pour un signe ou les ciseaux, un mot pour les outils pour les mots.",
+        "Touche Vérifier pour voir la ligne d’écoute. Là où elle se tord, fait un nœud, s’affaisse ou continue, la phrase a encore besoin d’aide."
       ],
       "learningGoals": [
-        "Repérer et corriger une erreur simple dans une phrase.",
-        "Consolider la majuscule, le point et l’accord sujet-verbe.",
-        "Soigner l’ordre des mots pour une phrase claire."
+        "Utiliser correctement les signes de fin de phrase : point, point d’interrogation et point d’exclamation.",
+        "Séparer deux idées collées en deux phrases.",
+        "Soigner des phrases pour qu’elles soient complètes, dans l’ordre et bien accordées."
       ]
     },
     "pronoun.case.l-1-1-d": {

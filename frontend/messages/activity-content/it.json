@@ -801,25 +801,25 @@
     },
     "sentence-clinic.fix-it.l-2-1": {
       "about": [
-        "Dott.ssa Plume è una civetta nonna dagli occhiali tondi che gestisce una piccola clinica tutta speciale: la clinica delle frasi.",
-        "Ogni frase entra un po' pasticciata, con una maiuscola dimenticata, un punto mancante o le parole in disordine.",
-        "Il bambino o la bambina fa una piccola correzione e aiuta ogni frase a suonare bene di nuovo."
+        "Nella clinica delle frasi della Dott.ssa Plume, una frase è sdraiata sul lettino. Il bambino sceglie uno strumento — un punto, un punto interrogativo, le forbici e, al livello più alto, gli strumenti delle parole —, cura la frase e poi la Dott.ssa Plume ascolta. Una penna disegna la linea d’ascolto sotto le parole, un battito per parola.",
+        "A ogni fine la linea fa quello che dice il segno: si riposa sul punto, resta aperta sul punto interrogativo e salta sul punto esclamativo. Quando un segno non va con la melodia della frase, si storce; quando manca un segno, continua; quando due pensieri non hanno un punto tra loro, fa un nodo; un punto in mezzo a un pensiero la fa cedere. Così il bambino vede dove la frase fa ancora male. Dopo un punto, la parola seguente prende la maiuscola da sola.",
+        "Tre livelli: Quale segno? (tre frasi brevi, ognuna con il suo punto o punto interrogativo), Dove finisce? (due frasi attaccate) e Suona giusta? (una forma del verbo sbagliata, una parola che manca, una di troppo, un ordine confuso o un punto esclamativo che manca). Un’impostazione mostra la melodia prima della verifica. L’attività si basa sulle Indicazioni nazionali per la riflessione sulla lingua. Senza timer e senza punteggi."
       ],
       "practices": [
-        "Mettere la maiuscola all'inizio della frase",
-        "Aggiungere il punto alla fine",
-        "Far concordare il verbo con il soggetto",
-        "Rimettere le parole in ordine o dividere due frasi attaccate"
+        "Chiudere una frase che racconta con il punto e una domanda con il punto interrogativo",
+        "Trovare dove finisce una frase e dove comincia la successiva",
+        "Sentire quando a una frase manca una parola, ne ha una di troppo o ha le parole in disordine",
+        "Scegliere la forma del verbo che va con il soggetto"
       ],
       "howToPlay": [
-        "Guarda la frase pasticciata e ascolta come «suona».",
-        "Fai la correzione giusta: tocca la parola o il segno da sistemare.",
-        "Tocca «Verifica» quando la frase suona bene, con calma e senza fretta."
+        "Leggi la frase sul lettino della Dott.ssa Plume.",
+        "Tocca uno strumento e poi il punto da curare: uno spazio per un segno o le forbici, una parola per gli strumenti delle parole.",
+        "Tocca Verifica per vedere la linea d’ascolto. Dove si storce, fa un nodo, cede o continua, la frase ha ancora bisogno di aiuto."
       ],
       "learningGoals": [
-        "Riconoscere e correggere piccoli errori in una frase: maiuscola, punto, verbo e ordine delle parole",
-        "Capire che una frase «suona bene» quando è chiara, ordinata e completa",
-        "Pensata per la classe seconda e allineata alle Indicazioni nazionali, nell'area della riflessione linguistica"
+        "Usare bene i segni di fine frase: punto, punto interrogativo e punto esclamativo.",
+        "Dividere due pensieri attaccati in due frasi.",
+        "Curare le frasi perché siano complete, in ordine e concordate."
       ]
     },
     "pronoun.case.l-1-1-d": {

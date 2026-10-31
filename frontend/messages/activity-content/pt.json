@@ -727,25 +727,25 @@
     },
     "sentence-clinic.fix-it.l-2-1": {
       "about": [
-        "A Dra. Plume, uma coruja de óculos redondos e voz calminha, atende na sua acolhedora Clínica de Frases. Toda frase que chega até ela vem meio embaralhada — como um pacientinho de pijama torto — e o trabalho da criança é ajudar a deixá-la certinha de novo. A cada rodada aparece só UM errinho para encontrar e consertar, e a frase volta a soar direitinho.",
-        "Os errinhos são os do dia a dia da escrita no 2º ano: a letra maiúscula que faltou no começo, o ponto final que sumiu do fim, o verbo que não combina com quem faz a ação (“o gato come”, não “o gato comem”), a palavra de ação que caiu fora, a ordem das palavras trocada, o sujeito dito duas vezes ou duas ideias grudadas que pedem um ponto para se separar. A criança acha o errinho, faz o conserto e confere: agora a frase está boa.",
-        "É uma prática tranquila de norma da escrita, alinhada à BNCC de Língua Portuguesa, no eixo Análise linguística/semiótica (ortografia, pontuação e construção de frases). Tudo acontece no seu ritmo, sem cronômetro, sem pontos e sem competição. Quando a criança tenta um caminho que ainda não deu certo, a Dra. Plume solta uma risadinha gentil e convida a olhar de novo — nada de X vermelho, nada de vergonha."
+        "Na Clínica de Frases da Dra. Plume, uma frase está deitada na maca. A criança escolhe uma ferramenta — um ponto final, um ponto de interrogação, uma tesoura e, no nível mais alto, as ferramentas de palavras —, cura a frase e então a Dra. Plume escuta. Um lápis desenha a linha de escuta embaixo das palavras, uma batida por palavra.",
+        "Em cada final, a linha faz o que o sinal diz: descansa no ponto final, fica aberta no ponto de interrogação e pula no ponto de exclamação. Quando um sinal briga com a melodia da frase, ela entorta; quando falta um sinal, ela continua; quando duas ideias ficam sem ponto entre elas, ela dá um nó; um ponto no meio de uma ideia faz a linha cair. Assim a criança vê onde a frase ainda dói. Depois de um ponto, a próxima palavra ganha a letra maiúscula sozinha.",
+        "Três níveis: Qual sinal? (três frases curtas, cada uma com seu ponto final ou de interrogação), Onde termina? (duas frases grudadas) e Soa certo? (uma forma do verbo errada, uma palavra faltando, uma palavra a mais, uma ordem trocada ou um ponto de exclamação faltando). Uma opção mostra a melodia antes de verificar. A atividade se apoia na BNCC, na análise linguística dos anos iniciais. Sem cronômetro e sem pontos."
       ],
       "practices": [
-        "Colocar letra maiúscula no começo da frase.",
-        "Fechar a frase com ponto final.",
-        "Fazer o verbo combinar com quem faz a ação (concordância).",
-        "Arrumar a ordem das palavras e separar ideias grudadas com um ponto."
+        "Terminar uma frase que conta com ponto final e uma pergunta com ponto de interrogação",
+        "Encontrar onde uma frase termina e a próxima começa",
+        "Perceber quando falta uma palavra, sobra uma ou as palavras estão fora de ordem",
+        "Escolher a forma do verbo que combina com o sujeito"
       ],
       "howToPlay": [
-        "Leia a frase embaralhada e procure o único errinho escondido nela.",
-        "Toque para consertar: a maiúscula, o ponto, o verbo, a palavra que falta ou a ordem.",
-        "Confira se a frase agora soa certinha — a Dra. Plume comemora com você, sem pressa."
+        "Leia a frase na maca da Dra. Plume.",
+        "Toque em uma ferramenta e depois no lugar a curar: um espaço para um sinal ou a tesoura, uma palavra para as ferramentas de palavras.",
+        "Toque em Verificar para ver a linha de escuta. Onde ela entorta, dá um nó, cai ou continua, a frase ainda precisa de ajuda."
       ],
       "learningGoals": [
-        "Reconhecer quando uma frase precisa de maiúscula no começo e ponto no fim.",
-        "Perceber a concordância entre o sujeito e a palavra de ação.",
-        "Deixar a frase clara arrumando a ordem das palavras e separando ideias."
+        "Usar bem os sinais de final de frase: ponto final, ponto de interrogação e ponto de exclamação.",
+        "Separar duas ideias grudadas em duas frases.",
+        "Curar frases para que fiquem completas, em ordem e com concordância."
       ]
     },
     "sage-root-garden.roots.l-2-4-c": {

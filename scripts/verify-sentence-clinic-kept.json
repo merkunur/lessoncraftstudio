@@ -1,0 +1,53 @@
+{
+ "note": "Frozen 2026-10-31 from the shipped #176 manifest: the four repair rounds (swap, insert, reorder, delete) per kept locale, cured words without the end mark. They live on as Level 3 rounds 1-4.",
+ "rounds": {
+  "en": {
+   "swap-agree": "She runs to school",
+   "fill-verb": "The cat drinks milk",
+   "order-svo": "The dog runs fast",
+   "del-double": "My mom cooks"
+  },
+  "de": {
+   "swap-agree": "Das Kind rennt schnell",
+   "fill-verb": "Die Katze trinkt Milch",
+   "order-svo": "Der Hund rennt schnell",
+   "del-double": "Meine Mama kocht"
+  },
+  "fr": {
+   "swap-agree": "Le chat mange vite",
+   "fill-verb": "La fille mange une pomme",
+   "order-svo": "Le chien court vite",
+   "del-double": "Ma maman cuisine"
+  },
+  "es": {
+   "swap-agree": "El gato come rápido",
+   "fill-verb": "La niña come una manzana",
+   "order-svo": "El gato bebe agua",
+   "del-double": "Mi mamá cocina"
+  },
+  "pt": {
+   "swap-agree": "O gato come rápido",
+   "fill-verb": "A menina come uma maçã",
+   "order-svo": "O gato bebe água",
+   "del-double": "Minha mãe cozinha"
+  },
+  "it": {
+   "swap-agree": "Il gatto mangia il pesce",
+   "fill-verb": "La bambina mangia una mela",
+   "order-svo": "Il gatto beve acqua",
+   "del-double": "La mamma cucina"
+  },
+  "nl": {
+   "swap-agree": "Het kind rent snel",
+   "fill-verb": "De kat drinkt melk",
+   "order-svo": "De hond rent snel",
+   "del-double": "Mijn moeder kookt"
+  },
+  "sv": {
+   "swap-agree": "Jag och min bror cyklar",
+   "fill-verb": "Katten dricker mjölk",
+   "order-svo": "Imorgon ska jag läsa.",
+   "del-double": "Jag kan simma"
+  }
+ }
+}

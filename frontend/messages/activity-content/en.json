@@ -3766,25 +3766,25 @@
     },
     "sentence-clinic.fix-it.l-2-1": {
       "about": [
-        "Gentle Dr. Plume's patients are muddled sentences, each with one ailment — a missing capital in \"my dog is happy,\" no end mark after \"The sun is hot,\" or \"She run to school\" — and the child finds the trouble and makes the repair. It's an interactive Grade 2 grammar activity that runs in the browser with no account.",
-        "Each round practices a different convention, so children meet the real range of fixes: capitalizing the first word, adding the right end mark (a period, not a comma or question mark), correcting subject-verb agreement (run to runs), adding a missing verb (\"The cat ___ milk\" to drinks), reordering jumbled words into \"The dog runs fast,\" removing an extra word in \"My mom she cooks,\" and splitting a run-on into two sentences. The wrong options are real near-misses, so the child has to diagnose what is actually wrong.",
-        "It is aligned to Common Core L.2.1 — demonstrating command of standard English grammar and usage. No timer, no score — just calm, playful practice."
+        "In Dr. Plume's Sentence Clinic, a sentence card lies on the clinic bed. The child picks a tool from the tray — a period, a question mark, scissors, and at the top level the word tools — mends the sentence, and then Dr. Plume listens. A pen draws the Listening Line under the words, one beat per word.",
+        "At every end the line does what the mark tells it: it rests on a period, holds open on a question mark and jumps on an exclamation mark. Where a mark fights the sentence's tune it kinks; where no mark is, it runs on; where two thoughts have no stop between them it ties a knot; a stop in the middle of a thought makes it sag. So the child sees where the sentence still hurts. A stop also wakes the next word: its first letter becomes a capital by itself.",
+        "Three levels: Which mark? (three short sentences, each needing its period or question mark), Where does it end? (two sentences run together) and Does it sound right? (a wrong verb form, a missing word, a word too many, a muddled order or a missing exclamation mark). A setting can draw the tune faintly before the check. It is aligned to Common Core L.2.1 and the end-mark conventions of L.2.2. No timer, no score."
       ],
       "practices": [
-        "Capitalizing the first word and ending a telling sentence with a period",
-        "Fixing subject-verb agreement, like 'She runs' instead of 'She run'",
-        "Adding a missing verb and removing an extra or repeated word",
-        "Reordering jumbled words and splitting a run-on into two sentences"
+        "Ending a telling sentence with a period and an asking sentence with a question mark",
+        "Finding where one sentence stops and the next begins in a run-on",
+        "Hearing when a sentence is missing a word, has one too many, or has its words in the wrong order",
+        "Choosing the verb form that fits the subject"
       ],
       "howToPlay": [
-        "Read the muddled sentence and find what is wrong.",
-        "Make the repair — capitalize, add a mark or word, fix the verb, reorder, delete, or split.",
-        "A warm check confirms a correct fix and offers an easy retry, with no timer and no score."
+        "Read the sentence on Dr. Plume's bed.",
+        "Tap a tool, then tap the place to mend — a gap for a mark or the scissors, a word for the word tools.",
+        "Tap Check to hear the Listening Line. Where it kinks, knots, sags or runs on, the sentence still needs help."
       ],
       "learningGoals": [
-        "Apply the conventions of standard English grammar and usage — the focus of Common Core L.2.1",
-        "Recognize and repair common sentence problems in writing",
-        "Build the editing habit that clear writing depends on"
+        "Use end marks correctly: periods, question marks and exclamation marks (Common Core L.2.1 and L.2.2).",
+        "Split two run-together thoughts into two sentences.",
+        "Mend sentences so they are complete, in order and in agreement."
       ]
     },
     "seriation.compare-length.1-md-a-1": {

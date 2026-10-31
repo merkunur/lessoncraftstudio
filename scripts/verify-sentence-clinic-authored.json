@@ -1,0 +1,2447 @@
+{
+ "note": "The authors' sentences per locale, as written (2026-10-31): L1 cards [[sentence, tune]x3], L2 runs [s1, tune, s2, tune] with the second sentence's own capital, L3 cured sentences. The gate builds the cured text from these with its own rules. L3opt = the option lists as the reviewer signed them (the first is the right one; exactly one option makes a correct sentence).",
+ "locales": {
+  "en": {
+   "L1": [
+    [
+     [
+      "The sun is hot",
+      "T"
+     ],
+     [
+      "We swim in the pool",
+      "T"
+     ],
+     [
+      "The water is cold",
+      "T"
+     ]
+    ],
+    [
+     [
+      "My kite is red",
+      "T"
+     ],
+     [
+      "It flies very high",
+      "T"
+     ],
+     [
+      "Do you want a turn",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Ben has a new puppy",
+      "T"
+     ],
+     [
+      "What is its name",
+      "A"
+     ],
+     [
+      "It is called Spot",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Where is my hat",
+      "A"
+     ],
+     [
+      "It was on the bed",
+      "T"
+     ],
+     [
+      "Now it is gone",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Can you help me",
+      "A"
+     ],
+     [
+      "Where are the cups",
+      "A"
+     ],
+     [
+      "I want some milk",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Is this your bag",
+      "A"
+     ],
+     [
+      "It has a fox on it",
+      "T"
+     ],
+     [
+      "Can I hold it",
+      "A"
+     ]
+    ],
+    [
+     [
+      "We baked a cake",
+      "T"
+     ],
+     [
+      "Do you like cake",
+      "A"
+     ],
+     [
+      "Who wants a piece",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Who is at the door",
+      "A"
+     ],
+     [
+      "Is it Grandma",
+      "A"
+     ],
+     [
+      "Did she bring the dog",
+      "A"
+     ]
+    ]
+   ],
+   "L2": [
+    [
+     "I am hungry",
+     "T",
+     "Can we eat now",
+     "A"
+    ],
+    [
+     "The dog is wet",
+     "T",
+     "It jumped in the pond",
+     "T"
+    ],
+    [
+     "Look at the big red bus",
+     "T",
+     "It is full of people",
+     "T"
+    ],
+    [
+     "Where is my hat",
+     "A",
+     "It was on the bed",
+     "T"
+    ],
+    [
+     "Two little ducks swim in the pond",
+     "T",
+     "They are yellow",
+     "T"
+    ],
+    [
+     "Do you like green frogs",
+     "A",
+     "We have two at home",
+     "T"
+    ],
+    [
+     "The sun is very hot",
+     "T",
+     "The pool is cold",
+     "T"
+    ],
+    [
+     "My kite is stuck in the tall tree",
+     "T",
+     "Can you get it down",
+     "A"
+    ],
+    [
+     "It rained",
+     "T",
+     "The grass is wet",
+     "T"
+    ],
+    [
+     "Are you cold",
+     "A",
+     "You can have my coat",
+     "T"
+    ]
+   ],
+   "L3": [
+    "She runs to school.",
+    "The cat drinks milk.",
+    "The dog runs home.",
+    "My mom cooks.",
+    "The birds sing in the tree.",
+    "I have a red kite.",
+    "We went to the park.",
+    "Sam kicks the ball.",
+    "Mia and Ben are at school.",
+    "What a funny frog!"
+   ],
+   "L3opt": [
+    [
+     "runs",
+     "running",
+     "to run"
+    ],
+    [
+     "drinks",
+     "green",
+     "under"
+    ],
+    null,
+    null,
+    [
+     "sing",
+     "singing",
+     "to sing"
+    ],
+    [
+     "have",
+     "blue",
+     "over"
+    ],
+    null,
+    null,
+    [
+     "are",
+     "be",
+     "being"
+    ],
+    null
+   ]
+  },
+  "de": {
+   "L1": [
+    [
+     [
+      "Die Sonne ist heiß",
+      "T"
+     ],
+     [
+      "Wir schwimmen im Schwimmbad",
+      "T"
+     ],
+     [
+      "Das Wasser ist kalt",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Mein Drachen ist rot",
+      "T"
+     ],
+     [
+      "Er fliegt sehr hoch",
+      "T"
+     ],
+     [
+      "Willst du ihn auch mal halten",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Ben hat einen neuen Hund",
+      "T"
+     ],
+     [
+      "Wie heißt er",
+      "A"
+     ],
+     [
+      "Er heißt Fleck",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Wo ist meine Mütze",
+      "A"
+     ],
+     [
+      "Sie lag auf dem Bett",
+      "T"
+     ],
+     [
+      "Jetzt ist sie weg",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Kannst du mir helfen",
+      "A"
+     ],
+     [
+      "Wo sind die Becher",
+      "A"
+     ],
+     [
+      "Ich möchte etwas Milch",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Ist das deine Tasche",
+      "A"
+     ],
+     [
+      "Da ist ein Fuchs drauf",
+      "T"
+     ],
+     [
+      "Darf ich sie halten",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Wir haben Kuchen gebacken",
+      "T"
+     ],
+     [
+      "Magst du Kuchen",
+      "A"
+     ],
+     [
+      "Wer möchte ein Stück",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Wer ist an der Tür",
+      "A"
+     ],
+     [
+      "Ist das Oma",
+      "A"
+     ],
+     [
+      "Hat sie den Hund dabei",
+      "A"
+     ]
+    ]
+   ],
+   "L2": [
+    [
+     "Ich habe Hunger",
+     "T",
+     "Können wir jetzt essen",
+     "A"
+    ],
+    [
+     "Der Hund ist nass",
+     "T",
+     "Er ist in den Teich gesprungen",
+     "T"
+    ],
+    [
+     "Da fährt ein großer roter Bus",
+     "T",
+     "Er ist voller Leute",
+     "T"
+    ],
+    [
+     "Wo ist meine Mütze",
+     "A",
+     "Sie lag auf dem Bett",
+     "T"
+    ],
+    [
+     "Zwei kleine Enten schwimmen im Teich",
+     "T",
+     "Sie sind gelb",
+     "T"
+    ],
+    [
+     "Magst du grüne Frösche",
+     "A",
+     "Wir haben zwei zu Hause",
+     "T"
+    ],
+    [
+     "Die Sonne ist sehr heiß",
+     "T",
+     "Das Wasser ist kalt",
+     "T"
+    ],
+    [
+     "Mein Drachen hängt hoch oben im Baum",
+     "T",
+     "Kannst du ihn herunterholen",
+     "A"
+    ],
+    [
+     "Es hat geregnet",
+     "T",
+     "Das Gras ist nass",
+     "T"
+    ],
+    [
+     "Ist dir kalt",
+     "A",
+     "Du kannst meine Jacke haben",
+     "T"
+    ]
+   ],
+   "L3": [
+    "Das Kind rennt schnell.",
+    "Die Katze trinkt Milch.",
+    "Der Hund rennt schnell.",
+    "Meine Mama kocht.",
+    "Die Vögel singen im Baum.",
+    "Ich habe einen roten Drachen.",
+    "Wir gehen in den Park.",
+    "Sam kickt den Ball.",
+    "Mia und Ben sind in der Schule.",
+    "Was für ein lustiger Frosch!"
+   ],
+   "L3opt": [
+    [
+     "rennt",
+     "rennst",
+     "renne"
+    ],
+    [
+     "trinkt",
+     "grün",
+     "unter"
+    ],
+    null,
+    null,
+    [
+     "singen",
+     "singst",
+     "singe"
+    ],
+    [
+     "habe",
+     "blau",
+     "über"
+    ],
+    null,
+    null,
+    [
+     "sind",
+     "bin",
+     "bist"
+    ],
+    null
+   ]
+  },
+  "fr": {
+   "L1": [
+    [
+     [
+      "Le soleil est chaud",
+      "T"
+     ],
+     [
+      "Nous nageons dans la piscine",
+      "T"
+     ],
+     [
+      "L’eau est froide",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Mon cerf-volant est rouge",
+      "T"
+     ],
+     [
+      "Il vole très haut",
+      "T"
+     ],
+     [
+      "Est-ce que tu veux essayer",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Ben a un nouveau chiot",
+      "T"
+     ],
+     [
+      "Comment s’appelle-t-il",
+      "A"
+     ],
+     [
+      "Il s’appelle Tache",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Où est mon bonnet",
+      "A"
+     ],
+     [
+      "Il était sur le lit",
+      "T"
+     ],
+     [
+      "Maintenant il a disparu",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Est-ce que tu peux m’aider",
+      "A"
+     ],
+     [
+      "Où sont les verres",
+      "A"
+     ],
+     [
+      "Je voudrais du lait",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Est-ce que c’est ton sac",
+      "A"
+     ],
+     [
+      "Il y a un renard dessus",
+      "T"
+     ],
+     [
+      "Est-ce que je peux le tenir",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Nous avons fait un gâteau",
+      "T"
+     ],
+     [
+      "Est-ce que tu aimes le gâteau",
+      "A"
+     ],
+     [
+      "Qui veut une part",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Qui est à la porte",
+      "A"
+     ],
+     [
+      "Est-ce que c’est Mamie",
+      "A"
+     ],
+     [
+      "Est-ce qu’elle a amené le chien",
+      "A"
+     ]
+    ]
+   ],
+   "L2": [
+    [
+     "J’ai faim",
+     "T",
+     "Est-ce qu’on peut manger",
+     "A"
+    ],
+    [
+     "Le chien est mouillé",
+     "T",
+     "Il a sauté dans la mare",
+     "T"
+    ],
+    [
+     "Regarde le grand bus rouge",
+     "T",
+     "Il est plein de monde",
+     "T"
+    ],
+    [
+     "Où est mon bonnet",
+     "A",
+     "Il était sur le lit",
+     "T"
+    ],
+    [
+     "Deux petits canards nagent sur la mare",
+     "T",
+     "Ils sont jaunes",
+     "T"
+    ],
+    [
+     "Est-ce que tu aimes les grenouilles",
+     "A",
+     "Nous en avons deux",
+     "T"
+    ],
+    [
+     "Le soleil est très chaud",
+     "T",
+     "La piscine est froide",
+     "T"
+    ],
+    [
+     "Mon cerf-volant est coincé dans le grand arbre",
+     "T",
+     "Peux-tu le faire descendre",
+     "A"
+    ],
+    [
+     "Il a plu",
+     "T",
+     "L’herbe est mouillée",
+     "T"
+    ],
+    [
+     "Est-ce que tu as froid",
+     "A",
+     "Tu peux prendre mon manteau",
+     "T"
+    ]
+   ],
+   "L3": [
+    "Le chat mange vite.",
+    "La fille mange une pomme.",
+    "Le chien court vite.",
+    "Ma maman cuisine.",
+    "Les oiseaux chantent dans l’arbre.",
+    "Tu as un cerf-volant rouge.",
+    "On va au parc.",
+    "Sam lance le ballon.",
+    "Mia et Ben sont à l’école.",
+    "Quelle drôle de grenouille !"
+   ],
+   "L3opt": [
+    [
+     "mange",
+     "manges",
+     "mangeons"
+    ],
+    [
+     "mange",
+     "jolie",
+     "avec"
+    ],
+    null,
+    null,
+    [
+     "chantent",
+     "chantes",
+     "chantons"
+    ],
+    [
+     "as",
+     "bleu",
+     "sur"
+    ],
+    null,
+    null,
+    [
+     "sont",
+     "suis",
+     "es"
+    ],
+    null
+   ]
+  },
+  "es": {
+   "L1": [
+    [
+     [
+      "El sol está caliente",
+      "T"
+     ],
+     [
+      "Nadamos en la alberca",
+      "T"
+     ],
+     [
+      "El agua está fría",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Mi papalote es rojo",
+      "T"
+     ],
+     [
+      "Vuela muy alto",
+      "T"
+     ],
+     [
+      "Quién quiere probar",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Ben tiene un perrito nuevo",
+      "T"
+     ],
+     [
+      "Cómo se llama",
+      "A"
+     ],
+     [
+      "Se llama Pinto",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Dónde está mi gorra",
+      "A"
+     ],
+     [
+      "Estaba en la cama",
+      "T"
+     ],
+     [
+      "Ahora ya no está",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Quién me ayuda",
+      "A"
+     ],
+     [
+      "Dónde están los vasos",
+      "A"
+     ],
+     [
+      "Quiero un poco de leche",
+      "T"
+     ]
+    ],
+    [
+     [
+      "De quién es esta mochila",
+      "A"
+     ],
+     [
+      "Tiene un zorro dibujado",
+      "T"
+     ],
+     [
+      "Cuándo me la prestas",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Hicimos un pastel",
+      "T"
+     ],
+     [
+      "Qué pastel te gusta más",
+      "A"
+     ],
+     [
+      "Quién quiere un pedazo",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Quién toca a la puerta",
+      "A"
+     ],
+     [
+      "Qué trae en la mano",
+      "A"
+     ],
+     [
+      "Dónde está el perro",
+      "A"
+     ]
+    ]
+   ],
+   "L2": [
+    [
+     "Tengo hambre",
+     "T",
+     "Cuándo comemos",
+     "A"
+    ],
+    [
+     "El perro está mojado",
+     "T",
+     "Saltó al estanque",
+     "T"
+    ],
+    [
+     "Mira el camión rojo y grande",
+     "T",
+     "Va lleno de gente",
+     "T"
+    ],
+    [
+     "Dónde está mi gorra",
+     "A",
+     "Estaba en la cama",
+     "T"
+    ],
+    [
+     "Dos patitos nadan en el estanque",
+     "T",
+     "Son amarillos",
+     "T"
+    ],
+    [
+     "Qué ranas te gustan más",
+     "A",
+     "Tenemos dos en casa",
+     "T"
+    ],
+    [
+     "El sol está muy caliente",
+     "T",
+     "La alberca está fría",
+     "T"
+    ],
+    [
+     "Mi papalote se atoró en el árbol alto",
+     "T",
+     "Quién me lo baja",
+     "A"
+    ],
+    [
+     "Llovió",
+     "T",
+     "El pasto está mojado",
+     "T"
+    ],
+    [
+     "Por qué no traes chamarra",
+     "A",
+     "Te presto la mía",
+     "T"
+    ]
+   ],
+   "L3": [
+    "El gato come rápido.",
+    "La niña come una manzana.",
+    "El gato bebe agua.",
+    "Mi mamá cocina.",
+    "Los pájaros cantan en el árbol.",
+    "Yo tengo un papalote rojo.",
+    "Nosotros fuimos al parque.",
+    "Sam patea la pelota.",
+    "Mia y Ben están en la escuela.",
+    "¡Qué rana tan chistosa!"
+   ],
+   "L3opt": [
+    [
+     "come",
+     "comemos",
+     "comes"
+    ],
+    [
+     "come",
+     "verde",
+     "debajo"
+    ],
+    null,
+    null,
+    [
+     "cantan",
+     "canto",
+     "cantas"
+    ],
+    [
+     "tengo",
+     "azul",
+     "sobre"
+    ],
+    null,
+    null,
+    [
+     "están",
+     "estoy",
+     "estás"
+    ],
+    null
+   ]
+  },
+  "pt": {
+   "L1": [
+    [
+     [
+      "O sol está quente",
+      "T"
+     ],
+     [
+      "Nós nadamos na piscina",
+      "T"
+     ],
+     [
+      "A água está fria",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Minha pipa é vermelha",
+      "T"
+     ],
+     [
+      "Ela voa bem alto",
+      "T"
+     ],
+     [
+      "Quem quer brincar",
+      "A"
+     ]
+    ],
+    [
+     [
+      "O Ben tem um cachorrinho novo",
+      "T"
+     ],
+     [
+      "Qual é o nome dele",
+      "A"
+     ],
+     [
+      "Ele se chama Pintado",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Onde está o meu boné",
+      "A"
+     ],
+     [
+      "Estava em cima da cama",
+      "T"
+     ],
+     [
+      "Agora ele sumiu",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Quem pode me ajudar",
+      "A"
+     ],
+     [
+      "Onde estão os copos",
+      "A"
+     ],
+     [
+      "Eu quero um pouco de leite",
+      "T"
+     ]
+    ],
+    [
+     [
+      "De quem é esta mochila",
+      "A"
+     ],
+     [
+      "Tem uma raposa nela",
+      "T"
+     ],
+     [
+      "Quando você me empresta",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Nós fizemos um bolo",
+      "T"
+     ],
+     [
+      "Qual bolo você prefere",
+      "A"
+     ],
+     [
+      "Quem quer um pedaço",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Quem está na porta",
+      "A"
+     ],
+     [
+      "Por que a vovó veio",
+      "A"
+     ],
+     [
+      "Onde está o cachorro",
+      "A"
+     ]
+    ]
+   ],
+   "L2": [
+    [
+     "Estou com fome",
+     "T",
+     "O que a gente vai comer",
+     "A"
+    ],
+    [
+     "O cachorro está molhado",
+     "T",
+     "Ele pulou no lago",
+     "T"
+    ],
+    [
+     "Olha o ônibus grande e vermelho",
+     "T",
+     "Ele está cheio de gente",
+     "T"
+    ],
+    [
+     "Onde está o meu boné",
+     "A",
+     "Estava em cima da cama",
+     "T"
+    ],
+    [
+     "Dois patinhos nadam no lago",
+     "T",
+     "Eles são amarelos",
+     "T"
+    ],
+    [
+     "Quais sapos você prefere",
+     "A",
+     "Nós temos dois em casa",
+     "T"
+    ],
+    [
+     "O sol está muito quente",
+     "T",
+     "A piscina está fria",
+     "T"
+    ],
+    [
+     "Minha pipa ficou presa na árvore alta",
+     "T",
+     "Quem pode tirar a pipa",
+     "A"
+    ],
+    [
+     "Choveu",
+     "T",
+     "A grama está molhada",
+     "T"
+    ],
+    [
+     "Por que você está com frio",
+     "A",
+     "Pode usar o meu casaco",
+     "T"
+    ]
+   ],
+   "L3": [
+    "O gato come rápido.",
+    "A menina come uma maçã.",
+    "O gato bebe água.",
+    "Minha mãe cozinha.",
+    "Os passarinhos cantam na árvore.",
+    "Eu tenho uma pipa vermelha.",
+    "Nós fomos ao parque.",
+    "Sam chuta a bola.",
+    "Mia e Ben estão na escola.",
+    "Que sapo engraçado!"
+   ],
+   "L3opt": [
+    [
+     "come",
+     "como",
+     "comemos"
+    ],
+    [
+     "come",
+     "verde",
+     "embaixo"
+    ],
+    null,
+    null,
+    [
+     "cantam",
+     "canto",
+     "cantamos"
+    ],
+    [
+     "tenho",
+     "azul",
+     "sobre"
+    ],
+    null,
+    null,
+    [
+     "estão",
+     "estou",
+     "estamos"
+    ],
+    null
+   ]
+  },
+  "it": {
+   "L1": [
+    [
+     [
+      "Il sole è caldo",
+      "T"
+     ],
+     [
+      "Nuotiamo in piscina",
+      "T"
+     ],
+     [
+      "L’acqua è fredda",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Il mio aquilone è rosso",
+      "T"
+     ],
+     [
+      "Vola molto in alto",
+      "T"
+     ],
+     [
+      "Chi vuole provare",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Ben ha un cucciolo nuovo",
+      "T"
+     ],
+     [
+      "Come si chiama",
+      "A"
+     ],
+     [
+      "Si chiama Macchia",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Dov’è il mio cappello",
+      "A"
+     ],
+     [
+      "Era sul letto",
+      "T"
+     ],
+     [
+      "Adesso non c’è più",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Chi mi aiuta",
+      "A"
+     ],
+     [
+      "Dove sono i bicchieri",
+      "A"
+     ],
+     [
+      "Voglio un po’ di latte",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Di chi è questo zaino",
+      "A"
+     ],
+     [
+      "C’è una volpe disegnata sopra",
+      "T"
+     ],
+     [
+      "Quando me lo presti",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Abbiamo fatto una torta",
+      "T"
+     ],
+     [
+      "Quale torta preferisci",
+      "A"
+     ],
+     [
+      "Chi ne vuole una fetta",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Chi è alla porta",
+      "A"
+     ],
+     [
+      "Perché è venuta la nonna",
+      "A"
+     ],
+     [
+      "Dov’è il cane",
+      "A"
+     ]
+    ]
+   ],
+   "L2": [
+    [
+     "Ho fame",
+     "T",
+     "Cosa mangiamo",
+     "A"
+    ],
+    [
+     "Il cane è bagnato",
+     "T",
+     "È saltato nello stagno",
+     "T"
+    ],
+    [
+     "Guarda il grande autobus rosso",
+     "T",
+     "È pieno di gente",
+     "T"
+    ],
+    [
+     "Dov’è il mio cappello",
+     "A",
+     "Era sul letto",
+     "T"
+    ],
+    [
+     "Due anatroccoli nuotano nello stagno",
+     "T",
+     "Sono gialli",
+     "T"
+    ],
+    [
+     "Quali rane ti piacciono",
+     "A",
+     "Ne abbiamo due a casa",
+     "T"
+    ],
+    [
+     "Il sole è molto caldo",
+     "T",
+     "La piscina è fredda",
+     "T"
+    ],
+    [
+     "Il mio aquilone è rimasto sull’albero alto",
+     "T",
+     "Chi me lo prende",
+     "A"
+    ],
+    [
+     "È piovuto",
+     "T",
+     "L’erba è bagnata",
+     "T"
+    ],
+    [
+     "Dove hai lasciato la tua giacca",
+     "A",
+     "Puoi prendere il mio cappotto",
+     "T"
+    ]
+   ],
+   "L3": [
+    "Il gatto mangia il pesce.",
+    "La bambina mangia una mela.",
+    "Il gatto beve acqua.",
+    "La mamma cucina.",
+    "Gli uccelli cantano sull’albero.",
+    "Io ho un aquilone rosso.",
+    "Noi siamo andati al parco.",
+    "Sam calcia la palla.",
+    "Mia e Ben sono a scuola.",
+    "Che rana buffa!"
+   ],
+   "L3opt": [
+    [
+     "mangia",
+     "mangio",
+     "mangiamo"
+    ],
+    [
+     "mangia",
+     "verde",
+     "sotto"
+    ],
+    null,
+    null,
+    [
+     "cantano",
+     "canto",
+     "canti"
+    ],
+    [
+     "ho",
+     "blu",
+     "sopra"
+    ],
+    null,
+    null,
+    [
+     "sono",
+     "sei",
+     "siamo"
+    ],
+    null
+   ]
+  },
+  "nl": {
+   "L1": [
+    [
+     [
+      "De zon is heet",
+      "T"
+     ],
+     [
+      "We zwemmen in het zwembad",
+      "T"
+     ],
+     [
+      "Het water is koud",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Mijn vlieger is rood",
+      "T"
+     ],
+     [
+      "Hij vliegt heel hoog",
+      "T"
+     ],
+     [
+      "Wil jij het ook eens proberen",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Ben heeft een nieuwe puppy",
+      "T"
+     ],
+     [
+      "Hoe heet hij",
+      "A"
+     ],
+     [
+      "Hij heet Vlek",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Waar is mijn muts",
+      "A"
+     ],
+     [
+      "Hij lag op het bed",
+      "T"
+     ],
+     [
+      "Nu is hij weg",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Kun je me helpen",
+      "A"
+     ],
+     [
+      "Waar zijn de bekers",
+      "A"
+     ],
+     [
+      "Ik wil wat melk",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Is dit jouw tas",
+      "A"
+     ],
+     [
+      "Er staat een vos op",
+      "T"
+     ],
+     [
+      "Mag ik hem vasthouden",
+      "A"
+     ]
+    ],
+    [
+     [
+      "We hebben een taart gebakken",
+      "T"
+     ],
+     [
+      "Hou jij van taart",
+      "A"
+     ],
+     [
+      "Wie wil er een stuk",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Wie staat er aan de deur",
+      "A"
+     ],
+     [
+      "Is het oma",
+      "A"
+     ],
+     [
+      "Heeft ze de hond meegenomen",
+      "A"
+     ]
+    ]
+   ],
+   "L2": [
+    [
+     "Ik heb honger",
+     "T",
+     "Kunnen we nu eten",
+     "A"
+    ],
+    [
+     "De hond is nat",
+     "T",
+     "Hij is in de vijver gesprongen",
+     "T"
+    ],
+    [
+     "Kijk naar die grote rode bus",
+     "T",
+     "Hij zit vol mensen",
+     "T"
+    ],
+    [
+     "Waar is mijn muts",
+     "A",
+     "Hij lag op het bed",
+     "T"
+    ],
+    [
+     "Twee kleine eendjes zwemmen in de vijver",
+     "T",
+     "Ze zijn geel",
+     "T"
+    ],
+    [
+     "Hou jij van groene kikkers",
+     "A",
+     "We hebben er twee thuis",
+     "T"
+    ],
+    [
+     "De zon is heel heet",
+     "T",
+     "Het zwembad is koud",
+     "T"
+    ],
+    [
+     "Mijn vlieger zit vast in de hoge boom",
+     "T",
+     "Kun jij hem eruit halen",
+     "A"
+    ],
+    [
+     "Het regende",
+     "T",
+     "Het gras is nat",
+     "T"
+    ],
+    [
+     "Heb je het koud",
+     "A",
+     "Je mag mijn jas aan",
+     "T"
+    ]
+   ],
+   "L3": [
+    "Het kind rent snel.",
+    "De kat drinkt melk.",
+    "De hond rent snel.",
+    "Mijn moeder kookt.",
+    "De vogels zingen in de boom.",
+    "Ik heb een rode vlieger.",
+    "Wij gingen naar het park.",
+    "Sam schopt de bal.",
+    "Mia en Ben zijn op school.",
+    "Wat een grappige kikker!"
+   ],
+   "L3opt": [
+    [
+     "rent",
+     "ren",
+     "renden"
+    ],
+    [
+     "drinkt",
+     "groen",
+     "onder"
+    ],
+    null,
+    null,
+    [
+     "zingen",
+     "zing",
+     "zingend"
+    ],
+    [
+     "heb",
+     "blauw",
+     "boven"
+    ],
+    null,
+    null,
+    [
+     "zijn",
+     "ben",
+     "bent"
+    ],
+    null
+   ]
+  },
+  "sv": {
+   "L1": [
+    [
+     [
+      "Solen är varm",
+      "T"
+     ],
+     [
+      "Vi badar i poolen",
+      "T"
+     ],
+     [
+      "Vattnet är kallt",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Min drake är röd",
+      "T"
+     ],
+     [
+      "Den flyger högt",
+      "T"
+     ],
+     [
+      "Vill du också prova",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Ben har en ny valp",
+      "T"
+     ],
+     [
+      "Vad heter den",
+      "A"
+     ],
+     [
+      "Den heter Prick",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Var är min mössa",
+      "A"
+     ],
+     [
+      "Den låg på sängen",
+      "T"
+     ],
+     [
+      "Nu är den borta",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Kan du hjälpa mig",
+      "A"
+     ],
+     [
+      "Var är muggarna",
+      "A"
+     ],
+     [
+      "Jag vill ha mjölk",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Är det här din väska",
+      "A"
+     ],
+     [
+      "Det finns en räv på den",
+      "T"
+     ],
+     [
+      "Får jag hålla i den",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Vi har bakat en kaka",
+      "T"
+     ],
+     [
+      "Tycker du om kaka",
+      "A"
+     ],
+     [
+      "Vem vill ha en bit",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Vem står vid dörren",
+      "A"
+     ],
+     [
+      "Är det mormor",
+      "A"
+     ],
+     [
+      "Har hon tagit med hunden",
+      "A"
+     ]
+    ]
+   ],
+   "L2": [
+    [
+     "Jag är hungrig",
+     "T",
+     "Kan vi äta nu",
+     "A"
+    ],
+    [
+     "Hunden är blöt",
+     "T",
+     "Den hoppade i dammen",
+     "T"
+    ],
+    [
+     "Titta på den stora röda bussen",
+     "T",
+     "Den är full av folk",
+     "T"
+    ],
+    [
+     "Var är min mössa",
+     "A",
+     "Den låg på sängen",
+     "T"
+    ],
+    [
+     "Två små ankor simmar i dammen",
+     "T",
+     "De är gula",
+     "T"
+    ],
+    [
+     "Tycker du om gröna grodor",
+     "A",
+     "Vi har två hemma",
+     "T"
+    ],
+    [
+     "Solen är väldigt varm",
+     "T",
+     "Poolen är kall",
+     "T"
+    ],
+    [
+     "Min drake har fastnat i det höga trädet",
+     "T",
+     "Kan du hämta ner den",
+     "A"
+    ],
+    [
+     "Det regnade",
+     "T",
+     "Gräset är blött",
+     "T"
+    ],
+    [
+     "Fryser du",
+     "A",
+     "Du får låna min jacka",
+     "T"
+    ]
+   ],
+   "L3": [
+    "Hon springer till skolan.",
+    "Katten dricker mjölk.",
+    "Imorgon ska jag läsa.",
+    "Jag kan simma.",
+    "Vi har ett rött hus.",
+    "Jag har en röd drake.",
+    "Vi gick till parken.",
+    "Sam sparkar bollen.",
+    "Jag har två hundar.",
+    "Vilken rolig groda!"
+   ],
+   "L3opt": [
+    [
+     "springer",
+     "springande",
+     "att springa"
+    ],
+    [
+     "dricker",
+     "glad",
+     "snabbt"
+    ],
+    null,
+    null,
+    [
+     "rött",
+     "röda",
+     "rödare"
+    ],
+    [
+     "har",
+     "blå",
+     "över"
+    ],
+    null,
+    null,
+    [
+     "hundar",
+     "hundarna",
+     "hunden"
+    ],
+    null
+   ]
+  },
+  "da": {
+   "L1": [
+    [
+     [
+      "Solen er varm",
+      "T"
+     ],
+     [
+      "Vi bader i poolen",
+      "T"
+     ],
+     [
+      "Vandet er koldt",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Min drage er rød",
+      "T"
+     ],
+     [
+      "Den flyver højt",
+      "T"
+     ],
+     [
+      "Vil du også prøve",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Ben har en ny hvalp",
+      "T"
+     ],
+     [
+      "Hvad hedder den",
+      "A"
+     ],
+     [
+      "Den hedder Plet",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Hvor er min hue",
+      "A"
+     ],
+     [
+      "Den lå på sengen",
+      "T"
+     ],
+     [
+      "Nu er den væk",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Kan du hjælpe mig",
+      "A"
+     ],
+     [
+      "Hvor er kopperne",
+      "A"
+     ],
+     [
+      "Jeg vil have mælk",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Er det din taske",
+      "A"
+     ],
+     [
+      "Der er en ræv på den",
+      "T"
+     ],
+     [
+      "Må jeg holde den",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Vi har bagt en kage",
+      "T"
+     ],
+     [
+      "Kan du lide kage",
+      "A"
+     ],
+     [
+      "Hvem vil have et stykke",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Hvem står ved døren",
+      "A"
+     ],
+     [
+      "Er det mormor",
+      "A"
+     ],
+     [
+      "Har hun taget hunden med",
+      "A"
+     ]
+    ]
+   ],
+   "L2": [
+    [
+     "Jeg er sulten",
+     "T",
+     "Kan vi spise nu",
+     "A"
+    ],
+    [
+     "Hunden er våd",
+     "T",
+     "Den hoppede i søen",
+     "T"
+    ],
+    [
+     "Se den store røde bus",
+     "T",
+     "Den er fuld af folk",
+     "T"
+    ],
+    [
+     "Hvor er min hue",
+     "A",
+     "Den lå på sengen",
+     "T"
+    ],
+    [
+     "To små ællinger svømmer i søen",
+     "T",
+     "De er gule",
+     "T"
+    ],
+    [
+     "Kan du lide grønne frøer",
+     "A",
+     "Vi har to derhjemme",
+     "T"
+    ],
+    [
+     "Solen er meget varm",
+     "T",
+     "Poolen er kold",
+     "T"
+    ],
+    [
+     "Min drage sidder fast i det høje træ",
+     "T",
+     "Kan du hente den ned",
+     "A"
+    ],
+    [
+     "Det regnede",
+     "T",
+     "Græsset er vådt",
+     "T"
+    ],
+    [
+     "Fryser du",
+     "A",
+     "Du må låne min jakke",
+     "T"
+    ]
+   ],
+   "L3": [
+    "Vi har et rødt hus.",
+    "Katten drikker mælk.",
+    "Bagefter skal jeg læse.",
+    "Jeg kan svømme.",
+    "Jeg har to hunde.",
+    "Jeg har en rød drage.",
+    "Vi gik i parken.",
+    "Sam sparker bolden.",
+    "Han kan svømme.",
+    "Sikke en sjov frø!"
+   ],
+   "L3opt": [
+    [
+     "rødt",
+     "røde",
+     "rødere"
+    ],
+    [
+     "drikker",
+     "glad",
+     "hurtigt"
+    ],
+    null,
+    null,
+    [
+     "hunde",
+     "hundene",
+     "hunden"
+    ],
+    [
+     "har",
+     "blå",
+     "over"
+    ],
+    null,
+    null,
+    [
+     "svømme",
+     "svømmede",
+     "svømmet"
+    ],
+    null
+   ]
+  },
+  "no": {
+   "L1": [
+    [
+     [
+      "Sola er varm",
+      "T"
+     ],
+     [
+      "Vi bader i bassenget",
+      "T"
+     ],
+     [
+      "Vannet er kaldt",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Dragen min er rød",
+      "T"
+     ],
+     [
+      "Den flyr høyt",
+      "T"
+     ],
+     [
+      "Vil du også prøve",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Ben har en ny valp",
+      "T"
+     ],
+     [
+      "Hva heter den",
+      "A"
+     ],
+     [
+      "Den heter Flekk",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Hvor er lua mi",
+      "A"
+     ],
+     [
+      "Den lå på senga",
+      "T"
+     ],
+     [
+      "Nå er den borte",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Kan du hjelpe meg",
+      "A"
+     ],
+     [
+      "Hvor er koppene",
+      "A"
+     ],
+     [
+      "Jeg vil ha melk",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Er det sekken din",
+      "A"
+     ],
+     [
+      "Det er en rev på den",
+      "T"
+     ],
+     [
+      "Får jeg holde den",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Vi har bakt en kake",
+      "T"
+     ],
+     [
+      "Liker du kake",
+      "A"
+     ],
+     [
+      "Hvem vil ha et stykke",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Hvem står ved døra",
+      "A"
+     ],
+     [
+      "Er det bestemor",
+      "A"
+     ],
+     [
+      "Har hun tatt med hunden",
+      "A"
+     ]
+    ]
+   ],
+   "L2": [
+    [
+     "Jeg er sulten",
+     "T",
+     "Kan vi spise nå",
+     "A"
+    ],
+    [
+     "Hunden er våt",
+     "T",
+     "Den hoppet i dammen",
+     "T"
+    ],
+    [
+     "Se på den store røde bussen",
+     "T",
+     "Den er full av folk",
+     "T"
+    ],
+    [
+     "Hvor er lua mi",
+     "A",
+     "Den lå på senga",
+     "T"
+    ],
+    [
+     "To små ender svømmer i dammen",
+     "T",
+     "De er gule",
+     "T"
+    ],
+    [
+     "Liker du grønne frosker",
+     "A",
+     "Vi har to hjemme",
+     "T"
+    ],
+    [
+     "Sola er veldig varm",
+     "T",
+     "Bassenget er kaldt",
+     "T"
+    ],
+    [
+     "Dragen min sitter fast i det høye treet",
+     "T",
+     "Kan du hente den ned",
+     "A"
+    ],
+    [
+     "Det regnet",
+     "T",
+     "Gresset er vått",
+     "T"
+    ],
+    [
+     "Fryser du",
+     "A",
+     "Du kan låne jakka mi",
+     "T"
+    ]
+   ],
+   "L3": [
+    "Vi har et rødt hus.",
+    "Katten drikker melk.",
+    "Etterpå skal jeg lese.",
+    "Jeg kan svømme.",
+    "Jeg har to hunder.",
+    "Jeg har en rød drage.",
+    "Vi gikk til parken.",
+    "Sam sparker ballen.",
+    "Han kan svømme.",
+    "For en morsom frosk!"
+   ],
+   "L3opt": [
+    [
+     "rødt",
+     "røde",
+     "rødere"
+    ],
+    [
+     "drikker",
+     "glad",
+     "fort"
+    ],
+    null,
+    null,
+    [
+     "hunder",
+     "hundene",
+     "hunden"
+    ],
+    [
+     "har",
+     "blå",
+     "over"
+    ],
+    null,
+    null,
+    [
+     "svømme",
+     "svømte",
+     "svømt"
+    ],
+    null
+   ]
+  },
+  "fi": {
+   "L1": [
+    [
+     [
+      "Aurinko on kuuma",
+      "T"
+     ],
+     [
+      "Uimme altaassa",
+      "T"
+     ],
+     [
+      "Vesi on kylmää",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Leijani on punainen",
+      "T"
+     ],
+     [
+      "Se lentää korkealla",
+      "T"
+     ],
+     [
+      "Haluatko sinäkin kokeilla",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Benillä on uusi koiranpentu",
+      "T"
+     ],
+     [
+      "Mikä sen nimi on",
+      "A"
+     ],
+     [
+      "Sen nimi on Täplä",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Missä piponi on",
+      "A"
+     ],
+     [
+      "Se oli sängyllä",
+      "T"
+     ],
+     [
+      "Nyt se on poissa",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Voitko auttaa minua",
+      "A"
+     ],
+     [
+      "Missä mukit ovat",
+      "A"
+     ],
+     [
+      "Haluan maitoa",
+      "T"
+     ]
+    ],
+    [
+     [
+      "Onko tämä sinun laukkusi",
+      "A"
+     ],
+     [
+      "Siinä on kettu",
+      "T"
+     ],
+     [
+      "Saanko pitää sitä",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Leivoimme kakun",
+      "T"
+     ],
+     [
+      "Pidätkö kakusta",
+      "A"
+     ],
+     [
+      "Kuka haluaa palan",
+      "A"
+     ]
+    ],
+    [
+     [
+      "Kuka on ovella",
+      "A"
+     ],
+     [
+      "Onko se mummi",
+      "A"
+     ],
+     [
+      "Toiko hän koiran",
+      "A"
+     ]
+    ]
+   ],
+   "L2": [
+    [
+     "Minulla on nälkä",
+     "T",
+     "Voimmeko syödä nyt",
+     "A"
+    ],
+    [
+     "Koira on märkä",
+     "T",
+     "Se hyppäsi lampeen",
+     "T"
+    ],
+    [
+     "Katso tuota isoa punaista bussia",
+     "T",
+     "Se on täynnä ihmisiä",
+     "T"
+    ],
+    [
+     "Missä piponi on",
+     "A",
+     "Se oli sängyllä",
+     "T"
+    ],
+    [
+     "Kaksi pientä ankkaa ui lammessa",
+     "T",
+     "Ne ovat keltaisia",
+     "T"
+    ],
+    [
+     "Pidätkö sinä vihreistä sammakoista",
+     "A",
+     "Meillä on kaksi kotona",
+     "T"
+    ],
+    [
+     "Aurinko on tosi kuuma",
+     "T",
+     "Allas on kylmä",
+     "T"
+    ],
+    [
+     "Leijani on jumissa korkeassa puussa",
+     "T",
+     "Saatko sen alas",
+     "A"
+    ],
+    [
+     "Satoi",
+     "T",
+     "Ruoho on märkää",
+     "T"
+    ],
+    [
+     "Onko sinulla nyt kylmä",
+     "A",
+     "Saat lainata takkiani",
+     "T"
+    ]
+   ],
+   "L3": [
+    "Lapsi juoksee nopeasti.",
+    "Kissa juo maitoa.",
+    "Minulla on iso koira.",
+    "Äiti laittaa ruokaa.",
+    "Minä juoksen kouluun.",
+    "Minulla on punainen leija.",
+    "Me menimme puistoon.",
+    "Kissa nukkuu sohvalla.",
+    "Mia ja Ben ovat koulussa.",
+    "Onpa hassu sammakko!"
+   ],
+   "L3opt": [
+    [
+     "juoksee",
+     "juoksen",
+     "juokset"
+    ],
+    [
+     "juo",
+     "vihreä",
+     "alla"
+    ],
+    null,
+    null,
+    [
+     "juoksen",
+     "juokset",
+     "juoksemme"
+    ],
+    [
+     "on",
+     "sininen",
+     "yli"
+    ],
+    null,
+    null,
+    [
+     "ovat",
+     "olen",
+     "olet"
+    ],
+    null
+   ]
+  }
+ }
+}

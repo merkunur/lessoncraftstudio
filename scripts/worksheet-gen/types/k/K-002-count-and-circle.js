@@ -8,6 +8,7 @@
 'use strict';
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { labelSafeNouns } = require('../../image-cache/resolve.js');
+const slot = require('../../lib/slot.js');
 const { iconRows, fitIcons, chipRow, distractorsFor } = require('../../templates/components.js');
 
 module.exports = {
@@ -37,7 +38,7 @@ module.exports = {
     if (nouns.length < this.themeAxis.minNouns) {
       throw new Error(`K-002: theme ${theme} has ${nouns.length} nouns < min ${this.themeAxis.minNouns}`);
     }
-    const pickNouns = rng.sample(nouns, d.cards);
+    const pickNouns = slot.pictures(ctx, rng.sample(nouns, d.cards), nouns, theme);   // a teacher's picture choice (maker), else as drawn
 
     // counts: distinct, spread across [min,max]
     const allCounts = [];
@@ -61,7 +62,7 @@ module.exports = {
       const choices = rng.shuffle([n, ...distractorsFor({ correct: n, count: 2, min: 1, max: d.max, rng })]);
 
       cards.push(
-        `<div class="ws-card-stage" data-lcs-count="${n}" data-lcs-noun="${noun.vocabKey}">${stageHtml}</div>` +
+        `<div class="ws-card-stage" data-lcs-count="${n}" data-lcs-noun="${noun.vocabKey}"${slot.attr(ctx, 'pic', i)}>${stageHtml}</div>` +
         chipRow({ choices, correct: n })
       );
       truth.push({ card: i + 1, count: n, noun: noun.vocabKey, choices });

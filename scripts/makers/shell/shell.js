@@ -27,7 +27,7 @@ const el = (tag, attrs = {}, kids = []) => {
 
 let mod, tj, strings, picManifest;
 const typeCache = {};
-const state = { id: null, level: 2, theme: null, unit: null, answerKey: false, paper: LANG === 'en' ? 'letter' : 'a4', pages: [1] };
+const state = { id: null, level: 2, theme: null, unit: null, answerKey: false, paper: LANG === 'en' ? 'letter' : 'a4', pages: [1], edits: [{}] };
 
 /*
  * Who may make what (operator ruling 2026-10-31; frontend/lib/quota.ts kind 'make'):
@@ -110,8 +110,9 @@ async function boot() {
   const want = params.get('t');
   choose((offered.find((t) => t.id === want) || offered[0]).id, true);
   buildGallery(offered);
-  $('mk-new').addEventListener('click', () => { state.pages = state.pages.map(() => nextVariant()); render(); });
-  $('mk-add').addEventListener('click', () => { state.pages.push(nextVariant()); render(); });
+  // New version is new content: the teacher's picture/word choices belong to the old content and are dropped
+  $('mk-new').addEventListener('click', () => { state.pages = state.pages.map(() => nextVariant()); state.edits = state.pages.map(() => ({})); render(); });
+  $('mk-add').addEventListener('click', () => { state.pages.push(nextVariant()); state.edits.push({}); render(); });
   $('mk-print').addEventListener('click', printAll);
 }
 
@@ -132,7 +133,7 @@ function choose(id, first) {
   if (t.themed) { if (!t.themes.includes(state.theme)) state.theme = t.themes[0]; } else state.theme = null;
   const units = t.units && t.units[LANG];
   state.unit = units && units.length ? (units.some((u) => u.id === state.unit) ? state.unit : units[0].id) : null;
-  if (!first) state.pages = [state.pages[0] || 1];
+  if (!first) { state.pages = [state.pages[0] || 1]; state.edits = [{}]; }
   document.querySelectorAll('.mk-card').forEach((c) => c.setAttribute('aria-current', String(c.dataset.id === id)));
   buildControls(t);
   render();
@@ -163,10 +164,10 @@ function pageResult(i) {
   const t = tj.templates.find((x) => x.id === state.id);
   const ps = pageSpec(i);
   const o = isOpen(state.id)
-    ? { strings: strings[state.id], locale: LANG, difficulty: state.level, theme: state.theme, unit: ps.unit, variant: ps.variant, pageSize: state.paper, answerKey: state.answerKey && t.interactive, answerKeySuffix: tj.answerKey[LANG] }
+    ? { strings: strings[state.id], locale: LANG, difficulty: state.level, theme: state.theme, unit: ps.unit, variant: ps.variant, pageSize: state.paper, answerKey: state.answerKey && t.interactive, answerKeySuffix: tj.answerKey[LANG], overrides: state.edits[i] && Object.keys(state.edits[i]).length ? state.edits[i] : null }
     : { strings: strings[state.id], locale: LANG, difficulty: t.levels.includes(2) ? 2 : t.levels[0], theme: t.themed ? t.themes[0] : null, unit: ((t.units && t.units[LANG]) || [])[0] ? t.units[LANG][0].id : null, variant: 1, pageSize: state.paper, answerKey: false, answerKeySuffix: tj.answerKey[LANG] };
   const id = state.id;
-  const cacheKey = JSON.stringify([id, o.difficulty, o.theme, o.unit, o.variant, o.pageSize, o.answerKey]);
+  const cacheKey = JSON.stringify([id, o.difficulty, o.theme, o.unit, o.variant, o.pageSize, o.answerKey, o.overrides || null]);
   if (!results.has(cacheKey)) {
     gateQueue = gateQueue.then(async () => mod.generate({ ...o, type: await loadType(id) }, (html) => mod.mountHtml(gateFrame, html)))
       .catch((e) => ({ ok: false, fails: ['error: ' + e.message] }));
@@ -181,10 +182,43 @@ async function makeHtml(i, key) {
   return key ? r.keyHtml : r.html;
 }
 
-function sheet(html) {
+/**
+ * The previews do not hand out their pictures: no right-click "Save image", no long-press save on a tablet, no dragging a
+ * picture out. Only a casual deterrent — the addresses are still in the page for anyone with developer tools, and the
+ * printed page is not affected (print and PDF are built from the html string, never from these frames).
+ */
+const NO_SAVE_CSS = 'img,svg image{-webkit-user-drag:none;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}';
+function guardFrame(f) {
+  f.addEventListener('load', () => {
+    const d = f.contentDocument;
+    if (!d) return;
+    const st = d.createElement('style');
+    st.textContent = NO_SAVE_CSS;
+    d.head.append(st);
+    d.addEventListener('contextmenu', (e) => e.preventDefault());
+    d.addEventListener('dragstart', (e) => e.preventDefault());
+  });
+}
+
+function sheet(html, pageIndex = null) {
   const box = el('div', { class: 'mk-sheet' });
   const f = el('iframe', { title: UI.page, srcdoc: html, scrolling: 'no' });
+  guardFrame(f);
   box.append(f);
+  if (pageIndex !== null) {
+    f.addEventListener('load', () => {
+      const d = f.contentDocument;
+      if (!d.querySelector('[data-lcs-slot]')) return;
+      // the affordance lives only in the on-screen preview (print and PDF are built from the html string, not this frame)
+      const st = d.createElement('style');
+      st.textContent = '[data-lcs-slot]{cursor:pointer;border-radius:10px;transition:box-shadow .12s}[data-lcs-slot]:hover,[data-lcs-slot]:focus-visible{box-shadow:0 0 0 3px #F2784B;outline:none}';
+      d.head.append(st);
+      d.querySelectorAll('[data-lcs-slot]').forEach((n) => { n.setAttribute('tabindex', '0'); n.setAttribute('role', 'button'); });
+      const go = (e) => { const n = e.target.closest && e.target.closest('[data-lcs-slot]'); if (!n) return; e.preventDefault(); const [role, idx] = n.getAttribute('data-lcs-slot').split('.'); openPicker(pageIndex, role, Number(idx)); };
+      d.addEventListener('click', go);
+      d.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') go(e); });
+    }, { once: true });
+  }
   const fit = () => { f.style.transform = `scale(${box.clientWidth / 703})`; };
   new ResizeObserver(fit).observe(box);
   return box;
@@ -201,7 +235,7 @@ async function render() {
   const open = isOpen(state.id);
   $('mk-new').hidden = !open || !differ;
   $('mk-add').hidden = !open || (!differ && !((t.units && t.units[LANG]) || []).length);
-  if (!open) state.pages = [state.pages[0] || 1];
+  if (!open) { state.pages = [state.pages[0] || 1]; state.edits = [{}]; }
   const out = [];
   let refused = 0;
   $('mk-print').disabled = true;
@@ -209,8 +243,8 @@ async function render() {
     try {
       const html = await makeHtml(i, false);
       const head = el('div', { class: 'mk-page-head' }, [el('span', { text: `${UI.page} ${i + 1} ${UI.of} ${state.pages.length}` })]);
-      if (state.pages.length > 1) head.append(el('button', { class: 'mk-link', type: 'button', text: UI.removePage, on: { click: () => { state.pages.splice(i, 1); render(); } } }));
-      out.push(el('div', { class: 'mk-page' }, [head, sheet(html)]));
+      if (state.pages.length > 1) head.append(el('button', { class: 'mk-link', type: 'button', text: UI.removePage, on: { click: () => { state.pages.splice(i, 1); state.edits.splice(i, 1); render(); } } }));
+      out.push(el('div', { class: 'mk-page' }, [head, sheet(html, isOpen(state.id) ? i : null)]));
       if (state.answerKey && t.interactive) {
         const key = await makeHtml(i, true);
         if (key) out.push(el('div', { class: 'mk-page' }, [el('div', { class: 'mk-page-head' }, [el('span', { text: `${UI.answerKey} · ${UI.page} ${i + 1}` })]), sheet(key)]));
@@ -228,6 +262,52 @@ async function render() {
   $('mk-print').disabled = refused > 0;
   // a sample page is never printed: no Print button at all (a button that cannot be used explains nothing; the card does)
   $('mk-print').hidden = !isOpen(state.id);
+}
+
+/**
+ * The picker for one slot of page i: the type's OWN pool (lib/slot.js records it), pictures as tiles, words as chips.
+ * The choice is re-made through the gates; it is kept only if the page applied it AND passed on its own seed — a choice
+ * that is already on the page, or that the page cannot carry, is undone with a sentence (ARCHITECTURE §6.2 step 3).
+ */
+async function openPicker(i, role, idx) {
+  const r = await pageResult(i);
+  const slotInfo = r.ok && r.slots && r.slots[role];
+  if (!slotInfo) return;
+  const current = slotInfo.values[idx];
+  let dlg = $('mk-picker');
+  if (!dlg) { dlg = el('dialog', { id: 'mk-picker', class: 'mk-picker' }); document.body.append(dlg); }
+  const grid = el('div', { class: role === 'pic' ? 'mk-pick-grid' : 'mk-pick-words' });
+  const nouns = (picManifest.themes[state.theme] || {}).nouns || {};
+  for (const key of slotInfo.pool) {
+    const used = slotInfo.values.includes(key) && key !== current;
+    const kids = role === 'pic' && nouns[key]
+      ? [el('img', { src: `/makers-assets/themes-512/${encodeURIComponent(state.theme)}/${encodeURIComponent(nouns[key].files[0])}`, alt: key, loading: 'lazy' })]
+      : [el('span', { text: key })];
+    grid.append(el('button', { type: 'button', class: 'mk-pick', 'aria-pressed': String(key === current), disabled: used, title: key, on: { click: () => choosePick(i, role, idx, key) } }, kids));
+  }
+  dlg.replaceChildren(
+    el('div', { class: 'mk-pick-head' }, [el('h2', { text: role === 'pic' ? UI.choosePicture : UI.chooseWord }), el('button', { type: 'button', class: 'mk-btn', text: UI.close, on: { click: () => dlg.close() } })]),
+    el('p', { class: 'mk-pick-note', id: 'mk-pick-note' }),
+    grid,
+  );
+  dlg.querySelectorAll('img').forEach((im) => { im.addEventListener('contextmenu', (e) => e.preventDefault()); im.draggable = false; });
+  dlg.showModal();
+}
+
+async function choosePick(i, role, idx, key) {
+  const before = JSON.stringify(state.edits[i] || {});
+  const ed = state.edits[i] = JSON.parse(before);
+  (ed[role] = ed[role] || {})[idx] = key;
+  const r = await pageResult(i);
+  const applied = r.ok && r.slots && r.slots[role] && r.slots[role].values[idx] === key && !(r.attempt && r.attempt.seedVariant);
+  if (!applied) {
+    state.edits[i] = JSON.parse(before);
+    const note = $('mk-pick-note');
+    if (note) note.textContent = r.ok && r.slots && r.slots[role] && r.slots[role].values.includes(key) ? UI.alreadyUsed : UI.doesNotFit;
+    return;
+  }
+  $('mk-picker').close();
+  render();
 }
 
 function chipGroup(label, values, current, onPick, fmt) {
@@ -257,6 +337,7 @@ function buildControls(t) {
           const base = state.theme.replace(/\s+bw(\s+\d+)?$/i, '');
           const pool = on ? bwThemes : colorThemes;
           state.theme = pool.find((x) => (on ? x.replace(/\s+bw(\s+\d+)?$/i, '') === base : x === base)) || pool[0];
+          state.edits = state.pages.map(() => ({}));
           buildControls(t); render();
         } } }));
       }
@@ -266,7 +347,7 @@ function buildControls(t) {
     for (const th of (bwOn ? bwThemes : colorThemes)) {
       const full = (tj.themeNames[LANG] && tj.themeNames[LANG][th]) || th;
       const name = isBw(th) ? full.replace(/\s+(BW|SW|BN|ZW|NB|PB|SV|SH|MV)(?=(\s+\d+)?$)/, '') : full;
-      row.append(el('button', { type: 'button', class: 'mk-theme', 'aria-pressed': String(th === state.theme), title: name, on: { click: () => { state.theme = th; buildControls(t); render(); } } },
+      row.append(el('button', { type: 'button', class: 'mk-theme', 'aria-pressed': String(th === state.theme), title: name, on: { click: () => { if (th !== state.theme) state.edits = state.pages.map(() => ({})); state.theme = th; buildControls(t); render(); } } },
         [el('span', { class: 'mk-theme-pic', style: `background-image:url("${themePicture(th)}")` }), el('span', { class: 'mk-theme-name', text: name })]));
     }
     g.append(row); kids.push(g);
@@ -280,6 +361,8 @@ function buildControls(t) {
   if (t.interactive) kids.push(chipGroup(UI.answerKey, [false, true], state.answerKey, (v) => { state.answerKey = v; buildControls(t); render(); }, (v) => (v ? '✓' : '—')));
   kids.push(chipGroup(UI.paper, ['letter', 'a4'], state.paper, (v) => { state.paper = v; buildControls(t); render(); }, (v) => UI[v]));
   c.replaceChildren(...kids);
+  // say once that the page can be tapped — only where this template exposes slots (filled in after the first page)
+  pageResult(0).then((r) => { if (r.ok && r.slots && Object.keys(r.slots).length && isOpen(t.id) && !c.querySelector('.mk-tap-hint')) c.append(el('p', { class: 'mk-tap-hint', text: UI.tapHint })); });
 }
 
 function buildGallery(offered) {
@@ -297,6 +380,7 @@ function buildGallery(offered) {
         const units = t.units && t.units[LANG];
         const r = mod.makePage({ type, strings: strings[t.id], locale: LANG, difficulty: t.levels.includes(2) ? 2 : t.levels[0], theme: t.themed ? t.themes[0] : null, unit: units && units[0] ? units[0].id : null, variant: 1, pageSize: state.paper });
         const f = el('iframe', { srcdoc: r.html, tabindex: '-1', 'aria-hidden': 'true', scrolling: 'no' });
+        guardFrame(f);
         thumb.append(f);
         f.style.transform = `scale(${thumb.clientWidth / 703})`;
       } catch (e) { /* a card whose miniature fails still opens the template */ }

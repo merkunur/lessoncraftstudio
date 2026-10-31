@@ -9,6 +9,7 @@
 'use strict';
 const { strokeWordLane, writingRow } = require('../../primitives/trace-path.js');
 const { SIGHT_WORDS } = require('../../data/literacy/sight-words.js');
+const slot = require('../../lib/slot.js');
 // Level Set 2026-09-30: new copies walk the full ~100-word K-1 list (published 24 first, then the appended words)
 const levelSetWords = (loc) => require('../../lib/sight-words-levelset.js').words(loc);
 
@@ -63,6 +64,8 @@ module.exports = {
       // pool for the set pages never changes the published base deck's draw
       words = rng.sample(list.slice(0, 12), d.words);
     }
+    // a teacher's word choice (maker): any word of this locale's native-reviewed list, never one already on the page
+    words = slot.words(ctx, words, list);
     const laneW = 660;
     const lanes = words.map((word) => {
       const lane = strokeWordLane({ text: word, w: laneW, h: d.traceH, glyphH: d.glyphH, reps: d.reps });
@@ -75,6 +78,7 @@ module.exports = {
         lane.svg + rows + `</div>`
       );
     });
+    for (let i = 0; i < lanes.length; i++) lanes[i] = slot.stamp(ctx, 'word', i, lanes[i]);   // tap-to-edit (maker only)
     return {
       bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;justify-content:space-evenly">${lanes.join('')}</div>`,
       meta: {},

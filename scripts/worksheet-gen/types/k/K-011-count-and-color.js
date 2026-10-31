@@ -6,6 +6,7 @@
 'use strict';
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { manifest, themeEntry, labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
+const slot = require('../../lib/slot.js');
 
 /** find a cached BW sibling of the given color theme (e.g. animals → "animals bw") */
 function bwSibling(theme) {
@@ -38,7 +39,7 @@ module.exports = {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     const bw = bwSibling(theme);
-    const nouns = rng.sample(labelSafeNouns(bw), d.rows);
+    const nouns = slot.pictures(ctx, rng.sample(labelSafeNouns(bw), d.rows), labelSafeNouns(bw), bw);
     const iconPx = Math.min(56, Math.floor((470 - (d.rowLen - 1) * 8) / d.rowLen));
     const cards = [];
     for (let i = 0; i < d.rows; i++) {
@@ -53,6 +54,8 @@ module.exports = {
         `</div>`
       );
     }
+    // tap-to-edit targets (maker only): item i shows picture i
+    for (let i = 0; i < cards.length; i++) cards[i] = slot.stamp(ctx, 'pic', i, cards[i]);
     return { bodyHtml: cardGrid({ cards, cols: 1, rows: d.rows, numbered: false }), meta: { bwTheme: bw } };
   },
 

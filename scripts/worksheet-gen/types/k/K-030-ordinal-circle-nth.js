@@ -7,6 +7,7 @@
 'use strict';
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { labelSafeNouns } = require('../../image-cache/resolve.js');
+const slot = require('../../lib/slot.js');
 const { fileUri } = require('../../image-cache/resolve.js');
 
 /* ⭐ THE ORDINAL INDICATOR IS LOCALE-SPECIFIC, and a bare numeral is
@@ -59,7 +60,7 @@ module.exports = {
   build({ theme, difficulty, locale }, ctx) {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
-    const nouns = rng.sample(labelSafeNouns(theme), d.rows);
+    const nouns = slot.pictures(ctx, rng.sample(labelSafeNouns(theme), d.rows), labelSafeNouns(theme), theme);
     const cards = [];
     const truth = [];
     const iconPx = Math.min(58, Math.floor((430 - (d.rowLen - 1) * 8) / d.rowLen));
@@ -81,6 +82,8 @@ module.exports = {
       );
       truth.push({ row: i + 1, ordinal });
     }
+    // tap-to-edit targets (maker only): item i shows picture i
+    for (let i = 0; i < cards.length; i++) cards[i] = slot.stamp(ctx, 'pic', i, cards[i]);
     return { bodyHtml: cardGrid({ cards, cols: 1, rows: d.rows, numbered: false }), meta: { rows: truth } };
   },
 

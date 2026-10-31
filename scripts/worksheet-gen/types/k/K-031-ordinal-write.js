@@ -6,6 +6,7 @@
 'use strict';
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
+const slot = require('../../lib/slot.js');
 
 const ARROW_SVG =
   '<svg width="30" height="30" viewBox="0 0 34 34" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">' +
@@ -33,7 +34,7 @@ module.exports = {
   build({ theme, difficulty }, ctx) {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
-    const nouns = rng.sample(labelSafeNouns(theme), d.rows);
+    const nouns = slot.pictures(ctx, rng.sample(labelSafeNouns(theme), d.rows), labelSafeNouns(theme), theme);
     const iconPx = Math.min(60, Math.floor((480 - (d.rowLen - 1) * 10) / d.rowLen));
     const cards = [];
     for (let i = 0; i < d.rows; i++) {
@@ -56,6 +57,8 @@ module.exports = {
         `</div>`
       );
     }
+    // tap-to-edit targets (maker only): item i shows picture i
+    for (let i = 0; i < cards.length; i++) cards[i] = slot.stamp(ctx, 'pic', i, cards[i]);
     return { bodyHtml: cardGrid({ cards, cols: 1, rows: d.rows, numbered: false }), meta: {} };
   },
 

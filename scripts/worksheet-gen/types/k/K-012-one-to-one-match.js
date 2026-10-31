@@ -5,6 +5,7 @@
  */
 'use strict';
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
+const slot = require('../../lib/slot.js');
 
 const PARTNER = { fruits: 'animals' };   // default partner is fruits unless the page theme IS fruits
 
@@ -31,8 +32,8 @@ module.exports = {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     const partnerTheme = PARTNER[theme] || 'fruits';
-    const top = rng.pick(labelSafeNouns(theme));
-    const bottom = rng.pick(labelSafeNouns(partnerTheme));
+    const top = slot.pictures(ctx, [rng.pick(labelSafeNouns(theme))], labelSafeNouns(theme), theme, 'pic')[0];
+    const bottom = slot.pictures(ctx, [rng.pick(labelSafeNouns(partnerTheme))], labelSafeNouns(partnerTheme), partnerTheme, 'pic2')[0];
     const px = Math.min(92, Math.floor((620 - (d.n - 1) * 18) / d.n));
 
     const row = (th, noun, role) =>
@@ -45,8 +46,8 @@ module.exports = {
     return {
       bodyHtml:
         `<div style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-around;min-height:0" data-lcs-n="${d.n}">` +
-        row(theme, top, 'top') +
-        row(partnerTheme, bottom, 'bottom') +
+        slot.stamp(ctx, 'pic', 0, row(theme, top, 'top')) +
+        slot.stamp(ctx, 'pic2', 0, row(partnerTheme, bottom, 'bottom')) +
         `</div>`,
       meta: { n: d.n, top: top.vocabKey, bottom: bottom.vocabKey },
     };

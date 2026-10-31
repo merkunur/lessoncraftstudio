@@ -5,6 +5,7 @@
  */
 'use strict';
 const { labelSafeNouns } = require('../../image-cache/resolve.js');
+const slot = require('../../lib/slot.js');
 const { iconRows, fitIcons } = require('../../templates/components.js');
 
 module.exports = {
@@ -29,7 +30,7 @@ module.exports = {
   build({ theme, difficulty }, ctx) {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
-    const nouns = rng.sample(labelSafeNouns(theme), d.pairs);
+    const nouns = slot.pictures(ctx, rng.sample(labelSafeNouns(theme), d.pairs), labelSafeNouns(theme), theme);
     const all = [];
     for (let v = d.min; v <= d.max; v++) all.push(v);
     const counts = rng.sample(all, d.pairs);   // distinct by construction
@@ -56,6 +57,8 @@ module.exports = {
         `<span class="ws-match-dot ws-match-dot--left"></span></div>`
       );
     }
+    // tap-to-edit targets (maker only): item i shows picture i
+    for (let i = 0; i < left.length; i++) left[i] = slot.stamp(ctx, 'pic', i, left[i]);
     return {
       bodyHtml:
         `<div class="ws-match" style="padding:6px 60px">` +

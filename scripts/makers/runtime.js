@@ -23,8 +23,10 @@ const { mountHtml } = require('../worksheet-gen/lib/platform/page-shim.js');
  *   strings     { title, instruction, printTitle? } for this template + locale
  *   locale, difficulty, theme, unit (a template's own axis, e.g. the sight word), variant, seedEpoch,
  *   pageSize ('letter' | 'a4'), answerKey (bool), answerKeySuffix,
- *   buildExtra (a type's qaRetries knob), seedVariant (a fresh-seed retry; the page keeps its variant)
- * @returns {{ html: string, keyHtml: string|null, meta: object, seed: string }}
+ *   buildExtra (a type's qaRetries knob), seedVariant (a fresh-seed retry; the page keeps its variant),
+ *   overrides ({ pic: {i: noun}, word: {i: word} } — the teacher's tap-to-edit choices, lib/slot.js)
+ * @returns {{ html: string, keyHtml: string|null, meta: object, seed: string, slots: object }} slots = per role
+ *   { pool, values } for every slot the type exposes (what the screen may offer, and what was applied)
  */
 function makePage(o) {
   const { type, locale } = o;
@@ -34,7 +36,8 @@ function makePage(o) {
   const unit = o.unit || null;
   // the same seed rule as render-instance.js: a seedVariant (retry) replaces the variant in the seed only
   const seedArgs = { typeId: type.id, theme, difficulty, seedEpoch: o.seedEpoch || 1, variant: o.seedVariant || o.variant || 1, unit };
-  const ctx = (extra) => ({ rng: makeRng(instanceSeed(seedArgs)), variant: o.variant || 1, ...(o.seedVariant ? { seedVariant: o.seedVariant } : {}), ...(o.buildExtra || {}), ...(extra || {}) });
+  const slots = {};
+  const ctx = (extra) => ({ rng: makeRng(instanceSeed(seedArgs)), variant: o.variant || 1, ...(o.seedVariant ? { seedVariant: o.seedVariant } : {}), ...(o.buildExtra || {}), overrides: o.overrides || null, slotsOut: slots, ...(extra || {}) });
 
   let strings = resolveUnitTokens({ ...o.strings }, type, unit, locale);
   const built = type.build({ theme, difficulty, locale, unit }, ctx());
@@ -49,7 +52,7 @@ function makePage(o) {
     if (JSON.stringify(keyBuilt.meta) !== JSON.stringify(built.meta)) throw new Error('maker: the answer key drew different content than the page (' + type.id + ')');
     keyHtml = buildPage({ title: head + (o.answerKeySuffix ? ' — ' + o.answerKeySuffix : ''), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize });
   }
-  return { html, keyHtml, meta: built.meta, seed: instanceSeed(seedArgs) };
+  return { html, keyHtml, meta: built.meta, seed: instanceSeed(seedArgs), slots };
 }
 
 /**

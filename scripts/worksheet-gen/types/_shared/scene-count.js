@@ -8,6 +8,7 @@
 const { labelSafeNouns } = require('../../image-cache/resolve.js');
 const { mixedScatter, answerBox } = require('../../templates/components.js');
 const { fileUri } = require('../../image-cache/resolve.js');
+const slot = require('../../lib/slot.js');
 
 function makeSceneCountType(cfg) {
   const { id, slug, mode, i18n, gradeBand } = cfg;   // mode: 'legend' | 'find'
@@ -28,7 +29,7 @@ function makeSceneCountType(cfg) {
     build({ theme, difficulty }, ctx) {
       const d = this.difficulty[difficulty];
       const rng = ctx.rng;
-      const picked = rng.sample(labelSafeNouns(theme), mode === 'find' ? d.nouns + 1 : d.nouns);
+      const picked = slot.pictures(ctx, rng.sample(labelSafeNouns(theme), mode === 'find' ? d.nouns + 1 : d.nouns), labelSafeNouns(theme), theme);
       const items = picked.slice(0, d.nouns).map((p) => ({ ...p, n: rng.int(d.minN, d.maxN) }));
 
       // the scatter fills the scene card, which grows to the body (page.css .ws-scene flex 1): measured 2026-10-31 — the old
@@ -48,7 +49,7 @@ function makeSceneCountType(cfg) {
         // keep the original markup byte for byte
         const tight = items.length > 4;
         below = `<div class="ws-scene-legend">` + items.map((it) =>
-          `<span class="ws-scene-legend-item" data-lcs-noun="${it.vocabKey}"${tight ? ' style="gap:6px;padding:6px 8px"' : ''}>` +
+          `<span class="ws-scene-legend-item" data-lcs-noun="${it.vocabKey}"${tight ? ' style="gap:6px;padding:6px 8px"' : ''}${slot.attr(ctx, 'pic', items.indexOf(it))}>` +
           `<img class="ws-icon" src="${fileUri(theme, it.noun)}" alt="" style="width:${tight ? 42 : 48}px;height:${tight ? 42 : 48}px">` +
           answerBox({ w: tight ? 52 : 64, h: tight ? 44 : 48, answer: it.n }) +
           `</span>`).join('') + `</div>`;
@@ -57,7 +58,7 @@ function makeSceneCountType(cfg) {
         const target = items[0];
         below = '';
         const banner =
-          `<div class="ws-scene-banner" data-lcs-target="${target.vocabKey}" data-lcs-targetn="${target.n}">` +
+          `<div class="ws-scene-banner" data-lcs-target="${target.vocabKey}" data-lcs-targetn="${target.n}"${slot.attr(ctx, 'pic', 0)}>` +
           `<img class="ws-icon" src="${fileUri(theme, target.noun)}" alt="" style="width:56px;height:56px">` +
           `</div>`;
         return {

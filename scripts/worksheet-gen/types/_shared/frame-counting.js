@@ -15,6 +15,7 @@ const tenFrame = require('../../primitives/ten-frame.js');
 const tally = require('../../primitives/tally.js');
 const diceFace = require('../../primitives/dice.js');
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
+const slot = require('../../lib/slot.js');
 const { iconRows, fitIcons, chipRow, answerBox, distractorsFor } = require('../../templates/components.js');
 
 const NUM = (v) => `<span style="font-family:'Baloo 2';font-weight:700;font-size:34px;color:#3A3530" data-lcs-num="${v}">${v}</span>`;
@@ -73,7 +74,7 @@ function makeFrameCountingType(cfg) {
       }
 
       const counts = distinct(rng, d.items, d.min, d.max);
-      const nouns = this.themeAxis.applicable ? rng.sample(labelSafeNouns(theme), d.items) : null;
+      const nouns = this.themeAxis.applicable ? slot.pictures(ctx, rng.sample(labelSafeNouns(theme), d.items), labelSafeNouns(theme), theme) : null;
       for (let i = 0; i < d.items; i++) {
         const n = counts[i];
         let stage;
@@ -113,6 +114,8 @@ function makeFrameCountingType(cfg) {
         }
         cards.push(stage);
       }
+      // tap-to-edit targets (maker only): card i shows picture i
+      if (nouns) for (let i = 0; i < cards.length; i++) cards[i] = slot.stamp(ctx, 'pic', i, cards[i]);
       const cols = 2;
       return { bodyHtml: cardGrid({ cards, cols, rows: Math.ceil(d.items / cols) }), meta: { counts } };
     },

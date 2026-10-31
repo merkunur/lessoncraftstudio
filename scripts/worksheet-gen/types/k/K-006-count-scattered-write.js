@@ -6,6 +6,7 @@
 'use strict';
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { labelSafeNouns } = require('../../image-cache/resolve.js');
+const slot = require('../../lib/slot.js');
 const { iconScatter, answerBox } = require('../../templates/components.js');
 
 module.exports = {
@@ -30,7 +31,7 @@ module.exports = {
   build({ theme, difficulty }, ctx) {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
-    const nouns = rng.sample(labelSafeNouns(theme), d.cards);
+    const nouns = slot.pictures(ctx, rng.sample(labelSafeNouns(theme), d.cards), labelSafeNouns(theme), theme);
     const all = [];
     for (let v = d.min; v <= d.max; v++) all.push(v);
     const counts = rng.sample(all, d.cards);
@@ -46,6 +47,8 @@ module.exports = {
         `<div class="ws-choices">${answerBox({ w: 84, h: 56, answer: n })}</div>`
       );
     }
+    // tap-to-edit targets (maker only): item i shows picture i
+    for (let i = 0; i < cards.length; i++) cards[i] = slot.stamp(ctx, 'pic', i, cards[i]);
     return {
       bodyHtml: cardGrid({ cards, cols: 2, rows: 2 }),
       meta: { counts },

@@ -27,14 +27,14 @@ button { font: inherit; cursor: pointer; }
 .mk-card .mk-title { font-weight: 800; font-size: 13px; line-height: 1.25; }
 .mk-work { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
 .mk-controls { display: flex; flex-wrap: wrap; gap: 14px 22px; align-items: center; padding: 14px 16px; background: var(--paper); border-radius: var(--radius); box-shadow: var(--shadow); }
-.mk-group { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.mk-group { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; min-width: 0; max-width: 100%; }
 .mk-label { font-weight: 800; color: var(--muted); font-size: 14px; }
 .mk-chip { min-width: 44px; min-height: 44px; padding: 8px 14px; border-radius: 999px; border: 2px solid var(--line); background: var(--paper); font-weight: 800; color: var(--ink); }
 .mk-chip[aria-pressed="true"] { border-color: var(--teal); background: var(--teal); color: #fff; }
 .mk-themes { display: flex; gap: 6px; overflow-x: auto; max-width: min(560px, 100%); padding: 2px; }
-.mk-theme { flex: 0 0 auto; width: 76px; min-height: 44px; padding: 4px 4px 6px; border-radius: 12px; border: 2px solid var(--line); background: var(--paper); display: flex; flex-direction: column; align-items: center; gap: 2px; }
+.mk-theme { flex: 0 0 auto; width: 84px; min-height: 44px; padding: 4px 4px 6px; border-radius: 12px; border: 2px solid var(--line); background: var(--paper); display: flex; flex-direction: column; align-items: center; gap: 2px; }
 .mk-theme-pic { width: 44px; height: 44px; background: center / contain no-repeat; }
-.mk-theme-name { font-size: 11px; font-weight: 700; line-height: 1.15; text-align: center; color: var(--ink); hyphens: auto; -webkit-hyphens: auto; overflow-wrap: break-word; }
+.mk-theme-name { font-size: 11px; font-weight: 700; line-height: 1.15; text-align: center; color: var(--ink); hyphens: auto; -webkit-hyphens: auto; overflow-wrap: anywhere; }
 .mk-theme[aria-pressed="true"] { border-color: var(--coral); box-shadow: 0 0 0 2px var(--coral); }
 .mk-select { min-height: 44px; padding: 8px 12px; border-radius: 12px; border: 2px solid var(--line); background: var(--paper); font: inherit; font-weight: 700; }
 .mk-pages { display: flex; flex-direction: column; gap: 22px; align-items: center; }

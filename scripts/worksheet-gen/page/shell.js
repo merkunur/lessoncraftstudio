@@ -4,16 +4,25 @@
  * self-contained HTML document (file:// fonts, inlined CSS, no network).
  */
 'use strict';
-const fs = require('fs');
 const path = require('path');
+const platform = require('../lib/platform/index.js');
 const { esc } = require('../primitives/_svg.js');
 
-const PAGE_CSS = fs.readFileSync(path.join(__dirname, 'page.css'), 'utf8');
 const FONTS_DIR = path.join(__dirname, '..', 'assets', 'fonts');
-const FONTS_CSS = fs.readFileSync(path.join(FONTS_DIR, 'fonts.css'), 'utf8')
-  // rewrite relative font urls to absolute file:// so setContent() resolves them
-  .replace(/url\('([^']+\.woff2)'\)/g, (m, f) =>
-    "url('" + 'file:///' + path.join(FONTS_DIR, f).replace(/\\/g, '/').replace(/^\//, '') + "')");
+// Read on first use (the makers' browser bundle preloads these before the first page is built). Node output is
+// byte-identical to the old module-load read: the font URL is the same file:/// form.
+let _css = null;
+function css() {
+  if (_css) return _css;
+  const page = platform.readText(path.join(__dirname, 'page.css'));
+  const fonts = platform.readText(path.join(FONTS_DIR, 'fonts.css'))
+    // rewrite relative font urls to absolute ones so the page resolves them (file:// in Node, the CDN in a browser)
+    .replace(/url\('([^']+\.woff2)'\)/g, (m, f) => "url('" + (platform.kind === 'node'
+      ? 'file:///' + path.join(FONTS_DIR, f).replace(/\\/g, '/').replace(/^\//, '')
+      : platform.fileHref(path.join(FONTS_DIR, f))) + "')");
+  _css = { page, fonts };
+  return _css;
+}
 
 // Page-size geometry: content box 186×250mm centered on each paper size.
 const PAGE_SIZES = {
@@ -86,8 +95,8 @@ function buildPage({ title, instruction, bodyHtml, locale, pageSize, pageHeight 
 <head>
 <meta charset="utf-8">
 <style>
-${FONTS_CSS}
-${PAGE_CSS}
+${css().fonts}
+${css().page}
 @page { size: ${size.w} ${size.h}; margin: ${size.my} ${size.mx}; }${pageHeight ? `\n.ws-page { height: ${pageHeight}px; }` : ''}
 </style>
 </head>

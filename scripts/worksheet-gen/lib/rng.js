@@ -8,11 +8,11 @@
  * mulberry32 over the first 4 seed bytes.
  */
 'use strict';
-const crypto = require('crypto');
+const platform = require('./platform/index.js');   // Node crypto here, pure-JS SHA-1 in the makers' browser bundle
 
 function makeRng(seedString) {
-  const h = crypto.createHash('sha1').update(seedString).digest();
-  let a = h.readUInt32LE(0);
+  const h = platform.sha1Bytes(seedString);
+  let a = (h[0] | (h[1] << 8) | (h[2] << 16) | (h[3] << 24)) >>> 0;   // = Buffer.readUInt32LE(0)
   const next = () => {
     a |= 0; a = (a + 0x6D2B79F5) | 0;
     let t = Math.imul(a ^ (a >>> 15), 1 | a);

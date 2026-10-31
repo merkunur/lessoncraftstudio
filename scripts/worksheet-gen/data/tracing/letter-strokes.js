@@ -39,10 +39,7 @@
  * letter is worse than one that refuses to build.
  */
 'use strict';
-const fs = require('fs');
-const path = require('path');
-
-const CORE_PATH = path.join(__dirname, '..', '..', '..', '..', 'mini tools', 'alphabet-trace-core.js');
+const platform = require('../../lib/platform/index.js');   // runs mini tools/alphabet-trace-core.js (Node: as before; browser: pre-bundled)
 
 /** Shared vertical metrics (glyph units, y down). */
 const METRICS = {
@@ -73,9 +70,8 @@ const MIN_INK = 8;
  * Load the shared letterform table (same mechanism its own gate uses).
  * ------------------------------------------------------------------ */
 function loadCore() {
-  const src = fs.readFileSync(CORE_PATH, 'utf8');
   const win = {};
-  new Function('window', src)(win);
+  platform.miniCore('alphabet-trace-core.js', win);
   if (!win.AlphabetTraceCore || !win.AlphabetTraceCore.GLYPHS) {
     throw new Error('letter-strokes: alphabet-trace-core.js did not attach AlphabetTraceCore.GLYPHS');
   }

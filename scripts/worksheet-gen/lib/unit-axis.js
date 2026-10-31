@@ -26,7 +26,9 @@
  * asserts nothing is left unresolved.
  */
 'use strict';
-const { slugify } = require('../../publish-cli/slug.js');
+// through the platform: slug.js reads the whole topic taxonomy, which the makers' browser bundle never needs
+const platform = require('./platform/index.js');
+const slugify = (v) => platform.slugify(v);
 
 const TOKEN_RE = /\{(U|L|N|UNIT|P|PU)\}/g;   // N: the bare noun without its article (how-to-draw, b7 2026-10-09);   // P / PU: the pair letter (Letter of the Week pair page, Level Set 2026-09-28)
 const TOKEN_TEST = /\{(U|L|N|UNIT|P|PU)\}/;   // non-global: .test() on a /g regex carries lastIndex between calls

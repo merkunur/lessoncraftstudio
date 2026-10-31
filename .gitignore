@@ -312,3 +312,6 @@ docs/audit-results/seo-100pct-*.json
 # Backup copies never live in git (operator 2026-10-29): the PC archive holds old versions
 *.bak-*
 *.bak
+
+# worksheet makers: built bundles + data (built in deploy.sh, never committed)
+/out/makers/

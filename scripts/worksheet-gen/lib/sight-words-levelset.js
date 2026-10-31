@@ -7,16 +7,16 @@
  * labels: data/literacy/sight-levelset/strings.json. The published K-239 / K-259..K-263 pages never read this file.
  */
 'use strict';
-const fs = require('fs');
 const path = require('path');
+const platform = require('./platform/index.js');
 const letterStrokes = require('../data/tracing/letter-strokes.js');
 const { textLaneGeometry, LM } = require('../primitives/trace-path.js');
 
 const DATA = path.join(__dirname, '..', 'data', 'literacy', 'sight-words-levelset.json');
 const STRINGS = path.join(__dirname, '..', 'data', 'literacy', 'sight-levelset', 'strings.json');
 let _data, _strings;
-function data() { if (!_data) _data = JSON.parse(fs.readFileSync(DATA, 'utf8')); return _data; }
-function strings() { if (!_strings) _strings = JSON.parse(fs.readFileSync(STRINGS, 'utf8')); return _strings; }
+function data() { if (!_data) _data = platform.readJson(DATA); return _data; }
+function strings() { if (!_strings) _strings = platform.readJson(STRINGS); return _strings; }
 
 const loc2 = (l) => String(l || 'en').slice(0, 2);
 

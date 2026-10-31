@@ -3,16 +3,16 @@
  * images. Resolves (theme, noun) → absolute file:// URI + vocab labels.
  */
 'use strict';
-const fs = require('fs');
 const path = require('path');
-const { loadVocab } = require('../../publish-cli/deck-rich-alt.js');
+const platform = require('../lib/platform/index.js');   // disk + file:// in Node, preload + CDN in the makers' browser bundle
+const loadVocab = () => platform.vocab();
 
 const CACHE = path.join(__dirname, '..', 'cache');
 const MANIFEST = path.join(CACHE, 'manifest.json');
 
 let _manifest = null;
 function manifest() {
-  if (!_manifest) _manifest = JSON.parse(fs.readFileSync(MANIFEST, 'utf8'));
+  if (!_manifest) _manifest = platform.readJson(MANIFEST);
   return _manifest;
 }
 
@@ -41,9 +41,9 @@ function fileUri(theme, noun, variantIndex, opts) {
   // sites that scale art larger (e.g. measurement-tasks artExtent objects).
   if (!opts || !opts.full) {
     const derived = path.join(CACHE, 'themes-512', theme, file);
-    if (fs.existsSync(derived)) return require('url').pathToFileURL(derived).href;
+    if (platform.exists(derived)) return platform.fileHref(derived);
   }
-  return require('url').pathToFileURL(path.join(CACHE, 'themes', theme, file)).href;
+  return platform.fileHref(path.join(CACHE, 'themes', theme, file));
 }
 
 /** Localized [singular, plural] for a noun (vocab SoT; never re-authored). */

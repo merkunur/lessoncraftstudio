@@ -60,8 +60,41 @@ function devApi(req, res, url, query) {
   return false;
 }
 
+/*
+ * The local hub (operator 2026-10-31: "a local page like a hub where I can find and test every new worksheet maker…
+ * it should also show the list of the makers you are planning to build"):
+ *   /          the hub page (shell/hub.html)
+ *   /hub.json  live data: every planned maker (scripts/makers/topic-map.js), its templates today (the type inventory,
+ *              hideIds removed), its planned new templates (docs/makers/NEW-TEMPLATES.md "— N new"), whether it is built
+ *              (out/makers/<id>/current.txt) and the build's own template count; plus who you are testing as (dev.as)
+ */
+function hubData() {
+  for (const k of Object.keys(require.cache)) if (k.includes(path.join('scripts', 'makers', 'topic-map.js'))) delete require.cache[k];
+  const { MAKERS } = require('./topic-map.js');
+  const inv = JSON.parse(fs.readFileSync(path.join(REPO, 'docs', 'makers', 'inventory', 'types.json'), 'utf8')).rows;
+  const md = fs.readFileSync(path.join(REPO, 'docs', 'makers', 'NEW-TEMPLATES.md'), 'utf8');
+  const planned = {};
+  for (const m of md.matchAll(/^### \d+\. .*\(`([a-z0-9-]+)`\) — (\d+) new/gm)) planned[m[1]] = Number(m[2]);
+  const makers = MAKERS.map((m, i) => {
+    const types = inv.filter((r) => !r.science && (m.families.includes(r.family) || (m.extraIds || []).includes(r.id)) && !(m.hideIds || []).includes(r.id));
+    const cur = path.join(REPO, 'out', 'makers', m.id, 'current.txt');
+    let built = null;
+    if (fs.existsSync(cur)) {
+      const ver = fs.readFileSync(cur, 'utf8').trim();
+      try {
+        const tj = JSON.parse(fs.readFileSync(path.join(REPO, 'out', 'makers', m.id, ver, 'templates.json'), 'utf8'));
+        built = { version: ver, templates: tj.templates.length, locales: [...new Set(tj.templates.flatMap((t) => t.locales))] };
+      } catch (e) { built = { version: ver, templates: 0, locales: [] }; }
+    }
+    return { order: i + 1, id: m.id, name: m.name, group: m.group, oldApps: m.oldApps || [], templatesToday: types.length, plannedNew: planned[m.id] || 0, built };
+  });
+  return { as: dev.as, makers };
+}
+
 function handler(req, res) {
   const [rawPath, rawQuery] = req.url.split('?');
+  if (rawPath === '/hub.json') { res.writeHead(200, { 'content-type': 'application/json', 'cache-control': 'no-store' }); return res.end(JSON.stringify(hubData())); }
+  if (rawPath === '/' || rawPath === '/index.html') { res.writeHead(200, { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'no-store' }); return fs.createReadStream(path.join(__dirname, 'shell', 'hub.html')).pipe(res); }
   if (rawPath.startsWith('/__dev/') || rawPath.startsWith('/api/quota/')) { if (devApi(req, res, rawPath, new URLSearchParams(rawQuery || '')) !== false) return; }
   const url = decodeURIComponent(rawPath);
   for (const [prefix, dir] of ROUTES) {

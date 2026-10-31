@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Worksheet makers — local hub</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Nunito:wght@400;600;700;800&display=swap">
+<style>
+/* Local test hub for the worksheet makers (scripts/makers/serve.js serves it at /). Never deployed. */
+:root { --bg: #FBF3E4; --paper: #FFFFFF; --teal: #146B5E; --coral: #F2784B; --ink: #2E2A24; --muted: #6E665B; --line: #E8DCC6; --soft: #F5EBD8; --radius: 14px; --shadow: 0 1px 2px rgba(46,42,36,.08), 0 6px 18px rgba(46,42,36,.08); }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: 'Nunito', system-ui, sans-serif; }
+main { max-width: 1180px; margin: 0 auto; padding: 24px 20px 60px; }
+h1 { font-family: 'Baloo 2', sans-serif; color: var(--teal); font-size: 34px; margin: 0; }
+h2 { font-family: 'Baloo 2', sans-serif; color: var(--teal); font-size: 24px; margin: 34px 0 12px; }
+.sub { color: var(--muted); font-weight: 700; margin: 4px 0 0; }
+.panel { background: var(--paper); border-radius: var(--radius); box-shadow: var(--shadow); padding: 16px 18px; }
+.row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.label { font-weight: 800; color: var(--muted); margin-right: 6px; }
+.chip { min-height: 40px; padding: 8px 14px; border-radius: 999px; border: 2px solid var(--line); background: var(--paper); font: inherit; font-weight: 800; color: var(--ink); cursor: pointer; }
+.chip[aria-pressed="true"] { border-color: var(--teal); background: var(--teal); color: #fff; }
+.note { color: var(--muted); font-size: 14px; font-weight: 700; margin: 10px 0 0; }
+.stats { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 16px; }
+.stat { background: var(--paper); border-radius: var(--radius); box-shadow: var(--shadow); padding: 12px 16px; min-width: 150px; }
+.stat b { display: block; font-family: 'Baloo 2', sans-serif; font-size: 28px; color: var(--teal); line-height: 1.1; }
+.stat span { color: var(--muted); font-weight: 700; font-size: 14px; }
+.built { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; }
+.card h3 { margin: 0 0 4px; font-family: 'Baloo 2', sans-serif; font-size: 22px; }
+.card .meta { color: var(--muted); font-weight: 700; font-size: 14px; margin-bottom: 12px; }
+.langs { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; }
+.lang { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 48px; border-radius: 10px; border: 2px solid var(--line); text-decoration: none; color: var(--ink); font-weight: 800; background: var(--paper); }
+.lang small { font-weight: 700; color: var(--muted); font-size: 11px; }
+.lang:hover { border-color: var(--teal); background: var(--soft); }
+.lang.off { opacity: .35; pointer-events: none; }
+table { width: 100%; border-collapse: collapse; background: var(--paper); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
+th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); font-size: 15px; vertical-align: top; }
+th { background: var(--soft); font-weight: 800; color: var(--muted); font-size: 13px; text-transform: uppercase; letter-spacing: .03em; }
+tr:last-child td { border-bottom: 0; }
+td.num { text-align: right; font-variant-numeric: tabular-nums; }
+.badge { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 12px; font-weight: 800; }
+.badge.built { background: var(--teal); color: #fff; }
+.badge.planned { background: var(--soft); color: var(--muted); }
+.old { color: var(--muted); font-size: 13px; }
+a.open { color: var(--teal); font-weight: 800; }
+@media (max-width: 700px) { .langs { grid-template-columns: repeat(4, 1fr); } .hide-sm { display: none; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Worksheet makers — local hub</h1>
+  <p class="sub">Every maker built so far, in all 11 languages, plus the full plan. Local preview only — nothing here is on the website.</p>
+
+  <h2>Test as</h2>
+  <div class="panel">
+    <div class="row" id="as"></div>
+    <p class="note">Switch, then open (or reload) a maker. A free account remembers the worksheets it opened for the browser tab — open a new tab to start fresh.</p>
+  </div>
+
+  <div class="stats" id="stats"></div>
+
+  <h2>Built makers</h2>
+  <div class="built" id="built"></div>
+
+  <h2>All planned makers</h2>
+  <div class="row" style="margin-bottom:12px" id="groups"></div>
+  <table>
+    <thead><tr><th>#</th><th>Maker</th><th class="hide-sm">Topic</th><th>Worksheets today</th><th>New planned</th><th>Status</th><th class="hide-sm">Replaces old app</th></tr></thead>
+    <tbody id="plan"></tbody>
+  </table>
+</main>
+<script>
+const LANGS = [['en', 'English', 'US'], ['de', 'Deutsch', 'DE'], ['fr', 'Français', 'FR'], ['es', 'Español', 'MX'], ['pt', 'Português', 'BR'], ['it', 'Italiano', 'IT'], ['nl', 'Nederlands', 'NL'], ['sv', 'Svenska', 'SE'], ['da', 'Dansk', 'DK'], ['no', 'Norsk', 'NO'], ['fi', 'Suomi', 'FI']];
+const AS = [['sub', 'Subscriber', 'as=sub'], ['free', 'Free account, 3 left', 'as=free&made=0&downloaded=0'], ['free0', 'Free account, none left', 'as=free&made=3&downloaded=3'], ['anon', 'Not signed in', 'as=anon']];
+const GROUP_NAMES = { math: 'Math', literacy: 'Reading & language', writing: 'Handwriting', puzzles: 'Puzzles & games', visual: 'Visual skills', social: 'Social & world', art: 'Art & drawing' };
+let data, group = 'all', asKey = null;
+const el = (tag, attrs = {}, kids = []) => { const e = document.createElement(tag); for (const [k, v] of Object.entries(attrs)) { if (k === 'text') e.textContent = v; else if (k === 'on') Object.entries(v).forEach(([ev, fn]) => e.addEventListener(ev, fn)); else e.setAttribute(k, v); } (Array.isArray(kids) ? kids : [kids]).forEach((c) => c && e.append(c)); return e; };
+
+async function load() { data = await (await fetch('/hub.json', { cache: 'no-store' })).json(); render(); }
+
+function render() {
+  // who am I testing as
+  const as = $('as'); as.replaceChildren(el('span', { class: 'label', text: 'Testing as:' }));
+  for (const [k, label, q] of AS) {
+    const on = asKey ? asKey === k : (k === 'free0' ? false : (k === 'free' ? data.as === 'free' : data.as === k));
+    as.append(el('button', { class: 'chip', 'aria-pressed': String(on), text: label, on: { click: async () => { await fetch('/__dev/access?' + q); asKey = k; await load(); } } }));
+  }
+  // numbers
+  const M = data.makers, built = M.filter((m) => m.built);
+  const sum = (f) => M.reduce((a, m) => a + f(m), 0);
+  $('stats').replaceChildren(
+    stat(built.length + ' / ' + M.length, 'makers built'),
+    stat(sum((m) => (m.built ? m.built.templates : 0)), 'worksheets in built makers'),
+    stat(sum((m) => m.templatesToday), 'worksheets planned (existing types)'),
+    stat(sum((m) => m.plannedNew), 'new worksheets planned'),
+  );
+  // built makers: one button per language
+  $('built').replaceChildren(...(built.length ? built.map((m) => {
+    const langs = el('div', { class: 'langs' });
+    for (const [code, name, region] of LANGS) {
+      const has = m.built.locales.includes(code);
+      langs.append(el('a', { class: 'lang' + (has ? '' : ' off'), href: `/makers/app/?maker=${m.id}&lang=${code}`, target: '_blank', rel: 'noopener', title: name + (has ? '' : ' — not offered yet') }, [el('span', { text: code.toUpperCase() }), el('small', { text: region })]));
+    }
+    return el('div', { class: 'panel card' }, [el('h3', { text: m.name }), el('div', { class: 'meta', text: `${m.built.templates} worksheets · ${m.built.locales.length} languages · build ${m.built.version}` }), langs]);
+  }) : [el('p', { class: 'note', text: 'No maker built yet.' })]));
+  // the plan
+  const groups = ['all', ...new Set(M.map((m) => m.group))];
+  $('groups').replaceChildren(el('span', { class: 'label', text: 'Topic:' }), ...groups.map((g) => el('button', { class: 'chip', 'aria-pressed': String(g === group), text: g === 'all' ? 'All' : (GROUP_NAMES[g] || g), on: { click: () => { group = g; render(); } } })));
+  $('plan').replaceChildren(...M.filter((m) => group === 'all' || m.group === group).map((m) => el('tr', {}, [
+    el('td', { class: 'num', text: m.order }),
+    el('td', {}, m.built ? [el('a', { class: 'open', href: `/makers/app/?maker=${m.id}&lang=en`, target: '_blank', rel: 'noopener', text: m.name })] : [document.createTextNode(m.name)]),
+    el('td', { class: 'hide-sm', text: GROUP_NAMES[m.group] || m.group }),
+    el('td', { class: 'num', text: m.built ? m.built.templates : m.templatesToday }),
+    el('td', { class: 'num', text: m.plannedNew }),
+    el('td', {}, [el('span', { class: 'badge ' + (m.built ? 'built' : 'planned'), text: m.built ? 'Built' : 'Planned' })]),
+    el('td', { class: 'old hide-sm', text: m.oldApps.join(', ') || '—' }),
+  ])));
+}
+function stat(n, label) { return el('div', { class: 'stat' }, [el('b', { text: String(n) }), el('span', { text: label })]); }
+function $(id) { return document.getElementById(id); }
+load();
+</script>
+</body>
+</html>

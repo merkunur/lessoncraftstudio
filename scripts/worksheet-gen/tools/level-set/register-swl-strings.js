@@ -1,10 +1,10 @@
-/** Sight Words Level Set: write the titles + instructions of K-388..K-392 from data/literacy/sight-levelset/strings.json
+/** Sight Words: write the titles + instructions of K-388..K-392 and the maker templates K-433..K-441 from data/literacy/sight-levelset/strings.json
  *  into i18n/strings.<loc>.json (round-trip-safe: 2-space JSON, each file's own line endings kept). Idempotent. */
 'use strict';
 const fs = require('fs');
 const path = require('path');
 const SRC = require('../../data/literacy/sight-levelset/strings.json');
-const IDS = ['K-388', 'K-389', 'K-390', 'K-391', 'K-392'];
+const IDS = ['K-388', 'K-389', 'K-390', 'K-391', 'K-392', 'K-433', 'K-434', 'K-435', 'K-436', 'K-437', 'K-438', 'K-439', 'K-440', 'K-441'];
 for (const loc of ['en', 'de', 'es', 'fr', 'it', 'pt', 'nl', 'sv', 'da', 'no', 'fi']) {
   const p = path.join(__dirname, '..', '..', 'i18n', `strings.${loc}.json`);
   const raw = fs.readFileSync(p, 'utf8');

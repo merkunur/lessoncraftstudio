@@ -3361,5 +3361,41 @@
     "title": "Tiere nachspuren: Finde die 5 versteckten Tiere im Wald",
     "instruction": "Finde die 5 versteckten Tiere im Wald. Spure sie nach.",
     "printTitle": "Wer versteckt sich im Wald?"
+  },
+  "K-433": {
+    "title": "Lesen, nachspuren, schreiben: {UNIT}",
+    "instruction": "Lies das Wort. Spure es nach. Schreibe es. Schreibe es dann in jeden Satz."
+  },
+  "K-434": {
+    "title": "Wort und Satz nachspuren: {UNIT}",
+    "instruction": "Spure das Wort nach. Spure dann den Satz auf jeder Linie nach."
+  },
+  "K-435": {
+    "title": "Lesen und malen: {UNIT}",
+    "instruction": "Lies den Satz. Spure ihn nach. Male dann, was im Satz steht."
+  },
+  "K-436": {
+    "title": "Finde und zähle: {UNIT}",
+    "instruction": "Kreise das Wort „{UNIT}“ jedes Mal ein, wenn du es siehst. Wie oft hast du es gefunden?"
+  },
+  "K-437": {
+    "title": "Lernwörter: Fehlende Buchstaben",
+    "instruction": "Schreibe die fehlenden Buchstaben in die Kästchen."
+  },
+  "K-438": {
+    "title": "Baue das Wort: {UNIT}",
+    "instruction": "Schneide die Buchstaben aus. Klebe sie in der richtigen Reihenfolge auf."
+  },
+  "K-439": {
+    "title": "Regenbogenschreiben: {UNIT}",
+    "instruction": "Spure jedes Wort dreimal nach, jedes Mal in einer anderen Farbe. Schreibe es dann."
+  },
+  "K-440": {
+    "title": "Würfeln und lesen",
+    "instruction": "Würfle. Lies ein Wort in dieser Spalte und male es an. Welche Spalte ist zuerst voll?"
+  },
+  "K-441": {
+    "title": "Wortkarten",
+    "instruction": "Schneide die Karten aus und lies sie."
   }
 }

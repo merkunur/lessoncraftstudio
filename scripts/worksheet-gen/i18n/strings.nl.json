@@ -3350,5 +3350,41 @@
     "title": "Dieren overtrekken: zoek de 5 verstopte dieren in het herfstbos",
     "instruction": "Zoek de 5 verstopte dieren in het bos. Trek ze over.",
     "printTitle": "Wie verstopt zich in het bos?"
+  },
+  "K-433": {
+    "title": "Lezen, overtrekken, schrijven: {UNIT}",
+    "instruction": "Lees het woord. Trek het over. Schrijf het. Schrijf het dan in elke zin."
+  },
+  "K-434": {
+    "title": "Woord en zin overtrekken: {UNIT}",
+    "instruction": "Trek het woord over. Trek dan de zin over op elke regel."
+  },
+  "K-435": {
+    "title": "Lezen en tekenen: {UNIT}",
+    "instruction": "Lees de zin. Trek hem over. Teken dan wat de zin zegt."
+  },
+  "K-436": {
+    "title": "Zoek en tel: {UNIT}",
+    "instruction": "Omcirkel het woord ‘{UNIT}’ elke keer dat je het ziet. Hoe vaak heb je het gevonden?"
+  },
+  "K-437": {
+    "title": "Flitswoorden: ontbrekende letters",
+    "instruction": "Schrijf de letters die ontbreken in elk woord."
+  },
+  "K-438": {
+    "title": "Bouw het woord: {UNIT}",
+    "instruction": "Knip de letters uit. Plak ze in de goede volgorde om het woord te maken."
+  },
+  "K-439": {
+    "title": "Regenboogschrijven: {UNIT}",
+    "instruction": "Trek elk woord drie keer over, elke keer met een andere kleur. Schrijf het dan."
+  },
+  "K-440": {
+    "title": "Gooien en lezen",
+    "instruction": "Gooi de dobbelsteen. Lees een woord in die kolom en kleur het. Welke kolom is het eerst vol?"
+  },
+  "K-441": {
+    "title": "Woordkaarten",
+    "instruction": "Knip de kaarten uit en lees ze."
   }
 }

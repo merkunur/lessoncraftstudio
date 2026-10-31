@@ -3366,5 +3366,41 @@
   "G3-405": {
     "title": "Times Table of 9",
     "instruction": "Multiply. Write each product in the box."
+  },
+  "K-433": {
+    "title": "Read, Trace, Write: {UNIT}",
+    "instruction": "Read the word. Trace it. Write it. Then write it in each sentence."
+  },
+  "K-434": {
+    "title": "Word and Sentence Tracing: {UNIT}",
+    "instruction": "Trace the word. Then trace the sentence on each line."
+  },
+  "K-435": {
+    "title": "Read and Draw: {UNIT}",
+    "instruction": "Read the sentence. Trace it. Then draw what the sentence says."
+  },
+  "K-436": {
+    "title": "Find and Count: {UNIT}",
+    "instruction": "Circle the word “{UNIT}” every time you see it. How many times did you find it?"
+  },
+  "K-437": {
+    "title": "Sight Words: Missing Letters",
+    "instruction": "Write the missing letters to finish each sight word."
+  },
+  "K-438": {
+    "title": "Build the Word: {UNIT}",
+    "instruction": "Cut out the letters. Glue them in the right order to build the word."
+  },
+  "K-439": {
+    "title": "Rainbow Writing: {UNIT}",
+    "instruction": "Trace each word three times, with a different color each time. Then write it."
+  },
+  "K-440": {
+    "title": "Roll and Read Sight Words",
+    "instruction": "Roll a die. Read a word in that column and color it. Which column is full first?"
+  },
+  "K-441": {
+    "title": "Sight Word Flash Cards",
+    "instruction": "Cut out the cards and read them."
   }
 }

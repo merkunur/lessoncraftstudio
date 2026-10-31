@@ -40,7 +40,7 @@ function makerTypes(id) {
   const m = MAKERS.find((x) => x.id === id);
   if (!m) throw new Error('no maker ' + id);
   const inv = JSON.parse(fs.readFileSync(path.join(REPO, 'docs', 'makers', 'inventory', 'types.json'), 'utf8')).rows;
-  return { maker: m, types: inv.filter((r) => !r.science && (m.families.includes(r.family) || (m.extraIds || []).includes(r.id))) };
+  return { maker: m, types: inv.filter((r) => !r.science && (m.families.includes(r.family) || (m.extraIds || []).includes(r.id)) && !(m.hideIds || []).includes(r.id)) };
 }
 
 function themesFor(spec) {

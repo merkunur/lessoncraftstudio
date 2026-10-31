@@ -3351,5 +3351,41 @@
     "title": "Dessins à repasser automne : trouve les 5 animaux cachés",
     "instruction": "Trouve les 5 animaux cachés dans la forêt. Repasse-les.",
     "printTitle": "Qui se cache dans la forêt ?"
+  },
+  "K-433": {
+    "title": "Lis, repasse, écris : {UNIT}",
+    "instruction": "Lis le mot. Repasse-le. Écris-le. Puis écris-le dans chaque phrase."
+  },
+  "K-434": {
+    "title": "Repasse le mot et la phrase : {UNIT}",
+    "instruction": "Repasse le mot. Puis repasse la phrase sur chaque ligne."
+  },
+  "K-435": {
+    "title": "Lis et dessine : {UNIT}",
+    "instruction": "Lis la phrase. Repasse-la. Puis dessine ce que dit la phrase."
+  },
+  "K-436": {
+    "title": "Trouve et compte : {UNIT}",
+    "instruction": "Entoure le mot « {UNIT} » chaque fois que tu le vois. Combien de fois l’as-tu trouvé ?"
+  },
+  "K-437": {
+    "title": "Mots outils : lettres manquantes",
+    "instruction": "Écris les lettres qui manquent pour compléter chaque mot."
+  },
+  "K-438": {
+    "title": "Construis le mot : {UNIT}",
+    "instruction": "Découpe les lettres. Colle-les dans le bon ordre pour former le mot."
+  },
+  "K-439": {
+    "title": "Écriture arc-en-ciel : {UNIT}",
+    "instruction": "Repasse chaque mot trois fois, avec une couleur différente à chaque fois. Puis écris-le."
+  },
+  "K-440": {
+    "title": "Lance le dé et lis",
+    "instruction": "Lance le dé. Lis un mot de cette colonne et colorie-le. Quelle colonne est remplie en premier ?"
+  },
+  "K-441": {
+    "title": "Étiquettes-mots",
+    "instruction": "Découpe les étiquettes et lis-les."
   }
 }

@@ -3336,5 +3336,41 @@
     "title": "Efterårsopgaver: find de 5 gemte dyr i skoven, og tegn efter",
     "instruction": "Find de 5 gemte dyr i skoven. Tegn efter dem.",
     "printTitle": "Hvem gemmer sig i skoven?"
+  },
+  "K-433": {
+    "title": "Læs, tegn op, skriv: {UNIT}",
+    "instruction": "Læs ordet. Tegn det op. Skriv det. Skriv det derefter i hver sætning."
+  },
+  "K-434": {
+    "title": "Tegn ordet og sætningen op: {UNIT}",
+    "instruction": "Tegn ordet op. Tegn derefter sætningen op på hver linje."
+  },
+  "K-435": {
+    "title": "Læs og tegn: {UNIT}",
+    "instruction": "Læs sætningen. Tegn den op. Lav derefter en tegning af det, sætningen fortæller."
+  },
+  "K-436": {
+    "title": "Find og tæl: {UNIT}",
+    "instruction": "Sæt ring om ordet »{UNIT}« hver gang du ser det. Hvor mange gange fandt du det?"
+  },
+  "K-437": {
+    "title": "Ordbilleder: manglende bogstaver",
+    "instruction": "Skriv de bogstaver, der mangler i hvert ord."
+  },
+  "K-438": {
+    "title": "Byg ordet: {UNIT}",
+    "instruction": "Klip bogstaverne ud. Lim dem på i den rigtige rækkefølge, så de danner ordet."
+  },
+  "K-439": {
+    "title": "Regnbueskrivning: {UNIT}",
+    "instruction": "Tegn hvert ord op tre gange, med en ny farve hver gang. Skriv det derefter."
+  },
+  "K-440": {
+    "title": "Slå og læs",
+    "instruction": "Slå med terningen. Læs et ord i den kolonne og farvelæg det. Hvilken kolonne bliver fyldt først?"
+  },
+  "K-441": {
+    "title": "Ordkort",
+    "instruction": "Klip kortene ud og læs dem."
   }
 }

@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-31",
- "count": 831,
+ "count": 840,
  "failures": [],
  "rows": [
   {
@@ -26,6 +26,7 @@
    "uses": [
     "templates/layouts/card-grid.js",
     "image-cache/resolve.js",
+    "lib/slot.js",
     "templates/components.js"
    ],
    "teachingPoint": "K:count-how-many",
@@ -106,6 +107,7 @@
    "uses": [
     "templates/layouts/card-grid.js",
     "image-cache/resolve.js",
+    "lib/slot.js",
     "templates/components.js"
    ],
    "teachingPoint": "K:count-how-many",
@@ -133,6 +135,7 @@
    "interactive": false,
    "uses": [
     "image-cache/resolve.js",
+    "lib/slot.js",
     "templates/components.js"
    ],
    "teachingPoint": "K:count-how-many",
@@ -242,7 +245,8 @@
    "interactive": false,
    "uses": [
     "templates/layouts/card-grid.js",
-    "image-cache/resolve.js"
+    "image-cache/resolve.js",
+    "lib/slot.js"
    ],
    "teachingPoint": "K:count-out-n",
    "skill": "Make a set of a given number (fill the frame, colour exactly N)",
@@ -266,7 +270,8 @@
    ],
    "interactive": false,
    "uses": [
-    "image-cache/resolve.js"
+    "image-cache/resolve.js",
+    "lib/slot.js"
    ],
    "teachingPoint": "K:one-to-one",
    "skill": "One-to-one correspondence: give each one a partner",
@@ -371,7 +376,8 @@
    "interactive": false,
    "uses": [
     "templates/layouts/card-grid.js",
-    "image-cache/resolve.js"
+    "image-cache/resolve.js",
+    "lib/slot.js"
    ],
    "teachingPoint": "K:odd-even-pairing",
    "skill": "Odd or even by pairing up: one left over means odd",
@@ -653,6 +659,7 @@
    "uses": [
     "templates/layouts/card-grid.js",
     "image-cache/resolve.js",
+    "lib/slot.js",
     "templates/components.js"
    ],
    "teachingPoint": "K:combine-groups",
@@ -680,6 +687,7 @@
    "uses": [
     "templates/layouts/card-grid.js",
     "image-cache/resolve.js",
+    "lib/slot.js",
     "templates/components.js"
    ],
    "teachingPoint": "K:estimate",
@@ -708,6 +716,7 @@
    "uses": [
     "templates/layouts/card-grid.js",
     "image-cache/resolve.js",
+    "lib/slot.js",
     "image-cache/resolve.js"
    ],
    "teachingPoint": "K:ordinal-position",
@@ -735,7 +744,8 @@
    "interactive": false,
    "uses": [
     "templates/layouts/card-grid.js",
-    "image-cache/resolve.js"
+    "image-cache/resolve.js",
+    "lib/slot.js"
    ],
    "teachingPoint": "K:ordinal-position",
    "skill": "Ordinal numbers: find / name the 1st–10th in a line, counting from the marked end (either end)",
@@ -2560,6 +2570,7 @@
    "uses": [
     "primitives/trace-path.js",
     "data/literacy/sight-words.js",
+    "lib/slot.js",
     "lib/sight-words-levelset.js"
    ],
    "teachingPoint": "K:word-sentence-tracing",
@@ -8673,6 +8684,261 @@
    "interactive": false,
    "uses": [
     "./K-418-picture-tracing.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-433",
+   "file": "scripts/worksheet-gen/types/k/K-433-sight-word-read-trace-write.js",
+   "grade": "K",
+   "slug": "sight-word-read-trace-write",
+   "family": "sight-words",
+   "variationOf": null,
+   "title": "Read, Trace, Write: {UNIT}",
+   "instruction": "Read the word. Trace it. Write it. Then write it in each sentence.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "rows",
+    "rowH",
+    "glyphH",
+    "sentences",
+    "own",
+    "initial",
+    "sentPx"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/sight-word-pages.js",
+    "primitives/trace-path.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-434",
+   "file": "scripts/worksheet-gen/types/k/K-434-sight-word-trace-word-and-sentence.js",
+   "grade": "K",
+   "slug": "sight-word-trace-word-and-sentence",
+   "family": "sight-words",
+   "variationOf": null,
+   "title": "Word and Sentence Tracing: {UNIT}",
+   "instruction": "Trace the word. Then trace the sentence again and again.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "wordRows",
+    "reps",
+    "wordH",
+    "wordGlyph",
+    "sentRows",
+    "laneH",
+    "glyphH",
+    "minGlyph",
+    "write"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/sight-word-pages.js",
+    "primitives/trace-path.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-435",
+   "file": "scripts/worksheet-gen/types/k/K-435-sight-word-draw-and-write.js",
+   "grade": "K",
+   "slug": "sight-word-draw-and-write",
+   "family": "sight-words",
+   "variationOf": null,
+   "title": "Read and Draw: {UNIT}",
+   "instruction": "Read the sentence. Trace it. Then draw a picture of it.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "traced",
+    "laneH",
+    "glyphH",
+    "minGlyph",
+    "write"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/sight-word-pages.js",
+    "primitives/trace-path.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-436",
+   "file": "scripts/worksheet-gen/types/k/K-436-sight-word-find-in-text.js",
+   "grade": "K",
+   "slug": "sight-word-find-in-text",
+   "family": "sight-words",
+   "variationOf": null,
+   "title": "Find the Word in the Text: {UNIT}",
+   "instruction": "Circle the word “{UNIT}” every time you see it. How many did you find?",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "with",
+    "without",
+    "px"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/sight-word-pages.js",
+    "templates/components.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-437",
+   "file": "scripts/worksheet-gen/types/k/K-437-sight-word-missing-letters.js",
+   "grade": "K",
+   "slug": "sight-words-missing-letters",
+   "family": "sight-words",
+   "variationOf": null,
+   "title": "Sight Words: Missing Letters",
+   "instruction": "Write the missing letters to finish each sight word.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "words",
+    "missing",
+    "look",
+    "bank",
+    "maxBox"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/sight-word-pages.js",
+    "lib/slot.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-438",
+   "file": "scripts/worksheet-gen/types/k/K-438-sight-word-build-the-word.js",
+   "grade": "K",
+   "slug": "sight-word-build-the-word",
+   "family": "sight-words",
+   "variationOf": null,
+   "title": "Build the Word: {UNIT}",
+   "instruction": "Cut out the letters. Glue them in the right order to build the word.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "faint",
+    "sentence"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/sight-word-pages.js",
+    "primitives/trace-path.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-439",
+   "file": "scripts/worksheet-gen/types/k/K-439-sight-word-rainbow-write.js",
+   "grade": "K",
+   "slug": "sight-word-rainbow-write",
+   "family": "sight-words",
+   "variationOf": null,
+   "title": "Rainbow Writing: {UNIT}",
+   "instruction": "Trace each word three times, with a different color each time. Then write it.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "rainbow",
+    "write",
+    "laneH",
+    "glyphH"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/sight-word-pages.js",
+    "primitives/_tokens.js",
+    "primitives/trace-path.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-440",
+   "file": "scripts/worksheet-gen/types/k/K-440-sight-words-roll-and-read.js",
+   "grade": "K",
+   "slug": "sight-words-roll-and-read",
+   "family": "sight-words",
+   "variationOf": null,
+   "title": "Roll and Read Sight Words",
+   "instruction": "Roll a die. Read a word in that column and color it. Which column is full first?",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "rows"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/sight-word-pages.js",
+    "lib/slot.js",
+    "primitives/dice.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
+   "id": "K-441",
+   "file": "scripts/worksheet-gen/types/k/K-441-sight-word-flash-cards.js",
+   "grade": "K",
+   "slug": "sight-word-flash-cards",
+   "family": "sight-words",
+   "variationOf": null,
+   "title": "Sight Word Flash Cards",
+   "instruction": "Cut out the cards. Read each word.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "sentence"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/sight-word-pages.js",
+    "lib/slot.js"
    ],
    "teachingPoint": null,
    "skill": null,
@@ -18005,6 +18271,7 @@
     "templates/layouts/card-grid.js",
     "image-cache/resolve.js",
     "templates/components.js",
+    "_shared/notation.js",
     "lib/arrays-screen.js"
    ],
    "teachingPoint": "2:arrays",
@@ -24503,6 +24770,7 @@
    ],
    "interactive": true,
    "uses": [
+    "_shared/notation.js",
     "templates/layouts/card-grid.js",
     "templates/components.js",
     "lib/number-charts-screen.js"

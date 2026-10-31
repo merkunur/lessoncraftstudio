@@ -5,6 +5,7 @@
  * Per maker:
  *   families     worksheet-gen family keys whose types become its templates
  *   extraIds     single types pulled in from a family that lives elsewhere
+ *   hideIds      types of its families NOT offered in the maker (duplicates of another template there)
  *   oldApps      the old REFERENCE APPS it replaces (each retired only once proven)
  *   lang         'none' | 'little' | 'bound' — how much native word data it needs
  *   settings     what a teacher sets, in plain words
@@ -284,6 +285,9 @@ const MAKERS = [
     fable: ['Syllable splits must be safety-gated (≥3 sources, quarantine, Nordic school carve-out). Confirm: no teacher words in syllable templates, ever — or define a safe path.'],
   },
   { id: 'sight-words', name: 'Sight Words', group: 'literacy', families: ['sight-words'], oldApps: [], lang: 'bound',
+    // K-259..K-263 are K-239 with another word window (published Level Set decks): in the maker the words are chosen
+    // directly (Word list / tap-to-edit), so the five would be five identical gallery cards (operator 2026-10-31)
+    hideIds: ['K-259', 'K-260', 'K-261', 'K-262', 'K-263'],
     settings: ['word list (per language frequency lists) or own words', 'task: read-trace-write / in sentences / find / trace sentence'],
     newTemplates: [['Sight word bingo', 'game format'], ['Roll and read', 'game format']],
     fable: [],

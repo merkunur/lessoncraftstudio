@@ -3327,5 +3327,41 @@
     "title": "Syksyinen metsä: etsi ja jäljennä 5 piilossa olevaa eläintä",
     "instruction": "Etsi metsästä 5 piilossa olevaa eläintä. Jäljennä ne.",
     "printTitle": "Kuka piileskelee metsässä?"
+  },
+  "K-433": {
+    "title": "Lue, jäljennä, kirjoita: {UNIT}",
+    "instruction": "Lue sana. Jäljennä se. Kirjoita se. Kirjoita se sitten jokaiseen lauseeseen."
+  },
+  "K-434": {
+    "title": "Jäljennä sana ja lause: {UNIT}",
+    "instruction": "Jäljennä sana. Jäljennä sitten lause jokaisella rivillä."
+  },
+  "K-435": {
+    "title": "Lue ja piirrä: {UNIT}",
+    "instruction": "Lue lause. Jäljennä se. Piirrä sitten, mitä lauseessa sanotaan."
+  },
+  "K-436": {
+    "title": "Etsi ja laske: {UNIT}",
+    "instruction": "Ympyröi sana ”{UNIT}” aina, kun näet sen. Montako kertaa löysit sen?"
+  },
+  "K-437": {
+    "title": "Yleisimmät sanat: puuttuvat kirjaimet",
+    "instruction": "Kirjoita puuttuvat kirjaimet jokaiseen sanaan."
+  },
+  "K-438": {
+    "title": "Rakenna sana: {UNIT}",
+    "instruction": "Leikkaa kirjaimet irti. Liimaa ne oikeaan järjestykseen niin, että niistä tulee sana."
+  },
+  "K-439": {
+    "title": "Sateenkaarikirjoitus: {UNIT}",
+    "instruction": "Jäljennä jokainen sana kolme kertaa, joka kerta eri värillä. Kirjoita se sitten."
+  },
+  "K-440": {
+    "title": "Heitä ja lue",
+    "instruction": "Heitä noppaa. Lue jokin sana siitä sarakkeesta ja väritä se. Mikä sarake täyttyy ensin?"
+  },
+  "K-441": {
+    "title": "Sanakortit",
+    "instruction": "Leikkaa kortit irti ja lue ne."
   }
 }

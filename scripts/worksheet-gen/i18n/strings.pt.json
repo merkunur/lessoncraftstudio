@@ -3356,5 +3356,41 @@
     "title": "Desenhos pontilhados de animais: ache os 5 bichos escondidos",
     "instruction": "Encontre os 5 animais escondidos na floresta. Depois cubra cada um deles.",
     "printTitle": "Quem se esconde na floresta?"
+  },
+  "K-433": {
+    "title": "Leia, cubra e escreva: {UNIT}",
+    "instruction": "Leia a palavra. Cubra o tracejado. Escreva a palavra. Depois complete cada frase com ela."
+  },
+  "K-434": {
+    "title": "Cubra a palavra e a frase: {UNIT}",
+    "instruction": "Cubra a palavra. Depois cubra a frase em cada linha."
+  },
+  "K-435": {
+    "title": "Leia e desenhe: {UNIT}",
+    "instruction": "Leia a frase. Cubra o tracejado. Depois desenhe o que a frase diz."
+  },
+  "K-436": {
+    "title": "Encontre e conte: {UNIT}",
+    "instruction": "Circule a palavra “{UNIT}” toda vez que você a encontrar. Quantas vezes você achou?"
+  },
+  "K-437": {
+    "title": "Palavras frequentes: letras que faltam",
+    "instruction": "Escreva as letras que faltam para completar cada palavra."
+  },
+  "K-438": {
+    "title": "Monte a palavra: {UNIT}",
+    "instruction": "Recorte as letras. Cole na ordem certa para montar a palavra."
+  },
+  "K-439": {
+    "title": "Escrita arco-íris: {UNIT}",
+    "instruction": "Cubra cada palavra três vezes, cada vez com uma cor diferente. Depois escreva a palavra."
+  },
+  "K-440": {
+    "title": "Jogue o dado e leia",
+    "instruction": "Jogue o dado. Leia uma palavra dessa coluna e pinte essa palavra. Qual coluna fica completa primeiro?"
+  },
+  "K-441": {
+    "title": "Fichas de palavras",
+    "instruction": "Recorte as fichas e leia."
   }
 }

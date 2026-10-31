@@ -3345,5 +3345,41 @@
     "title": "Høstoppgaver: finn de 5 gjemte dyrene i skogen og tegn over dem",
     "instruction": "Finn de 5 gjemte dyrene i skogen. Tegn over dem.",
     "printTitle": "Hvem gjemmer seg i skogen?"
+  },
+  "K-433": {
+    "title": "Les, spor, skriv: {UNIT}",
+    "instruction": "Les ordet. Spor det. Skriv det. Skriv det så i hver setning."
+  },
+  "K-434": {
+    "title": "Spor ordet og setningen: {UNIT}",
+    "instruction": "Spor ordet. Spor så setningen på hver linje."
+  },
+  "K-435": {
+    "title": "Les og tegn: {UNIT}",
+    "instruction": "Les setningen. Spor den. Tegn så det setningen forteller."
+  },
+  "K-436": {
+    "title": "Finn og tell: {UNIT}",
+    "instruction": "Sett ring rundt ordet «{UNIT}» hver gang du ser det. Hvor mange ganger fant du det?"
+  },
+  "K-437": {
+    "title": "Høyfrekvente ord: manglende bokstaver",
+    "instruction": "Skriv bokstavene som mangler i hvert ord."
+  },
+  "K-438": {
+    "title": "Bygg ordet: {UNIT}",
+    "instruction": "Klipp ut bokstavene. Lim dem på i riktig rekkefølge, så de blir til ordet."
+  },
+  "K-439": {
+    "title": "Regnbueskriving: {UNIT}",
+    "instruction": "Spor hvert ord tre ganger, med en ny farge hver gang. Skriv det så."
+  },
+  "K-440": {
+    "title": "Kast og les",
+    "instruction": "Kast terningen. Les et ord i den kolonnen og fargelegg det. Hvilken kolonne blir full først?"
+  },
+  "K-441": {
+    "title": "Ordkort",
+    "instruction": "Klipp ut kortene og les dem."
   }
 }

@@ -1,5 +1,5 @@
 {
- "_note": "Sight Words Level Set 2026-09-30: titles + instructions of the five new one-word variations (K-388..K-392) and the in-page labels. {UNIT} = the sight word of the page.",
+ "_note": "Sight Words Level Set 2026-09-30: titles + instructions of the one-word variations (K-388..K-392) and, 2026-10-31, of the Sight Words maker templates K-433..K-441, plus the in-page labels. {UNIT} = the sight word of the page.",
  "en": {
   "K-388": {
    "title": "Sight Word of the Day: {UNIT}",
@@ -33,7 +33,51 @@
    "circle": "Circle the word",
    "writeSentence": "Write the sentence",
    "count": "How many?",
-   "capital": "A sentence starts with a capital letter."
+   "capital": "A sentence starts with a capital letter.",
+   "colRead": "Read",
+   "colTrace": "Trace",
+   "colWrite": "Write",
+   "draw": "Draw what the sentence says",
+   "glue": "Glue the letters in the right order",
+   "cut": "Cut out the letters",
+   "rainbow": "Trace each word three times, once in each color",
+   "countTimes": "How many times?"
+  },
+  "K-433": {
+   "title": "Read, Trace, Write: {UNIT}",
+   "instruction": "Read the word. Trace it. Write it. Then write it in each sentence."
+  },
+  "K-434": {
+   "title": "Word and Sentence Tracing: {UNIT}",
+   "instruction": "Trace the word. Then trace the sentence on each line."
+  },
+  "K-435": {
+   "title": "Read and Draw: {UNIT}",
+   "instruction": "Read the sentence. Trace it. Then draw what the sentence says."
+  },
+  "K-436": {
+   "title": "Find and Count: {UNIT}",
+   "instruction": "Circle the word “{UNIT}” every time you see it. How many times did you find it?"
+  },
+  "K-437": {
+   "title": "Sight Words: Missing Letters",
+   "instruction": "Write the missing letters to finish each sight word."
+  },
+  "K-438": {
+   "title": "Build the Word: {UNIT}",
+   "instruction": "Cut out the letters. Glue them in the right order to build the word."
+  },
+  "K-439": {
+   "title": "Rainbow Writing: {UNIT}",
+   "instruction": "Trace each word three times, with a different color each time. Then write it."
+  },
+  "K-440": {
+   "title": "Roll and Read Sight Words",
+   "instruction": "Roll a die. Read a word in that column and color it. Which column is full first?"
+  },
+  "K-441": {
+   "title": "Sight Word Flash Cards",
+   "instruction": "Cut out the cards and read them."
   }
  },
  "de": {
@@ -69,7 +113,51 @@
    "circle": "Kreise das Wort ein",
    "writeSentence": "Schreibe den Satz ab",
    "count": "Wie viele?",
-   "capital": "Am Satzanfang schreibt man groß."
+   "capital": "Am Satzanfang schreibt man groß.",
+   "colRead": "Lesen",
+   "colTrace": "Nachspuren",
+   "colWrite": "Schreiben",
+   "draw": "Male, was im Satz steht",
+   "glue": "Klebe die Buchstaben in der richtigen Reihenfolge auf",
+   "cut": "Schneide die Buchstaben aus",
+   "rainbow": "Spure jedes Wort dreimal nach, jedes Mal in einer anderen Farbe",
+   "countTimes": "Wie oft?"
+  },
+  "K-433": {
+   "title": "Lesen, nachspuren, schreiben: {UNIT}",
+   "instruction": "Lies das Wort. Spure es nach. Schreibe es. Schreibe es dann in jeden Satz."
+  },
+  "K-434": {
+   "title": "Wort und Satz nachspuren: {UNIT}",
+   "instruction": "Spure das Wort nach. Spure dann den Satz auf jeder Linie nach."
+  },
+  "K-435": {
+   "title": "Lesen und malen: {UNIT}",
+   "instruction": "Lies den Satz. Spure ihn nach. Male dann, was im Satz steht."
+  },
+  "K-436": {
+   "title": "Finde und zähle: {UNIT}",
+   "instruction": "Kreise das Wort „{UNIT}“ jedes Mal ein, wenn du es siehst. Wie oft hast du es gefunden?"
+  },
+  "K-437": {
+   "title": "Lernwörter: Fehlende Buchstaben",
+   "instruction": "Schreibe die fehlenden Buchstaben in die Kästchen."
+  },
+  "K-438": {
+   "title": "Baue das Wort: {UNIT}",
+   "instruction": "Schneide die Buchstaben aus. Klebe sie in der richtigen Reihenfolge auf."
+  },
+  "K-439": {
+   "title": "Regenbogenschreiben: {UNIT}",
+   "instruction": "Spure jedes Wort dreimal nach, jedes Mal in einer anderen Farbe. Schreibe es dann."
+  },
+  "K-440": {
+   "title": "Würfeln und lesen",
+   "instruction": "Würfle. Lies ein Wort in dieser Spalte und male es an. Welche Spalte ist zuerst voll?"
+  },
+  "K-441": {
+   "title": "Wortkarten",
+   "instruction": "Schneide die Karten aus und lies sie."
   }
  },
  "es": {
@@ -105,7 +193,51 @@
    "circle": "Encierra la palabra en un círculo",
    "writeSentence": "Escribe la oración",
    "count": "¿Cuántas hay?",
-   "capital": "La oración empieza con mayúscula."
+   "capital": "La oración empieza con mayúscula.",
+   "colRead": "Lee",
+   "colTrace": "Repasa",
+   "colWrite": "Escribe",
+   "draw": "Dibuja lo que dice la oración",
+   "glue": "Pega las letras en el orden correcto",
+   "cut": "Recorta las letras",
+   "rainbow": "Repasa cada palabra tres veces, una vez con cada color",
+   "countTimes": "¿Cuántas veces?"
+  },
+  "K-433": {
+   "title": "Lee, repasa y escribe: {UNIT}",
+   "instruction": "Lee la palabra. Repásala. Escríbela. Luego escríbela en cada oración."
+  },
+  "K-434": {
+   "title": "Repasa la palabra y la oración: {UNIT}",
+   "instruction": "Repasa la palabra. Luego repasa la oración en cada renglón."
+  },
+  "K-435": {
+   "title": "Lee y dibuja: {UNIT}",
+   "instruction": "Lee la oración. Repásala. Luego dibuja lo que dice."
+  },
+  "K-436": {
+   "title": "Encuentra y cuenta: {UNIT}",
+   "instruction": "Encierra en un círculo la palabra “{UNIT}” cada vez que la veas. ¿Cuántas veces la encontraste?"
+  },
+  "K-437": {
+   "title": "Palabras de uso frecuente: letras que faltan",
+   "instruction": "Escribe las letras que faltan para completar cada palabra."
+  },
+  "K-438": {
+   "title": "Arma la palabra: {UNIT}",
+   "instruction": "Recorta las letras. Pégalas en el orden correcto para armar la palabra."
+  },
+  "K-439": {
+   "title": "Escritura arcoíris: {UNIT}",
+   "instruction": "Repasa cada palabra tres veces, cada vez de un color diferente. Luego escríbela."
+  },
+  "K-440": {
+   "title": "Tira el dado y lee",
+   "instruction": "Tira el dado. Lee una palabra de esa columna y coloréala. ¿Qué columna se llena primero?"
+  },
+  "K-441": {
+   "title": "Tarjetas de palabras",
+   "instruction": "Recorta las tarjetas y léelas."
   }
  },
  "fr": {
@@ -141,7 +273,51 @@
    "circle": "Entoure le mot",
    "writeSentence": "Écris la phrase",
    "count": "Combien ?",
-   "capital": "Une phrase commence par une majuscule."
+   "capital": "Une phrase commence par une majuscule.",
+   "colRead": "Lis",
+   "colTrace": "Repasse",
+   "colWrite": "Écris",
+   "draw": "Dessine ce que dit la phrase",
+   "glue": "Colle les lettres dans le bon ordre",
+   "cut": "Découpe les lettres",
+   "rainbow": "Repasse chaque mot trois fois, une fois avec chaque couleur",
+   "countTimes": "Combien de fois ?"
+  },
+  "K-433": {
+   "title": "Lis, repasse, écris : {UNIT}",
+   "instruction": "Lis le mot. Repasse-le. Écris-le. Puis écris-le dans chaque phrase."
+  },
+  "K-434": {
+   "title": "Repasse le mot et la phrase : {UNIT}",
+   "instruction": "Repasse le mot. Puis repasse la phrase sur chaque ligne."
+  },
+  "K-435": {
+   "title": "Lis et dessine : {UNIT}",
+   "instruction": "Lis la phrase. Repasse-la. Puis dessine ce que dit la phrase."
+  },
+  "K-436": {
+   "title": "Trouve et compte : {UNIT}",
+   "instruction": "Entoure le mot « {UNIT} » chaque fois que tu le vois. Combien de fois l’as-tu trouvé ?"
+  },
+  "K-437": {
+   "title": "Mots outils : lettres manquantes",
+   "instruction": "Écris les lettres qui manquent pour compléter chaque mot."
+  },
+  "K-438": {
+   "title": "Construis le mot : {UNIT}",
+   "instruction": "Découpe les lettres. Colle-les dans le bon ordre pour former le mot."
+  },
+  "K-439": {
+   "title": "Écriture arc-en-ciel : {UNIT}",
+   "instruction": "Repasse chaque mot trois fois, avec une couleur différente à chaque fois. Puis écris-le."
+  },
+  "K-440": {
+   "title": "Lance le dé et lis",
+   "instruction": "Lance le dé. Lis un mot de cette colonne et colorie-le. Quelle colonne est remplie en premier ?"
+  },
+  "K-441": {
+   "title": "Étiquettes-mots",
+   "instruction": "Découpe les étiquettes et lis-les."
   }
  },
  "it": {
@@ -177,7 +353,51 @@
    "circle": "Cerchia la parola",
    "writeSentence": "Scrivi la frase",
    "count": "Quante sono?",
-   "capital": "La frase comincia con la lettera maiuscola."
+   "capital": "La frase comincia con la lettera maiuscola.",
+   "colRead": "Leggi",
+   "colTrace": "Ripassa",
+   "colWrite": "Scrivi",
+   "draw": "Disegna quello che dice la frase",
+   "glue": "Incolla le lettere nell’ordine giusto",
+   "cut": "Ritaglia le lettere",
+   "rainbow": "Ripassa ogni parola tre volte, una volta con ogni colore",
+   "countTimes": "Quante volte?"
+  },
+  "K-433": {
+   "title": "Leggi, ripassa, scrivi: {UNIT}",
+   "instruction": "Leggi la parola. Ripassala. Scrivila. Poi scrivila in ogni frase."
+  },
+  "K-434": {
+   "title": "Ripassa la parola e la frase: {UNIT}",
+   "instruction": "Ripassa la parola. Poi ripassa la frase su ogni riga."
+  },
+  "K-435": {
+   "title": "Leggi e disegna: {UNIT}",
+   "instruction": "Leggi la frase. Ripassala. Poi disegna quello che dice la frase."
+  },
+  "K-436": {
+   "title": "Trova e conta: {UNIT}",
+   "instruction": "Cerchia la parola «{UNIT}» ogni volta che la vedi. Quante volte l’hai trovata?"
+  },
+  "K-437": {
+   "title": "Parole frequenti: lettere mancanti",
+   "instruction": "Scrivi le lettere che mancano per completare ogni parola."
+  },
+  "K-438": {
+   "title": "Costruisci la parola: {UNIT}",
+   "instruction": "Ritaglia le lettere. Incollale nell’ordine giusto per formare la parola."
+  },
+  "K-439": {
+   "title": "Scrittura arcobaleno: {UNIT}",
+   "instruction": "Ripassa ogni parola tre volte, ogni volta con un colore diverso. Poi scrivila."
+  },
+  "K-440": {
+   "title": "Tira il dado e leggi",
+   "instruction": "Tira il dado. Leggi una parola di quella colonna e colorala. Quale colonna si riempie per prima?"
+  },
+  "K-441": {
+   "title": "Cartellini delle parole",
+   "instruction": "Ritaglia i cartellini e leggili."
   }
  },
  "pt": {
@@ -213,7 +433,51 @@
    "circle": "Circule a palavra",
    "writeSentence": "Escreva a frase",
    "count": "Quantas?",
-   "capital": "A frase começa com letra maiúscula."
+   "capital": "A frase começa com letra maiúscula.",
+   "colRead": "Leia",
+   "colTrace": "Cubra",
+   "colWrite": "Escreva",
+   "draw": "Desenhe o que a frase diz",
+   "glue": "Cole as letras na ordem certa",
+   "cut": "Recorte as letras",
+   "rainbow": "Cubra cada palavra três vezes, uma vez com cada cor",
+   "countTimes": "Quantas vezes?"
+  },
+  "K-433": {
+   "title": "Leia, cubra e escreva: {UNIT}",
+   "instruction": "Leia a palavra. Cubra o tracejado. Escreva a palavra. Depois complete cada frase com ela."
+  },
+  "K-434": {
+   "title": "Cubra a palavra e a frase: {UNIT}",
+   "instruction": "Cubra a palavra. Depois cubra a frase em cada linha."
+  },
+  "K-435": {
+   "title": "Leia e desenhe: {UNIT}",
+   "instruction": "Leia a frase. Cubra o tracejado. Depois desenhe o que a frase diz."
+  },
+  "K-436": {
+   "title": "Encontre e conte: {UNIT}",
+   "instruction": "Circule a palavra “{UNIT}” toda vez que você a encontrar. Quantas vezes você achou?"
+  },
+  "K-437": {
+   "title": "Palavras frequentes: letras que faltam",
+   "instruction": "Escreva as letras que faltam para completar cada palavra."
+  },
+  "K-438": {
+   "title": "Monte a palavra: {UNIT}",
+   "instruction": "Recorte as letras. Cole na ordem certa para montar a palavra."
+  },
+  "K-439": {
+   "title": "Escrita arco-íris: {UNIT}",
+   "instruction": "Cubra cada palavra três vezes, cada vez com uma cor diferente. Depois escreva a palavra."
+  },
+  "K-440": {
+   "title": "Jogue o dado e leia",
+   "instruction": "Jogue o dado. Leia uma palavra dessa coluna e pinte essa palavra. Qual coluna fica completa primeiro?"
+  },
+  "K-441": {
+   "title": "Fichas de palavras",
+   "instruction": "Recorte as fichas e leia."
   }
  },
  "nl": {
@@ -249,7 +513,51 @@
    "circle": "Omcirkel het woord",
    "writeSentence": "Schrijf de zin",
    "count": "Hoeveel?",
-   "capital": "Een zin begint met een hoofdletter."
+   "capital": "Een zin begint met een hoofdletter.",
+   "colRead": "Lees",
+   "colTrace": "Trek over",
+   "colWrite": "Schrijf",
+   "draw": "Teken wat de zin zegt",
+   "glue": "Plak de letters in de goede volgorde",
+   "cut": "Knip de letters uit",
+   "rainbow": "Trek elk woord drie keer over, één keer met elke kleur",
+   "countTimes": "Hoe vaak?"
+  },
+  "K-433": {
+   "title": "Lezen, overtrekken, schrijven: {UNIT}",
+   "instruction": "Lees het woord. Trek het over. Schrijf het. Schrijf het dan in elke zin."
+  },
+  "K-434": {
+   "title": "Woord en zin overtrekken: {UNIT}",
+   "instruction": "Trek het woord over. Trek dan de zin over op elke regel."
+  },
+  "K-435": {
+   "title": "Lezen en tekenen: {UNIT}",
+   "instruction": "Lees de zin. Trek hem over. Teken dan wat de zin zegt."
+  },
+  "K-436": {
+   "title": "Zoek en tel: {UNIT}",
+   "instruction": "Omcirkel het woord ‘{UNIT}’ elke keer dat je het ziet. Hoe vaak heb je het gevonden?"
+  },
+  "K-437": {
+   "title": "Flitswoorden: ontbrekende letters",
+   "instruction": "Schrijf de letters die ontbreken in elk woord."
+  },
+  "K-438": {
+   "title": "Bouw het woord: {UNIT}",
+   "instruction": "Knip de letters uit. Plak ze in de goede volgorde om het woord te maken."
+  },
+  "K-439": {
+   "title": "Regenboogschrijven: {UNIT}",
+   "instruction": "Trek elk woord drie keer over, elke keer met een andere kleur. Schrijf het dan."
+  },
+  "K-440": {
+   "title": "Gooien en lezen",
+   "instruction": "Gooi de dobbelsteen. Lees een woord in die kolom en kleur het. Welke kolom is het eerst vol?"
+  },
+  "K-441": {
+   "title": "Woordkaarten",
+   "instruction": "Knip de kaarten uit en lees ze."
   }
  },
  "sv": {
@@ -285,7 +593,51 @@
    "circle": "Ringa in ordet",
    "writeSentence": "Skriv meningen",
    "count": "Hur många?",
-   "capital": "En mening börjar med stor bokstav."
+   "capital": "En mening börjar med stor bokstav.",
+   "colRead": "Läs",
+   "colTrace": "Spåra",
+   "colWrite": "Skriv",
+   "draw": "Rita det som meningen säger",
+   "glue": "Klistra bokstäverna i rätt ordning",
+   "cut": "Klipp ut bokstäverna",
+   "rainbow": "Spåra varje ord tre gånger, en gång med varje färg",
+   "countTimes": "Hur många gånger?"
+  },
+  "K-433": {
+   "title": "Läs, spåra, skriv: {UNIT}",
+   "instruction": "Läs ordet. Spåra det. Skriv det. Skriv det sedan i varje mening."
+  },
+  "K-434": {
+   "title": "Spåra ordet och meningen: {UNIT}",
+   "instruction": "Spåra ordet. Spåra sedan meningen på varje rad."
+  },
+  "K-435": {
+   "title": "Läs och rita: {UNIT}",
+   "instruction": "Läs meningen. Spåra den. Rita sedan det som meningen säger."
+  },
+  "K-436": {
+   "title": "Hitta och räkna: {UNIT}",
+   "instruction": "Ringa in ordet ”{UNIT}” varje gång du ser det. Hur många gånger hittade du det?"
+  },
+  "K-437": {
+   "title": "Vanliga ord: saknade bokstäver",
+   "instruction": "Skriv bokstäverna som saknas i varje ord."
+  },
+  "K-438": {
+   "title": "Bygg ordet: {UNIT}",
+   "instruction": "Klipp ut bokstäverna. Klistra fast dem i rätt ordning så att de bildar ordet."
+  },
+  "K-439": {
+   "title": "Regnbågsskrivning: {UNIT}",
+   "instruction": "Spåra varje ord tre gånger, med en ny färg varje gång. Skriv det sedan."
+  },
+  "K-440": {
+   "title": "Slå och läs",
+   "instruction": "Slå tärningen. Läs ett ord i den kolumnen och färglägg det. Vilken kolumn blir full först?"
+  },
+  "K-441": {
+   "title": "Ordkort",
+   "instruction": "Klipp ut korten och läs dem."
   }
  },
  "da": {
@@ -321,7 +673,51 @@
    "circle": "Sæt ring om ordet",
    "writeSentence": "Skriv sætningen",
    "count": "Hvor mange?",
-   "capital": "En sætning starter med stort bogstav."
+   "capital": "En sætning starter med stort bogstav.",
+   "colRead": "Læs",
+   "colTrace": "Tegn op",
+   "colWrite": "Skriv",
+   "draw": "Lav en tegning af det, sætningen fortæller",
+   "glue": "Lim bogstaverne på i den rigtige rækkefølge",
+   "cut": "Klip bogstaverne ud",
+   "rainbow": "Tegn hvert ord op tre gange, en gang med hver farve",
+   "countTimes": "Hvor mange gange?"
+  },
+  "K-433": {
+   "title": "Læs, tegn op, skriv: {UNIT}",
+   "instruction": "Læs ordet. Tegn det op. Skriv det. Skriv det derefter i hver sætning."
+  },
+  "K-434": {
+   "title": "Tegn ordet og sætningen op: {UNIT}",
+   "instruction": "Tegn ordet op. Tegn derefter sætningen op på hver linje."
+  },
+  "K-435": {
+   "title": "Læs og tegn: {UNIT}",
+   "instruction": "Læs sætningen. Tegn den op. Lav derefter en tegning af det, sætningen fortæller."
+  },
+  "K-436": {
+   "title": "Find og tæl: {UNIT}",
+   "instruction": "Sæt ring om ordet »{UNIT}« hver gang du ser det. Hvor mange gange fandt du det?"
+  },
+  "K-437": {
+   "title": "Ordbilleder: manglende bogstaver",
+   "instruction": "Skriv de bogstaver, der mangler i hvert ord."
+  },
+  "K-438": {
+   "title": "Byg ordet: {UNIT}",
+   "instruction": "Klip bogstaverne ud. Lim dem på i den rigtige rækkefølge, så de danner ordet."
+  },
+  "K-439": {
+   "title": "Regnbueskrivning: {UNIT}",
+   "instruction": "Tegn hvert ord op tre gange, med en ny farve hver gang. Skriv det derefter."
+  },
+  "K-440": {
+   "title": "Slå og læs",
+   "instruction": "Slå med terningen. Læs et ord i den kolonne og farvelæg det. Hvilken kolonne bliver fyldt først?"
+  },
+  "K-441": {
+   "title": "Ordkort",
+   "instruction": "Klip kortene ud og læs dem."
   }
  },
  "no": {
@@ -357,7 +753,51 @@
    "circle": "Sett ring rundt ordet",
    "writeSentence": "Skriv setningen",
    "count": "Hvor mange?",
-   "capital": "En setning begynner med stor bokstav."
+   "capital": "En setning begynner med stor bokstav.",
+   "colRead": "Les",
+   "colTrace": "Spor",
+   "colWrite": "Skriv",
+   "draw": "Tegn det setningen forteller",
+   "glue": "Lim bokstavene på i riktig rekkefølge",
+   "cut": "Klipp ut bokstavene",
+   "rainbow": "Spor hvert ord tre ganger, én gang med hver farge",
+   "countTimes": "Hvor mange ganger?"
+  },
+  "K-433": {
+   "title": "Les, spor, skriv: {UNIT}",
+   "instruction": "Les ordet. Spor det. Skriv det. Skriv det så i hver setning."
+  },
+  "K-434": {
+   "title": "Spor ordet og setningen: {UNIT}",
+   "instruction": "Spor ordet. Spor så setningen på hver linje."
+  },
+  "K-435": {
+   "title": "Les og tegn: {UNIT}",
+   "instruction": "Les setningen. Spor den. Tegn så det setningen forteller."
+  },
+  "K-436": {
+   "title": "Finn og tell: {UNIT}",
+   "instruction": "Sett ring rundt ordet «{UNIT}» hver gang du ser det. Hvor mange ganger fant du det?"
+  },
+  "K-437": {
+   "title": "Høyfrekvente ord: manglende bokstaver",
+   "instruction": "Skriv bokstavene som mangler i hvert ord."
+  },
+  "K-438": {
+   "title": "Bygg ordet: {UNIT}",
+   "instruction": "Klipp ut bokstavene. Lim dem på i riktig rekkefølge, så de blir til ordet."
+  },
+  "K-439": {
+   "title": "Regnbueskriving: {UNIT}",
+   "instruction": "Spor hvert ord tre ganger, med en ny farge hver gang. Skriv det så."
+  },
+  "K-440": {
+   "title": "Kast og les",
+   "instruction": "Kast terningen. Les et ord i den kolonnen og fargelegg det. Hvilken kolonne blir full først?"
+  },
+  "K-441": {
+   "title": "Ordkort",
+   "instruction": "Klipp ut kortene og les dem."
   }
  },
  "fi": {
@@ -393,7 +833,51 @@
    "circle": "Ympyröi sana",
    "writeSentence": "Kirjoita lause",
    "count": "Montako?",
-   "capital": "Lause alkaa isolla alkukirjaimella."
+   "capital": "Lause alkaa isolla alkukirjaimella.",
+   "colRead": "Lue",
+   "colTrace": "Jäljennä",
+   "colWrite": "Kirjoita",
+   "draw": "Piirrä, mitä lauseessa sanotaan",
+   "glue": "Liimaa kirjaimet oikeaan järjestykseen",
+   "cut": "Leikkaa kirjaimet irti",
+   "rainbow": "Jäljennä jokainen sana kolme kertaa, kerran kullakin värillä",
+   "countTimes": "Montako kertaa?"
+  },
+  "K-433": {
+   "title": "Lue, jäljennä, kirjoita: {UNIT}",
+   "instruction": "Lue sana. Jäljennä se. Kirjoita se. Kirjoita se sitten jokaiseen lauseeseen."
+  },
+  "K-434": {
+   "title": "Jäljennä sana ja lause: {UNIT}",
+   "instruction": "Jäljennä sana. Jäljennä sitten lause jokaisella rivillä."
+  },
+  "K-435": {
+   "title": "Lue ja piirrä: {UNIT}",
+   "instruction": "Lue lause. Jäljennä se. Piirrä sitten, mitä lauseessa sanotaan."
+  },
+  "K-436": {
+   "title": "Etsi ja laske: {UNIT}",
+   "instruction": "Ympyröi sana ”{UNIT}” aina, kun näet sen. Montako kertaa löysit sen?"
+  },
+  "K-437": {
+   "title": "Yleisimmät sanat: puuttuvat kirjaimet",
+   "instruction": "Kirjoita puuttuvat kirjaimet jokaiseen sanaan."
+  },
+  "K-438": {
+   "title": "Rakenna sana: {UNIT}",
+   "instruction": "Leikkaa kirjaimet irti. Liimaa ne oikeaan järjestykseen niin, että niistä tulee sana."
+  },
+  "K-439": {
+   "title": "Sateenkaarikirjoitus: {UNIT}",
+   "instruction": "Jäljennä jokainen sana kolme kertaa, joka kerta eri värillä. Kirjoita se sitten."
+  },
+  "K-440": {
+   "title": "Heitä ja lue",
+   "instruction": "Heitä noppaa. Lue jokin sana siitä sarakkeesta ja väritä se. Mikä sarake täyttyy ensin?"
+  },
+  "K-441": {
+   "title": "Sanakortit",
+   "instruction": "Leikkaa kortit irti ja lue ne."
   }
  }
 }

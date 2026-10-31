@@ -3341,5 +3341,41 @@
     "title": "Animales escondidos para repasar: encuentra los 5 en el bosque",
     "instruction": "Encuentra los 5 animales escondidos en el bosque. Repásalos.",
     "printTitle": "¿Quién se esconde en el bosque?"
+  },
+  "K-433": {
+    "title": "Lee, repasa y escribe: {UNIT}",
+    "instruction": "Lee la palabra. Repásala. Escríbela. Luego escríbela en cada oración."
+  },
+  "K-434": {
+    "title": "Repasa la palabra y la oración: {UNIT}",
+    "instruction": "Repasa la palabra. Luego repasa la oración en cada renglón."
+  },
+  "K-435": {
+    "title": "Lee y dibuja: {UNIT}",
+    "instruction": "Lee la oración. Repásala. Luego dibuja lo que dice."
+  },
+  "K-436": {
+    "title": "Encuentra y cuenta: {UNIT}",
+    "instruction": "Encierra en un círculo la palabra “{UNIT}” cada vez que la veas. ¿Cuántas veces la encontraste?"
+  },
+  "K-437": {
+    "title": "Palabras de uso frecuente: letras que faltan",
+    "instruction": "Escribe las letras que faltan para completar cada palabra."
+  },
+  "K-438": {
+    "title": "Arma la palabra: {UNIT}",
+    "instruction": "Recorta las letras. Pégalas en el orden correcto para armar la palabra."
+  },
+  "K-439": {
+    "title": "Escritura arcoíris: {UNIT}",
+    "instruction": "Repasa cada palabra tres veces, cada vez de un color diferente. Luego escríbela."
+  },
+  "K-440": {
+    "title": "Tira el dado y lee",
+    "instruction": "Tira el dado. Lee una palabra de esa columna y coloréala. ¿Qué columna se llena primero?"
+  },
+  "K-441": {
+    "title": "Tarjetas de palabras",
+    "instruction": "Recorta las tarjetas y léelas."
   }
 }

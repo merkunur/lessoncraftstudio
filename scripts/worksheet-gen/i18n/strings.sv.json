@@ -3317,5 +3317,41 @@
     "title": "Spåra djurbilder: hitta de 5 gömda djuren i höstskogen",
     "instruction": "Hitta de 5 gömda djuren i skogen. Spåra dem.",
     "printTitle": "Vem gömmer sig i skogen?"
+  },
+  "K-433": {
+    "title": "Läs, spåra, skriv: {UNIT}",
+    "instruction": "Läs ordet. Spåra det. Skriv det. Skriv det sedan i varje mening."
+  },
+  "K-434": {
+    "title": "Spåra ordet och meningen: {UNIT}",
+    "instruction": "Spåra ordet. Spåra sedan meningen på varje rad."
+  },
+  "K-435": {
+    "title": "Läs och rita: {UNIT}",
+    "instruction": "Läs meningen. Spåra den. Rita sedan det som meningen säger."
+  },
+  "K-436": {
+    "title": "Hitta och räkna: {UNIT}",
+    "instruction": "Ringa in ordet ”{UNIT}” varje gång du ser det. Hur många gånger hittade du det?"
+  },
+  "K-437": {
+    "title": "Vanliga ord: saknade bokstäver",
+    "instruction": "Skriv bokstäverna som saknas i varje ord."
+  },
+  "K-438": {
+    "title": "Bygg ordet: {UNIT}",
+    "instruction": "Klipp ut bokstäverna. Klistra fast dem i rätt ordning så att de bildar ordet."
+  },
+  "K-439": {
+    "title": "Regnbågsskrivning: {UNIT}",
+    "instruction": "Spåra varje ord tre gånger, med en ny färg varje gång. Skriv det sedan."
+  },
+  "K-440": {
+    "title": "Slå och läs",
+    "instruction": "Slå tärningen. Läs ett ord i den kolumnen och färglägg det. Vilken kolumn blir full först?"
+  },
+  "K-441": {
+    "title": "Ordkort",
+    "instruction": "Klipp ut korten och läs dem."
   }
 }

@@ -3332,5 +3332,41 @@
     "title": "Disegni tratteggiati di animali: trova i 5 animali nascosti",
     "instruction": "Trova i 5 animali nascosti nel bosco. Ripassali.",
     "printTitle": "Chi si nasconde nel bosco?"
+  },
+  "K-433": {
+    "title": "Leggi, ripassa, scrivi: {UNIT}",
+    "instruction": "Leggi la parola. Ripassala. Scrivila. Poi scrivila in ogni frase."
+  },
+  "K-434": {
+    "title": "Ripassa la parola e la frase: {UNIT}",
+    "instruction": "Ripassa la parola. Poi ripassa la frase su ogni riga."
+  },
+  "K-435": {
+    "title": "Leggi e disegna: {UNIT}",
+    "instruction": "Leggi la frase. Ripassala. Poi disegna quello che dice la frase."
+  },
+  "K-436": {
+    "title": "Trova e conta: {UNIT}",
+    "instruction": "Cerchia la parola «{UNIT}» ogni volta che la vedi. Quante volte l’hai trovata?"
+  },
+  "K-437": {
+    "title": "Parole frequenti: lettere mancanti",
+    "instruction": "Scrivi le lettere che mancano per completare ogni parola."
+  },
+  "K-438": {
+    "title": "Costruisci la parola: {UNIT}",
+    "instruction": "Ritaglia le lettere. Incollale nell’ordine giusto per formare la parola."
+  },
+  "K-439": {
+    "title": "Scrittura arcobaleno: {UNIT}",
+    "instruction": "Ripassa ogni parola tre volte, ogni volta con un colore diverso. Poi scrivila."
+  },
+  "K-440": {
+    "title": "Tira il dado e leggi",
+    "instruction": "Tira il dado. Leggi una parola di quella colonna e colorala. Quale colonna si riempie per prima?"
+  },
+  "K-441": {
+    "title": "Cartellini delle parole",
+    "instruction": "Ritaglia i cartellini e leggili."
   }
 }

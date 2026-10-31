@@ -26,7 +26,9 @@ const { makeRng, instanceSeed } = require(path.join(REPO, 'scripts/worksheet-gen
 
 // templates that legitimately have no slot: their content is fixed by a setting (the Word control) or carries no
 // picture/word pool (dots, tallies, numerals)
-const NO_SLOT = new Set(['K-005', 'K-015', 'K-017', 'K-024', 'K-025', 'G1-105', 'G1-106', 'K-388', 'K-389', 'K-390', 'K-391', 'K-392']);
+const NO_SLOT = new Set(['K-005', 'K-015', 'K-017', 'K-024', 'K-025', 'G1-105', 'G1-106', 'K-388', 'K-389', 'K-390', 'K-391', 'K-392',
+  // the one-word maker templates (2026-10-31): the Word control picks the word; the sentences come with it
+  'K-433', 'K-434', 'K-435', 'K-436', 'K-438', 'K-439']);
 
 let fails = 0;
 const fail = (m) => { fails++; console.log('FAIL ' + m); };
@@ -58,7 +60,8 @@ for (const m of MAKERS) {
   for (const t of tj.templates) {
     const type = require(path.join(REPO, t.file));
     let refType = null;
-    try { refType = require(path.join(tmp, t.file)); } catch (e) { fail(`${t.id}: cannot load ${REF} version (${e.message})`); }
+    const isNew = !fs.existsSync(path.join(tmp, t.file));   // a template born after REF has no catalogue output to keep
+    if (!isNew) { try { refType = require(path.join(tmp, t.file)); } catch (e) { fail(`${t.id}: cannot load ${REF} version (${e.message})`); } }
     const strings = resolveStrings(t.id, 'en', type);
     const themes = t.themed ? [t.themes[0], t.themes[1], t.themes.find((x) => /bw(\s+\d+)?$/i.test(x)) || t.themes[2]] : [null];
     const unit = t.units && t.units.en ? t.units.en[0].id : null;
@@ -76,7 +79,7 @@ for (const m of MAKERS) {
       const norm = (x) => String(x).split('.scratch/slots-ref/').join('');
       if (a && norm(a.bodyHtml) === b.bodyHtml && norm(JSON.stringify(a.meta)) === JSON.stringify(b.meta)) same++;
     }
-    if (same !== n) fail(`${t.id}: catalogue output changed in ${n - same}/${n} builds`);
+    if (!isNew && same !== n) fail(`${t.id}: catalogue output changed in ${n - same}/${n} builds`);
     // 2 + 3. slots in the maker
     const theme = themes[0];
     const d = t.levels.includes(2) ? 2 : t.levels[0];
@@ -101,7 +104,7 @@ for (const m of MAKERS) {
       const out = makePage({ type, strings, locale: 'en', difficulty: d, theme, unit, variant: 1, overrides: { [role]: { 0: '__not_in_pool__' } } });
       if (out.html !== base.html) fail(`${t.id} ${role}: a key outside the pool was not refused`);
     }
-    console.log(`${fails ? '' : 'ok   '}${m} ${t.id}: catalogue ${same}/${n} identical; slots ${roles.join(',') || '-'}`);
+    console.log(`${fails ? '' : 'ok   '}${m} ${t.id}: catalogue ${isNew ? 'new template' : same + '/' + n + ' identical'}; slots ${roles.join(',') || '-'}`);
   }
 }
 fs.rmSync(tmp, { recursive: true, force: true });

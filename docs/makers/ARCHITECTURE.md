@@ -697,7 +697,7 @@ Each with my recommendation and the cost of each option. Nothing here blocks the
 
 **C. "Fix everywhere" vs "rebuild identically".** (C1, recommended) a *content* fix re-routes old recipes and student links to the fixed version with a one-line banner; layout polish and new templates do not — cost: a migration record per fix; (C2) every new version re-routes everything — cost: a teacher's saved page can silently change its look; (C3) never re-route — contradicts the standing rule.
 
-**D. Anonymous downloads.** The code requires a free account for any download (`quota.ts:170-172`); the brief says anonymous teachers get 3 a month. (D1, recommended) keep the code: making is free and unlimited for everyone, the first download asks for a free account — the acquisition funnel the metering was built for; (D2) allow 3 anonymous downloads keyed on the `lcs_anon_id` cookie — cost: a 4-line change to `checkAndIncrementQuota` and weaker sign-up conversion.
+**D. Anonymous downloads. — DECIDED 2026-10-31: D1, keep the code (anonymous visitors cannot download; free accounts 3/month; subscribers unlimited).** The code requires a free account for any download (`quota.ts:170-172`); the brief says anonymous teachers get 3 a month. (D1, recommended) keep the code: making is free and unlimited for everyone, the first download asks for a free account — the acquisition funnel the metering was built for; (D2) allow 3 anonymous downloads keyed on the `lcs_anon_id` cookie — cost: a 4-line change to `checkAndIncrementQuota` and weaker sign-up conversion.
 
 **E. Gallery thumbnails per language.** (E1, recommended) ~8,300 WebP ≈ 100 MB, every teacher sees her language — cost: 100 MB of served disk + ~20 min of render per full rebuild; (E2) English thumbnails with a localised caption — cost: Finnish teachers see English sheets in the gallery.
 
@@ -705,4 +705,4 @@ Each with my recommendation and the cost of each option. Nothing here blocks the
 
 **G. The pilot trio.** ten-frames · counting · spelling (§14.2). Alternative: swap spelling for sentences (more templates, heavier) — cost: +2 sessions before the chain is proven.
 
-**H. One new build dependency.** `esbuild` as a dev dependency (CLAUDE.md §10.3 requires your approval). No runtime dependency is added; `pdf-lib` is already in `package.json`.
+**H. One new build dependency. — APPROVED 2026-10-31: `esbuild` as a dev dependency.** `esbuild` as a dev dependency (CLAUDE.md §10.3 requires your approval). No runtime dependency is added; `pdf-lib` is already in `package.json`.

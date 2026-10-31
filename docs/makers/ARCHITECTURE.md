@@ -503,6 +503,27 @@ Content language vs interface language: separate, as the old apps (`OLD-APPS.md`
 
 ## 13. G12 — Replacing the old apps
 
+> 🛑 **OPERATOR RULE (2026-10-31) — the old landings keep their SEO.** *"The current worksheet makers were the first content
+> on the website so they have the best seo on the website. So, when you replace them with the new ones you shouldn't
+> delete or change the landing pages or slugs but link them in a smart way to the corresponding new worksheet makers."*
+> - The 33 old landings `/<loc>/tools/<slug>` (363 URLs) are **never deleted, re-slugged, redirected, noindexed or
+>   rewritten**: text, title, meta, canonical, hreflang and JSON-LD stay as they are. Their slugs are frozen in
+>   `docs/makers/old-landings.frozen.json`; `scripts/makers/gates/old-landings.js` fails on any change.
+> - **The smart link:** only the landing's launch target changes. It opens the new maker **on the template that does what
+>   the old app did** (`topic-map.js` `oldAppTemplates`, e.g. find-and-count → counting `K-060` I-Spy counting,
+>   find-objects → counting `K-059` Find and Circle), in the landing's language: `…/makers/app/?maker=<id>&lang=<loc>&t=<template>`.
+>   Where an old landing's mode cards ("See what you can make") name a mode, each card opens the matching template.
+>   Where the template is refused in a language, that landing opens the maker's gallery. Several old apps sharing one
+>   new maker each keep their own landing and their own entry template; none points at another's page.
+> - The new makers' own landing pages are **new, additive URLs** that target the topic query ("counting worksheet maker")
+>   and link to the old landings of the apps they absorb; the old landings rank for their own long-standing queries
+>   ("find and count maker", "hidden object maker"), so the two do not compete. Internal links run new → old.
+> - Decks' "Make your own" keeps pointing at the old landing slugs (`deck-actions.js` from `maker-content`), so the
+>   equity of every deck link keeps flowing to the old landings.
+> - The maker screen itself (`/makers/app/`) stays `noindex, follow`: the landing is the indexable page.
+> - Checked at release on the live site: every old landing 200 ×11, slug = frozen, canonical unchanged, its launch link
+>   opens the right maker + template in its language.
+
 1. **Build the maker** that owns the app (`OLD-APPS.md` table) with every "special feature to keep" either mapped to a template/control or listed as dropped in `docs/makers/topics/<id>.md` (operator sign-off per drop; the known drops are in §18-F).
 2. **Proof = the gate suite green (§15) + a 14-day shadow period**: the landing page shows the new maker; the old app stays reachable one click away ("Use the old generator"); telemetry (§10.3) shows gate-failure rate < 1 % of generations and no locale with zero saves.
 3. **Repoint** — zero URL churn, by design: the landing URL `/<loc>/tools/<slug>` stays (CLAUDE.md §21.5a freeze); only `makerGeneratorUrl` (`frontend/lib/seo/maker-content.ts:83-85`) returns the new shell URL for that maker key, so `MakerLanding.tsx:75` launches the maker. `deck-actions.js` builds "Make your own" from the same `maker-content` slug (`:146-158`), so **no deck.html is rewritten**. The preset: the landing passes `?preset=<deckId>` and the shell resolves the deck's `generation.json` → recipe (`seed: d:<instanceSeed>`, settings, theme, locale) through `GET /api/makers/preset/<deckId>` (edge-cached 1 h).

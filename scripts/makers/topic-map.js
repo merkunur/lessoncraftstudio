@@ -7,6 +7,9 @@
  *   extraIds     single types pulled in from a family that lives elsewhere
  *   hideIds      types of its families NOT offered in the maker (duplicates of another template there)
  *   oldApps      the old REFERENCE APPS it replaces (each retired only once proven)
+ *   oldAppTemplates  old app → the template its landing opens (the template that does what the old app did; operator
+ *                2026-10-31: the old landings keep their pages + slugs and link smartly to the new maker). Required
+ *                for every old app once its maker is built (gates/old-landings.js).
  *   lang         'none' | 'little' | 'bound' — how much native word data it needs
  *   settings     what a teacher sets, in plain words
  *   newTemplates templates to ADD beyond today's types, each with its reason
@@ -26,7 +29,7 @@ const COMMON_SETTINGS = [
 
 const MAKERS = [
   // ───────────── NUMBERS & COUNTING ─────────────
-  { id: 'counting', name: 'Counting', group: 'math', families: ['counting-pictures'], oldApps: ['find-and-count', 'find-objects'], lang: 'little',
+  { id: 'counting', name: 'Counting', group: 'math', families: ['counting-pictures'], oldApps: ['find-and-count', 'find-objects'], oldAppTemplates: { 'find-and-count': 'K-060', 'find-objects': 'K-059' }, lang: 'little',
     settings: ['number range (1-5, 1-10, 1-20)', 'answer mode: circle / write / match', 'how many cards', 'kinds of pictures in a scene'],
     newTemplates: [
       ['Count and colour the number word', 'joins counting to number words; today no counting sheet uses the word'],

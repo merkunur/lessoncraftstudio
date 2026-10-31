@@ -46,5 +46,12 @@
   "tapHintText": "Klik of tik op de titel of de opdracht om die te veranderen.",
   "duplicatePage": "Dupliceren",
   "moveUp": "Omhoog",
-  "moveDown": "Omlaag"
+  "moveDown": "Omlaag",
+  "moreOptions": "Meer opties",
+  "border": "Rand",
+  "border_none": "Geen",
+  "border_line": "Lijn",
+  "border_dashed": "Gestreept",
+  "border_dotted": "Gestippeld",
+  "border_double": "Dubbel"
 }

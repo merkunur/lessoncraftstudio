@@ -46,5 +46,12 @@
   "tapHintText": "Click or tap the title or the instruction to change it.",
   "duplicatePage": "Duplicate",
   "moveUp": "Move up",
-  "moveDown": "Move down"
+  "moveDown": "Move down",
+  "moreOptions": "More options",
+  "border": "Border",
+  "border_none": "None",
+  "border_line": "Line",
+  "border_dashed": "Dashed",
+  "border_dotted": "Dotted",
+  "border_double": "Double"
 }

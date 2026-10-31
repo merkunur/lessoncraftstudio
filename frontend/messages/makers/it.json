@@ -46,5 +46,12 @@
   "tapHintText": "Tocca o fai clic sul titolo o sulla consegna per modificarli.",
   "duplicatePage": "Duplica",
   "moveUp": "Sposta su",
-  "moveDown": "Sposta giù"
+  "moveDown": "Sposta giù",
+  "moreOptions": "Altre opzioni",
+  "border": "Cornice",
+  "border_none": "Nessuna",
+  "border_line": "Linea",
+  "border_dashed": "Tratteggiata",
+  "border_dotted": "Punteggiata",
+  "border_double": "Doppia"
 }

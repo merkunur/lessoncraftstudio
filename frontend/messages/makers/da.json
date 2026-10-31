@@ -46,5 +46,12 @@
   "tapHintText": "Klik eller tryk på overskriften eller instruktionen for at ændre den.",
   "duplicatePage": "Dupliker",
   "moveUp": "Flyt op",
-  "moveDown": "Flyt ned"
+  "moveDown": "Flyt ned",
+  "moreOptions": "Flere muligheder",
+  "border": "Ramme",
+  "border_none": "Ingen",
+  "border_line": "Streg",
+  "border_dashed": "Stiplet",
+  "border_dotted": "Prikket",
+  "border_double": "Dobbelt"
 }

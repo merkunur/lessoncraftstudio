@@ -27,7 +27,7 @@ const el = (tag, attrs = {}, kids = []) => {
 
 let mod, tj, strings, picManifest;
 const typeCache = {};
-const state = { id: null, level: 2, theme: null, unit: null, answerKey: false, paper: LANG === 'en' ? 'letter' : 'a4', pages: [1], edits: [{}], units: [], texts: [{}] };
+const state = { id: null, level: 2, theme: null, unit: null, answerKey: false, paper: LANG === 'en' ? 'letter' : 'a4', pages: [1], edits: [{}], units: [], texts: [{}], border: 'none', more: false };
 
 /*
  * Who may make what (operator ruling 2026-10-31; frontend/lib/quota.ts kind 'make'):
@@ -208,10 +208,36 @@ function pageResult(i) {
   return results.get(cacheKey);
 }
 
+/*
+ * The sheet of paper. The page content box is 186 × 250 mm (703 × 945 px, the catalogue's size); the paper around it is
+ * US Letter or A4, the margins centred — the same numbers as the page's own @page rule (page/shell.js).
+ */
+const MM = 96 / 25.4;
+const PAPER = { letter: { w: 215.9, h: 279.4 }, a4: { w: 210, h: 297 } };
+function paperPx() {
+  const p = PAPER[state.paper] || PAPER.a4;
+  return { w: Math.round(p.w * MM), h: Math.round(p.h * MM), mx: Math.round(((p.w - 186) / 2) * MM), my: Math.round(((p.h - 250) / 2) * MM) };
+}
+/*
+ * A border is drawn in the paper margin, outside the content box (an outline: it takes no space, so it can never push or
+ * cover the page's content, and the page checks — which measure boxes — never see it). Printed with the page.
+ */
+const BORDERS = { none: '', line: '3px solid', dashed: '3px dashed', dotted: '4px dotted', double: '6px double' };
+function withBorder(html) {
+  if (!BORDERS[state.border]) return html;
+  const off = Math.max(8, Math.min(18, paperPx().mx - 16));
+  // a printer never draws into the @page margin (Chrome clips it): with a border the margin moves onto each page itself
+  // (the same millimetres, so the content sits where it did; the bottom 1 mm short so rounding never spills a page) and
+  // the border lies inside the sheet
+  const p = PAPER[state.paper] || PAPER.a4;
+  const mx = ((p.w - 186) / 2).toFixed(2), my = ((p.h - 250) / 2).toFixed(2);
+  return html.replace('</head>', `<style data-lcs-decor>@page{margin:0}html,body{margin:0}.ws-page{margin:${my}mm ${mx}mm ${(my - 1).toFixed(2)}mm;outline:${BORDERS[state.border]} #3A3530;outline-offset:${off}px}</style></head>`);
+}
+
 async function makeHtml(i, key) {
   const r = await pageResult(i);
   if (!r.ok) { const e = new Error('refused'); e.fails = r.fails; throw e; }
-  return key ? r.keyHtml : r.html;
+  return withBorder(key ? r.keyHtml : r.html);
 }
 
 /**
@@ -233,8 +259,12 @@ function guardFrame(f) {
 }
 
 function sheet(html, pageIndex = null) {
-  const box = el('div', { class: 'mk-sheet' });
-  const f = el('iframe', { title: UI.page, srcdoc: html, scrolling: 'no' });
+  const P = paperPx();
+  const box = el('div', { class: 'mk-sheet', style: `aspect-ratio:${P.w} / ${P.h}` });
+  // (with a border the page already carries its margin — withBorder — so the preview adds none)
+  const pad = /data-lcs-decor/.test(html) ? '0' : `${P.my}px ${P.mx}px`;
+  const shown = html.replace('</head>', `<style>html,body{margin:0;background:#fff}body{padding:${pad};box-sizing:border-box;width:${P.w}px;height:${P.h}px}</style></head>`);
+  const f = el('iframe', { title: UI.page, srcdoc: shown, scrolling: 'no', style: `width:${P.w}px;height:${P.h}px` });
   guardFrame(f);
   box.append(f);
   if (pageIndex !== null) {
@@ -254,7 +284,7 @@ function sheet(html, pageIndex = null) {
       d.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') go(e); });
     }, { once: true });
   }
-  const fit = () => { f.style.transform = `scale(${box.clientWidth / 703})`; };
+  const fit = () => { f.style.transform = `scale(${box.clientWidth / P.w})`; };
   new ResizeObserver(fit).observe(box);
   return box;
 }
@@ -434,8 +464,15 @@ function buildControls(t) {
     g.append(row); kids.push(g);
   }
   // one-word templates: the word is chosen per page, in each page's header (render)
-  if (t.interactive) kids.push(chipGroup(UI.answerKey, [false, true], state.answerKey, (v) => { state.answerKey = v; buildControls(t); render(); }, (v) => (v ? '✓' : '—')));
-  kids.push(chipGroup(UI.paper, ['letter', 'a4'], state.paper, (v) => { state.paper = v; buildControls(t); render(); }, (v) => UI[v]));
+  // the rarely changed settings sit behind "More options" (ARCHITECTURE §4.1a F3: the first screen stays small)
+  kids.push(el('button', { type: 'button', class: 'mk-more', 'aria-expanded': String(state.more), text: (state.more ? '− ' : '+ ') + UI.moreOptions, on: { click: () => { state.more = !state.more; buildControls(t); } } }));
+  if (state.more) {
+    const more = el('div', { class: 'mk-more-box' });
+    if (t.interactive) more.append(chipGroup(UI.answerKey, [false, true], state.answerKey, (v) => { state.answerKey = v; buildControls(t); render(); }, (v) => (v ? '✓' : '—')));
+    more.append(chipGroup(UI.paper, ['letter', 'a4'], state.paper, (v) => { state.paper = v; buildControls(t); render(); }, (v) => UI[v]));
+    more.append(chipGroup(UI.border, Object.keys(BORDERS), state.border, (v) => { state.border = v; buildControls(t); render(); }, (v) => UI['border_' + v]));
+    kids.push(more);
+  }
   c.replaceChildren(...kids);
   // say once that the page can be tapped — only where this template exposes slots (filled in after the first page)
   // the hint names only what this template lets her tap: pictures/words where it has slots, the title + instruction always

@@ -46,5 +46,12 @@
   "tapHintText": "Cliquez ou appuyez sur le titre ou la consigne pour le modifier.",
   "duplicatePage": "Dupliquer",
   "moveUp": "Monter",
-  "moveDown": "Descendre"
+  "moveDown": "Descendre",
+  "moreOptions": "Plus d’options",
+  "border": "Cadre",
+  "border_none": "Aucun",
+  "border_line": "Trait",
+  "border_dashed": "Tirets",
+  "border_dotted": "Pointillés",
+  "border_double": "Double"
 }

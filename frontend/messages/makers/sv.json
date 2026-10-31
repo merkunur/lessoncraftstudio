@@ -46,5 +46,12 @@
   "tapHintText": "Klicka eller tryck på rubriken eller instruktionen för att ändra den.",
   "duplicatePage": "Duplicera",
   "moveUp": "Flytta upp",
-  "moveDown": "Flytta ned"
+  "moveDown": "Flytta ned",
+  "moreOptions": "Fler alternativ",
+  "border": "Ram",
+  "border_none": "Ingen",
+  "border_line": "Linje",
+  "border_dashed": "Streckad",
+  "border_dotted": "Prickad",
+  "border_double": "Dubbel"
 }

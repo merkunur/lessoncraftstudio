@@ -96,3 +96,8 @@ button { font: inherit; cursor: pointer; }
 .mk-page-tools { display: flex; align-items: center; gap: 4px; margin-left: auto; }
 .mk-icon { min-width: 40px; min-height: 40px; border-radius: 10px; border: 2px solid var(--line); background: var(--paper); font-weight: 800; color: var(--teal); }
 .mk-icon:disabled { opacity: .35; cursor: default; }
+/* the preview is the whole sheet of paper (its aspect ratio and iframe size come from the paper; set inline) */
+.mk-sheet iframe { width: auto; height: auto; }
+/* "More options" */
+.mk-more { min-height: 40px; padding: 6px 12px; border: 0; background: none; color: var(--teal); font-weight: 800; }
+.mk-more-box { flex: 1 1 100%; display: flex; flex-wrap: wrap; gap: 12px 22px; padding-top: 10px; border-top: 1px dashed var(--line); }

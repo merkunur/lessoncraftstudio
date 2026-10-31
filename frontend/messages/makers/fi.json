@@ -46,5 +46,12 @@
   "tapHintText": "Vaihda otsikko tai tehtävänanto napauttamalla tai klikkaamalla sitä.",
   "duplicatePage": "Monista",
   "moveUp": "Siirrä ylös",
-  "moveDown": "Siirrä alas"
+  "moveDown": "Siirrä alas",
+  "moreOptions": "Lisää asetuksia",
+  "border": "Kehys",
+  "border_none": "Ei kehystä",
+  "border_line": "Viiva",
+  "border_dashed": "Katkoviiva",
+  "border_dotted": "Pisteviiva",
+  "border_double": "Kaksoisviiva"
 }

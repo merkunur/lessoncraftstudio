@@ -46,5 +46,12 @@
   "tapHintText": "Toque ou clique no título ou no enunciado para trocá-los.",
   "duplicatePage": "Duplicar",
   "moveUp": "Mover para cima",
-  "moveDown": "Mover para baixo"
+  "moveDown": "Mover para baixo",
+  "moreOptions": "Mais opções",
+  "border": "Moldura",
+  "border_none": "Nenhuma",
+  "border_line": "Linha",
+  "border_dashed": "Tracejada",
+  "border_dotted": "Pontilhada",
+  "border_double": "Dupla"
 }

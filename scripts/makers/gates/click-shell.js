@@ -51,6 +51,23 @@ const puppeteer = require('puppeteer'); const http = require('http'); const { ha
   // back to two pages for the checks below
   await p.evaluate(() => document.querySelectorAll('.mk-page [data-act=remove]')[1].click()); await settle();
   b5 = await pageHtml();
+  // "More options": paper + border (ARCHITECTURE §4.1 decor — drawn in the paper margin, printed)
+  const closed = await p.$$eval('.mk-group', (gs) => gs.map((g) => g.getAttribute('aria-label')));
+  check('More options is closed at first (Paper is not on the first screen)', !closed.includes('Papier'), closed);
+  await p.click('.mk-more'); await settle(300);
+  const opened = await p.$$eval('.mk-group', (gs) => gs.map((g) => g.getAttribute('aria-label')));
+  check('More options shows Paper and Border', opened.includes('Papier') && opened.includes('Rahmen'), opened);
+  const frameW = () => p.$eval('.mk-sheet iframe', (f) => f.style.width);
+  const wA4 = await frameW();
+  await p.evaluate(() => [...document.querySelectorAll('.mk-group')].find((g) => g.getAttribute('aria-label') === 'Rahmen').querySelectorAll('.mk-chip')[3].click()); await settle();
+  const decor = await p.evaluate(() => { const d = document.querySelector('.mk-sheet iframe').contentDocument; const s = d.querySelector('style[data-lcs-decor]'); return s ? getComputedStyle(d.querySelector('.ws-page')).outlineStyle : null; });
+  check('a border is drawn round the page (dotted)', decor === 'dotted', decor);
+  await p.evaluate(() => [...document.querySelectorAll('.mk-group')].find((g) => g.getAttribute('aria-label') === 'Papier').querySelectorAll('.mk-chip')[0].click()); await settle();
+  const wLetter = await frameW();
+  check('paper: the preview is the sheet of paper (A4 794 px wide, US Letter 816 px)', wA4 === '794px' && wLetter === '816px', { wA4, wLetter });
+  await p.click('#mk-print'); await settle(800);
+  const printDecor = await p.evaluate(() => { const f = document.querySelector('#mk-print-host iframe'); return !!(f && f.contentDocument.querySelector('style[data-lcs-decor]')); });
+  check('the border is printed too', printDecor);
   const keyChips = await p.$$eval('.mk-group', (gs) => gs.map((g) => g.getAttribute('aria-label')));
   if (keyChips.includes('Lösungen')) {
     await p.evaluate(() => [...document.querySelectorAll('.mk-group')].find((g) => g.getAttribute('aria-label') === 'Lösungen').querySelectorAll('.mk-chip')[1].click()); await settle();

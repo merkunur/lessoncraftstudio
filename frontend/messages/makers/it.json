@@ -43,5 +43,8 @@
   "save": "Salva",
   "originalText": "Testo originale",
   "textTooLong": "Questo testo non ci sta nella pagina. Accorcialo.",
-  "tapHintText": "Tocca o fai clic sul titolo o sulla consegna per modificarli."
+  "tapHintText": "Tocca o fai clic sul titolo o sulla consegna per modificarli.",
+  "duplicatePage": "Duplica",
+  "moveUp": "Sposta su",
+  "moveDown": "Sposta giù"
 }

@@ -43,5 +43,8 @@
   "save": "Lagre",
   "originalText": "Opprinnelig tekst",
   "textTooLong": "Teksten får ikke plass på siden. Gjør den kortere.",
-  "tapHintText": "Klikk eller trykk på overskriften eller instruksjonen for å endre den."
+  "tapHintText": "Klikk eller trykk på overskriften eller instruksjonen for å endre den.",
+  "duplicatePage": "Dupliser",
+  "moveUp": "Flytt opp",
+  "moveDown": "Flytt ned"
 }

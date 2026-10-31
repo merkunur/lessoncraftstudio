@@ -43,5 +43,8 @@
   "save": "Enregistrer",
   "originalText": "Texte d’origine",
   "textTooLong": "Ce texte ne tient pas sur la page. Raccourcissez-le.",
-  "tapHintText": "Cliquez ou appuyez sur le titre ou la consigne pour le modifier."
+  "tapHintText": "Cliquez ou appuyez sur le titre ou la consigne pour le modifier.",
+  "duplicatePage": "Dupliquer",
+  "moveUp": "Monter",
+  "moveDown": "Descendre"
 }

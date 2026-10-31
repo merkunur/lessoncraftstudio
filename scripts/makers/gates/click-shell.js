@@ -32,10 +32,24 @@ const puppeteer = require('puppeteer'); const http = require('http'); const { ha
   await p.evaluate((w) => { const s = document.querySelectorAll('.mk-page-word select')[1]; s.value = w; s.dispatchEvent(new Event('change', { bubbles: true })); }, other); await settle();
   const b5b = await pageHtml();
   check('changing page 2\'s word changes page 2 only', b5b[0] === b5[0] && b5b[1] !== b5[1] && (await p.$$eval('.mk-page-word select', (ss) => ss[1].value)) === other);
-  await p.evaluate(() => [...document.querySelectorAll('.mk-page .mk-link')][0].click()); await settle();
+  await p.evaluate(() => document.querySelector('.mk-page [data-act=remove]').click()); await settle();
   const after = await p.$$eval('.mk-page-word select', (ss) => ss.map((x) => x.value));
   check('removing page 1 keeps page 2 with its own word', after.length === 1 && after[0] === other, after);
   await p.click('#mk-add'); await settle();
+  b5 = await pageHtml();
+  // duplicate + move (every page's copy, word, swaps and texts move together)
+  const wordsNow = () => p.$$eval('.mk-page-word select', (ss) => ss.map((x) => x.value));
+  const w2 = await wordsNow();
+  await p.evaluate(() => document.querySelectorAll('.mk-page [data-act=duplicate]')[0].click()); await settle();
+  const d1 = await pageHtml(); const w3 = await wordsNow();
+  check('duplicate: page 1 is copied right after it, same page, same word', d1.length === 3 && d1[1] === d1[0] && d1[2] === b5[1] && w3[1] === w3[0] && w3[2] === w2[1], { n: d1.length, w3 });
+  await p.evaluate(() => document.querySelectorAll('.mk-page [data-act=up]')[2].click()); await settle();
+  const m1 = await pageHtml(); const w4 = await wordsNow();
+  check('move up: page 3 and page 2 swap, words with them', m1[1] === d1[2] && m1[2] === d1[1] && w4[1] === w3[2] && w4[2] === w3[1]);
+  const ends = await p.evaluate(() => { const ups = document.querySelectorAll('.mk-page [data-act=up]'); const downs = document.querySelectorAll('.mk-page [data-act=down]'); return ups[0].disabled && downs[downs.length - 1].disabled && !ups[1].disabled; });
+  check('the first page cannot move up and the last cannot move down', ends);
+  // back to two pages for the checks below
+  await p.evaluate(() => document.querySelectorAll('.mk-page [data-act=remove]')[1].click()); await settle();
   b5 = await pageHtml();
   const keyChips = await p.$$eval('.mk-group', (gs) => gs.map((g) => g.getAttribute('aria-label')));
   if (keyChips.includes('Lösungen')) {

@@ -43,5 +43,8 @@
   "save": "Tallenna",
   "originalText": "Alkuperäinen teksti",
   "textTooLong": "Teksti ei mahdu sivulle. Lyhennä sitä.",
-  "tapHintText": "Vaihda otsikko tai tehtävänanto napauttamalla tai klikkaamalla sitä."
+  "tapHintText": "Vaihda otsikko tai tehtävänanto napauttamalla tai klikkaamalla sitä.",
+  "duplicatePage": "Monista",
+  "moveUp": "Siirrä ylös",
+  "moveDown": "Siirrä alas"
 }

@@ -154,6 +154,17 @@ function choose(id, first) {
  * What page i is. Where a new copy changes the page (most templates), the pages are different copies of the same
  * settings. Where it does not (a sight word of the day), the pages are consecutive words from the chosen one.
  */
+/*
+ * A page is four parallel things: its copy (pages), its picture/word swaps (edits), its word (units, one-word templates)
+ * and its title/instruction (texts). They always move together — never touch one array alone.
+ */
+const PAGE_ARRAYS = ['pages', 'edits', 'units', 'texts'];
+const pageOps = {
+  remove(i) { for (const k of PAGE_ARRAYS) state[k].splice(i, 1); },
+  duplicate(i) { for (const k of PAGE_ARRAYS) if (state[k].length > i) state[k].splice(i + 1, 0, JSON.parse(JSON.stringify(state[k][i]))); },
+  move(i, j) { if (j < 0 || j >= state.pages.length) return; for (const k of PAGE_ARRAYS) if (state[k].length > Math.max(i, j)) { const [x] = state[k].splice(i, 1); state[k].splice(j, 0, x); } },
+};
+
 /** The strings of page i: the worksheet's own, with the teacher's title / instruction when she typed one. */
 function pageStrings(i) {
   const base = strings[state.id];
@@ -273,7 +284,15 @@ async function render() {
         for (const u of pageUnits) sel.append(el('option', { value: u.id, selected: u.id === state.units[i], text: u.word }));
         head.append(el('label', { class: 'mk-page-word' }, [el('span', { text: UI.word }), sel]));
       }
-      if (state.pages.length > 1) head.append(el('button', { class: 'mk-link', type: 'button', text: UI.removePage, on: { click: () => { state.pages.splice(i, 1); state.edits.splice(i, 1); state.units.splice(i, 1); state.texts.splice(i, 1); render(); } } }));
+      if (isOpen(state.id)) {
+        const tools = el('span', { class: 'mk-page-tools' });
+        const n = state.pages.length;
+        tools.append(el('button', { class: 'mk-icon', type: 'button', 'data-act': 'up', title: UI.moveUp, 'aria-label': `${UI.moveUp} · ${UI.page} ${i + 1}`, disabled: i === 0, text: '↑', on: { click: () => { pageOps.move(i, i - 1); render(); } } }));
+        tools.append(el('button', { class: 'mk-icon', type: 'button', 'data-act': 'down', title: UI.moveDown, 'aria-label': `${UI.moveDown} · ${UI.page} ${i + 1}`, disabled: i === n - 1, text: '↓', on: { click: () => { pageOps.move(i, i + 1); render(); } } }));
+        tools.append(el('button', { class: 'mk-link', type: 'button', 'data-act': 'duplicate', text: UI.duplicatePage, on: { click: () => { pageOps.duplicate(i); render(); } } }));
+        if (n > 1) tools.append(el('button', { class: 'mk-link', type: 'button', 'data-act': 'remove', text: UI.removePage, on: { click: () => { pageOps.remove(i); render(); } } }));
+        head.append(tools);
+      }
       out.push(el('div', { class: 'mk-page' }, [head, sheet(html, isOpen(state.id) ? i : null)]));
       if (state.answerKey && t.interactive) {
         const key = await makeHtml(i, true);

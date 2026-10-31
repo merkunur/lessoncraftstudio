@@ -43,5 +43,8 @@
   "save": "Opslaan",
   "originalText": "Oorspronkelijke tekst",
   "textTooLong": "Deze tekst past niet op de pagina. Maak hem korter.",
-  "tapHintText": "Klik of tik op de titel of de opdracht om die te veranderen."
+  "tapHintText": "Klik of tik op de titel of de opdracht om die te veranderen.",
+  "duplicatePage": "Dupliceren",
+  "moveUp": "Omhoog",
+  "moveDown": "Omlaag"
 }

@@ -43,5 +43,8 @@
   "save": "Salvar",
   "originalText": "Texto original",
   "textTooLong": "Este texto não cabe na página. Deixe-o mais curto.",
-  "tapHintText": "Toque ou clique no título ou no enunciado para trocá-los."
+  "tapHintText": "Toque ou clique no título ou no enunciado para trocá-los.",
+  "duplicatePage": "Duplicar",
+  "moveUp": "Mover para cima",
+  "moveDown": "Mover para baixo"
 }

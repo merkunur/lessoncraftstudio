@@ -92,3 +92,7 @@ button { font: inherit; cursor: pointer; }
 .mk-text-input { width: 100%; font: inherit; font-weight: 700; font-size: 18px; padding: 10px 12px; border: 2px solid var(--line); border-radius: 12px; resize: vertical; }
 .mk-text-input:focus { outline: 3px solid var(--coral); outline-offset: 1px; }
 .mk-text-actions { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: 12px; }
+/* page tools: up, down, duplicate, remove */
+.mk-page-tools { display: flex; align-items: center; gap: 4px; margin-left: auto; }
+.mk-icon { min-width: 40px; min-height: 40px; border-radius: 10px; border: 2px solid var(--line); background: var(--paper); font-weight: 800; color: var(--teal); }
+.mk-icon:disabled { opacity: .35; cursor: default; }

@@ -67,7 +67,7 @@ const COPIES = Number(arg('copies', '2'));
           const type = await M.loadType(t.id);
           const units = (t.units && t.units[M.LANG]) || [];
           for (const d of t.levels) for (let v = 1; v <= COPIES; v++) {
-            const o = { type, strings: M.strings[t.id], locale: M.LANG, difficulty: d, theme: t.themed ? t.themes[(v - 1) % t.themes.length] : null, unit: units.length ? units[(v - 1) % units.length].id : null, variant: v, answerKey: !!t.interactive, answerKeySuffix: M.tj.answerKey[M.LANG] };
+            const o = { type, strings: M.strings[t.id], locale: M.LANG, difficulty: d, theme: t.themed ? (v === 2 && t.themes.find((x) => /bw(\s+\d+)?$/i.test(x))) || t.themes[(v - 1) % t.themes.length] : null, unit: units.length ? units[(v - 1) % units.length].id : null, variant: v, answerKey: !!t.interactive, answerKeySuffix: M.tj.answerKey[M.LANG] };
             const t0 = performance.now();
             const r = await M.mod.generate(o, M.mount);
             out.push({ id: t.id, d, v, ok: r.ok, attempt: r.ok ? JSON.stringify(r.attempt) : null, fails: r.ok ? null : r.fails.slice(0, 3), ms: performance.now() - t0 });

@@ -46,7 +46,10 @@ function makerTypes(id) {
 function themesFor(spec) {
   if (!spec.themeAxis || !spec.themeAxis.applicable) return [null];
   const man = JSON.parse(fs.readFileSync(path.join(WG, 'cache', 'manifest.json'), 'utf8')).themes;
-  const ok = Object.keys(man).filter((t) => !/bw(\s+\d+)?$/i.test(t) && Object.values(man[t].nouns).filter((n) => n.vocabKey).length >= ((spec.themeAxis && spec.themeAxis.minNouns) || 6));
+  // colour AND black-and-white themes (operator 2026-10-31: the teacher may pick any theme; a page uses one theme, so it
+  // is never a mix); colour first, so the recording and the default theme stay colour
+  const isBw = (t) => /bw(\s+\d+)?$/i.test(t);
+  const ok = Object.keys(man).sort((x, y) => isBw(x) - isBw(y)).filter((t) => Object.values(man[t].nouns).filter((n) => n.vocabKey).length >= ((spec.themeAxis && spec.themeAxis.minNouns) || 6));
   return ok;
 }
 

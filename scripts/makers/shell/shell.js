@@ -184,9 +184,29 @@ function buildControls(t) {
   if (t.levels.length > 1) kids.push(chipGroup(UI.level, t.levels, state.level, (v) => { state.level = v; buildControls(t); render(); }));
   if (t.themed && t.themes.length > 1) {
     const g = el('div', { class: 'mk-group', role: 'group', 'aria-label': UI.pictures }, [el('span', { class: 'mk-label', text: UI.pictures })]);
+    // colour or black-and-white: a switch picks which strip is shown (a page uses one theme, never a mix); inside the
+    // B&W strip the language's own marker ("SW", "MV", …) is dropped from the names — the switch already says it
+    const isBw = (th) => /bw(\s+\d+)?$/i.test(th);
+    const bwOn = isBw(state.theme);
+    const colorThemes = t.themes.filter((th) => !isBw(th)), bwThemes = t.themes.filter(isBw);
+    if (colorThemes.length && bwThemes.length) {
+      const sw = el('div', { class: 'mk-switch', role: 'group' });
+      for (const [on, label] of [[false, UI.color], [true, UI.blackWhite]]) {
+        sw.append(el('button', { type: 'button', class: 'mk-chip', 'aria-pressed': String(on === bwOn), text: label, on: { click: () => {
+          if (on === bwOn) return;
+          // the same subject in the other kind when it exists (animals → animals bw), else the first of that kind
+          const base = state.theme.replace(/\s+bw(\s+\d+)?$/i, '');
+          const pool = on ? bwThemes : colorThemes;
+          state.theme = pool.find((x) => (on ? x.replace(/\s+bw(\s+\d+)?$/i, '') === base : x === base)) || pool[0];
+          buildControls(t); render();
+        } } }));
+      }
+      g.append(sw);
+    }
     const row = el('div', { class: 'mk-themes' });
-    for (const th of t.themes) {
-      const name = (tj.themeNames[LANG] && tj.themeNames[LANG][th]) || th;
+    for (const th of (bwOn ? bwThemes : colorThemes)) {
+      const full = (tj.themeNames[LANG] && tj.themeNames[LANG][th]) || th;
+      const name = isBw(th) ? full.replace(/\s+(BW|SW|BN|ZW|NB|PB|SV|SH|MV)(?=(\s+\d+)?$)/, '') : full;
       row.append(el('button', { type: 'button', class: 'mk-theme', 'aria-pressed': String(th === state.theme), title: name, on: { click: () => { state.theme = th; buildControls(t); render(); } } },
         [el('span', { class: 'mk-theme-pic', style: `background-image:url("${themePicture(th)}")` }), el('span', { class: 'mk-theme-name', text: name })]));
     }

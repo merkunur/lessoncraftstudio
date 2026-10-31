@@ -27,7 +27,7 @@ const el = (tag, attrs = {}, kids = []) => {
 
 let mod, tj, strings, picManifest;
 const typeCache = {};
-const state = { id: null, level: 2, theme: null, unit: null, answerKey: false, paper: LANG === 'en' ? 'letter' : 'a4', pages: [1], edits: [{}] };
+const state = { id: null, level: 2, theme: null, unit: null, answerKey: false, paper: LANG === 'en' ? 'letter' : 'a4', pages: [1], edits: [{}], units: [] };
 
 /*
  * Who may make what (operator ruling 2026-10-31; frontend/lib/quota.ts kind 'make'):
@@ -112,7 +112,17 @@ async function boot() {
   buildGallery(offered);
   // New version is new content: the teacher's picture/word choices belong to the old content and are dropped
   $('mk-new').addEventListener('click', () => { state.pages = state.pages.map(() => nextVariant()); state.edits = state.pages.map(() => ({})); render(); });
-  $('mk-add').addEventListener('click', () => { state.pages.push(nextVariant()); state.edits.push({}); render(); });
+  $('mk-add').addEventListener('click', () => {
+    state.pages.push(nextVariant()); state.edits.push({});
+    const t = tj.templates.find((x) => x.id === state.id);
+    const units = (t.units && t.units[LANG]) || [];
+    if (units.length) {
+      const last = units.findIndex((u) => u.id === state.units[state.units.length - 1]);
+      const next = units.map((_, k) => units[(last + 1 + k) % units.length]).find((u) => !state.units.includes(u.id)) || units[(last + 1) % units.length];
+      state.units.push(next.id);
+    }
+    render();
+  });
   $('mk-print').addEventListener('click', printAll);
 }
 
@@ -134,6 +144,7 @@ function choose(id, first) {
   const units = t.units && t.units[LANG];
   state.unit = units && units.length ? (units.some((u) => u.id === state.unit) ? state.unit : units[0].id) : null;
   if (!first) { state.pages = [state.pages[0] || 1]; state.edits = [{}]; }
+  state.units = state.unit ? state.pages.map((_, i) => (i === 0 ? state.unit : state.units[i] || state.unit)) : [];
   document.querySelectorAll('.mk-card').forEach((c) => c.setAttribute('aria-current', String(c.dataset.id === id)));
   buildControls(t);
   render();
@@ -146,9 +157,9 @@ function choose(id, first) {
 function pageSpec(i) {
   const t = tj.templates.find((x) => x.id === state.id);
   const units = (t.units && t.units[LANG]) || [];
-  if (t.copiesDiffer.includes(state.level) || !units.length) return { variant: state.pages[i], unit: state.unit };
-  const at = Math.max(0, units.findIndex((u) => u.id === state.unit));
-  return { variant: 1, unit: units[(at + i) % units.length].id };
+  if (!units.length) return { variant: state.pages[i], unit: null };
+  // every page has its own word (chosen in its header); a new copy changes the page only where the template allows it
+  return { variant: t.copiesDiffer.includes(state.level) ? state.pages[i] : 1, unit: state.units[i] || units[0].id };
 }
 
 /*
@@ -243,7 +254,13 @@ async function render() {
     try {
       const html = await makeHtml(i, false);
       const head = el('div', { class: 'mk-page-head' }, [el('span', { text: `${UI.page} ${i + 1} ${UI.of} ${state.pages.length}` })]);
-      if (state.pages.length > 1) head.append(el('button', { class: 'mk-link', type: 'button', text: UI.removePage, on: { click: () => { state.pages.splice(i, 1); state.edits.splice(i, 1); render(); } } }));
+      const pageUnits = (t.units && t.units[LANG]) || [];
+      if (isOpen(state.id) && pageUnits.length) {
+        const sel = el('select', { class: 'mk-select', 'aria-label': `${UI.word} · ${UI.page} ${i + 1}`, on: { change: (e) => { state.units[i] = e.target.value; state.edits[i] = {}; if (i === 0) state.unit = e.target.value; render(); } } });
+        for (const u of pageUnits) sel.append(el('option', { value: u.id, selected: u.id === state.units[i], text: u.word }));
+        head.append(el('label', { class: 'mk-page-word' }, [el('span', { text: UI.word }), sel]));
+      }
+      if (state.pages.length > 1) head.append(el('button', { class: 'mk-link', type: 'button', text: UI.removePage, on: { click: () => { state.pages.splice(i, 1); state.edits.splice(i, 1); state.units.splice(i, 1); render(); } } }));
       out.push(el('div', { class: 'mk-page' }, [head, sheet(html, isOpen(state.id) ? i : null)]));
       if (state.answerKey && t.interactive) {
         const key = await makeHtml(i, true);
@@ -352,12 +369,7 @@ function buildControls(t) {
     }
     g.append(row); kids.push(g);
   }
-  const units = t.units && t.units[LANG];
-  if (units && units.length) {
-    const sel = el('select', { class: 'mk-select', 'aria-label': UI.word, on: { change: (e) => { state.unit = e.target.value; render(); } } });
-    for (const u of units) sel.append(el('option', { value: u.id, selected: u.id === state.unit, text: u.word }));
-    kids.push(el('label', { class: 'mk-group' }, [el('span', { class: 'mk-label', text: UI.word }), sel]));
-  }
+  // one-word templates: the word is chosen per page, in each page's header (render)
   if (t.interactive) kids.push(chipGroup(UI.answerKey, [false, true], state.answerKey, (v) => { state.answerKey = v; buildControls(t); render(); }, (v) => (v ? '✓' : '—')));
   kids.push(chipGroup(UI.paper, ['letter', 'a4'], state.paper, (v) => { state.paper = v; buildControls(t); render(); }, (v) => UI[v]));
   c.replaceChildren(...kids);
@@ -365,11 +377,17 @@ function buildControls(t) {
   pageResult(0).then((r) => { if (r.ok && r.slots && Object.keys(r.slots).length && isOpen(t.id) && !c.querySelector('.mk-tap-hint')) c.append(el('p', { class: 'mk-tap-hint', text: UI.tapHint })); });
 }
 
+/** A gallery card names the worksheet TYPE: the slot for one page's word ({UNIT}, with its ': ' or quotes) is dropped. */
+function cardTitle(id) {
+  const raw = (strings[id] && (strings[id].printTitle || strings[id].title)) || id;
+  return raw.replace(/\s*[:–—-]?\s*[«“„‘”']?\{(UNIT|U|L)\}[»”“’']?/g, '').trim();
+}
+
 function buildGallery(offered) {
   const g = $('mk-gallery');
   for (const t of offered) {
     const thumb = el('div', { class: 'mk-thumb' });
-    const card = el('button', { type: 'button', class: 'mk-card', 'data-id': t.id, 'aria-current': String(t.id === state.id), on: { click: () => choose(t.id) } }, [thumb, el('span', { class: 'mk-title', text: (strings[t.id] && (strings[t.id].printTitle || strings[t.id].title)) || t.id })]);
+    const card = el('button', { type: 'button', class: 'mk-card', 'data-id': t.id, 'aria-current': String(t.id === state.id), on: { click: () => choose(t.id) } }, [thumb, el('span', { class: 'mk-title', text: cardTitle(t.id) })]);
     g.append(card);
     // the miniature is made when the card scrolls into view (cheap: the same build, scaled down)
     new IntersectionObserver(async (entries, obs) => {

@@ -25,6 +25,18 @@ const puppeteer = require('puppeteer'); const http = require('http'); const { ha
   else console.log('note  New version hidden at this level (copies are identical)');
   await p.click('#mk-add'); await settle();
   let b5 = await pageHtml(); check('Add page adds a second, different page', b5.length === 2 && b5[0] !== b5[1]);
+  // every page of a one-word template has its OWN word (operator 2026-10-31: added pages could not be changed)
+  const sels = await p.$$eval('.mk-page-word select', (ss) => ss.map((x) => x.value));
+  check('each page has its own word list, page 2 starts on another word', sels.length === 2 && sels[0] !== sels[1], sels);
+  const other = words.find((w) => !sels.includes(w));
+  await p.evaluate((w) => { const s = document.querySelectorAll('.mk-page-word select')[1]; s.value = w; s.dispatchEvent(new Event('change', { bubbles: true })); }, other); await settle();
+  const b5b = await pageHtml();
+  check('changing page 2\'s word changes page 2 only', b5b[0] === b5[0] && b5b[1] !== b5[1] && (await p.$$eval('.mk-page-word select', (ss) => ss[1].value)) === other);
+  await p.evaluate(() => [...document.querySelectorAll('.mk-page .mk-link')][0].click()); await settle();
+  const after = await p.$$eval('.mk-page-word select', (ss) => ss.map((x) => x.value));
+  check('removing page 1 keeps page 2 with its own word', after.length === 1 && after[0] === other, after);
+  await p.click('#mk-add'); await settle();
+  b5 = await pageHtml();
   const keyChips = await p.$$eval('.mk-group', (gs) => gs.map((g) => g.getAttribute('aria-label')));
   if (keyChips.includes('Lösungen')) {
     await p.evaluate(() => [...document.querySelectorAll('.mk-group')].find((g) => g.getAttribute('aria-label') === 'Lösungen').querySelectorAll('.mk-chip')[1].click()); await settle();

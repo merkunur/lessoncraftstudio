@@ -3425,5 +3425,29 @@
   "G2-394": {
     "title": "Taltavla till 1000",
     "instruction": "Några tal gömmer sig. Skriv varje tal som saknas i sin ruta."
+  },
+  "G1-438": {
+    "title": "Den tomma tallinjen",
+    "instruction": "Rita dina hopp på den tomma linjen. Skriv svaret."
+  },
+  "G1-439": {
+    "title": "Först till tiotalet",
+    "instruction": "Hoppa först till jämna tiotalet och sedan resten. Fyll i rutorna."
+  },
+  "G2-395": {
+    "title": "Fyll i tallinjen",
+    "instruction": "Ta reda på hur stora hoppen är med hjälp av talen du ser. Skriv talen som saknas i rutorna."
+  },
+  "G2-396": {
+    "title": "Den stående tallinjen",
+    "instruction": "Skriv talet som varje pil pekar på."
+  },
+  "G3-406": {
+    "title": "Bråk på tallinjen",
+    "instruction": "Varje linje är delad i lika stora delar. Rita en prick där bråket hör hemma."
+  },
+  "K-455": {
+    "title": "Tallinjer till bänken",
+    "instruction": "Klipp ut tallinjerna längs de streckade linjerna."
   }
 }

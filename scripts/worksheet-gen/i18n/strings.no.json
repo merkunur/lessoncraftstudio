@@ -3453,5 +3453,29 @@
   "G2-394": {
     "title": "Tallkart til 1000",
     "instruction": "Noen tall gjemmer seg. Skriv hvert tall som mangler i ruten sin."
+  },
+  "G1-438": {
+    "title": "Den tomme tallinjen",
+    "instruction": "Tegn hoppene dine på den tomme tallinjen. Skriv svaret."
+  },
+  "G1-439": {
+    "title": "Først til hel tier",
+    "instruction": "Hopp først til hel tier og så resten. Fyll ut rutene."
+  },
+  "G2-395": {
+    "title": "Fyll ut tallinjen",
+    "instruction": "Finn ut hvor store hoppene er ut fra tallene du ser. Skriv tallene som mangler i rutene."
+  },
+  "G2-396": {
+    "title": "Den stående tallinjen",
+    "instruction": "Skriv tallet hver pil peker på."
+  },
+  "G3-406": {
+    "title": "Brøk på tallinjen",
+    "instruction": "Hver tallinje er delt i like store deler. Tegn en prikk der brøken hører hjemme."
+  },
+  "K-455": {
+    "title": "Tallinjer til pulten",
+    "instruction": "Klipp ut tallinjene langs de stiplede linjene."
   }
 }

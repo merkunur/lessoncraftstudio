@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-31",
- "count": 858,
+ "count": 864,
  "failures": [],
  "rows": [
   {
@@ -9296,6 +9296,30 @@
    "science": false
   },
   {
+   "id": "K-455",
+   "file": "scripts/worksheet-gen/types/k/K-455-desk-number-line.js",
+   "grade": "K",
+   "slug": "desk-number-line",
+   "family": "number-lines",
+   "variationOf": null,
+   "title": "Desk Number Lines",
+   "instruction": "Cut out the number lines along the dashed lines.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "strips"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/number-line-more.js"
+   ],
+   "teachingPoint": null,
+   "skill": null,
+   "strand": null,
+   "science": false
+  },
+  {
    "id": "G1-101",
    "file": "scripts/worksheet-gen/types/g1/G1-101-picture-addition-5.js",
    "grade": "G1",
@@ -9883,6 +9907,7 @@
     "templates/components.js",
     "lib/number-charts-screen.js",
     "lib/page-fill.js",
+    "lib/slot.js",
     "image-cache/resolve.js"
    ],
    "teachingPoint": "1:skip-counting",
@@ -18529,6 +18554,57 @@
    "science": false
   },
   {
+   "id": "G1-438",
+   "file": "scripts/worksheet-gen/types/g1/G1-438-open-number-line.js",
+   "grade": "G1",
+   "slug": "open-number-line",
+   "family": "number-lines",
+   "variationOf": null,
+   "title": "The Open Number Line",
+   "instruction": "Draw your jumps on the empty line. Write the answer.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "kind"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/number-line-more.js"
+   ],
+   "teachingPoint": "1:open-number-line",
+   "skill": "Add and subtract on an empty number line: the child draws the jumps (tens, then ones; to the ten, then the rest)",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G1-439",
+   "file": "scripts/worksheet-gen/types/g1/G1-439-make-ten-bridge-number-line.js",
+   "grade": "G1",
+   "slug": "make-ten-bridge-number-line",
+   "family": "number-lines",
+   "variationOf": null,
+   "title": "Jump to the Ten First",
+   "instruction": "Jump to the next ten, then jump the rest. Fill in the boxes.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "ops",
+    "within"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/number-line-more.js"
+   ],
+   "teachingPoint": "1:fluency-within-20",
+   "skill": "Add and subtract within 20 mentally (fluency, make-a-ten strategy)",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
    "id": "G2-203",
    "file": "scripts/worksheet-gen/types/g2/G2-203-addition-with-blocks.js",
    "grade": "G23",
@@ -24702,6 +24778,62 @@
    "science": false
   },
   {
+   "id": "G2-395",
+   "file": "scripts/worksheet-gen/types/g2/G2-395-number-line-missing-labels.js",
+   "grade": "G2",
+   "slug": "number-line-missing-labels",
+   "family": "number-lines",
+   "variationOf": null,
+   "title": "Label the Number Line",
+   "instruction": "Find the step from the numbers you see. Write the missing numbers in the boxes.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "lines",
+    "steps",
+    "starts",
+    "printed",
+    "boxes"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/number-line-more.js"
+   ],
+   "teachingPoint": "2:number-line-not-from-zero",
+   "skill": "Locate a number on a number line that starts at 40 or 60 and labels only some ticks",
+   "strand": "Measurement & Data",
+   "science": false
+  },
+  {
+   "id": "G2-396",
+   "file": "scripts/worksheet-gen/types/g2/G2-396-vertical-number-line.js",
+   "grade": "G2",
+   "slug": "vertical-number-line",
+   "family": "number-lines",
+   "variationOf": null,
+   "title": "The Up-and-Down Number Line",
+   "instruction": "Write the number each arrow points to.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cols",
+    "arrows",
+    "max",
+    "tick",
+    "labelEvery"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/number-line-more.js"
+   ],
+   "teachingPoint": "2:number-line-not-from-zero",
+   "skill": "Locate a number on a number line that starts at 40 or 60 and labels only some ticks",
+   "strand": "Measurement & Data",
+   "science": false
+  },
+  {
    "id": "G3-301",
    "file": "scripts/worksheet-gen/types/g3/G3-301-arrays-to-10x10.js",
    "grade": "G23",
@@ -27635,6 +27767,32 @@
    "teachingPoint": "3:times-tables",
    "skill": "Know the multiplication tables 2-10 from memory, deriving unknown facts from neighbours",
    "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G3-406",
+   "file": "scripts/worksheet-gen/types/g3/G3-406-fractions-on-the-number-line.js",
+   "grade": "G3",
+   "slug": "fractions-on-the-number-line",
+   "family": "number-lines",
+   "variationOf": null,
+   "title": "Fractions on the Number Line",
+   "instruction": "Each line is cut into equal parts. Draw a dot where the fraction belongs.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "lines",
+    "dens",
+    "max"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/number-line-more.js"
+   ],
+   "teachingPoint": "3:fraction-number-line",
+   "skill": "Place a fraction on a number line from 0 to 1 by counting equal spaces",
+   "strand": "Fractions",
    "science": false
   }
  ]

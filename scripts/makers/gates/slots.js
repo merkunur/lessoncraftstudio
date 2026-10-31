@@ -68,6 +68,7 @@ for (const d of ['data', 'i18n', 'cache', 'assets']) {
 }
 
 // every maker built so far (out/makers/versions.json)
+const MAKER_LANG = Object.fromEntries(require('../topic-map.js').MAKERS.map((x) => [x.id, x.lang]));
 const MAKERS = Object.keys(JSON.parse(fs.readFileSync(path.join(REPO, 'out/makers/versions.json'), 'utf8')));
 for (const m of MAKERS) {
   const ver = fs.readFileSync(path.join(REPO, 'out/makers', m, 'current.txt'), 'utf8').trim();
@@ -103,7 +104,10 @@ for (const m of MAKERS) {
     const base = makePage({ type, strings, locale: 'en', difficulty: d, theme, unit, variant: 1 });
     const roles = Object.keys(base.slots);
     const decorative = !!(type.themeAxis && type.themeAxis.decorative);
-    if (!roles.length && !NO_SLOT.has(t.id) && !decorative) fail(`${t.id}: draws from a pool but exposes no slot`);
+    // a maker with no word data (topic-map lang 'none': numerals, lines, charts) has no word pool; its template needs a
+    // slot only when it draws pictures as content (a theme that is not mere decoration)
+    const numeralOnly = MAKER_LANG[m] === 'none' && !(type.themeAxis && type.themeAxis.applicable && !decorative);
+    if (!roles.length && !NO_SLOT.has(t.id) && !decorative && !numeralOnly) fail(`${t.id}: draws from a pool but exposes no slot`);
     if (roles.length && NO_SLOT.has(t.id)) fail(`${t.id}: listed as slot-less but exposes ${roles.join(',')}`);
     for (const role of roles) {
       const s = base.slots[role];

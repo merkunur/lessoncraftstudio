@@ -1781,7 +1781,8 @@
         "G1-214",
         "G1-216",
         "G1-217",
-        "G1-428"
+        "G1-428",
+        "G1-439"
       ],
       "verdict": "covered",
       "activities": [
@@ -1814,6 +1815,20 @@
       ],
       "planned": [],
       "note": "Hopper hops forward to add and back to take away; at its rebuild it must keep a within-20 setting so the grade-1 faces stay covered. G1-294 (dot-to-dot counting back from 20) is the backward count sequence, practised in the back hops."
+    },
+    {
+      "tp": "1:open-number-line",
+      "grade": "1",
+      "skill": "Add and subtract on an empty number line: the child draws the jumps (tens, then ones; to the ten, then the rest)",
+      "code": "1.NBT.C.4 / 2.NBT.B.5 / 2.NBT.B.7",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G1-438"
+      ],
+      "verdict": "covered",
+      "activities": [],
+      "planned": [],
+      "note": "Number Lines maker 2026-11-01 (NEW-TEMPLATES 5-T1). Activities gap: none yet."
     },
     {
       "tp": "1:word-problems",
@@ -3745,7 +3760,9 @@
       "strand": "Measurement & Data",
       "worksheets": [
         "G2-305",
-        "G2-310"
+        "G2-310",
+        "G2-395",
+        "G2-396"
       ],
       "verdict": "partial",
       "activities": [
@@ -4634,7 +4651,8 @@
       "code": "3.NF.A.2",
       "strand": "Fractions",
       "worksheets": [
-        "G3-317"
+        "G3-317",
+        "G3-406"
       ],
       "verdict": "gap",
       "activities": [],

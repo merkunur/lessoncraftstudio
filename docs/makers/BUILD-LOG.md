@@ -7,6 +7,28 @@ records what is BUILT, measured and committed, step by step, so any session can 
 
 > 🛑 **NO DEPLOY (operator 2026-10-31):** no worksheet maker goes live until all 60 are built, tested and finalized locally. The pilot trio is a LOCAL pilot (built + reviewed at http://localhost:8490/), not a go-live. Everything is committed; nothing maker-related is deployed. The launch is one release of all 60.
 
+## B1 maker 2: Number Lines (`number-lines`) — 21 templates + 6 new (2026-11-01)
+
+- The 21 existing templates bundled with no engine change (parity 231/231, live 1,386 pages).
+- New templates (NEW-TEMPLATES §5), `types/_shared/number-line-more.js`. All print-only with the shared key layer
+  except the desk strips, which are material:
+  - G1-438 open number line: a printed sum on an EMPTY line. L1 within 20 with a worked card 1; L2 within 100;
+    L3 within 1,000. The key draws one jump path.
+  - G1-439 jump to the ten first: a + [to the ten] + [rest]. L1 has a worked card 1; L2 adds subtraction; L3 is
+    within 100.
+  - G2-395 label the number line: both ends printed and every tick drawn, so the step is unique; no two boxes on
+    neighbouring ticks.
+  - G2-396 vertical number line: by 1s / 2s / 5s.
+  - G3-406 fractions on the number line: cut in the fraction's own denominator; L3 is 0–2.
+  - K-455 desk number lines (L3: five strips of 20 to glue into 0–100 — its own level instruction).
+- One native + pedagogy reviewer: 15 findings, all applied except one. The biggest: "jump to the NEXT ten" sent
+  subtraction the wrong way, in all 11 languages; it is now "the ten". Also: worked models, the box spacing, five
+  fractions at L1, and the glue instruction. Rejected: "desk numerals 7–8 pt" — measured 18 px, about 13 pt on paper.
+- `slots.js`: a template in a maker with no word data (topic-map `lang: 'none'`) needs a slot only when it draws
+  pictures as content. This is a rule, not a growing list of ids.
+- Coverage: new point 1:open-number-line (G1-438); G1-439 → 1:fluency-within-20; G2-395/396 →
+  2:number-line-not-from-zero; G3-406 → 3:fraction-number-line; K-455 is material (no teaching point).
+
 ## B1 maker 1: Number Charts & Counting Sequences (`number-sequences`) — 27 templates + 5 new (2026-11-01)
 
 - The first maker after the pilot. Bundling it needed three engine files made browser-safe, each proven unchanged in

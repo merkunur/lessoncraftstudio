@@ -3449,5 +3449,29 @@
   "G2-394": {
     "title": "Cuadro de números hasta el 1000",
     "instruction": "Algunos números se esconden. Escribe cada número que falta en su casilla."
+  },
+  "G1-438": {
+    "title": "La recta numérica vacía",
+    "instruction": "Dibuja tus saltos en la recta vacía. Escribe el resultado."
+  },
+  "G1-439": {
+    "title": "Primero hasta la decena",
+    "instruction": "Salta primero hasta la decena completa y luego salta lo que falta. Completa los cuadros."
+  },
+  "G2-395": {
+    "title": "Completa la recta numérica",
+    "instruction": "Encuentra de cuánto en cuánto va la recta con los números que ves. Escribe los números que faltan en los cuadros."
+  },
+  "G2-396": {
+    "title": "La recta numérica vertical",
+    "instruction": "Escribe el número que señala cada flecha."
+  },
+  "G3-406": {
+    "title": "Fracciones en la recta numérica",
+    "instruction": "Cada recta está dividida en partes iguales. Dibuja un punto donde va la fracción."
+  },
+  "K-455": {
+    "title": "Rectas numéricas para el pupitre",
+    "instruction": "Recorta las rectas numéricas por las líneas punteadas."
   }
 }

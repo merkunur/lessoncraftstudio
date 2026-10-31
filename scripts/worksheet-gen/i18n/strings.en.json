@@ -3474,5 +3474,29 @@
   "G2-394": {
     "title": "Number Chart to 1,000",
     "instruction": "Some numbers are hiding. Write each missing number in its box."
+  },
+  "G1-438": {
+    "title": "The Open Number Line",
+    "instruction": "Draw your jumps on the empty line. Write the answer."
+  },
+  "G1-439": {
+    "title": "Jump to the Ten First",
+    "instruction": "Jump to the ten first, then jump the rest. Fill in the boxes."
+  },
+  "G2-395": {
+    "title": "Label the Number Line",
+    "instruction": "Use the numbers you see to find what the line counts by. Write the missing numbers in the boxes."
+  },
+  "G2-396": {
+    "title": "The Up-and-Down Number Line",
+    "instruction": "Write the number each arrow points to."
+  },
+  "G3-406": {
+    "title": "Fractions on the Number Line",
+    "instruction": "Each line is cut into equal parts. Draw a dot where the fraction belongs."
+  },
+  "K-455": {
+    "title": "Desk Number Lines",
+    "instruction": "Cut out the number lines along the dashed lines."
   }
 }

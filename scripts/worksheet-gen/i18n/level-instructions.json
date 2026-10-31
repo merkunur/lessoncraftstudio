@@ -3840,5 +3840,20 @@
       "no": "Finn en ny måte å lage 10 på i hver tierrute. Fargelegg noen ruter røde og resten blå. Skriv først det røde tallet, så det blå.",
       "fi": "Keksi jokaiseen kymppiruudukkoon eri tapa tehdä 10. Väritä osa ruuduista punaiseksi ja loput siniseksi. Kirjoita ensin punainen luku, sitten sininen."
     }
+  },
+  "K-455": {
+    "3": {
+      "en": "Cut out the strips. Glue them end to end to make a line from 0 to 100.",
+      "de": "Schneide die Streifen aus. Klebe sie aneinander zu einem Zahlenstrahl bis 100.",
+      "fr": "Découpe les bandes. Colle-les bout à bout pour faire une droite de 0 à 100.",
+      "es": "Recorta las tiras. Pégalas una tras otra para formar una recta del 0 al 100.",
+      "pt": "Recorte as tiras. Cole uma na ponta da outra para formar uma reta de 0 a 100.",
+      "it": "Ritaglia le strisce. Incollale una dopo l’altra per formare una linea da 0 a 100.",
+      "nl": "Knip de stroken uit. Plak ze achter elkaar tot een getallenlijn van 0 tot 100.",
+      "sv": "Klipp ut remsorna. Klistra ihop dem efter varandra till en tallinje från 0 till 100.",
+      "da": "Klip strimlerne ud. Lim dem sammen i forlængelse af hinanden til en tallinje fra 0 til 100.",
+      "no": "Klipp ut stripene. Lim dem sammen etter hverandre til en tallinje fra 0 til 100.",
+      "fi": "Leikkaa suikaleet irti. Liimaa ne peräkkäin, niin saat lukusuoran 0–100."
+    }
   }
 }

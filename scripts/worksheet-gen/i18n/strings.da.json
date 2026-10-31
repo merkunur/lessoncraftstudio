@@ -3444,5 +3444,29 @@
   "G2-394": {
     "title": "Taltavle til 1000",
     "instruction": "Nogle tal gemmer sig. Skriv de manglende tal i de tomme felter."
+  },
+  "G1-438": {
+    "title": "Den tomme tallinje",
+    "instruction": "Tegn dine hop på den tomme tallinje. Skriv svaret."
+  },
+  "G1-439": {
+    "title": "Først til hel tier",
+    "instruction": "Hop først til hel tier og derefter resten. Udfyld felterne."
+  },
+  "G2-395": {
+    "title": "Udfyld tallinjen",
+    "instruction": "Find ud af, hvor store hoppene er, ud fra de tal, du kan se. Skriv de manglende tal i felterne."
+  },
+  "G2-396": {
+    "title": "Den lodrette tallinje",
+    "instruction": "Skriv det tal, hver pil peger på."
+  },
+  "G3-406": {
+    "title": "Brøker på tallinjen",
+    "instruction": "Hver tallinje er delt i lige store dele. Tegn en prik, der hvor brøken hører til."
+  },
+  "K-455": {
+    "title": "Tallinjer til bordet",
+    "instruction": "Klip tallinjerne ud langs de stiplede linjer."
   }
 }

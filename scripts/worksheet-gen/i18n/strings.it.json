@@ -3440,5 +3440,29 @@
   "G2-394": {
     "title": "La tavola dei numeri fino a 1000",
     "instruction": "Alcuni numeri si nascondono. Scrivi ogni numero mancante nel suo riquadro."
+  },
+  "G1-438": {
+    "title": "La linea dei numeri vuota",
+    "instruction": "Disegna i tuoi salti sulla linea vuota. Scrivi il risultato."
+  },
+  "G1-439": {
+    "title": "Prima fino alla decina",
+    "instruction": "Salta prima fino alla decina, poi salta il resto. Completa i riquadri."
+  },
+  "G2-395": {
+    "title": "Completa la linea dei numeri",
+    "instruction": "Guarda i numeri scritti e scopri di quanto si salta. Scrivi i numeri mancanti nei riquadri."
+  },
+  "G2-396": {
+    "title": "La linea dei numeri in verticale",
+    "instruction": "Scrivi il numero indicato da ogni freccia."
+  },
+  "G3-406": {
+    "title": "Le frazioni sulla linea dei numeri",
+    "instruction": "Ogni linea è divisa in parti uguali. Disegna un puntino dove va la frazione."
+  },
+  "K-455": {
+    "title": "Linee dei numeri da banco",
+    "instruction": "Ritaglia le linee dei numeri lungo le linee tratteggiate."
   }
 }

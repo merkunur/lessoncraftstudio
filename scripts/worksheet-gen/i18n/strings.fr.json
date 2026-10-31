@@ -3459,5 +3459,29 @@
   "G2-394": {
     "title": "La grille des nombres jusqu’à 1 000",
     "instruction": "Des nombres se cachent. Écris chaque nombre manquant dans sa case."
+  },
+  "G1-438": {
+    "title": "La droite numérique vide",
+    "instruction": "Dessine tes sauts sur la droite vide. Écris le résultat."
+  },
+  "G1-439": {
+    "title": "D’abord jusqu’à la dizaine",
+    "instruction": "Passe d’abord par la dizaine, puis saute le reste. Complète les cases."
+  },
+  "G2-395": {
+    "title": "Complète la droite graduée",
+    "instruction": "Trouve l’écart entre les graduations grâce aux nombres écrits. Écris les nombres manquants dans les cases."
+  },
+  "G2-396": {
+    "title": "La droite graduée verticale",
+    "instruction": "Écris le nombre que montre chaque flèche."
+  },
+  "G3-406": {
+    "title": "Les fractions sur la droite graduée",
+    "instruction": "Chaque droite est partagée en parts égales. Dessine un point là où se place la fraction."
+  },
+  "K-455": {
+    "title": "Bandes numériques pour la table",
+    "instruction": "Découpe les bandes numériques en suivant les pointillés."
   }
 }

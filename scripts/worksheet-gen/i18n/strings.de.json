@@ -3469,5 +3469,29 @@
   "G2-394": {
     "title": "Zahlentafel im Tausenderraum",
     "instruction": "Einige Zahlen haben sich versteckt. Schreibe jede fehlende Zahl in ihr Kästchen."
+  },
+  "G1-438": {
+    "title": "Der leere Zahlenstrahl",
+    "instruction": "Zeichne deine Sprünge am leeren Zahlenstrahl ein. Schreibe das Ergebnis auf."
+  },
+  "G1-439": {
+    "title": "Erst bis zum Zehner",
+    "instruction": "Springe zuerst bis zum Zehner, dann den Rest. Fülle die Kästchen aus."
+  },
+  "G2-395": {
+    "title": "Den Zahlenstrahl beschriften",
+    "instruction": "Finde die Schrittweite aus den Zahlen, die du siehst. Schreibe die fehlenden Zahlen in die Kästchen."
+  },
+  "G2-396": {
+    "title": "Der senkrechte Zahlenstrahl",
+    "instruction": "Schreibe die Zahl auf, auf die jeder Pfeil zeigt."
+  },
+  "G3-406": {
+    "title": "Brüche am Zahlenstrahl",
+    "instruction": "Jeder Zahlenstrahl ist in gleich große Teile geteilt. Zeichne einen Punkt dort ein, wo der Bruch hingehört."
+  },
+  "K-455": {
+    "title": "Zahlenstrahlen für den Tisch",
+    "instruction": "Schneide die Zahlenstrahlen an den gestrichelten Linien aus."
   }
 }

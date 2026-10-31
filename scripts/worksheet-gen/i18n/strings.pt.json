@@ -3464,5 +3464,29 @@
   "G2-394": {
     "title": "Quadro numérico até 1.000",
     "instruction": "Alguns números estão escondidos. Escreva cada número que falta no seu quadradinho."
+  },
+  "G1-438": {
+    "title": "A reta numérica vazia",
+    "instruction": "Desenhe seus saltos na reta vazia. Escreva o resultado."
+  },
+  "G1-439": {
+    "title": "Primeiro até a dezena",
+    "instruction": "Salte primeiro até a dezena exata e depois salte o resto. Complete os quadradinhos."
+  },
+  "G2-395": {
+    "title": "Complete a reta numérica",
+    "instruction": "Descubra de quanto em quanto a reta pula pelos números que você vê. Escreva os números que faltam nos quadradinhos."
+  },
+  "G2-396": {
+    "title": "A reta numérica vertical",
+    "instruction": "Escreva o número que cada seta mostra."
+  },
+  "G3-406": {
+    "title": "Frações na reta numérica",
+    "instruction": "Cada reta está dividida em partes iguais. Desenhe um ponto onde fica a fração."
+  },
+  "K-455": {
+    "title": "Retas numéricas para a carteira",
+    "instruction": "Recorte as retas numéricas pelas linhas tracejadas."
   }
 }

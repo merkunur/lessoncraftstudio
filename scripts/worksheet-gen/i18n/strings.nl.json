@@ -3458,5 +3458,29 @@
   "G2-394": {
     "title": "Getallenveld tot 1000",
     "instruction": "Sommige getallen zijn verstopt. Schrijf elk ontbrekend getal in zijn vak."
+  },
+  "G1-438": {
+    "title": "De lege getallenlijn",
+    "instruction": "Teken je sprongen op de lege lijn. Schrijf het antwoord op."
+  },
+  "G1-439": {
+    "title": "Eerst naar het tiental",
+    "instruction": "Spring eerst naar het hele tiental en spring dan de rest. Vul de vakjes in."
+  },
+  "G2-395": {
+    "title": "Vul de getallenlijn in",
+    "instruction": "Kijk naar de getallen en zoek uit met welke sprongen de lijn telt. Schrijf de ontbrekende getallen in de vakjes."
+  },
+  "G2-396": {
+    "title": "De staande getallenlijn",
+    "instruction": "Schrijf het getal op waar elke pijl naar wijst."
+  },
+  "G3-406": {
+    "title": "Breuken op de getallenlijn",
+    "instruction": "Elke lijn is in gelijke delen verdeeld. Zet een stip waar de breuk hoort."
+  },
+  "K-455": {
+    "title": "Getallenlijnen voor op je tafel",
+    "instruction": "Knip de getallenlijnen uit langs de stippellijnen."
   }
 }

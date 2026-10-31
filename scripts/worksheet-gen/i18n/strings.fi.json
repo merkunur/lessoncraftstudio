@@ -3435,5 +3435,29 @@
   "G2-394": {
     "title": "Lukutaulu 1000:een asti",
     "instruction": "Osa luvuista piileskelee. Kirjoita jokainen puuttuva luku ruutuunsa."
+  },
+  "G1-438": {
+    "title": "Tyhjä lukusuora",
+    "instruction": "Piirrä hyppysi tyhjälle lukusuoralle. Kirjoita vastaus."
+  },
+  "G1-439": {
+    "title": "Ensin tasakymmeneen",
+    "instruction": "Hyppää ensin tasakymmeneen ja sitten loput. Täytä ruudut."
+  },
+  "G2-395": {
+    "title": "Täydennä lukusuora",
+    "instruction": "Päättele hypyn koko näkyvistä luvuista. Kirjoita puuttuvat luvut ruutuihin."
+  },
+  "G2-396": {
+    "title": "Pystysuora lukusuora",
+    "instruction": "Kirjoita luku, johon kukin nuoli osoittaa."
+  },
+  "G3-406": {
+    "title": "Murtoluvut lukusuoralla",
+    "instruction": "Jokainen lukusuora on jaettu yhtä suuriin osiin. Piirrä piste murtoluvun kohdalle."
+  },
+  "K-455": {
+    "title": "Lukusuorat pulpetille",
+    "instruction": "Leikkaa lukusuorat irti katkoviivoja pitkin."
   }
 }

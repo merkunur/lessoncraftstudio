@@ -7,17 +7,17 @@
   <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=21">
   <style>
     html, body { background: transparent !important; }
-    html, body, #lcs-root { height: 100% !important; }
   </style>
 </head>
 <body>
   <div id="lcs-root"></div>
 
-  <!-- Shell, then the locale-neutral reason-support core, then this activity.
-       NOTE: bump ?v=N on EVERY change to pearl-opinion-page-activity.js / reason-support-core.js (§A.13.42). -->
+  <!-- Shell, then the opinion pages, the reason-sign model, then this activity.
+       NOTE: bump ?v=N on EVERY change to reason-sign-data.js / reason-sign-core.js / pearl-opinion-page-activity.js (§A.13.42). -->
   <script src="/mini-tools/lcs-shell.js?v=9"></script>
-  <script src="/mini-tools/reason-support-core.js?v=1"></script>
-  <script src="/mini-tools/pearl-opinion-page-activity.js?v=7"></script>
+  <script src="/mini-tools/reason-sign-data.js?v=1"></script>
+  <script src="/mini-tools/reason-sign-core.js?v=1"></script>
+  <script src="/mini-tools/pearl-opinion-page-activity.js?v=8"></script>
   <script>
     LCS.mount(PearlOpinionPageActivity, { mount: '#lcs-root' });
   </script>

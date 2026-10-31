@@ -3160,25 +3160,25 @@
     },
     "pearl-opinion-page.back-it-up.ri-2-8": {
       "about": [
-        "Pearl the seal runs the opinion page, and each column makes one clear point — \"Our town should build a new park,\" \"Everyone should wear a helmet when biking\" — so children read the point and tap the card that backs it up with a real reason, like \"Children have nowhere safe to play.\" It's an interactive Grade 2 reading activity that runs right in the browser with no account.",
-        "The big idea is that a reason is not the same as repeating the point. In every round the three cards are one true reason, one restatement that just says the point again in different words (\"Our town really needs a brand-new park\"), and one off-topic card about something else entirely (\"The library closes at five o'clock\"). The child cannot win by matching words — they have to decide which card actually explains WHY the point is a good idea. That is the difference between supporting a claim and merely echoing it.",
-        "It is aligned to Common Core RI.2.8 — describing how reasons support the points an author makes in a text. No timer, no score — just calm, playful practice."
+        "On Pearl's Opinion Page, Pearl the seal has painted her point on a wooden sign lying on the beach — \"Our town should build a new park.\" The child slides a card under the sign, and then a wave rolls up the beach to test it. A real reason becomes a strong post that lifts the sign out of the water.",
+        "The other cards show what they really are only when the wave comes in. A card that says the point again in new words becomes a second copy of the sign, stacked on top and soaked, and a card about something else becomes a post planted beside the sign, holding nothing up. The words they share with the point glow, so the child sees that repeating a point, or naming the same place, is not a reason. After a second try, Pearl puts the word \"because\" between the point and every card, so the child can hear which ones make sense. A speaker button reads the point and the cards aloud.",
+        "Three levels: one sign and three cards; two signs, where each reason must go under the point it backs up; and one sign that needs two reasons to stand level. A \"because\" bridge setting prints the word between the sign and the card from the start. It is aligned to Common Core RI.2.8 — describing how reasons support the points an author makes. No timer, no score."
       ],
       "practices": [
-        "Tell a supporting reason apart from a card that just restates the point",
-        "Spot off-topic cards that talk about something unrelated",
-        "Decide WHY a point is a good idea, not just whether it sounds true",
-        "Build the claim-and-reason thinking that opinion reading and writing depend on"
+        "Telling a reason that supports a point from a sentence that only says the point again",
+        "Spotting a sentence that talks about the same place or thing but gives no reason",
+        "Matching each reason to the specific point it supports when a page makes two points",
+        "Seeing that a point stands stronger on two reasons than on one"
       ],
       "howToPlay": [
-        "Read Pearl's point at the top, like \"Our class should grow a garden.\"",
-        "Read the three cards and tap the one that gives a real reason for the point.",
-        "Not quite? Try again as many times as you like — there is no timer and no score."
+        "Read Pearl's point on the sign.",
+        "Tap the card you think gives a reason WHY, so it slides under the sign (with two signs, tap the card, then the sign).",
+        "Tap Check to send the wave: a sign standing on a real reason stays dry. If it gets wet, look at what the card turned into and try another card."
       ],
       "learningGoals": [
-        "Identify the reason that supports an author's point — the focus of Common Core RI.2.8",
-        "Understand that restating a point is not the same as giving a reason for it",
-        "Build a foundation for reading and writing opinion pieces with real support"
+        "Describe how a reason supports a specific point an author makes (Common Core RI.2.8).",
+        "Understand that restating a point, or mentioning the same topic, does not support it.",
+        "Use \"because\" to test whether a sentence is a reason for a point."
       ]
     },
     "penny-alphabet-trace.letter-formation.l-k-1-a": {

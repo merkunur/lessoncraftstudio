@@ -139,6 +139,10 @@ function seedScript(row) {
     // the invention at work: the snails note posted in the lighthouse — two lamps lit by the two facts, the tip is extra, the beam sweeps
     return "(function(){var t=window['AuthorPurposeActivity'];if(!t||!t.api)return;t.FAST=true;t.OK_MS=600000;t.api.settings.notes='mostly';t.api.settings.machines='three';t._pool=null;t._ensurePool();t._start(t._pool.findIndex(function(n){return n.id==='i5';}));t._render2();t._post('inform');})();";
   }
+  if (row.tool === 'pearl-opinion-page-activity') {
+    // the invention at work: Pearl's park sign standing level on its two reason posts after the tide, dry, the restatement and the off-topic card left in the tray
+    return "(function(){var t=window['PearlOpinionPageActivity'];if(!t||!t.api)return;var C=window.ReasonSignCore;t.FAST=true;t.OK_MS=600000;t.api.settings.level='legs';t.api.settings.bridge='off';t._start(0,0,0);t._render2();t.st.round.cards.filter(function(c){return c.role==='reason';}).forEach(function(c){C.place(t.st,c.id);});t._tide();})();";
+  }
   if (row.tool === 'marina-headline-desk-activity') {
     // the invention at work: the main-topic headline in the slot, the stapler pressed — every strip stapled under it, the front page out
     return "(function(){var t=window['MarinaHeadlineDeskActivity'];if(!t||!t.api)return;t.FAST=true;t.OK_MS=600000;t.api.settings.level='story';t.api.settings.cards='3';t._pool=null;t._ensurePool();t._start(0,0);t._render2();t._choose(t.st.cards.findIndex(function(c){return c.role==='topic';}));t._check();})();";

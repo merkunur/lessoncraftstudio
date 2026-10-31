@@ -4070,6 +4070,29 @@
         "Avgjøre hva hver setning gjør for leseren: gir et faktum, forteller eller sier hva man skal gjøre.",
         "Forstå at formålet med en tekst er det som det meste av teksten gjør, også når én setning er annerledes."
       ]
+    },
+    "pearl-opinion-page.back-it-up.ri-2-8": {
+      "about": [
+        "På Perles meningsside har selen Perle malt meningen sin på et treskilt som ligger på stranda: «Byen vår bør bygge en ny park.» Barnet skyver et kort inn under skiltet, og så ruller en bølge opp på stranda og tester det. En ekte grunn blir en sterk stolpe som løfter skiltet opp av vannet.",
+        "Hva de andre kortene egentlig er, ser du først når bølgen kommer. Et kort som bare sier meningen en gang til med andre ord, blir en kopi av skiltet som legger seg oppå og blir våt, og et kort om noe annet blir en stolpe ved siden av skiltet som ikke holder noe oppe. Ordene de deler med meningen, lyser opp: Å gjenta en mening, eller å nevne det samme stedet, er ingen grunn. Etter andre forsøk setter Perle ordet «for» mellom meningen og hvert kort, så barnet kan høre hvilket som gir mening. En høyttalerknapp leser meningen og kortene høyt.",
+        "Tre nivåer: ett skilt og tre kort; to skilt, der hver grunn skal under den meningen den støtter; og ett skilt som trenger to grunner for å stå rett. Innstillingen «For»-bro viser ordet mellom skiltet og kortet fra starten. Øvelsen bygger på LK20 i norsk om å lese og forstå tekster. Ingen tidtaking og ingen poeng."
+      ],
+      "practices": [
+        "Skille en grunn som støtter en mening, fra en setning som bare gjentar den",
+        "Kjenne igjen en setning som handler om det samme stedet eller emnet, men ikke gir noen grunn",
+        "Koble hver grunn til den meningen den støtter når siden har to meninger",
+        "Se at en mening står sterkere på to grunner enn på én"
+      ],
+      "howToPlay": [
+        "Les Perles mening på skiltet.",
+        "Trykk på kortet som gir en grunn til HVORFOR, så glir det inn under skiltet (med to skilt trykker du først på kortet og så på skiltet).",
+        "Trykk på Sjekk, så kommer bølgen: Et skilt som står på en ekte grunn, holder seg tørt. Blir det vått, se hva kortet ble til, og prøv et annet kort."
+      ],
+      "learningGoals": [
+        "Beskrive hvordan en grunn støtter en bestemt mening i en tekst.",
+        "Forstå at det ikke støtter en mening å gjenta den eller å snakke om det samme emnet.",
+        "Bruke «for» til å teste om en setning er en grunn."
+      ]
     }
   }
 }

@@ -1,0 +1,75 @@
+{
+ "note": "Frozen 2026-10-31 from the shipped #175 manifest: the eight points per kept locale (pt rounds carry their own ids, mapped in order).",
+ "points": {
+  "en": {
+   "park": "Our town should build a new park.",
+   "helmet": "Everyone should wear a helmet when biking.",
+   "read": "Kids should read for twenty minutes each day.",
+   "garden": "Our class should grow a garden.",
+   "water": "Students should bring water bottles to school.",
+   "lights": "We should turn off lights when we leave a room.",
+   "dogs": "Dogs should be walked every day.",
+   "dishes": "Children should help wash the dishes."
+  },
+  "de": {
+   "park": "Unsere Stadt sollte einen neuen Park bauen.",
+   "helmet": "Beim Radfahren sollte man einen Helm tragen.",
+   "read": "Kinder sollten jeden Tag zwanzig Minuten lesen.",
+   "garden": "Unsere Klasse sollte einen Garten anlegen.",
+   "water": "Kinder sollten eine Trinkflasche mit zur Schule bringen.",
+   "lights": "Wir sollten das Licht ausschalten, wenn wir aus dem Zimmer gehen.",
+   "dogs": "Ein Hund sollte jeden Tag Gassi gehen.",
+   "dishes": "Kinder sollten beim Abwaschen helfen."
+  },
+  "fr": {
+   "park": "Notre ville devrait construire un nouveau parc.",
+   "helmet": "On devrait porter un casque à vélo.",
+   "read": "Les enfants devraient lire vingt minutes chaque jour.",
+   "garden": "Notre classe devrait faire un jardin.",
+   "water": "Les élèves devraient apporter une gourde à l’école.",
+   "lights": "On devrait éteindre les lumières quand on quitte une pièce.",
+   "dogs": "Il faut promener son chien chaque jour.",
+   "dishes": "Les enfants devraient aider à laver la vaisselle."
+  },
+  "es": {
+   "park": "Nuestro pueblo debería construir un parque nuevo.",
+   "helmet": "Todos deberían usar casco al andar en bici.",
+   "read": "Los niños deberían leer veinte minutos al día.",
+   "garden": "Nuestra clase debería tener un huerto.",
+   "water": "Los alumnos deberían traer su botella de agua a la escuela.",
+   "lights": "Deberíamos apagar las luces al salir de un cuarto.",
+   "dogs": "Deberíamos pasear al perro todos los días.",
+   "dishes": "Los niños deberían ayudar a lavar los trastes."
+  },
+  "pt": {
+   "park": "A nossa cidade devia construir um parque novo.",
+   "helmet": "Todo mundo deveria usar capacete ao andar de bicicleta.",
+   "read": "As crianças deveriam ler um pouco todo dia.",
+   "garden": "A nossa escola devia plantar uma horta no pátio.",
+   "water": "É melhor beber água do que refrigerante todo dia.",
+   "lights": "Todo mundo deveria apagar as luzes ao sair do quarto.",
+   "dogs": "O cachorro é o melhor animal de estimação para a família.",
+   "dishes": "Todo mundo deveria separar o lixo para reciclar em casa."
+  },
+  "it": {
+   "park": "La nostra città dovrebbe costruire un nuovo parco.",
+   "helmet": "Tutti dovrebbero indossare il casco in bici.",
+   "read": "I bimbi dovrebbero leggere venti minuti al giorno.",
+   "garden": "La nostra classe dovrebbe coltivare un orto.",
+   "water": "Ogni alunno dovrebbe avere una borraccia.",
+   "lights": "Dovremmo spegnere le luci quando usciamo da una stanza.",
+   "dogs": "I cani dovrebbero andare a spasso ogni giorno.",
+   "dishes": "I bambini dovrebbero aiutare a lavare i piatti."
+  },
+  "nl": {
+   "park": "Onze stad zou een nieuw park moeten bouwen.",
+   "helmet": "Op de fiets zou je een helm moeten dragen.",
+   "read": "Kinderen zouden elke dag twintig minuten moeten lezen.",
+   "garden": "Onze klas zou een tuin moeten aanleggen.",
+   "water": "Kinderen zouden een drinkfles mee naar school moeten nemen.",
+   "lights": "We zouden het licht moeten uitdoen als we de kamer uitgaan.",
+   "dogs": "Een hond zou elke dag moeten worden uitgelaten.",
+   "dishes": "Kinderen zouden moeten helpen met de afwas."
+  }
+ }
+}

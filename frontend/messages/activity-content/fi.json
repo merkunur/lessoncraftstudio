@@ -4046,6 +4046,29 @@
         "Päätellä, mitä kukin lause tekee lukijalle: kertoo tiedon, kertoo tarinaa vai neuvoo, mitä tehdä.",
         "Ymmärtää, että tekstin päätarkoitus on se, mitä suurin osa tekstistä tekee, vaikka yksi lause olisi erilainen."
       ]
+    },
+    "pearl-opinion-page.back-it-up.ri-2-8": {
+      "about": [
+        "Helmin mielipidesivulla hylje Helmi on maalannut mielipiteensä puiseen kylttiin, joka makaa rannalla: ”Kaupunkimme pitäisi rakentaa uusi puisto.” Lapsi liu’uttaa kortin kyltin alle, ja sitten aalto vyöryy rantaa ylös testaamaan sitä. Oikeasta perustelusta tulee vahva tolppa, joka nostaa kyltin vedestä.",
+        "Muut kortit näyttävät, mitä ne todella ovat, vasta kun aalto tulee. Kortista, joka vain toistaa mielipiteen toisin sanoin, tulee kyltin kopio, joka asettuu päälle ja kastuu, ja kortista, joka kertoo jostain muusta, tulee tolppa kyltin viereen, eikä se kannattele mitään. Sanat, jotka niillä on yhteisiä mielipiteen kanssa, syttyvät: mielipiteen toistaminen tai saman paikan mainitseminen ei ole perustelu. Toisen yrityksen jälkeen Helmi lisää sanan ”koska” mielipiteen ja jokaisen kortin väliin, jotta lapsi kuulee, mikä on järkevä. Kaiutinpainike lukee mielipiteen ja kortit ääneen.",
+        "Kolme tasoa: yksi kyltti ja kolme korttia; kaksi kylttiä, joissa jokainen perustelu kuuluu sen mielipiteen alle, jota se tukee; ja yksi kyltti, joka tarvitsee kaksi perustelua pysyäkseen suorassa. Asetus ”Koska”-silta näyttää sanan kyltin ja kortin välissä alusta asti. Harjoitus perustuu perusopetuksen opetussuunnitelman tekstien tulkintaan. Ei ajanottoa eikä pisteitä."
+      ],
+      "practices": [
+        "Erottaa mielipidettä tukeva perustelu lauseesta, joka vain toistaa mielipiteen",
+        "Tunnistaa lause, joka kertoo samasta paikasta tai aiheesta mutta ei perustele mitään",
+        "Yhdistää jokainen perustelu siihen mielipiteeseen, jota se tukee, kun sivulla on kaksi mielipidettä",
+        "Huomata, että mielipide seisoo tukevammin kahden perustelun kuin yhden varassa"
+      ],
+      "howToPlay": [
+        "Lue Helmin mielipide kyltistä.",
+        "Napauta korttia, joka kertoo perustelun sille, MIKSI – se liukuu kyltin alle (kun kylttejä on kaksi, napauta ensin korttia ja sitten kylttiä).",
+        "Napauta Tarkista, niin aalto tulee: oikean perustelun varassa seisova kyltti pysyy kuivana. Jos kyltti kastuu, katso, mikä kortista tuli, ja kokeile toista korttia."
+      ],
+      "learningGoals": [
+        "Kuvata, miten perustelu tukee tiettyä mielipidettä tekstissä.",
+        "Ymmärtää, että mielipiteen toistaminen tai samasta aiheesta puhuminen ei tue sitä.",
+        "Käyttää sanaa ”koska” ja testata, onko lause perustelu."
+      ]
     }
   }
 }

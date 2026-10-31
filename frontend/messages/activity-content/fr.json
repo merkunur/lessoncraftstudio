@@ -263,24 +263,25 @@
     },
     "pearl-opinion-page.back-it-up.ri-2-8": {
       "about": [
-        "Pearl le phoque tient la page d'opinion de son journal, et chaque colonne défend un avis : « On devrait porter un casque à vélo. » Votre enfant lit l'avis, puis choisit la carte qui le JUSTIFIE avec une vraie raison — pas la carte qui répète simplement l'avis, ni celle qui parle d'autre chose. Pour trouver la bonne raison, il apprend à repérer le petit mot « parce que » et l'idée nouvelle qui explique le pourquoi de l'avis.",
-        "C'est une manière douce de découvrir comment une raison appuie une affirmation, une compétence de lecture au cœur des programmes officiels de l'école. Le piège est malin : la redite ressemble beaucoup à l'avis, alors l'enfant doit vraiment comprendre la différence entre répéter et justifier. L'activité se joue dans le navigateur, sans minuteur, sans score et sans compte : chacun avance à son rythme et relit l'avis autant de fois qu'il le souhaite."
+        "Sur la page d’opinion de Pearl, Pearl le phoque a peint son avis sur un panneau de bois couché sur la plage : « Notre ville devrait construire un nouveau parc. » L’enfant glisse une carte sous le panneau, puis une vague remonte la plage pour le tester. Une vraie raison devient un poteau solide qui soulève le panneau hors de l’eau.",
+        "Les autres cartes ne montrent ce qu’elles sont vraiment qu’à l’arrivée de la vague. Une carte qui redit l’avis avec d’autres mots devient une deuxième copie du panneau, posée dessus et trempée ; une carte qui parle d’autre chose devient un poteau planté à côté du panneau, qui ne tient rien. Les mots qu’elles partagent avec l’avis s’allument : répéter un avis, ou parler du même lieu, ce n’est pas donner une raison. Après un deuxième essai, Pearl place les mots « parce que » entre l’avis et chaque carte, pour que l’enfant entende celles qui ont du sens. Un bouton haut-parleur lit l’avis et les cartes à voix haute.",
+        "Trois niveaux : un panneau et trois cartes ; deux panneaux, où chaque raison va sous l’avis qu’elle appuie ; et un panneau qui a besoin de deux raisons pour tenir droit. Le réglage « pont parce que » affiche ces mots entre le panneau et la carte dès le début. L’activité s’appuie sur les programmes officiels du cycle 2 : comprendre un texte et justifier un avis. Sans chronomètre, sans score."
       ],
       "practices": [
-        "Lire un avis et chercher la raison qui le justifie",
-        "Reconnaître le mot « parce que » et l'idée nouvelle d'une vraie raison",
-        "Distinguer une raison d'une simple redite de l'avis",
-        "Écarter la carte hors-sujet qui parle d'autre chose",
-        "S'appuyer sur ce que dit l'avis pour bien choisir"
+        "Distinguer une raison qui appuie un avis d’une phrase qui ne fait que le redire",
+        "Repérer une phrase qui parle du même lieu ou du même sujet sans donner de raison",
+        "Associer chaque raison à l’avis précis qu’elle appuie quand la page en donne deux",
+        "Voir qu’un avis tient mieux sur deux raisons que sur une seule"
       ],
       "howToPlay": [
-        "Lis l'avis que Pearl le phoque affiche sur sa page d'opinion.",
-        "Tape la carte qui justifie l'avis avec une vraie raison, pas celle qui le répète ou qui change de sujet."
+        "Lis l’avis de Pearl sur le panneau.",
+        "Touche la carte qui donne une raison POURQUOI : elle glisse sous le panneau (avec deux panneaux, touche la carte, puis le panneau).",
+        "Touche Vérifier pour faire venir la vague : un panneau posé sur une vraie raison reste au sec. S’il est mouillé, regarde ce que la carte est devenue et essaie une autre carte."
       ],
       "learningGoals": [
-        "Votre enfant apprend à reconnaître la raison qui justifie un avis, celle qui explique le pourquoi.",
-        "Votre enfant apprend à distinguer une vraie raison d'une simple répétition de l'avis.",
-        "Votre enfant apprend à écarter les idées hors-sujet et à s'appuyer sur ce que dit l'avis."
+        "Expliquer comment une raison appuie un avis précis dans un texte.",
+        "Comprendre que redire un avis, ou parler du même sujet, ne l’appuie pas.",
+        "Utiliser « parce que » pour vérifier si une phrase est une raison."
       ]
     },
     "picture-story.read.rl-k-1": {

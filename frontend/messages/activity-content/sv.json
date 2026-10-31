@@ -4297,6 +4297,29 @@
         "Avgöra vad varje mening gör för läsaren: ger fakta, berättar eller säger vad man ska göra.",
         "Förstå att en texts syfte är det som största delen av texten gör, även när en mening är annorlunda."
       ]
+    },
+    "pearl-opinion-page.back-it-up.ri-2-8": {
+      "about": [
+        "På Pärlas åsiktssida har sälen Pärla målat sin åsikt på en träskylt som ligger på stranden: ”Vår stad borde bygga en ny park.” Barnet skjuter in ett kort under skylten, och sedan rullar en våg upp på stranden och testar den. Ett riktigt skäl blir en stadig stolpe som lyfter skylten upp ur vattnet.",
+        "Vad de andra korten egentligen är syns först när vågen kommer. Ett kort som bara säger åsikten igen med andra ord blir en kopia av skylten som läggs ovanpå och blir blöt, och ett kort om något annat blir en stolpe bredvid skylten som inte håller upp något. Orden som de delar med åsikten lyser upp: att upprepa en åsikt, eller nämna samma plats, är inget skäl. Efter ett andra försök sätter Pärla ordet ”för” mellan åsikten och varje kort, så att barnet hör vilket som låter rätt. En högtalarknapp läser upp åsikten och korten.",
+        "Tre nivåer: en skylt och tre kort; två skyltar, där varje skäl ska läggas under den åsikt det stöder; och en skylt som behöver två skäl för att stå rakt. Inställningen ”För”-bro visar ordet mellan skylten och kortet redan från början. Övningen bygger på Lgr22:s centrala innehåll i svenska om att läsa och förstå texter. Ingen tidtagning, inga poäng."
+      ],
+      "practices": [
+        "Skilja ett skäl som stöder en åsikt från en mening som bara säger åsikten igen",
+        "Känna igen en mening som handlar om samma plats eller sak men inte ger något skäl",
+        "Para ihop varje skäl med den åsikt det stöder när sidan har två åsikter",
+        "Se att en åsikt står stadigare på två skäl än på ett"
+      ],
+      "howToPlay": [
+        "Läs Pärlas åsikt på skylten.",
+        "Tryck på kortet som ger ett skäl till VARFÖR, så glider det in under skylten (med två skyltar trycker du först på kortet och sedan på skylten).",
+        "Tryck på Kontrollera så kommer vågen: en skylt som står på ett riktigt skäl blir inte blöt. Blir den blöt, titta på vad kortet blev och prova ett annat kort."
+      ],
+      "learningGoals": [
+        "Beskriva hur ett skäl stöder en viss åsikt i en text.",
+        "Förstå att det inte stöder en åsikt att säga den igen eller att prata om samma sak.",
+        "Använda ”för” för att testa om en mening är ett skäl."
+      ]
     }
   }
 }

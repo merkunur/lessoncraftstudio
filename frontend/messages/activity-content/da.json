@@ -4047,6 +4047,29 @@
         "Afgøre, hvad hver sætning gør for læseren: giver en kendsgerning, fortæller eller siger, hvad man skal gøre.",
         "Forstå, at en teksts formål er det, som det meste af teksten gør, også når én sætning er anderledes."
       ]
+    },
+    "pearl-opinion-page.back-it-up.ri-2-8": {
+      "about": [
+        "På Perles meningsside har sælen Perle malet sin mening på et træskilt, der ligger på stranden: »Vores by bør bygge en ny park.« Barnet skubber et kort ind under skiltet, og så ruller en bølge op ad stranden og tester det. En rigtig grund bliver en stærk stolpe, der løfter skiltet op af vandet.",
+        "Hvad de andre kort i virkeligheden er, ses først, når bølgen kommer. Et kort, der bare siger meningen igen med andre ord, bliver en kopi af skiltet, der lægger sig ovenpå og bliver våd, og et kort om noget andet bliver en stolpe ved siden af skiltet, som ikke holder noget oppe. De ord, de deler med meningen, lyser op: At gentage en mening, eller at nævne det samme sted, er ikke en grund. Efter andet forsøg sætter Perle ordet »for« mellem meningen og hvert kort, så barnet kan høre, hvilket der giver mening. En højttalerknap læser meningen og kortene højt.",
+        "Tre niveauer: ét skilt og tre kort; to skilte, hvor hver grund skal ind under den mening, den støtter; og ét skilt, der skal have to grunde for at stå lige. Indstillingen »For«-bro viser ordet mellem skiltet og kortet fra starten. Øvelsen bygger på Fælles Mål for dansk om at læse og forstå tekster. Ingen tidtagning og ingen point."
+      ],
+      "practices": [
+        "Skelne en grund, der støtter en mening, fra en sætning, der bare gentager den",
+        "Genkende en sætning, der handler om det samme sted eller emne, men ikke giver en grund",
+        "Sætte hver grund sammen med den mening, den støtter, når siden har to meninger",
+        "Se, at en mening står stærkere på to grunde end på én"
+      ],
+      "howToPlay": [
+        "Læs Perles mening på skiltet.",
+        "Tryk på det kort, der giver en grund til HVORFOR, så glider det ind under skiltet (med to skilte trykker du først på kortet og så på skiltet).",
+        "Tryk på Tjek, så kommer bølgen: Et skilt, der står på en rigtig grund, holder sig tørt. Holder det sig ikke tørt, så se, hvad kortet blev til, og prøv et andet kort."
+      ],
+      "learningGoals": [
+        "Beskrive, hvordan en grund støtter en bestemt mening i en tekst.",
+        "Forstå, at det ikke støtter en mening at gentage den eller at tale om det samme emne.",
+        "Bruge »for« til at teste, om en sætning er en grund."
+      ]
     }
   }
 }

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, follow">
+<title>Worksheet maker</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="shell.css">
+</head>
+<body>
+<header class="mk-top">
+  <h1 class="mk-name" id="mk-name"></h1>
+  <div class="mk-actions">
+    <button type="button" id="mk-new" class="mk-btn"></button>
+    <button type="button" id="mk-add" class="mk-btn"></button>
+    <button type="button" id="mk-print" class="mk-btn mk-primary"></button>
+  </div>
+</header>
+<main class="mk-main">
+  <nav class="mk-gallery" id="mk-gallery" aria-label=""></nav>
+  <section class="mk-work">
+    <div class="mk-controls" id="mk-controls"></div>
+    <div class="mk-pages" id="mk-pages"></div>
+  </section>
+</main>
+<div id="mk-print-host" aria-hidden="true"></div>
+<script src="ui-strings.js"></script>
+<script type="module" src="shell.js"></script>
+</body>
+</html>

@@ -89,8 +89,22 @@ function record(types) {
       current = null;
       if (!ok) continue;
       entry.locales.push(loc);
+      // a template's own axis (the sight word of the page …): the values a teacher may pick, per locale
+      if (spec.unitAxis && spec.unitAxis.applicable) {
+        const { unitTokens } = require(path.join(WG, 'lib', 'unit-axis.js'));
+        (entry.units = entry.units || {})[loc] = (spec.unitAxis.units(loc) || []).map((id) => ({ id, word: String(unitTokens(spec, id, loc).UNIT) }));
+      }
       (strings[loc] = strings[loc] || {})[spec.id] = { title: s.title, instruction: s.instruction, ...(s.printTitle ? { printTitle: s.printTitle } : {}) };
     }
+    // does a new copy (seed) change the page? Some templates are fixed by their settings (a sight word of the day is
+    // the same page every time) — there "New version" would do nothing, so the screen must not offer it (measured, not
+    // assumed: three copies at every level, in English)
+    try {
+      const enS = resolveStrings(spec.id, 'en', spec);
+      const th0 = themes[0];
+      const u0 = spec.unitAxis && spec.unitAxis.applicable ? (spec.unitAxis.units('en') || [])[0] : null;
+      entry.copiesDiffer = entry.levels.filter((d) => new Set([1, 2, 3].map((v) => makePage({ type: spec, strings: enS, locale: 'en', difficulty: d, theme: th0, unit: u0, variant: v }).html)).size > 1);
+    } catch (e) { entry.copiesDiffer = entry.levels.slice(); }
     // only themes this template can actually build (some need a black-and-white sibling, enough nouns, …): a theme
     // that throws is never offered
     entry.themes = entry.themed ? themes.filter((th) => {
@@ -160,7 +174,16 @@ async function main() {
     const dir = path.join(OUT, id, version);
     fs.rmSync(dir, { recursive: true, force: true });
     fs.renameSync(tmp, dir);
-    fs.writeFileSync(path.join(dir, 'templates.json'), JSON.stringify({ maker: id, version, answerKey: ANSWER_KEY, templates: rec.templates }, null, 1));
+    // theme names per locale, from the topic taxonomy (all 100 picture themes have an entry in all 11 languages)
+    const tax = JSON.parse(fs.readFileSync(path.join(REPO, 'frontend', 'config', 'topics-taxonomy.json'), 'utf8')).axes.theme;
+    const norm = (s) => s.toLowerCase().replace(/[\s-]+/g, '_');
+    const themeNames = {};
+    for (const th of new Set(rec.templates.flatMap((t) => t.themes))) {
+      const k = Object.keys(tax).find((x) => norm(x) === norm(th));
+      if (!k) throw new Error('theme without a taxonomy name: ' + th);
+      for (const loc of LOCALES) (themeNames[loc] = themeNames[loc] || {})[th] = tax[k].name[loc];
+    }
+    fs.writeFileSync(path.join(dir, 'templates.json'), JSON.stringify({ maker: id, version, answerKey: ANSWER_KEY, themeNames, templates: rec.templates }, null, 1));
     fs.writeFileSync(path.join(dir, 'data-manifest.json'), JSON.stringify(rec.manifest, null, 1));
     for (const [loc, s] of Object.entries(rec.strings)) fs.writeFileSync(path.join(dir, 'strings.' + loc + '.json'), JSON.stringify(s));
     rec.manifest.files.forEach((f) => allData.add(f));

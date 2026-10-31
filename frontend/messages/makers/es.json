@@ -64,5 +64,6 @@
   "ink_green": "Verde",
   "ink_orange": "Naranja",
   "maxPages": "Una hoja de trabajo puede tener hasta {n} páginas.",
-  "morePagesPlan": "Para agregar páginas necesitas una suscripción."
+  "morePagesPlan": "Para agregar páginas necesitas una suscripción.",
+  "pageNumbers": "Números de página"
 }

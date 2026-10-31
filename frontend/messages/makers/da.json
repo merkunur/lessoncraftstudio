@@ -64,5 +64,6 @@
   "ink_green": "Grøn",
   "ink_orange": "Orange",
   "maxPages": "Et arbejdsark kan have op til {n} sider.",
-  "morePagesPlan": "Med et abonnement kan du tilføje sider."
+  "morePagesPlan": "Med et abonnement kan du tilføje sider.",
+  "pageNumbers": "Sidetal"
 }

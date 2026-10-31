@@ -64,5 +64,6 @@
   "ink_green": "Grün",
   "ink_orange": "Orange",
   "maxPages": "Ein Arbeitsblatt kann bis zu {n} Seiten haben.",
-  "morePagesPlan": "Mit einem Abo können Sie Seiten hinzufügen."
+  "morePagesPlan": "Mit einem Abo können Sie Seiten hinzufügen.",
+  "pageNumbers": "Seitenzahlen"
 }

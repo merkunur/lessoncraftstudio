@@ -64,5 +64,6 @@
   "ink_green": "Vihreä",
   "ink_orange": "Oranssi",
   "maxPages": "Monisteessa voi olla enintään {n} sivua.",
-  "morePagesPlan": "Sivuja voi lisätä tilauksella."
+  "morePagesPlan": "Sivuja voi lisätä tilauksella.",
+  "pageNumbers": "Sivunumerot"
 }

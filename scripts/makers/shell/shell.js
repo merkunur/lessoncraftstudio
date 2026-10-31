@@ -27,7 +27,7 @@ const el = (tag, attrs = {}, kids = []) => {
 
 let mod, tj, strings, picManifest;
 const typeCache = {};
-const state = { id: null, level: 2, theme: null, unit: null, answerKey: false, paper: LANG === 'en' ? 'letter' : 'a4', pages: [1], edits: [{}], units: [], texts: [{}], ink: [], border: 'none', more: false };
+const state = { id: null, level: 2, theme: null, unit: null, answerKey: false, paper: LANG === 'en' ? 'letter' : 'a4', pages: [1], edits: [{}], units: [], texts: [{}], ink: [], border: 'none', pageNumbers: false, more: false };
 
 /*
  * Who may make what (operator ruling 2026-10-31; frontend/lib/quota.ts kind 'make'):
@@ -269,10 +269,22 @@ function withInk(html, i, always) {
   return html.replace(tag, tag + INK_SVG_OPEN + strokes.map(inkPathHtml).join('') + '</svg>');
 }
 
+/*
+ * Page numbers ("2 / 3", the same in every language): in the footer row, after the attribution, in the footer's own
+ * small type — it takes no height, so the page's layout and its gates are unchanged. Worksheet pages only, not keys.
+ */
+function withPageNumber(html, i) {
+  if (!state.pageNumbers) return html;
+  const tag = '<footer class="ws-foot">';
+  const at = html.lastIndexOf('</footer>');
+  if (!html.includes(tag) || at < 0) return html;
+  return html.slice(0, at) + `<span class="ws-foot-num" data-lcs-page-number style="font-weight:800;color:#3A3530">${i + 1} / ${state.pages.length}</span>` + html.slice(at);
+}
+
 async function makeHtml(i, key) {
   const r = await pageResult(i);
   if (!r.ok) { const e = new Error('refused'); e.fails = r.fails; throw e; }
-  return withBorder(key ? r.keyHtml : withInk(r.html, i, drawingPage === i));
+  return withBorder(key ? r.keyHtml : withPageNumber(withInk(r.html, i, drawingPage === i), i));
 }
 
 /** Drawing on page i's preview: the svg takes the pointer (mouse, pen, finger); each stroke is kept on lift. */
@@ -563,6 +575,7 @@ function buildControls(t) {
     const more = el('div', { class: 'mk-more-box' });
     if (t.interactive) more.append(chipGroup(UI.answerKey, [false, true], state.answerKey, (v) => { state.answerKey = v; buildControls(t); render(); }, (v) => (v ? '✓' : '—')));
     more.append(chipGroup(UI.paper, ['letter', 'a4'], state.paper, (v) => { state.paper = v; buildControls(t); render(); }, (v) => UI[v]));
+    more.append(chipGroup(UI.pageNumbers, [false, true], state.pageNumbers, (v) => { state.pageNumbers = v; buildControls(t); render(); }, (v) => (v ? '✓' : '—')));
     more.append(chipGroup(UI.border, Object.keys(BORDERS), state.border, (v) => { state.border = v; buildControls(t); render(); }, (v) => UI['border_' + v]));
     kids.push(more);
   }

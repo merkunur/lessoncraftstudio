@@ -106,6 +106,21 @@ const puppeteer = require('puppeteer'); const http = require('http'); const { ha
   await p.click('#mk-print'); await settle(800);
   const printDecor = await p.evaluate(() => { const f = document.querySelector('#mk-print-host iframe'); return !!(f && f.contentDocument.querySelector('style[data-lcs-decor]')); });
   check('the border is printed too', printDecor);
+  // page numbers: off at first; on → "1 / 2", "2 / 2" in the footer, renumbered after a move, printed
+  const nums = async () => (await pageHtml()).map((h) => ((h.match(/data-lcs-page-number[^>]*>([^<]*)</) || [])[1] || null));
+  const off = await nums();
+  const footOff = await p.evaluate((() => { const d = document.querySelector('.mk-sheet iframe').contentDocument; return d.querySelector('.ws-foot').getBoundingClientRect().height; }));
+  await p.evaluate(() => [...document.querySelectorAll('.mk-group')].find((g) => g.getAttribute('aria-label') === 'Seitenzahlen').querySelectorAll('.mk-chip')[1].click()); await settle();
+  const on = await nums();
+  check('page numbers: off at first, then 1 / 2 and 2 / 2 in the footer', off.every((x) => x === null) && JSON.stringify(on) === JSON.stringify(['1 / 2', '2 / 2']), { off, on });
+  const firstBefore = (await pageHtml())[0].replace(/data-lcs-page-number[^>]*>[^<]*</, '');
+  await p.evaluate(() => document.querySelectorAll('.mk-page [data-act=down]')[0].click()); await settle();
+  const moved = await pageHtml();
+  check('page numbers: after a move the pages are renumbered, not carried', JSON.stringify(await nums()) === JSON.stringify(['1 / 2', '2 / 2']) && moved[1].replace(/data-lcs-page-number[^>]*>[^<]*</, '') === firstBefore);
+  const footH = await p.evaluate(() => { const d = document.querySelector('.mk-sheet iframe').contentDocument; return d.querySelector('.ws-foot').getBoundingClientRect().height; });
+  check('page numbers: the footer keeps its height (' + footH.toFixed(1) + ' px)', Math.abs(footH - footOff) < 0.5, { footOff, footH });
+  await p.click('#mk-print'); await settle(800);
+  check('page numbers are printed', await p.evaluate(() => (document.querySelector('#mk-print-host iframe').getAttribute('srcdoc').match(/data-lcs-page-number/g) || []).length === 2));
   const keyChips = await p.$$eval('.mk-group', (gs) => gs.map((g) => g.getAttribute('aria-label')));
   if (keyChips.includes('Lösungen')) {
     await p.evaluate(() => [...document.querySelectorAll('.mk-group')].find((g) => g.getAttribute('aria-label') === 'Lösungen').querySelectorAll('.mk-chip')[1].click()); await settle();

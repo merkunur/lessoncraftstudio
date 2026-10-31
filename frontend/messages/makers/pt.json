@@ -64,5 +64,6 @@
   "ink_green": "Verde",
   "ink_orange": "Laranja",
   "maxPages": "Uma atividade pode ter até {n} páginas.",
-  "morePagesPlan": "Para adicionar páginas, é preciso ter uma assinatura."
+  "morePagesPlan": "Para adicionar páginas, é preciso ter uma assinatura.",
+  "pageNumbers": "Números de página"
 }

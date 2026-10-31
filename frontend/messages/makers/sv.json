@@ -64,5 +64,6 @@
   "ink_green": "Grön",
   "ink_orange": "Orange",
   "maxPages": "Ett arbetsblad kan ha upp till {n} sidor.",
-  "morePagesPlan": "Med ett abonnemang kan du lägga till sidor."
+  "morePagesPlan": "Med ett abonnemang kan du lägga till sidor.",
+  "pageNumbers": "Sidnummer"
 }

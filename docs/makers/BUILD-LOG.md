@@ -3,7 +3,9 @@
 The design is in this folder (ARCHITECTURE, ENGINES, ENGINES-ART, NEW-TEMPLATES, REVIEW-F3, OPEN-DECISIONS). This log
 records what is BUILT, measured and committed, step by step, so any session can resume. Order: ARCHITECTURE §14.
 
-**NEXT:** P3 — real outputs (PDF/PNG/play link, iPad test link, spikes S1–S3/S5), then P4 accounts/recipes/sharing, P5 deploy wiring, P6 thumbnails, pilot go-live.
+**NEXT:** P3 — real outputs (PDF/PNG/play link, iPad test link, spikes S1–S3/S5), then P4 accounts/recipes/sharing, P5 deploy wiring, P6 thumbnails; then build ALL 60 makers locally.
+
+> 🛑 **NO DEPLOY (operator 2026-10-31):** no worksheet maker goes live until all 60 are built, tested and finalized locally. The pilot trio is a LOCAL pilot (built + reviewed at http://localhost:8490/), not a go-live. Everything is committed; nothing maker-related is deployed. The launch is one release of all 60.
 
 ## P2 (part 3) — the rest of the maker screen (2026-10-31, commits `3b2102860` → `e21e04a95`)
 

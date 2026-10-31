@@ -52,7 +52,7 @@ const { handler } = require('../serve.js');
 
   const before = await cards(p);
   const hint = await p.evaluate(() => (document.querySelector('.mk-tap-hint') || {}).textContent || null);
-  check('K-002: every card is a tap target and the hint is shown', before.length === 6 && /Click or tap a picture or word/.test(hint || ''), { n: before.length, hint });
+  check('K-002: every card is a tap target and the hint is shown', before.length === 6 && /Click or tap a picture/.test(hint || ''), { n: before.length, hint });
 
   await clickSlot(p, 'pic.0'); await settle(500);
   const picker = await p.evaluate(() => {
@@ -94,6 +94,26 @@ const { handler } = require('../serve.js');
   await clickSlot(p, 'pic.1'); await settle(500);
   const tileGuard = await p.evaluate(() => { const im = document.querySelector('#mk-picker img'); const cm = new MouseEvent('contextmenu', { bubbles: true, cancelable: true }); im.dispatchEvent(cm); document.getElementById('mk-picker').close(); return cm.defaultPrevented && im.draggable === false; });
   check('picker: right-click and drag on a tile are cancelled', tileGuard);
+
+  // the title and the instruction (ARCHITECTURE §4.4): edit, refuse what does not fit, restore the original
+  const titleOf = () => p.evaluate(() => document.querySelector('.mk-sheet iframe').contentDocument.querySelector('[data-lcs-title]').textContent.trim());
+  const instrOf = () => p.evaluate(() => document.querySelector('.mk-sheet iframe').contentDocument.querySelector('[data-lcs-instruction]').textContent.trim());
+  const t0 = await titleOf();
+  const openText = (sel) => p.evaluate((sel) => document.querySelector('.mk-sheet iframe').contentDocument.querySelector(sel).dispatchEvent(new MouseEvent('click', { bubbles: true })), sel);
+  await openText('[data-lcs-title]'); await settle(400);
+  const ed = await p.evaluate(() => { const i = document.querySelector('#mk-picker .mk-text-input'); return { open: document.getElementById('mk-picker').open, value: i && i.value }; });
+  check('title: tapping it opens the editor with the current title', ed.open && ed.value === t0, ed);
+  await p.evaluate(() => { const i = document.querySelector('#mk-picker .mk-text-input'); i.value = 'Count the Animals'; document.querySelector('#mk-picker .mk-primary').click(); }); await settle(1200);
+  check('title: the new title is on the page', (await titleOf()) === 'Count the Animals', await titleOf());
+  const i0 = await instrOf();
+  await openText('[data-lcs-instruction]'); await settle(400);
+  await p.evaluate(() => { const i = document.querySelector('#mk-picker .mk-text-input'); i.value = 'Count every picture in every box very carefully. '.repeat(7); /* ~400 characters, past the box's own cap: the gate must refuse it */ document.querySelector('#mk-picker .mk-primary').click(); }); await settle(1500);
+  const refused = await p.evaluate(() => ({ open: document.getElementById('mk-picker').open, note: (document.getElementById('mk-pick-note') || {}).textContent || '' }));
+  check('instruction: a text that runs past three lines is refused with the sentence, the page unchanged', refused.open && /does not fit/.test(refused.note) && (await instrOf()) === i0, { refused, now: await instrOf() });
+  await p.evaluate(() => document.getElementById('mk-picker').close());
+  await openText('[data-lcs-title]'); await settle(400);
+  await p.evaluate(() => document.querySelector('#mk-picker .mk-text-actions .mk-link').click()); await settle(1200);
+  check('title: "Original text" restores the worksheet\'s own title', (await titleOf()) === t0, await titleOf());
 
   // New version is new content: the choice is dropped
   await p.click('#mk-new'); await settle(1200);

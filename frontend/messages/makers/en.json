@@ -1,5 +1,5 @@
 {
-  "tapHint": "Click or tap a picture or word on the page to replace it.",
+  "tapHint": "Click or tap a picture, a word, the title or the instruction to change it.",
   "choosePicture": "Choose a picture",
   "chooseWord": "Choose a word",
   "close": "Close",
@@ -37,5 +37,11 @@
     "ten-frames": "Ten Frames and Tally Marks",
     "counting": "Counting",
     "sight-words": "Sight Words"
-  }
+  },
+  "editTitle": "Edit the title",
+  "editInstruction": "Edit the instruction",
+  "save": "Save",
+  "originalText": "Original text",
+  "textTooLong": "This text does not fit on the page. Make it shorter.",
+  "tapHintText": "Click or tap the title or the instruction to change it."
 }

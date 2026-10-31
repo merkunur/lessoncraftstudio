@@ -1,5 +1,5 @@
 {
-  "tapHint": "Klicka eller tryck på en bild eller ett ord på sidan för att byta ut det.",
+  "tapHint": "Klicka eller tryck på en bild, ett ord, rubriken eller instruktionen för att ändra den.",
   "choosePicture": "Välj en bild",
   "chooseWord": "Välj ett ord",
   "close": "Stäng",
@@ -37,5 +37,11 @@
     "ten-frames": "Tiorutor och streck",
     "counting": "Räkna",
     "sight-words": "Högfrekventa ord"
-  }
+  },
+  "editTitle": "Ändra rubriken",
+  "editInstruction": "Ändra instruktionen",
+  "save": "Spara",
+  "originalText": "Ursprunglig text",
+  "textTooLong": "Texten får inte plats på sidan. Gör den kortare.",
+  "tapHintText": "Klicka eller tryck på rubriken eller instruktionen för att ändra den."
 }

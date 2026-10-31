@@ -63,7 +63,17 @@ function makePage(o) {
 async function gatePage(type, page, { key = false } = {}) {
   const lints = await runLints(page, { gradeBand: type.gradeBand });
   if (key) return lints.filter((l) => /footer overlap|exceeds page box/.test(l)).map((l) => 'answer key: ' + l);
-  return lints.concat(type.verify ? await type.verify(page) : []);
+  // a title or instruction a teacher typed may not run past three lines (ARCHITECTURE §4.4) — measured, not counted in
+  // characters: the page's own fonts and width decide
+  const lines = await page.evaluate(() => {
+    // the rendered lines themselves (one client rect per line box), not height / line-height: 'normal' line height is a guess
+    const count = (el) => { if (!el) return 0; const r = document.createRange(); r.selectNodeContents(el); return new Set([...r.getClientRects()].filter((x) => x.width > 0).map((x) => Math.round(x.top))).size; };
+    return { title: count(document.querySelector('[data-lcs-title]')), instruction: count(document.querySelector('[data-lcs-instruction]')) };
+  });
+  const textFails = [];
+  if (lines.title > 3) textFails.push(`title runs to ${lines.title} lines (3 at most)`);
+  if (lines.instruction > 3) textFails.push(`instruction runs to ${lines.instruction} lines (3 at most)`);
+  return lints.concat(textFails, type.verify ? await type.verify(page) : []);
 }
 
 /** Fresh-seed retries after the type's own knobs (ARCHITECTURE §6.2 step 1). */

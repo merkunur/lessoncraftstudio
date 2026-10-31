@@ -1,5 +1,5 @@
 {
-  "tapHint": "Vaihda kuva tai sana napauttamalla tai klikkaamalla sitä sivulla.",
+  "tapHint": "Vaihda kuva, sana, otsikko tai tehtävänanto napauttamalla tai klikkaamalla sitä.",
   "choosePicture": "Valitse kuva",
   "chooseWord": "Valitse sana",
   "close": "Sulje",
@@ -37,5 +37,11 @@
     "ten-frames": "Kymppiruudukot ja tukkimiehen kirjanpito",
     "counting": "Laskeminen",
     "sight-words": "Yleisimmät sanat"
-  }
+  },
+  "editTitle": "Muokkaa otsikkoa",
+  "editInstruction": "Muokkaa tehtävänantoa",
+  "save": "Tallenna",
+  "originalText": "Alkuperäinen teksti",
+  "textTooLong": "Teksti ei mahdu sivulle. Lyhennä sitä.",
+  "tapHintText": "Vaihda otsikko tai tehtävänanto napauttamalla tai klikkaamalla sitä."
 }

@@ -1,5 +1,5 @@
 {
-  "tapHint": "Klik of tik op een plaatje of woord op de pagina om het te vervangen.",
+  "tapHint": "Klik of tik op een plaatje, een woord, de titel of de opdracht om die te veranderen.",
   "choosePicture": "Kies een plaatje",
   "chooseWord": "Kies een woord",
   "close": "Sluiten",
@@ -37,5 +37,11 @@
     "ten-frames": "Tienvakken en turven",
     "counting": "Tellen",
     "sight-words": "Flitswoorden"
-  }
+  },
+  "editTitle": "Titel aanpassen",
+  "editInstruction": "Opdracht aanpassen",
+  "save": "Opslaan",
+  "originalText": "Oorspronkelijke tekst",
+  "textTooLong": "Deze tekst past niet op de pagina. Maak hem korter.",
+  "tapHintText": "Klik of tik op de titel of de opdracht om die te veranderen."
 }

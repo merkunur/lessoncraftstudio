@@ -1,5 +1,5 @@
 {
-  "tapHint": "Klik eller tryk på et billede eller ord på siden for at skifte det ud.",
+  "tapHint": "Klik eller tryk på et billede, et ord, overskriften eller instruktionen for at ændre det.",
   "choosePicture": "Vælg et billede",
   "chooseWord": "Vælg et ord",
   "close": "Luk",
@@ -37,5 +37,11 @@
     "ten-frames": "Tierrammer og tællestreger",
     "counting": "Tælling",
     "sight-words": "Højfrekvente ord"
-  }
+  },
+  "editTitle": "Ret overskriften",
+  "editInstruction": "Ret instruktionen",
+  "save": "Gem",
+  "originalText": "Oprindelig tekst",
+  "textTooLong": "Teksten kan ikke være på siden. Gør den kortere.",
+  "tapHintText": "Klik eller tryk på overskriften eller instruktionen for at ændre den."
 }

@@ -1,5 +1,5 @@
 {
-  "tapHint": "Toque ou clique em uma imagem ou palavra na página para trocá-la.",
+  "tapHint": "Toque ou clique em uma imagem, uma palavra, no título ou no enunciado para trocá-los.",
   "choosePicture": "Escolha uma imagem",
   "chooseWord": "Escolha uma palavra",
   "close": "Fechar",
@@ -37,5 +37,11 @@
     "ten-frames": "Quadros de dez e tracinhos",
     "counting": "Contagem",
     "sight-words": "Palavras de alta frequência"
-  }
+  },
+  "editTitle": "Editar o título",
+  "editInstruction": "Editar o enunciado",
+  "save": "Salvar",
+  "originalText": "Texto original",
+  "textTooLong": "Este texto não cabe na página. Deixe-o mais curto.",
+  "tapHintText": "Toque ou clique no título ou no enunciado para trocá-los."
 }

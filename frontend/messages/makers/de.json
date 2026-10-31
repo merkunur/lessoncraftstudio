@@ -1,5 +1,5 @@
 {
-  "tapHint": "Klicken oder tippen Sie auf ein Bild oder Wort auf der Seite, um es zu ersetzen.",
+  "tapHint": "Klicken oder tippen Sie auf ein Bild, ein Wort, die Überschrift oder die Arbeitsanweisung, um sie zu ändern.",
   "choosePicture": "Bild auswählen",
   "chooseWord": "Wort auswählen",
   "close": "Schließen",
@@ -37,5 +37,11 @@
     "ten-frames": "Zehnerfelder und Strichlisten",
     "counting": "Zählen",
     "sight-words": "Häufige Wörter"
-  }
+  },
+  "editTitle": "Überschrift ändern",
+  "editInstruction": "Arbeitsanweisung ändern",
+  "save": "Speichern",
+  "originalText": "Ursprünglicher Text",
+  "textTooLong": "Dieser Text passt nicht auf die Seite. Bitte kürzen.",
+  "tapHintText": "Klicken oder tippen Sie auf die Überschrift oder die Arbeitsanweisung, um sie zu ändern."
 }

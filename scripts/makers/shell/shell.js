@@ -27,7 +27,7 @@ const el = (tag, attrs = {}, kids = []) => {
 
 let mod, tj, strings, picManifest;
 const typeCache = {};
-const state = { id: null, level: 2, theme: null, unit: null, answerKey: false, paper: LANG === 'en' ? 'letter' : 'a4', pages: [1], edits: [{}], units: [] };
+const state = { id: null, level: 2, theme: null, unit: null, answerKey: false, paper: LANG === 'en' ? 'letter' : 'a4', pages: [1], edits: [{}], units: [], texts: [{}] };
 
 /*
  * Who may make what (operator ruling 2026-10-31; frontend/lib/quota.ts kind 'make'):
@@ -113,7 +113,7 @@ async function boot() {
   // New version is new content: the teacher's picture/word choices belong to the old content and are dropped
   $('mk-new').addEventListener('click', () => { state.pages = state.pages.map(() => nextVariant()); state.edits = state.pages.map(() => ({})); render(); });
   $('mk-add').addEventListener('click', () => {
-    state.pages.push(nextVariant()); state.edits.push({});
+    state.pages.push(nextVariant()); state.edits.push({}); state.texts.push({});
     const t = tj.templates.find((x) => x.id === state.id);
     const units = (t.units && t.units[LANG]) || [];
     if (units.length) {
@@ -143,7 +143,7 @@ function choose(id, first) {
   if (t.themed) { if (!t.themes.includes(state.theme)) state.theme = t.themes[0]; } else state.theme = null;
   const units = t.units && t.units[LANG];
   state.unit = units && units.length ? (units.some((u) => u.id === state.unit) ? state.unit : units[0].id) : null;
-  if (!first) { state.pages = [state.pages[0] || 1]; state.edits = [{}]; }
+  if (!first) { state.pages = [state.pages[0] || 1]; state.edits = [{}]; state.texts = [{}]; }
   state.units = state.unit ? state.pages.map((_, i) => (i === 0 ? state.unit : state.units[i] || state.unit)) : [];
   document.querySelectorAll('.mk-card').forEach((c) => c.setAttribute('aria-current', String(c.dataset.id === id)));
   buildControls(t);
@@ -154,6 +154,16 @@ function choose(id, first) {
  * What page i is. Where a new copy changes the page (most templates), the pages are different copies of the same
  * settings. Where it does not (a sight word of the day), the pages are consecutive words from the chosen one.
  */
+/** The strings of page i: the worksheet's own, with the teacher's title / instruction when she typed one. */
+function pageStrings(i) {
+  const base = strings[state.id];
+  const tx = state.texts[i] || {};
+  const out = { ...base };
+  if (tx.title) { out.title = tx.title; out.printTitle = tx.title; }
+  if (tx.instruction) out.instruction = tx.instruction;
+  return out;
+}
+
 function pageSpec(i) {
   const t = tj.templates.find((x) => x.id === state.id);
   const units = (t.units && t.units[LANG]) || [];
@@ -175,10 +185,10 @@ function pageResult(i) {
   const t = tj.templates.find((x) => x.id === state.id);
   const ps = pageSpec(i);
   const o = isOpen(state.id)
-    ? { strings: strings[state.id], locale: LANG, difficulty: state.level, theme: state.theme, unit: ps.unit, variant: ps.variant, pageSize: state.paper, answerKey: state.answerKey && t.interactive, answerKeySuffix: tj.answerKey[LANG], overrides: state.edits[i] && Object.keys(state.edits[i]).length ? state.edits[i] : null }
+    ? { strings: pageStrings(i), locale: LANG, difficulty: state.level, theme: state.theme, unit: ps.unit, variant: ps.variant, pageSize: state.paper, answerKey: state.answerKey && t.interactive, answerKeySuffix: tj.answerKey[LANG], overrides: state.edits[i] && Object.keys(state.edits[i]).length ? state.edits[i] : null }
     : { strings: strings[state.id], locale: LANG, difficulty: t.levels.includes(2) ? 2 : t.levels[0], theme: t.themed ? t.themes[0] : null, unit: ((t.units && t.units[LANG]) || [])[0] ? t.units[LANG][0].id : null, variant: 1, pageSize: state.paper, answerKey: false, answerKeySuffix: tj.answerKey[LANG] };
   const id = state.id;
-  const cacheKey = JSON.stringify([id, o.difficulty, o.theme, o.unit, o.variant, o.pageSize, o.answerKey, o.overrides || null]);
+  const cacheKey = JSON.stringify([id, o.difficulty, o.theme, o.unit, o.variant, o.pageSize, o.answerKey, o.overrides || null, o.strings.title, o.strings.instruction]);
   if (!results.has(cacheKey)) {
     gateQueue = gateQueue.then(async () => mod.generate({ ...o, type: await loadType(id) }, (html) => mod.mountHtml(gateFrame, html)))
       .catch((e) => ({ ok: false, fails: ['error: ' + e.message] }));
@@ -219,13 +229,16 @@ function sheet(html, pageIndex = null) {
   if (pageIndex !== null) {
     f.addEventListener('load', () => {
       const d = f.contentDocument;
-      if (!d.querySelector('[data-lcs-slot]')) return;
       // the affordance lives only in the on-screen preview (print and PDF are built from the html string, not this frame)
       const st = d.createElement('style');
-      st.textContent = '[data-lcs-slot]{cursor:pointer;border-radius:10px;transition:box-shadow .12s}[data-lcs-slot]:hover,[data-lcs-slot]:focus-visible{box-shadow:0 0 0 3px #F2784B;outline:none}';
+      st.textContent = '[data-lcs-slot],[data-lcs-title],[data-lcs-instruction]{cursor:pointer;border-radius:10px;transition:box-shadow .12s}[data-lcs-slot]:hover,[data-lcs-slot]:focus-visible,[data-lcs-title]:hover,[data-lcs-title]:focus-visible,[data-lcs-instruction]:hover,[data-lcs-instruction]:focus-visible{box-shadow:0 0 0 3px #F2784B;outline:none}';
       d.head.append(st);
-      d.querySelectorAll('[data-lcs-slot]').forEach((n) => { n.setAttribute('tabindex', '0'); n.setAttribute('role', 'button'); });
-      const go = (e) => { const n = e.target.closest && e.target.closest('[data-lcs-slot]'); if (!n) return; e.preventDefault(); const [role, idx] = n.getAttribute('data-lcs-slot').split('.'); openPicker(pageIndex, role, Number(idx)); };
+      d.querySelectorAll('[data-lcs-slot],[data-lcs-title],[data-lcs-instruction]').forEach((n) => { n.setAttribute('tabindex', '0'); n.setAttribute('role', 'button'); });
+      const go = (e) => {
+        const t = e.target.closest && e.target.closest('[data-lcs-title],[data-lcs-instruction]');
+        if (t) { e.preventDefault(); return openTextEditor(pageIndex, t.hasAttribute('data-lcs-title') ? 'title' : 'instruction', t.textContent.trim()); }
+        const n = e.target.closest && e.target.closest('[data-lcs-slot]'); if (!n) return; e.preventDefault(); const [role, idx] = n.getAttribute('data-lcs-slot').split('.'); openPicker(pageIndex, role, Number(idx));
+      };
       d.addEventListener('click', go);
       d.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') go(e); });
     }, { once: true });
@@ -256,11 +269,11 @@ async function render() {
       const head = el('div', { class: 'mk-page-head' }, [el('span', { text: `${UI.page} ${i + 1} ${UI.of} ${state.pages.length}` })]);
       const pageUnits = (t.units && t.units[LANG]) || [];
       if (isOpen(state.id) && pageUnits.length) {
-        const sel = el('select', { class: 'mk-select', 'aria-label': `${UI.word} · ${UI.page} ${i + 1}`, on: { change: (e) => { state.units[i] = e.target.value; state.edits[i] = {}; if (i === 0) state.unit = e.target.value; render(); } } });
+        const sel = el('select', { class: 'mk-select', 'aria-label': `${UI.word} · ${UI.page} ${i + 1}`, on: { change: (e) => { state.units[i] = e.target.value; state.edits[i] = {}; state.texts[i] = {}; if (i === 0) state.unit = e.target.value; render(); } } });
         for (const u of pageUnits) sel.append(el('option', { value: u.id, selected: u.id === state.units[i], text: u.word }));
         head.append(el('label', { class: 'mk-page-word' }, [el('span', { text: UI.word }), sel]));
       }
-      if (state.pages.length > 1) head.append(el('button', { class: 'mk-link', type: 'button', text: UI.removePage, on: { click: () => { state.pages.splice(i, 1); state.edits.splice(i, 1); state.units.splice(i, 1); render(); } } }));
+      if (state.pages.length > 1) head.append(el('button', { class: 'mk-link', type: 'button', text: UI.removePage, on: { click: () => { state.pages.splice(i, 1); state.edits.splice(i, 1); state.units.splice(i, 1); state.texts.splice(i, 1); render(); } } }));
       out.push(el('div', { class: 'mk-page' }, [head, sheet(html, isOpen(state.id) ? i : null)]));
       if (state.answerKey && t.interactive) {
         const key = await makeHtml(i, true);
@@ -309,6 +322,38 @@ async function openPicker(i, role, idx) {
   );
   dlg.querySelectorAll('img').forEach((im) => { im.addEventListener('contextmenu', (e) => e.preventDefault()); im.draggable = false; });
   dlg.showModal();
+}
+
+/**
+ * Edit page i's title or instruction (ARCHITECTURE §4.4). The page is remade with the text and gated like any page; the
+ * text is kept only if the page passes on its own seed (a text that pushes the page out of shape, runs past three lines or
+ * claims "free" is refused with a sentence). "Original text" restores the worksheet's own wording.
+ */
+function openTextEditor(i, field, current) {
+  let dlg = $('mk-picker');
+  if (!dlg) { dlg = el('dialog', { id: 'mk-picker', class: 'mk-picker' }); document.body.append(dlg); }
+  const input = el(field === 'title' ? 'input' : 'textarea', { class: 'mk-text-input', maxlength: field === 'title' ? '80' : '220', rows: '3', 'aria-label': field === 'title' ? UI.editTitle : UI.editInstruction });
+  input.value = current;
+  const note = el('p', { class: 'mk-pick-note', id: 'mk-pick-note' });
+  const save = async (value) => {
+    const before = JSON.stringify(state.texts[i] || {});
+    const tx = state.texts[i] = JSON.parse(before);
+    if (value && value.trim()) tx[field] = value.trim().replace(/\s+/g, ' '); else delete tx[field];
+    const r = await pageResult(i);
+    if (!r.ok || (r.attempt && r.attempt.seedVariant)) { state.texts[i] = JSON.parse(before); note.textContent = UI.textTooLong; return; }
+    dlg.close();
+    render();
+  };
+  dlg.replaceChildren(
+    el('div', { class: 'mk-pick-head' }, [el('h2', { text: field === 'title' ? UI.editTitle : UI.editInstruction }), el('button', { type: 'button', class: 'mk-btn', text: UI.close, on: { click: () => dlg.close() } })]),
+    note, input,
+    el('div', { class: 'mk-text-actions' }, [
+      el('button', { type: 'button', class: 'mk-link', text: UI.originalText, on: { click: () => save('') } }),
+      el('button', { type: 'button', class: 'mk-btn mk-primary', text: UI.save, on: { click: () => save(input.value) } }),
+    ]),
+  );
+  dlg.showModal();
+  input.focus();
 }
 
 async function choosePick(i, role, idx, key) {
@@ -374,7 +419,8 @@ function buildControls(t) {
   kids.push(chipGroup(UI.paper, ['letter', 'a4'], state.paper, (v) => { state.paper = v; buildControls(t); render(); }, (v) => UI[v]));
   c.replaceChildren(...kids);
   // say once that the page can be tapped — only where this template exposes slots (filled in after the first page)
-  pageResult(0).then((r) => { if (r.ok && r.slots && Object.keys(r.slots).length && isOpen(t.id) && !c.querySelector('.mk-tap-hint')) c.append(el('p', { class: 'mk-tap-hint', text: UI.tapHint })); });
+  // the hint names only what this template lets her tap: pictures/words where it has slots, the title + instruction always
+  pageResult(0).then((r) => { if (r.ok && isOpen(t.id) && !c.querySelector('.mk-tap-hint')) c.append(el('p', { class: 'mk-tap-hint', text: r.slots && Object.keys(r.slots).length ? UI.tapHint : UI.tapHintText })); });
 }
 
 /** A gallery card names the worksheet TYPE: the slot for one page's word ({UNIT}, with its ': ' or quotes) is dropped. */

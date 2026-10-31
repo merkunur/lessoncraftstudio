@@ -1,5 +1,5 @@
 {
-  "tapHint": "Cliquez ou appuyez sur une image ou un mot de la page pour le remplacer.",
+  "tapHint": "Cliquez ou appuyez sur une image, un mot, le titre ou la consigne pour le modifier.",
   "choosePicture": "Choisir une image",
   "chooseWord": "Choisir un mot",
   "close": "Fermer",
@@ -37,5 +37,11 @@
     "ten-frames": "Cadres de dix et bâtons",
     "counting": "Compter",
     "sight-words": "Mots-outils"
-  }
+  },
+  "editTitle": "Modifier le titre",
+  "editInstruction": "Modifier la consigne",
+  "save": "Enregistrer",
+  "originalText": "Texte d’origine",
+  "textTooLong": "Ce texte ne tient pas sur la page. Raccourcissez-le.",
+  "tapHintText": "Cliquez ou appuyez sur le titre ou la consigne pour le modifier."
 }

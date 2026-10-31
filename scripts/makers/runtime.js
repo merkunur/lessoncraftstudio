@@ -28,6 +28,36 @@ const { mountHtml } = require('../worksheet-gen/lib/platform/page-shim.js');
  * @returns {{ html: string, keyHtml: string|null, meta: object, seed: string, slots: object }} slots = per role
  *   { pool, values } for every slot the type exposes (what the screen may offer, and what was applied)
  */
+/*
+ * The answer key of a print-only template (2026-10-31): the page every right answer marked, by ONE layer for all
+ * templates — the answers the page already carries for its own checks:
+ *   - a write-in box with its answer (.ws-answerbox[data-lcs-answer], empty on the page) shows that answer, in teal;
+ *   - the right choice ([data-lcs-correct]: a numeral chip, a word, ✓ / ✗, a group) gets a coral ring.
+ * A template whose task is drawn (draw that many, colour the parts, write a tally) draws ONE correct example itself
+ * when built with ctx.answerKey (its key build may add answers, never change the content: the meta check below).
+ * Interactive templates keep the key they draw themselves (the catalogue's). A page with nothing to mark has no key
+ * (KEY_MARKS = 0; build-bundles.js records it and the screen does not offer the switch).
+ */
+// Every rule is scoped to .lcs-keypage (the key page's body): Print puts all pages in ONE document, and an unscoped rule
+// would write the answers onto the worksheet pages too (shell.js printAll carries the body class onto each page).
+const KEY_RULES = [
+  '.ws-answerbox[data-lcs-answer]:empty:not([data-lcs-answer=""])::after{content:attr(data-lcs-answer);color:#146B5E;font-family:\'Baloo 2\',cursive;font-weight:700}',
+  '[data-lcs-correct]{box-shadow:0 0 0 4px #F2784B;border-radius:999px}',
+  '.ws-subgroup[data-lcs-correct]{border-radius:12px}',
+  // an empty answer cell that is not a write-in box (a missing letter, a glue square): the letter, in teal
+  '[data-lcs-answer]:empty:not([data-lcs-answer=""]):not(.ws-answerbox)::after{content:attr(data-lcs-answer);color:#146B5E}',
+  // a picture / cell to circle (the Nth one, every one like the model): a coral ring
+  '[data-lcs-key-ring]{outline:4px solid #F2784B;outline-offset:3px;border-radius:10px}',
+  // which number an item matches (matching pages): a teal badge on the item
+  '[data-lcs-key-badge]{position:relative}[data-lcs-key-badge]::after{content:attr(data-lcs-key-badge);position:absolute;top:6px;right:6px;min-width:32px;height:32px;padding:0 7px;box-sizing:border-box;border-radius:16px;background:#146B5E;color:#FFFFFF;font:700 19px/32px \'Baloo 2\',cursive;text-align:center}',
+];
+const KEY_CSS = '<style data-lcs-key>' + KEY_RULES.join('').replace(/(^|})([^{}]+){/g, (m, b, sel) => b + sel.split(',').map((x) => '.lcs-keypage ' + x.trim()).join(',') + '{') + '</style>';
+/** how many answers a key page shows: filled boxes + ringed choices + drawn examples */
+function keyMarks(html) {
+  const empty = (html.match(/data-lcs-answer="[^"]+"[^>]*><\/(span|div)>/g) || []).length;
+  return empty + ['data-lcs-correct', 'data-lcs-key-sample', 'data-lcs-key-ring', 'data-lcs-key-badge'].reduce((a, k) => a + (html.split(k).length - 1), 0);
+}
+
 function makePage(o) {
   const { type, locale } = o;
   const difficulty = Number(o.difficulty || 2);
@@ -47,10 +77,11 @@ function makePage(o) {
   const html = buildPage({ title: head, instruction: strings.instruction, bodyHtml: built.bodyHtml, locale, pageSize });
 
   let keyHtml = null;
-  if (o.answerKey && type.interactive) {
+  if (o.answerKey) {
     const keyBuilt = type.build({ theme, difficulty, locale, unit }, ctx({ answerKey: true }));
     if (JSON.stringify(keyBuilt.meta) !== JSON.stringify(built.meta)) throw new Error('maker: the answer key drew different content than the page (' + type.id + ')');
     keyHtml = buildPage({ title: head + (o.answerKeySuffix ? ' — ' + o.answerKeySuffix : ''), instruction: strings.instruction, bodyHtml: keyBuilt.bodyHtml, locale, pageSize });
+    if (!type.interactive) keyHtml = keyMarks(keyHtml) ? keyHtml.replace('</head>', KEY_CSS + '</head>').replace(/<body([^>]*)>/, (m, at) => (/class="/.test(at) ? m.replace('class="', 'class="lcs-keypage ') : `<body${at} class="lcs-keypage">`)) : null;
   }
   return { html, keyHtml, meta: built.meta, seed: instanceSeed(seedArgs), slots };
 }
@@ -105,4 +136,4 @@ async function generate(o, mount) {
   return { ok: false, fails };
 }
 
-module.exports = { makePage, gatePage, generate, mountHtml, platform };
+module.exports = { makePage, gatePage, generate, mountHtml, platform, keyMarks };

@@ -45,8 +45,8 @@ module.exports = {
     const cards = [];
     for (let i = 0; i < d.rows; i++) {
       const n = rng.int(1, Math.min(d.maxN, d.rowLen - 1));
-      const icons = Array.from({ length: d.rowLen }, () =>
-        `<img class="ws-icon" src="${fileUri(bw, nouns[i].noun)}" alt="" style="width:${iconPx}px;height:${iconPx}px">`).join('');
+      const icons = Array.from({ length: d.rowLen }, (_, k) =>
+        `<img class="ws-icon" src="${fileUri(bw, nouns[i].noun)}" alt="" style="width:${iconPx}px;height:${iconPx}px"${ctx.answerKey && k < n ? ' data-lcs-key-ring="1"' : ''}>`).join('');
       cards.push(
         `<div class="ws-card-stage" style="gap:16px;padding:6px 10px" data-lcs-colorn="${n}" data-lcs-rowlen="${d.rowLen}">` +
         `<span style="flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;width:46px;height:46px;border-radius:50%;` +

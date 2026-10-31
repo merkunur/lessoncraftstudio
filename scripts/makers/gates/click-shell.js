@@ -129,7 +129,7 @@ const puppeteer = require('puppeteer'); const http = require('http'); const { ha
   await p.evaluate(() => { window.__printed = 0; }); 
   await p.evaluate(() => { const orig = HTMLIFrameElement.prototype; });
   await p.click('#mk-print'); await settle();
-  const printDoc = await p.evaluate(() => { const f = document.querySelector('#mk-print-host iframe'); return f ? (f.getAttribute('srcdoc').match(/class="mk-break"/g) || []).length : -1; });
+  const printDoc = await p.evaluate(() => { const f = document.querySelector('#mk-print-host iframe'); return f ? (f.getAttribute('srcdoc').match(/class="mk-break[ "]/g) || []).length : -1; });
   check('print frame holds every page (' + printDoc + ')', printDoc >= 2);
   console.log('errors:', errs.length ? errs.slice(0, 3).join(' | ') : 'none');
   if (fails || errs.length) process.exitCode = 1;

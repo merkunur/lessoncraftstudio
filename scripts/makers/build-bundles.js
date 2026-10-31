@@ -108,6 +108,13 @@ function record(types) {
       }
       (strings[loc] = strings[loc] || {})[spec.id] = { title: s.title, instruction: s.instruction, ...(s.printTitle ? { printTitle: s.printTitle } : {}), ...(Object.keys(byLevel).length ? { levels: byLevel } : {}) };
     }
+    // does the template have an answer key? (an interactive one draws its own; a print-only one when its page carries
+    // answers — runtime.js keyMarks — or draws an example for the key)
+    // per level: a level may have nothing to mark (K-438 level 1 prints the letters) — the switch is offered only there
+    entry.keyLevels = entry.levels.filter((d) => {
+      try { return !!makePage({ type: spec, strings: withLevelInstruction(resolveStrings(spec.id, 'en', spec), spec.id, d, 'en'), locale: 'en', difficulty: d, theme: themes[0], unit: entry.units && entry.units.en && entry.units.en[0] ? entry.units.en[0].id : null, variant: 1, answerKey: true, answerKeySuffix: ANSWER_KEY.en }).keyHtml; } catch (e) { return false; }
+    });
+    entry.hasKey = entry.keyLevels.length > 0;
     // does a new copy (seed) change the page? Some templates are fixed by their settings (a sight word of the day is
     // the same page every time) — there "New version" would do nothing, so the screen must not offer it (measured, not
     // assumed: three copies at every level, in English)

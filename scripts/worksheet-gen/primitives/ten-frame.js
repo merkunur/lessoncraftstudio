@@ -2,6 +2,7 @@
  * tenFrame — parametric ten-frame primitive (SVG).
  * params: { a, b=0, cell=58, fillStyle='dot', crossed=0 }
  *   crossed = how many of the LAST counters carry a coral cross (take-away, 2026-10-31); 0 draws exactly as before
+ *   fills   = [colourA, colourB] — whole squares painted instead of counters (a coloured-in frame: the colouring answer key)
  *   a = first-color counters (teal), b = second-color counters (coral) —
  *   a single-count frame is just b=0. a+b ≤ 10; fill order is left-to-right,
  *   top row first (the canonical ten-frame reading order).
@@ -11,7 +12,7 @@
 const tokens = require('./_tokens.js');
 const { svgRoot, roundedRect, circle, el } = require('./_svg.js');
 
-function tenFrame({ a, b = 0, cell = 58, iconHref, crossed = 0 }, ctx) {
+function tenFrame({ a, b = 0, cell = 58, iconHref, crossed = 0, fills }, ctx) {
   const t = (ctx && ctx.tokens) || tokens;
   if (a + b > 10 || a < 0 || b < 0) throw new Error(`tenFrame: invalid counts a=${a} b=${b}`);
   const cols = 5, rows = 2;
@@ -32,7 +33,9 @@ function tenFrame({ a, b = 0, cell = 58, iconHref, crossed = 0 }, ctx) {
     const cx = pad + (i % cols) * cell + cell / 2;
     const cy = pad + Math.floor(i / cols) * cell + cell / 2;
     const isA = i < a;
-    if (iconHref) {
+    if (fills) {
+      parts.push(el('rect', { x: pad + (i % cols) * cell + 3, y: pad + Math.floor(i / cols) * cell + 3, width: cell - 6, height: cell - 6, rx: 4, fill: isA ? fills[0] : fills[1], 'data-lcs-counter': isA ? 'a' : 'b', 'data-lcs-key-sample': 1 }));
+    } else if (iconHref) {
       const s = cell * 0.78;
       parts.push(el('image', {
         href: iconHref, x: cx - s / 2, y: cy - s / 2, width: s, height: s,

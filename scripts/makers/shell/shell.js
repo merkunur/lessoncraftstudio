@@ -226,6 +226,10 @@ const pageOps = {
  * A template's strings at a level: a level that prints its own instruction (and title) uses it — i18n/level-instructions.json
  * (withLevelInstruction), carried in strings.<loc>.json as levels.<n>; a level title replaces the face's print title.
  */
+/** answer key pages are made when the teacher asked for them and the template has a key (interactive or print-only) */
+const keyAt = (t) => t.interactive || (t.keyLevels || []).includes(state.level);
+const keyOn = (t) => !!state.answerKey && keyAt(t);
+
 function stringsFor(id, level) {
   const b = strings[id];
   const L = b && b.levels && b.levels[level];
@@ -277,7 +281,7 @@ function pageResult(i) {
   const t = tj.templates.find((x) => x.id === state.id);
   const ps = pageSpec(i);
   const o = canView()   // a colleague's shared worksheet is built from its recipe, not the sample
-    ? { strings: pageStrings(i), locale: LANG, difficulty: state.level, theme: state.theme, unit: ps.unit, variant: ps.variant, pageSize: state.paper, answerKey: state.answerKey && t.interactive, answerKeySuffix: tj.answerKey[LANG], overrides: state.edits[i] && Object.keys(state.edits[i]).length ? state.edits[i] : null }
+    ? { strings: pageStrings(i), locale: LANG, difficulty: state.level, theme: state.theme, unit: ps.unit, variant: ps.variant, pageSize: state.paper, answerKey: keyOn(t), answerKeySuffix: tj.answerKey[LANG], overrides: state.edits[i] && Object.keys(state.edits[i]).length ? state.edits[i] : null }
     : sampleOptions(t);
   const id = state.id;
   const cacheKey = JSON.stringify([id, o.difficulty, o.theme, o.unit, o.variant, o.pageSize, o.answerKey, o.overrides || null, o.strings.title, o.strings.instruction]);
@@ -503,7 +507,7 @@ async function render() {
         onInk();
       }
       out.push(el('div', { class: 'mk-page' }, [head, ...(inkBar ? [inkBar] : []), sheet(html, canEdit() ? i : null, onInk)]));
-      if (state.answerKey && t.interactive) {
+      if (keyOn(t)) {
         const key = await makeHtml(i, true);
         if (key) out.push(el('div', { class: 'mk-page' }, [el('div', { class: 'mk-page-head' }, [el('span', { text: `${UI.answerKey} · ${UI.page} ${i + 1}` })]), sheet(key)]));
       }
@@ -655,7 +659,7 @@ function buildControls(t) {
   kids.push(el('button', { type: 'button', class: 'mk-more', 'aria-expanded': String(state.more), text: (state.more ? '− ' : '+ ') + UI.moreOptions, on: { click: () => { state.more = !state.more; buildControls(t); } } }));
   if (state.more) {
     const more = el('div', { class: 'mk-more-box' });
-    if (t.interactive) more.append(chipGroup(UI.answerKey, [false, true], state.answerKey, (v) => { state.answerKey = v; buildControls(t); render(); }, (v) => (v ? '✓' : '—')));
+    if (keyAt(t)) more.append(chipGroup(UI.answerKey, [false, true], state.answerKey, (v) => { state.answerKey = v; buildControls(t); render(); }, (v) => (v ? '✓' : '—')));
     more.append(chipGroup(UI.paper, ['letter', 'a4'], state.paper, (v) => { state.paper = v; buildControls(t); render(); }, (v) => UI[v]));
     more.append(chipGroup(UI.pageNumbers, [false, true], state.pageNumbers, (v) => { state.pageNumbers = v; buildControls(t); render(); }, (v) => (v ? '✓' : '—')));
     more.append(chipGroup(UI.border, Object.keys(BORDERS), state.border, (v) => { state.border = v; buildControls(t); render(); }, (v) => UI['border_' + v]));
@@ -715,7 +719,7 @@ async function allDocs() {
   const t = tj.templates.find((x) => x.id === state.id);
   const docs = [];
   for (let i = 0; i < state.pages.length; i++) docs.push(await makeHtml(i, false));
-  if (state.answerKey && t.interactive) for (let i = 0; i < state.pages.length; i++) { const k = await makeHtml(i, true); if (k) docs.push(k); }
+  if (keyOn(t)) for (let i = 0; i < state.pages.length; i++) { const k = await makeHtml(i, true); if (k) docs.push(k); }
   return docs;
 }
 
@@ -760,9 +764,12 @@ async function printAll() {
   if (!canView()) return;
   if (!(await spendDownload())) return;
   const docs = await allDocs();
+  // one document: the first page's head + the key layer of a key page (its rules are scoped to .lcs-keypage, so each
+  // page keeps its own body class on its wrapper and the worksheet pages show no answers)
   const head = docs[0].match(/<head>([\s\S]*?)<\/head>/)[1];
-  const bodies = docs.map((d) => d.match(/<body[^>]*>([\s\S]*?)<\/body>/)[1]);
-  const html = `<!doctype html><html lang="${LANG}"><head>${head}<style>.mk-break{break-after:page}.mk-break:last-child{break-after:auto}</style></head><body>${bodies.map((b) => `<div class="mk-break">${b}</div>`).join('')}</body></html>`;
+  const keyCss = docs.map((d) => (d.match(/<style data-lcs-key>[\s\S]*?<\/style>/) || [''])[0]).find(Boolean) || '';
+  const pages = docs.map((d) => { const m = d.match(/<body([^>]*)>([\s\S]*?)<\/body>/); return { cls: (m[1].match(/class="([^"]*)"/) || [])[1] || '', body: m[2] }; });
+  const html = `<!doctype html><html lang="${LANG}"><head>${head.includes('data-lcs-key') ? head : head + keyCss}<style>.mk-break{break-after:page}.mk-break:last-child{break-after:auto}</style></head><body>${pages.map((p) => `<div class="mk-break ${p.cls}">${p.body}</div>`).join('')}</body></html>`;
   const host = $('mk-print-host');
   const f = el('iframe', { srcdoc: html, title: 'print' });
   host.replaceChildren(f);

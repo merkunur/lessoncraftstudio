@@ -17,6 +17,19 @@ const L = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
 const ids = (process.argv[2] || '').split(',').filter(Boolean);
 if (!ids.length) { console.error('usage: sweep-templates.js K-448,K-449'); process.exit(2); }
 
+function builtThemes(id) {
+  const vf = path.join(REPO, 'out', 'makers', 'versions.json');
+  if (!fs.existsSync(vf)) return null;
+  const v = JSON.parse(fs.readFileSync(vf, 'utf8'));
+  for (const [maker, e] of Object.entries(v)) {
+    const tj = path.join(REPO, 'out', 'makers', maker, e.current, 'templates.json');
+    if (!fs.existsSync(tj)) continue;
+    const t = JSON.parse(fs.readFileSync(tj, 'utf8')).templates.find((x) => x.id === id);
+    if (t && t.themes && t.themes.length) return t.themes;
+  }
+  return null;
+}
+
 let n = 0;
 const bad = {};
 for (const id of ids) {
@@ -24,7 +37,10 @@ for (const id of ids) {
   const file = fs.readdirSync(dir).find((f) => f.startsWith(id + '-'));
   if (!file) throw new Error('no type file for ' + id);
   const type = require(path.join(dir, file));
-  const themes = type.themeAxis && type.themeAxis.applicable ? Object.keys(man).filter((t) => Object.values(man[t].nouns).filter((x) => x.vocabKey).length >= (type.themeAxis.minNouns || 6)) : [null];
+  // the themes the built maker offers this template (what a teacher can pick); a template not built yet: every theme
+  // with enough pictures
+  const offered = builtThemes(id);
+  const themes = !(type.themeAxis && type.themeAxis.applicable) ? [null] : offered || Object.keys(man).filter((t) => Object.values(man[t].nouns).filter((x) => x.vocabKey).length >= (type.themeAxis.minNouns || 6));
   for (const loc of L) for (const d of Object.keys(type.difficulty || { 2: 1 }).map(Number)) {
     const s = withLevelInstruction(resolveStrings(id, loc, type), id, d, loc);
     for (const theme of themes) for (const v of [1, 2, 3]) {

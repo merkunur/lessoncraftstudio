@@ -63,7 +63,7 @@ function makeFrameCountingType(cfg) {
           const inner = mode === 'match-frame'
             ? tenFrame({ a: n, cell: Math.min(34, Math.floor((itemH - 24) / 2)) }).svg
             : tally({ n, strokeH: Math.min(46, itemH - 36) }).svg;
-          return `<div class="ws-match-item" style="width:280px;height:${itemH}px" data-lcs-right="${n}">` +
+          return `<div class="ws-match-item" style="width:280px;height:${itemH}px" data-lcs-right="${n}"${ctx.answerKey ? ` data-lcs-key-badge="${n}"` : ''}>` +
             inner + `<span class="ws-match-dot ws-match-dot--left"></span></div>`;
         }).join('');
         return {
@@ -84,7 +84,7 @@ function makeFrameCountingType(cfg) {
           stage = `<div class="ws-card-stage" style="flex-direction:column;gap:12px" data-lcs-expect="${n}">${stage}</div>`;
         } else if (mode === 'fill-frame') {
           stage = `<div class="ws-card-stage" style="flex-direction:column;gap:12px" data-lcs-expect="${n}">` +
-            NUM(n) + tenFrame({ a: 0, cell: 50 }).svg + `</div>`;
+            NUM(n) + (ctx.answerKey ? tenFrame({ a: n, cell: 50 }).svg.replace('<svg ', '<svg data-lcs-key-sample="1" ') : tenFrame({ a: 0, cell: 50 }).svg) + `</div>`;
         } else if (mode === 'make-10') {
           stage = `<div class="ws-card-stage" style="flex-direction:column;gap:12px" data-lcs-expect="${10 - n}">` +
             tenFrame({ a: n, cell: 50 }).svg +
@@ -110,7 +110,7 @@ function makeFrameCountingType(cfg) {
           stage = `<div class="ws-card-stage" style="gap:16px" data-lcs-expect="${n}">` +
             `<span data-lcs-iconpattern="${n}">` +
             iconRows({ theme, noun: nouns[i].noun, n, iconPx: fit.iconPx, perRow: fit.perRow, rng, gapX: 5, gapY: 4 }) + `</span>` +
-            `<span class="ws-answerbox" style="width:190px;height:72px" data-lcs-answer="${n}"></span></div>`;
+            `<span class="ws-answerbox" style="width:190px;height:72px" data-lcs-answer="${n}">${ctx.answerKey ? `<span data-lcs-key-sample="1">${tally({ n, strokeH: 40 }).svg}</span>` : ''}</span></div>`;
         }
         cards.push(stage);
       }

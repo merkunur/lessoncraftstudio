@@ -158,10 +158,11 @@ function makeFrameMoreType(cfg) {
         ns.forEach((v, i) => {
           const g = given[i];
           const num = g === 'num' ? NUM(v, 44) : answerBox({ w: 72, h: 60, answer: v });
-          const frame = g === 'frame' ? (v > 10 ? doubleFrame(v, cell) : tenFrame({ a: v, cell }).svg) : (v > 10 ? doubleFrame(0, cell) : tenFrame({ a: 0, cell }).svg);
-          const tal = g === 'tally' ? tally({ n: v, strokeH: 40 }).svg : `<span class="ws-answerbox" style="width:180px;height:62px" data-lcs-answer="${v}" data-lcs-draw-tally="1"></span>`;
+          const showFrame = g === 'frame' || ctx.answerKey, showTally = g === 'tally';
+          const frame = showFrame ? (v > 10 ? doubleFrame(v, cell) : tenFrame({ a: v, cell }).svg) : (v > 10 ? doubleFrame(0, cell) : tenFrame({ a: 0, cell }).svg);
+          const tal = showTally ? tally({ n: v, strokeH: 40 }).svg : `<span class="ws-answerbox" style="width:180px;height:62px" data-lcs-answer="${v}" data-lcs-draw-tally="1">${ctx.answerKey ? `<span data-lcs-key-sample="1">${tally({ n: v, strokeH: 34 }).svg}</span>` : ''}</span>`;
           const cellBox = (x, kind) => `<span style="display:flex;align-items:center;justify-content:center;min-width:0;background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;padding:6px" data-lcs-way="${kind}"${g === kind ? ' data-lcs-given="1"' : ''}>${x}</span>`;
-          cards.push(`<div class="ws-card-stage" style="display:grid;grid-template-columns:${cols};gap:10px;padding:4px 6px 4px 36px;align-items:stretch" data-lcs-count="${v}" data-lcs-given-kind="${g}">${cellBox(num, 'num')}${cellBox(frame, 'frame')}${cellBox(tal, 'tally')}</div>`);
+          cards.push(`<div class="ws-card-stage" style="display:grid;grid-template-columns:${cols};gap:10px;padding:4px 6px 4px 36px;align-items:stretch" data-lcs-count="${v}" data-lcs-given-kind="${g}">${cellBox(num, 'num')}${cellBox(ctx.answerKey && g !== 'frame' ? `<span data-lcs-key-sample="1">${frame}</span>` : frame, 'frame')}${cellBox(tal, 'tally')}</div>`);
           truth.push({ n: v, given: g });
         });
         return { bodyHtml: `<div style="display:flex;flex-direction:column;height:100%;min-height:0;gap:6px">${head}<div style="flex:1 1 auto;min-height:0;display:flex">${cardGrid({ cards, cols: 1, rows: d.rows })}</div></div>`, meta: { cards: truth } };
@@ -189,12 +190,13 @@ function makeFrameMoreType(cfg) {
         const red = tokens.codeColors.codeRed, blue = tokens.codeColors.codeBlue;
         const legend = `<div style="display:flex;justify-content:center;gap:28px;padding:0 0 8px">${swatch('red', red)}${swatch('blue', blue)}</div>`;
         // a whole of 5 uses one row of a ten-frame (the five-frame): the frame is drawn half — the top row only
-        const frameFor = (w) => (w === 5 ? fiveFrame(66) : tenFrame({ a: 0, cell: d.find ? 50 : 56 }).svg);   // squares big enough to colour in
+        const frameFor = (w, a = 0) => (w === 5 ? fiveFrame(66, ctx.answerKey ? a : 0, [red, blue]) : tenFrame({ a: ctx.answerKey ? a : 0, b: ctx.answerKey ? 10 - a : 0, cell: d.find ? 50 : 56, ...(ctx.answerKey ? { fills: [red, blue] } : {}) }).svg);   // squares big enough to colour in
         if (d.find) {
           // L3: every way to make 10 with two colours (1+9 … 9+1, never 0): five frames, the child finds and writes the pairs
           for (let i = 0; i < d.cards; i++) {
-            cards.push(`<div class="ws-card-stage" style="gap:18px;padding:4px 10px 4px 36px;justify-content:space-between" data-lcs-whole="10" data-lcs-find="1">${frameFor(10)}` +
-              `<span style="display:inline-flex;align-items:center;gap:8px"><span style="width:16px;height:16px;border-radius:50%;background:${red};border:2px solid #3A3530"></span>${answerBox({ w: 50, h: 48, answer: '' })}${T('+', 26)}<span style="width:16px;height:16px;border-radius:50%;background:${blue};border:2px solid #3A3530"></span>${answerBox({ w: 50, h: 48, answer: '' })}${T('=', 26)}${NUM(10, 32)}</span></div>`);
+            const ka = i + 1;   // the key's example: 1+9, 2+8, … 5+5 — one different way per frame
+            cards.push(`<div class="ws-card-stage" style="gap:18px;padding:4px 10px 4px 36px;justify-content:space-between" data-lcs-whole="10" data-lcs-find="1">${frameFor(10, ka)}` +
+              `<span style="display:inline-flex;align-items:center;gap:8px"><span style="width:16px;height:16px;border-radius:50%;background:${red};border:2px solid #3A3530"></span>${answerBox({ w: 50, h: 48, answer: ctx.answerKey ? ka : '' })}${T('+', 26)}<span style="width:16px;height:16px;border-radius:50%;background:${blue};border:2px solid #3A3530"></span>${answerBox({ w: 50, h: 48, answer: ctx.answerKey ? 10 - ka : '' })}${T('=', 26)}${NUM(10, 32)}</span></div>`);
           }
           return { bodyHtml: `<div style="display:flex;flex-direction:column;height:100%;min-height:0">${legend}<div style="flex:1 1 auto;min-height:0;display:flex">${cardGrid({ cards, cols: 1, rows: d.cards })}</div></div>`, meta: {} };
         }
@@ -202,7 +204,7 @@ function makeFrameMoreType(cfg) {
         ps.forEach((a) => {
           const b = d.whole - a;
           const eq = `<span style="display:inline-flex;align-items:center;gap:8px"><span style="display:inline-flex;align-items:center;gap:6px"><span style="width:18px;height:18px;border-radius:50%;background:${red};border:2px solid #3A3530"></span>${NUM(a, 34)}</span>${T('+', 28)}<span style="display:inline-flex;align-items:center;gap:6px"><span style="width:18px;height:18px;border-radius:50%;background:${blue};border:2px solid #3A3530"></span>${NUM(b, 34)}</span>${T('=', 28)}${NUM(d.whole, 34)}</span>`;
-          cards.push(`<div class="ws-card-stage" style="gap:18px;padding:4px 10px 4px 36px;justify-content:space-between" data-lcs-whole="${d.whole}" data-lcs-red="${a}" data-lcs-blue="${b}">${frameFor(d.whole)}${eq}</div>`);
+          cards.push(`<div class="ws-card-stage" style="gap:18px;padding:4px 10px 4px 36px;justify-content:space-between" data-lcs-whole="${d.whole}" data-lcs-red="${a}" data-lcs-blue="${b}">${frameFor(d.whole, a)}${eq}</div>`);
           truth.push({ red: a, blue: b });
         });
         return { bodyHtml: `<div style="display:flex;flex-direction:column;height:100%;min-height:0">${legend}<div style="flex:1 1 auto;min-height:0;display:flex">${cardGrid({ cards, cols: 1, rows: d.cards })}</div></div>`, meta: { cards: truth } };
@@ -273,10 +275,12 @@ function makeFrameMoreType(cfg) {
 }
 
 /** a five-frame (one row of five) for wholes of 5, drawn like the ten-frame's top row */
-function fiveFrame(cell) {
+function fiveFrame(cell, a = 0, fills) {
   const t = tokens.color;
   const W = 5 * cell + 6, H = cell + 6;
   let lines = '';
+  // the colouring key: the first a squares in the first colour, the rest in the second
+  if (a) for (let i = 0; i < 5; i++) lines += `<rect x="${6 + i * cell}" y="6" width="${cell - 6}" height="${cell - 6}" rx="4" fill="${i < a ? fills[0] : fills[1]}" data-lcs-key-sample="1"/>`;
   for (let c = 1; c < 5; c++) lines += `<line x1="${3 + c * cell}" y1="6" x2="${3 + c * cell}" y2="${H - 6}" stroke="${t.teal}" stroke-width="1.5" opacity="0.55"/>`;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="five frame" data-lcs-prim="five-frame"><rect x="1.5" y="1.5" width="${W - 3}" height="${H - 3}" rx="10" fill="${t.white}" stroke="${t.teal}" stroke-width="3"/>${lines}</svg>`;
 }

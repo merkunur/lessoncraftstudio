@@ -69,7 +69,7 @@ module.exports = {
       const icons = [];
       for (let k = 0; k < d.rowLen; k++) {
         icons.push(`<img class="ws-icon" src="${fileUri(theme, nouns[i].noun)}" alt="" ` +
-          `style="width:${iconPx}px;height:${iconPx}px"${k === ordinal - 1 ? ' data-lcs-nth="1"' : ''}>`);
+          `style="width:${iconPx}px;height:${iconPx}px"${k === ordinal - 1 ? ' data-lcs-nth="1"' + (ctx.answerKey ? ' data-lcs-key-ring="1"' : '') : ''}>`);
       }
       cards.push(
         `<div class="ws-card-stage" style="padding:6px 10px;gap:16px" data-lcs-ordinal="${ordinal}" data-lcs-rowlen="${d.rowLen}">` +

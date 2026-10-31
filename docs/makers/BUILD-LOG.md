@@ -7,6 +7,28 @@ records what is BUILT, measured and committed, step by step, so any session can 
 
 > 🛑 **NO DEPLOY (operator 2026-10-31):** no worksheet maker goes live until all 60 are built, tested and finalized locally. The pilot trio is a LOCAL pilot (built + reviewed at http://localhost:8490/), not a go-live. Everything is committed; nothing maker-related is deployed. The launch is one release of all 60.
 
+## Answer keys for every maker template (2026-10-31)
+
+- ONE key layer for all print-only templates (`scripts/makers/runtime.js` KEY_CSS + `keyMarks`): the answers the page
+  already carries for its own checks are shown — an empty write-in box / answer cell shows its answer in teal, a right
+  choice (`data-lcs-correct`) gets a coral ring, `data-lcs-key-ring` rings a picture or cell, `data-lcs-key-badge` puts
+  the matching number on an item. Templates whose task is drawn draw ONE correct example when built with
+  `ctx.answerKey` (`data-lcs-key-sample`): ten-frames filled / coloured, tallies drawn, the extra picture faint in its
+  slot, the taken-away one crossed out. A key build may add answers, never change the content (the meta check).
+- The key-only branches leave the catalogue untouched: 324 published pages + 792 ten-frames compared, 0 different.
+- Per level: `build-bundles.js` records `keyLevels` (levels whose page has something to mark); the screen offers the
+  Answer key switch under More options only there (K-438 Build the Word: levels 2–3).
+- Every rule is scoped to `.lcs-keypage` (the key page's body). Print puts all pages in ONE document; the first version
+  took the head of page 1 only, so PRINTED key pages showed no answers — found by the new screen gate, fixed in
+  `printAll` (each page keeps its body class on its wrapper; the key layer joins the head).
+- No key by design (13): K-012 (any pairing is right), K-239, K-388, K-391, K-433, K-434, K-439 (tracing / writing),
+  K-435 (open drawing), K-440 (a game), K-441, K-453 (flash cards), and **OPEN: K-389, K-390** — sentence keys need the
+  word seated on the writing line (`lib/key-on-row.js`).
+- Gates: `answer-keys.js` (every keyed template × key levels × en + fi × 2 copies: every answer shown, rings and badges
+  drawn, ≥ 1 mark, no overflow / footer / broken image; poison: the ring rule removed must fail) — **464 key pages
+  pass**; `keys-shell.js` (switch only where a key exists, key page after each page, Print shows answers on the key page
+  and none on the worksheet). Read by me: 16 key pages across both makers.
+
 ## Ten Frames maker: 7 new templates K-448..K-454 (2026-10-31)
 
 - NEW-TEMPLATES §1 T1–T7, one factory `types/_shared/frame-more.js`: K-448 teen numbers on two ten-frames (L2–3

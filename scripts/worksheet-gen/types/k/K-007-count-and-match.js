@@ -46,7 +46,7 @@ module.exports = {
       const n = counts[i];
       const fit = fitIcons({ n, stageW: 200, stageH: itemH - 20, maxPx: 56 });
       left.push(
-        `<div class="ws-match-item" style="width:240px;height:${itemH}px" data-lcs-left="${n}">` +
+        `<div class="ws-match-item" style="width:240px;height:${itemH}px" data-lcs-left="${n}"${ctx.answerKey ? ` data-lcs-key-badge="${n}"` : ''}>` +
         iconRows({ theme, noun: nouns[i].noun, n, iconPx: fit.iconPx, perRow: fit.perRow, rng, gapX: 6, gapY: 5 }) +
         `<span class="ws-match-dot ws-match-dot--right"></span></div>`
       );

@@ -152,8 +152,11 @@ function makeCountingMoreType(cfg) {
           // reading order, at most five a row (the ten-frame row), the empty box right after the last picture: it is the next one
           const perRow = Math.min(5, slots), rowsN = Math.ceil(slots / perRow);
           const px = Math.min(84, Math.floor((340 - (perRow - 1) * 8) / perRow), Math.floor((132 - (rowsN - 1) * 8) / rowsN));
-          const icons = Array.from({ length: v }, () => img(pics[i].noun, px)).join('');
-          const empty = dirs[i] === 'more' ? `<span class="ws-draw-slot" data-lcs-draw="1" style="display:inline-block;width:${px}px;height:${px}px;border:2.5px dashed #F2784B;border-radius:10px;background:#FFFFFF"></span>` : '';
+          const crossLast = ctx.answerKey && dirs[i] === 'less';
+          const icons = Array.from({ length: v }, (_, k) => (crossLast && k === v - 1
+            ? `<span data-lcs-key-sample="1" style="position:relative;display:inline-block;width:${px}px;height:${px}px">${img(pics[i].noun, px)}<span style="position:absolute;inset:0;background:linear-gradient(45deg,transparent 44%,#F2784B 44%,#F2784B 56%,transparent 56%),linear-gradient(-45deg,transparent 44%,#F2784B 44%,#F2784B 56%,transparent 56%)"></span></span>`
+            : img(pics[i].noun, px))).join('');
+          const empty = dirs[i] === 'more' ? `<span class="ws-draw-slot" data-lcs-draw="1" style="display:inline-flex;align-items:center;justify-content:center;width:${px}px;height:${px}px;border:2.5px dashed #F2784B;border-radius:10px;background:#FFFFFF">${ctx.answerKey ? `<span data-lcs-key-sample="1" style="opacity:.5">${img(pics[i].noun, px - 8)}</span>` : ''}</span>` : '';
           const badge = `<span style="flex:0 0 auto;padding:4px 12px;border-radius:999px;background:${dirs[i] === 'more' ? '#146B5E' : '#F2784B'};color:#FFFFFF;font-family:'Baloo 2';font-weight:700;font-size:18px;white-space:nowrap" data-lcs-dir="${dirs[i]}">${dirs[i] === 'more' ? L.oneMore : L.oneLess}</span>`;
           cards.push(`<div class="ws-card-stage" style="justify-content:space-between;gap:12px;padding:4px 8px 4px 34px" data-lcs-count="${v}" data-lcs-after="${after}"${slot.attr(ctx, 'pic', i)}>` +
             badge +
@@ -219,7 +222,10 @@ function makeCountingMoreType(cfg) {
       if (mode === 'draw-set') {
         const ns = counts(rng, n, d.lo, d.hi);
         ns.forEach((v) => {
-          const guide = d.frame ? `<span style="opacity:.55">${tenFrame({ a: 0, cell: 48 }).svg}</span>` : '';
+          const dots = (k) => `<span data-lcs-key-sample="1" style="display:grid;grid-template-columns:repeat(${Math.min(5, k)},22px);gap:10px">${'<span style="width:22px;height:22px;border-radius:50%;background:#146B5E"></span>'.repeat(k)}</span>`;
+          const guide = d.frame
+            ? (ctx.answerKey ? `<span data-lcs-key-sample="1">${tenFrame({ a: v, cell: 48 }).svg}</span>` : `<span style="opacity:.55">${tenFrame({ a: 0, cell: 48 }).svg}</span>`)
+            : (ctx.answerKey ? dots(v) : '');
           cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:8px" data-lcs-draw-n="${v}">${NUM(v, 44)}` +
             `<span class="ws-draw-box" data-ws-content style="flex:1 1 auto;width:100%;min-height:90px;display:flex;align-items:center;justify-content:center;border:2.5px dashed #C8BFAE;border-radius:12px;background:#FFFFFF">${guide}</span></div>`);
           truth.push({ count: v });

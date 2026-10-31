@@ -3392,5 +3392,29 @@
   "K-441": {
     "title": "Fichas de palavras",
     "instruction": "Recorte as fichas e leia."
+  },
+  "K-442": {
+    "title": "Conte e circule o número por extenso",
+    "instruction": "Conte as figuras. Circule o número escrito por extenso que diz quantas são."
+  },
+  "K-443": {
+    "title": "Um a mais, um a menos",
+    "instruction": "Conte as figuras. Olhe a etiqueta: em “1 a mais”, desenhe uma no quadro vazio; em “1 a menos”, risque uma. Escreva quantas são agora."
+  },
+  "K-444": {
+    "title": "Conte a partir da caixa",
+    "instruction": "O número na caixa diz quantas estão escondidas dentro dela. Comece nesse número e continue contando. Escreva quantas são ao todo."
+  },
+  "K-445": {
+    "title": "A mesma quantidade?",
+    "instruction": "Conte cada grupo e escreva quantas são. Os dois grupos têm a mesma quantidade? Circule ✓ para sim ou ✗ para não."
+  },
+  "K-446": {
+    "title": "Desenhe essa quantidade",
+    "instruction": "Leia o número. Desenhe essa quantidade no quadro."
+  },
+  "K-447": {
+    "title": "Qual grupo tem essa quantidade?",
+    "instruction": "Leia o número. Circule o grupo que tem exatamente essa quantidade."
   }
 }

@@ -3381,5 +3381,29 @@
   "K-441": {
     "title": "Ordkort",
     "instruction": "Klipp ut kortene og les dem."
+  },
+  "K-442": {
+    "title": "Tell og sett ring rundt tallordet",
+    "instruction": "Tell bildene. Sett ring rundt tallordet som forteller hvor mange det er."
+  },
+  "K-443": {
+    "title": "Én til, én færre",
+    "instruction": "Tell bildene. Se på merket: Ved «1 til» tegner du én i den tomme ruten, ved «1 færre» krysser du ut én. Skriv hvor mange det er nå."
+  },
+  "K-444": {
+    "title": "Tell videre fra esken",
+    "instruction": "Tallet på esken viser hvor mange som er gjemt i den. Begynn på det tallet og tell videre. Skriv hvor mange det er til sammen."
+  },
+  "K-445": {
+    "title": "Like mange?",
+    "instruction": "Tell hver gruppe og skriv hvor mange det er. Er det like mange i begge gruppene? Sett ring rundt ✓ for ja eller ✗ for nei."
+  },
+  "K-446": {
+    "title": "Tegn så mange",
+    "instruction": "Les tallet. Tegn så mange i ruten."
+  },
+  "K-447": {
+    "title": "Hvilken gruppe har så mange?",
+    "instruction": "Les tallet. Sett ring rundt gruppen som har nøyaktig så mange."
   }
 }

@@ -3377,5 +3377,29 @@
   "K-441": {
     "title": "Tarjetas de palabras",
     "instruction": "Recorta las tarjetas y léelas."
+  },
+  "K-442": {
+    "title": "Cuenta y encierra el número con letra",
+    "instruction": "Cuenta los dibujos. Encierra el número escrito con letra que dice cuántos hay."
+  },
+  "K-443": {
+    "title": "Uno más, uno menos",
+    "instruction": "Cuenta los dibujos. Mira la etiqueta: si dice “1 más”, dibuja uno en el cuadro vacío; si dice “1 menos”, tacha uno. Escribe cuántos hay ahora."
+  },
+  "K-444": {
+    "title": "Cuenta a partir de la caja",
+    "instruction": "El número de la caja dice cuántos hay escondidos adentro. Empieza en ese número y sigue contando. Escribe cuántos hay en total."
+  },
+  "K-445": {
+    "title": "¿Misma cantidad?",
+    "instruction": "Cuenta cada grupo y escribe cuántos hay. ¿Hay la misma cantidad en los dos grupos? Encierra ✓ para sí o ✗ para no."
+  },
+  "K-446": {
+    "title": "Dibuja esa cantidad",
+    "instruction": "Lee el número. Dibuja esa cantidad en el cuadro."
+  },
+  "K-447": {
+    "title": "¿Qué grupo tiene esa cantidad?",
+    "instruction": "Lee el número. Encierra el grupo que tiene exactamente esa cantidad."
   }
 }

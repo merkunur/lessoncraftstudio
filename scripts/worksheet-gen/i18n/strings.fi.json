@@ -3363,5 +3363,29 @@
   "K-441": {
     "title": "Sanakortit",
     "instruction": "Leikkaa kortit irti ja lue ne."
+  },
+  "K-442": {
+    "title": "Laske ja ympyröi lukusana",
+    "instruction": "Laske kuvat. Ympyröi lukusana, joka kertoo, montako niitä on."
+  },
+  "K-443": {
+    "title": "Yksi lisää, yksi vähemmän",
+    "instruction": "Laske kuvat. Katso merkkiä: kun siinä lukee ”1 lisää”, piirrä yksi tyhjään ruutuun; kun siinä lukee ”1 vähemmän”, yliviivaa yksi. Kirjoita, montako niitä on nyt."
+  },
+  "K-444": {
+    "title": "Jatka laskemista laatikosta",
+    "instruction": "Laatikon luku kertoo, montako sen sisällä on piilossa. Aloita siitä luvusta ja laske eteenpäin. Kirjoita, montako niitä on yhteensä."
+  },
+  "K-445": {
+    "title": "Yhtä monta?",
+    "instruction": "Laske jokainen ryhmä ja kirjoita, montako siinä on. Onko molemmissa ryhmissä yhtä monta? Ympyröi kyllä tai ei."
+  },
+  "K-446": {
+    "title": "Piirrä luvun verran",
+    "instruction": "Lue luku. Piirrä ruutuun niin monta kuin luku kertoo."
+  },
+  "K-447": {
+    "title": "Mikä ryhmä sopii lukuun?",
+    "instruction": "Lue luku. Ympyröi ryhmä, jossa on täsmälleen niin monta kuin luku kertoo."
   }
 }

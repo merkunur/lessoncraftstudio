@@ -133,7 +133,7 @@ async function boot() {
   const offered = tj.templates.filter((t) => t.locales.includes(LANG));
   if (!offered.length) { $('mk-pages').replaceChildren(el('p', { class: 'mk-note', text: UI.notInLanguage })); return; }
   // test hook for scripts/makers/gates/live-gate.js (the same objects the screen uses; nothing a teacher can reach)
-  window.__lcsMaker = { mod, tj, strings, LANG, loadType, mount: (html) => mod.mountHtml(gateFrame, html), state: () => JSON.parse(JSON.stringify(state)), version: () => ({ makerVersion, dataVersion }),
+  window.__lcsMaker = { mod, tj, strings, LANG, loadType, mount: (html) => mod.mountHtml(gateFrame, html), state: () => JSON.parse(JSON.stringify(state)), version: () => ({ makerVersion, dataVersion }), stringsFor,
     // build-thumbs.js: the sample page of template id, made and gated exactly as the screen makes it
     sample: async (id) => { const t = tj.templates.find((x) => x.id === id); const r = await mod.generate({ ...sampleOptions(t), type: await loadType(id) }, (html) => mod.mountHtml(gateFrame, html)); return r.ok ? r.html : null; } };
   await loadAccess();
@@ -222,9 +222,23 @@ const pageOps = {
   move(i, j) { if (j < 0 || j >= state.pages.length) return; drawingPage = null; padPages(); for (const k of PAGE_ARRAYS) if (state[k].length > Math.max(i, j)) { const [x] = state[k].splice(i, 1); state[k].splice(j, 0, x); } },
 };
 
-/** The strings of page i: the worksheet's own, with the teacher's title / instruction when she typed one. */
+/**
+ * A template's strings at a level: a level that prints its own instruction (and title) uses it — i18n/level-instructions.json
+ * (withLevelInstruction), carried in strings.<loc>.json as levels.<n>; a level title replaces the face's print title.
+ */
+function stringsFor(id, level) {
+  const b = strings[id];
+  const L = b && b.levels && b.levels[level];
+  if (!L) return b;
+  const { levels, ...rest } = b;
+  const out = { ...rest, instruction: L.instruction };
+  if (L.title) { out.title = L.title; delete out.printTitle; }
+  return out;
+}
+
+/** The strings of page i: the template's at this level, with the teacher's title / instruction when she typed one. */
 function pageStrings(i) {
-  const base = strings[state.id];
+  const base = stringsFor(state.id, state.level);
   const tx = state.texts[i] || {};
   const out = { ...base };
   if (tx.title) { out.title = tx.title; out.printTitle = tx.title; }
@@ -255,7 +269,8 @@ const results = new Map();
  * word, copy 1, the worksheet's own strings.
  */
 function sampleOptions(t) {
-  return { strings: strings[t.id], locale: LANG, difficulty: t.levels.includes(2) ? 2 : t.levels[0], theme: t.themed ? t.themes[0] : null, unit: ((t.units && t.units[LANG]) || [])[0] ? t.units[LANG][0].id : null, variant: 1, pageSize: state.paper, answerKey: false, answerKeySuffix: tj.answerKey[LANG] };
+  const level = t.levels.includes(2) ? 2 : t.levels[0];
+  return { strings: stringsFor(t.id, level), locale: LANG, difficulty: level, theme: t.themed ? t.themes[0] : null, unit: ((t.units && t.units[LANG]) || [])[0] ? t.units[LANG][0].id : null, variant: 1, pageSize: state.paper, answerKey: false, answerKeySuffix: tj.answerKey[LANG] };
 }
 
 function pageResult(i) {

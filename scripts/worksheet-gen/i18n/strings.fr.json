@@ -3387,5 +3387,29 @@
   "K-441": {
     "title": "Étiquettes-mots",
     "instruction": "Découpe les étiquettes et lis-les."
+  },
+  "K-442": {
+    "title": "Compte et entoure le nombre en lettres",
+    "instruction": "Compte les images. Entoure le nombre écrit en lettres qui dit combien il y en a."
+  },
+  "K-443": {
+    "title": "Un de plus, un de moins",
+    "instruction": "Compte les images. Regarde l’étiquette : pour « 1 de plus », dessines-en une dans la case vide ; pour « 1 de moins », barres-en une. Écris combien il y en a maintenant."
+  },
+  "K-444": {
+    "title": "Compte à partir de la boîte",
+    "instruction": "Le nombre sur la boîte dit combien il y en a de cachés dedans. Pars de ce nombre et continue à compter. Écris combien il y en a en tout."
+  },
+  "K-445": {
+    "title": "Y en a-t-il autant ?",
+    "instruction": "Compte chaque groupe et écris combien il y en a. Y a-t-il autant d’images dans les deux groupes ? Entoure ✓ pour oui ou ✗ pour non."
+  },
+  "K-446": {
+    "title": "Dessine le bon nombre",
+    "instruction": "Lis le nombre. Dessine ce nombre de ronds dans la case."
+  },
+  "K-447": {
+    "title": "Quel groupe a ce nombre ?",
+    "instruction": "Lis le nombre. Entoure le groupe qui a exactement ce nombre d’images."
   }
 }

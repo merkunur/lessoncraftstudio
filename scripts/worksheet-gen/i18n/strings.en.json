@@ -3402,5 +3402,29 @@
   "K-441": {
     "title": "Sight Word Flash Cards",
     "instruction": "Cut out the cards and read them."
+  },
+  "K-442": {
+    "title": "Count and Circle the Number Word",
+    "instruction": "Count the pictures. Circle the number word that tells how many."
+  },
+  "K-443": {
+    "title": "One More, One Less",
+    "instruction": "Count the pictures. Look at the label: for “1 more” draw one in the empty box; for “1 less” cross one out. Write how many there are now."
+  },
+  "K-444": {
+    "title": "Count On from the Box",
+    "instruction": "The number on the box tells how many are hidden inside. Start at that number and count on. Write how many there are in all."
+  },
+  "K-445": {
+    "title": "Same Number?",
+    "instruction": "Count each group and write how many. Do both groups have the same number? Circle ✓ for yes or ✗ for no."
+  },
+  "K-446": {
+    "title": "Draw That Many",
+    "instruction": "Read the number. Draw that many in the box."
+  },
+  "K-447": {
+    "title": "Which Group Has That Many?",
+    "instruction": "Read the number. Circle the group that has exactly that many."
   }
 }

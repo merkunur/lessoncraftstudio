@@ -15,7 +15,8 @@
         "K-007",
         "K-024",
         "K-027",
-        "K-343"
+        "K-343",
+        "K-442"
       ],
       "verdict": "covered",
       "activities": [
@@ -35,7 +36,9 @@
       "strand": "Counting & Cardinality",
       "worksheets": [
         "K-005",
-        "K-011"
+        "K-011",
+        "K-446",
+        "K-447"
       ],
       "verdict": "covered",
       "activities": [
@@ -45,6 +48,48 @@
       ],
       "planned": [],
       "note": "Animal Train (#9), Treat Box (#13) and Roll Book (#12) all count OUT a given number."
+    },
+    {
+      "tp": "K:one-more-one-less",
+      "grade": "K",
+      "skill": "Each next number is one more: count a group, add one (or take one away) and name the new number",
+      "code": "K.CC.B.4.c",
+      "strand": "Counting & Cardinality",
+      "worksheets": [
+        "K-443"
+      ],
+      "verdict": "covered",
+      "activities": [],
+      "planned": [],
+      "note": "Counting maker 2026-10-31 (NEW-TEMPLATES 2-T2). Activities gap: none yet."
+    },
+    {
+      "tp": "K:count-on",
+      "grade": "K",
+      "skill": "Count on from a given number (a closed group of known size + loose ones), the step to counting on in 1.OA.C.5",
+      "code": "K.CC.A.2",
+      "strand": "Counting & Cardinality",
+      "worksheets": [
+        "K-444"
+      ],
+      "verdict": "covered",
+      "activities": [],
+      "planned": [],
+      "note": "Counting maker 2026-10-31 (NEW-TEMPLATES 2-T3)."
+    },
+    {
+      "tp": "K:conservation",
+      "grade": "K",
+      "skill": "The number of objects is the same however they are arranged (lined up or spread out)",
+      "code": "K.CC.B.4.b",
+      "strand": "Counting & Cardinality",
+      "worksheets": [
+        "K-445"
+      ],
+      "verdict": "covered",
+      "activities": [],
+      "planned": [],
+      "note": "Counting maker 2026-10-31 (NEW-TEMPLATES 2-T4)."
     },
     {
       "tp": "K:one-to-one",

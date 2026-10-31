@@ -62,6 +62,7 @@ const OUT = path.join(REPO, 'out', 'makers');
   check(`sight-words fi: every card shows its own Finnish thumbnail, loaded, no live miniature (${c.length})`, c.length > 10 && c.every((x) => x.src === `/makers/sight-words/${ver}/thumbs/fi/${x.id}.webp` && x.w === 320 && !x.live), c.filter((x) => x.w !== 320 || x.live));
   // poison: one thumbnail missing → that card falls back to a live miniature
   const victim = path.join(OUT, 'sight-words', ver, 'thumbs', 'fi', `${c[2].id}.webp`);
+  if (!fs.existsSync(victim)) throw new Error('no thumbnail to take away (build the thumbnails first)');
   fs.renameSync(victim, victim + '.away');
   try {
     await p.goto(`${base}/makers/app/?maker=sight-words&lang=fi`, { waitUntil: 'networkidle0' }); await new Promise((r) => setTimeout(r, 2000));

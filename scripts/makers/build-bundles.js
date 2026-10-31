@@ -64,7 +64,7 @@ function record(types) {
   // maker would otherwise never be recorded for this one
   for (const k of Object.keys(require.cache)) if (k.startsWith(path.join(REPO, 'scripts'))) delete require.cache[k];
   const platform = require(path.join(WG, 'lib', 'platform', 'index.js'));
-  const { resolveStrings } = require(path.join(WG, 'i18n', 'strings.js'));
+  const { resolveStrings, withLevelInstruction } = require(path.join(WG, 'i18n', 'strings.js'));
   const { makePage } = require('./runtime.js');
   const reads = {};
   let current = null;
@@ -86,10 +86,14 @@ function record(types) {
       if (loc !== 'en' && s.source !== 'locale') { entry.refused[loc] = 'no native strings'; continue; }
       current = spec.id + '|' + loc;
       let ok = true;
+      // a level may print its own instruction (and title): i18n/level-instructions.json — the pages are built with it
+      const byLevel = {};
       for (const d of entry.levels) {
+        const sd = withLevelInstruction(s, spec.id, d, loc);
+        if (sd !== s) byLevel[d] = { instruction: sd.instruction, ...(sd.title !== s.title ? { title: sd.title } : {}) };
         for (const theme of themes.slice(0, 2)) {
           for (const variant of [1, 2]) {
-            try { makePage({ type: spec, strings: s, locale: loc, difficulty: d, theme, variant, answerKey: true, answerKeySuffix: ANSWER_KEY[loc] }); }
+            try { makePage({ type: spec, strings: sd, locale: loc, difficulty: d, theme, variant, answerKey: true, answerKeySuffix: ANSWER_KEY[loc] }); }
             catch (e) { ok = false; entry.refused[loc] = 'build failed: ' + String(e.message).slice(0, 160); }
           }
         }
@@ -102,7 +106,7 @@ function record(types) {
         const { unitTokens } = require(path.join(WG, 'lib', 'unit-axis.js'));
         (entry.units = entry.units || {})[loc] = (spec.unitAxis.units(loc) || []).map((id) => ({ id, word: String(unitTokens(spec, id, loc).UNIT) }));
       }
-      (strings[loc] = strings[loc] || {})[spec.id] = { title: s.title, instruction: s.instruction, ...(s.printTitle ? { printTitle: s.printTitle } : {}) };
+      (strings[loc] = strings[loc] || {})[spec.id] = { title: s.title, instruction: s.instruction, ...(s.printTitle ? { printTitle: s.printTitle } : {}), ...(Object.keys(byLevel).length ? { levels: byLevel } : {}) };
     }
     // does a new copy (seed) change the page? Some templates are fixed by their settings (a sight word of the day is
     // the same page every time) — there "New version" would do nothing, so the screen must not offer it (measured, not
@@ -218,8 +222,13 @@ async function main() {
     const meta = await bundle(id, rec.templates, tmp);
     const version = sha(fs.readdirSync(tmp).sort().map((f) => f + fs.readFileSync(path.join(tmp, f))).join('') + JSON.stringify(rec));
     const dir = path.join(OUT, id, version);
+    // the same version rebuilt: its thumbnails (build-thumbs.js) belong to the same content — keep them across the swap
+    const thumbs = path.join(dir, 'thumbs'), keep = path.join(OUT, id, '.thumbs-keep');
+    fs.rmSync(keep, { recursive: true, force: true });
+    if (fs.existsSync(thumbs)) fs.renameSync(thumbs, keep);
     fs.rmSync(dir, { recursive: true, force: true });
     fs.renameSync(tmp, dir);
+    if (fs.existsSync(keep)) fs.renameSync(keep, thumbs);
     // theme names per locale, from the topic taxonomy (all 100 picture themes have an entry in all 11 languages)
     const tax = JSON.parse(fs.readFileSync(path.join(REPO, 'frontend', 'config', 'topics-taxonomy.json'), 'utf8')).axes.theme;
     const norm = (s) => s.toLowerCase().replace(/[\s-]+/g, '_');
@@ -251,6 +260,12 @@ async function main() {
   writeVersions(built, dv, seed);
   report.push(`data@${dv}: ${files.length} files, ${(blobs.reduce((s, [, c]) => s + Buffer.byteLength(c), 0) / 1024).toFixed(0)} KB`);
   console.log(report.join('\n'));
+  // gallery thumbnails for what was just built (cached by page html: only changed pages are drawn) — a version without
+  // them falls back to live miniatures, so they are made here rather than left to a separate step. --no-thumbs skips.
+  if (!process.argv.includes('--no-thumbs')) {
+    const r = require('child_process').spawnSync(process.execPath, [path.join(__dirname, 'build-thumbs.js'), '--makers=' + makers.join(',')], { stdio: 'inherit' });
+    if (r.status !== 0) throw new Error('thumbnails failed');
+  }
 }
 
 main().catch((e) => { console.error(e.message); process.exit(1); });

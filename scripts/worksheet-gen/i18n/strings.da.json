@@ -3372,5 +3372,29 @@
   "K-441": {
     "title": "Ordkort",
     "instruction": "Klip kortene ud og læs dem."
+  },
+  "K-442": {
+    "title": "Tæl og sæt ring om talordet",
+    "instruction": "Tæl billederne. Sæt ring om det talord, der fortæller, hvor mange der er."
+  },
+  "K-443": {
+    "title": "En mere, en færre",
+    "instruction": "Tæl billederne. Se på mærket: Ved „1 mere“ tegner du en i det tomme felt, ved „1 færre“ streger du en ud. Skriv, hvor mange der er nu."
+  },
+  "K-444": {
+    "title": "Tæl videre fra kassen",
+    "instruction": "Tallet på kassen viser, hvor mange der er gemt i den. Begynd ved det tal, og tæl videre. Skriv, hvor mange der er i alt."
+  },
+  "K-445": {
+    "title": "Lige mange?",
+    "instruction": "Tæl hver gruppe, og skriv, hvor mange der er. Er der lige mange i begge grupper? Sæt ring om ✓ for ja eller ✗ for nej."
+  },
+  "K-446": {
+    "title": "Tegn så mange",
+    "instruction": "Læs tallet. Tegn så mange i feltet."
+  },
+  "K-447": {
+    "title": "Hvilken gruppe har så mange?",
+    "instruction": "Læs tallet. Sæt ring om den gruppe, der har præcis så mange."
   }
 }

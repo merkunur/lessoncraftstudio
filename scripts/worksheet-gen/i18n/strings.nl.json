@@ -3386,5 +3386,29 @@
   "K-441": {
     "title": "Woordkaarten",
     "instruction": "Knip de kaarten uit en lees ze."
+  },
+  "K-442": {
+    "title": "Tel en omcirkel het getal in letters",
+    "instruction": "Tel de plaatjes. Omcirkel het getal in letters dat zegt hoeveel het er zijn."
+  },
+  "K-443": {
+    "title": "Eén meer, één minder",
+    "instruction": "Tel de plaatjes. Kijk naar het label: bij ‘1 meer’ teken je er één in het lege vak, bij ‘1 minder’ streep je er één door. Schrijf op hoeveel het er nu zijn."
+  },
+  "K-444": {
+    "title": "Doortellen vanaf de doos",
+    "instruction": "Het getal op de doos zegt hoeveel erin verstopt zitten. Begin bij dat getal en tel door. Schrijf op hoeveel het er samen zijn."
+  },
+  "K-445": {
+    "title": "Evenveel?",
+    "instruction": "Tel elke groep en schrijf op hoeveel het er zijn. Zijn er in beide groepen evenveel? Omcirkel ✓ voor ja of ✗ voor nee."
+  },
+  "K-446": {
+    "title": "Teken er zoveel",
+    "instruction": "Lees het getal. Teken er zoveel in het vak."
+  },
+  "K-447": {
+    "title": "Welke groep heeft er zoveel?",
+    "instruction": "Lees het getal. Omcirkel de groep die er precies zoveel heeft."
   }
 }

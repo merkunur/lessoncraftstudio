@@ -7,6 +7,32 @@ records what is BUILT, measured and committed, step by step, so any session can 
 
 > 🛑 **NO DEPLOY (operator 2026-10-31):** no worksheet maker goes live until all 60 are built, tested and finalized locally. The pilot trio is a LOCAL pilot (built + reviewed at http://localhost:8490/), not a go-live. Everything is committed; nothing maker-related is deployed. The launch is one release of all 60.
 
+## Counting maker: 6 new templates K-442..K-447 (2026-10-31)
+
+- NEW-TEMPLATES §2 T1–T6, one factory `types/_shared/counting-more.js`: K-442 count and circle the number word (L3: write
+  it from a word bank with 2 extra words), K-443 one more / one less, K-444 count on from a closed box, K-445 same
+  number two ways (conservation), K-446 draw that many (L2: empty ten-frame), K-447 which group has that many.
+  Labels `data/counting-labels.js`; per-level instructions in `i18n/level-instructions.json` (K-442 L3, K-443 L1–2,
+  K-444 L1, K-446 L2). Coverage: K-442 → count-how-many, K-446/447 → count-out-n, and three new teaching points
+  K:one-more-one-less (K.CC.B.4.c), K:count-on (K.CC.A.2), K:conservation (K.CC.B.4.b). Counting maker: 20 templates.
+- **Answers placed by a balanced cycle** (never a coin per card); verify fails if the answer always sits in one place,
+  and (K-447) if the right group is always the same size rank — the reviewer found n−1 / n / n+1 solvable by comparing.
+- **Read every render** (en + fi/de, 3 levels): fixed tiny pictures in big cards (a best-fit row length), long fi words
+  overflowing chips, a write-in box drawn over pictures (K-445 redesigned: line on top, spread below, one picture size
+  for both groups), the "one more" empty box wrapping away from the row (reading-order grid, ≤ 5 a row), unequal
+  picture sizes between groups (K-447: one size per card).
+- **One reviewer, native + pedagogy, 11 locales + the sheets:** 17 wording fixes (es-MX *encierra*, da *sæt ring om* /
+  *felt*, it *barrare*, fr/it/fi comparisons without a referent …) + K-447 distractors one-sided on part of the page,
+  K-444 totals ≤ 10, a taped closed box, "hidden inside", and a worked example card at level 1, K-443 level 3 says what
+  each label means, K-442 level 3 bank + 2 words.
+- **Found while building:** the makers never applied `level-instructions.json` (147 templates print another instruction
+  at some level; none in the 3 built makers, every later maker affected) — the bundle now carries `levels` and the
+  screen's `stringsFor()` uses them (page, sample, thumbnails, live gate). And **a rebuild of an unchanged version
+  deleted its thumbnails** — the version folder now keeps them, and `build-bundles.js` ends by making thumbnails
+  (cached; `--no-thumbs` skips).
+- Checks: 49,599 Node builds (every theme × level × locale × 3 copies) 0 failing; live gate 2,970 pages 0 failing; all
+  shell gates, controls budget, thumbnails, old landings pass.
+
 ## P6 — gallery thumbnails in every language (2026-10-31)
 
 - `scripts/makers/build-thumbs.js` (run after `build-bundles.js`): each template's SAMPLE page, made by the screen's own

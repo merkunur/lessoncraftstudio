@@ -3692,5 +3692,78 @@
         "instruction": "Lue vihjeet. Ruksi ruudukosta se, mikä ei voi olla totta, ja merkitse väkäsellä se, minkä täytyy olla totta. Ympyröi sitten jokaisen lapsen kuva."
       }
     }
+  },
+  "K-442": {
+    "3": {
+      "en": "Count the pictures. Write the number word from the box.",
+      "de": "Zähle die Bilder. Schreibe das passende Zahlwort aus dem Kasten auf.",
+      "fr": "Compte les images. Écris le nombre en lettres pris dans le cadre.",
+      "es": "Cuenta los dibujos. Escribe el número con letra que está en el recuadro.",
+      "pt": "Conte as figuras. Escreva o número por extenso que está no quadro.",
+      "it": "Conta le immagini. Scrivi il numero in lettere preso dal riquadro.",
+      "nl": "Tel de plaatjes. Schrijf het getal in letters uit het kader op.",
+      "sv": "Räkna bilderna. Skriv räkneordet från rutan.",
+      "da": "Tæl billederne. Skriv talordet fra rammen.",
+      "no": "Tell bildene. Skriv tallordet fra rammen.",
+      "fi": "Laske kuvat. Kirjoita lukusana laatikosta."
+    }
+  },
+  "K-443": {
+    "1": {
+      "en": "Count the pictures. Draw one more in the empty box. Write how many there are now.",
+      "de": "Zähle die Bilder. Male eins dazu in das leere Kästchen. Schreibe auf, wie viele es jetzt sind.",
+      "fr": "Compte les images. Dessine-en une de plus dans la case vide. Écris combien il y en a maintenant.",
+      "es": "Cuenta los dibujos. Dibuja uno más en el cuadro vacío. Escribe cuántos hay ahora.",
+      "pt": "Conte as figuras. Desenhe mais uma no quadro vazio. Escreva quantas são agora.",
+      "it": "Conta le immagini. Disegnane una in più nel riquadro vuoto. Scrivi quante sono adesso.",
+      "nl": "Tel de plaatjes. Teken er één bij in het lege vak. Schrijf op hoeveel het er nu zijn.",
+      "sv": "Räkna bilderna. Rita en till i den tomma rutan. Skriv hur många det är nu.",
+      "da": "Tæl billederne. Tegn en mere i det tomme felt. Skriv, hvor mange der er nu.",
+      "no": "Tell bildene. Tegn én til i den tomme ruten. Skriv hvor mange det er nå.",
+      "fi": "Laske kuvat. Piirrä yksi lisää tyhjään ruutuun. Kirjoita, montako niitä on nyt."
+    },
+    "2": {
+      "en": "Count the pictures. Draw one more in the empty box. Write how many there are now.",
+      "de": "Zähle die Bilder. Male eins dazu in das leere Kästchen. Schreibe auf, wie viele es jetzt sind.",
+      "fr": "Compte les images. Dessine-en une de plus dans la case vide. Écris combien il y en a maintenant.",
+      "es": "Cuenta los dibujos. Dibuja uno más en el cuadro vacío. Escribe cuántos hay ahora.",
+      "pt": "Conte as figuras. Desenhe mais uma no quadro vazio. Escreva quantas são agora.",
+      "it": "Conta le immagini. Disegnane una in più nel riquadro vuoto. Scrivi quante sono adesso.",
+      "nl": "Tel de plaatjes. Teken er één bij in het lege vak. Schrijf op hoeveel het er nu zijn.",
+      "sv": "Räkna bilderna. Rita en till i den tomma rutan. Skriv hur många det är nu.",
+      "da": "Tæl billederne. Tegn en mere i det tomme felt. Skriv, hvor mange der er nu.",
+      "no": "Tell bildene. Tegn én til i den tomme ruten. Skriv hvor mange det er nå.",
+      "fi": "Laske kuvat. Piirrä yksi lisää tyhjään ruutuun. Kirjoita, montako niitä on nyt."
+    }
+  },
+  "K-444": {
+    "1": {
+      "en": "The number on the box tells how many are hidden inside. Count on: write the next numbers under the pictures, then how many there are in all.",
+      "de": "Die Zahl auf der Kiste sagt, wie viele darin versteckt sind. Zähle weiter: Schreibe die nächsten Zahlen unter die Bilder, dann, wie viele es insgesamt sind.",
+      "fr": "Le nombre sur la boîte dit combien il y en a de cachés dedans. Continue à compter : écris les nombres suivants sous les images, puis combien il y en a en tout.",
+      "es": "El número de la caja dice cuántos hay escondidos adentro. Sigue contando: escribe los números que siguen debajo de los dibujos y luego cuántos hay en total.",
+      "pt": "O número na caixa diz quantas estão escondidas dentro dela. Continue contando: escreva os próximos números embaixo das figuras e depois quantas são ao todo.",
+      "it": "Il numero sulla scatola dice quante ce ne sono nascoste dentro. Continua a contare: scrivi i numeri che seguono sotto le immagini, poi quante sono in tutto.",
+      "nl": "Het getal op de doos zegt hoeveel erin verstopt zitten. Tel door: schrijf de volgende getallen onder de plaatjes en dan hoeveel het er samen zijn.",
+      "sv": "Talet på lådan visar hur många som är gömda i den. Räkna vidare: skriv nästa tal under bilderna och sedan hur många det är tillsammans.",
+      "da": "Tallet på kassen viser, hvor mange der er gemt i den. Tæl videre: Skriv de næste tal under billederne og så, hvor mange der er i alt.",
+      "no": "Tallet på esken viser hvor mange som er gjemt i den. Tell videre: Skriv de neste tallene under bildene og så hvor mange det er til sammen.",
+      "fi": "Laatikon luku kertoo, montako sen sisällä on piilossa. Laske eteenpäin: kirjoita seuraavat luvut kuvien alle ja sitten, montako niitä on yhteensä."
+    }
+  },
+  "K-446": {
+    "2": {
+      "en": "Read the number. Draw that many in the ten-frame, one in each square.",
+      "de": "Lies die Zahl. Male so viele in das Zehnerfeld, in jedes Kästchen eins.",
+      "fr": "Lis le nombre. Dessine ce nombre de ronds dans la grille de dix, un par case.",
+      "es": "Lee el número. Dibuja esa cantidad en el marco de diez, uno en cada cuadrito.",
+      "pt": "Leia o número. Desenhe essa quantidade no quadro de dez, uma em cada quadradinho.",
+      "it": "Leggi il numero. Disegnane nella griglia del dieci tante quante dice il numero, una in ogni casella.",
+      "nl": "Lees het getal. Teken er zoveel in het tienveld, één in elk hokje.",
+      "sv": "Läs talet. Rita så många i tiorutan, en i varje ruta.",
+      "da": "Læs tallet. Tegn så mange i tierrammen, én i hvert felt.",
+      "no": "Les tallet. Tegn så mange i tierrammen, én i hver rute.",
+      "fi": "Lue luku. Piirrä kymppiruudukkoon niin monta kuin luku kertoo, yksi jokaiseen ruutuun."
+    }
   }
 }

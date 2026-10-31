@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-31",
- "count": 840,
+ "count": 846,
  "failures": [],
  "rows": [
   {
@@ -8942,6 +8942,169 @@
    "teachingPoint": "K:sight-words-reading",
    "skill": "Read sight words alone and in sentences; find a sight word among look-alikes",
    "strand": "Foundational Skills",
+   "science": false
+  },
+  {
+   "id": "K-442",
+   "file": "scripts/worksheet-gen/types/k/K-442-count-and-write-number-word.js",
+   "grade": "K",
+   "slug": "count-and-write-number-word",
+   "family": "counting-pictures",
+   "variationOf": null,
+   "title": "Count the Number Word",
+   "instruction": "Count the pictures. Circle the number word that tells how many.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "lo",
+    "hi",
+    "cards",
+    "cols",
+    "rows",
+    "bank"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/counting-more.js"
+   ],
+   "teachingPoint": "K:count-how-many",
+   "skill": "Count a set (scattered, framed, in an array) and name / write / match the number, to 10–20",
+   "strand": "Counting & Cardinality",
+   "science": false
+  },
+  {
+   "id": "K-443",
+   "file": "scripts/worksheet-gen/types/k/K-443-one-more-one-less.js",
+   "grade": "K",
+   "slug": "one-more-one-less",
+   "family": "counting-pictures",
+   "variationOf": null,
+   "title": "One More, One Less",
+   "instruction": "Count the pictures. Draw one more in the empty box, or cross one out. Write how many there are now.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "lo",
+    "hi",
+    "cards",
+    "dir"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/counting-more.js"
+   ],
+   "teachingPoint": "K:one-more-one-less",
+   "skill": "Each next number is one more: count a group, add one (or take one away) and name the new number",
+   "strand": "Counting & Cardinality",
+   "science": false
+  },
+  {
+   "id": "K-444",
+   "file": "scripts/worksheet-gen/types/k/K-444-count-on-from-the-box.js",
+   "grade": "K",
+   "slug": "count-on-from-the-box",
+   "family": "counting-pictures",
+   "variationOf": null,
+   "title": "Count On",
+   "instruction": "The box says how many are inside. Start at that number and count on. Write how many in all.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "box",
+    "loose",
+    "cards",
+    "trail"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/counting-more.js"
+   ],
+   "teachingPoint": "K:count-on",
+   "skill": "Count on from a given number (a closed group of known size + loose ones), the step to counting on in 1.OA.C.5",
+   "strand": "Counting & Cardinality",
+   "science": false
+  },
+  {
+   "id": "K-445",
+   "file": "scripts/worksheet-gen/types/k/K-445-same-number-two-ways.js",
+   "grade": "K",
+   "slug": "same-number-two-ways",
+   "family": "counting-pictures",
+   "variationOf": null,
+   "title": "Same Number?",
+   "instruction": "Count each group and write how many. Are there the same number in both groups?",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "lo",
+    "hi",
+    "cards"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/counting-more.js"
+   ],
+   "teachingPoint": "K:conservation",
+   "skill": "The number of objects is the same however they are arranged (lined up or spread out)",
+   "strand": "Counting & Cardinality",
+   "science": false
+  },
+  {
+   "id": "K-446",
+   "file": "scripts/worksheet-gen/types/k/K-446-draw-that-many.js",
+   "grade": "K",
+   "slug": "draw-that-many",
+   "family": "counting-pictures",
+   "variationOf": null,
+   "title": "Draw That Many",
+   "instruction": "Read the number. Draw that many in the box.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "lo",
+    "hi",
+    "cards",
+    "frame"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/counting-more.js"
+   ],
+   "teachingPoint": "K:count-out-n",
+   "skill": "Make a set of a given number (fill the frame, colour exactly N)",
+   "strand": "Counting & Cardinality",
+   "science": false
+  },
+  {
+   "id": "K-447",
+   "file": "scripts/worksheet-gen/types/k/K-447-which-group-shows-the-number.js",
+   "grade": "K",
+   "slug": "which-group-shows-the-number",
+   "family": "counting-pictures",
+   "variationOf": null,
+   "title": "Which Group Has That Many?",
+   "instruction": "Read the number. Circle the group that has exactly that many.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "lo",
+    "hi",
+    "groups",
+    "cards"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/counting-more.js"
+   ],
+   "teachingPoint": "K:count-out-n",
+   "skill": "Make a set of a given number (fill the frame, colour exactly N)",
+   "strand": "Counting & Cardinality",
    "science": false
   },
   {

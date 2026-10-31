@@ -3397,5 +3397,29 @@
   "K-441": {
     "title": "Wortkarten",
     "instruction": "Schneide die Karten aus und lies sie."
+  },
+  "K-442": {
+    "title": "Zähle und kreise das Zahlwort ein",
+    "instruction": "Zähle die Bilder. Kreise das Zahlwort ein, das sagt, wie viele es sind."
+  },
+  "K-443": {
+    "title": "Eins mehr, eins weniger",
+    "instruction": "Zähle die Bilder. Schau auf das Schild: Bei „1 mehr“ male eins in das leere Kästchen, bei „1 weniger“ streiche eins durch. Schreibe auf, wie viele es jetzt sind."
+  },
+  "K-444": {
+    "title": "Weiterzählen",
+    "instruction": "Die Zahl auf der Kiste sagt, wie viele darin versteckt sind. Fang bei dieser Zahl an und zähle weiter. Schreibe auf, wie viele es insgesamt sind."
+  },
+  "K-445": {
+    "title": "Gleich viele?",
+    "instruction": "Zähle jede Gruppe und schreibe auf, wie viele es sind. Sind es in beiden Gruppen gleich viele? Kreise ✓ für ja oder ✗ für nein ein."
+  },
+  "K-446": {
+    "title": "Male so viele",
+    "instruction": "Lies die Zahl. Male so viele in das Kästchen."
+  },
+  "K-447": {
+    "title": "Welche Gruppe passt zur Zahl?",
+    "instruction": "Lies die Zahl. Kreise die Gruppe ein, in der genau so viele sind."
   }
 }

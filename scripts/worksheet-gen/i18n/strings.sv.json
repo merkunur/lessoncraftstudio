@@ -3353,5 +3353,29 @@
   "K-441": {
     "title": "Ordkort",
     "instruction": "Klipp ut korten och läs dem."
+  },
+  "K-442": {
+    "title": "Räkna och ringa in räkneordet",
+    "instruction": "Räkna bilderna. Ringa in räkneordet som säger hur många det är."
+  },
+  "K-443": {
+    "title": "En till, en färre",
+    "instruction": "Räkna bilderna. Titta på lappen: vid ”1 till” ritar du en i den tomma rutan, vid ”1 färre” stryker du över en. Skriv hur många det är nu."
+  },
+  "K-444": {
+    "title": "Räkna vidare från lådan",
+    "instruction": "Talet på lådan visar hur många som är gömda i den. Börja på det talet och räkna vidare. Skriv hur många det är tillsammans."
+  },
+  "K-445": {
+    "title": "Lika många?",
+    "instruction": "Räkna varje grupp och skriv hur många det är. Är det lika många i båda grupperna? Ringa in ja eller nej."
+  },
+  "K-446": {
+    "title": "Rita så många",
+    "instruction": "Läs talet. Rita så många i rutan."
+  },
+  "K-447": {
+    "title": "Vilken grupp har så många?",
+    "instruction": "Läs talet. Ringa in den grupp som har exakt så många."
   }
 }

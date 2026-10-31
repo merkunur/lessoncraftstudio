@@ -3368,5 +3368,29 @@
   "K-441": {
     "title": "Cartellini delle parole",
     "instruction": "Ritaglia i cartellini e leggili."
+  },
+  "K-442": {
+    "title": "Conta e cerchia il numero in lettere",
+    "instruction": "Conta le immagini. Cerchia il numero scritto in lettere che dice quante sono."
+  },
+  "K-443": {
+    "title": "Uno in più, uno in meno",
+    "instruction": "Conta le immagini. Guarda l’etichetta: con «1 in più» disegnane una nel riquadro vuoto, con «1 in meno» barrane una. Scrivi quante sono adesso."
+  },
+  "K-444": {
+    "title": "Conta partendo dalla scatola",
+    "instruction": "Il numero sulla scatola dice quante ce ne sono nascoste dentro. Parti da quel numero e continua a contare. Scrivi quante sono in tutto."
+  },
+  "K-445": {
+    "title": "Stessa quantità?",
+    "instruction": "Conta ogni gruppo e scrivi quante sono. I due gruppi hanno la stessa quantità? Cerchia ✓ per sì o ✗ per no."
+  },
+  "K-446": {
+    "title": "Disegna quante dice il numero",
+    "instruction": "Leggi il numero. Disegnane nel riquadro tante quante dice il numero."
+  },
+  "K-447": {
+    "title": "Quale gruppo corrisponde al numero?",
+    "instruction": "Leggi il numero. Cerchia il gruppo che ne ha esattamente quante dice il numero."
   }
 }

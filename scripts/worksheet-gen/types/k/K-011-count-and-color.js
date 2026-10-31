@@ -8,9 +8,10 @@ const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { manifest, themeEntry, labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
 const slot = require('../../lib/slot.js');
 
-/** find a cached BW sibling of the given color theme (e.g. animals → "animals bw") */
+/** the BW (outline) theme to print: a BW theme itself (the maker offers those), or the cached BW sibling of a colour theme (e.g. animals → "animals bw") */
 function bwSibling(theme) {
   const m = manifest();
+  if (m.themes[theme] && m.themes[theme].bw) return theme;
   const hit = Object.entries(m.themes).find(([name, t]) => t.bw && t.baseTheme.toLowerCase() === theme.toLowerCase());
   if (!hit) throw new Error(`K-011: no BW sibling cached for theme ${theme} (pull "<theme> bw" first)`);
   return hit[0];

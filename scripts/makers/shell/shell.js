@@ -150,7 +150,13 @@ function choose(id, first) {
   const t = tj.templates.find((x) => x.id === id);
   state.id = id;
   if (!t.levels.includes(state.level)) state.level = t.levels.includes(2) ? 2 : t.levels[0];
-  if (t.themed) { if (!t.themes.includes(state.theme)) state.theme = t.themes[0]; } else state.theme = null;
+  // the theme the teacher picked, else the same subject in the kind this template offers (a colouring template offers
+  // only black-and-white: animals → animals bw), else the first; going back to a colour template restores her pick
+  if (t.themed) {
+    const want = state.pickedTheme || state.theme;
+    const base = (x) => (x || '').replace(/\s+bw(\s+\d+)?$/i, '');
+    state.theme = t.themes.includes(want) ? want : (t.themes.find((x) => base(x) === base(want)) || t.themes[0]);
+  } else state.theme = null;
   const units = t.units && t.units[LANG];
   state.unit = units && units.length ? (units.some((u) => u.id === state.unit) ? state.unit : units[0].id) : null;
   if (!first) { state.pages = [state.pages[0] || 1]; state.edits = [{}]; state.texts = [{}]; state.ink = []; drawingPage = null; }
@@ -553,6 +559,7 @@ function buildControls(t) {
           const base = state.theme.replace(/\s+bw(\s+\d+)?$/i, '');
           const pool = on ? bwThemes : colorThemes;
           state.theme = pool.find((x) => (on ? x.replace(/\s+bw(\s+\d+)?$/i, '') === base : x === base)) || pool[0];
+          state.pickedTheme = state.theme;
           state.edits = state.pages.map(() => ({})); state.ink = []; drawingPage = null;
           buildControls(t); render();
         } } }));
@@ -563,7 +570,7 @@ function buildControls(t) {
     for (const th of (bwOn ? bwThemes : colorThemes)) {
       const full = (tj.themeNames[LANG] && tj.themeNames[LANG][th]) || th;
       const name = isBw(th) ? full.replace(/\s+(BW|SW|BN|ZW|NB|PB|SV|SH|MV)(?=(\s+\d+)?$)/, '') : full;
-      row.append(el('button', { type: 'button', class: 'mk-theme', 'aria-pressed': String(th === state.theme), title: name, on: { click: () => { if (th !== state.theme) state.edits = state.pages.map(() => ({})); state.ink = []; drawingPage = null; state.theme = th; buildControls(t); render(); } } },
+      row.append(el('button', { type: 'button', class: 'mk-theme', 'aria-pressed': String(th === state.theme), title: name, on: { click: () => { if (th !== state.theme) { state.edits = state.pages.map(() => ({})); state.ink = []; drawingPage = null; } state.theme = th; state.pickedTheme = th; buildControls(t); render(); } } },
         [el('span', { class: 'mk-theme-pic', style: `background-image:url("${themePicture(th)}")` }), el('span', { class: 'mk-theme-name', text: name })]));
     }
     g.append(row); kids.push(g);

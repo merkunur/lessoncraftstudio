@@ -43,14 +43,16 @@ function makerTypes(id) {
   return { maker: m, types: inv.filter((r) => !r.science && (m.families.includes(r.family) || (m.extraIds || []).includes(r.id)) && !(m.hideIds || []).includes(r.id)) };
 }
 
+const isBwTheme = (t) => /bw(\s+\d+)?$/i.test(t);
 function themesFor(spec) {
   if (!spec.themeAxis || !spec.themeAxis.applicable) return [null];
   const man = JSON.parse(fs.readFileSync(path.join(WG, 'cache', 'manifest.json'), 'utf8')).themes;
   // colour AND black-and-white themes (operator 2026-10-31: the teacher may pick any theme; a page uses one theme, so it
   // is never a mix); colour first, so the recording and the default theme stay colour
-  const isBw = (t) => /bw(\s+\d+)?$/i.test(t);
-  const ok = Object.keys(man).sort((x, y) => isBw(x) - isBw(y)).filter((t) => Object.values(man[t].nouns).filter((n) => n.vocabKey).length >= ((spec.themeAxis && spec.themeAxis.minNouns) || 6));
-  return ok;
+  const ok = Object.keys(man).sort((x, y) => isBwTheme(x) - isBwTheme(y)).filter((t) => Object.values(man[t].nouns).filter((n) => n.vocabKey).length >= ((spec.themeAxis && spec.themeAxis.minNouns) || 6));
+  // a colouring template prints outlines whatever theme it is given (themeAxis.needsBwSibling): offer it the black-and-white
+  // themes only, so the theme tiles show what the child will colour (a colour tile would print its outline sibling)
+  return spec.themeAxis.needsBwSibling ? ok.filter(isBwTheme) : ok;
 }
 
 /** Step 1 + 2: record reads and resolve strings in Node. */

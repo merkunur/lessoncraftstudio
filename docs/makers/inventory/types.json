@@ -8716,9 +8716,9 @@
     "_shared/sight-word-pages.js",
     "primitives/trace-path.js"
    ],
-   "teachingPoint": null,
-   "skill": null,
-   "strand": null,
+   "teachingPoint": "K:sight-words-reading",
+   "skill": "Read sight words alone and in sentences; find a sight word among look-alikes",
+   "strand": "Foundational Skills",
    "science": false
   },
   {
@@ -8729,7 +8729,7 @@
    "family": "sight-words",
    "variationOf": null,
    "title": "Word and Sentence Tracing: {UNIT}",
-   "instruction": "Trace the word. Then trace the sentence again and again.",
+   "instruction": "Trace the word. Then trace the sentence on each line.",
    "assetClass": "icon-placement",
    "themed": false,
    "levels": 3,
@@ -8749,9 +8749,9 @@
     "_shared/sight-word-pages.js",
     "primitives/trace-path.js"
    ],
-   "teachingPoint": null,
-   "skill": null,
-   "strand": null,
+   "teachingPoint": "K:word-sentence-tracing",
+   "skill": "Trace and copy whole words (first words, long words, capitals, sight words) and short sentences, left to right with spaces between words",
+   "strand": "Handwriting / Foundational Skills",
    "science": false
   },
   {
@@ -8762,7 +8762,7 @@
    "family": "sight-words",
    "variationOf": null,
    "title": "Read and Draw: {UNIT}",
-   "instruction": "Read the sentence. Trace it. Then draw a picture of it.",
+   "instruction": "Read the sentence. Trace it. Then draw what the sentence says.",
    "assetClass": "icon-placement",
    "themed": false,
    "levels": 3,
@@ -8778,9 +8778,9 @@
     "_shared/sight-word-pages.js",
     "primitives/trace-path.js"
    ],
-   "teachingPoint": null,
-   "skill": null,
-   "strand": null,
+   "teachingPoint": "K:sight-words-reading",
+   "skill": "Read sight words alone and in sentences; find a sight word among look-alikes",
+   "strand": "Foundational Skills",
    "science": false
   },
   {
@@ -8790,14 +8790,13 @@
    "slug": "sight-word-find-in-text",
    "family": "sight-words",
    "variationOf": null,
-   "title": "Find the Word in the Text: {UNIT}",
-   "instruction": "Circle the word “{UNIT}” every time you see it. How many did you find?",
+   "title": "Find and Count: {UNIT}",
+   "instruction": "Circle the word “{UNIT}” every time you see it. How many times did you find it?",
    "assetClass": "icon-placement",
    "themed": false,
    "levels": 3,
    "params": [
-    "with",
-    "without",
+    "lines",
     "px"
    ],
    "interactive": false,
@@ -8805,9 +8804,9 @@
     "_shared/sight-word-pages.js",
     "templates/components.js"
    ],
-   "teachingPoint": null,
-   "skill": null,
-   "strand": null,
+   "teachingPoint": "K:sight-words-reading",
+   "skill": "Read sight words alone and in sentences; find a sight word among look-alikes",
+   "strand": "Foundational Skills",
    "science": false
   },
   {
@@ -8826,7 +8825,7 @@
     "words",
     "missing",
     "look",
-    "bank",
+    "decoys",
     "maxBox"
    ],
    "interactive": false,
@@ -8834,9 +8833,9 @@
     "_shared/sight-word-pages.js",
     "lib/slot.js"
    ],
-   "teachingPoint": null,
-   "skill": null,
-   "strand": null,
+   "teachingPoint": "K:sight-words-reading",
+   "skill": "Read sight words alone and in sentences; find a sight word among look-alikes",
+   "strand": "Foundational Skills",
    "science": false
   },
   {
@@ -8860,9 +8859,9 @@
     "_shared/sight-word-pages.js",
     "primitives/trace-path.js"
    ],
-   "teachingPoint": null,
-   "skill": null,
-   "strand": null,
+   "teachingPoint": "K:sight-words-reading",
+   "skill": "Read sight words alone and in sentences; find a sight word among look-alikes",
+   "strand": "Foundational Skills",
    "science": false
   },
   {
@@ -8889,9 +8888,9 @@
     "primitives/_tokens.js",
     "primitives/trace-path.js"
    ],
-   "teachingPoint": null,
-   "skill": null,
-   "strand": null,
+   "teachingPoint": "K:word-sentence-tracing",
+   "skill": "Trace and copy whole words (first words, long words, capitals, sight words) and short sentences, left to right with spaces between words",
+   "strand": "Handwriting / Foundational Skills",
    "science": false
   },
   {
@@ -8915,9 +8914,9 @@
     "lib/slot.js",
     "primitives/dice.js"
    ],
-   "teachingPoint": null,
-   "skill": null,
-   "strand": null,
+   "teachingPoint": "K:sight-words-reading",
+   "skill": "Read sight words alone and in sentences; find a sight word among look-alikes",
+   "strand": "Foundational Skills",
    "science": false
   },
   {
@@ -8928,7 +8927,7 @@
    "family": "sight-words",
    "variationOf": null,
    "title": "Sight Word Flash Cards",
-   "instruction": "Cut out the cards. Read each word.",
+   "instruction": "Cut out the cards and read them.",
    "assetClass": "icon-placement",
    "themed": false,
    "levels": 3,
@@ -8940,9 +8939,9 @@
     "_shared/sight-word-pages.js",
     "lib/slot.js"
    ],
-   "teachingPoint": null,
-   "skill": null,
-   "strand": null,
+   "teachingPoint": "K:sight-words-reading",
+   "skill": "Read sight words alone and in sentences; find a sight word among look-alikes",
+   "strand": "Foundational Skills",
    "science": false
   },
   {

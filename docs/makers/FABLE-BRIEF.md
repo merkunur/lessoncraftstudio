@@ -94,6 +94,12 @@ Judge every decision against it:
   - a page where the child writes gets a screen where the child writes;
   - Next appears 0.5 s after the result.
 
+## 3b. LESSONS FROM THE OLD APPS: binding input (operator 2026-10-31)
+
+`docs/makers/OLD-APP-LESSONS.md` distils about 280 fix commits and about 1,090 code comments from the 33 old apps into rules A1–A18 (content), B1–B12 (layout), C1–C9 (generation and state) and D1–D6 (screen), plus E (features teachers must not lose) and F (design mistakes not to repeat).
+
+Every run must show where each rule is satisfied **structurally** (by construction, a schema or a gate). F3 checks this rule by rule.
+
 ## 4. What you deliver
 
 Write **`docs/makers/ARCHITECTURE.md`** (run F1) and **`docs/makers/ENGINES.md`** (run F2). Run F3 reviews both and writes **`docs/makers/OPEN-DECISIONS.md`**. Each document must be buildable: name files, modules, data formats and order of work. Prefer reusing the existing engine over rewriting it, and say exactly what changes.

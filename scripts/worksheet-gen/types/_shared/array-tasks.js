@@ -231,7 +231,10 @@ function makeArrayType(cfg) {
           let r, c, g = 0;
           do { r = rng.int(L.rLo, L.rHi); c = rng.int(L.cLo, L.cHi); g++; } while ((r === c || used.has(r + 'x' + c)) && g < 30);
           used.add(r + 'x' + c);
-          const px = Math.min(34, Math.floor(190 / c));
+          // retries (arrFit) also size the pictures by the ROWS: a 5-row array at 34 px filled the card edge to edge, and on a
+          // key whose title wraps (fi "Kertolaskuperheet — Vastaukset", 2026-10-31) its last row was clipped into the footer
+          const fit = (ctx && ctx.arrFit) || 0;
+          const px = fit ? Math.min(34, Math.floor(190 / c), Math.floor((fit === 1 ? 150 : 135) / r)) : Math.min(34, Math.floor(190 / c));
           const line = (x, op, y, ans) =>
             `<span style="display:inline-flex;align-items:center;gap:6px" data-lcs-fact="${x}${op}${y}=${ans}">` +
             NUM(x) + OP(op === '*' ? MUL : div) + NUM(y) + OP('=') + answerBox({ w: 50, h: 40, answer: ans }) + `</span>`;

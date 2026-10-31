@@ -10,9 +10,9 @@ export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
 /**
- * POST /api/quota/check-and-increment  Body: { kind: 'download' | 'play' }
+ * POST /api/quota/check-and-increment  Body: { kind: 'download' | 'play' | 'make' }
  * 200 {allowed:true, used, remaining, resetAt}
- * 401 {allowed:false, reason:'signup_required', signupPath}   (anon download)
+ * 401 {allowed:false, reason:'signup_required', signupPath}   (anon download / make)
  * 402 {allowed:false, reason:'quota_exceeded', used, remaining, resetAt, pricingPath}
  * Fail-open on internal errors (metering never takes the site down).
  */
@@ -22,6 +22,7 @@ export async function POST(request: NextRequest) {
     try {
       const body = await request.json();
       if (body?.kind === 'download') kind = 'download';
+      else if (body?.kind === 'make') kind = 'make';
     } catch {
       /* default play */
     }

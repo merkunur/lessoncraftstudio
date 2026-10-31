@@ -394,9 +394,10 @@ Facts in `frontend/lib/quota.ts`: downloads 3 per UTC month and plays 10 per UTC
 
 | action | metered? | how |
 |---|---|---|
-| open a maker, generate, edit, preview, add pages | **never** — nothing leaves the browser | — |
+| open a maker, browse the gallery, see each template's fixed sample page | never | — |
+| **make a worksheet** (open a template for editing) — **operator ruling 2026-10-31, supersedes "making is never metered"** | `make`: **3 per UTC month for a free account; anonymous visitors cannot make (sample page + sign-in); subscribers unlimited** | "Make this worksheet" calls check-and-increment `{kind:'make'}`; 200 opens the template; inside an opened worksheet every change is free (level, pictures, word, paper, New version, pages) for the rest of the tab session; 401 → sign-in, 402 → plans. One make = one worksheet opened (operator choice). Gate: `scripts/makers/gates/access-shell.js` |
 | save a recipe, list, share link | not metered; requires sign-in (the workspace rule, CLAUDE.md §7) | own API |
-| Download PDF (vector or raster), Save image, "Print my worksheet" from a student page | `download` | the shell calls check-and-increment *before* building the file; 401 → sign-in sheet; 402 → the existing pricing path; 200 → build and save. The file is built client-side only after a 200 |
+| Download PDF (vector or raster), **the Print button** (a printed / saved PDF is a download), Save image, "Print my worksheet" from a student page | `download` | the shell calls check-and-increment *before* building the file; 401 → sign-in sheet; 402 → the existing pricing path; 200 → build and save. The file is built client-side only after a 200 |
 | open a student link | `play` | the play shell calls check-and-increment `{kind:'play'}` once per load; 402 → the kid-safe "paused" page (the hosted-worksheet precedent) |
 | teacher preview of her own screen version | not a play | no call |
 

@@ -24,8 +24,46 @@ const ROUTES = [
 ];
 const TYPES = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json', '.txt': 'text/plain', '.webp': 'image/webp', '.png': 'image/png', '.woff2': 'font/woff2', '.map': 'application/json' };
 
+/*
+ * A stand-in for the site's metering API (frontend/lib/quota.ts), so the access rules can be tried locally:
+ *   /__dev/access?as=anon|free|sub[&made=N][&downloaded=N]   switch who you are (default: sub)
+ * It answers like the real routes: anonymous make/download → 401, a free account past 3 → 402, a subscriber unlimited.
+ */
+const dev = { as: (process.argv.find((a) => a.startsWith('--access=')) || '--access=sub').slice(9), made: 0, downloaded: 0 };
+const CAP = 3;
+function devApi(req, res, url, query) {
+  const send = (status, body) => { res.writeHead(status, { 'content-type': 'application/json', 'cache-control': 'no-store' }); res.end(JSON.stringify(body)); };
+  if (url === '/__dev/access') {
+    if (query.get('as')) dev.as = query.get('as');
+    if (query.get('made') !== null) dev.made = Number(query.get('made'));
+    if (query.get('downloaded') !== null) dev.downloaded = Number(query.get('downloaded'));
+    return send(200, dev);
+  }
+  const meter = (used) => (dev.as === 'sub' ? 'unlimited' : dev.as === 'anon' ? 0 : Math.max(0, CAP - used));
+  if (url === '/api/quota/status') {
+    return send(200, { kind: { anon: 'anon', free: 'free-user', sub: 'subscriber' }[dev.as], make: { remaining: meter(dev.made) }, download: { remaining: meter(dev.downloaded) } });
+  }
+  if (url === '/api/quota/check-and-increment' && req.method === 'POST') {
+    let body = '';
+    req.on('data', (c) => { body += c; });
+    req.on('end', () => {
+      const kind = (JSON.parse(body || '{}').kind) || 'play';
+      const field = kind === 'make' ? 'made' : 'downloaded';
+      if (dev.as === 'sub') return send(200, { allowed: true, remaining: 'unlimited' });
+      if (dev.as === 'anon') return send(401, { allowed: false, reason: 'signup_required' });
+      if (dev[field] >= CAP) return send(402, { allowed: false, reason: 'quota_exceeded', remaining: 0 });
+      dev[field]++;
+      return send(200, { allowed: true, used: dev[field], remaining: CAP - dev[field] });
+    });
+    return true;
+  }
+  return false;
+}
+
 function handler(req, res) {
-  const url = decodeURIComponent(req.url.split('?')[0]);
+  const [rawPath, rawQuery] = req.url.split('?');
+  if (rawPath.startsWith('/__dev/') || rawPath.startsWith('/api/quota/')) { if (devApi(req, res, rawPath, new URLSearchParams(rawQuery || '')) !== false) return; }
+  const url = decodeURIComponent(rawPath);
   for (const [prefix, dir] of ROUTES) {
     if (!url.startsWith(prefix)) continue;
     let f = path.join(dir, url.slice(prefix.length));

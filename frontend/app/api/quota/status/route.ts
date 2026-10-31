@@ -4,19 +4,21 @@ import { resolveQuotaIdentity, checkQuota, anonCookieSetHeader } from '@/lib/quo
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
-/** GET /api/quota/status — read-only meter state for both kinds. */
+/** GET /api/quota/status — read-only meter state for every kind. */
 export async function GET(request: NextRequest) {
   try {
     const identity = await resolveQuotaIdentity(request);
-    const [play, download] = await Promise.all([
+    const [play, download, make] = await Promise.all([
       checkQuota(identity, 'play'),
       checkQuota(identity, 'download'),
+      checkQuota(identity, 'make'),
     ]);
     const res = NextResponse.json(
       {
         kind: identity.kind,
         play: { ...play, resetAt: play.resetAt.toISOString() },
         download: { ...download, resetAt: download.resetAt.toISOString() },
+        make: { ...make, resetAt: make.resetAt.toISOString() },
       },
       { headers: { 'Cache-Control': 'no-store' } }
     );

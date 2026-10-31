@@ -26,7 +26,7 @@ Nothing below needs to be decided before the five measuring spikes (S1–S5) and
 
 | # | decision | ruling (2026-10-31) | where it lands |
 |---|---|---|---|
-| D-1 | Anonymous downloads | **Keep today's rules:** anonymous visitors cannot download; a free account gets 3 downloads a month; subscribers unlimited. Making and previewing stay free and unmetered for everyone. | ARCHITECTURE §9, §18-D |
+| D-1 | Anonymous downloads | **Keep today's rules:** anonymous visitors cannot download; a free account gets 3 downloads a month; subscribers unlimited. ~~Making and previewing stay free and unmetered for everyone.~~ **Superseded 2026-10-31 (operator): making is metered too — a free account makes 3 worksheets a month (one make = one worksheet opened, changes inside it free); anonymous visitors see the gallery + one sample page per template; subscribers unlimited. Reason: screenshots of unmetered pages made the download limit meaningless.** | ARCHITECTURE §9, §18-D |
 | D-2 | New build dependency | **`esbuild` approved** as a dev dependency. No runtime dependency is added. | ARCHITECTURE §2.3, §18-H |
 | D-3 | Hosted (rendered) worksheets | **Cap stays at 200 MB per subscriber**; the old store keeps working untouched. | ARCHITECTURE §13.5 |
 | D-4 | Makers per topic | **One maker per topic (60).** Cross-link cards (#9 below) do not change this — a type still lives in exactly one maker. | MAKERS.md, topic-map |

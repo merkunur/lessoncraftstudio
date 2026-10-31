@@ -8,6 +8,9 @@
  *     reason 'signup_required' (the education.com model).
  *   - kind 'play' (interactive decks + activities): 10 per UTC DAY for both
  *     anonymous and free accounts (the IXL model).
+ *   - kind 'make' (a NEW worksheet opened in a worksheet maker — operator ruling
+ *     2026-10-31): 3 per UTC MONTH, FREE ACCOUNT REQUIRED like downloads; inside an
+ *     opened worksheet every change is free (docs/makers/ARCHITECTURE.md §9).
  *   - Subscribers (isSubscriptionUsable — active/grace/paid-through) and
  *     crawler UAs bypass entirely (crawlers NEVER see the wall — the Google
  *     flexible-sampling requirement).
@@ -26,8 +29,9 @@ import { verifyRefreshToken } from './auth-utils';
 
 export const DOWNLOADS_PER_MONTH = 3;
 export const PLAYS_PER_DAY = 10;
+export const MAKES_PER_MONTH = 3;
 
-export type QuotaKind = 'download' | 'play';
+export type QuotaKind = 'download' | 'play' | 'make';
 
 const ANON_COOKIE_NAME = 'lcs_anon_id';
 const ANON_COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24 * 365; // 1 year
@@ -71,9 +75,9 @@ export function nextUtcMonthStart(d: Date = new Date()): Date {
 }
 
 function periodFor(kind: QuotaKind): { periodStart: Date; resetAt: Date; cap: number } {
-  return kind === 'download'
-    ? { periodStart: startOfUtcMonth(), resetAt: nextUtcMonthStart(), cap: DOWNLOADS_PER_MONTH }
-    : { periodStart: startOfUtcDay(), resetAt: nextUtcMidnight(), cap: PLAYS_PER_DAY };
+  if (kind === 'download') return { periodStart: startOfUtcMonth(), resetAt: nextUtcMonthStart(), cap: DOWNLOADS_PER_MONTH };
+  if (kind === 'make') return { periodStart: startOfUtcMonth(), resetAt: nextUtcMonthStart(), cap: MAKES_PER_MONTH };
+  return { periodStart: startOfUtcDay(), resetAt: nextUtcMidnight(), cap: PLAYS_PER_DAY };
 }
 
 /**
@@ -167,7 +171,7 @@ export async function checkQuota(identity: QuotaIdentity, kind: QuotaKind): Prom
 
   if (!meteringEnabled()) return unlimited(resetAt);
   if (identity.kind === 'subscriber' || identity.kind === 'bot') return unlimited(resetAt);
-  if (kind === 'download' && identity.kind === 'anon') {
+  if ((kind === 'download' || kind === 'make') && identity.kind === 'anon') {
     return { allowed: false, used: 0, remaining: 0, resetAt, reason: 'signup_required' };
   }
 
@@ -200,7 +204,7 @@ export async function checkAndIncrementQuota(
 
   if (!meteringEnabled()) return unlimited(resetAt);
   if (identity.kind === 'subscriber' || identity.kind === 'bot') return unlimited(resetAt);
-  if (kind === 'download' && identity.kind === 'anon') {
+  if ((kind === 'download' || kind === 'make') && identity.kind === 'anon') {
     return { allowed: false, used: 0, remaining: 0, resetAt, reason: 'signup_required' };
   }
 

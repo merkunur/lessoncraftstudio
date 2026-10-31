@@ -29,6 +29,56 @@ let mod, tj, strings, picManifest;
 const typeCache = {};
 const state = { id: null, level: 2, theme: null, unit: null, answerKey: false, paper: LANG === 'en' ? 'letter' : 'a4', pages: [1] };
 
+/*
+ * Who may make what (operator ruling 2026-10-31; frontend/lib/quota.ts kind 'make'):
+ *   anonymous   → the gallery + one fixed sample page per template; signing in is offered
+ *   free account → 3 worksheets a month: "Make this worksheet" spends one; inside an opened worksheet every change is
+ *                  free (level, pictures, word, paper, New version, pages) until the tab is closed
+ *   subscriber  → everything, unmetered
+ * The server is the authority (it counts); the screen only follows it, and fails open the way the server does.
+ */
+const access = { kind: 'unknown', makesLeft: Infinity };
+const openKey = `lcs-maker-open:${MAKER}:${new Date().toISOString().slice(0, 7)}`;
+let opened = new Set();
+try { opened = new Set(JSON.parse(sessionStorage.getItem(openKey) || '[]')); } catch (e) { /* private window: nothing kept */ }
+const keepOpened = () => { try { sessionStorage.setItem(openKey, JSON.stringify([...opened])); } catch (e) { /* not kept */ } };
+const isOpen = (id) => access.makesLeft === Infinity || opened.has(id);
+
+async function loadAccess() {
+  try {
+    const j = await (await fetch('/api/quota/status', { credentials: 'same-origin', cache: 'no-store' })).json();
+    access.kind = j.kind || 'unknown';
+    access.makesLeft = j.make && typeof j.make.remaining === 'number' ? j.make.remaining : Infinity;
+  } catch (e) { /* the server fails open; so does the screen */ }
+}
+
+/** Leave the maker for a site page (the maker may sit in a landing page's frame: the whole tab goes). */
+function goTo(url) { try { window.top.location.href = url; } catch (e) { location.href = url; } }
+const signInUrl = () => `/${LANG}/auth/signin?redirect=${encodeURIComponent(location.pathname + location.search)}`;
+
+async function spendMake() {
+  const r = await fetch('/api/quota/check-and-increment', { method: 'POST', credentials: 'same-origin', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ kind: 'make' }) });
+  if (r.status === 401) return goTo(signInUrl());
+  const j = await r.json().catch(() => ({}));
+  if (r.status === 402) { access.makesLeft = 0; }
+  else { opened.add(state.id); keepOpened(); if (typeof j.remaining === 'number') access.makesLeft = j.remaining; }
+  const t = tj.templates.find((x) => x.id === state.id);
+  buildControls(t); render();
+}
+
+/** The card shown in place of the controls while a template is not opened. */
+function accessCard() {
+  const card = el('div', { class: 'mk-access' });
+  if (access.kind === 'anon') {
+    card.append(el('p', { text: UI.signInToMake }), el('button', { type: 'button', class: 'mk-btn mk-primary', text: UI.signIn, on: { click: () => goTo(signInUrl()) } }));
+  } else if (access.makesLeft > 0) {
+    card.append(el('p', { text: UI.makesLeft.replace('{n}', access.makesLeft) }), el('button', { type: 'button', class: 'mk-btn mk-primary', text: UI.makeThis, on: { click: spendMake } }));
+  } else {
+    card.append(el('p', { text: UI.noMakesLeft }), el('button', { type: 'button', class: 'mk-btn mk-primary', text: UI.seePlans, on: { click: () => goTo(`/${LANG}/pricing`) } }));
+  }
+  return card;
+}
+
 async function loadType(id) { if (!typeCache[id]) { const m = await mod.templates[id](); typeCache[id] = m.default || m; } return typeCache[id]; }
 
 async function boot() {
@@ -55,6 +105,8 @@ async function boot() {
   if (!offered.length) { $('mk-pages').replaceChildren(el('p', { class: 'mk-note', text: UI.notInLanguage })); return; }
   // test hook for scripts/makers/gates/live-gate.js (the same objects the screen uses; nothing a teacher can reach)
   window.__lcsMaker = { mod, tj, strings, LANG, loadType, mount: (html) => mod.mountHtml(gateFrame, html) };
+  await loadAccess();
+  document.body.setAttribute('data-print-hint', UI.printHint);
   const want = params.get('t');
   choose((offered.find((t) => t.id === want) || offered[0]).id, true);
   buildGallery(offered);
@@ -110,7 +162,9 @@ const results = new Map();
 function pageResult(i) {
   const t = tj.templates.find((x) => x.id === state.id);
   const ps = pageSpec(i);
-  const o = { strings: strings[state.id], locale: LANG, difficulty: state.level, theme: state.theme, unit: ps.unit, variant: ps.variant, pageSize: state.paper, answerKey: state.answerKey && t.interactive, answerKeySuffix: tj.answerKey[LANG] };
+  const o = isOpen(state.id)
+    ? { strings: strings[state.id], locale: LANG, difficulty: state.level, theme: state.theme, unit: ps.unit, variant: ps.variant, pageSize: state.paper, answerKey: state.answerKey && t.interactive, answerKeySuffix: tj.answerKey[LANG] }
+    : { strings: strings[state.id], locale: LANG, difficulty: t.levels.includes(2) ? 2 : t.levels[0], theme: t.themed ? t.themes[0] : null, unit: ((t.units && t.units[LANG]) || [])[0] ? t.units[LANG][0].id : null, variant: 1, pageSize: state.paper, answerKey: false, answerKeySuffix: tj.answerKey[LANG] };
   const id = state.id;
   const cacheKey = JSON.stringify([id, o.difficulty, o.theme, o.unit, o.variant, o.pageSize, o.answerKey]);
   if (!results.has(cacheKey)) {
@@ -144,8 +198,10 @@ async function render() {
   // a button that changes nothing is a defect: where copies at this level are all the same page there is no
   // "New version", and "Add page" exists only if it can add the next word
   const differ = t.copiesDiffer.includes(state.level);
-  $('mk-new').hidden = !differ;
-  $('mk-add').hidden = !differ && !((t.units && t.units[LANG]) || []).length;
+  const open = isOpen(state.id);
+  $('mk-new').hidden = !open || !differ;
+  $('mk-add').hidden = !open || (!differ && !((t.units && t.units[LANG]) || []).length);
+  if (!open) state.pages = [state.pages[0] || 1];
   const out = [];
   let refused = 0;
   $('mk-print').disabled = true;
@@ -170,6 +226,8 @@ async function render() {
   host.replaceChildren(...out);
   // never ship a page that failed a gate: no printing while any page is refused
   $('mk-print').disabled = refused > 0;
+  // a sample page is never printed: no Print button at all (a button that cannot be used explains nothing; the card does)
+  $('mk-print').hidden = !isOpen(state.id);
 }
 
 function chipGroup(label, values, current, onPick, fmt) {
@@ -180,6 +238,7 @@ function chipGroup(label, values, current, onPick, fmt) {
 
 function buildControls(t) {
   const c = $('mk-controls');
+  if (!isOpen(t.id)) { c.replaceChildren(el('span', { class: 'mk-label', text: UI.sample }), accessCard()); return; }
   const kids = [];
   if (t.levels.length > 1) kids.push(chipGroup(UI.level, t.levels, state.level, (v) => { state.level = v; buildControls(t); render(); }));
   if (t.themed && t.themes.length > 1) {
@@ -247,6 +306,12 @@ function buildGallery(offered) {
 
 /** All pages (+ answer keys) in one hidden frame, then the browser's print dialog ("Save as PDF" makes a vector PDF). */
 async function printAll() {
+  if (!isOpen(state.id)) return;
+  if (access.makesLeft !== Infinity || access.kind === 'anon') {
+    const r = await fetch('/api/quota/check-and-increment', { method: 'POST', credentials: 'same-origin', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ kind: 'download' }) }).catch(() => null);
+    if (r && r.status === 401) return goTo(signInUrl());
+    if (r && r.status === 402) { $('mk-controls').prepend(el('p', { class: 'mk-access-note', text: UI.noDownloadsLeft })); return; }
+  }
   const t = tj.templates.find((x) => x.id === state.id);
   const docs = [];
   for (let i = 0; i < state.pages.length; i++) docs.push(await makeHtml(i, false));

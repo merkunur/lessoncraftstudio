@@ -3444,5 +3444,25 @@
   "K-454": {
     "title": "Pinte as partes",
     "instruction": "Pinte os quadradinhos: tantos de vermelho quanto o número vermelho e tantos de azul quanto o número azul."
+  },
+  "G1-434": {
+    "title": "O quadro numérico até 120",
+    "instruction": "O quadro continua depois do 100. Escreva cada número que falta no seu quadradinho."
+  },
+  "G1-435": {
+    "title": "Desenho escondido no quadro de cem",
+    "instruction": "Procure no quadro cada número da lista e pinte o quadradinho dele. Aparece um desenho!"
+  },
+  "G1-436": {
+    "title": "Complete o quadro numérico",
+    "instruction": "Escreva os números que faltam em ordem, quadradinho por quadradinho."
+  },
+  "G1-437": {
+    "title": "Contar pulando a partir de qualquer número",
+    "instruction": "Ache a regra de cada fileira. Escreva os números que faltam."
+  },
+  "G2-394": {
+    "title": "Quadro numérico até 1.000",
+    "instruction": "Alguns números estão escondidos. Escreva cada número que falta no seu quadradinho."
   }
 }

@@ -3415,5 +3415,25 @@
   "K-454": {
     "title": "Väritä osat",
     "instruction": "Väritä ruudut: yhtä monta punaiseksi kuin punainen luku ja yhtä monta siniseksi kuin sininen luku."
+  },
+  "G1-434": {
+    "title": "Lukutaulu 120:een asti",
+    "instruction": "Taulu jatkuu sadan jälkeen. Kirjoita jokainen puuttuva luku ruutuunsa."
+  },
+  "G1-435": {
+    "title": "Satataulun piilokuva",
+    "instruction": "Etsi taulusta jokainen listan luku ja väritä sen ruutu. Esiin tulee kuva!"
+  },
+  "G1-436": {
+    "title": "Täytä lukutaulu",
+    "instruction": "Kirjoita puuttuvat luvut järjestyksessä ruutu ruudulta."
+  },
+  "G1-437": {
+    "title": "Lukujonot mistä tahansa luvusta alkaen",
+    "instruction": "Etsi jokaisen rivin sääntö. Kirjoita puuttuvat luvut."
+  },
+  "G2-394": {
+    "title": "Lukutaulu 1000:een asti",
+    "instruction": "Osa luvuista piileskelee. Kirjoita jokainen puuttuva luku ruutuunsa."
   }
 }

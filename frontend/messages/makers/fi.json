@@ -36,7 +36,8 @@
   "makers": {
     "ten-frames": "Kymppiruudukot ja tukkimiehen kirjanpito",
     "counting": "Laskeminen",
-    "sight-words": "Yleisimmät sanat"
+    "sight-words": "Yleisimmät sanat",
+    "number-sequences": "Lukutaulut ja lukujonot"
   },
   "editTitle": "Muokkaa otsikkoa",
   "editInstruction": "Muokkaa tehtävänantoa",

@@ -3424,5 +3424,25 @@
   "K-454": {
     "title": "Farvelæg delene",
     "instruction": "Farvelæg felterne: lige så mange røde som det røde tal, lige så mange blå som det blå tal."
+  },
+  "G1-434": {
+    "title": "Taltavlen til 120",
+    "instruction": "Tavlen fortsætter efter 100. Skriv de manglende tal i de tomme felter."
+  },
+  "G1-435": {
+    "title": "Det skjulte billede i hundredtabellen",
+    "instruction": "Find hvert tal fra listen i tabellen, og farv feltet. Et billede kommer frem!"
+  },
+  "G1-436": {
+    "title": "Udfyld taltavlen",
+    "instruction": "Skriv de manglende tal i rækkefølge, felt for felt."
+  },
+  "G1-437": {
+    "title": "Tæl i spring fra et hvilket som helst tal",
+    "instruction": "Find hver rækkes regel. Skriv de manglende tal."
+  },
+  "G2-394": {
+    "title": "Taltavle til 1000",
+    "instruction": "Nogle tal gemmer sig. Skriv de manglende tal i de tomme felter."
   }
 }

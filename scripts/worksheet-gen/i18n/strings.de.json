@@ -3449,5 +3449,25 @@
   "K-454": {
     "title": "Zerlegen im Zehnerfeld",
     "instruction": "Male die Kästchen an: so viele rot wie die rote Zahl, so viele blau wie die blaue Zahl."
+  },
+  "G1-434": {
+    "title": "Die Zahlentafel bis 120",
+    "instruction": "Die Tafel geht über 100 hinaus. Schreibe jede fehlende Zahl in ihr Kästchen."
+  },
+  "G1-435": {
+    "title": "Das versteckte Bild in der Hundertertafel",
+    "instruction": "Suche jede Zahl aus der Liste in der Tafel und male ihr Kästchen an. Ein Bild erscheint!"
+  },
+  "G1-436": {
+    "title": "Die Zahlentafel ausfüllen",
+    "instruction": "Schreibe die fehlenden Zahlen der Reihe nach in die Kästchen."
+  },
+  "G1-437": {
+    "title": "In Schritten zählen – von jeder Zahl aus",
+    "instruction": "Finde die Regel jeder Reihe. Schreibe die fehlenden Zahlen auf."
+  },
+  "G2-394": {
+    "title": "Zahlentafel im Tausenderraum",
+    "instruction": "Einige Zahlen haben sich versteckt. Schreibe jede fehlende Zahl in ihr Kästchen."
   }
 }

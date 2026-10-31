@@ -3405,5 +3405,25 @@
   "K-454": {
     "title": "Färglägg delarna",
     "instruction": "Färglägg rutorna: lika många röda som det röda talet, lika många blå som det blå talet."
+  },
+  "G1-434": {
+    "title": "Taltavlan till 120",
+    "instruction": "Tavlan fortsätter efter 100. Skriv varje tal som saknas i sin ruta."
+  },
+  "G1-435": {
+    "title": "Den gömda bilden i hundratavlan",
+    "instruction": "Leta upp varje tal från listan i tavlan och färglägg rutan. En bild dyker upp!"
+  },
+  "G1-436": {
+    "title": "Fyll i taltavlan",
+    "instruction": "Skriv talen som saknas i ordning, ruta för ruta."
+  },
+  "G1-437": {
+    "title": "Hoppräkna från vilket tal som helst",
+    "instruction": "Hitta varje rads regel. Skriv talen som saknas."
+  },
+  "G2-394": {
+    "title": "Taltavla till 1000",
+    "instruction": "Några tal gömmer sig. Skriv varje tal som saknas i sin ruta."
   }
 }

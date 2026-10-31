@@ -3439,5 +3439,25 @@
   "K-454": {
     "title": "Colorie les parties",
     "instruction": "Colorie les cases : autant en rouge que le nombre rouge, autant en bleu que le nombre bleu."
+  },
+  "G1-434": {
+    "title": "La grille des nombres jusqu’à 120",
+    "instruction": "La grille continue après 100. Écris chaque nombre manquant dans sa case."
+  },
+  "G1-435": {
+    "title": "Le dessin caché dans la grille des nombres",
+    "instruction": "Trouve chaque nombre de la liste dans la grille et colorie sa case. Un dessin apparaît !"
+  },
+  "G1-436": {
+    "title": "Complète la grille des nombres",
+    "instruction": "Écris les nombres manquants dans l’ordre, case après case."
+  },
+  "G1-437": {
+    "title": "Compter par bonds à partir de n’importe quel nombre",
+    "instruction": "Trouve la règle de chaque rangée. Écris les nombres manquants."
+  },
+  "G2-394": {
+    "title": "La grille des nombres jusqu’à 1 000",
+    "instruction": "Des nombres se cachent. Écris chaque nombre manquant dans sa case."
   }
 }

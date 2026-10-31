@@ -7,6 +7,38 @@ records what is BUILT, measured and committed, step by step, so any session can 
 
 > 🛑 **NO DEPLOY (operator 2026-10-31):** no worksheet maker goes live until all 60 are built, tested and finalized locally. The pilot trio is a LOCAL pilot (built + reviewed at http://localhost:8490/), not a go-live. Everything is committed; nothing maker-related is deployed. The launch is one release of all 60.
 
+## B1 maker 1: Number Charts & Counting Sequences (`number-sequences`) — 27 templates + 5 new (2026-11-01)
+
+- The first maker after the pilot. Bundling it needed three engine files made browser-safe, each proven unchanged in
+  Node:
+  - `lib/answer-slots.js` hashes through `platform.sha1Bytes` (20,000 keys: same slots; `pageSalt` equal);
+  - `lib/b3-common.js` reads through the platform, looks up each of our 11 locale files instead of listing the folder,
+    and loads its bank modules with the new `platform.requireData` (Node: `require`; browser: the modules the recorder
+    saw this maker use, bundled in — `lcs-data-modules`). All b3 banks × 11 locales: identical data and the same 25
+    refusals, old vs new code;
+  - the component namespaces `templates/components-bN.js` (readdirSync) are generated at bundle time from their folder
+    (the same merge, duplicate export = error).
+  Parity 352/352, live gate 2,112 pages, 0 failing.
+- New templates (NEW-TEMPLATES §4), print-only with the shared key layer, `types/_shared/number-chart-more.js`:
+  - G1-434 the 120 chart (most missing numbers past 100);
+  - G1-435 hidden picture on the hundreds chart — ONE colour, so it works printed in black and white and needs no
+    colour words; the key paints the picture in that one colour; only pictures whose one-colour outline reads (the
+    helicopter's rotor floated loose and was dropped);
+  - G1-436 fill in an empty chart (L1 first row + column given, L2 first column, L3 101-200 first number only);
+  - G1-437 skip count from a number off the step, within 120 (the strip factory, print-only);
+  - G2-394 a chart inside one hundred (101-200 … 901-1000). NEW-TEMPLATES T4's steps of 100 went to G2 work, not
+    G1-437.
+  One native + pedagogy reviewer over the 11 languages and the renders: 20 findings, 17 applied (13 wording, level
+  ranges, the one-colour key, the dropped figure). Not applied: the English key suffix (from my review sheet only, not
+  the maker), and the same wording points on the published G1-129 (style, not a mistake).
+- G1-126 Count in Groups gets a picture slot (the page's one picture); catalogue 18/18 identical.
+- Gates: `slots.js` now covers every built maker. Its reference tree needed tracked `.json` files, `publish-cli` and its
+  own copy of `data/b3`; otherwise it reported false "catalogue changed" results. It now looks for slots on every
+  level, and allows templates that only have decorative pictures to have none. The Ten Frames pilot templates
+  (K-446..K-454) had never been run through it; they are now covered. `parity.js`, `live-gate.js` and
+  `build-bundles.js` default to every maker in `versions.json`.
+- Coverage: G1-434/435/436 → 1:hundreds-chart, G1-437 → 1:skip-counting, new point 2:chart-within-1000 (G2-394).
+
 ## Answer keys for every maker template (2026-10-31)
 
 - ONE key layer for all print-only templates (`scripts/makers/runtime.js` KEY_CSS + `keyMarks`): the answers the page

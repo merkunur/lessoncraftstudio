@@ -9,7 +9,24 @@
  *   answerSlots(n, seedStr, k = 3) -> [slot of card 0, slot of card 1, …], each in 0..k-1
  */
 'use strict';
-const crypto = require('crypto');
+const platform = require('./platform/index.js');
+
+// SHA-1 through the platform layer (Node crypto in the catalogue, the pure-JS digest in a maker — the same bytes):
+// the createHash(…).update(str).digest() shape every call below uses, nothing more.
+const crypto = {
+  createHash() {
+    let s = '';
+    const h = {
+      update(x) { s += String(x); return h; },
+      digest(enc) {
+        const b = platform.sha1Bytes(s);
+        if (enc === 'hex') return Array.from(b, (x) => x.toString(16).padStart(2, '0')).join('');
+        return { readUInt32LE: (o) => (b[o] | (b[o + 1] << 8) | (b[o + 2] << 16) | (b[o + 3] << 24)) >>> 0 };
+      },
+    };
+    return h;
+  },
+};
 
 function answerSlots(n, seedStr, k = 3) {
   const h = crypto.createHash('sha1').update(String(seedStr)).digest();

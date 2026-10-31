@@ -68,11 +68,13 @@ function record(types) {
   const { makePage } = require('./runtime.js');
   const reads = {};
   let current = null;
-  const orig = { readText: platform.readText, readJson: platform.readJson, exists: platform.exists, vocab: platform.vocab };
+  const orig = { readText: platform.readText, readJson: platform.readJson, exists: platform.exists, vocab: platform.vocab, requireData: platform.requireData };
+  const modules = new Set();   // JS data modules (platform.requireData): bundled into the maker, not preloaded
   const note = (p) => { if (current) { const k = rel(p); if (!k.startsWith('..')) (reads[current] = reads[current] || new Set()).add(k); } };
   platform.readText = (p) => { note(p); return orig.readText(p); };
   platform.readJson = (p) => { note(p); return orig.readJson(p); };
   platform.exists = (p) => { const r = orig.exists(p); if (r && !/cache[\\/]themes/.test(p)) note(p); return r; };
+  platform.requireData = (p) => { const k = rel(p); if (!k.startsWith('..')) modules.add(k); return orig.requireData(p); };
   platform.vocab = () => { if (current) (reads[current] = reads[current] || new Set()).add('REFERENCE TRANSLATIONS/image-vocabulary.json'); return orig.vocab(); };
 
   const templates = [];
@@ -135,12 +137,13 @@ function record(types) {
   // ONE list per maker: engine modules cache what they read (the picture manifest, a bank), so a file is recorded only
   // under the first (template, locale) that read it — a per-template list would miss it. The shell preloads them all.
   const all = new Set(); for (const set of Object.values(reads)) set.forEach((f) => all.add(f));
+  modules.forEach((m) => all.delete(m));   // a data module is bundled, not preloaded as a file
   const manifest = { files: [...all].sort() };
-  return { templates, strings, manifest };
+  return { templates, strings, manifest, modules: [...modules].sort() };
 }
 
 /** Step 3: esbuild with the browser platform. */
-async function bundle(makerId, templates, outDir) {
+async function bundle(makerId, templates, outDir, modules = []) {
   const entryDir = path.join(OUT, '.entries');
   fs.mkdirSync(entryDir, { recursive: true });
   const entryFile = path.join(entryDir, makerId + '.js');
@@ -159,6 +162,28 @@ async function bundle(makerId, templates, outDir) {
         loader: 'js',
         contents: 'module.exports = {\n' + MINI_CORES.map((f) => JSON.stringify(f) + ': function (window) {\n' + fs.readFileSync(path.join(REPO, 'mini tools', f), 'utf8') + '\n}').join(',\n') + '\n};',
       }));
+      // the JS data modules this maker's templates load through platform.requireData (recorded above)
+      b.onResolve({ filter: /^lcs-data-modules$/ }, () => ({ path: 'lcs-data-modules', namespace: 'datamods' }));
+      b.onLoad({ filter: /.*/, namespace: 'datamods' }, () => ({
+        loader: 'js',
+        resolveDir: REPO,
+        contents: 'module.exports = {\n' + modules.map((m) => JSON.stringify(m) + ': require(' + JSON.stringify(path.join(REPO, m).replace(/\\/g, '/')) + ')').join(',\n') + '\n};',
+      }));
+      // a component namespace (templates/components-bN.js) merges every file of its folder, found with readdirSync in
+      // Node: here the folder is listed at build time and the same merge is generated (a duplicate export is an error)
+      b.onLoad({ filter: /templates[\\/]components-b\d+\.js$/ }, (a) => {
+        const dir = a.path.replace(/\.js$/, '');
+        if (!fs.existsSync(dir)) return null;   // components-b2.js is a plain module, not a folder namespace
+        const files = fs.readdirSync(dir).filter((x) => x.endsWith('.js')).sort();
+        const list = files.map((f) => '[' + JSON.stringify(f) + ', require(' + JSON.stringify('./' + path.basename(dir) + '/' + f) + ')]').join(',\n');
+        return {
+          loader: 'js',
+          resolveDir: path.dirname(a.path),
+          contents: 'const out = {}, owner = {};\n[' + list + '].forEach(([f, mod]) => {\n  for (const [name, fn] of Object.entries(mod)) {\n'
+            + '    if (owner[name]) throw new Error("components: " + name + " exported by both " + owner[name] + " and " + f);\n'
+            + '    owner[name] = f; out[name] = fn;\n  }\n});\nout.__owner = owner;\nmodule.exports = out;\n',
+        };
+      });
       // every module gets a repo-relative __dirname ('/scripts/worksheet-gen/…') for path.join(__dirname, …)
       b.onLoad({ filter: /\.js$/ }, (a) => {
         const src = fs.readFileSync(a.path, 'utf8');
@@ -173,7 +198,9 @@ async function bundle(makerId, templates, outDir) {
     define: { 'process.env.NODE_ENV': '"production"' },
   });
   if (offenders.length) throw new Error('Node-only modules reachable from ' + makerId + ':\n  ' + [...new Set(offenders)].join('\n  '));
-  const lint = require('./lint-browser-safe.js').check(Object.keys(r.metafile.inputs).filter((k) => !k.includes(':')), REPO);
+  // a component namespace is GENERATED above (its Node source with readdirSync is not what the bundle holds)
+  const generated = (k) => /templates[\\/]components-b\d+\.js$/.test(k) && fs.existsSync(path.join(REPO, k.replace(/\.js$/, '')));
+  const lint = require('./lint-browser-safe.js').check(Object.keys(r.metafile.inputs).filter((k) => !k.includes(':') && !generated(k)), REPO);
   if (lint.length) throw new Error('browser-safety lint failed for ' + makerId + ':\n  ' + lint.join('\n  '));
   return r.metafile;
 }
@@ -207,7 +234,9 @@ function writeVersions(built, dv, seed) {
 }
 
 async function main() {
-  const makers = String(args.makers || 'ten-frames,counting,sight-words').split(',');
+  // default: every maker built so far (out/makers/versions.json); a NEW maker is built once with --makers=<id>
+  const VF = path.join(OUT, 'versions.json');
+  const makers = String(args.makers || (fs.existsSync(VF) ? Object.keys(JSON.parse(fs.readFileSync(VF, 'utf8'))).join(',') : 'ten-frames,counting,sight-words')).split(',');
   fs.mkdirSync(OUT, { recursive: true });
   // seed the ledger BEFORE this run overwrites any current.txt, so the seed records what was current until now
   const seed = fs.existsSync(path.join(OUT, 'versions.json')) ? null : seedVersions();
@@ -226,7 +255,7 @@ async function main() {
     const rec = record(types);
     const tmp = path.join(OUT, id, '.build');
     fs.rmSync(tmp, { recursive: true, force: true });
-    const meta = await bundle(id, rec.templates, tmp);
+    const meta = await bundle(id, rec.templates, tmp, rec.modules);
     const version = sha(fs.readdirSync(tmp).sort().map((f) => f + fs.readFileSync(path.join(tmp, f))).join('') + JSON.stringify(rec));
     const dir = path.join(OUT, id, version);
     // the same version rebuilt: its thumbnails (build-thumbs.js) belong to the same content — keep them across the swap

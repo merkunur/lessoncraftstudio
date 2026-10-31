@@ -16,6 +16,7 @@ const { labelSafeNouns } = require('../../image-cache/resolve.js');
 const { iconRows, fitIcons, answerBox } = require('../../templates/components.js');
 const NCS = require('../../lib/number-charts-screen.js');
 const { pageFill } = require('../../lib/page-fill.js');
+const slot = require('../../lib/slot.js');
 
 const BODY_H = 760;   // the body measures 799-811 px (one / two instruction lines, 2026-10-13); a three-line instruction leaves ~775
 const GIVEN = (v) => `<span class="ws-pattern-slot" style="width:104px;height:78px;font-family:'Baloo 2';font-weight:700;font-size:34px;color:#3A3530;background:#DDEBE8;border-color:#146B5E" data-lcs-given="${v}">${v}</span>`;
@@ -45,7 +46,9 @@ module.exports = {
     const { theme, difficulty } = args;
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
-    const noun = rng.pick(labelSafeNouns(theme));
+    // the one picture of the page; in a maker the teacher may swap it (lib/slot.js — the random stream is untouched)
+    const pool = labelSafeNouns(theme);
+    const noun = slot.pictures(ctx, [rng.pick(pool)], pool, theme)[0];
     const k = d.ks ? d.ks[((Number(ctx.variant) || 1) - 1) % d.ks.length] : d.k;
     const given = d.given === undefined ? 1 : d.given;
     const G = d.groups;
@@ -60,7 +63,7 @@ module.exports = {
       const totalEl = g <= given ? GIVEN(total) : answerBox({ w: 104, h: 78, answer: total });
       rows.push(
         `<div style="display:flex;align-items:center;justify-content:center;gap:22px;height:${rowH}px" data-lcs-groupn="${k}">` +
-        `<span class="ws-subgroup" data-lcs-frame style="flex:0 0 auto;width:${boxW}px;height:${boxH}px;display:flex;align-items:center;justify-content:center">` +
+        `<span class="ws-subgroup" data-lcs-frame${slot.attr(ctx, 'pic', 0)} style="flex:0 0 auto;width:${boxW}px;height:${boxH}px;display:flex;align-items:center;justify-content:center">` +
         iconRows({ theme, noun: noun.noun, n: k, iconPx: fit.iconPx, perRow: fit.perRow, rng, gapX: 10, gapY: 8 }) +
         `</span>` +
         `<span style="font-family:'Baloo 2';font-weight:700;font-size:30px;color:#F2784B;min-width:52px;text-align:center">+${k}</span>` +

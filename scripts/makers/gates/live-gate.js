@@ -20,7 +20,8 @@ const puppeteer = require(path.join(__dirname, '..', '..', '..', 'node_modules',
 const { handler } = require('../serve.js');
 
 const arg = (k, d) => { const a = process.argv.find((x) => x.startsWith('--' + k + '=')); return a ? a.slice(k.length + 3) : d; };
-const MAKERS = arg('makers', 'ten-frames,counting,sight-words').split(',');
+// default: every maker built so far (out/makers/versions.json), not just the pilot
+const MAKERS = arg('makers', Object.keys(JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', '..', '..', 'out', 'makers', 'versions.json'), 'utf8'))).join(',')).split(',');
 const LOCALES = arg('locales', 'en,de,fr,es,pt,it,nl,sv,da,no,fi').split(',');
 const COPIES = Number(arg('copies', '2'));
 

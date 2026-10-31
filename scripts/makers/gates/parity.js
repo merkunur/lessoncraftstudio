@@ -20,7 +20,8 @@ const REPO = path.resolve(__dirname, '..', '..', '..');
 const args = Object.fromEntries(process.argv.slice(2).map((a) => { const m = a.match(/^--([^=]+)=(.*)$/); return m ? [m[1], m[2]] : [a.replace(/^--/, ''), true]; }));
 const OUT = path.resolve(REPO, args.out || 'out/makers');
 const PER = Number(args.per || 6);
-const makers = String(args.makers || 'ten-frames,counting,sight-words').split(',');
+// default: every maker built so far (out/makers/versions.json), not just the pilot
+const makers = String(args.makers || Object.keys(JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', '..', '..', 'out', 'makers', 'versions.json'), 'utf8'))).join(',')).split(',');
 
 const norm = (h) => h
   .replace(/file:\/\/\/[^'")\s]*?\/cache\/themes(?:-512)?\/([^'")\s]+)/g, (m, p) => 'ASSET:themes/' + decodeURIComponent(p))

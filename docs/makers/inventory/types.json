@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-31",
- "count": 853,
+ "count": 858,
  "failures": [],
  "rows": [
   {
@@ -9115,7 +9115,7 @@
    "family": "counting-frames",
    "variationOf": null,
    "title": "Teen Numbers on Two Ten-Frames",
-   "instruction": "Count what is in the two ten-frames. Write the number, then finish the sentence: ten and how many more.",
+   "instruction": "Count what is in the two ten-frames. Write the number, then finish the number sentence.",
    "assetClass": "ten-frames",
    "themed": true,
    "levels": 3,
@@ -9177,6 +9177,7 @@
    "levels": 3,
    "params": [
     "kind",
+    "min",
     "max",
     "cards",
     "choices"
@@ -9275,7 +9276,7 @@
    "slug": "colour-the-parts-ten-frame",
    "family": "counting-frames",
    "variationOf": null,
-   "title": "Color the Parts",
+   "title": "Color the Parts of 5 and 10",
    "instruction": "Color the squares: as many red as the red number, as many blue as the blue number.",
    "assetClass": "ten-frames",
    "themed": false,
@@ -18416,6 +18417,118 @@
    "science": false
   },
   {
+   "id": "G1-434",
+   "file": "scripts/worksheet-gen/types/g1/G1-434-number-chart-to-120.js",
+   "grade": "G1",
+   "slug": "number-chart-to-120",
+   "family": "number-charts",
+   "variationOf": null,
+   "title": "The 120 Chart",
+   "instruction": "The chart goes on past 100. Write each missing number in its box.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "start",
+    "end",
+    "missing",
+    "past",
+    "isolated"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/number-chart-more.js"
+   ],
+   "teachingPoint": "1:hundreds-chart",
+   "skill": "Hundreds-chart structure: missing numbers, puzzle pieces (+1 right, +10 down), find the wrong number, colour a counting pattern",
+   "strand": "Number & Operations in Base Ten",
+   "science": false
+  },
+  {
+   "id": "G1-435",
+   "file": "scripts/worksheet-gen/types/g1/G1-435-hundreds-chart-hidden-picture.js",
+   "grade": "G1",
+   "slug": "hundreds-chart-hidden-picture",
+   "family": "number-charts",
+   "variationOf": null,
+   "title": "Hidden Picture on the Hundreds Chart",
+   "instruction": "Find each number from the list on the chart and color its box. A picture appears!",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "start",
+    "end",
+    "cls",
+    "order"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/number-chart-more.js"
+   ],
+   "teachingPoint": "1:hundreds-chart",
+   "skill": "Hundreds-chart structure: missing numbers, puzzle pieces (+1 right, +10 down), find the wrong number, colour a counting pattern",
+   "strand": "Number & Operations in Base Ten",
+   "science": false
+  },
+  {
+   "id": "G1-436",
+   "file": "scripts/worksheet-gen/types/g1/G1-436-fill-in-the-number-chart.js",
+   "grade": "G1",
+   "slug": "fill-in-the-number-chart",
+   "family": "number-charts",
+   "variationOf": null,
+   "title": "Fill In the Number Chart",
+   "instruction": "Write the missing numbers in order, box by box.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "starts",
+    "given"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/number-chart-more.js"
+   ],
+   "teachingPoint": "1:hundreds-chart",
+   "skill": "Hundreds-chart structure: missing numbers, puzzle pieces (+1 right, +10 down), find the wrong number, colour a counting pattern",
+   "strand": "Number & Operations in Base Ten",
+   "science": false
+  },
+  {
+   "id": "G1-437",
+   "file": "scripts/worksheet-gen/types/g1/G1-437-skip-count-from-any-number.js",
+   "grade": "G1",
+   "slug": "skip-count-from-any-number",
+   "family": "number-charts",
+   "variationOf": null,
+   "title": "Skip Count from Any Number",
+   "instruction": "Find the counting rule of each row. Write each missing number.",
+   "assetClass": "numeral-charts",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "v2",
+    "rows",
+    "blanks",
+    "isolated",
+    "steps",
+    "start",
+    "startMin",
+    "startMax",
+    "rangeMax"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/number-strip.js"
+   ],
+   "teachingPoint": "1:skip-counting",
+   "skill": "Skip count by 2s, 5s and 10s, with equal groups (running total) and on a number line whose ticks are worth 5 or 10",
+   "strand": "Number & Operations in Base Ten",
+   "science": false
+  },
+  {
    "id": "G2-203",
    "file": "scripts/worksheet-gen/types/g2/G2-203-addition-with-blocks.js",
    "grade": "G23",
@@ -24559,6 +24672,32 @@
    ],
    "teachingPoint": "2:add-sub-within-100-practice",
    "skill": "Add/subtract within 100 in puzzle formats: number walls and the math maze",
+   "strand": "Number & Operations in Base Ten",
+   "science": false
+  },
+  {
+   "id": "G2-394",
+   "file": "scripts/worksheet-gen/types/g2/G2-394-three-digit-number-chart.js",
+   "grade": "G2",
+   "slug": "three-digit-number-chart",
+   "family": "number-charts",
+   "variationOf": null,
+   "title": "Number Chart in the Hundreds",
+   "instruction": "Some numbers are hiding. Write each missing number in its box.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "hundreds",
+    "missing",
+    "isolated"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/number-chart-more.js"
+   ],
+   "teachingPoint": "2:chart-within-1000",
+   "skill": "Count within 1000 on a number chart: the hundreds digit stays while the tens and ones run (301-400 …)",
    "strand": "Number & Operations in Base Ten",
    "science": false
   },

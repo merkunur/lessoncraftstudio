@@ -3420,5 +3420,25 @@
   "K-454": {
     "title": "Colora le parti",
     "instruction": "Colora le caselle: tante in rosso quante dice il numero rosso, tante in blu quante dice il numero blu."
+  },
+  "G1-434": {
+    "title": "La tavola dei numeri fino a 120",
+    "instruction": "La tavola continua dopo il 100. Scrivi ogni numero mancante nel suo riquadro."
+  },
+  "G1-435": {
+    "title": "Il disegno nascosto nella tavola del cento",
+    "instruction": "Trova nella tavola ogni numero dell’elenco e colora il suo riquadro. Appare un disegno!"
+  },
+  "G1-436": {
+    "title": "Completa la tavola dei numeri",
+    "instruction": "Scrivi in ordine i numeri mancanti, riquadro dopo riquadro."
+  },
+  "G1-437": {
+    "title": "Contare a salti da qualsiasi numero",
+    "instruction": "Trova la regola di ogni fila. Scrivi i numeri mancanti."
+  },
+  "G2-394": {
+    "title": "La tavola dei numeri fino a 1000",
+    "instruction": "Alcuni numeri si nascondono. Scrivi ogni numero mancante nel suo riquadro."
   }
 }

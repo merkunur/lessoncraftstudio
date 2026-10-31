@@ -3438,5 +3438,25 @@
   "K-454": {
     "title": "Kleur de delen",
     "instruction": "Kleur de vakjes: zoveel rood als het rode getal, zoveel blauw als het blauwe getal."
+  },
+  "G1-434": {
+    "title": "Het getallenveld tot 120",
+    "instruction": "Het veld gaat verder na 100. Schrijf elk ontbrekend getal in zijn vak."
+  },
+  "G1-435": {
+    "title": "Verborgen tekening in het honderdveld",
+    "instruction": "Zoek elk getal uit de lijst in het veld en kleur het vakje. Er verschijnt een tekening!"
+  },
+  "G1-436": {
+    "title": "Vul het getallenveld in",
+    "instruction": "Schrijf de ontbrekende getallen op volgorde, vak voor vak."
+  },
+  "G1-437": {
+    "title": "Tellen met sprongen vanaf elk getal",
+    "instruction": "Vind de regel van elke rij. Schrijf de ontbrekende getallen op."
+  },
+  "G2-394": {
+    "title": "Getallenveld tot 1000",
+    "instruction": "Sommige getallen zijn verstopt. Schrijf elk ontbrekend getal in zijn vak."
   }
 }

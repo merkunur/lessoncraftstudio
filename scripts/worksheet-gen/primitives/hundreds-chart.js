@@ -1,6 +1,10 @@
 /**
  * hundredsChart — parametric 10×N number chart primitive (SVG).
- * params: { start=1, end=100, missing=[...numbers], highlights=[...numbers], cell=56, keyText=false, ask=null }
+ * params: { start=1, end=100, missing=[...numbers], highlights=[...numbers], cell=56, keyText=false, ask=null,
+ *           blank='dashed', fills=null }
+ * Makers 2026-11-01 (additive, off by default — catalogue pages unchanged): blank='plain' draws a missing cell as a
+ * plain empty cell (a blank chart to fill has 80 of them; 80 dashed coral boxes shout); fills = { value: colour }
+ * paints whole cells (the hidden-picture key).
  * Missing cells render as dashed write-in cells; highlights get coralSoft fill.
  * meta carries the ground truth for QA.
  */
@@ -8,7 +12,7 @@
 const tokens = require('./_tokens.js');
 const { el, svgRoot, roundedRect, label } = require('./_svg.js');
 
-function hundredsChart({ start = 1, end = 100, missing = [], highlights = [], cell = 56, keyText = false, ask = null }, ctx) {
+function hundredsChart({ start = 1, end = 100, missing = [], highlights = [], cell = 56, keyText = false, ask = null, blank = 'dashed', fills = null }, ctx) {
   const t = (ctx && ctx.tokens) || tokens;
   const cols = 10;
   const count = end - start + 1;
@@ -29,12 +33,15 @@ function hundredsChart({ start = 1, end = 100, missing = [], highlights = [], ce
     const cy = pad + Math.floor(i / cols) * cell;
     const isMissing = missingSet.has(v);
     const isHi = highlightSet.has(v);
+    if (fills && fills[v]) parts.push(roundedRect({ x: cx + 2, y: cy + 2, w: cell - 4, h: cell - 4, r: 5, fill: fills[v], data: { 'data-lcs-fill': v } }));
     if (isMissing) {
-      parts.push(roundedRect({
-        x: cx + 3, y: cy + 3, w: cell - 6, h: cell - 6, r: 6,
-        fill: t.color.white, strokeColor: t.color.coral, strokeWidth: 2, dash: '5 4',
-        data: { 'data-lcs-missing': v },
-      }));
+      parts.push(blank === 'plain'
+        ? roundedRect({ x: cx + 3, y: cy + 3, w: cell - 6, h: cell - 6, r: 6, fill: t.color.white, strokeColor: t.color.grid, strokeWidth: 1, data: { 'data-lcs-missing': v } })
+        : roundedRect({
+          x: cx + 3, y: cy + 3, w: cell - 6, h: cell - 6, r: 6,
+          fill: t.color.white, strokeColor: t.color.coral, strokeWidth: 2, dash: '5 4',
+          data: { 'data-lcs-missing': v },
+        }));
       // Level Set 2026-10-13 (additive, off by default): the answer key writes the number in its box; the screen marks
       // the one asked with a coral "?"
       if (keyText || v === ask) {

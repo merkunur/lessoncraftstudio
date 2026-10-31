@@ -3433,5 +3433,25 @@
   "K-454": {
     "title": "Fargelegg delene",
     "instruction": "Fargelegg rutene: like mange røde som det røde tallet, like mange blå som det blå tallet."
+  },
+  "G1-434": {
+    "title": "Tallkartet til 120",
+    "instruction": "Kartet fortsetter etter 100. Skriv hvert tall som mangler i ruten sin."
+  },
+  "G1-435": {
+    "title": "Det skjulte bildet i hundrekartet",
+    "instruction": "Finn hvert tall fra listen i kartet og fargelegg ruten. Et bilde kommer fram!"
+  },
+  "G1-436": {
+    "title": "Fyll ut tallkartet",
+    "instruction": "Skriv tallene som mangler i rekkefølge, rute for rute."
+  },
+  "G1-437": {
+    "title": "Tell i hopp fra hvilket som helst tall",
+    "instruction": "Finn regelen i hver rad. Skriv tallene som mangler."
+  },
+  "G2-394": {
+    "title": "Tallkart til 1000",
+    "instruction": "Noen tall gjemmer seg. Skriv hvert tall som mangler i ruten sin."
   }
 }

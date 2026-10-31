@@ -13,6 +13,8 @@
  *   sha1Bytes(str)             the 20-byte SHA-1 digest as a Uint8Array-like (Buffer here)
  *   vocab()                    REFERENCE TRANSLATIONS/image-vocabulary.js as an object
  *   miniCore(file, win)        runs a `mini tools/<file>` browser script against `win` (it attaches its globals)
+ *   requireData(absPath)       a JS data module (a word bank with its helpers): require() here; in the browser the
+ *                              modules the maker's build recorded, bundled in (a module it did not record THROWS)
  */
 'use strict';
 const fs = require('fs');
@@ -31,6 +33,7 @@ module.exports = {
   fileHref: (p) => url.pathToFileURL(p).href,
   sha1Bytes: (s) => crypto.createHash('sha1').update(s).digest(),
   vocab: () => require('../../../publish-cli/deck-rich-alt.js').loadVocab(),
+  requireData: (p) => require(p),
   slugify: (v) => require('../../../publish-cli/slug.js').slugify(v),
   miniCore(file, win) {
     const src = fs.readFileSync(path.join(REPO, 'mini tools', file), 'utf8');

@@ -36,7 +36,8 @@
   "makers": {
     "ten-frames": "Cadres de dix et bâtons",
     "counting": "Compter",
-    "sight-words": "Mots-outils"
+    "sight-words": "Mots-outils",
+    "number-sequences": "Tableaux de nombres et suites numériques"
   },
   "editTitle": "Modifier le titre",
   "editInstruction": "Modifier la consigne",

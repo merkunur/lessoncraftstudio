@@ -3429,5 +3429,25 @@
   "K-454": {
     "title": "Colorea las partes",
     "instruction": "Colorea los cuadros: tantos en rojo como el número rojo y tantos en azul como el número azul."
+  },
+  "G1-434": {
+    "title": "El cuadro de números hasta el 120",
+    "instruction": "El cuadro sigue después del 100. Escribe cada número que falta en su casilla."
+  },
+  "G1-435": {
+    "title": "Dibujo escondido en el cuadro del cien",
+    "instruction": "Busca en el cuadro cada número de la lista y colorea su casilla. ¡Aparece un dibujo!"
+  },
+  "G1-436": {
+    "title": "Completa el cuadro de números",
+    "instruction": "Escribe en orden los números que faltan, casilla por casilla."
+  },
+  "G1-437": {
+    "title": "Cuenta en saltos desde cualquier número",
+    "instruction": "Halla la regla de cada fila. Escribe los números que faltan."
+  },
+  "G2-394": {
+    "title": "Cuadro de números hasta el 1000",
+    "instruction": "Algunos números se esconden. Escribe cada número que falta en su casilla."
   }
 }

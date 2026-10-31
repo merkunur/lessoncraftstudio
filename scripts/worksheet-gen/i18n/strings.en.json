@@ -3454,5 +3454,25 @@
   "K-454": {
     "title": "Color the Parts of 5 and 10",
     "instruction": "Color the squares: as many red as the red number, as many blue as the blue number."
+  },
+  "G1-434": {
+    "title": "The 120 Chart",
+    "instruction": "The chart goes on past 100. Write each missing number in its box."
+  },
+  "G1-435": {
+    "title": "Hidden Picture on the Hundreds Chart",
+    "instruction": "Find each number from the list on the chart and color its box. A picture appears!"
+  },
+  "G1-436": {
+    "title": "Fill In the Number Chart",
+    "instruction": "Write the missing numbers in order, box by box."
+  },
+  "G1-437": {
+    "title": "Skip Count from Any Number",
+    "instruction": "Find the counting rule of each row. Write each missing number."
+  },
+  "G2-394": {
+    "title": "Number Chart to 1,000",
+    "instruction": "Some numbers are hiding. Write each missing number in its box."
   }
 }

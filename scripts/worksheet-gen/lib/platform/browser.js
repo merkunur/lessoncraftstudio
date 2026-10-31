@@ -10,6 +10,7 @@
 'use strict';
 const { sha1Bytes } = require('./sha1.js');
 const MINI_CORES = require('lcs-mini-cores');   // virtual module: { 'file.js': function (window) { …source… } }
+const DATA_MODULES = require('lcs-data-modules');   // virtual module: { 'repo/relative/path.js': module.exports } (recorded per maker)
 
 const PRELOAD = Object.create(null);
 let ASSET_BASE = '/makers-assets';
@@ -37,7 +38,7 @@ module.exports = {
   readText,
   readJson(p) { const k = key(p); if (!(k in PRELOAD)) throw new PlatformMissing(p); const v = PRELOAD[k]; return typeof v === 'string' ? JSON.parse(v) : v; },
   // Picture files are not data: every derived 512 px picture is published, so the image cache "exists" for them.
-  exists(p) { const k = key(p); return k in PRELOAD || /^scripts\/worksheet-gen\/cache\/themes-512\//.test(k); },
+  exists(p) { const k = key(p); return k in PRELOAD || k in DATA_MODULES || /^scripts\/worksheet-gen\/cache\/themes-512\//.test(k); },
   fileHref(p) {
     const k = key(p);
     const m = k.match(/^scripts\/worksheet-gen\/cache\/(themes-512|themes)\/(.+)$/);
@@ -47,6 +48,7 @@ module.exports = {
     throw new Error('platform: no browser URL for ' + k);
   },
   sha1Bytes,
+  requireData(p) { const k = key(p); if (!(k in DATA_MODULES)) throw new PlatformMissing(p); return DATA_MODULES[k]; },
   vocab() { return module.exports.readJson('REFERENCE TRANSLATIONS/image-vocabulary.json'); },
   // deck ids and slugs are made on the server, never in a maker
   slugify() { throw new Error('platform: slugify is not available in a maker'); },

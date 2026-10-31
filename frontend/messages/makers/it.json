@@ -36,7 +36,8 @@
   "makers": {
     "ten-frames": "Cornici del dieci e tacche",
     "counting": "Contare",
-    "sight-words": "Parole ad alta frequenza"
+    "sight-words": "Parole ad alta frequenza",
+    "number-sequences": "Tavole dei numeri e sequenze numeriche"
   },
   "editTitle": "Modifica il titolo",
   "editInstruction": "Modifica la consegna",

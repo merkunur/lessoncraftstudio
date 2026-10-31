@@ -69,5 +69,22 @@
   "saveImage": "Opslaan als afbeelding",
   "downloadPdf": "Pdf downloaden",
   "preparing": "Voorbereiden…",
-  "downloadFailed": "Het downloaden is niet gelukt. Probeer het opnieuw."
+  "downloadFailed": "Het downloaden is niet gelukt. Probeer het opnieuw.",
+  "saved": "Opgeslagen",
+  "share": "Delen",
+  "myWorksheets": "Mijn werkbladen",
+  "recipeMissing": "Dit werkblad is niet gevonden. Misschien is het verwijderd.",
+  "correctedNote": "Dit werkblad is op {date} verbeterd.",
+  "tooBigToSave": "Dit werkblad is te groot om op te slaan. Wis een paar tekeningen en probeer het opnieuw.",
+  "savedAsCopy": "Dit werkblad is in een ander venster gewijzigd en is daarom als nieuwe kopie opgeslagen.",
+  "saveFailed": "Het werkblad kon niet worden opgeslagen. Probeer het opnieuw.",
+  "shareTitle": "Delen met een collega",
+  "shareText": "Iedereen met deze link kan het werkblad bekijken en een eigen kopie opslaan om aan te passen.",
+  "copyLink": "Link kopiëren",
+  "copied": "Gekopieerd",
+  "saveCopy": "Kopie opslaan",
+  "sharedCard": "Een collega heeft dit werkblad met je gedeeld. Sla een kopie op om het aan te passen.",
+  "deleteWorksheet": "Verwijderen",
+  "deleteConfirm": "‘{title}’ verwijderen?",
+  "noSavedYet": "Je hebt nog geen werkblad opgeslagen."
 }

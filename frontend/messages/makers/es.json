@@ -69,5 +69,22 @@
   "saveImage": "Guardar como imagen",
   "downloadPdf": "Descargar PDF",
   "preparing": "Preparando…",
-  "downloadFailed": "No se pudo preparar la descarga. Inténtalo de nuevo."
+  "downloadFailed": "No se pudo preparar la descarga. Inténtalo de nuevo.",
+  "saved": "Guardado",
+  "share": "Compartir",
+  "myWorksheets": "Mis hojas de trabajo",
+  "recipeMissing": "No se encontró esta hoja de trabajo. Tal vez se eliminó.",
+  "correctedNote": "Esta hoja de trabajo se corrigió el {date}.",
+  "tooBigToSave": "Esta hoja de trabajo es demasiado grande para guardarla. Borra algunos dibujos e inténtalo de nuevo.",
+  "savedAsCopy": "Esta hoja de trabajo se cambió en otra ventana, así que se guardó como una copia nueva.",
+  "saveFailed": "No se pudo guardar la hoja de trabajo. Inténtalo de nuevo.",
+  "shareTitle": "Compartir con un colega",
+  "shareText": "Cualquier persona con este enlace puede ver esta hoja de trabajo y guardar su propia copia para cambiarla.",
+  "copyLink": "Copiar enlace",
+  "copied": "Copiado",
+  "saveCopy": "Guardar una copia",
+  "sharedCard": "Un colega compartió contigo esta hoja de trabajo. Guarda una copia para cambiarla.",
+  "deleteWorksheet": "Eliminar",
+  "deleteConfirm": "¿Eliminar “{title}”?",
+  "noSavedYet": "Todavía no has guardado ninguna hoja de trabajo."
 }

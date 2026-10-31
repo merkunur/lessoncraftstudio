@@ -69,5 +69,22 @@
   "saveImage": "Salvar como imagem",
   "downloadPdf": "Baixar PDF",
   "preparing": "Preparando…",
-  "downloadFailed": "Não foi possível preparar o download. Tente de novo."
+  "downloadFailed": "Não foi possível preparar o download. Tente de novo.",
+  "saved": "Salvo",
+  "share": "Compartilhar",
+  "myWorksheets": "Minhas atividades",
+  "recipeMissing": "Esta atividade não foi encontrada. Talvez tenha sido excluída.",
+  "correctedNote": "Esta atividade foi corrigida em {date}.",
+  "tooBigToSave": "Esta atividade é grande demais para salvar. Apague alguns desenhos e tente de novo.",
+  "savedAsCopy": "Esta atividade foi alterada em outra janela, por isso foi salva como uma nova cópia.",
+  "saveFailed": "Não foi possível salvar a atividade. Tente de novo.",
+  "shareTitle": "Compartilhar com um colega",
+  "shareText": "Quem tiver este link pode ver esta atividade e salvar uma cópia própria para alterar.",
+  "copyLink": "Copiar link",
+  "copied": "Copiado",
+  "saveCopy": "Salvar uma cópia",
+  "sharedCard": "Um colega compartilhou esta atividade com você. Salve uma cópia para alterá-la.",
+  "deleteWorksheet": "Excluir",
+  "deleteConfirm": "Excluir “{title}”?",
+  "noSavedYet": "Você ainda não salvou nenhuma atividade."
 }

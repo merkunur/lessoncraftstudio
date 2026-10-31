@@ -22,6 +22,7 @@ const ROUTES = [
   ['/makers/app/', path.join(__dirname, 'shell')],
   ['/makers-assets/themes-512/', path.join(REPO, 'scripts', 'worksheet-gen', 'cache', 'themes-512')],
   ['/makers-assets/fonts/', path.join(REPO, 'scripts', 'worksheet-gen', 'assets', 'fonts')],
+  ['/makers/migrations/', path.join(REPO, 'docs', 'makers', 'migrations')],          // content-fix records (record-fix.js)
   ['/makers/', path.join(REPO, 'out', 'makers')],
 ];
 const TYPES = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json', '.txt': 'text/plain', '.webp': 'image/webp', '.png': 'image/png', '.woff2': 'font/woff2', '.map': 'application/json' };
@@ -105,6 +106,8 @@ function handler(req, res) {
   if (rawPath === '/hub.json') { res.writeHead(200, { 'content-type': 'application/json', 'cache-control': 'no-store' }); return res.end(JSON.stringify(hubData())); }
   if (rawPath === '/' || rawPath === '/index.html') { res.writeHead(200, { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'no-store' }); return fs.createReadStream(path.join(__dirname, 'shell', 'hub.html')).pipe(res); }
   if (rawPath.startsWith('/__dev/') || rawPath.startsWith('/api/quota/')) { if (devApi(req, res, rawPath, new URLSearchParams(rawQuery || '')) !== false) return; }
+  // saved worksheets + share links (local stand-in for the website's /api/makers/*; signed in = not "anon")
+  if (rawPath.startsWith('/api/makers/') && require('./local-store.js').handle(req, res, rawPath, new URLSearchParams(rawQuery || ''), dev.as !== 'anon') !== false) return;
   const url = decodeURIComponent(rawPath);
   for (const [prefix, dir] of ROUTES) {
     if (!url.startsWith(prefix)) continue;

@@ -69,5 +69,22 @@
   "saveImage": "Lagre som bilde",
   "downloadPdf": "Last ned pdf",
   "preparing": "Gjør klar …",
-  "downloadFailed": "Filen kunne ikke lages. Prøv igjen."
+  "downloadFailed": "Filen kunne ikke lages. Prøv igjen.",
+  "saved": "Lagret",
+  "share": "Del",
+  "myWorksheets": "Mine arbeidsark",
+  "recipeMissing": "Arbeidsarket ble ikke funnet. Det kan være slettet.",
+  "correctedNote": "Arbeidsarket ble rettet den {date}.",
+  "tooBigToSave": "Arbeidsarket er for stort til å lagres. Slett noen tegninger og prøv igjen.",
+  "savedAsCopy": "Arbeidsarket ble endret i et annet vindu og er derfor lagret som en ny kopi.",
+  "saveFailed": "Arbeidsarket kunne ikke lagres. Prøv igjen.",
+  "shareTitle": "Del med en kollega",
+  "shareText": "Alle som har denne lenken, kan se arbeidsarket og lagre sin egen kopi for å endre den.",
+  "copyLink": "Kopier lenke",
+  "copied": "Kopiert",
+  "saveCopy": "Lagre en kopi",
+  "sharedCard": "En kollega har delt dette arbeidsarket med deg. Lagre en kopi for å endre det.",
+  "deleteWorksheet": "Slett",
+  "deleteConfirm": "Slette «{title}»?",
+  "noSavedYet": "Du har ikke lagret noe arbeidsark ennå."
 }

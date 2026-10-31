@@ -69,5 +69,22 @@
   "saveImage": "Salva come immagine",
   "downloadPdf": "Scarica il PDF",
   "preparing": "Preparazione…",
-  "downloadFailed": "Non è stato possibile preparare il download. Riprova."
+  "downloadFailed": "Non è stato possibile preparare il download. Riprova.",
+  "saved": "Salvata",
+  "share": "Condividi",
+  "myWorksheets": "Le mie schede",
+  "recipeMissing": "Questa scheda non è stata trovata. Forse è stata eliminata.",
+  "correctedNote": "Questa scheda è stata corretta il {date}.",
+  "tooBigToSave": "Questa scheda è troppo grande per essere salvata. Cancella alcuni disegni e riprova.",
+  "savedAsCopy": "Questa scheda è stata modificata in un’altra finestra, quindi è stata salvata come nuova copia.",
+  "saveFailed": "Non è stato possibile salvare la scheda. Riprova.",
+  "shareTitle": "Condividi con un collega",
+  "shareText": "Chiunque abbia questo link può vedere la scheda e salvarne una copia propria da modificare.",
+  "copyLink": "Copia il link",
+  "copied": "Copiato",
+  "saveCopy": "Salva una copia",
+  "sharedCard": "Un collega ha condiviso questa scheda con te. Salvane una copia per modificarla.",
+  "deleteWorksheet": "Elimina",
+  "deleteConfirm": "Eliminare «{title}»?",
+  "noSavedYet": "Non hai ancora salvato nessuna scheda."
 }

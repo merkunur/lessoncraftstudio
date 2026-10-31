@@ -69,5 +69,22 @@
   "saveImage": "Spara som bild",
   "downloadPdf": "Ladda ner pdf",
   "preparing": "Förbereder …",
-  "downloadFailed": "Det gick inte att skapa filen. Försök igen."
+  "downloadFailed": "Det gick inte att skapa filen. Försök igen.",
+  "saved": "Sparat",
+  "share": "Dela",
+  "myWorksheets": "Mina arbetsblad",
+  "recipeMissing": "Arbetsbladet hittades inte. Det kan ha tagits bort.",
+  "correctedNote": "Arbetsbladet rättades den {date}.",
+  "tooBigToSave": "Arbetsbladet är för stort för att sparas. Sudda ut några teckningar och försök igen.",
+  "savedAsCopy": "Arbetsbladet ändrades i ett annat fönster och sparades därför som en ny kopia.",
+  "saveFailed": "Det gick inte att spara arbetsbladet. Försök igen.",
+  "shareTitle": "Dela med en kollega",
+  "shareText": "Alla som har länken kan se arbetsbladet och spara en egen kopia att ändra i.",
+  "copyLink": "Kopiera länk",
+  "copied": "Kopierad",
+  "saveCopy": "Spara en kopia",
+  "sharedCard": "En kollega har delat det här arbetsbladet med dig. Spara en kopia för att ändra det.",
+  "deleteWorksheet": "Ta bort",
+  "deleteConfirm": "Ta bort ”{title}”?",
+  "noSavedYet": "Du har inte sparat något arbetsblad än."
 }

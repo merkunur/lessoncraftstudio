@@ -3,9 +3,34 @@
 The design is in this folder (ARCHITECTURE, ENGINES, ENGINES-ART, NEW-TEMPLATES, REVIEW-F3, OPEN-DECISIONS). This log
 records what is BUILT, measured and committed, step by step, so any session can resume. Order: ARCHITECTURE §14.
 
-**NEXT:** P3 remainder — the operator's iPad test (S1: does Safari save the print PDF to Files? if not, iPads keep the picture PDF, OPEN-DECISIONS 3a) and the student play page (proved on the first maker with a screen version — none of the pilot trio has one); then P4 accounts/recipes/sharing, P5 deploy wiring (prepared, not run), P6 thumbnails; then build ALL 60 makers locally.
+**NEXT:** P6 thumbnails (gallery previews per language), then P5 release wiring (prepared, not run: website routes + Prisma tables for saving, the old-landing smart links, nginx); owed: the iPad test (S1), the student play page + deck preset (with the first maker that has a screen version). Then build ALL 60 makers locally.
 
 > 🛑 **NO DEPLOY (operator 2026-10-31):** no worksheet maker goes live until all 60 are built, tested and finalized locally. The pilot trio is a LOCAL pilot (built + reviewed at http://localhost:8490/), not a go-live. Everything is committed; nothing maker-related is deployed. The launch is one release of all 60.
+
+## P4 (part 1) — save, reopen, My worksheets, colleague links, version pinning (2026-10-31)
+
+- `shell/recipe.js` (§5.1 as built): a worksheet = settings + copy numbers + picture/word swaps + typed texts + drawings
+  + decor, pinned to `makerVersion` / `dataVersion` (the content-hash folders). Drawings are simplified when the pen lifts
+  (0.6 px, what is shown is what is saved); cap 256 KB (ten heavily drawn pages measured 154 KB). Test `tests/recipe.test.js`.
+- `local-store.js`: the `/api/makers/*` contract of §8.2 served by the preview server (sign-in required, 409 on a stale
+  save, 413 over the cap, one link per recipe and kind, public link reads, soft delete). The website routes + Prisma
+  tables replace it at release — website code would ship with any unrelated deploy (operator: no maker deploy before all 60).
+- Versions (agent): `out/makers/versions.json` history of (maker hash, data hash) pairs, appended by `build-bundles.js`
+  (rebuilds are hash-stable); `record-fix.js` writes `docs/makers/migrations/<maker>.json`; `shell/resolve-version.js`
+  (pure; 20 tests): a content fix on a recipe's template re-routes it to the fixed version with a dated note
+  (ruling #5), polish never does, an unknown pin opens the current version.
+- **Fixed:** the screen now loads each maker's OWN data version from the ledger. Before, building one maker alone
+  replaced the shared `data/current.txt` with that maker's files and broke the others.
+- Screen: Save / "Saved"; the address reopens the worksheet; My worksheets (all makers; open, delete); Share → a
+  colleague link: read-only, the same pages, Print offered, "Save a copy" (a free account: one make). Reopening one's own
+  worksheet never spends a make.
+- Gate `gates/saves-shell.js` (20 checks, store backed up and restored): byte-for-byte reopen with drawing + typed title,
+  conflict → new copy, the colleague view, a free colleague's copy, My worksheets + delete, unknown pin, a corrected
+  template's re-route + note, anonymous. **It caught a real defect:** a colleague saw the template's sample page, not the
+  shared worksheet (the page builder still used the old open/sample switch). Poison: a recipe that drops the typed title → 2 FAIL.
+- 18 strings × 11 native-reviewed (4 fixes; de "Kollegin oder Kollege" kept as the school-standard neutral form).
+- Not yet: the student link (needs the play page, first maker with a screen version); the deck → maker preset
+  (`?preset=<deckId>`, needs the deck manifests — at release); the website side of all of this (P5).
 
 ## P3 (part 1) — downloads in the browser + spikes S2, S3, S5 (2026-10-31)
 

@@ -69,5 +69,22 @@
   "saveImage": "Save as image",
   "downloadPdf": "Download PDF",
   "preparing": "Preparing…",
-  "downloadFailed": "The file could not be created. Please try again."
+  "downloadFailed": "The file could not be created. Please try again.",
+  "saved": "Saved",
+  "share": "Share",
+  "myWorksheets": "My worksheets",
+  "recipeMissing": "This worksheet could not be found. It may have been deleted.",
+  "correctedNote": "This worksheet was corrected on {date}.",
+  "tooBigToSave": "This worksheet is too large to save. Clear some drawings and try again.",
+  "savedAsCopy": "This worksheet was changed in another window, so it was saved as a new copy.",
+  "saveFailed": "The worksheet could not be saved. Please try again.",
+  "shareTitle": "Share with a colleague",
+  "shareText": "Anyone with this link can see this worksheet and save their own copy to edit.",
+  "copyLink": "Copy link",
+  "copied": "Copied",
+  "saveCopy": "Save a copy",
+  "sharedCard": "A colleague shared this worksheet with you. Save a copy to change it.",
+  "deleteWorksheet": "Delete",
+  "deleteConfirm": "Delete “{title}”?",
+  "noSavedYet": "You have not saved a worksheet yet."
 }

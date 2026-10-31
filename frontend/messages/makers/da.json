@@ -69,5 +69,22 @@
   "saveImage": "Gem som billede",
   "downloadPdf": "Download pdf",
   "preparing": "Gør klar …",
-  "downloadFailed": "Filen kunne ikke laves. Prøv igen."
+  "downloadFailed": "Filen kunne ikke laves. Prøv igen.",
+  "saved": "Gemt",
+  "share": "Del",
+  "myWorksheets": "Mine arbejdsark",
+  "recipeMissing": "Arbejdsarket blev ikke fundet. Det er måske slettet.",
+  "correctedNote": "Arbejdsarket blev rettet den {date}.",
+  "tooBigToSave": "Arbejdsarket er for stort til at blive gemt. Slet nogle tegninger, og prøv igen.",
+  "savedAsCopy": "Arbejdsarket blev ændret i et andet vindue og er derfor gemt som en ny kopi.",
+  "saveFailed": "Arbejdsarket kunne ikke gemmes. Prøv igen.",
+  "shareTitle": "Del med en kollega",
+  "shareText": "Alle med dette link kan se arbejdsarket og gemme deres egen kopi, som de kan ændre.",
+  "copyLink": "Kopiér link",
+  "copied": "Kopieret",
+  "saveCopy": "Gem en kopi",
+  "sharedCard": "En kollega har delt dette arbejdsark med dig. Gem en kopi for at ændre det.",
+  "deleteWorksheet": "Slet",
+  "deleteConfirm": "Slet “{title}”?",
+  "noSavedYet": "Du har ikke gemt et arbejdsark endnu."
 }

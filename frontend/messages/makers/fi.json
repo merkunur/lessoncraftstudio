@@ -69,5 +69,22 @@
   "saveImage": "Tallenna kuvana",
   "downloadPdf": "Lataa PDF",
   "preparing": "Valmistellaan…",
-  "downloadFailed": "Tiedostoa ei voitu luoda. Yritä uudelleen."
+  "downloadFailed": "Tiedostoa ei voitu luoda. Yritä uudelleen.",
+  "saved": "Tallennettu",
+  "share": "Jaa",
+  "myWorksheets": "Omat monisteet",
+  "recipeMissing": "Monistetta ei löytynyt. Se on ehkä poistettu.",
+  "correctedNote": "Monistetta korjattiin {date}.",
+  "tooBigToSave": "Moniste on liian suuri tallennettavaksi. Poista joitakin piirroksia ja yritä uudelleen.",
+  "savedAsCopy": "Monistetta muutettiin toisessa ikkunassa, joten se tallennettiin uutena kopiona.",
+  "saveFailed": "Monistetta ei voitu tallentaa. Yritä uudelleen.",
+  "shareTitle": "Jaa kollegalle",
+  "shareText": "Kuka tahansa, jolla on tämä linkki, voi katsoa monistetta ja tallentaa siitä oman kopion muokattavaksi.",
+  "copyLink": "Kopioi linkki",
+  "copied": "Kopioitu",
+  "saveCopy": "Tallenna kopio",
+  "sharedCard": "Kollega jakoi tämän monisteen kanssasi. Tallenna kopio, jos haluat muuttaa sitä.",
+  "deleteWorksheet": "Poista",
+  "deleteConfirm": "Poistetaanko ”{title}”?",
+  "noSavedYet": "Et ole vielä tallentanut yhtään monistetta."
 }

@@ -69,5 +69,22 @@
   "saveImage": "Als Bild speichern",
   "downloadPdf": "PDF herunterladen",
   "preparing": "Wird vorbereitet …",
-  "downloadFailed": "Der Download hat nicht geklappt. Bitte versuchen Sie es noch einmal."
+  "downloadFailed": "Der Download hat nicht geklappt. Bitte versuchen Sie es noch einmal.",
+  "saved": "Gespeichert",
+  "share": "Teilen",
+  "myWorksheets": "Meine Arbeitsblätter",
+  "recipeMissing": "Dieses Arbeitsblatt wurde nicht gefunden. Vielleicht wurde es gelöscht.",
+  "correctedNote": "Dieses Arbeitsblatt wurde am {date} korrigiert.",
+  "tooBigToSave": "Dieses Arbeitsblatt ist zu groß zum Speichern. Löschen Sie einige Zeichnungen und versuchen Sie es noch einmal.",
+  "savedAsCopy": "Dieses Arbeitsblatt wurde in einem anderen Fenster geändert. Es wurde deshalb als neue Kopie gespeichert.",
+  "saveFailed": "Das Arbeitsblatt konnte nicht gespeichert werden. Bitte versuchen Sie es noch einmal.",
+  "shareTitle": "Mit einer Kollegin oder einem Kollegen teilen",
+  "shareText": "Wer diesen Link hat, kann das Arbeitsblatt ansehen und eine eigene Kopie zum Bearbeiten speichern.",
+  "copyLink": "Link kopieren",
+  "copied": "Kopiert",
+  "saveCopy": "Kopie speichern",
+  "sharedCard": "Eine Kollegin oder ein Kollege hat dieses Arbeitsblatt mit Ihnen geteilt. Speichern Sie eine Kopie, um es zu ändern.",
+  "deleteWorksheet": "Löschen",
+  "deleteConfirm": "„{title}“ löschen?",
+  "noSavedYet": "Sie haben noch kein Arbeitsblatt gespeichert."
 }

@@ -16,6 +16,9 @@
  *
  * Output: <out>/<maker>/<version>/{index.js, chunks…, templates.json, data-manifest.json, strings.<loc>.json}
  *         <out>/data/<dataVersion>/<repo-relative path>
+ *         <out>/versions.json — the version ledger (lib/versions.js): one history entry per new (maker hash, data hash)
+ *         pair, never removed; saved recipes pin both hashes and shell/resolve-version.js re-routes them after a
+ *         content fix recorded with record-fix.js. Old version folders are never deleted.
  */
 'use strict';
 const fs = require('fs');
@@ -164,9 +167,39 @@ async function bundle(makerId, templates, outDir) {
   return r.metafile;
 }
 
+/** Seed the ledger from the current.txt files (one entry each) when it does not exist yet. */
+function seedVersions() {
+  const { appendHistory } = require('./lib/versions.js');
+  let v = {};
+  const dataCur = path.join(OUT, 'data', 'current.txt');
+  const dv = fs.existsSync(dataCur) ? fs.readFileSync(dataCur, 'utf8').trim() : null;
+  for (const d of fs.readdirSync(OUT).sort()) {
+    const cur = path.join(OUT, d, 'current.txt');
+    if (d === 'data' || !fs.existsSync(cur)) continue;
+    const h = fs.readFileSync(cur, 'utf8').trim();
+    const dir = path.join(OUT, d, h);
+    if (!h || !fs.existsSync(dir)) continue;
+    v = appendHistory(v, d, h, dv, fs.statSync(dir).mtime.toISOString());
+  }
+  return v;
+}
+
+/** Append this run's (maker hash, data hash) pairs to out/makers/versions.json; never removes an entry. */
+function writeVersions(built, dv, seed) {
+  const { appendHistory } = require('./lib/versions.js');
+  const file = path.join(OUT, 'versions.json');
+  let v = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : (seed || {});
+  const now = new Date().toISOString();
+  for (const [id, hash] of Object.entries(built)) v = appendHistory(v, id, hash, dv, now);
+  fs.writeFileSync(file + '.tmp', JSON.stringify(v, null, 1));
+  fs.renameSync(file + '.tmp', file);
+}
+
 async function main() {
   const makers = String(args.makers || 'ten-frames,counting,sight-words').split(',');
   fs.mkdirSync(OUT, { recursive: true });
+  // seed the ledger BEFORE this run overwrites any current.txt, so the seed records what was current until now
+  const seed = fs.existsSync(path.join(OUT, 'versions.json')) ? null : seedVersions();
   // the screen's own words (frontend/messages/makers/<loc>.json, checked: parity, no empty, no untranslated)
   const ui = require('./build-ui-strings.js').build();
   console.log(`ui strings: ${ui.keys} keys × ${ui.locales} languages`);
@@ -176,6 +209,7 @@ async function main() {
   await esbuild.build({ stdin: { contents: "export { PDFDocument } from 'pdf-lib';", resolveDir: REPO }, bundle: true, format: 'esm', platform: 'browser', minify: true, outfile: path.join(vendor, 'pdf-lib.js'), logLevel: 'warning' });
   const allData = new Set();
   const report = [];
+  const built = {};
   for (const id of makers) {
     const { types } = makerTypes(id);
     const rec = record(types);
@@ -205,6 +239,7 @@ async function main() {
     report.push(`${id}@${version}: ${rec.templates.length} templates, ${offered} template×locale offered, JS ${(total / 1024).toFixed(0)} KB raw in ${js.length} files`);
     for (const t of rec.templates) if (Object.keys(t.refused).length) report.push(`   ${t.id} refused: ${Object.entries(t.refused).map(([l, r]) => l + ' (' + r + ')').join(', ')}`);
     fs.writeFileSync(path.join(OUT, id, 'current.txt'), version);
+    built[id] = version;
   }
   // data: vocab as JSON once, every other recorded file as is; versioned by content
   const vocab = require(path.join(REPO, 'scripts', 'publish-cli', 'deck-rich-alt.js')).loadVocab();
@@ -213,6 +248,7 @@ async function main() {
   const dv = sha(blobs.map(([f, c]) => f + '\0' + c).join('\0'));
   for (const [f, c] of blobs) { const p = path.join(OUT, 'data', dv, f); fs.mkdirSync(path.dirname(p), { recursive: true }); fs.writeFileSync(p, c); }
   fs.writeFileSync(path.join(OUT, 'data', 'current.txt'), dv);
+  writeVersions(built, dv, seed);
   report.push(`data@${dv}: ${files.length} files, ${(blobs.reduce((s, [, c]) => s + Buffer.byteLength(c), 0) / 1024).toFixed(0)} KB`);
   console.log(report.join('\n'));
 }

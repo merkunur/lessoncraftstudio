@@ -8,6 +8,8 @@
  * The teacher never moves anything on the page (§4.1): every change re-makes the page from its settings.
  */
 import * as exportMod from './export.js';
+import { toRecipe, fromRecipe, recipeBytes, MAX_RECIPE_BYTES, simplifyStroke } from './recipe.js';
+import { resolveVersion } from './resolve-version.js';
 
 const BASE = '/makers';
 const params = new URLSearchParams(location.search);
@@ -28,6 +30,18 @@ const el = (tag, attrs = {}, kids = []) => {
 };
 
 let mod, tj, strings, picManifest;
+/*
+ * Saving (ARCHITECTURE §5, §8). A saved worksheet is a recipe pinned to the maker + data version it was made with
+ * (makerVersion / dataVersion: the content-hash folders the screen loaded), so it reopens byte for byte.
+ *   saved   the teacher's own saved worksheet now on screen: its id, its change counter and the recipe as last saved
+ *   shared  a colleague's worksheet opened from a link: read-only; "Save a copy" makes it the teacher's own
+ */
+let makerVersion = null, dataVersion = null;
+const saved = { id: null, rev: 0, json: null };
+let shared = null;
+/** may the teacher change this worksheet / see all of it */
+const canEdit = () => isOpen(state.id) && !shared;
+const canView = () => isOpen(state.id) || !!shared;
 const typeCache = {};
 const state = { id: null, level: 2, theme: null, unit: null, answerKey: false, paper: LANG === 'en' ? 'letter' : 'a4', pages: [1], edits: [{}], units: [], texts: [{}], ink: [], border: 'none', pageNumbers: false, more: false };
 
@@ -100,8 +114,12 @@ async function boot() {
   $('mk-pages').append(el('p', { class: 'mk-note', text: UI.loading }));
   gateFrame = el('iframe', { title: 'gate', tabindex: '-1' });
   $('mk-gate-host').append(gateFrame);
-  const ver = (await (await fetch(`${BASE}/${MAKER}/current.txt`)).text()).trim();
-  const dv = (await (await fetch(`${BASE}/data/current.txt`)).text()).trim();
+  const opening = await openingRecipe();
+  if (opening === false) return;
+  const vj = await fetch(`${BASE}/versions.json`, { cache: 'no-store' }).then((r) => (r.ok ? r.json() : {})).catch(() => ({}));
+  const pin = await pinnedVersion(opening && opening.recipe, vj[MAKER]);
+  const ver = pin.makerVersion, dv = pin.dataVersion;
+  makerVersion = ver; dataVersion = dv;
   [mod, tj, strings] = await Promise.all([
     import(`${BASE}/${MAKER}/${ver}/index.js`),
     fetch(`${BASE}/${MAKER}/${ver}/templates.json`).then((r) => r.json()),
@@ -115,12 +133,25 @@ async function boot() {
   const offered = tj.templates.filter((t) => t.locales.includes(LANG));
   if (!offered.length) { $('mk-pages').replaceChildren(el('p', { class: 'mk-note', text: UI.notInLanguage })); return; }
   // test hook for scripts/makers/gates/live-gate.js (the same objects the screen uses; nothing a teacher can reach)
-  window.__lcsMaker = { mod, tj, strings, LANG, loadType, mount: (html) => mod.mountHtml(gateFrame, html), state: () => JSON.parse(JSON.stringify(state)) };
+  window.__lcsMaker = { mod, tj, strings, LANG, loadType, mount: (html) => mod.mountHtml(gateFrame, html), state: () => JSON.parse(JSON.stringify(state)), version: () => ({ makerVersion, dataVersion }) };
   await loadAccess();
   document.body.setAttribute('data-print-hint', UI.printHint);
   const want = params.get('t');
-  choose((offered.find((t) => t.id === want) || offered[0]).id, true);
-  buildGallery(offered);
+  if (opening) {
+    Object.assign(state, fromRecipe(opening.recipe));
+    variantCounter = Math.max(variantCounter, ...state.pages) + 1;
+    if (opening.id) { opened.add(state.id); keepOpened(); Object.assign(saved, { id: opening.id, rev: opening.rev }); }
+    else shared = { linkId: opening.linkId };
+    if (pin && pin.note) $('mk-controls').before(el('p', { class: 'mk-access-note', 'data-note': 'corrected', text: pin.note }));
+  }
+  choose(opening ? state.id : (offered.find((t) => t.id === want) || offered[0]).id, true);
+  if (opening && opening.id) saved.json = JSON.stringify(currentRecipe());
+  if (!shared) buildGallery(offered); else $('mk-gallery').hidden = true;
+  $('mk-save').textContent = UI.save; $('mk-share').textContent = UI.share; $('mk-mine').textContent = UI.myWorksheets;
+  $('mk-mine').hidden = access.kind === 'anon';
+  $('mk-mine').addEventListener('click', openMine);
+  $('mk-save').addEventListener('click', () => saveNow());
+  $('mk-share').addEventListener('click', shareLink);
   // New version is new content: the teacher's picture/word choices belong to the old content and are dropped
   $('mk-new').addEventListener('click', () => { state.pages = state.pages.map(() => nextVariant()); state.edits = state.pages.map(() => ({})); state.ink = []; drawingPage = null; render(); });
   $('mk-add').addEventListener('click', () => {
@@ -219,7 +250,7 @@ const results = new Map();
 function pageResult(i) {
   const t = tj.templates.find((x) => x.id === state.id);
   const ps = pageSpec(i);
-  const o = isOpen(state.id)
+  const o = canView()   // a colleague's shared worksheet is built from its recipe, not the sample
     ? { strings: pageStrings(i), locale: LANG, difficulty: state.level, theme: state.theme, unit: ps.unit, variant: ps.variant, pageSize: state.paper, answerKey: state.answerKey && t.interactive, answerKeySuffix: tj.answerKey[LANG], overrides: state.edits[i] && Object.keys(state.edits[i]).length ? state.edits[i] : null }
     : { strings: strings[state.id], locale: LANG, difficulty: t.levels.includes(2) ? 2 : t.levels[0], theme: t.themed ? t.themes[0] : null, unit: ((t.units && t.units[LANG]) || [])[0] ? t.units[LANG][0].id : null, variant: 1, pageSize: state.paper, answerKey: false, answerKeySuffix: tj.answerKey[LANG] };
   const id = state.id;
@@ -324,7 +355,10 @@ function attachInk(f, i, onChange) {
   });
   const end = () => {
     if (!cur) return;
+    cur.pts = simplifyStroke(cur.pts);
+    cur.el.setAttribute('d', strokePath(cur.pts));
     (state.ink[i] = state.ink[i] || []).push({ c: cur.c, pts: cur.pts });
+    updateSaveButtons();
     cur = null;
     onChange();
   };
@@ -397,12 +431,12 @@ async function render() {
   // a button that changes nothing is a defect: where copies at this level are all the same page there is no
   // "New version", and "Add page" exists only if it can add the next word
   const differ = t.copiesDiffer.includes(state.level);
-  const open = isOpen(state.id);
+  const open = canEdit();
   $('mk-new').hidden = !open || !differ;
   const addable = open && (differ || ((t.units && t.units[LANG]) || []).length > 0);
   $('mk-add').hidden = !addable || !canAddPages();
   $('mk-add').disabled = pagesFull();
-  if (!open) { state.pages = [state.pages[0] || 1]; state.edits = [{}]; state.ink = []; drawingPage = null; }
+  if (!canView()) { state.pages = [state.pages[0] || 1]; state.edits = [{}]; state.ink = []; drawingPage = null; }
   const out = [];
   let refused = 0;
   $('mk-print').disabled = true;
@@ -411,12 +445,12 @@ async function render() {
       const html = await makeHtml(i, false);
       const head = el('div', { class: 'mk-page-head' }, [el('span', { text: `${UI.page} ${i + 1} ${UI.of} ${state.pages.length}` })]);
       const pageUnits = (t.units && t.units[LANG]) || [];
-      if (isOpen(state.id) && pageUnits.length) {
+      if (canEdit() && pageUnits.length) {
         const sel = el('select', { class: 'mk-select', 'aria-label': `${UI.word} · ${UI.page} ${i + 1}`, on: { change: (e) => { state.units[i] = e.target.value; state.edits[i] = {}; state.texts[i] = {}; state.ink[i] = undefined; drawingPage = null; if (i === 0) state.unit = e.target.value; render(); } } });
         for (const u of pageUnits) sel.append(el('option', { value: u.id, selected: u.id === state.units[i], text: u.word }));
         head.append(el('label', { class: 'mk-page-word' }, [el('span', { text: UI.word }), sel]));
       }
-      if (isOpen(state.id)) {
+      if (canEdit()) {
         const tools = el('span', { class: 'mk-page-tools' });
         const n = state.pages.length;
         tools.append(el('button', { class: 'mk-icon', type: 'button', 'data-act': 'up', title: UI.moveUp, 'aria-label': `${UI.moveUp} · ${UI.page} ${i + 1}`, disabled: i === 0, text: '↑', on: { click: () => { pageOps.move(i, i - 1); render(); } } }));
@@ -428,21 +462,21 @@ async function render() {
         head.append(tools);
       }
       let inkBar = null, onInk = null;
-      if (isOpen(state.id) && drawingPage === i) {
+      if (canEdit() && drawingPage === i) {
         inkBar = el('div', { class: 'mk-ink-bar', role: 'toolbar', 'aria-label': UI.draw });
         const undo = el('button', { type: 'button', class: 'mk-link', 'data-act': 'undo', text: UI.undo });
         const clear = el('button', { type: 'button', class: 'mk-link', 'data-act': 'clear', text: UI.clearDrawing });
         const live = () => inkBar.parentElement && inkBar.parentElement.querySelector('.mk-sheet iframe').contentDocument.querySelector('svg[data-lcs-ink]');
         onInk = () => { undo.disabled = clear.disabled = !(state.ink[i] || []).length; };
-        undo.addEventListener('click', () => { const st = state.ink[i] || []; if (!st.length) return; st.pop(); const sv = live(); if (sv && sv.lastElementChild) sv.lastElementChild.remove(); onInk(); });
-        clear.addEventListener('click', () => { state.ink[i] = undefined; const sv = live(); if (sv) sv.replaceChildren(); onInk(); });
+        undo.addEventListener('click', () => { const st = state.ink[i] || []; if (!st.length) return; st.pop(); const sv = live(); if (sv && sv.lastElementChild) sv.lastElementChild.remove(); onInk(); updateSaveButtons(); });
+        clear.addEventListener('click', () => { state.ink[i] = undefined; const sv = live(); if (sv) sv.replaceChildren(); onInk(); updateSaveButtons(); });
         for (const c of Object.keys(INK)) {
           inkBar.append(el('button', { type: 'button', class: 'mk-ink', 'data-ink': c, 'aria-pressed': String(c === inkColor), 'aria-label': UI['ink_' + c], title: UI['ink_' + c], style: `--ink:${INK[c]}`, on: { click: (e) => { inkColor = c; inkBar.querySelectorAll('.mk-ink').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.ink === c))); } } }));
         }
         inkBar.append(undo, clear);
         onInk();
       }
-      out.push(el('div', { class: 'mk-page' }, [head, ...(inkBar ? [inkBar] : []), sheet(html, isOpen(state.id) ? i : null, onInk)]));
+      out.push(el('div', { class: 'mk-page' }, [head, ...(inkBar ? [inkBar] : []), sheet(html, canEdit() ? i : null, onInk)]));
       if (state.answerKey && t.interactive) {
         const key = await makeHtml(i, true);
         if (key) out.push(el('div', { class: 'mk-page' }, [el('div', { class: 'mk-page-head' }, [el('span', { text: `${UI.answerKey} · ${UI.page} ${i + 1}` })]), sheet(key)]));
@@ -462,8 +496,9 @@ async function render() {
   // never ship a page that failed a gate: no printing while any page is refused
   $('mk-print').disabled = refused > 0;
   // a sample page is never printed: no Print button at all (a button that cannot be used explains nothing; the card does)
-  $('mk-print').hidden = !isOpen(state.id);
-  $('mk-pdf').hidden = !isOpen(state.id) || !showRasterPdf();
+  $('mk-print').hidden = !canView();
+  $('mk-pdf').hidden = !canView() || !showRasterPdf();
+  updateSaveButtons();
   $('mk-pdf').disabled = refused > 0;
 }
 
@@ -553,6 +588,7 @@ function chipGroup(label, values, current, onPick, fmt) {
 
 function buildControls(t) {
   const c = $('mk-controls');
+  if (shared) { c.replaceChildren(sharedCard()); return; }
   if (!isOpen(t.id)) { c.replaceChildren(el('span', { class: 'mk-label', text: UI.sample }), accessCard()); return; }
   const kids = [];
   if (t.levels.length > 1) kids.push(chipGroup(UI.level, t.levels, state.level, (v) => { if (v !== state.level) state.ink = []; drawingPage = null; state.level = v; buildControls(t); render(); }));
@@ -675,7 +711,7 @@ async function saveImage(i, btn) {
 
 /** "Download PDF": every page drawn at 3× and put in a PDF at exact Letter/A4 (the iPad path, §3 / OPEN-DECISIONS 3a). */
 async function downloadPdf() {
-  if (!isOpen(state.id) || !(await spendDownload())) return;
+  if (!canView() || !(await spendDownload())) return;
   await busy($('mk-pdf'), async () => {
     const P = paperPx();
     const canvases = [];
@@ -692,7 +728,7 @@ const isAppleTouch = () => /iPad|iPhone|iPod/.test(navigator.userAgent) || (navi
 const showRasterPdf = () => params.get('pdf') === 'raster' || isAppleTouch();
 
 async function printAll() {
-  if (!isOpen(state.id)) return;
+  if (!canView()) return;
   if (!(await spendDownload())) return;
   const docs = await allDocs();
   const head = docs[0].match(/<head>([\s\S]*?)<\/head>/)[1];
@@ -706,6 +742,160 @@ async function printAll() {
     f.contentWindow.focus();
     f.contentWindow.print();
   }, { once: true });
+}
+
+/* ---------- saving: recipes, My worksheets, colleague links (ARCHITECTURE §5, §8) ---------- */
+
+/** ?r=<id> (the teacher's own saved worksheet) or ?m=<linkId> (a colleague's link); null = a new worksheet, false = stop. */
+async function openingRecipe() {
+  const rid = params.get('r'), mid = params.get('m');
+  if (!rid && !mid) return null;
+  const r = await fetch(rid ? `/api/makers/recipes/${encodeURIComponent(rid)}` : `/api/makers/links/${encodeURIComponent(mid)}`, { credentials: 'same-origin', cache: 'no-store' }).catch(() => null);
+  if (r && r.status === 401) { goTo(signInUrl()); return false; }
+  if (!r || !r.ok) { $('mk-pages').replaceChildren(el('p', { class: 'mk-note', text: UI.recipeMissing })); return false; }
+  const j = await r.json();
+  // a worksheet opens in its own maker and its own language (the link names them, but a recipe is the authority)
+  if (j.recipe.maker !== MAKER || j.recipe.lang !== LANG) {
+    const q = new URLSearchParams(location.search); q.set('maker', j.recipe.maker); q.set('lang', j.recipe.lang);
+    location.replace(`${location.pathname}?${q}`);
+    return false;
+  }
+  return rid ? { recipe: j.recipe, id: rid, rev: j.rev } : { recipe: j.recipe, linkId: mid };
+}
+
+/**
+ * Which build this screen loads: a new worksheet → the maker's current version with ITS data version (each maker's
+ * own, from versions.json — never the last build's shared pointer); a saved one → the version it was made with,
+ * unless a content fix on one of its templates re-routes it to the fixed version (resolve-version.js, ruling #5).
+ */
+async function pinnedVersion(recipe, entry) {
+  if (!entry) {
+    const text = (u) => fetch(u).then((r) => r.text()).then((s) => s.trim());
+    return { makerVersion: await text(`${BASE}/${MAKER}/current.txt`), dataVersion: await text(`${BASE}/data/current.txt`) };
+  }
+  if (!recipe) return { makerVersion: entry.current, dataVersion: entry.currentData };
+  const migrations = await fetch(`${BASE}/migrations/${MAKER}.json`, { cache: 'no-store' }).then((r) => (r.ok ? r.json() : [])).catch(() => []);
+  const v = resolveVersion({ recipe, versions: entry, migrations, current: entry.current });
+  const last = v.fixes[v.fixes.length - 1];
+  const note = last ? UI.correctedNote.replace('{date}', new Date(last.date + 'T12:00:00Z').toLocaleDateString(LANG === 'no' ? 'nb' : LANG, { day: 'numeric', month: 'long', year: 'numeric' })) : null;
+  return { makerVersion: v.makerVersion, dataVersion: v.dataVersion, note };
+}
+
+/** The worksheet on screen as a recipe (shell/recipe.js). */
+function currentRecipe() {
+  return toRecipe(state, { maker: MAKER, makerVersion, dataVersion, lang: LANG, title: pageStrings(0).title });
+}
+
+/** Save and Share are for the teacher's own worksheets; "Saved" while nothing changed since the last save. */
+function updateSaveButtons() {
+  const mine = canEdit() && access.kind !== 'anon';
+  $('mk-save').hidden = $('mk-share').hidden = !mine;
+  if (!mine) return;
+  const same = !!saved.id && JSON.stringify(currentRecipe()) === saved.json;
+  $('mk-save').textContent = same ? UI.saved : UI.save;
+  $('mk-save').disabled = same;
+}
+
+function showNote(text, key) {
+  document.querySelectorAll(`[data-note="${key}"]`).forEach((n) => n.remove());
+  $('mk-controls').prepend(el('p', { class: 'mk-access-note', 'data-note': key, text }));
+}
+
+/** Save (first time: a new saved worksheet; afterwards: the same one). Returns true when saved. */
+async function saveNow() {
+  const recipe = currentRecipe();
+  if (recipeBytes(recipe) > MAX_RECIPE_BYTES) { showNote(UI.tooBigToSave, 'save'); return false; }
+  const json = JSON.stringify(recipe);
+  const send = (method, url, body) => fetch(url, { method, credentials: 'same-origin', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body) });
+  let r = saved.id ? await send('PUT', `/api/makers/recipes/${saved.id}`, { recipe, rev: saved.rev }).catch(() => null) : null;
+  // changed in another window since this one loaded it: nothing is overwritten — this version is kept as a new copy
+  if (r && r.status === 409) { showNote(UI.savedAsCopy, 'save'); r = null; saved.id = null; }
+  if (!r || r.status === 404) {
+    if (saved.id) saved.id = null;
+    r = await send('POST', '/api/makers/recipes', { recipe }).catch(() => null);
+  }
+  if (r && r.status === 401) { goTo(signInUrl()); return false; }
+  if (r && r.status === 413) { showNote(UI.tooBigToSave, 'save'); return false; }
+  if (!r || !r.ok) { showNote(UI.saveFailed, 'save'); return false; }
+  const j = await r.json();
+  if (j.id) saved.id = j.id;
+  saved.rev = j.rev; saved.json = json;
+  // the address now reopens this worksheet (a reload, a bookmark)
+  const q = new URLSearchParams(location.search); q.set('r', saved.id); q.delete('t'); q.delete('m');
+  history.replaceState(null, '', `${location.pathname}?${q}`);
+  updateSaveButtons();
+  return true;
+}
+
+/** Share with a colleague: a read-only link from which she can save her own copy (saves first). */
+async function shareLink() {
+  if (!saved.id || JSON.stringify(currentRecipe()) !== saved.json) { if (!(await saveNow())) return; }
+  const r = await fetch('/api/makers/links', { method: 'POST', credentials: 'same-origin', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ recipeId: saved.id, kind: 'colleague' }) }).catch(() => null);
+  if (!r || !r.ok) { showNote(UI.saveFailed, 'save'); return; }
+  const { linkId } = await r.json();
+  const url = `${location.origin}${location.pathname}?maker=${encodeURIComponent(MAKER)}&lang=${LANG}&m=${linkId}`;
+  let dlg = $('mk-picker');
+  if (!dlg) { dlg = el('dialog', { id: 'mk-picker', class: 'mk-picker' }); document.body.append(dlg); }
+  const input = el('input', { class: 'mk-text-input', type: 'text', readonly: true, value: url, 'aria-label': UI.shareTitle });
+  const copy = el('button', { type: 'button', class: 'mk-btn mk-primary', 'data-act': 'copy', text: UI.copyLink, on: { click: async () => {
+    try { await navigator.clipboard.writeText(url); } catch (e) { input.select(); document.execCommand('copy'); }
+    copy.textContent = UI.copied;
+  } } });
+  dlg.replaceChildren(
+    el('div', { class: 'mk-pick-head' }, [el('h2', { text: UI.shareTitle }), el('button', { type: 'button', class: 'mk-btn', text: UI.close, on: { click: () => dlg.close() } })]),
+    el('p', { class: 'mk-pick-note', text: UI.shareText }),
+    el('div', { class: 'mk-text-actions' }, [input, copy]),
+  );
+  dlg.showModal();
+}
+
+/** A colleague's worksheet: read-only, one card — "Save a copy" makes it hers (a free account: one of her 3 makes). */
+function sharedCard() {
+  const btn = el('button', { type: 'button', class: 'mk-btn mk-primary', 'data-act': 'save-copy', text: UI.saveCopy, on: { click: saveCopy } });
+  return el('div', { class: 'mk-access' }, [el('p', { text: UI.sharedCard }), btn]);
+}
+
+async function saveCopy() {
+  if (access.kind === 'anon') return goTo(signInUrl());
+  if (access.makesLeft !== Infinity) {
+    const r = await fetch('/api/quota/check-and-increment', { method: 'POST', credentials: 'same-origin', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ kind: 'make' }) }).catch(() => null);
+    if (r && r.status === 401) return goTo(signInUrl());
+    if (r && r.status === 402) return showNote(UI.noMakesLeft, 'save');
+  }
+  const r = await fetch('/api/makers/recipes', { method: 'POST', credentials: 'same-origin', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ recipe: currentRecipe() }) }).catch(() => null);
+  if (r && r.status === 401) return goTo(signInUrl());
+  if (!r || !r.ok) return showNote(UI.saveFailed, 'save');
+  const { id } = await r.json();
+  const q = new URLSearchParams(location.search); q.delete('m'); q.set('r', id);
+  location.assign(`${location.pathname}?${q}`);
+}
+
+/** My worksheets: every worksheet the teacher saved, in any maker — open or delete. */
+async function openMine() {
+  const r = await fetch('/api/makers/recipes?mine', { credentials: 'same-origin', cache: 'no-store' }).catch(() => null);
+  if (r && r.status === 401) return goTo(signInUrl());
+  const items = r && r.ok ? (await r.json()).items : [];
+  let dlg = $('mk-picker');
+  if (!dlg) { dlg = el('dialog', { id: 'mk-picker', class: 'mk-picker' }); document.body.append(dlg); }
+  const list = el('ul', { class: 'mk-mine-list' });
+  const fmt = (iso) => new Date(iso).toLocaleDateString(LANG === 'no' ? 'nb' : LANG, { day: 'numeric', month: 'short', year: 'numeric' });
+  for (const it of items) {
+    const href = `${location.pathname}?maker=${encodeURIComponent(it.maker)}&lang=${it.lang}&r=${it.id}`;
+    const row = el('li', { class: 'mk-mine-item' }, [
+      el('a', { class: 'mk-mine-open', href }, [el('strong', { text: it.title }), el('span', { text: `${(UI.makers && UI.makers[it.maker]) || it.maker} · ${it.lang.toUpperCase()} · ${fmt(it.updatedAt)}` })]),
+      el('button', { type: 'button', class: 'mk-link', 'data-act': 'delete', text: UI.deleteWorksheet, on: { click: async () => {
+        if (!window.confirm(UI.deleteConfirm.replace('{title}', it.title))) return;
+        const d = await fetch(`/api/makers/recipes/${it.id}`, { method: 'DELETE', credentials: 'same-origin' }).catch(() => null);
+        if (d && d.ok) { row.remove(); if (it.id === saved.id) { saved.id = null; saved.json = null; updateSaveButtons(); } }
+      } } }),
+    ]);
+    list.append(row);
+  }
+  dlg.replaceChildren(
+    el('div', { class: 'mk-pick-head' }, [el('h2', { text: UI.myWorksheets }), el('button', { type: 'button', class: 'mk-btn', text: UI.close, on: { click: () => dlg.close() } })]),
+    items.length ? list : el('p', { class: 'mk-pick-note', text: UI.noSavedYet }),
+  );
+  dlg.showModal();
 }
 
 boot().catch((e) => { console.error(e); $('mk-pages').replaceChildren(el('p', { class: 'mk-note', text: UI.failed })); });

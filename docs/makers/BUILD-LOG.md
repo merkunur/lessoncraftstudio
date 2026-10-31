@@ -5,6 +5,11 @@ records what is BUILT, measured and committed, step by step, so any session can 
 
 **NEXT:** P2 remainder — title/instruction edits (§4.4), pages duplicate/reorder, decor, ink, strings moved to `frontend/messages/makers/<loc>.json` with a parity gate, the controls-budget gate (≤ 7). Then P3.
 
+## Sight Words maker: 9 new templates (2026-10-31, commit `dc8aa53a4`)
+
+- Operator: "the sight words template collection is very poor" → 15 distinct templates (K-433..K-441 new; K-259..K-263 hidden via topic-map `hideIds`). Recipe and every review finding in the commit message.
+- **Open, for the operator:** (1) the published one-word pages K-388..K-392 are airy by the fill measure (K-389 most); fixing them means republishing ~16.5k Level Set decks — not done; (2) a reviewer called Danish "tegn op" (trace) non-standard and proposed "skriv efter" — the published family uses "tegn op", so it was kept everywhere pending a ruling; (3) the coverage map has no teaching point for K-433..K-441 yet (they practise RF.K.3.c like the family).
+
 ## P2 (part 2) — access + tap-to-edit (2026-10-31, commits `c12fa0845`, `9eba9a60b`, `a20bf0b2d`)
 
 - Any picture theme, colour or B&W (Color | Black & white switch; one theme per page).

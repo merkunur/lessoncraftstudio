@@ -6,6 +6,20 @@ You are designing the **architecture, the strategy and the hard engines** for Le
 - Your answers must be concrete enough to build from without asking you again.
 - The operator reads your output; write for a non-technical owner where you address him and for an engineer where you specify.
 
+
+## 0. THE GOAL (operator, verbatim, 2026-10-31)
+
+> "The goal is to build the exhaustive top quality worksheet makers collection for k3 teachers in the supported 11 languages which should be as easy as possible to use (if possible self evident), comprehensive, pedagogically correct, time saving."
+
+Judge every decision against it:
+- **exhaustive** — every K-3 topic, with new templates beyond today's;
+- **top quality**;
+- **11 languages**;
+- **easy, ideally self-evident**;
+- **comprehensive**;
+- **pedagogically correct**;
+- **time saving** — a good worksheet in under a minute.
+
 ## 1. The operator's requirements (verbatim where quoted)
 
 1. **One maker per topic** (60 makers). A topic's existing worksheet types become its templates, plus new templates. Every non-science worksheet type gets a maker: 755 types. The 76 science types are excluded.

@@ -5,6 +5,7 @@ const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
 const { answerBox } = require('../../templates/components.js');
 
 const NUM = (v) => `<span style="font-family:'Baloo 2';font-weight:700;font-size:28px;color:#3A3530" data-lcs-num="${v}">${v}</span>`;
+const { mulGlyph } = require('../_shared/notation.js');
 const OP = (ch) => `<span style="font-family:'Baloo 2';font-weight:700;font-size:26px;color:#146B5E">${ch}</span>`;
 /** the empty answer place on the SCREEN version (the print page keeps its answer box) */
 const QBOX = `<span data-lcs-qbox style="display:inline-flex;align-items:center;justify-content:center;width:60px;height:50px;box-sizing:border-box;border:3px dashed #F2784B;border-radius:12px;font-family:'Baloo 2';font-weight:700;font-size:28px;color:#F2784B">?</span>`;
@@ -59,9 +60,9 @@ module.exports = {
         `<div class="ws-card-stage" style="flex-direction:column;gap:14px" data-lcs-r="${r}" data-lcs-c="${c}">` +
         `<div class="ws-icon-rows" style="gap:6px" data-lcs-array>${rows.join('')}</div>` +
         `<span style="display:inline-flex;align-items:center;gap:8px">` +
-        NUM(r) + OP('×') + NUM(c) + OP('=') + answerBox({ w: 64, h: 50, answer: r * c }) + `</span></div>`
+        NUM(r) + OP(mulGlyph(locale)) + NUM(c) + OP('=') + answerBox({ w: 64, h: 50, answer: r * c }) + `</span></div>`
       );
-      qa.push({ visual: `<div class="ws-icon-rows" style="gap:6px">${rows.join('')}</div>`, eq: NUM(r) + OP('×') + NUM(c) + OP('=') + QBOX, q: `${r}*${c}`, a: r * c, d: [r * c + c, r * c - r, r + c, r * c + 1] });
+      qa.push({ visual: `<div class="ws-icon-rows" style="gap:6px">${rows.join('')}</div>`, eq: NUM(r) + OP(mulGlyph(locale)) + NUM(c) + OP('=') + QBOX, q: `${r}*${c}`, a: r * c, d: [r * c + c, r * c - r, r + c, r * c + 1] });
     }
     return { bodyHtml: cardGrid({ cards, cols: 2, rows: Math.ceil(d.cards / 2) }), meta: published ? {} : { facts: qa.map((x) => x.q) }, _ans: qa };
   },

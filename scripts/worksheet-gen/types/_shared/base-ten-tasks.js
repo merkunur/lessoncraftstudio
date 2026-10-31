@@ -10,6 +10,7 @@
  *  - 'digit-value':   underlined digit → circle its value (G2-225)
  */
 'use strict';
+const { mulGlyph } = require('./notation.js');
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const baseTenBlocks = require('../../primitives/base-ten.js');
 
@@ -51,7 +52,8 @@ function makeBaseTenType(cfg) {
     },
     i18n,
 
-    build({ difficulty }, ctx) {
+    build({ difficulty, locale }, ctx) {
+      const MUL = mulGlyph(locale);   // 2026-10-31: '× 10' printed '×' in de/sv/da/no/fi (schools write ·)
       const d = this.difficulty[difficulty];
       const rng = ctx.rng;
       const lvTable = (cfg.levels || MODE_LEVELS)[mode];
@@ -96,7 +98,7 @@ function makeBaseTenType(cfg) {
           stage = `<div class="ws-card-stage" style="gap:22px;justify-content:space-between;padding:8px 14px" data-lcs-tens="${t}">` +
             draw(0, t, 0) +
             `<span style="display:inline-flex;align-items:center;gap:10px">` +
-            answerBox({ w: 64, h: 54, answer: t }) + OP('×') + NUM(10) + OP('=') + answerBox({ w: 84, h: 54, answer: t * 10 }) + `</span></div>`;
+            answerBox({ w: 64, h: 54, answer: t }) + OP(MUL) + NUM(10) + OP('=') + answerBox({ w: 84, h: 54, answer: t * 10 }) + `</span></div>`;
         } else if (mode === 'add' || mode === 'sub') {
           // no-regrouping pairs
           let t1 = rng.int(1, L.t1Hi), o1 = rng.int(1, L.o1Hi), t2, o2;
@@ -117,7 +119,7 @@ function makeBaseTenType(cfg) {
             draw(0, 0, o) +
             `<span style="display:inline-flex;align-items:center;gap:8px">` +
             answerBox({ w: 54, h: 50, answer: bundles }) +
-            `<span style="font-family:'Nunito';font-weight:800;font-size:15px;color:#8A8276">⬛×10</span>` +
+            `<span style="font-family:'Nunito';font-weight:800;font-size:15px;color:#8A8276">⬛${MUL}10</span>` +
             OP('+') + answerBox({ w: 54, h: 50, answer: o - bundles * 10 }) + `</span></div>`;
         } else if (mode === 'expanded') {
           const { h, t, o, v } = pick();

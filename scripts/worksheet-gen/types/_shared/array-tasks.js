@@ -14,7 +14,7 @@
  *  - 'commutative':   same array both ways → r × c = c × r (G3-314)
  */
 'use strict';
-const { divGlyph } = require('./notation.js');
+const { divGlyph, mulGlyph } = require('./notation.js');
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const diceFace = require('../../primitives/dice.js');
 const domino = require('../../primitives/domino.js');
@@ -119,7 +119,8 @@ function makeArrayType(cfg) {
       const qa = [];
       const lvTable = (cfg.levels || MODE_LEVELS)[mode];
       const L = lvTable ? (lvTable[difficulty] || lvTable[2]) : null;
-      const div = divGlyph(locale);   // C1 2026-09-14: was a hard-coded '÷' (a MINUS in older sv notation)
+      const div = divGlyph(locale);
+      const MUL = mulGlyph(locale);   // 2026-10-31: was a hard-coded '×' (de/sv/da/no/fi schools write ·)   // C1 2026-09-14: was a hard-coded '÷' (a MINUS in older sv notation)
       const nouns = this.themeAxis.applicable ? rng.sample(labelSafeNouns(theme), d.cards) : null;
       const cards = [];
       const used = new Set();
@@ -158,11 +159,11 @@ function makeArrayType(cfg) {
           const rings = Array.from({ length: k }, () => groupRing(theme, nouns[i].noun, n, px, compact)).join('');
           const eq = mode === 'rep-add'
             ? Array.from({ length: k }, (_, x) => NUM(n)).join(OP('+')) + OP('=') + answerBox({ w: 60, h: 48, answer: k * n })
-            : NUM(k) + OP('×') + NUM(n) + OP('=') + answerBox({ w: 60, h: 48, answer: k * n });
+            : NUM(k) + OP(MUL) + NUM(n) + OP('=') + answerBox({ w: 60, h: 48, answer: k * n });
           stage = `<div class="ws-card-stage" style="flex-direction:column;gap:14px" data-lcs-k="${k}" data-lcs-n="${n}">` +
             `<span style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap">${rings}</span>` +
             `<span style="display:inline-flex;align-items:center;gap:6px">${eq}</span></div>`;
-          const qeq = mode === 'rep-add' ? Array.from({ length: k }, () => NUM(n)).join(OP('+')) + OP('=') + QBOX : NUM(k) + OP('×') + NUM(n) + OP('=') + QBOX;
+          const qeq = mode === 'rep-add' ? Array.from({ length: k }, () => NUM(n)).join(OP('+')) + OP('=') + QBOX : NUM(k) + OP(MUL) + NUM(n) + OP('=') + QBOX;
           qa.push({ visual: `<span style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;max-width:600px">${rings}</span>`, eq: qeq, q: `${k}*${n}`, a: k * n, d: [k * n + n, k * n - n, k + n, k * n + 1] });
         } else if (mode === 'build-array') {
           let r, c, g = 0;
@@ -193,12 +194,12 @@ function makeArrayType(cfg) {
             `<span class="ws-pattern-chip" style="width:auto;height:auto;border-radius:12px;padding:8px"${o.ok ? ' data-lcs-correct="1"' : ''}>` +
             iconArrayHtml(theme, nouns[i].noun, o.r, o.c, px) + `</span>`).join('');
           stage = `<div class="ws-card-stage" style="gap:20px;justify-content:space-between;padding:6px 12px" data-lcs-r="${r}" data-lcs-c="${c}">` +
-            `<span style="display:inline-flex;align-items:center;gap:6px">${NUM(r)}${OP('×')}${NUM(c)}</span>` +
+            `<span style="display:inline-flex;align-items:center;gap:6px">${NUM(r)}${OP(MUL)}${NUM(c)}</span>` +
             `<span class="ws-pattern-choices">${chips}</span></div>`;
           // the screen offers the page's own three arrays, in the page's order
           // one picture size for all three (a smaller picture in one option would be a tell), as big as the widest fits
           const opx = Math.min(30, Math.floor(150 / Math.max(...opts.map((o) => Math.max(o.r, o.c)))));
-          qa.push({ choose: true, eq: NUM(r) + OP('×') + NUM(c), q: `${r}x${c}`, opts: opts.map((o) => ({ label: `${o.r}x${o.c}`, html: iconArrayHtml(theme, nouns[i].noun, o.r, o.c, opx), ok: o.ok })) });
+          qa.push({ choose: true, eq: NUM(r) + OP(MUL) + NUM(c), q: `${r}x${c}`, opts: opts.map((o) => ({ label: `${o.r}x${o.c}`, html: iconArrayHtml(theme, nouns[i].noun, o.r, o.c, opx), ok: o.ok })) });
         } else if (mode === 'share-bins') {
           const bins = rng.int(L.binLo, L.binHi);
           const each = rng.int(L.eachLo, L.eachHi);
@@ -233,7 +234,7 @@ function makeArrayType(cfg) {
           const px = Math.min(34, Math.floor(190 / c));
           const line = (x, op, y, ans) =>
             `<span style="display:inline-flex;align-items:center;gap:6px" data-lcs-fact="${x}${op}${y}=${ans}">` +
-            NUM(x) + OP(op === '*' ? '×' : div) + NUM(y) + OP('=') + answerBox({ w: 50, h: 40, answer: ans }) + `</span>`;
+            NUM(x) + OP(op === '*' ? MUL : div) + NUM(y) + OP('=') + answerBox({ w: 50, h: 40, answer: ans }) + `</span>`;
           stage = `<div class="ws-card-stage" style="gap:24px;justify-content:space-between;padding:6px 14px" data-lcs-r="${r}" data-lcs-c="${c}">` +
             iconArrayHtml(theme, nouns[i].noun, r, c, px) +
             // gap 10 → 8 (2026-09-14): four 40 px boxes + three 10 px gaps put the last box 3 px into the
@@ -243,7 +244,7 @@ function makeArrayType(cfg) {
             `</span></div>`;
           // the screen asks the card's four facts one by one, each beside the same array
           const arr = iconArrayHtml(theme, nouns[i].noun, r, c, px);
-          const fq = (x, op, y) => NUM(x) + OP(op === '*' ? '×' : div) + NUM(y) + OP('=') + QBOX;
+          const fq = (x, op, y) => NUM(x) + OP(op === '*' ? MUL : div) + NUM(y) + OP('=') + QBOX;
           qa.push({ visual: arr, eq: fq(r, '*', c), q: `${r}*${c}`, a: r * c, d: [r * c + c, r * c - r, r + c, r * c + 1] });
           qa.push({ visual: arr, eq: fq(c, '*', r), q: `${c}*${r}`, a: r * c, d: [r * c + r, r * c - c, r + c, r * c - 1] });
           qa.push({ visual: arr, eq: fq(r * c, '/', r), q: `${r * c}/${r}`, a: c, d: [c + 1, c - 1, r, c + 2] });
@@ -258,8 +259,8 @@ function makeArrayType(cfg) {
           stage = `<div class="ws-card-stage" style="gap:24px;justify-content:space-between;padding:6px 14px" data-lcs-r="${r}" data-lcs-c="${c}">` +
             iconArrayHtml(theme, nouns[i].noun, r, c, px) +
             `<span style="display:inline-flex;align-items:center;gap:8px">` +
-            answerBox({ w: 56, h: 46, answer: r }) + OP('×') + NUM(c) + OP('=') + NUM(r * c) + `</span></div>`;
-          qa.push({ visual: iconArrayHtml(theme, nouns[i].noun, r, c, px), eq: QBOX + OP('×') + NUM(c) + OP('=') + NUM(r * c), q: `?*${c}=${r * c}`, a: r, d: [r + 1, r - 1, c, r + 2] });
+            answerBox({ w: 56, h: 46, answer: r }) + OP(MUL) + NUM(c) + OP('=') + NUM(r * c) + `</span></div>`;
+          qa.push({ visual: iconArrayHtml(theme, nouns[i].noun, r, c, px), eq: QBOX + OP(MUL) + NUM(c) + OP('=') + NUM(r * c), q: `?*${c}=${r * c}`, a: r, d: [r + 1, r - 1, c, r + 2] });
         } else if (mode === 'area-grid') {
           let r, c, g = 0;
           do { r = rng.int(L.rLo, L.rHi); c = rng.int(L.cLo, L.cHi); g++; } while (used.has(r + 'x' + c) && g < 30);
@@ -268,9 +269,9 @@ function makeArrayType(cfg) {
           stage = `<div class="ws-card-stage" style="gap:24px;justify-content:space-between;padding:6px 14px">` +
             areaGridSvg(r, c, cell) +
             `<span style="display:inline-flex;align-items:center;gap:8px">` +
-            NUM(r) + OP('×') + NUM(c) + OP('=') + answerBox({ w: 64, h: 50, answer: r * c }) + `</span></div>`;
+            NUM(r) + OP(MUL) + NUM(c) + OP('=') + answerBox({ w: 64, h: 50, answer: r * c }) + `</span></div>`;
           // the perimeter (2r + 2c) is the classic area slip
-          qa.push({ visual: areaGridSvg(r, c, cell), eq: NUM(r) + OP('×') + NUM(c) + OP('=') + QBOX, q: `${r}*${c}`, a: r * c, d: [2 * (r + c), r * c + c, r * c - r, r + c] });
+          qa.push({ visual: areaGridSvg(r, c, cell), eq: NUM(r) + OP(MUL) + NUM(c) + OP('=') + QBOX, q: `${r}*${c}`, a: r * c, d: [2 * (r + c), r * c + c, r * c - r, r + c] });
         } else if (mode === 'commutative') {
           let r, c, g = 0;
           do { r = rng.int(L.rLo, L.rHi); c = rng.int(L.cLo, L.cHi); g++; } while ((r === c || used.has(r + 'x' + c)) && g < 30);
@@ -280,11 +281,11 @@ function makeArrayType(cfg) {
             `<span data-lcs-side="rc">${iconArrayHtml(theme, nouns[i].noun, r, c, px)}</span>` +
             `<span data-lcs-side="cr">${iconArrayHtml(theme, nouns[i].noun, c, r, px)}</span>` +
             `<span style="display:inline-flex;flex-direction:column;gap:10px">` +
-            `<span style="display:inline-flex;align-items:center;gap:6px">${NUM(r)}${OP('×')}${NUM(c)}${OP('=')}${answerBox({ w: 52, h: 42, answer: r * c })}</span>` +
-            `<span style="display:inline-flex;align-items:center;gap:6px">${NUM(c)}${OP('×')}${NUM(r)}${OP('=')}${answerBox({ w: 52, h: 42, answer: r * c })}</span>` +
+            `<span style="display:inline-flex;align-items:center;gap:6px">${NUM(r)}${OP(MUL)}${NUM(c)}${OP('=')}${answerBox({ w: 52, h: 42, answer: r * c })}</span>` +
+            `<span style="display:inline-flex;align-items:center;gap:6px">${NUM(c)}${OP(MUL)}${NUM(r)}${OP('=')}${answerBox({ w: 52, h: 42, answer: r * c })}</span>` +
             `</span></div>`;
           qa.push({ visual: `<span style="display:inline-flex;gap:28px;align-items:center">${iconArrayHtml(theme, nouns[i].noun, r, c, px)}${iconArrayHtml(theme, nouns[i].noun, c, r, px)}</span>`,
-            eq: NUM(r) + OP('×') + NUM(c) + OP('=') + NUM(c) + OP('×') + NUM(r) + OP('=') + QBOX, q: `${r}*${c}`, a: r * c, d: [r * c + r, r * c - c, r + c, r * c + 1] });
+            eq: NUM(r) + OP(MUL) + NUM(c) + OP('=') + NUM(c) + OP(MUL) + NUM(r) + OP('=') + QBOX, q: `${r}*${c}`, a: r * c, d: [r * c + r, r * c - c, r + c, r * c + 1] });
         }
         cards.push(stage);
       }

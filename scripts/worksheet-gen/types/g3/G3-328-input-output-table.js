@@ -9,6 +9,7 @@
  * away 6 or 8, five rows a machine and TWO missing inputs.
  */
 'use strict';
+const { mulGlyph } = require('../_shared/notation.js');
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { answerBox } = require('../../templates/components.js');
 const NCS = require('../../lib/number-charts-screen.js');
@@ -42,6 +43,7 @@ module.exports = {
 
   build(args, ctx) {
     const { difficulty } = args;
+    const MUL = mulGlyph(args.locale);   // 2026-10-31: the rule chip printed '×' in de/sv/da/no/fi (schools write ·)
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     const machines = [];
@@ -70,7 +72,7 @@ module.exports = {
       return (
         `<div class="ws-card-stage" style="flex-direction:column;justify-content:space-evenly;gap:10px" data-lcs-op="${op}" data-lcs-k="${k}">` +
         `<span style="display:inline-flex;align-items:center;gap:8px;padding:10px 34px;border-radius:999px;background:#146B5E;` +
-        `color:#FFFFFF;font-family:'Baloo 2';font-weight:700;font-size:40px" data-lcs-rule="${op}${k}">${op === '-' ? '−' : op}${k}</span>` +
+        `color:#FFFFFF;font-family:'Baloo 2';font-weight:700;font-size:40px" data-lcs-rule="${op}${k}">${op === '-' ? '−' : (op === '×' ? MUL : op)}${k}</span>` +
         rows + `</div>`
       );
     });
@@ -84,7 +86,7 @@ module.exports = {
     const C = NCS.cellBox;
     const qs = [];
     for (const m of machines) {
-      const chip = `<span style="display:inline-flex;padding:6px 22px;border-radius:999px;background:#146B5E;color:#FFFFFF;font-family:'Baloo 2';font-weight:700;font-size:30px">${m.op === '-' ? '−' : m.op}${m.k}</span>`;
+      const chip = `<span style="display:inline-flex;padding:6px 22px;border-radius:999px;background:#146B5E;color:#FFFFFF;font-family:'Baloo 2';font-weight:700;font-size:30px">${m.op === '-' ? '−' : (m.op === '×' ? mulGlyph(args.locale) : m.op)}${m.k}</span>`;
       for (const r of m.rows) {
         const out = r.which === 'out';
         const ans = out ? r.y : r.x;

@@ -1,0 +1,39 @@
+{
+ "id": "wave-008",
+ "seedEpoch": 1,
+ "locales": [
+  "sv"
+ ],
+ "themes": [
+  "animals",
+  "fruits",
+  "vehicles",
+  "toys",
+  "shapes"
+ ],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G2-210",
+  "G3-302",
+  "G3-312",
+  "G2-211",
+  "G2-212",
+  "G3-314",
+  "G2-213",
+  "G3-311"
+ ],
+ "themeOverrides": {
+  "G2-210": "fruits",
+  "G3-302": "shapes",
+  "G3-312": "shapes",
+  "G2-211": "fruits",
+  "G2-212": "toys",
+  "G3-314": "fruits",
+  "G2-213": "toys",
+  "G3-311": "toys"
+ },
+ "_note": "2026-10-31 multiplication-sign fix (de/sv/da/no/fi write ·): pinned re-generation of the live published pages; id kept so deckIdFor reproduces the live basenames."
+}

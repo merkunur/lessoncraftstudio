@@ -3488,5 +3488,25 @@
   "K-455": {
     "title": "Retas numéricas para a carteira",
     "instruction": "Recorte as retas numéricas pelas linhas tracejadas."
+  },
+  "K-456": {
+    "title": "Casinhas dos números",
+    "instruction": "O telhado mostra o número. Cada andar separa o número em duas partes. Escreva a parte que falta em cada andar."
+  },
+  "K-457": {
+    "title": "Quantos estão escondidos?",
+    "instruction": "O círculo mostra quantos há ao todo. Você vê alguns. Os outros estão escondidos embaixo do copo. Escreva quantos estão escondidos."
+  },
+  "K-458": {
+    "title": "Arco-íris dos pares",
+    "instruction": "Ligue com um arco dois números que, juntos, formam o número do círculo. Se um número faz par com ele mesmo, faça um círculo em volta dele."
+  },
+  "G1-440": {
+    "title": "Amigos do 100",
+    "instruction": "Observe cada esquema e escreva o número que falta no círculo pontilhado."
+  },
+  "G1-441": {
+    "title": "Triângulos das famílias de operações",
+    "instruction": "Recorte os cartões pelas linhas tracejadas. Cubra um canto: qual número está escondido?"
   }
 }

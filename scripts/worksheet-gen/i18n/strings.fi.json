@@ -3459,5 +3459,25 @@
   "K-455": {
     "title": "Lukusuorat pulpetille",
     "instruction": "Leikkaa lukusuorat irti katkoviivoja pitkin."
+  },
+  "K-456": {
+    "title": "Lukutalot",
+    "instruction": "Katossa on luku. Jokainen kerros jakaa sen kahteen osaan. Kirjoita jokaiseen kerrokseen puuttuva osa."
+  },
+  "K-457": {
+    "title": "Montako on piilossa?",
+    "instruction": "Ympyrä näyttää, montako niitä on yhteensä. Osan näet. Loput ovat piilossa mukin alla. Kirjoita, montako on piilossa."
+  },
+  "K-458": {
+    "title": "Kaverisateenkaari",
+    "instruction": "Yhdistä kaarella kaksi lukua, joista tulee yhteensä ympyrässä oleva luku. Jos luku on itsensä kaveri, ympyröi se."
+  },
+  "G1-440": {
+    "title": "Luvun 100 hajotelmat",
+    "instruction": "Katso jokaista hajotelmaa. Kirjoita puuttuva luku tyhjään ympyrään."
+  },
+  "G1-441": {
+    "title": "Laskukolmiot leikattaviksi",
+    "instruction": "Leikkaa kortit irti katkoviivoja pitkin. Peitä yksi kulma: mikä luku on piilossa?"
   }
 }

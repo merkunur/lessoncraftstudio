@@ -3482,5 +3482,25 @@
   "K-455": {
     "title": "Getallenlijnen voor op je tafel",
     "instruction": "Knip de getallenlijnen uit langs de stippellijnen."
+  },
+  "K-456": {
+    "title": "Splitshuizen",
+    "instruction": "Het dak laat het getal zien. Elke verdieping splitst het in twee delen. Schrijf het ontbrekende deel op elke verdieping."
+  },
+  "K-457": {
+    "title": "Hoeveel zijn er verstopt?",
+    "instruction": "De cirkel laat zien hoeveel het er samen zijn. Een paar zie je. De rest zit verstopt onder de beker. Schrijf op hoeveel er verstopt zijn."
+  },
+  "K-458": {
+    "title": "Regenboogparen",
+    "instruction": "Verbind met een boog twee getallen die samen het getal in de cirkel maken. Vormt een getal een paar met zichzelf? Zet er dan een rondje omheen."
+  },
+  "G1-440": {
+    "title": "Aanvullen tot 100",
+    "instruction": "Kijk naar elke splitsing. Schrijf het getal dat mist in de lege cirkel."
+  },
+  "G1-441": {
+    "title": "Rekendriehoeken om te knippen",
+    "instruction": "Knip de kaartjes uit langs de stippellijnen. Dek een hoek af: welk getal is verstopt?"
   }
 }

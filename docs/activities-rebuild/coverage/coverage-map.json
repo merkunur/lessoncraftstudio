@@ -357,7 +357,8 @@
         "K-415",
         "K-416",
         "K-417",
-        "K-454"
+        "K-454",
+        "K-456"
       ],
       "verdict": "covered",
       "activities": [
@@ -1697,7 +1698,9 @@
       "strand": "Operations & Algebraic Thinking",
       "worksheets": [
         "G1-106",
-        "G1-427"
+        "G1-427",
+        "K-457",
+        "K-458"
       ],
       "verdict": "covered",
       "activities": [
@@ -1736,7 +1739,8 @@
         "G1-219",
         "G1-220",
         "G1-221",
-        "G1-222"
+        "G1-222",
+        "G1-441"
       ],
       "verdict": "partial",
       "activities": [
@@ -1976,6 +1980,20 @@
       ],
       "planned": [],
       "note": "1 less is only implicit in next-number; the hundreds-chart proposal (chart-patches) also enacts +/-1 and +/-10 physically."
+    },
+    {
+      "tp": "1:bonds-to-100",
+      "grade": "1",
+      "skill": "Number bonds of 100: find the partner that makes 100 (tens, then fives, then any two numbers)",
+      "code": "1.NBT.C.6 / 2.NBT.B.5",
+      "strand": "Number & Operations in Base Ten",
+      "worksheets": [
+        "G1-440"
+      ],
+      "verdict": "covered",
+      "activities": [],
+      "planned": [],
+      "note": "Number Bonds maker 2026-11-01 (NEW-TEMPLATES 6-T3). Activities gap: none yet."
     },
     {
       "tp": "1:skip-counting",
@@ -4578,7 +4596,8 @@
       "worksheets": [
         "G3-311",
         "G3-312",
-        "G3-369"
+        "G3-369",
+        "G1-441"
       ],
       "verdict": "partial",
       "activities": [

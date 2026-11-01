@@ -7,6 +7,32 @@ records what is BUILT, measured and committed, step by step, so any session can 
 
 > 🛑 **NO DEPLOY (operator 2026-10-31):** no worksheet maker goes live until all 60 are built, tested and finalized locally. The pilot trio is a LOCAL pilot (built + reviewed at http://localhost:8490/), not a go-live. Everything is committed; nothing maker-related is deployed. The launch is one release of all 60.
 
+## B1 maker 3: Number Bonds & Fact Families (`number-bonds`) — 16 templates + 5 new (2026-11-01)
+
+- The 16 existing templates bundled with no engine change (parity 96/96, live 1,056 pages).
+- New templates (NEW-TEMPLATES §6), `types/_shared/number-bond-more.js`, print-only with the shared key layer except
+  the cards (material):
+  - K-456 number houses (Zahlenhaus / splitshuis): floors 1 … N−1, never 0. L1 three houses of 4-6 with dots;
+    L2 two houses of 6-10; L3 floors shuffled and half print the right part.
+  - G1-440 number bonds of 100: tens, then fives, then any (no part on the fives). The key writes the answer into the
+    dashed circle (an SVG circle is not a box the key layer fills).
+  - K-457 how many are hiding: the total = shown pictures + a cup of ONE size; a picture slot per card.
+  - K-458 rainbow pairs: arcs join the pairs that make N, and a number that is its own partner gets a ring. L1 has the
+    outer pair drawn (its own level instruction); in L2 the order is mixed with partners never side by side (gated);
+    L3 goes to 16. Arc height grows with span, so nested arcs never meet.
+  - G1-441 fact triangle cards (no key): + − within 10 / 20; L3 is a × ÷ extension (tables 2, 5, 10) with each
+    language's signs.
+  - T2 make-ten bridge is G1-439 in Number Lines (F3). Cross-link cards are not built yet (no maker has them).
+- One native + pedagogy reviewer: 11 findings, all applied. The biggest: the cards' instruction said "cut out the
+  triangles along the dashed lines", but the dashed lines run around the CARDS, in all 11 languages. Also:
+  - "a number that makes it with itself" became "its own partner";
+  - de/nl/fi "up to 100" titles, since every whole is 100;
+  - the L3 rainbow to 20 crowded its numbers, so it is capped at 16;
+  - × ÷ was cut back to the gentlest tables;
+  - wording fixes for fr, sv, da and pt (cup words, calques).
+- Coverage: K-456 → K:number-bonds-k; K-457, K-458 → 1:make-10; G1-441 → 1:fact-families + 3:mult-div-relationship;
+  new point 1:bonds-to-100 (G1-440).
+
 ## B1 maker 2: Number Lines (`number-lines`) — 21 templates + 6 new (2026-11-01)
 
 - The 21 existing templates bundled with no engine change (parity 231/231, live 1,386 pages).

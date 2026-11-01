@@ -3855,5 +3855,20 @@
       "no": "Klipp ut stripene. Lim dem sammen etter hverandre til en tallinje fra 0 til 100.",
       "fi": "Leikkaa suikaleet irti. Liimaa ne peräkkäin, niin saat lukusuoran 0–100."
     }
+  },
+  "K-458": {
+    "1": {
+      "en": "Draw an arc to join two numbers that together make the number in the circle. If a number is its own partner, draw a ring around it. One pair is already joined.",
+      "de": "Verbinde zwei Zahlen, die zusammen die Zahl im Kreis ergeben, mit einem Bogen. Ist eine Zahl ihr eigener Partner, kreise sie ein. Ein Paar ist schon verbunden.",
+      "fr": "Relie par un arc deux nombres qui, ensemble, font le nombre du cercle. Si un nombre est son propre partenaire, entoure-le. Une paire est déjà reliée.",
+      "es": "Une con un arco dos números que juntos forman el número del círculo. Si un número hace pareja consigo mismo, enciérralo en un círculo. Una pareja ya está unida.",
+      "pt": "Ligue com um arco dois números que, juntos, formam o número do círculo. Se um número faz par com ele mesmo, faça um círculo em volta dele. Um par já está ligado.",
+      "it": "Unisci con un arco due numeri che insieme fanno il numero nel cerchio. Se un numero fa coppia con sé stesso, cerchialo. Una coppia è già unita.",
+      "nl": "Verbind met een boog twee getallen die samen het getal in de cirkel maken. Vormt een getal een paar met zichzelf? Zet er dan een rondje omheen. Eén paar is al verbonden.",
+      "sv": "Dra en båge mellan två tal som tillsammans blir talet i cirkeln. Är ett tal kompis med sig självt, ringa in det. En båge är redan ritad.",
+      "da": "Forbind to tal, der tilsammen giver tallet i cirklen, med en bue. Er et tal ven med sig selv, så sæt en ring om det. Ét par er allerede forbundet.",
+      "no": "Tegn en bue mellom to tall som til sammen blir tallet i sirkelen. Er et tall venn med seg selv, så sett ring rundt det. Ett par er allerede koblet sammen.",
+      "fi": "Yhdistä kaarella kaksi lukua, joista tulee yhteensä ympyrässä oleva luku. Jos luku on itsensä kaveri, ympyröi se. Yksi pari on jo yhdistetty."
+    }
   }
 }

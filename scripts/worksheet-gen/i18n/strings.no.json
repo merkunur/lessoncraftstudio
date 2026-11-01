@@ -3477,5 +3477,25 @@
   "K-455": {
     "title": "Tallinjer til pulten",
     "instruction": "Klipp ut tallinjene langs de stiplede linjene."
+  },
+  "K-456": {
+    "title": "Tallhus",
+    "instruction": "Taket viser tallet. Hver etasje deler tallet i to deler. Skriv delen som mangler, i hver etasje."
+  },
+  "K-457": {
+    "title": "Hvor mange gjemmer seg?",
+    "instruction": "Sirkelen viser hvor mange det er i alt. Noen kan du se. Resten gjemmer seg under koppen. Skriv hvor mange som gjemmer seg."
+  },
+  "K-458": {
+    "title": "Venneregnbuen",
+    "instruction": "Tegn en bue mellom to tall som til sammen blir tallet i sirkelen. Er et tall venn med seg selv, så sett ring rundt det."
+  },
+  "G1-440": {
+    "title": "Tallvenner til 100",
+    "instruction": "Finn tallet som mangler. Skriv det i den stiplede sirkelen. De to delene blir til sammen 100."
+  },
+  "G1-441": {
+    "title": "Regnetrekanter til å klippe ut",
+    "instruction": "Klipp ut kortene langs de stiplede linjene. Dekk til et hjørne: hvilket tall gjemmer seg?"
   }
 }

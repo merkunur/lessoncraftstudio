@@ -3449,5 +3449,25 @@
   "K-455": {
     "title": "Tallinjer till bänken",
     "instruction": "Klipp ut tallinjerna längs de streckade linjerna."
+  },
+  "K-456": {
+    "title": "Talhus",
+    "instruction": "Taket visar talet. Varje våning delar talet i två delar. Skriv den del som saknas på varje våning."
+  },
+  "K-457": {
+    "title": "Hur många gömmer sig?",
+    "instruction": "Cirkeln visar hur många det är sammanlagt. Några kan du se. Resten gömmer sig under bägaren. Skriv hur många som gömmer sig."
+  },
+  "K-458": {
+    "title": "Kompisregnbågen",
+    "instruction": "Dra en båge mellan två tal som tillsammans blir talet i cirkeln. Är ett tal kompis med sig självt, ringa in det."
+  },
+  "G1-440": {
+    "title": "Hundrakompisar",
+    "instruction": "Vilken hundrakompis saknas? Skriv talet som fattas i den streckade cirkeln."
+  },
+  "G1-441": {
+    "title": "Räknetrianglar att klippa ut",
+    "instruction": "Klipp ut korten längs de streckade linjerna. Täck över ett hörn: vilket tal gömmer sig?"
   }
 }

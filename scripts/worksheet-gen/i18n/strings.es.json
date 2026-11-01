@@ -3473,5 +3473,25 @@
   "K-455": {
     "title": "Rectas numéricas para el pupitre",
     "instruction": "Recorta las rectas numéricas por las líneas punteadas."
+  },
+  "K-456": {
+    "title": "Casitas de los números",
+    "instruction": "El techo muestra el número. Cada piso lo separa en dos partes. Escribe la parte que falta en cada piso."
+  },
+  "K-457": {
+    "title": "¿Cuántos están escondidos?",
+    "instruction": "El círculo muestra cuántos hay en total. Puedes ver algunos. Los demás están escondidos debajo del vaso. Escribe cuántos están escondidos."
+  },
+  "K-458": {
+    "title": "Arcoíris de parejas",
+    "instruction": "Une con un arco dos números que juntos forman el número del círculo. Si un número hace pareja consigo mismo, enciérralo en un círculo."
+  },
+  "G1-440": {
+    "title": "Amigos del 100",
+    "instruction": "Mira cada esquema. Escribe el número que falta en el círculo vacío."
+  },
+  "G1-441": {
+    "title": "Triángulos de familias de operaciones",
+    "instruction": "Recorta las tarjetas por las líneas punteadas. Tapa una esquina: ¿qué número está escondido?"
   }
 }

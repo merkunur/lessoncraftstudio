@@ -3493,5 +3493,25 @@
   "K-455": {
     "title": "Zahlenstrahlen für den Tisch",
     "instruction": "Schneide die Zahlenstrahlen an den gestrichelten Linien aus."
+  },
+  "K-456": {
+    "title": "Zahlenhäuser",
+    "instruction": "Das Dach zeigt die Zahl. Jedes Stockwerk zerlegt sie in zwei Teile. Schreibe den fehlenden Teil in jedes Stockwerk."
+  },
+  "K-457": {
+    "title": "Wie viele verstecken sich?",
+    "instruction": "Der Kreis zeigt, wie viele es insgesamt sind. Einige siehst du. Die anderen verstecken sich unter dem Becher. Schreibe auf, wie viele sich verstecken."
+  },
+  "K-458": {
+    "title": "Zahlen-Regenbogen",
+    "instruction": "Verbinde zwei Zahlen, die zusammen die Zahl im Kreis ergeben, mit einem Bogen. Ist eine Zahl ihr eigener Partner, kreise sie ein."
+  },
+  "G1-440": {
+    "title": "Ergänzen bis 100",
+    "instruction": "Schau dir jede Zahlzerlegung an. Schreibe die fehlende Zahl in den gestrichelten Kreis."
+  },
+  "G1-441": {
+    "title": "Dreieckskarten zu Aufgabenfamilien",
+    "instruction": "Schneide die Karten an den gestrichelten Linien aus. Decke eine Ecke zu: Welche Zahl versteckt sich?"
   }
 }

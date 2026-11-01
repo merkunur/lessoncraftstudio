@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-31",
- "count": 864,
+ "generated": "2026-11-01",
+ "count": 869,
  "failures": [],
  "rows": [
   {
@@ -9320,6 +9320,82 @@
    "science": false
   },
   {
+   "id": "K-456",
+   "file": "scripts/worksheet-gen/types/k/K-456-number-house.js",
+   "grade": "K",
+   "slug": "number-house",
+   "family": "number-bonds",
+   "variationOf": null,
+   "title": "Number Houses",
+   "instruction": "The roof shows the number. Each floor splits it into two parts. Write the missing part on each floor.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "wholes",
+    "houses"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/number-bond-more.js"
+   ],
+   "teachingPoint": "K:number-bonds-k",
+   "skill": "Number bonds: decompose numbers to 10 into two parts, find the missing part or the whole, make ten",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "K-457",
+   "file": "scripts/worksheet-gen/types/k/K-457-hidden-counters.js",
+   "grade": "K",
+   "slug": "hidden-counters",
+   "family": "number-bonds",
+   "variationOf": null,
+   "title": "How Many Are Hiding?",
+   "instruction": "The circle shows how many there are in all. The rest are hiding under the cup. Write how many are hiding.",
+   "assetClass": "icon-placement",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "cards",
+    "totals",
+    "hide"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/number-bond-more.js"
+   ],
+   "teachingPoint": "1:make-10",
+   "skill": "Find the partner that makes 10 (number bonds to 10)",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "K-458",
+   "file": "scripts/worksheet-gen/types/k/K-458-rainbow-pairs.js",
+   "grade": "K",
+   "slug": "rainbow-pairs",
+   "family": "number-bonds",
+   "variationOf": null,
+   "title": "Rainbow Pairs",
+   "instruction": "Join two numbers that make the number in the circle with an arc. Draw a ring around a number that makes it with itself.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "rows",
+    "shuffled"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/number-bond-more.js"
+   ],
+   "teachingPoint": "1:make-10",
+   "skill": "Find the partner that makes 10 (number bonds to 10)",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
    "id": "G1-101",
    "file": "scripts/worksheet-gen/types/g1/G1-101-picture-addition-5.js",
    "grade": "G1",
@@ -18575,7 +18651,7 @@
    ],
    "teachingPoint": "1:open-number-line",
    "skill": "Add and subtract on an empty number line: the child draws the jumps (tens, then ones; to the ten, then the rest)",
-   "strand": "Operations & Algebraic Thinking",
+   "strand": "Number & Operations in Base Ten",
    "science": false
   },
   {
@@ -18601,6 +18677,57 @@
    ],
    "teachingPoint": "1:fluency-within-20",
    "skill": "Add and subtract within 20 mentally (fluency, make-a-ten strategy)",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G1-440",
+   "file": "scripts/worksheet-gen/types/g1/G1-440-number-bonds-to-100.js",
+   "grade": "G1",
+   "slug": "number-bonds-to-100",
+   "family": "number-bonds",
+   "variationOf": null,
+   "title": "Number Bonds to 100",
+   "instruction": "Look at each number bond. Write the missing number in the dashed circle.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "step"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/number-bond-more.js"
+   ],
+   "teachingPoint": "1:bonds-to-100",
+   "skill": "Number bonds of 100: find the partner that makes 100 (tens, then fives, then any two numbers)",
+   "strand": "Number & Operations in Base Ten",
+   "science": false
+  },
+  {
+   "id": "G1-441",
+   "file": "scripts/worksheet-gen/types/g1/G1-441-fact-triangle-cards.js",
+   "grade": "G1",
+   "slug": "fact-triangle-cards",
+   "family": "number-bonds",
+   "variationOf": null,
+   "title": "Fact Triangle Cards",
+   "instruction": "Cut out the triangles along the dashed lines. Cover one corner: which number is hiding?",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "op",
+    "max"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/number-bond-more.js"
+   ],
+   "teachingPoint": "3:mult-div-relationship",
+   "skill": "Find an unknown factor and write the four related facts (division as an unknown-factor problem)",
    "strand": "Operations & Algebraic Thinking",
    "science": false
   },

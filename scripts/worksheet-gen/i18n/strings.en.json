@@ -3498,5 +3498,25 @@
   "K-455": {
     "title": "Desk Number Lines",
     "instruction": "Cut out the number lines along the dashed lines."
+  },
+  "K-456": {
+    "title": "Number Houses",
+    "instruction": "The roof shows the number. Each floor splits it into two parts. Write the missing part on each floor."
+  },
+  "K-457": {
+    "title": "How Many Are Hiding?",
+    "instruction": "The circle shows how many there are in all. You can see some. The rest are hiding under the cup. Write how many are hiding."
+  },
+  "K-458": {
+    "title": "Rainbow Pairs",
+    "instruction": "Draw an arc to join two numbers that together make the number in the circle. If a number is its own partner, draw a ring around it."
+  },
+  "G1-440": {
+    "title": "Number Bonds to 100",
+    "instruction": "Look at each number bond. Write the missing number in the dashed circle."
+  },
+  "G1-441": {
+    "title": "Fact Triangle Cards",
+    "instruction": "Cut out the cards along the dashed lines. Cover one corner: which number is hiding?"
   }
 }

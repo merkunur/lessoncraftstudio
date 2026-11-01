@@ -3468,5 +3468,25 @@
   "K-455": {
     "title": "Tallinjer til bordet",
     "instruction": "Klip tallinjerne ud langs de stiplede linjer."
+  },
+  "K-456": {
+    "title": "Talhuse",
+    "instruction": "Taget viser tallet. Hver etage deler tallet i to dele. Skriv den del, der mangler, på hver etage."
+  },
+  "K-457": {
+    "title": "Hvor mange gemmer sig?",
+    "instruction": "Cirklen viser, hvor mange der er i alt. Nogle kan du se. Resten gemmer sig under bægeret. Skriv, hvor mange der gemmer sig."
+  },
+  "K-458": {
+    "title": "Venneregnbuen",
+    "instruction": "Forbind to tal, der tilsammen giver tallet i cirklen, med en bue. Er et tal ven med sig selv, så sæt en ring om det."
+  },
+  "G1-440": {
+    "title": "Hundredevenner – par der giver 100",
+    "instruction": "Find det tal, der mangler, og skriv det i den stiplede cirkel. De to dele skal tilsammen give 100."
+  },
+  "G1-441": {
+    "title": "Regnetrekanter til at klippe ud",
+    "instruction": "Klip kortene ud langs de stiplede linjer. Dæk et hjørne: hvilket tal gemmer sig?"
   }
 }

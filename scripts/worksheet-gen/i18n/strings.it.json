@@ -3464,5 +3464,25 @@
   "K-455": {
     "title": "Linee dei numeri da banco",
     "instruction": "Ritaglia le linee dei numeri lungo le linee tratteggiate."
+  },
+  "K-456": {
+    "title": "Le casette dei numeri",
+    "instruction": "Il tetto mostra il numero. Ogni piano lo divide in due parti. Scrivi la parte che manca su ogni piano."
+  },
+  "K-457": {
+    "title": "Quanti sono nascosti?",
+    "instruction": "Il cerchio mostra quanti sono in tutto. Ne vedi alcuni. Gli altri sono nascosti sotto il bicchiere. Scrivi quanti sono nascosti."
+  },
+  "K-458": {
+    "title": "L'arcobaleno delle coppie",
+    "instruction": "Unisci con un arco due numeri che insieme fanno il numero nel cerchio. Se un numero fa coppia con sé stesso, cerchialo."
+  },
+  "G1-440": {
+    "title": "Amici del 100",
+    "instruction": "Guarda ogni schema. Scrivi il numero che manca nel cerchio tratteggiato."
+  },
+  "G1-441": {
+    "title": "Triangoli delle famiglie di operazioni",
+    "instruction": "Ritaglia le carte lungo le linee tratteggiate. Copri un angolo: quale numero si nasconde?"
   }
 }

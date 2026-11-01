@@ -3483,5 +3483,25 @@
   "K-455": {
     "title": "Bandes numériques pour la table",
     "instruction": "Découpe les bandes numériques en suivant les pointillés."
+  },
+  "K-456": {
+    "title": "Les maisons des nombres",
+    "instruction": "Le toit montre le nombre. Chaque étage le décompose en deux parties. Écris la partie qui manque à chaque étage."
+  },
+  "K-457": {
+    "title": "Combien y en a-t-il de cachés ?",
+    "instruction": "Le cercle montre combien il y en a en tout. Tu en vois quelques-uns. Les autres sont cachés sous le gobelet. Écris combien il y en a de cachés."
+  },
+  "K-458": {
+    "title": "L'arc-en-ciel des compléments",
+    "instruction": "Relie par un arc deux nombres qui, ensemble, font le nombre du cercle. Si un nombre est son propre partenaire, entoure-le."
+  },
+  "G1-440": {
+    "title": "Les compléments à 100",
+    "instruction": "Observe chaque schéma. Écris le nombre qui manque dans le rond en pointillés."
+  },
+  "G1-441": {
+    "title": "Cartes triangles de calcul",
+    "instruction": "Découpe les cartes en suivant les pointillés. Cache un coin : quel nombre est caché ?"
   }
 }

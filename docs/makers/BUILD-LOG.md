@@ -7,6 +7,22 @@ records what is BUILT, measured and committed, step by step, so any session can 
 
 > 🛑 **NO DEPLOY (operator 2026-10-31):** no worksheet maker goes live until all 60 are built, tested and finalized locally. The pilot trio is a LOCAL pilot (built + reviewed at http://localhost:8490/), not a go-live. Everything is committed; nothing maker-related is deployed. The launch is one release of all 60.
 
+## Task 3 (Fable 5.1): release wiring, prepared locally, never run (2026-11-01, commits 920964550, ae4abee0c)
+
+- Handoff: `handoff/03-release-wiring.md` (verified by the main session: the migration only CREATEs `maker_recipes` +
+  `maker_share_links` and adds their foreign keys, no existing table altered; makers-store 47/47).
+- Built: Prisma models + migration file (applied to nothing); the real recipe / link APIs behind the local stand-in's
+  contract (`frontend/lib/makers/{store,db,auth}.ts`, routes under `frontend/app/api/makers/`), `link-store.ts` backed;
+  old-landing smart links (`smart-links.json`; the launch button opens the new maker only once it is released on the
+  server — one line in `MakerLanding.tsx`, nothing else on a landing changes); `release-pack.js` → `install-release.js`
+  (hash-verified, immutable versions, pointers last), `patch-nginx-makers.py` (noindex, immutable versions), deploy.sh
+  step 1c; gate 13 `registration.js` (19 poisons).
+- **Server steps at the release (operator, in order; none run):** 1 PC `node scripts/makers/release-pack.js` → rsync to
+  `/var/www/lcs-media/_staging/makers-release/`; 2 `patch-nginx-makers.py --dry-run`, then without the flag; 3
+  `npx prisma migrate deploy` (§A.5.1); 4 deploy.sh; 5 curl checks (handoff 03).
+- Open: the landings' mode cards still launch the old app; no dedicated rate limit for /api/makers/*; makers-assets
+  unversioned (30-day cache, a changed picture needs a new name).
+
 ## Tasks 2, 4, 5 (Fable 5.1, run in parallel) + the defects their gates found (2026-11-01)
 
 - **Task 2 — student play page + sharing** (`8bf516cd5`, handoff `handoff/02-student-play-and-sharing.md`): `/s/<id>`

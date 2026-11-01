@@ -43,6 +43,10 @@ html, body {
   color: #146B5E;
   letter-spacing: 0.2px;
   text-wrap: balance;   /* same line count, no orphaned last word (nt10-E review: three families shipped a one-word last line) */
+  /* a word longer than the line (a teacher's typed title: a web address, a run of letters) breaks instead of pushing the
+     name / date block off the page (makers own-input, 2026-11-01); a normal title never meets it */
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .ws-title .ws-title-accent { color: #F2784B; }
@@ -87,6 +91,8 @@ html, body {
   font-size: 17px;
   font-weight: 700;
   color: #3A3530;
+  min-width: 0;
+  overflow-wrap: anywhere;   /* as the title: an over-long typed word breaks, never runs off the page */
 }
 
 /* ---------- body ---------- */
@@ -141,14 +147,16 @@ html, body {
   position: absolute;
   top: -1px;
   left: -1px;
-  width: 30px;
-  height: 30px;
-  border-radius: 14px 0 14px 0;
+  /* 24 px (2026-11-01, was 30): content placed near a card's corner reached under the badge on 8 templates (collision
+     gate: number bonds, arrays, column sums) — a smaller badge clears the corner without moving any content */
+  width: 24px;
+  height: 24px;
+  border-radius: 12px 0 12px 0;
   background: #146B5E;
   color: #FFFFFF;
   font-family: 'Baloo 2', cursive;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 15px;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -1,0 +1,25 @@
+{
+ "id": "wave-010",
+ "seedEpoch": 1,
+ "locales": [
+  "no"
+ ],
+ "themes": [
+  "animals",
+  "fruits",
+  "vehicles",
+  "toys",
+  "shapes"
+ ],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G3-353"
+ ],
+ "themeOverrides": {
+  "G3-353": "shapes"
+ },
+ "_note": "2026-11-01 Two-Circle Sort pedagogy rebuild: pinned re-generation of the live published pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file."
+}

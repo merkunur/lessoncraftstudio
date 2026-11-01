@@ -61,9 +61,11 @@ const LEVELS = {
     3: { cards: 12, kind: 'two-digit' },   // Grade 2 (2.NBT.B.5): two-digit ± two-digit, half of them across a ten
   },
   errors: {
-    1: { cards: 8, max: 20, ops: ['+'], wrong: 2, offs: [1, 2] },   // 8 rows: room for a three-line instruction (de)
-    2: { cards: 8, max: 20, ops: ['+', '-'], wrong: 3, offs: [1, 2] },
-    3: { cards: 8, max: 100, ops: ['+', '-'], wrong: 3, offs: [1, 2, 10] },
+    // wrong: 3-5 of the 8 sums per page (2026-11-01: 2-3 of 8 let "nothing is wrong" score 63-75 % of the rows,
+    // settings-space) — about half, and not the same count on every page
+    1: { cards: 8, max: 20, ops: ['+'], wrong: [3, 5], offs: [1, 2] },   // 8 rows: room for a three-line instruction (de)
+    2: { cards: 8, max: 20, ops: ['+', '-'], wrong: [3, 5], offs: [1, 2] },
+    3: { cards: 8, max: 100, ops: ['+', '-'], wrong: [3, 5], offs: [1, 2, 10] },
   },
   bar: {
     1: { cards: 4, max: 20, missing: ['part'] },
@@ -286,11 +288,17 @@ function makeAddSubMoreType(cfg) {
       if (mode === 'errors') {
         const used = new Set();
         const ps = [];
-        const wrong = shuffle(Array.from({ length: d.cards }, (_, k) => k < d.wrong), rng);
+        const nWrong = Array.isArray(d.wrong) ? rng.int(d.wrong[0], d.wrong[1]) : d.wrong;
+        const wrong = shuffle(Array.from({ length: d.cards }, (_, k) => k < nWrong), rng);
         for (let t = 0; ps.length < d.cards && t < 4000; t++) {
           const op = rng.pick(d.ops);
           let a, b;
-          if (d.max <= 20) { a = rng.int(2, op === '+' ? d.max - 1 : d.max); b = rng.int(1, op === '+' ? d.max - a : a - 1); }
+          // within 20 the RESULT is drawn first, evenly, then split (2026-11-01: drawing the first number first made 20 the
+          // sum of every 19 + 1, 18 + 2 …, and "write 20" fixed up to 36 % of the corrections, settings-space)
+          if (d.max <= 20) {
+            if (op === '+') { const r0 = rng.int(3, d.max); a = rng.int(2, r0 - 1); b = r0 - a; }
+            else { const r0 = rng.int(1, d.max - 2); b = rng.int(1, d.max - r0); a = r0 + b; }
+          }
           else { a = rng.int(12, 89); b = rng.int(op === '+' ? 3 : 3, op === '+' ? 99 - a : a - 1); }
           const r = val(a, op, b);
           if (r < 1 || r > d.max || used.has(a + op + b)) continue;
@@ -308,12 +316,16 @@ function makeAddSubMoreType(cfg) {
           ps.push({ a, op, b, r, shown, isWrong });
         }
         if (ps.length < d.cards) throw new Error(`${id}: not enough worked problems`);
+        // the makers' screen build (2026-11-01): every small box is a candidate to tap (ringed when the sum is wrong) and
+        // every big box an OPTIONAL write box — right when it holds the correction, or stays empty beside a correct sum —
+        // so no box on the screen tells which sums are wrong
+        const scr = !!(ctx && ctx.screen);
         const cards = ps.map((p) => {
-          const box = `<span data-lcs-markbox="1" style="position:relative;flex:0 0 auto;width:34px;height:34px;border:2.5px solid ${INK};border-radius:6px;background:#FFFFFF;display:inline-block">` +
+          const box = `<span data-lcs-markbox="1"${scr ? ' data-lcs-pick="1"' + (p.isWrong ? ' data-lcs-key-ring="1"' : '') : ''} style="position:relative;flex:0 0 auto;width:34px;height:34px;border:2.5px solid ${INK};border-radius:6px;background:#FFFFFF;display:inline-block">` +
             (key && p.isWrong ? `<svg data-lcs-key-sample="1" style="position:absolute;inset:3px" width="25" height="25" viewBox="0 0 40 40"><path d="M8 8 L32 32 M32 8 L8 32" stroke="${CORAL}" stroke-width="6" stroke-linecap="round"/></svg>` : '') + `</span>`;
           return `<div class="ws-card-stage" data-lcs-err="${p.a}${p.op}${p.b}=${p.shown}" data-lcs-wrong="${p.isWrong ? 1 : 0}" style="justify-content:space-between;align-items:center;gap:8px;padding:0 18px 0 46px">` +
             `<span style="display:flex;align-items:center;gap:7px">${NUM(p.a, 29)}${SIGN(p.op, 27)}${NUM(p.b, 29)}${SIGN('=', 27)}${NUM(p.shown, 29)}</span>` +
-            `<span style="display:flex;align-items:center;gap:10px">${box}${answerBox({ w: 70, h: 40, answer: p.isWrong ? p.r : '' })}</span></div>`;
+            `<span style="display:flex;align-items:center;gap:10px">${box}${scr ? answerBox({ w: 70, h: 40, answer: p.isWrong ? p.r : '' }).replace('class="ws-answerbox"', 'class="ws-answerbox" data-lcs-optional="1"') : answerBox({ w: 70, h: 40, answer: p.isWrong ? p.r : '' })}</span></div>`;
         });
         return { bodyHtml: content(cardGrid({ cards, cols: 1, rows: d.cards })), meta: { items: ps.map((p) => `${p.a}${p.op}${p.b}=${p.shown}`) } };
       }
@@ -358,6 +370,10 @@ function makeAddSubMoreType(cfg) {
       // digit: the missing digit in a column sum, unique by trying every digit
       const ps = [];
       const used = new Set();
+      // the missing digits of a page differ (at most d.blanks times each): without regrouping the digits are small, and
+      // "write the card number" or "write 2" scored 25-29 % of a level-1 page (settings-space 2026-11-01)
+      const digitUse = new Map();
+      const digitAt = (n, c, cols) => +String(n).padStart(cols, "0")[c];
       const lo = 10 ** (d.digits - 1), hi = 10 ** d.digits - 1;
       for (let t = 0; ps.length < d.cards && t < 5000; t++) {
         const op = d.ops.length > 1 ? d.ops[ps.length % 2] : d.ops[0];
@@ -379,6 +395,9 @@ function makeAddSubMoreType(cfg) {
         }
         if (countSolutions(a, b, op, r, blanks, cols) !== 1) continue;
         if (used.has(a + op + b)) continue;
+        const miss = blanks.map(([row, c]) => digitAt(row === 0 ? a : b, c, cols));
+        if (t < 4000 && miss.some((g) => (digitUse.get(g) || 0) + miss.filter((x) => x === g).length > d.blanks)) continue;
+        miss.forEach((g) => digitUse.set(g, (digitUse.get(g) || 0) + 1));
         used.add(a + op + b);
         ps.push({ a, op, b, r, blanks });
       }

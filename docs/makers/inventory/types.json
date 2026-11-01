@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-01",
- "count": 907,
+ "count": 924,
  "failures": [],
  "rows": [
   {
@@ -1521,7 +1521,8 @@
    ],
    "interactive": false,
    "uses": [
-    "image-cache/resolve.js"
+    "image-cache/resolve.js",
+    "lib/slot.js"
    ],
    "teachingPoint": "K:matrix-logic",
    "skill": "Complete a picture grid: each row holds one kind; find the piece that fits the gap",
@@ -9453,6 +9454,31 @@
    "science": false
   },
   {
+   "id": "K-461",
+   "file": "scripts/worksheet-gen/types/k/K-461-which-coin-is-it.js",
+   "grade": "K",
+   "slug": "which-coin-is-it",
+   "family": "money",
+   "variationOf": null,
+   "title": "Which Coin Is It?",
+   "instruction": "Draw a line from each coin to its value.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "pairs",
+    "words"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/money-more.js"
+   ],
+   "teachingPoint": "1:coins",
+   "skill": "Count coins in a purse (one kind, two kinds, all coins) and compare two purses",
+   "strand": "Measurement & Data",
+   "science": false
+  },
+  {
    "id": "G1-101",
    "file": "scripts/worksheet-gen/types/g1/G1-101-picture-addition-5.js",
    "grade": "G1",
@@ -10594,7 +10620,8 @@
    "interactive": false,
    "uses": [
     "templates/layouts/card-grid.js",
-    "image-cache/resolve.js"
+    "image-cache/resolve.js",
+    "lib/slot.js"
    ],
    "teachingPoint": "1:picture-analogies",
    "skill": "Picture analogies: A is to B as C is to ?",
@@ -10618,7 +10645,8 @@
    ],
    "interactive": false,
    "uses": [
-    "image-cache/resolve.js"
+    "image-cache/resolve.js",
+    "lib/slot.js"
    ],
    "teachingPoint": "1:picture-sudoku",
    "skill": "4x4 picture sudoku: every row, column and box has each picture once",
@@ -19216,6 +19244,187 @@
    "science": false
   },
   {
+   "id": "G1-470",
+   "file": "scripts/worksheet-gen/types/g1/G1-470-number-sudoku-4x4.js",
+   "grade": "G1",
+   "slug": "number-sudoku-4x4",
+   "family": "visual-logic",
+   "variationOf": null,
+   "title": "Number Sudoku 4 × 4",
+   "instruction": "Every row, column, and box needs the numbers 1, 2, 3, and 4 once. Write the missing numbers.",
+   "assetClass": "visual-logic",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "level"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/logic-more.js"
+   ],
+   "teachingPoint": "1:picture-sudoku",
+   "skill": "4x4 picture sudoku: every row, column and box has each picture once",
+   "strand": "Logical Reasoning",
+   "science": false
+  },
+  {
+   "id": "G1-471",
+   "file": "scripts/worksheet-gen/types/g1/G1-471-picture-sudoku-puzzles-4x4.js",
+   "grade": "G1",
+   "slug": "picture-sudoku-puzzles-4x4",
+   "family": "visual-logic",
+   "variationOf": null,
+   "title": "Picture Sudoku Puzzles",
+   "instruction": "Every row, column, and box needs each of the four pictures once. Draw the missing pictures.",
+   "assetClass": "visual-logic",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "level"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/logic-more.js"
+   ],
+   "teachingPoint": "1:picture-sudoku",
+   "skill": "4x4 picture sudoku: every row, column and box has each picture once",
+   "strand": "Logical Reasoning",
+   "science": false
+  },
+  {
+   "id": "G1-472",
+   "file": "scripts/worksheet-gen/types/g1/G1-472-picture-code-addition.js",
+   "grade": "G1",
+   "slug": "picture-code-addition",
+   "family": "visual-logic",
+   "variationOf": null,
+   "title": "Picture Code Addition",
+   "instruction": "Each picture stands for a number. Start with the sum you can solve, then find every picture's number and write it in the box next to that picture.",
+   "assetClass": "visual-logic",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "level"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/logic-more.js"
+   ],
+   "teachingPoint": "1:fluency-within-20",
+   "skill": "Add and subtract within 20 mentally (fluency, make-a-ten strategy)",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G1-473",
+   "file": "scripts/worksheet-gen/types/g1/G1-473-classroom-store-price-tags.js",
+   "grade": "G1",
+   "slug": "classroom-store-price-tags",
+   "family": "money",
+   "variationOf": null,
+   "title": "Classroom Store: Price Tags and Play Money",
+   "instruction": "Cut out the price tags and the play money. Play store!",
+   "assetClass": "picture-cards",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "tags",
+    "upTo"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/money-more.js"
+   ],
+   "teachingPoint": "2:shopping-money",
+   "skill": "Add up shelf prices, decide whether there is enough money, find how much more, and make change",
+   "strand": "Measurement & Data",
+   "science": false
+  },
+  {
+   "id": "G1-474",
+   "file": "scripts/worksheet-gen/types/g1/G1-474-secret-word-addition.js",
+   "grade": "G1",
+   "slug": "secret-word-addition",
+   "family": "visual-logic",
+   "variationOf": null,
+   "title": "Secret Word Addition",
+   "instruction": "Add the pictures in each row and write the sum. Find that number in the code, then write its letter in the box with the row's number to spell the secret word.",
+   "assetClass": "visual-logic",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "pics",
+    "maxVal",
+    "addends",
+    "maxSum",
+    "word",
+    "decoys"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/logic-picture-more.js"
+   ],
+   "teachingPoint": "1:fluency-within-20",
+   "skill": "Add and subtract within 20 mentally (fluency, make-a-ten strategy)",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G1-475",
+   "file": "scripts/worksheet-gen/types/g1/G1-475-solve-and-rebuild-the-picture.js",
+   "grade": "G1",
+   "slug": "solve-and-rebuild-the-picture",
+   "family": "visual-logic",
+   "variationOf": null,
+   "title": "Solve and Rebuild the Picture",
+   "instruction": "Solve each problem. Cut out the pieces and glue each one on the problem whose answer is its number. They make a picture.",
+   "assetClass": "visual-logic",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "n",
+    "ops",
+    "max",
+    "cell"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/logic-picture-more.js"
+   ],
+   "teachingPoint": "1:fluency-within-20",
+   "skill": "Add and subtract within 20 mentally (fluency, make-a-ten strategy)",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G1-476",
+   "file": "scripts/worksheet-gen/types/g1/G1-476-number-detective.js",
+   "grade": "G1",
+   "slug": "number-detective",
+   "family": "visual-logic",
+   "variationOf": null,
+   "title": "Number Detective",
+   "instruction": "Each mystery number is from 1 to {MAX}. Read the clues and write the one number that fits them all.",
+   "assetClass": "visual-logic",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "cards",
+    "lo",
+    "hi",
+    "clues",
+    "kinds"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/pv-more.js"
+   ],
+   "teachingPoint": "1:compare-order-two-digit",
+   "skill": "Compare two-digit numbers (and picture groups) with > < =, and order three numbers least-to-greatest / greatest-to-least",
+   "strand": "Number & Operations in Base Ten",
+   "science": false
+  },
+  {
    "id": "G2-203",
    "file": "scripts/worksheet-gen/types/g2/G2-203-addition-with-blocks.js",
    "grade": "G23",
@@ -19420,6 +19629,7 @@
     "templates/layouts/card-grid.js",
     "image-cache/resolve.js",
     "templates/components.js",
+    "lib/slot.js",
     "_shared/notation.js",
     "lib/arrays-screen.js"
    ],
@@ -21138,6 +21348,7 @@
     "templates/components-b2.js",
     "primitives/coins.js",
     "image-cache/resolve.js",
+    "lib/slot.js",
     "lib/b2-common.js",
     "data/money/currencies.js",
     "data/b2/shop-frames.js",
@@ -22307,6 +22518,7 @@
     "primitives/logic-grid.js",
     "templates/components-b3.js",
     "primitives/_svg.js",
+    "lib/slot.js",
     "data/b3/logic-puzzles-levelset.json",
     "data/b3/logic-puzzles.js",
     "data/b3/logic-puzzles.js"
@@ -25821,6 +26033,110 @@
    "science": false
   },
   {
+   "id": "G2-470",
+   "file": "scripts/worksheet-gen/types/g2/G2-470-cage-puzzles-3x3.js",
+   "grade": "G2",
+   "slug": "cage-puzzles-3x3",
+   "family": "visual-logic",
+   "variationOf": null,
+   "title": "Cage Puzzles 3 × 3",
+   "instruction": "Every row and column needs 1, 2, and 3 once. The numbers inside a thick-lined cage add up to the small number in its corner.",
+   "assetClass": "visual-logic",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "level"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/logic-more.js"
+   ],
+   "teachingPoint": "2:add-sub-within-100-practice",
+   "skill": "Add/subtract within 100 in puzzle formats: number walls and the math maze",
+   "strand": "Number & Operations in Base Ten",
+   "science": false
+  },
+  {
+   "id": "G2-471",
+   "file": "scripts/worksheet-gen/types/g2/G2-471-fewest-coins.js",
+   "grade": "G2",
+   "slug": "fewest-coins",
+   "family": "money",
+   "variationOf": null,
+   "title": "Fewest Coins",
+   "instruction": "Make each amount with as few coins as you can. Write how many of each coin you need.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "full",
+    "top",
+    "maxCoins",
+    "cards"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/money-more.js"
+   ],
+   "teachingPoint": "2:shopping-money",
+   "skill": "Add up shelf prices, decide whether there is enough money, find how much more, and make change",
+   "strand": "Measurement & Data",
+   "science": false
+  },
+  {
+   "id": "G2-472",
+   "file": "scripts/worksheet-gen/types/g2/G2-472-pay-the-exact-price.js",
+   "grade": "G2",
+   "slug": "pay-the-exact-price",
+   "family": "money",
+   "variationOf": null,
+   "title": "Pay the Exact Price",
+   "instruction": "Circle coins that make each price exactly.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "kinds",
+    "tray",
+    "cards",
+    "top",
+    "draw"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/money-more.js"
+   ],
+   "teachingPoint": "2:shopping-money",
+   "skill": "Add up shelf prices, decide whether there is enough money, find how much more, and make change",
+   "strand": "Measurement & Data",
+   "science": false
+  },
+  {
+   "id": "G2-473",
+   "file": "scripts/worksheet-gen/types/g2/G2-473-same-amount-different-coins.js",
+   "grade": "G2",
+   "slug": "same-amount-different-coins",
+   "family": "money",
+   "variationOf": null,
+   "title": "Same Amount, Different Coins",
+   "instruction": "Draw a line from each purse on the left to the purse on the right that holds the same amount.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "pairs",
+    "top"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/money-more.js"
+   ],
+   "teachingPoint": "1:coins",
+   "skill": "Count coins in a purse (one kind, two kinds, all coins) and compare two purses",
+   "strand": "Measurement & Data",
+   "science": false
+  },
+  {
    "id": "G3-301",
    "file": "scripts/worksheet-gen/types/g3/G3-301-arrays-to-10x10.js",
    "grade": "G23",
@@ -26771,7 +27087,8 @@
    ],
    "interactive": false,
    "uses": [
-    "image-cache/resolve.js"
+    "image-cache/resolve.js",
+    "lib/slot.js"
    ],
    "teachingPoint": "3:latin-square-sudoku",
    "skill": "Solve a 6×6 picture sudoku: each picture once in every row, column and box",
@@ -26850,7 +27167,8 @@
    ],
    "interactive": false,
    "uses": [
-    "image-cache/resolve.js"
+    "image-cache/resolve.js",
+    "lib/slot.js"
    ],
    "teachingPoint": "3:two-attribute-sort~logic-cabinet",
    "skill": "Classify by two attributes at once (two-circle Venn, row × column table, the missing cell) (part moved to logic-cabinet)",
@@ -26865,7 +27183,7 @@
    "family": "visual-logic",
    "variationOf": null,
    "title": "Two-Circle Sort",
-   "instruction": "Left circle: this kind. Right circle: BIG ones. Middle: both! Draw a line from each picture to its place.",
+   "instruction": "Write each picture's number in its place: the left circle is for the things shown above it, the right circle for big pictures, the middle for pictures that fit both, and the box outside the circles for pictures that fit neither.",
    "assetClass": "visual-logic",
    "themed": true,
    "levels": 3,
@@ -26874,7 +27192,9 @@
    ],
    "interactive": false,
    "uses": [
+    "lib/slot.js",
     "image-cache/resolve.js",
+    "lib/picture-distinct.js",
     "primitives/_svg.js",
     "primitives/_tokens.js"
    ],
@@ -27614,6 +27934,7 @@
    ],
    "interactive": true,
    "uses": [
+    "lib/slot.js",
     "lib/b2-common.js",
     "lib/b3-common.js",
     "templates/components.js",
@@ -28903,6 +29224,129 @@
    "teachingPoint": "3:times-tables",
    "skill": "Know the multiplication tables 2-10 from memory, deriving unknown facts from neighbours",
    "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G3-470",
+   "file": "scripts/worksheet-gen/types/g3/G3-470-number-sudoku-6x6.js",
+   "grade": "G3",
+   "slug": "number-sudoku-6x6",
+   "family": "visual-logic",
+   "variationOf": null,
+   "title": "Number Sudoku 6 × 6",
+   "instruction": "Every row, column, and box needs the numbers 1 to 6 once. Write the missing numbers.",
+   "assetClass": "visual-logic",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "level"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/logic-more.js"
+   ],
+   "teachingPoint": "3:latin-square-sudoku",
+   "skill": "Solve a 6×6 picture sudoku: each picture once in every row, column and box",
+   "strand": "Logical reasoning",
+   "science": false
+  },
+  {
+   "id": "G3-471",
+   "file": "scripts/worksheet-gen/types/g3/G3-471-picture-sudoku-puzzles-6x6.js",
+   "grade": "G3",
+   "slug": "picture-sudoku-puzzles-6x6",
+   "family": "visual-logic",
+   "variationOf": null,
+   "title": "Picture Sudoku 6 × 6",
+   "instruction": "Every row, column, and box needs each of the six pictures once. Draw the missing pictures.",
+   "assetClass": "visual-logic",
+   "themed": true,
+   "levels": 3,
+   "params": [
+    "level"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/logic-more.js"
+   ],
+   "teachingPoint": "3:latin-square-sudoku",
+   "skill": "Solve a 6×6 picture sudoku: each picture once in every row, column and box",
+   "strand": "Logical reasoning",
+   "science": false
+  },
+  {
+   "id": "G3-472",
+   "file": "scripts/worksheet-gen/types/g3/G3-472-cage-puzzles-4x4.js",
+   "grade": "G3",
+   "slug": "cage-puzzles-4x4",
+   "family": "visual-logic",
+   "variationOf": null,
+   "title": "Cage Puzzles 4 × 4",
+   "instruction": "Every row and column needs 1, 2, 3, and 4 once. The numbers inside a thick-lined cage add up to the small number in its corner.{RULE}",
+   "assetClass": "visual-logic",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "level"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/logic-more.js"
+   ],
+   "teachingPoint": "3:magic-squares",
+   "skill": "Complete a magic square so every row and column has the same sum",
+   "strand": "Number & Operations in Base Ten",
+   "science": false
+  },
+  {
+   "id": "G3-473",
+   "file": "scripts/worksheet-gen/types/g3/G3-473-shape-balance-puzzles.js",
+   "grade": "G3",
+   "slug": "shape-balance-puzzles",
+   "family": "visual-logic",
+   "variationOf": null,
+   "title": "Shape Balance Puzzles",
+   "instruction": "The scales balance. Find how much each shape weighs and write it in its box.",
+   "assetClass": "visual-logic",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "level"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/logic-more.js"
+   ],
+   "teachingPoint": "3:balance-equations",
+   "skill": "The equal sign means both sides are the same amount; find the missing number with an operation on both sides",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G3-474",
+   "file": "scripts/worksheet-gen/types/g3/G3-474-count-bills-and-coins.js",
+   "grade": "G23",
+   "slug": "count-bills-and-coins",
+   "family": "money",
+   "variationOf": null,
+   "title": "Count Bills and Coins",
+   "instruction": "Count the bills and coins. Write the total amount.",
+   "assetClass": "icon-placement",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "notes",
+    "coins",
+    "cards",
+    "hint"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/money-more.js"
+   ],
+   "teachingPoint": "2:shopping-money",
+   "skill": "Add up shelf prices, decide whether there is enough money, find how much more, and make change",
+   "strand": "Measurement & Data",
    "science": false
   }
  ]

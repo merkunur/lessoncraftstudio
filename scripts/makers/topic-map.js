@@ -176,7 +176,8 @@ const MAKERS = [
   },
   { id: 'money', name: 'Money', group: 'math', families: ['money'], oldApps: [], lang: 'little',
     settings: ['currency follows the language (en-US $, es-MX $, pt-BR R$, € for de/fr/it/nl/fi, kr DKK/SEK/NOK)', 'coins only / coins + notes', 'max amount', 'task: count / compare / shop / change'],
-    newTemplates: [['Make the amount: draw coins to pay', 'producing an amount is missing'], ['Fewest coins', 'efficiency strategy'], ['Price tags shop to cut out (classroom shop)', 'role-play material']],
+    // built 2026-11-01 (NEW-TEMPLATES §14, types/_shared/money-more.js): K-461, G2-471, G2-472, G2-473, G3-474, G1-473
+    newTemplates: [['Make the amount: pay the exact price (G2-472)', 'producing an amount is missing'], ['Fewest coins (G2-471)', 'efficiency strategy'], ['Which coin is it? (K-461)', 'coin values before counting'], ['Same amount, different coins (G2-473)', 'equivalence of amounts'], ['Count bills and coins (G3-474)', 'the first written decimal amount, in the country format'], ['Classroom store price tags and play money (G1-473)', 'role-play material']],
     fable: ['Coin pictures: are realistic coin images per currency allowed (copyright / counterfeit rules for $ , R$, MX$, €, kr) or must they stay drawn tokens? data/money/currencies.js and primitives/coins.js decide today — confirm the rule and the es-MX and pt-BR denominations.'],
     locale: ['en-US: cents and dollars, $1.25 notation', 'pt-BR: R$ 1,25', 'es-MX: $1.25 (peso, dot decimal)', 'Nordic: kr with comma'],
   },
@@ -223,8 +224,11 @@ const MAKERS = [
     newTemplates: [['Number patterns (2, 4, 6, …)', 'patterns in numbers'], ['Make your own pattern (blank train)', 'creating, not only extending'], ['Pattern train to cut and glue', 'the old app\'s train format']],
     fable: [],
   },
-  { id: 'logic-puzzles', name: 'Logic & Math Puzzles', group: 'math', families: ['visual-logic', 'number-walls', 'logic-puzzles'], oldApps: ['sudoku', 'math-puzzle', 'code-addition'], lang: 'little',
+  { id: 'logic-puzzles', name: 'Logic & Math Puzzles', group: 'math', families: ['visual-logic', 'number-walls', 'logic-puzzles'], oldApps: ['sudoku', 'math-puzzle', 'code-addition'], oldAppTemplates: { sudoku: 'G1-471', 'math-puzzle': 'G1-475', 'code-addition': 'G1-474' }, lang: 'little',
     settings: ['puzzle: picture sudoku 4×4 / 6×6 / number sudoku / logic grid / number wall / magic square / balance / analogy / code addition', 'difficulty', 'pictures or numbers'],
+    // built 2026-11-01 (types/_shared/logic-more.js, logic-picture-more.js, pv-more.js): G1-470/471/472, G2-470, G3-470…473,
+    // G1-474 Secret Word Addition (the old code-addition app), G1-475 Solve and Rebuild the Picture (the old math-puzzle app),
+    // G1-476 Number Detective
     newTemplates: [['Code addition (pictures stand for numbers)', 'the old code-addition app'], ['Number sudoku 4×4 and 6×6 with numerals', 'only picture sudoku exists'], ['KenKen-style cage puzzle (small)', 'arithmetic logic for G2-3']],
     fable: ['Puzzle generators must guarantee ONE solution (sudoku, logic grids, magic squares, code addition) for any teacher setting — confirm each existing engine proves uniqueness and that the browser can do it fast enough.'],
   },

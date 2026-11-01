@@ -18,7 +18,7 @@
  */
 'use strict';
 const path = require('path');
-const { labels, labelSafeNouns, fileUri } = require('../image-cache/resolve.js');
+const { labelsForKey: labels, labelSafeNouns, fileUri } = require('../image-cache/resolve.js');
 const { FRAMES } = require('../data/word-problems/frames.js');
 const { WP_MULDIV } = require('../data/b2/wp-muldiv-frames.js');
 const LS = require('../data/word-problems/word-problems-levelset.json');

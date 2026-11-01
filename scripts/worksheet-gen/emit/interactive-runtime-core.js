@@ -405,7 +405,9 @@ function marksRuntime() {
     if (phase !== 'fill' || !TY.length) return;
     if (cur < 0 || cur >= TY.length) { cur = firstEmpty(); if (cur < 0) return; }
     var q = TY[cur], mx = q.num ? (C.maxDigits || 2) : (C.maxChars || 20);
-    if (q.val.length >= mx) return;
+    // the separator of a decimal money box (C.sep, 2026-11-01): only in a decimal box, once, after a digit
+    if (C.sep && c === C.sep) { if (q.meta['data-lcs-decimal'] == null || q.val === '' || q.val.indexOf(C.sep) >= 0) return; q.val += c; paint(); return; }
+    if ((C.sep ? q.val.split(C.sep).join('') : q.val).length >= mx) return;
     q.val += c; paint();
   }
   function back() { if (phase !== 'fill' || cur < 0 || !TY[cur]) return; TY[cur].val = TY[cur].val.slice(0, -1); paint(); }
@@ -417,6 +419,8 @@ function marksRuntime() {
   function step(dir) { if (phase !== 'fill' || !TY.length) return; cur = dir < 0 ? (cur <= 0 ? TY.length - 1 : cur - 1) : (cur + 1) % TY.length; paint(); try { TY[cur].el.focus({ preventScroll: true }); } catch (e) { /* no focus */ } show(cur); }
   function typeRight(q) {
     var a = q.p.answers[q.i], v = q.val, m = q.meta, set = m['data-lcs-set'];
+    // a blank box (data-lcs-optional with no answer, 2026-11-01): right only when left empty
+    if (m['data-lcs-blank']) return v === '';
     if (set && C.sets && C.sets[set]) {
       if (!/^\d+$/.test(v)) return false;
       var n = parseInt(v, 10), mine = TY.indexOf(q);
@@ -431,6 +435,8 @@ function marksRuntime() {
       if (rg[1] !== '' && rg[1] != null && x > parseInt(rg[1], 10)) return false;
       return true;
     }
+    // a decimal money box: the amount written with its separator and exactly two decimals ("17,36", never "1736")
+    if (m['data-lcs-decimal'] != null) { var dp = v.split(m['data-lcs-decimal']); return dp.length === 2 && /^[0-9]+$/.test(dp[0]) && /^[0-9][0-9]$/.test(dp[1]) && parseInt(dp[0] + dp[1], 10) === a; }
     if (q.num) return parseInt(v, 10) === a;
     if (fold(v) === fold(a)) return true;
     var alts = String(m['data-lcs-alts'] || '').split('|');
@@ -451,7 +457,7 @@ function marksRuntime() {
   /* ---- select ---- */
   function selectQ(p, i) {
     var it = p.items[i], q = { cls: 'select', p: p, i: i, on: false, meta: it.meta || {} };
-    q.el = mk(p.countGroups ? 'lcs-opt lcs-part' : 'lcs-opt', it, it.label || '');
+    q.el = mk(p.countGroups || p.sumGroups ? 'lcs-opt lcs-part' : 'lcs-opt', it, it.label || '');
     q.el.setAttribute('aria-pressed', 'false'); q.el.setAttribute('data-lcs-q', String(Q.length));
     q.el.addEventListener('click', function () { if (phase !== 'fill') return; q.on = !q.on; paint(); });
     return q;
@@ -508,7 +514,7 @@ function marksRuntime() {
     })(p.bins[k]);
   }
   function placeQ(p, i) {
-    var it = p.items[i], q = { cls: 'place', p: p, i: i, val: null, it: it };
+    var it = p.items[i], q = { cls: 'place', p: p, i: i, val: null, it: it, meta: it.meta || {} };
     q.el = mk('lcs-slot lcs-drop', it, it.label || '');
     q.el.setAttribute('data-lcs-q', String(Q.length));
     q.el.style.fontSize = Math.min(it.h * ASP * 0.5, it.w * 0.5) + 'cqw';
@@ -521,7 +527,7 @@ function marksRuntime() {
     var filled = {}, need = {}, anySel = false;
     for (var i = 0; i < Q.length; i++) {
       var q = Q[i];
-      if (q.cls === 'type') { var set = q.meta['data-lcs-set']; if (set && C.sets && C.sets[set]) { need[set] = C.sets[set].length; filled[set] = (filled[set] || 0) + (q.val !== '' ? 1 : 0); } else if (q.val === '') return false; }
+      if (q.cls === 'type') { var set = q.meta['data-lcs-set']; if (set && C.sets && C.sets[set]) { need[set] = C.sets[set].length; filled[set] = (filled[set] || 0) + (q.val !== '' ? 1 : 0); } else if (q.val === '' && q.meta['data-lcs-optional'] == null) return false; }
       else if (q.cls === 'choice') { if (q.pick < 0) return false; }
       else if (q.cls === 'select') { if (q.on) anySel = true; }
       else if (q.cls === 'pair') { if (q.to == null) return false; }
@@ -538,7 +544,7 @@ function marksRuntime() {
       else if (q.cls === 'choice') { for (var j = 0; j < q.opts.length; j++) q.opts[j].setAttribute('aria-pressed', q.pick === j ? 'true' : 'false'); }
       else if (q.cls === 'select') q.el.setAttribute('aria-pressed', q.on ? 'true' : 'false');
       else if (q.cls === 'pair') { q.el.setAttribute('aria-pressed', selItem === q ? 'true' : 'false'); var t = q.to == null ? null : byId(q.p.targets, q.to); q.badge.textContent = t ? (t.label || '') : ''; q.badge.className = t && t.label ? 'lcs-badge lcs-badge--pair on' : 'lcs-badge lcs-badge--pair'; }
-      else if (q.cls === 'place') { var b = q.val == null ? null : byId(q.p.bins, q.val); q.el.innerHTML = b ? (b.html || esc(b.label || '')) : ''; q.el.setAttribute('data-filled', b ? '1' : '0'); q.el.setAttribute('aria-label', (q.it.label || '') + (b ? ' = ' + (b.label || '') : '')); }
+      else if (q.cls === 'place') { var b = q.val == null ? null : byId(q.p.bins, q.val); q.el.innerHTML = b && !b.fill ? (b.html || esc(b.label || '')) : ''; q.el.style.background = b && b.fill ? b.fill : ''; q.el.setAttribute('data-filled', b ? '1' : '0'); q.el.setAttribute('aria-label', (q.it.label || '') + (b ? ' = ' + (b.label || '') : '')); }
     }
     for (var p = 0; p < P.length; p++) {
       var part = P[p];
@@ -558,12 +564,26 @@ function marksRuntime() {
       if (q.cls === 'type' && q.meta['data-lcs-set'] && q.val === '') { /* a spare space of a set, left empty: not a question */ }
       else if (q.cls === 'type') { right = R(typeRight(q)); q.el.setAttribute('data-state', right ? 'right' : 'wrong'); tot++; if (right) ok++; }
       else if (q.cls === 'choice') { right = R(q.pick === q.p.answers[q.i]); q.opts[q.pick].setAttribute('data-state', right ? 'right' : 'wrong'); tot++; if (right) ok++; }
+      // a sum group (Money "make the amount"): right when the taken picks' values add up to the sum — one question
+      else if (q.cls === 'select' && q.p.sumGroups) { var sg = 's' + q.meta['data-lcs-sumgroup']; if (!groups[sg]) { groups[sg] = { summed: true, target: parseInt(q.meta['data-lcs-sum'], 10), got: 0, qs: [] }; order.push(sg); } groups[sg].qs.push(q); if (q.on) groups[sg].got += parseInt(q.meta['data-lcs-value'], 10); }
       else if (q.cls === 'select' && q.p.countGroups) { var g = String(q.meta['data-lcs-group']); if (!groups[g]) { groups[g] = { n: 0, w: parseInt(q.meta['data-lcs-want'], 10), qs: [] }; order.push(g); } groups[g].qs.push(q); if (q.on) groups[g].n++; }
       else if (q.cls === 'select') { a = q.p.answers[q.i]; right = R(q.on === a); tot++; if (right) ok++; if (q.on) q.el.setAttribute('data-state', right ? 'right' : 'wrong'); else if (!right) q.el.setAttribute('data-state', 'missed'); }
       else if (q.cls === 'pair') { right = R(q.to === String(q.p.answers[q.i])); q.el.setAttribute('data-state', right ? 'right' : 'wrong'); tot++; if (right) ok++; }
+      else if (q.cls === 'place' && q.meta && q.meta['data-lcs-cgroup'] != null) { var cg = 'c' + q.meta['data-lcs-cgroup']; if (!groups[cg]) { groups[cg] = { counted: true, spec: q.meta['data-lcs-colour-count'], qs: [] }; order.push(cg); } groups[cg].qs.push(q); }
       else if (q.cls === 'place') { right = R(q.val === String(q.p.answers[q.i])); q.el.setAttribute('data-state', right ? 'right' : 'wrong'); tot++; if (right) ok++; }
     }
-    for (var o = 0; o < order.length; o++) { var gr = groups[order[o]], gright = R(gr.n === gr.w); tot++; if (gright) ok++; for (var k = 0; k < gr.qs.length; k++) if (gr.qs[k].on) gr.qs[k].el.setAttribute('data-state', gright ? 'right' : 'wrong'); else if (!gright) gr.qs[k].el.setAttribute('data-state', 'group-wrong'); }
+    // a counted group (K-454): right when it holds as many of each bin as its spec, wherever they sit — one question
+    for (var oc = 0; oc < order.length; oc++) {
+      var cgr = groups[order[oc]]; if (!cgr.counted) continue;
+      var want = {}, have = {}, sp = String(cgr.spec).split(',');
+      for (var s1 = 0; s1 < sp.length; s1++) { var kv = sp[s1].split(':'); want[kv[0]] = parseInt(kv[1], 10); }
+      for (var s2 = 0; s2 < cgr.qs.length; s2++) { var hv = cgr.qs[s2].val; have[hv] = (have[hv] || 0) + 1; }
+      var cright = true; for (var wk in want) if ((have[wk] || 0) !== want[wk]) cright = false;
+      for (var hk in have) if (!(hk in want)) cright = false;
+      cright = R(cright); tot++; if (cright) ok++;
+      for (var s3 = 0; s3 < cgr.qs.length; s3++) cgr.qs[s3].el.setAttribute('data-state', cright ? 'right' : 'wrong');
+    }
+    for (var o = 0; o < order.length; o++) { var gr = groups[order[o]]; if (gr.counted) continue; var gright = R(gr.summed ? gr.got === gr.target : gr.n === gr.w); tot++; if (gright) ok++; for (var k = 0; k < gr.qs.length; k++) if (gr.qs[k].on) gr.qs[k].el.setAttribute('data-state', gright ? 'right' : 'wrong'); else if (!gright) gr.qs[k].el.setAttribute('data-state', 'group-wrong'); }
     prg.textContent = fmt(S.score, { n: ok, total: tot }); chk.hidden = true; rst.hidden = false; paint();
     if (ok === tot) setTimeout(function () { cel.hidden = false; var c = document.getElementById('lcs-cele-close'); if (c) c.focus(); }, 450);
   }
@@ -595,12 +615,13 @@ function marksRuntime() {
     }
     if (pad && TY.length) {
       var KEYS = C.keys || [];
-      if (C.pad === 'digits') { pad.className = 'lcs-pad'; ['1', '2', '3', '4', '5'].forEach(function (d) { key(d, function () { typeIn(d); }); }); key('⌫', back, 'lcs-key--fn', '⌫'); ['6', '7', '8', '9', '0'].forEach(function (d) { key(d, function () { typeIn(d); }); }); key('→', function () { step(1); }, 'lcs-key--fn', '→'); }
+      if (C.pad === 'digits') { pad.className = 'lcs-pad'; ['1', '2', '3', '4', '5'].forEach(function (d) { key(d, function () { typeIn(d); }); }); key('⌫', back, 'lcs-key--fn', '⌫'); ['6', '7', '8', '9', '0'].forEach(function (d) { key(d, function () { typeIn(d); }); }); key('→', function () { step(1); }, 'lcs-key--fn', '→'); if (C.sep) key(C.sep, function () { typeIn(C.sep); }, 'lcs-key--fn', C.sep); }
       else { pad.className = 'lcs-pad lcs-pad--letters' + (C.symbolPad ? ' lcs-pad--symbols' : ''); KEYS.forEach(function (c) { key(c === ' ' ? '␣' : c, function () { typeIn(c); }, '', c === ' ' ? 'space' : c); }); key('⌫', back, 'lcs-key--fn', '⌫'); key('→', function () { step(1); }, 'lcs-key--fn', '→'); }
       document.addEventListener('keydown', function (e) {
         if (phase !== 'fill' || e.ctrlKey || e.metaKey || e.altKey) return;
         var a = document.activeElement, c = e.key && e.key.length === 1 ? e.key : '';
-        if (c && (C.pad === 'digits' ? /^[0-9]$/.test(c) : KEYS.indexOf(c.toLocaleLowerCase(B.locale || 'en')) >= 0)) { typeIn(C.pad === 'digits' ? c : c.toLocaleLowerCase(B.locale || 'en')); e.preventDefault(); }
+        if (C.sep && C.pad === 'digits' && (c === ',' || c === '.')) { typeIn(C.sep); e.preventDefault(); }
+        else if (c && (C.pad === 'digits' ? /^[0-9]$/.test(c) : KEYS.indexOf(c.toLocaleLowerCase(B.locale || 'en')) >= 0)) { typeIn(C.pad === 'digits' ? c : c.toLocaleLowerCase(B.locale || 'en')); e.preventDefault(); }
         else if (e.key === 'Backspace' || e.key === 'Delete') { back(); e.preventDefault(); }
         else if (e.key === 'Enter' || e.key === 'ArrowDown' || (C.pad === 'digits' && e.key === 'ArrowRight')) { if (e.key === 'Enter' && a && a.classList && (a.classList.contains('lcs-btn') || a.classList.contains('lcs-key'))) return; step(1); e.preventDefault(); }
         else if (e.key === 'ArrowUp' || (C.pad === 'digits' && e.key === 'ArrowLeft')) { step(-1); e.preventDefault(); }
@@ -650,7 +671,9 @@ function preparePlace(o, items, inPage, round) {
   const used = new Set();
   for (const it of items) { if (!ids.has(String(it.answer))) throw new Error('interactive-runtime: tap-place target answers "' + it.answer + '", not a bin'); used.add(String(it.answer)); rect4(it, inPage, 'tap-place target'); }
   if (used.size < 2 && Bn.length > 1 && items.length > 1) throw new Error('interactive-runtime: tap-place where every target takes the same bin');
-  o.bins = Bn.map((b) => ({ ...roundBox(b, round), id: String(b.id), label: b.label == null ? '' : String(b.label), ...(b.html ? { html: String(b.html) } : {}) }));
+  // fill (K-454, 2026-11-01): a colour bin paints its target instead of showing a label
+  for (const b of Bn) if (b.fill != null && !/^#[0-9a-fA-F]{6}$/.test(String(b.fill))) throw new Error('interactive-runtime: tap-place bin ' + b.id + ' fill ' + b.fill + ' is not #rrggbb');
+  o.bins = Bn.map((b) => ({ ...roundBox(b, round), id: String(b.id), label: b.label == null ? '' : String(b.label), ...(b.html ? { html: String(b.html) } : {}), ...(b.fill ? { fill: String(b.fill) } : {}) }));
   return items.map((it) => ({ ...roundBox(it, round), label: it.label || '', meta: it.meta || {} }));
 }
 /** marks: o.parts = [{ cls, items, answers?, targets?, bins?, num?, countGroups?, mutual? }], every part through its kind's rules */
@@ -665,8 +688,8 @@ function prepareParts(o) {
     if (!kind) throw new Error('interactive-runtime: marks part of unknown class ' + p.cls);
     const sub = { kind, locale: o.locale, items, partOf: 'marks', ctx: p.cls === 'type' ? { maxDigits: C.maxDigits, maxChars: C.maxChars, keys: C.keys, symbolPad: !!C.symbolPad } : p.cls === 'select' && p.countGroups ? { countGroups: true } : {}, targets: p.targets, bins: p.bins };
     const r = prepare(sub);
-    total += p.cls === 'select' && p.countGroups ? new Set(items.map((it) => String(it.meta['data-lcs-group']))).size : items.length;
-    return { cls: p.cls, items: r.bundleItems, answers: r.answers, ...(p.cls === 'type' ? { num: !!p.num } : {}), ...(p.cls === 'select' ? { countGroups: !!p.countGroups } : {}), ...(p.cls === 'pair' ? { targets: sub.targets, mutual: !!p.mutual } : {}), ...(p.cls === 'place' ? { bins: sub.bins } : {}) };
+    total += p.cls === 'select' && p.countGroups ? new Set(items.map((it) => String(it.meta['data-lcs-group']))).size : p.cls === 'select' && p.sumGroups ? new Set(items.map((it) => String(it.meta['data-lcs-sumgroup']))).size : items.length;
+    return { cls: p.cls, items: r.bundleItems, answers: r.answers, ...(p.cls === 'type' ? { num: !!p.num } : {}), ...(p.cls === 'select' ? { countGroups: !!p.countGroups, ...(p.sumGroups ? { sumGroups: true } : {}) } : {}), ...(p.cls === 'pair' ? { targets: sub.targets, mutual: !!p.mutual } : {}), ...(p.cls === 'place' ? { bins: sub.bins } : {}) };
   });
   if (!total) throw new Error('interactive-runtime: marks with nothing to answer');
   const type = out.filter((p) => p.cls === 'type');

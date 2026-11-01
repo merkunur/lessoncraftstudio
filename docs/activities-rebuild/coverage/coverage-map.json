@@ -1818,7 +1818,10 @@
         "G1-217",
         "G1-428",
         "G1-439",
-        "G1-442"
+        "G1-442",
+        "G1-472",
+        "G1-474",
+        "G1-475"
       ],
       "verdict": "covered",
       "activities": [
@@ -1828,7 +1831,7 @@
         "numbers-court.judge-balance.1-oa-d-7"
       ],
       "planned": [],
-      "note": "G1-428 is the subtraction-within-20 maze; the skill is the same."
+      "note": "G1-428 is the subtraction-within-20 maze; the skill is the same. Logic & Math Puzzles maker 2026-11-01: G1-472, G1-474, G1-475."
     },
     {
       "tp": "1:count-on-back-hops",
@@ -2174,7 +2177,8 @@
         "G1-135",
         "G1-136",
         "G1-137",
-        "G1-454"
+        "G1-454",
+        "G1-476"
       ],
       "verdict": "covered",
       "activities": [
@@ -2183,7 +2187,7 @@
         "friendship-bridge.compare-balance.k-cc-c-6"
       ],
       "planned": [],
-      "note": "The existing two-digit compare is a symbol quiz and the Nesting Pots order only 1-10. Missing: ordering two-digit numbers and the TENS-FIRST rule made visible (the 29 > 41 misconception). Fully covered when ORDER row 95 (choice-board.compare-two-digit.1-nbt-b-3) is rebuilt to docs/activities-rebuild/rebuild-inputs/95-ten-rod-drawers.md. Compare Numbers & Groups maker 2026-11-01: make it true, many right answers, G1-454 (NEW-TEMPLATES 9-T3)."
+      "note": "The existing two-digit compare is a symbol quiz and the Nesting Pots order only 1-10. Missing: ordering two-digit numbers and the TENS-FIRST rule made visible (the 29 > 41 misconception). Fully covered when ORDER row 95 (choice-board.compare-two-digit.1-nbt-b-3) is rebuilt to docs/activities-rebuild/rebuild-inputs/95-ten-rod-drawers.md. Compare Numbers & Groups maker 2026-11-01: make it true, many right answers, G1-454 (NEW-TEMPLATES 9-T3). Logic & Math Puzzles maker 2026-11-01: G1-476."
     },
     {
       "tp": "1:number-words",
@@ -2279,7 +2283,9 @@
         "G1-229",
         "G1-230",
         "G1-231",
-        "G1-232"
+        "G1-232",
+        "K-461",
+        "G2-473"
       ],
       "verdict": "covered",
       "activities": [
@@ -2287,7 +2293,7 @@
         "money.count-out.2-md-c-8"
       ],
       "planned": [],
-      "note": "Comparing two purses is counting both totals; at rebuild keep a one-coin-kind first setting for grade 1."
+      "note": "Comparing two purses is counting both totals; at rebuild keep a one-coin-kind first setting for grade 1. Money maker 2026-11-01: which coin is it (value words) K-461, same amount with different coins G2-473 (NEW-TEMPLATES 14-T3, T4)."
     },
     {
       "tp": "1:bar-graphs",
@@ -2405,14 +2411,16 @@
       "code": "READINESS:logic",
       "strand": "Logical Reasoning",
       "worksheets": [
-        "G1-158"
+        "G1-158",
+        "G1-470",
+        "G1-471"
       ],
       "verdict": "gap",
       "activities": [],
       "planned": [
         261
       ],
-      "note": "The sudoku app ships decks, but no activity teaches the constraint reasoning."
+      "note": "The sudoku app ships decks, but no activity teaches the constraint reasoning. Logic & Math Puzzles maker 2026-11-01: G1-470, G1-471."
     },
     {
       "tp": "1:logic-picture-clues",
@@ -3825,7 +3833,11 @@
         "G2-292",
         "G2-293",
         "G2-294",
-        "G2-295"
+        "G2-295",
+        "G2-471",
+        "G2-472",
+        "G3-474",
+        "G1-473"
       ],
       "verdict": "partial",
       "activities": [
@@ -3836,7 +3848,7 @@
       "planned": [
         270
       ],
-      "note": "Change and paying a target with coins are covered; totalling a basket of 2-3 prices and comparing money with a price (\"enough? how much more?\") carry most of these 8 sheets and have no apparatus."
+      "note": "Change and paying a target with coins are covered; totalling a basket of 2-3 prices and comparing money with a price (\"enough? how much more?\") carry most of these 8 sheets and have no apparatus. Money maker 2026-11-01: fewest coins G2-471, pay the exact price G2-472, count bills and coins in the country format G3-474, classroom store tags + play money G1-473 (NEW-TEMPLATES 14-T1, T2, T5, T6)."
     },
     {
       "tp": "2:calendar",
@@ -3909,7 +3921,8 @@
       "strand": "Number & Operations in Base Ten",
       "worksheets": [
         "G2-313",
-        "G2-393"
+        "G2-393",
+        "G2-470"
       ],
       "verdict": "covered",
       "activities": [
@@ -3918,7 +3931,7 @@
         "fix-it-corner.missing-part.1-oa-d-8"
       ],
       "planned": [],
-      "note": "The wall and the maze are formats; the skill (sums and missing parts within 100) is covered."
+      "note": "The wall and the maze are formats; the skill (sums and missing parts within 100) is covered. Logic & Math Puzzles maker 2026-11-01: G2-470."
     },
     {
       "tp": "2:hundreds-chart-moves",
@@ -5237,14 +5250,16 @@
       "code": "LOGIC",
       "strand": "Logical reasoning",
       "worksheets": [
-        "G3-348"
+        "G3-348",
+        "G3-470",
+        "G3-471"
       ],
       "verdict": "gap",
       "activities": [],
       "planned": [
         261
       ],
-      "note": "Sudoku exists as interactive catalogue decks (the sudoku app), not as an activity; no activity teaches the once-per-line constraint."
+      "note": "Sudoku exists as interactive catalogue decks (the sudoku app), not as an activity; no activity teaches the once-per-line constraint. Logic & Math Puzzles maker 2026-11-01: G3-470, G3-471."
     },
     {
       "tp": "3:magic-squares",
@@ -5253,14 +5268,15 @@
       "code": "3.NBT.A.2",
       "strand": "Number & Operations in Base Ten",
       "worksheets": [
-        "G3-349"
+        "G3-349",
+        "G3-472"
       ],
       "verdict": "gap",
       "activities": [],
       "planned": [
         298
       ],
-      "note": "No activity reasons with several sums at once."
+      "note": "No activity reasons with several sums at once. Logic & Math Puzzles maker 2026-11-01: G3-472."
     },
     {
       "tp": "3:balance-equations",
@@ -5269,7 +5285,8 @@
       "code": "3.OA.A.4",
       "strand": "Operations & Algebraic Thinking",
       "worksheets": [
-        "G3-350"
+        "G3-350",
+        "G3-473"
       ],
       "verdict": "partial",
       "activities": [
@@ -5279,7 +5296,7 @@
       "planned": [
         290
       ],
-      "note": "Numbers Court judges equations within 20 at grade 1; an unknown with expressions on BOTH sides (8+4=_+5) at grade-3 sizes is missing."
+      "note": "Numbers Court judges equations within 20 at grade 1; an unknown with expressions on BOTH sides (8+4=_+5) at grade-3 sizes is missing. Logic & Math Puzzles maker 2026-11-01: G3-473."
     },
     {
       "tp": "3:two-attribute-sort",

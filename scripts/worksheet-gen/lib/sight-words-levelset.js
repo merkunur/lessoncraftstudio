@@ -191,7 +191,7 @@ function sectionLabel(text, n) {
  * (`traced`: the word is printed dashed in the gap to trace instead). The word's own case is kept on the gap
  * (a sentence-initial blank gets the capital form when traced). Stamps data-lcs-answer + data-lcs-initial.
  */
-function blankSentence(sentence, word, { traced = false, fontPx = 20 } = {}) {
+function blankSentence(sentence, word, { traced = false, fontPx = 20, screen = false } = {}) {
   const { before, target, after } = splitAtWord(sentence, word);
   const initial = startsSentence(sentence, word);
   // a traced gap is taller: the dashed word must be big enough to trace (at h 46 the strokes broke up)
@@ -200,7 +200,11 @@ function blankSentence(sentence, word, { traced = false, fontPx = 20 } = {}) {
   const row = traced
     ? strokeWordLane({ text: target, w, h, glyphH: 48, reps: 1, stack: true, modelless: true, align: 'center', padLeft: 8 }).svg
     : writingRow({ w, h, glyphH: 30, xHeight: true }).svg;
-  const gap = `<span data-lcs-gap style="display:inline-block;vertical-align:${traced ? -24 : -14}px;margin:0 3px;line-height:0">${row}</span>`;
+  // screen (the makers' screen build, 2026-11-01): an empty box laid over the gap carries the word, so the screen engine
+  // (scripts/makers/screen.js) makes the gap a typed box; the printed page and its key never pass it
+  // an invisible hit box inside the line's own svg (with the marks stripped the screen build is the printed page)
+  const box = screen && !traced ? `<rect x="0" y="0" width="${w}" height="${h}" fill="#FFFFFF" fill-opacity="0" data-lcs-answer="${esc(target)}"/>` : '';
+  const gap = `<span data-lcs-gap style="display:inline-block;vertical-align:${traced ? -24 : -14}px;margin:0 3px;line-height:0">${box ? row.replace(/<\/svg>$/, box + '</svg>') : row}</span>`;
   return `<p data-lcs-sentence data-lcs-answer="${esc(target)}" data-lcs-initial="${initial ? 1 : 0}" style="margin:0;font-family:${tokens.font.body},sans-serif;font-weight:700;font-size:${fontPx}px;line-height:1.9;color:${tokens.color.ink}">${esc(before)}${gap}${esc(after)}</p>`;
 }
 

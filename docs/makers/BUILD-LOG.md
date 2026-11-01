@@ -3,7 +3,92 @@
 The design is in this folder (ARCHITECTURE, ENGINES, ENGINES-ART, NEW-TEMPLATES, REVIEW-F3, OPEN-DECISIONS). This log
 records what is BUILT, measured and committed, step by step, so any session can resume. Order: ARCHITECTURE §14.
 
-**NEXT:** the B1 screen retrofit (every B1 maker's templates get their screen version from the marks, per INTERACTIVE-AND-SHARING §F), then B2 in ARCHITECTURE §14 order; tasks 7–10 of the handoff list (word search + crossword, secret code / bingo / colouring composer, column methods ×11, letter models + cursive) are built by the main session when their makers come up — NO Fable agents (operator), my own Opus 5.5 agent only when needed, one at a time. Owed (server, operator): the in-place republish of the published pages changed by the guessability fixes (list below) + G2-224; the release steps of task 3.
+**NEXT:** B2 in ARCHITECTURE §14 order — Telling Time next (`lib/time-words.js` draft in the session scratchpad: 9 differences from the activity fixtures — es-MX "para" vs the activities' "menos", noon words pt/fr/it — need the native read; if es-MX "para" is confirmed, `mini tools/clock-core.js` es strings are fixed too), then measurement, graphs-data, shapes-geometry, patterns, number-tracing, symmetry-grids; S6; B3–B7. Tasks 7–10 (word search + crossword, secret code / bingo / colouring composer, column methods ×11, letter models + cursive) are built by the main session when their makers come up — NO Fable agents, my own Opus 5.5 agent only when needed, one at a time. Owed at the release only: the five release steps of task 3.
+
+## B1 screen retrofit + Money maker + Two-Circle Sort rebuild + coins at their real sizes (2026-11-01)
+
+**B1 screen retrofit (done).** Declared screens build in the maker through `runtime.screenFor()` (declared screen, else
+the marks screen); the published face (level 2, copy 1) builds its declared screen only in the maker (`ctx.publishedScreen`,
+24 type guards — the catalogue's published pages are unchanged). New: `gates/declared-screens.js` (every declared template ×
+its screen levels × en + fi × copies 1-2, played by the bot, poison `shiftAnswers`), `gates/lib/marks-bot.js`, the marks
+runtime's optional / blank boxes, counted place groups, sum groups and decimal entry; K-389 / G1-447 / K-454 got screens.
+`scripts/makers/run-all-gates.sh` runs the whole suite (unit tests first).
+
+**Money maker (built, local).** Six new templates on `types/_shared/money-more.js`: K-461 Which Coin Is It?, G1-473
+classroom store price tags (material), G2-471 Fewest Coins, G2-472 Pay the Exact Price, G2-473 Same Amount, Different
+Coins, G3-474 Count Bills and Coins; `lib/money-format.js` (the native-signed money format per locale); two native +
+pedagogy reviews applied. Test `tests/money.test.js` (fewest ways = brute force over 1,000+ (set, amount) pairs; every
+Fewest Coins card's largest-first way is the only fewest way; coin sizes; format).
+
+**Coins at their real sizes (pedagogical fix, catalogue-wide).** Tokens grew with VALUE, so every page drew the dime
+bigger than the penny and the nickel ("bigger = worth more", the misconception a coin page must not teach). Now
+`data/money/currencies.js` carries each coin's minted diameter (`mm`) and `primitives/coins.js sizeFor` draws in proportion
+(the largest coin = maxPx, never below minPx); the €1 / €2 / R$ 1 coins of a mixed strip are sized among the cents (€1 is
+smaller than 50 ct). K-461's coins show their unit ("25 ¢") beside coin NAMES, the bare numeral beside amount labels.
+Live: 2,628 decks of G1-211, G1-228–232, G2-276, G2-289–295 republished in place (pinned waves `_fix-coinsize-*`;
+`guessfix-compare.js --positions` keeps the pages whose words MOVED — the coin numerals — and drops the rest).
+
+**Two-Circle Sort (G3-353) rebuilt** (operator: "very confusing … make it pedagogically correct"). The old page: a
+telegraphic instruction ("Left circle: this kind…"), a stray icon and a crossed-out dot as the circles' names, no box (so
+"outside" was the strip), a small elephant against a big mouse (real-world size), twelve lines tangled across two circles,
+and — found by the reviewer — two right answers when an "other" was one of the kind (a clownfish beside "Fish"). Now: the
+circles named above the box (the kind's picture + its plural word; "Big pictures"); a box for "neither"; every thing drawn
+big AND small; numbered pictures, the child writes each number in its region (the key writes them there); regions 1 …
+⌈n/4⌉+1; only themes read for look-alikes, generic words (fish, bird, monkey, planet, boat …) never used, look-alike groups
++ IS_A pairs + a per-language word check (de Fische/Goldfische, es Camiones/Camiones de carga) keep the kind and the others
+apart; the screen's tap areas fill their regions (verify measures every corner). Instruction ×11 + four titles (fr, it, no,
+fi) native-reviewed. Gate `tests/venn.test.js` (5,280 pages over 40 themes; poisons both ways). The 22 live pages
+republished in place (`_fix-venn2-*`); their deck titles are the live ones (metadata unchanged).
+
+**Build defect found on the way:** `build-bundles.js` judged a template's languages on the manifest's first two themes, so
+the six G2-319-family logic puzzles (G1-349, G2-319, G2-344, G2-345, G3-378, G3-379 — curated themes only) were offered in
+NO language. The theme check now runs first (its reads recorded — the first version left the picture manifest out of the
+counting bundle; build-thumbs caught it) and a language is judged on themes that build.
+
+## Logic & Math Puzzles maker complete + guessability round 2 + the full suite's findings (2026-11-01, evening)
+
+**Logic & Math Puzzles (built, local): 31 templates** — the 20 existing, task 6's eight (G1-470/471/472, G2-470,
+G3-470…473) and three new ones: **G1-474 Secret Word Addition** (the old code-addition app: add the pictures, find the sum
+in the code, write its letter in the row's box; the code never lists the letters in the word's order, decoys from the
+locale's own alphabet), **G1-475 Solve and Rebuild the Picture** (the old math-puzzle app: each cut-out piece carries an
+answer; glued onto its problem it rebuilds a library picture), **G1-476 Number Detective** (who am I? 1-20 / 1-50 /
+1-100, clues between / even / odd / digit sum, one proven answer; `pv-more` mode `riddleRange`, G2-405 byte-identical).
+Strings ×11 native + pedagogy reviewed. Tap-to-edit slots: the G2-319 logic-grid family (applied to the SETTLED page —
+272 swaps, 0 other pictures changed), K-068, G1-157/158, G3-348/351, G3-353 (the kind and the other things; a swap must
+keep every region true). Old apps → templates: sudoku G1-471, math-puzzle G1-475, code-addition G1-474 (`topic-map.js`
+oldAppTemplates; `build-smart-links.js` rerun). Inventory regenerated; the 11 new logic templates filed under their
+coverage points.
+
+**Guessability, round 2** (gate `settings-space`). Every fix leaves the published page (level 2, copy 1) byte-identical
+— proven against git HEAD on 20 seeds each:
+- **G1-232 Which Purse Has More:** "the purse with more coins" and "the purse with the biggest coin" each pick the richer
+  purse on about half the rows (were 85-97 %): the two traps take turns (a richer purse with fewer coins must hold the
+  biggest coin), every page holds both kinds, level 1 allows 4 coins (with 3 the biggest-coin trap was impossible at its
+  gap), and a row the random draws cannot meet is drawn from every purse pair (fi / nl have no 1 c / 2 c). Test in
+  `tests/money.test.js`.
+- **G2-471 Fewest Coins:** level 1 mixes 2- and 3-kind cards (with three kinds a 1-2-5 system answers only 1s); level 2 =
+  any amount whose fewest way needs at most 4 coins; a coin worth more than the amount is not shown; each page picked for
+  balanced answers. **G1-447 Find the Mistakes:** 3-5 of 8 sums wrong (2-3 let "nothing is wrong" score 75 %), sums within
+  20 drawn evenly. **Number walls** (G1-246 family): a new copy caps any answer at an eighth of its empty bricks.
+  **G3-350** balance: the missing number drawn evenly, different on each row. **G2-397** missing digits differ on a page.
+  **G1-449** doubles spread. **G2-400** sums drawn evenly by parity, never equal to a number printed in the block.
+  **G2-224** place digits differ; no digit in more than two boxes.
+- Reasoned exemptions (EXEMPT may now be scoped per locale): K-031 prev+1, K-389 one word per page, K-437 letter
+  frequency, G1-439 card-index (the result box can never be a card number), G1-266 / G1-267 sums of small walls.
+- The gate: an OPTIONAL write box ("leave it empty if …") is a yes/no decision measured against 1/2 (kind `blank`), not
+  one of N answers; two empty boxes in a row are not "the same number". Poison 5 both ways.
+
+**What the full suite found, fixed:** the doubles family's mirror line (G1-247 + seven faces, the published page too)
+was squeezed to 0 px on every card whose two groups overflowed the panel, and the pictures touched the frame — the line
+keeps its width, the pictures shrink to fit (`components-b2.js mirrorGroups`); the card-number badge 30 → 24 px (content
+reached under it on 8 templates); pdf-parity crashed on a font without a descriptor (`lookupMaybe`) and lost ä / ö / å
+(the Windows pdftotext is Xpdf 4.00, Latin-1 by default → `-enc UTF-8`); collision: the two-attribute grid's pictures
+sit in their header cells; the G3-377 / G3-380 "noun not cached" builds were the manifest rewrite in flight (rebuilt
+clean).
+
+**Live republish** (pinned waves, `guessfix-compare.js`; new `--keep-all` for fixes drawn in strokes or opacity; word
+positions via PyMuPDF `tools/pdf-word-boxes.py`): batch 1 coins (2,276 decks), batch 2 G1-230 / G1-232 (352), batch 3
+number walls + doubles + the vehicles crane (3,486), batch 4 G1-349 (176). RESULT: (filled in below when done)
 
 > 🛑 **NO DEPLOY (operator 2026-10-31):** no worksheet maker goes live until all 60 are built, tested and finalized locally. The pilot trio is a LOCAL pilot (built + reviewed at http://localhost:8490/), not a go-live. Everything is committed; nothing maker-related is deployed. The launch is one release of all 60.
 
@@ -19,9 +104,9 @@ records what is BUILT, measured and committed, step by step, so any session can 
   or write their names" ×11 (as the published G1-158 — drawing six pictures is harder than the puzzle); merged into
   `i18n/strings.<loc>.json` (`_rule` stays in `logic-puzzles-makers.json`, read by the type).
 - **The logic-puzzles maker is NOT built yet** (no maker name, inventory, coverage): at its place in the order, the per-maker
-  recipe must also fix the existing templates — G2-319 family refuses every offered theme (curated allowlist), G3-353
-  venn-sort renders blank in the browser with no key, all 20 existing templates expose no slot; decide whether the new
-  graded picture sudokus replace or sit beside the published G1-158 / G3-348; cat vs cheetah look-alike pairing data.
+  recipe must also: all 20 existing templates expose no slot; decide whether the new graded picture sudokus replace or sit
+  beside the published G1-158 / G3-348. (Fixed 2026-11-01: the G2-319 family is offered again — a build defect, see
+  above; G3-353 rebuilt with a key and a screen.)
 
 ## Task 3 (Fable 5.1): release wiring, prepared locally, never run (2026-11-01, commits 920964550, ae4abee0c)
 

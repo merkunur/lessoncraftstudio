@@ -91,7 +91,20 @@ function makePage(o) {
     if (JSON.stringify(scBuilt.meta) !== JSON.stringify(built.meta)) throw new Error('maker: the screen build drew different content than the page (' + type.id + ')');
     screenHtml = buildPage({ title: head, instruction: strings.instruction, bodyHtml: scBuilt.bodyHtml, locale, pageSize });
   }
-  return { html, keyHtml, screenHtml, meta: built.meta, seed: instanceSeed(seedArgs), slots };
+  // the DECLARED screen build (2026-11-01): a template whose module declares `interactive` gets the screen the catalogue
+  // gives it — its own build with ctx.interactive, the native screen instruction (o.screenInstruction) and the screen's
+  // page height; scripts/makers/screen.js buildDeclaredScreen measures it in the browser (render-instance.js's capture)
+  let declaredHtml = null;
+  if (o.declared) {
+    if (!type.interactive) throw new Error('maker: ' + type.id + ' declares no interactive screen');
+    if (!o.screenInstruction) throw new Error('maker: ' + type.id + ' has no screen instruction for ' + locale);
+    // publishedScreen: the published face (level 2, copy 1) builds exactly as it shipped, so its families skip the screen
+    // path there; the maker asks for that page's screen anyway (built FROM the published page — same content, asserted)
+    const dBuilt = type.build({ theme, difficulty, locale, unit }, ctx({ interactive: true, publishedScreen: true }));
+    if (JSON.stringify(dBuilt.meta) !== JSON.stringify(built.meta)) throw new Error('maker: the screen build drew different content than the page (' + type.id + ')');
+    declaredHtml = buildPage({ title: head, instruction: o.screenInstruction, bodyHtml: dBuilt.bodyHtml, locale, pageSize, pageHeight: type.interactive.screenHeight || null });
+  }
+  return { html, keyHtml, screenHtml, declaredHtml, meta: built.meta, seed: instanceSeed(seedArgs), slots };
 }
 
 /**
@@ -144,4 +157,41 @@ async function generate(o, mount) {
   return { ok: false, fails };
 }
 
-module.exports = { makePage, gatePage, generate, mountHtml, platform, keyMarks, screen: require('./screen.js') };
+/**
+ * The screen of a page (2026-11-01), the ONE decision the maker screen, the student page, build-screens and the gates
+ * share: a template whose module declares `interactive` gets its declared screen (the catalogue's); where that build has
+ * nothing to measure — the published face (level 2, copy 1) builds exactly as it shipped, without its screen layout —
+ * the same page's answer marks give it the generic screen. A template without a declaration gets the marks screen.
+ * @param {object} o   makePage options (type, strings, locale, difficulty, theme, unit, variant, …) + tpl (the
+ *                     templates.json entry), runtimeStrings (the locale's), marksInstructions (screenInstructions of the
+ *                     locale: the generic sentences), decorate? (html → html, the teacher's drawing on a marks screen)
+ * @returns {Promise<{ html, path: 'declared' | 'marks' }>}  throws with .reasons when the page cannot be a screen
+ */
+async function screenFor(o, mount) {
+  const screen = require('./screen.js');
+  const { tpl, type } = o;
+  const lv = Number(o.difficulty || 2);
+  let declaredErr = null;
+  if (tpl.screen === 'declared' || type.interactive) {
+    const instr = tpl.screenInstructions && tpl.screenInstructions[o.locale] && tpl.screenInstructions[o.locale][lv];
+    try {
+      if (!instr) throw Object.assign(new Error('no screen instruction for ' + o.locale + ' level ' + lv), { reasons: ['no screen instruction'] });
+      const made = makePage({ ...o, declared: true, screenInstruction: instr });
+      const sc = await screen.buildDeclaredScreen({ html: made.declaredHtml, type, theme: o.theme, difficulty: lv, locale: o.locale, strings: o.runtimeStrings, mount });
+      return { html: sc.html, path: 'declared' };
+    } catch (e) { declaredErr = e; }
+  }
+  try {
+    const made = makePage({ ...o, screen: true });
+    const html = o.decorate ? o.decorate(made.screenHtml) : made.screenHtml;
+    const sc = await screen.buildScreen({ html, locale: o.locale, strings: o.runtimeStrings, instruction: (pl) => (o.marksInstructions || {})[screen.instructionKey(pl)] || '', mount });
+    return { html: sc.html, path: 'marks' };
+  } catch (e) {
+    if (!declaredErr) throw e;
+    const err = new Error('screen: declared — ' + (declaredErr.reasons ? declaredErr.reasons.join('; ') : declaredErr.message) + ' | marks — ' + (e.reasons ? e.reasons.join('; ') : e.message));
+    err.reasons = [].concat(declaredErr.reasons || [declaredErr.message], e.reasons || [e.message]);
+    throw err;
+  }
+}
+
+module.exports = { makePage, gatePage, generate, mountHtml, platform, keyMarks, screenFor, screen: require('./screen.js') };

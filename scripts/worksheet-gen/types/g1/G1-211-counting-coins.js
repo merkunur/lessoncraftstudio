@@ -39,7 +39,7 @@ module.exports = {
     // Level Set 2026-10-05: the screen version + answer key of NEW pages (lib/money-screen.js); the published page
     // (level 2, copy 1) never reaches it
     const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
-    if (!published && ctx && (ctx.interactive || ctx.answerKey)) {
+    if ((!published || (ctx && ctx.publishedScreen && ctx.interactive)) && ctx && (ctx.interactive || ctx.answerKey)) {
       const built = this.build({ difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
       return require('../../lib/money-screen.js').screenOrKey('count', built, ctx, locale);
     }

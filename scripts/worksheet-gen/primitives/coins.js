@@ -5,6 +5,12 @@
  * instruction line), differentiated by SIZE + RING, never by hue, so a B&W
  * printer loses nothing (design-panel lock).
  *
+ * SIZE follows the real coin (2026-11-01, native + pedagogy review): when the
+ * set carries diameters (data/money/currencies.js `mm`), each token is drawn
+ * in proportion to its minted size — the US dime is smaller than the penny,
+ * the 10-cent euro smaller than the 5 — never "bigger = worth more", which is
+ * the misconception a coin page must not teach. The numeral carries the value.
+ *
  * Tints map into the token palette: gold → cream fill, silver → white fill,
  * copper → coralSoft fill; higher values earn a double ring.
  */
@@ -18,8 +24,16 @@ const TINT_FILL = {
   copper: tokens.color.coralSoft,
 };
 
-/** Diameter ladder: value rank within the set drives size (min→max px). */
-function sizeFor(value, allValues, { minPx, maxPx }) {
+/**
+ * Diameter in px. With `mm` ({ value: real diameter }) covering the value: in proportion to the real coins — the largest
+ * coin of the set is maxPx, a smaller one maxPx × its share, never below minPx (the numeral must stay readable). Without
+ * diameters: value rank drives size (min→max px).
+ */
+function sizeFor(value, allValues, { minPx, maxPx, mm }) {
+  if (mm && mm[value]) {
+    const top = Math.max(...allValues.map((v) => mm[v] || 0));
+    if (top > 0) return Math.max(minPx, Math.round((maxPx * mm[value]) / top));
+  }
   const sorted = [...new Set(allValues)].sort((a, b) => a - b);
   const rank = sorted.indexOf(value);
   const t = sorted.length > 1 ? rank / (sorted.length - 1) : 1;
@@ -58,13 +72,13 @@ function coin({ value, tint, d, doubleRing }) {
  * → { html, total } where html is a flex row block of coin SVGs.
  */
 function coinRow({ values, denoms, minPx = 44, maxPx = 64, gap = 8 }) {
-  const all = denoms.map((x) => x.v);
+  const all = denoms.map((x) => x.v), mm = mmOf(denoms);
   const tintByV = Object.fromEntries(denoms.map((x) => [x.v, x.tint]));
   const topTwo = [...new Set(all)].sort((a, b) => b - a).slice(0, 2);
   const sorted = [...values].sort((a, b) => b - a);
   const svgs = sorted.map((v) => coin({
     value: v, tint: tintByV[v],
-    d: sizeFor(v, all, { minPx, maxPx }),
+    d: sizeFor(v, all, { minPx, maxPx, mm }),
     doubleRing: topTwo.includes(v),
   }).svg);
   const total = values.reduce((a, b) => a + b, 0);
@@ -74,4 +88,9 @@ function coinRow({ values, denoms, minPx = 44, maxPx = 64, gap = 8 }) {
   };
 }
 
-module.exports = { coin, coinRow, sizeFor };
+/** the real diameters of a set of denominations, { value: mm } — null unless every coin carries one */
+function mmOf(denoms) {
+  return denoms.length && denoms.every((x) => x.mm > 0) ? Object.fromEntries(denoms.map((x) => [x.v, x.mm])) : null;
+}
+
+module.exports = { coin, coinRow, sizeFor, mmOf };

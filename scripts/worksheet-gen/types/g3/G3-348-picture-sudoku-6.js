@@ -4,6 +4,7 @@
  */
 'use strict';
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
+const slot = require('../../lib/slot.js');
 
 const N = 6, BR = 2, BC = 3;   // 6x6 grid, boxes 2 rows × 3 cols
 
@@ -79,7 +80,8 @@ module.exports = {
   build({ theme, difficulty }, ctx) {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
-    const nouns = rng.sample(labelSafeNouns(theme), 6);
+    // tap-to-edit (lib/slot.js): a teacher may swap a picture of the puzzle — its legend tile is the tap target
+    const nouns = slot.pictures(ctx, rng.sample(labelSafeNouns(theme), 6), labelSafeNouns(theme), theme);
     const solution = buildSolution(rng);
     const grid = solution.slice();
     let remaining = N * N;
@@ -114,7 +116,7 @@ module.exports = {
     }).join('');
 
     const key = nouns.map((n, v) =>
-      `<span class="ws-pattern-slot" style="width:62px;height:62px"${ctx && ctx.screen ? ` data-lcs-bin="${v}"` : ''}>` +
+      `<span class="ws-pattern-slot" style="width:62px;height:62px"${ctx && ctx.screen ? ` data-lcs-bin="${v}"` : ''}${slot.attr(ctx, 'pic', v)}>` +
       `<img class="ws-icon" src="${fileUri(theme, n.noun)}" alt="" style="width:44px;height:44px"></span>`).join('');
 
     return {

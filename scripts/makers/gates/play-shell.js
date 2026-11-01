@@ -219,7 +219,8 @@ const solve = () => {
     check('the 11th play of a day shows the kid-safe wall in the language and builds nothing', wall.metered === 'wall' && wall.h2 === S('wallTitle', 'fi') && wall.pages === 0 && wall.tabs, wall);
     await wp.close();
     await access('as=anon&played=0');
-    // ---- a DECLARED screen (the 443 catalogue screens are not built in the maker yet): shown for paper, honestly "coming soon"
+    // ---- a DECLARED screen (the catalogue's own screen, built in the maker since the B1 retrofit 2026-11-01 — runtime.screenFor):
+    //      the student plays it, no "coming soon" note
     {
       await access('as=sub');
       const nl = JSON.parse(fs.readFileSync(path.join(REPO, 'out', 'makers', 'versions.json'), 'utf8'))['number-lines'];
@@ -229,7 +230,7 @@ const solve = () => {
       await access('as=anon');
       const dp = await page(1024); await dp.goto(`${base}/s/${lid}`, { waitUntil: 'load' }); await ready(dp); await settle(300);
       const d = await dp.evaluate(() => ({ pages: window.__lcsPlay.pages.map((x) => [x.template, x.kind, x.reason]), note: (document.querySelector('.pl-note[data-reason]') || {}).textContent, sheet: !!document.querySelector('.pl-sheet iframe') }));
-      check('a template whose screen the maker does not build yet (declared G1-116) is shown for paper with the "coming soon" sentence', JSON.stringify(d.pages) === JSON.stringify([['G1-116', 'paper', 'yet']]) && d.note === S('noScreenYet', 'en') && d.sheet, d);
+      check('a template with a DECLARED screen (G1-116) is played as its screen — no paper note', JSON.stringify(d.pages) === JSON.stringify([['G1-116', 'screen', null]]) && !d.note && !d.sheet, d);
       await dp.close();
     }
 

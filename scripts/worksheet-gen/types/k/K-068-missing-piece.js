@@ -4,6 +4,7 @@
  */
 'use strict';
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
+const slot = require('../../lib/slot.js');
 
 module.exports = {
   id: 'K-068',
@@ -28,7 +29,8 @@ module.exports = {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     const size = d.size;
-    const rowNouns = rng.sample(labelSafeNouns(theme), size + 1); // +1 distractor
+    const pool = labelSafeNouns(theme);
+    const rowNouns = slot.pictures(ctx, rng.sample(pool, size + 1), pool, theme); // +1 distractor; tap-to-edit (lib/slot.js)
     const blankR = rng.int(0, size - 1), blankC = rng.int(0, size - 1);
     const answer = rowNouns[blankR];
 
@@ -40,7 +42,9 @@ module.exports = {
         if (r === blankR && c === blankC) {
           cells.push(`<span class="ws-pattern-slot ws-pattern-slot--blank" style="width:${cellPx}px;height:${cellPx}px" data-lcs-blank="${answer.vocabKey}">?</span>`);
         } else {
-          cells.push(`<span class="ws-pattern-slot" style="width:${cellPx}px;height:${cellPx}px" data-lcs-row="${r}" data-lcs-el="${rowNouns[r].vocabKey}">` +
+          // the tap target of a row's picture: its first picture cell
+          const first = c === (r === blankR && blankC === 0 ? 1 : 0);
+          cells.push(`<span class="ws-pattern-slot" style="width:${cellPx}px;height:${cellPx}px" data-lcs-row="${r}" data-lcs-el="${rowNouns[r].vocabKey}"${first ? slot.attr(ctx, 'pic', r) : ''}>` +
             `<img class="ws-icon" src="${fileUri(theme, rowNouns[r].noun)}" alt="" style="width:${iconPx}px;height:${iconPx}px"></span>`);
         }
       }
@@ -48,7 +52,7 @@ module.exports = {
 
     const opts = rng.shuffle([answer, rowNouns[(blankR + 1) % size], rowNouns[size]]);
     const chips = opts.map((n) =>
-      `<span class="ws-pattern-chip" style="width:86px;height:86px"${n.vocabKey === answer.vocabKey ? ' data-lcs-correct="1"' : ''} data-lcs-opt="${n.vocabKey}">` +
+      `<span class="ws-pattern-chip" style="width:86px;height:86px"${n.vocabKey === answer.vocabKey ? ' data-lcs-correct="1"' : ''} data-lcs-opt="${n.vocabKey}"${n === rowNouns[size] ? slot.attr(ctx, 'pic', size) : ''}>` +
       `<img class="ws-icon" src="${fileUri(theme, n.noun)}" alt="" style="width:60px;height:60px"></span>`).join('');
 
     return {

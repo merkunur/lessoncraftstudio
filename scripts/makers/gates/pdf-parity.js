@@ -57,9 +57,13 @@ function fontsOf(pdf) {
     const fonts = res && res.lookup(PDFName.of('Font'), PDFDict);
     if (!fonts) { out.push({ page: i + 1, name: '(none)', embedded: false, missing: true }); return; }
     for (const [k, ref] of fonts.entries()) {
-      const f = pdf.context.lookup(ref, PDFDict);
-      let desc = f.lookup(PDFName.of('FontDescriptor'), PDFDict);
-      if (!desc) { const dd = f.lookup(PDFName.of('DescendantFonts'), PDFArray); if (dd) desc = pdf.context.lookup(dd.get(0), PDFDict).lookup(PDFName.of('FontDescriptor'), PDFDict); }
+      // a font reference that points at no object is a broken PDF: reported as a missing font, never a crash that hides
+      // every other result (2026-11-01: one such page stopped the whole gate)
+      let f = null; try { f = pdf.context.lookup(ref, PDFDict); } catch (e) { f = null; }
+      if (!f) { out.push({ page: i + 1, name: String(k) + ' (broken reference)', embedded: false, missing: true }); continue; }
+      // lookupMaybe: a composite (Type0) or Type3 font has no FontDescriptor of its own — lookup() throws on a missing key
+      let desc = f.lookupMaybe(PDFName.of('FontDescriptor'), PDFDict);
+      if (!desc) { const dd = f.lookupMaybe(PDFName.of('DescendantFonts'), PDFArray); if (dd) desc = pdf.context.lookup(dd.get(0), PDFDict).lookupMaybe(PDFName.of('FontDescriptor'), PDFDict); }
       const type3 = String(f.lookup(PDFName.of('Subtype')) || '') === '/Type3';
       const emb = type3 || (!!desc && ['FontFile', 'FontFile2', 'FontFile3'].some((n) => desc.has(PDFName.of(n))));
       out.push({ page: i + 1, name: String(f.lookup(PDFName.of('BaseFont')) || k), embedded: emb });
@@ -67,8 +71,10 @@ function fontsOf(pdf) {
   });
   return out;
 }
+// -enc UTF-8: on Windows pdftotext writes Latin-1 by default, and reading that as UTF-8 lost every ä / ö / å — de and fi
+// pages "lacked" Zählen, Kästchen, päivämäärä that the PDF holds (2026-11-01)
 function pdfText(file, pageNo) {
-  for (const bin of PDFTOTEXT) { try { return execFileSync(bin, ['-f', String(pageNo), '-l', String(pageNo), '-layout', file, '-'], { encoding: 'utf8' }); } catch (e) { if (e.code !== 'ENOENT') throw e; } }
+  for (const bin of PDFTOTEXT) { try { return execFileSync(bin, ['-enc', 'UTF-8', '-f', String(pageNo), '-l', String(pageNo), '-layout', file, '-'], { encoding: 'utf8' }); } catch (e) { if (e.code !== 'ENOENT') throw e; } }
   return null;
 }
 
@@ -137,7 +143,8 @@ function pdfText(file, pageNo) {
     const want = PAPER[sc.paper];
     sizes.forEach((s, i) => { if (Math.abs(s.width - want[0]) > 0.5 || Math.abs(s.height - want[1]) > 0.5) out.push(`PDF: page ${i + 1} is ${s.width.toFixed(2)} × ${s.height.toFixed(2)} pt, not ${sc.paper}`); });
     const fonts = fontsOf(pdf);
-    if (!fonts.length || fonts.some((f) => f.missing)) out.push('PDF: a page carries no font (no text?)');
+    if (!fonts.length) out.push('PDF: a page carries no font (no text?)');
+    fonts.filter((f) => f.missing).forEach((f) => out.push(f.name === '(none)' ? `PDF: page ${f.page} carries no font (no text?)` : `PDF: page ${f.page}: font ${f.name}`));
     fonts.filter((f) => !f.embedded && !f.missing).forEach((f) => out.push(`PDF: font ${f.name} on page ${f.page} is not embedded`));
     sc.fonts = [...new Set(fonts.map((f) => f.name))];
     if (hasPdfToText) {

@@ -174,21 +174,27 @@
       "K-353",
       "G2-406",
       "G2-402",
-      "G3-411"
+      "G3-411",
+      "G1-473"
     ]
   },
   "later": {
     "reason": "eligible, but the page's marks are not sufficient yet — the needed edit is named per id",
-    "ids": {
-      "K-454": "the empty ten-frame draws no cell elements to tap (primitives/ten-frame.js draws cells only when filled); level 3 (every way to make 10) has many right answers",
-      "G1-447": "a write box only on the wrong sums would tell which sums are wrong — needs a right/wrong choice per card plus the correction box",
-      "K-389": "fill-in sentences: the sight word goes on a writing line (the key-on-row seating is OPEN); a type box over the line is the next step"
-    }
+    "ids": {}
   },
   "levels": {
     "_note": "per-LEVEL paper-only verdicts for a template whose other levels have a screen: build-screens.js records the text as that level's screenReason (the level is simply not in screenLevels)",
     "G2-411": {
       "1": "many-answers: the array may be coloured anywhere on the grid, either way round"
+    },
+    "K-389": {
+      "1": "writing: level 1 traces the dashed word in each gap"
+    },
+    "K-454": {
+      "3": "many-answers: level 3 finds the ways to make 10 itself — any five of them are right"
+    },
+    "G2-472": {
+      "3": "writing: level 3 draws the coins that make each price (any coins that make it are right)"
     }
   }
 }

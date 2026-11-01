@@ -4259,5 +4259,91 @@
       "no": "Klipp ut kortene og lag et hull i hver sirkel. Sett dem på en ring og øv på gangetabellen. Svarene mangler: si dem, skriv dem og sjekk dem så.",
       "fi": "Leikkaa kortit irti ja tee reikä jokaiseen ympyrään. Pujota ne renkaaseen ja harjoittele kertotauluja. Vastaukset puuttuvat: sano ne, kirjoita ne ja tarkista ne sitten."
     }
+  },
+  "G2-472": {
+    "3": {
+      "en": "Draw coins that make each price exactly.",
+      "de": "Zeichne Münzen, die zusammen genau den Preis ergeben.",
+      "fr": "Dessine des pièces pour payer exactement le prix.",
+      "es": "Dibuja monedas que sumen exactamente el precio.",
+      "pt": "Desenhe moedas que somem exatamente o preço.",
+      "it": "Disegna delle monete per pagare il prezzo esatto.",
+      "nl": "Teken munten die samen precies de prijs zijn.",
+      "sv": "Rita mynt som tillsammans blir exakt priset.",
+      "da": "Tegn mønter, der tilsammen giver præcis prisen.",
+      "no": "Tegn mynter som til sammen blir nøyaktig prisen.",
+      "fi": "Piirrä kolikoita, joilla voit maksaa hinnan tasan."
+    }
+  },
+  "G2-473": {
+    "3": {
+      "en": "Count the money in both purses. Circle = if they hold the same amount, or ≠ if they do not.",
+      "de": "Zähle das Geld in beiden Geldbörsen. Kreise = ein, wenn gleich viel Geld darin ist, sonst ≠.",
+      "fr": "Compte l’argent dans les deux porte-monnaie. Entoure = s’ils contiennent la même somme, sinon ≠.",
+      "es": "Cuenta el dinero de los dos monederos. Encierra = si tienen la misma cantidad; si no, encierra ≠.",
+      "pt": "Conte o dinheiro das duas carteiras. Circule = se elas têm a mesma quantia; se não, circule ≠.",
+      "it": "Conta i soldi nei due borsellini. Cerchia = se contengono la stessa somma, altrimenti ≠.",
+      "nl": "Tel het geld in beide portemonnees. Omcirkel = als er evenveel geld in zit, anders ≠.",
+      "sv": "Räkna pengarna i båda plånböckerna. Ringa in = om de innehåller lika mycket pengar, annars ≠.",
+      "da": "Tæl pengene i begge punge. Sæt ring om =, hvis der er lige mange penge i dem, ellers om ≠.",
+      "no": "Tell pengene i begge lommebøkene. Sett ring rundt = hvis de har like mye penger, ellers rundt ≠.",
+      "fi": "Laske rahat molemmista kukkaroista. Ympyröi =, jos niissä on yhtä paljon rahaa, muuten ≠."
+    }
+  },
+  "G2-471": {
+    "2": {
+      "en": "Make each amount with as few coins as you can. Write how many of each coin you need. Leave the box empty if you don’t need that coin.",
+      "de": "Lege jeden Betrag mit möglichst wenigen Münzen. Schreibe auf, wie viele du von jeder Münze brauchst. Brauchst du eine Münze nicht, lass das Kästchen leer.",
+      "fr": "Fais chaque somme avec le moins de pièces possible. Écris combien il te faut de chaque pièce. Si tu n’as pas besoin d’une pièce, laisse la case vide.",
+      "es": "Forma cada cantidad con el menor número de monedas posible. Escribe cuántas monedas de cada tipo necesitas. Si no necesitas una moneda, deja su casilla vacía.",
+      "pt": "Forme cada quantia com o menor número de moedas possível. Escreva quantas moedas de cada tipo você vai usar. Se não precisar de uma moeda, deixe o quadrinho vazio.",
+      "it": "Forma ogni somma con il minor numero di monete possibile. Scrivi quante monete di ogni tipo ti servono. Se una moneta non ti serve, lascia la casella vuota.",
+      "nl": "Maak elk bedrag met zo weinig mogelijk munten. Schrijf op hoeveel je van elke munt nodig hebt. Heb je een munt niet nodig, laat het vakje dan leeg.",
+      "sv": "Visa varje belopp med så få mynt som möjligt. Skriv hur många du behöver av varje mynt. Lämna rutan tom om du inte behöver det myntet.",
+      "da": "Lav hvert beløb med så få mønter som muligt. Skriv, hvor mange du skal bruge af hver mønt. Hvis du ikke skal bruge en mønt, så lad feltet være tomt.",
+      "no": "Lag hvert beløp med så få mynter som mulig. Skriv hvor mange du trenger av hver mynt. Trenger du ikke en mynt, lar du ruten stå tom.",
+      "fi": "Kokoa jokainen summa mahdollisimman vähillä kolikoilla. Kirjoita, montako kutakin kolikkoa tarvitset. Jos et tarvitse jotakin kolikkoa, jätä ruutu tyhjäksi."
+    },
+    "3": {
+      "en": "Make each amount with as few coins as you can. Write how many of each coin you need. Leave the box empty if you don’t need that coin.",
+      "de": "Lege jeden Betrag mit möglichst wenigen Münzen. Schreibe auf, wie viele du von jeder Münze brauchst. Brauchst du eine Münze nicht, lass das Kästchen leer.",
+      "fr": "Fais chaque somme avec le moins de pièces possible. Écris combien il te faut de chaque pièce. Si tu n’as pas besoin d’une pièce, laisse la case vide.",
+      "es": "Forma cada cantidad con el menor número de monedas posible. Escribe cuántas monedas de cada tipo necesitas. Si no necesitas una moneda, deja su casilla vacía.",
+      "pt": "Forme cada quantia com o menor número de moedas possível. Escreva quantas moedas de cada tipo você vai usar. Se não precisar de uma moeda, deixe o quadrinho vazio.",
+      "it": "Forma ogni somma con il minor numero di monete possibile. Scrivi quante monete di ogni tipo ti servono. Se una moneta non ti serve, lascia la casella vuota.",
+      "nl": "Maak elk bedrag met zo weinig mogelijk munten. Schrijf op hoeveel je van elke munt nodig hebt. Heb je een munt niet nodig, laat het vakje dan leeg.",
+      "sv": "Visa varje belopp med så få mynt som möjligt. Skriv hur många du behöver av varje mynt. Lämna rutan tom om du inte behöver det myntet.",
+      "da": "Lav hvert beløb med så få mønter som muligt. Skriv, hvor mange du skal bruge af hver mønt. Hvis du ikke skal bruge en mønt, så lad feltet være tomt.",
+      "no": "Lag hvert beløp med så få mynter som mulig. Skriv hvor mange du trenger av hver mynt. Trenger du ikke en mynt, lar du ruten stå tom.",
+      "fi": "Kokoa jokainen summa mahdollisimman vähillä kolikoilla. Kirjoita, montako kutakin kolikkoa tarvitset. Jos et tarvitse jotakin kolikkoa, jätä ruutu tyhjäksi."
+    }
+  },
+  "K-461": {
+    "2": {
+      "en": "Draw a line from each coin to its name.",
+      "de": "Verbinde jede Münze mit ihrem Wert.",
+      "fr": "Relie chaque pièce à sa valeur.",
+      "es": "Une cada moneda con su valor.",
+      "pt": "Ligue cada moeda ao seu valor.",
+      "it": "Collega ogni moneta al suo valore.",
+      "nl": "Verbind elke munt met zijn waarde.",
+      "sv": "Dra ett streck från varje mynt till dess värde.",
+      "da": "Tegn en streg fra hver mønt til dens værdi.",
+      "no": "Tegn en strek fra hver mynt til verdien.",
+      "fi": "Yhdistä viivalla jokainen kolikko oikeaan arvoon."
+    },
+    "3": {
+      "en": "Draw a line from each coin to its name.",
+      "de": "Verbinde jede Münze mit ihrem Wert.",
+      "fr": "Relie chaque pièce à sa valeur.",
+      "es": "Une cada moneda con su valor.",
+      "pt": "Ligue cada moeda ao seu valor.",
+      "it": "Collega ogni moneta al suo valore.",
+      "nl": "Verbind elke munt met zijn waarde.",
+      "sv": "Dra ett streck från varje mynt till dess värde.",
+      "da": "Tegn en streg fra hver mønt til dens værdi.",
+      "no": "Tegn en strek fra hver mynt til verdien.",
+      "fi": "Yhdistä viivalla jokainen kolikko oikeaan arvoon."
+    }
   }
 }

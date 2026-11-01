@@ -644,7 +644,7 @@ module.exports = {
     // the published page (level 2, copy 1) reads the original bank; every Level Set page the merged one
     const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
     const bank = published ? loadBank(KEY, loc) : mergedBankOf(loc);
-    if (!published && this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
+    if ((!published || (ctx && ctx.publishedScreen && ctx.interactive)) && this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
       // the screen and the key are built from the SAME draws as the printed page (render-instance asserts the meta)
       const built = this._buildWith(bank, d, { theme, locale: loc, unit }, { ...ctx, interactive: false, answerKey: false });
       return VFS().screenOrKey(VFS().modeOf(d), built, ctx, loc, bank);

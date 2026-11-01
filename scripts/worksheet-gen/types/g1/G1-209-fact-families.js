@@ -58,7 +58,7 @@ module.exports = {
   build({ difficulty, locale }, ctx) {
     // the published page (level 2, copy 1) builds exactly as it shipped; a NEW page may also be its screen / key
     const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
-    if (!published && ctx && (ctx.interactive || ctx.answerKey)) {
+    if ((!published || (ctx && ctx.publishedScreen && ctx.interactive)) && ctx && (ctx.interactive || ctx.answerKey)) {
       const built = this.build({ difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
       return require('../../lib/fact-families-screen.js').screenOrKey(built, { ...ctx, locale: (locale || 'en').slice(0, 2) });
     }

@@ -178,7 +178,7 @@ function makeFractionType(cfg) {
 
     build({ theme, difficulty, locale }, ctx) {
       const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
-      if (!published && ctx && (ctx.interactive || ctx.answerKey)) {
+      if ((!published || (ctx && ctx.publishedScreen && ctx.interactive)) && ctx && (ctx.interactive || ctx.answerKey)) {
         const built = this.build({ theme, difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
         return screenLib().screenOrKey(built, { ...ctx, locale: (locale || 'en').slice(0, 2), theme, mode, equiv: !!cfg.equiv });
       }

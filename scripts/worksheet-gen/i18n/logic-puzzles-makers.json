@@ -2,7 +2,7 @@
   "_note": "Logic & Math Puzzles maker — the eight new templates of task 6 (Fable 5.1, 2026-11-01), title + instruction per id ×11, and `_rule` (the product-cage sentence the 4 × 4 cage page appends at level 3 through its {RULE} token). en = American English, es = Mexican Spanish, pt = Brazilian Portuguese. AUTHORED BY THE BUILD SESSION — needs the native review before the main session merges each block into i18n/strings.<loc>.json (strings.js reads only those files; until then the templates ship in English only).",
   "_rule": {
     "en": "A cage with a × sign: multiply its numbers instead.",
-    "de": "Bei einem Käfig mit dem Zeichen · werden die Zahlen malgenommen.",
+    "de": "In einem Käfig mit · werden die Zahlen malgenommen.",
     "fr": "Dans une cage avec le signe ×, on multiplie les nombres.",
     "es": "En una jaula con el signo ×, los números se multiplican.",
     "pt": "Em uma gaiola com o sinal ×, os números são multiplicados.",
@@ -80,7 +80,7 @@
   },
   "G3-472": {
     "en": { "title": "Cage Puzzles 4 × 4", "instruction": "Every row and column needs 1, 2, 3, and 4 once. The numbers inside a thick-lined cage add up to the small number in its corner.{RULE}" },
-    "de": { "title": "Käfig-Rätsel 4 × 4", "instruction": "In jeder Reihe und jeder Spalte kommen 1, 2, 3 und 4 genau einmal vor. Die Zahlen in einem dick umrandeten Käfig ergeben zusammen die kleine Zahl in seiner Ecke.{RULE}" },
+    "de": { "title": "Käfig-Rätsel 4 × 4", "instruction": "In jeder Reihe und Spalte steht jede Zahl von 1 bis 4 genau einmal. Die Zahlen in einem dick umrandeten Käfig ergeben zusammen die kleine Zahl in seiner Ecke.{RULE}" },
     "fr": { "title": "Casse-têtes à cages 4 × 4", "instruction": "Chaque ligne et chaque colonne doit contenir 1, 2, 3 et 4 une seule fois. Les nombres d'une cage au trait épais additionnés donnent le petit nombre écrit dans son coin.{RULE}" },
     "es": { "title": "Acertijos de jaulas 4 × 4", "instruction": "En cada fila y cada columna deben estar el 1, el 2, el 3 y el 4 una sola vez. Los números dentro de una jaula de borde grueso suman el numerito de su esquina.{RULE}" },
     "pt": { "title": "Desafios de gaiolas 4 × 4", "instruction": "Em cada linha e cada coluna, o 1, o 2, o 3 e o 4 aparecem uma vez só. Os números dentro de uma gaiola de contorno grosso somam o numerinho do canto.{RULE}" },

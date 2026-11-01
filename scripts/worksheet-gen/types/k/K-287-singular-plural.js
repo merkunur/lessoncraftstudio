@@ -75,7 +75,7 @@ module.exports = {
     const loc = (locale || 'en').slice(0, 2);
     // the published pages (level 2, copy 1) never read the Level Set additions
     const published = difficulty === 2 && ((ctx && ctx.variant) || 1) === 1;
-    if (!published && this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
+    if ((!published || (ctx && ctx.publishedScreen && ctx.interactive)) && this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
       const built = this.build({ theme, difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
       return SPS.screenOrKey(built, ctx, loc, theme);
     }

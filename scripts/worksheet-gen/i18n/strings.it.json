@@ -822,8 +822,8 @@
     "instruction": "Le file hanno un'immagine, le colonne una grandezza. Cerchia cosa va nella cella vuota."
   },
   "G3-353": {
-    "title": "Ordina a due cerchi",
-    "instruction": "Sinistra: questo tipo. Destra: i GRANDI. Mezzo: entrambi! Nessuno dei due: fuori. Collega ogni immagine al suo posto."
+    "title": "Classifica con due cerchi",
+    "instruction": "Scrivi ogni numero al posto giusto: nel cerchio di sinistra ciò che è indicato sopra, in quello di destra le immagini grandi, al centro quelle che stanno in entrambi e nel riquadro fuori dai cerchi quelle che non stanno in nessuno."
   },
   "K-201": {
     "title": "Esseri viventi e non viventi",
@@ -3668,5 +3668,41 @@
   "G3-473": {
     "title": "Bilance con le forme",
     "instruction": "Le bilance sono in equilibrio. Scopri quanto pesa ogni forma e scrivilo nella sua casella."
+  },
+  "K-461": {
+    "title": "Che moneta è?",
+    "instruction": "Collega ogni moneta al suo valore."
+  },
+  "G2-471": {
+    "title": "Il minor numero di monete",
+    "instruction": "Forma ogni somma con il minor numero di monete possibile. Scrivi quante monete di ogni tipo ti servono."
+  },
+  "G2-472": {
+    "title": "Paga il prezzo esatto",
+    "instruction": "Cerchia delle monete per pagare il prezzo esatto."
+  },
+  "G2-473": {
+    "title": "Stessa somma, monete diverse",
+    "instruction": "Collega ogni borsellino a sinistra con il borsellino a destra che contiene la stessa somma."
+  },
+  "G3-474": {
+    "title": "Conta banconote e monete",
+    "instruction": "Conta le banconote e le monete. Scrivi la somma."
+  },
+  "G1-473": {
+    "title": "Il negozio: cartellini dei prezzi e soldi finti",
+    "instruction": "Ritaglia i cartellini dei prezzi e i soldi finti. Giocate al negozio!"
+  },
+  "G1-474": {
+    "title": "Addizioni con parola segreta",
+    "instruction": "Somma le immagini di ogni riga e scrivi il risultato. Cerca quel numero nel codice e scrivi la sua lettera nella casella con il numero della riga: scoprirai la parola segreta."
+  },
+  "G1-475": {
+    "title": "Risolvi e ricomponi l'immagine",
+    "instruction": "Risolvi ogni operazione. Ritaglia i pezzi e incolla ognuno sull'operazione che ha come risultato il suo numero. Formano un'immagine."
+  },
+  "G1-476": {
+    "title": "Detective dei numeri",
+    "instruction": "I numeri misteriosi vanno da 1 a {MAX}. Leggi gli indizi e scrivi il numero che li rispetta tutti."
   }
 }

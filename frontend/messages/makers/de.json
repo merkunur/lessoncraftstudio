@@ -46,7 +46,9 @@
     "odd-even": "Gerade und ungerade Zahlen",
     "place-value": "Stellenwert und Runden",
     "fractions": "Brüche",
-    "multiplication-division": "Malnehmen und Teilen"
+    "multiplication-division": "Malnehmen und Teilen",
+    "logic-puzzles": "Logikrätsel",
+    "money": "Geld"
   },
   "editTitle": "Überschrift ändern",
   "editInstruction": "Arbeitsanweisung ändern",

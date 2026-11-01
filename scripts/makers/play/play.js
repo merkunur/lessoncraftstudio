@@ -121,7 +121,7 @@ function withInk(html, i) {
   if (!strokes.length || !html.includes(tag)) return html;
   return html.replace(tag, tag + '<svg data-lcs-ink viewBox="0 0 703 945" style="position:absolute;left:0;top:0;width:703px;height:945px;z-index:20;pointer-events:none;overflow:visible" fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + strokes.map((st) => `<path d="${strokePath(st.pts)}" stroke="${INK[st.c] || INK.black}"/>`).join('') + '</svg>');
 }
-const screenAt = (t, level) => t.screen === 'marks' && (t.screenLevels || []).includes(level);
+const screenAt = (t, level) => (t.screen === 'marks' || t.screen === 'declared') && (t.screenLevels || []).includes(level);
 const mount = (h) => mod.mountHtml(gateFrame, h);
 
 /** page i: its gated html, and its screen document where the template's level derives one */
@@ -133,9 +133,9 @@ async function buildPage(i) {
   if (!r.ok) { const e = new Error('refused'); e.fails = r.fails; throw e; }
   const out = { template: t.id, level: lvl, html: r.html, printHtml: withInk(r.html, i), kind: 'paper', reason: null, screenHtml: null };
   if (screenAt(t, lvl)) {
-    const made = mod.makePage({ ...o, ...(r.attempt || {}), type, screen: true });
-    const instructions = (tj.screenInstructions && tj.screenInstructions[LANG]) || {};
-    const sc = await mod.screen.buildScreen({ html: withInk(made.screenHtml, i), locale: LANG, strings: tj.runtimeStrings[LANG], instruction: (pl) => instructions[mod.screen.instructionKey(pl)] || '', mount });
+    // runtime.js screenFor, as the maker screen: the declared screen (the teacher's drawing stays on the printed page —
+    // the screen build is laid out for the screen), else / on the published face the screen from the page's marks
+    const sc = await mod.screenFor({ ...o, ...(r.attempt || {}), type, tpl: t, runtimeStrings: tj.runtimeStrings[LANG], marksInstructions: (tj.screenInstructions && tj.screenInstructions[LANG]) || {}, decorate: (h) => withInk(h, i) }, mount);
     out.kind = 'screen'; out.screenHtml = sc.html;
   } else {
     // honest, per page: a page made for paper (writing practice, more than one right answer, material) vs a screen

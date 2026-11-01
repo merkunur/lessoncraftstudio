@@ -28,6 +28,7 @@ const args = Object.fromEntries(process.argv.slice(2).map((a) => { const m = a.m
 
 const VERDICTS = JSON.parse(fs.readFileSync(path.join(__dirname, 'screen-verdicts.json'), 'utf8'));
 const STRINGS = JSON.parse(fs.readFileSync(path.join(REPO, 'scripts', 'worksheet-gen', 'i18n', 'screen-instructions.json'), 'utf8'));
+const INTERACTIVE = JSON.parse(fs.readFileSync(path.join(REPO, 'scripts', 'worksheet-gen', 'i18n', 'interactive-instructions.json'), 'utf8'));
 
 /** the paper-only verdict of a template id, or null */
 function paperVerdict(id) {
@@ -73,7 +74,45 @@ async function main() {
       const paper = paperVerdict(t.id);
       if (t.interactive) {
         if (paper) throw new Error(t.id + ' declares interactive but is listed as ' + paper.verdict);
-        Object.assign(t, { screen: 'declared', screenLevels: t.levels.slice(), screenReason: null, verdict: 'interactive' });
+        // the declared screen (2026-11-01): built in the browser by screen.js buildDeclaredScreen — the native screen
+        // instruction per locale and level (the catalogue's: strings.screenInstruction, else interactive-instructions.json)
+        // and the levels whose en page measures into a working screen
+        const type = require(path.join(REPO, t.file));
+        const instr = {};
+        if (!t.locales.length) {
+          Object.assign(t, { screen: null, screenLevels: [], screenInstructions: {}, screenReason: 'the template ships in no language', verdict: 'interactive' });
+          report.push(`   ${t.id}: no declared screen — the template ships in no language`);
+          n++; counts[t.verdict] = (counts[t.verdict] || 0) + 1;
+          continue;
+        }
+        for (const loc of t.locales) {
+          instr[loc] = {};
+          for (const d of t.levels) {
+            const s = resolveStrings(t.id, loc, type);
+            const fam = INTERACTIVE[type.exerciseType];
+            const key = typeof type.interactive.instructionKey === 'function' ? type.interactive.instructionKey(d, type) : type.interactive.instructionKey;
+            const text = (s && s.screenInstruction) || (fam && fam[key] && fam[key][loc]);
+            if (!text) throw new Error(t.id + ': no screen instruction ' + type.exerciseType + '.' + key + ' for ' + loc);
+            instr[loc][d] = text;
+          }
+        }
+        const levels = [], reasons = [], paths = {};
+        const loc0 = t.locales.includes('en') ? 'en' : t.locales[0];
+        if (!runtime.screen.DECLARED_KINDS.has(type.interactive.kind)) reasons.push('the ' + type.interactive.kind + ' screen is built with its maker (picture capture)');
+        else for (const d of t.levels) {
+          // copy 1 (at level 2 the published face) AND copy 2 (a teacher's new page): both must yield a screen
+          const s = withLevelInstruction(resolveStrings(t.id, loc0, type), t.id, d, loc0);
+          const theme = t.themed ? t.themes[0] : null;
+          const unit = t.units && t.units[loc0] && t.units[loc0][0] ? t.units[loc0][0].id : null;
+          try {
+            const got = [];
+            for (const variant of [1, 2]) got.push((await runtime.screenFor({ type, strings: s, locale: loc0, difficulty: d, theme, unit, variant, tpl: { ...t, screenInstructions: instr }, runtimeStrings: shared.runtimeStrings[loc0], marksInstructions: shared.screenInstructions[loc0] }, mount)).path);
+            levels.push(d); paths[d] = got;
+          } catch (e) { reasons.push('L' + d + ': ' + (e.reasons ? e.reasons.join('; ') : e.message)); }
+        }
+        Object.assign(t, { screen: levels.length ? 'declared' : null, screenLevels: levels, screenPaths: paths, screenInstructions: instr, screenReason: levels.length === t.levels.length ? null : reasons.join(' | '), verdict: 'interactive' });
+        if (!levels.length) report.push(`   ${t.id}: no declared screen — ${reasons.join(' | ').slice(0, 220)}`);
+        else if (levels.length < t.levels.length) report.push(`   ${t.id}: declared screen on levels ${levels.join(',')} only — ${reasons.join(' | ').slice(0, 160)}`);
       } else if (paper) {
         Object.assign(t, { screen: null, screenLevels: [], screenReason: paper.reason, verdict: paper.verdict });
       } else {

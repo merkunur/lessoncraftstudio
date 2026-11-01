@@ -45,7 +45,7 @@ const lineCount = () => {
   const set = (q) => new Promise((r) => http.get(`${base}/__dev/access?${q}`, (res) => { res.resume(); res.on('end', r); }));
   await set('as=sub&made=0&downloaded=0');
   const makers = MP.builtMakers(A.makers);
-  const m = await new MP.Mounter().open();   // the independent Node-side check
+  const m = await new MP.Mounter({ base }).open();   // the independent Node-side check (pictures from the gate's own server)
   const puppeteer = require(path.join(MP.REPO, 'node_modules', 'puppeteer'));
   const browser = await puppeteer.launch();
   const p = await browser.newPage();
@@ -158,6 +158,9 @@ const lineCount = () => {
           for (const d of t.levels) {
             const o = { type, strings: M.stringsFor(t.id, d), locale: M.LANG, difficulty: d, theme: t.themed ? t.themes[sample % t.themes.length] : null, unit: units.length ? units[sample % units.length].id : null, variant: 1 + sample, answerKey: false, answerKeySuffix: M.tj.answerKey[M.LANG] };
             const b = await M.mod.generate(o, M.mount);
+            // the CONTENT is the same apart from the swapped picture's own name (a card may record its noun: K-002 cards carry
+            // {count, noun, choices} — the counts and choices must not move, the noun does by design)
+            const sameBut = (m1, k1, m0, k0) => JSON.stringify(m1).split(JSON.stringify(k1)).join('"§"') === JSON.stringify(m0).split(JSON.stringify(k0)).join('"§"');
             if (!b.ok) { out.push({ id: t.id, d, role: '-', base: false }); continue; }
             for (const role of Object.keys(b.slots || {})) {
               const s = b.slots[role];
@@ -166,7 +169,7 @@ const lineCount = () => {
               const rows = [];
               for (const key of keys) {
                 const r = await M.mod.generate({ ...o, overrides: { [role]: { 0: key } } }, M.mount);
-                rows.push({ key, ok: r.ok, applied: r.ok && r.slots && r.slots[role] && r.slots[role].values[0] === key, others: r.ok ? JSON.stringify(r.slots[role].values.slice(1)) === JSON.stringify(s.values.slice(1)) : null, sameMeta: r.ok ? JSON.stringify(r.meta) === JSON.stringify(b.meta) : null, changed: r.ok ? r.html !== b.html : null, retried: r.ok ? !!(r.attempt && r.attempt.seedVariant) : null, html: r.ok ? r.html : null, why: r.ok ? null : (r.fails || [])[0] });
+                rows.push({ key, ok: r.ok, applied: r.ok && r.slots && r.slots[role] && r.slots[role].values[0] === key, others: r.ok ? JSON.stringify(r.slots[role].values.slice(1)) === JSON.stringify(s.values.slice(1)) : null, sameMeta: r.ok ? sameBut(r.meta, key, b.meta, s.values[0]) : null, changed: r.ok ? r.html !== b.html : null, retried: r.ok ? !!(r.attempt && r.attempt.seedVariant) : null, html: r.ok ? r.html : null, why: r.ok ? null : (r.fails || [])[0] });
               }
               const dup = s.values.length > 1 ? await M.mod.generate({ ...o, overrides: { [role]: { 0: s.values[1] } } }, M.mount) : null;
               const outside = await M.mod.generate({ ...o, overrides: { [role]: { 0: '__not_in_pool__' } } }, M.mount);

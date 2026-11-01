@@ -1,0 +1,189 @@
+{
+ "id": "wave-mon-fi",
+ "_note": "2026-11-01 coins at their real sizes; which purse has more: the two no-counting picks balanced on every page: pinned re-generation of the live G1-232/G1-230 pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file.",
+ "indexable": false,
+ "interactive": true,
+ "seedEpoch": 1,
+ "locales": [
+  "fi"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  1,
+  2,
+  3
+ ],
+ "types": [
+  "G1-232",
+  "G1-230"
+ ],
+ "levels": {
+  "G1-232": {
+   "1": [
+    {
+     "copy": 7,
+     "unit": null,
+     "seedVariant": 1
+    },
+    {
+     "copy": 8,
+     "unit": null,
+     "seedVariant": 2
+    },
+    {
+     "copy": 9,
+     "unit": null,
+     "seedVariant": 3
+    },
+    {
+     "copy": 10,
+     "unit": null,
+     "seedVariant": 4
+    },
+    {
+     "copy": 11,
+     "unit": null,
+     "seedVariant": 5
+    }
+   ],
+   "2": [
+    {
+     "copy": 2,
+     "unit": null,
+     "seedVariant": 2
+    },
+    {
+     "copy": 3,
+     "unit": null,
+     "seedVariant": 3
+    },
+    {
+     "copy": 4,
+     "unit": null,
+     "seedVariant": 4
+    },
+    {
+     "copy": 5,
+     "unit": null,
+     "seedVariant": 5
+    },
+    {
+     "copy": 6,
+     "unit": null,
+     "seedVariant": 6
+    }
+   ],
+   "3": [
+    {
+     "copy": 12,
+     "unit": null,
+     "seedVariant": 1
+    },
+    {
+     "copy": 13,
+     "unit": null,
+     "seedVariant": 2
+    },
+    {
+     "copy": 14,
+     "unit": null,
+     "seedVariant": 3
+    },
+    {
+     "copy": 15,
+     "unit": null,
+     "seedVariant": 4
+    },
+    {
+     "copy": 16,
+     "unit": null,
+     "seedVariant": 5
+    }
+   ]
+  },
+  "G1-230": {
+   "1": [
+    {
+     "copy": 7,
+     "unit": null,
+     "seedVariant": 1
+    },
+    {
+     "copy": 8,
+     "unit": null,
+     "seedVariant": 2
+    },
+    {
+     "copy": 9,
+     "unit": null,
+     "seedVariant": 4
+    },
+    {
+     "copy": 10,
+     "unit": null,
+     "seedVariant": 6
+    },
+    {
+     "copy": 11,
+     "unit": null,
+     "seedVariant": 10
+    }
+   ],
+   "2": [
+    {
+     "copy": 2,
+     "unit": null,
+     "seedVariant": 2
+    },
+    {
+     "copy": 3,
+     "unit": null,
+     "seedVariant": 3
+    },
+    {
+     "copy": 4,
+     "unit": null,
+     "seedVariant": 4
+    },
+    {
+     "copy": 5,
+     "unit": null,
+     "seedVariant": 5
+    },
+    {
+     "copy": 6,
+     "unit": null,
+     "seedVariant": 6
+    }
+   ],
+   "3": [
+    {
+     "copy": 12,
+     "unit": null,
+     "seedVariant": 1
+    },
+    {
+     "copy": 13,
+     "unit": null,
+     "seedVariant": 2
+    },
+    {
+     "copy": 14,
+     "unit": null,
+     "seedVariant": 3
+    },
+    {
+     "copy": 15,
+     "unit": null,
+     "seedVariant": 4
+    },
+    {
+     "copy": 16,
+     "unit": null,
+     "seedVariant": 5
+    }
+   ]
+  }
+ }
+}

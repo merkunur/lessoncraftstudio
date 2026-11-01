@@ -826,7 +826,7 @@
   },
   "G3-353": {
     "title": "Clasifica en dos círculos",
-    "instruction": "Izquierda: esta clase. Derecha: los GRANDES. Medio: ¡los dos! Ninguno: afuera. Une cada dibujo a su lugar."
+    "instruction": "Escribe cada número en su lugar: en el círculo de la izquierda, lo que está arriba; en el de la derecha, los dibujos grandes; en el centro, los que van en los dos; y en el recuadro, fuera de los círculos, los que no van en ninguno."
   },
   "K-201": {
     "title": "Seres vivos y no vivos",
@@ -3677,5 +3677,41 @@
   "G3-473": {
     "title": "Balanzas con figuras",
     "instruction": "Las balanzas están equilibradas. Descubre cuánto pesa cada figura y escríbelo en su cuadro."
+  },
+  "K-461": {
+    "title": "¿Qué moneda es?",
+    "instruction": "Une cada moneda con su valor."
+  },
+  "G2-471": {
+    "title": "La menor cantidad de monedas",
+    "instruction": "Forma cada cantidad con el menor número de monedas posible. Escribe cuántas monedas de cada tipo necesitas."
+  },
+  "G2-472": {
+    "title": "Paga el precio exacto",
+    "instruction": "Encierra monedas que sumen exactamente el precio."
+  },
+  "G2-473": {
+    "title": "La misma cantidad, otras monedas",
+    "instruction": "Une cada monedero de la izquierda con el monedero de la derecha que tiene la misma cantidad de dinero."
+  },
+  "G3-474": {
+    "title": "Cuenta billetes y monedas",
+    "instruction": "Cuenta los billetes y las monedas. Escribe el total."
+  },
+  "G1-473": {
+    "title": "La tiendita: etiquetas de precio y dinero de juguete",
+    "instruction": "Recorta las etiquetas de precio y el dinero de juguete. ¡Jueguen a la tiendita!"
+  },
+  "G1-474": {
+    "title": "Sumas con palabra secreta",
+    "instruction": "Suma los dibujos de cada fila y escribe el resultado. Busca ese número en la clave y escribe su letra en el cuadro con el número de la fila para descubrir la palabra secreta."
+  },
+  "G1-475": {
+    "title": "Resuelve y arma el dibujo",
+    "instruction": "Resuelve cada operación. Recorta las piezas y pega cada una sobre la operación cuyo resultado es su número. Las piezas forman un dibujo."
+  },
+  "G1-476": {
+    "title": "Detective de números",
+    "instruction": "Los números secretos van del 1 al {MAX}. Lee las pistas y escribe el número que cumple con todas."
   }
 }

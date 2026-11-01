@@ -273,7 +273,7 @@ function countBadge(n) {
 /* ---------- shop shelf (G2-276) ---------- */
 function shelf({ items, w = 640, iconPx = 76, tagPx = 17 }) {
   const cells = items.map((it, i) =>
-    `<div class="ws-shelfitem" data-lcs-shelfitem="${i}" data-lcs-price="${it.price}">` +
+    `<div class="ws-shelfitem" data-lcs-shelfitem="${i}" data-lcs-price="${it.price}"${it.slotAttr || ''}>` +
     `<img class="ws-icon" src="${it.src}" alt="" style="width:${iconPx}px;height:${iconPx}px" data-lcs-shelf-img="${i}">` +
     `<div class="ws-shelf-tag">${priceTag({ value: it.price, unit: it.unit, fontPx: tagPx })}</div></div>`).join('');
   const plank = svgRoot({ width: w, height: 22, label: 'shelf' },
@@ -307,14 +307,17 @@ function mirrorGroups({ src, n, iconPx = 40, gap = 6, perRow = 3 }) {
   const rows = [];
   let left = n;
   while (left > 0) { const take = Math.min(perRow, left); rows.push(take); left -= take; }
-  const group = (tag) => `<div style="display:flex;flex-direction:column;gap:${gap}px;align-items:center" ${tag}>` +
-    rows.map((take) => `<div style="display:flex;gap:${gap}px">${Array.from({ length: take }, () => `<img class="ws-icon" src="${src}" alt="" style="width:${iconPx}px;height:${iconPx}px">`).join('')}</div>`).join('') + `</div>`;
+  // the mirror line never shrinks; the pictures do, when two groups of perRow do not fit the panel (2026-11-01: at 5 a
+  // row the groups were 4 px too wide, flexbox squeezed the 14 px line to nothing and the pictures onto the frame — the
+  // published doubles page lost its mirror line on every card). Where they fit, nothing changes size.
+  const group = (tag) => `<div style="display:flex;flex-direction:column;gap:${gap}px;align-items:stretch;min-width:0" ${tag}>` +
+    rows.map((take) => `<div style="display:flex;gap:${gap}px;min-width:0;justify-content:center">${Array.from({ length: take }, () => `<img class="ws-icon" src="${src}" alt="" style="width:${iconPx}px;height:auto;aspect-ratio:1;min-width:0;flex:0 1 auto">`).join('')}</div>`).join('') + `</div>`;
   const lineH = Math.max(rows.length * (iconPx + gap), iconPx + 24);
   const mirrorLine = svgRoot({ width: 14, height: lineH, label: 'mirror' },
     line({ x1: 7, y1: 4, x2: 7, y2: lineH - 4, strokeColor: T.teal, strokeWidth: 2.5, dash: '7 5' }) +
-    circle({ cx: 7, cy: 4, r: 3.5, fill: T.teal }) + circle({ cx: 7, cy: lineH - 4, r: 3.5, fill: T.teal }), { 'aria-hidden': 'true' });
-  return `<div style="display:flex;align-items:center;gap:8px;justify-content:center">${group('data-lcs-g1')}${mirrorLine}` +
-    `<div style="transform:scaleX(-1)" data-lcs-g2 data-lcs-mirror="1">${group('')}</div></div>`;
+    circle({ cx: 7, cy: 4, r: 3.5, fill: T.teal }) + circle({ cx: 7, cy: lineH - 4, r: 3.5, fill: T.teal }), { 'aria-hidden': 'true', style: 'flex:0 0 auto' });
+  return `<div style="display:flex;align-items:center;gap:8px;justify-content:center;min-width:0">${group('data-lcs-g1')}${mirrorLine}` +
+    `<div style="transform:scaleX(-1);min-width:0" data-lcs-g2 data-lcs-mirror="1">${group('')}</div></div>`;
 }
 
 module.exports = {

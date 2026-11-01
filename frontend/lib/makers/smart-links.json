@@ -23,7 +23,7 @@
   },
   "code-addition": {
    "maker": "logic-puzzles",
-   "template": null
+   "template": "G1-474"
   },
   "coloring": {
    "maker": "coloring-pages",
@@ -63,7 +63,7 @@
   },
   "math-puzzle": {
    "maker": "logic-puzzles",
-   "template": null
+   "template": "G1-475"
   },
   "math-worksheet": {
    "maker": "addition-subtraction",
@@ -111,7 +111,7 @@
   },
   "sudoku": {
    "maker": "logic-puzzles",
-   "template": null
+   "template": "G1-471"
   },
   "treasure-hunt": {
    "maker": "maps-grids",

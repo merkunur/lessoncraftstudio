@@ -55,13 +55,22 @@ function derive() {
   if (bins.length || drops.length) {
     if (bins.length < 2 || !drops.length) errors.push('place: ' + bins.length + ' bins and ' + drops.length + ' drop targets (need ≥ 2 bins and ≥ 1 target)');
     else {
-      const items = drops.map((el, i) => { const a = el.getAttribute('data-lcs-answer'); if (!a) errors.push('place: a drop target without data-lcs-answer'); seen.add(el); return { ...box(el), answer: a, label: label(el, String(i + 1)), meta: {} }; });
-      const bs = bins.map((el, i) => ({ ...box(el), id: el.getAttribute('data-lcs-bin'), label: label(el, String(i + 1)), html: el.querySelector('img,svg') ? el.innerHTML : '' }));
+      // a drop inside [data-lcs-colour-count] (K-454, 2026-11-01) belongs to a COUNTED group: the group is right when it
+      // holds that many of each bin, wherever they sit (its own answer is the key's placeholder)
+      const groups = q('[data-lcs-colour-count]');
+      const items = drops.map((el, i) => {
+        const a = el.getAttribute('data-lcs-answer'); if (!a) errors.push('place: a drop target without data-lcs-answer'); seen.add(el);
+        const g = el.closest('[data-lcs-colour-count]');
+        return { ...box(el), answer: a, label: label(el, String(i + 1)), meta: g ? { 'data-lcs-cgroup': String(groups.indexOf(g)), 'data-lcs-colour-count': g.getAttribute('data-lcs-colour-count') } : {} };
+      });
+      const bs = bins.map((el, i) => ({ ...box(el), id: el.getAttribute('data-lcs-bin'), label: label(el, String(i + 1)), html: el.querySelector('img,svg') ? el.innerHTML : '', ...(el.hasAttribute('data-lcs-fill') ? { fill: el.getAttribute('data-lcs-fill') } : {}) }));
       parts.push({ cls: 'place', items, bins: bs, dom: Math.min(...items.map((it) => it.dom)) });
     }
   }
   // 2. type: write boxes and answer cells
-  const typeEls = q('[data-lcs-answer]').filter((el) => !seen.has(el) && !el.hasAttribute('data-lcs-drop') && !el.hasAttribute('data-lcs-given') && el.getAttribute('data-lcs-answer') !== '' && !el.children.length && !txt(el));
+  // data-lcs-optional (2026-11-01, G1-447 find the mistakes): a box the child may leave empty — its answer '' means "right
+  // when left empty" (a correct sum needs no correction); every box of such a page is optional, so none tells
+  const typeEls = q('[data-lcs-answer]').filter((el) => !seen.has(el) && !el.hasAttribute('data-lcs-drop') && !el.hasAttribute('data-lcs-given') && (el.getAttribute('data-lcs-answer') !== '' || el.hasAttribute('data-lcs-optional')) && !el.children.length && !txt(el));
   q('svg[data-lcs-prim="hundreds-chart"] rect[data-lcs-missing]').forEach((el) => typeEls.push(el));
   if (typeEls.length) {
     const items = typeEls.map((el, i) => {
@@ -69,7 +78,10 @@ function derive() {
       const shown = el.hasAttribute('data-lcs-missing') ? el.getAttribute('data-lcs-missing') : el.getAttribute('data-lcs-answer');
       const typed = el.getAttribute('data-lcs-typed') || shown;
       const meta = {};
-      ['data-lcs-alts', 'data-lcs-range', 'data-lcs-set'].forEach((a) => { if (el.hasAttribute(a)) meta[a] = el.getAttribute(a); });
+      ['data-lcs-alts', 'data-lcs-range', 'data-lcs-set', 'data-lcs-optional', 'data-lcs-decimal'].forEach((a) => { if (el.hasAttribute(a)) meta[a] = el.getAttribute(a); });
+      // a decimal money box (data-lcs-decimal = the separator, 2026-11-01): the written amount travels for grading
+      if (meta['data-lcs-decimal'] != null) meta['data-lcs-typed'] = typed;
+      if (meta['data-lcs-optional'] != null && typed === '') meta['data-lcs-blank'] = '1';
       return { ...box(el), answer: typed, shown, label: el.getAttribute('data-lcs-label') || cardNo(el) || String(i + 1), meta };
     });
     items.sort((a, b) => a.dom - b.dom);
@@ -80,10 +92,15 @@ function derive() {
   const selectItems = [];
   const wantOf = (el) => { const w = el.closest('[data-lcs-want]'); return w ? w.getAttribute('data-lcs-want') : null; };
   const groupOf = (el) => { if (el.hasAttribute('data-lcs-group')) return el.getAttribute('data-lcs-group'); const w = el.closest('[data-lcs-want]'); return w ? 'w' + domIndex.get(w) : null; };
+  // a pick inside [data-lcs-sum] (Money "make the amount", 2026-11-01) belongs to a SUM group: the group is right when the
+  // values (data-lcs-value) of the picks the child takes add up to the sum — any coins that make the price
+  const sums = q('[data-lcs-sum]');
   picks.forEach((el, i) => {
     seen.add(el);
-    const want = wantOf(el);
-    selectItems.push({ ...box(el), answer: el.hasAttribute('data-lcs-key-ring') || el.hasAttribute('data-lcs-correct'), label: label(el, String(i + 1)), meta: want != null ? { 'data-lcs-group': groupOf(el), 'data-lcs-want': want } : {} });
+    const want = wantOf(el), sg = el.closest('[data-lcs-sum]');
+    const meta = sg ? { 'data-lcs-sumgroup': String(sums.indexOf(sg)), 'data-lcs-sum': sg.getAttribute('data-lcs-sum'), 'data-lcs-value': el.getAttribute('data-lcs-value') } : want != null ? { 'data-lcs-group': groupOf(el), 'data-lcs-want': want } : {};
+    if (sg && !/^\d+$/.test(String(el.getAttribute('data-lcs-value')))) errors.push('select: a pick of a sum group without a whole-number data-lcs-value');
+    selectItems.push({ ...box(el), answer: el.hasAttribute('data-lcs-key-ring') || el.hasAttribute('data-lcs-correct'), label: label(el, String(i + 1)), meta });
   });
   const choiceItems = [];
   q('[data-lcs-correct]').forEach((el) => {
@@ -116,8 +133,10 @@ function derive() {
   if (selectItems.length) {
     selectItems.sort((a, b) => a.dom - b.dom);
     const grouped = selectItems.filter((it) => it.meta['data-lcs-want'] != null).length;
+    const summed = selectItems.filter((it) => it.meta['data-lcs-sumgroup'] != null).length;
     if (grouped && grouped !== selectItems.length) errors.push('select: some candidates carry a want (any N) and some do not');
-    parts.push({ cls: 'select', items: selectItems, countGroups: grouped > 0, dom: selectItems[0].dom });
+    if (summed && summed !== selectItems.length) errors.push('select: some candidates belong to a sum group and some do not');
+    parts.push({ cls: 'select', items: selectItems, countGroups: grouped > 0, sumGroups: summed > 0, dom: selectItems[0].dom });
   }
   // 4. pair: badge items + pair targets
   const badges = q('[data-lcs-key-badge]').filter((el) => !seen.has(el)), targets = q('[data-lcs-pair]');
@@ -147,17 +166,24 @@ function plan(model, { locale }) {
   for (const p of model.parts || []) {
     if (p.cls === 'type') {
       const isInt = (s) => /^\d+$/.test(String(s));
-      const numeric = p.items.every((it) => (isInt(it.answer) && !it.meta['data-lcs-alts']) || it.meta['data-lcs-range'] || it.meta['data-lcs-set']);
+      const dec = (it) => it.meta['data-lcs-decimal'] != null;
+      const decOk = (it) => dec(it) && String(it.answer).split(it.meta['data-lcs-decimal']).length === 2 && /^\d+$/.test(String(it.answer).split(it.meta['data-lcs-decimal']).join(''));
+      const numeric = p.items.every((it) => (isInt(it.answer) && !it.meta['data-lcs-alts']) || it.meta['data-lcs-range'] || it.meta['data-lcs-set'] || it.meta['data-lcs-blank'] || decOk(it)) && p.items.some((it) => !it.meta['data-lcs-blank']);
+      const seps = [...new Set(p.items.filter(dec).map((it) => it.meta['data-lcs-decimal']))];
+      if (seps.length > 1) errors.push('type: decimal boxes with two separators (' + seps.join(' ') + ')');
+      if (p.items.some((it) => dec(it) && !decOk(it))) errors.push('type: a decimal box whose answer is not digits + one separator');
       if (numeric) {
-        const digits = Math.max(...p.items.map((it) => it.meta['data-lcs-range'] ? Math.max(...String(it.meta['data-lcs-range']).split('-').map((x) => x.length)) : String(it.answer).length), 1);
+        const digits = Math.max(...p.items.map((it) => it.meta['data-lcs-range'] ? Math.max(...String(it.meta['data-lcs-range']).split('-').map((x) => x.length)) : dec(it) ? String(it.answer).length - 1 : String(it.answer).length), 1);
         ctx.maxDigits = Math.min(4, Math.max(1, digits));
         ctx.pad = 'digits';
+        if (seps.length) ctx.sep = seps[0];   // the digit pad gains the separator key (every decimal box needs it: no tell)
         // a set box ("-" = a spare space) and a range box carry their truth in the meta; the answer is a placeholder
         const sets = {};
         for (const it of p.items) if (it.meta['data-lcs-set'] && isInt(it.answer)) (sets[it.meta['data-lcs-set']] = sets[it.meta['data-lcs-set']] || []).push(parseInt(it.answer, 10));
         if (Object.keys(sets).length) ctx.sets = sets;
         for (const it of p.items) if (it.meta['data-lcs-set'] && !sets[it.meta['data-lcs-set']]) errors.push('type: the set ' + it.meta['data-lcs-set'] + ' has no numbers');
-        const ans = (it) => (it.meta['data-lcs-set'] ? 0 : it.meta['data-lcs-range'] ? (parseInt(String(it.meta['data-lcs-range']).split('-')[0], 10) || 0) : parseInt(it.answer, 10));
+        // a set / blank box carries its truth in the meta: its answer is a placeholder
+        const ans = (it) => (it.meta['data-lcs-set'] || it.meta['data-lcs-blank'] ? 0 : it.meta['data-lcs-range'] ? (parseInt(String(it.meta['data-lcs-range']).split('-')[0], 10) || 0) : dec(it) ? parseInt(String(it.answer).split(it.meta['data-lcs-decimal']).join(''), 10) : parseInt(it.answer, 10));
         parts.push({ cls: 'type', num: true, items: p.items.map((it) => ({ x: it.x, y: it.y, w: it.w, h: it.h, answer: ans(it), label: it.label, meta: it.meta })) });
       } else {
         const words = p.items.flatMap((it) => [String(it.answer), ...String(it.meta['data-lcs-alts'] || '').split('|').filter(Boolean)]);
@@ -176,10 +202,27 @@ function plan(model, { locale }) {
       // "any N of M" groups are graded by count: the per-item answer is a convention (the first N of each group), so the
       // runtime's rule "something to find, something to leave" holds for the group as the key's rings do
       const seen = {};
-      parts.push({ cls: 'select', countGroups: p.countGroups, items: p.items.map((it) => { let a = it.answer; if (p.countGroups) { const g = it.meta['data-lcs-group']; seen[g] = (seen[g] || 0) + 1; a = seen[g] <= Number(it.meta['data-lcs-want']); } return { x: it.x, y: it.y, w: it.w, h: it.h, answer: a, label: it.label, meta: it.meta }; }) });
+      // a sum group's key coins must make its sum (the key's own combination is one right answer)
+      if (p.sumGroups) {
+        const by = {};
+        for (const it of p.items) { const g = it.meta['data-lcs-sumgroup']; by[g] = by[g] || { sum: Number(it.meta['data-lcs-sum']), key: 0, all: 0 }; by[g].all += Number(it.meta['data-lcs-value']); if (it.answer) by[g].key += Number(it.meta['data-lcs-value']); }
+        for (const [g, v] of Object.entries(by)) { if (v.key !== v.sum) errors.push('select: sum group ' + g + ' — the key coins make ' + v.key + ', not ' + v.sum); if (v.all === v.sum) errors.push('select: sum group ' + g + ' — every candidate together is the sum'); }
+      }
+      parts.push({ cls: 'select', countGroups: p.countGroups, ...(p.sumGroups ? { sumGroups: true } : {}), items: p.items.map((it) => { let a = it.answer; if (p.countGroups) { const g = it.meta['data-lcs-group']; seen[g] = (seen[g] || 0) + 1; a = seen[g] <= Number(it.meta['data-lcs-want']); } return { x: it.x, y: it.y, w: it.w, h: it.h, answer: a, label: it.label, meta: it.meta }; }) });
     }
     else if (p.cls === 'pair') parts.push({ cls: 'pair', mutual: p.mutual, items: p.items.map((it) => ({ x: it.x, y: it.y, w: it.w, h: it.h, id: it.id, answer: it.answer, label: it.label, meta: {} })), targets: p.targets.map((t) => ({ x: t.x, y: t.y, w: t.w, h: t.h, id: t.id, label: t.label })) });
-    else if (p.cls === 'place') parts.push({ cls: 'place', items: p.items.map((it) => ({ x: it.x, y: it.y, w: it.w, h: it.h, answer: it.answer, label: it.label, meta: {} })), bins: p.bins.map((b) => ({ x: b.x, y: b.y, w: b.w, h: b.h, id: b.id, label: b.label, ...(b.html ? { html: b.html } : {}) })) });
+    else if (p.cls === 'place') {
+      // a counted group's counts must name bins of the page and add up to the group's targets
+      const cg = {};
+      for (const it of p.items) if (it.meta['data-lcs-cgroup'] != null) { const g = it.meta['data-lcs-cgroup']; (cg[g] = cg[g] || { n: 0, spec: it.meta['data-lcs-colour-count'] }).n++; }
+      const binIds = new Set(p.bins.map((b) => String(b.id)));
+      for (const [g, v] of Object.entries(cg)) {
+        const pairs = String(v.spec).split(',').map((x) => x.split(':'));
+        if (pairs.some(([id, n]) => !binIds.has(id) || !/^\d+$/.test(n))) errors.push('place: counted group ' + g + ' names ' + v.spec);
+        else if (pairs.reduce((s, [, n]) => s + Number(n), 0) !== v.n) errors.push('place: counted group ' + g + ' wants ' + v.spec + ' of ' + v.n + ' targets');
+      }
+      parts.push({ cls: 'place', items: p.items.map((it) => ({ x: it.x, y: it.y, w: it.w, h: it.h, answer: it.answer, label: it.label, meta: it.meta || {} })), bins: p.bins.map((b) => ({ x: b.x, y: b.y, w: b.w, h: b.h, id: b.id, label: b.label, ...(b.html ? { html: b.html } : {}), ...(b.fill ? { fill: b.fill } : {}) })) });
+    }
   }
   if (errors.length) { const e = new Error('screen: ' + errors.join('; ')); e.reasons = errors; throw e; }
   // the kind validators of the runtime (every part through its own rules), on a throwaway build
@@ -238,10 +281,162 @@ async function buildScreen(o) {
   return { html: screenDocument({ html: o.html, locale: o.locale, strings: o.strings, instruction, plan: pl }), plan: pl, model, instruction };
 }
 
+/* ---------- DECLARED screens (2026-11-01): a template whose module declares `interactive` ---------- */
+
+/** the declared kinds the maker builds in the browser (paint / trace / lanes need the catalogue's picture capture: later) */
+const DECLARED_KINDS = new Set(['tap-choice', 'tap-select', 'type-number', 'type-word', 'tap-spell', 'tap-place', 'mark-grid', 'set-clock']);
+
+/**
+ * Runs INSIDE the declared screen build of the page (serialised: self-contained). The capture of
+ * worksheet-gen/render/render-instance.js, generalised to the page in the student's browser: the same selectors, the
+ * same crop (just below the lowest item, + 36 px; [data-lcs-keep] rows kept) and every rect in % of that crop.
+ * @param {object} sp the spec's serialisable fields { kind, item, slot, option, tile, metaAttrs, answerAttr, labelAttr, picks }
+ */
+function deriveDeclared(sp) {
+  const D = document;
+  const page = D.querySelector('[data-lcs-page]');
+  if (!page) return { errors: ['no [data-lcs-page]'] };
+  const full = page.getBoundingClientRect();
+  const meta = (el, attrs) => { const m = {}; (attrs || []).forEach((a) => { m[a] = el.getAttribute(a); }); return m; };
+  const cropTo = (els) => {
+    const lowest = Math.max(...els.map((el) => el.getBoundingClientRect().bottom));
+    return { left: full.left, top: full.top, width: full.width, height: Math.min(full.height, lowest - full.top + 36) };
+  };
+  const boxIn = (pg) => (r) => ({ x: ((r.left - pg.left) / pg.width) * 100, y: ((r.top - pg.top) / pg.height) * 100, w: (r.width / pg.width) * 100, h: (r.height / pg.height) * 100 });
+  if (sp.kind === 'mark-grid') {
+    const grids = [...D.querySelectorAll('[data-lcs-grid]')];
+    if (!grids.length) return { errors: ['mark-grid: no grid on the page'] };
+    const pg = cropTo(grids), box = boxIn(pg);
+    const cells = [], items = [], cases = [];
+    for (const sec of D.querySelectorAll('section[data-lcs-puzzle]')) {
+      const p = sec.getAttribute('data-lcs-puzzle'), n = +sec.getAttribute('data-lcs-size');
+      const clues = JSON.parse(sec.getAttribute('data-lcs-clues'));
+      const sol = sec.getAttribute('data-lcs-solution');
+      const names = JSON.parse(sec.getAttribute('data-lcs-forms')).map((f) => f.nom);
+      const grid = sec.querySelector('[data-lcs-grid]');
+      const two = grid.hasAttribute('data-lcs-lgrid');
+      const alt = (sel) => { const im = grid.querySelector(sel); return im ? im.getAttribute('alt') || '' : ''; };
+      cases.push(two ? { g: 'two', mode: 'two', n, clues } : { g: p, mode: 'one', n, clues });
+      const answers = {};
+      if (two) sol.split(';').forEach((part) => { const [g, v] = part.split(':'); answers[g] = v.split(',').map(Number); });
+      else answers[p] = sol.split(',').map(Number);
+      for (const rect of grid.querySelectorAll('rect[data-lcs-cell]')) {
+        const id = rect.getAttribute('data-lcs-cell').split(':');
+        const g = id[0], r = +id[1], c = +id[2];
+        const rowLabel = g === 'pc' ? alt('[data-lcs-rowpic="' + r + '"]') : names[r];
+        const colLabel = alt('[data-lcs-col="' + (g === 'nc' ? n + c : c) + '"]');
+        cells.push({ ...box(rect.getBoundingClientRect()), g, r, c, label: rowLabel + ' — ' + colLabel });
+      }
+      for (const g of Object.keys(answers)) answers[g].forEach((col, r) => items.push({ label: names[r], meta: { 'data-lcs-row': g + ':' + r }, answer: col }));
+    }
+    if (!cells.length || !items.length) return { errors: ['mark-grid: no grid cells'] };
+    return { errors: [], items, grid: { cells, cases }, crop: pg.height, width: pg.width };
+  }
+  const els = [...D.querySelectorAll(sp.item)];
+  if (!els.length) return { errors: ['no item matches ' + sp.item] };
+  if (sp.kind === 'set-clock') {
+    const pg = cropTo(els);
+    const items = els.map((el) => {
+      const svg = el.querySelector('svg[data-lcs-prim="clock"]'), r = svg.getBoundingClientRect(), rf = +el.getAttribute('data-lcs-rf');
+      return { cx: ((r.left + r.width / 2 - pg.left) / pg.width) * 100, cy: ((r.top + r.height / 2 - pg.top) / pg.height) * 100, r: (rf * r.width / pg.width) * 100,
+        answer: el.getAttribute('data-lcs-tq'), label: el.getAttribute('data-lcs-tq'), meta: { 'data-lcs-tq': el.getAttribute('data-lcs-tq'), 'data-lcs-step': el.getAttribute('data-lcs-step') } };
+    });
+    if (items.some((it) => !(it.r > 0))) return { errors: ['set-clock: a clock face without a measurable radius'] };
+    return { errors: [], items, aspect: pg.width / pg.height, crop: pg.height, width: pg.width };
+  }
+  const pg = cropTo([...D.querySelectorAll(sp.item + ', [data-lcs-keep]')]), box = boxIn(pg);
+  const items = els.map((el) => {
+    const r = el.getBoundingClientRect();
+    if (sp.kind === 'tap-spell') {
+      return { ...box(r), answer: el.getAttribute(sp.answerAttr) || '', label: el.getAttribute(sp.labelAttr) || '', meta: meta(el, sp.metaAttrs),
+        tiles: [...el.querySelectorAll(sp.tile)].map((t) => ({ ...box(t.getBoundingClientRect()), label: t.getAttribute('data-lcs-label') || t.textContent.trim() })),
+        slots: [...el.querySelectorAll(sp.slot)].map((t) => box(t.getBoundingClientRect())) };
+    }
+    if (sp.kind === 'type-number' || sp.kind === 'type-word') {
+      return { ...box(r), answer: sp.kind === 'type-word' ? (el.getAttribute(sp.answerAttr) || '') : Number(el.getAttribute(sp.answerAttr)), label: el.getAttribute(sp.labelAttr) || '', meta: meta(el, sp.metaAttrs) };
+    }
+    if (sp.kind === 'tap-select') return { ...box(r), answer: el.hasAttribute(sp.answerAttr), label: el.getAttribute(sp.labelAttr) || el.textContent.trim(), meta: meta(el, sp.metaAttrs) };
+    if (sp.option) {
+      const opts = [...el.querySelectorAll(sp.option)];
+      return { ...box(r), options: opts.map((o) => ({ ...box(o.getBoundingClientRect()), label: o.getAttribute('data-lcs-label') || o.textContent.trim() })),
+        answer: opts.findIndex((o) => o.hasAttribute('data-lcs-correct')), label: el.getAttribute('data-lcs-word') || '', meta: meta(el, sp.metaAttrs) };
+    }
+    const slotEl = el.querySelector(sp.slot);
+    const s = slotEl ? slotEl.getBoundingClientRect() : null;
+    const b = box(r);
+    return { x: b.x, y: b.y, w: b.w, h: b.h, sx: s ? box(s).x : NaN, sy: s ? box(s).y : NaN, sw: s ? box(s).w : NaN, sh: s ? box(s).h : NaN,
+      answer: Number(el.getAttribute(sp.answerAttr)), label: el.getAttribute(sp.labelAttr) || '' };
+  });
+  const picks = sp.picks ? [...D.querySelectorAll(sp.picks.group)].map((g) => {
+    const opts = [...g.querySelectorAll(sp.picks.option)];
+    return { options: opts.map((o) => ({ ...box(o.getBoundingClientRect()), label: o.getAttribute('data-lcs-label') || o.textContent.trim() })), answer: opts.findIndex((o) => o.hasAttribute('data-lcs-correct')), meta: meta(g, sp.picks.metaAttrs) };
+  }) : null;
+  return { errors: [], items, ...(picks ? { picks } : {}), crop: pg.height, width: pg.width };
+}
+
+/** the serialisable part of a type's interactive spec (what deriveDeclared reads) */
+function declaredSpec(type) {
+  const s = type.interactive;
+  return { kind: s.kind, item: s.item, slot: s.slot, option: s.option, tile: s.tile, metaAttrs: s.metaAttrs, answerAttr: s.answerAttr, labelAttr: s.labelAttr, picks: s.picks || null };
+}
+
+/** the runtime ctx of a declared screen — the catalogue's (worksheet-gen/cli.js), from the type module and the capture */
+function declaredCtx(type, { theme, difficulty, locale }, got) {
+  const s = type.interactive, lv = type.difficulty && type.difficulty[difficulty];
+  return {
+    theme: theme || null, difficulty, level3: !!(lv && lv.level3),
+    ...(s.ranksFromAnswers ? { ranksFromAnswers: true } : {}),
+    ...(s.countGroups ? { countGroups: true } : {}),
+    ...(typeof s.maxDigits === 'function' ? { maxDigits: s.maxDigits(lv) } : {}),
+    ...(typeof s.wordPad === 'function' ? s.wordPad(lv, locale) : {}),
+    ...(got.clock ? { clock: got.clock } : {}),
+    ...(got.grid ? { grid: got.grid } : {}),
+    ...(got.picks ? { picks: got.picks } : {}),
+    ...(typeof s.screenCtx === 'function' ? s.screenCtx(got.items) : {}),
+  };
+}
+
+/**
+ * The served declared screen: the screen build (marks stripped) cropped to the measured height inside the runtime's
+ * stage, the native instruction above (already the page's instruction), the controls and the pad below, scaled to the
+ * viewport width. The overlay covers exactly the crop, so the capture's % rects land where they were measured.
+ */
+function declaredDocument({ html, rt, crop, width }) {
+  const H = Math.ceil(crop), W = Math.round(width || 703);
+  let out = stripMarks(html);
+  const open = '<div class="ws-page" data-lcs-page>';
+  if (!out.includes(open) || !out.includes('\n</body>')) throw new Error('screen: the page html has no [data-lcs-page] / body end');
+  const css = SCREEN_CSS.replace(/703px/g, W + 'px').replace('height:945px', 'height:' + H + 'px') + '\n#lcs-stage.lcs-crop{height:' + H + 'px;overflow:hidden}';
+  out = out.replace('</head>', '<meta name="viewport" content="width=device-width, initial-scale=1">\n<meta name="robots" content="noindex">\n<style>' + rt.css + '\n' + css + '</style>\n</head>');
+  out = out.replace(open, '<div class="lcs-fit-box"><div class="lcs-fit">' + rt.stageOpen.replace('class="lcs-stage" id="lcs-stage"', 'class="lcs-stage lcs-crop" id="lcs-stage"') + open);
+  out = out.replace('\n</body>', '\n' + rt.stageClose.replace('<div id="lcs-overlay"></div></div>', '<div id="lcs-overlay"></div></div></div></div>') + '\n' + rt.controls.replace('href="__PDF_URL__"', 'href="#" data-lcs-print hidden') + '\n' + rt.script + '\n<script>' + FIT_JS.replace(/703/g, String(W)).replace('945*k', H + '*k') + '</script>\n</body>');
+  return out;
+}
+
+/**
+ * Build a declared screen in the browser (or under puppeteer): mount the declared build, capture, build the runtime.
+ * @param {object} o { html (makePage declaredHtml), type (the template module), theme, difficulty, locale, strings
+ *                     (runtimeStrings of the locale), mount: (html) => Promise<page> }
+ * @returns {Promise<{ html, kind, items, ctx }>} throws with .reasons when the page cannot be a screen
+ */
+async function buildDeclaredScreen(o) {
+  const spec = o.type.interactive;
+  if (!spec || !DECLARED_KINDS.has(spec.kind)) { const e = new Error('screen: declared kind ' + (spec && spec.kind) + ' is not built in the maker'); e.reasons = [e.message]; throw e; }
+  const page = await o.mount(o.html);
+  const got = await page.evaluate(deriveDeclared, declaredSpec(o.type));
+  if (got.errors && got.errors.length) { const e = new Error('screen: ' + got.errors.join('; ')); e.reasons = got.errors; throw e; }
+  if (spec.kind === 'set-clock') got.clock = { aspect: got.aspect, names: spec.clockNames(o.locale) };
+  const ctx = declaredCtx(o.type, { theme: o.theme, difficulty: o.difficulty, locale: o.locale }, got);
+  let rt;
+  try { rt = core.buildInteractive({ kind: spec.kind, locale: o.locale, strings: o.strings, items: got.items, ctx }); }
+  catch (e) { const err = new Error('screen: ' + e.message); err.reasons = [e.message]; throw err; }
+  return { html: declaredDocument({ html: o.html, rt, crop: got.crop, width: got.width }), kind: spec.kind, items: got.items, ctx };
+}
+
 /** which generic instruction a plan needs: 'type' | 'tap-choice' | 'tap-select' | 'tap-pair' | 'tap-place' (the first part decides a mixed page) */
 function instructionKey(pl) {
   const first = pl.parts[0].cls;
   return first === 'type' ? 'type' : first === 'choice' ? 'tap-choice' : first === 'select' ? 'tap-select' : first === 'pair' ? 'tap-pair' : 'tap-place';
 }
 
-module.exports = { derive, plan, stripMarks, screenDocument, buildScreen, instructionKey, ALLOW };
+module.exports = { derive, plan, stripMarks, screenDocument, buildScreen, instructionKey, ALLOW, DECLARED_KINDS, deriveDeclared, declaredSpec, declaredCtx, declaredDocument, buildDeclaredScreen };

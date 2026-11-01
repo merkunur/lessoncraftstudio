@@ -49,7 +49,7 @@ for (const d of live) {
 }
 
 function node(args) { return execFileSync(process.execPath, args, { cwd: WG, encoding: 'utf8', maxBuffer: 256 << 20 }); }
-const dryIds = (f) => node(['cli.js', 'generate', '--wave', f, '--dry-run']).split(/\r?\n/).map((l) => l.trim()).filter((l) => l.startsWith('wsg-'));
+const dryIds = (f) => node(['cli.js', 'generate', '--wave', f, '--dry-run', '--list-all']).split(/\r?\n/).map((l) => l.trim()).filter((l) => l.startsWith('wsg-'));
 
 const failures = [];
 for (const key of Object.keys(groups).sort()) {

@@ -98,7 +98,9 @@ function buildDeclaredScreen(t, type, tj, loc, o) {
 
 /** A puppeteer page that shows html files from a temp dir (file://, pictures allowed) at a viewport. */
 class Mounter {
-  constructor() { this.tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'lcs-mgate-')); this.errors = []; this.n = 0; }
+  /** opts.base: an http origin serving /makers-assets/ (the maker's pictures are root-relative URLs: from a file:// page they
+   *  resolve to C:/makers-assets and read as broken — a gate that runs the maker server passes it) */
+  constructor(opts = {}) { this.tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'lcs-mgate-')); this.errors = []; this.n = 0; this.base = opts.base || null; }
   async open() {
     this.browser = await puppeteer.launch({ args: ['--allow-file-access-from-files'] });
     this.page = await this.browser.newPage();
@@ -109,9 +111,16 @@ class Mounter {
   /** show html; w = viewport width (height follows 1.4×; the catalogue viewport is 703 × 945) */
   async mount(html, w) {
     if (w && this.w !== w) { await this.page.setViewport({ width: w, height: w === 703 ? 945 : Math.round(w * 1.4) }); this.w = w; }
-    const f = path.join(this.tmp, 'p' + (this.n++ % 4) + '.html');
-    fs.writeFileSync(f, html);
-    await this.page.goto('file:///' + f.split(path.sep).join('/'), { waitUntil: 'load' });
+    if (this.base) {
+      // ON the server's origin: root-relative pictures resolve there, and the fonts load (a file:// page fetching an http font is
+      // cross-origin and fails without CORS — the page then measures a fallback font: a 3-line title read as 4)
+      if (!this.atBase) { await this.page.goto(this.base + '/__gate-mount', { waitUntil: 'load' }); this.atBase = true; }
+      await this.page.setContent(String(html), { waitUntil: 'load' });
+    } else {
+      const f = path.join(this.tmp, 'p' + (this.n++ % 4) + '.html');
+      fs.writeFileSync(f, html);
+      await this.page.goto('file:///' + f.split(path.sep).join('/'), { waitUntil: 'load' });
+    }
     await this.page.evaluate(async () => { await document.fonts.ready; await Promise.all([...document.images].map((i) => (i.complete ? null : new Promise((r) => { i.addEventListener('load', r, { once: true }); i.addEventListener('error', r, { once: true }); })))); });
     return this.page;
   }

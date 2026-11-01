@@ -46,12 +46,22 @@ module.exports = {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     const cards = [];
+    // new copies (2026-11-01; the published page, level 2 copy 1, keeps its draw): the missing number is drawn EVENLY and
+    // differs on every row, and the two pans never hold the same two numbers — drawn the old way, small missing numbers
+    // came up far more often ("write 3" scored up to 31 %, settings-space)
+    const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+    const usedMissing = new Set();
     for (let i = 0; i < d.rows; i++) {
-      const a = rng.int(2, d.max - 1);
-      const b = rng.int(1, d.max - a);
-      const total = a + b;
-      const c = rng.int(1, total - 1);
-      const missing = total - c;
+      let a, b, total, c, missing;
+      if (published) {
+        a = rng.int(2, d.max - 1); b = rng.int(1, d.max - a); total = a + b; c = rng.int(1, total - 1); missing = total - c;
+      } else {
+        for (let t = 0; t < 200; t++) {
+          missing = rng.int(1, d.max - 2); total = rng.int(missing + 2, d.max); c = total - missing; a = rng.int(1, total - 1); b = total - a;
+          if (!usedMissing.has(missing) && a !== c && a !== missing) break;
+        }
+        usedMissing.add(missing);
+      }
       cards.push(
         `<div class="ws-card-stage" style="flex-direction:column;gap:0" data-lcs-total="${total}">` +
         `<div style="display:flex;justify-content:space-between;width:440px;padding:0 6px">` +

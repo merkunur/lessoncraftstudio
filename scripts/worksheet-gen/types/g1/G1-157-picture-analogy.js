@@ -5,6 +5,7 @@
 'use strict';
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
+const slotLib = require('../../lib/slot.js');
 
 const BIG = 64, SMALL = 36;
 
@@ -33,7 +34,9 @@ module.exports = {
     const pool = labelSafeNouns(theme);
     const cards = [];
     for (let i = 0; i < d.rows; i++) {
-      const [x, y, z] = rng.sample(pool, 3);
+      // tap-to-edit (lib/slot.js): one role per row — its pair picture, its second picture, its distractor
+      const [x, y, z] = slotLib.pictures(ctx, rng.sample(pool, 3), pool, theme, `row${i + 1}`);
+      const tap = (k) => slotLib.attr(ctx, `row${i + 1}`, k);
       const bigToSmall = rng.next() < 0.5;
       const slot = (noun, px, extra) =>
         `<span class="ws-pattern-slot" style="width:78px;height:78px"${extra || ''}>` +
@@ -49,13 +52,13 @@ module.exports = {
         { noun: z, px: correctPx, ok: false },
       ]).map((c) =>
         `<span class="ws-pattern-chip" style="width:74px;height:74px"${c.ok ? ' data-lcs-correct="1"' : ''} ` +
-        `data-lcs-opt="${c.noun.vocabKey}-${c.px}">` +
+        `data-lcs-opt="${c.noun.vocabKey}-${c.px}"${c.noun === z ? tap(2) : ''}>` +
         `<img class="ws-icon" src="${fileUri(theme, c.noun.noun)}" alt="" style="width:${Math.min(c.px, 54)}px;height:${Math.min(c.px, 54)}px"></span>`).join('');
 
       cards.push(
         `<div class="ws-card-stage" style="justify-content:space-between;padding:6px 8px" data-lcs-rel="${bigToSmall ? 'big-small' : 'small-big'}" data-lcs-expect="${y.vocabKey}-${correctPx}">` +
         `<span style="display:inline-flex;align-items:center;gap:8px">` +
-        slot(x, p1[0]) + colon + slot(x, p1[1]) + dcolon + slot(y, p1[0]) + colon +
+        slot(x, p1[0], tap(0)) + colon + slot(x, p1[1]) + dcolon + slot(y, p1[0], tap(1)) + colon +
         `<span class="ws-pattern-slot ws-pattern-slot--blank" style="width:78px;height:78px">?</span></span>` +
         `<span class="ws-pattern-choices">${chips}</span>` +
         `</div>`

@@ -12,8 +12,9 @@
 'use strict';
 const { answerBox } = require('../../templates/components.js');
 const { shelf, dotPanel } = require('../../templates/components-b2.js');
-const { coin, sizeFor } = require('../../primitives/coins.js');
+const { coin, sizeFor, mmOf } = require('../../primitives/coins.js');
 const { fileUri } = require('../../image-cache/resolve.js');
+const slot = require('../../lib/slot.js');
 const { safeNouns } = require('../../lib/b2-common.js');
 const { CURRENCIES } = require('../../data/money/currencies.js');
 const { SHOP_FRAMES } = require('../../data/b2/shop-frames.js');
@@ -80,7 +81,7 @@ module.exports = {
     // Level Set 2026-10-05: the screen version + answer key of NEW pages (lib/money-screen.js); the published page
     // (level 2, copy 1) never reaches it
     const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
-    if (!published && ctx && (ctx.interactive || ctx.answerKey)) {
+    if ((!published || (ctx && ctx.publishedScreen && ctx.interactive)) && ctx && (ctx.interactive || ctx.answerKey)) {
       const built = this.build({ theme, difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
       return require('../../lib/money-screen.js').screenOrKey('shop', built, ctx, locale);
     }
@@ -99,10 +100,11 @@ module.exports = {
     // a long unit ("45 centavos") fits five price tags on the shelf, not six (pt level 3, 2026-10-05); level 2 has five
     const nItems = cur.unit.length > 4 ? Math.min(d.items, 5) : d.items;   // "cent" (it) fits six, measured
     if (shopPool.length < nItems) throw new Error(`G2-276: theme ${theme} has ${shopPool.length} sellable items < ${nItems}`);
-    const nouns = rng.sample(shopPool, nItems);
+    // tap-to-edit (lib/slot.js): a teacher's choice of shelf picture replaces item i — no rng call added, the catalogue unchanged
+    const nouns = slot.pictures(ctx, rng.sample(shopPool, nItems), shopPool, theme);
     const bases = rng.sample([2, 3, 4, 5, 6, 7, 8, 9].filter((b) => b <= d.baseMax), nItems);
     if (bases.length < nItems) throw new Error(`G2-276: d${difficulty} has ${nItems} items but only ${bases.length} prices up to ${d.baseMax}`);
-    const items = nouns.map((n, i) => ({ noun: n.noun, vocabKey: n.vocabKey, src: fileUri(theme, n.noun), price: bases[i] * scale, unit: cur.unit }));
+    const items = nouns.map((n, i) => ({ noun: n.noun, vocabKey: n.vocabKey, src: fileUri(theme, n.noun), price: bases[i] * scale, unit: cur.unit, slotAttr: slot.attr(ctx, 'pic', i) }));
     const coinVals = cur.sub.map((s) => s.v).sort((a, b) => b - a);
     const denoms = cur.sub;
     const icon = (idx) => `<img class="ws-icon" src="${items[idx].src}" alt="" data-lcs-ref="${idx}" style="width:30px;height:30px;vertical-align:middle;margin:0 3px">`;
@@ -190,7 +192,7 @@ module.exports = {
           const all = denoms.map((x) => x.v), tint = Object.fromEntries(denoms.map((x) => [x.v, x.tint]));
           const top2 = [...new Set(all)].sort((a, b) => b - a).slice(0, 2);
           const px = d.coinPx || [36, 48];
-          const svgs = coins.slice().sort((a, b) => b - a).map((v) => coin({ value: v, tint: tint[v], d: sizeFor(v, all, { minPx: px[0], maxPx: px[1] }), doubleRing: top2.includes(v) }).svg).join('');
+          const svgs = coins.slice().sort((a, b) => b - a).map((v) => coin({ value: v, tint: tint[v], d: sizeFor(v, all, { minPx: px[0], maxPx: px[1], mm: mmOf(denoms) }), doubleRing: top2.includes(v) }).svg).join('');
           extra = `<span style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;margin:0 4px" data-lcs-coins data-lcs-cointotal="${paid}">${svgs}</span>`;
         }
       } else if (kind === 'canBuy') {

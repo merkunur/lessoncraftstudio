@@ -1,0 +1,21 @@
+{
+ "id": "wave-var-core-fr",
+ "seedEpoch": 1,
+ "locales": [
+  "fr"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-230",
+  "G1-228",
+  "G1-231",
+  "G1-229",
+  "G1-232"
+ ],
+ "themeOverrides": {},
+ "_note": "2026-11-01 coins drawn at their real sizes: pinned re-generation of the live published pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file."
+}

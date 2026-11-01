@@ -88,7 +88,7 @@ function makeGraphType(cfg) {
 
     build({ theme, difficulty, locale }, ctx) {
       const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
-      if (!published && ctx && (ctx.interactive || ctx.answerKey)) {
+      if ((!published || (ctx && ctx.publishedScreen && ctx.interactive)) && ctx && (ctx.interactive || ctx.answerKey)) {
         const built = this.build({ theme, difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
         // the build faces' key draws the graph FILLED: the same page again from a fresh stream of the same seed
         const rebuildFilled = () => this.build({ theme, difficulty, locale }, { ...ctx, rng: makeRng(ctx.rng.seed), interactive: false, answerKey: false, keyFill: true });

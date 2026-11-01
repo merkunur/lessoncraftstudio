@@ -46,7 +46,9 @@
     "odd-even": "Pair et impair",
     "place-value": "Numération et arrondis",
     "fractions": "Les fractions",
-    "multiplication-division": "Multiplication et division"
+    "multiplication-division": "Multiplication et division",
+    "logic-puzzles": "Énigmes logiques",
+    "money": "La monnaie"
   },
   "editTitle": "Modifier le titre",
   "editInstruction": "Modifier la consigne",

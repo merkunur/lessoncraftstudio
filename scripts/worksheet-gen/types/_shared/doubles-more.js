@@ -97,7 +97,21 @@ function makeDoublesMoreType(cfg) {
         const pool = [];
         for (let a = d.lo; a <= d.hi - 1; a++) { pool.push({ s: a, flip: false }); if (d.flip) pool.push({ s: a, flip: true }); }
         const minusK = d.minus ? shuffle(Array.from({ length: d.cards }, (_, k) => k < d.cards / 2), rng) : [];
-        const ps = rng.sample(pool, Math.min(d.cards, pool.length)).map((p, k) => {
+        // the doubles of a page spread: a double fills two boxes, and "4 + 5 = 5 + 5 − 1" shares its double with
+        // "5 + 6 = 5 + 5 + 1" — drawn freely, one double filled up to a fifth of a level-3 page (settings-space 2026-11-01);
+        // each double comes back no more often than the level's range forces
+        const order = rng.sample(pool, pool.length);
+        const dblOf = (p, k) => (minusK[k] ? p.s + 1 : p.s);
+        const cap = Math.ceil(Math.min(d.cards, pool.length) / (d.hi - d.lo + (d.minus ? 1 : 0)));
+        const useDbl = new Map(), picked = [];
+        for (let k = 0; k < Math.min(d.cards, pool.length); k++) {
+          let j = order.findIndex((p) => (useDbl.get(dblOf(p, k)) || 0) < cap);
+          if (j < 0) j = 0;
+          const p = order.splice(j, 1)[0];
+          useDbl.set(dblOf(p, k), (useDbl.get(dblOf(p, k)) || 0) + 1);
+          picked.push(p);
+        }
+        const ps = picked.map((p, k) => {
           const minus = !!minusK[k];
           return { x: p.flip ? p.s + 1 : p.s, y: p.flip ? p.s : p.s + 1, dbl: minus ? p.s + 1 : p.s, minus, sum: 2 * p.s + 1 };
         });

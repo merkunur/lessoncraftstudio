@@ -194,9 +194,25 @@ function makeFrameMoreType(cfg) {
 
       if (mode === 'colour-parts') {
         const C = COLORS[loc] || COLORS.en;
-        const swatch = (key, hex) => `<span style="display:inline-flex;flex-direction:column;align-items:center;gap:2px"><span style="width:26px;height:26px;border-radius:50%;background:${hex};border:2px solid #3A3530"></span><span style="font-family:'Nunito';font-weight:800;font-size:14px;color:#3A3530">${C[key]}</span></span>`;
+        const swatch = (key, hex, at = '') => `<span${at} style="display:inline-flex;flex-direction:column;align-items:center;gap:2px"><span style="width:26px;height:26px;border-radius:50%;background:${hex};border:2px solid #3A3530"></span><span style="font-family:'Nunito';font-weight:800;font-size:14px;color:#3A3530">${C[key]}</span></span>`;
         const red = tokens.codeColors.codeRed, blue = tokens.codeColors.codeBlue;
-        const legend = `<div style="display:flex;justify-content:center;gap:28px;padding:0 0 8px">${swatch('red', red)}${swatch('blue', blue)}</div>`;
+        // the makers' screen build (2026-11-01): the two swatches are the palette (data-lcs-bin, painted with data-lcs-fill)
+        // and every square of a frame a drop target of its card; the card is graded by HOW MANY squares of each colour
+        // (data-lcs-colour-count), never by which — the paper task, where any 6 squares red and 4 blue is right
+        const scr = !!(ctx && ctx.screen) && !d.find;
+        // the marks ride on the swatch itself and the squares are invisible hit boxes inside the frame's svg: with the marks
+        // stripped, the screen build is the printed page (gates/screen-from-marks.js)
+        const binOf = (key, hex) => swatch(key, hex, scr ? ` data-lcs-bin="${key}" data-lcs-fill="${hex}" data-lcs-label="${C[key]}"` : '');
+        const legend = `<div style="display:flex;justify-content:center;gap:28px;padding:0 0 8px">${binOf('red', red)}${binOf('blue', blue)}</div>`;
+        // the squares of a frame as drop targets (same geometry as tenFrame / fiveFrame: cell, pad 3 / 6)
+        // each square's data-lcs-answer is a placeholder in the key's convention (the first a red, the rest blue): the card's
+        // data-lcs-colour-count decides right or wrong
+        const cellsOf = (w, a) => {
+          const cell = w === 5 ? 66 : 56, n = w === 5 ? 5 : 10;
+          let s = '';
+          for (let i = 0; i < n; i++) s += `<rect x="${3 + (i % 5) * cell}" y="${3 + Math.floor(i / 5) * cell}" width="${cell}" height="${cell}" fill="#FFFFFF" fill-opacity="0" data-lcs-drop="1" data-lcs-answer="${i < a ? 'red' : 'blue'}" data-lcs-label="${i + 1}"/>`;
+          return s;
+        };
         // a whole of 5 uses one row of a ten-frame (the five-frame): the frame is drawn half — the top row only
         const frameFor = (w, a = 0) => (w === 5 ? fiveFrame(66, ctx.answerKey ? a : 0, [red, blue]) : tenFrame({ a: ctx.answerKey ? a : 0, b: ctx.answerKey ? 10 - a : 0, cell: d.find ? 50 : 56, ...(ctx.answerKey ? { fills: [red, blue] } : {}) }).svg);   // squares big enough to colour in
         if (d.find) {
@@ -212,7 +228,8 @@ function makeFrameMoreType(cfg) {
         ps.forEach((a) => {
           const b = d.whole - a;
           const eq = `<span style="display:inline-flex;align-items:center;gap:8px"><span style="display:inline-flex;align-items:center;gap:6px"><span style="width:18px;height:18px;border-radius:50%;background:${red};border:2px solid #3A3530"></span>${NUM(a, 34)}</span>${T('+', 28)}<span style="display:inline-flex;align-items:center;gap:6px"><span style="width:18px;height:18px;border-radius:50%;background:${blue};border:2px solid #3A3530"></span>${NUM(b, 34)}</span>${T('=', 28)}${NUM(d.whole, 34)}</span>`;
-          cards.push(`<div class="ws-card-stage" style="gap:18px;padding:4px 10px 4px 36px;justify-content:space-between" data-lcs-whole="${d.whole}" data-lcs-red="${a}" data-lcs-blue="${b}">${frameFor(d.whole, a)}${eq}</div>`);
+          const frame = scr ? frameFor(d.whole, a).replace(/<\/svg>$/, cellsOf(d.whole, a) + '</svg>') : frameFor(d.whole, a);
+          cards.push(`<div class="ws-card-stage" style="gap:18px;padding:4px 10px 4px 36px;justify-content:space-between" data-lcs-whole="${d.whole}" data-lcs-red="${a}" data-lcs-blue="${b}"${scr ? ` data-lcs-colour-count="red:${a},blue:${b}"` : ''}>${frame}${eq}</div>`);
           truth.push({ red: a, blue: b });
         });
         return { bodyHtml: `<div style="display:flex;flex-direction:column;height:100%;min-height:0">${legend}<div style="flex:1 1 auto;min-height:0;display:flex">${cardGrid({ cards, cols: 1, rows: d.cards })}</div></div>`, meta: { cards: truth } };

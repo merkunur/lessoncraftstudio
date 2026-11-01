@@ -822,8 +822,8 @@
     "instruction": "Rader deler et bilde. Kolonner deler en størrelse. Sett ring rundt det som passer."
   },
   "G3-353": {
-    "title": "To-sirkel-sortering",
-    "instruction": "Venstre sirkel: denne sorten. Høyre: STORE. Midten: begge! Ingen av delene: utenfor. Tegn en strek til riktig plass."
+    "title": "Sorter i to sirkler",
+    "instruction": "Skriv hvert nummer på riktig plass: i den venstre sirkelen det som står over den, i den høyre sirkelen store bilder, i midten det som passer i begge, og i rammen utenfor sirklene det som ikke passer i noen av dem."
   },
   "K-201": {
     "title": "Levende og ikke-levende",
@@ -3681,5 +3681,41 @@
   "G3-473": {
     "title": "Vektpuslespill med former",
     "instruction": "Vektene er i balanse. Finn ut hvor mye hver form veier, og skriv det i ruten."
+  },
+  "K-461": {
+    "title": "Hvilken mynt er det?",
+    "instruction": "Tegn en strek fra hver mynt til verdien."
+  },
+  "G2-471": {
+    "title": "Så få mynter som mulig",
+    "instruction": "Lag hvert beløp med så få mynter som mulig. Skriv hvor mange du trenger av hver mynt."
+  },
+  "G2-472": {
+    "title": "Betal nøyaktig beløp",
+    "instruction": "Sett ring rundt mynter som til sammen blir nøyaktig prisen."
+  },
+  "G2-473": {
+    "title": "Samme beløp, andre mynter",
+    "instruction": "Tegn en strek fra hver lommebok på venstre side til lommeboka på høyre side som har like mye penger."
+  },
+  "G3-474": {
+    "title": "Tell sedler og mynter",
+    "instruction": "Tell sedlene og myntene. Skriv beløpet."
+  },
+  "G1-473": {
+    "title": "Butikk: prislapper og lekepenger",
+    "instruction": "Klipp ut prislappene og lekepengene. Lek butikk!"
+  },
+  "G1-474": {
+    "title": "Plusstykker med hemmelig ord",
+    "instruction": "Legg sammen bildene i hver rad og skriv svaret. Finn tallet i koden og skriv bokstaven i ruta med radens nummer. Da finner du det hemmelige ordet."
+  },
+  "G1-475": {
+    "title": "Regn og sett sammen bildet",
+    "instruction": "Regn ut alle stykkene. Klipp ut bitene og lim hver bit på stykket som blir tallet på biten. Da får du et bilde."
+  },
+  "G1-476": {
+    "title": "Talldetektiven",
+    "instruction": "Det hemmelige tallet er et tall fra 1 til og med {MAX}. Les hintene og skriv tallet som passer med alle hintene."
   }
 }

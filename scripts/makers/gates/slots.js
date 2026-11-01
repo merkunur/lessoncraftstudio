@@ -38,11 +38,15 @@ const NO_SLOT = new Set(['K-005', 'K-015', 'K-017', 'K-024', 'K-025', 'G1-105', 
   // multiplication + division: numerals only (Multiplication & Division maker 2026-11-01; the picture faces have slots)
   'G1-110', 'G1-111', 'G2-411', 'G3-313', 'G3-358', 'G3-364', 'G3-365', 'G3-366', 'G3-367', 'G3-368', 'G3-381', 'G3-382', 'G3-383', 'G3-384',
   'G3-402', 'G3-403', 'G3-404', 'G3-405', 'G3-407', 'G3-408', 'G3-409', 'G3-410', 'G3-411',
+  // money: coins and notes are drawn tokens, not pictures (Money maker 2026-11-01; the store's tags have slots)
+  'K-461', 'G2-471', 'G2-472', 'G2-473', 'G3-474', 'G1-211', 'G1-228', 'G1-229', 'G1-230', 'G1-231', 'G1-232',
   // place value + rounding: blocks and numerals only (Place Value maker 2026-11-01)
   'G1-120', 'G1-121', 'G1-122', 'G1-133', 'G2-203', 'G2-205', 'G2-206', 'G2-222', 'G2-223', 'G2-224', 'G2-225', 'G2-227', 'G2-346',
-  'G2-401', 'G2-402', 'G2-403', 'G2-404', 'G2-405', 'G3-387', 'G3-388', 'G3-389', 'G3-390', 'G3-391', 'G1-351', 'G1-455', 'G1-456', 'G1-457', 'G2-351', 'G2-352', 'G2-400', 'G3-386', 'G1-135', 'G1-136', 'G1-137', 'G2-219', 'G2-220', 'G3-325', 'K-460', 'G1-453', 'G1-454', 'G2-398', 'G2-399', 'G2-218', 'G2-226', 'G2-321', 'G2-322', 'G2-323', 'G2-394', 'G3-328',
+  'G2-401', 'G2-402', 'G2-403', 'G2-404', 'G2-405', 'G1-476', 'G3-387', 'G3-388', 'G3-389', 'G3-390', 'G3-391', 'G1-351', 'G1-455', 'G1-456', 'G1-457', 'G2-351', 'G2-352', 'G2-400', 'G3-386', 'G1-135', 'G1-136', 'G1-137', 'G2-219', 'G2-220', 'G3-325', 'K-460', 'G1-453', 'G1-454', 'G2-398', 'G2-399', 'G2-218', 'G2-226', 'G2-321', 'G2-322', 'G2-323', 'G2-394', 'G3-328',
   // logic puzzles (task 6, 2026-11-01): numerals, cages and shapes only — the picture faces G1-471 / G3-471 / G1-472 have slots
-  'G1-470', 'G3-470', 'G2-470', 'G3-472', 'G3-473']);
+  'G1-470', 'G3-470', 'G2-470', 'G3-472', 'G3-473',
+  // logic puzzles: number walls, magic squares and number balances are numerals only (Logic & Math Puzzles maker 2026-11-01)
+  'G1-246', 'G1-266', 'G1-267', 'G1-268', 'G1-289', 'G2-313', 'G3-349', 'G3-350']);
 // a template whose theme pictures are DECORATION only (themeAxis.decorative: a corner flourish on a numeral page) has
 // nothing a teacher would swap — no slot is required
 

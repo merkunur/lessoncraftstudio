@@ -1,0 +1,31 @@
+{
+ "id": "wave-b3var-nl",
+ "seedEpoch": 1,
+ "locales": [
+  "nl"
+ ],
+ "themes": [
+  "At the Supermarket",
+  "animals",
+  "around the house",
+  "clothing",
+  "farm animals",
+  "forest creatures",
+  "fruits",
+  "pets",
+  "toys",
+  "vehicles",
+  "zoo animals"
+ ],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-349"
+ ],
+ "themeOverrides": {
+  "G1-349": "vehicles"
+ },
+ "_note": "2026-11-01 logic grid picture clues: the picture at full strength, a thin cross over a 'does not have' picture: pinned re-generation of the live published pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file."
+}

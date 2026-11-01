@@ -3157,7 +3157,7 @@
   },
   "G3-353": {
     "title": "Two-Circle Sort",
-    "instruction": "Left circle: this kind. Right circle: BIG ones. Middle: both! Neither: outside. Draw a line from each picture to its place."
+    "instruction": "Write each picture's number in its place: the left circle is for the things shown above it, the right circle for big pictures, the middle for pictures that fit both, and the box outside the circles for pictures that fit neither."
   },
   "G3-354": {
     "title": "To the Minute",
@@ -3702,5 +3702,41 @@
   "G3-473": {
     "title": "Shape Balance Puzzles",
     "instruction": "The scales balance. Find how much each shape weighs and write it in its box."
+  },
+  "K-461": {
+    "title": "Which Coin Is It?",
+    "instruction": "Draw a line from each coin to its value."
+  },
+  "G2-471": {
+    "title": "Fewest Coins",
+    "instruction": "Make each amount with as few coins as you can. Write how many of each coin you need."
+  },
+  "G2-472": {
+    "title": "Pay the Exact Price",
+    "instruction": "Circle coins that make each price exactly."
+  },
+  "G2-473": {
+    "title": "Same Amount, Different Coins",
+    "instruction": "Draw a line from each purse on the left to the purse on the right that holds the same amount."
+  },
+  "G3-474": {
+    "title": "Count Bills and Coins",
+    "instruction": "Count the bills and coins. Write the total amount."
+  },
+  "G1-473": {
+    "title": "Classroom Store: Price Tags and Play Money",
+    "instruction": "Cut out the price tags and the play money. Play store!"
+  },
+  "G1-474": {
+    "title": "Secret Word Addition",
+    "instruction": "Add the pictures in each row and write the sum. Find that number in the code, then write its letter in the box with the row's number to spell the secret word."
+  },
+  "G1-475": {
+    "title": "Solve and Rebuild the Picture",
+    "instruction": "Solve each problem. Cut out the pieces and glue each one on the problem whose answer is its number. They make a picture."
+  },
+  "G1-476": {
+    "title": "Number Detective",
+    "instruction": "Each mystery number is from 1 to {MAX}. Read the clues and write the one number that fits them all."
   }
 }

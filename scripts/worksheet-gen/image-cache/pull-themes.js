@@ -39,7 +39,9 @@ function normalizeNoun(noun) {
 
 /** Vocab keys are hyphenated lowercase ("french-fries"); files use spaces. */
 // one filename, two pictures: the tools-theme nail is a METAL nail, not the fingernail of `nail` (8 locales printed the fingernail word)
-const THEME_NOUN_KEY = { 'tools|nail': 'metal-nail', 'tools bw|nail': 'metal-nail' };
+// a stem that names another vocab entry than its spelling: tools/nail is a metal nail (vocab `nail` = fingernail), the
+// vehicles crane is a machine (vocab `crane` = the bird: de Kranich, es Grulla — 2026-11-01)
+const THEME_NOUN_KEY = { 'tools|nail': 'metal-nail', 'tools bw|nail': 'metal-nail', 'vehicles|crane': 'construction-crane', 'vehicles bw|crane': 'construction-crane', 'vehicles bw 2|crane': 'construction-crane' };
 
 function nounToVocabKey(noun, vocab) {
   const candidates = [

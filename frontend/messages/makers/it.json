@@ -46,7 +46,9 @@
     "odd-even": "Pari e dispari",
     "place-value": "Valore posizionale e arrotondamento",
     "fractions": "Frazioni",
-    "multiplication-division": "Moltiplicazione e divisione"
+    "multiplication-division": "Moltiplicazione e divisione",
+    "logic-puzzles": "Giochi di logica",
+    "money": "Il denaro"
   },
   "editTitle": "Modifica il titolo",
   "editInstruction": "Modifica la consegna",

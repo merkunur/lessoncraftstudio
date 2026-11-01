@@ -86,8 +86,10 @@ function pictureClue({ n, name, src, alt, not, pic = 56, col, namePx }) {
     `font-family:${F.body},sans-serif;font-weight:800;font-size:${namePx || 16}px;line-height:1;color:${T.ink};white-space:nowrap;box-sizing:border-box">${esc(name)}</span>`;
   const ring = `<svg xmlns="http://www.w3.org/2000/svg" width="${pic}" height="${pic}" viewBox="0 0 ${pic} ${pic}" aria-hidden="true" style="position:absolute;left:0;top:0">` +
     `<circle cx="${pic / 2}" cy="${pic / 2}" r="${r}" fill="${T.white}" stroke="${not ? T.coral : T.teal}" stroke-width="2.5"/></svg>`;
-  const img = `<img class="ws-icon" src="${esc(src)}" alt="${esc(alt || '')}" data-lcs-pic="${col}" style="position:absolute;left:${(pic - inner) / 2}px;top:${(pic - inner) / 2}px;width:${inner}px;height:${inner}px;${not ? 'opacity:.85' : ''}">`;
-  const cross = not ? `<span style="position:absolute;left:0;top:0;line-height:0">${notMark(pic)}</span>` : '';
+  const img = `<img class="ws-icon" src="${esc(src)}" alt="${esc(alt || '')}" data-lcs-pic="${col}" style="position:absolute;left:${(pic - inner) / 2}px;top:${(pic - inner) / 2}px;width:${inner}px;height:${inner}px">`;
+  // the "does not have" cross: thin enough that the picture under it stays recognisable at full strength (2026-11-01: the
+  // 5-unit cross over an 85 % picture hid which fruit was crossed out — a lemon and a pear read the same)
+  const cross = not ? `<span data-lcs-clue-cross style="position:absolute;left:0;top:0;line-height:0"><svg xmlns="http://www.w3.org/2000/svg" width="${pic}" height="${pic}" viewBox="0 0 40 40" aria-hidden="true" data-lcs-notmark="${pic}"><path d="M8 8l24 24M32 8L8 32" fill="none" stroke="${T.coral}" stroke-width="3" stroke-linecap="round"/></svg></span>` : '';
   return `<div data-lcs-clue="${n - 1}" ${not ? 'data-lcs-not="1"' : 'data-lcs-has="1"'} style="display:flex;align-items:center;gap:8px;height:${pic}px">${tile}` +
     `<span data-lcs-ring style="position:relative;display:inline-block;width:${pic}px;height:${pic}px;flex:0 0 ${pic}px">${ring}${img}${cross}</span></div>`;
 }

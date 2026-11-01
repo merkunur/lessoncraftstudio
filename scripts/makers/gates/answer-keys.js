@@ -44,6 +44,7 @@ const NO_KEY = {
   'G2-402': 'place-value chart and digit cards to cut out (material)',
   'G2-406': 'fraction strips to cut out (material)',
   'G3-411': 'times table keyring cards to cut out (material)',
+  'G1-473': 'classroom store price tags and play money to cut out (material)',
 };
 
 (async () => {

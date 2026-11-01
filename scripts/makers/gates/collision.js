@@ -38,6 +38,9 @@ const EXEMPT = [
   ['svg[data-lcs-prim="number-line"]', '.ws-answerbox', 'a label box sits on its tick of the number line by design (G2-395 label the number line)'],
   ['[data-lcs-house] > svg', '*', 'the odd / even house outline frames its content: the tiles and boxes live inside the house by design (G1-351)'],
   ['svg[data-lcs-ink]', '*', "the teacher's own drawing lies over the page by design"],
+  ['svg[data-lcs-prim="logic-grid"], svg[data-lcs-prim="logic-lgrid"]', 'img[data-lcs-col], img[data-lcs-rowpic]', 'the elimination grid frames its column and row pictures: each sits in its header cell by design (G2-319 family; the two-attribute grid of G3-379 too)'],
+  ['[data-lcs-ring] > svg, [data-lcs-clue-cross] svg', 'img[data-lcs-pic]', 'a picture clue rings its picture, and crosses out a "does not have" picture, on purpose (G1-349)'],
+  ['[data-lcs-clue-cross] svg', '[data-lcs-ring] > svg', 'the cross of a "does not have" clue lies inside its own ring (G1-349)'],
 ];
 
 /**
@@ -91,8 +94,10 @@ function collide({ tol, exempt }) {
     });
   };
   const DRAWN = 'path, rect, circle, ellipse, line, polyline, polygon, text, image, use';
-  const svgInk = (svg) => {
-    let u = null;
+  /** the ink of a drawing: one box per drawn shape (a union box would accuse its own empty corners — the number-bond
+   *  diagram's box reached the card badge while nothing drawn did), the union for a big drawing (> 200 shapes) */
+  const svgInks = (svg) => {
+    const boxes = [];
     for (const g of svg.querySelectorAll(DRAWN)) {
       const gs = getComputedStyle(g);
       const fill = g.getAttribute('fill') || gs.fill, stroke = g.getAttribute('stroke') || gs.stroke;
@@ -102,9 +107,10 @@ function collide({ tol, exempt }) {
       const r = g.getBoundingClientRect(); if (r.width <= 0 && r.height <= 0) continue;
       const sw = noStroke ? 0 : (parseFloat(g.getAttribute('stroke-width') || gs.strokeWidth) || 1) / 2;
       const b = { l: r.left - sw, t: r.top - sw, r: r.right + sw, b: r.bottom + sw };
-      u = u ? { l: Math.min(u.l, b.l), t: Math.min(u.t, b.t), r: Math.max(u.r, b.r), b: Math.max(u.b, b.b) } : b;
+      boxes.push(b);
     }
-    return u;
+    if (boxes.length > 200) return [boxes.reduce((u, b) => ({ l: Math.min(u.l, b.l), t: Math.min(u.t, b.t), r: Math.max(u.r, b.r), b: Math.max(u.b, b.b) }))];
+    return boxes;
   };
   const cand = [];
   for (const el of els) {
@@ -124,8 +130,7 @@ function collide({ tol, exempt }) {
       if (!ab || r.width <= 0) continue;
       cand.push({ ...base, kind: 'img', r: { l: r.left + ab.l * r.width, t: r.top + ab.t * r.height, r: r.left + ab.r * r.width, b: r.top + ab.b * r.height } });
     } else if (tag === 'svg') {
-      const u = svgInk(el); if (!u) continue;
-      cand.push({ ...base, kind: 'svg', r: u });
+      for (const u of svgInks(el)) cand.push({ ...base, kind: 'svg', r: u });
     } else if (el.classList.contains('ws-answerbox') || (el.hasAttribute('data-lcs-answer') && !el.children.length) || el.classList.contains('ws-card-badge') || el.classList.contains('ws-chip')) {
       const r = el.getBoundingClientRect(); if (r.width <= 0 || r.height <= 0) continue;
       cand.push({ ...base, kind: el.classList.contains('ws-card-badge') ? 'badge' : el.classList.contains('ws-chip') ? 'chip' : 'box', r: { l: r.left, t: r.top, r: r.right, b: r.bottom } });

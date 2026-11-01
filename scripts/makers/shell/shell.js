@@ -215,7 +215,7 @@ async function boot() {
 /** the preview's own words (templates.json screenUi, built from i18n/screen-instructions.json) */
 const screenUi = (k) => ((tj.screenUi && (tj.screenUi[LANG] || tj.screenUi.en)) || {})[k] || k;
 /** does this template's current level have a screen built from its marks? */
-const screenAt = (t, level = state.level) => t.screen === 'marks' && (t.screenLevels || []).includes(level);
+const screenAt = (t, level = state.level) => (t.screen === 'marks' || t.screen === 'declared') && (t.screenLevels || []).includes(level);
 
 /**
  * The screen version of page i, built in this browser from the page's own answer marks: the SCREEN build of the page
@@ -227,17 +227,15 @@ async function screenHtmlFor(i) {
   const r = await pageResult(i);
   if (!r.ok) { const e = new Error('refused'); e.fails = r.fails; throw e; }
   const t = tplOf(i);
-  const type = await loadType(t.id);
-  const made = mod.makePage({ ...pageOptions(i), ...(r.attempt || {}), type, screen: true });
-  const html = withInk(made.screenHtml, i, false);
-  const strings = tj.runtimeStrings && tj.runtimeStrings[LANG];
-  const instructions = (tj.screenInstructions && tj.screenInstructions[LANG]) || {};
-  if (!strings) throw new Error('no runtime strings for ' + LANG);
-  // one gate frame: the screen is read after any page still being gated
-  gateQueue = gateQueue.then(() => mod.screen.buildScreen({ html, locale: LANG, strings, instruction: (pl) => instructions[mod.screen.instructionKey(pl)] || '', mount: (h) => mod.mountHtml(gateFrame, h) }));
-  const sc = await gateQueue;
   if (!t.screenLevels.includes(state.lvls[i])) throw new Error('no screen at this level');
-  return sc.html;
+  const type = await loadType(t.id);
+  const strings = tj.runtimeStrings && tj.runtimeStrings[LANG];
+  if (!strings) throw new Error('no runtime strings for ' + LANG);
+  // runtime.js screenFor: the template's declared screen, else (and on the published face) the screen from its marks;
+  // one gate frame — the screen is read after any page still being gated
+  const o = { ...pageOptions(i), ...(r.attempt || {}), type, tpl: t, runtimeStrings: strings, marksInstructions: (tj.screenInstructions && tj.screenInstructions[LANG]) || {}, decorate: (h) => withInk(h, i, false) };
+  gateQueue = gateQueue.then(() => mod.screenFor(o, (h) => mod.mountHtml(gateFrame, h)));
+  return (await gateQueue).html;
 }
 
 async function openScreenPreview(i) {

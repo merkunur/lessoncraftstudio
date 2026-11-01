@@ -108,8 +108,14 @@ function makeOddMoreType(cfg) {
           const sums = [];
           for (let t = 0; sums.length < 3 && t < 400; t++) {
             if (d.max - 2 < 3) break;
-            const a = pick(P[kd[0]], d.max - 3), b = d.max - a >= 3 ? pick(P[kd[1]], d.max - a) : 0;   // room for an odd and an even number (pick never hangs)
-            if (b < 2 || a + b > d.max || used.has(a + '+' + b)) continue;
+            // the SUM is drawn first, evenly, with the parity the pair makes, then split (2026-11-01: drawing a and then b
+            // crowded the sums at the top of the range — "write 19" scored 19 %, settings-space)
+            const want = kd[0] === kd[1] ? 'even' : 'odd';
+            let sum; do { sum = rng.int(5, d.max); } while (par(sum) !== want);
+            const a = pick(P[kd[0]], sum - 2), b = sum - a;
+            if (b < 2 || par(b) !== P[kd[1]] || used.has(a + '+' + b)) continue;
+            // a sum never equals a number printed in its block ("copy a number you see" scored 17 %)
+            if (sums.some((x) => x.a === sum || x.b === sum || x.s === a || x.s === b)) continue;
             used.add(a + '+' + b);
             sums.push({ a, b, s: a + b });
           }

@@ -836,7 +836,7 @@ module.exports = {
     const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
     const block = loadBank(KEY, loc);
     const dd = published ? d : { ...d, levelSet: true };
-    if (!published && this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
+    if ((!published || (ctx && ctx.publishedScreen && ctx.interactive)) && this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
       // the screen and the key are built from the SAME draws as the printed page (render-instance asserts the meta)
       const built = this._buildWith(block, dd, { locale: loc }, { ...ctx, interactive: false, answerKey: false });
       return SCREEN.screenOrKey(dd.mode || 'base', built, ctx, loc, block);

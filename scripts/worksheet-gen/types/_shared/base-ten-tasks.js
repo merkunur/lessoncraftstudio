@@ -67,6 +67,15 @@ function makeBaseTenType(cfg) {
       // the row fits 600 px; six or fewer keep the published size (the catalogue is unchanged)
       const fitUnit = (h, t, o, u) => (h <= 6 ? u : Math.min(u, Math.floor((600 - 8 - Math.ceil(o / 5) * 6) / (h * 11.2 + t * 2.2 + Math.ceil(o / 5)))));
       const draw = (h, t, o, unit) => baseTenBlocks({ h, t, o, unit: fitUnit(h, t, o, unit || d.unit) }).svg;
+      // the place-value chart, NEW copies (2026-11-01; the published page, level 2 copy 1, keeps its draw): the digits of
+      // each place differ from row to row where the range allows — hundreds of 1-4 on four rows let "write the row's
+      // number" score 24 % (settings-space)
+      const spreadPlaces = mode === 'pv-chart' && !(Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1);
+      const seen = { h: new Set(), t: new Set(), o: new Set() };
+      const fresh = (k, x, size) => !spreadPlaces || seen[k].size >= size || !seen[k].has(x);
+      // … and no digit fills more than two boxes of the page (one digit in all three places scored 22 %)
+      const digitN = new Map();
+      const twice = (h, t, o) => !spreadPlaces || [h, t, o].filter((x, k) => k > 0 || d.maxH).every((x, k, arr) => (digitN.get(x) || 0) + arr.filter((y) => y === x).length <= 2);
       const pick = () => {
         let h, t, o, guard = 0;
         do {
@@ -74,7 +83,8 @@ function makeBaseTenType(cfg) {
           t = rng.int(1, d.maxT);
           o = rng.int(1, 9);
           guard++;
-        } while (used.has(`${h}.${t}.${o}`) && guard < 40);
+        } while ((used.has(`${h}.${t}.${o}`) || (guard < 60 && !(fresh('h', h, d.maxH - (d.minH || 1) + 1) && fresh('t', t, d.maxT) && fresh('o', o, 9) && twice(h, t, o)))) && guard < (spreadPlaces ? 80 : 40));
+        if (spreadPlaces) { seen.h.add(h); seen.t.add(t); seen.o.add(o); [h, t, o].filter((x, k) => k > 0 || d.maxH).forEach((x) => digitN.set(x, (digitN.get(x) || 0) + 1)); }
         used.add(`${h}.${t}.${o}`);
         return { h, t, o, v: h * 100 + t * 10 + o };
       };

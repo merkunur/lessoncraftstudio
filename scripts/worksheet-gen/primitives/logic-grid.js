@@ -107,7 +107,7 @@ function logicGrid({ rows, cols, cell = 60, headW = 124, hdrH = 64, namePx = 22,
   const svg = svgRoot({ width: W, height: H, label: 'elimination grid' }, parts, { 'data-lcs-prim': 'logic-grid', 'data-lcs-cell-px': cell, 'data-lcs-size': n, style: 'display:block' });
   const imgs = cols.map((c, j) => {
     const left = headW + j * cell + (cell - picPx) / 2, top = (hdrH - picPx) / 2;
-    return `<img class="ws-icon" src="${esc(c.src)}" alt="${esc(c.alt || '')}" data-lcs-col="${j}" style="position:absolute;left:${left}px;top:${top}px;width:${picPx}px;height:${picPx}px">`;
+    return `<img class="ws-icon" src="${esc(c.src)}" alt="${esc(c.alt || '')}" data-lcs-col="${j}"${c.attr || ''} style="position:absolute;left:${left}px;top:${top}px;width:${picPx}px;height:${picPx}px">`;
   }).join('');
   const html = `<div data-lcs-grid="${puzzle}" data-lcs-mode="${mode}" style="position:relative;width:${W}px;height:${H}px;flex:0 0 auto">${svg}${imgs}</div>`;
   return { html, width: W, height: H };
@@ -193,7 +193,7 @@ function lGrid({ names, pics, pics2, cell = 60, headW = 124, hdrH = 64, namePx =
     put('pc', headW, yi, (k, p) => solved.nc[solved.np.indexOf(p)] === k);
   }
   const svg = svgRoot({ width: W, height: H, label: 'two-attribute elimination grid' }, parts, { 'data-lcs-prim': 'logic-lgrid', 'data-lcs-cell-px': cell, 'data-lcs-size': n, style: 'display:block' });
-  const img = (c, extra, left, top) => '<img class="ws-icon" src="' + esc(c.src) + '" alt="' + esc(c.alt || '') + '" ' + extra + ' style="position:absolute;left:' + left + 'px;top:' + top + 'px;width:' + picPx + 'px;height:' + picPx + 'px">';
+  const img = (c, extra, left, top) => '<img class="ws-icon" src="' + esc(c.src) + '" alt="' + esc(c.alt || '') + '" ' + extra + (c.attr || '') + ' style="position:absolute;left:' + left + 'px;top:' + top + 'px;width:' + picPx + 'px;height:' + picPx + 'px">';
   const imgs = [
     ...pics.map((c, j) => img(c, 'data-lcs-col="' + j + '"', headW + j * cell + (cell - picPx) / 2, (hdrH - picPx) / 2)),
     ...pics2.map((c, j) => img(c, 'data-lcs-col="' + (n + j) + '"', xi + j * cell + (cell - picPx) / 2, (hdrH - picPx) / 2)),

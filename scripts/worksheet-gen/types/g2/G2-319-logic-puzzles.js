@@ -97,6 +97,15 @@ const { entriesFor, fileUri } = require('../../lib/b2-common.js');
 const { logicGrid, markKey, lGrid } = require('../../primitives/logic-grid.js');
 const { clueRow, answerBank, pictureClue, statementRow } = require('../../templates/components-b3.js');
 const { esc: escBase } = require('../../primitives/_svg.js');
+const tapSlot = require('../../lib/slot.js');
+/** tap-to-edit (lib/slot.js) over allowlist keys: a teacher's picture replaces key i, the stream untouched */
+// the picker offers only pictures that cannot make a confusable pair with the page's others: a choice that forced a
+// redraw would change the other pictures too
+const slotKeys = (ctx, keys, allow, theme, role = 'pic', bad = null, near = keys) => {
+  // near = every picture the confusable check sees beside these (the two-attribute page checks both sets together)
+  const pool = bad ? allow.filter((k) => keys.includes(k) || !near.some((o) => o !== k && bad.has([k, o].sort().join('|')))) : allow;
+  return tapSlot.pictures(ctx, keys.map((k) => ({ noun: k })), pool.map((k) => ({ noun: k })), theme, role).map((x) => x.noun);
+};
 const esc = (v) => escBase(v).replace(/'/g, '&#39;');   // the JSON stamps sit in single-quoted attributes
 
 const ID = 'G2-319';
@@ -339,6 +348,8 @@ function buildPicture(bankLoc, d, { theme, locale }, ctx, sets) {
     if (ok) cases = parts;
   }
   if (!cases) throw new Error(`${ID} picture: no page for ${JSON.stringify(d.kinds)} clues ${d.clues} on "${theme}" — REFUSED`);
+  // tap-to-edit: the teacher's pictures go onto the settled page (lib/slot.js; the attempts above never see them)
+  { const fin = slotKeys(ctx, cases.flatMap((c) => c.keys), allow, theme, 'pic', bad); cases.forEach((c, p) => { c.keys = fin.slice(p * n, (p + 1) * n); c.pics = c.keys.map((k) => picOf[k]); }); }
   const gridW = d.headW + n * d.cell, gridH = d.hdrH + n * d.cell;
   const clueW = BODY_W - gridW - COL_GAP;
   const bankW = d.bankW || 488;
@@ -349,7 +360,7 @@ function buildPicture(bankLoc, d, { theme, locale }, ctx, sets) {
     const rows = cs.clues.map((c, i) => pictureClue({ n: i + 1, name: forms[c.a].nom, src: cs.pics[c.v].src, alt: cs.pics[c.v].alt, not: c.k === 'neg', pic: G.ring, col: c.v, ...(scr ? { namePx: G.tilePx } : {}) }));
     const clueCol = scr ? `<div data-lcs-cluecol style="display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:center;width:${BODY_W}px">${rows.join('')}</div>`
       : `<div data-lcs-cluecol style="display:flex;flex-direction:column;gap:8px;align-items:flex-start;width:${clueW}px">${rows.join('')}</div>`;
-    const grid = logicGrid({ rows: forms.map((f) => ({ label: f.nom })), cols: cs.pics.map((x) => ({ src: x.src, alt: x.alt })), cell: G.cell, headW: G.headW, hdrH: G.hdrH, namePx: scr ? G.namePx : (bankLoc.namePx || G.namePx), picPx: G.picPx, puzzle: p, ...(key ? { mode: 'solved', solved: cs.sol } : {}) });
+    const grid = logicGrid({ rows: forms.map((f) => ({ label: f.nom })), cols: cs.pics.map((x, j) => ({ src: x.src, alt: x.alt, attr: tapSlot.attr(ctx, 'pic', p * n + j) })), cell: G.cell, headW: G.headW, hdrH: G.hdrH, namePx: scr ? G.namePx : (bankLoc.namePx || G.namePx), picPx: G.picPx, puzzle: p, ...(key ? { mode: 'solved', solved: cs.sol } : {}) });
     const bankHtml = `<div style="display:flex;justify-content:center;width:${BODY_W}px">` +
       answerBank({ rows: forms.map((f, a) => ({ name: f.nom, pics: cs.pics.map((x, j) => ({ src: x.src, alt: x.alt, ...(key && cs.sol[a] === j ? { on: true } : {}) })) })), pic: d.bankPic, w: bankW, stack: true }) + '</div>';
     const stamps = caseStamps(p, n, d.kinds.join(','), cs, forms) + ` data-lcs-clues='${esc(JSON.stringify(cs.clues))}' data-lcs-solution="${cs.sol.join(',')}"`;
@@ -512,13 +523,16 @@ function buildTwoAttr(bankLoc, d, { theme, locale }, ctx, sets) {
   let cs = null;
   for (let attempt = 0; attempt < PAGE_ATTEMPTS && !cs; attempt++) {
     const nameIdx = rng.sample([...Array(names.length).keys()], n);
-    const keys1 = rng.sample(A1.allow, n), keys2 = rng.sample(A2.allow, n);
+    const k1 = rng.sample(A1.allow, n), k2 = rng.sample(A2.allow, n);
+    const keys1 = k1, keys2 = k2;
     if (hasConfusable(keys1.concat(keys2), bad)) continue;
     const puzzle = composeCase2(rng, d);
     if (!puzzle) continue;
     cs = { nameIdx, keys: keys1, keys2, pics: keys1.map((k) => A1.picOf[k]), pics2: keys2.map((k) => A2.picOf[k]), np: puzzle.np, nc: puzzle.nc, clues: puzzle.clues };
   }
   if (!cs) throw new Error(`${ID} two-attr: no page for ${JSON.stringify(d.kinds)} clues ${d.clues} on "${theme}" × "${attr2}" — REFUSED`);
+  { const k1 = slotKeys(ctx, cs.keys, A1.allow, theme, 'pic', bad, cs.keys.concat(cs.keys2)); const k2 = slotKeys(ctx, cs.keys2, A2.allow, attr2, 'pic2', bad, k1.concat(cs.keys2));
+    cs.keys = k1; cs.keys2 = k2; cs.pics = k1.map((k) => A1.picOf[k]); cs.pics2 = k2.map((k) => A2.picOf[k]); }
   const forms = cs.nameIdx.map((i) => names[i]);
   const colW = Math.floor((BODY_W - 17) / 2);   // 329
   const G = ctx.interactive ? { ...d, ...SCREEN_GEO.twoAttr } : d;   // Level Set screen / key (see the base path)
@@ -526,7 +540,7 @@ function buildTwoAttr(bankLoc, d, { theme, locale }, ctx, sets) {
   const rows = cs.clues.map((c, i) => clueRow({ n: i + 1, html: clueHtml2(bankLoc, rng, c, forms, cs.pics, cs.pics2, n, G.inlinePic), ...(scr ? { px: G.textPx } : {}) }));
   const clueBlock = scr ? `<div data-lcs-cluecol style="display:flex;flex-direction:column;gap:8px;width:${BODY_W}px">${rows.join('')}</div>`
     : `<div data-lcs-cluecol style="display:grid;grid-template-columns:${colW}px ${colW}px;column-gap:${BODY_W - 2 * colW}px;row-gap:4px;align-content:start;width:${BODY_W}px">${rows.join('')}</div>`;
-  const grid = lGrid({ names: forms.map((f) => ({ label: f.nom })), pics: cs.pics.map((x) => ({ src: x.src, alt: x.alt })), pics2: cs.pics2.map((x) => ({ src: x.src, alt: x.alt })), cell: G.cell, headW: G.headW, hdrH: G.hdrH, namePx: (bankLoc.namePx && !scr) ? bankLoc.namePx : G.namePx, picPx: G.picPx, puzzle: 0, ...(key ? { solved: { np: cs.np, nc: cs.nc } } : {}) });
+  const grid = lGrid({ names: forms.map((f) => ({ label: f.nom })), pics: cs.pics.map((x, j) => ({ src: x.src, alt: x.alt, attr: tapSlot.attr(ctx, 'pic', j) })), pics2: cs.pics2.map((x, j) => ({ src: x.src, alt: x.alt, attr: tapSlot.attr(ctx, 'pic2', j) })), cell: G.cell, headW: G.headW, hdrH: G.hdrH, namePx: (bankLoc.namePx && !scr) ? bankLoc.namePx : G.namePx, picPx: G.picPx, puzzle: 0, ...(key ? { solved: { np: cs.np, nc: cs.nc } } : {}) });
   const stamps = caseStamps(0, n, d.kinds.join(','), cs, forms) + ` data-lcs-pics2="${esc(cs.keys2.join(','))}" data-lcs-nouns2="${esc(cs.pics2.map((x) => x.noun).join(','))}" ` +
     `data-lcs-attr2="${esc(attr2)}" data-lcs-clues='${esc(JSON.stringify(cs.clues))}' data-lcs-solution="np:${cs.np.join(',')};nc:${cs.nc.join(',')}"`;
   const band = `<section data-ws-content ${stamps} style="display:flex;flex-direction:column;gap:${BAND_GAP}px;width:${BODY_W}px;flex:0 0 auto">${clueBlock}` +
@@ -616,6 +630,7 @@ function buildRead(bankLoc, d, { theme, locale }, ctx, sets) {
     if (ok) cases = parts;
   }
   if (!cases) throw new Error(`${ID} read: no page for ${JSON.stringify(d.stmtKinds)} on "${theme}" — REFUSED`);
+  { const fin = slotKeys(ctx, cases.flatMap((c) => c.keys), allow, theme, 'pic', bad); cases.forEach((c, p) => { c.keys = fin.slice(p * n, (p + 1) * n); c.pics = c.keys.map((k) => picOf[k]); }); }
   const gridW = d.headW + n * d.cell, gridH = d.hdrH + n * d.cell;
   const stmtW = BODY_W - gridW - COL_GAP;
   const G = ctx.interactive ? { ...d, ...SCREEN_GEO.read } : d;   // Level Set screen / key: big glyphs (tap targets), the grid above
@@ -625,7 +640,7 @@ function buildRead(bankLoc, d, { theme, locale }, ctx, sets) {
     const rows = cs.stmts.map((st, i) => { const h = statementRow({ n: i + 1, html: stmtHtml(bankLoc, rng, st, forms, cs.pics, G.inlinePic), glyph: G.glyph, ...(scr ? { mode: 'screen', truth: !!cs.truth[i], px: G.textPx } : key ? { mode: 'key', truth: !!cs.truth[i] } : {}) });
       return scr ? h.replace(`data-lcs-stmt="${i}"`, `data-lcs-stmt="${i}" data-lcs-st='${esc(JSON.stringify(st))}' data-lcs-sol="${cs.sol.join(',')}"`) : h; });
     const col = `<div data-lcs-stmtcol style="display:flex;flex-direction:column;gap:${scr ? 12 : 6}px;width:${scr ? BODY_W : stmtW}px">${rows.join('')}</div>`;
-    const grid = logicGrid({ rows: forms.map((f) => ({ label: f.nom })), cols: cs.pics.map((x) => ({ src: x.src, alt: x.alt })), cell: G.cell, headW: G.headW, hdrH: G.hdrH, namePx: scr ? G.namePx : (bankLoc.namePx || G.namePx), picPx: G.picPx, mode: 'solved', solved: cs.sol, puzzle: p });
+    const grid = logicGrid({ rows: forms.map((f) => ({ label: f.nom })), cols: cs.pics.map((x, j) => ({ src: x.src, alt: x.alt, attr: tapSlot.attr(ctx, 'pic', p * n + j) })), cell: G.cell, headW: G.headW, hdrH: G.hdrH, namePx: scr ? G.namePx : (bankLoc.namePx || G.namePx), picPx: G.picPx, mode: 'solved', solved: cs.sol, puzzle: p });
     const stamps = caseStamps(p, n, d.stmtKinds.join(','), cs, forms) + ` data-lcs-solved="${cs.sol.join(',')}" data-lcs-stmts='${esc(JSON.stringify(cs.stmts))}' data-lcs-truth="${cs.truth.join(',')}"`;
     if (scr) return `<section data-ws-content ${stamps} style="display:flex;flex-direction:column;align-items:center;gap:14px;width:${BODY_W}px;flex:0 0 auto">${grid.html}${col}</section>`;
     return `<section data-ws-content ${stamps} style="display:grid;grid-template-columns:${stmtW}px ${gridW}px;gap:${COL_GAP}px;align-items:start;width:${BODY_W}px;flex:0 0 auto">${col}${grid.html}</section>`;
@@ -1235,6 +1250,7 @@ module.exports = {
       if (ok) cases = parts;
     }
     if (!cases) throw new Error(`${ID}: no page for ${JSON.stringify(d.kinds)} clues ${d.clues} on "${theme}" — REFUSED`);
+    { const fin = slotKeys(ctx, cases.flatMap((c) => c.keys), allow, theme, 'pic', bad); cases.forEach((c, p) => { c.keys = fin.slice(p * n, (p + 1) * n); }); }
 
     const gridW = d.headW + n * d.cell;
     const gridH = d.hdrH + n * d.cell;
@@ -1250,7 +1266,7 @@ module.exports = {
       const pics = cs.keys.map((k) => picOf[k]);
       const rows = cs.clues.map((c, i) => clueRow({ n: i + 1, html: clueHtml(bankLoc, rng, c, forms[c.a], pics, G.inlinePic), ...(scr ? { px: G.textPx } : {}) }));
       const clueCol = `<div data-lcs-cluecol style="display:grid;grid-template-rows:repeat(${rows.length},minmax(${G.inlinePic}px,auto));gap:4px;align-content:start;width:${scr ? BODY_W : clueW}px">${rows.join('')}</div>`;
-      const grid = logicGrid({ rows: forms.map((f) => ({ label: f.nom })), cols: pics.map((x) => ({ src: x.src, alt: x.alt })), cell: G.cell, headW: G.headW, hdrH: G.hdrH, namePx: scr ? G.namePx : (bankLoc.namePx || G.namePx), picPx: G.picPx, puzzle: p, ...(key ? { mode: 'solved', solved: cs.sol } : {}) });
+      const grid = logicGrid({ rows: forms.map((f) => ({ label: f.nom })), cols: pics.map((x, j) => ({ src: x.src, alt: x.alt, attr: tapSlot.attr(ctx, 'pic', p * n + j) })), cell: G.cell, headW: G.headW, hdrH: G.hdrH, namePx: scr ? G.namePx : (bankLoc.namePx || G.namePx), picPx: G.picPx, puzzle: p, ...(key ? { mode: 'solved', solved: cs.sol } : {}) });
       const bankHtml = strip && !scr ? answerBank({ rows: forms.map((f, a) => ({ name: f.nom, pics: pics.map((x, j) => ({ src: x.src, alt: x.alt, ...(key && cs.sol[a] === j ? { on: true } : {}) })) })), pic: d.bankPic, w: BODY_W }) : '';
       const stamps = `data-lcs-puzzle="${p}" data-lcs-size="${n}" data-lcs-kinds="${esc(d.kinds.join(','))}" data-lcs-names="${cs.nameIdx.join(',')}" ` +
         `data-lcs-pics="${esc(cs.keys.join(','))}" data-lcs-nouns="${esc(pics.map((x) => x.noun).join(','))}" data-lcs-forms='${esc(JSON.stringify(forms.map((f) => (f.ade ? { nom: f.nom, ade: f.ade } : { nom: f.nom }))))}' ` +

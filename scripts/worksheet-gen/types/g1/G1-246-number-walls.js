@@ -86,8 +86,21 @@ module.exports = {
     const usedBase = new Set(), usedTop = new Set();
     // mix (level 3): every wall one kind, shuffled, each kind equally often. Absent = the June draw (no rng spent).
     const kinds = d.mix ? rng.shuffle(Array.from({ length: d.walls }, (_, i) => d.mix[i % d.mix.length])) : null;
+    // spread (2026-11-01, NEW copies only — the published page, level 2 copy 1, keeps its June draw byte for byte): no
+    // answer may fill more than an eighth of the page's empty bricks (two where a page has fewer than 16). Small walls bunch on 3 and 4, and "write 3 in every
+    // brick" scored up to 31 % of them (settings-space); a wall that would tip one number over is drawn again.
+    const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
+    const tally = new Map();
+    const spreadOk = (base, blanks) => {
+      if (published || guard > 3000) return true;   // a level that cannot spread falls back to the plain draw
+      const v = numberWall.pyramidValues(base), add = new Map();
+      for (const k of blanks) { const [r, c] = k.split(',').map(Number); add.set(v[r][c], (add.get(v[r][c]) || 0) + 1); }
+      const total = [...tally.values()].reduce((a, b) => a + b, 0) + blanks.size;
+      const cap = Math.max(2, Math.ceil(total / 8));
+      return [...add].every(([val, k]) => (tally.get(val) || 0) + k <= cap);
+    };
     let guard = 0;
-    while (walls.length < d.walls && guard++ < (d.mix || d.topMin || d.pairMin ? 4000 : 500)) {
+    while (walls.length < d.walls && guard++ < (d.mix || d.topMin || d.pairMin || !published ? 4000 : 500)) {
       const kind = kinds ? kinds[walls.length] : null;
       const base = Array.from({ length: n }, () => rng.int(d.baseMin, d.baseMax));
       const values = numberWall.pyramidValues(base);
@@ -134,6 +147,8 @@ module.exports = {
         blanks.delete(`1,${c}`); given.add(`1,${c}`);
       }
       if (!numberWall.solvable(n, given)) continue;
+      if (!spreadOk(base, blanks)) continue;
+      { const v = numberWall.pyramidValues(base); for (const k of blanks) { const [r, c] = k.split(',').map(Number); tally.set(v[r][c], (tally.get(v[r][c]) || 0) + 1); } }
       usedBase.add(bkey); usedTop.add(top);
       walls.push({ base, blanks, topGiven: !!topGiven });
     }

@@ -46,7 +46,9 @@
     "odd-even": "Parilliset ja parittomat luvut",
     "place-value": "Paikka-arvo ja pyöristäminen",
     "fractions": "Murtoluvut",
-    "multiplication-division": "Kerto- ja jakolasku"
+    "multiplication-division": "Kerto- ja jakolasku",
+    "logic-puzzles": "Logiikkatehtävät",
+    "money": "Raha"
   },
   "editTitle": "Muokkaa otsikkoa",
   "editInstruction": "Muokkaa tehtävänantoa",

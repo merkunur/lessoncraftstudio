@@ -19,7 +19,7 @@
  * Screen: kind type-number (the child writes the answer → types it). Key: every answer written in its box.
  */
 'use strict';
-const { labelSafeNouns, fileUri, labels } = require('../../image-cache/resolve.js');
+const { labelSafeNouns, fileUri, labelsForKey: labels } = require('../../image-cache/resolve.js');
 const { answerBox } = require('../../templates/components.js');
 const { FRAMES } = require('../../data/word-problems/frames.js');
 const W = require('../../lib/word-problems-levelset.js');

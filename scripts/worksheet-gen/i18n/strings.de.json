@@ -815,7 +815,7 @@
   },
   "G3-353": {
     "title": "Sortieren mit zwei Kreisen",
-    "instruction": "Links: diese Sorte. Rechts: GROSSE. Mitte: beides! Weder noch: außerhalb. Verbinde jedes Bild mit seinem Platz."
+    "instruction": "Schreibe die Nummer jedes Bildes an seinen Platz: in den linken Kreis, was darüber zu sehen ist, in den rechten Kreis große Bilder, in die Mitte, was in beide passt, und in den Kasten außerhalb der Kreise, was in keinen passt."
   },
   "K-201": {
     "title": "Lebendig und nicht lebendig",
@@ -3688,7 +3688,7 @@
   },
   "G3-472": {
     "title": "Käfig-Rätsel 4 × 4",
-    "instruction": "In jeder Reihe und jeder Spalte kommen 1, 2, 3 und 4 genau einmal vor. Die Zahlen in einem dick umrandeten Käfig ergeben zusammen die kleine Zahl in seiner Ecke.{RULE}"
+    "instruction": "In jeder Reihe und Spalte steht jede Zahl von 1 bis 4 genau einmal. Die Zahlen in einem dick umrandeten Käfig ergeben zusammen die kleine Zahl in seiner Ecke.{RULE}"
   },
   "G1-472": {
     "title": "Bilder-Rechencode",
@@ -3697,5 +3697,41 @@
   "G3-473": {
     "title": "Waage-Rätsel mit Formen",
     "instruction": "Die Waagen sind im Gleichgewicht. Finde heraus, wie viel jede Form wiegt, und schreibe es in ihr Kästchen."
+  },
+  "K-461": {
+    "title": "Welche Münze ist das?",
+    "instruction": "Verbinde jede Münze mit ihrem Wert."
+  },
+  "G2-471": {
+    "title": "Möglichst wenige Münzen",
+    "instruction": "Lege jeden Betrag mit möglichst wenigen Münzen. Schreibe auf, wie viele du von jeder Münze brauchst."
+  },
+  "G2-472": {
+    "title": "Passend bezahlen",
+    "instruction": "Kreise Münzen ein, die zusammen genau den Preis ergeben."
+  },
+  "G2-473": {
+    "title": "Gleicher Betrag, andere Münzen",
+    "instruction": "Verbinde jede Geldbörse links mit der Geldbörse rechts, in der gleich viel Geld ist."
+  },
+  "G3-474": {
+    "title": "Scheine und Münzen zählen",
+    "instruction": "Zähle die Scheine und Münzen. Schreibe den Betrag auf."
+  },
+  "G1-473": {
+    "title": "Kaufladen: Preisschilder und Spielgeld",
+    "instruction": "Schneide die Preisschilder und das Spielgeld aus. Spielt Kaufladen!"
+  },
+  "G1-474": {
+    "title": "Rechnen mit Geheimwort",
+    "instruction": "Rechne die Bilder in jeder Reihe zusammen und schreibe das Ergebnis auf. Suche die Zahl im Code und schreibe ihren Buchstaben in das Kästchen mit der Nummer der Reihe. So findest du das Geheimwort."
+  },
+  "G1-475": {
+    "title": "Rechnen und Bild zusammensetzen",
+    "instruction": "Löse alle Aufgaben. Schneide die Teile aus und klebe jedes auf die Aufgabe, die seine Zahl ergibt. So entsteht ein Bild."
+  },
+  "G1-476": {
+    "title": "Zahlendetektiv",
+    "instruction": "Die Lösungen sind Zahlen von 1 bis {MAX}. Lies die Hinweise und schreibe die Zahl auf, die zu allen passt."
   }
 }

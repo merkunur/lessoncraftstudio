@@ -822,7 +822,7 @@
   },
   "G3-353": {
     "title": "Separe em dois círculos",
-    "instruction": "Esquerdo: este tipo. Direito: os GRANDES. Meio: os dois! Nenhum dos dois: fora. Ligue cada figura ao seu lugar."
+    "instruction": "Escreva o número de cada figura no lugar certo: no círculo da esquerda, o que aparece acima dele; no da direita, as figuras grandes; no meio, as que vão nos dois; e no retângulo, fora dos círculos, as que não vão em nenhum."
   },
   "K-201": {
     "title": "Seres Vivos e Não Vivos",
@@ -3692,5 +3692,41 @@
   "G3-473": {
     "title": "Balanças com formas",
     "instruction": "As balanças estão equilibradas. Descubra quanto pesa cada forma e escreva no quadradinho dela."
+  },
+  "K-461": {
+    "title": "Que moeda é esta?",
+    "instruction": "Ligue cada moeda ao seu valor."
+  },
+  "G2-471": {
+    "title": "O menor número de moedas",
+    "instruction": "Forme cada quantia com o menor número de moedas possível. Escreva quantas moedas de cada tipo você vai usar."
+  },
+  "G2-472": {
+    "title": "Pague o valor exato",
+    "instruction": "Circule moedas que somem exatamente o preço."
+  },
+  "G2-473": {
+    "title": "Mesma quantia, moedas diferentes",
+    "instruction": "Ligue cada carteira da esquerda à carteira da direita que tem a mesma quantia."
+  },
+  "G3-474": {
+    "title": "Conte cédulas e moedas",
+    "instruction": "Conte as cédulas e as moedas. Escreva o total."
+  },
+  "G1-473": {
+    "title": "Mercadinho: etiquetas de preço e dinheiro de brinquedo",
+    "instruction": "Recorte as etiquetas de preço e o dinheiro de brinquedo. Vamos brincar de mercadinho!"
+  },
+  "G1-474": {
+    "title": "Adição com palavra secreta",
+    "instruction": "Some as figuras de cada linha e escreva o resultado. Procure esse número no código e escreva a letra dele no quadrinho com o número da linha para descobrir a palavra secreta."
+  },
+  "G1-475": {
+    "title": "Resolva e monte a figura",
+    "instruction": "Resolva cada conta. Recorte as peças e cole cada uma na conta cujo resultado é o número dela. As peças formam uma figura."
+  },
+  "G1-476": {
+    "title": "Detetive dos números",
+    "instruction": "Os números secretos vão de 1 a {MAX}. Leia as pistas e escreva o número que combina com todas."
   }
 }

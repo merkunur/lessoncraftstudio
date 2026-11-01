@@ -18,6 +18,7 @@
 'use strict';
 
 const { SHOP_FRAMES } = require('../data/b2/shop-frames.js');
+const platform = require('./platform/index.js');
 const { slotFor } = require('./answer-slots.js');
 
 const CORAL = '#F2784B';
@@ -153,7 +154,9 @@ function screenOrKey(mode, built, ctx, loc) {
       const ok = [0, 1, 2].filter((r) => feas[r]);
       if (!ok.length) return 0;
       const tot = ok.reduce((a, r) => a + W[r], 0);
-      let x = (require('crypto').createHash('sha1').update(sig + key + '|rank').digest().readUInt32LE(0) / 4294967296) * tot;
+      // platform SHA-1 (Node crypto here, pure JS in the browser maker), the first 4 bytes read little-endian = Buffer.readUInt32LE(0)
+      const h = platform.sha1Bytes(sig + key + '|rank');
+      let x = (((h[0] | (h[1] << 8) | (h[2] << 16) | (h[3] << 24)) >>> 0) / 4294967296) * tot;
       for (const r of ok) { if ((x -= W[r]) < 0) return r; }
       return ok[ok.length - 1];
     };

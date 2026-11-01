@@ -822,7 +822,7 @@
   },
   "G3-353": {
     "title": "Sortér i to cirkler",
-    "instruction": "Venstre: denne slags. Højre: STORE. Midten: begge! Ingen af delene: udenfor. Forbind hvert billede med dets plads."
+    "instruction": "Skriv hvert nummer på det rigtige sted: i den venstre cirkel det, der står over den, i den højre cirkel store billeder, i midten det, der passer i begge, og i rammen uden for cirklerne det, der ikke passer i nogen af dem."
   },
   "K-201": {
     "title": "Levende og ikke-levende",
@@ -3672,5 +3672,41 @@
   "G3-473": {
     "title": "Vægtpuslespil med former",
     "instruction": "Vægtene er i balance. Find ud af, hvor meget hver form vejer, og skriv det i feltet."
+  },
+  "K-461": {
+    "title": "Hvilken mønt er det?",
+    "instruction": "Tegn en streg fra hver mønt til dens værdi."
+  },
+  "G2-471": {
+    "title": "Så få mønter som muligt",
+    "instruction": "Lav hvert beløb med så få mønter som muligt. Skriv, hvor mange du skal bruge af hver mønt."
+  },
+  "G2-472": {
+    "title": "Betal det præcise beløb",
+    "instruction": "Sæt ring om mønter, der tilsammen giver præcis prisen."
+  },
+  "G2-473": {
+    "title": "Samme beløb, andre mønter",
+    "instruction": "Tegn en streg fra hver pung i venstre side til den pung i højre side, der indeholder lige mange penge."
+  },
+  "G3-474": {
+    "title": "Tæl sedler og mønter",
+    "instruction": "Tæl sedlerne og mønterne. Skriv beløbet."
+  },
+  "G1-473": {
+    "title": "Leg købmand: prismærker og legepenge",
+    "instruction": "Klip prismærkerne og legepengene ud. Leg købmand!"
+  },
+  "G1-474": {
+    "title": "Plusstykker med hemmeligt ord",
+    "instruction": "Læg billederne i hver række sammen, og skriv resultatet. Find tallet i koden, og skriv bogstavet i feltet med rækkens nummer. Så finder du det hemmelige ord."
+  },
+  "G1-475": {
+    "title": "Regn og saml billedet",
+    "instruction": "Regn alle stykkerne ud. Klip brikkerne ud, og lim hver brik på det stykke, der giver brikkens tal. Brikkerne bliver til et billede."
+  },
+  "G1-476": {
+    "title": "Taldetektiven",
+    "instruction": "Det hemmelige tal er et tal fra 1 til og med {MAX}. Læs ledetrådene, og skriv det tal, der passer til dem alle."
   }
 }

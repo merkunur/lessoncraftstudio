@@ -43,6 +43,7 @@ function parseArgs(argv) {
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--dry-run') args.dryRun = true;
+    else if (a === '--list-all') args.listAll = true;   // --dry-run prints every deck id (tools that check an enumeration)
     else if (a === '--force') args.force = true;
     else if (a === '--wave') args.wave = argv[++i];
     else if (a === '--limit') args.limit = Number(argv[++i]);
@@ -79,8 +80,9 @@ async function generate(args) {
   skipped.forEach((s) => console.log('  SKIP-TYPE ' + s.typeId + ': ' + s.reason));
 
   if (args.dryRun) {
-    list.slice(0, 30).forEach((it) => console.log('  ' + it.deckId));
-    if (list.length > 30) console.log('  … +' + (list.length - 30) + ' more');
+    const shown = args.listAll ? list : list.slice(0, 30);
+    shown.forEach((it) => console.log('  ' + it.deckId));
+    if (list.length > shown.length) console.log('  … +' + (list.length - shown.length) + ' more');
     return;
   }
 

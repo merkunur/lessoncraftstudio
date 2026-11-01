@@ -5,6 +5,7 @@
  */
 'use strict';
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
+const slot = require('../../lib/slot.js');
 
 /** count solutions of a 4×4 sudoku (values 0-3 or -1), early-exit at 2 */
 function countSolutions(grid) {
@@ -52,7 +53,8 @@ module.exports = {
   build({ theme, difficulty }, ctx) {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
-    const nouns = rng.sample(labelSafeNouns(theme), 4);
+    // tap-to-edit (lib/slot.js): a teacher may swap a picture of the puzzle — its legend tile is the tap target
+    const nouns = slot.pictures(ctx, rng.sample(labelSafeNouns(theme), 4), labelSafeNouns(theme), theme);
 
     // random Latin square via row/col/symbol shuffles of a base solution
     const base = [0, 1, 2, 3, 2, 3, 0, 1, 1, 0, 3, 2, 3, 2, 1, 0];
@@ -99,7 +101,7 @@ module.exports = {
     }).join('');
 
     const key = nouns.map((n, v) =>
-      `<span class="ws-pattern-slot" style="width:74px;height:74px"${ctx && ctx.screen ? ` data-lcs-bin="${v}"` : ''}>` +
+      `<span class="ws-pattern-slot" style="width:74px;height:74px"${ctx && ctx.screen ? ` data-lcs-bin="${v}"` : ''}${slot.attr(ctx, 'pic', v)}>` +
       `<img class="ws-icon" src="${fileUri(theme, n.noun)}" alt="" style="width:52px;height:52px"></span>`).join('');
 
     return {

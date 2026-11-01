@@ -82,7 +82,7 @@ module.exports = {
     if (!published && !LS_THEMES.has(themeFamily(theme))) throw new Error(`G1-249: theme ${theme} is not a Level Set sentence theme`);
     const animalTheme = LS_ANIMAL_THEMES.has(themeFamily(theme));
     // the screen version / answer key wrap the SAME printed instance (the print build, then its meta drives both)
-    if (!published && this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
+    if ((!published || (ctx && ctx.publishedScreen && ctx.interactive)) && this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {
       const built = this.build({ theme, difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
       return SBL_SCREEN.screenOrKey(built, ctx, loc);
     }

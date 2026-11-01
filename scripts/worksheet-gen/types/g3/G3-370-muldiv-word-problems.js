@@ -21,7 +21,7 @@
 'use strict';
 const { answerBox } = require('../../templates/components.js');
 const { dotPanel, equalGroups, rulingBlock } = require('../../templates/components-b2.js');
-const { fileUri, labels } = require('../../image-cache/resolve.js');
+const { fileUri, labelsForKey: labels } = require('../../image-cache/resolve.js');
 const { safeNouns } = require('../../lib/b2-common.js');
 const { WP_MULDIV } = require('../../data/b2/wp-muldiv-frames.js');
 const W = require('../../lib/word-problems-levelset.js');

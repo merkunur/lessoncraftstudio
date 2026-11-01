@@ -819,7 +819,7 @@
   },
   "G3-353": {
     "title": "Sorteren met twee cirkels",
-    "instruction": "Links: deze soort. Rechts: GROTE. Midden: allebei! Geen van beide: erbuiten. Verbind elk plaatje met zijn plek."
+    "instruction": "Schrijf het nummer van elk plaatje op de goede plek: in de linkercirkel wat erboven staat, in de rechtercirkel grote plaatjes, in het midden wat in allebei past en in het kader buiten de cirkels wat in geen van beide past."
   },
   "K-201": {
     "title": "Levend en niet-levend",
@@ -3686,5 +3686,41 @@
   "G3-473": {
     "title": "Weegschaalpuzzels met vormen",
     "instruction": "De weegschalen zijn in evenwicht. Zoek uit hoeveel elke vorm weegt en schrijf het in het vakje."
+  },
+  "K-461": {
+    "title": "Welke munt is dit?",
+    "instruction": "Verbind elke munt met zijn waarde."
+  },
+  "G2-471": {
+    "title": "Zo weinig mogelijk munten",
+    "instruction": "Maak elk bedrag met zo weinig mogelijk munten. Schrijf op hoeveel je van elke munt nodig hebt."
+  },
+  "G2-472": {
+    "title": "Gepast betalen",
+    "instruction": "Omcirkel munten die samen precies de prijs zijn."
+  },
+  "G2-473": {
+    "title": "Hetzelfde bedrag, andere munten",
+    "instruction": "Verbind elke portemonnee links met de portemonnee rechts waar evenveel geld in zit."
+  },
+  "G3-474": {
+    "title": "Briefjes en munten tellen",
+    "instruction": "Tel de briefjes en de munten. Schrijf het bedrag op."
+  },
+  "G1-473": {
+    "title": "Winkeltje: prijskaartjes en speelgeld",
+    "instruction": "Knip de prijskaartjes en het speelgeld uit. Speel winkeltje!"
+  },
+  "G1-474": {
+    "title": "Optellen met een geheim woord",
+    "instruction": "Tel de plaatjes in elke rij op en schrijf de uitkomst op. Zoek dat getal in de code en schrijf de letter in het vakje met het nummer van de rij. Zo vind je het geheime woord."
+  },
+  "G1-475": {
+    "title": "Reken uit en maak het plaatje",
+    "instruction": "Reken de sommen uit. Knip de stukjes uit. Plak elk stukje op de som waar zijn getal uitkomt. Ze vormen een plaatje."
+  },
+  "G1-476": {
+    "title": "Getallendetective",
+    "instruction": "Het getal is van 1 tot en met {MAX}. Lees de aanwijzingen en schrijf het getal op dat bij alle aanwijzingen past."
   }
 }

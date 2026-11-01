@@ -10,6 +10,7 @@
  *   choice   qa/guessability choicePicks (slot, rotation, number rank, label length, parts, shared tokens)
  *            + the option with the fewest / most pictures, the smallest / biggest box ("the big chip is right")
  *   select   first half / second half / alternate (reading order); every-other in a group
+ *   blank    an OPTIONAL write box ("leave it empty if …"): leave every one empty, against 1/2
  *   type     the pool's most common answer; the box's own index (box 1 → 1, box 2 → 2…); the index from the end;
  *            the previous answer + 1; a number printed in the box's own card (the echo tell)
  *   pair     item k ↔ target k (reading order); reversed; the target in the same row; the nearest target
@@ -45,7 +46,7 @@ function enrichMarks(model) {
     } else if (p.cls === 'select') {
       out.push({ kind: 'select', items: p.items.map((it) => ({ x: it.x, y: it.y, answer: !!it.answer, group: it.meta['data-lcs-group'] || null, want: it.meta['data-lcs-want'] != null ? +it.meta['data-lcs-want'] : null })) });
     } else if (p.cls === 'type') {
-      out.push({ kind: 'type', items: p.items.map((it, i) => { const el = all[it.dom]; const c = cardOf(el); let cardNums = []; if (c) { const clone = c.cloneNode(true); clone.querySelectorAll('[data-lcs-answer]').forEach((b) => b.remove()); cardNums = nums(clone.textContent); } return { answer: String(it.answer), idx: i, cardIdx: c ? cards.indexOf(c) : -1, cardNums, x: it.x, y: it.y }; }) });
+      out.push({ kind: 'type', items: p.items.map((it, i) => { const el = all[it.dom]; const c = cardOf(el); let cardNums = []; if (c) { const clone = c.cloneNode(true); clone.querySelectorAll('[data-lcs-answer]').forEach((b) => b.remove()); cardNums = nums(clone.textContent); } return { answer: String(it.answer), idx: i, cardIdx: c ? cards.indexOf(c) : -1, cardNums, optional: el.hasAttribute('data-lcs-optional'), x: it.x, y: it.y }; }) });
     } else if (p.cls === 'pair') {
       out.push({ kind: 'pair', items: p.items.map((it) => ({ x: it.x, y: it.y, answer: String(it.answer) })), targets: p.targets.map((t) => ({ x: t.x, y: t.y, id: String(t.id) })) });
     } else if (p.cls === 'place') {
@@ -74,7 +75,7 @@ function readDeclared(sp) {
   }
   if (sp.kind === 'tap-select') return items.length ? [{ kind: 'select', items: items.map((el) => ({ ...box(el), answer: el.hasAttribute(sp.answerAttr), group: null, want: null })) }] : [];
   if (sp.kind === 'type-number' || sp.kind === 'type-word') {
-    return items.length ? [{ kind: 'type', items: items.map((el, i) => { const c = (el.closest && el.closest('[data-lcs-card], .ws-card')) || null; let cardNums = []; if (c) { const clone = c.cloneNode(true); clone.querySelectorAll(sp.item.split(' ').pop()).forEach((b) => b.remove()); cardNums = nums(clone.textContent); } return { answer: String(el.getAttribute(sp.answerAttr) || ''), idx: i, cardIdx: c ? cards.indexOf(c) : -1, cardNums, ...box(el) }; }) }] : [];
+    return items.length ? [{ kind: 'type', items: items.map((el, i) => { const c = (el.closest && el.closest('[data-lcs-card], .ws-card')) || null; let cardNums = []; if (c) { const clone = c.cloneNode(true); clone.querySelectorAll(sp.item.split(' ').pop()).forEach((b) => b.remove()); cardNums = nums(clone.textContent); } return { answer: String(el.getAttribute(sp.answerAttr) || ''), idx: i, cardIdx: c ? cards.indexOf(c) : -1, cardNums, optional: el.hasAttribute('data-lcs-optional'), ...box(el) }; }) }] : [];
   }
   return null;   // spell / paint / trace / clock / grid / edit: no position instrument here (reported by the gate)
 }
@@ -104,7 +105,13 @@ function choiceStrategies(opts, i, pictures) {
  */
 function measure(pages) {
   const byKind = {};
-  pages.forEach((bs, pg) => { for (const b of bs || []) (byKind[b.kind] = byKind[b.kind] || []).push({ ...b, pg }); });
+  // an OPTIONAL write box (right when it holds the number, or stays empty — "leave it empty if the sum is right / you do
+  // not need that coin"): leaving it empty is a yes/no decision, measured on its own against 1/2 ('blank': "leave every
+  // box empty"); the boxes stay in the 'type' group for every other strategy, where an empty optional box is no longer
+  // "the most common answer" against 1/(distinct answers) — that scored an empty box beside a correct sum as a tell
+  // however balanced the page (2026-11-01). "Fill every box" is no strategy: the number still has to be right.
+  const split = (b) => (b.kind === 'type' && b.items.some((it) => it.optional) ? [b, { kind: 'blank', items: b.items.filter((it) => it.optional) }] : [b]);
+  pages.forEach((bs, pg) => { for (const b0 of bs || []) for (const b of split(b0)) if (b.items.length) (byKind[b.kind] = byKind[b.kind] || []).push({ ...b, pg }); });
   const out = [];
   for (const [kind, list] of Object.entries(byKind)) {
     const S = {}; let q = 0, chanceSum = 0;
@@ -116,21 +123,29 @@ function measure(pages) {
       const counts = {};
       list.forEach((b) => b.items.forEach((it) => { counts[it.answer] = (counts[it.answer] || 0) + 1; }));
       const distinct = Object.keys(counts).length;
-      const mode = Object.entries(counts).sort((a, b) => b[1] - a[1])[0][0];
+      const optBlank = list.every((b) => b.items.every((it) => it.answer !== '' || it.optional));
+      const ranked = Object.entries(counts).sort((a, b) => b[1] - a[1]).filter(([a]) => !(optBlank && a === ''));
+      const mode = ranked.length ? ranked[0][0] : null;
       const chance = 1 / Math.max(2, distinct);
       for (const b of list) {
         const n = b.items.length;
         b.items.forEach((it, i) => {
           ask(b.pg, chance);
-          hit('const-' + mode, it.answer === mode, b.pg);
+          if (mode !== null) hit('const-' + mode, it.answer === mode, b.pg);
           hit('index', it.answer === String(i + 1), b.pg);
           hit('index-rev', it.answer === String(n - i), b.pg);
           if (it.cardIdx >= 0) hit('card-index', it.answer === String(it.cardIdx + 1), b.pg);
           if (i > 0 && /^\d+$/.test(b.items[i - 1].answer)) hit('prev+1', it.answer === String(+b.items[i - 1].answer + 1), b.pg);
-          if (i > 0) hit('same-as-prev', it.answer === b.items[i - 1].answer, b.pg);
+          // two empty optional boxes in a row are the yes/no decision ('blank'), not a number copied from the box before
+          if (i > 0) hit('same-as-prev', it.answer === b.items[i - 1].answer && !(optBlank && it.answer === ''), b.pg);
           if (it.cardNums && it.cardNums.length) hit('echo', it.cardNums.map(String).includes(it.answer), b.pg);
         });
       }
+    } else if (kind === 'blank') {
+      for (const b of list) b.items.forEach((it) => {
+        ask(b.pg, 0.5);
+        hit('leave-empty', it.answer === '', b.pg);
+      });
     } else if (kind === 'choice') {
       for (const b of list) b.items.forEach((it, i) => {
         const opts = it.options; if (opts.length < 2) return;

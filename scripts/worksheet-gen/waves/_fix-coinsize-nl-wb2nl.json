@@ -1,0 +1,28 @@
+{
+ "id": "wave-b2-nl",
+ "seedEpoch": 1,
+ "locales": [
+  "nl"
+ ],
+ "themes": [
+  "animals",
+  "vehicles",
+  "toys",
+  "fruits",
+  "animals bw",
+  "fruits bw",
+  "farm animals bw",
+  "toys bw"
+ ],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G2-276"
+ ],
+ "themeOverrides": {
+  "G2-276": "fruits"
+ },
+ "_note": "2026-11-01 coins drawn at their real sizes: pinned re-generation of the live published pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file."
+}

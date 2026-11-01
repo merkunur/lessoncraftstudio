@@ -1,0 +1,40 @@
+{
+ "id": "wave-b2var-pt",
+ "seedEpoch": 1,
+ "locales": [
+  "pt"
+ ],
+ "themes": [
+  "animals",
+  "vehicles",
+  "toys",
+  "fruits",
+  "animals bw",
+  "fruits bw",
+  "farm animals bw",
+  "toys bw"
+ ],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G2-292",
+  "G2-295",
+  "G2-291",
+  "G2-289",
+  "G2-290",
+  "G2-294",
+  "G2-293"
+ ],
+ "themeOverrides": {
+  "G2-292": "fruits",
+  "G2-295": "toys",
+  "G2-291": "toys",
+  "G2-289": "animals",
+  "G2-290": "vehicles",
+  "G2-294": "vehicles",
+  "G2-293": "animals"
+ },
+ "_note": "2026-11-01 coins drawn at their real sizes: pinned re-generation of the live published pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file."
+}

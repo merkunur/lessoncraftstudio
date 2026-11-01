@@ -10,6 +10,10 @@
  *   • otherwise → keep
  * Titles: the regenerated manifest title must equal the live one; a different one is replaced by the live title
  * (manifest + deck.html) so the republish never moves a page's title.
+ * --positions: the words must also sit where they sat (pdftotext -bbox) — a change drawn in vector shapes (coin tokens at
+ * their real sizes, 2026-11-01) moves the numerals inside them but changes no word and no picture.
+ * Every kept page is reported with whether its WORDS changed: a fix that should only move things must show none.
+ * --keep-all: never drop a page (a fix drawn in strokes or opacity, which neither words nor picture places show).
  * Without --apply it only reports.
  */
 'use strict';
@@ -24,9 +28,16 @@ const WG = path.resolve(__dirname, '..');
 const [LIVE, LIVEDIR] = process.argv.slice(2).filter((a) => !a.startsWith('--'));
 const APPLY = process.argv.includes('--apply');
 const TAG = (process.argv.find((a) => a.startsWith('--tag=')) || '--tag=guess').slice(6);   // as guessfix-regen.js --tag
+const POSITIONS = process.argv.includes('--positions');
+// --keep-all: a fix the comparison cannot see (a stroke width, an opacity — G1-349's crossed-out clue, 2026-11-01) keeps
+// every regenerated page; titles are still restored
+const KEEP_ALL = process.argv.includes('--keep-all');
+/** every word with its box, rounded to a tenth of a point (PyMuPDF: the Windows pdftotext is Xpdf 4.00, no -bbox) */
+const boxes = (pdf) => execFileSync('python', [path.join(__dirname, 'pdf-word-boxes.py'), pdf], { encoding: 'utf8', maxBuffer: 64 << 20 }).trim().split(/\r?\n/).join(' ');
+let wordsChanged = 0;
 if (!LIVE || !LIVEDIR) throw new Error('usage: guessfix-compare.js <live.jsonl> <liveDir> [--apply]');
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'guessfix-'));
-const text = (pdf) => execFileSync('pdftotext', ['-layout', pdf, '-'], { encoding: 'utf8', maxBuffer: 64 << 20 })
+const text = (pdf) => execFileSync('pdftotext', ['-enc', 'UTF-8', '-layout', pdf, '-'], { encoding: 'utf8', maxBuffer: 64 << 20 })
   .split(/\r?\n/).map((l) => l.replace(/\s+/g, ' ').trim()).filter(Boolean);
 
 const live = fs.readFileSync(LIVE, 'utf8').trim().split(/\r?\n/).map((l) => JSON.parse(l));
@@ -55,9 +66,11 @@ for (const d of live) {
     const y0 = list.length ? +list[0].split(",")[3] : 0;
     return list.map((p) => { const [h, xy] = p.split("@"); const v = xy.split(","); return h + "@" + v[0] + "," + v[1] + "," + v[2] + "," + (+v[3] - y0); }).join(" ");
   };
-  const same = words(a) === words(b) && pics(await pdfpics(fs.readFileSync(old))) === pics(await pdfpics(fs.readFileSync(fresh)));
-  if (same) { s.same++; drop.push({ dir, d }); continue; }
-  s.changed++;
+  const sameWords = words(a) === words(b);
+  const same = sameWords && pics(await pdfpics(fs.readFileSync(old))) === pics(await pdfpics(fs.readFileSync(fresh))) && (!POSITIONS || boxes(old) === boxes(fresh));
+  if (same && !KEEP_ALL) { s.same++; drop.push({ dir, d }); continue; }
+  if (same) s.same++; else s.changed++;   // --keep-all: kept, but counted as unchanged
+  if (!sameWords) { wordsChanged++; s.words = (s.words || 0) + 1; if (wordsChanged <= 10) console.log('words differ ' + d.loc + ' ' + d.deck_id); }
   const m = JSON.parse(zip.readAsText('manifest.json'));
   const liveM = JSON.parse(fs.readFileSync(path.join(LIVEDIR, d.loc, d.slug, 'manifest.json'), 'utf8'));
   if (JSON.stringify(m.title) !== JSON.stringify(liveM.title)) {
@@ -73,7 +86,8 @@ for (const d of live) {
     }
   }
 }
-for (const [k, s] of Object.entries(stats).sort()) console.log(k.padEnd(14) + ' changed ' + s.changed + '  unchanged ' + s.same + (s.missing ? '  MISSING ' + s.missing : ''));
+for (const [k, s] of Object.entries(stats).sort()) console.log(k.padEnd(14) + ' changed ' + s.changed + (s.words ? ' (words ' + s.words + ')' : '') + '  unchanged ' + s.same + (s.missing ? '  MISSING ' + s.missing : ''));
+console.log('kept pages whose words changed: ' + wordsChanged);
 console.log('unchanged pages to drop: ' + drop.length + ', titles restored: ' + retitled);
 if (APPLY) {
   for (const { dir, d } of drop) {

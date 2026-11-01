@@ -1,0 +1,22 @@
+{
+ "id": "wave-nt20-fi",
+ "seedEpoch": 1,
+ "locales": [
+  "fi"
+ ],
+ "themes": [
+  "animals",
+  "fruits",
+  "toys",
+  "vehicles"
+ ],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-211"
+ ],
+ "themeOverrides": {},
+ "_note": "2026-11-01 coins drawn at their real sizes: pinned re-generation of the live published pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file."
+}

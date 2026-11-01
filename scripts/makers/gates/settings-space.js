@@ -20,7 +20,7 @@
  * K-006 with every write box answering its own card number must FAIL; a synthetic pair page where item k ↔ target k
  * must FAIL; a place page that always answers bin 0 must FAIL; the real K-002 / K-006 pools must PASS.
  *
- *   node scripts/makers/gates/settings-space.js [--makers=a,b] [--locales=en,fi] [--copies=6] [--quick] [--json=out.json]
+ *   node scripts/makers/gates/settings-space.js [--makers=a,b] [--locales=en,fi] [--copies=6] [--quick] [--ids=G1-232] [--json=out.json]
  *   (quick: en only, 3 copies)
  */
 'use strict';
@@ -57,6 +57,13 @@ const EXEMPT = {
   'G1-113': [/^(echo|same-as-prev|const-\d+)$/, 'fact families: the four sentences use the same three numbers, printed by the two groups'],
   'G1-369': [/^(same-as-prev|const-[01])$/, 'a fair share: each friend gets the same number, and what is left over is 0 or 1 — that IS odd or even'],
   'G2-351': [/^(same-as-prev|const-[01])$/, 'two EQUAL addends: the two boxes hold the same number, and the left-over box is 0 or 1 — that IS odd or even'],
+  // [regex, why, locales?] — a third element scopes the entry to the locales whose own data make the pattern the lesson
+  'K-031': [/^prev\+1$/, 'write the position counting from the arrow: two marked pictures side by side ARE n and n + 1 — counting on is the lesson'],
+  'K-389': [/^(same-as-prev|const-.+)$/, 'one sight word per page: the title names the word and every gap takes it — writing it again IS the practice'],
+  'K-437': [/^const-\p{L}$/u, "the missing letter is the word's own: vowels are the most frequent letters of any sight-word list, and 'always a' fills one gap in six, never a word"],
+  'G1-439': [/^card-index$/, 'the two jump boxes hold the steps to and past the ten (1-9), so a card number (1-4) is sometimes a step by chance; the third box (the result, 20-100) never is — the strategy solves no card'],
+  'G1-266': [/^const-\d+$/, 'number walls to 10 with bases 1-3: the sums of small numbers cluster on 3 and 4 (the level range is 2-8) — every new page caps one number at an eighth of its bricks where the range allows, and one number never completes a wall'],
+  'G1-267': [/^(const-\d+|prev\+1)$/, 'four-course walls of small numbers: the sums cluster on 3-5, and two neighbouring sums differ by the difference of the outer bricks ("one more than the brick before" is arithmetic) — the generator spreads every new page; one number never completes a wall'],
   'K-444': [/^same-as-prev$/, 'count on: the worked trail writes each number counted on, so the total repeats the last trail box'],
   'K-445': [/^same-as-prev$/, 'same number? both groups are counted; on the "yes" rows the two counts are equal'],
   'K-452': [/^same-as-prev$/, 'three ways to show ONE number: the number repeats'],
@@ -70,9 +77,10 @@ const EXEMPT = {
   'G3-389': [/^const-\d+$/, 'level 1 numbers stay within 50, so they round to the four tens 20–50'],
   'G2-206': [/^const-1$/, 'make A ten: 11–19 ones bundle into one ten — the tens box is 1 by the task'],
 };
-function exemptFor(id, r) {
+function exemptFor(id, r, locale) {
   const ex = EXEMPT[id];
   if (!ex || !r.strategies) return r;
+  if (ex[2] && !ex[2].includes(locale)) return r;   // an entry scoped to the locales whose data make the pattern the lesson
   const kept = r.strategies.filter((st) => !ex[0].test(st.name));
   if (kept.length === r.strategies.length) return r;
   const rank = { FAIL: 2, WARN: 1, PASS: 0 };
@@ -104,16 +112,44 @@ const COPIES = Number(A.copies || (QUICK ? 3 : 6));
     return { bundles: b };
   }
 
+  /** the pool of one template × locale × level: pages over the control values (copies per theme × word), read */
+  async function poolsFor({ maker, t, type, tj, loc, d, mode, copies, sample }) {
+    const space = MP.settingsSpace(t, loc, { themes: 2, units: 2, copies, levels: [d], sample });
+    // an unthemed, wordless template has one axis (the copy): give it the whole pool on that axis
+    const opts = (!t.themed && !(t.units && t.units[loc] && t.units[loc].length) && (t.copiesDiffer || []).includes(d)) ? Array.from({ length: copies * 2 }, (_, i) => ({ difficulty: d, theme: null, unit: null, variant: i + 1 + sample * copies * 2 })) : space;
+    const pools = [];
+    let skip = null, empty = 0;
+    for (const o of opts) {
+      let html;
+      try {
+        if (mode === 'marks') html = MP.buildPage(t, type, tj, loc, o, { screen: true }).screenHtml;
+        else html = MP.buildDeclaredScreen(t, type, tj, loc, o).html;
+      } catch (e) { fail(`${maker} ${t.id} ${loc} L${d} ${JSON.stringify(o)}: build — ${e.message}`); continue; }
+      const r = await readPage(html, mode, type.interactive);
+      if (r.skip) { skip = r.skip; break; }
+      if (r.err) { fail(`${maker} ${t.id} ${loc} L${d} v${o.variant} ${o.theme || ''}: ${r.err}`); continue; }
+      pagesN++;
+      // the PUBLISHED page (level 2, copy 1) of a declared-screen template is rebuilt exactly as it shipped, with no
+      // screen build (its interactive version is the catalogue's own deck): no graded answer there is by design.
+      // Every other page must yield one. (main session 2026-11-01: 45 "measured nothing" lines were all this page)
+      const publishedDeclared = mode !== 'marks' && Number(o.difficulty) === 2 && Number(o.variant || 1) === 1;
+      if ((!r.bundles.length || !r.bundles.some((b) => b.items.length)) && !publishedDeclared) empty++;
+      pools.push(r.bundles);
+    }
+    return { pools, skip, empty };
+  }
+  const tpl = {};
+
   /** measure one pool and report (an exempt strategy of that template is dropped before the verdict — EXEMPT) */
   function judge(tag, pools, extra) {
-    const res = GM.measure(pools).map((r) => exemptFor((extra && extra.id) || tag.split(' ')[1], r));
+    const res = GM.measure(pools).map((r) => exemptFor((extra && extra.id) || tag.split(' ')[1], r, extra && extra.locale));
     const out = [];
     for (const r of res) {
       groups++; questions += r.questions;
       const w = r.worst;
       const line = `${tag} ${r.kind.padEnd(6)} pages=${String(r.pages).padStart(3)} q=${String(r.questions).padStart(4)} chance=${(r.chance * 100).toFixed(0).padStart(3)}%` + (w ? ` worst ${w.name}=${(w.score * 100).toFixed(0)}% z=${w.z.toFixed(1)}` : '');
       report.push({ tag, ...extra, kind: r.kind, pages: r.pages, questions: r.questions, chance: r.chance, verdict: r.verdict, worst: w ? { name: w.name, score: w.score, z: w.z, pagesSolved: w.pagesSolved } : null });
-      if (r.verdict === 'FAIL') fail(line);
+      if (r.verdict === 'FAIL') console.log('FAIL ' + line);   // counted after the replication check below
       else if (r.verdict === 'WARN') console.log('WARN ' + line);
       else if (A.verbose) console.log('ok   ' + line);
       out.push(r);
@@ -124,6 +160,7 @@ const COPIES = Number(A.copies || (QUICK ? 3 : 6));
   for (const { maker, tj } of makers) {
     let mk = 0;
     for (const t of tj.templates) {
+      if (A.ids && !String(A.ids).split(',').includes(t.id)) continue;   // --ids=G1-232,… (a quick re-measure of named templates)
       const type = MP.loadType(t);
       const mode = t.screen === 'marks' ? 'marks' : t.interactive ? 'declared' : null;
       if (!mode) { noInstrument++; continue; }
@@ -133,32 +170,13 @@ const COPIES = Number(A.copies || (QUICK ? 3 : 6));
         // know the locale, so the same themes and copies would re-measure the same numbers under other labels
         const sample = LOCS.indexOf(loc);
         for (const d of lv) {
-          const space = MP.settingsSpace(t, loc, { themes: 2, units: 2, copies: COPIES, levels: [d], sample });
-          // an unthemed, wordless template has one axis (the copy): give it the whole pool on that axis
-          const opts = (!t.themed && !(t.units && t.units[loc] && t.units[loc].length) && (t.copiesDiffer || []).includes(d)) ? Array.from({ length: COPIES * 2 }, (_, i) => ({ difficulty: d, theme: null, unit: null, variant: i + 1 + sample * COPIES * 2 })) : space;
-          const pools = [];
-          let skip = null, empty = 0;
-          for (const o of opts) {
-            let html;
-            try {
-              if (mode === 'marks') html = MP.buildPage(t, type, tj, loc, o, { screen: true }).screenHtml;
-              else html = MP.buildDeclaredScreen(t, type, tj, loc, o).html;
-            } catch (e) { fail(`${maker} ${t.id} ${loc} L${d} ${JSON.stringify(o)}: build — ${e.message}`); continue; }
-            const r = await readPage(html, mode, type.interactive);
-            if (r.skip) { skip = r.skip; break; }
-            if (r.err) { fail(`${maker} ${t.id} ${loc} L${d} v${o.variant} ${o.theme || ''}: ${r.err}`); continue; }
-            pagesN++;
-            // the PUBLISHED page (level 2, copy 1) of a declared-screen template is rebuilt exactly as it shipped, with no
-            // screen build (its interactive version is the catalogue's own deck): no graded answer there is by design.
-            // Every other page must yield one. (main session 2026-11-01: 45 "measured nothing" lines were all this page)
-            const publishedDeclared = mode !== 'marks' && Number(o.difficulty) === 2 && Number(o.variant || 1) === 1;
-            if ((!r.bundles.length || !r.bundles.some((b) => b.items.length)) && !publishedDeclared) empty++;
-            pools.push(r.bundles);
-          }
-          if (skip) { noInstrument++; console.log(`note ${maker} ${t.id} ${loc} L${d}: ${skip} — reported, not measured`); continue; }
+          const got = await poolsFor({ maker, t, type, tj, loc, d, mode, copies: COPIES, sample });
+          if (got.skip) { noInstrument++; console.log(`note ${maker} ${t.id} ${loc} L${d}: ${got.skip} — reported, not measured`); continue; }
+          const pools = got.pools;
           if (!pools.length) continue;
-          if (empty) fail(`${maker} ${t.id} ${loc} L${d}: measured nothing on ${empty}/${pools.length} pages (a screen with no graded answer)`);
+          if (got.empty) fail(`${maker} ${t.id} ${loc} L${d}: measured nothing on ${got.empty}/${pools.length} pages (a screen with no graded answer)`);
           judge(`${maker} ${t.id} ${loc} L${d}`, pools, { maker, id: t.id, locale: loc, level: d, mode });
+          tpl[t.id] = { maker, t, type, tj, mode };
           mk++;
         }
       }
@@ -205,6 +223,12 @@ const COPIES = Number(A.copies || (QUICK ? 3 : 6));
     const placePages = (fixed) => { const r = rngP(11); return Array.from({ length: 12 }, () => { const bins = ['a', 'b', 'c'].map((id, i) => ({ id, x: 10 + i * 30, y: 90 })); return [{ kind: 'place', items: Array.from({ length: 8 }, (_, i) => ({ x: 10 + (i % 4) * 20, y: 10 + Math.floor(i / 4) * 20, answer: fixed ? 'a' : bins[Math.floor(r() * 3)].id })), bins }]; }); };
     if (!v(placePages(true)).includes('FAIL')) fail('poison 4: a place page that always answers bin a PASSED');
     if (v(placePages(false)).includes('FAIL')) fail('poison 4 control: a random place page FAILS');
+    // optional write boxes ("leave it empty if the sum is right"): a page whose boxes are empty 6 times in 8 must FAIL on
+    // "leave every box empty"; one with 4 in 8 empty, numbers spread, must PASS — and must not fail on "the same as the box
+    // before" where two empty boxes meet (the 2026-11-01 G1-447 measure)
+    const optPages = (empty) => { const r = rngP(23); return Array.from({ length: 12 }, () => { const blanks = new Set(); while (blanks.size < empty) blanks.add(Math.floor(r() * 8)); return [{ kind: 'type', items: Array.from({ length: 8 }, (_, i) => ({ answer: blanks.has(i) ? '' : String(3 + Math.floor(r() * 15)), idx: i, cardIdx: i, cardNums: [], optional: true, x: 50, y: 10 + i * 10 })) }]; }); };
+    if (!v(optPages(6)).includes('FAIL')) fail('poison 5: optional boxes empty 6 times in 8 PASSED');
+    if (v(optPages(4)).includes('FAIL')) fail('poison 5 control: optional boxes empty 4 times in 8 FAIL (' + JSON.stringify(GM.measure(optPages(4)).map((r) => r.worst && r.worst.name)) + ')');
   }
 
   await m.close();
@@ -222,8 +246,7 @@ const COPIES = Number(A.copies || (QUICK ? 3 : 6));
     const line = `${k}: ${rs.map((r) => `${r.locale} ${r.verdict} ${r.worst ? r.worst.name + '=' + (r.worst.score * 100).toFixed(0) + '%' : ''}`).join(' · ')}`;
     if (replicated === 'once') once.push(line); else tells.push(line + ` (${replicated})`);
   }
-  // the per-sample FAILs above counted toward `fails`; the gate's verdict is the replicated set
-  fails -= report.filter((r) => r.verdict === 'FAIL').length;
+  // the per-sample FAILs above are printed, not counted; the gate's verdict is the replicated set
   fails += tells.length;
   if (tells.length) { console.log('\nTELLS (replicated in every sample, or a single sample):'); tells.forEach((l) => console.log('FAIL ' + l)); }
   if (once.length) { console.log('\nonce (FAIL in one sample, PASS in the other — luck of those pages; re-check with more copies):'); once.forEach((l) => console.log('note ' + l)); }

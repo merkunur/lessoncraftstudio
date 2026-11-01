@@ -1,0 +1,18 @@
+{
+ "id": "wave-var-core-it",
+ "seedEpoch": 1,
+ "locales": [
+  "it"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-230",
+  "G1-232"
+ ],
+ "themeOverrides": {},
+ "_note": "2026-11-01 coins at their real sizes; which purse has more: the two no-counting picks balanced on every page: pinned re-generation of the live published pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file."
+}

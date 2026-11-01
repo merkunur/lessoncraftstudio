@@ -46,7 +46,9 @@
     "odd-even": "Odd & Even",
     "place-value": "Place Value & Rounding",
     "fractions": "Fractions",
-    "multiplication-division": "Multiplication & Division"
+    "multiplication-division": "Multiplication & Division",
+    "logic-puzzles": "Logic Puzzles",
+    "money": "Money"
   },
   "editTitle": "Edit the title",
   "editInstruction": "Edit the instruction",

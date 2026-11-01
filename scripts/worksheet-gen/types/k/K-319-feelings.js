@@ -191,7 +191,7 @@ module.exports = {
     const loc0 = (locale || 'en').slice(0, 2);
     // Level Set: a new copy (not level 2 copy 1) may read another scene set; its screen / key wraps the print page
     const published = difficulty === 2 && ((ctx && ctx.variant) || 1) === 1;
-    if (!published && this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {   // a printable-only face (draw) ignores the request
+    if ((!published || (ctx && ctx.publishedScreen && ctx.interactive)) && this.interactive && ctx && (ctx.interactive || ctx.answerKey)) {   // a printable-only face (draw) ignores the request
       const built = this._buildWith(bank, { difficulty, locale }, { ...ctx, interactive: false, answerKey: false });
       return this._screenOrKey(d.layout || 'match', built, ctx, loc0, bank);
     }

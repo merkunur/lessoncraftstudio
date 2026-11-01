@@ -4,6 +4,7 @@
  */
 'use strict';
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
+const slot = require('../../lib/slot.js');
 
 const SIZES = [38, 56, 76];
 
@@ -25,7 +26,7 @@ module.exports = {
 
   build({ theme, difficulty }, ctx) {
     const rng = ctx.rng;
-    const picked = rng.sample(labelSafeNouns(theme), 4); // 3 rows + distractor
+    const picked = slot.pictures(ctx, rng.sample(labelSafeNouns(theme), 4), labelSafeNouns(theme), theme); // 3 rows + distractor; tap-to-edit (lib/slot.js)
     const rowNouns = picked.slice(0, 3);
     const colSizes = rng.shuffle(SIZES);
     const blankR = rng.int(0, 2), blankC = rng.int(0, 2);
@@ -37,7 +38,9 @@ module.exports = {
         if (r === blankR && c === blankC) {
           cells.push(`<span class="ws-pattern-slot ws-pattern-slot--blank" style="width:${cellPx}px;height:${cellPx}px;font-size:34px" data-lcs-blankcell>?</span>`);
         } else {
-          cells.push(`<span class="ws-pattern-slot" style="width:${cellPx}px;height:${cellPx}px" data-lcs-r="${r}" data-lcs-c="${c}" data-lcs-sz="${colSizes[c]}">` +
+          // the tap target of a row's picture: its first picture cell
+          const first = c === (r === blankR && blankC === 0 ? 1 : 0);
+          cells.push(`<span class="ws-pattern-slot" style="width:${cellPx}px;height:${cellPx}px" data-lcs-r="${r}" data-lcs-c="${c}" data-lcs-sz="${colSizes[c]}"${first ? slot.attr(ctx, 'pic', r) : ''}>` +
             `<img class="ws-icon" src="${fileUri(theme, rowNouns[r].noun)}" alt="" style="width:${colSizes[c]}px;height:${colSizes[c]}px"></span>`);
         }
       }
@@ -53,7 +56,7 @@ module.exports = {
     ]);
     const chips = opts.map((o) =>
       `<span class="ws-pattern-chip" style="width:104px;height:104px"${o.ok ? ' data-lcs-correct="1"' : ''} ` +
-      `data-lcs-opt="${o.noun.vocabKey}-${o.sz}">` +
+      `data-lcs-opt="${o.noun.vocabKey}-${o.sz}"${o.noun === picked[3] ? slot.attr(ctx, 'pic', 3) : ''}>` +
       `<img class="ws-icon" src="${fileUri(theme, o.noun.noun)}" alt="" style="width:${Math.min(o.sz, 72)}px;height:${Math.min(o.sz, 72)}px"></span>`).join('');
 
     return {

@@ -820,8 +820,8 @@
     "instruction": "Les lignes ont une image, les colonnes une taille. Entoure ce qui va dans la case vide."
   },
   "G3-353": {
-    "title": "Tri à deux cercles",
-    "instruction": "Gauche : cette sorte. Droite : les GRANDS. Milieu : les deux ! Ni l'un ni l'autre : dehors. Relie chaque image à sa place."
+    "title": "Trier dans deux cercles",
+    "instruction": "Écris chaque numéro à sa place : dans le cercle de gauche, ce qui est indiqué au-dessus ; dans celui de droite, les grandes images ; au milieu, ce qui va dans les deux ; dans le cadre, hors des cercles, ce qui ne va dans aucun."
   },
   "K-201": {
     "title": "Vivant ou non-vivant",
@@ -3687,5 +3687,41 @@
   "G3-473": {
     "title": "Balances à formes",
     "instruction": "Les balances sont en équilibre. Trouve combien pèse chaque forme et écris-le dans sa case."
+  },
+  "K-461": {
+    "title": "Quelle est cette pièce ?",
+    "instruction": "Relie chaque pièce à sa valeur."
+  },
+  "G2-471": {
+    "title": "Le moins de pièces possible",
+    "instruction": "Fais chaque somme avec le moins de pièces possible. Écris combien il te faut de chaque pièce."
+  },
+  "G2-472": {
+    "title": "Payer le prix exact",
+    "instruction": "Entoure des pièces pour payer exactement le prix."
+  },
+  "G2-473": {
+    "title": "Même somme, pièces différentes",
+    "instruction": "Relie chaque porte-monnaie de gauche au porte-monnaie de droite qui contient la même somme."
+  },
+  "G3-474": {
+    "title": "Compter les billets et les pièces",
+    "instruction": "Compte les billets et les pièces. Écris la somme."
+  },
+  "G1-473": {
+    "title": "La marchande : étiquettes et monnaie",
+    "instruction": "Découpe les étiquettes de prix et la monnaie. Jouez à la marchande !"
+  },
+  "G1-474": {
+    "title": "Additions et mot secret",
+    "instruction": "Additionne les images de chaque ligne et écris le résultat. Cherche ce nombre dans le code, puis écris sa lettre dans la case qui porte le numéro de la ligne pour trouver le mot secret."
+  },
+  "G1-475": {
+    "title": "Calcule et reconstitue l'image",
+    "instruction": "Résous chaque calcul. Découpe les morceaux et colle chacun sur le calcul qui donne son nombre. Les morceaux forment une image."
+  },
+  "G1-476": {
+    "title": "Détective des nombres",
+    "instruction": "Les nombres mystères vont de 1 à {MAX}. Lis les indices et écris le nombre qui les respecte tous."
   }
 }

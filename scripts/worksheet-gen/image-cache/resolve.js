@@ -59,4 +59,14 @@ function labels(noun, locale) {
   return null;
 }
 
-module.exports = { manifest, themeEntry, labelSafeNouns, fileUri, labels };
+/**
+ * Localized [singular, plural, gender] for a VOCABULARY KEY (a picture's vocabKey). A noun name is not a key: the vehicles
+ * crane and the birds crane share the name, their keys differ (construction-crane / crane, 2026-11-01) — a caller holding a
+ * vocabKey uses this, never labels(), whose name search finds the first theme with that noun.
+ */
+function labelsForKey(vocabKey, locale) {
+  const v = loadVocab()[vocabKey];
+  return (v && v[locale]) || null;
+}
+
+module.exports = { manifest, themeEntry, labelSafeNouns, fileUri, labels, labelsForKey };

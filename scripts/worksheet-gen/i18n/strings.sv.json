@@ -826,7 +826,7 @@
   },
   "G3-353": {
     "title": "Sortera i två cirklar",
-    "instruction": "Vänster cirkel: denna sort. Höger: STORA. Mitten: båda! Varken eller: utanför. Dra ett streck till rätt plats."
+    "instruction": "Skriv varje nummer på rätt plats: i den vänstra cirkeln det som står ovanför den, i den högra cirkeln stora bilder, i mitten det som passar i båda och i rutan utanför cirklarna det som inte passar i någon av dem."
   },
   "K-201": {
     "title": "Levande och icke levande",
@@ -3653,5 +3653,41 @@
   "G3-473": {
     "title": "Vågpussel med former",
     "instruction": "Vågarna är i jämvikt. Ta reda på hur mycket varje form väger och skriv det i rutan."
+  },
+  "K-461": {
+    "title": "Vilket mynt är det?",
+    "instruction": "Dra ett streck från varje mynt till dess värde."
+  },
+  "G2-471": {
+    "title": "Så få mynt som möjligt",
+    "instruction": "Visa varje belopp med så få mynt som möjligt. Skriv hur många du behöver av varje mynt."
+  },
+  "G2-472": {
+    "title": "Betala jämnt",
+    "instruction": "Ringa in mynt som tillsammans blir exakt priset."
+  },
+  "G2-473": {
+    "title": "Samma belopp, olika mynt",
+    "instruction": "Dra ett streck från varje plånbok på vänster sida till den plånbok på höger sida som innehåller lika mycket pengar."
+  },
+  "G3-474": {
+    "title": "Räkna sedlar och mynt",
+    "instruction": "Räkna sedlarna och mynten. Skriv hur mycket det blir."
+  },
+  "G1-473": {
+    "title": "Leka affär: prislappar och lekpengar",
+    "instruction": "Klipp ut prislapparna och lekpengarna. Lek affär!"
+  },
+  "G1-474": {
+    "title": "Addition med hemligt ord",
+    "instruction": "Räkna ihop bilderna i varje rad och skriv summan. Leta upp talet i koden och skriv bokstaven i rutan med radens nummer. Då får du fram det hemliga ordet."
+  },
+  "G1-475": {
+    "title": "Räkna och pussla ihop bilden",
+    "instruction": "Räkna ut alla uppgifter. Klipp ut bitarna och klistra varje bit där svaret är bitens tal. Bitarna blir en bild."
+  },
+  "G1-476": {
+    "title": "Taldetektiven",
+    "instruction": "Det hemliga talet är ett tal från 1 till och med {MAX}. Läs ledtrådarna och skriv talet som stämmer med alla ledtrådarna."
   }
 }

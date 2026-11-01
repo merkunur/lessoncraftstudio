@@ -731,7 +731,7 @@ module.exports = {
     const loc = (locale || 'en').slice(0, 2);
     // Level Set 2026-10-08: level 2 copy 1 is the published page; every other page gets a screen version + key
     const published = Number(difficulty) === 2 && ((ctx && ctx.variant) || 1) === 1;
-    if (!published && ctx && (ctx.interactive || ctx.answerKey)) {
+    if ((!published || (ctx && ctx.publishedScreen && ctx.interactive)) && ctx && (ctx.interactive || ctx.answerKey)) {
       const built = this.build({ difficulty, locale, unit }, { ...ctx, interactive: false, answerKey: false });
       // the key prints every answer: the same page again from a fresh stream of the same seed
       const rebuildFilled = () => this.build({ difficulty, locale, unit }, { ...ctx, rng: makeRng(ctx.rng.seed), interactive: false, answerKey: false, keyFill: true });

@@ -51,6 +51,13 @@ const LEVELS = {
     2: { cards: 4, over: 'ones' },
     3: { cards: 4, over: 'both', hundred: true },
   },
+  // the Logic & Math Puzzles T3 (G1-476): every number from 1 to hi, the range said in the instruction ({MAX}); no place-value clue
+  riddleRange: {
+    // (between + even/odd alone is never one answer without an end number fitting too — the ones clue makes it unique)
+    1: { cards: 6, lo: 1, hi: 20, clues: 2, kinds: ['between', 'even', 'odd', 'ones'] },
+    2: { cards: 6, lo: 1, hi: 50, clues: 2, kinds: ['between', 'even', 'odd', 'ones', 'digitSum'] },
+    3: { cards: 6, lo: 1, hi: 100, clues: 3, kinds: ['between', 'even', 'odd', 'ones', 'digitSum'] },
+  },
   riddle: {
     1: { cards: 6, digits: 2, clues: 2 },
     2: { cards: 6, digits: 2, clues: 3 },
@@ -195,22 +202,25 @@ function makePvMoreType(cfg) {
       }
 
       // riddle: who am I?
-      const lo = Math.pow(10, d.digits - 1), hi = Math.pow(10, d.digits) - 1;
+      const lo = d.lo != null ? d.lo : Math.pow(10, d.digits - 1), hi = d.hi != null ? d.hi : Math.pow(10, d.digits) - 1;
       const range = Array.from({ length: hi - lo + 1 }, (_, k) => lo + k);   // the solver checks EVERY number (review: 70 also fit)
       const pool = range.filter((n) => n % 10 !== 0);   // the answers themselves are never round
-      const kinds = Object.keys(CLUES).filter((k) => (CLUES[k].digits || d.digits) === d.digits && W.riddle[k]);
+      const kinds = d.kinds ? d.kinds.filter((k) => W.riddle[k]) : Object.keys(CLUES).filter((k) => (CLUES[k].digits || d.digits) === d.digits && W.riddle[k]);
       const used = new Set();
       const ps = [];
       for (let t = 0; ps.length < d.cards && t < 6000; t++) {
         const n = rng.pick(pool);
         if (used.has(n)) continue;
-        const ks = shuffle(kinds.filter((k) => !CLUES[k].when || CLUES[k].when(n)), rng).slice(0, d.clues);
+        // a one-digit number has no digits to add ("my digits add up to 5" for 5 says nothing a child can use)
+        const ks = shuffle(kinds.filter((k) => (!CLUES[k].when || CLUES[k].when(n)) && !(k === 'digitSum' && n < 10)), rng).slice(0, d.clues);
         if (ks.includes('even') && ks.includes('odd')) continue;
         if (ks.includes('onesMore') && ks.includes('onesLess')) continue;
         const cl = ks.map((k) => ({ k, v: CLUES[k].make(n, rng) }));
         if (cl.some((c) => !CLUES[c.k].valid(c.v))) continue;
         // the bounds stay inside the level's numbers (the instruction says two-digit / three-digit)
         if (cl.some((c) => c.k === 'between' && (c.v.a < lo - 1 || c.v.b > hi + 1))) continue;
+        // a stated range (Number Detective: "the mystery number is from 1 to {MAX}"): no clue names a number outside it
+        if (d.hi != null && cl.some((c) => c.k === 'between' && (c.v.a < lo || c.v.b > hi))) continue;
         // exactly one number in the range fits every clue (the solver), and no clue is redundant on its own
         const fits = range.filter((m) => cl.every((c) => CLUES[c.k].ok(m, c.v)));
         if (fits.length !== 1) continue;
@@ -225,7 +235,7 @@ function makePvMoreType(cfg) {
       const cards = ps.map((p) => `<div class="ws-card-stage" data-lcs-riddle="${p.n}:${p.cl.map((c) => c.k).join(',')}" style="flex-direction:column;justify-content:center;align-items:stretch;gap:6px;padding:8px 18px 8px 34px">` +
         p.cl.map((c) => `<span style="font-family:'Nunito';font-weight:700;font-size:17px;line-height:1.3;color:${INK}">${fill(W.riddle[c.k], c.v)}</span>`).join('') +
         `<span style="display:flex;align-items:center;gap:10px;margin-top:4px">${WORD(W.iam, 20)}${answerBox({ w: 84, h: 50, answer: p.n })}</span></div>`);
-      return { bodyHtml: content(cardGrid({ cards, cols: 2, rows: d.cards / 2 })), meta: { items: ps.map((p) => p.n) } };
+      return { bodyHtml: content(cardGrid({ cards, cols: 2, rows: d.cards / 2 })), meta: { items: ps.map((p) => p.n) }, ...(d.hi != null ? { tokens: { MAX: hi } } : {}) };
     },
 
     async verify(page) {
@@ -254,7 +264,7 @@ function makePvMoreType(cfg) {
           const svg = c.querySelector('[data-lcs-prim="base-ten"]');
           if (!svg || c.querySelectorAll('[data-lcs-block="ten"]').length !== t || c.querySelectorAll('[data-lcs-block="one"]').length !== o) fails.push('overflow picture');
         });
-        if (m === 'riddle') document.querySelectorAll('[data-lcs-riddle]').forEach((c) => { if (ans(c)[0] !== n(c.dataset.lcsRiddle.split(':')[0])) fails.push('riddle box'); });
+        if (m === 'riddle' || m === 'riddleRange') document.querySelectorAll('[data-lcs-riddle]').forEach((c) => { if (ans(c)[0] !== n(c.dataset.lcsRiddle.split(':')[0])) fails.push('riddle box'); });
         // nothing may run out of its card
         document.querySelectorAll('.ws-card-stage').forEach((c, i) => {
           const cr = c.getBoundingClientRect();

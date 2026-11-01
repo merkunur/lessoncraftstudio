@@ -821,8 +821,8 @@
     "instruction": "Rivit jakavat kuvan, sarakkeet koon. Ympyröi, mikä sopii tyhjään ruutuun."
   },
   "G3-353": {
-    "title": "Kahden kehän lajittelu",
-    "instruction": "Vasen kehä: tätä lajia. Oikea: ISOT. Keskellä: molemmat! Ei kumpikaan: ulkopuolelle. Yhdistä jokainen kuva paikalleen."
+    "title": "Lajittele kahteen ympyrään",
+    "instruction": "Kirjoita numerot paikoilleen: vasempaan ympyrään sen yläpuolella näkyvät, oikeaan isot kuvat, keskelle molempiin sopivat ja laatikkoon ympyröiden ulkopuolelle kumpaankaan sopimattomat."
   },
   "K-201": {
     "title": "Elävät ja elottomat",
@@ -3663,5 +3663,41 @@
   "G3-473": {
     "title": "Muotojen vaakapulmat",
     "instruction": "Vaa'at ovat tasapainossa. Selvitä, kuinka paljon kukin muoto painaa, ja kirjoita se muodon laatikkoon."
+  },
+  "K-461": {
+    "title": "Mikä kolikko tämä on?",
+    "instruction": "Yhdistä viivalla jokainen kolikko oikeaan arvoon."
+  },
+  "G2-471": {
+    "title": "Mahdollisimman vähän kolikoita",
+    "instruction": "Kokoa jokainen summa mahdollisimman vähillä kolikoilla. Kirjoita, montako kutakin kolikkoa tarvitset."
+  },
+  "G2-472": {
+    "title": "Maksa tasarahalla",
+    "instruction": "Ympyröi kolikoita, joilla voit maksaa hinnan tasan."
+  },
+  "G2-473": {
+    "title": "Sama summa, eri kolikot",
+    "instruction": "Yhdistä viivalla jokainen vasemman puolen kukkaro siihen oikean puolen kukkaroon, jossa on yhtä paljon rahaa."
+  },
+  "G3-474": {
+    "title": "Laske setelit ja kolikot",
+    "instruction": "Laske setelit ja kolikot. Kirjoita summa."
+  },
+  "G1-473": {
+    "title": "Kauppaleikki: hintalaput ja leikkiraha",
+    "instruction": "Leikkaa hintalaput ja leikkirahat irti. Leikitään kauppaa!"
+  },
+  "G1-474": {
+    "title": "Yhteenlaskut ja salainen sana",
+    "instruction": "Laske jokaisen rivin kuvat yhteen ja kirjoita summa. Etsi luku koodista ja kirjoita sen kirjain ruutuun, jonka alla on rivin numero. Näin löydät salaisen sanan."
+  },
+  "G1-475": {
+    "title": "Laske ja kokoa kuva",
+    "instruction": "Laske kaikki laskut. Leikkaa palat irti ja liimaa jokainen pala sen laskun päälle, jonka vastaus on palan luku. Palat muodostavat kuvan."
+  },
+  "G1-476": {
+    "title": "Lukuetsivä",
+    "instruction": "Salainen luku on jokin luvuista 1–{MAX}. Lue vihjeet ja kirjoita luku, joka sopii niihin kaikkiin."
   }
 }

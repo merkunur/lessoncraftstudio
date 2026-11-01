@@ -26,8 +26,8 @@ Every agent reads this file first. Its brief names its task number.
 1. Read `CLAUDE.md` (the #1 and #2 rules, §A.14.12, the pedagogical-mistakes amendment), `docs/makers/ARCHITECTURE.md`,
    `docs/makers/BUILD-LOG.md` (what is built and the traps paid for), and your design source. **Verify every claim against
    the code; a doc is not a fact.**
-2. **Do not launch sub-agents.** The operator runs agents in parallel — at most TWO at a time once the first batch of three
-   (tasks 2, 4, 5) is done; the rules in "Agents in parallel" below are binding.
+2. **Do not launch sub-agents.** After the first batch (tasks 2, 4, 5, run in parallel) the operator runs ONE agent at a
+   time; the lock and ownership rules in "Agents in parallel" below are binding.
 3. **Local only.** No `deploy.sh`, no ssh, no live server, no production database, no `prisma migrate deploy`. A migration
    is a file, applied to nothing.
 4. **Do not edit these files — the main session edits them concurrently:** `scripts/worksheet-gen/i18n/strings.*.json`,
@@ -58,6 +58,10 @@ Every agent reads this file first. Its brief names its task number.
 The operator first allowed three at a time (tasks 2, 4, 5 run together), then ruled: **"After the active Fable 5.1 agents
 complete their tasks launch 2 agents at a time, not 3."** So the next task starts only when fewer than two agents are
 running; from then on at most TWO run in parallel.
+
+**Superseded the same day: "After the active Fable 5.1 agents complete their tasks launch one agent a time, not more than
+one."** The current batch (2, 4, 5) finishes; after that exactly ONE agent runs at a time — the next starts only when the
+previous one has reported. The lock and ownership rules below still apply (the main session runs builds too).
 
 Agents share ONE working tree. Two things collide: builds/gates and files.
 

@@ -5,7 +5,7 @@ Nothing run on the server, no database, no `migrate deploy`, no deploy.sh, no ng
 construction until the operator installs a release: every new website path reads the SERVED tree
 (`/var/www/lcs-media/makers/`, absent today) and answers "none" without it.
 
-## Built (one commit, hash in the final message)
+## Built — commit 920964550 (one commit; 24 files)
 
 - **Schema + migration file.** `MakerRecipe` (`maker_recipes`) + `MakerShareLink` (`maker_share_links`) appended to
   `frontend/prisma/schema.prisma` (+ the two virtual relation lists on `User`, no SQL);

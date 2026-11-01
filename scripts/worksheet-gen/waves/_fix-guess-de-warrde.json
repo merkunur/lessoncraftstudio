@@ -1,0 +1,90 @@
+{
+ "id": "wave-arr-de",
+ "_note": "2026-11-01 guessability fix: pinned re-generation of the live G2-212 pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file.",
+ "indexable": false,
+ "interactive": true,
+ "seedEpoch": 1,
+ "locales": [
+  "de"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  1,
+  2,
+  3
+ ],
+ "types": [
+  "G2-212"
+ ],
+ "levels": {
+  "G2-212": {
+   "1": [
+    {
+     "copy": 1,
+     "theme": "winter"
+    },
+    {
+     "copy": 2,
+     "theme": "food bw 2"
+    },
+    {
+     "copy": 3,
+     "theme": "around the house"
+    },
+    {
+     "copy": 4,
+     "theme": "objects bw"
+    },
+    {
+     "copy": 5,
+     "theme": "classroom"
+    }
+   ],
+   "2": [
+    {
+     "copy": 2,
+     "theme": "space bw"
+    },
+    {
+     "copy": 3,
+     "theme": "dinosaurs"
+    },
+    {
+     "copy": 4,
+     "theme": "valentine bw 2"
+    },
+    {
+     "copy": 5,
+     "theme": "insects and bugs"
+    },
+    {
+     "copy": 6,
+     "theme": "Easter bw"
+    }
+   ],
+   "3": [
+    {
+     "copy": 1,
+     "theme": "flowers"
+    },
+    {
+     "copy": 2,
+     "theme": "zoo animals bw"
+    },
+    {
+     "copy": 3,
+     "theme": "occupations"
+    },
+    {
+     "copy": 4,
+     "theme": "classroom bw"
+    },
+    {
+     "copy": 5,
+     "theme": "thanksgivinng"
+    }
+   ]
+  }
+ }
+}

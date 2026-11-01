@@ -1,0 +1,90 @@
+{
+ "id": "wave-arr-no",
+ "_note": "2026-11-01 guessability fix: pinned re-generation of the live G2-212 pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file.",
+ "indexable": false,
+ "interactive": true,
+ "seedEpoch": 1,
+ "locales": [
+  "no"
+ ],
+ "themes": [],
+ "themesPerType": 1,
+ "difficulties": [
+  1,
+  2,
+  3
+ ],
+ "types": [
+  "G2-212"
+ ],
+ "levels": {
+  "G2-212": {
+   "1": [
+    {
+     "copy": 1,
+     "theme": "emotions"
+    },
+    {
+     "copy": 2,
+     "theme": "zoo animals bw"
+    },
+    {
+     "copy": 3,
+     "theme": "miscellaneous"
+    },
+    {
+     "copy": 4,
+     "theme": "classroom bw"
+    },
+    {
+     "copy": 5,
+     "theme": "spring"
+    }
+   ],
+   "2": [
+    {
+     "copy": 2,
+     "theme": "beach bw"
+    },
+    {
+     "copy": 3,
+     "theme": "vegetables"
+    },
+    {
+     "copy": 4,
+     "theme": "education bw"
+    },
+    {
+     "copy": 5,
+     "theme": "accessories"
+    },
+    {
+     "copy": 6,
+     "theme": "sea life bw"
+    }
+   ],
+   "3": [
+    {
+     "copy": 1,
+     "theme": "winter"
+    },
+    {
+     "copy": 2,
+     "theme": "food bw 2"
+    },
+    {
+     "copy": 3,
+     "theme": "bakery"
+    },
+    {
+     "copy": 4,
+     "theme": "kitchen bw"
+    },
+    {
+     "copy": 5,
+     "theme": "colors"
+    }
+   ]
+  }
+ }
+}

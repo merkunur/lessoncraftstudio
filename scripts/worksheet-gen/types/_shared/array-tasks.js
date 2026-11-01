@@ -194,8 +194,12 @@ function makeArrayType(cfg) {
             if (ds.some((o) => o.r * o.c === r * c)) continue;
             combos.push({ ds, rank: ds.filter((o) => o.r * o.c < r * c).length });
           }
-          const fitting = combos.filter((x) => x.rank === wantRank);
-          const decoys = rng.pick(fitting.length ? fitting : combos).ds;
+          // the three arrays sit side by side: a decoy one column MORE can make the row wider than the page (level 3, 8 + 9 + 9
+          // columns ran past the edge, 2026-11-01). 23 columns is the widest row the old decoys reached (8 + 8 + 7) and fits.
+          const narrow = combos.filter((x) => c + x.ds[0].c + x.ds[1].c <= 23);
+          const pool = narrow.length ? narrow : combos;
+          const fitting = pool.filter((x) => x.rank === wantRank);
+          const decoys = rng.pick(fitting.length ? fitting : pool).ds;
           const opts = rng.shuffle([
             { r, c, ok: true },
             // 2026-10-04 (native + pedagogy review): the TURNED array (c rows of r) was a decoy, but it shows the same

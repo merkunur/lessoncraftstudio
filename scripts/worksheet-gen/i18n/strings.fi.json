@@ -3607,5 +3607,29 @@
   "G2-410": {
     "title": "Murtoluvut sanoina ja kuvina",
     "instruction": "Lue jokainen sanoin kirjoitettu murtoluku. Yhdistä se oikeaan kuvaan."
+  },
+  "G3-407": {
+    "title": "Täytä kertotaulu",
+    "instruction": "Kerro rivin alussa oleva luku sarakkeen ylimmällä luvulla. Kirjoita tulo jokaiseen tyhjään ruutuun."
+  },
+  "G3-408": {
+    "title": "Jakolaskut",
+    "instruction": "Jaa. Kirjoita vastaus jokaiseen ruutuun."
+  },
+  "G3-409": {
+    "title": "Päivän kertolasku",
+    "instruction": "Katso ylhäällä olevaa laskua. Täytä jokainen ruutu: laske hyppäyksin, kerro molempiin suuntiin ja jaa molempiin suuntiin."
+  },
+  "G2-411": {
+    "title": "Piirrä kertolasku",
+    "instruction": "Väritä jokaista kertolaskua varten pisteistä suorakulmio: ensimmäinen luku kertoo rivien määrän, toinen pisteiden määrän kullakin rivillä."
+  },
+  "G3-410": {
+    "title": "Kertotaulun kikkoja",
+    "instruction": "Käytä jokaisen rivin kikkaa. Täytä ruudut yksi kerrallaan."
+  },
+  "G3-411": {
+    "title": "Kertotaulukortit avainrenkaaseen",
+    "instruction": "Leikkaa kortit irti ja tee reikä jokaiseen ympyrään. Pujota ne renkaaseen ja harjoittele kertotauluja."
   }
 }

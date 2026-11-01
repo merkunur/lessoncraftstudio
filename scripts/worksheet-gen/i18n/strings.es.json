@@ -3621,5 +3621,29 @@
   "G2-410": {
     "title": "Fracciones en palabras y en dibujos",
     "instruction": "Lee cada fracción escrita con letras. Únela con su dibujo."
+  },
+  "G3-407": {
+    "title": "Completa la tabla de multiplicar",
+    "instruction": "Multiplica el número del principio de la fila por el número de arriba de la columna. Escribe el producto en cada recuadro vacío."
+  },
+  "G3-408": {
+    "title": "Divisiones",
+    "instruction": "Divide. Escribe el resultado en cada recuadro."
+  },
+  "G3-409": {
+    "title": "La multiplicación del día",
+    "instruction": "Mira la multiplicación de arriba. Completa cada recuadro: cuenta en saltos, multiplica en los dos sentidos y divide en los dos sentidos."
+  },
+  "G2-411": {
+    "title": "Dibuja el arreglo",
+    "instruction": "Para cada multiplicación, colorea un rectángulo de puntos: el primer número son las filas y el segundo, los puntos de cada fila."
+  },
+  "G3-410": {
+    "title": "Trucos para las tablas",
+    "instruction": "Usa el truco de cada renglón. Completa los recuadros uno por uno."
+  },
+  "G3-411": {
+    "title": "Tablas de multiplicar en llavero",
+    "instruction": "Recorta las tarjetas y haz un agujero en cada círculo. Ponlas en una argolla y practica tus tablas."
   }
 }

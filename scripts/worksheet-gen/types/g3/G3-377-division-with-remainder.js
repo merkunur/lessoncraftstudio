@@ -59,6 +59,7 @@
  * the `data-lcs-mode` stamp a face alone writes; see the block below.
  */
 'use strict';
+const pictureSlot = require('../../lib/slot.js');
 const { entriesFor, countable, sampleEntries } = require('../../lib/b2-common.js');
 const { bank: loadBank } = require('../../lib/b3-common.js');
 const { iconRows, iconScatter } = require('../../templates/components.js');
@@ -338,7 +339,7 @@ function buildFace(bankLoc, d0, { theme, locale, unit, items }, ctx) {
     if (longest * 7.4 > d.leftoverW - 12) throw new Error(`G3-377 share: leftoverLabel "${N.leftoverLabel}" has a ${longest}-char word that cannot fit a ${d.leftoverW}-px home at 14 px — F1 refused in ${loc} (author a shorter label)`);
     const pool = entriesFor(theme, loc).filter(countable);
     if (pool.length < module.exports.themeAxis.minNouns) throw new Error(`G3-377 share: theme "${theme}" has ${pool.length} countable nouns in ${loc}, need ${this.themeAxis.minNouns} (refused)`);
-    nouns = sampleEntries(rng, pool, d.cards, 'G3-377');
+    nouns = pictureSlot.pictures(ctx, sampleEntries(rng, pool, d.cards, 'G3-377'), pool, theme);   // makers: swap a card's picture
     stamps.push(`data-lcs-iconpx="${d.iconPx}"`, `data-lcs-pilew="${pileW}"`, `data-lcs-zonew="${zoneW}"`, `data-lcs-leftover-label="${String(N.leftoverLabel).replace(/"/g, '&quot;')}"`);
   }
   if (d.mode === 'exact') {
@@ -396,7 +397,7 @@ function buildFace(bankLoc, d0, { theme, locale, unit, items }, ctx) {
       slotW = Math.floor((pileW - d.leftoverW - 10 - (it.d - 1) * 10) / it.d);
       const homes = dealBoxes({ d: it.d, slotW, slotH: d.slotH, leftoverW: d.leftoverW, leftoverLabel: N.leftoverLabel, gap: 10 });
       const zone = divisionLine({ template: N.template, n: it.n, d: it.d, locale: loc, boxStyle: N.boxStyle, remWord: N.remWord || '', lines: N.boxStyle === 'inline' ? 2 : 1, w: zoneW, casitaW: Math.min(CASITA_W, zoneW) });
-      return stageOpen(it, i, ` data-lcs-noun="${noun.vocabKey}"`, `padding:0 0 0 ${d.inset}px;display:flex;align-items:center;justify-content:space-between;gap:${GAP}px;min-width:0`) +
+      return stageOpen(it, i, ` data-lcs-noun="${noun.vocabKey}"${pictureSlot.attr(ctx, 'pic', i)}`, `padding:0 0 0 ${d.inset}px;display:flex;align-items:center;justify-content:space-between;gap:${GAP}px;min-width:0`) +
         `<div data-lcs-share style="display:flex;flex-direction:column;gap:${d.colGap}px;width:${pileW}px;flex:0 0 ${pileW}px"><div style="display:flex">${pile}</div>${homes}</div>${zone}</div>`;   // the strip sits in a ROW flex so pileHtml's flex-basis is a width (in the column it would be a height)
     }
     if (d.mode === 'practice') {
@@ -767,7 +768,7 @@ module.exports = {
     // --- nouns: one countable noun per card, distinct, from the wave theme (refuse below the floor)
     const pool = entriesFor(theme, loc).filter(countable);
     if (pool.length < this.themeAxis.minNouns) throw new Error(`G3-377: theme "${theme}" has ${pool.length} countable nouns in ${loc}, need ${this.themeAxis.minNouns} (refused)`);
-    const nouns = sampleEntries(rng, pool, d.cards, 'G3-377');
+    const nouns = pictureSlot.pictures(ctx, sampleEntries(rng, pool, d.cards, 'G3-377'), pool, theme);   // makers: swap a card's picture
 
     // --- numbers
     const items = pickPage(rng, d);
@@ -776,7 +777,7 @@ module.exports = {
       const noun = nouns[i];
       const pile = pileHtml({ layout: d.layout, theme, noun: noun.noun, n: it.n, iconPx: d.iconPx, perRow: d.perRow, gapX: d.gapX, gapY: d.gapY, w: pileW, h: pileH, rng });
       const zone = divisionLine({ template: N.template, n: it.n, d: it.d, locale: loc, boxStyle: N.boxStyle, remWord: N.remWord || '', lines: N.boxStyle === 'inline' ? 2 : 1, w: zoneW, casitaW: Math.min(CASITA_W, zoneW) });
-      return `<div class="ws-card-stage" data-ws-content data-lcs-item="${i + 1}" data-lcs-n="${it.n}" data-lcs-d="${it.d}" data-lcs-q="${it.q}" data-lcs-r="${it.r}" data-lcs-noun="${noun.vocabKey}" ` +
+      return `<div class="ws-card-stage" data-ws-content data-lcs-item="${i + 1}" data-lcs-n="${it.n}" data-lcs-d="${it.d}" data-lcs-q="${it.q}" data-lcs-r="${it.r}" data-lcs-noun="${noun.vocabKey}"${pictureSlot.attr(ctx, 'pic', i)} ` +
         `style="padding:0 0 0 ${d.inset}px;display:flex;align-items:center;justify-content:space-between;gap:${GAP}px;min-width:0">${pile}${zone}</div>`;
     });
     const bodyHtml = `<div data-ws-content data-lcs-dwr data-lcs-cards="${d.cards}" data-lcs-layout="${d.layout}" data-lcs-divisors="${d.divisors.join(',')}" ` +

@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-01",
- "count": 901,
+ "count": 907,
  "failures": [],
  "rows": [
   {
@@ -25795,6 +25795,32 @@
    "science": false
   },
   {
+   "id": "G2-411",
+   "file": "scripts/worksheet-gen/types/g2/G2-411-draw-the-array.js",
+   "grade": "G2",
+   "slug": "draw-the-array",
+   "family": "arrays-multiplication",
+   "variationOf": null,
+   "title": "Draw the Array",
+   "instruction": "Color a rectangle of dots for each multiplication: the first number is the rows, the second is the dots in each row.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "tables",
+    "grid",
+    "total"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/md-more.js"
+   ],
+   "teachingPoint": "2:arrays",
+   "skill": "Rows and columns of an array; match an array to a multiplication",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
    "id": "G3-301",
    "file": "scripts/worksheet-gen/types/g3/G3-301-arrays-to-10x10.js",
    "grade": "G23",
@@ -28754,6 +28780,129 @@
    "teachingPoint": "3:fraction-number-line",
    "skill": "Place a fraction on a number line from 0 to 1 by counting equal spaces",
    "strand": "Fractions",
+   "science": false
+  },
+  {
+   "id": "G3-407",
+   "file": "scripts/worksheet-gen/types/g3/G3-407-multiplication-square-to-fill.js",
+   "grade": "G3",
+   "slug": "multiplication-square-to-fill",
+   "family": "multiplication-tables",
+   "variationOf": null,
+   "title": "Fill the Multiplication Square",
+   "instruction": "Multiply the number at the start of the row by the number at the top of the column. Write the product in each empty box.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "n",
+    "given"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/md-more.js"
+   ],
+   "teachingPoint": "3:times-tables",
+   "skill": "Know the multiplication tables 2-10 from memory, deriving unknown facts from neighbours",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G3-408",
+   "file": "scripts/worksheet-gen/types/g3/G3-408-division-facts-drill.js",
+   "grade": "G3",
+   "slug": "division-facts-drill",
+   "family": "multiplication-tables",
+   "variationOf": null,
+   "title": "Division Facts",
+   "instruction": "Divide. Write the answer in each box.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "tables",
+    "cols",
+    "rows"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/md-more.js"
+   ],
+   "teachingPoint": "3:times-tables",
+   "skill": "Know the multiplication tables 2-10 from memory, deriving unknown facts from neighbours",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G3-409",
+   "file": "scripts/worksheet-gen/types/g3/G3-409-times-table-fact-of-the-day.js",
+   "grade": "G3",
+   "slug": "times-table-fact-of-the-day",
+   "family": "multiplication-tables",
+   "variationOf": null,
+   "title": "Fact of the Day",
+   "instruction": "Look at the fact at the top. Fill in every box: count the skips, multiply both ways and divide both ways.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "tables"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/md-more.js"
+   ],
+   "teachingPoint": "3:commutative",
+   "skill": "a×b and b×a give the same total (turn the array)",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G3-410",
+   "file": "scripts/worksheet-gen/types/g3/G3-410-times-table-strategy-chains.js",
+   "grade": "G3",
+   "slug": "times-table-strategy-chains",
+   "family": "multiplication-tables",
+   "variationOf": null,
+   "title": "Times Table Tricks",
+   "instruction": "Use the trick on each line. Fill in the boxes one by one.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "kinds"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/md-more.js"
+   ],
+   "teachingPoint": "3:commutative",
+   "skill": "a×b and b×a give the same total (turn the array)",
+   "strand": "Operations & Algebraic Thinking",
+   "science": false
+  },
+  {
+   "id": "G3-411",
+   "file": "scripts/worksheet-gen/types/g3/G3-411-times-table-keyring-cards.js",
+   "grade": "G3",
+   "slug": "times-table-keyring-cards",
+   "family": "multiplication-tables",
+   "variationOf": null,
+   "title": "Times Table Keyring Cards",
+   "instruction": "Cut out the cards and punch a hole in each circle. Keep them on a ring and practice your tables.",
+   "assetClass": "numeral-charts",
+   "themed": false,
+   "levels": 3,
+   "params": [
+    "tables"
+   ],
+   "interactive": false,
+   "uses": [
+    "_shared/md-more.js"
+   ],
+   "teachingPoint": "3:times-tables",
+   "skill": "Know the multiplication tables 2-10 from memory, deriving unknown facts from neighbours",
+   "strand": "Operations & Algebraic Thinking",
    "science": false
   }
  ]

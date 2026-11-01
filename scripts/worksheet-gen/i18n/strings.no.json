@@ -3625,5 +3625,29 @@
   "G2-410": {
     "title": "Brøker i ord og bilder",
     "instruction": "Les hver brøk i ord. Trekk en strek til riktig bilde."
+  },
+  "G3-407": {
+    "title": "Fyll ut gangetabellen",
+    "instruction": "Gang tallet først i raden med tallet øverst i kolonnen. Skriv svaret i hver tomme rute."
+  },
+  "G3-408": {
+    "title": "Deling",
+    "instruction": "Del. Skriv svaret i hver rute."
+  },
+  "G3-409": {
+    "title": "Dagens gangestykke",
+    "instruction": "Se på stykket øverst. Fyll ut hver rute: tell i hopp, gang begge veier og del begge veier."
+  },
+  "G2-411": {
+    "title": "Tegn gangestykket",
+    "instruction": "Fargelegg et rektangel av prikker for hvert gangestykke: det første tallet er radene, det andre er prikkene i hver rad."
+  },
+  "G3-410": {
+    "title": "Lure triks i gangetabellen",
+    "instruction": "Bruk trikset på hver linje. Fyll ut rutene én etter én."
+  },
+  "G3-411": {
+    "title": "Gangetabellkort på ring",
+    "instruction": "Klipp ut kortene og lag et hull i hver sirkel. Sett dem på en ring og øv på gangetabellen."
   }
 }

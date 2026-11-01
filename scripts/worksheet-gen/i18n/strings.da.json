@@ -3616,5 +3616,29 @@
   "G2-410": {
     "title": "Brøker i ord og billeder",
     "instruction": "Læs hver brøk i ord. Tegn en streg til det rigtige billede."
+  },
+  "G3-407": {
+    "title": "Udfyld gangetabellen",
+    "instruction": "Gang tallet i starten af rækken med tallet øverst i søjlen. Skriv resultatet i hvert tomt felt."
+  },
+  "G3-408": {
+    "title": "Division",
+    "instruction": "Regn divisionsstykkerne. Skriv resultatet i hvert felt."
+  },
+  "G3-409": {
+    "title": "Dagens gangestykke",
+    "instruction": "Se på stykket øverst. Udfyld hvert felt: tæl i spring, gang begge veje og divider begge veje."
+  },
+  "G2-411": {
+    "title": "Tegn gangestykket",
+    "instruction": "Farvelæg et rektangel af prikker for hvert gangestykke: det første tal er rækkerne, det andet er prikkerne i hver række."
+  },
+  "G3-410": {
+    "title": "Smarte tricks i tabellerne",
+    "instruction": "Brug tricket på hver linje. Udfyld felterne ét ad gangen."
+  },
+  "G3-411": {
+    "title": "Tabelkort til nøgleringen",
+    "instruction": "Klip kortene ud, og lav et hul i hver cirkel. Sæt dem på en ring, og øv tabellerne."
   }
 }

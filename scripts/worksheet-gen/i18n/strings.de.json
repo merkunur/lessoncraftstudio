@@ -3641,5 +3641,29 @@
   "G2-410": {
     "title": "Brüche in Worten und Bildern",
     "instruction": "Lies jeden Bruch in Worten. Verbinde ihn mit seinem Bild."
+  },
+  "G3-407": {
+    "title": "Die Einmaleinstafel ausfüllen",
+    "instruction": "Rechne die Zahl am Anfang der Zeile mal die Zahl oben in der Spalte. Schreibe das Ergebnis in jedes leere Kästchen."
+  },
+  "G3-408": {
+    "title": "Geteiltaufgaben",
+    "instruction": "Rechne die Geteiltaufgaben. Schreibe das Ergebnis in jedes Kästchen."
+  },
+  "G3-409": {
+    "title": "Die Aufgabe des Tages",
+    "instruction": "Schau dir die Aufgabe oben an. Fülle jedes Kästchen aus: Zähle in Schritten weiter, rechne die Aufgabe und ihre Tauschaufgabe und dann die beiden Umkehraufgaben."
+  },
+  "G2-411": {
+    "title": "Punktefelder malen",
+    "instruction": "Male für jede Malaufgabe ein Rechteck aus Punkten an: Die erste Zahl sagt, wie viele Reihen, die zweite, wie viele Punkte in jeder Reihe."
+  },
+  "G3-410": {
+    "title": "Rechentricks beim Einmaleins",
+    "instruction": "Nutze den Trick in jeder Zeile. Fülle die Kästchen der Reihe nach aus."
+  },
+  "G3-411": {
+    "title": "Einmaleins-Karten für den Schlüsselring",
+    "instruction": "Schneide die Karten aus und stanze in jeden Kreis ein Loch. Steck sie auf einen Ring und übe dein Einmaleins."
   }
 }

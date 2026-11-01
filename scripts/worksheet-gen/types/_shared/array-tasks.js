@@ -19,6 +19,7 @@ const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const diceFace = require('../../primitives/dice.js');
 const domino = require('../../primitives/domino.js');
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
+const pictureSlot = require('../../lib/slot.js');
 const { answerBox } = require('../../templates/components.js');
 const { svgRoot, roundedRect } = require('../../primitives/_svg.js');
 const tokens = require('../../primitives/_tokens.js');
@@ -121,7 +122,9 @@ function makeArrayType(cfg) {
       const L = lvTable ? (lvTable[difficulty] || lvTable[2]) : null;
       const div = divGlyph(locale);
       const MUL = mulGlyph(locale);   // 2026-10-31: was a hard-coded '×' (de/sv/da/no/fi schools write ·)   // C1 2026-09-14: was a hard-coded '÷' (a MINUS in older sv notation)
-      const nouns = this.themeAxis.applicable ? rng.sample(labelSafeNouns(theme), d.cards) : null;
+      // makers: the teacher may swap a card's picture (lib/slot.js — the random stream and the catalogue page are untouched)
+      const nounPool = this.themeAxis.applicable ? labelSafeNouns(theme) : null;
+      const nouns = nounPool ? pictureSlot.pictures(ctx, rng.sample(nounPool, d.cards), nounPool, theme) : null;
       const cards = [];
       const used = new Set();
       for (let i = 0; i < d.cards; i++) {
@@ -290,7 +293,7 @@ function makeArrayType(cfg) {
           qa.push({ visual: `<span style="display:inline-flex;gap:28px;align-items:center">${iconArrayHtml(theme, nouns[i].noun, r, c, px)}${iconArrayHtml(theme, nouns[i].noun, c, r, px)}</span>`,
             eq: NUM(r) + OP(MUL) + NUM(c) + OP('=') + NUM(c) + OP(MUL) + NUM(r) + OP('=') + QBOX, q: `${r}*${c}`, a: r * c, d: [r * c + r, r * c - c, r + c, r * c + 1] });
         }
-        cards.push(stage);
+        cards.push(nouns ? pictureSlot.stamp(ctx, 'pic', i, stage) : stage);
       }
       const cols = ['domino-add', 'dice-add'].includes(mode) ? 1 : (['rep-add', 'groups-mult', 'group-rings', 'share-bins'].includes(mode) ? 2 : 1);
       // published pages keep meta {} (as shipped); a Level Set page names its facts. _ans (not meta) feeds the screen / key.

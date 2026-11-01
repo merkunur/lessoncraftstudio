@@ -3631,5 +3631,29 @@
   "G2-410": {
     "title": "Les fractions en lettres et en images",
     "instruction": "Lis chaque fraction écrite en lettres. Relie-la à son image."
+  },
+  "G3-407": {
+    "title": "Compléter la table de Pythagore",
+    "instruction": "Multiplie le nombre au début de la ligne par le nombre en haut de la colonne. Écris le produit dans chaque case vide."
+  },
+  "G3-408": {
+    "title": "Les divisions",
+    "instruction": "Divise. Écris le résultat dans chaque case."
+  },
+  "G3-409": {
+    "title": "Le calcul du jour",
+    "instruction": "Regarde le calcul en haut. Remplis chaque case : compte par bonds, multiplie dans les deux sens et divise dans les deux sens."
+  },
+  "G2-411": {
+    "title": "Colorie la disposition rectangulaire",
+    "instruction": "Pour chaque multiplication, colorie un rectangle de points : le premier nombre donne les lignes, le second les points de chaque ligne."
+  },
+  "G3-410": {
+    "title": "Astuces pour les tables",
+    "instruction": "Utilise l'astuce de chaque ligne. Remplis les cases une par une."
+  },
+  "G3-411": {
+    "title": "Cartes des tables pour porte-clés",
+    "instruction": "Découpe les cartes et perce un trou dans chaque rond. Enfile-les sur un anneau et entraîne-toi aux tables."
   }
 }

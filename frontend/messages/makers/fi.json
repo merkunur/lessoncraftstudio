@@ -45,7 +45,8 @@
     "compare-numbers": "Lukujen ja määrien vertailu",
     "odd-even": "Parilliset ja parittomat luvut",
     "place-value": "Paikka-arvo ja pyöristäminen",
-    "fractions": "Murtoluvut"
+    "fractions": "Murtoluvut",
+    "multiplication-division": "Kerto- ja jakolasku"
   },
   "editTitle": "Muokkaa otsikkoa",
   "editInstruction": "Muokkaa tehtävänantoa",

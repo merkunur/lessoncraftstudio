@@ -3335,7 +3335,8 @@
       "strand": "Operations & Algebraic Thinking",
       "worksheets": [
         "G2-211",
-        "G2-212"
+        "G2-212",
+        "G2-411"
       ],
       "verdict": "covered",
       "activities": [
@@ -3344,7 +3345,7 @@
         "fractions.make-and-count-squares.2-g-a-2"
       ],
       "planned": [],
-      "note": "Build an Array covers rows x columns; Echo Grove covers picking the picture that matches a sentence."
+      "note": "Build an Array covers rows x columns; Echo Grove covers picking the picture that matches a sentence. Multiplication & Division maker 2026-11-01: draw the array G2-411 (NEW-TEMPLATES 13-T4)."
     },
     {
       "tp": "2:share-and-group",
@@ -4744,14 +4745,16 @@
       "code": "3.OA.B.5",
       "strand": "Operations & Algebraic Thinking",
       "worksheets": [
-        "G3-314"
+        "G3-314",
+        "G3-409",
+        "G3-410"
       ],
       "verdict": "gap",
       "activities": [],
       "planned": [
         291
       ],
-      "note": "Echo Grove deliberately treats 3×4 and 4×3 as different groupings; no activity shows they have the same product."
+      "note": "Echo Grove deliberately treats 3×4 and 4×3 as different groupings; no activity shows they have the same product. Multiplication & Division maker 2026-11-01: fact of the day G3-409, strategy chains G3-410 (NEW-TEMPLATES 13-T3, T5)."
     },
     {
       "tp": "3:fraction-unit-build",
@@ -5339,7 +5342,10 @@
         "G3-402",
         "G3-403",
         "G3-404",
-        "G3-405"
+        "G3-405",
+        "G3-407",
+        "G3-408",
+        "G3-411"
       ],
       "verdict": "partial",
       "activities": [
@@ -5349,7 +5355,7 @@
       "planned": [
         293
       ],
-      "note": "The meaning of a product is covered; fluency with a table and its structure (each fact is one group more than the last) is not. G3-405 has an empty title line in the input but is 'Times Table of 9' (file G3-405-times-table-of-9.js)."
+      "note": "The meaning of a product is covered; fluency with a table and its structure (each fact is one group more than the last) is not. G3-405 has an empty title line in the input but is 'Times Table of 9' (file G3-405-times-table-of-9.js). Multiplication & Division maker 2026-11-01: multiplication square G3-407, division facts G3-408, keyring cards G3-411 (NEW-TEMPLATES 13-T1, T2, T7)."
     },
     {
       "tp": "3:muldiv-word-problems",

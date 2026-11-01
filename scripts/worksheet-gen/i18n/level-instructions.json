@@ -4216,5 +4216,48 @@
       "no": "Les hver brøk i ord. Trekk en strek til riktig bilde. Skriv så brøken i rutene.",
       "fi": "Lue jokainen sanoin kirjoitettu murtoluku. Yhdistä se oikeaan kuvaan. Kirjoita sitten murtoluku laatikoihin."
     }
+  },
+  "G2-411": {
+    "2": {
+      "en": "Color a rectangle of dots for each multiplication: the first number is the rows, the second is the dots in each row. Then write how many dots you colored.",
+      "de": "Male für jede Malaufgabe ein Rechteck aus Punkten an: Die erste Zahl sagt, wie viele Reihen, die zweite, wie viele Punkte in jeder Reihe. Schreibe dann auf, wie viele Punkte du angemalt hast.",
+      "fr": "Pour chaque multiplication, colorie un rectangle de points : le premier nombre donne les lignes, le second les points de chaque ligne. Puis écris combien de points tu as coloriés.",
+      "es": "Para cada multiplicación, colorea un rectángulo de puntos: el primer número son las filas y el segundo, los puntos de cada fila. Luego escribe cuántos puntos coloreaste.",
+      "pt": "Para cada multiplicação, pinte um retângulo de pontos: o primeiro número são as linhas e o segundo, os pontos em cada linha. Depois escreva quantos pontos você pintou.",
+      "it": "Per ogni moltiplicazione colora un rettangolo di punti: il primo numero sono le righe, il secondo i punti in ogni riga. Poi scrivi quanti punti hai colorato.",
+      "nl": "Kleur bij elke keersom een rechthoek van stippen: het eerste getal is het aantal rijen, het tweede het aantal stippen in elke rij. Schrijf dan op hoeveel stippen je hebt gekleurd.",
+      "sv": "Färglägg en rektangel av prickar för varje multiplikation: det första talet är raderna, det andra är prickarna i varje rad. Skriv sedan hur många prickar du färglade.",
+      "da": "Farvelæg et rektangel af prikker for hvert gangestykke: det første tal er rækkerne, det andet er prikkerne i hver række. Skriv så, hvor mange prikker du farvelagde.",
+      "no": "Fargelegg et rektangel av prikker for hvert gangestykke: det første tallet er radene, det andre er prikkene i hver rad. Skriv så hvor mange prikker du fargela.",
+      "fi": "Väritä jokaista kertolaskua varten pisteistä suorakulmio: ensimmäinen luku kertoo rivien määrän, toinen pisteiden määrän kullakin rivillä. Kirjoita sitten, montako pistettä väritit."
+    },
+    "3": {
+      "en": "Color a rectangle of dots for each multiplication: the first number is the rows, the second is the dots in each row. Then write how many dots you colored.",
+      "de": "Male für jede Malaufgabe ein Rechteck aus Punkten an: Die erste Zahl sagt, wie viele Reihen, die zweite, wie viele Punkte in jeder Reihe. Schreibe dann auf, wie viele Punkte du angemalt hast.",
+      "fr": "Pour chaque multiplication, colorie un rectangle de points : le premier nombre donne les lignes, le second les points de chaque ligne. Puis écris combien de points tu as coloriés.",
+      "es": "Para cada multiplicación, colorea un rectángulo de puntos: el primer número son las filas y el segundo, los puntos de cada fila. Luego escribe cuántos puntos coloreaste.",
+      "pt": "Para cada multiplicação, pinte um retângulo de pontos: o primeiro número são as linhas e o segundo, os pontos em cada linha. Depois escreva quantos pontos você pintou.",
+      "it": "Per ogni moltiplicazione colora un rettangolo di punti: il primo numero sono le righe, il secondo i punti in ogni riga. Poi scrivi quanti punti hai colorato.",
+      "nl": "Kleur bij elke keersom een rechthoek van stippen: het eerste getal is het aantal rijen, het tweede het aantal stippen in elke rij. Schrijf dan op hoeveel stippen je hebt gekleurd.",
+      "sv": "Färglägg en rektangel av prickar för varje multiplikation: det första talet är raderna, det andra är prickarna i varje rad. Skriv sedan hur många prickar du färglade.",
+      "da": "Farvelæg et rektangel af prikker for hvert gangestykke: det første tal er rækkerne, det andet er prikkerne i hver række. Skriv så, hvor mange prikker du farvelagde.",
+      "no": "Fargelegg et rektangel av prikker for hvert gangestykke: det første tallet er radene, det andre er prikkene i hver rad. Skriv så hvor mange prikker du fargela.",
+      "fi": "Väritä jokaista kertolaskua varten pisteistä suorakulmio: ensimmäinen luku kertoo rivien määrän, toinen pisteiden määrän kullakin rivillä. Kirjoita sitten, montako pistettä väritit."
+    }
+  },
+  "G3-411": {
+    "3": {
+      "en": "Cut out the cards and punch a hole in each circle. Keep them on a ring and practice your tables. The answers are blank: say them, write them, then check them.",
+      "de": "Schneide die Karten aus und stanze in jeden Kreis ein Loch. Steck sie auf einen Ring und übe dein Einmaleins. Die Ergebnisse fehlen: Sag sie, schreib sie auf und prüfe sie dann.",
+      "fr": "Découpe les cartes et perce un trou dans chaque rond. Enfile-les sur un anneau et entraîne-toi aux tables. Les résultats manquent : dis-les, écris-les, puis vérifie-les.",
+      "es": "Recorta las tarjetas y haz un agujero en cada círculo. Ponlas en una argolla y practica tus tablas. Faltan los resultados: dilos, escríbelos y luego revísalos.",
+      "pt": "Recorte os cartões e faça um furo em cada círculo. Coloque-os em uma argola e pratique a tabuada. Os resultados estão em branco: diga, escreva e depois confira.",
+      "it": "Ritaglia i cartoncini e fai un buco in ogni cerchio. Infilali in un anello ed esercitati con le tabelline. I risultati mancano: dilli, scrivili e poi controllali.",
+      "nl": "Knip de kaartjes uit en pons een gaatje in elk rondje. Doe ze aan een ring en oefen je tafels. De uitkomsten zijn leeg: zeg ze, schrijf ze op en controleer ze.",
+      "sv": "Klipp ut korten och gör ett hål i varje cirkel. Sätt dem på en ring och öva tabellerna. Svaren saknas: säg dem, skriv dem och kontrollera dem sedan.",
+      "da": "Klip kortene ud, og lav et hul i hver cirkel. Sæt dem på en ring, og øv tabellerne. Resultaterne mangler: sig dem, skriv dem, og tjek dem så.",
+      "no": "Klipp ut kortene og lag et hull i hver sirkel. Sett dem på en ring og øv på gangetabellen. Svarene mangler: si dem, skriv dem og sjekk dem så.",
+      "fi": "Leikkaa kortit irti ja tee reikä jokaiseen ympyrään. Pujota ne renkaaseen ja harjoittele kertotauluja. Vastaukset puuttuvat: sano ne, kirjoita ne ja tarkista ne sitten."
+    }
   }
 }

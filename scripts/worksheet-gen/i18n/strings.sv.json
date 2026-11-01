@@ -3597,5 +3597,29 @@
   "G2-410": {
     "title": "Bråk i ord och bild",
     "instruction": "Läs varje bråk i ord. Dra ett streck till rätt bild."
+  },
+  "G3-407": {
+    "title": "Fyll i multiplikationstabellen",
+    "instruction": "Multiplicera talet först i raden med talet överst i kolumnen. Skriv produkten i varje tom ruta."
+  },
+  "G3-408": {
+    "title": "Divisionsuppgifter",
+    "instruction": "Dividera. Skriv svaret i varje ruta."
+  },
+  "G3-409": {
+    "title": "Dagens multiplikation",
+    "instruction": "Titta på uppgiften överst. Fyll i varje ruta: räkna hoppvis, multiplicera åt båda hållen och dividera åt båda hållen."
+  },
+  "G2-411": {
+    "title": "Rita multiplikationen",
+    "instruction": "Färglägg en rektangel av prickar för varje multiplikation: det första talet är raderna, det andra är prickarna i varje rad."
+  },
+  "G3-410": {
+    "title": "Smarta knep i multiplikationstabellen",
+    "instruction": "Använd knepet på varje rad. Fyll i rutorna en i taget."
+  },
+  "G3-411": {
+    "title": "Multiplikationskort på en ring",
+    "instruction": "Klipp ut korten och gör ett hål i varje cirkel. Sätt dem på en ring och öva tabellerna."
   }
 }

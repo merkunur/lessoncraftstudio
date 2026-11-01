@@ -3612,5 +3612,29 @@
   "G2-410": {
     "title": "Frazioni in lettere e in figure",
     "instruction": "Leggi ogni frazione scritta in lettere. Collegala alla sua figura."
+  },
+  "G3-407": {
+    "title": "Completa la tavola pitagorica",
+    "instruction": "Moltiplica il numero all'inizio della riga per il numero in cima alla colonna. Scrivi il prodotto in ogni casella vuota."
+  },
+  "G3-408": {
+    "title": "Le divisioni",
+    "instruction": "Dividi. Scrivi il risultato in ogni casella."
+  },
+  "G3-409": {
+    "title": "La moltiplicazione del giorno",
+    "instruction": "Guarda la moltiplicazione in alto. Completa ogni casella: conta a salti, moltiplica nei due sensi e dividi nei due sensi."
+  },
+  "G2-411": {
+    "title": "Colora lo schieramento",
+    "instruction": "Per ogni moltiplicazione colora un rettangolo di punti: il primo numero sono le righe, il secondo i punti in ogni riga."
+  },
+  "G3-410": {
+    "title": "Trucchi per le tabelline",
+    "instruction": "Usa il trucco di ogni riga. Completa le caselle una alla volta."
+  },
+  "G3-411": {
+    "title": "Tabelline portachiavi",
+    "instruction": "Ritaglia i cartoncini e fai un buco in ogni cerchio. Infilali in un anello ed esercitati con le tabelline."
   }
 }

@@ -10,6 +10,9 @@ module.exports = {
   slug: 'division-with-remainder-share-it-out',
   // Level Set 2026-10-06: real easier / harder levels (level 1 = share between 2 or 3, at most 15; level 3 = between 5, 6 or 7 (the deal row holds 7 boxes at most)); level 2 = the published config
   interactive: require('../../lib/division-remainder-screen.js').interactiveFor(),
+  // makers 2026-11-01: only the divisor set the share face can build (a deal row holds 7 homes: 8 and 9 are refused at
+  // level 2 — the catalogue never built '6-9' or '2-9' here); the maker offers no unit that cannot build
+  unitAxis: { ...base.unitAxis, units: () => ['2-5'] },
   difficulty: { 1: { ...D, divisors: [2, 3], nMin: 5, nMax: 15, minDistinctD: 2, minQ2Cards: 2 }, 2: D, 3: { ...D, divisors: [5, 6, 7], nMin: 11, nMax: 20, minQ2Cards: 2 } },
   i18n: { en: { title: "Share It Out: What Is Left Over?", instruction: "Deal the pile into the boxes one at a time. Write how many each box gets and how many cannot be shared." } },
 };

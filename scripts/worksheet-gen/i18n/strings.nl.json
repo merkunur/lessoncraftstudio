@@ -3630,5 +3630,29 @@
   "G2-410": {
     "title": "Breuken in woorden en plaatjes",
     "instruction": "Lees elke breuk in woorden. Verbind hem met het juiste plaatje."
+  },
+  "G3-407": {
+    "title": "Vul de tafelkaart in",
+    "instruction": "Vermenigvuldig het getal aan het begin van de rij met het getal boven de kolom. Schrijf de uitkomst in elk leeg vakje."
+  },
+  "G3-408": {
+    "title": "Deelsommen",
+    "instruction": "Deel. Schrijf de uitkomst in elk vakje."
+  },
+  "G3-409": {
+    "title": "De som van de dag",
+    "instruction": "Kijk naar de som bovenaan. Vul elk vakje in: tel in sprongen, maak allebei de keersommen en allebei de deelsommen."
+  },
+  "G2-411": {
+    "title": "Kleur het rooster",
+    "instruction": "Kleur bij elke keersom een rechthoek van stippen: het eerste getal is het aantal rijen, het tweede het aantal stippen in elke rij."
+  },
+  "G3-410": {
+    "title": "Slimme tafeltrucs",
+    "instruction": "Gebruik de truc op elke regel. Vul de vakjes één voor één in."
+  },
+  "G3-411": {
+    "title": "Tafelkaartjes aan een ring",
+    "instruction": "Knip de kaartjes uit en pons een gaatje in elk rondje. Doe ze aan een ring en oefen je tafels."
   }
 }

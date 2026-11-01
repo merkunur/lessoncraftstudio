@@ -3646,5 +3646,29 @@
   "G2-410": {
     "title": "Fraction Words and Pictures",
     "instruction": "Read each fraction word. Draw a line to its picture."
+  },
+  "G3-407": {
+    "title": "Fill the Multiplication Square",
+    "instruction": "Multiply the number at the start of the row by the number at the top of the column. Write the product in each empty box."
+  },
+  "G3-408": {
+    "title": "Division Facts",
+    "instruction": "Divide. Write the answer in each box."
+  },
+  "G3-409": {
+    "title": "Fact of the Day",
+    "instruction": "Look at the fact at the top. Fill in every box: skip-count, multiply both ways, and divide both ways."
+  },
+  "G2-411": {
+    "title": "Draw the Array",
+    "instruction": "Color a rectangle of dots for each multiplication: the first number is the rows, the second is the dots in each row."
+  },
+  "G3-410": {
+    "title": "Times Table Tricks",
+    "instruction": "Use the trick on each line. Fill in the boxes one by one."
+  },
+  "G3-411": {
+    "title": "Times Table Keyring Cards",
+    "instruction": "Cut out the cards and punch a hole in each circle. Keep them on a ring and practice your tables."
   }
 }

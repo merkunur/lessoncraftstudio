@@ -3645,5 +3645,37 @@
   "G3-411": {
     "title": "Tablas de multiplicar en llavero",
     "instruction": "Recorta las tarjetas y haz un agujero en cada círculo. Ponlas en una argolla y practica tus tablas."
+  },
+  "G1-470": {
+    "title": "Sudoku de números 4 × 4",
+    "instruction": "En cada fila, cada columna y cada cuadro deben estar los números 1, 2, 3 y 4 una sola vez. Escribe los números que faltan."
+  },
+  "G1-471": {
+    "title": "Sudokus de dibujos",
+    "instruction": "En cada fila, cada columna y cada cuadro debe estar cada uno de los cuatro dibujos una sola vez. Dibuja los que faltan o escribe sus nombres."
+  },
+  "G3-470": {
+    "title": "Sudoku de números 6 × 6",
+    "instruction": "En cada fila, cada columna y cada cuadro deben estar los números del 1 al 6 una sola vez. Escribe los números que faltan."
+  },
+  "G3-471": {
+    "title": "Sudoku de dibujos 6 × 6",
+    "instruction": "En cada fila, cada columna y cada cuadro debe estar cada uno de los seis dibujos una sola vez. Dibuja los que faltan o escribe sus nombres."
+  },
+  "G2-470": {
+    "title": "Acertijos de jaulas 3 × 3",
+    "instruction": "En cada fila y cada columna deben estar el 1, el 2 y el 3 una sola vez. Los números dentro de una jaula de borde grueso suman el numerito de su esquina."
+  },
+  "G3-472": {
+    "title": "Acertijos de jaulas 4 × 4",
+    "instruction": "En cada fila y cada columna deben estar el 1, el 2, el 3 y el 4 una sola vez. Los números dentro de una jaula de borde grueso suman el numerito de su esquina.{RULE}"
+  },
+  "G1-472": {
+    "title": "Sumas en clave de dibujos",
+    "instruction": "Cada dibujo representa un número. Empieza por la suma que puedes resolver, luego encuentra el número de cada dibujo y escríbelo en el cuadro junto a ese dibujo."
+  },
+  "G3-473": {
+    "title": "Balanzas con figuras",
+    "instruction": "Las balanzas están equilibradas. Descubre cuánto pesa cada figura y escríbelo en su cuadro."
   }
 }

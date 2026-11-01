@@ -3636,5 +3636,37 @@
   "G3-411": {
     "title": "Tabelline portachiavi",
     "instruction": "Ritaglia i cartoncini e fai un buco in ogni cerchio. Infilali in un anello ed esercitati con le tabelline."
+  },
+  "G1-470": {
+    "title": "Sudoku con i numeri 4 × 4",
+    "instruction": "In ogni riga, in ogni colonna e in ogni riquadro ci sono i numeri 1, 2, 3 e 4 una sola volta. Scrivi i numeri che mancano."
+  },
+  "G1-471": {
+    "title": "Sudoku con le figure",
+    "instruction": "In ogni riga, in ogni colonna e in ogni riquadro c'è ognuna delle quattro figure una sola volta. Disegna le figure che mancano o scrivi il loro nome."
+  },
+  "G3-470": {
+    "title": "Sudoku con i numeri 6 × 6",
+    "instruction": "In ogni riga, in ogni colonna e in ogni riquadro ci sono i numeri da 1 a 6 una sola volta. Scrivi i numeri che mancano."
+  },
+  "G3-471": {
+    "title": "Sudoku con le figure 6 × 6",
+    "instruction": "In ogni riga, in ogni colonna e in ogni riquadro c'è ognuna delle sei figure una sola volta. Disegna le figure che mancano o scrivi il loro nome."
+  },
+  "G2-470": {
+    "title": "Rompicapi a gabbie 3 × 3",
+    "instruction": "In ogni riga e in ogni colonna ci sono 1, 2 e 3 una sola volta. I numeri dentro una gabbia dal bordo spesso, sommati, danno il numerino nell'angolo."
+  },
+  "G3-472": {
+    "title": "Rompicapi a gabbie 4 × 4",
+    "instruction": "In ogni riga e in ogni colonna ci sono 1, 2, 3 e 4 una sola volta. I numeri dentro una gabbia dal bordo spesso, sommati, danno il numerino nell'angolo.{RULE}"
+  },
+  "G1-472": {
+    "title": "Addizioni in codice con le figure",
+    "instruction": "Ogni figura vale un numero. Comincia dall'addizione che riesci a risolvere, poi trova il numero di ogni figura e scrivilo nella casella accanto alla figura."
+  },
+  "G3-473": {
+    "title": "Bilance con le forme",
+    "instruction": "Le bilance sono in equilibrio. Scopri quanto pesa ogni forma e scrivilo nella sua casella."
   }
 }

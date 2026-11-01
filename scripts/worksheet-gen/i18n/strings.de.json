@@ -3665,5 +3665,37 @@
   "G3-411": {
     "title": "Einmaleins-Karten für den Schlüsselring",
     "instruction": "Schneide die Karten aus und stanze in jeden Kreis ein Loch. Steck sie auf einen Ring und übe dein Einmaleins."
+  },
+  "G1-470": {
+    "title": "Zahlen-Sudoku 4 × 4",
+    "instruction": "In jeder Reihe, jeder Spalte und jedem Kasten kommen die Zahlen 1, 2, 3 und 4 genau einmal vor. Schreibe die fehlenden Zahlen."
+  },
+  "G1-471": {
+    "title": "Bilder-Sudoku-Rätsel",
+    "instruction": "In jeder Reihe, jeder Spalte und jedem Kasten kommt jedes der vier Bilder genau einmal vor. Zeichne die fehlenden Bilder oder schreibe ihre Namen."
+  },
+  "G3-470": {
+    "title": "Zahlen-Sudoku 6 × 6",
+    "instruction": "In jeder Reihe, jeder Spalte und jedem Kasten kommen die Zahlen 1 bis 6 genau einmal vor. Schreibe die fehlenden Zahlen."
+  },
+  "G3-471": {
+    "title": "Bilder-Sudoku 6 × 6",
+    "instruction": "In jeder Reihe, jeder Spalte und jedem Kasten kommt jedes der sechs Bilder genau einmal vor. Zeichne die fehlenden Bilder oder schreibe ihre Namen."
+  },
+  "G2-470": {
+    "title": "Käfig-Rätsel 3 × 3",
+    "instruction": "In jeder Reihe und jeder Spalte kommen 1, 2 und 3 genau einmal vor. Die Zahlen in einem dick umrandeten Käfig ergeben zusammen die kleine Zahl in seiner Ecke."
+  },
+  "G3-472": {
+    "title": "Käfig-Rätsel 4 × 4",
+    "instruction": "In jeder Reihe und jeder Spalte kommen 1, 2, 3 und 4 genau einmal vor. Die Zahlen in einem dick umrandeten Käfig ergeben zusammen die kleine Zahl in seiner Ecke.{RULE}"
+  },
+  "G1-472": {
+    "title": "Bilder-Rechencode",
+    "instruction": "Jedes Bild steht für eine Zahl. Beginne mit der Aufgabe, die du lösen kannst, finde dann die Zahl zu jedem Bild und schreibe sie in das Kästchen neben dem Bild."
+  },
+  "G3-473": {
+    "title": "Waage-Rätsel mit Formen",
+    "instruction": "Die Waagen sind im Gleichgewicht. Finde heraus, wie viel jede Form wiegt, und schreibe es in ihr Kästchen."
   }
 }

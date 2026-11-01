@@ -3640,5 +3640,37 @@
   "G3-411": {
     "title": "Tabelkort til nøgleringen",
     "instruction": "Klip kortene ud, og lav et hul i hver cirkel. Sæt dem på en ring, og øv tabellerne."
+  },
+  "G1-470": {
+    "title": "Talsudoku 4 × 4",
+    "instruction": "I hver række, hver kolonne og hver kasse skal tallene 1, 2, 3 og 4 stå én gang. Skriv de tal, der mangler."
+  },
+  "G1-471": {
+    "title": "Billedsudoku",
+    "instruction": "I hver række, hver kolonne og hver kasse skal hvert af de fire billeder stå én gang. Tegn de billeder, der mangler, eller skriv, hvad de hedder."
+  },
+  "G3-470": {
+    "title": "Talsudoku 6 × 6",
+    "instruction": "I hver række, hver kolonne og hver kasse skal tallene 1 til 6 stå én gang. Skriv de tal, der mangler."
+  },
+  "G3-471": {
+    "title": "Billedsudoku 6 × 6",
+    "instruction": "I hver række, hver kolonne og hver kasse skal hvert af de seks billeder stå én gang. Tegn de billeder, der mangler, eller skriv, hvad de hedder."
+  },
+  "G2-470": {
+    "title": "Burpuslespil 3 × 3",
+    "instruction": "I hver række og hver kolonne skal 1, 2 og 3 stå én gang. Tallene i et bur med tyk kant giver tilsammen det lille tal i hjørnet."
+  },
+  "G3-472": {
+    "title": "Burpuslespil 4 × 4",
+    "instruction": "I hver række og hver kolonne skal 1, 2, 3 og 4 stå én gang. Tallene i et bur med tyk kant giver tilsammen det lille tal i hjørnet.{RULE}"
+  },
+  "G1-472": {
+    "title": "Regnekode med billeder",
+    "instruction": "Hvert billede står for et tal. Begynd med det stykke, du kan løse, find så tallet for hvert billede og skriv det i feltet ved siden af billedet."
+  },
+  "G3-473": {
+    "title": "Vægtpuslespil med former",
+    "instruction": "Vægtene er i balance. Find ud af, hvor meget hver form vejer, og skriv det i feltet."
   }
 }

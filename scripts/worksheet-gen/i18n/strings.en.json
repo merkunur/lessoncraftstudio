@@ -3670,5 +3670,37 @@
   "G3-411": {
     "title": "Times Table Keyring Cards",
     "instruction": "Cut out the cards and punch a hole in each circle. Keep them on a ring and practice your tables."
+  },
+  "G1-470": {
+    "title": "Number Sudoku 4 × 4",
+    "instruction": "Every row, column, and box needs the numbers 1, 2, 3, and 4 once. Write the missing numbers."
+  },
+  "G1-471": {
+    "title": "Picture Sudoku Puzzles",
+    "instruction": "Every row, column, and box needs each of the four pictures once. Draw the missing pictures or write their names."
+  },
+  "G3-470": {
+    "title": "Number Sudoku 6 × 6",
+    "instruction": "Every row, column, and box needs the numbers 1 to 6 once. Write the missing numbers."
+  },
+  "G3-471": {
+    "title": "Picture Sudoku 6 × 6",
+    "instruction": "Every row, column, and box needs each of the six pictures once. Draw the missing pictures or write their names."
+  },
+  "G2-470": {
+    "title": "Cage Puzzles 3 × 3",
+    "instruction": "Every row and column needs 1, 2, and 3 once. The numbers inside a thick-lined cage add up to the small number in its corner."
+  },
+  "G3-472": {
+    "title": "Cage Puzzles 4 × 4",
+    "instruction": "Every row and column needs 1, 2, 3, and 4 once. The numbers inside a thick-lined cage add up to the small number in its corner.{RULE}"
+  },
+  "G1-472": {
+    "title": "Picture Code Addition",
+    "instruction": "Each picture stands for a number. Start with the sum you can solve, then find every picture's number and write it in the box next to that picture."
+  },
+  "G3-473": {
+    "title": "Shape Balance Puzzles",
+    "instruction": "The scales balance. Find how much each shape weighs and write it in its box."
   }
 }

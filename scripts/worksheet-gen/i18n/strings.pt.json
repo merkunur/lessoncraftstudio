@@ -3660,5 +3660,37 @@
   "G3-411": {
     "title": "Tabuada no chaveiro",
     "instruction": "Recorte os cartões e faça um furo em cada círculo. Coloque-os em uma argola e pratique a tabuada."
+  },
+  "G1-470": {
+    "title": "Sudoku de números 4 × 4",
+    "instruction": "Em cada linha, cada coluna e cada quadrado, os números 1, 2, 3 e 4 aparecem uma vez só. Escreva os números que faltam."
+  },
+  "G1-471": {
+    "title": "Sudoku de figuras",
+    "instruction": "Em cada linha, cada coluna e cada quadrado, cada uma das quatro figuras aparece uma vez só. Desenhe as figuras que faltam ou escreva o nome delas."
+  },
+  "G3-470": {
+    "title": "Sudoku de números 6 × 6",
+    "instruction": "Em cada linha, cada coluna e cada retângulo, os números de 1 a 6 aparecem uma vez só. Escreva os números que faltam."
+  },
+  "G3-471": {
+    "title": "Sudoku de figuras 6 × 6",
+    "instruction": "Em cada linha, cada coluna e cada retângulo, cada uma das seis figuras aparece uma vez só. Desenhe as figuras que faltam ou escreva o nome delas."
+  },
+  "G2-470": {
+    "title": "Desafios de gaiolas 3 × 3",
+    "instruction": "Em cada linha e cada coluna, o 1, o 2 e o 3 aparecem uma vez só. Os números dentro de uma gaiola de contorno grosso somam o numerinho do canto."
+  },
+  "G3-472": {
+    "title": "Desafios de gaiolas 4 × 4",
+    "instruction": "Em cada linha e cada coluna, o 1, o 2, o 3 e o 4 aparecem uma vez só. Os números dentro de uma gaiola de contorno grosso somam o numerinho do canto.{RULE}"
+  },
+  "G1-472": {
+    "title": "Código de somas com figuras",
+    "instruction": "Cada figura vale um número. Comece pela soma que você consegue resolver, depois descubra o número de cada figura e escreva no quadradinho ao lado dela."
+  },
+  "G3-473": {
+    "title": "Balanças com formas",
+    "instruction": "As balanças estão equilibradas. Descubra quanto pesa cada forma e escreva no quadradinho dela."
   }
 }

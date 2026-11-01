@@ -3621,5 +3621,37 @@
   "G3-411": {
     "title": "Multiplikationskort på en ring",
     "instruction": "Klipp ut korten och gör ett hål i varje cirkel. Sätt dem på en ring och öva tabellerna."
+  },
+  "G1-470": {
+    "title": "Siffersudoku 4 × 4",
+    "instruction": "I varje rad, varje kolumn och varje ruta ska talen 1, 2, 3 och 4 finnas en gång. Skriv de tal som saknas."
+  },
+  "G1-471": {
+    "title": "Bildsudoku",
+    "instruction": "I varje rad, varje kolumn och varje ruta ska var och en av de fyra bilderna finnas en gång. Rita de bilder som saknas eller skriv vad de heter."
+  },
+  "G3-470": {
+    "title": "Siffersudoku 6 × 6",
+    "instruction": "I varje rad, varje kolumn och varje ruta ska talen 1 till 6 finnas en gång. Skriv de tal som saknas."
+  },
+  "G3-471": {
+    "title": "Bildsudoku 6 × 6",
+    "instruction": "I varje rad, varje kolumn och varje ruta ska var och en av de sex bilderna finnas en gång. Rita de bilder som saknas eller skriv vad de heter."
+  },
+  "G2-470": {
+    "title": "Burpussel 3 × 3",
+    "instruction": "I varje rad och varje kolumn ska 1, 2 och 3 finnas en gång. Talen i en bur med tjock kant blir tillsammans det lilla talet i hörnet."
+  },
+  "G3-472": {
+    "title": "Burpussel 4 × 4",
+    "instruction": "I varje rad och varje kolumn ska 1, 2, 3 och 4 finnas en gång. Talen i en bur med tjock kant blir tillsammans det lilla talet i hörnet.{RULE}"
+  },
+  "G1-472": {
+    "title": "Räknekod med bilder",
+    "instruction": "Varje bild står för ett tal. Börja med den addition du kan lösa, hitta sedan talet för varje bild och skriv det i rutan bredvid bilden."
+  },
+  "G3-473": {
+    "title": "Vågpussel med former",
+    "instruction": "Vågarna är i jämvikt. Ta reda på hur mycket varje form väger och skriv det i rutan."
   }
 }

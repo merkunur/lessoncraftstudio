@@ -3631,5 +3631,37 @@
   "G3-411": {
     "title": "Kertotaulukortit avainrenkaaseen",
     "instruction": "Leikkaa kortit irti ja tee reikä jokaiseen ympyrään. Pujota ne renkaaseen ja harjoittele kertotauluja."
+  },
+  "G1-470": {
+    "title": "Numerosudoku 4 × 4",
+    "instruction": "Jokaisella rivillä, jokaisessa sarakkeessa ja jokaisessa laatikossa on numerot 1, 2, 3 ja 4 täsmälleen kerran. Kirjoita puuttuvat numerot."
+  },
+  "G1-471": {
+    "title": "Kuvasudokut",
+    "instruction": "Jokaisella rivillä, jokaisessa sarakkeessa ja jokaisessa laatikossa on jokainen neljästä kuvasta täsmälleen kerran. Piirrä puuttuvat kuvat tai kirjoita niiden nimet."
+  },
+  "G3-470": {
+    "title": "Numerosudoku 6 × 6",
+    "instruction": "Jokaisella rivillä, jokaisessa sarakkeessa ja jokaisessa laatikossa on numerot 1–6 täsmälleen kerran. Kirjoita puuttuvat numerot."
+  },
+  "G3-471": {
+    "title": "Kuvasudoku 6 × 6",
+    "instruction": "Jokaisella rivillä, jokaisessa sarakkeessa ja jokaisessa laatikossa on jokainen kuudesta kuvasta täsmälleen kerran. Piirrä puuttuvat kuvat tai kirjoita niiden nimet."
+  },
+  "G2-470": {
+    "title": "Häkkipulmat 3 × 3",
+    "instruction": "Jokaisella rivillä ja jokaisessa sarakkeessa on numerot 1, 2 ja 3 täsmälleen kerran. Paksureunaisen häkin numeroiden summa on häkin kulmassa oleva pieni luku."
+  },
+  "G3-472": {
+    "title": "Häkkipulmat 4 × 4",
+    "instruction": "Jokaisella rivillä ja jokaisessa sarakkeessa on numerot 1, 2, 3 ja 4 täsmälleen kerran. Paksureunaisen häkin numeroiden summa on häkin kulmassa oleva pieni luku.{RULE}"
+  },
+  "G1-472": {
+    "title": "Kuvakoodilaskut",
+    "instruction": "Jokainen kuva tarkoittaa yhtä lukua. Aloita laskusta, jonka osaat ratkaista, selvitä sitten jokaisen kuvan luku ja kirjoita se kuvan viereiseen laatikkoon."
+  },
+  "G3-473": {
+    "title": "Muotojen vaakapulmat",
+    "instruction": "Vaa'at ovat tasapainossa. Selvitä, kuinka paljon kukin muoto painaa, ja kirjoita se muodon laatikkoon."
   }
 }

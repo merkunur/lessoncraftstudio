@@ -3655,5 +3655,37 @@
   "G3-411": {
     "title": "Cartes des tables pour porte-clés",
     "instruction": "Découpe les cartes et perce un trou dans chaque rond. Enfile-les sur un anneau et entraîne-toi aux tables."
+  },
+  "G1-470": {
+    "title": "Sudoku des nombres 4 × 4",
+    "instruction": "Chaque ligne, chaque colonne et chaque région doit contenir les nombres 1, 2, 3 et 4 une seule fois. Écris les nombres qui manquent."
+  },
+  "G1-471": {
+    "title": "Sudokus d'images",
+    "instruction": "Chaque ligne, chaque colonne et chaque région doit contenir chacune des quatre images une seule fois. Dessine les images qui manquent ou écris leur nom."
+  },
+  "G3-470": {
+    "title": "Sudoku des nombres 6 × 6",
+    "instruction": "Chaque ligne, chaque colonne et chaque région doit contenir les nombres de 1 à 6 une seule fois. Écris les nombres qui manquent."
+  },
+  "G3-471": {
+    "title": "Sudoku d'images 6 × 6",
+    "instruction": "Chaque ligne, chaque colonne et chaque région doit contenir chacune des six images une seule fois. Dessine les images qui manquent ou écris leur nom."
+  },
+  "G2-470": {
+    "title": "Casse-têtes à cages 3 × 3",
+    "instruction": "Chaque ligne et chaque colonne doit contenir 1, 2 et 3 une seule fois. Les nombres d'une cage au trait épais additionnés donnent le petit nombre écrit dans son coin."
+  },
+  "G3-472": {
+    "title": "Casse-têtes à cages 4 × 4",
+    "instruction": "Chaque ligne et chaque colonne doit contenir 1, 2, 3 et 4 une seule fois. Les nombres d'une cage au trait épais additionnés donnent le petit nombre écrit dans son coin.{RULE}"
+  },
+  "G1-472": {
+    "title": "Additions codées en images",
+    "instruction": "Chaque image représente un nombre. Commence par l'addition que tu peux résoudre, puis trouve le nombre de chaque image et écris-le dans la case à côté de l'image."
+  },
+  "G3-473": {
+    "title": "Balances à formes",
+    "instruction": "Les balances sont en équilibre. Trouve combien pèse chaque forme et écris-le dans sa case."
   }
 }

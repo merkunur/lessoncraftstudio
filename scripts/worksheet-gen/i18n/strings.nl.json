@@ -3654,5 +3654,37 @@
   "G3-411": {
     "title": "Tafelkaartjes aan een ring",
     "instruction": "Knip de kaartjes uit en pons een gaatje in elk rondje. Doe ze aan een ring en oefen je tafels."
+  },
+  "G1-470": {
+    "title": "Cijfersudoku 4 × 4",
+    "instruction": "In elke rij, elke kolom en elk blok staan de getallen 1, 2, 3 en 4 precies één keer. Schrijf de ontbrekende getallen."
+  },
+  "G1-471": {
+    "title": "Plaatjessudoku's",
+    "instruction": "In elke rij, elke kolom en elk blok staat elk van de vier plaatjes precies één keer. Teken de ontbrekende plaatjes of schrijf hun naam."
+  },
+  "G3-470": {
+    "title": "Cijfersudoku 6 × 6",
+    "instruction": "In elke rij, elke kolom en elk blok staan de getallen 1 tot en met 6 precies één keer. Schrijf de ontbrekende getallen."
+  },
+  "G3-471": {
+    "title": "Plaatjessudoku 6 × 6",
+    "instruction": "In elke rij, elke kolom en elk blok staat elk van de zes plaatjes precies één keer. Teken de ontbrekende plaatjes of schrijf hun naam."
+  },
+  "G2-470": {
+    "title": "Kooipuzzels 3 × 3",
+    "instruction": "In elke rij en elke kolom staan 1, 2 en 3 precies één keer. De getallen in een kooi met dikke rand zijn samen het kleine getal in de hoek."
+  },
+  "G3-472": {
+    "title": "Kooipuzzels 4 × 4",
+    "instruction": "In elke rij en elke kolom staan 1, 2, 3 en 4 precies één keer. De getallen in een kooi met dikke rand zijn samen het kleine getal in de hoek.{RULE}"
+  },
+  "G1-472": {
+    "title": "Rekencode met plaatjes",
+    "instruction": "Elk plaatje staat voor een getal. Begin met de som die je kunt oplossen, zoek dan het getal van elk plaatje en schrijf het in het vakje naast dat plaatje."
+  },
+  "G3-473": {
+    "title": "Weegschaalpuzzels met vormen",
+    "instruction": "De weegschalen zijn in evenwicht. Zoek uit hoeveel elke vorm weegt en schrijf het in het vakje."
   }
 }

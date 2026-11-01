@@ -7,6 +7,22 @@ records what is BUILT, measured and committed, step by step, so any session can 
 
 > 🛑 **NO DEPLOY (operator 2026-10-31):** no worksheet maker goes live until all 60 are built, tested and finalized locally. The pilot trio is a LOCAL pilot (built + reviewed at http://localhost:8490/), not a go-live. Everything is committed; nothing maker-related is deployed. The launch is one release of all 60.
 
+## Task 6 (Fable 5.1): logic puzzles with one proven solution (2026-11-01, commits cae5fff55, 320fa2a38) — the last agent task
+
+- Operator, the same day: **no more Fable agents** (tasks 7–10 are the main session's own work); my own Opus 5.5 agent is
+  allowed when needed, one at a time.
+- Handoff `handoff/06-logic-puzzles.md` (verified: `lib/logic-puzzles.test.js` 54/54 with independent oracles; the
+  screen-from-marks change is a correct one-line bot fix — a bin tap is a toggle).
+- Built: four engines `lib/logic-{sudoku,cages,code,balance}.js` (exhaustive uniqueness, technique-graded levels, browser
+  p95 59 ms a page), eight templates G1-470/471/472, G2-470, G3-470/471/472/473 (`types/_shared/logic-more.js`), gate
+  `unique-solution.js`. Strings: native + pedagogy read by the main session; picture sudoku now "draw the missing pictures
+  or write their names" ×11 (as the published G1-158 — drawing six pictures is harder than the puzzle); merged into
+  `i18n/strings.<loc>.json` (`_rule` stays in `logic-puzzles-makers.json`, read by the type).
+- **The logic-puzzles maker is NOT built yet** (no maker name, inventory, coverage): at its place in the order, the per-maker
+  recipe must also fix the existing templates — G2-319 family refuses every offered theme (curated allowlist), G3-353
+  venn-sort renders blank in the browser with no key, all 20 existing templates expose no slot; decide whether the new
+  graded picture sudokus replace or sit beside the published G1-158 / G3-348; cat vs cheetah look-alike pairing data.
+
 ## Task 3 (Fable 5.1): release wiring, prepared locally, never run (2026-11-01, commits 920964550, ae4abee0c)
 
 - Handoff: `handoff/03-release-wiring.md` (verified by the main session: the migration only CREATEs `maker_recipes` +

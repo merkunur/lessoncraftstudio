@@ -3649,5 +3649,37 @@
   "G3-411": {
     "title": "Gangetabellkort på ring",
     "instruction": "Klipp ut kortene og lag et hull i hver sirkel. Sett dem på en ring og øv på gangetabellen."
+  },
+  "G1-470": {
+    "title": "Tallsudoku 4 × 4",
+    "instruction": "I hver rad, hver kolonne og hver boks skal tallene 1, 2, 3 og 4 stå én gang. Skriv tallene som mangler."
+  },
+  "G1-471": {
+    "title": "Bildesudoku",
+    "instruction": "I hver rad, hver kolonne og hver boks skal hvert av de fire bildene stå én gang. Tegn bildene som mangler, eller skriv hva de heter."
+  },
+  "G3-470": {
+    "title": "Tallsudoku 6 × 6",
+    "instruction": "I hver rad, hver kolonne og hver boks skal tallene 1 til 6 stå én gang. Skriv tallene som mangler."
+  },
+  "G3-471": {
+    "title": "Bildesudoku 6 × 6",
+    "instruction": "I hver rad, hver kolonne og hver boks skal hvert av de seks bildene stå én gang. Tegn bildene som mangler, eller skriv hva de heter."
+  },
+  "G2-470": {
+    "title": "Burpuslespill 3 × 3",
+    "instruction": "I hver rad og hver kolonne skal 1, 2 og 3 stå én gang. Tallene i et bur med tykk kant blir til sammen det lille tallet i hjørnet."
+  },
+  "G3-472": {
+    "title": "Burpuslespill 4 × 4",
+    "instruction": "I hver rad og hver kolonne skal 1, 2, 3 og 4 stå én gang. Tallene i et bur med tykk kant blir til sammen det lille tallet i hjørnet.{RULE}"
+  },
+  "G1-472": {
+    "title": "Regnekode med bilder",
+    "instruction": "Hvert bilde står for et tall. Begynn med stykket du kan løse, finn så tallet til hvert bilde og skriv det i ruten ved siden av bildet."
+  },
+  "G3-473": {
+    "title": "Vektpuslespill med former",
+    "instruction": "Vektene er i balanse. Finn ut hvor mye hver form veier, og skriv det i ruten."
   }
 }

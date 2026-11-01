@@ -101,11 +101,12 @@ function partSvg(p, opts = {}) {
   return `<path d="${p.d}" fill="#fff" stroke="${ink}" stroke-width="${w}" stroke-linejoin="round"/>`;
 }
 const svgOf = (parts, extra = '') => `<svg xmlns="http://www.w3.org/2000/svg" width="${PW}" height="${PH}" viewBox="0 0 ${W} ${H}"><rect width="${W}" height="${H}" fill="#fff"/>${parts.map((p) => partSvg(p)).join('')}${extra}</svg>`;
+/** ink = luma under 128 on the SVG's own white paper (the raster comes through lib/platform: sharp in Node, a canvas in
+ *  a maker — S6, 2026-11-01; the SVG paints a white rect first, so dropping the alpha changes no byte) */
 async function raster(svg) {
-  const sharp = require('sharp');
-  const { data } = await sharp(Buffer.from(svg)).removeAlpha().raw().toBuffer({ resolveWithObject: true });
+  const { data } = await require('./platform/index.js').picture.rasterSvg(svg);
   const m = new Uint8Array(PW * PH);
-  for (let i = 0; i < PW * PH; i++) { const l = 0.3 * data[i * 3] + 0.59 * data[i * 3 + 1] + 0.11 * data[i * 3 + 2]; if (l < 128) m[i] = 1; }
+  for (let i = 0; i < PW * PH; i++) { const l = 0.3 * data[i * 4] + 0.59 * data[i * 4 + 1] + 0.11 * data[i * 4 + 2]; if (l < 128) m[i] = 1; }
   return m;
 }
 function bboxOf(m) {

@@ -18,17 +18,24 @@
  *   analyzeScene({ png, graph, scale, tol, minCluster }) → Promise<string[]>   (empty = pass)
  *   graph = { W, fill:'#RRGGBB', edges:[{a,b,pts:[[x,y]…]}], mouths:{start:[[x,y]…], goal:[…]}, route:[node…], tree:bool }
  *   (scene-frame px; `scale` = screenshot px per scene px)
+ *
+ *   S6 (2026-11-01): the pixels come through lib/platform (sharp in Node, a canvas in a maker) and the oracle itself is
+ *   the pure analyzeRgba(). analyzeSvg({ svg, graph, scale }) is the maker's entry: it rasterises the scene SVG the
+ *   page shows (its <image href>s inlined by the browser platform) instead of taking a screenshot — the one step a
+ *   browser cannot do.
  */
 'use strict';
-const sharp = require('sharp');
+const platform = require('./platform/index.js');
 
 const hex = (h) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16));
 
-async function rasterDeclared(graph, w, h, scale) {
+function declaredSvg(graph, w, h, scale) {
   const pl = (pts) => `<polyline points="${pts.map((p) => (p[0] * scale).toFixed(1) + ',' + (p[1] * scale).toFixed(1)).join(' ')}"/>`;
   const lines = graph.edges.map((e) => pl(e.pts)).concat(Object.values(graph.mouths || {}).map(pl), (graph.routes || []).flatMap((rt) => [pl(rt.start), pl(rt.goal)])).join('');   // F7: every route's mouths
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}"><g fill="none" stroke="#000" stroke-width="${graph.W * scale}" stroke-linecap="round" stroke-linejoin="round">${lines}</g></svg>`;
-  const { data } = await sharp(Buffer.from(svg)).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}"><g fill="none" stroke="#000" stroke-width="${graph.W * scale}" stroke-linecap="round" stroke-linejoin="round">${lines}</g></svg>`;
+}
+async function rasterDeclared(graph, w, h, scale) {
+  const { data } = await platform.picture.rasterSvg(declaredSvg(graph, w, h, scale));
   const m = new Uint8Array(w * h); for (let i = 0; i < m.length; i++) m[i] = data[i * 4 + 3] > 128 ? 1 : 0;
   return m;
 }
@@ -69,10 +76,10 @@ function disc(pt, scale, w, h, r) {
   return out;
 }
 
-async function analyzeScene({ png, graph, scale = 1, tol = 18, minCluster = 20 }) {
+/** the oracle on decoded page pixels (RGBA, w × h) — pure apart from the declared-corridor raster it asks the platform for */
+async function analyzeRgba({ data, w, h, graph, scale = 1, tol = 18, minCluster = 20 }) {
   const issues = [];
-  const { data, info } = await sharp(png).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
-  const w = info.width, h = info.height; const [fr, fg, fb] = hex(graph.fill);
+  const [fr, fg, fb] = hex(graph.fill);
   // HEX (F13 letter hop): cells, not corridors. Every cell must show its own fill on a ring inside it (clear of its
   // letter): a drawing laid over a cell would hide a letter of the run or of a decoy.
   if (graph.hex) {
@@ -180,6 +187,28 @@ async function analyzeScene({ png, graph, scale = 1, tol = 18, minCluster = 20 }
   return issues;
 }
 
+/** the catalogue's entry: a PNG screenshot of the scene frame (puppeteer) */
+async function analyzeScene({ png, graph, scale = 1, tol = 18, minCluster = 20 }) {
+  const { data, width: w, height: h } = await platform.picture.decode(png);
+  return analyzeRgba({ data, w, h, graph, scale, tol, minCluster });
+}
+
+/**
+ * the maker's entry (S6): the scene's own <svg> markup (the page's, with its viewBox and <image href>s) rasterised at
+ * `scale` px per scene px over a white paper — what the child sees, without a screenshot. `width`/`height` default to
+ * the viewBox.
+ */
+async function analyzeSvg({ svg, graph, scale = 1, tol = 18, minCluster = 20, width, height }) {
+  const head = (svg.match(/<svg\b[^>]*>/) || [''])[0];
+  const vb = head.match(/viewBox="\s*[\d.-]+\s+[\d.-]+\s+([\d.]+)\s+([\d.]+)/);
+  const attr = (n) => { const m = head.match(new RegExp('\\s' + n + '="([\\d.]+)')); return m ? +m[1] : null; };
+  const sw = width || (vb ? +vb[1] : attr('width')), sh = height || (vb ? +vb[2] : attr('height'));
+  if (!sw || !sh) throw new Error('hm-verify: the scene svg declares neither a viewBox nor a size');
+  const w = Math.round(sw * scale), h = Math.round(sh * scale);
+  const { data } = await platform.picture.rasterSvg(svg, { width: w, height: h, background: '#fff' });
+  return analyzeRgba({ data, w, h, graph, scale, tol, minCluster });
+}
+
 /** the graph stamp a page carries (scene px): written by the type, read back by verify() */
 function graphStamp(maze, fill, stand) {
   const edges = Object.entries(maze.S).map(([k, pts]) => { const [a, b] = k.split('-').map(Number); return { a, b, pts: pts.map((p) => [+p[0].toFixed(1), +p[1].toFixed(1)]) }; });
@@ -187,4 +216,4 @@ function graphStamp(maze, fill, stand) {
   return { W: maze.W, fill, edges, mouths: { start: r1(maze.mouthS.start), goal: r1(maze.mouthS.goal) }, route: maze.route, tree: !maze.loops, stand: stand || [] };
 }
 
-module.exports = { analyzeScene, graphStamp };
+module.exports = { analyzeScene, analyzeSvg, analyzeRgba, rasterDeclared, declaredSvg, morph, clusters, flood, graphStamp };

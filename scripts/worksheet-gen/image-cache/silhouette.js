@@ -2,11 +2,13 @@
  * Silhouette derivation — turns a cached theme image into a solid-ink shadow
  * shape (alpha-preserving), cached at cache/silhouettes/<theme>/<noun>.png.
  * Used by shadow-match / visual-perception types.
+ *
+ * S6 (2026-11-01): the pixel work goes through lib/platform (the same sharp chains in Node; a canvas in a maker —
+ * there the silhouette is a data URL and nothing is cached on disk).
  */
 'use strict';
-const fs = require('fs');
 const path = require('path');
-const sharp = require('sharp');
+const platform = require('../lib/platform/index.js');
 const { themeEntry } = require('./resolve.js');
 
 const CACHE = path.join(__dirname, '..', 'cache');
@@ -16,19 +18,8 @@ async function silhouetteUri(theme, noun) {
   const entry = themeEntry(theme).nouns[noun];
   if (!entry) throw new Error('silhouette: noun not cached: ' + theme + '/' + noun);
   const src = path.join(CACHE, 'themes', theme, entry.files[0]);
-  const dir = path.join(CACHE, 'silhouettes', theme);
-  fs.mkdirSync(dir, { recursive: true });
-  const dest = path.join(dir, noun + '.png');
-  if (!fs.existsSync(dest)) {
-    const { width, height } = await sharp(src).metadata();
-    // flat ink-colored canvas + the source's alpha channel = the shadow shape
-    const alpha = await sharp(src).ensureAlpha().extractChannel(3).raw().toBuffer();
-    await sharp({ create: { width, height, channels: 3, background: INK } })
-      .joinChannel(alpha, { raw: { width, height, channels: 1 } })
-      .png()
-      .toFile(dest);
-  }
-  return require('url').pathToFileURL(dest).href;
+  const dest = path.join(CACHE, 'silhouettes', theme, noun + '.png');
+  return platform.picture.silhouette(src, dest, INK);
 }
 
 const _maskCache = new Map();
@@ -43,8 +34,7 @@ async function maskSignature(theme, noun) {
   if (_maskCache.has(key)) return _maskCache.get(key);
   const entry = themeEntry(theme).nouns[noun];
   const src = path.join(CACHE, 'themes', theme, entry.files[0]);
-  const buf = await sharp(src).ensureAlpha().extractChannel(3)
-    .resize(24, 24, { fit: 'contain', background: { r: 0, g: 0, b: 0 } }).raw().toBuffer();
+  const buf = await platform.picture.alphaMask24(src);
   const mask = Array.from(buf, (v) => (v > 64 ? 1 : 0));
   _maskCache.set(key, mask);
   return mask;
@@ -96,16 +86,7 @@ async function artExtent(theme, noun) {
   if (_extentCache.has(key)) return _extentCache.get(key);
   const entry = themeEntry(theme).nouns[noun];
   const src = path.join(CACHE, 'themes', theme, entry.files[0]);
-  const meta = await sharp(src).metadata();
-  const { info } = await sharp(src).trim({ threshold: 8 }).toBuffer({ resolveWithObject: true });
-  const left = -(info.trimOffsetLeft || 0);
-  const top = -(info.trimOffsetTop || 0);
-  const ext = {
-    widthFrac: info.width / meta.width,
-    leftFrac: left / meta.width,
-    heightFrac: info.height / meta.height,
-    topFrac: top / meta.height,
-  };
+  const ext = await platform.picture.extent(src);
   _extentCache.set(key, ext);
   return ext;
 }
@@ -115,7 +96,7 @@ async function artExtent(theme, noun) {
  *  it has no extent for — re-run the tool after the image cache changes. */
 let _extentFile = null;
 function artExtentSync(theme, noun) {
-  if (!_extentFile) _extentFile = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'art-extents.json'), 'utf8'));
+  if (!_extentFile) _extentFile = platform.readJson(path.join(__dirname, '..', 'data', 'art-extents.json'));
   const e = _extentFile[theme + '//' + noun];
   if (!e) throw new Error('artExtentSync: no extent for ' + theme + '/' + noun + ' (run tools/build-art-extents.js)');
   return { widthFrac: e[0], leftFrac: e[1], heightFrac: e[2], topFrac: e[3] };

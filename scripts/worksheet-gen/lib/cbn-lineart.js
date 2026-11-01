@@ -14,6 +14,7 @@
  */
 'use strict';
 const { Art } = require('../primitives/cbn-art/core.js');
+const platform = require('./platform/index.js');   // the pixel work (sharp in Node, a canvas in a maker) — S6, 2026-11-01
 
 /** ink = dark and opaque */
 function inkMask(rgba, W, H, { dark = 140, alpha = 110 } = {}) {
@@ -292,30 +293,29 @@ function silhouette(ink, W, H, close = 2) {
  * line width in px (thinner pieces are thickened to it; pictures leave the artist's own line).
  */
 async function compose(spec) {
-  const sharp = require('sharp');
+  const P = platform.picture;
   const ink = new Uint8Array(CW * CH);
   const owner = new Int16Array(CW * CH).fill(-1);   // which item covers each pixel (the last drawn)
   let idx = -1;
   const T = spec.stroke || 0;
   if (spec.lines && spec.lines.length) {
     const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${CW}" height="${CH}" viewBox="0 0 600 560">${spec.lines.map((l) => `<path d="${l.d}" fill="none" stroke="#000" stroke-width="${((l.w || T || 8) / UNIT).toFixed(2)}" stroke-linecap="round" stroke-linejoin="round"/>`).join('')}</svg>`;
-    const { data } = await sharp(Buffer.from(svg)).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+    const { data } = await P.rasterSvg(svg);
     for (let i = 0; i < CW * CH; i++) if (data[i * 4 + 3] > 110) ink[i] = 1;
   }
   for (let it of spec.items || []) {
     idx++;
     const file = require('path').join(LIB, it.src + '@3x.webp');
     // trim to the ink box, then size it
-    const trimmed = await sharp(file).trim({ threshold: 10 }).toBuffer({ resolveWithObject: true });
-    const tw = trimmed.info.width, th = trimmed.info.height;
+    const trimmed = await P.trim(file);
+    const tw = trimmed.width, th = trimmed.height;
     // fit: the ink box fills a box (w × h picture units), centred on (x, y) (default the picture's centre)
     if (it.fit) { const fw = it.fit[0], fh = it.fit[1], h = Math.min(fh, fw * th / tw); it = { ...it, h, x: it.x || 300, y: it.bottom != null ? it.bottom : (it.y || 280) + h / 2 }; }   // bottom: stands on that line
     let hp = Math.round(it.h * UNIT), wp = Math.max(1, Math.round(hp * tw / th * (it.sx || 1)));   // sx: wider (a fuller tree, a thicker trunk)
     const maxW = (it.maxW || 560) * UNIT;   // a wide drawing (a whale, a train) is sized by its width instead
     if (wp > maxW) { hp = Math.round(hp * maxW / wp); wp = maxW; }
-    let img = sharp(trimmed.data).resize(wp, hp, { fit: 'fill' });
-    if (it.flip) img = img.flop();
-    const { data, info } = await img.ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+    const { data, width, height } = await P.sized(trimmed, wp, hp, !!it.flip);
+    const info = { width, height };
     let pin = inkMask(data, info.width, info.height);
     // it.stroke (Find the Differences Level Set scenes, 2026-10-10): a drawing's own line weight — a small drawing keeps
     // its detail with a thinner line; absent everywhere else, so the Color by Number art is unchanged

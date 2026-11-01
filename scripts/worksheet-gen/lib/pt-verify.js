@@ -9,13 +9,15 @@
  *   The guide is rasterised by sharp from the same SVG the page would draw, so the measurement is of what prints.
  */
 'use strict';
-const sharp = require('sharp');
+const platform = require('./platform/index.js');   // the raster (sharp in Node, a canvas in a maker) — S6, 2026-11-01
 const { pathD } = require('./pt-trace.js');
 const { dilate } = require('./cbn-lineart.js');
 
+/** white strokes on the SVG's own black paper → 1 where the red channel is over 127 (the SVG paints its black rect
+ *  first, so the sharp chain this replaced — flatten on black, channel 0 — read the same bytes) */
 async function raster(svg, W, H) {
-  const buf = await sharp(Buffer.from(svg)).flatten({ background: '#000' }).extractChannel(0).raw().toBuffer();
-  const m = new Uint8Array(W * H); for (let i = 0; i < W * H; i++) m[i] = buf[i] > 127 ? 1 : 0;
+  const { data } = await platform.picture.rasterSvg(svg);
+  const m = new Uint8Array(W * H); for (let i = 0; i < W * H; i++) m[i] = data[i * 4] > 127 ? 1 : 0;
   return m;
 }
 

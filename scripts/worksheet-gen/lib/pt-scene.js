@@ -27,6 +27,9 @@ async function traceOf(rel) {
   if (!cache.has(rel)) cache.set(rel, traceDrawing(path.join(LIB, rel + '@3x.webp')));
   return cache.get(rel);
 }
+/** a trace made elsewhere (the precomputed trace store a maker ships, S6 2026-11-01): composeScene then never traces
+ *  that drawing itself. Typed arrays the store cannot carry (ink, skeleton, body) are only needed by the laws. */
+function primeTrace(rel, tr) { cache.set(rel, Promise.resolve(tr)); }
 
 /** split every polyline by a point predicate; keep the runs where keep(p) is true */
 function clipBy(placed, keep) {
@@ -282,4 +285,4 @@ function bboxOf(lines) {
   return { x0, y0, x1, y1 };
 }
 
-module.exports = { composeScene, traceOf, bboxOf, clipHalf, clipBy };
+module.exports = { composeScene, traceOf, primeTrace, bboxOf, clipHalf, clipBy };

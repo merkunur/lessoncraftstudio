@@ -12,7 +12,8 @@
  * scale (an SVG transform would scale the dashes with the picture).
  */
 'use strict';
-const fs = require('fs'); const path = require('path');
+const path = require('path');
+const platform = require('./platform/index.js');   // the model picture (base64 in Node, the CDN URL in a maker) — S6, 2026-11-01
 const { plen } = require('./pt-trace.js');
 
 const GUIDE = '#6b6b6b';
@@ -299,8 +300,8 @@ const LIB512 = path.join(__dirname, '..', 'cache', 'themes-512');
 /** the original library drawing as an <image>, placed by its ink box like placeTrace (same item contract) */
 function modelImage(rel, tr, item) {
   const file = path.join(LIB512, rel + '@3x.webp');
-  const src = fs.existsSync(file) ? file : path.join(__dirname, '..', 'cache', 'themes', rel + '@3x.webp');
-  const b64 = fs.readFileSync(src).toString('base64');
+  const src = platform.exists(file) ? file : path.join(__dirname, '..', 'cache', 'themes', rel + '@3x.webp');
+  const uri = platform.picture.dataUri(src);
   const b = tr.inkBox, iw = b.x1 - b.x0 + 1, ih = b.y1 - b.y0 + 1;
   const s = scaleOf(item, iw, ih);   // the SAME rule as placeTrace (by h/w alone a fitBox model came out NaN and vanished)
   if (!isFinite(s) || s <= 0) throw new Error('modelImage: no size for ' + rel);
@@ -308,7 +309,7 @@ function modelImage(rel, tr, item) {
   const full = tr.W * s, fullH = tr.H * s;              // the image is the WHOLE work canvas; offset so the ink box lands
   const ix = left - b.x0 * s, iy = top - b.y0 * s;
   const fl = item.flip ? ` transform="translate(${f2(2 * ix + full)} 0) scale(-1 1)"` : '';
-  return `<image href="data:image/webp;base64,${b64}" x="${f2(ix)}" y="${f2(iy)}" width="${f2(full)}" height="${f2(fullH)}" preserveAspectRatio="none"${fl}/>`;
+  return `<image href="${uri}" x="${f2(ix)}" y="${f2(iy)}" width="${f2(full)}" height="${f2(fullH)}" preserveAspectRatio="none"${fl}/>`;
 }
 
 module.exports = { contourMarker, STYLES, BANDS, GUIDE, INK, placeTrace, guidePaths, guideLine, solidPaths, modelImage, dPath, classify, orient, startMarker };

@@ -56,7 +56,7 @@ function enclosesInk(r, lab, PW, PH) {
  * `FD_KEEP_WHITE_CELLS=1` disables the rule — the family gate's poison, never a build setting.
  */
 function paintSmallCells(regions, seg) {
-  if (process.env.FD_KEEP_WHITE_CELLS === '1') return regions;
+  if (typeof process !== 'undefined' && process.env && process.env.FD_KEEP_WHITE_CELLS === '1') return regions;   // (a maker has no process)
   const lab = seg.lab, PW = seg.PW, PH = lab.length / PW;
   const painted = new Map(regions.filter((r) => r.colour && r.colour !== 'none').map((r) => [r.label, r.colour]));
   if (!painted.size) return regions;
@@ -340,10 +340,11 @@ async function cbnSampler(designId) {
   let art;
   try { const D = require('../data/cbn/designs.js'); const d = D.DESIGNS.find((x) => x.id === designId); if (!d) return null; art = D.build(d); } catch (e) { return null; }
   const { toSvg } = require('./cbn-render.js');
-  const sharp = require('sharp');
   const svg = toSvg(art, { mode: 'colour', width: W * U });
-  const { data, info } = await sharp(Buffer.from(svg)).raw().toBuffer({ resolveWithObject: true });
-  const ch = info.channels;
+  // (was sharp(svg).raw(): librsvg always hands back RGBA, so the platform's RGBA raster is the same bytes — S6)
+  const { data, width, height } = await require('./platform/index.js').picture.rasterSvg(svg);
+  const info = { width, height };
+  const ch = 4;
   return (x, y) => {
     const X = Math.round(x * U), Y = Math.round(y * U); if (X < 0 || Y < 0 || X >= info.width || Y >= info.height) return null;
     const i = (Y * info.width + X) * ch;

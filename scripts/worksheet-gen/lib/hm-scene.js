@@ -14,14 +14,14 @@
  * A drawing that cannot be placed is reported, never silently dropped (the caller refuses the build).
  */
 'use strict';
-const fs = require('fs');
 const path = require('path');
+const platform = require('./platform/index.js');   // the ink boxes + picture hrefs (disk + file:// in Node, preload + CDN in a maker) — S6
 const H = require('./hm-graph.js');
 const { corridorSvg, routePath } = require('./hm-corridor.js');
 
 let INK = null;
 function ink(src) {
-  if (!INK) INK = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'hm', 'ink-boxes.json'), 'utf8'));
+  if (!INK) INK = platform.readJson(path.join(__dirname, '..', 'data', 'hm', 'ink-boxes.json'));
   const b = INK[src];
   if (!b) throw new Error('hm-scene: no ink box for "' + src + '" (run tools/hm-ink-boxes.js; is it a colour drawing?)');
   return b;
@@ -35,9 +35,9 @@ function fileOf(src) {
 function pageFileOf(src) {
   const [theme, noun] = src.split('/');
   const d = path.join(__dirname, '..', 'cache', 'themes-512', theme, noun + '@3x.webp');
-  return fs.existsSync(d) ? d : fileOf(src);
+  return platform.exists(d) ? d : fileOf(src);
 }
-const href = (src) => require('url').pathToFileURL(pageFileOf(src)).href;
+const href = (src) => platform.fileHref(pageFileOf(src));
 
 /** an <image> whose INK is `h` px tall with its feet at (fx, fy); returns {svg, box:[x0,y0,x1,y1]} of the ink */
 function standing(src, fx, fy, h, flip) {

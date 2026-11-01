@@ -8,8 +8,8 @@
  * The frame is 600 × 560 picture units. The level follows the colours used (lib/cbn-render.js LEVEL_CAPS).
  */
 'use strict';
-const fs = require('fs');
 const path = require('path');
+const platform = require('../../lib/platform/index.js');   // the built parts (disk in Node, preloaded in a maker) — S6, 2026-11-01
 const { Art } = require('../../primitives/cbn-art/core.js');
 const { LINEART } = require('./lineart-designs.js');
 const { BG, HERO, OVERRIDE, SMALL_RULE, PIECE } = require('./lineart-colours.js');
@@ -22,8 +22,8 @@ const _cache = new Map();
 function load(id) {
   if (!_cache.has(id)) {
     const f = path.join(DIR, id + '.json');
-    if (!fs.existsSync(f)) throw new Error(`cbn: ${id} is not built (node tools/cbn-lineart-build.js --only=${id})`);
-    _cache.set(id, JSON.parse(fs.readFileSync(f, 'utf8')));
+    if (!platform.exists(f)) throw new Error(`cbn: ${id} is not built (node tools/cbn-lineart-build.js --only=${id})`);
+    _cache.set(id, platform.readJson(f));
   }
   return _cache.get(id);
 }

@@ -10,7 +10,7 @@
  */
 'use strict';
 const path = require('path');
-const fs = require('fs');
+const platform = require('./platform/index.js');   // labels.json (disk in Node, preloaded in a maker) — S6, 2026-11-01
 const { DESIGNS, build: buildArt } = require('../data/cbn/designs.js');
 const R = require('./cbn-render.js');
 const { COLOR_WORDS } = require('../data/color-words.js');
@@ -18,7 +18,7 @@ const { COLOR_WORDS } = require('../data/color-words.js');
 const LABELS = path.join(__dirname, '..', 'data', 'cbn', 'labels.json');
 let _labels = null;
 function labelsFor(id) {
-  if (!_labels) _labels = fs.existsSync(LABELS) ? JSON.parse(fs.readFileSync(LABELS, 'utf8')) : {};
+  if (!_labels) _labels = platform.exists(LABELS) ? platform.readJson(LABELS) : {};
   const l = _labels[id];
   if (!l) throw new Error(`cbn: no labels for "${id}" — run node tools/cbn-preview.js (it labels and gates every design)`);
   if (l.ok !== true) throw new Error(`cbn: design "${id}" failed its gates (numbers / solid objects / frame) — fix it, re-run tools/cbn-preview.js`);

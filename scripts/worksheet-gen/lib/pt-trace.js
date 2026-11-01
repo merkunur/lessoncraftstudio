@@ -19,6 +19,7 @@
  */
 'use strict';
 const { inkMask, components } = require('./cbn-lineart.js');
+const platform = require('./platform/index.js');   // the decode + resize (sharp in Node, a canvas in a maker) — S6, 2026-11-01
 
 /* ---------------------------------------------------------------- distance (city-block 3-4 chamfer) */
 function chamfer(m, W, H) {
@@ -268,13 +269,12 @@ function chaikin(pts, closed, rounds = 2) {
 
 /* ---------------------------------------------------------------- the trace */
 async function traceDrawing(file, opts = {}) {
-  const sharp = require('sharp');
   const WORK = opts.work || 800;
-  const img = sharp(file).flatten({ background: '#ffffff' });
-  const meta = await img.metadata();
-  const sc = WORK / Math.max(meta.width, meta.height);
-  const W = Math.round(meta.width * sc), H = Math.round(meta.height * sc);
-  const { data } = await img.resize(W, H).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+  const { data, width: W, height: H } = await platform.picture.scaled(file, WORK);   // flattened on white, longer side = WORK
+  return traceRgba(data, W, H, opts);
+}
+/** the trace from decoded pixels (RGBA, W × H): everything after the decode is pure JS, the same in every host */
+function traceRgba(data, W, H, opts = {}) {
   let ink = inkMask(data, W, H, { dark: opts.dark || 150, alpha: 20 });
   // pad 2 px border off (thinning needs a clean frame)
   for (let x = 0; x < W; x++) { ink[x] = ink[W + x] = ink[(H - 1) * W + x] = ink[(H - 2) * W + x] = 0; }
@@ -440,4 +440,4 @@ function pathD(pts, k = 1, ox = 0, oy = 0, closed = false) {
   return closed ? s + 'Z' : s;
 }
 
-module.exports = { traceDrawing, pathD, thin, chamfer, labelInk, rdp, rdpRing, chaikin, plen, skeletonEdges, prune, chain };
+module.exports = { traceDrawing, traceRgba, pathD, thin, chamfer, labelInk, rdp, rdpRing, chaikin, plen, skeletonEdges, prune, chain };

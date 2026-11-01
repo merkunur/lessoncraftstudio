@@ -131,6 +131,32 @@ const puppeteer = require('puppeteer'); const http = require('http'); const { ha
   await p.click('#mk-print'); await settle();
   const printDoc = await p.evaluate(() => { const f = document.querySelector('#mk-print-host iframe'); return f ? (f.getAttribute('srcdoc').match(/class="mk-break[ "]/g) || []).length : -1; });
   check('print frame holds every page (' + printDoc + ')', printDoc >= 2);
+  // a worksheet mixes templates (operator 2026-11-01: "it adds only pages with the same template"): touching page 2
+  // selects it; the gallery then changes page 2 only; Add page copies the selected page's template
+  const tpl = () => p.$$eval('.mk-page-tpl', (xs) => xs.map((x) => x.textContent));
+  const current = () => p.$eval('.mk-card[aria-current="true"]', (c) => c.dataset.id);
+  const pickPage = async (k) => { const r = await p.evaluate((k) => { const h = document.querySelectorAll('.mk-page[data-page] .mk-page-head')[k]; h.scrollIntoView({ block: 'center' }); const b = h.getBoundingClientRect(); return { x: b.left + 8, y: b.top + b.height / 2 }; }, k); await p.mouse.click(r.x, r.y); await settle(300); };
+  const x0 = await pageHtml();
+  await pickPage(1);
+  const selx = await p.evaluate(() => ({ cur: [...document.querySelectorAll('.mk-page[data-page]')].map((x) => x.getAttribute('aria-current')), badge: (document.querySelector('.mk-editing') || {}).textContent }));
+  check('touching page 2 selects it (outlined; the settings say "Seite 2")', JSON.stringify(selx.cur) === '["false","true"]' && selx.badge === 'Seite 2', selx);
+  const otherId = await p.evaluate(() => [...document.querySelectorAll('.mk-card')].map((c) => c.dataset.id).find((id) => id !== 'K-388'));
+  await p.evaluate((id) => document.querySelector(`.mk-card[data-id="${id}"]`).click(), otherId); await settle(1500);
+  const x1 = await pageHtml(); const t1 = await tpl(); const st1 = await p.evaluate(() => window.__lcsMaker.state());
+  check('a template from the gallery changes page 2 only: page 1 is unchanged', x1.length === 2 && x1[0] === x0[0] && x1[1] !== x0[1], { n: x1.length });
+  check('each page names its own template, and the gallery marks page 2\'s', t1.length === 2 && t1[0] !== t1[1] && (await current()) === otherId && JSON.stringify(st1.tpls) === JSON.stringify(['K-388', otherId]), { t1, tpls: st1.tpls });
+  await pickPage(0);
+  check('touching page 1 again: the gallery marks K-388 again', (await current()) === 'K-388' && (await p.$eval('.mk-editing', (x) => x.textContent)) === 'Seite 1');
+  await pickPage(1);
+  await p.click('#mk-add'); await settle(1500);
+  const st2 = await p.evaluate(() => window.__lcsMaker.state()); const x2 = await pageHtml();
+  check('Add page copies the selected page\'s template and selects the new page', JSON.stringify(st2.tpls) === JSON.stringify(['K-388', otherId, otherId]) && st2.active === 2 && x2[2] !== x2[1], { tpls: st2.tpls, active: st2.active });
+  await p.evaluate(() => document.querySelectorAll('.mk-page [data-act=remove]')[0].click()); await settle(1200);
+  const st3 = await p.evaluate(() => window.__lcsMaker.state());
+  check('removing page 1 keeps the selection on its page (now page 2)', JSON.stringify(st3.tpls) === JSON.stringify([otherId, otherId]) && st3.active === 1 && st3.id === otherId, { tpls: st3.tpls, active: st3.active });
+  await p.click('#mk-print'); await settle(900);
+  const mixedPrint = await p.evaluate(() => (document.querySelector('#mk-print-host iframe').getAttribute('srcdoc').match(/class="mk-break[ "]/g) || []).length);
+  check('a mixed worksheet prints every page', mixedPrint >= 2, mixedPrint);
   console.log('errors:', errs.length ? errs.slice(0, 3).join(' | ') : 'none');
   if (fails || errs.length) process.exitCode = 1;
   await b.close(); srv.close();

@@ -56,6 +56,9 @@ const { FILE } = require('../local-store.js');
     check('a new worksheet offers Save ("Speichern"), Share and My worksheets', !s.hidden && !s.disabled && s.text === 'Speichern' && !(await btn(p, '#mk-share')).hidden && !(await btn(p, '#mk-mine')).hidden, s);
     await p.evaluate(() => [...document.querySelectorAll('.mk-chip')].find((x) => x.textContent === '3').click()); await settle();
     await p.click('#mk-add'); await settle(1500);
+    // page 2 becomes another template (a worksheet may mix them, operator 2026-11-01): the new page is selected, the gallery changes it
+    const other2 = await p.evaluate(() => [...document.querySelectorAll('.mk-card')].map((c) => c.dataset.id).find((id) => id !== 'K-002'));
+    await p.evaluate((id) => document.querySelector('.mk-card[data-id="' + id + '"]').click(), other2); await settle(1500);
     // a drawing on page 1 (real mouse)
     await p.evaluate(() => document.querySelector('.mk-page [data-act=draw]').click()); await settle();
     const r = await p.evaluate(() => { const f = document.querySelector('.mk-sheet iframe'); f.scrollIntoView({ block: 'center' }); const b = f.getBoundingClientRect(); return { x: b.left, y: b.top, w: b.width, h: b.height }; });
@@ -74,6 +77,7 @@ const { FILE } = require('../local-store.js');
     const rec = live()[0];
     check('the store holds one worksheet: 2 pages, level 3, the drawing, the typed title', live().length === 1 && rec.recipe.pages.length === 2 && rec.recipe.pages[0].level === 3 && (rec.recipe.pages[0].ink || []).length === 1 && rec.recipe.pages[1].strings.title === 'Zählen mit Tieren', rec && rec.recipe.pages.map((x) => ({ l: x.level, ink: (x.ink || []).length, t: x.strings })));
     const savedVersion = await p.evaluate(() => window.__lcsMaker.version());
+    check('page 1 keeps its template, page 2 is the other one', rec.recipe.pages[0].template === 'K-002' && rec.recipe.pages[1].template === other2, rec.recipe.pages.map((x) => x.template));
     check('it is pinned to the version it was made with', rec.recipe.makerVersion === savedVersion.makerVersion && rec.recipe.dataVersion === savedVersion.dataVersion, { rec: [rec.recipe.makerVersion, rec.recipe.dataVersion], savedVersion });
 
     // ---- reopen: byte for byte

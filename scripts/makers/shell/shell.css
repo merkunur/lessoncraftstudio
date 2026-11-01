@@ -130,3 +130,8 @@ button { font: inherit; cursor: pointer; }
 .mk-screen-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 10px; }
 .mk-screen-host { min-height: 120px; }
 .mk-screen-frame { width: 100%; height: min(72vh, 900px); border: 0; border-radius: 12px; background: #FBF3E4; }
+/* several pages: each page names its template; the selected page (the one the gallery and the settings change) is outlined */
+.mk-page-tpl { margin-right: auto; color: var(--ink); font-weight: 700; font-size: 13px; overflow-wrap: anywhere; }
+.mk-pages.mk-multi .mk-page { cursor: pointer; }
+.mk-pages.mk-multi .mk-page[aria-current="true"] .mk-sheet { outline: 3px solid var(--coral); outline-offset: 3px; }
+.mk-editing { padding: 6px 12px; border-radius: 999px; background: var(--coral); color: #fff; font-weight: 800; font-size: 14px; }

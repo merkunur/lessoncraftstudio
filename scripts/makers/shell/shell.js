@@ -30,6 +30,7 @@ const el = (tag, attrs = {}, kids = []) => {
 };
 
 let mod, tj, strings, picManifest;
+let offeredCount = 0;
 /*
  * Saving (ARCHITECTURE §5, §8). A saved worksheet is a recipe pinned to the maker + data version it was made with
  * (makerVersion / dataVersion: the content-hash folders the screen loaded), so it reopens byte for byte.
@@ -43,7 +44,13 @@ let shared = null;
 const canEdit = () => isOpen(state.id) && !shared;
 const canView = () => isOpen(state.id) || !!shared;
 const typeCache = {};
-const state = { id: null, level: 2, theme: null, unit: null, answerKey: false, paper: LANG === 'en' ? 'letter' : 'a4', pages: [1], edits: [{}], units: [], texts: [{}], ink: [], border: 'none', pageNumbers: false, more: false };
+/*
+ * Every page has its own template (tpls) and level (lvls) — a worksheet may mix the templates of one maker (operator
+ * 2026-11-01). The gallery and the settings change the SELECTED page (active); id / level / theme / unit mirror it
+ * (syncActive), so everything that asks "which template" of the screen asks about the selected page. The theme is the
+ * teacher's one pick (pickedTheme), resolved per page to what that page's template offers (themeFor).
+ */
+const state = { id: null, level: 2, theme: null, pickedTheme: null, unit: null, answerKey: false, paper: LANG === 'en' ? 'letter' : 'a4', pages: [1], tpls: [], lvls: [], active: 0, edits: [{}], units: [], texts: [{}], ink: [], border: 'none', pageNumbers: false, more: false };
 
 /*
  * Who may make what (operator ruling 2026-10-31; frontend/lib/quota.ts kind 'make'):
@@ -131,6 +138,7 @@ async function boot() {
   mod.platform.preload(files);
   picManifest = JSON.parse(files['scripts/worksheet-gen/cache/manifest.json'] || '{"themes":{}}');
   const offered = tj.templates.filter((t) => t.locales.includes(LANG));
+  offeredCount = offered.length;
   if (!offered.length) { $('mk-pages').replaceChildren(el('p', { class: 'mk-note', text: UI.notInLanguage })); return; }
   // test hook for scripts/makers/gates/live-gate.js (the same objects the screen uses; nothing a teacher can reach)
   window.__lcsMaker = { mod, tj, strings, LANG, loadType, mount: (html) => mod.mountHtml(gateFrame, html), state: () => JSON.parse(JSON.stringify(state)), version: () => ({ makerVersion, dataVersion }), stringsFor,
@@ -142,7 +150,8 @@ async function boot() {
   if (opening) {
     Object.assign(state, fromRecipe(opening.recipe));
     variantCounter = Math.max(variantCounter, ...state.pages) + 1;
-    if (opening.id) { opened.add(state.id); keepOpened(); Object.assign(saved, { id: opening.id, rev: opening.rev }); }
+    // the teacher's own saved worksheet: every template on its pages may be changed (a worksheet may mix templates)
+    if (opening.id) { for (const id of state.tpls) opened.add(id); keepOpened(); Object.assign(saved, { id: opening.id, rev: opening.rev }); }
     else shared = { linkId: opening.linkId };
     if (pin && pin.note) $('mk-controls').before(el('p', { class: 'mk-access-note', 'data-note': 'corrected', text: pin.note }));
   }
@@ -156,22 +165,26 @@ async function boot() {
   $('mk-share').addEventListener('click', shareLink);
   // New version is new content: the teacher's picture/word choices belong to the old content and are dropped
   $('mk-new').addEventListener('click', () => { state.pages = state.pages.map(() => nextVariant()); state.edits = state.pages.map(() => ({})); state.ink = []; drawingPage = null; render(); });
+  // Add page: a new page of the selected page's template and level, selected at once — the gallery then changes it to
+  // any template of this maker (a worksheet may mix them)
   $('mk-add').addEventListener('click', () => {
     if (!canAddPages() || pagesFull()) return;
-    state.pages.push(nextVariant()); state.edits.push({}); state.texts.push({});
-    const t = tj.templates.find((x) => x.id === state.id);
+    padPages();
+    const a = state.active, t = tplOf(a);
     const units = (t.units && t.units[LANG]) || [];
+    let unit = null;
     if (units.length) {
-      const last = units.findIndex((u) => u.id === state.units[state.units.length - 1]);
-      const next = units.map((_, k) => units[(last + 1 + k) % units.length]).find((u) => !state.units.includes(u.id)) || units[(last + 1) % units.length];
-      state.units.push(next.id);
+      const last = units.findIndex((u) => u.id === state.units[a]);
+      const taken = state.units.filter((u, k) => state.tpls[k] === t.id);
+      unit = (units.map((_, k) => units[(last + 1 + k) % units.length]).find((u) => !taken.includes(u.id)) || units[(last + 1) % units.length]).id;
     }
-    render();
+    state.pages.push(nextVariant()); state.tpls.push(t.id); state.lvls.push(state.lvls[a]); state.edits.push({}); state.texts.push({}); state.ink.push(undefined); state.units.push(unit);
+    selectPage(state.pages.length - 1, true);
   });
   $('mk-print').addEventListener('click', printAll);
   $('mk-pdf').addEventListener('click', downloadPdf);
   $('mk-screen').textContent = screenUi('screenVersion');
-  $('mk-screen').addEventListener('click', () => openScreenPreview(0));
+  $('mk-screen').addEventListener('click', () => openScreenPreview(Math.max(0, state.pages.findIndex((_, i) => screenAt(tplOf(i), state.lvls[i])))));
 }
 
 /* ---------- the screen version (screen-from-marks, INTERACTIVE-AND-SHARING §B; the student page itself is P4) ---------- */
@@ -179,7 +192,7 @@ async function boot() {
 /** the preview's own words (templates.json screenUi, built from i18n/screen-instructions.json) */
 const screenUi = (k) => ((tj.screenUi && (tj.screenUi[LANG] || tj.screenUi.en)) || {})[k] || k;
 /** does this template's current level have a screen built from its marks? */
-const screenAt = (t) => t.screen === 'marks' && (t.screenLevels || []).includes(state.level);
+const screenAt = (t, level = state.level) => t.screen === 'marks' && (t.screenLevels || []).includes(level);
 
 /**
  * The screen version of page i, built in this browser from the page's own answer marks: the SCREEN build of the page
@@ -190,8 +203,8 @@ const screenAt = (t) => t.screen === 'marks' && (t.screenLevels || []).includes(
 async function screenHtmlFor(i) {
   const r = await pageResult(i);
   if (!r.ok) { const e = new Error('refused'); e.fails = r.fails; throw e; }
-  const t = tj.templates.find((x) => x.id === state.id);
-  const type = await loadType(state.id);
+  const t = tplOf(i);
+  const type = await loadType(t.id);
   const made = mod.makePage({ ...pageOptions(i), ...(r.attempt || {}), type, screen: true });
   const html = withInk(made.screenHtml, i, false);
   const strings = tj.runtimeStrings && tj.runtimeStrings[LANG];
@@ -200,12 +213,12 @@ async function screenHtmlFor(i) {
   // one gate frame: the screen is read after any page still being gated
   gateQueue = gateQueue.then(() => mod.screen.buildScreen({ html, locale: LANG, strings, instruction: (pl) => instructions[mod.screen.instructionKey(pl)] || '', mount: (h) => mod.mountHtml(gateFrame, h) }));
   const sc = await gateQueue;
-  if (!t.screenLevels.includes(state.level)) throw new Error('no screen at this level');
+  if (!t.screenLevels.includes(state.lvls[i])) throw new Error('no screen at this level');
   return sc.html;
 }
 
 async function openScreenPreview(i) {
-  const t = tj.templates.find((x) => x.id === state.id);
+  const t = tplOf(i);
   let dlg = $('mk-picker');
   if (!dlg) { dlg = el('dialog', { id: 'mk-picker', class: 'mk-picker' }); document.body.append(dlg); }
   const head = el('div', { class: 'mk-pick-head' }, [el('h2', { text: screenUi('screenTitle') }), el('button', { type: 'button', class: 'mk-btn', text: UI.close, on: { click: () => dlg.close() } })]);
@@ -215,7 +228,7 @@ async function openScreenPreview(i) {
   if (state.pages.length > 1) for (let k = 0; k < state.pages.length; k++) tabs.append(el('button', { type: 'button', class: 'mk-chip', role: 'tab', 'aria-pressed': String(k === i), text: `${UI.page} ${k + 1}`, on: { click: () => openScreenPreview(k) } }));
   dlg.replaceChildren(head, note, tabs, host);
   if (!dlg.open) dlg.showModal();
-  if (!screenAt(t)) { note.textContent = t.screen ? screenUi('screenLevelNone') : screenUi('screenNone'); return; }
+  if (!screenAt(t, state.lvls[i])) { note.textContent = t.screen ? screenUi('screenLevelNone') : screenUi('screenNone'); return; }
   note.textContent = UI.loading;
   try {
     const html = await screenHtmlFor(i);
@@ -239,25 +252,57 @@ function themePicture(theme) {
   return n ? `/makers-assets/themes-512/${encodeURIComponent(theme)}/${encodeURIComponent(n.files[0])}` : '';
 }
 
+const tplOf = (i) => tj.templates.find((x) => x.id === state.tpls[i]);
+const levelIn = (t, want) => (t.levels.includes(want) ? want : (t.levels.includes(2) ? 2 : t.levels[0]));
+const unitIn = (t, want) => { const u = (t.units && t.units[LANG]) || []; return u.length ? (u.some((x) => x.id === want) ? want : u[0].id) : null; };
+const baseTheme = (x) => (x || '').replace(/\s+bw(\s+\d+)?$/i, '');
+/** the theme a page of template t shows: the teacher's pick, else the same subject in the kind this template offers (a
+ *  colouring template offers only black-and-white: animals → animals bw), else the template's first */
+function themeFor(t) {
+  if (!t.themed) return null;
+  const want = state.pickedTheme || state.theme;
+  return t.themes.includes(want) ? want : (t.themes.find((x) => baseTheme(x) === baseTheme(want)) || t.themes[0]);
+}
+/** id / level / theme / unit mirror the selected page */
+function syncActive() {
+  const a = state.active, t = tplOf(a);
+  state.id = t.id; state.level = state.lvls[a]; state.theme = themeFor(t); state.unit = state.units[a] || null;
+}
+const markGallery = () => document.querySelectorAll('.mk-card').forEach((c) => c.setAttribute('aria-current', String(c.dataset.id === state.id)));
+
+/** Select page i: the gallery and the settings now change it. */
+function selectPage(i, rerender) {
+  state.active = Math.max(0, Math.min(i, state.pages.length - 1));
+  syncActive(); markGallery(); buildControls(tplOf(state.active));
+  document.querySelectorAll('.mk-page[data-page]').forEach((p) => p.setAttribute('aria-current', String(Number(p.dataset.page) === state.active)));
+  if (rerender) render(true);
+}
+
+/**
+ * A template from the gallery. The first time (a new worksheet, or a saved one opening) it sets up the pages; after that it
+ * changes the SELECTED page only: its template, its level (kept where the new template has it) and its word — its
+ * picture/word swaps, typed text and drawing belong to the old template and go.
+ */
 function choose(id, first) {
   const t = tj.templates.find((x) => x.id === id);
-  state.id = id;
-  if (!t.levels.includes(state.level)) state.level = t.levels.includes(2) ? 2 : t.levels[0];
-  // the theme the teacher picked, else the same subject in the kind this template offers (a colouring template offers
-  // only black-and-white: animals → animals bw), else the first; going back to a colour template restores her pick
-  if (t.themed) {
-    const want = state.pickedTheme || state.theme;
-    const base = (x) => (x || '').replace(/\s+bw(\s+\d+)?$/i, '');
-    state.theme = t.themes.includes(want) ? want : (t.themes.find((x) => base(x) === base(want)) || t.themes[0]);
-  } else state.theme = null;
-  const units = t.units && t.units[LANG];
-  state.unit = units && units.length ? (units.some((u) => u.id === state.unit) ? state.unit : units[0].id) : null;
-  if (!first) { state.pages = [state.pages[0] || 1]; state.edits = [{}]; state.texts = [{}]; state.ink = []; drawingPage = null; }
+  if (first) {
+    if (!state.tpls.length) {
+      state.tpls = state.pages.map(() => id);
+      state.lvls = state.pages.map(() => levelIn(t, state.level));
+      state.units = state.pages.map((_, i) => unitIn(t, state.units[i] || state.unit));
+    }
+    state.active = 0;
+    if (!state.pickedTheme) state.pickedTheme = themeFor(t);
+  } else {
+    const a = state.active;
+    if (state.tpls[a] === id) return;
+    padPages();
+    state.tpls[a] = id; state.lvls[a] = levelIn(t, state.lvls[a]); state.units[a] = unitIn(t, null);
+    state.edits[a] = {}; state.texts[a] = {}; state.ink[a] = undefined;
+  }
   drawingPage = null;
-  state.units = state.unit ? state.pages.map((_, i) => (i === 0 ? state.unit : state.units[i] || state.unit)) : [];
-  document.querySelectorAll('.mk-card').forEach((c) => c.setAttribute('aria-current', String(c.dataset.id === id)));
-  buildControls(t);
-  render();
+  selectPage(state.active, false);
+  render(!first);
 }
 
 /**
@@ -270,22 +315,27 @@ function choose(id, first) {
  * The optional ones may be shorter than pages (nothing typed, nothing drawn): they are padded to the page count before
  * any move, so a drawing never stays behind on the wrong page.
  */
-const PAGE_ARRAYS = ['pages', 'edits', 'units', 'texts', 'ink'];
+const PAGE_ARRAYS = ['pages', 'tpls', 'lvls', 'edits', 'units', 'texts', 'ink'];
 const clone = (x) => (x === undefined ? undefined : JSON.parse(JSON.stringify(x)));
-function padPages() { for (const k of PAGE_ARRAYS) if (k !== 'units' || state.units.length) while (state[k].length < state.pages.length) state[k].push(undefined); }
+function padPages() { for (const k of PAGE_ARRAYS) while (state[k].length < state.pages.length) state[k].push(k === 'units' ? null : undefined); }
+/* the selected page stays selected through a move / remove / duplicate (the selection follows its page) */
 const pageOps = {
-  remove(i) { drawingPage = null; padPages(); for (const k of PAGE_ARRAYS) state[k].splice(i, 1); },
-  duplicate(i) { if (!canAddPages() || pagesFull()) return; drawingPage = null; padPages(); for (const k of PAGE_ARRAYS) if (state[k].length > i) state[k].splice(i + 1, 0, clone(state[k][i])); },
-  move(i, j) { if (j < 0 || j >= state.pages.length) return; drawingPage = null; padPages(); for (const k of PAGE_ARRAYS) if (state[k].length > Math.max(i, j)) { const [x] = state[k].splice(i, 1); state[k].splice(j, 0, x); } },
+  remove(i) { drawingPage = null; padPages(); for (const k of PAGE_ARRAYS) state[k].splice(i, 1); if (state.active > i || state.active >= state.pages.length) state.active = Math.max(0, state.active - 1); },
+  duplicate(i) { if (!canAddPages() || pagesFull()) return; drawingPage = null; padPages(); for (const k of PAGE_ARRAYS) state[k].splice(i + 1, 0, clone(state[k][i])); if (state.active > i) state.active++; },
+  move(i, j) { if (j < 0 || j >= state.pages.length) return; drawingPage = null; padPages(); for (const k of PAGE_ARRAYS) { const [x] = state[k].splice(i, 1); state[k].splice(j, 0, x); } if (state.active === i) state.active = j; else if (state.active === j) state.active = i; },
 };
+/** after a page operation the selected page may be another template: the gallery and the settings follow it */
+const afterPageOp = () => selectPage(state.active, true);
 
 /**
  * A template's strings at a level: a level that prints its own instruction (and title) uses it — i18n/level-instructions.json
  * (withLevelInstruction), carried in strings.<loc>.json as levels.<n>; a level title replaces the face's print title.
  */
 /** answer key pages are made when the teacher asked for them and the template has a key (interactive or print-only) */
-const keyAt = (t) => t.interactive || (t.keyLevels || []).includes(state.level);
-const keyOn = (t) => !!state.answerKey && keyAt(t);
+const keyAt = (t, level = state.level) => t.interactive || (t.keyLevels || []).includes(level);
+const keyOn = (t, level = state.level) => !!state.answerKey && keyAt(t, level);
+/** does any page have an answer key at its level? (the answer-key setting is one for the whole worksheet) */
+const anyKey = () => state.pages.some((_, i) => keyAt(tplOf(i), state.lvls[i]));
 
 function stringsFor(id, level) {
   const b = strings[id];
@@ -299,7 +349,7 @@ function stringsFor(id, level) {
 
 /** The strings of page i: the template's at this level, with the teacher's title / instruction when she typed one. */
 function pageStrings(i) {
-  const base = stringsFor(state.id, state.level);
+  const base = stringsFor(state.tpls[i], state.lvls[i]);
   const tx = state.texts[i] || {};
   const out = { ...base };
   if (tx.title) { out.title = tx.title; out.printTitle = tx.title; }
@@ -308,11 +358,11 @@ function pageStrings(i) {
 }
 
 function pageSpec(i) {
-  const t = tj.templates.find((x) => x.id === state.id);
+  const t = tplOf(i);
   const units = (t.units && t.units[LANG]) || [];
   if (!units.length) return { variant: state.pages[i], unit: null };
   // every page has its own word (chosen in its header); a new copy changes the page only where the template allows it
-  return { variant: t.copiesDiffer.includes(state.level) ? state.pages[i] : 1, unit: state.units[i] || units[0].id };
+  return { variant: t.copiesDiffer.includes(state.lvls[i]) ? state.pages[i] : 1, unit: state.units[i] || units[0].id };
 }
 
 /*
@@ -336,16 +386,16 @@ function sampleOptions(t) {
 
 /** The makePage options of page i (a colleague's shared worksheet is built from its recipe, not the sample). */
 function pageOptions(i) {
-  const t = tj.templates.find((x) => x.id === state.id);
+  const t = tplOf(i);
   const ps = pageSpec(i);
   return canView()
-    ? { strings: pageStrings(i), locale: LANG, difficulty: state.level, theme: state.theme, unit: ps.unit, variant: ps.variant, pageSize: state.paper, answerKey: keyOn(t), answerKeySuffix: tj.answerKey[LANG], overrides: state.edits[i] && Object.keys(state.edits[i]).length ? state.edits[i] : null }
+    ? { strings: pageStrings(i), locale: LANG, difficulty: state.lvls[i], theme: themeFor(t), unit: ps.unit, variant: ps.variant, pageSize: state.paper, answerKey: keyOn(t, state.lvls[i]), answerKeySuffix: tj.answerKey[LANG], overrides: state.edits[i] && Object.keys(state.edits[i]).length ? state.edits[i] : null }
     : sampleOptions(t);
 }
 
 function pageResult(i) {
   const o = pageOptions(i);
-  const id = state.id;
+  const id = canView() ? state.tpls[i] : state.id;
   const cacheKey = JSON.stringify([id, o.difficulty, o.theme, o.unit, o.variant, o.pageSize, o.answerKey, o.overrides || null, o.strings.title, o.strings.instruction]);
   if (!results.has(cacheKey)) {
     gateQueue = gateQueue.then(async () => mod.generate({ ...o, type: await loadType(id) }, (html) => mod.mountHtml(gateFrame, html)))
@@ -492,6 +542,7 @@ function sheet(html, pageIndex = null, onInk = null) {
   const f = el('iframe', { title: UI.page, srcdoc: shown, scrolling: 'no', style: `width:${P.w}px;height:${P.h}px` });
   guardFrame(f);
   box.append(f);
+  if (pageIndex !== null) f.addEventListener('load', () => { const d = f.contentDocument; if (d) d.addEventListener('pointerdown', () => { if (state.active !== pageIndex) selectPage(pageIndex); }); }, { once: true });
   if (onInk) f.addEventListener('load', () => attachInk(f, pageIndex, onInk), { once: true });
   else if (pageIndex !== null) {
     f.addEventListener('load', () => {
@@ -516,41 +567,46 @@ function sheet(html, pageIndex = null, onInk = null) {
 }
 
 let renderToken = 0;
-async function render() {
+async function render(scrollToSelected) {
   const token = ++renderToken;
   const host = $('mk-pages');
-  const t = tj.templates.find((x) => x.id === state.id);
-  // a button that changes nothing is a defect: where copies at this level are all the same page there is no
-  // "New version", and "Add page" exists only if it can add the next word
-  const differ = t.copiesDiffer.includes(state.level);
+  // a sample (template not opened) is one page: the selected one
+  if (!canView()) { padPages(); const a = state.active; for (const k of PAGE_ARRAYS) state[k] = [state[k][a]]; state.pages[0] = state.pages[0] || 1; state.edits = [{}]; state.ink = []; state.active = 0; drawingPage = null; }
+  const t = tplOf(state.active);
+  // a button that changes nothing is a defect: "New version" only where some page's copies differ at its level, and
+  // "Add page" only where the new page can differ (another copy, the next word) or be switched to another template
+  const differAt = (i) => tplOf(i).copiesDiffer.includes(state.lvls[i]);
   const open = canEdit();
-  $('mk-new').hidden = !open || !differ;
-  const addable = open && (differ || ((t.units && t.units[LANG]) || []).length > 0);
+  $('mk-new').hidden = !open || !state.pages.some((_, i) => differAt(i));
+  const addable = open && (offeredCount > 1 || differAt(state.active) || ((t.units && t.units[LANG]) || []).length > 0);
   $('mk-add').hidden = !addable || !canAddPages();
   $('mk-add').disabled = pagesFull();
-  if (!canView()) { state.pages = [state.pages[0] || 1]; state.edits = [{}]; state.ink = []; drawingPage = null; }
+  const multi = state.pages.length > 1;
+  host.classList.toggle('mk-multi', multi);
   const out = [];
   let refused = 0;
   $('mk-print').disabled = true;
   for (let i = 0; i < state.pages.length; i++) {
     try {
       const html = await makeHtml(i, false);
-      const head = el('div', { class: 'mk-page-head' }, [el('span', { text: `${UI.page} ${i + 1} ${UI.of} ${state.pages.length}` })]);
-      const pageUnits = (t.units && t.units[LANG]) || [];
+      const pt = tplOf(i);
+      // with several pages each header names its page's template (pages may use different ones)
+      const head = el('div', { class: 'mk-page-head' }, [el('span', { text: `${UI.page} ${i + 1} ${UI.of} ${state.pages.length}` }), multi ? el('span', { class: 'mk-page-tpl', text: cardTitle(pt.id) }) : null]);
+      const pageUnits = (pt.units && pt.units[LANG]) || [];
       if (canEdit() && pageUnits.length) {
-        const sel = el('select', { class: 'mk-select', 'aria-label': `${UI.word} · ${UI.page} ${i + 1}`, on: { change: (e) => { state.units[i] = e.target.value; state.edits[i] = {}; state.texts[i] = {}; state.ink[i] = undefined; drawingPage = null; if (i === 0) state.unit = e.target.value; render(); } } });
+        const sel = el('select', { class: 'mk-select', 'aria-label': `${UI.word} · ${UI.page} ${i + 1}`, on: { change: (e) => { state.units[i] = e.target.value; state.edits[i] = {}; state.texts[i] = {}; state.ink[i] = undefined; drawingPage = null; if (i === state.active) syncActive(); render(); } } });
         for (const u of pageUnits) sel.append(el('option', { value: u.id, selected: u.id === state.units[i], text: u.word }));
         head.append(el('label', { class: 'mk-page-word' }, [el('span', { text: UI.word }), sel]));
       }
       if (canEdit()) {
         const tools = el('span', { class: 'mk-page-tools' });
         const n = state.pages.length;
-        tools.append(el('button', { class: 'mk-icon', type: 'button', 'data-act': 'up', title: UI.moveUp, 'aria-label': `${UI.moveUp} · ${UI.page} ${i + 1}`, disabled: i === 0, text: '↑', on: { click: () => { pageOps.move(i, i - 1); render(); } } }));
-        tools.append(el('button', { class: 'mk-icon', type: 'button', 'data-act': 'down', title: UI.moveDown, 'aria-label': `${UI.moveDown} · ${UI.page} ${i + 1}`, disabled: i === n - 1, text: '↓', on: { click: () => { pageOps.move(i, i + 1); render(); } } }));
+        tools.append(el('button', { class: 'mk-icon', type: 'button', 'data-act': 'up', title: UI.moveUp, 'aria-label': `${UI.moveUp} · ${UI.page} ${i + 1}`, disabled: i === 0, text: '↑', on: { click: () => { pageOps.move(i, i - 1); afterPageOp(); } } }));
+        tools.append(el('button', { class: 'mk-icon', type: 'button', 'data-act': 'down', title: UI.moveDown, 'aria-label': `${UI.moveDown} · ${UI.page} ${i + 1}`, disabled: i === n - 1, text: '↓', on: { click: () => { pageOps.move(i, i + 1); afterPageOp(); } } }));
         tools.append(el('button', { class: 'mk-link', type: 'button', 'data-act': 'image', text: UI.saveImage, on: { click: (e) => saveImage(i, e.currentTarget) } }));
         tools.append(el('button', { class: 'mk-link', type: 'button', 'data-act': 'draw', 'aria-pressed': String(drawingPage === i), text: drawingPage === i ? UI.stopDrawing : UI.draw, on: { click: () => { drawingPage = drawingPage === i ? null : i; render(); } } }));
-        if (canAddPages()) tools.append(el('button', { class: 'mk-link', type: 'button', 'data-act': 'duplicate', disabled: pagesFull(), text: UI.duplicatePage, on: { click: () => { pageOps.duplicate(i); render(); } } }));
-        if (n > 1) tools.append(el('button', { class: 'mk-link', type: 'button', 'data-act': 'remove', text: UI.removePage, on: { click: () => { pageOps.remove(i); render(); } } }));
+        if (canAddPages()) tools.append(el('button', { class: 'mk-link', type: 'button', 'data-act': 'duplicate', disabled: pagesFull(), text: UI.duplicatePage, on: { click: () => { pageOps.duplicate(i); afterPageOp(); } } }));
+        if (n > 1) tools.append(el('button', { class: 'mk-link', type: 'button', 'data-act': 'remove', text: UI.removePage, on: { click: () => { pageOps.remove(i); afterPageOp(); } } }));
         head.append(tools);
       }
       let inkBar = null, onInk = null;
@@ -568,8 +624,9 @@ async function render() {
         inkBar.append(undo, clear);
         onInk();
       }
-      out.push(el('div', { class: 'mk-page' }, [head, ...(inkBar ? [inkBar] : []), sheet(html, canEdit() ? i : null, onInk)]));
-      if (keyOn(t)) {
+      // touching a page selects it: the gallery and the settings then change that page
+      out.push(el('div', { class: 'mk-page', 'data-page': String(i), 'aria-current': String(i === state.active), on: { pointerdown: () => { if (state.active !== i) selectPage(i); } } }, [head, ...(inkBar ? [inkBar] : []), sheet(html, canEdit() ? i : null, onInk)]));
+      if (keyOn(pt, state.lvls[i])) {
         const key = await makeHtml(i, true);
         if (key) out.push(el('div', { class: 'mk-page' }, [el('div', { class: 'mk-page-head' }, [el('span', { text: `${UI.answerKey} · ${UI.page} ${i + 1}` })]), sheet(key)]));
       }
@@ -585,12 +642,13 @@ async function render() {
   if (addable && canAddPages() && pagesFull()) out.push(el('p', { class: 'mk-note', 'data-note': 'max-pages', text: UI.maxPages.replace('{n}', MAX_PAGES) }));
   if (addable && !canAddPages() && access.kind !== 'anon') out.push(el('p', { class: 'mk-note', 'data-note': 'pages-plan' }, [UI.morePagesPlan + ' ', el('a', { href: `/${LANG}/pricing`, text: UI.seePlans, on: { click: (e) => { e.preventDefault(); goTo(`/${LANG}/pricing`); } } })]));
   host.replaceChildren(...out);
+  if (scrollToSelected && multi) { const p = host.querySelector(`.mk-page[data-page="${state.active}"]`); if (p) p.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); }
   // never ship a page that failed a gate: no printing while any page is refused
   $('mk-print').disabled = refused > 0;
   // a sample page is never printed: no Print button at all (a button that cannot be used explains nothing; the card does)
   $('mk-print').hidden = !canView();
   // the screen version: only where this template's level derives one from its marks (templates.json screen / screenLevels)
-  $('mk-screen').hidden = !canView() || !screenAt(t);
+  $('mk-screen').hidden = !canView() || !state.pages.some((_, i) => screenAt(tplOf(i), state.lvls[i]));
   $('mk-pdf').hidden = !canView() || !showRasterPdf();
   updateSaveButtons();
   $('mk-pdf').disabled = refused > 0;
@@ -689,7 +747,9 @@ function buildControls(t) {
   if (shared) { c.replaceChildren(sharedCard()); return; }
   if (!isOpen(t.id)) { c.replaceChildren(el('span', { class: 'mk-label', text: UI.sample }), accessCard()); return; }
   const kids = [];
-  if (t.levels.length > 1) kids.push(chipGroup(UI.level, t.levels, state.level, (v) => { if (v !== state.level) state.ink = []; drawingPage = null; state.level = v; buildControls(t); render(); }));
+  // with several pages: which page these settings change (the selected page also carries the coral outline)
+  if (state.pages.length > 1) kids.push(el('span', { class: 'mk-editing', 'data-editing': String(state.active + 1), text: `${UI.page} ${state.active + 1}` }));
+  if (t.levels.length > 1) kids.push(chipGroup(UI.level, t.levels, state.level, (v) => { const a = state.active; if (v !== state.lvls[a]) state.ink[a] = undefined; drawingPage = null; state.lvls[a] = v; syncActive(); buildControls(t); render(); }));
   if (t.themed && t.themes.length > 1) {
     const g = el('div', { class: 'mk-group', role: 'group', 'aria-label': UI.pictures }, [el('span', { class: 'mk-label', text: UI.pictures })]);
     // colour or black-and-white: a switch picks which strip is shown (a page uses one theme, never a mix); inside the
@@ -727,7 +787,7 @@ function buildControls(t) {
   kids.push(el('button', { type: 'button', class: 'mk-more', 'aria-expanded': String(state.more), text: (state.more ? '− ' : '+ ') + UI.moreOptions, on: { click: () => { state.more = !state.more; buildControls(t); } } }));
   if (state.more) {
     const more = el('div', { class: 'mk-more-box' });
-    if (keyAt(t)) more.append(chipGroup(UI.answerKey, [false, true], state.answerKey, (v) => { state.answerKey = v; buildControls(t); render(); }, (v) => (v ? '✓' : '—')));
+    if (anyKey()) more.append(chipGroup(UI.answerKey, [false, true], state.answerKey, (v) => { state.answerKey = v; buildControls(t); render(); }, (v) => (v ? '✓' : '—')));
     more.append(chipGroup(UI.paper, ['letter', 'a4'], state.paper, (v) => { state.paper = v; buildControls(t); render(); }, (v) => UI[v]));
     more.append(chipGroup(UI.pageNumbers, [false, true], state.pageNumbers, (v) => { state.pageNumbers = v; buildControls(t); render(); }, (v) => (v ? '✓' : '—')));
     more.append(chipGroup(UI.border, Object.keys(BORDERS), state.border, (v) => { state.border = v; buildControls(t); render(); }, (v) => UI['border_' + v]));
@@ -736,7 +796,7 @@ function buildControls(t) {
   c.replaceChildren(...kids);
   // say once that the page can be tapped — only where this template exposes slots (filled in after the first page)
   // the hint names only what this template lets her tap: pictures/words where it has slots, the title + instruction always
-  pageResult(0).then((r) => { if (r.ok && isOpen(t.id) && !c.querySelector('.mk-tap-hint')) c.append(el('p', { class: 'mk-tap-hint', text: r.slots && Object.keys(r.slots).length ? UI.tapHint : UI.tapHintText })); });
+  pageResult(state.active).then((r) => { if (r.ok && isOpen(t.id) && !c.querySelector('.mk-tap-hint')) c.append(el('p', { class: 'mk-tap-hint', text: r.slots && Object.keys(r.slots).length ? UI.tapHint : UI.tapHintText })); });
 }
 
 /** A gallery card names the worksheet TYPE: the slot for one page's word ({UNIT}, with its ': ' or quotes) is dropped. */
@@ -784,10 +844,9 @@ async function spendDownload() {
 
 /** The worksheet's pages (+ answer keys) as html documents, in print order. */
 async function allDocs() {
-  const t = tj.templates.find((x) => x.id === state.id);
   const docs = [];
   for (let i = 0; i < state.pages.length; i++) docs.push(await makeHtml(i, false));
-  if (keyOn(t)) for (let i = 0; i < state.pages.length; i++) { const k = await makeHtml(i, true); if (k) docs.push(k); }
+  for (let i = 0; i < state.pages.length; i++) if (keyOn(tplOf(i), state.lvls[i])) { const k = await makeHtml(i, true); if (k) docs.push(k); }
   return docs;
 }
 
@@ -887,7 +946,7 @@ async function pinnedVersion(recipe, entry) {
 
 /** The worksheet on screen as a recipe (shell/recipe.js). */
 function currentRecipe() {
-  return toRecipe(state, { maker: MAKER, makerVersion, dataVersion, lang: LANG, title: pageStrings(0).title });
+  return toRecipe(state, { maker: MAKER, makerVersion, dataVersion, lang: LANG, title: pageStrings(0).title, themes: state.pages.map((_, i) => themeFor(tplOf(i))) });
 }
 
 /** Save and Share are for the teacher's own worksheets; "Saved" while nothing changed since the last save. */

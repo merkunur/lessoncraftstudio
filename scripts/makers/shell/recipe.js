@@ -2,13 +2,14 @@
  * The recipe (ARCHITECTURE §5.1): what a saved worksheet IS — the settings that rebuild it, never the rendered page.
  * Pure functions, used by the maker screen and by Node tests (scripts/makers/tests/recipe.test.js).
  *
- *   toRecipe(state, ctx)  → recipe     ctx = { maker, makerVersion, dataVersion, lang, title }
+ *   toRecipe(state, ctx)  → recipe     ctx = { maker, makerVersion, dataVersion, lang, title, themes? }
+ *                                      (themes[i] = page i's theme; the screen resolves it per page's template)
  *   fromRecipe(recipe)    → state      (the screen's state object; throws a RecipeError on anything malformed)
  *   recipeBytes(recipe)   → size in bytes of its JSON (the store refuses more than MAX_RECIPE_BYTES)
  *
  * Adapted from §5.1 to the screen as built:
- *   - one template per worksheet (pages[i].template is the same on every page; kept per page so a later mixed
- *     worksheet needs no schema change);
+ *   - every page has its own template and level (operator 2026-11-01: a worksheet may mix templates of one maker);
+ *     the theme is the teacher's one pick, resolved per page to what that page's template offers;
  *   - seed "v:<n>" = the page's copy number (the screen's variant); the page is made by the same gated generate()
  *     ladder, so the same maker version + data version + copy number rebuild the same page byte for byte;
  *   - decor = { border, pageNumbers } for the whole worksheet;
@@ -58,10 +59,10 @@ export function toRecipe(state, ctx) {
     const ed = state.edits[i] || {};
     const ink = state.ink[i] || [];
     return {
-      template: state.id,
-      level: state.level,
+      template: (state.tpls && state.tpls[i]) || state.id,
+      level: state.lvls && state.lvls[i] !== undefined ? state.lvls[i] : state.level,
       seed: `v:${variant}`,
-      theme: state.theme,
+      theme: ctx.themes && ctx.themes[i] !== undefined ? ctx.themes[i] : state.theme,
       unit: state.units[i] || null,
       strings: { title: tx.title || null, instruction: tx.instruction || null },
       edits: Object.keys(ed).length ? ed : null,
@@ -86,19 +87,22 @@ export function fromRecipe(r) {
   if (!r || r.v !== RECIPE_VERSION) throw new RecipeError('unknown recipe version');
   if (!Array.isArray(r.pages) || !r.pages.length || r.pages.length > 10) throw new RecipeError('a worksheet has 1 to 10 pages');
   const first = r.pages[0];
-  if (!r.pages.every((p) => p.template === first.template)) throw new RecipeError('one template per worksheet');
+  if (!r.pages.every((p) => typeof p.template === 'string' && p.template && Number.isInteger(p.level))) throw new RecipeError('every page names its template and level');
   const variant = (p) => { const m = /^v:(\d{1,9})$/.exec(p.seed || ''); if (!m) throw new RecipeError('bad seed'); return Number(m[1]); };
   return {
     id: first.template,
     level: first.level,
     theme: first.theme || null,
-    pickedTheme: first.theme || null,
+    pickedTheme: (r.pages.find((p) => p.theme) || {}).theme || null,
     unit: first.unit || null,
+    tpls: r.pages.map((p) => p.template),
+    lvls: r.pages.map((p) => p.level),
+    active: 0,
     answerKey: !!r.answerKey,
     paper: r.paper === 'letter' ? 'letter' : 'a4',
     pages: r.pages.map(variant),
     edits: r.pages.map((p) => (p.edits && typeof p.edits === 'object' ? p.edits : {})),
-    units: first.unit ? r.pages.map((p) => p.unit || first.unit) : [],
+    units: r.pages.map((p) => p.unit || null),
     texts: r.pages.map((p) => ({ ...(p.strings && p.strings.title ? { title: String(p.strings.title) } : {}), ...(p.strings && p.strings.instruction ? { instruction: String(p.strings.instruction) } : {}) })),
     ink: r.pages.map((p) => (Array.isArray(p.ink) && p.ink.length ? p.ink.map(decStroke) : undefined)),
     border: (r.decor && r.decor.border) || 'none',

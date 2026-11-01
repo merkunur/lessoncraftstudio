@@ -35,7 +35,13 @@ const { pathToFileURL } = require('url');
   bad('unknown recipe version', (x) => { x.v = 99; });
   bad('no pages', (x) => { x.pages = []; });
   bad('eleven pages', (x) => { x.pages = Array.from({ length: 11 }, () => x.pages[0]); });
-  bad('two templates', (x) => { x.pages[1].template = 'K-389'; });
+  bad('a page without a template', (x) => { delete x.pages[1].template; });
+  bad('a page without a level', (x) => { x.pages[1].level = 'two'; });
+  // a worksheet that mixes templates (operator 2026-11-01): each page keeps its own template, level and theme
+  const mixed = { ...state, tpls: ['K-388', 'K-389', 'K-388'], lvls: [3, 1, 2] };
+  const mr = R.toRecipe(mixed, { ...ctx, themes: [null, 'animals', null] });
+  const mb = R.fromRecipe(JSON.parse(JSON.stringify(mr)));
+  check('a mixed worksheet keeps every page template, level and theme', JSON.stringify(mb.tpls) === JSON.stringify(mixed.tpls) && JSON.stringify(mb.lvls) === JSON.stringify(mixed.lvls) && mr.pages[1].theme === 'animals' && mb.pickedTheme === 'animals' && mb.id === 'K-388' && mb.level === 3, { tpls: mb.tpls, lvls: mb.lvls });
   bad('a malformed seed', (x) => { x.pages[0].seed = 'r:zz'; });
   bad('an unknown ink colour', (x) => { x.pages[0].ink = ['pink|1,2 3,4']; });
 

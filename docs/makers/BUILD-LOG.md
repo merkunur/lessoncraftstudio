@@ -7,6 +7,67 @@ records what is BUILT, measured and committed, step by step, so any session can 
 
 > 🛑 **NO DEPLOY (operator 2026-10-31):** no worksheet maker goes live until all 60 are built, tested and finalized locally. The pilot trio is a LOCAL pilot (built + reviewed at http://localhost:8490/), not a go-live. Everything is committed; nothing maker-related is deployed. The launch is one release of all 60.
 
+## Every page has its own template (2026-11-01, operator: "When the user adds pages he cannot add different templates")
+
+- The screen kept ONE template for the whole worksheet: Add page could only add another copy of it, and a gallery click
+  threw the other pages away. Now every page carries its own template and level (`state.tpls` / `state.lvls`).
+- Touching a page selects it (coral outline; the settings start with a "Page 2" badge); the gallery and the settings
+  change the SELECTED page. Add page adds a page of the selected page's template and selects it, so the next gallery
+  click changes the new page. With several pages each header names its template. The selection follows its page through
+  move / duplicate / remove. The theme stays one pick for the worksheet, shown per page as that template offers it.
+- The answer-key setting appears when any page has a key; each page prints its own key; New version, the screen version
+  and the downloads go page by page.
+- Recipe: each page stores its template, level and theme (the schema always had them per page); `fromRecipe` no longer
+  refuses a mixed worksheet, it refuses a page without a template or level. A reopened saved worksheet counts every
+  template on it as opened (a free account's saved copy stays editable on every page).
+- Gates: click-shell +7 checks (select page 2, gallery changes page 2 only, labels, gallery mark follows the selection,
+  Add page copies the selected template, remove keeps the selection, a mixed worksheet prints); saves-shell saves and
+  reopens a K-002 + other-template worksheet byte for byte; recipe test round-trips a mixed recipe.
+
+## Task 1 of the ten (Fable 5.1): screen versions from the answer marks (2026-11-01, commits 8cb6e9dae, fe79ac4ab)
+
+- Handoff: `docs/makers/handoff/01-screen-from-marks.md` (verified by the main session against the commits and files).
+- Engine `scripts/makers/screen.js` (in every maker bundle): the screen build (`ctx.screen`) reads the page's answer
+  marks → typed boxes, choice, select, pair (`data-lcs-key-badge` + `data-lcs-pair`), place; answers stripped from the
+  served page; Check / Try again ×11. Runtime split into `emit/interactive-runtime-core.js` (byte-identical output,
+  test `scripts/makers/tests/interactive-runtime-split.test.js`). Verdicts `scripts/makers/screen-verdicts.json`
+  (writing / many-answers / material / later, per id and per level), `build-screens.js` writes them into templates.json;
+  the maker has a "Screen version" preview. Gate `gates/screen-from-marks.js` (real clicks, key parity, no tell,
+  classification).
+- Totals after B1 #10: 109 marks screens + 209 declared across the built makers.
+- The 5 generic screen sentences + 4 labels ×11 (`i18n/screen-instructions.json`): ONE native reviewer, 8 errors applied
+  ("then tap Check" after ONE box → "When you're done, tap Check Answers" ×11, es-MX quotes, no tense, it pronoun, pt
+  "quadradinho", da wording ×2, it screenNone) + optional wording.
+- Open (operator / later): phone (360 px) page items ~17 px are reported, not failed; `later`: K-454, G1-447, K-389; the
+  443 declared screens are not previewed in the maker; ARCHITECTURE §D.1 amendments not yet applied.
+
+## B1 maker 10: Multiplication & Division (`multiplication-division`) — 33 templates + 6 new (2026-11-01) — B1 COMPLETE
+
+- The 33 existing templates bundle with no engine change. G3-380 (share it out) offered the divisor sets "6-9" and
+  "2-9", which its level 2 (the published face) refuses (a deal row holds 7 homes; 8 and 9 do not fit): the catalogue never
+  built them, so G3-380 now offers only "2-5" (`unitAxis` override; catalogue unchanged). G3-311 passes every page on its
+  own retry knob (`arrFit:2`, the published array overflows the browser's first layout) — reported, not changed.
+- New templates (NEW-TEMPLATES §13; T6 is the number-bonds triangles, T7 built), `types/_shared/md-more.js`; every sign
+  from `types/_shared/notation.js` (· and : / / per country; never ÷ in Swedish — the verify checks the page):
+  - G3-407 the multiplication square (5 × 5 / 10 × 10 / headers only); blanks come in mirror pairs (review: a printed
+    4 × 2 beside a blank 2 × 4 is copied, not multiplied).
+  - G3-408 division facts (20 / 40 / 60; never ÷ 1, never quotient 0).
+  - G3-409 fact of the day: groups, array, skip strip, both products, both quotients (panels sized to fill the page).
+  - G2-411 draw the array on a dot grid (L2/L3 also the total).
+  - G3-410 strategy chains ×4 / ×8 / ×5 / ×9, products within 100.
+  - G3-411 keyring table cards (material; L3 answers blank).
+- One native + pedagogy reviewer: 11 errors fixed (de Geteiltaufgaben / Tauschaufgabe / Umkehraufgaben, fr par bonds,
+  pt conte pulando / cartões / tabuada da divisão, it cartoncini, es-MX argolla, da gangetabellen, en skip-count, nl
+  keersommen / deelsommen) + most optional points; layout: commas on the skip strip, parentheses without inner spaces.
+  The English "Answer key" heading is my preview script only. The order convention (a × b = a groups of b) matched every
+  country; G2-411 states it.
+- Coverage: G3-407/408/411 → 3:times-tables, G3-409/410 → 3:commutative, G2-411 → 2:arrays.
+- Picture swap on the picture faces: `array-tasks.js` (K-027, G2-209/210/212/213/216/217, G3-301/302/309/311/312/314),
+  G2-211, G3-377 and its share face G3-380 (`pic`, one index per card); the numeral templates are on the slots gate's
+  no-slot list. Catalogue identical (slots gate).
+- **B1 is complete (10 makers).** Next per the operator ruling (INTERACTIVE-AND-SHARING §F): the generic screen engine
+  (agent 1, in progress) + the B1 retrofit, then B2.
+
 ## B1 maker 9: Fractions (`fractions`) — 16 templates + 5 new (2026-11-01)
 
 - The 16 existing templates bundle with no engine change (all already interactive).

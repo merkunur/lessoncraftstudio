@@ -17,7 +17,7 @@
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { labelSafeNouns, fileUri } = require('../../image-cache/resolve.js');
 const slot = require('../../lib/slot.js');
-const { answerBox } = require('../../templates/components.js');
+const { answerBox, distractorsFor } = require('../../templates/components.js');
 const tenFrame = require('../../primitives/ten-frame.js');
 const rekenrek = require('../../primitives/rekenrek.js');
 const diceFace = require('../../primitives/dice.js');
@@ -120,9 +120,12 @@ function makeFrameMoreType(cfg) {
             usedTotals.add(a + b); v = a + b; pic = domino({ a, b, size: 108 }).svg;
           }
           // distractors within ±2 (never an absurd choice), on both sides where they exist; the answer at a balanced place
-          const lo = d.kind === 'die' ? 1 : 2, hi = d.kind === 'die' ? d.max : 12;
-          const near = [v - 1, v + 1, v - 2, v + 2].filter((x) => x >= lo && x <= hi);
-          const wrong = rng.shuffle(near.slice(0, Math.max(d.choices - 1, 0) + 1)).slice(0, d.choices - 1);
+          // as much room above the top value as below the lowest (dice 4–9 with wrong numbers down to 1 but never past 9 forced
+          // an 8 or 9 to be the largest choice)
+          const lo = d.kind === 'die' ? 1 : 2, hi = d.kind === 'die' ? d.max + (d.min - 1) : 12;
+          // the RANK of the answer among the choices is balanced too (templates/components distractorsFor): one below and one
+          // above, taken first, made the answer the middle number 54–65 % of the time (task 4 settings-space, 2026-11-01)
+          const wrong = distractorsFor({ correct: v, count: d.choices - 1, min: lo, max: hi, rng, deltas: d.choices > 3 ? [-3, -2, -1, 1, 2, 3] : [-2, -1, 1, 2] });   // four choices need ±3 to reach every rank
           while (wrong.length < d.choices - 1) { const x = [v + 3, v - 3, v + 4].find((y) => y >= lo && y <= hi && !wrong.includes(y)); if (x === undefined) break; wrong.push(x); }
           const choices = rng.shuffle(wrong);
           choices.splice(pos[i], 0, v);

@@ -34,8 +34,11 @@ module.exports = {
     const cards = [];
     const truth = [];
     for (let i = 0; i < d.rows; i++) {
-      const a = rng.int(1, d.maxTotal - 1);
-      const b = rng.int(1, d.maxTotal - a);
+      // the TOTAL first, evenly over 2 … maxTotal, then the split: a first and b "up to the max" made the top total the
+      // commonest answer (task 4 settings-space, 2026-11-01)
+      const total = rng.int(2, d.maxTotal);
+      const a = rng.int(1, total - 1);
+      const b = total - a;
       const fitA = fitIcons({ n: a, stageW: 190, stageH: 120, maxPx: 50, gapX: 6, gapY: 5 });
       const fitB = fitIcons({ n: b, stageW: 190, stageH: 120, maxPx: 50, gapX: 6, gapY: 5 });
       const op = (ch) => `<span style="font-family:'Baloo 2';font-weight:700;font-size:34px;color:#146B5E">${ch}</span>`;

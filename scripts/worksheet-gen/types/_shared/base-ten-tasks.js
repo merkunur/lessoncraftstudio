@@ -107,9 +107,19 @@ function makeBaseTenType(cfg) {
             answerBox({ w: 64, h: 54, answer: t }) + OP(MUL) + NUM(10) + OP('=') + answerBox({ w: 84, h: 54, answer: t * 10 }) + `</span></div>`;
         } else if (mode === 'add' || mode === 'sub') {
           // no-regrouping pairs
-          let t1 = rng.int(1, L.t1Hi), o1 = rng.int(1, L.o1Hi), t2, o2;
-          if (mode === 'add') { t2 = rng.int(1, L.tSum - t1); o2 = rng.int(1, L.oSum - o1); }
-          else { t2 = rng.int(1, t1); o2 = rng.int(1, o1); }
+          // The RESULT's tens and ones are drawn first, evenly, then split into the two numbers. Drawing the first number and
+          // then the second up to the limit made the biggest total the commonest (level 1: 45 on 29–46 % of the rows) and
+          // the smallest difference the commonest (task 4 settings-space, 2026-11-01). Still no regrouping either way.
+          let t1, o1, t2, o2;
+          if (mode === 'add') {
+            const T = rng.int(2, L.tSum), O = rng.int(2, L.oSum);
+            t1 = rng.int(Math.max(1, T - (L.tSum - 1)), Math.min(L.t1Hi, T - 1)); t2 = T - t1;
+            o1 = rng.int(Math.max(1, O - (L.oSum - 1)), Math.min(L.o1Hi, O - 1)); o2 = O - o1;
+          } else {
+            const tr = rng.int(0, L.t1Hi - 1), or = rng.int(0, L.o1Hi - 1);
+            t2 = rng.int(1, L.t1Hi - tr); t1 = tr + t2;
+            o2 = rng.int(1, L.o1Hi - or); o1 = or + o2;
+          }
           // hundreds only on level 3 — drawn after the rest, so levels 1-2 keep their rng sequence
           const h1 = L.hHi ? rng.int(1, L.hHi) : 0;
           const a = h1 * 100 + t1 * 10 + o1, b = t2 * 10 + o2;

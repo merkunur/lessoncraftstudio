@@ -169,8 +169,12 @@ function makeCountingMoreType(cfg) {
 
       if (mode === 'count-on') {
         for (let i = 0; i < n; i++) {
-          const box = rng.int(d.box[0], d.box[1]);
-          const loose = rng.int(d.loose[0], Math.min(d.loose[1], 10 - box));   // the total stays within 10
+          // the TOTAL first, evenly over what the level can make (within 10), then the box and the loose pictures: the box
+          // first and then loose pictures "up to 10" made 10 the answer on 50–56 % of the level-3 cards (task 4
+          // settings-space, 2026-11-01)
+          const total = rng.int(d.box[0] + d.loose[0], Math.min(10, d.box[1] + d.loose[1]));
+          const box = rng.int(Math.max(d.box[0], total - d.loose[1]), Math.min(d.box[1], total - d.loose[0]));
+          const loose = total - box;
           const px = loose > 3 ? 60 : 76;
           // a closed, taped cardboard box (two shut flaps, a strip of tape): the things are hidden inside; only the number shows
           const example = d.trail && i === 0;

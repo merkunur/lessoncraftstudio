@@ -39,6 +39,13 @@ records what is BUILT, measured and committed, step by step, so any session can 
   always the biggest → chain shape + side directions drawn for a balanced size rank, a side may go to 1. K-276 L1 sums
   3–6 → 4–7 (a whole of 3 had no believable smaller wrong number). Picture equations (G1-101…104, G1-115), K-451, G1-105
   drew the answer last, so the top sum / "1 left" filled half the boxes → the answer is drawn first (even spread).
+- **Round 2 (after the re-run: 95 → 24 replicated tells):** G2-203 / G2-205 base-ten add / subtract drew the first
+  number and filled the second to the limit (level 1 total 45 on 29–46 % of rows) → the result's tens and ones first;
+  K-028, K-444 L3 (10 on 50–56 %) → the total first; K-450 quick look → the shared balanced-rank helper, as much room
+  above the top value as below, ±3 for four choices. 11 more exemptions with reasons (bins, fact families, shared
+  denominators, the count-on trail, the facts drill, the make-ten bridge, fact of the day, the ×1 row, rounding within 50).
+  **Still open, recorded (mild, 13–23 %):** G2-397 L1 (digit 1 answers 23 %), G2-224 L2 (digits 1–4), K-031 (marked
+  positions often adjacent → previous + 1).
 - **K-243 family L3:** "New version" past copy 2 threw → every further copy is another mixed page.
 - **Screen geometry:** K-458 hit boxes `fill="none"` took no tap → painted at opacity 0; G3-406 L1 tick boxes reached
   120 px past the line → ≤ 72 px; G2-410 L3 the match target covered the write boxes → it sits on the word.
@@ -53,7 +60,7 @@ records what is BUILT, measured and committed, step by step, so any session can 
   the "+1" box of near doubles; unit fractions at G2-409 L1; set placeholders (G1-351, G1-456, G3-387).
 
 ### 🛑 Published pages changed by these fixes — need an in-place republish (server step, not done)
-G2-225, G1-133, G2-223, G2-212, K-002, K-017, K-018 (and every other published user of `distractorsFor`), K-276 (L1
+G2-225, G1-133, G2-223, G2-212, G2-203, G2-205, K-028, K-002, K-017, K-018 (and every other published user of `distractorsFor`), K-276 (L1
 Level Set decks), G1-101, G1-102, G1-103, G1-104, G1-115, G1-105 — plus G2-224 from B1 #8. Interactive decks of these
 types must be rebuilt by the publish pipeline, not by hand.
 

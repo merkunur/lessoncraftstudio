@@ -44,9 +44,11 @@ Every agent reads this file first. Its brief names its task number.
 7. **Git:** commit only your own work, with explicit paths (`git add <paths>`, never `git add .`), message
    `[FEATURE|CHORE][MAKERS] …` ending with `Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>`. Never commit renders,
    screenshots, `out/`, or `docs/audit-results/mobile/*`. Delete your test screenshots and leftovers when done.
-8. Run, before you finish: the full `node scripts/makers/build-bundles.js`, then every gate in `scripts/makers/gates/`
-   (the loop in BUILD-LOG), and `scripts/makers/tests/*.test.js`. Report failures honestly; a failing gate you did not
-   cause is reported, not hidden.
+8. **Run only the checks for YOUR work** before you finish: your own gates and tests, plus the existing gates your
+   change can affect (e.g. parity + slots for a shared-module change, the shell gates for a shell change), under the lock
+   only when you rebuild. **Never run the full build + all-gates loop** — it takes over an hour and, under the shared
+   lock, it queued three agents behind each other for hours (2026-11-01). The main session runs the full suite after
+   you report. Report failures honestly; a failing gate you did not cause is reported, not hidden.
 9. **No own-image upload, anywhere** (operator ruling 2026-11-01): pictures come only from the reviewed library; do not
    build, plan or keep any upload / own-photo path.
 10. **Handoff:** write `docs/makers/handoff/<NN>-<slug>.md` (≤ 1 page): what is built and committed (hashes), how it was
